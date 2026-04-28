@@ -1,0 +1,9 @@
+question: Cứ sau bao nhiêu khối thì xảy ra halving?
+answer: 210.000
+wrong_answers:
+  - 2.016
+  - 100.000
+  - 21.000.000
+explanation: |
+  Giao thức áp dụng halving tại mỗi bội số của 210.000 theo chiều cao khối.
+reviewed: false

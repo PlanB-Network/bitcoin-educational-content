@@ -1,0 +1,10 @@
+question: Minkä vaihtoalustan 24000 bitcoinia varastettiin syyskuun 2012 alussa?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Syyskuun 3. ja 4. päivän välisenä yönä 2012 hakkeri pääsi käsiksi Bitfloorin wallet-avainten salaamattomaan varmuuskopioon ja onnistui nostamaan hieman yli 24 000 BTC:ta eli wallet-avainta
+ noin 250 000 dollaria tuolloin.
+reviewed: true

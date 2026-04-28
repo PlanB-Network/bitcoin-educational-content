@@ -1,5 +1,6 @@
 ---
-term: Bitcoin 무제한
+term: Bitcoin Unlimited
+definition: 가변적인 블록 크기를 허용하는 2016년의 하드 포크 제안으로, 최종적으로 채택되지 않음.
 ---
 
 2016년 늦여름에 등장한 Hard Fork을 통해 블록 크기를 유연하게 늘리는 것을 목표로 하는 Bitcoin 프로토콜 업데이트 제안입니다.

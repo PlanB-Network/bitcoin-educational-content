@@ -1,0 +1,8 @@
+question: Koji makro obrazac sintakse bi ispravno odgovarao nuli ili više izraza odvojenih zarezima u prilagođenom makrou nalik funkciji?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Ispravna sintaksa $($x:expr),* koristi Rust obrazac ponavljanja gde znak dolara uvodi grupu ponavljanja, $x:expr odgovara svakom izrazu sa specifikatorom fragmenta expr, zarez deluje kao separator između izraza, a zvezdica (*) označava nula ili više ponavljanja. Pogrešni odgovori sadrže sintaksne greške: $($x:expr)*, postavlja zarez izvan grupe ponavljanja, $[x:expr],* koristi uglaste zagrade umesto običnih i izostavlja znak dolara pre x, i ${$x:expr},* koristi vitičaste zagrade umesto običnih za grupu ponavljanja.

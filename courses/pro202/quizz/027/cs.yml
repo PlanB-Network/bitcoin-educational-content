@@ -1,0 +1,8 @@
+question: Co se stane se zásobníkem po provedení OP_CHECKSIG, když se ověření podpisu podaří?
+answer: Na zásobník se vloží hodnota 1
+wrong_answers:
+  - Podpis a veřejný klíč zůstávají na zásobníku
+  - Zásobník je vymazán a resetován na prázdný
+  - Hash veřejného klíče je vložen na zásobník
+explanation: |
+  OP_CHECKSIG je opkód pro transformaci zásobníku, který ze zásobníku odebere podpis a veřejný klíč, ověří podpis proti sighash transakce a na zásobník vloží buď 1 (pro platný podpis), nebo 0 (pro neplatný podpis). Původní podpis a veřejný klíč jsou během tohoto procesu odstraněny. Zásobník se nevymaže celý a nevloží se do něj žádné hodnoty hash - pouze logický výsledek ověřovací operace.

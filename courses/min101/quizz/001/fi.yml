@@ -1,0 +1,9 @@
+question: Mitä Bitcoin-solmu tekee tarkistuksen jälkeen voimassa olevalle, mutta vahvistamattomalle siirrolle?
+answer: Se välittää sen vertaisilleen
+wrong_answers:
+  - Se lisää sen paikalliseen lohkoketjukopioonsa
+  - Se allekirjoittaa sen yksityisellä avaimellaan
+  - Se salaa sen julkisella avaimellaan
+explanation: |
+  Bitcoin-verkossa jokainen solmu välittää voimassa olevat siirrot solmuille, joihin se on yhteydessä.
+reviewed: false

@@ -15,7 +15,7 @@ W tym samouczku pokażemy, jak w prosty sposób przyczynić się do tłumaczenia
 - treści edukacyjne (samouczki, kursy, zasoby...).
 
 
-Do tłumaczenia treści edukacyjnych używamy [sztucznej inteligencji] (https://github.com/Asi0Flammeus/LLM-Translator). Następnie, aby poprawić ewentualne błędy w tych plikach, zapraszamy korektorów do udziału. Jeśli chcesz dokonać korekty niektórych treści, zapoznaj się z poniższym samouczkiem:
+Do tłumaczenia treści edukacyjnych używamy [sztucznej inteligencji](https://github.com/Asi0Flammeus/LLM-Translator). Następnie, aby poprawić ewentualne błędy w tych plikach, zapraszamy korektorów do udziału. Jeśli chcesz dokonać korekty niektórych treści, zapoznaj się z poniższym samouczkiem:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -40,7 +40,7 @@ Gdy będziesz gotowy do rozpoczęcia tłumaczenia, wróć do tego samouczka i za
 
 
 
-- Wejdź na stronę [self-hosted Weblate of Plan ₿ Academy] (https://weblate.planb.network/):
+- Wejdź na stronę [self-hosted Weblate of Plan ₿ Academy](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 

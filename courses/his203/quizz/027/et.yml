@@ -1,0 +1,11 @@
+question: Millise probleemi lahendas deterministlik wallet kontseptsioon, mille arendaja Gregory Maxwell vormistas 2011. aasta juunis?
+answer: Vajadus privaatvõtmete regulaarsete varukoopiate järele, et kindlustada bitcoinid
+wrong_answers:
+  - Piraatluse oht, mis on seotud bitcoinide hoidmisega internetiga ühendatud seadmes
+  - Haavatavus brute force'i rünnakutele juhusliku numbri generaatorite madala entroopia tõttu
+  - Võimatus kasutada kontot teises seadmes uuesti
+explanation: |
+ Deterministlik wallet kohaldab võtme tuletamist: selle asemel, et olla generated individuaalselt juhuslikult, nagu tehti põhitarkvaras, tuletatakse privaatvõtmed
+ deterministlikult teabest (nn seed), kasutades krüptograafilisi funktsioone. Seda meetodit kohaldati BitcoinSpinner ja Electrum tarkvara puhul
+ wallets 2011. aasta lõpus.
+reviewed: true

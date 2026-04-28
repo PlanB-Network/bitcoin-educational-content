@@ -27,7 +27,7 @@ Kuva mu bihe vya kera ukwinjira mu gihe c'uburambe, ubwigenge bwarazamutse uko i
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Murakaze muri PHI201!
+Murakaze muri PHI101!
 
 
 Iryo shure rigutumira gutohoza ingene umwidegemvyo wateye imbere mu mateka yose mu gusuzuma amashure akomeye y’ivyiyumviro yawugize. Uzotohoza ingene iciyumviro c’umwidegemvyo cateye imbere mu binjana n’ibindi, haba mu kurwanya canke mu gukorana n’ubutegetsi, biciye mu rugendo rw’amateka kuva kera gushika ku mpari zo muri iki gihe.
@@ -344,7 +344,7 @@ Iryo sesangura ryerekana ukutamenya neza agaciro k’inyongera n’ubufatanye n�
 ### Impinduka y'inganda iri mu bibazo
 
 
-Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free/DMPEht.Mises/). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano] (aha] (aha] n’igitabu [hano]
+Nkako, isesengura ry’aba Marxiste rigoranya ukuri kw’amateka y’Impinduka y’Inganda. Ludwig von Mises yaratomoye neza ico kibazo mu gitabu ciwe c’ubutunzi [_Ibikorwa vy’umuntu_](raba canecane igice citwa [Isobanuro ry’abantu benshi ry’ivy’inganda . Impinduka](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) hamwe n’uruhererekane rw’inyigisho zasohowe zifise umutwe uvuga ngo: [_Itegeko ry’ubutunzi: Ivyiyumviro vy’uyu musi n’ejo_](http://herve.dequengo.free/DMPEht.Mises/). (Ivyo birabereye gusoma, Ivyiyumviro birwanya ubucapitaliste [hano](aha] (aha] n’igitabu [hano]
 
 ![image](assets/rn/014.webp)
 
@@ -388,7 +388,7 @@ Mu vy’ukuri, gukoresha nabi abantu birafise insiguro gusa nk’ugutera umutung
 ### "Igitangaza c'i Buraya".
 
 
-Hanyuma, isesengura ry’amateka ry’agaciro kuruta irya Marx rituma dushobora guhakana iciyumviro c’Uburayi bushobora kwica abantu, bukaba bwaroraniwe kubera ubutegetsi bw’abami n’ubuja gusa. Mu gusuzuma amateka y’ubutunzi agereranywa, abahinga mu vya kahise bamwebamwe bo muri ico gihe bararondeye inkomoko y’iterambere ry’Uburayi mu vyo bwari butandukanye n’ibindi bihugu bikomeye, canecane ivy’Ubushinwa, Ubuhindi n’Ubuyisilamu. Ivyo bimenyetso vyasuzumwe na [David Landes], [Jean Baechler] (ibitabu/ibitabu vy’amashure y’isumbuye/jean-baechler/), [François Crouzet] (ibitabu vy’amashure y’isumbuye n’ivy’amateka-2010-49), na [urupapuro rwa 2 Uburaruko](65134-douglass-uburaruko-bw'abahinga mu vy'ubutunzi-bw'inkomoko/). Abo bashakashatsi baragerageje gutahura ico bita "igitangaza c'i Buraya." Bashize umutima wabo ku kuba Uburaya bwari umugwi w’ibihugu vy’ubutegetsi bigabanijwe kandi bihiganwa, aho, inyuma y’ugutemba kw’Uburoma, ata butegetsi bwa politike buhambaye bwari bushobora gutegeka ivyo bugomba.
+Hanyuma, isesengura ry’amateka ry’agaciro kuruta irya Marx rituma dushobora guhakana iciyumviro c’Uburayi bushobora kwica abantu, bukaba bwaroraniwe kubera ubutegetsi bw’abami n’ubuja gusa. Mu gusuzuma amateka y’ubutunzi agereranywa, abahinga mu vya kahise bamwebamwe bo muri ico gihe bararondeye inkomoko y’iterambere ry’Uburayi mu vyo bwari butandukanye n’ibindi bihugu bikomeye, canecane ivy’Ubushinwa, Ubuhindi n’Ubuyisilamu. Ivyo bimenyetso vyasuzumwe na [David Landes], [Jean Baechler](ibitabu/ibitabu vy’amashure y’isumbuye/jean-baechler/), [François Crouzet](ibitabu vy’amashure y’isumbuye n’ivy’amateka-2010-49), na [urupapuro rwa 2 Uburaruko](65134-douglass-uburaruko-bw'abahinga mu vy'ubutunzi-bw'inkomoko/). Abo bashakashatsi baragerageje gutahura ico bita "igitangaza c'i Buraya." Bashize umutima wabo ku kuba Uburaya bwari umugwi w’ibihugu vy’ubutegetsi bigabanijwe kandi bihiganwa, aho, inyuma y’ugutemba kw’Uburoma, ata butegetsi bwa politike buhambaye bwari bushobora gutegeka ivyo bugomba.
 
 
 Nk’uko Jean Baechler, umwe mu bagize ishure ry’ubuhinga bw’inyifato runtu n’ivya politike, abivuga mu gitabu ciwe _Inkomoko ya kapitalizimu_ (1971):
@@ -1468,7 +1468,7 @@ Ntibikenewe kwemeza ko umuntu wese ari we wenyene acira urubanza ukuntu akoresha
 Aha, Turgot ahanini yiteze imbere y’igihe imvugo ya Mises na Hayek ku bijanye n’ukudashoboka kw’ibara ry’ubutunzi iryo ari ryo ryose mu bijanye n’ubutunzi bw’abasosiyalisiti.
 
 
-Murray Rothbard, mu mateka yiwe y'ubutunzi akoresheje ubuhinga bwa Otirishiya, ashimika ku vy'uko "inkurikizi za Turgot ku vyiyumviro vy'ubutunzi vyakurikiyeho zari zibujijwe cane (...) n'inkuru z'imigani zikurikira zivuga ko Adamu Smith ari we yashinze ubutunzi bwa politike." Yongerako ati: "Ni ku Mufaransa J.B. Say, umuyoboke wa Smith, ko Turgot yagira akosho kanini, cane cane inyigisho yiwe y'agaciro k'ubuhinga."
+Murray Rothbard, mu mateka yiwe y'ubutunzi akoresheje ubuhinga bwa [Otirishiya](https://planb.academy/resources/glossary/austrian-school), ashimika ku vy'uko "inkurikizi za Turgot ku vyiyumviro vy'ubutunzi vyakurikiyeho zari zibujijwe cane (...) n'inkuru z'imigani zikurikira zivuga ko Adamu Smith ari we yashinze ubutunzi bwa politike." Yongerako ati: "Ni ku Mufaransa J.B. Say, umuyoboke wa Smith, ko Turgot yagira akosho kanini, cane cane inyigisho yiwe y'agaciro k'ubuhinga."
 
 
 ### Igishushanyo c'agatangaza ca Condillac

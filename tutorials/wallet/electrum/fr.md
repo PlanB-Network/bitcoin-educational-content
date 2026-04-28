@@ -20,7 +20,7 @@ Vous trouverez ci-dessous quelques sources de description pour Electrum :
 
 ## Pourquoi Electrum ?
 
-Il s'agit d'un guide détaillé sur l'utilisation du portefeuille Bitcoin Electrum, avec des solutions à tous ses pièges et particularités - quelque chose que j'ai développé après plusieurs années d'utilisation et d'enseignement de la sécurité/confidentialité du Bitcoin aux étudiants. Electrum n'est pas le meilleur portefeuille Bitcoin pour les personnes qui veulent tout garder aussi simple que possible et préfèrent rester au niveau débutant. Au contraire, il est destiné à la personne qui est, ou aspire à être, un utilisateur "avancé".
+Il s'agit d'un guide détaillé sur l'utilisation du portefeuille Bitcoin Electrum, avec des solutions à tous ses pièges et particularités, quelque chose que j'ai développé après plusieurs années d'utilisation et d'enseignement de la sécurité/confidentialité du Bitcoin aux étudiants. Electrum n'est pas le meilleur portefeuille Bitcoin pour les personnes qui veulent tout garder aussi simple que possible et préfèrent rester au niveau débutant. Au contraire, il est destiné à la personne qui est, ou aspire à être, un utilisateur "avancé".
 
 Pour le nouveau détenteur de Bitcoin, il est excellent à condition d'être supervisé par un utilisateur expérimenté pour lui montrer la voie. S'ils apprennent à l'utiliser seuls, cela serait sûr à condition qu'ils prennent leur temps et l'utilisent dans un environnement de test avec seulement un petit nombre de sats au départ. Ce guide soutient cette entreprise, mais il est également une bonne référence pour les autres.
 
@@ -28,7 +28,7 @@ Pour le nouveau détenteur de Bitcoin, il est excellent à condition d'être sup
 
 ## Téléchargement d'Electrum
 
-Idéalement, utilisez un ordinateur dédié au Bitcoin pour vos transactions Bitcoin (Mon guide à ce sujet https://armantheparman.com/mint/) _(ÉGALEMENT disponible dans la section confidentialité)_. Il est possible de s'entraîner avec de petites sommes sur un ordinateur "sale" lorsque vous apprenez pour la première fois (qui sait combien de logiciels malveillants cachés votre ordinateur habituel a accumulés au fil des ans - vous ne voulez pas exposer vos portefeuilles Bitcoin à ceux-ci).
+Idéalement, utilisez un ordinateur dédié au Bitcoin pour vos transactions Bitcoin (Mon guide à ce sujet https://armantheparman.com/mint/) _(ÉGALEMENT disponible dans la section confidentialité)_. Il est possible de s'entraîner avec de petites sommes sur un ordinateur "sale" lorsque vous apprenez pour la première fois (qui sait combien de logiciels malveillants cachés votre ordinateur habituel a accumulés au fil des ans, vous ne voulez pas exposer vos portefeuilles Bitcoin à ceux-ci).
 
 Obtenez Electrum depuis https://electrum.org/.
 
@@ -54,11 +54,11 @@ Pour obtenir la signature, cliquez sur le lien correspondant au fichier que vous
 
 En cliquant sur le lien, le fichier peut être automatiquement téléchargé dans votre dossier de téléchargements, ou il peut s'ouvrir dans le navigateur. S'il s'ouvre dans le navigateur, vous devez enregistrer le fichier. Vous pouvez faire un clic droit et sélectionner "enregistrer sous". Selon le système d'exploitation ou le navigateur, vous devrez peut-être faire un clic droit sur la zone d'espace blanc, pas sur le texte.
 
-Voici à quoi ressemble le texte téléchargé. Vous pouvez voir qu'il y a plusieurs signatures - ce sont des signatures de différentes personnes. Vous pouvez vérifier chacune d'entre elles. Je vais vous montrer comment vérifier celle du développeur.
+Voici à quoi ressemble le texte téléchargé. Vous pouvez voir qu'il y a plusieurs signatures, ce sont des signatures de différentes personnes. Vous pouvez vérifier chacune d'entre elles. Je vais vous montrer comment vérifier celle du développeur.
 
 ![image](assets/3.webp)
 
-Ensuite, vous devez obtenir la clé publique de ThomasV - c'est le principal développeur. Vous pouvez l'obtenir directement de lui, de son compte Keybase, de Github, ou de quelqu'un d'autre, d'un serveur de clés, ou du site Web Electrum.
+Ensuite, vous devez obtenir la clé publique de ThomasV, c'est le principal développeur. Vous pouvez l'obtenir directement de lui, de son compte Keybase, de Github, ou de quelqu'un d'autre, d'un serveur de clés, ou du site Web Electrum.
 
 Obtenir la clé publique à partir du site Web Electrum est en réalité la méthode la moins sécurisée, car si ce site Web est malveillant (la chose même que nous vérifions), pourquoi obtenir une clé publique à partir de celui-ci (la clé publique pourrait être fausse) ?
 
@@ -80,7 +80,7 @@ Ouvrez un terminal sur Mac ou Linux, ou une invite de commande (CMD) sur Windows
 
 Accédez au répertoire des téléchargements (ou à l'endroit où vous avez mis les trois fichiers). Si vous n'avez aucune idée de ce que cela signifie, apprenez à partir de cette courte vidéo pour Linux/Mac (https://www.youtube.com/watch?v=AO0jzD1hpXc) et celle-ci pour Windows (https://www.youtube.com/watch?v=9zMWXD-xoxc). N'oubliez pas que sur les ordinateurs Linux, les noms de répertoire sont sensibles à la casse.
 
-Dans le terminal, tapez ceci pour importer la clé publique de ThomasV dans le "trousseau" de votre ordinateur (le trousseau est un concept abstrait - en réalité, il s'agit simplement d'un fichier sur votre ordinateur) :
+Dans le terminal, tapez ceci pour importer la clé publique de ThomasV dans le "trousseau" de votre ordinateur (le trousseau est un concept abstrait, en réalité, il s'agit simplement d'un fichier sur votre ordinateur) :
 
 ```
 gpg --import ThomasV.asc
@@ -105,7 +105,7 @@ Remarquez qu'il y a 4 "éléments" ici, séparés chacun par un espace. J'ai mis
 
 Il est intéressant de noter que parfois vous pouvez omettre le 4e élément et l'ordinateur devine ce que vous voulez dire. Je ne suis pas sûr, mais je crois que cela ne fonctionne que si les noms de fichiers ne diffèrent que par le "asc" à la fin.
 
-Ne copiez pas simplement les noms de fichiers que j'ai indiqués ici - assurez-vous qu'ils correspondent au nom du fichier que vous avez sur votre système.
+Ne copiez pas simplement les noms de fichiers que j'ai indiqués ici, assurez-vous qu'ils correspondent au nom du fichier que vous avez sur votre système.
 
 Appuyez sur <enter> pour exécuter la commande. Vous devriez voir une "bonne signature de ThomasV" pour indiquer le succès. Il y aura quelques erreurs car nous n'avons pas les clés publiques des autres signatures qui sont contenues dans le fichier de signature (ce système de combinaison des signatures dans un seul fichier peut changer dans les versions ultérieures). De plus, il y a un avertissement en bas que nous pouvons ignorer (cela nous alerte que nous n'avons pas explicitement indiqué à l'ordinateur que nous faisons confiance à la clé publique de ThomasV).
 
@@ -128,7 +128,7 @@ sudo apt-get upgrade
 
 Copiez le texte jaune surligné, collez-le dans le terminal et appuyez sur <enter>. On vous demandera votre mot de passe, éventuellement une confirmation pour continuer, puis il installera ces fichiers ("dépendances").
 
-Vous devrez également extraire le fichier compressé dans un répertoire de votre choix. Vous pouvez le faire avec l'interface utilisateur graphique ou en ligne de commande (commande surlignée en rose) - rappelez-vous que vos noms de fichiers peuvent être différents. (Notez que lorsque nous avons vérifié le téléchargement dans la section précédente, c'était le fichier zip que nous avons vérifié, pas le répertoire extrait.)
+Vous devrez également extraire le fichier compressé dans un répertoire de votre choix. Vous pouvez le faire avec l'interface utilisateur graphique ou en ligne de commande (commande surlignée en rose), rappelez-vous que vos noms de fichiers peuvent être différents. (Notez que lorsque nous avons vérifié le téléchargement dans la section précédente, c'était le fichier zip que nous avons vérifié, pas le répertoire extrait.)
 
 Il y a une option pour "installer" en utilisant le programme PIP, mais cela est inutile et ajoute des étapes supplémentaires et l'installation de fichiers. Exécutez simplement le programme en utilisant le terminal pour contourner tout cela.
 
@@ -177,7 +177,7 @@ Lorsque vous chargez Electrum pour la première fois, une fenêtre s'ouvrira com
 
 Nous sélectionnerons votre serveur manuellement plus tard, mais pour l'instant, laissez les paramètres par défaut et connectez-vous automatiquement.
 
-Ensuite, créez un portefeuille fictif - ne mettez jamais de fonds dans ce portefeuille. Le but de ce portefeuille fictif est de progresser dans le logiciel et de s'assurer que tout fonctionne bien avant de charger votre vrai portefeuille. Nous essayons d'éviter de divulguer accidentellement la confidentialité avec un vrai portefeuille. Si vous vous entraînez simplement, le portefeuille que vous créez peut être considéré comme un portefeuille fictif de toute façon.
+Ensuite, créez un portefeuille fictif, ne mettez jamais de fonds dans ce portefeuille. Le but de ce portefeuille fictif est de progresser dans le logiciel et de s'assurer que tout fonctionne bien avant de charger votre vrai portefeuille. Nous essayons d'éviter de divulguer accidentellement la confidentialité avec un vrai portefeuille. Si vous vous entraînez simplement, le portefeuille que vous créez peut être considéré comme un portefeuille fictif de toute façon.
 
 Vous pouvez laisser le nom par défaut "default_wallet" ou le changer selon vos préférences, puis cliquez sur suivant. Plus tard, si vous avez plusieurs portefeuilles, vous pouvez les trouver et les ouvrir à cette étape en cliquant d'abord sur "Choisir..."
 
@@ -187,7 +187,7 @@ Choisissez "Portefeuille standard" et <Suivant> :
 
 ![image](assets/8.webp)
 
-Ensuite, sélectionnez "J'ai déjà une graine". Je ne veux pas que vous preniez l'habitude de créer une graine Electrum, car elle utilise son propre protocole qui n'est pas compatible avec d'autres portefeuilles - c'est pourquoi nous ne cliquons pas sur "nouvelle graine".
+Ensuite, sélectionnez "J'ai déjà une graine". Je ne veux pas que vous preniez l'habitude de créer une graine Electrum, car elle utilise son propre protocole qui n'est pas compatible avec d'autres portefeuilles, c'est pourquoi nous ne cliquons pas sur "nouvelle graine".
 
 ![image](assets/9.webp)
 
@@ -205,17 +205,17 @@ Electrum recherchera des mots correspondant à son propre protocole. Nous devons
 
 La graine devient alors valide. (Avant cela, Electrum s'attendait à une graine Electrum, donc cette graine était considérée comme invalide). Avant de cliquer sur suivant, remarquez le texte qui dit "Checksum OK". Il est important (pour le vrai portefeuille que vous pourriez utiliser ultérieurement) que vous le voyiez avant de continuer, car cela confirme la validité de la graine que vous avez entrée. L'avertissement en bas peut être ignoré, c'est la plainte du développeur d'Electrum à propos de BIP39 et de leurs revendications "FUD"ey" selon lesquelles leur version (qui n'est pas compatible avec d'autres portefeuilles) est supérieure.
 
-> Un petit détour pour un avertissement important. Le but de la somme de contrôle est de s'assurer que vous avez entré votre graine sans erreur de frappe. La somme de contrôle est la dernière partie de la graine (le 12e mot est la somme de contrôle) qui est mathématiquement déterminée par la première partie de la graine (11 mots). Si vous faisiez une erreur de frappe au début, le mot de somme de contrôle ne correspondra pas mathématiquement, et le logiciel de portefeuille vous alertera avec un avertissement. Cela ne signifie pas que la graine ne peut pas être utilisée pour créer un portefeuille Bitcoin fonctionnel. Imaginez créer un portefeuille avec une erreur de frappe, charger le portefeuille avec des bitcoins, puis un jour vous pourriez avoir besoin de restaurer le portefeuille, mais lorsque vous le faites, vous ne recréez pas l'erreur de frappe - vous restaurerez le mauvais portefeuille ! Il est assez dangereux qu'Electrum vous permette de continuer à créer un portefeuille si votre somme de contrôle est invalide, alors soyez averti, c'est votre responsabilité de vous en assurer. D'autres portefeuilles ne vous permettront pas de continuer, ce qui est beaucoup plus sûr. C'est l'une des choses que je veux dire quand je dis qu'Electrum est bon à utiliser, une fois que vous avez appris à l'utiliser correctement (les développeurs d'Electrum devraient corriger cela).
+> Un petit détour pour un avertissement important. Le but de la somme de contrôle est de s'assurer que vous avez entré votre graine sans erreur de frappe. La somme de contrôle est la dernière partie de la graine (le 12e mot est la somme de contrôle) qui est mathématiquement déterminée par la première partie de la graine (11 mots). Si vous faisiez une erreur de frappe au début, le mot de somme de contrôle ne correspondra pas mathématiquement, et le logiciel de portefeuille vous alertera avec un avertissement. Cela ne signifie pas que la graine ne peut pas être utilisée pour créer un portefeuille Bitcoin fonctionnel. Imaginez créer un portefeuille avec une erreur de frappe, charger le portefeuille avec des bitcoins, puis un jour vous pourriez avoir besoin de restaurer le portefeuille, mais lorsque vous le faites, vous ne recréez pas l'erreur de frappe, vous restaurerez le mauvais portefeuille ! Il est assez dangereux qu'Electrum vous permette de continuer à créer un portefeuille si votre somme de contrôle est invalide, alors soyez averti, c'est votre responsabilité de vous en assurer. D'autres portefeuilles ne vous permettront pas de continuer, ce qui est beaucoup plus sûr. C'est l'une des choses que je veux dire quand je dis qu'Electrum est bon à utiliser, une fois que vous avez appris à l'utiliser correctement (les développeurs d'Electrum devraient corriger cela).
 
 Remarquez que si vous souhaitez ajouter une phrase secrète, la possibilité de la sélectionner se trouve dans cette fenêtre d'options, juste en haut.
 
 Après avoir cliqué sur OK, vous serez ramené à l'endroit où vous avez saisi la phrase de la graine. Si vous avez sélectionné une option de phrase secrète, vous NE LA SAISISSEZ PAS avec les mots de la graine (la demande à cet effet viendra ensuite).
 
-Si vous n'avez pas demandé de phrase secrète, vous verrez ensuite cet écran - plus d'options pour le type de script de votre portefeuille et le chemin de dérivation que vous pouvez apprendre ici (https://armantheparman.com/public-and-private-keys/), mais laissez simplement les valeurs par défaut et continuez.
+Si vous n'avez pas demandé de phrase secrète, vous verrez ensuite cet écran, plus d'options pour le type de script de votre portefeuille et le chemin de dérivation que vous pouvez apprendre ici (https://armantheparman.com/public-and-private-keys/), mais laissez simplement les valeurs par défaut et continuez.
 
 ![image](assets/13.webp)
 
-> Pour des informations supplémentaires : La première option vous permet de choisir entre l'héritage (adresses commençant par "1"), le pay-to-script-hash (adresses commençant par "3") ou bech32/native segwit (adresses commençant par "bc1q"). Au moment de la rédaction, Electrum ne prend pas encore en charge taproot (adresses commençant par "bc1p"). La deuxième option dans cette fenêtre vous permet de modifier le chemin de dérivation. Je vous suggère de ne jamais le modifier, surtout avant de comprendre ce que cela signifie. Les gens insisteront sur l'importance d'écrire le chemin de dérivation afin de pouvoir récupérer votre portefeuille si nécessaire, mais si vous le laissez par défaut, vous devriez probablement vous en sortir, donc ne paniquez pas - mais il est toujours bon de prendre l'habitude d'écrire le chemin de dérivation.
+> Pour des informations supplémentaires : La première option vous permet de choisir entre l'héritage (adresses commençant par "1"), le pay-to-script-hash (adresses commençant par "3") ou bech32/native segwit (adresses commençant par "bc1q"). Au moment de la rédaction, Electrum ne prend pas encore en charge taproot (adresses commençant par "bc1p"). La deuxième option dans cette fenêtre vous permet de modifier le chemin de dérivation. Je vous suggère de ne jamais le modifier, surtout avant de comprendre ce que cela signifie. Les gens insisteront sur l'importance d'écrire le chemin de dérivation afin de pouvoir récupérer votre portefeuille si nécessaire, mais si vous le laissez par défaut, vous devriez probablement vous en sortir, donc ne paniquez pas, mais il est toujours bon de prendre l'habitude d'écrire le chemin de dérivation.
 
 Ensuite, vous aurez la possibilité d'ajouter un MOT DE PASSE. Ne confondez pas cela avec "PHRASE SECRÈTE". Un mot de passe verrouille le fichier sur votre ordinateur. Une phrase secrète fait partie de la composition de la clé privée. Comme il s'agit d'un portefeuille fictif, vous pouvez laisser le mot de passe vide et continuer.
 
@@ -277,7 +277,7 @@ Un éditeur de texte s'ouvrira (appelé nano) avec le fichier de configuration o
 Changez "false" en "true" ; et ne perturbez pas la syntaxe (ne supprimez pas la virgule ou le point-virgule).
 
 Appuyez sur <ctrl> x pour quitter, puis sur "y" pour enregistrer, puis <enter> pour confirmer le changement sans modifier le nom du fichier.
-Maintenant, exécutez à nouveau Electrum. Ensuite, cliquez sur le cercle en bas à droite, ce qui ouvre les paramètres réseau. Ensuite, près du haut dans l'onglet aperçu, vous verrez "connecté à 1 nœud" - cela indique le succès.
+Maintenant, exécutez à nouveau Electrum. Ensuite, cliquez sur le cercle en bas à droite, ce qui ouvre les paramètres réseau. Ensuite, près du haut dans l'onglet aperçu, vous verrez "connecté à 1 nœud", cela indique le succès.
 Juste en dessous, vous verrez un champ de texte et l'adresse du serveur est là. Vous êtes actuellement connecté à ce nœud aléatoire. Plus d'informations sur la connexion à un nœud dans la prochaine section.
 
 ### Fichier de configuration Windows
@@ -316,7 +316,7 @@ Au fait, voici les instructions pour exécuter votre propre nœud, et voici les 
 
 La seule raison de le faire serait si vous devez accéder à la blockchain et que vous n'avez pas votre propre nœud disponible (ou celui d'un ami).
 
-Connectons-nous au nœud de Bitaroo - On nous dit qu'ils ne collectent pas de données. Ils sont une bourse Bitcoin uniquement, gérée par un passionné de Bitcoin. Se connecter à eux implique un peu de confiance, mais c'est mieux que de se connecter à un nœud aléatoire, qui pourrait être une entreprise de surveillance.
+Connectons-nous au nœud de Bitaroo. On nous dit qu'ils ne collectent pas de données. Ils sont une bourse Bitcoin uniquement, gérée par un passionné de Bitcoin. Se connecter à eux implique un peu de confiance, mais c'est mieux que de se connecter à un nœud aléatoire, qui pourrait être une entreprise de surveillance.
 
 Accédez aux paramètres réseau en cliquant sur le cercle dans la partie inférieure droite de la fenêtre du portefeuille (le rouge indique une absence de connexion, le vert indique une connexion, et le bleu indique une connexion via Tor).
 
@@ -334,7 +334,7 @@ Fermez la fenêtre, et maintenant nous devrions être connectés au nœud de Bit
 
 Si vous avez votre propre nœud, c'est génial. Si vous avez seulement Bitcoin Core et pas un serveur Electrum en plus, vous ne pourrez pas encore connecter un portefeuille Electrum à votre nœud.
 
-> Note : Le serveur Electrum et le portefeuille Electrum sont des choses différentes. Le serveur est un logiciel requis pour que le portefeuille Electrum puisse communiquer avec la blockchain Bitcoin - Je ne sais pas pourquoi cela a été conçu de cette façon - peut-être pour la vitesse, mais je pourrais me tromper.
+> Note : Le serveur Electrum et le portefeuille Electrum sont des choses différentes. Le serveur est un logiciel requis pour que le portefeuille Electrum puisse communiquer avec la blockchain Bitcoin. Je ne sais pas pourquoi cela a été conçu de cette façon, peut-être pour la vitesse, mais je pourrais me tromper.
 > Si vous utilisez un logiciel de nœud comme MyNode (celui que je recommande aux débutants), Raspiblitz (recommandé pour les utilisateurs plus avancés) ou Umbrel (que je ne recommande pas encore personnellement car j'ai rencontré trop de problèmes), vous pourrez connecter votre portefeuille simplement en entrant l'adresse IP de l'ordinateur (Raspberry Pi) sur lequel le nœud est exécuté, suivie de deux points et de 50002, comme indiqué sur l'image de la section précédente. (Plus bas, je vous montrerai comment trouver l'adresse IP de votre nœud).
 > Ouvrez les paramètres réseau (cliquez sur le cercle vert ou rouge en bas à droite). Décochez la case "sélectionner le serveur automatiquement", puis saisissez votre adresse IP comme je l'ai fait (la vôtre sera différente, mais les deux points et "50002" doivent être identiques).
 
@@ -386,7 +386,7 @@ Ensuite, à l'avenir, vous pourrez taper 192.168.0.150 ou http://192.168.0.150 d
 
 Pour le Raspiblitz (lorsqu'il n'est pas connecté à un écran), vous avez besoin d'une méthode différente (qui fonctionne également pour MyNode) :
 
-Connectez-vous à la page web de votre routeur - ici, vous trouverez l'adresse IP de tous vos appareils connectés. La page web du routeur sera une adresse IP que vous entrez dans un navigateur web. La mienne est :
+Connectez-vous à la page web de votre routeur. Ici, vous trouverez l'adresse IP de tous vos appareils connectés. La page web du routeur sera une adresse IP que vous entrez dans un navigateur web. La mienne est :
 
     http://192.168.0.1
 
@@ -419,7 +419,7 @@ ipconfig/all
 
 et appuyez sur Entrée. L'adresse IP se trouve dans la sortie.
 
-C'était la partie facile. La partie difficile consiste maintenant à trouver l'adresse IP de votre nœud - nous devons deviner par force brute. Disons par exemple que l'adresse IP de votre ordinateur commence par 192.168.0.xxx, alors pour votre nœud, dans un navigateur, essayez :
+C'était la partie facile. La partie difficile consiste maintenant à trouver l'adresse IP de votre nœud, nous devons deviner par force brute. Disons par exemple que l'adresse IP de votre ordinateur commence par 192.168.0.xxx, alors pour votre nœud, dans un navigateur, essayez :
 
 ```
 https://192.168.0.2
@@ -443,7 +443,7 @@ Maintenant, nous nous sommes connectés avec succès à un seul et unique nœud.
 
 Après avoir supprimé le portefeuille factice, recommencez et créez-en un nouveau, de la même manière, mais cette fois, notez les mots de la graine et gardez-les assez en sécurité.
 
-Il est bon d'apprendre comment Electrum fonctionne avec ce portefeuille de pratique, sans le matériel encombrant (nécessaire pour une sécurité élevée). Ne mettez qu'une petite quantité de bitcoin dans ce portefeuille - supposez que vous perdrez cet argent. Une fois compétent, apprenez ensuite à utiliser Electrum avec un portefeuille matériel.
+Il est bon d'apprendre comment Electrum fonctionne avec ce portefeuille de pratique, sans le matériel encombrant (nécessaire pour une sécurité élevée). Ne mettez qu'une petite quantité de bitcoin dans ce portefeuille, supposez que vous perdrez cet argent. Une fois compétent, apprenez ensuite à utiliser Electrum avec un portefeuille matériel.
 
 Dans le nouveau portefeuille que vous avez créé, vous verrez une liste d'adresses. Les adresses vertes sont appelées "adresses de réception". Elles sont le produit de 3 choses :
 
@@ -461,11 +461,11 @@ C'est très différent de certains autres portefeuilles qui ne présentent qu'un
 
 Parce que vous avez saisi la phrase de la graine pour créer ce portefeuille, Electrum dispose de la clé privée pour chacune des adresses, et il est possible de dépenser à partir de ces adresses.
 
-Notez également qu'il existe des adresses jaunes, appelées "adresses de changement" - Il s'agit simplement d'un autre ensemble d'adresses provenant d'une branche mathématique différente (4,3 milliards de celles-ci existent également). Elles sont utilisées par le portefeuille pour renvoyer automatiquement les fonds excédentaires dans le portefeuille en tant que monnaie de rendu. Par exemple, si vous prenez 1,5 bitcoin et en dépensez 0,5 chez un commerçant, les 1,0 restants doivent aller quelque part. Votre portefeuille les dépensera sur la prochaine adresse de changement jaune vide - sinon, cela ira au mineur ! Pour plus d'informations à ce sujet (UTXOs), consultez ce guide. (https://armantheparman.com/utxo/)
+Notez également qu'il existe des adresses jaunes, appelées "adresses de changement". Il s'agit simplement d'un autre ensemble d'adresses provenant d'une branche mathématique différente (4,3 milliards de celles-ci existent également). Elles sont utilisées par le portefeuille pour renvoyer automatiquement les fonds excédentaires dans le portefeuille en tant que monnaie de rendu. Par exemple, si vous prenez 1,5 bitcoin et en dépensez 0,5 chez un commerçant, les 1,0 restants doivent aller quelque part. Votre portefeuille les dépensera sur la prochaine adresse de changement jaune vide, sinon, cela ira au mineur ! Pour plus d'informations à ce sujet (UTXOs), consultez ce guide. (https://armantheparman.com/utxo/)
 
 Ensuite, retournez sur le site de clé privée d'Ian Colman et saisissez la graine (au lieu d'en générer une). Vous verrez que les informations de clé privée et de clé publique ci-dessous changent ; tout ce qui se trouve en dessous dépend des éléments ci-dessus sur la page.
 
-> N'oubliez pas que vous ne devez "jamais" saisir la graine sur un ordinateur pour votre véritable portefeuille Bitcoin - les logiciels malveillants peuvent la voler. Nous utilisons simplement un portefeuille d'entraînement, à des fins d'apprentissage, donc c'est bien pour le moment.
+> N'oubliez pas que vous ne devez "jamais" saisir la graine sur un ordinateur pour votre véritable portefeuille Bitcoin, les logiciels malveillants peuvent la voler. Nous utilisons simplement un portefeuille d'entraînement, à des fins d'apprentissage, donc c'est bien pour le moment.
 
 Faites défiler vers le bas et modifiez le chemin de dérivation en BIP84 (segwit) pour correspondre à votre portefeuille Electrum en cliquant sur l'onglet BIP84.
 
@@ -525,7 +525,7 @@ Connectez-vous et cliquez sur le bouton "Envoyer/Recevoir", qui se trouve actuel
 
 ![image](assets/31.webp)
 
-Évidemment, je n'ai pas de fonds sur Coinbase, mais imaginez simplement qu'il y en a et suivez les étapes : Collez l'adresse d'Electrum dans le champ "À" comme je l'ai fait. Vous devrez également sélectionner un montant (je suggère environ 50 000 sats). Ne mettez pas de "message facultatif" - Coinbase collecte suffisamment de vos données (et les vend), il n'est donc pas nécessaire de les aider. Enfin, cliquez sur "Continuer". Après cela, je ne sais pas quels autres pop-ups vous obtiendrez, vous êtes seul, mais la méthode est similaire pour toutes les plateformes d'échange.
+Évidemment, je n'ai pas de fonds sur Coinbase, mais imaginez simplement qu'il y en a et suivez les étapes : Collez l'adresse d'Electrum dans le champ "À" comme je l'ai fait. Vous devrez également sélectionner un montant (je suggère environ 50 000 sats). Ne mettez pas de "message facultatif", Coinbase collecte suffisamment de vos données (et les vend), il n'est donc pas nécessaire de les aider. Enfin, cliquez sur "Continuer". Après cela, je ne sais pas quels autres pop-ups vous obtiendrez, vous êtes seul, mais la méthode est similaire pour toutes les plateformes d'échange.
 
 ![image](assets/32.webp)
 
@@ -577,9 +577,9 @@ Cliquez toujours sur "avancé" à cette étape pour pouvoir avoir un contrôle p
 
 Nous voyons deux fenêtres internes blanches. La première en haut est la fenêtre des entrées (quelles pièces sont dépensées), et la seconde en bas est celle des sorties (où vont les pièces).
 
-Note, le statut (en haut à gauche) est "non signé" pour le moment. Le "Montant envoyé" est de 0 car les pièces sont en train d'être transférées dans le portefeuille. Les frais sont de 481 sats. Notez que s'ils étaient de 480 sats, le zéro final serait supprimé, comme ceci, 0.0000048 et pour l'œil fatigué, cela peut ressembler à 48 sats - soyez prudent (quelque chose que les développeurs d'Electrum devraient corriger).
+Note, le statut (en haut à gauche) est "non signé" pour le moment. Le "Montant envoyé" est de 0 car les pièces sont en train d'être transférées dans le portefeuille. Les frais sont de 481 sats. Notez que s'ils étaient de 480 sats, le zéro final serait supprimé, comme ceci, 0.0000048 et pour l'œil fatigué, cela peut ressembler à 48 sats, soyez prudent (quelque chose que les développeurs d'Electrum devraient corriger).
 
-La taille de la transaction fait référence à la taille des données en octets, pas au montant de bitcoin. Le "remplacement par frais" est activé par défaut et vous permet de renvoyer la transaction avec des frais plus élevés si nécessaire. Le LockTime vous permet d'ajuster quand la transaction est valide - je n'ai pas encore joué avec cela, mais je déconseille de l'utiliser à moins de comprendre parfaitement ce que vous faites et d'avoir pratiqué avec de petites sommes.
+La taille de la transaction fait référence à la taille des données en octets, pas au montant de bitcoin. Le "remplacement par frais" est activé par défaut et vous permet de renvoyer la transaction avec des frais plus élevés si nécessaire. Le LockTime vous permet d'ajuster quand la transaction est valide, je n'ai pas encore joué avec cela, mais je déconseille de l'utiliser à moins de comprendre parfaitement ce que vous faites et d'avoir pratiqué avec de petites sommes.
 
 En bas, nous avons quelques outils sophistiqués d'ajustement des frais miniers. Tout ce que vous avez à faire pour les transferts internes est de le régler sur les frais minimums de 1 sat/byte. Tapez simplement manuellement le nombre dans le champ Frais cible. Pour vérifier les frais appropriés pour un paiement externe, vous pouvez consulter https://mempool.space pour voir à quel point le mempool est occupé, et certains frais suggérés sont affichés.
 
@@ -587,7 +587,7 @@ En bas, nous avons quelques outils sophistiqués d'ajustement des frais miniers.
 
 J'ai sélectionné 1 sat/byte.
 
-Dans la fenêtre d'entrée, nous voyons deux entrées. La première est le don de 5000 sats. Nous voyons à gauche son hachage de transaction (que nous pouvons rechercher sur la blockchain). À côté, il y a un "21" - cela indique qu'il s'agit de la sortie étiquetée 21 dans cette transaction (c'est en réalité la 22e sortie car la première est étiquetée zéro).
+Dans la fenêtre d'entrée, nous voyons deux entrées. La première est le don de 5000 sats. Nous voyons à gauche son hachage de transaction (que nous pouvons rechercher sur la blockchain). À côté, il y a un "21", cela indique qu'il s'agit de la sortie étiquetée 21 dans cette transaction (c'est en réalité la 22e sortie car la première est étiquetée zéro).
 
 Quelque chose à noter ici : les UTXO n'existent que dans une transaction. Pour dépenser un UTXO, nous devons le référencer et mettre cette référence dans l'entrée d'une nouvelle transaction. Les sorties deviennent alors de nouveaux UTXO et l'ancien UTXO devient un STXO (sortie de transaction dépensée).
 
@@ -603,7 +603,7 @@ Une fois que vous avez vérifié tout dans la transaction et que vous êtes sûr
 
 ![image](assets/42.webp)
 
-Après avoir cliqué sur "finaliser", vous ne pouvez plus apporter de modifications - Si vous en avez besoin, vous devez fermer cela et recommencer. Remarquez que le bouton "finaliser" a changé en "exporter" et de nouveaux boutons sont apparus : "enregistrer", "combiner", "signer" et "diffuser". Le bouton "diffuser" est grisé car la transaction est non signée et donc invalide à ce stade.
+Après avoir cliqué sur "finaliser", vous ne pouvez plus apporter de modifications. Si vous en avez besoin, vous devez fermer cela et recommencer. Remarquez que le bouton "finaliser" a changé en "exporter" et de nouveaux boutons sont apparus : "enregistrer", "combiner", "signer" et "diffuser". Le bouton "diffuser" est grisé car la transaction est non signée et donc invalide à ce stade.
 Une fois que vous avez cliqué sur "signer", si vous avez un mot de passe pour le portefeuille, vous serez invité à le saisir, puis le statut (en haut à droite) passera de "non signé" à "signé". Ensuite, le bouton "Diffuser" sera disponible.
 
 Après avoir diffusé, vous pouvez fermer la fenêtre de transaction. Si vous allez à l'onglet d'adresse, vous verrez maintenant que la première adresse est vide et que la deuxième adresse a 1 UTXO.
@@ -630,7 +630,7 @@ Il n'est pas intuitif de charger une transaction enregistrée, alors prenez note
 
 Un processus similaire est possible avec une transaction enregistrée sous forme de fichier. Essayez de vous entraîner avec l'une ou l'autre méthode, dans le même portefeuille. Je ne vais pas le détailler ici, mais vous pouvez utiliser cette fonctionnalité pour transmettre une transaction entre le même portefeuille sur différents ordinateurs, entre des portefeuilles multi-signatures et vers et depuis des portefeuilles matériels. Voici quelques instructions.
 
-Maintenant, en revenant au bouton "enregistrer" - ce n'est pas ainsi que vous enregistrez le texte de la transaction. Ce que cela fait réellement, c'est indiquer au portefeuille Electrum de reconnaître cette transaction sur l'ordinateur local comme étant soumise en tant que paiement. Si vous le faites par accident, vous verrez la transaction avec une petite icône d'ordinateur. Vous pouvez faire un clic droit et supprimer la transaction - ne vous inquiétez pas, vous ne pouvez pas supprimer des bitcoins de cette manière. Electrum oubliera alors que cette transaction a jamais eu lieu et "remboursera" les sats et affichera les sats à l'endroit correct où ils se trouvent réellement.
+Maintenant, en revenant au bouton "enregistrer", ce n'est pas ainsi que vous enregistrez le texte de la transaction. Ce que cela fait réellement, c'est indiquer au portefeuille Electrum de reconnaître cette transaction sur l'ordinateur local comme étant soumise en tant que paiement. Si vous le faites par accident, vous verrez la transaction avec une petite icône d'ordinateur. Vous pouvez faire un clic droit et supprimer la transaction, ne vous inquiétez pas, vous ne pouvez pas supprimer des bitcoins de cette manière. Electrum oubliera alors que cette transaction a jamais eu lieu et "remboursera" les sats et affichera les sats à l'endroit correct où ils se trouvent réellement.
 
 ### Adresses de changement
 
@@ -653,19 +653,19 @@ Vous pouvez ensuite entrer plusieurs destinations pour le solde de la UTXO que v
 
 ![image](assets/47.webp)
 
-Collez l'adresse, tapez une virgule, puis un espace, puis le montant, puis <entrée>, puis recommencez. NE SAISISSEZ PAS LES MONTANTS DANS LES FENÊTRES "MONTANT" - Electrum remplira le total ici au fur et à mesure que vous tapez les montants individuels dans la fenêtre "Payer à".
+Collez l'adresse, tapez une virgule, puis un espace, puis le montant, puis <entrée>, puis recommencez. NE SAISISSEZ PAS LES MONTANTS DANS LES FENÊTRES "MONTANT", Electrum remplira le total ici au fur et à mesure que vous tapez les montants individuels dans la fenêtre "Payer à".
 
 Cela vous permet de déterminer manuellement où va le changement (par exemple, une adresse spécifique dans votre portefeuille ou un autre portefeuille), ou vous pouvez payer plusieurs personnes à la fois. Si votre total n'est pas suffisamment élevé pour correspondre à la taille de la UTXO, Electrum créera quand même une sortie de changement supplémentaire pour vous.
 
-La fonctionnalité "Payer à plusieurs" permet également la possibilité de créer vos propres "PayJoins" ou "CoinJoins" - en dehors du cadre de cet article, mais j'ai un guide ici. (https://armantheparman.com/cj/)
+La fonctionnalité "Payer à plusieurs" permet également la possibilité de créer vos propres "PayJoins" ou "CoinJoins", en dehors du cadre de cet article, mais j'ai un guide ici. (https://armantheparman.com/cj/)
 
 ## Portefeuilles
 
 Je veux vous montrer un portefeuille en mode "Observation seulement" utilisant Electrum. Pour cela, je dois d'abord définir "portefeuille". Le mot "portefeuille" est utilisé de deux manières différentes dans Bitcoin :
 
-- Type A, "portefeuille" - fait référence au logiciel qui affiche vos adresses et soldes, par exemple Electrum, Blue Wallet, Sparrow Wallet, etc.
+- Type A, "portefeuille", fait référence au logiciel qui affiche vos adresses et soldes, par exemple Electrum, Blue Wallet, Sparrow Wallet, etc.
 
-- Type B, "portefeuille" - fait référence à la collection unique d'adresses associées à la combinaison de notre phrase de récupération/phrase secrète/chemin de dérivation. Il y a 8,6 milliards d'adresses dans n'importe quel portefeuille (4,3 milliards d'adresses de réception et 4,3 milliards d'adresses de changement). Si vous modifiez quelque chose dans la phrase de récupération, la phrase secrète ou le chemin de dérivation, vous obtenez un nouveau portefeuille inutilisé avec 8,6 milliards d'adresses vides, toutes uniques.
+- Type B, "portefeuille", fait référence à la collection unique d'adresses associées à la combinaison de notre phrase de récupération/phrase secrète/chemin de dérivation. Il y a 8,6 milliards d'adresses dans n'importe quel portefeuille (4,3 milliards d'adresses de réception et 4,3 milliards d'adresses de changement). Si vous modifiez quelque chose dans la phrase de récupération, la phrase secrète ou le chemin de dérivation, vous obtenez un nouveau portefeuille inutilisé avec 8,6 milliards d'adresses vides, toutes uniques.
 
 Le type auquel on fait référence lorsqu'on utilise le mot "portefeuille" est évident dans le contexte.
 
@@ -673,13 +673,13 @@ Le type auquel on fait référence lorsqu'on utilise le mot "portefeuille" est �
 
 Il n'est pas complètement évident à quoi sert un portefeuille de surveillance, mais je vais commencer par expliquer ce que c'est, comment en créer un à titre d'exemple, puis nous reviendrons plus tard sur son objectif lorsque j'expliquerai davantage sur les portefeuilles matériels. (Pour une revue approfondie sur l'utilisation d'un portefeuille matériel et les différentes marques spécifiques, voir ici.)
 
-Nous allons créer un faux portefeuille ordinaire (cette fois-ci en ajoutant un peu plus de complexité avec une phrase secrète), puis son portefeuille de surveillance correspondant. Si vous le souhaitez, vous pouvez copier exactement celui que j'ai créé, ou créer le vôtre - ce portefeuille doit être jeté ; ne l'utilisez pas réellement. Commencez par générer une graine de 12 mots en utilisant le site Ian Coleman.
+Nous allons créer un faux portefeuille ordinaire (cette fois-ci en ajoutant un peu plus de complexité avec une phrase secrète), puis son portefeuille de surveillance correspondant. Si vous le souhaitez, vous pouvez copier exactement celui que j'ai créé, ou créer le vôtre, ce portefeuille doit être jeté ; ne l'utilisez pas réellement. Commencez par générer une graine de 12 mots en utilisant le site Ian Coleman.
 
 Remarquez les 12 mots aléatoires dans la capture d'écran ci-dessous, et que j'ai saisi une phrase secrète dans le champ de la phrase secrète :
 
 PHRASE SECRÈTE : "Craig Wright est un menteur et un escroc et mérite d'être en prison. De plus, Ross Ulbricht devrait être libéré de prison immédiatement."
 
-La phrase secrète peut comporter jusqu'à 100 caractères et idéalement ne devrait pas être ambiguë ni trop courte - celle que j'ai utilisée est juste pour le plaisir - je suggère généralement d'éviter les lettres majuscules et les symboles pour réduire votre stress lorsque vous essayez des combinaisons si vous avez déjà eu des problèmes pour vous souvenir de votre phrase secrète.
+La phrase secrète peut comporter jusqu'à 100 caractères et idéalement ne devrait pas être ambiguë ni trop courte, celle que j'ai utilisée est juste pour le plaisir, je suggère généralement d'éviter les lettres majuscules et les symboles pour réduire votre stress lorsque vous essayez des combinaisons si vous avez déjà eu des problèmes pour vous souvenir de votre phrase secrète.
 
 ![image](assets/48.webp)
 
@@ -705,9 +705,9 @@ Les clés privées et publiques étendues sont juste en dessous, et elles change
 
 ![image](assets/51.webp)
 
-Vous verrez également les clés privées/publiques étendues "BIP32" - elles doivent être ignorées pour le moment.
+Vous verrez également les clés privées/publiques étendues "BIP32", elles doivent être ignorées pour le moment.
 
-La clé privée étendue du compte peut être utilisée pour régénérer entièrement votre portefeuille. Cependant, la clé publique étendue du compte ne peut produire qu'une version limitée du même portefeuille (portefeuille de surveillance) - si vous mettez cette clé dans Electrum, elle produira toujours les 8,6 milliards d'adresses que la graine ou la clé privée étendue auraient, mais il n'y aura pas de clés privées disponibles pour Electrum, donc aucune dépense n'est possible. Faisons-le maintenant pour illustrer le point :
+La clé privée étendue du compte peut être utilisée pour régénérer entièrement votre portefeuille. Cependant, la clé publique étendue du compte ne peut produire qu'une version limitée du même portefeuille (portefeuille de surveillance), si vous mettez cette clé dans Electrum, elle produira toujours les 8,6 milliards d'adresses que la graine ou la clé privée étendue auraient, mais il n'y aura pas de clés privées disponibles pour Electrum, donc aucune dépense n'est possible. Faisons-le maintenant pour illustrer le point :
 
 Copiez la "clé publique étendue du compte" dans le presse-papiers.
 
@@ -727,13 +727,13 @@ Une raison, et pas la principale, est que vous pouvez potentiellement observer v
 
 Une autre raison est que cela est REQUIS pour effectuer des paiements si vous choisissez de garder vos clés privées hors de l'ordinateur ; je vais expliquer :
 
-> Les portefeuilles matériels (HWW) ont été créés pour qu'un appareil puisse stocker vos clés privées en toute sécurité (verrouillées avec un code PIN), ne jamais exposer les clés à un ordinateur (même lorsqu'il est connecté à un ordinateur via un câble) et ne peuvent pas se connecter à Internet eux-mêmes. Un tel appareil ne peut pas effectuer de transactions par lui-même car toutes les transactions Bitcoin commencent par la référence à une UTXO(s) sur la blockchain (qui se trouve sur un nœud). Un portefeuille doit spécifier l'ID de transaction dans lequel se trouve l'UTXO, ainsi que la sortie de la transaction à dépenser. Ce n'est qu'après avoir spécifié l'entrée qu'une nouvelle transaction peut être créée en premier lieu, sans parler de la signer. Les portefeuilles matériels ne peuvent pas créer de transactions car ils n'ont pas accès à des UTXOs - ils ne sont connectés à rien ! Une clé publique étendue est généralement extraite du HWW, et les adresses sont ensuite affichées sur un ordinateur - beaucoup de personnes sont familières avec le logiciel Ledger ou Trezor Suite qui affiche les adresses et les soldes sur leur ordinateur - c'est un portefeuille de surveillance. Ces programmes peuvent créer des transactions, mais ils ne peuvent pas les signer. Ils peuvent seulement faire signer des transactions par des HWW qui y sont connectés. Le HWW prend la transaction nouvellement générée à partir du portefeuille de surveillance, la signe, puis la renvoie à l'ordinateur pour la diffuser à un nœud. Le HWW ne peut pas diffuser par lui-même, c'est le portefeuille de surveillance associé qui le fait. De cette manière, les deux portefeuilles (portefeuille de clé publique sur l'ordinateur et portefeuille de clé privée dans le HWW) coopèrent pour générer, signer et diffuser, tout en veillant à ce que les clés privées restent isolées et éloignées d'un appareil connecté à Internet.
+> Les portefeuilles matériels (HWW) ont été créés pour qu'un appareil puisse stocker vos clés privées en toute sécurité (verrouillées avec un code PIN), ne jamais exposer les clés à un ordinateur (même lorsqu'il est connecté à un ordinateur via un câble) et ne peuvent pas se connecter à Internet eux-mêmes. Un tel appareil ne peut pas effectuer de transactions par lui-même car toutes les transactions Bitcoin commencent par la référence à une UTXO(s) sur la blockchain (qui se trouve sur un nœud). Un portefeuille doit spécifier l'ID de transaction dans lequel se trouve l'UTXO, ainsi que la sortie de la transaction à dépenser. Ce n'est qu'après avoir spécifié l'entrée qu'une nouvelle transaction peut être créée en premier lieu, sans parler de la signer. Les portefeuilles matériels ne peuvent pas créer de transactions car ils n'ont pas accès à des UTXOs, ils ne sont connectés à rien ! Une clé publique étendue est généralement extraite du HWW, et les adresses sont ensuite affichées sur un ordinateur, beaucoup de personnes sont familières avec le logiciel Ledger ou Trezor Suite qui affiche les adresses et les soldes sur leur ordinateur, c'est un portefeuille de surveillance. Ces programmes peuvent créer des transactions, mais ils ne peuvent pas les signer. Ils peuvent seulement faire signer des transactions par des HWW qui y sont connectés. Le HWW prend la transaction nouvellement générée à partir du portefeuille de surveillance, la signe, puis la renvoie à l'ordinateur pour la diffuser à un nœud. Le HWW ne peut pas diffuser par lui-même, c'est le portefeuille de surveillance associé qui le fait. De cette manière, les deux portefeuilles (portefeuille de clé publique sur l'ordinateur et portefeuille de clé privée dans le HWW) coopèrent pour générer, signer et diffuser, tout en veillant à ce que les clés privées restent isolées et éloignées d'un appareil connecté à Internet.
 
 ## Transactions Bitcoin partiellement signées (PSBTs)
 
-Il est possible de créer une transaction, de l'enregistrer dans un fichier, de la recharger ultérieurement, de la signer, de l'enregistrer à nouveau, puis de la diffuser enfin - je ne dis pas que quelqu'un aurait besoin de le faire ; c'est juste quelque chose de possible.
+Il est possible de créer une transaction, de l'enregistrer dans un fichier, de la recharger ultérieurement, de la signer, de l'enregistrer à nouveau, puis de la diffuser enfin, je ne dis pas que quelqu'un aurait besoin de le faire ; c'est juste quelque chose de possible.
 
-Maintenant, considérez un portefeuille multisignature 3 sur 5 - 5 clés privées créent un portefeuille et 3 sont nécessaires pour signer complètement une transaction (voir ici pour en savoir plus sur les clés de portefeuille multisignature). Il est possible d'avoir 5 ordinateurs différents, chacun avec l'une des cinq clés privées.
+Maintenant, considérez un portefeuille multisignature 3 sur 5, 5 clés privées créent un portefeuille et 3 sont nécessaires pour signer complètement une transaction (voir ici pour en savoir plus sur les clés de portefeuille multisignature). Il est possible d'avoir 5 ordinateurs différents, chacun avec l'une des cinq clés privées.
 
 L'ordinateur un peut générer une transaction et la signer. Il peut ensuite l'enregistrer dans un fichier et l'envoyer par e-mail à l'ordinateur 2. L'ordinateur 2 peut ensuite la signer et potentiellement enregistrer le fichier dans un code QR, puis transmettre le QR via un appel Zoom à l'ordinateur 3 de l'autre côté du monde. L'ordinateur 3 peut capturer le QR, charger la transaction dans Electrum et la signer. Après les deux premières signatures, la transaction était une PSBT (transaction Bitcoin partiellement signée). Après la troisième signature, la transaction est devenue entièrement signée et valide, prête à être diffusée.
 Pour en savoir plus sur PSBTS, consultez ce guide. (https://armantheparman.com/psbt/)
@@ -744,7 +744,7 @@ J'ai un guide sur l'utilisation des portefeuilles matériels en général, que j
 
 Il existe également des guides sur différentes marques de HWW se connectant à Sparrow Bitcoin Wallet que vous pouvez trouver ici. (https://armantheparman.com/hwws/)
 
-Ce sera mon premier guide montrant comment utiliser un portefeuille matériel avec Electrum - je vais utiliser le portefeuille matériel ColdCard pour le démontrer. Ce n'est pas censé être un guide détaillé sur le ColdCard en particulier, ce guide se trouve ici. Je montre simplement des points spécifiques à Electrum. (https://armantheparman.com/cc/)
+Ce sera mon premier guide montrant comment utiliser un portefeuille matériel avec Electrum, je vais utiliser le portefeuille matériel ColdCard pour le démontrer. Ce n'est pas censé être un guide détaillé sur le ColdCard en particulier, ce guide se trouve ici. Je montre simplement des points spécifiques à Electrum. (https://armantheparman.com/cc/)
 
 ### Connexion via la carte micro SD (hors ligne)
 
@@ -852,11 +852,11 @@ Linux :
 
 > /home/votre_nom_d'utilisateur/.electrum
 
-Notez le "." avant "electrum" dans Linux et Mac - cela indique que le répertoire est caché. Notez également que ce répertoire n'est créé (automatiquement) qu'une fois que vous avez exécuté Electrum pour la première fois. Le répertoire contient le fichier de configuration d'Electrum ainsi que le répertoire qui contient tous les portefeuilles que vous avez enregistrés.
+Notez le "." avant "electrum" dans Linux et Mac, cela indique que le répertoire est caché. Notez également que ce répertoire n'est créé (automatiquement) qu'une fois que vous avez exécuté Electrum pour la première fois. Le répertoire contient le fichier de configuration d'Electrum ainsi que le répertoire qui contient tous les portefeuilles que vous avez enregistrés.
 
 Si vous supprimez le programme Electrum de votre ordinateur, le répertoire caché restera, à moins que vous ne le supprimiez également activement.
 
-Pour mettre à niveau Electrum, vous suivez la même procédure que celle que j'ai décrite au début pour le téléchargement et la vérification. Vous aurez alors deux copies du programme sur votre ordinateur, et vous pourrez exécuter l'une ou l'autre - chaque programme accédera au même dossier caché d'Electrum pour sa configuration et l'accès à votre portefeuille. Tout ce que nous avons enregistré, comme l'unité de base, le nœud par défaut auquel se connecter, les autres préférences et l'accès aux portefeuilles, restera car tout cela est enregistré dans ce dossier.
+Pour mettre à niveau Electrum, vous suivez la même procédure que celle que j'ai décrite au début pour le téléchargement et la vérification. Vous aurez alors deux copies du programme sur votre ordinateur, et vous pourrez exécuter l'une ou l'autre, chaque programme accédera au même dossier caché d'Electrum pour sa configuration et l'accès à votre portefeuille. Tout ce que nous avons enregistré, comme l'unité de base, le nœud par défaut auquel se connecter, les autres préférences et l'accès aux portefeuilles, restera car tout cela est enregistré dans ce dossier.
 
 ### Déplacer votre Electrum et vos portefeuilles vers un autre ordinateur
 

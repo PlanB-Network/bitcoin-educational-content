@@ -6,3 +6,4 @@ wrong_answers:
   - BIP141
 explanation: |
   BIP32 mendefinisikan operasi dari dompet HD, memungkinkan untuk derivasi hierarkis kunci privat dari sebuah seed.
+reviewed: true

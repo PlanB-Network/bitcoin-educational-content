@@ -1,0 +1,8 @@
+question: Ni lini opereta wa alama ya kuuliza (?) anapaswa kupendelewa zaidi ya mbinu za unwrap() au expect() katika kushughulikia hitilafu za Rust?
+answer: Unapohitaji kueneza hitilafu kwenye rundo la simu ili kitendakazi cha kupiga simu kishughulikie
+wrong_answers:
+  - Unapotaka kutoa ujumbe maalum wa hitilafu kwa ajili ya utatuzi wa shughuli zilizoshindwa
+  - Ukiwa na uhakika kwamba operesheni itafanikiwa na unataka kuepuka kushughulikia makosa
+  - Unapohitaji kubadilisha makosa kuwa thamani chaguo-msingi na kuendelea na utekelezaji wa programu
+explanation: |
+  Opereta ya alama ya kuuliza (?) imeundwa kwa ajili ya uenezaji wa hitilafu - huondoa thamani za mafanikio lakini hurejesha makosa mara moja kutoka kwa kitendakazi cha sasa, na kuruhusu wapigaji kuyashughulikia. Tofauti na unwrap()/expect() ambayo hupatwa na hofu kuhusu hitilafu, au unwrap_or() ambayo hutoa chaguo-msingi, opereta ya ? hudumisha muktadha wa hitilafu na hukabidhi jukumu kwa msimbo wa kiwango cha juu ambao unaweza kufanya maamuzi sahihi ya utunzaji.

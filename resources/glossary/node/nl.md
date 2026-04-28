@@ -1,5 +1,6 @@
 ---
-term: NODE
+term: Node
+definition: Computer waarop een Bitcoin-client draait en die deelneemt aan het netwerk door een kopie van de blockchain bij te houden.
 ---
 
 In het Bitcoin netwerk is een knooppunt (of "node" in het Engels) een computer waarop een Bitcoin protocolclient draait (zoals bijvoorbeeld Bitcoin core). Het neemt deel aan het netwerk door een kopie van Blockchain te onderhouden, transacties en nieuwe blokken door te geven en te verifiëren, en optioneel door deel te nemen aan het Mining proces. De som van alle Bitcoin knooppunten vertegenwoordigt het Bitcoin netwerk zelf.

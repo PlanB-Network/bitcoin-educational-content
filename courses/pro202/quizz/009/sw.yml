@@ -1,0 +1,8 @@
+question: Je, ni mlinganyo gani maalum wa mkunjo wa duaradufu unaotumiwa na secp256k1 ya Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin hutumia mkunjo wa secp256k1 uliofafanuliwa na mlinganyo y² = x³ + 7 juu ya sehemu yenye kikomo. Mlinganyo huu maalum ulichaguliwa kwa sababu unahifadhi ulinganifu na tabia isiyo ya mstari muhimu kwa usalama wa kriptografia. Mgawo 7 ni sehemu ya vipimo sanifu vya secp256k1 na huitofautisha na mikunjo mingine ya duaradufu ambayo inaweza kutumia vigeu tofauti kama vile 1, 3, au 5.

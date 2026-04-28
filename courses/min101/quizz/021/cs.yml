@@ -1,0 +1,9 @@
+question: Po kolika blocích se upravuje cíl obtížnosti?
+answer: 2016 bloků
+wrong_answers:
+  - 2000 bloků
+  - 2100 bloků
+  - 4096 bloků
+explanation: |
+  Úprava se provádí každých 2016 bloků, což jsou přibližně dva týdny při 10 minutách na blok.
+reviewed: false

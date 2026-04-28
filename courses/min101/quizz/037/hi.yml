@@ -1,0 +1,9 @@
+question: जब 32-बिट nonce समाप्त हो जाता है, तो कौन सा तंत्र खोज स्थान (search space) का विस्तार करता है?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  coinbase के scriptSig में extra-nonce को संशोधित करके, Merkle root बदल जाता है और इस प्रकार हेडर भी।
+reviewed: false

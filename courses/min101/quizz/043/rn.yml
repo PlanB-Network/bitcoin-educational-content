@@ -1,0 +1,9 @@
+question: Hagati yo hagati muri 2010 na hagati muri 2011, urugero rwo kugora rwa mining rwigwije incuro zingahe?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Urugero rwo kugora rwaragwiriye incuro 1 000 muri ico gihe, cane cane kubera ikoreshwa rya GPU.
+reviewed: false

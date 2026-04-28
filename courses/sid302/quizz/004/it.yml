@@ -1,0 +1,8 @@
+question: Quale caratteristica crittografica permette a Liquid di nascondere gli importi delle transazioni e i tipi di attività dalla vista pubblica?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Moduli di sicurezza hardware (HSM)
+  - Protocollo di Federazione dinamica (Dynafed)
+  - Chiavi di autorizzazione Peg-out (PAK)
+explanation: |
+  Il Confidential Transactions (CT) è la funzione crittografica che consente al Liquid di nascondere i tipi di attività e gli importi delle transazioni dal libro mastro pubblico, consentendo comunque alla rete di verificare la validità delle transazioni. Questo garantisce una privacy commerciale essenziale per le istituzioni. I moduli di sicurezza hardware sono dispositivi fisici che proteggono le chiavi private, il protocollo Dynafed gestisce le modifiche alla federazione e i PAK controllano il processo di peg-out: nessuno di questi nasconde i dettagli delle transazioni alla vista del pubblico.

@@ -1,0 +1,9 @@
+question: O que o halving altera no Bitcoin?
+answer: O subsídio de bloco
+wrong_answers:
+  - As taxas de transação
+  - O tamanho do bloco
+  - O alvo de dificuldade
+explanation: |
+  O halving divide por dois o subsídio máximo criado por bloco, sem alterar as taxas.
+reviewed: false

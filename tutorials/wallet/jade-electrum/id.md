@@ -1,5 +1,5 @@
 ---
-name: Giok - Electrum
+name: Jade - Electrum
 description: Cara menggunakan Jade atau Jade Plus Anda dengan Electrum (desktop)
 ---
 
@@ -7,7 +7,7 @@ description: Cara menggunakan Jade atau Jade Plus Anda dengan Electrum (desktop)
 
 
 
-panduan ini diambil dari pelajaran [Lokakarya Bitcoin] (https://officinebitcoin.it/lezioni/jadeele/index.html)_
+panduan ini diambil dari pelajaran [Lokakarya Bitcoin](https://officinebitcoin.it/lezioni/jadeele/index.html)_
 
 
 

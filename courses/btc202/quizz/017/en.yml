@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin-Miner and Bitcoin-Wallet
   - Bitcoin-core and Bitcoin-node
 explanation: |
-  Since version 0.5, Bitcoin Core includes a graphical Interface (Bitcoin-qt) and a command-line Interface (bitcoind).
+  Since version 0.5, Bitcoin Core includes a graphical interface (Bitcoin-qt) and a command-line interface (bitcoind).
 reviewed: true

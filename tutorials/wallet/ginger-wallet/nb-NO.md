@@ -1,5 +1,5 @@
 ---
-name: Ingefær Wallet
+name: Ginger Wallet
 description: Bitcoin wallet-programvare med åpen kildekode, fork fra Wasabi Wallet, integrering av Coinjoins
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Ginger Wallet er en åpen kildekode-portefølje med fokus på konfidensialitet o
 
 
 
-Ginger Wallet beholder Wasabis tekniske arkitektur, men legger til noen få spesifikke funksjoner. Ifølge [Ginger Wallet-dokumentasjonen] (https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) legger Wasabi vekt på **autonomi og kontroll**, mens Ginger fokuserer på **brukervennlighet, sikkerhet og en forenklet opplevelse**, noe som gjør den tilgjengelig for dem som er mindre kjent med tekniske aspekter.
+Ginger Wallet beholder Wasabis tekniske arkitektur, men legger til noen få spesifikke funksjoner. Ifølge [Ginger Wallet-dokumentasjonen](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet) legger Wasabi vekt på **autonomi og kontroll**, mens Ginger fokuserer på **brukervennlighet, sikkerhet og en forenklet opplevelse**, noe som gjør den tilgjengelig for dem som er mindre kjent med tekniske aspekter.
 
 
 
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-For å installere Ginger Wallet, besøk nettstedet [Ginger Wallet] (https://gingerwallet.io).
+For å installere Ginger Wallet, besøk nettstedet [Ginger Wallet](https://gingerwallet.io).
 
 
 
@@ -56,7 +56,7 @@ Trykk på **Last ned** for å laste ned den riktige versjonen for din datamaskin
 
 
 
-Et annet alternativ er å gå til prosjektets [GitHub] (https://github.com/GingerPrivacy/GingerWallet/releases) for å laste det ned.
+Et annet alternativ er å gå til prosjektets [GitHub](https://github.com/GingerPrivacy/GingerWallet/releases) for å laste det ned.
 
 
 

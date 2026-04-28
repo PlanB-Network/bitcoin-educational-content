@@ -1,6 +1,7 @@
 ---
-term: SERANGAN DEBU
+term: Dusting attack
 
+definition: Serangan yang mengirimkan jumlah yang sangat kecil untuk melacak transaksi dan mengidentifikasi pemilik alamat.
 ---
 _Dusting Attack_ melibatkan pengiriman sejumlah kecil bitcoin ke sejumlah besar alamat penerima. Tujuan penyerang adalah untuk memaksa para penerima untuk menggabungkan jumlah ini dengan UTXO lainnya. Penyerang kemudian melacak pergerakan bitcoin dalam jumlah kecil ini di masa mendatang, dengan tujuan untuk membentuk kelompok alamat, yaitu untuk menentukan apakah beberapa alamat merupakan bagian dari entitas yang sama. Dengan mengkorelasikan informasi yang dikumpulkan selama serangan debu dengan data lain dan heuristik yang digunakan dalam analisis rantai, penyerang dapat mengidentifikasi entitas tertentu dan alamat terkait. Metode ini merupakan ancaman hanya bagi privasi pengguna dan tidak mempengaruhi keamanan dana mereka.
 

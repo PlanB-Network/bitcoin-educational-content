@@ -1,0 +1,8 @@
+question: Kui Bitcoin-sõlm käivitub ja liitub võrku esimest korda, millist esmast mehhanismi ta kasutab aktiivsete partnerite leidmiseks?
+answer: Kontaktid kõvakodeeritud DNS-seemnetega, mida haldavad tuumarendajad, et saada aktiivsete eakaaslaste IP-aadressid
+wrong_answers:
+  - Saadab avastamissõnumi kõigile IP-aadressidele eelnevalt määratletud alamvõrkude vahemikes
+  - Ühendub keskse registriserveriga, mis säilitab kõigi aktiivsete sõlmede nimekirja
+  - Kasutab DHT (Distributed Hash Table) protokolli, et leida eakaaslasi hash-põhise marsruutimise kaudu
+explanation: |
+  Bitcoin kasutab käivitamismehhanismina kõvakodeeritud DNS-seemneid, sest see pakub uutele sõlmedele detsentraliseeritud viisi võrku sisenemiseks ilma keskasutusele tuginemata. DNS-seemneid haldavad tuumiku arendajad ja need annavad tagasi hetkel aktiivsete eakaaslaste IP-aadressid. Kui sõlmed on ühendatud, saavad nad seejärel kasutada käsku getaddr, et leida täiendavaid partnerid. Valed vastused kirjeldavad tsentraliseeritud lähenemisviise või protokolle, mida Bitcoin ei kasuta - Bitcoin ülesehituses ei ole keskregistrit, alamvõrgustiku edastamist ega DHT-põhist peeride leidmist.

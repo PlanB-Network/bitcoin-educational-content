@@ -1,5 +1,6 @@
 ---
-term: ANYPREVOUT (APO)
+term: Anyprevout (apo)
+definition: Ett förslag (BIP118) som lägger till nya SigHash-flaggor som tillåter skapandet av signaturer som inte täcker någon specifik input från transaktionen.
 ---
 
-Namnet har givits till BIP118 som föreslår att två nya SigHash Flag-modifierare läggs till, kallade `SIGHASH_ANYPREVOUT` och `SIGHASH_ANYPREVOUTANYSCRIPT`. Termen "*AnyPrevOut*" kommer från sammandragningen av "*Any Previous Output*" som kan översättas till franska som "toute sortie précédente".
+Benämning given till BIP118, som föreslår att lägga till två nya SigHash-flaggmodifierare, kallade `SIGHASH_ANYPREVOUT` och `SIGHASH_ANYPREVOUTANYSCRIPT`. Termen "*AnyPrevOut*" härrör från sammandragningen av "*Any Previous Output*".

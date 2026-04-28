@@ -77,7 +77,7 @@ Sẵn sàng khám phá các cơ chế kỹ thuật của Lightning Network? Hãy
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-Lightning Network là một mạng lưới các kênh thanh toán được xây dựng trên cơ sở giao thức Bitcoin, nhằm mục đích cho phép thực hiện các giao dịch nhanh chóng và với chi phí thấp. Nó cho phép tạo ra các kênh thanh toán giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như ngay lập tức và với phí rất thấp, mà không cần phải ghi lại từng giao dịch riêng lẻ trên blockchain. Như vậy, Lightning Network tìm cách cải thiện khả năng mở rộng của Bitcoin và làm cho nó có thể sử dụng cho các khoản thanh toán giá trị thấp.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) là một mạng lưới các [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel) được xây dựng trên cơ sở giao thức Bitcoin, nhằm mục đích cho phép thực hiện các giao dịch nhanh chóng và với chi phí thấp. Nó cho phép tạo ra các kênh thanh toán giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như ngay lập tức và với phí rất thấp, mà không cần phải ghi lại từng giao dịch riêng lẻ trên [blockchain](https://planb.academy/resources/glossary/blockchain). Như vậy, Lightning Network tìm cách cải thiện [khả năng mở rộng](https://planb.academy/resources/glossary/scalability) của Bitcoin và làm cho nó có thể sử dụng cho các khoản thanh toán giá trị thấp.
 
 Trước khi khám phá "mạng lưới", điều quan trọng là phải hiểu về khái niệm **kênh thanh toán** trên Lightning, cách nó hoạt động và các đặc điểm cụ thể của nó. Đây là chủ đề của chương đầu tiên này.
 
@@ -87,7 +87,7 @@ Một kênh thanh toán cho phép hai bên, ở đây là **Alice** và **Bob**,
 
 ![LNP201](assets/en/001.webp)
 
-Trong ví dụ của chúng tôi, Alice có 100,000 satoshis ở phía của mình trong kênh, và Bob có 30,000, với tổng cộng 130,000 satoshis, tạo thành **khả năng chứa của kênh**.
+Trong ví dụ của chúng tôi, Alice có 100,000 [satoshis](https://planb.academy/resources/glossary/satoshi-sat) ở phía của mình trong kênh, và Bob có 30,000, với tổng cộng 130,000 satoshis, tạo thành **[khả năng chứa của kênh](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Nhưng satoshi là gì?**
 
@@ -135,7 +135,7 @@ Chương này khá đặc biệt vì nó không trực tiếp nói về Lightnin
 
 ### Địa Chỉ Bitcoin, Khóa Riêng và Khóa Công Khai
 
-Một địa chỉ Bitcoin là một chuỗi ký tự được tạo ra từ một **khóa công khai**, được tính toán từ một **khóa riêng**. Như bạn chắc chắn biết, nó được sử dụng để khóa bitcoin, tương đương với việc nhận chúng vào ví của chúng ta.
+Một địa chỉ Bitcoin là một chuỗi ký tự được tạo ra từ một **[khóa công khai](https://planb.academy/resources/glossary/public-key)**, được tính toán từ một **[khóa riêng](https://planb.academy/resources/glossary/private-key)**. Như bạn chắc chắn biết, nó được sử dụng để khóa bitcoin, tương đương với việc nhận chúng vào ví của chúng ta.
 
 Khóa riêng là một yếu tố bí mật mà **không bao giờ nên chia sẻ**, trong khi khóa công khai và địa chỉ có thể được chia sẻ mà không có rủi ro về an ninh (việc tiết lộ chúng chỉ đại diện cho rủi ro đối với quyền riêng tư của bạn). Dưới đây là một biểu diễn phổ biến mà chúng ta sẽ áp dụng trong suốt quá trình đào tạo này:
 
@@ -145,9 +145,9 @@ Khóa riêng là một yếu tố bí mật mà **không bao giờ nên chia s�
 
 ### Giao Dịch Bitcoin: Gửi Tiền và Scripts
 
-Trên Bitcoin, một giao dịch bao gồm việc gửi tiền từ một địa chỉ này sang địa chỉ khác. Hãy lấy ví dụ về Alice gửi 0.002 Bitcoin cho Bob. Alice sử dụng khóa riêng liên kết với địa chỉ của mình để **ký** giao dịch, qua đó chứng minh rằng cô ấy thực sự có khả năng chi tiêu số tiền này. Nhưng điều gì thực sự xảy ra đằng sau giao dịch này? Số tiền trên một địa chỉ Bitcoin được khóa bởi một **script**, một loại mini-program đặt ra một số điều kiện nhất định để chi tiêu số tiền.
+Trên Bitcoin, một giao dịch bao gồm việc gửi tiền từ một địa chỉ này sang địa chỉ khác. Hãy lấy ví dụ về Alice gửi 0.002 Bitcoin cho Bob. Alice sử dụng khóa riêng liên kết với địa chỉ của mình để **ký** giao dịch, qua đó chứng minh rằng cô ấy thực sự có khả năng chi tiêu số tiền này. Nhưng điều gì thực sự xảy ra đằng sau giao dịch này? Số tiền trên một địa chỉ Bitcoin được khóa bởi một **[script](https://planb.academy/resources/glossary/script)**, một loại mini-program đặt ra một số điều kiện nhất định để chi tiêu số tiền.
 
-Script phổ biến nhất yêu cầu một chữ ký với khóa riêng liên kết với địa chỉ. Khi Alice ký một giao dịch với khóa riêng của mình, cô ấy **mở khóa script** chặn số tiền, và chúng có thể sau đó được chuyển giao. Việc chuyển giao tiền bao gồm việc thêm một script mới vào số tiền này, quy định rằng để chi tiêu chúng lần này, chữ ký của khóa riêng của **Bob** sẽ được yêu cầu.
+Script phổ biến nhất yêu cầu một [chữ ký](https://planb.academy/resources/glossary/digital-signature) với khóa riêng liên kết với địa chỉ. Khi Alice ký một giao dịch với khóa riêng của mình, cô ấy **mở khóa script** chặn số tiền, và chúng có thể sau đó được chuyển giao. Việc chuyển giao tiền bao gồm việc thêm một script mới vào số tiền này, quy định rằng để chi tiêu chúng lần này, chữ ký của khóa riêng của **Bob** sẽ được yêu cầu.
 
 ![LNP201](assets/en/005.webp)
 
@@ -209,9 +209,9 @@ Như chúng ta đã thấy trong chương đầu tiên, một **kênh thanh toá
 
 Rất quan trọng khi phân biệt rõ ràng các cấp độ trao đổi trên Mạng Lưới Lightning:
 
-- **Giao tiếp ngang hàng (giao thức Lightning)**: Đây là các tin nhắn mà các nút Lightning gửi cho nhau để giao tiếp. Chúng tôi sẽ biểu diễn những tin nhắn này bằng các đường nét đứt màu đen trong các sơ đồ của chúng tôi.
+- **Giao tiếp [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p) (giao thức Lightning)**: Đây là các tin nhắn mà các [nút Lightning](https://planb.academy/resources/glossary/lightning-node) gửi cho nhau để giao tiếp. Chúng tôi sẽ biểu diễn những tin nhắn này bằng các đường nét đứt màu đen trong các sơ đồ của chúng tôi.
 - **Kênh thanh toán (giao thức Lightning)**: Đây là các con đường để trao đổi tiền tệ trên Lightning, mà chúng tôi sẽ biểu diễn bằng các đường liền màu đen.
-- **Giao dịch Bitcoin (giao thức Bitcoin)**: Đây là các giao dịch được thực hiện trên chuỗi, mà chúng tôi sẽ biểu diễn bằng các đường màu cam.
+- **Giao dịch Bitcoin (giao thức Bitcoin)**: Đây là các giao dịch được thực hiện [trên chuỗi](https://planb.academy/resources/glossary/onchain), mà chúng tôi sẽ biểu diễn bằng các đường màu cam.
 
 ![LNP201](assets/en/010.webp)
 Đáng chú ý là một nút Lightning có thể giao tiếp qua giao thức P2P mà không cần mở kênh, nhưng để trao đổi tiền, việc mở một kênh là cần thiết.
@@ -244,7 +244,7 @@ Rất quan trọng khi phân biệt rõ ràng các cấp độ trao đổi trên
 
 ### Kênh được mở khi nào?
 
-Kênh được coi là đã mở một khi giao dịch gửi tiền được bao gồm trong một khối Bitcoin và nó đạt được một độ sâu nhất định của các xác nhận (số lượng khối tiếp theo).
+Kênh được coi là đã mở một khi giao dịch gửi tiền được bao gồm trong một [khối](https://planb.academy/resources/glossary/block) Bitcoin và nó đạt được một độ sâu nhất định của các [xác nhận](https://planb.academy/resources/glossary/confirmation) (số lượng khối tiếp theo).
 
 **Bạn nên nhớ gì từ chương này?**
 
@@ -276,7 +276,7 @@ Tại thời điểm mở kênh, Alice đã gửi **130,000 satoshis** vào đ�
 
 ### Giao dịch Chưa Công Bố: Các Giao dịch Cam Kết
 
-Khi Alice thực hiện một giao dịch trong kênh để gửi quỹ cho Bob, một giao dịch Bitcoin mới được tạo ra để phản ánh sự thay đổi này trong phân phối quỹ. Giao dịch này, được gọi là **giao dịch cam kết**, không được công bố trên blockchain nhưng đại diện cho trạng thái mới của kênh sau giao dịch Lightning.
+Khi Alice thực hiện một giao dịch trong kênh để gửi quỹ cho Bob, một giao dịch Bitcoin mới được tạo ra để phản ánh sự thay đổi này trong phân phối quỹ. Giao dịch này, được gọi là **[giao dịch cam kết](https://planb.academy/resources/glossary/commitment-transaction)**, không được công bố trên blockchain nhưng đại diện cho trạng thái mới của kênh sau giao dịch Lightning.
 
 Hãy lấy một ví dụ với Alice gửi 30,000 satoshis cho Bob:
 
@@ -347,9 +347,9 @@ Còn tồi tệ hơn, Alice có thể công bố giao dịch rút tiền đầu 
 
 Để ngăn chặn loại gian lận này của Alice, trên Mạng Lưới Sét, **cơ chế bảo mật** được thêm vào các giao dịch cam kết:
 
-- **Thời gian khóa**: Mỗi giao dịch cam kết bao gồm một thời gian khóa cho quỹ của Alice. Thời gian khóa là một nguyên tắc hợp đồng thông minh đặt ra một điều kiện thời gian phải được đáp ứng để một giao dịch được thêm vào một khối. Điều này có nghĩa là Alice không thể thu hồi quỹ của mình cho đến khi một số khối nhất định đã trôi qua nếu cô ấy công bố một trong các giao dịch cam kết. Thời gian khóa này bắt đầu áp dụng từ sự xác nhận của giao dịch cam kết. Thời gian của nó thường tỷ lệ với kích thước của kênh, nhưng cũng có thể được cấu hình một cách thủ công.
+- **[Thời gian khóa](https://planb.academy/resources/glossary/timelock)**: Mỗi giao dịch cam kết bao gồm một thời gian khóa cho quỹ của Alice. Thời gian khóa là một nguyên tắc [hợp đồng thông minh](https://planb.academy/resources/glossary/smart-contract) đặt ra một điều kiện thời gian phải được đáp ứng để một giao dịch được thêm vào một khối. Điều này có nghĩa là Alice không thể thu hồi quỹ của mình cho đến khi một số khối nhất định đã trôi qua nếu cô ấy công bố một trong các giao dịch cam kết. Thời gian khóa này bắt đầu áp dụng từ sự xác nhận của giao dịch cam kết. Thời gian của nó thường tỷ lệ với kích thước của kênh, nhưng cũng có thể được cấu hình một cách thủ công.
 - **Khóa Huỷ Bỏ**: Quỹ của Alice cũng có thể được chi tiêu ngay lập tức bởi Bob nếu anh ta sở hữu **khóa huỷ bỏ**. Khóa này bao gồm một bí mật do Alice giữ và một bí mật do Bob giữ. Lưu ý rằng bí mật này khác nhau cho mỗi giao dịch cam kết.
-   Nhờ vào sự kết hợp của 2 cơ chế này, Bob có thời gian để phát hiện nỗ lực gian lận của Alice và trừng phạt cô ấy bằng cách thu hồi đầu ra của mình với khóa thu hồi, điều này đối với Bob có nghĩa là thu hồi lại tất cả các quỹ của kênh. Giao dịch cam kết mới của chúng ta giờ đây sẽ trông như thế này:
+   Nhờ vào sự kết hợp của 2 cơ chế này, Bob có thời gian để phát hiện nỗ lực gian lận của Alice và trừng phạt cô ấy bằng cách thu hồi [đầu ra](https://planb.academy/resources/glossary/output) của mình với khóa thu hồi, điều này đối với Bob có nghĩa là thu hồi lại tất cả các quỹ của kênh. Giao dịch cam kết mới của chúng ta giờ đây sẽ trông như thế này:
    ![LNP201](assets/en/025.webp)
 
 Hãy cùng nhau chi tiết về cách thức hoạt động của cơ chế này.
@@ -359,7 +359,7 @@ Hãy cùng nhau chi tiết về cách thức hoạt động của cơ chế này
 Khi Alice và Bob cập nhật trạng thái của kênh với một giao dịch Lightning mới, họ trao đổi trước **bí mật** tương ứng của họ cho giao dịch cam kết trước đó (cái sẽ trở nên lỗi thời và có thể cho phép một trong họ gian lận). Điều này có nghĩa là, trong trạng thái mới của kênh:
 
 - Alice và Bob có một giao dịch cam kết mới đại diện cho sự phân phối hiện tại của quỹ sau giao dịch Lightning.
-- Mỗi người có bí mật của người kia cho giao dịch trước đó, điều này cho phép họ sử dụng khóa thu hồi chỉ khi một trong họ cố gắng gian lận bằng cách công bố một giao dịch với trạng thái cũ trong mempools của các nút Bitcoin. Thực sự, để trừng phạt bên kia, cần phải giữ cả hai bí mật và giao dịch cam kết của bên kia, bao gồm cả đầu vào đã ký. Không có giao dịch này, khóa thu hồi một mình là vô dụng. Cách duy nhất để lấy được giao dịch này là thu hồi nó từ mempools (trong các giao dịch đang chờ xác nhận) hoặc trong các giao dịch đã được xác nhận trên blockchain trong thời gian khóa thời gian, điều này chứng minh rằng bên kia đang cố gắng gian lận, dù có chủ ý hay không.
+- Mỗi người có bí mật của người kia cho giao dịch trước đó, điều này cho phép họ sử dụng khóa thu hồi chỉ khi một trong họ cố gắng gian lận bằng cách công bố một giao dịch với trạng thái cũ trong [mempools](https://planb.academy/resources/glossary/mempool) của các nút Bitcoin. Thực sự, để trừng phạt bên kia, cần phải giữ cả hai bí mật và giao dịch cam kết của bên kia, bao gồm cả [đầu vào](https://planb.academy/resources/glossary/input) đã ký. Không có giao dịch này, khóa thu hồi một mình là vô dụng. Cách duy nhất để lấy được giao dịch này là thu hồi nó từ mempools (trong các giao dịch đang chờ xác nhận) hoặc trong các giao dịch đã được xác nhận trên blockchain trong thời gian khóa thời gian, điều này chứng minh rằng bên kia đang cố gắng gian lận, dù có chủ ý hay không.
 
 Hãy lấy một ví dụ để hiểu rõ quy trình này:
 
@@ -426,7 +426,7 @@ Trong một **đóng kênh hợp tác**, Alice và Bob đồng ý đóng kênh. 
 
 ![LNP201](assets/en/031.webp)
 
-- Alice và Bob cùng nhau thương lượng về phí của **giao dịch đóng kênh**. Phí này thường được tính dựa trên thị trường phí Bitcoin tại thời điểm đóng kênh. Quan trọng là phải lưu ý rằng **luôn luôn là người mở kênh** (Alice trong ví dụ của chúng ta) phải trả phí đóng kênh.
+- Alice và Bob cùng nhau thương lượng về [phí](https://planb.academy/resources/glossary/transaction-fees) của **giao dịch đóng kênh**. Phí này thường được tính dựa trên thị trường phí Bitcoin tại thời điểm đóng kênh. Quan trọng là phải lưu ý rằng **luôn luôn là người mở kênh** (Alice trong ví dụ của chúng ta) phải trả phí đóng kênh.
 - Họ xây dựng một **giao dịch đóng kênh mới**. Giao dịch này giống như một giao dịch cam kết, nhưng không có thời gian chờ hoặc cơ chế thu hồi, vì cả hai bên đang hợp tác và không có rủi ro gian lận. Giao dịch đóng kênh hợp tác này do đó khác với các giao dịch cam kết.
    Ví dụ, nếu Alice sở hữu **100,000 satoshis** và Bob **30,000 satoshis**, giao dịch kết thúc sẽ chuyển **100,000 satoshis** vào địa chỉ của Alice và **30,000 satoshis** vào địa chỉ của Bob, không có ràng buộc thời gian. Khi giao dịch này được cả hai bên ký, Alice sẽ công bố nó. Khi giao dịch được xác nhận trên blockchain Bitcoin, kênh Lightning sẽ chính thức được đóng.
 
@@ -480,11 +480,11 @@ Có ba cách để đóng một kênh:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Trong chương này, chúng ta sẽ khám phá cách thức các khoản thanh toán trên Mạng Lưới Lightning có thể đến được với người nhận ngay cả khi họ không được kết nối trực tiếp qua một kênh thanh toán. Lightning thực sự là một **mạng lưới các kênh thanh toán**, cho phép gửi tiền đến một nút xa thông qua các kênh của các bên tham gia khác. Chúng ta sẽ khám phá cách thức các khoản thanh toán được định tuyến qua mạng lưới, cách thanh khoản di chuyển giữa các kênh, và cách tính phí giao dịch.
+Trong chương này, chúng ta sẽ khám phá cách thức các khoản thanh toán trên Mạng Lưới Lightning có thể đến được với người nhận ngay cả khi họ không được kết nối trực tiếp qua một kênh thanh toán. Lightning thực sự là một **mạng lưới các kênh thanh toán**, cho phép gửi tiền đến một nút xa thông qua các kênh của các bên tham gia khác. Chúng ta sẽ khám phá cách thức các khoản thanh toán được định tuyến qua mạng lưới, cách [thanh khoản](https://planb.academy/resources/glossary/liquidity-lightning) di chuyển giữa các kênh, và cách tính phí giao dịch.
 
 ### Mạng Lưới Các Kênh Thanh Toán
 
-Trên Mạng Lưới Lightning, một giao dịch tương ứng với việc chuyển tiền giữa hai nút. Như đã thấy trong các chương trước, để thực hiện giao dịch Lightning, cần phải mở một kênh với ai đó. Kênh này cho phép thực hiện gần như vô hạn số lượng giao dịch ngoại tuyến trước khi đóng nó lại để lấy lại số dư trên chuỗi. Tuy nhiên, phương pháp này có nhược điểm là yêu cầu một kênh trực tiếp với người khác để nhận hoặc gửi tiền, điều này ngụ ý một giao dịch mở và một giao dịch đóng cho mỗi kênh. Nếu tôi dự định thực hiện một số lượng lớn các khoản thanh toán với người này, việc mở và đóng kênh trở nên có lợi về chi phí. Ngược lại, nếu tôi chỉ cần thực hiện một vài giao dịch Lightning, việc mở một kênh trực tiếp không có lợi, vì nó sẽ tốn cho tôi 2 giao dịch trên chuỗi cho một số lượng hạn chế các giao dịch ngoại tuyến. Trường hợp này có thể xảy ra, ví dụ, khi muốn thanh toán bằng Lightning tại một cửa hàng mà không có kế hoạch quay lại.
+Trên Mạng Lưới Lightning, một giao dịch tương ứng với việc chuyển tiền giữa hai nút. Như đã thấy trong các chương trước, để thực hiện giao dịch Lightning, cần phải mở một kênh với ai đó. Kênh này cho phép thực hiện gần như vô hạn số lượng giao dịch [ngoại tuyến](https://planb.academy/resources/glossary/offchain) trước khi đóng nó lại để lấy lại số dư trên chuỗi. Tuy nhiên, phương pháp này có nhược điểm là yêu cầu một kênh trực tiếp với người khác để nhận hoặc gửi tiền, điều này ngụ ý một giao dịch mở và một giao dịch đóng cho mỗi kênh. Nếu tôi dự định thực hiện một số lượng lớn các khoản thanh toán với người này, việc mở và đóng kênh trở nên có lợi về chi phí. Ngược lại, nếu tôi chỉ cần thực hiện một vài giao dịch Lightning, việc mở một kênh trực tiếp không có lợi, vì nó sẽ tốn cho tôi 2 giao dịch trên chuỗi cho một số lượng hạn chế các giao dịch ngoại tuyến. Trường hợp này có thể xảy ra, ví dụ, khi muốn thanh toán bằng Lightning tại một cửa hàng mà không có kế hoạch quay lại.
 
 Để giải quyết vấn đề này, Mạng Lưới Lightning cho phép định tuyến một khoản thanh toán qua nhiều kênh và nút trung gian, do đó cho phép thực hiện giao dịch mà không cần một kênh trực tiếp với người khác.
 
@@ -619,7 +619,7 @@ HTLC là một hợp đồng đặc biệt dựa trên hai nguyên tắc:
 Dưới đây là cách quy trình này hoạt động trong ví dụ của chúng ta với Alice, Suzie, và Bob:
 
 ![LNP201](assets/en/048.webp)
-**Tạo bí mật**: Bob tạo một bí mật ngẫu nhiên được ký hiệu là _s_ (hình ảnh trước), và tính toán băm của nó được ký hiệu là _r_ với hàm băm được ký hiệu là _h_. Chúng ta có:
+**Tạo bí mật**: Bob tạo một bí mật ngẫu nhiên được ký hiệu là _s_ (hình ảnh trước), và tính toán băm của nó được ký hiệu là _r_ với [hàm băm](https://planb.academy/resources/glossary/hash-function) được ký hiệu là _h_. Chúng ta có:
 
 $$
 r = h(s)
@@ -724,7 +724,7 @@ Ngay cả với cấu trúc mạng Lightning này, có thông tin thiết yếu 
 
 ### Cập Nhật Bản Đồ Mạng
 
-Để giữ bản đồ mạng của họ được cập nhật, các nút thường xuyên trao đổi thông điệp thông qua một thuật toán gọi là "**_gossip_**". Đây là một thuật toán phân tán được sử dụng để lan truyền thông tin theo cách dịch bệnh đến tất cả các nút trong mạng, cho phép trao đổi và đồng bộ hóa trạng thái toàn cầu của các kênh trong vài chu kỳ giao tiếp. Mỗi nút lan truyền thông tin đến một hoặc nhiều hàng xóm được chọn một cách ngẫu nhiên hoặc không, những nút này, lần lượt, lan truyền thông tin đến các hàng xóm khác và cứ thế cho đến khi đạt được trạng thái đồng bộ hóa toàn cầu.
+Để giữ bản đồ mạng của họ được cập nhật, các nút thường xuyên trao đổi thông điệp thông qua một thuật toán gọi là "**_[gossip](https://planb.academy/resources/glossary/gossip)_**". Đây là một thuật toán phân tán được sử dụng để lan truyền thông tin theo cách dịch bệnh đến tất cả các nút trong mạng, cho phép trao đổi và đồng bộ hóa trạng thái toàn cầu của các kênh trong vài chu kỳ giao tiếp. Mỗi nút lan truyền thông tin đến một hoặc nhiều hàng xóm được chọn một cách ngẫu nhiên hoặc không, những nút này, lần lượt, lan truyền thông tin đến các hàng xóm khác và cứ thế cho đến khi đạt được trạng thái đồng bộ hóa toàn cầu.
 
 2 thông điệp chính được trao đổi giữa các nút Lightning như sau:
 
@@ -797,7 +797,7 @@ Trong chương tiếp theo, chúng ta sẽ cụ thể nghiên cứu về cách h
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
-Trong chương này, chúng ta sẽ xem xét kỹ lưỡng hơn về cách thức hoạt động của **hóa đơn** Lightning, tức là yêu cầu thanh toán được gửi bởi nút nhận đến nút gửi. Mục tiêu là hiểu cách thức thanh toán và nhận thanh toán trên Lightning. Chúng ta cũng sẽ thảo luận về 2 phương án thay thế cho hóa đơn truyền thống: LNURL và Keysend.
+Trong chương này, chúng ta sẽ xem xét kỹ lưỡng hơn về cách thức hoạt động của **hóa đơn** Lightning, tức là yêu cầu thanh toán được gửi bởi nút nhận đến nút gửi. Mục tiêu là hiểu cách thức thanh toán và nhận thanh toán trên Lightning. Chúng ta cũng sẽ thảo luận về 2 phương án thay thế cho hóa đơn truyền thống: [LNURL](https://planb.academy/resources/glossary/lnurl) và Keysend.
 ![LNP201](assets/en/068.webp)
 
 ### Cấu Trúc của Hóa Đơn Lightning
@@ -873,7 +873,7 @@ Nội dung của một hóa đơn bao gồm một số thông tin cần thiết 
 - **Gợi Ý Định Tuyến**: Thông tin bổ sung do người nhận cung cấp để giúp người gửi tối ưu hóa tuyến đường thanh toán.
 - **Chữ Ký**: Đảm bảo tính toàn vẹn của hóa đơn bằng cách xác thực tất cả thông tin.
 
-Các hóa đơn sau đó được mã hóa trong **bech32**, cùng một định dạng như địa chỉ Bitcoin SegWit (định dạng bắt đầu với `bc1`).
+Các hóa đơn sau đó được mã hóa trong **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, cùng một định dạng như địa chỉ Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (định dạng bắt đầu với `bc1`).
 
 ### LNURL Rút Tiền
 
@@ -914,8 +914,8 @@ Trong chương này, chúng ta sẽ khám phá các chiến lược để quản
 
 Có ba hồ sơ người dùng chính trên Lightning, mỗi người có nhu cầu thanh khoản cụ thể:
 
-- **Người thanh toán (The Payer)**: Đây là người thực hiện thanh toán. Họ cần thanh khoản ra để có thể chuyển tiền cho người dùng khác. Ví dụ, đây có thể là một người tiêu dùng.
-- **Người bán (hoặc Người nhận thanh toán - The Seller or Payee)**: Đây là người nhận thanh toán. Họ cần thanh khoản vào để có thể chấp nhận thanh toán vào nút của mình. Ví dụ, đây có thể là một doanh nghiệp hoặc một cửa hàng trực tuyến.
+- **Người thanh toán (The Payer)**: Đây là người thực hiện thanh toán. Họ cần [thanh khoản ra](https://planb.academy/resources/glossary/outbound-capacity) để có thể chuyển tiền cho người dùng khác. Ví dụ, đây có thể là một người tiêu dùng.
+- **Người bán (hoặc Người nhận thanh toán - The Seller or Payee)**: Đây là người nhận thanh toán. Họ cần [thanh khoản vào](https://planb.academy/resources/glossary/inbound-capacity) để có thể chấp nhận thanh toán vào nút của mình. Ví dụ, đây có thể là một doanh nghiệp hoặc một cửa hàng trực tuyến.
 - **Người điều hướng (The Router)**: Một nút trung gian, thường chuyên về điều hướng thanh toán, cần phải tối ưu hóa thanh khoản của mình trong mỗi kênh để điều hướng càng nhiều thanh toán càng tốt và kiếm được phí.
 
 Rõ ràng, những hồ sơ này không cố định; một người dùng có thể chuyển đổi giữa người thanh toán và người nhận thanh toán tùy thuộc vào các giao dịch. Ví dụ, Bob có thể nhận lương trên Lightning từ nhà tuyển dụng của mình, đặt anh ta vào vị trí của một "người bán" cần thanh khoản vào. Sau đó, nếu anh ta muốn sử dụng lương của mình để mua thức ăn, anh ta trở thành một "người thanh toán" và sau đó phải có thanh khoản ra.
@@ -1025,6 +1025,10 @@ Chúng ta đã thấy rằng quản lý tính thanh khoản là một thách th�
 - **Mở Kênh Hợp Tác**: Cũng có các nền tảng có sẵn để kết nối thực hiện các mở kênh tam giác và có tính thanh khoản đến.
 
 ![LNP201](assets/en/084.webp)
+
+Giờ đây, khi bạn đã hiểu được cách thức hoạt động về mặt lý thuyết của Lightning Network, bạn có thể chuyển sang thực hành và thiết lập nút Lightning đầu tiên của mình để đạt được sự tự chủ cao hơn trong quá trình sử dụng. Để làm điều đó, hãy theo học khóa LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Phần cuối
 

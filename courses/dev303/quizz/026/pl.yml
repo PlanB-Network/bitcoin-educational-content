@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta wyliczeń Rust, które mogą przenosić dane w każdym wariancie?
+answer: Zapobiega to rozbieżnościom między wskaźnikami typu i powiązanymi danymi, łącząc je razem
+wrong_answers:
+  - Pozwala to wyliczeniom na automatyczną implementację wszystkich standardowych cech bez wyraźnej deklaracji
+  - Umożliwia to używanie wyliczeń jako ogólnych parametrów w dowolnej funkcji lub metodzie
+  - Dzięki temu wyliczenia zajmują mniej pamięci niż tradycyjne struktury z podobnymi danymi
+explanation: |
+  Wyliczenia Rust mogą dołączać dane bezpośrednio do każdego wariantu, co eliminuje powszechny błąd programistyczny polegający na utrzymywaniu oddzielnych zmiennych dla wskaźników typu i powiązanych z nimi danych. Taka konstrukcja zapewnia, że dane zawsze pasują do wariantu, zapobiegając niespójnościom, które mogłyby prowadzić do błędów w czasie wykonywania. W przeciwieństwie do innych języków, w których można mieć oddzielne wyliczenie dla typu i zmienne dla danych, Rust łączy wszystko razem, uniemożliwiając niedopasowanie typu i danych.

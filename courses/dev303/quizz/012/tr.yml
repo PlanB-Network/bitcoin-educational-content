@@ -1,0 +1,8 @@
+question: Rust'ın sahiplik sistemine göre, bir değerin herhangi bir anda kaç sahibi olabilir?
+answer: Tam olarak bir sahibi
+wrong_answers:
+  - Birden fazla mal sahibine izin verilir
+  - En fazla iki sahip
+  - Erişilene kadar sahip yok
+explanation: |
+  Rust'in sahiplik sistemi üç temel kurala göre çalışır; bunlardan ilki, her değerin herhangi bir anda tam olarak tek bir sahibi olmasıdır. Bu tek sahiplik ilkesi bellek güvenliği için çok önemlidir çünkü programın birden fazla bölümünün aynı belleği boşaltmaya veya verileri aynı anda değiştirmeye çalışmasını engeller. Birden fazla sahibin olması use-after-free hatalarına ve veri yarışlarına yol açarken, hiç sahibin olmaması belleğin asla düzgün bir şekilde temizlenemeyeceği anlamına gelir.

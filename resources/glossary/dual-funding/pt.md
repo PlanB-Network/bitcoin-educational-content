@@ -1,5 +1,6 @@
 ---
-term: FINANCIAMENTO DUPLO
+term: Dual funding
+definition: Método que permite a ambas as partes financiar um canal Lightning no momento da sua abertura.
 ---
 
 Quando um canal Lightning é aberto, o financiamento duplo permite que ambos os participantes bloqueiem bitcoins no canal. Ao contrário do modelo tradicional, em que apenas um nó financia o canal, este método permite que ambas as partes o financiem, permitindo o equilíbrio imediato da liquidez.

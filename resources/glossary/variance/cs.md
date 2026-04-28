@@ -1,5 +1,6 @@
 ---
-term: VARIANTA
+term: Variance
+definition: Kolísání výnosů z těžby v důsledku pravděpodobnostní povahy hledání platných bloků.
 ---
 
 V případě Mining se jedná o kolísání příjmů Miner v důsledku pravděpodobnostní povahy nalezení platných bloků. I při konstantním výpočetním výkonu se doba potřebná k nalezení bloku může značně lišit. V důsledku toho mohou těžaři dlouhá období nedostávat žádné odměny, po nichž následují období vysokých výdělků.

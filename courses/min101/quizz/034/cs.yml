@@ -1,0 +1,9 @@
+question: Co halving na Bitcoinu mění?
+answer: Blokovou subvenci
+wrong_answers:
+  - Transakční poplatky
+  - Velikost bloku
+  - Cíl obtížnosti
+explanation: |
+  Halving dělí dvěma maximální subvenci vytvořenou na blok, aniž by se dotkl poplatků.
+reviewed: false

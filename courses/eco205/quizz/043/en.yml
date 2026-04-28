@@ -1,0 +1,8 @@
+question: According to the Austrian school, which methodological approach should be used to study the humanities?
+answer: A praxeological axiomatic-deductive approach
+wrong_answers:
+  - "An inductive, empirical approach based on observation"
+  - "A mathematical approach based on equilibrium models"
+  - An experimental approach using laboratory replication
+explanation: |
+  The Austrian school advocates a praxeological axiomatic-deductive approach to the human sciences, starting from fundamental principles of human action and deducing economic laws. This method recognizes the intentional and creative nature of human action. Other approaches (empirical inductive, mathematical, experimental) are rejected because they treat man as a mechanical object, ignoring his capacity for learning and change.

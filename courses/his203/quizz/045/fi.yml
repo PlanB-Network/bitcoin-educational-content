@@ -1,0 +1,10 @@
+question: Mikä tekninen innovaatio sisällytettiin Namecoin-kryptovaluuttaan lokakuussa 2011?
+answer: Sulautettu mining
+wrong_answers:
+  - GPU-resistentti mining
+  - Luotetut solmut
+  - Todiste panoksesta
+explanation: |
+ Yhdistetty mining on prosessi, jossa "emoketjulle" (eli Bitcoin:lle) tehtyä työtä käytetään uudelleen pienempien "apuketjujen" validointiin. Tämä prosessi oli
+ gW-3 itse ehdotti BitDNS-keskustelussa. Yhdistetty mining aktivoitiin Namecoin-verkossa 8. lokakuuta 2011 lohkotasolla 19 200.
+reviewed: true

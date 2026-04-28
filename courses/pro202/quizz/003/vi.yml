@@ -1,0 +1,8 @@
+question: Cụ thể, hàm Python nào được đề cập để thực hiện phép lũy thừa modulo hiệu quả trong các hoạt động mật mã?
+answer: sức mạnh (cơ sở, kinh nghiệm, hệ số nhân)
+wrong_answers:
+  - mod(cơ sở, kinh nghiệm, nguyên tố)
+  - exp(cơ số, mod, trường)
+  - nhân(cơ số, số mũ, modulo)
+explanation: |
+  Hàm pow(base, exp, mod) tích hợp sẵn của Python được thiết kế đặc biệt để tính lũy thừa modulo hiệu quả, điều này rất quan trọng đối với các phép toán mật mã liên quan đến số mũ lớn. Hàm này sử dụng các thuật toán tối ưu để tính toán (base^exp) mod mod mà không cần phải tính toán kết quả trung gian khổng lồ tiềm tàng của base^exp trước. Các tùy chọn khác không phải là các hàm Python hợp lệ - mod(), exp() và mult() với các mẫu tham số này không tồn tại trong thư viện chuẩn của Python cho phép toán số học modulo mật mã.

@@ -1,0 +1,8 @@
+question: Apa yang membedakan aset yang diatur dengan aset yang tidak diatur dalam sistem aset asli Liquid?
+answer: Aset yang diatur memerlukan tanda tangan kedua dari server otorisasi sebelum dapat dipindahkan, sehingga memungkinkan kepatuhan KYC/AML
+wrong_answers:
+  - Aset yang diatur menggunakan kontrak pintar sementara aset yang tidak diatur menggunakan panggilan RPC sederhana untuk penerbitan
+  - Aset yang diatur didukung oleh cadangan Bitcoin sementara aset yang tidak diatur hanya ada di sidechain
+  - Aset yang diatur memerlukan persetujuan pejabat untuk pembuatannya, sementara aset yang tidak diatur dapat diterbitkan tanpa izin
+explanation: |
+  Dalam arsitektur Liquid, baik aset yang diatur maupun yang tidak diatur dapat dikeluarkan tanpa izin menggunakan panggilan RPC sederhana tanpa kontrak pintar. Perbedaan utamanya adalah pada pergerakannya: aset teregulasi menggunakan Platform Manajemen Aset (AMP) Blockstream untuk menegakkan kepatuhan dengan meminta tanda tangan otorisasi tambahan sebelum transfer, sementara aset yang tidak teregulasi dapat bergerak bebas tanpa batasan tersebut.

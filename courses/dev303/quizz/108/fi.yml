@@ -1,0 +1,8 @@
+question: Mikä LDK:n komponenttisuunnittelufilosofian perusominaisuus erottaa sen CLightningin tai LND:n kaltaisista monoliittisista Lightning-solmutoteutuksista?
+answer: Kukin komponentti tarjoaa oletustoteutuksia, jotka voidaan korvata yksilöllisesti mukautetuilla ratkaisuilla säilyttäen samalla protokollan vaatimustenmukaisuus
+wrong_answers:
+  - Kehittäjien on toteutettava kaikki komponentit alusta alkaen, eikä kirjasto tarjoa oletustoteutuksia
+  - Komponentit on lukittu pysyvästi yhteen, eikä niitä voi muuttaa, kun ne on integroitu sovellusarkkitehtuuriin
+  - Kirjasto edellyttää, että kaikki komponentit käyttävät identtisiä ohjelmointikieliä, eikä se voi tukea alustarajat ylittäviä kielisidoksia
+explanation: |
+  LDK:n perusfilosofia keskittyy modulaaristen komponenttien tarjoamiseen toimivilla oletustoteutuksilla, jotka kehittäjät voivat tarvittaessa korvata valikoivasti. Tämä mahdollistaa tiettyjen toimintojen (kuten lohkoketjujen seurannan tai transaktioiden allekirjoittamisen) mukauttamisen muiden komponenttien pysyessä muuttumattomina. Väärät vastaukset antavat väärän kuvan LDK:n lähestymistavasta: se tarjoaa oletusasetuksia sen sijaan, että kaikki vaadittaisiin alusta alkaen, mahdollistaa komponenttien korvaamisen sen sijaan, että ne lukittaisiin yhteen, ja tukee useita ohjelmointikieliä sidontajärjestelmänsä avulla.

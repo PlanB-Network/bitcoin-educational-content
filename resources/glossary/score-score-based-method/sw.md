@@ -1,5 +1,6 @@
 ---
-term: SCORE (NJIA INAYOTOKANA NA SCORE)
+term: Score (score based method)
+definition: Njia ya zawadi ya mchimba madini inayopima shares kulingana na wakati wa kuwasilishwa.
 ---
 
 Mbinu ya kukokotoa malipo ya wachimbaji madini ndani ya mabwawa ya Mining. Mfumo huu wa zawadi ni sawia lakini una uzito kulingana na wakati ambapo sehemu inawasilishwa. Mbinu ya SCORE inathamini hisa kulingana na muda uliopita tangu mwanzo wa mzunguko wa Mining. Baadaye sehemu inawasilishwa katika mzunguko, thamani yake ya juu. Njia hii inawahimiza wachimbaji kusalia kwa sababu kila wakati Mining inaposimama, alama za Miner hudorora huku alama za wengine zikiongezeka kwa kasi zaidi.

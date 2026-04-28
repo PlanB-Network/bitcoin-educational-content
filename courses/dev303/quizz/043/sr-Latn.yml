@@ -1,0 +1,8 @@
+question: move
+answer: pomeriti
+wrong_answers:
+  - posedovati
+  - uhvatiti
+  - uzmi
+explanation: |
+  Reč `move` se koristi pre parametara zatvaranja kako bi se zatvaranju naložilo da preuzme vlasništvo nad svim uhvaćenim promenljivama iz svoje okoline. Ovo je ključno kada zatvaranje može nadživeti opseg u kojem su promenljive prvobitno definisane, kao na primer prilikom pokretanja niti. Bez `move`, zatvaranja obično hvataju na najmanje restriktivan način (nepromenljiva referenca, zatim promenljiva referenca, zatim vlasništvo), ali `move` nadjačava ovo automatsko ponašanje kako bi se osigurao prenos vlasništva. Druge opcije (`own`, `capture`, `take`) nisu važeće Rust ključne reči za ovu svrhu.

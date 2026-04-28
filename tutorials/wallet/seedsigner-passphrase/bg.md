@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Парола SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: Как да добавя passphrase към моя SeedSigner wallet?
 ---
 

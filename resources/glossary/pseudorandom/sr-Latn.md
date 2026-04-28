@@ -1,5 +1,6 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudonasumično
+definition: Niz brojeva generisan deterministički sa svojstvima bliskim nasumičnosti.
 ---
 
 Ovaj pridev se koristi za opisivanje niza brojeva koji, iako su rezultat determinističkog procesa, pokazuju karakteristike koje su bliske onima idealnog zaista nasumičnog niza. Koncept idealne nasumičnosti podrazumeva potpuni izostanak predvidljivosti i korelacije između sukcesivnih Elements. Pseudo-nasumičan broj generiše se determinističkim algoritmom i stoga je, u teoriji, potpuno predvidljiv ako se zna početno stanje generatora.

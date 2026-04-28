@@ -76,7 +76,7 @@ description: Как да използвате вашия Hardware Wallet с пр
 
 
 
-- Отидете на [официалния уебсайт] (https://blockstream.com/app/) и кликнете върху "_Download Now_". Изтеглете версията, съответстваща на вашата операционна система (Windows, macOS, Linux).
+- Отидете на [официалния уебсайт](https://blockstream.com/app/) и кликнете върху "_Download Now_". Изтеглете версията, съответстваща на вашата операционна система (Windows, macOS, Linux).
 - Забележка**: Задължително изтегляйте от официалния източник, за да избегнете измамен софтуер.
 
 
@@ -608,7 +608,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Изследователи на блокове**:
-    - Onchain : [Mempool.space] (https://Mempool.space/)
+    - Onchain : [Mempool.space](https://Mempool.space/)
     - Liquid : [Информация за блоковия поток](https://blockstream.info/Liquid)
     - Мълния : [1ML (Lightning Network)](https://1ml.com/)
 

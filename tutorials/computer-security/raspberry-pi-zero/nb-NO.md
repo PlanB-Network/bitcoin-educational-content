@@ -70,7 +70,7 @@ en del av denne guiden vil vise deg hvordan og hvor du gjør det. Men hvis du vi
 
 
 
-Da jeg bestemte meg for å gå videre, fant jeg [dette settet] (https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) fullt av tilbehør for å utnytte PI Zeros fulle potensial. Settet inneholder faktisk en USB A -> micro USB power Supply, en liten USB-hub, en mini-HDMI -> HDMI-adapter, en kjøleribbe i kobber og et ytterkabinett i aluminium. Settet inneholder også skruene og unbrakonøkkelen som trengs for å montere PI Zero i det nye kabinettet.
+Da jeg bestemte meg for å gå videre, fant jeg [dette settet](https://www.amazon.it/-/en/GeeekPi-Raspberry-Aluminum-Passive-Heatsink/dp/B0BJ1WWHGF?crid=1NAFFVHG3IFBU&sprefix=raspberry+pi+zero+kit+geeek+pi%2Caps%2C88&sr=8-65) fullt av tilbehør for å utnytte PI Zeros fulle potensial. Settet inneholder faktisk en USB A -> micro USB power Supply, en liten USB-hub, en mini-HDMI -> HDMI-adapter, en kjøleribbe i kobber og et ytterkabinett i aluminium. Settet inneholder også skruene og unbrakonøkkelen som trengs for å montere PI Zero i det nye kabinettet.
 
 
 

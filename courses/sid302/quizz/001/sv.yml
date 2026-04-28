@@ -1,0 +1,8 @@
+question: Hur många funktionärssignaturer krävs för att validera ett block i Liquid Network?
+answer: Minst 11 av 15 funktionärer måste underteckna
+wrong_answers:
+  - Minst 8 av 15 funktionärer måste underteckna
+  - Minst 10 av 15 funktionärer måste underteckna
+  - Minst 12 av 15 funktionärer måste underteckna
+explanation: |
+  Liquid Network kräver underskrifter från minst 11 av de 15 funktionärerna för att validera ett block, vilket motsvarar en tröskel på två tredjedelar plus en. Detta specifika krav säkerställer ett robust samförstånd samtidigt som det förhindrar att någon liten grupp kontrollerar nätverket. De andra alternativen är felaktiga: 8 signaturer skulle vara för få för säkerheten, 10 skulle inte uppfylla tröskeln på två tredjedelar och 12 skulle vara onödigt restriktivt för normal drift.

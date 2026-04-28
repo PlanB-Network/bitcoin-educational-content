@@ -1,0 +1,9 @@
+question: Как се нарича форматът seed, специфичен за LND?
+answer: азед
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND използва специфичен seed, наречен aezeed, различен от класическия BIP39 seed.
+reviewed: false

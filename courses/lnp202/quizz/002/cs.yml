@@ -1,0 +1,9 @@
+question: Co je z pohledu řetězce Bitcoin kanál Lightning?
+answer: Multisigpřírodní výstup 2/2
+wrong_answers:
+  - Skript P2MS 2/2
+  - UTXO single
+  - Federativní smlouva
+explanation: |
+  V řetězci je kanál Lightning reprezentován výstupem s více podpisy, který vyžaduje podpisy obou účastníků.
+reviewed: false

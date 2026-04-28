@@ -1,0 +1,9 @@
+question: Que informações recebe a Torre de Vigilância para controlar a batota?
+answer: TXID parcial da transação de batota
+wrong_answers:
+  - Chave de canal privado
+  - Estado completo do canal
+  - TXID da transação de batota
+explanation: |
+  A torre de vigilância recebe apenas parte do TXID da transação fraudulenta para identificar uma transação suspeita sem conhecer o canal.
+reviewed: false

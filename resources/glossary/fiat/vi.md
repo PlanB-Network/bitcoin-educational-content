@@ -1,7 +1,7 @@
 ---
-term: FIAT
+term: Tiền pháp định (Fiat)
 
+definition: Loại tiền tệ có giá trị do cơ quan công quyền áp đặt, thường là do nhà nước phát hành.
 ---
 Currency, often state-issued, whose value is enforced by public authority.
 
-> ► *The term "fiat" is sometimes translated as "fiduciary," although the latter term does not encompass the aspect of legitimate force that the term "fiat" embodies. In French, it is commonly accepted to use the English term "fiat" directly.*

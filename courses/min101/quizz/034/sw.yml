@@ -1,0 +1,9 @@
+question: Halving inabadilisha nini kwenye Bitcoin?
+answer: Ruzuku ya kitalu
+wrong_answers:
+  - Ada za miamala
+  - Ukubwa wa kitalu
+  - Lengo la ugumu
+explanation: |
+  Halving inapunguza kwa nusu ruzuku ya juu inayoundwa kwa kila kitalu, bila kugusa ada.
+reviewed: false

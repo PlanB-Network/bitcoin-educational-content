@@ -1,0 +1,8 @@
+question: Liquid Network 使用的主要共识机制是什么？
+answer: 联邦共识
+wrong_answers:
+  - Proof-of-Work
+  - 取证
+  - 委托取证
+explanation: |
+  Liquid Network 采用联邦共识模式，与 Bitcoin 的 Proof-of-Work 系统有本质区别。在这种模式下，选定的 15 个功能小组作为区块签名者，以确定性的循环方式生成区块。Proof-of-Work 是 Bitcoin 的共识机制，涉及 mining，而 Proof-of-Stake 和 Delegated Proof-of-Stake 是其他区块链网络使用的共识机制，但 Liquid 没有使用。

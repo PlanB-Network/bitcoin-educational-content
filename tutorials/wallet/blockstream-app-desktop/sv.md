@@ -76,7 +76,7 @@ description: Hur använder man sin Hardware Wallet med Blockstream App på en da
 
 
 
-- Gå till den [officiella webbplatsen] (https://blockstream.com/app/) och klicka på "_Download Now_". Ladda ner den version som motsvarar ditt operativsystem (Windows, macOS, Linux).
+- Gå till den [officiella webbplatsen](https://blockstream.com/app/) och klicka på "_Download Now_". Ladda ner den version som motsvarar ditt operativsystem (Windows, macOS, Linux).
 - **Obs**: Var noga med att ladda ner från den officiella källan för att undvika bedräglig programvara.
 
 
@@ -534,7 +534,7 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Gränser**:
     - RBF är inte tillgänglig för Liquid eller Lightning-transaktioner.
     - Den första transaktionen måste markeras som RBF-kompatibel, vilket Blockstream App gör automatiskt.
-- För mer information, se [vår ordlista] (https://planb.academy/resources/glossary/rbf-replacebyfee).
+- För mer information, se [vår ordlista](https://planb.academy/resources/glossary/rbf-replacebyfee).
 
 
 
@@ -601,15 +601,15 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - **Officiella länkar**:
     - [Officiell webbplats](https://blockstream.com/)
     - [Support för Blockstream-appen](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): dokumentation och chatt
-    - [GitHub] (https://github.com/Blockstream/green_qt)
+    - [GitHub](https://github.com/Blockstream/green_qt)
 
 
 
 
 
 - **Block Explorers**:
-    - På kedjan : [Mempool.space] (https://Mempool.space/)
-    - Liquid : [Blockstream Info] (https://blockstream.info/Liquid)
+    - På kedjan : [Mempool.space](https://Mempool.space/)
+    - Liquid : [Blockstream Info](https://blockstream.info/Liquid)
     - Blixt : [1ML (Lightning Network)](https://1ml.com/)
 
 
@@ -630,7 +630,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Ordlista] (https://planb.academy/fr/resources/glossary/liquid-network)
+[Ordlista](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -642,7 +642,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-[Ordlista] (https://planb.academy/fr/resources/glossary/lightning-network)
+[Ordlista](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

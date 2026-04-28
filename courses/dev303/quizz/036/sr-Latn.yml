@@ -1,0 +1,8 @@
+question: Šta Rust radi tokom procesa odmotavanja kada dođe do panike?
+answer: Hoda unazad kroz stek poziva kako bi obezbedio detaljan trag steka
+wrong_answers:
+  - Odmah prekida program bez ikakvog čišćenja ili informacija
+  - Pretvara paniku u oporavljivi tip Result za rukovanje greškama
+  - Ponovno pokreće izvršavanje trenutne funkcije od početka
+explanation: |
+  Kada dođe do panike u Rust, proces razmotavanja prolazi unazad kroz stek poziva kako bi obezbedio detaljan trag steka koji pokazuje tačno gde je došlo do panike. Ovo pomaže programerima da identifikuju izvor problema tokom debagovanja. Ostale opcije su netačne: Rust se ne prekida odmah bez čišćenja (to se dešava samo kada je razmotavanje onemogućeno), panike se ne mogu konvertovati u Result tipove jer predstavljaju nepopravljive greške, i Rust ne ponovo pokreće izvršavanje funkcije kada dođe do panike.

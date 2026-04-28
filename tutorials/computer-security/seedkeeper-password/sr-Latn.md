@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Menadžer Lozinki
+name: Seedkeeper - Menadžer lozinki
 description: Kako sačuvati svoje lozinke pomoću Seedkeeper pametne kartice?
 ---
 

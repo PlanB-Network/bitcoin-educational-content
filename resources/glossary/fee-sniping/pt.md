@@ -1,6 +1,7 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
+definition: Ataque em que os mineradores reescrevem um bloco recente para recolher as suas elevadas taxas de transação.
 ---
 Um cenário de ataque em que os mineiros procuram reescrever um bloco recentemente confirmado para reclamar as taxas de transação que contém, ao mesmo tempo que adicionam transacções de elevada taxa que entretanto chegaram ao mempool. O objetivo final deste ataque para o mineiro é aumentar a sua rentabilidade. O sniping de taxas pode tornar-se cada vez mais lucrativo à medida que a recompensa do bloco diminui e as taxas de transação representam uma parte maior das receitas dos mineiros. Também pode ser vantajoso quando as taxas contidas no bloco anterior são significativamente mais altas do que as do próximo melhor bloco candidato. Para simplificar, o mineiro é confrontado com esta escolha em termos de incentivos:
 

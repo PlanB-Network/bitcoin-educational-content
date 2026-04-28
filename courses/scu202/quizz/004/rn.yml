@@ -1,9 +1,9 @@
-question: Ni igitero ikihe co kuri orodinateri gikoresha ubutumwa bw’ubuhendanyi kugira ngo gikuremwo amakuru?
-answer: Guhenda
+question: Ni igitero ikihe c'inyabwonko gikoresha ubutumwa bw’ububeshi kugira ngo kigukuremwo amakuru?
+answer: Phishing
 wrong_answers:
-  - Porogaramu y'incungu
+  - Ransomware (igitero c’incungu)
   - DDoS
-  - urushinge rwa SQL
+  - Inshinge za SQL
 explanation: |
-  Ubuhendanyi bukoresha ubutumwa bwo kuri e-mail canke ubutumwa bwo guhenda abantu kugira ngo bamenyeshe amakuru y’ibanga canke ngo bashiremwo porogarama mbi.
-reviewed: false
+  Phishing ikoresha ubutumwa bwo kuri imeyiri canke ubutumwa bugufi bwo guhenda abantu kugira ngo batange amakuru y’ibanga canke ngo bashiremwo porogarama mbi.
+reviewed: true

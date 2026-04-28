@@ -1,0 +1,11 @@
+question: Dla jakich przypadków użycia w szczególności wdrożono aktualizację Pay to Script Hash?
+answer: Do zabezpieczania środków za pomocą podpisu wielostronnego (multisig)
+wrong_answers:
+  - W przypadku usług escrow
+  - Zwiększenie mocy obliczeniowej sieci dzięki połączeniu mining
+  - Do wysyłania przekazów pieniężnych za granicę
+explanation: |
+ Zabezpieczenie funduszy jest obecnie bardzo ważną kwestią ze względu na rosnącą liczbę ataków piractwa. Temat ten został poruszony 23 sierpnia 2011 roku przez Gavina Andresena, lidera projektu
+ przez Gavina Andresena, lidera projektu, który chciał przyspieszyć standaryzację funkcji wielopodpisu już obecnej w protokole.
+ Doprowadziło to do opracowania OP_EVAL, a następnie P2SH w okresie zimowym.
+reviewed: true

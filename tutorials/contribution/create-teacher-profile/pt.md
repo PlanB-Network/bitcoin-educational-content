@@ -16,7 +16,7 @@ A forma mais fácil de criar o seu perfil de professor no Plan ₿ Academy é ut
 
 ### 1 - Configurar o seu ambiente local
 
-É necessário ter o seu próprio Fork do [repositório Plan ₿ Academy no GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+É necessário ter o seu próprio Fork do [repositório Plan ₿ Academy no GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sincronize o ramo principal (`dev`) do seu Fork com o repositório de código fonte.
 
@@ -119,7 +119,7 @@ Se já domina a utilização do Git, modifique o seu perfil de professor criando
 Para os principiantes, recomendo que façam a modificação diretamente através do Interface web do GitHub. Certifique-se de que tem uma conta GitHub. Se não sabe como criar uma, siga este tutorial:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Ir para [o repositório GitHub do Plan ₿ Academy dedicado aos dados] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Ir para [o repositório GitHub do Plan ₿ Academy dedicado aos dados](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 
@@ -165,4 +165,4 @@ O seu PR será então visível no separador "*Pull Request*" do repositório pri
 
 ![Image](assets/fr/12.webp)
 
-Se tiver alguma dificuldade técnica em submeter a sua alteração, não hesite em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!
+Se tiver alguma dificuldade técnica em submeter a sua alteração, não hesite em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições](https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!

@@ -1,0 +1,8 @@
+question: Cosa succede alla differenza tra gli importi in entrata e in output in una transazione Bitcoin?
+answer: La differenza diventa automaticamente la commissione di transazione pagata ai minatori
+wrong_answers:
+  - "La differenza viene restituita all'indirizzo originale del mittente come modifica"
+  - La differenza viene bruciata e rimossa in modo permanente dalla circolazione
+  - La differenza viene trattenuta in deposito fino alla conferma della transazione
+explanation: |
+  Nel sistema di tariffe di Bitcoin, le tariffe sono calcolate implicitamente come la differenza tra il totale degli input e il totale degli output (tariffa = somma(input) - somma(output)). Qualsiasi valore non assegnato esplicitamente a un'output diventa automaticamente la tariffa del minatore. Questo è il motivo per cui è fondamentale creare uscite di modifica adeguate: se si dimentica di includere un'output di modifica quando si spende un UTXO di grandi dimensioni, l'intero resto diventa una tassa costosa per il minatore. Le altre opzioni non sono corrette perché Bitcoin non crea automaticamente uscite di modifica, non brucia il valore non assegnato e non utilizza meccanismi di deposito a garanzia per le differenze di transazione.

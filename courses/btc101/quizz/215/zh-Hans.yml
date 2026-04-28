@@ -1,9 +1,9 @@
-question: 比特币的可扩展性问题是什么？
-answer: 实施一个能够随着采用率增加而提供越来越多每秒交易数量的货币系统所面临的挑战。
+question: 哪种机制使 Lightning 支付具有原子性？
+answer: HTLC
 wrong_answers:
-  - 挖掘新比特币的难度。
-  - 比特币价格的波动性。
-  - 缺乏对比特币的监管。
-explanation: >-
-  可扩展性问题指的是实施一个能够随着采用率增加而提供越来越多每秒交易数量的货币系统所面临的挑战。
+  - 多重签名
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC 将支付与秘密的披露相绑定，从而保证完全成功或失败且不会产生损失。
 reviewed: false

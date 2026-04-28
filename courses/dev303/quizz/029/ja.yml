@@ -1,0 +1,8 @@
+question: RustのResult列挙型のうち、回復可能なエラーを処理するために使用される2つの型は何ですか？
+answer: 成功した場合はOk(T)、失敗した場合はErr(E)
+wrong_answers:
+  - 成功した場合はSuccess(T)、失敗した場合はFailure(E)
+  - 成功した場合はSome(T)、失敗した場合はNone(T)
+  - 作戦が成功すればパス(T)、失敗すればパニック(E)
+explanation: |
+  RustのResult列挙型には2つの型がある：Ok(T)はT型の成功値を含み、Err(E)はE型のエラーを含む。Success/FailureはResultのバリアントではなく、Some/Noneはヌル値を扱うためのOption列挙型に属し、Pass/Panicはエラー処理のための標準的なRust列挙型のバリアントではありません。

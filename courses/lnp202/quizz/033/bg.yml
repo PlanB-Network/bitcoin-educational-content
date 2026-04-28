@@ -1,0 +1,9 @@
+question: Кой от тези инструменти не идентифицира съответните колеги в Lightning?
+answer: Electrum
+wrong_answers:
+  - Терминал за мълнии
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum не е Lightning explorer за получаване на информация за мрежови възли. От друга страна, останалите три инструмента изпълняват тази функция добре.
+reviewed: false

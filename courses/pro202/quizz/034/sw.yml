@@ -1,0 +1,8 @@
+question: Ni kipengele gani maalum ambacho lazima kijumuishwe katika P2SH ScriptSig kinachokitofautisha na ingizo za kawaida za miamala?
+answer: Hati kamili ya kukomboa yenyewe pamoja na data ya kufungua
+wrong_answers:
+  - HASH160 ya hati ya kukomboa na funguo za umma
+  - Saini na funguo za umma pekee ndizo zinazohitajika ili kukidhi masharti
+  - Toleo la baiti na usimbaji wa anwani kwa ajili ya uthibitisho wa P2SH
+explanation: |
+  Ingizo za P2SH zinahitaji data ya kufungua (saini, n.k.) NA hati kamili ya kurejesha katika ScriptSig. Hii ni ya kipekee kwa sababu hati ya kurejesha hapo awali ilikuwa imefichwa nyuma ya hashi na sasa lazima ifunuliwe kwa ajili ya uthibitisho. Hatua ya kwanza ya uthibitisho inaangalia kwamba HASH160(redeem_script) inalingana na hashi katika scriptPubKey, kisha hati ya kurejesha inatekelezwa na data ya kufungua iliyotolewa. Chaguzi zingine si sahihi: hashi tayari iko katika scriptPubKey asili, sahihi pekee hazitoshi bila hati, na baiti za toleo hutumika kwa usimbaji wa anwani, sio uthibitishaji wa matumizi.

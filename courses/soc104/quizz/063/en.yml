@@ -1,8 +1,9 @@
 question: According to Hannah Arendt's analysis, what is the primary goal of totalitarian education systems?
 answer: To destroy people's capacity to form independent convictions rather than instill specific beliefs
 wrong_answers:
-  - "To indoctrinate citizens with the regime's core ideological principles and values"
-  - "To create a highly educated workforce capable of advancing the state's economic objectives"
+  - To indoctrinate citizens with the regime's core ideological principles and values
+  - To create a highly educated workforce capable of advancing the state's economic objectives
   - To promote national unity by teaching citizens to prioritize collective interests over individual desires
 explanation: |
-  Hannah Arendt argued that totalitarian education's purpose was never to inculcate convictions but to destroy the faculty of forming any independent ones. This distinguishes totalitarian systems from mere authoritarian regimes that simply impose their ideology. By eliminating people's ability to think independently, totalitarian regimes render citizens incapable of autonomous action, which Arendt saw as the negation of politics itself.
+  Hannah Arendt argued that totalitarian education's purpose was never to instill convictions but to destroy the faculty of forming any independent ones. 
+  This distinguishes totalitarian systems from mere authoritarian regimes that simply impose their ideology. By eliminating people's ability to think independently, totalitarian regimes render citizens incapable of autonomous action, which Arendt saw as the negation of politics itself.

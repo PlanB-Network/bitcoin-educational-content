@@ -1,10 +1,9 @@
-question: Fees for transactions on the Lightning Network are extremely low, often less than...?
-answer: 0.5%.
+question: What advantage does Ark offer over Lightning for receiving payments?
+answer: No need for inbound liquidity
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-  Fees for transactions on the Lightning Network are extremely low, often
-  less than 0.5%.
-reviewed: true
+  - Immediate payment finality
+  - No transaction fees
+  - No need to have a wallet
+explanation: |
+  Ark allows receiving payments without having inbound liquidity in advance.
+reviewed: false

@@ -1,0 +1,8 @@
+question: According to Hayek, what is the main characteristic of information in an economy that justifies the importance of the price system?
+answer: Information is always dispersed, incomplete, imperfect and constantly changing between all economic agents
+wrong_answers:
+  - "Information is uniformly distributed but difficult to interpret without the help of market prices"
+  - "Information is centralized in financial institutions, which redistribute it via pricing mechanisms"
+  - "Information is perfect but accessible only to the most experienced economic agents in the market"
+explanation: |
+  For Hayek, information is never available to all individuals, but remains dispersed, incomplete and imperfect. This fundamental dispersion justifies the crucial role of the price system as a spontaneous coordination mechanism. Unlike other proposals, which suggest uniform distribution, centralization or perfection of information, Hayek insists on its fragmented nature, making central planning impossible and the price signal necessary to coordinate economic actions.

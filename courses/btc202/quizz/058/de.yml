@@ -1,5 +1,5 @@
-question: Was ist die größte Einschränkung der Tor-Kommunikation mit deinem Knoten?
-answer: Langsamkeit
+question: Was ist die größte Einschränkung der Tor-Kommunikation mit deiner Node?
+answer: Geschwindigkeit
 wrong_answers:
   - Fehlende Verschlüsselung
   - Spam

@@ -1,0 +1,8 @@
+question: Jina la uwakilishi wa Bitcoin unaotumika ndani ya Liquid Network ni lipi?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Bitcoin Iliyofungwa (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Shirikisho la Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) ni jina sahihi la Bitcoin linapokuwepo kwenye mnyororo wa kando wa Liquid. Watumiaji wanapoingiza Bitcoin yao hadi Liquid, hupokea kiasi sawa cha LBTC ambacho kinaweza kutumika kwa miamala ndani ya Liquid Network. WBTC ni Bitcoin token inayotegemea Ethereum, huku SBTC na FBTC si uwakilishi halisi wa Bitcoin unaotumika katika mtandao wowote mkuu.

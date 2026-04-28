@@ -1,0 +1,8 @@
+question: Quel type de structure mathématique les points de la courbe elliptique forment-ils sous l'effet de l'opération d'addition ?
+answer: Un groupe mathématique avec fermeture, associativité, identité et inverses
+wrong_answers:
+  - Un corps fini avec des opérations de multiplication et de division définies
+  - Un espace vectoriel avec multiplication scalaire et combinaisons linéaires
+  - Une structure en anneau avec des opérations d'addition et de multiplication
+explanation: |
+  Les points de la courbe elliptique forment un groupe mathématique sous addition, ce qui signifie qu'ils satisfont à quatre propriétés essentielles : la fermeture (l'addition de deux points donne un autre point sur la courbe), l'associativité (l'ordre des opérations n'a pas d'importance), l'identité (le point à l'infini agit comme zéro) et les inverses (chaque point a une réflexion sur l'axe des abscisses qui l'annule). Cette structure de groupe est fondamentale pour la cryptographie à courbe elliptique, car elle garantit que des opérations telles que la multiplication scalaire (ajout répété d'un point à lui-même) sont bien définies et prévisibles, ce qui permet des protocoles cryptographiques sécurisés tels que ceux utilisés dans le Bitcoin.

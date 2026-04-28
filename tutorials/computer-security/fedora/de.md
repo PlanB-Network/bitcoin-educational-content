@@ -126,7 +126,7 @@ Sie können die [Fedora Workstation] Edition (https://fedoraproject.org/fr/works
 
 
 
-Um Fedora zu installieren, müssen Sie einen bootfähigen USB-Stick mit einer Software wie [Balena Etcher] (https://etcher.balena.io/) erstellen.
+Um Fedora zu installieren, müssen Sie einen bootfähigen USB-Stick mit einer Software wie [Balena Etcher](https://etcher.balena.io/) erstellen.
 
 
 

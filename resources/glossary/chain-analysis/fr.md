@@ -1,5 +1,6 @@
 ---
-term: ANALYSE DE CHAINE
+term: Analyse de chaine
+definition: Pratique de traçage des flux de bitcoins sur la blockchain en utilisant des heuristiques et des patterns.
 ---
 
 Pratique qui regroupe toutes les méthodes permettant de tracer les flux de bitcoins sur la blockchain. De façon générale, l’analyse de chaîne s’appuie sur l’observation de caractéristiques sur des échantillons de transactions antérieures. Elle consiste ensuite à repérer ces mêmes caractéristiques sur une transaction que l’on souhaite analyser, et à en déduire des interprétations vraisemblables. Cette méthode de résolution de problème à partir d’une approche pratique, pour trouver une solution suffisamment bonne, c’est ce que l’on appelle une heuristique. Pour vulgariser, l’analyse de chaîne se fait en deux grandes étapes :

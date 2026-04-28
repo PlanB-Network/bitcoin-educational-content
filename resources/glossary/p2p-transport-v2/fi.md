@@ -1,6 +1,7 @@
 ---
 term: P2P TRANSPORT V2
 
+definition: Bitcoin P2P-protokollan uusi versio, joka sisältää salauksen yksityisyyden parantamiseiseksi.
 ---
 Uusi versio Bitcoin P2P -kuljetusprotokollasta, joka sisältää opportunistisen salauksen solmujen välisen viestinnän yksityisyyden ja turvallisuuden parantamiseksi. Tällä parannuksella pyritään ratkaisemaan useita P2P-protokollan perusversioon liittyviä ongelmia, erityisesti tekemällä vaihdetuista tiedoista erottamattomia passiiviselle tarkkailijalle (kuten Internet-palveluntarjoajalle), mikä vähentää sensuurin ja hyökkäysten riskiä havaitsemalla tietopaketeissa tiettyjä malleja.
 

@@ -47,7 +47,7 @@ Et voilà, votre portefeuille et nœud Lightning sont désormais créés.
 
 ## Sauvegarde de la phrase mnémonique
 
-Avant de commencer, il faut sauvegarder notre phrase mnémonique de 12 mots. Cette phrase donne un accès complet et non restreint à tous vos bitcoins. N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique à votre téléphone.
+Avant de commencer, il faut sauvegarder votre phrase mnémonique de 12 mots. Cette phrase donne un accès complet et non restreint à tous vos bitcoins. N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique à votre téléphone.
 
 La phrase de 12 mots permet de restaurer l'accès à vos bitcoins en cas de perte, vol ou casse de votre téléphone. Il est donc très important de la sauvegarder soigneusement et de la stocker dans un endroit sécurisé.
 

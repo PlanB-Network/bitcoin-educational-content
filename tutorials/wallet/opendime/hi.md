@@ -1,9 +1,11 @@
 ---
 name: OPENDIME
-description: अपना OEPNDIME सेट करें
+description: अपना OEPNDIME सेटअप करें
 ---
 
 ![cover](assets/cover.webp)
+
+
 
 
 

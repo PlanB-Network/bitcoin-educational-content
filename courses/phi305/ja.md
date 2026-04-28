@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/ja/001.webp)
 
 
 スピノザの肖像
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/ja/002.webp)
 
 
 スピノザの肖像
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/ja/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/ja/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/ja/005.webp)
 
 
 
@@ -149,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/ja/006.webp)
 
 
 
@@ -157,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/ja/007.webp)
 
 
 
@@ -189,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/ja/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/ja/009.webp)
 
 
 
@@ -208,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/ja/010.webp)
 
 
 
@@ -255,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/ja/011.webp)
 
 
 
@@ -279,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/ja/012.webp)
 
 
 
@@ -311,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/ja/013.webp)
 
 
 
@@ -331,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ja/014.webp)
 
 
 
@@ -367,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/ja/015.webp)
 
 
 
@@ -378,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/ja/016.webp)
 
 
 
@@ -390,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/ja/017.webp)
 
 
 
@@ -427,7 +425,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/ja/018.webp)
 
 
 
@@ -439,7 +437,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/ja/019.webp)
 
 
 
@@ -447,7 +445,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/ja/020.webp)
 
 
 
@@ -492,10 +490,9 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/ja/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/ja/022.webp)
 
 
 
@@ -519,10 +516,9 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/ja/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/ja/024.webp)
 
 
 
@@ -538,7 +534,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/ja/025.webp)
 
 
 
@@ -582,7 +578,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/ja/026.webp)
 
 
 
@@ -606,7 +602,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/ja/027.webp)
 
 
 
@@ -622,7 +618,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/ja/028.webp)
 
 
 
@@ -650,7 +646,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/ja/029.webp)
 
 
 
@@ -675,10 +671,9 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/ja/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/ja/031.webp)
 
 
 
@@ -733,7 +728,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/ja/032.webp)
 
 
 
@@ -749,7 +744,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/ja/033.webp)
 
 
 
@@ -757,11 +752,11 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/ja/034.webp)
 
 
 
-例えば、ケインズ派の経済学者や福祉国家の擁護者たちによるインフレの定義も、このパラドックスをよく表している。彼らによれば、インフレとは物価の上昇のことであり、一部の中央銀行家によれば、それは「どこからともなく」やってくるか、誰もコントロールしたり予測したりできない地政学的な文脈からやってくるのだという。例えば、原油価格が上昇すれば、特定の加工品の価格も上昇する。しかし、インフレの本当の構造的原因は、主にマネーSupplyの上昇に関連しており、それは貨幣価値の下落を意味し、事実上、機械的な物価上昇を意味する。
+例えば、ケインズ派の経済学者や福祉国家の擁護者たちによる[インフレ](https://planb.academy/resources/glossary/inflation)の定義も、このパラドックスをよく表している。彼らによれば、インフレとは物価の上昇のことであり、一部の中央銀行家によれば、それは「どこからともなく」やってくるか、誰もコントロールしたり予測したりできない地政学的な文脈からやってくるのだという。例えば、原油価格が上昇すれば、特定の加工品の価格も上昇する。しかし、インフレの本当の構造的原因は、主にマネーSupplyの上昇に関連しており、それは貨幣価値の下落を意味し、事実上、機械的な物価上昇を意味する。
 
 
 
@@ -773,7 +768,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/ja/035.webp)
 
 
 
@@ -809,7 +804,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/ja/036.webp)
 
 
 
@@ -833,7 +828,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/ja/037.webp)
 
 
 
@@ -845,7 +840,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/ja/038.webp)
 
 
 
@@ -865,7 +860,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/ja/039.webp)
 
 
 
@@ -877,7 +872,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/ja/040.webp)
 
 
 
@@ -885,7 +880,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/ja/041.webp)
 
 
 
@@ -945,7 +940,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/ja/042.webp)
 
 
 
@@ -953,7 +948,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/ja/043.webp)
 
 
 
@@ -970,7 +965,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/ja/044.webp)
 
 
 
@@ -993,7 +988,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/ja/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/ja/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/ja/047.webp)
 
 
 
@@ -1069,11 +1064,11 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-特に暗号通貨の分野ではそうだ。
+特に[暗号通貨](https://planb.academy/resources/glossary/cryptocurrency)の分野ではそうだ。
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/ja/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/ja/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/ja/050.webp)
 
 
 
@@ -1151,25 +1146,24 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 特にイマヌエル・カント（1724-1804）は、理性の導きのもとで教育を受けた個人だけが、自分自身で考え、何が「真」であり「善」であり、何が有害であるかを倫理的に判断することができるとした。
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/ja/051.webp)
 
 
 
 つまり、もし私たちが自分の頭で考え、理性的な大人として理性を持ち、物事の因果関係を理解しようとするならば、例えば、宗教の真の美徳や政治的・経済的領域における真の倫理的価値観を教えてくれる道徳的権威はもはや必要なくなる、というのである。
 
 
-それは、第一次世界大戦前のウィーンの極めて肥沃な知的雰囲気の中で生まれたオーストリア学派の自由主義経済学との関連性を示すものである。カール・メンガー（1840-1921）、ルートヴィヒ・フォン・ミーゼス（1883-1979）、フリードリヒ・ハイエク（1899-1992）といった知識人たちが、自由主義経済学の新しい学派の基礎を築き、それが後のサイファパンクの信念の基礎となったからである。そしてBitcoinの誕生である。
+それは、第一次世界大戦前のウィーンの極めて肥沃な知的雰囲気の中で生まれた[オーストリア学派](https://planb.academy/resources/glossary/austrian-school)の自由主義経済学との関連性を示すものである。カール・メンガー（1840-1921）、ルートヴィヒ・フォン・ミーゼス（1883-1979）、フリードリヒ・ハイエク（1899-1992）といった知識人たちが、自由主義経済学の新しい学派の基礎を築き、それが後の[サイファパンク](https://planb.academy/resources/glossary/cypherpunks)の信念の基礎となったからである。そしてBitcoinの誕生である。
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/ja/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/ja/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/ja/054.webp)
 
 
 
@@ -1206,19 +1200,19 @@ TTPで展開されているこの成熟した宗教観は、政治的な側面�
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/ja/055.webp)
 
 
 
-特に、2009年1月3日のタイムズ紙の見出しを、Blockchain BitcoinのGenesisブロックのコインベースに刻み、ケインズ主義というひとつの時代の終わりと、リベラル、アナーキスト、リバタリアンを志向する別の時代の始まりを表現した。
+特に、2009年1月3日のタイムズ紙の見出しを、[Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoinの[Genesisブロック](https://planb.academy/resources/glossary/genesis-block)の[コインベース](https://planb.academy/resources/glossary/coinbase-transaction)に刻み、ケインズ主義というひとつの時代の終わりと、リベラル、アナーキスト、リバタリアンを志向する別の時代の始まりを表現した。
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/ja/056.webp)
 
 
 
-2008年10月31日に発表された白書は、Bitcoinを、分散型プロトコルに基づき、信頼できる第三者なしにインターネット上で価値を交換する手段として提示している。コペルニクス的」革命は、人々が最終的に行動する能力、すなわち自由、取引の自由、財産権、プライバシーの尊重を取り戻すことを可能にする。
+2008年10月31日に発表された[白書](https://planb.academy/resources/glossary/white-paper)は、Bitcoinを、分散型プロトコルに基づき、信頼できる第三者なしにインターネット上で価値を交換する手段として提示している。コペルニクス的」革命は、人々が最終的に行動する能力、すなわち自由、取引の自由、財産権、プライバシーの尊重を取り戻すことを可能にする。
 
 
 なぜか？Bitcoinは、スピノザのやり方で、理性のおかげで、ガリレオの数学の言葉のおかげで、この隷属から抜け出すことを可能にしてくれるからだ。そして、ハイエクが示唆するように、国家が反対することなく。そして、強制も布教もなく、平和的に。

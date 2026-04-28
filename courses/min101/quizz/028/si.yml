@@ -1,0 +1,9 @@
+question: බ්ලොක් සහනාධාරය (block subsidy) යනු කුමක්ද?
+answer: මූල්‍ය නිර්මාණය (Monetary creation)
+wrong_answers:
+  - ගනුදෙනු ගාස්තු
+  - පරිශීලක තැන්පතු
+  - ස්පෑම් දඬුවම්
+explanation: |
+  සහනාධාරය යනු ප්‍රොටෝකෝල නීතිවලට අනුව අලුතින් බිට්කොයින් නිර්මාණය කරන විපාකයේ (reward) කොටසයි.
+reviewed: false

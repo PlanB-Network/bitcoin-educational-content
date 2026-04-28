@@ -104,7 +104,7 @@ Kugira ngo uyironke, genda kuri [urubuga rwemewe rwa Manjaro](https://manjaro.or
 
 
 
-Hanyuma ugende ku rubuga rwa porogarama ya [Rufus] (https://rufus.ie/fr/) maze uyikuremwo. Gukoresha porogarama, ushiremwo urufunguzo rwawe rwa USB, uhitemwo ishusho ya Manjaro ISO maze utangure guca ibibatsi. Rindira ko igikorwa kirangira imbere y’uko ukuraho urufunguzo. Ushobora rero gusubira gufungura mudasobwa yawe.
+Hanyuma ugende ku rubuga rwa porogarama ya [Rufus](https://rufus.ie/fr/) maze uyikuremwo. Gukoresha porogarama, ushiremwo urufunguzo rwawe rwa USB, uhitemwo ishusho ya Manjaro ISO maze utangure guca ibibatsi. Rindira ko igikorwa kirangira imbere y’uko ukuraho urufunguzo. Ushobora rero gusubira gufungura mudasobwa yawe.
 
 
 

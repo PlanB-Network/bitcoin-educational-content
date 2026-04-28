@@ -1,0 +1,9 @@
+question: Kdo je vlastníkem bitcoinů v případě správcovské služby Lightning wallet?
+answer: Společnost
+wrong_answers:
+  - Uživatel
+  - Síť Lightning
+  - Jádro Bitcoin
+explanation: |
+  V modelu custodial má společnost klíče a kontroluje finanční prostředky, zatímco uživatel má pouze účetní zůstatek.
+reviewed: false

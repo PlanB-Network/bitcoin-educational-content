@@ -1,0 +1,9 @@
+question: Ko je izumeo Hashcash?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash je izumeo Adam Back. To je prvi mehanizam dokaza o radu.
+reviewed: false

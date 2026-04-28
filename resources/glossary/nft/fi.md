@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition: Bitcoin-yksikkö, jota tulkitaan ei-vaihtokelpoisena ja joka on yhdistetty ulkoiseen omaisuuserään protokollan kautta.
 ---
 
 Lyhenne sanoista *Non-Fungible Token*. NFT edustaa Bitcoin:n yksikköä, jonka toisen Layer-protokollan käyttäjät tulkitsevat ei-sitovaksi ja joka liittyy Bitcoin:n ulkopuolisen omaisuuserän, kuten kuvan tai muunlaisen datan, Ownership:aan.

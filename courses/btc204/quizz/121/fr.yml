@@ -1,14 +1,9 @@
-question: Comment fonctionne la phase de tige dans le protocole Dandelion ?
-
-answer: La transaction est envoyée à travers un chemin aléatoire de nœuds.
-
+question: Quel BIP a formalisé le protocole de diffusion Dandelion ?
+answer: BIP156
 wrong_answers:
-  - La transaction est immédiatement diffusée à tous les pairs du nœud source.
-  - La transaction est temporairement stockée dans un nœud central avant d'être diffusée.
-  - La transaction est cryptée de manière incrémentielle à chaque étape de diffusion.
-
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion utilise d'abord une phase de tige où la transaction est envoyée à travers un chemin aléatoire de nœuds. 
-  La transaction est ensuite diffusée à l'ensemble du réseau dans la phase de capitule.
-
-reviewed: true 
+  Dandelion a été formalisé dans le BIP156, sans être finalement intégré à Bitcoin Core.
+reviewed: false

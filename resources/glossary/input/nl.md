@@ -1,5 +1,6 @@
 ---
-term: INVOER
+term: Input
+definition: UTXO gebruikt als bron van fondsen in een Bitcoin-transactie, verwijzend naar een eerdere output.
 ---
 
 In de context van Bitcoin verwijst een input binnen een transactie naar de UTXO's (*Unspent Transaction Outputs*) die worden gebruikt als oorspronkelijke fondsen om aan de outputs te voldoen. Elke input bevat verwijzingen naar eerdere UTXO's, die vervolgens door de transactie worden verbruikt. Deze invoer wordt gebruikt om nieuwe UTXO's te voeden die worden aangemaakt als uitvoer van de transactie en die vervolgens kunnen worden uitgegeven in toekomstige transacties.

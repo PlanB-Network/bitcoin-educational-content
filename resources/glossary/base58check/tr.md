@@ -1,5 +1,6 @@
 ---
-term: BASE58CHECK
+term: Base58check
+definition: Giriş hatalarını tespit etmek için 58 belirgin karakter ve bir sağlama toplamı (checksum) kullanan, Bitcoin Legacy adresleri için kullanılan kodlama.
 ---
 
 base58Check`, Bitcoin sisteminde Eski alıcı adreslerini ve genişletilmiş anahtarlar gibi diğer bazı verileri insan tarafından okunabilir karakter dizeleri biçiminde temsil etmek için kullanılan bir kodlamadır. İnsan transkripsiyon hatalarını en aza indirmek için tasarlanmış 58 tabanının konumsal bir gösterimi olan `Base58` sisteminin bir çeşididir. 1`den `9`a kadar rakamlardan, `A`dan `Z`ye kadar büyük harflerden (`1` ve `0` rakamlarıyla karıştırılmaması için `I` ve `O` harfleri hariç) ve `a`dan `z`ye kadar küçük harflerden (`1` rakamıyla karıştırılmaması için `l` harfi hariç) oluşan 58 alfanümerik karakter kümesi kullanır. base58Check` bir sağlama toplamı ekleyerek `Base58`den ayrılır. Bu, `Base58` ile kodlanmış verinin sonunda orijinal verinin çift `SHA256` Hash'inin (`SHA256d` veya `HASH256`) küçültülmüş bir versiyonu ile temsil edilir. Doğrulama sırasında, sağlama toplamı yeniden hesaplanır ve kodlama sırasında eklenenle karşılaştırılır. İki karma eşleşirse, veri geçerli kabul edilir; aksi takdirde, bir bozulma veya transkripsiyon hatası bildirilir.

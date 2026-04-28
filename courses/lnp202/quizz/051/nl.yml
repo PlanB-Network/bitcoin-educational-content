@@ -1,0 +1,9 @@
+question: Welke poort moet worden ingesteld in Zeus voor de LND (REST) verbinding die in dit hoofdstuk wordt beschreven?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Om toegang te krijgen tot API vanaf je LND node op Umbrel, moet je poort 8080 gebruiken bij het configureren van Zeus.
+reviewed: false

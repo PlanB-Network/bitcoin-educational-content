@@ -1,9 +1,9 @@
-question: Uwo musore w’umunyafinlande yafashije Satoshi gutangaza ivyerekeye umugambi wiwe mu 2009 yitwa nde, cane cane mu gucunga urubuga rwa Bitcoin n’ihuriro?
-answer: Mariti Malmi
+question: Uwo musore w’umunyafinlande yafashije Satoshi gutangaza ivyerekeye umugambi wiwe mu 2009 yitwa nde, cane cane mu gucunga urubuga rwa web rwa Bitcoin n’ihuriro(the Bitcoin website and forum)?
+answer: Martti Malmi
 wrong_answers:
-  - Mike Umva
-  - Gavini Andresen
+  - Mike Hearn
+  - Gavin Andresen
   - RPOW
 explanation: |
-  Yarashikirije ubutumwa Satoshi muri Ndamukiza 2009. Satoshi aca amuha igikorwa co kwandika ikibazo gikunda kwibazwa n’ivyo azoshira ahabona ku rubuga. Martti Malmi yari umukinyi w’iburyo wa Satoshi mu kiringo kirenze umwaka.
+  Yarashikirije ubutumwa Satoshi muri Ndamukiza 2009. Satoshi aca amuha igikorwa co kwandika ikibazo gikunda kwibazwa n’ivyo azoshira ahabona ku rubuga. Martti Malmi yari ukuboko kw’iburyo kwa Satoshi mu kiringo kirenze umwaka.
 reviewed: true

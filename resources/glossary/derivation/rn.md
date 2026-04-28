@@ -1,5 +1,6 @@
 ---
-term: IKOMOKA
+term: Derivation
+definition: Uburyo bwo kurema imfunguruzo z'abana bivuye ku mfunguruzo z'abavyeyi muri HD wallet.
 ---
 
 Yerekeza ku nzira yo gutanga urufunguzo rw'abana rubiri ruvuye ku rufunguzo rw'umuvyeyi (urufunguzo rw'ibanga n'urufunguzo rwa bose) na chain code mu gihe c'urufunguzo rw'abana n'urw'ubukuru (HD) Wallet. Ivyo bituma amashami ashobora gucapura no gutunganya Wallet mu nzego zitandukanye zifise abana benshi babiri, ivyo vyose bikaba bishobora gusubirwamwo mu kumenya gusa amakuru y’ishimikiro yo gusubirwamwo (ijambo Mnemonic n’iyindi passphrase yose ishobora gusubirwamwo). Kugira ngo ubone urufunguzo rw'umwana, igikorwa ca `HMAC-SHA512` gikoreshwa n'umuvyeyi chain code n'ugufatanya urufunguzo rw'umuvyeyi n'urutonde rw'ibice 32. Hari ubwoko bubiri bw’ibikomoka ku majambo:

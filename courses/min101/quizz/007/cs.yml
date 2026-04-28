@@ -1,0 +1,9 @@
+question: Jaké ekonomické kritérium řídí výběr transakcí těžařem?
+answer: Sazba poplatku (fee rate)
+wrong_answers:
+  - Celková výše poplatků
+  - Stáří UTXO
+  - Počet UTXO
+explanation: |
+  Vzhledem k tomu, že prostor v bloku je omezený, těžař upřednostňuje nejrentabilnější transakce na bajt. Výběr transakcí tedy řídí sazba poplatku.
+reviewed: false

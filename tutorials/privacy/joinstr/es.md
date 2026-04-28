@@ -542,13 +542,14 @@ Joinstr genera actualmente pools de **2 a 5 participantes** de media. Estas cifr
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspecto | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Participantes por grupo** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
+| **Coordinador** | Centralizado (cerrado 2024) | Centralizado (activo) | P2P maker/taker | **Ninguno (Nostr)** |
+| **Resistencia a la censura** | Débil | Media | Muy alta | **Muy alta** |
+| **Cuotas de coordinación** | Porcentaje | Cuota de entrada | Pagado a los fabricantes | **Ninguno** |
+| **Discriminación UTXO** | Sí (listas negras) | No | No | **No** |
 
 💡 **Otras soluciones activas de CoinJoin** :
 

@@ -1,0 +1,9 @@
+question: Które z tych narzędzi nie identyfikuje odpowiednich użytkowników usługi Lightning?
+answer: Electrum
+wrong_answers:
+  - Lightning Terminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum nie jest eksploratorem Lightning do uzyskiwania informacji o węzłach sieci. Z drugiej strony pozostałe trzy narzędzia dobrze spełniają tę funkcję.
+reviewed: false

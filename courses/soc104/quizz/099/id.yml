@@ -1,0 +1,9 @@
+question: Menurut Manifesto Cypherpunk Eric Hughes, pendekatan mendasar apa yang membedakan cypherpunks dari mereka yang hanya mengharapkan perlindungan privasi?
+answer: Mereka secara aktif menulis kode untuk membangun sistem kriptografi daripada menunggu institusi untuk memberikan privasi
+wrong_answers:
+  - Mereka berfokus pada lobi politik dan reformasi hukum untuk menetapkan hak-hak privasi konstitusional
+  - Mereka memprioritaskan edukasi kepada masyarakat tentang risiko pengawasan melalui penelitian dan publikasi akademis
+  - Mereka bekerja di dalam lembaga keuangan yang ada untuk secara bertahap menerapkan teknologi yang menjaga privasi
+explanation: |
+  Eric Hughes secara eksplisit menyatakan 'Cypherpunks menulis kode' sebagai metodologi yang menentukan mereka. Manifesto tersebut menekankan bahwa cypherpunks tidak menunggu pemerintah, perusahaan, atau organisasi lain untuk memberikan perlindungan privasi.
+  Sebaliknya, mereka mengambil tindakan langsung dengan menciptakan alat kriptografi dan sistem terdesentralisasi. Pendekatan konstruksi aktif ini, daripada harapan pasif atau reformasi institusional, menjadi fondasi untuk inovasi seperti Bitcoin, yang mewujudkan filosofi mereka dalam membangun sistem alternatif di luar struktur kekuasaan tradisional.

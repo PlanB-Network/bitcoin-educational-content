@@ -1,5 +1,5 @@
 ---
-name: Desktop ya Specter
+name: Specter Desktop
 description: Dhibiti portfolio zako za Bitcoin zenye saini nyingi katika uhuru kamili na nodi yako mwenyewe
 ---
 
@@ -127,7 +127,7 @@ Hapo chini utapata mafunzo yetu ya maunzi haya ya wallet:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Kwa Coldcard, unahitaji kusafirisha funguo za umma kutoka kwa maunzi ya wallet ama kupitia muunganisho wa USB au kadi ya microSD.
 

@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck der Verwendung von map_err() bei der Verkettung von Operationen mit Ergebnistypen in Rust?
+answer: Um Fehlertypen umzuwandeln, während Erfolgswerte bei der Fehlerfortpflanzung unverändert bleiben
+wrong_answers:
+  - Um Erfolgswerte umzuwandeln und gleichzeitig Fehler automatisch und ohne Änderung weiterzugeben
+  - So konvertieren Sie Ergebnistypen in Optionstypen, wenn Fehler ignoriert werden müssen
+  - So verhindern Sie die Fehlerfortpflanzung, indem Sie alle Fehler in Standard-Erfolgswerte umwandeln
+explanation: |
+  Die Methode map_err() wurde speziell dafür entwickelt, Fehlertypen umzuwandeln, während Erfolgswerte unverändert beibehalten werden. Dies ist entscheidend für den Aufbau von mehrschichtigen Anwendungen, bei denen verschiedene Komponenten unterschiedliche Fehlerdarstellungen benötigen. So können Sie beispielsweise Parsing-Fehler auf niedriger Ebene in domänenspezifische Fehler umwandeln, die einen besseren Kontext bieten. Die anderen Optionen sind falsch: map() wandelt Erfolgswerte um (nicht map_err()), map_err() wandelt nicht in Optionstypen um, und es verhindert nicht die Weitergabe oder erstellt keine Standard-Erfolgswerte.

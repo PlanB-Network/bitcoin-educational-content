@@ -349,4 +349,4 @@ BitBanana is volledig soeverein, verzamelt geen gegevens en compromitteert noch 
 
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=app.michaelwuensch.bitbanana)
-- [F-Cold] (https://f-droid.org/packages/app.michaelwuensch.bitbanana)
+- [F-Cold](https://f-droid.org/packages/app.michaelwuensch.bitbanana)

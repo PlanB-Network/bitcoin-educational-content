@@ -1,0 +1,8 @@
+question: Tofauti kuu kati ya mbinu za unwrap_or() na unwrap_or_default() ni ipi wakati wa kushughulikia aina za Matokeo na Chaguo?
+answer: unwrap_or() inakuhitaji kutaja thamani mbadala, huku unwrap_or_default() ikitumia utekelezaji chaguo-msingi wa aina hiyo
+wrong_answers:
+  - unwrap_or() huogopa makosa huku unwrap_or_default() ikirudisha Hakuna, na kutoa utunzaji salama zaidi wa makosa katika uzalishaji
+  - unwrap_or() inafanya kazi na aina za Matokeo pekee huku unwrap_or_default() ikifanya kazi na aina za Chaguo pekee kwa ajili ya uchimbaji wa thamani
+  - unwrap_or() hueneza hitilafu kwenye rundo la simu huku unwrap_or_default() ikibadilisha hitilafu zote kuwa ujumbe chaguo-msingi wa kamba
+explanation: |
+  Mbinu ya unwrap_or() hukuruhusu kutoa thamani maalum ya kurudi nyuma wakati Matokeo yana hitilafu au Chaguo lina Hakuna, hukupa udhibiti wa thamani ya kutumia katika visa vya kushindwa. Kwa upande mwingine, unwrap_or_default() hutumia kiotomatiki utekelezaji wa sifa chaguo-msingi ya aina hiyo, ambayo ni rahisi wakati thamani chaguo-msingi inafaa kwa hali yako ya matumizi. Mbinu zote mbili hufanya kazi na aina za Matokeo na Chaguo na haziogopi au kueneza makosa - zote mbili hutoa uharibifu mzuri kwa kurudisha thamani zinazoweza kutumika badala ya kushindwa.

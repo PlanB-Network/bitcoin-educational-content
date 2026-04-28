@@ -1,0 +1,9 @@
+question: "\"Chuyển đổi nhóm khai thác\" (pool hopping) có nghĩa là gì đối với một thợ đào ủy thác tốc độ băm của mình cho một nhóm khai thác mining?"
+answer: Ngắt kết nối khỏi nhóm mining sau khi đã gửi một số lượng cổ phần nhất định trong một chu kỳ, và chuyển hướng sức mạnh tính toán sang tài khoản của riêng bạn hoặc sang một nhóm mining khác
+wrong_answers:
+  - Áp dụng giao thức truyền thông tiêu tốn nhiều băng thông để tương tác với nhóm mining nhằm giảm thiểu các phần chia sẻ lỗi thời bằng cách đơn giản hóa việc thông báo các khối mới
+  - Thực hiện một số giao dịch giả mạo trong nhóm mining để mô phỏng việc chuyển giao quyền sở hữu bitcoin và tăng cường tính bảo mật cho các thợ đào được ủy quyền
+  - Việc ghi tên của pool mining vào trường nhập liệu của giao dịch phần thưởng của khối được khai thác sẽ giúp hoạt động của các pool mining minh bạch hơn
+explanation: |
+ Phương pháp này được Raulo mô tả vào tháng 2 năm 2011, ông ước tính rằng một cá nhân có thể nhận được nhiều hơn 28% bitcoin bằng cách này. Điều này đã thúc đẩy việc giới thiệu hệ thống điểm "chống gian lận" trong hợp tác xã Slush.
+reviewed: true

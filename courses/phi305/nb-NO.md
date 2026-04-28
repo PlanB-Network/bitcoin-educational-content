@@ -35,7 +35,7 @@ I dette kurset har jeg gleden av å presentere filosofien til Baruch de Spinoza 
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/nb-NO/001.webp)
 
 
 Portrett av Spinoza
@@ -70,7 +70,7 @@ Først vil jeg introdusere deg for Spinoza, hans personlighet, hans sosiale, rel
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/nb-NO/002.webp)
 
 
 Portrett av Spinoza
@@ -93,7 +93,7 @@ Vi skal også ta en titt på Spinozas to hovedverk, og vi begynner med Etikken, 
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/nb-NO/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Deretter skal vi se på Traité théologico-politique, som ble utgitt mens han l
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/nb-NO/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Takket være teorien om affekter utviklet på geometernes måte, "more geometric
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/nb-NO/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Han var jøde, og tilhørte det portugisiske sefardiske samfunnet som nedstammet
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/nb-NO/006.webp)
 
 
 
@@ -157,7 +157,6 @@ Faktisk viste han tidlig en sterkt kritisk holdning til den etablerte religionen
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ I likhet med sine samtidige Descartes (1596-1650), Pascal (1632-1662) og Newton 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/nb-NO/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Og det er denne tilnærmingen som knytter Spinoza til opplysningstidens filosofi
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/nb-NO/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/nb-NO/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Rikdom er imidlertid ikke knyttet til naturressurser, utnyttelse og plyndring av
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/nb-NO/010.webp)
 
 
 
@@ -255,7 +254,6 @@ I dette kapittelet foreslår jeg at vi nå vender oss til Spinozas hovedverk, Et
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ Etikken er et verk skrevet på latin på geometernes vis, sannsynligvis inspirer
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/nb-NO/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Jeg vil gjerne påpeke at når du åpner Etikken, anbefales det å begynne med e
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/nb-NO/012.webp)
 
 
 
@@ -311,7 +309,7 @@ For det første, hvis tilfeldigheter ikke eksisterer for Spinoza, er det fordi d
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/nb-NO/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Ifølge Gilles Deleuze (1925-1995), den berømte filosofiprofessoren og Spinoza-
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/nb-NO/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Dette er Traité théologico-politique, eller TTP, som ble utgitt anonymt i 1670
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/nb-NO/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Som vi har sett, er Spinozas gudsbegrep tema for hele første del av Etikken, de
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/nb-NO/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Slik viser Spinoza oss at Gud, slik han ser det, ikke er et antropomorft vesen m
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/nb-NO/017.webp)
 
 
 
@@ -427,7 +425,7 @@ Det beryktede jordskjelvet i Lisboa 1. november 1755 viste et stort skifte i hvo
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/nb-NO/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Et drama som gjenopplivet spørsmålet som den tyske filosofen og matematikeren 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/nb-NO/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) var langt fra å fordømme Guds hånd, men skr
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/nb-NO/020.webp)
 
 
 
@@ -492,10 +490,9 @@ På samme måte som Nikolaus Kopernikus (1473-1543) slo fast at jorden ikke var 
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/nb-NO/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Før ham hadde den klassiske greske filosofien foreslått en ordnet, hierarkisk 
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/nb-NO/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Men med Kopernikus' (1473-1543) nye fysikk på 1400-tallet gjennomgikk kosmologi
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/nb-NO/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Men for å forstå spinozismen fullt ut, må vi også se på konteksten til Ren�
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/nb-NO/024.webp)
 
 
 
@@ -538,7 +534,7 @@ Til tross for risikoen og fordømmelsene fra Giordano Bruno (1548-1600) og Galil
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/nb-NO/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Som vi allerede har sett, er Spinoza (1632-1677) kjent for å betrakte den frie 
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/nb-NO/026.webp)
 
 
 
@@ -606,7 +602,7 @@ I sin livsførsel ville mennesket ikke være underlagt noen annen lov enn sin eg
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/nb-NO/027.webp)
 
 
 
@@ -622,7 +618,7 @@ Dette er ideen om den absolutte determinisme, som han i sin Etikk legger til gru
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/nb-NO/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Denne tilnærmingen til frihet som en evne til å handle er den forbindelsen vi 
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/nb-NO/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Til slutt er det verdt å påpeke at selv om den libertarianske bevegelsen vi n�
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/nb-NO/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Men for Spinoza (1632-1677) er ikke mennesket "et imperium i imperiet", det vil 
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/nb-NO/031.webp)
 
 
 
@@ -733,7 +728,7 @@ Og derfor har nye sykdommer som aids på 90-tallet eller covid i 2020 av noen al
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/nb-NO/032.webp)
 
 
 
@@ -749,7 +744,7 @@ Og det var nettopp dette den franske naturforskeren Jean-Baptiste de Lamarck (17
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/nb-NO/033.webp)
 
 
 
@@ -757,11 +752,11 @@ Men som Spinoza sier: "Menneskets villfarelse slutter ikke der", og blant alle e
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/nb-NO/034.webp)
 
 
 
-Definisjonen av inflasjon som gis av keynesianske økonomer og velferdsstatsforkjempere, for eksempel, illustrerer også dette paradokset svært godt. Ifølge dem er inflasjon en prisøkning som, ifølge enkelte sentralbankfolk, kommer enten fra "ingensteds" eller fra geopolitiske sammenhenger som ingen kan kontrollere eller forutse. Selv om en prisøkning faktisk kan føre til syklisk inflasjon - for eksempel når oljeprisen stiger, vil prisene på visse bearbeidede varer også stige - er de virkelige strukturelle årsakene til inflasjon først og fremst knyttet til en økning i pengemengden Supply, som igjen innebærer et fall i pengeverdien og ipso facto en mekanisk prisstigning.
+Definisjonen av [inflasjon](https://planb.academy/resources/glossary/inflation) som gis av keynesianske økonomer og velferdsstatsforkjempere, for eksempel, illustrerer også dette paradokset svært godt. Ifølge dem er inflasjon en prisøkning som, ifølge enkelte sentralbankfolk, kommer enten fra "ingensteds" eller fra geopolitiske sammenhenger som ingen kan kontrollere eller forutse. Selv om en prisøkning faktisk kan føre til syklisk inflasjon - for eksempel når oljeprisen stiger, vil prisene på visse bearbeidede varer også stige - er de virkelige strukturelle årsakene til inflasjon først og fremst knyttet til en økning i pengemengden Supply, som igjen innebærer et fall i pengeverdien og ipso facto en mekanisk prisstigning.
 
 
 
@@ -773,7 +768,7 @@ Denne ensidige tolkningen av inflasjonen får oss imidlertid til å glemme at se
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/nb-NO/035.webp)
 
 
 
@@ -809,7 +804,7 @@ I dette siste kapittelet om spinozismens nye kopernikanske idésyn vender vi oss
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/nb-NO/036.webp)
 
 
 
@@ -833,7 +828,7 @@ Med andre ord, en hvitskjegget gammel mann gjemt bak en sky, som tilskrives ære
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/nb-NO/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Men til tross for at vi er stolte av å tro at vi står over naturen, og innbill
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/nb-NO/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Med andre ord, "de beryktede" ifølge Voltaire (1694-1778), for hvem overtro ald
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/nb-NO/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Det var dette den tyske, engelske og franske opplysningstiden forsvarte fra 1700
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/nb-NO/040.webp)
 
 
 
@@ -885,7 +880,7 @@ Og det er dette Spinoza demonstrerer igjen i sin Theologico Political Treatise, 
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/nb-NO/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Antikkens filosofer mente at det onde ikke fantes i naturen, og Sokrates (470-39
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/nb-NO/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Men den skolastiske tradisjonen, særlig den fra Augustin (354-430), som fortsat
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/nb-NO/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Som du kan forestille deg, blir denne ideen selvfølgelig revet i filler av Spin
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/nb-NO/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Det er derfor spinozisten Gilles Deleuze (1925-1995) forklarer at etikk er en sl
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/nb-NO/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Han utvikler systemet sitt i tredje del av Etikken. Det er den berømte "teorien
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/nb-NO/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Det er dette Spinoza sier i sin Etikk, når han undrer seg over at "folk ofte se
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/nb-NO/047.webp)
 
 
 
@@ -1069,11 +1064,11 @@ Med andre ord, hvis vi hater en utlending, er det fordi vi forbinder denne utlen
 
 
 
-Dette gjelder forresten spesielt innen kryptovalutaer.
+Dette gjelder forresten spesielt innen [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/nb-NO/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Dette er eksemplet med lynet. For når lynet slår ned og dreper uskyldige menne
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/nb-NO/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Dette er det geniale med Etikken. Spinoza viser oss at det er mulig å bevege se
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/nb-NO/050.webp)
 
 
 
@@ -1151,25 +1146,24 @@ Til syvende og sist betyr denne klarheten at man ikke lenger lever i den nihilis
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Det var nettopp dette opplysningstidens rasjonelle filosofi handlet om, særlig takket være Immanuel Kant (1724-1804), som mente at bare et dannet individ, under fornuftens veiledning, kan tenke selv og etisk avgjøre hva som er "sant" eller "godt", og hva som er giftig.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/nb-NO/051.webp)
 
 
 
 Med andre ord, sier han, hvis vi tenker selv, hvis vi resonnerer som rasjonelle voksne mennesker, og hvis vi derfor bestreber oss på å se årsakssammenhengene mellom tingene, trenger vi ikke lenger en moralsk autoritet til å lære oss for eksempel religionens sanne dyder eller de sanne etiske verdiene på det politiske og økonomiske området.
 
 
-Det er et resonnement som knytter an til den østerrikske skolen i liberal økonomi, som ble født i den ekstremt fruktbare intellektuelle atmosfæren i Wien før første verdenskrig. Det var nemlig i denne konteksten at intellektuelle som Carl Menger (1840-1921), Ludwig von Mises (1883-1979) og Friedrich Hayek (1899-1992) la grunnlaget for en ny skole i liberal økonomi, som skulle bli fundamentet for overbevisningen til fremtidige cypherpunks. Og derav opprettelsen av Bitcoin.
+Det er et resonnement som knytter an til den [østerrikske](https://planb.academy/resources/glossary/austrian-school) skolen i liberal økonomi, som ble født i den ekstremt fruktbare intellektuelle atmosfæren i Wien før første verdenskrig. Det var nemlig i denne konteksten at intellektuelle som Carl Menger (1840-1921), Ludwig von Mises (1883-1979) og Friedrich Hayek (1899-1992) la grunnlaget for en ny skole i liberal økonomi, som skulle bli fundamentet for overbevisningen til fremtidige [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). Og derav opprettelsen av Bitcoin.
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/nb-NO/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Menger og Mises slo for eksempel fast at all kunnskap må konstrueres ut fra den
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/nb-NO/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Som spinozist forklarer Hayek i en video at "siden denne makten ikke kan fjernes
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/nb-NO/054.webp)
 
 
 
@@ -1206,19 +1200,19 @@ Dette er de politiske og økonomiske argumentene som de første cypherpunkerne, 
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/nb-NO/055.webp)
 
 
 
-Spesielt da han skrev Times-overskriften fra 3. januar 2009 i myntbasen til Genesis-blokken av Blockchain Bitcoin for å illustrere slutten på en æra, den keynesianske, og begynnelsen på en annen med liberale, anarkistiske og libertarianske ambisjoner.
+Spesielt da han skrev Times-overskriften fra 3. januar 2009 i [myntbasen](https://planb.academy/resources/glossary/coinbase-transaction) til [Genesis-blokken](https://planb.academy/resources/glossary/genesis-block) av [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin for å illustrere slutten på en æra, den keynesianske, og begynnelsen på en annen med liberale, anarkistiske og libertarianske ambisjoner.
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/nb-NO/056.webp)
 
 
 
-I hvitboken som ble publisert 31. oktober 2008, presenteres Bitcoin som en måte å utveksle verdier på Internett uten en betrodd tredjepart, basert på en desentralisert protokoll. En "kopernikansk" revolusjon som endelig vil gjøre det mulig for folk å gjenvinne sin evne til å handle, det vil si sin frihet, sin frihet til å handle, sin eiendomsrett og respekt for sitt privatliv.
+I [hvitboken](https://planb.academy/resources/glossary/white-paper) som ble publisert 31. oktober 2008, presenteres Bitcoin som en måte å utveksle verdier på Internett uten en betrodd tredjepart, basert på en desentralisert protokoll. En "kopernikansk" revolusjon som endelig vil gjøre det mulig for folk å gjenvinne sin evne til å handle, det vil si sin frihet, sin frihet til å handle, sin eiendomsrett og respekt for sitt privatliv.
 
 
 Hvorfor er det slik? Fordi Bitcoin gjør det mulig for oss å frigjøre oss fra denne trelldommen på Spinozas måte, takket være fornuften, takket være Galileis matematiske språk. Og, som Hayek foreslår, uten at staten kan motsette seg det. Og på fredelig vis, uten tvang eller misjonering.

@@ -1,0 +1,8 @@
+question: Jaká je hlavní kryptografická vlastnost, která umožňuje kompaktním blokovým filtrům (BIP158) poskytovat soukromí lehkým klientům při zachování dokonalé přesnosti?
+answer: Při porovnávání transakcí mohou být falešně pozitivní, ale nikdy ne falešně negativní
+wrong_answers:
+  - Používají důkazy nulové znalosti, aby skryly, které adresy jsou dotazovány z uzlů
+  - "Šifrují všechna data filtru pomocí veřejného klíče klienta, aby se zabránilo odposlechu."
+  - Náhodně určují pořadí hashů transakcí, aby pozorovatelům zakryly vzorce výdajů
+explanation: |
+  Kompaktní blokové filtry používají pravděpodobnostní datové struktury, které mohou nesprávně indikovat shodu (falešná pozitivita), ale nikdy nepřehlédnou skutečnou shodu (falešná negativita). Tato asymetrická vlastnost je klíčová: falešně pozitivní výsledky způsobí pouze zbytečné stahování bloků, zatímco falešně negativní výsledky by způsobily, že by peněženky zcela vynechaly platby. Z této nejistoty plyne výhoda pro soukromí - pozorovatelé nemohou rozlišit mezi skutečnou shodou a falešně pozitivními výsledky, což zastírá, které transakce skutečně patří dotazujícímu se wallet.

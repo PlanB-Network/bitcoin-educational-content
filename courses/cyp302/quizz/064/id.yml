@@ -6,3 +6,4 @@ wrong_answers:
   - Konversi pesan menjadi biner
 explanation: |
   Kode Otentikasi Pesan (MAC) digunakan untuk memastikan bahwa pesan tidak telah diubah dan memang berasal dari pengirim yang diasumsikan.
+reviewed: true

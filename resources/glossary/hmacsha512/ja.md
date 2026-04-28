@@ -1,6 +1,7 @@
 ---
 term: HMAC-SHA512
 
+definition: Bitcoin HDウォレットでの鍵派生に使用される暗号化アルゴリズム。
 ---
 HMAC-SHA512`は "Hash-based Message Authentication Code - Secure Hash Algorithm 512 "の略である。これは2者間で交換されるメッセージの完全性と真正性を検証するために使用される暗号アルゴリズムである。暗号化ハッシュ関数 `SHA512` と共有秘密鍵を組み合わせて、各メッセージに対して一意のメッセージ認証コード (MAC) を生成する。
 

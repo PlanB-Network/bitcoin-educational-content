@@ -1,0 +1,8 @@
+question: Koja je primarna arhitektonska prednost koja omogućava LDK-u da funkcioniše u WebAssembly okruženjima pregledača gde tradicionalni Lightning čvorovi ne mogu da operišu?
+answer: LDK-ova filozofija dizajna bez sistemskih poziva omogućava mu rad bez direktnog pristupa fajl sistemima, mrežnim soketima ili izvorima entropije
+wrong_answers:
+  - "Modularna struktura biblioteke Rust LDK automatski obezbeđuje kompatibilnost sa WebAssembly putem nativnih funkcija za kompilaciju Rust-u-WASM"
+  - "LDK-ova arhitektura zasnovana na događajima eliminiše potrebu za stalnim vezama i može raditi isključivo kroz HTTP cikluse zahteva i odgovora"
+  - "Lagana integracija blockchaina u LDK smanjuje upotrebu memorije dovoljno da zadovolji stroga ograničenja resursa i limitacije WebAssemblyja"
+explanation: |
+  LDK-ov dizajn bez sistemskih poziva je upravo ono što omogućava kompatibilnost sa pregledačima. Tradicionalni Lightning čvorovi se oslanjaju na direktne sistemske pozive za umrežavanje, ulaz/izlaz datoteka i nasumičnost, što WebAssembly okruženja zabranjuju iz sigurnosnih razloga. LDK apstrahuje ove zavisnosti, omogućavajući programerima da obezbede implementacije kompatibilne sa pregledačima koristeći WebSockets za umrežavanje i API-je pregledača za postojanost i nasumičnost, dok se u potpunosti pridržavaju Lightning protokola.

@@ -1,9 +1,9 @@
 question: Warum wendet SHA256 eine Vorverarbeitung auf die Eingabenachricht an?
-answer: Um eine Länge zu gewährleisten, die ein Vielfaches von 512 Bits ist
+answer: Um eine Länge zu gewährleisten, die ein Vielfaches von 512 Bits ist.
 wrong_answers:
-  - Um die Integrität der Nachricht zu überprüfen
-  - Um die Daten vor dem Hashing zu verschlüsseln
-  - Um die Größe der generierten Hashes zu erhöhen
+  - Um die Integrität der Nachricht zu überprüfen.
+  - Um die Daten vor dem Hashing zu verschlüsseln.
+  - Um die Größe der generierten Hashes zu erhöhen.
 explanation: |
   Die Vorverarbeitung passt die Nachrichtenlänge an, indem sie Füllbits und eine binäre Darstellung ihrer Länge hinzufügt.
 reviewed: true

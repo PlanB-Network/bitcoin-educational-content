@@ -111,16 +111,16 @@ RGB ina shimo lake la sungura ndani ya shimo la sungura la Bitcoin, wakati nikia
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# Mafunzo ya RGB-nodi
+## Mafunzo ya RGB-nodi
 
 
-## Utangulizi
+### Utangulizi
 
 
 Katika somo hili tunaeleza jinsi ya kutumia RGB-nodi kuunda tokeni inayoweza kuvu na jinsi ya kuihamisha, hati hii inategemea onyesho la nodi za RGB na inatofautiana kwa kuwa somo hili linatumia data halisi ya Testnet na kwa hilo, ni lazima tujenge Partially Signed Bitcoin Transaction, PSBT yetu wenyewe kuanzia sasa.
 
 
-## Mahitaji
+### Mahitaji
 
 
 Matumizi ya usambazaji wa Linux yanapendekeza, mafunzo haya yaliyoandikwa kwa kutumia Pop!OS, ambayo inategemea Ubuntu na utahitaji:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## Utoaji
+### Utoaji
 
 
 Ili kutoa kipengee tunaendesha rgb0-CLI na amri ndogo za suala linaloweza kugunduliwa, kisha hoja, ticker USDT, jina "USD Tether" na katika mgao tutatumia kiasi kilichotolewa na issuance_utxo kama tunavyoona hapa chini:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 Ili kupokea USDT mpya, RGB-node-1 inahitaji generate blinded UTXO inayolingana na receive_utxo ili kushikilia kipengee.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 Ili kuweza kukubali uhamishaji unaohusiana na UTXO hii, tutahitaji receive_utxo asili na blinding_factor.
 
 
-## Uhamisho
+### Uhamisho
 
 
 Ili kuhamisha baadhi ya kiasi cha mali hadi RGB-nodi-1 tunahitaji kuituma kwa blinded UTXO, RGB-node-0 inahitaji kuunda Consignment na ufichuzi, na kuiweka katika shughuli ya Bitcoin. Kisha tutahitaji PSBT ambayo tutarekebisha ili kujumuisha ahadi. Kwa kuongeza, chaguo -i na -a huturuhusu kutoa maoni ya pembejeo ambayo yatakuwa asili ya mali na mgao ambapo tutapokea mabadiliko, lazima tuonyeshe kwa njia ifuatayo @<change_utxo>.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Hii itaandika faili tatu mpya, Consignment, ufichuzi na PSBT ikiwa ni pamoja na tweak, hii PSBT inaitwa Witness Transaction, Consignment inatumwa kwa RGB-node-1.
 
 
-## Shahidi
+### Shahidi
 
 
 Witness Transaction inapaswa kusainiwa na kutangazwa, kwa hili tunahitaji kuisimba tena.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Tangaza
+### Tangaza
 
 
 Itangaze kwa kutumia amri ndogo ya kutuma pesa ili ithibitishwe kwenye Blockchain.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Kubali
+### Kubali
 
 
 Ili kukubali uhamisho unaoingia wa RGB-node-1 inapaswa kupokea faili ya Consignment kutoka kwa RGB-node-0, kuwa na receive_utxo na blinding_factor sambamba kuzalishwa wakati wa kupofusha kizazi cha UTXO.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Hitimisho
+### Hitimisho
 
 
 Tumeweza kuunda kipengee kinachoweza kuvuliwa na kuihamisha kutoka kwa shughuli moja hadi nyingine kwa njia ya faragha, ikiwa tutaangalia shughuli iliyothibitishwa katika Block explorer hatutapata chochote tofauti na shughuli za kawaida, hii ni kutokana na ukweli kwamba RGB hutumia mihuri ya matumizi moja ili kurekebisha shughuli, Katika chapisho hili, ninafanya utangulizi wa jinsi RGB inavyofanya kazi.

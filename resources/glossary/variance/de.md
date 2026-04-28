@@ -1,5 +1,6 @@
 ---
-term: VARIANZ
+term: Varianz
+definition: Schwankungen der Mining-Einnahmen aufgrund der probabilistischen Natur der Suche nach gültigen Blöcken.
 ---
 
 Bei Mining bezieht sich dies auf die Schwankungen der Einnahmen eines Miner, die auf die Wahrscheinlichkeit zurückzuführen sind, gültige Blöcke zu finden. Selbst bei konstanter Rechenleistung kann die Zeit, die benötigt wird, um einen Block zu finden, erheblich schwanken. Infolgedessen können Schürfer lange Zeiträume ohne Belohnungen verbringen, gefolgt von Zeiträumen mit hohen Einnahmen.

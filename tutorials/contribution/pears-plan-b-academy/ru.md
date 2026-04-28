@@ -1,5 +1,5 @@
 ---
-name: План ₿ Академия - приложение "Груши
+name: Plan ₿ Academy - Pears App
 description: Как установить и использовать приложение Plan ₿ Academy на Pears?
 ---
 

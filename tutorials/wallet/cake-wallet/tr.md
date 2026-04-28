@@ -1,5 +1,5 @@
 ---
-name: Kek Wallet
+name: Cake Wallet
 description: Cake Wallet ve Sessiz Ödemeler hakkında eğitim
 ---
 
@@ -148,7 +148,7 @@ wallet'ımızı güvence altına almak için uygulama içi talimatları izleyere
 ![image](assets/en/08.webp)
 
 
-**Not**: Eylül 2025 itibariyle, Android cihazlarda parmak izi biyometrik kimlik doğrulamasının en az Sınıf 2 biyometrik uygulama ile çalışması gerekmektedir, daha fazla ayrıntı için [buraya] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes) bakınız. Ancak bu gereklilik gelecekte değişebilir.
+**Not**: Eylül 2025 itibariyle, Android cihazlarda parmak izi biyometrik kimlik doğrulamasının en az Sınıf 2 biyometrik uygulama ile çalışması gerekmektedir, daha fazla ayrıntı için [buraya](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) bakınız. Ancak bu gereklilik gelecekte değişebilir.
 
 
 ### D - Gizlilik Ayarları 🔒

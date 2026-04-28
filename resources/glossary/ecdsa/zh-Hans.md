@@ -1,6 +1,7 @@
 ---
-term: ECDSA (椭圆曲线数字签名算法)
+term: ECDSA
 
+definition: 比特币用于签署交易的椭圆曲线数字签名算法。
 ---
 “Elliptic Curve Digital Signature Algorithm” 的缩写。它是一种基于椭圆曲线加密算法（ECC）的数字签名算法。它是 DSA（数字签名算法）的一种类型。ECDSA 利用椭圆曲线的特性提供与传统公钥算法（如 RSA）相当的安全级别，但使用的密钥大小却小得多。ECDSA 允许生成密钥对（公钥和私钥）以及创建和验证数字签名。
 

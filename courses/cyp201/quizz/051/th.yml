@@ -1,0 +1,9 @@
+question: ความแตกต่างหลักระหว่าง passphrase และรหัส PIN สำหรับ Bitcoin wallet คืออะไร?
+answer: passphrase ปรับเปลี่ยนการสร้างคีย์ ไม่ใช่รหัส PIN
+wrong_answers:
+  - รหัส PIN เชื่อมโยงกับวลีช่วยจำ
+  - รหัส PIN ใช้ในการเข้ารหัสธุรกรรมแต่ไม่ใช่ passphrase
+  - รหัส PIN สร้างที่อยู่ Bitcoin
+explanation: |
+  ไม่เหมือนกับรหัส PIN, passphrase มีส่วนเกี่ยวข้องโดยตรงในกระบวนการสร้างคีย์และเปลี่ยนคีย์ wallet
+reviewed: false

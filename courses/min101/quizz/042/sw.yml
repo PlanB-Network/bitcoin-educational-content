@@ -1,0 +1,9 @@
+question: ASIC inamaanisha nini?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC ni chip iliyoundwa kwa ajili ya kazi moja. Kwa hivyo ni Application-Specific Integrated Circuits.
+reviewed: false

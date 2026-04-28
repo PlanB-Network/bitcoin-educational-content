@@ -34,7 +34,7 @@ O Thunderbird é uma aplicação de correio eletrónico conhecida pela sua flexi
 ### Descarregar
 
 
-Para instalar o Thunderbird, é necessário descarregar o software a partir do [site oficial] (https://www.thunderbird.net/). Note que a aplicação está disponível para diferentes sistemas operativos. No entanto, a versão predefinida será a que for detectada automaticamente pelos dados fornecidos pelo seu browser.
+Para instalar o Thunderbird, é necessário descarregar o software a partir do [site oficial](https://www.thunderbird.net/). Note que a aplicação está disponível para diferentes sistemas operativos. No entanto, a versão predefinida será a que for detectada automaticamente pelos dados fornecidos pelo seu browser.
 
 
 
@@ -42,7 +42,7 @@ Para instalar o Thunderbird, é necessário descarregar o software a partir do [
 
 
 
-Para descarregar uma versão específica do Thunderbird, vá a [esta página] (https://www.thunderbird.net/an/thunderbird/all/). Escolha o seu idioma, o sistema operativo de destino e a arquitetura do processador e, em seguida, inicie o download.
+Para descarregar uma versão específica do Thunderbird, vá a [esta página](https://www.thunderbird.net/an/thunderbird/all/). Escolha o seu idioma, o sistema operativo de destino e a arquitetura do processador e, em seguida, inicie o download.
 
 
 

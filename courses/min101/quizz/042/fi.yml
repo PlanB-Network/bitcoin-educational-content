@@ -1,0 +1,9 @@
+question: Mitä ASIC tarkoittaa?
+answer: Application-Specific Integrated Circuits
+wrong_answers:
+  - Advanced Secure Integrated Circuit
+  - Automated Silicon Integrated Circuit
+  - Application-Shared Integrated Circuit
+explanation: |
+  ASIC on siru, joka on suunniteltu yhtä ainoaa tehtävää varten. Se on siis Application-Specific Integrated Circuits.
+reviewed: false

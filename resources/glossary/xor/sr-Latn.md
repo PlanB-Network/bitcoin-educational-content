@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Fundamentalna bulova logička operacija u kriptografiji koja daje istinu samo kada se dva operanda razlikuju.
 ---
 
 Akronim za operaciju "Exclusive or," na francuskom "Ou exclusif." To je fundamentalna funkcija Booleove logike. Ova operacija uzima dva Booleova operanda, svaki može biti $true$ ili $false$, i proizvodi $true$ izlaz samo kada se dva operanda razlikuju. Drugim rečima, izlaz XOR operacije je $true$ ako je tačno jedan (ali ne oba) od operanda $true$. Na primer, XOR operacija između $1$ i $0$ će rezultirati u $1$. Beležimo:

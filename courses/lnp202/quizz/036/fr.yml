@@ -1,0 +1,9 @@
+question: Pourquoi le routage sur Lightning est-il difficilement rentable ?
+answer: Coûts et concurrence
+wrong_answers:
+  - Limite de canaux
+  - Absence de demande
+  - Manque de liquidité globale
+explanation: |
+  Les frais onchain, la concurrence et l’exigence opérationnelle rendent la rentabilité de l'activité de routage incertaine.
+reviewed: false

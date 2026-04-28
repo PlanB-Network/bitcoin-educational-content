@@ -1,0 +1,10 @@
+question: Kes oli Mark Karpelès enne Mt. Goxi ülevõtmist?
+answer: Tehnoloogiakirega arendaja
+wrong_answers:
+  - Digitaalsete valuutade ekspertinvestor
+  - Bitcoin ideoloogiast ajendatud libertaarne aktivist
+  - Ettevõtja, kes on spetsialiseerunud börsikaubandusele
+explanation: |
+ Mark Karpelès on 1985. aastal sündinud prantsuse arendaja, kelle kirg on arvutite ja tehnoloogia vastu. Tema motivatsiooniks ei olnud ideoloogia ega kasum,
+ vaid tehniline uudishimu.
+reviewed: true

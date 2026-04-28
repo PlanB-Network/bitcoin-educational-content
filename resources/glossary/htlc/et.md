@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Nutileping, mis seab ülekande tingimuseks saladuse paljastamise teatud aja jooksul.
 ---
 
 Tähendab "*Hashed Timelock Contract*". See on Smart contract mehhanism, mida kasutatakse peamiselt Lightningi puhul. Seda leidub mõnikord ka aatomivahetustes. Põhimõtteliselt seab HTLC rahaülekande tingimuseks saladuse avalikustamise ja sisaldab ka ajalist tingimust, et kaitsta saatja raha ebaõnnestunud tehingu korral.

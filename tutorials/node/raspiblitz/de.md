@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Anleitung zur Einrichtung Ihres RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 Der RaspiBlitz ist ein Do-it-yourself-Lightning-Node (LND und/oder Core Lightning), der zusammen mit einem Bitcoin-Fullnode auf einem RaspberryPi (1TB SSD) und einem schönen Display läuft, um die Einrichtung und Überwachung zu erleichtern.
 
@@ -13,7 +13,7 @@ Der RaspiBlitz richtet sich hauptsächlich an Personen, die lernen möchten, wie
 
 RASPIBLITZ - Anleitung zum Betreiben eines Lightning- und Bitcoin-Fullnodes von BTC session
 
-# Parman's Raspiblitz-Einrichtungsanleitung
+## Parman's Raspiblitz-Einrichtungsanleitung
 
 Der Raspiblitz ist ein ausgezeichnetes System zum Betrieb eines Bitcoin-Nodes und zugehöriger Apps. Ich empfehle dies zusammen mit dem MyNode-Node den meisten Nutzern (idealerweise zwei Nodes für Redundanz). Ein großer Vorteil ist, dass der Raspiblitz-Node „Free Open Source Software“ ist, im Gegensatz zu MyNode oder Umbrel. [Warum ist das wichtig? Vlad Costa erklärt.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Sie können den Raspiblitz auch mit einer WiFi-Verbindung anstelle von Ethernet betreiben – hier ist ein [zusätzlicher Leitfaden](https://armantheparman.com/headless-wifi/) dafür. (Ich habe keine Möglichkeit gefunden, dies mit MyNode zu tun).
 
@@ -23,7 +23,7 @@ Die [Anleitung auf der GitHub-Seite](https://github.com/rootzoll/raspiblitz) ist
 
 Im Wesentlichen ist der Prozess dem Einrichten eines [MyNode-Knotens](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) mit einem Raspberry Pi 4 sehr ähnlich. Der Raspiblitz-Leitfaden schlägt vor, einen Monitor zu kaufen, aber man braucht wirklich keinen, und ich würde es auch nicht empfehlen. Sie benötigen nicht einmal eine zusätzliche Tastatur oder Maus. Greifen Sie einfach über einen Computer im selben Heimnetzwerk auf das Terminalmenü des Geräts zu und verwenden Sie den ssh-Befehl im Terminal. Dies ist mit Linux/Mac (einfach) möglich und unter Windows etwas schwieriger.
 
-## Schritt 1: Kaufen Sie die Ausrüstung.
+### Schritt 1: Kaufen Sie die Ausrüstung.
 
 Sie benötigen genau die gleiche Ausrüstung wie für einen MyNode-Node. Sie können es mit einem der beiden versuchen, der einzige Unterschied besteht in den Daten auf der Micro-SD-Karte.
 
@@ -48,7 +48,7 @@ Dies ist schneller, aber unnötig teuer:
 
 ![image](assets/3.webp)
 
-## Schritt 2: Raspiblitz-Image herunterladen
+### Schritt 2: Raspiblitz-Image herunterladen
 
 Navigieren Sie zur [Raspiblitz-GitHub-Website](https://github.com/rootzoll/raspiblitz) und suchen Sie den Link „download image“:
 
@@ -58,7 +58,7 @@ Der sha-256-Hash der heruntergeladenen Datei wird auf der Website bereitgestellt
 
 ![image](assets/5.webp)
 
-## Schritt 3: Image überprüfen
+### Schritt 3: Image überprüfen
 
 Bevor Sie fortfahren, wenn Sie sich auf der Befehlszeile nicht im Dateisystem auskennen, ist es einfach zu erlernen und Sie sollten es tun.
 
@@ -89,7 +89,7 @@ wobei xxxxxxxxxxxxxx der Name der gerade heruntergeladenen Datei ist. Wenn Sie s
 
 Der Computer denkt etwa 20 Sekunden lang nach. Überprüfen Sie, ob die Ausgabedatei mit der zuvor von der Website heruntergeladenen übereinstimmt. Wenn sie identisch ist, können Sie fortfahren.
 
-## Schritt 4: SD-Karte flashen
+### Schritt 4: SD-Karte flashen
 
 Sie können Balena Etcher dafür verwenden. [Laden Sie es hier herunter](https://www.balena.io/etcher/).
 
@@ -105,7 +105,7 @@ Etcher ist selbsterklärend zu verwenden. Legen Sie Ihre Micro-SD-Karte ein und 
 
 Sobald der Vorgang abgeschlossen ist, ist das Laufwerk nicht mehr lesbar. Sie erhalten möglicherweise einen Fehler vom Betriebssystem und das Laufwerk sollte vom Desktop verschwinden. Ziehen Sie die Karte heraus.
 
-## Schritt 5: Pi einrichten und SD-Karte einlegen
+### Schritt 5: Pi einrichten und SD-Karte einlegen
 
 Die Teile (Gehäuse nicht gezeigt):
 
@@ -125,7 +125,7 @@ Schließlich schließen Sie die Stromversorgung an:
 
 ![image](assets/14.webp)
 
-## Schritt 6: IP-Adresse des Pi finden
+### Schritt 6: IP-Adresse des Pi finden
 
 Du benötigst keinen Monitor für den Raspiblitz. Du benötigst jedoch einen anderen Computer im Heimnetzwerk. Wenn dein Pi nicht über Ethernet verbunden ist und du dich auf WLAN verlassen möchtest, erfordert das Finden der IP einige Computerkenntnisse. Kann dir leider nicht helfen. Du benötigst eine Ethernet-Verbindung. (Das Problem entsteht durch den Zugriff auf einen Monitor und das Betriebssystem, um WLAN zu verbinden und ein Passwort einzugeben.)
 Überprüfe deinen Router, um eine Liste aller IPs aller verbundenen Geräte zu erhalten.
@@ -136,7 +136,7 @@ Das Finden der IP ist entscheidend.
 
 > UPDATE: Du kannst das Terminal auf einem Mac oder Linux-Computer verwenden, um die IP-Adresse aller über Ethernet verbundenen Geräte im Heimnetzwerk mit dem Befehl "arp -a" zu finden. Die Ausgabe ist nicht so schön wie das, was der Router anzeigen wird, aber alle Informationen, die du benötigst, sind vorhanden. Wenn nicht offensichtlich ist, welches der Pi ist, führe einen Versuch und Irrtum durch.
 
-## Schritt 7: SSH in den Pi
+### Schritt 7: SSH in den Pi
 
 Denke daran, die SD-Karte in den Pi einzulegen, bevor du ihn einschaltest. Warte ein paar Minuten und öffne dann auf einem anderen Linux/Mac das Terminal.
 

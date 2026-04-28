@@ -1,5 +1,6 @@
 ---
-term: SPANNMÅL
+term: Seed
+definition: 512-bitars information som gör det möjligt att generera alla nycklar för en HD Bitcoin-plånbok.
 ---
 
 I det specifika sammanhanget med en hierarkisk deterministisk Bitcoin-portfölj är en seed en 512-bitars informationsbit som härrör från en slumpmässig händelse. Den används för att deterministiskt och hierarkiskt generate en uppsättning privata nycklar, och deras motsvarande offentliga nycklar, för en Bitcoin-portfölj. seed förväxlas ofta med själva återställningsfrasen. Men det är inte samma sak. seed erhålls genom att tillämpa funktionen `PBKDF2` på Mnemonic-frasen och alla passphrase.

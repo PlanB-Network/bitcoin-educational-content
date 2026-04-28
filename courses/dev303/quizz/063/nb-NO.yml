@@ -1,0 +1,8 @@
+question: Når en makro bruker mønsteret `$($x:expr),*` i sin definisjon, hva gjør dette mønsteret?
+answer: Den matcher null eller flere uttrykk atskilt med komma, noe som muliggjør argumentlister med variabel lengde
+wrong_answers:
+  - Den matcher nøyaktig ett uttrykk og gjentar makroutvidelsen flere ganger
+  - Den matcher et hvilket som helst antall typedefinisjoner atskilt med semikolon for generering av kode
+  - Den oppretter en løkke som kjører makroen under kjøring med forskjellige uttrykksverdier
+explanation: |
+  Mønsteret `$($x:expr),*` bruker Rusts makrorepetisjonssyntaks, der `*` betyr "null eller flere", `$x:expr` fanger opp hvert uttrykk, og kommaet angir skilletegnet mellom uttrykkene. Dette gjør det mulig for makroer som `vec!` å akseptere et hvilket som helst antall argumenter: `vec![1, 2, 3]` eller `vec![]`. De andre alternativene er feil fordi: Mønsteret håndterer flere uttrykk, ikke bare ett, det matcher spesifikt uttrykk, ikke typedefinisjoner, og bruker komma, ikke semikolon, og makroer kjøres på kompileringstidspunktet under kodegenerering, ikke på kjøretidspunktet.

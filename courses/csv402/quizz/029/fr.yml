@@ -1,5 +1,5 @@
 question: Quel est le rôle principal du Schema dans un contrat RGB ?
-answer: Décrire la logique métier et la structure des données du contrat
+answer: Décrire la logique métier (business logic) et la structure des données du contrat
 wrong_answers:
   - Définir l’interface pour les wallets RGB
   - Gérer la compilation des scripts sur la blockchain

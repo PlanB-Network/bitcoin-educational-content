@@ -1,0 +1,9 @@
+question: Halving thay đổi điều gì trên Bitcoin?
+answer: Trợ cấp khối
+wrong_answers:
+  - Phí giao dịch
+  - Kích thước khối
+  - Mục tiêu độ khó
+explanation: |
+  Halving chia đôi mức trợ cấp tối đa được tạo ra cho mỗi khối mà không ảnh hưởng đến phí.
+reviewed: false

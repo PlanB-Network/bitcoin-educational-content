@@ -1,0 +1,8 @@
+question: Proč kapitola tvrdí, že ekonomické tržní volby jsou v zásadě jednodušší než politické volby jednotlivých občanů?
+answer: Ekonomická rozhodnutí poskytují okamžitou, přímou zpětnou vazbu s měřitelnými osobními důsledky, které lze snadno porovnat a upravit na základě zkušeností
+wrong_answers:
+  - Ekonomická rozhodnutí zahrnují menší množství peněz a zdrojů než obrovské rozpočty spojené s politickými rozhodnutími
+  - Ekonomická rozhodnutí činí jednotlivci se specializovanými znalostmi, zatímco politická rozhodnutí vyžadují porozumění složitému ústavnímu právu
+  - Ekonomické volby jsou regulovány tržními mechanismy, zatímco politické volby fungují v nestrukturovaném prostředí bez jasných pravidel
+explanation: |
+  Text zdůrazňuje, že ekonomické volby jsou jednodušší, protože nabízejí okamžitou zpětnou vazbu, přímé osobní důsledky a možnost porovnávat výsledky a upravovat chování na základě zkušeností. Občané mohou hodnotit produkty, které znají, a chápou jejich přímý dopad na sebe. Naproti tomu politická rozhodnutí jsou rozložena v čase, mají kolektivní důsledky, které je obtížné vysledovat, mohou poškodit neviditelné lidi a zahrnují složité programy, které je obtížné pochopit v jejich celistvosti. Ostatní možnosti zkreslují argumentaci tím, že se zaměřují na peníze, odborné znalosti nebo regulaci, a nikoli na zásadní rozdíl v mechanismech zpětné vazby a viditelnosti důsledků.

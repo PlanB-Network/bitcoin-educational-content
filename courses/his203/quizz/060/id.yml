@@ -1,0 +1,10 @@
+question: Inovasi teknis SatoshiDICE mana yang memungkinkan pemain untuk memeriksa bahwa kasino tidak curang?
+answer: Publikasi hash rahasia pada blockchain, diikuti dengan publikasi rahasia tersebut untuk memungkinkan penghitungan ulang hasil
+wrong_answers:
+  - Penyebaran blockchain validasi terdesentralisasi di mana setiap transaksi diverifikasi oleh beberapa node independen
+  - Penggunaan alamat tetap pada blockchain, sehingga memungkinkan untuk mengaudit pengundian, sehingga memastikan keadilannya
+  - Eksekusi perhitungan probabilitas secara langsung pada blockchain melalui kontrak publik otonom
+explanation: |
+ SatoshiDICE sangat revolusioner karena "pasti adil". Setiap pengundian yang terkait dengan probabilitas bergantung pada generated rahasia di awal hari, yang
+ hash yang dipublikasikan di blockchain. Rahasia itu sendiri terungkap beberapa hari kemudian, memungkinkan pengguna untuk menghitung ulang hasilnya sendiri.
+reviewed: true

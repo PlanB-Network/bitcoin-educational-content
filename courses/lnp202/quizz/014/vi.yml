@@ -1,0 +1,9 @@
+question: Aqua và Bull Bitcoin Wallet có những đặc điểm chung nào?
+answer: Giao dịch hoán đổi nguyên tử chớp nhoáng
+wrong_answers:
+  - Kênh Lightning gốc
+  - Giám hộ tập trung
+  - Nút Lightning tích hợp
+explanation: |
+  Các thiết bị wallet này sử dụng giao dịch hoán đổi nguyên tử để thanh toán hóa đơn Lightning mà không cần khai thác trực tiếp một nút Lightning trên điện thoại của bạn và vẫn duy trì quyền kiểm soát tài sản nội bộ.
+reviewed: false

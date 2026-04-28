@@ -1,0 +1,9 @@
+question: โซลูชันสำหรับการเข้ารหัสข้อมูลบนระบบปฏิบัติการต่างๆ มีอะไรบ้าง?
+answer: BitLocker สำหรับ Windows, LUKS สำหรับ Linux, และตัวเลือกในตัวสำหรับ Mac.
+wrong_answers:
+  - BitLocker สำหรับ Linux, LUKS สำหรับ Mac, และตัวเลือกในตัวสำหรับ Windows.
+  - BitLocker สำหรับ Mac, LUKS สำหรับ Windows, และตัวเลือกในตัวสำหรับ Linux.
+  - LUKS สำหรับทุกระบบปฏิบัติการ
+explanation: |
+  ระบบปฏิบัติการที่แตกต่างกันมีวิธีการเข้ารหัสข้อมูลที่หลากหลาย BitLocker สำหรับ Windows, LUKS สำหรับ Linux, และ Mac มีตัวเลือกการเข้ารหัสข้อมูลในตัว
+reviewed: true

@@ -1,0 +1,9 @@
+question: 比特币区块头中的 Merkle 根有什么作用？
+answer: 承诺区块中的所有交易
+wrong_answers:
+  - 计算区块的算力证明
+  - 标记区块的版本
+  - 了解区块的难度
+explanation: |
+  Merkle 根汇总了所有交易；如果其中一笔交易发生变化，根也会随之变化。
+reviewed: false

@@ -1,6 +1,7 @@
 ---
-term: BITCOIN POOLED MINING (BPM)
+term: Bitcoin pooled mining (BPM)
 
+definition: Metoda výpočtu odměn v poolech, která oceňuje shares podle času uplynulého v cyklu.
 ---
 Další název pro "metodu založenou na skóre" pro výpočet odměn horníků v rámci těžebních poolů. Jedná se o metodu poměrné odměny, ale vážené podle času, kdy byl podíl předložen. BPM oceňuje podíly na základě doby, která uplynula od začátku těžebního cyklu. Čím později je podíl v cyklu předložen, tím vyšší je jeho hodnota. Tato metoda motivuje těžaře, aby zůstali, protože pokaždé, když přestanou těžit, jejich skóre stagnuje, zatímco skóre ostatních se zvyšuje rychleji.
 

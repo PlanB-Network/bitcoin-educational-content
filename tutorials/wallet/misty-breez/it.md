@@ -37,7 +37,7 @@ Per ora, iniziamo la nostra avventura con la Misty Breez Wallet.
 
 
 
-L'applicazione mobile di Misty Breez è disponibile sulle piattaforme di download ufficiali come Google Play Store (su Android) e Apple Store (su iOS). È anche possibile essere reindirizzati all'app giusta dal sito ufficiale [Misty Breez] (https://breez.technology/misty/).
+L'applicazione mobile di Misty Breez è disponibile sulle piattaforme di download ufficiali come Google Play Store (su Android) e Apple Store (su iOS). È anche possibile essere reindirizzati all'app giusta dal sito ufficiale [Misty Breez](https://breez.technology/misty/).
 
 
 

@@ -1,0 +1,9 @@
+question: Je, kuna hatari gani ya kifedha kwa kutumia Lightning wallet iliyo chini ya ulinzi?
+answer: Akiba ya sehemu
+wrong_answers:
+  - Ongezeko la kiholela la ada za mining
+  - Shambulio la 51%
+  - Kusimamishwa kabisa kwa soko la kubeba
+explanation: |
+  Mtumiaji hawezi kuthibitisha kwamba salio linaloonyeshwa linalingana na bitcoin zilizoshikiliwa. Kwa hivyo kuna hatari ya akiba ya sehemu.
+reviewed: false

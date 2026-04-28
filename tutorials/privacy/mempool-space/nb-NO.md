@@ -52,7 +52,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-Som nevnt ovenfor er [Mempool.space] (https://Mempool.space) en Bitcoin-protokollutforsker som lar deg overvåke transaksjonene dine og spredningen av dem i det valgte Bitcoin-nettverket i sanntid, fra en grafisk Interface.
+Som nevnt ovenfor er [Mempool.space](https://Mempool.space) en Bitcoin-protokollutforsker som lar deg overvåke transaksjonene dine og spredningen av dem i det valgte Bitcoin-nettverket i sanntid, fra en grafisk Interface.
 
 
 
@@ -212,7 +212,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår] (https://planb.academy/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
+Hvis alle disse begrepene virker litt for tekniske, anbefaler jeg at du [konsulterer ordlisten vår](https://planb.academy/resources/glossary), som inneholder definisjoner av alle faguttrykk knyttet til Bitcoin og økosystemet.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: BTCPay Sunucusu - Umbrel
+name: BTCPay Server - Umbrel
 description: Bitcoin ve Lightning kabul etmek için Umbrel'de BTCPay Sunucusunun kurulması ve kullanılması
 ---
 

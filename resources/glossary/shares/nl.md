@@ -1,5 +1,6 @@
 ---
-term: AANDELEN
+term: Shares
+definition: Indicator die de bijdrage van een individuele miner binnen een miningpool kwantificeert.
 ---
 
 In de context van Mining-pools is een aandeel een indicator die wordt gebruikt om de bijdrage van een individuele Miner binnen de pool te kwantificeren. Deze maat dient als basis voor de berekening van de beloning die de pool aan elke Miner herverdeelt. Elk aandeel komt overeen met een Hash die voldoet aan een moeilijkheidsdoel dat lager is dan dat van het Bitcoin netwerk.
@@ -16,7 +17,7 @@ Voor elke berekende Hash kan een individuele Miner in een pool drie verschillend
 - Als de Hash lager is dan de moeilijkheidsdoelstelling van het Bitcoin netwerk, wordt het beschouwd als zowel een geldig aandeel als een geldig blok. De Miner zendt deze Hash naar hun pool, die zich haast om het uit te zenden op het Bitcoin netwerk. Deze Hash wordt ook geteld als een geldige share voor de Miner: `share > bloc > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Dit deelsysteem wordt gebruikt om het werk te schatten dat door elke individuele Miner binnen een pool is gedaan, zonder dat alle hashes die door een Miner zijn gegenereerd individueel opnieuw berekend moeten worden, wat volledig inefficiënt zou zijn voor de pool.
@@ -25,4 +26,3 @@ Dit deelsysteem wordt gebruikt om het werk te schatten dat door elke individuele
 Mining pools passen de moeilijkheidsgraad van de aandelen aan om de verificatielast in balans te brengen en zorgen ervoor dat elke Miner, klein of groot, ongeveer elke paar seconden aandelen indient. Dit maakt een nauwkeurige berekening van de Hashrate van elke Miner mogelijk en de verdeling van beloningen volgens de gekozen berekeningsmethode voor compensatie (PPS, PPLNS, TIDES...).
 
 
-> ► *In het Frans kan "shares" vertaald worden als "deel".*

@@ -57,7 +57,7 @@ Son bölüm, gerçek hayattaki kullanım durumlarını vurgulamak için RGB taba
 
 
 ---
-Bu eğitim kursu aslında [Fulgur'Ventures] (https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
+Bu eğitim kursu aslında [Fulgur'Ventures](https://fulgur.ventures/) tarafından Viareggio, Toskana'da düzenlenen iki haftalık bir ileri geliştirme eğitim kampından doğmuştur. Rust ve SDK'lara odaklanan ilk hafta, bu diğer kursta bulunabilir:
 
 
 https://planb.academy/courses/9fbd8b57-f278-4304-8d88-a2d384eaff58
@@ -93,7 +93,7 @@ Bu eğitim kursunun yazılı versiyonu 2 ana kaynak kullanılarak hazırlanmış
 
 
 - Maxim Orlovsky, Hunter Trujilo ve Frederico Tenga'nın Lightning Bootcamp'teki seminerinin videoları;
-- Üretimi [Bitfinex] (https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
+- Üretimi [Bitfinex](https://www.bitfinex.com/) tarafından desteklenen RGB dokümantasyonu.
 
 
 RGB'nin karmaşık ve büyüleyici dünyasına dalmaya hazır mısınız? Hadi başlayalım!
@@ -114,7 +114,7 @@ RGB'nin karmaşık ve büyüleyici dünyasına dalmaya hazır mısınız? Hadi b
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB, Bitcoin Blockchain'ın mutabakat kurallarına ve işlemlerine dayalı olarak dijital hakları (sözleşmeler ve varlıklar şeklinde) ölçeklenebilir ve gizli bir şekilde uygulamak ve yürürlüğe koymak için tasarlanmış bir protokoldür. Bu ilk bölümün amacı, RGB protokolü etrafındaki temel kavramları ve terminolojiyi sunmak ve özellikle Client-side Validation ve Tek Kullanımlık Mühürler gibi temel dağıtılmış bilgi işlem kavramlarıyla olan yakın bağlantılarını vurgulamaktır.
+RGB, Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain)'ın [mutabakat kurallarına](https://planb.academy/resources/glossary/consensus-rules) ve işlemlerine dayalı olarak dijital hakları (sözleşmeler ve varlıklar şeklinde) ölçeklenebilir ve gizli bir şekilde uygulamak ve yürürlüğe koymak için tasarlanmış bir protokoldür. Bu ilk bölümün amacı, RGB protokolü etrafındaki temel kavramları ve terminolojiyi sunmak ve özellikle Client-side Validation ve Tek Kullanımlık Mühürler gibi temel dağıtılmış bilgi işlem kavramlarıyla olan yakın bağlantılarını vurgulamaktır.
 
 
 Bu bölümde, **dağıtık mutabakat sistemlerinin** temellerini inceleyeceğiz ve RGB'ün bu teknoloji ailesine nasıl uyduğunu göreceğiz. Ayrıca, RGB'ün neden Bitcoin'ün kendi mutabakat mekanizmasından bağımsız ve genişletilebilir olmayı amaçladığını anlamamıza yardımcı olan ana ilkeleri de tanıtacağız.
@@ -123,14 +123,14 @@ Bu bölümde, **dağıtık mutabakat sistemlerinin** temellerini inceleyeceğiz 
 ### Giriş
 
 
-Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümlerden oluşan bir ağ üzerinde bilgi dolaşımı ve işlenmesi için kullanılan protokolleri inceler. Bu düğümler ve protokol kuralları birlikte dağıtılmış sistem olarak bilinen şeyi oluşturur. Böyle bir sistemi karakterize eden temel özellikler arasında bazıları şunlardır:
+Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, [düğümlerden](https://planb.academy/resources/glossary/node) oluşan bir ağ üzerinde bilgi dolaşımı ve işlenmesi için kullanılan protokolleri inceler. Bu düğümler ve protokol kuralları birlikte dağıtılmış sistem olarak bilinen şeyi oluşturur. Böyle bir sistemi karakterize eden temel özellikler arasında bazıları şunlardır:
 
 
 
 
 - Belirli verilerin her bir düğüm tarafından bağımsız olarak doğrulanması ve onaylanması **yeteneği**;
 - Düğümlerin (protokole bağlı olarak) bilginin tam veya kısmi bir görünümünü oluşturma olasılığı. Bu görünümler dağıtılmış sistemin **durumlarıdır**;
-- Verilerin güvenilir bir şekilde zaman damgalı olması ve olayların sırası (durumların sırası) konusunda bir fikir birliği olması için işlemlerin **kronolojik sırası**.
+- Verilerin güvenilir bir şekilde [zaman damgalı](https://planb.academy/resources/glossary/timestamp) olması ve olayların sırası (durumların sırası) konusunda bir fikir birliği olması için işlemlerin **kronolojik sırası**.
 
 
 Özellikle, dağıtık bir sistemde **uzlaşma** kavramı iki yönü kapsar:
@@ -139,16 +139,16 @@ Bilgisayar biliminin belirli bir dalı olan dağıtık bilgi işlem, düğümler
 
 
 - Durum değişikliklerinin geçerliliğinin **tanınması** (protokol kurallarına göre);
-- Bu durum değişikliklerinin sırası üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "çift harcama koruması" olarak da bilinir).
+- Bu durum değişikliklerinin sırası üzerinde anlaşmaya varılması, onaylanmış işlemlerin a posteriori olarak yeniden yazılmasını veya tersine çevrilmesini imkansız hale getirir (bu, Bitcoin'te "[çift harcama koruması](https://planb.academy/resources/glossary/double-spending-attack)" olarak da bilinir).
 
 
-Dağıtılmış bir mutabakat mekanizmasının ilk işlevsel, izinsiz uygulaması Satoshi Nakamoto tarafından Bitcoin ile tanıtıldı, Blockchain veri yapısı ve Proof-of-Work (PoW) algoritmasının birlikte kullanımı sayesinde. Bu sistemde, blok geçmişinin güvenilirliği, düğümler (madenciler) tarafından buna ayrılan hesaplama gücüne bağlıdır. Bu nedenle Bitcoin, herkese açık (*izinsiz*) dağıtılmış bir mutabakat sisteminin önemli ve tarihi bir örneğidir.
+Dağıtılmış bir mutabakat mekanizmasının ilk işlevsel, izinsiz uygulaması Satoshi Nakamoto tarafından Bitcoin ile tanıtıldı, Blockchain veri yapısı ve [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritmasının birlikte kullanımı sayesinde. Bu sistemde, blok geçmişinin güvenilirliği, düğümler ([madenciler](https://planb.academy/resources/glossary/miner)) tarafından buna ayrılan hesaplama gücüne bağlıdır. Bu nedenle Bitcoin, herkese açık (*izinsiz*) dağıtılmış bir mutabakat sisteminin önemli ve tarihi bir örneğidir.
 
 
-Blockchain ve dağıtık bilgi işlem dünyasında iki temel paradigmayı ayırt edebiliriz: *geleneksel anlamda **Blockchain*** ve üretimdeki en iyi örneği Lightning Network olan ***devlet kanalları***. Blockchain, açık, izinsiz bir ağ içinde fikir birliği ile çoğaltılan, kronolojik olarak sıralanmış olayların bir kaydı olarak tanımlanır. Öte yandan durum kanalları, iki (veya daha fazla) katılımcının güncellenmiş bir off-chain durumunu sürdürmesini sağlayan ve Blockchain'i yalnızca bu kanalları açarken ve kapatırken kullanan eşler arası kanallardır.
+Blockchain ve dağıtık bilgi işlem dünyasında iki temel paradigmayı ayırt edebiliriz: *geleneksel anlamda **Blockchain*** ve üretimdeki en iyi örneği [Lightning Network](https://planb.academy/resources/glossary/lightning-network) olan ***devlet kanalları***. Blockchain, açık, izinsiz bir ağ içinde fikir birliği ile çoğaltılan, kronolojik olarak sıralanmış olayların bir kaydı olarak tanımlanır. Öte yandan durum kanalları, iki (veya daha fazla) katılımcının güncellenmiş bir off-chain durumunu sürdürmesini sağlayan ve Blockchain'i yalnızca bu kanalları açarken ve kapatırken kullanan eşler arası kanallardır.
 
 
-Bitcoin bağlamında, Mining'un ilkelerine, Blockchain'daki işlemlerin ademi merkeziyetçiliğine ve kesinliğine ve ayrıca ödeme kanallarının nasıl çalıştığına şüphesiz aşinasınız. RGB ile, Blockchain veya Lightning'den farklı olarak, bir Smart contract'in durum geçişlerini yerel olarak (istemci tarafında) depolamayı ve doğrulamayı içeren **Client-side Validation** adlı yeni bir paradigma sunuyoruz. Bu aynı zamanda diğer "DeFi" tekniklerinden (_rollups_, _plasma_, _ARK_, vb.) farklıdır; burada Client-side Validation, Double-spending'ü önlemek ve bir zaman damgalama sistemine sahip olmak için Blockchain'ya güvenirken, off-chain durumlarının ve geçişlerinin kaydını yalnızca ilgili katılımcılarla tutar.
+Bitcoin bağlamında, Mining'un ilkelerine, Blockchain'daki işlemlerin ademi merkeziyetçiliğine ve kesinliğine ve ayrıca [ödeme kanallarının](https://planb.academy/resources/glossary/payment-channel) nasıl çalıştığına şüphesiz aşinasınız. RGB ile, Blockchain veya Lightning'den farklı olarak, bir [Smart contract](https://planb.academy/resources/glossary/smart-contract)'in durum geçişlerini yerel olarak (istemci tarafında) depolamayı ve doğrulamayı içeren **Client-side Validation** adlı yeni bir paradigma sunuyoruz. Bu aynı zamanda diğer "DeFi" tekniklerinden (_rollups_, _plasma_, _ARK_, vb.) farklıdır; burada Client-side Validation, Double-spending'ü önlemek ve bir zaman damgalama sistemine sahip olmak için Blockchain'ya güvenirken, off-chain durumlarının ve geçişlerinin kaydını yalnızca ilgili katılımcılarla tutar.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (bu durumda Bitcoin) öncelikle bir _zaman damgalama_ mekanizması ve
 Parçalama, dağıtık veritabanlarında (örneğin Facebook veya Twitter gibi sosyal ağlar için MySQL) ortaya çıkan bir kavramdır. Veri hacmi ve senkronizasyon gecikmeleri sorununu çözmek için veritabanı _shards_ (ABD, Avrupa, Asya, vb.) olarak bölümlere ayrılır. Her bölüm yerel olarak tutarlıdır ve diğerleriyle yalnızca kısmen senkronize edilir.
 
 
-RGB tipi akıllı sözleşmeler için, sözleşmelerin kendilerine göre Shard. Her Contract bağımsız bir _shard_'dır. Örneğin, yalnızca USDT token'larına sahipseniz, USDC gibi başka bir token'nin tüm geçmişini saklamanız veya doğrulamanız gerekmez. Bitcoin'te, Blockchain _sharding_ yapmaz: global bir UTXO setiniz vardır. Client-side Validation ile her katılımcı yalnızca elinde tuttuğu veya kullandığı Contract verilerini saklar.
+RGB tipi akıllı sözleşmeler için, sözleşmelerin kendilerine göre Shard. Her Contract bağımsız bir _shard_'dır. Örneğin, yalnızca USDT token'larına sahipseniz, USDC gibi başka bir token'nin tüm geçmişini saklamanız veya doğrulamanız gerekmez. Bitcoin'te, Blockchain _sharding_ yapmaz: global bir [UTXO](https://planb.academy/resources/glossary/utxo) setiniz vardır. Client-side Validation ile her katılımcı yalnızca elinde tuttuğu veya kullandığı Contract verilerini saklar.
 
 
 Bu nedenle ekosistemi aşağıdaki gibi hayal edebiliriz:
@@ -334,7 +334,7 @@ Client-side Validation tam tersi bir fikre dayanmaktadır: tüm ağın tüm işl
 Aynı zamanda, ağın geri kalanının (veya daha doğrusu, Bitcoin gibi temel Layer'in) bu verilerin ayrıntılarını görmeden son duruma kilitlenebilmesi için Client-side Validation, ***Commitment*** kavramına dayanır.
 
 
-Bir *Commitment*, bir Bitcoin işlemine eklenen ve bu verileri ifşa etmeden özel verilerin dahil edildiğini kanıtlayan kriptografik bir Commitment, tipik olarak bir _hash_ (örneğin SHA-256).
+Bir *Commitment*, bir Bitcoin işlemine eklenen ve bu verileri ifşa etmeden özel verilerin dahil edildiğini kanıtlayan kriptografik bir Commitment, tipik olarak bir _hash_ (örneğin [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 Bu taahhütler sayesinde kanıtlayabiliriz:
@@ -620,13 +620,13 @@ Bir sonraki adım, bu Single-Use Seal mekanizmasının Bitcoin'te (UTXO'lar arac
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-Bu bölümde, Bitcoin Blockchain içinde Client-side Validation ve Tek Kullanımlık Mühürlerin uygulanmasına bakacağız. RGB'un bir Bitcoin işleminde bir Seal tanımlamak ve kapatmak için kullandığı **TxO2** şemasına özellikle odaklanarak RGB'un **Commitment Layer** (Layer 1) ana ilkelerini sunacağız. Daha sonra, henüz ayrıntılı olarak ele alınmamış iki önemli noktayı tartışacağız:
+Bu bölümde, Bitcoin Blockchain içinde [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) ve [Tek Kullanımlık Mühürlerin](https://planb.academy/resources/glossary/single-use-seal) uygulanmasına bakacağız. RGB'un bir Bitcoin işleminde bir Seal tanımlamak ve kapatmak için kullandığı **TxO2** şemasına özellikle odaklanarak RGB'un **Commitment Layer** (Layer 1) ana ilkelerini sunacağız. Daha sonra, henüz ayrıntılı olarak ele alınmamış iki önemli noktayı tartışacağız:
 
 
 
 
 - Belirleyici Bitcoin taahhütleri_;
-- Çoklu protokol taahhütleri.
+- [Çoklu protokol taahhütleri](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 Tek bir UTXO'nin ve dolayısıyla tek bir Blockchain'in üzerine birkaç sistemi veya sözleşmeyi yerleştirmemizi sağlayan şey bu kavramların birleşimidir.
@@ -646,7 +646,7 @@ Mantığı anlamak için temel prensibi hatırlayalım: bir _tek kullanımlık m
 
 
 
-- **Açık anahtar veya Address** kullanın
+- **[Açık anahtar](https://planb.academy/resources/glossary/public-key) veya Address** kullanın
 
 
 Belirli bir açık anahtarın veya Address'in _tek kullanımlık mühür_ olduğuna karar verebiliriz. Bu anahtar veya Address bir işlemde On-Chain olarak görünür görünmez, Seal'nın belirli bir mesajla kapatıldığı anlamına gelir.
@@ -654,10 +654,10 @@ Belirli bir açık anahtarın veya Address'in _tek kullanımlık mühür_ olduğ
 
 
 
-- Bir **Bitcoin** işlem çıktısı kullanın
+- Bir **Bitcoin** işlem [çıktısı](https://planb.academy/resources/glossary/output) kullanın
 
 
-Bu, bir _tek kullanımlık mühür_ün kesin bir _çıkış noktası_ (bir txid + çıkış numarası çifti) olarak tanımlandığı anlamına gelir. Bu _çıkış noktası_ harcanır harcanmaz Seal kapatılır.
+Bu, bir _tek kullanımlık mühür_ün kesin bir _[çıkış noktası](https://planb.academy/resources/glossary/outpoint)_ (bir [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + çıkış numarası çifti) olarak tanımlandığı anlamına gelir. Bu _çıkış noktası_ harcanır harcanmaz Seal kapatılır.
 
 
 RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için en az 4 farklı yol belirledik:
@@ -667,7 +667,7 @@ RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için e
 
 - Seal'yi bir genel anahtar aracılığıyla tanımlayın ve bir _output_ içinde kapatın;
 - Seal'ü bir _outpoint_ ile tanımlayın ve bir _output_ ile kapatın;
-- Seal'ü bir genel anahtar değeri üzerinden tanımlayın ve bir _input_ içinde kapatın;
+- Seal'ü bir genel anahtar değeri üzerinden tanımlayın ve bir _[input](https://planb.academy/resources/glossary/input)_ içinde kapatın;
 - Seal'i bir _outpoint_ ile tanımlayın ve bir _input_ ile kapatın.
 
 
@@ -675,7 +675,7 @@ RGB üzerinde çalışırken, bu mühürleri Bitcoin üzerinde uygulamak için e
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -703,7 +703,7 @@ Bir hatırlatma olarak, bir _tek kullanımlık mühür_ tanımlamak için mutlak
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Seal'yi kapatmak istediği gün (bir olayı işaret etmek veya belirli bir mesajı Anchor'ya göndermek için), bu UTXO'i yeni bir işlemde harcar (bu işlem genellikle "_witness transaction_" olarak adlandırılır (_segwit_ ile ilgisi yoktur, sadece bizim verdiğimiz terimdir). Bu yeni işlem, mesajın _commitment_'ını içerecektir.
+Seal'yi kapatmak istediği gün (bir olayı işaret etmek veya belirli bir mesajı Anchor'ya göndermek için), bu UTXO'i yeni bir işlemde harcar (bu işlem genellikle "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" olarak adlandırılır (_segwit_ ile ilgisi yoktur, sadece bizim verdiğimiz terimdir). Bu yeni işlem, mesajın _commitment_'ını içerecektir.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -912,13 +912,13 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin] (https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
+Son seçenek ise *Tapret* şeması ile **Taproot** (BIP341 ile tanıtılmıştır) kullanımıdır. *Tapret*, Blockchain üzerinde kapladığı alan ve Contract işlemleri için gizlilik açısından iyileştirmeler getiren deterministik Commitment'ün daha karmaşık bir şeklidir. Ana fikir, Commitment'ü bir [Taproot işleminin](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki) `Script Path Spend` kısmında gizlemektir.
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
 
-Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş] (https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
+Commitment'in bir Taproot işlemine nasıl eklendiğini açıklamadan önce, Commitment'in **imperatif olarak** aşağıdaki gibi 64 baytlık bir dizeye [oluşturulmuş](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) karşılık gelmesi gereken **tam biçimine** bakalım:
 
 
 ```txt
@@ -1214,7 +1214,7 @@ burada `kofaktör` her bir Contract için farklı pozisyonlar elde etme olasıl�
 - Tüm sözleşmeleri çarpışma olmadan konumlandıramazsak, `d` değerini artırır ve yeniden başlarız.
 
 
-Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu] (https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
+Amaç, çarpışma riskini minimumda tutarken çok uzun ağaçlardan kaçınmaktır. Çarpışma olgusunun [Yıldönümü Paradoksu](https://en.wikipedia.org/wiki/Birthday_problem) ile bağlantılı rastgele bir dağılım mantığı izlediğini unutmayın.
 
 
 #### Yerleşik yapraklar
@@ -4425,7 +4425,7 @@ Bu Invoice'dan transfer etmek için:
 
 
 
-- Bob (tokenları Stash'ında tutan) bir Bitcoin Wallet'a sahiptir. Gerekli RGB tokenlarının bulunduğu UTXO'ları ve para birimi (Exchange) için bir UTXO harcayan bir Bitcoin işlemi (PSBT şeklinde, örneğin `tx.PSBT`) hazırlaması gerekir;
+- Bob (tokenleri kendi stash’inde tutan) bir Bitcoin cüzdanına sahiptir. Gerekli RGB tokenlerinin bulunduğu UTXO’ları harcayan ve ayrıca para üstü (change) için bir UTXO içeren bir Bitcoin işlemi (PSBT biçiminde, örn. `tx.psbt`) hazırlaması gerekir;
 - Bob aşağıdaki komutu yürütür:
 
 
@@ -4752,7 +4752,7 @@ Günümüzde RGB, kavramsal sağlamlığı ve LNP/BP ilişkisi aracılığıyla 
 ### Bitmask çözümü: RGB için bir Wallet
 
 
-RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask] (https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
+RGB'in yeteneklerinden pratikte yararlanmak için **DIBA** projesi [Bitmask](https://bitmask.app/) adlı bir Wallet tasarlamıştır. Buradaki fikir, bir web uygulaması veya tarayıcı uzantısı olarak erişilebilen, gözetim altında olmayan, Taproot tabanlı bir araç sağlamaktır. Bitmask hem RGB20 hem de RGB21 varlıklarını yönetir ve çeşitli güvenlik mekanizmalarını entegre eder:
 
 
 
@@ -4959,7 +4959,7 @@ Daha fazla bilgi edinmek veya katkıda bulunmak isteyenler için, aşağıdakile
 
 
 - [GitHub RGB Araçlar depoları](https://github.com/RGB-Tools);
-- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi] (https://iriswallet.com/).
+- gW-2341'i Android'de test etmek için [Iris Wallet'e adanmış bir bilgi sitesi](https://iriswallet.com/).
 
 
 Bir sonraki bölümde, bir RGB Lightning düğümünün nasıl başlatılacağına daha yakından bakacağız.
@@ -4980,7 +4980,7 @@ Bu son bölümde Frederico Tenga, Regtest ortamında bir Lightning RGB düğüm�
 Bu video, bir önceki bölümde anlattıklarımıza benzer bir eğitim niteliğindedir, ancak bu sefer özellikle Lightning'e odaklanmıştır!
 
 
-Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node] (https://github.com/RGB-Tools/RGB-lightning-node).
+Bu video için ana kaynak, bu yapılandırmayı Regtest'te başlatmanızı kolaylaştıran Github deposudur [RGB Lightning Node](https://github.com/RGB-Tools/RGB-lightning-node).
 
 
 ### RGB uyumlu bir Lightning düğümü dağıtma

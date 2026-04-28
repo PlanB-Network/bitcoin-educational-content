@@ -1,0 +1,9 @@
+question: การดำเนินการตามสัญญา RGB ใดที่สร้างสถานะใหม่โดยไม่ปิดผนึก?
+answer: State Extension
+wrong_answers:
+  - State Transition
+  - Genesis
+  - Valency Activation
+explanation: |
+  State Extension ช่วยให้คุณสร้างสถานะหรือสิทธิ์ใหม่ (Valencies) โดยไม่ต้องปิดผนึกทันที
+reviewed: false

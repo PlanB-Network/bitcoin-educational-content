@@ -35,7 +35,7 @@ En este curso, me complace presentar la filosofía de Baruch de Spinoza (1632-16
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/es/001.webp)
 
 
 Retrato de Spinoza
@@ -70,7 +70,7 @@ En primer lugar, les presentaré a Spinoza, su carácter, su entorno social, rel
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/es/002.webp)
 
 
 Retrato de Spinoza
@@ -93,7 +93,7 @@ También vamos a echar un vistazo a las dos obras principales de Spinoza, empeza
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/es/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Luego veremos el Traité théologico-Politique, publicado durante su vida, en 16
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/es/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Gracias a la teoría de los afectos desarrollada a la manera de los geómetras, 
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/es/005.webp)
 
 
 
@@ -149,7 +149,7 @@ De confesión judía, miembro de la comunidad sefardí portuguesa descendiente d
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/es/006.webp)
 
 
 
@@ -157,7 +157,6 @@ De hecho, desde muy joven mostró un espíritu fuertemente crítico hacia la rel
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Heredero, como sus contemporáneos Descartes (1596-1650), Pascal (1632-1662) y N
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/es/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Y es este enfoque el que vincula a Spinoza con la filosofía de la Ilustración,
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/es/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/es/009.webp)
 
 
 
@@ -208,7 +207,7 @@ La riqueza, sin embargo, no está ligada a los recursos naturales, a la explotac
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/es/010.webp)
 
 
 
@@ -255,7 +254,6 @@ En este capítulo, propongo que nos centremos ahora en la principal obra de Spin
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ La Ética es una obra escrita en latín a la manera de los geómetras, probablem
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/es/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Me gustaría señalar que al abrir la Ética, se recomienda empezar por los post
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/es/012.webp)
 
 
 
@@ -311,7 +309,7 @@ En primer lugar, si para Spinoza el azar no existe, es porque se trata de un aco
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/es/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Según Gilles Deleuze (1925-1995), célebre profesor de filosofía y especialist
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/es/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Se trata del Traité théologico-politique, o TTP, publicado anónimamente en 16
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/es/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Como hemos visto, el concepto de Dios de Spinoza es el tema de toda la primera p
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/es/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Así es como Spinoza nos muestra que Dios, en su opinión, no es un ser antropom
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/es/017.webp)
 
 
 
@@ -427,7 +425,7 @@ El tristemente célebre terremoto de Lisboa del 1 de noviembre de 1755 supuso un
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/es/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Drama que reaviva la cuestión planteada por el filósofo y matemático alemán 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/es/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Mucho más allá de condenar la mano de Dios, Jean-Jacques Rousseau (1712-1778) 
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/es/020.webp)
 
 
 
@@ -492,10 +490,9 @@ Del mismo modo que Nicolás Copérnico (1473-1543) estableció que la Tierra no 
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/es/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Antes de él, la filosofía griega clásica proponía una visión ordenada y jer
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/es/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Pero con la nueva física de Copérnico (1473-1543) en el siglo XV, la cosmolog�
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/es/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Pero para comprender plenamente el spinozismo, también hay que tener en cuenta 
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/es/024.webp)
 
 
 
@@ -538,7 +534,7 @@ A pesar de los riesgos y las condenas de Giordano Bruno (1548-1600) y Galileo, D
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/es/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Como ya hemos visto, Spinoza (1632-1677) es bien conocido por considerar el libr
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/es/026.webp)
 
 
 
@@ -606,7 +602,7 @@ En la conducta de su vida, al no estar sometido a otra ley que la de su propia v
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/es/027.webp)
 
 
 
@@ -622,7 +618,7 @@ Es la idea del determinismo absoluto, a partir de la cual establece en su Ética
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/es/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Este enfoque de la libertad como capacidad de actuar es la conexión que podemos
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/es/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Por último, cabe señalar que si bien el movimiento libertario del que vamos a 
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/es/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Pero para Spinoza (1632-1677), el hombre no es "un imperio dentro de un imperio"
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/es/031.webp)
 
 
 
@@ -733,7 +728,7 @@ Y por eso nuevas enfermedades como el sida en los años 90 o el covid en 2020 si
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/es/032.webp)
 
 
 
@@ -749,7 +744,7 @@ Y esto es exactamente lo que afirmaba el naturalista francés Jean-Baptiste de L
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/es/033.webp)
 
 
 
@@ -757,11 +752,11 @@ Pero, como dice Spinoza, "el engaño de los hombres no acaba ahí", y entre todo
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/es/034.webp)
 
 
 
-La definición de inflación que dan los economistas keynesianos y los defensores del Estado del bienestar, por ejemplo, también ilustra muy bien esta paradoja. Según ellos, la inflación es un aumento de los precios que, según algunos banqueros centrales, procede o bien de "ninguna parte", o bien de contextos geopolíticos que nadie puede controlar ni prever. Si bien es cierto que un aumento de los precios puede dar lugar a una inflación cíclica -por ejemplo, cuando sube el precio del petróleo, suben también los precios de determinados productos transformados-, las verdaderas causas estructurales de la inflación están relacionadas sobre todo con un aumento del Supply monetario, que a su vez implica una caída del valor del dinero e, ipso facto, una subida mecánica de los precios.
+La definición de [inflación](https://planb.academy/resources/glossary/inflation) que dan los economistas keynesianos y los defensores del Estado del bienestar, por ejemplo, también ilustra muy bien esta paradoja. Según ellos, la inflación es un aumento de los precios que, según algunos banqueros centrales, procede o bien de "ninguna parte", o bien de contextos geopolíticos que nadie puede controlar ni prever. Si bien es cierto que un aumento de los precios puede dar lugar a una inflación cíclica -por ejemplo, cuando sube el precio del petróleo, suben también los precios de determinados productos transformados-, las verdaderas causas estructurales de la inflación están relacionadas sobre todo con un aumento del Supply monetario, que a su vez implica una caída del valor del dinero e, ipso facto, una subida mecánica de los precios.
 
 
 
@@ -773,7 +768,7 @@ Sin embargo, esta interpretación sesgada de la inflación nos lleva a olvidar q
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/es/035.webp)
 
 
 
@@ -809,7 +804,7 @@ En este último capítulo sobre la nueva visión copernicana de las ideas ofreci
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/es/036.webp)
 
 
 
@@ -833,7 +828,7 @@ En otras palabras, un anciano de barba blanca oculto tras una nube, al que se at
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/es/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Pero a pesar de nuestro orgullo de creernos por encima de la Naturaleza y de ima
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/es/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Es decir, "los infames", según Voltaire (1694-1778), para quien la superstició
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/es/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Esto es lo que defendió la Ilustración alemana, inglesa y francesa a partir de
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/es/040.webp)
 
 
 
@@ -885,7 +880,7 @@ Y esto es lo que Spinoza vuelve a demostrar en su Tratado teológico-político, 
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/es/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Los filósofos antiguos creían que el mal no existía en la naturaleza y Sócra
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/es/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Pero la tradición escolástica, en particular la de San Agustín (354-430), que
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/es/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Por supuesto, como puedes imaginar, esta idea es hecha trizas por Spinoza, quien
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/es/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Por eso, el spinozista Gilles Deleuze (1925-1995) explica que la ética es una e
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/es/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Desarrolla su sistema en la tercera parte de la Ética. Es la famosa "teoría de
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/es/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Es lo que dice Spinoza en su Ética, cuando se sorprende de que "la gente a menu
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/es/047.webp)
 
 
 
@@ -1069,11 +1064,11 @@ En otras palabras, si odiamos a un extranjero, es porque asociamos a este extran
 
 
 
-Esto es especialmente cierto, por cierto, en el ámbito de las criptomonedas.
+Esto es especialmente cierto, por cierto, en el ámbito de las [criptomonedas](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/es/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Es el ejemplo del rayo. Porque cuando cae un rayo y mata a inocentes, los ignora
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/es/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Esta es la genialidad de la Ética. Spinoza nos muestra que es posible pasar de 
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/es/050.webp)
 
 
 
@@ -1151,25 +1146,24 @@ En definitiva, esta lucidez significa dejar de vivir en el nihilismo descrito m�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 En eso precisamente consistió la filosofía racional de la Ilustración, gracias en particular a Immanuel Kant (1724-1804), para quien sólo un individuo instruido, bajo la guía de la razón, puede pensar por sí mismo y determinar, éticamente, lo que es "verdadero" o "bueno" y lo que es tóxico.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/es/051.webp)
 
 
 
 En otras palabras, dice, si pensamos por nosotros mismos, si razonamos como adultos racionales y si, por tanto, nos esforzamos por apegarnos a los vínculos causales entre las cosas, ya no necesitaremos una autoridad moral que nos enseñe, por ejemplo, las verdaderas virtudes de la religión o los verdaderos valores éticos en las esferas política y económica.
 
 
-Es una línea de razonamiento que establece el vínculo con la escuela austriaca de economía liberal, nacida en el fértil ambiente intelectual de Viena antes de la Primera Guerra Mundial. Pues fue en ese contexto donde intelectuales como Carl Menger (1840-1921), Ludwig von Mises (1883-1979) y Friedrich Hayek (1899-1992) sentaron las bases de una nueva escuela de economía liberal, que se convertiría en el fundamento de las convicciones de los futuros cypherpunks. Y de ahí la creación de Bitcoin.
+Es una línea de razonamiento que establece el vínculo con la escuela [austriaca](https://planb.academy/resources/glossary/austrian-school) de economía liberal, nacida en el fértil ambiente intelectual de Viena antes de la Primera Guerra Mundial. Pues fue en ese contexto donde intelectuales como Carl Menger (1840-1921), Ludwig von Mises (1883-1979) y Friedrich Hayek (1899-1992) sentaron las bases de una nueva escuela de economía liberal, que se convertiría en el fundamento de las convicciones de los futuros [cypherpunks](https://planb.academy/resources/glossary/cypherpunks). Y de ahí la creación de Bitcoin.
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/es/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Menger y Mises establecieron, por ejemplo, que todo conocimiento debe construirs
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/es/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Como spinozista, Hayek explica en un vídeo que "puesto que este poder no se pue
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/es/054.webp)
 
 
 
@@ -1206,19 +1200,19 @@ Estos son los argumentos políticos y económicos expuestos por los primeros cyp
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/es/055.webp)
 
 
 
-Especialmente cuando inscribió el titular del Times del 3 de enero de 2009 en la coinbase del bloque Genesis de Blockchain Bitcoin para ilustrar el fin de una era, la keynesiana, y el comienzo de otra con aspiraciones liberales, anarquistas y libertarias.
+Especialmente cuando inscribió el titular del Times del 3 de enero de 2009 en la [coinbase](https://planb.academy/resources/glossary/coinbase-transaction) del [bloque Genesis](https://planb.academy/resources/glossary/genesis-block) de [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin para ilustrar el fin de una era, la keynesiana, y el comienzo de otra con aspiraciones liberales, anarquistas y libertarias.
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/es/056.webp)
 
 
 
-El Libro Blanco publicado el 31 de octubre de 2008 presenta Bitcoin como un medio de intercambio de valor en Internet sin un tercero de confianza, basado en un protocolo descentralizado. Una revolución "copernicana" que permitirá por fin a las personas recuperar su capacidad de acción, es decir, su libertad, su libertad de comercio, su derecho a la propiedad y el respeto de su vida privada.
+El [Libro Blanco](https://planb.academy/resources/glossary/white-paper) publicado el 31 de octubre de 2008 presenta Bitcoin como un medio de intercambio de valor en Internet sin un tercero de confianza, basado en un protocolo descentralizado. Una revolución "copernicana" que permitirá por fin a las personas recuperar su capacidad de acción, es decir, su libertad, su libertad de comercio, su derecho a la propiedad y el respeto de su vida privada.
 
 
 ¿Por qué? Porque Bitcoin nos permite salir de esta servidumbre a la manera de Spinoza, gracias a la razón, gracias al lenguaje matemático de Galileo. Y, como sugiere Hayek, sin que el Estado pueda oponerse. Y pacíficamente, sin coacción ni proselitismo.

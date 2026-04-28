@@ -14,7 +14,7 @@ Mini Miner braiins BMM 100, Mining pool Braiins tarafından yaratılmış bir ü
 
 
 
-Ayrıca, doğrudan [üreticinin sitesi] (https://braiins.com/hardware/mini-Miner-bmm-100) adresindeki kılavuzun tamamına göz atarak çok daha önemli bilgiler bulabilirsiniz.
+Ayrıca, doğrudan [üreticinin sitesi](https://braiins.com/hardware/mini-Miner-bmm-100) adresindeki kılavuzun tamamına göz atarak çok daha önemli bilgiler bulabilirsiniz.
 
 
 
@@ -168,7 +168,7 @@ ve sağ tarafta "Çalışanları bağla" yazan mor düğmeye tıklamamız gereki
 
 
 
-Mini Miner'ümüzü havuza bağlamak için ihtiyacımız olan bilgileri içeren pencere geliyor. Burada yapabileceğimiz tek değişiklik Stratum V2'yi seçmek. Stratum v2'nin ne olduğunu öğrenmek için [glossary] (https://planb.academy/en/resources/glossary/stratum-v2) adresindeki bu girdiye bakın.
+Mini Miner'ümüzü havuza bağlamak için ihtiyacımız olan bilgileri içeren pencere geliyor. Burada yapabileceğimiz tek değişiklik Stratum V2'yi seçmek. Stratum v2'nin ne olduğunu öğrenmek için [glossary](https://planb.academy/en/resources/glossary/stratum-v2) adresindeki bu girdiye bakın.
 
 
 

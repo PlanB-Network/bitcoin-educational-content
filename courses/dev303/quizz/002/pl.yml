@@ -1,0 +1,8 @@
+question: Co się stanie, gdy zadeklarujesz zmienną w Rust używając 'let x = 5' bez żadnych dodatkowych słów kluczowych?
+answer: Zmienna staje się niezmienna i nie może zostać zmieniona po przypisaniu
+wrong_answers:
+  - Zmienna staje się mutowalna i może być modyfikowana w dowolnym momencie
+  - Zmienna jest automatycznie optymalizowana tylko dla wersji release
+  - Zmienna wymaga jawnej adnotacji typu do pomyślnej kompilacji
+explanation: |
+  W Rust zmienne są domyślnie niezmienne, gdy są zadeklarowane za pomocą "let". Oznacza to, że po przypisaniu wartości do zmiennej, takiej jak "let x = 5", nie można zmienić tej wartości później w programie. Jeśli spróbujesz ją zmodyfikować, kompilator wygeneruje błąd. Ta domyślna niezmienność jest kluczową cechą bezpieczeństwa, która zapobiega wielu typowym błędom programistycznym spowodowanym nieoczekiwanymi zmianami stanu. Aby uczynić zmienną mutowalną, należy jawnie użyć słowa kluczowego "mut", na przykład "let mut x = 5".

@@ -127,7 +127,7 @@ Ispod ćete pronaći naš vodič za ovaj wallet hardver:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Za Coldcard, potrebno je da izvezete javne ključeve sa wallet hardvera ili putem USB veze ili microSD kartice.
 

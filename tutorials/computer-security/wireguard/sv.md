@@ -63,7 +63,7 @@ Den officiella webbplatsen för projektet: [wireguard.com](https://www.wireguard
 
 
 
-Innan jag presenterar mitt labb för att konfigurera WireGuard bör du veta att du kan tänka dig att **använda WireGuard för att sammankoppla två fjärrinfrastrukturer**, men också för att **ansluta en fjärrklient till en infrastruktur som ett företagsnätverk eller ditt hemnätverk**. Detta är i samma anda som med OpenVPN, som vi nyligen såg i handledningen "[OpenVPN på Synology] (https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)".
+Innan jag presenterar mitt labb för att konfigurera WireGuard bör du veta att du kan tänka dig att **använda WireGuard för att sammankoppla två fjärrinfrastrukturer**, men också för att **ansluta en fjärrklient till en infrastruktur som ett företagsnätverk eller ditt hemnätverk**. Detta är i samma anda som med OpenVPN, som vi nyligen såg i handledningen "[OpenVPN på Synology](https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)".
 
 
 
@@ -779,7 +779,7 @@ Ytterligare dokumentation:
 
 
 - [Man - Command wg](https://git.zx2c4.com/wireguard-tools/about/src/man/wg.8)
-- [Man - Kommando wg-quick] (https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html)
+- [Man - Kommando wg-quick](https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html)
 
 
 

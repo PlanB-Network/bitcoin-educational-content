@@ -1,0 +1,9 @@
+question: Czym jest pole nbits w nagłówku bloku?
+answer: Zakodowanym celem trudności
+wrong_answers:
+  - Rozmiarem bloku в bajtach
+  - Liczbą transakcji w bloku
+  - Znacznikiem czasu bloku
+explanation: |
+  Pole nbits koduje aktywny cel trudności.
+reviewed: false

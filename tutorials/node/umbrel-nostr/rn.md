@@ -137,7 +137,7 @@ Kuri iyi paji, ushireko URL y'umurongo wawe wa Umbrel wakopeye mbere. Ushobora k
 
 
 
-**Ihuza:** noStrudel iraguha uburyo bwinshi bwo guhuza. Mu gihe cacu, tuzohitamwo "Urufunguzo rw'ibanga" maze dushiremwo urufunguzo rwawe rw'ibanga rwa Nostr rwakozwe mbere. Niba utararonka urufunguzo, urashobora gushiramwo urufunguzo rwa [Nostr Connect] (https://chromewebstore.google.com/details/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) kugira ngo ureme kandi/canke ubike urufunguzo rwawe rwa Nostr maze gutyo ntumenyeshe n'ibindi bikoresho vya Nostr.
+**Ihuza:** noStrudel iraguha uburyo bwinshi bwo guhuza. Mu gihe cacu, tuzohitamwo "Urufunguzo rw'ibanga" maze dushiremwo urufunguzo rwawe rw'ibanga rwa Nostr rwakozwe mbere. Niba utararonka urufunguzo, urashobora gushiramwo urufunguzo rwa [Nostr Connect](https://chromewebstore.google.com/details/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) kugira ngo ureme kandi/canke ubike urufunguzo rwawe rwa Nostr maze gutyo ntumenyeshe n'ibindi bikoresho vya Nostr.
 
 
 

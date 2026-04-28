@@ -1,0 +1,9 @@
+question: Mikä on Milton Friedmanin näkökulman mukaan ensisijainen ongelma siinä, että sosiaalipolitiikkaa arvioidaan sen julkilausuttujen tavoitteiden eikä sen todellisten tulosten perusteella?
+answer: Hyvää tarkoittavat politiikat aiheuttavat usein tahattomia seurauksia, jotka ovat ristiriidassa niiden alkuperäisten tavoitteiden kanssa, kuten riippuvuuden syntyminen tai markkinoiden vääristyminen
+wrong_answers:
+  - Poliitikot vääristelevät tarkoituksellisesti todellisia aikomuksiaan piilottaakseen todellisen asialistansa yleisöltä ja välttääkseen vastuuvelvollisuuden
+  - Hyvät aikomukset ovat luonnostaan virheellisiä, koska ne heijastavat pikemminkin henkilökohtaisia ennakkoluuloja kuin sosiaalisten ongelmien objektiivista tieteellistä analyysia
+  - Asetetut tavoitteet ovat yleensä liian kunnianhimoisia ja epärealistisia, jotta niitä voitaisiin saavuttaa valtion rajallisten budjettien ja resurssien puitteissa
+explanation: |
+  Friedmanin kritiikissä keskitytään aikeiden ja tulosten väliseen kuiluun, ei tavoitteiden vilpittömyyteen tai toteutettavuuteen. Hän väittää, että politiikka, joka on suunniteltu
+  auttamiseen tähtäävää politiikkaa epäonnistuu usein, koska ihmisten kannustimia ja taloudellisia mekanismeja ei ymmärretä riittävästi. Kysymys ei ole epärehellisyydestä, puolueellisuudesta tai budjettirajoituksista vaan siitä, että hyvät aikomukset eivät takaa hyviä tuloksia. Siksi hän kannattaa rakenteellisia määritelmiä, joissa tarkastellaan, miten järjestelmät todellisuudessa toimivat, eikä niinkään sitä, mitä niillä väitetään saavutettavan.

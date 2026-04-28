@@ -1,0 +1,8 @@
+question: Apa pertukaran privasi yang paling signifikan yang diperkenalkan saat bermigrasi dari implementasi LDK yang dikelola sendiri ke arsitektur berbasis cloud Breez SDK?
+answer: Greenlight mendapatkan potensi visibilitas ke tujuan pembayaran dan aktivitas pembuatan faktur melalui perutean berbasis cloud
+wrong_answers:
+  - "Kunci pribadi disimpan di server Blockstream, bukan secara lokal di perangkat pengguna"
+  - Informasi status saluran menjadi terlihat secara publik pada grafik Lightning Network melalui node Greenlight
+  - Layanan LSP sekarang dapat memantau semua transaksi on-chain dan menghubungkannya dengan pola pembayaran Lightning
+explanation: |
+  Jawaban yang benar mengidentifikasi degradasi privasi utama: perutean berbasis cloud memungkinkan Greenlight berpotensi mengamati tujuan pembayaran, sementara pembuatan faktur cloud memperluas eksposur informasi di luar apa yang diungkapkan oleh arsitektur LSP tradisional. Jawaban yang salah tidak benar karena: kunci privat tetap berada di bawah kendali pengguna meskipun ada arsitektur cloud; status saluran tidak terlihat secara publik melalui perutean; dan LSP tidak mendapatkan kemampuan pemantauan transaksi on-chain tambahan melalui perubahan arsitektur ini.

@@ -1,0 +1,9 @@
+question: ควรเปิดใช้งานโปรโตคอลประเภทใดเพื่อเข้ารหัสคำขอ DNS ในระดับเครือข่ายท้องถิ่น?
+answer: DoH
+wrong_answers:
+  - FTP
+  - SMBv1
+  - UPnP
+explanation: |
+  DoH (DNS over HTTPS) และ DoT (DNS over TLS) เข้ารหัสคำขอ DNS ป้องกันไม่ให้ถูกดักฟัง
+reviewed: false

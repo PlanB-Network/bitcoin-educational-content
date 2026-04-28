@@ -1,5 +1,5 @@
 ---
-name: 玉石 - Electrum
+name: Jade - Electrum
 description: 如何使用带有 Electrum 的 Jade 或 Jade Plus（台式机）
 ---
 

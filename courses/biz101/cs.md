@@ -32,8 +32,6 @@ Ať už zastupujete malý podnik nebo velkou korporaci, cílem tohoto kurzu je v
 
 Připraveni ponořit se do světa Bitcoinu pro podniky? Jdeme na to!
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
-
 # Měna, platební systémy a Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -64,20 +62,20 @@ Dobrá měna má několik základních vlastností, které ji činí efektivní 
 
 
 - **Zabezpečeno**: Měna musí být chráněna proti krádeži nebo neoprávněnému přístupu, aby ji uživatelé mohli bez obav držet a převádět. Bezpečnost je rozhodující pro budování důvěry v systém.
-- **Odolnost proti padělání**: Měnu musí být velmi obtížné nebo nemožné padělat. Tím je zajištěno, že každá jednotka je pravá, zachovává si svou hodnotu a zabraňuje inflaci způsobené vstupem falešných jednotek do oběhu. Například zlato bylo historicky ceněno nejen pro svou krásu a vzácnost, ale také proto, že je extrémně obtížné ho vyrobit. Na rozdíl od papírových bankovek nebo digitálních záznamů nelze zlato jen tak "vyrobit" - musí se vytěžit ze země. Tento přirozený nedostatek a obtížnost výroby pomohly zlatu udržet si status důvěryhodného uchovatele hodnoty a měřítka pravosti.
+- **Odolnost proti padělání**: Měnu musí být velmi obtížné nebo nemožné padělat. Tím je zajištěno, že každá jednotka je pravá, zachovává si svou hodnotu a zabraňuje [inflaci](https://planb.academy/resources/glossary/inflation) způsobené vstupem falešných jednotek do oběhu. Například zlato bylo historicky ceněno nejen pro svou krásu a vzácnost, ale také proto, že je extrémně obtížné ho vyrobit. Na rozdíl od papírových bankovek nebo digitálních záznamů nelze zlato jen tak "vyrobit" - musí se vytěžit ze země. Tento přirozený nedostatek a obtížnost výroby pomohly zlatu udržet si status důvěryhodného uchovatele hodnoty a měřítka pravosti.
 - **Vzácné**: Dobrá měna musí mít omezenou nabídku nebo kontrolovanou emisi. Nedostatek zajišťuje zachování její hodnoty v čase a zabraňuje nadprodukci, která by snižovala kupní sílu. Například některé indiánské kmeny používaly jako platidlo korálky. Zpočátku se tyto korálky těžko vyráběly, což udržovalo jejich vzácnost a hodnotu. Jakmile však evropští obchodníci začali korálky masově vyrábět a zaplavili jimi trh, jejich vzácnost se vytratila. S rostoucí nabídkou ztratily korálky svou kupní sílu, což oslabilo jejich roli spolehlivého uchovatele hodnoty.
 - **Bez povolení**: V minulosti byly zlaté a stříbrné mince často raženy soukromými osobami, místními úřady nebo obchodníky, kteří měli přístup k surovinám. Tento systém někdy fungoval na základě dohod nebo licencí udělovaných králi nebo panovníky. Postupem času králové a vlády tento proces centralizovali, aby získali větší kontrolu nad ekonomickou stabilitou, zdaněním a měnovým systémem. Jedním ze známých příkladů je **thaler**, stříbrná mince, která byla poprvé vyražena v roce 1518 v **Joachimsthalském údolí** (dnešní Jáchymov v České republice) místními horníky a úřady. Název "tolar" pochází z německého slova **"Thal"**, což znamená "údolí". Tyto mince, známé svou vysokou kvalitou stříbra, se dostaly do širokého oběhu po celé Evropě. Postupem času se tento termín jazykově a geograficky vyvíjel a nakonec dal vzniknout názvu "dolar", který
 
 V moderní době se měny staly plně povolenými v rámci systému seigniorage, což znamená, že mince razit nebo bankovky tisknout mohly pouze oprávněné subjekty - například centrální banky nebo státní pokladny. Jednotlivcům již není zákonem dovoleno vyrábět měnu, což zajišťuje centralizovanou kontrolu nad její emisí a nabídkou.
 
-Princip seigniorage dnes zpochybňuje kryptoměna Bitcoin, která funguje bez centralizované kontroly. Bitcoin je systém "bez povolení", kdy se každý může podílet na používání měny, aniž by žádal o povolení, a prostřednictvím těžby i na jejím vytváření. Tato decentralizace zbavuje vlády emisního monopolu a vyvolává otázky ohledně možného návratu k volnotržním konkurenčním měnovým systémům.
+Princip seigniorage dnes zpochybňuje [kryptoměna](https://planb.academy/resources/glossary/cryptocurrency) Bitcoin, která funguje bez centralizované kontroly. Bitcoin je systém "bez povolení", kdy se každý může podílet na používání měny, aniž by žádal o povolení, a prostřednictvím [těžby](https://planb.academy/resources/glossary/mining) i na jejím vytváření. Tato decentralizace zbavuje vlády emisního monopolu a vyvolává otázky ohledně možného návratu k volnotržním konkurenčním měnovým systémům.
 
 
 - **Účetní jednotka**: Měna by měla poskytovat standardní měřítko pro porovnávání hodnoty zboží a služeb. To zjednodušuje obchodování a umožňuje transparentní a konzistentní stanovení cen při různých transakcích.
 - **Odolnost**: Měna musí být odolná vůči opotřebení v průběhu času. Fyzické měny, jako jsou mince nebo bankovky, by měly odolat poškození, zatímco digitální měny musí zůstat bezpečně uloženy bez rizika ztráty dat.
 - **Přenosné**: Měna musí být snadno přenosná a použitelná, aby umožňovala obchodování na velké vzdálenosti. Toho lze dosáhnout fyzickou přenosností (lehké mince nebo bankovky) nebo digitálními přenosovými systémy.
 - **Dělitelné**: Měna by měla být dělitelná na menší jednotky, aby se usnadnily různě velké transakce. Tato flexibilita zajišťuje, že je praktická jak pro malé nákupy, tak pro obchodování ve velkém měřítku.
-- **Fungible**: Všechny jednotky měny musí být vzájemně zaměnitelné a mít stejnou hodnotu. Například jedna dolarová bankovka musí být rovnocenná jakékoli jiné dolarové bankovce. Tato jednotnost zajišťuje spravedlnost a jednoduchost transakcí.
+- **Fungible**: Všechny jednotky měny musí být [vzájemně zaměnitelné](https://planb.academy/resources/glossary/fungibility) a mít stejnou hodnotu. Například jedna dolarová bankovka musí být rovnocenná jakékoli jiné dolarové bankovce. Tato jednotnost zajišťuje spravedlnost a jednoduchost transakcí.
 - **Rozpoznatelné**: Měna musí být snadno identifikovatelná a důvěryhodná. Fyzické měny toho dosahují díky jedinečnému designu a bezpečnostním prvkům, zatímco digitální měny se mohou spoléhat na ověřovací protokoly. To zajišťuje jejich široké přijetí a snižuje riziko podvodů.
 
 Díky těmto vlastnostem je měna praktická, spolehlivá a účinná pro usnadnění obchodu a uchovávání hodnoty v ekonomice.
@@ -100,9 +98,9 @@ Tyto moderní měnové sítě s sebou nesly významnou nevýhodu: **nedostatek k
 
 **Od centralizované k decentralizované měně: Zvyšování důvěry a suverenity**
 
-Vznik decentralizované měny Bitcoin dnes představuje další skok v měnových sítích. Tradiční elektronické peníze se při správě a ověřování transakcí spoléhají na centralizované orgány, jako jsou banky nebo vlády. Tyto systémy jsou sice efektivní, ale jsou náchylné k neefektivitě, cenzuře a selhání jednoho bodu. Decentralizované měny tyto vlastnosti sítě vylepšují **distribucí důvěry a odstraněním zprostředkovatelů**. Znamená to také, že peníze se mohou pohybovat mnohem **rychleji** a **levněji**, protože odpadají autorizační kroky. A konečně žádný člověk nemůže být v pokušení měnit plán dodávek měny Bitcoin, to je vynuceno softwarem.
+Vznik decentralizované měny Bitcoin dnes představuje další skok v měnových sítích. Tradiční elektronické peníze se při správě a ověřování transakcí spoléhají na centralizované orgány, jako jsou banky nebo vlády. Tyto systémy jsou sice efektivní, ale jsou náchylné k neefektivitě, cenzuře a [selhání jednoho bodu](https://planb.academy/resources/glossary/spof). Decentralizované měny tyto vlastnosti sítě vylepšují **[distribucí](https://planb.academy/resources/glossary/distributed) důvěry a odstraněním zprostředkovatelů**. Znamená to také, že peníze se mohou pohybovat mnohem **rychleji** a **levněji**, protože odpadají autorizační kroky. A konečně žádný člověk nemůže být v pokušení měnit [plán dodávek](https://planb.academy/resources/glossary/limite-demission) měny Bitcoin, to je vynuceno softwarem.
 
-V decentralizovaných systémech jsou transakce ověřovány globální sítí účastníků pomocí technologie blockchain, což zajišťuje bezpečnost, transparentnost a odolnost. Tato struktura minimalizuje riziko podvodu, snižuje závislost na centrálních orgánech a dává jednotlivcům větší kontrolu nad jejich financemi. Díky odstranění geografických a institucionálních bariér nabízejí decentralizované měny skutečně globální a inkluzivní peněžní systém.
+V decentralizovaných systémech jsou transakce ověřovány globální sítí účastníků pomocí technologie [blockchain](https://planb.academy/resources/glossary/blockchain), což zajišťuje bezpečnost, transparentnost a odolnost. Tato struktura minimalizuje riziko podvodu, snižuje závislost na centrálních orgánech a dává jednotlivcům větší kontrolu nad jejich financemi. Díky odstranění geografických a institucionálních bariér nabízejí decentralizované měny skutečně globální a inkluzivní peněžní systém.
 
 **Vývoj měnových sítí**
 
@@ -188,35 +186,35 @@ Stejně jako jsme přešli od placení za minutu hlasových hovorů k téměř b
 
 **CO JE BITCOIN?**
 
-Bitcoin je **systém výměny digitální měny mezi partnery** (elektronické peníze). Termín "bitcoin" označuje následující komponenty:
+Bitcoin je **systém výměny digitální měny [mezi partnery](https://planb.academy/resources/glossary/peertopeer-p2p)** (elektronické peníze). Termín "bitcoin" označuje následující komponenty:
 
 
-- **Počítačový protokol**, který usnadňuje výměnu hodnot na internetu bez prostředníků, bez nutnosti povolení a pseudonymně. Využívá pokročilé kryptografické principy.
-- **Fyzická síť** strojů připojených k internetu (uzlů, těžařů atd.) provozovaná jednotlivci a podniky, která tvoří decentralizovaný systém (bez centrální autority nebo jediného kontrolního bodu).
-- **Účetní jednotka** v rámci systému. Nikdy nebude existovat více než 21 milionů bitcoinů. Každý bitcoin je dělitelný na 100 milionů jednotek zvaných "satoši", pojmenovaných na počest svého anonymního tvůrce.
+- **Počítačový protokol**, který usnadňuje výměnu hodnot na internetu bez prostředníků, bez nutnosti povolení a pseudonymně. Využívá pokročilé [kryptografické](https://planb.academy/resources/glossary/cryptography) principy.
+- **Fyzická síť** strojů připojených k internetu ([uzlů](https://planb.academy/resources/glossary/node), [těžařů](https://planb.academy/resources/glossary/miner) atd.) provozovaná jednotlivci a podniky, která tvoří decentralizovaný systém (bez centrální autority nebo jediného kontrolního bodu).
+- **Účetní jednotka** v rámci systému. Nikdy nebude existovat více než 21 milionů bitcoinů. Každý bitcoin je dělitelný na 100 milionů jednotek zvaných "[satoši](https://planb.academy/resources/glossary/satoshi-sat)", pojmenovaných na počest svého anonymního tvůrce.
 
-Společně tvoří z bitcoinu **nosičové aktivum** a digitální měnu **bez emitenta**. Vlastnictví je zajištěno výhradně držením **privátního kryptografického klíče**, který poskytuje plnou kontrolu **bez zprostředkovatelů nebo důvěryhodných třetích stran**. Při převodu je **finalita vlastnictví** okamžitá: nový držitel ji plně vlastní, aniž by se spoléhal na ochranu nebo směnitelnost centrálním orgánem. Transakce jsou **nezměnitelné** - jakmile jsou zaznamenány v blockchainu, nelze je změnit ani smazat.
+Společně tvoří z bitcoinu **nosičové aktivum** a digitální měnu **bez emitenta**. Vlastnictví je zajištěno výhradně držením **[privátního kryptografického klíče](https://planb.academy/resources/glossary/private-key)**, který poskytuje plnou kontrolu **bez zprostředkovatelů nebo důvěryhodných třetích stran**. Při převodu je **finalita vlastnictví** okamžitá: nový držitel ji plně vlastní, aniž by se spoléhal na ochranu nebo směnitelnost centrálním orgánem. [Transakce](https://planb.academy/resources/glossary/transaction-tx) jsou **nezměnitelné** - jakmile jsou zaznamenány v blockchainu, nelze je změnit ani smazat.
 
 ![BIZ101](assets/cs/003.webp)
 
-Bitcoin má pevně stanovenou měnovou politiku s **kapacitou 21 milionů bitcoinů**, z nichž již bylo distribuováno ~19,8 milionu. Díky tomu je **deflační** a jeho hodnota v průběhu času roste, protože uživatelé do něj ukládají úspory a přírůstky produktivity.
+Bitcoin má pevnou měnovou politiku s **maximem 21 milionů bitcoinů**, z nichž ~19,8 (2024) milionu již bylo vytěženo. Díky temu je **deflační**, přičemž jeho hodnota v průběhu času roste, jak do něj uživatelé ukládají úspory a zisky z produktivity.
 
 Svými technickými vlastnostmi překonává zlato a dolar dohromady, což z něj činí nejtvrdší finanční aktivum, jaké kdy bylo vytvořeno. Bitcoin je uchovatelem hodnoty i prostředkem směny, měnou ve stádiu vzniku. Představte si, že převádíte hodnotu z pokladny jedné společnosti do pokladny druhé rychle, bez prostředníků, s minimálními náklady, bez podvodů, 24 hodin denně, 7 dní v týdnu a bez účasti třetí strany.
 
 ![BIZ101](assets/cs/004.webp)
 
-Bitcoin efektivně uchovává hodnotu, protože jeho účetní kniha je odolná proti manipulaci. Jeho hodnota roste díky vzácné a omezené nabídce v kombinaci s rostoucím počtem příležitostí ke směně, což je dáno rostoucím počtem uživatelů.
+Bitcoin efektivně uchovává hodnotu, protože jeho [účetní kniha](https://planb.academy/resources/glossary/ledger) je odolná proti manipulaci. Jeho hodnota roste díky vzácné a omezené nabídce v kombinaci s rostoucím počtem příležitostí ke směně, což je dáno rostoucím počtem uživatelů.
 
 Bitcoin je převratný, protože nás vybízí k tomu, abychom se učili pojmy z matematiky, kryptografie, ekonomie a historie, které jsme se nikdy neučili. Ačkoli je často vnímán jako složitý, ve skutečnosti je to inovace přístupná prostřednictvím praxe a experimentování.
 
 Bitcoin nás vyzývá, abychom přehodnotili povahu samotných peněz. Mohl byste vysvětlit, co peníze skutečně jsou? Zaměstnanec nebo podnikatel může strávit 50 000 až 100 000 hodin svého života vyděláváním peněz, ale kolik z nich **věnuje třeba jen 100 hodin jejich lepšímu pochopení** a uchování? Bitcoin nás vybízí k tomu, abychom se ptali na základní důvody naší potřeby peněz a na naši časovou perspektivu. Slouží peníze k okamžitému luxusu, nebo k dlouhodobé odolnosti? Kdybychom měli zhodnocující se aktivum, které by nám umožnilo odložit nákupy, jaká rozhodnutí bychom učinili? Jaké rozhovory bychom si přáli vést sami se sebou za 20 nebo 30 let?
 
-**BITCOINOVÝ PRŮKAZ TOTOŽNOSTI**
+**IDENTIFIKAČNÍ KARTA BITCOINU (v roce 2024)**
 
 
 - **Věk:** 15 let (3. ledna 2009)
 - **Denní směnná hodnota:** 10 miliard USD (> CAC40)
-- **Tržní kapitalizace:** 1,8 bilionu dolarů (> Meta, Visa, Silver; < Apple, Google, Gold)
+- **[Tržní kapitalizace](https://planb.academy/resources/glossary/market-cap-capitalization):** 1,8 bilionu dolarů (> Meta, Visa, Silver; < Apple, Google, Gold)
 - **Uživatelé:** ~100 až 200 milionů (1-2 % světové populace)
 - **Volatilita:** Vnitřně žádná (1 bitcoin = 1 bitcoin), navenek velmi vysoká (na burzách fiat měn)
 - **Výkonnost:** První transakce za 0,0009 USD; nyní 100 000 USD (x100 milionů)
@@ -226,14 +224,14 @@ Bitcoin nás vyzývá, abychom přehodnotili povahu samotných peněz. Mohl byst
 **Zázrak lidské spolupráce:**
 
 
-- Zcela **open-source**
+- Zcela **[open-source](https://planb.academy/resources/glossary/foss)**
 - **Právní subjekt:** žádný
 - **Generální ředitel:** Žádný
 - **Investice rizikového kapitálu:** žádné
 - **Marketing:** Žádný
 - **Výzkum a vývoj:** řízený dobrovolníky
 - **Správa:** Uživatelé
-- **Inovativní ekonomický model:** Vytváření bloků je dotováno transakčními poplatky (na základě aukce)
+- **Inovativní ekonomický model:** Vytváření bloků je [dotováno](https://planb.academy/resources/glossary/block-subsidy) [transakčními poplatky](https://planb.academy/resources/glossary/transaction-fees) (na základě aukce)
 
 Pro více informací o Bitcoinu, jeho historii, fungování a použití doporučuji sledovat tento další komplexní kurz:
 
@@ -245,18 +243,18 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **CO JE BLESK?**
 
-Lightning Network je **protokol a síť**, která usnadňuje transakce s bitcoiny s minimální interakcí s hlavním blockchainem bitcoinu. Funguje takto:
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) je **protokol a síť**, která usnadňuje transakce s bitcoiny s minimální interakcí s hlavním blockchainem bitcoinu. Funguje takto:
 
 
-- **Počáteční nastavení:** Prostředky jsou uzamčeny (escrowed) v hlavním blockchainu, aby se vytvořil platební kanál mezi dvěma stranami.
+- **Počáteční nastavení:** Prostředky jsou uzamčeny (escrowed) v hlavním blockchainu, aby se vytvořil [platební kanál](https://planb.academy/resources/glossary/payment-channel) mezi dvěma stranami.
 - **Platební síť:** Síť platebních kanálů mezi více stranami tvoří platební síť (směrování a propojení).
-- **Transakce mimo řetězec:** Transakce probíhají mezi stranami, ale nejsou **bezprostředně zveřejněny** v hlavním blockchainu bitcoinu (**"mimo řetězec"**).
-- Vypořádání v řetězci: V hlavním blockchainu Bitcoinu (**"on-chain"**) se zveřejňuje pouze **konečný zůstatek** transakcí v kanálu, což umožňuje, aby mezitím proběhlo mnoho transakcí. Toto sdružování více plateb snižuje zahlcení a tím i poplatky ve srovnání s prováděním mnoha transakcí on-chain.
+- **Transakce [mimo řetězec](https://planb.academy/resources/glossary/offchain):** Transakce probíhají mezi stranami, ale nejsou **bezprostředně zveřejněny** v hlavním blockchainu bitcoinu (**"mimo řetězec"**).
+- Vypořádání v řetězci: V hlavním blockchainu Bitcoinu (**"[on-chain](https://planb.academy/resources/glossary/onchain)"**) se zveřejňuje pouze **konečný zůstatek** transakcí v kanálu, což umožňuje, aby mezitím proběhlo mnoho transakcí. Toto sdružování více plateb snižuje zahlcení a tím i poplatky ve srovnání s prováděním mnoha transakcí on-chain.
 - Uzavření kanálu: Uživatel může kdykoli uzavřít svůj kanál a získat zpět své Bitcoiny zveřejněním posledního stavu transakce. Jedná se o princip, kdy jsou transakce **"publikovatelné"** v každém okamžiku, ale **"nepublikované"**, dokud to není nutné. Odchod (uzavření kanálu) může být jednostranný (rozhodne o něm kterákoli ze dvou stran kdykoli) nebo vzájemně dohodnutý (což vede k nižším poplatkům v řetězci)
 
 ![BIZ101](assets/cs/005.webp)
 
-Tento přístup se vyhýbá pomalosti a složitosti provádění každé transakce přímo v hlavním blockchainu Bitcoinu, zaznamenává pouze konečné zůstatky a zachovává jeho bezpečnost. Lightning Network je vrstva "nad" Bitcoinem, ale zůstává s ním ukotvena.
+Tento přístup se vyhýbá pomalosti a složitosti provádění každé transakce přímo v hlavním blockchainu Bitcoinu, zaznamenává pouze konečné zůstatky a zachovává jeho bezpečnost. Lightning Network je [vrstva](https://planb.academy/resources/glossary/layer) "nad" Bitcoinem, ale zůstává s ním ukotvena.
 
 **Globální platební síť**
 
@@ -296,7 +294,7 @@ Síť Lightning Network je díky své rychlosti a konečnosti plateb ideální p
 - **Konečnost:** Jakmile je platba provedena v systému Lightning, je konečná. Neexistuje žádná možnost zpětné platby od třetích stran nebo sporů souvisejících s podvodem.
 - **Poplatky:** Transakční poplatky v síti Lightning Network jsou minimální a platí je uživatel, nikoli obchodník. Obchodníkům vznikají poplatky pouze v případě, že později potřebují převést své bitcoiny do jiné sítě nebo služby.
 
-** BLESKOVÝ PRŮKAZ TOTOŽNOSTI**
+**IDENTIFIKAČNÍ KARTA LIGHTNING (v roce 2024)**
 
 
 - **Vynález:** 2015
@@ -331,7 +329,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ### Zdravá společnost
 
-**Budoucnost je nejistá** a podniky se musí v této nejistotě orientovat na dosažení zisku a zachování kapitálu. Podle rakouské ekonomie jsou **zisky nejlepším signálem zdraví podniku** - ukazují, že podnik efektivně uspokojuje potřeby spotřebitelů. Bez zisku se podnik nemůže udržet, natož růst. Aby podnik zůstal zdravý, musí nejen vytvářet zisky, ale také myslet na budoucnost a **ukládat kapitál pro budoucí investice a výzvy**.
+**Budoucnost je nejistá** a podniky se musí v této nejistotě orientovat na dosažení zisku a zachování kapitálu. Podle [rakouské ekonomie](https://planb.academy/resources/glossary/austrian-school) jsou **zisky nejlepším signálem zdraví podniku** - ukazují, že podnik efektivně uspokojuje potřeby spotřebitelů. Bez zisku se podnik nemůže udržet, natož růst. Aby podnik zůstal zdravý, musí nejen vytvářet zisky, ale také myslet na budoucnost a **ukládat kapitál pro budoucí investice a výzvy**.
 
 **Zachování kapitálu** je velmi důležité, protože umožňuje podnikům přizpůsobit se a využít příležitostí na nepředvídatelném trhu. To zahrnuje nalezení rovnováhy mezi reinvestováním zisků za účelem růstu a udržováním finanční rezervy pro případný pokles. Rakouská ekonomie zdůrazňuje význam **"časové preference "**, což znamená, že podniky se musí pečlivě rozhodnout, nakolik upřednostnit okamžité výnosy před investicemi do dlouhodobého úspěchu. Zdravý podnik si udržuje pevný finanční základ, který zajišťuje flexibilitu v dobrých i špatných časech.
 
@@ -465,7 +463,7 @@ Podívejme se rychle na prostředí, ve kterém podniky působí.
 
 **Skutečná inflace**: Reálná inflace: Centrální banky k velkému zděšení svého mandátu cílí na 2% roční inflaci, což znamená 40% ztrátu hodnoty měny za 20 let. Připočteme-li k tomu období výraznější inflace, je zřejmé, že podniky nemohou k ukládání plodů své práce používat pouze měnu. Musí realizovat komplexní finanční strategie, které nutně provází řada rizik. Tyto strategie jsou samozřejmě **nedostupné pro velmi malé podniky**, které jsou již tak silně vytíženy svou hlavní činností.
 
-**Skrytá inflace**: V měnovém systému založeném na dluhu a částečných rezervách podporovaném centrálními bankami roste **celková peněžní zásoba v průměru o přibližně 7 % ročně** (např. M1 v eurozóně nebo v USA). To znamená, že váš "podíl na koláči" se během několika let sníží na polovinu - pokud nemáte privilegovaný přístup k finančnímu kohoutku a nemůžete pokračovat v růstu pomocí pákového efektu a rychlého nákupu aktiv za "staré ceny", než je nově vytvořené peníze vyženou nahoru. To je Cantillonův efekt, který částečně vysvětluje přesun bohatství k bohatším, zatímco "kapitál" je neprávem obviňován jako viník (viz náš úvod o kapitálu výše).
+**Skrytá inflace**: V měnovém systému založeném na dluhu a [částečných rezervách](https://planb.academy/resources/glossary/fractional-reserves) podporovaném centrálními bankami roste **celková peněžní zásoba v průměru o přibližně 7 % ročně** (např. M1 v eurozóně nebo v USA). To znamená, že váš "podíl na koláči" se během několika let sníží na polovinu - pokud nemáte privilegovaný přístup k finančnímu kohoutku a nemůžete pokračovat v růstu pomocí pákového efektu a rychlého nákupu aktiv za "staré ceny", než je nově vytvořené peníze vyženou nahoru. To je Cantillonův efekt, který částečně vysvětluje přesun bohatství k bohatším, zatímco "kapitál" je neprávem obviňován jako viník (viz náš úvod o kapitálu výše).
 
 **Rizika protistrany**: Současný finanční systém je rizikový a nemusíte mít vždy přístup ke svým penězům Aniž bychom se dovolávali obrazu domečku z karet, je třeba uznat, že finanční instituce při sebemenší krizi privatizují zisky a socializují ztráty. V systému "skripturálních" peněz (peněz evidovaných v účetní knize) jsou peníze v bance pouhou "pohledávkou"; skutečně je nevlastníte a banky samy je "nemají" (frakční rezervy). Tyto peníze jsou svým způsobem skutečně magické. Některé prestižní banky, které se kdysi Bitcoinu vysmívaly, dnes již neexistují, například Credit Suisse.
 
@@ -530,7 +528,7 @@ Rostoucí obliba bitcoinu ve Spojených státech ovlivňuje i myšlení v jinýc
 
 Z čistě finančního hlediska je bitcoin považován za diverzifikační aktivum. Nejenže není korelován s jinými třídami aktiv, ale zdá se, že se mu daří i v obdobích nových injekcí likvidity - další taková epizoda zřejmě začíná se snižováním úrokových sazeb ze strany ECB, Fedu a Číny.
 
-Souhrnně řečeno, pro nejběžnější případ použití - investování přebytečných pokladničních hotovostí po dobu nejméně čtyř let - se bitcoin hodí dokonale. Vyplatí se jej kombinovat se strategií postupného vstupu: investování pevných částek v pravidelných intervalech, aby se vyhladil vstupní nebo výstupní bod.
+Souhrnně řečeno, pro nejběžnější případ použití - investování přebytečných pokladničních hotovostí po dobu nejméně čtyř let - se bitcoin hodí dokonale. Vyplatí se jej kombinovat se [strategií postupného vstupu](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): investování pevných částek v pravidelných intervalech, aby se vyhladil vstupní nebo výstupní bod.
 
 Další případy použití dělají z bitcoinu například strategické pokladní aktivum:
 
@@ -542,7 +540,7 @@ Další případy použití dělají z bitcoinu například strategické pokladn
 
 ### Je Bitcoin příliš drahý ?
 
-Nemusíte si koupit přesně 1 bitcoin, protože bitcoin je dělitelný na dílčí jednotky zvané satoši, pojmenované na počest svého anonymního tvůrce. Jeden bitcoin se rovná **100 milionům satošů**, což uživatelům umožňuje nakupovat, prodávat nebo obchodovat i s **velmi malými zlomky bitcoinu**. Ve zdrojovém kódu bitcoinu jsou ve skutečnosti všechny transakce účtovány v satoších a termín "bitcoin" se objevuje pouze v "coinbase", speciální transakci, kterou těžaři vytvářejí, aby získali svou odměnu.
+Nemusíte si koupit přesně 1 bitcoin, protože bitcoin je dělitelný na dílčí jednotky zvané satoši, pojmenované na počest svého anonymního tvůrce. Jeden bitcoin se rovná **100 milionům satošů**, což uživatelům umožňuje nakupovat, prodávat nebo obchodovat i s **velmi malými zlomky bitcoinu**. Ve zdrojovém kódu bitcoinu jsou ve skutečnosti všechny transakce účtovány v satoších a termín "bitcoin" se objevuje pouze v "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", speciální transakci, kterou těžaři vytvářejí, aby získali svou odměnu.
 
 Navíc celkový počet 21 milionů bitcoinů - neboli **2,1 kvadrilionu satošů** - lze efektivně reprezentovat 64bitovým celým číslem. To znamená, že i přes vysokou cenu za celý bitcoin zůstává díky své dělitelnosti dostupný širokému okruhu investorů. K účasti v síti nebo investici do tohoto digitálního aktiva tedy není třeba kupovat celé bitcoiny.
 
@@ -600,7 +598,7 @@ Chcete-li se dozvědět více o metodách těžby, můžete [nahlédnout do sekc
 
 - **Nákup bitcoinu:**
 
-Jedná se o zdaleka nejběžnější způsob, který se provádí buď prostřednictvím peer-to-peer burz, nebo typičtěji na specializovaných obchodních platformách. Při pořizování bitcoinů jako firemních pokladních aktiv však musí společnosti dodržovat přísné regulační normy a postupy Know-Your-Customer (KYC). Při jeho nákupu na specializovaných obchodních platformách jsou podniky obvykle povinny poskytnout podrobné informace o společnosti, včetně identifikačních dokladů, finančních výkazů a dokladu o adrese, aby splnily požadavky KYC a AML (Anti-Money Laundering).
+Jedná se o zdaleka nejběžnější způsob, který se provádí buď prostřednictvím peer-to-peer burz, nebo typičtěji na specializovaných obchodních platformách. Při pořizování bitcoinů jako firemních pokladních aktiv však musí společnosti dodržovat přísné regulační normy a postupy Know-Your-Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). Při jeho nákupu na specializovaných obchodních platformách jsou podniky obvykle povinny poskytnout podrobné informace o společnosti, včetně identifikačních dokladů, finančních výkazů a dokladu o adrese, aby splnily požadavky KYC a AML (Anti-Money Laundering).
 
 Chcete-li se dozvědět, jak si otevřít firemní účet a používat ho k nákupu, prodeji a převodu bitcoinů, podívejte se na tyto dva návody určené speciálně pro firmy, které se týkají platforem Kraken a Bitfinex v jejich firemních verzích:
 
@@ -642,12 +640,12 @@ Realitní průmysl často opakuje, že "vždy je ten správný čas na nákup", 
 
 Bitcoin fyzicky nevlastníte. Místo toho vlastníte kryptografický klíč, který vám umožňuje převést vlastnictví některých nebo všech vašich účetních jednotek na jeden nebo více jiných kryptografických klíčů. To vše se odehrává v blockchainu Bitcoinu, který je replikován v desítkách tisíc uzlů po celém světě.
 
-Tento kryptografický klíč je extrémně velké náhodné číslo. Pro zjednodušení uživatelského prostředí je často reprezentován jako posloupnost 12 nebo 24 slov. Tato slova lze nahrát do fyzického zařízení známého jako "hardwarová peněženka" Pochopte však, že bitcoiny nejsou "uvnitř" tohoto zařízení; je to pouze nástroj pro kryptografické podepisování transakcí a jejich vysílání do sítě. To, na čem skutečně záleží, je oněch 12 nebo 24 slov, která musí být zabezpečena.
+Tento kryptografický klíč je extrémně velké náhodné číslo. Pro zjednodušení uživatelského prostředí je často reprezentován jako posloupnost 12 nebo 24 slov. Tato slova lze nahrát do fyzického zařízení známého jako "[hardwarová peněženka](https://planb.academy/resources/glossary/hardware-wallet)" Pochopte však, že bitcoiny nejsou "uvnitř" tohoto zařízení; je to pouze nástroj pro kryptografické podepisování transakcí a jejich vysílání do sítě. To, na čem skutečně záleží, je oněch 12 nebo 24 slov, která musí být zabezpečena.
 
 To vede k otázce úschovy: držet bitcoin znamená mít v držení klíč(e). Buď je držíte sami, nebo tímto úkolem pověříte třetí stranu. Existují také mezilehlá řešení. Projděme si nejčastější scénáře:
 
 
-- **Vlastní úschova:**
+- **[Vlastní úschova](https://planb.academy/resources/glossary/selfcustody):**
 
 Tuto možnost doporučují opravdoví nadšenci bitcoinu, protože odpovídá původnímu návrhu bitcoinu. Působíte jako vlastní banka: nehrozí, že by vás podvedla třetí strana, ale jste zodpovědní za zabezpečení klíče (klíčů). Ke svým prostředkům máte plný přístup 24 hodin denně, 7 dní v týdnu. V podnikatelském prostředí, pokud může potřebovat transakce více lidí, budete potřebovat vhodné nástroje a postupy pro správu přístupu a zabezpečení.
 
@@ -663,7 +661,7 @@ Jedná se o tradiční finanční nástroje, které představují zlomky bitcoin
 
 ![BIZ101](assets/cs/014.webp)
 
-Forma, v níž držíte bitcoiny, navíc významně ovlivňuje bezpečnostní opatření potřebná k ochraně vaší firemní pokladny. Ať už se rozhodnete pro vlastní úschovu pomocí hardwarových peněženek s jedním nebo více podpisy atd. a budete si udržovat přímou kontrolu nad klíči, nebo tento úkol svěříte úschovným službám třetích stran nebo ETF, každá možnost s sebou nese vlastní rizikový profil. Například self-custody nabízí plný přístup, ale vyžaduje přísné interní bezpečnostní protokoly, zatímco řešení třetích stran snižují zátěž správy za cenu rizika protistrany. Pro další ilustraci rozdílů je v tomto grafu uveden bezpečnostní model pro každý typ úschovy, který vám pomůže vybrat přístup nejlépe vyhovující potřebám vaší organizace :
+Forma, v níž držíte bitcoiny, navíc významně ovlivňuje bezpečnostní opatření potřebná k ochraně vaší firemní pokladny. Ať už se rozhodnete pro vlastní úschovu pomocí hardwarových peněženek s jedním nebo [více podpisy](https://planb.academy/resources/glossary/multisig) atd. a budete si udržovat přímou kontrolu nad klíči, nebo tento úkol svěříte úschovným službám třetích stran nebo ETF, každá možnost s sebou nese vlastní rizikový profil. Například self-custody nabízí plný přístup, ale vyžaduje přísné interní bezpečnostní protokoly, zatímco řešení třetích stran snižují zátěž správy za cenu rizika protistrany. Pro další ilustraci rozdílů je v tomto grafu uveden bezpečnostní model pro každý typ úschovy, který vám pomůže vybrat přístup nejlépe vyhovující potřebám vaší organizace :
 
 ![BIZ101](assets/cs/015.webp)
 
@@ -837,7 +835,7 @@ V následujících kapitolách se podrobně seznámíme s jednotlivými podnikov
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Profil Starter je určen pro podniky, tvůrce a jednotlivce, kteří chtějí prozkoumat platby bitcoinem, aniž by museli vynaložit značné prostředky nebo odborné znalosti. Obvykle se jedná o ty, kteří zpracovávají velmi malý objem transakcí (možná několik spropitného, darů nebo příležitostných prodejů) a hledají jednoduchý, nenáročný úvod do ekosystému Bitcoinu a Lightning Network. Klíčová hodnota přístupu Starter spočívá v jeho minimálním nastavení: ve většině případů stačí chytrý telefon nebo tablet vybavený základní peněženkou kompatibilní s Lightning.
+Profil Starter je určen pro podniky, tvůrce a jednotlivce, kteří chtějí prozkoumat platby bitcoinem, aniž by museli vynaložit značné prostředky nebo odborné znalosti. Obvykle se jedná o ty, kteří zpracovávají velmi malý objem transakcí (možná několik spropitného, darů nebo příležitostných prodejů) a hledají jednoduchý, nenáročný úvod do ekosystému Bitcoinu a Lightning Network. Klíčová hodnota přístupu Starter spočívá v jeho minimálním nastavení: ve většině případů stačí chytrý telefon nebo tablet vybavený základní [peněženkou](https://planb.academy/resources/glossary/wallet) kompatibilní s Lightning.
 
 ![BIZ101-profiles](assets/cs/017.webp)
 
@@ -847,7 +845,7 @@ Dvě nejčastější nastavení peněženky pro profil Starter zahrnují rozhodo
 
 ![BIZ101-profiles](assets/cs/018.webp)
 
-Ačkoli se obavy o bezpečnost mohou zdát méně naléhavé, pokud jsou transakce malé, je přesto nezbytné zavést základní ochranná opatření. I jediný chytrý telefon nebo tablet používaný k přijímání plateb v bitcoinech by měl být uzamčen heslem nebo biometrickým zabezpečením a zálohovací postupy (od sledování přihlašovacích údajů pro úschovnou peněženku až po zabezpečení počáteční fráze pro neúschovnou peněženku) je třeba brát vážně. Zaměstnancům, kteří zpracovávají transakce ve fyzickém prostředí, by prospělo znát základy: jak otevřít aplikaci, jak předložit QR kód zákazníkovi a jak zkontrolovat, zda platba skutečně dorazila.
+Ačkoli se obavy o bezpečnost mohou zdát méně naléhavé, pokud jsou transakce malé, je přesto nezbytné zavést základní ochranná opatření. I jediný chytrý telefon nebo tablet používaný k přijímání plateb v bitcoinech by měl být uzamčen heslem nebo biometrickým zabezpečením a zálohovací postupy (od sledování přihlašovacích údajů pro úschovnou peněženku až po zabezpečení [počáteční fráze](https://planb.academy/resources/glossary/recovery-phrase) pro neúschovnou peněženku) je třeba brát vážně. Zaměstnancům, kteří zpracovávají transakce ve fyzickém prostředí, by prospělo znát základy: jak otevřít aplikaci, jak předložit QR kód zákazníkovi a jak zkontrolovat, zda platba skutečně dorazila.
 
 Účetnictví a výkaznictví jsou sice v rámci profilu Starter relativně jednoduché, ale přesto je třeba je pečlivě zvážit. Přestože objem transakcí může být minimální, uchovávání přesných záznamů zabraňuje pozdějším zmatkům a pomáhá zachovat transparentnost v případě finančních auditů nebo daňových přiznání. Mnoho aplikací peněženek umožňuje uživatelům exportovat základní historii transakcí jako soubor CSV; pro malý podnik nebo jednoho podnikatele může pravidelné ukládání těchto souborů výrazně usnadnit odsouhlasení účtů. Je také rozumné sledovat přibližnou hodnotu fiatů (například v eurech nebo dolarech) v okamžiku přijetí každé transakce. Vzhledem k tomu, že cena bitcoinu může kolísat, je evidence převodních kurzů neocenitelná pro vedení účetnictví a dodržování daňových předpisů.
 
@@ -967,7 +965,7 @@ V tomto měřítku není hlavním cílem pouze přijímat bitcoiny, ale činit t
 
 V podnikovém kontextu je provozní složitost obzvláště výrazná. Velká korporace může potřebovat více oddělení (prodejní, marketingové, devops, finanční a účetní), z nichž každé má odlišné povinnosti a požadavky na data. V tomto scénáři musí platforma pro platby bitcoiny nabízet vysoce granulární správu rolí, která každému oddělení umožní přístup přesně k funkcím relevantním pro jeho úkoly, a zároveň zachová přísnou kontrolu nad bezpečností a integritou dat. Stejně zásadní je schopnost přizpůsobit pracovní postupy: například příchozí platby mohou spouštět aktualizace v inventárních systémech, posílat automatická oznámení manažerům prodeje a aktualizovat účetní záznamy pro finanční tým, a to vše v reálném čase. Samotná prodejní zařízení jsou běžně přizpůsobena podnikovému prostředí, s vlastními softwarovými rozhraními, která odpovídají značce a provozním potřebám společnosti.
 
-**Zabezpečení** je pro podniky zásadní. Vysoké objemy transakcí a potenciálně velké částky bitcoinů vyžadují robustní infrastrukturu schopnou bránit se proti útokům ze strany záškodníků nebo vnitřním hrozbám. Osvědčené postupy často zahrnují konfigurace s více podpisy a časovými zámky pokladen, pečlivě auditované kódové základny a přísné dodržování příslušných regulačních rámců. Dodržování místních a mezinárodních finančních předpisů může být navíc nedílnou součástí zachování pověsti a licence k činnosti společnosti.
+**Zabezpečení** je pro podniky zásadní. Vysoké objemy transakcí a potenciálně velké částky bitcoinů vyžadují robustní infrastrukturu schopnou bránit se proti útokům ze strany záškodníků nebo vnitřním hrozbám. Osvědčené postupy často zahrnují konfigurace s více podpisy a [časovými zámky](https://planb.academy/resources/glossary/timelock) pokladen, pečlivě auditované kódové základny a přísné dodržování příslušných regulačních rámců. Dodržování místních a mezinárodních finančních předpisů může být navíc nedílnou součástí zachování pověsti a licence k činnosti společnosti.
 
 **Vývoj na zakázku** spojený s vytvořením nebo integrací řešení pro platby bitcoiny na podnikové úrovni přesahuje kódování několika funkcí aplikace. Obvykle vyžaduje návrh architektury, důkladné testovací protokoly a strukturované zavádění, které může zahrnovat několik fází (počáteční pilotní programy, omezené tržní testy a případné globální nasazení).
 

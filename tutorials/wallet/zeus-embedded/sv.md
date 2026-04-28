@@ -38,7 +38,7 @@ Kort sagt, det är **potentiellt** Wallet-mobilen i cypherpunks drömmar. Även 
 
 
 
-Gå till [projektets webbplats] (https://zeusln.com/) för att ladda ner applikationen för din smartphones operativsystem:
+Gå till [projektets webbplats](https://zeusln.com/) för att ladda ner applikationen för din smartphones operativsystem:
 
 
 

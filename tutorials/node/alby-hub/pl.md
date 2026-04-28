@@ -37,7 +37,7 @@ Pierwsza opcja, idealna dla nowicjuszy, to opcja chmury Alby. Pozwala ona wdroż
 Główną zaletą tej opcji jest to, że węzeł Lightning działa 24 godziny na dobę, 7 dni w tygodniu, bez konieczności samodzielnego zarządzania hostingiem. Co więcej, tworzenie kopii zapasowych węzła Lightning jest uproszczone i zautomatyzowane, w porównaniu z opcjami hostowanymi samodzielnie, w których musisz samodzielnie zarządzać kopiami zapasowymi kanałów.
 
 
-Alby Cloud jest usługą płatną [sprawdź cennik] (https://albyhub.com/#pricing), aby uzyskać więcej informacji. Opłata jest automatycznie potrącana z twojego Wallet za pośrednictwem Lightning Invoice wydanego przez Alby. Odbywa się to za pośrednictwem połączenia NWC, które konfiguruje węzeł do automatycznego opłacania faktur Alby związanych z subskrypcją.
+Alby Cloud jest usługą płatną [sprawdź cennik](https://albyhub.com/#pricing), aby uzyskać więcej informacji. Opłata jest automatycznie potrącana z twojego Wallet za pośrednictwem Lightning Invoice wydanego przez Alby. Odbywa się to za pośrednictwem połączenia NWC, które konfiguruje węzeł do automatycznego opłacania faktur Alby związanych z subskrypcją.
 
 
 
@@ -83,7 +83,7 @@ W przypadku instalacji lokalnej na komputerze PC, [pobierz i zainstaluj oprogram
 Pierwszym krokiem jest utworzenie konta Alby. Chociaż nie jest to niezbędne do korzystania z Alby Hub, pozwala w pełni wykorzystać dostępne opcje, w tym możliwość uzyskania Lightning Address.
 
 
-Wejdź na [oficjalną stronę Alby] (https://getalby.com/) i kliknij przycisk "*Create Account*".
+Wejdź na [oficjalną stronę Alby](https://getalby.com/) i kliknij przycisk "*Create Account*".
 
 
 ![ALBY HUB](assets/fr/04.webp)
@@ -250,7 +250,7 @@ W przypadku płatnych użytkowników chmury pełne odzyskanie bitcoinów wymaga 
 Brak którejkolwiek z tych dwóch informacji uniemożliwiłby odzyskanie bitcoinów w całości.
 
 
-Dla tych, którzy korzystają z Alby Hub na własnym urządzeniu, proces odzyskiwania jest udokumentowany [tutaj] (https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
+Dla tych, którzy korzystają z Alby Hub na własnym urządzeniu, proces odzyskiwania jest udokumentowany [tutaj](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account).
 
 
 Jeśli zainstalowałeś Alby Hub na istniejącym węźle, musisz postępować zgodnie z procesem odzyskiwania określonego systemu operacyjnego węzła. Na przykład: Umbrel oferuje [opcję](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) do szyfrowania najnowszego stanu kanałów Lightning i zapisywania go dynamicznie i anonimowo przez Tor. Należy pamiętać, że tylko automatyczne kopie zapasowe z Alby pozwalają całkowicie odzyskać Hub bez zamykania kanałów.
@@ -412,7 +412,7 @@ Aby zainstalować Alby Go, przejdź do sklepu z aplikacjami na swoim urządzeniu
 ![ALBY HUB](assets/fr/44.webp)
 
 
-Użytkownicy Androida mogą również zainstalować aplikację za pomocą pliku `.apk` [dostępnego na GitHubie Alby'ego] (https://github.com/getAlby/go/releases).
+Użytkownicy Androida mogą również zainstalować aplikację za pomocą pliku `.apk` [dostępnego na GitHubie Alby'ego](https://github.com/getAlby/go/releases).
 
 
 ![ALBY HUB](assets/fr/45.webp)

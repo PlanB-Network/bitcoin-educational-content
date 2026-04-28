@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server
+name: BTCPay Server
 description: Godta BTC-betalinger uten mellomledd
 ---
 
@@ -90,7 +90,7 @@ BTCPay Server kan installeres på en rekke forskjellige måter. Avhengig av dine
 
 
 - BTCPay Server hostet av en tredjepart**: du bruker en plattform som hoster tjenesten for deg. Det er enkelt, men vanligvis ikke gratis.
-- BTCPay Server er selvbetjent på en skyserver** (f.eks. via [btcpayprovider] (https://btcpayprovider.com/), [Bitcoin People] (http://bitcoinpeople.it/) eller en annen leverandør). Dette er den anbefalte løsningen for de fleste nybegynnere.
+- BTCPay Server er selvbetjent på en skyserver** (f.eks. via [btcpayprovider](https://btcpayprovider.com/), [Bitcoin People](http://bitcoinpeople.it/) eller en annen leverandør). Dette er den anbefalte løsningen for de fleste nybegynnere.
 - BTCPay Server installert på din egen maskinvare (lokalt)**: på en datamaskin, mini-PC eller Umbrel. Denne metoden er mer teknisk, men gir total uavhengighet.
 
 
@@ -113,7 +113,7 @@ BTCPay Server kan distribueres raskt fra en rekke hostingleverandører. Blant de
 
 
 
-Besøk [det offisielle nettstedet til Voltage] (https://voltage.cloud).
+Besøk [det offisielle nettstedet til Voltage](https://voltage.cloud).
 
 
 

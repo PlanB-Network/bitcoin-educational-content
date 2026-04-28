@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition: BIP를 합의(Consensus), 피어 서비스(Peer Services), API/RPC, 애플리케이션(Applications)의 4개 범주로 분류.
 ---
 
 BIP123은 Bitcoin 개선 제안(BIPs)을 분류하는 표준화된 프로세스를 확립했으며, 이제 BIPs은 4개의 카테고리로 분류해야 합니다:

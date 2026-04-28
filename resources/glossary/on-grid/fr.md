@@ -1,5 +1,6 @@
 ---
-term: ON-GRID
+term: On-grid
+definition: Minage connecté au réseau électrique général pour alimenter les ASICs.
 ---
 
 Désigne une opération de minage de Bitcoin qui est connectée au réseau électrique général. Les mineurs on-grid se branchent sur le réseau électrique classique, utilisé également par les consommateurs résidentiels, pour alimenter leurs ASICs. Cette méthode offre une source d'énergie stable, mais est souvent plus coûteuse comparée au minage off-grid, en raison de marges de négociation plus limitées.

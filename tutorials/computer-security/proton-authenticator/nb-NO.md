@@ -585,7 +585,7 @@ Test oppsettet etter at du har konfigurert det:
 
 
 
-- [Have I Been Pwned] (https://haveibeenpwned.com/) - Sjekk om kontoene dine har blitt kompromittert
+- [Have I Been Pwned](https://haveibeenpwned.com/) - Sjekk om kontoene dine har blitt kompromittert
 - [2FA Directory](https://2fa.directory/) - Liste over tjenester som støtter 2FA
 
 
@@ -606,5 +606,5 @@ Test oppsettet etter at du har konfigurert det:
 
 
 
-- [Have I Been Pwned] (https://haveibeenpwned.com/) - Sjekk om kontoene dine har blitt kompromittert
+- [Have I Been Pwned](https://haveibeenpwned.com/) - Sjekk om kontoene dine har blitt kompromittert
 - [2FA Directory](https://2fa.directory/) - Liste over tjenester som støtter 2FA

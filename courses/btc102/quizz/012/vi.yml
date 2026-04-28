@@ -6,4 +6,4 @@ wrong_answers:
   - Tự giữ khóa công khai của bạn
 explanation: |
   Quyền tự lưu giữ đảm bảo rằng người dùng duy trì toàn quyền kiểm soát bitcoin của mình thông qua khóa riêng của họ.
-reviewed: false
+reviewed: true

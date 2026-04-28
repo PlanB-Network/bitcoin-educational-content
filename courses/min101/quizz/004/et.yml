@@ -1,0 +1,9 @@
+question: Milline on Satoshi kokku võetud idee kohaselt ainus viis tagada topeltkulutamise puudumine?
+answer: Teada kõiki tehinguid
+wrong_answers:
+  - Teada kõiki aktiivseid sõlmi
+  - Teada kõiki aktiivseid kaevandajaid
+  - Teada kõiki privaatvõtmeid
+explanation: |
+  Topeltkulutamine tuvastatakse tehingu võrdlemisel ühises registris kirjas olevate varasemate kulutustega.
+reviewed: false

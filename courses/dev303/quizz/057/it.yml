@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale del punto esclamativo (!) che segue il nome di una macro in Rust?
+answer: Serve come indicatore visivo che si sta generando codice a tempo di compilazione piuttosto che una chiamata di funzione a tempo di esecuzione
+wrong_answers:
+  - Indica che la macro andrà in panico se durante l'esecuzione vengono forniti parametri di input non validi
+  - Contrassegna la macro come non sicura e richiede un riconoscimento esplicito dei potenziali problemi di sicurezza della memoria
+  - Specifica che la macro restituisce un tipo di risultato che deve essere gestito con un controllo degli errori
+explanation: |
+  Il punto esclamativo nella sintassi delle macro di Rust è una scelta progettuale deliberata che distingue visivamente le macro dalle funzioni. Quando si vede `println!()` o `vec![]`, il `!` segnala immediatamente l'espansione del codice a tempo di compilazione e non una chiamata di funzione a tempo di esecuzione. Questa distinzione è fondamentale, perché le macro operano in modo fondamentalmente diverso dalle funzioni: esse infatti generano codice generate in fase di compilazione attraverso la corrispondenza dei pattern e l'espansione. Le risposte sbagliate confondono questo aspetto con comportamenti a runtime come il panico, le operazioni non sicure o la gestione degli errori, ma il punto esclamativo indica specificamente la natura di metaprogrammazione a tempo di compilazione delle macro.

@@ -1,8 +1,9 @@
-question: Ni uwuhe munyabwenge yanditse mu kinyamakuru Ephémérides du Citoyen, ikinyamakuru c’abanyabwenge b’ivy’umubiri?
-answer: Diderote
+question: Ni uwuhe munyabwenge yanditse mu kinyamakuru Ephémérides du Citoyen, ikinyamakuru c’aba Physiocrats?
+answer: Diderot
 wrong_answers:
   - Voltaire
-  - Kondorseti
-  - Rouso
+  - Condorcet
+  - Rousseau
 explanation: |
   Diderot yaratanze umusanzu mu kinyamakuru "Éphémérides du Citoyen", yandika ingingo zijanye n'ubutunzi n'imibano.
+reviewed: true

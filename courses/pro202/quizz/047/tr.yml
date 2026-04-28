@@ -1,0 +1,8 @@
+question: Bitcoin protokolünde verilen herhangi bir h blok yüksekliğinde blok sübvansiyonunu hesaplamak için kullanılan matematiksel formül nedir?
+answer: sübvansiyon = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - sübvansiyon = 50_000_000_000 / (2^(h / 210_000))
+  - sübvansiyon = 5_000_000_000 * (0,5^(h % 210_000))
+  - sübvansiyon = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Doğru formül, 5_000_000_000'in satoshi cinsinden 50 BTC'yi temsil ettiği bit kaydırma işlemlerini kullanır ve sağa kaydırma operatörü >> etkili bir şekilde 2'nin kuvvetlerine böler. h // 210_000 taban bölümü, kaç yarılanma periyodunun gerçekleştiğini belirler. İlk yanlış cevap bit kaydırma yerine normal bölme kullanır ve yanlış bir taban değeriyle başlar. İkincisi, taban bölme yerine modulo kullanır, bu da aşamalı yarılama yerine döngüsel bir model oluşturur. Üçüncüsü, zaman içinde yarılanmaları biriktirmek yerine her 210.000 blokta bir yarılanma sayacını sıfırlayacak olan modulo işlemini kullanır.

@@ -1,4 +1,4 @@
-question: Según Acton, ¿qué papel desempeñó la Iglesia Católica en el surgimiento de la libertad en Europa?
+question: Según Acton, ¿Qué papel desempeñó la Iglesia Católica en el surgimiento de la libertad en Europa?
 answer: Todas las anteriores
 wrong_answers:
   - Promovió la separación de poderes y el equilibrio de fuerzas
@@ -6,4 +6,4 @@ wrong_answers:
   - Fomentó el pensamiento crítico y el cuestionamiento de la autoridad
 explanation: |
   Según Acton, la Iglesia Católica desempeñó un papel crucial en el surgimiento de la libertad en Europa al promover la separación de poderes, defender los derechos individuales y fomentar un espíritu crítico, contribuyendo así a la formación de una sociedad más libre.
-reviewed: false
+reviewed: true

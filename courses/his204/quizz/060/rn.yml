@@ -1,8 +1,9 @@
-question: Ni kuki aba Fiziyokarate, ababuranira umwidegemvyo w’ubutunzi, bagumye ari abakekeranya cane kuri demokarasi?
-answer: Demokarasi ni uguhindura abantu bake mu buja n'abantu benshi .
+question: Ni kuki aba Physiocrats, baburanira umwidegemvyo w’ubutunzi, bagumye ari abakekeranya cane kuri demokarasi?
+answer: Demokarasi ni ugushira benshi mu buja bwa benshi(bake bagakorera benshi) .
 wrong_answers:
   - Ubwami ntibuzimvye cane kuruta demokarasi .
-  - Abafiziyokarate baharura mu nzego zabo abantu benshi bo mu rwego rwo hejuru bo mu ngoro y’Umwami .
-  - Biyumvira ko abantu ari ubujuju cane ku buryo badashobora gufata ingingo zishingiye ku makuru .
+  - Aba Physiocrats baharura mu nzego zabo abantu benshi bo mu rwego rwo hejuru bo mu ngoro y’Umwami .
+  - Biyumvira ko abantu ari ubujuju cane ku buryo badashobora gufata ingingo zo mumuco .
 explanation: |
-  Abafiziyokarate batinya ko demokarasi yotuma haba ububisha bw’abantu benshi, aho inyungu z’abantu bake zizotangwa kugira ngo benshi baronke inyungu. Bahisemwo intwaro imurikiwe, ishobora gufata ingingo zishingiye ku vyiyumviro no kugwanira uburenganzira bwa bose.
+  Aba Physiocrats batinya ko demokarasi yotuma haba ububisha bw’abantu benshi, aho inyungu z’abantu benshi zizoba igitambo kugira inyungu za bake ziboneke. Bahisemwo intwaro imurikiwe, ishobora gufata ingingo zishingiye ku vyiyumviro no kugwanira uburenganzira bwa bose.
+reviewed: true

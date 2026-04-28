@@ -1,0 +1,9 @@
+question: Apa yang harus disambungkan ke node Lightning?
+answer: Simpul Bitcoin
+wrong_answers:
+  - Seorang penambang
+  - Penjelajah blok
+  - Server federasi
+explanation: |
+  Node Lightning bergantung pada node Bitcoin untuk mengakses informasi dari blockchain utama.
+reviewed: false

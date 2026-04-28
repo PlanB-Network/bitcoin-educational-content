@@ -300,7 +300,7 @@ Takže k takovýmto řádkům prostě přidám slovo **contrib**.
 
 
 
-Ostatní kroky jsou uvedeny na stránce [NtopNG] (https://packages.ntop.org/apt/), kde je pro Debian 11 nutné přidat zdrojové kódy Ntop pro budoucí instalaci. Toto přidání je automatizované pomocí souboru:
+Ostatní kroky jsou uvedeny na stránce [NtopNG](https://packages.ntop.org/apt/), kde je pro Debian 11 nutné přidat zdrojové kódy Ntop pro budoucí instalaci. Toto přidání je automatizované pomocí souboru:
 
 
 

@@ -1,0 +1,8 @@
+question: Millist rolli täidab Unified Definition Language (UDL) fail UniFFI tööprotsessis?
+answer: See toimib liidese spetsifikatsioonina, mis kirjeldab, millised Rust raamatukogu osad peaksid olema avatud teistele keeltele
+wrong_answers:
+  - See sisaldab tegelikku Rust rakenduskoodi, mis kompileeritakse sihtkeele sidumisteks
+  - See toimib tööaegse konfiguratsioonifailina, mis haldab mälu jaotamist erinevate keelekeskkondade vahel
+  - See pakub testimisraamistikku genereeritud sidemete õigsuse valideerimiseks mitmel platvormil
+explanation: |
+  UDL-fail on leping või spetsifikatsioon Rust rakenduse ja genereeritud keelekohustuste vahel. See ei sisalda Rust koodi ennast, samuti ei tegele see jooksutusaegsete operatsioonide või testimisega. Selle asemel määratleb see deklaratiivselt, millised Rust raamatukogu funktsioonid, tüübid ja liidesed tuleks teistele keeltele kättesaadavaks teha, täpsustades, kuidas neid tuleks sihtkeele emakeeles kaardistada ja esitada.

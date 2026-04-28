@@ -1,0 +1,9 @@
+question: Hvilket statistisk prinsipp forklarer at frekvensen av funne blokker konvergerer mot andelen av hashrate på lang sikt?
+answer: Store talls lov
+wrong_answers:
+  - Bayes' teorem
+  - Bursdagsparadokset
+  - Prinsippet om minste virkning
+explanation: |
+  Konvergensen av resultatene skyldes de store talls lov, ettersom hver hash er et uavhengig forsøk.
+reviewed: false

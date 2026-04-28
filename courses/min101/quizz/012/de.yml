@@ -1,0 +1,9 @@
+question: Wenn das Schwierigkeitsziel sinkt, was passiert mit dem Mining?
+answer: Es wird schwieriger
+wrong_answers:
+  - Es wird einfacher
+  - Es bleibt gleich
+  - Es wird unmöglich
+explanation: |
+  Ein niedrigeres Ziel lässt weniger mögliche Ergebnisse unterhalb des Schwellenwerts zu, sodass mehr Versuche erforderlich sind, um einen gültigen Hash zu finden. Das bedeutet, dass das Mining schwieriger ist.
+reviewed: false

@@ -1,0 +1,8 @@
+question: HashRate คืออะไร?
+answer: จำนวนการคำนวณแฮชที่อุปกรณ์ mining สามารถทำได้ต่อวินาทีเพื่อแก้ไข Proof of Work
+wrong_answers:
+  - ความเร็วที่อุปกรณ์ mining สามารถแก้ปัญหา Proof of Work ได้
+  - จำนวนคนขุดทั้งหมดในเครือข่าย Bitcoin
+  - จำนวนบิตคอยน์ทั้งหมดที่ถูกขุดโดยการทำจำนวนความพยายามต่อวินาทีเพื่อแก้ไข Proof of Work
+explanation: >-
+reviewed: true

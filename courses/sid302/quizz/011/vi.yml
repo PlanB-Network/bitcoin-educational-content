@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi nhà cung cấp dịch vụ thanh toán hóa đơn Lightning để hoàn tất quá trình chuyển đổi Liquid sang Lightning bằng HTLC?
+answer: Nhà cung cấp nhận được ảnh trước từ thanh toán Lightning, sau đó họ có thể sử dụng ảnh này để mở khóa và nhận L-BTC từ HTLC.
+wrong_answers:
+  - Nhà cung cấp phải đợi thời gian khóa kết thúc trước khi có thể truy cập vào số L-BTC bị khóa trong hợp đồng HTLC.
+  - "Khách hàng tự động nhận ảnh gốc và sử dụng nó để giải phóng L-BTC trực tiếp đến Liquid wallet của nhà cung cấp."
+  - Hợp đồng HTLC tự động thực thi và chuyển L-BTC cho nhà cung cấp mà không cần bất kỳ bằng chứng mật mã bổ sung nào.
+explanation: |
+  HTLC tạo ra các giao dịch hoán đổi nguyên tử thông qua liên kết mật mã bằng cách sử dụng cùng một khóa băm trên cả hai mạng. Khi nhà cung cấp thanh toán thành công hóa đơn Lightning, họ sẽ nhận được ảnh gốc (bí mật) khớp với khóa băm. Ảnh gốc này là khóa mật mã cho phép họ mở khóa L-BTC đã bị khóa trước đó trong HTLC. Các tùy chọn khác không chính xác vì chúng không phản ánh bản chất nguyên tử của HTLC - khóa thời gian chỉ là cơ chế dự phòng, máy khách không xử lý việc phân phối ảnh gốc và HTLC yêu cầu bằng chứng mật mã chủ động chứ không phải thực thi tự động.

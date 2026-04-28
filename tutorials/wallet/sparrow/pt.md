@@ -20,7 +20,7 @@ Em termos de ligação, o Sparrow permite-lhe ligar-se ao seu próprio nó Bitco
 
 ## Instalar o Sparrow Wallet
 
-Aceda à [página oficial de transferência do Sparrow Wallet] (https://sparrowwallet.com/download/) e escolha a versão do software que corresponde ao seu sistema operativo.
+Aceda à [página oficial de transferência do Sparrow Wallet](https://sparrowwallet.com/download/) e escolha a versão do software que corresponde ao seu sistema operativo.
 
 ![Image](assets/fr/01.webp)
 
@@ -95,13 +95,14 @@ Não se esqueça de reiniciar o software depois de efetuar estas alterações.
 
 Em seguida, retorne ao Sparrow Wallet e digite o caminho para o seu arquivo de cookie, geralmente localizado na mesma pasta que `Bitcoin.conf`, dependendo do seu sistema operacional:
 
-| **macOS** | ~/Biblioteca/Apoio a aplicações/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -123,19 +124,20 @@ server=1
 
 Depois de editar o ficheiro, certifique-se de que o guarda na pasta adequada ao seu sistema operativo:
 
-| **macOS** | ~/Biblioteca/Apoio a aplicações/Bitcoin |
 
+
+
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-
-| **Windows** | %APPDATA%\Bitcoin |
-
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Esta operação também pode ser efectuada através do Bitcoin-QT Interface gráfico Interface. Vá ao menu "*Settings*", depois "*Options...*", e active a opção "*Enable RPC server*" marcando a caixa correspondente. Se o ficheiro `Bitcoin.conf` não existir, pode criá-lo diretamente a partir deste Interface, clicando em "*Open Configuration File*".
 
 ![Image](assets/fr/12.webp)
 
-Encontre o IP Address da máquina que aloja o Bitcoin Core na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner] (https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
+Encontre o IP Address da máquina que aloja o Bitcoin Core na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner](https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
 
 No ficheiro `Bitcoin.conf`, adicione as seguintes linhas, definindo `rpcbind=192.168.1.18` para corresponder ao IP Address do seu nó.
 

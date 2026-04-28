@@ -1,0 +1,10 @@
+question: In cosa consiste il metodo Pay Per Last N Shares (PPLNS) utilizzato in alcuni pool mining?
+answer: Pagare i minatori per ogni blocco estratto, in proporzione alle loro quote delle ultime N quote fornite al pool mining
+wrong_answers:
+  - Remunerare immediatamente i minatori per ogni pezzo fornito, in base al suo grado di difficoltà
+  - Ricompensare i minatori per ogni blocco estratto, in proporzione alle quote trovate dall'ultimo blocco
+  - Pagare immediatamente i minatori per ogni quota fornita, ma mai più di quanto il pool mining possiede
+explanation: |
+ Si tratta di una variante del modello proporzionale, in cui il periodo di valutazione non è il ciclo di produzione del blocco, ma una finestra di N azioni indipendente dal ciclo.
+ Il metodo PPLNS è stato utilizzato, tra gli altri, da P2Pool.
+reviewed: true

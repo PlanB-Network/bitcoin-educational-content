@@ -1,9 +1,9 @@
-question: Bitcoin Mining用のASICを設計している主要プレーヤーは？
-answer: ビットメイン
+question: ビットコイン・マイニング用のASICを設計している主要プレーヤーは？
+answer: Bitmain
 wrong_answers:
-  - トレゾール
+  - Trezor
   - Ledger
-  - ファウンドリーUSA
+  - Foundry USA
 explanation: |
-  ビットメイン社は、Bitcoin Miningに特化したハードウェアの主要メーカーの一つである。
+  Bitmain社は、ビットコイン・マイニングに特化したハードウェアの主要メーカーの一つである。
 reviewed: false

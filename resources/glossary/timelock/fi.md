@@ -1,6 +1,7 @@
 ---
-term: TIMELOCK
+term: Aikalukko (Timelock)
 
+definition: Älysopimusprimitiivi, joka määrittelee aikausehdon, ennen kuin rahansiirto voidaan sisällyttää lohkoon.
 ---
 Älykkään sopimuksen alkeisominaisuus, jonka avulla voidaan asettaa aikapohjainen ehto, jonka on täytyttävä, jotta transaktio voidaan lisätä lohkoon. Bitcoinissa on kahdenlaisia aikalukkoja:
 

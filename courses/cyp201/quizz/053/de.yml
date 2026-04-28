@@ -1,9 +1,9 @@
-question: Was passiert, wenn Sie die Passphrase verlieren, die mit Ihrem HD-Wallet verbunden ist?
-answer: Sie verlieren den Zugang zu den Bitcoins, die mit diesem Wallet verknüpft sind.
+question: Was passiert, wenn du die Passphrase verlierst, die mit deiner HD-Wallet verbunden ist?
+answer: Du verlierst den Zugang zu den Bitcoin, die mit dieser Wallet verknüpft sind.
 wrong_answers:
-  - Sie können immer noch auf das Wallet nur mit dem mnemonischen Ausdruck zugreifen
-  - Sie können die Passphrase zurücksetzen, indem Sie den Bitcoin-Support kontaktieren
-  - Sie verlieren nur die unbestätigten Transaktionen
+  - Du kannst immer noch auf die Wallet nur mit der mnemonischen Phrase zugreifen
+  - Du kannst die Passphrase zurücksetzen, indem du den Bitcoin-Support kontaktierst
+  - Du verlierst nur die unbestätigten Transaktionen
 explanation: |
   Die Passphrase ist ein wesentlicher Bestandteil in der Schlüsselableitung. Ohne sie ist es unmöglich, die Schlüssel neu zu erstellen und daher auf die Bitcoins zuzugreifen.
 reviewed: true

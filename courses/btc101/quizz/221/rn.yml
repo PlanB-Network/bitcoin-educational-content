@@ -1,8 +1,9 @@
-question: Amafaranga y’ugucuruza kuri Lightning Network ni make cane, kenshi ni make kuruta...?
-answer: 0,5%.
+question: Ni akahe kamaro Ark itanga ugereranije na Lightning mu kwakira?
+answer: Nta bukene bw’amafaranga yinjira
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Ukwemezwa kw’ishyura ako kanya
+  - Kubura amafaranga y’ikorwa
+  - Nta nkenerwa yo kugira ikofi
+explanation: |
+  Ark ituma umuntu yakira amahera atabanje kugira amafaranga yinjira.
+reviewed: false

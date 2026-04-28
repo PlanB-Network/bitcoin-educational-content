@@ -1,0 +1,9 @@
+question: ¿Cómo se llama el registro público compartido donde se escribe el historial de pagos en bitcoins?
+answer: La blockchain
+wrong_answers:
+  - La mempool
+  - El wallet
+  - El hashrate
+explanation: |
+  El libro público compartido que contiene todas las transacciones es la blockchain.
+reviewed: false

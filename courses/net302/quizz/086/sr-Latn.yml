@@ -6,4 +6,4 @@ wrong_answers:
   - ifup
 explanation: |
   Komanda ss zamenjuje netstat za brzo prikazivanje svih aktivnih mrežnih konekcija.
-reviewed: false
+reviewed: true

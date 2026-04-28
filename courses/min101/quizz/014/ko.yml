@@ -1,0 +1,9 @@
+question: 비트코인 채굴에는 어떤 해시 함수가 사용됩니까?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  비트코인 채굴은 SHA256을 두 번 적용하며, 일반적으로 SHA256d라고 표기합니다.
+reviewed: false

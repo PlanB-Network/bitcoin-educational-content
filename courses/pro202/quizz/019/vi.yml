@@ -1,0 +1,8 @@
+question: Trong quy trình xác minh chữ ký của ECDSA, mối quan hệ toán học nào phải đúng để chữ ký được coi là hợp lệ?
+answer: Tọa độ x của UG + VP phải bằng R, trong đó U = Z/S và V = R/S
+wrong_answers:
+  - Tọa độ y của UG + VP phải bằng S, trong đó U = R/Z và V = S/Z
+  - Tọa độ x của KG + ZP phải bằng S, trong đó K là nonce và Z là hash.
+  - Tổng của R + S phải bằng tọa độ x của điểm khóa công khai P.
+explanation: |
+  Quá trình xác thực ECDSA hoạt động bằng cách tái tạo điểm gốc KG thông qua phương trình UG + VP, trong đó U = Z/S (hàm băm chia cho S) và V = R/S. Nếu tọa độ x của điểm được tái tạo này bằng R từ chữ ký, quá trình xác thực thành công. Mối quan hệ toán học này cho phép xác thực mà không cần biết khóa riêng hoặc số ngẫu nhiên K, vì phép toán tái tạo KG một cách gián tiếp thông qua khóa công khai và các thành phần chữ ký.

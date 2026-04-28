@@ -1,5 +1,6 @@
 ---
-term: NORMAL TÜRETME
+term: Normal türetme
+definition: HD cüzdanlarda üst (parent) genel anahtarı kullanarak alt (child) anahtarlar üretme süreci.
 ---
 
 HD cüzdanlarında alt anahtar üretme süreci. Normal türetme, `HMAC-SHA512` işlevi için girdi olarak ana açık anahtarı kullanır ve ana açık anahtardan ve ana chain code'dan alt açık anahtarların oluşturulmasını sağlar. İşlem, ana açık anahtar ile $2^{31}$'dan küçük bir dizinin birleştirilmesini ve ardından ana chain code ile `HMAC-SHA512` uygulamasını içerir. Sonuç iki parçaya bölünür: ilk 256 bit alt özel anahtarı elde etmek için üst özel anahtara eklenirken, kalan 256 bit alt chain code'ı oluşturur. Bu yöntem, genişletilmiş açık anahtarın alt açık anahtarları türetmek için kullanılabilmesini sağlar. Standart türetmede, hesap derinliğinden itibaren tüm türetme seviyelerinde normal türetme kullanılır. Türetme yollarının gösteriminde, herhangi bir kesme işareti `'` olmadan sadece dizin olduğunda normal bir türetme tanımlanır.

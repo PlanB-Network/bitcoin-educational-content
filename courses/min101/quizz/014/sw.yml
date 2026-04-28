@@ -1,0 +1,9 @@
+question: Ni kazi gani ya hashi (hash function) inayotumika kwa uchimbaji katika Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Uchimbaji wa Bitcoin unatumia SHA256 inayotumika mara mbili, kwa kawaida ikijulikana kama SHA256d.
+reviewed: false

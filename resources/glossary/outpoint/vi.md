@@ -1,6 +1,7 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
+definition: Tham chiếu duy nhất đến một UTXO, bao gồm txid và chỉ số đầu ra.
 ---
 A unique reference to an unspent transaction output (UTXO). It consists of two elements:
 

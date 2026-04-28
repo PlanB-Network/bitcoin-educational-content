@@ -1,0 +1,8 @@
+question: Ni igiki kiba mu gihe c’ugufungura iyo habaye ubwoba muri Rust?
+answer: Rust isubira inyuma biciye mu kirundo c'amahamagara kugira ngo itange urutonde rw'ibirundo
+wrong_answers:
+  - Rust ica irangiza iyo porogarama ata n’isuku canke amakuru .
+  - Rust ihindura ubwoba mu bwoko bw'Inyishu bushobora gusubirana
+  - Rust isubiramwo igikorwa cananiwe kuva mu ntango y'igikorwa
+explanation: |
+  Iyo ubwoba bushitse muri Rust, inzira yo gufungura irasubira inyuma biciye mu kirundo c’amahamagara kugira ngo itange urutonde rw’ibirundo rwerekana neza aho ubwoba bwabaye. Ivyo bifasha abahinguzi kumenya inkomoko y’ingorane mu gihe co gukosora. Ibindi bihitamwo ntibibereye: Rust ntiheza ubwo nyene ata gusukura (ivyo bishika gusa iyo unwinding ipfuye), ama panic ntashobora guhinduka ubwo nyene ngo abe ubwoko bw’Ivyiza, kandi Rust ntisubira gutangura ibikorwa vyananiwe.

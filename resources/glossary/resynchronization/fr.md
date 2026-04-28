@@ -1,5 +1,6 @@
 ---
-term: RESYNCHRONISATION
+term: Resynchronisation
+definition: Remplacement d'une portion de la blockchain par une chaîne concurrente ayant plus de travail accumulé.
 ---
 
 Se réfère à un phénomène dans lequel la blockchain subit une modification de sa structure à cause de l'existence de blocs concurrents à une même hauteur. Cela survient lorsqu'une portion de la chaîne de blocs est remplacée par une autre chaîne ayant une quantité de travail accumulé plus importante.

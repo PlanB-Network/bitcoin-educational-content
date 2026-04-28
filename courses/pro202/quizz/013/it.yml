@@ -1,0 +1,8 @@
+question: Che tipo di struttura matematica formano i punti della curva ellittica con l'operazione di addizione?
+answer: Un gruppo matematico con chiusura, associatività, identità e inversione
+wrong_answers:
+  - Un campo finito con operazioni di moltiplicazione e divisione definite
+  - Uno spazio vettoriale con moltiplicazione scalare e combinazioni lineari
+  - Una struttura ad anello con operazioni di addizione e moltiplicazione
+explanation: |
+  I punti delle curve ellittiche formano un gruppo matematico sotto forma di addizione, il che significa che soddisfano quattro proprietà essenziali: la chiusura (sommando due punti si ottiene un altro punto sulla curva), l'associatività (l'ordine delle operazioni non ha importanza), l'identità (il punto all'infinito agisce come zero) e l'inversione (ogni punto ha una riflessione sull'asse x che lo annulla). Questa struttura di gruppo è fondamentale per la crittografia a curve ellittiche perché garantisce che operazioni come la moltiplicazione scalare (aggiungere ripetutamente un punto a se stesso) siano ben definite e prevedibili, consentendo protocolli crittografici sicuri come quelli utilizzati in Bitcoin.

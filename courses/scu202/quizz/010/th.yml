@@ -1,0 +1,9 @@
+question: ชื่อของมาสคอตสัญลักษณ์ของ Linux คืออะไร?
+answer: ทักซ์
+wrong_answers:
+  - ดยุค
+  - บีสตี้
+  - daemon
+explanation: |
+  Tux เป็นมาสคอตอย่างเป็นทางการของเคอร์เนล Linux ตั้งแต่ปี 1996 สร้างโดย Larry Ewing.
+reviewed: false

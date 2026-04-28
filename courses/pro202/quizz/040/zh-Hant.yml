@@ -1,0 +1,8 @@
+question: 為什麼現代的 ASIC 礦工會修改 Coinbase 交易中的資料，而不是完全依賴區塊標頭的 nonce 欄位？
+answer: 4 字節的 nonce 欄位為現代 ASIC 提供的搜尋空間不足，因此礦工會修改 Coinbase 資料，以變更 Merkle 根並創造額外的搜尋空間。
+wrong_answers:
+  - 修改 Coinbase 交易允許礦工索取高於標準補貼金額允許的區塊獎勵
+  - 「Coinbase的交易必須修改為包含礦工的數位簽章，以便進行區塊驗證」
+  - 更改 Coinbase 數據可允許礦工繞過標準 proof-of-work 要求，從而降低計算難度
+explanation: |
+  現代的 ASIC 可以極快地用盡 4 字節的 nonce 空間 (2^32 可能性)，因此需要額外的搜尋空間。透過修改 Coinbase 交易中的資料，礦工會改變交易的哈希值，這會改變區塊標頭中的 Merkle 根，有效地創造出數以十億計的額外 nonce 類似值來進行嘗試。這種稱為「額外 nonce」的技術，對於硬體遠遠超過原始 nonce 欄位容量的現代 mining 作業而言，是不可或缺的。

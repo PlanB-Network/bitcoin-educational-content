@@ -52,11 +52,11 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-90
 
 Det første trinnet er selvfølgelig å laste ned Green-applikasjonen. Gå til applikasjonsbutikken din:
 
-- [For Android] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
-- [For Apple] (https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
+- [For Android](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet);
+- [For Apple](https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590).
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
-For Android-brukere kan du også installere applikasjonen via `.apk`-filen [tilgjengelig på Blockstreams GitHub] (https://github.com/Blockstream/green_android/releases).
+For Android-brukere kan du også installere applikasjonen via `.apk`-filen [tilgjengelig på Blockstreams GitHub](https://github.com/Blockstream/green_android/releases).
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)
 
@@ -244,7 +244,7 @@ Velg betalingsbeløpet.
 
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
-Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space] (https://mempool.space/) i delen "*Transaksjonsgebyrer*".
+Nederst på skjermen kan du velge gebyrsats for denne transaksjonen. Du kan velge om du vil følge programmets anbefalinger eller tilpasse gebyrene selv. Jo høyere gebyret er i forhold til andre ventende transaksjoner, desto raskere vil transaksjonen bli behandlet. For informasjon om gebyrmarkedet, se [Mempool.space](https://mempool.space/) i delen "*Transaksjonsgebyrer*".
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)
 

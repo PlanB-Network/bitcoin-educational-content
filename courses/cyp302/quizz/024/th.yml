@@ -1,0 +1,9 @@
+question: ค่า 42 mod 2 คือเท่าไร?
+answer: 0
+wrong_answers:
+  - 1
+  - 2
+  - 42
+explanation: |
+  โดยการหาร 42 ด้วย 2 เศษที่เหลือคือศูนย์ ดังนั้น 42 mod 2 เท่ากับ 0
+reviewed: false

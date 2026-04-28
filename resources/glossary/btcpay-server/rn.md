@@ -1,6 +1,7 @@
 ---
-term: BTCPAY SERVER
+term: BTCPay Server
 
+definition: Igikoresho co kuriha gifunguye gituma umuntu yakira amahera ya bitcoin ata muvunyi abaye hagati.
 ---
 
 BTCPay Server ni ubuhinga bwo kwishura bufunguye bufasha abacuruzi n’abakoresha kwemera kwishura Bitcoin ata kwizigira uwundi muntu kugira ngo bakoreshe amafaranga.
@@ -12,4 +13,4 @@ Iterambere ryayo ryatangujwe na Nicolas Dorier, mu kwishura ku bikorwa vya Bitpa
 
 > "_Ivyo ni ibinyoma, ukwizigira kwanje muri wewe kwacitse, nzoguhindura uwutagira akamaro_".
 
-![](../../dictionnaire/assets/53.webp)
+

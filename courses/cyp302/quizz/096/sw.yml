@@ -6,4 +6,4 @@ wrong_answers:
   - Hashing ya ujumbe, usimbaji wa lebo, usambazaji wa lebo
 explanation: |
   Mpango wa MAC una hatua tatu kuu: kutengeneza ufunguo wa siri, kutoa lebo ya ujumbe, na kuthibitisha kuwa ujumbe uliopokelewa na lebo yake zinalingana.
-reviewed: false
+reviewed: true

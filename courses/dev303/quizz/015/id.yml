@@ -1,0 +1,8 @@
+question: Apa mekanisme utama yang digunakan Rust untuk mencegah bug terkait memori seperti penggunaan-setelah-bebas dan buffer overflow?
+answer: Analisis statis dilakukan sepenuhnya pada waktu kompilasi
+wrong_answers:
+  - Pengumpulan sampah saat runtime dengan pembersihan memori otomatis
+  - Pemeriksaan memori dinamis selama eksekusi program
+  - Manajemen memori manual dengan panggilan alokasi eksplisit
+explanation: |
+  Rust mencegah bug yang berhubungan dengan memori melalui analisis statis yang dilakukan sepenuhnya pada saat kompilasi, di mana kompiler memeriksa kode sumber dan menentukan dengan pasti apakah operasi memori aman. Hal ini berbeda dengan pengumpulan sampah (yang digunakan oleh Java/Go) yang memperkenalkan overhead waktu proses, pengecekan dinamis yang memerlukan verifikasi waktu proses, dan manajemen memori manual (yang digunakan oleh C/C++) yang bergantung pada kedisiplinan programmer. Pendekatan waktu kompilasi Rust memastikan keamanan memori tanpa biaya waktu proses atau jeda yang tidak terduga.

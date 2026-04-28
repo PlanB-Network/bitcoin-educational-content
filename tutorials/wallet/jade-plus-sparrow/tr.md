@@ -267,7 +267,7 @@ PIN kodunuzu girin.
 ![Image](assets/fr/39.webp)
 
 
-Ardından oracle ile Exchange QR kodları için [Blockstream web sitesine] (https://jadefw.blockstream.com/pinqr/qrpin.html) gidin.
+Ardından oracle ile Exchange QR kodları için [Blockstream web sitesine](https://jadefw.blockstream.com/pinqr/qrpin.html) gidin.
 
 
 ![Image](assets/fr/40.webp)
@@ -294,7 +294,7 @@ Eğer 2. seçeneği seçtiyseniz (CompactSeedQR: "*Evet*"), tekrar "*Evet*" üze
 ![Image](assets/fr/15.webp)
 
 
-Jade Plus kutusunda verilen QR kod tabanını kullanabilirsiniz. 12 veya 24 kelimelik bir cümle seçmiş olmanıza bağlı olarak uygun kutuyu seçin. Ayrıca [Blockstream web sitesinden şablonu yazdırabilirsiniz] (https://help.blockstream.com/hc/article_attachments/41928319071769).
+Jade Plus kutusunda verilen QR kod tabanını kullanabilirsiniz. 12 veya 24 kelimelik bir cümle seçmiş olmanıza bağlı olarak uygun kutuyu seçin. Ayrıca [Blockstream web sitesinden şablonu yazdırabilirsiniz](https://help.blockstream.com/hc/article_attachments/41928319071769).
 
 
 Jade Plus cihazınız QR kodunuzun her bir bölgesini görüntüleyecektir.
@@ -464,7 +464,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 Bu eğitimde, Sparrow wallet kullanarak Jade Plus'ın gelişmiş bir kullanımını sunuyorum. Ancak, bu Hardware Wallet, Liana, Nunchuk, Spectre, Green ve Keeper gibi diğer birçok programla uyumludur. Bu uyumluluklar bağlantılar açısından değişiklik gösterir: USB, Bluetooth veya QR kodu (ayrıntılar için giriş bölümündeki tabloya bakın).
 
 
-Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 ![Image](assets/fr/50.webp)

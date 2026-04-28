@@ -1,5 +1,6 @@
 ---
-term: POOL (Mining)
+term: Rudarski bazen
+definition: Grupisanje rudara koji kombinuju svoju procesorsku snagu radi zajedničkog pronalaženja blokova.
 ---
 
 Odnosi se na skup rudara koji sarađuju kombinujući svoju računarsku snagu kako bi učestvovali u potrazi za validnim dokazima rada na Bitcoin. Ovo udruživanje u jednu organizaciju je rešenje za sve veću težinu Bitcoin Mining, što čini malo verovatnim da pojedinačni Miner može da se takmiči i zarađuje nagrade na stabilnoj osnovi. Rudari unutar Mining pool doprinose svojim mašinama u potrazi za validnim delovima. Kada blok bude izrudaren od strane bazena, nagrada - koja obuhvata novostvorene bitkoine kao i naknade za transakcije uključene u blok - distribuira se među članovima bazena prema izabranoj metodi naknade. Ova distribucija je proporcionalna računarskoj snazi koju je svaki Miner doprineo.

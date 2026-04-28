@@ -36,7 +36,7 @@ Os quenianos podem assim comprar satoshis em três passos simples, sem KYC ou pl
 
 
 
-Para utilizar a solução, visitar a plataforma [Bitika] (https://bitika.xyz/). Seja no computador ou no smartphone, a interface permanece a mesma.
+Para utilizar a solução, visitar a plataforma [Bitika](https://bitika.xyz/). Seja no computador ou no smartphone, a interface permanece a mesma.
 
 
 

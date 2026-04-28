@@ -1,0 +1,8 @@
+question: In de context van compacte blokfilters (BIP158) voor privacybehoudende lichtclients, wat is de kritische afweging die ze effectief maakt voor wallet privacy?
+answer: Ze kunnen fout-positieven produceren maar nooit fout-negatieven, waardoor clients mogelijk irrelevante blokken kunnen downloaden zonder specifieke adressen te onthullen
+wrong_answers:
+  - Ze kunnen valse negatieven produceren, maar nooit valse positieven, en zorgen ervoor dat klanten alleen blokken downloaden die hun transacties bevatten
+  - Ze elimineren zowel vals positieven als vals negatieven door gebruik te maken van deterministische filtering op basis van wallet adressen
+  - "Ze produceren zowel valse positieven als valse negatieven in gelijke verhoudingen om de werkelijke transactiepatronen van de klant te verdoezelen"
+explanation: |
+  Compacte blokfilters zijn ontworpen met een asymmetrisch foutmodel: ze kunnen aangeven dat een blok relevante transacties bevat terwijl dat niet zo is (fout-positief), maar ze zullen nooit een blok missen dat daadwerkelijk relevante transacties bevat (geen fout-negatieven). Dit ontwerp is cruciaal omdat fout-negatieven zouden betekenen dat daadwerkelijke betalingen worden gemist, terwijl fout-positieven alleen resulteren in het downloaden van onnodige blokken. Het fout-positieve percentage biedt privacy door cliënten te dwingen een aantal irrelevante blokken te downloaden, waardoor het voor waarnemers onmogelijk is om te bepalen welke blokken daadwerkelijk de transacties van de cliënt bevatten.

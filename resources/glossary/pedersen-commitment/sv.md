@@ -1,5 +1,6 @@
 ---
-term: Pedersen commitment
+term: Pedersen-åtagande
+definition: Homomorfiskt kryptografiskt åtagande som möjliggör verifiering av summor utan att avslöja värden.
 ---
 
 En Pedersen commitment är en typ av kryptografisk Commitment med egenskapen att den är homomorf mot additionsoperationen. Detta innebär att det är möjligt att validera summan av två åtaganden utan att avslöja de enskilda värdena.

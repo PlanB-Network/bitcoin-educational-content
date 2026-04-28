@@ -79,7 +79,7 @@ Kui eelistate COLDCARDi toiteallikana kasutada ilma arvutiga ühendamata (õhuva
 
 ![CCQ](assets/fr/005.webp)
 
-Selle õpetuse jaoks on teil vaja ka Sparrow Wallet'i, et hallata oma Bitcoini rahakotti arvutis. Laadige [Sparrow Wallet] (https://sparrowwallet.com/download/) alla ametlikust veebisaidist. Soovitan tungivalt kontrollida nii selle autentsust (GnuPG abil) kui ka terviklikkust (hashi kaudu) enne paigaldamise jätkamist. Kui te ei tea, kuidas seda teha, järgige seda õpetust:
+Selle õpetuse jaoks on teil vaja ka Sparrow Wallet'i, et hallata oma Bitcoini rahakotti arvutis. Laadige [Sparrow Wallet](https://sparrowwallet.com/download/) alla ametlikust veebisaidist. Soovitan tungivalt kontrollida nii selle autentsust (GnuPG abil) kui ka terviklikkust (hashi kaudu) enne paigaldamise jätkamist. Kui te ei tea, kuidas seda teha, järgige seda õpetust:
 
 https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

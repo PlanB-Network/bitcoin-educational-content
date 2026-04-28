@@ -1,5 +1,6 @@
 ---
-term: BIZANTYJSKA PORAŻKA
+term: Błąd bizantyjski
+definition: Zachowanie systemu, który nie przestrzega swoich specyfikacji, co może być naturalne lub zamierzone.
 ---
 
 Awaria bizantyjska lub zachowanie bizantyjskie odnosi się do każdego zachowania systemu, które nie jest zgodne z jego własnymi specyfikacjami, powodując niezgodne wyniki.

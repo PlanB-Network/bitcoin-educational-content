@@ -1,5 +1,6 @@
 ---
 term: BIP0039
+definition: Standard isobanura amajambo y'ubwenge 12 canke 24 yifashishwa mu kuzigama no kugarukana iwallet ya Bitcoin.
 ---
 
 BIP39 izana uburyo bwo guhindura seed y’imburakimazi ya Wallet mu rutonde rw’amajambo yoroshe kwibuka, asomwa n’abantu azwi kw’izina ry’invugo ya Mnemonic.

@@ -1,4 +1,4 @@
-question: Según Bastiat, ¿cuál es la principal característica de la verdadera solidaridad?
+question: Según Bastiat, ¿Cuál es la principal característica de la verdadera solidaridad?
 answer: Es voluntaria y no impuesta por ley
 wrong_answers:
   - Está financiada por impuestos
@@ -6,3 +6,4 @@ wrong_answers:
   - Está regulada por el estado para prevenir abusos
 explanation: |
   Para Bastiat, la verdadera solidaridad solo puede provenir de un compromiso voluntario, libre de cualquier obligación legal.
+reviewed: true

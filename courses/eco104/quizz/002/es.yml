@@ -5,7 +5,5 @@ wrong_answers:
   - El oro es fácilmente divisible
   - El oro es único
 explanation: |
-  Dada la escasez globalizada del oro en la naturaleza y la significativa inversión requerida
-  para minar, refinar y almacenar, el oro ha mantenido consistentemente un valor superior
-  sobre otras formas de dinero.
-reviewed: false
+  Dada la escasez globalizada del oro en la naturaleza y la significativa inversión requerida para minar, refinar y almacenar, el oro ha mantenido consistentemente un valor superior sobre otras formas de dinero.
+reviewed: true

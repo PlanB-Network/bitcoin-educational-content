@@ -6,4 +6,4 @@ wrong_answers:
   - PII
 explanation: |
   Las RFC (Request For Comments) son los documentos de referencia que definen las especificaciones de los protocolos TCP/IP.
-reviewed: false
+reviewed: true

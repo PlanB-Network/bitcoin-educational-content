@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - paroolihaldur
+name: Seedkeeper - Paroolihaldur
 description: Kuidas salvestada oma paroole Seedkeeper nutikaardiga?
 ---
 

@@ -1,9 +1,9 @@
-question: Ni uwuhe mugabane ubonwa ko ari wo wa kera kuruta iyindi yose ukiriho?
-answer: Ibikoresho vy'ubugoyagoye
+question: Ni iyihe distribution ibonwa ko ari iya kera kuruta izindi zose ikibungabungwa?
+answer: Slackware
 wrong_answers:
   - Fedora
   - Gentoo
   - Manjaro
 explanation: |
-  Slackware, yaremwe mu mwaka w’1993 na Patrick Volkerding, ni yo nzira ya kera cane yo gukoresha Linux iguma ikora n’ubu.
-reviewed: false
+  Slackware, yaremwe mu mwaka w’1993 na Patrick Volkerding, ni yo distribution ya Linux ya kera igikora n’ubu.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: IVYANDITSWE BITARIMWO INYANDITSHO
+term: Scriptless scripts
+definition: Amasezerano agezweho akorerwa inyuma y'umuhora ata kwerekana uburyo akora ku muhora wa Bitcoin.
 ---
 
 Mu ntango vyateguwe na Andrew Poelstra, iki ciyumviro kiremesha gushitsa amasezerano y'ubwenge ata gushikiriza neza ivyiyumviro vya Contract kuri Bitcoin Blockchain. Nk'uko izina "inyandiko zitagira inyandiko" rivyerekana, iciyumviro gishingiye ku gushitsa inyandiko (canke amasezerano) ata gukoresha inyandiko mu buryo butomoye. Aya masezerano akoresha imiterere y'imikono ya Schnorr, ivyo bikaba bishoboza gukoresha *Imikono y'Adapter*, cane cane mu gukora *Atomic Swaps*. Ivyangombwa vya Contract bishirwa mu ngiro kandi bikashirwa mu ngiro off-chain n’ababifisemwo uruhara, ni bo bonyene bazi ivyategekanijwe. Udakunze amasezerano y’ubwenge ya kera, *Scriptless Scripts* zigabanya ikirenge cazo kuri Blockchain, gutyo zigabanya igiciro c’ibikorwa. Aya masezerano na yo nyene arafise ubukerebutsi kuruta amasezerano ya kera y’ubwenge, asiga ibimenyetso kuri Blockchain. Gutyo, zisa n’ibikorwa bisanzwe, ivyo bikaba bituma zirushirizaho kutamenyekana.

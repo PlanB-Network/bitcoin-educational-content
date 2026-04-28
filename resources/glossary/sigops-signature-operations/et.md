@@ -1,6 +1,7 @@
 ---
-term: SIGOPS (ALLKIRJAOPERATSIOONID)
+term: Sigops (allkirjaoperatsioonid)
 
+definition: Digitaalallkirja toimingud, mis on vajalikud Bitcoini tehingute valideerimiseks.
 ---
 Viitab tehingute valideerimiseks vajalikele digitaalallkirjaoperatsioonidele. Iga Bitcoini tehing võib sisaldada mitu sisendit, millest igaühe kehtivaks tunnistamiseks võib olla vaja ühte või mitut allkirja. Nende allkirjade kontrollimine toimub spetsiaalsete opkoodide abil, mida nimetatakse "sigops". Konkreetselt hõlmab see `OP_CHECKSIG`, `OP_CHECKSIGVERIFY`, `OP_CHECKMULTISIG` ja `OP_CHECKMULTISIGVERIFY`. Need operatsioonid põhjustavad teatava töökoormuse võrgusõlmedele, mis peavad neid kontrollima. Et vältida DoS-rünnakuid sigopide arvu kunstliku suurendamise kaudu, seab protokoll seetõttu piirangu lubatud sigopide arvule ploki kohta, et tagada, et valideerimiskoormus jääb sõlmede jaoks hallatavaks. See piirang on praegu kehtestatud maksimaalselt 80 000 sigopsi ploki kohta. Arvutamiseks järgivad sõlmed järgmisi reegleid:
 

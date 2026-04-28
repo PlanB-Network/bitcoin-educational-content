@@ -1,5 +1,5 @@
 ---
-name: 블록스트림 탐색기
+name: Blockstream Explorer
 description: Bitcoin 및 Liquid Network의 메인 레이어 살펴보기
 ---
 

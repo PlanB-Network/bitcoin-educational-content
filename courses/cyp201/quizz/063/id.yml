@@ -6,4 +6,4 @@ wrong_answers:
   - Kode rantai
 explanation: |
   Kunci ekstensi hanya berisi informasi yang diperlukan untuk menurunkan kunci anak, bukan informasi yang terkait dengan transaksi.
-ditinjau: false
+reviewed: true

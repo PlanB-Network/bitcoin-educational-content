@@ -1,0 +1,9 @@
+question: Jaký mechanismus rozšiřuje vyhledávací prostor, když je 32bitové nonce vyčerpáno?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Změnou extra-nonce v scriptSig coinbase transakce se změní Merkle root a tím i hlavička bloku.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: BIP0009
+definition: Madencilerin bloklardaki bir bit aracılığıyla desteklerini belirttikleri, etkinleştirme için %95 onay gerektiren soft fork etkinleştirme yöntemi.
 ---
 
 2015'te önerilen Bitcoin üzerinde Soft çatallarını etkinleştirme yöntemi. Madencilerin blokların sürüm alanında belirli bir bit kullanarak bir Soft Fork'a desteklerini bildirdikleri bir sistem getirmektedir. BIP9 kapsamında önerilen bir Soft Fork, 2016 blokluk bir süre boyunca (her zorluk ayarlamasına denk gelen yaklaşık iki hafta) blokların %95'inin onay sinyali vermesi halinde etkinleştirilir. Bu kilitlenmeden sonra, madencilerin etkinleştirilmeden önce güncellemeye hazırlanmaları için bir süre verilir. Tahsis edilen azami süre içinde %95 eşiğine ulaşılamazsa, Soft Fork'dan vazgeçilir. BIP9, aynı anda birden fazla Soft çatalının sinyalizasyonuna izin verir, ancak madencilere önemli bir güç verir, çünkü gerekli eşik karşılanmazsa, Soft Fork basitçe terk edilir. Bu yöntem, bir UASF kullanımını öneren BIP148 devreye girmeden ve BIP91 aracılığıyla kilitlenmeyi zorlamadan önce başlangıçta SegWit için kullanıldı.

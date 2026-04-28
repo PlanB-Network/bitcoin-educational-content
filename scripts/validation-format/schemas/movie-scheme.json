@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "movie-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the movie, UUID v4 format."
+    },
+    "title": {
+      "type": "string",
+      "description": "Complete title of the movie or documentary."
+    },
+    "author": {
+      "type": "string",
+      "description": "Full name of the director or creator(s)."
+    },
+    "publication_year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100,
+      "description": "The year the movie was published or released."
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Duration of the movie in minutes."
+    },
+    "language": {
+      "type": "string",
+      "description": "Original audio language of the content, using ISO 639-1 language codes (e.g., en, es, fr)."
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the main viewing platform (YouTube, Prime Video, etc.)."
+        },
+        "trailer": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the movie trailer."
+        }
+      },
+      "required": ["platform"],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "string",
+      "description": "Multiline description of the movie content."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributors identified by their GitHub usernames.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags for the movie. Tags must be from the predefined list of 51 items.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "enum": ["CC-BY-SA-V4", "MIT"],
+      "description": "License for the content. CC-BY-SA-V4 is the default with share-alike clause. MIT allows almost unrestricted use."
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for movies.",
+    "files": [
+      {
+        "path": "assets/thumbnail.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "width": 1280,
+          "height": 720,
+          "aspect_ratio": "16:9"
+        },
+        "orientation": "horizontal",
+        "description": "Movie thumbnail image. Should be a movie poster or representative frame."
+      }
+    ]
+  },
+  "required": ["id", "title", "author", "publication_year", "duration", "language", "links", "description", "contributor_names", "tags"],
+  "additionalProperties": false
+}

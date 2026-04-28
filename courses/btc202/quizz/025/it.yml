@@ -1,9 +1,9 @@
-question: Quando un nodo pruned è un problema per un Wallet?
-answer: Quando si ripristina un vecchio Wallet
+question: Quando un pruned node è un problema per un wallet?
+answer: Quando si ripristina un vecchio wallet
 wrong_answers:
-  - Quando si crea una nuova ricezione Address
+  - Quando si crea una nuovo indirizzo di ricezione
   - Quando si invia una transazione recente
-  - Quando si seleziona l'importo della tassa
+  - Quando si seleziona l'importo delle fee
 explanation: |
-  Un nodo pruned non conserva i vecchi blocchi, il che potrebbe impedire la scansione delle transazioni passate durante il ripristino.
+  Un pruned node non conserva i vecchi blocchi, il che potrebbe impedire la scansione delle transazioni passate durante il ripristino.
 reviewed: true

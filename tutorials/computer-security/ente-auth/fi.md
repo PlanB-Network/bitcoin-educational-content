@@ -14,7 +14,7 @@ Oikean todennussovelluksen valinta ei kuitenkaan ole helppoa. Vaikka Google Auth
 
 
 
-**Ente Auth** on nykyaikainen ja turvallinen vaihtoehto. Tämä ilmainen, avoimen lähdekoodin ja monialustainen sovellus, jonka on kehittänyt [Ente Photosin] (https://ente.io) takana oleva tiimi, tarjoaa päästä päähän salattuja pilvivarmistuksia ja saumatonta synkronointia kaikkien laitteidesi välillä. Toisin kuin omistajakohtaiset ratkaisut, Ente Auth antaa sinulle täydellisen hallinnan tunnuskoodeista vaarantamatta yksityisyyttäsi.
+**Ente Auth** on nykyaikainen ja turvallinen vaihtoehto. Tämä ilmainen, avoimen lähdekoodin ja monialustainen sovellus, jonka on kehittänyt [Ente Photosin](https://ente.io) takana oleva tiimi, tarjoaa päästä päähän salattuja pilvivarmistuksia ja saumatonta synkronointia kaikkien laitteidesi välillä. Toisin kuin omistajakohtaiset ratkaisut, Ente Auth antaa sinulle täydellisen hallinnan tunnuskoodeista vaarantamatta yksityisyyttäsi.
 
 
 
@@ -510,7 +510,7 @@ Ente Auth perustuu vankkaan päästä päähän -salaukseen ja nollatietoarkkite
 
 
 
-Koska koodi on [avointa lähdekoodia] (https://github.com/ente-io/auth), yhteisö voi tarkistaa, ettei siinä ole takaovia. Ente on teettänyt [useita ulkoisia tarkastuksia](https://ente.io/blog/cryptography-audit/) validoidakseen sen toteutuksen turvallisuuden:
+Koska koodi on [avointa lähdekoodia](https://github.com/ente-io/auth), yhteisö voi tarkistaa, ettei siinä ole takaovia. Ente on teettänyt [useita ulkoisia tarkastuksia](https://ente.io/blog/cryptography-audit/) validoidakseen sen toteutuksen turvallisuuden:
 
 
 
@@ -530,7 +530,7 @@ Nämä tunnustettujen yritysten suorittamat riippumattomat tarkastukset takaavat
 
 
 
-Ente Auth soveltaa [esimerkillistä tietosuojakäytäntöä] (https://ente.io/privacy/), joka perustuu minimaaliseen tiedonkeruuseen. Vain palvelun toiminnan kannalta ehdottoman välttämättömät tiedot säilytetään: sähköpostiosoitteesi Address tunnistautumista ja tilin palauttamista varten.
+Ente Auth soveltaa [esimerkillistä tietosuojakäytäntöä](https://ente.io/privacy/), joka perustuu minimaaliseen tiedonkeruuseen. Vain palvelun toiminnan kannalta ehdottoman välttämättömät tiedot säilytetään: sähköpostiosoitteesi Address tunnistautumista ja tilin palauttamista varten.
 
 
 
@@ -554,13 +554,14 @@ Enten liiketoimintamalli perustuu maksulliseen Ente Photos -palveluun, minkä an
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Sovellus              | Avoimen lähdekoodin | Pilven varmuuskopiointi | E2EE | Usean laitteen synkronointi | Alustat                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (ilman E2EE-ta)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(työpöytäsovellukset poistettu elokuussa 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(äskettäin, vähemmän vakiintunut)*              |
 
 Ente Auth on yksi harvoista ratkaisuista, jossa yhdistyvät kaikki edut: lähdekoodin läpinäkyvyys, salattu pilvivarmistus ja alustarajat ylittävä synkronointi.
 

@@ -1,5 +1,6 @@
 ---
-term: ADAPTÖR IMZASI
+term: Adaptor signature
+definition: Bir imzayı bir gizli anahtara bağlayan bir kriptografik tekniktir, öyle ki imzayı yayınlamak sırrı ortaya çıkarır. Güvenilir bir aracı olmadan atomik takas için faydalıdır.
 ---
 
 Gizli bir veri parçasını ortaya çıkarmak için gerçek bir imzanın ek bir imza ("uyarlayıcı imza" olarak adlandırılır) ile birleştirilmesini sağlayan kriptografik yöntem. Bu yöntem, geçerli imza, uyarlayıcı imza ve sır arasında iki Elements'ın bilinmesinin eksik üçüncü unsurun çıkarılmasına izin vereceği şekilde çalışır. Bu yöntemin ilginç özelliklerinden biri, muhatabımızın uyarlayıcı imzasını ve bu uyarlayıcı imzayı hesaplamak için kullanılan sırla bağlantılı eliptik eğri üzerindeki belirli noktayı biliyorsak, sırrın kendisine doğrudan erişimimiz olmadan aynı sırla eşleşecek kendi uyarlayıcı imzamızı türetebilmemizdir. Birbirine güvenmeyen iki paydaş arasındaki bir Exchange'de, bu teknik katılımcılar arasında iki hassas bilginin eş zamanlı olarak açığa çıkmasını sağlar. Bu süreç, Coin Takası veya Atomik Takas gibi anlık işlemlerde güven ihtiyacını ortadan kaldırır. Daha iyi anlamak için bir örnek verelim. Alice ve Bob birbirlerine 1 BTC göndermek istiyor, ancak birbirlerine güvenmiyorlar. Bu nedenle, bu Exchange'de diğer tarafa güvenme ihtiyacını ortadan kaldırmak için adaptör imzaları kullanacaklardır (böylece bunu "atomik" bir Exchange haline getireceklerdir). Aşağıdaki şekilde ilerlerler:

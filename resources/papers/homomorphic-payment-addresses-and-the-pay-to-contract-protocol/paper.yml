@@ -1,0 +1,15 @@
+title: "Homomorphic Payment Addresses and the Pay-to-Contract Protocol"
+original_language: en
+authors:
+  - Ilja Gerhardt
+  - Timo Hanke
+abstract: |
+  We propose an electronic payment protocol for typical customer-merchant relations which does not require a trusted (signed) payment descriptor to be sent from the merchant to the customer. Instead, the destination "account" number for the payment is solely created on the customer side. This eliminates the need for any encrypted or authenticated communication in the protocol and is secure even if the merchant's online infrastructure is compromised. Moreover, the payment transaction itself serves as a timestamped receipt for the customer. It proves what has been paid for and who received the funds, again without relying on any merchant signatures. In particular, funds and receipt are exchanged in a single atomic action. The asymmetric nature of the customer-merchant relation is crucial. The protocol is specifically designed with bitcoin in mind as the underlying payment system. Thereby, it has the useful benefit that all transactions are public. However, the only essential requirement on the payment system is that "accounts" are arbitrary user-created keypairs of a cryptosystem whose keypairs enjoy a homomorphic property. All ElGamal-type cryptosystems have this feature. For use with bitcoin we propose the design of a deterministic bitcoin wallet whose addresses can be indexed by clear text strings.
+publication_date: 2012-12-13
+paper_type: pre-print
+source: arXiv
+topics:
+  - Cryptographic Protocols
+  - Privacy-Preserving Protocols
+pdf_url: https://arxiv.org/pdf/1212.3257
+id: 3b95ef4b-3201-42ac-810e-5be74a15a41f

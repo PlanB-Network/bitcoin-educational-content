@@ -1,0 +1,8 @@
+question: Vad måste en nod verifiera under Bitcoin-transaktionsvalidering för att säkerställa att varje inmatning är korrekt auktoriserad att spendera den refererade utmatningen?
+answer: ScriptSig måste framgångsrikt låsa upp motsvarande ScriptPubKey när den utförs tillsammans
+wrong_answers:
+  - "Inmatningens digitala signatur måste matcha utmatningens inbäddade offentliga nyckel exakt"
+  - Transaktionens hash måste vara lika med den merkle-rot som lagras i det refererade blockets header
+  - Det ingående beloppet måste vara större än eller lika med det utgående belopp som spenderas
+explanation: |
+  Bitcoin:s skriptsystem kräver att varje ingångs ScriptSig (upplåsningsskript) måste exekveras framgångsrikt med den refererade utgångens ScriptPubKey (låsningsskript) för att ge ett riktigt resultat på stacken. Denna modell för skriptexekvering ger möjlighet till flexibla utgiftsvillkor utöver enkel signaturmatchning. De andra alternativen beskriver felaktiga valideringskrav - signaturer behöver inte matcha inbäddade nycklar exakt, transaktionshashar jämförs inte med merkle-rots vid validering av inmatningar och enskilda inmatningar behöver inte överstiga sina utmatningar (endast totala inmatningar måste överstiga totala utmatningar).

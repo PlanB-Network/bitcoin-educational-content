@@ -1,0 +1,9 @@
+question: Mizizi ya Merkle (Merkle root) katika kichwa cha bloku ya Bitcoin inatumika kwa ajili gani?
+answer: Kufungamanisha miamala yote ya bloku
+wrong_answers:
+  - Kukokotoa uthibitisho wa kazi (proof of work) wa bloku
+  - Kuashiria toleo la bloku
+  - Kujua ugumu wa bloku
+explanation: |
+  Mizizi ya Merkle inatoa muhtasari wa miamala yote; ikiwa mmoja utabadilika, mizizi pia inabadilika.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Quelle est la caractéristique unique de l'axiome de l'action humaine selon l'école autrichienne?
+answer: Il est irréfutable car le contredire nécessite d'agir, ce qui valide l'axiome
+wrong_answers:
+  - "Il peut être prouvé par l'expérimentation et l'observation empirique"
+  - Il nécessite des données statistiques pour être validé scientifiquement
+  - "Il doit être démontré mathématiquement avant d'être accepté"
+explanation: |
+  L'axiome de l'action humaine possède une caractéristique unique : il crée une contradiction performative lorsqu'on tente de le réfuter. Pour contester que l'homme agit, il faut nécessairement agir soi-même, ce qui démontre la vérité de l'axiome. Cette irréfutabilité le distingue des approches empiriques qui nécessitent des preuves expérimentales ou statistiques.

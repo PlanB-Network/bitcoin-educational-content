@@ -26,7 +26,7 @@ Start9 er et selskap som ble grunnlagt i 2020, og som er mest kjent for å ha ut
 ### Hvilke alternativer er tilgjengelige?
 
 
-Start9 tilbyr både ferdigbygde og gjør-det-selv-alternativer. [**Server One**] (https://store.start9.com/collections/servers/products/server-one) og [**Server Pure**] (https://store.start9.com/collections/servers/products/server-pure) er offisielle maskinvareenheter med komponenter med høy ytelse: Server One bruker en **AMD Ryzen 7 5825U**-prosessor med konfigurerbar RAM (16 GB-64 GB) og lagringsplass (2 TB-4 TB NVMe SSD), mens Server Pure er utstyrt med en **Intel i7-10710U**, som også tilbyr konfigurerbare RAM- og lagringsalternativer. Begge inkluderer **teknisk support for livstid** når de kjøpes direkte fra Start9. For brukere som foretrekker fleksibilitet, kan StartOS installeres gratis på et bredt spekter av eksisterende maskinvare, inkludert bærbare datamaskiner, stasjonære datamaskiner, mini-PC-er og enkeltkortdatamaskiner, eller i VM-er.
+Start9 tilbyr både ferdigbygde og gjør-det-selv-alternativer. [**Server One**](https://store.start9.com/collections/servers/products/server-one) og [**Server Pure**](https://store.start9.com/collections/servers/products/server-pure) er offisielle maskinvareenheter med komponenter med høy ytelse: Server One bruker en **AMD Ryzen 7 5825U**-prosessor med konfigurerbar RAM (16 GB-64 GB) og lagringsplass (2 TB-4 TB NVMe SSD), mens Server Pure er utstyrt med en **Intel i7-10710U**, som også tilbyr konfigurerbare RAM- og lagringsalternativer. Begge inkluderer **teknisk support for livstid** når de kjøpes direkte fra Start9. For brukere som foretrekker fleksibilitet, kan StartOS installeres gratis på et bredt spekter av eksisterende maskinvare, inkludert bærbare datamaskiner, stasjonære datamaskiner, mini-PC-er og enkeltkortdatamaskiner, eller i VM-er.
 
 
 ![image](assets/en/01.webp)
@@ -43,13 +43,13 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 ## 2️⃣ DIY-forutsetninger: Minimum og anbefalte spesifikasjoner
 
 
-For grunnleggende bruk med minimale tjenester er **minimumsspesifikasjonene**: **1 vCPU-kjerne (2,0 GHz + boost), 4 GB RAM, 64 GB lagringsplass** og en Ethernet-port. Når det er sagt, vil jeg anbefale å gå langt utover dette, spesielt hvis du kjører en Bitcoin Node. Selv startet jeg med 1 TB, men gikk raskt tom for plass. Du bør sikte deg inn på **mindst 2 TB lagringsplass**, sammen med en **firekjerners CPU (2,5 GHz+)** og **8 GB+ RAM**. Det gjør en enorm forskjell i ytelse og levetid. Hvis du vil dykke dypt, her er en oppdatert fellestråd om [Maskinvare som kan kjøre StartOS] (https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
+For grunnleggende bruk med minimale tjenester er **minimumsspesifikasjonene**: **1 vCPU-kjerne (2,0 GHz + boost), 4 GB RAM, 64 GB lagringsplass** og en Ethernet-port. Når det er sagt, vil jeg anbefale å gå langt utover dette, spesielt hvis du kjører en Bitcoin Node. Selv startet jeg med 1 TB, men gikk raskt tom for plass. Du bør sikte deg inn på **mindst 2 TB lagringsplass**, sammen med en **firekjerners CPU (2,5 GHz+)** og **8 GB+ RAM**. Det gjør en enorm forskjell i ytelse og levetid. Hvis du vil dykke dypt, her er en oppdatert fellestråd om [Maskinvare som kan kjøre StartOS](https://community.start9.com/t/known-good-hardware-master-list-hardware-capable-of-running-startos/66/229).
 
 
 ## 3️⃣ Last ned og flashing av fastvaren
 
 
-For å starte installasjonen, bruk en separat datamaskin til å gå til [Start9-nettstedet] (https://start9.com/), og naviger til dokumentasjonsdelen ved å klikke på `DOCS`. Gå deretter til `Flashing Guides` for å finne den riktige versjonen av StartOS. To alternativer er tilgjengelige:
+For å starte installasjonen, bruk en separat datamaskin til å gå til [Start9-nettstedet](https://start9.com/), og naviger til dokumentasjonsdelen ved å klikke på `DOCS`. Gå deretter til `Flashing Guides` for å finne den riktige versjonen av StartOS. To alternativer er tilgjengelige:
 
 
 
@@ -60,13 +60,13 @@ For å starte installasjonen, bruk en separat datamaskin til å gå til [Start9-
 Denne veiledningen dekker alternativet `x86/ARM`.
 
 
-Den nyeste OS-versjonen kan lastes ned fra [Github release page] (https://github.com/Start9Labs/start-os/releases/latest). [Pre-release](https://github.com/Start9Labs/start-os/releases) versjoner er også tilgjengelige for brukere som ønsker å teste nye funksjoner. Nederst på siden, under `Assets`, kan du laste ned `x86_64` eller `x86_64-nonfree.iso`.  Image `x86_64-nonfree.iso` inneholder ikke-fri (lukket kildekode) programvare som kreves for Server One og de fleste DIY-maskinvarene, spesielt for støtte for grafikk og nettverksenheter.
+Den nyeste OS-versjonen kan lastes ned fra [Github release page](https://github.com/Start9Labs/start-os/releases/latest). [Pre-release](https://github.com/Start9Labs/start-os/releases) versjoner er også tilgjengelige for brukere som ønsker å teste nye funksjoner. Nederst på siden, under `Assets`, kan du laste ned `x86_64` eller `x86_64-nonfree.iso`.  Image `x86_64-nonfree.iso` inneholder ikke-fri (lukket kildekode) programvare som kreves for Server One og de fleste DIY-maskinvarene, spesielt for støtte for grafikk og nettverksenheter.
 
 
 Det anbefales å verifisere filens integritet ved å sjekke SHA256-hashverdien mot den som er oppført på GitHub. For Linux kan kommandoen `sha256sum startos-0.3.4.2-efc56c0-20230525_x86_64.iso` brukes, mens andre operativsystemer er dekket i dokumentasjonen.
 
 
-Etter at StartOS-imaget er lastet ned og verifisert, må det flashes over på en USB-stasjon. balenaEtcher er en anbefalt programvare for denne oppgaven. Det er et gratis verktøy med åpen kildekode for å skrive OS-bildefiler til USB-stasjoner og SD-kort, tilgjengelig for Windows, macOS og Linux. Last ned den aktuelle versjonen fra det offisielle [Balena Etcher-nettstedet] (https://www.balena.io/etcher/) og kjør installasjonsprogrammet. Koble til USB-stasjonen eller SD-kortet, åpne Balena Etcher og klikk på "Flash from file" for å velge det nedlastede OS-bildet. Etcher vil automatisk oppdage tilkoblede stasjoner; velg riktig mål hvis det finnes flere. Klikk på "Flash" for å begynne å skrive avbildningen. Etcher validerer automatisk skriveprosessen når den er fullført. Når du er ferdig, kan du trygt fjerne stasjonen og bruke den til å starte enheten.
+Etter at StartOS-imaget er lastet ned og verifisert, må det flashes over på en USB-stasjon. balenaEtcher er en anbefalt programvare for denne oppgaven. Det er et gratis verktøy med åpen kildekode for å skrive OS-bildefiler til USB-stasjoner og SD-kort, tilgjengelig for Windows, macOS og Linux. Last ned den aktuelle versjonen fra det offisielle [Balena Etcher-nettstedet](https://www.balena.io/etcher/) og kjør installasjonsprogrammet. Koble til USB-stasjonen eller SD-kortet, åpne Balena Etcher og klikk på "Flash from file" for å velge det nedlastede OS-bildet. Etcher vil automatisk oppdage tilkoblede stasjoner; velg riktig mål hvis det finnes flere. Klikk på "Flash" for å begynne å skrive avbildningen. Etcher validerer automatisk skriveprosessen når den er fullført. Når du er ferdig, kan du trygt fjerne stasjonen og bruke den til å starte enheten.
 
 
 ![image](assets/en/19.webp)
@@ -92,7 +92,7 @@ For en ny serverinstallasjon velger du `Start på nytt`. Først kobler du server
 Du kan fjernstyre serveren fra en hvilken som helst datamaskin i samme nettverk. Åpne en nettleser og naviger til `http://start.local`.
 
 
-**Merknad**: Hvis det oppstår tilkoblingsproblemer med denne adressen, skyldes det ofte at hjemmenettverk ikke klarer å løse opp `.local`-domenenavn. Problemet kan løses ved å få tilgang til serveren direkte via IP-adressen. IP-adressen finner du ved å logge deg inn på ruterens administrasjonsgrensesnitt (vanligvis på `192.168.1.1` eller en lignende adresse) og finne enheten i listen over DHCP-klienter eller nettverkskart. Deretter skriver du inn hele IP-adressen (f.eks. `http://192.168.1.105`) i nettleseren. Dette omgår DNS-oppløsningen. Hvis problemene vedvarer, kan du gå til [siden for vanlige problemer] (https://docs.start9.com/0.3.5.x/support/common-issues.html#setup-troubleshoot) eller [ta kontakt med kundestøtte] (https://start9.com/contact/)
+**Merknad**: Hvis det oppstår tilkoblingsproblemer med denne adressen, skyldes det ofte at hjemmenettverk ikke klarer å løse opp `.local`-domenenavn. Problemet kan løses ved å få tilgang til serveren direkte via IP-adressen. IP-adressen finner du ved å logge deg inn på ruterens administrasjonsgrensesnitt (vanligvis på `192.168.1.1` eller en lignende adresse) og finne enheten i listen over DHCP-klienter eller nettverkskart. Deretter skriver du inn hele IP-adressen (f.eks. `http://192.168.1.105`) i nettleseren. Dette omgår DNS-oppløsningen. Hvis problemene vedvarer, kan du gå til [siden for vanlige problemer](https://docs.start9.com/0.3.5.x/support/common-issues.html#setup-troubleshoot) eller [ta kontakt med kundestøtte](https://start9.com/contact/)
 
 
 StartOS-oppsettskjermbildet bør vises. Klikk på `Start Fresh` for å starte oppsettet av den nye serveren.
@@ -144,7 +144,7 @@ sudo apt install -y ca-certificates p11-kit
 Naviger til katalogen der sertifikatet ble lastet ned, vanligvis `~/Downloads` . Utfør disse kommandoene for å legge til sertifikatet i operativsystemets tillitslager. Gå til nedlastingsmappen med `cd ~/Downloads`. Opprett den nødvendige katalogen med `sudo mkdir -p /usr/share/ca-certificates/start9`. Kopier sertifikatfilen, og erstatt `ditt-filnavn.crt` med det faktiske filnavnet, ved å bruke `sudo cp "ditt-filnavn.crt" /usr/share/ca-certificates/start9/`. Registrer sertifikatet permanent ved å legge til banen til sertifikatet i systemkonfigurasjonen med `sudo bash -c "echo 'start9/ditt-filnavn.crt' >> /etc/ca-certificates.conf"`. Til slutt gjenoppbygger du tillitslageret med `sudo update-ca-certificates`. Det er viktig å bruke det faktiske sertifikatfilnavnet og verifisere alle baner før du utfører disse kommandoene. Denne prosessen etablerer permanent tillit for Start9-serverens HTTPS-tilkoblinger.
 
 
-En vellykket installasjon vil indikeres av en utdata som sier `1 lagt til`. De fleste applikasjoner vil da kunne koble seg til på en sikker måte via `https`. Hvis du bruker Firefox, kreves det et ekstra [siste trinn] (https://docs.start9.com/0.3.5.x/misc-guides/ca-ff.html#ca-ff). For Chrome eller Brave er det nødvendig med et annet [siste trinn] (https://docs.start9.com/0.3.5.x/misc-guides/ca-chrome.html#ca-chrome) for å konfigurere nettleseren til å respektere rot-CA-en. Test tilkoblingen ved å oppdatere siden. Hvis problemet vedvarer, avslutter du nettleseren og åpner den på nytt før du besøker siden på nytt.
+En vellykket installasjon vil indikeres av en utdata som sier `1 lagt til`. De fleste applikasjoner vil da kunne koble seg til på en sikker måte via `https`. Hvis du bruker Firefox, kreves det et ekstra [siste trinn](https://docs.start9.com/0.3.5.x/misc-guides/ca-ff.html#ca-ff). For Chrome eller Brave er det nødvendig med et annet [siste trinn](https://docs.start9.com/0.3.5.x/misc-guides/ca-chrome.html#ca-chrome) for å konfigurere nettleseren til å respektere rot-CA-en. Test tilkoblingen ved å oppdatere siden. Hvis problemet vedvarer, avslutter du nettleseren og åpner den på nytt før du besøker siden på nytt.
 
 
 ![image](assets/en/08.webp)

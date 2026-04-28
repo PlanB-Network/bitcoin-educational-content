@@ -89,8 +89,6 @@ Je, uko tayari kuzama katika ulimwengu wa mitandao ya kompyuta? Twende!
 **KUMBUKA**: Maelezo yanatokana na mfumo wa GNU/Linux CentOS 7. Walakini, usanidi wa mtandao kwa kiasi kikubwa ni sawa wakati wa kulinganisha Debian na mfumo wa CentOS. Kwa hivyo, hatutafanya tofauti yoyote. Wakati kuna moja, tutakiambisha kwa nembo mahususi.
 
 
-**N.B.**: Ukikutana na maneno yoyote usiyoyafahamu wakati wa kozi, tafadhali soma [faharasa](https://planb.academy/resources/glossary) kwa ufafanuzi.
-
 
 
 # Protocol za TCP/IP
@@ -306,18 +304,19 @@ Sehemu ya kwanza kabisa kwenye kichwa inaitwa Toleo. Thamani hii ya 4-bit inabai
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Nambari ya Toleo | Itifaki | Maelezo ya Toleo | Marejeleo |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Imehifadhiwa | Imehifadhiwa | |
+| 2–3 | Haijagawiwa | Haijagawiwa | |
+| 4 | IP | Itifaki ya Mtandao | RFC 791 |
+| **5** | **ST** | **Modi ya datagramu ya ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Itifaki ya Mtandao toleo la 6 | RFC 8200 |
+| 7 | TP/IX | Mtandao Ujao | RFC 1475 |
+| 8 | PIP | Itifaki ya Mtandao ya P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Haijagawiwa | Haijagawiwa | |
+| 15 | Imehifadhiwa | Imehifadhiwa | |
 
 Miongoni mwa hizi ni IPv5, ambayo, ingawa haijulikani kwa umma, ilikuwepo kama ST (_Stream Protocol_). Iliyoundwa katika miaka ya 1980, IPv5 iliundwa kwa Address hitaji linalokua wakati huo: kutoa "_Ubora wa Huduma_" (QoS) kwa mtiririko fulani wa data ambao ulihitaji uwasilishaji endelevu, thabiti, kama vile mitiririko ya Voice over IP au media titika. Lengo lake lilikuwa kuhakikisha kipimo data hadi mwisho na kipaumbele, dhana sawa na kile RSVP (_Itifaki ya Uhifadhi wa Rasilimali_) inatoa leo kwa ajili ya kuhifadhi rasilimali za mtandao kwenye vipanga njia vya kisasa.
 
@@ -485,14 +484,15 @@ Kihistoria, mfumo wa IPv4 ulitegemea mpango wa msingi wa darasa, unaoitwa kutoka
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Darasa** | **Mfululizo wa Anwani za IPv4** | **Matumizi**                |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x hadi 126.x.x.x            | Anwani za unicast            |
+|           | (127.x.x.x imehifadhiwa kwa loopback)| Loopback ya ndani        |
+| B         | 128.0.x.x hadi 191.255.x.x        | Anwani za unicast            |
+| C         | 192.0.0.x hadi 223.255.255.x      | Anwani za unicast            |
+| D         | 224.0.0.0 hadi 239.255.255.255    | IP Multicast                 |
+| E         | 240.0.0.0 hadi 255.255.255.255    | Imehifadhiwa kwa majaribio   |
 
 Sio thamani zote zinazowezekana zinaweza kupewa wapangishaji. Kwa mfano, katika **darasa C** Address, byte ya mwisho inatoa bits 8 (maadili 256). Lakini mbili kati ya hizi zimehifadhiwa:
 
@@ -573,13 +573,14 @@ Tunataka subnet 4 za hadi wapangishi 60 kila moja.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Kitambulisho cha subnet (biti) | Anwani ya subnet | Maski ya subnet | Masafa ya anwani         | Anwani ya broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Hatua ya 5**: Hii inaunda mitandao midogo minne, kila moja ikisaidia hadi mashine 62, huku ikidumisha mpango wa jumla wa kushughulikia. Sehemu _hostid_ imegawanywa katika sehemu _subnetid_ na sehemu ya mwenyeji.
 
@@ -623,7 +624,9 @@ Block ya /17 ina address 2^(32-17) kwa hivyo 2^15 = jumla ya address 32,768. Kut
 Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali vya kawaida na vinyago sawa vya subnet na address zinazoweza kutumika:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Kiambishi CIDR | Biti za host zinazopatikana | Maski ya subnet | Anwani za host zinazotumika |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +638,8 @@ Ili kurahisisha ukubwa wa CIDR kueleweka, hapa kuna jedwali la viambishi awali v
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point pekee) |
+| /32         | 0                   | 255.255.255.255 | 1 (anwani ya host pekee)     |
 
 **KUMBUKA**: Kihistoria, RFC 950 ilikataza matumizi ya subnet sufuri, hasa ili kuzuia mkanganyiko katika uelekezaji. Block hii iliondolewa na RFC 1878, ambayo inaruhusu matumizi yake kikamilifu. Block ya zamani ilitokana zaidi na kutopatana na maunzi ya zamani ambayo hayakuweza kushughulikia CIDR ipasavyo. Vifaa vya kisasa havina tatizo kama hilo.
 
@@ -820,12 +822,13 @@ Usanifu wa tabaka hufuata kanuni kwamba kila Layer inashughulikia habari tu ndan
 Jedwali hapa chini linatoa muhtasari wa masharti ya muktadha wa TCP na UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Safu ya TCP/IP       | Jina la kitengo (TCP) | Jina la kitengo (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Safu ya programu     | Mtiririko        | Ujumbe           |
+| Safu ya usafirishaji | Sehemu           | Pakiti           |
+| Safu ya intaneti     | Datagram         | Datagram         |
+| Safu ya ufikiaji wa mtandao | Fremu    | Fremu            |
 
 ### Vitengo vya awali vya huduma na data
 
@@ -908,7 +911,8 @@ Jedwali hapa chini linaonyesha mawasiliano haya:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Msimbo wa jozi | Thamani za biti zilizoamilishwa | Thamani ya desimali |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -923,7 +927,8 @@ Jedwali hapa chini linaonyesha mawasiliano haya:
 Ili kubadilisha binary kuwa desimali, ongeza uzani wa biti ambazo zimewekwa kuwa 1.
 
 
-| Binary     | Decimal Value |
+
+| Binaari    | Thamani ya desimali |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -962,13 +967,14 @@ Hapo awali, mitandao ya IPv4 iligawanywa katika **madarasa** matano: (A, B, C, D
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Daraja | Biti za mwanzo | Masafa ya baiti ya kwanza | Maski ya subnet chaguo-msingi | Kusudi                        |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Mitandao mikubwa sana            |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Mitandao ya ukubwa wa kati       |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Mitandao midogo                  |
+| D     | 1110         | 224 – 239        | Haitumiki            | Anwani za multicast              |
+| E     | 1111         | 240 – 255        | Haitumiki            | Majaribio (haitumiki hadharani)  |
 
 Address Maalum:
 
@@ -1223,7 +1229,8 @@ Jedwali la uelekezaji, linalodhibitiwa na mtu (uelekezaji tuli) au kwa nguvu (ue
 Jedwali la uelekezaji hufanya kama jedwali la ramani kati ya anwani za IP lengwa na lango zinazofuata. Kwa kawaida huhifadhi vitambulishi vya mtandao (_network ID_) badala ya kila seva pangishi Address, ambayo hupunguza ukubwa wake kwa kiasi kikubwa.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Anwani ya Lengwa | Anwani ya Ruta ya Hatua Inayofuata | Kiolesura |
 | ------------------- | ----------------------- | --------- |
 
 Kutumia maingizo haya, router inaweza kuamua haraka kupitia Interface na kwa nodi gani kila datagram inapaswa kutumwa. Ikiunganishwa na ARP kwa ajili ya kusuluhisha anwani za MAC zinazolingana, hii inahakikisha uhamishaji bora na wa kuaminika wa data kwenye mtandao.
@@ -1299,11 +1306,12 @@ Kanuni hii tendaji ya utafsiri inategemea usimamizi sahihi wa jedwali: kila ingi
 _Mfano wa jedwali la tafsiri lililorahisishwa la NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP ya Ndani | IP ya Nje | Muda (sek) | Inatumika tena? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | hapana    |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ndiyo     |
+| 10.100.0.89   | 193.48.100.46  | 0              | hapana    |
 
 Katika mfano huu, ikiwa hakuna pakiti imepitia kwa ingizo la pili kwa zaidi ya saa moja (sekunde 3,600), imetiwa alama kuwa inaweza kutumika tena. Kinyume chake, muda wa sifuri unaonyesha mawasiliano amilifu, ramani ikiwa imefungwa.
 
@@ -1766,13 +1774,14 @@ IPv6 Address ambayo haijabainishwa inawakilishwa na `::` au, kwa uwazi zaidi, `:
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Kiambishi cha Anwani ya IPv6 | Maelezo               |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Anwani zilizohifadhiwa                     |
+| 2000::/3            | Anwani za unicast, zinazoweza kupitishwa kwenye Mtandao |
+| fc00::/7            | Anwani za kipekee za ndani (1)             |
+| fe80::/10           | Anwani za link-local                       |
+| ff00::/8            | Anwani za multicast                        |
 
 (1): *Kwenye LAN ya faragha, kiambishi awali cha `fd00::/8` kinapendekezwa kwa kuweka addresses za ndani ambazo haziwezi kubadilishwa kwenye Mtandao.*
 
@@ -1857,23 +1866,27 @@ Hatimaye, Unique Local Addresses  (_ULA_, kwa _Anwani za Kipekee za Mitaa_) ni z
 Kidhahania, address za IPv6 mara nyingi huwakilishwa kama muundo wa jozi ambapo nusu ya kwanza (biti 64 za kwanza) hutambulisha kiambishi awali cha mtandao, na nusu ya pili (pia biti 64) hutambulisha Interface ya kifaa kwenye mtandao huo kwa njia ya kipekee. Mgawanyiko huu hurahisisha usanidi wa kiotomatiki wa Address kupitia mitambo kama vile SLAAC (_Stateless Address Autoconfiguration_), ambayo huruhusu mashine kiotomatiki generate Address thabiti kulingana na MAC Address au kitambulishi cha bahati nasibu.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Sehemu    | Kiambishi | L | Kitambulisho cha kimataifa | Subnet | Kitambulisho cha kiolesura |
 |-----------|--------|---|-----------|--------|---------------|
-| Bits      | 7      | 1 | 40        | 16     | 64            |
+| Biti      | 7      | 1 | 40        | 16     | 64            |
 
 Usanifu wa IPv6 unafuata mtindo wa ngazi ya kimataifa wa uelekezaji wa Mtandao wa leo. Kugawanya kiambishi awali huwezesha sajili za kikanda na waendeshaji mtandao kudhibiti ugawaji wa Address kwa njia iliyogatuliwa, huku ikihakikisha upekee wa kimataifa. Ndani ya mfumo huu mpangishi sawa anaweza kushikilia kwa wakati mmoja unicast Address ya kimataifa kwa mawasiliano ya intaneti na kiunganishi cha ndani cha Address kwa mwingiliano wa ndani, k.m. kwa ujirani wa karibu au kwa ujumbe wa kugundua kipanga njia.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Sehemu    | Kiambishi | Sifuri | Kitambulisho cha kiolesura |
 |-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Biti      | 10     | 54   | 64           |
 
 **Address za Anycast** zinawakilisha dhana ya kati ambayo hujengwa juu ya muundo wa unicast lakini inaweza kuwa kama utangazaji anuwai katika hali fulani. Address ya anycast ni, kimsingi, unicast Address iliyopewa miingiliano kadhaa iliyosambazwa kwenye nodi tofauti za mtandao. Pakiti inapotumwa kwa Address ya onyesho lolote, protocol ya IPv6 inalenga kuiwasilisha kwa mojawapo ya seva pangishi zinazoshiriki Address, ambayo kwa kawaida ndiyo iliyo karibu zaidi katika suala la topolojia ya uelekezaji. Mbinu hii huongeza kasi ya uchakataji wa hoja na kuboresha uthabiti wa huduma zinazosambazwa. Mfano wa kawaida ni seva za DNS za mizizi, ambapo anwani ya utumaji wowote huelekeza maswali kiotomatiki kwenye eneo la karibu la uwepo.
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Sehemu     | Kiambishi | Mtandao mdogo | Kitambulisho cha Muunganisho |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 Katika IPv6, **Multicast Address** huchukua nafasi ya utaratibu wa utangazaji, ambao ulionekana kuwa wa gharama kubwa sana na usiofaa kwa mtandao wa kimataifa. Address ya onyesho nyingi hutambua kundi la violesura, kwa kawaida kwenye seva pangishi nyingi, ambazo zingependa kupokea pakiti sawa kwa wakati mmoja.
@@ -1896,7 +1909,8 @@ Muundo wa IPv6 multicast Address ni pamoja na:
 - sehemu ya kitambulisho (biti 112) inayotambulisha nambari ya kikundi cha watangazaji anuwai.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Sehemu      | Kiambishi | Bendera | Upeo | ID ya Kikundi |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
@@ -2017,8 +2031,9 @@ Tangu 2006, kila RIR imepokea block ya IPv6 /12 kutoka kwa IANA, saizi isiyobadi
 Kiwango cha kawaida cha ugawaji kinaonekana kama hii:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Mteja | Mtandao mdogo | Muunganisho |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kwa wingi huu wa anwani, NAT (*Network Address Translation*), ambayo ilikuwa muhimu katika IPv4 ili kukabiliana na uhaba wa Address, haihitajiki tena. Kila seva pangishi inaweza kuwa na Address ya umma ya kipekee, inayoweza kuendeshwa kimataifa, ikirahisisha muunganisho wa mwisho hadi mwisho na kufanya itifaki kama vile IPSec, VoIP, au miunganisho ya ndani iwe rahisi kutumia.

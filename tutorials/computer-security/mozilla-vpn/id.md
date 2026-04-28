@@ -12,7 +12,7 @@ Di era digital pengumpulan data, privasi online telah menjadi isu utama bagi kit
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Berdasarkan prinsip ini, [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di:
+Berdasarkan prinsip ini, [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) adalah layanan VPN sumber terbuka yang dikembangkan pada tahun 2020 oleh Mozilla Foundation. Layanan ini tersedia di:
 
 
 
@@ -80,7 +80,7 @@ Anda dapat mengaktifkan VPN dengan mengeklik radio button di bawah ini, yang aka
 
 Mozilla VPN memungkinkan Anda untuk memilih lokasi Anda dalam dua format:
 
-- Single-Hop: yang merelokasi IP Address komputer Anda dan mengenkripsi data ke server di wilayah tertentu yang dipilih, dalam contoh Sofia di Belarus.
+- Single-Hop: yang merelokasi IP Address komputer Anda dan mengenkripsi data ke server di wilayah tertentu yang dipilih, dalam contoh Sofia di Bulgaria.
 
 - Multi-Hop: membuat koneksi terenkripsi dari komputer Anda ke dua server jarak jauh. Ini adalah enkripsi ganda: data Anda dienkripsi melalui server A, kemudian dari server A, data dienkripsi lagi ke server B.
 

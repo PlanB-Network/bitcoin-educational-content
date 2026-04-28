@@ -327,7 +327,7 @@ OPTIONS:
 
 
 
-*Tämä opetusohjelma on osittain poimittu [Summer of Bitcoin -blogin] (https://blog.summerofbitcoin.org/) artikkelista. Alkuperäiseen versioon on tehty muutoksia*
+*Tämä opetusohjelma on osittain poimittu [Summer of Bitcoin -blogin](https://blog.summerofbitcoin.org/) artikkelista. Alkuperäiseen versioon on tehty muutoksia*
 
 
 

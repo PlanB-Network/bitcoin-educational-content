@@ -5,7 +5,5 @@ wrong_answers:
   - Es resistente a la inflación.
   - Fomenta sistemas financieros descentralizados.
 explanation: |
-  La moneda fiduciaria otorga a los gobiernos el poder de controlar la oferta monetaria y
-  las tasas de interés, permitiéndoles influir en la actividad económica y resultando
-  en un control centralizado.
-reviewed: false
+  La moneda fiduciaria otorga a los gobiernos el poder de controlar la oferta monetaria y las tasas de interés, permitiéndoles influir en la actividad económica y resultando en un control centralizado.
+reviewed: true

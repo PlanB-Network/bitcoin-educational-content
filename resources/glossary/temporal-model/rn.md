@@ -1,5 +1,6 @@
 ---
-term: URUGERO RW'IGIHE
+term: Modèle temporel
+definition: Isubumiriza ry'ibihe itunshwa ry'amafaranga ryashiriweko kugira hamenyekane akaranga cyangwa aho umuntu akorera muri blockchain aherereye.
 ---
 
 Inyifato zimwe zimwe z’abantu ziramenyekana On-Chain. Kumbure ikintu gifise akamaro kuruta ibindi vyose mu gusuzuma uruhererekane ni ukuntu usinzira! Ego cane, iyo usinziriye, birashoboka ko udatangaza amakuru y’ubudandaji bwa Bitcoin. Muri rusangi, uryama nk’amasaha amwe amwe. Ni co gituma isesengura ry’igihe rikoreshwa cane mu gusesangura uruhererekane. Birimwo gusa kwandika ibihe amafaranga y’ikigo kinaka atangazwa ku rubuga rwa Bitcoin. Gusuzuma ivyo bigereranyo vy’igihe biratuma dushobora gukuramwo amakuru menshi cane.

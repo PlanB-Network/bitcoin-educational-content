@@ -6,4 +6,4 @@ wrong_answers:
   - Mizizi ya ujazo
 explanation: |
   Katika kriptografia, sehemu zenye kikomo za mpangilio 2^m mara nyingi hutumia polimanomia zisizoweza kupunguzwa ili kuhakikisha kuwa sehemu hiyo imefafanuliwa vyema na kwamba utendakazi wote unawezekana.
-reviewed: false
+reviewed: true

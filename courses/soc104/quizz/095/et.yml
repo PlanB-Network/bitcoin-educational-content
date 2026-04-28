@@ -1,0 +1,9 @@
+question: Milline on Satoshi Nakamoto filosoofia kohaselt tavapäraste valuutade põhiprobleem, mida Bitcoin peaks lahendama?
+answer: Ülemäärane usaldus, mida nõutakse tsentraliseeritud institutsioonide suhtes, mis on ajalooliselt seda usaldust rikkunud valuuta devalveerimise kaudu
+wrong_answers:
+  - Digitaalse infrastruktuuri puudumine ja traditsiooniliste pangandussüsteemide aeglane tehingute töötlemise kiirus
+  - Kõrged tehingutasud ja piiratud juurdepääs rahvusvahelistele rahaülekannetele pankade kaudu
+  - Traditsiooniliste pangandus- ja maksetöötlussüsteemide keskkonnamõju ja energiatarbimine
+explanation: |
+  Satoshi Nakamoto ütles selgesõnaliselt, et "tavapärase valuuta põhiprobleem on kogu usaldus, mis on vajalik selle toimimiseks" ja et keskpankadele tuleb usaldada, et nad ei devalveeri raha, kuid "fiat-valuutade ajalugu on täis selle usalduse rikkumisi".
+  See tsitaat paljastab Bitcoin põhieesmärgi: kaotada vajadus usalduse järele tsentraliseeritud institutsioonide vastu. Teised valikud, kuigi potentsiaalselt põhjendatud mure traditsioonilise rahanduse pärast, ei lahenda Satoshi tuvastatud fundamentaalset filosoofilist probleemi - et fiat-süsteemid nõuavad pimedat usaldust institutsioonidesse, mis on korduvalt osutunud usaldamatuks rahaga manipuleerimise ja väärindamise kaudu.

@@ -1,0 +1,8 @@
+question: Liquid Network'da yeni bloklar ne sıklıkla üretilir?
+answer: Her dakika
+wrong_answers:
+  - Her 10 dakikada bir
+  - Her 30 saniyede bir
+  - Her 5 dakikada bir
+explanation: |
+  Liquid Network, Bitcoin'nin olasılıksal 10 dakikalık aralıklarına kıyasla çok daha hızlı ve öngörülebilir olan deterministik bir round-robin tarzında her dakika blok üretir. Bu hassas bir dakikalık zamanlama, ağın arbitraj ve hızlı borsalar arası mutabakat gibi kullanım durumları için kritik öneme sahiptir ve kurumsal alım satım işlemleri için gereken hızı sağlar.

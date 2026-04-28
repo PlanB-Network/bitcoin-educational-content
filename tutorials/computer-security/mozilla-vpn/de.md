@@ -20,7 +20,7 @@ Ein ***Virtuelles Privates Netzwerk*** (VPN) ist ein System zur Herstellung eine
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Basierend auf diesem Prinzip ist [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) ein Open-Source-VPN-Dienst, der 2020 von der Mozilla Foundation entwickelt wurde. Er ist verfügbar auf:
+Basierend auf diesem Prinzip ist [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) ein Open-Source-VPN-Dienst, der 2020 von der Mozilla Foundation entwickelt wurde. Er ist verfügbar auf:
 
 
 
@@ -71,7 +71,7 @@ Es ist in mehr als 30 Ländern verfügbar und verfügt über mehr als 500 Server
 
 
 
-Sie können [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) je nach Betriebssystem herunterladen. In diesem Tutorial werden wir uns Mozilla VPN unter dem Windows-Betriebssystem ansehen.
+Sie können [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) je nach Betriebssystem herunterladen. In diesem Tutorial werden wir uns Mozilla VPN unter dem Windows-Betriebssystem ansehen.
 
 
 
@@ -153,7 +153,7 @@ Mit Mozilla VPN können Sie Ihren Standort in zwei Formaten auswählen:
 
 
 
-- Single-Hop: Die IP Address Ihres Computers wird an einen Server in einer bestimmten Region, in unserem Beispiel Sofia in Weißrussland, verlegt und die Daten werden verschlüsselt.
+- Single-Hop: Die IP Address Ihres Computers wird an einen Server in einer bestimmten Region, in unserem Beispiel Sofia in Bulgarien, verlegt und die Daten werden verschlüsselt.
 
 
 

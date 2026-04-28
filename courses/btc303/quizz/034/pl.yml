@@ -5,5 +5,5 @@ wrong_answers:
   - Opłaty transakcyjne są spalane podczas przetwarzania, stopniowo zmniejszając dostępną podaż bitcoinów
   - "Protokół Bitcoin automatycznie blokuje monety, które nie poruszały się przez dłuższy czas, aby zapobiec inflacji"
 explanation: |
-  W rozdziale tym wyjaśniono, że choć teoretyczna maksymalna wartość wynosi około 20 999 817 BTC, rzeczywista użyteczna podaż jest znacznie niższa z powodu ludzkich błędów i strat. Utracone klucze prywatne sprawiają, że bitcoiny są trwale niedostępne, portfele są kradzione lub zapominane, a monety są czasami wysyłane na nieprawidłowe adresy. Czynniki te powodują trwałe zmniejszenie podaży, co jest korzystne dla pozostałych posiadaczy, ponieważ Satoshi zauważył, że utracone monety sprawiają, że monety wszystkich innych są warte więcej.
+  Choć teoretyczne maksimum wynosi 20 999 999.9769 BTC, rzeczywista użyteczna podaż jest znacznie niższa z powodu błędów ludzkich i strat. Utracone klucze prywatne czynią bitcoiny trwale niedostępnymi, portfele są kradzione lub zapominane, a monety są czasami wysyłane na nieprawidłowe adresy. Czynniki te prowadzą do trwałego zmniejszenia podaży, z czego korzystają pozostali posiadacze, jak zauważył Satoshi: utracone monety zwiększają wartość monet innych.
 reviewed: false

@@ -1,0 +1,8 @@
+question: W federacyjnym modelu konsensusu Liquid, jaka jest minimalna liczba podpisów funkcyjnych wymaganych do walidacji bloku i jaka jest maksymalna liczba awarii węzłów, które sieć może tolerować?
+answer: wymagane 11 podpisów, może tolerować do 4 awarii węzłów
+wrong_answers:
+  - wymagane 8 podpisów, może tolerować do 7 awarii węzłów
+  - wymagane 15 podpisów, może tolerować do 2 awarii węzłów
+  - wymagane 9 podpisów, może tolerować do 6 awarii węzłów
+explanation: |
+  Liquid wykorzystuje system progowy 11 z 15, w którym co najmniej 11 z 15 osób funkcyjnych musi podpisać każdy blok, aby był on ważny. Taka konstrukcja pozwala na kontynuowanie działania sieci nawet w przypadku awarii do 4 węzłów (15 - 11 = 4). Pozostałe opcje albo zapewniają nieprawidłowe progi podpisów, albo błędnie obliczają tolerancję na błędy, która zawsze wynosi wszystkie węzły minus wymagane podpisy.

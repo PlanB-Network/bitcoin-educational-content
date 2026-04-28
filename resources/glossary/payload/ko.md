@@ -1,5 +1,6 @@
 ---
-term: 유용한 로드
+term: 페이로드
+definition: 더 큰 데이터 패킷 내에 실려 전달되는 핵심 데이터.
 ---
 
 컴퓨팅의 일반적인 맥락에서 페이로드는 더 큰 데이터 패킷에 포함된 필수 데이터입니다. 예를 들어, Bitcoin Address을 통한 SegWit V0에서 페이로드는 다양한 메타데이터(HRP, 구분자, SegWit 버전 및 체크섬)가 없는 공개키의 Hash에 해당합니다. 예를 들어, Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`에는 :

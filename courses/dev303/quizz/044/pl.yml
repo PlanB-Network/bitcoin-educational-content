@@ -1,0 +1,8 @@
+question: Jaka jest najbardziej podstawowa cecha, którą implementują wszystkie zamknięcia w hierarchii cech zamknięć Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce jest najbardziej podstawową cechą, którą implementują wszystkie zamknięcia w Rust. Reprezentuje on zamknięcia, które mogą być wywołane co najmniej raz, co czyni go podstawą hierarchii cech zamknięć. FnMut i Fn są bardziej restrykcyjnymi cechami, które opierają się na FnOnce - FnMut pozwala na wielokrotne wywołania z mutacją, podczas gdy Fn pozwala na wielokrotne wywołania bez mutacji. Iterator nie jest powiązany z cechami zamknięcia i służy do przetwarzania sekwencji danych.

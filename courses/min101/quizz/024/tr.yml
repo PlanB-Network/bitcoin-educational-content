@@ -1,0 +1,9 @@
+question: İki blok arasındaki gecikmeyi temelden değişken kılan fenomen nedir?
+answer: Hash işleminin olasılıksal doğası
+wrong_answers:
+  - Hash işleminin deterministik doğası
+  - Hash işleminin özyinelemeli doğası
+  - Hash işleminin periyodik doğası
+explanation: |
+  Her hash bağımsız bir denemedir, bu da sabit bir hashrate'de bile keşif sürelerini rastgele hale getirir.
+reviewed: false

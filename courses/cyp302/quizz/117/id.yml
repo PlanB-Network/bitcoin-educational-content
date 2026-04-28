@@ -6,4 +6,4 @@ wrong_answers:
   - Pada setiap tahap operasi XOR
 explanation: |
   Galois Fields digunakan dalam substitusi byte untuk menghitung invers perkalian dan dalam operasi MixColumns untuk melakukan perkalian modulo suatu polinomial tak tereduksi.
-  direview: false
+reviewed: true

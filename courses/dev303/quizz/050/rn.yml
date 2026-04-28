@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo gikomeye cane iyo ukoresheje RC<RefCell<T>> ku bijanye n’ubuzima bushobora guhinduka, kandi ni uburyo ubuhe bufasha kubikingira?
+answer: Inzinguzingu z'ibisobanuro zituma ubwonko buva, zibujijwe hakoreshejwe ibisobanuro bigoyagoya
+wrong_answers:
+  - Amakuru agenda hagati y'indodo, abujijwe hakoreshejwe Mutex aho gukoresha RefCell
+  - Igihe co gukora giteye ubwoba kubera ukurenga ku mategeko y'inguzanyo, kibujijwe no kugenzura igihe co gukoranya
+  - Ikirundo giseseka kuva ku gusubira inyuma kwimbitse, kibujijwe no kugabanya uburebure bw'ishingiro
+explanation: |
+  Iyo ukoresheje RC<RefCell<T>>, akaga ka mbere ni uguhingura inzinguzingu z’ibimenyetso aho imiterere y’amakuru yishingiyeko ataco ihinduye canke biciye mu minyororo. Izo nzira zibuza igiharuro c’ibiharuro gushika kuri zero, bikaba bituma ubwonko buva mu bwenge kuko amakuru asa n’ayama afise ibiharuro bikora. Ivyiyumviro bigoyagoya bitorera umuti ivyo mu kudatanga umusanzu ku giharuro c’ivyifuzo bikoreshwa mu gucunga ubwonko, guca inzinguzingu mu gihe bizigama amasano. Ayandi mahitamwo ntabwo ari meza: RC<RefCell<T>> ntabwo ari thread-safe rero amarushanwa y'amakuru si co kintu nyamukuru gihangayikishije, RefCell cane cane yimurira amatohoza mu gihe co gukora aho kuyabuza mu gihe co gukora, kandi stack overflow ntibijanye n'uburyo bwo guharura amakuru.

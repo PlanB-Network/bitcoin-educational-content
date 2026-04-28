@@ -1,4 +1,4 @@
-question: Según Friedrich Hayek, ¿por qué la planificación centralizada es ineficiente?
+question: Según Friedrich Hayek, ¿Por qué la planificación centralizada es ineficiente?
 answer: No puede manejar la complejidad de las decisiones económicas
 wrong_answers:
   - Reduce la cantidad de bienes producidos
@@ -6,4 +6,4 @@ wrong_answers:
   - Promueve el comercio internacional
 explanation: |
   Hayek explica que la planificación centralizada falla debido a la complejidad de las decisiones económicas, las cuales solo un mercado libre puede coordinar de manera eficiente.
-reviewed: false
+reviewed: true

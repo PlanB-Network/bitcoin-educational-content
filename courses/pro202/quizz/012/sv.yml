@@ -1,0 +1,8 @@
+question: Vilken matematisk egenskap säkerställer att punkter i en elliptisk kurva kan adderas konsekvent och förutsägbart i kryptografiska operationer?
+answer: Punkterna bildar en matematisk grupp med slutenhet, associativitet, identitet och invers
+wrong_answers:
+  - Punkterna bibehåller kontinuerliga mjuka kurvor som bevarar geometriska relationer
+  - Punkterna följer linjära progressionsmönster som skapar förutsägbara sekvenser
+  - Punkterna använder modulär aritmetik som automatiskt förhindrar beräkningsfel
+explanation: |
+  Elliptiska kurvpunkter bildar en matematisk grupp under addition, vilket innebär att de uppfyller fyra väsentliga egenskaper: slutenhet (om man lägger till två punkter får man en annan punkt på kurvan), associativitet (operationsordningen spelar ingen roll), identitet (punkten i oändligheten fungerar som noll) och invers (varje punkt har en reflektion som upphäver den). Det är dessa gruppegenskaper som gör att kryptografi med elliptiska kurvor fungerar tillförlitligt och att operationer som skalärmultiplikation fungerar konsekvent, oavsett om vi arbetar med släta reella kurvor eller diskreta punkter i ändliga fält.

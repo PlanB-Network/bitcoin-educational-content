@@ -289,7 +289,7 @@ Una verificación correcta garantiza que el archivo `.img` es auténtico (firmad
 
 
 
-Si aún no lo tiene, descargue el programa [Balena Etcher] (https://etcher.balena.io/), y luego :
+Si aún no lo tiene, descargue el programa [Balena Etcher](https://etcher.balena.io/), y luego :
 
 
 

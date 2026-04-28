@@ -1,0 +1,8 @@
+question: Co się dzieje, gdy wywołujesz lock() na muteksie w Rust i dlaczego wielu deweloperów uważa za dopuszczalne rozpakowanie tej operacji?
+answer: Zwraca wynik, który może zawieść, jeśli inny wątek spanikował podczas trzymania muteksu, a rozpakowywanie jest dopuszczalne, ponieważ nie można rozsądnie obsługiwać błędów spowodowanych paniką innych wątków
+wrong_answers:
+  - Zwraca Option, która może być None, jeśli muteks jest zajęty, a unwrapping jest akceptowalny, ponieważ zajęte muteksy powinny powodować natychmiastowe zakończenie programu
+  - Zwraca wynik, który może zawieść z powodu wykrycia zakleszczenia, a rozpakowanie jest dopuszczalne, ponieważ zakleszczenia wskazują na podstawowe błędy projektowe, które powinny wywołać panikę
+  - Zawsze się to udaje i zwraca bezpośrednio strażnika blokady, dzięki czemu rozpakowywanie jest niepotrzebne, ponieważ operacje muteksów są gwarantowane jako bezpieczne dla wątków w Rust
+explanation: |
+  Podczas wywoływania funkcji lock() na muteksie, Rust zwraca wynik, ponieważ operacja może się nie powieść, jeśli inny wątek spanikował podczas trzymania muteksu, pozostawiając go w zatrutym stanie. Tworzy to wyjątkową sytuację, w której lokalny kod otrzymuje błąd za coś, co wydarzyło się w kontekście zupełnie innego wątku. Ponieważ nie można rozsądnie obsłużyć ani odzyskać błędu, który powstał w wyniku paniki innego wątku, wielu programistów uważa za dopuszczalne rozpakowywanie blokad muteksów, zwłaszcza w bazach kodu wolnych od paniki. Inne opcje są nieprawidłowe, ponieważ muteksy nie zwracają opcji dla stanów zajętości, nie mają wbudowanego wykrywania zakleszczeń, które powoduje awarie wyniku, a operacja nie zawsze kończy się sukcesem z powodu mechanizmu zatrucia.

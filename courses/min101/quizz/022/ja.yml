@@ -1,0 +1,9 @@
+question: ハッシュレートは何を測定しますか？
+answer: 秒間ハッシュ数
+wrong_answers:
+  - 秒間ブロック数
+  - 秒間トランザクション数
+  - 秒間バイト数
+explanation: |
+  ハッシュレートは、毎秒行われるハッシュ試行の回数をH/sで表します。
+reviewed: false

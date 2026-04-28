@@ -1,5 +1,6 @@
 ---
-term: BEKRÄFTELSE
+term: Bekräftelse
+definition: Antal block som brutits efter det som innehåller en transaktion, vilket indikerar dess säkerhetsnivå och oföränderlighet.
 ---
 
 Avser antalet block under vilka en transaktion drar nytta av deras säkerhet. När en transaktion sänds till Bitcoin-nätverket förblir den först väntande i nodernas mempooler. Den inkluderas sedan i ett giltigt block av en Miner. I det här skedet har transaktionen just lagts till i Blockchain, vilket innebär att den får sin första bekräftelse. När ett nytt block hittas ovanpå det block som innehåller transaktionen i fråga kommer det att få en andra bekräftelse, och så vidare. Varje nytt block som bryts ovanpå det block som innehåller transaktionen utgör en ny bekräftelse. Genom att räkna antalet bekräftelser för en transaktion kan vi uppskatta risken för att den så småningom kan komma att avbrytas på grund av en omorganisation. Antalet bekräftelser gör det möjligt för oss att bedöma graden av oföränderlighet för en transaktion på Blockchain.

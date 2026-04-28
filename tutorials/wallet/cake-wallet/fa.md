@@ -1,5 +1,5 @@
 ---
-name: کیک Wallet
+name: Cake Wallet
 description: آموزش درباره Cake Wallet و Silent Payments
 ---
 

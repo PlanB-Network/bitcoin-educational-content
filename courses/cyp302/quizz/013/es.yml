@@ -6,4 +6,4 @@ wrong_answers:
   - Solo cables de cobre
 explanation: |
   La mayoría de las comunicaciones modernas dependen de redes de cable de fibra óptica, las cuales aseguran intercambios de datos de alta velocidad, aunque algunos usos de satélites y cables coaxiales permanecen.
-reviewed: false
+reviewed: true

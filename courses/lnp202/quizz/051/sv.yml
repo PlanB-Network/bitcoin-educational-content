@@ -1,0 +1,9 @@
+question: Vilken port måste ställas in i Zeus för LND (REST)-anslutningen som beskrivs i det här kapitlet?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Om du vill komma åt API från din LND-nod på Umbrel måste du använda port 8080 när du konfigurerar Zeus.
+reviewed: false

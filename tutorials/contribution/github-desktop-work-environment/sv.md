@@ -178,6 +178,6 @@ För detta finns flera alternativ tillgängliga för dig. Även om datorns stand
 Gratulerar till ditt bidrag! Din arbetsmiljö är nu inställd för att bidra till Plan ₿ Academy. Du kan nu utforska våra andra specifika handledningar för varje typ av bidrag (översättning, korrekturläsning, skrivning.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

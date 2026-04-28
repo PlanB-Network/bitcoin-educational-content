@@ -1,0 +1,9 @@
+question: Který halving je podle protokolu poslední?
+answer: 33.
+wrong_answers:
+  - 21.
+  - 38.
+  - 64.
+explanation: |
+  33. halving ve výšce 6 930 000 ukončí blokovou subvenci, protože klesne pod minimální jednotku.
+reviewed: false

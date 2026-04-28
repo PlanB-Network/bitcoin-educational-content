@@ -1,0 +1,8 @@
+question: ¿Qué distingue los errores de recursos en tiempo de ejecución de los errores de entrada no válida y los errores lógicos en el desarrollo de aplicaciones Bitcoin?
+answer: Los errores de recursos en tiempo de ejecución se producen cuando las dependencias externas, como archivos o conexiones de red, no están disponibles, lo que requiere correcciones del entorno en lugar de cambios en el código
+wrong_answers:
+  - "Los errores de recursos en tiempo de ejecución se producen cuando los parámetros de la función no cumplen los requisitos, lo que indica violaciones del contrato entre el invocador y la función"
+  - Los errores de recursos en tiempo de ejecución representan fallos en la implementación del programa que requieren depuración y modificación del código para resolverse correctamente
+  - Los errores de recursos en tiempo de ejecución se producen cuando el sistema de tipos no detecta las discordancias, lo que permite que tipos de datos incorrectos se propaguen por el sistema
+explanation: |
+  Los errores de recursos en tiempo de ejecución son externos a la lógica del programa y se producen cuando dependencias como archivos, conexiones de red o dispositivos de almacenamiento no están disponibles. A diferencia de los errores de entrada no válida (que implican violaciones del contrato de parámetros) o los errores lógicos (que son fallos de implementación), los errores de recursos en tiempo de ejecución suelen requerir correcciones del entorno en lugar de cambios en el código. La aplicación debe manejarlos con elegancia, ya que a menudo son temporales y están fuera del control directo del programa.

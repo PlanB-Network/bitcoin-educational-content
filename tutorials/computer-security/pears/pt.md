@@ -1,5 +1,5 @@
 ---
-name: Peras
+name: Pears
 description: Como posso instalar e utilizar aplicações no Pears?
 ---
 

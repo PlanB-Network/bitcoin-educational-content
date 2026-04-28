@@ -42,7 +42,7 @@ Nie potrzebujesz żadnej technicznej ani dogłębnej wiedzy, zanim weźmiesz **C
 
 
 
-Wejdź na stronę [Coinos] (https://coinos.io/) w przeglądarce i kliknij na **Start in seconds**.
+Wejdź na stronę [Coinos](https://coinos.io/) w przeglądarce i kliknij na **Start in seconds**.
 
 
 

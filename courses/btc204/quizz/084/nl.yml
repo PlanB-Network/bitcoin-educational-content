@@ -1,10 +1,10 @@
-question: Wat is de rol van de post-mix Wallet in het Zerolink-protocol?
+question: Wat is de rol van de post-mix wallet in het Zerolink-protocol?
 answer: Om de UTXO's op te slaan na het mengen.
 wrong_answers:
   - Om de UTXO's op te slaan voor het mengen.
   - Om de verandering UTXO's op te slaan.
   - Om de consolidatie UTXO's op te slaan.
 explanation: |
-  De post-mix Wallet is gereserveerd voor munten die zijn gemengd.
+  De post-mix wallet is gereserveerd voor munten die zijn gemengd.
   
 reviewed: false

@@ -1,4 +1,4 @@
-question: Mengapa analis tidak menerapkan COINJOIN pada transaksi tipe Stonewall?
+question: Mengapa analis tidak akan menerapkan CIOH pada transaksi tipe Stonewall?
 
 answer: Karena ada 2 output dengan jumlah yang sama
 
@@ -8,6 +8,7 @@ wrong_answers:
   - Karena ada lebih banyak output daripada input
 
 explanation: |
-  Menganalisis transaksi Stonewall dari luar tidak mengarah pada penerapan COINJOIN, karena keberadaan dua output dengan jumlah yang sama menunjukkan pola coinjoin. Dari sudut pandang eksternal, COINJOIN oleh karena itu tidak berlaku dalam kasus spesifik ini.
+
+  Analisis transaksi Stonewall dari luar tidak mengarah pada penerapan CIOH, karena keberadaan dua output dengan jumlah yang sama menunjukkan pola coinjoin. Dari sudut pandang eksternal, CIOH oleh karena itu tidak dapat diterapkan dalam kasus spesifik ini.
 
 reviewed: false

@@ -1,0 +1,9 @@
+question: Que recurso a mineração de Bitcoin precisa utilizar?
+answer: Eletricidade
+wrong_answers:
+  - Água
+  - Pedras preciosas
+  - Ouro
+explanation: |
+  A mineração é um trabalho de validação que consome eletricidade através de computadores.
+reviewed: false

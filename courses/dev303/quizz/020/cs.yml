@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi metodami a přidruženými funkcemi ve strukturách Rust?
+answer: Metody berou jako první parametr self, zatímco přidružené funkce ne
+wrong_answers:
+  - Metody jsou ve výchozím nastavení veřejné, zatímco přidružené funkce jsou ve výchozím nastavení soukromé
+  - Metody mohou pouze číst data, zatímco přidružené funkce mohou měnit pole struktury
+  - Metody se volají v tečkové notaci, zatímco přidružené funkce v šipkové notaci
+explanation: |
+  Metody v Rust jsou funkce definované v bloku impl, které jako první parametr přijímají nějakou formu self (self, &self nebo &mut self), což jim umožňuje pracovat s instancemi struktury. Přidružené funkce jsou také definovány v impl blocích, ale nepřijímají self jako parametr, čímž se podobají statickým metodám v jiných jazycích. Přidružené funkce se volají pomocí syntaxe s dvojtečkou (Type::function_name()) a běžně se používají jako konstruktory, zatímco metody se volají na instancích pomocí tečkové notace. Ostatní možnosti jsou nesprávné, protože metody i asociované funkce se řídí stejnými pravidly viditelnosti, obě mohou být určeny k modifikaci nebo čtení dat v závislosti na jejich implementaci a asociované funkce používají syntaxi dvojité dvojtečky, nikoliv šipkovou notaci.

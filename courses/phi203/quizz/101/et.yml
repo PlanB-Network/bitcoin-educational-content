@@ -1,0 +1,8 @@
+question: Millised on kolm olulist tingimust, mis on liberaalse majandusteooria kohaselt vajalikud selleks, et majanduslik tootmine toimuks?
+answer: Vabadus valida vahendeid ja eesmärke, omandiõigus ressursside ja töövahendite üle ning turvalisus vägivalla või varguse eest
+wrong_answers:
+  - Turgude riiklik reguleerimine, tootmisvahendite riiklik omand ja tsentraliseeritud majandusplaneerimine
+  - Juurdepääs loodusvaradele, kvalifitseeritud tööjõu kättesaadavus ja tehnoloogiline areng tootmises
+  - Tarbijate nõudlus kaupade järele, kapitaliinvesteeringute kättesaadavus ja konkurentsivõimelised turustruktuurid
+explanation: |
+  Peatükis tuuakse selgelt välja kolm tootmise põhitingimust: esiteks, vabadus teha asjakohaseid valikuid vahendite ja eesmärkide osas (mis eeldab eneseomandit ja ratsionaalset otsustamist); teiseks, omandiõigus asjade, tööriistade ja oma keha üle (kuna ilma omandiõiguseta on tootmine võimatu); ning kolmandaks, turvalisus vägivalla, ähvarduste ja varguse eest (ilma milleta ei ole võimalik luua elujõulist tootmisprojekti). Teised valikud kirjeldavad kas riiklikult kontrollitud süsteeme, mis on vastuolus liberaalse teooriaga, või majanduslikke tegureid, mis on küll olulised, kuid ei ole käesolevas raamistikus käsitletavad põhitingimused.

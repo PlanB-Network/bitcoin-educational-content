@@ -20,7 +20,7 @@ Bitcoin:n protokollakerrosten välillä oli kuitenkin edelleen suuri ongelma: ne
 
 
 
-[Boltz] (https://boltz.Exchange) on ei-hallinnollinen alusta, joka sopii kaikille, jotka haluavat käydä kauppaa Bitcoin-protokollan eri kerrosten välillä:
+[Boltz](https://boltz.Exchange) on ei-hallinnollinen alusta, joka sopii kaikille, jotka haluavat käydä kauppaa Bitcoin-protokollan eri kerrosten välillä:
 
 
 

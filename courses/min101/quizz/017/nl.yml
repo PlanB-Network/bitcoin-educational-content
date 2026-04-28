@@ -1,0 +1,9 @@
+question: Wie ligt aan de basis van het concept Bit Gold?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold is een conceptueel project voor een elektronisch geldsysteem voorgesteld door Nick Szabo.
+reviewed: false

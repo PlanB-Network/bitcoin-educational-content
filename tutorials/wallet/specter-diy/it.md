@@ -1,5 +1,5 @@
 ---
-name: Specter fai da te
+name: Specter DIY
 description: Guida all'installazione di Specter DIY
 ---
 

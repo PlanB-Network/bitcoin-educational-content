@@ -1,5 +1,6 @@
 ---
-term: Halving
+term: 減半
+definition: 每隔 210,000 個區塊將礦工獎勵減半的事件。
 ---
 
 術語「Halving」是指一個預定事件，透過區塊補貼，將礦工每挖出一個區塊所獲得的獎金減少一半。這一減少特別適用於由憑空創造的新比特幣組成的區塊補貼部分。Halving 是由 Bitcoin 的創造者 Satoshi Nakamoto 設計，作為控制通貨膨脹和確保比特幣有限 Supply 的機制。

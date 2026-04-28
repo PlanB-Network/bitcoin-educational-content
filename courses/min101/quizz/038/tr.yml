@@ -1,0 +1,9 @@
+question: BIP-34'ten beri, coinbase scriptSig'in başlangıcı ne içermelidir?
+answer: Blok yüksekliği
+wrong_answers:
+  - Madencinin hashrate'i
+  - Zorluk hedefi
+  - Blok imzası
+explanation: |
+  BIP-34, blok yüksekliğinin coinbase scriptSig'ine yazılmasını zorunlu kılar.
+reviewed: false

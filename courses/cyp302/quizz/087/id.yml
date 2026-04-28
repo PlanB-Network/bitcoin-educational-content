@@ -6,4 +6,4 @@ wrong_answers:
   - SHA-256
 explanation: |
   Metode CBC menggunakan vektor inisialisasi dan menerapkan XOR antara setiap blok teks biasa dan blok terenkripsi sebelumnya, membuat enkripsi menjadi probabilistik dan lebih aman daripada ECB.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Jaká matematická operace se používá k nalezení bodu P + Q na eliptické křivce?
+answer: Narýsujte přímku procházející body P a Q, najděte třetí průsečík R a pak R odražte přes osu x
+wrong_answers:
+  - Přímý součet souřadnic x a y bodů P a Q pomocí modulární aritmetiky
+  - Vynásobte souřadnice P a Q a výsledek získáte rovnicí křivky
+  - Vypočítejte střed mezi body P a Q a poté použijte metodu tečné čáry, abyste získali součet
+explanation: |
+  Sčítání bodů na eliptických křivkách se řídí specifickým geometrickým pravidlem: nakreslíme přímku procházející dvěma body P a Q, která protíná křivku ve třetím bodě R, a pak R odrazíme přes osu x, abychom dostali P + Q. Tato geometrická operace se při práci nad konečnými poli stává algebraickou, ale zachovává stejný základní princip. Ostatní možnosti popisují nesprávné metody, které se neřídí zavedeným grupovým zákonem pro eliptické křivky.

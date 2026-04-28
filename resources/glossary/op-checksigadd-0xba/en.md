@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition: Tapscript opcode verifying a signature and incrementing a counter if valid.
 ---
 
 Extracts the top three values from the stack: a `public key`, a `CScriptNum` `n`, and a `signature`. If the signature is not the empty vector and is not valid, the script terminates with an error. If the signature is valid or is the empty vector (`OP_0`), two scenarios are presented:

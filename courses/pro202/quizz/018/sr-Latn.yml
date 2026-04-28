@@ -1,0 +1,8 @@
+question: U DER formatu kodiranja za ECDSA potpise, tipično povećanje veličine od sirovih podataka potpisa do konačnog kodiranog potpisa je oko 6 do 8 bajtova.
+answer: Od 64 bajta do približno 71-72 bajta zbog DER formatiranja
+wrong_answers:
+  - Od 32 bajta do približno 64 bajta zbog kodiranja R i S komponente
+  - Od 64 bajta do tačno 128 bajtova zbog dvostrukog kodiranja komponenti potpisa
+  - Od 71 bajta do približno 64 bajta zbog kompresije sekvencijalnih markera
+explanation: |
+  DER kodiranje dodaje strukturni overhead ECDSA potpisima kroz sekvencijalne markere (0x30), bajtove dužine i prefikse komponenti (0x02). Sirovi ECDSA potpis se sastoji od dve 32-bajtne vrednosti (R i S) ukupne dužine 64 bajta, ali DER formatiranje ovo proširuje na približno 71-72 bajta. Ova neefikasnost je bila jedan od razloga zašto je Bitcoin kasnije usvojio Schnorr potpise u Taproot, koji koriste fiksne 64-bajtne potpise bez encoding overhead-a.

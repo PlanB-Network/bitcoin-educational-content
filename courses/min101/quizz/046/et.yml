@@ -1,0 +1,9 @@
+question: Milline lause võtab kokku kaevandamisbasseini (pool) pakutava teenuse?
+answer: See müüb ennustatavust
+wrong_answers:
+  - See müüb kaevandamisraskust
+  - See müüb suuremaid blokke
+  - See müüb kaevandamismasinaid
+explanation: |
+  Ühendamine muudab väga kõikuva tulu regulaarsemateks makseteks vastutasuna osaluse ja tasude eest.
+reviewed: false

@@ -1,8 +1,0 @@
-question: Lightning Network'ı kendiniz için test etmenin bir yolu nedir?
-answer: Fountain adlı podcast uygulamasını deneyerek.
-wrong_answers:
-  - Mining Bitcoin tarafından kişisel bir bilgisayar kullanılarak.
-  - Bankadan Bitcoin satın alarak.
-  - Yeni bir kripto para birimi oluşturarak.
-explanation: >-
-reviewed: true

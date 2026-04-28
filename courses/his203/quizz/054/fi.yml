@@ -1,0 +1,10 @@
+question: Minkä maksustandardin ohjelmistoarkkitehti Dave Thaler rekisteröi IANA:ssa syyskuussa 2012?
+answer: BIP 21 URI-järjestelmä
+wrong_answers:
+  - BIP 32 hierarkkista determinististä salkkua
+  - BIP 70 maksuprotokolla
+  - BIP 47 uudelleenkäytettävää maksukoodia
+explanation: |
+ Tämä standardi mahdollisti maksupyyntöjen virallistamisen, jotka olivat merkkijonon tai QR-koodin muodossa. Useiden ehdotusten jälkeen lopullinen URI
+ järjestelmä kuvattiin tammikuussa 2012 BIP 21:ssä, jonka kuvasi Matt Corallo. Dave Thaler rekisteröi sen IANA:ssa syyskuussa.
+reviewed: true

@@ -318,7 +318,7 @@ Voer vervolgens de pincode op je Jade in en je bent weer verbonden.
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
 
-Je Jade wordt ontgrendeld via Blockstream's "virtuele secure element" (zie het eerste deel van deze tutorial). Dit vereist een Bluetooth-verbinding met de Green-toepassing. Als u problemen ondervindt met de Bluetooth-verbinding tijdens het ontgrendelen, probeer dan de twee apparaten te ontkoppelen en opnieuw te koppelen. Als het probleem zich blijft voordoen, kunt u toch uw Jade ontgrendelen door de optie "*QR Scan*" te selecteren en de instructies te volgen die beschikbaar zijn [op de Blockstream website] (https://jadefw.blockstream.com/pinqr/index.html).
+Je Jade wordt ontgrendeld via Blockstream's "virtuele secure element" (zie het eerste deel van deze tutorial). Dit vereist een Bluetooth-verbinding met de Green-toepassing. Als u problemen ondervindt met de Bluetooth-verbinding tijdens het ontgrendelen, probeer dan de twee apparaten te ontkoppelen en opnieuw te koppelen. Als het probleem zich blijft voordoen, kunt u toch uw Jade ontgrendelen door de optie "*QR Scan*" te selecteren en de instructies te volgen die beschikbaar zijn [op de Blockstream website](https://jadefw.blockstream.com/pinqr/index.html).
 
 
 Voordat je je eerste bitcoins ontvangt in je Wallet, **raad ik je sterk aan om een lege hersteltest uit te voeren**. Maak een notitie van wat referentie-informatie, zoals je xpub of de eerste Address die je ontvangt, wis dan je Wallet op de Green app en op de Jade Plus terwijl hij nog leeg is (`Options -> Device -> Factory Reset`). Probeer vervolgens je Wallet te herstellen met je papieren back-ups van de Mnemonic-zin. Controleer of de cookie-informatie die na het herstellen wordt gegenereerd, overeenkomt met de informatie die je oorspronkelijk hebt opgeschreven. Als dit het geval is, kunt u er zeker van zijn dat uw papieren back-ups betrouwbaar zijn. Om meer te weten te komen over hoe je een testherstel uitvoert, kun je deze andere tutorial raadplegen:
@@ -374,7 +374,7 @@ Kies het betalingsbedrag.
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
 
-Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, ga naar [Mempool.space] (https://Mempool.space/) in het gedeelte "*Transactiekosten*".
+Onderaan het scherm kun je het tarief voor deze transactie selecteren. Je hebt de keuze om de aanbevelingen van de applicatie te volgen of je eigen kosten aan te passen. Hoe hoger de vergoeding in verhouding tot andere lopende transacties, hoe sneller uw transactie wordt verwerkt. Voor informatie over de kostenmarkt, ga naar [Mempool.space](https://Mempool.space/) in het gedeelte "*Transactiekosten*".
 
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)

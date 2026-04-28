@@ -1,0 +1,9 @@
+question: Zašto koristiti menadžer Lightning čvora?
+answer: Lak pristupa naprednim funkcijama
+wrong_answers:
+  - Zameni LND implementaciju
+  - Eliminiši zavisnost od Umbrel
+  - Modifikovanje Lightning protokola
+explanation: |
+  Napredni menadžeri nude funkcionalnosti koje nisu dostupne u osnovnom interfejsu, dok ostaju jednostavni interfejsi.
+reviewed: false

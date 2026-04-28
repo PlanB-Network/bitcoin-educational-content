@@ -1,0 +1,9 @@
+question: 哪些平台允許您購買流入的流動性？
+answer: 岩漿
+wrong_answers:
+  - Bitcoin 核心
+  - 1ML
+  - Boltz
+explanation: |
+  Magma 可透過自動化市場輕鬆購買流入的流動資金。
+reviewed: false

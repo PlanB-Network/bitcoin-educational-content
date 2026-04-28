@@ -6,4 +6,4 @@ wrong_answers:
   - RIPEMD160
 explanation: |
   HMAC-SHA512 adalah algoritma yang menggabungkan fungsi hash dan kunci rahasia untuk menghitung kode autentikasi.
-ditinjau: false
+reviewed: true

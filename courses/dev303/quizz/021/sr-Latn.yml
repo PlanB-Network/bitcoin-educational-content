@@ -1,0 +1,8 @@
+question: Akoji tip parametra treba da koristi Rust metoda ako treba da modifikuje instancu strukture dok omogućava pozivaocu da zadrži vlasništvo?
+answer: "&mut self"
+wrong_answers:
+  - "&self"
+  - samopouzdanje
+  - mut self
+explanation: |
+  Metode koje treba da modifikuju instancu strukture dok omogućavaju pozivaocu da zadrži vlasništvo treba da koriste `&mut self` kao svoj prvi parametar. Ovo kreira promenljivu referencu na instancu, omogućavajući metodi da promeni polja strukture bez oduzimanja vlasništva od pozivaoca. Korišćenje `&self` bi omogućilo samo čitanje instance, `self` bi potpuno konzumiralo instancu, a `mut self` nije važeća Rust sintaksa za parametre metoda.

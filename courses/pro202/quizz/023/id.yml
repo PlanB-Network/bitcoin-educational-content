@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari kolom nomor urut dalam input transaksi Bitcoin?
+answer: Untuk mengaktifkan penguncian waktu dan fungsionalitas Ganti Dengan Biaya (RBF)
+wrong_answers:
+  - Untuk menentukan urutan input yang harus diproses oleh penambang
+  - Untuk mencegah double-spending dengan membuat pengenal unik untuk setiap input
+  - Untuk menunjukkan tingkat prioritas transaksi untuk penghitungan biaya
+explanation: |
+  Kolom nomor urut pada input transaksi Bitcoin memiliki dua tujuan utama: mengimplementasikan penguncian waktu (yang menunda kapan sebuah transaksi dapat dikonfirmasi) dan mengaktifkan fungsionalitas Replace-by-Fee (RBF) (yang memungkinkan pengguna untuk meningkatkan biaya pada transaksi yang belum dikonfirmasi). Opsi lainnya tidak benar karena: input tidak perlu diproses dalam urutan tertentu oleh penambang, pencegahan double-spending ditangani oleh model UTXO dan konsensus blockchain, bukan nomor urut, dan prioritas transaksi ditentukan oleh tingkat biaya, bukan nomor urut.

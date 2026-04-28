@@ -1,0 +1,8 @@
+question: U P2WSH transakciji svedoka za 2-od-3 multisig, zašto mora biti uključen prazan element na dnu steka svedoka?
+answer: Da bi se nadoknadila greška CHECKMULTISIG-a koja troši dodatni element steka tokom izvršavanja
+wrong_answers:
+  - "Da obezbediš rezervisano mesto za treći potpis koji nije korišćen u 2-od-3 multisig validaciji"
+  - Da se odvoje podaci potpisa od skripte svedoka radi pravilnog SegWit parsiranja validacije
+  - Da bi se osiguralo da stek svedoka ima paran broj elemenata za efikasnu konstrukciju merkle stabla
+explanation: |
+  CHECKMULTISIG opcode ima istorijsku grešku gde uklanja jedan dodatni element sa steka više nego što bi trebalo. Ovo utiče na sve multisig transakcije, uključujući P2WSH. Prazan element kompenzuje ovu grešku, osiguravajući da preostali elementi steka (potpisi i svedok skripta) budu pravilno pozicionirani za validaciju. Ostale opcije su netačne: neiskorišćeni potpisi nisu predstavljeni praznim elementima, parsiranje svedoka ne zahteva elemente za razdvajanje, i stekovi svedoka ne trebaju paran broj elemenata za merkle operacije.

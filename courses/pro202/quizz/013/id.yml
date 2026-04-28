@@ -1,0 +1,8 @@
+question: Jenis struktur matematika apa yang dibentuk oleh titik-titik kurva elips di bawah operasi penjumlahan?
+answer: Grup matematika dengan ketertutupan, keterkaitan, identitas, dan invers
+wrong_answers:
+  - Bidang terbatas dengan operasi perkalian dan pembagian yang ditentukan
+  - Ruang vektor dengan perkalian skalar dan kombinasi linier
+  - Struktur cincin dengan operasi penjumlahan dan perkalian
+explanation: |
+  Titik-titik kurva elips membentuk sebuah grup matematika dalam penjumlahan, yang berarti mereka memenuhi empat sifat penting: penutupan (menambahkan dua titik akan menghasilkan satu titik lagi pada kurva), asosiatif (urutan operasi tidak menjadi masalah), identitas (titik pada tak terhingga bertindak sebagai nol), dan kebalikannya (setiap titik memiliki sebuah refleksi pada sumbu x yang akan membatalkan titik tersebut). Struktur grup ini sangat penting untuk kriptografi kurva eliptik karena memastikan bahwa operasi seperti perkalian skalar (menambahkan sebuah titik pada dirinya sendiri berulang kali) terdefinisi dengan baik dan dapat diprediksi, sehingga memungkinkan protokol kriptografi yang aman seperti yang digunakan pada Bitcoin.

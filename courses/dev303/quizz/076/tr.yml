@@ -1,0 +1,8 @@
+question: Derleyici tarafından doğrulanmış gibi görünen sabit kodlanmış değerlerde expect() kullanmak üretim kodunda neden potansiyel olarak sorunludur?
+answer: Sabit kodlanmış değerler, yeniden düzenleme yoluyla zaman içinde gelişebilir ve önceden geçerli olan değerleri çalışma zamanı hatalarına dönüştürebilir
+wrong_answers:
+  - Derleyici, sabit kodlanmış değerlerin geçerliliğini derleme zamanında doğrulayamaz, bu da expect() fonksiyonunu güvenilmez kılar
+  - Sabit kodlanmış değerler dinamik değerlerden daha fazla bellek tüketerek expect() ile performans sorunlarına neden olur
+  - Expect() yöntemi, bilinen geçerli değerlerle uğraşırken unwrap() yöntemine kıyasla gereksiz ek yük ekler
+explanation: |
+  Doğru cevap, bölümdeki kritik bir içgörüyü vurgulamaktadır: görünüşte güvenli olan sabit kodlu değerler bile zamanla tehlikeli hale gelebilir. Örnek, geçerli bir IP adresinin nasıl bir sabite dönüştürülebileceğini ve daha sonra orijinal varsayımı bozarak 'localhost' olarak değiştirilebileceğini göstermektedir. Yanlış cevaplar yanlıştır çünkü: derleyici sabit kodlu değerleri derleme zamanında doğrulayabilir, bellek tüketimi expect() ile ilgili bir sorun değildir ve expect() unwrap() ile karşılaştırıldığında önemli bir performans ek yüküne sahip değildir.

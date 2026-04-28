@@ -1,11 +1,9 @@
-question: ¿Qué es el trilema de la blockchain?
-answer: Un protocolo basado en una blockchain solo puede satisfacer dos de los criterios de descentralización, seguridad y escalabilidad.
+question: ¿Qué riesgo corre un nodo Lightning al publicar un estado antiguo del canal?
+answer: Una penalización
 wrong_answers:
-  - Un protocolo basado en una blockchain solo puede satisfacer uno de los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain puede satisfacer todos los criterios de descentralización, seguridad y escalabilidad.
-  - Un protocolo basado en una blockchain no puede satisfacer ninguno de los criterios de descentralización, seguridad y escalabilidad.
+  - Una advertencia
+  - Comisiones de minado adicionales
+  - Una congelación temporal
 explanation: |
-  El trilema de la blockchain se refiere al desafío de que
-  un protocolo basado en una blockchain solo puede satisfacer dos criterios de
-  descentralización, seguridad y escalabilidad.
-reviewed: true
+  El protocolo prevé una penalización disuasoria que permite a la otra parte recuperar la totalidad de los fondos.
+reviewed: false

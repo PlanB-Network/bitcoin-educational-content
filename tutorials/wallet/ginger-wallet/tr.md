@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Ginger Wallet'i yüklemek için [Ginger Wallet] (https://gingerwallet.io) web sitesini ziyaret edin.
+Ginger Wallet'i yüklemek için [Ginger Wallet](https://gingerwallet.io) web sitesini ziyaret edin.
 
 
 

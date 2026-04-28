@@ -1,6 +1,7 @@
 ---
-term: OP_2 HINGGA OP_16 (0X52 HINGGA 0X60)
+term: OP_2 SAMPAI OP_16 (0X52 SAMPAI 0X60)
 
+definition: Opcode yang mendorong nilai numerik dari 2 hingga 16 ke tumpukan.
 ---
 Opcode dari `OP_2` hingga `OP_16` mendorong nilai numerik 2 hingga 16 ke dalam _stack_. Opcode ini digunakan untuk menyederhanakan skrip dengan mengizinkan penyisipan nilai numerik yang kecil. Jenis opcode ini terutama digunakan dalam skrip _multisignature_. Berikut ini adalah contoh `scriptPubKey` untuk multisig 2/3:
 

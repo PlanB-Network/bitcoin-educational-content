@@ -1,0 +1,9 @@
+question: 根据中本聪总结的想法，确保不存在双重支出（double-spending）的唯一方法是什么？
+answer: 了解所有交易
+wrong_answers:
+  - 了解所有活跃节点
+  - 了解所有活跃矿工
+  - 了解所有私钥
+explanation: |
+  通过将交易与共享账本中记录的过去支出进行比较来检测双重支出。
+reviewed: false

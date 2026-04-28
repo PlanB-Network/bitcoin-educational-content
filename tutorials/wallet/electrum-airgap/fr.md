@@ -10,7 +10,7 @@ Dans ce tutoriel, je vais t’expliquer comment réaliser ton premier dispositif
 - un ancien appareil auquel tu interdiras définitivement toute connexion à Internet ;
 - ton ordinateur d’utilisation quotidienne.
 
-Cette configuration permet d’obtenir un degré de sécurité supérieur par rapport à un simple `hot wallet` : l’ancien ordinateur – sans connexion au réseau – conserve tes clés privées, qui ne sont jamais exposées en ligne, mais bien gardées hors ligne (« airgap » ou « cold »).
+Cette configuration permet d’obtenir un degré de sécurité supérieur par rapport à un simple `hot wallet` : l’ancien ordinateur, sans connexion au réseau, conserve tes clés privées, qui ne sont jamais exposées en ligne, mais bien gardées hors ligne (« airgap » ou « cold »).
 
 Sur ton ordinateur principal, tu installeras en revanche un wallet de visualisation (« watch-only »), connecté à Internet et qui te permettra, par exemple, de consulter le solde et de préparer les transactions de réception.
 
@@ -146,7 +146,7 @@ Pour recevoir des fonds, tu dois obligatoirement utiliser le wallet de visualisa
 
 ![image](assets/en/20.webp)
 
-Une fois la transaction propagée, tu remarqueras – ce qui est normal – qu’elle est visible uniquement dans le wallet de visualisation et non dans le wallet airgap.
+Une fois la transaction propagée, tu remarqueras, ce qui est normal, qu’elle est visible uniquement dans le wallet de visualisation et non dans le wallet airgap.
 
 ![image](assets/en/21.webp)
 

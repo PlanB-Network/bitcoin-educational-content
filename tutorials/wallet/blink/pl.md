@@ -62,7 +62,7 @@ Oto, co zszokowało wielu użytkowników: Konfiguracja Blink jest szybsza niż t
 
 - Pobierz Blink Wallet
  - Wyszukaj "Blink Wallet" w [App Store](https://apps.apple.com/ng/app/Bitcoin-beach-Wallet/id1531383905) (iOS), [Google Play](https://play.google.com/store/apps/details?id=com.galoyapp) (Android) lub [App Gallery](https://appgallery.huawei.com/app/C105387593) (Huawei), w zależności od urządzenia.
- - Można go również pobrać bezpośrednio ze strony [Blink Wallet website] (https://blink.sv).
+ - Można go również pobrać bezpośrednio ze strony [Blink Wallet website](https://blink.sv).
 - Utwórz Wallet
  - Stuknij "Utwórz nowy Wallet"
  - Zgoda na warunki i postanowienia
@@ -305,7 +305,7 @@ Blink jest powiernikiem Wallet, co oznacza, że przechowuje i zarządza Twoimi �
 
 
 - Plusy: Prosta konfiguracja, przyjazny dla użytkownika Interface, dostępna obsługa klienta
-- Wady: Nie kontrolujesz swoich [kluczy prywatnych] (https://www.blink.sv/blog/not-your-keys-not-your-coins), co oznacza, że polegasz na Blink w zarządzaniu swoimi środkami
+- Wady: Nie kontrolujesz swoich [kluczy prywatnych](https://www.blink.sv/blog/not-your-keys-not-your-coins), co oznacza, że polegasz na Blink w zarządzaniu swoimi środkami
 
 
 ### Limity transakcji
@@ -358,8 +358,8 @@ Blink jest powiernikiem Wallet, co oznacza, że przechowuje i zarządza Twoimi �
 
 - Sprawdź dokumentację Blink i [FAQ](https://faq.blink.sv/)
 - Kontakt z obsługą klienta za pośrednictwem aplikacji
-- Sprawdź [stronę wsparcia Blink] (https://www.blink.sv/en/support)
-- Dołącz do społeczności [Blink Telegram] (https://t.me/blinkbtc), aby zadawać ogólne pytania
+- Sprawdź [stronę wsparcia Blink](https://www.blink.sv/en/support)
+- Dołącz do społeczności [Blink Telegram](https://t.me/blinkbtc), aby zadawać ogólne pytania
 
 
 ### Przyspiesz swoją podróż Bitcoin:

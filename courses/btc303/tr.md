@@ -34,7 +34,7 @@ Bitcoin ile ilgilenen çok sayıda insan var; bazılarının karşıt görüşle
 
 Bu ders, ana yazarı Kalle Rosenbaum olan ve Linnéa Rosenbaum'un ortak yazar olarak katkıda bulunduğu aynı adlı kitaptan uyarlanmıştır.
 
-Kitap, Bitcoin geliştirme hakkında bilgi edinmek isteyen geliştiriciler için eğitim programları yürüten bir geliştirme merkezi olan [Chaincode Labs] (https://learning.chaincode.com/) tarafından hazırlatılmış ve finanse edilmiştir.
+Kitap, Bitcoin geliştirme hakkında bilgi edinmek isteyen geliştiriciler için eğitim programları yürüten bir geliştirme merkezi olan [Chaincode Labs](https://learning.chaincode.com/) tarafından hazırlatılmış ve finanse edilmiştir.
 
 
 +++
@@ -51,7 +51,7 @@ Kitap, Bitcoin geliştirme hakkında bilgi edinmek isteyen geliştiriciler için
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bitcoin gelişim felsefesi hakkındaki bu PHI 301 kursuna hoş geldiniz.
+Bitcoin gelişim felsefesi hakkındaki bu BTC 303 kursuna hoş geldiniz.
 
 
 Bitcoin bir kripto para biriminden çok daha fazlasıdır; merkeziyetsizlik, gizlilik, güvensizlik ve esneklik hakkında felsefi bir vizyona sahiptir. Bu eğitim, Bitcoin'ün teknik temellerine zaten aşina olan ve şimdi Bitcoin'ün tasarım ve yönetişiminin altında yatan ilkeler hakkındaki anlayışlarını derinleştirmek isteyen geliştiriciler için özel olarak tasarlanmıştır.
@@ -75,8 +75,6 @@ Bitcoin'un karmaşık yönetişim ortamında gezinmek teknik uzmanlıktan daha f
 Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başlayalım!
 
 
-***N.B.**: Kurs sırasında Bitcoin ile ilgili bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımları bulmak için [sözlüğe] (https://planb.academy/resources/glossary) bakın.*
-
 
 
 
@@ -94,7 +92,7 @@ Bitcoin yolculuğunuzda bir sonraki adımı atmaya hazır mısınız? Hadi başl
 
 Bu bölümde adem-i merkeziyetçiliğin ne olduğu ve Bitcoin'ün işleyebilmesi için neden gerekli olduğu analiz edilmektedir. Merkeziyetçilik ile
 
-madencilerin ve tam düğümlerin merkezsizleştirilmesi ve Bitcoin'ün en merkezi özelliklerinden biri olan sansüre karşı direnç için masaya ne getirdiklerini tartışın.
+[madencilerin](https://planb.academy/resources/glossary/mining) ve [tam düğümlerin](https://planb.academy/resources/glossary/full-node) merkezsizleştirilmesi ve Bitcoin'ün en merkezi özelliklerinden biri olan sansüre karşı direnç için masaya ne getirdiklerini tartışın.
 
 
 Tartışma daha sonra, herhangi bir merkezi olmayan sistemin gerekli bir özelliği olan tarafsızlığı - ya da kullanıcılara, madencilere ve geliştiricilere karşı izinsizliği - anlamaya kaymaktadır. Son olarak, Hard gibi merkezi olmayan bir sistemi kavramanın ne kadar Bitcoin olabileceğine değiniyoruz ve bunu anlamanıza yardımcı olabilecek bazı zihinsel modeller sunuyoruz.
@@ -109,7 +107,7 @@ Ademi merkeziyetçilik *sansüre direnç* elde etmek için bir araçtır.
 Bitcoin'da adem-i merkeziyetçiliğin iki önemli yönü bulunmaktadır: Miner adem-i merkeziyetçilik ve Full node adem-i merkeziyetçilik.
 
 
-Miner ademi merkeziyetçilik, işlemlerin herhangi bir merkezi kuruluş tarafından gerçekleştirilmediği veya koordine edilmediği gerçeğini ifade eder. Full node ademi merkeziyetçilik, blokların, yani madencilerin ürettiği verilerin doğrulanmasının birkaç güvenilir otorite tarafından değil, ağın ucunda, nihayetinde kullanıcıları tarafından yapılmasını ifade eder.
+Miner ademi merkeziyetçilik, [işlemlerin](https://planb.academy/resources/glossary/transaction-tx) herhangi bir merkezi kuruluş tarafından gerçekleştirilmediği veya koordine edilmediği gerçeğini ifade eder. Full node ademi merkeziyetçilik, [blokların](https://planb.academy/resources/glossary/block), yani madencilerin ürettiği verilerin doğrulanmasının birkaç güvenilir otorite tarafından değil, ağın ucunda, nihayetinde kullanıcıları tarafından yapılmasını ifade eder.
 
 
 ![](assets/tr/001.webp)
@@ -125,7 +123,7 @@ Bitcoin'ten önce dijital para birimleri yaratma girişimleri olmuştu, ancak bu
 Bitcoin'teki Miner ademi merkeziyetçiliği, *işlemlerin sıralanmasının* tek bir varlık veya sabit bir varlık grubu tarafından gerçekleştirilmediği anlamına gelir. Buna katılmak isteyen tüm aktörler tarafından kolektif olarak gerçekleştirilir; bu madenci kolektifi dinamik bir kullanıcı kümesidir. Herkes istediği gibi katılabilir ya da ayrılabilir. Bu özellik Bitcoin'i sansüre dirençli hale getirir.
 
 
-Bitcoin merkezileştirilmiş olsaydı, hükümetler gibi onu sansürlemek isteyenlere karşı savunmasız olurdu. Daha önceki dijital para yaratma girişimleriyle aynı kaderi paylaşacaktı. "Pegged Sidechains ile Blockchain İnovasyonlarını Etkinleştirmek" başlıklı [bir makalenin] (https://www.blockstream.com/sidechains.pdf) giriş bölümünde yazarlar, dijital paranın ilk versiyonlarının hasmane bir ortam için nasıl donanımlı olmadığını açıklamaktadır (ayrıca bir sonraki bölümdeki Hasmane Düşünme bölümüne bakınız).
+Bitcoin merkezileştirilmiş olsaydı, hükümetler gibi onu sansürlemek isteyenlere karşı savunmasız olurdu. Daha önceki dijital para yaratma girişimleriyle aynı kaderi paylaşacaktı. "Pegged Sidechains ile [Blockchain](https://planb.academy/resources/glossary/blockchain) İnovasyonlarını Etkinleştirmek" başlıklı [bir makalenin](https://www.blockstream.com/sidechains.pdf) giriş bölümünde yazarlar, dijital paranın ilk versiyonlarının hasmane bir ortam için nasıl donanımlı olmadığını açıklamaktadır (ayrıca bir sonraki bölümdeki Hasmane Düşünme bölümüne bakınız).
 
 
 David Chaum 1983 yılında, Double-spending'u önlemek için güvenilen merkezi bir sunucunun bulunduğu bir ortamda dijital parayı bir araştırma konusu olarak tanıttı. Bu merkezi güvenilir tarafın bireylere yönelik gizlilik riskini azaltmak ve değiştirilebilirliği sağlamak için Chaum, merkezi sunucunun imzalarının (madeni paraları temsil eden) bağlanmasını önlemek için kriptografik bir araç sağlamak için kullandığı kör imzayı tanıttı ve yine de merkezi sunucunun çift harcama önleme gerçekleştirmesine izin verdi.
@@ -164,7 +162,7 @@ Burada kulağa tuhaf gelen "eşler arası dağıtılmış Timestamp sunucusu" if
 
 Yine de, hiç kimse bunu
 
-[Gregory Maxwell Reddit'te] (https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), burada potansiyel %51 saldırılarını önlemek için madencilerin Hash gücünü sınırlamayı öneren birine yanıt veriyor:
+[Gregory Maxwell Reddit'te](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), burada potansiyel %51 saldırılarını önlemek için madencilerin Hash gücünü sınırlamayı öneren birine yanıt veriyor:
 
 
 > Bitcoin gibi merkezi olmayan bir sistemde halk seçimi kullanılır. Ancak merkezi olmayan bir sistemde sadece 'insanların' oylamasına sahip olamazsınız çünkü bu, merkezi bir tarafın insanlara oy kullanma yetkisi vermesini gerektirir. Bunun yerine, Bitcoin bilgi işlem gücünün oylamasını kullanır çünkü herhangi bir merkezi tarafın yardımı olmadan bilgi işlem gücünü doğrulamak mümkündür
@@ -258,7 +256,7 @@ Sonuca varıyor:
 
 
 
-Bitcoin'in ilgi çekici bir yönü, onu kimsenin kontrol etmediğini kavramanın ne kadar Hard olduğudur. Bitcoin'de komiteler ya da yöneticiler yoktur. Gregory Maxwell, yine [Bitcoin subreddit'inde] (https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), bunu ilgi çekici bir şekilde İngilizce diliyle karşılaştırıyor:
+Bitcoin'in ilgi çekici bir yönü, onu kimsenin kontrol etmediğini kavramanın ne kadar Hard olduğudur. Bitcoin'de komiteler ya da yöneticiler yoktur. Gregory Maxwell, yine [Bitcoin subreddit'inde](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), bunu ilgi çekici bir şekilde İngilizce diliyle karşılaştırıyor:
 
 
 > Pek çok insan otonom sistemleri anlamakta zorlanıyor, hayatlarında İngilizce gibi pek çok şey var-- ama insanlar bunları kanıksıyor ve sistem olarak düşünmüyorlar bile. Bir 'şey' olarak düşündükleri her şeyin onu kontrol eden bir otoriteye sahip olduğu merkezi bir düşünce tarzına saplanıp kalmışlardır.
@@ -267,7 +265,7 @@ Bitcoin'in ilgi çekici bir yönü, onu kimsenin kontrol etmediğini kavramanın
 > Bitcoin hiçbir şeye odaklanmaz. Bitcoin'ü benimsemiş olan çeşitli insanlar kendi özgür iradeleriyle bunu teşvik etmeyi seçmişlerdir ve bunu nasıl yapacakları kendi bilecekleri iştir. Otorite saplantılı insanlar bu faaliyetleri görüp bunların Bitcoin otoritesinin bir operasyonu olduğuna inanabilirler, ancak böyle bir otorite yoktur.
 
 
-Bitcoin'in ademi merkeziyetçilik yoluyla çalışma şekli, doğadaki birçok tür arasında bulunan olağanüstü kolektif zekaya benziyor. Bilgisayar bilimcisi Radhika Nagpal bir [Ted konuşmasında] (https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) balık sürülerinin kolektif davranışları ve bilim insanlarının robotları kullanarak bunu nasıl taklit etmeye çalıştıkları hakkında konuşuyor.
+Bitcoin'in ademi merkeziyetçilik yoluyla çalışma şekli, doğadaki birçok tür arasında bulunan olağanüstü kolektif zekaya benziyor. Bilgisayar bilimcisi Radhika Nagpal bir [Ted konuşmasında](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) balık sürülerinin kolektif davranışları ve bilim insanlarının robotları kullanarak bunu nasıl taklit etmeye çalıştıkları hakkında konuşuyor.
 
 
 > İkincisi ve benim hala en dikkat çekici bulduğum şey, bu balık sürüsünü yöneten bir lider olmadığını bilmemizdir. Bunun yerine, bu inanılmaz kolektif akıl davranışı tamamen bir balığın diğeriyle etkileşiminden ortaya çıkıyor.
@@ -314,7 +312,7 @@ Son bölümde, Bitcoin ile gerçek yazılımlar veya kullanıcılar arasındaki 
 İnsanlar sık sık "Bitcoin harika çünkü Trustless" gibi şeyler söylüyor.
 
 
-Trustless ile ne demek istiyorlar? Pieter Wuille bu yaygın kullanılan terimi [Stack Exchange] (https://Bitcoin.stackexchange.com/a/45674/69518) adresinde açıklıyor:
+Trustless ile ne demek istiyorlar? Pieter Wuille bu yaygın kullanılan terimi [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518) adresinde açıklıyor:
 
 
 > "Trustless "te bahsettiğimiz güven soyut bir teknik terimdir. Dağıtılmış bir sistem, düzgün çalışması için herhangi bir güvenilir tarafa ihtiyaç duymadığında Trustless olarak adlandırılır.
@@ -335,7 +333,7 @@ Görünüşe göre güvene dayalı merkezi olmayan bir sisteme sahip olamayız v
 Bitcoin'yi Trustless tarzında kullanmak için, tam doğrulamalı bir Bitcoin düğümü çalıştırmanız gerekir. Ancak o zaman başkalarından aldığınız blokların mutabakat kurallarına uyduğunu doğrulayabilirsiniz; örneğin, Coin ihraç programına uyulduğunu ve Blockchain'da çifte harcama yapılmadığını. Bir Full node çalıştırmıyorsanız, Bitcoin bloklarının doğrulanmasını başka birine yaptırırsınız ve size doğruyu söyleyeceklerine güvenirsiniz, bu da Bitcoin'yi güvenle kullanmadığınız anlamına gelir.
 
 
-David Harding, [Bitcoin.org web sitesinde] (https://Bitcoin.org/en/Bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
+David Harding, [Bitcoin.org web sitesinde](https://Bitcoin.org/en/Bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
 
 
 > Bitcoin para birimi yalnızca insanlar Exchange'daki bitcoinleri diğer değerli şeyler için kabul ettiğinde çalışır. Bu, ona değer veren ve Bitcoin'nin nasıl çalışması gerektiğine karar verenlerin bitcoinleri kabul eden insanlar olduğu anlamına gelir.
@@ -361,7 +359,7 @@ Yazılımınız ne kadar gelişmiş olursa olsun, coin'lerinizi içeren bloklar�
 Bitcoin'yi Trustless şeklinde kullanmaya yönelik teşvikler, sistemin Full node ademi merkeziyetçilik ihtiyacı ile uyumludur. Ne kadar çok kişi kendi tam düğümlerini kullanırsa, Full node ademi merkeziyetçilik o kadar artar ve böylece Bitcoin protokoldeki kötü niyetli değişikliklere karşı o kadar güçlü durur. Ancak ne yazık ki, Full node ademi merkeziyetçilik bölümünde açıklandığı gibi, kullanıcılar genellikle güvenilmezlik ve kolaylık arasındaki kaçınılmaz değiş tokuşun bir sonucu olarak güvenilir hizmetleri tercih etmektedir.
 
 
-Bitcoin'in güvenilmezliği sistem açısından kesinlikle zorunludur. 2018'de Matt Corallo, Riga'daki Baltık Honeybadger konferansında [güvenilmezlik hakkında konuştu] (https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/).
+Bitcoin'in güvenilmezliği sistem açısından kesinlikle zorunludur. 2018'de Matt Corallo, Riga'daki Baltık Honeybadger konferansında [güvenilmezlik hakkında konuştu](https://btctranscripts.com/baltic-honeybadger/2018/trustlessness-scalability-and-directions-in-security-models/).
 
 
 ![video](https://youtu.be/66ZoGUAnY9s?t=4019)
@@ -395,7 +393,7 @@ Bitcoin güvenle çalışır, ancak yine de yazılımınıza ve donanımınıza 
 - Bitcoin core, özel anahtarlarınızı bazı kötü aktörlere gönderecek bir kodu gizlice yerleştirmiş olabilir.
 
 
-Dolayısıyla, bir Full node çalıştırmanın yanı sıra, amaçladığınız şeyi çalıştırdığınızdan da emin olmanız gerekir. Reddit kullanıcısı brianddk [bir makale yazdı] (https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) yazılımınızı doğrularken seçebileceğiniz çeşitli güven seviyeleri hakkında. "Kuruculara güvenmek" bölümünde, tekrarlanabilir yapılardan bahsediyor:
+Dolayısıyla, bir Full node çalıştırmanın yanı sıra, amaçladığınız şeyi çalıştırdığınızdan da emin olmanız gerekir. Reddit kullanıcısı brianddk [bir makale yazdı](https://www.reddit.com/r/Bitcoin/comments/smj1ep/bitcoin_v220_and_guix_stronger_defense_against/) yazılımınızı doğrularken seçebileceğiniz çeşitli güven seviyeleri hakkında. "Kuruculara güvenmek" bölümünde, tekrarlanabilir yapılardan bahsediyor:
 
 
 > Yeniden üretilebilir yapılar, yazılımı tasarlamanın bir yoludur, böylece birçok topluluk geliştiricisinin her biri yazılımı oluşturabilir ve oluşturulan son yükleyicinin diğer geliştiricilerin ürettikleriyle aynı olmasını sağlayabilir. Bitcoin gibi herkese açık, tekrarlanabilir bir projede tek bir geliştiriciye tamamen güvenilmesi gerekmez. Birçok geliştiricinin hepsi derleme işlemini gerçekleştirebilir ve orijinal kurucunun dijital olarak imzaladığı dosyayla aynı dosyayı ürettiklerini doğrulayabilir.
@@ -403,7 +401,7 @@ Dolayısıyla, bir Full node çalıştırmanın yanı sıra, amaçladığınız 
 Makale 5 güven seviyesi tanımlıyor: siteye, kuruculara, derleyiciye, çekirdeğe ve donanıma güvenmek.
 
 
-Tekrarlanabilir derlemeler konusunu daha da derinleştirmek için Carl Dong [Guix hakkında bir sunum yaptı] (https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) ve işletim sistemine, kütüphanelere ve derleyicilere güvenmenin neden sorunlu olabileceğini ve bugün Bitcoin core tarafından kullanılan Guix adlı bir sistemle bunun nasıl düzeltileceğini açıkladı.
+Tekrarlanabilir derlemeler konusunu daha da derinleştirmek için Carl Dong [Guix hakkında bir sunum yaptı](https://btctranscripts.com/breaking-Bitcoin/2019/Bitcoin-build-system/) ve işletim sistemine, kütüphanelere ve derleyicilere güvenmenin neden sorunlu olabileceğini ve bugün Bitcoin core tarafından kullanılan Guix adlı bir sistemle bunun nasıl düzeltileceğini açıkladı.
 
 
 > Peki, araç zincirimizin tekrarlanabilir şekilde kötü niyetli olabilecek bir grup güvenilir ikili dosyaya sahip olabileceği gerçeği konusunda ne yapabiliriz? Tekrar üretilebilir olmaktan daha fazlasına ihtiyacımız var. Bootstrappable olmamız gerekiyor. Başka kuruluşlar tarafından kontrol edilen harici sunuculardan indirmemiz ve güvenmemiz gereken çok sayıda ikili araca sahip olamayız.
@@ -425,7 +423,7 @@ Bu, eski ABD başkanı Ronald Reagan'ın nükleer silahsızlanma bağlamında ku
 Kullandıkları yazılımı ve aldıkları Blockchain verilerini ne derece doğrulamak istediklerine karar vermek kullanıcılara kalmıştır. Bitcoin'teki diğer pek çok şeyde olduğu gibi, kolaylık ve güvenilirlik arasında bir denge vardır. Bitcoin core'ü kendi donanımınızda çalıştırmaktansa, gözetim altındaki bir Wallet'yı kullanmak neredeyse her zaman daha uygundur. Bununla birlikte, Bitcoin yazılımı olgunlaştıkça ve kullanıcı arayüzleri geliştikçe, zamanla güvenilmezlik için çalışmak isteyen kullanıcıları desteklemede daha iyi hale gelmelidir. Ayrıca, kullanıcılar zaman içinde daha fazla bilgi edindikçe, güveni denklemden kademeli olarak çıkarabilmelidirler.
 
 
-Bazı kullanıcılar tersine düşünmekte ve çalıştırdıkları yazılımın çoğu yönünü doğrulamaktadır. Sonuç olarak, yalnızca bilgisayar donanımlarına ve işletim sistemlerine güvenmeleri gerektiğinden, güven ihtiyacını en aza indirirler. Bunu yaparken, bulabilecekleri herhangi bir sorun hakkında uyarmak için kamuoyunda seslerini yükselterek donanımlarını kapsamlı bir şekilde doğrulamayan insanlara da yardımcı olurlar. Bunun iyi bir örneği, birisinin madencilerin aynı işlemde iki kez çıktı harcamasına izin veren bir hata keşfettiği [2018'de meydana gelen bir olay] (https://bitcoincore.org/en/2018/09/20/notice/):
+Bazı kullanıcılar tersine düşünmekte ve çalıştırdıkları yazılımın çoğu yönünü doğrulamaktadır. Sonuç olarak, yalnızca bilgisayar donanımlarına ve işletim sistemlerine güvenmeleri gerektiğinden, güven ihtiyacını en aza indirirler. Bunu yaparken, bulabilecekleri herhangi bir sorun hakkında uyarmak için kamuoyunda seslerini yükselterek donanımlarını kapsamlı bir şekilde doğrulamayan insanlara da yardımcı olurlar. Bunun iyi bir örneği, birisinin madencilerin aynı işlemde iki kez çıktı harcamasına izin veren bir hata keşfettiği [2018'de meydana gelen bir olay](https://bitcoincore.org/en/2018/09/20/notice/):
 
 
 > 18 Eylül'de Bitcoin core'nin 0.16.3 ve 0.17.0rc4 sürümlerinde düzeltmesi yayınlanan CVE-2018-17144, hem bir Hizmet Reddi bileşeni hem de kritik bir enflasyon açığı içermektedir. Başlangıçta Bitcoin core üzerinde çalışan birkaç geliştiricinin yanı sıra ABC ve Unlimited dahil olmak üzere diğer kripto para birimlerini destekleyen projelere 17 Eylül'de yalnızca bir Hizmet Reddi hatası olarak bildirildi, ancak sorunun aynı zamanda aynı kök nedene ve düzeltmeye sahip bir enflasyon açığı olduğunu hızlı bir şekilde belirledik.
@@ -477,7 +475,7 @@ Gizlilik farklı bağlamlarda farklı anlamlara gelebilir. Bitcoin'da, genellikl
 ### Gizlilik neden önemlidir?
 
 
-Bitcoin'de gizliliğin neden önemli olduğu açık gibi görünebilir, ancak bunun hemen düşünülemeyecek bazı yönleri vardır. [Bitcoin Talk forumunda] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell bize mahremiyetin neden önemli olduğunu düşündüğü birçok iyi nedeni anlatıyor. Bunlar arasında serbest piyasa, güvenlik ve insan onuru yer almaktadır:
+Bitcoin'de gizliliğin neden önemli olduğu açık gibi görünebilir, ancak bunun hemen düşünülemeyecek bazı yönleri vardır. [Bitcoin Talk forumunda](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell bize mahremiyetin neden önemli olduğunu düşündüğü birçok iyi nedeni anlatıyor. Bunlar arasında serbest piyasa, güvenlik ve insan onuru yer almaktadır:
 
 
 > Finansal gizlilik, serbest piyasanın etkin bir şekilde işlemesi için temel bir kriterdir: eğer bir işletme işletiyorsanız, tedarikçileriniz ve müşterileriniz sizin isteğiniz dışında tüm işlemlerinizi görebiliyorsa, fiyatları etkin bir şekilde belirleyemezsiniz.
@@ -498,7 +496,7 @@ Maxwell ayrıca bu bölümün ilerleyen kısımlarında tartışılacak olan de�
 Yukarıda Bitcoin'in takma isimli olduğundan ve takma isimlerin açık anahtarlar olduğundan bahsetmiştik. Medyada sık sık Bitcoin'in anonim olduğunu duyarsınız ki bu doğru değildir. Anonimlik ve takma ad arasında bir ayrım vardır.
 
 
-Andrew Poelstra [bir Bitcoin Stack Exchange gönderisinde açıklıyor] (https://Bitcoin.stackexchange.com/a/29473/69518) işlemlerde anonimliğin nasıl görüneceğini:
+Andrew Poelstra [bir Bitcoin Stack Exchange gönderisinde açıklıyor](https://Bitcoin.stackexchange.com/a/29473/69518) işlemlerde anonimliğin nasıl görüneceğini:
 
 
 > Parayı harcadığınızda nereden geldiği ya da nereye gittiğine dair hiçbir iz olmaması anlamında tam anonimlik, teorik olarak kriptografik sıfır bilgi ispatı tekniği kullanılarak mümkündür.
@@ -506,7 +504,7 @@ Andrew Poelstra [bir Bitcoin Stack Exchange gönderisinde açıklıyor] (https:/
 Aradaki fark, anonim bir para biçiminde takma adlar arasındaki ödemeleri izleyebilmeniz, anonim bir para biçiminde ise izleyememeniz gibi görünüyor. Bitcoin ödemeleri takma adlar arasında takip edilebildiği için anonim bir sistem değildir.
 
 
-Ayrıca takma adların genel anahtarlar olduğunu söyledik, ancak aslında genel anahtarlardan türetilen adresler. Neden adresleri takma ad olarak kullanıyoruz da başka bir şey, örneğin "watchme1984" gibi açıklayıcı isimler kullanmıyoruz? Bu, Tim S. kullanıcısı tarafından Bitcoin Stack Exchange'te de [iyi açıklanmıştır] (https://Bitcoin.stackexchange.com/a/25175/69518):
+Ayrıca takma adların genel anahtarlar olduğunu söyledik, ancak aslında genel anahtarlardan türetilen adresler. Neden adresleri takma ad olarak kullanıyoruz da başka bir şey, örneğin "watchme1984" gibi açıklayıcı isimler kullanmıyoruz? Bu, Tim S. kullanıcısı tarafından Bitcoin Stack Exchange'te de [iyi açıklanmıştır](https://Bitcoin.stackexchange.com/a/25175/69518):
 
 
 > Bitcoin'nın fikrinin işe yaraması için, yalnızca belirli bir özel anahtarın sahibi tarafından harcanabilecek coinlere sahip olmanız gerekir. Bu, gönderdiğiniz her şeyin bir şekilde bir açık anahtara bağlı olması gerektiği anlamına gelir.
@@ -537,7 +535,7 @@ Bu makale, Blockchain gizliliğinin ana sorunlarını, yani Address yeniden kull
 
 
 
-Chris Belcher, Bitcoin Blockchain'de meydana gelebilecek farklı gizlilik sızıntıları hakkında [çok ayrıntılı olarak yazdı] (https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy). En azından "Blockchain gizlilik saldırıları" başlığı altındaki ilk birkaç alt bölümü okumanızı tavsiye ederiz
+Chris Belcher, Bitcoin Blockchain'de meydana gelebilecek farklı gizlilik sızıntıları hakkında [çok ayrıntılı olarak yazdı](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy). En azından "Blockchain gizlilik saldırıları" başlığı altındaki ilk birkaç alt bölümü okumanızı tavsiye ederiz
 
 
 Buradan çıkarılacak sonuç, Bitcoin'daki gizliliğin mükemmel olmadığıdır. Özel olarak işlem yapmak önemli miktarda çalışma gerektiriyor. Çoğu insan gizlilik için bu kadar ileri gitmeye hazır değil. Gizlilik ve kullanılabilirlik arasında net bir denge var gibi görünüyor.
@@ -554,7 +552,7 @@ Bu olayda, hayırsever hacker sayesinde her şey yolunda gitti, ancak bir dahaki
 ### Blockchain dışı gizlilik
 
 
-Blockchain gizlilik sızıntılarının kötü şöhretli bir kaynağı olduğunu kanıtlasa da, Blockchain'i kullanmayan, bazıları diğerlerinden daha sinsi olan pek çok başka sızıntı vardır. Bunlar tuş kaydedicilerden ağ trafiği analizine kadar uzanmaktadır. Bu yöntemlerden bazılarını okumak için lütfen tekrar [Chris Belcher'ın makalesine] (https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), özellikle de "Gizliliğe yönelik Blockchain dışı saldırılar" bölümüne bakın.
+Blockchain gizlilik sızıntılarının kötü şöhretli bir kaynağı olduğunu kanıtlasa da, Blockchain'i kullanmayan, bazıları diğerlerinden daha sinsi olan pek çok başka sızıntı vardır. Bunlar tuş kaydedicilerden ağ trafiği analizine kadar uzanmaktadır. Bu yöntemlerden bazılarını okumak için lütfen tekrar [Chris Belcher'ın makalesine](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), özellikle de "Gizliliğe yönelik Blockchain dışı saldırılar" bölümüne bakın.
 
 
 Belcher, çok sayıda saldırı arasında, örneğin İSS'niz gibi birinin internet bağlantınızı gözetleme olasılığından bahsediyor:
@@ -583,7 +581,7 @@ Para birimleri bağlamında değiştirilebilirlik, bir Coin'in aynı para birimi
 kelimesine bölümün başlarında kısaca değinilmişti.
 
 
-Burada ele alınan makalede Gregory Maxwell [şunları belirtmiştir] (https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
+Burada ele alınan makalede Gregory Maxwell [şunları belirtmiştir](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
 > Finansal gizlilik, Bitcoin'de değiştirilebilirlik için temel bir unsurdur: bir Coin'ü diğerinden anlamlı bir şekilde ayırt edebiliyorsanız, değiştirilebilirlikleri zayıftır. Eğer değiştirilebilirliğimiz pratikte çok zayıfsa, o zaman merkeziyetsiz olamayız: eğer önemli biri çalıntı coinlerin bir listesini ilan ederse ve bu coinlerden türetilen coinleri kabul etmeyeceğini açıklarsa, kabul ettiğiniz coinleri bu listeye göre dikkatlice kontrol etmeli ve başarısız olanları iade etmelisiniz.  Herkes çeşitli otoriteler tarafından yayınlanan kara listeleri kontrol etmek zorunda kalır çünkü böyle bir dünyada hepimiz kötü coin'lere mahkum olmak istemeyiz. Bu durum sürtünme ve işlem maliyetlerini artırır ve Bitcoin'yi bir para olarak daha az değerli hale getirir.
@@ -591,7 +589,7 @@ Burada ele alınan makalede Gregory Maxwell [şunları belirtmiştir] (https://b
 Burada, değiştirilebilirlik eksikliğinden kaynaklanan tehlikelerden bahsediyor. Elinizde bir UTXO olduğunu varsayalım. Bu UTXO'in geçmişi normalde birkaç atlama geriye doğru izlenebilir ve çok sayıda önceki çıktıya yayılabilir. Bu çıktılardan herhangi biri yasadışı, istenmeyen veya şüpheli bir faaliyete karışmışsa, Coin'ünüzün bazı potansiyel alıcıları bunu reddedebilir. Eğer ödeme yaptığınız kişilerin coinlerinizi merkezi bir beyaz liste ya da kara liste hizmetine göre doğrulayacağını düşünüyorsanız, ne olur ne olmaz diye aldığınız coinleri de kontrol etmeye başlayabilirsiniz. Sonuç olarak, kötü fungibility daha da kötü fungibility'yi destekleyecektir.
 
 
-Adam Back ve Matt Corallo 2016 yılında Milano'da düzenlenen Scaling Bitcoin'da [fungibility hakkında bir sunum yaptı] (https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). Onlar da aynı doğrultuda düşünüyorlardı:
+Adam Back ve Matt Corallo 2016 yılında Milano'da düzenlenen Scaling Bitcoin'da [fungibility hakkında bir sunum yaptı](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/). Onlar da aynı doğrultuda düşünüyorlardı:
 
 
 > Bitcoin'nin çalışması için değiştirilebilirliğe ihtiyacınız var. Eğer sikke alırsanız ve onları harcayamazsanız, o zaman onları harcayıp harcayamayacağınızdan şüphe etmeye başlarsınız. Aldığınız madeni paralar hakkında şüpheleriniz varsa, insanlar lekeleme hizmetlerine gidip "bu madeni paralar kutsanmış mı" diye kontrol edecek ve sonra insanlar ticaret yapmayı reddedeceklerdir. Bunun yaptığı şey, Bitcoin'yi merkezi olmayan izinsiz bir sistemden, kara liste sağlayıcılarından bir "IOU" aldığınız merkezi izinli bir sisteme dönüştürmektir.
@@ -605,7 +603,7 @@ Görünüşe göre gizlilik ve değiştirilebilirlik el ele gitmektedir. Gizlili
 
 İnsanların kendilerini gizlilik sızıntılarından korumalarına yardımcı olmak için çeşitli teknikler geliştirilmiştir. En belirgin olanları arasında, Nakamoto tarafından daha önce belirtildiği gibi, benzersiz
 
-her işlem için adresler, ancak birkaç tane daha var. Size nasıl gizlilik ninjası olacağınızı öğretecek değiliz. Bununla birlikte, Bitcoin Q+A'da [gizliliği artıran teknolojilerin hızlı bir özeti] (https://bitcoiner.guide/privacytips/) bulunmaktadır ve bunlar bir şekilde Hard'in nasıl uygulanacağına göre sıralanmıştır. Okuduğunuzda, Bitcoin gizliliğinin genellikle Bitcoin dışındaki şeylerle ilgili olduğunu fark edeceksiniz. Örneğin, bitcoinleriniz hakkında övünmemelisiniz ve Tor ve VPN kullanmalısınız.
+her işlem için adresler, ancak birkaç tane daha var. Size nasıl gizlilik ninjası olacağınızı öğretecek değiliz. Bununla birlikte, Bitcoin Q+A'da [gizliliği artıran teknolojilerin hızlı bir özeti](https://bitcoiner.guide/privacytips/) bulunmaktadır ve bunlar bir şekilde Hard'in nasıl uygulanacağına göre sıralanmıştır. Okuduğunuzda, Bitcoin gizliliğinin genellikle Bitcoin dışındaki şeylerle ilgili olduğunu fark edeceksiniz. Örneğin, bitcoinleriniz hakkında övünmemelisiniz ve Tor ve VPN kullanmalısınız.
 
 
 Yazıda ayrıca Bitcoin ile doğrudan ilgili bazı tedbirler de listelenmektedir:
@@ -616,7 +614,7 @@ Yazıda ayrıca Bitcoin ile doğrudan ilgili bazı tedbirler de listelenmektedir
 - CoinJoin: Birden fazla kişinin işlemlerini tek bir işlemde birleştirmesi için bir yol, zincir analizi yapmayı zorlaştırıyor.
 
 
-Breaking Bitcoin konferansındaki [bir konuşmada] (https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) Chris Belcher, gizliliğin nasıl geliştirildiğine dair ilginç bir pratik örnek verdi:
+Breaking Bitcoin konferansındaki [bir konuşmada](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) Chris Belcher, gizliliğin nasıl geliştirildiğine dair ilginç bir pratik örnek verdi:
 
 
 > Onlar bir Bitcoin kumarhanesiydi. ABD'de çevrimiçi kumar oynamaya izin verilmemektedir. Doğrudan Bustabit'e para yatıran tüm Coinbase müşterilerinin hesapları kapatılacaktı çünkü Coinbase bunun için izleme yapıyordu. Bustabit birkaç şey yaptı. Değişimden kaçınma adı verilen bir şey yaptılar ve değişim çıktısı olmayan bir işlem yapıp yapamayacağınızı gördünüz. Bu, Miner ücretlerinden tasarruf sağlar ve ayrıca analizi engeller.
@@ -624,7 +622,7 @@ Breaking Bitcoin konferansındaki [bir konuşmada] (https://btctranscripts.com/b
 
 > Ayrıca, yoğun olarak kullandıkları yeniden kullanılan para yatırma adreslerini joinmarket'e aktardılar. Bu noktada, coinbase.com müşterileri hiçbir zaman yasaklanmadı. Görünüşe göre Coinbase'in gözetim hizmeti bundan sonra analiz yapamadı, bu yüzden bu algoritmaları kırmak mümkün.
 
-Bu örnekten, diğerlerinin yanı sıra, Bitcoin vikisindeki [Gizlilik sayfasında] (https://en.Bitcoin.it/Privacy) da bahsetmiştir.
+Bu örnekten, diğerlerinin yanı sıra, Bitcoin vikisindeki [Gizlilik sayfasında](https://en.Bitcoin.it/Privacy) da bahsetmiştir.
 
 
 Lightning Network'te olduğu gibi Bitcoin'in üzerine sistemler inşa ederek daha iyi gizlilik elde edilebileceğine dikkat edin:
@@ -642,17 +640,17 @@ Son raporda güven ihtiyacının sadece üstteki katmanlarla artabileceğini bel
 Yukarıdakiler gizliliğinizi artırmanın biraz teknik yollarıdır. Ancak başka yollar da vardır. Bu bölümün başında Bitcoin'un takma isimli bir sistem olduğunu söylemiştik. Bu, Bitcoin'daki kullanıcıların gerçek adları veya diğer kişisel verileriyle değil, açık anahtarlarıyla bilindiği anlamına gelir. Açık anahtar, bir kullanıcının takma adıdır ve bir kullanıcının birden fazla takma adı olabilir. İdeal bir dünyada, şahsi kimliğiniz Bitcoin takma adlarınızdan ayrılır. Ne yazık ki, bu bölümde açıklanan gizlilik sorunları nedeniyle, bu ayrıştırma genellikle zaman içinde azalır.
 
 
-Kişisel verilerinizin açığa çıkma riskini azaltmak için ilk etapta bu verileri vermemek ya da sızıntı yapabilecek büyük veritabanları oluşturan merkezi hizmetlere vermemek gerekir. Bitcoin Q+A [tarafından yazılan bir makale KYC] (https://bitcoiner.guide/nokyconly/) ve bundan kaynaklanan tehlikeleri açıklamaktadır. Ayrıca durumunuzu iyileştirmek için atabileceğiniz bazı adımları da öneriyor:
+Kişisel verilerinizin açığa çıkma riskini azaltmak için ilk etapta bu verileri vermemek ya da sızıntı yapabilecek büyük veritabanları oluşturan merkezi hizmetlere vermemek gerekir. Bitcoin Q+A [tarafından yazılan bir makale KYC](https://bitcoiner.guide/nokyconly/) ve bundan kaynaklanan tehlikeleri açıklamaktadır. Ayrıca durumunuzu iyileştirmek için atabileceğiniz bazı adımları da öneriyor:
 
 
 > Neyse ki KYC kaynakları olmadan Bitcoin satın almak için bazı seçenekler var. Bunların tümü, merkezi bir üçüncü tarafla değil, doğrudan başka bir bireyle işlem yaptığınız P2P (eşler arası) borsalardır. Ne yazık ki bazıları Bitcoin'nin yanı sıra diğer coinleri de satmaktadır, bu nedenle dikkatli olmanızı tavsiye ederiz.
 
-Makale, KYC/AML gerektiren borsaları kullanmaktan kaçınmanızı ve bunun yerine özel olarak işlem yapmanızı veya [bisq] (https://bisq.network/) gibi merkezi olmayan borsaları kullanmanızı önermektedir.
+Makale, KYC/AML gerektiren borsaları kullanmaktan kaçınmanızı ve bunun yerine özel olarak işlem yapmanızı veya [bisq](https://bisq.network/) gibi merkezi olmayan borsaları kullanmanızı önermektedir.
 
 
 https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-Karşı önlemler hakkında daha derinlemesine okuma için, daha önce bahsedilen [gizlilikle ilgili wiki makalesine] (https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), "Gizliliği geliştirme yöntemleri (Blockchain dışı)" bölümünden başlayarak bakın.
+Karşı önlemler hakkında daha derinlemesine okuma için, daha önce bahsedilen [gizlilikle ilgili wiki makalesine](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), "Gizliliği geliştirme yöntemleri (Blockchain dışı)" bölümünden başlayarak bakın.
 
 
 ### Gizlilik Hakkında Sonuç
@@ -674,7 +672,7 @@ Bitcoin'de iyi bir gizlilik elde etmek için, bazıları maliyetli ve zaman alı
 ![](assets/tr/006.webp)
 
 
-Bu bölümde Bitcoin Supply sınırı olan 21 milyon BTC'yi ya da gerçekte ne kadar olduğunu inceleyeceğiz Bu limitin nasıl uygulandığından ve buna uyulduğunu doğrulamak için neler yapılabileceğinden bahsediyoruz. Dahası, kristal küreye bir göz atıyor ve Block reward sübvansiyon temelli olmaktan ücret temelli olmaya geçtiğinde devreye girecek dinamikleri tartışıyoruz.
+Bu bölümde Bitcoin Supply sınırı olan 21 milyon BTC'yi ya da gerçekte ne kadar olduğunu inceleyeceğiz Bu limitin nasıl uygulandığından ve buna uyulduğunu doğrulamak için neler yapılabileceğinden bahsediyoruz. Dahası, kristal küreye bir göz atıyor ve [Block reward](https://planb.academy/resources/glossary/block-reward) sübvansiyon temelli olmaktan ücret temelli olmaya geçtiğinde devreye girecek dinamikleri tartışıyoruz.
 
 
 İyi bilinen 21 milyon BTC'lik sonlu Supply, Bitcoin'nin temel bir özelliği olarak kabul edilmektedir. Ama bu gerçekten de kesin midir?
@@ -698,7 +696,7 @@ Bu da bizi: ??? BTC.
 
 Dolayısıyla Bitcoin Supply'nin en fazla 20999817.31308491 BTC olacağından emin olabiliriz. Kaybolan veya doğrulanamayan bir şekilde yanan madeni paralar bu sayıyı düşürecektir, ancak ne kadar düşüreceğini bilmiyoruz. İşin ilginç yanı, bunun gerçekten önemli olmaması ya da daha iyisi, Bitcoin sahipleri için olumlu bir şekilde önemli olmasıdır,
 
-gW-251 Nakamoto tarafından [açıklandığı gibi] (https://bitcointalk.org/index.php?topic=198.msg1647#msg1647):
+gW-251 Nakamoto tarafından [açıklandığı gibi](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647):
 
 
 > Kayıp madeni paralar sadece diğerlerinin madeni paralarının değerini biraz daha artırır.  Bunu herkese yapılan bir bağış olarak düşünün.
@@ -706,7 +704,7 @@ gW-251 Nakamoto tarafından [açıklandığı gibi] (https://bitcointalk.org/ind
 Sonlu Supply küçülecek ve bu da en azından teoride fiyat deflasyonuna neden olacaktır.
 
 
-Dolaşımdaki madeni paraların tam sayısından daha önemlisi, Supply limitinin herhangi bir merkezi otorite olmaksızın uygulanma şeklidir. Alias chytrik bunu [Stack Exchange] (https://Bitcoin.stackexchange.com/a/106830/69518) adresinde çok iyi ifade ediyor:
+Dolaşımdaki madeni paraların tam sayısından daha önemlisi, Supply limitinin herhangi bir merkezi otorite olmaksızın uygulanma şeklidir. Alias chytrik bunu [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518) adresinde çok iyi ifade ediyor:
 
 
 > Yani cevap şu ki, Supply'yı artırmadığı için birine güvenmek zorunda değilsiniz. Sadece artırmadıklarını doğrulayacak bazı kodlar çalıştırmanız gerekir.
@@ -721,7 +719,7 @@ Bazı tam düğümler karanlık tarafa geçip daha yüksek değerli coinbase iş
 Bir Block reward, blok sübvansiyonu artı işlem ücretlerinden oluşur. Block reward'in Bitcoin'un güvenlik maliyetlerini karşılaması gerekir. Blok sübvansiyonu, işlem ücretleri, Bitcoin fiyatı, Mempool boyutu, Hash gücü, ademi merkeziyetçilik derecesi vb. açısından günümüz koşullarında, her oyuncunun kurallara göre oynaması için teşviklerin güvenli bir parasal sistemi korumak için yeterince yüksek olduğunu kesin olarak söyleyebiliriz.
 
 
-Blok sübvansiyon sıfıra yaklaştığında ne olur? İşleri basit tutmak için, bunun gerçekten sıfıra eşit olduğunu varsayalım. Bu noktada, sistemin güvenlik maliyeti yalnızca işlem ücretleriyle karşılanır. Bu gerçekleştiğinde geleceğin bizim için ne getireceğini bilemeyiz. Belirsizlik faktörleri çok sayıda ve spekülasyonlara bırakılmış durumdayız. Örneğin, Paul Sztorc'un konuya katkısı [Truthcoin blogunda] (https://www.truthcoin.info/blog/security-budget/) çoğunlukla spekülasyonlardan ibarettir, ancak en azından bir sağlam noktası vardır (Sztorc tarafından atıfta bulunulan M2'nin bir fiat para Supply ölçümü olduğunu lütfen unutmayın):
+Blok sübvansiyon sıfıra yaklaştığında ne olur? İşleri basit tutmak için, bunun gerçekten sıfıra eşit olduğunu varsayalım. Bu noktada, sistemin güvenlik maliyeti yalnızca işlem ücretleriyle karşılanır. Bu gerçekleştiğinde geleceğin bizim için ne getireceğini bilemeyiz. Belirsizlik faktörleri çok sayıda ve spekülasyonlara bırakılmış durumdayız. Örneğin, Paul Sztorc'un konuya katkısı [Truthcoin blogunda](https://www.truthcoin.info/blog/security-budget/) çoğunlukla spekülasyonlardan ibarettir, ancak en azından bir sağlam noktası vardır (Sztorc tarafından atıfta bulunulan M2'nin bir fiat para Supply ölçümü olduğunu lütfen unutmayın):
 
 
 > İkisi aynı "güvenlik bütçesi" içinde karıştırılsa da, blok sübvansiyon ve vergi harçları tamamen ve bütünüyle farklıdır. Birbirlerinden, "VISA'nın 2017'deki toplam kârı" ile "2017'deki toplam M2 artışı" kadar farklıdırlar.
@@ -735,10 +733,10 @@ Bugün güvenliğin bedelini (parasal enflasyon yoluyla) elinde tutanlar ödemek
 Zaman geçtikçe, güvenlik maliyetlerinin yükü ellerinde tutanlardan harcayanlara geçecektir
 
 
-İşlem ücretleri Mining için ana motivasyon olduğunda, teşvikler değişir. En önemlisi, bir Miner'nın Mempool'ü yeterli işlem ücreti içermiyorsa, bu Miner için Bitcoin'ün geçmişini genişletmek yerine yeniden yazmak daha karlı hale gelebilir. Bitcoin Optech'te David Harding tarafından yazılmış *fee sniping* adlı özel bir [bu davranışla ilgili bölüm] (https://bitcoinops.org/en/topics/fee-sniping/) bulunmaktadır:
+İşlem ücretleri Mining için ana motivasyon olduğunda, teşvikler değişir. En önemlisi, bir Miner'nın Mempool'ü yeterli işlem ücreti içermiyorsa, bu Miner için Bitcoin'ün geçmişini genişletmek yerine yeniden yazmak daha karlı hale gelebilir. Bitcoin Optech'te David Harding tarafından yazılmış *fee sniping* adlı özel bir [bu davranışla ilgili bölüm](https://bitcoinops.org/en/topics/fee-sniping/) bulunmaktadır:
 
 
-> Bitcoin'nin sübvansiyonu azalmaya devam ettikçe ve işlem ücretleri Bitcoin'nin blok ödüllerini domine etmeye başladıkça, ücret sniping'i ortaya çıkabilecek bir sorundur. Eğer önemli olan tek şey işlem ücretleri ise, Hash oranının %x'ine sahip bir Miner'in bir sonraki blokta %x'lik bir Mining şansı vardır, bu nedenle dürüstçe Mining'un onlar için beklenen değeri, Mempool'lerindeki [en uygun işlem kümesinin] (https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) %x'idir.
+> Bitcoin'nin sübvansiyonu azalmaya devam ettikçe ve işlem ücretleri Bitcoin'nin blok ödüllerini domine etmeye başladıkça, ücret sniping'i ortaya çıkabilecek bir sorundur. Eğer önemli olan tek şey işlem ücretleri ise, Hash oranının %x'ine sahip bir Miner'in bir sonraki blokta %x'lik bir Mining şansı vardır, bu nedenle dürüstçe Mining'un onlar için beklenen değeri, Mempool'lerindeki [en uygun işlem kümesinin](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) %x'idir.
 >
 
 > Alternatif olarak, bir Miner zinciri genişletmek için dürüst olmayan bir şekilde önceki bloğu ve tamamen yeni bir bloğu yeniden madencilikle elde etmeye çalışabilir. Bu davranışa fee sniping adı verilir ve dürüst olmayan Miner'ün diğer tüm Miner'ler dürüstse bunu başarma şansı `(x/(1-x))^2`dir. Ücret kesmenin dürüst Mining'e kıyasla genel olarak daha düşük bir başarı olasılığı olsa da, önceki bloktaki işlemlerin şu anda Mempool'deki işlemlerden önemli ölçüde daha yüksek ücretler ödemesi durumunda dürüst olmayan Mining'ü denemek daha karlı bir seçim olabilir - büyük miktarda küçük bir şans, küçük miktarda büyük bir şanstan daha değerli olabilir.
@@ -746,7 +744,7 @@ Zaman geçtikçe, güvenlik maliyetlerinin yükü ellerinde tutanlardan harcayan
 Geleceğe yönelik umutlarımızın üzerine ıslak bir battaniye atan gerçek şu ki, madenciler ücret avcılığı yapmaya başlarsa, bu diğerlerini de aynı şeyi yapmaya teşvik edecek ve daha az dürüst madenci bırakacaktır. Bu da Bitcoin'nın genel güvenliğini ciddi şekilde zedeleyebilir. Harding, işlemin Blockchain'in neresinde görünebileceğini kısıtlamak için işlem süresi kilitlerine güvenmek gibi alınabilecek birkaç karşı önlemi listelemeye devam ediyor.
 
 
-Dolayısıyla, sonlu Supply üzerindeki fikir birliği devam ettiği sürece, blok sübvansiyonu - çok uzun vadeli bir enflasyon hatasını düzelten [BIP42] (https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) sayesinde - 2140 yılı civarında sıfırlanacaktır. Bundan sonra işlem ücretleri ağı güvence altına almak için yeterli olacak mı?
+Dolayısıyla, sonlu Supply üzerindeki fikir birliği devam ettiği sürece, blok sübvansiyonu - çok uzun vadeli bir enflasyon hatasını düzelten [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) sayesinde - 2140 yılı civarında sıfırlanacaktır. Bundan sonra işlem ücretleri ağı güvence altına almak için yeterli olacak mı?
 
 
 Bunu söylemek mümkün değil ama birkaç şey biliyoruz:
@@ -757,7 +755,7 @@ Bunu söylemek mümkün değil ama birkaç şey biliyoruz:
 - Sıfır blok sübvansiyonu ve boş ya da neredeyse boş bir Mempool ile, ücretler nedeniyle işler sallantılı hale gelebilir.
 
 
-Ücretli Block reward'e geçiş çok uzak bir gelecekte olduğu için, hemen sonuca varmamak ve potansiyel sorunları elimizden geldiğince çözmeye çalışmak akıllıca olabilir. Örneğin Peter Todd, Bitcoin'ün güvenlik bütçesinin gelecekte yeterli olmayacağına dair gerçek bir risk olduğunu düşünüyor ve sonuç olarak Bitcoin'te küçük bir sürekli enflasyonu savunuyor. Bununla birlikte, [What Bitcoin Did podcast'inde söylediği gibi] (https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin) şu anda böyle bir konuyu tartışmanın iyi bir fikir olmadığını da düşünüyor:
+Ücretli Block reward'e geçiş çok uzak bir gelecekte olduğu için, hemen sonuca varmamak ve potansiyel sorunları elimizden geldiğince çözmeye çalışmak akıllıca olabilir. Örneğin Peter Todd, Bitcoin'ün güvenlik bütçesinin gelecekte yeterli olmayacağına dair gerçek bir risk olduğunu düşünüyor ve sonuç olarak Bitcoin'te küçük bir sürekli enflasyonu savunuyor. Bununla birlikte, [What Bitcoin Did podcast'inde söylediği gibi](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin) şu anda böyle bir konuyu tartışmanın iyi bir fikir olmadığını da düşünüyor:
 
 
 > Ama bu 10, 20 yıl sonrası için bir risk. Bu çok uzun bir süre. Ve o zamana kadar risklerin ne olduğunu kim bilebilir ki?
@@ -789,7 +787,7 @@ Bitcoin Supply'in 21 milyonu geçip geçmeyeceğini bugünden söyleyemeyiz ve b
 Bitcoin'ı güvenli bir şekilde yükseltmek son derece zor olabilir. Bazı değişikliklerin hayata geçirilmesi birkaç yıl alabilir. Bu bölümde, Bitcoin'ın yükseltilmesiyle ilgili ortak kelime dağarcığı hakkında bilgi ediniyor ve protokolündeki bazı tarihi yükseltme örneklerini ve bunlardan elde ettiğimiz içgörüleri keşfediyoruz. Son olarak, zincir bölünmeleri ve bunlarla ilgili riskler ve maliyetler hakkında konuşuyoruz.
 
 
-Bu bölüme uyum sağlamak için [David Harding'in uyum ve uyumsuzluk hakkındaki yazısını] (https://bitcointalk.org/dec/p1.html) okumalısınız:
+Bu bölüme uyum sağlamak için [David Harding'in uyum ve uyumsuzluk hakkındaki yazısını](https://bitcointalk.org/dec/p1.html) okumalısınız:
 
 
 > Bitcoin uzmanları sık sık anlamı soyut ve Hard tam olarak belirlenemeyen konsensüsten bahsederler. Ancak konsensüs kelimesi Latince concentus kelimesinden evrilmiştir, "birlikte şarkı söyleme uyumu", bu nedenle Bitcoin konsensüsünden değil, Bitcoin uyumundan bahsedelim.
@@ -807,53 +805,53 @@ Bu bölümde Bitcoin'nın anlaşmazlığa yol açmadan nasıl geliştirilebilece
 
 
 
-Wikipedia'ya göre [ileri uyumluluk] (https://en.wikipedia.org/wiki/Forward_compatibility), eski bir yazılımın anlamadığı kısımları göz ardı ederek daha yeni yazılımlar tarafından oluşturulan verileri işleyebilmesi durumunu ifade eder:
+Wikipedia'ya göre [ileri uyumluluk](https://en.wikipedia.org/wiki/Forward_compatibility), eski bir yazılımın anlamadığı kısımları göz ardı ederek daha yeni yazılımlar tarafından oluşturulan verileri işleyebilmesi durumunu ifade eder:
 
 
 Daha önceki sürümlerle uyumlu bir ürün, anlamadığı yeni kısımları göz ardı ederek standardın sonraki sürümleri için tasarlanmış girdileri "incelikle" işleyebiliyorsa, bir standart ileriye dönük uyumluluğu destekler.
 
 
-Tam tersi, [geriye dönük uyumluluk] (https://en.wikipedia.org/wiki/Backward_compatibility) eski bir yazılımdaki verilerin daha yeni yazılımlarda kullanılabilir olması anlamına gelir. Bir değişikliğin hem ileri hem de geri uyumlu olması durumunda tam uyumlu olduğu söylenir.
+Tam tersi, [geriye dönük uyumluluk](https://en.wikipedia.org/wiki/Backward_compatibility) eski bir yazılımdaki verilerin daha yeni yazılımlarda kullanılabilir olması anlamına gelir. Bir değişikliğin hem ileri hem de geri uyumlu olması durumunda tam uyumlu olduğu söylenir.
 
 
-Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *Soft Fork* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *Hard Fork* denir.
+Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* denir.
 
 
-Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü] (https://rosenbaum.se/book/grokking-Bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
+Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-Bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
 
 
 ### Tarihi iyileştirmeler
 
 
 
-Bitcoin, Genesis bloğunun oluşturulduğu zamanki haliyle bugün aynı değildir. Yıllar boyunca çeşitli yükseltmeler yapılmıştır. 2018'de Eric Lombrozo [Breaking Bitcoin konferansında konuştu] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) Bitcoin'ün farklı yükseltme mekanizmaları hakkında konuştu ve bunların zaman içinde ne kadar geliştiğine dikkat çekti. Hatta Satoshi Nakamoto'nun bir zamanlar Bitcoin'ü bir Hard Fork aracılığıyla nasıl yükselttiğini açıkladı:
+Bitcoin, Genesis bloğunun oluşturulduğu zamanki haliyle bugün aynı değildir. Yıllar boyunca çeşitli yükseltmeler yapılmıştır. 2018'de Eric Lombrozo [Breaking Bitcoin konferansında konuştu](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) Bitcoin'ün farklı yükseltme mekanizmaları hakkında konuştu ve bunların zaman içinde ne kadar geliştiğine dikkat çekti. Hatta Satoshi Nakamoto'nun bir zamanlar Bitcoin'ü bir Hard Fork aracılığıyla nasıl yükselttiğini açıkladı:
 
 
-> Aslında Bitcoin'de Satoshi'in asla bu şekilde yapmayacağımız bir Hard-Fork vardı - bunu yapmak için oldukça kötü bir yol. Buradaki git commit açıklamasına bakarsanız [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], geri döndürülmüş makefile.unix wx-config sürüm 0.3.6 hakkında bir şeyler söylüyor. Doğru. Tüm söylediği bu. Kırıcı bir değişikliğe sahip olduğuna dair hiçbir gösterge yok. Temelde onu orada saklıyordu. Ayrıca [bitcointalk'a gönderdi] (https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) ve lütfen en kısa sürede 0.3.6'ya yükseltin dedi. Sahte işlemlerin kabul edilmiş olarak gösterilmesinin mümkün olduğu bir uygulama hatasını düzelttik. 0.3.6'ya yükseltene kadar Bitcoin ödemelerini kabul etmeyin. Hemen yükseltme yapamıyorsanız, yapana kadar Bitcoin düğümünüzü kapatmanız en iyisi olacaktır. Ve bunun da ötesinde, neden bunu yapmaya karar verdiğini bilmiyorum, aynı koda bazı optimizasyonlar eklemeye karar verdi. Bir hatayı düzeltin ve bazı optimizasyonlar ekleyin.
+> Aslında Bitcoin'de Satoshi'in asla bu şekilde yapmayacağımız bir Hard-Fork vardı - bunu yapmak için oldukça kötü bir yol. Buradaki git commit açıklamasına bakarsanız [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], geri döndürülmüş makefile.unix wx-config sürüm 0.3.6 hakkında bir şeyler söylüyor. Doğru. Tüm söylediği bu. Kırıcı bir değişikliğe sahip olduğuna dair hiçbir gösterge yok. Temelde onu orada saklıyordu. Ayrıca [bitcointalk'a gönderdi](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) ve lütfen en kısa sürede 0.3.6'ya yükseltin dedi. Sahte işlemlerin kabul edilmiş olarak gösterilmesinin mümkün olduğu bir uygulama hatasını düzelttik. 0.3.6'ya yükseltene kadar Bitcoin ödemelerini kabul etmeyin. Hemen yükseltme yapamıyorsanız, yapana kadar Bitcoin düğümünüzü kapatmanız en iyisi olacaktır. Ve bunun da ötesinde, neden bunu yapmaya karar verdiğini bilmiyorum, aynı koda bazı optimizasyonlar eklemeye karar verdi. Bir hatayı düzeltin ve bazı optimizasyonlar ekleyin.
 
-Kasıtlı olsun ya da olmasın, bu Hard Fork'in gelecekteki Soft çatalları, yani OP_NOP1-OP_NOP10 komut dosyası operatörleri (opcode) için fırsatlar yarattığına dikkat çekiyor. Bu kod değişikliğini cve-2010-5141'de daha ayrıntılı olarak inceleyeceğiz. Bu opcode'lar şimdiye kadar iki Soft fork'u için kullanıldı:
+Kasıtlı olsun ya da olmasın, bu Hard Fork'in gelecekteki Soft çatalları, yani OP_NOP1-OP_NOP10 komut dosyası operatörleri ([opcode](https://planb.academy/resources/glossary/opcodes)) için fırsatlar yarattığına dikkat çekiyor. Bu kod değişikliğini cve-2010-5141'de daha ayrıntılı olarak inceleyeceğiz. Bu opcode'lar şimdiye kadar iki Soft fork'u için kullanıldı:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo ayrıca 2017 yılına kadar yükseltme mekanizmalarının yıllar içinde nasıl geliştiğine dair genel bir bakış sunuyor. O zamandan bu yana, yalnızca bir büyük yükseltme olan Taproot uygulanmıştır. Etkinleştirilmesine yol açan uzun ve biraz kaotik süreç, Bitcoin'teki yükseltme mekanizmaları hakkında daha fazla bilgi edinmemize yardımcı oldu.
+Lombrozo ayrıca 2017 yılına kadar yükseltme mekanizmalarının yıllar içinde nasıl geliştiğine dair genel bir bakış sunuyor. O zamandan bu yana, yalnızca bir büyük yükseltme olan [Taproot](https://planb.academy/resources/glossary/taproot) uygulanmıştır. Etkinleştirilmesine yol açan uzun ve biraz kaotik süreç, Bitcoin'teki yükseltme mekanizmaları hakkında daha fazla bilgi edinmemize yardımcı oldu.
 
 
 #### SegWit yükseltmesi
 
 
 
-SegWit'dan önceki tüm yükseltmeler az ya da çok sancısız olmuş olsa da bu yükseltme farklıydı. Ekim 2016'da SegWit aktivasyon kodu yayınlandığında, Bitcoin kullanıcıları arasında bu kod için büyük bir destek var gibi görünüyordu, ancak bazı nedenlerden dolayı madenciler bu yükseltme için destek sinyali vermedi ve bu da aktivasyonu görünürde bir çözüm olmadan durdurdu.
+[SegWit](https://planb.academy/resources/glossary/segwit)'dan önceki tüm yükseltmeler az ya da çok sancısız olmuş olsa da bu yükseltme farklıydı. Ekim 2016'da SegWit aktivasyon kodu yayınlandığında, Bitcoin kullanıcıları arasında bu kod için büyük bir destek var gibi görünüyordu, ancak bazı nedenlerden dolayı madenciler bu yükseltme için destek sinyali vermedi ve bu da aktivasyonu görünürde bir çözüm olmadan durdurdu.
 
 
-Aaron van Wirdum, Bitcoin Magazine makalesinde [The Long Road To SegWit] (https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) bu dolambaçlı yolu anlatıyor. SegWit'nin ne olduğunu ve blok boyutu tartışmasına nasıl girdiğini açıklayarak başlıyor. Van Wirdum daha sonra nihai aktivasyonuna yol açan olayların ana hatlarını çiziyor. Bu sürecin merkezinde, Shaolinfry adlı kullanıcı tarafından önerilen *kullanıcı tarafından etkinleştirilen Soft Fork* ya da kısaca UASF adı verilen bir yükseltme mekanizması vardı:
+Aaron van Wirdum, Bitcoin Magazine makalesinde [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality) bu dolambaçlı yolu anlatıyor. SegWit'nin ne olduğunu ve blok boyutu tartışmasına nasıl girdiğini açıklayarak başlıyor. Van Wirdum daha sonra nihai aktivasyonuna yol açan olayların ana hatlarını çiziyor. Bu sürecin merkezinde, Shaolinfry adlı kullanıcı tarafından önerilen *kullanıcı tarafından etkinleştirilen Soft Fork* ya da kısaca [UASF](https://planb.academy/resources/glossary/uasf) adı verilen bir yükseltme mekanizması vardı:
 
 
 > Shaolinfry bir alternatif önerdi: kullanıcı tarafından etkinleştirilen Soft Fork (UASF). Hash güç aktivasyonu yerine, kullanıcı tarafından aktive edilen bir Soft Fork, düğümlerin gelecekte önceden belirlenmiş bir zamanda uygulamaya başladığı bir "'bayrak günü aktivasyonuna" sahip olacaktır Böyle bir UASF ekonomik bir çoğunluk tarafından uygulandığı sürece, bu madencilerin çoğunluğunu Soft Fork'ü takip etmeye (veya etkinleştirmeye) zorlamalıdır.
 
-Diğer şeylerin yanı sıra, Shaolinfry'nin Bitcoin-dev posta listesine gönderdiği e-postaya atıfta bulunuyor. Bu vesileyle Shaolinfry [Miner'nın Soft çatallarını etkinleştirmesine karşı çıktı] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) ve bunlarla ilgili bir dizi sorunu listeledi:
+Diğer şeylerin yanı sıra, Shaolinfry'nin Bitcoin-dev posta listesine gönderdiği e-postaya atıfta bulunuyor. Bu vesileyle Shaolinfry [Miner'nın Soft çatallarını etkinleştirmesine karşı çıktı](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) ve bunlarla ilgili bir dizi sorunu listeledi:
 
 
 > İlk olarak, Hash gücünün aktivasyondan sonra doğrulanacağına güvenmeyi gerektirir.  BIP66 Soft Fork, Hashrate'un %95'inin hazır olma sinyali verdiği ancak gerçekte yaklaşık yarısının yükseltilmiş kuralları doğrulamadığı ve yanlışlıkla geçersiz bir blok üzerine madencilik yaptığı bir durumdu.
@@ -870,7 +868,7 @@ UASF önerisi özetle, düğümlerin belirli yeni kuralları uygulamaya başlad�
 > Benim önerim her iki dünyanın da en iyisine sahip olmak. Kullanıcı tarafından etkinleştirilen bir Soft Fork'nin etkinleştirilmeden önce nispeten uzun bir teslim süresine ihtiyacı olduğundan, daha hızlı bir Hash güç koordineli etkinleştirme veya bayrak gününe göre etkinleştirme seçeneği sunmak için BIP9 ile birleştirebiliriz, hangisi daha erken olursa.
 > Her iki durumda da BIP9'daki uyarı sistemlerinden yararlanabiliriz. Değişiklik nispeten basittir, BIP9 dağıtım zaman aşımı sona ermeden önce BIP9 durumunu LOCKED_IN'e geçirecek bir aktivasyon zamanı parametresi ekler.
 
-Bu fikir çok ilgi çekti, ancak oybirliğine yakın bir desteğe ulaşamamış gibi görünüyordu, bu da potansiyel bir zincir bölünmesi endişesine neden oldu. Aaron van Wirdum'un makalesi, James Hilliard tarafından yazılan [BIP91] (https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki) sayesinde bu sorunun nasıl çözüldüğünü açıklıyor:
+Bu fikir çok ilgi çekti, ancak oybirliğine yakın bir desteğe ulaşamamış gibi görünüyordu, bu da potansiyel bir zincir bölünmesi endişesine neden oldu. Aaron van Wirdum'un makalesi, James Hilliard tarafından yazılan [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki) sayesinde bu sorunun nasıl çözüldüğünü açıklıyor:
 
 
 > Hilliard, her şeyi uyumlu hale getirecek biraz karmaşık ama akıllıca bir çözüm önerdi: Bitcoin core geliştirme ekibi tarafından önerilen Ayrılmış Tanık aktivasyonu, BIP148 UASF ve New York Anlaşması aktivasyon mekanizması. Onun BIP91'i Bitcoin'i en azından SegWit aktivasyonu boyunca bir bütün olarak tutabilir.
@@ -881,7 +879,7 @@ Bu BIP'nin dikkate alması gereken bazı daha karmaşık faktörler (örneğin "
 #### SegWit sonrası tartışma
 
 
-SegWit dağıtımından sonra, dağıtım mekanizmaları hakkında bir tartışma ortaya çıktı. Eric Lombrozo'nun [Breaking Bitcoin konferansındaki konuşmasında] (https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) ve Shaolinfry tarafından belirtildiği gibi, Miner'yi etkinleştiren bir Soft Fork ideal yükseltme mekanizması değildir:
+SegWit dağıtımından sonra, dağıtım mekanizmaları hakkında bir tartışma ortaya çıktı. Eric Lombrozo'nun [Breaking Bitcoin konferansındaki konuşmasında](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) ve Shaolinfry tarafından belirtildiği gibi, Miner'yi etkinleştiren bir Soft Fork ideal yükseltme mekanizması değildir:
 
 
 > Bir noktada muhtemelen Bitcoin protokolüne daha fazla özellik eklemek isteyeceğiz. Bu kendimize sorduğumuz büyük bir felsefi soru. Bir sonraki için bir UASF yapacak mıyız? Hibrit bir yaklaşıma ne dersiniz? Tek başına aktive edilen Miner elendi. bip9'u tekrar kullanmayacağız.
@@ -919,10 +917,10 @@ Taproot Ekim 2020'de konuşlandırılmaya hazır hale geldiğinde, yani uzlaşı
 
 Aktivasyon mekanizmaları için pek çok öneri ortalıkta dolaşmaya başladı ve David Harding
 
-[Bitcoin Wiki'de özetlenmiştir] (https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Makalesinde, o zamanlar daha esnek hale getirmek için bazı yeni değişiklikler yapılmış olan BIP8'in bazı özelliklerini açıkladı.
+[Bitcoin Wiki'de özetlenmiştir](https://en.Bitcoin.it/wiki/Taproot_activation_proposals). Makalesinde, o zamanlar daha esnek hale getirmek için bazı yeni değişiklikler yapılmış olan BIP8'in bazı özelliklerini açıkladı.
 
 
-> Bu belge yazılırken, [BIP8] (https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) 2017'de öğrenilen dersler temel alınarak hazırlanmıştır. BIP 9+148'i takiben kayda değer bir değişiklik, zorunlu aktivasyonun artık geçen medyan zaman yerine blok yüksekliğine dayanmasıdır; ikinci kayda değer değişiklik ise, zorunlu aktivasyonun bir Soft Fork'ün aktivasyon parametreleri ilk dağıtım için ayarlandığında veya daha sonraki bir dağıtımda güncellendiğinde seçilen bir boolean parametresi olmasıdır.
+> Bu belge yazılırken, [BIP8](https://github.com/Bitcoin/bips/blob/master/bip-0008.mediawiki) 2017'de öğrenilen dersler temel alınarak hazırlanmıştır. BIP 9+148'i takiben kayda değer bir değişiklik, zorunlu aktivasyonun artık geçen medyan zaman yerine blok yüksekliğine dayanmasıdır; ikinci kayda değer değişiklik ise, zorunlu aktivasyonun bir Soft Fork'ün aktivasyon parametreleri ilk dağıtım için ayarlandığında veya daha sonraki bir dağıtımda güncellendiğinde seçilen bir boolean parametresi olmasıdır.
 
 Zorunlu aktivasyon olmadan BIP8, zaman aşımı ve gecikme ile [BIP9](https://github.com/Bitcoin/bips/blob/master/bip-0009.mediawiki) sürüm bitlerine çok benzer, tek önemli fark BIP9'un medyan zaman geçmişini kullanmasına kıyasla BIP8'in blok yüksekliklerini kullanmasıdır. Bu ayar denemenin başarısız olmasına izin verir (ancak daha sonra yeniden denenebilir).
 
@@ -939,7 +937,7 @@ Bu noktadan sonra tartışmalar, özellikle `lockinontimeout`un `true` (Harding 
 Listelenen teklifler arasında bir tanesi "Bakalım ne olacak" başlığını taşıyordu. Nedense bu öneri yedi ay sonrasına kadar pek ilgi görmedi.
 
 
-Bu yedi ay boyunca tartışma devam etti ve hangi dağıtım mekanizmasının kullanılacağı konusunda geniş bir fikir birliğine varmanın bir yolu yok gibi görünüyordu. Temel olarak iki kamp vardı: biri `lockinontimeout=true` (UASF kalabalığı) ve diğeri `lockinontimeout=false` ("dene ve başarısız olursa yeniden düşün" kalabalığı) tercih ediyordu. Bu seçeneklerden herhangi biri için ezici bir destek olmadığından, tartışma görünüşte ileriye dönük bir yol olmadan daireler çizdi. Bu tartışmaların bazıları IRC'de ##Taproot-activation adlı bir kanalda yapıldı, ancak [5 Mart 2021'de] (https://gnusha.org/Taproot-activation/2021-03-05.log) bir şeyler değişti:
+Bu yedi ay boyunca tartışma devam etti ve hangi dağıtım mekanizmasının kullanılacağı konusunda geniş bir fikir birliğine varmanın bir yolu yok gibi görünüyordu. Temel olarak iki kamp vardı: biri `lockinontimeout=true` (UASF kalabalığı) ve diğeri `lockinontimeout=false` ("dene ve başarısız olursa yeniden düşün" kalabalığı) tercih ediyordu. Bu seçeneklerden herhangi biri için ezici bir destek olmadığından, tartışma görünüşte ileriye dönük bir yol olmadan daireler çizdi. Bu tartışmaların bazıları IRC'de ##Taproot-activation adlı bir kanalda yapıldı, ancak [5 Mart 2021'de](https://gnusha.org/Taproot-activation/2021-03-05.log) bir şeyler değişti:
 
 
 ```
@@ -1029,7 +1027,7 @@ Bitcoin'u uyum içinde tutmak için Soft çatallarının ileriye dönük bir yol
 Bu bölüm, nelerin yanlış gidebileceğine ve düşmanların nasıl hareket edebileceğine odaklanan bir zihniyet olan *düşmanca düşünme* konusunu ele almaktadır. Bitcoin'nin güvenlik varsayımlarını ve güvenlik modelini tartışarak başlıyoruz, ardından sıradan kullanıcıların düşmanca düşünerek kendi egemenliklerini ve Bitcoin'nin Full node ademi merkeziyetini nasıl geliştirebileceklerini açıklıyoruz. Ardından, Bitcoin'ye yönelik bazı gerçek tehditlerin yanı sıra düşmanın zihnine de bakıyoruz. Son olarak, insanların neden ilk etapta Bitcoin üzerinde çalıştıklarını anlamanıza yardımcı olabilecek *direniş ekseni* hakkında konuşuyoruz.
 
 
-Çeşitli sistemlerde güvenliği tartışırken, güvenlik varsayımlarının ne olduğunu anlamak önemlidir. Bitcoin'teki tipik bir güvenlik varsayımı "ayrık logaritma probleminin çözülmesi Hard'tür", yani basitçe söylemek gerekirse, belirli bir açık anahtara karşılık gelen bir özel anahtar bulmak neredeyse imkansızdır. Oldukça güçlü bir diğer güvenlik varsayımı da ağdaki hash gücünün çoğunluğunun dürüst olduğu, yani kurallara göre oynadıklarıdır. Bu varsayımların yanlış olduğu kanıtlanırsa, Bitcoin'ün başı dertte demektir.
+Çeşitli sistemlerde güvenliği tartışırken, güvenlik varsayımlarının ne olduğunu anlamak önemlidir. Bitcoin'teki tipik bir güvenlik varsayımı "[ayrık logaritma](https://planb.academy/resources/glossary/discrete-logarithm) probleminin çözülmesi Hard'tür", yani basitçe söylemek gerekirse, belirli bir [açık anahtara](https://planb.academy/resources/glossary/public-key) karşılık gelen bir [özel anahtar](https://planb.academy/resources/glossary/private-key) bulmak neredeyse imkansızdır. Oldukça güçlü bir diğer güvenlik varsayımı da ağdaki hash gücünün çoğunluğunun dürüst olduğu, yani kurallara göre oynadıklarıdır. Bu varsayımların yanlış olduğu kanıtlanırsa, Bitcoin'ün başı dertte demektir.
 
 
 2015 yılında Andrew Poelstra Hong Kong'da düzenlenen Scaling Bitcoin konferansında Bitcoin'in güvenlik varsayımlarını analiz ettiği bir konuşma yaptı] (https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/). Konuşmasına, birçok sistemin düşmanları bir dereceye kadar göz ardı ettiğini fark ederek başladı; örneğin, bir binayı her türlü düşmanca olaya karşı korumak gerçekten Hard'dır. Bunun yerine, genellikle birinin binayı yakma olasılığını kabul ediyoruz ve kolluk kuvvetleri vb. aracılığıyla bu ve diğer düşmanca davranışları bir dereceye kadar önlüyoruz.
@@ -1052,7 +1050,7 @@ Sonuç olarak, Bitcoin'deki bilinen tüm zayıflıklar bir şekilde halledilmeli
 Poelstra, Bitcoin'in nasıl yeni bir sistem türü olduğundan bahsetmeye devam ediyor; örneğin, çok net güvenlik varsayımları olan bir imzalama protokolünden daha belirsiz.
 
 
-Yazılım mühendisi Jameson Lopp, kişisel blogunda [bu konuya dalıyor] (https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
+Yazılım mühendisi Jameson Lopp, kişisel blogunda [bu konuya dalıyor](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
 
 > Gerçekte, Bitcoin protokolü resmi olarak tanımlanmış bir spesifikasyon veya güvenlik modeli olmaksızın inşa edilmiştir ve edilmektedir. Yapabileceğimiz en iyi şey, daha iyi anlamak ve tanımlamaya çalışmak için sistem içindeki aktörlerin teşviklerini ve davranışlarını incelemektir.
@@ -1066,7 +1064,7 @@ sistemin kendi karmaşıklığı.
 
 
 
-Karşıt düşüncenin önemi, yalnızca sıkı Bitcoin geliştiricileri ve uzmanları için değil, bir dereceye kadar günlük Bitcoin kullanıcıları için de geçerlidir. Ragnar Lifthasir bir [tweetstorm]'da (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) Bitcoin etrafındaki basit anlatıların - örneğin, "sadece HODL" - Bitcoin'in kendisini nasıl aşağılayıcı olabileceğinden bahsediyor ve sözlerini şöyle bitiriyor
+Karşıt düşüncenin önemi, yalnızca sıkı Bitcoin geliştiricileri ve uzmanları için değil, bir dereceye kadar günlük Bitcoin kullanıcıları için de geçerlidir. Ragnar Lifthasir bir [tweetstorm]'da (https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) Bitcoin etrafındaki basit anlatıların - örneğin, "sadece [HODL](https://planb.academy/resources/glossary/hodl)" - Bitcoin'in kendisini nasıl aşağılayıcı olabileceğinden bahsediyor ve sözlerini şöyle bitiriyor
 
 
 > Bitcoin'ü ve kendimizi daha güçlü kılmak için Bitcoin'e katkıda bulunan yazılım mühendisleri gibi düşünmeliyiz. Onlar acımasızca kusurları arayarak akran değerlendirmesi yaparlar. Teknoloji etkinliklerinde bir teklifin başarısız olabileceği her türlü yol hakkında konuşurlar. Karşıt düşünürler. Muhafazakârdırlar
@@ -1078,17 +1076,17 @@ Bu basit anlatıları monomani olarak adlandırıyor. Bu tanımla, tek bir şeye
 
 
 
-Bitcoin'de bilinen birçok zayıflık vardır ve bunların birçoğu aktif olarak istismar edilmektedir. Bu konuda bir fikir edinmek için Bitcoin wiki'deki [Zayıflıklar sayfasına] (https://en.Bitcoin.it/wiki/Weaknesses) bir göz atın. Orada aşağıdakiler gibi çok çeşitli sorunlardan bahsedilmektedir
+Bitcoin'de bilinen birçok zayıflık vardır ve bunların birçoğu aktif olarak istismar edilmektedir. Bu konuda bir fikir edinmek için Bitcoin wiki'deki [Zayıflıklar sayfasına](https://en.Bitcoin.it/wiki/Weaknesses) bir göz atın. Orada aşağıdakiler gibi çok çeşitli sorunlardan bahsedilmektedir
 
 Wallet hırsızlığı ve hizmet reddi saldırıları:
 
 
 > Eğer bir saldırgan ağı kendi kontrol ettiği istemcilerle doldurmaya çalışırsa, o zaman sadece saldırgan düğümlere bağlanma olasılığınız çok yüksek olacaktır. Bitcoin hiçbir zaman düğüm sayısını kullanmasa da, bir düğümü dürüst ağdan tamamen izole etmek diğer saldırıların yürütülmesinde yardımcı olabilir.
 
-Bu saldırı türü *Sybil saldırısı* olarak adlandırılır ve tek bir varlık bir ağdaki birden fazla düğümü kontrol ettiğinde ve bunları birden fazla varlık olarak görünmek için kullandığında ortaya çıkar.
+Bu saldırı türü *[Sybil saldırısı](https://planb.academy/resources/glossary/sybil-attack)* olarak adlandırılır ve tek bir varlık bir ağdaki birden fazla düğümü kontrol ettiğinde ve bunları birden fazla varlık olarak görünmek için kullandığında ortaya çıkar.
 
 
-Alıntıda da belirtildiği gibi, Sybil saldırısı Bitcoin ağında etkili değildir çünkü düğümler veya diğer sayılabilir varlıklar aracılığıyla değil, daha ziyade bilgi işlem gücü aracılığıyla oylama yapılmaktadır. Bununla birlikte, bu düz yapı sistemi diğer saldırılara karşı hassas bırakmaktadır. Bitcoin wiki sayfası ayrıca bilgi gizleme (genellikle *eclipse attack* olarak adlandırılır) gibi diğer olası saldırıları ve Bitcoin core'un bu tür saldırılara karşı bazı sezgisel karşı önlemleri nasıl uyguladığını özetlemektedir.
+Alıntıda da belirtildiği gibi, Sybil saldırısı Bitcoin ağında etkili değildir çünkü düğümler veya diğer sayılabilir varlıklar aracılığıyla değil, daha ziyade bilgi işlem gücü aracılığıyla oylama yapılmaktadır. Bununla birlikte, bu düz yapı sistemi diğer saldırılara karşı hassas bırakmaktadır. Bitcoin wiki sayfası ayrıca bilgi gizleme (genellikle *[eclipse attack](https://planb.academy/resources/glossary/eclipse-attack)* olarak adlandırılır) gibi diğer olası saldırıları ve [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core)'un bu tür saldırılara karşı bazı sezgisel karşı önlemleri nasıl uyguladığını özetlemektedir.
 
 
 Yukarıdakiler, ilgilenilmesi gereken gerçek tehditlere örnektir.
@@ -1102,7 +1100,7 @@ Yukarıdakiler, ilgilenilmesi gereken gerçek tehditlere örnektir.
 
 
 
-Düşmanın zihnini daha iyi anlamak için, nasıl çalıştıklarına dair bir fikir edinmek faydalı olabilir. İkinci Dünya Savaşı sırasında faaliyet gösteren ve amaçları arasında casusluk yapmak, sabotaj gerçekleştirmek ve propaganda yaymak olan Office of Strategic Services adlı bir ABD hükümet kuruluşu, personeline düşmana nasıl sabotaj yapılacağı konusunda bir [el kitabı] (https://www.gutenberg.org/ebooks/26184) hazırladı. Başlığı "Basit Sabotaj Saha El Kitabı" idi ve düşmanın içine sızarak hayatlarını Hard yapmak için somut ipuçları içeriyordu. İpuçları depoları yakmaktan, düşmanın gücünü azaltmak için tatbikatlarda yıpranmaya neden olmaya kadar uzanıyordu
+Düşmanın zihnini daha iyi anlamak için, nasıl çalıştıklarına dair bir fikir edinmek faydalı olabilir. İkinci Dünya Savaşı sırasında faaliyet gösteren ve amaçları arasında casusluk yapmak, sabotaj gerçekleştirmek ve propaganda yaymak olan Office of Strategic Services adlı bir ABD hükümet kuruluşu, personeline düşmana nasıl sabotaj yapılacağı konusunda bir [el kitabı](https://www.gutenberg.org/ebooks/26184) hazırladı. Başlığı "Basit Sabotaj Saha El Kitabı" idi ve düşmanın içine sızarak hayatlarını Hard yapmak için somut ipuçları içeriyordu. İpuçları depoları yakmaktan, düşmanın gücünü azaltmak için tatbikatlarda yıpranmaya neden olmaya kadar uzanıyordu
 
 verimlilik.
 
@@ -1116,7 +1114,7 @@ Bu durum, kararlı bir devletin düşmanı yok etmek için, onu içeriden çöke
 ### Direniş Aksiyomu
 
 
-Eric Voskuil [Cryptoeconomics wiki sayfasında yazıyor] (https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) "direniş aksiyomu" dediği şey hakkında:
+Eric Voskuil [Cryptoeconomics wiki sayfasında yazıyor](https://github.com/libbitcoin/libbitcoin-system/wiki/Axiom-of-Resistance) "direniş aksiyomu" dediği şey hakkında:
 
 
 > Diğer bir deyişle, bir sistemin devlet kontrolüne direnmesinin mümkün olduğuna dair bir varsayım vardır. Bu bir gerçek olarak kabul edilmemekle birlikte, benzer sistemlerin davranışlarının ampirik olarak incelenmesi nedeniyle, sistemin dayandırılacağı makul bir varsayım olarak kabul edilmektedir.
@@ -1150,7 +1148,7 @@ Bitcoin'u güvende tutabilmek için düşmanlarını ve onların teşviklerini b
 ![](assets/tr/010.webp)
 
 
-Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölümde bunun ne anlama geldiğini, yazılımın bakımının nasıl yapıldığını ve Bitcoin'taki açık kaynak kodlu yazılımın izinsiz geliştirmeye nasıl izin verdiğini analiz ediyoruz. Kriptografik sistemlerde kütüphanelerin seçimi ve kullanımı ile ilgilenen *seçim kriptografisi* konusuna giriyoruz. Bu bölümde Bitcoin'ın inceleme süreci hakkında bir bölüm ve ardından Bitcoin geliştiricilerinin finansman bulma yolları hakkında bir başka bölüm yer alıyor. Son bölüm, Bitcoin'ın açık kaynak kültürünün dışarıdan nasıl gerçekten tuhaf görünebileceğinden ve bu algılanan tuhaflığın neden gerçekten iyi bir sağlık işareti olduğundan bahsediyor.
+Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölümde bunun ne anlama geldiğini, yazılımın bakımının nasıl yapıldığını ve Bitcoin'taki açık kaynak kodlu yazılımın izinsiz geliştirmeye nasıl izin verdiğini analiz ediyoruz. Kriptografik sistemlerde kütüphanelerin seçimi ve kullanımı ile ilgilenen *seçim [kriptografisi](https://planb.academy/resources/glossary/cryptography)* konusuna giriyoruz. Bu bölümde Bitcoin'ın inceleme süreci hakkında bir bölüm ve ardından Bitcoin geliştiricilerinin finansman bulma yolları hakkında bir başka bölüm yer alıyor. Son bölüm, Bitcoin'ın açık kaynak kültürünün dışarıdan nasıl gerçekten tuhaf görünebileceğinden ve bu algılanan tuhaflığın neden gerçekten iyi bir sağlık işareti olduğundan bahsediyor.
 
 
 Çoğu Bitcoin yazılımı ve özellikle Bitcoin core açık kaynak kodludur. Bu, yazılımın kaynak kodunun inceleme, düzeltme, değiştirme ve yeniden dağıtım için genel kamunun kullanımına sunulduğu anlamına gelir. Açık kaynağın [](https://opensource.org/osd) adresindeki tanımı, diğerlerinin yanı sıra, aşağıdaki önemli noktaları içerir:
@@ -1164,18 +1162,18 @@ Bitcoin açık kaynak kodlu yazılım kullanılarak inşa edilmiştir. Bu bölü
 
 > Türetilmiş Çalışmalar: Lisans, değişikliklere ve türetilmiş çalışmalara izin vermeli ve bunların orijinal yazılımın lisansı ile aynı koşullar altında dağıtılmasına izin vermelidir.
 
-Bitcoin core, [MIT Lisansı] (https://github.com/Bitcoin/Bitcoin/blob/master/COPYING) altında dağıtılmak suretiyle bu tanıma uymaktadır:
+Bitcoin core, [MIT Lisansı](https://github.com/Bitcoin/Bitcoin/blob/master/COPYING) altında dağıtılmak suretiyle bu tanıma uymaktadır:
 
 
 ```
-The MIT License (MIT)
+MIT Lisansı (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core geliştiricileri
+Copyright (c) 2009-2022 Bitcoin Geliştiricileri
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Bu yazılımın ve ilgili dokümantasyon dosyalarının ("Yazılım") bir kopyasını edinen herhangi bir kişiye, Yazılımı kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisans verme ve/veya Yazılımın kopyalarını satma hakları dahil ancak bunlarla sınırlı olmaksızın Yazılımla ilgilenme izni ücretsiz olarak verilmektedir ve Yazılımın sağlandığı kişilere aşağıdaki koşullara tabi olarak aynısını yapma izni verilmektedir:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dahil edilecektir.
 ```
 
 
@@ -1189,10 +1187,10 @@ The above copyright notice and this permission notice shall be included in all c
 
 
 
-Bitcoin core'nin kaynak kodu [GitHub] (https://github.com/Bitcoin/Bitcoin) üzerinde barındırılan bir Git deposunda tutulmaktadır. Herkes herhangi bir izin istemeden bu depoyu klonlayabilir ve ardından yerel olarak inceleyebilir, derleyebilir veya üzerinde değişiklik yapabilir. Bu, deponun dünya geneline yayılmış binlerce kopyası olduğu anlamına gelir. Bunların hepsi aynı deponun kopyalarıdır, peki bu özel GitHub Bitcoin core deposunu bu kadar özel yapan nedir? Teknik olarak hiç de özel değil, ancak sosyal olarak Bitcoin geliştirmesinin odak noktası haline geldi.
+Bitcoin core'nin kaynak kodu [GitHub](https://github.com/Bitcoin/Bitcoin) üzerinde barındırılan bir Git deposunda tutulmaktadır. Herkes herhangi bir izin istemeden bu depoyu klonlayabilir ve ardından yerel olarak inceleyebilir, derleyebilir veya üzerinde değişiklik yapabilir. Bu, deponun dünya geneline yayılmış binlerce kopyası olduğu anlamına gelir. Bunların hepsi aynı deponun kopyalarıdır, peki bu özel GitHub Bitcoin core deposunu bu kadar özel yapan nedir? Teknik olarak hiç de özel değil, ancak sosyal olarak Bitcoin geliştirmesinin odak noktası haline geldi.
 
 
-Bitcoin ve güvenlik uzmanı Jameson Lopp bunu "Bitcoin core'u Kim Kontrol Ediyor?" başlıklı [blog yazısında] (https://blog.lopp.net/who-controls-Bitcoin-core-/) çok iyi açıklıyor:
+Bitcoin ve güvenlik uzmanı Jameson Lopp bunu "Bitcoin core'u Kim Kontrol Ediyor?" başlıklı [blog yazısında](https://blog.lopp.net/who-controls-Bitcoin-core-/) çok iyi açıklıyor:
 
 
 > Bitcoin core, bir komuta ve kontrol noktası olmaktan ziyade Bitcoin protokolünün geliştirilmesi için bir odak noktasıdır. Herhangi bir nedenle varlığı sona ererse, yeni bir odak noktası ortaya çıkacaktır - dayandığı teknik iletişim platformu (şu anda GitHub deposu) bir tanım / proje bütünlüğünden ziyade bir kolaylık meselesidir. Aslında, Bitcoin'nin geliştirme için odak noktasının platformları ve hatta isimleri değiştirdiğini zaten gördük!
@@ -1205,7 +1203,7 @@ Bitcoin core'ün yazılımının nasıl korunduğunu ve kötü niyetli kod deği
 
 > Bitcoin gelişiminin odak noktasını kimse kontrol etmemektedir.
 
-Bitcoin core geliştiricisi Eric Lombrozo, "The Bitcoin core Merge Process" başlıklı [Medium post] (https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) yazısında geliştirme süreci hakkında daha fazla bilgi veriyor:
+Bitcoin core geliştiricisi Eric Lombrozo, "The Bitcoin core Merge Process" başlıklı [Medium post](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) yazısında geliştirme süreci hakkında daha fazla bilgi veriyor:
 
 
 > Herkes Fork kod tabanı deposunu kullanabilir ve kendi deposunda keyfi değişiklikler yapabilir. Kendi depolarından bir istemci oluşturabilir ve isterlerse bunu çalıştırabilirler. Ayrıca başkalarının çalıştırması için ikili yapılar da oluşturabilirler.
@@ -1232,8 +1230,8 @@ Muhtemelen eşit derecede önemli olan, kullanıcıların herhangi bir izin iste
 
 - Lightning Network: Çok küçük miktarların hızlı bir şekilde ödenmesini sağlayan bir ödeme ağı. Çok az sayıda On-Chain Bitcoin işlemi gerektirir. Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) ve [Lightning Dev Kit](https://github.com/lightningdevkit) gibi çeşitli birlikte çalışabilir uygulamalar mevcuttur.
 - CoinJoin: Birden fazla taraf, Address kümelemesini zorlaştırmak amacıyla ödemelerini tek bir işlemde birleştirmek için işbirliği yapar. Çeşitli uygulamalar mevcuttur.
-- Yan zincirler: Bu sistem, başka bir Blockchain'de kilidini açmak için Bitcoin'ün Blockchain'indeki bir Coin'i kilitleyebilir. Bu, bitcoinlerin başka bir Blockchain'e, yani bir Sidechain'ye taşınmasına izin verir, böylece bu Sidechain'de bulunan özellikleri kullanabilir. Örnekler arasında [Blockstream's Elements] (https://github.com/ElementsProject/Elements) yer almaktadır.
-- OpenTimestamps: Bitcoin'in Blockchain'sında özel bir şekilde [Timestamp bir belge] (https://opentimestamps.org/) yapmanızı sağlar. Daha sonra bu Timestamp'yi bir belgenin belirli bir zamandan önce var olması gerektiğini kanıtlamak için kullanabilirsiniz.
+- Yan zincirler: Bu sistem, başka bir Blockchain'de kilidini açmak için Bitcoin'ün Blockchain'indeki bir Coin'i kilitleyebilir. Bu, bitcoinlerin başka bir Blockchain'e, yani bir Sidechain'ye taşınmasına izin verir, böylece bu Sidechain'de bulunan özellikleri kullanabilir. Örnekler arasında [Blockstream's Elements](https://github.com/ElementsProject/Elements) yer almaktadır.
+- OpenTimestamps: Bitcoin'in Blockchain'sında özel bir şekilde [Timestamp bir belge](https://opentimestamps.org/) yapmanızı sağlar. Daha sonra bu Timestamp'yi bir belgenin belirli bir zamandan önce var olması gerektiğini kanıtlamak için kullanabilirsiniz.
 
 
 İzinsiz geliştirme olmasaydı, bu projelerin birçoğu mümkün olmazdı. Tarafsızlık bölümünde belirtildiği gibi, geliştiriciler Bitcoin'un üzerine protokoller inşa etmek için izin istemek zorunda kalsaydı, yalnızca merkezi geliştirici onay komitesinin izin verdiği protokoller geliştirilirdi.
@@ -1262,12 +1260,12 @@ Birçok geliştirici, takma bir isim altında çalışarak ve gerçek kimlikleri
 makaleler ve Bitcoin ve Lightning Network üzerindeki çalışmalarım.
 
 
-Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede] (https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
+Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
 
 
 > Takma ad kullanmamın ilk nedeni basitçe büyük bir hata yapmaktan endişe etmemdi; dolayısıyla ZmnSCPxj başlangıçta böyle bir durumda terk edilebilecek tek kullanımlık bir takma ad olarak tasarlanmıştı. Ancak çoğunlukla olumlu bir ün kazanmış gibi görünüyor, bu yüzden onu korudum
 
-Takma ad kullanmak, aptalca bir şey söylemeniz veya büyük bir hata yapmanız durumunda kişisel itibarınızı riske atmadan daha özgürce konuşmanızı sağlar. Anlaşıldığı üzere, takma adı çok itibar kazandı ve 2019'da [bir geliştirme hibesi bile aldı] (https://twitter.com/spiralbtc/status/1204815615678177280), bu da Bitcoin'in izinsiz doğasının bir kanıtıdır.
+Takma ad kullanmak, aptalca bir şey söylemeniz veya büyük bir hata yapmanız durumunda kişisel itibarınızı riske atmadan daha özgürce konuşmanızı sağlar. Anlaşıldığı üzere, takma adı çok itibar kazandı ve 2019'da [bir geliştirme hibesi bile aldı](https://twitter.com/spiralbtc/status/1204815615678177280), bu da Bitcoin'in izinsiz doğasının bir kanıtıdır.
 
 
 Muhtemelen, Bitcoin'daki en iyi bilinen takma ad Satoshi Nakamoto'dur. Neden takma isim kullanmayı seçtiği belli değil, ancak geriye dönüp baktığımızda bunun birçok nedenden ötürü muhtemelen iyi bir karar olduğunu görüyoruz:
@@ -1337,7 +1335,7 @@ Bir fikir nihai olarak benimsenme yolunda genellikle çeşitli tartışma ve inc
 Bu aşamaların her birinde farklı bakış açılarına ve geçmişlere sahip kişiler, kaynak kodu, bir BIP veya sadece gevşek bir şekilde tanımlanmış bir fikir gibi mevcut bilgileri gözden geçirir. Aşamalar genellikle yukarıdan aşağıya katı bir şekilde gerçekleştirilmez, aslında birden fazla aşama aynı anda gerçekleşebilir ve bazen bunlar arasında gidip gelirsiniz. Farklı aşamalar sırasında farklı kişiler de geri bildirim sağlayabilir.
 
 
-Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı] (https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
+Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
 
 
 > Yeni gelen biri olarak amaç, mümkün olduğunca çok şey öğrenirken, samimiyet ve alçakgönüllülükle değer katmaya çalışmaktır.
@@ -1353,7 +1351,7 @@ Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. B
 Yazının ikinci yarısı, incelemenin gerçekte nasıl yapılacağına ilişkin bazı yararlı uygulamalı teknik rehberlikten oluşuyor ve daha fazla okuma için önemli belgelere bağlantılar sağlıyor.
 
 
-Bitcoin core geliştiricisi ve kod incelemecisi Gloria Zhao, bir inceleme sırasında genellikle kendisine sorduğu soruları içeren bir [makale] (https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) yazdı. Ayrıca iyi bir inceleme için neleri göz önünde bulundurduğunu da belirtiyor:
+Bitcoin core geliştiricisi ve kod incelemecisi Gloria Zhao, bir inceleme sırasında genellikle kendisine sorduğu soruları içeren bir [makale](https://github.com/glozow/Bitcoin-notes/blob/master/review-checklist.md) yazdı. Ayrıca iyi bir inceleme için neleri göz önünde bulundurduğunu da belirtiyor:
 
 
 > Ben şahsen iyi bir incelemenin, kendime halkla ilişkiler hakkında pek çok soru sorduğum ve cevaplardan tatmin olduğum bir inceleme olduğunu düşünüyorum
@@ -1385,12 +1383,12 @@ Bitcoin'ün sürekli başarısıyla ilgilenen şirketler, bireyler ve kuruluşla
 Örneğin, Taproot dağıtım mekanizması, iki "kampın" oluştuğu uzun bir süre boyunca tartışıldı. Biri, madencilerin belirli bir andan sonra yeni kurallar için ezici bir çoğunlukla oy kullanmaması halinde yükseltmenin "başarısız" olmasını isterken, diğeri ne olursa olsun o andan sonra kuralları uygulamak istedi. Michael Folkson, iki kampın argümanlarını Bitcoin-dev posta listesine gönderdiği bir [e-posta](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) ile özetliyor.
 
 
-Tartışma sonsuza kadar sürecekmiş gibi görünüyordu ve bu konuda yakın zamanda bir fikir birliği oluşması gerçekten Hard idi. Bu durum insanları sinirlendirdi ve sonuç olarak hararet arttı. Gregory Maxwell (nullc kullanıcısı olarak) [Reddit'te] (https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) uzun tartışmaların yükseltmeyi daha az güvenli hale getireceğinden endişelendi:
+Tartışma sonsuza kadar sürecekmiş gibi görünüyordu ve bu konuda yakın zamanda bir fikir birliği oluşması gerçekten Hard idi. Bu durum insanları sinirlendirdi ve sonuç olarak hararet arttı. Gregory Maxwell (nullc kullanıcısı olarak) [Reddit'te](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) uzun tartışmaların yükseltmeyi daha az güvenli hale getireceğinden endişelendi:
 
 
 > Bu noktada, ilave bekleme daha fazla inceleme ve kesinlik katmamaktadır. Bunun yerine, ek gecikme ataleti azaltıyor ve insanlar ayrıntıları unutmaya başladıkça, sonraki kullanımla ilgili çalışmaları geciktirdikçe (Wallet desteği gibi) ve etkinleştirme zaman çerçevesinden emin olsalar yatırım yapacakları kadar ek inceleme çabası harcamadıkça riski bir miktar artırıyor.
 
-Sonunda bu anlaşmazlık David Harding ve Russel O'Connor'ın Speedy Trial (Hızlı Deneme) adını verdikleri ve madencilerin Taproot'in aktivasyonunu kilitlemeleri ya da hızlı bir şekilde başarısız olmaları için nispeten daha kısa bir sinyal süresi gerektiren yeni bir teklif sayesinde çözüldü. Eğer bu süre zarfında aktif hale getirirlerse, Taproot yaklaşık 6 ay sonra devreye sokulacaktı.
+Sonunda bu anlaşmazlık David Harding ve Russel O'Connor'ın Speedy Trial ([Hızlı Deneme](https://planb.academy/resources/glossary/speedy-trial)) adını verdikleri ve madencilerin Taproot'in aktivasyonunu kilitlemeleri ya da hızlı bir şekilde başarısız olmaları için nispeten daha kısa bir sinyal süresi gerektiren yeni bir teklif sayesinde çözüldü. Eğer bu süre zarfında aktif hale getirirlerse, Taproot yaklaşık 6 ay sonra devreye sokulacaktı.
 
 
 Bitcoin'nin gelişim sürecine alışkın olmayan biri muhtemelen bu hararetli tartışmaların son derece kötü ve hatta zehirli göründüğünü düşünecektir. Bazı insanların gözünde bunların kötü görünmesine neden olan en az iki faktör vardır:
@@ -1404,7 +1402,7 @@ Bitcoin'nin gelişim sürecine alışkın olmayan biri muhtemelen bu hararetli t
 Çoğu Bitcoin geliştiricisi, bu açıklığın iyi ve sağlıklı bir ortam yarattığını ve hatta en iyi sonucu elde etmek için gerekli olduğunu savunacaktır.
 
 
-Tehdit bölümünde ima edildiği gibi, yukarıdaki ikinci madde çok faydalı olabilir ancak bir dezavantajı da vardır. Bir saldırgan, karar alma ve geliştirme sürecini bozmak için [Basit Sabotaj Saha El Kitabı] (https://www.gutenberg.org/ebooks/26184)'da özetlenenler gibi oyalama taktiklerini kullanabilir.
+Tehdit bölümünde ima edildiği gibi, yukarıdaki ikinci madde çok faydalı olabilir ancak bir dezavantajı da vardır. Bir saldırgan, karar alma ve geliştirme sürecini bozmak için [Basit Sabotaj Saha El Kitabı](https://www.gutenberg.org/ebooks/26184)'da özetlenenler gibi oyalama taktiklerini kullanabilir.
 
 
 Bahsetmeye değer bir başka şey de, Bitcoin para olduğundan ve Bitcoin core akıl almaz miktarlarda parayı güvence altına aldığından, bu bağlamda güvenliğin hafife alınmamasıdır. Bu yüzden tecrübeli Bitcoin core
@@ -1464,7 +1462,7 @@ Yakında ölçeklendirmeye yönelik farklı yaklaşımları inceleyeceğiz, anca
 
 
 
-Ölçeklendirme, Bitcoin'ın Genesis'inden bu yana tartışmaların odak noktası olmuştur. Satoshi'nin Cryptography e-posta listesindeki Bitcoin whitepaper duyurusuna yanıt olarak [ilk e-postanın] (https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) ilk cümlesi gerçekten de ölçeklendirme hakkındaydı:
+Ölçeklendirme, Bitcoin'ın Genesis'inden bu yana tartışmaların odak noktası olmuştur. Satoshi'nin Cryptography e-posta listesindeki Bitcoin whitepaper duyurusuna yanıt olarak [ilk e-postanın](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) ilk cümlesi gerçekten de ölçeklendirme hakkındaydı:
 
 
 > Satoshi Nakamoto yazdı:
@@ -1481,10 +1479,10 @@ Bu konuşma kendi içinde çok ilginç ya da doğru olmayabilir, ancak ölçekle
 Ölçeklendirme konusundaki tartışmalar, maksimum blok boyutu sınırının artırılıp artırılmayacağı ve nasıl artırılacağı konusunda birçok farklı fikrin dolaştığı 2015-2017 yılları arasında en yüksek ilgiye ulaştı. Bu, kaynak koddaki bir parametrenin değiştirilmesiyle ilgili oldukça ilgisiz bir tartışmaydı, temelde hiçbir şeyi çözmeyen ancak ölçeklendirme sorununu daha da geleceğe iten ve teknik borç oluşturan bir değişiklikti.
 
 
-2015 yılında Montreal'de [Scaling Bitcoin] (https://scalingbitcoin.org/) adlı bir konferans düzenlenmiş, altı ay sonra Hong Kong'da ve daha sonra dünyanın çeşitli yerlerinde bir takip konferansı yapılmıştır. Odak noktası tam olarak Address'in nasıl ölçeklendirileceğiydi. Birçok Bitcoin geliştiricisi ve diğer meraklılar bu konferanslarda bir araya gelerek çeşitli ölçeklendirme konularını ve önerilerini tartıştılar. Bu tartışmaların çoğu blok boyutu artışları etrafında değil, daha uzun vadeli çözümler etrafında dönüyordu.
+2015 yılında Montreal'de [Scaling Bitcoin](https://scalingbitcoin.org/) adlı bir konferans düzenlenmiş, altı ay sonra Hong Kong'da ve daha sonra dünyanın çeşitli yerlerinde bir takip konferansı yapılmıştır. Odak noktası tam olarak Address'in nasıl ölçeklendirileceğiydi. Birçok Bitcoin geliştiricisi ve diğer meraklılar bu konferanslarda bir araya gelerek çeşitli ölçeklendirme konularını ve önerilerini tartıştılar. Bu tartışmaların çoğu blok boyutu artışları etrafında değil, daha uzun vadeli çözümler etrafında dönüyordu.
 
 
-Aralık 2015'teki Hong Kong konferansından sonra Gregory Maxwell, bazı genel ölçeklendirme felsefesiyle başlayarak tartışılan birçok konu hakkındaki görüşlerini [özetledi] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html):
+Aralık 2015'teki Hong Kong konferansından sonra Gregory Maxwell, bazı genel ölçeklendirme felsefesiyle başlayarak tartışılan birçok konu hakkındaki görüşlerini [özetledi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html):
 
 
 > Mevcut teknoloji ile ölçek ve ademi merkeziyetçilik arasında temel ödünleşimler vardır. Eğer sistem çok maliyetli ise insanlar sistemin kurallarını bağımsız olarak uygulamak yerine üçüncü taraflara güvenmek zorunda kalacaklardır. Bitcoin Blockchain'in mevcut teknolojiye göre kaynak kullanımı çok büyükse, Bitcoin eski sistemlere kıyasla rekabet avantajlarını kaybeder çünkü doğrulama çok maliyetli olacak (birçok kullanıcıyı dışarıda bırakacaktır) ve güveni sisteme geri dönmeye zorlayacaktır.  Kapasite çok düşükse ve işlem yapma yöntemlerimiz çok verimsizse, anlaşmazlıkların çözümü için zincire erişim çok maliyetli olacak ve yine güveni sisteme geri itecektir.
@@ -1553,7 +1551,7 @@ Doğrulamasız Mining, Full node ademi merkeziyetçiliğini daha da zayıflatır
 Yatay ölçeklendirme, iş yükünü birden fazla makineye bölen teknikleri ifade eder. Bu, popüler web siteleri ve veritabanları arasında yaygın bir ölçeklendirme yaklaşımı olsa da, Bitcoin'da kolayca yapılamaz.
 
 
-Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı] (https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
+Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
 
 
 > Parçalanmış sistemlerde "Full node savunması" en azından doğrudan çalışmaz. Bütün mesele, herkesin tüm verilere sahip olmamasıdır, bu nedenle mevcut olmadığında ne olacağına karar vermeniz gerekir.
@@ -1608,7 +1606,7 @@ Grafik, ARM ve x86 olmak üzere iki farklı 64-bit CPU türü için eğilimi gö
 
 Ayrıca, performans artışına katkıda bulunan ve yerden tasarruf sağlayan iyileştirmelere ilişkin birkaç iyi örnek de bulunmaktadır. Bir
 
-gW-588'in alan tasarrufuna katkısı hakkında [Medium blog yazısı] (https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3), kullanıcı Murch, Taproot'i çeşitli şekillerde kullanarak ve hiç kullanmayarak 3'te 2 eşik imzasının ne kadar blok alanı gerektireceğini karşılaştırıyor.
+gW-588'in alan tasarrufuna katkısı hakkında [Medium blog yazısı](https://murchandamus.medium.com/2-of-3-Multisig-inputs-using-Pay-to-Taproot-d5faf2312ba3), kullanıcı Murch, Taproot'i çeşitli şekillerde kullanarak ve hiç kullanmayarak 3'te 2 eşik imzasının ne kadar blok alanı gerektireceğini karşılaştırıyor.
 
 
 ![](assets/tr/014.webp)
@@ -1670,7 +1668,7 @@ Başlangıç işlemi Blockchain'da gerçekleştiğinde, protokol yapması gereke
 Belirli protokollerin nasıl çalıştığını detaylandırmayacağız, ancak önceki şekilde görebileceğiniz gibi, Blockchain protokolün yaşam döngüsü boyunca nadiren kullanılır. Tüm ilgi çekici eylem *off-chain* ile gerçekleşir. Bunun doğru yapıldığında gizlilik için nasıl bir kazanım olabileceğini gördük, ancak ölçeklenebilirlik için de bir avantaj olabilir.
 
 
-Gregory Maxwell, "Aya yolculuk için birden fazla aşamalı bir roket gerekir, aksi takdirde roket denklemi öğle yemeğinizi yer... herkesi palyaço arabası tarzında bir trebuchet'e paketlemek ve başarı ummak doğru değil." başlıklı bir [Reddit gönderisinde] (https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/), Bitcoin'u büyüklük sırasına göre ölçeklendirmek için neden katmanlamanın en iyi şansımız olduğunu açıklıyor.
+Gregory Maxwell, "Aya yolculuk için birden fazla aşamalı bir roket gerekir, aksi takdirde roket denklemi öğle yemeğinizi yer... herkesi palyaço arabası tarzında bir trebuchet'e paketlemek ve başarı ummak doğru değil." başlıklı bir [Reddit gönderisinde](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/), Bitcoin'u büyüklük sırasına göre ölçeklendirmek için neden katmanlamanın en iyi şansımız olduğunu açıklıyor.
 
 
 Visa veya Mastercard'ı Bitcoin'in ana rakipleri olarak görmenin yanlışlığını vurgulayarak ve maksimum blok boyutunu artırmanın söz konusu rekabeti karşılamak için nasıl kötü bir yaklaşım olduğunu vurgulayarak başlıyor. Ardından katmanları kullanarak nasıl gerçek bir fark yaratılabileceğinden bahsediyor:
@@ -1722,17 +1720,17 @@ Bitcoin insanlar tarafından inşa edilmiştir. İnsanlar yazılımı yazıyor v
 Bitcoin core'te bir hata keşfettiğinizi düşünün; bu hata, herhangi birinin özel olarak hazırlanmış bazı ağ mesajlarını kullanarak bir Bitcoin core düğümünü uzaktan kapatmasına olanak tanıyor. Ayrıca kötü niyetli olmadığınızı ve bu sorunun istismar edilmeden kalmasını istediğinizi düşünün. Ne yaparsınız? Bu konuda sessiz kalırsanız, muhtemelen başka biri sorunu keşfedecektir ve bu kişinin kötü niyetli olmayacağından emin olamazsınız.
 
 
-Bir güvenlik sorunu keşfedildiğinde, bunu keşfeden kişi Bitcoin geliştiricileri arasında sıklıkla kullanılan bir terim olan _responsible disclosure_ terimini kullanmalıdır. Bu terim [Wikipedia'da açıklanmıştır] (https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
+Bir güvenlik sorunu keşfedildiğinde, bunu keşfeden kişi Bitcoin geliştiricileri arasında sıklıkla kullanılan bir terim olan _responsible disclosure_ terimini kullanmalıdır. Bu terim [Wikipedia'da açıklanmıştır](https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure):
 
 
 > Donanım ve yazılım geliştiricileri genellikle hatalarını onarmak için zamana ve kaynaklara ihtiyaç duyarlar. Çoğu zaman, bu hataları bulanlar etik bilgisayar korsanlarıdır
 güvenlik açıkları. Hackerlar ve bilgisayar güvenlik bilimcileri, kamuoyunu güvenlik açıklarından haberdar etmenin sosyal sorumlulukları olduğu görüşündedir. Sorunları gizlemek yanlış bir güvenlik hissine neden olabilir. Bundan kaçınmak için, ilgili taraflar koordine olur ve güvenlik açığının onarılması için makul bir süre üzerinde müzakere ederler. Güvenlik açığının potansiyel etkisine, acil durum düzeltmesi veya geçici çözümün geliştirilmesi ve uygulanması için gereken süreye ve diğer faktörlere bağlı olarak bu süre birkaç gün ile birkaç ay arasında değişebilir.
 
 
-Bu, bir güvenlik sorunu bulmanız halinde bunu sistemden sorumlu ekibe bildirmeniz gerektiği anlamına gelir. Peki bu Bitcoin bağlamında ne anlama geliyor? Bitcoin'yi kimse kontrol etmiyor, ancak şu anda Bitcoin'nin geliştirilmesi için bir odak noktası var, yani [Bitcoin core Github deposu] (https://github.com/Bitcoin/Bitcoin). Söz konusu deponun sorumluları depodaki koddan sorumludur, ancak bir bütün olarak sistemden sorumlu değildirler - kimse sorumlu değildir. Bununla birlikte, genel olarak en iyi uygulama security@bitcoincore.org adresine bir e-posta göndermektir.
+Bu, bir güvenlik sorunu bulmanız halinde bunu sistemden sorumlu ekibe bildirmeniz gerektiği anlamına gelir. Peki bu Bitcoin bağlamında ne anlama geliyor? Bitcoin'yi kimse kontrol etmiyor, ancak şu anda Bitcoin'nin geliştirilmesi için bir odak noktası var, yani [Bitcoin core Github deposu](https://github.com/Bitcoin/Bitcoin). Söz konusu deponun sorumluları depodaki koddan sorumludur, ancak bir bütün olarak sistemden sorumlu değildirler - kimse sorumlu değildir. Bununla birlikte, genel olarak en iyi uygulama security@bitcoincore.org adresine bir e-posta göndermektir.
 
 
-Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" başlıklı bir [e-posta dizisi] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) yazısında, mevcut en iyi uygulamalar olarak algıladıklarını özetlemeye çalışmıştır. Konuyla ilgili görüşünü bildirmek için çeşitli kaynaklardan ve farklı kişilerden girdiler toplamıştı.
+Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" başlıklı bir [e-posta dizisi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) yazısında, mevcut en iyi uygulamalar olarak algıladıklarını özetlemeye çalışmıştır. Konuyla ilgili görüşünü bildirmek için çeşitli kaynaklardan ve farklı kişilerden girdiler toplamıştı.
 
 
 
@@ -1755,12 +1753,12 @@ Anthony Towns, 2017 tarihli "Hataların sorumlu bir şekilde ifşa edilmesi" ba�
 Bu liste, Bitcoin için yama yayınlarken ne kadar dikkatli olunması gerektiğini göstermektedir, çünkü yamanın kendisi güvenlik açığını ele verebilir. Dördüncü madde, bir yamanın yeterince iyi gizlenip gizlenmediğinin nasıl test edileceğini açıkladığı için özellikle ilginçtir. Gerçekten de, birkaç deneyimli geliştirici yamanın bir güvenlik açığını düzelttiğini bilse bile bu açığı fark edemiyorsa, diğerlerinin bunu keşfetmesi muhtemelen gerçekten Hard olacaktır.
 
 
-Bu e-postaya yol açan konu başlığı, altcoinlere ve Bitcoin'nın diğer uygulamalarına yönelik güvenlik açıklarının ifşa edilip edilmeyeceğini, ne zaman ve nasıl ifşa edileceğini tartışıyordu. Burada net bir cevap yok. "İyi adamlara yardım etmek" yapılması gereken mantıklı bir şey gibi görünüyor, ancak bunların kim olduğuna kim karar veriyor ve sınır nerede çiziliyor? Bryan Bishop, altcoinlerin ve hatta scamcoinlerin güvenlik açıklarına karşı kendilerini savunmalarına yardımcı olmanın ahlaki bir görev olduğunu [savundu] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html):
+Bu e-postaya yol açan konu başlığı, altcoinlere ve Bitcoin'nın diğer uygulamalarına yönelik güvenlik açıklarının ifşa edilip edilmeyeceğini, ne zaman ve nasıl ifşa edileceğini tartışıyordu. Burada net bir cevap yok. "İyi adamlara yardım etmek" yapılması gereken mantıklı bir şey gibi görünüyor, ancak bunların kim olduğuna kim karar veriyor ve sınır nerede çiziliyor? Bryan Bishop, altcoinlerin ve hatta scamcoinlerin güvenlik açıklarına karşı kendilerini savunmalarına yardımcı olmanın ahlaki bir görev olduğunu [savundu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html):
 
 
 > Bitcoin'yi ve kullanıcılarını aktif tehditlerden korumak yeterli değildir, her türlü kullanıcıyı ve farklı yazılımı her türlü tehditten korumak için daha genel bir sorumluluk vardır, insanlar kişisel olarak bakımını yapmadığınız, katkıda bulunmadığınız veya savunmadığınız aptalca ve güvensiz yazılımlar kullanıyor olsalar bile. Bir güvenlik açığı bilgisini ele almak hassas bir konudur ve başlangıçta tanımlanandan daha ciddi doğrudan veya dolaylı etkiye sahip bir bilgi alıyor olabilirsiniz.
 
-Ayrıca Town'ın yukarıdaki e-postasına öncülük eden Gregory Maxwell'in güvenlik açıklarının göründüğünden daha ciddi olabileceğini savunduğu bir [gönderi] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) vardı:
+Ayrıca Town'ın yukarıdaki e-postasına öncülük eden Gregory Maxwell'in güvenlik açıklarının göründüğünden daha ciddi olabileceğini savunduğu bir [gönderi](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) vardı:
 
 
 > Birçok kez Hard'un istismar edilmesi gereken bir sorunun doğru hileyi bulduğunuzda önemsiz hale geldiğini veya küçük bir dos sorununun çok daha ciddi hale geldiğini gördüm.
@@ -1784,7 +1782,7 @@ Ayrıca "bu başlığa ifşa ile ilgili bir şey demek biraz yanlış, bu başl�
 Bitcoin tek kişilik bir proje olarak başladı (en azından yaratıcısının takma adı bunu gösteriyor) ve Bitcoin'in başlangıçta çok az değeri vardı ya da hiç yoktu. Bu nedenle, güvenlik açıkları ve hata düzeltmeleri bugün olduğu kadar titizlikle ele alınmıyordu.
 
 
-Bitcoin wiki'de Bitcoin'nın geçirdiği [yaygın güvenlik açıkları ve maruziyetler listesi] (https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE'ler) bulunmaktadır. Bu bölüm, Bitcoin'nın ilk yıllarındaki bazı güvenlik sorunlarının ve olaylarının küçük bir açıklamasını oluşturmaktadır. Hepsini ele almayacağız, ancak özellikle ilginç bulduğumuz birkaç tanesini seçtik.
+Bitcoin wiki'de Bitcoin'nın geçirdiği [yaygın güvenlik açıkları ve maruziyetler listesi](https://en.Bitcoin.it/wiki/Common_Vulnerabilities_and_Exposures) (CVE'ler) bulunmaktadır. Bu bölüm, Bitcoin'nın ilk yıllarındaki bazı güvenlik sorunlarının ve olaylarının küçük bir açıklamasını oluşturmaktadır. Hepsini ele almayacağız, ancak özellikle ilginç bulduğumuz birkaç tanesini seçtik.
 
 
 #### 2010-07-28: Herkesin parasını harca (CVE-2010-5141)
@@ -1825,12 +1823,12 @@ Satoshi bu değişikliği yerel olarak yaptı ve ondan 0.3.5 sürümlü çalış
 
 > Lütfen en kısa sürede 0.3.5 sürümüne yükseltin!  Sahte işlemlerin kabul edilmesinin mümkün olduğu bir uygulama hatasını düzelttik.  Sürüm 0.3.5'e yükseltene kadar Bitcoin işlemlerini ödeme olarak kabul etmeyin!
 
-Orijinal mesaj daha sonra düzenlenmiştir ve artık tam haliyle mevcut değildir. Yukarıdaki pasaj bir [alıntı cevaptan] (https://bitcointalk.org/index.php?topic=626.msg6458#msg6458) alınmıştır. Bazı kullanıcılar Satoshi'ün ikili dosyasını denemiş, ancak sorunlarla karşılaşmışlardır. Kısa bir süre sonra, [Satoshi yazdı](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
+Orijinal mesaj daha sonra düzenlenmiştir ve artık tam haliyle mevcut değildir. Yukarıdaki pasaj bir [alıntı cevaptan](https://bitcointalk.org/index.php?topic=626.msg6458#msg6458) alınmıştır. Bazı kullanıcılar Satoshi'ün ikili dosyasını denemiş, ancak sorunlarla karşılaşmışlardır. Kısa bir süre sonra, [Satoshi yazdı](https://bitcointalk.org/index.php?topic=626.msg6469#msg6469):
 
 
 > SVN'yi güncellemek için henüz zamanım olmadı.  0.3.6'yı bekleyin, şu anda onu oluşturuyorum.  Bu arada düğümünüzü kapatabilirsiniz.
 
-Ve 35 dakika sonra [şöyle yazdı] (https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
+Ve 35 dakika sonra [şöyle yazdı](https://bitcointalk.org/index.php?topic=626.msg6480#msg6480):
 
 
 > SVN 0.3.6 sürümü ile güncellenmiştir.
@@ -1872,7 +1870,7 @@ O zamanlar bugünkü kadar çok kullanıcı yoktu ve Bitcoin'nin değeri sıfır
 
 
 - Satoshi, düzeltmeyi içeren 0.3.5'in yalnızca ikili sürümünü yaptı. Belki de sorunu gizlemek için bir önlem olarak hiçbir yama veya kod sağlanmadı.
-- 0.3,5 [çalışmadı bile] (https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
+- 0.3,5 [çalışmadı bile](https://bitcointalk.org/index.php?topic=626.msg6455#msg6455).
 - 0.3.6'daki düzeltme aslında bir Hard Fork idi.
 
 
@@ -1945,7 +1943,7 @@ Planı, burada tartışılan gibi işlemleri geçersiz kılmak için bir Soft Fo
 Bununla ilgili büyük bir uyarı vardı: kullanıcıların knightmb'den indireceği veriler başlangıçta Bitcoin yazılımı tarafından doğrulanmıyordu](https://Bitcoin.stackexchange.com/a/113682/69518). Blkindex.dat dosyası UTXO setini içeriyordu ve yazılım buradaki herhangi bir veriyi zaten doğrulamış gibi kabul ediyordu. knightmb kendisine ya da bir başkasına biraz bitcoin vermek için verileri manipüle edebilirdi.
 
 
-Yine, insanlar bunu kabul etmiş gibi görünüyordu ve geçersiz bloğun ve ardıllarının tersine çevrilmesi başarılı oldu. Madenciler [74637] (https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) bloğunun yeni bir ardılı üzerinde çalışmaya başladı ve bloğun Timestamp'ine göre, sorunun keşfedilmesinden yaklaşık 6 saat sonra, 23:53 UTC'de bir ardıl ortaya çıktı. Ertesi gün 08:10'da, 16 Ağustos'ta, 74689 numaralı blok civarında, yeni zincir eski zinciri geride bıraktı, bu nedenle yükseltilmemiş tüm düğümler yeni zinciri takip etmek için yeniden birleşti. Bu, Bitcoin'nın tarihindeki en derin yeniden düzenleme - 52 blok - oldu.
+Yine, insanlar bunu kabul etmiş gibi görünüyordu ve geçersiz bloğun ve ardıllarının tersine çevrilmesi başarılı oldu. Madenciler [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) bloğunun yeni bir ardılı üzerinde çalışmaya başladı ve bloğun Timestamp'ine göre, sorunun keşfedilmesinden yaklaşık 6 saat sonra, 23:53 UTC'de bir ardıl ortaya çıktı. Ertesi gün 08:10'da, 16 Ağustos'ta, 74689 numaralı blok civarında, yeni zincir eski zinciri geride bıraktı, bu nedenle yükseltilmemiş tüm düğümler yeni zinciri takip etmek için yeniden birleşti. Bu, Bitcoin'nın tarihindeki en derin yeniden düzenleme - 52 blok - oldu.
 
 
 OP_RETURN sorunu ile karşılaştırıldığında, bu sorun biraz daha temiz bir şekilde ele alınmıştır:
@@ -1969,7 +1967,7 @@ Bu vaka ile önceki OP_RETURN vakası arasında önemli bir fark var: bu sorun v
 
 
 
-Mart 2013'te çok ilginç ve eğitim açısından değerli bir konu ortaya çıktı. Blockchain'nın (aşağıdaki alıntıda "Fork" kelimesi kullanılmasına rağmen) 225429 numaralı bloktan sonra ayrıldığı görülmüştür. Bu olayın ayrıntıları [BIP50'de rapor edilmiştir] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Özet şöyle diyor:
+Mart 2013'te çok ilginç ve eğitim açısından değerli bir konu ortaya çıktı. Blockchain'nın (aşağıdaki alıntıda "Fork" kelimesi kullanılmasına rağmen) 225429 numaralı bloktan sonra ayrıldığı görülmüştür. Bu olayın ayrıntıları [BIP50'de rapor edilmiştir](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Özet şöyle diyor:
 
 
 > Daha önce görülenden daha fazla sayıda toplam işlem girdisine sahip bir blok çıkarıldı ve yayınlandı. Bitcoin 0.8 düğümleri bunu idare edebildi, ancak bazı 0.8 öncesi Bitcoin düğümleri bunu reddederek Blockchain'un beklenmedik bir Fork'sine neden oldu. Bu noktada 0.8 öncesi uyumsuz zincir (bundan sonra 0.8 zinciri) Mining Hash gücünün yaklaşık %60'ına sahipti ve bölünmenin otomatik olarak çözülmemesini sağladı (0.8 öncesi zincirin toplam işte 0.8 zincirini geçmesi ve 0.8 düğümlerini 0.8 öncesi zincire yeniden organize olmaya zorlaması durumunda meydana geleceği gibi).
@@ -1980,7 +1978,7 @@ Mart 2013'te çok ilginç ve eğitim açısından değerli bir konu ortaya çık
 Mining havuzları BTCGuild ve Slush'ın hızlı hareket etmesi bu acil durumda çok önemliydi. Hash gücünün çoğunluğunu bölünmenin 0.8 öncesi dalına aktarmayı başardılar ve böylece fikir birliğinin yeniden sağlanmasına yardımcı oldular. Bu da geliştiricilere sürdürülebilir bir çözüm bulmaları için zaman kazandırdı.
 
 
-Bu konuda çok ilginç olan şey, 0.7.2 sürümünün önceki sürümlerde de olduğu gibi kendisiyle uyumsuz olmasıdır. Bu durum [BIP50'nin kök neden bölümünde] (https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) açıklanmıştır:
+Bu konuda çok ilginç olan şey, 0.7.2 sürümünün önceki sürümlerde de olduğu gibi kendisiyle uyumsuz olmasıdır. Bu durum [BIP50'nin kök neden bölümünde](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause) açıklanmıştır:
 
 
 > Yeterince yüksek olmayan BDB kilit yapılandırması ile, dolaylı olarak blok geçerliliğini belirleyen bir ağ konsensüs kuralı haline gelmişti (her ne kadar bir
@@ -2033,7 +2031,7 @@ BIP 4 Temmuz 2015 tarihinde yürürlüğe girmiştir. Ancak, yukarıda belirtile
 
 Bu konunun tam açıklaması 28 Temmuz 2015 tarihinde Pieter Wuille tarafından
 
-[Bitcoin-dev posta listesine e-posta gönderin] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[Bitcoin-dev posta listesine e-posta gönderin](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
 
 
 > Herkese merhaba,
@@ -2077,7 +2075,7 @@ Bu BIP'nin "katı DER kodlamasından" çok daha fazlasını kapsayan genişliği
 
 
 
-OpenSSL, Bitcoin'te en başından beri kullanılması halinde sorunu çözecek yamaları içeren yazılımlarının yeni sürümlerini yayınladı. Ancak, OpenSSL'in herhangi bir yeni sürümünü yalnızca Bitcoin core'ün yeni bir sürümünde kullanmak sorunları daha da kötüleştirecektir. Gregory Maxwell bunu Ocak 2015'te başka bir [e-posta dizisinde] (https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) açıklamaktadır:
+OpenSSL, Bitcoin'te en başından beri kullanılması halinde sorunu çözecek yamaları içeren yazılımlarının yeni sürümlerini yayınladı. Ancak, OpenSSL'in herhangi bir yeni sürümünü yalnızca Bitcoin core'ün yeni bir sürümünde kullanmak sorunları daha da kötüleştirecektir. Gregory Maxwell bunu Ocak 2015'te başka bir [e-posta dizisinde](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) açıklamaktadır:
 
 
 > Çoğu uygulama için bazı imzaları hevesle reddetmek genellikle kabul edilebilir olsa da, Bitcoin tüm katılımcıların girdi verilerinin kesin geçerliliği veya geçersizliği konusunda genel olarak hemfikir olması gereken bir mutabakat sistemidir.  Bir anlamda tutarlılık "doğruluktan" daha önemlidir.
@@ -2103,7 +2101,7 @@ Buradan çıkarılacak en önemli sonuç, BIP'lerin aşağı yukarı *atomik* ol
 
 
 
-Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına] (https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) bağlantı içeren bir uyarı mesajı gönderildi:
+Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) bağlantı içeren bir uyarı mesajı gönderildi:
 
 
 > 4 Temmuz 2015 sabahı erken saatlerde 950/1000 (%95) eşiğine ulaşıldı. Bundan kısa bir süre sonra, küçük bir Miner (yükseltilmemiş %5'in bir parçası) geçersiz bir blok çıkardı; bu beklenen bir durumdu. Ne yazık ki, ağ Hash oranının yaklaşık yarısının blokları tam olarak doğrulamadan Mining olduğu (SPV Mining olarak adlandırılır) ve bu geçersiz bloğun üzerine yeni bloklar inşa ettiği ortaya çıktı.
@@ -2145,7 +2143,7 @@ Yıllar boyunca ortaya çıkan daha ciddi sorunlardan bazılarına ve bunların 
 Bu tartışma soruları sadece "Bitcoin gelişim felsefesi" içeriğinin bir özeti değildir, sizi daha fazla araştırma yapmaya teşvik etmek içindir, bu yüzden dışarı çıkıp keşfettiğinizden emin olun.
 
 
-Bu soru havuzundaki konuyu seçerek 100-300 kelimelik [mini-essay] (https://www.youtube.com/watch?v=N4YjXJVzoZY) yazarak anlayışınızın derinliğini test edebilirsiniz. Çalışmanızla ilgili geri bildirim almak isterseniz mini-essay@planb.network adresine gönderebilirsiniz, incelemekten memnuniyet duyarız.
+Bu soru havuzundaki konuyu seçerek 100-300 kelimelik [mini-essay](https://www.youtube.com/watch?v=N4YjXJVzoZY) yazarak anlayışınızın derinliğini test edebilirsiniz. Çalışmanızla ilgili geri bildirim almak isterseniz mini-essay@planb.network adresine gönderebilirsiniz, incelemekten memnuniyet duyarız.
 
 
 #### Adem-i Merkeziyetçilik

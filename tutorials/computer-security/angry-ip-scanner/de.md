@@ -26,7 +26,7 @@ Wie scannt man ein Windows-Netzwerk schnell und einfach nach angeschlossenen Rec
 
 
 
-Dieses Tool kann von Einzelpersonen zum **Scannen ihres lokalen Netzwerks** verwendet werden, aber auch von IT-Fachleuten für den gleichen Zweck. Ein Beweis dafür, dass **dieses Tool sehr praktisch ist**, ist, dass es bereits von **einigen cyberkriminellen Gruppen** verwendet wurde, um Unternehmensnetzwerke zu scannen (auf dieselbe Weise wie Nmap). Ein gutes Beispiel ist die [Ransomware-Gruppe RansomHub] (https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Es ist immer noch ein solides Stück Software, aber wie bei anderen netzwerk- und sicherheitsorientierten Tools kann es missbraucht werden.
+Dieses Tool kann von Einzelpersonen zum **Scannen ihres lokalen Netzwerks** verwendet werden, aber auch von IT-Fachleuten für den gleichen Zweck. Ein Beweis dafür, dass **dieses Tool sehr praktisch ist**, ist, dass es bereits von **einigen cyberkriminellen Gruppen** verwendet wurde, um Unternehmensnetzwerke zu scannen (auf dieselbe Weise wie Nmap). Ein gutes Beispiel ist die [Ransomware-Gruppe RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Es ist immer noch ein solides Stück Software, aber wie bei anderen netzwerk- und sicherheitsorientierten Tools kann es missbraucht werden.
 
 
 

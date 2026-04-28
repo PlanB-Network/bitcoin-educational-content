@@ -1,0 +1,26 @@
+id: 6dd354fe-dd69-4cb1-beb2-8c2b1263c633
+start_date: 2026-02-25 18:30:00
+end_date: 2026-02-25 20:30:00
+timezone: Atlantic/Madeira
+address_city_country: Funchal, Portugal
+address_line_2: R. das Mercês 41, 9000-224
+address_line_3: Cowork Funchal
+name: FREE Madeira Bitcoin Meetup 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A meetup featuring Sylvia Brinded-Püls from A Place to Be discussing sovereignty, community, and practical ways of living beyond the system. The talk focuses on building community and making opting out easy through live-and-let-live spaces. Free entry with RSVP recommended in a relaxed setting where children are welcome.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://www.satlantis.io/events/1691/FREE-Madeira-Bitcoin-Meetup
+  replay_url: 
+  live_url: 
+tags:
+  - self-sovereignty
+  - adoption
+  - cypherpunk

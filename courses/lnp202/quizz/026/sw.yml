@@ -1,0 +1,9 @@
+question: Mnara wa ulinzi katika operesheni ya kawaida unaweza kuhitimisha nini kuhusu njia inayolinda?
+answer: Mara ngapi hali yake inasasishwa
+wrong_answers:
+  - Mgao wa Liquidity
+  - Uwezo wake
+  - Sera ya gharama
+explanation: |
+  Inapokea pakiti zilizosimbwa kwa njia fiche kwa kila hali mpya, ikionyesha kiwango cha kawaida cha shughuli pekee.
+reviewed: false

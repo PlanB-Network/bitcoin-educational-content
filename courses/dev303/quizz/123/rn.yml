@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’ubwubatsi k’intango gatuma Breez SDK ishobora gukuraho inzitizi ya kera ya Lightning Network yo gufungura imihora y’amaboko ku bashasha?
+answer: Ibikorwa vy'Umutanga Serivisi y'Imiravyo (LSP) bitanga ubwo nyene amafaranga yinjira iyo wallet ishizweho
+wrong_answers:
+  - Ibikorwa vyubatswe mu guhinduranya ubwato bugendera mu mazi bihindura on-chain Bitcoin mu mirongo y'umuravyo ata n'umwe abigiramwo uruhara
+  - Ivyuma vy'imirongo vy'amahera vy'imbere y'igihe bicungiwe na Greenlight bigenewe abakoresha bishingiye ku bisabwa
+  - Uburyo bwo kuvumbura urunganwe bwihuta buhuza amasakoshi mashasha n'ibice vy'amahera menshi kugira ngo haboneke umurongo ubwo nyene
+explanation: |
+  Breez SDK's integrated LSP functionality yagenewe canecane gukuraho inzitizi yo gufungura umurongo w'amaboko mu gutanga amahera yinjira igihe abakoresha bashizeho wallet yabo. Ivyo bituma umuntu ashobora kwakira amahera ataco akora. Submarine swaps zikorana n’uguhindura urugero ariko ntizivuga ku bijanye n’ugutanga umurongo w’intango. Ivyuma vy’amahera vyatanzwe mbere n’ukuvumbura abagenzi si uburyo Breez ikoresha - ahubwo, ubufatanye bwa LSP buratanga ataco buvuze ubushobozi bukenewe bwo kwinjira kugira ngo abakoresha bashasha bashobore guhabwa amahera ubwo nyene.

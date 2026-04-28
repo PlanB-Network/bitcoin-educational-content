@@ -1,0 +1,8 @@
+question: Mitä Bastiat pitää keskeisenä loogisena harhaluulona, jonka ansiosta sekä kommunismi että liiallinen sääntely säilyttävät älyllisen legitimiteettinsä, vaikka ne vastustavat taloudellista vapautta?
+answer: Ne nojaavat taloudellisiin sofismeihin - harhaanjohtavaan päättelyyn, jossa keinot ja päämäärät käännetään, luodaan vääriä syy-seuraussuhteita ja esitetään kuvitteellisia vastakkainasetteluja etujen välillä
+wrong_answers:
+  - Ne hyödyntävät vapaiden markkinoiden teorian todellisia matemaattisia ristiriitoja, jotka osoittavat, että kestävä talouskasvu on mahdotonta ilman valtion väliintuloa
+  - Ne hyödyntävät vapaaehtoisten vaihtojärjestelmien luontaista epävakautta, sillä ne pyrkivät luonnostaan monopolisoitumaan ja vaativat sääntelyn korjaamista
+  - Ne hyödyntävät todistettua historiallista mallia, jonka mukaan rajoittamattomat markkinat johtavat väistämättä luokkasotaan ja yhteiskunnalliseen romahdukseen ilman hallituksen valvontaa
+explanation: |
+  Bastiat'n perustavanlaatuinen oivallus on, että taloudellista vapautta vastustavat järjestelmät pitävät itseään yllä sofismien avulla - erityisesti virheellisten päättelymallien avulla, joihin kuuluu työn pitäminen päämääränä eikä keinona, väärien kausaalisuhteiden luominen ja keinotekoisen vastakkainasettelun luominen yleisten ja erityisten etujen välille. Väärissä vastauksissa annetaan virheellisesti ymmärtää, että näillä järjestelmillä on laillinen looginen perusta, vaikka Bastiat'n pointti on juuri se, että ne säilyvät vain loogisten virheiden ja vääristelyjen, ei liberaalin teorian todellisten ristiriitojen, ansiosta.

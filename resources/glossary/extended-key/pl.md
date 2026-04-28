@@ -1,5 +1,6 @@
 ---
-term: ROZSZERZONY KLUCZ
+term: Klucz rozszerzony
+definition: Ciąg łączący klucz, jego chain code i metadane do wyprowadzania (derywacji) w portfelach HD.
 ---
 
 Ciąg znaków, który łączy klucz (publiczny lub prywatny), powiązany z nim kod łańcucha i serię metadanych. Klucz rozszerzony kompiluje wszystkie Elements niezbędne do wyprowadzenia kluczy podrzędnych w jeden identyfikator. Są one używane w deterministycznych i hierarchicznych portfelach i mogą być dwojakiego rodzaju: rozszerzony klucz publiczny (używany do wyprowadzania podrzędnych kluczy publicznych) lub rozszerzony klucz prywatny (używany do wyprowadzania zarówno podrzędnych kluczy prywatnych, jak i publicznych). Rozszerzony klucz zawiera zatem kilka różnych danych, opisanych w BIP32, w kolejności:

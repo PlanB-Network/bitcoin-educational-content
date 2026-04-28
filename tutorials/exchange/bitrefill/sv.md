@@ -149,7 +149,7 @@ Du hittar alla dina presentkort genom att klicka på din profil längst upp till
 
 ![BITREFILL](assets/notext/28.webp)
 
-Jag rekommenderar också att du laddar ner Bitrefill-appen, som finns på [Google Play Store] (https://play.google.com/store/apps/details?id=com.bitrefill.app) och [App Store] (https://apps.apple.com/in/app/bitrefill/id1378102623), för att kunna köpa och använda presentkort dagligen i fysiska butiker.
+Jag rekommenderar också att du laddar ner Bitrefill-appen, som finns på [Google Play Store](https://play.google.com/store/apps/details?id=com.bitrefill.app) och [App Store](https://apps.apple.com/in/app/bitrefill/id1378102623), för att kunna köpa och använda presentkort dagligen i fysiska butiker.
 
 
 Och där har du det, du vet nu hur du spenderar dina bitcoins utan KYC hos stora återförsäljare för dina vardagliga utgifter. Personligen betraktar jag den här metoden som en tillfällig lösning tills fler handlare integrerar Bitcoin nativt på sina försäljningsställen. Det är dock fortfarande ett mycket bekvämt alternativ för tillfället.

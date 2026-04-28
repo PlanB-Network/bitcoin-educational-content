@@ -1,0 +1,9 @@
+question: Welches ist laut Protokoll das letzte Halving?
+answer: Das 33.
+wrong_answers:
+  - Das 21.
+  - Das 38.
+  - Das 64.
+explanation: |
+  Das 33. Halving bei Blockhöhe 6.930.000 wird die Blocksubvention beenden, da sie unter die kleinste Einheit sinkt.
+reviewed: false

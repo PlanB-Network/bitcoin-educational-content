@@ -1,5 +1,5 @@
 ---
-name: Jade doe-het-zelf
+name: Jade DIY
 description: Verander een dev board van $15 in een volledig functionele Bitcoin hardware wallet
 ---
 
@@ -116,7 +116,7 @@ Hardware wallets introduceren echter hun eigen bedreigingen. Je moet erop vertro
 ## Wat zijn we aan het bouwen?
 
 
-We nemen generieke hardware, het LilyGo T-Display, en flashen er Jade SDK-firmware op. De [Jade Plus] (https://blockstream.com/jade/jade-plus/) is een open-source wallet, die normaal $150 kost:
+We nemen generieke hardware, het LilyGo T-Display, en flashen er Jade SDK-firmware op. De [Jade Plus](https://blockstream.com/jade/jade-plus/) is een open-source wallet, die normaal $150 kost:
 
 
 ![image](assets/fr/02.webp)
@@ -153,7 +153,7 @@ Vandaag flashen we hun firmware op een $15 hardware.
 ### Uw zaak voorbereiden
 
 
-Je hebt twee opties voor het onderbrengen van je LilyGO T-Display-bord: een 3D-geprinte behuizing of de officiële LilyGO-behuizing. De geprinte behuizing kun je vinden en printen op [dit model] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Het biedt een lichtgewicht en aanpasbaar omhulsel voor je apparaat.
+Je hebt twee opties voor het onderbrengen van je LilyGO T-Display-bord: een 3D-geprinte behuizing of de officiële LilyGO-behuizing. De geprinte behuizing kun je vinden en printen op [dit model](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Het biedt een lichtgewicht en aanpasbaar omhulsel voor je apparaat.
 
 
 ![image](assets/fr/04.webp)
@@ -365,7 +365,7 @@ Sparrow Wallet is een krachtige desktopapplicatie die je gedetailleerde controle
 
 
 
-- Download Sparrow Wallet van de officiële website: [sparrowwallet.com] (https://sparrowwallet.com)
+- Download Sparrow Wallet van de officiële website: [sparrowwallet.com](https://sparrowwallet.com)
 - Controleer de downloadhandtekening (zie de Sparrow documentatie voor details)
 - De applicatie installeren en starten
 
@@ -423,7 +423,7 @@ Blockstream Green is de software om het instellen van JadeDIY te voltooien en he
 
 
 
-- Download de officiële Blockstream-toepassing - dit is de link van hun website. Klik daar op [Nu downloaden] (https://blockstream.com/app/).
+- Download de officiële Blockstream-toepassing - dit is de link van hun website. Klik daar op [Nu downloaden](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

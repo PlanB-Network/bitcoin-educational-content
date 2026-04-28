@@ -1,0 +1,9 @@
+question: Wozu dient der Merkle-Root im Bitcoin-Block-Header?
+answer: Um alle Transaktionen des Blocks festzuschreiben
+wrong_answers:
+  - Um den Proof-of-Work des Blocks zu berechnen
+  - Um die Blockversion zu signalisieren
+  - Um die Schwierigkeit des Blocks zu kennen
+explanation: |
+  Der Merkle-Root fasst alle Transaktionen zusammen; wenn sich eine ändert, ändert sich auch der Root.
+reviewed: false

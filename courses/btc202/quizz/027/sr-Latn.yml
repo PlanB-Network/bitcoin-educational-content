@@ -3,7 +3,7 @@ answer: Zadržava samo zaglavlja blokova
 wrong_answers:
   - Zadržava ceo Blockchain od Genesis bloka
   - Čuva samo najnovije blokove
-  - Održava samo UTXO set, ne Blockchain.
+  - Održava samo UTXO set, ne Blockchain
 explanation: |
   SPV čvor proverava transakcije putem zaglavlja blokova i Merkle dokaza, bez čuvanja kompletnih podataka.
 reviewed: true

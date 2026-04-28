@@ -12,7 +12,7 @@ Sie haben bereits:
 
 
 - Wählen Sie ein Thema für Ihr Lernprogramm;
-- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group] (https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
+- Kontaktieren Sie das Plan ₿ Academy Team über [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) oder paolo@planb.network;
 - Wählen Sie Ihre Beitragstools.
 
 In diesem Tutorial zeigen wir Ihnen, wie Sie Ihr Tutorial mit der Web-Version von GitHub zum Plan ₿ Academy hinzufügen. Wenn Sie Git bereits beherrschen, ist dieses sehr detaillierte Tutorial vielleicht nicht notwendig für Sie. Stattdessen empfehle ich Ihnen, sich eines der beiden anderen Tutorials anzusehen, in denen ich die zu befolgenden Richtlinien und die Schritte zum Vornehmen von Änderungen von einem lokalen:
@@ -31,9 +31,9 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 Voraussetzungen vor Beginn des Tutorials:
 
 
-- Sie haben ein [GitHub-Konto] (https://github.com/signup);
-- Haben Sie einen Fork des [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Haben Sie [ein Lehrerprofil im Plan ₿ Academy] (https://planb.academy/professors) (nur wenn Sie ein vollständiges Tutorium anbieten).
+- Sie haben ein [GitHub-Konto](https://github.com/signup);
+- Haben Sie einen Fork des [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Haben Sie [ein Lehrerprofil im Plan ₿ Academy](https://planb.academy/professors) (nur wenn Sie ein vollständiges Tutorium anbieten).
 
 Wenn Sie Hilfe brauchen, um diese Voraussetzungen zu schaffen, helfen Ihnen meine anderen Tutorials:
 
@@ -321,7 +321,7 @@ Der Sprachunterordner im Ordner `/assets` (in meinem Beispiel: `/assets/en`) wir
 
 Um Ihre Bilder zu benennen, verwenden Sie einfach Nummern, die der Reihenfolge ihres Erscheinens im Lernprogramm entsprechen, formatiert als zwei Ziffern (oder drei Ziffern, wenn Ihr Lernprogramm mehr als 99 Bilder enthält). Nennen Sie zum Beispiel Ihr erstes Bild `01.webp`, Ihr zweites `02.webp`, und so weiter.
 
-Ihre Bilder dürfen nur im `.webp`-Format sein. Falls erforderlich, können Sie [meine Bildkonvertierungssoftware] (https://github.com/LoicPandul/ImagesConverter) verwenden.
+Ihre Bilder dürfen nur im `.webp`-Format sein. Falls erforderlich, können Sie [meine Bildkonvertierungssoftware](https://github.com/LoicPandul/ImagesConverter) verwenden.
 
 ![GITHUB](assets/fr/32.webp)
 
@@ -354,7 +354,7 @@ Wenn Sie Ihre eigenen Schemata erstellen möchten, sollten Sie sich an die grafi
 
 **Es ist unbedingt erforderlich, dass alle in Ihre Tutorials integrierten Grafiken frei von Urheberrechten sind oder die Lizenz für die Quelldatei respektieren**. Daher werden alle Diagramme, die im Plan ₿ Academy veröffentlicht werden, unter einer CC-BY-SA-Lizenz zur Verfügung gestellt, genau wie der Text.
 
-**-> Tipp:** Wenn Sie Dateien, wie z. B. Bilder, öffentlich zugänglich machen, ist es wichtig, überflüssige Metadaten zu entfernen. Diese können sensible Informationen enthalten, z. B. Standortdaten, Erstellungsdaten und Angaben zum Autor. Um Ihre Privatsphäre zu schützen, ist es eine gute Idee, diese Metadaten zu entfernen. Um diesen Vorgang zu vereinfachen, können Sie spezielle Werkzeuge wie [Exif Cleaner] (https://exifcleaner.com/) verwenden, mit denen Sie die Metadaten eines Dokuments durch einfaches Ziehen und Ablegen bereinigen können.
+**-> Tipp:** Wenn Sie Dateien, wie z. B. Bilder, öffentlich zugänglich machen, ist es wichtig, überflüssige Metadaten zu entfernen. Diese können sensible Informationen enthalten, z. B. Standortdaten, Erstellungsdaten und Angaben zum Autor. Um Ihre Privatsphäre zu schützen, ist es eine gute Idee, diese Metadaten zu entfernen. Um diesen Vorgang zu vereinfachen, können Sie spezielle Werkzeuge wie [Exif Cleaner](https://exifcleaner.com/) verwenden, mit denen Sie die Metadaten eines Dokuments durch einfaches Ziehen und Ablegen bereinigen können.
 
 ## 9 - Das Tutorium vorschlagen
 
@@ -390,4 +390,4 @@ Wenn Sie Änderungen an Ihrem Beitrag vornehmen möchten, nachdem Sie Ihren PR b
 - Wenn Ihr PR noch offen ist und noch nicht zusammengeführt wurde, nehmen Sie die Änderungen in demselben Arbeitszweig vor. Die übertragenen Änderungen werden zu Ihrem noch offenen PR hinzugefügt;
 - Falls Ihr PR bereits mit dem Hauptzweig zusammengeführt wurde, müssen Sie den Prozess von Anfang an wiederholen, indem Sie einen neuen Zweig erstellen und dann einen neuen PR einreichen. Stellen Sie sicher, dass Ihr Fork mit dem Plan ₿ Academy Source Repository auf dem `dev`-Zweig synchronisiert ist, bevor Sie fortfahren.
 
-Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge] (https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!
+Wenn Sie technische Schwierigkeiten haben, Ihr Tutorial einzureichen, zögern Sie bitte nicht, auf [unserer speziellen Telegram-Gruppe für Beiträge](https://t.me/PlanBNetwork_ContentBuilder) um Hilfe zu bitten. Herzlichen Dank!

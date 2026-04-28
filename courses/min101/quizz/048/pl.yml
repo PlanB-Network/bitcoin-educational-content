@@ -1,0 +1,9 @@
+question: Jaka jest pierwsza w historii pula wydobywcza Bitcoina?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, dawniej Slush Pool i Bitcoin CZ, to pierwsza pula wydobywcza Bitcoina, utworzona w 2010 roku.
+reviewed: false

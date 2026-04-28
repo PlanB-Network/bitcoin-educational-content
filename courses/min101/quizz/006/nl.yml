@@ -1,0 +1,9 @@
+question: Wat is het doel van de Merkle root in de header van een Bitcoin-blok?
+answer: Alle transacties van het blok vastleggen
+wrong_answers:
+  - De proof of work van het blok berekenen
+  - De blokversie signaleren
+  - De moeilijkheidsgraad van het blok kennen
+explanation: |
+  De Merkle root vat alle transacties samen; als er één verandert, verandert de root ook.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why does an outgoing payment automatically create incoming liquidity?
+answer: Shifting liquidity
+wrong_answers:
+  - Creating new channels
+  - Capacity increase
+  - Lower routing costs
+explanation: |
+  An outgoing payment moves sats to par, creating incoming liquidity on this side of the channel.
+reviewed: false

@@ -64,7 +64,7 @@ Voor **Windows**, als u geen GPG heeft, kunt u de software [Gpg4win](https://www
 ## Documenten downloaden
 
 
-Om te beginnen hebben we verschillende documenten nodig. Bezoek de officiële site van [Sparrow wallet in de sectie "*Download*"] (https://sparrowwallet.com/download/). Als je een andere software wilt verifiëren, ga dan naar de website van die software.
+Om te beginnen hebben we verschillende documenten nodig. Bezoek de officiële site van [Sparrow wallet in de sectie "*Download*"](https://sparrowwallet.com/download/). Als je een andere software wilt verifiëren, ga dan naar de website van die software.
 
 
 ![GnuPG](assets/notext/02.webp)
@@ -97,7 +97,7 @@ Download ook de PGP-handtekening van het bestand. Dit is het document in `.asc` 
 Zorg ervoor dat je al deze bestanden in dezelfde map plaatst voor de volgende stappen.
 
 
-Tot slot heb je de publieke sleutel van de ontwikkelaar nodig, die we zullen gebruiken om de PGP-handtekening te verifiëren. Deze sleutel is vaak beschikbaar op de website van de software, op de GitHub repository van het project, soms op de sociale media van de ontwikkelaar, of op gespecialiseerde sites zoals Keybase. In het geval van Sparrow wallet kun je de publieke sleutel van ontwikkelaar Craig Raw vinden [op Keybase] (https://keybase.io/craigraw). Om het direct vanaf de terminal te downloaden, voert u het commando uit:
+Tot slot heb je de publieke sleutel van de ontwikkelaar nodig, die we zullen gebruiken om de PGP-handtekening te verifiëren. Deze sleutel is vaak beschikbaar op de website van de software, op de GitHub repository van het project, soms op de sociale media van de ontwikkelaar, of op gespecialiseerde sites zoals Keybase. In het geval van Sparrow wallet kun je de publieke sleutel van ontwikkelaar Craig Raw vinden [op Keybase](https://keybase.io/craigraw). Om het direct vanaf de terminal te downloaden, voert u het commando uit:
 
 
 ```bash

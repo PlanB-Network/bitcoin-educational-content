@@ -147,11 +147,12 @@ Morate uzeti u obzir hardverske resurse potrebne za pokretanje OPNsense-a. Ovo j
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Karakteristike | Minimum | Preporuka |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Procesor | 1 GHz - 2 jezgra | 1.5 GHz - Viševezna |
+| RAM | 2 GB | 8 GB |
+| Prostor za skladištenje sistema | Tvrdi disk, SSD ili SD kartica (4 GB) | 120 GB na SSD |
 
 Konačno, **vaši zahtevi za resursima zavise pre svega od broja veza koje treba upravljati**, a samim tim i od **vaših zahteva za propusnim opsegom**. Pored toga, potrebno je **imati na umu usluge koje će biti aktivirane i korišćene** (proxy, detekcija upada, itd...) jer mogu biti zahtevne za CPU i/ili RAM.
 

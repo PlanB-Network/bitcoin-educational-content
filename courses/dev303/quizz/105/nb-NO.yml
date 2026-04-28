@@ -1,0 +1,8 @@
+question: Hva er den avgjørende forskjellen mellom LDKs persistenslagdesign og tradisjonell Lightning node-datahåndtering, som muliggjør fleksibilitet på tvers av plattformer?
+answer: LDK tilbyr abstrakte binære datablobber for lagring, mens applikasjonene implementerer sine egne lagringsmekanismer
+wrong_answers:
+  - LDK bruker standardiserte SQL-databaser, mens tradisjonelle noder krever tilpassede filsystemimplementeringer
+  - LDK synkroniserer automatisk data på tvers av flere plattformer, mens tradisjonelle noder kun lagrer data lokalt
+  - LDK krypterer alle persistensdata som standard, mens tradisjonelle noder er avhengige av kryptering på applikasjonsnivå
+explanation: |
+  LDKs persistenslag abstraherer lagring ved å forsyne applikasjoner med serialiserte binære datablobber som må lagres og hentes på en pålitelig måte, samtidig som all kompleksiteten ved serialisering av Lightning-kanaltilstander og nettverksdata håndteres internt. Dette gjør det mulig for applikasjoner å velge hvilken som helst lagringsløsning (filsystemer, skylagring, databaser) som passer til plattformkravene deres. Tradisjonelle Lightning-noder implementerer vanligvis sine egne spesifikke datahåndteringssystemer knyttet til bestemte lagringsmekanismer, noe som gjør dem mindre fleksible på tvers av ulike distribusjonsmiljøer.

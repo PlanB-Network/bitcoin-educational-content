@@ -1,6 +1,7 @@
 ---
-term: MIXING
+term: Mixování
 
+definition: Vlastnost systému, kde jsou prvky rovnoměrně promíchány, používaná k hodnocení kvality coinjoinů.
 ---
 V obecné matematice se mícháním nebo prolínáním rozumí vlastnost dynamického systému, kdy se po určité době mohou teoreticky všechny části výchozího prostoru prolnout s jakoukoli jinou částí. Míchání znamená, že poloha částice nebo stav systému se vyvíjí tak, že jeho budoucí rozložení je nezávislé na jeho počátečním rozložení, a dosahuje tak stavu, kdy jsou vlastnosti počátečního stavu rovnoměrně rozloženy v celém prostoru systému. V kontextu Bitcoinu lze tento pojem použít k posouzení kvality procesu míchání mincí, jako je coinjoin.
 

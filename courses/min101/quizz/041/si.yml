@@ -1,0 +1,9 @@
+question: බිට්කොයින් ASIC එකක් විශේෂයෙන් නිර්මාණය කර ඇත්තේ කුමන ඇල්ගොරිතමයක් ක්‍රියාත්මක කිරීමටද?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  බිට්කොයින් ASIC යන්ත්‍ර විශේෂණය කර ඇත්තේ බිට්කොයින් හි proof-of-work සඳහා භාවිතා කරන ද්විත්ව SHA256 සඳහාය.
+reviewed: false

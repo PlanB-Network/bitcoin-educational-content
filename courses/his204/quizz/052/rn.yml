@@ -1,8 +1,9 @@
-question: Ni nde yatumye Mirabeau arokoka ububabare bw’agahahazo amaze gusohora igitabu ciwe citwa Théorie de l’Impôt?
-answer: Umupfasoni
+question: Ni nde yatumye Mirabeau arokoka gutotezwa inyuma yo gusohora igitabu ciwe citwa Théorie de l’Impôt?
+answer:  Madame de Pompadour
 wrong_answers:
-  - Ludoviko XV
-  - Faransuwa Keseni
+  - Louis XV
+  - François Quesnay
   - Voltaire
 explanation: |
-  Madame de Pompadour yarasenzeye Mirabeau inyuma y’aho igitabu ciwe citwa « La Théorie de l’Impôt » gisohokeye, ivyo bimufasha kwirinda igihano gikomeye kuruta.
+  Madame de Pompadour yaravugiye Mirabeau inyuma y’aho igitabu ciwe citwa « La Théorie de l’Impôt » gisohokeye, ivyo bimufasha kwirinda igihano gikomeye cane.
+reviewed: true

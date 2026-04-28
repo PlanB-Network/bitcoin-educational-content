@@ -1,0 +1,8 @@
+question: Đặc điểm nào thể hiện các hàm đóng có thể được gọi nhiều lần mà không làm thay đổi môi trường được bắt giữ?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn là trait đóng gói hạn chế nhất, đại diện cho các hàm đóng gói có thể được gọi nhiều lần mà không làm thay đổi môi trường được nắm bắt. Các hàm đóng gói này chỉ nắm bắt bằng tham chiếu bất biến và có thể được gọi đồng thời một cách an toàn. FnOnce đại diện cho các hàm đóng gói chỉ có thể được gọi một lần, trong khi FnMut đại diện cho các hàm đóng gói có thể được gọi nhiều lần nhưng có thể làm thay đổi môi trường được nắm bắt. FnCapture không phải là một trait Rust thực sự.

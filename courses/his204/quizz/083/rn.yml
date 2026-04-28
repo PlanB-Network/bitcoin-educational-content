@@ -1,8 +1,9 @@
-question: Ni kubera iki igihe Turgot yashirwaho ngo abe umushikiranganji w’ingabo z’amazi, abantu bamutangaje?
+question: Ni kubera iki igihe Turgot yashirwaho ngo abe umushikiranganji w’ingabo z’amazi, vyatangaje abantu?
 answer: Turgot si umuhinga mu vy'ingabo z'amazi .
 wrong_answers:
-  - Turgot afise abansi benshi muri iki gikorwa .
+  - Turgot afise abansi benshi muri ubu bushikiranganje .
   - Turgot ntashobora kwoga
-  - Turgot ni umusivile
+  - Turgot ni umunyagihugu
 explanation: |
-  Turgot nta bumenyi yari afise mu vy’ingabo zo mu mazi, ivyo bikaba vyatangaje benshi igihe yashirwa muri iyo nkuru. Ahubwo yari yitezwe ko ashingwa igikorwa co mu vy’ubutunzi canke mu vy’amahera.
+  Turgot nta bumenyi yari afise mu vy’ingabo zo mu mazi, ivyo bikaba vyatangaje benshi igihe yashirwa muri ubwo bushikiranganji. Ahubwo yari yitezwe ko ashingwa igikorwa co mu vy’ubutunzi canke mu vy’amahera.
+reviewed: true

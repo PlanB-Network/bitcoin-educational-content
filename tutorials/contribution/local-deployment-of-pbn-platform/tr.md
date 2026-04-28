@@ -94,7 +94,7 @@ uygun bir nodejs sürümü yüklediğinizden `emin olun`. 2024-12 itibariyle v22
 
 
 
-Nodejs yüklemek için talimatları [burada] (https://nodejs.org/en/download/package-manager) bulabilirsiniz; örneğin `nvm` yükleme yöntemini kullanmayı seçebilirsiniz.
+Nodejs yüklemek için talimatları [burada](https://nodejs.org/en/download/package-manager) bulabilirsiniz; örneğin `nvm` yükleme yöntemini kullanmayı seçebilirsiniz.
 
 
 ---

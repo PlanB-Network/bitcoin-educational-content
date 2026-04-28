@@ -1,5 +1,6 @@
 ---
 term: OP_CODESEPARATOR (0XAB)
 
+definition: Opcode yang membagi-bagi skrip untuk memungkinkan tanda tangan independen bagi setiap bagian.
 ---
 Memodifikasi skrip keluaran saat ini, yang menunjukkan bahwa hanya operasi yang mengikuti _opcode_ ini yang akan dipertimbangkan dalam verifikasi tanda tangan untuk input yang sesuai. Hal ini memungkinkan segmentasi skrip yang kompleks menjadi beberapa bagian, di mana setiap segmen dapat ditandatangani secara independen.

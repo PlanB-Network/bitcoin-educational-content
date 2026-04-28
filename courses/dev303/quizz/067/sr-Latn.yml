@@ -1,0 +1,8 @@
+question: Kako Rust-ova kompatibilnost između platformi koristi razvoju aplikacija Bitcoin u različitim okruženjima za implementaciju?
+answer: Omogućava jedinstvene baze koda da rade na mobilnim platformama, web pregledačima putem WebAssembly-ja i tradicionalnim operativnim sistemima
+wrong_answers:
+  - Automatski rukuje konverzijama kurseva kriptovaluta između različitih regionalnih tržišta i valuta.
+  - Pruža ugrađene protokole za sinhronizaciju blockchaina koji rade identično na svim mrežnim arhitekturama
+  - Nudi izvornu integraciju sa hardverskim novčanicima i sigurnosnim modulima na svakoj podržanoj platformi
+explanation: |
+  Rust-ove mogućnosti za više platformi omogućavaju programerima da pišu Bitcoin aplikacije koje se mogu implementirati u različitim okruženjima uključujući mobilne uređaje (Android/iOS), web pregledače (putem WebAssembly kompajlacije) i tradicionalne desktop operativne sisteme. Ova svestranost je demonstrirana projektima poput Mutiny Wallet, koji koristi Rust-ovu podršku za WebAssembly kako bi kreirao Lightning novčanike koji rade direktno u pregledačima. Pogrešni odgovori opisuju funkcije koje nisu povezane sa kompatibilnošću za više platformi - konverzija valuta je funkcija na nivou aplikacije, blockchain protokoli su brige na nivou mreže, a integracija hardvera zahteva specifične API-je umesto opšte podrške za više platformi.

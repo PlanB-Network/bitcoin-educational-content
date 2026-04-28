@@ -1,0 +1,8 @@
+question: Rust'ın derleme zamanı bellek güvenliği yaklaşımının çöp toplamaya kıyasla birincil avantajı nedir?
+answer: Çalışma zamanı ek yükünü ve öngörülemeyen performans duraklamalarını ortadan kaldırır
+wrong_answers:
+  - Daha fazla bellek kullanır ancak daha iyi güvenlik garantileri sağlar
+  - Yazmak için daha az kod gerektirir ancak çöp toplamadan daha yavaş çalışır
+  - Tüm çalışma zamanı hatalarını önler ancak yürütme sırasında daha fazla CPU kullanır
+explanation: |
+  Rust'in derleme zamanı bellek güvenliği yaklaşımı, herhangi bir çalışma zamanı maliyeti olmadan bellek güvenliğini sağlamak için derleme sırasında kodu analiz eder. Java ve Go gibi dillerde kullanılan, performans ek yükü getiren ve program yürütme sırasında öngörülemeyen duraklamalara neden olabilen çöp toplamanın aksine, Rust'in sisteminin çalışma zamanı üzerinde sıfır etkisi vardır. Diğer seçenekler yanlıştır çünkü Rust aslında belleği daha verimli kullanır (daha fazla değil), daha yavaş çalışmaz (çalışma zamanı kontrolleri olmadan daha hızlı çalışır) ve yürütme sırasında daha fazla CPU kullanmaz (iş derleme zamanında yapılır).

@@ -1,5 +1,6 @@
 ---
 term: LIBSECP256K1
+definition: Kryptograficzna biblioteka C do podpisów i operacji na krzywej eliptycznej secp256k1 używanej przez Bitcoin.
 ---
 
 Wysokowydajna i bezpieczna biblioteka C dla podpisów cyfrowych i innych prymitywów kryptograficznych na krzywej eliptycznej `secp256k1`. Ponieważ krzywa ta nigdy nie była szeroko używana poza Bitcoin (w przeciwieństwie do często preferowanej krzywej `secp256r1`), biblioteka ta ma być najbardziej wszechstronnym odniesieniem do jej użycia. Rozwój libsecp256k1 był przede wszystkim ukierunkowany na potrzeby Bitcoin, a funkcje przeznaczone dla innych aplikacji mogą być mniej przetestowane lub zweryfikowane. Odpowiednie wykorzystanie tej biblioteki wymaga starannej uwagi, aby zapewnić, że jest ona odpowiednia do konkretnych celów aplikacji innych niż Bitcoin.

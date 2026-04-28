@@ -301,7 +301,7 @@ Satodime поддържа до 3 сейфа. Създайте такъв за с
 
 
 - [Продукт Satodime](https://satochip.io/fr/product/satodime/)
-- [Ръководство за мобилни устройства] (https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
+- [Ръководство за мобилни устройства](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 

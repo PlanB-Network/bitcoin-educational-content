@@ -1,0 +1,10 @@
+question: Quale servizio dell'ecosistema Bitcoin NON è stato colpito dall'hack del servizio di hosting Linode il 1° marzo 2012?
+answer: Il servizio di cambio BitInstant, gestito da Charlie Shrem, è un servizio di scambio di valuta estera
+wrong_answers:
+  - La piattaforma di trading Bitcoinica, gestita da Zhou Tong
+  - BitcoinCZ Mining mining cooperativa, gestita da Slush
+  - Il rubinetto Bitcoin, gestito da Gavin Andresen
+explanation: |
+ L'hacker ha avuto accesso al portale dell'assistenza clienti dell'azienda e ha preso il controllo di otto account, tutti con una relazione con Bitcoin. Ha sequestrato 43.554
+ bitcoin appartenenti a Bitcoinica, ha rimosso 3.094 bitcoin dalla coop hot wallet di Slush e ha messo le mani sui 5 bitcoin presenti sul rubinetto Bitcoin di Gavin.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Ni neno gani la kihisabati la hesabu zinazohusisha utendakazi wa modulo?
-answer: Hesabu ya msimu
+question: Ni neno gani la kihisabati linalotumika kwa hesabu zinazohusisha operesheni ya modulo?
+answer: Hesabu ya modula
 wrong_answers:
   - Algebra ya mstari
   - Trigonometry
-  - Jiometri tofauti
+  - Jiometri ya diskreti
 explanation: |
   Hesabu ya moduli ni tawi la hisabati ambalo hujishughulisha na uendeshaji wa nambari ndani ya mfumo wenye kikomo, kwa kutumia uendeshaji wa modulo.
-reviewed: false
+reviewed: true

@@ -53,7 +53,7 @@ After the words spoken by Nicolas, it was time to start building. A significant 
 
 What does open source mean, and what goes into such a project?
 
-FOSS stands for Free & Open-Source Software. The former refers to terms that allow anyone to copy, modify, and even distribute versions (even for profit) of the software. The latter refers to openly sharing the source code, encouraging the public to contribute and improve it.
+[FOSS](https://planb.academy/resources/glossary/foss) stands for Free & Open-Source Software. The former refers to terms that allow anyone to copy, modify, and even distribute versions (even for profit) of the software. The latter refers to openly sharing the source code, encouraging the public to contribute and improve it.
 This attracts experienced users who are enthusiastic about contributing to the software they already use and derive value from, ultimately proving to be more successful in adoption than proprietary software. It is consistent with the Bitcoin ethos that “information longs to be free.” It brings together passionate people who form a community and is simply more fun. Like Bitcoin, FOSS is inevitable.
 
 ### Before we begin
@@ -84,11 +84,11 @@ The BTCPay Server Foundation, which allowed Alekos and Bas to write this course,
 
 This is a classroom exercise, so if you take this course yourself, you cannot perform it, but you can still go through this exercise. To complete this task, a minimum of 9 to 11 people are required.
 
-The exercise starts after watching the introduction “How Bitcoin and the blockchain works” by the BBC.
+The exercise starts after watching the introduction “How Bitcoin and the [blockchain](https://planb.academy/resources/glossary/blockchain) works” by the BBC.
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
-This exercise requires a minimum of nine participants. This exercise aims to provide a physical understanding of how Bitcoin works. By playing each role in the network, you will have an interactive and playful way of learning. This exercise does not involve Lightning Network.
+This exercise requires a minimum of nine participants. This exercise aims to provide a physical understanding of how Bitcoin works. By playing each role in the network, you will have an interactive and playful way of learning. This exercise does not involve [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 ### Example: Requires 9 / 11 people
 
@@ -96,7 +96,7 @@ The roles are:
 
 - 1 Customer
 - 1 Merchant
-- 7 to 9 Bitcoin nodes
+- 7 to 9 Bitcoin [nodes](https://planb.academy/resources/glossary/node)
 
 **Setup is as follows:**
 
@@ -125,22 +125,22 @@ Customers buy a product from the store with Bitcoin.
 
 - Set up:
   - See diagrams/explainer in the attached Figjam - [Activity Schematic](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
-  - Replace Bank with nine students who will play the role of a Computer (Bitcoin Nodes/Miners) in a network to replace the Bank.
+  - Replace Bank with nine students who will play the role of a Computer (Bitcoin Nodes/[Miners](https://planb.academy/resources/glossary/miner)) in a network to replace the Bank.
 - Each of the 9 Computers has a complete historical record of all past transactions ever made (thus accurate balances without forgeries), as well as a set of rules:
   - Verify transaction is properly signed (thekeyfitsthelock)
   - Broadcast and receive valid transactions to peers in the network, throw out invalid ones (including any that attempt to spend the same funds twice)
-- Update/Add records periodically with new transactions received from “random” computer provided all contents are valid (note: we are ignoring, for now, the Proof of Work component to all this, for simplicity), otherwise reject these and continue as before until the next “random” computer sends an update
+- Update/Add records periodically with new transactions received from “random” computer provided all contents are valid (note: we are ignoring, for now, the [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) component to all this, for simplicity), otherwise reject these and continue as before until the next “random” computer sends an update
   - The proper amount was rewarded if the contents were valid.
 - Act out the sequence of events:
   - Customer- browsing the store online and finds an item for $25 that they want, and informs the Merchant they’d like to purchase
-  - Merchant- asks for payment by sending the customer an invoice/address from their wallet.
+  - Merchant- asks for payment by sending the customer an invoice/address from their [wallet](https://planb.academy/resources/glossary/wallet).
   - Customer- constructs a transaction (sending $25 worth of BTC to an address provided by the Merchant) and broadcasts it to the Bitcoin Network.
 - Computers- receive the transaction and verify:
   - There is at least $25 of BTC in the address being sent from
   - The transaction is signed properly (“unlocked” by the customer)
   - If not the case, then the transaction will not be propagated through the network, and if so, then it propagates and is held in waiting.
   - Merchants can check that the transaction is pending and waiting.
-- One computer is “randomly” chosen to propose to finalize the proposed transaction by broadcasting “a block” containing it; if it checks out, they will receive a BTC reward.
+- One computer is “randomly” chosen to propose to finalize the proposed transaction by broadcasting “a [block](https://planb.academy/resources/glossary/block)” containing it; if it checks out, they will receive a BTC reward.
   - OPTIONAL/ADVANCED - instead of randomly selecting a Computer, simulate mining by having Computers roll dice until some predetermined outcome occurs (e.g., the first one to roll double sixes is selected)
   - It can also play out what would happen if two Computers win approximately simultaneously, resulting in a chain split.
   - Computers check the validity, update/add records to their ledgers if rules are met, and broadcast the transaction block to peers.
@@ -174,13 +174,13 @@ Discuss some oversimplifications made in the classroom exercise under the second
 Define the following key terms introduced in the prior section:
 
 - Node
-- Mempool
-- Difficulty Target
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Difficulty](https://planb.academy/resources/glossary/difficulty) Target
 - Block
 
 **Discuss the meaning of some additional terms as a group:**
 
-Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Proof of Work (PoW), Hash Function, Block Reward, Blockchain, Longest Chain, 51% Attack, Output, Output Lock, Change, Satoshis, Public/Private Key, Address, Public-Key Cryptography, Digital Signature, Wallet
+Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, [Mining](https://planb.academy/resources/glossary/mining), Proof of Work (PoW), [Hash Function](https://planb.academy/resources/glossary/hash-function), Block Reward, Blockchain, Longest Chain, 51% Attack, Output, Output Lock, Change, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Public/Private Key, Address, Public-Key [Cryptography](https://planb.academy/resources/glossary/cryptography), [Digital Signature](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 # Introducing BTCPay Server
 
@@ -192,7 +192,7 @@ Blockchain, Transaction, Double-Spend, Byzantine Generals’ Problem, Mining, Pr
 
 ### Working with BTCPay Server
 
-The objective of this course block is to gain a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and refer to the BTCPay Server Coursebook to follow along with the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and hardware wallets connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
+The objective of this course block is to gain a general understanding of BTCPay Server software. In a shared environment, it’s recommended to follow the instructor’s demonstration and refer to the BTCPay Server Coursebook to follow along with the teacher. You will learn how to create a wallet through multiple methods. Examples include Hot wallet setups and [hardware wallets](https://planb.academy/resources/glossary/hardware-wallet) connected through BTCPay Server Vault. These objectives occur in the Demo environment, displayed and given access to by your course instructor.
 
 If you follow this course by yourself, you can find a list of third-party hosts for Demo purposes at https://directory.btcpayserver.org/filter/hosts. We strongly advise against using these third-party options as production environments; however, they serve the right purpose for introducing the use of Bitcoin and BTCPay Server.
 
@@ -398,7 +398,7 @@ In this section, you learned:
 
 ### What is involved in generating Bitcoin keys?
 
-Bitcoin wallets, when created, create a so-called "seed". In the last objective, you created a "seed", The series of words generated before are also known as mnemonic phrases. The seed is used to derive individual Bitcoin Keys and used to send or receive Bitcoin. Seed phrases should never be shared with third parties or untrusted peers.
+Bitcoin wallets, when created, create a so-called "[seed](https://planb.academy/resources/glossary/seed)". In the last objective, you created a "seed", The series of words generated before are also known as mnemonic phrases. The seed is used to derive individual Bitcoin Keys and used to send or receive Bitcoin. Seed phrases should never be shared with third parties or untrusted peers.
 
 The seed generation is performed according to the industry standard known as the "Hierarchical Deterministic" (HD) framework.
 
@@ -412,9 +412,9 @@ An Address gets derived from the Public key through a “hashing algorithm.” M
 
 - Addresses starting with `1.....` are still very common addresses. As mentioned in the chapter, "Creating a new store," these are legacy addresses. This address type is meant for P2PKH transactions. P2Pkh uses Base58 encoding, which makes the address case-sensitive. Its structure is based on the public key with an additional digit as the identifier.
 
-- Addresses starting with `bc1...` are slowly moving into the very common addresses. These are known as (native) SegWit Addresses. These offer a better fee structure than the other mentioned Addresses. Native SegWit Addresses use Bech32 encoding and only allow for lowercase letters.
+- Addresses starting with `bc1...` are slowly moving into the very common addresses. These are known as (native) [SegWit](https://planb.academy/resources/glossary/segwit) Addresses. These offer a better fee structure than the other mentioned Addresses. Native SegWit Addresses use Bech32 encoding and only allow for lowercase letters.
 
-- Addresses starting with `3...` are commonly still used by exchanges for deposit addresses. These addresses are mentioned in the chapter "Creating a new store," wrapped or nested SegWit addresses. However, they could also function as a "Multisig Address". When used as a SegWit address, there are some savings on transaction fees, again, less so than Native SegWit. P2SH Addresses use Base58 encoding. This makes it case Sensitive, like the legacy address.
+- Addresses starting with `3...` are commonly still used by exchanges for deposit addresses. These addresses are mentioned in the chapter "Creating a new store," wrapped or nested SegWit addresses. However, they could also function as a "Multisig Address". When used as a SegWit address, there are some savings on [transaction fees](https://planb.academy/resources/glossary/transaction-fees), again, less so than Native SegWit. P2SH Addresses use Base58 encoding. This makes it case Sensitive, like the legacy address.
 
 - Addresses starting with `2...` are Testnet addresses. They are meant to receive testnet bitcoin (tBTC). You should never mix this up and send Bitcoin to these addresses. For development purposes, you can generate a testnet wallet. There are multiple faucets online to get testnet Bitcoin. Never purchase Testnet Bitcoin. Testnet Bitcoin is mined. This might be a reason for a developer to use Regtest instead. This is a playground environment for developers, missing certain network components. Bitcoin is, however, very useful for development purposes.
 
@@ -424,7 +424,7 @@ Public keys are less commonly used in practice today. Over time, Bitcoin users h
 
 - First, `02...` and `03...` are very standard public key identifiers encoded in SEC format. These can be processed and turned into addresses for receiving, used for creating multi-sig addresses, or to verify a signature. Early-day Bitcoin transactions used public keys as part of P2PK transactions.
 
-- HD wallets, however, use a different structure. `xpub...`, `ypub...` or `zpub...` are called extended public keys, or xpubs. These keys are used to derive many public keys as part of the HD wallet. As your xpub holds the records of your entire history, meaning past and future transactions, never share these with untrusted parties.
+- HD wallets, however, use a different structure. `xpub...`, `ypub...` or `zpub...` are called extended public keys, or [xpubs](https://planb.academy/resources/glossary/xpub). These keys are used to derive many public keys as part of the HD wallet. As your xpub holds the records of your entire history, meaning past and future transactions, never share these with untrusted parties.
 
 ### Skill Summary
 
@@ -444,11 +444,11 @@ Describe the benefit of using fresh addresses for each transaction compared to a
 
 After generating a seed phrase, the list of 12 - 24 words generated in this book requires proper backups and security, as these words are the only way to recover access to a wallet. The structure of HD wallets and how it generates addresses deterministically using a single seed means that all your created addresses will be backed up using this one list of mnemonic words, which represents your seed or recovery phrase.
 
-Keep your recovery phrase secure. If accessed by someone, specifically with malicious intent, they can move your funds. Keeping the seed safe and secure, while also remembering that it is mutual between them. There are several methods for storing Bitcoin private keys, each with its own benefits and disadvantages, in terms of security, privacy, convenience, and physical storage. Due to the importance of private keys, Bitcoin users tend to store and safely keep these keys in “self-custody” rather than using “custodial” services like banks. Depending on the user, they must use either a Cold storage solution or a Hot wallet.
+Keep your recovery phrase secure. If accessed by someone, specifically with malicious intent, they can move your funds. Keeping the seed safe and secure, while also remembering that it is mutual between them. There are several methods for storing Bitcoin [private keys](https://planb.academy/resources/glossary/private-key), each with its own benefits and disadvantages, in terms of security, privacy, convenience, and physical storage. Due to the importance of private keys, Bitcoin users tend to store and safely keep these keys in “self-custody” rather than using “custodial” services like banks. Depending on the user, they must use either a Cold storage solution or a Hot wallet.
 
 ### Hot and Cold storage of Bitcoin keys
 
-Usually, bitcoin wallets are denominated in a Hot Wallet or a Cold Wallet. Most trade-offs lie in convenience, ease of use, and security risks. Each of these methods can also be seen in a custodian solution. However, trade-offs here are mostly security and privacy-based and go beyond the scope of this course.
+Usually, bitcoin wallets are denominated in a Hot Wallet or a [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). Most trade-offs lie in convenience, ease of use, and security risks. Each of these methods can also be seen in a custodian solution. However, trade-offs here are mostly security and privacy-based and go beyond the scope of this course.
 
 ### Hot wallet
 
@@ -458,7 +458,7 @@ Hot wallets are the most convenient way of interacting with Bitcoin through mobi
 
 Individuals move their private keys into a cold wallet because it can isolate them from the internet, thereby protecting their funds from potential online threats. Removing the internet connection from the equation reduces the risk of malware, spyware, and SIM swaps. Cold storage is believed to be superior to hot storage for security and autonomy, provided adequate precautions are taken to prevent losing the Bitcoin private keys. Cold storage is most suitable for large amounts of Bitcoin, which are not intended to be spent often due to the wallet setup’s complexity.
 
-There are various methods of storing Bitcoin keys in cold storage, from paper wallets to brain wallets, hardware wallets, or, from the beginning, a wallet file. Most wallets use BIP 39 to generate the seed phrase. However, within the Bitcoin Core software, a consensus has yet to be reached on its use. Bitcoin Core software will still generate a Wallet.dat file, which you need to store in a secure offline location.
+There are various methods of storing Bitcoin keys in cold storage, from paper wallets to brain wallets, hardware wallets, or, from the beginning, a wallet file. Most wallets use [BIP](https://planb.academy/resources/glossary/bip) 39 to generate the seed phrase. However, within the Bitcoin Core software, a consensus has yet to be reached on its use. Bitcoin Core software will still generate a Wallet.dat file, which you need to store in a secure offline location.
 
 ### Skill Summary
 
@@ -488,19 +488,19 @@ BTCPay Server consists of the following standard wallet features:
 - Rescan
 - Pull Payments
 - Payouts
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - General settings
 
 ### Transactions
 
-Administrators can see the incoming and outgoing transactions for the on-chain wallet connected to this specific store in the transactions view. Each transaction has a distinction between the received and sent amounts. Received will be green, and outgoing transactions will be red. Within the BTCPay Server transaction view, administrators will also see a set of standard labels.
+Administrators can see the incoming and outgoing transactions for the on-chain wallet connected to this specific store in the transactions view. Each transaction has a distinction between the received and sent amounts. Received will be green, and outgoing transactions will be red. Within the BTCPay Server transaction view, administrators will also see a set of standard [labels](https://planb.academy/resources/glossary/label).
 
 | Transaction Type | Description                                          |
 | ---------------- | ---------------------------------------------------- |
 | App              | Payment was received through an app-created invoice  |
 | invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
+| [payjoin](https://planb.academy/resources/glossary/payjoin)          | Not paid, invoice timer still has not expired        |
+| payjoin-exposed  | [UTXO](https://planb.academy/resources/glossary/utxo) was exposed through an invoice payjoin proposal |
 | payment-request  | Payment was received through a payment request       |
 | payout           | Payment was sent through a payout or refund          |
 
@@ -775,7 +775,7 @@ Within the Lightning wallet option in the left menu bar, server administrators w
 
 #### Internal node info
 
-Server administrators can click on the internal node info to view their server status (Online/Offline) and connection string for Clearnet or Tor.
+Server administrators can click on the internal node info to view their server status (Online/Offline) and connection string for Clearnet or [Tor](https://planb.academy/resources/glossary/tor).
 
 ![image](assets/en/033.webp)
 

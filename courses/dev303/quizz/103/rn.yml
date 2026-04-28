@@ -1,0 +1,8 @@
+question: Ni gute ubuhinga bwa LDK bushobora gutuma habaho ugushiramwo ibice vy’umutekano w’ibikoresho (HSM) ku bikorwa vy’umuravyo?
+answer: Mu kwemera gukuraho ibice vyihariye vyo gusinya bishobora gusuzuma ivyerekeye ubucuruzi bwa Lightning n'ingaruka z'umutekano
+wrong_answers:
+  - Mu gutanga HSM daemon yuzuye ikora yigenga kandi ivugana biciye ku nzira zipfutse .
+  - Mu gushiramwo abashoferi b'ibikoresho vy'ubuhinga bikorana n'ibikoresho vya HSM ku bikorwa vy'ubuhinga bwa none
+  - Mu kurema amasandugu y'umusenyi yitandukanije akora amategeko y'umuravyo yose mu bidukikije vya HSM
+explanation: |
+  LDK's modular design iremesha abahinguzi gukura gusa ibice vyo gusinya no kugenzura amasezerano kugira ngo HSM ikoreshwe. Ivyo bituma habaho ibikoresho vyo gusinya bimenya Lightning bitahura ivyerekeye ibikorwa vy’ubudandaji birenze gusinya vyoroshe - bishobora gusuzuma nimba ibikorwa vy’ubudandaji bigereranya ukwishyura kwemewe, ibikorwa vy’inzira, canke ibishobora gutera ubwoba umutekano. Ibindi bihitamwo bidondora uburyo bumwe canke bushingiye ku bikoresho buvuguruza filozofiya ya LDK ishobora guhinduka, ishobora guhinduka, yo gutanga ibice bishobora gukorana aho gutanga inyishu zishitse.

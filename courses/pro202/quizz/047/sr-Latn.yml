@@ -1,0 +1,8 @@
+question: Koja je matematička formula koja se koristi za izračunavanje subvencije bloka na bilo kojoj visini bloka h u Bitcoin protokolu?
+answer: subsidy = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subsidy = 50_000_000_000 / (2^(h / 210_000))
+  - subsidija = 5_000_000_000 * (0.5^(h % 210_000))
+  - subsidy = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Ispravna formula koristi operacije pomeranja bitova gde 5_000_000_000 predstavlja 50 BTC u satoshijima, a operator pomeranja udesno >> efikasno deli sa stepenima broja 2. Celobrojno deljenje h // 210_000 određuje koliko je perioda prepolovljenja prošlo. Prvi pogrešan odgovor koristi regularno deljenje umesto pomeranja bitova i počinje sa netačnom početnom vrednošću. Drugi koristi modulo umesto celobrojnog deljenja, što bi stvorilo ciklični obrazac umesto progresivnog prepolovljenja. Treći koristi modulo operaciju koja bi resetovala brojač prepolovljenja svakih 210.000 blokova umesto da akumulira prepolovljenja tokom vremena.

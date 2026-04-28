@@ -1,0 +1,8 @@
+question: ตามชื่อหนังสือของ Le Trosne เสรีภาพทางการค้าได้รับการอธิบายว่าอย่างไร?
+answer: มีประโยชน์เสมอ ไม่เคยเป็นอันตราย
+wrong_answers:
+  - เสมอที่มีกำไรและเสมอที่มีประโยชน์
+  - มักจะมีกำไรเสมอ มีศีลธรรมเสมอ
+  - บางครั้งมีกำไร บางครั้งเป็นอันตราย
+explanation: |
+  Le Trosne เขียน "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur" ซึ่งเขาปกป้องการค้าเสรีว่าเป็นประโยชน์เสมอและไม่เคยเป็นอันตรายต่อสังคม

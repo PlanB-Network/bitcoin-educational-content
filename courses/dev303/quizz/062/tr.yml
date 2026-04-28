@@ -1,0 +1,8 @@
+question: Rust'da karmaşık makrolar geliştirirken `cargo expand` komutunu kullanmanın birincil avantajı nedir?
+answer: Makro çağrıları tarafından oluşturulan tamamen genişletilmiş kodu görüntüleyerek geliştiricilerin oluşturulan çıktıyı doğrulamasına ve sorunları ayıklamasına olanak tanır
+wrong_answers:
+  - Derleme süresini kısaltarak ve gereksiz desen eşleştirme dallarını ortadan kaldırarak makro performansını otomatik olarak optimize eder
+  - Çalışma zamanında makro sözdizimini doğrular ve dinamik makro bağımsız değişken doğrulaması için gerçek zamanlı hata denetimi sağlar
+  - İşlev benzeri makroları otomatik olarak türetme makrolarına dönüştürerek kodun yeniden kullanılabilirliğini ve özellik uygulama verimliliğini artırır
+explanation: |
+  Cargo expand` komutu makro geliştirme için çok değerlidir çünkü derleme sırasında makroların generate'in gerçek kodunu ortaya çıkarır. Makrolar derleme zamanında çalıştığından ve girdi kalıplarını üretilen koda dönüştürdüğünden, geliştiricilerin makrolarının doğru çalıştığını doğrulamak için bu genişletilmiş çıktıyı görmeleri gerekir. Genişletilmiş çıktı, sorunların makro tanımının kendisinden mi yoksa oluşturulan kodun yapısından mı kaynaklandığını belirlemeye yardımcı olduğundan, bu özellikle makro tarafından oluşturulan kod hatalar içerdiğinde çok önemlidir. Diğer seçenekler yanlıştır çünkü `cargo expand` yalnızca bir hata ayıklama ve inceleme aracıdır - performansı optimize etmez, çalışma zamanı davranışını doğrulamaz veya makro türleri arasında otomatik olarak dönüştürme yapmaz.

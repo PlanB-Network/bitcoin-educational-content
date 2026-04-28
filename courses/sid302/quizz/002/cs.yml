@@ -1,0 +1,8 @@
+question: Jak často se v systému Liquid Network generují nové bloky?
+answer: Každou minutu
+wrong_answers:
+  - Každých 10 minut
+  - Každých 30 sekund
+  - Každých 5 minut
+explanation: |
+  Systém Liquid Network vytváří bloky každou minutu deterministickým kruhovým způsobem, což je mnohem rychlejší a předvídatelnější než pravděpodobnostní desetiminutové intervaly systému Bitcoin. Toto přesné minutové načasování je rozhodující pro případy použití sítě, jako je arbitráž a rychlé meziburzovní vypořádání, a zajišťuje rychlost potřebnou pro institucionální obchodní operace.

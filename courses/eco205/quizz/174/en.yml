@@ -1,0 +1,8 @@
+question: According to Frédéric Bastiat, what is the fundamental reason why it is impossible for the state to successfully intervene in the economy?
+answer: The state can't collect the information scattered throughout society that's needed for effective planning
+wrong_answers:
+  - "The state lacks sufficient financial resources to carry out its economic interventions"
+  - "State officials are corrupt and pursue their personal interests rather than the general interest"
+  - "The State is limited by constitutional constraints that prevent coherent economic action"
+explanation: |
+  Bastiat had identified the central problem of state intervention: the impossibility of the state gathering information dispersed throughout society. This intuition prefigured the work of Mises and Hayek on the impossibility of economic calculation in a socialist regime. Bastiat understood that only the free market, through the price system, could effectively coordinate this information dispersed among millions of individuals.

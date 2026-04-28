@@ -1,6 +1,7 @@
 ---
-term: (BIP39)
+term: PASSPHRASE (BIP39)
 
+definition: Valikuline parool, mis lisatakse taastefraasile HD-rahakoti turvamiseks.
 ---
 Valikuline salasõna, mis koos taastamislausega annab deterministlike ja hierarhiliste Bitcoini rahakottide jaoks täiendava turvakihi. HD-talletid genereeritakse tavaliselt 12 või 24 sõnast koosnevast taastamisfraasist. See taastamisfraas on väga oluline, sest see võimaldab rahakoti kõigi võtmete taastamist kaotsimineku korral. See kujutab endast aga ühte veapunkti (single point of failure, SPOF). Kui see on ohus, on bitcoinid ohus. Siinkohal tulebki mängu paroolifraas. See on kasutaja valitud vabatahtlik parool, mis lisatakse taastamisfraasile, et suurendada rahakoti turvalisust. Seda ei tohi segi ajada PIN-koodi või tavalise parooliga, vaid parool mängib rolli krüptograafiliste võtmete tuletamisel.
 

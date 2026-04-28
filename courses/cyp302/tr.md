@@ -28,7 +28,7 @@ CYP302 kursuna hoş geldiniz!
 Bu kitap kriptografi bilimine ve uygulamasına derinlemesine bir giriş sunmaktadır. Mümkün olan yerlerde, materyalin biçimsel olarak açıklanmasından ziyade kavramsal olarak açıklanmasına odaklanmaktadır.
 
 
-Bu eğitim içeriği [JWBurgers] (https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
+Bu eğitim içeriği [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography) kitabından ve reposundan uyarlanmıştır. Yazar, eğitim amaçlı kullanımına nezaketen izin vermiş olsa da, tüm fikri mülkiyet hakları orijinal yaratıcıya aittir.
 
 
 **Motivasyon ve hedefler**
@@ -70,7 +70,7 @@ Kitabın bu bölümlerindeki biçimsel ayrıntılarla gerçekten zorlanıyorsan�
 Bu kitabın şekillenmesinde en etkili kitap Jonathan Katz ve Yehuda Lindell'in _Introduction to Modern Cryptography_, CRC Press (Boca Raton, FL), 2015 adlı kitabı olmuştur. Bu kitaba eşlik eden bir kurs da Coursera'da "Cryptography" adıyla mevcuttur
 
 
-Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs] (https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
+Bu kitaptaki genel bakışın oluşturulmasında yardımcı olan başlıca ek kaynaklar Simon Singh, _The Code Book_, Fourth Estate (Londra, 1999); Christof Paar ve Jan Pelzl, _Understanding Cryptography_, Springer (Heidelberg, 2010) ve [Paar'ın "Introduction to Cryptography" adlı kitabına dayanan bir kurs](https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg); ve Bruce Schneier, Applied Cryptography, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons).
 
 
 Bu kaynaklardan aldığım çok spesifik bilgi ve sonuçlara sadece atıfta bulunacağım, ancak burada onlara olan genel borçluluğumu kabul etmek istiyorum.
@@ -83,7 +83,7 @@ Bu girişten sonra kriptografi hakkında daha ileri düzeyde bilgi edinmek istey
 **Katkılar**
 
 
-Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına] (https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
+Projeyi nasıl destekleyeceğinize dair bazı yönergeler için lütfen [depodaki katkı dosyasına](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) bir göz atın.
 
 
 
@@ -135,7 +135,7 @@ Kriptografinin büyüleyici dünyasını keşfetmeye hazır mısınız? Hadi ba�
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
 
-Kriptografi alanındaki incelememize, tarihindeki en çekici ve eğlenceli bölümlerden biriyle başlayalım: Beale şifreleri. [1]
+[Kriptografi](https://planb.academy/resources/glossary/cryptography) alanındaki incelememize, tarihindeki en çekici ve eğlenceli bölümlerden biriyle başlayalım: Beale şifreleri. [1]
 
 
 Beale şifrelerinin hikayesi bana göre gerçek olmaktan ziyade kurgu olma olasılığı daha yüksektir. Ancak sözde olay şu şekilde gerçekleşmiştir.
@@ -681,18 +681,18 @@ Modulo işlemi kriptografide sıklıkla karşılaşılan bir işlemdir. Örnek o
 Kaydırma şifresindeki modulo operatörü, harflerin etrafını sarmasını sağlar, böylece tüm şifreli metin harfleri tanımlanır. Örnek olarak, "DOG" kelimesi üzerinde kaydırma şifresinin uygulanmasını düşünün.
 
 
-Bir anahtarı 17 değerine sahip olacak şekilde eşit olarak seçtiğinizi varsayalım. "O" harfi 15'e eşittir. Modulo işlemi olmadan, bu düz metin sayısının anahtarla toplanması 32'lik bir şifreli metin sayısına karşılık gelecektir. Ancak, İngiliz alfabesinde yalnızca 26 harf bulunduğundan, bu şifreli metin sayısı bir şifreli metin harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında 6 olmasını sağlar ($32 \mod 26$ sonucu), bu da "G" şifreli metin harfine eşittir.
+Diyelim ki değeri $17$ olan bir anahtarı eşit olasılıkla seçtiniz. “O” harfi $14$ değerine karşılık gelir. Modulo işlemi olmadan, bu açık metin sayısının anahtarla toplanması $31$ değerinde bir şifreli metin sayısı üretirdi. Ancak İngilizce alfabe yalnızca $26$ harf içerdiğinden bu sayı bir şifre harfine dönüştürülemez. Modulo işlemi, şifreli metin sayısının aslında $5$ olduğunu garanti eder ($31 \mod 26$ sonucudur) ve bu sayı şifreli harf “F”ye karşılık gelir.
 
 
 Anahtar değeri 17 olan "DOG" kelimesinin tüm şifrelemesi aşağıdaki gibidir:
 
 
 
-- Mesaj = DOG = D,O,G = 3,15,6
+**Mesaj = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Herkes vardiya şifresinin nasıl çalıştığını sezgisel olarak anlayabilir ve muhtemelen kendisi de kullanabilir. Bununla birlikte, kriptografi bilginizi ilerletmek için, şemalar çok daha zor hale geleceğinden, formalizasyon konusunda daha rahat olmaya başlamak önemlidir. Bu nedenle, vardiya şifresi için adımlar resmileştirilmiştir.
@@ -2464,7 +2464,7 @@ Girişimlerinin en azından birincil motivasyonu, açık bilgisayar iletişimini
 Diffie, Hellman ve Merkle'nin azmi sonuç verdi. Sonuçlarının ilk yayını Diffie ve Helmann'ın 1976 yılında yayınladıkları "Kriptografide Yeni Yönelimler" başlıklı makaleydi Bu makalede, anahtar dağıtımı ve anahtar yönetimi sorunlarına Address için iki orijinal yol sundular.
 
 
-Sundukları ilk çözüm uzaktan *key-Exchange protokolü*, yani güvensiz bir iletişim kanalı üzerinden bir veya daha fazla simetrik anahtarın Exchange'ü için bir dizi kuraldı. Bu protokol artık *Diffie-Helmann anahtarı Exchange* veya *Diffie-Helmann-Merkle anahtarı Exchange* olarak bilinmektedir. [2]
+Sundukları ilk çözüm uzaktan *key-Exchange protokolü*, yani güvensiz bir iletişim kanalı üzerinden bir veya daha fazla simetrik anahtarın Exchange'ü için bir dizi kuraldı. Bu protokol artık *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman) anahtarı Exchange* veya *Diffie-Helmann-Merkle anahtarı Exchange* olarak bilinmektedir. [2]
 
 
 Diffie-Helmann anahtarı Exchange ile, iki taraf önce internet gibi güvensiz bir kanalda bazı bilgileri herkese açık olarak Exchange eder. Daha sonra bu bilgilere dayanarak, güvenli iletişim için bağımsız olarak bir simetrik anahtar (veya bir çift simetrik anahtar) oluştururlar. Her iki taraf da anahtarlarını bağımsız olarak oluştururken, herkese açık olarak paylaştıkları bilgiler bu anahtar oluşturma sürecinin her ikisi için de aynı sonucu vermesini sağlar.
@@ -2515,7 +2515,7 @@ Asimetrik kriptografide (ve Diffie Helmann anahtar Exchange) kullanılan trapdoo
 **Ayrık logaritma problemi** döngüsel gruplarda ortaya çıkan bir problemdir. Belirli bir devirli grupta bir üreteç verildiğinde, üreteçten grupta başka bir eleman üretmek için gereken benzersiz üssün hesaplanmasını gerektirir.
 
 
-Ayrık logaritma tabanlı şemalar iki ana tür döngüsel gruba dayanır: tam sayıların çarpımsal grupları ve eliptik eğriler üzerindeki noktaları içeren gruplar. "Kriptografide Yeni Yönelimler "de sunulan orijinal Diffie Helmann anahtarı Exchange, tam sayıların döngüsel çarpımsal grubuyla çalışır. Bitcoin'un dijital imza algoritması ve yakın zamanda tanıtılan Schnorr imza şemasının (2021) her ikisi de belirli bir eliptik eğri döngüsel grubu için ayrık logaritma problemine dayanmaktadır.
+Ayrık logaritma tabanlı şemalar iki ana tür döngüsel gruba dayanır: tam sayıların çarpımsal grupları ve [eliptik eğriler](https://planb.academy/resources/glossary/elliptic-curve) üzerindeki noktaları içeren gruplar. "Kriptografide Yeni Yönelimler "de sunulan orijinal Diffie Helmann anahtarı Exchange, tam sayıların döngüsel çarpımsal grubuyla çalışır. Bitcoin'un [dijital imza](https://planb.academy/resources/glossary/digital-signature) algoritması ve yakın zamanda tanıtılan [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) imza şemasının (2021) her ikisi de belirli bir eliptik eğri döngüsel grubu için ayrık logaritma problemine dayanmaktadır.
 
 
 Daha sonra, asimetrik ortamda gizlilik ve kimlik doğrulamaya ilişkin üst düzey bir genel bakışa döneceğiz. Ancak bunu yapmadan önce kısa bir tarihsel not düşmemiz gerekiyor.
@@ -2686,7 +2686,7 @@ Bir **kriptografik Hash işlevi** sadece kriptografi uygulamaları için yararl�
 Kriptografi bağlamında, "Hash fonksiyonu" tipik olarak kriptografik bir Hash fonksiyonunu ifade eder. Bundan sonra bu uygulamayı benimseyeceğim.
 
 
-Popüler bir Hash işlevine örnek olarak **SHA-256** (güvenli Hash algoritması 256) verilebilir. Girdinin boyutu ne olursa olsun (örneğin, 15 bit, 100 bit veya 10.000 bit), bu işlev 256 bitlik bir Hash değeri verecektir. Aşağıda SHA-256 fonksiyonunun birkaç örnek çıktısını görebilirsiniz.
+Popüler bir Hash işlevine örnek olarak **[SHA-256](https://planb.academy/resources/glossary/sha256)** (güvenli Hash algoritması 256) verilebilir. Girdinin boyutu ne olursa olsun (örneğin, 15 bit, 100 bit veya 10.000 bit), bu işlev 256 bitlik bir Hash değeri verecektir. Aşağıda SHA-256 fonksiyonunun birkaç örnek çıktısını görebilirsiniz.
 
 
 "Merhaba": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
@@ -2719,7 +2719,7 @@ Bir Hash fonksiyonu $H$, $x$ ve $y$ olmak üzere $x \neq y$, ancak $H(x) = H(y)$
 
 2.	Ardından, içe aktardığınız açık anahtarları doğrulamanız gerekir. Atmanız gereken en az bir adım, bulduğunuz açık anahtarların diğer çeşitli yerlerde yayınlananlarla aynı olduğunu doğrulamaktır. Örneğin, açık anahtarlarını içe aktardığınız kişilerin kişisel web sayfalarına, Twitter sayfalarına veya Github sayfalarına başvurabilirsiniz. Genellikle açık anahtarların bu karşılaştırması, parmak izi olarak bilinen açık anahtarın kısa bir Hash'i karşılaştırılarak yapılır.
 
-3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden] (www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
+3.	Ardından, Bitcoin core için çalıştırılabilir dosyayı [web sitelerinden](www.bitcoincore.org) indirmeniz gerekir. Linux, Windows ve MAC işletim sistemleri için paketler mevcut olacaktır.
 
 4.	Ardından, iki sürüm dosyasını bulmanız gerekir. İlki, indirdiğiniz yürütülebilir dosya için resmi SHA-256 Hash ile birlikte yayınlanan diğer tüm paketlerin karmalarını içerir. Başka bir sürüm dosyası, paket karmaları ile birlikte sürüm dosyası üzerinde çeşitli katkıda bulunanların imzalarını içerecektir. Bu sürüm dosyalarının her ikisi de Bitcoin core web sitesinde bulunmalıdır.
 

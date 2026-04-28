@@ -1,0 +1,29 @@
+id: 3e26b5be-d1f8-4253-9297-0e163c19b387
+
+last_update_date: 2026-01-12
+
+project_id: 41814f1c-858b-4d96-9d7a-2ea5e5cd0ecf
+
+tags:
+  - cypherpunk
+  - privacy
+  - software
+
+category: on-chain
+
+level: expert
+
+professor_id: fe9b2fee-296b-439d-bd18-1dc089f872dd
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-08-26
+    urgency: 1
+    contributor_names:
+      - kravens
+    reward: 0.65

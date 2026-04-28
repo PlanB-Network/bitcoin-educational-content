@@ -105,7 +105,7 @@ Gotowy do odkrycia technicznych mechanizmów sieci Lightning? Zaczynajmy!
 
 
 
-Lightning Network to sieć kanałów płatności zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie w łańcuchu bloków. W ten sposób sieć Lightning dąży do poprawy skalowalności Bitcoina i uczynienia go użytecznym do wykonywania płatności o niskiej wartości.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) to sieć [kanałów płatności](https://planb.academy/resources/glossary/payment-channel) zbudowana w oparciu o protokół Bitcoin, mająca na celu umożliwienie szybkich i tanich transakcji. Umożliwia tworzenie kanałów płatności między uczestnikami, w ramach których transakcje mogą być dokonywane niemal natychmiast i przy minimalnych opłatach, bez konieczności rejestrowania każdej transakcji indywidualnie w [łańcuchu bloków](https://planb.academy/resources/glossary/blockchain). W ten sposób sieć Lightning dąży do poprawy [skalowalności](https://planb.academy/resources/glossary/scalability) Bitcoina i uczynienia go użytecznym do wykonywania płatności o niskiej wartości.
 
 
 Przed zbadaniem aspektu „sieci” ważne jest, aby zrozumieć koncepcję **kanału płatności** Lightning, to jak działa i jaka jest jego specyfika. Jest to temat naszego pierwszego rozdziału.
@@ -120,7 +120,7 @@ Kanał płatności pozwala dwóm stronom, nazwanym tutaj **Alicja** i **Bob**, n
 ![LNP201](assets/en/001.webp)
 
 
-W naszym przykładzie Alicja ma 100 000 satów po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **przepustowość kanału**.
+W naszym przykładzie Alicja ma 100 000 [satów](https://planb.academy/resources/glossary/satoshi-sat) po swojej stronie kanału, a Bob ma 30 000 satów, co daje łącznie 130 000 satów, co stanowi **[przepustowość kanału](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 
 **Ale czym jest Sat?**
@@ -194,7 +194,7 @@ Ten rozdział jest nieco wyjątkowy, ponieważ nie będzie bezpośrednio poświ�
 ### Adresy Bitcoin, klucze prywatne i klucze publiczne
 
 
-Adres Bitcoin to seria znaków pochodzących z **klucza publicznego**, który jest obliczany na podstawie **klucza prywatnego**. Jak z pewnością wiesz, jest on używany do blokowania bitcoinów, co jest równoznaczne z otrzymaniem ich w naszym portfelu.
+Adres Bitcoin to seria znaków pochodzących z **[klucza publicznego](https://planb.academy/resources/glossary/public-key)**, który jest obliczany na podstawie **[klucza prywatnego](https://planb.academy/resources/glossary/private-key)**. Jak z pewnością wiesz, jest on używany do blokowania bitcoinów, co jest równoznaczne z otrzymaniem ich w naszym portfelu.
 
 
 Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępniany**, podczas gdy klucz publiczny i adres mogą być udostępniane bez ryzyka dla bezpieczeństwa (ich ujawnienie stanowi ryzyko jedynie dla prywatności użytkownika). Oto reprezentacja graficzna, którą będzimy posługiwać się podczas tego szkolenia:
@@ -209,10 +209,10 @@ Klucz prywatny jest tajnym elementem, który **nigdy nie powinien być udostępn
 ### Transakcje w sieci Bitcoin: Wysyłanie środków i skrypty
 
 
-Transakcja Bitcoin polega na wysłaniu środków z jednego adresu do drugiego. Weźmy przykład Alicji wysyłającej 0,002 bitcoina do Boba. Alicja używa klucza prywatnego powiązanego z jej adresem, aby **podpisać** transakcję, udowadniając w ten sposób, że rzeczywiście jest w stanie wydać te środki. Ale co dokładnie dzieje się za kulisami tej transakcji? Środki w adresie Bitcoin są zablokowane przez **skrypt**, rodzaj mini-programu, który narzuca pewne warunki wydawania środków.
+Transakcja Bitcoin polega na wysłaniu środków z jednego adresu do drugiego. Weźmy przykład Alicji wysyłającej 0,002 bitcoina do Boba. Alicja używa klucza prywatnego powiązanego z jej adresem, aby **podpisać** transakcję, udowadniając w ten sposób, że rzeczywiście jest w stanie wydać te środki. Ale co dokładnie dzieje się za kulisami tej transakcji? Środki w adresie Bitcoin są zablokowane przez **[skrypt](https://planb.academy/resources/glossary/script)**, rodzaj mini-programu, który narzuca pewne warunki wydawania środków.
 
 
-Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z adresem. Kiedy Alicja podpisuje transakcję swoim kluczem prywatnym, **odblokowuje skrypt**, który blokuje środki, a następnie może je przelać. Transfer środków polega na dodaniu nowego skryptu do tych środków, określającego, że tym razem do ich wydania wymagany będzie podpis kluczem prywatnym **Boba**.
+Najpopularniejszy skrypt wymaga [podpisu](https://planb.academy/resources/glossary/digital-signature) kluczem prywatnym powiązanym z adresem. Kiedy Alicja podpisuje transakcję swoim kluczem prywatnym, **odblokowuje skrypt**, który blokuje środki, a następnie może je przelać. Transfer środków polega na dodaniu nowego skryptu do tych środków, określającego, że tym razem do ich wydania wymagany będzie podpis kluczem prywatnym **Boba**.
 
 
 ![LNP201](assets/en/005.webp)
@@ -306,9 +306,9 @@ Kluczowe jest wyraźne rozróżnienie różnych poziomów wymiany w sieci Lightn
 
 
 
-- **Komunikacja peer-to-peer (protokół Lightning)**: Są to wiadomości, które węzły Lightning wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
+- **Komunikacja [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) (protokół Lightning)**: Są to wiadomości, które [węzły Lightning](https://planb.academy/resources/glossary/lightning-node) wysyłają do siebie nawzajem w celu komunikacji. Na naszych diagramach będziemy reprezentować te wiadomości przerywanymi czarnymi liniami.
 - **Kanały płatności (protokół Lightning)**: Są to ścieżki wymiany środków w sieci Lightning, które przedstawimy za pomocą ciągłych czarnych linii.
-- **Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane w łańcuchu bloków, które przedstawimy za pomocą pomarańczowych linii.
+- **Transakcje w sieci Bitcoin (protokół Bitcoin)**: Są to transakcje dokonywane [w łańcuchu bloków](https://planb.academy/resources/glossary/onchain), które przedstawimy za pomocą pomarańczowych linii.
 
 
 ![LNP201](assets/en/010.webp)
@@ -365,7 +365,7 @@ Warto zauważyć, że węzeł Lightning może komunikować się za pośrednictwe
 ### Kiedy kanał jest otwarty?
 
 
-Kanał uznaje się za otwarty, gdy transakcja wpłaty zostanie uwzględniona w bloku Bitcoina i osiągnie określoną głębokość potwierdzeń (liczbę kolejnych bloków).
+Kanał uznaje się za otwarty, gdy transakcja wpłaty zostanie uwzględniona w [bloku](https://planb.academy/resources/glossary/block) Bitcoina i osiągnie określoną głębokość [potwierdzeń](https://planb.academy/resources/glossary/confirmation) (liczbę kolejnych bloków).
 
 
 **Co powinieneś zapamiętać z tego rozdziału?**
@@ -413,7 +413,7 @@ W momencie otwarcia kanału Alicja zdeponowała **130 000 satów** pod adresem w
 ### Niepublikowane transakcje: transakcje zobowiązujące
 
 
-Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja w sieci Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **transakcją zobowiązującą**, nie jest publikowana w łańcuchu bloków, ale reprezentuje nowy stan kanału po transakcji w sieci Lightning.
+Kiedy Alicja dokonuje transakcji w kanale, aby wysłać środki do Boba, tworzona jest nowa transakcja w sieci Bitcoin, aby odzwierciedlić tę zmianę w dystrybucji środków. Transakcja ta, zwana **[transakcją zobowiązującą](https://planb.academy/resources/glossary/commitment-transaction)**, nie jest publikowana w łańcuchu bloków, ale reprezentuje nowy stan kanału po transakcji w sieci Lightning.
 
 
 Weźmy przykład z Alicją wysyłającą 30 000 satów do Boba:
@@ -523,10 +523,10 @@ Aby zapobiec tego rodzaju oszustwom ze strony Alicji, w sieci Lightning do trans
 
 
 
-- **Blokada czasowa**: Każda transakcja zobowiązująca zawiera blokadę czasową środków Alicji. Blokada czasowa jest prymitywem (podstawowym elementem) kontraktu smart, który ustawia warunek czasowy, który musi zostać spełniony, aby transakcja została dodana do bloku. Oznacza to, że Alicja nie może odzyskać swoich środków, dopóki nie minie określona liczba bloków, jeśli opublikuje jedną z transakcji zobowiązujących. Ta blokada czasowa zaczyna obowiązywać od potwierdzenia transakcji zobowiązującej. Czas jej trwania jest zasadniczo proporcjonalny do wielkości kanału, ale można go również skonfigurować ręcznie.
+- **Blokada czasowa**: Każda transakcja zobowiązująca zawiera [blokadę czasową](https://planb.academy/resources/glossary/timelock) środków Alicji. Blokada czasowa jest prymitywem (podstawowym elementem) [kontraktu smart](https://planb.academy/resources/glossary/smart-contract), który ustawia warunek czasowy, który musi zostać spełniony, aby transakcja została dodana do bloku. Oznacza to, że Alicja nie może odzyskać swoich środków, dopóki nie minie określona liczba bloków, jeśli opublikuje jedną z transakcji zobowiązujących. Ta blokada czasowa zaczyna obowiązywać od potwierdzenia transakcji zobowiązującej. Czas jej trwania jest zasadniczo proporcjonalny do wielkości kanału, ale można go również skonfigurować ręcznie.
 - **Klucz odwołania**: Środki Alicji mogą być również natychmiast wydane przez Boba, jeśli posiada on **klucz odwołania**. Klucz ten składa się z sekretu posiadanego przez Alicję i sekretu posiadanego przez Boba. Należy pamiętać, że ten sekret jest inny dla każdej transakcji zobowiązującej.
 
-Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich danych wyjściowych za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasza nowa transakcjia zobowiązująca będzie teraz wyglądała następująco:
+Dzięki tym dwóm połączonym mechanizmom Bob ma czas na wykrycie próby oszustwa Alicji i ukaranie jej poprzez odzyskanie swoich [danych wyjściowych](https://planb.academy/resources/glossary/output) za pomocą klucza unieważniającego, co dla Boba oznacza odzyskanie wszystkich środków z kanału. Nasza nowa transakcjia zobowiązująca będzie teraz wyglądała następująco:
 
 
 ![LNP201](assets/en/025.webp)
@@ -543,7 +543,7 @@ Kiedy Alicja i Bob aktualizują stan kanału za pomocą nowej transakcji w sieci
 
 
 - Alicja i Bob mają nową transakcję zobowiązującą reprezentującą bieżącą dystrybucję środków po transakcji w sieci Lightning.
-- Każdy z nich ma sekret drugiej strony dla poprzedniej transakcji, co pozwala im użyć klucza odwołania tylko wtedy, gdy jeden z nich próbuje oszukać, publikując transakcję ze starym stanem w mempoolach węzłów Bitcoina. W rzeczywistości, aby ukarać drugą stronę, konieczne jest posiadanie obu sekretów i transakcji zobowiązującej drugiej strony, która zawiera podpisane dane wejściowe. Bez tej transakcji sam klucz odwołania jest bezużyteczny. Jedynym sposobem na uzyskanie tej transakcji jest pobranie jej z mempooli (w transakcjach oczekujących na potwierdzenie) lub w potwierdzonych transakcjach w łańcuchu bloków podczas blokady czasowej, co dowodzi, że druga strona próbuje oszukiwać, celowo lub nie.
+- Każdy z nich ma sekret drugiej strony dla poprzedniej transakcji, co pozwala im użyć klucza odwołania tylko wtedy, gdy jeden z nich próbuje oszukać, publikując transakcję ze starym stanem w [mempoolach](https://planb.academy/resources/glossary/mempool) węzłów Bitcoina. W rzeczywistości, aby ukarać drugą stronę, konieczne jest posiadanie obu sekretów i transakcji zobowiązującej drugiej strony, która zawiera podpisane [dane wejściowe](https://planb.academy/resources/glossary/input). Bez tej transakcji sam klucz odwołania jest bezużyteczny. Jedynym sposobem na uzyskanie tej transakcji jest pobranie jej z mempooli (w transakcjach oczekujących na potwierdzenie) lub w potwierdzonych transakcjach w łańcuchu bloków podczas blokady czasowej, co dowodzi, że druga strona próbuje oszukiwać, celowo lub nie.
 
 
 Weźmy przykład, aby dobrze zrozumieć ten proces:
@@ -648,7 +648,7 @@ We **wspólnym zamknięciu** Alicja i Bob zgadzają się zamknąć kanał. Oto j
 
 
 
-- Alicja i Bob wspólnie negocjują opłaty za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoina w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alicja w naszym przykładzie) płaci opłaty za zamknięcie.
+- Alicja i Bob wspólnie negocjują [opłaty](https://planb.academy/resources/glossary/transaction-fees) za **zamknięcie transakcji**. Opłaty te są zazwyczaj obliczane na podstawie rynku opłat Bitcoina w momencie zamknięcia. Ważne jest, aby pamiętać, że **to zawsze osoba, która otworzyła kanał** (Alicja w naszym przykładzie) płaci opłaty za zamknięcie.
 - Tworzą nową **transakcję zamykającą**. Transakcja ta przypomina transakcję zobowiązującą, ale bez blokad czasowych lub mechanizmów odwoływania, ponieważ obie strony współpracują i nie ma ryzyka oszustwa. Ta kooperacyjna transakcja zamknięcia różni się zatem od transakcji zobowiązującej.
 
 
@@ -732,13 +732,13 @@ W kolejnych rozdziałach zbadamy sieć Lightning z szerszej perspektywy, koncent
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-W tym rozdziale zbadamy, w jaki sposób płatności w sieci Lightning mogą dotrzeć do odbiorcy, nawet jeśli uczestnicy transakcji nie są bezpośrednio połączeni kanałem płatności. Sieć Lightning jest bowiem **siecią kanałów płatności**, która umożliwia wysyłanie środków do odległego węzła za pośrednictwem kanałów innych uczestników. Dowiemy się, w jaki sposób płatności są kierowane przez sieć, jak płynność przemieszcza się między kanałami i jak obliczane są opłaty transakcyjne.
+W tym rozdziale zbadamy, w jaki sposób płatności w sieci Lightning mogą dotrzeć do odbiorcy, nawet jeśli uczestnicy transakcji nie są bezpośrednio połączeni kanałem płatności. Sieć Lightning jest bowiem **siecią kanałów płatności**, która umożliwia wysyłanie środków do odległego węzła za pośrednictwem kanałów innych uczestników. Dowiemy się, w jaki sposób płatności są kierowane przez sieć, jak [płynność](https://planb.academy/resources/glossary/liquidity-lightning) przemieszcza się między kanałami i jak obliczane są opłaty transakcyjne.
 
 
 ### Sieć kanałów płatności
 
 
-W sieci Lightning transakcja odpowiada transferowi środków między dwoma węzłami. Jak pokazano w poprzednich rozdziałach, konieczne jest otwarcie kanału z kimś, aby wykonać transakcję Lightning. Kanał ten pozwala na niemal nieskończoną liczbę transakcji poza łańcuchem bloków (ang. off-chain) przed jego zamknięciem w celu odzyskania salda w łańcuchu bloków (ang. on-chain). Metoda ta ma jednak tę wadę, że wymaga bezpośredniego kanału z drugą osobą w celu otrzymania lub wysłania środków, co oznacza konieczność utworzenia transakcji otwierającej i zamykającej dla każdego kanału. Jeśli planuję dokonać dużej liczby płatności z tą osobą, otwieranie i zamykanie kanału staje się opłacalne. I odwrotnie, jeśli muszę wykonać tylko kilka transakcji Lightning, otwarcie kanału bezpośredniego nie jest korzystne, ponieważ będzie mnie to kosztować 2 transakcje on-chain dla ograniczonej liczby transakcji off-chain. Taki przypadek może wystąpić na przykład, gdy chcę dokonać jednorazowej płatności za pomocą sieci Lightning u jakiegoś sprzedawcy.
+W sieci Lightning transakcja odpowiada transferowi środków między dwoma węzłami. Jak pokazano w poprzednich rozdziałach, konieczne jest otwarcie kanału z kimś, aby wykonać transakcję Lightning. Kanał ten pozwala na niemal nieskończoną liczbę transakcji poza łańcuchem bloków (ang. [off-chain](https://planb.academy/resources/glossary/offchain)) przed jego zamknięciem w celu odzyskania salda w łańcuchu bloków (ang. on-chain). Metoda ta ma jednak tę wadę, że wymaga bezpośredniego kanału z drugą osobą w celu otrzymania lub wysłania środków, co oznacza konieczność utworzenia transakcji otwierającej i zamykającej dla każdego kanału. Jeśli planuję dokonać dużej liczby płatności z tą osobą, otwieranie i zamykanie kanału staje się opłacalne. I odwrotnie, jeśli muszę wykonać tylko kilka transakcji Lightning, otwarcie kanału bezpośredniego nie jest korzystne, ponieważ będzie mnie to kosztować 2 transakcje on-chain dla ograniczonej liczby transakcji off-chain. Taki przypadek może wystąpić na przykład, gdy chcę dokonać jednorazowej płatności za pomocą sieci Lightning u jakiegoś sprzedawcy.
 
 
 Aby rozwiązać ten problem, sieć Lightning pozwala na przekierowanie płatności przez kilka kanałów i węzłów pośredniczących, umożliwiając w ten sposób transakcję bez bezpośredniego kanału z drugą osobą.
@@ -958,7 +958,7 @@ Oto jak ten proces działa w naszym przykładzie z Alicją, Suzie i Bobem:
 ![LNP201](assets/en/048.webp)
 
 
-**Tworzenie sekretu**: Bob generuje losowy sekret oznaczony jako _s_ (obraz wstępny) i oblicza jego hasz oznaczony jako _r_ za pomocą funkcji hasz oznaczonej jako _h_. Mamy:
+**Tworzenie sekretu**: Bob generuje losowy sekret oznaczony jako _s_ (obraz wstępny) i oblicza jego hasz oznaczony jako _r_ za pomocą [funkcji hasz](https://planb.academy/resources/glossary/hash-function) oznaczonej jako _h_. Mamy:
 
 
 $$
@@ -1116,7 +1116,7 @@ Nawet przy takiej topologii sieci Lightning, niektóre informacje istotne dla ro
 ### Aktualizacja mapy sieci
 
 
-Aby mapa sieci była aktualna, węzły regularnie wymieniają wiadomości za pomocą algorytmu o nazwie „**_gossip_**”. Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na wymianę i synchronizację ogólnego stanu kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
+Aby mapa sieci była aktualna, węzły regularnie wymieniają wiadomości za pomocą algorytmu o nazwie „**_[gossip](https://planb.academy/resources/glossary/gossip)_**”. Jest to rozproszony algorytm używany do rozprzestrzeniania informacji w sposób epidemiczny do wszystkich węzłów w sieci, co pozwala na wymianę i synchronizację ogólnego stanu kanałów w kilku cyklach komunikacyjnych. Każdy węzeł rozprzestrzenia informacje do jednego lub więcej sąsiadów wybranych losowo lub nie, ci z kolei rozprzestrzeniają informacje do innych sąsiadów i tak dalej, aż do osiągnięcia globalnie zsynchronizowanego stanu.
 
 
 Dwie główne wiadomości wymieniane między węzłami sieci Lightning są następujące:
@@ -1228,7 +1228,7 @@ W następnym rozdziale zajmiemy się funkcjonowaniem faktur, a także kilkoma in
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: wypłatę LNURL i keysend.
+W tym rozdziale przyjrzymy się bliżej działaniu **faktur** Lightning, czyli żądań płatności wysyłanych przez węzeł odbiorcy do węzła nadawcy. Celem jest zrozumienie, jak płacić i otrzymywać płatności w sieci Lightning. Omówimy również 2 alternatywy dla klasycznych faktur: wypłatę [LNURL](https://planb.academy/resources/glossary/lnurl) i keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1339,7 +1339,7 @@ $$
 - **Podpis**: Gwarantuje integralność faktury poprzez uwierzytelnienie wszystkich informacji.
 
 
-Faktury są następnie kodowane w **bech32**, takim samym formacie jak adresy Bitcoin SegWit (format zaczynający się od `bc1`).
+Faktury są następnie kodowane w **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**, takim samym formacie jak adresy Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) (format zaczynający się od `bc1`).
 
 
 ### Wypłata LNURL
@@ -1404,8 +1404,8 @@ Istnieją trzy główne profile użytkowników Lightning, z których każdy ma o
 
 
 
-- **Płacący**: Jest to osoba, która dokonuje płatności. Potrzebuje płynności wychodzącej, aby móc przekazywać środki innym użytkownikom. Może to być na przykład konsument.
-- **Sprzedawca (lub odbiorca płatności)**: Jest to osoba, która otrzymuje płatności. Potrzebuje płynności przychodzącej, aby móc akceptować płatności do swojego węzła. Może to być na przykład firma lub sklep internetowy.
+- **Płacący**: Jest to osoba, która dokonuje płatności. Potrzebuje [płynności wychodzącej](https://planb.academy/resources/glossary/outbound-capacity), aby móc przekazywać środki innym użytkownikom. Może to być na przykład konsument.
+- **Sprzedawca (lub odbiorca płatności)**: Jest to osoba, która otrzymuje płatności. Potrzebuje [płynności przychodzącej](https://planb.academy/resources/glossary/inbound-capacity), aby móc akceptować płatności do swojego węzła. Może to być na przykład firma lub sklep internetowy.
 - **Router**: Węzeł pośredniczący, często specjalizujący się w przekierowywaniu płatności, który musi zoptymalizować swoją płynność w każdym kanale, aby przekierować jak najwięcej płatności i zarobić na opłatach.
 
 
@@ -1591,6 +1591,10 @@ Widzieliśmy, że zarządzanie płynnością przepływu płatności jest wyzwani
 
 ![LNP201](assets/en/084.webp)
 
+
+Teraz, gdy zrozumieli Państwo teoretyczne działanie Lightning Network, mogą Państwo przejść do praktyki i uruchomić swój pierwszy węzeł Lightning, aby zyskać większą autonomię w jego użytkowaniu. W tym celu proszę skorzystać z kursu LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Sekcja końcowa
 

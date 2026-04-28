@@ -1,0 +1,9 @@
+question: Jaki problem Hashcash starał się przede wszystkim ograniczyć?
+answer: Spam e-mailowy
+wrong_answers:
+  - Podwójne wydawanie
+  - Phishing DNS
+  - Kradzież kluczy prywatnych
+explanation: |
+  Hashcash nakłada koszt obliczeniowy na każdą wiadomość, aby masowe wysyłanie e-maili stało się nieopłacalne.
+reviewed: false

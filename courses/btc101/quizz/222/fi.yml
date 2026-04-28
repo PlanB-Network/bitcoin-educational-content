@@ -1,9 +1,9 @@
-question: Kuinka Lightning Networkin transaktiot turvataan?
-answer: Kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
+question: Mikä on RGB:n keskeinen periaate?
+answer: Asiakaspuolen validointi
 wrong_answers:
-  - Vain yksityisten avainten käytön kautta.
-  - Vain julkisten avainten käytön kautta.
-  - Vain yksityisten ja julkisten avainten yhteiskäytön kautta.
-explanation: >-
-  Lightning Networkin transaktiot turvataan kryptografian avulla ja välillisesti Bitcoinin louhijoiden kuluttaman energian kautta.
-reviewed: true
+  - Globaali suoritus lohkoketjussa
+  - Federatiivinen konsensus
+  - Proof-of-Work
+explanation: |
+  RGB perustuu tilojen paikalliseen validointiin, ja lohkoketju toimii vain kryptografisena ankkurina ja suojana kaksinkertaista kulutusta vastaan.
+reviewed: false

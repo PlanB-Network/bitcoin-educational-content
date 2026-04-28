@@ -508,13 +508,14 @@ These regular updates are a major asset, especially for devices that have been d
 ### Technical comparison
 
 
+
 | **Aspect** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Compatibility** | Pixels only | Hundreds of devices |
+| **Security** | Advanced mitigations | Standard AOSP security |
+| **Google Play** | Optional sandboxing | Classic installation possible |
+| **Installation** | Web interface + USB | Technical manual procedure |
+| **Philosophy** | Security above all | Balance and freedom of choice |
 
 ### Recommendations for use
 

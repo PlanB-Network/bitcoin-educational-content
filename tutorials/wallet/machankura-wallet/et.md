@@ -80,18 +80,19 @@ Machankura on teenus, mis on välja töötatud ja seejärel seotud GSM-koodiga, 
 
 
 
-| PAYS           | CODE USSD              |
+
+| RIIK           | USSD KOOD              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
-| Kenya          | `*483*8333#`           |
+| Kenia          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
-| Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Namiibia        | `*142*8333#`           |
+| Nigeeria        | `*347*8333#`           |
+| Lõuna-Aafrika | `54052.co.za`          |
+| Tansaania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Sambia         | `*384*8333#`           |
+| Norsmaaliit  | `*9141#`               |
 
 Selle tabeli põhjal näeme, et sellistes riikides nagu Tansaania, Uganda ja Lõuna-Aafrika ei ole teenuse jaoks spetsiaalset USSD-koodi.
 
@@ -101,7 +102,7 @@ Kuid Machankura tegeleb selle probleemiga, laiendades oma funktsionaalsust oma v
 
 
 
-Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti] (https://8333.mobi).
+Et saada teavet uute riikide kohta, kus teenus on saadaval, vaadake regulaarselt nende [veebisaiti](https://8333.mobi).
 
 
 
@@ -370,7 +371,7 @@ Teine, mis on esimese loogiline jätk, on kaasav ja kohalik lahendus, kasutades 
 
 
 
-Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720] (https://wa.me/+27737625720).
+Alustamiseks peate kirjutama Machankura WhatsApp-botile sõnumi (lihtne "Tere" on enam kui piisav). Tema WhatsAppi number on [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

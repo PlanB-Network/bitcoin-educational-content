@@ -1,0 +1,9 @@
+question: Comment s’appelle le registre public partagé où l’on écrit l’historique des paiements en bitcoins ?
+answer: La blockchain
+wrong_answers:
+  - La mempool
+  - Le wallet
+  - Le hashrate
+explanation: |
+  Le registre public partagé qui contient toutes les transactions s'appelle la blockchain.
+reviewed: true 

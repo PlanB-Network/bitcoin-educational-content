@@ -1,5 +1,6 @@
 ---
-term: MFANO WA MUDA
+term: Modèle temporel
+definition: Uchambuzi wa nyakati za utangazaji wa miamala ili kubaini asili au eneo la huluki kwenye mnyororo.
 ---
 
 Tabia fulani za binadamu zinatambulika On-Chain. Labda muhimu zaidi katika uchanganuzi wa minyororo ni muundo wako wa kulala! Ndiyo, unapolala, huenda hautangazi miamala ya Bitcoin. Kwa ujumla, unalala karibu masaa sawa. Kwa hiyo, uchambuzi wa muda hutumiwa kwa kawaida katika uchambuzi wa mnyororo. Inahusisha tu kurekodi nyakati ambazo shughuli za huluki fulani zinatangazwa kwenye mtandao wa Bitcoin. Kuchanganua mifumo hii ya muda huturuhusu kupata habari nyingi.

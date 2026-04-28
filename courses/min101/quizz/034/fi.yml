@@ -1,0 +1,9 @@
+question: Mitä puoliintuminen (halving) muuttaa Bitcoinissa?
+answer: Lohkosubsidio
+wrong_answers:
+  - Siirtomaksut
+  - Lohkon koko
+  - Vaikeustavoite
+explanation: |
+  Puoliintuminen puolittaa lohkoa kohden luotavan maksimisubsidion vaikuttamatta siirtomaksuihin.
+reviewed: false

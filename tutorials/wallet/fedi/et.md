@@ -141,7 +141,7 @@ Satoshide saamiseks peab teie saaja skaneerima loodud QR-koodi.
 
 
 
-Offline-maksed tehakse peamiselt [e-raha] (https://planb.academy/resources/glossary/ecash-david-chaum) abil. Tehing salvestatakse teie telefoni ja niipea, kui te sisenete internetti, toimub tehingu kinnitamine automaatselt. Võite makse ka käsitsi kinnitada, klõpsates **Kinnitage tehing**.
+Offline-maksed tehakse peamiselt [e-raha](https://planb.academy/resources/glossary/ecash-david-chaum) abil. Tehing salvestatakse teie telefoni ja niipea, kui te sisenete internetti, toimub tehingu kinnitamine automaatselt. Võite makse ka käsitsi kinnitada, klõpsates **Kinnitage tehing**.
 
 
 

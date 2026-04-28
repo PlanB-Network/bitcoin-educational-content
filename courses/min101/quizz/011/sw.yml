@@ -1,0 +1,9 @@
+question: Nonce katika kichwa cha bloku inatumika kwa ajili gani?
+answer: Kubadilisha kichwa cha bloku kwa ajili ya jaribio jipya
+wrong_answers:
+  - Kuongeza ukubwa wa bloku
+  - Kuwakilisha miamala yote ya bloku
+  - Kuonyesha lengo la ugumu
+explanation: |
+  Kubadilisha nonce hubadilisha ingizo la hashi na kutoa alama tofauti kabisa. Hii inaruhusu kujaribu tena kupata hashi halali.
+reviewed: false

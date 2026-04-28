@@ -1,0 +1,8 @@
+question: Ni imvo nyamukuru iyihe ituma amafaranga y’ubudandaji ya SegWit azingiwe na P2SH akoresha amategeko atatu y’ukwemeza mu gihe co kugenzura?
+answer: Kugira ngo haboneke ko hariho uguhuza kw’inyuma hagati y’imbere ya BIP16, inyuma ya BIP16, na SegWit mu gihe hagumyeho ukwiyumvikana
+wrong_answers:
+  - Gukubita gatatu umutekano mu gusaba ibimenyamenya bitatu bitandukanye vy’ubuhinga bwa none imbere yo kwemera gucuruza .
+  - Gutanga umuzigo w'ibikorwa vy'ukwemeza mu bwoko butandukanye bw'ibihimba kugira ngo utere imbere mu mikorere y'urubuga no mu gukwiragira
+  - Kugira ngo ukingire ibitero vya double-spending mu kwemeza amakuru y’ibikorwa nyene biciye mu buryo butatu bwigenga .
+explanation: |
+  P2SH-wrapped SegWit ikoresha ibice bitatu vy’ukwemeza vyihariye ku bijanye n’uguhuza inyuma: imbere ya BIP16 nodes yemera redeemScript nk’ibereye, post-BIP16 nodes irayisuzuma isiga OP_0 + hash ku stack, kandi nodes za SegWit zikora ivyemezo vy’ivyabona vyuzuye. Ubu buryo bushingiye ku migwi bushobora gutuma ubwoko bwose bw’ibihimba bushobora kugira uruhara mu kwumvikana ata guca, bitandukanye n’inyishu zitari zo zivuga ko umutekano wogwiza, wo gusangira ibikorwa, canke ko wokwirinda gukoresha amahera kabiri ari vyo bituma umuntu agira ico akora.

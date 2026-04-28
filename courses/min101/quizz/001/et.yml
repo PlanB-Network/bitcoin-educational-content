@@ -1,0 +1,9 @@
+question: Mida teeb Bitcoini sõlm pärast kontrollimist kehtiva, kuid kinnitamata tehinguga?
+answer: See edastab selle oma naabersõlmedele (peers)
+wrong_answers:
+  - See lisab selle oma kohalikku plokiahela koopiasse
+  - See allkirjastab selle oma privaatvõtmega
+  - See krüpteerib selle oma avaliku võtmega
+explanation: |
+  Bitcoini võrgus edastab iga sõlm kehtivad tehingud sõlmedele, millega ta on ühendatud.
+reviewed: false

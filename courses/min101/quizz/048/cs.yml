@@ -1,0 +1,9 @@
+question: Jaký je úplně první těžební pool na Bitcoinu?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, dříve Slush Pool a Bitcoin CZ, je první těžební pool na Bitcoinu, vytvořený v roce 2010.
+reviewed: false

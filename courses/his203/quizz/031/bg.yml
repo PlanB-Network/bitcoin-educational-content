@@ -1,0 +1,9 @@
+question: Кой кооператив mining за кратко надхвърли 50-процентовия процент на мрежово хеширане през лятото на 2011 г.?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Басейн на Slush
+  - GHash.io
+explanation: |
+ Според OrganOfCorti измерената скорост на хеширане на Deepbit е била 52,86% на 5 август.
+reviewed: true

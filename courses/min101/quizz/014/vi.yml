@@ -1,0 +1,9 @@
+question: Hàm băm nào được sử dụng để khai thác trong Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Khai thác Bitcoin sử dụng SHA256 được áp dụng hai lần, thường được ký hiệu là SHA256d.
+reviewed: false

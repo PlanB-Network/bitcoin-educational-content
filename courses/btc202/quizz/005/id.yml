@@ -1,4 +1,4 @@
-question: Perangkat lunak mana yang memadukan fungsi Full node dan Wallet?
+question: Perangkat lunak mana yang menggabungkan fungsi Full node dan Wallet?
 answer: Bitcoin core
 wrong_answers:
   - Sparrow wallet

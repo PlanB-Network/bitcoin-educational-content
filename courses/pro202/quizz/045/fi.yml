@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen syy siihen, että Bitcoin:n vaikeusasteen mukautusmekanismi rajoittaa muutokset neljän kertoimen sisällä kunkin vuoden 2016 lohkon mukautusjakson aikana?
+answer: Estetään äärimmäiset heilahtelut, jotka voisivat horjuttaa verkon vakautta, kun hash-nopeus muuttuu dramaattisesti
+wrong_answers:
+  - Varmistaa, että louhijoilla on riittävästi aikaa päivittää laitteistonsa ennen kuin vaikeusaste kasvaa merkittävästi
+  - Yhteensopivuuden säilyttämiseksi 32-bittisen aikaleimakentän kanssa, joka muuttuu epäluotettavaksi suuremmissa muutoksissa
+  - Jotta estetään se, että nopeat vaikeuksien muutokset häiritsevät ryhmäavustuksen puolittamisen aikataulua
+explanation: |
+  Nelinkertainen raja estää vaaralliset takaisinkytkennät, joissa äärimmäiset vaikeusasteen muutokset voivat aiheuttaa hurjia heilahteluja lukitusajoissa. Ilman tätä rajoitusta äkillinen hash-nopeuden lasku voisi aiheuttaa massiivisia vaikeusasteen vähennyksiä, jolloin lohkoista tulisi liian helppoja ja konsensus saattaisi horjua. Käänteisesti, valtavat vaikeusasteen nousut voisivat tehdä lohkoista lähes mahdottomia louhia. Rajoitus takaa asteittaiset, hallittavissa olevat mukautukset, jotka säilyttävät verkon vakauden myös mining-kieltojen kaltaisten suurten häiriöiden aikana, jolloin järjestelmä voi korjata itseään ennustettavasti useiden mukautusjaksojen aikana sen sijaan, että se aiheuttaisi kaoottisia heilahteluja.

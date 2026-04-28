@@ -8,7 +8,7 @@ description: Plan ₿ Academy'daki eğitim içeriğinin düzeltme/inceleme süre
 ## Özet olarak
 
 
-Plan ₿ Academy için içerik düzeltmek veya gözden geçirmek istiyorsanız, katkılara adanmış [Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılın. Kendinizi kısaca tanıtın, ardından gözden geçirmek istediğiniz içeriği ve dili belirtin. Düzeltmelerinizi bir çalışma dalı üzerinde yapın ve incelemeniz tamamlandığında bir PR gönderin.
+Plan ₿ Academy için içerik düzeltmek veya gözden geçirmek istiyorsanız, katkılara adanmış [Telegram grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılın. Kendinizi kısaca tanıtın, ardından gözden geçirmek istediğiniz içeriği ve dili belirtin. Düzeltmelerinizi bir çalışma dalı üzerinde yapın ve incelemeniz tamamlandığında bir PR gönderin.
 
 
 Yukarıdaki kısmı anlamadıysanız endişelenmeyin - bu eğitim sizin için!
@@ -59,14 +59,14 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Ayrıca mesajlaşma uygulamasında [Telegram] (https://telegram.org/) bir hesaba ihtiyacınız olacak.
+- Ayrıca mesajlaşma uygulamasında [Telegram](https://telegram.org/) bir hesaba ihtiyacınız olacak.
 
 
 ## 2. Telegram grubuna katılın
 
 
 
-- Telegram'da [Plan ₿ Academy Content Builder grubuna] (https://t.me/PlanBNetwork_ContentBuilder) katılın.
+- Telegram'da [Plan ₿ Academy Content Builder grubuna](https://t.me/PlanBNetwork_ContentBuilder) katılın.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -199,7 +199,7 @@ Plan ₿ Academy'de dil veya format kuralları açısından redaksiyon yaparken 
 
 
 
-- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Academy'nin GitHub deposu] (https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
+- Tebrikler, PR'niz gönderildi! İlerlemesini [Plan ₿ Academy'nin GitHub deposu](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls) üzerindeki "Çekme istekleri" sekmesinden takip edebilirsiniz:
 
 
 ![REVIEW](assets/fr/12.webp)
@@ -214,4 +214,4 @@ Plan ₿ Academy'de dil veya format kuralları açısından redaksiyon yaparken 
 
 
 
-- Bu proje hakkında herhangi bir görüşünüz, sorunuz veya yorumunuz varsa, [katkıda bulunanların Telegram grubuna] (https://t.me/PlanBNetwork_ContentBuilder) bir DM göndermekten çekinmeyin.
+- Bu proje hakkında herhangi bir görüşünüz, sorunuz veya yorumunuz varsa, [katkıda bulunanların Telegram grubuna](https://t.me/PlanBNetwork_ContentBuilder) bir DM göndermekten çekinmeyin.

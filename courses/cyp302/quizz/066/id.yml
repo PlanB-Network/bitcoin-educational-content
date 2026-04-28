@@ -6,4 +6,4 @@ wrong_answers:
   - Ia mengenkripsi pesan
 explanation: |
   Dalam skema enkripsi simetris, algoritma pembangkit kunci menghasilkan sebuah kunci privat, yang kemudian akan digunakan untuk mengenkripsi dan mendekripsi pesan.
-reviewed: false
+reviewed: true

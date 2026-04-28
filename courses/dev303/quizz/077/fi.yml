@@ -1,0 +1,8 @@
+question: Mitä tapahtuu, kun kutsut lock():a mutexille Rust:ssa, ja miksi monet kehittäjät pitävät hyväksyttävänä tämän operaation purkamista?
+answer: Se palauttaa tuloksen, joka voi epäonnistua, jos jokin toinen säie joutuu paniikkiin pitäessään mutexia hallussaan, ja purkaminen on hyväksyttävää, koska et voi kohtuudella käsitellä virheitä, jotka johtuvat muiden säikeiden paniikista
+wrong_answers:
+  - Se palauttaa vaihtoehdon Option, joka voi olla None, jos mutex on varattu, ja purkaminen on hyväksyttävää, koska varattujen mutexien pitäisi aiheuttaa ohjelman välitön lopettaminen
+  - Se palauttaa tuloksen, joka voi epäonnistua umpikujan havaitsemisen vuoksi, ja umpikujan purkaminen on hyväksyttävää, koska umpikujat osoittavat perustavanlaatuisia suunnitteluvirheitä, joiden pitäisi hätääntyä
+  - Se onnistuu aina ja palauttaa lukitussuojan suoraan, jolloin käärimisen purkaminen on tarpeetonta, koska mutex-operaatiot ovat taatusti säikeenkestäviä Rust:ssä
+explanation: |
+  Kutsuttaessa lock()-toimintoa mutexille Rust palauttaa tuloksen, koska operaatio voi epäonnistua, jos toinen säie joutuu paniikkiin pitäessään mutexia hallussaan ja jättää sen myrkytettyyn tilaan. Tämä luo ainutlaatuisen tilanteen, jossa paikallinen koodisi saa virheen jostain, joka tapahtui täysin eri säikeen kontekstissa. Koska toisen säikeen paniikissa syntynyttä virhettä ei voi kohtuudella käsitellä tai korjata, monet kehittäjät pitävät mutex-lukkojen purkamista hyväksyttävänä, erityisesti paniikittomissa koodipohjissa. Muut vaihtoehdot ovat virheellisiä, koska muteksilukot eivät palauta vaihtoehtoja varattujen tilojen osalta, niissä ei ole sisäänrakennettua lukkiutumisen havaitsemista, joka aiheuttaa Result-virheitä, ja operaatio ei aina onnistu myrkytysmekanismin vuoksi.

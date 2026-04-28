@@ -1,0 +1,8 @@
+question: Milline on peamine arhitektuuriline eelis, mis võimaldab LDK-l toimida WebAssembly'i brauseri keskkonnas, kus traditsioonilised Lightning-sõlmed ei saa töötada?
+answer: LDK süsteemivälise disaini filosoofia võimaldab tal töötada ilma otsese juurdepääsuta failisüsteemidele, võrgupesadele või entroopia allikatele
+wrong_answers:
+  - "LDK modulaarne Rust raamatukogu struktuur tagab automaatselt WebAssembly ühilduvuse tänu Rust-to-WASM kompileerimisfunktsioonidele"
+  - "LDK sündmuspõhine arhitektuur välistab vajaduse püsivate ühenduste järele ja võib toimida täielikult HTTP päring-vastuvõtt tsüklite kaudu"
+  - "LDK kergekaaluline plokiahela integratsioon vähendab mälukasutust piisavalt, et täita WebAssemblyi rangeid ressursipiiranguid ja piiranguid"
+explanation: |
+  LDK süsteemiväline disain on just see, mis võimaldab brauserite ühilduvust. Traditsioonilised Lightning-sõlmed tuginevad otsestele süsteemikõnedele võrgu, faili I/O ja juhuslikkuse jaoks, mis on WebAssembly-keskkondades turvalisuse huvides keelatud. LDK abstraheerib need sõltuvused, võimaldades arendajatel pakkuda veebilehitsejaga ühilduvaid rakendusi, kasutades WebSockets'i võrguühenduseks ja veebilehitseja APId püsivuse ja juhuslikkuse jaoks, säilitades samal ajal Lightning-protokolli täieliku vastavuse.

@@ -1,0 +1,8 @@
+question: OpenNode คืออะไร?
+answer: โซลูชันออนไลน์ที่ง่ายสำหรับธุรกิจในการรับ Bitcoin
+wrong_answers:
+  - ประเภทของโหนด Bitcoin ที่ถูกใช้งานพร้อมกันโดยผู้ใช้หลายคน
+  - ซอฟต์แวร์ Bitcoin mining ที่เป็นโอเพ่นซอร์ส
+  - แพลตฟอร์มแลกเปลี่ยน Bitcoin
+explanation: >-
+reviewed: true

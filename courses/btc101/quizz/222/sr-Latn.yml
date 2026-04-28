@@ -1,8 +1,9 @@
-question: Kako su transakcije na Lightning mreži osigurane?
-answer: Kroz kriptografiju i indirektno kroz energiju koju troše rudari na Bitkoin.
+question: Koji je centralni princip RGB-a?
+answer: Validacija na strani klijenta
 wrong_answers:
-  - Kroz korišćenje samo privatnih ključeva.
-  - Kroz korišćenje samo javnih ključeva.
-  - Kroz upotrebu samo privatnih i javnih ključeva.
-explanation: >-
-reviewed: true
+  - Globalno izvršavanje na blokčejnu
+  - Federativni konsenzus
+  - Proof-of-Work
+explanation: |
+  RGB se oslanja na lokalnu validaciju stanja, dok blokčejn služi samo kao kriptografsko sidro i zaštita od dvostruke potrošnje.
+reviewed: false

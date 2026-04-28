@@ -1,0 +1,9 @@
+question: Lightning 路由器的主要用途是什么？
+answer: 赚取路由费
+wrong_answers:
+  - 通过指路赚钱
+  - 通过出售流入的流动性赚钱
+  - 通过发布过时的频道状态赚钱
+explanation: |
+  路由器通过收取路由费来路由他人的付款。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jakie jest największe ryzyko podczas korzystania z RC<RefCell<T>> dla współdzielonego zmiennego stanu i jaki mechanizm pomaga temu zapobiec?
+answer: Cykle referencyjne powodujące wycieki pamięci, zapobiegane przez użycie słabych referencji
+wrong_answers:
+  - Wyścigi danych między wątkami, zapobiegane przez użycie Mutex zamiast RefCell
+  - Runtime wpada w panikę z powodu naruszeń zapożyczeń, którym zapobiega sprawdzanie w czasie kompilacji
+  - Przepełnienie stosu z głębokiej rekurencji, zapobiegane przez ograniczenie głębokości referencji
+explanation: |
+  Podczas korzystania z RC<RefCell<T>> głównym zagrożeniem jest tworzenie cykli referencyjnych, w których struktury danych odwołują się do siebie bezpośrednio lub poprzez łańcuchy. Cykle te zapobiegają osiągnięciu zerowej liczby odniesień, powodując wycieki pamięci, ponieważ dane wydają się zawsze mieć aktywne odniesienia. Słabe referencje rozwiązują ten problem, nie przyczyniając się do liczby referencji używanych do zarządzania pamięcią, przerywając cykle przy jednoczesnym zachowaniu połączeń. Pozostałe opcje są nieprawidłowe: RC<RefCell<T>> nie jest bezpieczny dla wątków, więc wyścigi danych nie są głównym problemem, RefCell specjalnie przenosi kontrole do czasu wykonywania, zamiast zapobiegać im w czasie kompilacji, a przepełnienie stosu nie jest związane z mechanizmem liczenia referencji.

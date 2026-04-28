@@ -14,7 +14,7 @@ U ovom vodiču otkrivamo Aurora Store, jednostavnu, open-source i sigurnu altern
 
 
 
-# Početak sa Aurora Store
+## Početak sa Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Iz Aurora Store-a možete pristupiti katalogu aplikacija dostupnih na Google Pla
 
 
 
-## Funkcije
+### Funkcije
 
 
 

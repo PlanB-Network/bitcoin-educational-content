@@ -1,0 +1,9 @@
+question: Eric Hughes'un Cypherpunk Manifestosu'na göre, hangi temel ilke cypherpunk'ları sadece gizliliğin korunmasını umanlardan ayırır?
+answer: Cypherpunklar, kurumların gizlilik sağlamasını beklemek yerine anonim sistemler oluşturmak için aktif olarak kod yazarlar
+wrong_answers:
+  - Cypherpunks, demokratik süreçler yoluyla mahremiyet haklarını tesis etmek için siyasi lobi faaliyetlerine ve yasal reformlara odaklanır
+  - Cypherpunks, gizlilik korumalarını kademeli olarak iyileştirmek için mevcut finansal kurumlar içinde çalışmaya inanmaktadır
+  - Cypherpunk'lar teknik çözümler geliştirmek yerine halkı gizlilik riskleri konusunda eğitmeye öncelik verirler
+explanation: |
+  Manifesto açıkça 'Cypherpunk'lar kod yazar' demekte ve umut ve dileklerle avunmadıklarını, olaylara aktif olarak müdahale ettiklerini vurgulamaktadır.
+  Hughes, insanların hükümetlerden, şirketlerden ya da diğer büyük kuruluşlardan gizliliği garanti etmelerini bekleyemeyeceğini, bu nedenle cypherpunk'ların kriptografik sistemleri kendilerinin inşa etmesi gerektiğini savunuyor. Kod geliştirme yoluyla bu aktif, teknik yaklaşım onları lobicilik, mevcut sistemler içinde çalışma ya da somut teknolojik çözümler yaratmadan sadece başkalarını eğitme gibi pasif yaklaşımlardan ayırmaktadır.

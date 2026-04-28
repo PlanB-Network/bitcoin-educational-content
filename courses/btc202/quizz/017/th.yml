@@ -1,0 +1,9 @@
+question: ส่วนประกอบสองอย่างใดที่ถูกแจกจ่ายพร้อมกับ Bitcoin Core ตั้งแต่เวอร์ชัน 0.5?
+answer: Bitcoin-qt และ bitcoind
+wrong_answers:
+  - bitcoin-cli และ Bitcoin-gui
+  - Bitcoin-Miner และ Bitcoin-Wallet
+  - Bitcoin-core และ Bitcoin-node
+explanation: |
+  ตั้งแต่เวอร์ชัน 0.5, Bitcoin Core รวมถึง Interface แบบกราฟิก (Bitcoin-qt) และ Interface แบบบรรทัดคำสั่ง (bitcoind)
+reviewed: true

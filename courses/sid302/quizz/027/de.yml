@@ -1,0 +1,8 @@
+question: Welcher kryptografische Mechanismus ermöglicht in der Blinding-Architektur von Blockstream AMP die Verschlüsselung von Vermögenswerten bei gleichzeitiger Überprüfung der Gültigkeit von Transaktionen?
+answer: Diffie-Hellman-Schlüsselaustausch mit elliptischer Kurve und Bereichsnachweisen, die die Gültigkeit von Transaktionen überprüfen, ohne verschlüsselte Werte offenzulegen
+wrong_answers:
+  - SNARKs mit Null-Wissen und Verpflichtungsschemata, die Transaktionsbeträge verbergen und gleichzeitig die Integrität der Berechnungen beweisen
+  - Ringsignaturen mit Stealth-Adressen, die die Identität des Absenders verschleiern und gleichzeitig die kryptografische Überprüfbarkeit aufrechterhalten
+  - Homomorphe Verschlüsselung mit Merkle-Baum-Verpflichtungen, die mathematische Operationen mit verschlüsselten Transaktionsdaten ermöglichen
+explanation: |
+  AMP verwendet den ECDH-Schlüsselaustausch, bei dem die Absender die Beträge von Vermögenswerten mit den verdeckten öffentlichen Schlüsseln der Empfänger verschlüsseln und Reichweitenbeweise erzeugen, die die Gültigkeit von Transaktionen mathematisch überprüfen, ohne die Werte offenzulegen. Dies unterscheidet sich von SNARKs (rechnerische Beweise), Ringsignaturen (Fokus auf Anonymität) oder homomorpher Verschlüsselung (Berechnung auf verschlüsselten Daten) - AMP benötigt speziell vertrauliche, aber überprüfbare Transaktionen.

@@ -4,7 +4,7 @@ description: Acceptez des paiements en bitcoins et convertissez-les en devise lo
 ---
 ![cover](assets/cover.webp)
 
-Rendre le Bitcoin utilisable par tous passe également par montrer son utilité et en quoi il s'intègre parfaitement dans votre activité.  Quoi de mieux que de montrer la puissance de Bitcoin par le fait qu'il vous permet d'encaisser des paiements tout au tour du globe?  Dans ce tutoriel, nous partons à la découverte de IbexPay, une plateforme simple qui vous permet d'intégrer bitcoin comme moyen de paiement aussi bien dans votre magasin physique que sur votre plateforme e-commerce.
+Rendre le Bitcoin utilisable par tous, passe également par montrer son utilité et en quoi il s'intègre parfaitement dans votre activité.  Quoi de mieux que de montrer la puissance de Bitcoin par le fait qu'il vous permet d'encaisser des paiements tout au tour du globe?  Dans ce tutoriel, nous partons à la découverte de IbexPay, une plateforme simple qui vous permet d'intégrer bitcoin comme moyen de paiement aussi bien dans votre magasin physique que sur votre plateforme e-commerce.
 
 ## Débuter avec IbexPay
 
@@ -28,7 +28,7 @@ IbexPay est une plateforme minimaliste et fluide qui vous permet de configurer e
 
 Après votre connexion, le tableau de bord vous présente une vue d'ensemble personnalisable sur les données des encaissements de votre commerce.
 
-A partir de ce tableau de bord, vous pouvez :
+À partir de ce tableau de bord, vous pouvez :
 
 - Consulter l'historique des transactions sur une période journalière, mensuelle, annuelle ou sur une période personnalisée ;
 - Exporter l'historique sous un format excel (CSV) pour la comptabilité ;

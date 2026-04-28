@@ -6,3 +6,4 @@ wrong_answers:
   - Kode Otentikasi Pesan (MAC)
 explanation: |
   Tanda tangan digital dalam Bitcoin membuktikan kepemilikan dana dengan menandatangani transaksi menggunakan kunci privat untuk membuka skrip yang mengamankan sebuah UTXO.
+reviewed: true

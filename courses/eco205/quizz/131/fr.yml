@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quel est le rôle principal du taux d'intérêt dans l'allocation des ressources économiques?
+answer: Il permet d'allouer les ressources dans le temps en coordonnant les préférences temporelles individuelles
+wrong_answers:
+  - Il régule uniquement la répartition spatiale des ressources entre les différents secteurs économiques
+  - Il détermine exclusivement le niveau des prix des biens de consommation sur les marchés
+  - "Il contrôle principalement la vitesse de circulation de la monnaie dans l'économie nationale"
+explanation: |
+  Le taux d'intérêt joue un rôle unique de coordination intertemporelle selon l'école autrichienne. Contrairement aux prix ordinaires qui allouent les ressources dans l'espace, le taux d'intérêt permet d'allouer les ressources dans le temps en reflétant les préférences temporelles agrégées des individus. Il coordonne ainsi l'épargne, l'investissement et la consommation entre le présent et le futur, ce qui en fait un mécanisme fondamental différent des autres prix économiques.

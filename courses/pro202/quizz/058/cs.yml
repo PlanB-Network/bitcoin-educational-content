@@ -1,0 +1,8 @@
+question: Proč je při skenování bloků Bitcoin wallet pro příchozí platby upřednostňováno stahování celých bloků před vyžádáním jednotlivých transakcí od síťových partnerů?
+answer: Stahování celých bloků poskytuje lepší ochranu soukromí, protože neprozrazuje, které konkrétní transakce nebo adresy wallet sleduje
+wrong_answers:
+  - Stahování celých bloků je výpočetně efektivnější, protože vyžaduje méně kryptografických operací hash k ověření pravosti transakce
+  - Stahování celých bloků zajišťuje rychlejší synchronizaci, protože peeři mohou posílat komprimovaná data bloků, nikoli odpovědi na jednotlivé transakce
+  - Stahování celých bloků poskytuje lepší zabezpečení, protože umožňuje wallet ověřit kompletní proof-of-work pro každou transakci
+explanation: |
+  Klíčovou výhodou blokového vyhledávání je soukromí. Když si wallet vyžádá konkrétní transakce, uniknou silné signály o aktivitě uživatele a prozradí, které adresy patří tomuto wallet. Stahování celých bloků maskuje skutečné zájmy wallet mezi všemi blokovými transakcemi. Špatné odpovědi se zaměřují na efektivitu, rychlost nebo bezpečnostní výhody, které nejsou hlavní motivací - jednotlivé požadavky na transakce by teoreticky mohly být stejně bezpečné nebo efektivní, ale zásadně ohrožují soukromí tím, že prozrazují vzorce sledování wallet kolegům v síti.

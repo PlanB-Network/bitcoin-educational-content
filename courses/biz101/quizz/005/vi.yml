@@ -1,9 +1,9 @@
-question: Một đặc điểm xác định của Bitcoin như một mạng lưới tiền tệ là gì?
-answer: Nó giống như tiền mặt và không cần cơ quan trung ương hoặc trung gian để giao dịch.
+question: Một đặc điểm của Bitcoin xác định nó như một mạng lưới tiền tệ là gì?
+answer: Bitcoin giống như tiền mặt và không cần cơ quan trung ương hoặc trung gian để giao dịch.
 wrong_answers:
-  - Nó chỉ có thể hoạt động khi được cơ quan chính phủ cho phép.
-  - Nó phát hành đơn vị tiền tệ mới theo yêu cầu của bất kỳ người dùng nào.
-  - Cần có ngân hàng để xác minh và giải quyết mọi giao dịch.
+  - Bitcoin chỉ có thể hoạt động khi được cơ quan chính phủ cho phép.
+  - Bitcoin có thể phát hành các đơn vị tiền tệ mới theo yêu cầu của bất kỳ người dùng nào.
+  - Bitcoin cần có ngân hàng để xác minh và giải quyết mọi giao dịch.
 explanation: |
   Bitcoin hoạt động như một mạng lưới phi tập trung, cho phép bất kỳ ai cũng có thể tham gia mà không cần xin phép. Các giao dịch được xác thực bởi các nút và thợ đào, chứ không phải bởi một cơ quan trung ương.
 reviewed: true

@@ -1,0 +1,9 @@
+question: BIP-34:n jälkeen, mitä coinbase-transaktion scriptSig-kentän alussa on oltava?
+answer: Lohkon korkeus
+wrong_answers:
+  - Louhijan hashrate
+  - Vaikeustustavoite
+  - Lohkon sormenjälki
+explanation: |
+  BIP-34 velvoittaa lohkon korkeuden merkitsemisen coinbase-transaktion scriptSig-kenttään.
+reviewed: false

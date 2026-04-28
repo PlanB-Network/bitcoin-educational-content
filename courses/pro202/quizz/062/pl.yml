@@ -1,0 +1,8 @@
+question: Dlaczego w stosie świadków transakcji P2WSH dla multisig 2 na 3 na dole stosu świadków musi znajdować się pusty element?
+answer: Aby zrekompensować błąd CHECKMULTISIG off-by-one, który zużywa dodatkowy element stosu podczas wykonywania
+wrong_answers:
+  - "Aby zapewnić symbol zastępczy dla trzeciego podpisu, który nie został użyty w walidacji multisig 2 na 3"
+  - Aby oddzielić dane podpisu od skryptu poświadczającego w celu prawidłowego przeanalizowania walidacji SegWit
+  - Aby zapewnić, że stos świadków ma parzystą liczbę elementów w celu efektywnej konstrukcji drzewa merkle
+explanation: |
+  Kod operacyjny CHECKMULTISIG ma historyczny błąd, w którym wyskakuje jeden dodatkowy element ze stosu ponad to, czego powinien potrzebować. Ma to wpływ na wszystkie transakcje multisig, w tym P2WSH. Pusty element kompensuje ten błąd, zapewniając, że pozostałe elementy stosu (podpisy i skrypt świadka) są prawidłowo ustawione do walidacji. Pozostałe opcje są nieprawidłowe: nieużywane podpisy nie są reprezentowane przez puste elementy, parsowanie świadków nie wymaga elementów separujących, a stosy świadków nie wymagają równej liczby elementów dla operacji merkle.

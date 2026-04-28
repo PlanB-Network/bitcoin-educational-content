@@ -1,5 +1,5 @@
 ---
-name: Tiếng ầm ầm Wallet
+name: Rumble Wallet
 description: Tham gia cùng những người sáng tạo bảo vệ quyền tự do ngôn luận thông qua quyền tự do tài chính.
 ---
 

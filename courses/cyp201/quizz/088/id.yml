@@ -6,4 +6,4 @@ wrong_answers:
   - 0x00
 explanation: |
   Awalan 0x03 menunjukkan kunci publik terkompresi dengan koordinat y ganjil.
-ditinjau: false
+reviewed: true

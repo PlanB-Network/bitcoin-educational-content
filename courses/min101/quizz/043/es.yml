@@ -1,0 +1,9 @@
+question: Entre mediados de 2010 y mediados de 2011, ¿por qué factor se multiplicó la dificultad de minería?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Se produjo una multiplicación por 1.000 en este periodo, sobre todo debido al uso de GPUs.
+reviewed: false

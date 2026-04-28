@@ -1,0 +1,9 @@
+question: Was bedeutet die Node-ID eines Lightning-Knotens?
+answer: Öffentlicher Schlüssel und Adresse des Knotens
+wrong_answers:
+  - Knoten seed und Adresse
+  - Knotenalias und öffentlicher Schlüssel
+  - Hash Knotenalias und seed
+explanation: |
+  Die Knoten-ID kombiniert den öffentlichen Schlüssel des Knotens mit seiner Netzwerkadresse und seinem Port.
+reviewed: false

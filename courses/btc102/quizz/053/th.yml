@@ -1,0 +1,9 @@
+question: บริการใดที่แสดงรายชื่อร้านค้าที่รับบิตคอยน์ทั่วโลก?
+answer: BTC Map
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin พูดคุย
+  - Swiss Bitcoin Pay
+explanation: |
+  BTC Map เป็นแพลตฟอร์มเฉพาะที่ค้นหาผู้ค้าที่รับบิตคอยน์ทั่วโลก
+reviewed: false

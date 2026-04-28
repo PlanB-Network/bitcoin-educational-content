@@ -218,7 +218,7 @@ que se compone de :
 
 
 
-Consejo: Utilice la herramienta [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) para generate el script automáticamente. Aunque esta herramienta sugiera introducir la cantidad en BTC, mantenga la unidad configurada en Electrum.
+Consejo: Utilice la herramienta [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) para generate el script automáticamente. Aunque esta herramienta sugiera introducir la cantidad en BTC, mantenga la unidad configurada en Electrum.
 
 
 

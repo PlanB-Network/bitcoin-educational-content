@@ -681,7 +681,7 @@ W programie Graylog kliknij "**System**" w menu, a następnie "**Indeksy**". Na 
 
 
 
-Nazwij ten indeks, na przykład "**Linux Index**", dodaj opis i prefiks przed potwierdzeniem. Tutaj będziemy **przechowywać wszystkie logi Linux w tym indeksie**. Możliwe jest również utworzenie określonych indeksów do przechowywania tylko niektórych dzienników (tylko dzienniki [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), dzienniki usług internetowych itp.)
+Nazwij ten indeks, na przykład "**Linux Index**", dodaj opis i prefiks przed potwierdzeniem. Tutaj będziemy **przechowywać wszystkie logi Linux w tym indeksie**. Możliwe jest również utworzenie określonych indeksów do przechowywania tylko niektórych dzienników (tylko dzienniki [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), dzienniki usług internetowych itp.)
 
 
 

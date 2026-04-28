@@ -1,9 +1,9 @@
-question: Lightning Network được xác thực và triển khai lần đầu vào năm nào?
-answer: 2017
+question: Tại sao một kênh Lightning có thể không sử dụng được theo một chiều?
+answer: Không đủ thanh khoản
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Khối quá mới
+  - HTLC đã hết hạn
+  - Nút chưa đồng bộ
 explanation: |
-  Lightning Network được xác thực và triển khai lần đầu vào năm 2017.
-reviewed: true
+  Ngay cả với dung lượng lớn, một kênh chỉ cho phép thanh toán nếu có đủ thanh khoản ở phía phù hợp.
+reviewed: false

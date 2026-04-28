@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: Formato de codificación binaria estándar utilizado para las firmas ECDSA en Bitcoin.
 ---
 
 Acrónimo de *Reglas de codificación diferenciadas*. Se trata de un subconjunto estricto de las reglas de codificación ASN.1 definidas en la especificación [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) y utilizadas para codificar cualquier tipo de datos en una secuencia binaria. DER se utiliza principalmente en campos específicos, como la criptografía, donde los datos deben codificarse de forma estándar y predecible.

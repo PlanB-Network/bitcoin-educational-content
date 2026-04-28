@@ -1,0 +1,9 @@
+question: Milline väide on mempooli kohta õige?
+answer: Igal sõlmel on oma mempool
+wrong_answers:
+  - On olemas üks ainus mempool
+  - Mempool on fail, mis sisaldub igas blokis
+  - Mempool on keskserver
+explanation: |
+  Mempool on igale sõlmele lokaalne, seega võib selle sisu sõlmiti erineda sõltuvalt reeglitest, mida igaüks rakendab.
+reviewed: false

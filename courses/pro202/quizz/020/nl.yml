@@ -1,0 +1,8 @@
+question: Welk wiskundig probleem vormt de basis voor de veiligheid van ECDSA-handtekeningen in Bitcoin?
+answer: Het elliptische kromme discrete logaritme probleem
+wrong_answers:
+  - Het integer factorisatieprobleem
+  - Het kwadratische residuprobleem
+  - Het hash botsingsprobleem
+explanation: |
+  De veiligheid van ECDSA berust op het elliptische discrete logaritmeprobleem: gegeven P = eG, is het berekenen van P uit e en G eenvoudig, maar het afleiden van de privésleutel e uit de openbare sleutel P is rekenkundig niet haalbaar. Deze wiskundige eenrichtingsrelatie maakt veilige openbare sleutelcryptografie mogelijk met kleinere sleutelgroottes dan RSA, dat afhankelijk is van gehele factorisatie.

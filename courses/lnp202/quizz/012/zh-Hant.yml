@@ -1,0 +1,9 @@
+question: LN 板載節點的主要折衷方案是什麼？
+answer: 操作員依賴性
+wrong_answers:
+  - 遺失私人密碼匙
+  - 無自我監護
+  - 所有 Lightning 交易必須使用 Onchain 付款
+explanation: |
+  使用者在連線和頻道管理上嚴重依賴主要營運商。
+reviewed: false

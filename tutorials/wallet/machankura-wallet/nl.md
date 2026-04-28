@@ -80,18 +80,19 @@ Machankura is een dienst die is ontwikkeld en vervolgens gekoppeld aan een GSM-c
 
 
 
-| PAYS           | CODE USSD              |
+
+| LAND           | USSD-CODE              |
 | -------------- | ---------------------- |
 | Ghana          | `*920*8333#`           |
-| Kenya          | `*483*8333#`           |
+| Kenia          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
+| Namibië        | `*142*8333#`           |
 | Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Zuid-Afrika | `54052.co.za`          |
+| Tanzania       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambia         | `*384*8333#`           |
+| Ivoorkust  | `*9141#`               |
 
 Op basis van deze tabel kunnen we zien dat landen zoals Tanzania, Oeganda en Zuid-Afrika geen specifieke USSD-code voor de dienst hebben.
 
@@ -101,7 +102,7 @@ Machankura pakt dit probleem echter aan door de functionaliteit uit te breiden v
 
 
 
-Raadpleeg regelmatig hun [website] (https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
+Raadpleeg regelmatig hun [website](https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
 
 
 
@@ -370,7 +371,7 @@ De tweede, die een logische uitbreiding is van de eerste, is een inclusieve en l
 
 
 
-Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720] (https://wa.me/+27737625720).
+Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

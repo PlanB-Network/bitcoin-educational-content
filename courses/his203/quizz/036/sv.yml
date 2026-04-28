@@ -1,0 +1,10 @@
+question: Vad innebär "poolhopping" för en gruvarbetare som delegerar sin hashfrekvens till en mining-pool?
+answer: Koppla bort från en mining-pool när ett visst antal aktier har lämnats in i en cykel och omdirigera datorkraft till ditt eget konto eller till en annan mining-pool
+wrong_answers:
+  - Anta ett bandbreddsintensivt kommunikationsprotokoll för att interagera med mining-poolen i syfte att minska föråldrade aktier genom att effektivisera tillkännagivandet av nya block
+  - Genomföra flera fiktiva transaktioner inom mining-poolen för att simulera en överföring av äganderätten till bitcoin och öka de delegerade gruvarbetarnas sekretess
+  - Skriva namnet på mining-poolen i inmatningsfältet för belöningstransaktionen för det utvunna blocket, för att göra driften av mining-pooler mer transparent
+explanation: |
+ Denna metod beskrevs av Raulo i februari 2011, som uppskattade att en individ kunde få 28% fler bitcoins på detta sätt. Det motiverade införandet av
+ en "anti-fusk"-poäng inom Slush-kooperativet.
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - Transaksjonsgebyrer blir brent under behandlingen, noe som gradvis reduserer den tilgjengelige bitcoin-beholdningen
   - "Bitcoin-protokollen låser automatisk mynter som ikke har beveget seg i lengre perioder for å forhindre inflasjon"
 explanation: |
-  Kapitlet forklarer at selv om det teoretiske maksimumet er ca. 20 999 817 BTC, er den faktiske anvendelige forsyningen mye lavere på grunn av menneskelige feil og tap. Tapte private nøkler gjør bitcoins permanent utilgjengelige, lommebøker blir stjålet eller glemt, og mynter blir noen ganger sendt til ugyldige adresser. Disse faktorene skaper en permanent reduksjon i tilbudet som kommer de gjenværende innehaverne til gode, ettersom Satoshi bemerket at tapte mynter gjør alle andres mynter mer verdt.
+  Selv om det teoretiske maksimumet er 20 999 999.9769 BTC, er den reelt brukbare tilførselen langt lavere på grunn av menneskelige feil og tap. Tapte private nøkler gjør bitcoins permanent utilgjengelige, lommebøker blir stjålet eller glemt, og mynter sendes av og til til ugyldige adresser. Disse faktorene fører til en varig reduksjon i tilførselen som kommer de gjenværende innehaverne til gode, slik Satoshi påpekte: tapte mynter øker verdien av andres mynter.
 reviewed: false

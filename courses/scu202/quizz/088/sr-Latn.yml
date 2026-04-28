@@ -1,9 +1,9 @@
-question: Koji menadžer lozinki otvorenog koda vam omogućava da čuvate svoje akreditive lokalno bez potrebe za oblakom?
+question: Koji menadžer lozinki otvorenog koda vam omogućava da čuvate svoje kredencijale lokalno bez potrebe za cloud-om?
 answer: KeePassDX
 wrong_answers:
   - LastPass
   - NordPass
   - Google Menadžer Lozinki
 explanation: |
-  KeePassDX radi na osnovu šifrovanih lokalnih fajlova, bez potrebe za oblakom ili pretplatom na centralizovanu uslugu.
-reviewed: false
+  KeePassDX radi na osnovu šifrovanih lokalnih fajlova, bez potrebe za cloud-om ili pretplatom na centralizovanu uslugu.
+reviewed: true

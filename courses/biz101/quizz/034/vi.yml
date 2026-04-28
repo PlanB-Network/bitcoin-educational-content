@@ -1,9 +1,9 @@
-question: Xu hướng nào được ghi nhận ở những người tham gia vận hành các nút trên Lightning Network?
-answer: Các nhà điều hành nút chuyên nghiệp ngày càng cung cấp tính thanh khoản, trong khi người dùng cá nhân tập trung vào các nút "biên", thay đổi thành phần của mạng.
+question: Xu hướng của những người tham gia vận hành các nút trên Lightning Network (mạng Lightning) như thế nào?
+answer: Những người tham gia vận hành nút chuyên nghiệp cung cấp tính thanh khoản ngày càng tăng, trong khi người dùng cá nhân tập trung vào các nút đơn giản hoá dần thay đổi thành phần của mạng lưới.
 wrong_answers:
-  - Những người chơi cá nhân đã thay thế hoàn toàn những người chơi chuyên nghiệp.
+  - Những người tham gia cá nhân đã thay thế hoàn toàn những người tham gia chuyên nghiệp.
   - Các ngân hàng lớn hiện đang vận hành tập trung tất cả các nút Lightning.
   - Mạng đã đóng các nút cá nhân để chỉ cho phép các tập đoàn lớn tham gia.
 explanation: |
-  Có xu hướng chuyển sang tính thanh khoản và ổn định hơn do các tổ chức chuyên nghiệp cung cấp, trong khi người dùng thông thường dựa vào các giải pháp đơn giản hóa hoặc lưu trữ, giúp mạng lưới mạnh mẽ và dễ tiếp cận hơn.
+  Tính thanh khoản có xu hướng ổn định hơn và do các tổ chức chuyên nghiệp cung cấp, trong khi người dùng thông thường dựa vào các giải pháp đơn giản hóa hoặc lưu trữ, giúp mạng lưới dễ tiếp cận và mạnh mẽ hơn.
 reviewed: true

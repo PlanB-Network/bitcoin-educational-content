@@ -1,0 +1,9 @@
+question: Jaki mechanizm rozszerza przestrzeń wyszukiwania, gdy 32-bitowy nonce zostanie wyczerpany?
+answer: Extra-nonce
+wrong_answers:
+  - Super-nonce
+  - Coinbase-nonce
+  - Double-nonce
+explanation: |
+  Modyfikując extra-nonce w scriptSig transakcji coinbase, zmienia się korzeń Merkle, a tym samym nagłówek.
+reviewed: false

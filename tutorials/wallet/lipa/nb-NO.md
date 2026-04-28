@@ -31,7 +31,7 @@ Viktige funksjoner inkluderer:
 Det første trinnet er å laste ned Lipa-appen. For øyeblikket er den bare tilgjengelig på iOS :
 
 
-- [For Apple] (https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
+- [For Apple](https://apps.apple.com/app/lipa-bitcoin-lightning/id1602180066)
 
 Android-versjonen er under utvikling og vil snart være tilgjengelig.
 
@@ -158,5 +158,5 @@ Lipa er et utmerket valg for å komme i gang med Lightning-nettverket, og egner 
 ## Ressurser
 
 
-- [Lipas offisielle nettside] (https://lipa.swiss/)
-- [Lipa-støtte] (https://getlipa.atlassian.net/servicedesk/customer/portal/1)
+- [Lipas offisielle nettside](https://lipa.swiss/)
+- [Lipa-støtte](https://getlipa.atlassian.net/servicedesk/customer/portal/1)

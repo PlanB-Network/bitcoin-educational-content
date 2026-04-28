@@ -1,0 +1,8 @@
+question: Ni makubaliano gani ya msingi ambayo wawekezaji wanapaswa kukubali wanaposhiriki katika mifumo ikolojia ya mali ya Blockstream AMP ikilinganishwa na miamala ya kawaida ya Liquid Network?
+answer: Mwonekano kamili wa umiliki wao na historia ya miamala kwa mtoaji wa mali licha ya kudumisha faragha kutoka kwa watumiaji wengine
+wrong_answers:
+  - Ada za juu za miamala kutokana na gharama za ziada za kompyuta zinazohitajika kwa ajili ya mifumo ya uidhinishaji wa kusaini pamoja
+  - Kasi ya miamala imepunguzwa kwa sababu uhamisho wote lazima uthibitishwe kupitia seva kuu za kufuata sheria kabla ya uthibitisho.
+  - Uhamisho mdogo wa mali kwa kuwa tokeni za AMP zinaweza kutumwa tu kwa pochi zilizoidhinishwa awali ndani ya mamlaka sawa ya udhibiti
+explanation: |
+  Jibu sahihi linabainisha maelewano ya msingi ya faragha ya AMP: huku Confidential Transactions ikidumisha faragha ya mtumiaji kwa mtumiaji, mali za AMP huruhusu watoaji kukamilisha mwonekano wa unblinded kwa kufuata kanuni. Majibu yasiyo sahihi yanaelezea vikwazo vya uendeshaji (ada, kasi, uhamishaji) badala ya maelewano ya msingi ya uwazi ambayo hutofautisha AMP na mfumo wa kawaida wa siri wa Liquid.

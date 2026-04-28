@@ -1,0 +1,8 @@
+question: Qual é o mecanismo fundamental que permite ao RC permitir a propriedade múltipla, mantendo a segurança da memória?
+answer: Um contador interno que regista referências e liberta memória apenas quando o contador chega a zero
+wrong_answers:
+  - Uma análise de tempo de compilação que verifica todos os padrões de referência antes da execução do programa
+  - Um coletor de lixo que analisa e limpa periodicamente as atribuições de memória inacessíveis
+  - Um sistema baseado em bloqueios que sincroniza o acesso entre vários proprietários dos mesmos dados
+explanation: |
+  O RC mantém um contador de referência interno que aumenta quando clonado e diminui quando descartado, garantindo que a memória só seja liberada quando não houver mais referências. Isso difere da análise em tempo de compilação (que o Box usa), coleta de lixo (que o Rust não emprega), ou mecanismos de bloqueio (que são usados para sincronização de thread, não para rastreamento de propriedade). A abordagem baseada em contador permite a propriedade compartilhada segura sem a sobrecarga de tempo de execução da coleta de lixo ou as restrições de propriedade única.

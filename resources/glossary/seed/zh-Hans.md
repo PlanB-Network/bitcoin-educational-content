@@ -1,5 +1,6 @@
 ---
-term: 谷物
+term: 种子
+definition: 允许生成HD比特币钱包所有密钥的512位信息。
 ---
 
 在 Bitcoin 分层确定性组合的特定情况下，seed 是来自随机事件的 512 位信息。它用于为 Bitcoin 组合确定性地分级 generate 一套私钥及其相应的公钥。seed 经常与恢复短语本身混淆。但这不是一回事。seed 是通过对 Mnemonic 短语和任何 passphrase 应用 `PBKDF2` 函数得到的。

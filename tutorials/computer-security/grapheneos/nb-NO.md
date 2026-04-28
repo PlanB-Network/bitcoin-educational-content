@@ -92,7 +92,7 @@ _Du vil kanskje også ta det ekstra, valgfrie, men anbefalte steget med å verif
 Video som detaljerer de enkle stegene nevnt ovenfor
 
 
-Hvis disse enkle stegene virker som et skritt for langt, kan du vurdere å kjøpe en Pixel med GrapheneOS-programvaren [forhåndsinstallert](https://ronindojo.io/en/roninmobile). Vær bare klar over at du legger en liten mengde tillit i leverandøren.
+Hvis disse enkle stegene virker som et skritt for langt, kan du vurdere å kjøpe en Pixel med GrapheneOS-programvaren forhåndsinstallert (det finnes selskaper som selger dem). Vær bare klar over at du legger en liten mengde tillit i leverandøren.
 
 ### Forhåndsinstallerte apper
 
@@ -215,10 +215,10 @@ I de siste årene har det blitt rikelig med løsninger for kryptert meldingsutve
 
 De fleste som ikke er interessert i privatlivsrommet, vil sannsynligvis bruke WhatsApp eller iMessage. Førstnevnte kan lastes ned via Aurora Store, men sistnevnte kommer ikke til å fungere på GrapheneOS (åpenbart!).
 
-- [Signal](https://signal.org/) er en av de mer populære meldingstjenestene med ende-til-ende-kryptering (E2EE) som har et sterkt rykte og rikt funksjonssett. Signal krever et telefonnummer for registrering, så hvis du planlegger å chatte med folk som du heller ikke vil skulle kjenne ditt telefonnummer, kanskje se på noen av alternativene. Signal må lastes ned via Aurora Store.
+- [Signal](https://signal.org/) er en av de mer populære meldingstjenestene med ende-til-ende-kryptering (E2EE) som har et sterkt rykte og rikt funksjonssett. Signal krever et telefonnummer for registrering, så hvis du planlegger å chatte med folk som du heller ikke vil skulle kjenne ditt telefonnummer, kanskje se på noen av alternativene **_[eller skjul nummeret ditt i profilinnstillingene](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal må lastes ned via Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) er en ganske ny E2EE-meldingstjeneste. Den krever ingen bruker-ID, telefonnummer eller personlig informasjon. Folk finner deg ved å skanne din personlige QR-kode eller ved å besøke din unike lenke. Simplex lar også avanserte brukere kjøre sin egen server for ytterligere å redusere avhengigheten av enhver sentralisert enhet. Simplex har ikke en skrivebordsklient, så det kan ikke være egnet hvis fler-enhetsbruk er på prioriteringslisten din. Simplex for Android er tilgjengelig via F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) tilbyr en lignende opplevelse som Simplex, men har vært rundt lenger og som et resultat, føles litt mer polert. Threema er ikke gratis, en livstidslisens koster $4.99 og kan kjøpes med Bitcoin. Threema tilbyr en webklient og native skrivebordsapplikasjoner. Android-applikasjonen er tilgjengelig via F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) er en uoffisiell FOSS-fork av den offisielle Telegram-appen for Android. Telegram har E2EE 'hemmelige chatter', men standardalternativet er ikke privat. Telegram FOSS kan lastes ned fra F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) er en uoffisiell FOSS-fork av den offisielle Telegram-appen for Android. Telegram har E2EE 'hemmelige chatter', men standardalternativet er ikke privat. Mercurygram kan lastes ned fra F-Droid.
 
 ![bilde](assets/fr/9.webp)
 Venstre: Threema; Høyre: Simplex
@@ -235,14 +235,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 ### Media
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) er en plattformuavhengig Spotify-klient som ikke krever en Premium-konto. Spotube er tilgjengelig via F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) er en fantastisk applikasjon for å strømme all musikk fra YouTube Music, gratis. ViMusic er tilgjengelig fra F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) tilbyr en YouTube-opplevelse uten irriterende reklamer og tvilsomme tillatelser. Med NewPipe kan du abonnere på kanaler, lytte i bakgrunnen og til og med laste ned for offline visning. NewPipe er tilgjengelig via F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) er en podcast-spiller som lar deg abonnere og administrere alle dine favorittprogrammer. AntennaPod er tilgjengelig via F-Droid.
 
 ![bilde](assets/fr/11.webp)
 
 Venstre: Spotube
-Høyre: ViMusic
+Spotube
 
 ### Kart
 
@@ -270,7 +269,7 @@ Høyre: Tutanota
 
 ### Produktivitet
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) er et filsynkroniseringsprogram. Det synkroniserer filer mellom to eller flere enheter i sanntid, trygt beskyttet fra nysgjerrige øyne. Dine data er dine egne, og du fortjener å velge hvor de lagres, om de deles med en tredjepart, og hvordan de overføres over internett. Syncthing er tilgjengelig via F-Droid.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) er en fork av filsynkroniseringsprogrammet. Det synkroniserer filer mellom to eller flere enheter i sanntid, trygt beskyttet fra nysgjerrige øyne. Dine data er dine egne, og du fortjener å velge hvor de lagres, om de deles med en tredjepart, og hvordan de overføres over internett. Syncthing Fork er tilgjengelig via F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) kobler sammen alle enhetene dine slik at de enkelt kan kommunisere med hverandre når de er koblet til hjemmenettverket ditt. Send enkelt filer, bilder, utklippstavledata på tvers av alle enhetene dine (også på iOS!). KDE Connect kan lastes ned fra F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) er en E2EE notatapplikasjon for å synkronisere tankene dine og gjøremålslistene på tvers av alle enhetene dine. Deres gratisplan burde dekke de fleste personlige brukstilfeller. Notesnook er tilgjengelig på F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) er veldig lik Notesnook, men krever en betalt plan for å matche funksjonssettet. Standard Notes er tilgjengelig gjennom F-Droid.
@@ -284,13 +283,13 @@ Høyre: KDE Connect
 
 ### Livsstil
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) er en vakkert designet Open Source værapp tilgjengelig via F-Droid. Den støtter også mange forskjellige størrelser på widgets slik at du kan se været på ditt valgte sted rett fra hjemmeskjermen din.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) er en funksjonsrik open source værapp med Material 3 Expressive-grensesnitt; den tilbyr gjennomtenkte visualiseringer, prognoser, sanntidsforhold, luftkvalitet, pollen, værvarsler fra over 50 kilder.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) er en Open Source og personvernbevarende oversettelsesapp som støtter mer enn 200 språk. Translate You er tilgjengelig via F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) er enkel å bruke E2EE som samhandler sømløst med dine Proton e-postkontoer. Proton Calendar kan lastes ned som en APK eller via Aurora-butikken.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) er en app for å vise og lagre ombordstigningskort, kuponger, kinobilletter og medlemskort osv. Last ned den relevante `pkpass` eller `espass` filen og åpne med appen. PassAndroid er tilgjengelig via F-Droid.
 
 ![bilde](assets/fr/19.webp)
-Venstre: Geometric Weather
+Venstre: Breezy Weather
 Høyre: Proton Calendar
 
 ### Sikkerhet/Personvern
@@ -299,7 +298,7 @@ Høyre: Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) tilbyr en lignende gratis tjeneste som Bitwarden, men [Proton Unlimited](https://proton.me/pricing) kunder kan få tilgang til ytterligere avanserte funksjoner. Proton Pass er tilgjengelig via APK eller Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) er en tofaktor-autentiseringsapplikasjon for systemer som bruker engangspassordprotokoller. Token kan enkelt legges til ved å skanne en QR-kode. FreeOTP er tilgjengelig via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) er en gratis, sikker og Open Source-app for Android for å håndtere dine 2-trinns verifiseringstoken for dine nettjenester. Aegis er tilgjengelig via F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) er en betalt, plattformuavhengig tjeneste som krypterer dataene dine lokalt slik at du trygt kan laste dem opp til din favoritt skytjeneste. Cryptomator kan lastes ned via F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) er en gratis plattformuavhengig tjeneste (_betalt kun via Google Play på Android_) som krypterer dataene dine lokalt slik at du trygt kan laste dem opp til din favoritt skytjeneste. Cryptomator kan lastes ned via F-Droid.
 
 ![bilde](assets/fr/21.webp)
 Venstre: Proton Pass

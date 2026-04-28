@@ -12,7 +12,7 @@ Já tem:
 
 
 - Escolha um tema para o seu tutorial;
-- Contactou a equipa do Plano ₿ Network através do [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
+- Contactou a equipa do Plano ₿ Network através do [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network ;
 - Escolha as suas ferramentas de contribuição.
 
 Neste tutorial para usuários experientes do Git, vamos resumir brevemente as principais etapas e diretrizes essenciais para oferecer um novo tutorial Plan ₿ Academy. Se você não estiver familiarizado com o Git e o GitHub, recomendo que você siga um desses outros 2 tutoriais mais detalhados que o levarão passo a passo:
@@ -61,7 +61,7 @@ Para criar diagramas e imagens:
 ### 1 - Configurar o seu ambiente local
 
 
-- Tem de ter a sua própria bifurcação do repositório [Plan ₿ Academy no GitHub] (https://github.com/PlanB-Network/bitcoin-educational-content).
+- Tem de ter a sua própria bifurcação do repositório [Plan ₿ Academy no GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 - Sincroniza o ramo principal (`dev`) da sua bifurcação com o repositório de código fonte.
 - Actualize o seu clone local.
 
@@ -305,4 +305,4 @@ print("Hello, Bitcoin!")
         - Preto: `#000000`
         - Branco: `#FFFFFF`
 
-Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!
+Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições](https://t.me/PlanBNetwork_ContentBuilder). Muito obrigado!

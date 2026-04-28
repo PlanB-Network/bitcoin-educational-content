@@ -46,7 +46,7 @@ Podłącz Ledger do komputera i odblokuj go.
 
 
 
-Aby zainstalować aplikację, otwórz oprogramowanie [Ledger Live] (https://www.Ledger.com/Ledger-live), a następnie przejdź do zakładki "*My Ledger*". Znajdź aplikację "*Security Key*" i zainstaluj ją na swoim urządzeniu.
+Aby zainstalować aplikację, otwórz oprogramowanie [Ledger Live](https://www.Ledger.com/Ledger-live), a następnie przejdź do zakładki "*My Ledger*". Znajdź aplikację "*Security Key*" i zainstaluj ją na swoim urządzeniu.
 
 
 

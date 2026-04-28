@@ -1,9 +1,11 @@
 ---
 name: OPENDIME
-description: Thiết lập OENPNDIME của bạn
+description: Thiết lập OEPNDIME của bạn
 ---
 
 ![cover](assets/cover.webp)
+
+
 
 
 

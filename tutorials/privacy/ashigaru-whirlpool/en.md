@@ -12,7 +12,7 @@ description: How do I make coinjoins on the Ashigaru application?
 In this tutorial, you'll learn what a coinjoin is and how to make one with the Ashigaru Terminal application and the Whirlpool implementation, a coinjoin protocol inherited from Samourai Wallet.
 
 
-## How Whirlpool coinjoints work
+## How Whirlpool coinjoins work
 
 
 In this tutorial, I won't go back over the notion of a coinjoin, its usefulness or the theoretical operation of Whirlpool, as these topics are already explained in detail in Part 5 of the BTC 204 training course on Plan ₿ Academy. If you haven't yet mastered the operation of Whirlpool or the principle of a coinjoin, I strongly recommend that you consult this part 5 before continuing :
@@ -23,7 +23,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 However, here are a few quick facts and figures that may come in handy.
 
 
-Whirlpool compatible portfolios use 4 separate accounts to meet the needs of the coinjoin process:
+Whirlpool compatible wallets use 4 separate accounts to meet the needs of the coinjoin process:
 
 
 - The **Deposit** account, identified by index `0'` ;
@@ -75,7 +75,7 @@ Install each of these tools by following their respective tutorials, then you ca
 ## Receive bitcoins
 
 
-After creating your portfolio, you'll start with a single account, identified by the index `0'`. This is the `Deposit` account. It's to this account that you'll send bitcoins destined for coinjoins. You can receive them either via the Ashigaru application (see part 5 of the dedicated tutorial), or via Ashigaru Terminal (also detailed in part 5 of the dedicated tutorial).
+After creating your wallet, you'll start with a single account, identified by the index `0'`. This is the `Deposit` account. It's to this account that you'll send bitcoins destined for coinjoins. You can receive them either via the Ashigaru application (see part 5 of the dedicated tutorial), or via Ashigaru Terminal (also detailed in part 5 of the dedicated tutorial).
 
 
 Once your deposit account contains at least the amount needed to participate in the smallest pool (plus service charges and the minimum required to cover mining costs) you'll be ready to initiate your first coinjoins.
@@ -176,7 +176,7 @@ Now you can let your coins remix themselves automatically. The Whirlpool model m
 For a better understanding of this mechanism and how many cycles it is worth waiting for, I recommend reading this article:
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 To view the number of remixes performed by each of your pieces, open the `UTXOs` menu in the `Postmix` account.
 
@@ -264,7 +264,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 The performance of several coinjoin cycles is measured by the size of the sets in which a coin is hidden. These sets define what are known as *anonsets*. There are two types: the first measures confidentiality in the face of retrospective analysis (from the present to the past), and the second measures resistance to prospective analysis (from the past to the present). For a full explanation of these two indicators, please read the following tutorial (or, once again, the BTC 204 training course):
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## How to manage the postmix?
 
@@ -283,7 +283,7 @@ https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 You should also be cautious about consolidating mixed UTXOs. Limited consolidations can be considered if the UTXOs have significant anonsets, but they inevitably reduce your level of confidentiality. Avoid massive or rushed consolidations, carried out before a sufficient number of remixes, as they could establish inferential links between your pre- and post-mix pieces. In case of doubt, it's best not to consolidate your postmix UTXOs and to transfer them one by one to your wallet hardware, generating a new blank reception address each time. Don't forget to label each transferred UTXO.
 
 
-We strongly advise against moving your postmix UTXOs to portfolios using minority scripts. For example, if you participated in Whirlpool from a multi-sig portfolio in `P2WSH`, there will be few of you sharing this type of script. By sending your postmix UTXOs to this same type of script, you considerably reduce your anonymity. Beyond the type of script, other specific wallet fingerprints can compromise your confidentiality, so the best thing to do is to spend them from the Ashigaru application.
+We strongly advise against moving your postmix UTXOs to wallets using minority scripts. For example, if you participated in Whirlpool from a multi-sig wallet in `P2WSH`, there will be few of you sharing this type of script. By sending your postmix UTXOs to this same type of script, you considerably reduce your anonymity. Beyond the type of script, other specific wallet fingerprints can compromise your confidentiality, so the best thing to do is to spend them from the Ashigaru application.
 
 
 Finally, as with all Bitcoin transactions, never re-use a receiving address. Each payment must be sent to a new, unique, blank address.

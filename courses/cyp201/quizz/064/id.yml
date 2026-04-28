@@ -6,3 +6,4 @@ wrong_answers:
   - Mengenkripsi kunci publik
 explanation: |
   Kunci ekstensi menggabungkan sebuah kunci (baik itu privat atau publik) dengan kode rantai yang terkait, yaitu, dua elemen yang diperlukan untuk derivasi kunci anak.
+reviewed: true

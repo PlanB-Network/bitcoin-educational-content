@@ -1,0 +1,8 @@
+question: Was unterscheidet Laufzeitressourcenfehler von ungültigen Eingabefehlern und Logikfehlern bei der Bitcoin-Anwendungsentwicklung?
+answer: Laufzeit-Ressourcenfehler treten auf, wenn externe Abhängigkeiten wie Dateien oder Netzwerkverbindungen nicht verfügbar sind, was eher Umgebungsbehebungen als Codeänderungen erfordert
+wrong_answers:
+  - "Laufzeit-Ressourcenfehler treten auf, wenn Funktionsparameter nicht den Anforderungen entsprechen, was auf Vertragsverletzungen zwischen Aufrufer und Funktion hinweist"
+  - Laufzeit-Ressourcenfehler stellen Fehler in der Programmimplementierung dar, die eine Fehlersuche und Codeänderung erfordern, um sie ordnungsgemäß zu beheben
+  - Laufzeit-Ressourcenfehler treten auf, wenn das Typsystem nicht in der Lage ist, Unstimmigkeiten zu erkennen, so dass sich falsche Datentypen im System verbreiten können
+explanation: |
+  Laufzeitressourcenfehler liegen außerhalb der Programmlogik und treten auf, wenn Abhängigkeiten wie Dateien, Netzwerkverbindungen oder Speichergeräte nicht verfügbar sind. Im Gegensatz zu ungültigen Eingabefehlern (bei denen es sich um Verletzungen von Parameterverträgen handelt) oder Logikfehlern (bei denen es sich um Implementierungsfehler handelt) sind bei Laufzeit-Ressourcenfehlern in der Regel eher Umgebungsbehebungen als Codeänderungen erforderlich. Die Anwendung muss diese Fehler gut behandeln, da sie oft temporär sind und außerhalb der direkten Kontrolle des Programms liegen.

@@ -1,9 +1,9 @@
-question: Ni igikorwa ikihe gituma porogarama zavuye kuri interineti zitahindurwa kuva zasohoka ku mugaragaro?
-answer: Igenzura ry’ubutungane biciye kuri Hash.
+question: Ni igikorwa ikihe gituma ubasha kubona ko porogarame zavuye kuri interineti zitahinduwe kuva zasohoka ku mugaragaro?
+answer: Kugenzura ubutungane biciye kuri Hash.
 wrong_answers:
-  - Kugenzura ukuri biciye ku mukono w'umuhinguzi
-  - Isesengura rya porogaramu biciye ku ruhome rw'umuriro
-  - Gukoresha porogaramu mu buryo butekanye
+  - Kugenzura ukuri biciye ku mukono w’umuhinguzi
+  - Isesengura rya porogarame biciye ku ruhome rw’umuriro (firewall)
+  - Gukoresha porogarame mu buryo butekanye
 explanation: |
-  Gusuzuma ubutungane bishingiye ku kugereranya Hash ya dosiye yavanwe n’iyo yasohowe n’uwayikoze. Ihinduka ryose kuri dosiye rihindura iyi Hash.
-reviewed: false
+  Gusuzuma ubutungane bishingiye ku kugereranya Hash ya dosiye yavomwe kuri interineti n’iyo yasohowe n’uwayikoze. Impinduka yose kuri dosiye ihindura iyi Hash.
+reviewed: true

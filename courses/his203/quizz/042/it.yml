@@ -1,0 +1,10 @@
+question: Perché l'aggiornamento Pay to Script Hash ha richiesto il 55% della potenza hash della rete per essere attivato?
+answer: In modo che sia "retrocompatibile" e non crei una spaccatura a catena
+wrong_answers:
+  - Poiché la governance del protocollo dipende dal voto dei minatori ("un processore, un voto")
+  - Al fine di non centralizzare l'attività mining, allora dominata da pochi pool mining
+  - Perché il responsabile del progetto Gavin Andresen non voleva essere un "dittatore benevolo"
+explanation: |
+ Si trattava di una restrizione delle regole di consenso, quella che in seguito sarebbe stata chiamata "soft fork". L'aggiornamento non crea una spaccatura della catena se è supportato da una maggioranza della potenza di calcolo della rete
+ maggioranza della potenza di calcolo della rete.
+reviewed: true

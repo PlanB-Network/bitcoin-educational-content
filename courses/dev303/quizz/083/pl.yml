@@ -1,0 +1,8 @@
+question: W jaki sposób UniFFI obsługuje propagację błędów z funkcji Rust do języków docelowych, takich jak Kotlin i Python?
+answer: Funkcje zwracające typy Result są oznaczone jako "throws" w UDL i generate natywne wyjątki w językach docelowych
+wrong_answers:
+  - Typy błędów są automatycznie konwertowane na komunikaty łańcuchowe i zwracane jako wartości opcjonalne we wszystkich językach docelowych
+  - Wszystkie błędy Rust są opakowane w ogólny typ błędu UniFFI, który musi zostać ręcznie rozpakowany przez programistów
+  - Obsługa błędów wymaga od deweloperów ręcznej implementacji kodu tłumaczenia błędów dla każdej docelowej platformy językowej
+explanation: |
+  UniFFI zapewnia zaawansowaną obsługę błędów, która zachowuje model błędów Rust oparty na wynikach, jednocześnie tłumacząc go odpowiednio dla każdego języka docelowego. Funkcje zwracające typy Result w Rust są oznaczone słowem kluczowym "throws" w UDL, a te generate natywnie obsługują wyjątki w językach docelowych - metody Kotlin rzucają wyjątki zgodnie z konwencjami Java/Kotlin, podczas gdy Python używa modelu wyjątków Pythona. Zapewnia to naturalną i idiomatyczną obsługę błędów w każdym języku, przy jednoczesnym zachowaniu semantycznego znaczenia oryginalnych typów błędów Rust, w przeciwieństwie do ogólnych wrapperów lub podejść do ręcznego tłumaczenia.

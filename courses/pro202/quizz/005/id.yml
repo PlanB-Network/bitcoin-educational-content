@@ -1,0 +1,8 @@
+question: Sifat matematis apa yang memastikan bahwa setiap elemen bukan nol dalam lapangan prima F(p) memiliki invers multiplikatif?
+answer: Bidang didefinisikan oleh bilangan prima p
+wrong_answers:
+  - Bidang tersebut berisi tepat p-1 elemen
+  - Bidang ini menggunakan operasi aritmatika modular
+  - Bidang ini mendukung penjumlahan dan perkalian
+explanation: |
+  Sebuah medan terbatas F(p) harus didefinisikan oleh sebuah bilangan prima p untuk memastikan setiap elemen yang bukan nol memiliki invers multiplikatif. Ini adalah persyaratan mendasar dari teori medan - ketika p adalah bilangan prima, bilangan bulat modulo p membentuk sebuah medan di mana pembagian selalu memungkinkan (kecuali dengan nol). Jika p adalah komposit, beberapa elemen bukan nol tidak akan memiliki invers, sehingga merusak struktur medan. Sementara pilihan-pilihan lainnya menjelaskan sifat-sifat dari lapangan terbatas, hanya keutamaan dari p yang menjamin keberadaan invers multiplikatif untuk semua elemen bukan nol.

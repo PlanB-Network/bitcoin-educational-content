@@ -1,5 +1,5 @@
 ---
-name: Dort Wallet
+name: Cake Wallet
 description: Výukový program o Cake Wallet a tichých platbách
 ---
 

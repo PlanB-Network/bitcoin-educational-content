@@ -1,0 +1,9 @@
+question: Bir madencilik havuzu öncelikle hangi pratik sorunu çözmeyi amaçlar?
+answer: Gelir varyansı
+wrong_answers:
+  - Ağ zorluğu
+  - Blok boyutu
+  - ASIC fiyatları
+explanation: |
+  Hashrate'i birleştirerek, bir havuz çok düzensiz bir geliri daha düzenli ödemelere dönüştürür. Bu, madenci için gelir varyansının azaltılmasıdır.
+reviewed: false

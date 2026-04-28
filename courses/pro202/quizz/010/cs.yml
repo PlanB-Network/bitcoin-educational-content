@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel použití hash160 (SHA-256 a poté RIPEMD-160) při vytváření adres Bitcoin z veřejných klíčů?
+answer: Skrýt veřejný klíč, dokud nedojde k útratě, a vytvořit kratší, lépe spravovatelné adresy
+wrong_answers:
+  - Zašifrování soukromého klíče a zabránění neoprávněnému přístupu k prostředkům wallet
+  - Digitální podpis generate potřebný k ověření transakce v blockchainu
+  - Převod bodů eliptické křivky do správného formátu pro operace secp256k1
+explanation: |
+  Hash160 plní při vytváření adres Bitcoin několik důležitých funkcí. Díky hašování veřejného klíče zůstává skutečný veřejný klíč skrytý, dokud nejsou mince utraceny, a poskytuje tak další vrstvu zabezpečení. Hashování také výrazně snižuje velikost z 33/65 bajtů na pouhých 20 bajtů, takže adresy jsou lépe spravovatelné. Špatné odpovědi to zaměňují s šifrováním soukromého klíče (které se neprovádí), digitálním podpisem (který používá jiné kryptografické operace) nebo formátováním křivky (které se provádí při serializaci SEC, nikoli při vytváření adresy).

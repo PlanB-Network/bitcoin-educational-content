@@ -1,0 +1,8 @@
+question: Mikä perustavanlaatuinen kysymys nousee tekstin mukaan esiin, kun ihmisyhteisöön sovelletaan yhtenäisiä lakeja ja keskitettyä hallintoa?
+answer: Ne ovat ristiriidassa ihmiskunnan luonnollisen monimuotoisuuden kanssa, kun ne määräävät standardoituja tapoja työskennellä ja nauttia omaisuudesta
+wrong_answers:
+  - Ne luovat liikaa byrokraattista monimutkaisuutta, joka hidastaa hallituksen päätöksentekoprosesseja
+  - Ne johtavat taloudelliseen tehottomuuteen estämällä erikoistumisen ja työnjaon markkinoilla
+  - Ne johtavat korkeampiin veroihin ja valtion menojen kasvuun, jotka rasittavat tuottavia kansalaisia
+explanation: |
+  Tekstissä todetaan nimenomaisesti, että yhtenäiset lait ja keskitetty hallinto "ovat suorassa ristiriidassa ihmiskunnan luonnollisen monimuotoisuuden kanssa" Nämä järjestelmät määräävät yhdenmukaisia tapoja toimia ja nauttia omaisuudesta, vaikka omaisuuden pitäisi antaa vapaus tehdä omaisuudellaan mitä haluaa. Tämä on ristiriidassa ihmisluonnon kanssa, koska jokainen ihminen syntyy yksilöllisenä persoonallisuutena, joka ilmenee koko elämänsä ajan ja vaatii erilaisia tyydytyksiä yksilöllisen rytmin ja erityistarpeiden mukaan, ei ylhäältä päin määrättyjä standardoituja ratkaisuja.

@@ -11,7 +11,7 @@ Bitfeed är en plattform för visualisering av Bitcoin-protokollets onchain-lage
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 I den här handledningen tar vi en titt på det här verktyget, som låter dig utforska alla transaktioner och block i nätverket.
 
@@ -95,7 +95,7 @@ Den första transaktionen i detta block representerar **coinbase**-transaktionen
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Som standard representeras transaktioner i ett block enligt två kriterier:
 
@@ -177,7 +177,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempoolen är den virtuella plats där Bitcoin-transaktioner som väntar på att inkluderas i ett block grupperas tillsammans. Bitfeed tillåter konsultation av [mempool] (https://planb.academy/resources/glossary/mempool) hos flera Bitcoin-miners, vilket erbjuder ett brett utbud av transaktionsspårning.
+Mempoolen är den virtuella plats där Bitcoin-transaktioner som väntar på att inkluderas i ett block grupperas tillsammans. Bitfeed tillåter konsultation av [mempool](https://planb.academy/resources/glossary/mempool) hos flera Bitcoin-miners, vilket erbjuder ett brett utbud av transaktionsspårning.
 
 
 

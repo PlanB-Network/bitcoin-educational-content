@@ -1,0 +1,8 @@
+question: Ketika membuat tanda tangan untuk input P2SH selama konstruksi transaksi, skrip apa yang harus digunakan dalam proses penghitungan sighash?
+answer: Skrip penukaran harus digunakan sebagai pengganti skripPubKey
+wrong_answers:
+  - ScriptPubKey asli yang berisi hash harus digunakan secara langsung
+  - Kombinasi dari scriptPubKey dan redeem script harus digunakan
+  - ScriptSig yang berisi data pembuka kunci harus digunakan sebagai gantinya
+explanation: |
+  Selama pembuatan tanda tangan P2SH, proses sighash membutuhkan penggunaan skrip penukaran sebagai pengganti scriptPubKey. Hal ini sangat penting karena scriptPubKey hanya berisi hash dari skrip penukaran, bukan kondisi pengeluaran yang sebenarnya. Skrip penukaran berisi logika yang sebenarnya (seperti persyaratan multisig) yang menentukan bagaimana output dapat dibelanjakan, sehingga tanda tangan harus dibuat terhadap skrip yang mendasarinya agar valid. Menggunakan scriptPubKey secara langsung akan gagal karena hanya berisi perbandingan hash, bukan kondisi pengeluaran aktual yang perlu dipenuhi.

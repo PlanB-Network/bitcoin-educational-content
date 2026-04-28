@@ -1,6 +1,7 @@
 ---
-term: TAPROOT
+term: Taproot
 
+definition: Novembris 2021 aktiveeritud suur Bitcoini uuendus, mis toob BIP340, 341 ja 342 kaudu privaatsuse, tõhususe ja paindlikkuse.
 ---
 Bitcoini protokolli suur uuendus, mis võeti vastu 2021. aasta novembris toimunud pehme kahvli kaudu. See uuendus toob olulisi parandusi privaatsuse, tõhususe ja paindlikkuse osas, rakendades BIP340, BIP341 ja BIP342. See uuendus lukustati 12. juunil 2021 plokis 687,284, kui 90% perioodi jooksul genereeritud plokkidest andis signaali selle kasuks, mis näitas kaevurite valmisolekut uuenduse aktiveerimiseks (*Speedy Trial*). Aktiveerimine toimus lõpuks plokis 709,632 14. novembril 2021, peaaegu neli aastat pärast esialgset arutelu Pieter Wuille'i, Andrew Poelstra ja Gregory Maxwelli vahel. See oli esimene suurem uuenduskatse pärast SegWiti vaieldavat aktiveerimist 2017. aastal.
 

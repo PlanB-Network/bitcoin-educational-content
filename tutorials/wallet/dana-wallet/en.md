@@ -1,6 +1,6 @@
 ---
 name: Dana Wallet
-description: Minimalist portfolio for Silent Payments (BIP-352)
+description: Minimalist wallet for Silent Payments (BIP-352)
 ---
 
 ![cover](assets/cover.webp)
@@ -106,7 +106,7 @@ On first launch, Dana Wallet displays a welcome screen introducing its mission: 
 - Email-like experience**: send and receive bitcoins as simply as an email
 
 
-You can choose between "Restore" to restore an existing portfolio or "Create new wallet" to create a new one. Press "Create new wallet".
+You can choose between "Restore" to restore an existing wallet or "Create new wallet" to create a new one. Press "Create new wallet".
 
 
 ![Premier lancement de Dana Wallet et création du portefeuille](assets/fr/03.webp)
@@ -118,7 +118,7 @@ The application then generates a recovery phrase, which you should carefully not
 ### Interface and parameters
 
 
-Once the portfolio has been created, you're taken to the main interface, divided into two tabs: "Transact" and "Settings".
+Once the wallet has been created, you're taken to the main interface, divided into two tabs: "Transact" and "Settings".
 
 
 The **Transact** tab displays your bitcoin balance (and its conversion to dollars), a list of recent transactions, and two action buttons: "Pay" to send funds, and a receive button (download icon).
@@ -243,7 +243,7 @@ Once sent, the transaction appears in your history with the status "Unconfirmed"
 
 
 - Pedagogical**: simplified interface focused on learning Silent Payments
-- Bidirectional**: supports both sending and receiving, unlike other portfolios
+- Bidirectional**: supports both sending and receiving, unlike other wallets
 - Open-source**: fully auditable code on GitHub
 - Dedicated Faucet**: makes it easier to obtain test funding
 - Without account**: no registration or personal data required
@@ -283,13 +283,14 @@ Silent Payments fund recovery requires a wallet compatible with the BIP-352 prot
 ## Comparison with BIP-47 and PayJoin
 
 
-| Critère | Silent Payments (BIP-352) | BIP-47 PayNyms | PayJoin (BIP-78) |
-|---------|---------------------------|----------------|------------------|
-| Adresse statique | Oui (`sp1...`) | Oui (code de paiement) | Non |
-| Interaction requise | Aucune | Transaction de notification initiale | À chaque paiement |
-| Empreinte on-chain | Aucune (transactions normales) | OP_RETURN visible | Transaction modifiée |
-| Scan côté receveur | Intensif (chaque bloc) | Léger (après notification) | Aucun |
-| Confidentialité expéditeur | Excellente | Limitée (lien après notification) | Bonne (brouillage) |
+| Criterion                  | Silent Payments (BIP-352) | BIP-47 PayNyms      | PayJoin (BIP-78)    |
+|---------------------------|---------------------------|---------------------|---------------------|
+| Static address            | Yes (`sp1...`)            | Yes (payment code)  | No                  |
+| Interaction required       | None                      | Initial notification transaction | For each payment     |
+| On-chain footprint         | None (normal transactions) | Visible OP_RETURN    | Modified transaction |
+| Receiver-side scanning     | Intensive (every block)   | Light (after notification) | None                |
+| Sender privacy             | Excellent                 | Limited (link after notification) | Good (mixing)       |
+
 
 Silent Payments eliminate the BIP-47 notification transaction at the cost of a more expensive scan. PayJoin solves a different problem (input correlation) and can be combined with Silent Payments.
 

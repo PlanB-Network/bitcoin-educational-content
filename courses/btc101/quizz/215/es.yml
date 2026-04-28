@@ -1,11 +1,9 @@
-question: ¿Cuál es el problema de escalabilidad de Bitcoin?
-answer: El desafío de implementar un sistema monetario capaz de proporcionar un número cada vez mayor de transacciones por segundo a medida que se adopta.
+question: ¿Qué mecanismo hace que los pagos Lightning sean atómicos?
+answer: HTLC
 wrong_answers:
-  - La dificultad de minar nuevos Bitcoins con un valor en aumento con el tiempo.
-  - La volatilidad del precio de Bitcoin que aumentará después de cada halving.
-  - La falta de regulación para Bitcoin que hará que las transacciones sean ilegales.
-explanation: >-
-  El problema de escalabilidad se refiere al desafío de implementar un sistema
-  monetario capaz de proporcionar un número cada vez mayor de transacciones por segundo
-  a medida que se adopta.
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  Los HTLC condicionan el pago a la revelación de un secreto, garantizando éxito total o fallo sin pérdida.
+reviewed: false

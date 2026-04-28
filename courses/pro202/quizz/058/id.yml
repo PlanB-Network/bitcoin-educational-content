@@ -1,0 +1,8 @@
+question: Ketika Bitcoin wallet memindai blok untuk pembayaran yang masuk, mengapa mengunduh seluruh blok lebih disukai daripada meminta transaksi individual dari rekan jaringan?
+answer: Mengunduh seluruh blok memberikan perlindungan privasi yang lebih baik dengan tidak mengungkapkan transaksi atau alamat tertentu yang ingin dipantau oleh wallet
+wrong_answers:
+  - Mengunduh seluruh blok lebih efisien secara komputasi karena membutuhkan lebih sedikit operasi hash kriptografi untuk memverifikasi keaslian transaksi
+  - Mengunduh seluruh blok memastikan sinkronisasi yang lebih cepat karena rekan-rekan dapat mengirim data blok terkompresi daripada respons transaksi individual
+  - Mengunduh seluruh blok memberikan keamanan yang lebih baik karena memungkinkan wallet untuk memverifikasi proof-of-work yang lengkap untuk setiap transaksi
+explanation: |
+  Privasi adalah keuntungan utama dari pengambilan berbasis blok. Ketika sebuah wallet meminta transaksi tertentu, ia membocorkan sinyal yang kuat mengenai aktivitas pengguna dan mengungkapkan alamat mana yang dimiliki oleh wallet tersebut. Mengunduh seluruh blok akan menutupi kepentingan wallet yang sebenarnya di antara semua transaksi blok. Jawaban yang salah berfokus pada efisiensi, kecepatan, atau manfaat keamanan yang bukan merupakan motivasi utama - permintaan transaksi individu secara teoritis dapat sama amannya atau sama efisiennya, tetapi pada dasarnya mereka membahayakan privasi dengan mengungkapkan pola pemantauan wallet kepada rekan-rekan jaringan.

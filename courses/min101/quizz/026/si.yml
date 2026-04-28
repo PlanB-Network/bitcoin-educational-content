@@ -1,0 +1,9 @@
+question: Bitcoin Core හි කුමන පරාමිතිය (parameter) මගින් පෙරනිමි අවම රිලේ එළිපත්ත (relay threshold) නියම කරයිද?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  නෝඩ් (nodes) දේශීය ප්‍රතිපත්ති ක්‍රියාත්මක කරන අතර Bitcoin Core අවම රිලේ එළිපත්ත සඳහා minRelayTxFee පරාමිතිය භාවිතා කරයි.
+reviewed: false

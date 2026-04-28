@@ -1,0 +1,26 @@
+id: 61344d94-e88a-4a23-bb4b-0be3d1976b6d
+start_date: 2026-02-28 09:00:00
+end_date: 2026-02-28 11:00:00
+timezone: Asia/Makassar
+address_city_country: Kec. Kuta Utara, Indonesia
+address_line_2: Jalan Kayu Manis
+address_line_3: Bitcoin House Bali, Bali 80351
+name: BitDevs Bali 2026
+type: meetup
+book_online: false
+book_in_person: true
+price_dollars: 0
+description: |
+  BitDevs Bali is a monthly meetup held every 4th Friday for Bitcoin developers and enthusiasts. Join to learn about the latest Bitcoin technical developments, connect with developers from Indonesia and globally, and contribute to the open-source Bitcoin ecosystem. Topics include Lightning, Fedimint, Nostr, and more.
+  
+  Warning: information may change. Booking and up-to-date information are on Eventbrite.
+language:
+  - en
+links:
+  website: https://www.eventbrite.com/e/bitdevs-bali-tickets-1002169103767
+  replay_url: 
+  live_url: 
+tags:
+  - development
+  - adoption
+  - innovation

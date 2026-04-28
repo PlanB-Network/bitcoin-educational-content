@@ -27,7 +27,7 @@ Vanaf de Oudheid tot de Verlichting steeg de vrijheid op naarmate samenlevingen 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Welkom bij PHI201!
+Welkom bij PHI101!
 
 
 Deze cursus nodigt je uit om de evolutie van vrijheid door de geschiedenis heen te verkennen door de belangrijkste denkrichtingen te analyseren die er vorm aan hebben gegeven. Je verkent hoe het concept van vrijheid door de eeuwen heen is geëvolueerd, in verzet tegen of in samenwerking met macht, door middel van een historische reis van de Oudheid tot hedendaagse debatten.
@@ -324,7 +324,7 @@ Er bestaat echter een ander perspectief op geschiedenis. Het is behoorlijk succe
 Het verklaart de buitengewone groei van Europa voornamelijk door de vooruitgang van de technologie in combinatie met de "primitieve accumulatie" van kapitaal, voortkomend uit imperialisme, slavernij, de driehoekshandel, de onteigening van kleine boeren en de uitbuiting van de arbeidersklasse. De conclusie is duidelijk. Deze uitzonderlijke Europese groei werd bereikt ten koste van miljoenen en miljoenen slaven en onderdrukte individuen.
 
 
-In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [Communistisch Manifesto_] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
+In eerste instantie heeft Marx in één ding gelijk: de geschiedenis is de geschiedenis van klassenstrijd en uitbuiting. Het citaat is bekend, want het is de eerste zin van het eerste hoofdstuk van het [Communistisch Manifesto_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "De geschiedenis van alle tot nu toe bestaande samenlevingen is de geschiedenis van klassenstrijd." Marx erkende zelf dat hij zijn theorie van klassenstrijd had ontleend aan eerdere auteurs:
 
 
 > Het is niet aan mij om klassen en klassenstrijd in de moderne samenleving te ontdekken. Lang voor mij hadden burgerlijke historici de historische ontwikkeling van deze klassenstrijd beschreven en burgerlijke economen de economische anatomie van klassen.
@@ -1219,7 +1219,7 @@ De systematische studie van economische wetten begon in de Hoge Middeleeuwen. De
 ![image](assets/nl/049.webp)
 
 
-De kern van zijn monetaire analyse is het probleem van de "mutaties" van geld, dat wil zeggen veranderingen in de metaalinhoud van munten en hun denominatie. Deze veranderingen komen al voor sinds het begin der tijden en zijn goed gedocumenteerd voor de Oudheid en de Middeleeuwen. Het meest zichtbare effect is dat de koopkracht van de munteenheid verandert en vooral daalt. Dit is een primitieve vorm van inflatie die Oresme duidelijk veroordeelt als een kwaad.
+De kern van zijn monetaire analyse is het probleem van de "mutaties" van geld, dat wil zeggen veranderingen in de metaalinhoud van munten en hun denominatie. Deze veranderingen komen al voor sinds het begin der tijden en zijn goed gedocumenteerd voor de Oudheid en de Middeleeuwen. Het meest zichtbare effect is dat de koopkracht van de munteenheid verandert en vooral daalt. Dit is een primitieve vorm van [inflatie](https://planb.academy/resources/glossary/inflation) die Oresme duidelijk veroordeelt als een kwaad.
 
 
 Oresme werpt meteen een centrale vraag op: Is inflatie gunstig voor de gemeenschap? Hij antwoordt ontkennend en stelt dat inflatie geld niet meer of minder nuttig maakt voor uitwisselingen. De economie kan goed functioneren ongeacht het prijsniveau, en dus ongeacht de nominale geldhoeveelheid Supply.
@@ -1472,7 +1472,7 @@ Het is onnodig om te bewijzen dat elk individu zelf kan bepalen wat het meest vo
 Hier loopt Turgot grotendeels vooruit op het argument van Mises en Hayek over de onmogelijkheid van enige economische berekening in een socialistisch economisch systeem.
 
 
-Murray Rothbard, die een hoofdstuk wijdt aan "De genialiteit van Turgot", benadrukt in zijn economische geschiedenis vanuit een Oostenrijks perspectief dat "de invloed van Turgot op het latere economische denken ernstig werd beperkt (...) door de mythe dat Adam Smith de grondlegger van de politieke economie was" En hij voegt eraan toe: "Het was op de Fransman J.B. Say, officieel een volgeling van Smith, dat Turgot uiteindelijk de meeste invloed had, met name op zijn theorie van nutswaarde."
+Murray Rothbard, die een hoofdstuk wijdt aan "De genialiteit van Turgot", benadrukt in zijn economische geschiedenis vanuit een [Oostenrijks](https://planb.academy/resources/glossary/austrian-school) perspectief dat "de invloed van Turgot op het latere economische denken ernstig werd beperkt (...) door de mythe dat Adam Smith de grondlegger van de politieke economie was" En hij voegt eraan toe: "Het was op de Fransman J.B. Say, officieel een volgeling van Smith, dat Turgot uiteindelijk de meeste invloed had, met name op zijn theorie van nutswaarde."
 
 
 ### Het meesterwerk van Condillac
@@ -1988,7 +1988,7 @@ Ludwig von Mises benadrukt dat Marx er niet in slaagde om een onderscheid te mak
 In _The Ethics of Liberty_ en _Anatomy of the State_, legde Murray Rothbard uit dat uitbuiting alleen zin heeft als agressie tegen privé-eigendom en dat alleen de staat zijn inkomsten verkrijgt door middel van agressie, dat wil zeggen door belasting te heffen, schulden te maken, geld bij te drukken en dus door inflatie. In werkelijkheid is staatsinterventie, en niet klassenstrijd, de bron van geweld en conflicten in de samenleving. Door zich middelen toe te eigenen en de economie te reguleren creëert de staat verstoringen en onrechtvaardigheden die leiden tot conflicten en onderdrukking. Het beëindigen van uitbuiting vereist dus het verminderen van de macht van de roofzuchtige kaste: de staat.
 
 
-Zie hierover ook: _Marxistische en Oostenrijkse klassenanalyse_, Hans Hermann Hoppe, Tijdschrift voor Libertarische Studies, Vol IX No. 2, Herfst 1990. [Vertaling door François Guillaumat] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Opgenomen als hoofdstuk 4 van _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+Zie hierover ook: _Marxistische en Oostenrijkse klassenanalyse_, Hans Hermann Hoppe, Tijdschrift voor Libertarische Studies, Vol IX No. 2, Herfst 1990. [Vertaling door François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Opgenomen als hoofdstuk 4 van _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
 
 ### Polylogisme
@@ -2289,7 +2289,7 @@ Voor Hayek komt de instabiliteit van de markteconomie in het verleden voort uit 
 ![image](assets/nl/101.webp)
 
 
-Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een cryptocurrency als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
+Hayek geloofde dat een vrije markt van privévaluta's zou leiden tot grotere monetaire stabiliteit. Bijna 50 jaar later belichaamt een [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency) als Bitcoin Hayeks concurrerende visie door een gedecentraliseerd alternatief te bieden voor het monopolistische systeem van centrale banken. Bitcoin, met een vaste emissielimiet van 21 miljoen eenheden, dient als bescherming tegen inflatie en de willekeur van toezichthouders.
 
 
 

@@ -1,0 +1,9 @@
+question: Jaka podstawowa właściwość Bitcoin zostaje utracona w przypadku pozbawienia wolności?
+answer: Suwerenność monetarna
+wrong_answers:
+  - Skalowalność pieniężna
+  - Szybka płatność
+  - Interoperacyjność pieniężna
+explanation: |
+  Bez kontroli klucza użytkownik zrzeka się suwerenności monetarnej, głównego filaru Bitcoin.
+reviewed: false

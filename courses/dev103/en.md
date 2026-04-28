@@ -530,7 +530,7 @@ console.log(theyAreEqual)  // false
 console.log(theyAreDifferent)  // true
 ```
 
-Javascript also has `>=` to mean "bigger or equal" and `<=` to mean "smaller or equal.
+Javascript also has `>=` to mean "bigger or equal" and `<=` to mean "smaller or equal".
 
 Booleans, comparison and logical operators are often combined in programs to declare complex conditions, like to ensure "the email has arrived AND it contains the image I need OR the length of the email is longer than 10000 characters". You will find later that these are essential building blocks to construct the logic of the program.
 
@@ -1081,8 +1081,8 @@ console.log("Done")
 This prints:
 
 ```
-Inside outer block
-Inside inner block
+We're inside the outer scope
+We're inside the inner scope.
 Done
 ```
 
@@ -1585,7 +1585,7 @@ As you can see, the `constructor` method takes the arguments you pass to the cla
 
 Let’s break it down:
 
-`class Dog` defines the Dog class.
+* `class Dog` defines the Dog class.
 * `constructor(name)` sets up the object when it’s created.
 * `this.name = name` stores the value in the new object.
 * `new Dog("hachiko")` creates a new object from the class, with the `name` property set to `"hachiko"`.
@@ -1644,7 +1644,7 @@ hachiko says barf!
 bobby says barf!
 ```
 
-the `speak()` method uses the `name` property of the `Dog` it's called on.
+The `speak()` method uses the `name` property of the `Dog` it's called on.
 
 This is the main reason classes exist: they allow us to define a set of methods that operate on data, and then create multiple objects that share the same data "shape".
 
@@ -1952,7 +1952,7 @@ Oops! Something went wrong.
 Here’s how it works:
 
 * The code inside the `try` block is attempted first.
-*If an error occurs, JavaScript **jumps to the `catch` block**, skipping the rest of the `try` block.*
+* *If an error occurs, JavaScript **jumps to the `catch` block**, skipping the rest of the `try` block.*
 * The `catch` block receives the error, so you can print it, or handle it in some other way, like for example
 
 ```javascript
@@ -2026,7 +2026,7 @@ greet()
 console.log(user) // prints "Alice"
 ```
 
-This creates a new global variable `name` without any declaration. This can happen silently and lead to bugs that are hard to track down, especially if it was just a typo. Always declare variables using `let` or `const`.
+This creates a new global variable `user` without any declaration. This can happen silently and lead to bugs that are hard to track down, especially if it was just a typo. Always declare variables using `let` or `const`.
 
 ### Weak type system
 
@@ -2041,7 +2041,7 @@ console.log(true + 1)   // 2
 console.log(null + 1)   // 1
 ```
 
-In these examples, JavaScript tries to guess what you meant. Sometimes it turns strings into numbers, or booleans into numbers, or strings into strings. This can make your code behave in unexpected ways.
+In these examples, JavaScript tries to guess what you meant. Sometimes it turns strings into numbers, or booleans into numbers, or numbers into strings. This can make your code behave in unexpected ways.
 
 Being aware of JavaScript's weak typing system is important. When things start acting strangely, it might be due to unexpected type coercion.
 
@@ -2083,11 +2083,11 @@ So if you change one, it doesn’t affect the other.
 
 This happens with primitive types, like:
 
-*numbers*
-*strings*
-*booleans* (`true` and `false`)
-`null`
-`*undefined*`
+* numbers
+* strings
+* booleans (`true` and `false`)
+* `null`
+* `undefined`
 
 Let’s look at an example:
 
@@ -2280,8 +2280,8 @@ The spread operator is useful when you don’t know how many arguments will be p
 
 A **higher-order function** is a function that:
 
-*takes another function as input*
-*and/or* returns a function as output
+* takes another function as input
+* and/or returns a function as output
 
 Here’s a simple example:
 
@@ -2854,8 +2854,8 @@ Maps are great for managing large collections of values, because accessing value
 
 A `Set` is a collection of **values only** (no keys), where each value must be **unique**. That means:
 
-*You can't have the same value twice*
-*The values are stored in the order you add them*
+* You can't have the same value twice
+* The values are stored in the order you add them
 
 You create a set like this:
 
@@ -3791,9 +3791,9 @@ run()
 
 Async iterators are useful when:
 
-*The values don't all arrive at once.*
-*You want to handle them one at a time,* **as they come**.
-**You're working with Promises, and want to loop in a clean way.**
+* The values don't all arrive at once.
+* You want to handle them one at a time,* **as they come**.
+* **You're working with Promises, and want to loop in a clean way.**
 
 For example, if you want to load messages from a chat server one by one, or download a large file in chunks, async iterators give you a way to write a `for` loop that works with delayed data.
 
@@ -3953,7 +3953,7 @@ const [first, second] = colors
 
 This assigns:
 
-`*first*` to `"red"`
+* `first` to `"red"`
 * `second` to `"green"`
 
 You can skip values too:
@@ -4344,9 +4344,9 @@ fs.readFile("example.txt", "utf8", (err, data) => {
 
 Here’s what happens:
 
-`fs.readFile` starts reading `example.txt`.
-*NodeJS does not wait, it moves on to execute other code you might have written.*
-*When the file is done reading, the callback runs:*
+* `fs.readFile` starts reading `example.txt`.
+* NodeJS does not wait, it moves on to execute other code you might have written.
+* When the file is done reading, the callback runs:
 
   * If there was an error, `err` contains the error.
   * Otherwise, `data` contains the contents.
@@ -4514,9 +4514,9 @@ Instead of downloading and copying files manually, you can use a **package manag
 
 A package manager is a tool that:
 
-*downloads packages*
-*keeps track of which packages your project needs*
-**makes sure everyone on your team has the same versions of the packages**
+* downloads packages
+* keeps track of which packages your project needs
+* makes sure everyone on your team has the same versions of the packages
 
 ### What is NPM
 
@@ -4793,8 +4793,8 @@ This is what's happening in the code:
 1. You imported the `http` server from the Node standard library.
 2. `http.createServer()` creates a server. You passed to `http.createServer()` a callback `(req, res) => {...}` to get executed every time someone connects.
 3. You assigned a status code of 200 (which indicates a successful operation) to the response. You can read about http status codes [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status) 
-3. `res.end()` sends the response and ends the connection.
-4. `server.listen(3000)` starts the server on port 3000.
+4. `res.end()` sends the response and ends the connection.
+5. `server.listen(3000)` starts the server on port 3000.
 
 You can also check `req.url` and `req.method` in the request to handle different paths or request types.
 
@@ -4826,7 +4826,7 @@ In this chapter we'll introduce primarily three classes of objects:
 - `EventEmitter`, which can be used to track somestep by asynchronous process by emitting signals called "events"
 - `Stream`, which allows us to process big portion of data one `Buffer` at the time, and which tracks the process by emitting events
 
-These are extremely common in professional NodeJS code, so even if you might not use them in your first projects, it's good to get a basic understanding for when you'll need to interact with them. of them
+These are extremely common in professional NodeJS code, so even if you might not use them in your first projects, it's good to get a basic understanding for when you'll need to interact with them.
 
 ### Buffers
 
@@ -4895,10 +4895,10 @@ In JavaScript, an **event** is something that happens in your program that you c
 
 For example:
 
-*a file finishes loading*
-*a timer goes off*
-*a user clicks a button*
-*a network request returns data*
+* a file finishes loading
+* a timer goes off
+* a user clicks a button
+* a network request returns data
 
 An **event** is just a signal that something happened, and you can write code to listen for those events and react to them.
 
@@ -5046,30 +5046,30 @@ A writable stream lets you send data somewhere, chunk by chunk.
 Here’s an example of writing to a `target.txt` file using a stream:
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-  console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-  console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 Here’s what happens:
 
 1. `fs.createWriteStream()` creates a writable stream.
-2. We write some text to it using `.write()`.
-3. When we’re done, we call `.end()` to close the stream.
-4. When all the data has been written, the `finish` event is emitted.
-5. If something goes wrong, the `error` event is triggered.
+2. We register handlers for the `error` and `finish` events.
+3. We write some text to it using `.write()`.
+4. When we’re done, we call `.end()` to close the stream.
+5. Once all buffered data has been flushed and written, the `finish` event is emitted. If something goes wrong, an `error` event is emitted.
 
 Just like readable streams, writable streams are good for big data because they don’t need to keep everything in memory at once.
 
@@ -5088,8 +5088,8 @@ readable.pipe(writable)
 
 Here:
 
-*The readable stream reads from `bigfile.txt`.*
-*The writable stream writes to `copy.txt`.*
+* The readable stream reads from `bigfile.txt`.
+* The writable stream writes to `copy.txt`.
 * `.pipe()` sends the data directly from the readable to the writable stream.
 
 ### Duplex streams
@@ -5118,8 +5118,8 @@ server.listen(3000, () => {
 
 In this example:
 
-*The `socket` object is a duplex stream.*
-*You can `write()` to it and also listen for `data` events from it.*
+* The `socket` object is a duplex stream.
+* You can `write()` to it and also listen for `data` events from it.
 
 ### Transform streams
 
@@ -5173,7 +5173,7 @@ const fs = require("fs")
 
 const readable = fs.createReadStream("example.txt")
 const writable = fs.createWriteStream("copy.txt")
-r
+
 readable.on("data", chunk => {               // each chunk of data we read from the readable stream...
 
   const canContinue = writable.write(chunk)  // ...we send it to the writable, which returns us a boolean to confirm we can continue

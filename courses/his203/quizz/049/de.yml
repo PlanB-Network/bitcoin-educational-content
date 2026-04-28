@@ -1,0 +1,11 @@
+question: Wer war das Genie hinter der ersten hybriden Proof-of-Stake-Implementierung, die im August 2012 mit der Kryptowährung PPCoin durchgeführt wurde?
+answer: Sonniger König
+wrong_answers:
+  - Vitalik Buterin
+  - Komm-aus-dem-Weg
+  - Ben Laurie
+explanation: |
+ Sunny King war das Pseudonym des leitenden Entwicklers des Projekts. Die Idee war, ein hybrides Modell zu implementieren, bei dem bestimmte Blöcke durch Erhaltungsnachweise validiert wurden
+ (basierend auf dem Konzept des Münzalters), zusätzlich zu Blöcken, die durch konventionelle mining abgebaut werden. Sunny King und seine Mitarbeiter starteten PPCoin im August 2012
+ (später umbenannt in Peercoin). Sie beschrieben ihre Lösung als "langfristig energieeffizient".
+reviewed: true

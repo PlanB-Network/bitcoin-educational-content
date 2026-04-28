@@ -38,7 +38,7 @@ Toisaalta en usko, että se soveltuu tällä hetkellä aloittelijoille, jotka ei
 
 
 
-Siirry [hankkeen verkkosivustolle] (https://zeusln.com/) ja lataa sovellus älypuhelimesi käyttöjärjestelmään:
+Siirry [hankkeen verkkosivustolle](https://zeusln.com/) ja lataa sovellus älypuhelimesi käyttöjärjestelmään:
 
 
 

@@ -1,6 +1,7 @@
 ---
-term: TICHÉ PLATBY
+term: Silent payments
 
+definition: Metoda přijímání plateb prostřednictvím statické adresy bez opakovaného použití adresy.
 ---
 Způsob použití statických adres Bitcoin k přijímání plateb bez opakovaného použití adresy, bez interakce a bez viditelného propojení v řetězci mezi různými platbami a statickou adresou. Tato technika eliminuje potřebu generovat nové, nepoužívané přijímací adresy pro každou transakci, a tím se vyhýbá obvyklým interakcím v Bitcoinu, kdy příjemce musí plátci poskytnout novou adresu.
 

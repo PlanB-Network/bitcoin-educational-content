@@ -2,9 +2,9 @@
 name: LNbits
 description: Účetní platforma pro obchodníky
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Účetní systém
+## Účetní systém
 
 LNbits obsahuje spoustu nástrojů pro ovládání a směrování příchozích a odchozích peněz, připojení webového obchodu nebo dokonce zařízení, jako je hardwarová peněženka nebo bankomat, které jste si sami vytvořili. Mezi typy uživatelů patří např:
 
@@ -15,7 +15,7 @@ LNbits obsahuje spoustu nástrojů pro ovládání a směrování příchozích 
 - Provozovatelé uzlů, kteří chtějí integrovat svůj uzel se systémem LNbits pro účely účetnictví.
 - Všichni mají různé potřeby. LNbits vytváříme modulárně, aby každý uživatel mohl využívat naše funkce způsobem, který mu nejlépe vyhovuje.
 
-# Správce peněženky
+## Správce peněženky
 
 LNbits je svobodný účetní systém s otevřeným zdrojovým kódem - ne správce uzlů. Správa kanálů je doménou uzlu Lightning, který je připojen k LNbits jako zdroj financování, stejně jako LND nebo c-lightning. Za správu celkové přístupnosti a konfiguraci účetních funkcí a interních rozšíření jsou v systému LNbits odpovědní uživatelé Superuser nebo Admin.
 
@@ -29,11 +29,11 @@ Nabídnete jim jednoduchý způsob, jak si otevřít "bankovní účet" na vaše
 
 POZNÁMKA: všechny prostředky, které vaši "zákazníci" vloží na své bankovní účty LNbits ve vašem uzlu, půjdou přímo do kanálů LN ve vašem uzlu. To znamená, že skutečným vlastníkem těchto prostředků jste VY. Za jejich prostředky budete mít velkou zodpovědnost. Nebuďte zlí a neutíkejte s prostředky, nebuďte zlí a neúčtujte vysoké poplatky. Chceme vyjebat s fiat bankstery, ne vyjebat mezi sebou (s uživateli bitcoinu).
 
-# Demonstrační platforma
+## Demonstrační platforma
 
 Demo najdete na adrese [https://legend.lnbits.com](https://legend.lnbits.com). Je plně funkční a lze ji použít k seznámení se s Lightning Network a funkcemi LNbits a LNURL obecně. Přestože vám v tom nemůžeme zabránit, rádi bychom vás požádali, abyste ji nepoužívali pro produkční nastavení. Nejenže na serverech často pracujeme, abychom otestovali nové funkce, ale také bychom vás rádi povzbudili k suverénnímu provozování vlastního uzlu a LNbits. Pokud si myslíte, že provozování vlastního uzlu je pro vás v tuto chvíli příliš náročné, můžete LNbits připojit ke službě custodian funding sservice v cloudu, jako je Opennode, Luna nebo Votage, nebo k Lightning Tipbot na Telegramu, abychom jmenovali alespoň některé.
 
-# Leták LNbits
+## Leták LNbits
 
 Chcete předat základní informace obchodníkovi nebo svému známému ze stavebnictví ? S velkou radostí vám oznamujeme náš první leták, který může každý využít. Jedná se o celosvětově typický formát letáku o 6 stranách (2 sklady) a šířce 3508 a výšce 2480px.
 
@@ -41,9 +41,9 @@ LNbits pro obchodníky: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/lnb
 
 LNbits pro stavitele: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# Některé základy
+## Některé základy
 
-LNbits funguje na základě protokolu LNURL, což znamená, že požadavky jsou platné ve dvou formách: buď jako https:// clearnet link (nejsou povoleny žádné samopodepsané certifikáty), nebo jako http:// v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, musíte LNbits otevřít do sítě clearnet (https).
+LNbits funguje na základě protokolu LNURL, což znamená, že požadavky jsou platné ve dvou formách: buď jako https://clearnet link (nejsou povoleny žádné samopodepsané certifikáty), nebo jako http://v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, musíte LNbits otevřít do sítě clearnet (https).
 
 Před instalací LNbits se ujistěte, že jste si přečetli a pochopili následující obecné pokyny o tom, co je LNbits a jaké možnosti vám nabízí.
 
@@ -66,9 +66,9 @@ Podrobnější návody na použití LNbitů v konkrétních scénářích použi
 - [Spusťte svůj trh NOSTR s LNbits](https://darthcoin.substack.com/p/lnbits-nostr-market) | Průvodce podsložkou
 - [Použití LNbits pro školní projekty nebo festivalové akce](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) Průvodce pro náhradníky
 
-# Instalace LNbits
+## Instalace LNbits
 
-## Základní průvodce instalací
+### Základní průvodce instalací
 
 LNbits lze nainstalovat na libovolný počítač s operačním systémem Linux. Nevyžaduje výkonný stroj nebo server, stačí dostatečná paměť RAM a určitý prostor na disku pro databázi. Může být spuštěn odděleně od uzlu BTC/LN (místní PC nebo vzdálený VPS) nebo společně na stejném stroji s uzlem nebo již nainstalovaný v softwarovém stroji s uzlem bundle.
 
@@ -87,13 +87,13 @@ Video najdete také na stránce [dockerised Setup on a VPS with PostgreSQ, Light
 
 Pokud jde o softwarové uzly svazků, podívejte se do jejich specifické dokumentace o LNbits: [Citadela](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 Pokud se nezabýváte technickými záležitostmi a nechcete sami hostovat zdroj financování ani lnbits, můžete použít verzi [LNbits SaaS](https://saas.lnbits.com) (Software jako služba). Je to v podstatě jako LNbits v cloudu, ale můžete si sami definovat zdroj financování (např. svůj uzel, peněženku LNbits, LNtipbot, fakewallet atd.) a proměnné prostředí - což u jiných cloudových řešení většinou není.
 
 [Zde je podrobný návod, jak používat LNbits SaaS pro konkrétní případy použití](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
-## Zdroje financování
+### Zdroje financování
 
 LNbits není software pro správu uzlů, ale účetní systém zaměřený na LN nad zdrojem financování LND nebo CLN. Po první instalaci můžete LNbits navštívit na adrese http://localhost:5000/.
 
@@ -113,7 +113,7 @@ Backendovou peněženku (zdroj financování) lze nakonfigurovat pomocí násled
 
 Pokud chcete použít verzi .env, parametry najdete zde:
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -124,7 +124,7 @@ Pokud chcete použít verzi .env, parametry najdete zde:
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - `SPARK_TOKEN`: secret_access_key
 
-### Démon sítě Lightning
+#### Démon sítě Lightning
 
 
 - LND (REST)
@@ -147,7 +147,7 @@ Místo toho můžete také použít makronku šifrovanou pomocí AES (více info
 
 Chcete-li zašifrovat svůj macaroon, spusťte `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
-### LNbits (další instance LNbits)
+#### LNbits (další instance LNbits)
 
 
 - Instance LNbits hostovaná na cloudovém serveru nebo na vašem domácím serveru
@@ -159,7 +159,7 @@ Chcete-li zašifrovat svůj macaroon, spusťte `./venv/bin/python lnbits/wallets
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Lightning TipBot
+#### Lightning TipBot
 
 Chcete-li připojit svůj [Lightning Tipbot](https://t.me/LightningTipBot) z Telegramu, musíte nastavit následující parametr:
 
@@ -170,13 +170,13 @@ Chcete-li připojit svůj [Lightning Tipbot](https://t.me/LightningTipBot) z Tel
 
 Podívejte se také na tento návod, jak nainstalovat [LNbits s LightningTipBot přes vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-### IBEX HUB
+#### IBEX HUB
 
 Zaregistrujte se [zde](https://ibexpay.ibexmercado.com/onboard) a získejte klíče/tokeny odtud, koncový bod je https://ibexpay-api.ibexmercado.com.
 
 Více informací naleznete v [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-### LNPay
+#### LNPay
 
 Aby poslouchání faktur fungovalo, musíte mít v LNbits veřejně přístupnou adresu URL a nastavit [LNPay webhook](https://dashboard.lnpay.co/webhook/) ukazující na `<Váš hostitel LNbits>/wallet/webhook` s událostí "Příjem peněženky" a bez zadání tajemství. Nastavení `https://mylnbits/wallet/webhook` bude url koncového bodu, který bude informován o každé platbě.
 
@@ -186,7 +186,7 @@ Aby poslouchání faktur fungovalo, musíte mít v LNbits veřejně přístupnou
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
-### OpenNode
+#### OpenNode
 
 Aby faktura fungovala, musíte mít v LNbits veřejně přístupnou adresu URL. Nastavení webhooku je volitelné.
 
@@ -195,7 +195,7 @@ Aby faktura fungovala, musíte mít v LNbits veřejně přístupnou adresu URL. 
   - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
-### Alby
+#### Alby
 
 Alby je rozšíření prohlížeče s funkcemi peněženky LN a účtu LNDHUB, které lze použít jako zdroj financování LNbits. [Více informací zde](https://getalby.com/).
 
@@ -206,11 +206,11 @@ Aby faktura fungovala, musíte mít v LNbits veřejně přístupnou adresu URL. 
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-## Další / Průvodci řešením problémů
+### Další / Průvodci řešením problémů
 
 Zde jsou další pokyny pro případ, že byste je potřebovali. Kliknutím na šipku rozbalíte popis.
 
-### The Killswitch 🚨
+#### The Killswitch 🚨
 
 V poslední době se objevilo tolik nebezpečných chyb nejen v celém prostoru, ale i v LNbits, že jsme se rozhodli s tím něco udělat. Nyní se můžete přihlásit k odběru varování a/nebo k přímé akci, pokud se opět objeví zranitelnost nebo chyba, která by mohla vést ke ztrátě finančních prostředků.
 
@@ -220,11 +220,11 @@ Pokud se přepne na void-wallet, všechny typy uživatelů na instanci uvidí ž
 
 Jak to funguje? Když je killswitch povolen, tajný repozitář na githubu, který je dostupný pouze hlavnímu týmu LNbits, bude kontrolován v intervalu X minut (který lze zadat). Pokud je v tomto repozitáři zveřejněna zranitelná chyba, slouží to jako signál, který spustí killswitch na všech instalacích, které se přihlásily k odběru, a přejde vaše instance lnbits na používání peněženky void. Pokud se mraky vyčistily a vy jste nainstalovali bezpečnostní aktualizaci, můžete zdroj financování nastavit na svůj uzel, peněženku nebo cokoli jiného, co používáte, znovu také prostřednictvím sekce Správa serveru. Na této wiki je sekce o přepínání zdrojů financování, pokud nevíte, co nastavit.
 
-### Rozdíl mezi správcem a superuživatelem
+#### Rozdíl mezi správcem a superuživatelem
 
 Uživatelské rozhraní správce systému LNbits umožňuje měnit nastavení systému LNbits prostřednictvím rozhraní LNbits. Ve výchozím nastavení je vypnuto a při prvním nastavení proměnné prostředí `LNBITS_ADMIN_UI=true` v souboru `.env` se nastavení inicializuje a bude použito. Od této chvíle se místo nastavení ze souboru .env použijí nastavení z databáze.
 
-### Super uživatel
+#### Super uživatel
 
 S uživatelským rozhraním správce jsme zavedli superuživatele, který má přístup k serveru, takže může měnit nastavení, která mohou způsobit pád serveru nebo jeho nereagování prostřednictvím frontendu a rozhraní API, jako je např. změna zdroje financování. Superuživatel je uložen pouze uvnitř tabulky nastavení v databázi. Po "obnovení výchozího nastavení" a restartu se vytvoří nový superuživatel. Přidali jsme také dekorátor pro trasy API, který kontroluje existenci superuživatele. Jeho ID se nikdy neposílá přes api a frontend a pouze dostává bool (ano/ne), zda jste superuživatel, nebo ne.
 
@@ -234,15 +234,15 @@ Stejně tak můžete superuživatele po jeho vytvoření odeslat prostřednictv�
 
 Ve frontendu najdete také možnost změnit obrázek obchodu, který se zobrazuje na stránce "vytvořit peněženku", a to tak, že otevřete sekci Správa serveru a vyberete možnost Motiv -> Vlastní logo.
 
-### Uživatelé správce
+#### Uživatelé správce
 
 Proměnná prostředí: `LNBITS_ADMIN_USERS`, seznam ID uživatelů oddělený čárkou. Uživatelé administrátora mohou měnit nastavení v uživatelském rozhraní administrátora - s výjimkou nastavení zdroje financování, protože to by vyžadovalo restart serveru a mohlo by potenciálně způsobit jeho nedostupnost. Také mají přístup ke všem rozšířením, která jsou jim vyhrazena v `LNBITS_ADMIN_EXTENSIONS`.
 
-### Povolení uživatelé
+#### Povolení uživatelé
 
 Proměnná prostředí: `LNBITS_ALLOWED_USERS`, seznam ID uživatelů oddělený čárkou. Definováním těchto uživatelů již nebude možné LNbits používat veřejně. Přístup k frontendu LNbits pak budou mít pouze definovaní uživatelé a administrátoři.
 
-#### Aktualizace LNbits
+##### Aktualizace LNbits
 
 Běžná aktualizace místní instance LNbits se provádí jednoduše zkopírováním a vložením následujících příkazů CLI:
 
@@ -275,7 +275,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### Přechod z SQLite na PostgreSQL
+##### Přechod z SQLite na PostgreSQL
 
 Pokud již máte LNbits nainstalovaný a spuštěný na databázi SQLite, doporučujeme přejít na postgres, pokud plánujete provozovat LNbits ve velkém měřítku.
 
@@ -296,11 +296,11 @@ make migration
 
 Doufejme, že nyní vše funguje a bude migrovat... Spusťte LNbits znovu a zkontrolujte, zda vše funguje správně.
 
-#### Zálohování a obnovení databáze
+##### Zálohování a obnovení databáze
 
 Viz [tento velmi podrobný průvodce procesem zálohování a obnovy](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
-#### Financování peněženky LNbits z mého uzlu nefunguje
+##### Financování peněženky LNbits z mého uzlu nefunguje
 
 Pokud chcete odesílat satelity ze stejného uzlu, který je zdrojem financování LNbitů, musíte upravit soubor lnd.conf.
 
@@ -310,7 +310,7 @@ Učiňte tak v části Application options v souboru lnd.conf. Na některých uz
 
 POZNÁMKA: Pro přidání prostředků na účet LNbits doporučujeme použít nové rozšíření adminUI s možností "TopUp".
 
-#### Chyba 426
+##### Chyba 426
 
 Zobrazí se mi chyba: "lnurl musí být doručen přes veřejně přístupnou doménu https nebo tor. 426 upgrade required"</summary>
 
@@ -325,7 +325,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### Chyba sítě
+##### Chyba sítě
 
 Při skenování QR se mi zobrazí "https error", "network error" nebo jiné</summary>
 
@@ -337,25 +337,25 @@ LNbits běží pouze přes Tor, nemůžete jej otevřít na veřejné doméně, 
 - Vzhledem k tomu, že chcete, aby vaše nastavení zůstalo takové, otevřete peněženku LNbits pomocí URI .onion a vytvořte ji znovu. Tímto způsobem se vygeneruje QR, které bude přístupné přes toto .onion URI, takže pouze přes tor. Nevytvářejte tento QR z .local URI, protože nebude dosažitelný přes internet - pouze z vaší domácí sítě LAN.
 - Otevřete aplikaci peněženky LN, kterou jste použili ke skenování QR, a tentokrát pomocí tor (viz nastavení aplikace peněženky). Pokud aplikace tor nenabízí, můžete místo toho použít Orbot (Android). Podrobný návod, jak otevřít LNbity pro clearnet/https, najdete v části instalace.
 
-#### Zabránit ostatním v generování peněženek na mých LNbitech
+##### Zabránit ostatním v generování peněženek na mých LNbitech
 
 Když spustíte LNbits v clearnetu, v podstatě každý si na něm může vygenerovat peněženku. Vzhledem k tomu, že prostředky vašeho uzlu jsou vázány na tyto peněženky, možná tomu budete chtít zabránit. Existují dva způsoby, jak toho dosáhnout:
 
 Nastavte povolené uživatele a přípony v souboru `.env` ([viz příklad env zde](https://github.com/lnbits/lnbits/blob/main/.env.example)). To funguje pouze v případě, že v souboru .env použijete nastavení `adminUI=FALSE`, v opačném případě to musíte provést v sekci Správa serveru -> Uživatelé -> Povolení uživatelé. Všichni ostatní poté nebudou mít povolení.
 
-#### Přizpůsobení doby platnosti faktury
+##### Přizpůsobení doby platnosti faktury
 
 Nyní můžete generovat faktury s vlastní expirací. Kompatibilní s backendy: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet!
 
 Můžete nastavit `LIGHTNING_INVOICE_EXPIRY` ve svém souboru .env nebo pomocí AdminUI změnit výchozí hodnotu pro všechny faktury. V koncovém bodě /api/v1/payments je také nové pole, kde můžete nastavit expiraci v datech JSON.
 
-## Peněženka-URL odstraněna
+### Peněženka-URL odstraněna
 
-### Peněženka na demo serveru legend.lnbits
+#### Peněženka na demo serveru legend.lnbits
 
 Vždy si na bezpečném místě uložte kopii své peněženky-URL, Export2phone-QR nebo LNDhub pro své vlastní peněženky. LNbits vám je při ztrátě NEMŮŽE pomoci obnovit.
 
-### Peněženka na vlastním zdroji financování/uzlu
+#### Peněženka na vlastním zdroji financování/uzlu
 
 Vždy si na bezpečném místě uložte kopii své peněženky-URL, Export2phone-QR nebo LNDhub pro své vlastní peněženky. Všechny uživatele LNbits a identifikační čísla peněženek najdete v rozšíření správce uživatelů LNbits nebo v databázi sqlite. Chcete-li upravit nebo přečíst databázi LNbits, přejděte do složky LNbits /data a vyhledejte soubor s názvem sqlite.db. Můžete jej otevřít a upravovat pomocí programu Excel nebo pomocí specializovaného editoru SQL, jako je [SQLite browser](https://sqlitebrowser.org/).
 
@@ -385,11 +385,11 @@ Přičemž f8a43fc363ea428db5c53b3559935f1f nahradíte hodnotou, která je před
 .quit
 ```
 
-#### LNURL pro bleskovou adresu a naopak
+##### LNURL pro bleskovou adresu a naopak
 
 Zkuste tento [kodér](https://lnurl-codec.netlify.app/) od fiatjaf nebo [tento](https://lightningdecoder.com/). Pro platbu nebo kontrolu LNURLp můžete také použít [LNurlpay](https://wwww.lnurlpay.com/). Mělo by na něm být uvedeno HTTPS, NE HTTP.
 
-#### Konfigurace komentáře, který lidé vidí při placení na můj LNURLp QR
+##### Konfigurace komentáře, který lidé vidí při placení na můj LNURLp QR
 
 Při vytváření LNURL-p se pole pro komentář ve výchozím nastavení nevyplňuje. To znamená, že k platbám není povoleno připojovat komentáře.
 
@@ -397,15 +397,15 @@ Chcete-li povolit komentáře, přidejte délku znaků pole, od 1 do 250. Jakmil
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### Vklad onchain BTC na LNbits
+##### Vklad onchain BTC na LNbits
 
 Existují dva způsoby, jak vyměnit saty z onchainu BTC na LN BTC (resp. na LNbits).
 
-##### Prostřednictvím externí výměnné služby.
+###### Prostřednictvím externí výměnné služby.
 
 Ostatní uživatelé, kteří nemají přístup k vašemu LNb, mohou použít výměnnou službu, například [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) nebo [ZigZag](https://zigzag.io/). To je užitečné, pokud ze své instance LNbits poskytujete pouze faktury LNURL/LN, ale plátce má pouze onchain saty, takže bude muset na své straně nejprve vyměnit tyto saty. Postup je jednoduchý: uživatel pošle onchain btc do swapové služby a jako cíl swapu poskytne LNURL/LN fakturu z LNbits.
 
-##### Použití rozšíření Onchain a Boltz LNbits.
+###### Použití rozšíření Onchain a Boltz LNbits.
 
 Mějte na paměti, že se jedná o samostatnou peněženku, nikoliv o peněženku LN btc, kterou LNbits reprezentuje jako "vaši peněženku" při vašem zdroji financování LN. Tuto onchain peněženku lze také použít k výměně LN btc do (např. vaší hardwarové peněženky) pomocí rozšíření LNbits Boltz nebo Deezy. Pokud provozujete webový obchod, který je propojen s vaším LNbits pro platby LN, je velmi praktické pravidelně vypouštět všechny saty z LN do onchainu. To vede k tomu, že ve vašich LN kanálech je více místa, abyste mohli přijímat nové čerstvé saty.
 
@@ -441,16 +441,16 @@ Přitom doporučujeme nastavit síťový URI LN na URI vlastního uzlu. Pokud je
 
 Pokud se vám při použití ypub v rozšíření On-chain objeví chyba "unsupported hash type", zkontrolujte, zda vaše instance LNbits používá python 3.10, může být ovlivněna [tímto problémem](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Upravte soubor openssl.cnf podle popisu v odpovědi na stackoverflow a restartujte LNbits.
 
-## Tvorba nástrojů a konstrukce pomocí LNbits
+### Tvorba nástrojů a konstrukce pomocí LNbits
 
 LNbits má nejrůznější [otevřené API](https://legend.lnbits.com/docs) a nástroje pro programování a připojení k mnoha různým zařízením pro miliardu případů použití.
 
 Pokud se stavěním začínáte, začněte s tímto [MakerBits prezentace](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) od Bena Arca o stavbě gadgetů založených na LNbits.
 
-### DŮLEŽITÉ:
+#### DŮLEŽITÉ:
 
 
-- LNbits funguje na základě protokolu LNURL, jehož požadavky jsou platné ve dvou formách: buď jako https:// clearnet link (nejsou povoleny žádné certifikáty podepsané vlastním jménem), nebo jako http:// v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, je třeba otevřít LNbits do sítě clearnet (https).
+- LNbits funguje na základě protokolu LNURL, jehož požadavky jsou platné ve dvou formách: buď jako https://clearnet link (nejsou povoleny žádné certifikáty podepsané vlastním jménem), nebo jako http://v2/v3 onion link. Chcete-li nabízet služby LNbits, jako jsou kódy LNURLp/w QR nebo karty NFC, které lze používat ve volné přírodě, je třeba otevřít LNbits do sítě clearnet (https).
 - K napájení zařízení esp32 používejte pouze kabely DATA. Ne všechny kabely podporují kromě napájení esp také data. Nebyli byste první, kdyby kabel dodaný s esp byl pouze napájecí
 - Dbejte na to, abyste nepoužívali USB-Hub s připojenými dalšími zařízeními. To může vést k podivným efektům, které se obtížně ladí (např. nespuštění nebo zastavení).
 - Pro realizaci projektů esp s operačním systémem MacOS budete potřebovat ovladač UART Bridge Driver. Pokud máte problémy s ovladačem v systémech Mac nebo Linux, můžete je najít zde, nebo pokud se jedná o TTGO Display, zde. Pokud jste na Windows a máte problémy s připojením, ujistěte se, že jste si stáhli STAROU verzi 11.1.0, protože novější nefunguje! Sériový terminál pro kontrolu připojení najdete také zde - nastavte přenosovou rychlost 115200.

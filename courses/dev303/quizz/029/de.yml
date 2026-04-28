@@ -1,0 +1,8 @@
+question: Welches sind die beiden Varianten des Result enum von Rust, die für die Behandlung wiederherstellbarer Fehler verwendet werden?
+answer: Ok(T) für erfolgreiche Operationen und Err(E) für Fehlschläge
+wrong_answers:
+  - Erfolg(T) für erfolgreiche Operationen und Misserfolg(E) für Misserfolge
+  - Some(T) für erfolgreiche Operationen und None für Misserfolge
+  - Pass(T) für erfolgreiche Operationen und Panic(E) für Misserfolge
+explanation: |
+  Das Enum Result in Rust hat genau zwei Varianten: Ok(T), das einen erfolgreichen Wert des Typs T enthält, und Err(E), das einen Fehler des Typs E enthält. Dieses Design zwingt Entwickler dazu, sowohl Erfolgs- als auch Misserfolgsfälle explizit zu behandeln. Die anderen Optionen sind falsch - Success/Failure sind keine Result-Varianten, Some/None gehören zum Option-Enum für die Behandlung von Nullwerten, und Pass/Panic sind keine Standard-Rust-Enum-Varianten für die Fehlerbehandlung.

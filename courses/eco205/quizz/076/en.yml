@@ -1,0 +1,8 @@
+question: What concept did Mises develop to demonstrate the theoretical impossibility of perfect equilibrium in the economy?
+answer: The uniform rotation economy where all variables remain constant
+wrong_answers:
+  - "The spontaneous order based on the natural coordination of economic players"
+  - Tacit knowledge dispersed among all market participants
+  - Economic calculation based on voluntary exchanges and free prices
+explanation: |
+  Mises created the concept of a uniformly rotating economy as an absurd hypothetical model in which all variables remain constant, to prove that a perfect equilibrium is impossible. This would imply a certain future, which contradicts the very principle of human action based on uncertainty. The other options are real, functional concepts: Hayek's spontaneous order explains natural coordination, tacit knowledge describes the non-formalized knowledge used on a daily basis, and economic calculation constitutes a self-regulating market mechanism.

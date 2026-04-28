@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru ya Rustup mu bijanye n’iterambere ry’ibidukikije rya Rust?
+answer: Uburyo bwo gucunga uruhererekane rw’ibikoresho rwo gushiramwo no gucunga Rust.
+wrong_answers:
+  - Umuyobozi w'amapaki yo gucungera ibiva ku migambi ya Rust
+  - Igikoresho giteye imbere gisesangura kode kigatanga ivyiyumviro vyo gutera imbere
+  - Uburyo bwo kwubaka bukoranya porogaramu za Rust no gucunga imiterere y'umugambi
+explanation: |
+  Rustup yateguwe cane cane nk’uburyo bwo gucunga uruhererekane rw’ibikoresho bujejwe gushiramwo, guhindura, no gucunga Rust ubwayo mu migambi itandukanye n’ibibanza. Mu gihe Cargo ikora nk’umuyobozi w’amapaki n’uburyo bwo kwubaka imigambi ya Rust, Clippy na yo ikora nk’umuyobozi w’isesengura ry’amakode, Rustup ikora ku rugero rwo hejuru mu gucunga ibidukikije vyose vy’iterambere rya Rust. Ishobora gutuma abahinguzi bashobora gushiramwo verisiyo zitandukanye za Rust, gucunga intumbero z'ugukoranya ku mbuga zitandukanye, no guhindura mu buryo bworoshe ku bishasha vya Rust n'amabwirizwa yoroshe nka 'rustup update'.

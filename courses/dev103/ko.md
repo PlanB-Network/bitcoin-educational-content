@@ -5031,12 +5031,13 @@ counter += 1 // same as counter = counter + 1
 가장 일반적인 것은 다음과 같습니다:
 
 
-| Operator | Meaning             |
+
+| 연산자 | 의미 |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | 더하기 및 할당 |
+| `-=` | 빼기 및 할당 |
+| `*=` | 곱하기 및 할당 |
+| `/=` | 나누기 및 할당 |
 
 예시:
 
@@ -6524,36 +6525,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 이렇게 진행됩니다:
 
 
-1. fs.createWriteStream()`은 쓰기 가능한 스트림을 생성합니다.
+1. `fs.createWriteStream()`은 쓰기 가능한 스트림을 생성합니다.
 
-2. .write()`를 사용하여 텍스트를 작성합니다.
+2. `error` 및 `finish` 이벤트에 대한 핸들러를 등록합니다.
 
-3. 완료되면 '.end()`를 호출하여 스트림을 닫습니다.
+3. `.write()`를 사용하여 텍스트를 작성합니다.
 
-4. 모든 데이터가 쓰여지면 '완료' 이벤트가 발생합니다.
+4. 작업이 끝나면 `.end()`를 호출하여 스트림을 닫습니다.
 
-5. 문제가 발생하면 '오류' 이벤트가 트리거됩니다.
+5. 버퍼링된 모든 데이터가 플러시되고 기록되면 `finish` 이벤트가 발생합니다. 문제가 발생하면 `error` 이벤트가 발생합니다.
 
 
 읽기 가능한 스트림과 마찬가지로 쓰기 가능한 스트림은 모든 것을 한꺼번에 메모리에 저장할 필요가 없기 때문에 빅데이터에 적합합니다.

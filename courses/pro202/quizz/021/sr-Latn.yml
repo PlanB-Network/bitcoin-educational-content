@@ -1,0 +1,8 @@
+question: Koja je primarna posledica zaboravljanja uključivanja izlaza za kusur prilikom trošenja UTXO koji sadrži više Bitcoin nego što je potrebno?
+answer: Prekomerni iznos automatski postaje naknada za rudare
+wrong_answers:
+  - Transakcija će biti odbijena od strane mreže kao nevažeća
+  - "Prekomerni iznos se vraća na adresu originalnog pošiljaoca"
+  - Prekomerni iznos ostaje zaključan u originalnom UTXO
+explanation: |
+  U Bitcoin modelu UTXO, transakcione naknade se računaju implicitno kao razlika između ukupnih ulaza i ukupnih izlaza (naknada = suma(ulaza) - suma(izlaza)). Kada trošite UTXO, morate ga potrošiti u celosti - delimično trošenje je nemoguće. Ako treba da potrošite samo deo vrednosti UTXO, morate kreirati izlaz za kusur da biste primili ostatak. Ako zaboravite da uključite ovaj izlaz za kusur, neuračunata razlika između ulaza i izlaza automatski postaje naknada za rudare. Zato je pravilna konstrukcija izlaza za kusur od suštinskog značaja - bez nje, mogli biste slučajno platiti ogromne naknade rudarima.

@@ -315,7 +315,7 @@ No Bitcoin Core, generate um novo endereço de receção (separador "Receive"), 
 
 
 
-Aceda a [gitlab.com/invincible-privacy/joinstr-kmp/-/releases] (https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) para transferir a versão mais recente do APK. No browser do Android, transfira o ficheiro e, em seguida, abra-o para iniciar a instalação. Terá de permitir a instalação a partir de fontes desconhecidas nas definições de segurança do seu telemóvel, se necessário.
+Aceda a [gitlab.com/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) para transferir a versão mais recente do APK. No browser do Android, transfira o ficheiro e, em seguida, abra-o para iniciar a instalação. Terá de permitir a instalação a partir de fontes desconhecidas nas definições de segurança do seu telemóvel, se necessário.
 
 
 
@@ -542,13 +542,14 @@ Atualmente, o Joinstr gera pools de **2 a 5 participantes** em média. Estes nú
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Aspecto | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Participantes por pool** | 50-100 | 5-10 | Variável (P2P) | **2-5** |
+| **Coordenador** | Centralizado (fechado 2024) | Centralizado (ativo) | P2P maker/taker | **Nenhum (Nostr)** |
+| **Resistência à censura** | Fraca | Média | Muito alta | **Muito alta** |
+| **Taxas de coordenação** | Percentual | Taxa de entrada | Pago aos makers | **Nenhum** |
+| **Discriminação UTXO** | Sim (listas negras) | Não | Não | **Não** |
 
 💡 **Outras soluções activas de CoinJoin** :
 
@@ -671,7 +672,7 @@ Num contexto de crescente escrutínio financeiro, as ferramentas descentralizada
 
 
 
-- [Telegram Joinstr Group] (https://t.me/joinstr) - Apoio comunitário e cantos de favoritos
+- [Telegram Joinstr Group](https://t.me/joinstr) - Apoio comunitário e cantos de favoritos
 - [Discussão técnica sobre DelvingBitcoin](https://delvingbitcoin.org/t/who-will-run-the-coinjoin-coordinators/934)
 
 

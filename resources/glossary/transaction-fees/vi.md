@@ -1,6 +1,7 @@
 ---
-term: TRANSACTION FEES
+term: Phí giao dịch
 
+definition: Số tiền thưởng cho thợ đào khi đưa một giao dịch vào một khối, được tính bằng chênh lệch giữa đầu vào và đầu ra.
 ---
 Transaction fees represent a sum that aims to compensate miners for their participation in the proof of work mechanism. These fees encourage miners to include transactions in the blocks they create. They result from the difference between the total amount of inputs and the total amount of outputs in a transaction:
 
@@ -22,4 +23,3 @@ In this specific example, it was a transaction initiated by the director of the 
 
 It is also necessary to consider the limits of purging. During periods of high congestion, the mempools of nodes purge their pending transactions below a certain threshold, in order to respect their allocated RAM limit. This limit is freely chosen by the user, but many leave the default value of Bitcoin Core at 300 MB. It can be modified in the `bitcoin.conf` file with the `maxmempool` parameter.
 
-> ► *In English, we refer to it as "transaction fees".*

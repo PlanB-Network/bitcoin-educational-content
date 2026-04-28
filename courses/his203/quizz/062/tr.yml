@@ -1,0 +1,10 @@
+question: Mart 2012'den itibaren hangi subreddit'te kullanıcılar bitcoin tüyoları için çıplak fotoğraflarını yayınlayabiliyordu?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin, 26 Mart 2012'de Las Vegas'ta yaşayan Linux ve gizlilik savunucusu Julian Tosh, diğer adıyla Tuxavant tarafından açıldı. Subreddit neredeyse
+ yıl sonuna kadar 2.000 üye.
+reviewed: true

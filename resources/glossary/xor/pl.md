@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Podstawowa operacja logiczna boole'owska w kryptografii, dająca wynik prawda tylko wtedy, gdy oba operandy są różne.
 ---
 
 Akronim operacji "Wyłącz lub", po francusku "Ou exclusif" Jest to podstawowa funkcja logiki boolowskiej. Operacja ta przyjmuje dwa operandy boolowskie, z których każdy jest $prawdą$ lub $fałszem$, i daje wynik $prawdziwy$ tylko wtedy, gdy oba operandy się różnią. Innymi słowy, wynikiem operacji XOR jest $true$, jeśli dokładnie jeden (ale nie oba) z operandów jest $true$. Na przykład, operacja XOR pomiędzy $1$ i $0$ da w wyniku $1$. Zauważamy:

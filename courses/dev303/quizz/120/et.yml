@@ -1,0 +1,8 @@
+question: Milline on kõige olulisem kompromiss privaatsuse osas, mis kaasneb üleminekuga isehaldatavalt LDK rakendamiselt Breez SDK pilvepõhisele arhitektuurile?
+answer: Greenlight saab pilvepõhise marsruutimise kaudu potentsiaalse ülevaate maksete sihtkohtadest ja arvete koostamise tegevusest
+wrong_answers:
+  - "Privaatseid võtmeid hoitakse Blockstream'i serverites, mitte kasutaja seadmes kohapeal"
+  - Kanalite olekuteave muutub avalikult nähtavaks Lightning Network graafikus Greenlight-sõlmede kaudu
+  - LSP teenused saavad nüüd jälgida kõiki on-chain tehinguid ja siduda need Lightning-maksemustritega
+explanation: |
+  Õige vastus tuvastab peamise privaatsuse vähenemise: pilvepõhine marsruutimine võimaldab Greenlight'il potentsiaalselt jälgida makse sihtkohti, samas kui pilvearvete koostamine laiendab teabe kokkupuudet kaugemale sellest, mida traditsioonilised ainult LSP-arhitektuurid näitasid. Valed vastused on valed, sest: privaatvõtmed jäävad pilvearhitektuurist hoolimata kasutaja kontrolli alla; kanalite olekud ei muutu marsruutimise kaudu avalikult nähtavaks; ja LSPd ei saa selle arhitektuurimuudatuse kaudu täiendavaid on-chain tehingu jälgimise võimalusi.

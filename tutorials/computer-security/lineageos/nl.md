@@ -149,8 +149,8 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-- Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com] (https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
-- Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images] (https://developers.google.com/android/images)
+- Android Flash-tool**: Gebruik de officiële tool van Google [flash.android.com](https://flash.android.com) om je Pixel-apparaat eenvoudig te herstellen naar stock-Android vanuit je webbrowser (Chrome/Edge vereist)
+- Alternatief**: Fabrieksafbeeldingen handmatig van [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
 
@@ -176,7 +176,7 @@ Volgens officiële statistieken omvatten de meest gebruikte modellen een versche
 
 
 
-**ADB- en Fastboot-tools:** Volg de [officiële LineageOS-gids] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) om de Android SDK-platformtools te installeren. Controleer de installatie met `adb version` en `fastboot --version`.
+**ADB- en Fastboot-tools:** Volg de [officiële LineageOS-gids](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) om de Android SDK-platformtools te installeren. Controleer de installatie met `adb version` en `fastboot --version`.
 
 
 
@@ -685,13 +685,14 @@ Deze regelmatige updates zijn een grote aanwinst, vooral voor apparaten die door
 
 
 
+
 | **Aspect** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Compatibiliteit** | Alleen Pixels | Honderden apparaten |
+| **Beveiliging** | Geavanceerde beperkingen | Standaard AOSP-beveiliging |
+| **Google Play** | Optionele sandbox | Klassieke installatie mogelijk |
+| **Installatie** | Webinterface + USB | Technische handmatige procedure |
+| **Filosofie** | Beveiliging bovenal | Balans en keuzevrijheid |
 
 ### Aanbevelingen voor gebruik
 
@@ -722,7 +723,7 @@ LineageOS biedt een volwassen alternatief om de controle over je Android-smartph
 
 
 
-- [Officiële website van LineageOS] (https://lineageos.org)
+- [Officiële website van LineageOS](https://lineageos.org)
 - [LineageOS Wiki](https://wiki.lineageos.org) - Installatiegidsen per model
 - [LineageOS voor microG](https://lineage.microg.org) - Versie met geïntegreerde microG
 

@@ -1,9 +1,9 @@
-question: Những tính năng bảo mật nâng cao nào thường được triển khai ở cấp Doanh nghiệp cho Bitcoin?
+question: Những tính năng bảo mật nâng cao nào thường được triển khai Bitcoin ở cấp độ doanh nghiệp?
 answer: Chữ ký đa cấp với khóa thời gian
 wrong_answers:
-  - Bảo vệ bằng mật khẩu cho thiết bị di động Lightning wallet
-  - Chữ ký đơn với bảo vệ BIP39 passphrase
-  - Chữ ký đơn với cụm từ seed gồm 24 từ
+  - Bảo vệ bằng mật khẩu cho thiết bị di động hỗ trợ ví Lightning
+  - Chữ ký đơn với bảo vệ cụm mật khẩu (BIP39 passphrase)
+  - Chữ ký đơn với cụm từ khoá (seed) gồm 24 từ
 explanation: |
   Các biện pháp bảo mật cao như cấu hình đa chữ ký với khóa thời gian là rất quan trọng để quản lý số tiền lớn.
 reviewed: true

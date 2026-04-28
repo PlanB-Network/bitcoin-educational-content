@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta podejścia Rust do bezpieczeństwa pamięci w czasie kompilacji w porównaniu do odśmiecania?
+answer: Eliminuje to koszty ogólne i nieprzewidywalne przerwy w działaniu
+wrong_answers:
+  - Zużywa więcej pamięci, ale zapewnia lepsze gwarancje bezpieczeństwa
+  - Wymaga mniej kodu do napisania, ale działa wolniej niż garbage collection
+  - Zapobiega wszystkim błędom w czasie wykonywania, ale zużywa więcej procesora podczas wykonywania
+explanation: |
+  Podejście Rust do bezpieczeństwa pamięci w czasie kompilacji analizuje kod podczas kompilacji, aby zapewnić bezpieczeństwo pamięci bez żadnych kosztów w czasie wykonywania. W przeciwieństwie do odśmiecania używanego w językach takich jak Java i Go, które wprowadza narzut na wydajność i może powodować nieprzewidywalne przerwy podczas wykonywania programu, system Rust ma zerowy wpływ na czas wykonywania. Pozostałe opcje są niepoprawne, ponieważ Rust w rzeczywistości wykorzystuje pamięć bardziej efektywnie (nie więcej), nie działa wolniej (działa szybciej bez kontroli runtime) i nie zużywa więcej procesora podczas wykonywania (praca jest wykonywana w czasie kompilacji).

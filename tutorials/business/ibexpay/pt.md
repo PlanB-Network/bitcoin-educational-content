@@ -14,7 +14,7 @@ Tornar o Bitcoin utilizável por todos significa também mostrar a sua utilidade
 
 
 
-IbexPay é uma plataforma desenvolvida pela IBEX, pioneira em serviços de infra-estruturas Lightning. Para obter uma conta, aceda a IbexPay [plataforma oficial] (https://www.ibexpay.io/) e clique no botão "**Start**".
+IbexPay é uma plataforma desenvolvida pela IBEX, pioneira em serviços de infra-estruturas Lightning. Para obter uma conta, aceda a IbexPay [plataforma oficial](https://www.ibexpay.io/) e clique no botão "**Start**".
 
 
 

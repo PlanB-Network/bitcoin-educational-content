@@ -1,0 +1,8 @@
+question: Wat gebeurt er met de stack na het uitvoeren van OP_CHECKSIG als handtekeningverificatie slaagt?
+answer: De waarde 1 wordt op de stack geduwd
+wrong_answers:
+  - De handtekening en openbare sleutel blijven op de stack staan
+  - De stack wordt leeggemaakt en teruggezet naar leeg
+  - De hash van de openbare sleutel wordt in de stack geduwd
+explanation: |
+  OP_CHECKSIG is een stack-transformerende opcode die een handtekening en een publieke sleutel van de stack gebruikt, de handtekening verifieert met de sighash van de transactie en een 1 (voor geldig) of 0 (voor ongeldig) op de stack zet. De originele handtekening en openbare sleutel worden tijdens dit proces verwijderd. De stack wordt niet helemaal leeggemaakt en er worden geen hash-waarden gepushed - alleen het booleaanse resultaat van de verificatie.

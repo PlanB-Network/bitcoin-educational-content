@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel van Rust enums die gegevens kunnen dragen binnen elke variant?
+answer: Het voorkomt mismatches tussen type-indicatoren en bijbehorende gegevens door ze te bundelen
+wrong_answers:
+  - Hiermee kunnen enums automatisch alle standaardeigenschappen implementeren zonder expliciete declaratie
+  - Het maakt het mogelijk enums te gebruiken als generieke parameters in elke functie of methode
+  - Hierdoor gebruiken enums minder geheugen dan traditionele structuren met vergelijkbare gegevens
+explanation: |
+  Rust enums kunnen gegevens direct aan elke variant koppelen, wat de veelgemaakte programmeerfout elimineert om aparte variabelen te onderhouden voor type-indicatoren en hun bijbehorende gegevens. Dit ontwerp zorgt ervoor dat de gegevens altijd overeenkomen met de variant, waardoor inconsistenties worden voorkomen die tot runtime fouten kunnen leiden. In tegenstelling tot andere talen, waar je een aparte enum hebt voor het type en variabelen voor de gegevens, bundelt Rust alles, waardoor het onmogelijk is dat het type en de gegevens niet overeenkomen.

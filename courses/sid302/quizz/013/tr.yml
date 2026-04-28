@@ -1,0 +1,8 @@
+question: Taproot özellikli bir HTLC'de, her iki taraf da çapraz katman takasını tamamlamak için işbirliği yaptığında ne olur?
+answer: MuSig2 aracılığıyla birleştirilmiş açık anahtarlarını kullanarak ortak imza atarlar ve standart tek imzalı bir ödemeden ayırt edilemeyen bir işlem oluştururlar
+wrong_answers:
+  - Ağ doğrulaması için on-chain karma ve zaman kilitlerini içeren tüm komut dosyasını açıklamalıdırlar
+  - Toplanmış anahtarı gözlemcilerden gizli tutarken yalnızca ihtiyaç duyulan belirli Merkle ağacı dalını yayınlarlar
+  - Anahtar toplama olmadan atomik uzlaştırmayı sağlamak için her katmanda aynı anda ayrı işlemler yayınlarlar
+explanation: |
+  Taproot'teki işbirliğine dayalı "anahtar yolu", tarafların MuSig2 kullanarak anahtarlarını tek bir birleştirilmiş açık anahtarda birleştirmelerine olanak tanır. Her ikisi de aynı fikirde olduğunda, blok zincirindeki herhangi bir standart ödemeyle aynı görünen işlemi birlikte imzalarlar. Bu, hiçbir komut dosyası mantığı açığa çıkmadığı ve minimum blok alanı tükettiği için maksimum gizlilik ve verimlilik sağlar. Diğer seçenekler ya eski HTLC davranışını ya da düşmanca senaryo yolu senaryosunu yanlış tanımlamaktadır.

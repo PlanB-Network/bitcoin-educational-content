@@ -1,9 +1,9 @@
-question: RGB-umuravyo-node mu bidukikije vya RGB ni iki?
-answer: daemon yo gucunga imirongo y'umuravyo ihuye na RGB
+question: Node yokuri lightning ya RGB n'iki muriyi RGB ?
+answer: daemon yo gucunga imihora ya Lightning ihuye na RGB
 wrong_answers:
-  - Wallet igendagenda kugira ngo icunge umutungo wa RGB
+  - Ingodo yomuri ngendanwa kugira ngo icunge umutungo wa RGB
   - Serveri y'ubutumwa kuri Exchange RGB
   - Igikoresho ca Mining c’itunga rya RGB kuri Bitcoin.
 explanation: |
-  RGB-lightning-node ni Rust daemon yagenewe gushiramwo ivy’ubutunzi vya RGB mu mihora y’umuravyo mu kwongerako amahinduka ya leta ya RGB ku bikorwa vy’ubugeni.
-reviewed: false
+  Node yokuri lightning ya RGB ni Rust daemon yagenewe gushiramwo ivy’ubutunzi vya RGB mu mihora y’umuravyo mu kwongerako amahinduka y'ukobimeze ya RGB ku bikorwa vy’ihanahanwa.
+reviewed: true

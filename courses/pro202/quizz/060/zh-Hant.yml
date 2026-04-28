@@ -1,0 +1,8 @@
+question: 有什麼特定機制可以確保 SegWit 前的節點在不了解見證驗證規則的情況下，接受 P2WPKH 交易為有效交易？
+answer: SegWit 前的節點會將 OP_0 + 20 位元組散列指令碼解釋為不需要簽章驗證的 'anyone-can-spend' 輸出。
+wrong_answers:
+  - SegWit 前的節點在接受 P2WPKH 交易之前，會自動將其轉送至升級節點進行見證驗證
+  - SegWit 前的節點會辨識 P2WPKH 模式並完全跳過驗證，將所有見證交易視為預先驗證的交易
+  - Pre-SegWit 節點使用向後相容的轉換規則，將見證資料轉換回傳統的 scriptSig 格式
+explanation: |
+  SegWit 的天才設計在於利用 SegWit 以前的節點處理未知指令碼模式的方式。當這些較舊的節點遇到 P2WPKH 的腳本 (OP_0 接著一個 20 字節的推送)，它們並不認為這是一個特殊的見證程式。取而代之，它們會將其視為標準指令碼，並將 OP_0 和雜湊留在堆疊上。由於 OP_0 在 Bitcoin 的腳本系統中會評估為 false，因此 SegWit 之前的節點會將此解釋為「anyone-can-spend」條件 - 意即從它們的角度來看，不需要簽章驗證。這允許交易在不破壞共識的情況下被接受到它們的 Mempool 和區塊中，而 SegWit 認知節點則使用見證資料執行實際的加密驗證。

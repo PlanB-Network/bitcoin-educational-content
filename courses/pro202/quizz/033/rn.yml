@@ -1,0 +1,8 @@
+question: Igihe ukoresha umusaruro wa P2SH, ni ubuhe buryo bwo kwemeza bufise intambwe zibiri butegerezwa kuba kugira ngo igikorwa gifatwe ko gifise akamaro?
+answer: Mbere suzuma HASH160 y'inyandiko yo gucungura ihuye n'inyandikoPubKey hash, hanyuma ukore inyandiko yo gucungura n'amakuru yatanzwe
+wrong_answers:
+  - Mbere ukore inyandiko yo gucungura n'amakuru yatanzwe, hanyuma usuzume ko hash ivuyemwo ihuye n'inyandikoPubKey
+  - Ubanze usuzume ko imikono yose ifise akamaro ku mfunguruzo zayo za bose, hanyuma usuzume ko inyandiko y'ugucungura ihuye
+  - Mbere wemeze ko inyandiko yo gucungura irimwo ama opcode akwiriye, hanyuma ugenzure ko inyandiko ikoreshwa itanga igisubizo c'ukuri
+explanation: |
+  P2SH kwemeza bisaba uburyo bwihariye bw’intambwe zibiri: ubwa mbere, hash y’inyandiko y’ugucungura yatanzwe itegerezwa guhura n’inyandiko y’ugucungura yatanzwe itegerezwa guhura n’inyandiko y’ugucungura y’amabayiti 20 iri muri scriptPubKey (igenzura rya HASH160), kandi inyuma y’aho iryo genzura riheze ni ho gusa urubuga rukora inyandiko y’ugucungura ubwayo n’amakuru yo gufungura. Iyi nzira ituma inyandiko y’ugucungura ibereye yonyene ishobora gukoreshwa mu gihe ivy’ugukoresha amahera vy’ukuri biguma vyihishijwe gushika amahera akoreshwa. Ayandi mahitamwo adondora urutonde rw'ivyemezo vyumvikana ariko bitari vyo bidakurikiza umurongo nyawo wa P2SH.

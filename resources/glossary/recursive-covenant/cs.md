@@ -1,6 +1,7 @@
 ---
-term: REKURZIVNÍ (SMLOUVA)
+term: Rekurzivní (covenant)
 
+definition: Covenant ukládající podmínky pro aktuální transakci a všechny následující na neurčito.
 ---
 Rekurzivní smlouva v Bitcoinu je typ chytré smlouvy, která ukládá podmínky nejen pro aktuální transakci, ale také pro budoucí transakce, které utrácejí výstupy této transakce. To umožňuje vytvářet řetězce transakcí, kde každá musí dodržovat určitá pravidla definovaná první v řetězci. Rekurzivita vytváří posloupnost transakcí, kde každá dědí omezení od své nadřazené transakce. To by umožnilo komplexní a dlouhodobou kontrolu nad tím, jak lze bitcoiny utrácet, ale zároveň by to přineslo rizika týkající se svobody utrácení a zaměnitelnosti.
 

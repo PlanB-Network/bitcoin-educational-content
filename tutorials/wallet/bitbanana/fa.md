@@ -1,5 +1,5 @@
 ---
-name: بیت‌بانانا
+name: BitBanana
 description: مدیر موبایل برای نود لایتنینگ شما
 ---
 

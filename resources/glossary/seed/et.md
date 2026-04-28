@@ -1,5 +1,6 @@
 ---
-term: GRAIN
+term: Seed
+definition: 512-bitine teave, mis võimaldab genereerida kõik HD Bitcoini rahakoti võtmed.
 ---
 
 Bitcoin hierarhilise deterministliku portfelli kontekstis on seed 512-bitine teave, mis on saadud juhuslikust sündmusest. Seda kasutatakse deterministlikult ja hierarhiliselt generate privaatvõtmete ja nende vastavate avalike võtmete kogumi jaoks Bitcoin portfelli jaoks. seed aetakse sageli segamini taastamislausega ise. Kuid see ei ole sama asi. seed saadakse funktsiooni `PBKDF2` kohaldamisel Mnemonic fraasile ja mis tahes passphrase-le.

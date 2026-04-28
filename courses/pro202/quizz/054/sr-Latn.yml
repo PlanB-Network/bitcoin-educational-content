@@ -1,0 +1,8 @@
+question: U procesu rukovanja mreže Bitcoin sa P2P, koji specifičan uslov mora biti ispunjen pre nego što dva čvora mogu početi aktivno prenositi inventare i podatke o transakcijama?
+answer: Oba čvora moraju razmeniti version i verack poruke međusobno
+wrong_answers:
+  - Čvor za povezivanje mora primiti DNS seed potvrdu od glavnih programera
+  - "Oba čvora moraju verifikovati visinu bloka i heš vrha lanca jedan drugog"
+  - "Čvor koji prima mora validirati peerski sertifikat čvora koji se povezuje"
+explanation: |
+  Bitcoin P2P rukovanje zahteva dvosmernu razmenu gde povezani čvor šalje poruku o verziji, primalac odgovara sa verack i svojom porukom o verziji, a originalni pošiljalac odgovara sa svojim verack. Tek nakon ove kompletne razmene od četiri poruke (verzija→verack+verzija→verack) čvorovi mogu započeti aktivnu komunikaciju. DNS semena se koriste samo za početno otkrivanje partnera, ne za rukovanje. Bitcoin ne koristi sertifikate, a validacija lanca se dešava nakon uspostavljanja veze.

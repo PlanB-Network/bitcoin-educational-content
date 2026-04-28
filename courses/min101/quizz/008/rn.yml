@@ -1,0 +1,9 @@
+question: Ikimenyetso c'igikorwa (proof of work) muri Bitcoin giharurwa ku ki?
+answer: Umutwe w'ububiko (block header)
+wrong_answers:
+  - Uburebure bw'ububiko (block height)
+  - Mempool y'urusobe
+  - Ibikorwa 21 vya mbere biri mu bubiko
+explanation: |
+  Umu-mining akora mu gu-hashing incuro nyinshi umutwe w'ububiko w'uburebure bwa 80 bytes, uba urimwo ibiri mu bubiko vyose.
+reviewed: false

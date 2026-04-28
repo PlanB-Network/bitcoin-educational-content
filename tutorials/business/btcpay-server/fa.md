@@ -1,5 +1,5 @@
 ---
-name: سرور BTCPay
+name: BTCPay Server
 description: پذیرش پرداخت‌های BTC بدون واسطه‌ها
 ---
 

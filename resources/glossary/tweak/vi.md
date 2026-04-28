@@ -1,5 +1,6 @@
 ---
-term: ĐIỀU CHỈNH
+term: Tweak
+definition: Giá trị vô hướng được thêm vào khóa công khai để sửa đổi nó trong khi vẫn duy trì khả năng sử dụng với khóa riêng ban đầu.
 ---
 
 Trong mật mã học, "điều chỉnh" khóa công khai là sửa đổi khóa công khai bằng cách sử dụng giá trị cộng được gọi là "điều chỉnh", để khóa công khai vẫn có thể sử dụng được khi biết cả khóa riêng tư gốc và điều chỉnh. Về mặt kỹ thuật, điều chỉnh là giá trị vô hướng được thêm vào khóa công khai gốc. Nếu $P$ là khóa công khai và $t$ là điều chỉnh, khóa công khai đã điều chỉnh sẽ trở thành:

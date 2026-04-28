@@ -1,0 +1,8 @@
+question: Liquid Network 中使用的 Bitcoin 表示法的名称是什么？
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - 缠绕式 Bitcoin（WBTC）
+  - Sidechain Bitcoin (SBTC)
+  - Federated Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin（LBTC）是 Bitcoin 在 Liquid 侧链上存在时的正确名称。当用户将 Bitcoin 与 Liquid 挂钩时，他们会收到等量的 LBTC，可用于 Liquid Network 内的交易。WBTC 是基于以太坊的 Bitcoin token，而 SBTC 和 FBTC 并不是任何主要网络中使用的真正的 Bitcoin 代表。

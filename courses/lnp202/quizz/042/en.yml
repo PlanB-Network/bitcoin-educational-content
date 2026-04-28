@@ -1,0 +1,9 @@
+question: What's the main disadvantage of forced closure?
+answer: Funds blocked by timelock
+wrong_answers:
+  - Partial loss of funds
+  - Obsolescence of the Lightning node
+  - Lightning node desynchronization
+explanation: |
+  Funds are blocked by a timelock and fees are often high.
+reviewed: false

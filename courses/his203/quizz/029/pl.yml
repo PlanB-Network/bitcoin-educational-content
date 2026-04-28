@@ -1,0 +1,10 @@
+question: Jak nazywały się fizyczne bitcoiny wyprodukowane przez amerykańskiego dewelopera Mike'a Caldwella między wrześniem 2011 r. a listopadem 2013 r.?
+answer: Casascius Coins
+wrong_answers:
+  - Bitbills
+  - Lealana Cents
+  - PrintCoins
+explanation: |
+ Casascius był pseudonimem Mike'a Caldwella, 33-letniego dewelopera mieszkającego w Utah. Jego fizyczne bitcoiny były dostępne w 1 BTC, 25 BTC i innych nominałach, a także
+ a także sztabki o wartości do 1000 BTC. Odniosły one ogromny sukces, przechowując przez lata prawie 100 000 bitcoinów.
+reviewed: true

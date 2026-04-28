@@ -522,15 +522,16 @@ Aby Orion był szybki i prywatny:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kryterium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemetria** | Brak | Minimalna | Rozległa | Umiarkowana | Minimalna |
+| **Blokada natywna** | 99,9% efektywna | Podstawowa | Brak | Częściowa | Pełna |
+| **Rozszerzenia** | Chrome + Firefox | Ograniczone | Tylko Chrome | Tylko Firefox | Tylko Chrome |
+| **Wydajność Mac** | Doskonała | Doskonała | Dobra | Przeciętna | Dobra |
+| **Zużycie RAM** | Bardzo niskie | Niskie | Wysokie | Przeciętne | Przeciętne |
+| **Open Source** | Częściowa | Częściowa (WebKit) | Częściowa | Pełna | Pełna |
+| **Platformy** | Mac/iOS | Mac/iOS | Wszystkie | Wszystkie | Wszystkie |
 
 **W porównaniu do Safari**: Orion oferuje doskonałą ochronę dzięki zaawansowanemu blokerowi i obsłudze rozszerzeń, przy jednoczesnym zachowaniu wydajności WebKit.
 

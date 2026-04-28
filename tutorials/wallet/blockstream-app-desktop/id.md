@@ -76,7 +76,7 @@ description: Bagaimana cara menggunakan Hardware Wallet Anda dengan Aplikasi Blo
 
 
 
-- Buka [situs web resmi] (https://blockstream.com/app/) dan klik "_Unduh Sekarang_". Unduh versi yang sesuai dengan sistem operasi Anda (Windows, macOS, Linux).
+- Buka [situs web resmi](https://blockstream.com/app/) dan klik "_Unduh Sekarang_". Unduh versi yang sesuai dengan sistem operasi Anda (Windows, macOS, Linux).
 - **Catatan**: Pastikan untuk mengunduh dari sumber resmi untuk menghindari perangkat lunak palsu.
 
 
@@ -610,7 +610,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - **Penjelajah Blok** :
     - Onchain: [Mempool.space](https://Mempool.space/)
     - Liquid: [Info Blockstream](https://blockstream.info/Liquid)
-    - Petir: [1ML (Lightning Network)] (https://1ml.com/)
+    - Petir: [1ML (Lightning Network)](https://1ml.com/)
 
 
 

@@ -1,5 +1,6 @@
 ---
-term: AVG. ROUND DURATION
+term: Average round duration
+definition: An indicator estimating the average time required for a mining pool to find a block, based on its computational power and network difficulty.
 ---
 
 The average round duration is an indicator used to estimate how long it takes a mining pool to find a block, based on the network's difficulty and the pool's hashrate. It is calculated by dividing the expected number of shares needed to find a valid block by the pool's hashrate. For example, if a mining pool has 200 miners, and each generates an average of 4 shares per second, the total computational power of the pool is 800 shares per second:

@@ -47,7 +47,7 @@ What if monetary history were repeating itself before our very eyes? You be the 
 
 ### Definitions of inflation
 
-Inflation is a concept that is often misunderstood due to its multiple definitions and interpretations. The perception of inflation varies among different groups, such as bitcoiners and traditional economists. Let's first clarify the definitions before discussing hyperinflation:
+[Inflation](https://planb.academy/resources/glossary/inflation) is a concept that is often misunderstood due to its multiple definitions and interpretations. The perception of inflation varies among different groups, such as bitcoiners and traditional economists. Let's first clarify the definitions before discussing hyperinflation:
 
 - Definition from Le Robert dictionary: Inflation is an excessive increase in payment instruments (banknotes, capital), causing a rise in prices and a depreciation of the currency.
 
@@ -76,7 +76,7 @@ When referring to the monetary phenomenon, we are referring to how the money sup
 
 ![image](assets/en/002.webp)
 
-It is crucial to emphasize that hyperinflation is primarily observed with fiat currencies that are not backed by their underlying assets, such as precious metals. Historically, when a currency was based on such assets, episodes of inflation (e.g., through the devaluation of the metal content) occurred, but these episodes never reached the extreme levels of hyperinflation. In the following sections, we will study in detail the periods of monetary devaluation and the implications of these different monetary systems on inflation.
+It is crucial to emphasize that hyperinflation is primarily observed with [fiat currencies](https://planb.academy/resources/glossary/fiat) that are not backed by their underlying assets, such as precious metals. Historically, when a currency was based on such assets, episodes of inflation (e.g., through the devaluation of the metal content) occurred, but these episodes never reached the extreme levels of hyperinflation. In the following sections, we will study in detail the periods of monetary devaluation and the implications of these different monetary systems on inflation.
 
 ### Study of Periods of Monetary Devaluation
 
@@ -273,7 +273,7 @@ Modern Monetary Theory (MMT) offers a distinct perspective on money creation and
 An illustrative example of MMT is the American military-industrial complex. According to MMT, hundreds of billions of dollars can be allocated to this sector without causing inflation, thanks to its ability to absorb the funds. In contrast, if substantial funds are injected into road construction in the United States, where there is a limited number of companies and labor, inflation could occur due to resource scarcity and increased costs demanded by suppliers.
 Japan is often cited by MMT proponents as another example of the absence of inflation despite significant monetary printing. However, the situation in Japan also highlights the limitations of traditional inflation measures, such as the Consumer Price Index (CPI). In Japan, a significant portion of the printed money is either saved or invested in real estate or the stock market, rather than spent on current consumption. The CPI, by not fully capturing these dynamics, may underestimate actual inflation.
 
-The analysis of Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) also highlights that the behavior of economic agents, such as saving or investing in assets not included in the CPI, can mask the inflationary impact of monetary printing. Furthermore, the ability of different sectors to absorb injected liquidity plays a crucial role in determining whether inflation occurs.
+[The analysis of Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) also highlights that the behavior of economic agents, such as saving or investing in assets not included in the CPI, can mask the inflationary impact of monetary printing. Moreover, the ability of different sectors to absorb the injected liquidity plays a crucial role in whether inflation materializes or not.
 
 #### Bank and Central Bank Balance Sheets
 
@@ -758,7 +758,7 @@ The phenomenon of zombie companies is not limited to postwar Germany. Even today
 
 #### 6. Get Rich Quick!
 
-History reveals instances where individuals sought to accumulate wealth rapidly, as was the case in Weimar and Zimbabwe through arbitrage. Today, a similar trend can be observed with the rise of certain cryptocurrencies. People are tempted by quick gains, taking risks in hopes of an exponential increase in their investment. This approach recalls that seen during periods of hyperinflation, where arbitrage was used to obtain quick profits, often at the expense of others.
+History reveals instances where individuals sought to accumulate wealth rapidly, as was the case in Weimar and Zimbabwe through arbitrage. Today, a similar trend can be observed with the rise of certain [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency). People are tempted by quick gains, taking risks in hopes of an exponential increase in their investment. This approach recalls that seen during periods of hyperinflation, where arbitrage was used to obtain quick profits, often at the expense of others.
 
 ![image](assets/en/052.webp)
 

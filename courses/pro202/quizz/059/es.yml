@@ -1,0 +1,8 @@
+question: En el contexto de los filtros de bloque compactos (BIP158) para clientes ligeros que preservan la privacidad, ¿cuál es la compensación crítica que los hace eficaces para la privacidad de wallet?
+answer: Pueden producir falsos positivos, pero nunca falsos negativos, lo que permite a los clientes descargar bloques potencialmente irrelevantes sin revelar direcciones concretas
+wrong_answers:
+  - Pueden producir falsos negativos, pero nunca falsos positivos, garantizando que los clientes sólo descarguen bloques que contengan sus transacciones
+  - Eliminan tanto los falsos positivos como los falsos negativos mediante un filtrado determinista basado en las direcciones wallet
+  - "Producen falsos positivos y falsos negativos en proporciones iguales para ofuscar los patrones reales de transacción del cliente"
+explanation: |
+  Los filtros de bloques compactos están diseñados con un modelo de error asimétrico: pueden indicar que un bloque contiene transacciones relevantes cuando no es así (falso positivo), pero nunca pasarán por alto un bloque que realmente contenga transacciones relevantes (no hay falsos negativos). Este diseño es crucial porque los falsos negativos significarían perderse pagos reales, mientras que los falsos positivos sólo provocan la descarga de bloques innecesarios. La tasa de falsos positivos proporciona privacidad al obligar a los clientes a descargar algunos bloques irrelevantes, haciendo imposible que los observadores determinen qué bloques contienen realmente las transacciones del cliente.

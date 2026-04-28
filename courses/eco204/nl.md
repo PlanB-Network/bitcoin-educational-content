@@ -65,7 +65,7 @@ Wat als de monetaire geschiedenis zich voor onze ogen zou herhalen? Oordeel zelf
 ### Definities van inflatie
 
 
-Inflatie is een concept dat vaak verkeerd wordt begrepen vanwege de vele definities en interpretaties. De perceptie van inflatie varieert tussen verschillende groepen, zoals bitcoiners en traditionele economen. Laten we eerst de definities verduidelijken voordat we hyperinflatie bespreken:
+[Inflatie](https://planb.academy/resources/glossary/inflation) is een concept dat vaak verkeerd wordt begrepen vanwege de vele definities en interpretaties. De perceptie van inflatie varieert tussen verschillende groepen, zoals bitcoiners en traditionele economen. Laten we eerst de definities verduidelijken voordat we hyperinflatie bespreken:
 
 
 
@@ -111,7 +111,7 @@ Een andere methode was het verminderen van de hoeveelheid edelmetaal in munteenh
 ![image](assets/nl/002.webp)
 
 
-Het is cruciaal om te benadrukken dat hyperinflatie voornamelijk wordt waargenomen bij fiatvaluta's die niet worden gedekt door hun onderliggende activa, zoals edelmetalen. In het verleden, toen een valuta gebaseerd was op dergelijke activa, deden zich periodes van inflatie voor (bijvoorbeeld door de devaluatie van de metaalinhoud), maar deze periodes bereikten nooit de extreme niveaus van hyperinflatie. In de volgende paragrafen zullen we de perioden van monetaire devaluatie en de implicaties van deze verschillende monetaire systemen op de inflatie in detail bestuderen.
+Het is cruciaal om te benadrukken dat hyperinflatie voornamelijk wordt waargenomen bij [fiatvaluta's](https://planb.academy/resources/glossary/fiat) die niet worden gedekt door hun onderliggende activa, zoals edelmetalen. In het verleden, toen een valuta gebaseerd was op dergelijke activa, deden zich periodes van inflatie voor (bijvoorbeeld door de devaluatie van de metaalinhoud), maar deze periodes bereikten nooit de extreme niveaus van hyperinflatie. In de volgende paragrafen zullen we de perioden van monetaire devaluatie en de implicaties van deze verschillende monetaire systemen op de inflatie in detail bestuderen.
 
 
 ### Studie van perioden van monetaire devaluatie
@@ -423,7 +423,7 @@ Een illustratief voorbeeld van MMT is het Amerikaanse militair-industriële comp
 Japan wordt door MMT-voorstanders vaak aangehaald als een ander voorbeeld van de afwezigheid van inflatie ondanks aanzienlijke monetaire druk. De situatie in Japan benadrukt echter ook de beperkingen van traditionele inflatiemetingen, zoals de consumentenprijsindex (CPI). In Japan wordt een aanzienlijk deel van het gedrukte geld gespaard of geïnvesteerd in onroerend goed of de aandelenmarkt, in plaats van uitgegeven aan lopende consumptie. Doordat de CPI deze dynamiek niet volledig weergeeft, kan de werkelijke inflatie worden onderschat.
 
 
-Uit de analyse van Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) blijkt ook dat het gedrag van economische agenten, zoals sparen of beleggen in activa die niet in de CPI zijn opgenomen, het inflatoire effect van monetaire druk kan maskeren. Bovendien speelt het vermogen van verschillende sectoren om geïnjecteerde liquiditeit te absorberen een cruciale rol bij het bepalen of er inflatie optreedt.
+[De analyse van Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) benadrukt eveneens dat het gedrag van economische actoren, zoals sparen of investeren in activa die niet in de CPI zijn opgenomen, de inflatoire impact van geldcreatie kan verhullen. Bovendien speelt het vermogen van de verschillende sectoren om de geïnjecteerde liquiditeit te absorberen een cruciale rol bij het al dan niet optreden van inflatie.
 
 
 #### Balansen van banken en centrale banken
@@ -482,7 +482,7 @@ Deze voorbeelden kunnen gebruikt worden in discussies om uit te leggen waarom in
 ![image](assets/nl/023.webp)
 
 
-Omdat, zoals deze [thread] (https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
+Omdat, zoals deze [thread](https://twitter.com/saifedean/status/1673639779433590786) laat zien: Inflatie is alles behalve de schuld van centrale banken.
 
 
 
@@ -1160,7 +1160,7 @@ Het fenomeen van zombiebedrijven is niet beperkt tot het naoorlogse Duitsland. Z
 #### 6. Snel rijk worden!
 
 
-De geschiedenis onthult gevallen waarin individuen snel rijkdom probeerden te vergaren, zoals het geval was in Weimar en Zimbabwe door middel van arbitrage. Vandaag de dag kan een soortgelijke trend worden waargenomen met de opkomst van bepaalde cryptocurrencies. Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële toename van hun investering. Deze aanpak herinnert aan die tijdens perioden van hyperinflatie, waar arbitrage werd gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
+De geschiedenis onthult gevallen waarin individuen snel rijkdom probeerden te vergaren, zoals het geval was in Weimar en Zimbabwe door middel van arbitrage. Vandaag de dag kan een soortgelijke trend worden waargenomen met de opkomst van bepaalde [cryptocurrencies](https://planb.academy/resources/glossary/cryptocurrency). Mensen worden verleid door snelle winsten en nemen risico's in de hoop op een exponentiële toename van hun investering. Deze aanpak herinnert aan die tijdens perioden van hyperinflatie, waar arbitrage werd gebruikt om snelle winsten te behalen, vaak ten koste van anderen.
 
 
 ![image](assets/nl/052.webp)

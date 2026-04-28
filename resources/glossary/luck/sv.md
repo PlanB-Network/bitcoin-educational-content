@@ -1,5 +1,6 @@
 ---
-term: LUCK
+term: Luck
+definition: Indikator som mäter prestandan hos en miningpool jämfört med teoretiska förväntningar.
 ---
 
 En indikator som används i Mining-pooler för att mäta en pools prestanda i förhållande till dess teoretiska förväntningar. Som namnet antyder utvärderar den poolens tur när det gäller att hitta ett block. Lyckan beräknas genom att jämföra det antal andelar som teoretiskt behövs för att hitta ett giltigt block, baserat på den aktuella svårighetsgraden i Bitcoin, med det faktiska antalet andelar som producerats för att hitta det blocket. Ett lägre antal andelar än förväntat tyder på tur, medan ett högre antal andelar tyder på otur.

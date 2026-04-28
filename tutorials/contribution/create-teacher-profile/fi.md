@@ -165,4 +165,4 @@ PR-julkaisusi näkyy tämän jälkeen Plan ₿ Academy:n pääarkiston "*Pull Re
 
 ![Image](assets/fr/12.webp)
 
-Jos sinulla on teknisiä vaikeuksia muutoksen lähettämisessä, älä epäröi pyytää apua [osallistumiselle omistetussa Telegram-ryhmässämme] (https://t.me/PlanBNetwork_ContentBuilder). Paljon kiitoksia!
+Jos sinulla on teknisiä vaikeuksia muutoksen lähettämisessä, älä epäröi pyytää apua [osallistumiselle omistetussa Telegram-ryhmässämme](https://t.me/PlanBNetwork_ContentBuilder). Paljon kiitoksia!

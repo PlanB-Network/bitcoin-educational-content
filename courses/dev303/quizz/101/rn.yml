@@ -1,0 +1,8 @@
+question: Ni ikihe kintu kidasanzwe c’ubwubatsi bwa LDK bushingiye ku bintu bishika gishoboza ibikorwa kuguma bifise itandukaniro risukuye hagati y’ubuhinga bwa Lightning n’inyishu zijanye n’ibikorwa?
+answer: Amatangazo adahuye aratangwa ku bikorwa vyose bihambaye n'amahinduka y'intara, bituma abajejwe ibintu bimenyerewe bashirwa mu ngiro bigenga
+wrong_answers:
+  - Ivyiyumviro bihuye bica bitangura mu mucungerezi w'umurongo, bisaba inyishu zihuse kugira ngo umuntu akomeze kwubahiriza amategeko
+  - Ivyabaye bihita bivaho bishingiye ku miterere y'ibikorwa, bikuraho ivy'ugushira mu ngiro uburyo busanzwe
+  - Ibintu vyose bishirwa ku murongo mu bubiko bwo hagati maze bikatunganirizwa mu buryo bukurikirana kugira ngo hamenyekane inyifato y'ikoreshwa
+explanation: |
+  Uburyo bw'ibintu vya LDK butanga amatangazo atari yo ku bikorwa vyose vya Lightning harimwo n'uguhuza n'abandi, ukwishyura, n'uguhindura imirongo. Ivyo bituma abahinguzi bashobora gushiramwo ibikoresho vy’ibintu bimenyerewe bisubiza neza mu gihe bagumana itandukaniro risukuye hagati y’imikorere nyamukuru ya LDK n’ubuhinga bwo gukoresha. Ibindi bihitamwo ntibibereye kuko LDK ntikoresha guhamagara bihuye bibuza ibikorwa vya porotokole, ntikoresha abakozi ba generate, kandi ntishira mu ngiro ugukurikirana kw'ibintu.

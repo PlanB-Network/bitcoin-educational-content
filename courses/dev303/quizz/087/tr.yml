@@ -1,0 +1,8 @@
+question: Rust yapıları UniFFI'nin UDL'si aracılığıyla Kotlin veya Swift gibi hedef dillere eşlendiğinde ilişkili yöntemlere ne olur?
+answer: UDL ve generate'de arayüzler olarak, nesne yönelimli hedef dillerde yöntemleri olan sınıflar olarak gösterilirler
+wrong_answers:
+  - Hedef dillerde herhangi bir yöntem işlevselliği olmadan basit sözlüklere dönüştürülürler
+  - Geri arama arayüzlerini kullanarak hedef dilde her yöntemin manuel olarak uygulanmasını gerektirirler
+  - Bunlar otomatik olarak yapıyı ilk parametre olarak alan ad alanı işlevlerine dönüştürülür
+explanation: |
+  UniFFI, Rust yapılarını ilişkili yöntemlerle UDL'deki arayüzlere eşleyerek nesne yönelimli tasarım modellerini korur ve daha sonra generate'yi hedef dillerde yöntemlere sahip yerel sınıflar olarak kullanır. Bu, Kotlin ve Swift gibi dillerdeki geliştiricilere tanıdık nesne yönelimli arayüzler sunarken orijinal Rust uygulamasının yapısal bütünlüğünü ve davranışını korur. Diğer seçenekler yanlıştır çünkü UniFFI, sözlüklere düzleştirmek yerine özellikle yöntem işlevselliğini korur, bağlar otomatik olarak oluşturulduğundan manuel uygulama gerektirmez ve yapı yöntemlerini ad alanı işlevlerine dönüştürmez.

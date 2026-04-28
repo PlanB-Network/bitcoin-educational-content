@@ -1,0 +1,8 @@
+question: Rust'da sahiplik başka bir değişkene taşındığında bir değişkene ne olur?
+answer: Orijinal değişken geçersiz hale gelir ve artık kullanılamaz
+wrong_answers:
+  - Orijinal değişken, verilere salt okunur bir referans haline gelir
+  - Her iki değişken de sahipliği paylaşır ve verileri bağımsız olarak değiştirebilir
+  - Orijinal değişken otomatik olarak değiştirilebilir bir referansa dönüştürülür
+explanation: |
+  Rust'de sahiplik taşındığında, orijinal değişken tamamen geçersiz hale gelir ve artık erişilemez. Bu, birden fazla değişkenin aynı heap belleğini yönetmesini önleyen temel bir güvenlik özelliğidir, bu da use-after-free hatalarına veya double-free hatalarına yol açabilir. Taşıma işlemi tüm kontrolü yeni değişkene aktarır ve taşıma işleminden sonra orijinal değişkeni kullanmaya çalışırsanız derleyici bir hata üretir. Bu, kopyalama (her iki değişkenin de geçerli kaldığı) ve ödünç alma (orijinal sahibinin mülkiyeti koruduğu) işlemlerinden farklıdır.

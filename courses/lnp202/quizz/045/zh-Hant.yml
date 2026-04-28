@@ -1,0 +1,9 @@
+question: 為什麼商家 Lightning 節點經營者不能依靠自己的支付來 generate 入站流動資金？
+answer: 大部分為入境流量
+wrong_answers:
+  - 主要為出境流量
+  - 通道太小
+  - 高昂的鏈上費用
+explanation: |
+  不花錢就兌現，商家自然不會將流動資金移出他的通路。
+reviewed: false

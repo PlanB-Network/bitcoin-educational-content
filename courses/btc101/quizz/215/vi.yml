@@ -1,9 +1,9 @@
-question: Vấn đề mở rộng quy mô của mạng lưới Bitcoin là gì?
-answer: Thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
+question: Cơ chế nào khiến các khoản thanh toán Lightning mang tính nguyên tử?
+answer: HTLC
 wrong_answers:
-  - Khó khăn trong việc khai thác Bitcoin mới với giá trị tăng theo thời gian.
-  - Sự biến động của giá Bitcoin sẽ tăng sau mỗi lần halving.
-  - Sự thiếu quy định cho Bitcoin sẽ khiến các giao dịch trở nên bất hợp pháp.
-explanation: >-
-  Vấn đề mở rộng quy mô đề cập đến thách thức trong việc triển khai một hệ thống tiền tệ có khả năng cung cấp một số lượng giao dịch mỗi giây ngày càng tăng khi nó được áp dụng.
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC ràng buộc thanh toán với việc tiết lộ một bí mật, bảo đảm thành công hoàn toàn hoặc thất bại mà không tổn thất.
+reviewed: false

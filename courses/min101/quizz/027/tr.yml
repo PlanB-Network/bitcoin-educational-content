@@ -1,0 +1,9 @@
+question: Bir işlem ücreti nasıl hesaplanır?
+answer: Girdiler eksi çıktılar
+wrong_answers:
+  - Çıktılar eksi girdiler
+  - Girdiler artı çıktılar
+  - Çıktılar bölü girdiler
+explanation: |
+  Ücretler, girdilerde tüketilen ve çıktılarda yeniden oluşturulmayan değere karşılık gelir.
+reviewed: false

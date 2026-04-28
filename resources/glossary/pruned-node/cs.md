@@ -1,6 +1,7 @@
 ---
-term: PRUNED NODE
+term: Prořezaný uzel
 
+definition: Plný uzel odstraňující staré ověřené bloky pro úsporu úložného prostoru.
 ---
 Ořezaný uzel, anglicky "Pruned Node", je úplný uzel, který provádí ořezávání blockchainu. Jedná se o postupné odstraňování nejstarších bloků po jejich řádném ověření tak, aby zůstaly zachovány pouze nejnovější bloky. Limit pro uchovávání je specifikován v souboru `bitcoin.conf` prostřednictvím parametru `prune=n`, kde `n` je maximální velikost zabraná bloky v megabajtech (MB). Pokud je za tímto parametrem uvedeno `0`, je pruning zakázán a uzel uchovává celý blockchain.
 

@@ -1,19 +1,20 @@
 ---
 name: Bitaxe
-description: Jinsi ya kusanidi BitAxe?
-
+description: Jinsi ya kuanzisha BitAxe?
 ---
 ![video](https://youtu.be/tvLSK8v0MK8)
+
+
 ## Utangulizi
 
 
-BitAxe ni mradi wa programu huria ulioundwa na Skot na [unapatikana kwenye GitHub](https://github.com/skot/bitaxe) unaoruhusu majaribio ya gharama nafuu ya Mining.
+BitAxe ni mradi huria ulioundwa na Skot na [unapatikana kwenye GitHub](https://github.com/skot/bitaxe) unaoruhusu majaribio ya mining yenye gharama nafuu.
 
 
-Imebadilisha utendakazi wa Antminer S19 maarufu na Bitmain, kiongozi wa soko katika ASICs, mashine maalum za uchimbaji wa Bitcoin. Sasa, inawezekana kutumia chip hizi zenye nguvu katika miradi mipya ya chanzo huria. Tofauti na Nerdminer, BitAxe ina uwezo wa kutosha wa kompyuta kuunganishwa na Mining pool, ambayo itawawezesha kupata mara kwa mara baadhi ya satoshi. Nerdminer, kwa upande mwingine, inaweza tu kuunganishwa kwa kile kinachoitwa solopool, ambayo hufanya kazi kama tikiti ya bahati nasibu: una nafasi ndogo ya kushinda Block reward kamili.
+Imebadilisha utendakazi wa Antminer S19 maarufu na Bitmain, kiongozi wa soko katika ASICs, mashine maalum za bitcoin mining. Sasa, inawezekana kutumia chipsi hizi zenye nguvu katika miradi mipya ya chanzo huria. Tofauti na Nerdminer, BitAxe ina nguvu ya kutosha ya kompyuta kuunganishwa na mining pool, ambayo itakuruhusu kupata satoshis mara kwa mara. Nerdminer, kwa upande mwingine, inaweza kuunganishwa tu na kile kinachoitwa solopool, ambayo inafanya kazi kama tikiti ya bahati nasibu: una nafasi ndogo ya kushinda zawadi kamili.
 
 
-Kuna matoleo kadhaa ya BitAxe, yenye chips tofauti na maonyesho:
+Kuna matoleo kadhaa ya BitAxe, yenye chipsi na utendaji tofauti:
 
 
 | Bitaxe Model Series      | ASIC Chip | Used On                     | Expected Hash Rate          | Ideal For                                                                                                  |
@@ -23,7 +24,7 @@ Kuna matoleo kadhaa ya BitAxe, yenye chips tofauti na maonyesho:
 | Bitaxe Hex (Series 300)  | 6 x BM1366| Antminer S19k Pro and S19 XP| 3.0 TH/s (up to 3.3 TH/s)   | Miners seeking scalability and high performance without sacrificing efficiency.                             |
 | Bitaxe Supra (Series 400)| 1 x BM1368| Antminer S21                | 600 GH/s (up to 700 GH/s)   | Serious enthusiasts seeking the highest hash rates and efficiency.                                         |
 
-Katika somo hili, tutakuwa tukitumia BitAxe Ultra 204 iliyo na chipu ya BM1366, inayotumika kwa Antminer S19XP. Hii tayari imekusanywa na kuangaza na muuzaji.
+Katika mafunzo haya, tutatumia BitAxe Ultra 204 iliyo na chipu ya BM1366, inayotumika kwa Antminer S19XP. Hii tayari imeunganishwa na kuonyeshwa na muuzaji.
 
 
 [Orodha ya wauzaji inapatikana kwenye ukurasa huu](https://bitaxe.org/legit.html)
@@ -32,7 +33,7 @@ Katika somo hili, tutakuwa tukitumia BitAxe Ultra 204 iliyo na chipu ya BM1366, 
 ![signup](assets/2.webp)
 
 
-Kwa ujumla, nguvu ya Supply inauzwa nayo. Ikiwa sivyo, utahitaji kununua nguvu ya Supply na kebo ya jack ya 5V na angalau 4A.
+Kwa ujumla, usambazaji wa umeme huuzwa pamoja nao. Ikiwa sivyo, utahitaji kununua usambazaji wa umeme wenye kebo ya jeki ya 5V na angalau 4A.
 
 
 ![signup](assets/1.webp)
@@ -40,64 +41,64 @@ Kwa ujumla, nguvu ya Supply inauzwa nayo. Ikiwa sivyo, utahitaji kununua nguvu y
 
 ## Usanidi
 
-Unapochomeka BitAxe yako kwa mara ya kwanza, itajaribu kuunganisha kwa mtandao wa Wi-Fi kwa chaguomsingi. Baada ya jaribio tano, itaonyesha jina la mtandao wake wa Wi-Fi ili uweze kuunganisha nayo na kuisanidi.
+Unapounganisha BitAxe yako kwa mara ya kwanza, itajaribu kuunganisha kwenye mtandao wa Wi-Fi kwa chaguo-msingi. Baada ya majaribio matano, itaonyesha jina la mtandao wake wa Wi-Fi ili uweze kuunganisha nayo na kuisanidi.
 
-Kwa kufanya hivyo, unaweza kutumia kompyuta yoyote au smartphone. Nenda kwenye mipangilio yako ya Wi-Fi, tafuta mitandao mipya, na utaona Wi-Fi inayoitwa Bitaxe_XXXX. Hapa, ni `Bitaxe_A859`. Unganisha kwenye mtandao huu wa Wi-Fi, na dirisha litafungua kiotomatiki.
+Ili kufanya hivi, unaweza kutumia kompyuta au simu yoyote. Nenda kwenye mipangilio yako ya Wi-Fi, tafuta mitandao mipya, na utaona Wi-Fi inayoitwa Bitaxe_XXXX. Hapa, ni `Bitaxe_A859`. Unganisha kwenye mtandao huu wa Wi-Fi, na dirisha litafunguliwa kiotomatiki.
 
 
 ![signup](assets/3.webp)
 
 
-Katika dirisha hili, bofya pau tatu ndogo za mlalo zilizo juu kushoto, kisha kwenye `Mipangilio`.
+Katika dirisha hili, bofya pau tatu ndogo za mlalo upande wa juu kushoto, kisha kwenye `Mipangilio`.
 
 
 ![signup](assets/4.webp)
 
 
-Utahitaji kuingiza mwenyewe maelezo ya mtandao wako wa Wi-Fi, kwa kuwa hakuna mfumo wa ugunduzi wa kiotomatiki.
+Utahitaji kuingiza taarifa za mtandao wako wa Wi-Fi mwenyewe, kwani hakuna mfumo wa ugunduzi otomatiki.
 
 
 ![signup](assets/5.webp)
 
 
-Kwa hiyo, onyesha SSID ya Wi-Fi, yaani, jina la mtandao wako, nenosiri, pamoja na taarifa ya Mining pool uliyochagua. Kuwa mwangalifu, hapa URL ya bwawa haijawasilishwa kwa njia ile ile. Kwa mfano, kwa Braiins, URL ya mkusanyiko iliyotolewa ni: `stratum+tcp://eu.stratum.braiins.com:3333`.
+Kwa hivyo, onyesha SSID ya Wi-Fi, yaani, jina la mtandao wako, nenosiri, pamoja na taarifa ya mining pool uliyochagua. Kuwa mwangalifu, hapa URL ya bwawa haionyeshwi kwa njia ile ile. Kwa mfano, kwa Braiins, URL ya bwawa iliyotolewa ni: `stratum+tcp://eu.stratum.braiins.com:3333`.
 
 
 ![signup](assets/6.webp)
 
 
-Kama unavyoona kwenye skrini, unahitaji kuondoa sehemu za `stratum+tcp://` na `:3333`, ukiacha `eu.stratum.braiins.com` pekee. Kisha, katika sehemu ya `Bandari`, weka tarakimu 4 mwishoni mwa URL iliyotolewa na dimbwi, lakini bila `:`. Hapa, kwa hiyo ni `3333`.
+Kama unavyoona kwenye skrini, unahitaji kuondoa sehemu za `stratum+tcp://` na `:3333`, ukiacha `eu.stratum.braiins.com` pekee. Kisha, katika sehemu ya `Port`, ingiza tarakimu 4 mwishoni mwa URL iliyotolewa na kundi, lakini bila `:`. Hapa, kwa hivyo ni `3333`.
 
 
-Katika somo hili, tunatumia Braiins Mining pool, lakini uko huru kuchagua jingine. Unaweza kupata mafunzo yetu kwenye mabwawa ya Mining [kwenye tovuti ya Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
+Katika mafunzo haya, tunatumia Braiins mining pool, lakini uko huru kuchagua nyingine. Unaweza kupata mafunzo yetu kwenye mining pool [kwenye tovuti ya Plan ₿ Academy](https://planb.academy/en/tutorials/mining).
 
 
-Ifuatayo, katika `Mtumiaji`, weka kitambulisho chako kisha `Nenosiri`, kwa kawaida, ni `"x"` au `"Chochote123"`.
+Kisha, katika `Mtumiaji`, ingiza kitambulisho chako kisha `Nenosiri`, kwa kawaida, huwa `"x"` au `"Chochote123"`.
 
 
-Mipangilio ya `Core Voltage` inapaswa kuachwa kuwa `1200` kwa chaguo-msingi, na kwa `Frequency`, pia kuacha thamani chaguomsingi mwanzoni. Itawezekana kurekebisha mpangilio huu baadaye ili kupata nguvu zaidi ya kompyuta. Hata hivyo, ni muhimu kuhakikisha kuwa joto la chip halizidi 65-70 ° C, kwani BitAxe haina mfumo wa kupunguza utendaji katika kesi ya overheating. Ikiwa halijoto inazidi 65°C, inaweza kuharibu BitAxe yako.
+Mpangilio wa `Core Voltage` unapaswa kuachwa kwenye `1200` kwa chaguo-msingi, na kwa `Frequency`, pia acha thamani chaguo-msingi mwanzoni. Itawezekana kurekebisha mpangilio huu baadaye ili kupata nguvu zaidi ya kompyuta. Hata hivyo, ni muhimu kuhakikisha kwamba halijoto ya chipu haizidi 65-70°C, kwani BitAxe haina mfumo wa kupunguza utendaji iwapo itaongezeka joto. Ikiwa halijoto itazidi 65°C kupita kiasi, inaweza kuharibu BitAxe yako.
 
 
 ![signup](assets/7.webp)
 
 
-Ukishaingiza mipangilio yote kwa usahihi, bofya kitufe cha `Hifadhi` chini, kisha uanze upya BitAxe yako kwa kuichomoa na kuchomeka tena.
+Ukishaingiza mipangilio yote kwa usahihi, bofya kitufe cha `Hifadhi` kilicho chini, kisha uanze upya BitAxe yako kwa kuiondoa kwenye plagi ya umeme na kuiingiza tena.
 
-Ikiwa umeingiza maelezo yako kwa usahihi, kifaa kinapaswa kuunganisha haraka kwenye Wi-Fi yako, kisha kwa Mining pool, na kuanza kuonyesha habari fulani kwenye skrini yake ndogo. Pengine itachukua dakika chache ndio ionekane kwenye dashibodi ya Mining pool.
+Ikiwa umeingiza taarifa zako kwa usahihi, kifaa kinapaswa kuunganishwa haraka kwenye Wi-Fi yako, kisha kwenye mining pool, na kuanza kuonyesha taarifa fulani kwenye skrini yake ndogo. Huenda itachukua dakika chache kuonekana kwenye dashibodi ya mining pool.
 
 ## Dashibodi na skrini
 
 
-Maonyesho matatu tofauti yatapitia. Kwenye ukurasa wa tatu, utaona maelezo ya `IP`, ambayo ni IP Address inayokuruhusu kuunganisha kwenye dashibodi. Hapa, Address ni `192.168.1.19`.
+Maonyesho matatu tofauti yatasogea kupitia. Kwenye ukurasa wa tatu, utaona taarifa ya `IP`, ambayo ni anwani ya IP inayokuruhusu kuunganisha kwenye dashibodi. Hapa, anwani ni `192.168.1.19`.
 
 
 ![signup](assets/8.webp) ![signup](assets/9.webp) ![signup](assets/10.webp)
 
 
-Ili kufikia dashibodi, ingiza tu Address hii kwenye kivinjari chako cha intaneti.
+Ili kufikia dashibodi, ingiza anwani hii kwenye kivinjari chako cha intaneti.
 
 
-Kwenye dashibodi, utapata taarifa zote zilizoonyeshwa kwenye skrini ndogo, ambayo sasa tutaangalia kwa undani.
+Kwenye dashibodi, utapata taarifa zote zinazoonyeshwa kwenye skrini ndogo, ambazo sasa tutaziangalia kwa undani.
 
 
 ![signup](assets/11.webp)
@@ -119,6 +120,6 @@ Kwenye dashibodi, utapata taarifa zote zilizoonyeshwa kwenye skrini ndogo, ambay
 | IP            | NA                                          | IP Address.                                                                                                                                                                                                               |
 | V2.1.0       | Version (left menu -> `Logs`)               | Firmware version.                                                                                                                                                                                                         |
 
-Unaweza kubadilisha mipangilio ya Wi-Fi au pool wakati wowote bila tatizo lolote.
+Unaweza kubadilisha mipangilio ya Wi-Fi au bwawa la kuogelea wakati wowote bila tatizo lolote.
 
-Kulingana na uingizaji wa hewa na halijoto ya chumba chako, huenda ukahitaji kuongeza au kulazimika kupunguza utendakazi ili halijoto lisizidi 65°C. Ikiwa unaongeza utendaji, utapata satoshi zaidi, lakini BitAxe yako pia itatumia umeme zaidi!
+Kulingana na uingizaji hewa na halijoto ya chumba chako, huenda ukahitaji kuongeza au kupunguza utendaji ili halijoto isizidi 65°C. Ukiongeza utendaji, utapata satoshi zaidi, lakini BitAxe yako pia itatumia umeme zaidi!

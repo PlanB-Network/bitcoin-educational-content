@@ -1,0 +1,9 @@
+question: Efter hur många bekräftelser blir coinbase-outputs spenderbara?
+answer: 101 bekräftelser
+wrong_answers:
+  - 6 bekräftelser
+  - 201 bekräftelser
+  - 210 bekräftelser
+explanation: |
+  Mognadsperioden är 100 block, så det krävs 101 bekräftelser för att göra dessa UTXO spenderbara.
+reviewed: false

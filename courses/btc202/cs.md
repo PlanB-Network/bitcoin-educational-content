@@ -133,7 +133,7 @@ Jste připraveni zapnout svůj první uzel Bitcoin? Nastavte kurz na suverenitu!
 
 
 
-Jak popisuje jeho tvůrce Satoshi Nakamoto, Bitcoin se prezentuje jako peer-to-peer systém elektronických peněz. Tato jednoduchá věta, která je názvem bílé knihy, obsahuje mnoho vodítek k povaze Bitcoin:
+Jak popisuje jeho tvůrce [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi), Bitcoin se prezentuje jako [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) systém elektronických peněz. Tato jednoduchá věta, která je názvem [bílé knihy](https://planb.academy/resources/glossary/white-paper), obsahuje mnoho vodítek k povaze Bitcoin:
 
 
 
@@ -144,7 +144,7 @@ Jak popisuje jeho tvůrce Satoshi Nakamoto, Bitcoin se prezentuje jako peer-to-p
 
 
 
-Protože Bitcoin je systém, musí být nutně spuštěn na počítačích. A vzhledem k jeho peer-to-peer povaze jsou to samotní uživatelé, kdo přebírá odpovědnost za provoz těchto počítačů. To, čemu říkáme "uzel Bitcoin", je právě ten počítač, na kterém běží software implementující protokol Bitcoin (stejně jako Bitcoin core, ale k tomu se vrátíme později). Právě to umožňuje, aby protokol Bitcoin fungoval bez centrální autority: ověřování probíhá distribuovaně, na tisících nezávislých strojích patřících tisícům uživatelů.
+Protože Bitcoin je systém, musí být nutně spuštěn na počítačích. A vzhledem k jeho peer-to-peer povaze jsou to samotní uživatelé, kdo přebírá odpovědnost za provoz těchto počítačů. To, čemu říkáme "[uzel](https://planb.academy/resources/glossary/node) Bitcoin", je právě ten počítač, na kterém běží software implementující protokol Bitcoin (stejně jako [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), ale k tomu se vrátíme později). Právě to umožňuje, aby protokol Bitcoin fungoval bez centrální autority: ověřování probíhá [distribuovaně](https://planb.academy/resources/glossary/distributed), na tisících nezávislých strojích patřících tisícům uživatelů.
 
 
 
@@ -156,11 +156,11 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Právě tito uživatelé zajišťují bezpečnost systému Bitcoin. Jak vysvětluje Eric Voskuil ve své knize *Cryptoeconomics*, bezpečnost Bitcoin nespočívá ani na Blockchain, ani na hashovací síle, ani na validaci, decentralizaci, kryptografii, open source, ani na teorii her. Bezpečnost Bitcoin závisí především na jednotlivcích, kteří jsou ochotni vystavit se osobnímu riziku. Decentralizace umožňuje toto riziko rozložit na velké množství jednotlivců a pouze jejich schopnost odolat zajišťuje robustnost systému.
+Právě tito uživatelé zajišťují bezpečnost systému Bitcoin. Jak vysvětluje Eric Voskuil ve své knize *Cryptoeconomics*, bezpečnost Bitcoin nespočívá ani na [Blockchain](https://planb.academy/resources/glossary/blockchain), ani na [hashovací síle](https://planb.academy/resources/glossary/hashrate), ani na validaci, decentralizaci, [kryptografii](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), ani na teorii her. Bezpečnost Bitcoin závisí především na jednotlivcích, kteří jsou ochotni vystavit se osobnímu riziku. Decentralizace umožňuje toto riziko rozložit na velké množství jednotlivců a pouze jejich schopnost odolat zajišťuje robustnost systému.
 
 
 
-Tento princip je snadno pochopitelný: pokud by Bitcoin závisel na jediném uzlu, který by vlastnila jediná osoba, stačilo by k odstavení sítě uvěznit tuto osobu, protože by sama nesla veškerá rizika. V případě desítek tisíc uzlů rozmístěných po celém světě se riziko šíří: k odstavení Bitcoin by bylo třeba zneškodnit každého z těchto provozovatelů.
+Tento princip je snadno pochopitelný: pokud by Bitcoin závisel na jediném uzlu, který by vlastnila jediná osoba, stačilo by k odstavení sítě uvěznit tuto osobu, protože by sama nesla veškerá rizika. V případě desítek tisíc uzlů rozmístěných po celém světě se riziko [šíří](https://planb.academy/resources/glossary/diffusion): k odstavení Bitcoin by bylo třeba zneškodnit každého z těchto provozovatelů.
 
 
 
@@ -173,9 +173,9 @@ Můžeme tedy rozlišit a pojmenovat několik pojmů, které nám objasní dalš
 
 
 
-- Bitcoin měna: zúčtovací jednotka používaná pro transakce v tomto systému;
+- Bitcoin měna: zúčtovací jednotka používaná pro [transakce](https://planb.academy/resources/glossary/transaction-tx) v tomto systému;
 - Síť Bitcoin: množina všech propojených uzlů;
-- Uzly Bitcoin: počítače s implementací Bitcoin;
+- Uzly Bitcoin: počítače s [implementací Bitcoin](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Implementace Bitcoin: software, který převádí protokol na spustitelné instrukce;
 - Protokol Bitcoin: soubor pravidel, jimiž se řídí fungování systému;
 - Systém Bitcoin: ucelená kombinace všech těchto Elements.
@@ -190,7 +190,7 @@ Uzly Bitcoin dohromady tvoří takzvanou síť Bitcoin. Umožňují celému syst
 
 
 
-Systém Bitcoin byl od počátku navržen tak, aby si každý uživatel mohl spustit svůj osobní uzel. Tento případ zůstává v platnosti i u dnešního softwaru Bitcoin core, který kombinuje role Wallet a uzlu. V dnešní době je však tato funkce často oddělena: mnoho moderních peněženek Bitcoin jsou pouze peněženky, které se připojují k externím uzlům (ať už vlastněným stejnou osobou, nebo ne).
+Systém Bitcoin byl od počátku navržen tak, aby si každý uživatel mohl spustit svůj osobní uzel. Tento případ zůstává v platnosti i u dnešního softwaru Bitcoin core, který kombinuje role [Wallet](https://planb.academy/resources/glossary/wallet) a uzlu. V dnešní době je však tato funkce často oddělena: mnoho moderních peněženek Bitcoin jsou pouze peněženky, které se připojují k externím uzlům (ať už vlastněným stejnou osobou, nebo ne).
 
 
 
@@ -198,7 +198,7 @@ Systém Bitcoin byl od počátku navržen tak, aby si každý uživatel mohl spu
 
 
 
-Prvním úkolem uzlu je udržovat místní kopii Blockchain. Aby bylo možné zabránit Double-spending na Bitcoin bez zapojení centrální autority, musí každý uživatel zkontrolovat, zda v systému neexistuje žádná transakce. Jediný způsob, jak si tím být jistý, je znát všechny transakce provedené na Bitcoin. Z tohoto důvodu jsou všechny transakce opatřeny časovým razítkem a seskupeny do bloků a každý uzel ukládá celý Blockchain.
+Prvním úkolem uzlu je udržovat místní kopii Blockchain. Aby bylo možné zabránit [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) na Bitcoin bez zapojení centrální autority, musí každý uživatel zkontrolovat, zda v systému neexistuje žádná transakce. Jediný způsob, jak si tím být jistý, je znát všechny transakce provedené na Bitcoin. Z tohoto důvodu jsou všechny transakce opatřeny [časovým razítkem](https://planb.academy/resources/glossary/timestamp) a seskupeny do [bloků](https://planb.academy/resources/glossary/block) a každý uzel ukládá celý Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Blockchain je tedy vyvíjející se registr: pokaždé, když je nový blok zveřejněn uzlem Miner, uzel zkontroluje jeho platnost a teprve poté jej přidá do své vlastní lokální kopie řetězce. K dnešnímu dni (červenec 2025) přesahuje kompletní registr Blockchain 675 GB a tato velikost stále roste, protože nový blok je přidáván v průměru každých 10 minut.
+Blockchain je tedy vyvíjející se registr: pokaždé, když je nový blok zveřejněn uzlem [Miner](https://planb.academy/resources/glossary/miner), uzel zkontroluje jeho platnost a teprve poté jej přidá do své vlastní lokální kopie řetězce. K dnešnímu dni (červenec 2025) přesahuje kompletní registr Blockchain 675 GB a tato velikost stále roste, protože nový blok je přidáván v průměru každých 10 minut.
 
 
 
@@ -216,7 +216,7 @@ Blockchain je tedy vyvíjející se registr: pokaždé, když je nový blok zve�
 
 
 
-Uzel také udržuje místní záznam všech UTXO, které v daném okamžiku existují, známý jako sada **UTXO**. Tato databáze obsahuje všechny nespotřebované fragmenty Bitcoin. K tomuto tématu se podrobně vrátíme v závěrečné části kurzu.
+Uzel také udržuje místní záznam všech [UTXO](https://planb.academy/resources/glossary/utxo), které v daném okamžiku existují, známý jako sada **UTXO**. Tato databáze obsahuje všechny nespotřebované fragmenty Bitcoin. K tomuto tématu se podrobně vrátíme v závěrečné části kurzu.
 
 
 
@@ -224,14 +224,14 @@ Uzel také udržuje místní záznam všech UTXO, které v daném okamžiku exis
 
 
 
-Druhou úlohou uzlu je zajistit ověřování a šíření transakcí. Když do uzlu dorazí nová transakce (buď prostřednictvím softwaru Wallet, nebo jiného uzlu), uzel zkontroluje, zda je v souladu se souborem pravidel (pravidla konsensu a pravidla předávání). Např:
+Druhou úlohou uzlu je zajistit ověřování a šíření transakcí. Když do uzlu dorazí nová transakce (buď prostřednictvím softwaru Wallet, nebo jiného uzlu), uzel zkontroluje, zda je v souladu se souborem pravidel ([pravidla konsensu](https://planb.academy/resources/glossary/consensus-rules) a pravidla [předávání](https://planb.academy/resources/glossary/relay)). Např:
 
 
 
 
-- utracené bitcoiny musí existovat v jeho sadě UTXO (databáze neutracených výstupů);
-- podpis musí být platný a musí být splněny všechny podmínky výdajů (platný skript);
-- celkový objem výstupů nesmí být vyšší než celkový objem vstupů, což znamená, že náklady nemohou být záporné.
+- utracené bitcoiny musí existovat v jeho sadě UTXO (databáze neutracených [výstupů](https://planb.academy/resources/glossary/output));
+- [podpis](https://planb.academy/resources/glossary/digital-signature) musí být platný a musí být splněny všechny podmínky výdajů (platný [skript](https://planb.academy/resources/glossary/script));
+- celkový objem výstupů nesmí být vyšší než celkový objem [vstupů](https://planb.academy/resources/glossary/input), což znamená, že [náklady](https://planb.academy/resources/glossary/transaction-fees) nemohou být záporné.
 
 
 
@@ -239,7 +239,7 @@ Druhou úlohou uzlu je zajistit ověřování a šíření transakcí. Když do 
 
 
 
-Po ověření se transakce uloží do Mempool, dočasného paměťového prostoru uzlu vyhrazeného pro nepotvrzené transakce, a poté se předá ostatním síťovým partnerům, ke kterým je uzel připojen. Tento mechanismus distribuce a ověřování pokračuje z uzlu do uzlu. Tímto způsobem se transakce šíří napříč sítí Bitcoin a každý uzel ji ukládá do Mempool, dokud ji do platného bloku nezařadí uzel Miner, který pak provede její první potvrzení.
+Po ověření se transakce uloží do [Mempool](https://planb.academy/resources/glossary/mempool), dočasného paměťového prostoru uzlu vyhrazeného pro nepotvrzené transakce, a poté se předá ostatním síťovým partnerům, ke kterým je uzel připojen. Tento mechanismus distribuce a ověřování pokračuje z uzlu do uzlu. Tímto způsobem se transakce šíří napříč sítí Bitcoin a každý uzel ji ukládá do Mempool, dokud ji do platného bloku nezařadí uzel Miner, který pak provede její první [potvrzení](https://planb.academy/resources/glossary/confirmation).
 
 
 
@@ -247,7 +247,7 @@ Po ověření se transakce uloží do Mempool, dočasného paměťového prostor
 
 
 
-Třetí úloha uzlu spočívá ve správě vytěžených bloků. Když Miner objeví nový blok s platným Proof of Work, je vysílán do sítě. Uzly jej přijmou, zkontrolují, zda odpovídá všem pravidlům protokolu, a pokud je platný, začlení jej do své vlastní lokální kopie Blockchain. Stejně jako u transakcí jsou pak nově ověřené bloky předány všem rovnocenným uzlům připojeným k uzlu. Tento proces pokračuje, dokud se o novém bloku nedozvědí všechny uzly v síti Bitcoin.
+Třetí úloha uzlu spočívá ve správě vytěžených bloků. Když Miner objeví nový blok s platným [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), je vysílán do sítě. Uzly jej přijmou, zkontrolují, zda odpovídá všem pravidlům protokolu, a pokud je platný, začlení jej do své vlastní lokální kopie Blockchain. Stejně jako u transakcí jsou pak nově ověřené bloky předány všem rovnocenným uzlům připojeným k uzlu. Tento proces pokračuje, dokud se o novém bloku nedozvědí všechny uzly v síti Bitcoin.
 
 
 
@@ -304,7 +304,7 @@ Zpočátku, když Bitcoin v roce 2009 spustil Satoshi Nakamoto, se očekávalo, 
 
 
 
-S postupnou popularizací Bitcoin a nárůstem počtu těžařů se však konkurenční prostředí v Mining radikálně změnilo. Dnes se z Mining stala mimořádně konkurenční činnost, které dominují průmysloví hráči vybavení specializovanou infrastrukturou. Výkon potřebný k vytěžení nového bloku je nyní tak velký, že je prakticky nemožné, aby toho jednotlivý uživatel dosáhl pouze pomocí běžného počítače. V důsledku toho se nyní těžba Mining provádí především pomocí specializovaných strojů zvaných ASIC (*Application-Specific Integrated Circuits*). Tyto čipy jsou optimalizovány výhradně pro běh dvojnásobného algoritmu SHA-256, který se používá pro Mining na Bitcoin.
+S postupnou popularizací Bitcoin a nárůstem počtu těžařů se však konkurenční prostředí v Mining radikálně změnilo. Dnes se z Mining stala mimořádně konkurenční činnost, které dominují průmysloví hráči vybavení specializovanou infrastrukturou. Výkon potřebný k vytěžení nového bloku je nyní tak velký, že je prakticky nemožné, aby toho jednotlivý uživatel dosáhl pouze pomocí běžného počítače. V důsledku toho se nyní těžba Mining provádí především pomocí specializovaných strojů zvaných [ASIC](https://planb.academy/resources/glossary/asic) (*Application-Specific Integrated Circuits*). Tyto čipy jsou optimalizovány výhradně pro běh dvojnásobného algoritmu [SHA-256](https://planb.academy/resources/glossary/sha256), který se používá pro Mining na Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ K interakci se sítí potřebuje uzel Miner uzel Bitcoin.
 
 
 
-Úloha Miner se také někdy odlišuje od úlohy vrtulníku. Sekáček je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
+Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem [poolu](https://planb.academy/resources/glossary/pool-mining) a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
 
 
 
@@ -598,7 +598,7 @@ Jedná se o základní pravidla protokolu Bitcoin, která zajišťují integritu
 
 
 
-Změna těchto pravidel se rovná změně protokolu, a tedy i měny (Hard Fork). Avšak i bez snahy o jejich změnu propůjčuje prostý fakt striktního uplatňování stávajících pravidel určitou moc: pokud blok pravidla porušuje, uzel jej okamžitě odmítne.
+Změna těchto pravidel se rovná změně protokolu, a tedy i měny ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Avšak i bez snahy o jejich změnu propůjčuje prostý fakt striktního uplatňování stávajících pravidel určitou moc: pokud blok pravidla porušuje, uzel jej okamžitě odmítne.
 
 
 
@@ -722,7 +722,7 @@ Systém Full node nemusí nikomu důvěřovat, protože ověřuje a zná všechn
 
 
 
-V praxi vyžaduje Full node netriviální zdroje, včetně několika stovek gigabajtů pro blokové soubory, procesoru schopného validovat skripty, paměti RAM pro Mempool a mezipaměti a stabilní šířky pásma. První synchronizace (*IBD*) načte a ověří kompletní historii: je náročná, ale probíhá pouze jednou. Full node se aktivně účastní sítě, předává bloky a transakce a může přijímat příchozí spojení, aby pomohl ostatním kolegům.
+V praxi vyžaduje Full node netriviální zdroje, včetně několika stovek gigabajtů pro blokové soubory, procesoru schopného validovat skripty, paměti RAM pro Mempool a mezipaměti a stabilní šířky pásma. První synchronizace (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) načte a ověří kompletní historii: je náročná, ale probíhá pouze jednou. Full node se aktivně účastní sítě, předává bloky a transakce a může přijímat příchozí spojení, aby pomohl ostatním kolegům.
 
 
 
@@ -758,7 +758,7 @@ Stručně řečeno, sledování Wallet funguje v uzlu pruned bez problémů, pok
 
 
 
-Uzel SPV (*Simplified Payment Verification*) neboli odlehčený uzel uchovává pouze hlavičky bloků, nikoli podrobnosti o transakcích, a při získávání důkazů o tom, že transakce je v bloku (Merkleho důkazy prostřednictvím stromů), pro který má hlavičku, spoléhá na ostatní plné uzly. Koncept zjednodušeného ověřování plateb není nový, navrhl jej sám Satoshi Nakamoto v 8. části Bílé knihy.
+Uzel [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (*Simplified Payment Verification*) neboli odlehčený uzel uchovává pouze hlavičky bloků, nikoli podrobnosti o transakcích, a při získávání důkazů o tom, že transakce je v bloku (Merkleho důkazy prostřednictvím stromů), pro který má hlavičku, spoléhá na ostatní plné uzly. Koncept zjednodušeného ověřování plateb není nový, navrhl jej sám Satoshi Nakamoto v 8. části Bílé knihy.
 
 
 
@@ -812,7 +812,7 @@ Středně pokročilý uživatel s počítačem může nainstalovat uzel pruned a
 
 
 
-Full node zůstává nejlepším řešením, pokud chcete být při používání Bitcoin zcela nezávislí a neomezovat se později na pokročilé použití, jako je indexer, uzel Lightning nebo dokonce Block explorer. Přesně to budeme v tomto kurzu zkoumat!
+Full node zůstává nejlepším řešením, pokud chcete být při používání Bitcoin zcela nezávislí a neomezovat se později na pokročilé použití, jako je indexer, uzel [Lightning](https://planb.academy/resources/glossary/lightning-network) nebo dokonce Block explorer. Přesně to budeme v tomto kurzu zkoumat!
 
 
 
@@ -853,7 +853,7 @@ Jedná se o nejsugestivnější a nejpružnější přístup: přesně víte, co
 
 
 
-[Bitcoin core je klientem sítě s ultravětšinovým podílem](https://bitcoincore.org/). Stahuje, ověřuje a udržuje Blockchain, poskytuje rozhraní API RPC/REST a může integrovat Wallet. Pokud dáváte přednost standardním nástrojům a cítíte se pohodlně, když si sami přidáváte služby (například server Electrum, průzkumník a LND), je lepší používat jádro tak, jak je.
+[Bitcoin core je klientem sítě s ultravětšinovým podílem](https://bitcoincore.org/). Stahuje, ověřuje a udržuje Blockchain, poskytuje rozhraní API [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST a může integrovat Wallet. Pokud dáváte přednost standardním nástrojům a cítíte se pohodlně, když si sami přidáváte služby (například server Electrum, průzkumník a LND), je lepší používat jádro tak, jak je.
 
 
 
@@ -1521,7 +1521,7 @@ Jednou z klíčových výhod společnosti Umbrel oproti konkurenci je rozsáhlá
 
 
 
-Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
+Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
 
 
 
@@ -1856,7 +1856,7 @@ Chcete-li zahájit konfiguraci zařízení Umbrel, klikněte na tlačítko "*Sta
 
 
 
-Zvolte si pseudonym nebo zadejte své jméno a nastavte silné heslo. Buďte opatrní: toto heslo je jedinou překážkou, která chrání přístup k vašemu Umbrelu ze sítě (a tedy potenciálně i k vašim bitcoinům, pokud na Umbrelu provozujete uzel Lightning). Chrání také vzdálený přístup přes Tor nebo VPN, pokud jsou tyto služby povoleny.
+Zvolte si pseudonym nebo zadejte své jméno a nastavte silné heslo. Buďte opatrní: toto heslo je jedinou překážkou, která chrání přístup k vašemu Umbrelu ze sítě (a tedy potenciálně i k vašim bitcoinům, pokud na Umbrelu provozujete uzel Lightning). Chrání také vzdálený přístup přes [Tor](https://planb.academy/resources/glossary/tor) nebo VPN, pokud jsou tyto služby povoleny.
 
 
 
@@ -2514,9 +2514,11 @@ Nakonec doporučuji aplikaci *Lightning Network+*, která umožňuje vyhledat pa
 
 
 
-Díky Umbrelu se správa osobního uzlu Lightning výrazně zjednodušila, ale stále je poměrně složitá. Z tohoto důvodu se tomuto tématu budeme blíže věnovat v některém z budoucích kurzů, který bude celý věnován tomuto využití.
+Díky Umbrelu je správa osobního Lightning uzlu zjednodušená, nicméně stále zůstává poměrně složitá. Proto vám doporučuji absolvovat kurz LNP 202, který je logickým pokračováním kurzu BTC 202 a ve kterém vás krok za krokem provedu nastavením a správou vašeho Lightning uzlu na Umbrelu.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Stupnice ocasu
 
@@ -2604,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server je bezplatný platební procesor s otevřeným zdrojovým kódem, který vám umožňuje přijímat platby prostřednictvím Bitcoin a Lightning Network bez zprostředkovatelů, přičemž si zachovává vlastní úschovu prostředků.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) je bezplatný platební procesor s otevřeným zdrojovým kódem, který vám umožňuje přijímat platby prostřednictvím Bitcoin a Lightning Network bez zprostředkovatelů, přičemž si zachovává vlastní úschovu prostředků.
 
 
 
@@ -2815,7 +2817,7 @@ Připomínáme, že blok Bitcoin se skládá z 80bajtové hlavičky a seznamu tr
 - Merkle Root transakcí
 - Timestamp (delší než medián času předchozích 11 bloků)
 - cíl obtížnosti
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2823,7 +2825,7 @@ Připomínáme, že blok Bitcoin se skládá z 80bajtové hlavičky a seznamu tr
 
 
 
-Transakce se zapisují do zařízení Merkle Tree. Jedná se o strukturu, která shrnuje velkou množinu dat (v tomto případě všechny transakce v bloku) tak, že jejich hashe postupně agreguje po dvou až do jediného "kořene", čímž se prokáže, že prvek patří do množiny (a zjistí se případná změna). Tímto způsobem jakákoli modifikace transakce modifikuje také kořen Merkle Tree, a tedy otisk záhlaví bloku. SegWit zavedl samostatný dodatečný Commitment pro cookies (podpisy), umístěný v bázi mincí.
+Transakce se zapisují do zařízení Merkle Tree. Jedná se o strukturu, která shrnuje velkou množinu dat (v tomto případě všechny transakce v bloku) tak, že jejich hashe postupně agreguje po dvou až do jediného "kořene", čímž se prokáže, že prvek patří do množiny (a zjistí se případná změna). Tímto způsobem jakákoli modifikace transakce modifikuje také kořen Merkle Tree, a tedy otisk záhlaví bloku. [SegWit](https://planb.academy/resources/glossary/segwit) zavedl samostatný dodatečný Commitment pro cookies (podpisy), umístěný v bázi mincí.
 
 
 
@@ -2847,7 +2849,7 @@ Jakmile je IBD dokončena, uzel přejde do své běžné fáze: ověřuje nové 
 
 
 
-Bitcoin core obsahuje mechanismus navržený tak, aby se zkrátila doba potřebná k plnému zprovoznění uzlu, přičemž podstata principu autonomního ověřování zůstává zachována: AssumeValid.
+Bitcoin core obsahuje mechanismus navržený tak, aby se zkrátila doba potřebná k plnému zprovoznění uzlu, přičemž podstata principu autonomního ověřování zůstává zachována: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -2908,7 +2910,7 @@ V tomto případě se software dotazuje na _**DNS seed**_. Jedná se o [servery 
 
 
 
-V naprosté většině případů postačí k navázání prvních spojení s ostatními uzly krok *DNS seeds*. Pokud tyto servery výjimečně neodpoví do 60 sekund, uzel přejde na jinou metodu: [statický seznam více než 1 000 adres](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) _seed uzlů_ je zabudován do kódu Bitcoin core a je pravidelně aktualizován. Pokud první dva způsoby získání IP adres selžou, toto poslední řešení vytvoří počáteční spojení, ze kterého si pak uzel může vyžádat nové IP adresy.
+V naprosté většině případů postačí k navázání prvních spojení s ostatními uzly krok *[DNS seeds](https://planb.academy/resources/glossary/dns-seeds)*. Pokud tyto servery výjimečně neodpoví do 60 sekund, uzel přejde na jinou metodu: [statický seznam více než 1 000 adres](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) _seed uzlů_ je zabudován do kódu Bitcoin core a je pravidelně aktualizován. Pokud první dva způsoby získání IP adres selžou, toto poslední řešení vytvoří počáteční spojení, ze kterého si pak uzel může vyžádat nové IP adresy.
 
 
 
@@ -3007,7 +3009,7 @@ Aby bylo možné se během reorganizace vrátit v čase, ukládá jádro soubě�
 
 
 
-Vyhledávání bloku přímo v plochých souborech by bylo příliš časově náročné. Jádro proto udržuje databázi LevelDB v adresáři `blocks/index/`, která pro každý známý blok uvádí metadata, jako je Hash, výška, stav validace, soubor `blk` a offset, kde se nachází. Když partner požádá o blok nebo když interní komponenta potřebuje získat přístup k určitému bloku, tento index poskytuje rychlý přístup. Bez tohoto indexu by bylo nutné provádět příliš mnoho operací.
+Vyhledávání bloku přímo v plochých souborech by bylo příliš časově náročné. Jádro proto udržuje databázi [LevelDB](https://planb.academy/resources/glossary/leveldb) v adresáři `blocks/index/`, která pro každý známý blok uvádí metadata, jako je Hash, výška, stav validace, soubor `blk` a offset, kde se nachází. Když partner požádá o blok nebo když interní komponenta potřebuje získat přístup k určitému bloku, tento index poskytuje rychlý přístup. Bez tohoto indexu by bylo nutné provádět příliš mnoho operací.
 
 
 
@@ -3049,7 +3051,7 @@ Souhrn všech těchto dílů v daném okamžiku T tvoří sadu UTXO: rozsáhlý 
 
 
 
-Sada UTXO je uložena ve složce `chainstate/` jako kompaktní databáze LevelDB. Každá část spojuje klíč odvozený od Hash transakce a výstupního indexu s hodnotou obsahující: částku, zámek `scriptPubKey`, výšku bloku vytvoření a indikátor coinbase.
+Sada UTXO je uložena ve složce `chainstate/` jako kompaktní databáze LevelDB. Každá část spojuje klíč odvozený od Hash transakce a výstupního indexu s hodnotou obsahující: částku, zámek `scriptPubKey`, výšku bloku vytvoření a indikátor [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3073,13 +3075,13 @@ Všimněte si, že sada UTXO je často jádrem obav z decentralizace Bitcoin, pr
 
 
 
-Růst souboru UTXO vychází také ze struktury jednoduchých platebních transakcí na Bitcoin. Při platbě totiž spotřebováváte jeden UTXO jako vstup a vytváříte 2 nové UTXO jako výstup (jeden pro platbu a druhý pro Exchange). A konečně, heuristika analýzy řetězce, nazývaná CIOH (*Common Input Ownership Heuristic*), poskytuje další podnět k tomu, aby se zabránilo konsolidaci Coin.
+Růst souboru UTXO vychází také ze struktury jednoduchých platebních transakcí na Bitcoin. Při platbě totiž spotřebováváte jeden UTXO jako vstup a vytváříte 2 nové UTXO jako výstup (jeden pro platbu a druhý pro Exchange). A konečně, heuristika analýzy řetězce, nazývaná [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), poskytuje další podnět k tomu, aby se zabránilo konsolidaci Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Vzhledem k tomu, že část z nich musí být uchovávána v paměti RAM, aby bylo možné ověřit transakce v přiměřeném čase, může sada UTXO postupně způsobit, že provoz Full node bude příliš nákladný. K řešení tohoto problému již existuje několik návrhů, zejména Utreexo.
 
 
 
@@ -3106,7 +3108,7 @@ Je důležité poznamenat, že mempooly uzlů nemají žádnou konsenzuální ho
 
 
 
-Po přijetí transakce provede jádro řadu kontrol podle pravidel konsensu (syntaxe, platné skripty, žádné dvojí výdaje atd.) a pravidel Mempool, která jsou místní politikou (RBF, minimální hranice poplatků, datový limit v `OP_RETURN` atd.). Pokud transakce tato pravidla dodržuje, je uložena do paměti.
+Po přijetí transakce provede jádro řadu kontrol podle pravidel konsensu (syntaxe, platné skripty, žádné dvojí výdaje atd.) a pravidel Mempool, která jsou místní politikou ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimální hranice poplatků, datový limit v `OP_RETURN` atd.). Pokud transakce tato pravidla dodržuje, je uložena do paměti.
 
 
 
@@ -3347,7 +3349,7 @@ Na úrovni sítě máme také:
 
 
 
-Ve výchozím nastavení váš uzel komunikuje přes sítě Clearnet, Tor a I2P. To znamená, že peeři, se kterými se spojuje v síti clearnet, vidí vaši veřejnou IP adresu Address a poskytovatel internetu pravděpodobně zjistí, že používáte uzel Bitcoin (ačkoli díky P2P Transport V2 je pro poskytovatele internetu obtížnější odposlouchávat). To nemusí nutně představovat problém, ale pokud se chcete vyhnout úniku těchto informací, můžete svůj uzel připojit výhradně prostřednictvím sítě Tor.
+Ve výchozím nastavení váš uzel komunikuje přes sítě Clearnet, Tor a I2P. To znamená, že peeři, se kterými se spojuje v síti clearnet, vidí vaši veřejnou IP adresu Address a poskytovatel internetu pravděpodobně zjistí, že používáte uzel Bitcoin (ačkoli díky [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) je pro poskytovatele internetu obtížnější odposlouchávat). To nemusí nutně představovat problém, ale pokud se chcete vyhnout úniku těchto informací, můžete svůj uzel připojit výhradně prostřednictvím sítě Tor.
 
 
 
@@ -3894,11 +3896,13 @@ Nyní můžete přejít k závěrečné části kurzu, kde si budete moci vyhodn
 
 
 
-Nyní máte několik možností. Dalším logickým krokem je zřízení vlastního uzlu Lightning, který vám umožní být plně nezávislý na transakcích off-chain. To bude předmětem připravovaného kurzu, který bude zveřejněn na podzim tohoto roku 2025 na téma Plan ₿ Academy.
+Nyní se vám nabízí několik cest. Dalším logickým krokem je nastavení vlastního Lightning uzlu, abyste byli plně nezávislí při svých off-chain transakcích. Právě tomu se věnuje další kurz na Plan ₿ Academy:
 
 
 
-Mezitím vás zvu na školení BTC 204, které vám umožní pochopit a osvojit si zásady ochrany soukromí při používání systému Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Rovněž vás zvu k objevení kurzu BTC 204, který vám umožní porozumět a zvládnout principy ochrany soukromí při používání Bitcoinu:
 
 
 

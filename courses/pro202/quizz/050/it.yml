@@ -1,0 +1,8 @@
+question: Quando un nodo Bitcoin si avvia e si unisce alla rete per la prima volta, qual è il meccanismo principale che utilizza per scoprire i peer attivi?
+answer: Contatta i semi DNS hardcoded mantenuti dagli sviluppatori del core per ricevere gli IP dei peer attivi
+wrong_answers:
+  - Trasmette un messaggio di scoperta a tutti gli indirizzi IP in intervalli di sottorete predefiniti
+  - Si collega a un server di registro centrale che mantiene un elenco di tutti i nodi attivi
+  - Utilizza il protocollo DHT (Distributed Hash Table) per trovare i peer attraverso un routing basato su hash
+explanation: |
+  Bitcoin utilizza semi DNS hardcoded come meccanismo di bootstrap, perché fornisce un modo decentralizzato per l'input di nuovi nodi nella rete senza fare affidamento su un'autorità centrale. I semi DNS sono mantenuti dagli sviluppatori del nucleo e restituiscono gli indirizzi IP dei peer attualmente attivi. Una volta connessi, i nodi possono utilizzare il comando getaddr per scoprire altri peer. Le risposte sbagliate descrivono approcci o protocolli centralizzati non utilizzati da Bitcoin: non c'è un registro centrale, non c'è il broadcasting delle sottoreti e non c'è la scoperta dei peer basata su DHT nel progetto di Bitcoin.

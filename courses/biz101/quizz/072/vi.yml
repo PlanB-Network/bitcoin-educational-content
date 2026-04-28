@@ -1,9 +1,9 @@
 question: Hệ thống doanh nghiệp tự động cập nhật hàng tồn kho như thế nào?
-answer: Thông qua các kích hoạt quy trình làm việc
+answer: Thông qua các kích hoạt trong quy trình làm việc
 wrong_answers:
   - Cập nhật thủ công
-  - Tải lên cuối ngày
-  - Báo cáo theo lịch trình
+  - Cập nhật cuối ngày
+  - Báo cáo theo kỳ
 explanation: |
-  Quy trình làm việc kích hoạt hệ thống cập nhật theo thời gian thực.
+  Quy trình làm việc kích hoạt hệ thống cập nhật tức thời.
 reviewed: true

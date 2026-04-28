@@ -1,5 +1,5 @@
 ---
-name: دوجو
+name: Dojo
 description: یک نود Bitcoin متن‌باز برای حریم خصوصی و خودمختاری
 ---
 

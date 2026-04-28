@@ -218,7 +218,7 @@ script(OP_RETURN 5468616e6b73205361746f736869), 0
 
 
 
-Съвет: Използвайте инструмента [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/), за да създадете автоматично скрипта generate. Дори ако този инструмент предлага въвеждане на сумата в BTC, запазете единицата, конфигурирана в Electrum.
+Съвет: Използвайте инструмента [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/), за да създадете автоматично скрипта generate. Дори ако този инструмент предлага въвеждане на сумата в BTC, запазете единицата, конфигурирана в Electrum.
 
 
 

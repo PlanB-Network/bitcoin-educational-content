@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - स्टोनवॉल
+name: Sparrow Wallet - Stonewall
 description: Sparrow पर स्टोनवॉल लेनदेन को समझना और उसका उपयोग करना
 ---
 
@@ -76,7 +76,7 @@ description: Sparrow पर स्टोनवॉल लेनदेन को �
 
 
 
-[**-> स्टोनवॉल लेनदेन x2 के बारे में अधिक जानें**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> स्टोनवॉल लेनदेन x2 के बारे में अधिक जानें**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

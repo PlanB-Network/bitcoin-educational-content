@@ -1,0 +1,8 @@
+question: Jaki jest podstawowy powód, dla którego architektura Breez SDK zapobiega przeszkodom regulacyjnym, które zwykle wpływają na usługi Custodial Lightning?
+answer: Użytkownicy zachowują pełną kontrolę nad swoimi kluczami prywatnymi, które nigdy nie opuszczają ich urządzeń, dzięki czemu oprogramowanie to nie wymaga opieki
+wrong_answers:
+  - SDK działa za pośrednictwem zdecentralizowanych LSP, które rozkładają odpowiedzialność regulacyjną na wiele jurysdykcji
+  - Infrastruktura Greenlight jest hostowana w jurysdykcjach przyjaznych regulacjom, które zwalniają usługi Lightning oparte na chmurze
+  - Mechanizm kanału just-in-time tworzy tymczasowe kanały płatności, które nie podlegają tradycyjnym regulacjom finansowym
+explanation: |
+  Breez SDK unika przeszkód regulacyjnych, ponieważ zachowuje zasady niepowiernicze - klucze prywatne użytkowników nigdy nie opuszczają ich urządzeń, a Greenlight nie może uzyskać dostępu do środków użytkownika ani wykonywać nieautoryzowanych operacji. Ta niepowiernicza architektura oznacza, że oprogramowanie nie przechowuje środków klientów, w przeciwieństwie do usług powierniczych, które podlegają znacznym wymogom regulacyjnym, ponieważ kontrolują aktywa użytkowników. Inne opcje błędnie sugerują, że korzyści regulacyjne wynikają z funkcji technicznych lub strategii jurysdykcyjnych, podczas gdy podstawową zaletą jest po prostu to, że oprogramowanie niebędące powiernikiem napotyka mniej barier regulacyjnych na całym świecie.

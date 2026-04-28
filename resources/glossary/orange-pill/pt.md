@@ -1,8 +1,8 @@
 ---
-term: PILHAS DE LARANJA
+term: Pílula laranja
+definition: Conceito inspirado em Matrix que simboliza o despertar para a compreensão de Bitcoin.
 ---
 
 Inspirado no filme *Matrix*, este comprimido imaginário desperta a consciência de Bitcoin.
 
 
-> ► *Também utilizado como verbo. Orange-pillage alguém = alistá-lo no Bitcoin.*

@@ -1,8 +1,8 @@
 ---
-term: NIEEKONOMICZNA PRODUKCJA
+term: Niekonomiczne wyjście
+definition: Kwota bitcoinów zbyt niska, aby mogła zostać wydana, ponieważ opłaty transakcyjne przekroczyłyby jej wartość (dust).
 ---
 
 Odnosi się do bardzo małych ilości Bitcoin, które są zbyt małe, aby mogły zostać wysłane w transakcji, ponieważ opłaty wymagane do uwzględnienia ich w bloku byłyby proporcjonalnie wyższe niż ich wartość. Dokładna definicja "Dust" może się różnić w zależności od kontekstu, ale ogólnie odnosi się do każdej transakcji wyjściowej, która wymaga więcej opłat niż jest warta. Dla użytkowników Bitcoin ważne jest, aby zarządzać swoimi UTXO i ćwiczyć ich konsolidację, aby nie stały się Dust.
 
 
-> w języku angielskim termin "uneconomical outputs" jest czasami używany w odniesieniu do Dust

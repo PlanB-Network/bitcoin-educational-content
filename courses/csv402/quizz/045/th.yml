@@ -1,0 +1,9 @@
+question: มาตรฐาน RGB ใดที่ใช้ในการกำหนดโทเค็นที่สามารถทดแทนได้?
+answer: RGB20
+wrong_answers:
+  - RGB21
+  - RGB22
+  - RGB25
+explanation: |
+  RGB20 เป็นมาตรฐานที่ใช้สร้างและจัดการโทเค็นที่สามารถแลกเปลี่ยนได้บนโปรโตคอล RGB
+reviewed: false

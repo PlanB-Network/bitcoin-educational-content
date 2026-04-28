@@ -1,6 +1,7 @@
 ---
-term: (TUUM)
+term: Haldaja (core)
 
+definition: Isikud, kes vastutavad Bitcoin Core'i projekti haldamise ja koodimuudatuste ühendamise eest.
 ---
 Bitcoin Core'i projekti raames, mis on Bitcoini võrgu sõlmede valdav rakendus, on hooldajad üksikisikud, kelle ülesandeks on projekti haldamine. Nad vastutavad selle rakendamise eest. Nad vastutavad Bitcoin Core'i GitHubi repositooriumi modereerimise ja uute versioonide avaldamise ajakava kehtestamise eest. Nad vastutavad peamiselt kaasajate esitatud tõmbepäringute (PR) ühendamise eest.
 

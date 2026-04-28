@@ -1,0 +1,8 @@
+question: Vilket Cargo-kommando utför kompileringskontroller utan att generera en körbar fil?
+answer: lastkontroll
+wrong_answers:
+  - lastutrymme
+  - lastkörning
+  - lastprov
+explanation: |
+  Kommandot "cargo check" utför alla kompileringskontroller och verifierar att din kod kompileras korrekt utan att generera den slutliga körbara filen. Detta gör det betydligt snabbare än en fullständig kompilering när du bara vill verifiera att koden är korrekt. Däremot kompilerar och genererar 'cargo build' körbara filer, 'cargo run' både bygger och kör programmet och 'cargo test' kompilerar och kör tester.

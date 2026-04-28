@@ -1,0 +1,9 @@
+question: Jednoduše řečeno, co je to blok na Bitcoinu?
+answer: Balíček transakcí
+wrong_answers:
+  - Platba
+  - Centrální server
+  - Soukromý klíč
+explanation: |
+  Zjednodušeně řečeno, blok je prostě soubor seskupených transakcí.
+reviewed: false

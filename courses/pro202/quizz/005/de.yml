@@ -1,0 +1,8 @@
+question: Welche mathematische Eigenschaft stellt sicher, dass jedes Element, das nicht Null ist, in einem Primzahlfeld F(p) ein multiplikatives Inverses hat?
+answer: Das Feld ist definiert durch eine Primzahl p
+wrong_answers:
+  - Das Feld enthält genau p-1 Elemente
+  - Das Feld verwendet modulare arithmetische Operationen
+  - Das Feld unterstützt Addition und Multiplikation
+explanation: |
+  Ein endliches Feld F(p) muss durch eine Primzahl p definiert sein, um sicherzustellen, dass jedes Element, das nicht Null ist, ein multiplikatives Inverses hat. Dies ist eine grundlegende Anforderung der Feldtheorie - wenn p eine Primzahl ist, bilden die ganzen Zahlen modulo p ein Feld, in dem eine Division immer möglich ist (außer durch Null). Wäre p zusammengesetzt, hätten einige Elemente, die nicht Null sind, keine Inverse, was die Feldstruktur aufbrechen würde. Während die anderen Optionen Eigenschaften endlicher Felder beschreiben, garantiert nur die Primzahl von p die Existenz von multiplikativen Inversen für alle Elemente ungleich Null.

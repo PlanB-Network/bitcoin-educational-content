@@ -1,0 +1,8 @@
+question: Mục đích chính của việc kết hợp RC với RefCell trong lập trình Rust là gì?
+answer: Cho phép nhiều chủ sở hữu chia sẻ và chỉnh sửa cùng một dữ liệu với các kiểm tra mượn trong thời gian chạy.
+wrong_answers:
+  - Chuyển việc thực thi quy tắc mượn từ thời gian chạy trở lại thời gian biên dịch để có hiệu suất tốt hơn.
+  - Để tạo dữ liệu chia sẻ bất biến có thể được truy cập an toàn trên nhiều luồng.
+  - Để ngăn ngừa các chu kỳ tham chiếu và rò rỉ bộ nhớ khi chia sẻ dữ liệu giữa nhiều người dùng.
+explanation: |
+  RC<RefCell<T>> kết hợp việc đếm tham chiếu để chia sẻ quyền sở hữu với khả năng thay đổi bên trong để kiểm tra các thay đổi trong thời gian chạy. RC cho phép nhiều phần mã sở hữu cùng một dữ liệu, trong khi RefCell cho phép thay đổi thông qua các tham chiếu bất biến bằng cách kiểm tra các quy tắc mượn trong thời gian chạy. Các tùy chọn khác không chính xác: mô hình này thực sự chuyển việc kiểm tra sang thời gian chạy (không phải thời gian biên dịch), tạo ra dữ liệu chia sẻ có thể thay đổi (không phải bất biến), và thực tế có thể gây ra chu kỳ tham chiếu thay vì ngăn chặn chúng.

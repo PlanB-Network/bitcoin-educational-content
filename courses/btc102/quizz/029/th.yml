@@ -1,0 +1,9 @@
+question: ผู้เล่นหลักรายใดออกแบบ ASICs สำหรับ Bitcoin mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain เป็นหนึ่งในผู้ผลิตฮาร์ดแวร์เฉพาะทางชั้นนำสำหรับ Bitcoin mining.
+reviewed: false

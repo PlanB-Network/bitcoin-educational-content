@@ -1,0 +1,25 @@
+id: 7012e486-97eb-448b-937f-05eddb341d4e
+start_date: 2026-07-08 22:00:00
+end_date: 2026-07-12 21:59:59
+timezone: Europe/Madrid
+address_city_country: Mallorca, Spain
+address_line_2:
+address_line_3:
+name: Mallorca Blockchain Days 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  A Bitcoin and blockchain community gathering in Mallorca bringing together enthusiasts, builders, and entrepreneurs in a Mediterranean setting.
+language:
+  - en
+  - es
+links:
+  website: https://mallorcablockchaindays.com/
+  replay_url:
+  live_url:
+project_id: 20e43d58-a2ea-4c6f-84c5-7a7a634b7412
+tags:
+  - adoption
+  - business
+  - case-studies

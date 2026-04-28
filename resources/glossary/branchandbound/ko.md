@@ -1,5 +1,6 @@
 ---
-term: 분기 및 바운드
+term: Branch-and-bound
+definition: 잔돈과 트랜잭션 수수료를 최소화하기 위한 Bitcoin Core의 코인 선택 알고리즘.
 ---
 
 버전 0.17부터 Bitcoin core Wallet에서 입력을 선택하는 데 사용되며 Murch가 개발한 방법입니다. BnB(Branch-and-Bound)는 변경 및 관련 수수료를 최소화하기 위해 필요한 트랜잭션 출력과 정확히 일치하는 UTXO 집합을 검색합니다.

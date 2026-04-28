@@ -1,0 +1,9 @@
+question: NWC接続に対応しているモバイル・アプリケーションはどれですか？
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  提案の中でAlby GoだけがNWCに対応しているが、ゼウスのような他のアプリケーションも対応している。
+reviewed: false

@@ -1,0 +1,8 @@
+question: Cơ chế mã hóa nào cho phép Liquid Network xác minh rằng các khoản đầu vào giao dịch bằng với các khoản đầu ra cộng với phí mà không tiết lộ số tiền thực tế cho công chúng?
+answer: Cam kết Pedersen và bằng chứng phạm vi
+wrong_answers:
+  - Cây Merkle và chữ ký số
+  - Hợp đồng có thời hạn Hash và chữ ký đa chữ ký
+  - Chữ ký Schnorr và kịch bản Taproot
+explanation: |
+  Cam kết Pedersen và bằng chứng phạm vi là các thuật toán mã hóa cụ thể cho phép Confidential Transactions của Liquid che giấu số tiền trong khi vẫn cho phép xác minh toán học. Cam kết Pedersen liên kết mã hóa với các giá trị mà không tiết lộ chúng, trong khi bằng chứng phạm vi đảm bảo tất cả các số tiền đều là số nguyên dương, ngăn người dùng tạo tiền thông qua các giá trị âm. Các tùy chọn khác là các công cụ mã hóa hợp lệ của Bitcoin nhưng không cung cấp khả năng che giấu cần thiết cho các giao dịch bí mật, nơi số tiền vẫn được giữ kín nhưng vẫn có thể xác minh được.

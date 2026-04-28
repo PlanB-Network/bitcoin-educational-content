@@ -23,7 +23,7 @@ objectives:
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-歡迎來到 PHI201！
+歡迎來到 PHI101！
 
 本課程邀請您透過分析塑造自由的主要思想流派來探索自由在歷史上的演變。透過從古代到當代辯論的歷史歷程，您將發現自由的概念在幾個世紀中是如何建構的，無論是反對權力還是與權力合作。
 
@@ -185,7 +185,7 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 特別是針對公立學校的教科書，以及由國家雇用的教授所撰寫的教科書。
 
-19 世紀一位來自劍橋的歷史學家 [Lord Acton] (https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) 所寫的兩卷本著作則不然。他的全名是 John Emerich Edward Dalberg, Baron of Acton (1834-1902)。他是 _History of Liberty in Antiquity and Christianity_ 的作者。他的著作被認為是該主題最重要的著作之一，他將其職業生涯的大部分時間都貢獻給了這部著作。他的著作雖未完成，但對濫用權力的危險提出了有力的警告，他對自由和個人責任的倡導在今天仍然適用。
+19 世紀一位來自劍橋的歷史學家 [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt) 所寫的兩卷本著作則不然。他的全名是 John Emerich Edward Dalberg, Baron of Acton (1834-1902)。他是 _History of Liberty in Antiquity and Christianity_ 的作者。他的著作被認為是該主題最重要的著作之一，他將其職業生涯的大部分時間都貢獻給了這部著作。他的著作雖未完成，但對濫用權力的危險提出了有力的警告，他對自由和個人責任的倡導在今天仍然適用。
 
 這位作者最為人熟知的格言是：「權力趨於腐化，絕對權力絕對腐化」。這句話與孟德斯鸠在[_The Spirit of the Laws_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316)中的論述不謀而合：
 
@@ -854,7 +854,7 @@ Or Le Goff 在 _L'usure au Moyen Âge_（1967 年，1986 年再版，書名為_L
 
 ![image](assets/zh-Hant/049.webp)
 
-他的貨幣分析的核心是貨幣的 「變異 」問題，也就是硬幣的金屬含量及其面額的改變。這些變化自古以來就有，而且在古代和中世紀都有很好的記錄。它們最明顯的效果就是改變貨幣單位的購買力，尤其是降低購買力。這是一種原始形式的通貨膨脹，Oresme 明確譴責它是一種惡行。
+他的貨幣分析的核心是貨幣的 「變異 」問題，也就是硬幣的金屬含量及其面額的改變。這些變化自古以來就有，而且在古代和中世紀都有很好的記錄。它們最明顯的效果就是改變貨幣單位的購買力，尤其是降低購買力。這是一種原始形式的[通貨膨脹](https://planb.academy/resources/glossary/inflation)，Oresme 明確譴責它是一種惡行。
 
 Oresme 立即提出一個核心問題：通貨膨脹對社會有益嗎？他的答案是否定的，他認為通貨膨脹不會使貨幣對交換的作用增加或減少。無論價格高低，也就是無論名義貨幣 Supply 高低，經濟都能運作良好。
 
@@ -1032,7 +1032,7 @@ Turgot 是自然法的使徒，他也稱之為 「自由系統」。他經常強
 
 在此，Turgot 在很大程度上預見了 Mises 和 Hayek 的論點，即在社會主義經濟體系中，任何經濟計算都是不可能的。
 
-Murray Rothbard 在他的《奧地利觀點的經濟史》中有一章專門討論「圖爾戈的輝煌」，他強調「圖爾戈對後來經濟思想的影響受到以下神話的嚴重限制（......）：亞當‧斯密是政治經濟學的創始人。「他還說，」對於正式追隨斯密的法國人J.B. Say來說，圖爾戈的影響最終是最大的，尤其是他的效用價值理論"。
+Murray Rothbard 在他的《[奧地利](https://planb.academy/resources/glossary/austrian-school)觀點的經濟史》中有一章專門討論「圖爾戈的輝煌」，他強調「圖爾戈對後來經濟思想的影響受到以下神話的嚴重限制（......）：亞當‧斯密是政治經濟學的創始人。「他還說，」對於正式追隨斯密的法國人J.B. Say來說，圖爾戈的影響最終是最大的，尤其是他的效用價值理論"。
 
 ### 康迪拉克的傑作
 
@@ -1600,7 +1600,7 @@ Rueff 於 1919 年畢業於École Polytechnique，他的職業生涯是高級公
 
 ![image](assets/zh-Hant/101.webp)
 
-哈耶克相信，私人貨幣的自由市場將帶來更大的貨幣穩定性。將近 50 年後，像 Bitcoin 這樣的加密貨幣體現了哈耶克的競爭願景，為中央銀行的壟斷體系提供了去中心化的替代方案。Bitcoin 的發行上限為 2,100 萬個單位，是防止通貨膨脹和監管機構恣意妄為的保證。
+哈耶克相信，私人貨幣的自由市場將帶來更大的貨幣穩定性。將近 50 年後，像 Bitcoin 這樣的[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)體現了哈耶克的競爭願景，為中央銀行的壟斷體系提供了去中心化的替代方案。Bitcoin 的發行上限為 2,100 萬個單位，是防止通貨膨脹和監管機構恣意妄為的保證。
 
 ## 結論：想法的力量
 

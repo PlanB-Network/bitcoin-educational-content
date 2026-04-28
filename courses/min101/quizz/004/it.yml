@@ -1,0 +1,9 @@
+question: Secondo l'idea riassunta da Satoshi, qual è l'unico modo per garantire l'assenza di doppia spesa?
+answer: Conoscere tutte le transazioni
+wrong_answers:
+  - Conoscere tutti i nodi attivi
+  - Conoscere tutti i miner attivi
+  - Conoscere tutte le chiavi private
+explanation: |
+  La doppia spesa si rileva confrontando una transazione con le spese passate registrate in un registro condiviso.
+reviewed: false

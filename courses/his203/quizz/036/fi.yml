@@ -1,0 +1,10 @@
+question: Mitä "pool hopping" tarkoittaa kaivostyöntekijälle, joka delegoi hash-asteensa mining poolille?
+answer: Irrottautuminen mining-poolista, kun tietty määrä osakkeita on toimitettu syklin aikana, ja laskentatehon ohjaaminen omalle tilille tai toiseen mining-pooliin
+wrong_answers:
+  - Otetaan käyttöön kaistanleveyttä vaativa viestintäprotokolla mining-poolin kanssa vuorovaikutuksessa vanhentuneiden osakkeiden vähentämiseksi tehostamalla uusien lohkojen ilmoittamista
+  - Useiden fiktiivisten transaktioiden suorittaminen mining-altaan sisällä bitcoinin omistusoikeuden siirron simuloimiseksi ja delegoitujen louhijoiden luottamuksellisuuden lisäämiseksi
+  - mining-altaan nimen kirjoittaminen louhitun lohkon palkkiotapahtuman syöttökenttään, jotta mining-altaiden toiminta olisi läpinäkyvämpää
+explanation: |
+ Tämän menetelmän kuvasi Raulo helmikuussa 2011, ja hän arvioi, että henkilö voi saada tällä tavoin 28 prosenttia enemmän bitcoineja. Se oli syynä siihen, että käyttöön otettiin
+ "huijauksen vastaisen" pisteytyksen Slush-osuuskunnassa.
+reviewed: true

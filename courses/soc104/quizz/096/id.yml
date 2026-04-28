@@ -1,0 +1,9 @@
+question: Menurut Manifesto Cypherpunk karya Eric Hughes, apa metode utama yang harus digunakan oleh para cypherpunks untuk mencapai tujuan privasi dan kebebasan mereka?
+answer: Menulis kode untuk membangun sistem kriptografi yang membuat perpecahan politik menjadi tidak relevan
+wrong_answers:
+  - Melobi pemerintah untuk mengesahkan undang-undang dan peraturan perlindungan privasi yang lebih kuat
+  - Mengorganisir protes massa dan kampanye pembangkangan sipil terhadap pengawasan
+  - Membuat program edukasi untuk meningkatkan kesadaran publik tentang hak privasi digital
+explanation: |
+  Eric Hughes secara eksplisit menyatakan 'Cypherpunks menulis kode' sebagai pendekatan fundamental mereka. Manifesto ini menekankan bahwa cypherpunks tidak menemukan kenyamanan dalam harapan dan keinginan, tetapi secara aktif melakukan intervensi dengan membangun sistem anonim melalui kriptografi.
+  Hal ini mengubah gagasan abstrak tentang kebebasan menjadi realitas ekonomi dan sosial yang konkret, membuat perpecahan politik menjadi sewenang-wenang dan tidak perlu. Pilihan lainnya mewakili aktivisme politik tradisional, yang bertentangan dengan filosofi cypherpunk yang mengutamakan solusi teknologi daripada reformasi kelembagaan.

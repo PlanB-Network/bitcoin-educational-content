@@ -1,0 +1,9 @@
+question: Šta je kandidatski blok u Bitcoin-u?
+answer: Blok koji je pripremio rudar, ali još uvek nije validan
+wrong_answers:
+  - Blok koji je mreža potvrdila, ali još uvek nije podeljen
+  - Blok koji je kreirao novčanik, ali još uvek nije validan
+  - Blok sačuvan u mempool-u
+explanation: |
+  Svaki rudar lokalno sastavlja kandidatski blok pre nego što pokuša da pronađe validan dokaz o radu.
+reviewed: false

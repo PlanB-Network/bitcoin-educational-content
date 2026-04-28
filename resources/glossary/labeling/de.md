@@ -1,6 +1,7 @@
 ---
-term: LABELING
+term: Labeling
 
+definition: Praxis des Zuweisens von Anmerkungen zu UTXOs, um die Verwaltung von Mitteln und die Privatsphäre zu erleichtern.
 ---
 Die Praxis, einem bestimmten UTXO in einer Bitcoin-Wallet einen Vermerk oder eine Bezeichnung zuzuweisen. Wenn ich zum Beispiel einen UTXO von einem P2P-Kauf auf Bisq mit Charles habe, könnte ich ihn als "Non-KYC Bisq Charles" bezeichnen.
 

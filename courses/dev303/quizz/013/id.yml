@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika sebuah variabel keluar dari cakupan dalam sistem kepemilikan Rust?
+answer: Nilai tersebut secara otomatis dihapus dan memorinya dibebaskan
+wrong_answers:
+  - Nilai tersebut dipindahkan ke lingkup global untuk digunakan kembali
+  - Nilai tersebut menjadi tidak dapat diubah dan tetap ada dalam memori
+  - Nilai tersebut disalin ke lokasi cadangan untuk keamanan
+explanation: |
+  Dalam sistem kepemilikan Rust, ketika sebuah variabel keluar dari ruang lingkup (biasanya ketika eksekusi meninggalkan blok yang didefinisikan oleh kurung kurawal), nilainya secara otomatis didrop dan memorinya dibebaskan. Pembersihan otomatis ini diimplementasikan melalui mekanisme drop Rust, di mana bahasa secara implisit memanggil fungsi drop pada variabel yang keluar dari ruang lingkup. Hal ini memastikan manajemen sumber daya yang tepat tanpa memerlukan kode pembersihan eksplisit dari programmer, mengikuti pola RAII yang dipinjam dari C++.

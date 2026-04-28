@@ -1,9 +1,9 @@
-question: Ni nde yasohoye videwo ya mbere y’agaciro kanini yerekeye Bitcoin muri Ntwarante 2011?
-answer: Sitefani Tomasi
+question: Ni nde yasohoye videwo ya mbere ibona neza yerekeye Bitcoin muri Ntwarante 2011?
+answer: Stefan Thomas
 wrong_answers:
-  - Mike Umva
-  - Umukristo Decker
+  - Mike Hearn
+  - Christian Decker
   - Bruce Wagner
 explanation: |
-  Iyo videwo yitwa "Bitcoin ni iki?", yakozwe biciye mu gufasha abantu benshi.
+  Iyo videwo yitwa "What is Bitcoin?(Bitcoin ni iki?)", yakozwe biciye mu bufasha bw'abagize uwo umuryango.
 reviewed: true

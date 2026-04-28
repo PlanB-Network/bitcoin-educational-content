@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem comercial que o tempo de liquidação de 2 minutos do Liquid proporciona em relação aos sistemas financeiros tradicionais?
+answer: Reduz o risco de contraparte ao permitir a liquidação atómica, em que a entrega e o pagamento ocorrem simultaneamente
+wrong_answers:
+  - Elimina a necessidade de conformidade regulamentar e requisitos KYC na negociação de activos
+  - Permite escalabilidade ilimitada para negociação de alta frequência sem quaisquer taxas de transação
+  - Permite a descoberta automática de preços através de algoritmos de criação de mercado incorporados
+explanation: |
+  A liquidação em 2 minutos do Liquid permite a liquidação atómica, que é crucial para reduzir o risco de contraparte porque ambas as partes recebem o que lhes é devido em simultâneo, eliminando o intervalo em que uma das partes pode entrar em incumprimento. A liquidação tradicional T+2 cria uma janela onde existe risco de contraparte. As outras opções são incorrectas: o Liquid continua a exigir conformidade através de AMP, tem taxas de transação e limites de escala e não permite a criação automática de mercado.

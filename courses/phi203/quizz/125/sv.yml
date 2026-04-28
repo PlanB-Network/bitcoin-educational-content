@@ -1,0 +1,8 @@
+question: Enligt Paul Leroy-Beaulieus analys från 1883, hur skaffar sig kollektivistiska system typiskt sett tekniska och procedurmässiga innovationer?
+answer: De kopierar innovationer som utvecklas externt av fria marknadssamhällen eftersom de inte kan generate intern innovation
+wrong_answers:
+  - De utvecklar innovationer genom centraliserade forskningskommittéer som samordnar den vetenskapliga utvecklingen
+  - De skapar innovationer genom att samla kollektiv kunskap och undanröja konkurrenshinder för samarbete
+  - De generate-innovationer genom statligt finansierade institutioner som fokuserar resurser på systematisk förbättring
+explanation: |
+  Paul Leroy-Beaulieu förutspådde att kollektivistiska system strukturellt skulle vara oförmögna till intern innovation på grund av sin byråkratiska natur och brist på individuella incitament. Han förutsåg helt riktigt att kommunistiska samhällen skulle förlita sig på att kopiera innovationer från fria samhällen snarare än att skapa egna, eftersom avsaknaden av personliga belöningsmekanismer och rigida regelverk förhindrar det risktagande och kreativa initiativ som krävs för verklig innovation.

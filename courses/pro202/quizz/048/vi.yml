@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi xây dựng cây Merkle từ các giao dịch nếu số lượng hàm băm ở bất kỳ cấp độ nào là số lẻ?
+answer: Mã băm cuối cùng được nhân đôi để tạo ra số cặp chẵn cho cấp độ tiếp theo.
+wrong_answers:
+  - Mã băm cuối cùng được giữ nguyên và chuyển tiếp lên cấp độ tiếp theo mà không cần ghép cặp.
+  - Mã băm cuối cùng được XOR với mã băm đầu tiên của cấp độ đó để hoàn thành việc ghép cặp.
+  - Mã băm cuối cùng được kết hợp với mã băm rỗng (toàn số 0) để tạo ra cặp cuối cùng.
+explanation: |
+  Việc xây dựng cây Merkle của Bitcoin yêu cầu ghép cặp các hàm băm ở mỗi cấp độ. Khi có số lượng hàm băm lẻ, giao thức sẽ sao chép hàm băm cuối cùng để đảm bảo ghép cặp chính xác. Điều này duy trì cấu trúc nhị phân của cây và đảm bảo tính toán gốc mang tính xác định. Các tùy chọn khác sẽ phá vỡ tính tương thích với các quy tắc đồng thuận của Bitcoin và tạo ra các gốc Merkle khác nhau cho các tập hợp giao dịch giống hệt nhau.

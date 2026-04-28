@@ -1,7 +1,6 @@
 ---
-term: 51 PERCENT ATTACK
+term: Cuộc tấn công 51%
 
+definition: Một cuộc tấn công trong đó một tác nhân xấu kiểm soát hơn một nửa sức mạnh hash của khai thác, cho phép họ thao túng các giao dịch, đặc biệt là thông qua chi tiêu kép.
 ---
-A hypothetical scenario in the Bitcoin system where a malicious actor controls more than 50% of the total computational power for mining (hashrate). With such dominance, the attacker can manipulate the consensus process, allowing for malicious actions such as double spending, where the same bitcoins are spent once on a chain that is eventually rendered obsolete, and then a second time on the valid chain. Another outcome of a 51% attack is the censorship of transactions. However, carrying out a 51% attack requires considerable financial, human, energy, and technical resources, and makes the malicious actor susceptible to being discovered before the attack can occur. Although theoretically possible, a 51% attack on Bitcoin is considered highly unlikely due to the decentralization of mining and the significant computational power currently deployed.
-
-> ► *This attack is also named the “Goldfinger attack”.*
+Kịch bản giả định trong hệ thống Bitcoin, trong đó một tác nhân độc hại kiểm soát hơn 50% tổng năng lực tính toán của hoạt động khai thác (hashrate). Với sự thống trị như vậy, kẻ tấn công có thể thao túng quá trình đồng thuận, cho phép các hành vi độc hại như chi tiêu kép, trong đó cùng một bitcoin được chi tiêu lần đầu trên một chuỗi cuối cùng trở nên lỗi thời, rồi lần thứ hai trên chuỗi hợp lệ. Một mục tiêu khác của cuộc tấn công 51% là kiểm duyệt các giao dịch. Tuy nhiên, việc thực hiện một cuộc tấn công 51% đòi hỏi nguồn lực tài chính, nhân lực, năng lượng và kỹ thuật đáng kể, đồng thời khiến tác nhân độc hại có nguy cơ bị phát hiện trước khi cuộc tấn công diễn ra. Mặc dù có thể về mặt lý thuyết, một cuộc tấn công 51% vào Bitcoin được coi là rất khó xảy ra do tính phi tập trung của hoạt động khai thác và sức mạnh tính toán lớn hiện đang được triển khai. Cuộc tấn công này cũng được gọi là "Cuộc tấn công Goldfinger".

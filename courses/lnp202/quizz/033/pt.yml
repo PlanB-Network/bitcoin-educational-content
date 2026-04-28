@@ -1,0 +1,9 @@
+question: Qual dessas ferramentas não identifica os pares relevantes no Lightning?
+answer: Electrum
+wrong_answers:
+  - Terminal de para-raios
+  - Amboss
+  - 1ML
+explanation: |
+  O Electrum não é um explorador Lightning para obter informações sobre os nós da rede. As outras três ferramentas, por outro lado, desempenham bem esta função.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaký je hlavní architektonický rozdíl mezi Blockstream AMP verze 1 a verze 2, pokud jde o konstrukci transakcí a požadavky na uzly?
+answer: Verze 2 přesouvá složitost na server, který zpracovává konstrukci transakcí a předkládá emitentům PSET, čímž eliminuje potřebu synchronizace full node
+wrong_answers:
+  - Verze 2 vyžaduje, aby vydavatelé provozovali více synchronizovaných uzlů Elements kvůli redundanci, zatímco verze 1 vyžadovala pouze připojení jednoho uzlu
+  - Verze 2 přesouvá všechny kryptografické operace do hardwarových peněženek na straně klienta, zatímco verze 1 prováděla všechny podpisové operace v infrastruktuře serveru
+  - Verze 2 zcela odstraňuje požadavek na spolupodepsání a umožňuje přímé převody peer-to-peer, zatímco verze 1 vyžadovala autorizaci serveru pro každou transakci
+explanation: |
+  Vývoj od verze AMP 1 k verzi 2 představuje zásadní posun od modelu "inteligentní klient, komplexní infrastruktura" k přístupu "inteligentní server, zjednodušený klient". Verze 1 vyžadovala, aby emitenti udržovali plně synchronizované uzly Elements a do značné míry se spoléhali na monolitické SDK Green, což vytvářelo vysoké technické překážky. Verze 2 přesouvá složitost na stranu serveru, kde se server AMP stará o konstrukci transakcí, výběr UTXO a výpočet poplatků, a poté emitentům předkládá částečně podepsané transakce Elements (PSET), které vyžadují pouze podpisy. Tím se eliminuje potřeba plných uzlů a umožňují se standardní integrace wallet.

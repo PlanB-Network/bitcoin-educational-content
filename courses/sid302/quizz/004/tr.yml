@@ -1,0 +1,8 @@
+question: Hangi kriptografik özellik Liquid'ın işlem tutarlarını ve varlık türlerini genel görünümden gizlemesini sağlar?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Donanım Güvenlik Modülleri (HSM'ler)
+  - Dinamik Federasyon (Dynafed) protokolü
+  - Peg-out Yetkilendirme Anahtarları (PAK'lar)
+explanation: |
+  Confidential Transactions (CT), Liquid'ün varlık türlerini ve işlem tutarlarını kamu defterinden gizlemesini sağlarken, ağın işlem geçerliliğini doğrulamasına izin veren kriptografik özelliktir. Bu, kurumlar için gerekli olan ticari gizliliği sağlar. Donanım Güvenlik Modülleri özel anahtarları güvence altına alan fiziksel cihazlardır, Dynafed protokolü federasyon değişikliklerini yönetir ve PAK'lar peg-out sürecini kontrol eder - bunların hiçbiri işlem ayrıntılarını genel görünümden gizlemez.

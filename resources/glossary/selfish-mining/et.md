@@ -1,5 +1,6 @@
 ---
-term: SELFISH Mining
+term: Isekas kaevandamine
+definition: Kaevandamisstrateegia, kus hoitakse plokke saladuses, et saavutada edu teiste kaevandajate ees.
 ---
 
 Mining strateegia (või rünnak), kus Miner või kaevurite rühm hoiab tahtlikult kinni kehtiva Proof of Work-ga plokke, ilma neid kohe võrku vabastamata. Eesmärk on jääda teistest kaevuritest Proof of Work osas ettepoole, võimaldades neil potentsiaalselt Miner mitu plokki järjest ja avaldada need kõik korraga, maksimeerides seega oma kasu. Teisisõnu, ründav kaevurite rühm ei kaevanda mitte kogu võrgu poolt viimati kinnitatud plokil, vaid pigem nende endi loodud plokil, mis erineb võrgu poolt kinnitatud plokist.

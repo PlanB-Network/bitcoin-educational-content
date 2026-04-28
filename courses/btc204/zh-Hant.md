@@ -71,7 +71,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 1 節：定義與關鍵概念**
 
 
-首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 UTXO、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
+首先，我們要回顧一下支配 Bitcoin 運作的基本原則，如此一來，我們就可以冷靜地處理與機密性相關的概念。掌握一些基本概念是很有必要的，例如 [UTXO](https://planb.academy/resources/glossary/utxo)、接收位址和腳本，這樣才能完全理解我們在接下來的章節中要介紹的概念。我們也將介紹 Bitcoin 的一般保密性模型，正如 Satoshi Nakamoto 所想像的一樣，這將使我們能夠掌握相關的利害關係和風險。
 
 
 ![BTC204](assets/zh-Hant/001.webp)
@@ -98,7 +98,7 @@ Bitcoin 讓您和平地脫離國家的枷鎖，讓您充分享受您的自然權
 **第 4 節：瞭解 CoinJoin 交易**
 
 
-談到 Bitcoin 上的隱私權，怎麼能不提 coinjoins 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
+談到 Bitcoin 上的隱私權，怎麼能不提 [coinjoin](https://planb.academy/resources/glossary/coinjoin)s 呢？在第 4 節中，您將瞭解有關這種混合方法的所有資訊。您將學習到什麼是 coinjoins、它的歷史和目標，以及 CoinJoin 存在的不同類型。最後，對於較有經驗的使用者，我們會看看什麼是 anonsets 和 entropy，以及如何計算它們。
 
 
 ![BTC204](assets/zh-Hant/004.webp)
@@ -139,7 +139,7 @@ Bitcoin 首先是一種貨幣，但您真的知道 BTC 在協定上的表示方�
 ### Bitcoin 上的 UTXOs：它們是什麼？
 
 
-Bitcoin 通訊協定以 UTXO 模式為基礎，代表「未使用的交易輸出」。
+Bitcoin 通訊協定以 [UTXO](https://planb.academy/resources/glossary/utxo) 模式為基礎，代表「未使用的交易輸出」。
 
 
 這種模式與傳統的銀行體系有很大的不同，傳統的銀行體系依賴帳戶和餘額機制來追蹤資金流。事實上，在銀行體系中，個人的餘額被保存在與身份相關的帳戶中。舉例來說，當您向麵包師傅購買法棍時，您的銀行只需從您的帳戶中扣除購買金額，減少您的餘額，而麵包師傅的帳戶則貸記相同金額，增加其餘額。在這個系統中，除了交易記錄之外，您帳戶內的錢和您帳戶外的錢之間沒有任何關聯。
@@ -151,7 +151,7 @@ Bitcoin 通訊協定以 UTXO 模式為基礎，代表「未使用的交易輸出
 Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不是透過餘額來管理，而是透過 UTXOs 來管理。一個 UTXO 代表特定數量的比特幣，這些比特幣尚未被花掉，因此形成「一塊 Bitcoin」，可大可小。例如，一個 UTXO 可以值 `500 BTC` 或簡單的 `700 Sats`。
 
 
-**提醒：** Satoshi，通常縮寫為 sat，是 Bitcoin 的最小單位，相當於法定貨幣中的美分。
+**提醒：** [Satoshi](https://planb.academy/resources/glossary/satoshi-sat)，通常縮寫為 sat，是 Bitcoin 的最小單位，相當於[法定貨幣](https://planb.academy/resources/glossary/fiat)中的美分。
 
 
 ```plaintext
@@ -159,10 +159,10 @@ Bitcoin 的運作方式不同。帳戶的概念並不存在，貨幣單位也不
 ```
 
 
-理論上，一個 UTXO 可以代表任何價值的比特幣，從一個 sat 到理論最大值約 2,100 萬 BTC 不等。然而，邏輯上不可能擁有所有的 2,100 萬個比特幣，而且有一個較低的經濟門檻，稱為「Dust」，低於這個門檻的 UTXO 被認為在經濟上是無利可圖的。
+理論上，一個 UTXO 可以代表任何價值的比特幣，從一個 sat 到理論最大值約 2,100 萬 BTC 不等。然而，邏輯上不可能擁有所有的 2,100 萬個比特幣，而且有一個較低的經濟門檻，稱為「[Dust](https://planb.academy/resources/glossary/dust)」，低於這個門檻的 UTXO 被認為在經濟上是無利可圖的。
 
 
-**你可知道？** 在 Bitcoin 上創建的最大 UTXO 的價值為`500,000 BTC`。它是 MtGox 平台在 2011 年 11 月的一次整合行動中創建的：[29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
+**你可知道？** 在 Bitcoin 上創建的最大 UTXO 的價值為`500,000 BTC`。它是 MtGox 平台在 2011 年 11 月的一次[整合](https://planb.academy/resources/glossary/consolidation)行動中創建的：[29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf](https://Mempool.space/fr/tx/29a3efd3ef04f9153d47a990bd7b048a4b2d213daaa5fb8ed670fb85f13bdbcf)
 
 
 ### UTXOs和支出條件
@@ -174,7 +174,7 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 ![BTC204](assets/zh-Hant/007.webp)
 
 
-所有的 UTXO 都是由定義可使用條件的腳本所保護。若要使用 UTXO，使用者必須向網路證明他或她符合保護 UTXO 的腳本所規定的條件。通常，UTXO 受公開金鑰 (或代表此公開金鑰的接收 Address) 保護。若要使用與此公開金鑰相關的 UTXO，使用者必須提供使用此金鑰所做的數位簽章，以證明他持有對應的私人金鑰。這就是為什麼我們說您的 Bitcoin Wallet 實際上並不包含比特幣，而是儲存了您的私人密碼鑰匙，而私人密碼鑰匙又讓您可以存取您的 UTXOs，進而存取它們所代表的比特幣。
+所有的 UTXO 都是由定義可使用條件的[腳本](https://planb.academy/resources/glossary/script)所保護。若要使用 UTXO，使用者必須向網路證明他或她符合保護 UTXO 的腳本所規定的條件。通常，UTXO 受[公開金鑰](https://planb.academy/resources/glossary/public-key) (或代表此公開金鑰的[接收 Address](https://planb.academy/resources/glossary/receiving-address)) 保護。若要使用與此公開金鑰相關的 UTXO，使用者必須提供使用此金鑰所做的[數位簽章](https://planb.academy/resources/glossary/digital-signature)，以證明他持有對應的[私人金鑰](https://planb.academy/resources/glossary/private-key)。這就是為什麼我們說您的 [Bitcoin Wallet](https://planb.academy/resources/glossary/wallet) 實際上並不包含比特幣，而是儲存了您的私人密碼鑰匙，而私人密碼鑰匙又讓您可以存取您的 UTXOs，進而存取它們所代表的比特幣。
 
 
 ![BTC204](assets/zh-Hant/008.webp)
@@ -209,19 +209,19 @@ UTXOs 是 Exchange 在 Bitcoin 上的工具。每次交易都會消耗作為輸�
 ### 交易輸入和輸出
 
 
-Bitcoin 交易是記錄在 Blockchain 上的一個操作，將 Ownership 的比特幣從一個人轉移至另一個人。更精確的說，因為我們是在 UTXO 模型上，而且沒有帳號，所以交易滿足了保證一個或多個 UTXOs 的支出條件，消耗了這些支出條件，等於用新的支出條件創建了新的 UTXOs。簡而言之，交易將比特幣從滿足的腳本移動到新的腳本，新的腳本是為了確保比特幣的安全而設計的。
+Bitcoin 交易是記錄在 [Blockchain](https://planb.academy/resources/glossary/blockchain) 上的一個操作，將 Ownership 的比特幣從一個人轉移至另一個人。更精確的說，因為我們是在 UTXO 模型上，而且沒有帳號，所以交易滿足了保證一個或多個 UTXOs 的支出條件，消耗了這些支出條件，等於用新的支出條件創建了新的 UTXOs。簡而言之，交易將比特幣從滿足的腳本移動到新的腳本，新的腳本是為了確保比特幣的安全而設計的。
 
 
 ![BTC204](assets/zh-Hant/010.webp)
 
 
-因此，每個 Bitcoin 交易由一個或多個輸入和一個或多個輸出組成。輸入是 generate 輸出的交易所消耗的 UTXO。輸出是新的 UTXO，可作為未來交易的輸入。
+因此，每個 Bitcoin 交易由一個或多個[輸入](https://planb.academy/resources/glossary/input)和一個或多個[輸出](https://planb.academy/resources/glossary/output)組成。輸入是 generate 輸出的交易所消耗的 UTXO。輸出是新的 UTXO，可作為未來交易的輸入。
 
 
 ![BTC204](assets/zh-Hant/011.webp)
 
 
-**你可知道？** 理論上，一個 Bitcoin 交易可以有無限多的輸入和輸出。唯一的限制是最大區塊大小。
+**你可知道？** 理論上，一個 Bitcoin 交易可以有無限多的輸入和輸出。唯一的限制是最大[區塊](https://planb.academy/resources/glossary/block)大小。
 
 
 Bitcoin 交易中的每個輸入都是指先前未使用的 UTXO。要使用 UTXO 作為輸入，其持有者必須證明他/她是合法的擁有者，方法是驗證相關的腳本，也就是滿足所施加的支出條件。一般而言，這意味著提供一個數位簽章，該數位簽章是以對應公開金鑰的私密金鑰製作，而公開金鑰則是該 UTXO 的初始保證。因此，腳本包括驗證該簽章與收到資金時所使用的公開金鑰相符。
@@ -233,7 +233,7 @@ Bitcoin 交易中的每個輸入都是指先前未使用的 UTXO。要使用 UTX
 每個輸出依次指定要轉移的比特幣數量以及接收者。後者是由新的腳本定義的，通常是用接收的 Address 或新的公開金鑰來封鎖新建立的 UTXO。
 
 
-根據共識規則，總輸出必須小於或等於總輸入，交易才會被視為有效。換句話說，交易產生的新 UTXOs 總和不得超過作為輸入消耗的 UTXOs 總和。這個原則是合乎邏輯的：如果您只有 `500,000 Sats`，您就不能購買 `700,000 Sats`。
+根據[共識規則](https://planb.academy/resources/glossary/consensus-rules)，總輸出必須小於或等於總輸入，交易才會被視為有效。換句話說，交易產生的新 UTXOs 總和不得超過作為輸入消耗的 UTXOs 總和。這個原則是合乎邏輯的：如果您只有 `500,000 Sats`，您就不能購買 `700,000 Sats`。
 
 
 ### Exchange 並在 Bitcoin 交易中合併
@@ -260,15 +260,15 @@ Bitcoin 以類似的方式運作。讓我們假設 Alice 有`10,000 Sats` 的 UT
 ### 交易費用
 
 
-直覺上，人們可能會認為交易成本也代表交易的產出。但實際情況並非如此。交易成本代表總投入與總輸出之間的差額。這意味著，在使用部分投入的價值來支付交易中的預期產出之後，仍有一定的投入總額未被使用。這筆餘額就是交易成本。
+直覺上，人們可能會認為[交易成本](https://planb.academy/resources/glossary/transaction-fees)也代表交易的產出。但實際情況並非如此。交易成本代表總投入與總輸出之間的差額。這意味著，在使用部分投入的價值來支付交易中的預期產出之後，仍有一定的投入總額未被使用。這筆餘額就是交易成本。
 
 
 ```plaintext
-Frais = total inputs - total outputs
+交易費用 = total inputs - total outputs
 ```
 
 
-讓我們以 Alice 為例，她的 UTXO 為 `10,000 Sats`，想要以 `4,000 Sats` 的價格購買法棍。Alice 以她的 UTXO `10,000 Sats` 作為輸入來建立一個交易。然後，她會產生 `4,000 Sats` 的輸出，讓麵包師傅支付長棍麵包的費用。為了鼓勵礦工將她的交易整合到區塊中，Alice 分配了 `200 Sats` 的費用。接著，她又創造了第二筆輸出，Exchange，這筆輸出將返還給她，金額為 `5,800Sats`。
+讓我們以 Alice 為例，她的 UTXO 為 `10,000 Sats`，想要以 `4,000 Sats` 的價格購買法棍。Alice 以她的 UTXO `10,000 Sats` 作為輸入來建立一個交易。然後，她會產生 `4,000 Sats` 的輸出，讓麵包師傅支付長棍麵包的費用。為了鼓勵[礦工](https://planb.academy/resources/glossary/miner)將她的交易整合到區塊中，Alice 分配了 `200 Sats` 的費用。接著，她又創造了第二筆輸出，[Exchange](https://planb.academy/resources/glossary/change)，這筆輸出將返還給她，金額為 `5,800Sats`。
 
 
 ![BTC204](assets/zh-Hant/015.webp)
@@ -278,14 +278,14 @@ Frais = total inputs - total outputs
 
 
 ```plaintext
-Frais = total inputs - total outputs
-Frais = 10 000 - (4 000 + 5 800)
-Frais = 10 000 - 9 800
-Frais = 200
+交易費用 = total inputs - total outputs
+交易費用 = 10 000 - (4 000 + 5 800)
+交易費用 = 10 000 - 9 800
+交易費用 = 200
 ```
 
 
-當 Miner 成功驗證一個區塊時，他就有權透過所謂的「coinbase」交易，為其區塊中包含的所有交易收取這些費用。
+當 Miner 成功驗證一個區塊時，他就有權透過所謂的「[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)」交易，為其區塊中包含的所有交易收取這些費用。
 
 
 ### 在 Bitcoin 上建立 UTXOs
@@ -297,7 +297,7 @@ Frais = 200
 答案就在**交易代幣庫**。
 
 
-Coinbase 是一種特定類型的 Bitcoin 交易，每個區塊都是獨一無二的，而且永遠是其中的第一個。它允許找到有效 Proof of Work 的 Miner 收到他的 Block reward。此獎勵由兩個 Elements 組成： **區塊授予**和**交易費**，在上一節討論過。
+Coinbase 是一種特定類型的 Bitcoin 交易，每個區塊都是獨一無二的，而且永遠是其中的第一個。它允許找到有效 [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) 的 Miner 收到他的 Block reward。此獎勵由兩個 Elements 組成： **[區塊授予](https://planb.academy/resources/glossary/block-subsidy)**和**交易費**，在上一節討論過。
 
 
 Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生有地創造比特幣的裝置，不需要消耗輸入到 generate 的輸出。這些新創造的比特幣，我們可以稱之為「原始 UTXOs」。
@@ -306,7 +306,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 ![BTC204](assets/zh-Hant/016.webp)
 
 
-區塊資助比特幣是按照共識規則中預先設定的發行時間表，從零開始創建的新 BTC。區塊補助每 210,000 個區塊減半，也就是大約每四年減半一次，這個過程稱為 "Halving"。最初，每次補助會創造 50 個比特幣，但這個數量已逐漸減少；目前，每個區塊補助 3.125 個比特幣。
+區塊資助比特幣是按照共識規則中預先設定的[發行時間表](https://planb.academy/resources/glossary/limite-demission)，從零開始創建的新 BTC。區塊補助每 210,000 個區塊減半，也就是大約每四年減半一次，這個過程稱為 "[Halving](https://planb.academy/resources/glossary/halving)"。最初，每次補助會創造 50 個比特幣，但這個數量已逐漸減少；目前，每個區塊補助 3.125 個比特幣。
 
 
 至於交易費用，雖然它們也代表新創建的 BTC，但不得超過區塊中所有交易的總投入和總輸出之差。我們之前看到，這些費用代表未用於交易輸出的那部分輸入。技術上來說，這部分會在交易過程中「遺失」，而 Miner 有權以一個或多個新 UTXO 的形式重新創造這部分價值。這是交易發行者與 Miner 之間的價值轉移，Miner 將其加入 Blockchain。
@@ -321,7 +321,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 首先，UTXO 模式直接影響 Bitcoin 的交易費用。由於每個區塊的容量是有限的，因此礦工會傾向於那些提供與其在區塊中所佔空間相關的最佳費用的交易。事實上，交易的輸入和輸出中包含的 UTXOs 越多，它就越重，因此需要更高的費用。這也是我們經常嘗試減少投資組合中 UTXO 數量的原因之一，這也會影響保密性，我們會在本課程的第三部分詳細討論這個主題。
 
 
-其次，如前幾節所述，Bitcoin 幣本質上是一串 UTXO。因此，每筆交易都會在過去的 UTXO 和未來的 UTXO 之間建立連結。因此，UTXOs 可以明確地跟隨比特幣從創造到目前支出的路徑。這種透明度可以從正面來看，因為它可以讓每個使用者確定收到的比特幣的真實性。然而，Blockchain 的分析也是基於這種可追蹤性和可審計性的原則，這種做法旨在損害您的機密性。我們將在課程的第二部分深入探討這種做法。
+其次，如前幾節所述，Bitcoin 幣本質上是一串 UTXO。因此，每筆交易都會在過去的 UTXO 和未來的 UTXO 之間建立連結。因此，UTXOs 可以明確地跟隨比特幣從創造到目前支出的路徑。這種透明度可以從正面來看，因為它可以讓每個使用者確定收到的比特幣的真實性。然而，[Blockchain 的分析](https://planb.academy/resources/glossary/chain-analysis)也是基於這種可追蹤性和可審計性的原則，這種做法旨在損害您的機密性。我們將在課程的第二部分深入探討這種做法。
 
 
 ## Bitcoin 的隱私模式
@@ -359,7 +359,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 真偽也是實體貨幣媒介難以驗證的特徵。現今打擊偽造貨幣的技術越來越複雜，迫使零售商投資成本高昂的驗證系統。
 
 
-另一方面，由於其本質，雙重消費對實體貨幣來說並不是問題。如果我給你一張 10 歐元的鈔票，它就不可撤銷地從我的手中離開，並進入你的手中。簡言之，我將無法再次使用這張 10 歐元的鈔票。
+另一方面，由於其本質，[雙重消費](https://planb.academy/resources/glossary/double-spending-attack)對實體貨幣來說並不是問題。如果我給你一張 10 歐元的鈔票，它就不可撤銷地從我的手中離開，並進入你的手中。簡言之，我將無法再次使用這張 10 歐元的鈔票。
 
 
 ![BTC204](assets/zh-Hant/019.webp)
@@ -383,13 +383,13 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 ![BTC204](assets/zh-Hant/021.webp)
 
 
-在 Bitcoin 上，Double-spending 以相同的方式防止。我們尋求確認是否有交易已經花掉了相關的硬幣。如果硬幣從未被使用過，那麼我們就可以確定不會發生雙重花費的情況。Satoshi Nakamoto 在白皮書中用著名的短語描述了這一原則：
+在 Bitcoin 上，Double-spending 以相同的方式防止。我們尋求確認是否有交易已經花掉了相關的硬幣。如果硬幣從未被使用過，那麼我們就可以確定不會發生雙重花費的情況。[Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) 在[白皮書](https://planb.academy/resources/glossary/white-paper)中用著名的短語描述了這一原則：
 
 
 **確認沒有交易的唯一方法是注意所有交易**
 
 
-但與銀行模式不同的是，我們不希望必須信任 Bitcoin 上的中央實體。因此，所有使用者都需要能夠確認這種沒有雙重花費的情況，而不需要依賴第三方。所以每個人都需要瞭解所有的 Bitcoin 交易。這就是 Bitcoin 交易在所有網路節點上公開廣播，並在 Blockchain 上以明文記錄的原因。
+但與銀行模式不同的是，我們不希望必須信任 Bitcoin 上的中央實體。因此，所有使用者都需要能夠確認這種沒有雙重花費的情況，而不需要依賴第三方。所以每個人都需要瞭解所有的 Bitcoin 交易。這就是 Bitcoin 交易在所有網路[節點](https://planb.academy/resources/glossary/node)上公開廣播，並在 Blockchain 上以明文記錄的原因。
 
 
 正是這種資訊的公開傳播，使得 Bitcoin 的隱私權保護變得複雜。在傳統的銀行系統中，理論上只有金融機構知道所進行的交易。另一方面，在 Bitcoin 中，所有使用者都會透過各自的節點得知所有交易。
@@ -443,7 +443,7 @@ Coinbase Transaction 的獨特之處在於，它是唯一一種能夠無中生�
 ### 定義與操作
 
 
-Blockchain 分析是追蹤比特幣在 Blockchain 上流向的做法。一般來說，鏈分析是基於觀察先前交易樣本的特徵。然後在我們想要分析的交易中找出這些相同的特徵，並從中推斷出合理的解釋。這種以實際方法來尋找足夠好的解決方案的問題解決方法，稱為「啟發式」。
+Blockchain 分析是追蹤比特幣在 Blockchain 上流向的做法。一般來說，鏈分析是基於觀察先前交易樣本的特徵。然後在我們想要分析的交易中找出這些相同的特徵，並從中推斷出合理的解釋。這種以實際方法來尋找足夠好的解決方案的問題解決方法，稱為「[啟發式](https://planb.academy/resources/glossary/analysis-heuristic)」。
 
 
 通俗來說，連鎖分析有三個主要階段：
@@ -476,10 +476,10 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 ![BTC204](assets/zh-Hant/028.webp)
 
 
-然而，實際情況要複雜得多。有許多行為可以將真實身份與上鏈活動聯繫起來。在分析中，這稱為入口點，而入口點有很多。
+然而，實際情況要複雜得多。有許多行為可以將真實身份與[上鏈](https://planb.academy/resources/glossary/onchain)活動聯繫起來。在分析中，這稱為入口點，而入口點有很多。
 
 
-最常見的是 KYC (*Know Your Customer*)。如果您從一個受監管的平台提取您的比特幣到您的一個個人接收地址，那麼有些人就能夠將您的身份與該 Address 連結起來。更廣義地說，入口點可以是您的真實生活和 Bitcoin 交易之間的任何形式的互動。舉例來說，如果您在社交網路中公佈收款的 Address，這就可以成為分析的切入點。如果您用比特幣向您的麵包師傅付款，他就可以將您的臉（您身份的一部分）與 Bitcoin Address 聯繫起來。
+最常見的是 [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) (*Know Your Customer*)。如果您從一個受監管的平台提取您的比特幣到您的一個個人接收地址，那麼有些人就能夠將您的身份與該 Address 連結起來。更廣義地說，入口點可以是您的真實生活和 Bitcoin 交易之間的任何形式的互動。舉例來說，如果您在社交網路中公佈收款的 Address，這就可以成為分析的切入點。如果您用比特幣向您的麵包師傅付款，他就可以將您的臉（您身份的一部分）與 Bitcoin Address 聯繫起來。
 
 
 使用 Bitcoin 時，這些入口點幾乎是無法避免的。雖然我們可能會嘗試限制它們的範圍，但它們始終存在。這就是為什麼結合旨在保護您隱私的方法至關重要。雖然將您的真實身份和交易分開是一種有趣的方法，但現在仍然不足夠。事實上，如果您所有的上鏈活動都可以集中在一起，那麼即使是最小的切入點，也可能會破壞您建立的單一 Layer 保密性。
@@ -497,14 +497,14 @@ Blockchain 分析的目的之一是將 Bitcoin 上的各種活動集中在一起
 ![BTC204](assets/zh-Hant/030.webp)
 
 
-要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 CoinJoin 或 PayJoin 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
+要反對 Blockchain 分析，還有什麼比了解其中使用的方法更好的方法呢？如果您想知道如何在 Bitcoin 上改善您的隱私，您就需要瞭解這些方法。這將讓您更能掌握 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 或 [PayJoin](https://planb.academy/resources/glossary/payjoin) 等技術（我們將在課程的最後部分介紹這些技術），並減少您可能犯下的錯誤。
 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
-在這方面，我們可以用密碼學和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
+在這方面，我們可以用[密碼學](https://planb.academy/resources/glossary/cryptography)和密碼分析來做類比。一個好的密碼學家首先是一個好的密碼分析師。要設計出新的加密演算法，就必須知道它會面對哪些攻擊，同時也要研究之前的演算法為什麼會被破解。同樣的原則也適用於 Bitcoin 隱私權。了解 Blockchain 分析方法是防禦它們的關鍵。這就是為什麼我在本訓練課程中加入一整篇 on chain 分析的原因。
 
 
 ### 連鎖分析方法
@@ -534,8 +534,8 @@ https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 
 
 
-- cIOH (*Common Input Ownership Heuristic*)；
-- 和 Address 的再利用。
+- [cIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*)；
+- 和 [Address 的再利用](https://planb.academy/resources/glossary/address-reuse)。
 
 
 ![BTC204](assets/zh-Hant/031.webp)
@@ -621,7 +621,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/b6cc79f45fd2d7669ff94db5cb1
 這樣我們就知道被觀察的使用者很可能仍持有這個 UTXO。在連鎖分析的情況下，如果我們知道交易中作為輸入的 UTXO 屬於 Alice，我們就可以假設作為輸出的 UTXO 也屬於她。稍後有趣的是找到交易內部的啟發式方法來強化這個假設（我們將在第 3.3 章研究這些啟發式方法）。
 
 
-例如，這裡是採用掃描模式的 Bitcoin 交易：
+例如，這裡是採用[掃描模式](https://planb.academy/resources/glossary/sweep-transaction)的 Bitcoin 交易：
 
 
 ```plaintext
@@ -688,7 +688,7 @@ Source : [Mempool.space](https://Mempool.space/fr/tx/77c16914211e237a9bd51a7ce0b
 ![BTC204](assets/zh-Hant/040.webp)
 
 
-這個模型的詮釋是，我們正處於群組支出的狀態。這種做法很可能揭示了非常大的經濟活動，例如 Exchange 平台。群組化支出能讓這些實體將支出合併在單一交易中，從而節省成本。
+這個模型的詮釋是，我們正處於[群組支出](https://planb.academy/resources/glossary/batched-spending)的狀態。這種做法很可能揭示了非常大的經濟活動，例如 Exchange 平台。群組化支出能讓這些實體將支出合併在單一交易中，從而節省成本。
 
 
 我們可以從這個模型推斷，輸入的 UTXO 來自一家經濟活動水平很高的公司，而輸出的 UTXOs 將會分散。很多會屬於從平台上提取比特幣的公司客戶。其他的可能會流向合作公司。最後，一定會有一個或多個交易所回到發行公司。
@@ -802,7 +802,7 @@ Source : [Mempool.space](https://Mempool.space/tx/54364146665bfc453a55eae4bfb8fd
 ![BTC204](assets/zh-Hant/047.webp)
 
 
-在此圖表中，我們可以看到輸入 n° 0 解鎖 P2WPKH 指令碼 (SegWit V0 以 `bc1q` 開頭)。輸出 n° 0 使用相同類型的腳本。另一方面，輸出 n° 1 使用 P2TR 指令碼 (SegWit V1，以 `bc1p` 開頭)。這個特徵的解釋是，與輸入具有相同版本的 Address 很可能是 Exchange Address。因此，它會永遠屬於同一個使用者。
+在此圖表中，我們可以看到輸入 n° 0 解鎖 [P2WPKH](https://planb.academy/resources/glossary/p2wpkh) 指令碼 (SegWit V0 以 `bc1q` 開頭)。輸出 n° 0 使用相同類型的腳本。另一方面，輸出 n° 1 使用 [P2TR](https://planb.academy/resources/glossary/p2tr) 指令碼 (SegWit V1，以 `bc1p` 開頭)。這個特徵的解釋是，與輸入具有相同版本的 Address 很可能是 Exchange Address。因此，它會永遠屬於同一個使用者。
 
 
 這裡有一筆交易，可能可以應用這個啟發式方法：
@@ -819,7 +819,7 @@ db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578
 Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec4af1b74500739f168e5800cbcb0e9dd578)
 
 
-關於後者，我們可以看到輸入編號 0 和輸出編號 1 使用 P2WPKH 指令碼 (SegWit V0)，而輸出編號 0 則使用不同的 P2PKH 指令碼 (Legacy)。
+關於後者，我們可以看到輸入編號 0 和輸出編號 1 使用 P2WPKH 指令碼 (SegWit V0)，而輸出編號 0 則使用不同的 [P2PKH](https://planb.academy/resources/glossary/p2pkh) 指令碼 (Legacy)。
 
 
 在 2010 年代早期，由於可用的指令碼種類有限，這種以指令碼版本為基礎的啟發式方法相對地沒有什麼幫助。然而，隨著時間的推移和 Bitcoin 的連續更新，腳本類型的多樣性也日益增加。因此，這個啟發式方法變得越來越重要，因為隨著腳本類型的擴大，使用者會分成較小的群組，因此增加了應用這個內部版本重複使用啟發式方法的機會。因此，僅從保密性的角度來看，建議您選擇最常見的腳本類型。例如，在我寫這些行文時，Taproot 腳本 (`bc1p`)的使用頻率比 SegWit V0 腳本 (`bc1q`)低。雖然前者在某些特定情況下具有經濟和保密優勢，但對於較傳統的單一簽章用途而言，基於保密理由，在新標準獲得更廣泛採用之前，堅持使用較舊的標準可能是合理的。
@@ -1041,7 +1041,7 @@ Source : [Mempool.space](https://Mempool.space/tx/20618e63b6eed056263fa52a2282c8
 同樣地，您也可以用排除法來執行分析。舉例來說，如果在分析一個有兩個輸出的交易時，其中一個輸出與已知的 Address 叢集有關，但與我們正在追蹤的實體不同，那麼我們就可以解釋另一個輸出可能代表 Exchange。
 
 
-頻道分析也包括稍為一般性的 OSINT (*Open Source Intelligence*) 元件，涉及網際網路搜尋。正因如此，我們建議不要直接在社交網路或網站上發佈地址，不論是否為假名。
+頻道分析也包括稍為一般性的 [OSINT](https://planb.academy/resources/glossary/osint) (*Open Source Intelligence*) 元件，涉及網際網路搜尋。正因如此，我們建議不要直接在社交網路或網站上發佈地址，不論是否為假名。
 
 
 ![BTC204](assets/zh-Hant/063.webp)
@@ -1376,7 +1376,7 @@ a6dbebebca119af3d05c0196b76f80fdbf78f20368ebef1b7fd3476d0814517d
 如果我們看看這筆交易的模型，很明顯這是一筆捆綁式支出。事實上，這筆交易有單一的輸入和 51 個輸出，顯示出經濟活動的高度。因此，我們可以假設 Loïc 從 Exchange 平台提取了比特幣。
 
 
-有幾個因素強化了這個假設。首先，用來保護 UTXO 輸入的腳本類型是 P2SH 2/3 Multisig 腳本，這表示 Exchange 平台典型的進階安全層級：
+有幾個因素強化了這個假設。首先，用來保護 UTXO 輸入的腳本類型是 [P2SH](https://planb.academy/resources/glossary/p2sh) 2/3 Multisig 腳本，這表示 Exchange 平台典型的進階安全層級：
 
 
 ```plaintext
@@ -1523,7 +1523,7 @@ ___
 Bitcoin 位址有不同的類型，取決於所使用的腳本模型。第一種模式稱為「傳統」，包括 `P2PKH` (*Pay-to-PubKey-Hash*) 和 `P2SH` (*Pay-to-Script-Hash*) 位址。P2PKH 位址總是以 `1` 開頭，而 P2SH 則以 `3` 開頭。雖然這些格式仍然安全，但現在已經過時，因為它們需要較高的交易成本，而且提供的保密性也比新標準低。
 
 
-SegWit V0 (`P2WPKH`和`P2WSH`) 和 Taproot / SegWit V1 (`P2TR`)位址代表現代格式。SegWit 位址以 `bc1q` 開頭，而 2021 年推出的 Taproot 位址則以 `bc1p` 開頭。
+SegWit V0 (`P2WPKH`和`P2WSH`) 和 [Taproot](https://planb.academy/resources/glossary/taproot) / SegWit V1 (`P2TR`)位址代表現代格式。SegWit 位址以 `bc1q` 開頭，而 2021 年推出的 Taproot 位址則以 `bc1p` 開頭。
 
 
 例如，這裡是 Taproot 接收 Address：
@@ -1678,7 +1678,7 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 正如我們在字串分析一節中所發現的，有許多啟發和模式可用來推斷交易資訊。身為使用者，必須瞭解這些技術，才能更好地防範。
 
 
-這包括嚴格管理自我保管的 Wallet，也就是了解您的 UTXO 的來源，以及在付款時小心選擇要消耗的 UTXO。這種有效率的 Wallet 管理依賴於良好 Bitcoin 錢包的兩個重要功能：標籤和硬幣控制。
+這包括嚴格管理自我保管的 Wallet，也就是了解您的 UTXO 的來源，以及在付款時小心選擇要消耗的 UTXO。這種有效率的 Wallet 管理依賴於良好 Bitcoin 錢包的兩個重要功能：標籤和[硬幣控制](https://planb.academy/resources/glossary/coin-control)。
 
 
 在本章中，我們將介紹這些功能，看看如何在不增加太多工作量的情況下，智慧地使用這些功能，以大幅優化 Bitcoin 上的隱私權。
@@ -1805,10 +1805,10 @@ Address 重複使用在 Bitcoin 上確實是一種禍害。根據 OXT.me 網站�
 在前幾節中，我們討論了手動選擇要用於交易的 UTXO。但當 Wallet 軟體自動執行此選擇時會發生什麼情況？有幾種方法可以決定使用哪種硬幣，UTXO 的選擇構成了 Bitcoin 名副其實的研究領域。這個自動過程的主要目的通常是為了使用戶的交易成本最小化。
 
 
-UTXO 選擇方法如 FIFO（*先入先出*）和 LIFO（*後入先出*）是最簡單的方法，但也是效率最低的方法。使用 FIFO 時，會先使用投資組合中最舊的部分。除了使用相對時間鎖且需要定期更新的情況外，這種方法對於交易成本最小化和保密性而言通常都是低效的。相反，後進先出 (LIFO) 會優先使用最近的 UTXO。這兩種方法雖然都很簡單，但經常被證明是無效的。
+UTXO 選擇方法如 FIFO（*先入先出*）和 LIFO（*後入先出*）是最簡單的方法，但也是效率最低的方法。使用 FIFO 時，會先使用投資組合中最舊的部分。除了使用相對[時間鎖](https://planb.academy/resources/glossary/timelock)且需要定期更新的情況外，這種方法對於交易成本最小化和保密性而言通常都是低效的。相反，後進先出 (LIFO) 會優先使用最近的 UTXO。這兩種方法雖然都很簡單，但經常被證明是無效的。
 
 
-更進階的方法是 *Knapsack Solver*。在 0.17 版之前，Bitcoin Core Wallet 一直使用此方法。它包括從 Wallet 中反覆隨機選取 UTXO，將它們以子集的方式相加，並盡可能保留可降低交易權重的解決方案，以降低使用者的成本。
+更進階的方法是 *Knapsack Solver*。在 0.17 版之前，[Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) Wallet 一直使用此方法。它包括從 Wallet 中反覆隨機選取 UTXO，將它們以子集的方式相加，並盡可能保留可降低交易權重的解決方案，以降低使用者的成本。
 
 
 分支與邊界 **(BNB)**，常因其發明者而被暱稱為 「Murch 演算法」，自 0.17 版起已取代 Bitcoin Core 中的 **Knapsack Solver**。這種更先進的方法旨在找到一組與滿足交易輸出所需金額完全對應的 UTXO。BNB 的目標是藉由減少所謂的浪費準則 (waste criterion)，將 Exchange 的數額以及費用降至最低，此浪費準則同時考慮到 Exchange 的即時成本以及預期的未來成本。此方法源自 Ailsa Land 和 Alison Harcourt 於 1960 年構思的 **Branch-and-Bound** 原始概念，提供比 **Knapsack Solver** 更精確的費用最佳化。
@@ -2195,7 +2195,7 @@ Bitcoin 的運作方式類似拍賣市場，礦工會優先考慮提供最低費
 
 ```text
 TXA : 1994 / 141 = 14 sats/vB
-TXB : 2640 / 220 = 12 sats / vB
+TXB : 2640 / 220 = 12 sats/vB
 ```
 
 
@@ -2319,7 +2319,7 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 ![BTC204](assets/zh-Hant/105.webp)
 
 
-當您不是使用自己的 Bitcoin 節點時，主要的風險是第三方節點的操作者可能會觀察到您在 Blockchain 上的活動，甚至與其他實體分享這些資訊。為了限制此風險，一個中間解決方案是使用 Wallet 軟體，透過 Tor 隱藏您的連線。這可以減少您的資料曝光。然而，最佳的解決方案是擁有自己的 Bitcoin 節點，並使用它來廣播您的交易。當然，您也需要小心不要透過您的節點洩漏任何資訊，但這也是我們稍後會討論的另一個主題。
+當您不是使用自己的 Bitcoin 節點時，主要的風險是第三方節點的操作者可能會觀察到您在 Blockchain 上的活動，甚至與其他實體分享這些資訊。為了限制此風險，一個中間解決方案是使用 Wallet 軟體，透過 [Tor](https://planb.academy/resources/glossary/tor) 隱藏您的連線。這可以減少您的資料曝光。然而，最佳的解決方案是擁有自己的 Bitcoin 節點，並使用它來廣播您的交易。當然，您也需要小心不要透過您的節點洩漏任何資訊，但這也是我們稍後會討論的另一個主題。
 
 
 除了對您的隱私有明顯的好處之外，擁有自己完整的節點也能確保 Blockchain 上的資料真實性，保護您免受審查，並讓您積極參與 Bitcoin 的治理。通過使用自己的節點，您可以為自己選擇的鏈貢獻自己的經濟份量，這在社區內部發生衝突時非常重要，例如在 2015 年至 2017 年的 Blocksize War 期間。在 Fork 的情況下，使用第三方節點可能會導致您支持一個您不想偏袒的鏈，因為節點運營商會為您做出選擇。
@@ -2334,7 +2334,7 @@ Blockchain 分析中最廣泛使用的啟發式之一是 CIOH（*共同輸入 Ow
 更廣泛來說，了解我們在上一節談到的啟發式，以便更好地避免或欺騙它們是很重要的。採用一系列的最佳實務，即使不是必要的，也是有益的。它們提供了額外的 Layer 保護，在使用 Bitcoin 時對於維護機密可能很重要。
 
 
-我可以給的第一個建議是融入最密集的人群。在 Bitcoin 上，這意味著使用最廣泛採用的腳本範本。例如，常用於 SegWit V0 Multisig 配置的 P2WSH 腳本就非常不常用。它們無法讓您隱藏在大型匿名集中。P2PKH 或 P2SH 等較舊的模式也是一樣。雖然它們廣泛存在於 UTXO 集，但用於新交易的情況越來越少。
+我可以給的第一個建議是融入最密集的人群。在 Bitcoin 上，這意味著使用最廣泛採用的腳本範本。例如，常用於 SegWit V0 Multisig 配置的 [P2WSH](https://planb.academy/resources/glossary/p2wsh) 腳本就非常不常用。它們無法讓您隱藏在大型匿名集中。P2PKH 或 P2SH 等較舊的模式也是一樣。雖然它們廣泛存在於 UTXO 集，但用於新交易的情況越來越少。
 
 
 一般而言，只要最新的腳本標準已被充分採用，選擇最新的腳本標準會比較明智。因此，如果在 2022 年，我會建議不要使用 P2TR (Taproot)，因為它的採用率很低，那麼到了 2024 年，我會建議改用這類腳本，如果不行，也可以使用 SegWit V0 腳本，因為使用 P2TR 的交易數量已經開始佔相當大的比例。
@@ -2483,7 +2483,7 @@ CoinJoin 原則是基於一種協作方式：希望混合比特幣的多位使�
 ![BTC204](assets/zh-Hant/118.webp)
 
 
-在第一個範例中，我們看到 CoinJoin 如何保護與房間過去相關的隱私，而在第二個範例中，我們也看到 CoinJoin 如何保護與房間未來相關的歷史。這就是為什麼我提到 CoinJoin 應該被視為一個一次性的事件，在兩個方向上分割出一部分歷史：
+在第一個例子中，我們看到 coinjoin 如何相對於過去保護一枚幣的隱私，而在第二個例子中，我們看到它如何相對於未來同樣能夠保護一枚幣的歷史。因此，我提到 coinjoin 應被視為一個一次性的事件，它在兩個方向上對一枚幣的歷史進行分割：
 
 
 ![BTC204](assets/zh-Hant/119.webp)
@@ -2663,7 +2663,7 @@ Maxwell, G. (2013, August 22). *CoinJoin：Bitcoin 現實世界的隱私*.Bitcoi
 ### Zerolink
 
 
-Zerolink 是一個全面的混合協定，它結合了 Chaumian coinjoins 和各種策略，以保護使用者的匿名性，防止幾種形式的鏈分析，特別是通過最小化與投資組合管理相關的錯誤。此協定 [由 nopara73 和 TDevD 於 2017 年推出](https://github.com/nopara73/ZeroLink/blob/master/README.md)。
+[Zerolink](https://planb.academy/resources/glossary/zerolink) 是一個全面的混合協定，它結合了 Chaumian coinjoins 和各種策略，以保護使用者的匿名性，防止幾種形式的鏈分析，特別是通過最小化與投資組合管理相關的錯誤。此協定 [由 nopara73 和 TDevD 於 2017 年推出](https://github.com/nopara73/ZeroLink/blob/master/README.md)。
 
 
 ![BTC204](assets/zh-Hant/132.webp)
@@ -2771,7 +2771,7 @@ Exchange 的管理方法也區別了兩種實作。對於 Whirlpool，由於 TX0
 ![BTC204](assets/zh-Hant/139.webp)
 
 
-有了 Wabisabi，Wasabi 版本 2.0 已經調整了其錢幣接合的方式，以符合 Whirlpool 的方式。雖然 CoinJoin 交易仍然非常大，但現在可以依循 Whirlpool 模型，連續串接數個循環。此外，Wabisabi 也特別注意 Exchange 的兌換率管理：Wasabi 1.0 版本的 Exchange 兌換率直接與使用者的輸入掛鈎，但 Wabisabi 則不同，Wabisabi 嘗試將 Exchange 兌換率細分為數個小數目，並將所有參與者分成相等的面額。
+隨著 Wabisabi 的引入，2.0 版本調整了其 coinjoin 的方法，使其更接近 Whirlpool 的模式。儘管 coinjoin 交易仍然規模龐大，但現在可以依照 Whirlpool 的模型連續進行多個週期。同時，在找零管理方面也投入了特別的努力：不同於 Wasabi 1.0 中找零直接與使用者輸入相連，Wabisabi 旨在將找零拆分為多個較小的金額，並以相同的面額分配給所有參與者。
 
 
 讓我們以一個只涉及 2 位使用者的簡化範例來說明：Alice 希望混合 115,000 Sats，Bob 希望混合 210,000 Sats。忽略費用，在Wasabi 1.0中，CoinJoin交易會產生3個100,000 Sats的輸出，加上Alice的1個15,000 Sats的Exchange和Bob的1個10,000 Sats的Exchange。Exchange 輸出仍會連結至輸入：
@@ -3021,7 +3021,7 @@ Whirlpool 在設計時考慮到兩項重要需求：
 任何 Whirlpool CoinJoin 的起始點都是**存款**帳戶。這是當您建立新的 Bitcoin Wallet 時自動使用的帳戶。這個帳戶需要存入您想要混合的比特幣。
 
 
-Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和均勻UTXOs，將其分成與所選池量相對應的單位，以確保均質混合。經此均勻後的 UTXOs 將被送至 **premix** 帳戶。至於無法進入池中的差額，則會被分到一個特定的帳戶中：**不良庫**（或稱為 "doxxic change"）。
+`Tx0` 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和均勻UTXOs，將其分成與所選池量相對應的單位，以確保均質混合。經此均勻後的 UTXOs 將被送至 **premix** 帳戶。至於無法進入池中的差額，則會被分到一個特定的帳戶中：**不良庫**（或稱為 "doxxic change"）。
 
 
 這個初始的 `Tx0` 交易也用來支付 CoinJoin 協調者應得的服務費。與以下步驟不同的是，此交易不是協作性的，因此使用者必須承擔 Mining 的全部費用：
@@ -3077,7 +3077,7 @@ Tx0" 是 Whirlpool 混合過程的第一步。其目的是為 CoinJoin 準備和
 ### 混音
 
 
-初始混音之後，UTXOs 會被轉移到 **postmix** 帳戶。此帳戶收集已混音的UTXO和等待再混音的UTXO。當 Whirlpool 客戶啟動時，位於 **postmix** 帳戶中的 UTXO 將自動進行混音，並隨機抽取參與這些新的週期。
+在完成初始混合後，UTXO 會被轉移到 **postmix** 帳戶。該帳戶匯集了已經混合過的 UTXO 以及等待重新混合的 UTXO。當 Whirlpool 用戶端處於啟用狀態時，位於 **postmix** 帳戶中的 UTXO 會自動可用於重新混合，並將被隨機選擇以參與這些新的週期。
 
 
 提醒一下，混音是 100% 免費的：不需要額外的服務費或 Mining 費用。因此，將 UTXOs 保留在 ** 後混合 ** 帳戶中可保持其價值不變，並同時提高其匿名性。這就是為什麼允許這些錢幣參與多次 CoinJoin 循環的重要性。這完全不花您一分錢，而且還能提高它們的匿名等級。
@@ -3299,7 +3299,7 @@ Anonsets 是用來評估特定 UTXO 機密程度的指標。更明確地說，�
 ![BTC204](assets/zh-Hant/165.webp)
 
 
-另一方面，一個 Whirlpool 5x5 角有 $1\,496$ 的可能組合：
+相較之下，依照 Whirlpool 5x5 模型建構的 coinjoin 具有 $1\,496$ 種可能的組合：
 
 
 ![BTC204](assets/zh-Hant/166.webp)
@@ -3523,7 +3523,7 @@ Boltzmann 分數的計算方式是將發生特定事件的詮釋數目除以可�
 $$
 \begin{align*}
 \text{Interpretations (IN.0 > OUT.3)} &= 512 \\
-\text{Interpretations totales} &= 1496 \\
+\text{Total interpretations} &= 1496 \\
 \text{Score} &= \frac{512}{1496} \\
 \text{Score} &= 34 \%
 \end{align*}
@@ -3547,9 +3547,9 @@ $$
 但是，如果是單一輸入和 2 個輸出的簡單交易，情況就不同了：
 
 
-| Output 0 | Output 1 |
+| %       | Output 0 | Output 1 |
 |---------|----------|----------|
-| Input 0 | 100% | 100% |
+| Input 0 | 100%     | 100%     |
 
 在這裡，我們可以看到每項輸出源自輸入 #0 的機率是 100%。因此，較低的機率反映了較高的機密性，淡化了輸入和輸出之間的直接關聯。
 
@@ -3835,7 +3835,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 和石牆結構一樣，石牆 x2 結構也為交易增加了大量的熵，混淆了鏈式分析。從外面看，這樣的交易可以解釋為兩個人之間的小 CoinJoin。但實際上，這是一種付款。因此，這種方法會造成連鎖分析的不確定性，甚至導致錯誤的線索。
 
 
-讓我們以 Alice、Bob the Baker 和 Charles 為例。Blockchain 上的交易會是這樣的：
+讓我們以 Alice、Bob the baker 和 Charles 為例。Blockchain 上的交易會是這樣的：
 
 
 ![BTC204](assets/zh-Hant/184.webp)
@@ -3859,7 +3859,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d
 ### 石牆和石牆 x2 有什麼不同？
 
 
-StonewallX2 交易的工作原理與 Stonewall 交易完全相同，只是前者是協作式的，而後者不是。正如我們所看到的，Stonewall X2 交易涉及到第三方（Charles）的參與，他是支付的外部參與者，他將提供自己的比特幣來加強交易的保密性。在典型的石牆交易中，合作者的角色由發送者擔當。
+[StonewallX](https://planb.academy/resources/glossary/stonewall)2 交易的工作原理與 Stonewall 交易完全相同，只是前者是協作式的，而後者不是。正如我們所看到的，Stonewall X2 交易涉及到第三方（Charles）的參與，他是支付的外部參與者，他將提供自己的比特幣來加強交易的保密性。在典型的石牆交易中，合作者的角色由發送者擔當。
 
 
 ![BTC204](assets/zh-Hant/187.webp)
@@ -3940,7 +3940,7 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-
 ### 什麼是跳彈？
 
 
-回彈是一種技術，包括對自己執行幾個虛構的交易（掃描），以模擬 Bitcoin Ownership 的轉移。此工具與我們討論過的其他交易結構不同，它不是獲得前瞻性的匿名，而是一種回溯性的匿名。實際上，Ricochet 模糊了 Bitcoin 硬幣因其過去而可能損害其可替代性的特殊性。
+回彈是一種技術，包括對自己執行幾個虛構的交易（掃描），以模擬 Bitcoin Ownership 的轉移。此工具與我們討論過的其他交易結構不同，它不是獲得前瞻性的匿名，而是一種回溯性的匿名。實際上，[Ricochet](https://planb.academy/resources/glossary/ricochet) 模糊了 Bitcoin 硬幣因其過去而可能損害其可替代性的特殊性。
 
 
 為了撫平過去事件在硬幣上留下的印記，例如 CoinJoin 循環，ricochet 會執行四次連續交易，讓使用者在不同的地址將資金轉移給自己。
@@ -4057,7 +4057,7 @@ Coinwap 是基於一個相對簡單的概念：它使用智慧契約來促進兩
 ![BTC204](assets/zh-Hant/201.webp)
 
 
-此外，在 Exchange 中，無法保證 Alice 不會收到 Bob 的私人密碼匙 $B$，也絕不會傳送她的私人密碼匙 $A$。因此，這個 Exchange 依賴雙方之間過度的信任，無法有效確保 Ownership 的安全秘密傳輸。
+此外，無法保證 Alice 在收到 Bob 的私鑰 $B$ 後，會交換發送她的私鑰 $A$。因此，這種交換建立在雙方之間巨大的信任基礎之上，並且在確保以安全方式進行秘密所有權轉移方面顯得效率低下。
 
 
 ![BTC204](assets/zh-Hant/202.webp)
@@ -4066,7 +4066,7 @@ Coinwap 是基於一個相對簡單的概念：它使用智慧契約來促進兩
 為了解決這些問題，並讓互不信任的雙方進行交換，我們要改用 Smart contract 系統。Smart contract 是一種在符合預先定義條件時自動執行的程式。在我們的案例中，這可確保財產的 Exchange 自動進行，而不需要相互信任。
 
 
-這可以使用 HTLC (*Hash Time-Locked Contracts*) 或 PTLC (*Point Time-Locked Contracts*) 來實現。這兩種通訊協定的運作方式類似，使用時間鎖定系統，確保 Exchange 成功完成或完全取消，從而保護雙方資金的完整性。HTLC 與 PTLC 的主要差異在於 HTLC 使用哈希值與預設影像來保障交易安全，而 PTLC 則使用 Adaptor Signatures。
+這可以使用 [HTLC](https://planb.academy/resources/glossary/htlc) (*Hash Time-Locked Contracts*) 或 PTLC (*Point Time-Locked Contracts*) 來實現。這兩種通訊協定的運作方式類似，使用時間鎖定系統，確保 Exchange 成功完成或完全取消，從而保護雙方資金的完整性。HTLC 與 PTLC 的主要差異在於 HTLC 使用哈希值與預設影像來保障交易安全，而 PTLC 則使用 Adaptor Signatures。
 
 
 在 Alice 和 Bob 之間使用 HTLC 或 PTLC 進行交換硬幣的情況下，Exchange 會安全地進行：要不成功，雙方都會收到對方的 BTC，要不失敗，雙方都會保留自己的 BTC。這使得任何一方都無法欺騙或竊取對方的 BTC。
@@ -4157,7 +4157,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallel P_A \parallel m_A) \cdot P_
 ### 原子交換
 
 
-與 Coinswap 相似，使用相同類型的智慧契約，也可以進行原子交換。原子交換可讓兩個使用者之間直接進行不同加密貨幣（如 BTC 和 XMR）的 Exchange 交換，而無需信任或中介介入。這些交換之所以稱為「原子交換」，是因為它們只有兩種可能的結果：交換成功，雙方都滿意；交換失敗，雙方都保留自己原有的加密貨幣，不需要信任對方。
+與 [Coinswap](https://planb.academy/resources/glossary/coinswap) 相似，使用相同類型的智慧契約，也可以進行[原子交換](https://planb.academy/resources/glossary/atomic-swap)。原子交換可讓兩個使用者之間直接進行不同加密貨幣（如 BTC 和 XMR）的 Exchange 交換，而無需信任或中介介入。這些交換之所以稱為「原子交換」，是因為它們只有兩種可能的結果：交換成功，雙方都滿意；交換失敗，雙方都保留自己原有的加密貨幣，不需要信任對方。
 
 
 ![BTC204](assets/zh-Hant/203.webp)
@@ -4513,7 +4513,7 @@ m/47'/0'/0'/
 ### 橢圓曲線 (ECDH) 上的 Diffie-Hellman 金鑰 Exchange
 
 
-BIP47 核心的加密協定以縮寫 ECDH 而聞名，即 *Elliptic-Curve Diffie-Hellman*。此方法是原始 Diffie-Hellman 密鑰 Exchange 的變體。
+BIP47 核心的加密協定以縮寫 [ECDH](https://planb.academy/resources/glossary/ecdh) 而聞名，即 *Elliptic-Curve Diffie-Hellman*。此方法是原始 Diffie-Hellman 密鑰 Exchange 的變體。
 
 
 Diffie-Hellman 於 1976 年推出，是一種金鑰協定通訊協定，可讓各自配備金鑰對（公開金鑰和私人金鑰）的雙方，即使僅透過公開、不安全的頻道通訊，也能就共同的秘密達成協議。

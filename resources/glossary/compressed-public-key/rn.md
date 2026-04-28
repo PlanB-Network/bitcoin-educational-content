@@ -1,5 +1,6 @@
 ---
-term: URUPFUZO RWA BOSE
+term: Urubufunguzo rwegeranijwe
+definition: Ifomu nto y'urufunguruzo rusangi ikoresha gusa koordinat-x n'intangamarambo (02 canke 03).
 ---
 
 Urufunguzo rwa bose rukoreshwa mu nyandiko (rwaba mu buryo butaziguye mu buryo bw’urufunguzo rwa bose canke nk’urufunguzo rwa Address) kugira ngo umuntu yakire kandi akingire ama bitcoins. Urufunguzo rwa bose rudasanzwe rugereranywa n'akarongo ku nzira y'uruzitiro, rugizwe n'ibiharuro bibiri (`x, y`) kimwe cose gifise ibice 256. Mu buryo butagiramwo ivyiza, urufunguzo rwa bose rero rupima ibice 512, rudaharura byte y’inyongera kugira ngo umenye uburyo. Urufunguzo rwa bose rwacitse, ku rundi ruhande, ni uburyo bukomeye bwo guserukira urufunguzo rwa bose. Ikoresha gusa `x` n'intango (`02` canke `03`) yerekana uburinganire bw'umurongo wa `y` (ungana canke udasanzwe).
@@ -8,7 +9,7 @@ Urufunguzo rwa bose rukoreshwa mu nyandiko (rwaba mu buryo butaziguye mu buryo b
 Nitwavyorohereza ivyo ku bijanye n’imibare nyayo, kubera ko umurongo w’uruzitiro uringaniye n’umurongo wa x, ku ntumbero iyo ari yo yose $P$ (`x, y`) iri ku murongo, hariho uturongo $P'$ (`x, -y`) na two nyene tuzoba kuri uwo murongo nyene. Ivyo bisigura ko kuri `x` yose, hariho gusa agaciro kabiri gashoboka ka `y`, keza n'akabi. Nk’akarorero, ku nzira y’umurongo `x`, hoba hariho uturongo tubiri $P1$ na $P2$ ku nzira y’umurongo w’uruzitiro, dusangiye umurongo umwe ariko ufise amabara atandukanye:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Kugira ngo uhitemwo hagati y'ibiharuro bibiri bishobora kuba biri ku nzira, intango y'ijambo `y` yo guhitamwo yongerwa kuri `x`. Ubu buryo bushobora kugabanya ubunini bw'urufunguzo rwa bose kuva ku bice 520 gushika ku bice 264 gusa (ibice 8 vy'intango + ibice 256 ku `x`). Ivyo bimenyetso bizwi nk'uburyo bushizwemwo urufunguzo rwa bose.
 

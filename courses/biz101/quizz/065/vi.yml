@@ -1,9 +1,9 @@
-question: Giải pháp thanh toán chính được khuyến nghị cho các doanh nghiệp sử dụng hồ sơ Essential là gì?
+question: Giải pháp thanh toán chính được khuyến nghị sử dụng cho các doanh nghiệp thuộc nhóm hồ sơ thiết yếu là gì?
 answer: Swiss Bitcoin Pay
 wrong_answers:
-  - Nút mở
-  - Máy chủ BTCPay
+  - Open Node
+  - BTCPay Server
   - Bitcoinize PoS
 explanation: |
-  Chúng tôi nhấn mạnh Swiss Bitcoin Pay là giải pháp được đề xuất cho hồ sơ Essential, cân bằng giữa tính đơn giản và tính bảo mật.
+  Chúng tôi nhấn mạnh Swiss Bitcoin Pay là giải pháp được đề xuất cho nhóm hồ sơ thiết yếu, cân bằng giữa tính đơn giản và tính bảo mật.
 reviewed: true

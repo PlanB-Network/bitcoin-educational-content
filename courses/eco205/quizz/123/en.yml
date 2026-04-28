@@ -1,0 +1,8 @@
+question: How does Hayek explain that information spreads through the economy when the scarcity of a good changes?
+answer: Information is automatically transmitted through the price chain, without the players knowing the initial cause of the change
+wrong_answers:
+  - "Central authorities collect information and redistribute it to the economic players concerned via official bulletins"
+  - "Companies organize coordination meetings to share information directly on changes in scarcity"
+  - "Information circulates only between direct producers of the good, who then inform their customers of the situation"
+explanation: |
+  According to Hayek, information spreads spontaneously through the economy via the price mechanism, without centralized intervention. When a good becomes scarce, its price rises, prompting users to economize, seek substitutes or innovate, even without knowing the cause of the scarcity. This information is then passed on to substitutes and substitutes for substitutes, creating an automatic chain of transmission. The other answers describe centralized or direct mechanisms that contradict the Hayekian theory of spontaneous order.

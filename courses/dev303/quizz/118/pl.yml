@@ -1,0 +1,8 @@
+question: Jaki jest główny powód techniczny, dla którego portfele zasilane przez Greenlight osiągają wyższą niezawodność routingu płatności w porównaniu z tradycyjnymi mobilnymi implementacjami Lightning?
+answer: Węzły Greenlight działają nieprzerwanie w chmurze, utrzymując synchronizację wykresu sieciowego w czasie rzeczywistym i natychmiastowy dostęp do pełnych danych wykresu
+wrong_answers:
+  - Greenlight wykorzystuje zaawansowane algorytmy uczenia maszynowego do przewidywania optymalnych tras płatności w oparciu o historyczne wzorce transakcji
+  - Greenlight wdraża zastrzeżony wielościeżkowy podział płatności, który rozdziela transakcje na wiele kanałów jednocześnie w celu zapewnienia redundancji
+  - Greenlight utrzymuje dedykowane połączenia o wysokiej przepustowości z głównymi węzłami Lightning, zapewniając priorytetowe kierowanie przez najbardziej płynne kanały
+explanation: |
+  Prawidłowa odpowiedź identyfikuje podstawową zaletę architektoniczną podejścia opartego na chmurze Greenlight. Tradycyjne mobilne portfele Lightning muszą synchronizować dane wykresu sieciowego po uruchomieniu, tworząc opóźnienia i potencjalnie pracując z nieaktualnymi informacjami o routingu. Greenlight rozwiązuje to poprzez ciągłe uruchamianie węzłów Lightning w chmurze, zapewniając, że zawsze mają aktualną wiedzę o sieci i mogą natychmiast dostarczyć kompletne dane wykresu, gdy użytkownicy się łączą. Błędne odpowiedzi opisują prawdopodobne, ale nieistniejące funkcje - Greenlight nie wykorzystuje algorytmów routingu ML, zastrzeżonego podziału płatności poza standardowymi protokołami Lightning ani specjalnych połączeń hubowych do routingu priorytetowego.

@@ -72,7 +72,7 @@ Denna arkitektur är dock beroende av Tailscale Inc. för nätverkskoordinering.
 
 
 
-**För en detaljerad förklaring av Tailscales inre funktioner, inklusive kontrollplanshantering, NAT-traversering och DERP-reläer, rekommenderar vi den utmärkta artikeln [How Tailscale Works] (https://tailscale.com/blog/how-tailscale-works) på den officiella bloggen. Artikeln förklarar på djupet de tekniska begrepp som gör Tailscale så kraftfullt.**
+**För en detaljerad förklaring av Tailscales inre funktioner, inklusive kontrollplanshantering, NAT-traversering och DERP-reläer, rekommenderar vi den utmärkta artikeln [How Tailscale Works](https://tailscale.com/blog/how-tailscale-works) på den officiella bloggen. Artikeln förklarar på djupet de tekniska begrepp som gör Tailscale så kraftfullt.**
 
 
 
@@ -181,7 +181,7 @@ Detta skript lägger till det officiella Tailscale-förvaret och installerar pak
 
 
 
-- På iOS och Android: **Tailscale tillhandahåller officiella mobilapplikationer.** Installera bara *Tailscale* från [App Store] (https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store] (https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
+- På iOS och Android: **Tailscale tillhandahåller officiella mobilapplikationer.** Installera bara *Tailscale* från [App Store](https://apps.apple.com/us/app/tailscale/id1470499037?ls=1) (iOS) eller [Play Store](https://play.google.com/store/apps/details?id=com.tailscale.ipn) (Android).
 
 
 
@@ -635,4 +635,4 @@ Tailscale är ett viktigt verktyg för självhosting tack vare sin enkelhet och 
 
 
 
-Tailscale tillhandahåller regelbundet nytt innehåll och nya funktioner. Kolla in deras [officiella blogg] (https://tailscale.com/blog/) för de senaste nyheterna och fallstudierna.
+Tailscale tillhandahåller regelbundet nytt innehåll och nya funktioner. Kolla in deras [officiella blogg](https://tailscale.com/blog/) för de senaste nyheterna och fallstudierna.

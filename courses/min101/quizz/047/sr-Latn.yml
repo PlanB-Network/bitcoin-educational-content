@@ -1,0 +1,9 @@
+question: Koji statistički princip objašnjava da frekvencija pronađenih blokova dugoročno konvergira ka udelu u hashrate-u?
+answer: Zakon velikih brojeva
+wrong_answers:
+  - Bayesova teorema
+  - Paradoks rođendana
+  - Princip najmanje akcije
+explanation: |
+  Konvergencija rezultata je posledica zakona velikih brojeva, jer je svaki heš nezavisan pokušaj.
+reviewed: false

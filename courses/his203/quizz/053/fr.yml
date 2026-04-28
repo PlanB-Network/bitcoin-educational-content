@@ -1,0 +1,9 @@
+question: Quelle était le nom du service de change de particulier à particulier lancé par Jeremias Kangas et son frère en juin 2012 ?
+answer: LocalBitcoins
+wrong_answers:
+  - BTC NEAR ME
+  - BitInstant
+  - Coinabul
+explanation: |
+ Il s'agissait d'une plateforme de mise en relation, qui a été lancée le 7 juin. Au cours de l'été, LocalBitcoins a intégré un système de dépôt fiduciaire, par le biais duquel les bitcoins pouvaient être momentanément conservés par la plateforme et débloqués par SMS pour être versés à l'acheteur. Cela permettait notamment de réaliser des échanges en personne, où le vendeur débloquait les bitcoins une fois les espèces reçues.
+reviewed: false

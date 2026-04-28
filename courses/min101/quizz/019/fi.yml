@@ -1,0 +1,9 @@
+question: Kuka keksi Hashcashin?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcashin keksi Adam Back. Se on ensimmäinen työntodistusmekanismi.
+reviewed: false

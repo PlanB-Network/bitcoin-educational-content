@@ -1,5 +1,6 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
+definition: E-posti meililist, mis on pühendatud tehnilistele aruteludele Bitcoin protokolli arendamise üle.
 ---
 
 Bitcoin protokolli arendamisele pühendatud e-posti postiloend. Bitcoin-dev loodi 2011. aastal Jeff Garziku poolt ja esialgu asus see Sourceforge.net'is. Seejärel viidi postiloend üle Linux Foundationi, seejärel Open Source Labi ja lõpuks, alates 2024. aasta veebruarist, asub see Google Groupsis: https://groups.google.com/g/bitcoindev

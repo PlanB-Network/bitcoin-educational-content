@@ -1,5 +1,6 @@
 ---
-term: POWTÓRZENIE ATAKU
+term: Atak powtórzeniowy
+definition: Atak polegający na powtórzeniu prawidłowej transakcji z jednego blockchaina na innym, współdzielącym tę samą historię.
 ---
 
 W kontekście Bitcoin atak replay ma miejsce, gdy ważna transakcja na jednym Blockchain jest złośliwie powielana na innym Blockchain, który ma tę samą historię transakcji. Innymi słowy, transakcja transmitowana na jednym kanale może zostać powielona na innym bez zgody nadawcy pierwszej transakcji.

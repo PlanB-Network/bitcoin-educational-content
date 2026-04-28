@@ -1,0 +1,8 @@
+question: Mikä on se kriittinen toiminnallinen haavoittuvuus, joka ilmenee AMP:n säänneltyjen omaisuudensiirtojen valtuutusmallissa?
+answer: Varojen likviditeetti pysähtyy kokonaan, jos AMP-palvelin ei ole käytettävissä, koska jokainen siirto edellyttää palvelimen yhteisaloitekirjoitusta
+wrong_answers:
+  - Transaktiomaksut kasvavat eksponentiaalisesti, kun useat allekirjoittajat yrittävät valtuuttaa siirtoja samanaikaisesti
+  - Luottamuksellisten liiketoimien yksityisyys murtuu, koska yhteisaloitukset paljastavat sokeuttavat tekijät verkon tarkkailijoille
+  - Omaisuuserien haltijat menettävät säilytysvalvonnan, kun rinnakkaisalennusmekanismi siirtää yksityiset avaimet AMP-palvelimelle
+explanation: |
+  AMP:n valtuutusmalli edellyttää, että AMP-palvelin allekirjoittaa jokaisen omaisuuserän siirron, mikä luo yhden vikapisteen. Jos palvelin menee offline-tilaan, transaktioita ei voida suorittaa, jolloin kaikki omaisuuserien likviditeetti käytännössä jäädytetään. Muut vaihtoehdot ovat virheellisiä: maksut eivät kasva eksponentiaalisesti yhteisallekirjoituksen myötä, luottamuksellisten transaktioiden yksityisyys säilyy (vain liikkeeseenlaskija saa näkyvyyttä), ja käyttäjät säilyttävät yksityiset avaimensa, kun taas palvelin tarjoaa vain valtuutuksen allekirjoitukset.

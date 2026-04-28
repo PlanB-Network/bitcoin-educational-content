@@ -101,8 +101,6 @@ No final deste curso, terá todas as ferramentas práticas necessárias para nav
 Pronto para começar a sua viagem ao mundo da Bitcoin? Vamos lá!
 
 
-**N.B.**: Se encontrar termos desconhecidos durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para definições.
-
 # Pré-requisitos para compreender o Bitcoin
 
 
@@ -132,7 +130,7 @@ Antes de prosseguir, é importante distinguir claramente dois mundos fundamental
 
 
 
-- A **indústria das criptomoedas**, por outro lado, é muito maior e inclui dezenas de milhares de projectos diferentes, cada um com o seu próprio token. Este espaço é muitas vezes impulsionado pela inovação rápida, pelo entusiasmo e pela especulação financeira a curto prazo. Muitos destes projectos são centralizados, menos seguros e não oferecem muito valor real - apesar das promessas arrojadas e do marketing vistoso.
+- A **indústria das [criptomoedas](https://planb.academy/resources/glossary/cryptocurrency)**, por outro lado, é muito maior e inclui dezenas de milhares de projectos diferentes, cada um com o seu próprio token. Este espaço é muitas vezes impulsionado pela inovação rápida, pelo entusiasmo e pela especulação financeira a curto prazo. Muitos destes projectos são centralizados, menos seguros e não oferecem muito valor real - apesar das promessas arrojadas e do marketing vistoso.
 
 
 ![image](assets/pt/005.webp)
@@ -177,7 +175,7 @@ Estas burlas apresentam normalmente :
 Em última análise, todos os esquemas de pirâmide e Ponzi estão condenados ao fracasso. A sua fraqueza fundamental reside na necessidade constante de atrair novos investidores para pagar os rendimentos aos participantes anteriores. Esta necessidade torna-se matematicamente impossível de manter ao longo do tempo, porque o número de novos recrutas necessários aumenta exponencialmente à medida que o sistema cresce. Quando se atinge um ponto crítico, os participantes começam a duvidar, a confiança desaparece e toda a pirâmide entra em colapso. Nesta fase, as últimas pessoas a aderir, muitas vezes as menos informadas, perdem todo o seu investimento sem qualquer forma de o recuperar, enquanto os organizadores ou os primeiros investidores já retiraram os seus fundos e abandonaram o sistema.
 
 
-No mundo das criptomoedas, os esquemas Ponzi podem assumir muitas formas, muitas vezes concebidas para ocultar a sua natureza fraudulenta por detrás de uma máscara tecnológica ou financeira. Estas fraudes podem aparecer como novas ofertas de fichas ou ofertas iniciais de moedas (ICO), que são operações de angariação de fundos em que uma nova moeda criptográfica é vendida ao público. Por detrás de termos técnicos como "Blockchain", "contratos inteligentes" ou "staking", alguns projectos escondem, na realidade, complexos esquemas em pirâmide. Outros afirmam oferecer rendimentos elevados, combinando cripto-activos questionáveis com sistemas de compensação que dependem inteiramente do fluxo contínuo de novos investidores.
+No mundo das criptomoedas, os esquemas Ponzi podem assumir muitas formas, muitas vezes concebidas para ocultar a sua natureza fraudulenta por detrás de uma máscara tecnológica ou financeira. Estas fraudes podem aparecer como novas ofertas de fichas ou ofertas iniciais de moedas (ICO), que são operações de angariação de fundos em que uma nova moeda criptográfica é vendida ao público. Por detrás de termos técnicos como "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "contratos inteligentes" ou "staking", alguns projectos escondem, na realidade, complexos esquemas em pirâmide. Outros afirmam oferecer rendimentos elevados, combinando cripto-activos questionáveis com sistemas de compensação que dependem inteiramente do fluxo contínuo de novos investidores.
 
 
 Mais recentemente, os esquemas Ponzi também se espalharam pelo mundo das Finanças Descentralizadas (DeFi). Embora a DeFi se destine a fornecer serviços financeiros sem intermediários, alguns projectos utilizam-na para dar uma falsa sensação de legitimidade aos seus esquemas. Certas plataformas DeFi prometem retornos altos e garantidos em Exchange para depósitos de criptomoedas em protocolos automatizados. Estas promessas atractivas são frequentemente apoiadas por mecanismos opacos e não verificáveis, com tokens criados especificamente para o esquema. Na realidade, estes sistemas não têm um modelo de negócio sustentável - os retornos são simplesmente pagos com os fundos dos novos utilizadores, tal como um esquema Ponzi tradicional. Quando a confiança começa a desgastar-se ou o afluxo de novos participantes abranda, estes sistemas entram inevitavelmente em colapso, levando a perdas significativas para os investidores desprevenidos.
@@ -256,7 +254,7 @@ Os projectos centralizados de criptomoeda oferecem por vezes tokens gratuitos ("
 Os atacantes utilizam frequentemente sítios Web falsos, contas de redes sociais ou mensagens de correio eletrónico enganosas para tentar roubar os seus fundos. Estas burlas podem surgir através de qualquer canal de comunicação: correio eletrónico, redes sociais, chamadas telefónicas ou mesmo correio tradicional...
 
 
-Antes de clicar numa hiperligação ou de realizar qualquer ação, verifique sempre a identidade do remetente. Em caso de dúvida, visite o sítio Web manualmente em vez de utilizar uma ligação fornecida. Mais importante ainda, nunca partilhe as suas chaves privadas ou palavras-passe com ninguém.
+Antes de clicar numa hiperligação ou de realizar qualquer ação, verifique sempre a identidade do remetente. Em caso de dúvida, visite o sítio Web manualmente em vez de utilizar uma ligação fornecida. Mais importante ainda, nunca partilhe as suas [chaves privadas](https://planb.academy/resources/glossary/private-key) ou palavras-passe com ninguém.
 
 
 #### Forquilhas Bitcoin
@@ -543,7 +541,7 @@ A cibersegurança pode parecer uma tarefa gigantesca, e é fácil para os princi
 Resumindo: não subestime a cibersegurança, dedique algum tempo a configurar o básico e lembre-se de que a consistência é fundamental. Sem uma boa higiene digital, mesmo as melhores ferramentas não farão muito por si.
 
 
-Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática] (https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
+Não se esqueça também de consultar [os nossos tutoriais sobre segurança informática](https://planb.academy/tutorials/computer-security) no Plan ₿ Academy.
 
 
 ![image](assets/pt/020.webp)
@@ -571,7 +569,7 @@ Eis os pontos-chave que iremos analisar em conjunto:
 
 
 
-- Cuidado com as **Shitcoins** e outras criptomoedas inúteis;
+- Cuidado com as **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** e outras criptomoedas inúteis;
 - Investir apenas **dinheiro que se pode dar ao luxo de perder**;
 - Saber a diferença entre **negociação** e **investimento**;
 - Estar ciente das **implicações fiscais** dos seus investimentos;
@@ -843,19 +841,19 @@ Ao longo dos anos, o Bitcoin ganhou reconhecimento como uma rede monetária glob
 #### Cypherpunks e a invenção de um sistema fora do controlo bancário
 
 
-O Bitcoin não nasceu da noite para o dia. É o resultado de décadas de pesquisa e experimentação em criptografia, ciência da computação e teoria monetária. Antes do seu lançamento em 2009, vários projectos (como eCash, b-money, Bit Gold, e RPOW) tentaram criar moedas digitais. Todos enfrentaram o mesmo problema central: como evitar gastos duplos num sistema descentralizado sem depender de uma autoridade central.
+O Bitcoin não nasceu da noite para o dia. É o resultado de décadas de pesquisa e experimentação em [criptografia](https://planb.academy/resources/glossary/cryptography), ciência da computação e teoria monetária. Antes do seu lançamento em 2009, vários projectos (como eCash, b-money, Bit Gold, e RPOW) tentaram criar moedas digitais. Todos enfrentaram o mesmo problema central: como evitar gastos duplos num sistema descentralizado sem depender de uma autoridade central.
 
 
-Esse desafio permaneceu sem solução até o final de 2008, quando alguém usando o nome Satoshi Nakamoto publicou o white paper Bitcoin. Poucos meses depois, a primeira versão do software de código aberto do Bitcoin foi lançada, lançando um sistema que poderia funcionar independentemente de bancos ou governos.
+Esse desafio permaneceu sem solução até o final de 2008, quando alguém usando o nome Satoshi Nakamoto publicou o [white paper](https://planb.academy/resources/glossary/white-paper) Bitcoin. Poucos meses depois, a primeira versão do software de [código aberto](https://planb.academy/resources/glossary/foss) do Bitcoin foi lançada, lançando um sistema que poderia funcionar independentemente de bancos ou governos.
 
 
-O projeto foi fortemente influenciado pelo ethos do Cypherpunk; uma comunidade de programadores e pensadores que acreditavam na utilização da criptografia para proteger as liberdades individuais online. Para eles, a privacidade e a descentralização não eram preferências técnicas, mas necessidades ideológicas. O Bitcoin surgiu como a personificação mais bem sucedida desses ideais: uma rede monetária peer-to-peer que qualquer pessoa podia usar, ninguém podia controlar e todos podiam verificar.
+O projeto foi fortemente influenciado pelo ethos do Cypherpunk; uma comunidade de programadores e pensadores que acreditavam na utilização da criptografia para proteger as liberdades individuais online. Para eles, a privacidade e a descentralização não eram preferências técnicas, mas necessidades ideológicas. O Bitcoin surgiu como a personificação mais bem sucedida desses ideais: uma rede monetária [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) que qualquer pessoa podia usar, ninguém podia controlar e todos podiam verificar.
 
 
 ![image](assets/pt/030.webp)
 
 
-Os Cypherpunks são uma comunidade informal e internacional de indivíduos que defendem a utilização da criptografia para defender as liberdades pessoais online. Acreditam firmemente no direito do indivíduo à privacidade, especialmente num mundo cada vez mais moldado pela vigilância governamental e pela exploração de dados corporativos.
+Os [Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) são uma comunidade informal e internacional de indivíduos que defendem a utilização da criptografia para defender as liberdades pessoais online. Acreditam firmemente no direito do indivíduo à privacidade, especialmente num mundo cada vez mais moldado pela vigilância governamental e pela exploração de dados corporativos.
 
 
 As raízes do movimento Cypherpunk remontam ao início dos anos 90, quando grupos de criptógrafos, programadores e libertários começaram a explorar as implicações políticas da criptografia durante encontros em Silicon Valley. Uma das vozes mais proeminentes da comunidade foi Tim May, autor do Manifesto Anarquista Criptográfico em 1988; um texto fundamental que delineia uma visão de um mundo onde a encriptação daria aos indivíduos o poder de operar fora do alcance dos governos e do controlo centralizado.
@@ -875,7 +873,7 @@ A ideia de uma moeda digital que funciona independentemente de qualquer autorida
 O Bitcoin não surgiu do nada. Foi criado num momento muito específico - logo após a crise financeira global de 2008. O colapso do mercado imobiliário dos EUA e a crise dos empréstimos subprime provocaram a falência de grandes bancos e abalaram a confiança das pessoas em todo o sistema financeiro.
 
 
-Foi neste ambiente de medo e incerteza que nasceu o Bitcoin. O criador, conhecido como Satoshi Nakamoto, incluiu uma mensagem muito simbólica no primeiro bloco do Bitcoin Blockchain, conhecido como o bloco Genesis. A mensagem era:
+Foi neste ambiente de medo e incerteza que nasceu o Bitcoin. O criador, conhecido como Satoshi Nakamoto, incluiu uma mensagem muito simbólica no primeiro bloco do Bitcoin Blockchain, conhecido como o [bloco Genesis](https://planb.academy/resources/glossary/genesis-block). A mensagem era:
 
 
 > **"The Times 03/Jan/2009 Chanceler à beira do segundo resgate aos bancos "**
@@ -903,13 +901,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Peer-to-peer e sem organismo central
 
 
-O Bitcoin é definido como um "sistema de dinheiro eletrónico ponto a ponto" Isto significa que qualquer pessoa pode ligar-se à rede usando o software apropriado (um nó Bitcoin) e interagir diretamente com outros utilizadores, sem depender de um servidor central. O objetivo desta descentralização é impedir que uma única entidade (como um banco, um governo ou uma grande empresa) controle, censure ou interrompa o sistema. O Bitcoin funciona 24 horas por dia, 7 dias por semana, globalmente, e é acessível a todos sem quaisquer condições.
+O Bitcoin é definido como um "sistema de dinheiro eletrónico ponto a ponto" Isto significa que qualquer pessoa pode ligar-se à rede usando o software apropriado (um [nó](https://planb.academy/resources/glossary/node) Bitcoin) e interagir diretamente com outros utilizadores, sem depender de um servidor central. O objetivo desta descentralização é impedir que uma única entidade (como um banco, um governo ou uma grande empresa) controle, censure ou interrompa o sistema. O Bitcoin funciona 24 horas por dia, 7 dias por semana, globalmente, e é acessível a todos sem quaisquer condições.
 
 
 ![image](assets/pt/034.webp)
 
 
-Em termos simples, cada participante na rede Bitcoin (chamado "nó") tem uma cópia completa da transação Ledger, conhecida como Blockchain. Quando ocorre uma nova transação, esta é transmitida para a rede. Os mineiros confirmam então estas transacções agrupando-as em blocos que são depois adicionados ao fim da cadeia (daí o nome "Blockchain").
+Em termos simples, cada participante na rede Bitcoin (chamado "nó") tem uma cópia completa da transação Ledger, conhecida como Blockchain. Quando ocorre uma nova transação, esta é transmitida para a rede. Os [mineiros](https://planb.academy/resources/glossary/miner) confirmam então estas transacções agrupando-as em blocos que são depois adicionados ao fim da cadeia (daí o nome "Blockchain").
 
 
 ![image](assets/pt/035.webp)
@@ -930,7 +928,7 @@ Pense no Blockchain como um Ledger contabilístico gigante, em que cada linha re
 #### Como são criados os blocos: Mining
 
 
-O Mining é o processo através do qual os computadores (ou grandes fazendas de Mining) contribuem com **poder computacional** para proteger o histórico de transacções do Bitcoin e criar novos blocos. Os mineiros competem para resolver um puzzle matemático - especificamente, encontrar uma colisão parcial de Hash. Este processo requer energia e recursos significativos. Quando um Miner encontra uma solução válida, transmite o bloco para a rede, que o verifica e aceita como válido.
+O [Mining](https://planb.academy/resources/glossary/mining) é o processo através do qual os computadores (ou grandes fazendas de Mining) contribuem com **poder computacional** para proteger o histórico de transacções do Bitcoin e criar novos blocos. Os mineiros competem para resolver um puzzle matemático - especificamente, encontrar uma colisão parcial de Hash. Este processo requer energia e recursos significativos. Quando um Miner encontra uma solução válida, transmite o bloco para a rede, que o verifica e aceita como válido.
 
 Como recompensa, o Miner recebe bitcoins recém-criados (chamados de subsídio de bloco) juntamente com as taxas de transação de todas as transacções incluídas nesse bloco.
 
@@ -952,12 +950,12 @@ Eventualmente, por volta do ano 2140, o subsídio chegará a zero, uma vez que o
 #### Escassez e uma política monetária fixa
 
 
-Uma das caraterísticas mais poderosas do Bitcoin é a sua *política monetária previsível e imutável*. Ao contrário das moedas fiduciárias tradicionais (como o dólar, o euro ou o iene), que podem ser impressas à vontade pelos bancos centrais (muitas vezes levando à inflação ou a distorções económicas), o Bitcoin opera sob um conjunto transparente de regras incorporadas no seu código.
+Uma das caraterísticas mais poderosas do Bitcoin é a sua *política monetária previsível e imutável*. Ao contrário das moedas fiduciárias tradicionais (como o dólar, o euro ou o iene), que podem ser impressas à vontade pelos bancos centrais (muitas vezes levando à [inflação](https://planb.academy/resources/glossary/inflation) ou a distorções económicas), o Bitcoin opera sob um conjunto transparente de regras incorporadas no seu código.
 
 Só existirão 21 milhões de bitcoins e a taxa de emissão de novas moedas é conhecida antecipadamente por todos na rede.
 
 
-Nenhum governo, instituição ou indivíduo pode alterar unilateralmente este limite do Supply ou as regras de distribuição. A única forma de alterar estes parâmetros seria alterar o protocolo do Bitcoin; e mesmo isso exigiria o consenso de uma maioria dos participantes económicos da rede.
+Nenhum governo, instituição ou indivíduo pode alterar unilateralmente este limite do Supply ou as regras de distribuição. A única forma de alterar estes parâmetros seria alterar o protocolo do Bitcoin; e mesmo isso exigiria o [consenso](https://planb.academy/resources/glossary/consensus) de uma maioria dos participantes económicos da rede.
 
 
 Esta escassez intrínseca é um grande atrativo para aqueles que pretendem evitar políticas monetárias imprevisíveis ou evitar a erosão gradual do seu poder de compra através da inflação. Com o tempo, isto pode representar uma mudança no pensamento financeiro, em que poupar num ativo deflacionário como o Bitcoin se torna mais atrativo do que confiar em moedas tradicionais, propensas à inflação.
@@ -1233,7 +1231,7 @@ Os bitcoiners vêm de todos os sectores da vida, mas partilham uma visão comum:
 - **Cypherpunks**, que defendem a privacidade e resistem à vigilância;
 - Cidadãos **oprimidos**, que procuram refúgio de regimes autoritários e de controlos de capitais;
 - **Anarquistas**, que vêem a Bitcoin como um instrumento de libertação do controlo estatal;
-- **Economistas austríacos**, que defendem uma moeda sólida e a ausência de manipulação governamental;
+- **[Economistas austríacos](https://planb.academy/resources/glossary/austrian-school)**, que defendem uma moeda sólida e a ausência de manipulação governamental;
 - Engenheiros, financeiros e defensores da liberdade de expressão, que reconhecem as profundas implicações sociais deste novo paradigma monetário.
 
 
@@ -1549,7 +1547,7 @@ As carteiras desempenham um papel fundamental no Bitcoin e serão exploradas em 
 #### Bitcoin Mining
 
 
-O Mining é uma função central da rede Bitcoin. Garante a segurança do sistema e mantém o Blockchain operacional. Os mineiros validam as transacções e protegem a rede realizando cálculos que consomem muita energia, conhecidos como Proof of Work. Cada bloco recém-minerado adiciona um lote de transacções ao Blockchain e liberta novos bitcoins de acordo com o calendário de emissão do protocolo.
+O Mining é uma função central da rede Bitcoin. Garante a segurança do sistema e mantém o Blockchain operacional. Os mineiros validam as transacções e protegem a rede realizando cálculos que consomem muita energia, conhecidos como [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Cada bloco recém-minerado adiciona um lote de transacções ao Blockchain e liberta novos bitcoins de acordo com o calendário de emissão do protocolo.
 
 
 Nos primeiros tempos do Bitcoin, o Mining podia ser feito a partir de um computador pessoal. Atualmente, é uma indústria competitiva e global dominada por empresas com recursos financeiros e técnicos substanciais. A procura de fontes de energia baratas tornou-se um ponto fulcral, uma vez que os mineiros procuram otimizar os custos operacionais e a rentabilidade. Atualmente, as operações de Mining vão desde grandes instalações industriais a pequenas instalações que funcionam em casas ou garagens...
@@ -1584,7 +1582,7 @@ O desenvolvimento do Bitcoin pode ser entendido através de alguns grupos distin
 - **Programadores independentes**, Estes programadores concentram-se na criação de ferramentas e aplicações para melhorar a experiência do utilizador, como o Mempool.space (um Interface visual para acompanhar a atividade das transacções) ou o Alby (ferramentas para utilizar pagamentos Lightning em navegadores e aplicações).
 
 
-Qualquer pessoa pode propor alterações ao Bitcoin Core, mas o processo é intencionalmente rigoroso. As novas ideias levam muitas vezes anos a aperfeiçoar e requerem uma compreensão técnica profunda, um amplo envolvimento da comunidade e várias camadas de revisão. As propostas são normalmente apresentadas sob a forma de **Propostas de melhoria do Bitcoin (BIPs)**; algumas das quais nunca chegam a ser incluídas no protocolo.
+Qualquer pessoa pode propor alterações ao Bitcoin Core, mas o processo é intencionalmente rigoroso. As novas ideias levam muitas vezes anos a aperfeiçoar e requerem uma compreensão técnica profunda, um amplo envolvimento da comunidade e várias camadas de revisão. As propostas são normalmente apresentadas sob a forma de **Propostas de melhoria do Bitcoin ([BIPs](https://planb.academy/resources/glossary/bip))**; algumas das quais nunca chegam a ser incluídas no protocolo.
 
 A inovação é bem-vinda, mas apenas quando é apoiada por um raciocínio sólido, consenso da comunidade e testes cuidadosos.
 
@@ -1668,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 O RGB é um sistema Smart contract descentralizado e focado na privacidade, projetado para trabalhar em cima do Bitcoin e do Lightning Network. Ao contrário das plataformas Smart contract tradicionais, o RGB usa um modelo Client-side Validation (o que significa que o Contract State completo é armazenado no off-chain, e apenas os compromissos criptográficos são publicados no Bitcoin Blockchain). Este design melhora tanto a escalabilidade como a privacidade. Com o RGB, os usuários podem criar contratos inteligentes avançados para emitir tokens, NFTs, identidades descentralizadas ou até mesmo aplicativos DeFi, diretamente no Bitcoin ou Lightning.
 
 
-Uma caraterística fundamental do RGB é a sua proteção contra o Double-spending, conseguida através de uma técnica criptográfica denominada Single-use Seals. Este mecanismo baseia-se no facto de os UTXOs (Unspent Transaction Outputs) do Bitcoin só poderem ser gastos uma vez. A autenticidade dos tokens é garantida pela validação do lado do utilizador de todo o histórico do Contract (desde a sua criação até ao seu estado atual).
+Uma caraterística fundamental do RGB é a sua proteção contra o Double-spending, conseguida através de uma técnica criptográfica denominada Single-use Seals. Este mecanismo baseia-se no facto de os [UTXOs](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) do Bitcoin só poderem ser gastos uma vez. A autenticidade dos tokens é garantida pela validação do lado do utilizador de todo o histórico do Contract (desde a sua criação até ao seu estado atual).
 
 
 ![image](assets/pt/062.webp)
@@ -2112,7 +2110,7 @@ Comprar o Bitcoin sem revelar a sua identidade é uma opção para aqueles que d
 - **Plataformas P2P**: Plataformas como a Bisq, RoboSats e Peach facilitam as trocas entre indivíduos privados sem necessidade de verificação de identidade, utilizando sistemas de caução para garantir as transacções. Estas plataformas continuam a comportar o risco de roubo se a outra parte não cooperar, mas o risco é minimizado pelos serviços de caução.
 - **Bitcoin nas caixas automáticas (ATMs)**: Algumas caixas automáticas (quiosques) permitem comprar Bitcoin com dinheiro, embora as taxas tendam a ser elevadas e algumas exijam a verificação da identidade para transacções maiores.
 - **Plataformas Exchange sem KYC**: Algumas plataformas, especialmente na Suíça, permitem-lhe comprar pequenas quantidades de Bitcoin sem exigir a verificação da sua identidade.
-- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining] (https://planb.academy/tutorials/mining).
+- **Mining**: Os indivíduos podem minerar Bitcoin. Máquinas mais antigas ou mais pequenas são acessíveis, proporcionando uma forma não tradicional de adquirir Bitcoin sem KYC. Ao juntar-se a um Mining pool, pode ganhar pagamentos regulares, mesmo com equipamento básico. Para mais informações, [consulte os nossos tutoriais sobre Mining](https://planb.academy/tutorials/mining).
 - **Pagamentos / Salário em bitcoins**: Se tens um negócio, podes aceitar Bitcoin como pagamento. Se estiveres empregado, dependendo da tua jurisdição, podes pedir para ser pago em Bitcoin. Estes métodos permitem-lhe adquirir Bitcoin sem KYC.
 
 
@@ -2808,7 +2806,7 @@ A escolha de gastar bitcoins é frequentemente objeto de críticas. Alguns utili
 Uma abordagem mais lógica é o método "Gastar e Substituir". Isto significa gastar Bitcoin por todas as razões mencionadas anteriormente e, em seguida, em vez de deixar as suas poupanças de Bitcoin diminuir, substitui os Sats gastos comprando novos Sats com moeda fiduciária.
 
 
-Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map] (https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
+Para facilitar os gastos com Bitcoin, existem muitas ferramentas disponíveis, como o [BTC Map](https://btcmap.org/), que mostra os comerciantes de todo o mundo que aceitam Bitcoin. Alguns destes comerciantes até permitem encomendar online e receber os produtos em casa.
 
 
 Uma vez que ainda estamos numa fase de transição em que nem todos os comerciantes diários aceitam BTC, existem algumas soluções simples mas eficazes. Por exemplo, comprar cartões de oferta com Bitcoin é uma solução prática, e muitos fornecedores como Bitrefill, Coinsbee, ou The Bitcoin Company oferecem este serviço.
@@ -3077,7 +3075,7 @@ Mesmo depois de adquirir moedas anonimamente, continua a ser possível divulgar 
 - **Etiquetagem dos UTXOs**;
 - Praticar o controlo dos cantos ao **gastar**;
 - Evitar a consolidação de **UTXOs**;
-- Utilização de estruturas de transação que protegem a privacidade: **coinjoins, payjoins, ricochetes e mini-payment coinjoins**...
+- Utilização de estruturas de transação que protegem a privacidade: **[coinjoins](https://planb.academy/resources/glossary/coinjoin), payjoins, ricochetes e mini-payment coinjoins**...
 
 
 Também estão familiarizados com os princípios básicos da vigilância Blockchain e sabem como as empresas rastreiam a atividade. Ao compreenderem a heurística e os padrões utilizados pelas empresas de análise de cadeias, podem tomar medidas activas para evitar cair em armadilhas conhecidas.
@@ -3175,7 +3173,7 @@ Gastar apenas 15 minutos a uma hora num plano de herança pode fazer toda a dife
 ### Os objectivos de um plano de sucessão Bitcoin
 
 
-Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
+Pamela Morgan, no seu livro *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, descreve quatro objectivos fundamentais para um plano de herança sólido:
 
 
 
@@ -3590,7 +3588,7 @@ O Bitcoin é mais do que uma ferramenta financeira; é um movimento. Dependendo 
 - **Junte-se a uma comunidade local**: Participe em eventos, encontros e fóruns para conhecer outros utilizadores de bitcoin e para saber mais sobre os últimos desenvolvimentos.
 
 
-Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores] (https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
+Se quiser ajudar a educar os outros, o Plan ₿ Academy está sempre à procura de colaboradores! Todo o nosso conteúdo educativo é de código aberto e está alojado no GitHub. Convidamos os colaboradores a ajudar a rever e a traduzir os conteúdos para várias línguas; em Exchange para alguns Sats! Quer seja agora ou mais tarde na sua jornada Bitcoin, está convidado a juntar-se ao [nosso grupo de Telegrama para colaboradores](https://t.me/PlanBNetwork_ContentBuilder) do Plan ₿ Academy.
 
 
 ### Palavras finais

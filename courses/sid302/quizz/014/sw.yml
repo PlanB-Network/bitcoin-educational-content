@@ -1,0 +1,8 @@
+question: Ni nini kinachohakikisha kwamba pande zote mbili katika ubadilishaji wa tabaka mbalimbali ama zinakamilisha muamala kwa mafanikio au zote mbili zinashindwa bila kupoteza fedha?
+answer: Kifunguo hicho cha hashi hutumika kwenye mitandao yote miwili, na kuunda uunganishaji wa kriptografia kati ya miguu ya kubadilishana
+wrong_answers:
+  - Muda wa kufunga huzuia upande wowote kudai pesa hadi mitandao yote miwili itakapothibitisha miamala
+  - Muunganisho wa funguo za MuSig2 unahitaji pande zote mbili kusaini pamoja kabla ya fedha zozote kuhamishwa
+  - "Njia ya hati ya Taproot hubadilisha miamala kiotomatiki ikiwa mtandao mmoja utashindwa kukamilika"
+explanation: |
+  Asili ya atomiki ya ubadilishaji wa tabaka mtambuka inategemea kutumia kufuli zinazofanana za hash kwenye mitandao yote miwili. Wakati mpokeaji anapofichua picha ya siri ya kudai fedha kwenye safu moja, siri hiyo hiyo inaonekana na inaweza kutumika na mtumaji kudai fedha za pande zote kwenye safu nyingine. Ufungaji huu wa kriptografia unahakikisha atomiki - pande zote mbili zinapata fedha zao au hakuna anayepata, na hivyo kuondoa hatari ya mwenzake katika ubadilishaji usioaminika.

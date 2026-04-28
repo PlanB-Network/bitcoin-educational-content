@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi thao tác hoán đổi tàu ngầm ngược chiều thất bại hoặc hết thời gian trong kiến trúc SDK Breez?
+answer: Bộ SDK tự động tạo và phát đi giao dịch hoàn tiền để trả lại tiền vào wallet của người dùng.
+wrong_answers:
+  - Nhà cung cấp dịch vụ hoán đổi sẽ tự động khởi động quy trình khôi phục, yêu cầu sự can thiệp của người dùng trong vòng 24 giờ.
+  - Số tiền sẽ bị khóa vĩnh viễn cho đến khi kết nối Lightning Network được khôi phục.
+  - Người dùng phải liên hệ với bộ phận hỗ trợ Boltz để tự động kích hoạt giao dịch federated peg-out.
+explanation: |
+  Bộ SDK Breez triển khai Quản lý Hoàn tiền Tự động như một cơ chế an toàn quan trọng. Khi các giao dịch hoán đổi thất bại hoặc hết thời gian, SDK sẽ giám sát tất cả trạng thái giao dịch và tự động xử lý quy trình khôi phục mà không cần sự can thiệp của người dùng. Điều này giúp đơn giản hóa sự phức tạp của các hợp đồng khóa thời gian và đảm bảo tiền không bao giờ bị mất vĩnh viễn. Các tùy chọn khác không chính xác vì chúng hoặc yêu cầu sự can thiệp thủ công, giả định mất tiền vĩnh viễn, hoặc liên quan đến các quy trình không tồn tại trong hệ thống tự động.

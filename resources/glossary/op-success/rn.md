@@ -1,6 +1,7 @@
 ---
 term: OP_SUCCESS
 
+definition: Opcodes zanditswe muri Tapscript zerekana intsinzi ihita ibaho, zikoreshwa muri soft forks za kazoza.
 ---
 
 `OP_SUCCESS` igereranya urutonde rw'amakode y'ubuhinga bwa none yari yarazimijwe kera kandi ubu akaba yarabitswe kugira ngo akoreshwe muri Tapscript muri kazoza. Intumbero yabo nyamukuru ni ugufasha mu guhindura no kwagura ururimi rw’inyandiko, mu kwemera ko hashirwaho ibikorwa bishasha biciye ku maforogo yoroshe. Iyo imwe muri izo opcodes ihuye n’inyandiko, yerekana ko ico gice c’inyandiko kizororanirwa, ata kuraba amakuru canke ibintu biriho. Ivyo bisigura ko iyo nyandiko ikomeza gukora ataco ipfa, ataco ikora ku bikorwa vya kera.

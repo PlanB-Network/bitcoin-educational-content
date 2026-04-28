@@ -1,0 +1,8 @@
+question: Jaký je nejvýznamnější kompromis v oblasti ochrany soukromí při přechodu z vlastní implementace LDK na cloudovou architekturu Breez SDK?
+answer: Společnost Greenlight získává potenciální přehled o místech určení plateb a činnostech generování faktur prostřednictvím směrování v cloudu
+wrong_answers:
+  - "Soukromé klíče jsou uloženy na serverech společnosti Blockstream namísto lokálně v zařízení uživatele."
+  - Informace o stavu kanálu jsou veřejně viditelné v grafu Lightning Network prostřednictvím uzlů Greenlight
+  - Služby LSP nyní mohou sledovat všechny transakce on-chain a propojit je s platebními vzory Lightning
+explanation: |
+  Správná odpověď identifikuje klíčové zhoršení ochrany soukromí: směrování v cloudu umožňuje společnosti Greenlight potenciálně sledovat místa určení plateb, zatímco generování faktur v cloudu rozšiřuje rozsah informací nad rámec toho, co odhalily tradiční architektury založené pouze na LSP. Nesprávné odpovědi jsou nesprávné, protože: soukromé klíče zůstávají pod kontrolou uživatele navzdory cloudové architektuře; stavy kanálů nejsou prostřednictvím směrování veřejně viditelné; a LSP touto změnou architektury nezískávají další možnosti sledování transakcí on-chain.

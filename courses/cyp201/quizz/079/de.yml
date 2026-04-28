@@ -6,3 +6,4 @@ wrong_answers:
   - Vereinfachung der Berechnungen von digitalen Signaturen
 explanation: |
   Deskriptoren umfassen alle notwendigen Informationen, um ein bestimmtes Skript zu verfolgen, einschließlich des Ableitungspfads und der verwendeten Schlüssel, jedoch nicht der Wiederherstellungsphrase.
+reviewed: true

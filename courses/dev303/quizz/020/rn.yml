@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe rikomeye hagati y’uburyo n’ibikorwa bijana mu mibumbe ya Rust?
+answer: Uburyo bufata self nk'ikigereranyo ca mbere, mu gihe ibikorwa bifitaniye isano n'ivyo bidakora
+wrong_answers:
+  - Uburyo ni ubw'abantu bose ku mburabuzi, mu gihe ibikorwa bifitaniye isano n'ivy'ibanga ku mburabuzi
+  - Uburyo bushobora gusoma amakuru gusa, mu gihe ibikorwa bifitaniye isano bishobora guhindura imiterere y'ibibanza
+  - Uburyo bukoresha akadomo mu guhamagara, mu gihe ibikorwa bifitaniye isano bikoresha akamenyetso k'umwampi
+explanation: |
+  Uburyo muri Rust ni ibikorwa bisobanuwe mu gice ca impl bifata uburyo bumwe bumwe bw'ukwigira nk'umurongo wa mbere (ukwi, &kwi, canke &mut kwi), bikaba bituma bikora ku nkuru z'imiterere. Ibikorwa bifitaniye isano navyo bisobanurwa mu bice vya impl ariko ntibifata self nk'umurongo, bikaba bituma bisa n'uburyo buhoraho mu zindi ndimi. Imikorere ifatanye ihamagarwa hakoreshejwe insiguro y'inyuguti zibiri (Ubwoko::izina_ry'imikorere()) kandi ikoreshwa cane nk'inyubako, mu gihe uburyo buhamagarwa ku nkuru hakoreshejwe insiguro y'utudomo. Ayandi mahitamwo ntabwo ari meza kuko uburyo bwompi n’ibikorwa bifitaniye isano bikurikiza amategeko amwe y’ukuboneka, vyose bishobora gutegurwa kugira ngo bihindure canke bisome amakuru bivanye n’ugushirwa mu ngiro kwavyo, kandi ibikorwa bifitaniye isano bikoresha insiguro y’inyuguti zibiri, atari inyuguti z’umwampi.

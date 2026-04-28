@@ -1,0 +1,8 @@
+question: Ưu điểm chính của việc sử dụng lệnh `cargo check` trong quá trình phát triển là gì?
+answer: Nó thực hiện kiểm tra biên dịch nhanh hơn so với quá trình biên dịch hoàn chỉnh mà không tạo ra các tệp thực thi.
+wrong_answers:
+  - Nó tự động sửa lỗi biên dịch và các vấn đề về kiểu mã trong dự án của bạn.
+  - Nó tải xuống và cập nhật tất cả các thành phần phụ thuộc của dự án lên phiên bản mới nhất.
+  - Nó chạy chương trình của bạn kèm theo thông tin gỡ lỗi và báo cáo lỗi chi tiết.
+explanation: |
+  Lệnh `cargo check` được thiết kế để lặp lại quá trình phát triển nhanh chóng bằng cách thực hiện tất cả các kiểm tra biên dịch tương tự như `cargo build` nhưng bỏ qua bước tạo tệp thực thi cuối cùng. Điều này làm cho nó nhanh hơn đáng kể so với việc biên dịch toàn bộ khi bạn chỉ cần xác minh rằng mã của mình biên dịch chính xác. Các câu trả lời sai mô tả chức năng của các công cụ khác: Clippy và các công cụ kiểm tra mã khác có thể đề xuất sửa lỗi nhưng không tự động áp dụng chúng, `cargo update` xử lý việc cập nhật các phụ thuộc và `cargo run` thực thi các chương trình với khả năng gỡ lỗi.

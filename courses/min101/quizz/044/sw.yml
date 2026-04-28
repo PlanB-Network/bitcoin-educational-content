@@ -1,0 +1,9 @@
+question: Ni aina gani ya maunzi (hardware) ambayo uchimbaji ulifanyika zaidi mwanzoni mwa Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Wakati wa uzinduzi, programu iliendeshwa kwenye kompyuta ya kibinafsi na ilitumia zaidi processor.
+reviewed: false

@@ -1,6 +1,7 @@
 ---
 term: PBKDF2
 
+definition: Função para derivar chaves criptográficas a partir de uma palavra-passe através de iterações.
 ---
 pBKDF2 é o acrónimo de *Password-Based Key Derivation Function 2*. É um método para criar chaves criptográficas a partir de uma palavra-passe utilizando uma função de derivação. Toma como entrada uma palavra-passe, um sal criptográfico e aplica iterativamente uma função predeterminada (frequentemente uma função hash como `SHA256` ou um `HMAC`) a estes dados. Este processo é repetido várias vezes para gerar uma chave criptográfica.
 

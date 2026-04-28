@@ -1,0 +1,9 @@
+question: Wann werden die Transaktionen eines Blocks bestätigt?
+answer: Wenn der Block der Blockchain hinzugefügt wird
+wrong_answers:
+  - Wenn die Transaktion vom Miner signiert wird
+  - Wenn die Transaktion vom Node verbreitet wird
+  - Wenn der Miner mit der Suche nach dem Beweis beginnt
+explanation: |
+  Die Bestätigung einer Zahlung auf Bitcoin ist die Folge der Hinzufügung des Blocks, der sie enthält, zur Blockchain.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Wat veroorzaakt de off-by-one bug in OP_CHECKMULTISIG die een extra OP_0 vereist in kale multisig ScriptSigs?
+answer: OP_CHECKMULTISIG verbruikt een extra stackelement naast de verwachte handtekeningen en publieke sleutels
+wrong_answers:
+  - Het verificatieproces van de handtekening heeft een extra byte nodig om ECDSA-validatie goed te laten werken
+  - "Bitcoin's stackimplementatie heeft een grenscontrole die een opvulelement nodig heeft voor geheugenuitlijning"
+  - De multisig drempeltelling begint bij nul in plaats van één, waardoor een offset-plaatshouderwaarde nodig is
+explanation: |
+  De OP_CHECKMULTISIG opcode heeft een implementatie bug waarbij het één item meer uit de stack oproept dan het zou moeten tijdens uitvoering. Dit betekent dat naast de vereiste m handtekeningen en n publieke sleutels, het een extra stackelement verbruikt. Om te voorkomen dat de bewerking mislukt, moet kale multisig ScriptSigs een initiële OP_0 bevatten (die een lege byte-array duwt) om aan dit onverwachte stackverbruik te voldoen. De andere opties beschrijven aannemelijk klinkende technische problemen, maar zijn niet de werkelijke oorzaak van deze bekende Bitcoin gril.

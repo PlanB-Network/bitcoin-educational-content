@@ -1,7 +1,7 @@
 ---
-term: WHITEPAPER
+term: White paper
 
+definition: Dokumen ilmiah oleh Satoshi Nakamoto yang diterbitkan pada tahun 2008 yang menjelaskan prinsip-prinsip dasar Bitcoin.
 ---
 Sebuah laporan atau panduan yang secara ringkas menginformasikan kepada pembaca mengenai sebuah isu yang kompleks. Dalam kasus Bitcoin, hal ini mengacu pada dokumen ilmiah bernama "*Bitcoin: A Peer-to-Peer Electronic Cash System*" yang diterbitkan oleh Satoshi Nakamoto untuk pertama kalinya pada tanggal 31 Oktober 2008. Dokumen ini menguraikan prinsip-prinsip dasar Bitcoin. _White Paper_ yang disajikan saat ini adalah versi kedua yang diterbitkan pada tanggal 24 Maret 2009.
 
-> ► *Dalam bahasa Indonesia, istilah "White Paper" dapat langsung dipakai. Untuk mengunduh White Paper Bitcoin: https://bitcoin.org/bitcoin.pdf.*

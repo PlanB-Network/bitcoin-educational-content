@@ -615,7 +615,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Усъвършенствана защита от проследяване] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Официално ръководство за подобрена защита при проследяване
+- [Усъвършенствана защита от проследяване](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Официално ръководство за подобрена защита при проследяване
 - [Разделяне на държави](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Техническа документация за разделяне на състояния
 - [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Пълна справка за уеб сигурността
 
@@ -627,7 +627,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 - [Wiki и ръководство за инсталиране](https://github.com/arkenfox/user.js/wiki): Пълна документация на проекта Arkenfox
-- [Депозити и освобождавания] (https://github.com/arkenfox/user.js): Изтегляне на файла user.js и проследяване на актуализациите
+- [Депозити и освобождавания](https://github.com/arkenfox/user.js): Изтегляне на файла user.js и проследяване на актуализациите
 
 
 

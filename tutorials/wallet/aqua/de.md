@@ -34,8 +34,8 @@ Das Liquid-Netzwerk basiert auf einer Föderation von Teilnehmern, die aus anerk
 
 Der erste Schritt ist natürlich, die Aqua-App herunterzuladen. Gehe zu deinem App-Store:
 
-- [Für Android] (https://play.google.com/store/apps/details?id=io.aquawallet.android);
-- [Für Apple] (https://apps.apple.com/us/app/aqua-wallet/id6468594241).
+- [Für Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
+- [Für Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
 Für Android-Nutzer besteht auch die Möglichkeit, die Anwendung über die .apk-Datei zu installieren, die auf ihrem GitHub verfügbar ist. (https://github.com/AquaWallet/aqua-wallet/releases).

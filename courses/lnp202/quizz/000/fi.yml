@@ -1,0 +1,9 @@
+question: Mikä on salamakanavan kapasiteetti?
+answer: Lukittu kokonaismäärä
+wrong_answers:
+  - Käytettävissä oleva likviditeetti yhteensä yhteen suuntaan
+  - Enimmäismaksut
+  - Mahdollisten maksujen enimmäismäärä
+explanation: |
+  Kapasiteetti vastaa kanavan multisignaalilähdössä estettyjen sats:n kokonaissummaa.
+reviewed: false

@@ -66,7 +66,7 @@ Her er de anbefalte spesifikasjonene for en jevn og stabil opplevelse med Whonix
 
 
 
-Whonix er tilgjengelig i flere utgaver, avhengig av hva slags miljø du ønsker å bruke det i. For de fleste brukere (Windows, Linux eller MacOs) er VirtualBox-utgaven den enkleste å sette opp. Du kan laste ned avbildningen direkte fra [det offisielle nettstedet] (https://www.whonix.org/wiki/VirtualBox).
+Whonix er tilgjengelig i flere utgaver, avhengig av hva slags miljø du ønsker å bruke det i. For de fleste brukere (Windows, Linux eller MacOs) er VirtualBox-utgaven den enkleste å sette opp. Du kan laste ned avbildningen direkte fra [det offisielle nettstedet](https://www.whonix.org/wiki/VirtualBox).
 
 
 

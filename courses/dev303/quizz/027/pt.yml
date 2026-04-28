@@ -1,0 +1,8 @@
+question: O que é que a sintaxe de atualização da estrutura permite fazer ao criar novas instâncias de estrutura no Rust?
+answer: Criar uma nova instância, especificando apenas os campos alterados e copiando os restantes campos de uma instância existente
+wrong_answers:
+  - Modificar campos de estrutura existentes no local sem criar uma nova instância
+  - Valores predefinidos generate automaticamente para campos não especificados utilizando a caraterística Default
+  - Fundir várias instâncias de estrutura numa única instância combinada
+explanation: |
+  A sintaxe de atualização de struct no Rust permite criar uma nova instância de estrutura especificando apenas os campos que deseja alterar, enquanto copia automaticamente todos os outros campos de uma instância existente. Isso é feito utilizando a sintaxe `..existing_instance`. As outras opções estão incorretas: a sintaxe de atualização de estrutura sempre cria uma nova instância ao invés de modificar as existentes, ela não usa os valores padrão do generate mas copia de instâncias existentes, e trabalha com uma instância de origem ao invés de juntar várias instâncias.

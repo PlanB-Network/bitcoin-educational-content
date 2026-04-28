@@ -1,5 +1,4 @@
 id: bcc52728-4d16-4df3-9498-9831004a1d37
-en_word: HARDWARE WALLET
 related_words:
 original_language: fr
 proofreading:
@@ -7,13 +6,13 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.14
+    reward: 0.13
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -49,7 +48,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -69,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.48
+    reward: 0.51
   - language: ja
     last_contribution_date:
     urgency: 1
@@ -90,49 +89,49 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.42
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.42
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.35
+    reward: 0.34
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.42
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.41
+    reward: 0.42
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.48
+    reward: 0.51

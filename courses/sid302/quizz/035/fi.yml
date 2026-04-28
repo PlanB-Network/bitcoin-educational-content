@@ -1,0 +1,8 @@
+question: Mikä on Breez SDK:n kehittäjän käyttöliittymän kolmivaiheisen Connect, Prepare ja Execute -prosessin ensisijainen tarkoitus?
+answer: Vakioida monimutkaisia rahavirtoja synkronoimalla lompakot, laskemalla kaikki maksut etukäteen ja rakentamalla sitten transaktiot
+wrong_answers:
+  - Luoda redundantteja varmuuskopiointiyhteyksiä useiden swap-palveluntarjoajien välille ennen atomitoimintojen aloittamista
+  - Luoda erilliset salausmerkinnät jokaiselle ketjujen välisiin submarine swap-tapahtumiin osallistuvalle verkolle
+  - Maksun ennakkoilmoitusten validointi aikarajoitettuja sopimuksia vastaan ennen varojen vapauttamista escrow-mekanismeista
+explanation: |
+  Connect, Prepare, Execute -malli yksinkertaistaa kehitystä jakamalla monimutkaiset toiminnot hallittaviin vaiheisiin: Connect alustaa lompakot ja luo valvontayhteydet, Prepare laskee ja näyttää kaikki kustannukset läpinäkyvästi käyttäjille, ja Execute hoitaa varsinaisen transaktion rakentamisen ja lähettämisen. Tämä standardointi abstrahoi vedenalaisten vaihtojen ja ketjujen välisten operaatioiden taustalla olevan monimutkaisuuden, jolloin kehittäjien on helpompi integroida Bitcoin-toiminnallisuutta ilman matalan tason yksityiskohtien hallintaa.

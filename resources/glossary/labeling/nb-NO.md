@@ -1,6 +1,7 @@
 ---
-term: MERKING
+term: Etikettering
 
+definition: Praksis med å tildele merknader til UTXO-er for å forenkle forvaltning av midler og personvern.
 ---
 Praksisen med å tilordne en annotasjon eller etikett til en spesifikk UTXO i en Bitcoin-lommebok. Hvis jeg for eksempel har en UTXO fra et P2P-kjøp på Bisq med Charles, kan jeg merke den som "`Non-KYC Bisq Charles`".
 

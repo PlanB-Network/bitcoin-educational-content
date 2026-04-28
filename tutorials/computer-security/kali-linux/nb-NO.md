@@ -64,7 +64,7 @@ Det er viktig å ta sikkerhetskopi av dataene dine før du installerer på en ek
 
 
 
-- Gå til [kali.org/get-kali] (https://www.kali.org/get-kali/#kali-platforms)
+- Gå til [kali.org/get-kali](https://www.kali.org/get-kali/#kali-platforms)
 - Velg ISO-bildet for applikasjonen din:
   - Install Image** : for PC-installasjon.
   - Virtual Image**: for å installere Kali på VirtualBox eller VMware.
@@ -90,7 +90,7 @@ Du kan bruke flere verktøy, for eksempel Balena Etcher :
 
 
 
-- Last ned og installer [Balena Etcher] (https://etcher.balena.io/).
+- Last ned og installer [Balena Etcher](https://etcher.balena.io/).
 
 
 
@@ -343,7 +343,7 @@ Hvis du bruker **Live**-bildet, vises ikke neste trinn.
 
 
 
-Deretter kan du velge de [metapakkene] (https://www.kali.org/docs/general-use/metapackages/) du ønsker å installere. Standardalternativene vil installere et standard Kali Linux-system, så du trenger ikke å endre noe.
+Deretter kan du velge de [metapakkene](https://www.kali.org/docs/general-use/metapackages/) du ønsker å installere. Standardalternativene vil installere et standard Kali Linux-system, så du trenger ikke å endre noe.
 
 
 
@@ -459,29 +459,30 @@ La oss oppsummere noen grunnleggende Kali Linux-oppgaver i en tabell.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategori** | **Basisoppgave** | **Beskrivelse / Mål** | **Hovedmetode** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Systemnavigasjon** | Åpne terminalen | Få tilgang til Kalis hovedkommandolinje | Klikk på terminalikonet eller bruk `Ctrl + Alt + T` |
+| | Bla gjennom mapper | Bevege seg i systemets mappestruktur | `cd /sti/til/mappe`, `ls` for å liste filer |
+| | Opprette / slette en mappe | Organisere filer | `mkdir mappenavn`, `rm -r mappenavn` |
+| **Filbehandling** | Kopiere / flytte en fil | Manipulere filer i terminalen | `cp fil destinasjon`, `mv fil destinasjon` |
+| | Slette en fil | Frigjøre diskplass | `rm filnavn` |
+| | Vise innholdet i en tekstfil | Lese en fil raskt | `cat fil.txt`, `less fil.txt` |
+| **Systembehandling** | Oppdatere Kali Linux | Installere de nyeste versjonene og sikkerhetsoppdateringene | `sudo apt update && sudo apt full-upgrade -y` |
+| | Installere programvare | Legge til et nytt verktøy eller verktøyprogram | `sudo apt install pakkenavn` |
+| | Slette programvare | Rense systemet | `sudo apt remove pakkenavn` |
+| | Rense unødvendige avhengigheter | Spar diskplass | `sudo apt autoremove` |
+| **Nettverk og internett** | Sjekke nettverkstilkobling | Teste internettilgang | `ping google.com` |
+| | Identifisere IP-adresse | Kjenne din nettverkskonfigurasjon | `ip a` eller `ifconfig` |
+| | Bytte Wi-Fi-nettverk | Koble til et annet tilgangspunkt | Nettverksikon → Velg ønsket Wi-Fi |
+| **Kontoer og tillatelser** | Utføre en administratorkommando | Få midlertidige root-rettigheter | `sudo kommando` |
+| | Opprette en ny bruker | Legge til en lokal konto | `sudo adduser brukernavn` |
+| | Endre et passord | Sikre en konto | `passwd` |
+| **Utseende og komfort** | Bytte bakgrunnsbilde | Personliggjøre skrivebordet | Høyreklikk på skrivebordet → **Skrivebordsinnstillinger** |
+| | Endre tema / ikoner | Forbedre lesbarhet og estetikk | Innstillinger → Utseende / Temaer |
+| **Kali-verktøy** | Åpne verktøy-menyen | Utforske test- og sikkerhetsverktøy | Meny **Programmer → Kali Linux** |
+| | Starte et verktøy (f.eks: nmap, wireshark) | Praktisk oppdagelse av sikkerhetsverktøy | `sudo nmap`, `wireshark`, osv. |
+| **Hjelp og dokumentasjon** | Få hjelp til en kommando | Forstå en kommando før bruk | `man kommando` eller `kommando --help` |
 
 ## Konklusjon
 

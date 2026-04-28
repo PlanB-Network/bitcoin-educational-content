@@ -1,5 +1,5 @@
 ---
-name: Breez - TPV
+name: Breez - POS
 description: Breez facilita el cobro de pagos en bitcoin para su negocio.
 ---
 

@@ -1,0 +1,9 @@
+question: Koja je glavna svrha konfiguracije LND + Tailscale + Zeus?
+answer: Korišćenje mobilnog wallet na vašem Lightning čvoru
+wrong_answers:
+  - Korišćenje skrbničkog wallet bez Lightning čvora
+  - Multipleksiranje više LND čvorova
+  - Mining sats koristeći Umbrel
+explanation: |
+  Cilj je koristiti mobilnu aplikaciju Lightning wallet koja radi u pozadini na vašem sopstvenom čvoru.
+reviewed: false

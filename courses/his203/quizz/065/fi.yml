@@ -1,0 +1,11 @@
+question: Kuinka monta erillistä hakkerointia Bitcoinica-kaupankäyntijärjestelmä koki ennen konkurssin julistamista?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Kolme hakkerointia olivat seuraavat: Linode-tilin hakkerointi, joka aiheutti alustalle 43 554 bitcoinin menetyksen; Rackspace-tilin hakkerointi, joka johti sen
+ 18 574 bitcoinin menetykseen; Mt. Gox -tilin hakkerointi, jonka aikana hakkeri nosti 40 000 bitcoinia ja 40 000 LR-USD. Bitcoinica:n selvitystilaan asettaminen
+ julkistettiin 1. elokuuta 2012.
+reviewed: true

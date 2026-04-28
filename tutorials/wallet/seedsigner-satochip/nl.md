@@ -88,7 +88,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Om je SeedSigner met een Satochip te gebruiken, moet je een alternatieve firmware installeren, anders dan die van de originele SeedSigner, om het lezen van smartcards te ondersteunen. Hiervoor [raad ik aan fork van "**3rdIteration**" te gebruiken] (https://github.com/3rdIteration/seedsigner). Download [de laatste versie van de image](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) die overeenkomt met het Raspberry Pi-model dat je gebruikt.
+Om je SeedSigner met een Satochip te gebruiken, moet je een alternatieve firmware installeren, anders dan die van de originele SeedSigner, om het lezen van smartcards te ondersteunen. Hiervoor [raad ik aan fork van "**3rdIteration**" te gebruiken](https://github.com/3rdIteration/seedsigner). Download [de laatste versie van de image](https://github.com/3rdIteration/seedsigner/releases) (`.zip`) die overeenkomt met het Raspberry Pi-model dat je gebruikt.
 
 
 
@@ -935,4 +935,4 @@ Als deze opstelling je heeft overtuigd, aarzel dan niet om de projecten te steun
 
 - Door uw apparatuur rechtstreeks [op de website van Satochip] te kopen (https://satochip.io/shop/);
 - Door [een donatie te doen aan het SeedSigner project](https://seedsigner.com/donate/);
-- Door u te abonneren op het YouTube-kanaal van [Crypto Guide] (https://www.youtube.com/@CryptoGuide/), dat wordt beheerd door de persoon die de GitHub repository onderhoudt waarin de aangepaste firmware staat die we in deze tutorial hebben gebruikt.
+- Door u te abonneren op het YouTube-kanaal van [Crypto Guide](https://www.youtube.com/@CryptoGuide/), dat wordt beheerd door de persoon die de GitHub repository onderhoudt waarin de aangepaste firmware staat die we in deze tutorial hebben gebruikt.

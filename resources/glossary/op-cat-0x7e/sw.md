@@ -1,5 +1,6 @@
 ---
 term: OP_CAT (0X7E)
+definition: Opcode iliyozimwa inayoruhusu unganishaji wa vipengele viwili vilivyo juu ya rundo.
 ---
 
 Huruhusu muunganisho wa Elements mbili za juu zaidi kwenye rafu (yaani, kuziunganisha mwisho hadi mwisho). Opcode hii imezimwa, na kuifanya isiweze kutumika kwa sasa. Walakini, hivi karibuni imerudi kwenye uangalizi. Baadhi wangependa kuiongeza kwenye Tapscript ili kuwezesha mseto wa vitu kwenye rafu, na hivyo kuboresha uwazi wa lugha hii. Chombo hiki rahisi cha ziada kinaweza kuruhusu:

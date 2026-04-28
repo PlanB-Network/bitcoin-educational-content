@@ -1,0 +1,9 @@
+question: Entre meados de 2010 e meados de 2011, por que fator a dificuldade de mineração foi multiplicada?
+answer: 1000
+wrong_answers:
+  - 100
+  - 500
+  - 50
+explanation: |
+  Ocorreu uma multiplicação por 1.000 nesse período, nomeadamente devido à utilização de GPUs.
+reviewed: false

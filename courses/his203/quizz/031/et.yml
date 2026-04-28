@@ -1,0 +1,9 @@
+question: Milline mining ühistu ületas 2011. aasta suvel lühiajaliselt 50% võrgu hash'i määra?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush'i bassein
+  - GHash.io
+explanation: |
+ OrganOfCorti andmetel oli Deepbit'i mõõdetud hashi määr 5. augustil 52,86%.
+reviewed: true

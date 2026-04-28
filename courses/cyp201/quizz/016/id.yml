@@ -6,4 +6,4 @@ wrong_answers:
   - PBKDF2
 explanation: |
   Skema tanda tangan Schnorr diperkenalkan pada November 2021 dengan pembaruan Taproot.
-ditinjau: false
+reviewed: true

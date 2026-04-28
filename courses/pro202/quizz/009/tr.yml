@@ -1,0 +1,8 @@
+question: Bitcoin'ın secp256k1'i tarafından kullanılan özel eliptik eğri denklemi nedir?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin, sonlu bir alan üzerinde y² = x³ + 7 denklemi ile tanımlanan secp256k1 eğrisini kullanır. Bu özel denklem, kriptografik güvenlik için gerekli olan simetriyi ve doğrusal olmayan davranışı koruduğu için seçilmiştir. 7 katsayısı standartlaştırılmış secp256k1 spesifikasyonunun bir parçasıdır ve onu 1, 3 veya 5 gibi farklı sabitler kullanabilen diğer eliptik eğrilerden ayırır.

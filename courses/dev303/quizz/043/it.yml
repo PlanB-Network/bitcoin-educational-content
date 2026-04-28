@@ -1,0 +1,8 @@
+question: Quale parola chiave viene utilizzata per forzare una chiusura ad assumere la proprietà delle variabili catturate invece di prenderle in prestito?
+answer: muoversi
+wrong_answers:
+  - proprio
+  - cattura
+  - prendere
+explanation: |
+  La parola chiave `move` è usata prima dei parametri della chiusura per forzare la chiusura ad appropriarsi di tutte le variabili catturate dal suo ambiente. Questo è essenziale quando la chiusura potrebbe superare l'ambito in cui le variabili sono state originariamente definite, come nel caso della creazione di thread. Senza `move`, le chiusure di solito catturano con il metodo meno restrittivo (riferimento immutabile, poi riferimento mutabile, poi proprietà), ma `move` annulla questo comportamento automatico per assicurare il trasferimento della proprietà. Le altre opzioni (`own`, `capture`, `take`) non sono parole chiave Rust valide per questo scopo.

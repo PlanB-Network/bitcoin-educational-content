@@ -1,0 +1,8 @@
+question: Tofauti kuu kati ya mbinu na kazi zinazohusiana katika miundo ya Rust ni ipi?
+answer: Mbinu hujichukulia kama kigezo chao cha kwanza, huku kazi zinazohusiana hazichukui
+wrong_answers:
+  - Mbinu ni za umma kwa chaguo-msingi, huku chaguo-msingi zinazohusiana zikiwa za faragha kwa chaguo-msingi
+  - Mbinu zinaweza kusoma data pekee, huku chaguo husika zikiweza kurekebisha sehemu za muundo
+  - Mbinu hutumia nukuu ya nukta kuita, huku kazi zinazohusiana zikitumia nukuu ya mshale
+explanation: |
+  Mbinu katika Rust ni kazi zilizofafanuliwa katika kizuizi cha impl ambazo huchukua umbo fulani la self kama kigezo chao cha kwanza (self, &self, au &mut self), zikiruhusu kufanya kazi katika mifano ya muundo. Kazi zinazohusiana pia hufafanuliwa katika vizuizi vya impl lakini hazichukui self kama kigezo, na kuzifanya zifanane na mbinu tuli katika lugha zingine. Kazi zinazohusiana huitwa kwa kutumia sintaksia ya koloni mbili (Aina::function_name()) na hutumika sana kama wajenzi, huku mbinu zikiitwa katika mifano kwa kutumia nukuu ya nukta. Chaguzi zingine si sahihi kwa sababu mbinu zote mbili na kazi zinazohusiana hufuata sheria sawa za mwonekano, zote mbili zinaweza kubuniwa kurekebisha au kusoma data kulingana na utekelezaji wake, na kazi zinazohusiana hutumia sintaksia ya koloni mbili, sio nukuu ya mshale.

@@ -1,9 +1,9 @@
-question: ¿A qué Layer del modelo OSI pertenece la MAC Address?
-answer: Enlace de datos Layer
+question: ¿A qué capa del modelo OSI pertenece la dirección MAC?
+answer: Capa de Enlace de datos
 wrong_answers:
-  - Aplicación Layer
-  - Transporte Layer
-  - Red Layer
+  - Capa de Aplicación
+  - Capa de Transporte
+  - Capa de Red
 explanation: |
-  El MAC Address opera en el Layer 2 del modelo OSI, conocido como "enlace de datos Layer", donde se utiliza para el direccionamiento por hardware de las tramas.
-reviewed: false
+  La dirección MAC opera en la capa 2 del modelo OSI, conocido como "Capa de Enlace de datos", donde se utiliza para el direccionamiento por hardware de las tramas.
+reviewed: true

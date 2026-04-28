@@ -100,11 +100,11 @@ Aby Manjaro działało optymalnie, komputer musi spełniać kilka minimalnych wy
 
 
 
-Aby pobrać plik, przejdź do [oficjalnej strony Manjaro] (https://manjaro.org/) i wybierz edycję, która najlepiej odpowiada Twoim potrzebom. Po pobraniu pliku należy utworzyć bootowalny klucz USB z obrazem ISO Manjaro.
+Aby pobrać plik, przejdź do [oficjalnej strony Manjaro](https://manjaro.org/) i wybierz edycję, która najlepiej odpowiada Twoim potrzebom. Po pobraniu pliku należy utworzyć bootowalny klucz USB z obrazem ISO Manjaro.
 
 
 
-Następnie przejdź do strony oprogramowania [Rufus] (https://rufus.ie/fr/) i pobierz je. Uruchom program, podłącz klucz USB, wybierz obraz ISO Manjaro i rozpocznij flashowanie. Poczekaj na zakończenie procesu przed wyjęciem klucza. Następnie można ponownie uruchomić komputer.
+Następnie przejdź do strony oprogramowania [Rufus](https://rufus.ie/fr/) i pobierz je. Uruchom program, podłącz klucz USB, wybierz obraz ISO Manjaro i rozpocznij flashowanie. Poczekaj na zakończenie procesu przed wyjęciem klucza. Następnie można ponownie uruchomić komputer.
 
 
 

@@ -1,5 +1,6 @@
 ---
-term: GEÇERLİ OLDUĞUNU VARSAYIN
+term: Assume valid
+definition: Belirli bir noktadan önceki bloklar için imza doğrulamasını atlamaya izin veren ve ilk senkronizasyonu hızlandıran Bitcoin Core parametresi.
 ---
 
 Çoğunluk istemcisi Bitcoin core'daki yapılandırma parametresi, yeni başlatılmış (ancak henüz IBD'yi gerçekleştirmemiş) bir düğümün belirli bir bloktan önceki bloklarda yer alan tüm işlemler için imzaların doğrulanmasını atlamasına izin verir. Bu ünlü blok, başlığının, yani Hash'inin damgası ile tanımlanır. Seçilen blok Bitcoin core'ın her yeni versiyonu ile yenilenir. Başlangıçta, düğüm bu parametreyi etkinleştirmişse, bu nedenle en fazla birikmiş işe sahip dalı bulmak için blok başlığı zincirini kontrol edecektir. Düğüm, seçtiği dalda Çekirdek tarafından sağlanan Hash'i tespit ederse, önceki bloklar için imzaların doğrulanmasını atlayacaktır. Aksi takdirde, düğüm her şeyi kendi başına doğrulamak için geleneksel bir senkronizasyon (IBD) ile devam edecektir.

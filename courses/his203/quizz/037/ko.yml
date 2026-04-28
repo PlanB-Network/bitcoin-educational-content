@@ -1,0 +1,11 @@
+question: 2011년에 블라디미르 반 데어 란이 메인 소프트웨어용으로 개발한 그래픽 인터페이스의 이름은 무엇인가요?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Bitcoin 코어
+explanation: |
+ Bitcoin-Qt는 Bitcoin의 그래픽 인터페이스를 완전히 개편한 것입니다. 2011년 6월부터 개발되어 버전 0.5의 기본 소프트웨어에 통합되었습니다,
+ 11월 21일에 출시되었습니다. Qt 그래픽 프레임워크에 기반하여 원래 Satoshi에서 사용하던 wxWindows 라이브러리를 대체했습니다. 이 소프트웨어는 환유적 의미로
+ Bitcoin-Qt라고 불렀습니다.
+reviewed: true

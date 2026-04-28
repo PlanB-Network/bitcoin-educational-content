@@ -1,0 +1,9 @@
+question: Hva kalles den delte offentlige protokollen der historikken over bitcoin-betalinger skrives?
+answer: Blockchainen
+wrong_answers:
+  - Mempoolen
+  - Lommeboken (wallet)
+  - Hashrate
+explanation: |
+  Den delte offentlige boken som inneholder alle transaksjoner er blockchainen.
+reviewed: false

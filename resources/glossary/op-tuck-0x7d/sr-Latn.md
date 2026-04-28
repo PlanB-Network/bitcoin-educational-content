@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition: Opcode koji kopira vrh stack-a i umeće ga na treću poziciju.
 ---
 
 Kopira stavku sa vrha steka i umeće je između druge i treće stavke steka. Na primer, ako je stek:

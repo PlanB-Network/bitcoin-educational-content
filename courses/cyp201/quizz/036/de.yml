@@ -1,9 +1,9 @@
-question: Was ermöglicht Ihnen ein HD-Wallet im Vergleich zu einem JBOK-Wallet?
+question: Was ermöglicht dir eine HD-Wallet im Vergleich zu einer JBOK-Wallet?
 answer: Alle privaten Schlüssel aus einem einzigen Seed generieren
 wrong_answers:
-  - Die Sicherheit digitaler Signaturen erhöhen
-  - Die gleiche Adresse für mehrere Transaktionen wiederverwenden
-  - Die Verwendung von öffentlichen Schlüsseln komplett vermeiden
+  - Die Sicherheit digitaler Signaturen zu erhöhen
+  - Die gleiche Adresse für mehrere Transaktionen wiederzuverwenden
+  - Die Verwendung von öffentlichen Schlüsseln komplett zu vermeiden
 explanation: |
   HD-Wallets leiten alle privaten Schlüssel von einem einzigartigen Seed ab, was das Backup vereinfacht und indirekt die Privatsphäre verbessert.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Operasi matematika apa yang digunakan untuk menemukan titik P + Q pada kurva elips?
+answer: Tarik garis melalui titik P dan Q, temukan titik perpotongan ketiga R, lalu refleksikan R pada sumbu x
+wrong_answers:
+  - Tambahkan koordinat x dan koordinat y dari P dan Q secara langsung menggunakan aritmatika modular
+  - Kalikan koordinat P dan Q bersama-sama dan terapkan persamaan kurva untuk menemukan hasilnya
+  - Hitung titik tengah antara P dan Q dan kemudian terapkan metode garis singgung untuk mendapatkan jumlahnya
+explanation: |
+  Penjumlahan titik kurva elips mengikuti aturan geometris tertentu: tarik garis melalui dua titik P dan Q, yang memotong kurva pada titik ketiga R, kemudian refleksikan R pada sumbu x untuk mendapatkan P + Q. Operasi geometris ini menjadi aljabar ketika bekerja pada bidang terbatas namun tetap menggunakan prinsip dasar yang sama. Pilihan lainnya menggambarkan metode yang salah yang tidak mengikuti hukum grup yang telah ditetapkan untuk kurva elips.

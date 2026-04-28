@@ -1,0 +1,9 @@
+question: Que passo se segue imediatamente à publicação de um pedido NWC pela aplicação móvel num relé?
+answer: O nó desencripta e verifica a autorização
+wrong_answers:
+  - O retransmissor assina o pedido para o nó
+  - O relé executa o pagamento no LND
+  - O nó abre um canal automaticamente
+explanation: |
+  O nó lê o evento, desencripta-o e verifica se o autor está autorizado antes de executar a ação.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ISOZO
+term: Outpoint
+definition: Icegeranyo ciharije kuri UTXO, kigizwe na txid n'indero y'aho isohokera.
 ---
 
 Igiharuro kidasanzwe c’umusaruro w’ibikorwa bitakoreshejwe (UTXO). Igizwe n’ibice bibiri Elements:

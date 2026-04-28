@@ -102,7 +102,7 @@ Elk van deze pakketjes vertegenwoordigt een binair getal dat vervolgens wordt om
 ![mnemonic](assets/notext/5.webp)
 
 
-Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
+Tenslotte vertelt het getal in decimaal ons de positie van het corresponderende woord in [de lijst van 2048 BIP39 woorden](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf). We hoeven alleen nog maar deze woorden te selecteren om de herstelzin voor onze Wallet samen te stellen.
 
 
 ![mnemonic](assets/notext/6.webp)
@@ -144,11 +144,11 @@ Om deze reden raad ik het maken van een handmatige zin voor een echte Wallet ste
 
 Om de checksum te berekenen en toch zo min mogelijk sporen achter te laten, gebruiken we een amnesische Linux distributie vanaf een verwisselbare schijf genaamd **Tails**. Dit besturingssysteem start op vanaf een USB-stick en werkt volledig op het RAM van de computer, zonder interactie met de Hard schijf. In theorie laat het dus geen sporen achter op de computer nadat deze is uitgeschakeld. Houd er rekening mee dat Tails alleen compatibel is met processoren van het type x86_64 en niet met processoren van het type ARM.
 
-Om te beginnen [download het Tails-image van de officiële website] (https://tails.net/install/index.fr.html) vanaf je gewone computer. Controleer de authenticiteit van je download door de handtekening van de ontwikkelaar of de verificatietool van de site te gebruiken.
+Om te beginnen [download het Tails-image van de officiële website](https://tails.net/install/index.fr.html) vanaf je gewone computer. Controleer de authenticiteit van je download door de handtekening van de ontwikkelaar of de verificatietool van de site te gebruiken.
 
 ![mnemonic](assets/notext/10.webp)
 
-Formatteer eerst je USB-stick en installeer vervolgens Tails met een tool zoals [Balena Etcher] (https://etcher.balena.io/).
+Formatteer eerst je USB-stick en installeer vervolgens Tails met een tool zoals [Balena Etcher](https://etcher.balena.io/).
 
 ![mnemonic](assets/notext/11.webp)
 

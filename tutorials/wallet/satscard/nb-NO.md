@@ -30,7 +30,7 @@ Du trenger også en telefon som er kompatibel med NFC-kommunikasjon, eller en US
 
 Når du har mottatt Satscardet ditt, er det første du bør gjøre å sjekke emballasjen for å forsikre deg om at den ikke har blitt åpnet. Hvis pakken er skadet, kan det tyde på at kortet har blitt kompromittert og kanskje ikke er autentisk.
 
-For å administrere Satscard bruker vi mobilapplikasjonen **Nunchuk Wallet**. Sørg for at smarttelefonen din er NFC-kompatibel, og last ned Nunchuk fra [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [`.apk`-filen] (https://github.com/nunchuk-io/nunchuk-android/releases).
+For å administrere Satscard bruker vi mobilapplikasjonen **Nunchuk Wallet**. Sørg for at smarttelefonen din er NFC-kompatibel, og last ned Nunchuk fra [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [`.apk`-filen](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 ![SATSCARD](assets/notext/02.webp)
 

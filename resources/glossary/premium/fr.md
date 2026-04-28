@@ -1,5 +1,6 @@
 ---
-term: PREMIUM
+term: Premium
+definition: Montant supplémentaire payé au-dessus du prix standard d'un actif comme le bitcoin.
 ---
 
 Montant supplémentaire payé au-dessus du prix standard ou nominal d'un actif. Dans le contexte de Bitcoin, un premium peut être observé lors des achats, notamment sur les plateformes d'échange, qui peuvent parfois utiliser cette technique pour faire leurs marges sur le service de courtage.

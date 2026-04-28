@@ -1,0 +1,8 @@
+question: Millise skripti peab sighash-arvutamisel kasutama P2SH sisendi allkirjade genereerimisel tehingu koostamise ajal?
+answer: ScriptPubKey asemel tuleb kasutada lunastusskripti
+wrong_answers:
+  - Otseselt tuleb kasutada algset scriptPubKey'd, mis sisaldab hash'i
+  - Tuleb kasutada nii scriptPubKey kui ka redeem script'i kombinatsiooni
+  - Selle asemel tuleb kasutada avamisandmeid sisaldavat ScriptSig'i
+explanation: |
+  P2SH allkirja genereerimise ajal nõuab sighash-protsess scriptPubKey asemel redeem-skripti kasutamist. See on oluline, sest scriptPubKey sisaldab ainult lunastusskripti hashi, mitte tegelikke kulutustingimusi. RedeemSkript sisaldab tegelikku loogikat (näiteks multisig nõuete), mis määrab, kuidas väljundit saab kulutada, nii et allkirjad tuleb luua selle aluseks oleva skripti vastu, et need oleksid kehtivad. ScriptPubKey otsene kasutamine ebaõnnestuks, sest see sisaldab ainult hash-võrdlust, mitte tegelikke kulutamistingimusi, mis peavad olema täidetud.

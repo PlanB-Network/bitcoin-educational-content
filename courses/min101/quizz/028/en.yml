@@ -1,0 +1,9 @@
+question: What does the block subsidy correspond to?
+answer: Monetary creation
+wrong_answers:
+  - Transaction fees
+  - User deposit
+  - Spam penalty
+explanation: |
+  The subsidy is the part of the reward that creates new bitcoins ex nihilo according to the protocol rules.
+reviewed: true

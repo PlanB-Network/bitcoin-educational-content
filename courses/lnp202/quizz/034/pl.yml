@@ -1,0 +1,9 @@
+question: Które z tych kryteriów jest najważniejsze dla łączności równorzędnej?
+answer: Centralna pozycja na wykresie
+wrong_answers:
+  - Nazwa węzła w wykresie
+  - Kolor węzła na wykresie
+  - Liczba wiadomości na wykresie
+explanation: |
+  Dobrze umiejscowiony węzeł w grafie Lightning ułatwia routing do wielu miejsc docelowych.
+reviewed: false

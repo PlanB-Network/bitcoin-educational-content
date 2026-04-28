@@ -1,0 +1,8 @@
+question: O que garante que ambas as partes num swap entre camadas completem com êxito a transação ou que ambas falhem sem perder fundos?
+answer: O mesmo cadeado de hash é utilizado em ambas as redes, criando uma ligação criptográfica entre os percursos de troca
+wrong_answers:
+  - Os bloqueios de tempo impedem qualquer uma das partes de reclamar fundos até que ambas as redes confirmem as transacções
+  - A agregação de chaves MuSig2 exige que ambas as partes assinem em conjunto antes de poderem ser movimentados quaisquer fundos
+  - "O caminho do script do Taproot inverte automaticamente as transacções se uma rede não for concluída"
+explanation: |
+  A natureza atómica das trocas entre camadas baseia-se na utilização de bloqueios de hash idênticos em ambas as redes. Quando o recetor revela a pré-imagem secreta para reclamar fundos numa camada, esse mesmo segredo torna-se visível e utilizável pelo remetente para reclamar fundos recíprocos na outra camada. Esta ligação criptográfica garante a atomicidade - ou ambas as partes recebem os seus fundos ou nenhuma, eliminando o risco de contraparte em trocas sem confiança.

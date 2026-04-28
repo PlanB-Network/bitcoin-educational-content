@@ -24,7 +24,7 @@ Om te controleren of jouw taal al een van de talen is waar we aan werken.
 
 
 
-- Ga naar [ons Weblate platform] (https://weblate.planb.network/projects/planb-network-website/):
+- Ga naar [ons Weblate platform](https://weblate.planb.network/projects/planb-network-website/):
 
 ![language](assets/01.webp)
 
@@ -61,7 +61,7 @@ Als je taal er niet bij staat, volg dan de onderstaande handleiding om deze toe 
 ![language](assets/04.webp)
 
 
-- Open de vervolgkeuzelijst en selecteer de taal die je wilt toevoegen. Als de taal die je zoekt niet beschikbaar is in de vervolgkeuzelijst, kun je contact opnemen met de [Telegram-groep] (https://t.me/PlanBNetwork_ContentBuilder) zodat ons team deze handmatig kan aanmaken:
+- Open de vervolgkeuzelijst en selecteer de taal die je wilt toevoegen. Als de taal die je zoekt niet beschikbaar is in de vervolgkeuzelijst, kun je contact opnemen met de [Telegram-groep](https://t.me/PlanBNetwork_ContentBuilder) zodat ons team deze handmatig kan aanmaken:
 
 ![language](assets/05.webp)
 

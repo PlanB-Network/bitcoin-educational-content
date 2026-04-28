@@ -1,5 +1,6 @@
 ---
-term: GERIYE DÖNÜK UYUMLULUK
+term: Geriye dönük uyumluluk
+definition: Bir protokol güncellemesinin eski sürümlerle uyumlu kalabilme yeteneği, eski düğümlerin ağda çalışmaya devam etmesine olanak tanır.
 ---
 
 Bir protokol kuralları güncellemesinin önceki sürümlerle uyumluluğu sürdürme yeteneğini ifade eder. Bu, değişikliklerin eski düğümlerin (kural değişikliğinden önceki sürümleri çalıştıran düğümler) hala ağ ile etkileşime girebileceği ve en çok iş birikmiş zinciri takip edebileceği şekilde tasarlandığı anlamına gelir. Bu nedenle, eski düğümlerin ne yeni blokları ne de yeni işlemleri reddetmemesi esastır. Geriye dönük uyumluluk, bir güncellemenin ağı parçalama olasılığını önemli ölçüde azaltır ve böylece düğümlerin farklı zincirler üzerinde alt gruplara bölünmesini önler. Protokolün önceki sürümleriyle uyumluluğu sağlamak için, bir güncelleme mevcut kuralları daha katı hale getirmeli veya yenilerini eklemelidir. Bu ilke bir "Soft Fork" tanımlar. Tersine, eğer bir güncelleme mevcut kuralları gevşetir veya bazılarını ortadan kaldırırsa, o zaman geriye dönük uyumlu olmayacaktır. Bu bir "Hard Fork" olacaktır.

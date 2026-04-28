@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto หายตัวไปเมื่อไหร่?
+answer: ในปี 2010
+wrong_answers:
+  - ในปี 2008
+  - ในปี 2009
+  - ในปี 2023
+explanation: |
+  Satoshi นากาโมโตะหายตัวไปในปี 2010 ทิ้งผลงานของเขาไว้ในมือของชุมชน
+reviewed: true

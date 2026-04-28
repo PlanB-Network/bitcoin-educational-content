@@ -7,7 +7,7 @@ topic: bitcoin
 
 # subtopic
 # Depends on the chosen topic. Subtopics for Bitcoin are limited to just Bitcoin
-# For other topics, refer to https: //github.com/orgs/DecouvreBitcoin/projects/3/views/7
+# For other topics, refer to https://github.com/orgs/DecouvreBitcoin/projects/3/views/7
 subtopic: bitcoin
 
 # type
@@ -43,34 +43,35 @@ published_at: 2023-04-29
 original_language: en
 proofreading:
   - language: cs
-    last_contribution_date:
+    last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
-    reward: 22.03
+      - commitzs
+    reward: 14.68
   - language: de
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - reneplass
-    reward: 8.28
+    reward: 9.8
   - language: en
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Ncfab
-    reward: 8.28
+    reward: 9.8
   - language: es
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 8.28
+    reward: 9.8
   - language: fi
     last_contribution_date: 2024-04-02
     urgency: 1
     contributor_names:
       - KryptoKeskus
-    reward: 11.02
+    reward: 14.68
   - language: fr
     last_contribution_date: 2025-10-31
     urgency: 1
@@ -85,128 +86,135 @@ proofreading:
     contributor_names:
       - TinF0ilHat1
       - f205sats
-    reward: 4.14
+    reward: 0
   - language: ja
-    last_contribution_date: 2023-12-03
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 16.5
+      - yuka21-cmyk
+    reward: 0
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.55
+    reward: 19.6
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 11.02
+    reward: 14.68
   - language: vi
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Henry-Da0
       - Anh-La
-    reward: 8.25
+    reward: 0
   - language: et
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - taneltheplanet
-    reward: 11.02
+    reward: 14.68
   - language: id
-    last_contribution_date: 2025-05-14
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
       - AraleB
       - bitcoinindo21
-    reward: 6.88
+      - rudyhow
+    reward: 0
   - language: zh-Hans
     last_contribution_date: 2024-09-24
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 13.76
+    reward: 19.55
   - language: nb-NO
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - Rtbit
-    reward: 11.02
+    reward: 14.68
   - language: pl
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 11.02
+    reward: 14.68
   - language: hi
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - e-manuel7
-    reward: 19.24
+    reward: 24.43
   - language: sr-Latn
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 11.02
+    reward: 19.55
   - language: sw
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - monyangi10
       - Arianebtc
-    reward: 5.51
+    reward: 0
   - language: zh-Hant
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Showyuan
-    reward: 13.76
+    reward: 19.55
   - language: fa
     last_contribution_date: 2025-05-24
     urgency: 1
     contributor_names:
       - Arshia-r-m
-    reward: 11.02
+    reward: 14.68
   - language: sv
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Petrahodl
-    reward: 8.28
+    reward: 9.8
   - language: nl
     last_contribution_date: 2025-08-24
     urgency: 1
     contributor_names:
       - rogerbracket
-    reward: 11.02
+    reward: 14.68
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 27.52
+    reward: 39.11
   - language: ko
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - my3rdstory
-    reward: 13.76
+    reward: 19.55
   - language: rn
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - barakana
-    reward: 16.5
+    reward: 24.43
   - language: bg
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - dnabg
-    reward: 11.02
+    reward: 14.68
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 39.11
 tags:
   - user-friendly
   - wallets

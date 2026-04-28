@@ -1,5 +1,6 @@
 ---
-term: POTWIERDZENIE
+term: Potwierdzenie
+definition: Liczba bloków wydobytych po bloku zawierającym transakcję, wskazująca na jej poziom bezpieczeństwa i niezmienności.
 ---
 
 Odnosi się do liczby bloków, dla których transakcja korzysta z ich bezpieczeństwa. Gdy transakcja jest transmitowana do sieci Bitcoin, najpierw pozostaje oczekująca w mempoolach węzłów. Następnie jest dołączana do ważnego bloku przez Miner. Na tym etapie transakcja została właśnie dodana do Blockchain, dzięki czemu korzysta z pierwszego potwierdzenia. Gdy nowy blok zostanie znaleziony na szczycie bloku zawierającego daną transakcję, otrzyma drugie potwierdzenie i tak dalej. Każdy nowy blok wydobyty na wierzchu bloku zawierającego transakcję stanowi nowe potwierdzenie. Zliczając liczbę potwierdzeń dla transakcji, możemy oszacować ryzyko, że może ona zostać ostatecznie anulowana z powodu reorganizacji. Liczba potwierdzeń pozwala nam ocenić poziom niezmienności transakcji na Blockchain.

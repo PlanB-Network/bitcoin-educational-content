@@ -1,0 +1,8 @@
+question: Hva kan du gjøre med struct update-syntaksen når du oppretter nye strukturinstanser i Rust?
+answer: Opprett en ny forekomst ved å spesifisere kun endrede felt og kopiere de resterende feltene fra en eksisterende forekomst
+wrong_answers:
+  - Endre eksisterende strukturfelt på plass uten å opprette en ny instans
+  - Automatisk generate-standardverdier for uspesifiserte felt ved hjelp av egenskapen Standard
+  - Slå sammen flere strukturforekomster til én kombinert forekomst
+explanation: |
+  Med struct update-syntaksen i Rust kan du opprette en ny strukturforekomst ved å spesifisere bare de feltene du vil endre, mens du automatisk kopierer alle andre felt fra en eksisterende forekomst. Dette gjøres ved hjelp av syntaksen `..existing_instance`. De andre alternativene er feil: struct update-syntaksen oppretter alltid en ny instans i stedet for å endre eksisterende instanser, den bruker ikke generate-standardverdier, men kopierer fra eksisterende instanser, og den fungerer med én kildeinstans i stedet for å slå sammen flere instanser.

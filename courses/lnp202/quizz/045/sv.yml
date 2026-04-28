@@ -1,0 +1,9 @@
+question: Varför kan inte en Lightning-nodoperatör förlita sig på sina egna betalningar för att generate inkommande likviditet?
+answer: Mestadels inkommande flöden
+wrong_answers:
+  - Främst utgående flöden
+  - Kanalerna är för små
+  - Höga avgifter på kedjan
+explanation: |
+  Genom att ta ut pengar utan att spendera flyttar handlaren inte naturligt likviditet från sina kanaler.
+reviewed: false

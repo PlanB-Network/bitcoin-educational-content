@@ -1,6 +1,7 @@
 ---
-term: YLLÄPITÄJÄ (YDIN)
+term: Ylläpitäjä (core)
 
+definition: Henkilöt, jotka vastaavat Bitcoin Core -projektin hallinnasta ja koodimuutosten yhdistämisestä.
 ---
 Bitcoin Core -projektissa, joka on Bitcoin-verkon solmujen pääasiallinen toteutus, ylläpitäjät ovat henkilöitä, joiden tehtävänä on hallinnoida projektia. He kantavat vastuun sen toteutuksesta. He vastaavat Bitcoin Core GitHub -tietovaraston moderoinnista ja uusien versioiden julkaisuaikataulun asettamisesta. He ovat ensisijaisesti vastuussa osallistujien ehdottamien vetoomusten (PR) yhdistämisestä.
 

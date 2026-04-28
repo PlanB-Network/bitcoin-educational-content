@@ -1,0 +1,8 @@
+question: Ni nini kinachotofautisha kazi halali za serikali na kazi zake za vimelea kulingana na uchambuzi uliowasilishwa?
+answer: Kazi halali hulinda haki za mtu binafsi bila kuingilia kati, huku kazi za vimelea zikichukua nafasi ya mikataba ya hiari na kanuni za utawala.
+wrong_answers:
+  - Kazi halali zinahusisha uingiliaji kati wa moja kwa moja wa kiuchumi, huku kazi za vimelea zikizingatia tu kudumisha utulivu na usalama wa umma
+  - Kazi halali zinahitaji idhini ya walio wengi kupitia michakato ya kidemokrasia, huku kazi za vimelea zikiwekwa na watendaji wasiochaguliwa
+  - Kazi halali za generate mapato kwa serikali, huku kazi za vimelea zikiondoa rasilimali za umma bila kutoa faida zinazopimika
+explanation: |
+  Maandishi yanatofautisha wazi kati ya kile kinachoitwa 'maelezo hasi' ya serikali (kazi halali) zinazolinda mali, uhuru, na usalama bila kuingilia kati katika mabadilishano ya hiari, dhidi ya 'maelezo chanya' (kazi za vimelea) zinazozuia, kuzuia, na kudhibiti shughuli za mtu binafsi kupitia sheria za kiutawala zinazochukua nafasi ya mikataba na mabadilishano yaliyokubaliwa kwa uhuru. Kazi halali huanzisha mfumo wa mahusiano ya hiari, huku kazi za vimelea zikibadilisha maamuzi ya kisiasa kwa chaguo la mtu binafsi na uhuru wa kimkataba.

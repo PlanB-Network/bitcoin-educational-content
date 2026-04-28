@@ -1,0 +1,8 @@
+question: Mitä perustavanlaatuisia kompromisseja sijoittajien on hyväksyttävä osallistuessaan Blockstream AMP-varallisuusekosysteemeihin verrattuna tavanomaisiin Liquid Network-tapahtumiin?
+answer: Täydellinen näkyvyys omaisuuserien liikkeeseenlaskijalle omistuksista ja transaktiohistoriasta huolimatta yksityisyyden säilyttämisestä muilta käyttäjiltä
+wrong_answers:
+  - Korkeammat transaktiomaksut, jotka johtuvat lisälaskentakustannuksista, joita yhteislupamekanismien allekirjoittaminen edellyttää
+  - Transaktioiden nopeus vähenee, koska kaikki siirrot on validoitava keskitettyjen vaatimustenmukaisuuspalvelimien kautta ennen vahvistusta
+  - Rajoitettu varojen siirrettävyys, koska AMP-tokeneita voi lähettää vain ennalta hyväksyttyihin lompakoihin saman sääntelyalueen sisällä
+explanation: |
+  Oikea vastaus tunnistaa AMP:n keskeisen yksityisyyden suojaa koskevan kompromissin: vaikka Confidential Transactions säilyttää käyttäjien välisen yksityisyyden suojan, AMP-varat mahdollistavat liikkeeseenlaskijoille täydellisen unblinded-näkyvyyden sääntelyn noudattamiseksi. Väärät vastaukset kuvaavat pikemminkin toiminnallisia rajoituksia (maksut, nopeus, siirrettävyys) kuin perustavanlaatuista avoimuuskompromissia, joka erottaa AMP:n Liquid-standardin täysin luottamuksellisesta mallista.

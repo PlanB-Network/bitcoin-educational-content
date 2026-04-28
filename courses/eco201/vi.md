@@ -54,7 +54,7 @@ Nếu chìa khóa để hiểu nền kinh tế hiện tại nằm trong một l�
 
 ### Cách tiền được tạo ra
 
-Trong hệ thống tiền tệ ngày nay, tiền chủ yếu được tạo ra thông qua một thực hành của hệ thống ngân hàng được gọi là "ngân hàng dự trữ một phần". Thuật ngữ này cơ bản có nghĩa là các ngân hàng không bị yêu cầu phải dự trữ toàn bộ số tiền mà họ nhận được dưới dạng tiền gửi. Do đó, họ có thể tạo ra sức mua mới khi cấp các khoản vay và ngược lại, làm giảm sức mua khi khách hàng trả nợ.
+Trong hệ thống tiền tệ ngày nay, tiền chủ yếu được tạo ra thông qua một thực hành của hệ thống ngân hàng được gọi là "[ngân hàng dự trữ một phần](https://planb.academy/resources/glossary/fractional-reserves)". Thuật ngữ này cơ bản có nghĩa là các ngân hàng không bị yêu cầu phải dự trữ toàn bộ số tiền mà họ nhận được dưới dạng tiền gửi. Do đó, họ có thể tạo ra sức mua mới khi cấp các khoản vay và ngược lại, làm giảm sức mua khi khách hàng trả nợ.
 
 Ví dụ, nếu bạn đến ngân hàng địa phương để vay một khoản tiền mua nhà, số tiền mà ngân hàng cho bạn vay sẽ xuất hiện dưới dạng một bút toán kế toán. Trong kế toán, chúng ta thường biểu diễn tài sản ròng của một cá nhân bằng một bảng cân đối kế toán, có hai mặt: mặt tài sản, bao gồm bất động sản, hợp đồng tài chính, hàng tồn kho, hoặc các hình thức tài sản khác thuộc sở hữu, và mặt nợ phải trả, hiển thị nguồn vốn được sử dụng để tạo ra tài sản được liệt kê bên cột tài sản. Sự khác biệt giữa tài sản và nợ phải trả được gọi là "vốn chủ sở hữu" và có thể được coi là tài sản ròng của thực thể đó.
 
@@ -70,7 +70,7 @@ Hình 1: Tạo ra tiền như các bút toán kế toán
 >
 > Henry Ford
 
-Quy trình này cho phép các ngân hàng ghi lại tất cả các giao dịch, bao gồm chuyển khoản, mua hàng bằng thẻ tín dụng, và séc, trong một khoảng thời gian nhất định (thường là một tuần hoặc một tháng). Sau đó, họ tất toán các giao dịch này với nhau bằng cách sử dụng dự trữ ngân hàng, là một hình thức tiền pháp định khác không bao giờ được công chúng sử dụng. Dự trữ ngân hàng được giữ tại ngân hàng trung ương trong một tài khoản đặc biệt chỉ có thể truy cập bởi các ngân hàng và các tổ chức tài chính có giấy phép.
+Quy trình này cho phép các ngân hàng ghi lại tất cả các giao dịch, bao gồm chuyển khoản, mua hàng bằng thẻ tín dụng, và séc, trong một khoảng thời gian nhất định (thường là một tuần hoặc một tháng). Sau đó, họ tất toán các giao dịch này với nhau bằng cách sử dụng dự trữ ngân hàng, là một hình thức [tiền pháp định](https://planb.academy/resources/glossary/fiat) khác không bao giờ được công chúng sử dụng. Dự trữ ngân hàng được giữ tại ngân hàng trung ương trong một tài khoản đặc biệt chỉ có thể truy cập bởi các ngân hàng và các tổ chức tài chính có giấy phép.
 
 ### Sự thiếu ổn định của hệ thống ngân hàng dự trữ một phần và Người cho vay cuối
 
@@ -119,7 +119,7 @@ Một hậu quả không mong muốn khác của ZIRP là nó khuyến khích ch
 
 Hình 6: Nợ công & Nợ tư nhân tính theo % GDP (Thế giới, tính theo GDP mỗi quốc gia) / Nguồn IMF
 
-Với lạm phát tăng do việc "in tiền" ồ ạt để ứng phó với các biện pháp phong tỏa liên quan đến COVID, các ngân hàng trung ương hiện đang tăng lãi suất chính sách trong nỗ lực kiềm chế lạm phát. Tuy nhiên, điều này đặt ra một thách thức đáng kể cho toàn bộ hệ thống. Ngân hàng đang có mức nợ cao hơn bao giờ hết, chính phủ cũng mang mức nợ cao lịch sử, tăng trưởng kinh tế trì trệ, thâm hụt ngân sách tăng lên, và người tiêu dùng, đang vật lộn với sự tăng giá của các hàng hóa thiết yếu, đang khó khăn để xoay sở. Kiểm soát lạm phát đòi hỏi phải tăng lãi suất lên một mức có thể khiến chính phủ phá sản, trong khi ngân hàng có nguy cơ mất đi tiền gửi khi các cá nhân tiêu dùng tiền tiết kiệm của họ vào hàng hóa thiết yếu ngày càng đắt đỏ hoặc tìm kiếm nơi trú ẩn trong các loại tài sản cứng và quỹ thị trường tiền tệ để phòng chống lạm phát.
+Với [lạm phát](https://planb.academy/resources/glossary/inflation) tăng do việc "in tiền" ồ ạt để ứng phó với các biện pháp phong tỏa liên quan đến COVID, các ngân hàng trung ương hiện đang tăng lãi suất chính sách trong nỗ lực kiềm chế lạm phát. Tuy nhiên, điều này đặt ra một thách thức đáng kể cho toàn bộ hệ thống. Ngân hàng đang có mức nợ cao hơn bao giờ hết, chính phủ cũng mang mức nợ cao lịch sử, tăng trưởng kinh tế trì trệ, thâm hụt ngân sách tăng lên, và người tiêu dùng, đang vật lộn với sự tăng giá của các hàng hóa thiết yếu, đang khó khăn để xoay sở. Kiểm soát lạm phát đòi hỏi phải tăng lãi suất lên một mức có thể khiến chính phủ phá sản, trong khi ngân hàng có nguy cơ mất đi tiền gửi khi các cá nhân tiêu dùng tiền tiết kiệm của họ vào hàng hóa thiết yếu ngày càng đắt đỏ hoặc tìm kiếm nơi trú ẩn trong các loại tài sản cứng và quỹ thị trường tiền tệ để phòng chống lạm phát.
 
 ### Kết luận
 
@@ -128,7 +128,7 @@ Với lạm phát tăng do việc "in tiền" ồ ạt để ứng phó với c�
 > John Maynard Keynes
 
 Về bản chất, hệ thống của chúng ta đang đối mặt với những thách thức lớn, và Bitcoin xuất hiện như là một lựa chọn thay thế đáng tin cậy duy nhất. Tuy nhiên, Bitcoin một mình không thể giải quyết các vấn đề trong hệ thống tiền tệ của chúng ta. Trên hết, chúng ta cần những cá nhân hiểu biết về các nguyên lý kinh tế cơ bản trong số những người ủng hộ Bitcoin, điều này sẽ giúp nâng cao nhận thức và có được sự sáng suốt kinh tế để dẫn dắt chúng ta tránh được việc xây dựng một nền tảng tài chính mong manh dễ vỡ khác cho nền văn minh nhân loại. Mục tiêu chính của khóa học này là giáo dục những người ủng hộ Bitcoin mới về các nguyên lý kinh tế vững chắc.
-Để đạt được mục tiêu này, chúng tôi sẽ giải thích các nguyên lý cơ bản của "Kinh tế học Áo," một trường phái kinh tế với truyền thống phương pháp luận có từ thế kỷ 16, cung cấp cái nhìn sâu sắc về hành động của con người dưới các ràng buộc kinh tế. Với bài giới thiệu này, bạn giờ đây đã nắm bắt được những điều cơ bản về việc tạo ra tiền tệ và tình trạng hiện tại của hệ thống tài chính và tiền tệ của chúng ta.
+Để đạt được mục tiêu này, chúng tôi sẽ giải thích các nguyên lý cơ bản của "[Kinh tế học Áo](https://planb.academy/resources/glossary/austrian-school)," một trường phái kinh tế với truyền thống phương pháp luận có từ thế kỷ 16, cung cấp cái nhìn sâu sắc về hành động của con người dưới các ràng buộc kinh tế. Với bài giới thiệu này, bạn giờ đây đã nắm bắt được những điều cơ bản về việc tạo ra tiền tệ và tình trạng hiện tại của hệ thống tài chính và tiền tệ của chúng ta.
 
 Trong chương tiếp theo, chúng ta sẽ đi sâu vào nền tảng cơ bản của bất kỳ trường phái kinh tế nào: lý thuyết về giá trị. Các chương tiếp theo sẽ khám phá tiền tệ như một thế chế xã hội (social institution), lý thuyết về vốn và chu kỳ kinh tế, thách thức của việc tính toán kinh tế, và một cái nhìn tổng quan ngắn gọn về lịch sử và phương pháp luận của trường phái Kinh tế học Áo.
 
@@ -498,9 +498,8 @@ Hậu quả của sự phân bổ sai lệch này bao gồm khủng hoảng tài
 
 Ngày nay, cuộc tranh luận về tính toán kinh tế lại nổi lên chủ yếu trong các cuộc thảo luận về năng lượng, nơi mà những sai lầm đầu tư do chương trình năng lượng xanh đang trở nên ngày càng rõ ràng. Nó cũng xuất hiện trong các cuộc thảo luận về thị trường tiền tệ, khi các nhà kinh tế học Áo chỉ ra rằng cuộc khủng hoảng năm 2008, sự kiện mà các nhà kinh tế học chính thống không dự đoán được, là một chu kỳ tăng trưởng và suy thoái điển hình được đặc trưng bởi việc đầu tư quá mức vào thị trường nhà ở do thời kỳ lãi suất thấp kéo dài. Hơn nữa, các nhà tân Marxist và các phe phái xã hội chủ nghĩa khác lan truyền quan điểm rằng sự xuất hiện của AI có thể giải quyết được vấn đề tính toán kinh tế. Tuy nhiên, quan điểm này xuất phát từ sự hiểu lầm về vấn đề; vấn đề tính toán kinh tế không phải là vấn đề về sức mạnh tính toán mà là vấn đề về việc tạo ra và phân phối thông tin liên quan đến sản xuất và phân bổ tài nguyên. Thông tin này chỉ có thể được tạo ra một cách cục bổ bởi các chủ thể có kiến thức chuyên môn và có lợi ích liên quan đến kết quả đầu ra. AI không thể thay thế quá trình từ dưới lên này và do đó, không thể giúp các nhà hoạch định tạp trung giải quyết vấn đề về phân bổ nguồn lực. Đáng tiếc là, sau một thế kỷ hiểu lầm, chúng tôi dự đoán sự gia tăng của các tuyên bố rằng AI sẽ mở ra một kỷ nguyên thịnh vượng kinh tế mới do các nhà hoạch định tập trung sáng suốt dẫn dắt, những người với sự giúp đỡ của AI, có thể sửa chữa những thất bại của thị trường tự do.
 
-Để áp dụng cụ thể vấn đề tính toán kinh tế vào một tình huống hiện đại, bạn có thể tham khảo bài viết phân tích về vấn đề phân bổ tài nguyên ở Trung Quốc hiện đại.
+Để áp dụng một cách cụ thể vấn đề tính toán kinh tế vào bối cảnh đương đại, bạn có thể tham khảo bài viết này bàn về việc phân bổ nguồn lực tại Trung Quốc hiện đại: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, của Théo Mogenet.
 
-> Con đường đến với sự áp bức tài chính: Trung Quốc, một con hổ giấy, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kết luận
 

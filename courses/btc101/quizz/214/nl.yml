@@ -1,11 +1,9 @@
-question: Wat is de Lightning Network?
-answer: Een betaalnetwerk dat het Bitcoin protocol gebruikt om razendsnelle transacties mogelijk te maken.
+question: Welke van deze Lightning-operaties wordt onchain vastgelegd?
+answer: Opening van een kanaal
 wrong_answers:
-  - Een nieuw type cryptocurrency.
-  - Een nieuwe Blockchain technologie die in de toekomst Bitcoin zal vervangen.
-  - Een methode voor Mining Bitcoin.
+  - Tussentijdse betaling
+  - Statusupdate
+  - Multi-hop-routering
 explanation: |
-  De Lightning Network is een betaalnetwerk dat gebruik maakt van het
-  Bitcoin protocol gebruikt om snelle transacties mogelijk te maken. Het is geen
-  aparte cryptocurrency, noch een methode voor Mining Bitcoin.
-reviewed: true
+  Alleen het openen en sluiten van een Lightning-kanaal komen overeen met Bitcoin-transacties die op de blockchain worden gepubliceerd.
+reviewed: false

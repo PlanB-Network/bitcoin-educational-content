@@ -1,0 +1,8 @@
+question: Quelle innovation méthodologique principale distingue l'approche de Carl Menger de celle des économistes classiques comme Smith et Ricardo dans l'analyse de la formation des prix?
+answer: L'adoption d'une théorie subjective de la valeur basée sur les évaluations individuelles ordinales plutôt que sur des mesures objectives
+wrong_answers:
+  - "L'utilisation systématique des mathématiques pour quantifier précisément les préférences des consommateurs sur les marchés"
+  - "La priorité accordée à l'analyse historique contextuelle pour comprendre les mécanismes de formation des prix dans chaque société"
+  - "L'intégration de la théorie de la valeur travail avec les concepts de plus-value pour expliquer les fluctuations de prix"
+explanation: |
+  Menger révolutionne l'économie en abandonnant les théories objectives de la valeur (travail, coût de production) au profit d'une approche subjective. Sa théorie postule que la valeur émerge des évaluations subjectives individuelles, qui sont ordinales (on peut classer ses préférences) mais non cardinales (on ne peut mesurer l'écart). Cette innovation résout des paradoxes comme celui du diamant et de l'eau, inexplicables par les théories classiques basées sur le travail incorporé.

@@ -212,7 +212,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Se todos estes termos lhe parecerem demasiado técnicos, recomendo-lhe que [consulte o nosso glossário] (https://planb.academy/resources/glossary), que contém definições de todos os termos técnicos relacionados com o Bitcoin e o seu ecossistema.
+Se todos estes termos lhe parecerem demasiado técnicos, recomendo-lhe que [consulte o nosso glossário](https://planb.academy/resources/glossary), que contém definições de todos os termos técnicos relacionados com o Bitcoin e o seu ecossistema.
 
 
 

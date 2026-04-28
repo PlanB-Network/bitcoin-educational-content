@@ -1,0 +1,8 @@
+question: Tipe parameter mana yang harus digunakan oleh metode Rust jika metode tersebut perlu memodifikasi instance struktur sambil mengizinkan pemanggil untuk mempertahankan kepemilikan?
+answer: "&bungkam diri"
+wrong_answers:
+  - "&diri sendiri"
+  - diri
+  - mut diri
+explanation: |
+  Metode yang perlu memodifikasi instance struktur sambil mengizinkan pemanggil untuk mempertahankan kepemilikan harus menggunakan `&mut self` sebagai parameter pertamanya. Ini menciptakan referensi yang dapat diubah pada instance, sehingga metode dapat mengubah field-field struktur tanpa mengambil kepemilikan dari pemanggil. Menggunakan `&self` hanya akan mengizinkan pembacaan instance, `self` akan menghabiskan instance secara keseluruhan, dan `mut self` bukanlah sintaks Rust yang valid untuk parameter metode.

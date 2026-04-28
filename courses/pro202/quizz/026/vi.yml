@@ -1,0 +1,8 @@
+question: Tại sao việc xác thực giao dịch Bitcoin cũ lại có độ phức tạp thời gian bậc hai so với số lượng đầu vào?
+answer: Mỗi đầu vào yêu cầu tính toán sighash riêng biệt trên một cấu trúc bao gồm tất cả các đầu vào trong giao dịch.
+wrong_answers:
+  - Mỗi đầu vào phải xác minh chữ ký so với tất cả các đầu vào khác để ngăn chặn lỗi double-spending trong giao dịch.
+  - Mô hình thực thi dựa trên ngăn xếp yêu cầu các vòng lặp lồng nhau để xử lý các mã lệnh cho mỗi tổ hợp đầu vào.
+  - "ScriptSig của mỗi đầu vào phải được xác thực so với ScriptPubKey của mỗi đầu ra để tìm ra sự trùng khớp chính xác."
+explanation: |
+  Phương pháp xác thực Bitcoin truyền thống tạo ra độ phức tạp bậc hai vì mỗi đầu vào cần một phép tính sighash riêng, nhưng mỗi phép tính lại xử lý một cấu trúc giao dịch chứa tất cả các đầu vào. Với n đầu vào, điều này tạo ra n×n phép toán. SegWit đã giải quyết vấn đề này bằng cách lưu trữ các phần dùng chung của phép tính sighash, giảm độ phức tạp xuống mức tuyến tính và ngăn chặn các cuộc tấn công từ chối dịch vụ tiềm tàng từ các giao dịch đa đầu vào lớn.

@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal riesgo que pretende prevenir una torre de vigilancia?
+answer: Engañar con el antiguo estado
+wrong_answers:
+  - 51% ataque
+  - Robo de semillas
+  - Engañar con el nuevo estado
+explanation: |
+  Una torre de vigilancia protege contra la publicación de un antiguo canal estatal destinado a malversar fondos.
+reviewed: false

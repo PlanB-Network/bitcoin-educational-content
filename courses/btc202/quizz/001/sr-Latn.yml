@@ -3,7 +3,7 @@ answer: Bitcoin mreža
 wrong_answers:
   - Bitcoin protokol
   - Bitcoin valuta
-  - Blockchain Bitcoin
+  - Bitcoin blokčejn
 explanation: |
   Bitcoin mreža obuhvata sve povezane čvorove, pri čemu svaki koristi različitu implementaciju protokola.
 reviewed: true

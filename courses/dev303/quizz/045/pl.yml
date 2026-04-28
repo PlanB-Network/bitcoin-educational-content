@@ -1,0 +1,8 @@
+question: Jaka jest główna korzyść z funkcji programowania funkcjonalnego Rust przy zachowaniu zerowych kosztów abstrakcji?
+answer: Tworzą one wydajny kod maszynowy porównywalny z tradycyjnymi podejściami opartymi na pętlach bez poświęcania wydajności
+wrong_answers:
+  - Automatycznie obsługują one alokację i dealokację pamięci, aby całkowicie zapobiec narzutom w czasie wykonywania
+  - Eliminują one potrzebę sprawdzania typów w czasie kompilacji przy jednoczesnym zachowaniu gwarancji bezpieczeństwa
+  - Zapewniają one funkcję odśmiecania, która działa bez wpływu na szybkość wykonywania programu
+explanation: |
+  Zero-kosztowe abstrakcje w funkcjach programowania funkcjonalnego Rust oznaczają, że używanie domknięć i iteratorów nie poświęca wydajności na rzecz ekspresyjności. Kompilator Rust optymalizuje te wysokopoziomowe konstrukcje w celu uzyskania kodu maszynowego, który działa równie dobrze, jak ręcznie napisane tradycyjne pętle. Pozwala to programistom na pisanie bardziej ekspresyjnego i czytelnego kodu bez płacenia kary za wydajność w czasie wykonywania, co jest podstawową zasadą filozofii projektowania Rust.

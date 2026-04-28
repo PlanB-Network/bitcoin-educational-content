@@ -101,8 +101,6 @@ Na konci tohoto kurzu získáte všechny praktické nástroje, které potřebuje
 Jste připraveni vydat se na cestu do světa Bitcoin? Jdeme na to!
 
 
-**Pozn.**: Pokud během kurzu narazíte na neznámé termíny, obraťte se prosím na [slovníček](https://planb.academy/resources/glossary) pro definice.
-
 # Předpoklady pro pochopení Bitcoin
 
 
@@ -132,7 +130,7 @@ Než budeme pokračovat, je důležité jasně rozlišit dva zásadně odlišné
 
 
 
-- Na druhou stranu odvětví kryptoměn je mnohem větší a zahrnuje desítky tisíc různých projektů, z nichž každý má svůj vlastní token. Tento prostor často pohání rychlé inovace, hype a krátkodobé finanční spekulace. Mnohé z těchto projektů jsou centralizované, méně bezpečné a nenabízejí mnoho skutečné hodnoty - navzdory odvážným slibům a okázalému marketingu.
+- Na druhou stranu odvětví [kryptoměn](https://planb.academy/resources/glossary/cryptocurrency) je mnohem větší a zahrnuje desítky tisíc různých projektů, z nichž každý má svůj vlastní token. Tento prostor často pohání rychlé inovace, hype a krátkodobé finanční spekulace. Mnohé z těchto projektů jsou centralizované, méně bezpečné a nenabízejí mnoho skutečné hodnoty - navzdory odvážným slibům a okázalému marketingu.
 
 
 ![image](assets/cs/005.webp)
@@ -177,7 +175,7 @@ Tyto podvody obvykle obsahují :
 Všechny pyramidové a Ponziho systémy jsou nakonec odsouzeny k neúspěchu. Jejich základní slabina spočívá v neustálé potřebě přivádět nové investory, aby bylo možné vyplácet výnosy dřívějším účastníkům. Tuto potřebu je matematicky nemožné udržet v průběhu času, protože počet potřebných nových rekrutů exponenciálně roste s tím, jak systém roste. Jakmile je dosaženo kritického bodu, účastníci začnou pochybovat, zmizí důvěra a celá pyramida se zhroutí. V této fázi přicházejí poslední lidé, kteří se připojili, často ti nejméně informovaní, o celou svou investici bez možnosti ji získat zpět, zatímco organizátoři nebo první investoři již obvykle své prostředky stáhli a systém opustili.
 
 
-Ve světě kryptoměn mohou mít Ponziho schémata mnoho podob a často jsou navržena tak, aby svou podvodnou povahu skryla za technologickou nebo finanční masku. Tyto podvody mohou vypadat jako nabídky nových tokenů nebo počáteční nabídky mincí (ICO), což jsou operace na získávání finančních prostředků, při nichž se nová kryptoměna prodává veřejnosti. Za technickými termíny jako "Blockchain", "smart contracts" nebo "staking" se za některými projekty ve skutečnosti skrývají složité pyramidové hry. Jiné tvrdí, že nabízejí vysoké výnosy kombinací pochybných kryptoaktiv se systémy odměňování, které zcela závisí na neustálém přílivu nových investorů.
+Ve světě kryptoměn mohou mít Ponziho schémata mnoho podob a často jsou navržena tak, aby svou podvodnou povahu skryla za technologickou nebo finanční masku. Tyto podvody mohou vypadat jako nabídky nových tokenů nebo počáteční nabídky mincí (ICO), což jsou operace na získávání finančních prostředků, při nichž se nová kryptoměna prodává veřejnosti. Za technickými termíny jako "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "smart contracts" nebo "staking" se za některými projekty ve skutečnosti skrývají složité pyramidové hry. Jiné tvrdí, že nabízejí vysoké výnosy kombinací pochybných kryptoaktiv se systémy odměňování, které zcela závisí na neustálém přílivu nových investorů.
 
 
 V poslední době se Ponziho schémata rozšířila i do světa decentralizovaných financí (DeFi). Ačkoli DeFi má poskytovat finanční služby bez zprostředkovatelů, některé projekty jej využívají k tomu, aby svým podvodům dodaly falešný pocit legitimity. Některé platformy DeFi slibují vysoké, zaručené výnosy v Exchange za vklady kryptoměn do automatizovaných protokolů. Tyto lákavé sliby jsou často podloženy neprůhlednými a neověřitelnými mechanismy, přičemž tokeny jsou vytvořeny speciálně pro účely podvodu. Ve skutečnosti tyto systémy nemají žádný udržitelný obchodní model - výnosy jsou jednoduše vypláceny z prostředků nových uživatelů, stejně jako u tradičního Ponziho schématu. Když začne důvěra erodovat nebo se zpomalí příliv nových účastníků, tyto systémy se nevyhnutelně zhroutí, což vede ke značným ztrátám nic netušících investorů.
@@ -256,7 +254,7 @@ Centralizované projekty kryptoměn někdy nabízejí tokeny zdarma ("*airdrops*
 Útočníci často používají falešné webové stránky, účty na sociálních sítích nebo podvodné e-maily, aby se pokusili ukrást vaše finanční prostředky. Tyto podvody mohou probíhat prostřednictvím jakéhokoli komunikačního kanálu: e-mailu, sociálních sítí, telefonních hovorů nebo dokonce klasické pošty...
 
 
-Než kliknete na odkaz nebo provedete jakoukoli akci, vždy si ověřte totožnost odesílatele. V případě pochybností navštivte webovou stránku ručně namísto použití poskytnutého odkazu. A co je nejdůležitější, nikdy nikomu nesdělujte své soukromé klíče nebo hesla.
+Než kliknete na odkaz nebo provedete jakoukoli akci, vždy si ověřte totožnost odesílatele. V případě pochybností navštivte webovou stránku ručně namísto použití poskytnutého odkazu. A co je nejdůležitější, nikdy nikomu nesdělujte své [soukromé klíče](https://planb.academy/resources/glossary/private-key) nebo hesla.
 
 
 #### Tvrdé vidlice Bitcoin
@@ -571,7 +569,7 @@ Zde jsou klíčové body, které společně projdeme:
 
 
 
-- Pozor na **Shitcoins** a další zbytečné kryptoměny;
+- Pozor na **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** a další zbytečné kryptoměny;
 - Investujte pouze **peníze, které si můžete dovolit ztratit**;
 - Poznejte rozdíl mezi **obchodováním** a **investováním**;
 - Uvědomte si **daňové důsledky** svých investic;
@@ -843,13 +841,13 @@ V průběhu let si společnost Bitcoin získala uznání jako globální peněž
 #### Cypherpunkové a vynález systému, který se vymyká bankovní kontrole
 
 
-Bitcoin se nezrodil přes noc. Je výsledkem desetiletí výzkumu a experimentů v oblasti kryptografie, informatiky a měnové teorie. Před jejím spuštěním v roce 2009 se o vytvoření digitálních měn pokoušelo několik projektů (například eCash, b-money, Bit Gold a RPOW). Všechny se potýkaly se stejným základním problémem: jak zabránit dvojímu utrácení v decentralizovaném systému, aniž by se spoléhaly na centrální autoritu.
+Bitcoin se nezrodil přes noc. Je výsledkem desetiletí výzkumu a experimentů v oblasti [kryptografie](https://planb.academy/resources/glossary/cryptography), informatiky a měnové teorie. Před jejím spuštěním v roce 2009 se o vytvoření digitálních měn pokoušelo několik projektů (například eCash, b-money, Bit Gold a RPOW). Všechny se potýkaly se stejným základním problémem: jak zabránit dvojímu utrácení v decentralizovaném systému, aniž by se spoléhaly na centrální autoritu.
 
 
-Tento problém zůstal nevyřešen až do konce roku 2008, kdy někdo pod jménem Satoshi Nakamoto zveřejnil bílou knihu Bitcoin. O několik měsíců později byla spuštěna první verze open-source softwaru Bitcoin, čímž byl spuštěn systém, který mohl fungovat nezávisle na bankách nebo vládách.
+Tento problém zůstal nevyřešen až do konce roku 2008, kdy někdo pod jménem Satoshi Nakamoto zveřejnil [bílou knihu](https://planb.academy/resources/glossary/white-paper) Bitcoin. O několik měsíců později byla spuštěna první verze [open-source](https://planb.academy/resources/glossary/foss) softwaru Bitcoin, čímž byl spuštěn systém, který mohl fungovat nezávisle na bankách nebo vládách.
 
 
-Projekt byl silně ovlivněn étosem Cypherpunk; komunitou vývojářů a myslitelů, kteří věřili ve využití kryptografie k ochraně osobních svobod online. Soukromí a decentralizace pro ně nebyly technickými preferencemi, ale ideologickou nutností. Bitcoin se stala nejúspěšnějším ztělesněním těchto ideálů: peer-to-peer peněžní síť, kterou mohl používat kdokoli, nikdo ji nemohl kontrolovat a každý si ji mohl ověřit.
+Projekt byl silně ovlivněn étosem [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks); komunitou vývojářů a myslitelů, kteří věřili ve využití kryptografie k ochraně osobních svobod online. Soukromí a decentralizace pro ně nebyly technickými preferencemi, ale ideologickou nutností. Bitcoin se stala nejúspěšnějším ztělesněním těchto ideálů: [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) peněžní síť, kterou mohl používat kdokoli, nikdo ji nemohl kontrolovat a každý si ji mohl ověřit.
 
 
 ![image](assets/cs/030.webp)
@@ -875,7 +873,7 @@ Myšlenka digitální měny, která funguje nezávisle na jakékoli centrální 
 Bitcoin se neobjevil jen tak z ničeho nic. Vznikl ve velmi specifickém okamžiku - hned po celosvětové finanční krizi v roce 2008. Kolaps amerického trhu s bydlením a krize rizikových úvěrů způsobily krach velkých bank a otřásly důvěrou lidí v celý finanční systém.
 
 
-V tomto prostředí strachu a nejistoty se zrodila společnost Bitcoin. Jeho tvůrce, známý jako Satoshi Nakamoto, zahrnul do prvního bloku Bitcoin Blockchain, známého jako blok Genesis, velmi symbolickou zprávu. Zpráva zněla:
+V tomto prostředí strachu a nejistoty se zrodila společnost Bitcoin. Jeho tvůrce, známý jako Satoshi Nakamoto, zahrnul do prvního bloku Bitcoin Blockchain, známého jako [blok Genesis](https://planb.academy/resources/glossary/genesis-block), velmi symbolickou zprávu. Zpráva zněla:
 
 
 > **"The Times 03. ledna 2009 Kancléřka na pokraji druhé finanční pomoci bankám "**
@@ -909,7 +907,7 @@ Bitcoin je definován jako "elektronický peněžní systém peer-to-peer" To zn
 ![image](assets/cs/034.webp)
 
 
-Zjednodušeně řečeno, každý účastník sítě Bitcoin (tzv. "uzel") má úplnou kopii transakce Ledger, známou jako Blockchain. Když dojde k nové transakci, je vysílána do sítě. Těžaři pak tyto transakce potvrzují seskupováním do bloků, které se pak přidávají na konec řetězce (odtud název "Blockchain").
+Zjednodušeně řečeno, každý účastník sítě Bitcoin (tzv. "[uzel](https://planb.academy/resources/glossary/node)") má úplnou kopii transakce Ledger, známou jako Blockchain. Když dojde k nové transakci, je vysílána do sítě. [Těžaři](https://planb.academy/resources/glossary/miner) pak tyto transakce potvrzují seskupováním do bloků, které se pak přidávají na konec řetězce (odtud název "Blockchain").
 
 
 ![image](assets/cs/035.webp)
@@ -930,7 +928,7 @@ Představte si Blockchain jako obří účetnictví Ledger, kde každý řádek 
 #### Jak se vytvářejí bloky: Mining
 
 
-Mining je proces, při kterém počítače (nebo velké farmy Mining) přispívají **výpočetním výkonem** k zabezpečení historie transakcí Bitcoin a vytváření nových bloků. Těžaři soutěží o vyřešení matematické hádanky - konkrétně o nalezení částečné kolize Hash. Tento proces vyžaduje značné množství energie a zdrojů. Jakmile těžař Miner najde platné řešení, odvysílá blok do sítě, která jej ověří a přijme jako platný.
+[Mining](https://planb.academy/resources/glossary/mining) je proces, při kterém počítače (nebo velké farmy Mining) přispívají **výpočetním výkonem** k zabezpečení historie transakcí Bitcoin a vytváření nových bloků. Těžaři soutěží o vyřešení matematické hádanky - konkrétně o nalezení částečné kolize Hash. Tento proces vyžaduje značné množství energie a zdrojů. Jakmile těžař Miner najde platné řešení, odvysílá blok do sítě, která jej ověří a přijme jako platný.
 
 Jako odměnu obdrží Miner nově vytvořené bitcoiny (tzv. blokovou dotaci) spolu s transakčními poplatky ze všech transakcí zahrnutých v daném bloku.
 
@@ -952,12 +950,12 @@ Nakonec, kolem roku 2140, dosáhne dotace nuly, protože celkový objem Bitcoin 
 #### Nedostatek a pevná měnová politika
 
 
-Jednou z nejsilnějších vlastností Bitcoin je její *předvídatelná a neměnná měnová politika*. Na rozdíl od tradičních fiat měn (jako je dolar, euro nebo jen), které mohou centrální banky tisknout podle libosti (což často vede k inflaci nebo ekonomickým deformacím), Bitcoin funguje podle transparentního souboru pravidel zakotvených v jeho kódu.
+Jednou z nejsilnějších vlastností Bitcoin je její *předvídatelná a neměnná měnová politika*. Na rozdíl od tradičních fiat měn (jako je dolar, euro nebo jen), které mohou centrální banky tisknout podle libosti (což často vede k [inflaci](https://planb.academy/resources/glossary/inflation) nebo ekonomickým deformacím), Bitcoin funguje podle transparentního souboru pravidel zakotvených v jeho kódu.
 
 Bitcoinů bude vždy jen 21 milionů a rychlost vydávání nových mincí je všem členům sítě předem známa.
 
 
-Žádná vláda, instituce ani jednotlivec nemůže jednostranně měnit tento limit Supply ani pravidla rozdělování. Jediným způsobem, jak tyto parametry změnit, by byla změna protokolu Bitcoin; a i ta by vyžadovala konsensus většiny ekonomických účastníků sítě.
+Žádná vláda, instituce ani jednotlivec nemůže jednostranně měnit tento limit Supply ani pravidla rozdělování. Jediným způsobem, jak tyto parametry změnit, by byla změna protokolu Bitcoin; a i ta by vyžadovala [konsensus](https://planb.academy/resources/glossary/consensus) většiny ekonomických účastníků sítě.
 
 
 Tento zabudovaný nedostatek je hlavním lákadlem pro ty, kteří se chtějí vyhnout nepředvídatelné měnové politice nebo se vyhnout postupnému snižování své kupní síly v důsledku inflace. Časem by to mohlo znamenat změnu ve finančním myšlení, kdy se spoření v deflačním aktivu, jako je Bitcoin, stane atraktivnějším než spoléhání se na tradiční, inflací ohrožené měny.
@@ -1233,7 +1231,7 @@ Bitcoineři pocházejí z různých společenských vrstev, ale mají společnou
 - **Cypherpunkeři**, kteří se zasazují o soukromí a brání se sledování;
 - **Utlačovaní občané**, kteří hledají útočiště před autoritářskými režimy a kontrolou kapitálu;
 - **Anarchisté**, kteří považují Bitcoin za nástroj osvobození od státní kontroly;
-- **Rakouští ekonomové**, kteří prosazují zdravé peníze a svobodu od vládní manipulace;
+- **[Rakouští ekonomové](https://planb.academy/resources/glossary/austrian-school)**, kteří prosazují zdravé peníze a svobodu od vládní manipulace;
 - Inženýři, finančníci a zastánci svobody slova, kteří si uvědomují hluboké společenské důsledky tohoto nového měnového paradigmatu.
 
 
@@ -1549,7 +1547,7 @@ Peněženky hrají v Bitcoin zásadní roli a budou podrobněji probrány pozdě
 #### Bitcoin Mining
 
 
-Mining je hlavní funkcí sítě Bitcoin. Zajišťuje bezpečnost systému a udržuje Blockchain v provozu. Horníci ověřují transakce a zabezpečují síť prováděním energeticky náročných výpočtů známých jako Proof of Work. Každý nově vytěžený blok přidává do Blockchain dávku transakcí a uvolňuje nové bitcoiny podle emisního plánu protokolu.
+Mining je hlavní funkcí sítě Bitcoin. Zajišťuje bezpečnost systému a udržuje Blockchain v provozu. Horníci ověřují transakce a zabezpečují síť prováděním energeticky náročných výpočtů známých jako [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Každý nově vytěžený blok přidává do Blockchain dávku transakcí a uvolňuje nové bitcoiny podle emisního plánu protokolu.
 
 
 V počátcích Bitcoin bylo možné Mining provádět z osobního počítače. Dnes se jedná o konkurenční, globální odvětví, kterému dominují společnosti se značnými finančními a technickými zdroji. Hledání levných zdrojů energie se stalo hlavním cílem, protože těžaři se snaží optimalizovat provozní náklady a ziskovost. Provozy Mining nyní sahají od masivních průmyslových zařízení až po malá zařízení provozovaná v domácnostech nebo garážích.
@@ -1584,7 +1582,7 @@ Vývoj Bitcoin lze chápat prostřednictvím několika odlišných skupin přisp
 - **Nezávislí vývojáři**. Tito vývojáři se zaměřují na vytváření nástrojů a aplikací pro zlepšení uživatelského komfortu, jako je například Mempool.space(vizuální Interface pro sledování transakční aktivity) nebo Alby( nástroje pro používání plateb Lightning v prohlížečích a aplikacích).
 
 
-Změny v jádru Bitcoin může navrhnout kdokoli, ale proces je záměrně přísný. Zdokonalování nových nápadů často trvá roky a vyžaduje hluboké technické znalosti, široké zapojení komunity a několik úrovní přezkoumání. Návrhy jsou obvykle předkládány ve formě **Návrhů na zlepšení Bitcoin (BIP)** ; některé z nich se do protokolu nikdy nedostanou.
+Změny v jádru Bitcoin může navrhnout kdokoli, ale proces je záměrně přísný. Zdokonalování nových nápadů často trvá roky a vyžaduje hluboké technické znalosti, široké zapojení komunity a několik úrovní přezkoumání. Návrhy jsou obvykle předkládány ve formě **Návrhů na zlepšení Bitcoin ([BIP](https://planb.academy/resources/glossary/bip))** ; některé z nich se do protokolu nikdy nedostanou.
 
 Inovace jsou vítány, ale pouze tehdy, pokud jsou podloženy pevnými argumenty, konsensem komunity a pečlivým testováním.
 
@@ -1629,7 +1627,7 @@ Mezi hlavní překryvné systémy obohacující ekosystém Bitcoin patří:
 - **Lightning Network**:
 
 
-Lightning Network, který v roce 2016 vytvořili Thaddeus Dryja a Joseph Poon, je řešením druhé generace Layer, které má umožnit okamžité a levné platby. Dva uživatelé si mohou otevřít soukromý kanál, kde mohou provádět transakce, přičemž zůstatek se na Blockchain aktualizuje pouze při otevření nebo uzavření kanálu. Transakce v rámci kanálu probíhají off-chain, což znamená, že nemusí být jednotlivě zaznamenávány na Bitcoin Blockchain. Tato struktura umožňuje okamžité transakce a minimální poplatky, takže je ideální pro transakce s nízkou hodnotou, které vyžadují rychlé potvrzení.
+Lightning Network, který v roce 2016 vytvořili Thaddeus Dryja a Joseph Poon, je řešením druhé generace Layer, které má umožnit okamžité a levné platby. Dva uživatelé si mohou otevřít soukromý [kanál](https://planb.academy/resources/glossary/payment-channel), kde mohou provádět transakce, přičemž zůstatek se na Blockchain aktualizuje pouze při otevření nebo uzavření kanálu. Transakce v rámci kanálu probíhají off-chain, což znamená, že nemusí být jednotlivě zaznamenávány na Bitcoin Blockchain. Tato struktura umožňuje okamžité transakce a minimální poplatky, takže je ideální pro transakce s nízkou hodnotou, které vyžadují rychlé potvrzení.
 
 
 ![image](assets/cs/061.webp)
@@ -1668,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB je decentralizovaný systém Smart contract zaměřený na ochranu soukromí a navržený tak, aby fungoval nad Bitcoin a Lightning Network. Na rozdíl od tradičních platforem Smart contract používá RGB model Client-side Validation(což znamená, že celý Contract State je uložen off-chain a do Bitcoin jsou zveřejňovány pouze kryptografické závazky Blockchain). Tato konstrukce zlepšuje škálovatelnost i soukromí. Pomocí RGB mohou uživatelé vytvářet pokročilé inteligentní kontrakty pro vydávání tokenů, NFT, decentralizovaných identit nebo dokonce aplikací DeFi přímo na Bitcoin nebo Lightning.
 
 
-Klíčovou vlastností RGB je ochrana proti Double-spending, které se dosahuje pomocí kryptografické techniky zvané jednorázové pečetě. Tento mechanismus se opírá o skutečnost, že UTXO (Unspent Transaction Outputs) Bitcoin lze utratit pouze jednou. Pravost tokenů je zajištěna ověřením celé historie Contract na straně uživatele(od jeho vytvoření až po aktuální stav).
+Klíčovou vlastností RGB je ochrana proti Double-spending, které se dosahuje pomocí kryptografické techniky zvané jednorázové pečetě. Tento mechanismus se opírá o skutečnost, že [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) Bitcoin lze utratit pouze jednou. Pravost tokenů je zajištěna ověřením celé historie Contract na straně uživatele(od jeho vytvoření až po aktuální stav).
 
 
 ![image](assets/cs/062.webp)
@@ -2369,7 +2367,7 @@ Několik osvědčených postupů:
 - Pravidelně ověřujte integritu své fráze pro obnovení. Zkontrolujte, zda s obálkou nebylo manipulováno a zda je médium stále čitelné. Pokud se vám zdá, že něco není v pořádku, vytvořte novou zálohu ze svého Wallet;
 
 
-Chcete-li sledovat své majetky, aniž byste ohrozili své soukromé klíče, zvažte použití zařízení Watch-only wallet. Umožňuje sledovat zůstatky a transakce pouze pomocí vašich veřejných klíčů.
+Chcete-li sledovat své majetky, aniž byste ohrozili své soukromé klíče, zvažte použití zařízení Watch-only wallet. Umožňuje sledovat zůstatky a transakce pouze pomocí vašich [veřejných klíčů](https://planb.academy/resources/glossary/public-key).
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2914,7 +2912,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet pro každodenní transakce** - Pro pravidelné výdaje volí paranoidní uživatelé peněženky zaměřené na ochranu soukromí, jako jsou Ashigaru, Wasabi Wallet nebo Sparrow Wallet. Tyto peněženky podporují pokročilé funkce, jako jsou: mini-CoinJoin výdajové transakce, payjoins, potenciálně CoinJoin nástroje, kontrola mincí, UTXO tagování nebo možnost připojení přes vlastní uzel Bitcoin.
+- **Hot Wallet pro každodenní transakce** - Pro pravidelné výdaje volí paranoidní uživatelé peněženky zaměřené na ochranu soukromí, jako jsou Ashigaru, Wasabi Wallet nebo Sparrow Wallet. Tyto peněženky podporují pokročilé funkce, jako jsou: mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin) výdajové transakce, payjoins, potenciálně CoinJoin nástroje, kontrola mincí, UTXO tagování nebo možnost připojení přes vlastní uzel Bitcoin.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

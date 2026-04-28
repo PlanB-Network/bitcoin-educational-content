@@ -1,8 +1,9 @@
 question: Mu ciyumviro ca Marquis d’Argenson, Leta ikwiye kuba iki?
-answer: Leta ntoyi cane, itegerezwa gutanga umutekano, ubutungane, amafaranga n’ibikorwa remezo
+answer: Leta ntoyi cane, itegerezwa gucunga umutekano, ubutungane, amafaranga n’inyubako rusangi
 wrong_answers:
   - Leta irinda, irinda abacuruzi n’abahinguzi b’ibintu .
   - Leta nta n’uburenganzira ifise; ntibitegerezwa gutanga igikorwa na kimwe
-  - Leta y’ubufasha, itegerezwa gutunganya imice yose y’ubuzima bw’ubutunzi .
+  - Leta yitaho, itegerezwa gutunganya imice yose y’ubuzima bw’ubutunzi .
 explanation: |
-  Marquis d’Argenson yakunda Leta y’agaciro gatoyi, yigarukira ku bikorwa vy’ingenzi nk’umutekano, ubutungane, amafaranga n’ibikorwa remezo. Yari yizera ko Leta ikwiye gusiga abantu ku giti cabo bafise umwidegemvyo wo gukora mu bijanye n’ubutunzi.
+  Marquis d’Argenson yakunda Leta y’agaciro gatoyi, yigarukira ku bikorwa vy’ingenzi nk’umutekano, ubutungane, amafaranga n’inyubako rusangi. Yari yizera ko Leta ikwiye gusiga abantu ku giti cabo bafise umwidegemvyo wo gukora mu bijanye n’ubutunzi.
+reviewed: true

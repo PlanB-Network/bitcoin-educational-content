@@ -1,0 +1,9 @@
+question: 區塊頭中的 nbits 欄位對應於什麼？
+answer: 編碼後的難度目標
+wrong_answers:
+  - 以位元組為單位的區塊大小
+  - 區塊中的交易數量
+  - 區塊的時間戳
+explanation: |
+  nbits 欄位對比特幣當前的難度目標進行編碼。
+reviewed: false

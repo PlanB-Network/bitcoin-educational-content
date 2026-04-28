@@ -1,0 +1,8 @@
+question: Eliptik eğri kriptografisinde skaler çarpma için çift-ve-ekle algoritmasının birincil avantajı nedir?
+answer: Hesaplama karmaşıklığını O(n)'den O(log n) işlemlerine düşürür
+wrong_answers:
+  - Sonlu alanlarda modüler aritmetik ihtiyacını ortadan kaldırır
+  - Ayrık logaritma problemini polinom zamanlı bir çözüme dönüştürür
+  - Açık anahtarlardan özel anahtarların doğrudan hesaplanmasına izin verir
+explanation: |
+  Çift-ve-ekleme algoritması, hesaplama karmaşıklığını O(n) doğrusal eklemelerden O(log n) işlemlerine indirerek verimliliği önemli ölçüde artırır. Bu, skalerin ikili gösterimini tarayarak, her adımda noktayı iki katına çıkararak ve yalnızca bit 1 olduğunda üreteç noktasını ekleyerek çalışır. Diğer seçenekler yanlıştır: sonlu alanlarda modüler aritmetik hala gereklidir, ayrık logaritma problemi hesaplama açısından uygun değildir (güvenlik için gereklidir) ve kullanılan çarpma algoritmasından bağımsız olarak açık anahtarlardan özel anahtarlar hesaplanamaz.

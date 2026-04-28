@@ -1,0 +1,9 @@
+question: ค่าเริ่มต้นของพารามิเตอร์ maxconnections ใน Bitcoin Core คืออะไร?
+answer: 125
+wrong_answers:
+  - 10
+  - 100
+  - 150
+explanation: |
+  maxconnections จำกัดจำนวนการเชื่อมต่อขาเข้าและขาออกทั้งหมด ค่าเริ่มต้นคือ 125.
+reviewed: true

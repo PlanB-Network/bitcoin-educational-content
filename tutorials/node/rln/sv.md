@@ -14,10 +14,10 @@ I denna steg-för-steg-handledning lär du dig hur du ställer in en Lightning R
 Bitfinex RGB-team har arbetat sedan 2022 för att berika RGB-ekosystemet genom att utveckla en komplett teknikstack. I stället för att sikta på en enda kommersiell produkt fokuserar man på att göra programvarublock med öppen källkod tillgängliga, bidra till RGB-protokollspecifikationer och skapa implementeringsreferenser.
 
 
-Bland Bitfinex anmärkningsvärda bidrag till RGB-ekosystemet är [the *RGBlib* library] (https://github.com/RGB-Tools/RGB-lib), skrivet i Rust och tillgängligt via bindningar i Kotlin och Python, vilket förenklar utvecklingen av RGB-applikationer genom att kapsla in komplexa validerings- och engagemangsmekanismer.
+Bland Bitfinex anmärkningsvärda bidrag till RGB-ekosystemet är [the *RGBlib* library](https://github.com/RGB-Tools/RGB-lib), skrivet i Rust och tillgängligt via bindningar i Kotlin och Python, vilket förenklar utvecklingen av RGB-applikationer genom att kapsla in komplexa validerings- och engagemangsmekanismer.
 
 
-Bitfinex-teamet har också utformat en RGB mobil Wallet, kallad "[*Iris Wallet*] (https://iriswallet.com/)", tillgänglig på Android. Denna Wallet integrerar användningen av en RGB-proxyserver för att enkelt hantera off-chain-datautbyten (*sändningar*) för *Client-side Validation* på RGB.
+Bitfinex-teamet har också utformat en RGB mobil Wallet, kallad "[*Iris Wallet*](https://iriswallet.com/)", tillgänglig på Android. Denna Wallet integrerar användningen av en RGB-proxyserver för att enkelt hantera off-chain-datautbyten (*sändningar*) för *Client-side Validation* på RGB.
 
 
 Bitfinex har också utvecklat projektet `RGB-lightning-node` (RLN). Detta är en Rust daemon baserad på en Fork av `Rust-lightning` (LDK), modifierad för att ta hänsyn till förekomsten av RGB-tillgångar i en kanal. När en kanal öppnas kan förekomsten av RGB-tokens specificeras, och varje gång kanaltillståndet uppdateras skapas en State Transition som återspeglar fördelningen av tokens i Lightning-utgångar. Detta möjliggör :

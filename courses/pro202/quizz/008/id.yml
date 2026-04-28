@@ -1,0 +1,8 @@
+question: Apa dasar matematika yang membuat masalah logaritma diskrit tidak dapat dikomputasi dalam kriptografi kurva eliptik?
+answer: Distribusi titik yang tidak dapat diprediksi saat menghasilkan kelompok siklik melalui penambahan titik berulang
+wrong_answers:
+  - Properti simetri kurva elips yang merefleksikan titik-titik pada sumbu x
+  - Operasi aritmatika modular yang dilakukan dalam bidang terbatas, bukan bilangan real
+  - Bilangan prima besar yang digunakan sebagai karakteristik medan dalam persamaan kurva
+explanation: |
+  Kesulitan masalah logaritma diskrit berasal dari distribusi titik-titik yang tidak dapat diprediksi dan tidak linier ketika menghasilkan grup siklik (G, 2G, 3G, ..., nG). Meskipun titik-titik dibangkitkan secara berurutan, titik-titik tersebut tampak tersebar dan acak, sehingga secara komputasi tidak memungkinkan untuk menentukan skalar s dari titik P = sG. Walaupun simetri, aritmatika modular, dan bilangan prima yang besar adalah sifat-sifat penting dari kurva eliptik, mereka tidak secara langsung menciptakan fungsi satu arah yang memungkinkan kriptografi kunci publik yang aman.

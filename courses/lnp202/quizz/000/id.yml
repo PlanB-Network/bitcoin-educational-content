@@ -1,0 +1,9 @@
+question: Berapa kapasitas saluran Lightning?
+answer: Jumlah total yang dikunci
+wrong_answers:
+  - Total likuiditas yang tersedia dalam satu arah
+  - Biaya maksimum
+  - Jumlah maksimum pembayaran yang memungkinkan
+explanation: |
+  Kapasitas sesuai dengan jumlah total sats yang diblokir dalam output multisig saluran.
+reviewed: false

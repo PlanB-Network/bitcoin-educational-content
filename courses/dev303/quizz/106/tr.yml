@@ -1,0 +1,8 @@
+question: Hangi temel tasarım ilkesi LDK'nın bir işlemin meşru ödeme yönlendirmesini mi yoksa potansiyel olarak kötü niyetli girişimleri mi temsil ettiğini akıllıca değerlendirebilen Lightning farkındalı HSM'ler oluşturmasına olanak tanır?
+answer: LDK'nın modüler mimarisi, Lightning protokol bağlamı farkındalığını korurken belirli işlem imzalama ve doğrulama bileşenlerinin çıkarılmasını sağlar
+wrong_answers:
+  - "LDK'nın olay odaklı sistemi, temel imzalama sürecine entegre edilmiş makine öğrenimi algoritmaları aracılığıyla şüpheli işlemleri otomatik olarak işaretler"
+  - "LDK'nın blockchain soyutlama katmanı, tüm işlemleri ağ dedikodu verileriyle çapraz referanslandırarak gerçek zamanlı dolandırıcılık tespiti sağlar"
+  - "LDK'nın eş yönetim sistemi, meşru ve kötü niyetli işlem modellerini doğal olarak birbirinden ayıran gelişmiş kriptografik imzalar uygular"
+explanation: |
+  LDK'nın modüler tasarımı, geliştiricilerin işlem bağlamını anlamak için gereken Lightning protokol zekasını korurken yalnızca imzalama ve doğrulama bileşenlerini çıkarmasına olanak tanır. Bu, HSM'lerin işlemleri körü körüne imzalamak yerine ödeme yönlendirme, kanal işlemleri ve güvenlik tehditleri hakkında bilinçli kararlar almasını sağlar. Yanlış cevaplar, bu yeteneği otomatik dolandırıcılık tespiti, blok zinciri izleme veya kriptografik imzalara yanlış bir şekilde atfederken, aslında modüler mimarinin akıllı işlem değerlendirmesine olanak tanıyan izole bileşenlerde protokol farkındalığını sürdürme yeteneği.

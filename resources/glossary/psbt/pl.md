@@ -1,5 +1,6 @@
 ---
 term: PSBT
+definition: Standaryzowany format budowania i udostępniania częściowo podpisanych transakcji Bitcoin.
 ---
 
 Skrót od "Partially Signed Bitcoin Transaction". Jest to specyfikacja wprowadzona wraz z BIP174 w celu standaryzacji sposobu, w jaki niedokończone transakcje są konstruowane w oprogramowaniu związanym z Bitcoin, takim jak oprogramowanie Wallet. PSBT hermetyzuje transakcję, w której dane wejściowe mogą nie być w pełni podpisane. Zawiera on wszystkie informacje niezbędne uczestnikowi do podpisania transakcji bez konieczności podawania dodatkowych danych. W związku z tym PSBT może przybierać 3 różne formy:

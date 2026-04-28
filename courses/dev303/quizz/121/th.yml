@@ -1,0 +1,8 @@
+question: กลไกหลักที่ฟีเจอร์สำรองช่องสัญญาณศูนย์ของ Breez SDK สร้างความเสี่ยงเพิ่มเติมที่ต้องถูกดูดซับโดยผู้ให้บริการ Lightning คืออะไร?
+answer: ผู้ให้บริการ LSP ต้องยอมรับความเสี่ยงที่ผู้ใช้อาจใช้ยอดคงเหลือในช่องทางทั้งหมด ซึ่งจะทำให้ไม่มีบัฟเฟอร์ความปลอดภัยที่ปกติจะป้องกันการปิดช่องทางแบบบังคับ
+wrong_answers:
+  - LSPs มีหน้าที่รับผิดชอบในการรักษาการซิงโครไนซ์กราฟเครือข่ายอย่างต่อเนื่องในอุปกรณ์ผู้ใช้หลายเครื่องโดยไม่มีการชดเชยค่าธรรมเนียมแบบสำรองตามปกติ
+  - LSPs ต้องรับประกันการกำหนดเส้นทางการชำระเงินทันทีโดยไม่ต้องมีเบาะรองสภาพคล่องที่การสำรองช่องทางให้ไว้สำหรับการจัดการสถานการณ์ความแออัดของเครือข่าย
+  - LSPs รับผิดชอบต่อความล้มเหลวของการแลกเปลี่ยน on-chain เมื่อผู้ใช้พยายามแปลงยอดคงเหลือ Lightning ทั้งหมดของพวกเขาเป็น Bitcoin ในช่วงที่ค่าธรรมเนียมสูง
+explanation: |
+  Zero-channel reserves allow users to spend their complete displayed balance, but this eliminates the traditional safety buffer that protects Lightning Service Providers during channel force closures. Channel reserves typically ensure that some funds remain locked to cover closing costs and provide security against malicious behavior. By removing these reserves to improve user experience, LSPs must absorb the additional operational and financial risks that these buffers were designed to mitigate, representing a clear trade-off where technical complexity and risk are shifted from users to service providers.

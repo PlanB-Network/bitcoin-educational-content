@@ -1,0 +1,11 @@
+question: 付费脚本 Hash 升级特别针对哪些使用案例进行了部署？
+answer: 通过多方签名（multisig）确保资金安全
+wrong_answers:
+  - 代管服务
+  - 通过合并 mining 提高网络计算能力
+  - 用于向国外汇款
+explanation: |
+ 由于海盗袭击事件日益增多，确保资金安全是当前一个非常重要的问题。2011 年 8 月 23 日，该项目负责人加文-安德森（Gavin Andresen）提出了这一问题。
+ 项目负责人加文-安德森希望加快协议中已有的多重签名功能的标准化进程。
+ 这导致了 OP_EVAL 和 P2SH 在冬季的开发。
+reviewed: true

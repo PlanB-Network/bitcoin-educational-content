@@ -1,0 +1,8 @@
+question: LDK'nın Lightning wallet geliştirmeye yönelik genel araç seti yaklaşımına kıyasla Breez SDK'nın görüşe dayalı tasarım felsefesinin birincil teknik sonucu nedir?
+answer: LSP işlevselliği gibi temel hizmetlerin SDK'nın kendi içinde doğrudan entegrasyonunu sağlayarak manuel kanal kurulumu olmadan anında ödeme alınmasına olanak tanır
+wrong_answers:
+  - Geliştiricilerin, genel Lightning kütüphanelerini kullanmaya kıyasla daha düşük seviyeli ağ protokolleri ve ödeme yönlendirme algoritmaları uygulamalarını gerektirir
+  - wallet uygulamalarını ağ grafiği senkronizasyonunu ve çapa çıktı yönetimini temel Lightning uygulamasından bağımsız olarak ele almaya zorlar
+  - Görüşe dayalı SDK'lar üçüncü taraf entegrasyonlarını içeremediğinden, LNURL desteği ve döviz kuru hizmetlerinin özel olarak uygulanmasını gerektirir
+explanation: |
+  Breez SDK'nın görüşe dayalı tasarımı özellikle wallet uygulamalarını hedefler ve LSP işlevselliği gibi temel hizmetleri doğrudan SDK'ya entegre etmesine olanak tanır. Bu, geliştiricilerin bu hizmetleri ayrı ayrı uygulamasını gerektiren LDK'nın genel yaklaşımıyla keskin bir tezat oluşturuyor. Entegrasyon, yeni cüzdanlar için anında ödeme alımı gibi sorunsuz kullanıcı deneyimleri sağlarken, LDK'nın geniş kapsamı, geliştiricilerin bu wallet'e özgü özellikleri sıfırdan oluşturmaları gerektiği anlamına gelir, bu da geliştirme karmaşıklığını ve pazara sunma süresini önemli ölçüde artırır.

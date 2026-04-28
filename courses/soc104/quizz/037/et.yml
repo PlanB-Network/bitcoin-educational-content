@@ -1,0 +1,9 @@
+question: Milline on Friedmani vaatenurga kohaselt peamine probleem, kui hinnata sotsiaalpoliitikat pigem selle deklareeritud kavatsuste kui tegelike tulemuste põhjal?
+answer: Heade kavatsustega poliitika tekitab sageli soovimatuid tagajärgi, nagu majanduslik sõltuvus ja turumoonutused, mis on vastuolus selle algsete eesmärkidega
+wrong_answers:
+  - Kavatsusi on liiga raske objektiivselt mõõta võrreldes poliitika tulemuste ja tulemuste otsese hindamisega
+  - Poliitikud eksitavad avalikkust teadlikult oma tegelike kavatsuste kohta, mis muudab kavatsustel põhineva hindamise põhimõtteliselt ebausaldusväärseks ja petlikuks
+  - Kavatsused muutuvad liiga sageli poliitika rakendamise käigus, mis muudab need ebastabiilseks aluseks poliitika pikaajalisele hindamisele
+explanation: |
+  Friedman väidab, et heldete kavatsustega poliitika võib tekitada oma eesmärkidele vastupidiseid tagajärgi, näiteks tekitada sõltuvust nende seas, kes on nende
+  keda tahetakse aidata. Küsimus ei ole mitte mõõtmisraskustes, poliitilises pettuses või kavatsuste muutumises, vaid pigem selles, et head kavatsused ei taga positiivseid tulemusi. Seetõttu eelistatakse struktuurseid määratlusi, mis keskenduvad vaadeldavatele omadustele ja mõõdetavatele tulemustele, tahtlikele määratlustele, mis tuginevad väljendatud motiividele.

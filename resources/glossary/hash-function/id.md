@@ -1,6 +1,7 @@
 ---
-term: FUNGSI HASH
+term: Fungsi hash
 
+definition: Fungsi matematika yang menghasilkan keluaran berukuran tetap dari masukan berukuran variabel.
 ---
 Sebuah fungsi matematika yang mengambil masukan berukuran variabel (disebut pesan) dan menghasilkan keluaran berukuran tetap (disebut _hash_, _hashing_, _digest_, atau sidik jari). Fungsi _hash_ adalah fungsi primitif yang digunakan secara luas dalam kriptografi. Fungsi-fungsi ini menunjukkan sifat-sifat khusus yang membuatnya cocok untuk digunakan dalam konteks yang aman:
 
@@ -17,4 +18,3 @@ Dalam konteks Bitcoin, fungsi _hash_ digunakan untuk beberapa tujuan, termasuk m
 - `SHA512` dalam algoritma `HMAC` dan `PBKDF2` yang digunakan dalam proses mendapatkan dompet deterministik dan hirarkis;
 - `HASH160`, yang menjelaskan penggunaan `SHA256` dan `RIPEMD160` secara berurutan. `HASH160` digunakan dalam proses pembuatan alamat penerima (kecuali P2PK dan P2TR) dan dalam menghitung sidik jari kunci induk untuk kunci yang diperluas.
 
-> ► *Dalam bahasa Inggris, ini disebut sebagai "hash function".*

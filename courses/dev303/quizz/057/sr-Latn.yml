@@ -1,0 +1,8 @@
+question: Koja je primarna svrha znaka uzvika (!) koji sledi nakon imena makroa u Rust?
+answer: Služi kao vizuelni indikator da se generisanje koda dešava u vreme kompajliranja, a ne kao poziv funkcije u vreme izvršavanja.
+wrong_answers:
+  - To ukazuje da će makro paničiti ako mu se tokom izvršavanja daju nevažeći ulazni parametri.
+  - Označava makro kao nesiguran i zahteva eksplicitno priznanje potencijalnih problema sa bezbednošću memorije
+  - Navodi da makro vraća tip Result koji mora biti obrađen sa proverom grešaka
+explanation: |
+  Uzvičnik u sintaksi makroa Rust je nameran dizajnerski izbor koji vizuelno razlikuje makroe od funkcija. Kada vidite `println!()` ili `vec![]`, `!` odmah signalizira da će doći do proširenja koda u vreme kompilacije, a ne do poziva funkcije u vreme izvršavanja. Ova razlika je ključna jer makroi funkcionišu fundamentalno drugačije od funkcija - oni generate kod tokom kompilacije kroz prepoznavanje obrazaca i proširenje. Pogrešni odgovori ovo mešaju sa ponašanjima u vreme izvršavanja kao što su panika, nesigurne operacije ili rukovanje greškama, ali uzvičnik specifično označava prirodu metaprogramiranja u vreme kompilacije kod makroa.

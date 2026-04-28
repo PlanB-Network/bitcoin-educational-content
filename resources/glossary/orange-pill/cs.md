@@ -1,8 +1,8 @@
 ---
-term: ORANGE PILLS
+term: Oranžová pilulka
+definition: Koncept inspirovaný Matrixem, symbolizující procitnutí k pochopení Bitcoinu.
 ---
 
 Tato imaginární pilulka, inspirovaná filmem *Matrix*, probouzí vědomí Bitcoin.
 
 
-> *Používá se také jako sloveso. Oranžový dranžírák = naverbovat někoho do Bitcoin.*

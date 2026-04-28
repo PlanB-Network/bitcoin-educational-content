@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: Lozinka (BIP39)
+definition: Opciona lozinka koja se dodaje frazi za oporavak radi obezbeđivanja HD novčanika.
 ---
 
 Opcioni lozinka koja, kada se kombinuje sa frazom za oporavak, pruža dodatni Layer nivo sigurnosti za determinističke i hijerarhijske Bitcoin novčanike. HD novčanici se obično generišu iz fraze za oporavak koja se sastoji od 12 ili 24 reči. Ova fraza za oporavak je veoma važna, jer omogućava obnavljanje svih ključeva u Wallet u slučaju gubitka. Međutim, ona predstavlja jedinstvenu tačku neuspeha (SPOF). Ako je kompromitovana, bitkoini su u opasnosti. Tu dolazi passphrase. To je opcioni lozinka, koju bira korisnik, koja se dodaje frazi za oporavak kako bi se poboljšala sigurnost Wallet. Ne treba je mešati sa PIN kodom ili običnom lozinkom, passphrase igra ulogu u derivaciji kriptografskih ključeva.

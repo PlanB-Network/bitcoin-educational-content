@@ -6,3 +6,4 @@ wrong_answers:
   - HASH256
 explanation: |
   Checksum dari frasa mnemonik dihitung dengan menerapkan hash SHA256 sederhana pada entropi.
+reviewed: true

@@ -71,7 +71,7 @@ Está disponível em mais de 30 países e dispõe de mais de 500 servidores enca
 
 
 
-Pode descarregar o [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/) dependendo do seu sistema operativo. Neste tutorial, vamos dar uma vista de olhos ao Mozilla VPN no sistema operativo Windows.
+Pode descarregar o [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/) dependendo do seu sistema operativo. Neste tutorial, vamos dar uma vista de olhos ao Mozilla VPN no sistema operativo Windows.
 
 
 
@@ -153,7 +153,7 @@ O Mozilla VPN permite-lhe selecionar a sua localização em dois formatos:
 
 
 
-- Single-Hop: que desloca o IP Address do seu computador e encripta os dados para um servidor numa região específica selecionada, no nosso exemplo Sofia na Bielorrússia.
+- Single-Hop: que desloca o IP Address do seu computador e encripta os dados para um servidor numa região específica selecionada, no nosso exemplo Sofia na Bulgária.
 
 
 

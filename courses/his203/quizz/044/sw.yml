@@ -1,0 +1,10 @@
+question: Ni tatizo gani ambalo Namecoin, sarafu mbadala ya kwanza ya kidijitali badala ya Bitcoin, ilipaswa kutatua?
+answer: Uwekaji wa jina la kikoa kati
+wrong_answers:
+  - Usimamizi wa sifa mtandaoni
+  - Tatizo la tofauti ya mining
+  - Usambazaji usio sawa wa bitcoins
+explanation: |
+ Mfumo wa majina ya kikoa unasimamiwa na ICANN, shirika lisilo la faida lililoanzishwa chini ya sheria ya California, ambalo husababisha matatizo ya udhibiti. Dhana ya BitDNS
+ (baadaye ilipewa jina la Namecoin) ilijumuisha kuweka usimamizi wa majina haya ya kikoa kwenye blockchain sawa na Bitcoin ili kuepuka tatizo hili.
+reviewed: true

@@ -70,7 +70,7 @@ Imbere yo gutangura **Satodime**, urabe neza ko ufise ibi bikurikira:
  - [Iduka ry'amaporogarama]** (iOS)
  - [Iduka ry'imikino ya Google](ububiko bw'imikino ya Google](ibisobanuro?id=org.satochip.satodimeapp)** (Android)
  - Suzuma uwubikora (Satochip) kugira wirinde ubuhendanyi.
- - Satodime ni **inkomoko yuguruye**. Inkomoko : [GitHub ya Satochip] (Toporin/Igitabu ca Satodime).
+ - Satodime ni **inkomoko yuguruye**. Inkomoko : [GitHub ya Satochip](Toporin/Igitabu ca Satodime).
 
 
 
@@ -300,7 +300,7 @@ Ivyerekeye Satodime :
 
 
 
-- [Igicuruzwa c'isatodime] (igicuruzwa c'isatodime/)
+- [Igicuruzwa c'isatodime](igicuruzwa c'isatodime/)
 - [Igitabu c'Ibikoresho vy'Itelefone ngendanwa]
 
 

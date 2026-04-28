@@ -1,0 +1,12 @@
+question: ความสำคัญของ Lightning Network ในบริบทของ Bitcoin mining คืออะไร?
+answer: Lightning Network มีศักยภาพในการลดค่าธรรมเนียมการทำธุรกรรมอย่างมีนัยสำคัญ ซึ่งจะส่งผลกระทบต่อรายได้ของนักขุด
+wrong_answers:
+  - Lightning Network เพิ่มขนาดบล็อก ซึ่งจะเพิ่มรายได้ของนักขุด
+  - Lightning Network ช่วยลดการใช้พลังงานของ Bitcoin mining
+  - Lightning Network เพิ่มความเร็วของ Bitcoin mining
+explanation: |
+  Lightning Network ช่วยให้สามารถทำธุรกรรมได้อย่างรวดเร็วและมีต้นทุนต่ำ
+  นอกเหนือจากเครือข่ายหลัก Bitcoin ซึ่งมี
+  ศักยภาพในการลดค่าธรรมเนียมการทำธุรกรรมอย่างมาก
+  ซึ่งอาจส่งผลกระทบต่อรายได้ของนักขุด
+reviewed: true

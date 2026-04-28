@@ -1,0 +1,9 @@
+question: Vilket bevis används oftast för att låsa upp en UTXO på Bitcoin?
+answer: En digital signatur
+wrong_answers:
+  - Ett kontolösenord
+  - En hash av det aktuella blocket
+  - Ett SSL-certifikat
+explanation: |
+  Spenderingsvillkoret kräver vanligtvis en signatur som skapats med motsvarande privata nyckel.
+reviewed: false

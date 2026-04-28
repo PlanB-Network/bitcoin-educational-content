@@ -10,7 +10,7 @@ description: Gushiraho LN VPN n'umuravyo ku VPN itazwi kandi isaba
 LN VPN ni umukozi wa VPN ushobora guhindurwa wemera gusa amahera y’umuravyo. Uyu musi, nzokwereka ingene woyikoresha kandi ugasiga ibimenyetso bike iyo uriko urarondera ama interwebs.
 
 
-Hariho abatanga ubuhinga bwa VPN benshi, kandi twakoze isuzuma ry’ibintu vyose muri iyi nkuru (hyperlink). Ariko rero, LN VPN iratandukanye, kandi ntitwashobora gutakaza akaryo ko kubamenyesha.
+Hariho abatanga ubuhinga bwa VPN benshi, ariko LN VPN iratandukanye, kandi ntitwashobora gutakaza akaryo ko kubamenyesha.
 
 
 Benshi mu batanga ubuhinga bwa VPN nka ProtonVPN na Mullvad batanga uburenganzira bwo kwishura n’amahera ya bitcoins ariko bisaba gukora konti no kugura umugambi w’igihe kirekire canke gito, ivyo bishobora kutajanye n’ingengo y’imari y’umuntu wese.

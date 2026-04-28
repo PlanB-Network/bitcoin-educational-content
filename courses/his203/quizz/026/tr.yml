@@ -1,0 +1,10 @@
+question: BitCoinJ'de uygulanan ve Android için Bitcoin Wallet gibi hafif wallet'ler tarafından kullanılan basitleştirilmiş ödeme doğrulamasının (SPV) temel avantajı neydi?
+answer: Tüm blok zincirini indirmek zorunda kalmadan işlemlerin doğrulanmasını sağladı
+wrong_answers:
+  - Gizliliği artırmak için bir ödeme alındığında bitcoinleri otomatik olarak karıştırdı
+  - Truva atı hırsızlığını önlemek için AES-256 algoritmasını kullanarak wallet verilerini şifreledi
+  - İşlemlerin kötüye kullanılabilirliğinden yararlanan saldırıları önlemek için mevcut bir düğüme bağlantıyı güvenli hale getirmeyi mümkün kıldı
+explanation: |
+ Basitleştirilmiş Ödeme Doğrulaması (SPV), Bitcoin teknik incelemesinde açıklanan ve ince istemcilerin işlemlerini doğrulamasını sağlayan önemli bir yenilikti
+ tüm verileri indirmeye ve depolamaya gerek kalmadan blok zincirine aittir.
+reviewed: true

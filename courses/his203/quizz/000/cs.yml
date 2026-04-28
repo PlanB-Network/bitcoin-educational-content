@@ -1,0 +1,10 @@
+question: Jaká událost přiměla Satoshi Nakamoto v prosinci 2010 stáhnout se ze záře reflektorů?
+answer: Zveřejnění článku v PC World, který vyzývá WikiLeaks k použití Bitcoin
+wrong_answers:
+  - Ross Ulbricht spouští platformu Silk Road
+  - Kontakt navázaný společností In-Q-Tel, investičním fondem CIA
+  - Velkolepý nárůst ceny BTC z 0,20 USD na 32 USD během několika měsíců
+explanation: |
+ Satoshi se k této publikaci na fóru Bitcoin vyjádřil negativně v obavě, že by mohla přitáhnout pozornost státních orgánů. Tržiště Hedvábné stezky
+ bylo spuštěno v lednu 2011, kontakt mezi společností In-Q-Tel a Gavinem Andresenem proběhl v dubnu a v červnu dosáhl cenový nárůst vrcholu 32 USD.
+reviewed: true

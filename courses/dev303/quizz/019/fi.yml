@@ -1,0 +1,8 @@
+question: Mitä nimeämiskäytäntöä Rust noudattaa rakenteiden ja kenttien nimissä?
+answer: CamelCase rakenteiden nimille ja snake_case kenttien nimille
+wrong_answers:
+  - snake_case rakenteiden nimille ja CamelCase kenttien nimille
+  - kebab-kirjaimet rakenteiden nimille ja camelCase-kirjaimet kenttien nimille
+  - UPPER_CASE rakenteiden nimille ja pienet kirjaimet kenttien nimille
+explanation: |
+  Rust noudattaa tiettyjä nimeämiskäytäntöjä, joita kääntäjä valvoo varoitusten avulla. Rakenteiden nimissä tulisi käyttää CamelCase-kirjainta (tunnetaan myös nimellä PascalCase), jossa jokainen sana alkaa isolla kirjaimella, kuten 'MyStruct'. Rakenteiden sisällä olevien kenttien nimissä tulisi käyttää snake_case-kirjainta, jossa sanat erotetaan toisistaan alleviivauksella, kuten 'my_field'. Tämä käytäntö säilyttää johdonmukaisuuden Rust-koodipohjissa ja parantaa kehittäjien luettavuutta.

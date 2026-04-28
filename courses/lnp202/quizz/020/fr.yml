@@ -1,0 +1,9 @@
+question: Pourquoi restaurer un ancien channel.db est-il dangereux ?
+answer: Risque de pénalité
+wrong_answers:
+  - Perte de seed
+  - Corruption du gossip
+  - Blocage du routage
+explanation: |
+  Un état obsolète peut être interprété comme une tentative de triche et entraîner la perte des fonds du canal.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: TRÊN LƯỚI
+term: Trên lưới điện
+definition: Khai thác được kết nối với lưới điện chung để cung cấp năng lượng cho các máy ASIC.
 ---
 
 Chỉ hoạt động Bitcoin Mining được kết nối với lưới điện chung. Các thợ đào trên lưới điện kết nối với lưới điện thông thường, cũng được người tiêu dùng dân dụng sử dụng, để cấp nguồn cho ASIC của họ. Phương pháp này cung cấp nguồn điện ổn định, nhưng thường đắt hơn so với Mining ngoài lưới điện, do biên độ đàm phán hạn chế hơn.

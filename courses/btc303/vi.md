@@ -39,6 +39,34 @@ Cuốn sách được ủy quyền và tài trợ bởi [Chaincode Labs](https:/
 
 +++
 
+
+
+# Giới thiệu
+
+<partId>58c48e9b-e285-4dc6-8952-6cc5140b1313</partId>
+
+## Tổng quan khóa học
+
+<chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
+
+Chào mừng bạn đến với khóa học BTC 303 về triết lý phát triển Bitcoin.
+
+Bitcoin không chỉ đơn thuần là một loại tiền điện tử, nó còn thể hiện một tầm nhìn triết học về phi tập trung, quyền riêng tư, tính trung thực và khả năng phục hồi. Khóa học này được thiết kế dành riêng cho các nhà phát triển đã quen thuộc với nền tảng kỹ thuật của Bitcoin và hiện đang muốn tìm hiểu sâu hơn về các nguyên tắc làm nền tảng cho thiết kế và quản trị của Bitcoin.
+
+Xuyên suốt khóa học này, bạn sẽ hiểu rõ hơn về các giá trị và chiến lược thiết yếu đã định hướng sự phát triển của Bitcoin trong hơn một thập kỷ qua. Bằng cách khám phá sâu sắc các chủ đề này, bạn sẽ phát triển được tư duy phản biện cần thiết để đánh giá và đóng góp vào những phát triển trong tương lai một cách tự tin.
+
+### Các giá trị cốt lõi của Bitcoin
+
+Điều gì làm cho Bitcoin trở nên độc đáo? Phần này sẽ tiết lộ các giá trị nền tảng cốt lõi trong thiết kế của Bitcoin. Bạn sẽ khám phá **phi tập trung**, nền tảng đảm bảo không một thực thể nào kiểm soát mạng lưới; **không cần tin tưởng**, chìa khóa để loại bỏ sự phụ thuộc vào bên thứ ba; **quyền riêng tư**, thiết yếu cho cả tự do cá nhân và tính toàn vẹn của hệ thống; và **nguồn cung hữu hạn**, sự đảm bảo được mã hóa về sự khan hiếm định hình bản sắc kinh tế của Bitcoin. Nắm vững các khái niệm này sẽ cho phép bạn hiểu đầy đủ các điểm mạnh và điểm yếu của Bitcoin.
+
+### Quản trị Bitcoin
+
+Việc điều hướng trong bối cảnh quản trị phức tạp của Bitcoin đòi hỏi nhiều hơn là chỉ chuyên môn kỹ thuật, mà còn cần hiểu rõ cách tiếp cận độc đáo của Bitcoin đối với sự đồng thuận và ra quyết định. Trong phần này, bạn sẽ đi sâu vào các cơ chế và triết lý đằng sau các quy trình quan trọng như nâng cấp giao thức, sự cần thiết của tư duy phản biện, sức mạnh của sự hợp tác mã nguồn mở, những thách thức liên tục về khả năng mở rộng và các chiến lược tinh tế cần thiết khi mọi thứ không thể tránh khỏi sai sót. Được trang bị kiến thức này, bạn sẽ không chỉ sẵn sàng tham gia mà còn có thể định hình tương lai của Bitcoin một cách hiệu quả và có trách nhiệm.
+
+Bạn đã sẵn sàng bước tiếp trên hành trình Bitcoin của mình chưa? Hãy bắt đầu nào!
+
+
+
 # Bitcoin Giá trị trung tâm
 
 <partId>2d6c683b-54c8-5465-b2ca-4e96a6828834</partId>
@@ -54,7 +82,7 @@ Cuốn sách được ủy quyền và tài trợ bởi [Chaincode Labs](https:/
 
 Bài viết này phân tích phân cấp là gì và tại sao nó lại cần thiết để Bitcoin hoạt động. Chúng tôi phân biệt giữa
 
-sự phân cấp của thợ đào và các nút đầy đủ, và thảo luận về những gì họ mang lại để chống kiểm duyệt, một trong những đặc tính cốt lõi nhất của Bitcoin.
+sự phân cấp của [thợ đào](https://planb.academy/resources/glossary/mining) và các [nút đầy đủ](https://planb.academy/resources/glossary/full-node), và thảo luận về những gì họ mang lại để chống kiểm duyệt, một trong những đặc tính cốt lõi nhất của Bitcoin.
 
 
 Sau đó, cuộc thảo luận chuyển sang tìm hiểu tính trung lập - hoặc không cần xin phép đối với người dùng, thợ đào và nhà phát triển - đây là một đặc tính cần thiết của bất kỳ hệ thống phi tập trung nào. Cuối cùng, chúng tôi đề cập đến cách Hard có thể nắm bắt một hệ thống phi tập trung như Bitcoin và trình bày một số mô hình tinh thần có thể giúp bạn hiểu rõ.
@@ -69,7 +97,7 @@ Phân quyền là một phương tiện để đạt được *khả năng chố
 Có hai khía cạnh chính của sự phân quyền trong Bitcoin: phân quyền Miner và phân quyền Full node.
 
 
-Phân quyền Miner đề cập đến thực tế là việc xử lý giao dịch không được thực hiện hoặc phối hợp bởi bất kỳ thực thể trung tâm nào. Phân quyền Full node đề cập đến thực tế là việc xác thực các khối, tức là dữ liệu mà thợ đào đưa ra, được thực hiện ở rìa mạng, cuối cùng là bởi người dùng của mạng, chứ không phải bởi một số ít cơ quan đáng tin cậy.
+Phân quyền Miner đề cập đến thực tế là việc xử lý [giao dịch](https://planb.academy/resources/glossary/transaction-tx) không được thực hiện hoặc phối hợp bởi bất kỳ thực thể trung tâm nào. Phân quyền Full node đề cập đến thực tế là việc xác thực các [khối](https://planb.academy/resources/glossary/block), tức là dữ liệu mà thợ đào đưa ra, được thực hiện ở rìa mạng, cuối cùng là bởi người dùng của mạng, chứ không phải bởi một số ít cơ quan đáng tin cậy.
 
 
 ![](assets/vi/001.webp)
@@ -85,10 +113,10 @@ Phân quyền Miner đề cập đến thực tế là việc xử lý giao dị
 Phân quyền Miner trong Bitcoin có nghĩa là *việc sắp xếp các giao dịch* không được thực hiện bởi bất kỳ thực thể đơn lẻ hoặc tập hợp các thực thể cố định nào. Nó được thực hiện tập thể bởi tất cả các tác nhân muốn tham gia vào nó; tập thể thợ đào này là một tập hợp người dùng năng động. Bất kỳ ai cũng có thể tham gia hoặc rời đi tùy ý. Thuộc tính này làm cho Bitcoin chống kiểm duyệt.
 
 
-Nếu Bitcoin được tập trung hóa, nó sẽ dễ bị tổn thương bởi những người muốn kiểm duyệt nó, chẳng hạn như chính phủ. Nó sẽ gặp phải số phận tương tự như những nỗ lực trước đó nhằm tạo ra tiền kỹ thuật số. Trong phần giới thiệu của [một bài báo](https://www.blockstream.com/sidechains.pdf) có tiêu đề "Cho phép đổi mới Blockchain bằng chuỗi bên được gắn chặt", các tác giả giải thích cách các phiên bản tiền kỹ thuật số ban đầu không được trang bị cho môi trường đối đầu (xem thêm chương về Tư duy đối đầu trong phần tiếp theo).
+Nếu Bitcoin được tập trung hóa, nó sẽ dễ bị tổn thương bởi những người muốn kiểm duyệt nó, chẳng hạn như chính phủ. Nó sẽ gặp phải số phận tương tự như những nỗ lực trước đó nhằm tạo ra tiền kỹ thuật số. Trong phần giới thiệu của [một bài báo](https://www.blockstream.com/sidechains.pdf) có tiêu đề "Cho phép đổi mới [Blockchain](https://planb.academy/resources/glossary/blockchain) bằng chuỗi bên được gắn chặt", các tác giả giải thích cách các phiên bản tiền kỹ thuật số ban đầu không được trang bị cho môi trường đối đầu (xem thêm chương về Tư duy đối đầu trong phần tiếp theo).
 
 
-David Chaum đã giới thiệu tiền kỹ thuật số như một chủ đề nghiên cứu vào năm 1983, trong bối cảnh có một máy chủ trung tâm được tin cậy để ngăn chặn Double-spending. Để giảm thiểu rủi ro về quyền riêng tư đối với cá nhân từ bên trung tâm đáng tin cậy này và để thực thi khả năng thay thế, Chaum đã giới thiệu chữ ký mù, mà ông đã sử dụng để cung cấp một phương tiện mật mã để ngăn chặn việc liên kết các chữ ký của máy chủ trung tâm (đại diện cho tiền xu), trong khi vẫn cho phép máy chủ trung tâm thực hiện việc ngăn chặn chi tiêu gấp đôi.
+David Chaum đã giới thiệu tiền kỹ thuật số như một chủ đề nghiên cứu vào năm 1983, trong bối cảnh có một máy chủ trung tâm được tin cậy để ngăn chặn [Double-spending](https://planb.academy/resources/glossary/double-spending-attack). Để giảm thiểu rủi ro về quyền riêng tư đối với cá nhân từ bên trung tâm đáng tin cậy này và để thực thi [khả năng thay thế](https://planb.academy/resources/glossary/fungibility), Chaum đã giới thiệu [chữ ký mù](https://planb.academy/resources/glossary/blind-signature), mà ông đã sử dụng để cung cấp một phương tiện mật mã để ngăn chặn việc liên kết các chữ ký của máy chủ trung tâm (đại diện cho tiền xu), trong khi vẫn cho phép máy chủ trung tâm thực hiện việc ngăn chặn chi tiêu gấp đôi.
 
 Yêu cầu về một máy chủ trung tâm đã trở thành gót chân Achilles của tiền kỹ thuật số[Gri99]. Mặc dù có thể phân phối điểm lỗi duy nhất này bằng cách thay thế chữ ký của máy chủ trung tâm bằng chữ ký ngưỡng của một số người ký, nhưng điều quan trọng đối với khả năng kiểm toán là những người ký phải khác biệt và có thể nhận dạng được. Điều này vẫn khiến hệ thống dễ bị lỗi, vì từng người ký có thể lỗi hoặc bị lỗi, từng người một.
 
@@ -99,7 +127,7 @@ Rõ ràng là việc sử dụng máy chủ trung tâm để sắp xếp các gi
 Hãy cùng xem xét điều gì có thể xảy ra nếu Bitcoin bị kiểm duyệt. Người kiểm duyệt có thể gây áp lực buộc người dùng phải xác định danh tính, khai báo nguồn gốc tiền của họ hoặc họ mua gì bằng tiền đó trước khi cho phép giao dịch của họ vào Blockchain.
 
 
-Ngoài ra, việc thiếu khả năng chống kiểm duyệt sẽ cho phép kiểm duyệt viên ép buộc người dùng áp dụng các quy tắc hệ thống mới. Ví dụ, họ có thể áp đặt một thay đổi cho phép họ thổi phồng tiền Supply, do đó làm giàu cho chính họ. Trong trường hợp như vậy, người dùng xác minh các khối sẽ có ba tùy chọn để xử lý các quy tắc mới:
+Ngoài ra, việc thiếu khả năng chống kiểm duyệt sẽ cho phép kiểm duyệt viên ép buộc người dùng áp dụng các quy tắc hệ thống mới. [Ví](https://planb.academy/resources/glossary/wallet) dụ, họ có thể áp đặt một thay đổi cho phép họ thổi phồng tiền Supply, do đó làm giàu cho chính họ. Trong trường hợp như vậy, người dùng xác minh các khối sẽ có ba tùy chọn để xử lý các quy tắc mới:
 
 
 
@@ -114,17 +142,17 @@ Nếu họ thành công, những vấn đề tương tự rất có thể sẽ t
 Không có tùy chọn nào trong số này có lợi cho người dùng.
 
 
-Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi Nakamoto viết trong [sách trắng Bitcoin](https://planb.academy/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
+Khả năng chống kiểm duyệt thông qua phi tập trung là điều khiến Bitcoin khác biệt với các hệ thống tiền tệ khác, nhưng đây không phải là điều dễ dàng thực hiện do *vấn đề Double-spending*. Đây là vấn đề đảm bảo không ai có thể chi tiêu cùng một đồng tiền hai lần, một vấn đề mà nhiều người nghĩ là không thể giải quyết theo cách phi tập trung. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) viết trong [sách trắng Bitcoin](https://planb.academy/bitcoin.pdf) của mình về cách giải quyết vấn đề Double-spending:
 
 
 > Trong bài báo này, chúng tôi đề xuất một giải pháp cho vấn đề Double-spending bằng cách sử dụng máy chủ Timestamp phân tán ngang hàng để chứng minh tính toán thứ tự thời gian của các giao dịch trên generate.
 
 
-Ở đây, ông sử dụng cụm từ nghe có vẻ kỳ lạ "máy chủ Timestamp phân tán ngang hàng". Từ khóa ở đây là *phân tán*, trong ngữ cảnh này có nghĩa là không có điểm kiểm soát trung tâm. Sau đó, Nakamoto tiếp tục giải thích cách Proof-of-Work là giải pháp.
+Ở đây, ông sử dụng cụm từ nghe có vẻ kỳ lạ "máy chủ Timestamp phân tán ngang hàng". Từ khóa ở đây là *phân tán*, trong ngữ cảnh này có nghĩa là không có điểm kiểm soát trung tâm. Sau đó, Nakamoto tiếp tục giải thích cách [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) là giải pháp.
 
 Tuy nhiên, không ai giải thích nó tốt hơn
 
-[Gregory Maxwell trên Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), nơi ông trả lời một người đề xuất hạn chế công suất Hash của thợ đào để tránh các cuộc tấn công 51% tiềm ẩn:
+[Gregory Maxwell trên Reddit](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), nơi ông trả lời một người đề xuất hạn chế [công suất Hash](https://planb.academy/resources/glossary/hashrate) của thợ đào để tránh các cuộc tấn công 51% tiềm ẩn:
 
 
 > Một hệ thống phi tập trung như Bitcoin sử dụng một cuộc bầu cử công khai. Nhưng bạn không thể chỉ có một cuộc bỏ phiếu của 'mọi người' trong một hệ thống phi tập trung vì điều đó sẽ yêu cầu một đảng tập trung cho phép mọi người bỏ phiếu. Thay vào đó, Bitcoin sử dụng một cuộc bỏ phiếu của sức mạnh tính toán vì có thể xác minh sức mạnh tính toán mà không cần sự trợ giúp của bất kỳ hệ thống tập trung nào
@@ -152,7 +180,7 @@ Trong các đoạn văn trên, chúng ta chủ yếu nói về sự phi tập tr
 Tầm quan trọng của việc phân quyền Full node liên quan đến sự không tin cậy. Giả sử người dùng ngừng chạy Full node của riêng họ do, ví dụ, chi phí vận hành tăng cao. Trong trường hợp đó, họ phải tương tác với mạng Bitcoin theo một cách khác, có thể bằng cách sử dụng ví web hoặc ví nhẹ, đòi hỏi một mức độ tin cậy nhất định vào các nhà cung cấp dịch vụ này.
 
 
-Người dùng chuyển từ việc trực tiếp thực thi các quy tắc đồng thuận của mạng sang tin tưởng rằng người khác sẽ thực hiện. Bây giờ giả sử rằng hầu hết người dùng ủy quyền thực thi đồng thuận cho một thực thể đáng tin cậy. Trong trường hợp đó, mạng có thể nhanh chóng chuyển sang tập trung hóa và các quy tắc mạng có thể bị thay đổi bởi các tác nhân độc hại thông đồng.
+Người dùng chuyển từ việc trực tiếp thực thi các [quy tắc đồng thuận](https://planb.academy/resources/glossary/consensus-rules) của mạng sang tin tưởng rằng người khác sẽ thực hiện. Bây giờ giả sử rằng hầu hết người dùng ủy quyền thực thi [đồng thuận](https://planb.academy/resources/glossary/consensus) cho một thực thể đáng tin cậy. Trong trường hợp đó, mạng có thể nhanh chóng chuyển sang tập trung hóa và các quy tắc mạng có thể bị thay đổi bởi các tác nhân độc hại thông đồng.
 
 
 Trong [một
@@ -548,7 +576,7 @@ Trong bài viết được thảo luận ở đó, Gregory Maxwell [đã phát b
 
 > Quyền riêng tư về tài chính là một yếu tố thiết yếu đối với tính thay thế trong Bitcoin: nếu bạn có thể phân biệt một đồng tiền này với một đồng tiền khác một cách có ý nghĩa, thì tính thay thế của chúng là yếu. Nếu tính thay thế của chúng ta quá yếu trong thực tế, thì chúng ta không thể phi tập trung: nếu một người quan trọng nào đó công bố danh sách các đồng tiền bị đánh cắp mà họ sẽ không chấp nhận các đồng tiền bắt nguồn từ đó, bạn phải cẩn thận kiểm tra các đồng tiền mà bạn chấp nhận so với danh sách đó và trả lại những đồng tiền không đạt. Mọi người đều bị mắc kẹt khi kiểm tra danh sách đen do nhiều cơ quan khác nhau ban hành vì trong thế giới đó, tất cả chúng ta đều không muốn bị mắc kẹt với những đồng tiền xấu. Điều này làm tăng thêm sự cản trở và chi phí giao dịch, đồng thời khiến Bitcoin kém giá trị hơn như một loại tiền.
 
-Ở đây, ông ấy nói về những nguy hiểm phát sinh từ việc thiếu khả năng thay thế. Giả sử bạn có một UTXO. Lịch sử của UTXO đó thường có thể được truy ngược lại nhiều lần, lan tỏa ra vô số đầu ra trước đó. Nếu bất kỳ đầu ra nào trong số đó liên quan đến bất kỳ hoạt động bất hợp pháp, không mong muốn hoặc đáng ngờ nào, thì một số người nhận tiềm năng của đồng tiền của bạn có thể từ chối nó. Nếu bạn nghĩ rằng người nhận tiền của bạn sẽ xác minh đồng tiền của bạn với một số dịch vụ danh sách trắng hoặc danh sách đen tập trung, bạn có thể bắt đầu kiểm tra cả những đồng tiền bạn nhận được, chỉ để đảm bảo an toàn. Kết quả là khả năng thay thế kém sẽ củng cố khả năng thay thế thậm chí còn tệ hơn.
+Ở đây, ông ấy nói về những nguy hiểm phát sinh từ việc thiếu khả năng thay thế. Giả sử bạn có một [UTXO](https://planb.academy/resources/glossary/utxo). Lịch sử của UTXO đó thường có thể được truy ngược lại nhiều lần, lan tỏa ra vô số đầu ra trước đó. Nếu bất kỳ đầu ra nào trong số đó liên quan đến bất kỳ hoạt động bất hợp pháp, không mong muốn hoặc đáng ngờ nào, thì một số người nhận tiềm năng của đồng tiền của bạn có thể từ chối nó. Nếu bạn nghĩ rằng người nhận tiền của bạn sẽ xác minh đồng tiền của bạn với một số dịch vụ danh sách trắng hoặc danh sách đen tập trung, bạn có thể bắt đầu kiểm tra cả những đồng tiền bạn nhận được, chỉ để đảm bảo an toàn. Kết quả là khả năng thay thế kém sẽ củng cố khả năng thay thế thậm chí còn tệ hơn.
 
 
 Adam Back và Matt Corallo [đã có bài thuyết trình về khả năng thay thế](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) tại Scaling Bitcoin ở Milan năm 2016. Họ đã suy nghĩ theo hướng tương tự:
@@ -634,7 +662,7 @@ Quyền riêng tư rất quan trọng nhưng Hard phải đạt được. Không
 ![](assets/vi/006.webp)
 
 
-Chương này sẽ xem xét giới hạn 21 triệu BTC của Bitcoin Supply, hay thực tế là bao nhiêu? Chúng tôi sẽ nói về cách giới hạn này được thực thi và những gì người ta có thể làm để xác minh rằng nó đang được tôn trọng. Hơn nữa, chúng tôi sẽ xem xét quả cầu pha lê và thảo luận về động lực sẽ phát huy tác dụng khi Block reward chuyển từ dựa trên trợ cấp sang dựa trên phí.
+Chương này sẽ xem xét giới hạn 21 triệu BTC của Bitcoin Supply, hay thực tế là bao nhiêu? Chúng tôi sẽ nói về cách giới hạn này được thực thi và những gì người ta có thể làm để xác minh rằng nó đang được tôn trọng. Hơn nữa, chúng tôi sẽ xem xét quả cầu pha lê và thảo luận về động lực sẽ phát huy tác dụng khi [Block reward](https://planb.academy/resources/glossary/block-reward) chuyển từ dựa trên trợ cấp sang dựa trên phí.
 
 
 Supply hữu hạn nổi tiếng với 21 triệu BTC được coi là một đặc tính cơ bản của Bitcoin. Nhưng liệu nó có thực sự được xác định chắc chắn không?
@@ -645,7 +673,7 @@ Chúng ta hãy bắt đầu bằng cách xem các quy tắc đồng thuận hi�
 
 > Nếu bạn cộng tất cả những con số này lại với nhau, bạn sẽ nhận được 20999999,9769 BTC.
 
-Nhưng do một số lý do -- chẳng hạn như các vấn đề ban đầu với giao dịch coinbase, thợ đào vô tình khai thác ít hơn mức cho phép và mất khóa riêng -- giới hạn trên sẽ không bao giờ đạt được. Wuille kết luận:
+Nhưng do một số lý do -- chẳng hạn như các vấn đề ban đầu với [giao dịch coinbase](https://planb.academy/resources/glossary/coinbase-transaction), thợ đào vô tình khai thác ít hơn mức cho phép và mất khóa riêng -- giới hạn trên sẽ không bao giờ đạt được. Wuille kết luận:
 
 
 > Điều này giúp chúng ta có 20999817.31308491 BTC (tính đến mọi thứ cho đến khối 528333)
@@ -678,7 +706,7 @@ Ngay cả khi một số full node chuyển sang phía tối và quyết định
 
 
 
-Block reward bao gồm trợ cấp khối cộng với phí giao dịch. Block reward cần trang trải chi phí bảo mật của Bitcoin. Chúng ta có thể chắc chắn rằng trong điều kiện hiện tại liên quan đến trợ cấp khối, phí giao dịch, giá Bitcoin, quy mô Mempool, sức mạnh Hash, mức độ phi tập trung, v.v., động lực để mọi người chơi tuân thủ luật lệ là đủ cao để duy trì một hệ thống tiền tệ an toàn.
+Block reward bao gồm [trợ cấp khối](https://planb.academy/resources/glossary/block-subsidy) cộng với [phí giao dịch](https://planb.academy/resources/glossary/transaction-fees). Block reward cần trang trải chi phí bảo mật của Bitcoin. Chúng ta có thể chắc chắn rằng trong điều kiện hiện tại liên quan đến trợ cấp khối, phí giao dịch, giá Bitcoin, quy mô [Mempool](https://planb.academy/resources/glossary/mempool), sức mạnh Hash, mức độ phi tập trung, v.v., động lực để mọi người chơi tuân thủ luật lệ là đủ cao để duy trì một hệ thống tiền tệ an toàn.
 
 
 Điều gì xảy ra khi trợ cấp khối tiến gần đến số không? Để đơn giản, chúng ta hãy giả sử nó thực sự bằng số không. Tại thời điểm này, chi phí bảo mật của hệ thống chỉ được chi trả thông qua phí giao dịch. Tương lai sẽ ra sao khi điều này xảy ra, chúng ta không thể biết. Các yếu tố không chắc chắn rất nhiều và chúng ta chỉ còn biết suy đoán. Ví dụ, đóng góp của Paul Sztorc cho chủ đề này [trong blog Truthcoin của ông](https://www.truthcoin.info/blog/security-budget/) chủ yếu là suy đoán, nhưng ông ấy có ít nhất một điểm chắc chắn (xin lưu ý rằng M2, theo cách gọi của Sztorc, là phép đo của tiền pháp định Supply):
@@ -695,7 +723,7 @@ Ngày nay, người nắm giữ là người trả tiền cho sự an toàn (th�
 Theo thời gian, gánh nặng chi phí an ninh sẽ chuyển từ người nắm giữ sang người chi tiêu
 
 
-Khi phí giao dịch là động lực chính của Mining, các động cơ sẽ thay đổi. Đáng chú ý nhất là nếu Mempool của Miner không chứa đủ phí giao dịch, thì việc Miner đó viết lại lịch sử của Bitcoin có thể có lợi hơn thay vì mở rộng nó. Bitcoin Optech có một [phần cụ thể về hành vi này](https://bitcoinops.org/en/topics/fee-sniping/), được gọi là *fee sniping*, do David Harding viết:
+Khi phí giao dịch là động lực chính của Mining, các động cơ sẽ thay đổi. Đáng chú ý nhất là nếu Mempool của Miner không chứa đủ phí giao dịch, thì việc Miner đó viết lại lịch sử của Bitcoin có thể có lợi hơn thay vì mở rộng nó. Bitcoin Optech có một [phần cụ thể về hành vi này](https://bitcoinops.org/en/topics/fee-sniping/), được gọi là *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*, do David Harding viết:
 
 
 > Phí cắt xén là một vấn đề có thể xảy ra khi trợ cấp của Bitcoin tiếp tục giảm và phí giao dịch bắt đầu chi phối phần thưởng khối của Bitcoin. Nếu phí giao dịch là tất cả những gì quan trọng, thì Miner với `x` phần trăm tỷ lệ Hash có `x` phần trăm cơ hội Mining khối tiếp theo, vì vậy giá trị mong đợi đối với họ của Mining một cách trung thực là `x` phần trăm của [tập hợp giao dịch có tỷ lệ phí tốt nhất](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) trong Mempool của họ.
@@ -776,7 +804,7 @@ Một tiêu chuẩn hỗ trợ khả năng tương thích ngược nếu sản p
 Ngược lại, [tương thích ngược](https://en.wikipedia.org/wiki/Backward_compatibility) đề cập đến thời điểm dữ liệu từ phần mềm cũ có thể sử dụng được trên phần mềm mới hơn. Một thay đổi được cho là hoàn toàn tương thích nếu nó tương thích cả về phía trước và phía sau.
 
 
-Một thay đổi đối với các quy tắc đồng thuận Bitcoin được gọi là *Soft Fork* nếu nó hoàn toàn tương thích. Đây là cách phổ biến nhất để nâng cấp Bitcoin, vì một số lý do mà chúng ta sẽ thảo luận thêm trong chương này. Nếu một thay đổi đối với các quy tắc đồng thuận Bitcoin tương thích ngược nhưng không tương thích xuôi, thì nó được gọi là *Hard Fork*.
+Một thay đổi đối với các quy tắc đồng thuận Bitcoin được gọi là *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* nếu nó hoàn toàn tương thích. Đây là cách phổ biến nhất để nâng cấp Bitcoin, vì một số lý do mà chúng ta sẽ thảo luận thêm trong chương này. Nếu một thay đổi đối với các quy tắc đồng thuận Bitcoin tương thích ngược nhưng không tương thích xuôi, thì nó được gọi là *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
 Để biết tổng quan kỹ thuật về phuộc Soft và phuộc Hard, vui lòng đọc [chương 11 của Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Chương này giải thích các thuật ngữ này và cũng đi sâu vào các cơ chế nâng cấp. Bạn nên nắm rõ điều này, mặc dù không thực sự cần thiết, trước khi tiếp tục đọc.
@@ -791,24 +819,24 @@ Bitcoin ngày nay không còn giống như khi khối Genesis được tạo ra.
 
 > Trên thực tế, có một Hard-Fork trong Bitcoin mà Satoshi đã thực hiện mà chúng tôi sẽ không bao giờ thực hiện theo cách này - đó là một cách thực hiện khá tệ. Nếu bạn xem mô tả git commit tại đây [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], anh ấy nói gì đó về makefile.unix wx-config phiên bản 0.3.6 đã hoàn nguyên. Đúng vậy. Đó là tất cả những gì nó nói. Nó không có dấu hiệu nào cho thấy nó có bất kỳ thay đổi đột ngột nào cả. Về cơ bản, anh ấy đã ẩn nó ở đó. Anh ấy cũng [đã đăng lên bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) và nói rằng, hãy nâng cấp lên 0.3.6 càng sớm càng tốt. Chúng tôi đã sửa lỗi triển khai khiến các giao dịch giả mạo có thể được hiển thị là đã chấp nhận. Không chấp nhận thanh toán Bitcoin cho đến khi bạn nâng cấp lên 0.3.6. Nếu bạn không thể nâng cấp ngay lập tức, thì tốt nhất là tắt nút Bitcoin của bạn cho đến khi bạn thực hiện. Và sau đó, tôi không biết tại sao anh ấy lại quyết định làm điều này nữa, anh ấy quyết định thêm một số tối ưu hóa vào cùng một mã. Sửa lỗi và thêm một số tối ưu hóa.
 
-Ông chỉ ra rằng, dù cố ý hay không, Hard Fork này đã tạo ra cơ hội cho các nhánh Soft trong tương lai, cụ thể là các toán tử Script (mã lệnh) OP_NOP1-OP_NOP10. Chúng ta sẽ xem xét kỹ hơn về thay đổi mã này trong cve-2010-5141. Các mã lệnh này đã được sử dụng cho hai nhánh Soft cho đến nay:
+Ông chỉ ra rằng, dù cố ý hay không, Hard Fork này đã tạo ra cơ hội cho các nhánh Soft trong tương lai, cụ thể là các toán tử Script ([mã lệnh](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10. Chúng ta sẽ xem xét kỹ hơn về thay đổi mã này trong cve-2010-5141. Các mã lệnh này đã được sử dụng cho hai nhánh Soft cho đến nay:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo cũng cung cấp tổng quan về cách các cơ chế nâng cấp đã phát triển qua nhiều năm, cho đến năm 2017. Kể từ đó, chỉ có một bản nâng cấp lớn khác, Taproot, được triển khai. Quá trình dài và có phần hỗn loạn dẫn đến việc kích hoạt nó đã giúp chúng tôi có thêm hiểu biết sâu sắc về các cơ chế nâng cấp trong Bitcoin.
+Lombrozo cũng cung cấp tổng quan về cách các cơ chế nâng cấp đã phát triển qua nhiều năm, cho đến năm 2017. Kể từ đó, chỉ có một bản nâng cấp lớn khác, [Taproot](https://planb.academy/resources/glossary/taproot), được triển khai. Quá trình dài và có phần hỗn loạn dẫn đến việc kích hoạt nó đã giúp chúng tôi có thêm hiểu biết sâu sắc về các cơ chế nâng cấp trong Bitcoin.
 
 
 #### Nâng cấp SegWit
 
 
 
-Trong khi tất cả các bản nâng cấp trước SegWit đều ít nhiều dễ dàng, thì bản nâng cấp này lại khác. Khi mã kích hoạt SegWit được phát hành vào tháng 10 năm 2016, có vẻ như có sự ủng hộ áp đảo đối với mã này trong số những người dùng Bitcoin, nhưng vì một lý do nào đó, thợ đào không phát tín hiệu ủng hộ bản nâng cấp này, khiến quá trình kích hoạt bị đình trệ mà không thấy có giải pháp nào khả thi.
+Trong khi tất cả các bản nâng cấp trước [SegWit](https://planb.academy/resources/glossary/segwit) đều ít nhiều dễ dàng, thì bản nâng cấp này lại khác. Khi mã kích hoạt SegWit được phát hành vào tháng 10 năm 2016, có vẻ như có sự ủng hộ áp đảo đối với mã này trong số những người dùng Bitcoin, nhưng vì một lý do nào đó, thợ đào không phát tín hiệu ủng hộ bản nâng cấp này, khiến quá trình kích hoạt bị đình trệ mà không thấy có giải pháp nào khả thi.
 
 
-Aaron van Wirdum mô tả con đường quanh co này trong bài viết trên Tạp chí Bitcoin của ông [Con đường dài đến SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ông bắt đầu bằng cách giải thích SegWit là gì và cách nó khai thác cuộc tranh luận về kích thước khối. Sau đó, Van Wirdum phác thảo diễn biến sự kiện dẫn đến việc kích hoạt cuối cùng của nó. Trung tâm của quá trình này là một cơ chế nâng cấp có tên là *user enabled Soft Fork*, hay viết tắt là UASF, được người dùng Shaolinfry đề xuất:
+Aaron van Wirdum mô tả con đường quanh co này trong bài viết trên Tạp chí Bitcoin của ông [Con đường dài đến SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Ông bắt đầu bằng cách giải thích SegWit là gì và cách nó khai thác cuộc tranh luận về kích thước khối. Sau đó, Van Wirdum phác thảo diễn biến sự kiện dẫn đến việc kích hoạt cuối cùng của nó. Trung tâm của quá trình này là một cơ chế nâng cấp có tên là *user enabled Soft Fork*, hay viết tắt là [UASF](https://planb.academy/resources/glossary/uasf), được người dùng Shaolinfry đề xuất:
 
 
 > Shaolinfry đề xuất một giải pháp thay thế: một Soft Fork do người dùng kích hoạt (UASF). Thay vì kích hoạt nguồn Hash, một Soft Fork do người dùng kích hoạt sẽ có “‘kích hoạt ngày cờ’ khi các nút bắt đầu thực thi tại một thời điểm được xác định trước trong tương lai”. Miễn là một UASF như vậy được thực thi bởi đa số kinh tế, điều này sẽ buộc phần lớn thợ đào phải tuân theo (hoặc kích hoạt) Soft Fork.
@@ -989,7 +1017,7 @@ Bitcoin phát triển và tiến hóa theo thời gian. Nhiều cơ chế nâng 
 Chương này đề cập đến *tư duy đối kháng*, một tư duy tập trung vào những gì có thể xảy ra sai và cách kẻ thù có thể hành động. Chúng tôi bắt đầu bằng cách thảo luận về các giả định bảo mật và mô hình bảo mật của Bitcoin, sau đó chúng tôi giải thích cách người dùng thông thường có thể cải thiện quyền tự chủ của họ và sự phân cấp Full node của Bitcoin bằng cách suy nghĩ đối kháng. Sau đó, chúng tôi xem xét một số mối đe dọa thực sự đối với Bitcoin cũng như vào tâm trí của kẻ thù. Cuối cùng, chúng tôi nói về *tiên đề kháng cự* có thể giúp bạn hiểu lý do tại sao mọi người lại làm việc trên Bitcoin ngay từ đầu.
 
 
-Khi thảo luận về bảo mật trong nhiều hệ thống khác nhau, điều quan trọng là phải hiểu các giả định bảo mật là gì. Một giả định bảo mật điển hình trong Bitcoin là "bài toán logarit rời rạc là Hard để giải quyết", nói một cách đơn giản, có nghĩa là hầu như không thể tìm thấy khóa riêng tương ứng với khóa công khai cụ thể. Một giả định bảo mật khá mạnh khác là phần lớn sức mạnh băm của mạng là trung thực, nghĩa là chúng tuân theo các quy tắc. Nếu những giả định này được chứng minh là sai, thì Bitcoin sẽ gặp rắc rối.
+Khi thảo luận về bảo mật trong nhiều hệ thống khác nhau, điều quan trọng là phải hiểu các giả định bảo mật là gì. Một giả định bảo mật điển hình trong Bitcoin là "bài toán [logarit rời rạc](https://planb.academy/resources/glossary/discrete-logarithm) là Hard để giải quyết", nói một cách đơn giản, có nghĩa là hầu như không thể tìm thấy [khóa riêng](https://planb.academy/resources/glossary/private-key) tương ứng với [khóa công khai](https://planb.academy/resources/glossary/public-key) cụ thể. Một giả định bảo mật khá mạnh khác là phần lớn sức mạnh băm của mạng là trung thực, nghĩa là chúng tuân theo các quy tắc. Nếu những giả định này được chứng minh là sai, thì Bitcoin sẽ gặp rắc rối.
 
 
 Năm 2015, Andrew Poelstra [đã có bài phát biểu](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) tại hội nghị Scaling Bitcoin ở Hồng Kông, trong đó ông đã phân tích các giả định về bảo mật của Bitcoin. Ông bắt đầu bằng cách nhận thấy rằng nhiều hệ thống bỏ qua đối thủ ở một mức độ nào đó; ví dụ, thực sự là Hard để bảo vệ một tòa nhà chống lại mọi loại sự kiện đối đầu. Thay vào đó, chúng ta thường chấp nhận khả năng rằng ai đó có thể đốt cháy tòa nhà và ở một mức độ nào đó ngăn chặn hành vi này và các hành vi đối đầu khác thông qua việc thực thi pháp luật, v.v.
@@ -1026,7 +1054,7 @@ Vì vậy, chúng ta có một hệ thống dường như đang hoạt động t
 
 
 
-Tầm quan trọng của tư duy đối nghịch cũng mở rộng đến người dùng Bitcoin hàng ngày ở một mức độ nào đó, không chỉ đối với các nhà phát triển và chuyên gia Bitcoin chuyên nghiệp. Ragnar Lifthasir đề cập trong một [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) cách các câu chuyện đơn giản xung quanh Bitcoin - ví dụ, "chỉ HODL" - có thể làm giảm giá trị của chính Bitcoin, và kết luận bằng cách nói
+Tầm quan trọng của tư duy đối nghịch cũng mở rộng đến người dùng Bitcoin hàng ngày ở một mức độ nào đó, không chỉ đối với các nhà phát triển và chuyên gia Bitcoin chuyên nghiệp. Ragnar Lifthasir đề cập trong một [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) cách các câu chuyện đơn giản xung quanh Bitcoin - ví dụ, "chỉ [HODL](https://planb.academy/resources/glossary/hodl)" - có thể làm giảm giá trị của chính Bitcoin, và kết luận bằng cách nói
 
 
 > Để làm cho Bitcoin và bản thân chúng ta mạnh mẽ hơn, chúng ta cần suy nghĩ như các kỹ sư phần mềm đóng góp cho Bitcoin. Họ đánh giá ngang hàng, không thương tiếc tìm kiếm lỗi. Tại các sự kiện công nghệ của họ, họ nói về mọi cách mà một đề xuất có thể thất bại. Họ suy nghĩ theo hướng đối đầu. Họ bảo thủ
@@ -1045,10 +1073,10 @@ Trộm cắp Wallet và tấn công từ chối dịch vụ:
 
 > Nếu kẻ tấn công cố gắng lấp đầy mạng bằng các máy khách mà chúng kiểm soát, thì rất có thể bạn chỉ kết nối với các nút của kẻ tấn công. Mặc dù Bitcoin không bao giờ sử dụng số lượng nút cho bất kỳ mục đích nào, việc cô lập hoàn toàn một nút khỏi mạng trung thực có thể hữu ích trong việc thực hiện các cuộc tấn công khác.
 
-Loại tấn công này được gọi là *tấn công Sybil* và xảy ra bất cứ khi nào một thực thể duy nhất kiểm soát nhiều nút trong mạng và sử dụng chúng để xuất hiện dưới dạng nhiều thực thể.
+Loại tấn công này được gọi là *[tấn công Sybil](https://planb.academy/resources/glossary/sybil-attack)* và xảy ra bất cứ khi nào một thực thể duy nhất kiểm soát nhiều [nút](https://planb.academy/resources/glossary/node) trong mạng và sử dụng chúng để xuất hiện dưới dạng nhiều thực thể.
 
 
-Như trích dẫn cũng đề cập, cuộc tấn công Sybil không hiệu quả trên mạng Bitcoin vì không có bỏ phiếu thông qua các nút hoặc các thực thể có thể đếm được khác, mà thông qua sức mạnh tính toán. Tuy nhiên, cấu trúc phẳng này khiến hệ thống dễ bị tấn công khác. Trang wiki Bitcoin cũng phác thảo các cuộc tấn công có thể khác, chẳng hạn như ẩn thông tin (thường được gọi là *tấn công nhật thực*), và cách Bitcoin Core triển khai một số biện pháp đối phó theo phương pháp heuristic chống lại các cuộc tấn công như vậy.
+Như trích dẫn cũng đề cập, cuộc tấn công Sybil không hiệu quả trên mạng Bitcoin vì không có bỏ phiếu thông qua các nút hoặc các thực thể có thể đếm được khác, mà thông qua sức mạnh tính toán. Tuy nhiên, cấu trúc phẳng này khiến hệ thống dễ bị tấn công khác. Trang wiki Bitcoin cũng phác thảo các cuộc tấn công có thể khác, chẳng hạn như ẩn thông tin (thường được gọi là *[tấn công nhật thực](https://planb.academy/resources/glossary/eclipse-attack)*), và cách [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core) triển khai một số biện pháp đối phó theo phương pháp heuristic chống lại các cuộc tấn công như vậy.
 
 
 Trên đây là những ví dụ về các mối đe dọa thực sự cần được giải quyết.
@@ -1070,7 +1098,7 @@ hiệu quả.
 Ví dụ, có một phần về cách một kẻ xâm nhập có thể phá vỡ các tổ chức. Không phải Hard để xem cách các chiến thuật như vậy có thể được sử dụng để nhắm vào quy trình phát triển Bitcoin, quy trình này mở cho bất kỳ ai tham gia. Một kẻ tấn công chuyên dụng có thể tiếp tục trì hoãn tiến độ bằng những mối quan tâm vô tận về các vấn đề không liên quan, mặc cả về cách diễn đạt chính xác và cố gắng nhắc lại các cuộc thảo luận đã được giải quyết toàn diện. Kẻ tấn công cũng có thể thuê một đội quân troll để nhân lên hiệu quả của chính chúng; chúng ta có thể gọi đây là một cuộc tấn công Sybil xã hội. Sử dụng một cuộc tấn công Sybil xã hội, chúng có thể khiến cho có vẻ như có nhiều sự phản kháng hơn đối với một thay đổi được đề xuất so với thực tế.
 
 
-Điều này nhấn mạnh cách một quốc gia quyết tâm có thể và sẽ làm mọi thứ trong khả năng của mình để tiêu diệt kẻ thù, bao gồm cả việc phá vỡ nó từ bên trong. Vì Bitcoin là một hình thức tiền tệ cạnh tranh với các loại tiền tệ fiat đã được thiết lập, nên có khả năng các quốc gia sẽ coi Bitcoin là kẻ thù.
+Điều này nhấn mạnh cách một quốc gia quyết tâm có thể và sẽ làm mọi thứ trong khả năng của mình để tiêu diệt kẻ thù, bao gồm cả việc phá vỡ nó từ bên trong. Vì Bitcoin là một hình thức tiền tệ cạnh tranh với các loại [tiền tệ fiat](https://planb.academy/resources/glossary/fiat) đã được thiết lập, nên có khả năng các quốc gia sẽ coi Bitcoin là kẻ thù.
 
 
 ### Tiên đề của sự kháng cự
@@ -1110,7 +1138,7 @@ Một hệ thống phi tập trung không thể có trách nhiệm giải trình
 ![](assets/vi/010.webp)
 
 
-Bitcoin được xây dựng bằng phần mềm nguồn mở. Trong chương này, chúng tôi phân tích ý nghĩa của điều này, cách bảo trì phần mềm hoạt động và cách phần mềm nguồn mở trong Bitcoin cho phép phát triển không cần cấp phép. Chúng tôi thử nghiệm *mật mã lựa chọn*, liên quan đến việc lựa chọn và sử dụng thư viện trong các hệ thống mật mã. Chương này bao gồm một phần về quy trình đánh giá của Bitcoin, tiếp theo là một phần khác về cách các nhà phát triển Bitcoin nhận được tài trợ. Phần cuối cùng nói về cách văn hóa nguồn mở của Bitcoin có thể trông thực sự kỳ lạ từ bên ngoài và lý do tại sao sự kỳ lạ được nhận thức này thực sự là dấu hiệu của sức khỏe tốt.
+Bitcoin được xây dựng bằng phần mềm nguồn mở. Trong chương này, chúng tôi phân tích ý nghĩa của điều này, cách bảo trì phần mềm hoạt động và cách phần mềm nguồn mở trong Bitcoin cho phép phát triển không cần cấp phép. Chúng tôi thử nghiệm *[mật mã](https://planb.academy/resources/glossary/cryptography) lựa chọn*, liên quan đến việc lựa chọn và sử dụng thư viện trong các hệ thống mật mã. Chương này bao gồm một phần về quy trình đánh giá của Bitcoin, tiếp theo là một phần khác về cách các nhà phát triển Bitcoin nhận được tài trợ. Phần cuối cùng nói về cách văn hóa nguồn mở của Bitcoin có thể trông thực sự kỳ lạ từ bên ngoài và lý do tại sao sự kỳ lạ được nhận thức này thực sự là dấu hiệu của sức khỏe tốt.
 
 
 Hầu hết các phần mềm Bitcoin, và đặc biệt là Bitcoin Core, đều là mã nguồn mở. Điều này có nghĩa là mã nguồn của phần mềm được cung cấp cho công chúng để xem xét, chỉnh sửa, sửa đổi và phân phối lại. Định nghĩa về mã nguồn mở tại [](https://opensource.org/osd) bao gồm, trong số những điểm quan trọng khác, các điểm sau:
@@ -1128,14 +1156,14 @@ Bitcoin Core tuân thủ định nghĩa này bằng cách được phân phối 
 
 
 ```
-The MIT License (MIT)
+Giấy phép MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin Core
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Theo đây, quyền được cấp miễn phí cho bất kỳ ai có được bản sao của phần mềm này và các tệp tài liệu liên quan ("Phần mềm"), để xử lý Phần mềm mà không có hạn chế, bao gồm nhưng không giới hạn các quyền sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép lại và/hoặc bán các bản sao của Phần mềm, và cho phép những người được cung cấp Phần mềm làm như vậy, theo các điều kiện sau:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Thông báo bản quyền trên và thông báo cấp phép này phải được bao gồm trong tất cả các bản sao hoặc các phần quan trọng của Phần mềm.
 ```
 
 
@@ -1149,7 +1177,7 @@ Trong các phần tiếp theo, chúng ta sẽ đi sâu vào một số khía c�
 
 
 
-Mã nguồn của Bitcoin Core được lưu trữ trong kho lưu trữ Git được lưu trữ trên [GitHub](https://github.com/Bitcoin/Bitcoin). Bất kỳ ai cũng có thể sao chép kho lưu trữ đó mà không cần xin bất kỳ quyền nào, sau đó kiểm tra, xây dựng hoặc thực hiện thay đổi cục bộ cho kho lưu trữ đó. Điều này có nghĩa là có hàng nghìn bản sao của kho lưu trữ được phân bổ trên toàn cầu. Tất cả đều là bản sao của cùng một kho lưu trữ, vậy điều gì làm cho kho lưu trữ GitHub Bitcoin Core cụ thể này trở nên đặc biệt? Về mặt kỹ thuật, nó không đặc biệt chút nào, nhưng về mặt xã hội, nó đã trở thành trọng tâm của quá trình phát triển Bitcoin.
+Mã nguồn của Bitcoin Core được lưu trữ trong kho lưu trữ [Git](https://planb.academy/resources/glossary/git) được lưu trữ trên [GitHub](https://github.com/Bitcoin/Bitcoin). Bất kỳ ai cũng có thể sao chép kho lưu trữ đó mà không cần xin bất kỳ quyền nào, sau đó kiểm tra, xây dựng hoặc thực hiện thay đổi cục bộ cho kho lưu trữ đó. Điều này có nghĩa là có hàng nghìn bản sao của kho lưu trữ được phân bổ trên toàn cầu. Tất cả đều là bản sao của cùng một kho lưu trữ, vậy điều gì làm cho kho lưu trữ GitHub Bitcoin Core cụ thể này trở nên đặc biệt? Về mặt kỹ thuật, nó không đặc biệt chút nào, nhưng về mặt xã hội, nó đã trở thành trọng tâm của quá trình phát triển Bitcoin.
 
 
 Bitcoin và chuyên gia bảo mật Jameson Lopp đã giải thích rất rõ điều này trong một [bài đăng trên blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) có tiêu đề "Ai kiểm soát Bitcoin Core?":
@@ -1190,10 +1218,10 @@ Có lẽ cũng quan trọng không kém là người dùng được tự do phá
 
 
 
-- Lightning Network: Một mạng lưới thanh toán cho phép thanh toán nhanh các khoản tiền rất nhỏ. Nó yêu cầu rất ít giao dịch On-Chain Bitcoin. Có nhiều triển khai có thể tương tác, chẳng hạn như [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) và [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Nhiều bên hợp tác để kết hợp các khoản thanh toán của họ thành một giao dịch duy nhất để làm cho việc nhóm Address trở nên khó khăn hơn. Có nhiều cách triển khai khác nhau.
-- Sidechains: Hệ thống này có thể khóa một đồng tiền trên Blockchain của Bitcoin để mở khóa nó trên một số Blockchain khác. Điều này cho phép bitcoin được chuyển đến một số Blockchain khác, cụ thể là Sidechain, để sử dụng các tính năng có sẵn trên Sidechain đó. Ví dụ bao gồm [Elements của Blockstream](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: Cho phép bạn [Timestamp một tài liệu](https://opentimestamps.org/) trên Bitcoin's Blockchain theo cách riêng tư. Sau đó, bạn có thể sử dụng Timestamp đó để chứng minh rằng một tài liệu phải tồn tại trước một thời điểm nhất định.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Một mạng lưới thanh toán cho phép thanh toán nhanh các khoản tiền rất nhỏ. Nó yêu cầu rất ít giao dịch [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin. Có nhiều triển khai có thể tương tác, chẳng hạn như [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) và [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Nhiều bên hợp tác để kết hợp các khoản thanh toán của họ thành một giao dịch duy nhất để làm cho việc nhóm Address trở nên khó khăn hơn. Có nhiều cách triển khai khác nhau.
+- [Sidechains](https://planb.academy/resources/glossary/sidechain): Hệ thống này có thể khóa một đồng tiền trên Blockchain của Bitcoin để mở khóa nó trên một số Blockchain khác. Điều này cho phép bitcoin được chuyển đến một số Blockchain khác, cụ thể là Sidechain, để sử dụng các tính năng có sẵn trên Sidechain đó. Ví dụ bao gồm [Elements của Blockstream](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Cho phép bạn [Timestamp một tài liệu](https://opentimestamps.org/) trên Bitcoin's Blockchain theo cách riêng tư. Sau đó, bạn có thể sử dụng [Timestamp](https://planb.academy/resources/glossary/timestamp) đó để chứng minh rằng một tài liệu phải tồn tại trước một thời điểm nhất định.
 
 
 Nếu không có sự phát triển không cần xin phép, nhiều dự án trong số này sẽ không thể thực hiện được. Như đã nêu trong chương về Trung lập, nếu các nhà phát triển phải xin phép để xây dựng các giao thức trên Bitcoin, thì chỉ những giao thức được ủy ban cấp phép cho nhà phát triển trung tâm cho phép mới được phát triển.
@@ -1286,7 +1314,7 @@ Trên con đường đi đến sự chấp nhận cuối cùng, một ý tưởn
 
 
 - Một ý tưởng được đăng trên danh sách gửi thư Bitcoin-dev
-- Ý tưởng này được chính thức hóa thành Đề xuất cải tiến Bitcoin (BIP)
+- Ý tưởng này được chính thức hóa thành Đề xuất cải tiến Bitcoin ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP được triển khai trong yêu cầu kéo (PR) tới Bitcoin Core
 - Cơ chế triển khai được thảo luận
 - Một số cơ chế triển khai cạnh tranh được triển khai trong các yêu cầu kéo tới Bitcoin Core
@@ -1342,7 +1370,7 @@ Các công ty, cá nhân và tổ chức quan tâm đến sự thành công liê
 Mọi người đôi khi có ấn tượng rằng có rất nhiều cuộc đấu đá nội bộ và tranh luận nảy lửa bất tận giữa các nhà phát triển Bitcoin, và rằng họ không có khả năng đưa ra quyết định.
 
 
-Ví dụ, cơ chế triển khai Taproot, đã được thảo luận trong một thời gian dài trong đó hai "phe" đã hình thành. Một phe muốn "làm hỏng" quá trình nâng cấp nếu thợ đào không bỏ phiếu áp đảo cho các quy tắc mới sau một thời điểm nhất định, trong khi phe kia muốn thực thi các quy tắc sau thời điểm đó bất kể thế nào. Michael Folkson tóm tắt các lập luận từ hai phe trong một [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) gửi đến danh sách gửi thư Bitcoin-dev.
+Ví dụ, cơ chế triển khai Taproot, đã được thảo luận trong một thời gian dài trong đó hai "phe" đã hình thành. Một phe muốn "làm hỏng" quá trình nâng cấp nếu [thợ đào](https://planb.academy/resources/glossary/miner) không bỏ phiếu áp đảo cho các quy tắc mới sau một thời điểm nhất định, trong khi phe kia muốn thực thi các quy tắc sau thời điểm đó bất kể thế nào. Michael Folkson tóm tắt các lập luận từ hai phe trong một [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) gửi đến danh sách gửi thư Bitcoin-dev.
 
 
 Cuộc tranh luận dường như kéo dài mãi mãi, và thực sự là Hard để thấy bất kỳ sự đồng thuận nào về vấn đề này hình thành trong thời gian sớm. Điều này khiến mọi người thất vọng và kết quả là nhiệt độ tăng cao. Gregory Maxwell (với tư cách là người dùng nullc) lo lắng [trên Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) rằng các cuộc thảo luận dài dòng sẽ khiến việc nâng cấp kém an toàn hơn:
@@ -1350,7 +1378,7 @@ Cuộc tranh luận dường như kéo dài mãi mãi, và thực sự là Hard 
 
 > Vào thời điểm này, việc chờ đợi thêm không phải là thêm đánh giá và sự chắc chắn. Thay vào đó, sự chậm trễ thêm đang làm giảm quán tính và có khả năng làm tăng rủi ro phần nào khi mọi người bắt đầu quên chi tiết, trì hoãn công việc sử dụng hạ nguồn (như hỗ trợ Wallet) và không đầu tư nhiều nỗ lực đánh giá thêm như họ sẽ đầu tư nếu họ cảm thấy tự tin về khung thời gian kích hoạt.
 
-Cuối cùng, tranh chấp này đã được giải quyết nhờ một đề xuất mới của David Harding và Russel O'Connor có tên là Speedy Trial, đòi hỏi một khoảng thời gian báo hiệu ngắn hơn tương đối để thợ đào khóa kích hoạt Taproot hoặc thất bại nhanh chóng. Nếu họ kích hoạt nó trong khoảng thời gian đó, thì Taproot sẽ được triển khai sau khoảng 6 tháng.
+Cuối cùng, tranh chấp này đã được giải quyết nhờ một đề xuất mới của David Harding và Russel O'Connor có tên là [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial), đòi hỏi một khoảng thời gian báo hiệu ngắn hơn tương đối để thợ đào khóa kích hoạt Taproot hoặc thất bại nhanh chóng. Nếu họ kích hoạt nó trong khoảng thời gian đó, thì Taproot sẽ được triển khai sau khoảng 6 tháng.
 
 
 Một người không quen với quá trình phát triển của Bitcoin có thể nghĩ rằng những cuộc tranh luận gay gắt này trông thật tệ và thậm chí là độc hại. Có ít nhất hai yếu tố khiến chúng trông tệ, theo quan điểm của một số người:
@@ -1374,7 +1402,7 @@ các nhà phát triển có thể có vẻ rất Hard, thái độ này thườn
 bản dựng có thể tái tạo, thêm các phụ thuộc mới hoặc nếu mã không tuân theo [thực hành tốt nhất] của Bitcoin (https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Các nhà phát triển mới (và cũ) có thể cảm thấy bực bội vì điều này. Nhưng, như thông lệ trong phần mềm nguồn mở, bạn luôn có thể Fork kho lưu trữ, hợp nhất bất cứ thứ gì bạn muốn vào Fork của riêng bạn và xây dựng và chạy nhị phân của riêng bạn.
+Các nhà phát triển mới (và cũ) có thể cảm thấy bực bội vì điều này. Nhưng, như thông lệ trong phần mềm nguồn mở, bạn luôn có thể [Fork](https://planb.academy/resources/glossary/fork) kho lưu trữ, hợp nhất bất cứ thứ gì bạn muốn vào Fork của riêng bạn và xây dựng và chạy nhị phân của riêng bạn.
 
 
 ### Kết luận về mã nguồn mở
@@ -1412,7 +1440,7 @@ các loại thay đổi, ví dụ:
 
 - Làm cho các đầu vào giao dịch sử dụng ít byte hơn
 - Cải thiện hiệu suất xác minh chữ ký
-- Làm cho mạng ngang hàng sử dụng ít băng thông hơn
+- Làm cho mạng [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p) sử dụng ít băng thông hơn
 - Phân lô giao dịch
 - Kiến trúc phân lớp
 
@@ -1424,7 +1452,7 @@ Chúng ta sẽ sớm tìm hiểu sâu hơn về các phương pháp mở rộng 
 
 
 
-Việc mở rộng quy mô đã trở thành trọng tâm thảo luận kể từ Genesis của Bitcoin. Câu đầu tiên của [email đầu tiên](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) để phản hồi thông báo của Satoshi về sách trắng Bitcoin trên danh sách gửi thư Cryptography thực sự là về việc mở rộng quy mô:
+Việc mở rộng quy mô đã trở thành trọng tâm thảo luận kể từ Genesis của Bitcoin. Câu đầu tiên của [email đầu tiên](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) để phản hồi thông báo của Satoshi về [sách trắng](https://planb.academy/resources/glossary/white-paper) Bitcoin trên danh sách gửi thư Cryptography thực sự là về việc mở rộng quy mô:
 
 
 > Satoshi Nakamoto đã viết:
@@ -1481,7 +1509,7 @@ Bên cạnh những tác động tiêu cực đến sự phân quyền của Ful
 - Việc xác thực khối mất thời gian.
 
 
-Trong khi khối 7 đang được truyền qua mạng, nhiều thợ đào vẫn đang ở Mining trên khối 6 vì họ chưa nhận được và xác thực khối 7. Trong thời gian này, nếu bất kỳ thợ đào nào trong số này tìm thấy một khối mới ở độ cao 7, sẽ có hai khối cạnh tranh ở độ cao đó. Chỉ có thể có một khối ở độ cao 7 (hoặc bất kỳ độ cao nào khác), điều đó có nghĩa là một trong hai ứng cử viên phải trở nên cũ.
+Trong khi khối 7 đang được truyền qua mạng, nhiều thợ đào vẫn đang ở Mining trên khối 6 vì họ chưa nhận được và xác thực khối 7. Trong thời gian này, nếu bất kỳ thợ đào nào trong số này tìm thấy một khối mới ở độ cao 7, sẽ có hai khối cạnh tranh ở độ cao đó. Chỉ có thể có một khối ở độ cao 7 (hoặc bất kỳ độ cao nào khác), điều đó có nghĩa là một trong hai ứng cử viên phải trở nên [cũ](https://planb.academy/resources/glossary/stale-block).
 
 
 Nói tóm lại, các khối cũ xảy ra vì mỗi khối cần thời gian để lan truyền và thời gian lan truyền càng lâu thì khả năng xuất hiện các khối cũ càng cao.
@@ -1497,7 +1525,7 @@ kịch bản. Các biện pháp họ có thể thực hiện bao gồm:
 
 
 - Hoãn việc xác thực khối đến, còn được gọi là *validationless Mining*. Người khai thác có thể chỉ cần kiểm tra Proof-of-Work của tiêu đề khối và khai thác trên đó, trong khi chờ đợi họ tải xuống toàn bộ khối và xác thực nó.
-- Kết nối với Mining pool với băng thông và khả năng kết nối lớn hơn.
+- Kết nối với [Mining pool](https://planb.academy/resources/glossary/pool-mining) với băng thông và khả năng kết nối lớn hơn.
 
 
 Mining không xác thực làm suy yếu thêm tính phi tập trung của Full node, vì Miner phải tin tưởng các khối đến, ít nhất là tạm thời. Nó cũng gây tổn hại đến tính bảo mật ở một mức độ nào đó vì một phần sức mạnh tính toán của mạng có khả năng được xây dựng trên Blockchain không hợp lệ, thay vì xây dựng trên chuỗi mạnh nhất và hợp lệ.
@@ -1554,7 +1582,7 @@ Các dòng khác nhau biểu thị các phiên bản khác nhau của Bitcoin Co
 Những cải tiến có thể được phân loại là tiết kiệm không gian (RAM, đĩa, băng thông, v.v.) hoặc tiết kiệm năng lượng tính toán. Cả hai loại đều góp phần vào những cải tiến trong sơ đồ trên.
 
 
-Một ví dụ hay về cải tiến tính toán có thể được tìm thấy trong thư viện [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), trong đó, cùng với những thứ khác, triển khai các nguyên hàm mật mã cần thiết để tạo và xác minh chữ ký số. Pieter Wuille là một trong những người đóng góp cho thư viện này và anh ấy đã viết một [chuỗi Twitter](https://twitter.com/pwuille/status/1450471673321381896) giới thiệu những cải tiến về hiệu suất đạt được thông qua nhiều yêu cầu kéo khác nhau.
+Một ví dụ hay về cải tiến tính toán có thể được tìm thấy trong thư viện [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), trong đó, cùng với những thứ khác, triển khai các nguyên hàm mật mã cần thiết để tạo và xác minh [chữ ký số](https://planb.academy/resources/glossary/digital-signature). Pieter Wuille là một trong những người đóng góp cho thư viện này và anh ấy đã viết một [chuỗi Twitter](https://twitter.com/pwuille/status/1450471673321381896) giới thiệu những cải tiến về hiệu suất đạt được thông qua nhiều yêu cầu kéo khác nhau.
 
 
 ![](assets/vi/013.webp)
@@ -1577,7 +1605,7 @@ Ngoài ra còn có một số ví dụ tốt về cải tiến tiết kiệm kh�
 Tiết kiệm không gian cho nhiều loại chi tiêu khác nhau, Taproot và các phiên bản cũ.
 
 
-Multisig 2 trong 3 sử dụng SegWit gốc sẽ yêu cầu tổng cộng 104,5+43 vB = 147,5 vB, trong khi việc sử dụng Taproot tiết kiệm không gian nhất sẽ chỉ yêu cầu 57,5+43 vB = 100,5 vB trong trường hợp sử dụng tiêu chuẩn. Trong trường hợp xấu nhất và hiếm gặp, chẳng hạn như khi không có người ký chuẩn vì lý do nào đó, Taproot sẽ sử dụng 107,5+43 vB = 150,5 vB. Bạn không cần phải hiểu tất cả các chi tiết, nhưng điều này sẽ giúp bạn hình dung được cách các nhà phát triển nghĩ về việc tiết kiệm không gian - mỗi byte nhỏ đều có giá trị.
+[Multisig](https://planb.academy/resources/glossary/multisig) 2 trong 3 sử dụng SegWit gốc sẽ yêu cầu tổng cộng 104,5+43 vB = 147,5 vB, trong khi việc sử dụng Taproot tiết kiệm không gian nhất sẽ chỉ yêu cầu 57,5+43 vB = 100,5 vB trong trường hợp sử dụng tiêu chuẩn. Trong trường hợp xấu nhất và hiếm gặp, chẳng hạn như khi không có người ký chuẩn vì lý do nào đó, Taproot sẽ sử dụng 107,5+43 vB = 150,5 vB. Bạn không cần phải hiểu tất cả các chi tiết, nhưng điều này sẽ giúp bạn hình dung được cách các nhà phát triển nghĩ về việc tiết kiệm không gian - mỗi byte nhỏ đều có giá trị.
 
 
 Ngoài việc mở rộng theo chiều hướng vào trong phần mềm Bitcoin, còn có một số cách mà người dùng có thể đóng góp vào việc mở rộng theo chiều hướng vào trong. Họ có thể thực hiện giao dịch của mình một cách thông minh hơn để tiết kiệm phí giao dịch đồng thời giảm dấu chân của họ trên các yêu cầu của Full node. Hai kỹ thuật thường được sử dụng hướng tới mục tiêu đó là phân lô giao dịch và hợp nhất đầu ra.
@@ -1627,7 +1655,7 @@ Cách thức tạo ra giao dịch khởi đầu này khác nhau giữa các giao
 Khi giao dịch bắt đầu trên Blockchain, giao thức có thể thực hiện những gì nó được cho là phải làm. Ví dụ, nó có thể thực hiện thanh toán siêu nhanh giữa những người tham gia, triển khai một số kỹ thuật tăng cường quyền riêng tư hoặc thực hiện các tập lệnh nâng cao hơn mà Bitcoin Blockchain không hỗ trợ.
 
 
-Chúng tôi sẽ không nêu chi tiết cách thức hoạt động của các giao thức cụ thể, nhưng như bạn có thể thấy trong hình trước, Blockchain hiếm khi được sử dụng trong suốt vòng đời của giao thức. Tất cả các hành động hấp dẫn đều diễn ra *off-chain*. Chúng tôi đã thấy cách thức này có thể mang lại chiến thắng cho quyền riêng tư nếu thực hiện đúng, nhưng nó cũng có thể là lợi thế cho khả năng mở rộng.
+Chúng tôi sẽ không nêu chi tiết cách thức hoạt động của các giao thức cụ thể, nhưng như bạn có thể thấy trong hình trước, Blockchain hiếm khi được sử dụng trong suốt vòng đời của giao thức. Tất cả các hành động hấp dẫn đều diễn ra *[off-chain](https://planb.academy/resources/glossary/offchain)*. Chúng tôi đã thấy cách thức này có thể mang lại chiến thắng cho quyền riêng tư nếu thực hiện đúng, nhưng nó cũng có thể là lợi thế cho khả năng mở rộng.
 
 
 Trong một bài đăng trên Reddit (https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) có tiêu đề "Chuyến đi tới mặt trăng đòi hỏi một tên lửa có nhiều tầng, nếu không phương trình tên lửa sẽ nuốt trọn bữa trưa của bạn... nhồi nhét mọi người vào một máy bắn đá theo kiểu xe hề và hy vọng thành công là điều hoàn toàn sai lầm.", Gregory Maxwell giải thích tại sao việc xếp lớp là cách tốt nhất để đưa Bitcoin lên quy mô lớn hơn nhiều lần.
@@ -1707,7 +1735,7 @@ Trong [chuỗi email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/20
   - backport bản sửa lỗi hoặc giải pháp thay thế từ bản gốc sang phiên bản hiện tại đã phát hành
 - Các nhà phát triển sẽ cố gắng đảm bảo rằng việc công bố bản sửa lỗi không tiết lộ bản chất của lỗ hổng bảo mật bằng cách cung cấp bản sửa lỗi được đề xuất cho các nhà phát triển có kinh nghiệm chưa được thông báo về lỗ hổng bảo mật, thông báo với họ rằng bản sửa lỗi đã khắc phục được lỗ hổng bảo mật và yêu cầu họ xác định lỗ hổng bảo mật.
 - Các nhà phát triển có thể đề xuất các triển khai Bitcoin khác áp dụng bản sửa lỗi lỗ hổng trước khi bản sửa lỗi được phát hành và triển khai rộng rãi, nếu họ có thể làm như vậy mà không tiết lộ lỗ hổng; ví dụ: nếu bản sửa lỗi mang lại lợi ích đáng kể về hiệu suất thì việc đưa bản sửa lỗi vào là hợp lý.
-- Trước khi lỗ hổng được công khai, các nhà phát triển thường sẽ khuyến nghị các nhà phát triển Altcoin thân thiện rằng họ nên bắt kịp các bản sửa lỗi. Nhưng điều này chỉ xảy ra sau khi các bản sửa lỗi được triển khai rộng rãi trong mạng Bitcoin.
+- Trước khi lỗ hổng được công khai, các nhà phát triển thường sẽ khuyến nghị các nhà phát triển [Altcoin](https://planb.academy/resources/glossary/altcoin) thân thiện rằng họ nên bắt kịp các bản sửa lỗi. Nhưng điều này chỉ xảy ra sau khi các bản sửa lỗi được triển khai rộng rãi trong mạng Bitcoin.
 - Các nhà phát triển thường sẽ không thông báo cho các nhà phát triển Altcoin nếu họ có hành vi thù địch (ví dụ: sử dụng lỗ hổng để tấn công người khác hoặc vi phạm lệnh cấm vận).
 - Các nhà phát triển Bitcoin sẽ không tiết lộ chi tiết về lỗ hổng cho đến khi >80% các nút Bitcoin triển khai bản sửa lỗi. Việc phát hiện lỗ hổng được khuyến khích và yêu cầu tuân theo cùng một chính sách. [1] [6]
 
@@ -1908,7 +1936,7 @@ Có một cảnh báo lớn với điều này: dữ liệu mà người dùng s
 Một lần nữa, mọi người dường như đồng tình với điều này và việc đảo ngược khối không hợp lệ và các khối kế thừa của nó đã thành công. Các thợ đào bắt đầu làm việc trên một khối kế thừa mới cho khối [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) và theo Timestamp của khối, một khối kế thừa đã xuất hiện lúc 23:53 UTC, khoảng 6 giờ sau khi phát hiện ra sự cố. Vào lúc 08:10 ngày hôm sau, vào ngày 16 tháng 8, xung quanh khối 74689, chuỗi mới đã vượt qua chuỗi cũ, do đó tất cả các nút không được nâng cấp đã tổ chức lại để theo chuỗi mới. Đây là lần tổ chức lại sâu nhất - 52 khối - trong lịch sử của Bitcoin.
 
 
-So với sự cố OP_RETURN, sự cố này đã được xử lý theo cách sạch hơn một chút:
+So với sự cố [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a), sự cố này đã được xử lý theo cách sạch hơn một chút:
 
 
 - Không có bản vá chỉ có nhị phân
@@ -1981,7 +2009,7 @@ BIP66 rất thú vị vì nó làm nổi bật tầm quan trọng của:
 - Mining trên đầu các khối đã được xác minh
 
 
-BIP66 là một đề xuất nhằm thắt chặt các quy tắc mã hóa chữ ký trong Bitcoin Script. [Động lực](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) là có thể phân tích chữ ký bằng phần mềm hoặc thư viện khác ngoài OpenSSL và thậm chí là các phiên bản OpenSSL gần đây. OpenSSL là một thư viện cho mật mã mục đích chung mà Bitcoin Core sử dụng vào thời điểm đó.
+BIP66 là một đề xuất nhằm thắt chặt các quy tắc mã hóa chữ ký trong Bitcoin [Script](https://planb.academy/resources/glossary/script). [Động lực](https://github.com/Bitcoin/bips/blob/master/bip-0066.mediawiki#motivation) là có thể phân tích chữ ký bằng phần mềm hoặc thư viện khác ngoài OpenSSL và thậm chí là các phiên bản OpenSSL gần đây. OpenSSL là một thư viện cho mật mã mục đích chung mà Bitcoin Core sử dụng vào thời điểm đó.
 
 
 BIP được kích hoạt vào ngày 4 tháng 7 năm 2015. Tuy nhiên, mặc dù điều trên là đúng, BIP66 cũng khắc phục một sự cố nghiêm trọng hơn nhiều không được đề cập trong BIP.
@@ -2025,12 +2053,12 @@ Dòng thời gian các sự kiện xung quanh BIP66. Các mục màu đen đã �
 
 
 
-Nếu không ai biết về vấn đề này, nó có thể được giải quyết bằng BIP62 hiện đã được mở rộng, đây là đề xuất nhằm giảm khả năng thay đổi giao dịch. Trong số những thay đổi được đề xuất trong BIP62 có việc thắt chặt các quy tắc đồng thuận để mã hóa chữ ký hoặc "mã hóa DER nghiêm ngặt". Pieter Wuille đã đề xuất một số điều chỉnh đối với BIP vào tháng 7 năm 2014, điều này sẽ giải quyết được vấn đề:
+Nếu không ai biết về vấn đề này, nó có thể được giải quyết bằng BIP62 hiện đã được mở rộng, đây là đề xuất nhằm giảm khả năng thay đổi giao dịch. Trong số những thay đổi được đề xuất trong BIP62 có việc thắt chặt các quy tắc đồng thuận để mã hóa chữ ký hoặc "mã hóa [DER](https://planb.academy/resources/glossary/der) nghiêm ngặt". Pieter Wuille đã đề xuất một số điều chỉnh đối với BIP vào tháng 7 năm 2014, điều này sẽ giải quyết được vấn đề:
 
 
 > 2014-07-18: Để các quy tắc mã hóa chữ ký của Bitcoin không phụ thuộc vào trình phân tích cú pháp cụ thể của OpenSSL, tôi đã sửa đổi đề xuất BIP62 để yêu cầu nghiêm ngặt về chữ ký DER của nó cũng áp dụng cho các giao dịch phiên bản 1. Không có chữ ký không phải DER nào được khai thác thành các khối nữa tại thời điểm đó, vì vậy điều này được cho là không có bất kỳ tác động nào. Xem https://github.com/Bitcoin/bips/pull/90 và http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Không rõ tại thời điểm đó, nhưng nếu triển khai thì điều này sẽ giải quyết được lỗ hổng.
 
-Do phạm vi của BIP này, bao gồm nhiều thứ hơn là chỉ "mã hóa DER nghiêm ngặt", nên nó liên tục thay đổi và không bao giờ được triển khai. BIP sau đó đã bị thu hồi vì Segregated Witness, BIP141, đã giải quyết tính dễ uốn nắn của giao dịch theo một cách khác và hoàn thiện hơn.
+Do phạm vi của BIP này, bao gồm nhiều thứ hơn là chỉ "mã hóa DER nghiêm ngặt", nên nó liên tục thay đổi và không bao giờ được triển khai. BIP sau đó đã bị thu hồi vì Segregated Witness, BIP141, đã giải quyết [tính dễ uốn nắn của giao dịch](https://planb.academy/resources/glossary/malleability-transaction) theo một cách khác và hoàn thiện hơn.
 
 
 ##### Sau khi khám phá

@@ -1,9 +1,9 @@
-question: Co umožňuje Lightning Network?
-answer: Provádět transakce mezi jednotlivci, kteří nemají přímé kanálové spojení.
+question: Jak se nazývají bitcoiny používané na Liquid?
+answer: L-BTC
 wrong_answers:
-  - Vytvářet přímá kanálová spojení pouze se centralizovanými burzami.
-  - Vytvářet kanálová spojení, která vyžadují více potvrzení pro jakoukoliv transakci.
-  - Zřizovat přímá kanálová spojení, která jsou omezena pouze na velké transakce.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Lightning Network umožňuje provádět transakce mezi jednotlivci, kteří nemají přímé kanálové spojení.
-reviewed: true
+  Na Liquid jsou bitcoiny reprezentovány jako L-BTC, navázané v poměru 1 ku 1 na BTC.
+reviewed: false

@@ -1,0 +1,8 @@
+question: U federisanom konsenzusnom modelu Liquid, koji je minimalni broj funkcionalnih potpisa potreban za validaciju bloka, i koji je maksimalni broj kvarova čvorova koje mreža može tolerisati?
+answer: 11 potpisa potrebno, može tolerisati do 4 greške čvorova
+wrong_answers:
+  - potrebno 8 potpisa, može tolerisati do 7 grešaka čvorova
+  - 15 potpisa potrebno, može tolerisati do 2 greške čvora
+  - potrebno 9 potpisa, može tolerisati do 6 grešaka čvorova
+explanation: |
+  Liquid koristi sistem praga 11-od-15 gde najmanje 11 od 15 funkcionera mora potpisati svaki blok da bi bio važeći. Ovaj dizajn omogućava mreži da nastavi sa radom čak i ako do 4 čvora otkažu (15 - 11 = 4). Druge opcije ili pružaju netačne pragove potpisa ili pogrešno izračunavaju toleranciju greške, koja je uvek ukupno čvorova minus potrebni potpisi.

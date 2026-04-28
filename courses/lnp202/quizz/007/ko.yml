@@ -1,0 +1,9 @@
+question: Bitcoin의 어떤 기본 속성이 보관 중 손실되나요?
+answer: 통화 주권
+wrong_answers:
+  - 금전적 확장성
+  - 빠른 결제
+  - 화폐 상호 운용성
+explanation: |
+  키 제어가 없으면 사용자는 Bitcoin의 중심축인 화폐 주권을 포기하는 것입니다.
+reviewed: false

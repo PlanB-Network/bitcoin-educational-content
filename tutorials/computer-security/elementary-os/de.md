@@ -70,7 +70,7 @@ Bevor Sie mit der Installation beginnen, vergewissern Sie sich bitte, dass Sie �
 
 
 
-Besuchen Sie die offizielle Website des Betriebssystems [elementar] (https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
+Besuchen Sie die offizielle Website des Betriebssystems [elementar](https://elementary.io/) und wählen Sie einen Betrag zur Unterstützung des Projekts. Dieser Schritt ist freiwillig.
 
 
 Wenn Sie das ISO-Abbild kostenlos herunterladen möchten, geben Sie in das Feld **"Andere "** eine 0 ein und beginnen Sie mit dem Herunterladen des ISO-Abbilds des Systems.
@@ -89,7 +89,7 @@ Sobald Sie das ISO-Image heruntergeladen haben, müssen Sie es auf einem USB-Sti
 
 
 
-Laden Sie eine Software wie [Balena Etcher] (https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
+Laden Sie eine Software wie [Balena Etcher](https://etcher.balena.io/) oder ein ähnliches Programm herunter und starten Sie die Software.
 
 
 Wählen Sie das zuvor heruntergeladene **Elementary OS** ISO-Image aus und legen Sie Ihren USB-Stick als Ziel fest.

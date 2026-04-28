@@ -89,7 +89,7 @@ _Anda mungkin juga ingin mengambil langkah ekstra, opsional tetapi direkomendasi
 
 Video ini menjelaskan langkah-langkah sederhana di atas
 
-Jika langkah-langkah sederhana tersebut terasa terlalu sulit, Anda bisa mempertimbangkan untuk membeli Pixel dengan perangkat lunak GrapheneOS yang sudah [terinstal sebelumnya](https://ronindojo.io/en/roninmobile). Namun, perlu diingat bahwa Anda memberikan sedikit kepercayaan kepada penyedia tersebut.
+Jika langkah-langkah sederhana tersebut terasa terlalu sulit, Anda bisa mempertimbangkan untuk membeli Pixel dengan perangkat lunak GrapheneOS yang sudah terinstal sebelumnya (ada perusahaan yang menjualnya). Namun, perlu diingat bahwa Anda memberikan sedikit kepercayaan kepada penyedia tersebut.
 
 ### Aplikasi yang Terpasang Sebelumnya
 
@@ -213,10 +213,10 @@ Dalam beberapa tahun terakhir, solusi pesan terenkripsi menjadi sangat banyak. N
 
 Kebanyakan orang yang tidak tertarik pada ruang privasi kemungkinan besar menggunakan WhatsApp atau iMessage. Yang pertama dapat diunduh melalui Aurora Store, tetapi yang terakhir (iMessage) tidak akan berfungsi di GrapheneOS (tentu saja!).
 
-- [Signal](https://signal.org/) adalah salah satu messenger terenkripsi end-to-end (E2EE) yang lebih populer, yang memiliki rekam jejak kuat dan fitur yang banyak. Signal memerlukan nomor telepon untuk pendaftaran, jadi jika Anda berencana untuk mengobrol dengan orang-orang yang Anda tidak ingin mereka tahu nomor telepon Anda, mungkin carilah beberapa alternatif. Signal harus diunduh melalui Aurora Store.
+- [Signal](https://signal.org/) adalah salah satu messenger terenkripsi end-to-end (E2EE) yang lebih populer, yang memiliki rekam jejak kuat dan fitur yang banyak. Signal memerlukan nomor telepon untuk pendaftaran, jadi jika Anda berencana untuk mengobrol dengan orang-orang yang Anda tidak ingin mereka tahu nomor telepon Anda, mungkin carilah beberapa alternatif **_[atau sembunyikan nomor Anda di pengaturan profil](https://support.signal.org/hc/en-us/articles/6712070553754-Phone-Number-Privacy-and-Usernames)_**. Signal harus diunduh melalui Aurora Store.
 - [Simplex](https://f-droid.org/en/packages/chat.simplex.app/) adalah messenger E2EE yang relatif baru. Ia tidak memiliki ID pengguna, tidak memerlukan nomor telepon atau informasi pribadi. Orang dapat menemukan Anda dengan memindai kode QR pribadi Anda atau dengan mengunjungi tautan unik Anda. Simplex juga memungkinkan pengguna tingkat lanjut untuk menjalankan server mereka sendiri guna mengurangi ketergantungan pada entitas terpusat. Simplex tidak memiliki aplikasi desktop, sehingga mungkin tidak cocok jika penggunaan multi-perangkat adalah prioritas Anda. Simplex untuk Android tersedia melalui F-Droid.
 - [Threema](https://threema.ch/en/faq/libre_installation) menawarkan pengalaman yang mirip dengan Simplex, tetapi sudah ada lebih lama dan sebagai hasilnya, terasa sedikit lebih "sempurna". Threema tidak gratis, lisensi seumur hidup berharga $4.99 dan dapat dibeli dengan Bitcoin. Threema menawarkan aplikasi web dan aplikasi desktop. Aplikasi Android tersedia melalui F-Droid.
-- [Telegram FOSS](https://f-droid.org/en/packages/org.telegram.messenger/) adalah fork FOSS tidak resmi dari aplikasi Telegram resmi untuk Android. Telegram memiliki 'obrolan rahasia' E2EE, tetapi opsi default-nya tidak pribadi. Telegram FOSS dapat diunduh dari F-Droid.
+- [Mercurygram](https://f-droid.org/en/packages/it.belloworld.mercurygram/) adalah fork FOSS tidak resmi dari aplikasi Telegram resmi untuk Android. Telegram memiliki 'obrolan rahasia' E2EE, tetapi opsi default-nya tidak pribadi. Mercurygram dapat diunduh dari F-Droid.
 
 ![image](assets/fr/9.webp)
 
@@ -234,14 +234,13 @@ https://planb.academy/tutorials/computer-security/communication/threema-24382d25
 
 ### Media
 - [Spotube](https://f-droid.org/packages/oss.krtirtho.spotube/) adalah aplikasi Spotify lintas platform yang tidak memerlukan akun Premium. Spotube tersedia melalui F-Droid.
-- [ViMusic](https://f-droid.org/en/packages/it.vfsfitvnm.vimusic/) adalah aplikasi fantastis untuk streaming musik apa pun dari YouTube Music secara gratis. ViMusic tersedia dari F-Droid.
 - [Newpipe](https://f-droid.org/packages/org.schabi.newpipe/) menawarkan pengalaman YouTube tanpa iklan yang mengganggu dan izin yang meragukan. Dengan NewPipe Anda dapat berlangganan saluran, mendengarkan di latar belakang, dan bahkan mengunduh untuk ditonton secara offline. NewPipe dapat diakses melalui F-Droid.
 - [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/) adalah pemutar podcast yang memungkinkan Anda untuk berlangganan dan mengelola semua acara favorit Anda. AntennaPod tersedia melalui F-Droid.
 
 ![image](assets/fr/11.webp)
 
 Kiri: Spotube
-Kanan: ViMusic
+Spotube
 
 ### Peta
 
@@ -269,7 +268,7 @@ Kanan: Tutanota
 
 ### Produktivitas
 
-- [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) adalah program sinkronisasi file. Aplikasi ini menyinkronkan file antara dua atau lebih perangkat secara real-time, terlindungi dengan aman dari pihak yang mengintai. Data Anda sepenuhnya milik Anda, dan Anda berhak memilih di mana data itu disimpan, apakah dibagikan dengan pihak ketiga, dan bagaimana data itu ditransmisikan melalui internet. Syncthing tersedia melalui F-Droid.
+- [Syncthing Fork](https://f-droid.org/en/packages/com.github.catfriend1.syncthingfork/) adalah fork dari program sinkronisasi file. Aplikasi ini menyinkronkan file antara dua atau lebih perangkat secara real-time, terlindungi dengan aman dari pihak yang mengintai. Data Anda sepenuhnya milik Anda, dan Anda berhak memilih di mana data itu disimpan, apakah dibagikan dengan pihak ketiga, dan bagaimana data itu ditransmisikan melalui internet. Syncthing Fork tersedia melalui F-Droid.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) menghubungkan semua perangkat Anda agar dapat berkomunikasi dengan mudah satu sama lain saat terhubung ke jaringan rumah Anda. Aplikasi ini memudahkan pengiriman file, foto, dan data clipboard antar semua perangkat Anda (bahkan di iOS!). KDE Connect dapat diunduh dari F-Droid.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/) adalah aplikasi catatan terenkripsi end-to-end (E2EE) untuk menyinkronkan ide dan daftar tugas Anda di seluruh perangkat. Paket gratisnya seharusnya mencukupi untuk sebagian besar kebutuhan penggunaan pribadi. Notesnook tersedia di F-Droid.
 - [Standard Notes](https://f-droid.org/en/packages/com.standardnotes/) sangat mirip dengan Notesnook, tetapi memerlukan paket berbayar untuk dapat menggunakan seluruh fiturnya. Standard Notes tersedia melalui F-Droid.
@@ -283,14 +282,14 @@ Kanan: KDE Connect
 
 ### Gaya Hidup
 
-- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/) adalah aplikasi cuaca Open Source yang dirancang dengan indah dan tersedia melalui F-Droid. Ini juga mendukung berbagai ukuran widget sehingga Anda dapat melihat cuaca di lokasi pilihan Anda langsung dari layar utama Anda.
+- [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) adalah aplikasi cuaca open source yang kaya fitur dengan antarmuka Material 3 Expressive; menawarkan visualisasi yang dipikirkan dengan baik, prakiraan, kondisi waktu nyata, kualitas udara, serbuk sari, peringatan cuaca dari lebih dari 50 sumber.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) adalah aplikasi penerjemahan Open Source dan menjaga privasi yang mendukung lebih dari 200 bahasa. Translate You tersedia melalui F-Droid.
 - [Proton Calendar](https://proton.me/calendar/download) adalah E2EE yang mudah digunakan dan berinteraksi dengan mulus dengan akun email Proton Anda. Proton Calendar dapat diunduh sebagai APK atau melalui toko Aurora.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) adalah aplikasi yang dirancang untuk menampilkan dan menyimpan berbagai jenis tiket digital, seperti boarding pass, kupon, tiket bioskop, dan kartu keanggotaan. Cukup unduh file `pkpass` atau `espass` yang relevan, lalu buka dengan aplikasi ini. PassAndroid tersedia melalui F-Droid.
 
 ![image](assets/fr/19.webp)
 
-Kiri: Geometric Weather
+Kiri: Breezy Weather
 Kanan: Proton Calendar
 
 ### Keamanan/Privasi
@@ -299,7 +298,7 @@ Kanan: Proton Calendar
 - [Proton Pass](https://proton.me/pass/download) menawarkan layanan gratis serupa dengan Bitwarden, tetapi pelanggan [Proton Unlimited](https://proton.me/pricing) dapat mengakses fitur-fitur lanjutan tambahan. Proton Pass tersedia melalui APK atau Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) adalah aplikasi autentikasi dua faktor untuk sistem yang menggunakan protokol kata sandi sekali pakai. Token dapat dengan mudah ditambahkan dengan memindai kode QR. FreeOTP tersedia melalui F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) adalah aplikasi gratis, aman, dan Open Source untuk Android untuk mengelola token verifikasi 2-langkah untuk layanan online Anda. Aegis tersedia melalui F-Droid.
-- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) adalah layanan berbayar, lintas platform yang mengenkripsi data Anda secara lokal sehingga Anda dapat dengan aman mengunggahnya ke layanan cloud favorit Anda. Cryptomator dapat diunduh melalui F-Droid.
+- [Cryptomator](https://f-droid.org/en/packages/org.cryptomator.lite/) adalah layanan lintas platform gratis (_berbayar hanya melalui Google Play di Android_) yang mengenkripsi data Anda secara lokal sehingga Anda dapat dengan aman mengunggahnya ke layanan cloud favorit Anda. Cryptomator dapat diunduh melalui F-Droid.
 
 ![image](assets/fr/21.webp)
 

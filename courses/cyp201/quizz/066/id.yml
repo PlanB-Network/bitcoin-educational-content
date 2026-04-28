@@ -6,3 +6,4 @@ wrong_answers:
   - Hash SHA256 dari 32 byte tengah
 explanation: |
   32 byte terakhir dari keluaran HMAC-SHA512 berfungsi sebagai kode rantai untuk kunci anak.
+reviewed: true

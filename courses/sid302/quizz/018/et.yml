@@ -1,0 +1,8 @@
+question: Milline krüptograafiline mehhanism võimaldab Liquid Network-l kontrollida, et tehingu sisendid on võrdsed väljunditega pluss tasud, ilma et tegelikke summasid avalikkusele avalikustataks?
+answer: Pederseni kulukohustused ja ulatustõendid
+wrong_answers:
+  - Merkle Trees ja digitaalsed allkirjad
+  - Hash Ajaliselt fikseeritud lepingud ja mitme allkirjaga lepingud
+  - Schnorr-allkirjad ja Taproot skriptid
+explanation: |
+  Pedersen Commitments ja Range Proofs on konkreetsed krüptograafilised primitiivid, mis võimaldavad Liquid Confidential Transactions-l varjata summasid, võimaldades samal ajal matemaatilist kontrollimist. Pedersen Commitments seob krüptograafiliselt väärtusi ilma neid paljastamata, samas kui Range Proofs tagab, et kõik summad on positiivsed täisarvud, takistades kasutajatel raha loomist negatiivsete väärtuste kaudu. Teised võimalused on legitiimsed Bitcoin krüptograafilised vahendid, kuid ei paku konfidentsiaalsete tehingute jaoks vajalikke pimendamisvõimalusi, kus summad jäävad varjatud, kuid on siiski kontrollitavad.

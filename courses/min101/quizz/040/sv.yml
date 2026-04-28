@@ -1,0 +1,9 @@
+question: Vilket element är viktigast för konkurrenskraften inom industriell mining?
+answer: Elkostnad
+wrong_answers:
+  - Personalkostnader
+  - Ergonomisk kvalitet på infrastrukturen
+  - Kostnad för mjukvarulicenser
+explanation: |
+  I stor skala beror lönsamheten i mining på kostnaden per beräkningsenhet, vilket främst bestäms av elkostnaden.
+reviewed: false

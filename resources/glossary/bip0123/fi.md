@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition: BIP-asiakirjojen luokittelu neljään kategoriaan Konsensus, Peer Services, API/RPC ja Sovellukset.
 ---
 Perustetaan uusi standardoitu prosessi Bitcoinin parannusehdotusten luokittelua varten. Bitcoin-ehdotukset on nyt luokiteltava neljään luokkaan:
 

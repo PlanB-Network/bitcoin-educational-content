@@ -1,0 +1,9 @@
+question: Alle wie viele Blöcke ereignet sich ein Halving?
+answer: 210.000
+wrong_answers:
+  - 2.016
+  - 100.000
+  - 21.000.000
+explanation: |
+  Das Protokoll wendet ein Halving bei jedem Vielfachen von 210.000 in der Blockhöhe an.
+reviewed: false

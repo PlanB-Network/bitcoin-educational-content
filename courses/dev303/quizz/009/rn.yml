@@ -1,0 +1,8 @@
+question: Ni igiki itegeko `cargo new project_name` rirema nk'igice c'imiterere y'umugambi?
+answer: Ububiko bwa Git, dosiye Cargo.toml, na dosiye main.rs y'ishimikiro iri na porogaramu ya Hello World
+wrong_answers:
+  - Gusa dosiye y'imiterere ya Cargo.toml n'imiterere y'ububiko bw'inkomoko y'ubusa
+  - Ibigeragezo vyuzuye, amadosiye y'inyandiko, n'imiterere yiteguye gukora
+  - Dosiye zibiri zishobora gushirwa mu ngiro, ububiko bugenewe, n'imiterere y'ubwubatsi bwo kurekura
+explanation: |
+  Itegeko rya `cargo new` rirema umushinge w'umugambi wuzuye harimwo ububiko bwa Git bwo kugenzura verisiyo, dosiye Cargo.toml yo gutunganya umugambi n'ibivako, na dosiye y'ishimikiro main.rs irimwo 'Hello, world!' porogarama. Ivyo bitanga vyose bikenewe kugira ngo umuntu atangure gutera imbere ubwo nyene. Ayandi mahitamwo ntabwo ari meza kuko cargo new ntirema test suites, amadosiye y'inyandiko, executable binaries, canke yubake ibintu vy'ubuhinga - ishiraho gusa imiterere y'umugambi w'intango.

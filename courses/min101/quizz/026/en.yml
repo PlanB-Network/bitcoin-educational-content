@@ -1,0 +1,9 @@
+question: Which Bitcoin Core parameter sets the default minimum relay threshold?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Nodes apply local policies and Bitcoin Core uses the minRelayTxFee parameter for the minimum relay threshold.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: OPIEKUN (RDZEŃ)
+term: Opiekun (core)
+definition: Osoby odpowiedzialne za zarządzanie projektem Bitcoin Core i scalanie zmian w kodzie.
 ---
 
 W kontekście projektu Bitcoin Core, dominującej implementacji węzłów w sieci Bitcoin, opiekunowie to osoby, których zadaniem jest zarządzanie projektem. Ponoszą oni odpowiedzialność za jego wdrożenie. Odpowiadają za moderację repozytorium Bitcoin Core GitHub i ustalanie harmonogramu wydawania nowych wersji. Są oni przede wszystkim odpowiedzialni za scalanie pull requestów (PR) proponowanych przez kontrybutorów.

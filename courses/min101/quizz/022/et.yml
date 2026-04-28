@@ -1,0 +1,9 @@
+question: Mida hashrate mõõdab?
+answer: Räsi sekundis
+wrong_answers:
+  - Plokki sekundis
+  - Tehingut sekundis
+  - Baiti sekundis
+explanation: |
+  Hashrate väljendab igas sekundis tehtud räsimiskatsete arvu ühikutes H/s.
+reviewed: false

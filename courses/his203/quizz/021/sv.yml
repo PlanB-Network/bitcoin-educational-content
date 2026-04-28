@@ -1,0 +1,10 @@
+question: Vad hette den omedelbara valutatjänst som skapades av Gareth Nelson och Charlie Shrem 2011 för att underlätta insättningar till valutaplattformar?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Change
+  - TrustCash
+explanation: |
+ Denna tjänst löste problemet med långsamma internationella överföringar till Mt. Gox genom att fungera som en mellanhand och överföra medel till utbytesplattformar när de mottagits i
+ ursprungslandet. BitInstant öppnade sina dörrar för allmänheten den 23 augusti 2011 och blev snabbt populär och överförde 1,2 miljoner dollar i januari 2012.
+reviewed: true

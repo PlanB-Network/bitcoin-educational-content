@@ -1,5 +1,6 @@
 ---
-term: FORK
+term: Fork
+definition: Scission du réseau de nœuds ou modification des règles du protocole Bitcoin.
 ---
 
 Le terme de « fork » revêt plusieurs significations dans le cadre de Bitcoin. Il désigne soit une scission du réseau de nœuds en plusieurs groupes séparés, entraînant la création de plusieurs blockchains différentes, soit une modification des règles du protocole, voire les deux simultanément. Pour simplifier, on distingue 4 grandes catégories de forks :

@@ -1,0 +1,8 @@
+question: Co dzieje się z polami ScriptSig wszystkich danych wejściowych podczas procesu konstruowania sighash dla starszej weryfikacji podpisu ECDSA?
+answer: Wszystkie pola ScriptSig są opróżniane, a następnie ScriptSig bieżącego wejścia jest zastępowany odpowiadającym mu kluczem ScriptPubKey
+wrong_answers:
+  - Wszystkie pola ScriptSig pozostają niezmienione i są uwzględniane w oryginalnej formie w obliczeniach sighash
+  - "Tylko ScriptSig bieżącego wejścia jest przechowywany, podczas gdy pola ScriptSig wszystkich innych wejść są usuwane z transakcji"
+  - Wszystkie pola ScriptSig są zastępowane odpowiadającymi im wartościami ScriptPubKey z przywoływanych danych wyjściowych
+explanation: |
+  Podczas konstruowania sighash dla starszych transakcji, proces najpierw opróżnia wszystkie pola ScriptSig, a następnie zastępuje tylko bieżące dane wejściowe poddawane walidacji odpowiadającym im kluczem ScriptPubKey z danych wyjściowych, które wydaje. Zapewnia to, że podpis zobowiązuje się do spełnienia warunków wydawania bez tworzenia zależności kołowych, w których podpisy musiałyby się podpisywać. Inne opcje są niepoprawne, ponieważ albo pozostawiają podpisy na miejscu (tworząc logiczne niemożliwości), albo modyfikują wszystkie wejścia równomiernie (co nie izolowałoby prawidłowo kontekstu walidacji bieżącego wejścia).

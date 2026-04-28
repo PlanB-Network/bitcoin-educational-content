@@ -1,0 +1,8 @@
+question: 在 ECDSA 签名验证过程中，什么数学关系必须成立才能认为签名有效？
+answer: UG + VP 的 x 坐标必须等于 R，其中 U = Z/S，V = R/S
+wrong_answers:
+  - UG + VP 的 y 坐标必须等于 S，其中 U = R/Z，V = S/Z
+  - KG + ZP 的 x 坐标必须等于 S，其中 K 是非密钥，Z 是哈希值
+  - R + S 之和必须等于公开密钥点 P 的 x 坐标
+explanation: |
+  ECDSA 验证的工作原理是通过公式 UG + VP 重构原始点 KG，其中 U = Z/S（哈希除以 S），V = R/S。如果重建点的 x 坐标等于签名中的 R，则验证成功。这种数学关系允许在不知道私人密钥或非密钥 K 的情况下进行验证，因为代数学通过公开密钥和签名部分间接地重建了 KG。

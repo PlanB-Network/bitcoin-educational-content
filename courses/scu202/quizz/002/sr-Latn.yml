@@ -1,9 +1,9 @@
 question: Koja je glavna prednost VPN-a?
-answer: Šifrovanje internetnog saobraćaja
+answer: Enkriptovanje internet saobraćaja
 wrong_answers:
-  - Ubrzajte svoju Internet vezu
-  - Povećaj kapacitet skladištenja
+  - Ubrzavanje Internet veze
+  - Povećanje kapaciteta skladištenja
   - Integrisani antivirus
 explanation: |
-  VPN stvara sigurni tunel i šifrira razmene između vašeg uređaja i posredničkog servera, čime se pojačava poverljivost.
-reviewed: false
+  VPN stvara sigurni tunel i enkriptuje razmene između vašeg uređaja i posredničkog servera, čime se pojačava poverljivost.
+reviewed: true

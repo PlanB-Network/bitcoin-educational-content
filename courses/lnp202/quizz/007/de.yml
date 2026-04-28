@@ -1,0 +1,9 @@
+question: Welche grundlegende Eigenschaft von Bitcoin geht bei der Vormundschaft verloren?
+answer: Monetäre Souveränität
+wrong_answers:
+  - Monetäre Skalierbarkeit
+  - Schnelle Bezahlung
+  - Monetäre Interoperabilität
+explanation: |
+  Ohne Schlüsselkontrolle gibt der Nutzer die monetäre Souveränität, den zentralen Pfeiler von Bitcoin, auf.
+reviewed: false

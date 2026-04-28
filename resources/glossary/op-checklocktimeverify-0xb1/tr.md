@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition: Bir UTXO'nun harcanması üzerinde mutlak bir zaman kısıtlaması getiren işlem kodu.
 ---
 
 Tüm bu koşullar karşılanmadığı sürece işlemi geçersiz kılar:

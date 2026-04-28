@@ -1,0 +1,8 @@
+question: Koju vrstu operacije Rust izvodi podrazumevano prilikom dodeljivanja jedne String promenljive drugoj?
+answer: Operacija premještanja koja prenosi vlasništvo i poništava izvorni varijabil.
+wrong_answers:
+  - Duboka kopija koja duplicira sve podatke na gomili kako bi kreirala nezavisne stringove
+  - Plitka kopija koja stvara dva pokazivača na istu memoriju na hrpi
+  - Kreiranje reference koje omogućava obe promenljive da dele pristup samo za čitanje
+explanation: |
+  Rust podrazumevano izvodi operaciju premještanja prilikom dodeljivanja složenih tipova kao što je String. Ovo prenosi vlasništvo sa izvora na odredišnu promenljivu dok poništava izvor, sprečavajući opasne scenarije gde bi više promenljivih moglo modifikovati istu memoriju na gomili. Duboka kopija bi bila neefikasna za velike stringove, plitka kopija bi stvorila probleme sa bezbednošću memorije sa više pokazivača na iste podatke, a kreiranje reference zahteva eksplicitnu sintaksu sa operatorom ampersanda.

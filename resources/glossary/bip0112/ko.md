@@ -1,5 +1,6 @@
 ---
 term: BIP0112
+definition: 스크립트에서 상대적 타임락을 생성할 수 있게 하는 OP_CHECKSEQUENCEVERIFY (CSV) 옵코드 도입.
 ---
 
 Bitcoin 스크립트 언어에 `OP_CHECKSEQUENCEVERIFY`(CSV) 옵코드를 도입합니다. 이 옵코드를 사용하면 블록 수 또는 경과 시간으로 정의된 이전 트랜잭션에서 상대적으로 지연된 후에만 유효한 트랜잭션을 생성할 수 있습니다. oP_CHECKSEQUENCEVERIFY`는 스택 상단의 값을 입력의 `nSequence` 값과 비교합니다.

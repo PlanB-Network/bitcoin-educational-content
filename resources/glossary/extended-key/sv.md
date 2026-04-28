@@ -1,5 +1,6 @@
 ---
-term: FÖRLÄNGD NYCKEL
+term: Utökad nyckel
+definition: Sträng som kombinerar en nyckel, dess chain code och metadata för derivering i HD-plånböcker.
 ---
 
 En sekvens av tecken som kombinerar en nyckel (offentlig eller privat), dess tillhörande chain code och en serie metadata. En utökad nyckel sammanställer alla Elements som behövs för att härleda underordnade nycklar till en enda identifierare. De används i deterministiska och hierarkiska plånböcker och kan vara av två typer: en utökad publik nyckel (som används för att härleda publika underordnade nycklar) eller en utökad privat nyckel (som används för att härleda både privata och publika underordnade nycklar). En utökad nyckel innehåller således flera olika uppgifter, som beskrivs i BIP32, i följande ordning:

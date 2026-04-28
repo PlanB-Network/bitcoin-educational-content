@@ -1,0 +1,10 @@
+question: Inovasi teknis apa yang dimasukkan ke dalam mata uang kripto Namecoin pada bulan Oktober 2011?
+answer: mining yang digabungkan
+wrong_answers:
+  - mining yang tahan GPU
+  - Simpul tepercaya
+  - Bukti kepemilikan saham
+explanation: |
+ Penggabungan mining adalah proses di mana pekerjaan yang dilakukan pada "rantai induk" (yaitu Bitcoin) digunakan kembali untuk memvalidasi rantai "tambahan" yang lebih kecil. Proses ini adalah
+ diusulkan dalam diskusi BitDNS oleh Satoshi itu sendiri. Gabungan mining diaktifkan di jaringan Namecoin pada tanggal 8 Oktober 2011, pada level blok 19.200.
+reviewed: true

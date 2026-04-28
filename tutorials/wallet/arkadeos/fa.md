@@ -1,5 +1,5 @@
 ---
-name: آرکیدOS
+name: ArkadeOS
 description: راهنمای کامل پورتفولیو Arkade و پروتکل Ark
 ---
 
@@ -372,14 +372,15 @@ ArkadeOS برنامه کاربردی مشخصی است که پروتکل Ark ر�
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| معیار | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **مدل** | UTXO مشترک هماهنگ شده توسط سرور (ASP) | شبکه P2P از کانال‌های پرداخت | توکن‌های کور صادر شده توسط یک بانک (Mint) |
+| **حضانت** | **غیر حضانتی** (کلیدها نزد شماست) | **غیر حضانتی** (کلیدها نزد شماست) | **حضانتی** (موجودی نزد مینت است) |
+| **حریم خصوصی** | **بالا** (CoinJoin بومی، کور برای عموم) | **متوسط** (مسیریابی پیازی، اما کانال‌ها قابل مشاهده) | **بسیار بالا** (کور حتی برای مینت) |
+| **مقیاس‌پذیری** | عالی (دسته‌بندی انبوه on-chain) | عالی (تراکنش‌های نامحدود off-chain) | عالی (امضاهای ساده سرور) |
+| **تجربه** | ساده (نزدیک به کیف پول on-chain) | پیچیده (مدیریت کانال، نقدینگی) | بسیار ساده (مانند نقد دیجیتال) |
+| **خطر اصلی** | در دسترس بودن ASP و انقضا | مدیریت کانال‌ها و نسخه‌های پشتیبان | اعتماد به مینت (خطر سرقت) |
 
 **Arkade** مصالحه‌ای ایده‌آل است: سادگی و محرمانگی Cashu، اما با حاکمیت (غیرامانی) Lightning.
 

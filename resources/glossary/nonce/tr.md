@@ -1,5 +1,6 @@
 ---
 term: Nonce
+definition: Madenciler tarafından geçerli bir blok karması (hash) bulmak için değiştirilen, yalnızca bir kez kullanılan sayı.
 ---
 
 Hesaplama bağlamında, "Nonce" terimi yalnızca bir kez kullanılan ve daha sonra değiştirilen bir sayı anlamına gelir. Genellikle rastgele veya sözde rastgeledir. Nonces, işlemin güvenliğini sağlamak için çeşitli kriptografik protokollerde kullanılır. Örneğin, Bitcoin protokolünde kullanılan ECDSA imzaları bir Nonce kullanımını içerir. Bu, bu sayının her imza için yeni olması gerektiği anlamına gelir. Böyle bir durum söz konusu değilse, aynı Nonce'yi kullanan iki imzayı karşılaştırarak kullanılan özel anahtarı hesaplamak mümkündür.

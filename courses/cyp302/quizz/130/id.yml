@@ -6,3 +6,4 @@ wrong_answers:
   - Mereka memastikan enkripsi pesan antar pengguna
 explanation: |
   Otoritas sertifikat menerbitkan sertifikat yang menghubungkan kunci publik dengan pemiliknya, memungkinkan pengguna untuk memverifikasi keaslian kunci publik yang mereka gunakan.
+reviewed: true

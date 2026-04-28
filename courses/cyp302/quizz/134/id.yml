@@ -6,4 +6,4 @@ wrong_answers:
   - Untuk memungkinkan Alice mengenkripsi pesan untuk memverifikasi integritasnya
 explanation: |
   Dalam kriptografi asimetris, kunci publik Alice memungkinkan Bob untuk mengirim pesan terenkripsi yang hanya bisa dia dekripsi, sehingga menjamin kerahasiaan pesan tersebut.
-reviewed: false
+reviewed: true

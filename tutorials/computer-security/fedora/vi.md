@@ -111,7 +111,7 @@ Trong hướng dẫn này, chúng ta sẽ thực hiện trên phiên bản Fedor
 
 
 
-Bạn có thể tải xuống phiên bản [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) từ trang web chính thức của dự án Fedora. Sau đó, chọn phiên bản tương ứng với kiến trúc bộ xử lý của bạn (32-bit - 64-bit) và nhấp vào biểu tượng **Tải xuống**.
+Bạn có thể tải xuống phiên bản [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) từ trang web chính thức của dự án Fedora. Sau đó, chọn phiên bản tương ứng với kiến trúc bộ xử lý của bạn (32-bit - 64-bit) và nhấp vào biểu tượng **Tải xuống**.
 
 
 

@@ -892,7 +892,7 @@ Nezapomeňte před implementací komunikovat se svými týmy: musíte jim vysvě
 
 
 
-Nakonec můžete **Lynis** porovnat i s jinými nástroji, kterých je několik. Pokud chcete přejít na centralizovanou správu a zároveň zůstat u otevřeného kódu, doporučuji nástroj [Wazuh] (https://wazuh.com/).
+Nakonec můžete **Lynis** porovnat i s jinými nástroji, kterých je několik. Pokud chcete přejít na centralizovanou správu a zároveň zůstat u otevřeného kódu, doporučuji nástroj [Wazuh](https://wazuh.com/).
 
 
 

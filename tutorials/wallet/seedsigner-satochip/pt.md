@@ -96,7 +96,7 @@ Para utilizar o seu SeedSigner com um Satochip, é necessário instalar um firmw
 
 
 
-Se ainda não o tiver, descarregue o software [Balena Etcher] (https://etcher.balena.io/) e proceda da seguinte forma:
+Se ainda não o tiver, descarregue o software [Balena Etcher](https://etcher.balena.io/) e proceda da seguinte forma:
 
 
 
@@ -933,6 +933,6 @@ Se esta configuração o convenceu, não hesite em apoiar os projectos que a tor
 
 
 
-- Comprando o seu equipamento diretamente [no sítio Web da Satochip] (https://satochip.io/shop/);
-- Fazendo [um donativo para o projeto SeedSigner] (https://seedsigner.com/donate/);
+- Comprando o seu equipamento diretamente [no sítio Web da Satochip](https://satochip.io/shop/);
+- Fazendo [um donativo para o projeto SeedSigner](https://seedsigner.com/donate/);
 - Subscrevendo o [canal YouTube do Crypto Guide](https://www.youtube.com/@CryptoGuide/), gerido pela pessoa que mantém o repositório GitHub que aloja o firmware modificado que utilizámos neste tutorial.

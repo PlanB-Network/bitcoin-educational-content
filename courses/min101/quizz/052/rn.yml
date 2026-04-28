@@ -1,0 +1,9 @@
+question: Mu buryo bworoshe, ice (bloc) kuri Bitcoin n'iki?
+answer: Umurwi w'ivyakozwe (transactions)
+wrong_answers:
+  - Umurishyo (paiement)
+  - Server yo hagati
+  - Urufunguzo rw'ibanga (clé privée)
+explanation: |
+  Tuvuze mu buryo bworoshe, ice ni umurwi gusa w'ivyakozwe hamwe.
+reviewed: false

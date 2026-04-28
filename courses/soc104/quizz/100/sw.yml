@@ -1,0 +1,9 @@
+question: Kulingana na Ilani ya Cypherpunk ya Eric Hughes, ni jukumu gani kuu la kutetea faragha katika jamii ya kielektroniki iliyo wazi?
+answer: Watu binafsi lazima watetee faragha yao wenyewe badala ya kutegemea serikali au mashirika kutoa
+wrong_answers:
+  - Serikali zinapaswa kuanzisha kanuni kamili za faragha ili kuwalinda raia kutokana na ufuatiliaji wa makampuni
+  - Mashirika lazima yatekeleze viwango vya faragha vya hiari na kujidhibiti wenyewe kwa vitendo vyao vya ukusanyaji wa data
+  - Mashirika ya kimataifa yanapaswa kuunda mikataba inayofungamana inayoamuru ulinzi wa faragha katika mataifa yote
+explanation: |
+  Eric Hughes alisema waziwazi katika Ilani ya Cypherpunk kwamba 'Hatuwezi kutarajia serikali, mashirika, au mashirika mengine makubwa yasiyojulikana kutuhakikishia usiri... Lengo langu kuu kwa Wacypherpunks ni kuwafanya watu watetee usiri wao, badala ya kumtegemea mtu mwingine kutoa.'
+  Falsafa hii inasisitiza uwajibikaji wa mtu binafsi na kujitegemea kupitia zana za kriptografia, ikikataa utegemezi wa taasisi za nje kwa ajili ya ulinzi wa faragha, ndiyo maana Wacypherpunks waliunda mifumo ya kriptografia iliyogawanywa.

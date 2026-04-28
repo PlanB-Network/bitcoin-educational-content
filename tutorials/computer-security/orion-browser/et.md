@@ -522,15 +522,16 @@ Et Orion oleks kiire ja privaatne:
 
 
 
-| Critère | Orion | Safari | Chrome | Firefox | Brave |
+
+| Kriteerium | Orion | Safari | Chrome | Firefox | Brave |
 |---------|-------|--------|---------|----------|--------|
-| **Télémétrie** | Aucune | Minimale | Extensive | Modérée | Minimale |
-| **Bloqueur natif** | 99,9% efficace | Basique | Absent | Partiel | Complet |
-| **Extensions** | Chrome + Firefox | Limitées | Chrome uniquement | Firefox uniquement | Chrome uniquement |
-| **Performance Mac** | Excellente | Excellente | Bonne | Moyenne | Bonne |
-| **Consommation RAM** | Très faible | Faible | Élevée | Moyenne | Moyenne |
-| **Open Source** | Partiel | Partiel (WebKit) | Partiel | Complet | Complet |
-| **Plateformes** | Mac/iOS | Mac/iOS | Toutes | Toutes | Toutes |
+| **Telemeeter** | Pole | Minimaalne | Ulatuslik | Maandlik | Minimaalne |
+| **Omumaalne blokeeija** | 99,9% tõhus | Põhiline | Puudub | Osalinetmääruse | Täielik |
+| **Laiendused** | Chrome + Firefox | Piiratud | Ainult Chrome | Ainult Firefox | Ainult Chrome |
+| **Mac-i jõudlus** | Suurepärane | Suurepärane | Hea | Keskmine | Hea |
+| **RAM-i kasutamine** | Väga madal | Madal | Kõrge | Keskmine | Keskmine |
+| **Avatud lähtekood** | Osalinetmääruse | Osalinetmääruse (WebKit) | Osalinetmääruse | Täielik | Täielik |
+| **Platvormid** | Mac/iOS | Mac/iOS | Kõik | Kõik | Kõik |
 
 **Versus Safari**: Orion pakub täiustatud blokeerija ja laienduste toega paremat kaitset, säilitades samal ajal WebKiti jõudluse.
 

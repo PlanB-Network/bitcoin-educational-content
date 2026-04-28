@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah invers
 explanation: |
   Sebuah generator adalah elemen dalam grup siklik yang, melalui eksponensiasi, dapat menghasilkan semua elemen lain dari grup tersebut.
-reviewed: false
+reviewed: true

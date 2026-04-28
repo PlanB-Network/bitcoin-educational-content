@@ -1,5 +1,6 @@
 ---
 term: BIP0009
+definition: Methode voor het activeren van soft forks waarbij miners hun steun signaleren via een bit in blokken, waarbij 95% goedkeuring vereist is voor activatie.
 ---
 
 Methode voor het activeren van Soft forks op Bitcoin voorgesteld in 2015. Het introduceert een systeem waarbij miners hun steun voor een Soft Fork aangeven door een specifieke bit te gebruiken in het versieveld van blokken. Een Soft Fork voorgesteld onder BIP9 wordt geactiveerd als 95% van de blokken over een periode van 2016 blokken (ongeveer twee weken, samenvallend met elke moeilijkheidsaanpassing) hun goedkeuring aangeven. Na deze vergrendeling krijgen mijnwerkers een respijtperiode om zich voor te bereiden op de update voordat deze wordt geactiveerd. Als de 95% drempel niet wordt bereikt binnen de maximaal toegestane tijd, wordt de Soft Fork verlaten. BIP9 staat het signaleren van meerdere Soft forks tegelijkertijd toe, maar geeft miners veel macht, want als de vereiste drempel niet wordt gehaald, wordt de Soft Fork simpelweg verlaten. Deze methode werd aanvankelijk gebruikt voor SegWit, voordat BIP148, die het gebruik van een UASF voorstelt, zijn intrede deed en de lock-in forceerde via BIP91.

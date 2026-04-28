@@ -1,8 +1,9 @@
-question: Ni nde yarungitse Mercier de la Rivière mu Burusiya kugira ngo afashe Catherine wa kabiri guhindura amategeko yiwe?
-answer: Diderote
+question: Ni nde yarungitse Mercier de la Rivière mu Burusiya kugira ngo afashe Catherine II guhindura amategeko yiwe?
+answer: Diderot
 wrong_answers:
   - Voltaire
   - Turgot
-  - Ikibazo
+  - Quesnay
 explanation: |
   Diderot, uwaguma yandikirana na Catherine II, yararemesheje uwo Catherine guhamagara Mercier de la Rivière kugira ngo afashe mu guhindura amategeko y’Uburusiya.
+reviewed: true

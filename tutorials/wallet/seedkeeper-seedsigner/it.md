@@ -64,7 +64,7 @@ Per utilizzare SeedSigner con un Seedkeeper, è necessario installare un firmwar
 
 
 
-Se non lo si possiede già, scaricare il software [Balena Etcher] (https://etcher.balena.io/), quindi procedere come segue:
+Se non lo si possiede già, scaricare il software [Balena Etcher](https://etcher.balena.io/), quindi procedere come segue:
 
 
 
@@ -507,4 +507,4 @@ Se questa impostazione vi ha convinto, non esitate a sostenere i progetti che la
 
 - Acquistando direttamente l'apparecchiatura [sul sito web di Satochip](https://satochip.io/shop/);
 - Facendo [una donazione al progetto SeedSigner](https://seedsigner.com/donate/);
-- Iscrivendosi al canale YouTube di [Crypto Guide] (https://www.youtube.com/@CryptoGuide/), gestito dalla persona che gestisce il repository GitHub che ospita il firmware modificato.
+- Iscrivendosi al canale YouTube di [Crypto Guide](https://www.youtube.com/@CryptoGuide/), gestito dalla persona che gestisce il repository GitHub che ospita il firmware modificato.

@@ -1,0 +1,9 @@
+question: Wat is volgens de fundamentele kritiek van Satoshi Nakamoto het kernprobleem met conventionele fiatvaluta's dat Bitcoin moest oplossen?
+answer: Het buitensporige vertrouwen dat vereist is in gecentraliseerde instellingen die in het verleden herhaaldelijk dat vertrouwen hebben geschonden door valuta te debiteren
+wrong_answers:
+  - Het gebrek aan digitale infrastructuur en de trage verwerking van transacties in vergelijking met moderne betalingssystemen
+  - Het onvermogen om internationale transacties uit te voeren zonder dure tussenpersonen en kosten voor het omrekenen van valuta
+  - De kwetsbaarheid voor vervalsing en fysieke diefstal door de afhankelijkheid van papiergeld en fysieke opslag
+explanation: |
+  Satoshi Nakamoto stelde expliciet dat 'het kernprobleem van conventionele valuta al het vertrouwen is dat nodig is om het te laten werken' en dat 'de geschiedenis van fiatvaluta's vol zit met schendingen van dat vertrouwen'
+  Deze filosofische basis vormde de basis voor het ontwerp van Bitcoin als een vertrouwensloos systeem dat geen vertrouwen in centrale banken of regeringen nodig heeft om de monetaire stabiliteit te handhaven.

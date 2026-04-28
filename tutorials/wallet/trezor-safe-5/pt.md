@@ -110,7 +110,7 @@ Também é necessário o software Trezor Suite para configurar o Safe 5, verific
 
 
 
-[Descarregar o Trezor Suite a partir do sítio Web oficial] (https://trezor.io/trezor-suite)
+[Descarregar o Trezor Suite a partir do sítio Web oficial](https://trezor.io/trezor-suite)
 
 
 
@@ -393,7 +393,7 @@ O software Trezor Suite já não será necessário, exceto para efetuar actualiz
 
 
 
-Comece por descarregar e instalar o Sparrow Wallet [a partir do sítio Web oficial] (https://sparrowwallet.com/) no seu computador, se ainda não o tiver feito.
+Comece por descarregar e instalar o Sparrow Wallet [a partir do sítio Web oficial](https://sparrowwallet.com/) no seu computador, se ainda não o tiver feito.
 
 
 
@@ -577,7 +577,7 @@ Selecionar o montante a enviar para este Address.
 
 
 
-Ajuste a taxa da sua transação de acordo com o mercado atual. Por exemplo, pode utilizar [Mempool.space] (https://Mempool.space/) para escolher uma taxa de comissão adequada.
+Ajuste a taxa da sua transação de acordo com o mercado atual. Por exemplo, pode utilizar [Mempool.space](https://Mempool.space/) para escolher uma taxa de comissão adequada.
 
 
 

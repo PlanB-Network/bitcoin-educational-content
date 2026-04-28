@@ -1,0 +1,11 @@
+question: Was war der Haupteinwand, den amerikanische Libertäre unter Berufung auf das Mises'sche Regressionstheorem gegen Bitcoin erhoben?
+answer: Es hatte keinen intrinsischen Wert und war durch nichts Konkretes gedeckt
+wrong_answers:
+  - Sie hatte eine monetäre Inflation mit einem Ausgabesatz von 40% pro Jahr im Jahr 2011
+  - Es wurde nicht als Rechnungseinheit verwendet, eine wesentliche Eigenschaft des Geldes
+  - Sie schuf eine zutiefst ungleiche Verteilung des Wohlstands
+explanation: |
+ Einige amerikanische Libertäre, die der österreichischen Schule angehören, lehnten Bitcoin ab, weil es (ihrer Ansicht nach) dem Regressionstheorem von Ludwig von Mises widerspricht,
+ das besagt, dass ein Gut einen objektiven nicht-monetären Gebrauchswert haben muss, bevor es zu einer Währung werden kann. Dies galt insbesondere für Peter Schiff, den Sohn des
+ des Anti-Steuer-Aktivisten Irwin Schiff und ein überzeugter Anhänger des Goldstandards.
+reviewed: true

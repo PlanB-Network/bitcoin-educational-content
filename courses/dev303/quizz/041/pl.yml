@@ -1,0 +1,8 @@
+question: Jakie są trzy sposoby, w jakie zamknięcia mogą przechwytywać zmienne ze swojego środowiska w Rust?
+answer: Przez niezmienne odniesienie, przez zmienne odniesienie lub przez przejęcie własności
+wrong_answers:
+  - Przez kopiowanie wartości, pożyczanie referencji lub dereferencję wskaźnika
+  - Przez alokację stosu, alokację sterty lub przez pamięć statyczną
+  - Poprzez dostęp współdzielony, wyłączny lub współbieżny
+explanation: |
+  Zamknięcia w Rust przechwytują zmienne środowiskowe na dokładnie trzy sposoby: przez niezmienne odniesienie (gdy muszą tylko czytać), przez zmienne odniesienie (gdy muszą modyfikować) lub przez przejęcie własności (gdy muszą przenieść wartość, często dla bezpieczeństwa wątków). Kompilator automatycznie wybiera najbardziej restrykcyjną metodę, która spełnia potrzeby zamknięcia, zgodnie z zasadą najmniejszego przywileju.

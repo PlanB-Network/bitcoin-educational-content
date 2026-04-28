@@ -372,14 +372,15 @@ Um die Positionierung von Arkade besser zu verstehen, sollten wir es mit den bei
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriterium | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Modell** | Gemeinsames UTXO, koordiniert durch Server (ASP) | P2P-Netzwerk von Zahlungskanälen | Von einer Bank (Mint) ausgegebene Blind Tokens |
+| **Verwahrung** | **Non-custodial** (Sie haben die Schlüssel) | **Non-custodial** (Sie haben die Schlüssel) | **Custodial** (Der Mint hält die Mittel) |
+| **Privatsphäre** | **Hoch** (Natives CoinJoin, blind für die Öffentlichkeit) | **Mittel** (Onion-Routing, aber Kanäle sichtbar) | **Sehr hoch** (Blind sogar für den Mint) |
+| **Skalierbarkeit** | Exzellent (Massives Batching On-Chain) | Exzellent (Unendliche Transaktionen Off-Chain) | Exzellent (Einfache Serversignaturen) |
+| **Erfahrung** | Einfach (ähnlich einer On-Chain-Wallet) | Komplex (Kanalverwaltung, Liquidität) | Sehr einfach (wie digitales Bargeld) |
+| **Hauptrisiko** | Verfügbarkeit des ASP & Ablauf | Kanalverwaltung & Backups | Vertrauen in den Mint (Diebstahlrisiko) |
 
 **Arkade** ist der ideale Kompromiss: die Einfachheit und Vertraulichkeit von Cashu, aber mit der Souveränität (ohne Verwahrung) von Lightning.
 

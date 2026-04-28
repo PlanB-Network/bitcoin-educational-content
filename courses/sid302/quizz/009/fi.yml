@@ -1,0 +1,8 @@
+question: Mikä on Pedersenin sitoumusten ensisijainen tarkoitus Elements:ssä ja Confidential Transactions:ssa?
+answer: Korvataan näkyvät transaktiosummat kryptografisilla sitoumuksilla, jotka voidaan validoida paljastamatta todellisia arvoja
+wrong_answers:
+  - generate:lle yksilölliset 64-merkkiset heksadesimaalitunnukset Elements-lohkoketjussa hiljattain liikkeeseen lasketuille omaisuuserille
+  - double-spending:n estäminen luomalla matemaattisia todisteita siitä, että piilotetut arvot ovat positiivisia kokonaislukuja kelvollisilla alueilla
+  - Mahdollistetaan Bitcoin:n siirto pääketjusta Elements-sivuketjuihin kryptografisten kiinnitysmekanismien avulla
+explanation: |
+  Pedersen-sitoumukset ovat keskeinen kryptografinen mekanismi, joka mahdollistaa yksityisyyden suojan Confidential Transactions:ssä korvaamalla näkyvät määrät matemaattisilla sitoumuksilla. Homomorfisten ominaisuuksiensa ansiosta validoijat voivat tarkistaa, että syötteet ovat yhtä suuret kuin tuotokset plus maksut, näkemättä todellisia arvoja. Range Proofs estää negatiiviset summat, asset ID:t tunnistavat tokenit ja pegging-mekanismit hoitavat ketjujen väliset siirrot, mutta mikään näistä ei ole Pedersen Commitmentsin erityinen tehtävä.

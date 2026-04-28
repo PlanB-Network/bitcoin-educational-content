@@ -1,0 +1,9 @@
+question: Why does the coinbase transaction differ from other transactions?
+answer: It does not spend any real UTXO
+wrong_answers:
+  - It has no TXID
+  - It has no outputs
+  - It is not in the Merkle tree
+explanation: |
+  Its input points to a dummy UTXO, allowing the creation of the subsidy and the collection of fees.
+reviewed: true

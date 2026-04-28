@@ -51,7 +51,7 @@ Kniha vznikla na objednávku a za finanční podpory vývojového centra [Chainc
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Vítejte v kurzu PHI 301 o filozofii vývoje Bitcoin.
+Vítejte v kurzu BTC 303 o filozofii vývoje Bitcoin.
 
 
 Bitcoin je víc než jen kryptoměna, ztělesňuje filozofickou vizi decentralizace, soukromí, nedůvěryhodnosti a odolnosti. Tento kurz je určen speciálně pro vývojáře, kteří se již seznámili s technickými základy Bitcoin a nyní se snaží prohloubit své znalosti principů, na nichž je založen design a správa Bitcoin.
@@ -75,8 +75,6 @@ Orientace ve složitém prostředí řízení Bitcoin vyžaduje více než jen t
 Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 
-***N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy týkajícími se Bitcoin, podívejte se prosím do [slovníčku pojmů](https://planb.academy/resources/glossary), kde najdete jejich definice.*
-
 
 
 
@@ -94,7 +92,7 @@ Jste připraveni udělat další krok na cestě ke Bitcoin? Začněme!
 
 V tomto článku je rozebráno, co je decentralizace a proč je pro fungování společnosti Bitcoin nezbytná. Rozlišujeme mezi
 
-decentralizace těžařů a plnohodnotných uzlů a diskutovat o tom, co přinášejí pro odolnost vůči cenzuře, což je jedna z hlavních vlastností Bitcoin.
+decentralizace [těžařů](https://planb.academy/resources/glossary/mining) a [plnohodnotných uzlů](https://planb.academy/resources/glossary/full-node) a diskutovat o tom, co přinášejí pro odolnost vůči cenzuře, což je jedna z hlavních vlastností Bitcoin.
 
 
 Diskuse se pak přesouvá k pochopení neutrality - neboli bezpříznakovosti vůči uživatelům, těžařům a vývojářům - která je nezbytnou vlastností každého decentralizovaného systému. Nakonec se dotkneme toho, jak může být pochopení decentralizovaného systému, jako je Bitcoin, obtížné, a představíme několik mentálních modelů, které by vám mohly pomoci jej pochopit.
@@ -109,7 +107,7 @@ Decentralizace je prostředkem k dosažení *odolnosti vůči cenzuře*.
 V Bitcoin existují dva hlavní aspekty decentralizace: V Miner se jedná o decentralizaci a v Full node o decentralizaci.
 
 
-Decentralizace Miner znamená, že zpracování transakcí neprovádí ani nekoordinuje žádný centrální subjekt. Decentralizace Full node se týká skutečnosti, že validace bloků, tj. dat, která těžaři vydají, se provádí na okraji sítě, v konečném důsledku jejími uživateli, a nikoli několika důvěryhodnými autoritami.
+Decentralizace Miner znamená, že zpracování [transakcí](https://planb.academy/resources/glossary/transaction-tx) neprovádí ani nekoordinuje žádný centrální subjekt. Decentralizace Full node se týká skutečnosti, že validace [bloků](https://planb.academy/resources/glossary/block), tj. dat, která těžaři vydají, se provádí na okraji sítě, v konečném důsledku jejími uživateli, a nikoli několika důvěryhodnými autoritami.
 
 
 ![](assets/cs/001.webp)
@@ -125,10 +123,10 @@ Pokusy o vytvoření digitálních měn se objevily již před Bitcoin, ale vět
 Decentralizace Miner v Bitcoin znamená, že *pořádání transakcí* neprovádí žádný jednotlivý subjekt nebo pevně stanovená množina subjektů. Provádějí ho kolektivně všechny subjekty, které se na něm chtějí podílet; tento kolektiv těžařů je dynamickou množinou uživatelů. Každý se k němu může připojit nebo jej opustit, jak si přeje. Díky této vlastnosti je Bitcoin odolný vůči cenzuře.
 
 
-Pokud by byl systém Bitcoin centralizovaný, byl by zranitelný pro ty, kteří by jej chtěli cenzurovat, například pro vlády. Potkal by ji stejný osud jako dřívější pokusy o vytvoření digitálních peněz. V úvodu [dokumentu](https://www.blockstream.com/sidechains.pdf) s názvem "Enabling Blockchain Innovations with Pegged Sidechains" autoři vysvětlují, jak nebyly rané verze digitálních peněz vybaveny pro prostředí s protistranou (viz také kapitolu o protistranickém myšlení v další části).
+Pokud by byl systém Bitcoin centralizovaný, byl by zranitelný pro ty, kteří by jej chtěli cenzurovat, například pro vlády. Potkal by ji stejný osud jako dřívější pokusy o vytvoření digitálních peněz. V úvodu [dokumentu](https://www.blockstream.com/sidechains.pdf) s názvem "Enabling [Blockchain](https://planb.academy/resources/glossary/blockchain) Innovations with Pegged Sidechains" autoři vysvětlují, jak nebyly rané verze digitálních peněz vybaveny pro prostředí s protistranou (viz také kapitolu o protistranickém myšlení v další části).
 
 
-David Chaum představil digitální hotovost jako výzkumné téma v roce 1983 v prostředí s centrálním serverem, který je důvěryhodný, aby zabránil Double-spending. Aby zmírnil riziko ohrožení soukromí jednotlivců ze strany této centrální důvěryhodné strany a aby zajistil zastupitelnost, zavedl Chaum slepý podpis, který použil jako kryptografický prostředek k zabránění propojení podpisů centrálního serveru (které představují mince) a zároveň umožnil centrálnímu serveru provádět prevenci dvojího vydání.
+David Chaum představil digitální hotovost jako výzkumné téma v roce 1983 v prostředí s centrálním serverem, který je důvěryhodný, aby zabránil [Double-spending](https://planb.academy/resources/glossary/double-spending-attack). Aby zmírnil riziko ohrožení soukromí jednotlivců ze strany této centrální důvěryhodné strany a aby zajistil [zastupitelnost](https://planb.academy/resources/glossary/fungibility), zavedl Chaum [slepý podpis](https://planb.academy/resources/glossary/blind-signature), který použil jako kryptografický prostředek k zabránění propojení podpisů centrálního serveru (které představují mince) a zároveň umožnil centrálnímu serveru provádět prevenci dvojího vydání.
 
 Požadavek na centrální server se stal Achillovou patou digitální hotovosti[Gri99]. I když je možné toto jediné místo selhání eliminovat nahrazením podpisu centrálního serveru prahovým podpisem několika podepisujících osob, je pro auditovatelnost důležité, aby byly tyto osoby odlišné a identifikovatelné. To stále ponechává systém zranitelný vůči selhání, protože každý podepisující může selhat nebo být přinucen selhat jeden po druhém.
 
@@ -154,17 +152,17 @@ Pokud se jim to podaří, stejné problémy se pravděpodobně někdy v budoucnu
 Žádná z těchto možností není pro uživatele výhodná.
 
 
-Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi Nakamoto ve svém [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
+Odolnost vůči cenzuře prostřednictvím decentralizace je to, co odlišuje Bitcoin od ostatních peněžních systémů, ale není to snadné kvůli problému *Double-spending*. Jedná se o problém, jak zajistit, aby nikdo nemohl utratit stejnou minci dvakrát, což je problém, o kterém si mnoho lidí myslelo, že jej nelze vyřešit decentralizovaným způsobem. Satoshi [Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) ve svém [Bitcoin whitepaper](https://planb.academy/bitcoin.pdf) píše o tom, jak problém Double-spending vyřešit:
 
 
 > V tomto článku navrhujeme řešení problému Double-spending pomocí peer-to-peer distribuovaného serveru Timestamp pro výpočetní důkaz chronologického pořadí transakcí generate.
 
 
-Používá zde zvláštně znějící výraz "peer-to-peer distribuovaný server Timestamp". Klíčovým slovem je zde *distribuovaný*, což v tomto kontextu znamená, že neexistuje žádný centrální řídicí bod. Nakamoto dále vysvětluje, jakým způsobem je Proof-of-Work řešením.
+Používá zde zvláštně znějící výraz "peer-to-peer distribuovaný server Timestamp". Klíčovým slovem je zde *distribuovaný*, což v tomto kontextu znamená, že neexistuje žádný centrální řídicí bod. Nakamoto dále vysvětluje, jakým způsobem je [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) řešením.
 
 Přesto to nikdo nevysvětlí lépe než
 
-[Gregory Maxwell na Redditu](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), kde reaguje na někoho, kdo navrhuje omezit výkon těžařů Hash, aby se zabránilo potenciálním 51% útokům:
+[Gregory Maxwell na Redditu](https://www.reddit.com/r/Bitcoin/comments/ddddfl/question_on_the_vulnerability_of_bitcoin/f2g9e7b/), kde reaguje na někoho, kdo navrhuje omezit výkon těžařů [Hash](https://planb.academy/resources/glossary/hashrate), aby se zabránilo potenciálním 51% útokům:
 
 
 > Decentralizovaný systém, jako je Bitcoin, využívá veřejné volby. V decentralizovaném systému však nemůžete mít jen hlasování "lidí", protože to by vyžadovalo, aby centralizovaná strana povolila lidem hlasovat. Místo toho Bitcoin používá hlasování výpočetního výkonu, protože výpočetní výkon je možné ověřit bez pomoci jakéhokoli centralizovaného
@@ -189,10 +187,10 @@ Závěr je důležitý. Pokud lidé nebudou chránit decentralizaci Bitcoin, kte
 V předchozích odstavcích jsme mluvili hlavně o decentralizaci Miner a o tom, jak může centralizace těžařů umožnit cenzuru. Existuje však také další aspekt decentralizace, a to *Full node decentralizace*.
 
 
-Význam decentralizace Full node souvisí s nedůvěryhodností. Předpokládejme, že uživatel přestane provozovat svůj vlastní Full node například z důvodu neúnosného zvýšení provozních nákladů. V takovém případě musí se sítí Bitcoin komunikovat jiným způsobem, případně pomocí webových peněženek nebo lehkých peněženek, což vyžaduje určitou míru důvěry v poskytovatele těchto služeb.
+Význam decentralizace Full node souvisí s nedůvěryhodností. Předpokládejme, že uživatel přestane provozovat svůj vlastní Full node například z důvodu neúnosného zvýšení provozních nákladů. V takovém případě musí se sítí Bitcoin komunikovat jiným způsobem, případně pomocí webových [peněženek](https://planb.academy/resources/glossary/wallet) nebo lehkých peněženek, což vyžaduje určitou míru důvěry v poskytovatele těchto služeb.
 
 
-Uživatel přechází od přímého vynucování pravidel síťového konsensu k důvěře, že to udělá někdo jiný. Nyní předpokládejme, že většina uživatelů deleguje prosazování konsensu na důvěryhodnou entitu. V takovém případě se síť může rychle zvrtnout v centralizaci a pravidla sítě mohou být změněna spikleneckými zlomyslnými aktéry.
+Uživatel přechází od přímého vynucování [pravidel síťového konsensu](https://planb.academy/resources/glossary/consensus-rules) k důvěře, že to udělá někdo jiný. Nyní předpokládejme, že většina uživatelů deleguje prosazování [konsensu](https://planb.academy/resources/glossary/consensus) na důvěryhodnou entitu. V takovém případě se síť může rychle zvrtnout v centralizaci a pravidla sítě mohou být změněna spikleneckými zlomyslnými aktéry.
 
 
 V [a
@@ -588,7 +586,7 @@ Gregory Maxwell v článku, o němž se zde hovoří, [uvedl](https://bitcointal
 
 > Finanční soukromí je zásadním prvkem zaměnitelnosti v Bitcoin: pokud lze smysluplně odlišit jednu minci od druhé, pak je jejich zaměnitelnost slabá. Pokud je naše zaměnitelnost v praxi příliš slabá, pak nemůžeme být decentralizovaní: pokud někdo důležitý oznámí seznam ukradených mincí, od kterých nebude přijímat mince odvozené, musíte pečlivě kontrolovat mince, které přijímáte, podle tohoto seznamu a vracet ty, které neuspějí.  Každý se zasekne na kontrole černých listin vydaných různými úřady, protože v takovém světě bychom všichni neradi uvízli se špatnými mincemi. To zvyšuje tření a transakční náklady a snižuje hodnotu Bitcoin jako peněz.
 
-Zde hovoří o nebezpečích plynoucích z nedostatečné zastupitelnosti. Předpokládejme, že máte UTXO. Historii tohoto UTXO lze obvykle vysledovat několik hopů zpět, vějířovitě do mnoha předchozích výstupů. Pokud byl některý z těchto výstupů zapojen do nějaké nezákonné, nežádoucí nebo podezřelé činnosti, pak by jej někteří potenciální příjemci vaší mince mohli odmítnout. Pokud si myslíte, že příjemci vašich mincí budou ověřovat vaše mince podle nějaké centralizované služby whitelist nebo blacklist, mohli byste pro jistotu začít kontrolovat i mince, které dostáváte. Výsledkem je, že špatná zaměnitelnost podpoří ještě horší zaměnitelnost.
+Zde hovoří o nebezpečích plynoucích z nedostatečné zastupitelnosti. Předpokládejme, že máte [UTXO](https://planb.academy/resources/glossary/utxo). Historii tohoto UTXO lze obvykle vysledovat několik hopů zpět, vějířovitě do mnoha předchozích výstupů. Pokud byl některý z těchto výstupů zapojen do nějaké nezákonné, nežádoucí nebo podezřelé činnosti, pak by jej někteří potenciální příjemci vaší mince mohli odmítnout. Pokud si myslíte, že příjemci vašich mincí budou ověřovat vaše mince podle nějaké centralizované služby whitelist nebo blacklist, mohli byste pro jistotu začít kontrolovat i mince, které dostáváte. Výsledkem je, že špatná zaměnitelnost podpoří ještě horší zaměnitelnost.
 
 
 Adam Back a Matt Corallo [přednesli prezentaci o zaměnitelnosti](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) na konferenci Scaling Bitcoin v Miláně v roce 2016. Přemýšleli ve stejném duchu:
@@ -674,7 +672,7 @@ Chcete-li získat slušné soukromí v systému Bitcoin, musíte přijmout aktiv
 ![](assets/cs/006.webp)
 
 
-Tato kapitola se zabývá limitem Bitcoin Supply ve výši 21 milionů BTC, nebo kolik to vlastně je? Mluvíme o tom, jak je tento limit vymáhán a co lze udělat pro ověření, že je dodržován. Kromě toho nahlédneme do křišťálové koule a probereme dynamiku, která vstoupí do hry, až se systém Block reward změní z dotačního na poplatkový.
+Tato kapitola se zabývá limitem Bitcoin Supply ve výši 21 milionů BTC, nebo kolik to vlastně je? Mluvíme o tom, jak je tento limit vymáhán a co lze udělat pro ověření, že je dodržován. Kromě toho nahlédneme do křišťálové koule a probereme dynamiku, která vstoupí do hry, až se systém [Block reward](https://planb.academy/resources/glossary/block-reward) změní z dotačního na poplatkový.
 
 
 Známá konečná hodnota Supply ve výši 21 milionů BTC je považována za základní vlastnost Bitcoin. Je však skutečně pevně daná?
@@ -685,7 +683,7 @@ Začněme tím, co říkají současná konsenzuální pravidla o Supply z Bitco
 
 > Pokud všechna tato čísla sečtete, získáte 20999999.9769 BTC.
 
-Z řady důvodů - například kvůli počátečním problémům s transakcemi na coinbase, těžařům, kteří si neúmyslně nárokují méně, než je povoleno, a ztrátě soukromých klíčů - však horní hranice nikdy nebude dosaženo. Wuille uzavírá:
+Z řady důvodů - například kvůli počátečním problémům s [transakcemi na coinbase](https://planb.academy/resources/glossary/coinbase-transaction), těžařům, kteří si neúmyslně nárokují méně, než je povoleno, a ztrátě soukromých klíčů - však horní hranice nikdy nebude dosaženo. Wuille uzavírá:
 
 
 > Zůstává nám tedy 20999817.31308491 BTC (s přihlédnutím ke všemu až do bloku 528333)
@@ -718,7 +716,7 @@ I kdyby se některé plné uzly obrátily na temnou stranu a rozhodly se přijí
 
 
 
-Block reward se skládá z blokové dotace a transakčních poplatků. Block reward musí pokrýt náklady na zabezpečení Bitcoin. S jistotou můžeme říci, že za dnešních podmínek s ohledem na blokovou dotaci, transakční poplatky, cenu Bitcoin, velikost Mempool, sílu Hash, stupeň decentralizace atd. je motivace každého hráče hrát podle pravidel dostatečně vysoká, aby byl zachován bezpečný peněžní systém.
+Block reward se skládá z [blokové dotace](https://planb.academy/resources/glossary/block-subsidy) a [transakčních poplatků](https://planb.academy/resources/glossary/transaction-fees). Block reward musí pokrýt náklady na zabezpečení Bitcoin. S jistotou můžeme říci, že za dnešních podmínek s ohledem na blokovou dotaci, transakční poplatky, cenu Bitcoin, velikost [Mempool](https://planb.academy/resources/glossary/mempool), sílu Hash, stupeň decentralizace atd. je motivace každého hráče hrát podle pravidel dostatečně vysoká, aby byl zachován bezpečný peněžní systém.
 
 
 Co se stane, když se bloková dotace blíží nule? Pro zjednodušení předpokládejme, že se skutečně rovná nule. V tomto okamžiku jsou náklady na zabezpečení systému pokryty pouze prostřednictvím transakčních poplatků. Co nás čeká v budoucnu, až k tomu dojde, nemůžeme vědět. Faktorů nejistoty je mnoho a jsme odkázáni na spekulace. Například příspěvek Paula Sztorce k tomuto tématu [na jeho blogu Truthcoin](https://www.truthcoin.info/blog/security-budget/) je převážně spekulací, ale má alespoň jeden solidní bod (všimněte si prosím, že M2, jak se o něm zmiňuje Sztorc, je měření fiat peněz Supply):
@@ -735,7 +733,7 @@ Dnes jsou to držitelé, kdo platí za bezpečnost (prostřednictvím měnové i
 Postupem času se náklady na zabezpečení přesunou z držitelů na plátce
 
 
-Pokud jsou hlavní motivací pro Mining transakční poplatky, dochází ke změně motivace. Především pokud Mempool Miner neobsahuje dostatek transakčních poplatků, může být pro tento Miner výhodnější přepsat historii Bitcoin, než ji rozšiřovat. Bitcoin Optech má zvláštní [oddíl o tomto chování](https://bitcoinops.org/en/topics/fee-sniping/), nazvaný *fee sniping*, jehož autorem je David Harding:
+Pokud jsou hlavní motivací pro Mining transakční poplatky, dochází ke změně motivace. Především pokud Mempool Miner neobsahuje dostatek transakčních poplatků, může být pro tento Miner výhodnější přepsat historii Bitcoin, než ji rozšiřovat. Bitcoin Optech má zvláštní [oddíl o tomto chování](https://bitcoinops.org/en/topics/fee-sniping/), nazvaný *[fee sniping](https://planb.academy/resources/glossary/fee-sniping)*, jehož autorem je David Harding:
 
 
 > Problémem, který se může objevit, když se dotace Bitcoin bude nadále snižovat a transakční poplatky začnou převládat nad odměnami za bloky Bitcoin, je tzv. fee sniping. Pokud záleží jen na transakčních poplatcích, pak má Miner s `x` procenty sazby Hash `x` procentní šanci na Mining příštího bloku, takže očekávaná hodnota pro něj poctivě provedeného Mining je `x` procent [nejlepší feerate množiny transakcí](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) v jeho Mempool.
@@ -816,7 +814,7 @@ Norma podporuje dopřednou kompatibilitu, pokud produkt, který je v souladu s d
 A naopak, [zpětná kompatibilita](https://en.wikipedia.org/wiki/Backward_compatibility) znamená, že data ze starého softwaru lze použít v novějším softwaru. O změně se říká, že je plně kompatibilní, pokud je kompatibilní jak dopředu, tak zpětně.
 
 
-O změně pravidel konsensu Bitcoin se říká, že je *Soft Fork*, pokud je plně kompatibilní. Jedná se o nejčastější způsob aktualizace Bitcoin, a to z řady důvodů, o kterých budeme hovořit dále v této kapitole. Pokud je změna pravidel konsensu Bitcoin zpětně kompatibilní, ale není kompatibilní dopředu, nazývá se *Hard Fork*.
+O změně pravidel konsensu Bitcoin se říká, že je *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*, pokud je plně kompatibilní. Jedná se o nejčastější způsob aktualizace Bitcoin, a to z řady důvodů, o kterých budeme hovořit dále v této kapitole. Pokud je změna pravidel konsensu Bitcoin zpětně kompatibilní, ale není kompatibilní dopředu, nazývá se *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
 Technický přehled vidlic Soft a Hard naleznete v [kapitole 11 knihy Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Vysvětluje tyto pojmy a věnuje se také mechanismům aktualizace. Doporučujeme, i když to není nezbytně nutné, abyste se s tím seznámili, než budete pokračovat ve čtení.
@@ -831,24 +829,24 @@ Blok Bitcoin dnes není stejný jako v době, kdy byl blok Genesis vytvořen. V 
 
 > V Bitcoin byl vlastně Hard-Fork, který Satoshi dělal, že bychom to takhle nikdy neudělali - je to dost špatný způsob, jak to udělat. Pokud se podíváte na popis revize v gitu zde [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], říká něco o vráceném makefile.unix wx-config verze 0.3.6. Správně. To je vše, co se tam píše. Není tam vůbec uvedeno, že by tam byla nějaká zlomová změna. V podstatě to tam schovával. Také [napsal na bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) a řekl, prosím, aktualizujte na verzi 0.3.6 co nejdříve. Opravili jsme implementační chybu, kdy je možné, že se falešné transakce mohou zobrazovat jako přijaté. Nepřijímejte platby Bitcoin, dokud nepřejdete na verzi 0.3.6. Pokud nemůžete provést upgrade ihned, pak by bylo nejlepší uzel Bitcoin do té doby vypnout. A pak ještě navíc, nevím, proč se rozhodl udělat i toto, se rozhodl přidat nějaké optimalizace do stejného kódu. Opravit chybu a přidat nějaké optimalizace.
 
-Poukazuje na to, že ať už záměrně, nebo ne, tento Hard Fork vytvořil příležitosti pro budoucí vidličky Soft, konkrétně operátory skriptu (opkódy) OP_NOP1-OP_NOP10. Více se touto změnou kódu budeme zabývat v cve-2010-5141. Tyto opkódy byly dosud použity pro dvě vidlice Soft:
+Poukazuje na to, že ať už záměrně, nebo ne, tento Hard Fork vytvořil příležitosti pro budoucí vidličky Soft, konkrétně operátory skriptu ([opkódy](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10. Více se touto změnou kódu budeme zabývat v cve-2010-5141. Tyto opkódy byly dosud použity pro dvě vidlice Soft:
 
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
 
-Lombrozo také poskytuje přehled o vývoji mechanismů aktualizace v průběhu let až do roku 2017. Od té doby byl nasazen pouze jeden další významný upgrade, Taproot. Dlouhý a poněkud chaotický proces, který vedl k jeho aktivaci, nám pomohl získat další poznatky o mechanismech upgradu Bitcoin.
+Lombrozo také poskytuje přehled o vývoji mechanismů aktualizace v průběhu let až do roku 2017. Od té doby byl nasazen pouze jeden další významný upgrade, [Taproot](https://planb.academy/resources/glossary/taproot). Dlouhý a poněkud chaotický proces, který vedl k jeho aktivaci, nám pomohl získat další poznatky o mechanismech upgradu Bitcoin.
 
 
 #### Upgrade SegWit
 
 
 
-Zatímco všechny modernizace předcházející SegWit byly víceméně bezbolestné, tato byla jiná. Když byl v říjnu 2016 vydán aktivační kód SegWit, zdálo se, že mezi uživateli Bitcoin má obrovskou podporu, ale z nějakého důvodu těžaři nesignalizovali podporu pro tento upgrade, což aktivaci zdrželo a řešení bylo v nedohlednu.
+Zatímco všechny modernizace předcházející [SegWit](https://planb.academy/resources/glossary/segwit) byly víceméně bezbolestné, tato byla jiná. Když byl v říjnu 2016 vydán aktivační kód SegWit, zdálo se, že mezi uživateli Bitcoin má obrovskou podporu, ale z nějakého důvodu těžaři nesignalizovali podporu pro tento upgrade, což aktivaci zdrželo a řešení bylo v nedohlednu.
 
 
-Aaron van Wirdum popisuje tuto klikatou cestu ve svém článku v časopise Bitcoin [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Začíná tím, že vysvětluje, co je SegWit a jak to souvisí s debatou o velikosti bloku. Poté Van Wirdum popisuje sled událostí, které vedly k jeho konečné aktivaci. V centru tohoto procesu byl mechanismus upgradu nazvaný *user activated Soft Fork*, zkráceně UASF, který navrhl uživatel Shaolinfry:
+Aaron van Wirdum popisuje tuto klikatou cestu ve svém článku v časopise Bitcoin [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Začíná tím, že vysvětluje, co je SegWit a jak to souvisí s debatou o velikosti bloku. Poté Van Wirdum popisuje sled událostí, které vedly k jeho konečné aktivaci. V centru tohoto procesu byl mechanismus upgradu nazvaný *user activated Soft Fork*, zkráceně [UASF](https://planb.academy/resources/glossary/uasf), který navrhl uživatel Shaolinfry:
 
 
 > Shaolinfry navrhl alternativu: uživatelsky aktivovaný Soft Fork (UASF). Namísto aktivace výkonu Hash by uživatelsky aktivovaný Soft Fork měl "'aktivaci příznakového dne', kdy uzly začnou vynucovat výkon v předem stanoveném čase v budoucnosti" Pokud je takový UASF vynucován ekonomickou většinou, mělo by to většinu těžařů donutit k dodržování (nebo aktivaci) Soft Fork.
@@ -1029,7 +1027,7 @@ Ukázalo se, že pro udržení harmonie Bitcoin jsou vidlice Soft cestou vpřed,
 Tato kapitola se zabývá *protichůdným myšlením*, tedy myšlením, které se zaměřuje na to, co by se mohlo pokazit a jak by mohli jednat protivníci. Začneme tím, že probereme bezpečnostní předpoklady a bezpečnostní model Bitcoin. Poté vysvětlíme, jak mohou běžní uživatelé zlepšit svou vlastní suverenitu a decentralizaci Bitcoin Full node tím, že budou myslet adversariálně. Poté se podíváme na některé skutečné hrozby pro Bitcoin a také do mysli protivníka. Nakonec si povíme o *axiomu odporu*, který vám může pomoci pochopit, proč lidé na Bitcoin vůbec pracují.
 
 
-Při diskusi o zabezpečení různých systémů je důležité pochopit, jaké jsou předpoklady zabezpečení. Typickým bezpečnostním předpokladem v Bitcoin je "problém diskrétního logaritmu je Hard řešitelný", což zjednodušeně řečeno znamená, že je prakticky nemožné najít soukromý klíč, který odpovídá určitému veřejnému klíči. Dalším poměrně silným bezpečnostním předpokladem je, že většina hashpower sítě je poctivá, což znamená, že hraje podle pravidel. Pokud se tyto předpoklady prokáží jako chybné, pak má Bitcoin problém.
+Při diskusi o zabezpečení různých systémů je důležité pochopit, jaké jsou předpoklady zabezpečení. Typickým bezpečnostním předpokladem v Bitcoin je "problém [diskrétního logaritmu](https://planb.academy/resources/glossary/discrete-logarithm) je Hard řešitelný", což zjednodušeně řečeno znamená, že je prakticky nemožné najít [soukromý klíč](https://planb.academy/resources/glossary/private-key), který odpovídá určitému [veřejnému klíči](https://planb.academy/resources/glossary/public-key). Dalším poměrně silným bezpečnostním předpokladem je, že většina hashpower sítě je poctivá, což znamená, že hraje podle pravidel. Pokud se tyto předpoklady prokáží jako chybné, pak má Bitcoin problém.
 
 
 V roce 2015 přednesl Andrew Poelstra [přednášku](https://btctranscripts.com/scalingbitcoin/hong-kong-2015/security-assumptions/) na konferenci Scaling Bitcoin v Hongkongu, během níž analyzoval bezpečnostní předpoklady Bitcoin. Začal tím, že si všiml, že mnoho systémů do jisté míry nebere v úvahu protivníky; například ve skutečnosti je Hard chránit budovu proti všem typům protivníků. Místo toho obecně připouštíme možnost, že někdo může budovu zapálit, a do jisté míry tomuto a dalším protivníkům bráníme prostřednictvím vymáhání práva apod.
@@ -1066,7 +1064,7 @@ složitost samotného systému.
 
 
 
-Význam oponentního myšlení se do jisté míry vztahuje i na běžné uživatele Bitcoin, nejen na hardcore vývojáře a experty. Ragnar Lifthasir v [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) zmiňuje, jak zjednodušující vyprávění kolem Bitcoin - například "jen HODL" - může být pro samotný Bitcoin degradující, a uzavírá slovy
+Význam oponentního myšlení se do jisté míry vztahuje i na běžné uživatele Bitcoin, nejen na hardcore vývojáře a experty. Ragnar Lifthasir v [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) zmiňuje, jak zjednodušující vyprávění kolem Bitcoin - například "jen [HODL](https://planb.academy/resources/glossary/hodl)" - může být pro samotný Bitcoin degradující, a uzavírá slovy
 
 
 > Abychom posílili Bitcoin i sebe, musíme přemýšlet jako softwaroví inženýři, kteří do Bitcoin přispívají. Ti provádějí vzájemné hodnocení a nemilosrdně hledají chyby. Na svých technických akcích hovoří o všech možných způsobech, jak může návrh selhat. Uvažují kontradiktoricky. Jsou konzervativní
@@ -1085,10 +1083,10 @@ Wallet krádeže a útoky typu odepření služby:
 
 > Pokud se útočník pokusí zaplnit síť klienty, které ovládá, je velmi pravděpodobné, že se budete připojovat pouze k útočníkovým uzlům. Ačkoli Bitcoin nikdy nepoužívá počet uzlů k ničemu, úplné izolování uzlu od poctivé sítě může být užitečné při provádění jiných útoků.
 
-Tento typ útoku se nazývá *Sybilův útok* a dochází k němu vždy, když jedna entita ovládá více uzlů v síti a využívá je k tomu, aby se vydávala za více entit.
+Tento typ útoku se nazývá *[Sybilův útok](https://planb.academy/resources/glossary/sybil-attack)* a dochází k němu vždy, když jedna entita ovládá více [uzlů](https://planb.academy/resources/glossary/node) v síti a využívá je k tomu, aby se vydávala za více entit.
 
 
-Jak je v citátu také zmíněno, útok Sybil není v síti Bitcoin účinný, protože se nehlasuje prostřednictvím uzlů nebo jiných početných entit, ale spíše prostřednictvím výpočetního výkonu. Nicméně tato plochá struktura ponechává systém náchylný k dalším útokům. Stránka Bitcoin na wiki popisuje také další možné útoky, jako je například skrývání informací (často označované jako *útok elipsou*), a způsob, jakým jádro Bitcoin implementuje některá heuristická protiopatření proti takovým útokům.
+Jak je v citátu také zmíněno, útok Sybil není v síti Bitcoin účinný, protože se nehlasuje prostřednictvím uzlů nebo jiných početných entit, ale spíše prostřednictvím výpočetního výkonu. Nicméně tato plochá struktura ponechává systém náchylný k dalším útokům. Stránka Bitcoin na wiki popisuje také další možné útoky, jako je například skrývání informací (často označované jako *[útok elipsou](https://planb.academy/resources/glossary/eclipse-attack)*), a způsob, jakým [jádro Bitcoin](https://planb.academy/resources/glossary/bitcoin-core) implementuje některá heuristická protiopatření proti takovým útokům.
 
 
 Výše uvedené jsou příklady skutečných hrozeb, o které je třeba se postarat.
@@ -1110,7 +1108,7 @@ Pro lepší pochopení myšlení protivníka by mohlo být užitečné nahlédno
 Například je zde část o tom, jak může infiltrátor narušit organizaci. Není Hard vidět, jak by taková taktika mohla být použita k cílení na vývojový proces Bitcoin, kterého se může účastnit kdokoli. Oddaný útočník může neustále zdržovat postup nekonečnými obavami z nepodstatných otázek, handrkovat se o přesné formulace a pokoušet se opakovat diskuse, které již byly komplexně řešeny. Útočník si také může najmout armádu trollů, aby znásobil svou vlastní účinnost; můžeme to nazvat sociálním útokem Sybil. Pomocí sociálního Sybilova útoku může vyvolat dojem, že proti navrhované změně existuje větší odpor, než jaký ve skutečnosti je.
 
 
-To ukazuje, jak odhodlaný stát může udělat a udělá vše, co je v jeho silách, aby nepřítele zničil, včetně jeho rozbití zevnitř. Vzhledem k tomu, že Bitcoin je forma peněz, která konkuruje zavedeným fiat měnám, je pravděpodobné, že státy budou Bitcoin považovat za nepřítele.
+To ukazuje, jak odhodlaný stát může udělat a udělá vše, co je v jeho silách, aby nepřítele zničil, včetně jeho rozbití zevnitř. Vzhledem k tomu, že Bitcoin je forma peněz, která konkuruje zavedeným [fiat měnám](https://planb.academy/resources/glossary/fiat), je pravděpodobné, že státy budou Bitcoin považovat za nepřítele.
 
 
 ### Axiom odporu
@@ -1150,7 +1148,7 @@ Chcete-li udržet Bitcoin v bezpečí, musíte znát jeho nepřátele a jejich p
 ![](assets/cs/010.webp)
 
 
-Bitcoin je vytvořen pomocí softwaru s otevřeným zdrojovým kódem. V této kapitole rozebíráme, co to znamená, jak funguje údržba softwaru a jak open source software v Bitcoin umožňuje vývoj bez oprávnění. Ponoříme se do *výběrové kryptografie*, která se zabývá výběrem a používáním knihoven v kryptografických systémech. Součástí kapitoly je oddíl o recenzním řízení Bitcoin, po němž následuje další oddíl o způsobech, jakými vývojáři Bitcoin získávají finanční prostředky. Poslední část pojednává o tom, že kultura otevřeného kódu Bitcoin může zvenčí vypadat opravdu podivně a proč je tato zdánlivá podivnost ve skutečnosti známkou dobrého zdraví.
+Bitcoin je vytvořen pomocí softwaru s otevřeným zdrojovým kódem. V této kapitole rozebíráme, co to znamená, jak funguje údržba softwaru a jak open source software v Bitcoin umožňuje vývoj bez oprávnění. Ponoříme se do *výběrové [kryptografie](https://planb.academy/resources/glossary/cryptography)*, která se zabývá výběrem a používáním knihoven v kryptografických systémech. Součástí kapitoly je oddíl o recenzním řízení Bitcoin, po němž následuje další oddíl o způsobech, jakými vývojáři Bitcoin získávají finanční prostředky. Poslední část pojednává o tom, že kultura otevřeného kódu Bitcoin může zvenčí vypadat opravdu podivně a proč je tato zdánlivá podivnost ve skutečnosti známkou dobrého zdraví.
 
 
 Většina softwaru Bitcoin, a zejména jádro Bitcoin, má otevřený zdrojový kód. To znamená, že zdrojový kód softwaru je zpřístupněn široké veřejnosti ke kontrole, úpravám a šíření. Definice open source na adrese [](https://opensource.org/osd) obsahuje mimo jiné následující důležité body:
@@ -1168,14 +1166,14 @@ Jádro Bitcoin dodržuje tuto definici tím, že je šířeno pod licencí [MIT 
 
 
 ```
-The MIT License (MIT)
+Licence MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Vývojáři Bitcoin Core
+Copyright (c) 2009-2022 Vývojáři Bitcoinu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Tímto se bezplatně uděluje oprávnění jakékoli osobě, která získá kopii tohoto softwaru a souvisejících dokumentačních souborů („Software"), nakládat se Softwarem bez omezení, včetně, nikoli však výhradně, práva Software používat, kopírovat, upravovat, slučovat, publikovat, distribuovat, poskytovat sublicence a/nebo prodávat kopie Softwaru a umožnit osobám, kterým je Software poskytnut, činit totéž, a to za následujících podmínek:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Výše uvedené oznámení o autorských právech a toto oznámení o oprávnění musí být zahrnuto ve všech kopiích nebo podstatných částech Softwaru.
 ```
 
 
@@ -1189,7 +1187,7 @@ V následujících kapitolách se budeme věnovat některým dalším zajímavý
 
 
 
-Zdrojový kód jádra Bitcoin je udržován v repozitáři Git umístěném na [GitHub](https://github.com/Bitcoin/Bitcoin). Kdokoli může klonovat právě tento repozitář, aniž by musel žádat o jakékoli povolení, a poté jej lokálně kontrolovat, sestavovat nebo v něm provádět změny. To znamená, že po celém světě je rozeseto mnoho tisíc kopií tohoto úložiště. Všechny tyto repozitáře jsou kopiemi téhož repozitáře, čím je tedy tento konkrétní repozitář GitHub Bitcoin Core tak výjimečný? Technicky vzato není vůbec zvláštní, ale společensky se stal ústředním bodem vývoje Bitcoin.
+Zdrojový kód jádra Bitcoin je udržován v repozitáři [Git](https://planb.academy/resources/glossary/git) umístěném na [GitHub](https://github.com/Bitcoin/Bitcoin). Kdokoli může klonovat právě tento repozitář, aniž by musel žádat o jakékoli povolení, a poté jej lokálně kontrolovat, sestavovat nebo v něm provádět změny. To znamená, že po celém světě je rozeseto mnoho tisíc kopií tohoto úložiště. Všechny tyto repozitáře jsou kopiemi téhož repozitáře, čím je tedy tento konkrétní repozitář GitHub Bitcoin Core tak výjimečný? Technicky vzato není vůbec zvláštní, ale společensky se stal ústředním bodem vývoje Bitcoin.
 
 
 Odborník na Bitcoin a bezpečnost Jameson Lopp to velmi dobře vysvětluje v [příspěvku na blogu](https://blog.lopp.net/who-controls-Bitcoin-core-/) s názvem "Kdo ovládá jádro Bitcoin?":
@@ -1230,10 +1228,10 @@ Stejně důležité je pravděpodobně i to, že uživatelé mohou na základě 
 
 
 
-- Lightning Network: Platební síť, která umožňuje rychlé platby velmi malých částek. Vyžaduje velmi málo transakcí On-Chain Bitcoin. Existují různé interoperabilní implementace, například [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) a [Lightning Dev Kit](https://github.com/lightningdevkit).
-- CoinJoin: Více stran spolupracuje, aby spojily své platby do jedné transakce a ztížily tak seskupování Address. Existují různé implementace.
-- Vedlejší řetězce: Tento systém může uzamknout minci na Bitcoin, aby ji odemkl na jiném Blockchain. To umožňuje přesunout bitcoiny na nějaký jiný Blockchain, konkrétně Sidechain, aby bylo možné využívat funkce dostupné na tomto Sidechain. Příkladem může být [Elements společnosti Blockstream](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: Umožňuje [Timestamp dokument](https://opentimestamps.org/) na Bitcoin Blockchain neveřejným způsobem. Pomocí tohoto Timestamp pak můžete dokázat, že dokument musel existovat před určitou dobou.
+- [Lightning Network](https://planb.academy/resources/glossary/lightning-network): Platební síť, která umožňuje rychlé platby velmi malých částek. Vyžaduje velmi málo transakcí [On-Chain](https://planb.academy/resources/glossary/onchain) Bitcoin. Existují různé interoperabilní implementace, například [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) a [Lightning Dev Kit](https://github.com/lightningdevkit).
+- [CoinJoin](https://planb.academy/resources/glossary/coinjoin): Více stran spolupracuje, aby spojily své platby do jedné transakce a ztížily tak seskupování Address. Existují různé implementace.
+- Vedlejší řetězce: Tento systém může uzamknout minci na Bitcoin, aby ji odemkl na jiném Blockchain. To umožňuje přesunout bitcoiny na nějaký jiný Blockchain, konkrétně [Sidechain](https://planb.academy/resources/glossary/sidechain), aby bylo možné využívat funkce dostupné na tomto Sidechain. Příkladem může být [Elements společnosti Blockstream](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: Umožňuje [Timestamp dokument](https://opentimestamps.org/) na Bitcoin Blockchain neveřejným způsobem. Pomocí tohoto [Timestamp](https://planb.academy/resources/glossary/timestamp) pak můžete dokázat, že dokument musel existovat před určitou dobou.
 
 
 Mnoho z těchto projektů by nebylo možné realizovat bez povolení. Jak je uvedeno v kapitole o neutralitě, kdyby vývojáři museli žádat o povolení k vytváření protokolů nad Bitcoin, vyvíjely by se pouze protokoly povolené centrální komisí pro udělování povolení vývojářům.
@@ -1326,7 +1324,7 @@ Na cestě ke konečnému přijetí prochází nápad obvykle několika fázemi d
 
 
 - Nápad je zveřejněn v konferenci Bitcoin-dev
-- Tato myšlenka je formalizována do návrhu na zlepšení Bitcoin (BIP)
+- Tato myšlenka je formalizována do návrhu na zlepšení Bitcoin ([BIP](https://planb.academy/resources/glossary/bip))
 - BIP je implementován v žádosti o stažení (PR) do Bitcoin Core
 - Diskutuje se o mechanismech nasazení
 - Některé konkurenční mechanismy nasazení jsou implementovány v žádostech o stažení do jádra Bitcoin
@@ -1382,7 +1380,7 @@ Společnosti, jednotlivci a organizace, které mají zájem na dalším úspěch
 Lidé někdy nabývají dojmu, že mezi vývojáři Bitcoin panuje spousta bojů a nekonečných vášnivých debat a že nejsou schopni přijímat rozhodnutí.
 
 
-Například o mechanismu nasazení Taproot se diskutovalo dlouhou dobu, během níž se vytvořily dva "tábory". Jeden chtěl "propadnout" vylepšení, pokud by těžaři po určitém okamžiku drtivou většinou nehlasovali pro nová pravidla, zatímco druhý chtěl pravidla po tomto okamžiku prosadit bez ohledu na cokoli. Michael Folkson shrnul argumenty obou táborů v [e-mailu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) do poštovní konference Bitcoin-dev.
+Například o mechanismu nasazení Taproot se diskutovalo dlouhou dobu, během níž se vytvořily dva "tábory". Jeden chtěl "propadnout" vylepšení, pokud by [těžaři](https://planb.academy/resources/glossary/miner) po určitém okamžiku drtivou většinou nehlasovali pro nová pravidla, zatímco druhý chtěl pravidla po tomto okamžiku prosadit bez ohledu na cokoli. Michael Folkson shrnul argumenty obou táborů v [e-mailu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) do poštovní konference Bitcoin-dev.
 
 
 Debata trvala zdánlivě věčně a bylo opravdu Hard vidět, že by se v blízké době mohl vytvořit nějaký konsenzus. To lidi frustrovalo a v důsledku toho se horko zintenzivnilo. Gregory Maxwell (jako uživatel nullc) se [na Redditu](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) obával, že zdlouhavé diskuse způsobí, že upgrade bude méně bezpečný:
@@ -1390,7 +1388,7 @@ Debata trvala zdánlivě věčně a bylo opravdu Hard vidět, že by se v blízk
 
 > V této chvíli další čekání nepřináší větší přezkoumání a jistotu. Naopak, další odklad oslabuje setrvačnost a potenciálně poněkud zvyšuje riziko, protože lidé začínají zapomínat na detaily, odkládají práci na následném použití (jako je podpora Wallet) a neinvestují tolik dalšího úsilí do přezkoumání, kolik by investovali, kdyby si byli jisti časovým rámcem aktivace.
 
-Nakonec se tento spor vyřešil díky novému návrhu Davida Hardinga a Russela O'Connora nazvanému Speedy Trial, který znamenal relativně kratší dobu signalizace pro horníky, aby mohli uzamknout aktivaci Taproot nebo rychle selhat. Pokud by ji aktivovali během tohoto časového okna, pak by Taproot byla nasazena přibližně o 6 měsíců později.
+Nakonec se tento spor vyřešil díky novému návrhu Davida Hardinga a Russela O'Connora nazvanému [Speedy Trial](https://planb.academy/resources/glossary/speedy-trial), který znamenal relativně kratší dobu signalizace pro horníky, aby mohli uzamknout aktivaci Taproot nebo rychle selhat. Pokud by ji aktivovali během tohoto časového okna, pak by Taproot byla nasazena přibližně o 6 měsíců později.
 
 
 Někdo, kdo není zvyklý na vývojový proces Bitcoin, by si pravděpodobně myslel, že tyto vášnivé debaty vypadají strašně špatně a dokonce toxicky. Existují přinejmenším dva faktory, kvůli kterým v očích některých lidí vypadají špatně:
@@ -1414,7 +1412,7 @@ vývojáři se mohou jevit jako velmi Hard-hlavatí, což je obvykle oprávněn�
 reprodukovatelné sestavení, přidání nových závislostí nebo pokud kód nedodržel [osvědčené postupy](https://github.com/Bitcoin/Bitcoin/blob/master/doc/developer-notes.md).
 
 
-Noví (i staří) vývojáři z toho mohou být frustrovaní. Ale jak je u softwaru s otevřeným zdrojovým kódem zvykem, vždy můžete Fork repozitář, sloučit cokoli, co chcete, do svého vlastního Fork a sestavit a spustit vlastní binární soubor.
+Noví (i staří) vývojáři z toho mohou být frustrovaní. Ale jak je u softwaru s otevřeným zdrojovým kódem zvykem, vždy můžete [Fork](https://planb.academy/resources/glossary/fork) repozitář, sloučit cokoli, co chcete, do svého vlastního Fork a sestavit a spustit vlastní binární soubor.
 
 
 ### Závěr o open source
@@ -1452,7 +1450,7 @@ druhy změn, například:
 
 - Použití menšího počtu bajtů na vstupech transakcí
 - Zlepšení výkonu ověřování podpisu
-- Síť peer-to-peer využívá menší šířku pásma
+- Síť [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) využívá menší šířku pásma
 - Dávkování transakcí
 - Vrstvená architektura
 
@@ -1464,7 +1462,7 @@ Brzy se budeme věnovat různým přístupům ke škálování, ale začněme st
 
 
 
-Škálování je ústředním bodem diskusí od vydání Genesis Bitcoin. Úplně první věta [úplně prvního e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) v reakci na oznámení Satoshi o whitepaperu Bitcoin v poštovní konferenci Cryptography se skutečně týkala škálování:
+Škálování je ústředním bodem diskusí od vydání Genesis Bitcoin. Úplně první věta [úplně prvního e-mailu](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html) v reakci na oznámení Satoshi o [whitepaperu](https://planb.academy/resources/glossary/white-paper) Bitcoin v poštovní konferenci Cryptography se skutečně týkala škálování:
 
 
 > Satoshi Nakamoto napsal:
@@ -1521,7 +1519,7 @@ Kromě negativních účinků na decentralizaci Full node může vertikální š
 - Validace bloku trvá delší dobu.
 
 
-Zatímco se blok 7 šíří sítí, mnoho těžařů stále pracuje s blokem Mining na bloku 6, protože blok 7 ještě neobdrželi a neověřili. Pokud během této doby některý z těchto těžařů najde nový blok ve výšce 7, budou v této výšce dva konkurenční bloky. Ve výšce 7 (nebo v jakékoli jiné výšce) může být pouze jeden blok, což znamená, že jeden ze dvou kandidátů se musí stát neaktuálním.
+Zatímco se blok 7 šíří sítí, mnoho těžařů stále pracuje s blokem Mining na bloku 6, protože blok 7 ještě neobdrželi a neověřili. Pokud během této doby některý z těchto těžařů najde nový blok ve výšce 7, budou v této výšce dva konkurenční bloky. Ve výšce 7 (nebo v jakékoli jiné výšce) může být pouze jeden blok, což znamená, že jeden ze dvou kandidátů se musí stát [neaktuálním](https://planb.academy/resources/glossary/stale-block).
 
 
 Stručně řečeno, k zastaralým blokům dochází proto, že šíření každého bloku trvá delší dobu, a čím déle šíření trvá, tím vyšší je pravděpodobnost výskytu zastaralých bloků.
@@ -1537,7 +1535,7 @@ scénář. Mezi opatření, která mohou přijmout, patří:
 
 
 - Odložení validace příchozího bloku, známé také jako *validationless Mining*. Těžaři mohou pouze zkontrolovat Proof-of-Work v záhlaví bloku a těžit na jeho základě, zatímco mezitím stáhnou celý blok a validují jej.
-- Připojení k zařízení Mining pool s větší šířkou pásma a konektivitou.
+- Připojení k zařízení [Mining pool](https://planb.academy/resources/glossary/pool-mining) s větší šířkou pásma a konektivitou.
 
 
 Mining bez ověřování dále podkopává decentralizaci Full node, protože se Miner uchyluje k důvěře v příchozí bloky, přinejmenším dočasně. Do jisté míry také poškozuje bezpečnost, protože část výpočetního výkonu sítě potenciálně staví na neplatném Blockchain, místo aby stavěla na nejsilnějším a platném řetězci.
@@ -1594,7 +1592,7 @@ Jednotlivé řádky představují různé verze jádra Bitcoin. Nejlevější ř
 Zlepšení lze rozdělit buď na úsporu místa (paměť RAM, disk, šířka pásma atd.), nebo na úsporu výpočetního výkonu. Obě kategorie přispívají ke zlepšením ve výše uvedeném diagramu.
 
 
-Dobrým příkladem výpočetního zlepšení je knihovna [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), která mimo jiné implementuje kryptografická primitiva potřebná k vytváření a ověřování digitálních podpisů. Pieter Wuille je jedním z přispěvatelů do této knihovny a napsal [Twitter vlákno](https://twitter.com/pwuille/status/1450471673321381896), ve kterém ukazuje zlepšení výkonu dosažená prostřednictvím různých žádostí o stažení.
+Dobrým příkladem výpočetního zlepšení je knihovna [libsecp256k1](https://github.com/Bitcoin-core/secp256k1), která mimo jiné implementuje kryptografická primitiva potřebná k vytváření a ověřování [digitálních podpisů](https://planb.academy/resources/glossary/digital-signature). Pieter Wuille je jedním z přispěvatelů do této knihovny a napsal [Twitter vlákno](https://twitter.com/pwuille/status/1450471673321381896), ve kterém ukazuje zlepšení výkonu dosažená prostřednictvím různých žádostí o stažení.
 
 
 ![](assets/cs/013.webp)
@@ -1617,7 +1615,7 @@ Existuje také několik dobrých příkladů úspory místa, které přispěly k
 Úspora místa pro různé typy výdajů, verze Taproot a starší verze.
 
 
-Při použití 2 z 3 Multisig s využitím nativního SegWit by bylo zapotřebí celkem 104,5 + 43 vB = 147,5 vB, zatímco při nejprostorově úspornějším použití Taproot by bylo zapotřebí pouze 57,5 + 43 vB = 100,5 vB ve standardním případě použití. V nejhorším případě a ve výjimečných případech, například když není z nějakého důvodu k dispozici standardní podepisovací zařízení, by Taproot spotřeboval 107,5+43 vB = 150,5 vB. Nemusíte rozumět všem podrobnostem, ale mělo by vám to dát představu o tom, jak vývojáři přemýšlejí o úspoře místa - každý malý bajt se počítá.
+Při použití 2 z 3 [Multisig](https://planb.academy/resources/glossary/multisig) s využitím nativního SegWit by bylo zapotřebí celkem 104,5 + 43 vB = 147,5 vB, zatímco při nejprostorově úspornějším použití Taproot by bylo zapotřebí pouze 57,5 + 43 vB = 100,5 vB ve standardním případě použití. V nejhorším případě a ve výjimečných případech, například když není z nějakého důvodu k dispozici standardní podepisovací zařízení, by Taproot spotřeboval 107,5+43 vB = 150,5 vB. Nemusíte rozumět všem podrobnostem, ale mělo by vám to dát představu o tom, jak vývojáři přemýšlejí o úspoře místa - každý malý bajt se počítá.
 
 
 Kromě vnitřního škálování v softwaru Bitcoin existují i způsoby, jak mohou uživatelé přispět k vnitřnímu škálování. Mohou provádět své transakce inteligentněji, aby ušetřili na transakčních poplatcích a zároveň snížili svou stopu v požadavcích Full node. Dvě běžně používané techniky směřující k takovému cíli se nazývají dávkování transakcí a konsolidace výstupů.
@@ -1667,7 +1665,7 @@ Způsob vytvoření této počáteční transakce se u jednotlivých protokolů 
 Jakmile je transakce spuštění v zařízení Blockchain, může protokol provádět to, co má. Může například provádět superrychlé platby mezi účastníky, implementovat některé techniky zvyšující soukromí nebo provádět pokročilejší skriptování, které by Bitcoin Blockchain nepodporoval.
 
 
-Nebudeme podrobně popisovat, jak konkrétní protokoly fungují, ale jak je vidět na předchozím obrázku, Blockchain se během životního cyklu protokolu používá jen zřídka. Všechna šťavnatá akce se odehrává *off-chain*. Viděli jsme, jak to může být výhra pro soukromí, pokud se to udělá správně, ale může to být také výhoda pro škálovatelnost.
+Nebudeme podrobně popisovat, jak konkrétní protokoly fungují, ale jak je vidět na předchozím obrázku, Blockchain se během životního cyklu protokolu používá jen zřídka. Všechna šťavnatá akce se odehrává *[off-chain](https://planb.academy/resources/glossary/offchain)*. Viděli jsme, jak to může být výhra pro soukromí, pokud se to udělá správně, ale může to být také výhoda pro škálovatelnost.
 
 
 V příspěvku na [Redditu](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) s názvem "Cesta na Měsíc vyžaduje raketu s více stupni, jinak vám rovnice rakety sežere oběd... nacpat všechny ve stylu klaunského vozu do trebuchetu a doufat v úspěch je přímo mimo." Gregory Maxwell vysvětluje, proč je vrstvení nejlepší šancí, jak dosáhnout toho, aby Bitcoin škáloval o řády.
@@ -1747,7 +1745,7 @@ V [e-mailovém vlákně](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev
   - zpětné přenesení opravy nebo řešení z hlavní verze do aktuálně vydané verze
 - Vývojáři se pokusí zajistit, aby zveřejnění opravy neodhalilo povahu zranitelnosti, a to tak, že navrhovanou opravu poskytnou zkušeným vývojářům, kteří o zranitelnosti nebyli informováni, řeknou jim, že oprava opravuje zranitelnost, a požádají je, aby zranitelnost identifikovali.
 - Vývojáři mohou doporučit ostatním implementacím Bitcoin, aby přijaly opravy zranitelností před jejich vydáním a širokým nasazením, pokud tak mohou učinit, aniž by zranitelnost odhalili; např. pokud má oprava významný výkonnostní přínos, který by ospravedlnil její zařazení.
-- Než se zranitelnost dostane na veřejnost, vývojáři obvykle doporučí spřáteleným vývojářům Altcoin, že by měli dohnat opravy. To však až poté, co jsou opravy široce rozšířeny v síti Bitcoin.
+- Než se zranitelnost dostane na veřejnost, vývojáři obvykle doporučí spřáteleným vývojářům [Altcoin](https://planb.academy/resources/glossary/altcoin), že by měli dohnat opravy. To však až poté, co jsou opravy široce rozšířeny v síti Bitcoin.
 - Vývojáři obecně nebudou upozorňovat vývojáře Altcoin, kteří se chovají nepřátelsky (např. používají zranitelnosti k útokům na ostatní nebo porušují embarga).
 - Vývojáři Bitcoin nezveřejní podrobnosti o zranitelnosti, dokud nebude oprava nasazena na >80 % uzlů Bitcoin. Odhalovači zranitelností jsou vyzýváni a žádáni, aby dodržovali stejnou politiku. [1] [6]
 
@@ -1948,7 +1946,7 @@ To mělo jednu velkou výhradu: data, která uživatelé stahovali z knightmb [n
 Zdálo se, že lidé s tím opět souhlasí, a tak se podařilo zvrátit neplatný blok a jeho následovníky. Těžaři začali pracovat na novém nástupci bloku [74637](https://Mempool.space/block/0000000000606865e679308edf079991764d88e8122ca9250aef5386962b6e84) a podle Timestamp bloku se nástupce objevil ve 23:53 UTC, tedy asi 6 hodin po objevení problému. Následujícího dne, 16. srpna, v 08:10, kolem bloku 74689, nový řetězec předstihl starý, proto se všechny neaktualizované uzly reorgovaly, aby následovaly nový řetězec. Jedná se o nejhlubší reorganizaci - 52 bloků - v historii Bitcoin.
 
 
-Ve srovnání s problémem OP_RETURN byl tento problém řešen poněkud čistším způsobem:
+Ve srovnání s problémem [OP_RETURN](https://planb.academy/resources/glossary/op-return-0x6a) byl tento problém řešen poněkud čistším způsobem:
 
 
 - Žádné vydání opravy pouze pro binární zařízení
@@ -2065,7 +2063,7 @@ V e-mailu jsou dále uvedeny podrobnosti o tom, jak byl problém objeven a co p�
 
 
 
-Aniž by o tomto problému kdokoli věděl, mohl být vyřešen dnes již široce staženým BIP62, což byl návrh na omezení možností malátnosti transakcí. Mezi navrhované změny v BIP62 patřilo zpřísnění pravidel konsensu pro kódování podpisů neboli "striktní kódování DER". Pieter Wuille v červenci 2014 navrhl několik úprav BIP, které by tento problém vyřešily:
+Aniž by o tomto problému kdokoli věděl, mohl být vyřešen dnes již široce staženým BIP62, což byl návrh na omezení možností malátnosti transakcí. Mezi navrhované změny v BIP62 patřilo zpřísnění pravidel konsensu pro kódování podpisů neboli "striktní kódování [DER](https://planb.academy/resources/glossary/der)". Pieter Wuille v červenci 2014 navrhl několik úprav BIP, které by tento problém vyřešily:
 
 
 > 2014-červenec-18: Aby pravidla pro kódování podpisů v Bitcoin nebyla závislá na specifickém parseru OpenSSL, upravil jsem návrh BIP62 tak, aby se jeho striktní požadavek na podpisy DER vztahoval i na transakce verze 1. V té době se již do bloků nedolovaly žádné podpisy jiné než DER, takže se předpokládalo, že to nebude mít žádný dopad. Viz https://github.com/Bitcoin/bips/pull/90 a http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. V té době neznámé, ale v případě nasazení by to zranitelnost vyřešilo.

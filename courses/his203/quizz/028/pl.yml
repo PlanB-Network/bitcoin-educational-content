@@ -1,0 +1,10 @@
+question: Które oprogramowanie wprowadziło innowację, reprezentując kluczową pochodną seed jako 12-wyrazowe zdanie w listopadzie 2011 roku?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ Ten wallet został stworzony przez francuskiego dewelopera Thomasa Voegtlina. Jego nazwa odnosi się do elektrum, naturalnego stopu złota i srebra. Electrum był jednym z pierwszych
+ wallet, który zaimplementował deterministyczną strukturę wywodzącą klucze z seed, który reprezentował zarówno jako szesnastkowy ciąg znaków, jak i 12-wyrazowe zdanie.
+reviewed: true

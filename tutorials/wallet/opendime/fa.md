@@ -1,9 +1,11 @@
 ---
 name: OPENDIME
-description: تنظیم OEPNDIME خود را انجام دهید
+description: راه‌اندازی OEPNDIME خود را انجام دهید
 ---
 
 ![cover](assets/cover.webp)
+
+
 
 
 

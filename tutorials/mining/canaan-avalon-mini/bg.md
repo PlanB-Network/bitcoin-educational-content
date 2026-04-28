@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Характеристика                                      | Стойност                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Хешрейт                                             | 37.5 Th/s +- 5%                                           |
+| Консумация на ток                              | 800 W                                                     |
+| Шум                                                | 35-55 dB                                                  |
+| Температура на въздуха на изхода                       | 60-70°C (при околна температура 25°C)                  |
+| Изисквания за околна температура за използване | -5° C - 40°C                                              |
+| Диапазон на входа на устройството                         | 110V-240V AC 50/60Hz                                      |
+| Размер на машината                                 | Дължина: 760 mm / Дълбочина: 104 mm / Височина: 214.5 mm |
+| Тегло на машината                                  |  8.35 kg                                                  |
 
 ## Свързване към басейн mining
 

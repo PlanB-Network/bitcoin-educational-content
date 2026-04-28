@@ -1,5 +1,5 @@
 ---
-name: ナードアックス・ガンマ
+name: NerdAxe Gamma
 description: NerdAxe Gamma 設定ガイド
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Seedkeeper - Passordbehandling
+name: Seedkeeper - Passordbehandler
 description: Hvordan lagrer du passordene dine med Seedkeeper-smartkortet?
 ---
 
@@ -25,7 +25,7 @@ Etter min mening har Seedkeeper to hovedbruksområder, som vi vil utforske i to 
 
 
 
-Teknisk sett har Seedkeeper en kapasitet på 8192 byte, noe som gjør det mulig å lagre minst 50 separate hemmeligheter (det nøyaktige antallet avhenger av størrelsen på hemmelighetene og metadataene som er knyttet til hver av dem). Seedkeeper er tilgjengelig enten [via en smartkortleser som er koblet til] (https://satochip.io/accessories/) til en datamaskin, eller via mobilapplikasjonen med NFC-tilkobling. Hele systemet fungerer i frakoblet modus, uten Internett-tilkobling, noe som garanterer en begrenset angrepsflate.
+Teknisk sett har Seedkeeper en kapasitet på 8192 byte, noe som gjør det mulig å lagre minst 50 separate hemmeligheter (det nøyaktige antallet avhenger av størrelsen på hemmelighetene og metadataene som er knyttet til hver av dem). Seedkeeper er tilgjengelig enten [via en smartkortleser som er koblet til](https://satochip.io/accessories/) til en datamaskin, eller via mobilapplikasjonen med NFC-tilkobling. Hele systemet fungerer i frakoblet modus, uten Internett-tilkobling, noe som garanterer en begrenset angrepsflate.
 
 
 

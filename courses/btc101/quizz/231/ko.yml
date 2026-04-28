@@ -1,8 +1,0 @@
-question: Lightning Network의 맥락에서 머니 스트리밍의 개념은 무엇인가요?
-answer: 지속적인 실시간 소액 결제가 가능합니다.
-wrong_answers:
-  - ATM을 사용하여 실제 위치에서 Bitcoin을 현금으로 전환합니다.
-  - Bitcoin용 오디오 또는 비디오 콘텐츠 스트리밍.
-  - 실시간으로 발생하는 Mining 작업을 통해 새로운 비트코인을 생성합니다.
-explanation: >-
-reviewed: true

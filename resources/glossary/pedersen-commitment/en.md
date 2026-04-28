@@ -1,5 +1,6 @@
 ---
 term: Pedersen commitment
+definition: Homomorphic cryptographic commitment allowing verification of sums without revealing values.
 ---
 
 A Pedersen commitment is a type of cryptographic commitment with the property of being homomorphic to the addition operation. This means that it is possible to validate the sum of two commitments without revealing the individual values.

@@ -1,0 +1,9 @@
+question: Em que altura de bloco ocorreu o quarto halving?
+answer: 840.000
+wrong_answers:
+  - 880.000
+  - 860.000
+  - 900.000
+explanation: |
+  O quarto halving ocorreu na altura 840.000, em 20 de abril de 2024.
+reviewed: false

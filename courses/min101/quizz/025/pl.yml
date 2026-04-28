@@ -1,0 +1,9 @@
+question: Czy opłaty za transakcję Bitcoin są wyjściem (output)?
+answer: Nie
+wrong_answers:
+  - Tak
+  - Tak, ale tylko dla transakcji SegWit
+  - Nie, ale tak było przed 2012 rokiem
+explanation: |
+  Opłaty stanowią różnicę między sumą wejść (inputs) a sumą wyjść (outputs), nie są dedykowanym wyjściem. Tak jest od zawsze.
+reviewed: false

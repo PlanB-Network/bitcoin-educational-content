@@ -1,0 +1,10 @@
+question: 从 2012 年 3 月起，用户可以在哪个子论坛上发布自己的裸照以获取比特币提示？
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin于2012年3月26日由朱利安-托什（Julian Tosh，又名Tuxavant）创建。到
+ 2,000 名成员。
+reviewed: true

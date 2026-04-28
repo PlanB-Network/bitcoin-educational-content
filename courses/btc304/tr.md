@@ -28,7 +28,7 @@ BTC304'te, topluluk oluşturmanın neden önemli olduğuna bakacağız, güçlü
 
 
 
-BTC302'ye hoş geldiniz!
+BTC 304'ye hoş geldiniz!
 
 
 
@@ -48,7 +48,7 @@ Bu kayda değer büyüme elbette ki aşağıdakilerle yakından bağlantılıdı
 
 
 
-- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
+- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
 - zaman içinde fiyatının değer kazanması, sabit para politikası sayesinde bir değer saklama aracı ve uzun vadeli bir yatırım olarak kabul görmesi;
 - spekülatif kripto para piyasasının özellikle 2017-2018 ve 2020-2021 döneminde art arda büyümesi;
 - Bitcoin'in ana akım medyadaki artan varlığı.
@@ -241,11 +241,11 @@ Bitcoin buluşmaları birçok amaca hizmet edebilir:
 
 
 
-Bu olasılıkların birçoğunu bu kursun "[Proje ve girişim örnekleri] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) başlıklı 6/8 bölümünde ayrıntılı olarak ele alacağız.
+Bu olasılıkların birçoğunu bu kursun "[Proje ve girişim örnekleri](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) başlıklı 6/8 bölümünde ayrıntılı olarak ele alacağız.
 
 
 
-Her topluluk kendi fikirlerini oluşturmakta, projeler başlatmakta ve kendi yöntemleriyle deneyler yapmakta özgür olsa da, buluşmalar Bitcoin'ün gelişimi ve bitcoin kullanıcılarının büyümesi için giderek daha fazla **önemli** hale geliyor. **Bunları organize etmek zaman ve çaba gerektirir**, bu nedenle bu kurs [Fransa ve Belçika'daki yaklaşık altmış Bitcoin topluluğunun] (https://btcmap.org/communities/map#2/5.24949/0.20000) **kendi topluluğunuzu ve buluşmalarınızı mümkün olduğunca sorunsuz bir şekilde oluşturmanıza ve büyütmenize yardımcı olmak için** birleşik deneyimlerini paylaşmaktadır.
+Her topluluk kendi fikirlerini oluşturmakta, projeler başlatmakta ve kendi yöntemleriyle deneyler yapmakta özgür olsa da, buluşmalar Bitcoin'ün gelişimi ve bitcoin kullanıcılarının büyümesi için giderek daha fazla **önemli** hale geliyor. **Bunları organize etmek zaman ve çaba gerektirir**, bu nedenle bu kurs [Fransa ve Belçika'daki yaklaşık altmış Bitcoin topluluğunun](https://btcmap.org/communities/map#2/5.24949/0.20000) **kendi topluluğunuzu ve buluşmalarınızı mümkün olduğunca sorunsuz bir şekilde oluşturmanıza ve büyütmenize yardımcı olmak için** birleşik deneyimlerini paylaşmaktadır.
 
 
 
@@ -283,7 +283,7 @@ Kararınıza rehberlik edecek birkaç ipucu:
 
 3/ **Yakınlarınızda zaten bir buluşma olup olmadığını kontrol edin**.
 
-Dünya çapındaki çoğu Bitcoin topluluğunu ve buluşmalarını listeleyen [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) adresini kontrol edebilirsiniz.
+Dünya çapındaki çoğu Bitcoin topluluğunu ve buluşmalarını listeleyen [btcmap.org](https://btcmap.org/communities/map#0/0/0/) adresini kontrol edebilirsiniz.
 
 
 
@@ -302,7 +302,7 @@ Bununla birlikte, **güçleri birleştirmek genellikle yakın toplulukları böl
 Bu anlamda, basit bir "temel kural" yardımcı olabilir: yaşadığınız yere 30-45 dakika mesafede aktif bir Bitcoin topluluğu yoksa, yeni bir tane başlatmaya değer olabilir. Bununla birlikte, dilediğinizi yapmakta her zaman özgürsünüz.
 
 
-Ve tabii ki, eski bir topluluk artık sizin değerlerinizle uyuşmayan bir yönde "evrilmişse" ve onları "turuncu hap" haline getirmek için zamanınız veya motivasyonunuz yoksa, kendi Fork'nizi oluşturmak her zaman bir seçenektir.
+Ve tabii ki, eski bir topluluk artık sizin değerlerinizle uyuşmayan bir yönde "evrilmişse" ve onları "[turuncu hap](https://planb.academy/resources/glossary/orange-pill)" haline getirmek için zamanınız veya motivasyonunuz yoksa, kendi [Fork](https://planb.academy/resources/glossary/fork)'nizi oluşturmak her zaman bir seçenektir.
 
 
 
@@ -353,7 +353,7 @@ Bu nedenle **somut hedefler ve projeler belirlemek çok önemlidir**.
 
 
 
-Ancak, daha sonra [Proje ve girişim örnekleri] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) bölümünde göreceğimiz gibi, **bir buluşma birçok şekilde ve birçok hedefle oluşturulabilir:**
+Ancak, daha sonra [Proje ve girişim örnekleri](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) bölümünde göreceğimiz gibi, **bir buluşma birçok şekilde ve birçok hedefle oluşturulabilir:**
 
 
 
@@ -1123,7 +1123,7 @@ Elbette, hem Telegram hem de Discord'u yönetmek, özellikle yapılandırma ve b
 
 
 
-İşlerinizi kolaylaştırmak için **çoğaltabileceğiniz ve özelleştirebileceğiniz bir [Discord sunucusu] (https://discord.com/template/bDY4eXXJk2C8)** paylaşıyoruz:
+İşlerinizi kolaylaştırmak için **çoğaltabileceğiniz ve özelleştirebileceğiniz bir [Discord sunucusu](https://discord.com/template/bDY4eXXJk2C8)** paylaşıyoruz:
 
 
 
@@ -1133,7 +1133,7 @@ Elbette, hem Telegram hem de Discord'u yönetmek, özellikle yapılandırma ve b
 İyi tasarlandığında, bir Discord sunucusu topluluğunuz için gerçek bir varlık olabilir. Birçok Bitcoin kullanıcısı zaten her gün **Discord** kullanıyor ve Telegram konuşmalarını doğrudan Discord içinden takip edebilmek (ve tersi) herkese çok zaman kazandırabilir.
 
 
-Her iki platformu senkronize etmek için [TediCross] (https://github.com/TediCross/TediCross) adlı açık kaynaklı bir bot var. Amacı basittir: bir Discord metin kanalındaki mesajları otomatik olarak bir Telegram grubuna (veya bir üst gruptaki konuya) iletmek ve bunun tersini yapmak.
+Her iki platformu senkronize etmek için [TediCross](https://github.com/TediCross/TediCross) adlı açık kaynaklı bir bot var. Amacı basittir: bir Discord metin kanalındaki mesajları otomatik olarak bir Telegram grubuna (veya bir üst gruptaki konuya) iletmek ve bunun tersini yapmak.
 
 
 Ancak, kurulumunun çok kolay olmadığını unutmayın. Botun çalışması için bilgisayarınızda bir komut istemini (CMD) çalışır durumda tutmanız gerekir ve zaman zaman hatalar meydana gelebilir. Neyse ki, bunu düzeltmek basittir: botu yeniden başlatın ve çoğu zaman her şey normale döner.
@@ -1260,7 +1260,7 @@ Ek olarak, **birkaç gizlilik ayarını değiştirmeye değer**:
 Her etkinlikte, yararlı bilgiler paylaşmak için muhtemelen Twitter'ı kullanacaksınız. Ancak, çoğu sosyal ağda olduğu gibi, **görünürlük her şeydir**.
 
 
-Size önemli ölçüde zaman kazandırmak için [Twitter'ın açık kaynaklı sıralama algoritmasını] (https://github.com/twitter) incelemek için zaman ayırdık.
+Size önemli ölçüde zaman kazandırmak için [Twitter'ın açık kaynaklı sıralama algoritmasını](https://github.com/twitter) incelemek için zaman ayırdık.
 
 
 İşte görünürlüğünüzü artırmak için odaklanmanız gereken **temel şeyler**:
@@ -1391,9 +1391,9 @@ Bunlar şunları içerir:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da Sats'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
-- [BitcoinerEvents] (https://www.bitcoinerevents.com/), bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor.
-- ülkenize bağlı olarak, başka yerel girişimler de olabilir. Örneğin Fransa'da, her ay düzinelerce Bitcoin etkinliğini listeleyen [Bitcoin.fr] (https://Bitcoin.fr/events/categories/evenements/) var. Henüz onları Twitter'da takip etmediyseniz veya topluluğunuz ve etkinlikleriniz hakkında bilgi paylaşmak için onlarla iletişime geçmediyseniz, şimdi tam zamanı! **Fransız etkinlik takviminin güncel tutulmasına yardımcı olmak için, tüm Fransız Bitcoin topluluklarının aşağıdakileri alışkanlık haline getirmesi harika olacaktır:**
+- [Btcmap.org](https://btcmap.org/)**, günlük olarak güncellenen iki haritaya sahip bir web sitesi: **[Bitcoin kabul eden işletmelerin dünya haritası](https://btcmap.org/map)** ve **[dünya toplulukları haritası](https://btcmap.org/communities/map)**. Birçok bitcoin kullanıcısı, seyahat ederken ya da günlük hayatlarına devam ederken, yeni insanlarla tanışmak ya da [Sats](https://planb.academy/resources/glossary/satoshi-sat)'lerini harcayacak yerler bulmak için bu haritaları düzenli olarak kontrol etmektedir. Btcmap küresel bir referanstır ve topluluğunuzu burada listelemek görünürlük için çok önemlidir.**
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), bitcoinciler tarafından bitcoinciler için oluşturulmuş bir web sitesi. **Topluluğunuzun yaklaşan etkinliklerini yayınlamanızı sağlar**. Ancak Fransa'da hala yaygın olarak kullanılmıyor.
+- ülkenize bağlı olarak, başka yerel girişimler de olabilir. Örneğin Fransa'da, her ay düzinelerce Bitcoin etkinliğini listeleyen [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/) var. Henüz onları Twitter'da takip etmediyseniz veya topluluğunuz ve etkinlikleriniz hakkında bilgi paylaşmak için onlarla iletişime geçmediyseniz, şimdi tam zamanı! **Fransız etkinlik takviminin güncel tutulmasına yardımcı olmak için, tüm Fransız Bitcoin topluluklarının aşağıdakileri alışkanlık haline getirmesi harika olacaktır:**
     - her yeni topluluk etkinliği için Twitter'da @bitcoinpointfr'den bahsetmek
     - telegram gruplarında yeni etkinlik duyurularını sabitlemek.
 
@@ -1523,7 +1523,7 @@ Düzenli bir bitcoin kullanıcıları ve ilgili katılımcılar grubu oluşursa,
 2) **bir "alışkanlık "** oluşturmaya yardımcı olur. Birisi kanallarınızı düzenli olarak kontrol etmeyi bıraksa bile, buluşmanın ne zaman gerçekleştiğini bilecek ve her zamanki gibi uğrayabilecektir.
 
 
-Bu ikinci nokta, **Fransa'da çoğu buluşmanın her ayın ilk Çarşamba günü gerçekleşmesinin** nedenlerinden biridir (2022 yılında [DecouvreBitcoin] (https://decouvrebitcoin.fr/) tarafından başlatılan "elçiler" girişimine bakınız).
+Bu ikinci nokta, **Fransa'da çoğu buluşmanın her ayın ilk Çarşamba günü gerçekleşmesinin** nedenlerinden biridir (2022 yılında [DecouvreBitcoin](https://decouvrebitcoin.fr/) tarafından başlatılan "elçiler" girişimine bakınız).
 
 Almanya ve İtalya'da sabit bir ulusal gün yoktur.
 
@@ -1547,7 +1547,7 @@ Topluluğunuz büyüdükçe ve buluşmalar daha fazla insanı çektikçe, bunu y
 
 
 
-Bunun **daha fazla organizasyon ve daha fazla zaman gerektirdiğini** unutmayın. Neyse ki, [bu kursun 6/8. bölümünde] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), size yardımcı olacak bir dizi yeniden kullanılabilir açık kaynak bulacaksınız.
+Bunun **daha fazla organizasyon ve daha fazla zaman gerektirdiğini** unutmayın. Neyse ki, [bu kursun 6/8. bölümünde](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), size yardımcı olacak bir dizi yeniden kullanılabilir açık kaynak bulacaksınız.
 
 
 Her durumda, her şey sizin veya topluluğunuzun kendiniz için belirlediğiniz kısa, orta ve uzun vadeli eylem planına bağlıdır.
@@ -1619,7 +1619,7 @@ Etkinliği düzenleyeceğiniz yerle iletişime geçin ve tahmini katılımcı sa
 
 
     - Tarihi, saati ve yeri sosyal ağlarınızda ve diğer iletişim kanallarınızda paylaşın. Gerekirse bir kayıt bağlantısı ekleyin.
-    - Özel bir görsel oluşturun (örneğin Canva posteri, bkz. bölüm 2/8 "[Bitcoin topluluğunuz için bir kimlik tasarlama] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Özel bir görsel oluşturun (örneğin Canva posteri, bkz. bölüm 2/8 "[Bitcoin topluluğunuz için bir kimlik tasarlama](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Duyuruyu Telegram ve Twitter'da sabitleyerek ve Discord'da "@everyone" mention'ı kullanarak görünürlüğü en üst düzeye çıkarın.
     - Katılımcıların önceden plan yapabilmeleri için etkinlikten 7 ila 10 gün önce duyuruları yayınlayın.
 
@@ -1721,7 +1721,7 @@ Roma bir günde inşa edilmedi, topluluğunuz da öyle olacak. Bitcoin etrafınd
 Bunu gerçekleştirmek için bir şey çok önemlidir: **Katılımcıların ilgisini canlı tutmak**.
 
 
-Amacı düzenli olarak bir araya gelmek ve Bitcoin hakkında konuşmak olan küçük bir tutkulu bitcoinci grubuyla başlayabilir. Zaman içinde, her bir kişinin uygunluğuna ve ilgi alanlarına bağlı olarak, belirli organizasyon görevlerini grupla paylaşabilir** veya çekirdek **üyeleri belirli projeleri** üstlenmeye davet edebilirsiniz. Bunlar topluluğunuza, buluşmalarınıza veya şehrinize özgü olabilir, hatta [bu kursun 6/8. bölümünde] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) önerilen birçok girişimden esinlenilebilir. **Bu sadece çekirdek üyelerinizden Commitment'u teşvik etmekle kalmaz, aynı zamanda topluluğunuzun büyümesine ve gelişmesine de yardımcı olur.
+Amacı düzenli olarak bir araya gelmek ve Bitcoin hakkında konuşmak olan küçük bir tutkulu bitcoinci grubuyla başlayabilir. Zaman içinde, her bir kişinin uygunluğuna ve ilgi alanlarına bağlı olarak, belirli organizasyon görevlerini grupla paylaşabilir** veya çekirdek **üyeleri belirli projeleri** üstlenmeye davet edebilirsiniz. Bunlar topluluğunuza, buluşmalarınıza veya şehrinize özgü olabilir, hatta [bu kursun 6/8. bölümünde](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) önerilen birçok girişimden esinlenilebilir. **Bu sadece çekirdek üyelerinizden Commitment'u teşvik etmekle kalmaz, aynı zamanda topluluğunuzun büyümesine ve gelişmesine de yardımcı olur.
 
 
 Buluşmalarınız ilerledikçe yeni yüzler ortaya çıkacaktır: önceki döngülerde BTC ve/veya altcoin satın almış kişiler, anlayışlarını derinleştirmek isteyen teknoloji meraklıları veya koşulsuz ve güvenilir üçüncü taraflar olmadan çalışan bu sansürsüz, merkezi olmayan, şeffaf ve adil ödeme sistemini merak eden tamamen yeni başlayanlar.
@@ -1820,7 +1820,7 @@ Bu yaklaşım, güçlü eğitim değerinin ötesinde, gruplar arasında açık k
 Aşağıda 2023-2024 Fransa buluşmalarının ilerleyişi yer almaktadır. Her tema için, kendi etkinlikleriniz için ele alabileceğiniz konular hakkında size fikir verebilecek açık kaynaklı bir sunum ve bir video mevcuttur.
 
 
-Düzenlenebilir ek materyaller [Bitcoin Öğretim Araç Kutusu] (https://planb.academy/fr/resources/bet) adresinde de bulunabilir!
+Diğer kaynaklar, Plan ₿ Academy'nin ["Educator Content"](https://planb.academy/educator-content) bölümünde de mevcuttur; bu, dünya çapındaki Bitcoin eğitimcilerinin eğitim materyallerini (sunumlar, el ilanları, kılavuzlar, posterler...) kullanıma hazır veya düzenlenebilir formatlarda paylaştığı ve sunduğu işbirlikçi bir alandır. Amaç: her seferinde sıfırdan başlamamak için çabaları birleştirmek!
 
 
 
@@ -1911,7 +1911,7 @@ Sipariş vermeden önce bu ipuçlarını aklınızda bulundurun:
 
 
 
-İhtiyaçlarınıza ve tedarikçinize bağlı olarak, 1.000 çıkartma 100 € ile 250 € arasında bir fiyata mal olabilir. Pazarlama konusunda uzmanlaşmış bir Fransız Bitcoiner olan [Twitter'da @Mill3sim3] (https://x.com/Mill3sim3) ile iletişime geçebilir ve bazen standart çevrimiçi satıcılardan %30'a kadar daha düşük fiyatlar sağlayabilirsiniz.
+İhtiyaçlarınıza ve tedarikçinize bağlı olarak, 1.000 çıkartma 100 € ile 250 € arasında bir fiyata mal olabilir. Pazarlama konusunda uzmanlaşmış bir Fransız Bitcoiner olan [Twitter'da @Mill3sim3](https://x.com/Mill3sim3) ile iletişime geçebilir ve bazen standart çevrimiçi satıcılardan %30'a kadar daha düşük fiyatlar sağlayabilirsiniz.
 
 
 Bununla birlikte, 1.000 çıkartma çok fazla. Hepsini dağıtabileceğinizden emin olmak için genellikle 100 civarı ile başlamak daha iyidir.
@@ -1936,7 +1936,7 @@ Konser, bar veya stadyum gibi özel mekanlarda, kendi çıkartmanızı eklemeden
 Kolayca kurabileceğiniz bir başka proje de **toplantılarınızda bir kütüphane oluşturmaktır**.
 
 
-Okuma materyallerini paylaşmak isteyen katılımcıları Bitcoin ile ilgili bir kitap getirmeye davet edebilirsiniz. Buluşmadaki başka biri kitabı ödünç almak isterse, Exchange'deki sahibiyle, örneğin Lightning aracılığıyla 21.000 satoshis depozito karşılığında bir ödünç ayarlanabilir.
+Okuma materyallerini paylaşmak isteyen katılımcıları Bitcoin ile ilgili bir kitap getirmeye davet edebilirsiniz. Buluşmadaki başka biri kitabı ödünç almak isterse, Exchange'deki sahibiyle, örneğin [Lightning](https://planb.academy/resources/glossary/lightning-network) aracılığıyla 21.000 satoshis depozito karşılığında bir ödünç ayarlanabilir.
 
 
 Mal sahibi için bu depozito, olası kayıp veya hırsızlığı karşılamaya yardımcı olur. Ödünç alan kişi için ise depozitosunu almak üzere gelecekteki bir buluşmaya geri dönmesi için bir teşviktir.
@@ -1949,10 +1949,10 @@ Bir dernek yönetiyorsanız ve fonlarınızın bir kısmını eğitim kaynaklar�
 ![image](assets/tr/039.webp)
 
 
-Ekosistemi desteklemek için **[yayıncı Konsensus Network] (https://konsensus.network/), uluslararası Bitcoin buluşmaları ve topluluklarına 2023'ün sonlarından bu yana üç kitap veya daha fazla sipariş için tüm kitaplarında %15 ila %35 indirim sunuyor**.
+Ekosistemi desteklemek için **[yayıncı Konsensus Network](https://konsensus.network/), uluslararası Bitcoin buluşmaları ve topluluklarına 2023'ün sonlarından bu yana üç kitap veya daha fazla sipariş için tüm kitaplarında %15 ila %35 indirim sunuyor**.
 
 
-Bu indirimden yararlanmak için **Twitter üzerinden [Konsensus yayınevi] (https://twitter.com/KonsensusFR) ile iletişime geçmeniz yeterlidir**.
+Bu indirimden yararlanmak için **Twitter üzerinden [Konsensus yayınevi](https://twitter.com/KonsensusFR) ile iletişime geçmeniz yeterlidir**.
 
 
 Nakit paranız yoksa, indirimi yine de topluluğunuzun üyelerine aktarabilirsiniz.
@@ -2068,7 +2068,7 @@ Bitcoin beyaz kağıdını bırakmak sembolik olsa da, yeni gelenlerin anlaması
 
 
 
-Neredeyse her bitcoin kullanıcısı muhtemelen [Rémi Forte] (https://twitter.com/forteremi)'nin büyüleyici orta dizisi "Le mystère Satoshi, aux origines du Bitcoin "i (Satoshi Gizemi: Bitcoin'in Kökenleri) görmüştür.
+Neredeyse her bitcoin kullanıcısı muhtemelen [Rémi Forte](https://twitter.com/forteremi)'nin büyüleyici orta dizisi "Le mystère Satoshi, aux origines du Bitcoin "i (Satoshi Gizemi: Bitcoin'in Kökenleri) görmüştür.
 
 
 2021 yılında yayınlanan film [YouTube'da birkaç milyon kez] izlenmiştir (https://www.youtube.com/watch?v=0ETcLj5jBy4).
@@ -2113,7 +2113,7 @@ Birçok Avrupa ülkesinde (Almanya, İspanya ve Fransa dahil) bitcoin kullanıc�
 Bazı tasarımlar Banksy'nin sanatını Bitcoin logosunu içerecek şekilde yeniden işliyor.
 
 
-Örneklerden biri, birkaç yıldır kolajlar ve sokak sanatı yaratan Alman bir bitcoinci olan [StreetCyberArt] (https://twitter.com/streetcyber_art).
+Örneklerden biri, birkaç yıldır kolajlar ve sokak sanatı yaratan Alman bir bitcoinci olan [StreetCyberArt](https://twitter.com/streetcyber_art).
 
 
 
@@ -2137,7 +2137,7 @@ Ayrıca, bu posterlerin kişisel bir yazıcıda basılmasının genellikle müre
 Bu girişim poster başına 0,40 Avro'nun üzerinde (yüz poster için yaklaşık 40 Avro) maliyetli olabilir ve çevrimiçi fiyatlar bu miktarın iki katından beş katına kadar değişebilir. İyi bağlantılar şarttır.
 
 
-Yukarıda belirtildiği gibi, Fransız bitcoiner [@Mill3sim3] (https://twitter.com/Mill3sim3) doğru profesyonel ekipmana sahiptir ve ayrıntılar için iletişime geçilebilir.
+Yukarıda belirtildiği gibi, Fransız bitcoiner [@Mill3sim3](https://twitter.com/Mill3sim3) doğru profesyonel ekipmana sahiptir ve ayrıntılar için iletişime geçilebilir.
 
 
 Alternatif olarak, büyük bir karton parçasından bir şablon yapmak ve tasarımınızı şehrinizdeki belirli noktalara etiketlemek için sprey boya kullanmak daha DIY bir seçenektir.
@@ -2154,7 +2154,7 @@ Alternatif olarak, büyük bir karton parçasından bir şablon yapmak ve tasar�
 Bir başka orijinal proje fikri de Lightning ödemeleri için kişiselleştirilmiş NFC kartları oluşturmaktır (BoltCard standardıyla uyumlu). Bunun için Swiss Bitcoin Pay harika bir ortak.
 
 
-[Web siteleri] (https://swiss-Bitcoin-pay.ch/cards) şu anda dört standart tasarım sunmaktadır.
+[Web siteleri](https://swiss-Bitcoin-pay.ch/cards) şu anda dört standart tasarım sunmaktadır.
 
 
 50'den fazla NFC kartı sipariş etmek istiyorsanız, kartın ön yüzü için özel bir tasarım önermek üzere resmi web sitesi veya [Twitter](https://twitter.com/SwissBitcoinPay) üzerinden şirketle iletişime geçebilirsiniz. Arka taraf standart olarak kalacaktır.
@@ -2165,7 +2165,7 @@ Bir başka orijinal proje fikri de Lightning ödemeleri için kişiselleştirilm
 
 
 
-Örneğin, 2023 yılında Fransız derneği [Bitcoin Lille] (https://twitter.com/BitcoinLille) özel bir tasarıma sahip bir grup NFC kartı sipariş etti. Her yeni üye yıl boyunca hoş geldin paketinde bir tane aldı. Bu fikir kendi topluluğunuz için kolayca uyarlanabilir ve kişiselleştirilebilir.
+Örneğin, 2023 yılında Fransız derneği [Bitcoin Lille](https://twitter.com/BitcoinLille) özel bir tasarıma sahip bir grup NFC kartı sipariş etti. Her yeni üye yıl boyunca hoş geldin paketinde bir tane aldı. Bu fikir kendi topluluğunuz için kolayca uyarlanabilir ve kişiselleştirilebilir.
 
 
 Bu kartların birim fiyatı, sipariş boyutuna ve piyasa koşullarına bağlı olarak genellikle 2,50 € ile 5 € arasında değişmekte olup, daha büyük miktarlar için daha düşük fiyatlar uygulanmaktadır.
@@ -2230,7 +2230,7 @@ Hangisini seçerseniz seçin, kanalınızı çekici kılmak için platforma özg
 
 
 
-Bilgisayarınızdan **kayıt** yapmak için [Streamlabs] (https://streamlabs.com/fr-fr) ücretsizdir, zengin özelliklere sahiptir ve sahne geçişlerini destekler.
+Bilgisayarınızdan **kayıt** yapmak için [Streamlabs](https://streamlabs.com/fr-fr) ücretsizdir, zengin özelliklere sahiptir ve sahne geçişlerini destekler.
 
 **Video düzenleme** için [Wondershare Filmora](https://filmora.wondershare.fr/) (yaklaşık 45€/yıl) kullanımı kolaydır ve hızlı bir şekilde profesyonel sonuçlar üretir.
 
@@ -2262,12 +2262,12 @@ Popüler podcast platformları şunlardır:
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Her platformun kendi dinleyici kitlesi vardır, bu nedenle birkaç platformda yer almak erişim alanınızı genişletecektir. **[Spotify for podcasters] (https://podcasters.spotify.com/) podcast'inizi bir kez yüklemenize ve diğer platformlar için generate RSS beslemesine izin vererek bunu kolaylaştırır**.
+Her platformun kendi dinleyici kitlesi vardır, bu nedenle birkaç platformda yer almak erişim alanınızı genişletecektir. **[Spotify for podcasters](https://podcasters.spotify.com/) podcast'inizi bir kez yüklemenize ve diğer platformlar için generate RSS beslemesine izin vererek bunu kolaylaştırır**.
 
 Dolayısıyla, "Podcast Yayıncıları için Spotify" üzerindeki çalışmalar tamamlandıktan sonra geriye kalan tek şey içeriğinizi diğer platformlar için biçimlendirmektir ki bu da nispeten hızlı bir süreçtir.
 
 
-Kayıt için [Audacity] (https://www.audacityteam.org/) ücretsizdir ve ses seviyelerini ayarlamanıza, solma gibi efektler eklemenize ve düzenleme sırasında netliği artırmanıza olanak tanır. Sesinizi kaydetmek ve profesyonel kalitede bir podcast oluşturmak kolaydır.
+Kayıt için [Audacity](https://www.audacityteam.org/) ücretsizdir ve ses seviyelerini ayarlamanıza, solma gibi efektler eklemenize ve düzenleme sırasında netliği artırmanıza olanak tanır. Sesinizi kaydetmek ve profesyonel kalitede bir podcast oluşturmak kolaydır.
 
 
 İşte Audacity ile podcast oluşturmanın temellerini kapsayan 10 dakikalık kısa bir eğitim:
@@ -2300,7 +2300,7 @@ Daha geleneksel bir yaklaşım olarak, her etkinlikte katılımcılardan bir yak
 Biraz resmi olsa da bu, üyelerin ortak ilgi alanlarını ve sohbet konularını daha kolay bulmalarına yardımcı olabilir ve ayrıca yeni gelenlerin organizatörleri (veya resmi topluluk / dernek üyelerini) fark etmelerini kolaylaştırır.
 
 
-Bitcoin Lille derneği tarafından kullanılan çeşitli rozet şablonları [Canva'da açık kaynak olarak mevcuttur] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Bitcoin Lille derneği tarafından kullanılan çeşitli rozet şablonları [Canva'da açık kaynak olarak mevcuttur](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Bu tür durumlar için önceden net bir prosedür oluşturmak üzere topluluğun
 
 Standart bir protokole sahip olmak, üye ya da misafir herhangi birinin durumdan faydalanarak fon çalmasını da engeller.
 
-Bu süreci tanımlamak için özel bir çalışma grubu oluşturabilirsiniz. Bitcoin Lille derneği, önümüzdeki aylarda açık kaynak olarak yayınlamayı planladıkları böyle bir [belge] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) üzerinde zaten çalışıyor.
+Bu süreci tanımlamak için özel bir çalışma grubu oluşturabilirsiniz. Bitcoin Lille derneği, önümüzdeki aylarda açık kaynak olarak yayınlamayı planladıkları böyle bir [belge](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing) üzerinde zaten çalışıyor.
 
 
 
@@ -2487,7 +2487,7 @@ Birkaç Bitcoin dostu işletmeye sahip olduğunuzda, yalnızca satıcılara öze
 - Yerel Bitcoin ağını güçlendirin.
 
 
-Kanvassing uzun vadeli bir oyundur. Sabır, sebat ve strateji gerektirir. Ancak toplumunuz hazırsa, tıpkı Hollanda'daki [Arnhem] (https://www.arnhembitcoinstad.nl/) gibi gerçek bir Bitcoin döngüsel ekonominin temelini atmaya başlayabilirsiniz.
+Kanvassing uzun vadeli bir oyundur. Sabır, sebat ve strateji gerektirir. Ancak toplumunuz hazırsa, tıpkı Hollanda'daki [Arnhem](https://www.arnhembitcoinstad.nl/) gibi gerçek bir Bitcoin döngüsel ekonominin temelini atmaya başlayabilirsiniz.
 
 
 
@@ -2501,7 +2501,7 @@ Kanvassing uzun vadeli bir oyundur. Sabır, sebat ve strateji gerektirir. Ancak 
 Bitcoinciler genellikle sosyal medya ve çevrimiçi platformlara odaklanırlar, ancak bu resmin sadece bir parçasıdır. Yerel basın ve radyo güçlü müttefikler olabilir.
 
 
-Fransa'daki [Breizh Bitcoin] (https://breizhbitcoin.com/) gibi bazı topluluklar **düzenli olarak yerel medyalarıyla** iletişime geçmektedir:
+Fransa'daki [Breizh Bitcoin](https://breizhbitcoin.com/) gibi bazı topluluklar **düzenli olarak yerel medyalarıyla** iletişime geçmektedir:
 
 
 - Yaklaşan etkinlikleri duyurun (buluşmalar, sunumlar, atölye çalışmaları, Halving partileri, vb.)
@@ -2657,7 +2657,7 @@ Bu işe dahil olan tek kişi sizseniz ve tüm kontrol sizdeyse, ortadan kaybolur
 
 **Yerinden Yönetim Nasıl Daha İleri Götürülür?**
 
-Merkezi platformlara bağımlılığı azaltmak ve olası devlet sansürüne veya Bitcoin yasaklarına karşı dayanıklılık sağlamak için [framasoft paketi] (https://framasoft.org/fr/) gibi **özgür ve açık kaynaklı yazılımları** benimseyin.
+Merkezi platformlara bağımlılığı azaltmak ve olası devlet sansürüne veya Bitcoin yasaklarına karşı dayanıklılık sağlamak için [framasoft paketi](https://framasoft.org/fr/) gibi **özgür ve açık kaynaklı yazılımları** benimseyin.
 
 Üyelerinizin gizliliğini ve topluluğunuzun faaliyetlerini korumak için **şifreli veya anonim iletişim araçları** kullanın.
 
@@ -2831,14 +2831,14 @@ Tek başınıza, Bitcoin tavşan deliğindeki birçok tünelden birini hızla ke
 
 
 
-## BTC302, Sırada Ne Var
+## BTC 304, Sırada Ne Var
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Bu BTC302 kursunda, bir topluluğun veya buluşmanın nasıl kurulacağının yanı sıra çeşitli projelerin nasıl başlatılacağı konusunda ayrıntılara girdik.
+Bu BTC 304 kursunda, bir topluluğun veya buluşmanın nasıl kurulacağının yanı sıra çeşitli projelerin nasıl başlatılacağı konusunda ayrıntılara girdik.
 
 
 Topluluğunuz bir sonraki adımı atmaya hazır olduğunda, **resmi bir dernek oluşturabilirsiniz**.

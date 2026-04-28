@@ -1,0 +1,8 @@
+question: Was geschieht im Laufe der Zeit mit der Vertraulichkeit der Ausgabenbedingungen einer P2SH-Transaktion?
+answer: Die Ausgabenbedingungen bleiben bis zur ersten Ausgabe verborgen und werden dann dauerhaft sichtbar on-chain
+wrong_answers:
+  - Die Ausgabenkonditionen bleiben dauerhaft privat, auch wenn mehrere Transaktionen getätigt werden
+  - Die Ausgabenbedingungen sind sofort sichtbar, wenn die P2SH-Adresse zum ersten Mal erstellt wird
+  - Die Ausgabenbedingungen werden während der Ausgabe vorübergehend sichtbar, sind aber danach wieder verborgen
+explanation: |
+  P2SH bietet Datenschutz, indem es die tatsächlichen Ausgabenbedingungen (Erlösungsskript) hinter einem Hash im scriptPubKey verbirgt. Anfangs ist nur der 20-Byte-Hash sichtbar, der verbirgt, ob es sich um Multisig, Timelock oder andere komplexe Bedingungen handelt. Wenn jedoch die P2SH-Ausgabe zum ersten Mal ausgegeben wird, muss das vollständige Redeem-Skript zur Validierung on-chain offengelegt werden, wodurch die Ausgabebedingungen für alle Netzwerkteilnehmer dauerhaft sichtbar werden. Diese einmalige Offenlegung ist der Kompromiss, den P2SH zwischen Privatsphäre und Funktionalität eingeht.

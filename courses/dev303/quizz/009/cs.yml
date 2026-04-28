@@ -1,0 +1,8 @@
+question: Co příkaz `cargo new project_name` automaticky vytvoří jako součást struktury projektu?
+answer: Úložiště Git, soubor Cargo.toml a základní soubor main.rs s programem Hello World
+wrong_answers:
+  - Pouze konfigurační soubor Cargo.toml a prázdná struktura zdrojových adresářů
+  - Kompletní sada testů, dokumentační soubory a konfigurace připravená k výrobě
+  - Binární spustitelné soubory, cílový adresář a konfigurace sestavení verze
+explanation: |
+  Příkaz `cargo new` vytvoří komplexní základ projektu včetně úložiště Git pro správu verzí, souboru Cargo.toml pro konfiguraci projektu a závislostí a základního souboru main.rs obsahujícího program 'Hello, world!'. Tím získáte vše potřebné k okamžitému zahájení vývoje. Ostatní možnosti jsou nesprávné, protože cargo new nevytváří testovací sady, dokumentační soubory, spustitelné binární soubory ani artefakty sestavení - pouze nastavuje počáteční strukturu projektu.

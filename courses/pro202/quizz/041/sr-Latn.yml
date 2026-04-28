@@ -1,0 +1,8 @@
+question: Šta bi se desilo sa ukupnom ponudom Bitcoin ako bi rudari dosledno zahtevali samo 90% dozvoljene subvencije po bloku u svim blokovima?
+answer: Ukupna ponuda bi bila trajno smanjena ispod 21 milion BTC, jer su neiskorišćene subvencije zauvek izgubljene.
+wrong_answers:
+  - Preostalih 10% bi se akumuliralo u rezervnom fondu za buduće rudare da ih preuzmu tokom perioda niskih naknada.
+  - Mehanizam za prilagođavanje težine bi kompenzovao povećanjem budućih nagrada za blokove kako bi se održao limit od 21 milion
+  - Neiskorišćene subvencije bile bi proporcionalno preraspodeljene među primaocima naknada za transakcije u narednim blokovima.
+explanation: |
+  Protokol Bitcoin omogućava rudarima da potražuju manje od maksimalno dozvoljene subvencije, ali bilo koji neiskorišćeni iznos je trajno izgubljen—ne postoji mehanizam za redistribuciju ili povraćaj kasnije. Formula subvencije i raspored prepolovljavanja određuju teoretski maksimum od ~21 milion BTC, ali stvarna ponuda zavisi od toga da li rudari potražuju svoja puna prava. Za razliku od prilagođavanja težine koje odgovara na uslove mining, ne postoji kompenzacioni mehanizam za neiskorišćene nagrade, što čini ukupnu ponudu potencijalno deflatornom ako rudari dosledno potražuju manje.

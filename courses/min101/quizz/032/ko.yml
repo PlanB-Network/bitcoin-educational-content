@@ -1,0 +1,9 @@
+question: 2009년 비트코인 출시 당시 블록 보조금은 얼마였습니까?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12.5 BTC
+  - 100 BTC
+explanation: |
+  연이은 반감기가 오기 전, 초기 보조금은 블록당 50 BTC였습니다.
+reviewed: false

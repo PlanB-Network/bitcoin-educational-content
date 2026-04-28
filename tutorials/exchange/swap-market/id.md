@@ -649,5 +649,5 @@ Persaingan antar penyedia layanan meningkatkan harga dan melipatgandakan sumber 
 
 
 
-- [Boltz Exchange] (https://boltz.exchange) - Layanan pertukaran atom asli
-- [ZEUS Swaps] (https://zeusln.com) - Penyedia pertukaran kilat
+- [Boltz Exchange](https://boltz.exchange) - Layanan pertukaran atom asli
+- [ZEUS Swaps](https://zeusln.com) - Penyedia pertukaran kilat

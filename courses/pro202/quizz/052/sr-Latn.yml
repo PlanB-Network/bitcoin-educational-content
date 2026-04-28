@@ -1,0 +1,8 @@
+question: Koja je primarna prednost koju Merkle dokaz pruža SPV (Simplified Payment Verification) klijentima prilikom verifikacije uključenja transakcije?
+answer: Omogućavaju verifikaciju uključivanja transakcija bez preuzimanja celog bloka, zahtevajući samo nekoliko stotina bajtova čak i za blokove sa hiljadama transakcija.
+wrong_answers:
+  - Oni eliminišu potrebu za proverom heša bloka u odnosu na cilj težine, smanjujući računarske zahteve za klijente sa lakšim opterećenjem
+  - Oni pružaju kriptografski dokaz koji sprečava double-spending napade validacijom svih ulaza transakcija unutar bloka.
+  - Oni omogućavaju SPV klijentima da rekonstruišu kompletnu istoriju transakcija bez povezivanja sa više punih čvorova istovremeno
+explanation: |
+  Merkle dokazi koriste logaritamski rast Merkle stabala, omogućavajući SPV klijentima da verifikuju uključivanje transakcija samo sa hešovima braće i sestara duž puta do korena. Ovo zahteva samo nekoliko stotina bajtova bez obzira na veličinu bloka, što ga čini praktičnim za lagane klijente. Pogrešni odgovori mešaju Merkle dokaze sa drugim Bitcoin mehanizmima - oni ne eliminišu verifikaciju težine, ne sprečavaju direktno double-spending i ne rekonstruišu istoriju transakcija.

@@ -1,5 +1,6 @@
 ---
-term: TÀI TRỢ KÉP
+term: Dual funding
+definition: Phương pháp cho phép cả hai bên cùng cấp vốn cho một kênh Lightning khi mở kênh.
 ---
 
 Khi một kênh Lightning được mở, phương thức tài trợ kép cho phép cả hai bên tham gia khóa bitcoin vào kênh. Không giống như mô hình truyền thống, trong đó chỉ có một nút tài trợ cho kênh, phương pháp này cho phép cả hai bên tài trợ cho kênh, cho phép cân bằng thanh khoản ngay lập tức.

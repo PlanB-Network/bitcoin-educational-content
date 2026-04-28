@@ -1,0 +1,9 @@
+question: Koja informacija ukazuje na kapacitet prijema Lightning čvora?
+answer: Dolazna likvidnost
+wrong_answers:
+  - Aktivne veze
+  - Izlazna likvidnost
+  - Broj blokova
+explanation: |
+  Dolazna likvidnost predstavlja sats koji čvor može primiti putem Lightning-a.
+reviewed: false

@@ -1,0 +1,9 @@
+question: کدام پارامتر Bitcoin Core آستانه پیش‌فرض حداقل رله را تعیین می‌کند؟
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  نودها سیاست‌های محلی را اعمال می‌کنند و Bitcoin Core از پارامتر minRelayTxFee برای آستانه حداقل رله استفاده می‌کند.
+reviewed: false

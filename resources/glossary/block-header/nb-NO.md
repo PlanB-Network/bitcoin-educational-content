@@ -1,6 +1,7 @@
 ---
-term: BLOCK HEADER
+term: Blokkhode
 
+definition: Struktur på 80 byte som inneholder metadata for en blokk (versjon, forrige hash, Merkle-rot, tidsstempel, mål, nonce).
 ---
 Blokkhodet er en datastruktur som fungerer som hovedkomponent i oppbyggingen av en Bitcoin-blokk. Hver blokk består av en header og en liste over transaksjoner. Blokkhodet inneholder viktig informasjon som sikrer integriteten og gyldigheten til en blokk i blokkjeden. Blokkhodet inneholder 80 byte med metadata og består av følgende elementer:
 
@@ -66,4 +67,3 @@ b2e00517
 
 For å være gyldig må en blokk ha en header som, når den er hashet med `SHA256d`, gir en hash som er mindre enn eller lik vanskelighetsmålet.
 
-> på engelsk kalles det en "Block Header"

@@ -749,6 +749,6 @@ Ihr Umbrel ist nun einsatzbereit. Du nimmst aktiv am Bitcoin Netzwerk teil und b
 
 
 
-- [Forum Umbrella] (https://community.getumbrel.com)
+- [Forum Umbrella](https://community.getumbrel.com)
 - [GitHub Umbrel](https://github.com/getumbrel)
 - [Twitter Umbrella](https://twitter.com/umbrel)

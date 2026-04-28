@@ -1,0 +1,9 @@
+question: ¿Qué puede deducir una torre de vigilancia en funcionamiento normal sobre el canal que protege?
+answer: Con qué frecuencia se actualiza su estado
+wrong_answers:
+  - Asignación de Liquidity
+  - Su capacidad
+  - Política de gastos
+explanation: |
+  Recibe paquetes cifrados para cada nuevo estado, revelando sólo la tasa normal de actividad.
+reviewed: false

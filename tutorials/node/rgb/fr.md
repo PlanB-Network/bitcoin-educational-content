@@ -78,13 +78,13 @@ RGB a son propre terrier au sein du vaste terrier du lapin qu’est Bitcoin, pen
 
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# Tutoriel RGB-node
+## Tutoriel RGB-node
 
-## Introduction
+### Introduction
 
 Dans ce tutoriel, nous expliquons comment utiliser RGB-node pour créer un jeton fongible et comment le transférer. Ce document est basé sur la démo RGB-node et diffère en ce sens que ce tutoriel utilise de vraies données de testnet et pour cela, nous devons construire notre propre transaction Bitcoin partiellement signée (PSBT), psbt à partir de maintenant.
 
-## Exigences
+### Exigences
 
 L'utilisation d'une distribution Linux est recommandée, ce tutoriel a été écrit en utilisant Pop!/\_OS, qui est basé sur Ubuntu et vous aurez besoin de :
 
@@ -221,7 +221,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Émission
+### Émission
 
 Pour émettre un actif, nous exécutons rgb0-cli avec les sous-commandes d'émission fongible, puis les arguments, le ticker USDT, le nom "USD Tether" et dans l'allocation, nous utiliserons le montant d'émission et l'issuance_utxo comme indiqué ci-dessous :
 
@@ -267,7 +267,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Générer une UTXO aveuglée
+### Générer une UTXO aveuglée
 
 Afin de recevoir les nouveaux USDT, rgb-node-1 doit générer une UTXO aveuglée correspondant à receive_utxo pour contenir l'actif.
 
@@ -280,7 +280,7 @@ Secret d'aveuglement de l'outpoint : 1679197189805229975
 
 Pour pouvoir accepter les transferts liés à cette UTXO, nous aurons besoin de la receive_utxo originale et du blinding_factor.
 
-## Transfert
+### Transfert
 
 Pour transférer une certaine quantité de l'actif à rgb-node-1, nous devons l'envoyer à l'UTXO aveuglée, rgb-node-0 doit créer un envoi et une divulgation, et le valider dans une transaction bitcoin. Ensuite, nous aurons besoin d'un psbt que nous modifierons pour inclure l'engagement. De plus, les options -i et -a nous permettent de fournir un outpoint d'entrée qui serait l'origine de l'actif et une allocation où nous recevrons la monnaie rendue, nous devons l'indiquer de la manière suivante @<change_utxo>.
 
@@ -292,7 +292,7 @@ Données de consignation à partager : consignment1qxz4g7ec6da33llaxe97u9hx8p9wc
 
 Cela écrira trois nouveaux fichiers, consignment, disclosure et le psbt incluant le tweak, ce psbt est appelé transaction témoin, la consignment est envoyée à rgb-node-1.
 
-## Témoin
+### Témoin
 
 La transaction témoin doit être signée et diffusée, pour cela nous devons l'encoder en base64.
 
@@ -319,7 +319,7 @@ Maintenant finalisez-le et obtenez l'hexadécimal.
 }
 ```
 
-## Diffuser
+### Diffuser
 
 Diffusez-le en utilisant la sous-commande sendrawtransaction pour le faire confirmer dans la blockchain.
 
@@ -327,7 +327,7 @@ Diffusez-le en utilisant la sous-commande sendrawtransaction pour le faire confi
 $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd284fd0c53af8789723c230cb0e30100000000ffffffff02259b0000000000001600143b5062e2fd951d424f9aae62c98843bf5b724c271027000000000000160014fc1f9b7b2475278c9ce7dc0ea0698158f0bb011202473044022019b9df9855fd45c99ab420343efe8004df84caca979dac9194718c74408a5aca02206493bbc6f37474e4176d74d1604d10c46216b1fa3ce438709ded3fc21a0ed3a90121028860511b60abd18f6e629da034fdcd0f308643fc11408056e3ac125ef1c67e7300000000"8e3787fe40b5feb3044f892e739bdb4043e10de384255a915a37725811abc3fe
 ```
 
-## Accepter
+### Accepter
 
 Pour accepter un transfert entrant, rgb-node-1 doit avoir reçu le fichier de consignation de rgb-node-0, avoir le receive_utxo et le blinding_factor correspondant généré lors de la génération de l'UTXO de brouillage.
 
@@ -443,7 +443,7 @@ $ rgb0-cli fungible list -l
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
-## Conclusions
+### Conclusions
 
 Nous avons pu créer un actif fongible et le déplacer d'une transaction à une autre de manière privée. Si nous vérifions la transaction confirmée dans un explorateur de blocs, nous ne trouverions rien de différent d'une transaction normale, cela est dû au fait que RGB utilise des scellés à usage unique pour ajuster les transactions. Dans cet article, je présente une introduction à la façon dont RGB fonctionne.
 

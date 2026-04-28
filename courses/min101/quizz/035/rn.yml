@@ -1,0 +1,9 @@
+question: Kuva SegWit yatangura, incamake y'ivyabona (witnesses) b'ibuye rishasha ishigwa he?
+answer: Mu muvuduko (output) wa coinbase
+wrong_answers:
+  - Muri scriptSig ya coinbase
+  - Mu kibanza c'ubwoko (version)
+  - Mu mafaranga y'agashirukanyota (fees) ya coinbase
+explanation: |
+  SegWit ikoresha isezerano ryanditse muri coinbase ikoresheje output OP_RETURN.
+reviewed: false

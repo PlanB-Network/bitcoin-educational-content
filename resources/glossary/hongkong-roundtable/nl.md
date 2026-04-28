@@ -1,5 +1,6 @@
 ---
-term: RONDETAFEL VAN HONGKONG
+term: Hong-kong roundtable
+definition: Historische bijeenkomst in 2016 tussen Bitcoin Core-ontwikkelaars en miners over de schaalbaarheid van het systeem.
 ---
 
 Een historisch evenement van de Blocksize War dat plaatsvond op 20 februari 2016 in Hong Kong. Het was een belangrijke bijeenkomst tussen Bitcoin core ontwikkelaars en miners om de schaalbaarheid van het systeem en de strategie om het te schalen te bespreken. De spanningen waren hoog voor de bijeenkomst, vooral door de opkomst van Bitcoin Classic, een Hard Fork voorstel dat werd gesteund door Gavin Andressen om de blokgrootte te verhogen naar 2 MB. Invloedrijke figuren in het ecosysteem namen deel aan de debatten, waaronder Jihan Wu en Micree Zhan, de medeoprichters van Bitmain, Adam Back, de president van Blockstream, en Luke Dashjr, Matt Corallo en Peter Todd.

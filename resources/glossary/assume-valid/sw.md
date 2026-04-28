@@ -1,5 +1,6 @@
 ---
-term: DHIKIA HALALI
+term: Assume valid
+definition: Hoja ya Bitcoin Core inayoruhusa kurudisha uthibitisho wa saini kwa vitalu kabla ya nukta fulani, kuongeza synkiniz ya utangulizi.
 ---
 
 Kigezo cha usanidi katika kiteja cha wengi cha Bitcoin Core kinachoruhusu nodi ambayo imeanzishwa hivi punde (lakini bado haijatekeleza IBD) kuruka uthibitishaji wa saini za miamala yote iliyojumuishwa kwenye vizuizi kabla ya kizuizi fulani. Kizuizi hiki maarufu kinafafanuliwa na alama ya kichwa chake, ambayo ni, Hash yake. Kizuizi kilichochaguliwa kinasasishwa kwa kila toleo jipya la Bitcoin Core. Baada ya kuanzishwa kwake, ikiwa nodi imewezesha parameter hii, kwa hiyo itaangalia mnyororo wa kichwa cha kuzuia ili kupata tawi na kazi iliyokusanywa zaidi. Ikiwa nodi itatambua Hash iliyotolewa na Core katika tawi iliyochagua, itaacha uthibitishaji wa saini za vizuizi vilivyotangulia. Vinginevyo, nodi itaendelea na maingiliano ya jadi (IBD) ili kuthibitisha kila kitu peke yake.

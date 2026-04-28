@@ -1,10 +1,9 @@
-question: Karahindiba protokolünde kök aşaması nasıl işliyor?
-answer: İşlem rastgele bir düğüm yolu üzerinden gönderilir
+question: Dandelion yayın protokolünü hangi BIP resmileştirdi?
+answer: BIP156
 wrong_answers:
-  - İşlem derhal kaynak düğümün tüm eşlerine yayınlanır
-  - İşlem yayınlanmadan önce geçici olarak merkezi bir düğümde saklanır
-  - İşlem, yayının her adımında aşamalı olarak şifrelenir
+  - BIP34
+  - BIP47
+  - BIP324
 explanation: |
-  Dandelion ilk olarak işlemin rastgele bir düğüm yolu üzerinden gönderildiği bir kök aşaması kullanır. İşlem daha sonra kabartma aşamasında tüm ağa yayınlanır.
-  
+  Dandelion, BIP156'da resmileştirildi ancak sonuçta Bitcoin Core'a entegre edilmedi.
 reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: PODPIS NIEWIDOMEGO
+term: Ślepy podpis
+definition: Podpis cyfrowy, w którym wystawca nie zna podpisywanej treści, stosowany w Chaumian CoinJoins i ecash.
 ---
 
 Ślepe podpisy Chauma są formą podpisu cyfrowego, w której wystawca podpisu nie zna treści podpisywanej wiadomości. Podpis można jednak później zweryfikować za pomocą oryginalnej wiadomości. Technika ta została opracowana przez kryptografa Davida Chauma w 1983 roku.

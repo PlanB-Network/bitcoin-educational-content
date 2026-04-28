@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale degli impegni di Pedersen in Elements' Confidential Transactions?
+answer: Sostituire gli importi visibili delle transazioni con impegni crittografici che possono essere convalidati senza rivelare i valori reali
+wrong_answers:
+  - A generate identificatori esadecimali unici di 64 caratteri per gli asset di nuova emissione sulla blockchain Elements
+  - Per prevenire il double-spending, creando prove matematiche che i valori nascosti sono numeri interi positivi all'interno di intervalli validi
+  - Consentire il trasferimento di Bitcoin dalla catena principale alle sidechain Elements attraverso meccanismi di pegging crittografico
+explanation: |
+  Gli impegni di Pedersen sono il meccanismo crittografico di base che consente la privacy nel Confidential Transactions sostituendo gli importi visibili con impegni matematici. Grazie alle loro proprietà omomorfiche, i validatori possono verificare che gli input siano uguali agli output più le commissioni senza vedere i valori reali. Le Range Proofs prevengono gli importi negativi, gli asset ID identificano i token e i meccanismi di pegging gestiscono i trasferimenti tra le catene, ma nessuno di questi è la funzione specifica dei Pedersen Commitments.

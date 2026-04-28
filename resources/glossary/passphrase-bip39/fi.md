@@ -1,6 +1,7 @@
 ---
-term: (BIP39)
+term: PASSPHRASE (BIP39)
 
+definition: Palautuslauseeseen lisättävä valinnainen salasana HD-lompakon suojaamiseksi.
 ---
 Valinnainen salasana, joka yhdistettynä palautuslausekkeeseen tarjoaa lisäturvan deterministisille ja hierarkkisille Bitcoin-lompakoille. HD-lompakot luodaan yleensä 12 tai 24 sanasta koostuvasta palautuslauseesta. Tämä palautuslause on erittäin tärkeä, sillä sen avulla voidaan palauttaa kaikki lompakon avaimet, jos lompakko katoaa. Se muodostaa kuitenkin yhden vikapisteen (SPOF). Jos se vaarantuu, bitcoinit ovat vaarassa. Tässä kohtaa tunnuslause tulee kuvaan mukaan. Se on käyttäjän valitsema valinnainen salasana, joka lisätään palautuslauseeseen lompakon turvallisuuden parantamiseksi. Tunnuslausetta ei pidä sekoittaa PIN-koodiin tai tavalliseen salasanaan, vaan sillä on merkitystä kryptografisten avainten johtamisessa.
 

@@ -1,7 +1,7 @@
-question: Yếu tố nào cho phép đồng bộ dữ liệu thời gian thực giữa hệ thống Enterprise Bitcoin và phần mềm ERP?
+question: Yếu tố nào cho phép đồng bộ dữ liệu tức thời giữa hệ thống Bitcoin dành cho doanh nghiệp và phần mềm ERP?
 answer: API
 wrong_answers:
-  - Tệp CSV
+  - Tệp tin CSV
   - Tải lên hàng loạt
   - Báo cáo qua email
 explanation: |

@@ -1,0 +1,9 @@
+question: Elemen apa yang paling penting dalam daya saing penambangan industri?
+answer: Biaya listrik
+wrong_answers:
+  - Jumlah biaya upah
+  - Kualitas ergonomis infrastruktur
+  - Biaya lisensi perangkat lunak
+explanation: |
+  Dalam skala besar, profitabilitas penambangan bergantung pada biaya per unit komputasi, yang terutama ditentukan oleh biaya listrik.
+reviewed: false

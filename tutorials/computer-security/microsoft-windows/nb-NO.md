@@ -14,7 +14,7 @@ I denne veiledningen lærer vi hvordan du installerer Windows 11 automatisk ved 
 Det første du trenger er en installasjonsfil. Det tryggeste og mest pålitelige stedet å laste den ned er direkte fra Microsofts offisielle nettsted.
 
 
-Bare gå til lenken nedenfor og følg instruksjonene for å laste ned [Windows 11 ISO-fil] (https://www.microsoft.com/en-us/software-download/windows11)
+Bare gå til lenken nedenfor og følg instruksjonene for å laste ned [Windows 11 ISO-fil](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -59,10 +59,10 @@ Filstørrelsen er ca. 5,5 GB, og den genererte lenken vil være gyldig i 24 time
 ## Automatisering!
 
 
-På dette stadiet må vi gjøre endringer i standardinstallasjonen av Windows. I denne fasen, ved hjelp av Unattended install, bestemmer vi hvilke elementer som skal installeres, uten at brukeren trenger å gjøre noe i etterkant. I denne metoden brukes faktisk en XML-fil til å konfigurere installasjonstrinnene og tjenestene som installeres i Windows. Bruken av Unattended.xml-filen skaper med andre ord en automatisert prosess under installasjonen, slik at det ikke er nødvendig å velge flere alternativer, og man unngår de kjedelige trinnene som vanligvis kreves under installasjonen. Denne metoden er en uvanlig, men standard metode som har blitt introdusert av Microsoft. Du finner mer informasjon på [Microsofts offisielle nettsted] (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
+På dette stadiet må vi gjøre endringer i standardinstallasjonen av Windows. I denne fasen, ved hjelp av Unattended install, bestemmer vi hvilke elementer som skal installeres, uten at brukeren trenger å gjøre noe i etterkant. I denne metoden brukes faktisk en XML-fil til å konfigurere installasjonstrinnene og tjenestene som installeres i Windows. Bruken av Unattended.xml-filen skaper med andre ord en automatisert prosess under installasjonen, slik at det ikke er nødvendig å velge flere alternativer, og man unngår de kjedelige trinnene som vanligvis kreves under installasjonen. Denne metoden er en uvanlig, men standard metode som har blitt introdusert av Microsoft. Du finner mer informasjon på [Microsofts offisielle nettsted](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Det finnes forskjellige verktøy tilgjengelig på internett for å generere filer uten tilsyn. Noen av dem er online, mens andre er offline. Et av de elektroniske verktøyene for å lage denne filen er [dette nettstedet] (https://schneegans.de/windows/unattend-generator). Etter å ha åpnet den, blir vi presentert med følgende side:
+Det finnes forskjellige verktøy tilgjengelig på internett for å generere filer uten tilsyn. Noen av dem er online, mens andre er offline. Et av de elektroniske verktøyene for å lage denne filen er [dette nettstedet](https://schneegans.de/windows/unattend-generator). Etter å ha åpnet den, blir vi presentert med følgende side:
 
 
 ![Image](assets/en/06.webp)
@@ -237,7 +237,7 @@ Til slutt, etter å ha brukt de ønskede innstillingene, kan den genererte XML-f
 Ved å klikke på Download XML File lastes autounattend.xml-filen ned. For å bruke denne filen er det bare å montere den nedlastede ISO-filen på en USB-stasjon, plassere autounattend.xml-filen i rotkatalogen og deretter fortsette med Windows-installasjonen.
 
 
-Et av verktøyene som er tilgjengelige for å lage en oppstartbar USB-stasjon er Rufus. Rufus kan lage en oppstartbar Windows-installasjons flash-stasjon, med en gitt Windows-installasjons ISO-fil. Det er raskt og enkelt, du kan laste det ned [her] (https://rufus.ie/en/#download)
+Et av verktøyene som er tilgjengelige for å lage en oppstartbar USB-stasjon er Rufus. Rufus kan lage en oppstartbar Windows-installasjons flash-stasjon, med en gitt Windows-installasjons ISO-fil. Det er raskt og enkelt, du kan laste det ned [her](https://rufus.ie/en/#download)
 
 
 ![Image](assets/en/21.webp)
@@ -264,7 +264,7 @@ Nå er USB-stasjonen klar til å brukes til å installere Windows automatisk, og
 Hvis du trenger å installere Windows på en virtuell maskin, kan du bruke programvare for å opprette og redigere ISO-filer. En slik programvare er AnyBurn. Etter at du har hentet ut innholdet i ISO-filen som er lastet ned fra Microsofts nettsted, plasserer du filen autounattend.xml i rotkatalogen. Deretter bruker du AnyBurn til å opprette en ny ISO-fil med det oppdaterte innholdet.
 
 
-AnyBurn er en multifunksjonell programvare for arbeid med ISO-filer. Den tilbyr forskjellige funksjoner for håndtering av ISO-filer, hvorav en av dem er å lage oppstartbare ISO-bilder; [her] (https://www.anyburn.com/download.php) er den opprinnelige nettsiden.
+AnyBurn er en multifunksjonell programvare for arbeid med ISO-filer. Den tilbyr forskjellige funksjoner for håndtering av ISO-filer, hvorav en av dem er å lage oppstartbare ISO-bilder; [her](https://www.anyburn.com/download.php) er den opprinnelige nettsiden.
 
 
 På hovedsiden til programvaren velger du "Opprett bilde fra fil/mappe":

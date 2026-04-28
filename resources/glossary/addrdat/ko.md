@@ -1,5 +1,6 @@
 ---
-term: ADDR.DAT
+term: Addr.dat
+definition: 네트워크 피어 정보를 저장하는 Bitcoin Core의 오래된 파일. 버전 0.7.0 이후 peers.dat로 대체되었다.
 ---
 
 사용자 노드가 상호 작용했거나 상호 작용할 가능성이 있는 네트워크의 피어(즉, 노드)에 대한 정보를 저장하기 위해 Bitcoin core에서 사용되었던 이전 파일의 이름입니다. 이 파일은 버전 0.7.0부터 peers.dat 파일로 대체되었습니다.

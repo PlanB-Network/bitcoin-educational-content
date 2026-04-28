@@ -1,0 +1,8 @@
+question: Mikä on tärkein ero siinä, miten Rust yleensä panee lainaussäännöt täytäntöön ja miten RefCell panee ne täytäntöön?
+answer: Rust panee lainaussäännöt yleensä täytäntöön kääntämisen yhteydessä, kun taas RefCell panee ne täytäntöön suoritusaikana
+wrong_answers:
+  - Rust sallii yleensä useita muuttuvia viittauksia, kun taas RefCell rajoittaa ne yhteen
+  - Rust käyttää tavallisesti viittauslaskentaa turvallisuuden takaamiseksi, kun taas RefCell käyttää staattista analyysiä
+  - Rust vaatii yleensä nimenomaista muistinhallintaa, kun taas RefCell hoitaa sen automaattisesti
+explanation: |
+  RefCellin keskeinen innovaatio on lainaussääntöjen täytäntöönpanon siirtäminen käännösajalta suoritusaikaan. Tavalliset Rust-viittaukset tarkistetaan kääntämisen aikana kääntäjän toimesta turvallisuuden varmistamiseksi, mutta RefCell suorittaa samat tarkistukset ohjelman suorituksen aikana. Tämän ansiosta RefCell voi tarjota sisäisen muunneltavuuden tilanteissa, joissa kääntäjän staattinen analyysi on liian konservatiivinen, mutta sen vastapainona on mahdollinen ajonaikainen paniikki, jos lainaussääntöjä rikotaan. Muut vaihtoehdot kuvaavat virheellisesti Rust:n perustavanlaatuisia turvallisuusmekanismeja tai RefCellin todellista käyttäytymistä.

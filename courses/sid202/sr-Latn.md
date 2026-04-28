@@ -83,10 +83,10 @@ Spremni da istražite potencijal Elements-a i Liquid Sidechain-a? Hajde da počn
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 
-Elements je platforma otvorenog koda za blokčejn koja podržava rad sa bočnim lancima, i koja omogućava pristup moćnim funkcijama razvijenim od strane članova zajednice, kao što su poverljive transakcije i izdavanje digitalnih resursa.
+Elements je platforma otvorenog koda za [blokčejn](https://planb.academy/resources/glossary/blockchain) koja podržava rad sa bočnim lancima, i koja omogućava pristup moćnim funkcijama razvijenim od strane članova zajednice, kao što su poverljive [transakcije](https://planb.academy/resources/glossary/transaction-tx) i izdavanje digitalnih resursa.
 
 
-Elements je, u svojoj suštini, protokol koji omogućava postizanje konsenzusa oko istorije transakcija i pravila koja upravljaju prenosom i kreiranjem digitalnih sredstava sačuvanih u distribuiranom blokčejn digitalnom dnevniku (eng. Ledger).
+Elements je, u svojoj suštini, protokol koji omogućava postizanje [konsenzusa](https://planb.academy/resources/glossary/consensus) oko istorije transakcija i pravila koja upravljaju prenosom i kreiranjem digitalnih sredstava sačuvanih u distribuiranom blokčejn digitalnom dnevniku (eng. Ledger).
 
 
 Više informacija o Elements-u možete lako pronaći na vebsajtu Elements projekta (https://elementsproject.org/), zvaničnom Liquid blogu (https://blog.Liquid.net/) i portalu za programere (https://Liquid.net/devs).
@@ -125,7 +125,7 @@ Elements je platforma opšte blokčejn namene koja se takođe može "vezati" za 
 #### Potpisivanje blokova
 
 
-Elements koristi jaku federaciju (eng. Strong Federation) potpisnika, nazvanih Blok potpisnici, koji potpisuju i kreiraju blokove na pouzdan i pravovremen način. Ovo uklanja kašnjenje transakcija koje postoji u PoW procesu rudarenja, koji je podložan velikim varijacijama u vremenu potvrđivanja bloka zbog svoje nasumične Poisson distribucije. Federisani proces potpisivanja blokova postiže pouzdano kreiranje blokova bez uvođenja potrebe za poverenjem treće strane ili računarskim `algoritmom` zasnovanim na rudarenju.
+Elements koristi jaku federaciju (eng. Strong Federation) potpisnika, nazvanih Blok potpisnici, koji potpisuju i kreiraju [blokove](https://planb.academy/resources/glossary/block) na pouzdan i pravovremen način. Ovo uklanja kašnjenje transakcija koje postoji u PoW procesu rudarenja, koji je podložan velikim varijacijama u vremenu potvrđivanja bloka zbog svoje nasumične Poisson distribucije. Federisani proces potpisivanja blokova postiže pouzdano kreiranje blokova bez uvođenja potrebe za poverenjem treće strane ili računarskim `algoritmom` zasnovanim na rudarenju.
 
 
 Elements dodaje sve ove funkcije na Bitcoin Core kodnu bazu, proširujući mogućnosti glavnog protokola i omogućavajući nove poslovne slučajeve kada se implementira kao Sidechain ili kao samostalno blokčejn rešenje.
@@ -146,7 +146,7 @@ Elements dodaje sve ove funkcije na Bitcoin Core kodnu bazu, proširujući mogu�
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 
-Elements pruža tehničko rešenje za probleme sa kojima se korisnici blokčejna suočavaju svakodnevno; čekanje na potrvđivanje transakcija, nedostatak privatnosti i rizik po zamenjivost (eng. fungability).
+Elements pruža tehničko rešenje za probleme sa kojima se korisnici blokčejna suočavaju svakodnevno; čekanje na potrvđivanje transakcija, nedostatak privatnosti i rizik po [zamenjivost](https://planb.academy/resources/glossary/fungibility) (eng. fungability).
 
 
 Elements prevazilazi ove probleme kroz korišćenje federacije za potpisivanje blokova i korišćenjem poverljivih transakcija.
@@ -182,7 +182,7 @@ Radnje koje član Strong Federation može da izvrši podeljene su između dve ra
 Kombinovanjem uloga ovih učesnika, Elements omogućava brzo kreiranje blokova (bržu i konačnu potvrdu transakcija) i sigurna, prenosiva sredstva (povezana sredstva koja se direktno mogu povezati sa drugim blokčejnom).
 
 
-Možete pročitati dokument o Strong Federation konsenzusu ovde: https://blockstream.com/strong-federations.pdf
+Možete pročitati [dokument](https://planb.academy/resources/glossary/white-paper) o Strong Federation konsenzusu ovde: https://blockstream.com/strong-federations.pdf
 
 
 ### Potpisnici blokova
@@ -232,7 +232,7 @@ Da bi Sidechain radio na pouzdan način, mora omogućiti učesnicima da verifiku
 Funkcija Federated 2-Way Peg-a omogućava da digitalna sredstva na jednom blokčejnu bude interoperabilna sa drugim blokčejnovima i da predstavlja drugi izvorni resurs blokčejna. Povezivanjem vašeg blokčejna sa drugim, možete proširiti mogućnosti glavnog i prevazići neka od njegovih inherentnih ograničenja.
 
 
-Na visokom nivou, transferi u Sidechain-u se dešavaju kada neko pošalje sredstva na glavnom blokčejnu na adresu kontrolisanu od strane višepotpisnog novčanika Watchmen-a. Ovo efektivno zamrzava sredstva na glavnom blokčejnu. Watchmen zatim validiraju transakciju i oslobađaju istu količinu povezanog sredstva unutar Sidechain-a. Oslobođena sredstva se šalju na Sidechain novčanik koji može dokazati pravo na originalna sredstva na glavnom blokčejnu. Ovaj proces efektivno premešta sredstva sa matičnog lanca na Sidechain.
+Na visokom nivou, transferi u Sidechain-u se dešavaju kada neko pošalje sredstva na glavnom blokčejnu na adresu kontrolisanu od strane višepotpisnog [novčanika](https://planb.academy/resources/glossary/wallet) Watchmen-a. Ovo efektivno zamrzava sredstva na glavnom blokčejnu. Watchmen zatim validiraju transakciju i oslobađaju istu količinu povezanog sredstva unutar Sidechain-a. Oslobođena sredstva se šalju na Sidechain novčanik koji može dokazati pravo na originalna sredstva na glavnom blokčejnu. Ovaj proces efektivno premešta sredstva sa matičnog lanca na Sidechain.
 
 
 Kako bi prebacila sredstva nazad na glavni lanac, korisnik pravi specijalnu peg-out transakciju na Sidechain-u. Ovu transakciju proveravaju Watchmen-i koji zatim potpisuju transakciju trošenja sa više-potpisnog novčanika koji kontrolišu na glavnom blokčejnu. Određeni broj učesnika u federaciji mora potpisati pre nego što transakcija na glavnom blokčejnu postane važeća. Kada Watchmen-i pošalju sredstvo nazad na glavni blokčejn, oni takođe uništavaju odgovarajući iznos na Sidechain-u, efektivno prenoseći sredstva između blokčejnova.
@@ -250,7 +250,7 @@ Kako bi prebacila sredstva nazad na glavni lanac, korisnik pravi specijalnu peg-
 Kako je Elements zasnovan na kodnoj bazi Bitcoin-a, komponente koje čine funkcionalnu mrežu su veoma slične.
 
 
-Sam softver Elements čvora se zove `elementsd` i radi kao daemon na korisnikovom računaru. daemon (ili servis u Windows-u) je program koji radi kao pozadinski servis bez potrebe za direktnom kontrolom prijavljenog korisnika.
+Sam softver Elements [čvora](https://planb.academy/resources/glossary/node) se zove `elementsd` i radi kao daemon na korisnikovom računaru. daemon (ili servis u Windows-u) je program koji radi kao pozadinski servis bez potrebe za direktnom kontrolom prijavljenog korisnika.
 
 
 Napomena: Kroz ovaj dokument, uvek ćemo se pozivati na elementsd kao na daemon verziju, ali sve bi moglo biti urađeno sa Elements-qt, pod uslovom da je opcija servera omogućena.
@@ -298,8 +298,8 @@ Neke stvari se mogu promeniti korišćenjem ovih parametara:
 - Imovina koja će se koristiti prilikom plaćanja transakcijskih naknada na mreži.
 - Lokacija skladištenja blokčejn datoteka.
 - RPC akreditivi korišćeni za povezivanje sa Bitcoin čvorom.
-- `n od m` prag koji treba ispuniti i važeći javni ključevi koji mogu potpisivati blokove.
-- Skripta koja treba biti zadovoljena kako bi se izvršio prenos sredstava u i iz Sidechain-a.
+- `n od m` prag koji treba ispuniti i važeći [javni ključevi](https://planb.academy/resources/glossary/public-key) koji mogu potpisivati blokove.
+- [Skripta](https://planb.academy/resources/glossary/script) koja treba biti zadovoljena kako bi se izvršio prenos sredstava u i iz Sidechain-a.
 - Da li se povezati na Bitcoin čvor kao Sidechain ili ne.
 
 
@@ -446,7 +446,7 @@ To vraća sirove detalje transakcije. Ako pogledate unutar vout sekcije, možete
 Ono što prva dva odeljka vout prikazuju su "zamaskirani opsezi" iznosa vrednosti i obavezujući podaci koji služe kao dokaz stvarnog iznosa i tipa prenete imovine.
 
 
-Čak i ako bismo uvezli privatni ključ e2 u novčanik e1, i dalje ne bi mogli videti iznose i tip transakcije imovine jer još uvek nemamo saznanja o ključu za zaslepljivanje koji koristi e2. Dokazaćemo ovo uvozom privatnog ključa koji koristi e2-ov novčanik u e1-ov. Prvo moramo izvesti ključ iz e2.
+Čak i ako bismo uvezli [privatni ključ](https://planb.academy/resources/glossary/private-key) e2 u novčanik e1, i dalje ne bi mogli videti iznose i tip transakcije imovine jer još uvek nemamo saznanja o ključu za zaslepljivanje koji koristi e2. Dokazaćemo ovo uvozom privatnog ključa koji koristi e2-ov novčanik u e1-ov. Prvo moramo izvesti ključ iz e2.
 
 
 ```
@@ -530,7 +530,7 @@ Izdati resurs takođe ima koristi i od poverljivih transakcija i može ga ponovo
 Prvi korak je da ćemo trebati imati pristup dva Elements čvora, koje ćemo nazvati e1 i e2. Čvorovima su resetovani blokčejnovi i default asset je podeljen između njih.
 
 
-Dva čvora su na istoj lokalnoj mreži i povezana su međusobno, te stoga dele iste transakcije u svojim Mempool-ovima i identične blokčejnove. Iako rade na istoj mašini, važno je napomenuti da ne dele iste stvarne blokčejn fajlove. Svaki čvor upravlja svojom lokalnom kopijom blokčejna, koja sadrži istu istoriju transakcija jer su u konsenzusu i pridržavaju se istih pravila protokola kao i drugi.
+Dva čvora su na istoj lokalnoj mreži i povezana su međusobno, te stoga dele iste transakcije u svojim [Mempool](https://planb.academy/resources/glossary/mempool)-ovima i identične blokčejnove. Iako rade na istoj mašini, važno je napomenuti da ne dele iste stvarne blokčejn fajlove. Svaki čvor upravlja svojom lokalnom kopijom blokčejna, koja sadrži istu istoriju transakcija jer su u konsenzusu i pridržavaju se istih pravila protokola kao i drugi.
 
 
 Hajde da počnemo proverom pogleda svakog čvora na postojeća izdata sredstava na mreži.
@@ -1267,7 +1267,7 @@ e2-cli importprivkey <priv-key-1>
 ```
 
 
-Sada treba da potvrdimo neke blokove na oba lanca. Potvrđivanje blokova je neophodan zahtev ovog procesa povezivanja lanaca jer štiti od reorganizacije blokova na mainchain-u što vodi ka inflaciji ponude vezane imovine unutar Sidechain-a.
+Sada treba da potvrdimo neke blokove na oba lanca. Potvrđivanje blokova je neophodan zahtev ovog procesa povezivanja lanaca jer štiti od reorganizacije blokova na mainchain-u što vodi ka [inflaciji](https://planb.academy/resources/glossary/inflation) ponude vezane imovine unutar Sidechain-a.
 
 
 Da bismo ovu sekciju fokusirali na federisani peg, generisaćemo blokove bez korišćenja modela potpisivanje blokova koji smo razmatrali u prethodnoj sekciji, i vratićemo se korišćenju komande 'generate' za kreiranje novih blokova.
@@ -1435,7 +1435,7 @@ U ovom odeljku smo videli kako da:
 
 
 
-Da bi Elements radio kao Sidechain, Genesis blok u njegovom blokčejnu mora biti kreiran sa `fedpegscript`. Ovo se postiže prosleđivanjem `fedpegscript` parametra prilikom pokretanja čvora. Skripta će tada postati deo konsenzus pravila Elements blokčejna i omogućiti validaciju i izvršavanje peg-in i peg-out zahteva.
+Da bi Elements radio kao Sidechain, [Genesis blok](https://planb.academy/resources/glossary/genesis-block) u njegovom blokčejnu mora biti kreiran sa `fedpegscript`. Ovo se postiže prosleđivanjem `fedpegscript` parametra prilikom pokretanja čvora. Skripta će tada postati deo konsenzus pravila Elements blokčejna i omogućiti validaciju i izvršavanje peg-in i peg-out zahteva.
 
 
 `fedpegscript` se sastoji od javnih ključeva koje kontrolišu oni koji su ovlašćeni za izvršavanje peg akcija. Sledeći primer prikazuje format 2-od-2 multisignature fedpegscript-a:

@@ -1,5 +1,6 @@
 ---
-term: BLITZSCHUTZDIENSTLEISTER
+term: Lightning Service Provider
+definition: Unternehmen, das Liquiditätsdienstleistungen für Nutzer des Lightning Networks anbietet.
 ---
 
 Unternehmen, das mit Lightning arbeitet und Liquiditätsdienstleistungen für Nutzer anbietet.

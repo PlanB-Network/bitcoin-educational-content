@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru y’amasezerano y’ubwenge mu bidukikije vya RGB?
-answer: Gushira mu ngiro amasezerano ya Bitcoin yikoresha ata n'inyandiko ry'ivyandikano
+question: Ni iyihe ntego nyamukuru ya Smart Contract muvya RGB ?
+answer: Gushira mu ngiro amasezerano ya Bitcoin yikoresha ata n'ibitabo bifise aho bitwarirwa
 wrong_answers:
-  - Gufasha mu gushinga amakete y'ivyandikano ya Bitcoin
-  - Gutanga Interface ya bose ku bikorwa vyose vya Bitcoin
-  - Kworohereza ugushirwa mu ngiro kw’ibimenyetso vya ERC-20 kuri Bitcoin.
+  - Gufasha mu gukora igitabo ca Bitcoin gifise aho gitwarirwa
+  - Gutanga ahakorerwa ibintu kumahanahanwa ya Bitcoin
+  - Kworohereza ugushirwa mu ngiro kw’ama token ya ERC-20 kuri Bitcoin.
 explanation: |
-  Amasezerano y’ubwenge ya RGB atuma amasezerano akora mu buryo bwikora mu gihe umuntu yirinda gukoresha amarejista ahuriweko, yizigiye Bitcoin ku bijanye n’ibimenyetso vy’ubuhinga bwa none.
-reviewed: false
+  Ama Smart Conmtract ya RGB atuma amasezerano akora mu buryo bwikora mu gihe umuntu yirinda gukoresha ibitabo bifise aho bitwarira, vyubakiye kuri Bitcoin ku bijanye n’ibimenyetso vy’ubuhinga bwa none.
+reviewed: true

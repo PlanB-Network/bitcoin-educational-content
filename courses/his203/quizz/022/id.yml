@@ -1,0 +1,11 @@
+question: Apa inovasi keuangan utama yang ditawarkan oleh platform Bitcoinica, yang diluncurkan pada bulan September 2011 oleh pengusaha muda Tiongkok, Zhou Tong?
+answer: Leverage dan short selling
+wrong_answers:
+  - Menerbitkan saham dan obligasi
+  - Pinjaman bunga yang dijaminkan
+  - Penukaran uang tunai yang hampir instan
+explanation: |
+ Bitcoinica adalah platform pertama dalam ekosistem yang menawarkan perdagangan margin, yang memungkinkan pelanggan menggunakan leverage untuk memperkuat keuntungan (dan kerugian) mereka, dan untuk pergi
+ pendek untuk bertaruh pada penurunan harga saham. Setelah ditutup, jenis layanan ini diambil alih oleh platform Bitfinex, yang diluncurkan pada bulan Oktober 2012 dan
+ didasarkan pada kode sumber yang sama.
+reviewed: true

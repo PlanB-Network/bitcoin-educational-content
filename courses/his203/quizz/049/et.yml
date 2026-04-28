@@ -1,0 +1,11 @@
+question: Kes oli 2012. aasta augustis krüptoraha PPCoin kaudu läbi viidud esimese hübriidse proof-of-stake'i rakendamise eestvedajaks?
+answer: Sunny King
+wrong_answers:
+  - Vitalik Buterin
+  - Come-From-Beyond
+  - Ben Laurie
+explanation: |
+ Sunny King oli projekti juhtiva arendaja kirjanikunimi. Idee oli rakendada hübriidmudelit, kus teatud plokid kinnitati säilitustõendiga
+ (mis põhineb mündi vanuse kontseptsioonil), lisaks tavapärase mining abil kaevandatud plokkidele. Sunny King ja tema kaastöötajad käivitasid PPCoini 2012. aasta augustis
+ (hiljem nimetati ümber Peercoiniks). Nad kirjeldasid oma lahendust kui "pikemas perspektiivis energiatõhusat".
+reviewed: true

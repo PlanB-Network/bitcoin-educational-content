@@ -1,0 +1,9 @@
+question: Lightningの操作のうち、オンチェーン・トランザクションの公開が必要なものはどれですか？
+answer: チャンネル開設
+wrong_answers:
+  - ライトニング決済
+  - マルチホップルーティング
+  - モバイルクライアント接続
+explanation: |
+  チャネルの開設は、ブロックチェーン上に公開されたBitcoin取引に対応する。
+reviewed: false

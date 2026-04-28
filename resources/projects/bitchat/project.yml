@@ -6,7 +6,7 @@ links:
   website: https://bitchat.free/
   github: https://github.com/permissionlesstech/bitchat
 
-category: communities
+category: privacy
 
 contributor_names:
   - LoicPandul
@@ -16,7 +16,7 @@ tags:
   - software
   - privacy
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 original_language: fr

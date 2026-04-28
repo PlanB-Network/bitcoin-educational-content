@@ -18,7 +18,7 @@ Den världsomspännande användningen av Bitcoin baseras på konkreta användnin
 
 
 
-[Speed Business] (https://www.tryspeed.com/) är en plattform utvecklad av [Speed Wallet] (https://www.speed.app/) som gör det möjligt för alla handlare att integrera omedelbara, billiga Bitcoin- och stablecoin-betalningar.
+[Speed Business](https://www.tryspeed.com/) är en plattform utvecklad av [Speed Wallet](https://www.speed.app/) som gör det möjligt för alla handlare att integrera omedelbara, billiga Bitcoin- och stablecoin-betalningar.
 
 
 
@@ -50,7 +50,7 @@ Speed har ett brett utbud av funktioner för att täcka de ekonomiska aspekterna
 
 
 
-Skapa ditt konto på [Speed] (https://app.tryspeed.com/register/) så börjar vi lägga upp betalningar för ditt företag.
+Skapa ditt konto på [Speed](https://app.tryspeed.com/register/) så börjar vi lägga upp betalningar för ditt företag.
 
 
 
@@ -371,7 +371,7 @@ I menyn **Developers** skapar du dina offentliga och privata nycklar för att an
 
 
 
-Hitta den fullständiga [dokumentationen] (https://apidocs.tryspeed.com/reference/introduction) för en bättre integration av Speed Business.
+Hitta den fullständiga [dokumentationen](https://apidocs.tryspeed.com/reference/introduction) för en bättre integration av Speed Business.
 
 
 

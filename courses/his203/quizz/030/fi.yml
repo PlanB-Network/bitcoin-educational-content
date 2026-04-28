@@ -1,0 +1,10 @@
+question: Kuka loi ensimmäisen Bitcoin-sekoituspalvelun, nimeltään BitLaundry, syyskuussa 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses oli yhdysvaltalainen yrittäjä, jolla oli salausalan tutkinto ja joka löysi Bitcoin:n slashdottingin aikaan. Hän kehitti palvelun, jotta
+ varojen jäljittämistä vaikeammaksi. Toukokuussa 2011 hän myi palvelun aktivisti Mike Gogulskille, joka aavisti oikeudellisia ongelmia.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Lý do chính khiến các giao dịch đa chữ ký đơn giản (bare multisig transactions) phần lớn bị thay thế bởi P2SH trong các điều kiện chi tiêu phức tạp là gì?
+answer: Giao thức đa chữ ký trần (bare multisig) làm lộ tất cả các khóa công khai on-chain, khiến các giao dịch trở nên lớn, tốn kém và khó mã hóa thành địa chỉ.
+wrong_answers:
+  - Chứng chỉ đa chữ ký cơ bản (Bare multisig) yêu cầu nhiều chữ ký hơn so với P2SH để đạt được cùng mức độ bảo mật cho các giao dịch đa bên.
+  - Chữ ký đa chữ ký cơ bản không thể xử lý các giao dịch bị khóa theo thời gian hoặc các yêu cầu chi tiêu có điều kiện như P2SH.
+  - Chữ ký đa chữ ký đơn giản không tương thích với phần mềm wallet hiện đại và không thể được phát sóng đến các nút hiện tại.
+explanation: |
+  P2SH được giới thiệu nhằm giải quyết những bất hiệu quả của phương thức đa chữ ký trần (bare multisig). Phương thức đa chữ ký trần yêu cầu tất cả các khóa công khai phải hiển thị trong scriptPubKey, tạo ra kích thước giao dịch lớn, dẫn đến chi phí cao hơn và khó biểu diễn dưới dạng địa chỉ thân thiện với người dùng. P2SH giải quyết vấn đề này bằng cách ẩn đoạn mã phức tạp đằng sau một hàm băm 20 byte, chỉ tiết lộ các điều kiện chi tiêu thực tế khi đầu ra được sử dụng. Điều này giúp giảm dung lượng của on-chain, cải thiện quyền riêng tư và cho phép sử dụng các định dạng địa chỉ chuẩn trong khi vẫn duy trì các đảm bảo bảo mật tương tự.

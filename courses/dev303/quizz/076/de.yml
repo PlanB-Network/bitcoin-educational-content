@@ -1,0 +1,8 @@
+question: Warum ist die Verwendung von expect() auf hart kodierte Werte, die Compiler-verifiziert zu sein scheinen, im Produktionscode potenziell problematisch?
+answer: Fest kodierte Werte können sich im Laufe der Zeit durch Refactoring verändern, wodurch zuvor gültige Werte zu Laufzeitfehlern werden
+wrong_answers:
+  - Der Compiler kann die Gültigkeit von hart kodierten Werten nicht zur Kompilierzeit überprüfen, was expect() unzuverlässig macht
+  - Festcodierte Werte verbrauchen mehr Speicher als dynamische Werte, was zu Leistungsproblemen bei expect() führt
+  - Die Methode expect() fügt im Vergleich zu unwrap() unnötigen Overhead hinzu, wenn es sich um bekannte gültige Werte handelt
+explanation: |
+  Die richtige Antwort unterstreicht eine wichtige Erkenntnis aus dem Kapitel: Selbst scheinbar sichere, fest kodierte Werte können mit der Zeit gefährlich werden. Das Beispiel zeigt, wie eine gültige IP-Adresse in eine Konstante umgewandelt und später in "localhost" geändert werden kann, wodurch die ursprüngliche Annahme hinfällig wird. Die falschen Antworten sind falsch, denn: der Compiler kann hart kodierte Werte zur Kompilierzeit überprüfen, der Speicherverbrauch ist nicht das Problem bei expect(), und expect() hat im Vergleich zu unwrap() keinen nennenswerten Performance-Overhead.

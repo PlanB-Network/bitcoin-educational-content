@@ -1,0 +1,8 @@
+question: Fysiokraattien analyysin mukaan miksi valtion harjoittama taloudellisen toiminnan suunnittelu epäonnistuu pohjimmiltaan?
+answer: Valtiolta puuttuu "isännän silmä" - yksityiskohtainen paikallistuntemus, jota vain yksittäisillä talouden toimijoilla on päivittäisessä toiminnassaan
+wrong_answers:
+  - Valtion taloudelliset resurssit eivät riitä kaikkien talouden alojen tehokkaaseen koordinointiin laajoilla alueilla
+  - Poliittiset johtajat ovat luonnostaan korruptoituneita ja asettavat henkilökohtaisen hyödyn tehokkaan taloushallinnon edelle
+  - Demokraattiset äänestysprosessit ovat liian hitaita reagoimaan nopeasti nopeasti muuttuviin markkinaolosuhteisiin
+explanation: |
+  Fysiokraatit havaitsivat valtiosuunnittelun perustavan epistemologisen ongelman: mahdotonta kerätä ja käsitellä keskitetysti laajaa, monimutkaista ja jatkuvasti muuttuvaa tietoa, joka ohjaa taloudellista toimintaa. He väittivät, että vain yksittäisillä taloudellisilla toimijoilla, jotka toimivat omassa kontekstissaan, on yksityiskohtainen tieto ("l'œil du maître"), jota tarvitaan asianmukaisten taloudellisten päätösten tekemiseen. Tämä oivallus ennakoi ja ennakoi modernin itävaltalaisen koulukunnan väitteitä sosialistisen laskentatoimen tieto-ongelmasta ja osoitti, että keskitetyn suunnittelun epäonnistuminen ei johdu resurssien rajallisuudesta tai korruptiosta vaan siitä, että on luonnostaan mahdotonta korvata hajallaan olevaa yksilöllistä tietoa keskitetyllä byrokraattisella päätöksenteolla.

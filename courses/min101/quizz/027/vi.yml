@@ -1,0 +1,9 @@
+question: Phí giao dịch được tính như thế nào?
+answer: Đầu vào trừ đầu ra
+wrong_answers:
+  - Đầu ra trừ đầu vào
+  - Đầu vào cộng đầu ra
+  - Đầu ra chia cho đầu vào
+explanation: |
+  Phí tương ứng với giá trị được tiêu thụ ở đầu vào mà không được tạo lại ở đầu ra.
+reviewed: false

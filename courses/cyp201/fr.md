@@ -36,7 +36,7 @@ L’objectif de cette formation est de vous donner les clés pour maîtriser les
 
 Avant d’entrer dans le détail de la construction et du fonctionnement des portefeuilles Bitcoin, nous commencerons avec quelques chapitres sur les primitives cryptographiques à connaître pour la suite.
 
-Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : SHA256.
+Nous commencerons par les fonctions de hachage cryptographique, fondamentales pour les portefeuilles comme pour le protocole Bitcoin lui-même. Vous découvrirez leurs principales caractéristiques, les fonctions spécifiques utilisées dans Bitcoin, et dans un chapitre plus technique, vous découvrirez en détail les rouages de la reine des fonctions de hachage : [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -48,7 +48,7 @@ Une fois que nous aurons bien compris ces quelques éléments de cryptographie, 
 
 ![CYP201](assets/en/003.webp)
 
-La formation continuera avec l’étude de la passphrase BIP39, de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
+La formation continuera avec l’étude de la passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), de la graine (à ne pas confondre avec la phrase mnémonique), du code chaîne maître et de la clé maîtresse. Nous verrons en détail ce que sont ces éléments, leurs rôles respectifs et la manière dont ils sont calculés.
 
 ![CYP201](assets/en/004.webp)
 
@@ -95,7 +95,7 @@ Cette formation vous permettra d’utiliser vos logiciels de portefeuille en tou
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les fonctions de hachage. Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des portefeuilles Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
+Le premier type d'algorithmes cryptographiques utilisé par Bitcoin regroupe les [fonctions de hachage](https://planb.academy/resources/glossary/hash-function). Elles jouent un rôle essentiel à différents niveaux du protocole et également au sein des [portefeuilles](https://planb.academy/resources/glossary/wallet) Bitcoin. Découvrons ensemble ce qu'est une fonction de hachage et à quoi ça sert sur Bitcoin.
 
 ### Définition et principe du hachage
 
@@ -103,7 +103,7 @@ Le hachage est un procédé qui permet de transformer une information de longueu
 
 Le hash peut également parfois être désigné par les termes "digest", "condensat", "condensé" ou "haché".
 
-Par exemple, la fonction de hachage SHA256 produit un hash d'une longueur fixe de 256 bits. Ainsi, si l’on utilise l’entrée "_PlanB_", un message de longueur arbitraire, le hash généré sera l'empreinte de 256 bits suivante :
+Par exemple, la fonction de hachage [SHA256](https://planb.academy/resources/glossary/sha256) produit un hash d'une longueur fixe de 256 bits. Ainsi, si l’on utilise l’entrée "_PlanB_", un message de longueur arbitraire, le hash généré sera l'empreinte de 256 bits suivante :
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -182,11 +182,11 @@ La résistance à la seconde préimage est donc un petit peu similaire à la ré
 
 La fonction de hachage la plus utilisée dans Bitcoin est **SHA256** ("_Secure Hash Algorithm 256 bits"_). Conçue au début des années 2000 par la NSA et standardisée par le NIST, elle produit un hash de 256 bits en sortie.
 
-Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de Proof-of-Work, où elle est appliquée deux fois de suite pour rechercher une collision partielle entre l'en-tête d'un bloc candidat, créé par un mineur, et la cible de difficulté. Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la blockchain.
+Cette fonction est utilisée dans de nombreux aspects de Bitcoin. Au niveau protocolaire, elle intervient dans le mécanisme de [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), où elle est appliquée deux fois de suite pour rechercher une collision partielle entre l'en-tête d'un [bloc](https://planb.academy/resources/glossary/block) candidat, créé par un [mineur](https://planb.academy/resources/glossary/miner), et la cible de [difficulté](https://planb.academy/resources/glossary/difficulty). Si cette collision partielle est trouvée, le bloc candidat devient valide et peut être ajouté à la [blockchain](https://planb.academy/resources/glossary/blockchain).
 
-SHA256 est également utilisée dans la construction d'un arbre de Merkle, qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole Utreexo qui permet de réduire la taille de l'UTXO Set. Aussi, avec l'introduction de Taproot en 2021, SHA256 est exploitée dans les MAST (_Merkelised Alternative Script Tree_), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles. On la retrouve également dans le calcul de l'identifiant des transactions, dans la transmission des paquets sur le réseau P2P, dans les signatures électroniques... Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
+SHA256 est également utilisée dans la construction d'un [arbre de Merkle](https://planb.academy/resources/glossary/merkle-tree), qui est notamment l'accumulateur utilisé pour l'enregistrement des transactions dans les blocs. On retrouve aussi cette structure dans le protocole [Utreexo](https://planb.academy/resources/glossary/utreexo) qui permet de réduire la taille de l'[UTXO Set](https://planb.academy/resources/glossary/utxo-set). Aussi, avec l'introduction de [Taproot](https://planb.academy/resources/glossary/taproot) en 2021, SHA256 est exploitée dans les [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), qui permettent de ne révéler que les conditions de dépense effectivement utilisées dans un script, sans divulguer les autres options possibles. On la retrouve également dans le calcul de l'identifiant des transactions, dans la transmission des paquets sur le réseau P2P, dans les [signatures électroniques](https://planb.academy/resources/glossary/digital-signature)... Enfin, et c'est ce qui nous intéressera particulièrement dans cette formation, SHA256 est utilisée au niveau applicatif pour la construction des portefeuilles Bitcoin et la dérivation des adresses.
 
-La plupart du temps, lorsque vous croiserez l'utilisation de SHA256 sur Bitcoin, ce sera en réalité un double hachage SHA256, noté "**HASH256**", et qui consiste simplement à appliquer SHA256 deux fois successivement :
+La plupart du temps, lorsque vous croiserez l'utilisation de SHA256 sur Bitcoin, ce sera en réalité un double hachage SHA256, noté "**[HASH256](https://planb.academy/resources/glossary/hash256)**", et qui consiste simplement à appliquer SHA256 deux fois successivement :
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -194,7 +194,7 @@ $$
 
 Cette pratique du double hachage ajoute une couche supplémentaire de sécurité contre certaines attaques potentielles, même si un SHA256 simple est aujourd'hui considéré comme sûr cryptographiquement.
 
-Une autre fonction de hachage disponible dans le langage de _Script_ et utilisée pour la dérivation des adresses de réception est la fonction **RIPEMD160**. Cette fonction produit un hash de 160 bits (donc plus court que SHA256). Elle est généralement combinée avec SHA256 pour former la fonction **HASH160** :
+Une autre fonction de hachage disponible dans le langage de _Script_ et utilisée pour la dérivation des [adresses de réception](https://planb.academy/resources/glossary/receiving-address) est la fonction **[RIPEMD160](https://planb.academy/resources/glossary/ripemd160)**. Cette fonction produit un hash de 160 bits (donc plus court que SHA256). Elle est généralement combinée avec SHA256 pour former la fonction **HASH160** :
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -202,7 +202,7 @@ $$
 
 Cette combinaison est employée pour générer des hash plus courts, notamment dans la création de certaines adresses Bitcoin qui représentent des hachages de clés ou des hachages de script, ainsi que pour produire des empreintes de clés.
 
-Enfin, au niveau applicatif uniquement, on utilise parfois également la fonction SHA512, qui intervient de manière indirecte dans la dérivation de clés pour les portefeuilles. Cette fonction est très similaire à SHA256 dans son fonctionnement ; toutes deux appartiennent à la même famille SHA2, mais SHA512 produit, comme son nom l'indique, un hash de 512 bits, contre 256 bits pour SHA256. Nous détaillerons son utilisation dans les chapitres suivants.
+Enfin, au niveau applicatif uniquement, on utilise parfois également la fonction [SHA512](https://planb.academy/resources/glossary/sha512), qui intervient de manière indirecte dans la dérivation de clés pour les portefeuilles. Cette fonction est très similaire à SHA256 dans son fonctionnement ; toutes deux appartiennent à la même famille SHA2, mais SHA512 produit, comme son nom l'indique, un hash de 512 bits, contre 256 bits pour SHA256. Nous détaillerons son utilisation dans les chapitres suivants.
 
 Vous connaissez maintenant les bases indispensables sur les fonctions de hachage pour la suite. Dans le chapitre suivant, je vous propose de découvrir plus en détail le fonctionnement de la fonction qui est au cœur de Bitcoin : SHA256. Nous allons la décortiquer pour comprendre comment elle parvient à obtenir les caractéristiques que nous avons décrites ici. Ce prochain chapitre est assez long et technique, mais il n'est pas indispensable pour suivre la suite de la formation. Donc, si vous avez des difficultés à le comprendre, ne vous inquiétez pas et passez directement au chapitre suivant, qui, lui, sera bien plus accessible.
 
@@ -553,7 +553,7 @@ Enfin, pour la caractéristique de résistance aux collisions, plusieurs paramè
 
 Pour qu'une fonction de hachage soit résistante aux collisions, il est essentiel que :
 
-- La sortie soit imprévisible : Toute prévisibilité peut être exploitée pour trouver des collisions plus rapidement qu'avec une attaque par force brute. La fonction assure que chaque bit de la sortie dépend de façon non triviale de l'entrée. En d'autres termes, la fonction est conçue pour que chaque bit du résultat final ait une probabilité indépendante d'être 0 ou 1, même si cette indépendance n'est pas absolue en pratique.
+- La sortie soit imprévisible : Toute prévisibilité peut être exploitée pour trouver des collisions plus rapidement qu'avec une attaque par [force brute](https://planb.academy/resources/glossary/brute-force-attack). La fonction assure que chaque bit de la sortie dépend de façon non triviale de l'entrée. En d'autres termes, la fonction est conçue pour que chaque bit du résultat final ait une probabilité indépendante d'être 0 ou 1, même si cette indépendance n'est pas absolue en pratique.
 - La distribution des hash soit pseudo-aléatoire : Cela assure que les hash sont répartis de manière uniforme.
 - La taille du hash soit conséquente : au plus l'espace possible pour les résultats est grand, au plus il est difficile de trouver une collision.
 
@@ -565,7 +565,7 @@ La structure de SHA256 est basée sur la construction de Merkle-Damgård, qui pe
 
 Cependant, certaines vieilles fonctions de hachage comme SHA1 ou MD5, qui utilisent cette construction spécifique, sont vulnérables aux attaques par extension de longueur. C'est une technique qui permet à un attaquant qui connaît le hash d’un message $M$ et la longueur de $M$ (sans connaître le message lui-même) de calculer le hash d’un message $M'$ formé de $M$ concaténé avec un contenu supplémentaire.
 
-SHA256, même si elle utilise le même type de construction, est en théorie résistante à ce type d'attaque, contrairement à SHA1 et MD5. C'est peut-être ce qui pourrait expliquer le mystère du double hachage implémenté partout dans Bitcoin par Satoshi Nakamoto. Pour éviter ce type d'attaque, il est possible que Satoshi ait préféré utiliser un double SHA256 :
+SHA256, même si elle utilise le même type de construction, est en théorie résistante à ce type d'attaque, contrairement à SHA1 et MD5. C'est peut-être ce qui pourrait expliquer le mystère du double hachage implémenté partout dans Bitcoin par [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Pour éviter ce type d'attaque, il est possible que Satoshi ait préféré utiliser un double SHA256 :
 
 $$
 \text{HASH256}(m) = \text{SHA256}(\text{SHA256}(m))
@@ -676,21 +676,21 @@ La deuxième méthode cryptographique utilisée dans Bitcoin concerne les algori
 
 ### Bitcoins, UTXOs et conditions de dépense
 
-Le terme "_wallet_" sur Bitcoin est assez déroutant pour les débutants. En effet, ce que l'on appelle un portefeuille Bitcoin est un logiciel qui ne conserve pas directement vos bitcoins, contrairement à un portefeuille physique qui permet de conserver des pièces ou des billets. Les bitcoins sont simplement des unités de compte. Cette unité de compte est représentée par des **UTXO** (_Unspent Transaction Outputs_), qui sont des sorties de transactions non dépensées. Si ces sorties ne sont pas dépensées, cela signifie qu'elles appartiennent à un utilisateur. Les UTXOs sont donc en quelque sorte des morceaux de bitcoins, d'une taille variable, appartenant à un utilisateur.
+Le terme "_wallet_" sur Bitcoin est assez déroutant pour les débutants. En effet, ce que l'on appelle un portefeuille Bitcoin est un logiciel qui ne conserve pas directement vos bitcoins, contrairement à un portefeuille physique qui permet de conserver des pièces ou des billets. Les bitcoins sont simplement des unités de compte. Cette unité de compte est représentée par des **UTXO** (_Unspent Transaction Outputs_), qui sont des sorties de transactions non dépensées. Si ces sorties ne sont pas dépensées, cela signifie qu'elles appartiennent à un utilisateur. Les [UTXOs](https://planb.academy/resources/glossary/utxo) sont donc en quelque sorte des morceaux de bitcoins, d'une taille variable, appartenant à un utilisateur.
 
 Le protocole Bitcoin est distribué et fonctionne sans autorité centrale. On ne peut donc pas faire comme dans les registres bancaires traditionnels, où les euros qui vous appartiennent sont simplement associés à votre identité personnelle. Sur Bitcoin, vos UTXOs vous appartiennent car ils sont protégés par des conditions de dépense spécifiées dans le langage Script. Pour simplifier, il existe deux types de scripts : le script de verrouillage (_scriptPubKey_), qui protège un UTXO, et le script de déverrouillage (_scriptSig_), qui permet de déverrouiller un UTXO et ainsi de dépenser les unités de bitcoins qu'il représente.
 
-Le fonctionnement initial de Bitcoin avec les scripts P2PK consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un _scriptPubKey_ que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la clé privée correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le _scriptSig_. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
+Le fonctionnement initial de Bitcoin avec les scripts [P2PK](https://planb.academy/resources/glossary/p2pk) consiste à utiliser une clé publique pour verrouiller les fonds, en spécifiant dans un _scriptPubKey_ que la personne souhaitant dépenser cet UTXO doit fournir une signature valide avec la clé privée correspondant à cette clé publique. Pour déverrouiller cet UTXO, il est donc nécessaire de fournir une signature valide dans le _scriptSig_. Comme leurs noms l'indiquent, la clé publique est connue de tous puisqu'elle est diffusée sur la blockchain, tandis que la clé privée est uniquement connue du propriétaire légitime des fonds.
 
-Ça, c'est le fonctionnement de base de Bitcoin, mais au fil des mises à jour, ce fonctionnement s'est complexifié. D'abord, Satoshi a également introduit les scripts P2PKH, qui utilisent une adresse de réception dans le _scriptPubKey_, laquelle représente le hachage de la clé publique. Puis, le système s'est encore complexifié avec l'arrivée de SegWit puis de Taproot. Cependant, le principe général reste fondamentalement le même : une clé publique ou une représentation de cette clé sert à verrouiller les UTXOs, et une clé privée correspondante est requise pour les déverrouiller et donc les dépenser.
+Ça, c'est le fonctionnement de base de Bitcoin, mais au fil des mises à jour, ce fonctionnement s'est complexifié. D'abord, Satoshi a également introduit les scripts [P2PKH](https://planb.academy/resources/glossary/p2pkh), qui utilisent une adresse de réception dans le _scriptPubKey_, laquelle représente le hachage de la clé publique. Puis, le système s'est encore complexifié avec l'arrivée de [SegWit](https://planb.academy/resources/glossary/segwit) puis de Taproot. Cependant, le principe général reste fondamentalement le même : une clé publique ou une représentation de cette clé sert à verrouiller les UTXOs, et une clé privée correspondante est requise pour les déverrouiller et donc les dépenser.
 
 L'utilisateur qui souhaite faire une transaction Bitcoin doit donc établir une signature numérique à l'aide de sa clé privée sur la transaction en question. La signature pourra être vérifiée par les autres participants du réseau. Si elle est valide, cela signifie que l'utilisateur qui lance la transaction est bien le propriétaire de la clé privée, et donc qu'il est bien le propriétaire des bitcoins qu'il souhaite dépenser. Les autres utilisateurs pourront alors accepter et propager la transaction.
 
 En conséquence, un utilisateur qui possède des bitcoins verrouillés avec une clé publique doit trouver un moyen de stocker de manière sécurisée ce qui permet de débloquer ses fonds : la clé privée. Un portefeuille Bitcoin est justement un dispositif qui va vous permettre de conserver facilement toutes vos clés sans que d'autres personnes y aient accès. Cela ressemble donc plus à un porte-clés qu'à un portefeuille.
 
-Le lien mathématique entre une clé publique et une clé privée, ainsi que la possibilité de réaliser une signature pour prouver la possession d'une clé privée sans la dévoiler, sont rendus possibles par un algorithme de signature numérique. Dans le protocole Bitcoin, on utilise 2 algorithmes de signature : **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) et le **schéma de signature de Schnorr**. ECDSA est le protocole de signature numérique utilisé dans Bitcoin depuis ses débuts. Schnorr est plus récent dans Bitcoin, puisqu'il a été introduit en novembre 2021 avec la mise à jour Taproot.
+Le lien mathématique entre une clé publique et une clé privée, ainsi que la possibilité de réaliser une signature pour prouver la possession d'une clé privée sans la dévoiler, sont rendus possibles par un algorithme de signature numérique. Dans le protocole Bitcoin, on utilise 2 algorithmes de signature : **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) et le **schéma de signature de [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)**. ECDSA est le protocole de signature numérique utilisé dans Bitcoin depuis ses débuts. Schnorr est plus récent dans Bitcoin, puisqu'il a été introduit en novembre 2021 avec la mise à jour Taproot.
 
-Ces deux algorithmes sont assez similaires dans leurs mécanismes. Ils sont tous deux basés sur la cryptographie sur les courbes elliptiques. La différence majeure entre ces deux protocoles réside dans la structure de la signature et certaines propriétés mathématiques spécifiques. Nous allons donc étudier le fonctionnement de ces algorithmes en commençant par le plus ancien : ECDSA.
+Ces deux algorithmes sont assez similaires dans leurs mécanismes. Ils sont tous deux basés sur la cryptographie sur les [courbes elliptiques](https://planb.academy/resources/glossary/elliptic-curve). La différence majeure entre ces deux protocoles réside dans la structure de la signature et certaines propriétés mathématiques spécifiques. Nous allons donc étudier le fonctionnement de ces algorithmes en commençant par le plus ancien : ECDSA.
 
 ### La cryptographie sur les courbes elliptiques
 
@@ -712,7 +712,7 @@ $$
 
 Pour utiliser ECDSA ou Schnorr, il faut choisir les paramètres de la courbe elliptique, c'est-à-dire les valeurs de $a$ et de $b$ dans l'équation de la courbe. Il existe différents standards de courbes elliptiques réputées cryptographiquement sûres. La plus connue est la courbe _secp256r1_, définie et recommandée par le NIST (_National Institute of Standards and Technology_).
 
-Malgré cela, Satoshi Nakamoto, l'inventeur de Bitcoin, a choisi de ne pas utiliser cette courbe. La raison de ce choix est inconnue, mais certains pensent qu'il a préféré trouver une alternative car les paramètres de cette courbe pourraient potentiellement contenir une backdoor. À la place, le protocole Bitcoin utilise la courbe standard **_secp256k1_**. Cette courbe est définie par les paramètres $a = 0$ et $b = 7$. Son équation est donc :
+Malgré cela, Satoshi Nakamoto, l'inventeur de Bitcoin, a choisi de ne pas utiliser cette courbe. La raison de ce choix est inconnue, mais certains pensent qu'il a préféré trouver une alternative car les paramètres de cette courbe pourraient potentiellement contenir une backdoor. À la place, le protocole Bitcoin utilise la courbe standard **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_**. Cette courbe est définie par les paramètres $a = 0$ et $b = 7$. Son équation est donc :
 
 $$
 y^2 = x^3 + 7
@@ -766,7 +766,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Comme vu précédemment, les algorithmes de signature numérique sur Bitcoin sont basés sur un couple clé privée / clé publique qui sont liées mathématiquement. Découvrons ensemble quel est ce lien mathématique et comment elles sont générées.
+Comme vu précédemment, les algorithmes de signature numérique sur Bitcoin sont basés sur un couple [clé privée](https://planb.academy/resources/glossary/private-key) / [clé publique](https://planb.academy/resources/glossary/public-key) qui sont liées mathématiquement. Découvrons ensemble quel est ce lien mathématique et comment elles sont générées.
 
 ### La clé privée
 
@@ -945,7 +945,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Ensuite, on va calculer un nonce. En cryptographie, un nonce est simplement un nombre généré de manière aléatoire ou pseudo-aléatoire qui est utilisé une seule fois. C'est-à-dire qu'à chaque fois que l'on réalise une nouvelle signature numérique avec cette paire de clés, il sera très important d'utiliser un nonce différent, sinon cela compromettra la sécurité de la clé privée. Il suffit donc de déterminer un entier aléatoire et unique $r$ tel que $1 \leq r \leq n-1$, où $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
+Ensuite, on va calculer un [nonce](https://planb.academy/resources/glossary/nonce). En cryptographie, un nonce est simplement un nombre généré de manière aléatoire ou pseudo-aléatoire qui est utilisé une seule fois. C'est-à-dire qu'à chaque fois que l'on réalise une nouvelle signature numérique avec cette paire de clés, il sera très important d'utiliser un nonce différent, sinon cela compromettra la sécurité de la clé privée. Il suffit donc de déterminer un entier aléatoire et unique $r$ tel que $1 \leq r \leq n-1$, où $n$ est l'ordre du point générateur $G$ de la courbe elliptique.
 
 Puis, nous allons calculer le point $R$ sur la courbe elliptique avec les coordonnées $(x_R, y_R)$ tel que :
 
@@ -1167,9 +1167,9 @@ Ces deux sighash flags offriraient une possibilité supplémentaire sur Bitcoin 
 
 Cette idée a initialement été formulée par Joseph Poon et Thaddeus Dryja dans le White Paper de Lightning. Avant son renommage, ce sighash flag portait le nom de `SIGHASH_NOINPUT`.
 
-Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de covenants, mais c'est aussi un prérequis obligatoire pour implémenter Eltoo, un protocole généraliste pour les secondes couches qui définit la manière de gérer conjointement la propriété d'un UTXO. Eltoo a notamment été conçu pour résoudre les problèmes associés aux mécanismes de négociation de l'état des canaux Lightning, c'est-à-dire entre l'ouverture et la fermeture.
+Si ce sighash flag est intégré à Bitcoin, il permettra l'utilisation de [covenants](https://planb.academy/resources/glossary/covenant), mais c'est aussi un prérequis obligatoire pour implémenter Eltoo, un protocole généraliste pour les secondes couches qui définit la manière de gérer conjointement la propriété d'un UTXO. Eltoo a notamment été conçu pour résoudre les problèmes associés aux mécanismes de négociation de l'état des canaux Lightning, c'est-à-dire entre l'ouverture et la fermeture.
 
-Pour approfondir vos connaissances sur le Lightning Network, après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
+Pour approfondir vos connaissances sur le [Lightning Network](https://planb.academy/resources/glossary/lightning-network), après la formation CYP201, je vous recommande vivement la formation LNP201 de Fanis Michalakis, qui aborde le sujet en détail :
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -1214,7 +1214,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Les portefeuilles HD (_Hierarchical Deterministic_)
 
-Pour résoudre cette limitation des portefeuilles JBOK, une nouvelle structure de portefeuille a été mise en place. En 2012, Pieter Wuille propose une amélioration avec le BIP32, qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées à partir d'une unique source d'information, appelée graine (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
+Pour résoudre cette limitation des portefeuilles JBOK, une nouvelle structure de portefeuille a été mise en place. En 2012, Pieter Wuille propose une amélioration avec le [BIP32](https://planb.academy/resources/glossary/bip0032), qui introduit les portefeuilles déterministes hiérarchiques. Le principe d’un portefeuille HD est de dériver l'ensemble des clés privées à partir d'une unique source d'information, appelée [graine](https://planb.academy/resources/glossary/seed) (ou "seed"), de façon déterministe et hiérarchique. Cette graine est générée de manière aléatoire lors de la création du portefeuille et constitue une unique sauvegarde qui permet de recréer l'ensemble des clés privées du portefeuille. Ainsi, l'utilisateur peut générer un très grand nombre de clés privées pour éviter la réutilisation d'adresse et préserver sa confidentialité, tout en ne faisant qu'une seule sauvegarde de son portefeuille via la graine.
 
 ![CYP201](assets/en/039.webp)
 
@@ -1234,7 +1234,7 @@ Dans les prochains chapitres, nous explorerons le fonctionnement interne des por
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Les portefeuilles HD modernes (déterministes et hiérarchiques) reposent sur une unique information initiale appelée "entropie" pour générer de manière déterministe l’ensemble des clés du portefeuille. Cette entropie est un nombre pseudo-aléatoire dont le niveau de chaos détermine en partie la sécurité du portefeuille.
+Les portefeuilles HD modernes (déterministes et hiérarchiques) reposent sur une unique information initiale appelée "[entropie](https://planb.academy/resources/glossary/entropy)" pour générer de manière déterministe l’ensemble des clés du portefeuille. Cette entropie est un nombre pseudo-aléatoire dont le niveau de chaos détermine en partie la sécurité du portefeuille.
 
 ### Définition de l’entropie
 
@@ -1263,13 +1263,13 @@ Dans le prochain chapitre, nous allons voir comment est-ce que l'on passe d'un n
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-La phrase mnémonique, aussi appelée "seed phrase", "phrase de récupération", "phrase secrète", ou "phrase de 24 mots", est une séquence composée habituellement de 12 ou de 24 mots, qui est générée à partir de l'entropie. Elle est utilisée pour dériver de façon déterministe l'intégralité des clés d'un portefeuille HD. Cela signifie qu’à partir de cette phrase, il est possible de générer et de recréer déterministiquement l'ensemble des clés privées et publiques du portefeuille Bitcoin, et par conséquent d'accéder aux fonds qui sont protégés avec. La raison d'être de la phrase mnémonique est de fournir un moyen de sauvegarde et de récupération des bitcoins qui est à la fois sécurisé et facile à utiliser. Elle a été introduite dans les standards en 2013 avec le BIP39.
+La phrase mnémonique, aussi appelée "seed phrase", "phrase de récupération", "phrase secrète", ou "phrase de 24 mots", est une séquence composée habituellement de 12 ou de 24 mots, qui est générée à partir de l'entropie. Elle est utilisée pour dériver de façon déterministe l'intégralité des clés d'un portefeuille HD. Cela signifie qu’à partir de cette phrase, il est possible de générer et de recréer déterministiquement l'ensemble des clés privées et publiques du portefeuille Bitcoin, et par conséquent d'accéder aux fonds qui sont protégés avec. La raison d'être de la phrase mnémonique est de fournir un moyen de sauvegarde et de récupération des bitcoins qui est à la fois sécurisé et facile à utiliser. Elle a été introduite dans les standards en 2013 avec le [BIP39](https://planb.academy/resources/glossary/bip0039).
 
 Découvrons ensemble comment passer d'une entropie à une phrase mnémonique.
 
 ### La checksum
 
-Pour transformer une entropie en phrase mnémonique, il faut d’abord ajouter une checksum (ou "somme de contrôle") à la fin de l’entropie. Cette checksum est une courte séquence de bits qui assure l’intégrité des données en vérifiant qu’aucune modification accidentelle n’a été introduite.
+Pour transformer une entropie en phrase mnémonique, il faut d’abord ajouter une [checksum](https://planb.academy/resources/glossary/checksum) (ou "somme de contrôle") à la fin de l’entropie. Cette checksum est une courte séquence de bits qui assure l’intégrité des données en vérifiant qu’aucune modification accidentelle n’a été introduite.
 
 Pour calculer la checksum, on applique la fonction de hachage SHA256 à l’entropie (une seule fois ; c'est d'ailleurs l'un des rares cas dans Bitcoin où l'on utilise un SHA256 simple au lieu d'un double hachage). Cette opération produit un hash de 256 bits. La checksum est constituée des premiers bits de ce hash, et sa longueur dépend de celle de l’entropie, selon la formule suivante :
 
@@ -1367,7 +1367,7 @@ Avant de poursuivre la dérivation du portefeuille à partir de cette phrase mn�
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
-Comme nous venons de le voir, les portefeuilles HD sont générés à partir d’une phrase mnémonique constituée généralement de 12 ou de 24 mots. Cette phrase est très importante, car elle permet de restaurer l'ensemble des clés d'un portefeuille en cas de perte de son support (comme un hardware wallet par exemple). Cependant, elle constitue un point de défaillance unique, car si elle est compromise, un attaquant pourrait voler l'intégralité des bitcoins. C'est ici qu'intervient la passphrase BIP39.
+Comme nous venons de le voir, les portefeuilles HD sont générés à partir d’une phrase mnémonique constituée généralement de 12 ou de 24 mots. Cette phrase est très importante, car elle permet de restaurer l'ensemble des clés d'un portefeuille en cas de perte de son support (comme un hardware wallet par exemple). Cependant, elle constitue un point de défaillance unique, car si elle est compromise, un attaquant pourrait voler l'intégralité des bitcoins. C'est ici qu'intervient la [passphrase](https://planb.academy/resources/glossary/passphrase-bip39) BIP39.
 
 ### C'est quoi une passphrase BIP39 ?
 
@@ -1483,7 +1483,7 @@ Avant de poursuivre la dérivation du portefeuille HD avec les éléments suivan
 
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
-Une clé étendue est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son code de chaîne associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent ainsi d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
+Une [clé étendue](https://planb.academy/resources/glossary/extended-key) est simplement la concaténation d’une clé (qu’elle soit privée ou publique) et de son [code de chaîne](https://planb.academy/resources/glossary/chain-code) associé. Ce code de chaîne est indispensable pour la dérivation des clés enfants car, sans lui, il est impossible de dériver les clés enfants d’une clé parent, mais nous découvrirons plus précisément ce processus dans le chapitre suivant. Ces clés étendues permettent ainsi d’agréger toutes les informations nécessaires pour dériver des clés enfants, et donc de simplifier la gestion des comptes au sein d'un portefeuille HD.
 
 ![CYP201](assets/en/051.webp)
 
@@ -1794,7 +1794,7 @@ Si je résume, vous avez appris jusqu’à présent à créer les éléments de 
 
 La structure hiérarchique des portefeuilles HD sur Bitcoin permet d'organiser les paires de clés de diverses façons. L'idée est de dériver, depuis la clé privée maîtresse et le code de chaîne maître, plusieurs niveaux de profondeur. Chaque niveau ajouté correspond à la dérivation d’une paire de clés enfants à partir d’une paire de clés parent.
 
-Au fil du temps, différents BIP ont introduit des normes pour ces chemins de dérivation, visant à standardiser leur usage entre les différents logiciels. Nous allons donc découvrir dans ce chapitre la signification de chaque niveau de dérivation dans les portefeuilles HD, en fonction de ces standards.
+Au fil du temps, différents BIP ont introduit des normes pour ces [chemins de dérivation](https://planb.academy/resources/glossary/derivation-path), visant à standardiser leur usage entre les différents logiciels. Nous allons donc découvrir dans ce chapitre la signification de chaque niveau de dérivation dans les portefeuilles HD, en fonction de ces standards.
 
 ### Les profondeurs de dérivation d’un portefeuille HD
 
@@ -1806,13 +1806,13 @@ Un chemin de dérivation désigne donc la séquence d'index utilisée pour déri
 
 Cette profondeur correspond à la clé privée maîtresse et au code de chaîne maître du portefeuille. Elle est représentée par la notation $m/$.
 
-**Profondeur 1 : Objectif (BIP43)**
+**Profondeur 1 : Objectif ([BIP43](https://planb.academy/resources/glossary/bip0043))**
 
-L’objectif détermine la structure logique de dérivation. Par exemple, une adresse P2WPKH aura $/84'/$ en profondeur 1 (selon le BIP84), tandis qu’une adresse P2TR aura $/86'/$ (selon le BIP86). Cette couche facilite la compatibilité entre les portefeuilles, en indiquant des numéros d’index correspondant aux numéros des BIPs.
+L’objectif détermine la structure logique de dérivation. Par exemple, une adresse P2WPKH aura $/84'/$ en profondeur 1 (selon le [BIP84](https://planb.academy/resources/glossary/bip0084)), tandis qu’une adresse P2TR aura $/86'/$ (selon le [BIP86](https://planb.academy/resources/glossary/bip0086)). Cette couche facilite la compatibilité entre les portefeuilles, en indiquant des numéros d’index correspondant aux numéros des BIPs.
 
 Autrement dit, une fois que l’on dispose de la clé maîtresse et du code de chaîne maître, ceux-ci servent de paire de clés parent pour dériver une paire de clés enfant. L’index utilisé dans cette dérivation peut être, par exemple, $/84'/$ si le portefeuille est destiné à utiliser des scripts de type SegWit v0. Cette paire de clés se situe alors en profondeur 1. Elle n’a pas pour rôle de verrouiller des bitcoins, mais simplement de servir de point de passage dans la hiérarchie de dérivation.
 
-**Profondeur 2 : Type de devise (BIP44)**
+**Profondeur 2 : Type de devise ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 À partir de la paire de clés en profondeur 1, on effectue une nouvelle dérivation pour obtenir la paire de clés en profondeur 2. Cette profondeur permet de différencier les comptes Bitcoin des autres crypto-monnaies au sein d'un même portefeuille.
 
@@ -1890,7 +1890,7 @@ Dans le prochain chapitre, nous allons découvrir ce que sont les "_output scrip
 
 On vous dit souvent que la phrase mnémonique seule suffit pour récupérer l’accès à un portefeuille. En réalité, les choses sont un peu plus complexes. Dans le chapitre précédent, nous avons vu la structure de dérivation du portefeuille HD, et vous avez peut-être constaté que ce processus est assez complexe. Les chemins de dérivation indiquent à un logiciel la direction à suivre pour dériver les clés de l’utilisateur. Cependant, lors de la récupération d’un portefeuille Bitcoin, si l’on ne connaît pas ces chemins, la phrase mnémonique seule ne suffit pas. Elle permet d’obtenir la clé maîtresse et le code de chaîne maître, mais il est ensuite nécessaire de connaître les index utilisés pour atteindre les clés enfant.
 
-Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant chaque standard un par un, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _output script descriptors_.
+Théoriquement, il faudrait donc sauvegarder non seulement la phrase mnémonique de notre portefeuille, mais aussi les chemins vers les comptes que l’on utilise. En pratique, on parvient souvent à retrouver l’accès aux clés enfant sans cette information, à condition d’avoir suivi les standards. En testant chaque standard un par un, on parvient généralement à retrouver l’accès aux bitcoins. Cependant, cela n’est pas garanti et c'est surtout compliqué pour les débutants. Aussi, avec la diversification des types de scripts et l’émergence de configurations plus complexes, ces informations pourraient devenir difficiles à extrapoler, transformant ainsi ces données en informations privées et difficilement récupérables par brute force. C’est pourquoi une innovation a récemment été introduite et commence à être intégrée dans vos logiciels de portefeuille préférés : les _[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)_.
 
 ### C'est quoi un "descriptor" ?
 
@@ -1950,13 +1950,13 @@ Lorsqu’un utilisateur reçoit des bitcoins, l’expéditeur crée un UTXO en o
 
 C’est précisément dans le _scriptPubKey_ que se trouvent les adresses de réception. Leur utilisation varie cependant en fonction du standard de script adopté. Voici un tableau récapitulatif des informations contenues dans le _scriptPubKey_ selon le standard utilisé, ainsi que des informations attendues dans le _scriptSig_ pour déverrouiller le _scriptPubKey_.
 
-| Standard             | _scriptPubKey_                                              | _scriptSig_                       | _redeem script_     | _witness_                                    |
+| Standard             | _scriptPubKey_                                              | _scriptSig_                       | _redeem script_     | _[witness](https://planb.academy/resources/glossary/scriptwitness)_                                    |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG                                      | <*signature*>                     |                     |                                              |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*>      |                     |                                              |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL                          | <*data pushes*> <*redeem script*> | Données arbitraires |                                              |
-| P2WPKH               | 0 <*pubKeyHash*>                                            |                                   |                     | <*signature*> <*public key*>                 |
-| P2WSH                | 0 <*witnessScriptHash*>                                     |                                   |                     | <*data pushes*> <*witness script*>           |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL                          | <*data pushes*> <*redeem script*> | Données arbitraires |                                              |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*>                                            |                                   |                     | <*signature*> <*public key*>                 |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*>                                     |                                   |                     | <*data pushes*> <*witness script*>           |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*pubKeyHash*>    | <*signature*> <*public key*>                 |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL                    | <*redeem script*>                 | 0 <*scriptHash*>    | <*data pushes*> <*witness script*>           |
 | P2TR (*key path*)    | 1 <*public key*>                                            |                                   |                     | <*signature*>                                |
@@ -2024,7 +2024,7 @@ Ce modèle de script a été introduit dès la première version de Bitcoin par 
 
 **P2PKH (_Pay-to-PubKey-Hash_)** :
 
-Comme pour P2PK, le script P2PKH a été introduit dès le lancement de Bitcoin. Contrairement à son prédécesseur, il verrouille les bitcoins à l’aide du hash de la clé publique, plutôt que d’utiliser directement la clé publique brute. Le _scriptSig_ doit alors fournir la clé publique associée à l’adresse de réception, ainsi qu’une signature valide. Les adresses correspondant à ce modèle commencent par `1` et sont encodées en _base58check_. Ce script appartient également au standard "_Legacy_".
+Comme pour P2PK, le script P2PKH a été introduit dès le lancement de Bitcoin. Contrairement à son prédécesseur, il verrouille les bitcoins à l’aide du hash de la clé publique, plutôt que d’utiliser directement la clé publique brute. Le _scriptSig_ doit alors fournir la clé publique associée à l’adresse de réception, ainsi qu’une signature valide. Les adresses correspondant à ce modèle commencent par `1` et sont encodées en _[base58check](https://planb.academy/resources/glossary/base58check)_. Ce script appartient également au standard "_Legacy_".
 
 **P2SH (_Pay-to-Script-Hash_)** :
 
@@ -2034,7 +2034,7 @@ Introduit en 2012 avec le BIP16, le modèle P2SH permet d’utiliser le hash d�
 
 Ce script est similaire au P2PKH, car il verrouille également des bitcoins en utilisant le hash d’une clé publique. Cependant, contrairement à P2PKH, le _scriptSig_ est déplacé dans une section distincte appelée "_Witness_". On parle parfois de "_scriptWitness_" pour désigner cet ensemble comprenant la signature et la clé publique. Chaque input SegWit possède son propre _scriptWitness_, et l’ensemble des _scriptWitness_ constitue le champ _Witness_ de la transaction. Ce déplacement des données de signature est une innovation introduite par la mise à jour SegWit, visant notamment à empêcher la malléabilité des transactions à cause des signatures ECDSA.
 
-Les adresses P2WPKH utilisent l’encodage _bech32_ et commencent toujours par `bc1q`. Ce type de script correspond aux sorties SegWit de version 0.
+Les adresses P2WPKH utilisent l’encodage _[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)_ et commencent toujours par `bc1q`. Ce type de script correspond aux sorties SegWit de version 0.
 
 **P2WSH (_Pay-to-Witness-Script-Hash_)** :
 

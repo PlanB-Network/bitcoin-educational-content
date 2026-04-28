@@ -6,4 +6,4 @@ wrong_answers:
   - Bitcoin Cash và Bitcoin Satoshi Vision
 explanation: |
   Liquid và RSK là các sidechain có neo đậu 2 chiều (2WP) qua lại với Bitcoin. Các tùy chọn khác không phải là sidechain hoặc không có 2WP với Bitcoin Blockchain.
-reviewed: false
+reviewed: true

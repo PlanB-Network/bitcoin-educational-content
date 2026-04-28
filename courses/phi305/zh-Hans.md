@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/zh-Hans/001.webp)
 
 
 斯宾诺莎肖像
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/zh-Hans/002.webp)
 
 
 斯宾诺莎肖像
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/zh-Hans/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/zh-Hans/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/zh-Hans/005.webp)
 
 
 
@@ -149,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/zh-Hans/006.webp)
 
 
 
@@ -157,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/zh-Hans/007.webp)
 
 
 
@@ -189,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/zh-Hans/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/zh-Hans/009.webp)
 
 
 
@@ -208,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/zh-Hans/010.webp)
 
 
 
@@ -255,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/zh-Hans/011.webp)
 
 
 
@@ -279,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/zh-Hans/012.webp)
 
 
 
@@ -311,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/zh-Hans/013.webp)
 
 
 
@@ -331,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/014.webp)
 
 
 
@@ -367,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/zh-Hans/015.webp)
 
 
 
@@ -378,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/zh-Hans/016.webp)
 
 
 
@@ -390,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/zh-Hans/017.webp)
 
 
 
@@ -427,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/zh-Hans/018.webp)
 
 
 
@@ -439,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/zh-Hans/019.webp)
 
 
 
@@ -447,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/zh-Hans/020.webp)
 
 
 
@@ -492,10 +490,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/zh-Hans/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/zh-Hans/022.webp)
 
 
 
@@ -519,10 +516,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/zh-Hans/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/zh-Hans/024.webp)
 
 
 
@@ -538,7 +534,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/zh-Hans/025.webp)
 
 
 
@@ -582,7 +578,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/zh-Hans/026.webp)
 
 
 
@@ -606,7 +602,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/zh-Hans/027.webp)
 
 
 
@@ -622,7 +618,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/zh-Hans/028.webp)
 
 
 
@@ -650,7 +646,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/zh-Hans/029.webp)
 
 
 
@@ -675,10 +671,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/zh-Hans/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/zh-Hans/031.webp)
 
 
 
@@ -733,7 +728,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/zh-Hans/032.webp)
 
 
 
@@ -749,7 +744,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/zh-Hans/033.webp)
 
 
 
@@ -757,11 +752,11 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/zh-Hans/034.webp)
 
 
 
-例如，凯恩斯主义经济学家和福利国家倡导者对通货膨胀的定义也很好地说明了这一悖论。根据他们的观点，通货膨胀是一种价格上涨，一些中央银行家认为，这种价格上涨要么来自 "无处不在 "的地方，要么来自任何人都无法控制或预测的地缘政治环境。虽然价格上涨确实会导致周期性通货膨胀--例如，当石油价格上涨时，某些加工产品的价格也会上涨--但通货膨胀的真正结构性原因主要与货币Supply的增加有关，而货币Supply的增加反过来又意味着货币价值的下降，当然也就意味着价格的机械性上涨。
+例如，凯恩斯主义经济学家和福利国家倡导者对[通货膨胀](https://planb.academy/resources/glossary/inflation)的定义也很好地说明了这一悖论。根据他们的观点，通货膨胀是一种价格上涨，一些中央银行家认为，这种价格上涨要么来自 "无处不在 "的地方，要么来自任何人都无法控制或预测的地缘政治环境。虽然价格上涨确实会导致周期性通货膨胀--例如，当石油价格上涨时，某些加工产品的价格也会上涨--但通货膨胀的真正结构性原因主要与货币Supply的增加有关，而货币Supply的增加反过来又意味着货币价值的下降，当然也就意味着价格的机械性上涨。
 
 
 
@@ -773,7 +768,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/zh-Hans/035.webp)
 
 
 
@@ -809,7 +804,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/zh-Hans/036.webp)
 
 
 
@@ -833,7 +828,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/zh-Hans/037.webp)
 
 
 
@@ -845,7 +840,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/zh-Hans/038.webp)
 
 
 
@@ -865,7 +860,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/zh-Hans/039.webp)
 
 
 
@@ -877,7 +872,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/zh-Hans/040.webp)
 
 
 
@@ -885,7 +880,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/zh-Hans/041.webp)
 
 
 
@@ -945,7 +940,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/zh-Hans/042.webp)
 
 
 
@@ -953,7 +948,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/zh-Hans/043.webp)
 
 
 
@@ -970,7 +965,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/zh-Hans/044.webp)
 
 
 
@@ -993,7 +988,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/zh-Hans/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/zh-Hans/047.webp)
 
 
 
@@ -1069,11 +1064,11 @@ objectives:
 
 
 
-顺便提一句，在加密货币领域尤其如此。
+顺便提一句，在[加密货币](https://planb.academy/resources/glossary/cryptocurrency)领域尤其如此。
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/zh-Hans/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/zh-Hans/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/zh-Hans/050.webp)
 
 
 
@@ -1151,25 +1146,24 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 这正是启蒙运动理性哲学的宗旨，尤其要感谢伊曼纽尔-康德（Immanuel Kant，1724-1804 年），在他看来，只有受过教育的人才能在理性的指导下独立思考，并在伦理上确定什么是 "真 "或 "善"，什么是有毒的。
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/zh-Hans/051.webp)
 
 
 
 换言之，他说，如果我们自己思考，如果我们作为理性的成年人进行推理，如果我们因此而努力重视事物之间的因果联系，我们就不再需要道德权威来教导我们，例如，宗教的真正美德或政治和经济领域的真正伦理价值。
 
 
-这一推理思路与奥地利自由经济学派相联系，后者诞生于第一次世界大战前维也纳极为富饶的知识氛围中。正是在这样的背景下，卡尔-门格尔（1840-1921 年）、路德维希-冯-米塞斯（1883-1979 年）和弗里德里希-哈耶克（1899-1992 年）等知识分子为新的自由主义经济学派奠定了基础，而这一学派也成为了未来赛菲尔朋克信念的基础。因此，Bitcoin 应运而生。
+这一推理思路与[奥地利](https://planb.academy/resources/glossary/austrian-school)自由经济学派相联系，后者诞生于第一次世界大战前维也纳极为富饶的知识氛围中。正是在这样的背景下，卡尔-门格尔（1840-1921 年）、路德维希-冯-米塞斯（1883-1979 年）和弗里德里希-哈耶克（1899-1992 年）等知识分子为新的自由主义经济学派奠定了基础，而这一学派也成为了未来[赛菲尔朋克](https://planb.academy/resources/glossary/cypherpunks)信念的基础。因此，Bitcoin 应运而生。
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/zh-Hans/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/zh-Hans/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/zh-Hans/054.webp)
 
 
 
@@ -1206,19 +1200,19 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/zh-Hans/055.webp)
 
 
 
-尤其是当他将 2009 年 1 月 3 日的《泰晤士报》头条新闻刻在 Genesis 区块的 Blockchain Bitcoin 币基上，以说明一个凯恩斯主义时代的结束，以及另一个自由主义、无政府主义和自由主义愿望的开始。
+尤其是当他将 2009 年 1 月 3 日的《泰晤士报》头条新闻刻在 [Genesis 区块](https://planb.academy/resources/glossary/genesis-block)的 [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin [币基](https://planb.academy/resources/glossary/coinbase-transaction)上，以说明一个凯恩斯主义时代的结束，以及另一个自由主义、无政府主义和自由主义愿望的开始。
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/zh-Hans/056.webp)
 
 
 
-2008 年 10 月 31 日发布的白皮书将 Bitcoin 表述为一种基于去中心化协议、无需可信第三方的互联网价值交换手段。这是一场 "哥白尼式 "革命，最终将使人们重新获得行动能力，即自由、交易自由、财产权和对隐私的尊重。
+2008 年 10 月 31 日发布的[白皮书](https://planb.academy/resources/glossary/white-paper)将 Bitcoin 表述为一种基于去中心化协议、无需可信第三方的互联网价值交换手段。这是一场 "哥白尼式 "革命，最终将使人们重新获得行动能力，即自由、交易自由、财产权和对隐私的尊重。
 
 
 为什么？因为 Bitcoin 使我们能够以斯宾诺莎的方式摆脱这种奴役，这要归功于理性，归功于伽利略的数学语言。而且，正如哈耶克所建议的那样，国家无法反对。而且是和平的，没有胁迫或传教。

@@ -1,0 +1,8 @@
+question: Que propriedade matemática garante que os pontos da curva elíptica podem ser adicionados de forma consistente e previsível em operações criptográficas?
+answer: Os pontos formam um grupo matemático com fecho, associatividade, identidade e inversos
+wrong_answers:
+  - Os pontos mantêm curvas suaves contínuas que preservam as relações geométricas
+  - Os pontos seguem padrões de progressão linear que criam sequências previsíveis
+  - Os pontos utilizam aritmética modular que evita automaticamente erros de cálculo
+explanation: |
+  Os pontos da curva elíptica formam um grupo matemático sob adição, o que significa que satisfazem quatro propriedades essenciais: fecho (a adição de dois pontos dá outro ponto na curva), associatividade (a ordem das operações não importa), identidade (o ponto no infinito actua como zero) e inversos (cada ponto tem uma reflexão que o anula). Estas propriedades de grupo são o que faz com que a criptografia de curvas elípticas funcione de forma fiável e permite que operações como a multiplicação escalar se comportem de forma consistente, independentemente de estarmos a trabalhar com curvas reais suaves ou pontos discretos de campos finitos.

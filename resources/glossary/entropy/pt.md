@@ -1,6 +1,7 @@
 ---
-term: ENTROPIA
+term: Entropia
 
+definition: Medida da imprevisibilidade de uma fonte de datos, crucial para a geração de chaves seguras.
 ---
 A entropia, no contexto da criptografia e da informação, é uma medida quantitativa da incerteza ou imprevisibilidade associada a uma fonte de dados ou a um processo aleatório. A entropia desempenha um papel crucial na segurança dos sistemas criptográficos, especialmente na geração de chaves e números aleatórios. Uma entropia elevada garante que as chaves geradas são suficientemente imprevisíveis e resistentes a ataques de força bruta, em que um atacante tenta todas as combinações possíveis para adivinhar a chave.
 

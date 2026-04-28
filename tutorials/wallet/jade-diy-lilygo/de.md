@@ -116,7 +116,7 @@ Allerdings bergen Hardware-Geldbörsen ihre eigenen Gefahren. Sie müssen darauf
 ## Was bauen wir?
 
 
-Wir nehmen generische Hardware, das LilyGo T-Display, und flashen die Jade SDK-Firmware darauf. Das [Jade Plus] (https://blockstream.com/jade/jade-plus/) ist ein Open-Source-wallet, das normalerweise 150 $ kostet:
+Wir nehmen generische Hardware, das LilyGo T-Display, und flashen die Jade SDK-Firmware darauf. Das [Jade Plus](https://blockstream.com/jade/jade-plus/) ist ein Open-Source-wallet, das normalerweise 150 $ kostet:
 
 
 ![image](assets/fr/02.webp)
@@ -132,7 +132,7 @@ Heute werden wir stattdessen ihre Firmware auf eine 15-Dollar-Hardware flashen.
 
 
 
-- LilyGO T-Display (16MB mit Gehäuse, Modell K164)** - [Bestellen Sie direkt bei LilyGO] (https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) für etwa $15. Dieses ESP32-Board bietet das Display, die Tasten und die USB-Schnittstelle, die das Jade Plus von Blockstream widerspiegeln. Das ESP32-Board enthält auch Wi-Fi- und Bluetooth-Funkgeräte; wir liefern Firmware, die sie deaktiviert, aber sie bilden Ihr Bedrohungsmodell, da bösartiger Code sie wieder einschalten könnte.
+- LilyGO T-Display (16MB mit Gehäuse, Modell K164)** - [Bestellen Sie direkt bei LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) für etwa $15. Dieses ESP32-Board bietet das Display, die Tasten und die USB-Schnittstelle, die das Jade Plus von Blockstream widerspiegeln. Das ESP32-Board enthält auch Wi-Fi- und Bluetooth-Funkgeräte; wir liefern Firmware, die sie deaktiviert, aber sie bilden Ihr Bedrohungsmodell, da bösartiger Code sie wieder einschalten könnte.
 - USB-C-Kabel** - Bringen Sie ein datenfähiges Kabel mit, damit Sie Firmware flashen und das Board direkt von Ihrem Laptop aus mit Strom versorgen können (für den Unterricht völlig ausreichend).
 
 
@@ -153,7 +153,7 @@ Heute werden wir stattdessen ihre Firmware auf eine 15-Dollar-Hardware flashen.
 ### Bereiten Sie Ihren Fall vor
 
 
-Sie haben zwei Möglichkeiten, Ihr LilyGO T-Display Board unterzubringen: ein 3D-gedrucktes Gehäuse oder das offizielle LilyGO-Gehäuse. Das gedruckte Gehäuse können Sie bei [dieses Modell] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure) finden und drucken lassen. Es bietet eine leichte und anpassbare Hülle für Ihr Gerät.
+Sie haben zwei Möglichkeiten, Ihr LilyGO T-Display Board unterzubringen: ein 3D-gedrucktes Gehäuse oder das offizielle LilyGO-Gehäuse. Das gedruckte Gehäuse können Sie bei [dieses Modell](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure) finden und drucken lassen. Es bietet eine leichte und anpassbare Hülle für Ihr Gerät.
 
 
 ![image](assets/fr/04.webp)
@@ -423,7 +423,7 @@ Blockstream Green ist die Software, mit der die Einrichtung von JadeDIY abgeschl
 
 
 
-- Holen Sie sich die offizielle Blockstream-Anwendung - dies ist der Link dazu auf der Website des Unternehmens. Wenn Sie dort sind, klicken Sie auf [Jetzt herunterladen] (https://blockstream.com/app/).
+- Holen Sie sich die offizielle Blockstream-Anwendung - dies ist der Link dazu auf der Website des Unternehmens. Wenn Sie dort sind, klicken Sie auf [Jetzt herunterladen](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

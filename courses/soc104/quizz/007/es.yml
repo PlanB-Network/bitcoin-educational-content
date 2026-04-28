@@ -1,0 +1,10 @@
+question: Según el gráfico de Nolan, ¿cuáles son los dos ejes utilizados para representar las ideologías políticas?
+answer: Libertad económica y libertad personal
+wrong_answers:
+  - Política de izquierdas y política de derechas
+  - Socialismo y capitalismo
+  - Democracia y autoritarismo
+explanation: |
+  El Gráfico Nolan utiliza dos dimensiones: libertad económica y libertad personal, creando un espectro político más matizado que el tradicional eje izquierda-derecha.
+  Este enfoque bidimensional permite situar mejor las distintas ideologías, como el libertarismo (alta libertad económica y personal), el socialismo (baja libertad económica, alta libertad personal) y el conservadurismo (alta libertad económica, baja libertad personal)
+  (baja libertad económica, alta libertad personal) y el conservadurismo (alta libertad económica, baja libertad personal). Nolan considera insuficiente el eje tradicional izquierda-derecha porque no capta la complejidad de las posiciones políticas, en particular dónde encaja el liberalismo clásico en el panorama político.

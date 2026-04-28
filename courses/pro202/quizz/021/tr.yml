@@ -1,0 +1,8 @@
+question: Gereğinden fazla Bitcoin içeren bir UTXO harcarken bir değişiklik çıktısı eklemeyi unutmanın birincil sonucu nedir?
+answer: Fazla miktar otomatik olarak madenci ücreti haline gelir
+wrong_answers:
+  - İşlem ağ tarafından geçersiz olarak reddedilecektir
+  - "Fazla tutar asıl göndericinin adresine iade edilir"
+  - Fazla miktar orijinal UTXO'de kilitli kalır
+explanation: |
+  Bitcoin'ün UTXO modelinde işlem ücretleri dolaylı olarak toplam girdiler ve toplam çıktılar arasındaki fark olarak hesaplanır (ücret = sum(girdiler) - sum(çıktılar)). Bir UTXO harcadığınızda, tamamını harcamanız gerekir - kısmi harcama mümkün değildir. Bir UTXO'ün değerinin yalnızca bir kısmını harcamanız gerekiyorsa, geri kalanını almak için bir değişiklik çıktısı oluşturmalısınız. Bu değişim çıktısını eklemeyi unutursanız, girdiler ve çıktılar arasındaki hesaba katılmamış fark otomatik olarak madenci ücreti haline gelir. Bu nedenle değişim çıktısının düzgün bir şekilde oluşturulması çok önemlidir - bu yapılmazsa madencilere yanlışlıkla çok büyük ücretler ödeyebilirsiniz.

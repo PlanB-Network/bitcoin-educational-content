@@ -1,0 +1,8 @@
+question: Millist mehhanismi kasutab Rust muutujate ja nende ressursside automaatseks puhastamiseks, kui need väljuvad ulatusest?
+answer: Drop mehhanism, mis kutsub muutujate drop-funktsioone välja
+wrong_answers:
+  - Prügikoguja, mis otsib perioodiliselt kasutamata mälu
+  - Manuaalne mälu deallokatsioon selgesõnaliste free() funktsioonikutsete abil
+  - Viidete loendamine, mis jälgib, kui paljud osutajad viitavad igale väärtusele
+explanation: |
+  Rust kasutab ressursside automaatseks puhastamiseks, kui muutujad lähevad väljapoole ulatust. See süsteem kutsub kaudselt iga muutuja jaoks väljajätmisfunktsiooni, kui see väljub ulatusest, märkides mälu taaskasutamiseks vabaks ja sooritades kõik vajalikud puhastustoimingud, nagu failikäepideme sulgemine. See lähenemine, mis on laenatud C++ RAII mustrist, tagab automaatse ressursside haldamise, ilma et oleks vaja prügikoristust, käsitsi mäluhaldust või teistes keeltes kasutatavaid viitelugemissüsteeme.

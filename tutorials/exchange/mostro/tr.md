@@ -344,7 +344,7 @@ Ardından macOS bölümündeki 3. ve 4. adımları izleyin.
 
 
 
-Önce [rustup.rs] (https://rustup.rs/) üzerinden Rust'yi yükleyin, ardından PowerShell :
+Önce [rustup.rs](https://rustup.rs/) üzerinden Rust'yi yükleyin, ardından PowerShell :
 
 
 

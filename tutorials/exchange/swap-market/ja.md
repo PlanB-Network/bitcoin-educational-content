@@ -1,5 +1,5 @@
 ---
-name: スワップマーケット
+name: SwapMarket
 description: BitcoinとLightningのスワップ・サービス・アグリゲーター
 ---
 

@@ -1,0 +1,11 @@
+question: Jak nazywał się interfejs graficzny opracowany dla głównego oprogramowania przez Wladimira van der Laana w 2011 roku?
+answer: Bitcoin-Qt
+wrong_answers:
+  - wxWindows-Bitcoin
+  - bitcoind
+  - Rdzeń Bitcoin
+explanation: |
+ Bitcoin-Qt był kompletną modyfikacją interfejsu graficznego Bitcoin. Był rozwijany od czerwca 2011 roku i zintegrowany z głównym oprogramowaniem w wersji 0.5,
+ wydanej 21 listopada. Oparty na frameworku graficznym Qt, zastąpił bibliotekę wxWindows pierwotnie używaną przez Satoshi. Przez metonimię oprogramowanie zostało nazwane
+ Bitcoin-Qt.
+reviewed: true

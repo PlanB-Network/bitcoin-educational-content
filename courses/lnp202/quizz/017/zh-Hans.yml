@@ -1,0 +1,9 @@
+question: LND 应用界面上显示的 Lightning wallet 余额代表什么？
+answer: 出境流动性总和
+wrong_answers:
+  - 链上链的总和
+  - 流入流动性的总和
+  - 通道容量总和
+explanation: |
+  闪电余额对应于可通过渠道消费的 sats，即所有节点渠道流出的流动资金总和。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Каков размер nonce в заголовке блока?
+answer: 32 бита
+wrong_answers:
+  - 128 бит
+  - 64 бита
+  - 256 бит
+explanation: |
+  Nonce — это 32-битное поле в заголовке.
+reviewed: false

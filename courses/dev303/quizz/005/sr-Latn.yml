@@ -1,0 +1,8 @@
+question: Koja je primarna funkcija Clippy-ja u Rust razvojnom ekosistemu?
+answer: Napredni linter koji analizira kod i predlaže poboljšanja za bolje Rust idioma
+wrong_answers:
+  - Upravljač paketima koji rukuje rešavanjem zavisnosti i izgradnjom projekata
+  - Alat za kompajliranje koji transformiše Rust izvorni kod u izvršne binarne datoteke
+  - Generator dokumentacije koji automatski kreira referentne materijale za API
+explanation: |
+  Clippy je napredni linter koji ide dalje od osnovne provere sintakse kako bi analizirao vaš Rust kod i pružio sugestije za poboljšanja. Za razliku od jednostavnih proverača sintakse, Clippy razume Rust idiome i može preporučiti efikasnije ili idiomatske načine za ostvarivanje specifičnih zadataka. Ostale opcije opisuju različite alate: Cargo je menadžer paketa koji upravlja zavisnostima i izgradnjom, rustc je kompajler koji transformiše izvorni kod u izvršne datoteke, a rustdoc je generator dokumentacije. Clippy se specifično fokusira na analizu kvaliteta koda i pomaže programerima da pišu bolji, održiviji Rust kod sugerišući najbolje prakse.

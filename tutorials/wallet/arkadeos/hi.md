@@ -1,5 +1,5 @@
 ---
-name: आर्केडओएस
+name: ArkadeOS
 description: आर्केड पोर्टफोलियो और आर्क प्रोटोकॉल के लिए संपूर्ण गाइड
 ---
 
@@ -372,14 +372,15 @@ Arkade (बीटा) के वर्तमान संस्करण मे�
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| मापदंड | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **मॉडल** | सर्वर (ASP) द्वारा समन्वित साझा UTXO | भुगतान चैनलों का P2P नेटवर्क | बैंक (Mint) द्वारा जारी ब्लाइंड टोकन |
+| **कस्टडी** | **नॉन-कस्टोडियल** (चाबियाँ आपके पास हैं) | **नॉन-कस्टोडियल** (चाबियाँ आपके पास हैं) | **कस्टोडियल** (मिंट के पास फंड है) |
+| **गोपनीयता** | **उच्च** (नेटिव CoinJoin, जनता के लिए ब्लाइंड) | **औसत** (अनियन राउटिंग, लेकिन चैनल दृश्यमान) | **अत्यधिक उच्च** (मिंट के लिए भी ब्लाइंड) |
+| **स्केलेबिलिटी** | उत्कृष्ट (भारी ऑन-चेन बैचिंग) | उत्कृष्ट (अनंत ऑफ-चेน लेनदेन) | उत्कृष्ट (सरल सर्वर हस्ताक्षर) |
+| **अनुभव** | सरल (ऑन-चेन वॉलेट के करीब) | जटिल (चैनल प्रबंधन, तरलता) | बहुत सरल (डिजिटल कैश की तरह) |
+| **मुख्य जोखिम** | ASP की उपलब्धता और समाप्ति | चैनल प्रबंधन और बैकअप | मिंट में विश्वास (चोरी का जोखिम) |
 
 **अर्काडे** आदर्श समझौता है: कैशू की सादगी और गोपनीयता, लेकिन लाइटनिंग की संप्रभुता (गैर-हिरासत) के साथ।
 

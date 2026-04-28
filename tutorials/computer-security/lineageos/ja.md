@@ -1,5 +1,5 @@
 ---
-name: リネージュOS
+name: LineageOS
 description: 無料のスマートフォン用アンドロイドOS
 ---
 
@@ -685,13 +685,14 @@ LineageOSは、特に使いやすいOver-The-Airアップデートシステム�
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **側面** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **互換性** | ピクセルのみ | 数百台のデバイス |
+| **セキュリティ** | 高度な軽減策 | 標準AOSP セキュリティ |
+| **Google Play** | オプションのサンドボックス | 従来のインストール可能 |
+| **インストール** | ウェブインターフェース + USB | 技術的な手動手順 |
+| **哲学** | セキュリティが最優先 | バランスと選択の自由 |
 
 ### 使用上の推奨事項
 

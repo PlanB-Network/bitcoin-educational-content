@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, why does the artificial lowering of interest rates by central banks distort intertemporal signals in the economy?
+answer: It makes entrepreneurs believe there are more savings available than there actually are, encouraging them to invest in long-term, unsustainable projects
+wrong_answers:
+  - It directly and uniformly reduces the marginal productivity of capital in all economic sectors
+  - "It automatically increases consumers' time preferences towards future consumption rather than immediate consumption."
+  - "It creates structural deflation that discourages investment in everyday consumer goods."
+explanation: |
+  In Austrian theory, natural interest rates reflect real time preferences and available savings. When central banks artificially lower these rates, they send out a false signal suggesting an abundance of savings. Deceived by this signal, entrepreneurs direct their investments towards long-term projects that do not correspond to consumers' real preferences. This distortion of the intertemporal signal generates the malinvestment characteristic of the artificial boom.

@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen etu Breez SDK:n yhteentoimivuusominaisuudessa, jonka ansiosta useat sovellukset voivat muodostaa yhteyden samaan Lightning-solmuun käyttämällä samaa seed-lauseen ilmaisua?
+answer: Käyttäjät voivat ylläpitää yhtä Lightning-tasapainoa eri erikoissovelluksissa ja välttää samalla useiden Lightning-solmujen hallinnan monimutkaisuuden
+wrong_answers:
+  - Sovellukset voivat jakaa yksityisiä avaimia suoraan keskenään, mikä mahdollistaa saumattoman sovellusten välisen tapahtuman allekirjoittamisen ilman käyttäjän toimenpiteitä
+  - Useat sovellukset voivat yhdistää likviditeettinsä luodakseen suurempia Lightning-kanavia, jotka lisäävät verkon reitityskapasiteettia
+  - Kehittäjät voivat käyttää jaettua Lightning-infrastruktuuria ilman omaa solmujen hallintaa, mikä vähentää kehityskustannuksia ja monimutkaisuutta
+explanation: |
+  SDK:n yhteentoimivuuden ansiosta käyttäjät voivat käyttää samaa Lightning-solmua ja varoja useista erikoistuneista sovelluksista (kuten yleisestä wallet:sta ja podcasting-sovelluksesta) ilman erillisten saldojen tai solmujen hallintaa. Väärät vastaukset antavat väärän kuvan arkkitehtuurista: yksityiset avaimet eivät koskaan poistu käyttäjän laitteesta, eikä niitä jaeta sovellusten välillä, likviditeettipooling ei ole järjestelmän toimintatapa, ja vaikka kehittäjät hyötyvätkin yksinkertaistetusta infrastruktuurista, ensisijainen kuvattu etu on sovellusten yhtenäinen käyttökokemus.

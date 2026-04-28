@@ -1,0 +1,8 @@
+question: Koji je primarni razlog zašto transakcije P2SH-omotane SegWit koriste tri sloja pravila validacije tokom verifikacije?
+answer: Da bi se osigurala unazadna kompatibilnost između pre-BIP16, post-BIP16 i SegWit čvorova uz održavanje konsenzusa
+wrong_answers:
+  - Da se utrostruči sigurnost zahtevajući tri odvojena kriptografska dokaza pre nego što se prihvati transakcija
+  - Da se raspodeli opterećenje validacije preko različitih tipova čvorova kako bi se poboljšali performanse mreže i skalabilnost
+  - Da bi se sprečili double-spending napadi validacijom istih podataka o transakciji kroz tri nezavisne metode
+explanation: |
+  P2SH-umotani SegWit koristi tri sloja validacije specifično za unazadnu kompatibilnost: pre-BIP16 čvorovi prihvataju redeemScript kao validan, post-BIP16 čvorovi ga evaluiraju ostavljajući OP_0 + hash na steku, a SegWit čvorovi vrše punu validaciju svedoka. Ovaj slojeviti pristup osigurava da svi tipovi čvorova mogu učestvovati u konsenzusu bez prekida, za razliku od pogrešnih odgovora koji sugerišu umnožavanje sigurnosti, distribuciju performansi ili sprečavanje dvostrukog trošenja kao primarne motive.

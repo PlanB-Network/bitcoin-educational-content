@@ -1,9 +1,9 @@
-question: Urubuga rwafashije cane mu gutuma Bitcoin imenyekana muri Nyakanga 2010 rwitwa irihe?
-answer: Akadomo
+question: Urubuga rwafashije cane mu gutuma Bitcoin imenyekana muri Mukakaro 2010 rwitwa irihe zina?
+answer: Slashdot
 wrong_answers:
-  - Amakuru y'abasuma
-  - Ikirundo giseseka
-  - Reddit
+  - Hackernews
+  - Stack Overflow
+  - Reddi
 explanation: |
-  Ku wa 11 Nyakanga 2010, Teppy yarasohoye ikiganiro ku bijanye na Bitcoin kuri uwo muhora uzwi cane, ivyo bikaba vyatumye abantu benshi cane bawukoresha.
+  Ku wa 11 Mukakaro 2010, Teppy yarasohoye ikiganiro ku bijanye na Bitcoin kuri uwo muhora uzwi cane, ivyo bikaba vyatumye abantu benshi cane bawukoresha.
 reviewed: true

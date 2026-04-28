@@ -1,10 +1,9 @@
-question: Comment les transactions sur le Lightning Network sont-elles sécurisées ?
-answer: Par la cryptographie et indirectement par l'énergie consommée par les mineurs sur Bitcoin.
+question: Quel est le principe central de RGB ?
+answer: La validation côté client
 wrong_answers:
-  - Par l'utilisation uniquement de clés privées.
-  - Par l'utilisation uniquement de clés publiques.
-  - Par l'utilisation uniquement des deux, clés privées et publiques.
-explanation: >-
-  Les transactions sur le Lightning Network sont sécurisées par la cryptographie
-  et indirectement par l'énergie consommée par les mineurs sur Bitcoin.
-reviewed: true
+  - L'exécution globale sur la blockchain
+  - Le consensus fédéré
+  - La Proof-of-Work
+explanation: |
+  RGB repose sur une validation locale des états, la blockchain servant seulement d’ancrage cryptographique et de protection face à la double dépense.
+reviewed: false

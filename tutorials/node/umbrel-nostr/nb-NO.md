@@ -137,7 +137,7 @@ På denne siden limer du inn URL-adressen til Umbrel-reléet som du kopierte tid
 
 
 
-**Tilkobling:** noStrudel tilbyr deg flere tilkoblingsalternativer. I vårt tilfelle velger vi "Private Key" og limer inn din tidligere genererte private Nostr-nøkkel. Hvis du ennå ikke har en nøkkel, kan du installere utvidelsen [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) for å opprette og/eller lagre Nostr-nøklene dine og dermed kommunisere sikrere med de ulike Nostr-applikasjonene.
+**Tilkobling:** noStrudel tilbyr deg flere tilkoblingsalternativer. I vårt tilfelle velger vi "Private Key" og limer inn din tidligere genererte private Nostr-nøkkel. Hvis du ennå ikke har en nøkkel, kan du installere utvidelsen [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) for å opprette og/eller lagre Nostr-nøklene dine og dermed kommunisere sikrere med de ulike Nostr-applikasjonene.
 
 
 
@@ -347,10 +347,10 @@ Av sikkerhetsgrunner er Umbrel som standard bare tilgjengelig på ditt lokale ne
 
 
 
-- Tilgang via **Tailscale:** [Tailscale] (https://tailscale.com/) er en mesh VPN-løsning som skaper et virtuelt privat nettverk mellom enhetene dine og Umbrel. Fordelen: Det fungerer som om du var på et LAN, men over Internett, kryptert og uten komplisert konfigurasjon. **Tailscale tildeler din Umbrel en fast IP og et privat domenenavn, uavhengig av hvor den befinner seg i nettverket** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). I praksis, når du har installert Tailscale på Umbrel (fra Umbrel App Store, kategori *Networking*) **og** på dine enheter (mobil, PC...), vil du kunne nå Umbrel via en Address som `100.x.y.z` (Tailscale IP) eller et navn som `umbrel.tailnet123.ts.net`.
+- Tilgang via **Tailscale:** [Tailscale](https://tailscale.com/) er en mesh VPN-løsning som skaper et virtuelt privat nettverk mellom enhetene dine og Umbrel. Fordelen: Det fungerer som om du var på et LAN, men over Internett, kryptert og uten komplisert konfigurasjon. **Tailscale tildeler din Umbrel en fast IP og et privat domenenavn, uavhengig av hvor den befinner seg i nettverket** ([Tailscale | Umbrel App Store](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard)). I praksis, når du har installert Tailscale på Umbrel (fra Umbrel App Store, kategori *Networking*) **og** på dine enheter (mobil, PC...), vil du kunne nå Umbrel via en Address som `100.x.y.z` (Tailscale IP) eller et navn som `umbrel.tailnet123.ts.net`.
 
 
-for Nostr_ er Tailscale ekstremt nyttig: mobilen din, hvis den har Tailscale aktiv, vil kunne koble seg til `ws://umbrel:4848` (takket være MagicDNS) eller direkte til Tailscale IP og port 4848 for å bruke reléet. Klienter som Damus eller Amethyst vil se din Umbrel som om den var på det samme lokale nettverket. **Tips:** Aktiver **MagicDNS**-alternativet i Tailscale for å bruke vertsnavnet `umbrel` i stedet for å huske IP-en. Dette sikrer en problemfri tilkobling til reléet ditt selv når du er på farten ([Nostr Relay | Umbrel App Store] (https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
+for Nostr_ er Tailscale ekstremt nyttig: mobilen din, hvis den har Tailscale aktiv, vil kunne koble seg til `ws://umbrel:4848` (takket være MagicDNS) eller direkte til Tailscale IP og port 4848 for å bruke reléet. Klienter som Damus eller Amethyst vil se din Umbrel som om den var på det samme lokale nettverket. **Tips:** Aktiver **MagicDNS**-alternativet i Tailscale for å bruke vertsnavnet `umbrel` i stedet for å huske IP-en. Dette sikrer en problemfri tilkobling til reléet ditt selv når du er på farten ([Nostr Relay | Umbrel App Store](https://apps.umbrel.com/app/nostr-relay#:~:text=client%20%28e,That%27s%20it%21%20Your%20past)).
 
 
 Tailscale gir deg dessuten tilgang til Interface Umbrel (og dermed _noStrudel/Snort_-nettklientene) via en enkel nettleser, ved hjelp av den private IP-en eller det tildelte domenenavnet. Det er ikke behov for en Tor-nettleser, og dataoverføringshastighetene er generelt bedre enn via Tor-nettverket.

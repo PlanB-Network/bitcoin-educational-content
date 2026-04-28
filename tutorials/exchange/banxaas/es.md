@@ -21,7 +21,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 - Contabilidad transparente: Banxaas aboga por la transparencia al tiempo que refuerza el anonimato de las transacciones financieras.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Operar por primera vez en Banxaas
 

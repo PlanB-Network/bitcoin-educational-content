@@ -1,0 +1,9 @@
+question: Hvorfor er det vanskelig å få lønnsomhet i ruting på Lightning?
+answer: Kostnader og konkurranse
+wrong_answers:
+  - Kanalgrense
+  - Ingen forespørsel
+  - Mangel på global likviditet
+explanation: |
+  Kjedekostnader, konkurranse og driftskrav gjør lønnsomheten i rutevirksomheten usikker.
+reviewed: false

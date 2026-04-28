@@ -1,5 +1,6 @@
 ---
-term: BAHATI
+term: Bahati
+definition: Kiashiria kinachopima utendaji wa bwawa la madini ikilinganishwa na matarajio ya kinadharia.
 ---
 
 Kiashirio kinachotumika katika mabwawa ya Mining kupima utendaji wa bwawa kulingana na matarajio yake ya kinadharia. Kama jina lake linavyopendekeza, inatathmini bahati ya bwawa katika kupata kizuizi. Bahati nzuri huhesabiwa kwa kulinganisha idadi ya hisa zinazohitajika kinadharia ili kupata kizuizi halali, kulingana na ugumu wa sasa wa Bitcoin, na idadi halisi ya hisa zinazozalishwa ili kupata kizuizi hicho. Idadi ya hisa chini ya inavyotarajiwa inaonyesha bahati nzuri, wakati idadi kubwa inaonyesha bahati mbaya.

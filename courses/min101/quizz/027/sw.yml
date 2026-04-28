@@ -1,0 +1,9 @@
+question: Ada za muamala huhesabiwaje?
+answer: Inputs kutoa outputs
+wrong_answers:
+  - Outputs kutoa inputs
+  - Inputs jumlisha outputs
+  - Outputs gawanya kwa inputs
+explanation: |
+  Ada inalingana na thamani inayotumiwa katika inputs ambayo haijaundwa tena katika outputs.
+reviewed: false

@@ -184,7 +184,7 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 ![Image](assets/fr/32.webp)
 
-Если вы не знаете, как работает портфель самообслуживания, мы предлагаем учебные пособия по большинству доступных решений [на Plan ₿ Academy в разделе "*Кошелек*"] (https://planb.academy/tutorials/wallet).
+Если вы не знаете, как работает портфель самообслуживания, мы предлагаем учебные пособия по большинству доступных решений [на Plan ₿ Academy в разделе "*Кошелек*"](https://planb.academy/tutorials/wallet).
 
 ## Продажа биткоина
 

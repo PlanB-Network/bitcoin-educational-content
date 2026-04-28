@@ -1,0 +1,8 @@
+question: Porque é que os mineiros ASIC modernos modificam os dados dentro da transação Coinbase em vez de confiarem apenas no campo nonce do cabeçalho do bloco?
+answer: O campo nonce de 4 bytes não oferece espaço de pesquisa suficiente para os ASICs modernos, pelo que os mineiros modificam os dados da Coinbase para alterar a raiz Merkle e criar espaço de pesquisa adicional
+wrong_answers:
+  - A modificação da transação Coinbase permite que os mineiros reclamem recompensas de bloco mais elevadas do que o montante de subsídio padrão permite
+  - "A transação Coinbase deve ser modificada para incluir a assinatura digital do mineiro para efeitos de validação do bloco"
+  - A alteração dos dados da Coinbase reduz a dificuldade computacional, permitindo que os mineiros contornem os requisitos padrão do proof-of-work
+explanation: |
+  Os ASICs modernos podem esgotar o espaço de nonce de 4 bytes (2^32 possibilidades) de forma extremamente rápida, exigindo espaço de pesquisa adicional. Ao modificar os dados na transação Coinbase, os mineiros alteram o hash da transação, o que altera a raiz Merkle no cabeçalho do bloco, criando efetivamente milhares de milhões de valores nonce adicionais para experimentar. Essa técnica, chamada de "extra-nonce", é essencial para as operações modernas do mining, em que o hardware excede em muito a capacidade do campo nonce original.

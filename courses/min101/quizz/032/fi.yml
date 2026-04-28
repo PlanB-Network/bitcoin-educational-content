@@ -1,0 +1,9 @@
+question: Mikä oli lohkosubsidion määrä Bitcoinin julkaisun yhteydessä vuonna 2009?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  Alkuperäinen subsidio oli 50 BTC lohkoa kohden ennen peräkkäisiä puoliintumisia.
+reviewed: false

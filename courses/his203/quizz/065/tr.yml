@@ -1,0 +1,11 @@
+question: Bitcoinica ticaret platformu iflasını ilan etmeden önce kaç ayrı saldırı yaşadı?
+answer: 3
+wrong_answers:
+  - 1
+  - 2
+  - 4
+explanation: |
+ Üç hack şu şekilde gerçekleşti: Linode hesabının hacklenmesi platformun 43.554 bitcoin kaybetmesine neden oldu; Rackspace hesabının hacklenmesi platformun
+ 18.574 bitcoin kaybı; bilgisayar korsanının 40.000 bitcoin ve 40.000 LR-USD çektiği Mt. Gox hesabının hacklenmesi. Bitcoinica'nın tasfiyesi
+ 1 Ağustos 2012 tarihinde duyurulmuştur.
+reviewed: true

@@ -146,10 +146,11 @@ server=1
 След това се върнете в Sparrow Wallet и въведете пътя до файла с бисквитките, който обикновено се намира в същата папка като `Bitcoin.conf`, в зависимост от операционната система:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -180,10 +181,11 @@ server=1
 След като редактирате файла, се уверете, че сте го записали в подходящата папка за вашата операционна система:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Тази операция може да се извърши и чрез графичния интерфейс Bitcoin-QT Interface. Отидете в менюто "*Настройки*", след това в "*Опции...*" и активирайте опцията "*Активиране на сървъра RPC*", като поставите отметка в съответното квадратче. Ако файлът `Bitcoin.conf` не съществува, можете да го създадете директно от този Interface, като щракнете върху "*Отваряне на конфигурационен файл*".
 

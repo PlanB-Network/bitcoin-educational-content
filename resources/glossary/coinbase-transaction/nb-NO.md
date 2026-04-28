@@ -1,6 +1,7 @@
 ---
-term: COINBASE (TRANSAKSJON)
+term: Coinbase-transaksjon
 
+definition: Den første transaksjonen i en blokk, opprettet av utvinneren for å motta blokkbelønning og subsidie.
 ---
 Coinbase-transaksjonen er en spesiell og unik transaksjon som er inkludert i hver blokk i Bitcoin-blokkjeden. Den representerer den første transaksjonen i en blokk og opprettes av utvinneren som har funnet en header som validerer arbeidsbeviset (*Proof-of-Work*), det vil si mindre enn eller lik målet.
 
@@ -8,4 +9,3 @@ Coinbase-transaksjonen tjener primært to formål: å tildele blokkbelønningen 
 
 Coinbase-transaksjonen skiller seg fra vanlige transaksjoner på flere måter. For det første har den ingen input, noe som betyr at den ikke bruker eksisterende transaksjonsoutput (UTXO). Deretter inneholder signaturskriptet (`scriptSig`) for coinbase-transaksjonen vanligvis et vilkårlig felt som gjør det mulig å innlemme tilleggsdata, for eksempel egendefinerte meldinger eller informasjon om versjon av utvinningsprogramvare. Til slutt er bitcoins generert av coinbase-transaksjonen underlagt en forfallsperiode på 100 blokker (101 bekreftelser) før de kan brukes, for å forhindre potensiell bruk av ikke-eksisterende bitcoins i tilfelle en omorganisering av kjeden.
 
-> det finnes ingen oversettelse for "Coinbase" på fransk. Derfor er det akseptert å bruke dette begrepet direkte.

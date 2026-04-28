@@ -1,0 +1,8 @@
+question: Welche mathematische Eigenschaft macht es rechnerisch undurchführbar, die Operation k-P auf einer elliptischen Kurve umzukehren?
+answer: Das Problem des diskreten Logarithmus
+wrong_answers:
+  - Die modulare Arithmetik für endliche Felder
+  - Die Eigenschaft des Punktes im Unendlichen
+  - Die Kurvengleichung y² = x³ + 7
+explanation: |
+  Das Problem des diskreten Logarithmus ist die mathematische Grundlage, die die Kryptographie mit elliptischen Kurven sicher macht. Während die Berechnung von k-P (Skalarmultiplikation) rechnerisch einfach ist, ist die Ermittlung von k bei gegebenem P und k-P extrem schwierig - dies ist als Problem des diskreten Logarithmus der elliptischen Kurve bekannt. Die anderen Optionen sind wichtige mathematische Komponenten, bieten aber nicht die Sicherheitsbarriere: Endliche Feldarithmetik ermöglicht die Operationen, der Unendlichkeitspunkt dient als Identitätselement, und die Kurvengleichung definiert die Struktur, aber keine dieser Optionen schafft die rechnerische Unmöglichkeit, die die kryptografische Sicherheit von Bitcoin schützt.

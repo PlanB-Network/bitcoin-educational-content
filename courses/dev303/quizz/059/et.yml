@@ -1,0 +1,8 @@
+question: Mis on derive-makrode, nagu #[derive(Debug)], kasutamise peamine eelis võrreldes kohandatud tüüpide jaoks käsitsi rakendatavate tunnuste kasutamisega?
+answer: Nad automaatselt generate täielikud tunnuste rakendused kompileerimise ajal, vähendades katlakoodide arvu
+wrong_answers:
+  - Nad tagavad parema tööjõudluse, optimeerides traitmeetodite kutsungeid täitmise ajal
+  - Need võimaldavad rakendada sama tüübi puhul mitu korda eri käitumistunnuseid
+  - Need võimaldavad dünaamilist tunnuste rakendamist, mida saab muuta programmi oleku alusel töö ajal
+explanation: |
+  Tuletatud makros automaatselt generate omaduste rakendused kompileerimise ajal, kõrvaldades vajaduse kirjutada käsitsi korduvat koodi. Kui kasutate #[derive(Debug)], genereerib kompilaator kogu vajaliku vormistusloogika selle tunnuse jaoks. Valed vastused on valed, sest: derive-makrosid ei paranda jooksuaegset jõudlust (nad generate sama koodi, mida kirjutaksite käsitsi), tunnuseid saab rakendada ainult üks kord tüübi kohta, olenemata sellest, kuidas neid rakendatakse, ja derive-makrosid generate staatilist koodi kompileerimise ajal, mitte ei võimalda jooksuaegseid muudatusi.

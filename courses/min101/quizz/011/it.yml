@@ -1,0 +1,9 @@
+question: A cosa serve il nonce nell'intestazione del blocco?
+answer: A variare l'intestazione per riprovare
+wrong_answers:
+  - Aumentare la dimensione del blocco
+  - Rappresentare l'insieme delle transazioni del blocco
+  - Indicare il target di difficoltà
+explanation: |
+  Modificare il nonce cambia l'input dell'hash e produce un'impronta totalmente diversa. Ciò consente quindi di riprovare a trovare un hash valido.
+reviewed: false

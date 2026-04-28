@@ -1,0 +1,9 @@
+question: Những tùy chỉnh nào có thể được thực hiện trong phần cài đặt nâng cao của nút Lightning?
+answer: Tên công khai của nút
+wrong_answers:
+  - Quy tắc đồng thuận của nút
+  - Khóa riêng tư của nút
+  - Các tuyến đường được nút chọn
+explanation: |
+  Các cài đặt nâng cao cho phép bạn tùy chỉnh các yếu tố nhận dạng nút mà không ảnh hưởng đến cơ chế đồng thuận hoặc hoạt động của mạng Lightning.
+reviewed: false

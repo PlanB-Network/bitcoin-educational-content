@@ -1,0 +1,8 @@
+question: Quale sintassi si usa per accedere al primo campo di una struttura di tuple in Rust?
+answer: Notazione a punti con indice 0 (ad esempio, istanza.0)
+wrong_answers:
+  - Parentesi quadre con indice 0 (ad esempio, istanza[0])
+  - Notazione a freccia con indice 0 (ad esempio, istanza->0)
+  - Doppi due punti con indice 0 (ad esempio, istanza::0)
+explanation: |
+  Le strutture di tuple in Rust utilizzano la notazione a punti seguita dall'indice del campo per accedere ai campi senza nome. Il primo campo è accessibile con .0, il secondo con .1 e così via. Ciò è diverso dagli array o dai vettori, che usano le parentesi quadre, e a differenza del C++ che usa la notazione a freccia per i puntatori. La sintassi dei doppi due punti è riservata alle funzioni associate e alla spaziatura dei nomi, non all'accesso ai campi.

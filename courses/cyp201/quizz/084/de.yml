@@ -6,3 +6,4 @@ wrong_answers:
   - Den Bestätigungsblock identifizieren
 explanation: |
   Eine Bitcoin-Adresse wird im scriptPubKey eingebettet, um die UTXOs zu sperren. Sie bestimmt die notwendigen Bedingungen, um die Mittel freizugeben.
+reviewed: true

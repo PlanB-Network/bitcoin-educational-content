@@ -1,6 +1,7 @@
 ---
-term: HONGKONGSKÝ KULATÝ STŮL
+term: Hong-kong roundtable
 
+definition: Historické setkání z roku 2016 mezi vývojáři Bitcoin Core a těžaři o škálovatelnosti systému.
 ---
 Historická událost blokové války, která se odehrála 20. února 2016 v Hongkongu. Jednalo se o významné setkání vývojářů a těžařů Bitcoin Core, na kterém se diskutovalo o škálovatelnosti systému a strategii jeho škálování. Napětí bylo před setkáním vysoké, zejména kvůli vzniku návrhu hard forku Bitcoin Classic, který podporoval Gavin Andressen a jehož cílem bylo zvýšit velikost bloku na 2 MB. Debat se zúčastnily vlivné osobnosti ekosystému, včetně Jihana Wu a Micreeho Zhana, spoluzakladatelů společnosti Bitmain, Adama Backa, prezidenta společnosti Blockstream, a Luka Dashjra, Matta Coralla a Petera Todda.
 

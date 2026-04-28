@@ -65,7 +65,7 @@ Co by było, gdyby historia monetarna powtarzała się na naszych oczach? Ty bę
 ### Definicje inflacji
 
 
-Inflacja to pojęcie, które jest często źle rozumiane ze względu na jego liczne definicje i interpretacje. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinery i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
+[Inflacja](https://planb.academy/resources/glossary/inflation) to pojęcie, które jest często źle rozumiane ze względu na jego liczne definicje i interpretacje. Postrzeganie inflacji różni się w różnych grupach, takich jak bitcoinery i tradycyjni ekonomiści. Najpierw wyjaśnijmy definicje, zanim omówimy hiperinflację:
 
 
 
@@ -111,7 +111,7 @@ Inną metodą było zmniejszenie ilości metali szlachetnych w walutach opartych
 ![image](assets/pl/002.webp)
 
 
-Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku walut fiducjarnych, które nie są zabezpieczone aktywami bazowymi, takimi jak metale szlachetne. W przeszłości, gdy waluta była oparta na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągnęły ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ tych różnych systemów monetarnych na inflację.
+Należy podkreślić, że hiperinflację obserwuje się głównie w przypadku [walut fiducjarnych](https://planb.academy/resources/glossary/fiat), które nie są zabezpieczone aktywami bazowymi, takimi jak metale szlachetne. W przeszłości, gdy waluta była oparta na takich aktywach, zdarzały się epizody inflacji (np. poprzez dewaluację zawartości metalu), ale epizody te nigdy nie osiągnęły ekstremalnych poziomów hiperinflacji. W kolejnych sekcjach szczegółowo przeanalizujemy okresy dewaluacji pieniądza i wpływ tych różnych systemów monetarnych na inflację.
 
 
 ### Badanie okresów dewaluacji monetarnej
@@ -424,7 +424,7 @@ Ilustrującym przykładem MMT jest amerykański kompleks wojskowo-przemysłowy. 
 Japonia jest często przywoływana przez zwolenników MMT jako kolejny przykład braku inflacji pomimo znacznego dodruku pieniądza. Jednak sytuacja w Japonii podkreśla również ograniczenia tradycyjnych miar inflacji, takich jak wskaźnik cen konsumpcyjnych (CPI). W Japonii znaczna część wydrukowanych pieniędzy jest oszczędzana lub inwestowana w nieruchomości lub giełdę, a nie wydawana na bieżącą konsumpcję. Wskaźnik CPI, nie uwzględniając w pełni tej dynamiki, może zaniżać rzeczywistą inflację.
 
 
-Analiza Japonii (https://ideas.repec.org/p/ces/ceswps/_9821.html) podkreśla również, że zachowanie podmiotów gospodarczych, takie jak oszczędzanie lub inwestowanie w aktywa nieuwzględnione w CPI, może maskować inflacyjny wpływ dodruku pieniądza. Co więcej, zdolność różnych sektorów do absorpcji wstrzykniętej płynności odgrywa kluczową rolę w określeniu, czy inflacja wystąpi.
+[Analiza Japonii](https://ideas.repec.org/p/ces/ceswps/_9821.html) pokazuje również, że zachowanie podmiotów gospodarczych, takie jak oszczędzanie lub inwestowanie w aktywa nieuwzględnione w CPI, może maskować inflacyjny wpływ kreacji pieniądza. Ponadto zdolność poszczególnych sektorów do absorpcji wstrzykiwanej płynności odgrywa kluczową rolę w wystąpieniu bądź niewystąpieniu inflacji.
 
 
 #### Bilanse banków i banków centralnych
@@ -1161,7 +1161,7 @@ Zjawisko firm-zombie nie ogranicza się do powojennych Niemiec. Nawet dziś wiel
 #### 6. Bogać się szybko!
 
 
-Historia ujawnia przypadki, w których jednostki starały się szybko gromadzić bogactwo, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś podobny trend można zaobserwować wraz ze wzrostem popularności niektórych kryptowalut. Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładniczy wzrost inwestycji. Podejście to przypomina to obserwowane w okresach hiperinflacji, gdzie arbitraż był wykorzystywany do uzyskiwania szybkich zysków, często kosztem innych.
+Historia ujawnia przypadki, w których jednostki starały się szybko gromadzić bogactwo, jak miało to miejsce w Weimarze i Zimbabwe poprzez arbitraż. Dziś podobny trend można zaobserwować wraz ze wzrostem popularności niektórych [kryptowalut](https://planb.academy/resources/glossary/cryptocurrency). Ludzie są kuszeni szybkimi zyskami, podejmując ryzyko w nadziei na wykładniczy wzrost inwestycji. Podejście to przypomina to obserwowane w okresach hiperinflacji, gdzie arbitraż był wykorzystywany do uzyskiwania szybkich zysków, często kosztem innych.
 
 
 ![image](assets/pl/052.webp)

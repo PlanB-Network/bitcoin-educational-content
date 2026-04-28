@@ -1,5 +1,5 @@
 ---
-name: BIP-39 密鑰 SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: 如何將 passphrase 加入我的 SeedSigner 投資組合？
 ---
 

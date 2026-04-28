@@ -1,0 +1,9 @@
+question: Vilket praktiskt problem försöker en miningpool främst lösa?
+answer: Variansen i inkomster
+wrong_answers:
+  - Nätverkets svårighetsgrad
+  - Blockstorleken
+  - Priset på ASIC-maskiner
+explanation: |
+  Genom att dela på hashrate omvandlar en pool en mycket oregelbunden inkomst till mer regelbundna utbetalningar. Detta minskar inkomstvariansen för minern.
+reviewed: false

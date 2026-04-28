@@ -1,0 +1,8 @@
+question: Vad gör Rust under avvecklingsprocessen när det uppstår panik?
+answer: Går tillbaka genom anropsstacken för att ge en detaljerad stackspårning
+wrong_answers:
+  - Avslutar omedelbart programmet utan någon upprensning eller information
+  - Konverterar paniken till en återställbar resultattyp för felhantering
+  - Startar om den aktuella funktionsutförandet från början
+explanation: |
+  När en panik uppstår i Rust går avrullningsprocessen tillbaka genom anropsstacken för att ge en detaljerad stackspårning som visar exakt var paniken uppstod. Detta hjälper utvecklare att identifiera källan till problemet under felsökning. De andra alternativen är felaktiga: Rust avslutas inte omedelbart utan upprensning (det sker bara när avrullningen är inaktiverad), panik kan inte konverteras till Result-typer eftersom de representerar fel som inte kan återställas och Rust startar inte om funktionsexekveringen när panik inträffar.

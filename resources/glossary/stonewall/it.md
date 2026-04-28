@@ -1,6 +1,7 @@
 ---
-term: MURO DI PIETRA
+term: Stonewall
 
+definition: Transazione Bitcoin non collaborativa che imita un coinjoin per aumentare la privacy durante una spesa.
 ---
 Una forma specifica di transazione Bitcoin volta ad aumentare la privacy dell'utente durante una spesa, imitando una coinjoin tra due persone, senza esserlo realmente. Infatti, questa transazione non è collaborativa. Un utente può costruirla da solo, coinvolgendo solo i propri UTXO come input. Pertanto, è possibile creare una transazione Stonewall per qualsiasi occasione, senza bisogno di sincronizzarsi con un altro utente.
 
@@ -12,7 +13,7 @@ Pertanto, ci sono solo 2 ruoli in una transazione Stonewall:
 - Il mittente, che effettua il pagamento effettivo;
 - Il destinatario, che potrebbe non essere a conoscenza della natura specifica della transazione e attende semplicemente il pagamento da parte del mittente.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Le transazioni Stonewall sono disponibili sia sull'applicazione Samourai Wallet che sul software Sparrow Wallet.
 

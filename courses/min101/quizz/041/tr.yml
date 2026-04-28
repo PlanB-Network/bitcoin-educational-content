@@ -1,0 +1,9 @@
+question: Bir Bitcoin ASIC'i özellikle hangi algoritmayı çalıştırmak üzere tasarlanmıştır?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin ASIC'leri, Bitcoin'in iş kanıtı (proof-of-work) tarafından kullanılan çift SHA256 için uzmanlaşmıştır.
+reviewed: false

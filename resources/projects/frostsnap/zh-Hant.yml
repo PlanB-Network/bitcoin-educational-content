@@ -1,0 +1,2 @@
+description: |
+  Frostsnap 是基於分散式多重簽章模型的比特幣安全系統，消除了任何單點故障。Frostsnap 使用 FROST (Flexible Round-Optimized Schnorr Treshold Signatures) 協定。

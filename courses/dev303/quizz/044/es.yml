@@ -1,0 +1,8 @@
+question: ¿Cuál es el rasgo más básico que implementan todos los cierres en la jerarquía de rasgos de cierre de Rust?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterador
+explanation: |
+  FnOnce es el rasgo más básico que todos los cierres implementan en Rust. Representa cierres que pueden ser llamados al menos una vez. Representa los cierres que se pueden llamar al menos una vez, por lo que es la base de la jerarquía de rasgos de cierre. FnMut y Fn son rasgos más restrictivos que se basan en FnOnce - FnMut permite múltiples llamadas con mutación, mientras que Fn permite múltiples llamadas sin mutación. Iterator no está relacionado con los rasgos de cierre y se utiliza para procesar secuencias de datos.

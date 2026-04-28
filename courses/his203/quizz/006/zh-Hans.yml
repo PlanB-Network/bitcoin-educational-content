@@ -1,0 +1,10 @@
+question: 2011 年夏末，丝绸之路在 Bitcoin 产业链上的活动大约占多大比例？
+answer: 10 %
+wrong_answers:
+  - 3 %
+  - 30 %
+  - 90 %
+explanation: |
+ 根据 Chainalysis 随后的一份报告，2011 年 9 月初，丝绸之路活动占 Bitcoin 频道交易量的近 10%。
+ 2011 年 9 月。
+reviewed: true

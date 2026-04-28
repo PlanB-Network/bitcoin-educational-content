@@ -1463,7 +1463,7 @@ Takas konusuna gelince, bazı teoriler bunun esas olarak uluslararası alışver
 
 
 
-Bu bölümde yapacağımız şey de bu. Paranın ortaya çıkışına ilişkin farklı teorileri ve paranın ne olduğuna dair farklı tanımları sunmak için bir tür anket yapacağız. Hem klasik ekonomistlerin hem de antropologların tezlerini sunacak ve eleştireceğiz. Hatta bu çeşitli konularda Avusturyalı bir iktisatçının bakış açısını sunacak olan Ulrich Fromy de benimle birlikte olacak kadar şanslı.
+Bu bölümde yapacağımız şey de bu. Paranın ortaya çıkışına ilişkin farklı teorileri ve paranın ne olduğuna dair farklı tanımları sunmak için bir tür anket yapacağız. Hem klasik ekonomistlerin hem de antropologların tezlerini sunacak ve eleştireceğiz. Hatta bu çeşitli konularda Avusturyalı bir iktisatçının bakış açısını sunacak olan Ulrich de benimle birlikte olacak kadar şanslı.
 
 
 

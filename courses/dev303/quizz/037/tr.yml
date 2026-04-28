@@ -1,0 +1,8 @@
+question: Rust'da kapanışları güçlü kılan temel özellik nedir?
+answer: Çevrelerindeki değişkenleri yakalama yetenekleri
+wrong_answers:
+  - Normal fonksiyonlardan daha hızlı çalışabilme yetenekleri
+  - Bellek tahsisini otomatik olarak işleme yetenekleri
+  - Paralel iş parçacıklarında kod yürütme yetenekleri
+explanation: |
+  Kapanışları güçlü kılan temel özellik, çevrelerini "kapatma" yetenekleridir, yani kapanışın tanımlandığı kapsamda var olan değişkenlere erişebilir ve bunları kullanabilirler. Bu yakalama özelliği, closure'ların oluşturuldukları ortamdaki durum ve bağlamı korumalarına olanak tanıyarak onları normal fonksiyonlardan çok daha esnek hale getirir. Kapanışlar performans için optimize edilebilir ve iş parçacığı bağlamlarında kullanılabilirken, bunlar ikincil faydalardır - temel güçleri çevresel değişken yakalamadan gelir.

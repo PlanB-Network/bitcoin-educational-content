@@ -1,0 +1,8 @@
+question: According to the Austrian school, what is the main limitation of econometrics as a tool for economic analysis?
+answer: Past statistical correlations are no guarantee of future regularity, as individuals learn and modify their strategies
+wrong_answers:
+  - Econometric data are too difficult to collect and often lack precision in their measurement
+  - "Econometrics uses overly complex mathematics that are not accessible to practicing economists."
+  - Econometric models require computers that are too powerful to be used effectively in research
+explanation: |
+  The Austrian school criticizes econometrics not for technical reasons, but because it cannot reveal fundamental economic laws. Since individuals are capable of learning and changing, their behavior is constantly evolving, making predictions based on historical data unreliable. This criticism stems directly from methodological dualism, which recognizes the fundamental unpredictability of human action.

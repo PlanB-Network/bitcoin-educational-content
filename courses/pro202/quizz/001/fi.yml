@@ -1,0 +1,8 @@
+question: Mikä on äärellinen kenttä F(p) Bitcoin:n salausjärjestelmässä?
+answer: Aritmeettinen järjestelmä, joka on määritelty alkuluvulla p ja joka sisältää alkiot 0-p-1
+wrong_answers:
+  - Ääretön määrä numeroita, joita käytetään Bitcoin-osoitteiden ja -avainten luomiseen
+  - Matemaattinen kenttä, joka sisältää kaikki reaaluvut väliltä 0 ja p-1 mukaan lukien
+  - Kryptografinen hash-funktio, joka tuottaa täsmälleen p bitin pituisia tulosteita
+explanation: |
+  Äärellinen kenttä F(p) on nimenomaan alkuluvun p ympärille rakennettu aritmeettinen järjestelmä, joka sisältää täsmälleen p alkiota: kokonaisluvut 0:sta p-1:een. Tämä "äärellinen" on ratkaisevaa - se ei ole ääretön, eikä kyse ole reaaluvuista tai hash-funktioista. Prime-kentät varmistavat, että jokaisella nollasta poikkeavalla elementillä on multiplikatiivinen käänteisluku, ja kaikki aritmeettiset operaatiot (yhteenlasku, vähennyslasku, kertolasku) kiertyvät modulo p:n avulla, jolloin tulokset pysyvät kentän sisällä. Tämä rajattu, ennustettava rakenne on olennainen Bitcoin:n salausturvallisuuden kannalta.

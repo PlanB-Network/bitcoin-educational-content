@@ -153,7 +153,7 @@ Mozilla VPN cho phép bạn chọn vị trí của mình theo hai định dạng
 
 
 
-- Single-Hop: di chuyển địa chỉ IP Address của máy tính và mã hóa dữ liệu đến một máy chủ ở một khu vực cụ thể được chọn, trong ví dụ của chúng tôi là Sofia ở Belarus.
+- Single-Hop: di chuyển địa chỉ IP Address của máy tính và mã hóa dữ liệu đến một máy chủ ở một khu vực cụ thể được chọn, trong ví dụ của chúng tôi là Sofia ở Bulgaria.
 
 
 

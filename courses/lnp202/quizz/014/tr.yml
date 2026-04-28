@@ -1,0 +1,9 @@
+question: Aqua ve Bull Bitcoin Wallet hangi ortak özellikleri paylaşıyor?
+answer: Yıldırım atomik takasları
+wrong_answers:
+  - Yerel Lightning kanalları
+  - Merkezi gözetim
+  - Entegre Lightning düğümü
+explanation: |
+  Bu wallet'ler, Lightning faturalarını doğrudan telefonunuzdaki bir Lightning düğümünden yararlanmadan ve kendi kendine saklanırken ödemek için atomik takasları kullanır.
+reviewed: false

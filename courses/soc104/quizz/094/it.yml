@@ -1,0 +1,9 @@
+question: Secondo la critica fondamentale di Satoshi Nakamoto, qual è il problema principale dei sistemi convenzionali di valuta fiat?
+answer: Richiedono un'eccessiva fiducia nelle istituzioni centralizzate che storicamente hanno violato tale fiducia attraverso lo svilimento della moneta
+wrong_answers:
+  - Mancano di un'infrastruttura tecnologica sufficiente per gestire in modo efficiente e sicuro le moderne transazioni digitali
+  - Creano un'eccessiva volatilità dei tassi di cambio, rendendo il commercio internazionale imprevedibile e costoso
+  - generate commissioni di transazione eccessive che rendono i micropagamenti economicamente non sostenibili per gli utenti comuni
+explanation: |
+  Satoshi Nakamoto ha dichiarato esplicitamente che "il problema principale della moneta convenzionale è la fiducia necessaria per farla funzionare" e che "la storia delle valute fiat è piena di violazioni di tale fiducia"
+  La sua critica si è concentrata sull'affidamento fondamentale alle banche centrali di non svilire la moneta, che hanno ripetutamente fallito. Le altre opzioni, pur essendo potenzialmente valide per quanto riguarda i sistemi tradizionali, non tengono conto della principale obiezione filosofica di Nakamoto ai sistemi monetari basati sulla fiducia e della motivazione che lo spinge a creare un'alternativa senza fiducia.

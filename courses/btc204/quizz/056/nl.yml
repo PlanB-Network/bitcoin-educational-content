@@ -5,6 +5,6 @@ wrong_answers:
   - Ze zijn geïntegreerd in de coinbase.
   - Ze zijn nergens geïntegreerd.
 explanation: |
-  Wanneer een betaling wordt gedaan, creëert de transactie een nieuwe UTXO als uitvoer van de UTXO's die als invoer zijn verbruikt. Op deze uitvoer wordt een script geplaatst dat definieert hoe deze UTXO later kan worden uitgegeven. Dit script staat bekend als de ScriptPubKey. De ontvangende Address is geïntegreerd in dit script.
+  Wanneer een betaling wordt gedaan, creëert de transactie een nieuwe UTXO als output van de UTXO's die als input zijn verbruikt. Op deze uitvoer wordt een script geplaatst dat definieert hoe deze UTXO later kan worden uitgegeven. Dit script staat bekend als de ScriptPubKey. Het ontvangstadres is geïntegreerd in dit script.
   
 reviewed: false

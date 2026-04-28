@@ -1,6 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
+definition: Opcode, der die ersten zwei Elemente auf dem Stack mit den folgenden zwei vertauscht.
 ---
 Tauscht die beiden Elemente am oberen Ende des Stapels mit den beiden Elementen direkt darunter. Zum Beispiel, wenn der Stapel ist:
 

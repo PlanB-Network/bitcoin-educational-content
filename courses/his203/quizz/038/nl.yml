@@ -1,0 +1,11 @@
+question: Voor welke use cases in het bijzonder is de Pay to Script Hash upgrade ingezet?
+answer: Voor het beveiligen van fondsen door meerpartijenhandtekening (multisig)
+wrong_answers:
+  - Voor escrow-diensten
+  - De rekenkracht van het netwerk vergroten dankzij de samengevoegde mining
+  - Voor geld overmaken naar het buitenland
+explanation: |
+ Het veiligstellen van fondsen is momenteel een zeer belangrijk onderwerp, vanwege het toenemende aantal aanvallen door piraten. Het onderwerp werd op 23 augustus 2011 ter tafel gebracht
+ door Gavin Andresen, de projectleider, die de standaardisatie van de multisignature-functionaliteit die al in het protocol aanwezig is, wilde versnellen.
+ Dit leidde tot de ontwikkeling van OP_EVAL en vervolgens P2SH in de winter.
+reviewed: true

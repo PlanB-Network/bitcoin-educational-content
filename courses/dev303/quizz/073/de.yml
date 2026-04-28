@@ -1,0 +1,8 @@
+question: Wann sollte der Fragezeichenoperator (?) den Methoden unwrap() oder expect() in der Rust-Fehlerbehandlung vorgezogen werden?
+answer: Wenn Sie Fehler auf dem Aufrufstapel weitergeben müssen, damit die aufrufende Funktion sie behandeln kann
+wrong_answers:
+  - Wenn Sie benutzerdefinierte Fehlermeldungen für die Fehlersuche bei fehlgeschlagenen Vorgängen bereitstellen möchten
+  - Wenn Sie sicher sind, dass der Vorgang erfolgreich sein wird und Sie eine Fehlerbehandlung vermeiden wollen
+  - Wenn Sie Fehler in einen Standardwert umwandeln und die Programmausführung fortsetzen müssen
+explanation: |
+  Der Fragezeichenoperator (?) ist für die Fehlerfortpflanzung konzipiert - er extrahiert Erfolgswerte, gibt aber Fehler sofort aus der aktuellen Funktion zurück, so dass der Aufrufer sie behandeln kann. Im Gegensatz zu unwrap()/expect(), die bei Fehlern in Panik verfallen, oder unwrap_or(), das Standardwerte liefert, behält der Operator ? den Fehlerkontext bei und übergibt die Verantwortung an Code auf höherer Ebene, der geeignete Entscheidungen zur Behandlung treffen kann.

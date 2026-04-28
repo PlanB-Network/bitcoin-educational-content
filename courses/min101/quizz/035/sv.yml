@@ -1,0 +1,9 @@
+question: Var läggs blockets witness commitment in sedan SegWit?
+answer: I en coinbase-output
+wrong_answers:
+  - I coinbase scriptSig
+  - I versionsfältet
+  - I coinbase-avgifterna
+explanation: |
+  SegWit använder ett åtagande som skrivs in i coinbase via en OP_RETURN-output.
+reviewed: false

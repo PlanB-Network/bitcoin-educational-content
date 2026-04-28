@@ -47,7 +47,7 @@ Kas rahandusajalugu kordub praegu meie silme all? Otsustage ise järgmistes peat
 
 ### Inflatsiooni definitsioonid
 
-Inflatsioon on kontseptsioon, mida tihti valesti mõistetakse seoses sellega kaasnevate mitmete definitsioonidega. Inflatsiooni tajumine varieerub erinevate gruppide seas, nagu bitcoinide pooldajad ja traditsioonilised majandusteadlased. Alustame definitsioonide selgitamisega enne hüperinflatsiooni arutelu:
+[Inflatsioon](https://planb.academy/resources/glossary/inflation) on kontseptsioon, mida tihti valesti mõistetakse seoses sellega kaasnevate mitmete definitsioonidega. Inflatsiooni tajumine varieerub erinevate gruppide seas, nagu bitcoinide pooldajad ja traditsioonilised majandusteadlased. Alustame definitsioonide selgitamisega enne hüperinflatsiooni arutelu:
 
 - Roberti definitsioon: Inflatsioon on maksevahendite (pangatähed, kapital) liigne suurenemine, mis põhjustab hindade tõusu ja valuuta väärtuse languse.
 
@@ -76,7 +76,7 @@ Rahandusliku nähtuse all viitame sellele, kuidas majanduse rahapakkumist mõjut
 
 ![image](assets/et/002.webp)
 
-On oluline rõhutada, et hüperinflatsiooni täheldatakse peamiselt fiat-valuutades, mis on lahti ühendatud oma alusvaradest, nagu väärismetallid. Ajalooliselt, kui valuuta põhines sellistel varadel, esines inflatsiooniepisoode (nt metallisisalduse devalveerimise kaudu), kuid need episoodid ei saavutanud kunagi hüperinflatsiooni äärmuslikke tasemeid. Järgmistes jaotistes uurime üksikasjalikult rahandusliku devalveerimise perioode ja nende erinevate rahandussüsteemide mõju inflatsioonile.
+On oluline rõhutada, et hüperinflatsiooni täheldatakse peamiselt [fiat-valuutades](https://planb.academy/resources/glossary/fiat), mis on lahti ühendatud oma alusvaradest, nagu väärismetallid. Ajalooliselt, kui valuuta põhines sellistel varadel, esines inflatsiooniepisoode (nt metallisisalduse devalveerimise kaudu), kuid need episoodid ei saavutanud kunagi hüperinflatsiooni äärmuslikke tasemeid. Järgmistes jaotistes uurime üksikasjalikult rahandusliku devalveerimise perioode ja nende erinevate rahandussüsteemide mõju inflatsioonile.
 
 ### Rahandusliku Devalveerimise Perioodide Uurimine
 
@@ -270,7 +270,7 @@ Ilmekas näide MMT-st on Ameerika sõjalis-tööstuslik kompleks. MMT kohaselt v
 
 Jaapanit tuuakse sageli MMT pooldajate poolt näitena inflatsiooni puudumisest hoolimata märkimisväärsest rahatrükkimisest. Siiski toob Jaapani olukord esile ka traditsiooniliste inflatsiooni mõõtmiste, nagu Tarbijahinnaindeks (CPI), piirangud. Jaapanis hoitakse suur osa trükitud rahast kas säästuna või investeerituna kinnisvarasse või aktsiaturgudele, mitte kulutatuna jooksvas tarbimismajanduses. CPI, mitte täielikult neid dünaamikaid tabades, võib alahinnata tegelikku inflatsiooni.
 
-Jaapani analüüs (https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, nagu säästmine või varadesse investeerimine, mis ei kuulu THI (Tarbijahinnaindeks) alla, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime neelduda süstitud likviidsust olulist rolli selles, kas inflatsioon toimub või mitte.
+[Jaapani analüüs](https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, näiteks säästmine või investeerimine varadesse, mis ei kuulu tarbijahinnaindeksi hulka, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime süstitud likviidsust absorbeerida otsustavat rolli selles, kas inflatsioon avaldub või mitte.
 
 #### Pangad ja Keskpankade Bilansid
 
@@ -745,7 +745,7 @@ Zombiettevõtete fenomen ei piirdu ainult sõjajärgse Saksamaaga. Ka tänapäev
 
 #### 6. Ruttu rikkaks!
 
-Ajalugu näitab hetki, mil inimesed püüdsid kiiresti rikkaks saada, nagu see toimus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval on täheldatav sarnane tendents teatud krüptovaluutade esiletõusuga. Inimesi ahvatlevad kiired võidud, nad võtavad riske, lootes oma investeeringut eksponentsiaalselt kasvatada. See lähenemine meenutab hüperinflatsiooni perioode, mil arbitraaži kasutati kiire kasumi saamiseks, sageli teiste arvelt.
+Ajalugu näitab hetki, mil inimesed püüdsid kiiresti rikkaks saada, nagu see toimus Weimaris ja Zimbabwes arbitraaži kaudu. Tänapäeval on täheldatav sarnane tendents teatud [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) esiletõusuga. Inimesi ahvatlevad kiired võidud, nad võtavad riske, lootes oma investeeringut eksponentsiaalselt kasvatada. See lähenemine meenutab hüperinflatsiooni perioode, mil arbitraaži kasutati kiire kasumi saamiseks, sageli teiste arvelt.
 
 ![image](assets/et/052.webp)
 

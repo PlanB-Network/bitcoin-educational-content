@@ -1,0 +1,8 @@
+question: Jakým způsobem vede mechanismus zisku podnikatele k tomu, aby přijímali rozhodnutí o výrobě, která odpovídají potřebám spotřebitelů v tržní ekonomice?
+answer: Vysoké zisky signalizují neuspokojenou poptávku a lákají nové výrobce, zatímco nízké zisky odrazují od výroby, dokud nabídka neodpovídá skutečné poptávce spotřebitelů
+wrong_answers:
+  - Zisky umožňují podnikatelům akumulovat kapitál, který pak investují do produktů, které osobně preferují vyrábět
+  - Vládní regulace využívají údaje o zisku k tomu, aby prostřednictvím daňových pobídek a dotací nasměrovaly podnikatele ke společensky prospěšné výrobě
+  - Zisky vytvářejí konkurenci mezi výrobci, kteří pak snižují ceny, dokud si další provoz nemohou dovolit pouze nejefektivnější společnosti
+explanation: |
+  Ziskový mechanismus slouží jako klíčový informační systém na volných trzích. Pokud jsou zisky v určitém odvětví vysoké, signalizuje to, že poptávka spotřebitelů převyšuje současnou nabídku, což láká nové podnikatele ke vstupu na daný trh. Naopak nízké nebo záporné zisky signalizují nadměrnou nabídku nebo nedostatek poptávky, což odrazuje od další výroby. Vzniká tak samoregulační systém, v němž se výroba přirozeně přizpůsobuje skutečným preferencím a potřebám spotřebitelů, nikoli politickým rozhodnutím nebo osobním preferencím výrobců.

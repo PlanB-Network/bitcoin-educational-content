@@ -1,5 +1,6 @@
 ---
 term: HMAC-SHA512
+definition: Algorithm ya kriptografia inayotumika kwa utoaji wa funguo katika mikoba ya Bitcoin HD.
 ---
 
 `HMAC-SHA512` inawakilisha "Msimbo wa Uthibitishaji wa Ujumbe wa Hash - Salama Hash Algorithm 512". Ni algoriti ya kriptografia inayotumiwa kuthibitisha uadilifu na uhalisi wa ujumbe unaotumwa kati ya pande mbili. Inachanganya kazi ya kriptografia ya Hash `SHA512` na ufunguo wa siri ulioshirikiwa kwa generate Msimbo wa kipekee wa Uthibitishaji wa Ujumbe (MAC) kwa kila ujumbe.

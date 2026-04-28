@@ -1,6 +1,7 @@
 ---
 term: BIP0038
 
+definition: Standardi Bitcoin-yksityisavainten salaamiseen salasanalla, jota käytetään erityisesti paperilompakoiden suojaamiseen.
 ---
 Bitcoinin parannusehdotus, jossa otetaan käyttöön salausmekanismi, jolla yksityisiin avaimiin voidaan lisätä lisäsuojaa tunnuslauseen avulla. BIP38 varmistaa, että vaikka kolmas osapuoli saisi salatun yksityisen avaimen fyysisesti haltuunsa, hän ei voi käyttää sitä tietämättä salasanaa. Tämä lisää lisäturvaa bitcoinien suojaamiseksi varkauksilta, erityisesti vanhojen paperilompakoiden turvallisuuden kannalta.
 

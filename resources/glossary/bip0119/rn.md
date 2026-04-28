@@ -1,5 +1,6 @@
 ---
 term: BIP0119
+definition: Icishirwaho ca opcode OP_CHECKTEMPLATEVERIFY (CTV) ryemera iremwa rya covenants rishyiraho ibisabwa ku madorari yo muri kazoza.
 ---
 
 Izana opcode nshasha yitwa `OP_SUZUMA IGITEGEKO` (CTV). CTV yoshobora gutuma habaho amasezerano adasubira inyuma mu bikorwa vy’ubudandaji, bikaba vyemeza ko hashirwaho ivyangombwa vyihariye ku buryo Coin ishobora gukoreshwa, harimwo no mu bikorwa vy’ubudandaji vyo muri kazoza.

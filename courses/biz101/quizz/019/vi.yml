@@ -1,9 +1,9 @@
-question: Tại sao tính biến động được coi là khía cạnh tự nhiên của Bitcoin khi là một tài sản mới nổi?
-answer: Vì Bitcoin vẫn còn tương đối mới nên nó thu hút các nhà đầu cơ và phản ứng với tin tức thị trường, gây ra biến động giá trước khi ổn định trong thời gian dài hơn.
+question: Vì sao sự biến động giá của Bitcoin được xem là điều tự nhiên của một tài sản mới nổi?
+answer: Vì Bitcoin vẫn còn tương đối mới nên nó thu hút các nhà đầu cơ và phản ứng nhạy cảm với tin tức thị trường gây ra biến động giá trước khi tài sản này trưởng thành và ổn định trong thời gian dài hơn.
 wrong_answers:
-  - Bởi vì nó được kiểm soát tập trung và giá cả được thiết lập bởi một cơ quan có thẩm quyền.
+  - Bởi vì nó được kiểm soát tập trung và giá cả được thao túng bởi một cơ quan có thẩm quyền.
   - Bởi vì Bitcoin không có nhiều người dùng nắm giữ lâu dài.
-  - Bởi vì các thương gia phải đặt giá một cách không thể đoán trước mỗi giờ.
+  - Bởi vì các nhà đầu tư phải đặt giá một cách tuỳ ý trong mỗi giờ.
 explanation: |
-  Là một tài sản đang phát triển, giá của Bitcoin chịu ảnh hưởng của đầu cơ, tâm lý thị trường và tỷ lệ chấp nhận khác nhau. Theo thời gian, khi ngày càng có nhiều nhà đầu tư dài hạn và ổn định tham gia, tính biến động có thể giảm bớt; tuy nhiên, đây vẫn là đặc điểm của giai đoạn tăng trưởng ban đầu.
+  Bitcoin là một tài sản đang tăng trưởng, giá của Bitcoin chịu ảnh hưởng của đầu cơ, tâm lý thị trường và tỷ lệ chấp nhận khác nhau. Theo thời gian, khi ngày càng có nhiều nhà đầu tư dài hạn và ổn định tham gia, tính biến động có thể sẽ suy giảm; tuy nhiên, đây vẫn là đặc điểm của giai đoạn tăng trưởng ban đầu.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Ni utaratibu gani wa usanifu unaowezesha Breez SDK kufanya uhamisho wa Liquid-hadi-Bitcoin bila kutegemea federated peg-outs au ubadilishanaji wa kati?
+answer: Utaratibu wa kubadilishana mara mbili wenye miamala ya kufunga kwa wakati mmoja kwenye minyororo yote miwili ambapo mtumaji anadai fedha za Bitcoin na mpokeaji anadai fedha za Liquid
+wrong_answers:
+  - Kubadilishana moja kwa manowari ambapo fedha za Bitcoin hufungwa kwanza na kisha kudaiwa kwa kutumia picha ya awali ya malipo ya Lightning kutoka kwa muamala wa Liquid
+  - Usanifu wa ubadilishaji wa manowari kinyume ambapo Liquid Network hufanya kazi kama daraja la kati ili kuthibitisha miamala ya Bitcoin mainchain
+  - Mfumo wa escrow wa saini nyingi ulioshirikishwa unaosimamiwa na Boltz unaoratibu ubadilishaji wa atomiki kati ya Liquid na Bitcoin kwa kutumia mikataba iliyofungwa kwa wakati
+explanation: |
+  Utaratibu wa kubadilishana mara mbili umeundwa mahsusi kwa ajili ya uhamishaji wa Bitcoin wa mnyororo mtambuka, unaohusisha miamala ya kufunga kwa wakati mmoja kwenye mitandao yote ya Liquid na Bitcoin. Mbinu hii isiyoaminika inaruhusu kuunganisha moja kwa moja bila federated peg-outs. Chaguzi zingine zinaelezea kimakosa ubadilishaji wa manowari wa mwelekeo mmoja, zinawakilisha vibaya jukumu la Liquid Network, au zinaonyesha kimakosa kutegemea mifumo ya shirikisho ambayo SDK inaepuka waziwazi.

@@ -1,0 +1,9 @@
+question: Inyuma yo kuyisuzuma, node ya Bitcoin ikora iki ku gikorwa cemewe ariko kitaremezwa?
+answer: Iyicishiriza ku bandi (peers)
+wrong_answers:
+  - Iyishira muri blockchain yayo
+  - Iyishirako umukono (signature) ikoresheje urufunguzo rwayo rw'ibanga
+  - Iyandika mu buryo bwihereranye ikoresheje urufunguzo rwayo rweruye
+explanation: |
+  Muri Bitcoin, buri node ikwiragiza ibikorwa vyemewe ku zindi node zifatanije.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
 term: 強制關閉
+definition: 透過廣播最後簽署的承諾交易，單方面關閉 Lightning 通道。
 ---
 
 非合作的 Lightning 通道關閉機制。當兩個使用者開啟一個 Multisig 2/2 的頻道時，每個人都可以透過廣播已簽署的最後一個 Commitment Transaction 來單方面關閉頻道，以收回他們的在線比特幣。這就是所謂的「強制關閉」。

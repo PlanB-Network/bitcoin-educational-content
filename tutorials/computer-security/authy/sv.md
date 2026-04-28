@@ -33,8 +33,8 @@ På din smartphone går du till appbutiken (Google Play Store eller Apple Store)
 
 
 
-- [Apple] (https://apps.apple.com/us/app/twilio-authy/id494168017)
-- [Android] (https://play.google.com/store/apps/details?id=com.authy.authy)
+- [Apple](https://apps.apple.com/us/app/twilio-authy/id494168017)
+- [Android](https://play.google.com/store/apps/details?id=com.authy.authy)
 
 ![AUTHY 2FA](assets/notext/02.webp)
 

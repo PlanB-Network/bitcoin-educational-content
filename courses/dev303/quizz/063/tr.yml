@@ -1,0 +1,8 @@
+question: Bir makro tanımında `$($x:expr),*` kalıbını kullandığında, bu kalıp neyi gerçekleştirir?
+answer: Virgülle ayrılmış sıfır veya daha fazla ifadeyle eşleşerek değişken uzunlukta bağımsız değişken listelerine olanak sağlar
+wrong_answers:
+  - Tam olarak bir ifadeyle eşleşir ve makro genişletmesini birden çok kez tekrarlar
+  - Kod üretimi için noktalı virgüllerle ayrılmış herhangi bir sayıda tür tanımıyla eşleşir
+  - Makroyu çalışma zamanında farklı ifade değerleriyle yürüten bir döngü oluşturur
+explanation: |
+  $($x:expr),*` kalıbı Rust'ın makro tekrarlama sözdizimini kullanır; burada `*` niceleyicisi 'sıfır veya daha fazla' anlamına gelir, `$x:expr` her ifadeyi yakalar ve virgül ifadeler arasındaki ayırıcıyı belirtir. Bu, `vec!` gibi makroların herhangi bir sayıda argüman kabul etmesini sağlar: vec![1, 2, 3]` veya `vec![]`. Diğer seçenekler yanlıştır çünkü: kalıp yalnızca bir değil birden fazla ifadeyi işler, özellikle tür tanımlarıyla değil ifadelerle eşleşir ve noktalı virgül değil virgül kullanır ve makrolar çalışma zamanında değil kod oluşturma sırasında derleme zamanında yürütülür.

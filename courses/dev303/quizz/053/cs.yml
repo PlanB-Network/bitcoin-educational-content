@@ -1,0 +1,8 @@
+question: Jaký je základní mechanismus, který RC umožňuje vícenásobné vlastnictví při zachování paměťové bezpečnosti?
+answer: Interní čítač, který sleduje reference a uvolňuje paměť pouze tehdy, když čítač dosáhne nuly
+wrong_answers:
+  - Analýza při kompilaci, která ověřuje všechny referenční vzory před spuštěním programu
+  - Garbage collector, který pravidelně prohledává a čistí nedosažitelné alokace paměti
+  - Systém založený na zámku, který synchronizuje přístup mezi více vlastníky stejných dat
+explanation: |
+  RC udržuje interní čítač referencí, který se inkrementuje při klonování a dekrementuje při vyřazení, čímž zajišťuje, že paměť je uvolněna pouze tehdy, když už nezbývají žádné reference. Tím se liší od analýzy při kompilaci (kterou používá Box), garbage collection (kterou Rust nepoužívá) nebo mechanismů zamykání (které se používají pro synchronizaci vláken, nikoli pro sledování vlastnictví). Přístup založený na čítačích umožňuje bezpečné sdílené vlastnictví bez běhové režie spojené se sběrem odpadu nebo omezeními spojenými s jediným vlastnictvím.

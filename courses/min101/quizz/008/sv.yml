@@ -1,0 +1,9 @@
+question: På vilket element beräknas proof of work i Bitcoin?
+answer: Blockhuvudet
+wrong_answers:
+  - Blockhöjden
+  - Nätverkets mempool
+  - De första 21 transaktionerna i blocket
+explanation: |
+  Mining består av att upprepade gånger hasha det 80 byte stora blockhuvudet, som binder innehållet i blocket.
+reviewed: false

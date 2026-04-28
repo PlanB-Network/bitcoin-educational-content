@@ -67,13 +67,13 @@ Od spuštění Bitcoinu před téměř 13 lety bylo provedeno mnoho výzkumů a 
 
 RGB má svou vlastní zajímavost uvnitř zajímavosti Bitcoinu, zatímco padám těmito zajímavostmi, budu psát o tom, co jsem se naučil, v dalším článku budeme mít úvod do LNP a RGB uzlů a jak je používat.
 
-# Návod na RGB-uzel
+## Návod na RGB-uzel
 
-## Úvod
+### Úvod
 
 V tomto návodu vysvětlíme, jak používat RGB-uzel k vytvoření fungibilního tokenu a jak jej převést, tento dokument je založen na demo RGB-uzlu a liší se tím, že tento návod používá skutečná testnetová data a pro to musíme sestavit vlastní částečně podepsanou Bitcoinovou transakci, psbt odteď.
 
-## Požadavky
+### Požadavky
 
 Doporučuje se použití distribuce Linuxu, tento návod byl napsán s použitím Pop!OS, který je založen na Ubuntu a budete potřebovat:
 
@@ -252,7 +252,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Generování zaslepeného UTXO
+### Generování zaslepeného UTXO
 
 Aby mohl rgb-node-1 přijmout nové USDT, musí vygenerovat zaslepené UTXO odpovídající receive_utxo pro držení aktiva.
 
@@ -265,7 +265,7 @@ Tajemství zaslepení outpointu: 1679197189805229975
 
 Abychom mohli přijímat převody související s tímto UTXO, budeme potřebovat původní receive_utxo a blinding_factor.
 
-## Převod
+### Převod
 
 Pro převod určitého množství aktiva na rgb-node-1 potřebujeme poslat jej na zaslepené UTXO, rgb-node-0 musí vytvořit konzignaci a odhalení a zapsat je do bitcoinové transakce. Poté budeme potřebovat psbt, který upravíme tak, aby zahrnoval závazek. Kromě toho nám možnosti -i a -a umožňují poskytnout vstupní outpoint, který by byl původem aktiva, a alokaci, kde obdržíme změnu, musíme to uvést následovně @<change_utxo>.
 $ rgb0-cli fungible transfer utxob16az597vp5nkr66nfzsykf8ngdnvzep5050rm00l7vv8wm7vew4jqj7jhhf 100 rgb1tadqzve7vwfh39sl6gvqenp8wegsrzreekhhu0dhthx08ppzj9wq8p0je6 tx.psbt consignment.rgb disclosure.rgb witness.psbt -i 4c1785210d8930959f530072cffea7f9606e0599b0de9e89aed60f2e9f133893:1 -a 900@cd66d3b77dfc1c2ecf958847c16a8a1311bba84ee7bf9dd55592a7b97b13028f:1
@@ -273,7 +273,7 @@ Převod byl úspěšný, konzignace a odhalení jsou zapsány do "consignment.rg
 Údaje k zásilce k sdílení: consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy7ytjf4gdh88x6upcdmjfy3mp4y0n669j5ar5y6e04zfr7255kynff6eymx9tdfc7jux5jk6tgn4xm6lttlh3lh08070ltuh60l07mamlns2qyy984mg4m5dz0x6s5sy5edls2zjlmnvw708sh7fy2vuph745jcpgp92qrw27s73vm4ghrx57vammyf8wautwu5euujd8w3dupdtgp4px36gz8z0ywnuty45uqdwk672qqzjp3j77yl7urft6gewqksqgppczezn5c7gyux6gzgpye0wgyjp85ufdqlzy5cd8zwfg3q9550xq2hyf24qqz92wqskpgq8qsr8kp5p9dt49evmqlze9ylrx2sqpwpvpqp45lpvgjkgk542pks9850w5jquq3qqsj4xsqn9nu6w30lgpmrhdqs6jj0ez3myhj74kp223f0wg2y7vupczdq5pa23mzhzc6l647nl6ftrru0mjrh739yhgztsdhl2cdmhf0qm7du9n20up4rnnsp0tlp8665xldkq9z9u85tgh6nxmkfg3pc6wzk2t90pekj2d6l0km09vyt4vut24vhzg9qhrdsgr7dws828p6ejk7ddy0zkz3a2fq5648664w3se2egwvh904lzmpnc7a7wy4fayznunt6j4ndmm68y24tjje4qxnxs70w4lr9vz9q9qca903edtjd6c5f37jagafsqnhnlsuwvnqwc7uly4dw2rnlyxp4zcfqrfpkpez54c0lc3tmvppmv06ge97heevgt0acrq0ezgjr6ck9waqpanypl8dzrqdzjd05h735tdgv2wjjjucheur40h4wjw4pcdpc8pqlh7ef95rj2al8v3eexkgty8j2ne7kk2zxpe0wypq8ra0x76rt6cu00cw4w05v0u3ng6zhfrttz2c3m5nx64s8w98wa26dx79jwhne44gp9lmg6vkhxq98meslyr4zqtxjsg27xzj80m0csd77lr047vwycvdw0z8mwudm3uvlry9p9da4su72k9q84pphw4n0fyeet0ujzrdgacm6p777jun0y0v397mp4drafr6q7994kdl96m388xp6ggf5arn4d4ed53rv9tlkerckqvkng92uhdvngwcl3m6yqhxdjjnkca62tckxfnrae4cx4e6wx6w5649v4hvuwkkajanllc38wavqy83xhn555l708354nt2quscchexsxjgezdxfnmxgue0cn4ktghd6xd2le76k5cw3t0p0nurs4h5rjz0j7twj9ulwkp7cmhhgl23r7g677gk36r5jw8panh2sq5966m08sa5632egd5ms6h0e504dtwskct3x6a93uutaumtc8aam8yyt66lrmrhcssw9ga2yg0496s6sdmaexa49064g3syc888egnwa8racrwwwwemknqamarpqlmqa5mg8zgt0dts8ehuwmgz4j3cjltr8gv78e7p84zm8pylann7dmss5suf4htqc04qx5trnk59m305ah2qp4mvkxwy6ts84sa30d80jzk9s6n40e4j8dcvq79ncg5e3z5g4esxyawmxk7lvm5efc30vtw8qqhe9xx3773djez6hjjx0x962z2radnvdmazkrmlqw7guxz29qvahcx79h33ncqhzhvekwaqqnrz3wxnp2qy3u83zdgdcgq27n5n22h7jjedrh28m8c6mn42xhfjasm5njsxtufqjxefnhc2n5zr0um0xlqk62cu25cjwuwwrcv3e4vhh2tdzn8rnlaefj98fvslg7sun95wpt2a4vcg4ua62v97aeqstvjegmlem5crnsamrhm3a2pcma2s22atr43lgx9vh7kn9lzymfe83a4vhe9rc6xl5pmy5hjw4t88k0fwh6lzmjtjvqtczq47ny7hv8ytdqdy2c7ce3gegnufkzwphkwtz6xqzklyw7e7f76fwfewfuyqal7dl8r9476jerrl40mav38sun2u8jvftw33x3r20dmeka34znmkgaz29ppk5hz3ldttw8zyz4k6q0gts8utqh53tuc7vtajl26rq2fnxr0vxcwlx9rfvn6v8ar8c73qkc3zca4mlgl7qu36sk7e
 Tento příkaz vytvoří tři nové soubory, consignment, disclosure a psbt včetně úpravy, tento psbt se nazývá witness transaction, consignment je odeslán do rgb-node-1.
 
-## Witness
+### Witness
 
 Witness transaction by měla být podepsána a vysílána, pro to potřebujeme zpětně zakódovat do base64.
 
@@ -297,7 +297,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 }
 ```
 
-## Vysílání
+### Vysílání
 
 Vysílejte to pomocí příkazu sendrawtransaction, aby bylo potvrzeno do blockchainu.
 

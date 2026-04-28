@@ -133,7 +133,7 @@ Peki, ilk Bitcoin düğümünüzü açmaya hazır mısınız? Egemenlik için bi
 
 
 
-Yaratıcısı Satoshi Nakamoto tarafından tanımlandığı üzere, Bitcoin kendisini eşler arası bir elektronik nakit sistemi olarak sunmaktadır. Beyaz Kitap'ın başlığı olan bu basit cümle, Bitcoin'ün doğasına ilişkin pek çok ipucu barındırmaktadır:
+Yaratıcısı [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) tarafından tanımlandığı üzere, Bitcoin kendisini [eşler arası](https://planb.academy/resources/glossary/peertopeer-p2p) bir elektronik nakit sistemi olarak sunmaktadır. [Beyaz Kitap](https://planb.academy/resources/glossary/white-paper)'ın başlığı olan bu basit cümle, Bitcoin'ün doğasına ilişkin pek çok ipucu barındırmaktadır:
 
 
 
@@ -144,7 +144,7 @@ Yaratıcısı Satoshi Nakamoto tarafından tanımlandığı üzere, Bitcoin kend
 
 
 
-Bitcoin bir sistem olduğu için mutlaka bilgisayarlar üzerinde çalıştırılmalıdır. Ve eşler arası yapısı nedeniyle, bu makineleri çalıştırma sorumluluğunu üstlenenler kullanıcıların kendileridir. "Bitcoin düğümü" dediğimiz şey, tam olarak Bitcoin protokolünü uygulayan yazılımın (Bitcoin core gibi, ancak buna daha sonra geri döneceğiz) üzerinde çalıştığı bilgisayardır. Bu, Bitcoin'in merkezi bir otorite olmadan çalışmasını sağlayan şeydir: doğrulama, binlerce kullanıcıya ait binlerce bağımsız makine tarafından dağıtılmış bir şekilde gerçekleştirilir.
+Bitcoin bir sistem olduğu için mutlaka bilgisayarlar üzerinde çalıştırılmalıdır. Ve eşler arası yapısı nedeniyle, bu makineleri çalıştırma sorumluluğunu üstlenenler kullanıcıların kendileridir. "[Bitcoin düğümü](https://planb.academy/resources/glossary/node)" dediğimiz şey, tam olarak [Bitcoin protokolünü uygulayan yazılımın](https://planb.academy/resources/glossary/bitcoin-implementation) ([Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core) gibi, ancak buna daha sonra geri döneceğiz) üzerinde çalıştığı bilgisayardır. Bu, Bitcoin'in merkezi bir otorite olmadan çalışmasını sağlayan şeydir: doğrulama, binlerce kullanıcıya ait binlerce bağımsız makine tarafından [dağıtılmış](https://planb.academy/resources/glossary/distributed) bir şekilde gerçekleştirilir.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://
 
 
 
-Bitcoin'in güvenliğini sağlayanlar tam da bu kullanıcılardır. Eric Voskuil'in *Cryptoeconomics* adlı kitabında açıkladığı gibi, Bitcoin'in güvenliği ne Blockchain'a, ne hash gücüne, ne doğrulamaya, ne ademi merkeziyetçiliğe, ne kriptografiye, ne açık kaynağa ne de oyun teorisine dayanır. Bitcoin'in güvenliği öncelikle kendilerini kişisel riske maruz bırakmaya istekli olan bireylere bağlıdır. Ademi merkeziyetçilik bu riskin çok sayıda bireye yayılmasını sağlar ve sistemin sağlamlığını sağlayan da yalnızca bu bireylerin direnme kabiliyetidir.
+Bitcoin'in güvenliğini sağlayanlar tam da bu kullanıcılardır. Eric Voskuil'in *Cryptoeconomics* adlı kitabında açıkladığı gibi, Bitcoin'in güvenliği ne [Blockchain](https://planb.academy/resources/glossary/blockchain)'a, ne [hash gücüne](https://planb.academy/resources/glossary/hashrate), ne doğrulamaya, ne ademi merkeziyetçiliğe, ne [kriptografiye](https://planb.academy/resources/glossary/cryptography), ne [açık kaynağa](https://planb.academy/resources/glossary/foss) ne de oyun teorisine dayanır. Bitcoin'in güvenliği öncelikle kendilerini kişisel riske maruz bırakmaya istekli olan bireylere bağlıdır. Ademi merkeziyetçilik bu riskin çok sayıda bireye yayılmasını sağlar ve sistemin sağlamlığını sağlayan da yalnızca bu bireylerin direnme kabiliyetidir.
 
 
 
@@ -190,7 +190,7 @@ Bitcoin düğümleri birlikte Bitcoin ağı olarak bilinen yapıyı oluşturur. 
 
 
 
-Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çalıştırmasına izin verecek şekilde tasarlanmıştır. Bu durum, Bitcoin core ve node rollerini birleştiren günümüzün Wallet yazılımı ile geçerliliğini korumaktadır. Ancak günümüzde, bu işlev genellikle ayrıştırılmıştır: birçok modern Bitcoin cüzdanı sadece harici düğümlere (aynı kişiye ait olsun ya da olmasın) bağlanan cüzdanlardır.
+Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çalıştırmasına izin verecek şekilde tasarlanmıştır. Bu durum, Bitcoin core ve node rollerini birleştiren günümüzün [Wallet](https://planb.academy/resources/glossary/wallet) yazılımı ile geçerliliğini korumaktadır. Ancak günümüzde, bu işlev genellikle ayrıştırılmıştır: birçok modern Bitcoin cüzdanı sadece harici düğümlere (aynı kişiye ait olsun ya da olmasın) bağlanan cüzdanlardır.
 
 
 
@@ -198,7 +198,7 @@ Başlangıçtan itibaren Bitcoin, her kullanıcının kişisel bir düğüm çal
 
 
 
-Bir düğümün ilk görevi Blockchain'nin yerel bir kopyasını muhafaza etmektir. Merkezi bir otoriteyi dahil etmeden Bitcoin üzerinde Double-spending'yı önlemek için, her kullanıcı sistemde hiçbir işlemin bulunmadığını kontrol etmelidir. Bundan emin olmanın tek yolu Bitcoin üzerinde yapılan tüm işlemleri bilmektir. Bu nedenle, tüm işlemler zaman damgalı ve bloklar halinde gruplandırılmıştır ve her düğüm Blockchain'nin tamamını saklar.
+Bir düğümün ilk görevi Blockchain'nin yerel bir kopyasını muhafaza etmektir. Merkezi bir otoriteyi dahil etmeden Bitcoin üzerinde [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)'yı önlemek için, her kullanıcı sistemde hiçbir [işlemin](https://planb.academy/resources/glossary/transaction-tx) bulunmadığını kontrol etmelidir. Bundan emin olmanın tek yolu Bitcoin üzerinde yapılan tüm işlemleri bilmektir. Bu nedenle, tüm işlemler [zaman damgalı](https://planb.academy/resources/glossary/timestamp) ve [bloklar](https://planb.academy/resources/glossary/block) halinde gruplandırılmıştır ve her düğüm Blockchain'nin tamamını saklar.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://
 
 
 
-Blockchain bu nedenle gelişen bir kayıttır: bir Miner tarafından her yeni blok yayınlandığında, düğüm bunu zincirin kendi yerel kopyasına eklemeden önce geçerliliğini kontrol eder. Bugün (Temmuz 2025) itibariyle, Blockchain'ın tamamı 675 GB'ı aşmaktadır ve ortalama her 10 dakikada bir yeni bir blok eklendiğinden bu boyut büyümeye devam etmektedir.
+Blockchain bu nedenle gelişen bir kayıttır: bir [Miner](https://planb.academy/resources/glossary/miner) tarafından her yeni blok yayınlandığında, düğüm bunu zincirin kendi yerel kopyasına eklemeden önce geçerliliğini kontrol eder. Bugün (Temmuz 2025) itibariyle, Blockchain'ın tamamı 675 GB'ı aşmaktadır ve ortalama her 10 dakikada bir yeni bir blok eklendiğinden bu boyut büyümeye devam etmektedir.
 
 
 
@@ -216,7 +216,7 @@ Blockchain bu nedenle gelişen bir kayıttır: bir Miner tarafından her yeni bl
 
 
 
-Düğüm ayrıca **UTXO seti** olarak bilinen, herhangi bir zamanda mevcut olan tüm UTXO'ların yerel bir kaydını tutar. Bu veritabanı harcanmamış tüm Bitcoin parçalarını içerir. Bu konuyu kursun son bölümünde ayrıntılı olarak tekrar ele alacağız.
+Düğüm ayrıca **[UTXO seti](https://planb.academy/resources/glossary/utxo-set)** olarak bilinen, herhangi bir zamanda mevcut olan tüm [UTXO](https://planb.academy/resources/glossary/utxo)'ların yerel bir kaydını tutar. Bu veritabanı harcanmamış tüm Bitcoin parçalarını içerir. Bu konuyu kursun son bölümünde ayrıntılı olarak tekrar ele alacağız.
 
 
 
@@ -224,14 +224,14 @@ Düğüm ayrıca **UTXO seti** olarak bilinen, herhangi bir zamanda mevcut olan 
 
 
 
-Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sağlamaktır. Yeni bir işlem düğüme ulaştığında (Wallet yazılımı veya başka bir düğüm aracılığıyla), bir dizi kurala (mutabakat kuralları ve röle kuralları) uygun olup olmadığını kontrol edecektir. Örneğin:
+Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sağlamaktır. Yeni bir işlem düğüme ulaştığında (Wallet yazılımı veya başka bir düğüm aracılığıyla), bir dizi kurala ([mutabakat kuralları](https://planb.academy/resources/glossary/consensus-rules) ve [röle kuralları](https://planb.academy/resources/glossary/relay)) uygun olup olmadığını kontrol edecektir. Örneğin:
 
 
 
 
-- harcanmış bitcoinler UTXO setinde (harcanmamış çıktıların veritabanı) bulunmalıdır;
-- imzanın geçerli olması ve tüm harcama koşullarının karşılanması gerekir (geçerli komut dosyası);
-- çıktıların toplam miktarı girdilerin toplam miktarını aşmamalıdır; bu da maliyetlerin negatif olamayacağı anlamına gelir.
+- harcanmış bitcoinler UTXO setinde (harcanmamış [çıktıların](https://planb.academy/resources/glossary/output) veritabanı) bulunmalıdır;
+- [imzanın](https://planb.academy/resources/glossary/digital-signature) geçerli olması ve tüm harcama koşullarının karşılanması gerekir (geçerli [komut dosyası](https://planb.academy/resources/glossary/script));
+- çıktıların toplam miktarı [girdilerin](https://planb.academy/resources/glossary/input) toplam miktarını aşmamalıdır; bu da [maliyetlerin](https://planb.academy/resources/glossary/transaction-fees) negatif olamayacağı anlamına gelir.
 
 
 
@@ -239,7 +239,7 @@ Bir düğümün ikinci rolü, işlemlerin doğrulanmasını ve yayılmasını sa
 
 
 
-Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmış geçici bir bellek alanı olan Mempool'sinde saklanır ve daha sonra bağlı olduğu diğer ağ eşlerine iletilir. Bu dağıtım ve doğrulama mekanizması düğümden düğüme devam eder. Bu şekilde, işlem Bitcoin ağı boyunca yayılır ve her düğüm, daha sonra ilk onayına göre hareket eden bir Miner tarafından geçerli bir bloğa dahil edilene kadar Mempool'de saklar.
+Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmış geçici bir bellek alanı olan [Mempool](https://planb.academy/resources/glossary/mempool)'sinde saklanır ve daha sonra bağlı olduğu diğer ağ eşlerine iletilir. Bu dağıtım ve doğrulama mekanizması düğümden düğüme devam eder. Bu şekilde, işlem Bitcoin ağı boyunca [yayılır](https://planb.academy/resources/glossary/diffusion) ve her düğüm, daha sonra ilk [onayına](https://planb.academy/resources/glossary/confirmation) göre hareket eden bir Miner tarafından geçerli bir bloğa dahil edilene kadar Mempool'de saklar.
 
 
 
@@ -247,7 +247,7 @@ Doğrulamadan sonra, işlem düğümün onaylanmamış işlemler için ayrılmı
 
 
 
-Düğümün üçüncü rolü mayınlı blokları yönetmeyi içerir. Bir Miner geçerli bir Proof of Work ile yeni bir blok keşfettiğinde, bu blok ağda yayınlanır. Düğümler bunu alır, tüm protokol kurallarına uygun olup olmadığını kontrol eder ve geçerli ise kendi yerel Blockchain kopyalarına entegre eder. İşlemlerde olduğu gibi, yeni onaylanan bloklar daha sonra düğüme bağlı tüm eşlere iletilir. Bu süreç Bitcoin ağındaki tüm düğümler yeni bloktan haberdar olana kadar devam eder.
+Düğümün üçüncü rolü mayınlı blokları yönetmeyi içerir. Bir Miner geçerli bir [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) ile yeni bir blok keşfettiğinde, bu blok ağda yayınlanır. Düğümler bunu alır, tüm protokol kurallarına uygun olup olmadığını kontrol eder ve geçerli ise kendi yerel Blockchain kopyalarına entegre eder. İşlemlerde olduğu gibi, yeni onaylanan bloklar daha sonra düğüme bağlı tüm eşlere iletilir. Bu süreç Bitcoin ağındaki tüm düğümler yeni bloktan haberdar olana kadar devam eder.
 
 
 
@@ -304,7 +304,7 @@ Başlangıçta, Bitcoin 2009 yılında Satoshi Nakamoto tarafından başlatıld�
 
 
 
-Ancak Bitcoin'ün giderek yaygınlaşması ve madenci sayısının artmasıyla birlikte Mining'teki rekabet ortamı radikal bir değişim geçirmiştir. Günümüzde Mining, özel altyapılarla donatılmış endüstriyel oyuncuların hakimiyetinde olan son derece rekabetçi bir faaliyet haline gelmiştir. Yeni bir blok çıkarmak için gereken güç artık o kadar büyüktür ki, bireysel bir kullanıcının bunu yalnızca geleneksel bir bilgisayar kullanarak başarması neredeyse imkansızdır. Sonuç olarak, Mining artık öncelikle ASIC (*Uygulamaya Özel Entegre Devreler*) adı verilen özel makineler kullanılarak gerçekleştirilmektedir. Bu çipler, Bitcoin üzerinde Mining için kullanılan algoritma olan çift SHA-256'yı çalıştırmak üzere özel olarak optimize edilmiştir.
+Ancak Bitcoin'ün giderek yaygınlaşması ve madenci sayısının artmasıyla birlikte Mining'teki rekabet ortamı radikal bir değişim geçirmiştir. Günümüzde Mining, özel altyapılarla donatılmış endüstriyel oyuncuların hakimiyetinde olan son derece rekabetçi bir faaliyet haline gelmiştir. Yeni bir blok çıkarmak için gereken güç artık o kadar büyüktür ki, bireysel bir kullanıcının bunu yalnızca geleneksel bir bilgisayar kullanarak başarması neredeyse imkansızdır. Sonuç olarak, Mining artık öncelikle [ASIC](https://planb.academy/resources/glossary/asic) (*Uygulamaya Özel Entegre Devreler*) adı verilen özel makineler kullanılarak gerçekleştirilmektedir. Bu çipler, Bitcoin üzerinde Mining için kullanılan algoritma olan çift [SHA-256](https://planb.academy/resources/glossary/sha256)'yı çalıştırmak üzere özel olarak optimize edilmiştir.
 
 
 
@@ -328,7 +328,7 @@ Bir Miner ağ ile etkileşime geçmek için bir Bitcoin düğümüne ihtiyaç du
 
 
 
-Miner'ün rolü de bazen kıyıcıdan farklıdır. Kıyıcı, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
+Miner'ün rolü de bazen grind farklıdır. Grind, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
 
 
 
@@ -668,7 +668,7 @@ Birçok tüccarın mal karşılığında Exchange cinsinden altın kabul ettiği
 
 
 
-Bu kavram Bitcoin sistemindeki güç dinamiklerini anlamak için çok önemlidir. Satoshi şunu açıkça ortaya koymaktadır: Bitcoin bir elektronik nakit sistemidir; başka bir deyişle, bir tür para birimi olan Bitcoin (veya BTC) sunan bir hizmet sağlamaktadır. Protokol kuralları geriye dönük uyumlu olmayacak şekilde değiştirildiğinde (Hard Fork), bu yeni bir sistem ve dolayısıyla yeni bir para birimi yaratmak anlamına gelir. Bu Fork'un başarısı ya da başarısızlığı ekonomisinin büyüklüğüne bağlıdır ve bu da bu yeni para birimini kabul eden tüccarların sayısına göre belirlenir.
+Bu kavram Bitcoin sistemindeki güç dinamiklerini anlamak için çok önemlidir. Satoshi şunu açıkça ortaya koymaktadır: Bitcoin bir elektronik nakit sistemidir; başka bir deyişle, bir tür para birimi olan Bitcoin (veya BTC) sunan bir hizmet sağlamaktadır. Protokol kuralları geriye dönük uyumlu olmayacak şekilde değiştirildiğinde (Hard [Fork), bu](https://planb.academy/resources/glossary/hard-fork) yeni bir sistem ve dolayısıyla yeni bir para birimi yaratmak anlamına gelir. Bu Fork'un başarısı ya da başarısızlığı ekonomisinin büyüklüğüne bağlıdır ve bu da bu yeni para birimini kabul eden tüccarların sayısına göre belirlenir.
 
 
 
@@ -853,7 +853,7 @@ Bu en egemen ve esnek yaklaşımdır: tam olarak neyin çalıştığını, veril
 
 
 
-[Bitcoin core ağın ultra çoğunluk istemcisidir] (https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
+[Bitcoin core ağın ultra çoğunluk istemcisidir](https://bitcoincore.org/). Blockchain'yi indirir, doğrular ve bakımını yapar, RPC/REST API'leri sağlar ve bir Wallet entegre edebilir. Standart araçları tercih ediyorsanız ve kendiniz hizmet ekleme konusunda rahat hissediyorsanız (Electrum sunucusu, explorer ve LND gibi), Core'u olduğu gibi kullanmanız daha iyi olacaktır.
 
 
 
@@ -974,7 +974,7 @@ https://planb.academy/tutorials/node/bitcoin/start9-8c8b6827-8423-4929-bcba-8905
 
 
 
-[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır] (https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
+[MyNode, yalnızca Bitcoin ve Lightning'e odaklanan bir dağıtımdır](https://mynodebtc.com/), bir web Interface, bir uygulama pazarı ve tek tıklamayla yükseltmeler sunar. Kullanıma hazır donanım satın alabilir (*Model Two* 549 dolardan satılmaktadır) ya da MyNode'u kendi makinenize ücretsiz olarak kurabilirsiniz. Proje ayrıca yazılımın öncelikli destek ve gelişmiş özellikler içeren bir *Premium* sürümünü (94 $) sunmaktadır.
 
 
 
@@ -1619,7 +1619,7 @@ UmbrelOS'u makinenize kurmadan önce, işletim sistemini içeren önyüklenebili
 
 
 
-USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
+USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için resmi Umbrel web sitesine](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) gidin. X86_64 mimarisiyle uyumlu sürümü seçtiğinizden emin olun (`umbrelos-amd64-usb-installer.iso` adlı dosya). İmaj oldukça büyük olduğu için indirme işlemi biraz zaman alabilir.
 
 
 
@@ -1633,7 +1633,7 @@ USB anahtar aracılığıyla kurulum için [ISO görüntüsünü indirmek için 
 
 
 
-Önyüklenebilir USB bellek oluşturmak için [Balena Etcher] (https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
+Önyüklenebilir USB bellek oluşturmak için [Balena Etcher](https://www.balena.io/etcher/) adlı basit, platformlar arası bir araç kullanacaksınız. İndirin ve bilgisayarınıza kurun.
 
 
 
@@ -1904,7 +1904,7 @@ Umbrel'in Interface'i oldukça sezgiseldir:
 
 
 
-- "*App Store*" yeni uygulamalar yüklemenizi sağlar,
+- "*App Store*" [yeni](https://planb.academy/resources/glossary/tor) uygulamalar yüklemenizi sağlar,
 
 
 
@@ -2514,9 +2514,11 @@ Son olarak, kanal açabileceğiniz eşler bulmanızı sağlayan ve hem giden hem
 
 
 
-Umbrel sayesinde, kişisel bir Lightning düğümünü yönetmek büyük ölçüde basitleştirilmiştir, ancak yine de nispeten karmaşıktır. Bu nedenle, gelecekte tamamen bu kullanıma ayrılmış bir kursta bu konuya daha yakından bakacağız.
+Umbrel sayesinde kişisel bir Lightning düğümünün yönetimi basitleştirilmiştir, ancak yine de nispeten karmaşık olmaya devam etmektedir. Bu nedenle, BTC 202 kursunun mantıksal devamı olan LNP 202 kursunu takip etmenizi öneririm; bu kursta Umbrel üzerinde Lightning düğümünüzün kurulumu ve yönetimi konusunda sizi adım adım yönlendiriyorum.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Kuyruk Ölçeği
 
@@ -2761,7 +2763,7 @@ Umbrel'inizde bir hata olması durumunda, önce UmbrelOS'un veya ilgili uygulama
 
 
 
-Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı] (https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
+Sorun devam ederse, [Discord'larındaki Umbrel kullanıcı topluluğuna katılmanızı](https://discord.gg/efNtFzqtdx) tavsiye ederim. Daha önce aynı zorlukla karşılaşmış ve bir çözüm bulmuş birileri olup olmadığını belirlemek için bir arama yaparak başlayın. Eğer yoksa, `general-support` kanalına bir mesaj gönderebilirsiniz. Ayrıca [Umbrel forumunu](https://community.umbrel.com/) da kullanabilirsiniz.
 
 
 
@@ -2908,7 +2910,7 @@ Bu durumda, yazılım _**DNS tohumlarını**_ sorgular. Bunlar, aktif olduğu va
 
 
 
-Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste] (https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
+Vakaların büyük çoğunluğunda, *DNS tohumları* adımı diğer düğümlerle ilk bağlantıları kurmak için yeterlidir. İstisnai olarak, bu sunucular 60 saniye içinde yanıt vermezse, düğüm başka bir yönteme geçer: gW-569'un kodunda _tohum düğümlerinin_ [1.000'den fazla adresten oluşan statik bir liste](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) yerleşiktir ve düzenli olarak güncellenir. IP adresi elde etmenin ilk iki yöntemi başarısız olursa, bu son çözüm düğümün daha sonra yeni IP adresleri talep edebileceği bir ilk bağlantı kurar.
 
 
 
@@ -3079,7 +3081,7 @@ UTXO setinin büyümesi, Bitcoin üzerindeki basit ödeme işlemlerinin yapısı
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta [Utreexo] (https://planb.academy/resources/glossary/utreexo) olmak üzere birkaç öneri zaten mevcuttur.
+İşlemleri makul bir sürede doğrulamak için bir kısmının RAM'de tutulması gerektiğinden, UTXO seti bir Full node'un çalışmasını kademeli olarak çok maliyetli hale getirebilir. Bu sorunu çözmek için, başta Utreexo olmak üzere birkaç öneri zaten mevcuttur.
 
 
 
@@ -3490,7 +3492,7 @@ Bir hatırlatma olarak, RBF, göndericinin onaylamayı hızlandırmak için bir 
 
 
 
-- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom filtreleri (BIP37) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
+- `peerbloomfilters=1` : Hafif istemcilere filtrelenmiş bloklar/işlemler sunmak için Bloom [filtreleri (BIP3](https://planb.academy/resources/glossary/bloom-filter)7) desteğini etkinleştirir (varsayılan: `0`). Dikkat, bu kaynaklarınız üzerindeki yükü artırır.
 
 
 
@@ -3882,7 +3884,7 @@ Son olarak, `Bitcoin.conf` dosyası da düğümünüz için erişim parametreler
 
 
 
-Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator] (https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
+Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
 
 
 
@@ -3894,11 +3896,13 @@ Artık kursun son bölümüne geçebilir, burada BTC 202'yi değerlendirebilir v
 
 
 
-Artık önünüzde birkaç seçenek var. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olmanızı sağlayacak şekilde kendi Lightning düğümünüzü kurmaktır. Bu, 2025 sonbaharında Plan ₿ Academy üzerine yayınlanacak olan gelecek bir kursun konusu olacaktır.
+Artık önünüzde birden fazla yol bulunmaktadır. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olabilmek adına kendi Lightning düğümünüzü kurmaktır. Bu da Plan ₿ Academy’deki başka bir kursun tam olarak konusudur:
 
 
 
-Bu arada, sizi Bitcoin kullanımınızda gizlilik koruma ilkelerini anlamanızı ve bu konuda uzmanlaşmanızı sağlayacak BTC 204 eğitimini keşfetmeye davet ediyorum:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ayrıca, Bitcoin kullanımınızda gizliliğin korunmasına ilişkin ilkeleri anlamanızı ve bunlara hâkim olmanızı sağlayacak olan BTC 204 eğitimini keşfetmenizi öneririm:
 
 
 

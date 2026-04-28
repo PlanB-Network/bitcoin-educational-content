@@ -1,0 +1,8 @@
+question: Milline UTXO mudeli põhimõtteline piirang nõuab Bitcoin kulutamisel erilist käsitlemist?
+answer: UTXOd tuleb kulutada täielikult ja neid ei saa osaliselt tarbida
+wrong_answers:
+  - UTXO-d saab kulutada ainult üks kord ploki kohta, et vältida topeltkulutamist
+  - UTXOd tuleb kulutada kronoloogilises järjekorras, mis põhineb loomise ajal
+  - UTXOd nõuavad mitme erineva võtme allkirja, et need oleksid kehtivad
+explanation: |
+  UTXO mudelil on põhiline piirang, et kulutamata tehingu väljundid tuleb tarbida täielikult - osalise kulutamise mehhanism puudub. Kui teil on vaja kulutada vähem kui kogu UTXO summa, peate looma tehingu, mis kulutab kogu UTXO ja sisaldab muutuste väljundit tagasi endale ülejäänu eest. Teised võimalused kirjeldavad olematuid piiranguid: UTXOsid võib kulutada mitu korda ploki kohta (erinevad UTXOd), nad ei nõua kronoloogilist järjestust ja vajavad tavaliselt ainult ühte kehtivat allkirja, kui nad ei ole spetsiaalselt kavandatud multisigina.

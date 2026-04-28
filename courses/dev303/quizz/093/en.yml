@@ -1,8 +1,0 @@
-question: What is the primary educational philosophy behind choosing a simple number guessing game as the foundation for learning comprehensive Rust development practices?
-answer: The game's mechanical simplicity allows developers to focus on essential development practices like testing, formatting, and library integration rather than complex algorithms
-wrong_answers:
-  - The game provides sufficient algorithmic complexity to demonstrate advanced Rust ownership patterns and memory management techniques in real-world scenarios
-  - "The guessing mechanics require extensive use of Rust's advanced type system features, making it ideal for learning complex generic programming patterns"
-  - "The interactive nature of the game necessitates concurrent programming patterns that are fundamental to understanding Rust's async programming model"
-explanation: |
-  The correct answer reflects the chapter's core educational philosophy: using a mechanically simple project to focus on professional development practices. The game's simplicity is intentional - it allows learners to concentrate on crucial skills like project structure, testing frameworks, code formatting with cargo fmt, static analysis with clippy, and third-party library integration. The wrong answers incorrectly suggest the game's value lies in algorithmic complexity, advanced type systems, or concurrency patterns, which would distract from the fundamental development practices the project is designed to teach.

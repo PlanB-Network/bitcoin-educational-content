@@ -1,0 +1,9 @@
+question: 保管閃電 wallet 的財務風險是什麼？
+answer: 零碎儲備金
+wrong_answers:
+  - 任意提高 mining 費用
+  - 51% 攻擊
+  - 熊市終結
+explanation: |
+  用戶無法驗證顯示的餘額是否與持有的比特幣相符。因此存在部分儲備的風險。
+reviewed: false

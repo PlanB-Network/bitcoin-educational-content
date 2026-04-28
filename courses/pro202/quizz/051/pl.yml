@@ -1,0 +1,8 @@
+question: W strukturze komunikatów sieciowych Bitcoin P2P, jakie konkretne dane składają się na 4-bajtowe pole sumy kontrolnej w każdej kopercie komunikatu?
+answer: Pierwsze 4 bajty skrótu256 ładunku wiadomości
+wrong_answers:
+  - Pierwsze 4 bajty skrótu SHA256 całej koperty wiadomości
+  - Pierwsze 4 bajty hash256 pola komendy połączone z payloadem
+  - Pierwsze 4 bajty skrótu RIPEMD160 ładunku wiadomości
+explanation: |
+  Koperta komunikatu Bitcoin P2P wykorzystuje specjalny mechanizm sumy kontrolnej, w którym 4-bajtowe pole sumy kontrolnej zawiera pierwsze 4 bajty skrótu256 zastosowane tylko do ładunku komunikatu. Zapewnia to weryfikację integralności danych ładunku podczas transmisji sieciowej. Pozostałe opcje są nieprawidłowe, ponieważ odwołują się do innych funkcji skrótu (pojedynczy SHA256, RIPEMD160) lub innych danych wejściowych (cała koperta, polecenie + ładunek) niż to, co Bitcoin faktycznie implementuje w swoim protokole sieciowym.

@@ -1,0 +1,8 @@
+question: Cosa succede alla privacy delle condizioni di spesa di una transazione P2SH nel tempo?
+answer: Le condizioni di spesa rimangono nascoste fino alla prima spesa, poi diventano permanentemente visibili on-chain
+wrong_answers:
+  - Le condizioni di spesa rimangono permanentemente private anche dopo aver effettuato più transazioni
+  - Le condizioni di spesa sono immediatamente visibili quando l'indirizzo P2SH viene creato per la prima volta
+  - Le condizioni di spesa diventano temporaneamente visibili durante la spesa, ma vengono di nuovo nascoste dopo
+explanation: |
+  P2SH garantisce la privacy nascondendo le condizioni di spesa effettive (script redeem) dietro un hash nella scriptPubKey. Inizialmente è visibile solo l'hash di 20 byte, che nasconde se si tratta di condizioni multisig, timelock o altre condizioni complesse. Tuttavia, quando l'output P2SH viene speso per la prima volta, il redeem script completo deve essere rivelato on-chain per la convalida, rendendo le condizioni di spesa permanentemente visibili a tutti i partecipanti alla rete. Questa rivelazione una tantum è il compromesso che P2SH fa tra privacy e funzionalità.

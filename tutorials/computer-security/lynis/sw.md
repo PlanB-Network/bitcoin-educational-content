@@ -893,7 +893,7 @@ Usisahau kuwasiliana na timu zako kabla ya utekelezaji: unahitaji kuwafanya wael
 
 
 
-Hatimaye, unaweza pia kulinganisha ** Lynis ** na zana zingine, ambazo kuna kadhaa. Iwapo ungependa kuelekea kwenye usimamizi mkuu huku ukisalia kuwa chanzo huria, ninapendekeza zana ya [Wazuh] (https://wazuh.com/).
+Hatimaye, unaweza pia kulinganisha ** Lynis ** na zana zingine, ambazo kuna kadhaa. Iwapo ungependa kuelekea kwenye usimamizi mkuu huku ukisalia kuwa chanzo huria, ninapendekeza zana ya [Wazuh](https://wazuh.com/).
 
 
 

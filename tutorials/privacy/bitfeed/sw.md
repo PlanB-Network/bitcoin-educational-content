@@ -1,19 +1,19 @@
 ---
 name: Bitfeed
-description: Chunguza msururu mkuu wa itifaki wa Bitcoin.
+description: Chunguza chain mkuu wa protocol ya Bitcoin.
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Bitfeed ni jukwaa la kuibua safu ya onchain ya itifaki ya Bitcoin. Ilianzishwa na mmoja wa wachangiaji wa mradi wa Mempool.space na inajitokeza hasa kwa mwonekano wake mdogo na urahisi wa matumizi.
+Bitfeed ni jukwaa la kuibua safu ya onchain ya protocol ya Bitcoin. Ilianzishwa na mmoja wa wachangiaji wa mradi wa Mempool.space na inajitokeza hasa kwa mwonekano wake mdogo na urahisi wa matumizi.
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
-Katika somo hili, tutaangalia zana hii, ambayo inakuwezesha kuchunguza shughuli zote na vizuizi kwenye mtandao.
+Katika somo hili, tutaangalia zana hii, ambayo inakuwezesha kuchunguza miamala yote na blocks kwenye mtandao.
 
 
 
@@ -21,15 +21,15 @@ Katika somo hili, tutaangalia zana hii, ambayo inakuwezesha kuchunguza shughuli 
 
 
 
-Bitfeed ni jukwaa ambalo linazingatia mambo makuu matatu:
+Bitfeed ni jukwaa ambalo linazingatia mambo matatu makuu:
 
 
 
 
 
-- Ushauri wa Blockchain**,
-- Utafutaji wa muamala**,
-- Kuona kumbukumbu**.
+- **Ushauri wa Blockchain**,
+- **Utafutaji wa muamala**,
+- **Kuona kumbukumbu**.
 
 
 
@@ -95,7 +95,7 @@ Muamala wa kwanza wa kitalu hiki unawakilisha shughuli ya **coinbase** ambayo hu
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Kwa chaguo-msingi, shughuli katika block inawakilishwa kulingana na vigezo viwili:
 

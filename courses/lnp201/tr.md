@@ -105,7 +105,7 @@ Lightning Network'un teknik mekanizmalarını ortaya çıkarmaya hazır mısın�
 
 
 
-Lightning Network, Bitcoin protokolü üzerine inşa edilmiş, hızlı ve düşük maliyetli işlemlere olanak sağlamayı amaçlayan bir ödeme kanalları ağıdır. Her bir işlemi Blockchain'e ayrı ayrı kaydetmek zorunda kalmadan, işlemlerin neredeyse anında ve minimum ücretlerle yapılabileceği katılımcılar arasında ödeme kanallarının oluşturulmasına olanak tanır. Böylece Lightning Network, Bitcoin'ün ölçeklenebilirliğini geliştirmeyi ve düşük değerli ödemeler için kullanılabilir hale getirmeyi amaçlamaktadır.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network), Bitcoin protokolü üzerine inşa edilmiş, hızlı ve düşük maliyetli işlemlere olanak sağlamayı amaçlayan bir [ödeme kanalları](https://planb.academy/resources/glossary/payment-channel) ağıdır. Her bir işlemi [Blockchain](https://planb.academy/resources/glossary/blockchain)'e ayrı ayrı kaydetmek zorunda kalmadan, işlemlerin neredeyse anında ve minimum ücretlerle yapılabileceği katılımcılar arasında ödeme kanallarının oluşturulmasına olanak tanır. Böylece Lightning Network, Bitcoin'ün [ölçeklenebilirliğini](https://planb.academy/resources/glossary/scalability) geliştirmeyi ve düşük değerli ödemeler için kullanılabilir hale getirmeyi amaçlamaktadır.
 
 
 "Ağ" yönünü keşfetmeden önce, Lightning'de **ödeme kanalı** kavramını, nasıl çalıştığını ve özelliklerini anlamak önemlidir. Bu, bu ilk bölümün konusudur.
@@ -120,7 +120,7 @@ Bir ödeme kanalı iki tarafın, burada **Alice** ve **Bob**, Lightning Network 
 ![LNP201](assets/en/001.webp)
 
 
-Örneğimizde, Alice'un kanalın kendi tarafında 100.000 satoshi ve Bob'ın 30.000 satoshi olmak üzere toplam 130.000 satoshi vardır ve bu da **kanal kapasitesini** oluşturur.
+Örneğimizde, Alice'un kanalın kendi tarafında 100.000 [satoshi](https://planb.academy/resources/glossary/satoshi-sat) ve Bob'ın 30.000 satoshi olmak üzere toplam 130.000 satoshi vardır ve bu da **[kanal kapasitesini](https://planb.academy/resources/glossary/lightning-channel-capacity)** oluşturur.
 
 
 **Ama Satoshi nedir?**
@@ -194,7 +194,7 @@ Bu bölüm biraz özel çünkü doğrudan Lightning'e değil, Bitcoin'a adanacak
 ### Bitcoin Adresler, Özel Anahtarlar ve Açık Anahtarlar
 
 
-Bir Bitcoin Address, kendisi de bir **özel anahtardan** hesaplanan bir **genel anahtardan** türetilen bir dizi karakterdir. Kesinlikle bildiğiniz gibi, bitcoinleri kilitlemek için kullanılır, bu da onları Wallet'imizde almaya eşdeğerdir.
+Bir Bitcoin Address, kendisi de bir **[özel anahtardan](https://planb.academy/resources/glossary/private-key)** hesaplanan bir **[genel anahtardan](https://planb.academy/resources/glossary/public-key)** türetilen bir dizi karakterdir. Kesinlikle bildiğiniz gibi, bitcoinleri kilitlemek için kullanılır, bu da onları Wallet'imizde almaya eşdeğerdir.
 
 
 Özel anahtar **asla paylaşılmaması gereken** gizli bir unsurdur, açık anahtar ve Address ise güvenlik riski olmaksızın paylaşılabilir (ifşa edilmeleri yalnızca gizliliğiniz için bir risk teşkil eder). İşte bu eğitim boyunca benimseyeceğimiz ortak bir gösterim:
@@ -738,7 +738,7 @@ Bu bölümde, bir ödeme kanalıyla doğrudan bağlı olmasalar bile Lightning N
 ### Ödeme Kanalları Ağı
 
 
-Lightning Network'te bir işlem, iki düğüm arasında bir fon transferine karşılık gelir. Önceki bölümlerde görüldüğü gibi, Lightning işlemlerini gerçekleştirmek için biriyle bir kanal açmak gerekir. Bu kanal, On-Chain bakiyesini geri almak için kapatmadan önce neredeyse sonsuz sayıda off-chain işlemine izin verir. Ancak bu yöntemin, para almak veya göndermek için diğer kişiyle doğrudan bir kanal gerektirmesi gibi bir dezavantajı vardır, bu da her kanal için bir açılış işlemi ve bir kapanış işlemi anlamına gelir. Bu kişiyle çok sayıda ödeme yapmayı planlıyorsam, bir kanal açmak ve kapatmak uygun maliyetli hale gelir. Tersine, yalnızca birkaç Lightning işlemi gerçekleştirmem gerekiyorsa, doğrudan bir kanal açmak avantajlı değildir, çünkü sınırlı sayıda off-chain işlemi için bana 2 On-Chain işlemine mal olacaktır. Bu durum, örneğin, geri dönmeyi planlamadan bir satıcıda Lightning ile ödeme yapmak istendiğinde ortaya çıkabilir.
+Lightning Network'te bir işlem, iki düğüm arasında bir fon transferine karşılık gelir. Önceki bölümlerde görüldüğü gibi, Lightning işlemlerini gerçekleştirmek için biriyle bir kanal açmak gerekir. Bu kanal, On-Chain bakiyesini geri almak için kapatmadan önce neredeyse sonsuz sayıda [off-chain](https://planb.academy/resources/glossary/offchain) işlemine izin verir. Ancak bu yöntemin, para almak veya göndermek için diğer kişiyle doğrudan bir kanal gerektirmesi gibi bir dezavantajı vardır, bu da her kanal için bir açılış işlemi ve bir kapanış işlemi anlamına gelir. Bu kişiyle çok sayıda ödeme yapmayı planlıyorsam, bir kanal açmak ve kapatmak uygun maliyetli hale gelir. Tersine, yalnızca birkaç Lightning işlemi gerçekleştirmem gerekiyorsa, doğrudan bir kanal açmak avantajlı değildir, çünkü sınırlı sayıda off-chain işlemi için bana 2 On-Chain işlemine mal olacaktır. Bu durum, örneğin, geri dönmeyi planlamadan bir satıcıda Lightning ile ödeme yapmak istendiğinde ortaya çıkabilir.
 
 
 Bu sorunu çözmek için Lightning Network, bir ödemenin çeşitli kanallar ve aracı düğümler üzerinden yönlendirilmesine olanak tanır, böylece diğer kişiyle doğrudan bir kanal olmadan bir işlem yapılmasını sağlar.
@@ -769,7 +769,7 @@ Alice'ün Bob'e **50.000 satoshis** göndermek istediğini varsayalım:
 ![LNP201](assets/en/038.webp)
 
 
-Böylece ödeme, her bir kanaldaki likidite hareketi yoluyla Bob'a yönlendirilir. İşlemin sonunda, Alice 50,000 Sats'e sahip olur. Başlangıçta 100.000'i olduğu için gerçekten de 50.000 Sats transfer etmiştir. Bob ise kendi tarafında ilave 50.000 Sats'e sahip olur. Suzie (ara düğüm) için bu işlem nötrdür: başlangıçta Alice ile olan kanalında 30.000 Sats ve Bob ile olan kanalında 250.000 Sats olmak üzere toplam 280.000 Sats vardı. Operasyondan sonra, Alice ile olan kanalında 80.000 Sats ve Bob ile olan kanalında 200.000 Sats bulundurmaktadır, bu da başlangıçtaki toplamla aynıdır.
+Böylece ödeme, her bir kanaldaki [likidite](https://planb.academy/resources/glossary/liquidity-lightning) hareketi yoluyla Bob'a yönlendirilir. İşlemin sonunda, Alice 50,000 Sats'e sahip olur. Başlangıçta 100.000'i olduğu için gerçekten de 50.000 Sats transfer etmiştir. Bob ise kendi tarafında ilave 50.000 Sats'e sahip olur. Suzie (ara düğüm) için bu işlem nötrdür: başlangıçta Alice ile olan kanalında 30.000 Sats ve Bob ile olan kanalında 250.000 Sats olmak üzere toplam 280.000 Sats vardı. Operasyondan sonra, Alice ile olan kanalında 80.000 Sats ve Bob ile olan kanalında 200.000 Sats bulundurmaktadır, bu da başlangıçtaki toplamla aynıdır.
 
 
 Dolayısıyla bu transfer, transfer yönündeki **mevcut likidite** ile sınırlıdır.
@@ -958,7 +958,7 @@ Bu sürecin Alice, Suzie ve Bob ile örneğimizde nasıl işlediği aşağıda a
 ![LNP201](assets/en/048.webp)
 
 
-**Sırrın oluşturulması**: Bob _s_ (ön görüntü) olarak belirtilen rastgele bir sır üretir ve _h_ olarak belirtilen Hash fonksiyonu ile _r_ olarak belirtilen Hash'ünü hesaplar. Elimizde:
+**Sırrın oluşturulması**: Bob _s_ (ön görüntü) olarak belirtilen rastgele bir sır üretir ve _h_ olarak belirtilen [Hash fonksiyonu](https://planb.academy/resources/glossary/hash-function) ile _r_ olarak belirtilen Hash'ünü hesaplar. Elimizde:
 
 
 $$
@@ -1116,7 +1116,7 @@ Lightning Network'in bu topolojisinde bile, herhangi bir anda kanallardaki likid
 ### Ağ Haritası Güncellemesi
 
 
-Ağ haritalarını güncel tutmak için düğümler, "**_gossip_**" adı verilen bir algoritma aracılığıyla düzenli olarak Exchange mesajları gönderir. Bu, ağdaki tüm düğümlere salgın bir şekilde bilgi yaymak için kullanılan ve birkaç iletişim döngüsünde kanalların Exchange ve Global State senkronizasyonunu sağlayan dağıtılmış bir algoritmadır. Her düğüm bilgiyi rastgele seçilen veya seçilmeyen bir veya daha fazla komşuya yayar, bunlar da bilgiyi diğer komşulara yayar ve böylece küresel olarak senkronize bir durum elde edilene kadar devam eder.
+Ağ haritalarını güncel tutmak için düğümler, "**_[gossip](https://planb.academy/resources/glossary/gossip)_**" adı verilen bir algoritma aracılığıyla düzenli olarak Exchange mesajları gönderir. Bu, ağdaki tüm düğümlere salgın bir şekilde bilgi yaymak için kullanılan ve birkaç iletişim döngüsünde kanalların Exchange ve Global State senkronizasyonunu sağlayan dağıtılmış bir algoritmadır. Her düğüm bilgiyi rastgele seçilen veya seçilmeyen bir veya daha fazla komşuya yayar, bunlar da bilgiyi diğer komşulara yayar ve böylece küresel olarak senkronize bir durum elde edilene kadar devam eder.
 
 
 Lightning düğümleri arasında değiş tokuş edilen 2 ana mesaj aşağıdaki gibidir:
@@ -1228,7 +1228,7 @@ Bir sonraki bölümde, Lightning Network'de kullanılan diğer bazı araçlara e
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
 
 
-Bu bölümde, Lightning **faturalarının** işleyişine, yani alıcı düğüm tarafından gönderici düğüme gönderilen ödeme taleplerine daha yakından bakacağız. Amaç, Lightning'de nasıl ödeme yapılacağını ve ödeme alınacağını anlamaktır. Ayrıca klasik faturalara 2 alternatifi de tartışacağız: LNURL ve Keysend.
+Bu bölümde, Lightning **faturalarının** işleyişine, yani alıcı düğüm tarafından gönderici düğüme gönderilen ödeme taleplerine daha yakından bakacağız. Amaç, Lightning'de nasıl ödeme yapılacağını ve ödeme alınacağını anlamaktır. Ayrıca klasik faturalara 2 alternatifi de tartışacağız: [LNURL](https://planb.academy/resources/glossary/lnurl) ve Keysend.
 
 
 ![LNP201](assets/en/068.webp)
@@ -1447,7 +1447,7 @@ Alıcının satıcıya 30.000 Sats göndermek istediğini ve ödemenin yönlendi
 
 
 
-- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+] (https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
+- **Üçgen açılış**: Kanalları işbirliği içinde açmak isteyen düğümler için platformlar mevcuttur ve her birinin anında gelen ve giden likiditeden yararlanmasına olanak tanır. Örneğin, [LightningNetwork+](https://lightningnetwork.plus/) bu hizmeti sunmaktadır. Alice, Bob ve Suzie 100.000 Sats ile bir kanal açmak isterse, Alice'nin Bob'a, Bob'un Suzie'ye ve Suzie'nin Alice'ye bir kanal açması için bu platform üzerinde anlaşabilirler. Bu şekilde, her biri 100.000 Sats giden likiditeye ve 100.000 Sats gelen likiditeye sahip olurken, yalnızca 100.000 Sats'i kilitlemiş olur.
 
 
 ![LNP201](assets/en/073.webp)
@@ -1471,7 +1471,7 @@ Son olarak, hedefleri işlenen ödeme sayısını ve toplanan ücretleri en üst
 ### Loop Out Hizmeti
 
 
-Lightning Labs tarafından sunulan [Loop Out] (https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
+Lightning Labs tarafından sunulan [Loop Out](https://lightning.engineering/loop/) hizmeti, Bitcoin Blockchain'deki fonları geri alırken likiditenin kanalın karşı tarafına taşınmasına olanak tanır. Örneğin, Alice Lightning aracılığıyla bir döngü düğümüne 1 milyon satoshi gönderir ve bu düğüm de bu fonları On-Chain bitcoinleri olarak kendisine iade eder. Bu, kanalını her iki tarafta da 1 milyon satoshi ile dengeleyerek ödeme alma kapasitesini optimize eder.
 
 
 ![LNP201](assets/en/075.webp)
@@ -1524,7 +1524,7 @@ Bu eğitimin amacı size Lightning Network hakkında kapsamlı ve teknik bir anl
 - **Kanal Açma**: Kanalın oluşturulması, fonları 2/2 çoklu imza Address'te kilitleyen bir Bitcoin işlemi aracılığıyla yapılır. Bu para yatırma işlemi Blockchain üzerindeki Lightning kanalını temsil eder.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1591,6 +1591,10 @@ Yıldırım'da ödemelerin sorunsuz akışını sağlamak için likidite yöneti
 
 ![LNP201](assets/en/084.webp)
 
+
+Artık Lightning Network’ün teorik işleyişini anladığınıza göre, pratiğe geçebilir ve kullanımınızda daha fazla özerklik kazanmak için ilk Lightning düğümünüzü kurabilirsiniz. Bunun için LNP 202 kursunu takip edin:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # Son Bölüm
 

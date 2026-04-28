@@ -1,0 +1,8 @@
+question: Wat is de belangrijkste privacyafweging die wordt geïntroduceerd bij de migratie van een zelfbeheerde LDK-implementatie naar de cloudgebaseerde architectuur van Breez SDK?
+answer: Greenlight krijgt potentieel inzicht in betalingsbestemmingen en activiteiten voor het genereren van facturen via cloudgebaseerde routering
+wrong_answers:
+  - "Prive-sleutels worden opgeslagen op de servers van Blockstream in plaats van lokaal op het apparaat van de gebruiker"
+  - Informatie over de kanaaltoestand wordt openbaar zichtbaar op de Lightning Network grafiek via Greenlight nodes
+  - LSP-diensten kunnen nu alle on-chain transacties controleren en koppelen aan Lightning-betalingspatronen
+explanation: |
+  Het juiste antwoord identificeert de belangrijkste verslechtering van de privacy: routering in de cloud stelt Greenlight in staat om mogelijk betalingsbestemmingen te observeren, terwijl het genereren van facturen in de cloud de blootstelling aan informatie uitbreidt tot meer dan wat traditionele LSP-only architecturen onthulden. De foute antwoorden zijn onjuist omdat: privé sleutels onder gebruikerscontrole blijven ondanks de cloudarchitectuur; kanaaltoestanden niet publiekelijk zichtbaar worden gemaakt door routering; en LSP's geen extra on-chain transactiemonitoringmogelijkheden krijgen door deze architecturale verandering.

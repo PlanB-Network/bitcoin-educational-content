@@ -63,7 +63,7 @@ Speed Wallet finns som en mobilapplikation på plattformarna Android (Google Pla
 
 
 
-Du hittar länkar till nedladdningsplattformar på den officiella webbplatsen [Speed Wallet] (https://speed.app).
+Du hittar länkar till nedladdningsplattformar på den officiella webbplatsen [Speed Wallet](https://speed.app).
 
 
 
@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Förutom mobilapplikationen erbjuder Speed Wallet också ett [Chrome Web-tillägg] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan lägga till i din dators Google Chrome-webbläsare för säkra transaktioner.
+Förutom mobilapplikationen erbjuder Speed Wallet också ett [Chrome Web-tillägg](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan lägga till i din dators Google Chrome-webbläsare för säkra transaktioner.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet lägger särskild vikt vid integration och användning av Bitcoin o
 
 
 
-Från [Speed Business] (https://www.tryspeed.com/) har du en enhetlig betalningsaggregator för att acceptera Bitcoin, som drivs av Lightning Network som du kan använda i din butik, online eller fysisk.
+Från [Speed Business](https://www.tryspeed.com/) har du en enhetlig betalningsaggregator för att acceptera Bitcoin, som drivs av Lightning Network som du kan använda i din butik, online eller fysisk.
 
 
 

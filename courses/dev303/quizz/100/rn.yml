@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’ubwubatsi k’intango gatuma LDK ikora mu bidukikije vy’umucukumbuzi wa WebAssembly aho ama node ya Lightning ya kera adashobora gukora?
+answer: Filozofiya ya LDK y’uguhingura ata n’umwe ahamagaye iratuma ikora ata n’umwe ashobora gushika ku nzira z’amadosiye, ku nzira z’urubuga, canke ku nzira z’ubuhinga .
+wrong_answers:
+  - "Imiterere y'ububiko bw'ibitabo bwa LDK Rust itanga ubwo nyene ubucuti bwa WebAssembly biciye ku bimenyetso vy'ugukoranya Rust-to-WASM"
+  - "Ubwubatsi bwa LDK bushingiye ku bintu burakuraho ivy'uguhuza bihoraho kandi bushobora gukora vyose biciye mu nzira z'ugusaba-inyishu za HTTP"
+  - "Ubufatanye bwa LDK bugabanya ikoreshwa ry'ubwenge bihagije kugira ngo bushobore gushitsa ingorane n'imipaka y'ibikoresho vya WebAssembly"
+explanation: |
+  Igishushanyo ca LDK kitagiramwo uguhamagara ni co nyene gishobora gutuma umucukumbuzi ashobora gukorana neza. Ivyuma vya kera vy’umuravyo vyishingikiriza ku guhamagara kwa sisitemu ku buryo butaziguye kugira ngo bikoreshe urubuga, I/O ya dosiye, n’ugukorana n’ibindi, ivyo ibidukikije vya WebAssembly bibuza kubera imvo z’umutekano. LDK irakuraho ivyo bishingiyeko, igatuma abahinguzi batanga ibikorwa bihuye n’umucukumbuzi bakoresheje WebSockets ku bijanye n’ugukorana n’umucukumbuzi APIs kugira ngo bikomeze kandi bibeho ataco bimaze, mu gihe bagumana ivyubahiriza amategeko ya Lightning.

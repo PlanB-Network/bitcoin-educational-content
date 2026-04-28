@@ -1,17 +1,17 @@
 ---
 name: Ashigaru
-description: fork kutoka Samourai Wallet ili kulinda, kudhibiti na kuchanganya bitcoins zako
+description: fork kutoka Samourai Wallet ili kulinda, kudhibiti na kuchanganya bitcoin zako
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Ashigaru ni programu ya Bitcoin ya simu ya wallet ambayo inafuata kutoka kwa mradi wa Samourai Wallet, lakini kwa njia mpya. Programu hii ilizaliwa katika muktadha fulani: mnamo Aprili 2024, waanzilishi wa Samourai Wallet walikamatwa na mamlaka ya Amerika, na seva zao zilikamatwa. Ingawa programu ya Samurai yenyewe ilibaki kutumika, kwa sasa haijatunzwa tena. Ashigaru ni toleo lisilolipishwa la fork la Samurai Wallet, linalodumishwa na timu isiyojulikana ili kuhakikisha utendakazi wa Samurai uendelevu na kulinda falsafa yake asili: kutetea faragha na uhuru wa watumiaji wa Bitcoin.
+Ashigaru ni programu ya Bitcoin ya simu ya wallet ambayo inafuata kutoka kwa mradi wa Samourai Wallet, lakini kwa njia mpya. Programu hii ilizaliwa katika muktadha fulani: mnamo Aprili 2024, waanzilishi wa Samourai Wallet walikamatwa na mamlaka ya Amerika, na server zao zilikamatwa. Ingawa programu ya Samurai yenyewe ilibaki kutumika, kwa sasa haijatunzwa tena. Ashigaru ni toleo lisilolipishwa la fork la Samurai Wallet, linalodumishwa na timu isiyojulikana ili kuhakikisha utendakazi wa Samurai uendelevu na kulinda falsafa yake asili: kutetea faragha na uhuru wa watumiaji wa Bitcoin.
 
 
 
-Ashigaru huchukua sehemu kubwa ya DNA ya Samourai: kiolesura sawa, mbinu ya kujilinda, chanzo huria na kuzingatia faragha. Nambari ya kuthibitisha inasambazwa chini ya leseni ya GNU GPLv3, ambayo inahakikisha kwamba mtu yeyote anaweza kukagua, kurekebisha au kusambaza upya programu.
+Ashigaru huchukua sehemu kubwa ya DNA ya Samourai: kiolesura sawa, mbinu za kujilinda, chanzo huria, na kuzingatia faragha. Nambari ya kuthibitisha inasambazwa chini ya leseni ya GNU GPLv3, ambayo inahakikisha kwamba mtu yeyote anaweza kukagua, kurekebisha, au kusambaza upya programu.
 
 
 
@@ -20,11 +20,11 @@ Programu ya Ashigaru inaunganisha seti ya zana mahiri za usiri na usimamizi wa U
 
 
 
-- Whirlpool**, itifaki ya sanjari kulingana na Zerolink, inayokuwezesha kuvunja viungo vya kubainisha kati ya maingizo ya muamala na kuondoka, bila kupoteza mamlaka juu ya pesa zako.
-- PayNym**, ambayo hutumia misimbo ya malipo inayoweza kutumika tena (BIP47), ambayo sasa inawakilishwa kupitia mfumo wa avatar wa "*Pepehash*".
-- Ricochet**, kipengele kinachoongeza miruko ya kati kwa shughuli ili kuzifanya kuwa ngumu zaidi kuzifuatilia.
+- **Whirlpool**, itifaki ya sanjari kulingana na Zerolink, inayokuwezesha kuvunja viungo vya kubainisha kati ya maingizo ya muamala na kuondoka, bila kupoteza mamlaka juu ya pesa zako.
+- **PayNym**, ambayo hutumia misimbo ya malipo inayoweza kutumika tena (BIP47), ambayo sasa inawakilishwa kupitia mfumo wa avatar wa "*Pepehash*".
+- **Ricochet**, kipengele kinachoongeza miruko ya kati kwa shughuli ili kuzifanya kuwa ngumu zaidi kuzifuatilia.
 - Na bila shaka ***Coin Control*** ili kuchagua, kugandisha na kuweka lebo kwenye UTXO zako kwa usahihi.
-- Matumizi ya Kundi***, ili kupunguza gharama kwa kupanga malipo kadhaa katika shughuli moja.
+- **Matumizi ya Kundi***, ili kupunguza gharama kwa kupanga malipo kadhaa katika shughuli moja.
 - **Njia ya Siri**, ambayo huficha programu kwenye simu yako nyuma ya kizindua dummy ili isionekane wakati wa ukaguzi wa kimwili wa simu yako.
 - Zana za matumizi ya hali ya juu ili kuboresha usiri wako (payjoin, stonewall...).
 - Mfumo wa urejeshaji ulioboreshwa kwa kutumia Nenosiri BIP39.
@@ -36,8 +36,7 @@ Programu ya Ashigaru inaunganisha seti ya zana mahiri za usiri na usimamizi wa U
 
 
 
-Kwa hivyo, Ashigaru inalenga watumiaji wanaofahamu masuala yanayohusu ufuatiliaji wa miamala kwenye Bitcoin. Iwe wewe ni mtumiaji anayejali faragha, mtaalam wa bitcoin aliyejitolea kujilinda, au mtu aliye katika hatari ya kuongezeka kwa ufuatiliaji, programu hii ya wallet hukupa zana unazohitaji ili kurejesha udhibiti wa shughuli zako kwenye Bitcoin.
-
+Kwa hivyo, Ashigaru inalenga watumiaji wanaofahamu masuala yanayohusu ufuatiliaji wa miamala kwenye Bitcoin. Iwe wewe ni mtumiaji anayejali faragha, mtaalam wa Bitcoin aliyejitolea kujilinda, au mtu aliye katika hatari ya kuongezeka kwa ufuatiliaji, programu hii ya wallet hukupa zana unazohitaji ili kurejesha udhibiti wa miamala yako kwenye Bitcoin.
 
 
 Ashigaru inapatikana katika toleo la simu kupitia programu yake, ambayo tutaichunguza katika somo hili. Lakini pia inaweza kutumika kwenye Kompyuta na ***Ashigaru Terminal***, ambayo tutaanzisha katika mafunzo yajayo.
@@ -48,8 +47,7 @@ Ashigaru inapatikana katika toleo la simu kupitia programu yake, ambayo tutaichu
 
 
 
-Katika somo hili, ningependa kukujulisha matumizi ya kimsingi ya Ashigaru: usakinishaji, unganisho kwenye Dojo, chelezo, kupokea na kutuma bitcoins. Zana za kina zitawasilishwa katika mafunzo mengine maalum.
-
+Katika somo hili, ningependa kukujulisha matumizi ya msingi ya Ashigaru: usakinishaji, unganisho na Dojo, chelezo, kupokea, na kutuma bitcoin. Zana za kina zitatolewa katika mafunzo mengine maalum.
 
 
 ## 1. Mahitaji ya Ashigaru
@@ -68,15 +66,15 @@ Ili kupakua faili ya `.apk` kupitia Tor, utahitaji kivinjari chenye uwezo wa kuf
 
 
 
-Simu mahiri za hivi karibuni huzuia usakinishaji wa programu kutoka kwa vyanzo visivyojulikana kwa chaguomsingi. Utahitaji kuwezesha chaguo hili kwa Kivinjari cha Tor kwa muda katika mipangilio ya kifaa chako ili kuruhusu usakinishaji. Baada ya programu kusakinishwa, kumbuka kuzima kipengele hiki ili kuimarisha usalama wa simu yako.
+Simu mahiri za hivi karibuni huzuia usakinishaji wa programu kutoka vyanzo visivyojulikana kwa chaguomsingi. Utahitaji kuwezesha chaguo hili kwa Kivinjari cha Tor kwa muda katika mipangilio ya kifaa chako ili kuruhusu usakinishaji. Baada ya programu kusakinishwa, kumbuka kuzima kipengele hiki ili kuimarisha usalama wa simu yako.
 
 
 
-Sharti lingine muhimu la kutumia Ashigaru ni nodi ya Bitcoin Dojo. Kwa sababu za usalama na uhuru, timu ya Ashigaru haitunzi seva iliyo katikati ili kuunganisha programu yako. Kwa hivyo utahitaji kuendesha mfano wako wa Dojo, au uunganishe kwa unaoaminika.
+Sharti lingine muhimu la kutumia Ashigaru ni node ya Bitcoin Dojo. Kwa sababu za usalama na uhuru, timu ya Ashigaru haitunzi server iliyo katikati ili kuunganisha programu yako. Kwa hivyo utahitaji kuendesha mfano wako wa Dojo, au uunganishe kwa unaoaminika.
 
 
 
-Dojo huwezesha programu yako ya Ashigaru kushauriana na maelezo ya blockchain, kuona salio la anwani yako na kutangaza miamala yako kwenye mtandao wa Bitcoin.
+Dojo huwezesha programu yako ya Ashigaru kushauriana na maelezo ya blockchain, kuona salio la anwani yako na kutangaza miamala yako kwenye Bitcoin Network .
 
 
 
@@ -106,7 +104,7 @@ Kwenye simu yako, fungua Kivinjari cha Tor na uende kwenye [tovuti rasmi ya Ashi
 
 
 
-Kabla ya kusakinisha programu kwenye kifaa chako, tutaangalia uhalisi na uadilifu wake. Hii ni hatua muhimu sana, hasa wakati wa kusakinisha programu moja kwa moja kutoka kwa faili ya `.apk'.
+Kabla ya kusakinisha programu kwenye kifaa chako, tutaangalia uhalisi na uadilifu wake. Hii ni hatua muhimu sana, hasa wakati wa kusakinisha programu moja kwa moja kutoka kwenye faili ya `.apk'.
 
 
 
@@ -142,7 +140,7 @@ Hata hivyo, ikiwa hitilafu inaonekana katika hatua hii, inamaanisha kuwa sahihi 
 
 
 
-Keybase imekupa heshi ya programu. Sasa tutaangalia kwamba heshi ya faili ya `.apk` uliyopakua inalingana na ile iliyothibitishwa kwenye Keybase. Ili kufanya hivyo, nenda kwenye [HASH FILE ONLINE](https://hash-file.online/).
+Keybase imekupa hash ya programu. Sasa tutaangalia kwamba hash ya faili ya `.apk` uliyopakua inalingana na ile iliyothibitishwa kwenye Keybase. Ili kufanya hivyo, nenda kwenye [HASH FILE ONLINE](https://hash-file.online/).
 
 
 
@@ -153,7 +151,7 @@ Keybase imekupa heshi ya programu. Sasa tutaangalia kwamba heshi ya faili ya `.a
 Bofya kwenye kitufe cha `BROWSE...` na uchague faili ya `.apk` iliyopakuliwa katika hatua ya 2.1.
 
 
-Kisha chagua kitendakazi cha heshi `SHA-256`, na ubofye `CALCULATE HASH` ili kukokotoa heshi ya faili yako.
+Kisha chagua kitendakazi cha hash `SHA-256`, na ubofye `CALCULATE HASH` ili kukokotoa hash ya faili yako.
 
 
 
@@ -161,7 +159,7 @@ Kisha chagua kitendakazi cha heshi `SHA-256`, na ubofye `CALCULATE HASH` ili kuk
 
 
 
-Tovuti itaonyesha heshi ya faili yako ya `.apk`. Linganisha na heshi uliyoithibitisha kwenye Keybase.io. Ikiwa heshi mbili zinafanana, ukaguzi wa uhalisi na uadilifu umefaulu. Sasa unaweza kuendelea kusakinisha programu.
+Tovuti itaonyesha hash ya faili yako ya `.apk`. Linganisha na hash uliyoithibitisha kwenye Keybase.io. Ikiwa hash mbili zinafanana, ukaguzi wa uhalisi na uadilifu umefaulu. Sasa unaweza kuendelea kusakinisha programu.
 
 
 
@@ -217,11 +215,11 @@ Sasa tutaunda kwingineko mpya ya Bitcoin. Bonyeza kitufe cha `Unda wallet mpya`.
 
 
 
-Ashigaru inahitaji passphrase BIP39. Chagua passphrase yako na uiweke katika sehemu zinazofaa. Ni lazima iwe ndefu na nasibu iwezekanavyo ili kupinga shambulio la nguvu-katili.
+Ashigaru inahitaji passphrase BIP39. Chagua passphrase yako na uiweke katika sehemu zinazofaa. Ni lazima iwe ndefu na nasibu iwezekanavyo ili kupinga brute force attack.
 
 
 
-Weka nakala rudufu ya passphrase hii mara moja. Hii ni hatua muhimu sana: ukipoteza simu yako, **ikiwa huna tena passphrase hii, hutaweza tena kufikia bitcoins zako** zilizohifadhiwa na Ashigaru wallet yako. passphrase hii hiyo pia inatumika kusimba faili ya uokoaji ya wallet kwa njia fiche.
+Weka nakala rudufu ya passphrase hii mara moja. Hii ni hatua muhimu sana: ukipoteza simu yako, **ikiwa huna tena passphrase hii, hutaweza tena kufikia bitcoin zako** zilizohifadhiwa na Ashigaru wallet yako. passphrase hii hiyo pia inatumika kusimba faili ya uokoaji ya wallet kwa njia fiche.
 
 
 
@@ -239,7 +237,7 @@ Mara tu unapoingiza passphrase yako, bofya `INAYOFUATA`.
 
 
 
-Kisha chagua msimbo wa PIN. Msimbo huu utatumika kufungua Ashigaru wallet yako, na kuilinda dhidi ya ufikiaji wa kimwili ambao haujaidhinishwa. Haihusiki katika utoaji wa kriptografia wa funguo zako za wallet. Hii ina maana kwamba, hata bila kujua msimbo wa PIN, mtu yeyote aliye na maneno yako ya mnemonic na passphrase ataweza kurejesha upatikanaji wa bitcoins zako.
+Kisha chagua msimbo wa PIN. Msimbo huu utatumika kufungua Ashigaru wallet yako, na kuilinda dhidi ya ufikiaji wa kimwili ambao haujaidhinishwa. Haihusiki katika utoaji wa cryptography ya funguo zako za wallet. Hii ina maana kwamba, hata bila kujua msimbo wa PIN, mtu yeyote aliye na maneno yako ya mnemonic na passphrase ataweza kurejesha upatikanaji wa bitcoin zako.
 
 
 
@@ -251,11 +249,11 @@ Chagua PIN ndefu na nasibu. Kumbuka kuweka nakala rudufu katika eneo tofauti na 
 
 
 
-Pindi msimbo wa PIN unapoundwa, Ashigaru ataonyesha maneno ya mnemonic ya wallet yako. Onyo: kifungu hiki, pamoja na passphrase yako, kinakupa ufikiaji kamili wa bitcoins zako. Mtu yeyote anayeishikilia anaweza kumiliki pesa zako, hata kama hana idhini ya kufikia simu yako. Mfuatano huu wa maneno 12 unaweza kutumika kurejesha wallet yako iwapo simu yako itapotea, kuibiwa au kuharibika. Kwa hiyo ni muhimu kuihifadhi kwa uangalifu mkubwa juu ya kati ya kimwili (karatasi au chuma).
+Pindi msimbo wa PIN unapoundwa, Ashigaru ataonyesha maneno ya mnemonic ya wallet yako. Onyo: kifungu hiki, pamoja na passphrase yako, kinakupa ufikiaji kamili wa bitcoin zako. Mtu yeyote anayeishikilia anaweza kumiliki pesa zako, hata kama hana idhini ya kufikia simu yako. Mfuatano huu wa maneno 12 unaweza kutumika kurejesha wallet yako iwapo simu yako itapotea, kuibiwa au kuharibika. Kwa hiyo ni muhimu kuihifadhi kwa uangalifu mkubwa juu ya kati ya kimwili (karatasi au chuma).
 
 
 
-Kamwe usihifadhi kifungu hiki katika mfumo wa dijitali, au una hatari ya kufichua pesa zako kwa wizi. Kulingana na mkakati wako wa usalama, unaweza kuunda nakala kadhaa halisi, lakini usiigawanye. Weka maneno katika mpangilio wake halisi, na uhakikishe kuwa yamehesabiwa.
+Kamwe usihifadhi kifungu hiki katika mfumo wa kidijitali, au una hatari ya kufichua pesa zako kwa wizi. Kulingana na mkakati wako wa usalama, unaweza kuunda nakala kadhaa halisi, lakini usiizigawanye. Weka maneno katika mpangilio wake halisi, na uhakikishe kuwa yamehesabiwa.
 
 
 
@@ -285,7 +283,7 @@ Kisha Ashigaru anakuomba uthibitishe tena passphrase yako. Chukua fursa hii kuan
 
 
 
-Inayofuata inakuja hatua ya kuunganisha kwenye Dojo yako. Kama ilivyoelezwa katika utangulizi, Ashigaru lazima aunganishwe na Dojo ili kuingiliana na mtandao wa Bitcoin.
+Inayofuata inakuja hatua ya kuunganisha kwenye Dojo yako. Kama ilivyoelezwa katika utangulizi, Ashigaru lazima aunganishwe na Dojo ili kuingiliana na Bitcoin network.
 
 
 
@@ -321,7 +319,7 @@ Kisha utapelekwa kwenye ukurasa wa nyumbani wa kwingineko yako.
 
 
 
-Kabla ya kwenda mbali zaidi, ninapendekeza ufanye urejeshaji wa majaribio wakati wallet bado haina bitcoin. Hii itakuwezesha kuangalia kuwa nakala zako za karatasi zinafanya kazi ipasavyo. Ili kujua jinsi gani, fuata mafunzo haya:
+Kabla ya kwenda mbali zaidi, ninapendekeza ufanye urejeshaji wa majaribio wakati wallet bado haina bitcoin. Hii itakuwezesha kuhakikisha kuwa nakala zako za karatasi zinafanya kazi ipasavyo. Ili kujua jinsi gani, fuata mafunzo haya:
 
 
 
@@ -355,7 +353,7 @@ Kila programu ghushi inayotolewa ina njia maalum ya kufungua kiolesura halisi ch
 
 
 
-Kigezo cha pili muhimu cha kuwezesha ni [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Chaguo hili hukuruhusu kuongeza gharama ya shughuli ikiwa itakwama kwenye kumbukumbu kwa sababu gharama ni ya chini sana. Unaweza kuiwasha kupitia menyu ya `Shughuli > Tumia kwa kutumia RBF`.
+Kigezo cha pili muhimu cha kuwezesha ni [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Chaguo hili hukuruhusu kuongeza gharama ya shughuli ikiwa itakwama kwenye kumbukumbu kwa sababu gharama ni ya chini sana. Unaweza kuiwasha kupitia menyu ya `Muamala > Tumia kwa kutumia RBF`.
 
 
 
@@ -367,7 +365,7 @@ Kidokezo: Unaweza kubadilisha kitengo cha kuonyesha cha kwingineko yako kutoka `
 
 
 
-## 5. Pokea bitcoins kwenye Ashigaru
+## 5. Pokea bitcoin kwenye Ashigaru
 
 
 
@@ -379,7 +377,7 @@ Sasa kwa kuwa kwingineko yako inafanya kazi, unaweza kupokea satss. Ili kufanya 
 
 
 
-Kisha Ashigaru hukuonyesha anwani ya kwanza ya kupokea ambayo haijatumika katika wallet yako, ili kuzuia utumiaji wa anwani (utumiaji wa anwani ni utaratibu mbaya sana kwa faragha yako). Kisha unaweza kusambaza anwani hii kwa mtu au huduma inayohitaji kukutumia bitcoins.
+Kisha Ashigaru hukuonyesha anwani ya kwanza ya kupokea ambayo haijatumika katika wallet yako, ili kuzuia utumiaji wa address (utumiaji wa anwani ni utaratibu mbaya sana kwa faragha yako). Kisha unaweza kusambaza address hii kwa mtu au huduma inayohitaji kukutumia bitcoin.
 
 
 
@@ -395,11 +393,11 @@ Mara tu muamala utakapotangazwa kwenye mtandao, utaonekana kiotomatiki kwenye uk
 
 
 
-## 6. Tuma bitcoins na Ashigaru
+## 6. Tuma bitcoin na Ashigaru
 
 
 
-Sasa kwa kuwa una bitcoins kwenye Ashigaru wallet yako, unaweza pia kuzituma. Ili kufanya hivyo, bonyeza kitufe cha `+` chini kulia, kisha uchague kitufe chekundu cha `Tuma`.
+Sasa kwa kuwa una bitcoin kwenye Ashigaru wallet yako, unaweza pia kuzituma. Ili kufanya hivyo, bonyeza kitufe cha `+` chini kulia, kisha uchague kitufe chekundu cha `Tuma`.
 
 
 
@@ -415,7 +413,7 @@ Kisha chagua akaunti ambayo ungependa kufanya matumizi. Kwa sasa, bado hatujashu
 
 
 
-Weka maelezo yako ya muamala: kiasi kitakachotumwa na anwani ya Bitcoin ya mpokeaji.
+Weka maelezo yako ya muamala: kiasi kitakachotumwa na address ya Bitcoin ya mpokeaji.
 
 
 
@@ -450,7 +448,7 @@ Kisha utapelekwa kwenye ukurasa wa muhtasari unaoonyesha maelezo yote ya muamala
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Mara tu ukiangalia maelezo yote, tumia kishale cha kijani kutuma bitcoins. Shikilia mshale chini, kisha uuburute kulia ili kuthibitisha upakiaji.
+Mara tu ukiangalia maelezo yote, tumia kishale cha kijani kutuma bitcoin. Shikilia mshale chini, kisha uuburute kulia ili kuthibitisha upakiaji.
 
 
 
@@ -458,7 +456,7 @@ Mara tu ukiangalia maelezo yote, tumia kishale cha kijani kutuma bitcoins. Shiki
 
 
 
-Muamala wako umetangazwa kwenye mtandao wa Bitcoin.
+Muamala wako umetangazwa kwenye Bitcoin Network .
 
 
 
@@ -470,7 +468,7 @@ Muamala wako umetangazwa kwenye mtandao wa Bitcoin.
 
 
 
-Urejeshaji wa Ashigaru wallet hutofautiana kidogo na ule wa Bitcoin wallet ya kawaida, kwani programu hutumia mbinu sawa na Samurai Wallet. Ukipoteza ufikiaji wa wallet yako (iwe kwa sababu umesahau PIN yako, uliiondoa au umepoteza simu yako), kuna njia kadhaa za kurejesha bitcoins zako.
+Urejeshaji wa Ashigaru wallet hutofautiana kidogo na ule wa Bitcoin wallet ya kawaida, kwani programu hutumia mbinu sawa na Samurai Wallet. Ukipoteza ufikiaji wa wallet yako (iwe kwa sababu umesahau PIN yako, uliiondoa au umepoteza simu yako), kuna njia kadhaa za kurejesha bitcoin zako.
 
 
 
@@ -496,7 +494,7 @@ Kwa maelezo zaidi kuhusu mchakato huu, tafadhali soma mafunzo kamili ambayo nime
 
 https://planb.academy/tutorials/wallet/backup/samourai-recover-23bb6221-ea3e-42e6-a5b7-e6dbef5073c3
 
-Kama unaweza kuona, njia yoyote ya urejeshaji unayotumia, passphrase ni ya lazima. Kwa hivyo hakikisha unaiunga mkono kwa uangalifu. Unaweza pia kutengeneza nakala kadhaa, kulingana na mkakati wako wa usalama.
+Kama unavyoona, njia yoyote ya urejeshaji unayotumia, passphrase ni muhimu sana. Kwa hivyo, hakikisha unaihifadhi kwa uangalifu. Unaweza pia kutengeneza nakala kadhaa kulingana na mkakati wako wa usalama.
 
 
 
@@ -524,7 +522,7 @@ Kama ilivyokuwa usakinishaji wa kwanza, tafadhali angalia uhalisi na uadilifu wa
 
 
 
-Ili kujua wakati toleo jipya linapatikana, angalia tovuti rasmi ya Ashigaru mara kwa mara. Uwe na uhakika, Ashigaru ni programu thabiti, iliyoiva, iliyorithiwa kutoka kwa Samourai Wallet, na masasisho ni machache ikilinganishwa na programu changa zaidi.
+Ili kujua wakati toleo jipya linapatikana, angalia tovuti rasmi ya Ashigaru mara kwa mara. Uwe na uhakika kwamba Ashigaru ni programu thabiti, iliyoiva, iliyorithiwa kutoka kwa Samourai Wallet, na masasisho yake ni machache ikilinganishwa na programu changa zaidi.
 
 
 

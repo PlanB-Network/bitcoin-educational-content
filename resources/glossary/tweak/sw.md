@@ -1,5 +1,6 @@
 ---
-term: TWEAK
+term: Tweak
+definition: Thamani ya skalar inayoongezwa kwenye ufunguo wa umma ili kuubadilisha huku ukidumisha uwezo wake wa kutumika na ufunguo wa siri wa asili.
 ---
 
 Katika cryptography, "tweak" ufunguo wa umma ni kurekebisha kwa kutumia thamani ya nyongeza inayoitwa "tweak", ili iendelee kutumika kwa ujuzi wa ufunguo wa asili wa kibinafsi na tweak. Kitaalam, tweak ni thamani ya scalar ambayo huongezwa kwa ufunguo asilia wa umma. Ikiwa $P$ ndio ufunguo wa umma na $t$ ndio kiboreshaji, ufunguo wa umma uliobadilishwa unakuwa :

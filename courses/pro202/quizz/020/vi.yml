@@ -1,0 +1,8 @@
+question: Bài toán toán học nào cung cấp nền tảng bảo mật cho chữ ký ECDSA trong Bitcoin?
+answer: Bài toán logarit rời rạc trên đường cong elip
+wrong_answers:
+  - Bài toán phân tích thừa số nguyên
+  - Bài toán thặng dư bậc hai
+  - Vấn đề xung đột hàm băm
+explanation: |
+  Tính bảo mật của ECDSA dựa trên bài toán logarit rời rạc trên đường cong elliptic: cho P = eG, việc tính toán P từ e và G rất dễ dàng, nhưng việc suy ra khóa riêng e từ khóa công khai P lại bất khả thi về mặt tính toán. Mối quan hệ toán học một chiều này cho phép mã hóa khóa công khai an toàn với kích thước khóa nhỏ hơn so với RSA, vốn phụ thuộc vào phân tích thừa số nguyên.

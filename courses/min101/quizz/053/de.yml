@@ -1,0 +1,9 @@
+question: Worin werden Transaktionen zusammengefasst, bevor sie der Blockchain hinzugefügt werden?
+answer: In einem Block
+wrong_answers:
+  - In einem UTXO
+  - In einem ASIC
+  - In einem scriptSig
+explanation: |
+  Die Transaktion wird nicht sofort in die Blockchain geschrieben. Sie wird zunächst in einen Block integriert.
+reviewed: false

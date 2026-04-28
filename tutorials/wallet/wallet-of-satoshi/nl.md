@@ -4,7 +4,13 @@ description: De eenvoudigste Wallet om mee te beginnen
 ---
 ![cover](assets/cover.webp)
 
-deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+---
+
+*Let op: sinds het begin van 2026 is Wallet of Satoshi in custodial-modus (zoals gepresenteerd in deze tutorial) niet langer toegankelijk binnen de Europese Unie. Als u in dit gebied woont en deze tool wilt blijven gebruiken, moet u een VPN gebruiken die buiten de EU is gevestigd. Een andere optie is om Wallet of Satoshi in self-custodial-modus te gebruiken. Een speciale tutorial zal binnenkort worden gepubliceerd op Plan ₿ Academy.*
+
+---
+
+deze handleiding is geschreven door_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Wallet van Satoshi downloaden, instellen en gebruiken
@@ -12,7 +18,7 @@ deze handleiding is geschreven door_ [Bitcoin Campus] (https://linktr.ee/bitcoin
 
 Wallet of Satoshi is een Lightning Network Wallet, bewarend en zeer eenvoudig te gebruiken.
 
-In het kader van de cursus [BTC105 - Finding Now] (https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
+In het kader van de cursus [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) wordt het gebruikt voor Redeem Lightning Network vouchers.
 
 
 **Onthoud altijd**: _niet je sleutels, niet je munten_

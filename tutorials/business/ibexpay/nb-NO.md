@@ -14,7 +14,7 @@ description: Ta imot betalinger i bitcoins og konverter dem til lokal valuta.
 
 
 
-IbexPay er en plattform utviklet av IBEX, en pioner innen lyninfrastrukturtjenester. For å få en konto, gå til IbexPay [offisiell plattform] (https://www.ibexpay.io/) og klikk på "**Start**"-knappen.
+IbexPay er en plattform utviklet av IBEX, en pioner innen lyninfrastrukturtjenester. For å få en konto, gå til IbexPay [offisiell plattform](https://www.ibexpay.io/) og klikk på "**Start**"-knappen.
 
 
 

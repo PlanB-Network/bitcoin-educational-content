@@ -1,0 +1,8 @@
+question: Rust'ın bellek düzeninde bir String'in yapısını oluşturan üç bileşen nedir?
+answer: Yığın verilerine, geçerli uzunluğa ve toplam kapasiteye bir işaretçi
+wrong_answers:
+  - Yığın verilerine, geçerli boyuta ve maksimum uzunluğa bir işaretçi
+  - Bir bellek adresi, karakter sayısı ve tahsis türü
+  - Bir veri referansı, bayt boyutu ve sahiplik durumu
+explanation: |
+  Rust'deki bir String, yığında depolanan tam olarak üç bileşenden oluşur: heap'e ayrılmış karakter verilerine bir işaretçi, string içeriğinin mevcut uzunluğu ve ayrılan tamponun toplam kapasitesi. Bu yapı, dizelerin sınırları hakkında bilgi sahibi olurken verimli bir şekilde büyümesini ve küçülmesini sağlar. Diğer seçenekler yanlıştır çünkü ya yanlış konumlara atıfta bulunurlar (heap yerine stack), ya kesin olmayan terminoloji kullanırlar (size vs length, character count vs byte length) ya da tahsis türü veya sahiplik durumu gibi var olmayan bileşenler içerirler.

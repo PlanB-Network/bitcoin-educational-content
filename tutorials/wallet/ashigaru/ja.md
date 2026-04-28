@@ -1,5 +1,5 @@
 ---
-name: 足軽
+name: Ashigaru
 description: サムライのfork Walletでビットコインを安全に管理し、ミックスする
 ---
 

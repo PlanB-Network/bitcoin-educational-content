@@ -74,7 +74,7 @@ Efter Nicolas ord var det dags att börja bygga. En betydande mängd arbete gick
 Vad innebär öppen källkod och vad ingår i ett sådant projekt?
 
 
-FOSS står för Free & Open-Source Software. Det förstnämnda avser villkor som gör det möjligt för vem som helst att kopiera, ändra och till och med distribuera versioner (även för vinst) av programvaran. Det senare innebär att källkoden delas öppet och att allmänheten uppmuntras att bidra och förbättra den.
+[FOSS](https://planb.academy/resources/glossary/foss) står för Free & Open-Source Software. Det förstnämnda avser villkor som gör det möjligt för vem som helst att kopiera, ändra och till och med distribuera versioner (även för vinst) av programvaran. Det senare innebär att källkoden delas öppet och att allmänheten uppmuntras att bidra och förbättra den.
 
 Detta lockar erfarna användare som är entusiastiska över att bidra till den programvara som de redan använder och får värde av, vilket i slutändan visar sig vara mer framgångsrikt än proprietär programvara. Det är förenligt med Bitcoin:s etos att "information längtar efter att vara fri" Det sammanför passionerade människor som bildar en gemenskap och är helt enkelt roligare. Precis som Bitcoin är FOSS oundvikligt.
 
@@ -128,7 +128,7 @@ Det här är en klassrumsövning, så om du själv går kursen kan du inte utfö
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Denna övning kräver minst nio deltagare. Den här övningen syftar till att ge en fysisk förståelse för hur Bitcoin fungerar. Genom att spela varje roll i nätverket kommer du att få ett interaktivt och lekfullt sätt att lära dig. Denna övning involverar inte Lightning Network.
+Denna övning kräver minst nio deltagare. Den här övningen syftar till att ge en fysisk förståelse för hur Bitcoin fungerar. Genom att spela varje roll i nätverket kommer du att få ett interaktivt och lekfullt sätt att lära dig. Denna övning involverar inte [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Exempel: Kräver 9 / 11 personer
@@ -154,7 +154,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Be tre frivilliga studenter att spela rollerna som kund (Alice), handlare (Bob) och bank.
 - Spela upp händelseförloppet:
   - Kund - surfar i butiken på nätet och hittar en vara för 25 USD som han eller hon vill ha och meddelar handlaren att han eller hon vill köpa den
@@ -176,7 +176,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
 
 
 - Ställ upp:
-  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagram/förklaringar i bifogade Figjam - [Aktivitetsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersätt banken med nio studenter som ska spela rollen som en dator (Bitcoin Nodes/Miners) i ett nätverk som ska ersätta banken.
 - Var och en av de 9 datorerna har en fullständig historik över alla tidigare transaktioner som någonsin gjorts (vilket innebär korrekta saldon utan förfalskningar), samt en uppsättning regler:
   - Verifiera att transaktionen är korrekt signerad (thekeyfitsthelock)
@@ -192,7 +192,7 @@ Kunderna köper en produkt från butiken med Bitcoin.
   - Transaktionen är korrekt signerad ("upplåst" av kunden)
   - Om så inte är fallet kommer transaktionen inte att spridas genom nätverket, och om så är fallet sprids den och hålls i väntan.
   - Handlare kan kontrollera att transaktionen är pågående och väntar.
-- En dator väljs "slumpmässigt" ut för att föreslå att den föreslagna transaktionen slutförs genom att sända "ett block" som innehåller den; om den checkar ut får de en BTC-belöning.
+- En dator väljs "slumpmässigt" ut för att föreslå att den föreslagna transaktionen slutförs genom att sända "ett [block](https://planb.academy/resources/glossary/block)" som innehåller den; om den checkar ut får de en BTC-belöning.
   - VALFRI/AVANCERAD - i stället för att slumpmässigt välja en dator, simulera Mining genom att låta datorerna slå tärningar tills något förutbestämt resultat inträffar (t.ex. den som först slår dubbelsexor väljs)
   - Den kan också spela upp vad som skulle hända om två datorer vinner ungefär samtidigt, vilket resulterar i en kedjesplit.
   - Datorer kontrollerar giltigheten, uppdaterar/lägger till poster i sina huvudböcker om reglerna är uppfyllda och sänder transaktionsblocket till kollegor.
@@ -234,15 +234,15 @@ Definiera följande nyckelbegrepp som introducerades i föregående avsnitt:
 
 
 - Nod
-- Mempool
-- Svårighetsgrad Mål
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- [Svårighetsgrad](https://planb.academy/resources/glossary/difficulty) Mål
 - Block
 
 
 **Diskutera betydelsen av några ytterligare termer i grupp:**
 
 
-Blockchain, Transaktion, Double-Spend, Byzantine Generals' Problem, Mining, Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längsta kedjan, 51%-attack, Utgång, Utgångslås, Förändring, Satoshis, Offentlig/privat nyckel, Address, Kryptografi med offentlig nyckel, Digital signatur, Wallet
+Blockchain, Transaktion, Double-Spend, Byzantine Generals' Problem, Mining, Proof of Work (PoW), Hash Funktion, Block reward, Blockchain, Längsta kedjan, 51%-attack, Utgång, Utgångslås, Förändring, [Satoshis](https://planb.academy/resources/glossary/satoshi-sat), Offentlig/privat nyckel, Address, [Kryptografi](https://planb.academy/resources/glossary/cryptography) med [offentlig nyckel](https://planb.academy/resources/glossary/public-key), [Digital signatur](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Vi presenterar BTCPay Server
@@ -436,9 +436,9 @@ Baserat på din mobiltelefons operativsystem (Android eller iOS) kan du välja m
 1. Ladda ner en tvåfaktorsautentisering.
 
 
-   - Authy för [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator för [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy för [Android](https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator för [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator för [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Efter nedladdning och installation av Authenticator-appen.
 
@@ -573,7 +573,7 @@ I detta avsnitt har du lärt dig:
 ### Hur genererar man Bitcoin-nycklar?
 
 
-Bitcoin plånböcker, när de skapas, skapa en så kallad "seed". I det sista målet skapade du en "seed", Serien av ord som genereras tidigare är också känd som Mnemonic-fraser. seed används för att härleda individuella Bitcoin-nycklar och används för att skicka eller ta emot Bitcoin. seed-fraser ska aldrig delas med tredje part eller icke betrodda kollegor.
+Bitcoin plånböcker, när de skapas, skapa en så kallad "[seed](https://planb.academy/resources/glossary/seed)". I det sista målet skapade du en "seed", Serien av ord som genereras tidigare är också känd som Mnemonic-fraser. seed används för att härleda individuella Bitcoin-nycklar och används för att skicka eller ta emot Bitcoin. seed-fraser ska aldrig delas med tredje part eller icke betrodda kollegor.
 
 
 seed-generationen utförs enligt den industristandard som kallas "Hierarchical Deterministic" (HD)-ramverket.
@@ -596,11 +596,11 @@ En Address härleds från den publika nyckeln genom en "hashingalgoritm" De fles
 
 
 
-- Adresser som börjar med `bc1...` håller långsamt på att bli mycket vanliga adresser. Dessa är kända som (infödda) SegWit-adresser. Dessa erbjuder en bättre avgiftsstruktur än de andra nämnda adresserna. Native SegWit-adresser använder Bech32-kodning och tillåter endast små bokstäver.
+- Adresser som börjar med `bc1...` håller långsamt på att bli mycket vanliga adresser. Dessa är kända som (infödda) [SegWit](https://planb.academy/resources/glossary/segwit)-adresser. Dessa erbjuder en bättre avgiftsstruktur än de andra nämnda adresserna. Native SegWit-adresser använder Bech32-kodning och tillåter endast små bokstäver.
 
 
 
-- Adresser som börjar med `3...` används ofta fortfarande av börser för insättningsadresser. Dessa adresser nämns i kapitlet "Skapa en ny butik", omslutna eller kapslade SegWit-adresser. De kan dock också fungera som en "Multisig Address". När de används som en SegWit Address finns det vissa besparingar på transaktionsavgifter, återigen mindre än Native SegWit. P2SH-adresser använder Base58-kodning. Detta gör den fallkänslig, som den äldre Address.
+- Adresser som börjar med `3...` används ofta fortfarande av börser för insättningsadresser. Dessa adresser nämns i kapitlet "Skapa en ny butik", omslutna eller kapslade SegWit-adresser. De kan dock också fungera som en "Multisig Address". När de används som en SegWit Address finns det vissa besparingar på [transaktionsavgifter](https://planb.academy/resources/glossary/transaction-fees), återigen mindre än Native SegWit. P2SH-adresser använder Base58-kodning. Detta gör den fallkänslig, som den äldre Address.
 
 
 
@@ -618,7 +618,7 @@ Offentliga nycklar används mindre ofta i praktiken idag. Med tiden har Bitcoin-
 
 
 
-- HD-plånböcker använder dock en annan struktur. `xpub...`, `ypub...` eller `zpub...` kallas för utökade publika nycklar, eller xpubs. Dessa nycklar används för att härleda många publika nycklar som en del av HD Wallet. Eftersom din xpub innehåller uppgifter om hela din historik, dvs. tidigare och framtida transaktioner, ska du aldrig dela den med någon som inte är betrodd.
+- HD-plånböcker använder dock en annan struktur. `xpub...`, `ypub...` eller `zpub...` kallas för utökade publika nycklar, eller [xpubs](https://planb.academy/resources/glossary/xpub). Dessa nycklar används för att härleda många publika nycklar som en del av HD Wallet. Eftersom din xpub innehåller uppgifter om hela din historik, dvs. tidigare och framtida transaktioner, ska du aldrig dela den med någon som inte är betrodd.
 
 
 ### Sammanfattning av färdigheter
@@ -670,7 +670,7 @@ Hot-plånböcker är det mest praktiska sättet att interagera med Bitcoin via m
 Privatpersoner flyttar sin Bitcoin till en Cold Wallet eftersom den kan isolera de privata nycklarna från internet och därmed skydda dem från potentiella onlinehot. Genom att ta bort internetanslutningen från ekvationen minskar risken för skadlig kod, spionprogram och SIM-byten. Cold-lagring anses vara överlägsen Hot-lagring vad gäller säkerhet och autonomi, förutsatt att tillräckliga försiktighetsåtgärder vidtas för att förhindra att de privata nycklarna i Bitcoin går förlorade. Cold-lagring är mest lämplig för stora mängder Bitcoin, som inte är avsedda att användas ofta på grund av Wallet-installationens komplexitet.
 
 
-Det finns olika metoder för att lagra Bitcoin-nycklar i Cold-lagring, från pappersplånböcker till hjärnplånböcker, hårdvaruplånböcker eller, från början, en Wallet-fil. De flesta plånböcker använder BIP 39 för att generate seed frasen. Men inom Bitcoin Core-programvaran har man ännu inte nått konsensus om hur den ska användas. Bitcoin Core-programvaran kommer fortfarande att generate en Wallet.dat-fil, som du måste lagra på en säker offlineplats.
+Det finns olika metoder för att lagra Bitcoin-nycklar i Cold-lagring, från pappersplånböcker till hjärnplånböcker, hårdvaruplånböcker eller, från början, en Wallet-fil. De flesta plånböcker använder [BIP](https://planb.academy/resources/glossary/bip) 39 för att generate seed frasen. Men inom Bitcoin Core-programvaran har man ännu inte nått konsensus om hur den ska användas. Bitcoin Core-programvaran kommer fortfarande att generate en Wallet.dat-fil, som du måste lagra på en säker offlineplats.
 
 
 ### Sammanfattning av färdigheter
@@ -717,7 +717,7 @@ BTCPay Server består av följande standardfunktioner enligt Wallet:
 - Rescan
 - Dra betalningar
 - Utbetalningar
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Allmänna inställningar
 
 
@@ -727,14 +727,15 @@ BTCPay Server består av följande standardfunktioner enligt Wallet:
 Administratörer kan se de inkommande och utgående transaktionerna för On-Chain Wallet som är anslutna till den här specifika butiken i transaktionsvyn. Varje transaktion har en distinktion mellan de mottagna och skickade beloppen. Mottagna kommer att vara Green och utgående transaktioner kommer att vara röda. I transaktionsvyn för BTCPay Server ser administratörerna också en uppsättning standardetiketter.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaktionstyp | Beskrivning                                      |
+| ---------------- | ------------------------------------------------ |
+| App              | Betalning mottogs via en app-skapad faktura      |
+| Faktura          | Betalning mottogs via en faktura                 |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Ej betald, fakturatimern har ännu inte löpt ut   |
+| Payjoin-exponerad | [UTXO](https://planb.academy/resources/glossary/utxo) exponerades via ett payjoin-förslag i en faktura |
+| Betalningsförfrågan | Betalning mottogs via en betalningsförfrågan   |
+| Utbetalning      | Betalning skickades via en utbetalning eller återbetalning |
 
 ### Hur man skickar
 
@@ -821,7 +822,7 @@ BTCPay Server stöder BIP-329 för etiketthantering. Om du överför från en Wa
 När du klickar på mottagningsknappen i BTCPay Server genereras en oanvänd Address som kan användas för att ta emot betalningar. Administratörer kan också generate en ny Address genom att skapa en ny "Invoice"
 
 
-BTCPay Server kommer alltid att uppmana dig att generate följande tillgängliga Address för att förhindra återanvändning av Address. Efter att ha klickat på "generate nästa tillgängliga BTC Address" genererade BTCPay Server en ny Address och QR. Det låter dig också direkt ställa in en etikett till Address för bättre hantering av dina adresser.
+BTCPay Server kommer alltid att uppmana dig att generate följande tillgängliga Address för att förhindra återanvändning av Address. Efter att ha klickat på "generate nästa tillgängliga BTC Address" genererade BTCPay Server en ny Address och QR. Det låter dig också direkt ställa in en [etikett](https://planb.academy/resources/glossary/label) till Address för bättre hantering av dina adresser.
 
 
 ![image](assets/en/018.webp)
@@ -1130,7 +1131,7 @@ Inom alternativet Lightning Wallet i den vänstra menyraden hittar serveradminis
 #### Intern nodinformation
 
 
-Serveradministratörer kan klicka på den interna nodinformationen för att se serverns status (Online/Offline) och anslutningssträng för Clearnet eller Tor.
+Serveradministratörer kan klicka på den interna nodinformationen för att se serverns status (Online/Offline) och anslutningssträng för Clearnet eller [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)
@@ -1805,28 +1806,30 @@ Varje typ kommer med sina parametrar att fylla i. Butiksägaren kan ställa in d
 BTCPay Server låter dig också bygga formulär i kod. JSON, i synnerhet. Istället för att titta på redigeraren kan butiksägare klicka på CODE-knappen precis bredvid redigeraren och komma in i koden för sina formulär. I en fältdefinition kan endast följande fält ställas in; värdena för fälten lagras i metadata för Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Fält | Beskrivning |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Om true, måste .value anges i formulärdefinitionen, och användaren kommer inte att kunna ändra fältets värde. (exempel: formulärdefinitionens version) |
+| .fields.type | HTML-indatatypen: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Om .fields.type är select, listan över valbara värden |
+| .fields.options.text | Texten som visas för detta alternativ |
+| .fields.options.value | Värdet på fältet om detta alternativ väljs |
+| .fields.type=fieldset | Skapa ett HTML-fieldset runt barnen .fields.fields (se nedan) |
+| .fields.name | JSON-egenskapsnamnet för fältet så som det kommer att visas i fakturans metadata |
+| .fields.value | Standardvärdet för fältet |
+| .fields.required | om true, kommer fältet att vara obligatoriskt |
+| .fields.label | Fältets etikett |
+| .fields.helpText | Ytterligare text för att ge en förklaring till fältet. |
+| .fields.fields | Du kan organisera dina fält i en hierarki, vilket gör att underfält kan bäddas in i fakturans metadata. Denna struktur kan hjälpa dig att bättre organisera och hantera den insamlade informationen, vilket gör den lättare att komma åt och tolka. Om du till exempel har ett formulär som samlar in kundinformation kan du gruppera fälten under ett föräldrafält som heter customer. Inom detta föräldrafält kan du ha underfält som name, Email och address. |
 
 Fältnamnet representerar det JSON-egenskapsnamn som lagrar det användartillhandahållna värdet i Invoice:s metadata. Vissa välkända namn kan tolkas och modifieras för att justera Invoice:s inställningar.
 
 
-| Field name       | Description            |
+
+| Fältnamn         | Beskrivning           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabelopp         |
+| invoice_currency | Fakturavaluta         |
 
 Du kan förfylla fälten i en Invoice automatiskt genom att lägga till frågesträngar i formulärets URL, t.ex. "?your_field=value".
 
@@ -2222,7 +2225,7 @@ Försök först och främst att avgöra när problemet uppstår. Försök att re
 ##### Uppdatering av servern
 
 
-Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen] (https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
+Kontrollera din version av BTCPay Server om den är mycket äldre än den [senaste versionen](https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Uppdatering av din server kan lösa problemet.
 
 
 ##### Starta om servern
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Loggar för    | Behållarnamn                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Om du inte använder en inbyggd [Wallet](https://docs.btcpayserver.org/Wallet/) 
 Tabellen nedan listar och beskriver standard Invoice-statusarna i BTCPay, tillsammans med förslag på vanliga åtgärder. Åtgärderna är bara rekommendationer. Det är upp till användarna att definiera det bästa tillvägagångssättet för deras användningsfall och verksamhet.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fakturastatus | Beskrivning | Åtgärd |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ej betald, fakturatimern har ännu inte gått ut | Ingen |
+| New (paidPartial) | Betald delvis, fakturatimern har ännu inte gått ut | Ingen |
+| Expired | Ej betald, fakturatimern har gått ut | Ingen |
+| Expired (paidPartial) ** | Betald delvis och har gått ut | Kontakta köparen för återbetalning eller be dem betala resterande. Markera ev. fakturan som settled eller invalid |
+| Expired (paidLate) | Betald i sin helhet efter att fakturatimern gått ut | Kontakta köpare för återbetalning eller hantera ordern om sena bekräftelser accepteras. |
+| Settled (paidOver) | Betalat mer än fakturabeloppet, reglerad, fått tillräckligt med bekräftelser | Kontakta köparen för återbetalning av överskottet, eller vänta på att köparen kontaktar dig |
+| Processing | Betald helt, men har inte fått tillräckligt med bekräftelser enligt inställningarna | Kontakta köparen för återbetalning av överskottet, eller vänta på कि köparen kontaktar dig |
+| Processing (paidOver) | Betalat mer än fakturabeloppet, inte fått tillräckligt med bekräftelser | Vänta på att den blir settled, kontakta sedan köparen för återbetalning eller vänta på kontakt |
+| Settled | Betald helt, fått tillräckligt med bekräftelser i butiken | Leverera ordern |
+| Settled (marked) | Status ändrades manuellt till settled från status processing eller invalid | Butiksadministratören har markerat betalningen som settled |
+| Invalid* | Betald, men fick inte tillräckligt med bekräftelser inom angiven tid | Kontrollera transaktionen i en blockchain-explorer; om den har fått nog med bekräftelser, markera som settled |
+| Invalid (marked) | Status ändrades manuellt till invalid från status settled eller expired | Butiksadministratören har markerat betalningen som invalid |
+| Invalid (paidOver) | Betalat mer än fakturabeloppet, men fick inte nog med bekräftelser inom angiven tid | Kontrollera transaktionen i en blockchain-explorer; om den har fått nog med bekräftelser, markera som settled |
 
 #### Invoice detaljer
 
@@ -2621,7 +2626,7 @@ Betalningsmottagaren och uppdragsgivaren kan se status för betalningsuppdraget 
 Innehållet i beskrivningen kan redigeras med hjälp av betalningsbegärans textredigerare. Båda alternativen är tillgängliga om du vill använda ytterligare färgteman eller anpassad CSS-styling.
 
 
-Icke-tekniska användare kan använda ett [bootstrap-tema] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
+Icke-tekniska användare kan använda ett [bootstrap-tema](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligare anpassning kan göras genom att tillhandahålla ytterligare CSS-kod, som visas nedan.
 
 
 ```css
@@ -2670,13 +2675,13 @@ Vad händer om avsändaren, i stället för att skicka betalningen, låter motta
 ### Utbetalningar
 
 
-Utbetalningsfunktionen är kopplad till funktionen [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
+Utbetalningsfunktionen är kopplad till funktionen [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Med den här funktionen kan du skapa utbetalningar i din BTCPay. Med den här funktionen kan du behandla pull-betalningar (återbetalningar, löneutbetalningar eller uttag).
 
 
 #### Exempel 1: Återbetalning
 
 
-Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning] (https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
+Låt oss börja med exemplet med återbetalningen. Kunden har köpt en vara i din butik, men måste tyvärr returnera den. De vill ha en återbetalning. Inom BTCPay kan du skapa en [Återbetalning](https://docs.btcpayserver.org/Refund/) och förse kunden med länken för att göra anspråk på sina pengar. När kunden har angett sitt Address och gjort anspråk på pengarna kommer de att visas i avsnittet Utbetalningar.
 
 
 Den första statusen den har är Väntar på godkännande. Butikspersonal kan kontrollera om flera väntar, och efter att ha gjort valet använder du knappen Åtgärder.
@@ -2700,7 +2705,7 @@ Kunden blir nu uppdaterad på sidan Claiming. Han kan följa transaktionen efter
 #### Exempel 2: Lön
 
 
-Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Låt oss nu gå in på löneutbetalningen, eftersom denna styrs inifrån butiken och inte enligt kundens begäran. Det underliggande konceptet är detsamma; det utnyttjar pull-betalningar. Men istället för att skapa en återbetalning kommer vi att göra en [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Gå till fliken Pull Payments i din BTCPay-server. Klicka på knappen Skapa Pull-betalning längst upp till höger.
@@ -2744,7 +2749,7 @@ Efter detta kan avsändaren dela pull-betalningen med mottagaren via en länk, s
 När en utbetalning har skapats kommer den att räknas av mot pull-betalningens gräns för den aktuella perioden. Avsändaren kommer sedan att godkänna utbetalningen genom att ställa in den hastighet som utbetalningen ska skickas med och fortsätta med betalningen.
 
 
-För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+För avsändaren tillhandahåller vi en lättanvänd metod för att gruppera flera utbetalningar från [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

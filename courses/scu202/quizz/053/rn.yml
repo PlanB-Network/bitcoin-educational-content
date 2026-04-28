@@ -1,9 +1,9 @@
 question: Ni uruhe rubuga ruca rufuta metadata iyo ifoto ishizweko?
-answer: Ikimenyetso
+answer: Signal
 wrong_answers:
   - Gmail
-  - Imbonerahamwe
+  - Outlook
   - Urubuga rwawe
 explanation: |
-  Signal (nka Session n'izindi serivisi z'ubutumwa butekanye) isukura metadata y'amashusho asangiye kugira ngo ikingire ubuzima bwite bw'abakoresha.
-reviewed: false
+  Signal (nka Session n’izindi serivisi z’ubutumwa butekanye) isukura metadata ku mashusho yasangijwe kugira ngo ikingire ubuzima bw’ibanga bw’abakoresha.
+reviewed: true

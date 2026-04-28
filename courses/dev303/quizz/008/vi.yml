@@ -1,0 +1,8 @@
+question: Bạn cần lưu ý những vấn đề bảo mật nào khi cài đặt Rust bằng Rustup?
+answer: Quá trình cài đặt bao gồm việc tải xuống và thực thi một tập lệnh, mặc dù nó sử dụng HTTPS và đến từ các nguồn chính thức đáng tin cậy.
+wrong_answers:
+  - Việc cài đặt yêu cầu quyền quản trị viên, điều này tạo ra các lỗ hổng bảo mật tiềm tàng trong hệ thống.
+  - Bộ công cụ ổn định chứa các tính năng thử nghiệm có thể tiềm ẩn những lỗ hổng bảo mật chưa được phát hiện.
+  - Quá trình cài đặt tự động kích hoạt tất cả các mục tiêu biên dịch, bao gồm cả các kiến trúc có khả năng không an toàn.
+explanation: |
+  Khi cài đặt Rustup, bạn tải xuống và thực thi một tập lệnh từ trang web chính thức của Rust. Tập lệnh này sử dụng HTTPS để bảo mật lớp vận chuyển, và các gói đến từ các nguồn đáng tin cậy như crates.io. Mặc dù điều này an toàn cho hầu hết các trường hợp sử dụng, nhưng một số tổ chức có chính sách bảo mật nghiêm ngặt có thể thích sử dụng trình quản lý gói của bản phân phối của họ hơn, vì trình quản lý này bổ sung thêm cơ sở hạ tầng ký số riêng của bản phân phối đó. Các tùy chọn khác không chính xác: Rustup được cài đặt trong thư mục chính của người dùng mà không yêu cầu quyền quản trị, bộ công cụ ổn định loại trừ cụ thể các tính năng thử nghiệm, và các mục tiêu biên dịch được thêm vào riêng biệt và không gây ra rủi ro bảo mật nào.

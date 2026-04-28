@@ -6,4 +6,5 @@ wrong_answers:
   - Un sistema de firma ciega con parte central de confianza para evitar el doble gasto
 explanation: |
   Satoshi Nakamoto propuso específicamente utilizar un "servidor de marcas de tiempo (timestamp) distribuido entre pares para generate probar computacionalmente el orden cronológico de las transacciones", como se afirma en el whitepaper de Bitcoin. La palabra clave es "distribuido", lo que significa que no hay un punto central de control. La palabra clave es "distribuido", es decir, sin un punto central de control. Las respuestas erróneas representan anteriores intentos fallidos de dinero digital que se basaban en enfoques centralizados o semicentralizados, lo que los hacía vulnerables a la censura y al fracaso - exactamente los problemas que Bitcoin fue diseñado para resolver a través de una verdadera descentralización.
-reviewed: false
+reviewed: true
+

@@ -1,5 +1,6 @@
 ---
 term: BIP0030
+definition: Soft fork prohibiting duplicate transaction identifiers (TXID), resolving a flaw where two transactions could have the same ID.
 ---
 
 Proposal that introduced a soft fork implemented on March 15, 2012, to resolve the issue of duplicate transaction identifiers. Before BIP30, it was technically possible to have two different transactions with the same transaction identifier (TXID) within the blockchain. 

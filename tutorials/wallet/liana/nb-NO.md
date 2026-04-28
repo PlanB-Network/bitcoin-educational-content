@@ -12,7 +12,7 @@ Hvis du ønsker å gjenopprette midler fra en eksisterende Liana-lommebok, kan d
 
 ## Vi presenterer Liana-programvaren
 
-Liana er en programvarepakke med åpen kildekode som er utviklet for å opprette og administrere avanserte porteføljer, særlig som en del av et automatisert arvesystem eller en robust sikkerhetskopimekanisme. Prosjektet har blitt utviklet siden 2022 av Wizardsardine, et selskap som ble grunnlagt av Kévin Loaec og Antoine Poinsot. På den offisielle nettsiden presenteres Liana som "en enkel portefølje for personlig kuratering, med gjenopprettings- og arvefunksjoner". Programvaren kjører på datamaskiner - Linux, MacOS, Windows - og den (åpne) kildekoden er tilgjengelig [på GitHub] (https://github.com/wizardsardine/liana).
+Liana er en programvarepakke med åpen kildekode som er utviklet for å opprette og administrere avanserte porteføljer, særlig som en del av et automatisert arvesystem eller en robust sikkerhetskopimekanisme. Prosjektet har blitt utviklet siden 2022 av Wizardsardine, et selskap som ble grunnlagt av Kévin Loaec og Antoine Poinsot. På den offisielle nettsiden presenteres Liana som "en enkel portefølje for personlig kuratering, med gjenopprettings- og arvefunksjoner". Programvaren kjører på datamaskiner - Linux, MacOS, Windows - og den (åpne) kildekoden er tilgjengelig [på GitHub](https://github.com/wizardsardine/liana).
 
 Liana bygger på Bitcoins programmerbarhet for å skape en avansert lommebok. Liana utnytter spesielt tidslåser (*timelocks*), som gjør det mulig å bruke penger først når en gitt tidsperiode er utløpt, og som er involvert i utvinningen av Bitcoins. En Liana-lommebok består dermed av flere utgiftsveier:
 
@@ -27,7 +27,7 @@ Diagrammet nedenfor illustrerer hvordan en portefølje med to utgiftsbaner funge
 Denne operasjonen lar deg sette opp ulike konfigurasjoner, inkludert :
 
 
-- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4] (https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
+- En arveplan som gjør det mulig for arvingene å få tilbake midler i tilfelle brukerens død. For mer informasjon om dette emnet anbefaler vi at du leser [del 4](https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f/233c88d3-2e8e-5eba-ac06-efe67a209038) i BTC102-kurset.
 - En forsterket sikkerhetskopi med gjenopprettingstid, noe som gir brukeren mulighet til å bruke lommeboken uten å måtte oppbevare den tilhørende hemmelige frasen og risikere at den blir stjålet, for eksempel under et innbrudd.
 - Et sikkerhetsnett for folk som begynner med Bitcoin: De vil administrere sin egen lommebok, og deres "verge" (for eksempel en slektning) vil forbeholde seg retten til å få tilbake pengene deres etter en gitt periode.
 - En flerpartssignaturordning (*multisig*) med reduserte krav over tid, for å håndtere at en eller flere av deltakerne forsvinner, for eksempel et selskaps partnere.
@@ -57,7 +57,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 
 ## Installasjon og konfigurasjon
 
-Besøk det offisielle Wizardsardine-nettstedet og last ned Liana på https://wizardsardine.com/liana/. Du kan også laste ned den nyeste versjonen [fra GitHub-depotet] (https://github.com/wizardsardine/liana/releases), der du kan sjekke ektheten til programvaren. Versjonen som brukes i denne veiledningen er 0.9.
+Besøk det offisielle Wizardsardine-nettstedet og last ned Liana på https://wizardsardine.com/liana/. Du kan også laste ned den nyeste versjonen [fra GitHub-depotet](https://github.com/wizardsardine/liana/releases), der du kan sjekke ektheten til programvaren. Versjonen som brukes i denne veiledningen er 0.9.
 
 ![Télécharger Liana](assets/fr/02.webp)
 
@@ -247,7 +247,7 @@ Når det er bekreftet, er mynten din trygg! Du kan være rolig frem til neste ut
 
 Når du skal gjenopprette midler fra Liana-porteføljen, kan du stå overfor én av to situasjoner. Det kan hende du har tilgang til datamaskinen som programvaren er installert på, og i så fall trenger du bare å åpne den (noe som vil skje i tilfellet med den utvidede sikkerhetskopimodellen). Det kan imidlertid hende at du ikke har tilgang til denne datamaskinen, så vi starter fra bunnen av her. Merk at gjenopprettingsprosedyren er den samme i begge tilfeller.
 
-For å komme i gang kan du laste ned Liana fra [det offisielle Wizardsardine-nettstedet] (https://wizardsardine.com/liana/), eller fra [GitHub-arkivet] (https://github.com/wizardsardine/liana/releases), der du kan sjekke programvarens autentisitet. Installer programvaren og kjør den. I vårt tilfelle er det versjon 0.9 som brukes, så det visuelle kan ha endret seg. På velkomstskjermen velger du alternativet "Legg til en eksisterende Liana-lommebok".
+For å komme i gang kan du laste ned Liana fra [det offisielle Wizardsardine-nettstedet](https://wizardsardine.com/liana/), eller fra [GitHub-arkivet](https://github.com/wizardsardine/liana/releases), der du kan sjekke programvarens autentisitet. Installer programvaren og kjør den. I vårt tilfelle er det versjon 0.9 som brukes, så det visuelle kan ha endret seg. På velkomstskjermen velger du alternativet "Legg til en eksisterende Liana-lommebok".
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)
 
@@ -307,7 +307,7 @@ Transaksjonen skal vises på hovedskjermen. Når dette er bekreftet, er gjenoppr
 
 ## Bonus: Deskriptoranalyse
 
-Deskriptoren er en tegnstreng som kan leses av mennesker, og som gir en uttømmende beskrivelse av et sett med adresser. Den kombinerer en rekke viktige opplysninger som er nødvendige for å finne delene (UTXO) i en avansert portefølje. Måten deskriptoren skrives på, er basert på [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), skriptspråket som ble utviklet av Andrew Poelstra, Pieter Wuille og Sanket Kanjalkar i 2019.
+Deskriptoren er en tegnstreng som kan leses av mennesker, og som gir en uttømmende beskrivelse av et sett med adresser. Den kombinerer en rekke viktige opplysninger som er nødvendige for å finne delene (UTXO) i en avansert portefølje. Måten deskriptoren skrives på, er basert på [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), skriptspråket som ble utviklet av Andrew Poelstra, Pieter Wuille og Sanket Kanjalkar i 2019.
 
 For å forstå bedre hvorfor denne tegnstrengen er viktig, la oss analysere deskriptoren i eksempelet vårt, som er :
 

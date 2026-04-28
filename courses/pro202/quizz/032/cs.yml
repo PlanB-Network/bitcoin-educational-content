@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod, proč byly holé vícesignálové transakce z velké části nahrazeny P2SH pro komplexní podmínky výdajů?
+answer: Bare multisig vystavuje všechny veřejné klíče on-chain, což činí transakce rozsáhlými, drahými a obtížně kódovatelnými jako adresy
+wrong_answers:
+  - Bare multisig vyžaduje více podpisů než P2SH, aby bylo dosaženo stejné úrovně zabezpečení pro transakce s více stranami
+  - Bare multisig nedokáže zpracovat časově omezené transakce nebo podmíněné požadavky na výdaje jako P2SH
+  - Holé vícesignály jsou nekompatibilní s moderním softwarem wallet a nelze je vysílat do současných uzlů
+explanation: |
+  Systém P2SH byl zaveden právě proto, aby řešil neefektivitu holého multisignu. Bare multisig vyžaduje, aby všechny veřejné klíče byly viditelné ve skriptPubKey, což vytváří velké velikosti transakcí, které stojí více poplatků a které se obtížně reprezentují jako uživatelsky přívětivé adresy. P2SH to řeší tak, že složitý skript skrývá za 20bajtovým hashem a skutečné podmínky výdajů odhaluje až při vydání výstupu. Tím se zmenšuje stopa on-chain, zlepšuje se soukromí a umožňují se standardní formáty adres při zachování stejných bezpečnostních záruk.

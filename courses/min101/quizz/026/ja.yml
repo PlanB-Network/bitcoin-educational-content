@@ -1,0 +1,9 @@
+question: Bitcoin Coreのどのパラメータがデフォルトの最小リレーしきい値を設定しますか？
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  ノードはローカルポリシーを適用し、Bitcoin Coreは最小リレーしきい値としてminRelayTxFeeパラメータを使用します。
+reviewed: false

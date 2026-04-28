@@ -1,0 +1,8 @@
+question: Paul Leroy-Beaulieu 1883. aasta analüüsi kohaselt, kuidas omandavad kollektivistlikud süsteemid tavaliselt tehnoloogilisi ja menetluslikke uuendusi?
+answer: Nad kopeerivad vabaturuühiskondade poolt väliselt välja töötatud uuendusi, kuna nad ei saa generate sisemisi uuendusi kopeerida
+wrong_answers:
+  - Nad arendavad uuendusi tsentraliseeritud uurimiskomisjonide kaudu, mis koordineerivad teaduse arengut
+  - Nad loovad uuendusi, ühendades kollektiivseid teadmisi ja kõrvaldades konkurentsitõkked koostöö eest
+  - Nad generate uuendused riigi poolt rahastatavate institutsioonide kaudu, mis keskenduvad süstemaatilisele täiustamisele
+explanation: |
+  Paul Leroy-Beaulieu ennustas, et kollektivistlikud süsteemid on oma bürokraatliku iseloomu ja individuaalsete stiimulite puudumise tõttu struktuuriliselt võimetud sisemisteks uuendusteks. Ta nägi õigesti ette, et kommunistlikud ühiskonnad toetuvad pigem vabade ühiskondade uuenduste kopeerimisele kui omaenda uuenduste loomisele, sest isiklike tasustamismehhanismide puudumine ja jäik reguleeriv raamistik takistavad tõelise uuendustegevuse jaoks vajalikku riskide võtmist ja loomingulist algatust.

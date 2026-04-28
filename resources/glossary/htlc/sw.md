@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition: Mkataba mahiri (smart contract) unaoweka sharti la uhamisho kwa kufichuliwa kwa siri ndani ya muda uliowekwa.
 ---
 
 Inasimama kwa "*Hashed Timelock Contract*". Huu ni utaratibu wa Smart contract unaotumiwa hasa kwenye Umeme. Pia wakati mwingine hupatikana katika ubadilishaji wa atomiki. Kimsingi, HTLC hufanya uhamisho wa fedha kuwa masharti ya ufunuo wa siri, na pia inajumuisha hali ya wakati ili kulinda pesa za mtumaji katika tukio la shughuli iliyoshindwa.

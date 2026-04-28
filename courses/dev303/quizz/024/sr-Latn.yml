@@ -1,0 +1,8 @@
+question: Koja se sintaksa koristi za pristup prvom polju strukture torka u Rust?
+answer: Notacija tačke sa indeksom 0 (npr. instance.0)
+wrong_answers:
+  - instance[0]
+  - instanca->0
+  - Dvotačka sa indeksom 0 (npr., instance::0)
+explanation: |
+  Strukture torki u Rust koriste tačku i indeks polja za pristup njihovim neimenovanim poljima. Prvo polje se pristupa sa .0, drugo sa .1, i tako dalje. Ovo je drugačije od nizova ili vektora koji koriste uglaste zagrade, i za razliku od C++ koji koristi strelicu za pokazivače. Sintaksa sa dvotačkom je rezervisana za pridružene funkcije i imenovanje prostora, a ne za pristup poljima.

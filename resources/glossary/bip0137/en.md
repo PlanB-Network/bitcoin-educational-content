@@ -1,5 +1,6 @@
 ---
 term: BIP0137
+definition: Standardized format for signing messages with a Bitcoin private key to prove ownership of an address.
 ---
 
 BIP137 proposes a standardized format for signing messages with Bitcoin private keys and their associated addresses, providing a way to prove ownership of an address.

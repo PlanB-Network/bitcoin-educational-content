@@ -1,0 +1,9 @@
+question: Menurut Manifesto Cypherpunk Eric Hughes, prinsip dasar apa yang membedakan cypherpunks dari mereka yang hanya mengharapkan perlindungan privasi?
+answer: Cypherpunks secara aktif menulis kode untuk membangun sistem anonim daripada menunggu institusi untuk memberikan privasi
+wrong_answers:
+  - Cypherpunks berfokus pada lobi politik dan reformasi hukum untuk menetapkan hak-hak privasi melalui proses demokrasi
+  - Cypherpunks percaya untuk bekerja di dalam lembaga keuangan yang ada untuk secara bertahap meningkatkan perlindungan privasi mereka
+  - Cypherpunks memprioritaskan edukasi publik tentang risiko privasi daripada mengembangkan solusi teknis
+explanation: |
+  Manifesto tersebut secara eksplisit menyatakan 'Cypherpunks menulis kode' dan menekankan bahwa mereka tidak menemukan kenyamanan dalam harapan dan keinginan, tetapi secara aktif mengintervensi berbagai peristiwa.
+  Hughes berpendapat bahwa orang tidak dapat mengharapkan pemerintah, perusahaan, atau organisasi besar lainnya untuk menjamin privasi, sehingga cypherpunks harus membangun sistem kriptografi sendiri. Pendekatan teknis yang aktif melalui pengembangan kode ini membedakan mereka dari pendekatan pasif seperti melobi, bekerja di dalam sistem yang sudah ada, atau hanya mengedukasi orang lain tanpa menciptakan solusi teknologi yang konkret.

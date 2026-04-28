@@ -1,5 +1,5 @@
 ---
-name: Isōko ry'umunyabwenge Gamma
+name: NerdAxe Gamma
 description: Inyigisho y'imiterere ya NerdAxe Gamma
 ---
 

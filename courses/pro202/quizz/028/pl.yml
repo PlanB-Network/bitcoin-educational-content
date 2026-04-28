@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa różnica między P2PK i P2PKH pod względem tego, jakie informacje są ujawniane przed wydaniem monet?
+answer: P2PK ujawnia pełny klucz publiczny w ScriptPubKey przed jego wydaniem, podczas gdy P2PKH ujawnia tylko skrót klucza publicznego do momentu jego wydania
+wrong_answers:
+  - P2PK wymaga wielu podpisów do walidacji, podczas gdy P2PKH potrzebuje tylko jednego podpisu do odblokowania monet
+  - P2PK wykorzystuje inny algorytm mieszający niż P2PKH, dzięki czemu jest bardziej bezpieczny przed atakami kwantowymi
+  - P2PK przechowuje klucz prywatny w ScriptPubKey, podczas gdy P2PKH przechowuje tylko wynik weryfikacji podpisu
+explanation: |
+  P2PK blokuje monety bezpośrednio do pełnego klucza publicznego, który jest widoczny w ScriptPubKey przed jakimkolwiek wydaniem. P2PKH poprawia prywatność, pokazując tylko 20-bajtowy skrót klucza publicznego w ScriptPubKey, ukrywając rzeczywisty klucz publiczny, dopóki właściciel nie poda go w ScriptSig podczas wydawania. Ta poprawa prywatności jest jedną z kluczowych zalet P2PKH w porównaniu z wcześniejszym wzorcem P2PK.

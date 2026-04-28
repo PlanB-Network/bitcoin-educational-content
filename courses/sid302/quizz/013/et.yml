@@ -1,0 +1,8 @@
+question: Mis juhtub Taproot-võimelises HTLC-s, kui mõlemad pooled lepivad koostöös kokku, et viia lõpule kihtideülene vahetus?
+answer: Nad allkirjastavad koos, kasutades MuSig2 kaudu oma agregeeritud avalikku võtit, luues tehingu, mida ei saa eristada tavalisest ühe allkirjaga maksest
+wrong_answers:
+  - Nad peavad avalikustama täieliku skripti, mis sisaldab hashi- ja ajalukustusi on-chain võrgu kontrollimiseks
+  - Nad avaldavad ainult konkreetse Merkle-puu vajaliku haru, hoides samal ajal agregeeritud võtme vaatlejate eest varjatud
+  - Nad edastavad samaaegselt igal kihil eraldi tehinguid, et tagada aatomne arveldamine ilma võtmete koondamiseta
+explanation: |
+  Taproot koostööl põhinev "võtmete tee" võimaldab osapooltel ühendada oma võtmed üheks koondatud avalikuks võtmeks, kasutades MuSig2. Kui mõlemad nõustuvad, allkirjastavad nad lihtsalt tehingu koos, mis on identne mis tahes standardse maksega plokiahelas. See tagab maksimaalse privaatsuse ja tõhususe, kuna skriptiloogika ei ilmne, tarbides minimaalselt plokiruumi. Teised valikud kirjeldavad valesti kas vanu HTLC käitumist või vastase skripti tee stsenaariumi.

@@ -1,0 +1,8 @@
+question: Rủi ro bảo mật chính nào khiến giao dịch P2SH khác biệt về cơ bản so với các giao dịch Bitcoin tiêu chuẩn xét về khả năng thu hồi vốn?
+answer: Việc mất tập lệnh chuộc lại sẽ khóa vĩnh viễn số tiền ngay cả khi bạn có khóa riêng.
+wrong_answers:
+  - Mã băm 20 byte có thể bị tấn công bằng phương pháp vét cạn nếu kịch bản đổi thưởng quá đơn giản.
+  - Địa chỉ P2SH sẽ hết hạn sau một độ cao khối nhất định, khiến tiền không thể thu hồi được.
+  - Quy trình xác thực hai bước có thể thất bại ngẫu nhiên, dẫn đến mất quỹ vĩnh viễn.
+explanation: |
+  P2SH đưa ra một yêu cầu bảo mật độc đáo: cả khóa riêng tư VÀ tập lệnh quy đổi đều cần thiết để chi tiêu tiền. Không giống như các giao dịch tiêu chuẩn chỉ cần khóa riêng tư, P2SH yêu cầu phải cung cấp tập lệnh quy đổi thực tế trong quá trình chi tiêu. Nếu tập lệnh quy đổi bị mất, số tiền sẽ vĩnh viễn không thể truy cập được bất kể có khóa riêng tư chính xác hay không, vì các điều kiện chi tiêu không thể được khôi phục hoặc xác thực.

@@ -1,0 +1,8 @@
+question: Welk type wiskundige structuur vormen elliptische curvepunten onder de opteloperatie?
+answer: Een wiskundige groep met closure, associativiteit, identiteit en inverses
+wrong_answers:
+  - Een eindig veld met vermenigvuldigings- en delingsbewerkingen gedefinieerd
+  - Een vectorruimte met scalaire vermenigvuldiging en lineaire combinaties
+  - Een ringstructuur met zowel optel- als vermenigvuldigingsbewerkingen
+explanation: |
+  Elliptische krommepunten vormen een wiskundige groep onder optelling, wat betekent dat ze voldoen aan vier essentiële eigenschappen: geslotenheid (het optellen van twee punten geeft een ander punt op de kromme), associativiteit (de volgorde van de bewerkingen doet er niet toe), identiteit (het punt op oneindig werkt als nul) en inverses (elk punt heeft een reflectie over de x-as die het opheft). Deze groepsstructuur is fundamenteel voor cryptografie met elliptische krommen omdat het ervoor zorgt dat bewerkingen zoals scalaire vermenigvuldiging (een punt herhaaldelijk bij zichzelf optellen) goed gedefinieerd en voorspelbaar zijn, waardoor veilige cryptografische protocollen zoals die in Bitcoin mogelijk zijn.

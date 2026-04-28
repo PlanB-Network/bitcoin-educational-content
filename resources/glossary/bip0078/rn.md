@@ -1,5 +1,6 @@
 ---
 term: BIP0078
+definition: Uburyo bwa Payjoin bwongereza ibanga mugusaba uwakira gufasha mu bwinjiriro bw'itunshwa.
 ---
 
 Izana umurongo wo gukoresha PayJoin kuri Bitcoin, uburyo bwo gukorana butera imbere mu bijanye n’ubuzima bwite bw’ukwishura mu gushiramwo uwuronka nk’uwutanga inyungu iruhande y’uwutanga.

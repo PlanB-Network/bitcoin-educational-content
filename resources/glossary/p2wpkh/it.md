@@ -1,6 +1,7 @@
 ---
 term: P2WPKH
 
+definition: Script SegWit nativo che blocca i bitcoin sull'hash di una chiave pubblica, indirizzi bc1q.
 ---
 P2WPKH sta per *Pay to Witness Public Key Hash*. Si tratta di un modello di script standard utilizzato per stabilire le condizioni di spesa su un UTXO. P2WPKH è stato introdotto con l'implementazione di SegWit nell'agosto 2017.
 

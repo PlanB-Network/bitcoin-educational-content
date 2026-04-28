@@ -1,0 +1,9 @@
+question: Jak nazywa się wspólny publiczny rejestr, w którym zapisywana jest historia płatności w bitcoinach?
+answer: Blockchain
+wrong_answers:
+  - Mempool
+  - Portfel (wallet)
+  - Hashrate
+explanation: |
+  Wspólna publiczna księga zawierająca wszystkie transakcje to blockchain.
+reviewed: false

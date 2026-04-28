@@ -1,0 +1,8 @@
+question: In welk scenario zou RefCell het meest geschikt zijn om een compileertijd leenbeperking op te lossen?
+answer: Bij het implementeren van een schijnobject dat interne toestandsveranderingen moet bijhouden via een onveranderlijke eigenschapinterface
+wrong_answers:
+  - Als je gegevens moet delen tussen meerdere threads en atomaire referentietelling nodig hebt
+  - Als je runtime overhead wilt vermijden door alle leencontroles naar compileertijd te verplaatsen
+  - Bij het maken van circulaire verwijzingen tussen gegevensstructuren die automatisch geheugenopruiming nodig hebben
+explanation: |
+  RefCell is ontworpen voor interne mutabiliteitscenario's waarbij je gegevens moet muteren via een onveranderlijke referentie, vooral wanneer de statische analyse van de compiler te conservatief is. Mockobjecten die eigenschappen implementeren met onveranderlijke methoden, maar die de interne toestand moeten bijhouden, vormen een perfecte use case. De andere opties zijn onjuist: RefCell is niet thread-veilig, het verplaatst het controleren naar runtime (niet compileertijd), en het lost geen circulaire referentie problemen op - het kan er zelfs aan bijdragen wanneer het gecombineerd wordt met RC.

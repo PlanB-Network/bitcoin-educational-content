@@ -1,5 +1,6 @@
 ---
-term: 자동 결제
+term: Silent payments
+definition: 주소 재사용 없이 정적 주소를 통해 결제를 받는 방법.
 ---
 
 Address 재사용 없이, 상호 작용 없이, 다른 결제와 정적 Address 사이에 가시적인 On-Chain 링크 없이 정적 Bitcoin 주소를 사용하여 결제를 받는 방법. 이 기술을 사용하면 각 거래마다 사용하지 않는 새 수취 주소를 generate로 생성할 필요가 없으므로 수취인이 지급인에게 새 Address를 제공해야 하는 Bitcoin의 일반적인 상호 작용을 피할 수 있습니다.

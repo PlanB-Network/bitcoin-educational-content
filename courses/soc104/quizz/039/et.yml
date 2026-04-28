@@ -1,0 +1,9 @@
+question: Milline on Milton Friedmani vaatenurga kohaselt peamine probleem, kui sotsiaalpoliitikat hinnatakse pigem selle väljendatud eesmärkide kui tegelike tulemuste põhjal?
+answer: Heade kavatsustega poliitika toob sageli kaasa soovimatuid tagajärgi, mis on vastuolus selle algsete eesmärkidega, näiteks tekitab sõltuvust või turumoonutusi
+wrong_answers:
+  - Poliitikud esitavad oma tegelikke kavatsusi teadlikult valesti, et varjata avalikkuse eest oma tegelikku tegevuskava ja vältida vastutust
+  - Head kavatsused on oma olemuselt vigased, sest need peegeldavad pigem isiklikke eelarvamusi kui sotsiaalsete probleemide objektiivset teaduslikku analüüsi
+  - Püstitatud eesmärgid on tavaliselt liiga ambitsioonikad ja ebarealistlikud, et neid piiratud riigieelarve ja -ressursside raames saavutada
+explanation: |
+  Friedmani kriitika keskendub kavatsuste ja tulemuste erinevusele, mitte eesmärkide siirusele või teostatavusele. Ta väidab, et poliitika, mis on kavandatud
+  abiks mõeldud poliitika sageli tagasilöögi tõttu, kuna inimeste stiimuleid ja majandusmehhanisme ei mõisteta piisavalt. Küsimus ei ole mitte ebaaususes, erapoolikuses või eelarvepiirangutes, vaid pigem selles, et head kavatsused ei taga häid tulemusi. Seetõttu pooldab ta struktuurseid määratlusi, mis uurivad pigem seda, kuidas süsteemid tegelikult toimivad, kui seda, mida nad väidavad saavutada.

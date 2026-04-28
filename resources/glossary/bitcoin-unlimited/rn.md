@@ -1,5 +1,6 @@
 ---
-term: Bitcoin ATA MUGARUKO
+term: Bitcoin Unlimited
+definition: Icifuzo ca hard fork mu 2016 cakundira ingano y'ibice (blocks) ihindagurika, ariko ntiyashizwe mu bikorwa.
 ---
 
 Iciyumviro co guhindura amasezerano ya Bitcoin yasohotse mu mpera z'icuma 2016, kigamije kwongera ubunini bw'amabuye biciye ku Hard Fork.

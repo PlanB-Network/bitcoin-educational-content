@@ -1,5 +1,6 @@
 ---
-term: AMAFARAGA ABIRI
+term: Dual funding
+definition: Uburyo butuma impande zombi zishira amahera mu muyoboro wa Lightning mu gihe uriko urugururwa.
 ---
 
 Iyo umurongo wa Lightning ufunguwe, infashanyo zibiri zituma abo bompi bashobora gufunga ama bitcoins mu muhora. Ubutandukanye n’akarorero ka kera, aho urudodo rumwe gusa rutanga amahera y’umuyoboro, ubu buryo buratuma abo bompi bawutanga amahera, bikaba bituma habaho uburinganire bw’amahera ubwo nyene.

@@ -1,0 +1,9 @@
+question: Kui viimasel perioodil leiti plokid liiga kiiresti, mis siis juhtub?
+answer: Sihtväärtus langeb
+wrong_answers:
+  - Sihtväärtus tõuseb
+  - Sihtväärtus jääb samaks
+  - Ploki suurus suureneb
+explanation: |
+  Liiga kiiresti leitud plokid viitavad kõrgemale hashrate'ile, seega Bitcoin karmistab tingimusi, langetades sihtväärtust.
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: ENTROPY
+term: Entropi
+definition: Bir veri kaynağının öngörülemezliğinin ölçüsü, güvenli anahtarlar oluşturmak için çok önemlidir.
 ---
 
 Entropi, kriptografi ve bilgi bağlamında, bir veri kaynağı veya rastgele bir süreçle ilişkili belirsizliğin veya öngörülemezliğin nicel bir ölçüsüdür. Entropi, kriptografik sistemlerin güvenliğinde, özellikle de anahtarların ve rastgele sayıların üretilmesinde çok önemli bir rol oynar. Yüksek entropi, üretilen anahtarların yeterince öngörülemez olmasını ve bir saldırganın anahtarı tahmin etmek için tüm olası kombinasyonları denediği kaba kuvvet saldırılarına karşı dirençli olmasını sağlar.

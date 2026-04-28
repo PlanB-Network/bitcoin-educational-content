@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Menghabiskan Bitcoin memerlukan pemilik untuk menggunakan Kurva Eliptik untuk membuat tanda tangan
   untuk transaksi Bitcoin.
-reviewed: benar
+reviewed: true

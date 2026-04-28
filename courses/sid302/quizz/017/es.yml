@@ -1,0 +1,8 @@
+question: En el modelo de consenso federado de Liquid, ¿cuál es el número mínimo de firmas de funcionarios necesario para validar un bloque y cuál es el número máximo de fallos de nodos que puede tolerar la red?
+answer: 11 firmas necesarias, puede tolerar hasta 4 fallos de nodo
+wrong_answers:
+  - se requieren 8 firmas, puede tolerar hasta 7 fallos de nodo
+  - se requieren 15 firmas, puede tolerar hasta 2 fallos de nodo
+  - se requieren 9 firmas, puede tolerar hasta 6 fallos de nodo
+explanation: |
+  Liquid utiliza un sistema de umbral 11-de-15 en el que al menos 11 de 15 funcionarios deben firmar cada bloque para que sea válido. Este diseño permite que la red siga funcionando aunque fallen hasta 4 nodos (15 - 11 = 4). Las demás opciones proporcionan umbrales de firma incorrectos o calculan mal la tolerancia a fallos, que siempre es el total de nodos menos las firmas requeridas.

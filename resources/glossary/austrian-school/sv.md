@@ -1,5 +1,6 @@
 ---
-term: ÖSTERRIKISK SKOLA
+term: Österrikiska skolan
+definition: En ekonomisk tanketradition som försvarar fria marknader, privat egendom och kritiserar statlig inblandning. En filosofi som delas av många Bitcoin-entusiaster.
 ---
 
 En ekonomisk skola som teoretiserar marknaden som en samling av frivilliga individuella interaktioner, betonar spontaniteten i den ekonomiska ordningen och kritiserar statliga ingripanden. Den österrikiska skolan förespråkar privat egendom, avtalsfrihet och frihandel, samtidigt som den kritiserar penningskapandets störande effekter på ekonomin. Dess företrädare, såsom Carl Menger, Ludwig von Mises och Friedrich Hayek, har utvecklat begrepp som prisbildning, pengars funktion, kapitaldynamik och den subjektiva värdeteorin. Den österrikiska skolan kritiserar socialismen för dess oförmåga att utföra effektiva ekonomiska beräkningar och förespråkar ett liberalt synsätt. Den värdesätter den fria marknaden och ser statlig interventionism som en källa till ekonomiska obalanser. Många Bitcoin-entusiaster följer dessa idéer och tror att Bitcoin representerar ett verktyg i harmoni med denna filosofi på grund av dess distribuerade natur, begränsningen av dess monetära skapande och dess förmåga att fungera oberoende av statliga ingripanden.

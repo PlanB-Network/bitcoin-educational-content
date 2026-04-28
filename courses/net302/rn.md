@@ -306,18 +306,19 @@ Igipande ca mbere nyene kiri mu mutwe citwa Version. Iyi nkuru y'ibice 4 igaraga
 
 
 
-| Version Number | Protocol   | Version Description         | Reference               |
+
+| Inomero y'Itohoza | Porotokole | Isiguro ry'Itohoza | Icerekezo |
 | -------------- | ---------- | --------------------------- | ----------------------- |
-| 0–1            | Reserved   | Reserved                    |                         |
-| 2–3            | Unassigned | Unassigned                  |                         |
-| 4              | IP         | Internet Protocol           | RFC 791                 |
-| **5**          | **ST**     | **ST Datagram mode**        | **RFC 1190** / RFC 1819 |
-| 6              | IPv6       | Internet Protocol version 6 | RFC 8200                |
-| 7              | TP/IX      | The Next Internet           | RFC 1475                |
-| 8              | PIP        | The P Internet Protocol     | RFC 1621                |
-| 9              | TUBA       | Tuba                        | RFC 1347                |
-| 10–14          | Unassigned | Unassigned                  |                         |
-| 15             | Reserved   | Reserved                    |                         |
+| 0–1 | Vyaziganywe | Vyaziganywe | |
+| 2–3 | Ntivyashizweko | Ntivyashizweko | |
+| 4 | IP | Porotokole ya Interineti | RFC 791 |
+| **5** | **ST** | **Uburyo bwa datagrama ya ST** | **RFC 1190** / RFC 1819 |
+| 6 | IPv6 | Porotokole ya Interineti itohoza rya 6 | RFC 8200 |
+| 7 | TP/IX | Interineti ikurikira | RFC 1475 |
+| 8 | PIP | Porotokole ya Interineti ya P | RFC 1621 |
+| 9 | TUBA | Tuba | RFC 1347 |
+| 10–14 | Ntivyashizweko | Ntivyashizweko | |
+| 15 | Vyaziganywe | Vyaziganywe | |
 
 Muri izo harimwo IPv5, naho ahanini itazwi na bose, yariho vy’ukuri nk’iyi ST (_Stream Protocol_). Yateguwe mu myaka ya 1980, IPv5 yari yateguwe kugira ngo Address ivyipfuzo vyariko birakura muri ico gihe: gutanga "_Quality of Service_" (QoS) ku nzira zimwe zimwe z'amakuru zari zisaba ko zikomeza, zidahinduka, nk'Ijwi kuri IP canke imirongo y'amakuru menshi. Intumbero yayo yari iyo gutuma habaho uburebure bw’uruja n’uruza n’ugushira imbere, iciyumviro gisa n’ico RSVP (_Resource Reservation Protocol_) itanga uno musi ku bijanye no kubika ibikoresho vy’urubuga ku nzira z’ubuhinga bwa none.
 
@@ -485,14 +486,15 @@ Mu mateka, ubuhinga bwa IPv4 bwari bwishingikirije ku mugambi ushingiye ku rwego
 
 
 
-| **Class** | **IPv4 Address Range**            | **Usage**                    |
+
+| **Icyiciro** | **Urugero rwa aderesi IPv4**  | **Ikoreshwa**               |
 | --------- | --------------------------------- | ---------------------------- |
-| A         | 1.x.x.x to 126.x.x.x              | Unicast addresses            |
-|           | (127.x.x.x reserved for loopback) | Local loopback               |
-| B         | 128.0.x.x to 191.255.x.x          | Unicast addresses            |
-| C         | 192.0.0.x to 223.255.255.x        | Unicast addresses            |
-| D         | 224.0.0.0 to 239.255.255.255      | IP Multicast                 |
-| E         | 240.0.0.0 to 255.255.255.255      | Reserved for experimentation |
+| A         | 1.x.x.x gushika 126.x.x.x         | Aderesi za unicast           |
+|           | (127.x.x.x yabikiwe loopback)     | Loopback yo hafi             |
+| B         | 128.0.x.x gushika 191.255.x.x     | Aderesi za unicast           |
+| C         | 192.0.0.x gushika 223.255.255.x   | Aderesi za unicast           |
+| D         | 224.0.0.0 gushika 239.255.255.255 | IP Multicast                 |
+| E         | 240.0.0.0 gushika 255.255.255.255 | Yabikiwe igerageza           |
 
 Si agaciro kose gashoboka gashobora guhabwa abashitsi. Nk’akarorero, mu **umugwi C** Address, byte ya nyuma itanga ibice 8 (agaciro 256). Ariko bibiri muri ivyo birabitswe:
 
@@ -573,13 +575,14 @@ Turashaka ama subnets 4 agera ku ba hosts 60 kuri imwe yose.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Indangamuntu ya subnet (bit) | Aderesi ya subnet | Mask ya subnet | Urutonde rw’amaderesi      | Aderesi ya broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Intambwe ya 5**: Ivyo bituma habaho ama subnetwork ane, imwe yose ikaba ifasha imashini zishika 62, mu gihe umugambi wo gutanga aderesi muri rusangi uguma ukora neza. Igice ca _hostid_ kigabanywamwo igice ca _subnetid_ n'igice c'umushitsi.
 
@@ -623,7 +626,9 @@ Igipande ca /17 kirimwo amaderesi 2^(32-17) rero 2^15 = amaderesi yose hamwe 32.
 Kugira ngo CIDR sizing yorohe gutahura, ng'iyi imbonerahamwe y'intango rusangi n'ibipfukisho vy'uruja n'uruza n'amaderesi akoreshwa:
 
 
-| CIDR Prefix | Available Host Bits | Subnet Mask     | Usable Host Addresses         |
+
+
+| Prefix CIDR | Bit za host ziboneka | Mask ya subnet | Aderesi za host zikoreshwa |
 | ----------- | ------------------- | --------------- | ----------------------------- |
 | /8          | 24                  | 255.0.0.0       | 2^24 - 2 = 16,777,214         |
 | /12         | 20                  | 255.240.0.0     | 2^20 - 2 = 1,048,574          |
@@ -635,9 +640,8 @@ Kugira ngo CIDR sizing yorohe gutahura, ng'iyi imbonerahamwe y'intango rusangi n
 | /28         | 4                   | 255.255.255.240 | 2^4 - 2 = 14                  |
 | /29         | 3                   | 255.255.255.248 | 2^3 - 2 = 6                   |
 | /30         | 2                   | 255.255.255.252 | 2^2 - 2 = 2                   |
-| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point only) |
-| /32         | 0                   | 255.255.255.255 | 1 (host address only)         |
-
+| /31         | 1                   | 255.255.255.254 | 2^1 = 2 (point-to-point gusa) |
+| /32         | 0                   | 255.255.255.255 | 1 (aderesi ya host gusa)     |
 
 **ICIBUKIRO**: Mu mateka, RFC 950 yaracishije bugufi gukoresha subnet zero, ahanini kugira ngo ntihagire uwuvyura urujijo mu bijanye no gutanga inzira.  Iryo tegeko ryaciye ritagira akamaro na RFC 1878, yemerera gukoreshwa. Ivyo vya kera vyari bivuye ahanini ku kudahuza n’ibikoresho vya kera bitashobora gukora neza CIDR. Ivyombo vyo muri iki gihe nta ngorane nk’iyo bifise.
 
@@ -819,12 +823,13 @@ Ubwubatsi bw’ibice bukurikira ingingo ngenderwako y’uko Layer yose ikora ama
 Imbonerahamwe iri musi ivuga mu ncamake amajambo y'imirongo ya TCP na UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Urwego TCP/IP        | Izina ry’igice (TCP) | Izina ry’igice (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Urwego rwa porogaramu | Umugezi          | Ubutumwa         |
+| Urwego rwo gutwara   | Segimenti        | Paketi           |
+| Urwego rwa internet  | Datagram         | Datagram         |
+| Urwego rwo kwinjira mu muyoboro | Frame | Frame            |
 
 ### Ibikorwa vya kera n'ibice vy'amakuru
 
@@ -907,7 +912,8 @@ Imbonerahamwe iri musi yerekana iyo nzira:
 
 
 
-| Binary Code | Activated Bit Values          | Decimal Value |
+
+| Kode ya binary | Uduciro twa bit dukora       | Agaciro ka desimali |
 |-------------|-------------------------------|---------------|
 | 00000000    | 0                             | 0             |
 | 00000001    | 1                             | 1             |
@@ -922,7 +928,8 @@ Imbonerahamwe iri musi yerekana iyo nzira:
 Guhindura bibiri mu cumi, wongereko uburemere bw'ibice vyashizwe kuri 1.
 
 
-| Binary     | Decimal Value |
+
+| Binary     | Agaciro ka desimali |
 | ---------- | ------------- |
 | `10101100` | 172           |
 | `00010000` | 16            |
@@ -961,13 +968,14 @@ Mu ntango, imihora ya IPv4 yari igabanywemwo **imigwi** itanu: (A, B, C, D na E)
 
 
 
-| Class | Leading Bits | First Byte Range | Default Subnet Mask | Purpose                          |
+
+| Icyiciro | Biti zitangura | Urugero rwa byte ya mbere | Mask ya subnet y’imbere | Intego                        |
 | ----- | ------------ | ---------------- | ------------------- | -------------------------------- |
-| A     | 0            | 0 – 127          | 255.0.0.0           | Very large networks              |
-| B     | 10           | 128 – 191        | 255.255.0.0         | Medium-sized networks            |
-| C     | 110          | 192 – 223        | 255.255.255.0       | Small networks                   |
-| D     | 1110         | 224 – 239        | N/A                 | Multicast addresses              |
-| E     | 1111         | 240 – 255        | N/A                 | Experimental (not publicly used) |
+| A     | 0            | 0 – 127          | 255.0.0.0           | Imiyoboro minini cane            |
+| B     | 10           | 128 – 191        | 255.255.0.0         | Imiyoboro y’igitigiri hagati     |
+| C     | 110          | 192 – 223        | 255.255.255.0       | Imiyoboro mito                   |
+| D     | 1110         | 224 – 239        | Nta biriho           | Aderesi za multicast             |
+| E     | 1111         | 240 – 255        | Nta biriho           | Iyigeragezwa (ntikoreshwa ku mugaragaro) |
 
 Aderesi zidasanzwe:
 
@@ -1222,7 +1230,8 @@ Imbonerahamwe y’inzira, icungiwe n’amaboko (inzira idahinduka) canke n’ing
 Imbonerahamwe y'inzira ikora nk'imbonerahamwe y'ikarita hagati y'amaderesi IP y'intumbero n'amarembo akurikira. Ubusanzwe ibika ibimenyetso vy'urubuga (_network ID_) aho kubika umushitsi wese Address, ivyo bikaba bigabanya cane ubunini bwayo.
 
 
-| Destination Address | Next-Hop Router Address | Interface |
+
+| Aderesi y’aho igenewe | Aderesi ya router y’intambwe ikurikira | Interface |
 | ------------------- | ----------------------- | --------- |
 
 Ukoresheje ivyo bintu, iyo router irashobora kumenya ningoga Interface iyihe be n’aho datagram yose ikwiye kurungikwa. Ivyo bifatanijwe na ARP yo gutorera umuti amaderesi ya MAC ahuye, bituma amakuru ashobora guhererekanwa neza kandi yizewe ku rubuga rwose.
@@ -1298,11 +1307,12 @@ Iryo hame ry’ubuhinduzi ry’inguvu rishingiye ku gucunga neza imeza: ikintu c
 _Akarorero k'imbonerahamwe yoroshe y'ubuhinduzi bwa NAT:_
 
 
-| Internal IP   | External IP    | Duration (sec) | Reusable? |
+
+| IP y’imbere | IP yo hanze | Igihe (amasegonda) | Ishobora gukoreshwa kandi? |
 | ------------- | -------------- | -------------- | --------- |
-| 10.101.10.20  | 193.48.100.174 | 1,200          | no        |
-| 10.100.54.251 | 193.48.101.8   | 3,601          | yes       |
-| 10.100.0.89   | 193.48.100.46  | 0              | no        |
+| 10.101.10.20  | 193.48.100.174 | 1,200          | oya       |
+| 10.100.54.251 | 193.48.101.8   | 3,601          | ego       |
+| 10.100.0.89   | 193.48.100.46  | 0              | oya       |
 
 Muri aka karorero, iyo ata paketi yaciyemwo ku bijanye n’injira ya kabiri mu kiringo kirenze isaha (amasegonda 3.600), irashirwako ikimenyetso c’uko ishobora gusubira gukoreshwa. Ku rundi ruhande, igihe c’ubusa kigaragaza uguhanahana amakuru gukomeye, n’ikarata ipfungiwe.
 
@@ -1766,13 +1776,14 @@ IPv6 Address itamenyekanye igereranywa na `::` canke, mu buryo butomoye, `::0.0.
 
 
 
-| IPv6 Address Prefix | Description                                 |
+
+| Prefix ya aderesi IPv6 | Insiguro                            |
 | ------------------- | ------------------------------------------- |
-|::/8                | Reserved addresses                          |
-| 2000::/3            | Unicast addresses, routable on the Internet |
-| fc00::/7            | Unique local addresses (1)                  |
-| fe80::/10           | Link-local addresses                        |
-| ff00::/8            | Multicast addresses                         |
+|::/8                | Aderesi zabitswe                           |
+| 2000::/3            | Aderesi za unicast, zishobora kuyoborwa kuri Internet |
+| fc00::/7            | Aderesi z’imbere zidasubirwamwo (1)        |
+| fe80::/10           | Aderesi zo ku murongo w’ihuriro             |
+| ff00::/8            | Aderesi za multicast                       |
 
 (1): *Kuri LAN yigenga, intango `fd00::/8` irakundwa mu gutanga aderesi zo mu mutima zidashobora gukoreshwa kuri Internet.*
 
@@ -1854,14 +1865,17 @@ Ubwa nyuma, amaderesi yihariye yo mu karere (_ULA_, ku _Aderesi yihariye yo mu k
 Mu vyiyumviro, aderesi za IPv6 akenshi zigaragazwa nk’imiterere y’ibice bibiri aho igice ca mbere (ibice 64 vya mbere) kigaragaza intango y’urubuga, igice ca kabiri (na co nyene ni ibice 64) kigaragaza mu buryo budasanzwe Interface y’igikoresho kuri urwo rubuga. Ivyo bica bituma Address ishobora gutunganya ubwayo biciye mu buryo nka SLAAC (_Stateless Address Autoconfiguration_), butuma imashini zishobora gutunganya Address idahinduka ishingiye kuri MAC Address canke ikimenyetso c’ibinyoma.
 
 
-| Field     | Prefix | L | Global ID | Subnet | Interface ID |
+
+| Umwanya   | Prefix | L | Indangamuntu rusangi | Subnet | Indangamuntu y’interface |
 |-----------|--------|---|-----------|--------|---------------|
 | Bits      | 7      | 1 | 40        | 16     | 64            |
 
 Ubwubatsi bwa IPv6 bukurikira uburyo bwo gukoresha inzira z’isi yose bwa Internet y’ubu. Gucapura amajambo y’intango bituma amashirahamwe y’akarere n’abakoresha urubuga bashobora gucunga ugutanga Address mu buryo bwegerejwe, mu gihe bashobora gutuma haba ubudasa kw’isi yose. Muri iyo nzira, uwo mushitsi umwe arashobora gufata icarimwe unicast y’isi yose Address yo guhanahana amakuru kuri internet n’iyindi Address yo gukorana n’abandi, nk’akarorero. n'ababanyi ba hafi canke ku butumwa bwo kuvumbura router.
 
 
-| Field     | Prefix | Zero | Interface ID |
+
+
+| Umwanya   | Prefix | Zeru | Indangamuntu y’interface |
 |-----------|--------|------|--------------|
 | Bits      | 10     | 54   | 64           |
 
@@ -1869,8 +1883,9 @@ Ubwubatsi bwa IPv6 bukurikira uburyo bwo gukoresha inzira z’isi yose bwa Inter
 
 
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
+
+| Umwanya     | Imbanziriza | Umuringa w'imibare | Numero y'umwibutsa |
+|-----------|--------|--------|______________|
 | Bits      | 48     | 16     | 64           |
 
 Mu IPv6, **amaderesi menshi** asubirira uburyo bwo gutangaza, bwabonwa ko buzimvye cane kandi butabereye ku rubuga rw’isi yose. Multicast Address igaragaza umugwi w’ibikoresho, cane cane mu bibanza vyinshi, bipfuza kwakira amapakete amwe icarimwe.
@@ -1893,7 +1908,8 @@ Ubuhinga bwa IPv6 Address burimwo:
 - umwanya wo kumenya (112 bits) ugaragaza umubare w'umugwi w'abamenyeshamakuru benshi.
 
 
-| Field      | Prefix | Flags | Scope | Group ID |
+
+| Umwanya      | Imbanziriza | Ibidukiro | Iciro | Numero ya guruswa |
 |------------|--------|--------|--------|----------|
 | Bits       | 8      | 4      | 4      | 112      |
 
@@ -2013,8 +2029,9 @@ Kuva mu mwaka w’2006, RIR yose yararonse IPv6 /12 block iva kuri IANA, ubunini
 Uburongozi busanzwe bw'ugutanga busa n'ubu:
 
 
-| IANA | RIR | LIR | Customer | Subnet | Interface |
-|------|-----|-----|----------|--------|-----------|
+
+| IANA | RIR | LIR | Umuntu uguzi | Umuringa w'imibare | Umwibutsa |
+|------|-----|-----|----------|--------|----------|
 |  3   | 20  |  9  |    16    |   16   |     64    |
 
 Kubera ubwo bwinshi bw’amaderesi, NAT (*Impinduro y’urubuga Address*), yahora ari ngirakamaro muri IPv4 kugira ngo umuntu ashobore guhangana n’ubukene bwa Address, ntabwo igikenewe. Buri mushitsi ashobora kugira Address yihariye, ishobora gukoreshwa kw’isi yose, yorosha uguhuza kw’iherezo n’iherezo no gutuma amasezerano nka IPSec, VoIP, canke uguhuza kwinjira yoroha gukoresha.

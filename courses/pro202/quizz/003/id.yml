@@ -1,0 +1,8 @@
+question: Fungsi Python apa yang secara khusus disebutkan untuk melakukan eksponensial modular yang efisien dalam operasi kriptografi?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Fungsi pow(base, exp, mod) bawaan Python dirancang khusus untuk eksponensial modular yang efisien, yang sangat penting untuk operasi kriptografi yang melibatkan eksponen yang besar. Fungsi ini menggunakan algoritma yang dioptimalkan untuk menghitung (base^exp) mod mod tanpa harus menghitung hasil perantara yang berpotensi sangat besar dari base^exp terlebih dahulu. Pilihan lainnya adalah fungsi Python yang tidak valid - mod(), exp(), dan mult() dengan pola parameter ini tidak ada dalam pustaka standar Python untuk aritmatika modular kriptografi.

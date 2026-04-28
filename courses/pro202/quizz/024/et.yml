@@ -1,0 +1,8 @@
+question: Mis on peamine põhjus, miks on Bitcoin-s haavatavad ainult avalike andmete kasutamisel ilma allkirja kontrollimiseta kasutatavad skriptid?
+answer: Kaevurid võivad kopeerida lahenduse mempoolist ja suunata väljamakse endale ümber
+wrong_answers:
+  - Skripti täitmine muutub mittedeterministlikuks erinevates võrgusõlmedes
+  - Tehingu valideerimise aeg suureneb kvadraalselt koos mõistatuse keerukusega
+  - Korstnapõhine täitmismudel ei saa turvaliselt hakkama keeruliste matemaatiliste operatsioonidega
+explanation: |
+  Skripti mõistatused, mis tuginevad ainult avalikele andmetele (nagu matemaatikaülesanded või hash-eeskujud) ilma allkirja kontrollimiseta, on kaevurite eesrindlikule käitumisele haavatavad. Kui kehtiv lahendus ilmub mempool'i, võib iga kaevur seda jälgida, lahenduse kopeerida ja luua oma tehingu, mis suunab väljamakse oma aadressile. Seepärast sisaldavad tegelikud Bitcoin lepingud peaaegu alati allkirja kontrolli - allkiri seob lahenduse konkreetse osapoolega ja takistab teistel väljamakseid varastamast, säilitades mõistatuste lahendajate õiged stiimulid.

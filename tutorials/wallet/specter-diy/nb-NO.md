@@ -31,7 +31,7 @@ QR-koder er en standard måte for Specter å kommunisere med verten på. QR-kode
 For lagring av hemmeligheter støtter vi agnostisk modus (wallet glemmer alle hemmeligheter når den slås av), hensynsløs modus (lagrer hemmeligheter i applikasjonsmikrokontrolleren), og secure element-integrering kommer snart.
 
 
-Hovedfokuset vårt er multisignaturoppsett med andre maskinvarelommebøker, men wallet kan også fungere som enkeltsignerer. Vi prøver å gjøre den kompatibel med Bitcoin Core der vi kan - PSBT for usignerte transaksjoner, wallet-beskrivelser for import/eksport av multisignaturlommebøker. For å kommunisere med Bitcoin Core på en enklere måte jobber vi også med [Specter Desktop app] (https://github.com/cryptoadvance/specter-desktop) - en liten python flask-server som snakker med din Bitcoin Core node.
+Hovedfokuset vårt er multisignaturoppsett med andre maskinvarelommebøker, men wallet kan også fungere som enkeltsignerer. Vi prøver å gjøre den kompatibel med Bitcoin Core der vi kan - PSBT for usignerte transaksjoner, wallet-beskrivelser for import/eksport av multisignaturlommebøker. For å kommunisere med Bitcoin Core på en enklere måte jobber vi også med [Specter Desktop app](https://github.com/cryptoadvance/specter-desktop) - en liten python flask-server som snakker med din Bitcoin Core node.
 
 
 Det meste av fastvaren er skrevet i MicroPython, noe som gjør koden enkel å revidere og endre. Vi bruker biblioteket [secp256k1](https://github.com/bitcoin-core/secp256k1) fra Bitcoin Core for elliptiske kurveberegninger og biblioteket [LittlevGL](https://lvgl.io/) for GUI.
@@ -43,7 +43,7 @@ Det meste av fastvaren er skrevet i MicroPython, noe som gjør koden enkel å re
 Prosjektet har modnet betydelig, slik at sikkerhetsnivået til Spectre-DIY nå kan sammenlignes med kommersielle maskinvarelommebøker på markedet. Vi har implementert en sikker oppstartslaster som verifiserer fastvareoppgraderinger, slik at du kan være sikker på at kun signert fastvare kan lastes opp til enheten etter førstegangsoppsett. I motsetning til kommersielle signeringsenheter må imidlertid bootloaderen installeres manuelt av brukeren, og den er ikke satt opp på fabrikken av enhetsleverandøren. Vær derfor ekstra oppmerksom under den første installasjonen av fastvaren, og sørg for at du verifiserer PGP-signaturer og flasher fastvaren fra en sikker datamaskin.
 
 
-Hvis noe ikke fungerer, kan du åpne et problem her eller stille et spørsmål i [Telegram-gruppen] (https://t.me/+VEinVSYkW5TUl5Ai).
+Hvis noe ikke fungerer, kan du åpne et problem her eller stille et spørsmål i [Telegram-gruppen](https://t.me/+VEinVSYkW5TUl5Ai).
 
 
 ## Handleliste for Specter-DIY
@@ -67,7 +67,7 @@ Hoveddelen av enheten er utviklerkortet:
 Valgfritt, men anbefalt:
 
 
-- [Waveshare QR-kodeskanner] (https://www.waveshare.com/barcode-scanner-module.htm) med lange pinnehoder som [disse] (https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) eller [disse] (https://www.amazon.com/gp/product/B015KA0RRU/) for å koble skanneren til kortet (4 pinnehoder trengs).
+- [Waveshare QR-kodeskanner](https://www.waveshare.com/barcode-scanner-module.htm) med lange pinnehoder som [disse](https://eu.mouser.com/ProductDetail/Samtec/DW-02-10-T-S-571?qs=sGAEpiMZZMvlX3nhDDO4AE5PKXAQeC6NPk%2FcLBS9yKI%3D) eller [disse](https://www.amazon.com/gp/product/B015KA0RRU/) for å koble skanneren til kortet (4 pinnehoder trengs).
 
 
 Vi jobber for tiden med et utvidelseskort som inkluderer et smartkortspor, QR-kodeskanner, batteri og et 3d-printet etui, men det inkluderer ikke hoveddelen - oppdagelseskortet som du må bestille separat. På denne måten er angrep på forsyningskjeden fortsatt ikke et problem, ettersom de sikkerhetskritiske komponentene kjøpes fra en tilfeldig elektronikkbutikk.
@@ -85,7 +85,7 @@ For QR-kodeskanner har du flere alternativer.
 **Alternativ 1. Anbefalt ** Resonably god skanner fra Waveshare (40 $)
 
 
-[Waveshare-skanner] (https://www.waveshare.com/barcode-scanner-module.htm) - du må finne en måte å montere den pent på, kanskje bruke en slags Arduino Prototype-skjold og litt ducktape.
+[Waveshare-skanner](https://www.waveshare.com/barcode-scanner-module.htm) - du må finne en måte å montere den pent på, kanskje bruke en slags Arduino Prototype-skjold og litt ducktape.
 
 
 Ingen lodding kreves, men hvis du har loddeferdigheter, kan du gjøre wallet mye finere ;)
@@ -94,7 +94,7 @@ Ingen lodding kreves, men hvis du har loddeferdigheter, kan du gjøre wallet mye
 **Alternativ 2.** Veldig fin skanner fra Mikroe, men ganske dyr (150 $):
 
 
-[Strekkodeklikk] (https://www.mikroe.com/barcode-click) + [Adapter] (https://www.mikroe.com/arduino-uno-click-shield)
+[Strekkodeklikk](https://www.mikroe.com/barcode-click) + [Adapter](https://www.mikroe.com/arduino-uno-click-shield)
 
 
 **Alternativ 3: Enhver annen QR-skanner
@@ -138,7 +138,7 @@ Slik kobler du skanneren til kortet:
 ![image](assets/fr/02.webp)
 
 
-For enkelhets skyld kan du kjøpe et Arduino Protype-skjold og lodde og montere alt på det (f.eks. [denne] (https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347))
+For enkelhets skyld kan du kjøpe et Arduino Protype-skjold og lodde og montere alt på det (f.eks. [denne](https://www.digikey.com/catalog/en/partgroup/proto-shield-rev3-uno-size/79347))
 
 
 ### Strømstyring
@@ -150,7 +150,7 @@ På oversiden av kortet er det en jumper som definerer hvor det skal få strøm.
 ### Skap for DIY
 
 
-Ta en titt i mappen [enclosures] (https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
+Ta en titt i mappen [enclosures](https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures).
 
 
 ### Vær kreativ!
@@ -159,7 +159,7 @@ Ta en titt i mappen [enclosures] (https://github.com/cryptoadvance/specter-diy/t
 Sett sammen din egen Specter-DIY og send oss bildene (lag en pull-forespørsel eller ta kontakt med oss).
 
 
-Ta en titt på [Galleri] (https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) med spøkelser satt sammen av fellesskapet!
+Ta en titt på [Galleri](https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) med spøkelser satt sammen av fellesskapet!
 
 
 
@@ -176,12 +176,12 @@ Med den sikre bootloaderen er den første installasjonen av fastvaren litt anner
 ### Blinker innledende fastvare
 
 
-**Hvis du ikke vil bruke binærfiler fra utgivelsene, kan du se [bootloader documentation] (https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) som forklarer hvordan du kompilerer og konfigurerer den til å bruke dine offentlige nøkler i stedet for våre.
+**Hvis du ikke vil bruke binærfiler fra utgivelsene, kan du se [bootloader documentation](https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) som forklarer hvordan du kompilerer og konfigurerer den til å bruke dine offentlige nøkler i stedet for våre.
 
 
 
 - Hvis du oppgraderer fra versjoner under `1.4.0` eller laster opp fastvaren for første gang, bruker du `initial_firmware_<version>.bin` fra [releases](https://github.com/cryptoadvance/specter-diy/releases)-siden.
- - Verifiser signaturen til filen `sha256.signed.txt` mot [Stepans PGP-nøkkel] (https://stepansnigirev.com/ss-specter-release.asc)
+ - Verifiser signaturen til filen `sha256.signed.txt` mot [Stepans PGP-nøkkel](https://stepansnigirev.com/ss-specter-release.asc)
  - Verifiser hashen til `initial_firmware_<version>.bin` mot hashen som er lagret i `sha256.signed.txt`
 - Hvis du oppgraderer fra en tom bootloader eller hvis du ser en feilmelding om at fastvaren ikke er gyldig, kan du lese neste avsnitt - Blinke signert Specter-fastvare.
 - Kontroller at strømbyttebryteren på oppdagelseskortet står i STLK-posisjon
@@ -195,7 +195,7 @@ Med den sikre bootloaderen er den første installasjonen av fastvaren litt anner
 Noen ganger mislykkes det å blinke den opprinnelige fastvaren via copy-paste av `.bin`-filen - ofte på grunn av kabelen, eller hvis du kobler enheten via en USB-hub. I dette tilfellet kan du prøve noen ganger til (fungerer normalt i 2-3 forsøk).
 
 
-Hvis det mislykkes hele tiden, kan du bruke [stlink] (https://github.com/stlink-org/stlink/releases/latest) open source-verktøy. Installer det og skriv inn i terminalen din: `st-flash write <path/to/initial_firmare.bin> 0x8000000`. Det fungerer vanligvis mye mer pålitelig.
+Hvis det mislykkes hele tiden, kan du bruke [stlink](https://github.com/stlink-org/stlink/releases/latest) open source-verktøy. Installer det og skriv inn i terminalen din: `st-flash write <path/to/initial_firmare.bin> 0x8000000`. Det fungerer vanligvis mye mer pålitelig.
 
 
 ### Oppgradering av fastvare

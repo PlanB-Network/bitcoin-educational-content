@@ -1,0 +1,9 @@
+question: Welches dieser Kriterien ist für die Peer-Konnektivität am wichtigsten?
+answer: Zentrale Position im Diagramm
+wrong_answers:
+  - Name des Knotens im Diagramm
+  - Farbe des Knotens im Diagramm
+  - Anzahl der Meldungen im Diagramm
+explanation: |
+  Ein gut positionierter Knoten im Lightning-Graphen erleichtert das Routing zu vielen Zielen.
+reviewed: false

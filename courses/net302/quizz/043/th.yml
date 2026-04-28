@@ -1,0 +1,9 @@
+question: ซอฟต์แวร์โอเพนซอร์สที่มักใช้เป็นข้อมูลอ้างอิงสำหรับเซิร์ฟเวอร์ DNS คืออะไร?
+answer: ผูก
+wrong_answers:
+  - อาปาเช่
+  - ปลาหมึก
+  - แซมบ้า
+explanation: |
+  BIND (Berkeley Internet Name Domain) เป็นการใช้งานอ้างอิงแบบโอเพนซอร์สที่ใช้โดยเซิร์ฟเวอร์ DNS ส่วนใหญ่ทั่วโลก
+reviewed: false

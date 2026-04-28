@@ -1,0 +1,8 @@
+question: According to Mises' regression theorem, how does a commodity currency initially acquire its monetary value?
+answer: It has a premonetary utility value in the barter economy, which precedes its monetary use
+wrong_answers:
+  - It acquires its value by government decree and institutional acceptance by the monetary authorities
+  - It derives its value from the collective confidence of users in the central banking system
+  - "It develops its value through financial market speculation and the mechanisms of supply and demand"
+explanation: |
+  Mises' regression theorem resolves the circular paradox that a currency must have value in order to be demanded, but must be demanded in order to have value. Mises explains that commodity currencies such as gold and silver already possessed practical utility in the barter economy before they became money. This pre-existing use value provides a logical explanation for their subsequent monetary adoption, unlike institutional or speculative explanations.

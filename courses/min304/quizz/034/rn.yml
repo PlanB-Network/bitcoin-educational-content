@@ -1,0 +1,13 @@
+question: Ni iyihe ntumbero y’umuryango wa Bitcoin mu bijanye n’ugucungera umuhora?
+answer: Kugira ngo hakomezwe ugukwiragiza, ukurwanya ugucengera, no kurwanya ubugoyagoye bw’urubuga.
+wrong_answers:
+  - Kugira ngo bongere igiciro ca Bitcoin.
+  - Kugira ngo amafaranga yihute.
+  - Kugira ngo wongere ingorane za Mining.
+explanation: |
+  Umuryango wagutse wa Bitcoin uguma wihatira 
+  gukomeza ikwiragizwa ry'umuhora, kurwanya ukugenzurwa, no kurwanya ukworoha kw'umuhora.
+  Ivyo bihuye n’ubutumwa nyamukuru bwa Bitcoin kuba umuhora
+  wo guhanahana amafranga ushobora guhangana nabashaka kuwugenzura. 
+  umuhora.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni ikihe kibazo nyamukuru c’umutekano gituma P2SH itandukanye cane n’ibikorwa vy’ubudandaji vya Bitcoin mu bijanye no gusubirana amafaranga?
+answer: Gutakaza inyandiko yo gucungura bifunga amafaranga ubudasiba naho woba ufise imfunguruzo z'ibanga
+wrong_answers:
+  - Hash y'amabayiti 20 ishobora gukoreshwa ku nguvu iyo inyandiko yo gucungura yoroshe cane
+  - Amaderesi ya P2SH arahera inyuma y'uburebure bw'ibarabara bumwe bumwe bituma amahera adashobora gusubirwamwo
+  - Intambwe zibiri zo kwemeza zishobora kunanirwa bigatuma amafaranga atakaza ubudasiba
+explanation: |
+  P2SH izana igisabwa c’umutekano kidasanzwe: imfunguruzo z’ibanga n’inyandiko yo gucungura vyose birakenewe kugira ngo umuntu akoreshe amahera. Mu buryo butandukanye n’ibikorwa bisanzwe aho imfunguruzo z’ibanga gusa zikenewe, P2SH isaba ko inyandiko y’ugucungura nyayo itangwa mu gihe co gukoresha amahera. Iyo inyandiko yo gucungura itakaye, ayo mahera aca adashobora gushikwako ubudasiba ataco afatiye ku kuba afise imfunguruzo z’ibanga zibereye, kuko ivyangombwa vyo gukoresha amahera bidashobora gusubirwamwo canke kwemezwa.

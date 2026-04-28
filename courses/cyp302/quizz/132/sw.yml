@@ -6,4 +6,4 @@ wrong_answers:
   - Nambari za Uthibitishaji wa Ujumbe (MAC)
 explanation: |
   Sahihi za kidijitali katika Bitcoin huthibitisha umiliki wa fedha kwa kutia saini miamala kwa kutumia ufunguo wa faragha ili kufungua hati inayolinda UTXO.
-reviewed: false
+reviewed: true

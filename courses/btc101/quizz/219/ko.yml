@@ -1,8 +1,9 @@
-question: Lightning Network은 어떤 종류의 네트워크를 생성하나요?
-answer: 결제 채널 네트워크.
+question: 이 장에서 설명된 비트코인의 진화를 구조화하는 접근 방식은 무엇입니까?
+answer: 레이어 기반 진화
 wrong_answers:
-  - Mining 노드 네트워크입니다.
-  - Blockchain 노드 네트워크입니다.
-  - 암호화폐 거래소 네트워크입니다.
-explanation: >-
-reviewed: true
+  - 모놀리식 블록체인
+  - 네이티브 샤딩
+  - 일반화된 온체인 실행
+explanation: |
+  비트코인은 단순하고 견고한 기본 레이어를 유지하며, 상위 프로토콜이 특정 기능을 추가합니다.
+reviewed: false

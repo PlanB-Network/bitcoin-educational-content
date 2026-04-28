@@ -1,0 +1,8 @@
+question: Minkä tietyn salauselementin avulla Lightning Send -submarine-swapissa swap-toimittaja voi vaatia lukittuja Liquid-varoja Lightning-laskun maksamisen jälkeen?
+answer: Lightning-maksun maksun esikuva toimii kryptografisena avaimena Liquid:n varojen lukituksen avaamiseksi
+wrong_answers:
+  - Alkuperäisen Liquid-lukitustapahtuman aikana luotu hash-aikalukitussopimuksen allekirjoitus mahdollistaa pääsyn osoitteeseen
+  - WebSocket-yhteyden metatiedot sisältävät avausavaimen, joka valtuuttaa rahaston luovuttamisen palveluntarjoajalle
+  - "Swap-palveluntarjoajan yksityinen avain avaa varat automaattisesti, kun Lightning-maksuvahvistus on vastaanotettu"
+explanation: |
+  Maksun esikuva on kryptografinen kuitti, joka todistaa, että Lightning-maksu on suoritettu onnistuneesti. Vedenalaisissa swap-sopimuksissa tämä esikuva toimii Liquid-varojen lukituksen avaimena, mikä varmistaa atomisuuden - swap-palveluntarjoaja voi vaatia Liquid-varoja vain, jos se on todella maksanut Lightning-laskun. Muut vaihtoehdot kuvaavat joko yleisiä salauselementtejä, jotka eivät tarjoa tarvittavaa erityistä todistusaineistoa maksusta, tai virheellisiä mekanismeja, jotka vaarantaisivat atomisoidun swapin luotettavan luonteen.

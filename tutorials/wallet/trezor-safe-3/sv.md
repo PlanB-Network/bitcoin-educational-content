@@ -6,7 +6,7 @@ description: Konfigurera och använda Hardware Wallet Safe 3
 
 
 
-*Bildkredit: [Trezor.io] (https://trezor.io/)*
+*Bildkredit: [Trezor.io](https://trezor.io/)*
 
 
 
@@ -93,7 +93,7 @@ Navigering på enheten är enkel: använd högerknappen för att bläddra till h
 
 
 
-I den här handledningen ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow wallet Wallet management software] (https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
+I den här handledningen ska jag visa dig hur du använder Trezor Safe 3 med [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
 
 
 
@@ -103,7 +103,7 @@ Du behöver också programvaran Trezor Suite för att konfigurera Safe 3, kontro
 
 
 
-[Ladda ner Trezor Suite från den officiella webbplatsen] (https://trezor.io/trezor-suite)
+[Ladda ner Trezor Suite från den officiella webbplatsen](https://trezor.io/trezor-suite)
 
 
 
@@ -385,7 +385,7 @@ Vi kommer inte att behöva Trezor Suite-programvaran längre, förutom för att 
 
 
 
-Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen] (https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
+Börja med att ladda ner och installera Sparrow wallet [från den officiella webbplatsen](https://sparrowwallet.com/) på din dator, om du inte redan har gjort det.
 
 
 

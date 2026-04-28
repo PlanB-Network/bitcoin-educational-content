@@ -55,7 +55,7 @@ Ikindi kiranga Bitwarden ni ubushobozi bwo kwiyakira umucungerezi w’ijambobang
 ## Ni gute wokora konti ya Bitwarden?
 
 
-Sura [urubuga rwa Bitwarden] (https://bitwarden.com/) hanyuma ukande kuri "*Tangira*".
+Sura [urubuga rwa Bitwarden](https://bitwarden.com/) hanyuma ukande kuri "*Tangira*".
 
 ![BITWARDEN](assets/notext/03.webp)
 

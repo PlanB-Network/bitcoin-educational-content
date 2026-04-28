@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition: Bitcoin Daemon, iporogaramu yo muri komande yemerera gukoresha nodu ya Bitcoin no gukorana na RPC.
 ---
 
 Inyuguti y'inyongera y'ikigiriki "*Bitcoin daemon*".

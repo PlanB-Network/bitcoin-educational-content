@@ -122,7 +122,7 @@ Sebelum menginstal Qubes OS, sangat penting untuk memastikan bahwa perangkat ker
 
 
 
-Untuk menginstal Qubes OS, unduh image ISO resmi dari Qubes OS [situs resmi] (https://www.qubes-os.org/downloads/). Penting untuk memeriksa integritas ISO menggunakan tanda tangan GPG yang disediakan, untuk memastikan bahwa file tersebut belum dirusak dan unduhannya aman.
+Untuk menginstal Qubes OS, unduh image ISO resmi dari Qubes OS [situs resmi](https://www.qubes-os.org/downloads/). Penting untuk memeriksa integritas ISO menggunakan tanda tangan GPG yang disediakan, untuk memastikan bahwa file tersebut belum dirusak dan unduhannya aman.
 
 
 

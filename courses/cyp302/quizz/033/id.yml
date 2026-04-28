@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk menambahkan distribusi seragam ke nilai-nilai dari sebuah rantai
 explanation: |
   Seed adalah string pendek yang digunakan sebagai titik awal oleh algoritma ekspansi untuk menghasilkan rantai pseudorandom yang lebih panjang.
+reviewed: true

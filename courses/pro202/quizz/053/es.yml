@@ -1,0 +1,8 @@
+question: ¿Qué reto específico de conversión de endianeces deben afrontar los nodos Bitcoin al construir y verificar árboles de Merkle a partir de datos de transacciones?
+answer: Los hash de las transacciones deben invertirse de formato serializado little-endian a big-endian para el cálculo interno del árbol y, a continuación, invertirse de nuevo para su almacenamiento
+wrong_answers:
+  - Las cabeceras de bloque deben convertirse de big-endian a little-endian antes de calcular la raíz Merkle para que coincidan con el formato de transmisión de la red
+  - La raíz Merkle final debe convertirse de big-endian a little-endian sólo cuando se transmita a otros nodos mediante mensajes P2P
+  - Los identificadores de transacción se almacenan en formato big-endian, pero deben convertirse a little-endian antes de clasificar los pares en el árbol de Merkle
+explanation: |
+  La construcción del árbol de Merkle de Bitcoin implica un paso crítico de conversión endian. Mientras que los datos de bloque serializados utilizan el formato little-endian, el cálculo interno del árbol de Merkle requiere hashes big-endian. Los nodos deben revertir los hashes de transacción de su formato serializado little-endian a big-endian antes de la construcción del árbol, y luego revertir la raíz final de nuevo a little-endian para su almacenamiento en la cabecera del bloque. Esta conversión es esencial para una verificación adecuada.

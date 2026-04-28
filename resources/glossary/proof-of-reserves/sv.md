@@ -1,5 +1,6 @@
 ---
-term: BEVIS PÅ BOKNINGAR
+term: Reservbevis
+definition: Mekanism som gör det möjligt för handelsplattformar att bevisa att de innehar sina kunders bitcoins.
 ---
 
 Mekanism som används av Bitcoin Exchange-plattformar för att visa att de faktiskt innehar sina kunders tillgångar. Syftet är att bevisa företagets solvens genom att verifiera att dess bitcoins är likvärdiga med eller större än de användarsaldon som de ska hålla.

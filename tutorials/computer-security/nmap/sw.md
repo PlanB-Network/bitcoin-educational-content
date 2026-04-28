@@ -432,7 +432,7 @@ Hii ndiyo maktaba ambayo Nmap inategemea kusimamia mawasiliano ya mtandao, yaani
 
 
 
-Kama ilivyo kwa Linux, unaweza kuthibitisha kuwa Nmap imesakinishwa kwa kufungua Command Prompt au terminal ya [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") na kuandika amri ifuatayo:
+Kama ilivyo kwa Linux, unaweza kuthibitisha kuwa Nmap imesakinishwa kwa kufungua Command Prompt au terminal ya [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") na kuandika amri ifuatayo:
 
 
 
@@ -2197,7 +2197,7 @@ Kwa hivyo ni muhimu kuelewa ni nini Nmap hufanya na haifanyi, na vivyo hivyo kuj
 
 
 
-Iwe wewe ni msimamizi wa mfumo wa mtandao, mhandisi wa usalama au hata CISO, kwa kutumia Nmap hukupa muhtasari wa hali ya usalama ya mfumo wa taarifa. Hii ni hatua ya kwanza muhimu katika kupata mfumo, ambao unaweza kufanywa mara kwa mara na timu ya IT. Hata hivyo, haipaswi kuchukua nafasi ya uingiliaji kati na ushauri wa wataalamu [wa usalama mtandao] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), ambao wataweza kufichua udhaifu kwa kina zaidi kuliko Nmap.
+Iwe wewe ni msimamizi wa mfumo wa mtandao, mhandisi wa usalama au hata CISO, kwa kutumia Nmap hukupa muhtasari wa hali ya usalama ya mfumo wa taarifa. Hii ni hatua ya kwanza muhimu katika kupata mfumo, ambao unaweza kufanywa mara kwa mara na timu ya IT. Hata hivyo, haipaswi kuchukua nafasi ya uingiliaji kati na ushauri wa wataalamu [wa usalama mtandao](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), ambao wataweza kufichua udhaifu kwa kina zaidi kuliko Nmap.
 
 
 
@@ -2237,23 +2237,24 @@ Hati hizi zimepangwa kwa kategoria, na hati moja inaweza kuwa ya zaidi ya katego
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Jamii | Maelezo |
+|----------------|-------------|
+| **auth** | Ina hati zinazohusiana na uthibitishaji kwenye huduma, ikiwa ni pamoja na ufikiaji usiojulikana au uorodheshaji wa watumiaji. Mifano: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Ina hati zinazohusiana na shughuli za utangazaji (broadcast) kwenye mtandao, haswa kwa lengo la kutumia na kugundua huduma fulani, seva pangishi au itifaki zinazotegemea broadcast (IPv6, wake on lan, IGMP, n.k.). Mifano: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Ina hati zinazohusiana na shughuli za brute force za uthibitishaji kwenye huduma (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, n.k.). Mifano: `ssh-brute`, `vnc-brute`. |
+| **default** | Ina hati zinazotumiwa katika hali ya kawaida (matumizi ya `-sC`). Vigezo kadhaa hutumiwa ili kuhalalisha kuingia kwa hati katika kundi hili ikiwa ni pamoja na kasi ya utekelezaji, muundo wa matokeo, uaminifu wa jaribio, tabia ya "kuingilia" au "hatari", n.k. |
+| **discovery** | Ina hati zinazohusiana na ugunduzi wa hali ya juu wa mtandao na huduma. Kwa mfano, uorodheshaji wa maudhui ya sehemu ya SMB, toleo la huduma ya VNC, maombi ya SNMP, n.k. Mifano: `mysql-info`, `http-security-headers`. |
+| **dos** | Ina hati ambazo zinaweza kusababisha kuzuiliwa kwa huduma (denial of service). Zinaweza kuwa hati zilizoundwa ili kutumia udhaifu wa aina ya kuzuiliwa kwa huduma au hati ambazo zina athari ya kando ya kuzuiliwa kwa huduma. Kwa hivyo tahadhari (zimetengwa kwenye kundi la `default`). Mifano: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Ina hati zilizoundwa ili kutumia udhaifu moja kwa moja. Mifano: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Ina hati zinazohitaji matumizi ya rasilimali ya upande wa tatu, kama vile hifadhidata ya habari mtandaoni. Hii inaonyesha haswa jaribio la unganisho la nje (angalia usiri). Mifano: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Ina hati zilizoundwa kutuma fremu, pakiti au vigezo visivyotarajiwa na huduma. Hii inaruhusu haswa kusababisha makosa au hitilafu ili kupata vidokezo vya udhaifu au habari za kiufundi. Mifano: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Ina hati ambazo zimeainishwa kama "hatari" kwa mtazamo wa upatikanaji au ugunduzi. Zinaweza kusababisha mfumo kukwama au kugunduliwa kama hasidi na suluhisho la usalama. Hii ni jamii kinyume cha `safe`. Mifano: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Ina hati zilizoundwa kugundua uwepo wa vitu tabia vya programu hasidi, kama vile bandari ya kusikiliza inayotumiwa kawaida na mlango wa nyuma (backdoor) unaojulikana. Mifano: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Ina hati ambazo zinachukuliwa kuwa salama kwa mtazamo wa ugunduzi au utulivu. Hii ni jamii kinyume cha `intrusive` na ina hati nyingi za juu za utambulisho wa toleo au ukusanyaji wa vitu vya usanidi. Mifano: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Ina hati ambazo zinaturuhusu ugunduzi wa hali ya juu wa toleo. Zinaweza kutumiwa pamoja na Probes na Matchs zilizosomwa hapo awali wakati ugunduzi wa toleo unahitaji shughuli ngumu zaidi kidogo. Mifano: `http-php-version`, `vmware-version`. |
+| **vuln** | Ina hati zilizoundwa kugundua uwepo wa udhaifu unaojulikana (CVE) bila hata hivyo kuutumia (tofauti na jamii ya `exploit`). Kwa ujumla zinaridhika kuripoti hali ya "vulnerable" au la ya huduma. Mifano: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Kitaalam, kategoria ambazo hati ni mali zinaonyeshwa moja kwa moja kwenye msimbo wake.
 
@@ -2972,7 +2973,7 @@ Uwezo wa kuhifadhi matokeo ya uchanganuzi wa Nmap katika XML hufanya data iendan
 
 
 
-Nitataja zana chache za kukera bila kuelezea kwa undani jinsi zinatumiwa au jinsi zinavyofanya kazi. Nitachukulia kuwa msomaji anafahamu matumizi yao ya kimsingi na kwamba tayari yanafanya kazi. Sehemu hii itawavutia sana wataalamu wa [cybersecurity] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), watu walio katika mafunzo au wale ambao wameamua kutafakari kwa kina zaidi somo hili.
+Nitataja zana chache za kukera bila kuelezea kwa undani jinsi zinatumiwa au jinsi zinavyofanya kazi. Nitachukulia kuwa msomaji anafahamu matumizi yao ya kimsingi na kwamba tayari yanafanya kazi. Sehemu hii itawavutia sana wataalamu wa [cybersecurity](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), watu walio katika mafunzo au wale ambao wameamua kutafakari kwa kina zaidi somo hili.
 
 
 
@@ -3061,7 +3062,7 @@ orodha ya huduma zilizoagizwa kutoka kwa faili ya XML hadi kwenye hifadhidata ya
 
 
 
-Hatimaye, tunaweza kutumia tena data hii kwa haraka na kwa urahisi katika moduli ya shukrani kwa chaguo la `-R`, ambalo "litabadilisha" orodha ya huduma zilizopatikana kama ingizo la maagizo ya `RHOSTS`, ambayo hutumika kubainisha malengo ya shambulio hilo kufanywa. Huu hapa ni mfano wa moduli ya `ssh_login`, ambayo hukuwezesha kutekeleza mashambulizi ya kikatili kwenye huduma za [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Hatimaye, tunaweza kutumia tena data hii kwa haraka na kwa urahisi katika moduli ya shukrani kwa chaguo la `-R`, ambalo "litabadilisha" orodha ya huduma zilizopatikana kama ingizo la maagizo ya `RHOSTS`, ambayo hutumika kubainisha malengo ya shambulio hilo kufanywa. Huu hapa ni mfano wa moduli ya `ssh_login`, ambayo hukuwezesha kutekeleza mashambulizi ya kikatili kwenye huduma za [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3393,7 +3394,7 @@ Kabla ya kuchanganua mtandao au mfumo, hakikisha umepata uidhinishaji unaofaa. M
 
 
 
-Matokeo yanayotolewa na Nmap yanaweza kuchukuliwa kuwa nyeti, hasa yanapokuwa na taarifa kuhusu udhaifu katika mfumo wa taarifa ambao unaweza kutumiwa na mshambulizi. Lakini pia inapohusu mifumo ambayo haiwezi kufikiwa na kila mtu (k.m. mifumo nyeti, ya viwandani, ya afya au [chelezo] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
+Matokeo yanayotolewa na Nmap yanaweza kuchukuliwa kuwa nyeti, hasa yanapokuwa na taarifa kuhusu udhaifu katika mfumo wa taarifa ambao unaweza kutumiwa na mshambulizi. Lakini pia inapohusu mifumo ambayo haiwezi kufikiwa na kila mtu (k.m. mifumo nyeti, ya viwandani, ya afya au [chelezo](https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 
@@ -3436,7 +3437,7 @@ Kama tulivyoona katika somo hili lote, Nmap inaweza kuwa ya kitenzi katika kiwan
 
 
 
-Ili kuepuka matukio yoyote, unahitaji kufahamu tabia ya Nmap na kujua jinsi ya kuirekebisha ili kuendana na muktadha ambamo inatumiwa, kwa kutumia chaguo mbalimbali zilizojadiliwa katika somo hili. Hatutatumia Nmap kwa njia ile ile kwenye mfumo wa taarifa ulio na [vifaa] (https://www.it-connect.fr/actualites/actu-materiel/) kama ilivyo kwa mtandao wa mtumiaji unaoundwa na mifumo ya Windows inayolindwa na ngome ya ndani au katika msingi wa mtandao.
+Ili kuepuka matukio yoyote, unahitaji kufahamu tabia ya Nmap na kujua jinsi ya kuirekebisha ili kuendana na muktadha ambamo inatumiwa, kwa kutumia chaguo mbalimbali zilizojadiliwa katika somo hili. Hatutatumia Nmap kwa njia ile ile kwenye mfumo wa taarifa ulio na [vifaa](https://www.it-connect.fr/actualites/actu-materiel/) kama ilivyo kwa mtandao wa mtumiaji unaoundwa na mifumo ya Windows inayolindwa na ngome ya ndani au katika msingi wa mtandao.
 
 
 

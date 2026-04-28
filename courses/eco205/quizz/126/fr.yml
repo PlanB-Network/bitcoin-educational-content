@@ -1,0 +1,8 @@
+question: Selon Hayek, quelle quantité d'information un acteur économique a-t-il besoin de connaître pour prendre une décision efficace sur un marché libre ?
+answer: Un minimum d'informations, principalement le prix et son évolution
+wrong_answers:
+  - "Toute l'information disponible sur le marché et ses participants"
+  - "Les causes exactes des variations de l'offre et de la demande"
+  - "L'ensemble des préférences des consommateurs et des coûts de production"
+explanation: |
+  Hayek démontre que l'efficacité du système des prix réside précisément dans l'économie de connaissances qu'il permet. Les participants au marché n'ont besoin que d'un minimum d'informations pour prendre les bonnes décisions - essentiellement le prix et son évolution. Ils n'ont pas besoin de connaître les causes des changements de prix, ni toute l'information du marché, ni les préférences complètes des autres acteurs. Le prix seul suffit à transmettre l'information essentielle sur la rareté relative des biens et à guider les comportements économiques de manière efficace.

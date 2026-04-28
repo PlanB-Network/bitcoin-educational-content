@@ -1,0 +1,8 @@
+question: Vad är ett finit fält F(p) i Bitcoin:s kryptografiska system?
+answer: Ett aritmetiskt system som definieras av ett primtal p och som innehåller elementen 0 till p-1
+wrong_answers:
+  - En oändlig uppsättning siffror som används för att generera Bitcoin-adresser och -nycklar
+  - Ett matematiskt fält som innehåller alla reella tal mellan 0 och p-1 inklusive
+  - En kryptografisk hashfunktion som ger utdata med en längd på exakt p bitar
+explanation: |
+  Ett finit fält F(p) är specifikt ett aritmetiskt system som är uppbyggt kring ett primtal p och som innehåller exakt p element: heltalen från 0 till p-1. Aspekten "ändligt" är avgörande - det är inte oändligt, och det handlar inte om reella tal eller hashfunktioner. Primtalsfält säkerställer att varje element som inte är noll har en multiplikativ invers, och alla aritmetiska operationer (addition, subtraktion, multiplikation) omsluter modulo p, vilket håller resultaten inom fältet. Denna avgränsade, förutsägbara struktur är avgörande för Bitcoin:s kryptografiska säkerhet.

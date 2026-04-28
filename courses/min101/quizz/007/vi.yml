@@ -1,0 +1,9 @@
+question: Tiêu chí kinh tế nào hướng dẫn việc lựa chọn các giao dịch của một thợ đào?
+answer: Tỷ lệ phí (fee rate)
+wrong_answers:
+  - Tổng số tiền phí
+  - Tuổi thọ của các UTXO
+  - Số lượng UTXO
+explanation: |
+  Vì không gian của một khối là có hạn, thợ đào ưu tiên các giao dịch có lợi nhuận cao nhất trên mỗi byte. Do đó, tỷ lệ phí là yếu tố hướng dẫn việc lựa chọn giao dịch.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin'de iş ispatı (proof of work) hangi öğe üzerinden hesaplanır?
+answer: Blok başlığı
+wrong_answers:
+  - Blok yüksekliği
+  - Ağın mempool'u
+  - Bloktaki ilk 21 işlem
+explanation: |
+  Madencilik, bloğun içeriğini taahhüt eden 80 baytlık blok başlığının sürekli olarak hashlenmesinden oluşur.
+reviewed: false

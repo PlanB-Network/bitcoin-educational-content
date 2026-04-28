@@ -35,7 +35,7 @@ Trong khóa học này, tôi rất vui mừng được giới thiệu triết h�
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/vi/001.webp)
 
 
 Chân dung Spinoza
@@ -70,7 +70,7 @@ Và đặc biệt là ở khía cạnh triết học, khiến chúng ta phải s
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/vi/002.webp)
 
 
 Chân dung Spinoza
@@ -93,7 +93,7 @@ Chúng ta cũng sẽ xem xét hai tác phẩm chính của Spinoza, bắt đầu
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/vi/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Sau đó, chúng ta sẽ xem xét cuốn Traité théologico-Politique, được
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/vi/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Nhờ lý thuyết về cảm xúc được phát triển theo cách của các 
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/vi/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Theo đạo Do Thái, ông là thành viên của cộng đồng người Sephar
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/vi/006.webp)
 
 
 
@@ -157,7 +157,6 @@ Trên thực tế, ngay từ khi còn nhỏ, ông đã thể hiện tinh thần 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Là người kế thừa, giống như những người cùng thời với ông 
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/vi/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Và chính cách tiếp cận này đã gắn kết Spinoza với triết học 
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/vi/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/vi/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Tuy nhiên, sự giàu có không gắn liền với tài nguyên thiên nhiên,
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/vi/010.webp)
 
 
 
@@ -255,7 +254,6 @@ Trong chương này, tôi đề xuất chúng ta hãy chuyển sang tác phẩm 
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ Tại sao lại là sau khi ông mất? Bởi vì những tư tưởng của ôn
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/vi/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Tôi muốn chỉ ra rằng khi bạn mở cuốn Đạo đức học, bạn nê
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/vi/012.webp)
 
 
 
@@ -311,7 +309,7 @@ Thứ nhất, nếu đối với Spinoza, cơ hội không tồn tại, đó là
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/vi/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Theo Gilles Deleuze (1925-1995), giáo sư triết học nổi tiếng và chuy�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/vi/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Sau Đạo đức học, tôi muốn giới thiệu với bạn một tác phẩ
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/vi/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Như chúng ta đã thấy, khái niệm về Chúa của Spinoza là chủ đ�
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/vi/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Và vì các khái niệm của Spinoza nhìn chung khá khó nắm bắt, nên 
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/vi/017.webp)
 
 
 
@@ -427,7 +425,7 @@ Trận động đất khét tiếng ở Lisbon vào ngày 1 tháng 11 năm 1755 
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/vi/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Một vở kịch khơi gợi lại câu hỏi mà nhà triết học và toán 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/vi/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Vượt xa hơn cả việc lên án bàn tay của Chúa, Jean-Jacques Rousseau
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/vi/020.webp)
 
 
 
@@ -494,10 +492,9 @@ Cũng như Nicolas Copernicus (1473-1543) đã khẳng định rằng Trái Đ�
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/vi/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -509,7 +506,7 @@ Trước ông, triết học Hy Lạp cổ điển đã đề xuất một tầm
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/vi/022.webp)
 
 
 
@@ -521,10 +518,9 @@ Nhưng với vật lý học mới của Copernicus (1473-1543) vào thế kỷ 
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/vi/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -532,7 +528,7 @@ Nhưng để hiểu đầy đủ về chủ nghĩa Spinoza, chúng ta cũng cầ
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/vi/024.webp)
 
 
 
@@ -540,7 +536,7 @@ Bất chấp những rủi ro và sự lên án của Giordano Bruno (1548-1600)
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/vi/025.webp)
 
 
 
@@ -586,7 +582,7 @@ Như chúng ta đã thấy, Spinoza (1632-1677) nổi tiếng với việc coi �
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/vi/026.webp)
 
 
 
@@ -610,7 +606,7 @@ Trong hành trình cuộc đời, bởi vì ông không chịu sự chi phối c
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/vi/027.webp)
 
 
 
@@ -626,7 +622,7 @@ Ngược lại, Spinoza cho rằng thế giới của chúng ta hoàn toàn mạ
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/vi/028.webp)
 
 
 
@@ -654,7 +650,7 @@ Cách tiếp cận này đối với tự do như một năng lực hành độn
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/vi/029.webp)
 
 
 
@@ -679,10 +675,9 @@ Cuối cùng, điều đáng lưu ý là trong khi phong trào tự do mà chún
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/vi/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -713,7 +708,7 @@ Nhưng đối với Spinoza (1632-1677), con người không phải là "một �
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/vi/031.webp)
 
 
 
@@ -737,7 +732,7 @@ Và đó là lý do tại sao các căn bệnh mới như AIDS vào những năm
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/vi/032.webp)
 
 
 
@@ -753,7 +748,7 @@ Và đây chính xác là điều mà nhà tự nhiên học người Pháp Jean
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/vi/033.webp)
 
 
 
@@ -761,11 +756,11 @@ Nhưng như Spinoza đã nói, "ảo tưởng của con người không dừng l
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/vi/034.webp)
 
 
 
-Ví dụ, định nghĩa về lạm phát do các nhà kinh tế học Keynes và những người ủng hộ nhà nước phúc lợi đưa ra cũng minh họa rất rõ nghịch lý này. Theo họ, lạm phát là sự gia tăng giá cả, mà theo một số ngân hàng trung ương, xuất phát từ "hư vô", hoặc từ bối cảnh địa chính trị mà không ai có thể kiểm soát hoặc dự đoán được. Mặc dù giá cả tăng thực sự có thể dẫn đến lạm phát theo chu kỳ - ví dụ, khi giá dầu tăng, giá của một số hàng hóa chế biến cũng sẽ tăng - nhưng nguyên nhân cơ cấu thực sự của lạm phát chủ yếu liên quan đến sự gia tăng tiền tệ Supply, điều này lại hàm ý sự giảm giá trị của tiền tệ và, ipso facto, sự gia tăng giá cả một cách máy móc.
+Ví dụ, định nghĩa về [lạm phát](https://planb.academy/resources/glossary/inflation) do các nhà kinh tế học Keynes và những người ủng hộ nhà nước phúc lợi đưa ra cũng minh họa rất rõ nghịch lý này. Theo họ, lạm phát là sự gia tăng giá cả, mà theo một số ngân hàng trung ương, xuất phát từ "hư vô", hoặc từ bối cảnh địa chính trị mà không ai có thể kiểm soát hoặc dự đoán được. Mặc dù giá cả tăng thực sự có thể dẫn đến lạm phát theo chu kỳ - ví dụ, khi giá dầu tăng, giá của một số hàng hóa chế biến cũng sẽ tăng - nhưng nguyên nhân cơ cấu thực sự của lạm phát chủ yếu liên quan đến sự gia tăng tiền tệ Supply, điều này lại hàm ý sự giảm giá trị của tiền tệ và, ipso facto, sự gia tăng giá cả một cách máy móc.
 
 
 
@@ -777,7 +772,7 @@ Tuy nhiên, cách diễn giải thiên lệch về lạm phát này khiến chú
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/vi/035.webp)
 
 
 
@@ -815,7 +810,7 @@ Trong chương cuối cùng này về quan điểm Copernicus mới về các ý
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/vi/036.webp)
 
 
 
@@ -839,7 +834,7 @@ Nói cách khác, một ông già râu bạc ẩn sau đám mây, người đư�
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/vi/037.webp)
 
 
 
@@ -851,7 +846,7 @@ Nhưng bất chấp niềm kiêu hãnh của chúng ta khi tin rằng mình cao 
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/vi/038.webp)
 
 
 
@@ -871,7 +866,7 @@ Nói cách khác, theo Voltaire (1694-1778), "kẻ khét tiếng", người mà 
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/vi/039.webp)
 
 
 
@@ -883,7 +878,7 @@ Dưới vỏ bọc giải thoát chúng ta, cho phép chúng ta tưởng tượn
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/vi/040.webp)
 
 
 
@@ -891,7 +886,7 @@ Và đây chính là điều Spinoza một lần nữa chứng minh trong Luận
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/vi/041.webp)
 
 
 
@@ -953,7 +948,7 @@ Các triết gia cổ đại tin rằng cái ác không tồn tại trong tự n
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/vi/042.webp)
 
 
 
@@ -961,7 +956,7 @@ Nhưng truyền thống kinh viện, đặc biệt là truyền thống của Th
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/vi/043.webp)
 
 
 
@@ -978,7 +973,7 @@ Spinoza viết trong cuốn Đạo đức học rằng "Không có điều gì x
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/vi/044.webp)
 
 
 
@@ -1001,7 +996,7 @@ Rõ ràng, hành vi của tội phạm luôn gắn liền với yếu tố quy�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/vi/045.webp)
 
 
 
@@ -1041,7 +1036,7 @@ Theo Spinoza, tự do là một khái niệm cần được khám phá, một co
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/vi/046.webp)
 
 
 
@@ -1065,7 +1060,7 @@ Chúng ta nói về chế độ nô lệ, hay tình trạng phục tùng, một 
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/vi/047.webp)
 
 
 
@@ -1077,11 +1072,11 @@ Nói cách khác, nếu chúng ta ghét một người nước ngoài, đó là 
 
 
 
-Điều này đặc biệt đúng trong lĩnh vực tiền điện tử.
+Điều này đặc biệt đúng trong lĩnh vực [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/vi/048.webp)
 
 
 
@@ -1101,7 +1096,7 @@ Nhưng nếu cái gọi là lý thuyết về tình cảm này áp dụng cho "v
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/vi/049.webp)
 
 
 
@@ -1121,7 +1116,7 @@ Và trong trường hợp này, chúng ta cần bảo vệ bản thân khỏi s�
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/vi/050.webp)
 
 
 
@@ -1159,25 +1154,24 @@ Cuối cùng, sự sáng suốt này có nghĩa là không còn sống trong ch�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Đây chính xác là nội dung của triết học lý trí Khai sáng, đặc biệt là nhờ Immanuel Kant (1724-1804), người mà chỉ có cá nhân có học thức, dưới sự hướng dẫn của lý trí, mới có thể tự mình suy nghĩ và xác định, về mặt đạo đức, điều gì là "đúng" hay "tốt", và điều gì là độc hại.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/vi/051.webp)
 
 
 
 Nói cách khác, ông nói, nếu chúng ta tự suy nghĩ, nếu chúng ta lý luận như những người trưởng thành có lý trí, và do đó nếu chúng ta cố gắng gắn bó với mối liên hệ nhân quả giữa mọi thứ, chúng ta sẽ không còn cần đến một thẩm quyền đạo đức để dạy chúng ta, ví dụ, về những đức tính thực sự của tôn giáo hay các giá trị đạo đức thực sự trong lĩnh vực chính trị và kinh tế.
 
 
-Đây là một lập luận liên hệ với trường phái kinh tế tự do Áo, ra đời trong bầu không khí trí thức cực kỳ màu mỡ của Vienna trước Thế chiến thứ nhất. Bởi chính trong bối cảnh này, các trí thức như Carl Menger (1840-1921), Ludwig von Mises (1883-1979) và Friedrich Hayek (1899-1992) đã đặt nền móng cho một trường phái kinh tế tự do mới, sau này trở thành nền tảng cho niềm tin của những người theo chủ nghĩa mật mã (cypherpunk) tương lai. Và từ đó, Bitcoin ra đời.
+Đây là một lập luận liên hệ với trường phái kinh tế tự do [Áo](https://planb.academy/resources/glossary/austrian-school), ra đời trong bầu không khí trí thức cực kỳ màu mỡ của Vienna trước Thế chiến thứ nhất. Bởi chính trong bối cảnh này, các trí thức như Carl Menger (1840-1921), Ludwig von Mises (1883-1979) và Friedrich Hayek (1899-1992) đã đặt nền móng cho một trường phái kinh tế tự do mới, sau này trở thành nền tảng cho niềm tin của những người theo chủ nghĩa mật mã ([cypherpunk](https://planb.academy/resources/glossary/cypherpunks)) tương lai. Và từ đó, Bitcoin ra đời.
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/vi/052.webp)
 
 
 
@@ -1185,7 +1179,7 @@ Ví dụ, Menger và Mises đã khẳng định rằng mọi kiến thức phả
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/vi/053.webp)
 
 
 
@@ -1206,7 +1200,7 @@ Là một người theo chủ nghĩa Spinoza, Hayek giải thích trong một vi
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/vi/054.webp)
 
 
 
@@ -1214,19 +1208,19 @@ Là một người theo chủ nghĩa Spinoza, Hayek giải thích trong một vi
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/vi/055.webp)
 
 
 
-Đặc biệt là khi ông khắc tiêu đề tờ Times ngày 3 tháng 1 năm 2009 trên đế đồng xu Genesis của khối Blockchain Bitcoin để minh họa cho sự kết thúc của một kỷ nguyên, Keynes, và sự khởi đầu của một kỷ nguyên khác với khát vọng tự do, vô chính phủ và tự do cá nhân.
+Đặc biệt là khi ông khắc tiêu đề tờ Times ngày 3 tháng 1 năm 2009 trên [đế đồng xu](https://planb.academy/resources/glossary/coinbase-transaction) [Genesis](https://planb.academy/resources/glossary/genesis-block) của khối [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin để minh họa cho sự kết thúc của một kỷ nguyên, Keynes, và sự khởi đầu của một kỷ nguyên khác với khát vọng tự do, vô chính phủ và tự do cá nhân.
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/vi/056.webp)
 
 
 
-Sách Trắng được công bố ngày 31 tháng 10 năm 2008 trình bày Bitcoin như một phương tiện trao đổi giá trị trên Internet mà không cần bên thứ ba đáng tin cậy, dựa trên giao thức phi tập trung. Một cuộc cách mạng "Copernican" cuối cùng sẽ cho phép mọi người lấy lại khả năng hành động, tức là tự do, tự do thương mại, quyền sở hữu và sự tôn trọng quyền riêng tư của họ.
+[Sách Trắng](https://planb.academy/resources/glossary/white-paper) được công bố ngày 31 tháng 10 năm 2008 trình bày Bitcoin như một phương tiện trao đổi giá trị trên Internet mà không cần bên thứ ba đáng tin cậy, dựa trên giao thức phi tập trung. Một cuộc cách mạng "Copernican" cuối cùng sẽ cho phép mọi người lấy lại khả năng hành động, tức là tự do, tự do thương mại, quyền sở hữu và sự tôn trọng quyền riêng tư của họ.
 
 
 Tại sao? Bởi vì Bitcoin cho phép chúng ta thoát khỏi ách nô lệ này theo cách của Spinoza, nhờ lý trí, nhờ ngôn ngữ toán học của Galileo. Và, như Hayek đã đề xuất, mà không cần nhà nước can thiệp. Và một cách hòa bình, không cần ép buộc hay truyền giáo.

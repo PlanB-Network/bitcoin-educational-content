@@ -1,0 +1,8 @@
+question: Mikä perusongelma syntyy tekstin mukaan, kun valtio korvaa vanhempien osallistumisen koulutukseen?
+answer: Valtiolta puuttuu vanhempien emotionaalinen panostus ja intiimi tietämys lastensa ainutlaatuisista persoonallisuuksista
+wrong_answers:
+  - Valtio tarjoaa standardisoidumpia ja tehokkaampia opetusmenetelmiä kuin mitä yksittäiset vanhemmat voivat tarjota
+  - Valtio takaa yhtäläiset mahdollisuudet koulutukseen vanhempien taloudellisesta asemasta tai sosiaalisesta taustasta riippumatta
+  - Valtio poistaa puolueellisuuden ja suosimisen, jota vanhemmat luonnostaan osoittavat omia lapsiaan kohtaan
+explanation: |
+  Tekstissä selitetään, että valtion valvoma koulutus on vakava ristiriita, koska se korvaa luonnollisen vanhempien rakkauden hallinnollisella valvonnalla. Vanhemmilla on korvaamaton intiimi tuntemus lapsistaan ja emotionaalinen panostus heidän kehitykseensä, kun taas valtio, jolla ei ole tunteita, ei voi arvostaa jokaisen lapsen ainutlaatuista persoonallisuutta. Tämä luo perustavanlaatuisen epäsuhdan valtion koulutuksen standardoidun lähestymistavan ja vanhempien luonnollisesti tarjoaman yksilöllisen ymmärryksen välille.

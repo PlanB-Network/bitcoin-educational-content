@@ -1,0 +1,9 @@
+question: คำแนะนำสำหรับการชำระเงิน Bitcoin ที่มีต้นทุนต่ำคืออะไร?
+answer: Lightning Network
+wrong_answers:
+  - ฮาร์ดแวร์ wallet
+  - บัญชีธนาคาร
+  - RGB layer
+explanation: |
+  Lightning ช่วยให้การทำธุรกรรมรวดเร็วและมีต้นทุนต่ำสำหรับการซื้อขายในชีวิตประจำวัน เป็นเครื่องมือที่เหมาะสมสำหรับผู้ใช้ที่ใช้งานบ่อย
+reviewed: false

@@ -1,5 +1,6 @@
 ---
-term: WALLET FOOTPRINT
+term: Wallet footprint
+definition: Distinctive characteristics observable in a wallet's transactions allowing its activities to be traced.
 ---
 
 A set of distinctive characteristics observable in transactions made by the same Bitcoin wallet. These characteristics can include similarities in the use of script types, reuse of addresses, the order of UTXOs, the placement of change outputs, the signaling of RBF (*Replace-by-Fee*), the version number, the `nSequence` field, and the `nLockTime` field.

@@ -63,7 +63,7 @@ Speed Wallet je k dispozici jako mobilní aplikace na platformách Android (Goog
 
 
 
-Odkazy na platformy pro stahování najdete na oficiálních stránkách [Speed Wallet] (https://speed.app).
+Odkazy na platformy pro stahování najdete na oficiálních stránkách [Speed Wallet](https://speed.app).
 
 
 

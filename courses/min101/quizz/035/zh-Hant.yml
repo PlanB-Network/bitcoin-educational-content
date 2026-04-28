@@ -1,0 +1,9 @@
+question: 自 SegWit 以來，區塊見證承諾（witness commitment）提交在哪裡？
+answer: 在 coinbase 的一個輸出（output）中
+wrong_answers:
+  - 在 coinbase 的 scriptSig 中
+  - 在版本（version）欄位中
+  - 在 coinbase 的費用中
+explanation: |
+  SegWit 使用透過 OP_RETURN 輸出寫入 coinbase 的承諾。
+reviewed: false

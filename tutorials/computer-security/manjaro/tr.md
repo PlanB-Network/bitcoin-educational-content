@@ -100,7 +100,7 @@ Manjaro'nun en iyi şekilde çalışması için bilgisayarınızın birkaç mini
 
 
 
-İndirmek için [resmi Manjaro web sitesine] (https://manjaro.org/) gidin ve ihtiyaçlarınıza en uygun sürümü seçin. Dosyayı indirdikten sonra, Manjaro ISO görüntüsü ile önyüklenebilir bir USB anahtarı oluşturmanız gerekecektir.
+İndirmek için [resmi Manjaro web sitesine](https://manjaro.org/) gidin ve ihtiyaçlarınıza en uygun sürümü seçin. Dosyayı indirdikten sonra, Manjaro ISO görüntüsü ile önyüklenebilir bir USB anahtarı oluşturmanız gerekecektir.
 
 
 

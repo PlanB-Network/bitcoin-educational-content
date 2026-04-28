@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition: Opkod Tapscript sprawdzający podpis i zwiększający licznik, jeśli jest on prawidłowy.
 ---
 
 Wyodrębnia trzy górne wartości ze stosu: `klucz publiczny`, `n` `CScriptNum` i `podpis`. Jeśli podpis nie jest pustym wektorem i nie jest ważny, skrypt kończy działanie z błędem. Jeśli podpis jest ważny lub jest pustym wektorem (`OP_0`), prezentowane są dwa scenariusze:

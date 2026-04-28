@@ -1,0 +1,9 @@
+question: 비트코인 트랜잭션에서 입력(inputs)은 무엇을 소비하나요?
+answer: 기존 UTXO
+wrong_answers:
+  - 미래 출력(outputs)
+  - 기존 블록
+  - 미래 주소
+explanation: |
+  입력은 UTXO라고 불리는 과거 트랜잭션의 소비되지 않은 출력을 참조합니다.
+reviewed: false

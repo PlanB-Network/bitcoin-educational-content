@@ -1,5 +1,6 @@
 ---
 term: XOR
+definition: Operesheni ya kimsingi ya mantiki ya boolean katika krisptografia inayotoa kweli pale tu ambapo oparandi mbili zinatofautiana.
 ---
 
 Kifupi cha operesheni "Exclusive au," kwa Kifaransa "Ou exclusif." Ni kazi ya msingi ya mantiki ya Boolean. Operesheni hii huchukua oparesheni mbili za Boolean, kila moja ikiwa $true$ au $false$, na hutoa pato la $true$ wakati operesheni hizo mbili zinatofautiana. Kwa maneno mengine, matokeo ya operesheni ya XOR ni $true$ ikiwa moja (lakini sio zote mbili) za operesheni ni $true$. Kwa mfano, operesheni ya XOR kati ya $1$ na $0$ itasababisha $1$. Tunakumbuka:

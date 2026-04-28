@@ -1,0 +1,9 @@
+question: What's the main compromise with LN on-board nodes?
+answer: Operator dependency
+wrong_answers:
+  - Loss of private keys
+  - No self-custody
+  - Onchain payments mandatory for all Lightning transactions
+explanation: |
+  The user is heavily dependent on the main operator for connectivity and channel management.
+reviewed: false

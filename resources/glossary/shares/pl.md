@@ -1,5 +1,6 @@
 ---
-term: AKCJE
+term: Udziały (shares)
+definition: Wskaźnik określający ilościowo wkład poszczególnego górnika w pulę wydobywczą.
 ---
 
 W kontekście puli Mining udział jest wskaźnikiem wykorzystywanym do ilościowego określenia wkładu indywidualnego Miner w ramach puli. Miara ta służy jako podstawa do obliczenia nagrody, którą pula redystrybuuje do każdego Miner. Każdy udział odpowiada Hash, który spełnia cel trudności niższy niż w sieci Bitcoin.
@@ -16,7 +17,7 @@ Dla każdego obliczonego Hash, indywidualny Miner w puli może napotkać trzy r�
 - Jeśli Hash jest niższy niż docelowy poziom trudności sieci Bitcoin, jest on uważany zarówno za prawidłowy udział, jak i prawidłowy blok. Miner przesyła ten Hash do swojej puli, która pospiesznie rozgłasza go w sieci Bitcoin. Ten Hash jest również liczony jako ważny udział dla Miner: `udział > blok > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ten system udziału jest wykorzystywany do szacowania pracy wykonanej przez każdy indywidualny Miner w puli, bez konieczności indywidualnego przeliczania wszystkich skrótów generowanych przez Miner, co byłoby całkowicie nieefektywne dla puli.
@@ -25,4 +26,3 @@ Ten system udziału jest wykorzystywany do szacowania pracy wykonanej przez każ
 Pule Mining dostosowują trudność akcji, aby zrównoważyć obciążenie weryfikacyjne i zapewnić, że każdy Miner, niezależnie od tego, czy jest mały, czy duży, przesyła akcje mniej więcej co kilka sekund. Pozwala to na dokładne obliczenie Hashrate każdego Miner i dystrybucję nagród zgodnie z wybraną metodą obliczania rekompensaty (PPS, PPLNS, TIDES...).
 
 
-> w języku francuskim "udziały" można przetłumaczyć jako "część"

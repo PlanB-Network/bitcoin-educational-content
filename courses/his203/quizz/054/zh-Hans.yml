@@ -1,0 +1,10 @@
+question: 软件架构师 Dave Thaler 于 2012 年 9 月在 IANA 注册了哪种支付标准？
+answer: BIP 21 URI 方案
+wrong_answers:
+  - BIP 32 个分层确定性投资组合
+  - BIP 70 支付协议
+  - BIP 47 个可重复使用的付款代码
+explanation: |
+ 该标准使支付请求正规化成为可能，支付请求采用字符串或二维码的形式。经过多次提议，最终的 URI
+ 方案于 2012 年 1 月由 Matt Corallo 在 BIP 21 中进行了描述。Dave Thaler 于 9 月在 IANA 注册了该方案。
+reviewed: true

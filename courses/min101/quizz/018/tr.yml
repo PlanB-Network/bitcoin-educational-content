@@ -1,0 +1,9 @@
+question: Hashcash temel olarak hangi sorunu azaltmayı amaçlıyordu?
+answer: E-posta spamı
+wrong_answers:
+  - Çift harcama
+  - DNS oltalama (phishing)
+  - Özel anahtar hırsızlığı
+explanation: |
+  Hashcash, toplu e-posta gönderimini kârsız hale getirmek için mesaj başına bir hesaplama maliyeti getirir.
+reviewed: false

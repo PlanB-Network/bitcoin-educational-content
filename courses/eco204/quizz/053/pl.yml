@@ -1,12 +1,10 @@
 question: Jaka jest jedna z konsekwencji dolaryzacji?
-answer: Utrata autonomicznej polityki pieniężnej
+answer: Utrata autonomicznej polityki pieniężnej.
 wrong_answers:
-  - Wzrost inflacji
-  - Wzrost środków pieniężnych Supply
-  - Spadek zaufania publicznego
+  - Wzrost inflacji.
+  - Wzrost ilości środków pieniężnych.
+  - Spadek zaufania publicznego.
 explanation: |
-  Dolaryzacja może zakończyć hiperinflację, ale wiąże się z innymi wyzwaniami gospodarczymi
-  wyzwania ekonomiczne. Jedną z konsekwencji jest utrata autonomicznej polityki pieniężnej. Bez
-  własnej waluty, kraj nie może dostosować swojej polityki pieniężnej w odpowiedzi na wewnętrzne wstrząsy gospodarcze
-  wstrząsy gospodarcze.
-reviewed: false
+  Dolaryzacja może zakończyć hiperinflację, ale wiąże się z innymi wyzwaniami gospodarczymi. Jedną z jej konsekwencji jest utrata autonomicznej polityki pieniężnej. Bez
+  własnej waluty, kraj nie może dostosowywać swojej polityki pieniężnej w odpowiedzi na wewnętrzne wstrząsy gospodarcze.
+reviewed: true

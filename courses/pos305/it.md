@@ -53,7 +53,7 @@ Dopo le parole pronunciate da Nicolas, era il momento di iniziare a costruire. �
 
 Cosa significa open-source e cosa comporta un tale progetto?
 
-FOSS sta per Free & Open-Source Software. Il primo termine si riferisce alle condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire, e a migliorarlo.
+[FOSS](https://planb.academy/resources/glossary/foss) sta per Free & Open-Source Software. Il primo termine si riferisce alle condizioni che permettono a chiunque di copiare, modificare e persino distribuire versioni (anche a scopo di lucro) del software. Il secondo termine si riferisce alla condivisione aperta del codice sorgente, incoraggiando il pubblico a contribuire, e a migliorarlo.
 Questo aspetto attira utenti esperti, entusiasti di contribuire a migliorare il software che già utilizzano e da cui traggono valore, dimostrando nel tempo la superiorità dell'adozione di software FOSS rispetto al software proprietario. È coerente con l'etica di Bitcoin secondo cui "le informazioni aspirano ad essere libere". Questo modo di vedere il software riunisce persone appassionate che formano una comunità e inoltre è semplicemente più divertente. Come Bitcoin, il FOSS è inevitabile.
 
 ### Prima di iniziare
@@ -84,11 +84,11 @@ La Fondazione BTCPay Server, che ha permesso ad Alekos e Bas di scrivere questo 
 
 Questo è un esercizio in classe quindi, se segui questo corso da solo, non puoi eseguirlo ma puoi comunque approfondire questo esercizio. Per completare questo compito, il numero minimo di persone è tra 9 e 11.
 
-L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e la blockchain" della BBC.
+L'esercizio inizia dopo aver guardato l'introduzione "Come funzionano Bitcoin e la [blockchain](https://planb.academy/resources/glossary/blockchain)" della BBC.
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
-Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge Lightning Network.
+Questo esercizio richiede la partecipazione di almeno nove persone. L'intento dell'esercizio è di ottenere fisicamente un'idea di come funziona Bitcoin. Interpretando ciascun ruolo nella rete, apprenderai in modo interattivo e divertente. Questo esercizio non coinvolge [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 ### L'Esempio richiede 9 / 11 persone
 
@@ -129,7 +129,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
 - Ognuno dei 9 Computer possiede un registro storico completo di tutte le transazioni passate (quindi saldi accurati senza falsificazioni), così come un insieme di regole:
   - Verificare che la transazione sia firmata correttamente (la chiave apre la serratura).
   - Trasmettere e ricevere transazioni valide agli altri computer nella rete, scartando le transazioni non valide (incluso qualsiasi tentativo di spendere gli stessi fondi due volte).
-- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del Proof of Work, esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
+- Aggiornare/Aggiungere periodicamente i registri con nuove transazioni ricevute da un computer "casuale" a patto che tutti i contenuti siano validi (nota: stiamo ignorando, per ora, la componente del [Proof of Work](https://planb.academy/resources/glossary/proof-of-work), esclusivamente per semplicità), altrimenti dovrà rifiutare queste ultime transazioni e continuare come prima fino a quando il prossimo computer "casuale" invia un aggiornamento.
   - La quantità appropriata è stata inviata se i contenuti erano validi.
 - Questa è la sequenza degli eventi:
   - Il Cliente - naviga nel negozio online e trova un articolo a $25 che desidera, e informa il Commerciante che vorrebbe acquistarlo.
@@ -140,7 +140,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
   - Che la transazione sia firmata correttamente (“sbloccata” dal cliente).
   - Se non è così, allora la transazione non verrà propagata attraverso la rete, diversamente verrà propagata e messa in attesa.
   - I commercianti possono controllare che la transazione sia in sospeso e in attesa.
-- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un blocco" che la contiene; se risulta corretto riceverà una ricompensa in BTC.
+- Un computer viene "casualmente" scelto per proporre di finalizzare la transazione proposta trasmettendo "un [blocco](https://planb.academy/resources/glossary/block)" che la contiene; se risulta corretto riceverà una ricompensa in BTC.
   - OPZIONALE/AVANZATO - invece di selezionare casualmente un computer, simulare il mining facendo lanciare ai Computer dei dadi fino a quando non si verifica un risultato predeterminato (ad es., il primo che ottiene un doppio sei viene selezionato).
   - Si può anche rappresentare cosa succederebbe se due Computer vincono quasi contemporaneamente, creando in una divisione della catena.
   - I Computer controllano la validità, aggiornano/aggiungono ai loro registri, se le regole sono soddisfatte e trasmettono il blocco ai pari.
@@ -153,7 +153,7 @@ Il cliente acquista un prodotto dal negozio usando Bitcoin.
   - Non è richiesta fiducia tra le persone (sennonché l'invio dell'articolo da parte del Commerciante).
   - Il denaro è gestito e detenuto direttamente dalle persone coinvolte.
   - Il registro di Bitcoin è rappresentato in dollari per semplicità, ma nella realtà è in BTC.
-  - Simuliamo una singola transazione trasmessa, ma effettivamente, molteplici transazioni sono in sospeso nella rete, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di doppia spesa in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
+  - Simuliamo una singola transazione trasmessa, ma effettivamente, molteplici transazioni sono in sospeso nella rete, e i blocchi includono contemporaneamente migliaia di transazioni. I nodi controllano anche che non ci siano transazioni di [doppia spesa](https://planb.academy/resources/glossary/double-spending-attack) in sospeso (verrebbero scartate tutte tranne una se fosse il caso).
 - Scenari di truffa:
   - Cosa succederebbe se il cliente non avesse $25 in BTC?
     - Non sarebbe in grado di creare la transazione perché “sbloccare i fondi” e “avere proprietà dei fondi” sono la stessa cosa. I computer controllano che la transazione sia firmata correttamente; altrimenti, la rifiutano.
@@ -174,7 +174,7 @@ Discutere alcune semplificazioni fatte nell'esercizio in classe sul secondo scen
 Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 - Nodo
-- Mempool
+- [Mempool](https://planb.academy/resources/glossary/mempool)
 - Difficulty Target
 - Blocco
 
@@ -184,7 +184,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 - Transazione
 - Doppia Spesa
 - Problema dei Generali Bizantini
-- Mining
+- [Mining](https://planb.academy/resources/glossary/mining)
 - Proof of Work (PoW)
 - Funzione di Hash
 - Block Reward
@@ -193,11 +193,11 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 - Output
 - Output Lock
 - Resto
-- satoshi
-- Chiave Pubblica/Privata
+- [satoshi](https://planb.academy/resources/glossary/satoshi-sat)
+- [Chiave Pubblica](https://planb.academy/resources/glossary/public-key)/Privata
 - Indirizzo
-- Crittografia a Chiave Pubblica
-- Firma Digitale
+- [Crittografia](https://planb.academy/resources/glossary/cryptography) a Chiave Pubblica
+- [Firma Digitale](https://planb.academy/resources/glossary/digital-signature)
 - Wallet.
 
 # Introduzione a BTCPay Server
@@ -210,7 +210,7 @@ Definire i seguenti termini chiave introdotti nella sezione precedente:
 
 ### Lavorare con BTCPay Server
 
-L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e hardware wallet collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
+L'obiettivo di questa parte del corso sarà acquisire una comprensione generale del software BTCPay Server. In un ambiente condiviso, si raccomanda di seguire la dimostrazione dell'istruttore assieme al Manuale del Corso BTCPay Server. Imparerai come creare un wallet attraverso diversi metodi. Gli esempi includono configurazioni di hot wallet e [hardware wallet](https://planb.academy/resources/glossary/hardware-wallet) collegati tramite BTCPay Server Vault. Questi obiettivi verranno realizzati in un ambiente Demo, a cui il tuo istruttore ti darà accesso.
 Se segui questo corso da solo, puoi trovare un elenco di host di terze parti per scopi dimostrativi su https://directory.btcpayserver.org/filter/hosts. Sconsigliamo vivamente l'uso di queste opzioni di terze parti come ambienti di produzione/commercio, ma sono idonei allo scopo per un'introduzione all'uso di Bitcoin e BTCPay Server.
 
 Come tirocinante rockstar di BTCPay Server, potresti avere esperienze precedenti nella configurazione di un nodo Bitcoin, mentre questo corso si riferisce specificamente allo stack software di BTCPay Server.
@@ -413,7 +413,7 @@ In questa sezione, hai imparato:
 
 ### Cosa comporta la generazione delle chiavi Bitcoin?
 
-I wallet Bitcoin, quando vengono creati, generano un cosiddetto "seed", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrase (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seedphrase, o mnemonic phrase, non dovrebbe mai essere condivisa con terze parti o peer non fidati.
+I wallet Bitcoin, quando vengono creati, generano un cosiddetto "[seed](https://planb.academy/resources/glossary/seed)", come abbiamo fatto nell'ultimo obiettivo. Le serie di parole generate in precedenza, che compongono parte del seed, sono note anche come mnemonic phrase (frasi mnemoniche). Il seed viene utilizzato per derivare singole chiavi Bitcoin e usato per inviare o ricevere Bitcoin. La seedphrase, o mnemonic phrase, non dovrebbe mai essere condivisa con terze parti o peer non fidati.
 
 La generazione del seed avviene secondo lo standard di settore noto come framework "Hierarchical Deterministic" (HD).
 
@@ -427,9 +427,9 @@ Un Indirizzo viene derivato dalla chiave pubblica attraverso un "algoritmo di ha
 
 - Gli indirizzi che iniziano con `1.....` sono ancora indirizzi molto comuni. Come menzionato nel capitolo Creazione di un nuovo negozio, questi sono indirizzi legacy. Questo tipo di indirizzo è destinato alle transazioni P2PKH in cui si utilizza la codifica Base58, che rende l'indirizzo sensibile al maiuscolo/minuscolo. La sua struttura si basa sulla chiave pubblica con un ulteriore cifra come identificatore.
 
-- Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi SegWit (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
+- Gli indirizzi che iniziano con `bc1...` stanno lentamente diventando indirizzi molto comuni. Sono noti come indirizzi [SegWit](https://planb.academy/resources/glossary/segwit) (nativi). Offrono una struttura di commissioni migliore rispetto agli altri indirizzi menzionati. Gli indirizzi SegWit nativi utilizzano la codifica Bech32 e consentono solo lettere minuscole.
 
-- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle commissioni di transazione, anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
+- Gli indirizzi che iniziano con `3...` sono comunemente ancora utilizzati dagli exchange per gli indirizzi di deposito. Questi indirizzi sono menzionati nel capitolo Creazione di un nuovo negozio, indirizzi SegWit wrapped (avvolti) o nested (nidificati). Tuttavia, potrebbero anche funzionare come "Indirizzo Multisig". Quando utilizzati come indirizzo SegWit, possono portare a risparmiare ulteriormente sulle [commissioni di transazione](https://planb.academy/resources/glossary/transaction-fees), anche se meno rispetto agli indirizzi SegWit nativi. Gli indirizzi P2SH utilizzano la codifica Base58 e per questo sono sensibili al maiuscolo/minuscolo, come per gli indirizzi legacy.
 
 - Gli indirizzi che iniziano con `2...` sono indirizzi [Testnet](https://planb.academy/it/resources/glossary/testnet) e sono destinati a ricevere bitcoin testnet (tBTC). Non dovresti mai confondere questi indirizzi con quelli precedenti e inviarci dei bitcoin. Per scopi di sviluppo, puoi generare un wallet testnet e ottenere bitcoin testnet da molteplici faucet online. Per questo scopo, non dovresti acquistare mai bitcoin testnet. I Bitcoin testnet sono anch'essi minati, per questo motivo per uno sviluppatore potrebbe essere più efficiente utilizzare la [Regtest](https://planb.academy/it/resources/glossary/regtest). Quest'ultima è un ambiente di sviluppo locale in cui gli sviluppatori effettuano varie prove, poiché privo di alcuni componenti di rete. Il protocollo Bitcoin ha molte utilità per scopi di sviluppo.
 
@@ -439,7 +439,7 @@ Le chiavi pubbliche sono meno utilizzate nella pratica oggi. Nel tempo, gli uten
 
 - Per prima cosa, `02...` e `03...` sono identificatori di molte chiavi pubbliche standard, codificati in formato SEC. Queste possono essere elaborate e trasformati in indirizzi per ricevere, utilizzate per creare indirizzi multi-sig o per verificare una firma. Le transazioni Bitcoin dei primi giorni utilizzavano chiavi pubbliche come parte delle transazioni P2PK.
 
-- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come xpub. Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
+- Tuttavia, i wallet HD utilizzano una struttura diversa. `xpub...`, `ypub...` o `zpub...` le quali sono chiamate chiavi pubbliche estese, meglio note come [xpub](https://planb.academy/resources/glossary/xpub). Queste chiavi vengono utilizzate per derivare tutte le chiavi pubbliche poiché fanno parte del wallet HD. Poiché la tua xpub contiene la cronologia di tutte le transazioni, passate e future, non condividerla mai con parti non fidate.
 
 ### Riepilogo delle Competenze
 
@@ -463,7 +463,7 @@ Mantieni la tua recovery phrase al sicuro, specialmente con chi avesse intenti m
 
 ### Conservazione Hot e Cold delle chiavi Bitcoin
 
-Di solito, i wallet Bitcoin si dividono in Hot Wallet o Cold Wallet. La maggior parte dei compromessi con cui si ha a che fare si trova nella comodità, facilità d'uso e i rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui presenti sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
+Di solito, i wallet Bitcoin si dividono in Hot Wallet o [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). La maggior parte dei compromessi con cui si ha a che fare si trova nella comodità, facilità d'uso e i rischi per la sicurezza. Ognuno di questi metodi può anche essere visto come una soluzione custodial. Tuttavia, i compromessi qui presenti sono per lo più basati su sicurezza e privacy e vanno oltre l'ambito di questo corso.
 
 ### Hot wallet
 
@@ -502,21 +502,22 @@ BTCPay Server comprende le seguenti funzionalità standard del wallet:
 - Rescan
 - Pagamenti Pull
 - Pagamenti
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Impostazioni generali
 
 ### Transazioni
 
 Gli amministratori, nella vista delle transazioni, possono vedere le transazioni in entrata e in uscita del wallet on-chain collegato a questo specifico negozio. Ogni transazione ha una distinzione tra ricevute e invite, quelle ricevute saranno verdi e le altre saranno rosse. All'interno della vista delle transazioni di BTCPay Server, gli amministratori vedranno anche un insieme di etichette standard.
 
-| Tipo di Transazione | Descrizione                                                           |
-| ------------------- | --------------------------------------------------------------------- |
-| App                 | Il pagamento è stato ricevuto tramite un'invoice creata dall'app      |
-| invoice             | Il pagamento è stato ricevuto tramite un'invoice                      |
-| payjoin             | Non pagato, il timer dell'invoice non è ancora scaduto                |
-| payjoin-exposed     | Un UTXO è stato esposto tramite una proposta di payjoin dell'invoice  |
-| payment-request     | Il pagamento è stato ricevuto tramite una richiesta di pagamento      |
-| payout              | Il pagamento è stato inviato tramite un pagamento o un rimborso       |
+
+| Tipo di transazione | Descrizione                                     |
+| -------------------- | ----------------------------------------------- |
+| App                  | Il pagamento è stato ricevuto tramite una fattura creata da un'app |
+| Fattura              | Il pagamento è stato ricevuto tramite una fattura |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)              | Non pagato, il timer della fattura non è ancora scaduto |
+| Payjoin-esposto      | L'[UTXO](https://planb.academy/resources/glossary/utxo) è stato esposto tramite una proposta payjoin nella fattura |
+| Richiesta di pagamento | Il pagamento è stato ricevuto tramite una richiesta di pagamento |
+| Pagamento             | Il pagamento è stato inviato tramite un pagamento o un rimborso |
 
 ### Come Inviare
 
@@ -575,7 +576,7 @@ BTCpay Server supporta anche BIP-329 per la gestione e applicazione delle etiche
 
 Quando si fa clic sul pulsante di ricezione in BTCPay Server, viene generato un indirizzo inutilizzato per ricevere il pagamento. Gli amministratori possono anche generare un nuovo indirizzo generando una nuova "Invoice".
 
-BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponibile per evitare il riuso degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server genera un nuovo indirizzo e relativo QR code, consentendo nel contempo di impostare direttamente un'etichetta per una migliore gestione dei tuoi indirizzi.
+BTCPay Server chiederà sempre di utilizzare l'indirizzo successivo BTC disponibile per evitare il riuso degli indirizzi. Dopo aver cliccato su "Genera il prossimo indirizzo BTC disponibile", BTCPay Server genera un nuovo indirizzo e relativo QR code, consentendo nel contempo di impostare direttamente un'[etichetta](https://planb.academy/resources/glossary/label) per una migliore gestione dei tuoi indirizzi.
 
 ![immagine](assets/en/018.webp)
 
@@ -623,7 +624,7 @@ BTCPay Server permette di configurare un wallet in due modi. Il primo è importa
 L'opzione di hot wallet in BTCPay Server consente le funzionalità come 'Payjoin' o 'Liquid'. Tuttavia, c'è uno svantaggio: la seedphrase di recupero generata per questo wallet sarà memorizzata sul server, dove, chiunque abbia il controllo come Amministratore, potrebbe leggere la seedphrase di recupero. Poiché la tua chiave privata deriva dalla tua seedphrase di recupero, un attore malevolo potrebbe ottenere accesso ai tuoi fondi attuali e futuri!
 Per mitigare tale rischio in BTCPay Server, un Amministratore può impostare in Impostazioni Server > Politiche > "Consenti ai non-amministratori di creare hot wallet per i loro negozi" su no, come impostazione predefinita. Per migliorare la sicurezza di questi hot wallet, l'amministratore del server dovrebbe abilitare l'autenticazione 2FA sugli account autorizzati ad avere hot wallet. Conservare le chiavi private su un server pubblico è pericoloso e comporta dei rischi. Alcuni sono simili ai rischi di Lightning Network (vedi il capitolo successivo per i rischi di Lightning Network).
 
-La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un [Watch-Only wallet](https://planb.academy/resources/glossary/watch-only-wallet), per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
+La seconda opzione che BTCPay Server offre per generare un nuovo wallet è creando un Watch-Only wallet (wallet di sola visualizzazione). BTCPay Server genererà le tue chiavi private una sola volta. Dopo che l'utente conferma di aver annotato la propria seedphrase, BTCPay Server cancellerà le chiavi private dal server. Di conseguenza, il tuo negozio ora ha collegato un Watch-Only wallet, per spendere i fondi ricevuti sul tuo Watch-Only wallet, vedi il capitolo 'Come Inviare': si potrà fare sia utilizzando BTCPay Server Vault, sia la PSBT (transazione bitcoin parzialmente firmata), o, meno raccomandato, inserendo manualmente la tua seedphrase.
 
 Hai creato un nuovo 'Negozio' nell'ultima parte. La procedura guidata di installazione continuerà chiedendo di "Impostare un wallet" o "Impostare un nodo Lightning". In questo esempio, seguirai la procedura guidata "Impostare un wallet" (1).
 
@@ -786,7 +787,7 @@ Nell'opzione Lightning wallet presente nella barra del menu a sinistra, gli ammi
 
 #### Informazioni nodo interno
 
-Gli amministratori del server possono cliccare sulle informazioni del nodo interno e dare un'occhiata allo stato del loro server (Online/Offline) e alla stringa di connessione per Clearnet o Tor.
+Gli amministratori del server possono cliccare sulle informazioni del nodo interno e dare un'occhiata allo stato del loro server (Online/Offline) e alla stringa di connessione per Clearnet o [Tor](https://planb.academy/resources/glossary/tor).
 
 ![immagine](assets/en/033.webp)
 
@@ -817,7 +818,7 @@ I proprietari dei negozi possono impostare parametri per migliorare l'esperienza
 
 #### LNURL
 
-I proprietari dei negozi possono scegliere di utilizzare o meno [LNURL](https://planb.academy/resources/glossary/lnurl). Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
+I proprietari dei negozi possono scegliere di utilizzare o meno LNURL. Un URL della Rete Lightning, o LNURL, è uno standard proposto per le interazioni tra colui che paga ed il beneficiario. In breve, un LNURL è un URL codificato bech32 con il prefisso "lnurl". Il Lightning wallet dovrebbe decodificare l'URL, contattando l'URL in attesa di un file JSON con ulteriori istruzioni, in particolare un tag che definisce il comportamento dell'LNURL.
 
 - Abilitare LNURL
 - Modalità LNURL Classica
@@ -1256,27 +1257,29 @@ Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del n
 
 BTCPay Server consente anche di costruire moduli in codice, in paricolare in fomrato JSON. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati dell'invoice:
 
-| Campo                 | Descrizione                                                                                                                                                                                 |
-| --------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   |
-| .fields.constant      | Se vero, il _.value_ deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
-| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel   |
-| .fields.options       | Se _.fields.type_ è selezionato, l'elenco dei valori sarà selezionabile                                                                                                                     |
-| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                    |
-| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                         |
-| .fields.type=fieldset | Crea un fieldset HTML intorno ai _.fields.fields_ figli (vedi sotto)                                                                                                                        |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                              |
-| .fields.value         | Il valore predefinito del campo                                                                                                                                                             |
-| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                         |
-| .fields.label         | L'etichetta del campo                                                                                                                                                                       |
-| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                   |
-| .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati dell'invoice. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
+
+| Campo | Descrizione |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| .fields.constant | Se true, il .value deve essere impostato nella definizione del modulo e l'utente non potrà modificare il valore del campo. (esempio: la versione della definizione del modulo) |
+| .fields.type | Il tipo di input HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Se .fields.type è select, l'elenco dei valori selezionabili |
+| .fields.options.text | Il testo visualizzato per questa opzione |
+| .fields.options.value | Il valore del campo se questa opzione è selezionata |
+| .fields.type=fieldset | Crea un fieldset HTML attorno ai figli .fields.fields (vedi sotto) |
+| .fields.name | Il nome della proprietà JSON del campo come apparirà nei metadati della fattura |
+| .fields.value | Il valore predefinito del campo |
+| .fields.required | se true, il campo sarà obbligatorio |
+| .fields.label | L'etichetta del campo |
+| .fields.helpText | Testo aggiuntivo per fornire una spiegazione per il campo. |
+| .fields.fields | Puoi organizzare i tuoi campi in una gerarchia, consentendo ai campi figli di essere annidati all'interno dei metadati della fattura. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendole più facili da consultare e interpretare. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo genitore chiamato customer. All'interno di questo campo genitore, potresti avere campi figli come name, Email e address. |
 
 Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 
-| Nome del campo   | Descrizione            |
+
+| Nome campo       | Descrizione           |
 | ---------------- | ---------------------- |
-| invoice_amount   | L'importo dell'invoice |
-| invoice_currency | La valuta dell'invoice |
+| invoice_amount   | Importo della fattura |
+| invoice_currency | Valuta della fattura  |
 
 È possibile precompilare i campi di un'invoice automaticamente aggiungendo stringhe di query all'URL del modulo, come _"?your_field=value"_.
 
@@ -1589,7 +1592,8 @@ docker ps
 docker logs --tail 100 generated_btcpayserver_1
 ```
 
-| Log per      | Nome del Container                |
+
+| Registri per  | Nome del contenitore               |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -1731,21 +1735,22 @@ A meno che non si utilizzi un [Wallet](https://docs.btcpayserver.org/Wallet/) in
 
 La tabella sottostante elenca e descrive gli stati standard delle invoice in BTCPay e suggerisce azioni comuni. Le azioni sono solo raccomandazioni. Spetta agli utenti definire il miglior modo d'agire per il proprio business e i vari casi d'uso.
 
-| Stato dell'invoice                  | Descrizione                                                                                                                                          | Azione                                                                                                                                                             |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Nuova                               | Non pagata, il timer dell'invoice non è ancora scaduto                                                                                               | Nessuna                                                                                                                                                            |
-| Nuova (pagata Parziale)             | Pagata, non in pieno, il timer dell'invoice non è ancora scaduto                                                                                     | Nessuna                                                                                                                                                            |
-| Scaduta                             | Non pagata, il timer dell'invoice è scaduto                                                                                                          | Nessuna                                                                                                                                                            |
-| Scaduta (pagata Parziale) \*\*      | Pagata, non per l'intero importo, e scaduta                                                                                                          | Contattare l'acquirente per organizzare un rimborso o chiedere di saldare il dovuto. Opzionalmente, segnare l'invoice come regolata o invalida                     |
-| Scaduta (pagata Tardi)              | Pagata, per l'intero importo, dopo la scadenza del timer dell'invoice                                                                                | Contattare l'acquirente per organizzare un rimborso o processare l'ordine se le conferme tardive sono accettabili.                                                 |
-| Liquidato (pagato in eccesso)       | Pagato più dell'importo dell'invoice, liquidato, ricevuto un numero sufficiente di conferme                                                          | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione                     | Pagato per intero, ma non ha ricevuto un numero sufficiente di conferme specificate nelle impostazioni del negozio                                   | Contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti                               |
-| In elaborazione (pagato in eccesso) | Pagato più dell'importo dell'invoice, non ricevuto un numero sufficiente di conferme                                                                 | Attendere la liquidazione poi contattare l'acquirente per organizzare un rimborso per l'importo extra, o, facoltativamente, attendere che l'acquirente ti contatti |
-| Liquidato                           | Pagato, per intero, ricevuto un numero sufficiente di conferme nel negozio                                                                           | Eseguire l'ordine                                                                                                                                                  |
-| Liquidato (marcato)                 | Lo stato è stato cambiato manualmente in liquidato da uno stato in elaborazione o non valido                                                         | L'amministratore del negozio ha marcato il pagamento come liquidato                                                                                                |
-| Non valido                        | Pagato, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio                               | Verificare la transazione su un esploratore blockchain, se ha ricevuto conferme sufficienti, marcarlo come liquidato                                               |
-| Non valido (marcato)                | Lo stato è stato cambiato manualmente in non valido da uno stato liquidato o scaduto                                                                 | L'amministratore del negozio ha marcato il pagamento come non valido                                                                                               |
-| Non valido (pagato in eccesso)      | Pagato più dell'importo dell'invoice, ma non ha ricevuto un numero sufficiente di conferme entro il tempo specificato nelle impostazioni del negozio | Verificare la transazione su un blockchain explorer, se ha ricevuto conferme sufficienti, marcarla come liquidata                                                  |
+
+| Stato Fattura | Descrizione | Azione |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| New | Non pagata, il timer della fattura non è ancora scaduto | Nessuna |
+| New (paidPartial) | Pagata parzialmente, il timer della fattura non è ancora scaduto | Nessuna |
+| Expired | Non pagata, il timer della fattura è scaduto | Nessuna |
+| Expired (paidPartial) ** | Pagata parzialmente e scaduta | Contatta l'acquirente per un rimborso o per il saldo. Opzionalmente segna la fattura come settled o invalid |
+| Expired (paidLate) | Pagata integralmente dopo la scadenza del timer della fattura | Contatta l'acquirente per un rimborso o elabora l'ordine se le conferme tardive sono accettabili. |
+| Settled (paidOver) | Pagata oltre l'importo, saldata, ricevuto un numero sufficiente di conferme | Contatta l'acquirente per rimborsare l'eccedenza, o attendi che l'acquirente ti contatti |
+| Processing | Pagata interamente, ma non ha ricevuto conferme sufficienti (secondo le impostazioni del negozio) | Contatta l'acquirente per rimborsare l'eccedenza, o attendi che l'acquirente ti contatti |
+| Processing (paidOver) | Pagata oltre l'importo, conferme insufficienti | Attendi il saldo, poi contatta l'acquirente per il rimborso dell'eccedenza, o attendi che ti contatti |
+| Settled | Pagata interamente, ricevuto un numero sufficiente di conferme nel negozio | Evadi l'ordine |
+| Settled (marked) | Lo stato è stato cambiato manualmente in settled da uno stato processing o invalid | L'amministratore ha segnato il pagamento come settled |
+| Invalid* | Pagata, ma conferme insufficienti entro il tempo specificato | Controlla la transazione su un blockchain explorer; se le conferme sono sufficienti, segna come settled |
+| Invalid (marked) | Lo stato è stato cambiato manualmente in invalid da uno stato settled o expired | L'amministratore ha segnato il pagamento come invalid |
+| Invalid (paidOver) | Pagata oltre l'importo, ma conferme insufficienti entro il tempo specificato | Controlla la transazione su un blockchain explorer; se le conferme sono sufficienti, segna come settled |
 
 #### Dettagli dell'invoice
 

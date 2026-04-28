@@ -1,0 +1,10 @@
+question: An welcher Online-Börse führte Erik Voorhees im August 2012 einen informellen Börsengang durch, um das Online-Casino SatoshiDICE zu vergrößern?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx war die von Mircea Popescu geleitete Plattform, die einige Monate zuvor gestartet wurde. Erik Voorhees gab 100 Millionen Aktien aus (mit dem Aktiensymbol S.DICE) und
+ verkaufte 10 Aktien, um 34.500 Bitcoins oder rund 372.000 Dollar einzunehmen.
+reviewed: true

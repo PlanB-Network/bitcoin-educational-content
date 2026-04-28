@@ -1,0 +1,8 @@
+question: Gdy Bitcoin wallet skanuje bloki w poszukiwaniu płatności przychodzących, dlaczego preferowane jest pobieranie całych bloków zamiast żądania pojedynczych transakcji od sieci równorzędnych?
+answer: Pobieranie całych bloków zapewnia lepszą ochronę prywatności, ponieważ nie ujawnia, które konkretne transakcje lub adresy są monitorowane przez wallet
+wrong_answers:
+  - Pobieranie całych bloków jest bardziej wydajne obliczeniowo, ponieważ wymaga mniejszej liczby kryptograficznych operacji skrótu do weryfikacji autentyczności transakcji
+  - Pobieranie całych bloków zapewnia szybszą synchronizację, ponieważ peery mogą wysyłać skompresowane dane blokowe zamiast indywidualnych odpowiedzi na transakcje
+  - Pobieranie całych bloków zapewnia lepsze bezpieczeństwo, ponieważ umożliwia wallet weryfikację kompletnego proof-of-work dla każdej transakcji
+explanation: |
+  Prywatność jest kluczową zaletą wyszukiwania opartego na blokach. Gdy wallet żąda określonych transakcji, wyciekają silne sygnały o aktywności użytkownika i ujawnia, które adresy należą do tego wallet. Pobieranie całych bloków maskuje rzeczywiste zainteresowania wallet wśród wszystkich transakcji blokowych. Błędne odpowiedzi koncentrują się na wydajności, szybkości lub korzyściach związanych z bezpieczeństwem, które nie są główną motywacją - indywidualne żądania transakcji mogą teoretycznie być równie bezpieczne lub wydajne, ale zasadniczo naruszają prywatność, ujawniając wzorce monitorowania wallet partnerom sieciowym.

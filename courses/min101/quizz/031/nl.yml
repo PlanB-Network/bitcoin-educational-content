@@ -1,0 +1,9 @@
+question: Wat is de laatste halving volgens het protocol?
+answer: De 33e
+wrong_answers:
+  - De 21e
+  - De 38e
+  - De 64e
+explanation: |
+  De 33e halving, op hoogte 6.930.000, zal een einde maken aan de bloksubsidie omdat deze onder de minimale eenheid zal dalen.
+reviewed: false

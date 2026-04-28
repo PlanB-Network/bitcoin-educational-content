@@ -1,0 +1,8 @@
+question: Šta se dešava sa originalnom instancom strukture kada koristite sintaksu ažuriranja strukture sa tipovima koji nisu Copy?
+answer: Polja koja su kopirana postaju neupotrebljiva u originalnoj instanci zbog semantike premeštanja
+wrong_answers:
+  - Originalna instanca ostaje potpuno nepromenjena i potpuno dostupna.
+  - Cela originalna instanca je klonirana, ostavljajući obe instance potpuno funkcionalne.
+  - Samo polja koja eksplicitno promenite postaju nedostupna u originalu
+explanation: |
+  Kada koristite sintaksu ažuriranja strukture sa tipovima koji nisu Copy, Rust-ov sistem vlasništva premešta kopirana polja iz originalne instance u novu. To znači da ta specifična polja postaju neupotrebljiva u originalnoj instanci, iako polja koja nisu kopirana ostaju dostupna. Kompajler inteligentno prati ove delimične premene, sprečavajući pristup premeštenim poljima dok omogućava nastavak korišćenja nepremestenih polja. Ovo ponašanje osigurava bezbednost memorije sprečavanjem višestrukih vlasnika istih podataka.

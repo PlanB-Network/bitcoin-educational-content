@@ -1,0 +1,9 @@
+question: Tại sao việc nâng cấp Pay to Script Hash lại cần đến 55% sức mạnh băm của mạng để được kích hoạt?
+answer: Để đảm bảo tính "tương thích ngược" và không gây ra sự phân tách chuỗi
+wrong_answers:
+  - Vì việc quản trị giao thức phụ thuộc vào phiếu bầu của các thợ đào ("mỗi bộ xử lý một phiếu bầu")
+  - Để tránh tình trạng tập trung hóa hoạt động kinh doanh mining, vốn bị chi phối bởi một vài nhóm mining
+  - Vì trưởng dự án Gavin Andresen không muốn trở thành một "nhà độc tài nhân từ"
+explanation: |
+ Đây là một hạn chế của các quy tắc đồng thuận, điều mà sau này được gọi là "fork mềm". Việc nâng cấp không tạo ra sự phân tách chuỗi nếu nó được hỗ trợ bởi phần lớn sức mạnh tính toán của mạng.
+reviewed: true

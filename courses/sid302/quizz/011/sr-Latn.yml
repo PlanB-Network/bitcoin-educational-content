@@ -1,0 +1,8 @@
+question: Šta se dešava kada pružalac usluga plati Lightning fakturu da bi završio Liquid-to-Lightning zamenu koristeći HTLC-ove?
+answer: Pružalac prima preimage od Lightning uplate, koji zatim može koristiti za otključavanje i preuzimanje L-BTC od HTLC
+wrong_answers:
+  - Provajder mora čekati da vremenska blokada istekne pre nego što može pristupiti L-BTC zaključanom u HTLC ugovoru.
+  - "Klijent automatski prima preimage i koristi ga za oslobađanje L-BTC direktno provajderovom Liquid wallet"
+  - HTLC ugovor se automatski izvršava i prenosi L-BTC provajderu bez potrebe za dodatnim kriptografskim dokazom
+explanation: |
+  HTLC-ovi stvaraju atomske zamene kroz kriptografsko povezivanje koristeći isti hash lock na obe mreže. Kada provajder uspešno plati Lightning fakturu, oni dobijaju preimage (tajnu) koja odgovara hash lock-u. Ovaj preimage je kriptografski ključ koji im omogućava da otključaju L-BTC koji je prethodno bio zaključan u HTLC. Druge opcije su netačne jer ne odražavaju atomsku prirodu HTLC-ova - vremensko zaključavanje je samo rezervni mehanizam, klijenti ne upravljaju distribucijom preimage-a, i HTLC-ovi zahtevaju aktivni kriptografski dokaz umesto automatskog izvršenja.

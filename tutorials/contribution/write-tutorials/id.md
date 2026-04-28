@@ -64,11 +64,11 @@ Sebagai contoh, saat ini kami memiliki tutorial tentang Tails, Nostr, dan Graphe
 
 Anda dapat merancang tutorial dari awal, atau mengambil tutorial yang telah dipublikasikan sebelumnya di situs web Anda (asalkan Anda memiliki hak cipta) dan membagikannya di Plan ₿ Academy juga, dengan menambahkan tautan ke artikel aslinya.
 
-Apa pun yang Anda pilih, harap diingat bahwa semua konten yang dipublikasikan di Plan ₿ Academy dilisensikan di bawah lisensi [CC-BY-SA] (https://creativecommons.org/licenses/by-sa/4.0/). Lisensi ini mengizinkan siapa pun untuk menyalin dan, mungkin, memodifikasi konten Anda, dengan syarat bahwa sumber aslinya dicantumkan.
+Apa pun yang Anda pilih, harap diingat bahwa semua konten yang dipublikasikan di Plan ₿ Academy dilisensikan di bawah lisensi [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Lisensi ini mengizinkan siapa pun untuk menyalin dan, mungkin, memodifikasi konten Anda, dengan syarat bahwa sumber aslinya dicantumkan.
 
 ## 2 - Hubungi tim Plan ₿ Jaringan
 
-Setelah Anda memilih tema untuk tutorial Anda, langkah selanjutnya adalah memberi tahu kami tentang niat Anda untuk menambahkan konten ini ke platform. Cara termudah, jika Anda memiliki akun Telegram, adalah dengan [bergabung dengan grup kami] (https://t.me/PlanBNetwork_ContentBuilder).
+Setelah Anda memilih tema untuk tutorial Anda, langkah selanjutnya adalah memberi tahu kami tentang niat Anda untuk menambahkan konten ini ke platform. Cara termudah, jika Anda memiliki akun Telegram, adalah dengan [bergabung dengan grup kami](https://t.me/PlanBNetwork_ContentBuilder).
 
 ![TUTO](assets/fr/39.webp)
 

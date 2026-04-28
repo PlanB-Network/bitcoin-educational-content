@@ -1,0 +1,9 @@
+question: Iyo intego y'ingorane igabanutse, umu-mining biba bimeze gute?
+answer: Biragora cane
+wrong_answers:
+  - Biroroherana
+  - Biguma bimeze kumwe
+  - Ntibishoboka
+explanation: |
+  Iyo intego iri hasi, bituma haba uburyo buke bwo kuronka hash iri munsi y'urugero rwashizweho, gutyo bigasaba kugerageza kenshi kugira uronke hash yemewe. Ivyo bisobanura ko umu-mining uba ugoye kurusha.
+reviewed: false

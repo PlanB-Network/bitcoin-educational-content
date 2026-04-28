@@ -1,0 +1,8 @@
+question: Podczas tworzenia niestandardowego makra funkcyjnego, które musi obsługiwać różne liczby argumentów wejściowych, która kombinacja specyfikatora fragmentu i wzorca powtórzeń byłaby najbardziej odpowiednia?
+answer: Użyj $($x:expr),*, aby dopasować zero lub więcej wyrażeń oddzielonych przecinkami
+wrong_answers:
+  - Użyj $($x:ident)+, aby dopasować jeden lub więcej identyfikatorów bez separatorów
+  - Użyj $($x:ty);*, aby dopasować zero lub więcej typów oddzielonych średnikami
+  - Użyj $($x:expr)? aby dopasować opcjonalne pojedyncze wyrażenie bez powtórzeń
+explanation: |
+  Wzorzec $($x:expr),* jest specjalnie zaprojektowany dla makr o zmiennych argumentach, gdzie expr pasuje do dowolnego wyrażenia, a składnia ,* obsługuje zero lub więcej powtórzeń oddzielonych przecinkami. Jest to dokładnie to, co jest potrzebne dla makr takich jak vec! które mogą akceptować różną liczbę argumentów. Pozostałe opcje są niepoprawne, ponieważ: ident dopasowuje tylko identyfikatory (nie pełne wyrażenia), ty dopasowuje typy (nie wartości), a ? dopasowuje opcjonalne pojedyncze elementy, a nie zmienne powtórzenia.

@@ -1,0 +1,8 @@
+question: Koja je glavna prednost funkcionalnih programskih karakteristika Rust u održavanju apstrakcija bez troškova?
+answer: Oni proizvode efikasan mašinski kod uporediv sa tradicionalnim pristupima zasnovanim na petljama, bez žrtvovanja performansi.
+wrong_answers:
+  - Oni automatski upravljaju dodelom i oslobađanjem memorije kako bi potpuno sprečili opterećenje u vreme izvršavanja.
+  - Oni eliminišu potrebu za proverom tipa u vreme kompajliranja, dok održavaju garancije bezbednosti.
+  - Oni pružaju funkcionalnost prikupljanja smeća koja radi bez uticaja na brzinu izvršavanja programa
+explanation: |
+  Apsrakcije bez troškova u funkcionalnim programskim karakteristikama Rust znače da korišćenje zatvaranja i iteratora ne žrtvuje performanse zbog izražajnosti. Kompajler Rust optimizuje ove visokolevelske konstrukte kako bi proizveo mašinski kod koji radi jednako dobro kao ručno pisane tradicionalne petlje. Ovo omogućava programerima da pišu izražajniji i čitljiviji kod bez plaćanja kazne u performansama u vreme izvršavanja, što je osnovni princip dizajnerske filozofije Rust.

@@ -1,0 +1,8 @@
+question: Milline põhimõtteline plokiahela arhitektuuri erinevus muudab Liquid sobivamaks kriitiliste finantstoimingute jaoks võrreldes Ethereumil põhinevate tokeniseerimisplatvormidega?
+answer: Liquid kasutab Bitcoin UTXO mudelit, mis tagab deterministliku tehingu tulemuse, samas kui Ethereumi kontomudel võib põhjustada ebaõnnestunud tehinguid, mis siiski tarbivad gaasitasusid
+wrong_answers:
+  - Liquid töötab konsensusmehhanismiga, mis tõestab osalust, samas kui Ethereum kasutab tehingu valideerimiseks energiamahukat proof-of-work mining
+  - "Liquidi föderatiivne sidechaini struktuur võimaldab piiramatut tehingu läbilaskevõimet, samas kui Ethereum on piiratud ühe ahela plokisuuruse piirangutega"
+  - Liquid rakendab Elements skriptide abil natiivset nutika lepingu funktsionaalsust, samas kui Ethereum nõuab väliseid virtuaalmasinate täitmiskeskkondi
+explanation: |
+  UTXO mudeli deterministlikkus on finantsasutuste jaoks väga oluline, sest tehingud kas õnnestuvad täielikult või ebaõnnestuvad ilma igasuguste kuludeta, pakkudes prognoositavaid tulemusi. Ethereumi kontomudel võib põhjustada ebaõnnestunud tehinguid, mis tarbivad ikkagi gaasitasusid, tekitades tegevuse ebakindlust ja lisakulusid, mis on vastuvõetamatud ärikriitiliste finantstoimingute puhul, kus usaldusväärsus ja kulude prognoositavus on esmatähtsad.

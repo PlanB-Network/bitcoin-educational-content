@@ -220,7 +220,7 @@ Do tej instalacji potrzebne będą :
 
 
 
-- Odwiedź [oficjalną stronę internetową] (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
+- Odwiedź [oficjalną stronę internetową](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Pobierz najnowszą wersję UmbrelOS dla Raspberry Pi 5
 
 

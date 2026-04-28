@@ -1,5 +1,6 @@
 ---
 term: PBKDF2
+definition: Funkcja wyprowadzania kluczy kryptograficznych z hasła poprzez iteracje.
 ---
 
 pBKDF2 to skrót od *Password-Based Key Derivation Function 2*. Jest to metoda tworzenia kluczy kryptograficznych z hasła przy użyciu funkcji derywacyjnej. Przyjmuje jako dane wejściowe hasło, sól kryptograficzną i iteracyjnie stosuje z góry określoną funkcję (często funkcję Hash, taką jak `SHA256` lub `HMAC`) do tych danych. Proces ten jest powtarzany wiele razy do generate klucza kryptograficznego.

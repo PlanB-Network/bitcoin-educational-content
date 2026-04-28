@@ -1,0 +1,9 @@
+question: Quelle fonctionnalité ajoutée par le service de change BitInstant en décembre 2011 a été exploitée par Robert Faiella, alias BTCKing, pour son activité de revente sur le dark web ?
+answer: Le dépôt d'espèces
+wrong_answers:
+  - Les achats sans frais
+  - Les transferts instantanés
+  - La conformité règlementaire
+explanation: |
+ BitInstant a ajouté cette méthode de paiement à son offre le 21 décembre 2011. Il était possible pour les citoyens étasuniens de déposer des espèces dans des emplacements spécifiques et d'être crédités quasi instantanément en dollars sur la plateforme de change de leur choix. Robert Faiella, alias BTCKing, a profité de la relative confidentialité de cette méthode pour exercer une activité de revente sur Silk Road, moyennant des frais plus élevés.
+reviewed: false

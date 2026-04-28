@@ -1,0 +1,8 @@
+question: Milline on Rust staatilise tüübistamise peamine eelis Bitcoin rakenduste arendamisel dünaamilise tüübistamise ees?
+answer: Tüübivead püütakse kinni kompileerimise ajal enne kasutuselevõttu, vältides kasutajavahendite käitlemisel jooksuaegseid tõrkeid
+wrong_answers:
+  - Staatiline tüübistamine võimaldab kiiremat täitmist Bitcoin tehingute töötlemisel plokiahelas
+  - "Dünaamiline kirjutamine nõuab rohkem mälu eraldamist, mis on vastuolus Bitcoin kerge sõlme nõuetega"
+  - Staatiline tüübistamine võimaldab automaatset koodi genereerimist Bitcoin protokollide rakenduste ja nutikate lepingute jaoks
+explanation: |
+  Rust staatiline tüübistamine tuvastab tüübivastavused kompileerimise ajal, tagades, et vead lahendatakse enne tarkvara ehitamist või kasutuselevõttu. See on Bitcoin arenduse jaoks ülioluline, sest kui tarkvara hakkab tegelike kasutajate rahalisi vahendeid käitlema, võivad tööaegsed tüübivigad põhjustada pöördumatuid rahalisi kahjusid. Dünaamiline tüübistamine paljastab vead alles täitmise ajal, potentsiaalselt pärast kasutuselevõttu, kui kasutajate raha on ohus. Teised valikud on valed, sest staatilise tüübistamise peamine kasu ei ole täitmise kiirus, mälukasutus või koodi genereerimine, vaid pigem vigade vältimine kompileerimise ajal.

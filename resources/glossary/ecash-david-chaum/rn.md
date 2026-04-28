@@ -1,5 +1,6 @@
 ---
-term: AMAFARANGA (DAWIDI CHAUM)
+term: Ecash (david chaum)
+definition: Uburyo bw'amahera y'ubuhinga atazwi nyenevyo bwashikirijwe na David Chaum mu 1982, imbere y'uko cryptocurrencies zibaho.
 ---
 
 Protocole yashikirijwe na David Chaum mu 1982, ariyo imwe mu nzira za mbere z’amahera y’ubuhinga bwa none zagenewe kubungabunga amazina y’abakoresha. Ishingiye ku ngingo ngenderwako z’urufunguzo rwa bose kugira ngo haboneke amafaranga y’ubuhinga bwa none ashobora guhindurwa ata nkomanzi kandi ata wumenyekana. eCash ikora mu guhingura ibimenyetso vy’ubuhinga bwa none vyashizweko umukono na banki. Gutyo, rigereranya ugutera imbere kw’amabanki y’ibizigamirwa, ataco akora. Mu gihe c’ugucuruza, ivyo bimenyetso birarungikwa hagati y’ababikoresha ataco bimenyesha, gutyo bikaba bizigama ubuzima bwite bwabo. eCash ifatwa nk’intango y’amahera y’ivy’ubuhinga bwa none. Kenshi biza mu biganiro vyerekeye Bitcoin, bamwe bashaka gukoresha uburyo busa na eCash nk’uko Layer iri hejuru. Ubu, umurongo uriko uragenda cane ku vyo bita "ubutegetsi bwa Chaumian buhurikiye hamwe" nka Fedimint.

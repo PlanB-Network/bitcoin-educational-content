@@ -1,5 +1,6 @@
 ---
-term: redeemscript
+term: Redeemscript
+definition: Script dat de bestedingsvoorwaarden van een P2SH UTXO definieert, onthuld op het moment van besteding.
 ---
 
 Een script dat de specifieke voorwaarden definieert waaraan ingangen moeten voldoen om de fondsen geassocieerd met een P2SH uitgang te ontgrendelen. In een P2SH UTXO bevat de `scriptPubKey` de Hash van de `redeemscript`. Wanneer een transactie deze UTXO wil uitgeven als invoer, moet het de duidelijke `redeemscript` geven die overeenkomt met de Hash in de `scriptPubKey`. De `redeemscript` wordt dus gegeven in de `scriptSig` van de invoer, samen met andere Elements die nodig zijn om aan de voorwaarden van het script te voldoen, zoals handtekeningen of publieke sleutels. Deze ingekapselde structuur zorgt ervoor dat de details van de bestedingsvoorwaarden verborgen blijven totdat de bitcoins daadwerkelijk worden uitgegeven. Het wordt met name gebruikt voor Legacy P2SH wallets met meerdere handtekeningen.

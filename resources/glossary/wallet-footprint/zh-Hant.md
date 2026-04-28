@@ -1,5 +1,6 @@
 ---
-term: Wallet 鞋印
+term: 錢包佔用空間
+definition: 在錢包交易中可觀察到的獨特特徵，用於追蹤其活動。
 ---
 
 在由相同的 Bitcoin Wallet 所做的交易中可以觀察到的一系列明顯特徵。這些特徵可包括腳本類型使用的相似性、位址的重複使用、UTXO 的順序、變更輸出的位置、RBF (*Replace-by-fee*) 的信令、版本號、`nSequence`欄位和`nLockTime`欄位。

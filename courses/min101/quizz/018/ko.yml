@@ -1,0 +1,9 @@
+question: Hashcash는 주로 어떤 문제를 해결하려고 했습니까?
+answer: 이메일 스팸
+wrong_answers:
+  - 이중 지불
+  - DNS 피싱
+  - 개인 키 도난
+explanation: |
+  Hashcash는 대량의 이메일 전송을 수익성이 없게 만들기 위해 메시지당 컴퓨팅 비용을 부과합니다.
+reviewed: false

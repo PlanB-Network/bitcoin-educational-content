@@ -685,13 +685,14 @@ LineageOS دارای یک سیستم به‌روزرسانی Over-The-Air بسی
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **جنبه** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **سازگاری** | فقط پیکسل | صدها دستگاه |
+| **امنیت** | کاهش های پیشرفته | امنیت استاندارد AOSP |
+| **Google Play** | شن و ماسه اختیاری | نصب کلاسیک ممکن است |
+| **نصب** | رابط وب + USB | رویه دستی فنی |
+| **فلسفه** | امنیت بالای همه | توازن و آزادی انتخاب |
 
 ### توصیه‌ها برای استفاده
 

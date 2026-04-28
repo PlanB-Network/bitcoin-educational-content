@@ -1,0 +1,9 @@
+question: 交易在添加到區塊鏈之前是被打包進什麼的？
+answer: 區塊中
+wrong_answers:
+  - UTXO 中
+  - ASIC 中
+  - scriptSig 中
+explanation: |
+  交易不會立即寫入區塊鏈。它首先被整合進一個區塊中。
+reviewed: false

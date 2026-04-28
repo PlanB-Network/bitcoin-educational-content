@@ -1,6 +1,7 @@
 ---
 term: OP_2 TIL OP_16 (0X52 TIL 0X60)
 
+definition: Opcodes som skyver numeriske verdier fra 2 til 16 på stakken.
 ---
 Opkodene fra `OP_2` til `OP_16` skyver de respektive tallverdiene fra 2 til 16 opp på stakken. De brukes til å forenkle skript ved å tillate innsetting av små numeriske verdier. Denne typen opkoder brukes særlig i skript med flere signaturer. Her er et eksempel på en `scriptPubKey` for en 2/3 multisignatur:
 

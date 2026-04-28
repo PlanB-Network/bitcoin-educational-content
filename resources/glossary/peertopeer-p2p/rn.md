@@ -1,5 +1,6 @@
 ---
-term: URUGANGANI-KU-RUGANZANI (P2P)
+term: Peer-to-peer (P2P)
+definition: Uburyo bwo kuyaga aho abanyagihugu bahana amakuru ata hagati hashizweho.
 ---
 
 Yerekeza ku citegererezo co guhanahana amakuru no gukwiragiza amakuru aho abaje mu nama, akenshi bitwa nodes canke peers, basangira ubutunzi bwabo (nk’amadosiye, ubushobozi bwo gukora, uburebure bw’uruzitiro, itunga...) ataco baciye hagati yabo, ata n’umwe akeneye umuhuza ahurikiye hamwe. Mu nzira ya P2P, uwuriko aragira uruhara wese akora icarimwe nk’umukiriya (umukoresha w’ibikoresho) n’umukozi (umutanga ibikoresho).

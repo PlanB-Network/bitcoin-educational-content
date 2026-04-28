@@ -1,5 +1,5 @@
 ---
-name: Torta Wallet
+name: Cake Wallet
 description: Tutorial su Cake Wallet e sui pagamenti silenziosi
 ---
 
@@ -148,7 +148,7 @@ Per proteggere il nostro wallet, possiamo creare un backup seguendo le istruzion
 ![image](assets/en/08.webp)
 
 
-**Nota**: A partire da settembre 2025, l'autenticazione biometrica delle impronte digitali sui dispositivi Android deve funzionare con almeno un'implementazione biometrica di Classe 2; per maggiori dettagli, consultare [qui] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Tuttavia, questo requisito potrebbe cambiare in futuro.
+**Nota**: A partire da settembre 2025, l'autenticazione biometrica delle impronte digitali sui dispositivi Android deve funzionare con almeno un'implementazione biometrica di Classe 2; per maggiori dettagli, consultare [qui](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). Tuttavia, questo requisito potrebbe cambiare in futuro.
 
 
 ### D - Impostazioni sulla privacy 🔒

@@ -1,0 +1,9 @@
+question: Welches praktische Problem versucht ein Mining-Pool vor allem zu lösen?
+answer: Die Varianz der Einnahmen
+wrong_answers:
+  - Die Netzwerkschwierigkeit
+  - Die Blockgröße
+  - Der Preis für ASICs
+explanation: |
+  Durch die Bündelung der Hashrate verwandelt ein Pool ein sehr unregelmäßiges Einkommen in regelmäßigere Zahlungen. Dies bedeutet eine Verringerung der Einnahmevarianz für den Miner.
+reviewed: false

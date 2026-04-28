@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo nyamukuru Rust ikoresha mu gukingira ibibazo bijanye n’ukwibuka nk’ugukoresha-inyuma y’ubuntu n’ugusesagura kw’ububiko?
+answer: Isesengura ridahinduka ryakozwe ryose mu gihe co gukoranya
+wrong_answers:
+  - Igihe co gukusanya imyanda n'ugusukura ubwonko bwikora
+  - Gusuzuma ububiko bw'inguvu mu gihe c'ugushirwa mu ngiro kwa porogaramu
+  - Ubuyobozi bw'ububiko bw'amaboko n'uguhamagara gutomoye
+explanation: |
+  Rust ibuza ibibazo bijanye n’ukwibuka biciye mu gusesangura guhagarara gukorwa kwose mu gihe co gukoranya, aho uwukoranya asuzuma kode y’inkomoko maze akamenya ata gukeka nimba ibikorwa vy’ukwibuka bifise umutekano. Ivyo bitandukanye n’ugukorakoranya imyanda (bikoreshwa na Java/Go) bizana amafaranga y’igihe co gukora, ugusuzuma kw’inguvu bisaba kugenzura igihe co gukora, n’ugucungera ubwonko bw’amaboko (bikoreshwa na C/C++) bishingiye ku ndero y’umuhinga mu vy’ubuhinga. Uburyo bwa Rust bwo gukoranya igihe buratuma ubwonko bugira umutekano ataco butwara igihe co gukora canke guhagarika bidashobora kumenyekana.

@@ -1,0 +1,8 @@
+question: Koja kriptografska funkcija omogućava Liquid da sakrije iznose transakcija i vrste sredstava od javnog pregleda?
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - Moduli za hardversku sigurnost (HSM-ovi)
+  - Protokol Dinamičke Federacije (Dynafed)
+  - Ključevi za autorizaciju isplate (PAKs)
+explanation: |
+  Confidential Transactions (CT) je kriptografska funkcija koja omogućava Liquid da sakrije tipove sredstava i iznose transakcija sa javne knjige, dok i dalje omogućava mreži da verifikuje validnost transakcija. Ovo obezbeđuje komercijalnu privatnost koja je neophodna za institucije. Moduli za hardversku sigurnost su fizički uređaji koji obezbeđuju privatne ključeve, protokol Dynafed upravlja promenama federacije, a PAK-ovi kontrolišu proces peg-out - nijedan od ovih elemenata ne skriva detalje transakcija od javnog pogleda.

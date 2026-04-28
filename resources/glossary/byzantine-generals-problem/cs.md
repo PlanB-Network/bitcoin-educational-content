@@ -1,6 +1,7 @@
 ---
-term: PROBLÉM BYZANTSKÝCH GENERÁLŮ
+term: Problém byzantských generálů
 
+definition: Problém ilustrující výzvy koordinace v distribuovaném systému, kde si aktéři nemohou navzájem důvěřovat.
 ---
 Problém poprvé formulovali Leslie Lamport, Robert Shostak a Marshall Pease v odborném časopise *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) v červenci 1982. Dnes se používá k ilustraci problémů z hlediska rozhodování, když distribuovaný systém nemůže důvěřovat žádnému účastníkovi.
 

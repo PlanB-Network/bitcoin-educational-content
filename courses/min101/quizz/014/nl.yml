@@ -1,0 +1,9 @@
+question: Welke hashfunctie wordt gebruikt voor het minen in Bitcoin?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Het minen van Bitcoin maakt gebruik van SHA256 die twee keer wordt toegepast, algemeen aangeduid als SHA256d.
+reviewed: false

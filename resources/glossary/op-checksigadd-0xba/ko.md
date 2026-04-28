@@ -1,5 +1,6 @@
 ---
-term: OP_CHECKSIGADD (0xBA)
+term: OP_CHECKSIGADD (0XBA)
+definition: 서명을 확인하고 유효할 경우 카운터를 증가시키는 탭스크립트(Tapscript) 옵코드.
 ---
 
 스택에서 상위 세 가지 값인 `공개 키`, `CScriptNum` `n`, `서명`을 추출합니다. 서명이 빈 벡터가 아니고 유효하지 않으면 스크립트가 오류와 함께 종료됩니다. 서명이 유효하거나 빈 벡터(`OP_0`)인 경우 두 가지 시나리오가 표시됩니다:

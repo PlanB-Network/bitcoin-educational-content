@@ -1,5 +1,5 @@
 ---
-name: Терминал Ашигару
+name: Ashigaru Terminal
 description: Используйте Ashigaru на рабочем столе, чтобы делать коинджоины
 ---
 

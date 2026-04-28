@@ -1,5 +1,6 @@
 ---
-term: BETTERHASH
+term: Betterhash
+definition: Těžební protokol umožňující těžařům samostatně kontrolovat výběr transakcí, čímž snižuje centralizaci poolů. Předchůdce Stratum V2.
 ---
 
 Protokol Mining vyvinul Matt Corallo v roce 2018 ve snaze čelit rostoucí centralizaci Mining v bazénech. Od protokolu Stratum, který byl v té době standardem, se liší tím, že nabízí hasherům větší kontrolu nad výběrem transakcí, které mají být zahrnuty do šablon bloků. Hlavní myšlenkou BetterHash je vrátit chaserům možnost řídit si tvorbu šablon bloků sami a zároveň zachovat výhody poolů Mining, jako je například menší rozptyl příjmů.

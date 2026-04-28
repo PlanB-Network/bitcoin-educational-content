@@ -1,0 +1,8 @@
+question: Ni kuki gukoresha expect() ku mibare ikomeye isa n'iyigenzuwe n'umukozi bishobora kuba ingorane muri kode y'uguhingura?
+answer: Amafaranga akomeye ashobora guhinduka uko igihe kigenda kirarenga biciye mu guhindura, guhindura agaciro ka kera kakaba akananirwa mu gihe co gukora
+wrong_answers:
+  - Uwukoranya ntashobora kugenzura ukuri kw'agaciro gakomeye mu gihe co gukoranya, bituma expect() idashobora kwizigirwa
+  - Agaciro ka kode ikomeye gafata ubwonko bwinshi kurusha agaciro gakomeye, bitera ingorane z'imikorere na expect()
+  - Uburyo bwo kwitega () bwongera amafaranga adakenewe ugereranyije n'ugufungura () iyo ukorana n'agaciro kazwi k'ukuri
+explanation: |
+  Inyishu ibereye irashira ahabona ubumenyi buhambaye buva muri ico kigabane: mbere n’agaciro gakomeye gasa n’akatekanye karashobora gutera akaga uko igihe kigenda kirarenga. Akarorero kerekana ingene aderesi IP ibereye ishobora guhindurwa ikaba ikintu kidahinduka hanyuma igahindurwa 'localhost', igaca ku ciyumviro c'intango. Inyishu zitari zo ntizibereye kuko: umukozi ashobora kugenzura agaciro gakomeye mu gihe co gukora, ugukoresha ubwenge si co kibazo kiri muri expect(), kandi expect() ntaco ikora cane ugereranyije na unwrap().

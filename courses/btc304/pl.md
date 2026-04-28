@@ -28,7 +28,7 @@ W BTC304 przyjrzymy się, dlaczego budowanie społeczności ma znaczenie, zbadam
 
 
 
-Witamy w BTC302!
+Witamy w BTC 304!
 
 
 
@@ -39,7 +39,7 @@ Od 2009 roku Bitcoin nieustannie się rozwija. Wzrost ten nabrał kształtu dzi�
 Jego rozwój jest również widoczny w On-Chain, przy stale rosnącej liczbie transakcji.
 
 
-Na przykład szacuje się, że w okresie od 1 stycznia 2018 r. do 1 stycznia 2024 r. liczba transakcji na głównej Bitcoin Layer [wzrosła o 66,2%] (https://dune.com/queries/3375917/5663935). Tymczasem między sierpniem 2021 r. a sierpniem 2023 r. liczba transakcji publicznych na Lightning Network [wzrosła o 1 212%] (https://river.com/learn/files/river-lightning-report-2023.pdf).
+Na przykład szacuje się, że w okresie od 1 stycznia 2018 r. do 1 stycznia 2024 r. liczba transakcji na głównej Bitcoin Layer [wzrosła o 66,2%](https://dune.com/queries/3375917/5663935). Tymczasem między sierpniem 2021 r. a sierpniem 2023 r. liczba transakcji publicznych na Lightning Network [wzrosła o 1 212%](https://river.com/learn/files/river-lightning-report-2023.pdf).
 
 
 
@@ -48,7 +48,7 @@ Ten znaczący wzrost jest oczywiście ściśle powiązany z:
 
 
 
-- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
+- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
 - jego aprecjacji cenowej w czasie, ustanawiając go jako magazyn wartości i długoterminową inwestycję, napędzaną przez stałą politykę pieniężną;
 - sukcesywny wzrost rynku kryptowalut spekulacyjnych, szczególnie w latach 2017-2018 i 2020-2021;
 - Rosnąca obecność Bitcoin w mediach głównego nurtu.
@@ -193,7 +193,7 @@ Społeczności Bitcoin często realizują szersze cele, zwłaszcza w zakresie ed
 4. Obalanie wprowadzających w błąd lub bezpodstawnych twierdzeń niektórych osób publicznych i mediów;
 
 
-5. Podstawowe różnice między Bitcoin a innymi kryptowalutami;
+5. Podstawowe różnice między Bitcoin a innymi [kryptowalutami](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Budując pierwsze "cytadele" jutra, **społeczności Bitcoin na całym świecie służą jako bastion przeciwko dezinformacji i cenzurze, zapewniając jednocześnie podatny grunt do nauki podstaw Bitcoin**. Oferują one nowicjuszom, a nawet sceptykom, zasoby i kontakty potrzebne do odkrywania prawdziwego potencjału Bitcoin.
@@ -302,7 +302,7 @@ Jednak **połączenie sił często ma większy sens niż dzielenie pobliskich sp
 W tym sensie pomocna może być prosta "zasada kciuka": jeśli w ciągu 30-45 minut od miejsca zamieszkania nie ma aktywnej społeczności Bitcoin, warto założyć nową. To powiedziawszy, zawsze możesz robić, co chcesz.
 
 
-I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "pomarańczowej pigułki", to stworzenie własnego Fork jest zawsze opcją.
+I oczywiście, jeśli starsza społeczność "ewoluowała" w kierunku, który nie jest już zgodny z twoimi wartościami, a ty nie masz czasu ani motywacji do "[pomarańczowej pigułki](https://planb.academy/resources/glossary/orange-pill)", to stworzenie własnego [Fork](https://planb.academy/resources/glossary/fork) jest zawsze opcją.
 
 
 
@@ -866,7 +866,7 @@ W poniższych samouczkach pierwotnie korzystaliśmy z pakietu APK "Telegram+", k
 Jeśli chcesz stworzyć miejsce, w którym Twoi członkowie będą mogli rozmawiać ze sobą bezpośrednio, odpowiadać sobie nawzajem itp
 
 
-Przejdź bezpośrednio do następnej sekcji, zatytułowanej [Utwórz grupę Telegram] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Przejdź bezpośrednio do następnej sekcji, zatytułowanej [Utwórz grupę Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1260,7 +1260,7 @@ Dodatkowo, **warto dostosować kilka ustawień prywatności**:
 W przypadku każdego wydarzenia prawdopodobnie użyjesz Twittera do udostępniania przydatnych informacji. Jednak, podobnie jak w przypadku większości sieci społecznościowych, **widoczność jest najważniejsza**.
 
 
-Aby zaoszczędzić sporo czasu, poświęciliśmy czas na przestudiowanie [algorytmu rankingowego Twittera typu open-source] (https://github.com/twitter).
+Aby zaoszczędzić sporo czasu, poświęciliśmy czas na przestudiowanie [algorytmu rankingowego Twittera typu open-source](https://github.com/twitter).
 
 
 Oto **kluczowe rzeczy, na których należy się skupić, aby zwiększyć swoją widoczność**:
@@ -1391,7 +1391,7 @@ Obejmują one:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje Sats. Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
+- [Btcmap.org](https://btcmap.org/)**, strona internetowa z dwiema codziennie aktualizowanymi mapami: **[światowa mapa firm akceptujących Bitcoin](https://btcmap.org/map)** i **[światowa mapa społeczności](https://btcmap.org/communities/map)**. Wielu bitcoinerów regularnie sprawdza te mapy, niezależnie od tego, czy podróżują, czy prowadzą codzienne życie, aby poznać nowych ludzi lub znaleźć miejsca, w których mogą wydać swoje [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap jest globalnym punktem odniesienia, a umieszczenie tam swojej społeczności jest niezbędne dla widoczności**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), strona stworzona przez bitcoinerów, dla bitcoinerów. **Umożliwia ona publikowanie nadchodzących wydarzeń społeczności**. Jednak we Francji nadal nie jest ona powszechnie używana.
 - w zależności od kraju, mogą istnieć inne lokalne inicjatywy. We Francji, na przykład, istnieje strona [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), która co miesiąc **liczy dziesiątki wydarzeń Bitcoin**. Więc jeśli jeszcze nie śledziłeś ich na Twitterze lub nie skontaktowałeś się z nimi, aby podzielić się informacjami o swojej społeczności i wydarzeniach, teraz jest na to czas! **Aby pomóc w aktualizowaniu francuskiego kalendarza wydarzeń, byłoby wspaniale, gdyby wszystkie francuskie społeczności Bitcoin nabrały nawyku:**
     - wspominanie @bitcoinpointfr na Twitterze o każdym nowym wydarzeniu społecznościowym
@@ -1721,7 +1721,7 @@ Rzymu nie zbudowano w jeden dzień, podobnie jak nie uda się to Twojej społecz
 Aby tak się stało, niezbędna jest jedna rzecz: **utrzymanie zaangażowania uczestników**.
 
 
-Może zacząć się od małej grupy pasjonatów bitcoinów, których celem jest regularne spotykanie się i rozmawianie o Bitcoin. Z czasem, w zależności od dostępności i zainteresowań każdej osoby, można **podzielić się pewnymi zadaniami organizacyjnymi z grupą** lub zaprosić głównych **członków do podjęcia konkretnych projektów**. Mogą one być unikalne dla twojej społeczności, spotkań lub miasta, a nawet inspirowane wieloma inicjatywami zaproponowanymi w [części 6/8 tego kursu] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nie tylko sprzyja Commitment od głównych członków, ale także pomaga społeczności rosnąć i rozwijać się **.
+Może zacząć się od małej grupy pasjonatów bitcoinów, których celem jest regularne spotykanie się i rozmawianie o Bitcoin. Z czasem, w zależności od dostępności i zainteresowań każdej osoby, można **podzielić się pewnymi zadaniami organizacyjnymi z grupą** lub zaprosić głównych **członków do podjęcia konkretnych projektów**. Mogą one być unikalne dla twojej społeczności, spotkań lub miasta, a nawet inspirowane wieloma inicjatywami zaproponowanymi w [części 6/8 tego kursu](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **To nie tylko sprzyja Commitment od głównych członków, ale także pomaga społeczności rosnąć i rozwijać się **.
 
 
 W miarę postępu spotkań pojawią się nowe twarze: ludzie, którzy kupili BTC i / lub altcoiny w poprzednich cyklach, entuzjaści technologii, którzy chcą pogłębić swoją wiedzę, lub zupełnie początkujący ciekawi tego nieocenzurowanego, zdecentralizowanego, przejrzystego i uczciwego systemu płatności, który działa bez warunków i bez zaufanych stron trzecich.
@@ -1820,7 +1820,7 @@ Oprócz dużej wartości edukacyjnej, podejście to umożliwia udostępnianie do
 Poniżej znajduje się progresja francuskich meetupów na lata 2023-2024. Dla każdego tematu dostępna jest prezentacja open source i wideo, które mogą dać ci pomysły na tematy, które możesz poruszyć podczas własnych wydarzeń.
 
 
-Dodatkowe edytowalne materiały można również znaleźć w [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Inne zasoby są również dostępne w sekcji ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, przestrzeni współpracy, gdzie edukatorzy Bitcoin z całego świata dzielą się i udostępniają swoje materiały edukacyjne (prezentacje, ulotki, przewodniki, plakaty...) w formatach gotowych do użycia lub edytowalnych. Cel: połączyć wysiłki, aby nie zaczynać od zera za każdym razem!
 
 
 
@@ -1936,7 +1936,7 @@ W miejscach prywatnych, takich jak koncerty, bary lub stadiony, przed dodaniem s
 Innym projektem, który można łatwo skonfigurować, jest **tworzenie biblioteki na spotkaniach**.
 
 
-Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem Lightning.
+Można zaprosić uczestników, którzy chcą podzielić się swoimi materiałami do czytania, aby przynieśli książkę związaną z Bitcoin. Jeśli ktoś inny na spotkaniu będzie chciał ją pożyczyć, można zorganizować pożyczkę od właściciela w Exchange za kaucją, na przykład 21 000 satoshi za pośrednictwem [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Dla właściciela depozyt ten pomaga pokryć potencjalną stratę lub kradzież. Dla pożyczkobiorcy jest to zachęta do powrotu na przyszłe spotkanie w celu odzyskania depozytu.
@@ -2071,7 +2071,7 @@ Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustrea
 Prawie każdy bitcoiner prawdopodobnie widział fascynujący film [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (Tajemnica Satoshi: Początki Bitcoin).
 
 
-Wydany w 2021 roku, został obejrzany [kilka milionów razy na YouTube] (https://www.youtube.com/watch?v=0ETcLj5jBy4).
+Wydany w 2021 roku, został obejrzany [kilka milionów razy na YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
 Jednym z pomysłów może być zorganizowanie pokazu Tajemnicy Satoshi dla swojej społeczności, być może jako dodatkowe comiesięczne wydarzenie.
@@ -2086,7 +2086,7 @@ Dla większości społeczności cena ta jest zaporowa, zwłaszcza że dokument j
 Oczywiście możliwe są także inne prognozy.
 
 
-Na przykład we Francji **reżyserka [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) przyznała lokalnym meet-upom prawo do podglądu jej filmu dokumentalnego "Stranded "**, który zawiera materiał z nadchodzącego w 2024 roku filmu [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Na przykład we Francji **reżyserka [Alana Mediavilla](https://twitter.com/AlanaMediavilla) przyznała lokalnym meet-upom prawo do podglądu jej filmu dokumentalnego "Stranded "**, który zawiera materiał z nadchodzącego w 2024 roku filmu [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
 Niektórzy bitcoinerzy podjęli nawet inicjatywę, aby w pełni przetłumaczyć "Stranded" na język francuski, dodać napisy i udostępnić go na spotkaniach w całym kraju. W tygodniu 4 marca 2024 r. film był wyświetlany jednocześnie na kilkunastu spotkaniach w całym kraju.
@@ -2222,7 +2222,7 @@ Popularne platformy obejmują:
 - [**peertube**](https://joinpeertube.org/fr_FR) umożliwia hostowanie własnej platformy wideo, choć jej konfiguracja jest bardziej złożona.
 
 
-Niezależnie od tego, co wybierzesz, zaprojektuj wizualizacje specyficzne dla platformy, aby Twój kanał był atrakcyjny. Canva, wspomniana w [części 2/8] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) oferuje kategorię "Miniatury YouTube" z gotowymi, konfigurowalnymi projektami.
+Niezależnie od tego, co wybierzesz, zaprojektuj wizualizacje specyficzne dla platformy, aby Twój kanał był atrakcyjny. Canva, wspomniana w [części 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) oferuje kategorię "Miniatury YouTube" z gotowymi, konfigurowalnymi projektami.
 
 
 
@@ -2300,7 +2300,7 @@ W innym, bardziej tradycyjnym podejściu, można po prostu poprosić uczestnikó
 Choć jest to nieco formalne, może pomóc członkom w łatwiejszym znalezieniu wspólnych zainteresowań i tematów do rozmowy, a także ułatwia nowicjuszom dostrzeżenie organizatorów (lub oficjalnych członków społeczności / stowarzyszenia).
 
 
-Kilka szablonów odznak używanych przez stowarzyszenie Bitcoin Lille jest [dostępnych w wersji open-source w serwisie Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Kilka szablonów odznak używanych przez stowarzyszenie Bitcoin Lille jest [dostępnych w wersji open-source w serwisie Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2334,7 +2334,7 @@ Rozsądnie jest współpracować ze społecznością, aby z wyprzedzeniem ustali
 
 Posiadanie standardowego protokołu uniemożliwia również każdemu, członkowi lub gościowi, wykorzystanie sytuacji do kradzieży środków.
 
-Można utworzyć specjalną grupę roboczą w celu zdefiniowania tego procesu. Stowarzyszenie Bitcoin Lille już pracuje nad takim [dokumentem] (https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), który planuje opublikować jako open-source w nadchodzących miesiącach.
+Można utworzyć specjalną grupę roboczą w celu zdefiniowania tego procesu. Stowarzyszenie Bitcoin Lille już pracuje nad takim [dokumentem](https://docs.google.com/document/d/1TDfLZjuictC5s3PEM2Z7WmkxIDSJ8Q1E4xevm52pVgU/edit?usp=sharing), który planuje opublikować jako open-source w nadchodzących miesiącach.
 
 
 
@@ -2599,7 +2599,7 @@ Wraz z tym wzrostem frekwencji:
     - jeśli okaże się, że liczba uczestników staje się przytłaczająca, możesz w przyszłości **wymagać od uczestników rejestracji** (za pośrednictwem aplikacji Meetup lub prostego formularza) lub **organizować wiele spotkań w miesiącu** (na przykład: spotkanie dla początkujących, średniozaawansowanych i zaawansowanych).
     - Jednocześnie spodziewaj się wielu nowych graczy w ekosystemie, często z głównym celem zarabiania pieniędzy. Aby **utrzymać rozmowy skupione na Bitcoin** podczas tych szybko rozwijających się spotkań, dobrym pomysłem jest:
 
-a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu shitcoin);
+a) Uwzględnij prezentację **Bitcoin** podczas tych wydarzeń, ponieważ w naturalny sposób skieruje to większość rozmów na ten temat (i z dala od najnowszego rzekomo "rewolucyjnego" projektu [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Unikaj trzymania się tylko z innymi bitcoinerami**. Zamiast tego staraj się **podchodzić do nowo przybyłych**, nawet jeśli oznacza to trzymanie się z tyłu pokoju, aby ich powitać. Stamtąd możesz porozmawiać o tym, dlaczego przyszli, czego szukają, o celach (lub nawet podstawowych zasadach) twojej społeczności i tak dalej.
 
@@ -2619,7 +2619,7 @@ Na szczęście takie sytuacje są rzadkie i często bardziej absurdalne niż gro
 Dla spokoju ducha: tak długo, jak osobiście nie łamiesz prawa lub bezpośrednio nie ułatwiasz nielegalnych transakcji, nie ponosisz odpowiedzialności prawnej za działania innych osób podczas twojego wydarzenia (przynajmniej zgodnie z prawem francuskim).
 
 
-W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas bessy, tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
+W idealnym świecie miałbyś **przestrzeń wystarczająco dużą, aby pomieścić kilkadziesiąt osób**, gdy twoja społeczność rośnie, a także budowałbyś **silne relacje między bitcoinerami** i przyszłymi bitcoinerami podczas [bessy](https://planb.academy/resources/glossary/bear-market), tak aby gdy nadejdzie hossa, mieć jak najwięcej osób gotowych na pomarańczową pigułkę dla innych.
 
 
 
@@ -2831,14 +2831,14 @@ W pojedynkę można szybko zbadać jeden z wielu tuneli w króliczej norze Bitco
 
 
 
-## BTC302, co dalej
+## BTC 304, co dalej
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-W tym kursie BTC302 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
+W tym kursie BTC 304 szczegółowo omówiliśmy, jak skonfigurować społeczność lub spotkanie, a także jak uruchomić różne projekty.
 
 
 Gdy Twoja społeczność jest gotowa na kolejny krok, **możesz utworzyć formalne stowarzyszenie**.

@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition: NIST standardi elliptiline kõver, mida Bitcoin ei kasuta, eelistades secp256k1.
 ---
 Nimi, mis on antud elliptilisele kõverale, mis on määratletud NISTi avaliku võtme krüptograafia standardis. See kasutab 256-bitist primaarvälja ja elliptilise kõvera võrrandit $y^2 = x^3 + ax + b$ koos konstantidega:
 

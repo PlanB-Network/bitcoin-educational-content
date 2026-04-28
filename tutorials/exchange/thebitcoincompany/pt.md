@@ -70,7 +70,7 @@ Segue-se uma seleção de sinais para os EUA, a título de exemplo:
 
 
 
-Para tal, visitar [o sítio Web] (https://thebitcoincompany.com/).
+Para tal, visitar [o sítio Web](https://thebitcoincompany.com/).
 
 
 

@@ -1,6 +1,7 @@
 ---
-term: AMMATTIKORKEAKOULU
+term: UASF
 
+definition: Soft fork, jonka verkon käyttäjät aloittavat ja panevat täytäntöön solmujensa kautta, riippumatta louhijoiden hyväksynnästä.
 ---
 Lyhenne sanoista "*User-Activated Soft Fork*". Kuvaa Bitcoinin pehmeää haarautumista, kun verkon käyttäjät käynnistävät sen ja panevat sen täytäntöön solmujensa kautta ilman louhijoiden hyväksyntää. Verkon solmut päivittävät ohjelmistonsa omaksumaan soft forkin uudet säännöt ja antavat pelimerkkien pudota, minne ne sattuvat!
 

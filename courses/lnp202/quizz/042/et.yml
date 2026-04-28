@@ -1,0 +1,9 @@
+question: Mis on sunniviisilise sulgemise peamine puudus?
+answer: Ajapiiranguga blokeeritud rahalised vahendid
+wrong_answers:
+  - Rahaliste vahendite osaline kadumine
+  - Välgussõlme vananemine
+  - Välgussõlme desünkroniseerimine
+explanation: |
+  Rahalised vahendid on blokeeritud ajapiiranguga ja tasud on sageli kõrged.
+reviewed: false

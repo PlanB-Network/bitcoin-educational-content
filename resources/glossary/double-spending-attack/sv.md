@@ -1,5 +1,6 @@
 ---
-term: DUBBLA UTGIFTER (ATTACK)
+term: Dubbelspendering
+definition: Attack som försöker använda samma bitcoin flera gånger för att bedra motparter.
 ---
 
 En attack där en illvillig användare försöker använda samma UTXO (*Unspent Transaction Output*) mer än en gång för att berika sig på bekostnad av de parter som är involverade i transaktionerna. När en transaktion bekräftas i ett block och läggs till i Blockchain registreras i princip användningen av dessa bitcoins permanent, vilket förhindrar ytterligare användning av samma bitcoins. Att förhindra dubbla utgifter är till och med Blockchain:s primära användningsområde.

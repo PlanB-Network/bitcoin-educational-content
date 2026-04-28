@@ -1,0 +1,10 @@
+question: Která služba ekosystému Bitcoin NEBYLA ovlivněna hackem hostingové služby Linode 1. března 2012?
+answer: Směnárenská služba BitInstant, kterou spravuje Charlie Shrem
+wrong_answers:
+  - Obchodní platforma Bitcoinica, kterou spravuje Zhou Tong
+  - BitcoinCZ Mining mining družstvo, spravované společností Slush
+  - Baterie Bitcoin, kterou spravuje Gavin Andresen
+explanation: |
+ Hacker získal přístup k portálu služeb zákazníkům společnosti a ovládl osm účtů, které měly vztah ke společnosti Bitcoin. Zmocnil se 43 554
+ bitcoinů patřících Bitcoinica, odstranil 3 094 bitcoinů z kooperace Slush s horkým účtem wallet a dostal se k 5 bitcoinům přítomným na kohoutku Bitcoin společnosti Gavin.
+reviewed: true

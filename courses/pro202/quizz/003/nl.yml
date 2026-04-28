@@ -1,0 +1,8 @@
+question: Welke Python-functie wordt specifiek genoemd voor het uitvoeren van efficiënte modulaire exponentiatie in cryptografische bewerkingen?
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(basis, exp, priem)
+  - exp(basis, mod, veld)
+  - mult(basis, exp, modulo)
+explanation: |
+  Python's ingebouwde pow(base, exp, mod) functie is speciaal ontworpen voor efficiënte modulaire exponentiatie, wat cruciaal is voor cryptografische bewerkingen met grote exponenten. Deze functie gebruikt geoptimaliseerde algoritmes om (base^exp) mod te berekenen zonder eerst het potentieel enorme tussenresultaat van base^exp te moeten berekenen. De andere opties zijn geen geldige Python-functies - mod(), exp() en mult() met deze parameterpatronen bestaan niet in de standaardbibliotheek van Python voor cryptografisch modulair rekenen.

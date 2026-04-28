@@ -5,6 +5,6 @@ wrong_answers:
   - De weerstand van privacy tegen een toekomstgerichte analyse.
   - De weerstand van privacy tegen een analyse van verleden tot heden.
 explanation: |
-  De retrospectieve anonset meet de weerstand van de privacy van een munt tegen een analyse van heden naar verleden (uitvoer naar invoer).
+  De retrospectieve anonset meet de weerstand van de privacy van een UTXO tegen een analyse van heden naar verleden (output naar input).
   
 reviewed: false

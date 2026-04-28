@@ -1,0 +1,8 @@
+question: Welk cryptografisch mechanisme in de verblindingsarchitectuur van Blockstream AMP maakt versleuteling van het activabedrag mogelijk terwijl de geldigheid van de transactie geverifieerd blijft?
+answer: Elliptische Curve Diffie-Hellman sleuteluitwisseling met bereikbewijzen die de geldigheid van transacties verifiëren zonder versleutelde waarden te onthullen
+wrong_answers:
+  - Nul-kennis SNARK's met verplichtingsschema's die transactiebedragen verbergen en tegelijk rekenintegriteit bewijzen
+  - Ringhandtekeningen met geheime adressen die de identiteit van de afzender verdoezelen met behoud van cryptografische controleerbaarheid
+  - Homomorfe versleuteling met merkleboomverbintenissen die wiskundige bewerkingen op versleutelde transactiegegevens mogelijk maken
+explanation: |
+  AMP maakt gebruik van ECDH-sleuteluitwisseling waarbij verzenders activa versleutelen met behulp van de verblindende openbare sleutels van ontvangers, waarbij bereikbewijzen worden gegenereerd die de geldigheid van transacties wiskundig verifiëren zonder waarden bloot te geven. Dit verschilt van SNARKs (computationele bewijzen), ringhandtekeningen (anonimiteitsfocus) of homomorfe encryptie (berekening op gecodeerde gegevens) - AMP heeft specifiek vertrouwelijke maar verifieerbare transacties nodig.

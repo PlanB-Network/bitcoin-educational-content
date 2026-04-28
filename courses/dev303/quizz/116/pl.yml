@@ -1,0 +1,8 @@
+question: Jaka jest główna zaleta funkcji interoperacyjności Breez SDK, która umożliwia wielu aplikacjom łączenie się z tym samym węzłem Lightning przy użyciu tej samej frazy seed?
+answer: Użytkownicy mogą utrzymywać pojedynczą równowagę Lightning w różnych wyspecjalizowanych aplikacjach, unikając złożoności zarządzania wieloma węzłami Lightning
+wrong_answers:
+  - Aplikacje mogą udostępniać klucze prywatne bezpośrednio między sobą, umożliwiając płynne podpisywanie transakcji między aplikacjami bez interwencji użytkownika
+  - Wiele aplikacji może łączyć swoją płynność, tworząc większe kanały Lightning ze zwiększoną przepustowością routingu dla sieci
+  - Deweloperzy mogą uzyskać dostęp do współdzielonej infrastruktury Lightning bez konieczności wdrażania własnego zarządzania węzłami, co zmniejsza koszty i złożoność programowania
+explanation: |
+  Interoperacyjność SDK umożliwia użytkownikom dostęp do tego samego węzła Lightning i funduszy z wielu wyspecjalizowanych aplikacji (takich jak ogólna aplikacja wallet i aplikacja do podcastów) bez konieczności zarządzania oddzielnymi saldami lub węzłami. Błędne odpowiedzi błędnie przedstawiają architekturę: klucze prywatne nigdy nie opuszczają urządzenia użytkownika i nie są współdzielone między aplikacjami, łączenie płynności nie jest sposobem działania systemu, a podczas gdy programiści korzystają z uproszczonej infrastruktury, główną opisaną zaletą jest ujednolicone doświadczenie użytkownika we wszystkich aplikacjach.

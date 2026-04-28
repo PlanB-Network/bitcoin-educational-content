@@ -1,0 +1,8 @@
+question: ¿Cuál es el objetivo principal de los compromisos de Pedersen en Elements' Confidential Transactions?
+answer: Sustituir los importes visibles de las transacciones por compromisos criptográficos que puedan validarse sin revelar los valores reales
+wrong_answers:
+  - A generate identificadores hexadecimales únicos de 64 caracteres para los activos recién emitidos en la blockchain Elements
+  - Evitar double-spending creando pruebas matemáticas de que los valores ocultos son enteros positivos dentro de rangos válidos
+  - Permitir la transferencia de Bitcoin de la cadena principal a las cadenas laterales de Elements a través de mecanismos de fijación criptográfica
+explanation: |
+  Los compromisos de Pedersen son el mecanismo criptográfico central que permite la privacidad en Confidential Transactions sustituyendo las cantidades visibles por compromisos matemáticos. Debido a sus propiedades homomórficas, los validadores pueden verificar que las entradas son iguales a las salidas más las comisiones sin ver los valores reales. Las pruebas de rango evitan las cantidades negativas, los identificadores de activos identifican los tokens y los mecanismos de vinculación gestionan las transferencias entre cadenas, pero ninguno de ellos es función específica de los compromisos de Pedersen.

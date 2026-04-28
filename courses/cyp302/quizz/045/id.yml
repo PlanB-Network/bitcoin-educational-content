@@ -6,4 +6,4 @@ wrong_answers:
   - Derajat dari grup
 explanation: |
   Orde dari sebuah grup adalah jumlah total elemen yang terkandung di dalamnya.
-reviewed: false
+reviewed: true

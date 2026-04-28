@@ -1,0 +1,8 @@
+question: 使 Breez SDK 在保持 Lightning 和 on-chain Bitcoin 功能的同時，向用戶展示統一平衡的主要技術機制是什麼？
+answer: 自動交換服務，可根據需要在幕後在 Lightning 和 on-chain Bitcoin 之間進行轉換
+wrong_answers:
+  - 即時餘額彙總，顯示 Lightning 和 on-chain 資金總和，無需實際轉換
+  - 允許資金在同一 UTXO 內的 Lightning 和 on-chain 州之間自由移動的通道儲備池
+  - 雙層位址產生，可建立混合位址，同時接收 Lightning 和 on-chain 付款
+explanation: |
+  正確答案是自動交換服務，因為 Breez SDK 特別實作了 on-chain 交換功能，當使用者需要進行不同類型的付款時，可在 Lightning 和 on-chain Bitcoin 之間進行無縫轉換。這可讓使用者看到單一餘額，而系統可處理在不同層級間移動資金的複雜技術。錯誤的答案描述了不存在或技術上不可能的機制 - 結餘彙總只能顯示結合的金額，而無法啟用跨層功能，通道儲備無法將資金移動到 on-chain 狀態，混合位址在 Bitcoin 的通訊協定中也不存在。

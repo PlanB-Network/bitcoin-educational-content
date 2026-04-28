@@ -1,5 +1,6 @@
 ---
-term: PRUŽALAC USLUGA MUNJE
+term: Lightning service provider
+definition: Kompanija koja pruža usluge likvidnosti korisnicima Lightning mreže.
 ---
 
 Kompanija koja posluje na Lightning mreži čiji je posao pružanje usluga likvidnosti korisnicima.

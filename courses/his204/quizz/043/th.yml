@@ -1,0 +1,8 @@
+question: Mirabeau ถูกจำคุกเพราะหนังสือเล่มใด?
+answer: ทฤษฎีการเก็บภาษี
+wrong_answers:
+  - L'Ami des Hommes
+  - เรียงความเกี่ยวกับธรรมชาติของการพาณิชย์โดยทั่วไป
+  - The Social Contract
+explanation: |
+  Mirabeau ถูกจำคุกเพราะ "La Théorie de l'Impôt" ซึ่งเป็นงานที่เขาวิพากษ์วิจารณ์ระบบภาษีของฝรั่งเศส

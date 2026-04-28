@@ -1,6 +1,7 @@
 ---
-term: MISCELAZIONE
+term: Mixing
 
+definition: Proprietà di un sistema in cui gli elementi sono miscelati uniformemente, utilizzata per valutare la qualità dei coinjoin.
 ---
 Nel campo generale della matematica, la mescolanza si riferisce alla proprietà di un sistema dinamico in cui, dopo un certo tempo, tutte le porzioni dello spazio iniziale possono teoricamente mescolarsi con qualsiasi altra porzione. La mescolanza implica che la posizione di una particella o lo stato di un sistema si evolva in modo tale che la sua distribuzione futura sia indipendente dalla distribuzione iniziale, raggiungendo così uno stato in cui le caratteristiche dello stato iniziale sono uniformemente distribuite nello spazio del sistema. Nel contesto di Bitcoin, questa nozione può essere utilizzata per valutare la qualità di un processo di miscelazione di monete come un coinjoin.
 

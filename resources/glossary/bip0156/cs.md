@@ -1,6 +1,7 @@
 ---
 term: BIP0156
 
+definition: Dandelion, protokol zlepšující soukromí směrování transakcí zamlžením původního uzlu.
 ---
 Návrh známý jako Dandelion, jehož cílem je zlepšit soukromí při směrování transakcí v síti Bitcoin a čelit tak deanonymizaci. Při standardním fungování Bitcoinu jsou transakce okamžitě vysílány do více uzlů. Pokud je pozorovatel schopen vidět každou transakci přenášenou každým uzlem v síti, může předpokládat, že první uzel, který transakci odeslal, je také uzlem, z něhož transakce pochází, a že tedy pochází od provozovatele tohoto uzlu. Tento jev by potenciálně mohl pozorovatelům umožnit spojit transakce, které jsou obvykle anonymní, s IP adresami.
 

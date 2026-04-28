@@ -1,6 +1,7 @@
 ---
-term: ENTROPY
+term: Entroopia
 
+definition: Andmeallika ettearvamatuse mõõt, mis on ülioluline turvaliste võtmete genereerimiseks.
 ---
 Entroopia on krüptograafia ja teabe kontekstis andmeallikaga või juhusliku protsessiga seotud ebakindluse või ettearvamatuse kvantitatiivne mõõt. Entroopia mängib olulist rolli krüptograafiliste süsteemide turvalisuses, eriti võtmete ja juhuslike arvude genereerimisel. Kõrge entroopia tagab, et genereeritud võtmed on piisavalt ettearvamatud ja vastupidavad brute-force rünnakutele, mille puhul ründaja proovib võtme äraarvamiseks kõiki võimalikke kombinatsioone.
 

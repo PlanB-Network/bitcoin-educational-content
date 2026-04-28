@@ -1,5 +1,5 @@
 ---
-name: 케이크 Wallet
+name: Cake Wallet
 description: 케이크 Wallet 및 자동 결제에 대한 튜토리얼
 ---
 

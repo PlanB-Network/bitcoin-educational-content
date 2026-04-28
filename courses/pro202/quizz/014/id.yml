@@ -1,0 +1,8 @@
+question: Apa keuntungan utama dari algoritma double-and-add untuk penggandaan skalar dalam kriptografi kurva eliptik?
+answer: Ini mengurangi kompleksitas komputasi dari O(n) ke operasi O(log n)
+wrong_answers:
+  - Ini menghilangkan kebutuhan akan aritmatika modular dalam bidang terbatas
+  - Ini mengubah masalah logaritma diskrit menjadi solusi polinomial-waktu
+  - Ini memungkinkan penghitungan langsung kunci privat dari kunci publik
+explanation: |
+  Algoritma double-and-add secara signifikan meningkatkan efisiensi dengan mengurangi kompleksitas komputasi dari penjumlahan linier O(n) menjadi operasi O(log n). Algoritma ini bekerja dengan memindai representasi biner dari skalar, menggandakan titik pada setiap langkah, dan menambahkan titik generator hanya ketika bitnya adalah 1. Pilihan lainnya tidak benar: aritmatika modular masih dibutuhkan pada bidang yang terbatas, masalah logaritma diskrit tetap tidak dapat dikomputasikan (yang mana sangat penting untuk keamanan), dan private key tidak dapat dikomputasikan dari public key tanpa memperhatikan algoritma perkalian yang digunakan.

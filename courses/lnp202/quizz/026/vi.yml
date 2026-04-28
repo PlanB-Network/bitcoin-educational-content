@@ -1,0 +1,9 @@
+question: Trong điều kiện hoạt động bình thường, một tháp canh có thể suy luận được gì về kênh mà nó đang bảo vệ?
+answer: Tần suất cập nhật trạng thái của nó
+wrong_answers:
+  - Phân bổ Liquidity
+  - Khả năng của nó
+  - Chính sách chi phí
+explanation: |
+  Nó nhận các gói dữ liệu được mã hóa cho mỗi trạng thái mới, chỉ tiết lộ tốc độ hoạt động bình thường.
+reviewed: false

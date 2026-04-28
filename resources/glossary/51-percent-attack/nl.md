@@ -1,8 +1,7 @@
 ---
-term: 51 PROCENT AANVAL
+term: 51%-aanval
+definition: Een aanval waarbij een kwaadwillige actor meer dan de helft van de mining-hashkracht controleert, wat hem in staat stelt transacties te manipuleren, met name door dubbele uitgaven.
 ---
 
-Een hypothetisch scenario in het Bitcoin systeem waarbij een kwaadwillende meer dan 50% van de totale rekenkracht voor Mining (Hashrate) controleert. Met een dergelijke machtspositie kan de aanvaller het consensusproces manipuleren, waardoor kwaadwillige acties zoals dubbele uitgaven mogelijk worden, waarbij dezelfde bitcoins één keer worden uitgegeven aan een keten die uiteindelijk verouderd is, en vervolgens een tweede keer aan de geldige keten. Een ander resultaat van een 51% aanval is het censureren van transacties. Het uitvoeren van een 51% aanval vereist echter aanzienlijke financiële, menselijke, energie- en technische middelen en maakt de kwaadwillende vatbaar om ontdekt te worden voordat de aanval kan plaatsvinden. Hoewel het theoretisch mogelijk is, wordt een 51% aanval op Bitcoin zeer onwaarschijnlijk geacht vanwege de decentralisatie van Mining en de aanzienlijke rekenkracht die momenteel wordt ingezet.
+Hypothetisch scenario binnen het Bitcoin-systeem waarbij een kwaadwillende actor meer dan 50% van de totale rekenkracht van het minen (hashrate) controleert. Met een dergelijke dominantie kan de aanvaller het consensusproces manipuleren, waardoor kwaadwillende acties zoals dubbel uitgeven mogelijk worden, waarbij dezelfde bitcoins eerst worden uitgegeven op een keten die uiteindelijk verouderd raakt en vervolgens een tweede keer op de geldige keten. Een ander doel van een 51%-aanval is het censureren van transacties. Het uitvoeren van een 51%-aanval vereist echter aanzienlijke financiële, menselijke, energetische en technische middelen en maakt de kwaadwillende actor vatbaar voor ontdekking voordat de aanval plaatsvindt. Hoewel theoretisch mogelijk, wordt een 51%-aanval op Bitcoin als zeer onwaarschijnlijk beschouwd vanwege de decentralisatie van het minen en de grote hoeveelheid rekenkracht die momenteel is ingezet. Deze aanval wordt ook wel de "Goldfinger-aanval" genoemd.
 
-
-> ► *Deze aanval wordt ook wel de "Goldfinger aanval" genoemd.*

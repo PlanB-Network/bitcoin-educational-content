@@ -101,7 +101,7 @@ You'll be redirected to the tab of the application you'll use to invest in bitco
 In addition to this interface, :
 
 
-**Activity**: interface dedicated to displaying the balance of the portfolio in general, its sub-funds (investment, savings, stablecoins) and the history of all transactions carried out.
+**Activity**: interface dedicated to displaying the balance of the wallet in general, its sub-funds (investment, savings, stablecoins) and the history of all transactions carried out.
 
 
 ![screen](assets/fr/13.webp)
@@ -402,7 +402,7 @@ In fact, these service charges are made up of fees from third-party providers, n
 Once you've purchased your first on-chain bitcoins or a substantial amount of satoshis, you can of course leave them in the application's built-in wallet. However, I strongly recommend that you transfer them to your own self-custody wallet.
 
 
-If you don't yet know how to use a Bitcoin portfolio, I invite you to explore [the "Wallet" section on Plan ₿ Academy](https://planb.academy/tutorials/wallet).
+If you don't yet know how to use a Bitcoin wallet, I invite you to explore [the "Wallet" section on Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 
 ## Selling bitcoins

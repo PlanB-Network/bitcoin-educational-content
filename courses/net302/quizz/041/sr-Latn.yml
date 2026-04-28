@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/resolve
 explanation: |
   Pre nego što je DNS postao rasprostranjen, razrešavanje imena se oslanjalo na statički /etc/hosts fajl na Unix/Linux sistemima.
-reviewed: false
+reviewed: true

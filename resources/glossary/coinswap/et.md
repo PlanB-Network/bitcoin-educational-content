@@ -1,5 +1,6 @@
 ---
-term: COINSWAP
+term: Coinswap
+definition: Bitcoini omandiõiguse aatomvahetuse protokoll kasutajate vahel nutilepingute kaudu.
 ---
 
 Ownership salajase edastamise protokoll kasutajate vahel. Selle meetodi eesmärk on bitcoinide üleandmine ühelt isikult teisele ja vastupidi, ilma et see Exchange oleks Blockchain-l selgelt nähtav. Coinwap kasutab ülekande tegemiseks arukaid lepinguid, ilma et oleks vaja osapoolte vahelist usaldust.

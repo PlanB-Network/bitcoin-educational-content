@@ -1,5 +1,6 @@
 ---
-term: MERKLE BLOCK
+term: Merkle-blokk
 
+definition: Struktur som gir et kompakt bevis for inkludering av en transaksjon i en blokk for lettklienter.
 ---
 En datastruktur som brukes i forbindelse med BIP37 (*Transaction Bloom Filtering*) for å gi et kompakt bevis på at spesifikke transaksjoner er inkludert i en blokk. Den brukes særlig for SPV-lommebøker. Merkle-blokken inneholder blokkoverskriftene, filtrerte transaksjoner og et delvis Merkle-tre, slik at lette klienter raskt kan verifisere om en transaksjon tilhører en blokk uten å laste ned alle transaksjonene.

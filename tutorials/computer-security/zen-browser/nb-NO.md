@@ -729,9 +729,9 @@ For bitcoinere og teknologibrukere som setter pris på både produktivitet og pe
 
 
 - [Zen Browser offisielle nettside](https://zen-browser.app)
-- [Fullstendig dokumentasjon] (https://docs.zen-browser.app)
-- [GitHub-kildekode] (https://github.com/zen-browser/desktop)
-- [Last ned side] (https://zen-browser.app/download)
+- [Fullstendig dokumentasjon](https://docs.zen-browser.app)
+- [GitHub-kildekode](https://github.com/zen-browser/desktop)
+- [Last ned side](https://zen-browser.app/download)
 
 
 ### Fellesskap og støtte
@@ -739,6 +739,6 @@ For bitcoinere og teknologibrukere som setter pris på både produktivitet og pe
 
 
 
-- [Official Discord] (https://discord.gg/zen-browser)
+- [Official Discord](https://discord.gg/zen-browser)
 - [Reddit r/zen_browser](https://reddit.com/r/zen_browser)
-- [Zen Mods Gallery] (https://zen-browser.app/mods)
+- [Zen Mods Gallery](https://zen-browser.app/mods)

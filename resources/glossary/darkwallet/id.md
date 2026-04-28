@@ -1,5 +1,0 @@
----
-term: DARKWALLET
-
----
-Perangkat lunak dompet Bitcoin yang berfokus pada privasi, diluncurkan oleh Amir Taaki dan Cody Wilson pada tahun 2014, beroperasi sebagai ekstensi untuk peramban Google Chrome. DarkWallet memiliki fungsi-fungsi unggulan untuk meningkatkan privasi pengguna Bitcoin, seperti _stealth payment_ dan _coinjoin_. Pengembangannya telah dihentikan sejak Januari 2015.

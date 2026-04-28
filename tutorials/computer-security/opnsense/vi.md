@@ -147,11 +147,12 @@ Bạn cần lưu ý đến các tài nguyên phần cứng cần thiết để c
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Tính năng | Tối thiểu | Khuyến nghị |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Bộ xử lý | 1 GHz - 2 lõi | 1.5 GHz - Đa lõi |
+| RAM | 2 GB | 8 GB |
+| Không gian lưu trữ cho hệ thống | Ổ cứng, SSD hoặc thẻ SD (4 GB) | 120 GB trên SSD |
 
 Cuối cùng, **yêu cầu tài nguyên của bạn phụ thuộc chủ yếu vào số lượng kết nối cần quản lý**, và do đó phụ thuộc vào **yêu cầu băng thông** của bạn. Ngoài ra, bạn cần **lưu ý các dịch vụ sẽ được kích hoạt và sử dụng** (proxy, phát hiện xâm nhập, v.v...) vì chúng có thể ngốn nhiều CPU và/hoặc RAM.
 

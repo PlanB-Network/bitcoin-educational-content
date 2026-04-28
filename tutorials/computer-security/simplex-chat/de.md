@@ -64,7 +64,7 @@ SimpleX Chat ist auf allen Plattformen verfügbar. Sie können die Anwendung dir
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [App Store] (https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [App Store](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
 - [F-Droid](https://simplex.chat/fdroid/).
 
 

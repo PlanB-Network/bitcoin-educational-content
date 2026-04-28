@@ -1,5 +1,5 @@
 ---
-name: Itangawizi Wallet.
+name: Ginger Wallet
 description: Inkomoko yuguruye, ukwibungabunga Bitcoin wallet porogaramu, fork iva kuri Wasabi Wallet, ishiramwo amafaranga
 ---
 ![cover](assets/cover.webp)

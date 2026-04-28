@@ -1,5 +1,6 @@
 ---
-term: IVYO VYOSE (APO)
+term: Anyprevout (apo)
+definition: Igitekerezo (BIP118) gishyira mu mahoro ibishyira SigHash bishya yemeza kutegekabuza ibigambi bidatangiza icyo kinini cya miamala.
 ---
 
-Izina ryahawe BIP118 risaba kwongerako ibihinduzi bibiri bishasha vy'Ibendera rya SigHash, vyitwa `SIGHASH_ANYPREVOUT` na `SIGHASH_INYANDIKA Y'IBIMENYETSO`. Ijambo "*AnyPrevOut*" rikomoka ku nsiguro y'ijambo "*Igisohoka cose*" rishobora guhindurwa mu gifaransa ngo "toute sortie précédente".
+Izina ryahawe BIP118, risaba kongerwaho abahindura babiri bashya b’amabendera ya SigHash, bitwa `SIGHASH_ANYPREVOUT` na `SIGHASH_ANYPREVOUTANYSCRIPT`. Ijambo "*AnyPrevOut*" rituruka ku kugabanya amagambo "*Any Previous Output*".

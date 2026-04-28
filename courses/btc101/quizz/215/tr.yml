@@ -1,8 +1,9 @@
-question: Bitcoin'ın ölçeklenebilirlik sorunu nedir?
-answer: Benimsendikçe saniye başına sürekli artan sayıda işlem sağlayabilen bir para sisteminin uygulanmasındaki zorluk.
+question: Lightning ödemelerini atomik yapan mekanizma hangisidir?
+answer: HTLC
 wrong_answers:
-  - Zaman içinde değeri artan Mining yeni Bitcoin'lerin zorluğu.
-  - Bitcoin'nin fiyatının her Halving'ten sonra artacak olan oynaklığı.
-  - İşlemleri yasadışı hale getirecek Bitcoin için düzenleme eksikliği.
-explanation: >-
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC’ler ödemeyi bir sırrın açıklanmasına bağlayarak, kayıp olmaksızın tam başarı veya başarısızlığı garanti eder.
+reviewed: false

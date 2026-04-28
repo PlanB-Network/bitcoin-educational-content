@@ -133,18 +133,18 @@ Kas olete valmis oma esimese Bitcoin sõlme sisse lülitama? Võtke suund suver�
 
 
 
-Nagu selle looja Satoshi Nakamoto kirjeldas, kujutab Bitcoin endast vastastikust elektroonilist sularahasüsteemi. See lihtne lause, mis on valge raamatu pealkiri, sisaldab palju vihjeid Bitcoin olemuse kohta:
+Nagu selle looja [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) kirjeldas, kujutab Bitcoin endast vastastikust elektroonilist sularahasüsteemi. See lihtne lause, mis on [valge raamatu](https://planb.academy/resources/glossary/white-paper) pealkiri, sisaldab palju vihjeid Bitcoin olemuse kohta:
 
 
 
 
 - Kõigepealt kirjeldab Satoshi Bitcoin kui "süsteemi", teisisõnu riist- ja tarkvarakomponentide ühtset kogumit, mis suhtlevad omavahel, et pakkuda konkreetset teenust või täita konkreetset funktsiooni;
 - Seejärel selgitab ta, et see süsteem võimaldab kasutada elektroonilist sularaha, s.t immateriaalse valuuta vormi;
-- Lõpuks juhib ta tähelepanu sellele, et see süsteem ei sõltu ühestki kesksest üksusest: see on "peer-to-peer", mis tähendab, et süsteemi haldavad kasutajad ise.
+- Lõpuks juhib ta tähelepanu sellele, et see süsteem ei sõltu ühestki kesksest üksusest: see on "[peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)", mis tähendab, et süsteemi haldavad kasutajad ise.
 
 
 
-Kuna Bitcoin on süsteem, tuleb seda tingimata käivitada arvutites. Ja kuna tegemist on võrdõiguslikkusega, on kasutajad ise need, kes võtavad vastutuse nende masinate käitamise eest. Me nimetame "Bitcoin-sõlmeks" just seda arvutit, millel töötab Bitcoin protokolli (nagu Bitcoin core, kuid selle juurde tuleme hiljem tagasi) rakendav tarkvara. See võimaldab Bitcoin-l toimida ilma keskse asutuseta: valideerimine toimub hajutatult, tuhandete kasutajate tuhandete sõltumatute masinate poolt.
+Kuna Bitcoin on süsteem, tuleb seda tingimata käivitada arvutites. Ja kuna tegemist on võrdõiguslikkusega, on kasutajad ise need, kes võtavad vastutuse nende masinate käitamise eest. Me nimetame "[Bitcoin-sõlmeks](https://planb.academy/resources/glossary/node)" just seda arvutit, millel töötab Bitcoin protokolli (nagu [Bitcoin core](https://planb.academy/resources/glossary/bitcoin-core), kuid selle juurde tuleme hiljem tagasi) rakendav tarkvara. See võimaldab Bitcoin-l toimida ilma keskse asutuseta: valideerimine toimub [hajutatult](https://planb.academy/resources/glossary/distributed), tuhandete kasutajate tuhandete sõltumatute masinate poolt.
 
 
 
@@ -156,7 +156,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 
 
-Just need kasutajad tagavad Bitcoin turvalisuse. Nagu Eric Voskuil oma raamatus *Cryptoeconomics* selgitab, ei sõltu Bitcoin turvalisus ei Blockchain-st, hashinguvõimest, valideerimisest, detsentraliseerimisest, krüptograafiast, avatud lähtekoodist ega mänguteooriast. Bitcoin turvalisus sõltub eelkõige isikutest, kes on valmis end isikliku riski suhtes ohtu seadma. Detsentraliseerimine võimaldab seda riski jaotada suure hulga üksikisikute vahel ja ainult nende võime vastu seista tagab süsteemi töökindluse.
+Just need kasutajad tagavad Bitcoin turvalisuse. Nagu Eric Voskuil oma raamatus *Cryptoeconomics* selgitab, ei sõltu Bitcoin turvalisus ei [Blockchain](https://planb.academy/resources/glossary/blockchain)-st, [hashinguvõimest](https://planb.academy/resources/glossary/hashrate), valideerimisest, detsentraliseerimisest, [krüptograafiast](https://planb.academy/resources/glossary/cryptography), [avatud lähtekoodist](https://planb.academy/resources/glossary/foss) ega mänguteooriast. Bitcoin turvalisus sõltub eelkõige isikutest, kes on valmis end isikliku riski suhtes ohtu seadma. Detsentraliseerimine võimaldab seda riski jaotada suure hulga üksikisikute vahel ja ainult nende võime vastu seista tagab süsteemi töökindluse.
 
 
 
@@ -173,9 +173,9 @@ Seega võime eristada ja nimetada mitmeid mõisteid, et selgitada asju selle kur
 
 
 
-- Bitcoin valuuta: selles süsteemis tehtavate tehingute jaoks kasutatav arvestusühik;
+- Bitcoin valuuta: selles süsteemis tehtavate [tehingute](https://planb.academy/resources/glossary/transaction-tx) jaoks kasutatav arvestusühik;
 - Bitcoin võrk: kõigi ühendatud sõlmede kogum;
-- Bitcoin sõlmed: masinad, mis kasutavad Bitcoin rakendust;
+- Bitcoin sõlmed: masinad, mis kasutavad [Bitcoin rakendust](https://planb.academy/resources/glossary/bitcoin-implementation);
 - Bitcoin rakendused: tarkvara, mis tõlgib protokolli käivitatavateks käskudeks;
 - Bitcoin protokoll: süsteemi toimimist reguleerivate eeskirjade kogum;
 - Süsteem Bitcoin: kõigi nende Elements sidus kombinatsioon.
@@ -190,7 +190,7 @@ Bitcoin sõlmed moodustavad koos nn Bitcoin võrgu. Need võimaldavad kogu süst
 
 
 
-Bitcoin oli algusest peale kavandatud nii, et iga kasutaja saaks kasutada isiklikku sõlme. See kehtib ka tänase Bitcoin core tarkvara puhul, mis ühendab Wallet ja sõlme rollid. Kuid tänapäeval on see funktsioon sageli lahutatud: paljud tänapäevased Bitcoin rahakotid on lihtsalt rahakotid, mis ühenduvad väliste sõlmedega (mis kuuluvad samale isikule või mitte).
+Bitcoin oli algusest peale kavandatud nii, et iga kasutaja saaks kasutada isiklikku sõlme. See kehtib ka tänase Bitcoin core tarkvara puhul, mis ühendab Wallet ja sõlme rollid. Kuid tänapäeval on see funktsioon sageli lahutatud: paljud tänapäevased Bitcoin [rahakotid](https://planb.academy/resources/glossary/wallet) on lihtsalt rahakotid, mis ühenduvad väliste sõlmedega (mis kuuluvad samale isikule või mitte).
 
 
 
@@ -198,7 +198,7 @@ Bitcoin oli algusest peale kavandatud nii, et iga kasutaja saaks kasutada isikli
 
 
 
-Sõlme esimene ülesanne on säilitada Blockchain kohalik koopia. Double-spending vältimiseks Bitcoin-l ilma keskasutust kaasamata peab iga kasutaja kontrollima, et süsteemis ei oleks ühtegi tehingut. Ainus võimalus selles kindel olla on teada kõiki Bitcoins tehtud tehinguid. Sel põhjusel on kõik tehingud ajatempliga varustatud ja rühmitatud plokkidesse ning iga sõlme salvestab kogu Blockchain.
+Sõlme esimene ülesanne on säilitada Blockchain kohalik koopia. [Double-spending](https://planb.academy/resources/glossary/double-spending-attack) vältimiseks Bitcoin-l ilma keskasutust kaasamata peab iga kasutaja kontrollima, et süsteemis ei oleks ühtegi tehingut. Ainus võimalus selles kindel olla on teada kõiki Bitcoins tehtud tehinguid. Sel põhjusel on kõik tehingud [ajatempliga](https://planb.academy/resources/glossary/timestamp) varustatud ja rühmitatud [plokkidesse](https://planb.academy/resources/glossary/block) ning iga sõlme salvestab kogu Blockchain.
 
 
 
@@ -208,7 +208,7 @@ Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer elektroonilise sularaha süsteem*. h
 
 
 
-Blockchain on seega arenev register: iga kord, kui Miner avaldab uue ploki, kontrollib sõlm selle kehtivust enne selle lisamist oma ahela kohalikku koopiasse. Tänase seisuga (juuli 2025) ületab Blockchain kogu suurus 675 GB ja see suurus kasvab jätkuvalt, sest keskmiselt iga 10 minuti tagant lisatakse uus plokk.
+Blockchain on seega arenev register: iga kord, kui [Miner](https://planb.academy/resources/glossary/miner) avaldab uue ploki, kontrollib sõlm selle kehtivust enne selle lisamist oma ahela kohalikku koopiasse. Tänase seisuga (juuli 2025) ületab Blockchain kogu suurus 675 GB ja see suurus kasvab jätkuvalt, sest keskmiselt iga 10 minuti tagant lisatakse uus plokk.
 
 
 
@@ -216,7 +216,7 @@ Blockchain on seega arenev register: iga kord, kui Miner avaldab uue ploki, kont
 
 
 
-Samuti säilitab sõlmpunkt kohalikku registrit kõigi igal ajahetkel olemasolevate UTXOde kohta, mida nimetatakse **UTXO komplektiks**. See andmebaas sisaldab kõiki kasutamata Bitcoin fragmente. Seda teemat käsitleme üksikasjalikult uuesti kursuse viimases osas.
+Samuti säilitab sõlmpunkt kohalikku registrit kõigi igal ajahetkel olemasolevate [UTXOde](https://planb.academy/resources/glossary/utxo) kohta, mida nimetatakse **[UTXO komplektiks](https://planb.academy/resources/glossary/utxo-set)**. See andmebaas sisaldab kõiki kasutamata Bitcoin fragmente. Seda teemat käsitleme üksikasjalikult uuesti kursuse viimases osas.
 
 
 
@@ -224,14 +224,14 @@ Samuti säilitab sõlmpunkt kohalikku registrit kõigi igal ajahetkel olemasolev
 
 
 
-Teiseks sõlme rolliks on tagada tehingute kontrollimine ja levitamine. Kui uus tehing jõuab sõlme (kas Wallet tarkvara või mõne teise sõlme kaudu), kontrollib see, kas see vastab reeglistikule (konsensusreeglid ja releereeglid). Näiteks:
+Teiseks sõlme rolliks on tagada tehingute kontrollimine ja levitamine. Kui uus tehing jõuab sõlme (kas Wallet tarkvara või mõne teise sõlme kaudu), kontrollib see, kas see vastab reeglistikule ([konsensusreeglid](https://planb.academy/resources/glossary/consensus-rules) ja [releereeglid](https://planb.academy/resources/glossary/relay)). Näiteks:
 
 
 
 
-- kulutatud bitcoinid peavad olema olemas tema UTXO komplektis (kulutamata väljundite andmebaas);
-- allkiri peab olema kehtiv ja kõik kulutuste tingimused peavad olema täidetud (kehtiv skript);
-- väljundite kogusumma ei tohi ületada sisendite kogusummat, mis tähendab, et kulud ei saa olla negatiivsed.
+- kulutatud bitcoinid peavad olema olemas tema UTXO komplektis (kulutamata [väljundite](https://planb.academy/resources/glossary/output) andmebaas);
+- [allkiri](https://planb.academy/resources/glossary/digital-signature) peab olema kehtiv ja kõik kulutuste tingimused peavad olema täidetud (kehtiv [skript](https://planb.academy/resources/glossary/script));
+- väljundite kogusumma ei tohi ületada [sisendite](https://planb.academy/resources/glossary/input) kogusummat, mis tähendab, et [kulud](https://planb.academy/resources/glossary/transaction-fees) ei saa olla negatiivsed.
 
 
 
@@ -239,7 +239,7 @@ Teiseks sõlme rolliks on tagada tehingute kontrollimine ja levitamine. Kui uus 
 
 
 
-Pärast kinnitamist salvestatakse tehing sõlme Mempool-sse, mis on kinnitamata tehingute jaoks reserveeritud ajutine mäluruum, ja seejärel edastatakse see teistele võrgupartneritele, kellega see on ühendatud. See jaotus- ja valideerimismehhanism jätkub sõlmedest sõlme vahel. Sel viisil levib tehing üle kogu Bitcoin võrgu ja iga sõlme salvestab selle Mempool-s, kuni Miner lisab selle kehtivasse plokki, mis seejärel tegutseb selle esimese kinnituse alusel.
+Pärast kinnitamist salvestatakse tehing sõlme [Mempool](https://planb.academy/resources/glossary/mempool)-sse, mis on kinnitamata tehingute jaoks reserveeritud ajutine mäluruum, ja seejärel [edastatakse](https://planb.academy/resources/glossary/diffusion) see teistele võrgupartneritele, kellega see on ühendatud. See jaotus- ja valideerimismehhanism jätkub sõlmedest sõlme vahel. Sel viisil levib tehing üle kogu Bitcoin võrgu ja iga sõlme salvestab selle Mempool-s, kuni Miner lisab selle kehtivasse plokki, mis seejärel tegutseb selle esimese [kinnituse](https://planb.academy/resources/glossary/confirmation) alusel.
 
 
 
@@ -247,7 +247,7 @@ Pärast kinnitamist salvestatakse tehing sõlme Mempool-sse, mis on kinnitamata 
 
 
 
-Kolmas sõlme roll on kaevandatud plokkide haldamine. Kui Miner avastab uue ploki koos kehtiva Proof of Work-ga, edastatakse see võrgus. Sõlmed võtavad selle vastu, kontrollivad, et see vastab kõigile protokollireeglitele, ja seejärel integreerivad selle oma Blockchain kohalikku koopiasse, kui see on kehtiv. Nagu tehingute puhul, edastatakse äsja valideeritud plokid seejärel kõigile sõlmega ühendatud võrdsetele osapooltele. See protsess jätkub seni, kuni kõik Bitcoin võrgu sõlmed on uuest plokist teadlikud.
+Kolmas sõlme roll on kaevandatud plokkide haldamine. Kui Miner avastab uue ploki koos kehtiva [Proof of Work](https://planb.academy/resources/glossary/proof-of-work)-ga, edastatakse see võrgus. Sõlmed võtavad selle vastu, kontrollivad, et see vastab kõigile protokollireeglitele, ja seejärel integreerivad selle oma Blockchain kohalikku koopiasse, kui see on kehtiv. Nagu tehingute puhul, edastatakse äsja valideeritud plokid seejärel kõigile sõlmega ühendatud võrdsetele osapooltele. See protsess jätkub seni, kuni kõik Bitcoin võrgu sõlmed on uuest plokist teadlikud.
 
 
 
@@ -304,7 +304,7 @@ Kui Satoshi Nakamoto 2009. aastal Bitcoin käivitas, eeldati algselt, et iga kas
 
 
 
-Bitcoin järkjärgulise populariseerimisega ja kaevurite arvu suurenemisega on Mining konkurentsimaastik siiski radikaalselt muutunud. Tänapäeval on Mining muutunud äärmiselt konkurentsivõimeliseks tegevuseks, kus domineerivad spetsialiseeritud infrastruktuuriga varustatud tööstuslikud ettevõtjad. Uue ploki kaevandamiseks vajalik võimsus on nüüd nii suur, et üksikkasutajal on praktiliselt võimatu seda saavutada ainult tavalise arvuti abil. Seetõttu kasutatakse Mining kaevandamisel nüüd peamiselt spetsiaalseid masinaid, mida nimetatakse ASIC-deks (*rakendusspetsiifilised integraallülitused*). Need kiibid on optimeeritud ainult Bitcoin puhul Mining jaoks kasutatud algoritmi SHA-256 kahekordseks käivitamiseks.
+Bitcoin järkjärgulise populariseerimisega ja kaevurite arvu suurenemisega on Mining konkurentsimaastik siiski radikaalselt muutunud. Tänapäeval on Mining muutunud äärmiselt konkurentsivõimeliseks tegevuseks, kus domineerivad spetsialiseeritud infrastruktuuriga varustatud tööstuslikud ettevõtjad. Uue ploki kaevandamiseks vajalik võimsus on nüüd nii suur, et üksikkasutajal on praktiliselt võimatu seda saavutada ainult tavalise arvuti abil. Seetõttu kasutatakse Mining kaevandamisel nüüd peamiselt spetsiaalseid masinaid, mida nimetatakse [ASIC](https://planb.academy/resources/glossary/asic)-deks (*rakendusspetsiifilised integraallülitused*). Need kiibid on optimeeritud ainult Bitcoin puhul Mining jaoks kasutatud algoritmi [SHA-256](https://planb.academy/resources/glossary/sha256) kahekordseks käivitamiseks.
 
 
 
@@ -328,7 +328,7 @@ Miner vajab võrguga suhtlemiseks Bitcoin sõlme.
 
 
 
-Mõnikord eristatakse ka Miner rolli kopterist. Hakkur on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
+Mõnikord eristatakse ka Miner rolli grind. Grind on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri [poolt](https://planb.academy/resources/glossary/pool-mining), otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
 
 
 
@@ -598,7 +598,7 @@ Need on Bitcoin protokolli põhireeglid, mis tagavad süsteemi terviklikkuse ja 
 
 
 
-Nende reeglite muutmine on samaväärne protokolli ja seega ka valuuta muutmisega (Hard Fork). Kuid isegi kui neid muuta ei üritata, annab ainuüksi olemasolevate reeglite range kohaldamine teatava võimu: kui plokk rikub reegleid, lükkab sõlmpunkt selle kohe tagasi.
+Nende reeglite muutmine on samaväärne protokolli ja seega ka valuuta muutmisega ([Hard Fork](https://planb.academy/resources/glossary/hard-fork)). Kuid isegi kui neid muuta ei üritata, annab ainuüksi olemasolevate reeglite range kohaldamine teatava võimu: kui plokk rikub reegleid, lükkab sõlmpunkt selle kohe tagasi.
 
 
 
@@ -722,7 +722,7 @@ Full node ei pea kedagi usaldama, sest ta valideerib ja teab kogu süsteemis ole
 
 
 
-Praktikas nõuab Full node mittetriviaalseid ressursse, sealhulgas mitusada gigabaiti plokkfailide jaoks, protsessorit, mis suudab skriptid valideerida, RAM-i Mempool ja vahemälu jaoks ning stabiilset ribalaiust. Esimene sünkroniseerimine (*IBD*) loeb ja kontrollib kogu ajalugu: see on intensiivne, kuid toimub ainult üks kord. Full node osaleb aktiivselt võrgus, edastades plokke ja tehinguid ning võib vastu võtta sissetulevaid ühendusi, et aidata teisi eakaaslasi.
+Praktikas nõuab Full node mittetriviaalseid ressursse, sealhulgas mitusada gigabaiti plokkfailide jaoks, protsessorit, mis suudab skriptid valideerida, RAM-i Mempool ja vahemälu jaoks ning stabiilset ribalaiust. Esimene sünkroniseerimine (*[IBD](https://planb.academy/resources/glossary/initial-block-download-ibd)*) loeb ja kontrollib kogu ajalugu: see on intensiivne, kuid toimub ainult üks kord. Full node osaleb aktiivselt võrgus, edastades plokke ja tehinguid ning võib vastu võtta sissetulevaid ühendusi, et aidata teisi eakaaslasi.
 
 
 
@@ -758,7 +758,7 @@ Lühidalt öeldes töötab Wallet jälgimine pruned-sõlmes tõrgeteta, kui te l
 
 
 
-SPV-sõlm (*Simplified Payment Verification*) ehk lihtsustatud maksesõlm säilitab ainult plokkide päiseid, mitte tehingu üksikasju, ja tugineb teistele täissõlmedele, et saada tõendeid, et tehing on plokis (Merkle-tõendid puude kaudu), mille päis on tal olemas. Lihtsustatud makse tõendamise kontseptsioon ei ole uus, selle pakkus välja Satoshi Nakamoto ise valge raamatu 8. osas.
+[SPV](https://planb.academy/resources/glossary/spv-node-light-node)-sõlm (*Simplified Payment Verification*) ehk lihtsustatud maksesõlm säilitab ainult plokkide päiseid, mitte tehingu üksikasju, ja tugineb teistele täissõlmedele, et saada tõendeid, et tehing on plokis ([Merkle](https://planb.academy/resources/glossary/merkle-tree)-tõendid puude kaudu), mille päis on tal olemas. Lihtsustatud makse tõendamise kontseptsioon ei ole uus, selle pakkus välja Satoshi Nakamoto ise valge raamatu 8. osas.
 
 
 
@@ -812,7 +812,7 @@ Keskmise kasutaja, kellel on arvuti, võib paigaldada pruned sõlme, et saada ka
 
 
 
-Full node jääb parimaks lahenduseks, kui soovite Bitcoin kasutamisel olla täiesti sõltumatu ja mitte piirata end hiljem edasijõudnud kasutusaladega, nagu indekseerija, Lightning-sõlm või isegi Block explorer. Just seda me kavatseme sellel kursusel uurida!
+Full node jääb parimaks lahenduseks, kui soovite Bitcoin kasutamisel olla täiesti sõltumatu ja mitte piirata end hiljem edasijõudnud kasutusaladega, nagu indekseerija, [Lightning](https://planb.academy/resources/glossary/lightning-network)-sõlm või isegi Block explorer. Just seda me kavatseme sellel kursusel uurida!
 
 
 
@@ -853,7 +853,7 @@ See on kõige suveräänsem ja paindlikum lähenemisviis: te teate täpselt, mis
 
 
 
-[Bitcoin core on võrgu ülimalt suurklient](https://bitcoincore.org/). See laeb alla, valideerib ja hooldab Blockchain, pakub RPC/REST APIsid ja võib integreerida Wallet. Kui te eelistate standardseid vahendeid ja tunnete end mugavalt, kui lisate ise teenuseid (näiteks Electrumi server, explorer ja LND), siis on parem kasutada Core'i sellisena, nagu ta on.
+[Bitcoin core on võrgu ülimalt suurklient](https://bitcoincore.org/). See laeb alla, valideerib ja hooldab Blockchain, pakub [RPC](https://planb.academy/resources/glossary/rpc-remote-procedure-call)/REST APIsid ja võib integreerida Wallet. Kui te eelistate standardseid vahendeid ja tunnete end mugavalt, kui lisate ise teenuseid (näiteks Electrumi server, explorer ja LND), siis on parem kasutada Core'i sellisena, nagu ta on.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel pakub kahte erinevat lähenemist:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): see on kasutusvalmis miniserver, mis on spetsiaalselt loodud ja optimeeritud umbrelOSi jaoks. Kompaktne, vaikne, Ethernet-ühendusega, varustatud NVMe SSD-ga (kuni 4 TB valikuliselt), 16 GB RAM-i ja neljatuumalise protsessoriga. Tellige see, ühendage see ja minge `umbrel.local`. Töötav Umbrel on teil mõne minutiga käivitatud ja töökorras. See on plug-and-play-variant.
 
 
 
@@ -1856,7 +1856,7 @@ Umbreli konfigureerimise alustamiseks klõpsake nupule "*Start*".
 
 
 
-Valige pseudonüüm või sisestage oma nimi, seejärel määrake tugev parool. Olge ettevaatlik: see parool on ainus takistus, mis kaitseb juurdepääsu teie Umbrelile teie võrgustikust (ja seega potentsiaalselt ka teie bitcoinidele, kui te kasutate Lightning-sõlme Umbrelil). See kaitseb ka kaugjuurdepääsu Tor'i või VPN-i kaudu, kui need teenused on lubatud.
+Valige pseudonüüm või sisestage oma nimi, seejärel määrake tugev parool. Olge ettevaatlik: see parool on ainus takistus, mis kaitseb juurdepääsu teie Umbrelile teie võrgustikust (ja seega potentsiaalselt ka teie bitcoinidele, kui te kasutate Lightning-sõlme Umbrelil). See kaitseb ka kaugjuurdepääsu [Tor](https://planb.academy/resources/glossary/tor)'i või VPN-i kaudu, kui need teenused on lubatud.
 
 
 
@@ -2168,7 +2168,7 @@ Kui soovite lihtsalt ühendada Wallet, näiteks Sparrow, oma sõlme, et vaadata 
 
 
 
-Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada Mempool.Locally, paigaldamine Address indekseri muutub hädavajalikuks ruumi Block explorer.
+Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada mempool.space plokiuurija lokaalselt, muutub aadressi indekseerija paigaldamine hädavajalikuks.
 
 
 
@@ -2514,9 +2514,11 @@ Lõpuks soovitan *Lightning Network+* rakendust, mis võimaldab teil leida eakaa
 
 
 
-Tänu Umbrelile on isikliku Lightning-sõlme haldamine oluliselt lihtsustatud, kuid see on siiski suhteliselt keeruline. Seetõttu käsitleme seda teemat lähemalt tulevases kursuses, mis on täielikult sellele kasutusalale pühendatud.
+Tänu Umbrelile on isikliku Lightningi sõlme haldamine lihtsustatud, kuid jääb siiski suhteliselt keerukaks. Seetõttu soovitan teil läbida kursuse LNP 202, mis on kursuse BTC 202 loogiline jätk ning milles juhendan teid samm-sammult oma Lightningi sõlme seadistamisel ja haldamisel Umbrelis.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -2604,7 +2606,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server on tasuta, avatud lähtekoodiga makseprotsessor, mis võimaldab teil vastu võtta makseid Bitcoin ja Lightning Network kaudu ilma vahendajateta, säilitades samal ajal rahaliste vahendite isehoidmise.
+[BTCPay Server](https://planb.academy/resources/glossary/btcpay-server) on tasuta, avatud lähtekoodiga makseprotsessor, mis võimaldab teil vastu võtta makseid Bitcoin ja Lightning Network kaudu ilma vahendajateta, säilitades samal ajal rahaliste vahendite isehoidmise.
 
 
 
@@ -2815,7 +2817,7 @@ Tuletame meelde, et Bitcoin plokk koosneb 80 baidi pikkusest päisest ja tehingu
 - Merkle Root tehingute kohta
 - Timestamp (suurem kui 11 eelneva ploki mediaan)
 - raskusaste
-- Nonce
+- [Nonce](https://planb.academy/resources/glossary/nonce)
 
 
 
@@ -2823,7 +2825,7 @@ Tuletame meelde, et Bitcoin plokk koosneb 80 baidi pikkusest päisest ja tehingu
 
 
 
-Tehingud kantakse Merkle Tree-le. See on struktuur, mis võtab kokku suure andmekogumi (antud juhul kõik tehingud plokis), koondades nende hashid järk-järgult kaks korda kuni ühe "juureni", tõestades seega, et element kuulub kogumisse (ja tuvastades mis tahes muudatused). Sel viisil muudab iga tehingu muutmine ka Merkle Tree juurt ja seega ka ploki päise sõrmejälge. SegWit on kasutusele võtnud eraldi täiendava Commitment küpsiste (allkirjade) jaoks, mis paigutatakse mündipanka.
+Tehingud kantakse Merkle Tree-le. See on struktuur, mis võtab kokku suure andmekogumi (antud juhul kõik tehingud plokis), koondades nende hashid järk-järgult kaks korda kuni ühe "juureni", tõestades seega, et element kuulub kogumisse (ja tuvastades mis tahes muudatused). Sel viisil muudab iga tehingu muutmine ka Merkle Tree juurt ja seega ka ploki päise sõrmejälge. [SegWit](https://planb.academy/resources/glossary/segwit) on kasutusele võtnud eraldi täiendava Commitment küpsiste (allkirjade) jaoks, mis paigutatakse mündipanka.
 
 
 
@@ -2847,7 +2849,7 @@ Kui IBD on lõpule viidud, läheb sõlmpunkt oma tavapärasesse faasi: ta valide
 
 
 
-Bitcoin core sisaldab mehhanismi, mille eesmärk on vähendada aega, mis kulub enne sõlme täielikku toimimist, säilitades samal ajal autonoomse kontrollimise põhimõtte olemuse: AssumeValid.
+Bitcoin core sisaldab mehhanismi, mille eesmärk on vähendada aega, mis kulub enne sõlme täielikku toimimist, säilitades samal ajal autonoomse kontrollimise põhimõtte olemuse: [AssumeValid](https://planb.academy/resources/glossary/assume-valid).
 
 
 
@@ -3007,7 +3009,7 @@ Selleks, et reorganiseerimise ajal saaks ajas tagasi minna, salvestab Core paral
 
 
 
-Bloki otsimine otse lamefailidest oleks liiga aeganõudev. Core säilitab seetõttu LevelDB andmebaasi "blocks/index/", mis loetleb iga teadaoleva ploki kohta metaandmed, nagu Hash, kõrgus, valideerimise staatus, "blk" fail ja nihke, kus plokk asub. Kui mõni võrdväärne osapool taotleb plokki või kui sisekomponendil on vaja juurdepääsu konkreetsele plokile, pakub see indeks kiiret juurdepääsu. Ilma selle indeksita oleks vaja liiga palju operatsioone.
+Bloki otsimine otse lamefailidest oleks liiga aeganõudev. Core säilitab seetõttu [LevelDB](https://planb.academy/resources/glossary/leveldb) andmebaasi "blocks/index/", mis loetleb iga teadaoleva ploki kohta metaandmed, nagu Hash, kõrgus, valideerimise staatus, "blk" fail ja nihke, kus plokk asub. Kui mõni võrdväärne osapool taotleb plokki või kui sisekomponendil on vaja juurdepääsu konkreetsele plokile, pakub see indeks kiiret juurdepääsu. Ilma selle indeksita oleks vaja liiga palju operatsioone.
 
 
 
@@ -3049,7 +3051,7 @@ Kõigi nende osade kogum on antud hetkel T, mis moodustab UTXO komplekti: suur n
 
 
 
-UTXO komplekt on salvestatud kausta `chainstate/` kompaktse LevelDB andmebaasina. Iga osa seostab tehingu Hash võtme ja väljundindeksist tuletatud võtme väärtusega, mis sisaldab: summat, `scriptPubKey` lukustust, loomise ploki kõrgust ja coinbase'i näitajat.
+UTXO komplekt on salvestatud kausta `chainstate/` kompaktse LevelDB andmebaasina. Iga osa seostab tehingu Hash võtme ja väljundindeksist tuletatud võtme väärtusega, mis sisaldab: summat, `scriptPubKey` lukustust, loomise ploki kõrgust ja [coinbase](https://planb.academy/resources/glossary/coinbase-transaction)'i näitajat.
 
 
 
@@ -3073,13 +3075,13 @@ Pange tähele, et UTXO komplekt on sageli Bitcoin detsentraliseeritusega seotud 
 
 
 
-UTXO komplekti kasv tuleneb ka Bitcoin lihtsate maksetehingute struktuurist. Tõepoolest, makse sooritamisel tarbitakse sisendina üks UTXO ja luuakse väljundina 2 uut UTXOd (üks makse ja teine Exchange jaoks). Lõpuks pakub ahelanalüüsi heuristika, mida nimetatakse CIOH (*Common Input Ownership Heuristic*), täiendavat stiimulit Coin konsolideerimise vältimiseks.
+UTXO komplekti kasv tuleneb ka Bitcoin lihtsate maksetehingute struktuurist. Tõepoolest, makse sooritamisel tarbitakse sisendina üks UTXO ja luuakse väljundina 2 uut UTXOd (üks makse ja teine Exchange jaoks). Lõpuks pakub ahelanalüüsi heuristika, mida nimetatakse [CIOH](https://planb.academy/resources/glossary/cioh) (*Common Input Ownership Heuristic*), täiendavat stiimulit Coin konsolideerimise vältimiseks.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige [Utreexo](https://planb.academy/resources/glossary/utreexo).
+Kuna osa sellest tuleb hoida RAMis, et kontrollida tehinguid mõistliku aja jooksul, võib UTXO komplekt muuta Full node töö järk-järgult liiga kulukaks. Selle probleemi lahendamiseks on juba olemas mõned ettepanekud, eelkõige Utreexo.
 
 
 
@@ -3106,7 +3108,7 @@ Oluline on märkida, et sõlme mempoolil ei ole konsensuse väärtust. Bitcoin t
 
 
 
-Kui tehing saabub, rakendab Core rea kontrolle konsensusreeglite (süntaks, kehtivad skriptid, topeltkulutuste puudumine jne) ja Mempool reeglite suhtes, mis on kohalik poliitika (RBF, minimaalsed tasuläved, andmete piirnormid OP_RETURN-s jne). Kui tehing vastab nendele reeglitele, salvestatakse see mällu.
+Kui tehing saabub, rakendab Core rea kontrolle konsensusreeglite (süntaks, kehtivad skriptid, topeltkulutuste puudumine jne) ja Mempool reeglite suhtes, mis on kohalik poliitika ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), minimaalsed tasuläved, andmete piirnormid OP_RETURN-s jne). Kui tehing vastab nendele reeglitele, salvestatakse see mällu.
 
 
 
@@ -3347,7 +3349,7 @@ Võrgustiku tasandil on meil ka:
 
 
 
-Vaikimisi suhtleb teie sõlme üle clearneti, Tori ja I2P. See tähendab, et partnerid, kellega ta clearnetis ühendust võtab, näevad teie avalikku IP-aadressi Address ja teie ISP suudab tõenäoliselt tuvastada, et te kasutate Bitcoin sõlme (kuigi P2P Transport V2 muudab ISP-l pealtkuulamise keerulisemaks). See ei ole tingimata probleem, kuid kui soovite vältida selle teabe lekkimist, võite ühendada oma sõlme ainult Tor-võrgu kaudu.
+Vaikimisi suhtleb teie sõlme üle clearneti, Tori ja I2P. See tähendab, et partnerid, kellega ta clearnetis ühendust võtab, näevad teie avalikku IP-aadressi Address ja teie ISP suudab tõenäoliselt tuvastada, et te kasutate Bitcoin sõlme (kuigi [P2P Transport V2](https://planb.academy/resources/glossary/p2p-transport-v2) muudab ISP-l pealtkuulamise keerulisemaks). See ei ole tingimata probleem, kuid kui soovite vältida selle teabe lekkimist, võite ühendada oma sõlme ainult Tor-võrgu kaudu.
 
 
 
@@ -3894,11 +3896,13 @@ Nüüd saate liikuda edasi kursuse lõpuosasse, kus saate hinnata BTC 202, seej�
 
 
 
-Nüüd on teil mitu võimalust. Järgmine loogiline samm on luua oma Lightning-sõlm, mis võimaldab teil off-chain tehingute puhul olla täiesti sõltumatu. See on tulevase kursuse teema, mis avaldatakse 2025. aasta sügisel Plan ₿ Academy kohta.
+Nüüd on teie ees mitu võimalikku teed. Järgmine loogiline samm on luua oma Lightningi sõlm, et olla oma off-chain tehingutes täielikult sõltumatu. Just sellele teemale on pühendatud üks teine kursus Plan ₿ Academys:
 
 
 
-Vahepeal kutsun teid üles avastama BTC 204 koolitust, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoin kasutamisel:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid samuti avastama koolitust BTC 204, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel:
 
 
 

@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: Standardni binarni format kodiranja koji se koristi za ECDSA potpise na Bitcoinu.
 ---
 
 Akronim za *Distinguished Encoding Rules*. To je strogi podskup ASN.1 pravila kodiranja definisanih u specifikaciji [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) i koristi se za kodiranje bilo koje vrste podataka u binarnom nizu. DER se uglavnom koristi u specifičnim oblastima, kao što je kriptografija, gde podaci moraju biti kodirani na standardan, predvidljiv način.

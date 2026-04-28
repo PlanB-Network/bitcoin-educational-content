@@ -1,6 +1,7 @@
 ---
-term: BITCOIN SATOSHI VISION（BSV）
+term: 比特币萨托希愿景 (BSV)
 
+definition: 2018年从比特币现金（Bitcoin Cash）硬分叉出来的加密货币，具有极大的区块大小。
 ---
 由 BCH 硬分叉产生的加密货币系统，而 BCH 本身就是比特币（BTC）的分叉。BSV 分叉发生于 2018 年 11 月 15 日，在区块 556766 处，其原因是比特币现金社区内部存在分歧，特别是关于区块大小和比特币创造者中本聪的所谓愿景。两个派别发生了冲突：
 
@@ -10,4 +11,4 @@ term: BITCOIN SATOSHI VISION（BSV）
 
 BSV 通过其显著更高的区块大小上限，将自己与 Bitcoin Cash 区分开来，并且与比特币本身的差异更为明显。这一特性旨在契合其支持者所认为的中本聪对比特币最初愿景的设想。
 
-![](../../dictionnaire/assets/50.webp)
+

@@ -1,0 +1,9 @@
+question: Para que serve o nonce no cabeçalho do bloco?
+answer: Variar o cabeçalho para tentar novamente
+wrong_answers:
+  - Aumentar o tamanho do bloco
+  - Representar o conjunto de transações do bloco
+  - Indicar o alvo de dificuldade
+explanation: |
+  Modificar o nonce altera a entrada do hash e produz uma impressão digital totalmente diferente. Isso permite tentar novamente encontrar um hash válido.
+reviewed: false

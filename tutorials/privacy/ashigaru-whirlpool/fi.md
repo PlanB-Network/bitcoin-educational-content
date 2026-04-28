@@ -234,7 +234,7 @@ Jos haluat ymmärtää paremmin tätä mekanismia ja sitä, kuinka monta sykliä
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Jos haluat nähdä, kuinka monta remixiä kukin kappaleesi on tehnyt, avaa Postmix-tilin `UTXOs`-valikko.
 
@@ -354,7 +354,7 @@ Useiden kolikon yhdistämissyklien suorituskykyä mitataan niiden joukkojen koon
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Miten hallita postmixiä?
 

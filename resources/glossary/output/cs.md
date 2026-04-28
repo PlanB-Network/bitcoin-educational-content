@@ -1,5 +1,6 @@
 ---
-term: VÝSTUP
+term: Output
+definition: Výstup transakce vytvářející nový UTXO určený pro adresu.
 ---
 
 V kontextu Bitcoin se výstupem v rámci transakce rozumí _Nevyčerpané výstupy transakcí_ (UTXO), které jsou vytvořeny jako cílové prostředky pro platbu. Přesněji řečeno, jedná se o mechanismus, kterým transakce rozděluje finanční prostředky. Transakce přijímá UTXO, tj. bity bitcoinů, jako "vstupy" a vytváří nové UTXO jako "výstupy". Tyto výstupy stanovují určité množství bitcoinů, často přidělené konkrétnímu Address, a také podmínky, za kterých lze tyto prostředky později utratit.

@@ -1,0 +1,8 @@
+question: Vilken är den viktigaste konsensusmekanismen som används av Liquid Network?
+answer: Federerat samförstånd
+wrong_answers:
+  - Proof-of-Work
+  - Bevis för uttag
+  - Delegerad Proof-of-Stake
+explanation: |
+  Liquid Network arbetar enligt en Federated Consensus-modell, som skiljer sig fundamentalt från Bitcoin:s Proof-of-Work-system. I denna modell agerar en utvald grupp av femton funktionärer som block-signatörer som producerar block på ett deterministiskt round-robin sätt. Proof-of-Work är Bitcoin:s konsensusmekanism som involverar mining, medan Proof-of-Stake och Delegated Proof-of-Stake är konsensusmekanismer som används av andra blockkedjenätverk men inte av Liquid.

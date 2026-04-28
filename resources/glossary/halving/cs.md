@@ -1,6 +1,7 @@
 ---
-term: HALVING
+term: Halving
 
+definition: Událost snižující odměnu těžařů na polovinu každých 210 000 bloků.
 ---
 Termín "halving" označuje plánovanou událost, která sníží odměnu těžařům za každý vytěžený blok prostřednictvím blokové dotace na polovinu. Toto snížení se konkrétně týká části blokové dotace tvořené novými bitcoiny vytvořenými ze vzduchu. Snižování na polovinu navrhl Satoshi Nakamoto, tvůrce bitcoinu, jako mechanismus kontroly inflace a zajištění omezené nabídky bitcoinů.
 

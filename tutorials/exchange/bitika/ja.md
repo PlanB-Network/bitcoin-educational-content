@@ -1,5 +1,5 @@
 ---
-name: ビチカ
+name: Bitika
 description: M-Pesaでビットコインを購入する簡単な3ステップ
 ---
 ![cover](assets/cover.webp)

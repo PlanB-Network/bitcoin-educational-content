@@ -22,7 +22,7 @@ JavaScript ndiyo lugha maarufu zaidi ya programu ulimwenguni: ni lugha ya uandis
 Kozi hii imeundwa kwa watu ambao ni wapya kabisa katika upangaji programu, au ambao wametumia lugha zingine hapo awali lakini wanataka kuelewa jinsi JavaScript inavyofanya kazi, haswa katika muktadha wa NodeJS.
 
 
-Kufikia mwisho wa kozi, unapaswa kuwa na uwezo wa kuandika programu zako mwenyewe katika JavaScript, kutumia maktaba ya kawaida ya NodeJS, na kusakinisha na kutumia vifurushi vya watu wengine ili kuunda zana muhimu.
+Kufikia mwisho wa kozi hii, unapaswa kuwa na uwezo wa kuandika programu zako mwenyewe katika JavaScript, kutumia maktaba ya kawaida ya NodeJS, na kusakinisha na kutumia vifurushi vya watu wengine ili kuunda zana muhimu.
 
 
 +++
@@ -53,13 +53,13 @@ Muda wa utekelezaji wa JavaScript ni programu maalum ambayo hutekeleza faili hiz
 ![](assets/en/001.webp)
 
 
-### Muda wa utekelezaji wa NodeJS
+### Mazingira ya utekelezaji wa NodeJS
 
 
-Wakati wa utekelezaji wa JavaScript unaojulikana zaidi ni NodeJS.
+Mazingira ya utekelezaji wa JavaScript unaojulikana zaidi ni NodeJS.
 
 
-IDE yako inaweza tayari kuwa nayo, au unaweza kuhitaji kuipakua kutoka kwenye [tovuti rasmi](https://nodejs.org/en/download).
+IDE yako inaweza tayari kuwa nayo, au unaweza kuhitaji kuipakua kutoka [tovuti rasmi](https://nodejs.org/en/download).
 
 
 Ukurasa wa upakuaji utakupa maagizo kwa OS zote tatu kuu (Mifumo ya Uendeshaji): Windows, Linux na MacOS. Inadhania unajua jinsi ya kufungua terminal katika OS yako.
@@ -89,7 +89,7 @@ Hii inamaanisha kuwa unaweza, kwa mfano, kuandika mchezo rahisi wa video katika 
 ### Mpango wa kwanza (hello world)
 
 
-Kijadi, wakati wa kusoma lugha ya programu, programu ya kwanza ambayo mtu anaandika inajumuisha uchapishaji "hello world!" kwa console.
+Kijadi, wakati wa kusoma lugha ya programu, programu ya kwanza ambayo mtu anaandika inajumuisha uchapishaji "hello world!" kwenye console.
 
 
 Unda saraka iitwayo `my_js_code/`, ikiwa na ndani ya faili inayoitwa `main.js` (majina haya ni ya kiholela).
@@ -125,7 +125,7 @@ hello world!
 ### Nini Kimetokea
 
 
-Katika JavaScript, kila kitu ni "kitu".
+Katika JavaScript, kila kitu ni "objeckti".
 
 
 `console` ni kitu, ambacho kinatumika kutatua programu.
@@ -145,7 +145,7 @@ console.log(1000)
 ```
 
 
-Kisha utekeleze kwa kukimbia
+Kisha utekeleze kwa kutumia amri
 
 
 ```
@@ -153,7 +153,7 @@ node main.js
 ```
 
 
-kwenye terminal yako (kuanzia sasa, kozi hii itafikiria kuwa unajua hivi ndivyo unavyofanya programu).
+kwenye terminal yako (kuanzia sasa, kozi hii itachukulia kuwa unajua hivi ndivyo unavyofanya programu).
 
 
 Hii inapaswa kuchapishwa
@@ -194,7 +194,7 @@ Vigezo ni kama visanduku vilivyotajwa ambavyo tunatumia kuhifadhi data. Zinaturu
 ### hebu matamko
 
 
-Ili kutangaza tofauti katika JavaScript, tunaweza kutumia neno kuu la `let`.
+Ili kutangaza kigezo katika JavaScript, tunaweza kutumia neno kuu la `let`.
 
 
 Baada ya kuandika `hebu`, tunaandika jina tunalotaka kutoa kwa kutofautisha, kisha ishara `=`, na kisha thamani tunayotaka kuhifadhi.
@@ -213,7 +213,7 @@ console.log(age)
 Jina la kigezo (kitaalam kinachoitwa "kitambulisho") kwa kawaida linaweza kuwa na herufi, mistari chini (`_`), ishara ya dola (`$`) na nambari, ingawa herufi ya kwanza haiwezi kuwa nambari.
 
 
-Katika msimbo ulio hapo juu, tulitangaza kigezo kiitwacho `umri` na tukahifadhi thamani `25` ndani yake.
+Katika msimbo ulio hapo juu, tulitangaza kigezo kiitwacho `age` na tukahifadhi thamani `25` ndani yake.
 
 
 Kisha, tulichapisha thamani kwa kutumia `console.log(age)`.
@@ -227,7 +227,7 @@ Ukiendesha msimbo huu na `node main.js`, matokeo yatakuwa:
 ```
 
 
-Vitambulisho ni nyeti kwa visasi, ambayo ina maana hesabu ya herufi ndogo na kubwa kama tofauti katika vitambulishi, kwa mfano.
+Vitambulisho ni nyeti kwa herufi kubwa na ndogo, ambayo ina maana kwamba herufi ndogo na kubwa huhesabiwa kama tofauti katika vitambulishi, kwa mfano.
 
 
 ```javascript
@@ -239,10 +239,10 @@ console.log(age)
 ```
 
 
-itachapisha 25, kwa sababu hizo huchukuliwa kuwa tofauti mbili tofauti kabisa!
+itachapisha 25, kwa sababu hizo huchukuliwa kuwa vigezo viwili tofauti kabisa!
 
 
-Unaweza pia kuhifadhi kamba (maandishi) kwa kutofautisha:
+Unaweza pia kuhifadhi kamba (maandishi) kwa kigezo:
 
 
 ```javascript
@@ -305,10 +305,10 @@ console.log(score)
 ```
 
 
-Kwanza, tunaweka `10` kwa `alama`, kisha tuichapishe.
+Kwanza, tunaweka `10` kwa `score`, kisha tuichapishe.
 
 
-Kisha tunabadilisha thamani ya `alama` hadi `15` na kuichapisha tena.
+Kisha tunabadilisha thamani ya `score` hadi `15` na kuichapisha tena.
 
 
 Pato litakuwa:
@@ -352,16 +352,16 @@ Bob
 ```
 
 
-Kama unavyoona, `alama` na `mchezaji` zilibadilishwa.
+Kama unavyoona, `score` na `player` zilibadilishwa.
 
 
 ### matamko ya const
 
 
-Ingawa, mara nyingi, hatutaki mabadiliko yabadilike baada ya kuundwa. Kwa hiyo, tunatumia `const`.
+Ingawa, mara nyingi, hatutaki mabadiliko yafanywe baada ya kuundwa. Kwa hiyo, tunatumia `const`.
 
 
-`const` ni kifupi cha "constant". Mara tu unapopeana thamani kwa tofauti ya `const`, huwezi kuibadilisha.
+`const` ni ufupi wa "constant". Mara tu unapopeana thamani kwa kigezo ya `const`, huwezi kuibadilisha.
 
 
 ```javascript
@@ -390,7 +390,7 @@ console.log(pi)
 ```
 
 
-JavaScript itakupa kosa kama:
+JavaScript itatoa kosa kama:
 
 
 ```
@@ -461,7 +461,7 @@ Hii itachapisha
 Na maoni yatapuuzwa.
 
 
-Unaweza kutumia maoni kuongeza vidokezo vidogo kwenye msimbo wako, ili uweze kukumbuka inachofanya na kwa nini imeandikwa kwa njia fulani. Inaweza pia kusaidia watayarishaji programu wengine kuielewa.
+Unaweza kutumia maoni kuongeza vidokezo vidogo kwenye msimbo wako, ili uweze kukumbuka unachofanya na kwa nini umeandikwa kwa njia fulani. Inaweza pia kusaidia watayarishaji programu wengine kuielewa.
 
 
 ## Aina za msingi: nambari, kamba, booleans
@@ -469,7 +469,7 @@ Unaweza kutumia maoni kuongeza vidokezo vidogo kwenye msimbo wako, ili uweze kuk
 <chapterId>cfdb04f6-21a8-5143-bbf9-7aaae04962f0</chapterId>
 
 
-Katika JavaScript, "aina" inakuambia thamani ni ya aina gani.
+Katika JavaScript, "aina" inakuambia thamani ni ya aina gani ya data.
 
 
 Javascript ina aina chache za msingi, na katika sehemu hii tutachunguza baadhi yao.
@@ -478,13 +478,13 @@ Javascript ina aina chache za msingi, na katika sehemu hii tutachunguza baadhi y
 ### Nambari na shughuli za hesabu
 
 
-Aina ya kwanza tutakayoanzisha ni `nambari`.
+Aina ya kwanza tutakayoanzisha ni `number`.
 
 
 Nambari katika JavaScript zinaweza kuwa nambari kamili (kama `5`) au desimali (kama `3.14`).
 
 
-Unaweza kufanya hesabu nao: kuongeza, kutoa, kuzidisha, na kugawanya.
+Unaweza kufanya hesabu nazo: kuongeza, kutoa, kuzidisha, na kugawanya.
 
 
 Hapa kuna mfano wa msingi:
@@ -554,7 +554,7 @@ Hiyo ingechapisha:
 Kwa sababu katika hesabu ya kawaida, kuzidisha hufanyika kabla ya kuongeza.
 
 
-### Kamba na tafsiri
+### Kamba na uingizaji wa thamani
 
 
 Aina ya pili ya JavaScript tutakayoanzisha ni `string`.
@@ -601,7 +601,7 @@ hello Bob
 ```
 
 
-Lakini kuna njia nzuri zaidi ya kuchanganya kamba inayoitwa ** tafsiri ya kamba **. Unatumia vijiti kutangaza kamba `` `...` `` na uandike vigeu ukitumia `${...}` ndani ya kamba:
+Lakini kuna njia nzuri zaidi ya kuchanganya kamba inayoitwa ** uingizaji wa thamani katika kamba **. Unatumia vijiti kutangaza kamba `` `...` `` na uandike vigeu ukitumia `${...}` ndani ya kamba:
 
 
 ```javascript
@@ -637,8 +637,7 @@ Hii inachapisha:
 Next year, I will be 31 years old.
 ```
 
-
-Ufafanuzi ni wa kawaida sana katika JavaScript ya kisasa.
+Uingizaji wa thamani ni wa kawaida sana katika JavaScript ya kisasa.
 
 
 ### Booleans, kulinganisha na shughuli za mantiki
@@ -647,7 +646,7 @@ Ufafanuzi ni wa kawaida sana katika JavaScript ya kisasa.
 Aina ya tatu tutakayoanzisha ni `boolean`. Imetajwa baada ya mwanahisabati George Boole, ambaye aligundua mantiki ya boolean.
 
 
-Booleans ni rahisi: thamani mbili tu zinazowezekana, `kweli` na `sivyo`.
+Booleans ni rahisi: thamani mbili tu zinazowezekana, `true` na `false`.
 
 
 Unaweza kuzihifadhi katika anuwai:
@@ -675,9 +674,9 @@ Unaweza kuchanganya booleans kwa kutumia waendeshaji mantiki:
 
 
 
-- `&&` inamaanisha "na", na itarejesha `kweli` ikiwa tu thamani za **zote** ni `kweli`, vinginevyo itarejesha `false`.
-- `||` maana yake ni "au", na itarejesha `kweli` ikiwa **angalau thamani moja** ni `kweli`, vinginevyo (ikiwa zote mbili si za kweli) itarejesha `false`.
-- `!` inamaanisha “sio”, inatumiwa kabla ya boolean, na itaipindua: ikiwa boolean ni `kweli` itarejesha `false`, na kinyume chake.
+- `&&` inamaanisha "and", na itarejesha `true` ikiwa tu thamani za **zote** ni `true`, vinginevyo itarejesha `false`.
+- `||` maana yake ni "or", na itarejesha `true` ikiwa **angalau thamani moja** ni `true`, vinginevyo (ikiwa zote mbili si za kweli) itarejesha `false`.
+- `!` inamaanisha “not”, inatumiwa kabla ya boolean, na itaipindua: ikiwa boolean ni `true` itarejesha `false`, na kinyume chake.
 
 
 ![](assets/en/003.webp)
@@ -715,7 +714,7 @@ console.log(theyAreDifferent)  // true
 ```
 
 
-Javascript pia ina `>=` kumaanisha "kubwa au sawa" na `<=` kumaanisha "ndogo au sawa.
+Javascript pia ina `>=` kumaanisha "kubwa au sawa" na `<=` kumaanisha "ndogo au sawa".
 
 
 Vipuli, ulinganishaji na waendeshaji kimantiki mara nyingi hujumuishwa katika programu ili kutangaza hali ngumu, kama vile kuhakikisha "barua pepe imefika NA ina picha ninayohitaji AU urefu wa barua pepe ni mrefu zaidi ya vibambo 10000". Utapata baadaye kwamba hizi ni vitalu muhimu vya kujenga mantiki ya programu.
@@ -778,7 +777,7 @@ Hii inachapisha:
 ```
 
 
-Ili kufikia kipengee maalum katika safu, tunatumia **index**. Faharasa ni nafasi ya kipengee, kuanzia **0**.
+Ili kufikia kipengee maalum katika safu, tunatumia **farahasa**. Faharasa ni nafasi ya kipengee, kuanzia **0**.
 
 
 Kwa hivyo katika safu hii:
@@ -878,10 +877,10 @@ Nini hicho??
 ### haijafafanuliwa
 
 
-Thamani maalum `isiyoelezewa` inamaanisha "hakuna thamani iliyokabidhiwa".
+Thamani maalum `undefined` inamaanisha "hakuna thamani iliyokabidhiwa".
 
 
-Ukiunda kigezo lakini usiyape thamani, `haitafafanuliwa`:
+Ukiunda kigezo lakini usikipe thamani, kitakuwa `undefined`:
 
 
 ```javascript
@@ -898,7 +897,7 @@ undefined
 ```
 
 
-Kwa sababu hatukukabidhi chochote kwa `jina`, JavaScript inaiweka kuwa `isiyofafanuliwa` kwa chaguomsingi.
+Kwa sababu hatukukabidhi chochote kwa `name`, JavaScript inaiweka kuwa `undefined` kwa chaguomsingi.
 
 
 Kama inavyoonekana hapo awali, unaweza pia kupata `undefined` unapofikia faharisi ya safu ambayo haipo:
@@ -982,13 +981,13 @@ Lakini tunapoweka kanuni, tunaweza kudhibiti utaratibu wa utekelezaji wake.
 Hii inaitwa **control flow**.
 
 
-Hebu tuanze na uelewa wa vitalu na upeo.
+Hebu tuanze na uelewa wa vitalu na wigo.
 
 
 ### Upeo wa kimataifa
 
 
-Kila kigezo tunachotangaza kipo katika **wigo**, ambayo inamaanisha eneo la msimbo ambapo kigezo kinajulikana.
+Kila kigezo tunachotangaza kipo katika **wigo**, ambapo inamaanisha eneo la msimbo ambapo kigezo kinajulikana.
 
 
 Ukitangaza kigezo nje ya kizuizi chochote, kinapatikana katika **mawanda ya kimataifa**.
@@ -1000,7 +999,7 @@ console.log(color)
 ```
 
 
-Tofauti hii `rangi` iko katika wigo wa kimataifa, kwa hivyo inaweza kufikiwa kutoka mahali popote kwenye faili.
+Tofauti hii `color` iko katika wigo wa kimataifa, kwa hivyo inaweza kufikiwa kutoka mahali popote kwenye faili.
 
 
 Ikiwa unaongeza mistari zaidi:
@@ -1016,19 +1015,19 @@ console.log(size)
 ```
 
 
-`Rangi` na `ukubwa` ni vigeu vya kimataifa. Zinapatikana kila mahali kwenye faili.
+`color` na `large` ni vigeu vya kimataifa. Zinapatikana kila mahali kwenye faili.
 
 
 Lakini nini kinatokea ndani ya block?
 
 
-### Vitalu na upeo wa ndani
+### Vitalu na wigo wa ndani
 
 
 **block** ni kipande cha msimbo kilichozungukwa na viunga vilivyopinda `{}`.
 
 
-Vigezo vilivyotangazwa kwa `let` au `const` ndani ya block vipo **pekee** ndani ya kizuizi hicho.
+Vigezo vilivyotangazwa kwa `let` au `const` ndani ya bloku vipo ndani ya kizuizi hicho **pekee**.
 
 
 ```javascript
@@ -1066,7 +1065,7 @@ ReferenceError: message is not defined
 ```
 
 
-Hiyo ni kwa sababu `ujumbe` ulitangazwa ndani ya kizuizi na haupo nje yake.
+Hiyo ni kwa sababu `message` ulitangazwa ndani ya kizuizi na haupo nje yake.
 
 
 Hii inamaanisha kuwa tunaweza kutumia vizuizi kutenga sehemu za msimbo wetu, na kuwa na uhakika kwamba "kile kinachotokea kwenye kizuizi kitasalia kwenye kizuizi" (kama vile Las Vegas).
@@ -1103,9 +1102,9 @@ Yes I am!
 
 Unavyoweza, tazama msimbo unalinganisha `myAge` na `18`.
 
-Katika hali hii opereta `>=` anarudisha `kweli`, kwa hivyo kizuizi kinatekelezwa.
+Katika hali hii opereta `>=` anarudisha `true`, kwa hivyo kizuizi kinatekelezwa.
 
-Ikiwa hali si `kweli`, kizuizi hakitekelezwi.
+Ikiwa hali si `true`, kizuizi hakitekelezwi.
 
 
 ```javascript
@@ -1127,7 +1126,7 @@ Am I an adult?
 ```
 
 
-Unaweza kuongeza kizuizi cha `nyingine` kushughulikia kesi iliyo kinyume:
+Unaweza kuongeza kizuizi cha `else` kushughulikia kesi kilicho kinyume:
 
 
 ```javascript
@@ -1152,7 +1151,7 @@ No, I am not.
 ```
 
 
-Vitalu vya `ikiwa` na `vingine` bado ni vizuizi - kwa hivyo vibadala vilivyotangazwa ndani yake havipo nje.
+Vitalu vya `if` na `else` bado ni vizuizi - kwa hivyo vibadala vilivyotangazwa ndani yake havipo nje.
 
 
 Ikiwa tunataka kuwa na uhakika kwamba kitu **si** kweli, tunaweza kufanya nini?
@@ -1181,19 +1180,19 @@ Am I an adult?
 No, I am not.
 ```
 
-Kwa sababu tulitumia opereta `!` kugeuza kigezo cha `mtu mzima`.
+Kwa sababu tulitumia opereta `!` kugeuza kigezo cha `adult`.
 
 
-`kama (!mtu mzima) {...}` inapaswa kusomwa kama "kama si mtu mzima..."
+`if (!adult) {...}` inapaswa kusomwa kama "kama si mtu mzima..."
 
 
-Kwa kutumia vizuizi, mantiki na waendeshaji kulinganisha, tunaweza kupanga utekelezaji wa programu, kwa kubainisha viambajengo ambavyo lazima ziwe `kweli` (au `sivyo`) ili jambo lifanyike.
+Kwa kutumia vizuizi, mantiki na waendeshaji kulinganisha, tunaweza kupanga utekelezaji wa programu, kwa kubainisha viambajengo ambavyo lazima ziwe `true` (au `false`) ili jambo lifanyike.
 
 
 ### wakati, vunja, endelea
 
 
-Kitanzi cha `wakati` kinarudia msimbo *ilimradi* hali ni kweli.
+Kitanzi cha `while` kinarudia msimbo *ilimradi* hali ni kweli.
 
 
 ```javascript
@@ -1218,7 +1217,7 @@ the loop is over!
 ```
 
 
-Wakati `hesabu` inakuwa 3, kitanzi kinasimama.
+Wakati `count` inakuwa 3, kitanzi kinasimama.
 
 
 Unaweza kusimamisha kitanzi mapema kwa kutumia `break`:
@@ -1250,7 +1249,7 @@ Hii inachapisha:
 Kwa sababu wakati nambari inakuwa `3`, kizuizi cha `if` kinatekelezwa na kusimamisha kitanzi.
 
 
-Unaweza kuruka kitanzi kingine ukitumia `endelea`:
+Unaweza kuruka kitanzi kingine ukitumia `continue`:
 
 
 ```javascript
@@ -1279,13 +1278,13 @@ Hii inachapisha:
 ```
 
 
-Kwa sababu nambari ilipokuwa `3`, `endelea` ilifanya programu kuruka mstari unaochapisha nambari.
+Kwa sababu nambari ilipokuwa `3`, `continue` ilifanya programu kuruka mstari unaochapisha nambari.
 
 
 ### kwa ... ya ...
 
 
-Ikiwa una safu, na unataka kufanya kitu kwa kila kitu ndani yake, unaweza kutumia `kwa ... ya ... {...}`.
+Ikiwa una safu, na unataka kufanya kitu kwa kila kitu ndani yake, unaweza kutumia `for ... of ... {...}`.
 
 
 ```javascript
@@ -1315,7 +1314,7 @@ Kizuizi kitatekelezwa mara moja kwa kila kipengele cha safu.
 ### kwa ... katika ...
 
 
-Unaweza kutumia `kwa ... in` kuzunguka funguo (faharisi) za safu:
+Unaweza kutumia `for ... in` kuzunguka funguo (faharisi) za safu:
 
 
 ```javascript
@@ -1349,7 +1348,7 @@ console.log(fruits[index])
 ```
 
 
-Hii inachapisha sawa na `kwa ... ya`:
+Hii inachapisha sawa na `for ... of`:
 
 
 ```
@@ -1359,7 +1358,7 @@ cherry
 ```
 
 
-Kwa mazoezi, kwa safu, unapaswa kupendelea kutumia `kwa ... ya`, kwani ni rahisi na safi zaidi.
+Kwa mazoezi, kwa safu, unapaswa kupendelea kutumia `for ... of`, kwani ni rahisi na safi zaidi.
 
 
 ### Vitanzi vilivyofungwa
@@ -1394,14 +1393,14 @@ Hebu tufafanue:
 
 
 - `let i = 0`: inatangaza kigezo cha kutumika kwenye kizuizi (katika kesi hii ni kihesabu kinachoanzia 0)
-- `i <3`: inatangaza sharti kuwa `kweli` ili kizuizi kitekelezwe ( katika kesi hii ni "rudiwa wakati `i` ni chini ya 3")
+- `i <3`: inatangaza sharti kuwa `true` ili kizuizi kitekelezwe ( katika kesi hii ni "rudiwa wakati `i` ni chini ya 3")
 - `i = i + 1`: tangaza msimbo fulani utakaoendeshwa baada ya kila utekelezaji wa kizuizi (katika kesi hii "ongeza `i` kwa 1").
 
 
 Kama unavyoweza kuona kitanzi kilichowekwa ili kutangaza hali ngumu zaidi kwa utekelezaji unaorudiwa wa kipande cha nambari, lakini mara nyingi sio lazima.
 
 
-### Zuia lebo
+### lebo za bloku
 
 
 Iwapo itabidi uandike mtiririko changamano zaidi wa udhibiti, JavaScript hukuruhusu kutaja kizuizi ukitumia **lebo** inayoweza kutumiwa na `break` au `continue` kwa kubainisha *wapi* pa kuruka nyuma.
@@ -1436,7 +1435,7 @@ Done
 ```
 
 
-Tulitumia `break outer` kuondoka kabisa kwenye kizuizi cha `nje`.
+Tulitumia `break outer` kuondoka kabisa kwenye kizuizi cha `outer`.
 
 
 Unaweza pia kuweka lebo kwenye vitanzi. Hebu tuchukue mfano huu:
@@ -1498,7 +1497,7 @@ console.log(totalDaysInOneYear)  // Print the total number of days in the year (
 Huu ulikuwa mfano wa kuchosha sana lakini kwa matumaini ulifafanua hitaji (la mara kwa mara) la lebo.
 
 
-## Kuanzisha vipengele
+## Kuanzisha kazi
 
 <chapterId>cc324715-09c2-5cf7-9e6f-47a6f16bc04d</chapterId>
 
@@ -1512,7 +1511,7 @@ Hivyo ndivyo **faili** ni za: zinakuwezesha kupanga msimbo fulani pamoja, uipe j
 ### Tamko la kazi
 
 
-Ili kutangaza chaguo za kukokotoa, tunaweza kutumia neno kuu la `kazi`. Kisha tunaipa jina, jozi ya mabano `()` pamoja na hoja zinazohitajika, na kizuizi cha msimbo `{}` cha kutekelezwa. Wacha tuanze na chaguo la kukokotoa ambalo halichukui hoja:
+Ili kutangaza chaguo za kukokotoa, tunaweza kutumia neno kuu la `function`. Kisha tunaipa jina, jozi ya mabano `()` pamoja na hoja zinazohitajika, na kizuizi cha msimbo `{}` cha kutekelezwa. Wacha tuanze na chaguo la kukokotoa ambalo halichukui hoja:
 
 
 ```javascript
@@ -1520,13 +1519,13 @@ function sayHello () {console.log(`Hello!`) }
 ```
 
 
-Nambari hii ** inatangaza ** chaguo la kukokotoa, lakini ** haiiendeshi ** bado.
+Nambari hii ** inatangaza ** kazi, lakini ** haiiendeshi ** bado.
 
 
 ### Kazi wito
 
 
-Ili kuendesha (au "piga simu") kazi, unaandika jina lake likifuatiwa na mabano:
+Ili kuendesha (au "kupiga") kazi, unaandika jina lake likifuatiwa na mabano:
 
 
 ```javascript
@@ -1584,7 +1583,7 @@ console.log(`Hello ${friend}!`)
 ```
 
 
-Sasa chaguo hili la kukokotoa linachukua **hoja moja** inayoitwa `rafiki`.
+Sasa chaguo hili la kukokotoa linachukua **hoja moja** inayoitwa `friend`.
 
 
 Unapoita kazi, unaweza kupitisha thamani:
@@ -1619,7 +1618,7 @@ Hello Sam!
 ```
 
 
-Thamani unayopitisha inachukua nafasi ya `rafiki` tofauti ndani ya chaguo za kukokotoa.
+Thamani unayopitisha inachukua nafasi ya `friend` tofauti ndani ya chaguo za kukokotoa.
 
 
 Unaweza pia kutumia hoja zaidi ya moja:
@@ -1669,7 +1668,7 @@ Hii inachapisha:
 ```
 
 
-Chaguo za kukokotoa `getNumber()` hurejesha `42`, na tunaihifadhi katika `matokeo`, kisha tuichapishe.
+Chaguo za kukokotoa `getNumber()` hurejesha `42`, na tunaihifadhi katika `result`, kisha tuichapishe.
 
 
 Unaweza pia kurudisha kitu unachohesabu:
@@ -1693,7 +1692,7 @@ Hii inachapisha:
 ```
 
 
-Mara tu thamani `imerejeshwa`, chaguo za kukokotoa husimama. Chochote baada ya `kurudi` katika kizuizi hicho hakifanyiki.
+Mara tu thamani `returned`, chaguo za kukokotoa husimama. Chochote baada ya `return` katika kizuizi hicho hakifanyiki.
 
 
 ```javascript
@@ -1718,7 +1717,7 @@ hi
 ```
 
 
-kwa sababu `"hi"` pekee ndiye anayerejeshwa. Laini ya `console.log("hii haifanyiki kamwe")` imerukwa.
+kwa sababu `"hi"` pekee ndiye anayerejeshwa. Laini ya `console.log("this never runs")` imerukwa.
 
 
 Unaweza kufikiria kazi kama programu ndogo ndogo. Kila chaguo la kukokotoa linaweza kuchukua ingizo, lifanyie kazi, na kukupa matokeo fulani.
@@ -1735,7 +1734,7 @@ const x = doesNothing()
 console.log(x)
 ```
 
-Hii itachapisha `undefined`. Thamani ya kurejesha ya chaguo za kukokotoa ambayo haikurejesha chochote `haijabainishwa`.
+Hii itachapisha `undefined`. Thamani ya kurejesha ya chaguo za kukokotoa ambayo haikurejesha chochote `undefined`.
 
 
 ## Vitu na madarasa
@@ -1752,7 +1751,7 @@ Hiyo inamaanisha inakusaidia kupanga msimbo wako kwa kuweka thamani katika vikun
 ### kitu ni nini?
 
 
-Kipengee kinaweza kuwa na data na vitendakazi vinavyofanya kazi kwenye data hiyo. Chaguo za kukokotoa zinapowekwa kwenye kitu tunasema ni `mbinu`.
+Kipengee kinaweza kuwa na data na vitendakazi vinavyofanya kazi kwenye data hiyo. Chaguo za kukokotoa zinapowekwa kwenye kitu tunasema ni `method`.
 
 
 Kitu cha kwanza ambacho tumeona kilikuwa kitu cha `console`. Ni kitu ambacho kina mbinu nyingi za kuchapisha kitu kwenye skrini na kutatua programu zetu.
@@ -1800,7 +1799,7 @@ createTask: [Function: createTask]
 ```
 
 
-Kama unaweza kuona, ina njia nyingi ambazo unaweza kutumia kutatua hitilafu!
+Kama unavyoona, ina njia nyingi ambazo unaweza kutumia kutatua hitilafu!
 
 
 Javascript hutupatia njia tofauti za kuunda vitu vipya ambavyo vinaweza kufanya chochote tunachotaka wafanye.
@@ -1823,15 +1822,15 @@ age: 3
 ```
 
 
-Hii huunda kitu na kukihifadhi katika kigezo kiitwacho `paka`.
+Hii huunda kitu na kukihifadhi katika kigezo kiitwacho `cat`.
 
 
 Kitu kina sifa mbili:
 
 
 
-- `jina` lenye thamani `"Whiskers"`
-- `umri` yenye thamani `3`
+- `name` lenye thamani `"Whiskers"`
+- `age` yenye thamani `3`
 
 
 Wacha tuichapishe:
@@ -1907,8 +1906,8 @@ Kipengee hiki kina:
 
 
 
-- Mali ya `jina`
-- Mbinu ya `sema()`
+- Mali ya `name`
+- Mbinu ya `speak()`
 
 
 Wacha tuite njia:
@@ -1952,7 +1951,7 @@ Whiskers says meow!
 ```
 
 
-Neno `hili` linamaanisha "kitu hiki"...katika kesi hii, kitu `paka`.
+Neno `this` linamaanisha "kitu hiki"...katika kesi hii, kitu ni `cat`.
 
 
 
@@ -1976,7 +1975,7 @@ class Dog {}
 Madarasa kwa kawaida huanza na herufi kubwa, kwa makubaliano.
 
 
-Unaweza kuunda kitu kipya cha darasa kwa kutumia `mpya`:
+Unaweza kuunda kitu kipya cha darasa kwa kutumia `new`:
 
 
 ```javascript
@@ -2006,7 +2005,7 @@ Dog {}
 Kama unavyoona darasa la Mbwa ni tupu, kwa hivyo kitu cha `myDog` hakina kitu pia.
 
 
-Tunaweza kufafanua ni sifa gani vitu vya Mbwa vinapaswa kuwa na kwa kuongeza `kijenzi`.
+Tunaweza kufafanua ni sifa gani vitu vya Mbwa vinapaswa kuwa na kwa kuongeza `constructor`.
 
 
 Mjenzi ni kazi maalum inayofanya kazi unapounda (au "kujenga") kitu kipya.
@@ -2019,7 +2018,7 @@ constructor() { }
 ```
 
 
-Tunataka kila Mbwa awe na jina, kwa hivyo tunaongeza parameta ya `jina` kwenye chaguo la kukokotoa:
+Tunataka kila Mbwa awe na jina, kwa hivyo tunaongeza parameta ya `name` kwenye chaguo la kukokotoa:
 
 
 ```javascript
@@ -2029,7 +2028,7 @@ constructor(name) { }
 ```
 
 
-Na kisha tunatumia `hii` kutangaza kuwa `jina` ni `jina` la kitu cha `Mbwa` tunachojenga.
+Na kisha tunatumia `this` kutangaza kuwa `name` ni `name` la kitu cha `Dog` tunachojenga.
 
 
 ```javascript
@@ -2064,7 +2063,7 @@ Dog { name: 'hachiko' }
 ```
 
 
-Kama unavyoona, njia ya `mjenzi` inachukua hoja unazopitisha kwa darasa unapofanya `new Dog()`, na huitumia kujenga kitu hicho.
+Kama unavyoona, njia ya `constructor` inachukua hoja unazopitisha kwa darasa unapofanya `new Dog()`, na huitumia kujenga kitu hicho.
 
 
 Wacha tuichambue:
@@ -2072,9 +2071,9 @@ Wacha tuichambue:
 
 
 - `class Dog` inafafanua tabaka la Mbwa.
-- `mjenzi(jina)` huweka kipengee kinapoundwa.
+- `constructor(name)` huweka kipengee kinapoundwa.
 - `this.name = name` huhifadhi thamani katika kitu kipya.
-- `new Dog("hachiko")` huunda kipengee kipya kutoka kwa darasa, na sifa ya `jina` imewekwa kuwa `"hachiko"`.
+- `new Dog("hachiko")` huunda kipengee kipya kutoka kwa darasa, na sifa ya `name` imewekwa kuwa `"hachiko"`.
 
 
 Sasa wacha tuongeze njia kwenye darasa letu:
@@ -2139,7 +2138,7 @@ bobby says barf!
 ```
 
 
-mbinu ya `speak()` hutumia `jina` sifa ya `Mbwa` inaitwa.
+mbinu ya `speak()` hutumia `name` sifa ya `Dog` inaitwa.
 
 
 Hii ndiyo sababu kuu ya madarasa kuwepo: huturuhusu kufafanua seti ya mbinu zinazofanya kazi kwenye data, na kisha kuunda vitu vingi vinavyoshiriki data sawa "sura".
@@ -2157,7 +2156,7 @@ Vipengee katika JavaScript vinaweza kunyumbulika. Hata baada ya kuunda moja, bad
 Inaruhusiwa, lakini ni jambo ambalo unapaswa kutumia kwa uangalifu.
 
 
-Wacha tuanze na darasa letu rahisi la `Mbwa`:
+Wacha tuanze na darasa letu rahisi la `Dog`:
 
 
 ```javascript
@@ -2175,7 +2174,7 @@ const myDog = new Dog("Fido")
 ```
 
 
-Kwa wakati huu, `myDog` ina sifa moja pekee: `jina`. Bado tunaweza kuongeza sifa mpya baada ya kuundwa:
+Kwa wakati huu, `myDog` ina sifa moja pekee: `name`. Bado tunaweza kuongeza sifa mpya baada ya kuundwa:
 
 
 ```javascript
@@ -2264,7 +2263,7 @@ Badala ya kurekebisha sura ya vitu (ambayo kama ilivyotajwa hapo awali sio sawa 
 Urithi unamaanisha darasa moja linaweza **kupanua** lingine. Darasa jipya hupata sifa na mbinu zote za ile ya zamani, na unaweza kuongeza zaidi au kubadilisha unachohitaji.
 
 
-Wacha tuseme tuna darasa la msingi linaloitwa `Gari`:
+Wacha tuseme tuna darasa la msingi linaloitwa `Vehicle`:
 
 
 ```javascript
@@ -2280,7 +2279,7 @@ console.log(`${this.brand} vehicle is starting...`)
 ```
 
 
-Sasa tunataka kutengeneza darasa la `Gari`. Gari ni aina ya gari, lakini tunaweza kutaka liwe na vipengele vingine vya ziada au ujumbe tofauti linapowashwa. Badala ya kuandika upya kila kitu, tunaweza kutumia `extends`:
+Sasa tunataka kutengeneza darasa la `Car`. Gari ni aina ya gari, lakini tunaweza kutaka liwe na vipengele vingine vya ziada au ujumbe tofauti linapowashwa. Badala ya kuandika upya kila kitu, tunaweza kutumia `extends`:
 
 
 ```javascript
@@ -2292,7 +2291,7 @@ console.log(`${this.brand} car is ready to drive!`)
 ```
 
 
-Darasa la `Gari` sasa **linarithi** kila kitu kutoka kwa `Gari`. Inapata sifa ya `brand`, na tumebadilisha mbinu ya `start()` kwa toleo letu.
+Darasa la `Car` sasa **linarithi** kila kitu kutoka kwa `Vehicle`. Inapata sifa ya `brand`, na tumebadilisha mbinu ya `start()` kwa toleo letu.
 
 
 ![](assets/en/004.webp)
@@ -2315,7 +2314,7 @@ Toyota car is ready to drive!
 ```
 
 
-Ingawa `Gari` haina kijenzi chake, bado kinatumia ile ya `Gari`. Lakini ikiwa tunataka kuandika kijenzi maalum katika `Gari`, tunaweza, tunahitaji tu kujumuisha simu kwa mjenzi wa mzazi wake kwa kutumia `super()`.
+Ingawa `Car` haina kijenzi chake, bado kinatumia ile ya `Vehicle`. Lakini ikiwa tunataka kuandika kijenzi maalum katika `Car`, tunaweza, tunahitaji tu kujumuisha simu kwa mjenzi wa mzazi wake kwa kutumia `super()`.
 
 
 Hivi ndivyo jinsi:
@@ -2380,7 +2379,7 @@ Hii inasaidia unapokuwa na vitu kadhaa vinavyofanana (kama vile magari, lori, na
 Neno kuu la `instanceof` hukagua ikiwa kitu kiliundwa kutoka kwa aina fulani.
 
 
-Wacha tuseme tuna darasa linaloitwa `Mtumiaji`:
+Wacha tuseme tuna darasa linaloitwa `User`:
 
 
 ```javascript
@@ -2404,10 +2403,10 @@ true
 ```
 
 
-Inathibitisha kwamba `Mtumiaji wa kawaida` ni `Mtumiaji`. Hiyo ni kwa sababu `regularUser` iliundwa kwa kutumia darasa la `Mtumiaji`.
+Inathibitisha kwamba `regularUser` ni `User`. Hiyo ni kwa sababu `regularUser` iliundwa kwa kutumia darasa la `User`.
 
 
-Pia inafanya kazi na madarasa ya **kurithi**. Kwa mfano, hapa kuna darasa la `Msimamizi` linaloongeza `Mtumiaji`:
+Pia inafanya kazi na madarasa ya **kurithi**. Kwa mfano, hapa kuna darasa la `Admin` linaloongeza `User`:
 
 
 ```javascript
@@ -2420,10 +2419,10 @@ console.log(ourAdmin instanceof User)    // true
 ```
 
 
-Mistari yote miwili inarudisha `kweli`. Hiyo ni kwa sababu `Admin` ni daraja ndogo ya `Mtumiaji`, kwa hiyo `Msimamizi wetu` ni `Msimamizi` na `Mtumiaji`.
+Mistari yote miwili inarudisha `true`. Hiyo ni kwa sababu `Admin` ni daraja ndogo ya `User`, kwa hiyo `ourAdmin` ni `Admin` na `User`.
 
 
-# JavaScript ya kati
+# JavaScript ya kiwango cha kati
 
 <partId>243f63ab-4f34-5c30-80cb-84ef46f6761d</partId>
 
@@ -2433,7 +2432,7 @@ Mistari yote miwili inarudisha `kweli`. Hiyo ni kwa sababu `Admin` ni daraja ndo
 <chapterId>d0206bc5-d386-5e7f-9917-5803f392448c</chapterId>
 
 
-Unapoandika programu ngumu zaidi za JavaScript, utakutana na **makosa**. Hizi ni hali zisizotarajiwa ambapo kitu kitaenda vibaya. Labda kigezo `hakijafafanuliwa` lakini unajaribu kukitumia, au msimbo fulani hupokea aina isiyo sahihi ya ingizo.
+Unapoandika programu ngumu zaidi za JavaScript, utakutana na **makosa**. Hizi ni hali zisizotarajiwa ambapo kitu kitaenda vibaya. Labda kigezo `undefined` lakini unajaribu kukitumia, au msimbo fulani hupokea aina isiyo sahihi ya ingizo.
 
 
 Ikiwa hatutashughulikia hitilafu hizi ipasavyo, programu yetu inaweza kuacha kufanya kazi au kutenda kwa njia zisizotabirika. JavaScript hutoa zana za kugundua na kudhibiti hitilafu hizi ili tuweze kuzishughulikia kwa uzuri zaidi.
@@ -2459,13 +2458,13 @@ TypeError: Cannot read properties of undefined (reading 'name')
 ```
 
 
-Hiyo ni JavaScript inayokuambia: "Haya, ulijaribu kupata mali ya `jina` kutoka kwa kitu ambacho `hakijafafanuliwa`, na hiyo haileti maana." Na kama unavyoona, aina hii ya hitilafu inapotokea, programu huacha kufanya kazi isipokuwa kama umeandika msimbo maalum wa kuikamata na kuishughulikia.
+Hiyo ni JavaScript inayokuambia: "Haya, ulijaribu kupata mali ya `name` kutoka kwa kitu ambacho `undefined`, na hiyo haileti maana." Na kama unavyoona, aina hii ya hitilafu inapotokea, programu huacha kufanya kazi isipokuwa kama umeandika msimbo maalum wa kuikamata na kuishughulikia.
 
 
 ### kutupa kosa
 
 
-Wakati mwingine unataka wewe mwenyewe **kuleta hitilafu** katika msimbo wako. Katika hali hiyo, unatumia neno kuu la `kutupa`.
+Wakati mwingine unataka wewe mwenyewe **kuleta hitilafu** katika msimbo wako. Katika hali hiyo, unatumia neno kuu la `throw`.
 
 
 ```javascript
@@ -2481,7 +2480,7 @@ Uncaught Error: This is a custom error message
 ```
 
 
-Unaweza kutumia `kutupa` kutekeleza sheria katika programu yako. Kwa mfano:
+Unaweza kutumia `throw` kutekeleza sheria katika programu yako. Kwa mfano:
 
 
 ```javascript
@@ -2503,7 +2502,7 @@ Simu ya pili husababisha hitilafu kwa sababu kugawanya kwa sifuri hairuhusiwi ka
 ### Kunasa hitilafu kwa jaribu...kamata
 
 
-Ikiwa hutaki programu yako ivunjike hitilafu inapotokea, unaweza kupata hitilafu kwa kutumia kizuizi cha `jaribu...kamata`. Hii ni muhimu unapotaka programu yako **iendelee** hata kama kuna kitu kitashindikana.
+Ikiwa hutaki programu yako ivunjike hitilafu inapotokea, unaweza kupata hitilafu kwa kutumia kizuizi cha `try...catch`. Hii ni muhimu unapotaka programu yako **iendelee** hata kama kuna kitu kitashindikana.
 
 
 ```javascript
@@ -2529,9 +2528,9 @@ Hivi ndivyo inavyofanya kazi:
 
 
 
-- Msimbo ulio ndani ya kizuizi cha `jaribu` unajaribiwa kwanza.
-- Hitilafu ikitokea, JavaScript **inaruka hadi kwenye kizuizi cha `kamata`**, na kuruka kizuizi kingine cha `jaribu`.
-- Kizuizi cha `kamata` hupokea hitilafu, kwa hivyo unaweza kuichapisha, au kuishughulikia kwa njia nyingine, kama kwa mfano.
+- Msimbo ulio ndani ya kizuizi cha `try` unajaribiwa kwanza.
+- Hitilafu ikitokea, JavaScript **inaruka hadi kwenye kizuizi cha `catch`**, na kuruka kizuizi kingine cha `try`.
+- Kizuizi cha `catch` hupokea hitilafu, kwa hivyo unaweza kuichapisha, au kuishughulikia kwa njia nyingine, kama kwa mfano.
 
 
 ```javascript
@@ -2556,7 +2555,7 @@ The message of the error was: "Cannot read properties of undefined (reading 'nam
 ### Kizuizi cha mwisho
 
 
-Unaweza pia kuongeza kizuizi cha `hatimaye`. Huu ni msimbo ambao **huendesha kila wakati**, iwe kulikuwa na hitilafu au la.
+Unaweza pia kuongeza kizuizi cha `finally`. Huu ni msimbo ambao **huendesha kila wakati**, iwe kulikuwa na hitilafu au la.
 
 
 ```javascript
@@ -2606,7 +2605,7 @@ console.log(message)
 ```
 
 
-Unaweza kutarajia `ujumbe` kuwepo tu ndani ya kizuizi, lakini haipo. `var` hupuuza upeo wa kuzuia na hufanya utofauti huo upatikane katika kipengele chote cha kukokotoa au faili.
+Unaweza kutarajia `message` kuwepo tu ndani ya kizuizi, lakini haipo. `var` hupuuza upeo wa kuzuia na hufanya utofauti huo upatikane katika kipengele chote cha kukokotoa au faili.
 
 
 Hii inaweza kusababisha tabia zisizotarajiwa, haswa katika programu kubwa. Kwa sababu hii, msimbo wa kisasa wa JavaScript unapaswa kutumia `let` au `const` badala ya `var`.
@@ -2624,7 +2623,7 @@ console.log(user) // prints "Alice"
 ```
 
 
-Hii inaunda kibadilishaji kipya cha kimataifa `jina` bila tamko lolote. Hili linaweza kutokea kimyakimya na kusababisha hitilafu ambazo ni Hard kufuatilia, haswa ikiwa ilikuwa tu makosa ya kuandika. Tangaza vigeu kila wakati kwa kutumia `let` au `const`.
+Hii inaunda kibadilishaji kipya cha kimataifa `name` bila tamko lolote. Hili linaweza kutokea kimyakimya na kusababisha hitilafu ambazo ni Hard kufuatilia, haswa ikiwa ilikuwa tu makosa ya kuandika. Tangaza vigeu kila wakati kwa kutumia `let` au `const`.
 
 
 ### Mfumo wa aina dhaifu
@@ -2673,7 +2672,7 @@ name = "Alice" // ReferenceError: name is not defined
 ```
 
 
-Bila hali madhubuti, JavaScript ingeunda kitofautishi cha kimataifa kiitwacho `jina` kimyakimya. Lakini kwa hali kali, hii inakuwa kosa la kweli, kukusaidia kupata mende mapema.
+Bila hali madhubuti, JavaScript ingeunda kitofautishi cha kimataifa kiitwacho `name` kimyakimya. Lakini kwa hali kali, hii inakuwa kosa la kweli, kukusaidia kupata mende mapema.
 
 
 Hali kali pia huzima baadhi ya vipengele vilivyopitwa na wakati vya JavaScript, na hurahisisha msimbo wako kuboresha na kudumisha.
@@ -2727,7 +2726,7 @@ console.log(b) // 10
 ```
 
 
-Tulitoa `b` thamani ya `a`, lakini kisha tukabadilisha `b` hadi `10`.
+Tulipea `b` thamani ya `a`, lakini kisha tukabadilisha `b` hadi `10`.
 
 
 Kwa kuwa nambari hupitishwa kwa thamani, JavaScript ilinakili `5` hadi `b`. `5` katika `b` ni huru kutoka kwa `5` asili katika `a` hivyo kubadilisha thamani ya `b` hakukuwa na athari kwa `a`.
@@ -2747,7 +2746,7 @@ console.log(name2) // Bob
 ```
 
 
-Tena, kubadilisha `jina2` hakujaathiri `jina1`, kwa sababu mifuatano pia hupitishwa kwa thamani.
+Tena, kubadilisha `name2` hakujaathiri `name1`, kwa sababu mifuatano pia hupitishwa kwa thamani.
 
 
 Jambo hilo hilo hufanyika unapopitisha primitive kwa chaguo la kukokotoa: inakiliwa. Kwa hivyo kazi haiwezi kubadilisha asili.
@@ -2766,7 +2765,7 @@ console.log(number) // 5
 ```
 
 
-Ingawa ndani ya chaguo za kukokotoa `1` iliongezwa kwa `x`, `nambari` asili haikubadilika.
+Ingawa ndani ya chaguo za kukokotoa `1` iliongezwa kwa `x`, `number` asili haikubadilika.
 
 
 Hiyo ni kwa sababu ni **nakala** pekee iliyopitishwa kwenye chaguo la kukokotoa.
@@ -2795,7 +2794,7 @@ console.log(person2.name) // Bob
 ```
 
 
-Wote `mtu1` na `mtu2` huelekeza kwenye kitu kimoja kwenye kumbukumbu.
+Wote `person1` na `person2` huelekeza kwenye kitu kimoja kwenye kumbukumbu.
 
 
 Kwa hivyo tulipobadilisha `person2.name`, tulibadilisha pia `person1.name`, kwa sababu wote wawili wanatazama kitu kimoja.
@@ -2815,7 +2814,7 @@ console.log(list2) // [1, 2, 3, 4]
 ```
 
 
-Tulisukuma `4` kwenye `orodha2`, lakini `orodha1` iliathiriwa pia, kwa sababu zote mbili zinarejelea safu moja.
+Tulisukuma `4` kwenye `list2`, lakini `list1` iliathiriwa pia, kwa sababu zote mbili zinarejelea safu moja.
 
 
 Wacha tuone kinachotokea tunapopitisha kitu kwa chaguo la kukokotoa:
@@ -2834,7 +2833,7 @@ console.log(person.name) // Charlie
 ```
 
 
-Chaguo la kukokotoa lilibadilisha kipengee! Hiyo ni kwa sababu ilipokea **rejeleo** la kitu asili cha `mtu`.
+Chaguo la kukokotoa lilibadilisha kipengee! Hiyo ni kwa sababu ilipokea **rejeleo** la kitu asili cha `person`.
 
 
 Haikupata nakala. Ilipata ufikiaji wa kitu cha asili, na kwa hiyo ilipata uwezo wa kuirekebisha.
@@ -2877,7 +2876,7 @@ return `Hello, ${name}!`
 ```
 
 
-Ikiwa chaguo la kukokotoa lina **mstari mmoja tu**, unaweza kuruka viunga na `kurudi`:
+Ikiwa chaguo la kukokotoa lina **mstari mmoja tu**, unaweza kuruka viunga na `return`:
 
 
 ```javascript
@@ -2915,7 +2914,7 @@ sayHello()        // Hello, friend!
 ```
 
 
-Thamani chaguo-msingi `"rafiki"` inatumika wakati hakuna kitu kinachopitishwa.
+Thamani chaguo-msingi `friend"` inatumika wakati hakuna kitu kinachopitishwa.
 
 
 ### Sambaza vigezo (...)
@@ -3056,7 +3055,7 @@ console.log(doubled) // [2, 4, 6]
 Kila nambari imeongezwa mara mbili, na matokeo yake ni safu mpya.
 
 
-`kichujio()` huondoa vipengee kutoka kwa safu ikiwa havijafaulu jaribio.
+`filter()` huondoa vipengee kutoka kwa safu ikiwa havijafaulu jaribio.
 
 
 Mfano:
@@ -3087,13 +3086,13 @@ console.log(total) // 10
 ```
 
 
-`punguza` inapitia safu na, katika mfano huu, itatumia opereta `+` kati ya `1` na `2`, kisha kati ya `3` na `3` inayotokana, kisha kati ya `6` na `4` inayotokana, hadi iwe na jumla ya maingizo yote ya mkusanyiko (ambayo ni 10).
+`reduce()` inapitia safu na, katika mfano huu, itatumia opereta `+` kati ya `1` na `2`, kisha kati ya `3` na `3` inayotokana, kisha kati ya `6` na `4` inayotokana, hadi iwe na jumla ya maingizo yote ya mkusanyiko (ambayo ni 10).
 
 
 Unaweza kutumia `reduce()` kwa vitu vingi kama jumla, wastani, au kujenga maadili mapya hatua kwa hatua.
 
 
-Mbinu hizi (`ramani`, `chujio`, `punguza`) ni zana zenye nguvu za kuchakata data bila kuandika vitanzi vya mikono.
+Mbinu hizi (`map`, `filter`, `reduce`) ni zana zenye nguvu za kuchakata data bila kuandika vitanzi vya mikono.
 
 
 Unaweza hata kuzichanganya katika mlolongo wa shughuli, kama hii:
@@ -3152,7 +3151,7 @@ Sifa za kibinafsi zinafaa unapotaka kuzuia mabadiliko yasiyotarajiwa.
 ### Sifa za tuli
 
 
-Wakati mwingine, unataka mali iwe ya darasa lenyewe, sio kwa kila kitu unachounda kutoka kwa darasa hilo. Hiyo ndiyo maana ya `static`. Mali `tuli` iko kwenye darasa na vitu vyote vya darasa hilo vitairejelea.
+Wakati mwingine, unataka mali iwe ya darasa lenyewe, sio kwa kila kitu unachounda kutoka kwa darasa hilo. Hiyo ndiyo maana ya `static`. Mali `static` iko kwenye darasa na vitu vyote vya darasa hilo vitairejelea.
 
 
 ```javascript
@@ -3180,7 +3179,7 @@ Hii ni muhimu kwa kuhifadhi data iliyoshirikiwa na mbinu zinazotumika kwa kundi 
 Katika JavaScript, `get` na `set` hukuwezesha kutengeneza sifa ambazo *zinaonekana* kama vigeu vya kawaida, lakini kwa kweli endesha msimbo maalum chinichini.
 
 
-Njia ya `get`ter hutumika unapojaribu *kusoma* mali. Inatangazwa kwa kuandika `pata` kabla ya mbinu iliyo na jina la mali.
+Njia ya `getter` hutumika unapojaribu *kusoma* mali. Inatangazwa kwa kuandika `get` kabla ya mbinu iliyo na jina la mali.
 
 
 ```javascript
@@ -3200,7 +3199,7 @@ console.log(user.fullName) // Jane Doe
 ```
 
 
-Ijapokuwa `fullName` si sifa ya kawaida, tunaweza kuitumia kama moja, na nyuma ya pazia inaendesha kipengele cha `kupata` ili kuunda jina kamili.
+Ijapokuwa `fullName` si sifa ya kawaida, tunaweza kuitumia kama moja, na nyuma ya pazia inaendesha kipengele cha `get` ili kuunda jina kamili.
 
 
 Njia ya `set`ter hutumika wakati *unapokabidhi* thamani kwa mali. Inakuruhusu kudhibiti kile kinachotokea wakati mtu anajaribu kubadilisha thamani hiyo. Inatangazwa kwa kuandika `set` kabla ya mbinu iliyo na jina la mali.
@@ -3257,7 +3256,7 @@ age: 30
 ```
 
 
-Katika kifaa hiki, `"jina"` na `"umri"` ni funguo, na "Alice" na `30` ndizo thamani zake.
+Katika kifaa hiki, `"name"` na `"age"` ni funguo, na "Alice" na `30` ndizo thamani zake.
 
 
 ### Ufikiaji Nguvu
@@ -3343,7 +3342,7 @@ Hii inaitwa ** mali iliyohesabiwa **. Thamani iliyo ndani ya mabano ya mraba ina
 ### Aina ya Alama
 
 
-Kando na mifuatano, JavaScript pia hukuruhusu kutumia aina maalum inayoitwa `Alama` kama kitufe cha kitu.
+Kando na mifuatano, JavaScript pia hukuruhusu kutumia aina maalum inayoitwa `Symbol` kama kitufe cha kitu.
 
 
 Wacha tuanze na mfano rahisi:
@@ -3361,7 +3360,7 @@ console.log(user[id]) // 12345
 ```
 
 
-Katika mfano huu, `id` ni Alama. Sio kamba, lakini bado inafanya kazi kama ufunguo. Ukijaribu kuweka `mtumiaji` kwenye koni, utaona hii:
+Katika mfano huu, `id` ni Alama. Sio kamba, lakini bado inafanya kazi kama ufunguo. Ukijaribu kuweka `user` kwenye koni, utaona hii:
 
 
 ```javascript
@@ -3380,7 +3379,7 @@ console.log(a === b) // false
 ```
 
 
-Alama hukuruhusu kufafanua funguo ambazo hazitagongana na funguo za kawaida. Kwa mfano, tuseme una kitu chenye sifa ya `jina`, lakini kipengee hicho kitabinafsishwa na mtumiaji katika siku zijazo, kwa njia ambazo huwezi kutabiri, na mtumiaji huyo anaweza kuongeza sifa ya `jina` pia. Ikiwa mali ya asili ya `jina` ilifafanuliwa kwa kamba, ingeandikwa tena na mpya, kama hii:
+Alama hukuruhusu kufafanua funguo ambazo hazitagongana na funguo za kawaida. Kwa mfano, tuseme una kitu chenye sifa ya `name`, lakini kipengee hicho kitabinafsishwa na mtumiaji katika siku zijazo, kwa njia ambazo huwezi kutabiri, na mtumiaji huyo anaweza kuongeza sifa ya `name` pia. Ikiwa mali ya asili ya `name` ilifafanuliwa kwa kamba, ingeandikwa tena na mpya, kama hii:
 
 
 ```javascript
@@ -3410,7 +3409,7 @@ console.log(obj) // { name: 'Jimmy', [Symbol(name)]: 'John' }
 ```
 
 
-Kama unavyoona, mali asili ya `jina` imehifadhiwa kwa njia hii. Hii inaweza kuwa na manufaa katika hali fulani za makali.
+Kama unavyoona, mali asili ya `name` imehifadhiwa kwa njia hii. Hii inaweza kuwa na manufaa katika hali fulani za makali.
 
 
 ## Vitu vya Huduma
@@ -3430,7 +3429,7 @@ Tayari umeona `console.log`, ambayo huchapisha thamani kwenye skrini.
 Kuna njia zingine muhimu zinazopatikana kwenye kitu cha `console` ambazo zinaweza kukusaidia kutatua programu zako.
 
 
-#### `console.onya`
+#### `console.warn`
 
 
 Huchapisha ujumbe kwa manjano (au kwa ikoni ya onyo katika baadhi ya mazingira):
@@ -3441,7 +3440,7 @@ console.warn("This is just a warning.")
 ```
 
 
-#### `kosa.kosa`
+#### `kosa.error`
 
 
 Huchapisha ujumbe kwa rangi nyekundu, kama hitilafu:
@@ -3511,7 +3510,7 @@ Inafaa kwa majaribio rahisi ya utendakazi.
 ### Kitu cha Hesabu
 
 
-JavaScript hukupa kitu cha `Hesabu` chenye mbinu muhimu za kufanya hesabu.
+JavaScript hukupa kitu cha `Math` chenye mbinu muhimu za kufanya hesabu.
 
 
 #### `Hesabu.nasibu()`
@@ -3596,13 +3595,13 @@ console.log(Math.sqrt(16))    // 4
 <chapterId>a9a70c6d-a343-5a46-a383-e288bc2700e3</chapterId>
 
 
-JavaScript inatupa baadhi ya aina maalum za mkusanyiko ambazo huenda zaidi ya safu na vitu vya kawaida. Hizi ni pamoja na `Ramani` na `Weka`.
+JavaScript inatupa baadhi ya aina maalum za mkusanyiko ambazo huenda zaidi ya safu na vitu vya kawaida. Hizi ni pamoja na `Map` na `Set`.
 
 
 Zinakusaidia kuhifadhi na kudhibiti vikundi vya thamani, lakini zinafanya kazi tofauti na ulivyoona kufikia sasa.
 
 
-`Ramani` ni mkusanyiko wa **jozi za thamani-ufunguo**, kama tu kitu. Lakini ina tofauti kadhaa muhimu:
+`Map` ni mkusanyiko wa **jozi za thamani-ufunguo**, kama tu kitu. Lakini ina tofauti kadhaa muhimu:
 
 
 
@@ -3627,7 +3626,7 @@ myMap.set("name", "Alice")
 ```
 
 
-Hii inaongeza kitufe `"jina"` chenye thamani `"Alice"`.
+Hii inaongeza kitufe `"name"` chenye thamani `"Alice"`.
 
 
 Unaweza pia kutumia nambari kama ufunguo:
@@ -3690,7 +3689,7 @@ Ramani ni nzuri kwa kudhibiti mikusanyiko mikubwa ya thamani, kwa sababu kufikia
 ### Weka
 
 
-`Kuweka` ni mkusanyiko wa **thamani pekee** (hakuna funguo), ambapo kila thamani lazima iwe **kipekee**. Hiyo ina maana:
+`Set` ni mkusanyiko wa **thamani pekee** (hakuna funguo), ambapo kila thamani lazima iwe **kipekee**. Hiyo ina maana:
 
 
 
@@ -3759,7 +3758,7 @@ console.log(numberSet) // Set(5) { 1, 2, 3, 4, 5 }
 `Set` huepuka nakala kwa ajili yako.
 
 
-## Warudiaji
+## Vizungukaji
 
 <chapterId>61d24e5e-b7e4-541a-8322-778f61f26a72</chapterId>
 
@@ -3770,7 +3769,7 @@ Vitu vingi katika JavaScript ambavyo unaweza kuvifunga (kama vile safu, mifuatan
 **kirudia** ni kifaa maalum katika JavaScript ambacho hukusaidia kupitia orodha ya vipengee **kimoja kwa wakati mmoja**.
 
 
-### Virudishi vya Kitu
+### Vizungukaji vya Kitu
 
 
 Tofauti na safu au ramani, vitu vya kawaida **haviwezi kutekelezeka** kwa `for...of`. Ukijaribu hii:
@@ -4037,13 +4036,13 @@ Hiki ndicho kinachotokea:
 
 
 
-- Tulifafanua darasa `Msururu`
+- Tulifafanua darasa `Range`
 - Ndani ya darasa, tulitekeleza `[Symbol.iterator]()`, kwa hivyo JavaScript inajua jinsi ya kuirudia.
-- Mbinu ya `ifuatayo()` inarudisha kila nambari moja baada ya nyingine
-- Tunapofika `mwisho`, inarejesha `{ done: true }`
+- Mbinu ya `next()` inarudisha kila nambari moja baada ya nyingine
+- Tunapofika `end`, inarejesha `{ done: true }`
 
 
-Sasa darasa letu la `Msururu` hufanya kazi kama safu, na tunaweza kulitumia katika kitanzi chochote kinachotarajia kujirudia.
+Sasa darasa letu la `Range` hufanya kazi kama safu, na tunaweza kulitumia katika kitanzi chochote kinachotarajia kujirudia.
 
 
 ### Vitendaji vya jenereta na mavuno
@@ -4071,7 +4070,7 @@ console.log(iterator.next()) // { value: undefined, done: true }
 ```
 
 
-Kila `mazao` hurejesha thamani, na **kusitisha** chaguo la kukokotoa hadi `.next()` inayofuata iitwe.
+Kila `yield` hurejesha thamani, na **kusitisha** chaguo la kukokotoa hadi `.next()` inayofuata iitwe.
 
 
 Unaweza pia kuzunguka jenereta na `for...of`:
@@ -4094,7 +4093,7 @@ Hii inachapisha:
 ```
 
 
-## Sambamba na kupiga simu
+## Sambamba na callback
 
 <chapterId>f3fc76ca-b3ef-54eb-a06e-501007002054</chapterId>
 
@@ -4224,7 +4223,7 @@ Hii ni Hard kusoma na fujo. Mtindo huu unaitwa **callback hell**, na ndio hasa `
 <chapterId>30fddaca-729f-5c8d-bf86-8dfc7b3c9800</chapterId>
 
 
-`Ahadi` ni kitu cha JavaScript kilichojengewa ndani ambacho kinawakilisha thamani ambayo ** itakuwa tayari katika siku zijazo**.
+`Promise` ni kitu cha JavaScript kilichojengewa ndani ambacho kinawakilisha thamani ambayo ** itakuwa tayari katika siku zijazo**.
 
 
 Tunaweza kuunda Ahadi kama hii:
@@ -4239,24 +4238,24 @@ resolve("It worked!") // This means everything went OK
 ```
 
 
-Sehemu ya `Ahadi mpya()` inaunda ahadi.
+Sehemu ya `new Promise()` inaunda ahadi.
 
 
 Ndani yake, tunaipa kazi na vigezo viwili:
 
 
 
-- `suluhisha`, ni chaguo la kukokotoa tunaloita wakati kila kitu kimefanikiwa
-- `kataa`, ni chaguo la kukokotoa tunaloliita iwapo kitu kitaenda vibaya
+- `resolve`, ni chaguo la kukokotoa tunaloita wakati kila kitu kimefanikiwa
+- `reject`, ni chaguo la kukokotoa tunaloliita iwapo kitu kitaenda vibaya
 
 
-Katika mfano hapo juu, tunasuluhisha mara moja kwa ujumbe `"Ilifanya kazi!"`.
+Katika mfano hapo juu, tunasuluhisha mara moja kwa ujumbe `"It worked!"`.
 
 
 ### .kisha()
 
 
-Kufanya kitu **baada ya** ahadi kufanywa, tunatumia `.kisha()`:
+Kufanya kitu **baada ya** ahadi kufanywa, tunatumia `.then()`:
 
 
 ```javascript
@@ -4280,7 +4279,7 @@ The result is: 100
 ```
 
 
-Thamani tuliyopitisha `resolve()` hutumwa kwa chaguo za kukokotoa ndani ya `.then()` kama `matokeo`.
+Thamani tuliyopitisha `resolve()` hutumwa kwa chaguo za kukokotoa ndani ya `.then()` kama `result`.
 
 
 Hebu tuige kazi inayochukua sekunde 2 kwa kutumia `setTimeout`:
@@ -4320,7 +4319,7 @@ reject("Something went wrong")
 ```
 
 
-Sasa tukitumia `.basi()` kwa hili, hakuna kitakachofanyika, kwa sababu `.basi()` hushughulikia mafanikio pekee.
+Sasa tukitumia `.then()` kwa hili, hakuna kitakachofanyika, kwa sababu `.then()` hushughulikia mafanikio pekee.
 
 
 Ili kushughulikia makosa, tunatumia `.catch()`:
@@ -4541,14 +4540,14 @@ Wacha tuchunguze kile ambacho hii inafanya:
 
 1. `doubleNumbers` huongeza safu mara mbili: `[2, 4, 6]`
 
-2. `chujioBigNumbers` huondoa chochote ≤ 3: `[4, 6]`
+2. `filterBigNumbers` huondoa chochote ≤ 3: `[4, 6]`
 
-3. `Nambari` huongeza nambari zilizobaki: `4 + 6 = 10`
+3. `sumNumber` huongeza nambari zilizobaki: `4 + 6 = 10`
 
 4. Hatimaye, tunachapisha matokeo.
 
 
-Kila `.basi()` husubiri hatua kabla ya kumaliza. Ili tuweze kujenga **msururu wa vitendo** bila kuatamia. Hii inafanya msimbo kusomeka zaidi na rahisi kutatua.
+Kila `.then()` husubiri hatua kabla ya kumaliza. Ili tuweze kujenga **msururu wa vitendo** bila kuatamia. Hii inafanya msimbo kusomeka zaidi na rahisi kutatua.
 
 
 ## Sambamba na async/ await
@@ -4559,7 +4558,7 @@ Kila `.basi()` husubiri hatua kabla ya kumaliza. Ili tuweze kujenga **msururu wa
 Tuliona jinsi minyororo ya `Promise` inavyotusaidia kuepuka kuzimu ya kurudi nyuma, lakini bado wanaweza kupata Hard kidogo ya kusoma wakati kuna hatua nyingi zinazohusika.
 
 
-Hapo ndipo `async` na `ait` huingia. Zinaturuhusu tuandike msimbo usiolingana **unaoonekana kama msimbo unaosawazishwa**, ambao hurahisisha kuelewa.
+Hapo ndipo `async` na `await` huingia. Zinaturuhusu tuandike msimbo usiolingana **unaoonekana kama msimbo unaosawazishwa**, ambao hurahisisha kuelewa.
 
 
 ### async ni nini?
@@ -4603,19 +4602,19 @@ greet().then( result => console.log(result) ) // prints "hello"
 ```
 
 
-Au unaweza kutumia `kusubiri`...
+Au unaweza kutumia `await`...
 
 
 ### kusubiri ni nini?
 
 
-Neno kuu `kusubiri` linaambia JavaScript: "subiri hadi Ahadi hii ikamilike, kisha unipe matokeo."
+Neno kuu `await` linaambia JavaScript: "subiri hadi Ahadi hii ikamilike, kisha unipe matokeo."
 
 
-Lakini unaweza tu kutumia `kusubiri` **ndani ya kitendakazi kisichosawazisha**.
+Lakini unaweza tu kutumia `await` **ndani ya kitendakazi kisichosawazisha**.
 
 
-Hebu tuandike tena mfano kwa kutumia `kusubiri`:
+Hebu tuandike tena mfano kwa kutumia `await`:
 
 
 ```javascript
@@ -4641,7 +4640,7 @@ Hebu tufanye jambo la manufaa zaidi sasa.
 ### Inaiga ucheleweshaji kwa await
 
 
-Tutaunda kitendakazi rahisi cha `kusubiri` ambacho huchukua wingi wa milisekunde kama hoja na kusuluhisha tu baada ya milisekunde nyingi, bila kufanya chochote kingine:
+Tutaunda kitendakazi rahisi cha `wait` ambacho huchukua wingi wa milisekunde kama hoja na kusuluhisha tu baada ya milisekunde nyingi, bila kufanya chochote kingine:
 
 
 ```javascript
@@ -4676,7 +4675,7 @@ done waiting
 ```
 
 
-Unaweza kufikiria `kungoja` kama "tulia hapa hadi ahadi ikamilike, kisha uendelee."
+Unaweza kufikiria `await` kama "tulia hapa hadi ahadi ikamilike, kisha uendelee."
 
 
 Hii hukuruhusu kuandika msimbo kwa mtindo wa **juu-hadi-chini** ambao hufanya kazi kwa usawa, bila kuunganisha simu za `.then()`.
@@ -4757,7 +4756,7 @@ Inaonekana kama mpango wa hatua kwa hatua wa kawaida, lakini bado unafanya kazi 
 <chapterId>438b037d-9931-56d7-9052-7b4470f3c75b</chapterId>
 
 
-Tayari umejifunza kuhusu **virudishi** na jinsi tunavyoweza kutumia `kwa...ya` kuzunguka safu na vitu vingine vinavyoweza kutekelezeka.
+Tayari umejifunza kuhusu **virudishi** na jinsi tunavyoweza kutumia `for...of` kuzunguka safu na vitu vingine vinavyoweza kutekelezeka.
 
 
 Lakini vipi ikiwa data tunayotaka kurudia itachukua muda kufika?
@@ -4910,7 +4909,7 @@ yield n
 ```
 
 
-Sasa tunaweza kutumia `kwa kusubiri...ya` kama hapo awali:
+Sasa tunaweza kutumia `for await...of` kama hapo awali:
 
 
 ```javascript
@@ -4945,7 +4944,7 @@ JavaScript ina sukari ya sintaksia iliyojengewa ndani ambayo inaturuhusu tuandik
 ### Opereta wa Ternary
 
 
-Katika JavaScript, unaweza kupeana thamani kulingana na hali kwa kutumia **opereta wa tatu**, ambayo ni njia fupi ya kuandika `kama...ingine`.
+Katika JavaScript, unaweza kupeana thamani kulingana na hali kwa kutumia **opereta wa tatu**, ambayo ni njia fupi ya kuandika `if...else`.
 
 
 Badala ya kufanya:
@@ -4974,8 +4973,8 @@ Hii ina maana:
 
 
 
-- Ikiwa `isMorning` ni kweli, tumia `"Habari za asubuhi"`
-- Vinginevyo, tumia `"Hujambo"`
+- Ikiwa `isMorning` ni kweli, tumia `"Good morning"`
+- Vinginevyo, tumia `"Hello"`
 
 
 Fomu ya jumla ni:
@@ -4994,7 +4993,7 @@ console.log(isSunny ? "Go outside" : "Stay in")
 ```
 
 
-Hakikisha unaitumia kwa maamuzi **rahisi**. Ikiwa mantiki ni changamano, shikilia na `kama...ingine`.
+Hakikisha unaitumia kwa maamuzi **rahisi**. Ikiwa mantiki ni changamano, shikilia na `if...else`.
 
 
 ### Waendeshaji Mbadala wa Assignment
@@ -5024,12 +5023,13 @@ counter += 1 // same as counter = counter + 1
 Hapa kuna zile za kawaida zaidi:
 
 
-| Operator | Meaning             |
+
+| Opereta | Maana |
 | -------- | ------------------- |
-| `+=`     | add and assign      |
-| `-=`     | subtract and assign |
-| `*=`     | multiply and assign |
-| `/=`     | divide and assign   |
+| `+=` | jumlisha kisha kabidhi |
+| `-=` | toa kisha kabidhi |
+| `*=` | zidisha kisha kabidhi |
+| `/=` | gawa kisha kabidhi |
 
 Mifano:
 
@@ -5231,7 +5231,7 @@ Nambari iliyoandikwa katika lugha iliyokusanywa hubadilishwa kuwa ya jozi, na bi
 ![](assets/en/006.webp)
 
 
-Lugha zinazofasiriwa, kwa upande mwingine, zinaelekea kuwa rafiki zaidi kwa watumiaji, na ziko karibu na jinsi wanadamu wanavyofikiri ("kiwango cha juu") badala ya jinsi mashine zinavyofanya kazi ("kiwango cha chini"); kwa hivyo huwa na mashine ya kawaida iliyojengwa ili kuendesha nambari zao.
+Lugha zinazotafsiriwa, kwa upande mwingine, zinaelekea kuwa rafiki zaidi kwa watumiaji, na ziko karibu na jinsi wanadamu wanavyofikiri ("kiwango cha juu") badala ya jinsi mashine zinavyofanya kazi ("kiwango cha chini"); kwa hivyo huwa na mazingira ya utekelezaji yaliyojengwa ili kuendesha nambari zao.
 
 
 Mashine pepe ni programu maalum ambayo hukaa kati ya msimbo unaoandika na CPU, na kutekeleza msimbo wako (kwa sababu CPU haiwezi kuuelewa).
@@ -5392,7 +5392,7 @@ module.exports = greeting
 ```
 
 
-Hapa, mfuatano `"Hujambo!"` ndio moduli hii inasafirisha.
+Hapa, mfuatano `"Hello!"` ndio moduli hii inasafirisha.
 
 
 Ili kutumia nambari iliyosafirishwa kutoka kwa faili nyingine, unatumia `require()` kazi na njia ya faili hiyo:
@@ -5691,7 +5691,7 @@ API ya kurudisha nyuma ni bora kwa seva na kazi kubwa kwa sababu haizuii program
 API ya Promise-based ni ya kisasa na inafanya kazi vizuri na `.then()` na `async/await`. Inapatikana kama `fs.promises`.
 
 
-Unahitaji kuingiza mali ya `ahadi`:
+Unahitaji kuingiza mali ya `promise`:
 
 
 ```javascript
@@ -5912,9 +5912,9 @@ Maeneo machache muhimu:
 
 
 
-- `jina`: jina la kifurushi chako
-- `toleo`: toleo la sasa
-- `kuu`: faili ya mahali pa kuingilia (kama `index.js`)
+- `name`: jina la kifurushi chako
+- `version`: toleo la sasa
+- `main`: faili ya mahali pa kuingilia (kama `index.js`)
 - `scripts`: amri unaweza kuendesha (kama `npm start`)
 - `dependencies`: huorodhesha vifurushi vyote ambavyo mradi wako unategemea
 
@@ -6023,7 +6023,7 @@ NodeJS hutumiwa mara nyingi kama lugha ya nyuma: unaweza kubadilisha hati yako k
 Katika sura hii tutaanzisha vipengele vya msingi vya mtandao ambavyo vitakuruhusu kufanya hivyo.
 
 
-### chota()
+### fetch()
 
 
 Ikiwa unataka programu yako kupakua data kutoka kwa tovuti au API, unahitaji kutuma ombi la **HTTP**.
@@ -6059,7 +6059,7 @@ Unapoendesha hii, utaona kitu kama:
 Hiki ndicho kinachotokea:
 
 
-1. `chota()` huchukua URL na kutuma ombi.
+1. `fetch()` huchukua URL na kutuma ombi.
 
 2. Hurejesha **Ahadi** ambayo hutatuliwa kwa kitu cha `Jibu`.
 
@@ -6223,9 +6223,9 @@ Katika sura hii, tutaanzisha aina tatu za vitu:
 
 
 
-- `Bafa`, ambayo inawakilisha vipande vidogo vya data ya jozi
+- `Buffer`, ambayo inawakilisha vipande vidogo vya data ya jozi
 - `EventEmitter`, ambayo inaweza kutumika kufuatilia hatua fulani kwa mchakato usio na usawa kwa kutoa ishara zinazoitwa "matukio"
-- `Tiririsha`, ambayo huturuhusu kuchakata sehemu kubwa ya data `Buffer` moja kwa wakati huo, na ambayo hufuatilia mchakato kwa kutoa matukio.
+- `Stream`, ambayo huturuhusu kuchakata sehemu kubwa ya data `Buffer` moja kwa wakati huo, na ambayo hufuatilia mchakato kwa kutoa matukio.
 
 
 Haya ni ya kawaida sana katika msimbo wa kitaalamu wa NodeJS, kwa hivyo hata kama huwezi kuzitumia katika miradi yako ya kwanza, ni vizuri kupata uelewa wa kimsingi wa wakati utahitaji kuingiliana nao. wao
@@ -6366,9 +6366,9 @@ Hapa kuna nini:
 
 1. Tunaunda kipengee cha `EventEmitter`.
 
-2. Tunaiambia ifanye upigaji simu wakati wowote tukio la `"salamu"` linapotokea, kwa kutumia `.on("greet")`.
+2. Tunaiambia ifanye upigaji simu wakati wowote tukio la `"greet"` linapotokea, kwa kutumia `.on("greet")`.
 
-3. Baadaye, tunaanzisha tukio la `"salamu"` kwa kutumia `.emit()`.
+3. Baadaye, tunaanzisha tukio la `"greet"` kwa kutumia `.emit()`.
 
 4. Callback yetu anapata kutekelezwa
 
@@ -6469,11 +6469,11 @@ Nini kinatokea hapa?
 
 1. `fs.createReadStream()` huunda mtiririko unaoweza kusomeka.
 
-2. Wakati wowote kipande cha faili kiko tayari, mtiririko hutoa tukio la `data` na kutupa "kipande" cha data (`Bafa`). Tunachapisha kipande.
+2. Wakati wowote kipande cha faili kiko tayari, mtiririko hutoa tukio la `data` na kutupa "kipande" cha data (`Buffer`). Tunachapisha kipande.
 
-3. Wakati faili nzima imesomwa, tukio la `mwisho` linaanzishwa.
+3. Wakati faili nzima imesomwa, tukio la `end` linaanzishwa.
 
-4. Ikiwa kuna hitilafu (kama vile faili haipo), tukio la `kosa` limeanzishwa.
+4. Ikiwa kuna hitilafu (kama vile faili haipo), tukio la `error` limeanzishwa.
 
 
 Kwa njia hii, unaweza kusoma faili kubwa bila kuzipakia zote kwenye kumbukumbu mara moja.
@@ -6517,36 +6517,36 @@ Huu hapa ni mfano wa kuandikia faili `target.txt` kwa kutumia mtiririko:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Hiki ndicho kinachotokea:
 
 
-1. `fs.createWriteStream()` huunda mtiririko unaoweza kuandikwa.
+1. `fs.createWriteStream()` huunda mfululizo unaoweza kuandikwa (writable stream).
 
-2. Tunaiandikia maandishi kwa kutumia `.write()`.
+2. Tunasajili vishughulikiaji (handlers) vya matukio ya `error` na `finish`.
 
-3. Tunapomaliza, tunaita `.end()` ili kufunga mtiririko.
+3. Tunaandika maandishi fulani kwayo kwa kutumia `.write()`.
 
-4. Wakati data yote imeandikwa, tukio la `kumaliza` hutolewa.
+4. Wakati data yote imeandikwa, tukio la `finish` hutolewa.
 
-5. Ikiwa kitu kitaenda vibaya, tukio la `error` linaanzishwa.
+5. Mara tu data zote zilizowekwa kwenye bafa (buffered) zitakapofutwa na kuandikwa, tukio la `finish` hutolewa. Ikiwa kitu kitaenda vibaya, tukio la `error` hutolewa.
 
 
 Kama vile mitiririko inayoweza kusomeka, mitiririko inayoweza kuandikwa ni nzuri kwa data kubwa kwa sababu haihitaji kuweka kila kitu kwenye kumbukumbu mara moja.
@@ -6609,8 +6609,8 @@ Katika mfano huu:
 
 
 
-- Kipengee cha `soketi` ni mkondo wa duplex.
-- Unaweza `kuandika()` kwake na pia kusikiliza matukio ya `data` kutoka kwayo.
+- Kipengee cha `socket` ni mkondo wa duplex.
+- Unaweza `write()` kwake na pia kusikiliza matukio ya `data` kutoka kwayo.
 
 
 ### Badilisha mitiririko

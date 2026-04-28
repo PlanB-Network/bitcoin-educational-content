@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-I tillegg til mobilapplikasjonen tilbyr Speed Wallet også en [Chrome Web-utvidelse] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan legge til i Google Chrome-nettleseren på datamaskinen din for sikre transaksjoner.
+I tillegg til mobilapplikasjonen tilbyr Speed Wallet også en [Chrome Web-utvidelse](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan legge til i Google Chrome-nettleseren på datamaskinen din for sikre transaksjoner.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet legger særlig vekt på integrering og bruk av Bitcoin og stablecoi
 
 
 
-Fra [Speed Business] (https://www.tryspeed.com/) har du en enhetlig betalingsaggregat for å akseptere Bitcoin, drevet av Lightning Network, som du kan bruke i butikken din, på nett eller fysisk.
+Fra [Speed Business](https://www.tryspeed.com/) har du en enhetlig betalingsaggregat for å akseptere Bitcoin, drevet av Lightning Network, som du kan bruke i butikken din, på nett eller fysisk.
 
 
 

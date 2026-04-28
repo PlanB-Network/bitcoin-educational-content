@@ -554,13 +554,14 @@ Poslovni model Ente zasnovan je na plaćenoj usluzi Ente Photos, što nam omogu�
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Aplikacija              | Otvoreni kod | Sigurnosna kopija u oblaku | E2EE | Sinhronizacija više uređaja | Platforme                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (bez E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(desktop aplikacije uklonjene august 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(nedavna, manje uspostavljena)*              |
 
 Ente Auth se izdvaja kao jedno od retkih rešenja koje kombinuje sve prednosti: transparentnost izvornog koda, šifrovanu rezervnu kopiju u oblaku i sinhronizaciju između platformi.
 

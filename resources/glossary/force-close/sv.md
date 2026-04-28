@@ -1,5 +1,6 @@
 ---
-term: TVINGA TILL STÄNGNING
+term: Forcerad stängning
+definition: Ensidig stängning av en Lightning-kanal genom att sända ut den senaste signerade åtagandetransaktionen.
 ---
 
 Icke-kooperativ stängningsmekanism för Lightning-kanaler. När två användare öppnar en kanal med en Multisig 2/2, kan var och en ensidigt stänga kanalen genom att sända den sista Commitment Transaction som redan har signerats, för att återfå sina bitcoins i kedjan. Detta är känt som "force close".

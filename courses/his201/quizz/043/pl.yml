@@ -6,4 +6,4 @@ wrong_answers:
   - Szanse na wydobycie bloku
 explanation: |
   Usługa ta początkowo dystrybuowała 5 bitcoinów na żądanie, aby umożliwić ludziom wypróbowanie systemu. Kwota ta została z czasem zmniejszona, a Faucet zamknięto w 2012 roku.
-reviewed: false
+reviewed: true

@@ -1,6 +1,7 @@
 ---
-term: ATOMIC SWAP
+term: Atomic swap
 
+definition: Ein Austausch von Kryptowährungen zwischen zwei Parteien ohne vertrauenswürdigen Vermittler, wobei der Austausch entweder vollständig erfolgreich ist oder vollständig storniert wird.
 ---
 Technologie, die den direkten Austausch von Kryptowährungen zwischen zwei Parteien ermöglicht, ohne die Notwendigkeit von Vertrauen und ohne einen Vermittler zu benötigen. Diese Tauschvorgänge werden "atomar" genannt, weil sie nur zu zwei Ergebnissen führen können:
 

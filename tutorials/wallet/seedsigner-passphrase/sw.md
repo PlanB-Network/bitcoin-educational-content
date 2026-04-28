@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Nenosiri la Mbegu
+name: BIP-39 Passphrase SeedSigner
 description: Je, ninawezaje kuongeza passphrase kwenye jalada langu la SeedSigner?
 ---
 

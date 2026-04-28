@@ -94,7 +94,7 @@ Připraveni prozkoumat fascinující svět kryptografie? Jdeme na to!
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Začněme naše pátrání v oblasti kryptografie jednou z nejpůvabnějších a nejzábavnějších epizod v její historii: epizodou Bealeových šifer. [1]
+Začněme naše pátrání v oblasti [kryptografie](https://planb.academy/resources/glossary/cryptography) jednou z nejpůvabnějších a nejzábavnějších epizod v její historii: epizodou Bealeových šifer. [1]
 
 Příběh o Bealeových šifrách je podle mého názoru spíše fikcí než skutečností. Údajně se však odehrál takto.
 
@@ -102,7 +102,7 @@ V zimě 1820 a 1822 se v hostinci Roberta Morrisse v Lynchburgu (Virginie) ubyto
 
 O několik měsíců později obdržel Morriss od Beala dopis z 9. května 1822. Zdůrazňoval v něm velkou hodnotu obsahu železné schránky a sděloval Morrissovi několik pokynů: pokud si Beale ani nikdo z jeho společníků nikdy nepřijde pro schránku, měl by ji otevřít přesně za deset let od data dopisu (tj. 9. května 1832). Některé z listin uvnitř by byly napsány běžným textem. Několik dalších by však bylo "bez pomoci klíče nesrozumitelných" Tento "klíč" by tedy Morrissovi doručil nejmenovaný Bealeův přítel v červnu 1832.
 
-Navzdory jasným instrukcím Morriss v květnu 1832 schránku neotevřel a Bealův tajemný přítel se v červnu téhož roku neobjevil. Teprve v roce 1845 se hostinský konečně rozhodl skříňku otevřít. Morriss v ní našel vzkaz, který vysvětloval, jak Beale a jeho společníci objevili na Západě zlato a stříbro a pro jistotu je spolu s několika šperky zakopali. Kromě toho schránka obsahovala tři **šifrové texty**: tj. texty napsané v kódu, k jejichž odemčení je zapotřebí **šifrový klíč** neboli tajemství a doprovodný algoritmus. Tento proces odemknutí šifrového textu se nazývá **dešifrování**, zatímco proces uzamčení se nazývá **šifrování**. (Jak je vysvětleno v kapitole 3, pojem šifra může nabývat různých významů. V názvu "Bealeovy šifry" je to zkratka pro šifry.)
+Navzdory jasným instrukcím Morriss v květnu 1832 schránku neotevřel a Bealův tajemný přítel se v červnu téhož roku neobjevil. Teprve v roce 1845 se hostinský konečně rozhodl skříňku otevřít. Morriss v ní našel vzkaz, který vysvětloval, jak Beale a jeho společníci objevili na Západě zlato a stříbro a pro jistotu je spolu s několika šperky zakopali. Kromě toho schránka obsahovala tři **šifrové texty**: tj. texty napsané v kódu, k jejichž odemčení je zapotřebí **šifrový klíč** neboli tajemství a doprovodný algoritmus. Tento proces odemknutí šifrového textu se nazývá **dešifrování**, zatímco proces uzamčení se nazývá **[šifrování](https://planb.academy/resources/glossary/encryption-encrypt)**. (Jak je vysvětleno v kapitole 3, pojem šifra může nabývat různých významů. V názvu "Bealeovy šifry" je to zkratka pro šifry.)
 
 Tři šifry, které Morriss našel v železné skříňce, se skládají z řady čísel oddělených čárkami. Podle Bealeovy poznámky tyto šifry samostatně uvádějí polohu pokladu, obsah pokladu a seznam jmen s právoplatnými dědici pokladu a jejich podíly (poslední informace jsou důležité pro případ, že by si Beale a jeho společníci nikdy nepřišli pro schránku).
 
@@ -144,13 +144,13 @@ Důležité je tedy rozlišovat mezi **šifrovacím schématem** a **šifrovací
 
 Témata integrity a autenticity jsou stejně důležitá jako utajení. Naše moderní komunikační systémy by nemohly fungovat bez záruk týkajících se integrity a autenticity komunikace. Neodmítnutí je také důležitým problémem, například u digitálních smluv, ale v kryptografických aplikacích je méně všudypřítomné než utajení, integrita a autenticita.
 
-Za druhé, klasická šifrovací schémata, jako jsou Bealeovy šifry, vždy zahrnují jeden klíč, který byl sdílen mezi všemi příslušnými stranami. Mnoho moderních kryptografických schémat však nezahrnuje pouze jeden, ale dva klíče: **soukromý** a **veřejný klíč**. Zatímco první z nich by měl při jakémkoli použití zůstat soukromý, druhý je obvykle veřejně známý (odtud jejich příslušné názvy). V rámci šifrování lze veřejný klíč použít k zašifrování zprávy, zatímco soukromý klíč lze použít k dešifrování.
+Za druhé, klasická šifrovací schémata, jako jsou Bealeovy šifry, vždy zahrnují jeden klíč, který byl sdílen mezi všemi příslušnými stranami. Mnoho moderních kryptografických schémat však nezahrnuje pouze jeden, ale dva klíče: **soukromý** a **[veřejný klíč](https://planb.academy/resources/glossary/public-key)**. Zatímco první z nich by měl při jakémkoli použití zůstat soukromý, druhý je obvykle veřejně známý (odtud jejich příslušné názvy). V rámci šifrování lze veřejný klíč použít k zašifrování zprávy, zatímco [soukromý klíč](https://planb.academy/resources/glossary/private-key) lze použít k dešifrování.
 
 Odvětví kryptografie, které se zabývá schématy, kde všechny strany sdílejí jeden klíč, se nazývá **symetrická kryptografie**. Jediný klíč v takovém schématu se obvykle nazývá **soukromý klíč** (nebo tajný klíč). Odvětví kryptografie, které se zabývá schématy vyžadujícími dvojici soukromý a veřejný klíč, je známé jako **asymetrická kryptografie**. Tato odvětví se někdy označují také jako **kryptografie se soukromým klíčem**, respektive **kryptografie s veřejným klíčem** (i když to může vyvolat zmatek, protože kryptografická schémata s veřejným klíčem mají také soukromé klíče).
 
 Nástup asymetrické kryptografie na konci 70. let 20. století byl jednou z nejdůležitějších událostí v historii kryptografie. Bez ní by většina našich moderních komunikačních systémů, včetně Bitcoinu, nebyla možná, nebo by byla přinejmenším velmi nepraktická.
 
-Důležité je, že moderní kryptografie není výhradně studiem kryptografických schémat se symetrickým a asymetrickým klíčem (i když to pokrývá velkou část oboru). Kryptografie se zabývá například také hashovacími funkcemi a generátory pseudonáhodných čísel a na těchto primitivech lze postavit aplikace, které se symetrickou nebo asymetrickou klíčovou kryptografií nesouvisejí.
+Důležité je, že moderní kryptografie není výhradně studiem kryptografických schémat se symetrickým a asymetrickým klíčem (i když to pokrývá velkou část oboru). Kryptografie se zabývá například také [hashovacími funkcemi](https://planb.academy/resources/glossary/hash-function) a generátory pseudonáhodných čísel a na těchto primitivech lze postavit aplikace, které se symetrickou nebo asymetrickou klíčovou kryptografií nesouvisejí.
 
 Zatřetí, klasická šifrovací schémata, jako byla Bealeova šifra, byla spíše uměním než vědou. Jejich vnímaná bezpečnost byla do značné míry založena na intuici ohledně jejich složitosti. Obvykle se opravovala, když se zjistil nový útok na ně, nebo se od nich zcela upustilo, pokud byl útok obzvláště závažný. Moderní kryptografie je však přísnou vědou s formálním, matematickým přístupem k vývoji i analýze kryptografických schémat. [5]
 
@@ -472,16 +472,16 @@ Nejprve si ji definujme. Předpokládejme slovník *D*, který přirovnává vš
 
 Operátor modulo v šifře shift zajišťuje, že se písmena obtékají, takže jsou definována všechna písmena šifrového textu. Pro ilustraci uvažujme použití šifry shift na slovo "DOG".
 
-Předpokládejme, že jste jednotně vybrali klíč, který má hodnotu 17. Písmeno "O" odpovídá hodnotě 15. Bez operace modulo by součet tohoto čísla otevřeného textu s klíčem znamenal číslo šifrového textu 32. Toto číslo šifrového textu však nelze změnit na písmeno šifrového textu, protože anglická abeceda má pouze 26 písmen. Operace modulo zajistí, že číslo šifrového textu je ve skutečnosti 6 (výsledek $32 \mod 26$), což odpovídá písmenu šifrového textu "G".
+Předpokládejme, že jste rovnoměrně zvolili klíč o hodnotě $17$. Písmeno „O“ odpovídá $14$. Bez operace modulo by součet tohoto čísla otevřeného textu a klíče dal číslo šifrovaného textu $31$. Toto číslo však nelze převést na šifrové písmeno, protože anglická abeceda má pouze $26$ písmen. Operace modulo zajistí, že číslo šifrovaného textu je ve skutečnosti $5$ (výsledek $31 \mod 26$), což odpovídá šifrovému písmenu „F“.
 
 Celé šifrování slova "DOG" s hodnotou klíče 17 je následující:
 
 
-- Zpráva = DOG = D,O,G = 3,15,6
+**Zpráva = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Každý intuitivně chápe, jak šifra shift funguje, a pravděpodobně ji sám používá. Pro prohloubení znalostí kryptografie je však důležité začít se lépe orientovat ve formalizaci, protože schémata budou mnohem složitější. Proto byly kroky pro posunovací šifru formalizovány.
 
@@ -1738,7 +1738,7 @@ Přinejmenším jednou z hlavních motivací pro jejich podnikání byla předv�
 
 Vytrvalost Diffieho, Hellmana a Merkleho se vyplatila. První publikací jejich výsledků byl článek Diffieho a Helmanna z roku 1976 s názvem "Nové směry v kryptografii" V něm představili dva originální způsoby řešení problémů distribuce a správy klíčů.
 
-Prvním řešením, které nabídli, byl vzdálený protokol *výměny klíčů*, tj. soubor pravidel pro výměnu jednoho nebo více symetrických klíčů přes nezabezpečený komunikační kanál. Tento protokol je nyní znám jako *Diffie-Helmannova výměna klíčů* nebo *Diffie-Helmann-Merkleova výměna klíčů*. [2]
+Prvním řešením, které nabídli, byl vzdálený protokol *výměny klíčů*, tj. soubor pravidel pro výměnu jednoho nebo více symetrických klíčů přes nezabezpečený komunikační kanál. Tento protokol je nyní znám jako *Diffie-Helmannova výměna klíčů* nebo *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman)-Merkleova výměna klíčů*. [2]
 
 Při Diffieho-Helmannově výměně klíčů si dvě strany nejprve veřejně vymění určité informace na nezabezpečeném kanálu, například na internetu. Na základě těchto informací pak nezávisle vytvoří symetrický klíč (nebo dvojici symetrických klíčů) pro bezpečnou komunikaci. Ačkoli obě strany vytvářejí své klíče nezávisle, veřejně sdílené informace zajišťují, že tento proces vytváření klíčů vede ke stejnému výsledku pro obě strany.
 
@@ -1772,7 +1772,7 @@ Funkce trapdoor používané v asymetrické kryptografii (a Diffie Helmannově v
 
 Problém **diskrétního logaritmu** je problém, který se vyskytuje v cyklických grupách. Je dán generátor v určité cyklické grupě a je třeba vypočítat jedinečný exponent potřebný k tomu, aby z generátoru vznikl další prvek v grupě.
 
-Diskrétní logaritmická schémata se opírají o dva hlavní druhy cyklických grup: multiplikativní grupy celých čísel a grupy, které zahrnují body na eliptických křivkách. Původní Diffieho Helmannova výměna klíčů, jak byla představena v knize "Nové směry v kryptografii", pracuje s cyklickou multiplikativní grupou celých čísel. Algoritmus digitálního podpisu Bitcoinu a nedávno představené Schnorrovo podpisové schéma (2021) jsou oba založeny na problému diskrétního logaritmu pro konkrétní cyklickou grupu eliptických křivek.
+Diskrétní logaritmická schémata se opírají o dva hlavní druhy cyklických grup: multiplikativní grupy celých čísel a grupy, které zahrnují body na [eliptických křivkách](https://planb.academy/resources/glossary/elliptic-curve). Původní Diffieho Helmannova výměna klíčů, jak byla představena v knize "Nové směry v kryptografii", pracuje s cyklickou multiplikativní grupou celých čísel. Algoritmus [digitálního podpisu](https://planb.academy/resources/glossary/digital-signature) Bitcoinu a nedávno představené [Schnorrovo podpisové schéma](https://planb.academy/resources/glossary/schnorr-protocol) (2021) jsou oba založeny na problému diskrétního logaritmu pro konkrétní cyklickou grupu eliptických křivek.
 
 Dále se zaměříme na přehled utajení a autentizace v asymetrickém prostředí. Ještě předtím však musíme učinit krátkou historickou poznámku.
 
@@ -1836,7 +1836,7 @@ Dalším příkladem jsou digitální podpisy, které jsou důležitým aspektem
 
 Jako poslední příklad síly digitálních podpisů uveďme Bitcoin. Jednou z nejčastějších mylných představ o Bitcoinu, zejména v médiích, je, že transakce jsou šifrované: nejsou. Místo toho transakce v Bitcoinech pracují s digitálními podpisy pro zajištění bezpečnosti.
 
-Bitcoiny existují v dávkách, které se nazývají nespotřebované transakční výstupy (neboli **UTXO**). Předpokládejme, že na určitou bitcoinovou adresu obdržíte tři platby po 2 bitcoinech. Technicky vzato nyní nemáte na této adrese 6 bitcoinů. Místo toho máte tři dávky po 2 bitcoinech, které jsou uzamčeny kryptografickým problémem spojeným s touto adresou. Pro jakoukoli platbu, kterou provedete, můžete použít jednu, dvě nebo všechny tři tyto dávky, podle toho, kolik pro danou transakci potřebujete.
+Bitcoiny existují v dávkách, které se nazývají nespotřebované transakční výstupy (neboli **[UTXO](https://planb.academy/resources/glossary/utxo)**). Předpokládejme, že na určitou bitcoinovou adresu obdržíte tři platby po 2 bitcoinech. Technicky vzato nyní nemáte na této adrese 6 bitcoinů. Místo toho máte tři dávky po 2 bitcoinech, které jsou uzamčeny kryptografickým problémem spojeným s touto adresou. Pro jakoukoli platbu, kterou provedete, můžete použít jednu, dvě nebo všechny tři tyto dávky, podle toho, kolik pro danou transakci potřebujete.
 
 Důkaz vlastnictví nad nevyčerpanými výstupy transakcí se obvykle prokazuje jedním nebo více digitálními podpisy. Bitcoin funguje právě proto, že platné digitální podpisy na nespotřebovaných výstupech transakcí je výpočetně nemožné vytvořit, pokud nevlastníte tajné informace potřebné k jejich vytvoření.
 
@@ -1882,7 +1882,7 @@ Začněme definicí hashovací funkce. **Hašovací funkce** je jakákoli efekti
 
 V kontextu kryptografie se "hashovací funkcí" obvykle rozumí kryptografická hashovací funkce. Od této chvíle se budu řídit touto praxí.
 
-Příkladem oblíbené hašovací funkce je **SHA-256** (secure hash algorithm 256). Bez ohledu na velikost vstupu (např. 15 bitů, 100 bitů nebo 10 000 bitů) poskytne tato funkce 256bitovou hodnotu hash. Níže si můžete prohlédnout několik příkladů výstupů funkce SHA-256.
+Příkladem oblíbené hašovací funkce je **[SHA-256](https://planb.academy/resources/glossary/sha256)** (secure hash algorithm 256). Bez ohledu na velikost vstupu (např. 15 bitů, 100 bitů nebo 10 000 bitů) poskytne tato funkce 256bitovou hodnotu hash. Níže si můžete prohlédnout několik příkladů výstupů funkce SHA-256.
 
 "Dobrý den": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

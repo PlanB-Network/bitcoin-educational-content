@@ -1,9 +1,9 @@
-question: Kịch bản nào minh họa tốt nhất việc sử dụng hồ sơ Essential cho thanh toán Bitcoin?
-answer: Một nhà hàng chấp nhận một vài khoản thanh toán Bitcoin mỗi tháng
+question: Ví dụ nào minh họa tốt nhất khi nhóm hồ sơ thiết yếu sử dụng cho việc thanh toán với Bitcoin?
+answer: Một nhà hàng chấp nhận một vài khoản thanh toán bằng Bitcoin mỗi tháng
 wrong_answers:
   - Một tập đoàn đa quốc gia xử lý hàng ngàn giao dịch mỗi ngày
   - Một người làm việc tự do độc lập chấp nhận thanh toán hóa đơn của họ bằng bitcoin
   - Bàn giao dịch Bitcoin tần suất cao
 explanation: |
-  Hồ sơ Essential nhắm mục tiêu đến các doanh nghiệp vừa và nhỏ có số lượng giao dịch Bitcoin hạn chế, chẳng hạn như nhà hàng.
+  Nhóm hồ sơ thiết yếu nhắm đến các doanh nghiệp vừa và nhỏ có số lượng giao dịch Bitcoin hạn chế, chẳng hạn như nhà hàng.
 reviewed: true

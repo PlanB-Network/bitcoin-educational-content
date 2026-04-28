@@ -37,7 +37,7 @@ Acemiler için ideal olan bu ilk seçenek Alby bulut seçeneğidir. Alby Hub Int
 Bu seçeneğin en büyük avantajı, barındırmayı kendiniz yönetmek zorunda kalmadan 7/24 çalışan bir Lightning düğümüne sahip olmanızdır. Dahası, Lightning düğümünüzün yedeklemeleri, kanal yedeklemelerini kendiniz yönetmeniz gereken kendi kendine barındırılan seçeneklere kıyasla basitleştirilmiş ve otomatikleştirilmiştir.
 
 
-Alby Cloud ücretli bir hizmettir [Daha fazla ayrıntı için fiyatlandırmalarını kontrol edin] (https://albyhub.com/#pricing). Ücret, Alby tarafından verilen bir Lightning Invoice aracılığıyla Wallet'inizden otomatik olarak düşülür. Bu, düğümünüzü aboneliğinizle ilgili Alby faturalarını otomatik olarak ödeyecek şekilde yapılandıran bir NWC bağlantısı aracılığıyla yapılır.
+Alby Cloud ücretli bir hizmettir [Daha fazla ayrıntı için fiyatlandırmalarını kontrol edin](https://albyhub.com/#pricing). Ücret, Alby tarafından verilen bir Lightning Invoice aracılığıyla Wallet'inizden otomatik olarak düşülür. Bu, düğümünüzü aboneliğinizle ilgili Alby faturalarını otomatik olarak ödeyecek şekilde yapılandıran bir NWC bağlantısı aracılığıyla yapılır.
 
 
 
@@ -71,7 +71,7 @@ Bu eğitim, seçilen seçenekten bağımsız olarak aynı olacak olan Interface'
 ![ALBY HUB](assets/fr/02.webp)
 
 
-Bilgisayarınıza yerel kurulum için, [işletim sisteminize göre yazılımı indirin ve kurun] (https://github.com/getAlby/hub/releases), ardından Interface'deki aynı talimatları izleyin.
+Bilgisayarınıza yerel kurulum için, [işletim sisteminize göre yazılımı indirin ve kurun](https://github.com/getAlby/hub/releases), ardından Interface'deki aynı talimatları izleyin.
 
 
 ![ALBY HUB](assets/fr/03.webp)
@@ -250,10 +250,10 @@ Alby Hub'ınıza fon göndermeden önce, bir sorun olması durumunda bu fonları
 Bu 2 bilgiden herhangi birinin olmaması, bitcoinlerinizi tam olarak kurtarmanızı imkansız hale getirecektir.
 
 
-Alby Hub'ı kendi cihazlarında çalıştıranlar için kurtarma süreci [burada] (https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account) belgelenmiştir.
+Alby Hub'ı kendi cihazlarında çalıştıranlar için kurtarma süreci [burada](https://guides.getalby.com/user-guide/alby-account-and-browser-extension/alby-hub/backups-and-recover#alby-hub-self-hosted-with-an-alby-account) belgelenmiştir.
 
 
-Alby Hub'ı mevcut bir düğüme kurduysanız, söz konusu düğüm işletim sisteminin kurtarma sürecini izlemeniz gerekir. Örneğin: Umbrel, Lightning kanallarınızın en son durumunu şifrelemek ve Tor aracılığıyla dinamik ve anonim olarak kaydetmek için [bir seçenek] (https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) sunar. Yalnızca Alby'nin otomatik yedeklemelerinin herhangi bir kanalı kapatmadan Hub'ınızı tamamen kurtarmanıza izin verdiğini unutmayın.
+Alby Hub'ı mevcut bir düğüme kurduysanız, söz konusu düğüm işletim sisteminin kurtarma sürecini izlemeniz gerekir. Örneğin: Umbrel, Lightning kanallarınızın en son durumunu şifrelemek ve Tor aracılığıyla dinamik ve anonim olarak kaydetmek için [bir seçenek](https://github.com/getumbrel/umbrel/blob/2b266036f62a1594aa60a8a3be30cfb8656e755f/scripts/backup/README.md) sunar. Yalnızca Alby'nin otomatik yedeklemelerinin herhangi bir kanalı kapatmadan Hub'ınızı tamamen kurtarmanıza izin verdiğini unutmayın.
 
 
 ## İlk Lightning kanalınızı satın alın
@@ -412,7 +412,7 @@ Alby Go'yu yüklemek için cihazınızın uygulama mağazasına gidin:
 ![ALBY HUB](assets/fr/44.webp)
 
 
-Android kullanıcıları da uygulamayı `.apk' dosyası [Alby'nin GitHub'ında mevcut] (https://github.com/getAlby/go/releases) aracılığıyla yükleyebilirler.
+Android kullanıcıları da uygulamayı `.apk' dosyası [Alby'nin GitHub'ında mevcut](https://github.com/getAlby/go/releases) aracılığıyla yükleyebilirler.
 
 
 ![ALBY HUB](assets/fr/45.webp)

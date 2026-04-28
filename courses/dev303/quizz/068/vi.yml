@@ -1,0 +1,8 @@
+question: Ưu điểm chính của phương pháp kiểu dữ liệu tĩnh của Rust so với kiểu dữ liệu động khi phát triển ứng dụng Bitcoin là gì?
+answer: Các lỗi kiểu dữ liệu được phát hiện trong quá trình biên dịch trước khi triển khai, ngăn ngừa các lỗi xảy ra trong quá trình xử lý tiền của người dùng.
+wrong_answers:
+  - Việc sử dụng kiểu dữ liệu tĩnh cho phép tốc độ thực thi nhanh hơn khi xử lý các giao dịch Bitcoin trên blockchain.
+  - "Kiểu dữ liệu động yêu cầu phân bổ bộ nhớ nhiều hơn, điều này mâu thuẫn với yêu cầu về cấu hình nhẹ của Bitcoin."
+  - Việc sử dụng kiểu dữ liệu tĩnh cho phép tạo mã tự động cho việc triển khai giao thức Bitcoin và các hợp đồng thông minh.
+explanation: |
+  Kiểu dữ liệu tĩnh của Rust phát hiện các lỗi không khớp kiểu dữ liệu trong quá trình biên dịch, đảm bảo các lỗi được giải quyết trước khi phần mềm có thể được xây dựng hoặc triển khai. Điều này rất quan trọng đối với việc phát triển Bitcoin vì một khi phần mềm xử lý tiền thật của người dùng, các lỗi kiểu dữ liệu trong quá trình chạy có thể gây ra tổn thất tài chính không thể khắc phục. Kiểu dữ liệu động chỉ phát hiện lỗi trong quá trình thực thi, có thể sau khi triển khai khi tiền của người dùng đang gặp rủi ro. Các lựa chọn khác không chính xác vì lợi ích chính của kiểu dữ liệu tĩnh không phải là tốc độ thực thi, mức sử dụng bộ nhớ hay tạo mã, mà là ngăn ngừa lỗi trong quá trình biên dịch.

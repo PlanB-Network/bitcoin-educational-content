@@ -1,5 +1,5 @@
 ---
-name: Máy chủ BTCPay - Umbrel
+name: BTCPay Server - Umbrel
 description: Cài đặt và sử dụng BTCPay Server trên Umbrel để chấp nhận Bitcoin và Lightning
 ---
 

@@ -1,8 +1,9 @@
-question: Lightning Network neye izin veriyor?
-answer: Anında, düşük maliyetli Bitcoin işlemleri.
+question: Lightning Network’ün temel amacı nedir?
+answer: Hızlı ve düşük maliyetli offchain ödemeleri mümkün kılmak
 wrong_answers:
-  - Anlık, yüksek maliyetli Bitcoin işlemleri.
-  - Gecikmeli, düşük maliyetli Bitcoin işlemleri.
-  - Gecikmeli, yüksek maliyetli Bitcoin işlemleri.
-explanation: >-
-reviewed: true
+  - Bitcoin blokzincirinin blok boyutunu artırmak
+  - Bitcoin blokzincirini kademeli olarak daha verimli bir sistemle değiştirmek
+  - Madencilik çiftliklerini çok zengin yapmak
+explanation: |
+  Lightning Network, ana blokzinciri aşırı yüklemeden, düşük ücretlerle neredeyse anında bitcoin ödemelerini mümkün kılmayı amaçlar.
+reviewed: false

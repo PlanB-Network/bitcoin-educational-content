@@ -7,4 +7,6 @@ description: Configurar o seu OEPNDIME
 
 
 
+
+
 ![Tutorial video BTC Sessions](https://youtu.be/3piUS0vPtqU)

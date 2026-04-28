@@ -289,7 +289,7 @@ Uthibitishaji uliofanikiwa unahakikisha kwamba faili yako ya `.img` ni ya kweli 
 
 
 
-Ikiwa tayari huna, pakua programu ya [Balena Etcher] (https://etcher.balena.io/), kisha:
+Ikiwa tayari huna, pakua programu ya [Balena Etcher](https://etcher.balena.io/), kisha:
 
 
 

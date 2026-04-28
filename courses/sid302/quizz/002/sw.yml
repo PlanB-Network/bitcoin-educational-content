@@ -1,0 +1,8 @@
+question: Ni mara ngapi vitalu vipya huzalishwa katika Liquid Network?
+answer: Kila dakika
+wrong_answers:
+  - Kila dakika 10
+  - Kila sekunde 30
+  - Kila dakika 5
+explanation: |
+  Liquid Network hutoa vitalu kila dakika kwa mtindo wa mzunguko wa kudumu, ambao ni wa kasi zaidi na unaotabirika zaidi kuliko vipindi vya dakika 10 vya Bitcoin. Muda huu sahihi wa dakika moja ni muhimu kwa matumizi ya mtandao kama vile usuluhishi na utatuzi wa haraka wa kubadilishana, na kutoa kasi inayohitajika kwa shughuli za biashara za kitaasisi.

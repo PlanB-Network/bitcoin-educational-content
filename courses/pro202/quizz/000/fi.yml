@@ -1,0 +1,8 @@
+question: Mitä elliptisen käyrän yhtälöä Bitcoin:n secp256k1 käyttää?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin käyttää erityisesti elliptistä käyrää secp256k1, jonka yksinkertaistettu yhtälö on y² = x³ + 7. Tämä on erikoistapaus yleisestä elliptisen käyrän muodosta y² = x³ + ax + b, jossa a = 0 ja b = 7. Muut vaihtoehdot ovat virheellisiä: y² = x³ + ax + b on yleinen muoto, mutta ei Bitcoin:n erityiskäyrä, y² = x³ + 5 käyttää väärää vakiota ja y² = x³ + x + 7 sisältää virheellisesti lineaarisen x-termin, jota ei ole olemassa secp256k1:ssä.

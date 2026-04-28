@@ -1,0 +1,9 @@
+question: Vilken lösning erbjuder mest suveränitet för Lightning-användare?
+answer: Klassisk blixtnod
+wrong_answers:
+  - Wallet med atomutbyte
+  - Inbyggd LN-nod
+  - Förvaringsblixt wallet
+explanation: |
+  Den klassiska noden ger total kontroll över kanaler, likviditet och avgiftspolicy. Det är den enda som gör det möjligt för dig att vara helt oberoende.
+reviewed: false

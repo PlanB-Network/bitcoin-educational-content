@@ -255,12 +255,13 @@ be-BOP به شما امکان می‌دهد پرداخت‌های Bitcoin را �
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| فیلد                  | توضیح                                               | مثالی برای استفاده                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **استاندارد BIP**       | نوع آدرس‌دهی مورد استفاده                               | BIP84 (برای آدرس‌های فرمت bech32 که با `bc1` شروع می‌شوند) |
+| **کلید عمومی گسترده شده** | Zpub شما (یا Xpub بسته به کیف پول مورد استفاده)        | `zpub...` (استخراج شده از کیف پول Bitcoin شما) |
+| **Derivation Index**   | شاخص شروع برای تولید آدرس         | `1`                                              |
+| **URL Mempool**        | URL سرویس mempool مورد استفاده برای ردیابی تراکنش‌ها | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -348,7 +349,7 @@ be-BOP همچنین می‌تواند پرداخت‌های فوری Bitcoin ر�
 
 
 
-**توجه:** شما باید یک حساب کاربری تجاری PayPal داشته باشید تا این شناسه‌ها را به generate تبدیل کنید. می‌توانید آن‌ها را از طریق پورتال [توسعه‌دهنده] (https://developer.paypal.com) دریافت کنید.
+**توجه:** شما باید یک حساب کاربری تجاری PayPal داشته باشید تا این شناسه‌ها را به generate تبدیل کنید. می‌توانید آن‌ها را از طریق پورتال [توسعه‌دهنده](https://developer.paypal.com) دریافت کنید.
 
 
 
@@ -849,12 +850,13 @@ be-BOP همچنین ادغام کامل با **Stripe**، یکی از محبوب
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| پلتفرم        | محصول قابل مشاهده | قابل اضافه به سبد |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (سایت عمومی)        | ✔️              | ✔️                  |
+| Retail POS (نقطه فروش)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (فروش از طریق ربات)  | ✔️              | ✔️                  |
 
 فقط کانال‌هایی را که می‌خواهید استفاده کنید، انتخاب کنید.
 
@@ -1024,14 +1026,15 @@ be-BOP همچنین ادغام کامل با **Stripe**، یکی از محبوب
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| هدف                 | برچسب درج کردن                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| نمایش محصول      | `[Product=slug?display=img-1]`        |
+| نمایش تصویر       | `[Picture=slug width=100 height=100 fit=contain]` |
+| یکپارچه سازی لغزنده       | `[Slider=slug?autoplay=3000]`         |
+| افزودن چالش     | `[Challenge=slug]`                    |
+| افزودن شمارش معکوس | `[Countdown=slug]`                 |
+| یکپارچه سازی فرم   | `[Form=slug]`                         |
 
 **پارامترهای فعلی**:
 
@@ -1813,14 +1816,15 @@ Be-BOP یک Interface اختصاصی برای فروش فیزیکی (فروشگ�
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| عملکرد                         | توضیح                                             |
+|----------------------------------|---------------------------------------------------------|
+| نقش نقطه فروش                         | اختصاص شده از طریق ARM                                         |
+| رابط اصلی             | `/pos` یا `/pos/touch`                                 |
+| نمایشگر مشتری (صفحه 2)       | `/pos/session`                                         |
+| پرداخت                         | نقد، کارت، Lightning و غیره                         |
+| اضافه کردن محصول                    | نام مستعار یا اسکن بارکد                              |
+| تخفیفات / مالیات بر ارزش افزوده                    | با توجیه مدیریتی اجباری              |
 
 از اینکه این آموزش را با دقت دنبال کردید متشکریم.

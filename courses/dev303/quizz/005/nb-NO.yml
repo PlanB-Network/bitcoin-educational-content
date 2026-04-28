@@ -1,0 +1,8 @@
+question: Hva er Clippys primære funksjon i Rust-utviklingsøkosystemet?
+answer: En avansert linter som analyserer kode og foreslår forbedringer for bedre Rust-idiomer
+wrong_answers:
+  - En pakkebehandler som håndterer avhengighetsoppløsning og prosjektbygging
+  - Et kompilatorverktøy som omdanner Rust-kildekode til kjørbare binærfiler
+  - En dokumentasjonsgenerator som lager API-referansemateriell automatisk
+explanation: |
+  Clippy er en avansert linter som går lenger enn grunnleggende syntakskontroll for å analysere Rust-koden din og komme med forslag til forbedringer. I motsetning til enkle syntakssjekkere forstår Clippy Rust-idiomer og kan anbefale mer effektive eller idiomatiske måter å utføre spesifikke oppgaver på. De andre alternativene beskriver ulike verktøy: Cargo er pakkebehandleren som håndterer avhengigheter og bygger, rustc er kompilatoren som omdanner kildekode til kjørbare filer, og rustdoc er dokumentasjonsgeneratoren. Clippy fokuserer spesielt på analyse av kodekvalitet og hjelper utviklere med å skrive bedre og mer vedlikeholdbar Rust-kode ved å foreslå beste praksis.

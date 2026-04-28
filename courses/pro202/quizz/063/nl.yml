@@ -1,0 +1,8 @@
+question: Wat is de primaire cryptografische eigenschap waardoor compacte blokfilters (BIP158) privacy kunnen bieden aan lichte clients met behoud van perfecte nauwkeurigheid?
+answer: Ze kunnen vals-positieven produceren, maar nooit vals-negatieven bij het matchen van transacties
+wrong_answers:
+  - Ze gebruiken zero-knowledge bewijzen om te verbergen welke adressen worden opgevraagd van nodes
+  - "Ze versleutelen alle filtergegevens met de openbare sleutel van de client om afluisteren te voorkomen"
+  - Ze maken de volgorde van transactiehashes willekeurig om uitgavenpatronen voor waarnemers te verbergen
+explanation: |
+  Compacte blokfilters gebruiken probabilistische datastructuren die mogelijk ten onrechte een match aangeven (vals positief), maar nooit een echte match zullen missen (vals negatief). Deze asymmetrische eigenschap is cruciaal: fout-positieven veroorzaken alleen onnodige blokdownloads, terwijl fout-negatieven ervoor zouden zorgen dat wallets betalingen volledig missen. Het privacyvoordeel komt voort uit deze onzekerheid - waarnemers kunnen geen onderscheid maken tussen echte matches en valse positieven, waardoor onduidelijk wordt welke transacties daadwerkelijk bij de vragende wallet horen.

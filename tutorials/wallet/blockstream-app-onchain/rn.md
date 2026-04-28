@@ -94,7 +94,7 @@ description: Gushiraho porogaramu ya Blockstream kuri telefone ngendanwa no gucu
     - Gukuraho [Iporogarama yo guhagarika](https://ugukina.google.com/ububiko/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
     - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
 - Ku **iOS**:
-    - Gukuraho [Iporogarama y’Ikigo c’Igihugu] (Iporogarama y’Igihugu) mu Bubiko bw’Iporogarama.
+    - Gukuraho [Iporogarama y’Ikigo c’Igihugu](Iporogarama y’Igihugu) mu Bubiko bw’Iporogarama.
 - Iciyumviro**: Urabe ko ushobora gukura amakuru mu bibanza vyemewe kugira ngo wirinde amaporogarama y’ubuhendanyi.
 
 

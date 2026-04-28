@@ -35,7 +35,7 @@ BitSpenda er en nettbasert plattform der du kan veksle Exchange Bitcoin og Mobil
 
 
 
-Å gjøre en transaksjon med BitSpenda er ganske intuitivt, og krever få trinn. På det offisielle BitSpenda [nettstedet] (https://bitspenda.app), klikk på "Start" -knappen, så blir du omdirigert til Interface Exchange.
+Å gjøre en transaksjon med BitSpenda er ganske intuitivt, og krever få trinn. På det offisielle BitSpenda [nettstedet](https://bitspenda.app), klikk på "Start" -knappen, så blir du omdirigert til Interface Exchange.
 
 
 
@@ -177,7 +177,7 @@ Kontroller og bekreft Exchange-nummeret og beløpet, og betal deretter Lightning
 
 
 
-Gjennom BitSpenda har [Bitcoin Dua] (https://www.bitcoindua.org/) som mål å sette opp et ideelt rammeverk for innføringen av Bitcoin i Afrika. BitSpenda skiller seg hovedsakelig ut for :
+Gjennom BitSpenda har [Bitcoin Dua](https://www.bitcoindua.org/) som mål å sette opp et ideelt rammeverk for innføringen av Bitcoin i Afrika. BitSpenda skiller seg hovedsakelig ut for :
 
 
 
@@ -185,7 +185,7 @@ Gjennom BitSpenda har [Bitcoin Dua] (https://www.bitcoindua.org/) som mål å se
 - **Konfidensialitet**: Du trenger ikke å opprette en konto på plattformen, du trenger ikke å bekrefte identiteten din, og du trenger ikke å oppgi noen personlig informasjon.
 - **Frihet**: Du kan bruke BitSpenda fra hvilket som helst land for å foreta transaksjoner til Ghana, Nigeria og Kenya.
 - **Hastighet**: Ved å basere seg på Lightning-betalinger har BitSpenda kunnet redusere behandlingstiden og gjøre transaksjoner øyeblikkelige.
-- **Åpenhet**: Alle transaksjonene du har utført på BitSpenda er knyttet til unike identifikatorer som gjør det mulig for deg å spore og følge fremdriften i disse transaksjonene. Du kan også bruke disse identifikatorene til å kontakte [applikasjonsstøtte på X] (https://x.com/bitspenda).
+- **Åpenhet**: Alle transaksjonene du har utført på BitSpenda er knyttet til unike identifikatorer som gjør det mulig for deg å spore og følge fremdriften i disse transaksjonene. Du kan også bruke disse identifikatorene til å kontakte [applikasjonsstøtte på X](https://x.com/bitspenda).
 
 
 

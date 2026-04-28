@@ -1,0 +1,9 @@
+question: ซอฟต์แวร์ใดต่อไปนี้ไม่ใช่โซลูชันการบัญชี Bitcoin?
+answer: Sparrow
+wrong_answers:
+  - CoinTracker
+  - Koinly
+  - ZenLedger
+explanation: |
+  Sparrow ไม่ใช่โซลูชันการบัญชี Bitcoin ในขณะที่ตัวอื่นๆ เป็น (มันเป็นซอฟต์แวร์ Bitcoin Wallet)
+reviewed: true

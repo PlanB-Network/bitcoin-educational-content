@@ -175,7 +175,7 @@ Ishirahamwe rya Banxaas riri ku ruhande rwawe kugira rigufashe mu ngorane zose w
 - [X](ubutumwa bw'ibanki)
 - [Itelegaramu](imbuga ngurukanabumenyi)
 - [Ikiganiro](imbuga ngurukanabumenyi/imbuga ngurukanabumenyi)
-- [Nostr] (https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrh7zy)
+- [Nostr](https://iris.to/npub1glle49lugnkrqwjwhlt5rjz9p6gypatxwy409nc3rfmn9gfzj2psrh7zy)
 
 
 

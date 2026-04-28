@@ -1,0 +1,9 @@
+question: Hvis vanskelighetsmålet synker, hva skjer med miningen?
+answer: Den blir vanskeligere
+wrong_answers:
+  - Den blir lettere
+  - Den forblir identisk
+  - Den blir umulig
+explanation: |
+  Et lavere mål gir færre mulige resultater under terskelen, så det kreves flere forsøk for å finne en gyldig hash. Dette betyr at miningen er vanskeligere.
+reviewed: false

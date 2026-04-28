@@ -1,0 +1,9 @@
+question: Ni ibihe bintu Aqua na Bull Bitcoin Wallet bahuriyeko?
+answer: Umuravyo urahindura atome
+wrong_answers:
+  - Imirongo y'umuravyo kavukire
+  - Ububiko bushingiye hagati
+  - Imiravyo yinjijwe
+explanation: |
+  Izo wallet zikoresha atomic swaps kugira ngo zishyure amafagitire ya Lightning ata gukoresha node ya Lightning ataco ukoresheje kuri telefone yawe kandi mu gihe uguma mu kwicungera.
+reviewed: false

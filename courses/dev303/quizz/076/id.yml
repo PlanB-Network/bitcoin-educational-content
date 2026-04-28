@@ -1,0 +1,8 @@
+question: Mengapa menggunakan expect() pada nilai hard-coded yang tampaknya diverifikasi oleh kompiler berpotensi menimbulkan masalah dalam kode produksi?
+answer: Nilai-nilai yang dikodekan dapat berevolusi dari waktu ke waktu melalui refactoring, mengubah nilai yang sebelumnya valid menjadi kegagalan waktu proses
+wrong_answers:
+  - Kompiler tidak dapat memverifikasi validitas nilai yang dikodekan pada saat kompilasi, membuat expect() tidak dapat diandalkan
+  - Nilai yang dikodekan menggunakan lebih banyak memori daripada nilai dinamis, yang menyebabkan masalah kinerja dengan expect()
+  - Metode expect() menambahkan overhead yang tidak perlu dibandingkan dengan unwrap() ketika berhadapan dengan nilai valid yang diketahui
+explanation: |
+  Jawaban yang benar menyoroti wawasan penting dari bab ini: bahkan nilai yang dikodekan dengan aman pun bisa menjadi berbahaya dari waktu ke waktu. Contoh tersebut menunjukkan bagaimana alamat IP yang valid dapat direformat menjadi sebuah konstanta dan kemudian diubah menjadi 'localhost', sehingga melanggar asumsi awal. Jawaban yang salah adalah salah karena: kompiler dapat memverifikasi nilai yang dikodekan pada saat kompilasi, konsumsi memori bukanlah masalah dengan expect(), dan expect() tidak memiliki overhead kinerja yang signifikan dibandingkan dengan unwrap().

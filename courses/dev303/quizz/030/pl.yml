@@ -1,0 +1,8 @@
+question: Jaki jest główny cel operatora znaku zapytania (?) Rust używanego z typami Result?
+answer: Aby automatycznie rozpakowywać pomyślne wartości i natychmiast zwracać błędy z bieżącej funkcji
+wrong_answers:
+  - Aby przekonwertować wszystkie typy Result na typy Option w celu łatwiejszej obsługi wartości null
+  - Aby automatycznie panikować z niestandardowym komunikatem, gdy wystąpi jakikolwiek błąd
+  - Aby zawinąć pomyślne wartości w dodatkową warstwę Result dla dodatkowego bezpieczeństwa
+explanation: |
+  Operator znaku zapytania (?) został zaprojektowany specjalnie do propagacji błędów w Rust. Po zastosowaniu do wyniku, wyodrębnia wartość sukcesu, jeśli operacja się powiodła, umożliwiając kontynuowanie kodu z tą wartością. Jeśli jednak wystąpił błąd, operator ? natychmiast zwraca ten błąd z bieżącej funkcji, skutecznie propagując go w górę stosu wywołań. Eliminuje to potrzebę stosowania rozwlekłych wyrażeń dopasowania, zachowując jednocześnie jawną semantykę obsługi błędów. Operator ten może być używany tylko w funkcjach zwracających typy Result, zapewniając prawidłowe wzorce propagacji błędów.

@@ -1,0 +1,9 @@
+question: Welke voorwaarde maakt een blok in Bitcoin geldig?
+answer: SHA256d(block header) <= doel
+wrong_answers:
+  - SHA256d(block header) >= doel
+  - SHA256d(blok) >= doel
+  - SHA256d(block header) > doel
+explanation: |
+  Om een blok in Bitcoin geldig te laten zijn, moet de hash van zijn header, geïnterpreteerd als een getal, kleiner of gelijk zijn aan (<=) het doel.
+reviewed: false

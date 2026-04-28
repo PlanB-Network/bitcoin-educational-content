@@ -1,0 +1,8 @@
+question: Apa hubungan matematis antara nilai kesulitan Bitcoin dan target saat ini yang digunakan untuk validasi blok?
+answer: Tingkat kesulitan sama dengan target terendah yang mungkin dibagi dengan target saat ini
+wrong_answers:
+  - Tingkat kesulitan sama dengan target saat ini dibagi dengan target serendah mungkin
+  - Tingkat kesulitan sama dengan target saat ini dikalikan dengan target serendah mungkin
+  - Tingkat kesulitan sama dengan koefisien dikalikan 256 yang dipangkatkan dengan eksponen minus 3
+explanation: |
+  Tingkat kesulitan Bitcoin secara khusus didefinisikan sebagai lowest_target / current_target, yang menyatakan berapa kali lebih sulitnya mining dibandingkan dengan tingkat kesulitan yang paling mudah. Hubungan terbalik ini berarti bahwa ketika target semakin kecil (membuat hash yang valid semakin sulit ditemukan), tingkat kesulitan meningkat secara proporsional. Rumus ini memastikan tingkat kesulitan 1 mewakili kondisi mining yang paling mudah, sementara nilai yang lebih tinggi menunjukkan secara proporsional lebih banyak pekerjaan komputasi yang diperlukan untuk menemukan blok yang valid.

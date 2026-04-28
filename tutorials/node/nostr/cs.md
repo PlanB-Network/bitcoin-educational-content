@@ -4,7 +4,7 @@ description: Objevte a začněte používat Nostr
 ---
 
 
-![Nový vyzývatel přichází](assets/1.webp)
+![Nový vyzývatel přichází](assets/cover.webp)
 
 *Na konci této příručky pochopíte, co je Nostr, vytvoříte si účet a budete jej moci používat.*
 

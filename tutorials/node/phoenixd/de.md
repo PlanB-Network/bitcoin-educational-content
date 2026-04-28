@@ -99,7 +99,7 @@ Phoenixd erfordert eine Linux-Umgebung (Ubuntu/Debian empfohlen), mit einigen gr
 
 
 
-Gehen Sie auf die Seite [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) und laden Sie die neueste Version für Ihre Architektur herunter:
+Gehen Sie auf die Seite [GitHub releases](https://github.com/ACINQ/phoenixd/releases) und laden Sie die neueste Version für Ihre Architektur herunter:
 
 
 
@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits kann Phoenixd gemäß der [offiziellen Dokumentation] (https://docs.lnbits.org/guide/wallets.html) als Finanzierungsquelle nutzen:
+LNbits kann Phoenixd gemäß der [offiziellen Dokumentation](https://docs.lnbits.org/guide/wallets.html) als Finanzierungsquelle nutzen:
 
 
 
@@ -706,7 +706,7 @@ journalctl -u phoenixd -f  # Real-time logs
 
 
 
-**Aktualisierungen:** Beobachten Sie [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) für neue Versionen. Die Aktualisierung ist so einfach wie das Ersetzen der Binärdatei und der Neustart des Dienstes.
+**Aktualisierungen:** Beobachten Sie [GitHub releases](https://github.com/ACINQ/phoenixd/releases) für neue Versionen. Die Aktualisierung ist so einfach wie das Ersetzen der Binärdatei und der Neustart des Dienstes.
 
 
 

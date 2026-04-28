@@ -1,5 +1,6 @@
 ---
 term: PBKDF2
+definition: 透過多次迭代從密碼中派生加密金鑰的函數。
 ---
 
 `PBKDF2` 代表 *Password-Based Key Derivation Function 2*。這是一種使用衍生函數從密碼建立密碼鑰匙的方法。它將一個密碼、一個加密鹽作為輸入，然後將一個預先設定的函數 (通常是 Hash 函數，如 `SHA256` 或 `HMAC`)反覆套用在這些資料上。這個過程會重覆多次，以獲得 generate 密鑰。

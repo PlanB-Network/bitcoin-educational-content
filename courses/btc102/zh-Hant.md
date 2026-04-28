@@ -101,8 +101,6 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 準備好開始您的 Bitcoin 世界之旅了嗎？開始吧
 
 
-**注意**: 如果您在課程中遇到任何不熟悉的術語，請查閱[詞彙表](https://planb.academy/resources/glossary)獲取定義。
-
 # 瞭解 Bitcoin 的先決條件
 
 
@@ -132,7 +130,7 @@ Bitcoin 的生態系統及其周圍環境仍相對較新，而且依國家而定
 
 
 
-- 另一方面，加密貨幣產業**的規模要大得多，包括數以萬計的不同專案，每個專案都有自己的代幣。這個領域通常是由快速創新、炒作和短期金融投機所驅動。儘管有大膽的承諾和華麗的行銷，但許多這些專案都是集中式的、不太安全，而且無法提供太多真正的價值。**
+- 另一方面，[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)產業**的規模要大得多，包括數以萬計的不同專案，每個專案都有自己的代幣。這個領域通常是由快速創新、炒作和短期金融投機所驅動。儘管有大膽的承諾和華麗的行銷，但許多這些專案都是集中式的、不太安全，而且無法提供太多真正的價值。**
 
 
 ![image](assets/zh-Hant/005.webp)
@@ -256,13 +254,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 攻擊者通常使用虛假網站、社交媒體帳戶或欺騙性電子郵件試圖竊取您的資金。這些騙局可能透過任何通訊管道：電子郵件、社交網路、電話，甚至是傳統郵件...
 
 
-在按一下連結或採取任何行動之前，請務必仔細檢查寄件者的身份。如有疑問，請手動造訪網站，而不要使用提供的連結。最重要的是，切勿與任何人分享您的私人密碼匙或密碼。
+在按一下連結或採取任何行動之前，請務必仔細檢查寄件者的身份。如有疑問，請手動造訪網站，而不要使用提供的連結。最重要的是，切勿與任何人分享您的[私人密碼匙](https://planb.academy/resources/glossary/private-key)或密碼。
 
 
 #### Bitcoin 硬叉
 
 
-多年來，Bitcoin 經歷了數次 *Hard 分叉*，導致原始加密貨幣的替代版本產生。簡單來說，*Hard Fork* 是網路的分裂，導致兩個獨立的區塊鏈，兩者在分裂之前共享相同的歷史。當部分開發者社群或更廣泛的 Bitcoin 生態系統想要對原始通訊協定進行重大變更，但無法達成廣泛共識時，通常會發生這些分叉。他們不會放棄自己的想法，而是決定推出一個新版本的 Bitcoin（改變規則），希望使用者和礦工選擇跟隨他們的 Fork。
+多年來，Bitcoin 經歷了數次 *Hard 分叉*，導致原始加密貨幣的替代版本產生。簡單來說，*Hard Fork* 是網路的分裂，導致兩個獨立的[區塊鏈](https://planb.academy/resources/glossary/blockchain)，兩者在分裂之前共享相同的歷史。當部分開發者社群或更廣泛的 Bitcoin 生態系統想要對原始通訊協定進行重大變更，但無法達成廣泛共識時，通常會發生這些分叉。他們不會放棄自己的想法，而是決定推出一個新版本的 Bitcoin（改變規則），希望使用者和礦工選擇跟隨他們的 Fork。
 
 
 ![image](assets/zh-Hant/011.webp)
@@ -571,7 +569,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-- 提防**屎幣**和其他無用的加密貨幣；
+- 提防**[屎幣](https://planb.academy/resources/glossary/shitcoin)**和其他無用的加密貨幣；
 - 只投資您能承受損失的**金錢**；
 - 瞭解**交易**與**投資**之間的差異；
 - 注意投資的**稅務影響**；
@@ -843,13 +841,13 @@ Robert T. Kiyosaki 所著的《富爸爸，窮爸爸》（*Rich Dad, Poor Dad*�
 #### Cypherpunks 與銀行無法控制系統的發明
 
 
-Bitcoin 並非一夜之間誕生。它是密碼學、電腦科學和貨幣理論數十年研究和實驗的成果。在 Bitcoin 於 2009 年推出之前，已有數個計畫（如 eCash、b-money、Bit Gold 和 RPOW）試圖創造數位貨幣。所有計畫都面臨相同的核心問題：如何在分散式系統中防止雙重花費，而不依賴中央機構。
+Bitcoin 並非一夜之間誕生。它是[密碼學](https://planb.academy/resources/glossary/cryptography)、電腦科學和貨幣理論數十年研究和實驗的成果。在 Bitcoin 於 2009 年推出之前，已有數個計畫（如 eCash、b-money、Bit Gold 和 RPOW）試圖創造數位貨幣。所有計畫都面臨相同的核心問題：如何在分散式系統中防止雙重花費，而不依賴中央機構。
 
 
-這項挑戰直到 2008 年底仍未解決，當時有人以 Satoshi Nakamoto 的名義發表了 Bitcoin 白皮書。幾個月後，Bitcoin 的第一版開放原始碼軟體正式上線，推出了一個可以獨立於銀行或政府運作的系統。
+這項挑戰直到 2008 年底仍未解決，當時有人以 Satoshi Nakamoto 的名義發表了 Bitcoin [白皮書](https://planb.academy/resources/glossary/white-paper)。幾個月後，Bitcoin 的第一版[開放原始碼](https://planb.academy/resources/glossary/foss)軟體正式上線，推出了一個可以獨立於銀行或政府運作的系統。
 
 
-該專案深受 Cypherpunk 精神的影響；這個由開發者和思想家組成的社群相信使用加密技術來保護個人線上自由。對他們來說，隱私和分散化不是技術上的偏好，而是意識形態上的必要。Bitcoin 是這些理想最成功的體現：一個任何人都可以使用、任何人都無法控制、所有人都可以驗證的點對點貨幣網路。
+該專案深受 [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) 精神的影響；這個由開發者和思想家組成的社群相信使用加密技術來保護個人線上自由。對他們來說，隱私和分散化不是技術上的偏好，而是意識形態上的必要。Bitcoin 是這些理想最成功的體現：一個任何人都可以使用、任何人都無法控制、所有人都可以驗證的[點對點](https://planb.academy/resources/glossary/peertopeer-p2p)貨幣網路。
 
 
 ![image](assets/zh-Hant/030.webp)
@@ -875,7 +873,7 @@ Cypherpunk 運動的根源可追溯至 1990 年代早期，當時一群密碼學
 Bitcoin 並非憑空出現。它是在一個非常特殊的時刻創造出來的 - 就在 2008 年全球金融危機之後。美國房市崩盤和次貸危機導致各大銀行倒閉，動搖了人們對整個金融體系的信任。
 
 
-正是在這種充滿恐懼和不確定性的環境中，Bitcoin 誕生了。被稱為 Satoshi Nakamoto 的創造者在 Bitcoin Blockchain 的第一個區塊（即 Genesis 區塊）中包含了一個非常象徵性的信息。該訊息是：
+正是在這種充滿恐懼和不確定性的環境中，Bitcoin 誕生了。被稱為 Satoshi Nakamoto 的創造者在 Bitcoin Blockchain 的第一個區塊（即 [Genesis 區塊](https://planb.academy/resources/glossary/genesis-block)）中包含了一個非常象徵性的信息。該訊息是：
 
 
 > **"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks "** 《泰晤士報》2009 年 1 月 3 日
@@ -903,13 +901,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### 點對點，沒有中央機構
 
 
-Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人都可以使用適當的軟體（Bitcoin 節點）連接至網路，並直接與其他使用者互動，而無需依賴中央伺服器。這種去中心化的目標是防止任何單一實體（如銀行、政府或大型企業）控制、審查或停止系統。Bitcoin 在全球範圍內全天候運作，每個人都可以無條件使用。
+Bitcoin 被定義為 「點對點電子現金系統」。這意味著任何人都可以使用適當的軟體（Bitcoin [節點](https://planb.academy/resources/glossary/node)）連接至網路，並直接與其他使用者互動，而無需依賴中央伺服器。這種去中心化的目標是防止任何單一實體（如銀行、政府或大型企業）控制、審查或停止系統。Bitcoin 在全球範圍內全天候運作，每個人都可以無條件使用。
 
 
 ![image](assets/zh-Hant/034.webp)
 
 
-簡單來說，Bitcoin 網路中的每個參與者（稱為「節點」）都有一份完整的交易 Ledger 副本，稱為 Blockchain。當有新的交易發生時，就會廣播到網路中。礦工隨後會確認這些交易，將它們組合成區塊，然後加到鏈的末端（因此稱為「Blockchain」）。
+簡單來說，Bitcoin 網路中的每個參與者（稱為「節點」）都有一份完整的交易 Ledger 副本，稱為 Blockchain。當有新的交易發生時，就會廣播到網路中。[礦工](https://planb.academy/resources/glossary/miner)隨後會確認這些交易，將它們組合成區塊，然後加到鏈的末端（因此稱為「Blockchain」）。
 
 
 ![image](assets/zh-Hant/035.webp)
@@ -952,12 +950,12 @@ Mining 是電腦（或大型 Mining 場）貢獻**計算力**以保護 Bitcoin �
 #### 稀缺性與固定貨幣政策
 
 
-Bitcoin 最強大的功能之一是其*可預測且不可變更的貨幣政策*。不像傳統的法定貨幣（如美元、歐元或日圓），中央銀行可以隨意印鈔（通常會導致通貨膨脹或經濟扭曲）。
+Bitcoin 最強大的功能之一是其*可預測且不可變更的貨幣政策*。不像傳統的法定貨幣（如美元、歐元或日圓），中央銀行可以隨意印鈔（通常會導致[通貨膨脹](https://planb.academy/resources/glossary/inflation)或經濟扭曲）。
 
 比特幣永遠只有 2,100 萬個，而發行新比特幣的速度是網絡中每個人都預先知道的。
 
 
-任何政府、機構或個人都不能單方面改變 Supply 上限或分配規則。要改變這些參數的唯一方法就是變更 Bitcoin 的協定；即使如此，也需要網路中大多數的經濟參與者達成共識。
+任何政府、機構或個人都不能單方面改變 Supply 上限或分配規則。要改變這些參數的唯一方法就是變更 Bitcoin 的協定；即使如此，也需要網路中大多數的經濟參與者達成[共識](https://planb.academy/resources/glossary/consensus)。
 
 
 這種內在的稀缺性，對於那些希望選擇避開不可預測的貨幣政策，或避免因通貨膨脹而逐漸削弱購買力的人來說，是一大吸引力。隨著時間的推移，這可能代表了金融思維的轉變，儲蓄在像 Bitcoin 這樣的通縮性資產中，會比依賴傳統的通脹性貨幣更具吸引力。
@@ -1233,7 +1231,7 @@ Bitcoiners 來自各行各業，但他們有一個共同的願景：一個貨幣
 - **Cypherpunks**，擁護隱私權並反對監控；
 - 受壓迫的公民，為躲避專制政權和資本管制而尋求庇護；
 - 無政府主義者，他們將 Bitcoin 視為從國家控制中解放出來的工具；
-- 奧地利經濟學家，主張健全的貨幣和不受政府操縱的自由；
+- [奧地利經濟學家](https://planb.academy/resources/glossary/austrian-school)，主張健全的貨幣和不受政府操縱的自由；
 - 工程師、金融家和自由言論倡導者，他們認識到這種新貨幣模式的深遠社會影響。
 
 
@@ -1584,7 +1582,7 @@ Bitcoin 的發展可以透過幾組不同的貢獻者來了解：
 - 獨立開發人員，這些開發人員專注於創建工具和應用程式，以改善用戶體驗，例如 **Mempool.space**（用於追蹤交易活動的可視化 Interface）或 **Alby**（在瀏覽器和應用程式中使用 Lightning 付款的工具）。
 
 
-任何人都可以對 Bitcoin Core 提出變更建議，但過程是刻意嚴謹的。新的構想通常需要數年時間才能完善，並需要深入的技術瞭解、廣泛的社群參與以及多層的審核。提案通常以 **Bitcoin 改善提案 (BIP) ** 的形式提交；其中有些提案從未納入規程。
+任何人都可以對 Bitcoin Core 提出變更建議，但過程是刻意嚴謹的。新的構想通常需要數年時間才能完善，並需要深入的技術瞭解、廣泛的社群參與以及多層的審核。提案通常以 **Bitcoin 改善提案 ([BIP](https://planb.academy/resources/glossary/bip)) ** 的形式提交；其中有些提案從未納入規程。
 
 我們歡迎創新，但前提是必須有充分的理由、社群共識和仔細的測試作為後盾。
 
@@ -1629,7 +1627,7 @@ Bitcoin 是一個開放式系統，從一開始就設計為簡約、穩健和安
 - **Lightning Network**：
 
 
-Lightning Network 由 Thaddeus Dryja 和 Joseph Poon 於 2016 年創造，是第二個 Layer 解決方案，旨在實現即時且低成本的支付。兩位使用者可以開啟私人頻道進行交易，只有在頻道開啟或關閉時，Blockchain 才會更新餘額。通道內的交易發生在 off-chain，這表示它們不需要在 Bitcoin Blockchain 上個別記錄。此結構可實現即時交易，且費用最低，非常適合需要快速確認的低額交易。
+Lightning Network 由 Thaddeus Dryja 和 Joseph Poon 於 2016 年創造，是第二個 Layer 解決方案，旨在實現即時且低成本的支付。兩位使用者可以開啟私人頻道進行交易，只有在頻道開啟或關閉時，Blockchain 才會更新餘額。[通道](https://planb.academy/resources/glossary/payment-channel)內的交易發生在 off-chain，這表示它們不需要在 Bitcoin Blockchain 上個別記錄。此結構可實現即時交易，且費用最低，非常適合需要快速確認的低額交易。
 
 
 ![image](assets/zh-Hant/061.webp)
@@ -1668,7 +1666,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB 是一個分散且注重隱私的 Smart contract 系統，設計用於 Bitcoin 和 Lightning Network 之上。與傳統的 Smart contract 平台不同，RGB 使用 Client-side Validation 模型（意指完整的 Contract State 儲存於 off-chain，只有加密承諾才會發佈到 Bitcoin Blockchain）。此設計可改善可擴充性和隱私性。透過 RGB，使用者可以直接在 Bitcoin 或 Lightning 上建立進階的智慧契約，以發行代幣、NFT、分散式身分，甚至 DeFi 應用程式。
 
 
-RGB 的主要特點是使用稱為「單次使用封印」的加密技術來保護 Double-spending。此機制依賴於 Bitcoin 的 UTXOs (Unspent Transaction Outputs) 只能使用一次的事實。代幣的真實性由使用者端驗證 Contract 的整個歷史（從創建到目前狀態）來確保。
+RGB 的主要特點是使用稱為「單次使用封印」的加密技術來保護 Double-spending。此機制依賴於 Bitcoin 的 [UTXOs](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Outputs) 只能使用一次的事實。代幣的真實性由使用者端驗證 Contract 的整個歷史（從創建到目前狀態）來確保。
 
 
 ![image](assets/zh-Hant/062.webp)
@@ -1880,7 +1878,7 @@ Bitcoin 與傳統資產不同。它需要深思熟慮的方法，以及對使用
 
 
 - 長期儲蓄：您將購買 Bitcoin 作為一項投資，而且不打算在短期內使用。在這種情況下，最大的安全性和最小的存取風險是關鍵。
-- 逐步累積：您定期少量購買。Dollar Cost Averaging (DCA) 等策略搭配安全的 Wallet 效果很好。
+- 逐步累積：您定期少量購買。[Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) 等策略搭配安全的 Wallet 效果很好。
 - 日常開支：您可以像使用金錢一樣使用 Bitcoin。使用行動版 Wallet 進行日常小額付款（也許可以使用 Lightning），並將您的大部分 Bitcoin 放在較安全的地方。
 - 準備退休或傳承您的財富：您希望日後將 Bitcoin 轉移給他人。在適當的時候，使用可讓您輕鬆安全轉移資金的工具。可制定具備時間鎖定功能的 Multisig 或特定繼承計劃等策略，以確保您的資金既不會遺失，也不會過早存取。
 
@@ -2369,7 +2367,7 @@ Hodling 意味著玩長線遊戲。無論是在價格暴跌還是欣欣向榮的
 - 定期驗證您的復原短語的完整性。檢查信封是否被篡改，介質是否仍清晰可辨。如果有任何看起來不對勁的地方，請從您的 Wallet 進行 generate 新備份；
 
 
-若要在不損害私人金鑰的情況下監控您的持有量，請考慮使用 Watch-only wallet。它可以讓您只使用公開金鑰追蹤餘額和交易。
+若要在不損害私人金鑰的情況下監控您的持有量，請考慮使用 Watch-only wallet。它可以讓您只使用[公開金鑰](https://planb.academy/resources/glossary/public-key)追蹤餘額和交易。
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2918,7 +2916,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- 用於日常交易的 Hot Wallet，對於定期消費，偏執的用戶選擇注重隱私的錢包，如 Ashigaru、Wasabi Wallet 或 Sparrow Wallet。這些錢包支援進階功能，例如：迷你 CoinJoin 支出交易、payjoins、潛在 CoinJoin 工具、硬幣控制、UTXO 標籤或透過您自己的 Bitcoin 節點連接的能力。
+- 用於日常交易的 Hot Wallet，對於定期消費，偏執的用戶選擇注重隱私的錢包，如 Ashigaru、Wasabi Wallet 或 Sparrow Wallet。這些錢包支援進階功能，例如：迷你 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 支出交易、payjoins、潛在 CoinJoin 工具、硬幣控制、UTXO 標籤或透過您自己的 Bitcoin 節點連接的能力。
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

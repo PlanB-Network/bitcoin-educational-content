@@ -228,7 +228,7 @@ Denna återupptäckt visar dock att vi är på väg in i en slags återvändsgr�
 
 
 
-(Pierre Le Pesant de) Boisguilbert föddes i Rouen 1646. Boisguilbert utbildades vid Port-Royal i Paris och inledde en misslyckad litterär karriär innan han tog på sig olika roller, bland annat som generallöjtnant i Rouen. Det var under denna tid som han skrev flera böcker för att förespråka sina idéer, bland annat "Détail de la France" 1695, som han gav ut på nytt året därpå under en mycket tydligare titel: [*Frankrike förstört under Ludvig XIV:s regeringstid, av vem och hur, med medel för att återställa det] (https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
+(Pierre Le Pesant de) Boisguilbert föddes i Rouen 1646. Boisguilbert utbildades vid Port-Royal i Paris och inledde en misslyckad litterär karriär innan han tog på sig olika roller, bland annat som generallöjtnant i Rouen. Det var under denna tid som han skrev flera böcker för att förespråka sina idéer, bland annat "Détail de la France" 1695, som han gav ut på nytt året därpå under en mycket tydligare titel: [*Frankrike förstört under Ludvig XIV:s regeringstid, av vem och hur, med medel för att återställa det](https://archive.org/details/bub_gb_0jUaWNbTJa8C/page/n23/mode/2up)*.
 
 
 ![image](assets/sv/013.webp)
@@ -317,7 +317,7 @@ Som en reaktion på John Laws erfarenhet förklarar Cantillon vad som händer el
 ![image](assets/sv/017.webp)
 
 
-Han ser två huvudsakliga konsekvenser av att ersätta en valuta utan verkligt värde, som papperspengar, med en metallisk valuta. Den första konsekvensen är vad han kallar "folkligt förkastande", vilket innebär en växande misstro mot värdelösa pengar. Den andra konsekvensen är inflation: en försvagning av penningmängden gör varor dyrare.
+Han ser två huvudsakliga konsekvenser av att ersätta en valuta utan verkligt värde, som papperspengar, med en metallisk valuta. Den första konsekvensen är vad han kallar "folkligt förkastande", vilket innebär en växande misstro mot värdelösa pengar. Den andra konsekvensen är [inflation](https://planb.academy/resources/glossary/inflation): en försvagning av penningmängden gör varor dyrare.
 
 
 För det fjärde gick Cantillon längre än sina samtida i sin analys av **inflation**. Efter att ha observerat kollapsen av Laws system insåg Cantillon att monetär inflation inte drabbar alla lika. Tvärtom berikar den vissa medan andra utarmas. Han drog slutsatsen att inflationen har en omfördelande effekt: de som först får nyutgivna pengar drar nytta av den ökade köpkraften, medan de som får dem senare blir fattigare till följd av att de nya pengarna ges ut på grund av den stigande inflationen.
@@ -497,7 +497,7 @@ Trots att han var väl insatt bland sin tids ledande ekonomer skrev Gournay lite
 Vad vi har inkluderar:
 
 
-1. [The remarks] (https://archive.org/details/traitessurlecomm0000chil) på en översättning av en bok av den engelske ekonomen Josiah Child;
+1. [The remarks](https://archive.org/details/traitessurlecomm0000chil) på en översättning av en bok av den engelske ekonomen Josiah Child;
 
 
 ![image](assets/sv/029.webp)
@@ -573,7 +573,7 @@ Tack vare samarbetet med flera medlemmar i Gournays krets kunde många författa
 
 
 
-- Herbert's Essay on the [General Police of Grain] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 utgåvor på 4 år)
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (6 utgåvor på 4 år)
 
 
 ![image](assets/sv/033.webp)
@@ -587,13 +587,13 @@ Tack vare samarbetet med flera medlemmar i Gournays krets kunde många författa
 
 
 
-- Plumard de Dangeuls [Anmärkningar om Frankrikes och Storbritanniens fördelar och nackdelar] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 upplagor under första året)
+- Plumard de Dangeuls [Anmärkningar om Frankrikes och Storbritanniens fördelar och nackdelar](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (3 upplagor under första året)
 - Cliquot-Blervache och Gournays [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (2 upplagor 1758)
 
 Gruppen spelade också en central roll i publiceringen av
 
 
-- [Essay on the Nature of Trade in General] (https://archive.org/details/essayonnatureofc0000cant) av Richard Cantillon.
+- [Essay on the Nature of Trade in General](https://archive.org/details/essayonnatureofc0000cant) av Richard Cantillon.
 
 
 ![image](assets/sv/034.webp)
@@ -608,7 +608,7 @@ Gournay-kretsens intellektuella produktion hade stor inverkan på idéhistorien.
 ![image](assets/sv/035.webp)
 
 
-För att sprida en smak för ekonomiska diskussioner bland den franska befolkningen arbetade Gournay och hans vänner för att göra dem tillgängliga genom romaner. Efter *Memoir on the Trades*, som kritiserade skråväsendet, hjälpte Gournay och Cliquot-Blervache Gabriel-François Coyer att skriva en kort satirisk roman med titeln Chinki: [En cochinchinesisk berättelse som kan tillämpas på andra nationer] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+För att sprida en smak för ekonomiska diskussioner bland den franska befolkningen arbetade Gournay och hans vänner för att göra dem tillgängliga genom romaner. Efter *Memoir on the Trades*, som kritiserade skråväsendet, hjälpte Gournay och Cliquot-Blervache Gabriel-François Coyer att skriva en kort satirisk roman med titeln Chinki: [En cochinchinesisk berättelse som kan tillämpas på andra nationer](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/sv/036.webp)
@@ -641,7 +641,7 @@ Genom sin talang och sin plats i den franska historien överskuggade han sin far
 ![image](assets/sv/038.webp)
 
 
-Marquis de Mirabeau hade faktiskt redan uppnått enorm berömmelse redan innan han antog fysiokratin tack vare en bok med titeln "The Friend of Mankind. Traité de la population [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). Även om den första upplagan publicerades 1756 blev den känd omkring 1757, ett år före hans möte med Quesnay.
+Marquis de Mirabeau hade faktiskt redan uppnått enorm berömmelse redan innan han antog fysiokratin tack vare en bok med titeln "The Friend of Mankind. Traité de la population [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). Även om den första upplagan publicerades 1756 blev den känd omkring 1757, ett år före hans möte med Quesnay.
 
 
 
@@ -694,7 +694,7 @@ Med sin största framgång bakom sig blev Mirabeau uppvaktad. François Quesnay,
 De debatterade ursinnigt och till slut hände något som normalt aldrig händer i debatter: Mirabeau erkände rakt ut att han hade haft fel. Han höll med om Quesnays idéer och sa sig vara redo att sprida dem.
 
 
-Tillsammans bildade de kärnan i det som skulle bli den fysiokratiska skolan, förstärkt av de regelbundna rekryter som de tog in. Strax efter Mirabeaus omvändelse värvade Quesnay honom för att försvara sina idéer om beskattning. Detta ledde till ["Theory of Taxation"] (https://archive.org/details/thoriedelimpot00mira), för vilket Mirabeau skickades för några dagar till Vincennes-fängelset och sedan förvisades till Bignon.
+Tillsammans bildade de kärnan i det som skulle bli den fysiokratiska skolan, förstärkt av de regelbundna rekryter som de tog in. Strax efter Mirabeaus omvändelse värvade Quesnay honom för att försvara sina idéer om beskattning. Detta ledde till ["Theory of Taxation"](https://archive.org/details/thoriedelimpot00mira), för vilket Mirabeau skickades för några dagar till Vincennes-fängelset och sedan förvisades till Bignon.
 
 
 ![image](assets/sv/042.webp)
@@ -809,7 +809,7 @@ I denna bok samlades Quesnays viktigaste bidrag. I boken beskrivs fysiokraternas
 Fysiokratin var på modet i Frankrike, och till och med i hela Europa, under knappt ett decennium. Efter en lång utvecklingsperiod fick den en framträdande roll i mitten av 1760-talet. När Turgot kom till makten 1776 hade rörelsen redan förlorat sin popularitet, och ministern höll sitt stöd för Quesnays skola mestadels dolt.
 
 
-Dess ursprung ligger i utvecklingen av ekonomiska idéer under 1750-talet. Flera författare hjälpte till att överbrygga klyftan mellan Boisguilbert och det som senare skulle bli känt som fysiokrati. Som tidigare diskuterats låg Vincent de Gournay och hans krets av ekonomer bakom många publikationer som introducerade franska läsare till utländska ekonomiska tankar och hjälpte till att tända deras passion för ekonomi. Grunden för fysiokratin fanns redan i böcker som "Détail de la France" av Boisguilbert och ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) av Cantillon.
+Dess ursprung ligger i utvecklingen av ekonomiska idéer under 1750-talet. Flera författare hjälpte till att överbrygga klyftan mellan Boisguilbert och det som senare skulle bli känt som fysiokrati. Som tidigare diskuterats låg Vincent de Gournay och hans krets av ekonomer bakom många publikationer som introducerade franska läsare till utländska ekonomiska tankar och hjälpte till att tända deras passion för ekonomi. Grunden för fysiokratin fanns redan i böcker som "Détail de la France" av Boisguilbert och ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) av Cantillon.
 
 
 ![image](assets/sv/047.webp)
@@ -962,7 +962,7 @@ I sina tidigare citerade *Maxims* säger Quesnay:
 Fysiokraterna hade sett vilken skada statlig inblandning orsakade, särskilt inom spannmålshandeln. Man måste erkänna, säger de, att myndigheten aldrig kommer att kunna sköta handeln lika bra som enskilda individer, eftersom den skulle behöva svara på alla behov och reagera på varje förändring i efterfrågan eller Supply. Allt detta är långt bortom kapaciteten hos även den klokaste regering man kan tänka sig. Därför är det nödvändigt att låta saker och ting vara och låta dem flöda.
 
 
-Handeln är till sin natur fördelaktig och måste därför vara helt och hållet fri. En av deras medlemmar, Le Trosne, skrev till och med en broschyr med titeln [*Friheten i spannmålshandeln: alltid användbar, aldrig skadlig*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Handeln är till sin natur fördelaktig och måste därför vara helt och hållet fri. En av deras medlemmar, Le Trosne, skrev till och med en broschyr med titeln [*Friheten i spannmålshandeln: alltid användbar, aldrig skadlig*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Femte principen: Alla människor är bröder
@@ -1002,7 +1002,7 @@ I Ryssland förberedde Katarina II en lagstiftningsreform och bad Diderot att sk
 ![image](assets/sv/059.webp)
 
 
-Han blev imponerad av att läsa [*The Natural and Essential Order of Political Societies*] (https://archive.org/details/lordrenaturelete00mercuoft), som publicerades 1767, och skickade författaren, fysiokraten Mercier de la Rivière, till henne.
+Han blev imponerad av att läsa [*The Natural and Essential Order of Political Societies*](https://archive.org/details/lordrenaturelete00mercuoft), som publicerades 1767, och skickade författaren, fysiokraten Mercier de la Rivière, till henne.
 
 
 
@@ -1409,7 +1409,7 @@ Abbot av Condillac spelade en viktig roll i att definitivt avveckla denna falska
 "Definitivt" är kanske en överdrift, för i den offentliga debatten dyker denna sofism ofta upp igen. Det är kanske därför som Condillac dessutom förblir en föga känd ekonom. Bortsett från österrikiska ekonomer är det få som har förstått betydelsen av hans teori om Exchange, ingen intresserar sig längre för honom.
 
 
-För de flesta historiker av ekonomiskt tänkande markeras året 1776 av publiceringen av *The Wealth of Nations*, som grundade den ekonomiska vetenskapen. De femton lektioner vi just avslutat, där vi studerat den franska ekonomiska vetenskapen före Adam Smith, räcker för att bevisa att denna uppfattning är felaktig. Samma år 1776 utkom dessutom en annan bok som kanske förtjänar mer beröm från historikerna än Adam Smiths bok: den skrevs av Condillac och har den enkla titeln [*Commerce and Government Considered in Their Mutual Relationship*] (https://archive.org/details/commercegovernme0000cond).
+För de flesta historiker av ekonomiskt tänkande markeras året 1776 av publiceringen av *The Wealth of Nations*, som grundade den ekonomiska vetenskapen. De femton lektioner vi just avslutat, där vi studerat den franska ekonomiska vetenskapen före Adam Smith, räcker för att bevisa att denna uppfattning är felaktig. Samma år 1776 utkom dessutom en annan bok som kanske förtjänar mer beröm från historikerna än Adam Smiths bok: den skrevs av Condillac och har den enkla titeln [*Commerce and Government Considered in Their Mutual Relationship*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/sv/085.webp)
@@ -1498,7 +1498,7 @@ Från och med då tog Condorcets karriär en ny vändning när han gav sig in i 
 Mellan 1774 och 1776, under Turgots ministär, gjorde Condorcet många inlägg, alla präglade av hans Commitment till laissez-faire. Bland hans verk finns *Letters from a Farmer of Picardy to Mr. Necker*, som försvarar frihandel; *Monopolies and Monopolists*, som förespråkar fri konkurrens; *Reflections on Corvées*, som kräver att de avskaffas; och *Reflections on the Grain Trade*, som återigen hyllar frihandel och kritiserar Neckers bok i samma ämne.
 
 
-I sina [*Letters on the Grain Trade*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) gör Condorcet flera viktiga påpekanden.
+I sina [*Letters on the Grain Trade*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) gör Condorcet flera viktiga påpekanden.
 
 
 ![image](assets/sv/089.webp)
@@ -1565,7 +1565,7 @@ Detta förslag avvisades.
 
 Samma år, 1790, började debatterna om att ge ut ny pappersvaluta för att täcka statens utgifter.
 
-Dupont de Nemours motsatte sig detta bestämt och publicerade en broschyr med titeln [*Effects of Assignats on the Price of Bread*] (https://archive.org/details/effetdesassignat00dupo). Titeln var korrekt, eftersom han förklarade att utgivning av assignater oundvikligen skulle leda till inflation, en ökning av priserna på råvaror, inklusive bröd.
+Dupont de Nemours motsatte sig detta bestämt och publicerade en broschyr med titeln [*Effects of Assignats on the Price of Bread*](https://archive.org/details/effetdesassignat00dupo). Titeln var korrekt, eftersom han förklarade att utgivning av assignater oundvikligen skulle leda till inflation, en ökning av priserna på råvaror, inklusive bröd.
 
 
 

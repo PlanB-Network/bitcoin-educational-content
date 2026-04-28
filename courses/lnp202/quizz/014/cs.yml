@@ -1,0 +1,9 @@
+question: Jaké společné znaky mají Aqua a Bull Bitcoin Wallet?
+answer: Bleskové atomové výměny
+wrong_answers:
+  - Nativní kanály Lightning
+  - Centralizovaná úschova
+  - Integrovaný uzel Lightning
+explanation: |
+  Tyto wallet využívají atomické výměny k placení faktur Lightning, aniž by využívaly uzel Lightning přímo v telefonu a zůstaly v režimu self-custody.
+reviewed: false

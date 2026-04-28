@@ -1,0 +1,8 @@
+question: According to the Austrian school, what fundamental role does Bitcoin's guaranteed scarcity play in restoring the authentic economic signal?
+answer: It allows interest rates to once again become a genuine signal coordinating savings and investment, rather than a tool for political manipulation
+wrong_answers:
+  - It guarantees stable economic growth by completely eliminating economic cycles and market fluctuations
+  - "It ensures a fair distribution of wealth by preventing the excessive accumulation of capital by investors."
+  - It automatically stabilizes all market prices by creating a fixed reference standard for all transactions
+explanation: |
+  According to the Austrian school of thought, the guaranteed scarcity of Bitcoin (21 million units maximum) prevents any manipulation of the money supply by central authorities. This feature enables interest rates to truly reflect the time preferences of individuals and naturally coordinate savings and investment, unlike fiat currencies where central banks artificially manipulate these rates. The other options are incorrect, as Bitcoin guarantees neither the elimination of business cycles, nor the redistribution of wealth, nor the automatic stabilization of all prices.

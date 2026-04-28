@@ -10,7 +10,7 @@ description: Un petit guide pour inciter les clients à dépenser leurs bitcoins
 ## Introduction
 
 
-Vous avez finalement décidé d'accepter la Bitcoin dans votre entreprise et tout est prêt : la Lightning Network Wallet est configurée pour recevoir les paiements, vos employés savent comment utiliser la version en lecture seule de la Wallet pour recevoir les paiements en votre nom, le point de vente (PoS) a été configuré avec les produits du magasin et mis à jour mensuellement, et vous savez déjà comment gérer la comptabilité Bitcoin des clients. Si vous ne savez pas comment faire, regardez ce tutoriel :
+Vous avez finalement décidé d'accepter le Bitcoin dans votre entreprise et tout est prêt : la Lightning Network Wallet est configurée pour recevoir les paiements, vos employés savent comment utiliser la version en lecture seule du Wallet pour recevoir les paiements en votre nom, le point de vente (PoS) a été configuré avec les produits du magasin et mis à jour mensuellement, et vous savez déjà comment gérer la comptabilité Bitcoin des clients. Si vous ne savez pas comment faire, regardez ce tutoriel :
 
 
 https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
@@ -30,7 +30,7 @@ Dans ce tutoriel, nous allons essayer de tirer parti de cette petite minorité e
 ## Propositions
 
 
-Examinons quelques possibilités susceptibles d'encourager les clients à payer avec la Bitcoin. Nous en présenterons trois : une **politique de remise fixe**, une **politique de prix élevés permanents** et une **politique d'offres supplémentaires**.
+Examinons quelques possibilités susceptibles d'encourager les clients à payer avec le Bitcoin. Nous en présenterons trois : une **politique de remise fixe**, une **politique de prix élevés permanents** et une **politique d'offres supplémentaires**.
 
 
 ### Politique de remise fixe
@@ -48,7 +48,7 @@ Il s'agit d'une remise fixée arbitrairement sur la valeur nominale de la marcha
 #### Réduction d'une quantité finie
 
 
-Dans ce cas, l'idée est de séparer du prix une taxe ou un coût externe qui est normalement inclus dans le prix final mais qui ne s'applique pas ou ne devrait pas s'appliquer aux paiements de la Bitcoin. Le client connaît généralement l'impact de cette taxe ou de ces frais sur le prix et comprendra la politique de rabais.
+Dans ce cas, l'idée est de séparer du prix une taxe ou un coût externe qui est normalement inclus dans le prix final mais qui ne s'applique pas ou ne devrait pas s'appliquer aux paiements du Bitcoin. Le client connaît généralement l'impact de cette taxe ou de ces frais sur le prix et comprendra la politique de rabais.
 
 
 Ce type de remise est plus efficace pour les magasins physiques, en particulier pour les produits soumis à des taxes élevées ; par "taxe élevée", nous entendons un aliquote supérieur à 10% ajouté au coût nominal du bien. Dans les cas où le taux est plus bas et où le produit est simple et bon marché, il est peu probable que les clients remarquent la différence, ce qui fait qu'ils sont moins enclins à choisir Bitcoin.
@@ -78,7 +78,7 @@ Cette politique est généralement utilisée pour le commerce de détail en lign
 ### Politique d'offres supplémentaires
 
 
-Dans cette politique, au lieu d'appliquer une réduction, le commerçant offre un avantage supplémentaire lorsque le client paie avec Bitcoin. Le prix reste le même, mais la valeur perçue augmente. Cette stratégie est utile dans les cas où
+Dans cette politique, au lieu d'appliquer une réduction, le commerçant offre un avantage supplémentaire lorsque le client paie avec Bitcoin. Le prix reste le même, mais la valeur perçue augmente. Cette stratégie est utile dans les cas où :
 
 
 
@@ -97,7 +97,7 @@ En voici quelques exemples :
 - Un magasin d'électronique qui ajoute un accessoire au produit principal.
 
 
-Le principe est simple : à prix égal, les clients qui paient avec la Bitcoin reçoivent davantage. Dans la plupart des cas, le client pourra toujours acheter ce petit quelque chose de plus plus tard, mais l'avantage gratuit peut être un article unique qui n'est pas disponible autrement. Cette approche peut s'avérer très efficace pour fidéliser les utilisateurs existants de la Bitcoin et envoyer un message positif sans réduire les marges, comme ce serait le cas avec d'autres formes de rabais.
+Le principe est simple : à prix égal, les clients qui paient avec le Bitcoin reçoivent davantage. Dans la plupart des cas, le client pourra toujours acheter ce petit quelque chose de plus, plus tard; mais l'avantage gratuit peut être un article unique qui n'est pas disponible autrement. Cette approche peut s'avérer très efficace pour fidéliser les utilisateurs existants du Bitcoin et envoyer un message positif sans réduire les marges, comme ce serait le cas avec d'autres formes de rabais.
 
 
 ## Informer les clients
@@ -106,10 +106,10 @@ Le principe est simple : à prix égal, les clients qui paient avec la Bitcoin r
 Bien entendu, il ne suffit pas d'élaborer des politiques, il faut aussi en informer les clients. Si vos clients ne savent pas qu'ils peuvent payer avec le Bitcoin ou s'ils ne perçoivent pas un avantage clair à le faire, ils ne choisiront pas cette option. Votre objectif est de faire savoir aux clients que le moment est venu d'utiliser le Bitcoin dans votre magasin.
 
 
-Communiquer efficacement signifie être visible : les informations doivent être claires, simples et présentes partout où elles ont un sens - sur le point de vente, le site web, les médias sociaux, les canaux de communication directe avec les clients. Le personnel doit également être prêt à expliquer, sur un ton amical, qu'il est possible et avantageux de payer avec la Bitcoin.
+Communiquer efficacement signifie être visible : les informations doivent être claires, simples et présentes partout où elles ont un sens - sur le point de vente, le site web, les médias sociaux, les canaux de communication directe avec les clients. Le personnel doit également être prêt à expliquer, sur un ton amical, qu'il est possible et avantageux de payer avec le Bitcoin.
 
 
-Chaque politique adoptée (remise, offre ou avantage tarifaire Exchange) doit être présentée comme une opportunité pour le client, et non comme un détail technique. Le message doit être immédiat : "Payez avec la Bitcoin et obtenez plus"
+Chaque politique adoptée (remise, offre ou avantage tarifaire Exchange) doit être présentée comme une opportunité pour le client, et non comme un détail technique. Le message doit être immédiat : "Payez avec le Bitcoin et obtenez plus"
 
 
 La méthode de mise en œuvre est laissée à l'appréciation du commerçant, mais voici brièvement quelques options disponibles :
@@ -142,7 +142,7 @@ https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-885
 ## Conclusion
 
 
-Les politiques que nous avons vues - remise fixe, prix élevé de tous les temps, offre supplémentaire - ne sont que quelques-unes des stratégies possibles, toutes donnant une valeur concrète à ceux qui choisissent de payer avec la Bitcoin. Inciter à son utilisation, c'est contribuer à la construction d'une économie plus libre, plus transparente et plus résiliente.
+Les politiques que nous avons vues - remise fixe, prix élevé de tous les temps, offre supplémentaire - ne sont que quelques-unes des stratégies possibles, toutes donnant une valeur concrète à ceux qui choisissent de payer avec le Bitcoin. Inciter à son utilisation, c'est contribuer à la construction d'une économie plus libre, plus transparente et plus résiliente.
 
 
 Enfin, maintenez un dialogue ouvert avec vos clients : écoutez leurs commentaires, observez ce qui fonctionne et ce qui ne fonctionne pas, et adaptez vos politiques au fil du temps. En adoptant la bonne approche, vous attirerez davantage de clients prêts à payer avec Bitcoin. Bonne chance !

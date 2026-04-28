@@ -1,0 +1,8 @@
+question: Jaki jest podstawowy mechanizm wykorzystywany przez Rust do zapobiegania błędom związanym z pamięcią, takim jak use-after-free i przepełnienia bufora?
+answer: Analiza statyczna wykonywana całkowicie w czasie kompilacji
+wrong_answers:
+  - Runtime garbage collection z automatycznym czyszczeniem pamięci
+  - Dynamiczne sprawdzanie pamięci podczas wykonywania programu
+  - Ręczne zarządzanie pamięcią z jawnymi wywołaniami alokacji
+explanation: |
+  Rust zapobiega błędom związanym z pamięcią poprzez analizę statyczną wykonywaną całkowicie w czasie kompilacji, gdzie kompilator bada kod źródłowy i określa z całą pewnością, czy operacje na pamięci są bezpieczne. Różni się to od odśmiecania (używanego przez Java/Go), które wprowadza narzut w czasie wykonywania, dynamicznego sprawdzania, które wymaga weryfikacji w czasie wykonywania, oraz ręcznego zarządzania pamięcią (używanego przez C/C++), które opiera się na dyscyplinie programisty. Podejście Rust w czasie kompilacji zapewnia bezpieczeństwo pamięci bez kosztów runtime lub nieprzewidywalnych przerw.

@@ -1,0 +1,8 @@
+question: Hva skjer når du kloner en RC<T>-instans som inneholder en stor datastruktur?
+answer: Bare referansen kopieres, og referansetelleren økes, slik at originaldataene forblir uendret
+wrong_answers:
+  - Hele datastrukturen dupliseres i minnet, og begge kopiene har separate referansetellere
+  - Det opprettes en overfladisk kopi der primitive felt kopieres, mens komplekse felt forblir delte referanser
+  - Dataene flyttes til en ny minneplassering, og den opprinnelige RC-en blir ugyldig inntil den initialiseres på nytt
+explanation: |
+  Når du kloner en RC, kopierer Rust bare referansepekeren og øker den interne referansetelleren, noe som gjør operasjonen ekstremt effektiv uavhengig av datastørrelsen. De underliggende dataene forblir på samme minneplassering og deles mellom alle RC-instanser. Dette er fundamentalt forskjellig fra å klone de faktiske dataene, noe som ville motvirke formålet med delt eierskap og sløse med minne.

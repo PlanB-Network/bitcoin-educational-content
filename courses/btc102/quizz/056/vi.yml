@@ -6,4 +6,4 @@ wrong_answers:
   - Gửi vào tài khoản ví lưu ký của bên thứ ba
 explanation: |
   CoinJoin và PayJoin giúp cải thiện tính riêng tư của hoạt động trên mạng chuỗi khối (On-Chain).
-reviewed: false
+reviewed: true

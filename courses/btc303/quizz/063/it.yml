@@ -1,9 +1,9 @@
 question: Qual è la principale differenza tecnica tra il repository Bitcoin Core su GitHub e le migliaia di altre copie dello stesso repository distribuite a livello globale?
-answer: Non c'è alcuna differenza tecnica; serve come punto focale sociale per lo sviluppo della convenienza
+answer: Non c'è alcuna differenza tecnica; serve come punto focale sociale per lo sviluppo per pura convenienza
 wrong_answers:
   - Il repository GitHub contiene firme crittografiche che lo autenticano come versione ufficiale
   - Il repository GitHub ha privilegi speciali di commit che impediscono modifiche non autorizzate alla base di codice
   - Il repository GitHub mantiene una chiave master che convalida tutte le altre copie del repository in tutto il mondo
 explanation: |
-  Secondo l'analisi di Jameson Lopp, citata nel capitolo, il repository GitHub di Bitcoin Core è tecnicamente identico a tutte le altre copie. Il suo significato è puramente sociale: è diventato il punto di riferimento per il coordinamento dello sviluppo. Il repository è una questione di convenienza piuttosto che di autorità tecnica e, se scomparisse, emergerebbe naturalmente un nuovo punto di riferimento. Questo dimostra la natura decentralizzata del Bitcoin, dove nessun singolo deposito ha la supremazia tecnica sugli altri.
-reviewed: false
+  Secondo l'analisi di Jameson Lopp, citata nel capitolo, il repository GitHub di Bitcoin Core è tecnicamente identico a tutte le altre copie. Il suo significato è puramente sociale: è diventato il punto di riferimento per il coordinamento dello sviluppo. Il repository è una questione di convenienza piuttosto che di autorità tecnica e, se scomparisse, emergerebbe naturalmente un nuovo punto di riferimento. Questo dimostra la natura decentralizzata di Bitcoin, dove nessun singolo repository ha la supremazia tecnica sugli altri.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mikä on Bitcoinin skaalautuvuusongelma?
-answer: Haaste toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
+question: Mikä mekanismi tekee Lightning-maksuista atomisia?
+answer: HTLC
 wrong_answers:
-  - Uusien Bitcoinien louhinnan vaikeus niiden arvon kasvaessa ajan myötä.
-  - Bitcoinin hinnan volatiliteetti, joka kasvaa jokaisen puolittumisen jälkeen.
-  - Bitcoinin sääntelyn puute, mikä tekee transaktioista laittomia.
-explanation: >-
-  Skaalautuvuusongelma viittaa haasteeseen toteuttaa rahajärjestelmä, joka pystyy käsittelemään yhä kasvavan määrän transaktioita sekunnissa sen käyttöönoton myötä.
-reviewed: true
+  - Moniallekirjoitus
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC:t ehdollistavat maksun salaisuuden paljastamiseen ja takaavat täydellisen onnistumisen tai epäonnistumisen ilman tappiota.
+reviewed: false

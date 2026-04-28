@@ -1,5 +1,5 @@
 ---
-name: Penjelajah Blockstream
+name: Blockstream Explorer
 description: Jelajahi lapisan utama Bitcoin dan Liquid Network
 ---
 
@@ -7,19 +7,19 @@ description: Jelajahi lapisan utama Bitcoin dan Liquid Network
 
 
 
-Blockstream Explorer adalah sebuah proyek yang memfasilitasi eksplorasi transaksi dan status global protokol Bitcoin, serta [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) Liquid yang dikembangkan oleh perusahaan Blockstream.
+Blockstream Explorer adalah sebuah proyek yang memfasilitasi eksplorasi transaksi dan status global protokol Bitcoin, serta [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) Liquid yang dikembangkan oleh perusahaan Blockstream.
 
 
 
-Diprakarsai pada tahun 2014 oleh Blockstream, sebuah perusahaan yang didirikan oleh Adam Back, penjelajah [blockstream.info] (https://blockstream.info) bertujuan untuk menyediakan infrastruktur yang kuat untuk Bitcoin, menjamin interoperabilitas dan pelacakan transaksi antar lapisan (on-chain dan Liquid), sekaligus meningkatkan keamanan dan privasi pengguna.
+Diprakarsai pada tahun 2014 oleh Blockstream, sebuah perusahaan yang didirikan oleh Adam Back, penjelajah [blockstream.info](https://blockstream.info) bertujuan untuk menyediakan infrastruktur yang kuat untuk Bitcoin, menjamin interoperabilitas dan pelacakan transaksi antar lapisan (on-chain dan Liquid), sekaligus meningkatkan keamanan dan privasi pengguna.
 
 
 
-Dalam tutorial ini, kita akan melihat apa yang membedakannya, layanannya, dan bagaimana ia menawarkan pemantauan tanpa batas atas operasi dan status lapisan on-chain dan Liquid Bitcoin.
+Dalam tutorial ini, kita akan melihat apa yang membuatnya berbeda, layanannya, dan bagaimana ia menawarkan pemantauan tanpa batas atas operasi dan status lapisan on-chain dan Liquid Bitcoin.
 
 
 
-## Memulai dengan penjelajah Blockstream
+## Memulai dengan Blockstream Explorer
 
 
 
@@ -27,8 +27,7 @@ Dalam tutorial ini, kita akan melihat apa yang membedakannya, layanannya, dan ba
 
 
 
-Ketika Anda pergi ke penjelajah Blockstream.info, pada "**Dashboard**", rantai utama protokol Bitcoin dipilih secara default. Dari antarmuka ini, Anda memiliki gambaran umum tentang :
-
+Ketika kamu membuka penjelajah Blockstream.info, pada **Dashboard**, rantai utama protokol Bitcoin akan dipilih secara default. Dari antarmuka ini, kamu akan melihat gambaran umum tentang :
 
 
 
@@ -41,7 +40,7 @@ Ketika Anda pergi ke penjelajah Blockstream.info, pada "**Dashboard**", rantai u
 
 
 
-Bagian ini menyediakan informasi mengenai blok terbaru yang ditambang, stempel waktu, jumlah transaksi yang termasuk dalam setiap blok, ukuran dalam kilobyte (kB), dan pengukuran setiap blok dalam satuan berat (**WU** = *Weight Units*). Pengukuran terakhir ini sangat menarik, karena memungkinkan kita untuk mengevaluasi optimalisasi blok, mengingat bahwa setiap blok rantai utama dibatasi hingga `4.000.000 WU`, atau `4.000 kWU`.
+Bagian ini menyediakan informasi mengenai blok terbaru yang ditambang, stempel waktu, jumlah transaksi dalam setiap blok, ukuran dalam kilobyte (kB), dan ukuran tiap blok dalam satuan berat (**WU** = Weight Units). Ukuran dalam WU ini sangat menarik karena memungkinkan kita mengevaluasi optimalisasi blok, mengingat bahwa tiap blok di rantai utama dibatasi hingga '4.000.000' WU, atau '4.000' kWU.
 
 
 
@@ -63,7 +62,7 @@ Bagian transaksi memberikan informasi mengenai pengenal unik transaksi, nilai bi
 
 
 
-Dari menu "**Blok**", Anda bisa melacak riwayat seluruh rantai utama hingga ke blok terakhir yang ditambang.
+Dari menu "**Blok**", kamu bisa melacak riwayat seluruh rantai utama hingga ke blok terakhir yang ditambang.
 
 
 
@@ -71,7 +70,7 @@ Dari menu "**Blok**", Anda bisa melacak riwayat seluruh rantai utama hingga ke b
 
 
 
-Dengan mengklik pada blok tertentu, Anda bisa mendapatkan detail lebih lanjut mengenai informasi dan transaksi yang termasuk di dalamnya. Sebagai contoh, untuk blok 919330: Anda akan melihat hash dari blok tersebut. Anda juga dapat menavigasi ke blok sebelumnya, karena setiap blok yang ditambang (selain Genesis) ditautkan ke blok sebelumnya, dengan mempertahankan hash dari blok sebelumnya.
+Dengan mengklik blok tertentu, kamu bisa melihat detail lebih lanjut tentang informasi dan transaksi yang termasuk di dalamnya. Sebagai contoh, untuk blok 919330, kamu akan melihat hash dari blok tersebut. Kamu juga bisa menavigasi ke blok sebelumnya, karena setiap blok yang ditambang (kecuali Genesis) ditautkan ke blok sebelumnya dengan mempertahankan hash dari blok sebelumnya.
 
 
 
@@ -79,8 +78,7 @@ Dengan mengklik pada blok tertentu, Anda bisa mendapatkan detail lebih lanjut me
 
 
 
-Dengan mengklik tombol **"Detail "**, Anda dapat memperoleh informasi lebih lanjut mengenai blok ini, seperti statusnya, yang mengonfirmasi bahwa blok tersebut telah ditambahkan ke rantai utama yang dipertahankan dan disebarkan. Anda juga dapat melihat tingkat kesulitan di mana blok ini ditambang: tingkat kesulitan ini menunjukkan daya komputasi yang dibutuhkan untuk memecahkan masalah kriptografi mining dan disesuaikan setiap 2016 blok (sekitar 2 minggu).
-
+Dengan mengklik tombol **Detail**, kamu bisa mendapatkan informasi lebih lanjut tentang blok ini, seperti statusnya yang mengonfirmasi bahwa blok tersebut sudah ditambahkan ke rantai utama yang dipertahankan dan disebarkan. Kamu juga bisa melihat tingkat kesulitan tempat blok ini ditambang. Tingkat kesulitan ini menunjukkan daya komputasi yang dibutuhkan untuk memecahkan masalah kriptografi mining dan disesuaikan setiap 2016 blok (sekitar 2 minggu).
 
 
 ![details](assets/fr/05.webp)
@@ -91,12 +89,12 @@ Di bawah bagian detail ini, kita dapat menemukan semua transaksi yang termasuk d
 
 
 
-Transaksi pertama dalam blok disebut dengan **transaction coinbase**. Transaksi ini digunakan untuk mengalokasikan upah mining penambang (semua biaya yang terkait dengan transaksi yang termasuk dalam blok dan hibah blok). Bitcoin yang dihasilkan dari transaksi ini hanya dapat digunakan setelah 100 blok berturut-turut ditambang. Dengan kata lain, untuk dapat menggunakannya, penambang harus menunggu produksi blok **919430**. Hal ini dikenal sebagai [*"periode jatuh tempo"] (https://planb.academy/fr/resources/glossary/maturity-period).
+Transaksi pertama dalam blok disebut dengan **transaction coinbase**. Transaksi ini digunakan untuk mengalokasikan upah mining penambang (semua biaya yang terkait dengan transaksi yang termasuk dalam blok dan hibah blok). Bitcoin yang dihasilkan dari transaksi ini hanya dapat digunakan setelah 100 blok berturut-turut ditambang. Dengan kata lain, untuk dapat menggunakannya, penambang harus menunggu produksi blok **919430**. Hal ini dikenal sebagai [*"periode jatuh tempo"](https://planb.academy/fr/resources/glossary/maturity-period).
 
 
 
-Coinbase adalah transaksi khusus: ini adalah satu-satunya transaksi yang tidak memiliki input nyata, karena tidak menggunakan bitcoin dari transaksi sebelumnya.
 
+Coinbase adalah transaksi khusus yang menjadi satu-satunya transaksi tanpa input nyata, karena tidak menggunakan bitcoin dari transaksi sebelumnya.
 
 
 
@@ -108,11 +106,9 @@ Semua transaksi lainnya dibagi menjadi dua bagian: input dan output.
 
 
 
-Agar bitcoin dapat digunakan sebagai input dalam transaksi baru, pemrakarsa transaksi harus membuktikan kepemilikannya dengan memberikan tanda tangan yang sesuai dengan skrip tertentu. Setiap keping bitcoin (UTXO) berisi sebuah skrip yang secara umum membutuhkan tanda tangan khusus yang hanya dapat diberikan oleh pemegang kunci pribadi. Skrip ini adalah ***scriptSig*** (dalam ASM), ditulis dalam Skrip Bitcoin, dan dapat terdiri dari berbagai jenis. Pada contoh ini, kita dapat melihat bahwa UTXO yang digunakan adalah tipe P2SH dengan output tipe P2WPKH (*Pay-to-Witness-Public-Key-Hash*).
+Agar bitcoin bisa digunakan sebagai input dalam transaksi baru, pemrakarsa transaksi harus membuktikan kepemilikannya dengan memberikan tanda tangan yang sesuai dengan skrip tertentu. Setiap keping bitcoin (UTXO) berisi skrip yang umumnya membutuhkan tanda tangan khusus yang hanya bisa diberikan oleh pemegang private key. Skrip ini adalah ***scriptSig*** (dalam ASM), ditulis dalam Skrip Bitcoin, dan bisa terdiri dari berbagai jenis. Pada contoh ini, kita bisa melihat bahwa UTXO yang digunakan adalah tipe P2SH dengan output tipe P2WPKH (*Pay-to-Witness-Public-Key-Hash*).
 
-
-
-Anda dapat menelusuri sejarah UTXO tertentu menggunakan heuristik. Kami mengundang Anda untuk menemukan berbagai heuristik Bitcoin dan cara-cara untuk memperkuat kerahasiaan transaksi Anda di Bitcoin:
+Kamu juga bisa menelusuri sejarah UTXO tertentu menggunakan heuristik. Kami mengajak kamu untuk menemukan berbagai heuristik Bitcoin dan cara memperkuat kerahasiaan transaksi kamu di Bitcoin:
 
 
 
@@ -130,8 +126,7 @@ Mari kita ambil contoh biaya keluar dari transaksi ini. Dengan mengklik pengenal
 
 
 
-Dari halaman ini, Anda dapat mengetahui di blok mana transaksi tersebut dimasukkan. Bergantung pada jenis alamat yang digunakan, transaksi dapat mengoptimalkan datanya (*virtual byte*) dan oleh karena itu membayar lebih sedikit biaya transaksi. Transaksi ini, sebagai contoh, menghemat 53% biaya dengan menggunakan format alamat SegWit Bech32 asli yang dimulai dengan `bc1q`.
-
+Dari halaman ini, kamu bisa melihat di blok mana transaksi tersebut dimasukkan. Bergantung pada jenis alamat yang digunakan, transaksi bisa mengoptimalkan datanya (virtual byte) dan karena itu membayar biaya transaksi yang lebih rendah. Transaksi ini, sebagai contoh, menghemat 53% biaya dengan memakai format alamat SegWit Bech32 asli yang dimulai dengan 'bc1q'.
 
 
 ![trx_details](assets/fr/09.webp)
@@ -142,11 +137,11 @@ Dari halaman ini, Anda dapat mengetahui di blok mana transaksi tersebut dimasukk
 
 
 
-Liquid Network adalah [*sidechain*] (https://planb.academy/en/resources/glossary/sidechain) dan solusi open source level 2 untuk protokol Bitcoin. Secara khusus, ini memungkinkan transaksi bitcoin yang lebih cepat dan lebih rahasia.
+Liquid Network adalah [*sidechain*](https://planb.academy/en/resources/glossary/sidechain) dan solusi open source level 2 untuk protokol Bitcoin. Secara khusus, ini memungkinkan transaksi bitcoin yang lebih cepat dan lebih rahasia.
 
 
 
-Pada penjelajah Blockstream.info, klik tombol **"Liquid"** untuk beralih ke jaringan Liquid.
+Pada explorer Blockstream.info, klik tombol **"Liquid"** untuk beralih ke jaringan Liquid.
 
 
 
@@ -170,7 +165,7 @@ Akan tetapi, kami mencatat bahwa prinsip dan mekanisme yang ada pada lapisan uta
 
 
 
-Liquid Network juga menyediakan aset digital non-depositori yang dapat digunakan oleh organisasi. Dalam menu **"Aset "**, Anda akan menemukan daftar aset yang terdaftar, totalnya, dan domain yang terkait dengannya.
+Liquid Network juga menyediakan aset digital non-depositori yang dapat digunakan oleh organisasi. Dalam menu **"Aset "**, kamu akan menemukan daftar aset yang terdaftar, totalnya, dan domain yang terkait dengannya.
 
 
 
@@ -178,7 +173,7 @@ Liquid Network juga menyediakan aset digital non-depositori yang dapat digunakan
 
 
 
-Untuk setiap aset, Anda dapat melacak riwayat transaksi penerbitan dan pembakaran (menghapus total yang beredar).
+Untuk setiap aset, kamu dapat melacak riwayat transaksi penerbitan dan pembakaran (menghapus total yang beredar).
 
 
 
@@ -199,7 +194,7 @@ Penjelajah Blockstream.info juga mencakup visualisasi dan pelacakan transaksi pa
 
 
 
-Ketika Anda masuk ke jaringan Testnet, Anda tidak menggunakan bitcoin asli, tetapi Anda memiliki semua fitur yang dijelaskan di atas.
+Ketika kamu masuk ke jaringan Testnet, kamu tidak menggunakan bitcoin asli, tetapi kamu memiliki semua fitur yang dijelaskan di atas.
 
 
 
@@ -207,13 +202,13 @@ Ketika Anda masuk ke jaringan Testnet, Anda tidak menggunakan bitcoin asli, teta
 
 
 
-Jaringan ini memiliki panjang rantai yang berbeda, di mana Anda dapat menghubungkan dan menguji pengoperasian mekanisme Bitcoin dan Liquid.
+Jaringan ini memiliki panjang rantai yang berbeda, di mana kamu dapat menghubungkan dan menguji pengoperasian mekanisme Bitcoin dan Liquid.
 
 
 
 
 
-- Bagian API didedikasikan untuk siapa saja yang ingin mengintegrasikan fungsi-fungsi Explorer tertentu ke dalam aplikasi mereka sendiri. Melalui API ini Anda dapat menginterogasi rantai utama dari berbagai lapisan (on-chain dan Liquid), melacak transaksi dan mengetahui biaya rata-rata untuk transaksi dalam satu blok, misalnya.
+- Bagian API ditujukan untuk siapa saja yang ingin mengintegrasikan fungsi-fungsi Explorer tertentu ke dalam aplikasi mereka sendiri. Melalui API ini kamu bisa menginterogasi rantai utama dari berbagai lapisan (on-chain dan Liquid), melacak transaksi, dan mengetahui biaya rata-rata untuk transaksi dalam satu blok, misalnya.
 
 
 
@@ -221,7 +216,7 @@ Jaringan ini memiliki panjang rantai yang berbeda, di mana Anda dapat menghubung
 
 
 
-Anda sekarang siap untuk memanfaatkan potensi penuh Blockstream Explorer untuk melakukan kueri blockchain pada lapisan on-chain dan Liquid. Kami harap tutorial ini bermanfaat bagi Anda, dan kami merekomendasikan tutorial kami tentang penjelajah Bitcoin lainnya:
+Sekarang kamu siap untuk memanfaatkan potensi penuh Blockstream Explorer untuk melakukan kueri blockchain pada lapisan on-chain dan Liquid. Kami harap tutorial ini bermanfaat bagi kamu, dan kami merekomendasikan tutorial kami tentang penjelajah Bitcoin lainnya:
 
 
 

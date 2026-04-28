@@ -111,7 +111,7 @@ La instalación de Fedora Workstation requiere la siguiente configuración de ha
 
 
 
-Puede descargar la edición [Fedora Workstation] (https://fedoraproject.org/fr/workstation/download) desde el sitio web oficial del proyecto Fedora. A continuación, seleccione la versión correspondiente a la arquitectura de su procesador (32 bits - 64 bits) y haga clic en el icono **Descargar**.
+Puede descargar la edición [Fedora Workstation](https://fedoraproject.org/fr/workstation/download) desde el sitio web oficial del proyecto Fedora. A continuación, seleccione la versión correspondiente a la arquitectura de su procesador (32 bits - 64 bits) y haga clic en el icono **Descargar**.
 
 
 

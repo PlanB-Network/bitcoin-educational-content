@@ -61,7 +61,7 @@ Signal ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt au
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
-- [App Store] (https://apps.apple.com/us/app/signal-private-messenger/id874139669);
+- [App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 
 

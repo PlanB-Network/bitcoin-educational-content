@@ -1,5 +1,6 @@
 ---
-term: STABLECOIN
+term: Stablecoin
+definition: Sarafu ya siri iliyoundwa ili kudumisha thamani thabiti kulingana na rasilimali ya kumbukumbu kama vile dola.
 ---
 
 Aina ya sarafu ya crypto iliyoundwa ili kudumisha thamani thabiti inayohusiana na mali ya marejeleo, mara nyingi sarafu ya fiat kama vile dola ya Marekani.

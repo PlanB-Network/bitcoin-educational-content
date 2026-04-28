@@ -1,5 +1,6 @@
 ---
 term: DER
+definition: Umbizo la usimbaji la binary linalotumika kwa saini za ECDSA kwenye Bitcoin.
 ---
 
 Kifupi cha *Kanuni Zilizojulikana za Usimbaji*. Ni sehemu ndogo ya sheria za usimbaji za ASN.1 zilizobainishwa katika vipimo [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) na hutumika kusimba aina yoyote ya data ya mfuatano wa mfumo wa jozi. DER hutumiwa hasa katika nyanja mahususi, kama vile kriptografia, ambapo data lazima isimbishwe kwa njia ya kawaida, inayotabirika.

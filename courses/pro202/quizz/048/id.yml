@@ -1,0 +1,8 @@
+question: Apa yang terjadi ketika membuat pohon Merkle dari transaksi jika jumlah hash pada level mana pun ganjil?
+answer: Hash terakhir diduplikasi untuk membuat jumlah pasangan yang genap untuk level berikutnya
+wrong_answers:
+  - Hash terakhir diteruskan tanpa perubahan ke tingkat berikutnya tanpa memasangkan
+  - Hash terakhir di-XOR-kan dengan hash pertama pada level tersebut untuk menyelesaikan pemasangan
+  - Hash terakhir digabungkan dengan hash nol (semua angka nol) untuk membuat pasangan akhir
+explanation: |
+  Konstruksi pohon Merkle Bitcoin membutuhkan pasangan hash pada setiap level. Ketika ada angka ganjil, protokol secara khusus menduplikasi hash terakhir untuk memastikan pasangan yang tepat. Hal ini menjaga struktur biner pohon dan memastikan perhitungan akar yang deterministik. Pilihan lainnya akan merusak kompatibilitas dengan aturan konsensus Bitcoin dan membuat akar Merkle yang berbeda untuk set transaksi yang identik.

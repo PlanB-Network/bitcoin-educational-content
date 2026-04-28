@@ -1,0 +1,8 @@
+question: According to the Austrian school, why does wage equality in a socialist system prevent the discovery of individuals' marginal productivity?
+answer: Because wages are an informational signal about individual skills, and their artificial equalization removes this talent discovery mechanism
+wrong_answers:
+  - "Because equal pay discourages technological innovation and mechanically reduces the overall productivity of the socialist economy."
+  - Because without wage differentiation, workers lose their intrinsic motivation and become less productive in their daily tasks
+  - "Because equal pay prevents the accumulation of human capital needed to improve industrial production techniques."
+explanation: |
+  The Austrian school of thought considers that differentiated wages play a crucial informational role: they reveal the marginal productivity of each individual through the price mechanism. When everyone receives the same wage, regardless of their contribution, this signal function disappears. Society then loses its ability to identify and value the specific skills of each individual, making it impossible to allocate talents optimally to the positions where they would be most productive.

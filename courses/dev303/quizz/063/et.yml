@@ -1,0 +1,8 @@
+question: Kui makro kasutab oma definitsioonis mustrit `$($x:expr),*`, siis mida see muster saavutab?
+answer: See vastab nullile või mitmele komadega eraldatud väljenditele, võimaldades muutuva pikkusega argumentide nimekirju
+wrong_answers:
+  - See vastab täpselt ühele väljendile ja kordab makro laiendamist mitu korda
+  - See vastab mis tahes arvule tüübimääratlustele, mis on eraldatud semikooloniga koodi genereerimiseks
+  - See loob tsükli, mis täidab makrot töö ajal erinevate väljendite väärtustega
+explanation: |
+  Muster `$($x:expr),*` kasutab Rust makro korduse süntaksit, kus kvantifikaator `*` tähendab "null või rohkem", `$x:expr` tähistab iga väljendit ja koma määrab eraldaja väljendite vahel. See võimaldab sellistel makrotelementidel nagu `vec!` võtta vastu mis tahes arvu argumente: `vec![1, 2, 3]` või `vec![]`. Teised valikud on valed, sest: muster käsitleb mitut väljendit, mitte ainult ühte, see vastab konkreetselt väljenditele, mitte tüübimääratlustele, ja kasutab komasid, mitte semikoolonit, ning makros täidetakse koodi genereerimise ajal kompileerimise ajal, mitte tööajal.

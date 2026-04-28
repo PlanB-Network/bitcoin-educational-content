@@ -1,0 +1,8 @@
+question: Hvilken kryptografisk mekanisme i Blockstream AMPs blinding-arkitektur muliggjør kryptering av aktivabeløp samtidig som transaksjonsgyldigheten verifiseres?
+answer: Elliptisk kurve Diffie-Hellman-nøkkelutveksling med rekkeviddebevis som verifiserer transaksjonens gyldighet uten å avsløre krypterte verdier
+wrong_answers:
+  - SNARK med nullkunnskap og forpliktelsesordninger som skjuler transaksjonsbeløp samtidig som beregningsintegritet bevises
+  - Ringsignaturer med skjulte adresser som tilslører avsenderens identitet og samtidig opprettholder kryptografisk etterprøvbarhet
+  - Homomorf kryptering med merkle-treforpliktelser som muliggjør matematiske operasjoner på krypterte transaksjonsdata
+explanation: |
+  AMP bruker ECDH-nøkkelutveksling der avsendere krypterer verdier ved hjelp av mottakerens blinde offentlige nøkler, og genererer rekkeviddebevis som matematisk verifiserer transaksjonens gyldighet uten å avsløre verdiene. Dette skiller seg fra SNARK (beregningsbevis), ringsignaturer (fokus på anonymitet) eller homomorfisk kryptering (beregning på krypterte data) - AMP trenger spesifikt konfidensielle, men verifiserbare transaksjoner.

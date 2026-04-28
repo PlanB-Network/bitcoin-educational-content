@@ -1,0 +1,9 @@
+question: Masalah praktis apa yang terutama ingin dipecahkan oleh pool penambangan?
+answer: Varians pendapatan
+wrong_answers:
+  - Kesulitan jaringan
+  - Ukuran blok
+  - Harga ASIC
+explanation: |
+  Dengan menggabungkan hashrate, sebuah pool mengubah pendapatan yang sangat tidak teratur menjadi pembayaran yang lebih teratur. Ini adalah pengurangan varians pendapatan bagi penambang.
+reviewed: false

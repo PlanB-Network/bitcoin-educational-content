@@ -55,7 +55,7 @@ A co když klíčem k pochopení současné ekonomiky je teorie stará několik 
 
 ### Jak jsou peníze vytvářeny
 
-V našem současném peněžním systému jsou peníze primárně vytvářeny bankovní praxí známou jako "fractional reserve banking" (bankovnictví s částečnou rezervou). Tento termín v podstatě znamená, že banky nejsou povinny držet tolik rezerv, kolik přijímají na vkladech. Díky tomu mohou vytvářet novou kupní sílu při poskytování úvěrů a naopak snižovat kupní sílu, když zákazníci splácí své úvěry.
+V našem současném peněžním systému jsou peníze primárně vytvářeny bankovní praxí známou jako "[fractional reserve banking](https://planb.academy/resources/glossary/fractional-reserves)" (bankovnictví s částečnou rezervou). Tento termín v podstatě znamená, že banky nejsou povinny držet tolik rezerv, kolik přijímají na vkladech. Díky tomu mohou vytvářet novou kupní sílu při poskytování úvěrů a naopak snižovat kupní sílu, když zákazníci splácí své úvěry.
 
 Například, pokud byste přistoupili k vaší místní bance s žádostí o hypotéku na koupi domu, peníze, které vám banka půjčí, by vznikly jako účetní záznam. V účetnictví obvykle reprezentujeme čisté jmění jednotlivce pomocí rozvahy, která má dvě strany: stranu aktiv, zahrnující jakýkoliv majetek, finanční smlouvy, zásoby nebo jiné formy bohatství vlastněné, a stranu pasiv, ukazující zdroj prostředků použitých k vytvoření kapitálu uvedeného na straně aktiv. Rozdíl mezi aktivy a pasivy se označuje jako "vlastní kapitál" a dá se chápat jako čisté jmění subjektu.
 
@@ -119,7 +119,7 @@ Dalším nezamýšleným důsledkem ZIRP je, že to vlády podněcuje k rozsáhl
 
 Obrázek 6: Veřejný & soukromý dluh jako % HDP (svět, váženo podle HDP na zemi) / Zdroj: MMF
 
-S inflací na vzestupu kvůli významnému vytváření peněz v reakci na lockdowny související s COVIDem, nyní centrální bankéři zvyšují úrokové sazby v pokusu omezit inflaci. To však představuje významnou výzvu pro celý systém. Banky jsou více zadlužené než kdy jindy, vlády nesou historicky vysoké úrovně dluhu, ekonomický růst je pomalý, deficity se hromadí a spotřebitelé, kteří se potýkají s rostoucími cenami základních potřeb, mají potíže vyjít s penězi. Kontrola inflace by vyžadovala zvýšení sazeb na úroveň, která by mohla zbankrotovat vlády, zatímco banky riskují ztrátu vkladatelů, protože jednotlivci utrácejí své úspory za stále dražší základní potřeby nebo hledají útočiště v tvrdých aktivech a peněžních tržních fondech jako ochranu proti inflaci.
+S [inflací](https://planb.academy/resources/glossary/inflation) na vzestupu kvůli významnému vytváření peněz v reakci na lockdowny související s COVIDem, nyní centrální bankéři zvyšují úrokové sazby v pokusu omezit inflaci. To však představuje významnou výzvu pro celý systém. Banky jsou více zadlužené než kdy jindy, vlády nesou historicky vysoké úrovně dluhu, ekonomický růst je pomalý, deficity se hromadí a spotřebitelé, kteří se potýkají s rostoucími cenami základních potřeb, mají potíže vyjít s penězi. Kontrola inflace by vyžadovala zvýšení sazeb na úroveň, která by mohla zbankrotovat vlády, zatímco banky riskují ztrátu vkladatelů, protože jednotlivci utrácejí své úspory za stále dražší základní potřeby nebo hledají útočiště v tvrdých aktivech a peněžních tržních fondech jako ochranu proti inflaci.
 
 ### Závěr
 
@@ -127,7 +127,7 @@ S inflací na vzestupu kvůli významnému vytváření peněz v reakci na lockd
 > John Maynard Keynes
 > V podstatě naše systém čelí značným výzvám a Bitcoin se jeví jako jediná věrohodná alternativa. Bitcoin však sám o sobě nemůže řešit problémy našeho peněžního systému. Především potřebujeme mezi nadšenci Bitcoinu jedince, kteří rozumí základním ekonomickým principům, což umožní širší povědomí a ekonomický selský rozum, který nás povede pryč od budování další křehké finanční základny pro naši civilizaci. Hlavním cílem tohoto kurzu je vzdělat nové nadšence Bitcoinu v základech zdravých ekonomických principů.
 
-Abychom dosáhli tohoto cíle, vysvětlíme základní principy "Rakouské ekonomie", ekonomické školy myšlení s metodologickou tradicí sahající až do 16. století, poskytující vhledy do lidského jednání v ekonomických omezeních. S tímto úvodem nyní chápete základy tvorby peněz a současný stav našeho finančního a peněžního systému.
+Abychom dosáhli tohoto cíle, vysvětlíme základní principy "[Rakouské ekonomie](https://planb.academy/resources/glossary/austrian-school)", ekonomické školy myšlení s metodologickou tradicí sahající až do 16. století, poskytující vhledy do lidského jednání v ekonomických omezeních. S tímto úvodem nyní chápete základy tvorby peněz a současný stav našeho finančního a peněžního systému.
 
 V nadcházející kapitole se ponoříme do základního kamene jakékoli ekonomické školy myšlení: teorie hodnoty. Následující kapitoly prozkoumají peníze jako sociální instituci, teorii kapitálu a obchodního cyklu, výzvu ekonomického výpočtu a stručný přehled historie a metodologie Rakouské školy ekonomie.
 
@@ -493,9 +493,8 @@ Důsledky takového špatného rozdělení zahrnují finanční a ekonomické kr
 
 Dnes se debata o ekonomickém výpočtu znovu objevuje především v diskusích o energii, kde se stávají stále zřetelnějšími špatné investice řízené zelenou agendou. Objektivně se také vyskytuje v diskusích o peněžních trzích, kde rakouští ekonomové poukazují na to, že krize z roku 2008, kterou hlavní ekonomové nedokázali předpovědět, byla klasickým cyklem boomu a krachu charakterizovaným nadměrnými investicemi do trhu s bydlením v důsledku dlouhých období nízkých úrokových sazeb. Navíc neo-marxisté a další socialistické frakce šíří názor, že vznik AI by mohl vyřešit problém ekonomického výpočtu. Tento pohled však vychází z chybného pochopení problému; problém ekonomického výpočtu není otázkou výpočetního výkonu, ale spíše otázkou generování a distribuce informací souvisejících s produkcí a alokací zdrojů. Tyto informace mohou být generovány pouze lokálně subjekty se specializovanými znalostmi a zájmem na výsledku. AI nemůže nahradit tento proces zdola nahoru a tudíž nemůže pomoci centrálním plánovačům řešit problém alokace zdrojů. Bohužel, kvůli století nedorozumění, očekáváme rozšíření tvrzení, že AI zahájí novou éru ekonomické prosperity vedenou osvícenými centrálními plánovači, kteří s pomocí AI mohou napravit selhání volných trhů.
 
-Pro konkrétní aplikaci problému ekonomického výpočtu na současnou situaci se můžete odkázat na tento článek, který se zabývá problémem alokace zdrojů v moderní Číně.
+Pro konkrétní aplikaci problému ekonomické kalkulace na současnou situaci se můžete odkázat na tento článek pojednávající o alokaci zdrojů v moderní Číně: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autor Théo Mogenet.
 
-> Cesta k finanční represi: Čína papírový tygr, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Závěr
 

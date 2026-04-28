@@ -1,0 +1,8 @@
+question: Dalam format pengodean DER untuk tanda tangan ECDSA, berapa besar peningkatan ukuran yang biasa terjadi dari data tanda tangan mentah ke tanda tangan akhir yang dikodekan?
+answer: Dari 64 byte menjadi sekitar 71-72 byte karena overhead pemformatan DER
+wrong_answers:
+  - Dari 32 byte menjadi sekitar 64 byte karena pengkodean komponen R dan S
+  - Dari 64 byte menjadi tepat 128 byte karena pengkodean ganda komponen tanda tangan
+  - Dari 71 byte menjadi sekitar 64 byte karena kompresi penanda urutan
+explanation: |
+  Pengkodean DER menambahkan overhead struktural pada tanda tangan ECDSA melalui penanda urutan (0x30), panjang byte, dan awalan komponen (0x02). Tanda tangan ECDSA mentah terdiri dari dua nilai 32-byte (R dan S) dengan total 64 byte, tetapi pemformatan DER mengembangkannya menjadi sekitar 71-72 byte. Ketidakefisienan ini merupakan salah satu alasan mengapa Bitcoin kemudian mengadopsi tanda tangan Schnorr pada Taproot, yang menggunakan tanda tangan 64-byte yang tetap tanpa overhead pengkodean.

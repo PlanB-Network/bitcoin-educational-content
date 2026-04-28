@@ -1,0 +1,9 @@
+question: Koliki je kapacitet Lightning kanala?
+answer: Ukupna zaključana suma
+wrong_answers:
+  - Ukupna dostupna likvidnost u jednom pravcu
+  - Maksimalne naknade
+  - Maksimalan broj mogućih plaćanja
+explanation: |
+  Kapacitet odgovara ukupnom zbiru sats blokiranom u multisig izlazu kanala.
+reviewed: false

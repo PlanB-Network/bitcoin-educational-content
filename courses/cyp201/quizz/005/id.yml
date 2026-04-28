@@ -6,4 +6,4 @@ wrong_answers:
   - Setiap hash disimpan dalam sebuah database
 explanation: |
   Operasi seperti ShR dan XOR membuatnya tidak mungkin untuk kembali ke keadaan awal, memastikan kebalikan tidak mungkin.
-ditinjau: false
+reviewed: true

@@ -1,5 +1,6 @@
 ---
-term: passphrase (BIP39)
+term: Parola (BIP39)
+definition: Bir HD cüzdanı güvenli hale getirmek için kurtarma ifadesine eklenen isteğe bağlı parola.
 ---
 
 Kurtarma ifadesiyle birleştirildiğinde, deterministik ve hiyerarşik Bitcoin cüzdanları için ek bir Layer güvenlik sağlayan isteğe bağlı bir parola. HD cüzdanları tipik olarak 12 veya 24 kelimeden oluşan bir kurtarma ifadesinden oluşturulur. Bu kurtarma cümlesi, kayıp durumunda bir Wallet'teki tüm anahtarların geri yüklenmesine izin verdiği için çok önemlidir. Bununla birlikte, tek bir hata noktası (SPOF) oluşturur. Eğer tehlikeye girerse, bitcoinler risk altına girer. passphrase burada devreye girer. Bu, Wallet'ün güvenliğini artırmak için kurtarma ifadesine eklenen, kullanıcı tarafından seçilen isteğe bağlı bir paroladır. PIN kodu ya da sıradan bir parola ile karıştırılmaması gereken passphrase, kriptografik anahtarların türetilmesinde rol oynar.

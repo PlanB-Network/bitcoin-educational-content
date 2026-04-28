@@ -18,7 +18,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 ## Подключение к Proton Wallet
 
-Перейдите на [веб-сайт Proton Wallet] (https://proton.me/wallet) и нажмите на кнопку "*Get Proton Wallet*".
+Перейдите на [веб-сайт Proton Wallet](https://proton.me/wallet) и нажмите на кнопку "*Get Proton Wallet*".
 
 ![Image](assets/fr/01.webp)
 

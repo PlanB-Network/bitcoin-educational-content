@@ -1,0 +1,8 @@
+question: Ni ikibazo ikihe gikomeye uburyo bwo gukoresha umurongo w’igihe nyene ca Breez SDK butorera umuti iyo mirongo y’imiravyo ya kera irwanya?
+answer: Ihita irema imirongo mishasha ifise amahera ahagije yinjira iyo amahera ashitse, bikaba bikuraho ivy’uko abakoresha bakoresha ubushobozi bw’imirongo n’amaboko .
+wrong_answers:
+  - Bibuza imihora gufunga ku nguvu mu gusubira guhuza amafaranga mu mihora myinshi iyo umwe ataco yishuye canke akaja hanze y'umurongo
+  - Bigabanya amafaranga y’ugucuruza mu gukoranya amahera makeyi menshi mu bikorwa vy’imirongo minini ikoreshwa mu masaha y’urubuga rudakora cane
+  - Bikuraho ivy’uko hakenewe ibikorwa vy’umunara w’abacungera mu kurema imirongo y’igihe gito ihita ihera iyo umuntu amaze kwishura neza .
+explanation: |
+  Uburyo bw’umurongo w’igihe kibereye buratorera umuti canecane ingorane yo gucunga amafaranga y’umuyagankuba aho amafaranga ashobora guca gusa mu nzira aho ubushobozi buri. Iyo umukoresha akeneye kwakira amahera ariko atagira amahera ahagije yinjira, LSP ica ifungura umurongo mushasha mu gihe amahera ashika, bikaba bigenda ata nkomanzi ata n’umwe akoresha. Inyishu zitari zo zidondora izindi ngorane za Lightning ariko ntizidondora ingorane yihariye y’amahera imihora y’igihe nyene itorera umuti.

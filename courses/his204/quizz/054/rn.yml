@@ -1,8 +1,10 @@
-question: Ni nde muri abo banditsi atanegura aba Fiziyokarate?
-answer: Kondorseti
+question: Ni nde muri abo banditsi atanegura aba Physiocrats?
+answer: Condorcet
 wrong_answers:
   - Voltaire
-  - Kondilaki
-  - Adamu Smith
+  - Condillac
+  - Adam Smith
 explanation: |
-  Condorcet yari afise impuhwe ku vyiyumviro vy’aba Physiocrates, mbere yarakorana na bo mu migambi imwimwe.
+  Condorcet yari afise impuhwe ku vyiyumviro vy’aba Physiocrats, mbere yarakorana na bo mu migambi imwimwe.
+reviewed: true
+  

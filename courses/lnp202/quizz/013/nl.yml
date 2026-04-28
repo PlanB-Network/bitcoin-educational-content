@@ -1,0 +1,9 @@
+question: Met welke oplossing kun je een echt Lightning-knooppunt op mobiele telefoons laten draaien?
+answer: Ingebed LN knooppunt
+wrong_answers:
+  - Huishoudelijke Bliksem wallet
+  - Bliksem atoomverwisseling
+  - Gefedereerde kanalen
+explanation: |
+  Oplossingen zoals Phoenix of Zeus Embedded integreren een echt Lightning-knooppunt rechtstreeks in de toepassing.
+reviewed: false

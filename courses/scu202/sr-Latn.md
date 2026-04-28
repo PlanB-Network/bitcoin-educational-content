@@ -1,12 +1,12 @@
 ---
 name: Poboljšanje vaše lične digitalne sigurnosti
-goal: Postavite sigurno, stabilno i efikasno lično digitalno okruženje.
+goal: Postavite sigurno, stabilno i efikasno lično digitalno okruženje
 objectives: 
 
 
   - Razumite kako moderni operativni sistemi funkcionišu i donesite informisanu odluku
   - Steknite tehničku autonomiju u Linuxu
-  - Primeni najbolje bezbednosne prakse na ličnom računaru
+  - Primenite najbolje bezbednosne prakse na ličnom računaru
   - Poboljšajte sigurnost pretraživanja interneta i korišćenja mobilnih uređaja putem alata otvorenog koda i odgovarajućih postavki
   - Implementirajte neophodne zaštite na kućnoj mreži
 
@@ -17,7 +17,7 @@ objectives:
 
 
 
-U svetu gde su digitalni uređaji svuda, ali retko ko ih savlada, učenje kako da obezbedite sopstveno IT okruženje je neophodnost. Bilo da je u pitanju vaš računar, pregledač, telefon ili kućna mreža, svaki od ovih Elements može biti potencijalna kapija ka vašoj privatnosti. Ovaj kurs vam pomaže da povratite kontrolu nad vašim digitalnim uređajima.
+U svetu prepunom digitalnih uređaja koje retko potpuno razumemo, neophodno je naučiti kako zaštititi sopstveno IT okruženje. Bilo da je u pitanju vaš računar, pregledač, telefon ili kućna mreža, svaki od ovih elemenata može biti potencijalna kapija ka vašoj privatnosti. Ovaj kurs vam pomaže da povratite kontrolu nad vašim digitalnim uređajima.
 
 
 
@@ -25,7 +25,7 @@ Nije samo stvar u poznavanju najboljih praksi: radi se o razumevanju onoga što 
 
 
 
-Kroz module kursa, otkrićete kako da verifikujete integritet softvera koji instalirate, efikasno šifrujete svoje podatke, koristite svoj pretraživač i telefon uz minimalno curenje podataka, i ojačate sigurnost vaše kućne mreže.
+Kroz module kursa, otkrićete kako da verifikujete integritet softvera koji instalirate, efikasno šifrujete svoje podatke, koristite svoj pregledač (eng. browser) i telefon uz minimalno curenje podataka, i ojačate sigurnost vaše kućne mreže.
 
 
 
@@ -65,7 +65,7 @@ Kurs počinje kratkim pregledom koncepata obrađenih u SCU101, što će osigurat
 
 
 
-Ovaj deo uvodi GNU/Linux sistem, stub digitalnog suvereniteta. Istražićete razlike između Linux-a, Windows-a i macOS-a, otkriti fascinantnu istoriju Linux-a i slobodnog softvera, i razumeti zašto je Linux često sinonim za sigurnost i slobodu.
+Ovaj deo je uvod u GNU/Linux sistem, koji predstavlja stub digitalnog suvereniteta. Istražićete razlike između Linux-a, Windows-a i macOS-a, otkriti fascinantnu istoriju Linux-a i slobodnog softvera, i razumeti zašto je Linux često sinonim za sigurnost i slobodu.
 
 
 
@@ -80,7 +80,7 @@ Zatim ćete naučiti kako odabrati Linux distribuciju koja najbolje odgovara va�
 ### Deo 3 - Osiguravanje vašeg računara
 
 
-U ovom odeljku ćete naučiti kako da ojačate bezbednost vašeg računara. Pristupićemo metodama za efikasnu zaštitu vašeg pristupa i razdvajanje vaših upotreba. Razumećete važnost redovnih ažuriranja sistema i softvera kako biste minimizirali potencijalne ranjivosti.
+U ovom odeljku ćete naučiti kako da ojačate bezbednost vašeg računara. Pristupićemo metodama kako da efikasno zaštitite pristup svojim nalozima, servisima, ličnim podacima i odvojite različite načine korišćenja. Razumećete važnost redovnih ažuriranja sistema i softvera kako biste minimizirali potencijalne ranjivosti.
 
 
 
@@ -92,7 +92,7 @@ Takođe ćete biti obučeni da proverite integritet i autentičnost preuzetog so
 
 
 
-### Deo 4 - Pregledač: operativni sistem unutar operativnog sistema
+### Deo 4 - Pregledač (eng. browser): operativni sistem unutar operativnog sistema
 
 
 
@@ -100,7 +100,7 @@ Danas su veb pregledači svuda u našim svakodnevnim digitalnim životima i čes
 
 
 
-Zatim ćete otkriti pregled današnjih rendering mašina i pregledača, njihove prednosti i mane, zajedno sa konkretnim najboljim praksama za što sigurnije pretraživanje.
+Zatim ćete otkriti pregled današnjih rendering motora (eng. rendering machines) (motori za prikaz web sadržaja) i pregledača (eng. browsers), njihove prednosti i mane, zajedno sa konkretnim najboljim praksama za što sigurnije pretraživanje.
 
 
 
@@ -128,11 +128,11 @@ Zatim ćete naučiti najbolje prakse za svakodnevnu sigurnost, od ažuriranja do
 
 
 
-Vaša kućna mreža je važna kritična tačka kada je u pitanju sigurnost. Počećemo tako što ćemo pogledati kako funkcioniše lokalna mreža, pre nego što pređemo na praktične korake uključene u njeno efikasno osiguranje.
+Vaša kućna mreža je važna kritična tačka kada je u pitanju sigurnost. Počećemo pregledom kako funkcioniše lokalna mreža, pre nego što pređemo na praktične korake za njenu efikasnu zaštitu.
 
 
 
-Naučićete kako da izaberete i konfigurišete siguran ruter, segmentirate svoju mrežu, ojačate svoju Wi-Fi mrežu i primenite alate za nadzor kako biste brzo otkrili sve anomalije.
+Naučićete kako da izaberete i konfigurišete siguran ruter, segmentirate svoju mrežu, ojačate svoju Wi-Fi mrežu i primenite alate za nadzor kako biste brzo otkrili bilo kakve anomalije.
 
 
 
@@ -156,8 +156,6 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-*N.B.: Ako naiđete na bilo koje nepoznate pojmove tokom kursa, molimo vas da se obratite [rečniku](https://planb.academy/resources/glossary) za definicije*
-
 
 
 ## Suštinski pregled SCU101
@@ -167,7 +165,7 @@ Da li ste spremni da u potpunosti preuzmete kontrolu nad svojom IT sigurnošću,
 
 
 
-Pre nego što počnemo sa kursom SCU202, želeo bih da ukratko pregledam osnovne pojmove obrađene u prethodnom kursu("SCU101") u ovom poglavlju.
+Pre nego što počnemo sa kursom SCU202, želeo bih u ovom poglavlju da ukratko pregledamo osnovne pojmove obrađene u prethodnom kursu("SCU101").
 
 
 
@@ -185,7 +183,7 @@ https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-Pregledanje interneta često je glavna ulazna tačka za pretnje sajber bezbednosti. U SCU101, videli smo da je važno ostati oprezan, posebno kada je reč o preuzimanjima. Preuzimajte datoteke samo sa pouzdanih izvora i dajte prednost softveru otvorenog koda, koji često ima koristi od veće transparentnosti i kontrole zajednice.
+Pretraživanje interneta često je glavni način nastanka pretnji po vašu sajber/informatičku bezbednost. U SCU101, videli smo da je važno ostati oprezan, posebno kada je reč o preuzimanjima. Preuzimajte datoteke samo sa pouzdanih izvora i dajte prednost softveru otvorenog koda, koji često ima koristi od veće transparentnosti i kontrole zajednice.
 
 
 
@@ -201,7 +199,7 @@ Generalno govoreći, sigurno pretraživanje zahteva određenu dozu opreza: izbeg
 
 
 
-### Razumevanje VPN-ova i osiguravanje vaše Internet veze
+### Razumevanje VPN-ova i zaštita vaše Internet konekcije
 
 
 
@@ -221,7 +219,7 @@ SCU101 vas je uveo u koncept VPN-a (Virtuelna Privatna Mreža). U praktičnom sm
 
 
 
-Sigurnost takođe znači poznavanje vašeg operativnog sistema (OS). Istražili ste tri glavna OS-a: Windows, macOS i Linux, svaki sa svojim bezbednosnim funkcijama. Na Windowsu je posebno važno imati ažuriran antivirus kako bi se otkrio i blokirao malver.
+Sigurnost takođe znači poznavanje vašeg operativnog sistema (OS). Istražili smo tri glavna OS-a: Windows, macOS i Linux, svaki sa svojim bezbednosnim funkcijama. Na Windowsu je posebno važno imati ažuriran antivirus kako bi se otkrio i blokirao malver.
 
 
 
@@ -253,15 +251,14 @@ Još jedna velika pretnja je ransomware, koji blokira vaše podatke šifrovanjem
 
 
 
-### Osigurajte svoje poštanske sandučiće efikasno
+### Efikasno zaštitite svoje poštanske sandučiće
 
 
 
-SCU101 je posebno naglasio važnost osiguravanja vaše e-pošte, koja je ulazna tačka za sve vaše druge online naloge. Kompromitovani poštanski sandučić omogućava hakerima da resetuju lozinke gotovo svih vaših naloga putem uobičajenih procedura za oporavak e-pošte.
+SCU101 je posebno naglasio važnost zaštite vaše e-pošte, koja je ulazna tačka za sve vaše druge online naloge. Kompromitovan mejl-nalog omogućava napadačima da resetuju lozinke za gotovo sve vaše naloge putem uobičajenih procedura za oporavak lozinke putem e-pošte.
 
 
-
-Dakle, videli ste važnost kreiranja sigurnih, posvećenih e-mail adresa. Pametno je imati specifičan e-mail Address rezervisan za oporavak naloga, odvojen od vašeg glavnog Address.
+Dakle, videli ste važnost kreiranja sigurnih, posvećenih e-mail adresa. Pametno je imati posebnu e-mail adresu rezervisanu za oporavak naloga, odvojenu od vaše glavne adrese.
 
 
 
@@ -273,7 +270,7 @@ Dakle, videli ste važnost kreiranja sigurnih, posvećenih e-mail adresa. Pametn
 
 
 
-Digitalna sigurnost u velikoj meri zavisi od kvaliteta vaših lozinki. SCU101 je objasnio zašto je korišćenje menadžera lozinki neophodno: ovi alati vam omogućavaju da generate i skladištite složene, jedinstvene i nasumične lozinke za svaku uslugu koju koristite.
+Digitalna sigurnost u velikoj meri zavisi od kvaliteta vaših lozinki. SCU101 je objasnio zašto je korišćenje menadžera lozinki neophodno: ovi alati vam omogućavaju da generišete i skladištite složene, jedinstvene i nasumične lozinke za svaku uslugu koju koristite.
 
 
 
@@ -301,11 +298,11 @@ ___
 
 
 
-Ovaj podsetnik na osnove će poslužiti kao baza za naš kurs SCU202, gde ćemo mnogo dublje ući u savladavanje tehnika sajber bezbednosti, kako bismo bolje zaštitili vašu individualnu suverenost, vašu privatnost i vaše lične podatke u celini.
+Ovaj podsetnik na osnove će poslužiti kao baza za naš kurs SCU202, gde ćemo mnogo detaljnije ući u savladavanje tehnika sajber bezbednosti, kako bismo bolje zaštitili našu individualnu suverenost, privatnost i lične podatke u celini.
 
 
 
-# Od klika do terminala: ovladavanje Linux-a
+# Od klika do terminala: ovladavanje Linux-om
 
 
 <partId>e28895b3-2b09-4811-8031-5abc1f14fde2</partId>
@@ -319,7 +316,7 @@ Ovaj podsetnik na osnove će poslužiti kao baza za naš kurs SCU202, gde ćemo 
 
 
 
-Počnimo ovaj kurs SCU202 sa osnovama: operativni sistem (OS) vašeg računara. Ne samo da određuje vaš izbor hardvera, već i vašu sigurnost, jednostavnost korišćenja i mogućnost prilagođavanja vašeg uređaja.
+Počnimo ovaj SCU202 kurs sa osnovama: operativnim sistemom (OS) vašeg računara. Ne samo da određuje vaš izbor hardvera, već i vašu sigurnost, jednostavnost korišćenja i mogućnost prilagođavanja vašeg uređaja.
 
 
 
@@ -331,7 +328,7 @@ Pre nego što pređemo na tehničke detalje o Linuxu u narednim poglavljima, va�
 
 
 
-Operativni sistem je skup centralnih programa koji deluje kao posrednik između korisnika, aplikacija (koje su takođe softver) i hardvera, odnosno vašeg računara. To je osnovni softver Layer koji omogućava korišćenje hardverskih resursa računara (procesor, memorija, diskovi, periferije, itd.).
+Operativni sistem je skup centralnih programa koji deluje kao posrednik između korisnika, aplikacija (koje su takođe softver) i hardvera, odnosno vašeg računara. To je osnovni softver sloj koji omogućava korišćenje hardverskih resursa računara (procesor, memorija, diskovi, periferije, itd.).
 
 
 
@@ -359,7 +356,7 @@ Upravo tako su radili rani računari. Prvi operativni sistem, GM-NAA I/O, pojavi
 
 
 
-Danas, tržištem operativnih sistema dominiraju tri glavne porodice: **Windows, MacOS i GNU/Linux**.
+Danas, tržištem operativnih sistema dominiraju tri glavne grupe: **Windows, MacOS i GNU/Linux**.
 
 
 
@@ -375,13 +372,13 @@ Prema trenutnim statistikama, Windows i dalje drži većinu instalacija na ličn
 
 
 
-- Iako se ovaj trend razvija sporo, Windows se vrlo rano uspostavio kao standard u profesionalnom svetu. Osim specifičnih sektora kao što je tehnologija, gotovo sve kompanije i dalje koriste računare zasnovane na Windows-u.
+- Iako se ovaj trend razvija sporo, Windows se vrlo rano uspostavio kao standard u profesionalnom svetu. Osim specifičnih sektora kao što je IT sektor, gotovo sve kompanije i dalje koriste računare zasnovane na Windows-u.
 
 
 
 
 
-- Široka baza korisnika podstakla je programere da daju prioritet kreiranju svog softvera za Windows, kako bi dosegli što veći broj ljudi. Zauzvrat, rastući ekosistem aplikacija privlači nove korisnike, stvarajući vrlinski krug.
+- Široka baza korisnika podstakla je programere da daju prioritet kreiranju svog softvera za Windows, kako bi dosegli što veći broj ljudi. Zauzvrat, rastući ekosistem aplikacija privlači nove korisnike, stvarajući samopodržavajući ciklus rasta.
 
 
 
@@ -395,7 +392,7 @@ macOS, u međuvremenu, ima tržišni udeo od oko 16%, i obično se bira zbog opt
 
 
 
-Linux ostaje manjina na ličnim računarima (oko 4%), ali dominira serverima (oko 63%) i superkompjuterima (100%), zahvaljujući svojoj stabilnosti i performansama.
+Linux ostaje najmanje zastupljen na ličnim računarima (oko 4%), ali dominira serverima (oko 63%) i superkompjuterima (100%), zahvaljujući svojoj stabilnosti i performansama.
 
 
 
@@ -412,7 +409,7 @@ Linux je takođe masovno integrisan u ugrađene uređaje kao što su ruteri, pov
 
 
 
-→ **Važno:** Kernel je centralna komponenta operativnog sistema: upravlja pristupom hardveru (procesor, memorija, periferije), arbitražno upravlja istovremenim izvršavanjem procesa, sprovodi bezbednosne politike i nudi uniformni Interface programima koji maskira složenost elektronskih kola. Drugim rečima, deluje kao most između softverskog okruženja (biblioteke, drajveri, shell-ovi, servisi, administrativni alati, grafički Interface, itd.) i hardvera.
+→ **Važno:** Kernel je centralna komponenta operativnog sistema: upravlja pristupom hardveru (procesor, memorija, periferije), arbitražno upravlja istovremenim izvršavanjem procesa, sprovodi bezbednosne politike i nudi uniformni interfejs programima čime maskira složenost elektronskih kola. Drugim rečima, deluje kao most između softverskog okruženja (biblioteke, drajveri, shell-ovi, servisi, administrativni alati, grafički interfejs, itd.) i hardvera.
 
 
 
@@ -420,11 +417,11 @@ Linux je takođe masovno integrisan u ugrađene uređaje kao što su ruteri, pov
 
 
 
-Windows je vlasnički operativni sistem koji je razvio Microsoft. Instaliran je na većini ličnih računara u svetu. Istorijski gledano, bio je cenjen zbog jednostavnosti korišćenja i intuitivnog Interface. Međutim, ta prednost je sada upitna: Interface macOS-a je takođe vrlo pristupačan, a mnoge Linux distribucije imaju Interface pogodan za širu javnost (vratićemo se na ovo u narednim poglavljima).
+Windows je vlasnički operativni sistem koji je razvio Microsoft. Instaliran je na većini ličnih računara u svetu. Istorijski gledano, bio je cenjen zbog jednostavnosti korišćenja i intuitivnog korisničkog interfejsa. Međutim, ta prednost je sada upitna: interfejs macOS-a je takođe vrlo pristupačan, a mnoge Linux distribucije imaju interfejs pogodan za širu javnost (vratićemo se na ovo u narednim poglavljima).
 
 
 
-Za neiskusne korisnike ili one sa ograničenim potrebama (kancelarijski rad, multimedija, pretraživanje interneta), Windows može biti jednostavna početna tačka, sa prednostima kao što su opsežna dokumentacija i brza kriva učenja. Ali u stvarnosti, jedino polje u kojem Windows jasno nadmašuje macOS i Linux su video igre.
+Za neiskusne korisnike ili one sa ograničenim potrebama (kancelarijski rad, multimedija, pretraživanje interneta), Windows može biti jednostavna početna tačka, sa prednostima kao što su opsežna dokumentacija i brzo savladavanje. Ali u stvarnosti, jedino polje u kojem Windows jasno nadmašuje macOS i Linux su video igre.
 
 
 
@@ -440,7 +437,7 @@ Međutim, ova pristupačnost dolazi uz cenu. Windows je vlasnički, centralizova
 
 
 
-U smislu bezbednosti, Windows je glavna meta za malver. Njegova popularnost i određeni istorijski strukturni nedostaci delimično objašnjavaju ovu situaciju. Napori su svakako uloženi poslednjih godina (posebno sa Windows Defender i UAC), ali generalno ostaje dizajniran više za lakoću korišćenja nego za otpornost i kontrolu korisnika.
+U smislu bezbednosti, Windows je glavna meta za malver. Njegova popularnost i određeni istorijski strukturni nedostaci delimično objašnjavaju ovu situaciju. Napori su svakako uloženi poslednjih godina (posebno sa Windows Defender i UAC), ali generalno ostaje dizajniran više za lakoću korišćenja nego za otpornost (sposobnost da se sistem održi i zaštiti pod napadom) i kontrolu koju korisnik ima nad sistemom.
 
 
 
@@ -464,7 +461,7 @@ Kada je reč o digitalnom suverenitetu i tehničkoj veštini, Windows brzo pokaz
 
 
 
-macOS je operativni sistem koji je razvila kompanija Apple za svoje Mac računare. To je sistem koji potiče od Unix-a, preko sistema NeXTSTEP, koji je Apple preuzeo 1997. godine. macOS se zasniva na kernelu pod nazivom "*XNU*", koji kombinuje Elements BSD-a (*Berkeley Software Distribution*) i Mach mikrokernel.
+macOS je operativni sistem koji je razvila kompanija Apple za svoje Mac računare. To je sistem koji potiče od Unix-a, preko sistema NeXTSTEP, koji je Apple preuzeo 1997. godine. macOS se zasniva na kernelu pod nazivom "*XNU*", koji kombinuje elemente BSD-a (*Berkeley Software Distribution*) i Mach mikrokernela.
 
 
 
@@ -472,7 +469,7 @@ macOS je operativni sistem koji je razvila kompanija Apple za svoje Mac računar
 
 
 
-Ova čvrsta osnova pruža dobru stabilnost, efikasno upravljanje resursima i relativno sigurnu arhitekturu po defaultu. Tome je dodat posebno uglađen grafički Interface, dizajniran za glatko korisničko iskustvo.
+Ova čvrsta osnova pruža dobru stabilnost, efikasno upravljanje resursima i relativno sigurnu arhitekturu po defaultu. Tome je dodat posebno uglađen grafički interfejs, dizajniran za glatko korisničko iskustvo.
 
 
 
@@ -480,11 +477,11 @@ Ova čvrsta osnova pruža dobru stabilnost, efikasno upravljanje resursima i rel
 
 
 
-Jedna od glavnih prednosti macOS-a leži u vertikalnoj integraciji hardvera i softvera. Apple kontroliše ceo lanac, od dizajna procesora do najsitnijih detalja Interface. Rezultat je generalno pouzdan sistem, sa malo hardverskih grešaka i optimizovan za performanse.
+Jedna od glavnih prednosti macOS-a leži u vertikalnoj integraciji hardvera i softvera. Apple kontroliše ceo lanac, od dizajna procesora do najsitnijih detalja interfejsa. Rezultat je generalno pouzdan sistem, sa malo hardverskih grešaka i optimizovan za performanse.
 
 
 
-Međutim, ova integracija ima nedostatak jer je sve više zaključana u Apple ekosistem. macOS je delimično vlasnički sistem (uglavnom zatvorenog izvornog koda) koji radi samo na hardveru proizvedenom od strane Apple-a. Korisnici imaju malo kontrole nad ažuriranjima, naprednim opcijama konfiguracije sistema ili izborom hardverskih komponenti. Hardver je teško modifikovati ili popraviti, i često je softverski zaključan.
+Međutim, ovakva integracija nosi i nedostatak – sve više ograničava korisnika na Apple ekosistem. macOS je delimično vlasnički sistem (uglavnom zatvorenog izvornog koda) koji radi samo na hardveru proizvedenom od strane Apple-a. Korisnici imaju malo kontrole nad ažuriranjima, naprednim opcijama konfiguracije sistema ili izborom hardverskih komponenti. Hardver je teško modifikovati ili popraviti, i često je softverski zaključan.
 
 
 
@@ -492,11 +489,11 @@ Međutim, ova integracija ima nedostatak jer je sve više zaključana u Apple ek
 
 
 
-Što se tiče privatnosti, iako je macOS manje nametljiv od Windows-a, i dalje je vezan za logiku prikupljanja podataka, sinhronizacije sa oblakom i zavisnosti od centralizovanih usluga. Većina naprednih funkcija sistema oslanja se na stalnu vezu sa Apple ekosistemom (iCloud, App Store, Siri...), što ograničava korisnikovu nezavisnost.
+Što se tiče privatnosti, iako je macOS manje nametljiv od Windows-a, i dalje je vezan za princip prikupljanja podataka, sinhronizacije u oblaku i zavisnosti od centralizovanih usluga. Većina naprednih funkcija sistema oslanja se na stalnu vezu sa Apple ekosistemom (iCloud, App Store, Siri...), što ograničava korisnikovu nezavisnost.
 
 
 
-macOS može odgovarati korisnicima koji cene performanse, stabilnost i udobnost dobro integrisanog sistema, bez potrebe da ulaze u tehničke detalje. S druge strane, kada je reč o digitalnom suverenitetu i kontroli vašeg IT okruženja, previše je zatvoren, previše zavisan od jedne kompanije i nije pogodan za fino podešavanje prilagođavanja. Zato ga nećemo dalje razmatrati u ovom SCU202 kursu.
+macOS može odgovarati korisnicima koji cene performanse, stabilnost i udobnost dobro integrisanog sistema, bez potrebe da ulaze u tehničke detalje. S druge strane, kada je reč o digitalnom suverenitetu i kontroli vašeg IT okruženja, previše je zatvoren, previše zavisan od jedne kompanije i nije pogodan za fina podešavanja. Zato ga nećemo dalje razmatrati u ovom SCU202 kursu.
 
 
 
@@ -504,11 +501,11 @@ macOS može odgovarati korisnicima koji cene performanse, stabilnost i udobnost 
 
 
 
-GNU/Linux se snažno razlikuje od prethodna dva po svom besplatnom i open-source modelu. Za razliku od Windowsa ili macOS-a, Linux ne razvija jedna kompanija, već svetska zajednica programera. Ovaj model zajednice garantuje transparentnost, sigurnost i fleksibilnost. Linux nudi potpunu kontrolu svojim korisnicima, što omogućava potpunu personalizaciju radnog okruženja. Ovo je posebno zanimljivo za napredne korisnike, programere ili one koji žele savršeno da ovladaju svojim digitalnim okruženjem.
+GNU/Linux se snažno razlikuje od prethodna dva po svom besplatnom i open-source modelu. Za razliku od Windowsa ili macOS-a, Linux ne razvija jedna kompanija, već svetska zajednica programera. Takav model zasnovan na zajednici pruža transparentnost, sigurnost i fleksibilnost. Linux nudi potpunu kontrolu svojim korisnicima, što omogućava potpunu personalizaciju radnog okruženja. Ovo je posebno zanimljivo za napredne korisnike, programere ili one koji žele savršeno da ovladaju svojim digitalnim okruženjem.
 
 
 
-Glavne prednosti Linuxa su njegova robusnost, stabilnost i visok nivo sigurnosti. Kao open source, njegov kod može biti pregledan od strane bilo kog korisnika ili organizacije, što u velikoj meri ograničava rizik od malvera ili backdoor-a. Linux je veoma moćan, generalno troši manje resursa nego Windows, i posebno je pogodan za skromne hardverske konfiguracije ili intenzivnu upotrebu kao što su računanje, administracija servera ili sajber bezbednost.
+Glavne prednosti Linuxa su njegova robusnost, stabilnost i visok nivo sigurnosti. Kao open source, njegov kod može biti pregledan od strane bilo kog korisnika ili organizacije, što u velikoj meri ograničava rizik od malvera ili [backdoor-a](https://planb.academy/resources/glossary/backdoor) . Linux je veoma moćan, generalno troši manje resursa nego Windows, i posebno je pogodan za skromne hardverske konfiguracije ili intenzivnu upotrebu kao što su računanje, administracija servera ili sajber bezbednost.
 
 
 
@@ -530,7 +527,7 @@ Vaš izbor će zavisiti prvenstveno od vaših potreba i očekivanja:
 
 
 - Ako tražite jednostavnost, široku kompatibilnost hardvera i softvera (posebno za video igre), kao i za opštu upotrebu, Windows može biti dobra opcija. Međutim, morate biti svesni njegovih ograničenja u pogledu performansi, sigurnosti i privatnosti;
-- Ako tražite optimalnu integraciju između vašeg hardvera i vašeg sistema, rafiniran i korisnički prijatan Interface i relativno dobru sigurnost bez potrebe za naprednom konfiguracijom, a već posedujete ili želite da usvojite Apple ekosistem, macOS je prirodan izbor;
+- Ako tražite optimalnu integraciju između vašeg hardvera i vašeg sistema, rafiniran i korisnički prijatan interfejs i relativno dobru sigurnost bez potrebe za naprednom konfiguracijom, a već posedujete ili želite da usvojite Apple ekosistem, macOS je prirodan izbor;
 - Konačno, ako tražite sigurnost, stabilnost i performanse iznad svega i takođe želite duboko kontrolisati svoje digitalno okruženje, dok ste spremni da uložite vreme u učenje kako da koristite svoj operativni sistem, Linux je odlična opcija, posebno u kontekstu gde su tehnička autonomija i digitalni suverenitet prioriteti.
 
 
@@ -546,7 +543,7 @@ U narednim poglavljima ovog odeljka o operativnim sistemima, vodiću vas dublje 
 
 
 
-Pre nego što pogledamo GNU/Linux distribucije i mesto koje ovaj sistem zauzima u savremenom računarstvu, važno je pratiti njegove korene kako bismo razumeli šta on predstavlja. U ovom poglavlju osvrćemo se na istorijske, filozofske i tehničke korene GNU/Linux-a, kroz nasleđe Unix-a, Genesis GNU projekta, stvaranje Linux kernela i pojavu pokreta slobodnog softvera.
+Pre nego što pogledamo GNU/Linux distribucije i mesto koje ovaj sistem zauzima u savremenom računarstvu, važno je pratiti njegove korene kako bismo razumeli šta on predstavlja. U ovom poglavlju osvrćemo se na istorijske, filozofske i tehničke korene GNU/Linux-a, kroz nasleđe Unix-a, nastanak GNU projekta, stvaranje Linux kernela i pojavu pokreta slobodnog softvera.
 
 
 
@@ -596,7 +593,7 @@ Rastuća fragmentacija između ovih grana (BSD na akademskoj strani, i System V 
 
 
 
-GNU projekat (rekurzivni akronim za "*GNU's Not Unix*") zvanično je najavio Ričard Stalman 27. septembra 1983. godine u specijalizovanim njuzgrupama. U to vreme, Stalman je još uvek radio u Laboratoriji za veštačku inteligenciju na MIT-u. Dana 5. januara 1984. godine, dobrovoljno je dao ostavku na svoju poziciju kako bi osigurao da kod koji je nameravao da napiše ne može biti prisvojen od strane njegovog poslodavca. Zatim je započeo razvoj GNU-a, sa ciljem stvaranja potpuno slobodnog operativnog sistema, tj. onog koji poštuje četiri osnovne slobode: slobodno izvršavanje, slobodno proučavanje, slobodnu modifikaciju i slobodnu redistribuciju.
+GNU projekat (rekurzivni akronim za "*GNU's Not Unix*") zvanično je najavio Richard Stallman 27. septembra 1983. godine u specijalizovanim tehničkim forumima i diskusionim grupama. U to vreme, Stallman je još uvek radio u Laboratoriji za veštačku inteligenciju na MIT-u. Dana 5. januara 1984. godine, dobrovoljno je dao ostavku na svoju poziciju kako bi osigurao da kod koji je nameravao da napiše ne može biti prisvojen od strane njegovog poslodavca. Zatim je započeo razvoj GNU-a, sa ciljem stvaranja potpuno slobodnog operativnog sistema, tj. onog koji poštuje četiri osnovne slobode: slobodno izvršavanje, slobodno proučavanje, slobodnu modifikaciju i slobodnu redistribuciju.
 
 
 
@@ -604,7 +601,7 @@ GNU projekat (rekurzivni akronim za "*GNU's Not Unix*") zvanično je najavio Ri�
 
 
 
-Iza svojih tehničkih aspekata, GNU projekat je deo filozofije nasleđene iz hakerske kulture 1970-ih: kulture zasnovane na deljenju znanja, saradnji među vršnjacima i slobodnom pristupu izvornom kodu. Ričard Stalman želeo je da očuva duh saradnje koji je dominirao ranim danima računarstva, kada su proizvođači još uvek slobodno distribuirali izvorni kod svojih sistema. GNU projekat ima za cilj ne samo da ponudi slobodan operativni sistem, već i da brani političku i etičku viziju računarstva: onu znanja dostupnog svima, bez monopola ili vlasničkog zaključavanja. Cilj je sprečiti korisnike da postanu zarobljenici softvera koji ne mogu ni da razumeju ni da modifikuju, i promovisati emancipatorsko računarstvo.
+Iza svojih tehničkih aspekata, GNU projekat je deo filozofije nasleđene iz hakerske kulture 1970-ih: kulture zasnovane na deljenju znanja, kolektivnoj saradnji i slobodnom pristupu izvornom kodu. Richard Stallman želeo je da očuva duh saradnje koji je dominirao ranim danima računarstva, kada su proizvođači još uvek slobodno distribuirali izvorni kod svojih sistema. GNU projekat ima za cilj ne samo da ponudi besplatan operativni sistem, već i da brani političku i etičku viziju računarstva: viziju znanja dostupnog svima, bez monopola i vlasničkih ograničenja. Cilj je sprečiti korisnike da postanu zarobljenici softvera koji ne mogu ni da razumeju ni da modifikuju, i promovisati emancipatorsko računarstvo.
 
 
 
@@ -616,7 +613,7 @@ Imajući ovo na umu, Stallman je osnovao *Free Software Foundation* (FSF) 1985. 
 
 
 
-GNU brzo pruža niz osnovnih alata za svoj sistem:
+GNU brzo obezbeđuje niz osnovnih alata za svoj sistem:
 
 
 
@@ -646,7 +643,7 @@ Većinu GNU-a razvili su volonteri, neki u svoje slobodno vreme, drugi finansira
 
 
 
-Kada je Linus Torvalds objavio svoj Linux kernel 1991. godine, savršeno se uklopio u okruženje koje je već stvorio GNU i pokazao se daleko relevantnijim od Mach + Hurd kernela. Kombinacija GNU i Linux-a omogućila je po prvi put da se ima kompletan, besplatan i funkcionalan operativni sistem: **GNU/Linux**, praktična realizacija projekta koji je Stallman pokrenuo skoro deceniju ranije.
+Kada je Linus Torvalds objavio svoj Linux kernel 1991. godine, savršeno se uklopio u okruženje koje je već stvorilo GNU i pokazao se daleko relevantnijim od Mach + Hurd kernela. Kombinacija GNU i Linux-a omogućila je po prvi put da se ima kompletan, besplatan i funkcionalan operativni sistem: **GNU/Linux**, praktična realizacija projekta koji je Stallman pokrenuo skoro deceniju ranije.
 
 
 
@@ -702,7 +699,7 @@ Razlika između ova dva pojma stoga leži u osnovnoj motivaciji: pokret slobodno
 
 
 
-Uprkos njihovim filozofskim razlikama, ova dva pravca dele zajedničke vrednosti kao što su transparentnost, mogućnost revizije izvornog koda, nezavisnost od dobavljača i sposobnost krajnjih korisnika da razumeju, modifikuju i unaprede svoje softverske alate. Čak i danas, ove razlike redovno podstiču debate i razmišljanja unutar tehničkih zajednica, posebno Bitcoin.
+Uprkos njihovim filozofskim razlikama, ova dva pravca dele zajedničke vrednosti kao što su transparentnost, mogućnost revizije izvornog koda, nezavisnost od dobavljača i sposobnost krajnjih korisnika da razumeju, modifikuju i unaprede svoje softverske alate. Čak i danas, ove razlike redovno podstiču debate i razmišljanja unutar tehničkih zajednica, posebno Bitcoin zajednice.
 
 
 
@@ -710,11 +707,11 @@ Uprkos njihovim filozofskim razlikama, ova dva pravca dele zajedničke vrednosti
 
 
 
-GNU i Linux nisu samo tehnička priča o uspehu: njihov kulturni i društveni uticaj je jednako važan. Njihovo početno širenje bilo je uglavnom putem Interneta, kroz tehničke forume i mejling liste, a zatim brzo kroz distribucije, tj. unapred konfigurisane skupove softvera oko Linux kernela. Već 1993. godine, pionirske distribucije kao što su Slackware i Debian su stvorene kako bi GNU/Linux operativni sistem bio pristupačniji širem krugu ljudi.
+GNU i Linux nisu samo tehnička priča o uspehu: njihov kulturni i društveni uticaj je jednako važan. Njihovo početno širenje bilo je uglavnom putem Interneta, kroz tehničke forume i mejling liste, a ubrzo zatim kroz distribucije, tj. unapred konfigurisanih paketa softvera zasnovanih na Linux kernelu. Već 1993. godine, pionirske distribucije kao što su Slackware i Debian su stvorene kako bi GNU/Linux operativni sistem bio pristupačniji širem krugu ljudi.
 
 
 
-Ovaj pristup zasnovan na zajednici, otvoren i kolaborativan omogućava Linuxu da se brzo razvija, na decentralizovan i participativan način. Svaki korisnik može doprineti projektu, bilo kodiranjem, dokumentovanjem ili testiranjem. Ova masivna kolaborativna dinamika predstavlja veliku društvenu inovaciju u svetu računarstva.
+Ovaj pristup zasnovan na zajednici, otvoren i kolaborativan pristup omogućava Linuxu da se brzo razvija, na decentralizovan i participativan način. Svaki korisnik može doprineti projektu, bilo kodiranjem, dokumentovanjem ili testiranjem. Ova masivna kolaborativna dinamika predstavlja veliku društvenu inovaciju u svetu računarstva.
 
 
 
@@ -726,7 +723,7 @@ GNU/Linux je mnogo više od samo operativnog sistema: to je filozofija, tehnolo�
 
 
 
-U svetlu ovog tehničkog nasleđa, sada je moguće konkretno ispitati kako se ovi principi materijalizuju u današnjem ekosistemu personalnih računara. U tu svrhu, istražićemo široki spektar Linux (ili GNU/Linux) distribucija, kako bismo razumeli njihov razvoj i slučajeve upotrebe, i pomogli vam da izaberete onu koja najbolje odgovara vašim potrebama.
+U svetlu ovog tehničkog nasleđa, sada je moguće konkretno ispitati kako se ovi principi materijalizuju u današnjem ekosistemu personalnih računara. U tu svrhu, istražićemo široki spektar Linux (ili GNU/Linux) distribucija, kako bismo razumeli njihove razvoje i primene, i pomogli vam da izaberete onu koja najbolje odgovara vašim potrebama.
 
 
 
@@ -737,7 +734,7 @@ U svetlu ovog tehničkog nasleđa, sada je moguće konkretno ispitati kako se ov
 
 
 
-Linux distribucija (često skraćeno "*distro*") je kompletan operativni sistem izgrađen na Linux kernelu (i često sa Elements GNU-a), plus koherentan skup softvera, biblioteka, inicijalizacionih skripti i alata za upravljanje, kako bi se formiralo spremno za korišćenje okruženje. Linux distribucija stoga nije ograničena samo na kernel, već predstavlja sveobuhvatnu integraciju softverskih komponenti potrebnih za pokretanje i korišćenje računara (ili bilo kog drugog računarskog uređaja).
+Linux distribucija (često skraćeno "*distro*") je kompletan operativni sistem izgrađen na Linux kernelu (i često sa elementima GNU-a), plus koherentan skup softvera, biblioteka, inicijalizacionih skripti i alata za upravljanje, kako bi se formiralo spremno za korišćenje okruženje. Linux distribucija stoga nije ograničena samo na kernel, već predstavlja sveobuhvatnu integraciju softverskih komponenti potrebnih za pokretanje i korišćenje računara (ili bilo kog drugog računarskog uređaja).
 
 
 
@@ -747,12 +744,12 @@ Svaka Linux distribucija uključuje :
 
 
 - **Linux kernel**, koji komunicira sa hardverom i upravlja sistemskim resursima (CPU, memorija, diskovi, itd.)
-- a **bootloader**, such as *GRUB*, to boot the system
-- sistem za **inicijalizaciju** koji omogućava pokretanje servisa pri podizanju sistema: *systemd*, *OpenRC*, *SysV init* ili *runit* u zavisnosti od filozofskih izbora distribucije
-- sistem za **upravljanje paketima**, koji vam omogućava instaliranje, ažuriranje i uklanjanje softvera. Najčešći su *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) ili *APK* (Alpine)
-- online **softverska skladišta**, koja centralizuju validirane verzije dostupnih aplikacija
-- skup **sistemskih alata** (ljuska, urednici, kompajleri, mrežna sučelja, itd.) i često unapred konfigurisan radni okruženje (*GNOME*, *KDE Plasma*, *XFCE*, itd.)
-- konfiguracioni skripti, dokumentacija i, u nekim slučajevima, usluge podrške
+- **bootloader**, such as *GRUB*, to boot the system
+- **sistem za inicijalizaciju** koji omogućava pokretanje servisa pri podizanju sistema: *systemd*, *OpenRC*, *SysV init* ili *runit* u zavisnosti od filozofskih izbora distribucije
+- **sistem za upravljanje paketima**, koji vam omogućava instaliranje, ažuriranje i uklanjanje softvera. Najčešći su *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) ili *APK* (Alpine)
+- online **softverski repozitorijumi**, koja centralizuju validirane verzije dostupnih aplikacija
+- skup **sistemskih alata** (shell, editors, compilers, mrežni interfejsi, itd.) i često unapred konfigurisano radno okruženje (*GNOME*, *KDE Plasma*, *XFCE*, itd.)
+- konfiguracione skripte, dokumentacija i, u nekim slučajevima, usluge podrške
 
 
 
@@ -760,7 +757,7 @@ Svaka Linux distribucija uključuje :
 
 
 
-Ovaj skup radova je specifičan za svaku distribuciju, koja bira svoje komponente prema svojoj filozofiji (jednostavnost, lakoća, sigurnost, stabilnost, inovacija, itd.), svojim ciljnim publikama (početnici, preduzeća, serveri, radne stanice, ugrađene mašine, itd.) i svom razvojnom ciklusu (*rolling release* ili *stable*). Na primer, Arch Linux se fokusira na strukturnu jednostavnost i tehničku transparentnost, dok se Ubuntu koncentriše na korisničko iskustvo i kompatibilnost sa glavnim tokovima (ali ćemo se vratiti na ovo u završnom delu ovog poglavlja).
+Ovaj skup radova je specifičan za svaku distribuciju, koja bira svoje komponente prema svojoj filozofiji (jednostavnost, lakoća, sigurnost, stabilnost, inovacija, itd.), svojom ciljnoj publici (početnici, preduzeća, serveri, radne stanice, ugrađene mašine, itd.) i svom razvojnom ciklusu (*rolling release* ili *stable*). Na primer, Arch Linux se fokusira na strukturnu jednostavnost i tehničku transparentnost, dok se Ubuntu koncentriše na korisničko iskustvo i široku kompatibilnost (ali ćemo se vratiti na ovo u završnom delu ovog poglavlja).
 
 
 
@@ -768,7 +765,7 @@ Ovaj skup radova je specifičan za svaku distribuciju, koja bira svoje komponent
 
 
 
-Postojanje distribucija omogućava korisnicima da iskoriste gotov Linux sistem, bez potrebe za ručnom rekonstrukcijom svakog softverskog komponenta. Ovo predstavlja ogromnu uštedu u smislu vremena, doslednosti i sigurnosti. Takođe, u smislu arhitekture, distribucije koriste hardversku apstrakciju Layer koju obezbeđuje Linux kernel. Ova Layer omogućava operativnom sistemu da bude kompatibilan sa širokim spektrom različitog hardvera, bez potrebe za prilagođavanjem softvera svakom specifičnom komponentu. Ova modularnost takođe olakšava modifikaciju ili zamenu sistemskih komponenti bez potrebe za rekonstrukcijom celog sistema.
+Postojanje distribucija omogućava korisnicima da iskoriste gotov Linux sistem, bez potrebe za ručnom rekonstrukcijom svakog softverskog komponenta. Ovo predstavlja ogromnu uštedu u smislu vremena, doslednosti i sigurnosti. Takođe, u smislu arhitekture, distribucije koriste sloj apstrakcije hardvera koju obezbeđuje Linux kernel. Ovaj sloj omogućava operativnom sistemu da bude kompatibilan sa širokim spektrom različitog hardvera, bez potrebe za prilagođavanjem softvera svakoj specifičnoj komponenti. Ova modularnost takođe olakšava modifikaciju ili zamenu sistemskih komponenti bez potrebe za rekonstrukcijom celog sistema.
 
 
 
@@ -784,7 +781,7 @@ Prve Linux distribucije pojavile su se neposredno nakon objavljivanja Linux kern
 
 
 
-Da bi Linux bio pristupačniji, nekoliko projekata brzo se pojavljuje, sa idejom sastavljanja sistema spremnog za upotrebu od Linux kernela i koherentnog skupa softverskih alata.
+Da bi Linux bio pristupačniji, ubrzo se pojavljuje nekoliko projekata, sa idejom sastavljanja sistema spremnog za upotrebu Linux kernela i koherentnog skupa softverskih alata.
 
 
 
@@ -808,7 +805,7 @@ Razvijen na Univerzitetu u Mančesteru, MCC Interim Linux se smatra prvom Linux 
 
 
 
-SLS distribucija je prva koja nudi potpuniju instalaciju sa prozorskim sistemom (X Window), ljuskom, kompajlerom i drugim unapred konfiguriranim alatima. Njena svrha je da obezbedi Unix-sličan sistem koji može koristiti šira javnost.
+SLS distribucija je prva koja nudi potpuniju instalaciju sa prozorskim sistemom (X Window), shell-om, kompajlerom i drugim unapred konfiguriranim alatima. Njena svrha je da obezbedi sistem sličan Unix-u koji može koristiti šira javnost.
 
 
 
@@ -864,7 +861,7 @@ Otprilike u isto vreme, Ian Murdock je pokrenuo Debian distribuciju, u duhu veom
 
 
 
-Sa tehničke tačke gledišta, Debian se od samog početka istakao kvalitetom svog sistema pakovanja, mogućnošću praćenja ažuriranja, a pre svega uvođenjem visokoperformantnog menadžera paketa, *dpkg*, koji je brzo dopunjen sa *APT* 1998. godine, što omogućava automatizovano i pouzdano upravljanje softverskim zavisnostima.
+Sa tehničke tačke gledišta, Debian se od samog početka istakao kvalitetom svog sistem za upravljanje paketima, mogućnošću praćenja ažuriranja, a pre svega uvođenjem visokoperformantnog menadžera paketa, *dpkg*, koji je ubrzo dopunjen sa *APT* 1998. godine, što omogućava automatizovano i pouzdano upravljanje softverskim zavisnostima (eng. software dependencies).
 
 
 
@@ -894,7 +891,7 @@ Marc Ewing je objavio prvu verziju Red Hat Linux-a 1994. godine. Ovo je označil
 
 
 
-1995. godine, Bob Young, osnivač AAC Corporation koja se specijalizuje za dodatke za Linux softver, otkupio je kompaniju Marca Ewinga. Spajanjem ova dva entiteta nastao je Red Hat Software. Zajedno su razvili originalni poslovni model: distribuciju softvera otvorenog koda u kombinaciji sa uslugama podrške i sertifikacije za preduzeća. Ovaj poslovni model postao je merilo i može se pronaći u mnogim projektima u ekosistemu Bitcoin.
+1995. godine, Bob Young, osnivač AAC Corporation koja se specijalizuje za dodatke za Linux softver, otkupio je kompaniju Marca Ewinga. Spajanjem ova dva entiteta nastao je Red Hat Software. Zajedno su razvili originalni poslovni model: distribuciju softvera otvorenog koda u kombinaciji sa uslugama podrške i sertifikacije za preduzeća. Ovaj poslovni model postao je merilo i može se pronaći u mnogim projektima u Bitcoin ekosistemu.
 
 
 
@@ -910,12 +907,11 @@ Godine 2003, Red Hat je napravio stratešku podelu: zajednička grana postala je
 
 
 
-Ove pionirske distribucije uspostavile su današnje glavne Linux porodice, od kojih je svaka razvila svoj tehnički i filozofski pristup.
+Ove pionirske distribucije uspostavile su današnje glavne Linux platforme, od kojih je svaka razvila svoj tehnički i filozofski pristup.
 
 
 
-### Današnje glavne porodice Linux distribucija
-
+### Najvažnije današnje grupe Linux distribucija
 
 
 #### Debian porodica
@@ -938,11 +934,11 @@ To je porodica na koju ćemo se sledeće fokusirati, jer okuplja neke od najkonz
 
 
 
-#### Porodica Red Hat
+#### Red Hat porodica 
 
 
 
-Centred around the RPM format (*Red Hat Package Manager*), this family therefore includes Fedora, the innovative community distribution serving as the technical basis for Red Hat Enterprise Linux (RHEL), a commercial distribution aimed at enterprises and renowned for its long-term stability.
+Ova porodica, zasnovana na RPM formatu (*Red Hat Package Manager*), obuhvata Fedoru, inovativnu distribuciju razvijanu od strane zajednice, koja služi kao tehnička osnova za Red Hat Enterprise Linux (RHEL), komercijalnu distribuciju namenjenu preduzećima i poznatu po dugoročnoj stabilnosti.
 
 
 
@@ -988,11 +984,11 @@ Najpoznatiji je Manjaro, koji zadržava tehničku osnovu Archa dok nudi pojednos
 
 
 
-Slackware ostaje veran istorijskim Unix principima, sa naglaskom na jednostavnost, transparentnost i stabilnost. Za razliku od modernih distribucija koje automatizuju upravljanje softverom, Slackware se oslanja na `.tgz` paket sistem bez automatskog rešavanja zavisnosti, što zahteva dobro poznavanje njegovog okruženja i softverskih komponenti.
+Slackware ostaje veran istorijskim Unix principima, sa naglaskom na jednostavnost, transparentnost i stabilnost. Za razliku od modernih distribucija koje automatizuju upravljanje softverom, Slackware se oslanja na `.tgz` sistem paketa bez automatskog rešavanja zavisnosti, što zahteva dobro poznavanje njegovog okruženja i softverskih komponenti.
 
 
 
-Ovaj minimalistički pristup, u kombinaciji sa visokom stabilnošću, čini Slackware distribucijom koju preferiraju iskusni korisnici ili Unix puristi, posebno u kontekstima gde su predvidljivost i kontrola važni (serveri, ugrađeni sistemi, okruženja kritična za misije, itd.).
+Ovaj minimalistički pristup, u kombinaciji sa visokom stabilnošću, čini Slackware distribucijom koju preferiraju iskusni korisnici ili Unix čistunci, posebno u kontekstima gde su predvidljivost i kontrola važni (serveri, ugrađeni sistemi, okruženja kritična za misije, itd.).
 
 
 
@@ -1070,7 +1066,7 @@ https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnirana da ponudi intuitivniju alternativu, bližu ergonomiji Windows-a. Nudi nekoliko radnih okruženja, uključujući Cinnamon, Fork GNOME-a dizajniran specifično od strane Mint tima, koji pruža jasan, klasičan i odmah prepoznatljiv Interface.
+Pokrenut 2006. godine, Linux Mint je distribucija izvedena iz Ubuntu-a, dizajnirana da ponudi intuitivniju alternativu, bližu ergonomiji Windows-a. Nudi nekoliko radnih okruženja, uključujući Cinnamon, fork GNOME-a dizajniran specifično od strane Mint tima, koji pruža jasan, klasičan i odmah prepoznatljiv interfejs.
 
 
 
@@ -1090,7 +1086,7 @@ Mint se ističe svojom jednostavnošću, prisustvom multimedijalnih kodeka po de
 
 
 
-Kreiran 2008. godine od strane irskog tima, Zorin OS eksplicitno cilja korisnike Windows-a i macOS-a koji traže glatku tranziciju na Linux. Baziran je na Ubuntu LTS i nudi prilagođeni Interface koji može imitirati Windows ili macOS prema preferencijama.
+Kreiran 2008. godine od strane irskog tima, Zorin OS eksplicitno cilja korisnike Windows-a i macOS-a koji traže glatku tranziciju na Linux. Baziran je na Ubuntu LTS i nudi prilagođeni interfejs koji može imitirati Windows ili macOS prema preferencijama.
 
 
 
@@ -1106,7 +1102,7 @@ Instalacija je glatka, osnovni softver je unapred instaliran, a "Lite" verzija v
 
 - **elementary OS**:
 
-Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost Interface. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima Interface i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
+Pokrenut 2011. godine, elementary OS je distribucija zasnovana na Ubuntu-u koja se pre svega fokusira na dizajn i doslednost korisničkog interfejsa. Njegovo radno okruženje Pantheon, inspirisano macOS-om, je minimalističko, elegantno i fluidno. Međutim, sistem ostaje manje prilagodljiv od drugih distribucija, i neki napredni korisnici mogu se osećati ograničeno izborima interfejsa i njegovom namerno zaključanom strukturom. Dobro je prilagođen estetski osetljivim korisnicima koji traže jednostavan, koherentan sistem za svakodnevnu upotrebu.
 
 https://planb.academy/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
@@ -1122,7 +1118,7 @@ https://planb.academy/tutorials/computer-security/operating-system/elementary-os
 
 
 
-Razvijen od strane američke kompanije System76, Pop!OS je takođe zasnovan na Ubuntu. Cilja na desktop korisnike i programere, sa modifikovanim Interface GNOME (i nedavno sopstvenim okruženjem zvanim COSMIC). Pop!OS integriše optimizacije za NVIDIA GPU-ove po defaultu, i ima mozaik režim upravljanja prozorima. Sistem ostaje jednostavan za korišćenje, ali takođe nudi napredne funkcionalnosti odmah po instalaciji. Namenjen je srednje naprednim korisnicima, studentima ili profesionalcima koji žele efikasan sistem bez potrebe za ručnim podešavanjem okruženja.
+Razvijen od strane američke kompanije System76, Pop!OS je takođe zasnovan na Ubuntu. Cilja na desktop korisnike i programere, sa modifikovanim GNOME interfejsu(i nedavno sopstvenim okruženjem zvanim COSMIC). Pop!OS integriše optimizacije za NVIDIA GPU-ove po defaultu, i ima mozaik režim upravljanja prozorima. Sistem ostaje jednostavan za korišćenje, ali takođe nudi napredne funkcionalnosti odmah po instalaciji. Namenjen je srednje naprednim korisnicima, studentima ili profesionalcima koji žele efikasan sistem bez potrebe za ručnim podešavanjem okruženja.
 
 
 
@@ -1200,7 +1196,7 @@ Baziran na Arch-u, Manjaro čini Arch Linux pristupačnim. Ova distribucija nudi
 
 
 
-Arch Linux je minimalistička, kontinuirano ažurirajuća distribucija, isporučena bez Interface ili suvišnog softvera. Zahteva ručnu instalaciju, ali nudi potpunu kontrolu i odličnu dokumentaciju (Arch Wiki). Ova distribucija se preporučuje naprednim korisnicima koji žele da ovladaju svim aspektima.
+Arch Linux je minimalistička, kontinuirano ažurirajuća distribucija, isporučena bez interfejsa ili suvišnog softvera. Zahteva ručnu instalaciju, ali nudi potpunu kontrolu i odličnu dokumentaciju (Arch Wiki). Ova distribucija se preporučuje naprednim korisnicima koji žele da ovladaju svim aspektima.
 
 
 
@@ -1214,7 +1210,7 @@ https://planb.academy/tutorials/computer-security/operating-system/arch-linux-7a
 
 - **Kali Linux**:
 
-Kali Linux je distribucija zasnovana na Debianu, dizajnirana za testiranje penetracije i bezbednosnu reviziju. Uključuje stotine alata za pentest. Ova distribucija nije baš pogodna kao glavni sistem za svakodnevnu upotrebu.
+Kali Linux je Debian-based distribucija kreirana za testiranje sigurnosti (eng. security auditing) i provere ranjivosti sistema (eng. penetration testing). Uključuje stotine alata za pentest. Ova distribucija nije baš pogodna kao glavni sistem za svakodnevnu upotrebu.
 
 
 
@@ -1238,17 +1234,17 @@ Parrot OS je takođe izveden iz Debiana. Nudi okruženje za pentesting, ofanzivn
 
 
 
-- **Repovi**:
+- **Tails**:
 
 
 
-Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolazi kroz Tor mrežu i ništa se ne čuva između korisničkih sesija. To je idealna distribucija za osetljive jednokratne upotrebe (novinarstvo, aktivizam, seed Bitcoin generisanje...).
+Tails je distribucija zasnovana na Debianu, fokusirana na privatnost. Sve prolazi kroz [Tor](https://planb.academy/resources/glossary/tor) mrežu i ništa se ne čuva između korisničkih sesija. To je idealna distribucija za osetljive jednokratne upotrebe (novinarstvo, aktivizam, generisanje Bitcoin [seed](https://planb.academy/resources/glossary/seed)-a...).
 
 
 
 https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na Hard disk.
+→ **Napomena:** Živa distribucija je Linux operativni sistem koji se može koristiti direktno sa USB stika ili CD-a, bez instalacije na hard disk.
 
 
 
@@ -1318,7 +1314,7 @@ Raspberry Pi OS (ranije Raspbian) je distribucija optimizovana za Raspberry Pi m
 
 
 
-Whonix kombinuje Debian sa Tor mrežom u arhitekturi sa dve VM (gateway + workstation). To je distribucija orijentisana na bezbednost, ali zavisi od virtualizacije. Preporučuje se onima koji zaista trebaju privatnost.
+Whonix kombinuje Debian sa Tor mrežom koristeći arhitekturu sa dve virtuelne mašine (gateway + radna stanica). To je distribucija orijentisana na bezbednost, ali zavisi od virtualizacije. Preporučuje se onima koji zaista trebaju privatnost.
 
 
 
@@ -1336,15 +1332,15 @@ U sledećem poglavlju SCU202, detaljnije ćemo razmotriti praktično Linux okru�
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički Layer koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
+U GNU/Linux sistemu, okruženje radne površine igra jednu od najvažnijih uloga u korisničkom iskustvu. To je grafički sloj koji omogućava interakciju sa sistemom, zasnovan na poznatim vizuelnim prikazima: prozori, meniji, ikone, paneli i unapred instalirane aplikacije.
 
 U ovom poglavlju istražujem strukturu i ulogu desktop okruženja, njegove tipične komponente, glavne dostupne porodice, kriterijume za odabir i njihovu integraciju u najpopularnije Linux distribucije.
 
-### Šta je kancelarijsko okruženje?
+### Šta je radno okruženje?
 
-Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički Interface operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske za delimičnu modifikaciju Interface). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
+Radno okruženje (ili "*DE*" za *Desktop Environment*) odnosi se na skup programa koji čine kompletan grafički interfejs operativnog sistema. Na Windows i macOS sistemima, jedno radno okruženje je ponuđeno po defaultu, integrisano u sistem, bez mogućnosti potpunog menjanja (postoje samo određene ljuske (eng. shells) za delimičnu modifikaciju interfejsa). Linux sistemi, s druge strane, su mnogo modularniji, tretirajući radno okruženje kao nezavisnu komponentu koja se može slobodno zameniti.
 
-U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera preko kernela), i na kraju sam desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički Interface. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
+U Linuxu je važno jasno razlikovati sve slojeve sistema: kernel (koji upravlja interakcijom sa hardverom), server za prikaz (koji deluje kao posrednik između aplikacija, grafičkih drajvera i hardvera (preko kernela)), i na kraju samo desktop okruženje, koje se oslanja na ovu infrastrukturu da bi korisniku isporučilo koherentan grafički interfejs. Ova razlika ponekad može biti manje jasna, jer mnoge Linux distribucije dolaze sa unapred instaliranim desktop okruženjem koje ponekad uključuje sopstveni Wayland kompozitor, koji tada deluje kao server za prikaz.
 
 
 
@@ -1352,69 +1348,69 @@ U Linuxu je važno jasno razlikovati sve slojeve: kernel (koji upravlja interakc
 
 
 
-### Tipične komponente kancelarijskog okruženja
+### Tipične komponente radnog okruženja
 
 
 
-Radno okruženje u Linux distribuciji nije jedna aplikacija, već koherentan skup softverskih komponenti koje pružaju kompletan grafički Interface za interakciju sa operativnim sistemom. Ove komponente su zasnovane na nekoliko softverskih slojeva, koji su strukturirani na sledeći način:
-
-
-
-
-
-- **Menadžer prozora**: crta okvire prozora, upravlja njihovim postavljanjem, promenom veličine i efektima prelaza... Na primer: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+Radno okruženje u Linux distribuciji nije jedna aplikacija, već koherentan skup softverskih komponenti koje pružaju kompletan grafički interfejs za interakciju sa operativnim sistemom. Ove komponente su zasnovane na nekoliko softverskih slojeva, koji su strukturirani na sledeći način:
 
 
 
 
 
-- **Menadžer fajlova**: omogućava vam da se krećete kroz stablo direktorijuma, vizuelno kopirate, premještate ili brišete fajlove. Primeri: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Menadžer prozora** (eng. Window manager): crta okvire prozora, upravlja njihovim postavljanjem, promenom veličine i efektima prelaza... Na primer: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- **Centar za konfiguraciju**: ovo je skup alata koji omogućava korisniku da modifikuje sistemske parametre bez korišćenja komandne linije: izgled, pozadina, upravljanje korisnicima, mreža, periferije...
+- **Menadžer fajlova** (eng. file manager): omogućava vam da se krećete kroz stablo direktorijuma, vizuelno kopirate, premještate ili brišete fajlove. Primeri: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- **Sistemski apleti**: ovo su male ikone i interaktivni moduli u traci zadataka (ili "panelu"), kao što su kontrola zvuka, nivo baterije, mrežna veza, sat...
+- **Centar za konfiguraciju** (eng. configuration center): ovo je skup alata koji omogućava korisniku da modifikuje sistemske parametre bez korišćenja komandne linije: izgled, pozadina, upravljanje korisnicima, mreža, periferije...
 
 
 
 
 
-- **Panel ili kontrolna tabla**: vidljiva traka, često na vrhu ili dnu ekrana, koja sadrži glavni meni, sistemske aplete, prečice, zonu za obaveštenja, itd.
+- **Sistemski apleti** (eng. System applets): ovo su male ikone i interaktivni moduli u traci zadataka (ili "panelu"), kao što su kontrola zvuka, nivo baterije, mrežna veza, sat...
 
 
 
 
 
-- **Menadžer sesije**: pokreće se pri pokretanju sistema, prikazuje ekran za prijavu i pokreće izabranu grafičku sesiju. Na primer: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Panel ili kontrolna tabla** (eng. panel ili dashboard): vidljiva traka, često na vrhu ili dnu ekrana, koja sadrži glavni meni, sistemske aplete, prečice, zonu za obaveštenja, itd.
 
 
 
 
 
-- **Upravljač obaveštenjima**: upravlja prikazom sistemskih obaveštenja (poruke, upozorenja, ažuriranja, itd.). Na primer: dunst, Plasma-notifier, xfce4-notifyd.
+- **Menadžer sesije** (eng. session manager): pokreće se pri pokretanju sistema, prikazuje ekran za prijavu i pokreće izabranu grafičku sesiju. Na primer: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- **X11 kompozitor (opciono)**: dodaje vizuelne efekte (senke, transparentnost, animacije) u okruženjima gde menadžer prozora ne podržava kompoziting. Na primer: compton, picom.
+- **Upravljač obaveštenjima** (eng. Notification manager): upravlja prikazom sistemskih obaveštenja (poruke, upozorenja, ažuriranja, itd.). Na primer: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- **Server za prikaz**: ovo je softver koji upravlja komunikacijom između sistema (putem kernela i grafičkih drajvera) i grafičkih aplikacija. Prikazuje prozore na ekranu i upravlja unosima sa tastature i miša. Server za prikaz je često drugačija komponenta desktop okruženja, ali sve više sistema usvaja Wayland, moderan protokol gde ulogu servera za prikaz može direktno preuzeti menadžer prozora (npr. Mutter pod GNOME ili KWin pod KDE). Ovo se tada naziva "Wayland kompozitovanje".
+- **X11 kompozitor (opciono)** (eng. X11 compositor): dodaje vizuelne efekte (senke, transparentnost, animacije) u okruženjima gde menadžer prozora ne podržava kompoziting. Na primer: compton, picom.
 
 
 
-Svi ovi Elements zasnovani su na grafičkom alatu, tj. softverskoj biblioteci koja pruža osnovne komponente za kreiranje grafičkih interfejsa: dugmad, meniji, tekstualna polja... Dva glavna Linux alata su:
+
+
+- **Server za prikaz** (eng. display server): ovo je softver koji upravlja komunikacijom između sistema (putem kernela i grafičkih drajvera) i grafičkih aplikacija. Prikazuje prozore na ekranu i upravlja unosima sa tastature i miša. Server za prikaz je često drugačija komponenta desktop okruženja, ali sve više sistema usvaja Wayland, moderan protokol gde ulogu servera za prikaz može direktno preuzeti menadžer prozora (npr. Mutter pod GNOME ili KWin pod KDE). Ovo se tada naziva "Wayland kompozitovanje".
+
+
+
+Svi ovi elementi zasnovani su na grafičkom alatu, tj. softverskoj biblioteci koja pruža osnovne komponente za kreiranje grafičkih interfejsa: dugmad, meniji, tekstualna polja... Dva glavna Linux alata su:
 
 
 
@@ -1440,7 +1436,7 @@ Svi ovi Elements zasnovani su na grafičkom alatu, tj. softverskoj biblioteci ko
 
 
 
-Pokrenut 1997. i prvi put objavljen 1999. godine, GNOME ("*GNU Network Object Model Environment*") zasnovan je na GTK biblioteci i ima za cilj da minimizira trenje između korisnika i Interface kroz vrlo jednostavnu organizaciju. Od GNOME 3, njegova srž, GNOME Shell, napustila je tradicionalnu metaforu radne površine prekrivene ikonama: umesto žongliranja sa nekoliko istovremeno vidljivih radnih prostora, korisnici prelaze na jedan selektor aktivnosti gde upravljaju prozorima, virtuelnim radnim površinama i pokretačima aplikacija.
+Pokrenut 1997. i prvi put objavljen 1999. godine, GNOME ("*GNU Network Object Model Environment*") zasnovan je na GTK biblioteci i ima za cilj da minimizira trenje između korisnika i interfejsa kroz vrlo jednostavnu organizaciju. Od GNOME 3, njegova srž, GNOME Shell, napustila je tradicionalnu metaforu radne površine prekrivene ikonama: umesto žongliranja sa nekoliko istovremeno vidljivih radnih prostora, korisnici prelaze na jedan selektor aktivnosti gde upravljaju prozorima, virtuelnim radnim površinama i pokretačima aplikacija.
 
 
 
@@ -1448,7 +1444,7 @@ Pokrenut 1997. i prvi put objavljen 1999. godine, GNOME ("*GNU Network Object Mo
 
 
 
-Tehnički, Mutter kompozitor kombinuje upravljanje prozorima i Wayland stack, dok ostaje kompatibilan sa X11 zahvaljujući XWayland-u. Po defaultu, okruženje pruža Nautilus za pregledanje fajlova, GNOME Terminal za komandnu liniju i centralizovani panel za podešavanja. GNOME-ove opcije prilagođavanja su inherentno ograničene.
+Tehnički, Mutter kompozitor kombinuje upravljanje prozorima i Wayland stack-om, dok ostaje kompatibilan sa X11 zahvaljujući XWayland-u. Po defaultu, okruženje pruža Nautilus za pregledanje fajlova, GNOME Terminal za komandnu liniju i centralizovani panel za podešavanja. GNOME-ove opcije prilagođavanja su inherentno ograničene.
 
 
 
@@ -1472,7 +1468,7 @@ KDE Plasma je zasnovan na Qt 6, međuplatformskom C++ okviru, i na KDE Framework
 
 
 
-Jedna od karakteristika KDE Plasma je njen objedinjeni centar za konfiguraciju, koji prikazuje grafički Interface za gotovo sva podešavanja: ponašanje virtuelnog desktopa, globalne prečice, glatkoću animacija, upravljanje napajanjem, mrežnu konfiguraciju, izgled ivica prozora... Nema potrebe za ručnim uređivanjem tekstualnih konfiguracionih fajlova, što čini radno okruženje lakim za prilagođavanje.
+Jedna od karakteristika KDE Plasma je njen objedinjeni centar za konfiguraciju, koji prikazuje grafički interfejs za gotovo sva podešavanja: ponašanje virtuelnog desktopa, globalne prečice, glatkoću animacija, upravljanje napajanjem, mrežnu konfiguraciju, izgled ivica prozora... Nema potrebe za ručnim uređivanjem tekstualnih konfiguracionih fajlova, što čini radno okruženje lakim za prilagođavanje.
 
 
 
@@ -1488,7 +1484,7 @@ Xfce je besplatno, open-source okruženje za radnu površinu koje je 1996. godin
 
 
 
-Xfce uzima tradicionalni grafički Interface pristup, sa desktopom vođenim ikonama, menijem aplikacija, taskbarom i konfigurisanim panelima. Ceo paket je dizajniran da bude resursno efikasan, kako u pogledu RAM-a, tako i procesorske snage. Ovo ga čini idealnim rešenjem za starije, manje moćne računare, ili jednostavno za korisnike koji traže fluidan, stabilan i responzivan sistem.
+Xfce uzima tradicionalni grafički interfejs pristup, sa desktopom vođenim ikonama, menijem aplikacija, taskbarom i konfigurisanim panelima. Ceo paket je dizajniran da bude resursno efikasan, kako u pogledu RAM-a, tako i procesorske snage. Ovo ga čini idealnim rešenjem za starije, manje moćne računare, ili jednostavno za korisnike koji traže fluidan, stabilan i responzivan sistem.
 
 
 
@@ -1500,7 +1496,7 @@ Xfce uzima tradicionalni grafički Interface pristup, sa desktopom vođenim ikon
 
 
 
-LXQt je lagano radno okruženje dizajnirano da pruži potpuni grafički Interface uz minimalnu potrošnju sistemskih resursa. Posebno je pogodno za starije ili manje moćne mašine.
+LXQt je lagano radno okruženje dizajnirano da pruži potpuni grafički interfejs uz minimalnu potrošnju sistemskih resursa. Posebno je pogodno za starije ili manje moćne mašine.
 
 
 
@@ -1512,11 +1508,11 @@ LXQt je rezultat spajanja dva odvojena projekta 2013. godine: LXDE (originalno r
 
 
 
-#### Cimetna
+#### Cinnamon
 
 
 
-Cinnamon je moderno radno okruženje koje razvija i održava tim distribucije Linux Mint. Pokrenuto je 2011. godine kao direktan odgovor na radikalne promene koje je uveo GNOME 3, koje su neki u zajednici smatrali previše disruptivnim.
+Cinnamon je moderno radno okruženje koje razvija i održava tim distribucije Linux Mint. Pokrenuto je 2011. godine kao direktan odgovor na radikalne promene koje je uveo GNOME 3, koje su neki u zajednici smatrali previše poremećujućim.
 
 
 
@@ -1524,7 +1520,7 @@ U početku, Cinnamon je bio jednostavan Fork GNOME Shell-a, ali se postepeno osl
 
 
 
-Njegov glavni cilj je ponuditi klasični, intuitivni Interface, u kontinuitetu GNOME 2 i Windows-a: meni aplikacija u donjem levom uglu, traku zadataka, zonu za obaveštenja i upravljivu radnu površinu. Ovaj konzervativni pristup je posebno zanimljiv za početnike ili one koji dolaze sa Windows-a, koji će brzo pronaći svoje mesto.
+Njegov glavni cilj je ponuditi klasični, intuitivni interfejs, u kontinuitetu GNOME 2 i Windows-a: meni aplikacija u donjem levom uglu, traku zadataka, zonu za obaveštenja i upravljivu radnu površinu. Ovaj konzervativni pristup je posebno zanimljiv za početnike ili one koji dolaze sa Windows-a, koji će brzo pronaći svoje mesto.
 
 
 
@@ -1536,7 +1532,7 @@ Njegov glavni cilj je ponuditi klasični, intuitivni Interface, u kontinuitetu G
 
 
 
-MATE je Fork od GNOME 2, lansiran 2011. godine, nakon dolaska GNOME 3 i njegovog radikalno drugačijeg Interface (GNOME Shell). MATE je nastao iz želje da se očuva klasični pristup GNOME 2 okruženja, uz održavanje i modernizaciju istog.
+MATE je Fork od GNOME 2, lansiran 2011. godine, nakon dolaska GNOME 3 i njegovog radikalno drugačijeg interfejsa (GNOME Shell). MATE je nastao iz želje da se očuva klasični pristup GNOME 2 okruženja, uz održavanje i modernizaciju istog.
 
 
 
@@ -1544,7 +1540,7 @@ Tehnički, MATE je zasnovan na GTK 3 bibliotekama (nakon što je dugo koristio G
 
 
 
-Njegov Interface zasnovan je na tradicionalnoj logici desktopa: jedan ili dva panela (meni, područja za brzo pokretanje, sat, područja za obaveštenja), desktop sa ikonama i organizacija plutajućih prozora.
+Njegov interfejs zasnovan je na tradicionalnoj logici desktopa: jedan ili dva panela (meni, područja za brzo pokretanje, sat, područja za obaveštenja), desktop sa ikonama i organizacija plutajućih prozora.
 
 
 
@@ -1564,12 +1560,12 @@ Odabir vašeg GNU/Linux okruženja radne površine nije trivijalna stvar: ono od
 
 
 
-Svako radno okruženje ima različit otisak resursa. Ovo se meri u smislu potrošnje RAM-a, korišćenja CPU-a i vremena pokretanja:
+Svako desktop okruženje ima različitu potrošnju resursa. Ovo se meri u smislu potrošnje RAM-a, korišćenja CPU-a i vremena pokretanja:
 
 
 
 
-- Na starijim ili manje moćnim mašinama (jednojezgarni CPU, manje od 2 GB RAM-a...), preporučujem veoma lagana okruženja kao što su LXQt, LXDE ili Xfce. Ona nude pun grafički Interface, ali bez vizuelnih efekata ili teških zavisnosti;
+- Na starijim ili manje moćnim mašinama (jednojezgarni CPU, manje od 2 GB RAM-a...), preporučujem veoma lagana okruženja kao što su LXQt, LXDE ili Xfce. Ona nude pun grafički interfejs, ali bez vizuelnih efekata ili teških zavisnosti;
 - Srednja okruženja, kao što su MATE ili Cinnamon, zahtevaju nešto noviji hardver (preporučeno 4 do 6 GB RAM-a), ali ostaju razumna;
 - Moderna, bogata okruženja kao što su GNOME ili KDE Plasma su veoma kompletna, ali zahtevaju više resursa, posebno ako su grafički efekti omogućeni. Ona su pogodna za novije mašine.
 
@@ -1579,15 +1575,15 @@ Svako radno okruženje ima različit otisak resursa. Ovo se meri u smislu potro�
 
 
 
-Svaki DE nudi jedinstvenu Interface filozofiju:
+Svaki DE nudi jedinstvenu interfejs filozofiju:
 
 
 
 
-- GNOME favorizuje jednostavnost korišćenja, sa pojednostavljenim Interface, bez klasične radne površine ili ikona, i radnim tokom usmerenim na produktivnost koji može biti zbunjujući za početnike.
-- KDE Plasma je izuzetno prilagodljiv, sve do najsitnijih detalja. Odlikuje ga moderan izgled, animacije i podrazumevani Interface koji je bliži Windows-u.
-- Cinnamon i MATE nude klasično iskustvo: meni u donjem levom uglu, taskbar, ikone na desktopu. Cinnamon je vizuelno moderniji, MATE lakši
-- Xfce i LXQt teže ka jednostavnosti i performansama, sa suzdržanijom, ali podesivom estetikom
+- GNOME favorizuje jednostavnost korišćenja, sa pojednostavljenim interfejsom, bez klasične radne površine ili ikona, i radnim tokom usmerenim na produktivnost koji može biti zbunjujući za početnike.
+- KDE Plasma je izuzetno prilagodljiv, sve do najsitnijih detalja. Odlikuje ga moderan izgled, animacije i podrazumevani interfejs koji je bliži Windows-u.
+- Cinnamon i MATE nude klasično iskustvo: meni u donjem levom uglu, taskbar, ikone na desktopu. Cinnamon je vizuelno moderniji, dok je MATE lakši.
+- Xfce i LXQt teže ka jednostavnosti i performansama, sa suzdržanijom, ali podesivom estetikom.
 
 
 
@@ -1602,7 +1598,7 @@ Glavna upotreba računara će takođe uticati na vaš izbor:
 
 - Za kancelarijsku i multimedijalnu upotrebu, sva okruženja su pogodna
 - Za razvojne radne stanice, preferencije variraju: neki programeri cene ozbiljnost Xfce-a, dok drugi preferiraju alate za integraciju koje nudi KDE.
-- Za ugrađene ili serverske aplikacije sa minimalnim Interface, ili na veoma starim mašinama, LXQt, LXDE ili Xfce su često jedini održivi izbori.
+- Za ugrađene ili serverske aplikacije sa minimalnim interfejsom, ili na veoma starim mašinama, LXQt, LXDE ili Xfce su često jedini održivi izbori.
 
 
 
@@ -1654,7 +1650,7 @@ Evo su radna okruženja glavnih distribucija:
 
 
 
-- Fedora → GNOME (glavno izdanje), ali nudi nekoliko zvaničnih Spins:
+- Fedora → GNOME (glavno izdanje), ali nudi nekoliko zvaničnih Spins varijanti:
  - Fedora KDE Spin → KDE Plasma
  - Fedora Xfce Spin → Xfce
  - Fedora LXQt Spin → LXQt
@@ -1684,13 +1680,13 @@ Evo su radna okruženja glavnih distribucija:
 
 
 
-- elementary OS → Pantheon, elementaryjev sopstveni GTK zasnovan okruženje
+- elementary OS → Pantheon, sopstveno GTK-bazirano okruženje elementary-a
 
 
 
 
 
-- Pop! OS → GNOME modifikovan sa Interface COSMIC, uskoro će biti zamenjen verzijom Rust
+- Pop! OS → GNOME modifikovan sa COSMIC interfejs, uskoro će biti zamenjen Rust verzijom 
 
 
 
@@ -1720,7 +1716,7 @@ Evo su radna okruženja glavnih distribucija:
 
 
 
-- Repovi → GNOME
+- Tails → GNOME
 
 
 
@@ -1732,7 +1728,7 @@ Evo su radna okruženja glavnih distribucija:
 
 
 
-- BlackArch → i3 window manager (nije kompletno radno okruženje)
+- BlackArch → i3 menadžer prozora (nije kompletno radno okruženje)
 
 
 
@@ -1748,15 +1744,15 @@ Evo su radna okruženja glavnih distribucija:
 
 
 
-Zaključno, ne postoji jedinstveno najbolje desktop okruženje, već ono koje najbolje odgovara vašoj opremi, upotrebi i preferencijama. Čak je uobičajeno testirati nekoliko DE-ova pre nego što pronađete ono koje nudi pravi kompromis između estetike, ergonomije i performansi.
+Na kraju, ne postoji jedinstveno najbolje desktop okruženje, već ono koje najbolje odgovara vašoj opremi, upotrebi i preferencijama. Čak je uobičajeno testirati nekoliko DE-ova pre nego što pronađete ono koje nudi pravi kompromis između estetike, ergonomije i performansi.
 
 
 
-Ovo poglavlje će vam pružiti bolje razumevanje šta je desktop okruženje, njegovih ključnih komponenti, razlike između glavnih dostupnih rešenja i važnih kriterijuma za donošenje vaše odluke. U sledećem poglavlju, moći ćete da napravite svoje prve korake sa Ubuntu-om, svestranom distribucijom za širu javnost.
+Ovo poglavlje trebalo da vam je pruđilo bolje razumevanje šta je desktop okruženje, njegovih ključnih komponenti, razlike između glavnih dostupnih rešenja i važnih kriterijuma za donošenje vaše odluke. U sledećem poglavlju, moći ćete da napravite svoje prve korake sa Ubuntu-om, svestranom distribucijom za širu javnost.
 
 
 
-## Početak rada sa Ubuntuom: sve što treba da znate
+## Početak rada sa Ubuntu-om: sve što treba da znate
 
 
 <chapterId>7cea476d-f759-4c7e-8ca5-8b35bc79c682</chapterId>
@@ -1767,11 +1763,11 @@ Danas je Ubuntu jedan od najpristupačnijih ulaza u GNU/Linux: uglađeno GNOME o
 
 
 
-Međutim, ovladavanje instalacijom na radnoj površini zahteva razumevanje osnovnih mehanizama sistema: upravljanje paketima, komandna linija, osnovna bezbednost i svakodnevne najbolje prakse. U ovom poglavlju, vodiću vas korak po korak, od početne konfiguracije do instalacije alata za produktivnost i razvoj, kako bih osigurao da imate kompletnu, sigurnu i efikasnu radnu površinu.
+Međutim, ovladavanje instalacijom radnog okruženja zahteva razumevanje osnovnih mehanizama sistema: upravljanje paketima, komandna linija, osnovna bezbednost i svakodnevne najbolje prakse. U ovom poglavlju, vodiću vas korak po korak, od početne konfiguracije do instalacije alata za produktivnost i razvoj, kako bih osigurao da imate kompletnu, sigurnu i efikasnu desktop okruženje.
 
 
 
-### Instaliranje distribucije Ubuntu
+### Instaliranje Ubuntu distribucije 
 
 
 
@@ -1843,7 +1839,7 @@ Priključite USB fleš disk od najmanje 8 GB (pazite, njegov sadržaj će biti i
 
 
 
-Sada treba da pokrenete računar ne sa Hard diska, već sa USB ključa. Restartujte svoj uređaj i pristupite boot meniju ili BIOS/UEFI. Ovo se obično radi pritiskom na taster odmah nakon pokretanja računara (često `F2`, `F10`, `F12`, `DEL`, `ESC`). Proverite kako da pristupite ovom meniju na svom uređaju.
+Sada treba da pokrenete računar ne sa hard diska, već sa USB ključa. Restartujte svoj uređaj i pristupite boot meniju ili BIOS/UEFI. Ovo se obično radi pritiskom na taster odmah nakon pokretanja računara (često `F2`, `F10`, `F12`, `DEL`, `ESC`). Proverite kako da pristupite ovom meniju na svom uređaju.
 
 
 
@@ -1881,14 +1877,14 @@ Kada pokrenete Ubuntu, čarobnjak za instalaciju vodi vas korak po korak. Pratit
 
 
 
-Ako vaš računar već ima Windows, Ubuntu će automatski detektovati ovu instalaciju i predložiti dual-boot podešavanje za 2 operativna sistema:
+Ako vaš računar već ima Windows, Ubuntu će automatski detektovati ovu instalaciju i predložiti dual-boot podešavanje sa 2 operativna sistema:
 
 
 
 
-- Instalater će smanjiti Windows particiju kako bi oslobodio prostor
+- Instalater će smanjiti Windows particiju kako bi oslobodio prostor.
 - Ubuntu će biti instaliran u ovom slobodnom prostoru, sa sopstvenim particijama.
-- Menadžer pokretanja (GRUB) će biti instaliran, omogućavajući vam da birate između Windows-a i Ubuntu-a svaki put kada se računar pokrene.
+- Menadžer pokretanja (GRUB) (eng. boot manager) će biti instaliran, omogućavajući vam da birate između Windows-a i Ubuntu-a svaki put kada se računar pokrene.
 
 
 
@@ -1926,7 +1922,7 @@ Izaberite ovu opciju samo ako želite da pređete 100% na GNU/Linux. Ne zaboravi
 
 
 
-Ako vaša mašina uopšte ne sadrži sistem, ili ako ste prethodno obrisali disk, instalacija će se odvijati kao u prethodnom slučaju. Ubuntu će se instalirati kao glavni sistem i automatski konfigurisati potrebne particije.
+Ako vaša mašina uopšte ne sadrži nijedan sistem, ili ako ste prethodno obrisali disk, instalacija će se odvijati kao u prethodnom slučaju. Ubuntu će se instalirati kao glavni sistem i automatski konfigurisati potrebne particije.
 
 
 
@@ -2021,9 +2017,9 @@ Svako spremište je podeljeno na sekcije. Po defaultu, Ubuntu aktivira četiri g
 
 
 - **main**: besplatan softver zvanično održavan od strane Canonical-a. Primeri: Firefox, LibreOffice, bash
-- **restricted**: non-free software that is essential for the hardware to function properly. Examples: NVIDIA drivers, Wi-Fi firmware, proprietary codecs
+- **restricted**: Neslobodan softver koji je neophodan da bi hardver ispravno funkcionisao. Primeri: NVIDIA drajveri, Wi-Fi firmver, vlasnički kodeci.
 - **universe**: besplatan softver koji održava zajednica. Primeri: GIMP, Inkscape, Audacity
-- **multiverse**: softver podložan pravnim ograničenjima (patenti, neliberalne licence). Dostupnost može varirati u zavisnosti od zemlje. Primeri: određeni audio/video kodeci, Steam
+- **multiverse**: softver podložan pravnim ograničenjima (patenti, neslobodne licence). Dostupnost može varirati u zavisnosti od zemlje. Primeri: određeni audio/video kodeci, Steam
 
 
 
@@ -2035,7 +2031,7 @@ Svaka komponenta se zatim može razložiti na nekoliko kanala ili grana: `releas
 
 
 
-Grafički Interface čini korišćenje Ubuntu-a intuitivnim, ali za određene administrativne zadatke, terminal ostaje najefikasniji i najmoćniji alat. Pod Ubuntu-om, podrazumevana ljuska je **Bash** (*Bourne Again SHell*), besplatna ljuska iz Unix tradicije.
+Grafički interfejs čini korišćenje Ubuntu-a intuitivnim, ali za određene administrativne zadatke, terminal ostaje najefikasniji i najmoćniji alat. Pod Ubuntu-om, podrazumevani shell program (u prevodu ljuska) je **Bash** (*Bourne Again SHell*), besplatan shell sistemski program iz Unix tradicije.
 
 
 
@@ -2142,12 +2138,12 @@ Da biste kreirali novi direktorijum unutar trenutnog, koristite komandu:
 
 
 ```bash
-mkdir name
+mkdir naziv
 ```
 
 
 
-Jednostavno promenite "name" u ime vašeg novog direktorijuma.
+Jednostavno promenite "naziv" u ime vašeg novog direktorijuma.
 
 
 
@@ -2166,7 +2162,7 @@ Da biste kopirali datoteku, koristite komandu `cp`, nakon koje sledi naziv datot
 
 
 ```bash
-cp file.txt destination
+cp file.txt destinacija
 ```
 
 
@@ -2182,12 +2178,12 @@ cp file.txt destination
 
 
 ```bash
-mv file.txt /new/directory/
+mv file.txt /novi/direktorijum/
 ```
 
 
 
-Komanda `mv` omogućava vam da premestite ili preimenujete fajl ili direktorijum. Ako navedete putanju do drugog direktorijuma nakon imena fajla, fajl će biti premesten. Ako navedete novo ime u istom direktorijumu, fajl će biti preimenovan.
+Komanda `mv` omogućava vam da premestite ili preimenujete fajl ili direktorijum. Ako navedete putanju do drugog direktorijuma nakon imena fajla, fajl će biti premešten. Ako navedete novo ime u istom direktorijumu, fajl će biti preimenovan.
 
 
 
@@ -2222,7 +2218,7 @@ Upozorenje: ova komanda ne premešta fajlove u korpu za otpatke.
 
 
 
-Da biste izbegli greške sa ovom komandom, preporučujem da dodate potvrdu po podrazumevanim postavkama. Jednostavno izvršite u vašem terminalu:
+Da biste izbegli greške sa ovom komandom, preporučujem da podrazumevano dodate upit za potvrdu. Jednostavno izvršite u vašem terminalu:
 
 
 
@@ -2233,7 +2229,7 @@ source ~/.bashrc
 
 
 
-Bićete upitani da potvrdite pre svake brisanja.
+Bićete upitani da potvrdite pre svakog brisanja.
 
 
 
@@ -2260,16 +2256,16 @@ clear
 
 
 ```bash
-sudo command
+sudo komanda
 ```
 
 
 
-Ključna reč `sudo` (*superuser do*) omogućava vam da privremeno izvršite komandu sa privilegijama *root* (sistemskog administratora). Bićete upitani za vašu lozinku kako biste potvrdili ovu akciju. Budite oprezni: nikada ne koristite `sudo` bez razumevanja šta komanda radi.
+Ključna reč `sudo` (*superuser do*) omogućava vam da privremeno izvršite komandu sa  *root* privilegijama (privilegijama sistemskog administratora). Bićete upitani za vašu lozinku kako biste potvrdili ovu akciju. Budite oprezni: nikada ne koristite `sudo` bez razumevanja šta komanda radi.
 
 
 
-Savjet: da biste prešli na root shell (administratorsku sesiju), upišite:
+Savet: da biste prešli na root shell (administratorsku sesiju), upišite:
 
 
 
@@ -2290,7 +2286,7 @@ Ovo otvara puni terminal sa root privilegijama. Koristite sa oprezom i nikada na
 
 
 ```bash
-man command_name
+man naziv_komande
 ```
 
 
@@ -2331,7 +2327,7 @@ U sledećim odeljcima, detaljnije ćemo pogledati kako koristiti terminal za upr
 
 
 
-Na GNU/Linux sistemu kao što je Ubuntu, instalacija, ažuriranje i uklanjanje softvera su centralizovani kroz sisteme za upravljanje paketima. Za razliku od Windows-a, gde preuzimate `.exe' ili `.msi' datoteke, Ubuntu koristi alate kao što su APT, Snap ili Flatpak da automatizuje ove operacije, garantujući konzistentnost sistema.
+Na GNU/Linux sistemu kao što je Ubuntu, instalacija, ažuriranje i uklanjanje softvera su centralizovani kroz sisteme za upravljanje paketima. Za razliku od Windows-a, gde preuzimate `.exe` ili `.msi` datoteke, Ubuntu koristi alate kao što su APT, Snap ili Flatpak da automatizuje ove operacije, garantujući konzistentnost sistema.
 
 
 
@@ -2343,7 +2339,7 @@ APT (*Advanced Package Tool*) je glavni upravitelj paketa za Ubuntu. Rukuje pake
 
 
 
-Da pretražite repozitorijume za dostupni paket (naravno, morate zameniti "gimp" imenom željenog softvera):
+Da biste pretražili repozitorijume u potrazi za dostupnim paketom (naravno, morate zameniti "gimp" imenom željenog softvera):
 
 
 
@@ -2371,7 +2367,7 @@ sudo apt install gimp
 
 
 
-Kada je instalacija završena, izvršni fajl ćete pronaći u Ubuntu meniju aplikacija, koji se nalazi u donjem levom uglu Interface.
+Kada je instalacija završena, izvršni fajl ćete pronaći u Ubuntu meniju aplikacija, koji se nalazi u donjem levom uglu interfejsa.
 
 
 
@@ -2426,23 +2422,22 @@ sudo apt upgrade
 
 
 
-→ APT je brz, lagan i veoma dobro integrisan u Ubuntu. Za sav softver dostupan u zvaničnim riznicama, ovo je preferirani metod.
+→ APT je brz, lagan i veoma dobro integrisan u Ubuntu. Za sav softver dostupan u zvaničnim repozitorijima, ovo je preferirani metod.
 
 
 
-#### Snap: containerizovani paketi od Canonical
+#### Snap: kontejnerizovani paketi kompanije Canonical
 
 
 
-Snap je format paketa koji je razvio Canonical, dizajniran da bude univerzalan, izolovan od glavnog sistema i samostalan. To znači da svaki snap uključuje sopstvene zavisnosti i radi u okruženju sa peskovnikom.
-
+Snap je format paketa koji je razvio Canonical, dizajniran da bude univerzalan, izolovan od glavnog sistema i samostalan. To znači da svaki snap sadrži sopstvene zavisnosti i radi u izolovanom (sandbox) okruženju.
 
 
 Ovo omogućava da se softver ažurira nezavisno od sistema i radi na svim Linux distribucijama koje podržavaju Snap. S druge strane, potrebno je više vremena za pokretanje, može dovesti do nepotrebnog nagomilavanja istih zavisnosti, a integracija sa desktopom je ponekad manje fluidna.
 
 
 
-Da biste pretražili Snap paket u Snap prodavnici (ovde za Spotify softver):
+Da biste pretražili Snap paket u Snap prodavnici (u ovom primeru za Spotify softver):
 
 
 
@@ -2466,7 +2461,7 @@ sudo snap install spotify
 
 
 
-Kada je instalacija završena, naći ćete izvršnu datoteku u Ubuntu meniju aplikacija, koji se nalazi u donjem levom uglu Interface. Ili, još jednostavnije: možete direktno upisati ime softvera u terminal (u ovom slučaju, "spotify") da biste ga otvorili.
+Kada je instalacija završena, naći ćete izvršnu datoteku u Ubuntu meniju aplikacija, koji se nalazi u donjem levom uglu interfejsa. Ili, još jednostavnije: možete direktno upisati ime softvera u terminal (u ovom slučaju, "spotify") da biste ga otvorili.
 
 
 
@@ -2510,7 +2505,7 @@ Flatpak je još jedan univerzalni format paketa, razvijen od strane zajednice (R
 
 
 
-Da instalirate Flatpak i njegovu grafičku integraciju:
+Za instaliranje Flatpak i njegovog grafičkog interfejsa, koristite komandu:
 
 
 
@@ -2520,7 +2515,7 @@ sudo apt install flatpak gnome-software-plugin-flatpak
 
 
 
-Da biste dodali glavnu zajedničku riznicu (Flathub):
+Da biste dodali glavni repozitorijum zajednice (Flathub), koristite komandu:
 
 
 
@@ -2548,27 +2543,27 @@ Ukratko:
 
 
 
-| Format       | Origin       | Isolation | Size | Performance | Permission Control |
-| ------------ | ------------- | --------- | ------ | ------------ | ------------------- |
-| APT / `.deb` | Debian        | ❌         | ✅      | ✅            | 🟡                  |
-| Snap         | Canonical     | 🟡        | ❌      | ❌            | 🟡                  |
-| Flatpak      | Community     | ✅         | 🟡     | 🟡           | ✅                   |
+| Format       | Kreator       | Izolacija | Veličina| Performanse | Kontrola dozvola |
+| ------------ | ------------- | --------- | -----   | ------------| -----------------|
+| APT / `.deb` | Debian        | ❌        | ✅       | ✅          | 🟡                |
+| Snap         | Canonical     | 🟡        | ❌       | ❌          | 🟡                |
+| Flatpak      | Zajednica     | ✅        | 🟡       | 🟡          | ✅                |
 
-#### App Center: grafički instalater
-
-
-
-Ubuntu uključuje aplikaciju pod nazivom *App Center*, koja služi kao grafički Interface za lako pretraživanje, instaliranje i deinstaliranje aplikacija, bez korišćenja komandnih linija kao što smo upravo videli. Tehnički, App Center deluje kao sloj preko menadžera paketa. Stoga može:
+#### App Center: grafički instalacioni program
 
 
 
-
-- Instalirajte .deb pakete koristeći APT
-- Instalirajte Snap pakete iz Snap prodavnice
+Ubuntu uključuje aplikaciju pod nazivom *App Center*, koja služi kao grafički interfejs za lako pretraživanje, instaliranje i deinstaliranje aplikacija, bez korišćenja komandnih linija kao što smo upravo videli. Tehnički, App Center deluje kao sloj preko menadžera paketa. Stoga može:
 
 
 
-Dakle, prodavnica App Center nije sistem za instalaciju sama po sebi, već Interface koji okuplja i objedinjuje nekoliko izvora softvera, sa pretraživačem, opisnim informacijama i dugmadima za instalaciju prilagođenim početnicima.
+
+- Instalirati .deb pakete koristeći APT
+- Instalirati Snap pakete iz Snap prodavnice
+
+
+
+Dakle, prodavnica App Center nije sistem za instalaciju sama po sebi, već interfejs koji okuplja i objedinjuje nekoliko izvora softvera, sa pretraživačem, opisnim informacijama i dugmadima za instalaciju prilagođenim početnicima.
 
 
 
@@ -2580,7 +2575,7 @@ Dakle, prodavnica App Center nije sistem za instalaciju sama po sebi, već Inter
 
 
 
-Da bi se osigurala stabilnost i bezbednost vašeg sistema, Ubuntu automatski primenjuje kritične ažuriranja putem servisa pod nazivom `unattended-upgrades`. Ovaj servis radi u pozadini i instalira bezbednosne zakrpe koje izdaje distribucija, bez vaše intervencije.
+Da bi se osigurala stabilnost i bezbednost vašeg sistema, Ubuntu automatski primenjuje kritična ažuriranja putem servisa pod nazivom `unattended-upgrades`. Ovaj servis radi u pozadini i instalira bezbednosne zakrpe koje izdaje distribucija, bez vaše intervencije.
 
 
 
@@ -2616,7 +2611,7 @@ sudo systemctl enable --now unattended-upgrades
 
 
 
-Ova usluga štiti vaš sistem od novootkrivenih ranjivosti, bez potrebe za ručnim proveravanjem ažuriranja svakog dana. Posebno je korisna na radnim stanicama koje nisu pod stalnim nadzorom, kao što su lični računari, jer garantuje osnovni nivo sigurnosnih ažuriranja.
+Ova usluga štiti vaš sistem od novootkrivenih bezbednosnih ranjivosti, bez potrebe za ručnim proveravanjem ažuriranja svakog dana. Posebno je korisna na radnim stanicama koje nisu pod stalnim nadzorom, kao što su lični računari, jer garantuje osnovni nivo sigurnosnih ažuriranja.
 
 
 
@@ -2663,7 +2658,7 @@ Ova komanda uklanja zastarele pakete i pridružene konfiguracione fajlove.
 
 
 
-Ako ste instalirali softver putem Snap ili Flatpak upravitelja paketa, možete koristiti ove dve komande da ih ažurirate:
+Ako ste instalirali softver putem Snap-a ili Flatpak-a upravitelja paketa, možete koristiti ove dve komande da ih ažurirate:
 
 
 
@@ -2698,7 +2693,7 @@ sudo needrestart
 
 
 
-Ovaj program će analizirati sve usluge ili procese koji još uvek koriste starije verzije biblioteka ili kernela, i reći će vam da li je potrebno restartovati sistem kako bi se primenile ažuriranja.
+Ovaj program će analizirati sve usluge ili procese koji još uvek koriste starije verzije biblioteka ili kernela, i reći će vam da li je potrebno restartovati sistem kako bi se primenila ažuriranja.
 
 
 
@@ -2710,7 +2705,7 @@ Održavanje vašeg sistema i softvera ažurnim je suštinski refleks kada je u p
 
 
 
-### Zaštita vatrozida i mreže
+### Firewall i jačanje mrežne sigurnosti
 
 
 
@@ -2758,7 +2753,7 @@ Podrazumevano, UFW usvaja strategiju odbijanja netraženih dolaznih veza dok omo
 
 
 
-#### Autorizujte uslugu
+#### Dozvoli servis
 
 
 
@@ -2798,7 +2793,7 @@ sudo ufw status numbered
 
 
 
-Moguće je ograničiti pristup određenim uslugama na opseg IP adresa, što može biti korisno u lokalnoj mreži (LAN):
+Moguće je ograničiti pristup određenim servisima na opsegu IP adresa, što može biti korisno u lokalnoj mreži (LAN):
 
 
 
@@ -2812,11 +2807,11 @@ Ovo omogućava TCP konekcije na portu 6881 samo sa podmreže `192.168.1.0/24` (o
 
 
 
-#### Grafički Interface: GUFW
+#### Grafički interfejs: GUFW
 
 
 
-Ako ste manje upoznati sa terminalom, postoji grafički Interface pod nazivom GUFW, koji olakšava upravljanje pravilima vatrozida pomoću dugmadi, padajućih lista i dijaloških okvira. Za instalaciju:
+Ako ste manje upoznati sa terminalom, postoji grafički interfejs pod nazivom GUFW, koji olakšava upravljanje firewall pravilima pomoću dugmadi, padajućih lista i dijaloških okvira. Za instalaciju:
 
 
 
@@ -2826,7 +2821,7 @@ sudo apt install gufw
 
 
 
-Jednom instaliran, pokrenite ga putem menija aplikacija. Moći ćete da aktivirate firewall, autorizujete ili blokirate usluge i pregledate filtrirane konekcije u realnom vremenu.
+Jednom instaliran, pokrenite ga putem menija aplikacija. Moći ćete da aktivirate firewall, autorizujete ili blokirate servise i pregledate filtrirane konekcije u realnom vremenu.
 
 
 
@@ -2834,7 +2829,7 @@ Jednom instaliran, pokrenite ga putem menija aplikacija. Moći ćete da aktivira
 
 
 
-→ **Dobre prakse:** Čak i ako ne izlažete mrežne usluge spoljašnjem svetu, vatrozid je i dalje koristan za blokiranje određenih tipova skeniranja ili pristupa. Takođe, ne zaboravite da onemogućite nepotrebne usluge i uvek održavajte mrežni softver ažurnim. Ovo učvršćivanje lokalne mreže je prva linija odbrane u široj bezbednosnoj strategiji, ali ćemo se na ovo vratiti kasnije u kursu.
+→ **Dobre prakse:** Čak i ako ne izlažete nikakve mrežne servise spoljašnjem svetu, firewall je i dalje koristan za blokiranje određenih tipova skeniranja ili pristupa. Takođe, ne zaboravite da onemogućite nepotrebne servise i uvek održavajte mrežni softver ažurnim. Ovo učvršćivanje lokalne mreže je prva linija odbrane u široj bezbednosnoj strategiji, ali ćemo se na ovo vratiti kasnije u kursu.
 
 
 
@@ -2842,22 +2837,22 @@ Jednom instaliran, pokrenite ga putem menija aplikacija. Moći ćete da aktivira
 
 
 
-Pod Ubuntuom, upravljanje mrežom obavlja *NetworkManager*, servis koji centralizuje žičane veze, Wi-Fi, VPN-ove, modeme, itd. Radi u tandemu sa *netplan*-om, alatom za niskonivojsku konfiguraciju koji definiše trajna mrežna podešavanja u YAML datotekama. Zajedno, ovi alati osiguravaju jednostavnost za svakodnevnu upotrebu i robusnost za složenije slučajeve (serveri, ručne konfiguracije, itd.).
+Na Ubuntu, upravljanje mrežom obavlja *NetworkManager*, servis koji centralizuje žičane veze, Wi-Fi, VPN-ove, modeme, itd. Radi u tandemu sa *netplan*-om, alatom za konfiguraciju niskog nivoa koji definiše trajna mrežna podešavanja u YAML datotekama. Zajedno, ovi alati osiguravaju jednostavnost za svakodnevnu upotrebu i robusnost za složenije slučajeve (serveri, ručne konfiguracije, itd.).
 
 
 
-#### Upravljanje putem grafičkog Interface
+#### Upravljanje putem grafičkog interfejsa
 
 
 
-Za većinu korisnika, grafički Interface integrisan u GNOME (Podešavanja sistema → Mreža/Wi-Fi) je više nego dovoljan. Omogućava vam da:
+Za većinu korisnika, grafički interfejs integrisan u GNOME (Podešavanja sistema → Mreža/Wi-Fi) je više nego dovoljan. Omogućava vam da:
 
 
 
 
-- Povežite se na dostupnu Wi-Fi mrežu
-- Upravljajte žičanim vezama, proxyjima ili VPN-ovima
-- Pogledajte trenutni status svake mreže Interface
+- se povežete na dostupnu Wi-Fi mrežu
+- upravljate žičanim vezama, proxyjima ili VPN-ovima
+- pogledate trenutni status svakog mrežnog interfejsa
 
 
 
@@ -2879,7 +2874,7 @@ Za rešavanje problema ili daljinski pristup, komanda `nmcli` omogućava vam da 
 
 
 
-- Da prikažete otkrivene mrežne interfejse:
+- Da biste prikazali otkrivene mrežne interfejse:
 
 
 
@@ -2891,7 +2886,7 @@ nmcli device status
 
 
 
-- Da skeniraš obližnje Wi-Fi mreže
+- Da biste skenirali obližnje Wi-Fi mreže
 
 
 
@@ -2917,7 +2912,7 @@ nmcli device wifi connect "wifi_name" password "password"
 
 
 
-Kada vaš osnovni sistem bude pokrenut, sledeći korak je instalacija potrebnog softvera. Ubuntu nudi nekoliko metoda instalacije (APT, Snap, Flatpak), koje smo detaljno opisali iznad. Ovde koristimo APT kad god je to moguće kako bismo održali prirodnu integraciju sa sistemom.
+Kada vaš osnovni sistem bude pokrenut, sledeći korak je instalacija potrebnog softvera. Ubuntu nudi nekoliko metoda instalacije (APT, Snap, Flatpak), koje smo detaljno opisali iznad. Ovde koristimo APT kad god je to moguće kako bismo održali nativnu integraciju sa sistemom.
 
 
 
@@ -2925,11 +2920,11 @@ Kada vaš osnovni sistem bude pokrenut, sledeći korak je instalacija potrebnog 
 
 
 
-Podrazumevano, Ubuntu uključuje Snap verziju Firefox-a. Ovaj format pruža bolju izolaciju (što je dobro u smislu bezbednosti), ali rezultira sporijim vremenom pokretanja, većom potrošnjom resursa i nekim ograničenjima integracije sistema (upravljanje fajlovima, teme...).
+Podrazumevano, Ubuntu uključuje Snap verziju Firefox-a. Ovaj format pruža bolju izolaciju (što je dobro u smislu bezbednosti), ali rezultira sporijim vremenom pokretanja, većom potrošnjom resursa i nekim ograničenjima u integraciji sa sistemom (upravljanje fajlovima, teme...).
 
 
 
-Ako više volite izvornu `.deb` verziju, možete je instalirati sa zvaničnog Mozilla PPA:
+Ako više volite nativnu `.deb` verziju, možete je instalirati sa zvaničnog Mozilla PPA:
 
 
 
@@ -2959,7 +2954,7 @@ Ovo zamrzava trenutno instaliranu verziju `.deb`. Nastaviće da se ažurira, ali
 
 
 
-Detaljnije ćemo pogledati pretraživače u kasnijem poglavlju, kako bismo vam pomogli da odaberete onaj koji najbolje odgovara vašim potrebama i optimalno ga konfigurišete.
+Detaljnije ćemo pogledati pregledače u kasnijem poglavlju, kako bismo vam pomogli da odaberete onaj koji najbolje odgovara vašim potrebama i optimalno ga konfigurišete.
 
 
 
@@ -3010,7 +3005,7 @@ Ova tri paketa pokrivaju osnovne stvari: obradu teksta, tabelarne proračune i p
 
 
 
-Druge alternative takođe postoje, kao što su OnlyOffice (bliži Interface Microsoft Office), WPS Office (proprietarno, ali vrlo fluidno), ili Calligra Suite (KDE projekat). Ove opcije se mogu instalirati putem Flatpak-a, Snap-a ili preuzeti sa njihovih odgovarajućih sajtova.
+Druge alternative takođe postoje, kao što su OnlyOffice (bliži Microsoft Office interfejsu), WPS Office (zatvoreni (vlasnički) softver, ali vrlo fluidno rešenje), ili Calligra Suite (KDE projekat). Ove opcije se mogu instalirati putem Flatpak-a, Snap-a ili preuzeti sa njihovih odgovarajućih sajtova.
 
 
 
@@ -3028,7 +3023,7 @@ sudo apt install vlc
 
 
 
-Ubuntu ne pruža određene vlasničke kodeke (MP3, H.264...) po defaultu, iz pravnih razloga. Sledeći paket dodaje ove esencijalne Elements:
+Ubuntu ne pruža određene vlasničke kodeke (MP3, H.264...) po defaultu, iz pravnih razloga. Sledeći paket dodaje ove esencijalne elemente:
 
 
 
@@ -3110,7 +3105,7 @@ sudo snap install code --classic
 
 
 
-Pored ovih nekoliko osnovnih alata, takođe preporučujem da instalirate osnovne sigurnosne alate prilagođene vašem slučaju upotrebe, posebno menadžer lozinki i VPN:
+Pored ovih nekoliko osnovnih alata, takođe preporučujem da instalirate osnovne sigurnosne alate prilagođene vašem načinu korišćenja, posebno menadžer lozinki i VPN:
 
 
 
@@ -3155,7 +3150,7 @@ Ova tehnička autonomija je suštinska osnova za samouvereno pristupanje ostatku
 
 
 
-# Osiguravanje vašeg računara
+# Zaštita vašeg računara
 
 
 <partId>7fda3e41-ff0e-4fa0-8bd5-350d9ad5bbec</partId>
@@ -3169,7 +3164,7 @@ Ova tehnička autonomija je suštinska osnova za samouvereno pristupanje ostatku
 
 
 
-Bezbednost vašeg računara počinje sa dva važna koncepta u sajber bezbednosti: autentifikacija i particionisanje. Ova dva pristupa čine osnovu za efikasnu zaštitu vašeg uređaja, očuvanje vaše privatnosti i osiguranje vaše digitalne suverenosti. U ovom poglavlju, detaljno ćemo istražiti kako upravljati ovim aspektima na vašem računaru.
+Bezbednost vašeg računara počinje sa dva važna koncepta u sajber bezbednosti: autentifikacija i particionisanje. Ova dva pristupa čine osnovu za efikasnu zaštitu vašeg uređaja, očuvanje vaše privatnosti i obezbeđivanje vaše digitalne suverenosti. U ovom poglavlju, detaljno ćemo istražiti kako upravljati ovim aspektima na vašem računaru.
 
 
 
@@ -3194,9 +3189,9 @@ Ova lozinka mora biti jaka:
 
 
 
-- Mora biti dovoljno dugo. Trenutno (jun 2025), preporučujem minimum od 20 karaktera;
+- Mora biti dovoljno dugačka. Trenutno (jun 2025), preporučujem minimum od 20 karaktera;
 - Mora kombinovati velika i mala slova, brojeve i specijalne karaktere;
-- Treba da bude što nasumičnije moguće i da ne sadrži nikakve veze sa Elements iz vaše direktne ili indirektne okoline, kao što su ime, datum ili mesto.
+- Treba da bude što nasumičnija i da ne sadrži nikakve veze sa elementima iz vaše direktne ili indirektne okoline, kao što su ime, datum ili mesto.
 
 
 
@@ -3220,7 +3215,7 @@ Na kraju, menjajte ovu lozinku redovno—svakih 3 do 6 meseci—posebno ako se v
 
 
 
-#### Osiguravanje pristupa BIOS/UEFI
+#### Zaštita pristupa BIOS-u/UEFI-ju
 
 
 
@@ -3232,29 +3227,29 @@ BIOS (*Basic Input/Output System*) je prethodnik UEFI (*Unified Extensible Firmw
 
 
 
-Podrazumevano, pristup ovim podešavanjima nije zaštićen. Napadač sa fizičkim pristupom vašem računaru (u zajedničkom prostoru, u slučaju krađe ili čak privremeno bez vašeg znanja) mogao bi ući u Interface UEFI i izmeniti kritična podešavanja. Mogao bi, na primer:
+Podrazumevano, pristup ovim podešavanjima nije zaštićen. Napadač sa fizičkim pristupom vašem računaru (u zajedničkom prostoru, u slučaju krađe ili čak privremeno bez vašeg znanja) mogao bi ući u UEFI interfejs i izmeniti kritična podešavanja. Mogao bi, na primer:
 
 
 
 
-- Promenite redosled pokretanja da biste primorali pokretanje spoljnog sistema sa USB ključa.
-- Onemogući sigurnosne mehanizme kao što je Secure Boot
-- Instaliranje malvera u firmver vašeg računara...
+- promeniti redosled pokretanja da bi primorali pokretanje spoljnog operativnog sistema sa USB ključa
+- onemogući sigurnosne mehanizme kao što je Secure Boot
+- instalira malvera u firmver vašeg računara...
 
 
 
-Da biste se zaštitili od ovih offline napada, važno je zaključati pristup BIOS/UEFI lozinkom. Ova lozinka je odvojena od lozinke vašeg operativnog sistema i sprečava neovlašćen pristup BIOS/UEFI.
+Da biste se zaštitili od ovih offline napada, važno je zaključati pristup BIOS/UEFI lozinkom. Ova lozinka je odvojena od lozinke vašeg operativnog sistema i sprečava neovlašćen pristup BIOS-u/UEFI.
 
 
 
-Da biste ga aktivirali, to će zavisiti od modela vaše matične ploče, ali generalno vam je potrebno:
+Da biste to aktivirali, postupak zavisi od modela vaše matične ploče, ali je uglavnom potrebno:
 
 
 
 
 - Ponovo pokrenite računar
 - Odmah nakon uključivanja, brzo pritisnite taster za pristup BIOS/UEFI specifičan za vaš uređaj (`Del`, `F2`, `F10`, `Esc`...)
-- U Interface koji se pojavljuje, pronađite opcije za sigurnosnu ili administratorsku lozinku
+- U interfejs koji se pojavi, pronađite opcije za sigurnosnu ili administratorsku lozinku
 - Postavite dugu, jedinstvenu i nasumičnu lozinku, a zatim je sačuvajte.
 - Sačuvaj izmene i restartuj računar
 
@@ -3276,19 +3271,19 @@ Osiguranje UEFI-ja je često zanemarena, ali apsolutno ključna mera za zaštitu
 
 
 
-#### Osiguravanje fizičkog pristupa računaru
+#### Zaštita fizičkog pristupa računaru
 
 
 
-Osiguranje radne stanice nije ograničeno na softverske zaštite: ako zlonamerna osoba dobije fizički pristup vašem računaru, može zaobići mnoge barijere ili kompromitovati sistem bez vašeg znanja. Ovo je posebno tačno za laptopove, koji se lako prenose, ali takođe i za bilo koji uređaj ostavljen u zajedničkom prostoru, otvorenom za javnost ili čak jednostavno dostupan drugim ljudima.
+Osiguranje radne stanice nije ograničeno na softverske zaštite: ako zlonamerna osoba dobije fizički pristup vašem računaru, može zaobići mnoge barijere ili kompromitovati sistem bez vašeg znanja. Ovo je posebno tačno za laptopove, koji se lako prenose, ali takođe i za bilo koji drugi uređaj ostavljen u zajedničkom prostoru, otvorenom za javnost ili čak jednostavno dostupan drugim ljudima.
 
 
 
-Jedan od najčešćih (ali potcenjenih) rizika je ostavljanje računara bez nadzora, čak i na nekoliko minuta, na javnim mestima kao što su biblioteke, konferencije, otvoreni prostori i hotelski lobi. Ovo nije samo rizik od krađe: u roku od nekoliko sekundi, zlonamerna osoba može povezati zlonamerni USB stik, instalirati špijunski softver, modifikovati parametre pokretanja kako bi forsirala eksterno pokretanje, ili uhvatiti akreditive ubrizgavanjem hardverskog keylogger-a.
+Jedan od najčešćih (ali potcenjenih) rizika je ostavljanje računara bez nadzora, čak i na nekoliko minuta, na javnim mestima kao što su biblioteke, konferencije, otvoreni prostori i hotelski lobiji. Ovo nije samo rizik od krađe: u roku od nekoliko sekundi, zlonamerna osoba može povezati zlonamerni USB stik, instalirati špijunski softver, modifikovati parametre pokretanja (eng. boot parameters) kako bi forsirala eksterno pokretanje, ili uhvatiti kredencijale ubrizgavanjem hardverskog keylogger-a.
 
 
 
-U istom duhu, savetujem da ne koristite spoljne dodatke ili periferne uređaje koje ne kontrolišete. Izbegavajte umetanje USB stikova, eksternih Hard drajvova, punjača ili donglova u vaš računar ako poreklo ovih objekata nije poznato (novi ili u vlasništvu pouzdane osobe). Neki naizgled bezazleni dodaci mogu sadržati kola sposobna za izvršavanje zlonamernih komandi čim se priključe. Suprotno tome, ne pozajmljujte svoje dodatke niti ih ostavljajte bez nadzora na dostupnim mestima: mogli bi biti zamenjeni kompromitovanim verzijama.
+U istom duhu, savetujem da ne koristite spoljne dodatke ili periferne uređaje koje ne kontrolišete. Izbegavajte umetanje USB stikova, eksternih hard drajvova, punjača ili donglova u vaš računar ako poreklo ovih objekata nije poznato (ili novi ili u vlasništvu pouzdane osobe). Neki naizgled bezazleni dodaci mogu sadržati mikrokontroler/elektronske sklopove sposobne za izvršavanje zlonamernih komandi čim se priključe. Suprotno tome, ne pozajmljujte svoje dodatke niti ih ostavljajte bez nadzora na dostupnim mestima: mogli bi biti zamenjeni kompromitovanim verzijama.
 
 
 
@@ -3322,11 +3317,11 @@ U svim slučajevima, lozinka za dešifrovanje mora biti jaka, različita od lozi
 
 https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-### Princip principa najmanjih privilegija
+### Princip najmanjih privilegija
 
 
 
-Princip principa najmanjih privilegija je osnovno pravilo u sajber bezbednosti, prema kojem svaka entitet (ljudski korisnik, softverski program, sistemski proces, itd.) treba da ima samo ona prava koja su striktno neophodna za obavljanje svojih zadataka. Drugim rečima, nikada ne dodeljujte više ovlašćenja nego što je potrebno, jer svaka dodatna dozvola povećava površinu napada sistema.
+Princip najmanjih privilegija je osnovno pravilo u sajber bezbednosti, prema kojem svaka entitet (ljudski korisnik, softverski program, sistemski proces, itd.) treba da ima samo ona prava koja su striktno neophodna za obavljanje svojih zadataka. Drugim rečima, nikada ne dodeljujte više ovlašćenja nego što je potrebno, jer svaka dodatna dozvola povećava površinu napada sistema.
 
 
 
@@ -3358,15 +3353,15 @@ Ova podela nije ograničena na ljudske korisnike. Mnoge aplikacije zahtevaju pov
 
 
 
-### Višesesija: odvojena okruženja
+### Multisesija: izdvojena okruženja
 
 
 
-Pored razdvajanja administratorskih naloga od standardnih naloga, komplementarna najbolja praksa je kreiranje nekoliko različitih korisničkih sesija na istom računaru kako bi se upotreba podelila prema njenoj prirodi. Ovaj pristup zasnovan je na jednostavnoj logici: razdvajanjem aktivnosti u odvojena okruženja, smanjujete površinu napada svakog okruženja i ograničavate posledice bilo kakvog sigurnosnog incidenta.
+Pored razdvajanja administratorskih naloga od standardnih naloga, dobra dopunska praksa je kreiranje nekoliko različitih korisničkih sesija na istom računaru kako bi se upotreba podelila prema njenoj nameni. Ovaj pristup zasnovan je na jednostavnoj logici: razdvajanjem aktivnosti u odvojena okruženja, smanjujete površinu napada svakog okruženja i ograničavate posledice bilo kakvog sigurnosnog incidenta.
 
 
 
-Svi moderni operativni sistemi omogućavaju kreiranje više korisničkih naloga na jednom računaru. Ovi nalozi imaju svoj lični prostor: fajlovi, aplikacije, podešavanja i mrežne sesije nisu deljeni između njih, osim ako nije eksplicitno odobreno.
+Svi moderni operativni sistemi omogućavaju kreiranje više korisničkih naloga na jednom računaru. Svaki od ovih naloga ima sopstveni lični prostor: datoteke, aplikacije, podešavanja i mrežne sesije se ne dele između njih, osim ako to nije izričito odobreno.
 
 
 
@@ -3376,13 +3371,13 @@ Na primer, možete strukturirati svoje sesije na sledeći način:
 
 
 - Nalog posvećen vašoj profesionalnoj aktivnosti, gde instalirate samo softver koji vam je strogo potreban (kancelarijski paketi, alati za saradnju, profesionalna razmena poruka...). Ova sesija ne sme se koristiti za slobodno pretraživanje interneta ili testiranje softvera;
-- Nalog za ličnu upotrebu, koristi se za svakodnevno pretraživanje interneta, društveno umrežavanje, strimovanje ili instaliranje potrošačkih aplikacija. Ovo je obično sesija koja je najviše izložena napadima na pretraživač ili sumnjivim preuzimanjima;
-- Nalog rezervisan za osetljive aktivnosti, kao što su konsultovanje bankovnih računa, upravljanje vašim Bitcoin portfolijima, ili bilo koja druga upotreba koja zahteva visok nivo sigurnosti. Ovaj nalog treba koristiti isključivo za ove zadatke, sa instaliranim softverom ograničenim na ono što je strogo neophodno, i sa strožijom mrežnom konfiguracijom;
+- Nalog za ličnu upotrebu, koristi se za svakodnevno pretraživanje interneta, društveno umrežavanje, strimovanje ili instaliranje potrošačkih aplikacija. Ovo je obično sesija koja je najviše izložena napadima putem pregledača (browser-a) ili sumnjivim preuzimanjima;
+- Nalog rezervisan za osetljive aktivnosti, kao što su konsultovanje bankovnih računa, upravljanje vašim Bitcoin novčanikom, ili bilo koja druga upotreba koja zahteva visok nivo sigurnosti. Ovaj nalog treba koristiti isključivo za ove zadatke, sa instaliranim softverom ograničenim na ono što je strogo neophodno, i sa strožijom mrežnom konfiguracijom;
 - Gost ili strogo ograničen nalog, namenjen isključivo za povremenu upotrebu od strane članova porodice, na primer. Ovaj nalog očigledno ne sme imati administratorska prava i ograničen pristup.
 
 
 
-Postoji nekoliko prednosti usvajanja ovog pristupa. Prvo, aplikacije instalirane u jednoj sesiji ne mogu ometati one u drugim sesijama (osim u slučaju podizanja privilegija). Drugo, ako je sesija kompromitovana, na primer putem preuzetog malvera, uticaj je generalno ograničen unutar granica tog naloga. To znači da će vaši poslovni dokumenti ili Bitcoin portfoliji ostati nedostupni malveru ako se čuvaju u drugoj, pravilno izolovanoj sesiji.
+Postoji nekoliko prednosti usvajanja ovog pristupa. Prvo, aplikacije instalirane u jednoj sesiji ne mogu ometati one u drugim sesijama (osim u slučaju podizanja privilegija). Drugo, ako je sesija kompromitovana, na primer putem preuzetog malvera, uticaj je generalno ograničen unutar granica tog naloga. To znači da će vaši poslovni dokumenti ili Bitcoin novčanici ostati nedostupni malveru ako se čuvaju u drugoj, pravilno izolovanoj sesiji.
 
 
 
@@ -3394,7 +3389,7 @@ Na Linuxu, ovo razdvajanje može biti pojačano mehanizmima kao što su AppArmor
 
 
 
-Važno je napomenuti da multisession ne zamenjuje upotrebu naloga bez administratorskih privilegija, niti primenu principa najmanjih privilegija. On ga dopunjuje dodavanjem Layer logičke izolacije, koja je laka za postavljanje i posebno efikasna za hibridnu porodičnu ili profesionalnu upotrebu.
+Važno je napomenuti da multisesijski pristup ne zamenjuje korišćenje neadministratorskog naloga, niti primenu principa najmanjih privilegija. On ga dopunjuje dodavanjem sloja logičke izolacije, koji je lako uspostaviti i posebno je efikasan za hibridnu porodičnu ili profesionalnu upotrebu.
 
 
 
@@ -3419,11 +3414,11 @@ Ova tehnologija se zasniva na hipervizoru, softverskom programu koji upravlja kr
 
 https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-U smislu IT bezbednosti, jedna od velikih prednosti virtuelnih mašina je njihova sposobnost da izvrše kompartmenatizaciju. VM ne deli svoje fajlove, procese ili mrežni pristup sa host sistemom, osim ako eksplicitno ne konfigurišete te razmene. Dakle, ako je VM zaražena malverom, ili ako testirate osetljiv softver unutar nje, uticaj ostaje ograničen na tu virtuelnu mašinu: vaš glavni sistem ostaje netaknut, pod uslovom da se poštuju parametri izolacije (nema deljenih direktorijuma, nema USB uređaja prosleđenih VM-u...).
+U smislu IT bezbednosti, jedna od velikih prednosti virtuelnih mašina je njihova sposobnost da podeli na odvojene delove / sposobnost segmentacije. VM ne deli svoje fajlove, procese ili mrežni pristup sa host sistemom, osim ako eksplicitno ne konfigurišete te razmene. Dakle, ako je VM zaražena malverom, ili ako testirate osetljiv softver unutar nje, uticaj ostaje ograničen na tu virtuelnu mašinu: vaš glavni sistem ostaje netaknut, pod uslovom da se poštuju parametri izolacije (nema deljenih direktorijuma, nema USB uređaja prosleđenih VM-u...).
 
 
 
-VM vam može omogućiti testiranje sumnjivog softvera: ako preuzmete program sa nepouzdanog izvora ili sumnjive stranice, možete ga prvo pokrenuti u VM-u kako biste posmatrali njegovo ponašanje u potpunoj sigurnosti. Ovo može biti korisno i prilikom pregledavanja rizičnih stranica: možete posvetiti VM za konsultaciju osetljivog ili nepoznatog web sadržaja, što smanjuje šanse za napade zlonamernih skripti ili eksploataciju ranjivosti pretraživača. Ukratko: korišćenje VM-a vam omogućava da lako izolujete specifičnu upotrebu od ostatka vašeg sistema.
+VM vam može omogućiti testiranje sumnjivog softvera: ako preuzmete program sa nepouzdanog izvora ili sumnjive stranice, možete ga prvo pokrenuti u VM-u kako biste posmatrali njegovo ponašanje u potpunoj sigurnosti. Ovo može biti korisno i prilikom pregledavanja rizičnih stranica: možete posvetiti VM za konsultaciju osetljivog ili nepoznatog web sadržaja, što smanjuje šanse za napade zlonamernih skripti ili eksploataciju ranjivosti browser-a. Ukratko: korišćenje VM-a vam omogućava da lako izolujete specifičnu upotrebu od ostatka vašeg sistema.
 
 
 
@@ -3431,7 +3426,7 @@ Konačno, važno je razumeti da bezbednost koju pružaju VM-ovi zavisi od njihov
 
 
 
-### Pesakivanje
+### Izolacija okruženja ili sandboxing (zaštićeno okruženje)
 
 
 
@@ -3447,13 +3442,13 @@ Evo nekoliko konkretnih rešenja za sandboxing, u zavisnosti od vašeg operativn
 
 
 
-**Prozori**
+**Windows**
 
 
 
 
 - Windows Sandbox (dostupno samo u Windows 10/11 Pro i Enterprise);
-- Sandboxie Plus (open source).
+- Sandboxie Plus (otvorenog koda).
 
 
 
@@ -3463,7 +3458,7 @@ Evo nekoliko konkretnih rešenja za sandboxing, u zavisnosti od vašeg operativn
 
 
 - Firejail: moćan, lagan alat koji izoluje aplikacije koristeći unapred definisane profile. Dobro radi sa širokim spektrom aplikacija, uključujući Firefox, VLC i Telegram;
-- Flatpak: kao što smo već videli, ovo nije softver za peskovnik per se, već upravitelj softverskih paketa koji integriše peskovnik: svaka aplikacija instalirana putem Flatpak-a je izolovana od host sistema po defaultu, sa preciznom kontrolom dozvola (pristup mikrofonu, kameri, mreži, itd.).
+- Flatpak: kao što smo već videli, ovo nije softver za sandboxing u pravom smislu, već upravitelj softverskih paketa koji integriše sandboxing: svaka aplikacija instalirana putem Flatpak-a je izolovana od host sistema po defaultu, sa preciznom kontrolom dozvola (pristup mikrofonu, kameri, mreži, itd.).
 
 
 
@@ -3476,11 +3471,11 @@ Evo nekoliko konkretnih rešenja za sandboxing, u zavisnosti od vašeg operativn
 
 
 
-Konačno, iako sandboxing nudi efikasan Layer nivo zaštite, važno je razumeti da to nije potpuna zamena za VM ili dobro particionisan sistem.
+Konačno, iako sandboxing nudi efikasan nivo zaštite, važno je razumeti da to nije potpuna zamena za VM ili dobro particionisan sistem.
 
 
 
-Sada kada smo pokrili sigurnost vašeg računara kroz autentifikaciju i kompartmenalizaciju, u sledećem poglavlju ćemo pogledati dobre prakse održavanja kako bismo dodatno poboljšali njegovu sigurnost.
+Sada kada smo pokrili sigurnost vašeg računara kroz autentifikaciju i kompartmenalizaciju (segmentaciju), u sledećem poglavlju ćemo pogledati dobre prakse održavanja kako bismo dodatno poboljšali njegovu sigurnost.
 
 
 
@@ -3491,7 +3486,7 @@ Sada kada smo pokrili sigurnost vašeg računara kroz autentifikaciju i kompartm
 
 
 
-Mnogi ljudi misle da je instaliranje antivirusnog softvera ili odabir pravog lozinke dovoljno za zaštitu njihovog računara. Ali, bezbednost računara je mnogo više od jednostavne jednokratne konfiguracije. Stvarnost je mnogo složenija: većina sajber-napada iskorišćava ranjivosti u zastarelim sistemima i softveru. Drugim rečima, bezbednost računara takođe podrazumeva redovno održavanje vašeg uređaja.
+Mnogi ljudi misle da je instaliranje antivirusnog softvera ili odabir prave lozinke dovoljno za zaštitu njihovog računara. Ali, bezbednost računara je mnogo više od jednostavne jednokratne konfiguracije. Stvarnost je mnogo složenija: većina sajber-napada iskorišćava ranjivosti u zastarelim sistemima i softveru. Drugim rečima, bezbednost računara takođe podrazumeva redovno održavanje vašeg uređaja.
 
 
 
@@ -3523,7 +3518,7 @@ Nije samo pitanje popravljanja vidljivih grešaka, već i delovanja na vektore n
 
 
 
-Specifično, preporučujem da omogućite automatska ažuriranja. Ova funkcija je nativno dostupna na svim modernim sistemima. Windows Update, na primer, podrazumevano upravlja ovim na Windows 10 i 11 mašinama. Na macOS-u, bezbednosna ažuriranja su integrisana u sistem za ažuriranje. Na Linux-u, u zavisnosti od korišćene distribucije, alati kao što su `unattended-upgrades` (Debian/Ubuntu) ili `dnf-automatic` (Fedora) omogućavaju vam da zakažete ažuriranja.
+Specifično, preporučujem da omogućite automatska ažuriranja. Ova opcija je podržana direktno u svim modernim sistemima. Windows Update, na primer, podrazumevano upravlja ovim na Windows 10 i 11 mašinama. Na macOS-u, bezbednosna ažuriranja su integrisana u sistem za ažuriranje. Na Linux-u, u zavisnosti od korišćene distribucije, alati kao što su `unattended-upgrades` (Debian/Ubuntu) ili `dnf-automatic` (Fedora) omogućavaju vam da planirate automatska ažuriranja.
 
 
 
@@ -3559,7 +3554,7 @@ Settings → Windows Update → Check for updates
 
 
 
-Ne zaboravite da proverite opcione ažuriranja u istom meniju.
+Ne zaboravite da proverite opciona ažuriranja u istom meniju.
 
 
 
@@ -3569,11 +3564,11 @@ Ne zaboravite da proverite opcione ažuriranja u istom meniju.
 
 
 
-Linux distribucije zasnovane su na sistemu paketa koje održava zajednica i održavaoci vaše distribucije. Ažuriranja se primenjuju putem upravitelja paketa.
+Linux distribucije zasnovane su na sistemu paketa koje održava zajednica i zvanični održavaoci distribucije. Ažuriranja se primenjuju putem upravitelja paketa.
 
 
 
-Pod Debianom (tj. Ubuntu) :
+Kod Debian-a (tj. Ubuntu) :
 
 
 
@@ -3587,7 +3582,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Ako više voliš da koristiš grafički Interface, na Ubuntu-u postoji alat *Software Updater* koji ti omogućava da lako upravljaš ažuriranjima bez korišćenja terminala.
+Ako više voliš da koristiš grafički interfejs, na Ubuntu-u postoji alat *Software Updater* koji ti omogućava da lako upravljaš ažuriranjima bez korišćenja terminala.
 
 
 
@@ -3595,7 +3590,7 @@ Ako više voliš da koristiš grafički Interface, na Ubuntu-u postoji alat *Sof
 
 
 
-Pod Red Hat (Fedora) :
+Kod Red Hat (Fedora) :
 
 
 
@@ -3605,7 +3600,7 @@ sudo dnf upgrade
 
 
 
-Pod Arch Linux :
+Kod Arch Linux :
 
 
 
@@ -3622,7 +3617,7 @@ sudo pacman -Syu
 
 
 
-Apple centralizuje svoja ažuriranja sistema u Interface podešavanjima. Da proverite dostupnost:
+Apple centralizuje ažuriranja sistema tako da se sva podešavanja vrše preko grafičkog interfejsa. Da proverite dostupnost:
 
 
 
@@ -3632,7 +3627,7 @@ Apple menu → System Settings → General → Software Update
 
 
 
-macOS automatski preuzima bezbednosna, sistemska i ažuriranja aplikacija putem opcije "*Automatska ažuriranja*" u istom meniju.
+macOS automatski preuzima bezbednosna, sistemska i ažuriranja aplikacija putem opcije "Automatic Updates" ili u prevodu na srpski "*Automatska ažuriranja*" u istom meniju.
 
 
 
@@ -3654,7 +3649,7 @@ Neki softveri su osetljiviji od drugih, jer direktno komuniciraju sa spoljnim sv
 
 
 
-- **Veb pregledači**: oni su na prvoj liniji napada, jer obrađuju neprovereni sadržaj u realnom vremenu i imaju posebno veliku površinu napada. Štaviše, oni igraju centralnu ulogu u zaštiti vaših ličnih podataka. I, iznad svega, oni imaju tendenciju da zamene mnoge softverske aplikacije koje su se ranije koristile lokalno (klijenti e-pošte, kancelarijski paketi, medija plejeri...). Ali vratićemo se na ovu tačku u sledećem delu SCU202 kursa;
+- **Veb pregledači (browser-i)**: oni su na prvoj liniji napada, jer obrađuju neprovereni sadržaj u realnom vremenu i imaju posebno veliku površinu napada. Štaviše, oni igraju centralnu ulogu u zaštiti vaših ličnih podataka. I, iznad svega, oni imaju tendenciju da zamene mnoge softverske aplikacije koje su se ranije koristile lokalno, direktno na računaru (klijenti e-pošte, kancelarijski paketi, medija plejeri...). Ali vratićemo se na ovu tačku u sledećem delu SCU202 kursa;
 
 
 
@@ -3672,7 +3667,7 @@ Neki softveri su osetljiviji od drugih, jer direktno komuniciraju sa spoljnim sv
 
 
 
-- Antivirus, firewall i druga rešenja za detekciju: ovi alati obično imaju povišene privilegije, jer kontinuirano skeniraju vaše fajlove, procese i mrežne konekcije. Zastarela baza potpisa, loša konfiguracija ili ranjivost u samom softveru mogu omogućiti malveru da ostane neprimećen, ili čak da dobije povišene privilegije.
+- **Antivirus, firewall i druga rešenja za detekciju**: ovi alati obično imaju povišene privilegije, jer kontinuirano skeniraju vaše fajlove, procese i mrežne konekcije. Zastarela baza potpisa, loša konfiguracija ili ranjivost u samom softveru mogu omogućiti malveru da ostane neprimećen, ili čak da dobije povišene privilegije.
 
 
 
@@ -3680,7 +3675,7 @@ Naravno, ovi rizici ne proizlaze isključivo iz lošeg održavanja, ali je važn
 
 
 
-#### Pod Windows
+#### Kod Windows-a
 
 
 
@@ -3706,7 +3701,7 @@ Nažalost, ova komanda ne radi za sav softver. Zato preporučujem da vodite spis
 
 
 
-#### Pod Linuxom (Debian/Ubuntu)
+#### Kod Linux-a (Debian/Ubuntu)
 
 
 
@@ -3744,8 +3739,8 @@ sudo apt update \
 
 
 - `sudo apt full-upgrade` ažurira sve instalirane pakete, uključujući one koji zahtevaju dodavanje ili uklanjanje zavisnosti. `-y` vam omogućava da automatski odgovorite "da" na bilo koje potvrde koje menadžer paketa može tražiti od vas;
-- `sudo apt autoremove -y`: uklanja nepotrebne zavisnosti ;
-- sudo apt autoclean`: čisti keš zastarelih paketa.
+- `sudo apt autoremove -y`: uklanja nepotrebne zavisnosti;
+- `sudo apt autoclean`: čisti keš zastarelih paketa.
 
 
 
@@ -3763,7 +3758,7 @@ flatpak update sudo snap refresh
 
 
 
-#### Pod macOS
+#### Kod macOS-a
 
 
 
@@ -3797,7 +3792,7 @@ Neke unapred instalirane aplikacije ili programi instalirani za jednokratnu upot
 
 
 
-#### Pod Windows
+#### U Windows-u
 
 
 
@@ -3815,7 +3810,7 @@ Prođite kroz ovu listu softvera i uklonite sve što više ne koristite ili ne z
 
 
 
-#### Pod Linuxom (Debian/Ubuntu)
+#### U Linux-u (Debian/Ubuntu)
 
 
 
@@ -3843,7 +3838,7 @@ sudo apt autoremove
 
 
 
-#### Pod macOS
+#### U macOS-u
 
 
 
@@ -3883,7 +3878,7 @@ Ako postavite rutinu za reviziju (čak i osnovnu), možete otkriti prisustvo mal
 
 
 
-#### Pod Windows
+#### U Windows-u
 
 
 
@@ -3926,7 +3921,7 @@ Kao što smo videli u prethodnom odeljku, Windows je istorijski bio više izlož
 
 
 
-#### Pod Linuxom
+#### U Linux-u
 
 
 
@@ -3955,7 +3950,7 @@ Na dobro održavanom Linux računaru koji se koristi u lične svrhe, rizici su m
 
 https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
-#### Pod macOS
+#### U macOS-u
 
 
 
@@ -3965,7 +3960,7 @@ macOS je poznat po svojoj sigurnosti, zahvaljujući posebno svojim politikama po
 
 
 
-- **KnockKnock**: skenira sve Elements konfiguracije za pokretanje pri startup-u (agenti, demoni, kernel moduli...) i identifikuje one koje su potencijalno sumnjive, nepotpisane ili nepoznate. Omogućava vam brzo prepoznavanje zlonamerne postojanosti na vašem sistemu.
+- **KnockKnock**: skenira sve elemente konfiguracije za pokretanje pri startup-u (agenti, demoni, kernel moduli...) i identifikuje one koji su potencijalno sumnjivi, nepotpisani ili nepoznati. Omogućava vam brzo prepoznavanje zlonamerne postojanosti na vašem sistemu.
 
 
 
@@ -4021,7 +4016,7 @@ Integritet datoteke garantuje da ona nije bila izmenjena, namerno ili nenamerno,
 
 
 
-Ove modifikacije nisu vidljive golim okom: preuzeta datoteka može se otvoriti i raditi savršeno normalno, dok istovremeno izvršava zlonamerno ponašanje. Stoga je važno proveriti njen integritet koristeći kriptografske otiske prstiju (Hash).
+Ove modifikacije nisu vidljive golim okom: preuzeta datoteka može se otvoriti i raditi savršeno normalno, dok istovremeno izvršava zlonamerno ponašanje. Stoga je važno proveriti njen integritet koristeći kriptografske otiske prstiju (Hash vrednost).
 
 
 
@@ -4029,11 +4024,11 @@ Ove modifikacije nisu vidljive golim okom: preuzeta datoteka može se otvoriti i
 
 
 
-Datoteka može biti netaknuta (neizmenjena), ali je objavljena od strane zlonamerne entitete koja uzurpira identitet legitimnog programera. Autentičnost stoga ima za cilj da potvrdi da datoteka zaista dolazi iz zvaničnog izvora, a ne od uljeza, neverifikovanog mirror sajta, ili hakera koji je kompromitovao server za distribuciju.
+Datoteka može biti netaknuta (neizmenjena), ali je objavljena od strane zlonamernog entitete koja uzurpira identitet legitimnog programera. Autentičnost stoga ima za cilj da potvrdi da datoteka zaista dolazi iz zvaničnog izvora, a ne od uljeza, neverifikovanog mirror sajta ( koji predstavlja kopiju originalnog sajta), ili hakera koji je kompromitovao server za distribuciju.
 
 
 
-Ova verifikacija porekla omogućena je digitalnim potpisom, kriptografskim mehanizmom koji povezuje datoteku sa privatnim ključem programera. Kada verifikujete ovaj potpis koristeći javni ključ programera (distribuiran putem sigurnih kanala), možete biti sigurni da datoteka zaista dolazi od te osobe.
+Ova verifikacija porekla omogućena je digitalnim potpisom, kriptografskim mehanizmom koji povezuje datoteku sa privatnim ključem programera. Kada verifikujete ovaj potpis koristeći [javni ključ](https://planb.academy/resources/glossary/public-key) programera (distribuiran putem sigurnih kanala), možete biti sigurni da datoteka zaista dolazi od te osobe.
 
 
 
@@ -4045,23 +4040,23 @@ Proverom autentičnosti (tj. da instalaciona datoteka dolazi iz pravog izvora) i
 
 
 
-Da bismo to uradili, koristićemo 2 kriptografska alata. Prvi je heširanje. Hash je kratak niz karaktera koji se deterministički i nepredvidivo izračunava iz sadržaja datoteke, koristeći Hash algoritam kao što je SHA-256. Dve strogo identične datoteke imaće potpuno isti Hash, ali i najmanja izmena u datoteci će uzrokovati da se Hash potpuno promeni.
+Da bismo to uradili, koristićemo 2 kriptografska alata. Prvi je heširanje. Hash je kratak niz karaktera koji se deterministički i nepredvidivo izračunava iz sadržaja datoteke, koristeći hash algoritam kao što je SHA-256. Dve strogo identične datoteke imaće potpuno isti hash, ali i najmanja izmena u datoteci će uzrokovati da se hash potpuno promeni.
 
 
 
-Legitimni developer obično objavljuje Hash originalne datoteke na svojoj zvaničnoj veb stranici. Sa svoje strane, lokalno ćete izračunati Hash instalacione datoteke koju ste preuzeli, kako biste uporedili ta dva. Ako se dva otiska prsta podudaraju, možete biti sigurni da je preuzeta datoteka originalna i da nije izmenjena.
+Legitimni developer obično objavljuje hash vrednost originalne datoteke na svojoj zvaničnoj veb stranici. Sa svoje strane, lokalno ćete izračunati hash vrednost instalacione datoteke koju ste preuzeli, kako biste uporedili ta dva. Ako se dva otiska prsta podudaraju, možete biti sigurni da je preuzeta datoteka originalna i da nije izmenjena.
 
 
 
-Drugi alat je digitalni potpis. Ovo verifikuje autentičnost instalacionog softvera. Programer potpisuje fajl koji sadrži Hash svojim privatnim ključem, a vi možete verifikovati ovaj potpis koristeći odgovarajući javni ključ. Ovo dokazuje da je fajl objavio pravi autor.
+Drugi alat je [digitalni potpis](https://planb.academy/resources/glossary/digital-signature). Ovo verifikuje autentičnost instalacionog softvera. Programer potpisuje fajl koji sadrži hash vrednost svojim privatnim ključem, a vi možete verifikovati ovaj potpis koristeći odgovarajući javni ključ. Ovo dokazuje da je fajl objavio pravi autor.
 
 
 
-Ovaj sistem se oslanja na asimetričnu kriptografiju i alate kao što su GnuPG (komandna linija) ili Kleopatra (Interface grafički za Windows). Ovi alati moraju biti pravilno konfigurisani, a javni ključ programera mora biti verifikovan putem sigurnog kanala (zvanična veb stranica, otisak prsta na Twitter-u...). Hajde da pogledamo praktične aspekte.
+Ovaj sistem se oslanja na asimetričnu kriptografiju i alate kao što su GnuPG (komandna linija) ili Kleopatra (grafički interfejs za Windows). Ovi alati moraju biti pravilno konfigurisani, a javni ključ programera mora biti verifikovan putem sigurnog kanala (zvanična veb stranica, otisak prsta na Twitter-u...). Hajde da pogledamo praktične aspekte.
 
 
 
-Da biste saznali više o kriptografskim Hash funkcijama i digitalnim potpisima, pozivam vas da pohađate besplatni kurs CYP 201 koji se nudi na Plan ₿ Academy:
+Da biste saznali više o kriptografskim hasg funkcijama i digitalnim potpisima, pozivam vas da pohađate besplatni kurs CYP 201 koji se nudi na Plan ₿ Academy:
 
 
 
@@ -4121,11 +4116,11 @@ Za Windows, ako nemate GPG, možete instalirati [Gpg4win](https://www.gpg4win.or
 
 
 
-#### Preuzmi dokumente
+#### Preuzmite dokumente
 
 
 
-Da biste započeli, biće vam potrebno nekoliko dokumenata vezanih za softver koji želite da instalirate. U ovom primeru, proverićemo *Sparrow wallet*, menadžer portfolija Bitcoin. Proces će biti sličan za bilo koji drugi softver: sve što treba da uradite je da pronađete prave fajlove za verifikaciju.
+Da biste započeli, biće vam potrebno nekoliko dokumenata vezanih za softver koji želite da instalirate. U ovom primeru, proverićemo *Sparrow wallet*, menadžer Bitcoin novčanika. Proces će biti sličan za bilo koji drugi softver: sve što treba da uradite je da pronađete prave fajlove za verifikaciju.
 
 
 
@@ -4145,7 +4140,7 @@ Možete takođe otići [na GitHub repozitorijum projekta](https://github.com/spa
 
 
 
-Preuzmite instalacioni program softvera za vaš operativni sistem.
+Preuzmite instalacioni fajl softvera za vaš operativni sistem.
 
 
 
@@ -4153,7 +4148,7 @@ Preuzmite instalacioni program softvera za vaš operativni sistem.
 
 
 
-Trebaće vam i Hash datoteke, često nazivan "_SHA256SUMS_" ili "_MANIFEST_".
+Trebaće vam i hash datoteke, često nazivan "_SHA256SUMS_" ili "_MANIFEST_".
 
 
 
@@ -4243,7 +4238,7 @@ Zamenite `[file.asc]` putanjom do datoteke potpisa. U slučaju Sparrow, ova dato
 
 
 
-Ako je potpis važeći, GPG će to eksplicitno potvrditi. Zatim možete preći na sledeći korak, jer ova verifikacija potvrđuje autentičnost datoteke.
+Ako je potpis važeći, GPG će to eksplicitno potvrditi. Zatim možete preći na sledeći korak, jer ova verifikacija potvrdila autentičnost datoteke.
 
 
 
@@ -4255,11 +4250,11 @@ Ako je potpis važeći, GPG će to eksplicitno potvrditi. Zatim možete preći n
 
 
 
-#### Provera Hash
+#### Provera hash vrednosti
 
 
 
-Sada kada je potvrđena autentičnost datoteke koja sadrži heševe, vreme je da proverite integritet instalacione datoteke, na osnovu ove autentifikovane datoteke. Cilj je uporediti Hash vašeg instalatera sa onim koji je naveden u `.asc` datoteci. Ako se ta dva podudaraju, to garantuje da softverski kod nije ni na koji način izmenjen.
+Sada kada je potvrđena autentičnost datoteke koja sadrži heševe, vreme je da proverite integritet instalacione datoteke, na osnovu ove autentifikovane datoteke. Cilj je uporediti hash vašeg instalacionog fajla sa onim koji je naveden u `.asc` datoteci. Ako se ta dva podudaraju, to garantuje da softverski kod nije ni na koji način izmenjen.
 
 
 
@@ -4281,7 +4276,7 @@ Zamenite `[file_path]` sa lokacijom instalacionog fajla.
 
 
 
-Terminal vraća Hash sa preuzetim softverom.
+Terminal vraća hash preuzetog softvera.
 
 
 
@@ -4297,15 +4292,15 @@ Zatim uporedite rezultat sa odgovarajućom vrednošću u datoteci "_sparrow-2.0.
 
 
 
-U mom slučaju, dva šrafiranja se savršeno poklapaju.
+U mom slučaju, dva šrafure se savršeno poklapaju.
 
 
 
-Pod macOS i Linuxom, proces verifikacije Hash je automatizovan, tako da nema potrebe za ručnim poređenjem dva otiska prsta, kao što može biti slučaj pod Windowsom.
+U macOS-u i Linux-u, proces verifikacije hash vrednosti je automatizovan, tako da nema potrebe za ručnim poređenjem dva otiska prsta, kao što može biti slučaj kod Windows-a.
 
 
 
-Jednostavno pokrenite ovu komandu pod macOS:
+Jednostavno pokrenite ovu komandu kod macOS-a:
 
 
 
@@ -4335,7 +4330,7 @@ Sparrow-2.0.0.dmg: OK
 
 
 
-Pod Linuxom, komanda je slična:
+U Linux-u, komanda je slična:
 
 
 
@@ -4383,11 +4378,11 @@ U sledećem poglavlju, detaljnije ćemo razmotriti upravljanje podacima. Pogleda
 
 
 
-Zaštita vaših ličnih podataka je važan deo osiguranja vaše digitalne suverenosti, privatnosti i bezbednosti. Rizici za vaše podatke su mnogobrojni: hakovanje, gubitak hardvera ili čak fizičko zaplenjivanje. Primenom efikasnih strategija za bekap i enkripciju, možete izbeći većinu ovih potencijalnih pretnji.
+Zaštita vaših ličnih podataka je važan deo osiguravanja vaše digitalne suverenosti, privatnosti i bezbednosti. Rizici za vaše podatke su mnogobrojni: hakovanje, gubitak hardvera ili čak fizičko zaplenjivanje. Primenom efikasnih strategija za bekap (rezervnu kopiju) i enkripciju, možete izbeći većinu ovih potencijalnih pretnji.
 
 
 
-U ovom poglavlju ćemo detaljno razmotriti kako napraviti rezervnu kopiju i šifrovati vaše podatke, kao i kako očistiti osetljive informacije na vašim dokumentima.
+U ovom poglavlju ćemo detaljno razmotriti kako napraviti rezervnu kopiju i šifrovati vaše podatke, kao i kako očistiti osetljive informacije unutar vaših dokumenata.
 
 
 
@@ -4411,7 +4406,7 @@ Redovno pravljenje rezervnih kopija vaših ličnih ili poslovnih podataka je aps
 
 
 
-- Računarski napad: neki malveri, posebno ransomware, šifruju vaše fajlove lokalno i zahtevaju otkupninu u Exchange za ključ za dešifrovanje. Bez nezavisne rezervne kopije, prepušteni ste njihovoj milosti.
+- Računarski napad: neki malveri, posebno ransomware, šifruju vaše fajlove lokalno i zahtevaju otkupninu u zamenu za ključ za dešifrovanje. Bez nezavisne rezervne kopije, prepušteni ste njihovoj milosti.
 
 
 
@@ -4427,7 +4422,7 @@ Redovno pravljenje rezervnih kopija vaših ličnih ili poslovnih podataka je aps
 
 
 
-Zato vam je potrebna rigorozna, planirana i otporna strategija bekapa.
+Zato vam je potrebna rigorozna, planirana i otporna bekap strategija.
 
 
 
@@ -4447,7 +4442,7 @@ Pravilo "3-2-1" je prepoznati standard u IT bezbednosti. Zasniva se na jednostav
 
 
 
-- 2 različita medija za skladištenje: cilj je izbeći hardverski problem koji bi istovremeno uticao na sve vaše medije. Na primer, eksterni Hard disk + oblak; ili NAS + vaš računar.
+- 2 različita medija za skladištenje: cilj je izbeći hardverski problem koji bi istovremeno uticao na sve vaše medije. Na primer, eksterni hard disk + oblak; ili NAS + vaš računar.
 
 
 
@@ -4457,21 +4452,21 @@ Pravilo "3-2-1" je prepoznati standard u IT bezbednosti. Zasniva se na jednostav
 
 
 
-Uzmimo primer standardnog korisnika, Alice, koji želi da zaštiti svoje lične podatke.
+Uzmimo primer standardnog korisnika, Alise, koja želi da zaštiti svoje lične podatke.
 
 
 
-Alice čuva verziju svojih fajlova na svom laptopu, gde ih svakodnevno koristi. Da bi imala najmanje dva odvojena medija, redovno (na primer, svakog ponedeljka) kopira sve svoje podatke na USB stik, koji drži kod kuće. Da bi se zaštitila od krađe svojih fajlova u slučaju fizičkog gubitka ili krađe, Alice enkriptuje ovaj USB stik koristeći odgovarajući softver (videćemo kako se to radi kasnije u ovom poglavlju).
+Alisa čuva verziju svojih fajlova na svom laptopu, gde ih svakodnevno koristi. Da bi imala najmanje dva odvojena medija, redovno (na primer, svakog ponedeljka) kopira sve svoje podatke na USB stik, koji drži kod kuće. Da bi se zaštitila od krađe svojih fajlova u slučaju fizičkog gubitka ili krađe, Alisa enkriptuje ovaj USB stik koristeći odgovarajući softver (videćemo kako se to radi kasnije u ovom poglavlju).
 
 
 
-Sa ovom konfiguracijom, Alice je već zaštićen od mnogih uobičajenih pretnji. Međutim, jedan rizik ostaje: u slučaju požara ili provale u njenom domu, njene dve lokalne kopije (računar i USB stik) mogle bi nestati u isto vreme. Da bi ublažila ovaj rizik, odlučuje da koristi uslugu skladištenja u oblaku, sa kojom takođe redovno sinhronizuje svoje fajlove.
+Sa ovom konfiguracijom, Alisa je već zaštićena od mnogih uobičajenih pretnji. Međutim, jedan rizik ostaje: u slučaju požara ili provale u njenom domu, njene dve lokalne kopije (računar i USB stik) mogle bi nestati u isto vreme. Da bi ublažila ovaj rizik, odlučuje da koristi uslugu skladištenja u oblaku, sa kojom takođe redovno sinhronizuje svoje fajlove.
 
 
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Alice na taj način poštuje pravilo 3-2-1: ima 3 kopije svojih fajlova (računar, USB ključ, cloud), pohranjene na najmanje 2 različita medija (interni disk, USB ključ, udaljeni server), sa najmanje 1 kopijom van lokacije (cloud server).
+Alisa na taj način poštuje pravilo 3-2-1: ima 3 kopije svojih fajlova (računar, USB ključ, cloud), pohranjene na najmanje 2 različita medija (interni disk, USB ključ, udaljeni server), sa najmanje 1 kopijom van lokacije (cloud server).
 
 
 
@@ -4483,7 +4478,7 @@ Ova strategija garantuje izvanrednu otpornost: ako njen računar padne, može vr
 
 
 
-#### Automatizuj da ne zaboraviš
+#### Automatizujte kako biste izbegli zaboravljanje
 
 
 
@@ -4523,7 +4518,7 @@ Osim što osiguravate otpornost vaših podataka, jednako je važno zaštititi pr
 
 
 
-Jedan od stubova bezbednosti ličnih računara je enkripcija sačuvanih podataka. Konkretno, potpuna enkripcija medija kao što su interni Hard diskovi, USB stikovi ili eksterni diskovi osigurava da, čak i u slučaju krađe, gubitka ili fizičkog kompromitovanja opreme, nijedna informacija ne može biti pročitana bez ključa za dekripciju.
+Jedan od stubova bezbednosti ličnih računara je enkripcija sačuvanih podataka. Konkretno, potpuna enkripcija medija kao što su interni hard diskovi, USB stikovi ili eksterni diskovi osigurava da, čak i u slučaju krađe, gubitka ili fizičkog kompromitovanja opreme, nijedna informacija ne može biti pročitana bez ključa za dekripciju.
 
 
 
@@ -4553,12 +4548,12 @@ Puna enkripcija je kao brava: sve dok lozinka nije obezbeđena, podaci ostaju ne
 
 
 
-Pod Linuxom, standardno rešenje je LUKS (*Linux Unified Key Setup*). LUKS je sistem za upravljanje šifrovanim volumenima integrisan u većinu distribucija. Kada se sistem prvi put instalira, obično će vam biti ponuđeno da šifrujete ceo disk računara. Naravno, toplo preporučujem da aktivirate ovu opciju. Kada je šifrovanje omogućeno, sistem će tražiti lozinku pri svakom pokretanju, čak i pre nego što se OS učita. Ovo osigurava da fizički pristup disku ne može zaobići sigurnost.
+Na Linux-u, standardno rešenje je LUKS (*Linux Unified Key Setup*). LUKS je sistem za upravljanje šifrovanim volumenima integrisan u većinu distribucija. Kada se sistem prvi put instalira, obično će vam biti ponuđeno da šifrujete ceo disk računara. Naravno, toplo preporučujem da aktivirate ovu opciju. Kada je šifrovanje omogućeno, sistem će tražiti lozinku pri svakom pokretanju, čak i pre nego što se OS učita. Ovo osigurava da fizički pristup disku ne može zaobići sigurnost.
 
 
 https://planb.academy/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Ako želite da šifrujete eksterni disk ili USB stik, to se takođe može uraditi iz komandne linije ili putem grafičkog interfejsa Interface. Disk će morati biti formatiran, tako da će svi postojeći podaci biti izgubljeni ako prethodno nisu sačuvani.
+Ako želite da šifrujete eksterni disk ili USB stik, to se takođe može uraditi iz komandne linije ili putem grafičkog interfejsa. Disk će morati biti formatiran, tako da će svi postojeći podaci biti izgubljeni ako prethodno nisu sačuvani.
 
 
 
@@ -4601,7 +4596,7 @@ sudo cryptsetup luksFormat /dev/sdb
 
 
 
-Upišite "YES" velikim slovima da potvrdite operaciju, zatim izaberite i potvrdite jak passphrase. Ova lozinka će vam omogućiti pristup vašim podacima: zapamtite da napravite rezervnu kopiju, jer bez nje, pristup podacima ključa će biti trajno izgubljen.
+Upišite "YES" velikim slovima da potvrdite operaciju, zatim izaberite i potvrdite jaku lozinka-frazu (eng. passphrase). Ova lozinka će vam omogućiti pristup vašim podacima: zapamtite da napravite rezervnu kopiju, jer bez nje, pristup podacima ključa će biti trajno izgubljen.
 
 
 
@@ -4609,7 +4604,7 @@ Upišite "YES" velikim slovima da potvrdite operaciju, zatim izaberite i potvrdi
 
 
 
-Otključaj i otvori volumen:
+Otključajte volumen i pristupite njegovom sadržaju:
 
 
 
@@ -4627,7 +4622,7 @@ Moraćete da unesete svoj passphrase da biste otključali volumen. `encrypted_us
 
 
 
-Zatim formatirajte dešifrovanu particiju. Za izvorni Linux format:
+Zatim formatirajte (kreirajte fajl sistem) dešifrovanu particiju. Za izvorni Linux format:
 
 
 
@@ -4651,7 +4646,7 @@ sudo mkfs.vfat /dev/mapper/encrypted_usb
 
 
 
-Montiraj ključ za upotrebu:
+Montiraj USB ključ za upotrebu:
 
 
 
@@ -4662,11 +4657,11 @@ sudo mount /dev/mapper/encrypted_usb /mnt/usb
 
 
 
-Sada možete pristupiti svom ključu putem direktorijuma `/mnt/usb`, i čitati i pisati datoteke kao i na bilo kom drugom volumenu.
+Sada možete pristupiti svom USB ključu putem direktorijuma `/mnt/usb`, i čitati i pisati datoteke kao i na bilo kom drugom volumenu.
 
 
 
-Da rastavite i ponovo šifrujete ključ:
+Da rastavite i ponovo šifrujete USB ključ:
 
 
 
@@ -4708,7 +4703,7 @@ Ako želite, možete automatizovati ovu sekvencu koristeći Python ili Bash skri
 
 
 
-Drugo rešenje je korišćenje GNOME Disks softvera sa njegovim grafičkim Interface, što je često jednostavnije nego korišćenje terminala. Obično je ovaj alat već unapred instaliran na Ubuntu. Ako to nije slučaj, možete ga ručno instalirati sledećom komandom:
+Drugo rešenje je korišćenje GNOME Disks softvera sa njegovim grafičkim interfejsom, što je često jednostavnije nego korišćenje terminala. Obično je ovaj alat već unapred instaliran na Ubuntu. Ako to nije slučaj, možete ga ručno instalirati sledećom komandom:
 
 
 
@@ -4731,7 +4726,7 @@ U levom stupcu pronađite vaš USB ključ. Ako particija već postoji, odaberite
 
 
 
-Zatim izaberite particiju koju želite da šifrujete. Kliknite na ikonicu zupčanika, zatim izaberite "Formatiraj particiju...".
+Zatim izaberite particiju koju želite da šifrujete. Kliknite na ikonicu zupčanika, zatim izaberite "Format Partition..." ili u prevodu "Formatiraj particiju...".
 
 
 
@@ -4739,13 +4734,13 @@ Zatim izaberite particiju koju želite da šifrujete. Kliknite na ikonicu zupča
 
 
 
-U:
+U prozoru koji se otvori:
 
 
 
 
 - U polje "Volume name" unesite ime (npr. `usb`);
-- Odaberite format "Interni disk za upotrebu samo sa Linux sistemima (Ext4)";
+- Odaberite format "Internal disk for use with Linux systems only (Ext4)" ili u prevodu "Interni disk za upotrebu samo sa Linux sistemima (Ext4)";
 - Označite polje "Password protected volume (LUKS)".
 
 
@@ -4778,7 +4773,7 @@ Kada je proces završen, particija se pojavljuje sa malim katancem. Izaberite je
 
 
 
-Unesite lozinku, zatim kliknite na "Otključaj".
+Unesite lozinku, zatim kliknite na "Unlock", u prevodu "Otključaj".
 
 
 
@@ -4786,7 +4781,7 @@ Unesite lozinku, zatim kliknite na "Otključaj".
 
 
 
-Volumen će biti automatski montiran i dostupan iz vašeg upravitelja datoteka, obično u direktorijumu `/media/username/usb`.
+Volumen će se automatski montirati i biće dostupan u fajl menadžeru, obično u direktorijumu `/media/username/usb`.
 
 
 
@@ -4812,7 +4807,7 @@ Na kraju, kliknite na dugme u obliku strelice u gornjem desnom uglu da biste isp
 
 
 
-Pod Windows-om, izvorno rešenje vam omogućava da šifrujete vaš disk. Lako je aktivirati: samo idite na podešavanja "*Privatnost i bezbednost*", zatim označite polje "*Šifrovanje uređaja*" u podmeniju istog imena. Ključevi za oporavak će tada biti automatski sačuvani u vašem povezanom Microsoft nalogu.
+Na Windows operativnom sistemu, izvorno rešenje vam omogućava da šifrujete vaš disk. Koje je lako aktivirati: samo idite na podešavanja "Privacy & Security", u prevodu "*Privatnost i bezbednost*", zatim označite polje "Device encryption", u prevoduy"*Šifrovanje uređaja*" u podmeniju istog imena. Ključevi za oporavak će tada biti automatski sačuvani u vašem povezanom Microsoft nalogu.
 
 
 
@@ -4820,11 +4815,11 @@ Pod Windows-om, izvorno rešenje vam omogućava da šifrujete vaš disk. Lako je
 
 
 
-Ako koristite lokalni nalog, ili ako vaš uređaj ne podržava ovu funkciju nativno, možete ručno postaviti *BitLocker* (Microsoftov vlasnički softver za enkripciju). Ali postoje i open-source alternative kao što je *VeraCrypt*.
+Ako koristite lokalni nalog, ili ako vaš uređaj ne podržava ovu funkciju izvorno, možete ručno postaviti *BitLocker* (Microsoftov vlasnički softver za enkripciju). Ali postoje i open-source alternative kao što je *VeraCrypt*.
 
 
 
-*VeraCrypt* je besplatan, višeplatformski softver kompatibilan sa Windows, Linux i macOS sistemima. Može se koristiti za šifrovanje celog diska ili particije, ili za kreiranje fajla kontejnera koji funkcioniše kao siguran virtuelni disk. VeraCrypt-ov Interface omogućava da se ovaj volumen montira kao konvencionalni disk, dostupan samo nakon autentifikacije.
+*VeraCrypt* je besplatan, višeplatformski softver kompatibilan sa Windows, Linux i macOS sistemima. Može se koristiti za šifrovanje celog diska ili particije, ili za kreiranje kontejner fajla koji funkcioniše kao siguran virtuelni disk. VeraCrypt-ov interfejs omogućava da se ovaj volumen montira kao konvencionalni disk, dostupan samo nakon autentifikacije.
 
 
 
@@ -4841,7 +4836,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-Na macOS-u, enkripcija sistemskog diska zasniva se na *FileVault*-u, izvornoj funkciji dostupnoj iz sigurnosnih postavki. Ako vaš Mac ima Apple Silicon čip (M1, M2...) ili T2 čip, hardverska enkripcija je već trajno omogućena. Međutim, aktiviranje FileVault-a dodaje dodatni Layer sigurnosti enkripcijom celog sistemskog volumena.
+Na macOS-u, enkripcija sistemskog diska zasniva se na *FileVault*-u, izvornoj funkciji dostupnoj iz sigurnosnih postavki. Ako vaš Mac ima Apple Silicon čip (M1, M2...) ili T2 čip, hardverska enkripcija je već trajno omogućena. Međutim, aktiviranje FileVault-a dodaje dodatni sloj sigurnosti enkripcijom celog sistemskog volumena.
 
 
 
@@ -4849,9 +4844,9 @@ Na macOS-u, enkripcija sistemskog diska zasniva se na *FileVault*-u, izvornoj fu
 
 
 
-Kada je FileVault aktiviran, moraćete da izaberete metod oporavka u slučaju gubitka lozinke: ili koristite svoj *iCloud* nalog, ili generate jedinstveni rezervni ključ. Ovaj ključ mora biti čuvan na sigurnom mestu, jer bi njegov gubitak učinio vaše podatke trajno nedostupnim.
+Kada je FileVault aktiviran, moraćete da izaberete metod oporavka u slučaju gubitka lozinke: ili koristite svoj *iCloud* nalog, ili generišite jedinstveni rezervni ključ. Ovaj ključ mora biti čuvan na sigurnom mestu, jer bi njegov gubitak učinio vaše podatke trajno nedostupnim.
 
-Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija se vrši korišćenjem alata za diskove. Biće potrebno potpuno preformatirati volumen:
+Za spoljne medije za skladištenje (Hard diskovi, USB stikovi, itd.), enkripcija se vrši korišćenjem alata za diskove, Disk Utility. Biće potrebno potpuno preformatirati volumen:
 
 - Izaberite uređaj, kliknite na "*Delete*"
 - Odaberite šemu "GUID Partition Table"
@@ -4869,11 +4864,11 @@ Izbor lozinke je takođe veoma važan: mora biti dugačka, složena i jedinstven
 
 ### Selektivno šifrovanje fajlova
 
-U nekim slučajevima, nije ni neophodno ni praktično šifrovati ceo Hard disk ili eksterni medijum. U takvim slučajevima, možete se odlučiti za selektivno šifrovanje, koje podrazumeva obezbeđivanje samo određenih fajlova ili direktorijuma koji sadrže osetljive podatke.
+U nekim slučajevima, nije ni neophodno ni praktično šifrovati ceo hard disk ili eksterni medijum. U takvim slučajevima, možete se odlučiti za selektivno šifrovanje, koje podrazumeva obezbeđivanje samo određenih fajlova ili direktorijuma koji sadrže osetljive podatke.
 
 Jedan od najpoznatijih metoda za šifrovanje fajlova je korišćenje GPG-a. Ovaj alat se zasniva na asimetričnoj kriptografiji: imate par ključeva, jedan javni, koji možete slobodno distribuirati svojim korespondentima, i drugi privatni, koji mora ostati strogo tajan. Fajlovi se šifruju koristeći javni ključ primaoca, ali se mogu dešifrovati samo korišćenjem njegovog ili njenog privatnog ključa.
 
-Ovaj protokol je savršen za sigurno razmenjivanje osetljivih fajlova sa drugima, bez deljenja lozinke. Za ličnu ili povremenu upotrebu, GPG takođe omogućava simetričnu enkripciju: fajl je tada zaštićen jedinstvenom lozinkom poznatom samo vama.
+Ovaj protokol je savršen za sigurno razmenjivanje osetljivih fajlova sa drugima, bez deljenja lozinke. Za ličnu ili povremenu upotrebu, GPG takođe omogućava simetričnu enkripciju: fajl je tada zaštićen jedinstvenom lozinkom koju znate samo vi.
 
 Odlična alternativa je Cryptomator. Ovaj softver otvorenog koda omogućava vam da kreirate sef: poseban direktorijum u kojem su svi deponovani fajlovi automatski enkriptovani. Ovaj sef može biti sinhronizovan sa cloud servisima kao što su Dropbox, Google Drive ili Nextcloud, a da provajder nikada nema pristup neenkriptovanim podacima. Aplikacija je dostupna na svim operativnim sistemima, uključujući Android i iOS, i ne zahteva posebne tehničke veštine za korišćenje.
 
@@ -4887,7 +4882,7 @@ https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
-Konačno, moguće je koristiti VeraCrypt i u režimu kontejnera, koji kreira fajl koji deluje kao šifrovana arhiva, montabilna kao disk.
+Konačno, moguće je koristiti VeraCrypt i u režimu kontejnera, koji kreira fajl koji deluje kao šifrovana arhiva, i koji se može montirati kao disk.
 
 Sada kada ste naučili kako da zaštitite svoje lične podatke od gubitka i krađe, sledeće poglavlje se bavi još jednim važnim aspektom: kako sprečiti da vaši lični fajlovi postanu vektori napada putem njihovih metapodataka.
 
@@ -4895,15 +4890,15 @@ Sada kada ste naučili kako da zaštitite svoje lične podatke od gubitka i kra�
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-Svaki put kada kreirate digitalni fajl, bilo da je to fotografija, office dokument, audio ili video fajl, on sadrži metapodatke u pozadini. Ove informacije nisu direktno vidljive kada otvorite fajl, ali su prisutne i mogu sadržati izuzetno osetljive Elements.
+Svaki put kada kreirate digitalni fajl, bilo da je to fotografija, poslovni dokument, audio ili video fajl, on sadrži metapodatke u pozadini. Ove informacije nisu direktno vidljive kada otvorite fajl, ali su prisutne i mogu sadržati izuzetno osetljive elemente.
 
 ### Zašto je metapodatak rizik?
 
-Metapodaci su podaci priloženi datoteci, čija je uloga da pruže kontekstualne informacije o sadržaju. U slici, ovo može uključivati datum i vreme kada je slika snimljena, precizne GPS koordinate, model kamere ili pametnog telefona korišćenog, a ponekad čak i tehnička podešavanja. U tekstualnom dokumentu, može uključivati ime autora, ime kompanije, ID sesije korisnika, vremenske oznake kreiranja i izmene, ili čak interne komentare ostavljene tokom uređivanja.
+Metapodaci su podaci priloženi datoteci, čija je uloga da pruže kontekstualne informacije o sadržaju. U slici, ovo može uključivati datum i vreme kada je slika snimljena, precizne GPS koordinate, model korišćene kamere ili pametnog telefona, a ponekad čak i tehnička podešavanja. U tekstualnom dokumentu, može uključivati ime autora, ime kompanije, ID sesije korisnika, vremenske oznake kreiranja i izmene, ili čak interne komentare ostavljene tokom uređivanja.
 
 Ovi metapodaci mogu izgledati bezopasno, ali ih zlonamerni akteri mogu iskoristiti da identifikuju autora datoteke, fizički lociraju osobu, rekonstruišu događaje ili navike, ili čak iskoriste softverske nedostatke na osnovu verzije korišćenog softvera.
 
-Hajde da uzmemo konkretan primer: postavite navodno anonimnu fotografiju na forum. Ako niste uklonili EXIF metapodatke, jednim klikom se mogu otkriti tačne GPS koordinate vašeg doma, model vašeg telefona i tačan datum kada je fotografija snimljena. Slično tome, PDF dokument poslat anonimno može sadržati vaše puno ime u svojim svojstvima.
+Hajde da uzmemo konkretan primer: postavite navodno anonimnu fotografiju na forum. Ako niste uklonili EXIF metapodatke, jednim klikom se mogu otkriti tačne GPS koordinate vašeg doma, model vašeg telefona i tačan datum kada je fotografija snimljena. Slično tome, PDF dokument poslat anonimno može u svojim metapodacima sadržati vaše puno ime.
 
 Zato neke medijske platforme za objavljivanje i komunikaciju automatski uklanjaju metapodatke sa vaših fotografija. To uključuje X (Twitter), Instagram, Signal i Session. S druge strane, druge platforme uopšte ne uklanjaju metapodatke: to je slučaj sa većinom online foruma, mnogim e-mail klijentima, ili čak kada objavljujete direktno na vebsajtu.
 
@@ -4934,7 +4929,7 @@ Ovaj paket instalira `exiftool`, koji zatim možete koristiti direktno iz komand
 
 
 
-- Korak 2: **Pregledanje metapodataka datoteke** (na francuskom)
+- Korak 2: **Pregledanje metapodataka datoteke** 
 
 
 
@@ -5110,11 +5105,11 @@ mat2 ~/Downloads/*
 
 
 
-Na Windows-u i macOS-u, postoji nekoliko metoda za uklanjanje metapodataka iz vaših dokumenata. Po mom mišljenju, najlakša je korišćenje open source softvera [ExifCleaner](https://exifcleaner.com/). Ovaj lagani alat ima grafički Interface i može da obradi većinu formata datoteka jednostavnim prevlačenjem i ispuštanjem. Prevlačenjem jedne ili više datoteka na Interface, softver automatski uklanja nepotrebne metapodatke i zamenjuje originalne datoteke u istom direktorijumu. ExifCleaner je dostupan za Windows, macOS i Linux.
+Na Windows-u i macOS-u, postoji nekoliko metoda za uklanjanje metapodataka iz vaših dokumenata. Po mom mišljenju, najlakša je korišćenje open source softvera [ExifCleaner](https://exifcleaner.com/). Ovaj lagani alat ima grafički interfejs i može da obradi većinu formata datoteka jednostavnim prevlačenjem i ispuštanjem. Prevlačenjem jedne ili više datoteka unutar interfejsa, softver automatski uklanja nepotrebne metapodatke i zamenjuje originalne datoteke u istom direktorijumu. ExifCleaner je dostupan za Windows, macOS i Linux.
 
 
 
-Izuzetno je lako za korišćenje: samo pokrenite softver, zatim prevucite i otpustite jednu ili više datoteka u prozor.
+Izuzetno je lak za korišćenje: samo pokrenite softver, zatim prevucite i otpustite jednu ili više datoteka u prozor.
 
 
 
@@ -5146,18 +5141,18 @@ Došli smo do kraja ovog dela o obezbeđivanju vašeg računara. U sledećem del
 
 
 
-## Kratka istorija navigatora
+## Kratka istorija veb pregledača
 
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
 
 
-Veb pregledač je softver koji vam omogućava pristup veb sajtovima i sadržaju dostupnom na *World Wide Web*-u. Njegova uloga je da interpretira jezike korišćene za kreiranje veb stranica, posebno HTML, CSS i JavaScript, kako bi prikazao sadržaj sajta na čitljiv i interaktivan način. Djeluje kao Interface između korisnika i veb servera, šaljući zahteve i primajući odgovore putem HTTP ili HTTPS protokola.
+Veb pregledač je softver koji vam omogućava pristup veb sajtovima i sadržaju dostupnom na *World Wide Web*-u. Njegova uloga je da interpretira jezike korišćene za kreiranje veb stranica, posebno HTML, CSS i JavaScript, kako bi prikazao sadržaj sajta na čitljiv i interaktivan način. Djeluje kao interfejs između korisnika i veb servera, šaljući zahteve i primajući odgovore putem HTTP ili HTTPS protokola.
 
 
 
-Ali danas je pregledač postao mnogo više od samo softverskog programa: često je glavni Interface u računarstvu, posebno za početnike. Zato se ponekad smatra "sekundarnim operativnim sistemom" unutar stvarnog operativnog sistema (koji smo proučavali u prvom delu SCU202). Zaista, mnogi zadaci koji su se ranije obavljali korišćenjem specijalizovanog lokalnog softvera sada se direktno izvršavaju putem pregledača: zabava, kancelarijski poslovi (obrada teksta, tabele, prezentacije), upravljanje e-poštom, razmena poruka, skladištenje fajlova i kolaborativni rad.
+Ali danas je pregledač postao mnogo više od samo softverskog programa: često je glavni interfejs u računarstvu, posebno za početnike. Zato se ponekad smatra "sekundarnim operativnim sistemom" unutar stvarnog operativnog sistema (koji smo proučavali u prvom delu SCU202). Zaista, mnogi zadaci koji su se ranije obavljali korišćenjem specijalizovanog lokalnog softvera sada se direktno izvršavaju putem pregledača: zabava, kancelarijski poslovi (obrada teksta, tabele, prezentacije), upravljanje e-poštom, razmena poruka, skladištenje fajlova i kolaborativni rad.
 
 
 
@@ -5169,11 +5164,11 @@ Ipak, nije oduvek imao ovu centralnu ulogu. Istorija pregledača obeležena je c
 
 
 
-### Rođenje i prvi navigatori
+### Nastanak i prvi veb pregledači
 
 
 
-Istorija veb pretraživača počinje sa rođenjem *World Wide Web*-a, koji je izumeo Tim Berners-Li 1989-1990. To je sistem za pristupanje stranicama koje sadrže tekst, slike, video zapise ili linkove putem Interneta, koristeći veb pretraživač. Da bi ovaj novi sistem bio dostupan, u jesen 1990. godine razvio je prvi pretraživač, nazvan "WorldWideWeb", koji je postavio temelje za pretraživanje kakvo danas poznajemo. Omogućava i pregledanje i kreiranje veb stranica, uključujući integrisani HTML editor. Da bi se izbegla bilo kakva zabuna između pretraživača i samog Veba, njegovo ime je kasnije promenjeno u "Nexus".
+Istorija veb pregledača počinje sa rođenjem *World Wide Web*-a, koji je izumeo Tim Berners-Li 1989-1990. To je sistem za pristupanje stranicama koje sadrže tekst, slike, video zapise ili linkove putem interneta, koristeći veb pregledač. Da bi ovaj novi sistem bio dostupan, u jesen 1990. godine razvio je prvi pregledač, nazvan "WorldWideWeb", koji je postavio temelje za pretraživanje kakvo danas poznajemo. Omogućava i pregledanje i kreiranje veb stranica, uključujući integrisani HTML editor. Da bi se izbegla bilo kakva zabuna između pregledača i samog Veba (eng. Web), njegovo ime je kasnije promenjeno u "Nexus".
 
 
 
@@ -5181,7 +5176,7 @@ Istorija veb pretraživača počinje sa rođenjem *World Wide Web*-a, koji je iz
 
 
 
-Godine 1992. pojavilo se nekoliko drugih eksperimentalnih pregledača. Jedan od najznačajnijih bio je Erwise, razvijen od strane četiri finska studenta za Unix-bazirani X Window System. Bio je to prvi pregledač koji je imao grafički Interface za ovu vrstu okruženja. Uprkos tehničkim prednostima, patio je od nedostatka finansiranja i nije bio održavan nakon svoje prve verzije. Drugi projekti, kao što je ViolaWWW, takođe su se pojavili tokom ovog perioda.
+Godine 1992. pojavilo se nekoliko drugih eksperimentalnih pregledača. Jedan od najznačajnijih bio je Erwise, razvijen od strane četiri finska studenta za Unix-bazirani X Window System. Bio je to prvi pregledač koji je imao grafički interfejs za ovu vrstu okruženja. Uprkos tehničkim prednostima, patio je od nedostatka finansiranja i nije bio održavan nakon svoje prve verzije. Drugi projekti, kao što je ViolaWWW, takođe su se pojavili tokom ovog perioda.
 
 
 
@@ -5213,7 +5208,7 @@ Zahvaljujući lakoći korišćenja, kompatibilnosti sa različitim platformama i
 
 
 
-### Od ratova pretraživača do doba monopola
+### Od ratova veb pregledača do doba monopola
 
 
 
@@ -5221,7 +5216,7 @@ Meteorijski uspeh Netscape Navigatora sredinom 1990-ih nije promakao Microsoftu,
 
 
 
-Prva verzija Internet Explorera bila je još uvek rudimentarna, ali Microsoft je započeo agresivnu politiku razvoja. Godine 1996, sa Internet Explorerom 3.0, Microsoft je počeo da integriše svoj pregledač direktno u Windows operativni sistem, eliminišući potrebu za preuzimanjem pregledača treće strane. Ova integracija je ojačana sa Internet Explorerom 4.0 iz 1997. godine, koji je uveo novi vlasnički rendering engine nazvan Trident. Ovaj engine značajno poboljšava brzinu prikaza stranica i duboko se integriše sa Windows Interface.
+Prva verzija Internet Explorer-a bila je još uvek rudimentarna, ali Microsoft je započeo agresivnu politiku razvoja. Godine 1996, sa Internet Explorerom 3.0, Microsoft je počeo da integriše svoj pregledač direktno u Windows operativni sistem, eliminišući potrebu za preuzimanjem pregledača treće strane. Ova integracija je ojačana sa Internet Explorerom 4.0 iz 1997. godine, koji je uveo novi vlasnički rendering engine nazvan Trident. Ovaj engine značajno poboljšava brzinu prikaza stranica i duboko se integriše sa Windows interfejsom.
 
 
 
@@ -5236,11 +5231,11 @@ Strategija Microsofta zasniva se na nekoliko tehničkih i komercijalnih poluga:
 
 - izvorna integracija Internet Explorera u Windows (preinstaliran po defaultu i ne može se deinstalirati u to vreme);
 - besplatan pregledač, u poređenju sa Netscape-om, koji je do tada ostao komercijalan;
-- kontrola API-ja i operativnog sistema kako bi favorizovali njihov matični pregledač u Windows okruženju.
+- kontrola API-ja i operativnog sistema kako bi se u Windows okruženju dao prioritet njihovom sopstvenom pregledaču.
 
 
 
-Suočena sa ovom konkurencijom, Netscape je brzo izgubio tlo. Za manje od tri godine, njen tržišni udeo je drastično opao. Do ranih 2000-ih, Internet Explorer je držao preko 95% tržišnog udela, čineći sve druge pretraživače gotovo marginalnim.
+Suočen sa ovom konkurencijom, Netscape je brzo počeo da gubi poziciju. Za manje od tri godine, njegov tržišni udeo se drastično smanjio. Do ranih 2000-ih, Internet Explorer je držao preko 95% tržišnog udela, čineći sve druge pregledače gotovo marginalnim.
 
 
 
@@ -5248,15 +5243,14 @@ Suočena sa ovom konkurencijom, Netscape je brzo izgubio tlo. Za manje od tri go
 
 
 
-Ovaj virtuelni monopol doveo je do značajnog usporavanja inovacija. Bez ozbiljne konkurencije, Microsoft je dozvolio da razvoj Internet Explorera stagnira. Između IE6 (izdatog 2001. sa Windows XP) i njegove naredne verzije IE7 (2006), nije izdata nijedna glavna verzija, uprkos bezbednosnim ranjivostima, CSS nekompatibilnostima i neusklađenosti sa W3C standardima. Ova tehnološka inercija zadržala je modernizaciju Weba nekoliko godina unazad i primorala programere da kodiraju specifično za Tridentove greške ili nepredvidivo ponašanje.
-
+Ovaj virtuelni monopol doveo je do značajnog usporavanja inovacija. Bez ozbiljne konkurencije, Microsoft je dozvolio da razvoj Internet Explorera stagnira. Između IE6 (izdatog 2001. sa Windows XP) i njegove naredne verzije IE7 (2006), nije izdata nijedna glavna verzija, uprkos bezbednosnim ranjivostima, CSS nekompatibilnostima i neusklađenosti sa W3C standardima. Ova tehnološka inertnost je godinama usporavala modernizaciju veba i primoravala programere da pišu kod posebno prilagođen bagovima ili nepredvidivom ponašanju Tridenta.
 
 
 Svestan da više ne može komercijalno konkurisati, Netscape je odlučio da objavi svoj izvorni kod zajednici 1998. godine. Ovo je bio početak Mozilla projekta, koji je označio prekretnicu: razvoj besplatnog, standardima usklađenog pregledača, podržanog od strane nezavisne fondacije.
 
 
 
-Cilj ovog projekta je potpuno obnoviti pregledač na novim temeljima, sa modernijim renderovanjem koje će poštovati otvorene Web standarde. Cilj je bio jasan: vratiti otvorenost i interoperabilnost Webu, suočenom sa dominacijom Internet Explorera. Iz ovog projekta je, nekoliko godina kasnije, nastao Mozilla Firefox.
+Cilj ovog projekta je potpuno obnoviti pregledač na novim temeljima, sa modernijim renderovanjem koje će poštovati otvorene Web standarde. Cilj je bio jasan: vratiti vebu otvorenost i interoperabilnost, nasuprot stezi u kojoj ga je držao Internet Explorer. Iz ovog projekta je, nekoliko godina kasnije, nastao Mozilla Firefox.
 
 
 
@@ -5264,11 +5258,11 @@ Cilj ovog projekta je potpuno obnoviti pregledač na novim temeljima, sa moderni
 
 
 
-Nakon nekoliko godina stagnacije zbog virtuelnog monopola Internet Explorera, web je ušao u fazu tehnološkog obnavljanja početkom 2000-ih. Ovu prekretnicu su inicirala dva velika igrača: Mozilla i Apple.
+Nakon nekoliko godina stagnacije zbog virtuelnog monopola Internet Explorer-a, veb je ušao u fazu tehnološkog obnavljanja početkom 2000-ih. Ovu prekretnicu su inicirala dva velika igrača: Mozilla i Apple.
 
 
 
-Godine 2002, Mozilla projekat, nastao iz objavljivanja izvornog koda Netscape-a, lansirao je novi pregledač: Phoenix, brzo preimenovan u Firebird, a zatim konačno u Firefox 2004. godine kako bi se izbegli sukobi u imenovanju. Firefox je bio zasnovan na potpuno novom renderovanju, nazvanom Gecko, dizajniranom da bude brz, proširiv i, pre svega, veran standardima Veba koje je definisao W3C (*World Wide Web Consortium*). Za razliku od Tridenta, Gecko podržava moderne tehnologije kao što su CSS 2.1, DOM i SVG (*Scalable Vector Graphics*), zajedno sa poboljšanim upravljanjem bezbednošću.
+Godine 2002, Mozilla projekat, koji je nastao objavljivanjem izvornog koda Netscape-a, lansirao je novi pregledač: Phoenix, brzo preimenovan u Firebird, a zatim konačno u Firefox 2004. godine kako bi se izbegli sukobi u imenovanju. Firefox je bio zasnovan na potpuno novom renderovanju, nazvanom Gecko, dizajniranom da bude brz, proširiv i, pre svega, veran standardima Web-a koje je definisao W3C (*World Wide Web Consortium*). Za razliku od Tridenta, Gecko podržava moderne tehnologije kao što su CSS 2.1, DOM i SVG (*Scalable Vector Graphics*), uz unapređeno upravljanje bezbednošću.
 
 
 
@@ -5276,8 +5270,7 @@ Godine 2002, Mozilla projekat, nastao iz objavljivanja izvornog koda Netscape-a,
 
 
 
-Firefox je takođe uveo nekoliko inovacija koje bi imale trajan uticaj na pretraživanje interneta:
-
+Firefox je takođe uveo nekoliko inovacija koje su imale trajan uticaj na veb pregledače:
 
 
 
@@ -5287,11 +5280,11 @@ Firefox je takođe uveo nekoliko inovacija koje bi imale trajan uticaj na pretra
 
 
 
-Njegova mala težina, fleksibilnost i poštovanje standarda brzo su privukli napredne korisnike, web programere i sve koji su tražili otvoreniju alternativu Internet Exploreru. Do 2005. godine, Firefox je premašio 10% tržišnog udela, što je značajno dostignuće protiv pretraživača koji je unapred instaliran na svim Windows računarima.
+Zbog svoje male težine, fleksibilnosti i poštovanja standarda, brzo je osvojio napredne korisnike, veb developere i sve koji su želeli otvoreniju alternativu Internet Exploreru. Do 2005. godine, Firefox je premašio 10% tržišnog udela, što je značajno dostignuće protiv pregledača koji je unapred instaliran na svim Windows računarima.
 
 
 
-U međuvremenu, Apple je razvijao sopstveni izvorni pregledač za macOS. U januaru 2003. godine, Safari je zvanično pušten. Baziran je na WebKit-u, open source render engine-u izvedenom iz KHTML-a, koji je prvobitno razvijen od strane KDE projekta za njihov Konqueror pregledač. WebKit je cenjen zbog svoje lakoće, brzine i jednostavnosti prenosivosti. Apple je uveo brojne interne optimizacije, posebno za JavaScript obradu, što je postajalo ključno pitanje sa porastom interaktivnih web aplikacija.
+U međuvremenu, Apple je razvijao sopstveni izvorni pregledač za macOS. U januaru 2003. godine, Safari je zvanično pušten. Baziran je na WebKit-u, open source render engine-u izvedenom iz KHTML-a, koji je prvobitno razvijen od strane KDE projekta za njihov Konqueror pregledač. WebKit je cenjen zbog svoje lakoće, brzine i jednostavne prenosivosti. Apple je uveo brojne interne optimizacije, posebno za JavaScript obradu, što je postajalo ključno pitanje sa porastom interaktivnih web aplikacija.
 
 
 
@@ -5303,7 +5296,7 @@ Safari je postao podrazumevani pregledač na svim Mac računarima počevši od M
 
 
 
-Ove inicijative su oživele tehnološku konkurenciju, postepeno slabeći dominaciju Internet Explorera i otvarajući put za novu generaciju pregledača koji su brži, više usklađeni sa standardima i više fokusirani na modularnost, sigurnost i performanse. Između 2006. i 2008. godine, Internet Explorer je polako gubio tržišni udeo, dok se Firefox etablirao kao glavna ozbiljna alternativa. Ovaj kontekst je otvorio put za dolazak novog velikog igrača: Google Chrome.
+Ove inicijative su oživele tehnološku konkurenciju, postepeno slabeći dominaciju Internet Explorer-a i otvarajući put za novu generaciju pregledača koji su brži, više usklađeni sa standardima i više fokusirani na modularnost, sigurnost i performanse. Između 2006. i 2008. godine, Internet Explorer je polako gubio tržišni udeo, dok se Firefox etablirao kao glavna ozbiljna alternativa. Ovaj kontekst je otvorio put za dolazak novog velikog igrača: Google Chrome.
 
 
 
@@ -5329,7 +5322,7 @@ Chrome je u početku bio zasnovan na dva tehnička stuba:
 
 
 
-Ali pravi proboj Chrome-a dolazi iz njegove arhitekture sa više procesa. Svaka kartica radi u izolovanom procesu, koristeći tehniku peskovnika koja sprečava zlonamernu stranicu da ugrozi ceo pregledač. Ova izolacija takođe poboljšava stabilnost: ako jedna kartica padne, ostale ostaju funkcionalne. Pored toga, tu je minimalistički, na sadržaj usmeren Interface, bez menija, kombinovani Address i traka za pretragu (*Omnibox*), i tihi ažuriranja u pozadini.
+Ali pravi proboj Chrome-a dolazi iz njegove arhitekture sa više procesa. Svaka kartica radi u izolovanom procesu, koristeći sanboxing tehniku koja sprečava zlonamernu stranicu da ugrozi ceo pregledač. Ova izolacija takođe poboljšava stabilnost: ako jedna kartica padne, ostale ostaju funkcionalne. Pored toga, tu je minimalistički, na sadržaj usmeren interfejs, bez menija, kombinovana adresna i traka za pretragu (*Omnibox*), kao i automatska ažuriranja u pozadini koja ne ometaju korisnika.
 
 
 
@@ -5341,7 +5334,7 @@ Podržan Google-ovim brendom i veoma efikasnom marketinškom kampanjom, Chrome j
 
 
 
-Godine 2013, Google je najavio veliku stratešku promenu: Fork WebKit kako bi kreirao novi nezavisni rendering engine, nazvan Blink. Ovaj Fork je objašnjen tehničkim i organizacionim razlikama sa Apple-om, posebno oko arhitekture engine-a i integracije eksperimentalnih funkcija. Blink je postao ekskluzivni engine za Chrome od verzije 28 nadalje, a kasnije su ga usvojili i mnogi drugi pretraživači: Opera (koja je napustila Presto 2013. godine), Vivaldi, Brave, Microsoft Edge (od 2020. godine) i drugi.
+Godine 2013, Google je najavio veliku stratešku promenu: odvojio je (forkovao) WebKit kako bi kreirao novi, nezavisni rendererski mehanizam, nazvan Blink. Ovaj fork je objašnjen tehničkim i organizacionim razlikama sa Apple-om, posebno oko arhitekture engine-a i integracije eksperimentalnih funkcija. Blink je postao ekskluzivni engine za Chrome od verzije 28 nadalje, a kasnije su ga usvojili i mnogi drugi pregledači: Opera (koja je napustila Presto 2013. godine), Vivaldi, Brave, Microsoft Edge (od 2020. godine) i drugi.
 
 
 
@@ -5353,15 +5346,15 @@ Chrome je duboko redefinisao performanse, bezbednosne i ergonomske standarde mod
 
 
 
-### Evolucija rendernih endžina: od Tridenta do Blinka
+### Evolucija rendering engine-a: od Tridenta do Blinka
 
 
 
-Mehanizam za renderovanje je osnovna komponenta web pregledača. Njegova glavna uloga je interpretacija datoteka primljenih sa servera (HTML, CSS, JavaScript, slike, fontovi...) u generate interaktivni grafički Interface. Mehanizam za renderovanje je poput prevodioca između web jezika i vašeg ekrana, prevodeći linije koda u vizuelno koherentnu, interaktivnu i funkcionalnu stranicu.
+Mehanizam za renderovanje je osnovna komponenta web pregledača. Njegova glavna uloga je interpretacija datoteka primljenih sa servera (HTML, CSS, JavaScript, slike, fontovi...) kako bi se generisao interaktivni grafički interfejs. Mehanizam za renderovanje je poput prevodioca između web jezika i vašeg ekrana, prevodeći linije koda u vizuelno koherentnu, interaktivnu i funkcionalnu stranicu.
 
 
 
-U konkretnim terminima, kada unesete URL u Address traku:
+U konkretnim terminima, kada unesete URL u adresnu traku:
 
 
 
@@ -5375,11 +5368,11 @@ U konkretnim terminima, kada unesete URL u Address traku:
 
 
 
-Ceo ovaj proces treba da bude brz i tečan kako bi se pružilo dobro korisničko iskustvo, čak i na složenim stranicama. Upravo je to uloga render motora.
+Ceo ovaj proces treba da bude brz i tečan kako bi se pružilo dobro korisničko iskustvo, čak i sa složenim stranicama. Upravo je to uloga render motora.
 
 
 
-Evo istorijski pregled glavnih rendering mašina koje su oblikovale evoluciju Weba:
+Evo istorijskog pregleda glavnih rendering mašina koje su oblikovale evoluciju Web-a:
 
 
 
@@ -5387,11 +5380,11 @@ Evo istorijski pregled glavnih rendering mašina koje su oblikovale evoluciju We
 
 
 
-Razvijen od strane Microsofta za Internet Explorer 4, Trident je motor koji je dominirao internetom početkom 2000-ih, u središtu ratova pretraživača. Iako inovativan u svojim ranim danima, brzo je zaostao u pogledu usklađenosti sa W3C standardima, što je dovelo do pojave mnogih sajtova optimizovanih isključivo za Internet Explorer.
+Razvijen od strane Microsofta za Internet Explorer 4, Trident je motor koji je dominirao internetom početkom 2000-ih, u središtu ratova pregledača. Iako inovativan u svojim ranim danima, brzo je zaostao u pogledu usklađenosti sa W3C standardima, što je dovelo do pojave mnogih sajtova optimizovanih isključivo za Internet Explorer.
 
 
 
-Trident je takođe predstavljao bezbednosne probleme i spor JavaScript engine. Web programeri su često morali da pišu specifičan kod kako bi zaobišli njegove greške. Microsoft ga je 2015. godine zamenio sa EdgeHTML, modernijim engine-om koji nije uspeo da preokrene trend. Trident ostaje simbol ere kada je engine mogao da nameće sopstvena pravila na Web-u.
+Trident je takođe imao bezbednosne probleme i spor JavaScript engine. Web programeri su često morali da pišu specifičan kod kako bi zaobišli njegove greške. Microsoft ga je 2015. godine zamenio sa EdgeHTML, modernijim engine-om koji nije uspeo da preokrene trend. Trident ostaje simbol ere kada je engine mogao da nameće sopstvena pravila na Web-u.
 
 
 
@@ -5415,7 +5408,7 @@ Gecko je bio izvor mnogih inovacija. Međutim, njegova složena i istorijska baz
 
 
 
-U smislu tržišnog udela, Gecko je sada daleko iza Blinka, pošto je Firefox jedini veliki pregledač koji ga koristi. Takođe se marginalno koristi od strane manje poznatih i manje korišćenih pregledača koji su forkovi Firefoxa: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Ovo čini Gecko garantom raznolikosti na vebu, suočen sa dominacijom Blinka.
+U smislu tržišnog udela, Gecko je sada daleko iza Blinka, pošto je Firefox jedini veliki pregledač koji ga koristi. Pored toga, koristi ga u manjoj meri nekoliko manje poznatih i retko korišćenih pregledača koji su forkovi Firefoxa: Tor Browser, LibreWolf, Zen Browser, GNU IceCat, Waterfox... Ovo čini Gecko garantom raznolikosti na vebu, suočen sa dominacijom Blinka.
 
 
 
@@ -5439,7 +5432,7 @@ Razvijen od strane KDE projekta za njegov Konqueror pregledač, KHTML je lagan, 
 
 
 
-WebKit je Fork KHTML-a koji je pokrenuo Apple za razvoj sopstvenog pregledača: Safari. Prvo je optimizovan za performanse i integraciju sa macOS-om, a zatim ga je koristio Google Chrome kada je objavljen 2008. godine. WebKit se zasniva na dve podkomponente:
+WebKit je fork KHTML-a koji je pokrenuo Apple za razvoj sopstvenog pregledača: Safari. Prvo je optimizovan za performanse i integraciju sa macOS-om, a zatim ga je koristio Google Chrome kada je objavljen 2008. godine. WebKit se zasniva na dve podkomponente:
 
 
 
@@ -5449,7 +5442,7 @@ WebKit je Fork KHTML-a koji je pokrenuo Apple za razvoj sopstvenog pregledača: 
 
 
 
-WebKit se ističe svojom brzinom i malim otiskom. Na iOS-u, Apple je nametnuo njegovu upotrebu svim pretraživačima iz razloga sigurnosti i energetske efikasnosti: čak i Firefox ili Chrome na iPhone-u koriste WebKit u pozadini.
+WebKit se izdvaja po brzini i maloj potrošnji resursa. Na iOS-u, Apple je nametnuo njegovu upotrebu svim pregledačima iz razloga sigurnosti i energetske efikasnosti: čak i Firefox ili Chrome na iPhone-u koriste WebKit u pozadini.
 
 
 
@@ -5461,7 +5454,7 @@ WebKit se ističe svojom brzinom i malim otiskom. Na iOS-u, Apple je nametnuo nj
 
 
 
-Blink je Fork WebKit-a koji je pokrenuo Google kako bi opremio Chrome (i Chromium), a zatim ga je brzo usvojio Opera, Brave, Vivaldi, pa čak i Microsoft Edge od 2020. godine. Blink uvodi fleksibilnije upravljanje od Apple-ovog, omogućavajući Google-u da brzo eksperimentiše sa novim web API-jima.
+Blink je fork WebKita koji je Google pokrenuo da bi ga koristio u Chrome-u (i Chromium-u), a ubrzo su ga prihvatili Opera, Brave, Vivaldi, pa čak i Microsoft Edge od 2020. godine. Blink uvodi fleksibilnije upravljanje od Apple-ovog, omogućavajući Google-u da brzo eksperimentiše sa novim web API-jima.
 
 
 
@@ -5469,7 +5462,7 @@ Blink je Fork WebKit-a koji je pokrenuo Google kako bi opremio Chrome (i Chromiu
 
 
 
-Danas je Blink najčešće korišćeni rendering engine na svetu. Međutim, ova supremacija postavlja pitanje tehničke monokulture na vebu, ali o tome ćemo kasnije.
+Danas je Blink najčešće korišćeni rendering engine na svetu. Međutim, ova dominacija postavlja pitanje tehničke monokulture na vebu, ali o tome ćemo kasnije.
 
 
 
@@ -5477,7 +5470,7 @@ Danas je Blink najčešće korišćeni rendering engine na svetu. Međutim, ova 
 
 
 
-Naslednik Trident-a, EdgeHTML je dizajniran od strane Microsoft-a da modernizuje Edge, sa poboljšanim performansama i kompatibilnošću. Uključuje deo koda iz Trident-a, ali sa redizajniranim JavaScript motorom. Uprkos tim naporima, EdgeHTML se borio da ubedi korisnike i web programere. Godine 2020, Microsoft je odlučio da napusti EdgeHTML u korist Blink-a, lansirajući Edge Chromium, koji je postao Blink pregledač sa Microsoft Interface Layer.
+Naslednik Trident-a, EdgeHTML je dizajniran od strane Microsoft-a da modernizuje Edge, sa poboljšanim performansama i kompatibilnošću. Uključuje deo koda iz Trident-a, ali sa redizajniranim JavaScript motorom. Uprkos tim naporima, EdgeHTML se borio da ubedi korisnike i web programere. Godine 2020, Microsoft je odlučio da napusti EdgeHTML u korist Blink-a, lansirajući Edge Chromium, koji je postao Blink pregledač sa interfejsnim slojem Microsoft-a.
 
 
 
@@ -5485,7 +5478,7 @@ Naslednik Trident-a, EdgeHTML je dizajniran od strane Microsoft-a da modernizuje
 
 
 
-Evolucija rendering endžina odražava istoriju veba: tenzije između inovacije i standardizacije, dominacija glavnih igrača, pokušaji etičnijih ili tehničkih alternativa. Danas su skoro svi pregledači zasnovani na Blink-u, sa značajnim izuzecima Firefox-a (Gecko) i Safari-ja (WebKit).
+Evolucija rendering engine-a odražava istoriju veba: tenzije između inovacije i standardizacije, dominacija glavnih igrača, pokušaji etičnijih ili tehničkih alternativa. Danas su skoro svi pregledači zasnovani na Blink-u, sa značajnim izuzecima Firefox-a (Gecko) i Safari-ja (WebKit).
 
 
 
@@ -5501,7 +5494,7 @@ Ova situacija donosi određene prednosti: Blink je moćan i podržan od strane v
 
 
 
-S jedne strane, to marginalizuje alternativne pretraživače, posebno Gecko, koji koristi gotovo isključivo Firefox. U 2025. godini, Firefox će imati manje od 6% tržišnog udela, što znatno ograničava njegovu sposobnost da se njegov glas čuje u diskusijama o evoluciji web standarda (W3C, WHATWG). Gecko održava Mozilla, neprofitna fondacija sa znatno manje resursa od Google-a. Pretraživač ostaje konkurentan u određenim tehničkim aspektima (posebno zaštiti privatnosti), ali pati od zaostajanja u implementaciji određenih modernih API-ja. A ovaj fenomen je deo začaranog kruga: Gecko je manje efikasan, što dovodi do pada broja korisnika, što podstiče programere da manje optimizuju svoje sajtove za Gecko, pa je Gecko manje efikasan... i tako dalje.
+S jedne strane, to marginalizuje alternativne pregledače, posebno Gecko, koji koristi gotovo isključivo Firefox. U 2025. godini, Firefox će imati manje od 6% tržišnog udela, što znatno ograničava njegovu sposobnost da se njegov glas čuje u diskusijama o evoluciji web standarda (W3C, WHATWG). Gecko održava Mozilla, neprofitna fondacija sa znatno manje resursa od Google-a. Pregledač ostaje konkurentan u određenim tehničkim aspektima (posebno zaštiti privatnosti), ali pati od zaostajanja u implementaciji određenih modernih API-ja. A ovaj fenomen je deo začaranog kruga: Gecko je manje efikasan, što dovodi do pada broja korisnika, što podstiče programere da manje optimizuju svoje sajtove za Gecko, pa je Gecko manje efikasan... i tako dalje.
 
 
 
@@ -5513,15 +5506,15 @@ S druge strane, ova centralizacija oko Blink-a znači da Google de facto kontrol
 
 
 
-Štaviše, rastuće oslanjanje na jedan jedini engine povećava sistemski rizik za web ekosistem. Ako Blink uvede regresiju, pristrasnost ili grešku, uticaj pogađa sve korisnike. Tehnološka raznolikost ovde igra ulogu otpornosti, baš kao što to čini u operativnim sistemima i softverskim arhitekturama.
+Štaviše, rastuće oslanjanje na jedan jedini engine povećava sistemski rizik za web ekosistem. Ako Blink uvede smanjenje funkcionalnosti u odnosu na prethodnu verziju (eng. regression), pristrasnost ili grešku, uticaj pogađa sve korisnike. Tehnološka raznolikost ovde igra ulogu otpornosti, baš kao što to čini u operativnim sistemima i softverskim arhitekturama.
 
 
 
-Danas, Mozilla nastavlja da igra ključnu ulogu u odbrani otvorenog weba, koji poštuje privatnost i slobodno je dostupan. Firefox ostaje jedan od retkih velikih pretraživača koji nije zasnovan na Chromium-u, i nudi nezavisne inovacije. Ali njegov opstanak zavisi od sposobnosti da održi dovoljan broj korisnika i održivo finansiranje.
+Danas, Mozilla nastavlja da igra ključnu ulogu u odbrani otvorenog weba, koji poštuje privatnost i slobodno je dostupan. Firefox ostaje jedan od retkih velikih pregledača koji nije zasnovan na Chromium-u, i nudi nezavisne inovacije. Ali njegov opstanak zavisi od sposobnosti da održi dovoljan broj korisnika i održivo finansiranje.
 
 
 
-Dominacija Blinka stoga nije samo tehničko pitanje: uključuje političke, ekonomske i društvene interese u upravljanju webom. U tom smislu, promocija više rendering engine-a ostaje dobra praksa u korist neutralnijeg, sigurnijeg i otpornijeg weba.
+Dominacija Blinka stoga nije samo tehničko pitanje: uključuje političke, ekonomske i društvene interese u upravljanju web-om. U tom smislu, promocija više rendering engine-a ostaje dobra praksa u korist neutralnijeg, sigurnijeg i otpornijeg web-a.
 
 
 
@@ -5556,7 +5549,7 @@ Cilj ovog poglavlja je da vam pomogne da izaberete pregledač koji najbolje odgo
 
 
 
-[Chrome](https://www.google.com/chrome/) ima koristi od brzog i kontinuiranog razvoja, prvenstveno pod vođstvom Google-a. Prepoznat je po visokom performansu, brzini, širokoj kompatibilnosti sa modernim web standardima i dobroj integraciji Google usluga.
+[Chrome](https://www.google.com/chrome/) ima koristi od brzog i kontinuiranog razvoja, prvenstveno pod vođstvom Google-a. Prepoznat je po visokim performansama, brzini, širokoj kompatibilnosti sa modernim web standardima i dobroj integraciji Google usluga.
 
 
 
@@ -5564,7 +5557,7 @@ Cilj ovog poglavlja je da vam pomogne da izaberete pregledač koji najbolje odgo
 
 
 
-Međutim, sa stanovišta bezbednosti i privatnosti, Chrome izaziva velike zabrinutosti. Podrazumevano, pregledač prikuplja veliku količinu podataka o svojim korisnicima (pregledanje, pretrage, istorija...), što Google uglavnom koristi u reklamne svrhe. Mogućnost izolovanja kolačića i tragača je ograničena po defaultu, a potpuno isključivanje praćenja ostaje složeno. Takođe, čak i ako je Chrome tehnički siguran (efektivna sandbox, brze nadogradnje...), ostaje pod kontrolom velikog igrača čiji su komercijalni interesi prirodno nespojivi sa pravim digitalnim suverenitetom.
+Međutim, sa stanovišta bezbednosti i privatnosti, Chrome izaziva velike zabrinutosti. Podrazumevano, pregledač prikuplja veliku količinu podataka o svojim korisnicima (pregledanje, pretrage, istorija...), što Google uglavnom koristi u reklamne svrhe. Mogućnost izolovanja kolačića i tragača je ograničena po defaultu, a potpuno isključivanje praćenja ostaje složeno. Takođe, čak i ako je Chrome tehnički siguran (efektivan sandbox, brze nadogradnje...), ostaje pod kontrolom velikog igrača čiji su komercijalni interesi prirodno nespojivi sa pravim digitalnim suverenitetom.
 
 
 
@@ -5584,15 +5577,15 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Hrabro
+#### Brave
 
 
 
-[Brave](https://brave.com/) je zasnovan na Blink-u (kao Chrome), ali se radikalno razlikuje po svom pristupu usmerenog na privatnost. Po defaultu, Brave blokira oglase i trackere, integriše *HTTPS Everywhere* i nudi naprednu zaštitu protiv fingerprintinga i skripti trećih strana. Njegov poslovni model delimično se zasniva na integrisanom oglašavanju koje je prijateljsko prema privatnosti, ali ovo ostaje opcionalno i lako se može deaktivirati.
+[Brave](https://brave.com/) je zasnovan na Blink-u (kao i Chrome), ali se radikalno razlikuje po svom pristupu usmerenom na privatnost. Po defaultu, Brave blokira oglase i trackere, integriše *HTTPS Everywhere* i nudi naprednu zaštitu protiv fingerprintinga (praćenja korisnika pomoću jedinstvenih karakteristika njihovog uređaja ili pregledača) i skripti trećih strana. Njegov poslovni model delimično se zasniva na integrisanom oglašavanju koje je prijateljsko prema privatnosti, ali ovo ostaje opcionalno i lako se može deaktivirati.
 
 
 
-Brave je zasnovan na Chromiumu i sav njegov kod je dostupan na GitHubu. Samo manji delovi su delimično vlasnički. Sve u svemu, Brave je veoma blizu open source pregledaču.
+Brave je zasnovan na Chromiumu i sav njegov kod je dostupan na GitHubu. Samo manji delovi sadrže delimično vlasnički kod. Sve u svemu, Brave je veoma blizu open source pregledaču.
 
 
 
@@ -5600,7 +5593,7 @@ Brave je zasnovan na Chromiumu i sav njegov kod je dostupan na GitHubu. Samo man
 
 
 
-Brave je moćna alternativa Chrome-u, kombinujući brzinu, poboljšanu sigurnost, unapređenu privatnost po defaultu i intuitivni Interface. Međutim, ne bih ga nužno preporučio, jednostavno zato što je zasnovan na Chromium-u.
+Brave je moćna alternativa Chrome-u, kombinujući brzinu, poboljšanu sigurnost, unapređenu privatnost po defaultu i intuitivni interfejs. Međutim, ne bih ga nužno preporučio, jednostavno zato što je zasnovan na Chromium-u.
 
 
 
@@ -5612,12 +5605,12 @@ Iako je Brave od tada deaktivirao ovaj API, ovaj slučaj jasno ilustruje struktu
 
 
 
-→ "***fingerprinting***" u kontekstu internet pretraživanja odnosi se na skup tehnika koje uključuju prikupljanje i analizu specifičnih i ponekad jedinstvenih informacija o vašem okruženju pretraživanja, kako bi vas prepoznali i pratili na različitim veb-sajtovima, bez pribegavanja eksplicitnim identifikatorima kao što su kolačići. Ove informacije mogu uključivati:
+→ "***fingerprinting***" u kontekstu internet pretraživanja odnosi se na skup tehnika koje uključuju prikupljanje i analizu specifičnih i ponekad jedinstvenih informacija o vašem okruženju za pretraživanja veba, kako bi vas prepoznali i pratili na različitim veb-sajtovima, bez pribegavanja eksplicitnim identifikatorima kao što su kolačići. Ove informacije mogu uključivati:
 
 
 
 
-- Vaš IP Address,
+- Vaša IP adresa,
 - Vaš provajder internet usluga,
 - Vaša geolokacija,
 - Vaš pregledač i njegova svojstva,
@@ -5629,12 +5622,12 @@ Iako je Brave od tada deaktivirao ovaj API, ovaj slučaj jasno ilustruje struktu
 - Vaša vremenska zona i jezik,
 - HTML5 platno,
 - Analiza grafičkog renderovanja,
-- Vaša proširenja pregledača,
+- Ekstenzije vašeg pregledača,
 - itd...
 
 
 
-Da biste proverili da li vaš otisak pretraživača čini vas jedinstvenim ili se uklapate u masu, možete koristiti sledeći sajt: https://amiunique.org/
+Da proverite da li vaš veb pregledač ostavlja jedinstveni otisak ili se stapate sa masom, možete koristiti sledeći sajt: https://amiunique.org/
 
 
 
@@ -5658,7 +5651,7 @@ Da biste proverili da li vaš otisak pretraživača čini vas jedinstvenim ili s
 
 
 
-[Opera](https://www.opera.com/) je dugogodišnji pregledač, prisutan još od 1995. godine. Sada koristi Blink nakon što je napustio svoj vlasnički engine (*Presto*). Ima moderan Interface i neke inovativne funkcije.
+[Opera](https://www.opera.com/) je dugogodišnji pregledač, prisutan još od 1995. godine. Sada koristi Blink nakon što je napustio svoj vlasnički engine (*Presto*). Ima moderan interfejs i neke inovativne funkcije.
 
 
 
@@ -5684,11 +5677,11 @@ Pregledači zasnovani na Blink-u takođe uključuju brojne manje zastupljene pre
 
 
 
-Razvijen od strane The Browser Company, [Arc](https://arc.net/) nudi radikalno drugačiji pristup korisničkom Interface. Zamenjuje tradicionalne kartice sistemom "*prostora*", objedinjenu bočnu traku i integriše kreativne alate kao što su beležive snimke i jednostavan uređivač sajtova. Naglasak je na upotrebljivosti, vizuelnoj prilagodljivosti i fluidnosti korišćenja, što ovaj alat čini omiljenim kod nekih profesionalaca.
+Razvijen od strane The Browser Company, [Arc](https://arc.net/) nudi radikalno drugačiji pristup korisničkom interfejsu. Zamenjuje tradicionalne kartice sistemom "spaces", u prevodu "*prostora*", objedinjenu bočnu traku i integriše kreativne alate kao što su beležive snimke i jednostavan uređivač sajtova. Naglasak je na upotrebljivosti, vizuelnoj prilagodljivosti i fluidnosti korišćenja, što ovaj alat čini omiljenim kod nekih profesionalaca.
 
 
 
-Sa tehničke tačke gledišta, Arc je zasnovan na Chromium-u, ali ostaje vlasnički softver. Ne nudi transparentnost u vezi sa prikupljanjem podataka, a njegova politika privatnosti ostaje nejasna, posebno kada je reč o telemetriji i sinhronizaciji u oblaku. Stoga bi ga trebalo izbegavati sa stanovišta digitalnog suvereniteta.
+Sa tehničke tačke gledišta, Arc je zasnovan na Chromium-u, ali ostaje vlasnički softver. Ne nudi transparentnost u vezi sa prikupljanjem podataka, a njegova politika privatnosti ostaje nejasna, posebno kada je reč o telemetriji i sinhronizaciji u cloud-u. Stoga bi ga trebalo izbegavati sa stanovišta digitalnog suvereniteta.
 
 
 
@@ -5702,7 +5695,7 @@ Sa tehničke tačke gledišta, Arc je zasnovan na Chromium-u, ali ostaje vlasni�
 
 
 
-[Polypane](https://polypane.app/) je namenjen posebno front-end developerima i UX dizajnerima. Njegova glavna funkcija je da istovremeno prikazuje nekoliko instanci istog sajta na različitim rezolucijama ekrana, kako bi se testiralo *responzivno* ponašanje Interface u realnom vremenu. Takođe nudi alate za pristupačnost, HTML/CSS validatore, simulatore za daltonizam i metrike performansi.
+[Polypane](https://polypane.app/) je namenjen posebno front-end developerima i UX dizajnerima. Njegova glavna funkcija je da istovremeno prikazuje nekoliko instanci istog sajta na različitim rezolucijama ekrana, kako bi se testiralo *responzivno* ponašanje interfejsa u realnom vremenu. Takođe nudi alate za pristupačnost, HTML/CSS validatore, simulatore za daltonizam i metrike performansi.
 
 
 
@@ -5763,11 +5756,11 @@ Nedostatak je značajno smanjenje performansi (visoka latencija) i ograničena k
 
 #### Mullvad Browser
 
-[Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu protiv otiska prsta, tragača i skripti trećih strana.
+[Mullvad Browser](https://mullvad.net/en/browser) je rezultat saradnje između Tor Foundation i Mullvad VPN. Baziran je na Tor pretraživaču, koji je sam po sebi izveden iz Firefox ESR. Mullvad Browser je dizajniran da maksimizira privatnost korisnika. Podrazumevano uključuje naprednu zaštitu od praćenja putem fingerprintinga, tragača i skripti trećih strana.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
-Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP Address, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
+Ima većinu sigurnosnih i privatnih funkcija koje nudi Tor Browser, sa jednom razlikom: ne preusmerava saobraćaj preko Tor mreže. Da biste izbegli curenje IP adrese, možete ga koristiti u kombinaciji sa VPN-om (idealno, Mullvad VPN).
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5801,11 +5794,11 @@ https://planb.academy/tutorials/computer-security/communication/librewolf-1783e9
 
 [Zen Browser](https://zen-browser.app/) je besplatan i otvoren izvorni pregledač zasnovan na Firefoxu (Gecko engine), pokrenut 2024. godine. Njegov cilj je da ponudi moderno, elegantno, visoko prilagodljivo i pre svega iskustvo pregledanja usmereno na privatnost, bez oslanjanja na Chromium.
 
-Zen se ističe svojim radikalnim pristupom Interface i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko endžinom. Uključuje :
+Zen se ističe svojim radikalnim pristupom interfejsu i upotrebljivošću, u velikoj meri inspirisan Arc pregledačem, ali oslobođen od njega svojom open-source prirodom i Gecko engine-om. Uključuje :
 
-- Minimalistički, modularni Interface, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
-- Sistem prilagodljivih Interface šablona (*Zen Mods*) koji se mogu koristiti za duboku izmenu izgleda pregledača;
-- Originalna funkcija pod nazivom *Glance*, koja otvara link u laganom privremenom prozoru, izbegavajući nered sa karticama...
+- Minimalistički, modularni interfejs, sa vertikalnom bočnom trakom za kartice, podeljenim prikazom i *workspace* sistemom za grupisanje skupova kartica po projektu;
+- Sistem prilagodljivih interfejs šablona (*Zen Mods*) koji se mogu koristiti za značajno prilagođavanje vizuelnog izgleda pregledača;
+- Originalna funkcija pod nazivom *Glance*, koja otvara link u privremenom „laganom“ prozoru, izbegavajući nered sa karticama...
 
 Zen takođe podržava ekstenzije za Firefox, kao i sinhronizaciju putem Mozilla naloga.
 
@@ -5819,7 +5812,7 @@ https://planb.academy/tutorials/computer-security/communication/zen-browser-f1af
 
 #### Safari
 
-Glavni pregledač koji još uvek koristi WebKit rendering engine (nije Fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
+Glavni pregledač koji još uvek koristi WebKit rendering engine (nije fork kao Blink) je Safari. [Safari](https://www.apple.com/safari/) je ekskluzivni pregledač kompanije Apple za macOS. Nudi odličnu integraciju sa Apple ekosistemom, visoke performanse, i sada uključuje jaču zaštitu protiv praćenja i fingerprintinga.
 
 Međutim, Safari ostaje zatvoren, ograničen na macOS za svoju desktop verziju, i zavisan od Apple ekosistema. Iako Apple ima snažnu politiku privatnosti, sa poslovnim modelom koji se prvenstveno zasniva na prodaji hardvera, a ne na oglašavanju, ostaje nejasno u vezi sa određenim internim praksama.
 
@@ -5835,7 +5828,7 @@ Ovde se fokusiramo na desktop pregledače, ali je važno napomenuti da na iOS-u,
 
 
 
-Zanimljiva alternativa za Safari je [Orion](https://kagi.com/orion/), moderan pregledač dizajniran isključivo za Apple ekosistem, takođe baziran na WebKit-u. Njegov cilj je da ponudi brzu, laganu i duboko privatnost-poštujuću alternativu, bez kompromisa na naprednim funkcijama.
+Zanimljiva alternativa za Safari je [Orion](https://kagi.com/orion/), moderan pregledač dizajniran isključivo za Apple ekosistem, takođe baziran na WebKit-u. Njegov cilj je da ponudi brzu, laganu i sa snažnom zaštitom privatnosti alternativu, bez žrtvovanja naprednih funkcionalnosti.
 
 
 
@@ -5847,7 +5840,7 @@ Orion se razlikuje od Safarija u nekoliko tehničkih aspekata:
 - Usvaja strogu politiku nulte telemetrije: podaci se ne prikupljaju niti prenose po defaultu, uključujući tokom početne instalacije;
 - Podrazumevano uključuje blokator oglasa i tragača, koji je po efikasnosti u većini slučajeva uporediv sa *uBlock Origin*;
 - Izvorno podržava instalaciju i korišćenje ekstenzija za Chrome i Firefox na macOS-u;
-- Korisni alati uključuju *Focus* režim(Interface-besplatna navigacija), režim niske potrošnje i upravljanje vertikalnim karticama.
+- Korisni alati uključuju *Focus* režim(navigacija bez interfejsa), režim niske potrošnje i upravljanje vertikalnim karticama.
 
 
 
@@ -5856,7 +5849,7 @@ Orion je u potpunosti razvijen od strane Kagi tima (poznatog po svom pretraživa
 
 
 https://planb.academy/tutorials/computer-security/communication/orion-browser-a5f225d4-946f-425a-8d8e-3a3ec0174a76
-### Pregledači bez renderovanja motora
+### Pregledači bez rendererskih mehanizama
 
 
 
@@ -5864,7 +5857,7 @@ Na kraju, želeo bih da završim ovaj pregled sa mnogo manje poznatom i veoma ma
 
 
 
-Lynx je najstariji veb pregledač koji se još uvek održava (1992). Radi isključivo u tekstualnom režimu i koristi se direktno u terminalu, bez ikakvog grafičkog Interface. Tehnički, Lynx ne podržava JavaScript, CSS ili slike, što eliminiše bilo kakvo aktivno izvršavanje koda na veb stranicama. On samo interpretira sirovi HTML kod, koji prikazuje kao strukturirani tekst.
+Lynx je najstariji veb pregledač koji se još uvek održava (1992). Radi isključivo u tekstualnom režimu i koristi se direktno u terminalu, bez ikakvog grafičkog interfejsa. Tehnički, Lynx ne podržava JavaScript, CSS ili slike, što eliminiše bilo kakvo aktivno izvršavanje koda na veb stranicama. On samo interpretira sirovi HTML kod, koji prikazuje kao strukturirani tekst.
 
 
 
@@ -5876,7 +5869,7 @@ Ovaj radikalno minimalistički pristup čini ga jednim od najsigurnijih pretraž
 
 
 
-Ovaj model očigledno ima velike ograničenja: potpuni izostanak grafičkog prikaza, nemogućnost korišćenja većine modernih veb-sajtova (mnogi od kojih zavise od JavaScript-a) i stroga ergonomija namenjena iskusnim korisnicima.
+Ovaj model očigledno ima velike ograničenja: potpuni izostanak grafičkog prikaza, nemogućnost korišćenja većine modernih veb-sajtova (mnogi zavise od JavaScript-a) i stroga ergonomija namenjena iskusnim korisnicima.
 
 
 
@@ -5885,11 +5878,11 @@ Lynx može i dalje biti zanimljiv u određenim vrlo specifičnim kontekstima:
 
 
 
-- Pregledajte sirove HTML web stranice, bez izvršavanja JavaScript-a ili CSS-a;
+- Pregledanje čiste, neobrađene HTML web stranice, bez izvršavanja JavaScript-a ili CSS-a;
 - Pregledanje u minimalističkim okruženjima;
 - Pregledanje u ultra-sigurnim okruženjima;
 - Pregledanje na veoma sporim ili nestabilnim mrežama;
-- Automatizacija ili scraping.
+- Automatizacija ili prikupljanje podataka (scraping).
 
 
 
@@ -5909,7 +5902,7 @@ Za još viši nivo anonimnosti, uz smanjenje performansi, Tor Browser ostaje naj
 
 
 
-Chrome, uprkos svojoj popularnosti, ne može se preporučiti kao deo pristupa digitalnom suverenitetu, jer Google sistematski stavlja svoje komercijalne interese iznad bilo kakve stvarne zaštite privatnosti. Zato ne preporučujem njegovo korišćenje.
+Chrome, uprkos svojoj popularnosti, ne preporučuje se kao sastavni deo strategije digitalne suverenosti, jer Google sistematski stavlja svoje komercijalne interese iznad bilo kakve stvarne zaštite privatnosti. Zato ne preporučujem njegovo korišćenje.
 
 
 
@@ -5917,12 +5910,12 @@ Danas vaš izbor pregledača igra važnu ulogu u vašoj online sigurnosti i priv
 
 
 
-Evo kratkog pregleda da vam pomogne u izboru (imajte na umu, međutim, da se ovo poređenje moglo razvijati tokom vremena od kada je SCU202 napisan, a procena Interface i njegovih karakteristika je prvenstveno stvar ličnog ukusa):
+Evo kratkog pregleda da vam pomogne u izboru (imajte na umu, međutim, da se ovo poređenje moglo razvijati tokom vremena od kada je SCU202 napisan, a procena interfejsa i njegovih karakteristika je prvenstveno stvar ličnog ukusa):
 
 
 
-| Browser      | Privacy | Speed | Features | Interface | Open source | Resource consumption |
-| --------------- | --------------- | ------- | --------------- | --------- | ----------- | ----------------------- |
+| Pregledač       | Privatnost      | Brzina | Funkcionalnosti | Interfejs | Otvorenog koda | Potrošnja resursa |
+| --------------- | --------------- | -------| --------------- | --------- | -------------- | ------------------|
 | Google Chrome   | 🔴              | 🟢      | 🟢              | 🟢        | 🔴          | 🔴                      |
 | Brave           | 🟡              | 🟢      | 🟢              | 🟢        | 🟢          | 🟡                      |
 | Vivaldi         | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟡                      |
@@ -5938,11 +5931,11 @@ Evo kratkog pregleda da vam pomogne u izboru (imajte na umu, međutim, da se ovo
 | Orion           | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟢                      |
 | Zen Browser     | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 
-U sledećem poglavlju, pogledaćemo najbolje prakse za bezbedno surfovanje internetom, uz minimiziranje izloženosti vaše privatnosti.
+U sledećem poglavlju, pogledaćemo najbolje prakse za bezbedno surfovanje internetom, istovremeno smanjujući rizik po vašu privatnost.
 
 
 
-## Najbolje prakse u korišćenju weba
+## Najbolje prakse u korišćenju web-a
 
 
 <chapterId>ded47ada-0569-4e63-b668-0da042e691d5</chapterId>
@@ -5953,7 +5946,7 @@ U prethodnom poglavlju, prošli smo kroz detalje glavnih pregledača koji su tre
 
 
 
-Međutim, čak ni najbezbedniji pregledač nije dovoljan: način na koji ga koristite ostaje ključan za zaštitu vaše digitalne bezbednosti. U ovom poglavlju, detaljno ćemo razmotriti osnovne najbolje prakse za minimiziranje rizika povezanih sa svakodnevnom upotrebom interneta.
+Međutim, čak ni najbezbedniji pregledač nije dovoljan: način na koji ga koristite ostaje ključan za zaštitu vaše digitalne bezbednosti. U ovom poglavlju, detaljno ćemo razmotriti osnovne i najbolje prakse za minimiziranje rizika povezanih sa svakodnevnom upotrebom interneta.
 
 
 
@@ -5961,7 +5954,7 @@ Međutim, čak ni najbezbedniji pregledač nije dovoljan: način na koji ga kori
 
 
 
-Veb pregledač je jedna od najizloženijih softverskih komponenti u računarskom sistemu. Za razliku od većine drugih programa, on obrađuje dinamički sadržaj sa Interneta u realnom vremenu, što je suštinski nepouzdano. Kada se vebsajt učita, pregledač izvršava udaljeni kod, koji direktno komunicira sa vašim sistemom putem renderovanja.
+Veb pregledač je jedna od najizloženijih softverskih komponenti u računarskom sistemu. Za razliku od većine drugih programa, on obrađuje dinamički sadržaj sa interneta u realnom vremenu, što je suštinski nepouzdano. Kada se vebsajt učita, pregledač izvršava udaljeni kod, koji direktno komunicira sa vašim sistemom putem renderovanja.
 
 
 
@@ -5969,7 +5962,7 @@ Ova tehnička složenost, u kombinaciji sa masivnom površinom napada, čini pre
 
 
 
-Da bi smanjili ove rizike, izdavači pregledača objavljuju veoma česte, često nedeljne, ažuriranja koja ispravljaju ove ranjivosti čim se identifikuju. Ove zakrpe nisu ograničene na Interface ili poboljšanja performansi: one aktivno blokiraju stvarne, dokumentovane napade.
+Da bi smanjili ove rizike, izdavači pregledača objavljuju veoma česte, često nedeljne, ažuriranja koja ispravljaju ove ranjivosti čim se identifikuju. Ove zakrpe nisu ograničene na interfejs ili poboljšanja performansi: one aktivno blokiraju stvarne, dokumentovane napade.
 
 
 
@@ -5982,7 +5975,7 @@ Stoga je imperativ:
 
 
 
-- omogući automatska ažuriranja za svoj pregledač i ručno proveravaj redovno da nema dostupnih ažuriranja;
+- omogućiti automatska ažuriranja svog pregledača i redovno ručno proveravati da nema dostupnih ažuriranja;
 - ili, ako koristite ručno upakovanu verziju (npr. putem `apt`, `flatpak` ili `snap` na Linuxu), redovno ažurirajte ceo sistem putem vašeg menadžera paketa.
 
 
@@ -5993,7 +5986,7 @@ Da ručno proverite verziju i pokrenete ažuriranje:
 
 
 - u Firefoxu: `Meni > Postavke > Ažuriranja Firefoxa`;
-- komandna linija pod Linuxom (`apt` paketi):
+- komandna linija u Linux-u (`apt` paketi):
 
 
 
@@ -6059,11 +6052,11 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 
 
 
-VPN (*Virtual Private Network*) je alat za tuneliranje koji šifrira mrežni saobraćaj između vašeg uređaja i posredničkog servera. Ovaj server deluje kao prolaz, preusmeravajući sve vaše veze ka Internetu. Kao rezultat, vaš ISP vidi samo šifrovani saobraćaj namenjen VPN-u, a sajtovi koje posećujete vide samo IP VPN servera Address, a ne vaš.
+VPN (*Virtual Private Network*) je alat za tuneliranje koji enkriptuje mrežni saobraćaj između vašeg uređaja i posredničkog servera. Ovaj server deluje kao prolaz, preusmeravajući sve vaše veze ka internetu. Kao rezultat, vaš ISP vidi samo šifrovani saobraćaj namenjen VPN-u, a sajtovi koje posećujete vide samo IP adresu VPN servera, a ne vaš.
 
 
 
-Postoji nekoliko prednosti korišćenja VPN-a. Štiti vaše pretraživanje na nesigurnim mrežama (kao što su javni Wi-Fi u aerodromima ili hotelima, na primer), sprečavajući treće strane da presretnu vaše podatke. Takođe skriva vaš pravi IP Address, što može biti korisno za izbegavanje osnovnog praćenja ili simuliranje veze iz druge zemlje. Na kraju, ali ne manje važno, VPN je alat za zaobilaženje cenzure. U okruženjima gde je pristup određenom sadržaju blokiran na nivou ISP-a, preusmeravanje vašeg saobraćaja na VPN server koji se nalazi u nefiltriranoj zemlji omogućava vam da ponovo dobijete slobodan pristup.
+Postoji nekoliko prednosti korišćenja VPN-a. Štiti vaše pretraživanje na nesigurnim mrežama (na primer, kao što su javni Wi-Fi na aerodromima ili hotelima), sprečavajući treće strane da presretnu vaše podatke. Takođe skriva vašu pravu IP adresu, što može biti korisno za izbegavanje osnovnog praćenja ili simuliranje veze iz druge zemlje. Na kraju, ali ne manje važno, VPN je alat za zaobilaženje cenzure. U okruženjima gde je pristup određenom sadržaju blokiran na nivou ISP-a, preusmeravanje vašeg saobraćaja na VPN server koji se nalazi u nefiltriranoj zemlji omogućava vam da ponovo dobijete slobodan pristup.
 
 
 
@@ -6071,11 +6064,11 @@ Postoji nekoliko prednosti korišćenja VPN-a. Štiti vaše pretraživanje na ne
 
 
 
-S druge strane, suprotno uvreženom mišljenju, VPN ne pruža anonimnost. Provajder VPN-a zna vašu stvarnu IP adresu Address, može beležiti vaše konekcije i postaje pouzdana treća strana. Vi im poveravate celokupnu svoju online aktivnost. Ako je provajder zlonameran, podložan obavezujućim pravnim obavezama ili tehnički nemaran, vaši podaci mogu biti izloženi.
+S druge strane, suprotno uvreženom mišljenju, VPN ne pruža anonimnost. Provajder VPN-a zna vašu stvarnu IP adresu, može beležiti vaše konekcije i postaje pouzdana treća strana. Vi im poveravate celokupnu svoju online aktivnost. Ako je provajder zlonameran, podložan obavezujućim pravnim obavezama ili tehnički nemaran, vaši podaci mogu biti izloženi.
 
 
 
-Štaviše, VPN ne nudi zaštitu protiv malvera, praćenja putem JavaScript-a ili kolačića trećih strana. Ako ste prijavljeni na svoj Google ili Facebook nalog, korišćenje VPN-a neće sprečiti ove platforme da vas tačno identifikuju. VPN-ovi takođe ne filtriraju sadržaj i neće sprečiti stranicu sa zamkom da vas napadne putem ranjivosti pretraživača.
+Štaviše, VPN ne nudi zaštitu protiv malvera, praćenja putem JavaScript-a ili kolačića trećih strana. Ako ste prijavljeni na svoj Google ili Facebook nalog, korišćenje VPN-a neće sprečiti ove platforme da vas tačno identifikuju. VPN-ovi takođe ne filtriraju sadržaj i neće sprečiti maliciozne stranice da vas napadnu putem ranjivosti pretraživača.
 
 
 
@@ -6083,7 +6076,7 @@ Takođe, VPN alati ne treba mešati sa Tor mrežom, koja je decentralizovana mre
 
 
 
-Dobar VPN treba da ima jasnu politiku bez beleženja, nudi moderne tehnologije (posebno WireGuard), omogućava anonimno korišćenje usluge i nudi otvoreni izvor ili javno revidiranu tehničku bazu. Imajući ovo u vidu, preporučujem alate kao što su Mullvad ili IVPN.
+Dobar VPN treba da ima jasnu politiku bez beleženja, nudi moderne tehnologije (posebno WireGuard), omogućava anonimno korišćenje usluge i nudi softver otvorenog koda ili javno revidiranu tehničku bazu. Imajući ovo u vidu, preporučujem alate kao što su Mullvad ili IVPN.
 
 
 
@@ -6124,16 +6117,16 @@ Redovno čišćenje ovih lokalnih podataka je jednostavan, ali efikasan način d
 
 
 
-Na primer, u Firefox-u možete konfigurisati automatsko brisanje putem Podešavanja > Privatnost i bezbednost.
+Na primer, u Firefox-u možete konfigurisati automatsko brisanje putem Settings > Privacy & Security, u prevodu Podešavanja > Privatnost i bezbednost.
 
 
 
-Međutim, imajte na umu da samo brisanje kolačića nije dovoljno da garantuje vašu privatnost: postoje druge, naprednije tehnike praćenja, kao što je otisak prsta (jedinstveni otisak vašeg pregledača, vašeg hardvera, vašeg IP-a, vaše upotrebe...), koje zahtevaju dodatne mere za zaobilaženje:
+Međutim, imajte na umu da samo brisanje kolačića nije dovoljno da garantuje vašu privatnost: postoje druge, naprednije tehnike praćenja, kao što je fingerprinting ili u prevodu otisak prsta (jedinstveni otisak vašeg pregledača, vašeg hardvera, vašeg IP-a, vaše upotrebe...), koje zahtevaju dodatne mere za zaobilaženje:
 
 
 
 
-- Koristite pregledač koji nudi otpornost na otiske prstiju: Tor Browser i Mullvad Browser su najbolji za ovo, inače, druge prilično dobre opcije su LibreWolf, Brave ili Firefox sa ručnim pojačavanjem;
+- Koristite pregledač koji nudi otpornost na otiske prstiju: Tor Browser i Mullvad Browser su najbolji za ovo, inače, druge prilično dobre opcije su LibreWolf, Brave ili Firefox uz ručno sprovedeno bezbednosno ojačavanje;
 - Ograničite ili blokirajte JavaScript kad god je to moguće;
 - Izbegavajte neesencijalne ekstenzije;
 - Uopšteno, usvojite uobičajen, dosledan profil, kako biste se bolje uklopili i ograničili mogućnosti identifikacije.
@@ -6160,7 +6153,7 @@ U konkretnim terminima, kada otvorite prozor u privatnom pretraživanju:
 
 
 
-Međutim, ovaj režim ne skriva vašu aktivnost na mreži: veb-sajtovi koje posećujete i dalje vide vaš javni IP Address, i dalje mogu koristiti tehnike otiska prsta, a vaš ISP, ili bilo ko na vašoj lokalnoj mreži, i dalje može videti sajtove koje posećujete.
+Međutim, ovaj režim ne skriva vašu aktivnost na mreži: veb-sajtovi koje posećujete i dalje vide vašu javnu IP adresu, i dalje mogu koristiti tehnike otiska prsta, a vaš ISP, ili bilo ko na vašoj lokalnoj mreži, i dalje može videti sajtove koje posećujete.
 
 
 
@@ -6176,11 +6169,11 @@ Zato je važno ne mešati privatno pretraživanje sa anonimnošću. Za poboljša
 
 
 
-Phishing je oblik socijalnog inženjeringa koji se koristi za obmanjivanje korisnika kako bi otkrili osetljive podatke bez njihovog znanja: podatke za prijavu, brojeve kreditnih kartica, pristupne kodove, poverljiva dokumenta. Ova pretnja nije zasnovana na tehničkoj grešci, već na psihološkoj manipulaciji, iskorišćavanju korisnikovog poverenja, žurbe ili nedostatka znanja.
+Phishing (fišing) je oblik socijalnog inženjeringa koji se koristi za obmanjivanje korisnika kako bi otkrili osetljive podatke bez njihovog znanja: podatke za prijavu, brojeve kreditnih kartica, pristupne kodove, poverljiva dokumenta. Ova pretnja nije zasnovana na tehničkoj grešci, već na psihološkoj manipulaciji, iskorišćavanju korisnikovog poverenja, žurbe ili nedostatka znanja.
 
 
 
-U većini slučajeva, napad se sastoji od imitacije izgleda zvaničnog sajta (banka, servis za razmenu poruka, administracija, online prodavnica, itd.) putem lažnog sajta sa maskiranom URL adresom. Korisnici dobijaju prevarantski link putem e-maila, SMS-a ili aplikacija za razmenu poruka, i, verujući da komuniciraju sa pravim sajtom, unose svoje pristupne podatke.
+U većini slučajeva, napad se sastoji od imitacije izgleda zvaničnog sajta (banke, servisa za razmenu poruka, državne administracije, online prodavnica, itd.) putem lažnog sajta sa maskiranom URL adresom. Korisnici dobijaju prevarantski link putem e-maila, SMS-a ili aplikacija za razmenu poruka, i, verujući da komuniciraju sa pravim sajtom, unose svoje pristupne podatke.
 
 
 
@@ -6190,13 +6183,13 @@ Da biste izbegli ove napade prilikom pretraživanja interneta, važno je pratiti
 
 
 
-- Analizirajte **URL**: napadači često koriste adrese vrlo slične originalu (npr. `micr0soft-support.com`, `paypal-verif.net`, itd.). Neki takođe zamenjuju vizuelno slične karaktere, koristeći Unicode karaktere. Proverite da li Address tačno odgovara očekivanom sajtu, bez sumnjivih prefiksa ili sufiksa.
+- Analizirajte **URL**: napadači često koriste adrese vrlo slične originalu (npr. `micr0soft-support.com`, `paypal-verif.net`, itd.). Neki takođe zamenjuju vizuelno slične karaktere, koristeći Unicode karaktere. Proverite da li adresa tačno odgovara očekivanom sajtu, bez sumnjivih prefiksa ili sufiksa.
 
 
 
 
 
-- **Izbegavajte skraćene linkove**: servisi kao što su `bit.ly` ili `t.co` mogu sakriti krajnji Address. Ako dobijete skraćeni link, budite sumnjičavi ili koristite servis za proširenje URL-a da proverite njegovo odredište.
+- **Izbegavajte skraćene linkove**: servisi kao što su `bit.ly` ili `t.co` mogu sakriti krajnju adresu. Ako dobijete skraćeni link, budite sumnjičavi ili koristite servis za proširenje URL-a da proverite njegovo odredište.
 
 
 
@@ -6218,7 +6211,7 @@ A evo nekoliko preventivnih mera koje možete direktno primeniti u svom pregleda
 
 
 
-- Pristupite kritičnim sajtovima putem vaših **obeleživača**:
+- Pristupite kritičnim sajtovima putem vaših **obeleživača** (eng. bookmarks):
 
 
 
@@ -6240,7 +6233,7 @@ Takođe je neophodno pratiti dobre prakse autentifikacije kako bi se ograničio 
 
 
 
-Hajde da uzmemo primer: ako napadač uspe da dođe do lozinke za vaš Steam nalog, ali koristite različitu lozinku za svaki od vaših naloga, neće moći da pristupi osetljivijim servisima kao što su vaš e-mail ili bankarstvo. A ako ste aktivirali dvofaktorsku autentifikaciju (2FA), onda čak i sa lozinkom, napadač neće moći da se prijavi, jer neće imati pristup vašoj TOTP aplikaciji (kao što su Authy, Google Authenticator...).
+Hajde da uzmemo primer: ako napadač uspe da dođe do lozinke za vaš Steam nalog, ali koristite različitu lozinku za svaki od vaših naloga, napadač neće moći da pristupi osetljivijim servisima kao što su vaš e-mail ili bankarstvo. A ako ste aktivirali dvofaktorsku autentifikaciju (2FA), onda čak i sa lozinkom, napadač neće moći da se prijavi, jer neće imati pristup vašoj TOTP aplikaciji (kao što su Authy, Google Authenticator...).
 
 
 
@@ -6254,7 +6247,7 @@ Pored ovih mera, korišćenje dobrog menadžera lozinki kao ekstenzije za pregle
 
 
 
-Ikonica katanca u Address traci označava šifrovanu vezu, ali ne garantuje legitimnost sajta. Kliknite na nju da pregledate sertifikat (organizacija, domen, sertifikaciona vlast). Ovo može biti korisno ako imate sumnje u vezi sa URL-om sajta.
+Ikonica katanca u adresnoj traci označava šifrovanu vezu, ali ne garantuje legitimnost sajta. Kliknite na nju da pregledate sertifikat (organizacija, domen, sertifikaciona vlast). Ovo može biti korisno ako imate sumnje u vezi sa URL-om sajta.
 
 
 
@@ -6274,7 +6267,7 @@ Zlonamerna ili kompromitovana ekstenzija može presresti vaše lične podatke, p
 
 
 
-Da biste ograničili ove rizike, instalirajte samo ekstenzije iz zvaničnih izvora (Mozilla Add-ons), uvek proverite tražene dozvole i držite njihov broj na strogo minimalnom nivou. Obrišite ekstenzije koje više ne koristite i pazite na klonove.
+Da biste ograničili ove rizike, instalirajte samo ekstenzije iz zvaničnih izvora (Mozilla Add-ons), uvek proverite tražene dozvole i držite njihov broj na strogo minimalnom nivou. Obrišite ekstenzije koje više ne koristite i budite oprezni sa lažnim (kloniranim) ekstenzijama.
 
 
 
@@ -6282,7 +6275,7 @@ Redovno proveravanje vaših ekstenzija je važan deo održavanja sigurnosti vaš
 
 
 
-### Razdvojite svoje korišćenje weba
+### Razdvojte različite načine korišćenja veba
 
 
 
@@ -6296,7 +6289,7 @@ Cilj je jednostavan: sprečiti da incident koji uključuje određenu aktivnost (
 
 
 
-- Koristite nekoliko različitih pregledača: na primer, Firefox za ličnu upotrebu, Tor ili Mullvad za osetljive aktivnosti, i Chromium za profesionalne zadatke. Svaki pregledač koristi svoju instancu skladišta, što potpuno izoluje kolačiće, sesije i ekstenzije. Ovo vam takođe omogućava da prilagodite postavke pregledača vašim specifičnim slučajevima upotrebe.
+- Koristite nekoliko različitih pregledača: na primer, Firefox za ličnu upotrebu, Tor ili Mullvad za osetljive aktivnosti, i Chromium za profesionalne zadatke. Svaki pregledač koristi svoju instanca za skladištenje podataka, što potpuno izoluje kolačiće, sesije i ekstenzije. Ovo vam takođe omogućava da prilagodite postavke pregledača vašim specifičnim načinima korišćenja.
 
 
 
@@ -6322,7 +6315,7 @@ Cilj je jednostavan: sprečiti da incident koji uključuje određenu aktivnost (
 
 
 
-### Ograniči veb-sajtove kojima su dodeljene dozvole
+### Ograničite dozvole koje se dodeljuju veb-sajtovima
 
 
 
@@ -6357,18 +6350,18 @@ Kad god unosite lične, poverljive ili finansijske informacije na neku veb stran
 
 
 
-Ovo je upravo uloga HTTPS-a (*HyperText Transfer Protocol Secure*). Ovaj protokol se zasniva na TLS (*Transport Layer Security*) enkripciji, koja omogućava :
+Ovo je upravo uloga HTTPS-a (*HyperText Transfer Protocol Secure*). Ovaj protokol se zasniva na TLS (*Transport Layer Security*) enkripciji, koja omogućava da:
 
 
 
 
 - šifrujte podatke koji se razmenjuju (niko ne može da ih pročita ili izmeni tokom prenosa);
-- potvrdite autentičnost udaljenog servera putem digitalnog sertifikata ;
+- potvrdite autentičnost udaljenog servera putem digitalnog sertifikata;
 - sprečiti man-in-the-middle (MITM) napade, uobičajene na javnim ili kompromitovanim mrežama.
 
 
 
-U konkretnim terminima, sajt sa omogućenim HTTPS-om je označen zatvorenim katancem u Address traci vašeg pregledača, obično u gornjem levom uglu Interface. Klikom na ovaj katanac prikazuju se informacije o TLS sertifikatu sajta (autoritet sertifikacije, datum važenja, itd.). Sajt Address takođe sistematski počinje sa `https://`.
+U konkretnim terminima, sajt sa omogućenim HTTPS-om je označen zatvorenim katancem u adresnoj traci vašeg pregledača, obično u gornjem levom uglu interfejsa. Klikom na ovaj katanac prikazuju se informacije o TLS sertifikatu sajta (autoritet sertifikacije, datum važenja, itd.). Adresa sajta takođe sistematski počinje sa `https://`.
 
 
 
@@ -6384,7 +6377,7 @@ U teoriji, uvek bi trebalo ručno proveriti ove informacije pre unosa podataka n
 
 
 
-Zapravo, vrlo malo sajtova danas je dostupno samo putem HTTP-a. Ovaj protokol se u velikoj meri napušta u korist HTTPS-a, ne samo zbog očiglednih bezbednosnih razloga, već i zato što ga pretraživači penalizuju i označavaju kao potencijalno opasan moderni pregledači, što ne uliva poverenje među posetiocima.
+Zapravo, vrlo malo sajtova danas je dostupno samo putem HTTP-a. Ovaj protokol se u velikoj meri napušta u korist HTTPS-a, ne samo zbog očiglednih bezbednosnih razloga, već i zato što ga pretraživači penalizuju i označavaju kao potencijalno opasan od strane modernih pregledača, što ne uliva poverenje među posetiocima.
 
 
 
@@ -6392,7 +6385,7 @@ Zapravo, vrlo malo sajtova danas je dostupno samo putem HTTP-a. Ovaj protokol se
 
 
 
-Kao što smo već videli, važno je napraviti razliku između dva Elements koja se često mešaju: pregledača, koji je aplikacija instalirana na vašem računaru (kao što su Firefox ili Brave) i koristi se za prikazivanje veb stranica, i pretraživača, koji je onlajn usluga (kao što je Google) kojoj šaljete upite da biste dobili rezultate. Ova dva Elements su nezavisna, iako pregledači često integrišu određeni pretraživač po defaultu.
+Kao što smo već videli, važno je napraviti razliku između dva pojma koja se često mešaju: pregledača, koji je aplikacija instalirana na vašem računaru (kao što su Firefox ili Brave) i koristi se za prikazivanje veb stranica, i pretraživača, koji je onlajn usluga (kao što je Google) kojoj šaljete upite da biste dobili rezultate. Ova dva pojma su nezavisna, iako pregledači često integrišu određeni pretraživač po defaultu.
 
 
 
@@ -6400,15 +6393,15 @@ Kao što smo već videli, važno je napraviti razliku između dva Elements koja 
 
 
 
-Pretraživač koji koristite ima direktan uticaj na vašu privatnost. Zapravo, svaka pretraga koju obavite može biti :
+Pretraživač koji koristite ima direktan uticaj na vašu privatnost. Zapravo, svaka pretraga koju obavite može biti:
 
 
 
 
-- povezano sa vašom IP Address ako ne koristite Tor ili VPN ;
-- povezano sa vašim prijavljivanjem i lozinkom ako ste povezani sa nalogom ;
-- skladišteni i analizirani kako bi se kreirao profil ponašanja;
-- koristi se za ciljno oglašavanje ili preprodaju trećim stranama.
+- povezana sa vašom IP adresom ako ne koristite Tor ili VPN;
+- povezana sa vašim prijavljivanjem i lozinkom ako ste povezani sa nalogom;
+- skladištena i analizirana kako bi se kreirao profil ponašanja;
+- korišćena za ciljno oglašavanje ili preprodaju trećim stranama.
 
 
 
@@ -6475,7 +6468,7 @@ Za razliku od računara, mobilni telefoni uglavnom rade na zatvorenim sistemima,
 Android sada dominira globalnim tržištem pametnih telefona, sa oko 72% uređaja u cirkulaciji. Njegov razvoj je počeo 2003. godine osnivanjem Android Inc. od strane Endija Rubina, Riča Miner, Nika Searsa i Krisa Vajta. Njihov prvobitni cilj bio je dizajn operativnog sistema za digitalne kamere.
 
 
-Nakon nekoliko odbijanja od strane investitora, Android Inc. je odlučio da preusmeri svoj projekat ka kreiranju mobilnog operativnog sistema. Da postavimo scenu, u periodu 2003-2004, tržište mobilnih telefona je cvetalo, uglavnom dominirano od strane proizvođača kao što su Nokia, Motorola, Sony Ericsson i Samsung. Većina uređaja su bili "nature telefoni", opremljeni fizičkim tastaturama, malim kolor ekranima, i ponekad osnovnom kamerom. Pametni telefoni su već postojali, ali su uglavnom bili namenjeni profesionalcima, i nošeni od strane brendova kao što je BlackBerry.
+Nakon nekoliko odbijanja od strane investitora, Android Inc. je odlučio da preusmeri svoj projekat ka kreiranju mobilnog operativnog sistema. Da postavimo scenu, u periodu 2003-2004, tržište mobilnih telefona je cvetalo, uglavnom dominirano od strane proizvođača kao što su Nokia, Motorola, Sony Ericsson i Samsung. Većina uređaja su bili "nature telefoni", opremljeni fizičkim tastaturama, malim kolor ekranima, i ponekad osnovnom kamerom. Pametni telefoni su već postojali, ali su uglavnom ciljali profesionalce i dolazili su od brendova kao što je BlackBerry.
 
 
 Google je kupio Android Inc. 2005. godine za oko 50 miliona dolara. Između 2005. i 2007. godine, kompanija je razvijala svoj operativni sistem interno, bez objavljivanja javne verzije. Tokom ovog perioda, kružile su glasine da Google priprema mobilni uređaj, moguće inspirisan BlackBerry-jem, koji je tada brzo sticao popularnost.
@@ -6484,7 +6477,7 @@ Google je kupio Android Inc. 2005. godine za oko 50 miliona dolara. Između 2005
 Ali u januaru 2007. godine, događaj je označio značajnu prekretnicu u istoriji pametnih telefona: Stiv Džobs je predstavio prvu generaciju iPhone-a. Opšte uverenje da je fizička tastatura neophodna bilo je razbijeno. iPhone je predstavio uređaj dizajniran za potpuno korišćenje na dodir, koji je samostalno redefinisao očekivanja tržišta.
 
 
-Suočen sa ovom revolucijom, Google je bio primoran da potpuno preispita pravac svog Android projekta kako bi ga učinio kompatibilnim sa ekranom osetljivim na dodir Interface. Kasnije, 2007. godine, Google je zvanično pokrenuo Android kao open-source projekat zasnovan na modifikovanom Linux kernelu, pod nazivom *Android open-source Project (AOSP)*.
+Suočen sa ovom revolucijom, Google je bio primoran da potpuno preispita pravac svog Android projekta kako bi ga učinio kompatibilnim sa ekranom osetljivim na dodir. Kasnije, 2007. godine, Google je zvanično pokrenuo Android kao open-source projekat zasnovan na modifikovanom Linux kernelu, pod nazivom *Android open-source Project (AOSP)*.
 
 
 Prvi uređaj sa Android operativnim sistemom koji je stigao na tržište, HTC Dream, pušten je u prodaju 2008. godine. Nudio je okruženje koje je još uvek bilo rudimentarno, ali potpuno otvoreno: proizvođači i operateri su mogli slobodno prilagođavati sistem svojim potrebama, dok su programeri mogli kreirati i distribuirati aplikacije bez prethodne validacije. Ovaj pristup je brzo osvojio aktivnu zajednicu i doprineo širokoj prihvaćenosti Androida od strane mnogih proizvođača.
@@ -6508,7 +6501,7 @@ Android je doživeo brz uspon: pretekao je iOS po tržišnom udelu već u julu 2
 #### Otvoreni kod vs. Google
 
 
-Android projekat zasnovan je na strukturnoj dualnosti. S jedne strane, AOSP (*Android open-source Project*) predstavlja otvorenu bazu sistema: uključuje Linux kernel, sistemski softverski stack, minimalnu Interface grafiku i set API-ja. Ova baza je objavljena pod Apache 2.0 licencom i ostaje dostupna svima. S druge strane, okruženje koje zapravo koristi većina Android korisnika gotovo u potpunosti se oslanja na vlasničke komponente koje je razvio Google: *Google Mobile Services* (GMS).
+Android projekat zasnovan je na strukturnoj dualnosti. S jedne strane, AOSP (*Android open-source Project*) predstavlja otvorenu bazu sistema: uključuje Linux kernel, sistemski softverski stack, minimalni grafički interfejs i set API-ja. Ova baza je objavljena pod Apache 2.0 licencom i ostaje dostupna svima. S druge strane, okruženje koje zapravo koristi većina Android korisnika gotovo u potpunosti se oslanja na vlasničke komponente koje je razvio Google: *Google Mobile Services* (GMS).
 
 
 Ove komponente nisu otvorenog koda: zajednica ih ne može slobodno proveravati, niti ih je lako zameniti. Da bi ih legalno unapred instalirali na svoje uređaje, proizvođači moraju potpisati licencne ugovore sa Google-om i pridržavati se strogih tehničkih i komercijalnih zahteva. Ovi zahtevi uključuju:
@@ -6523,10 +6516,10 @@ Ove komponente nisu otvorenog koda: zajednica ih ne može slobodno proveravati, 
 ![Image](assets/fr/132.webp)
 
 
-Ovo postepeno stvara strukturnu zavisnost za proizvođače pametnih telefona i čini prenos ličnih podataka na Google servere gotovo neizbežnim za krajnjeg korisnika. Ove usluge imaju za cilj da garantuju glatko i dosledno korisničko iskustvo, ali takođe centralizuju osetljive funkcije kao što su automatska izrada rezervnih kopija podataka, pasivna geolokacija ili stalna autentifikacija putem Google naloga (često potrebna za potpuno iskorišćavanje uređaja).
+Ovo postepeno stvara strukturnu zavisnost za proizvođače pametnih telefona i čini prenos ličnih podataka na Google servere gotovo neizbežnim za krajnjeg korisnika. Ove usluge imaju za cilj da garantuju glatko i dosledno korisničko iskustvo, ali takođe centralizuju osetljive funkcije kao što su automatska izrada rezervnih kopija podataka, pasivna geolokacija ili stalna autentifikacija putem Google naloga (često potrebno za potpuno iskorišćavanje mogućnosti uređaja).
 
 
-Iako Android ostaje, u teoriji, sistem otvorenog koda u svojoj srži, većina Android pametnih telefona prodatih širom sveta radi na verziji koju je modifikovao i unapredio Google. U ovoj verziji, open-source Layer je uglavnom skriven ispod vlasničkog, zaključanog i nametljivog sloja.
+Iako Android ostaje, u teoriji, sistem otvorenog koda u svojoj srži, većina Android pametnih telefona prodatih širom sveta radi na verziji koju je modifikovao i unapredio Google. U ovoj verziji, open-source komponenta je uglavnom skrivena ispod vlasničkog, zaključanog i nametljivog sloja.
 
 
 Da biste zaista povratili kontrolu, potrebno je stoga okrenuti se alternativama kao što su besplatni ROM-ovi (GrapheneOS, CalyxOS, itd.), koje ćemo razmotriti kasnije u ovom kursu.
@@ -6538,7 +6531,7 @@ Da biste zaista povratili kontrolu, potrebno je stoga okrenuti se alternativama 
 #### Kratka istorija iOS-a
 
 
-iOS je operativni sistem koji je razvila kompanija Apple za svoje pametne telefone, predstavljen sa prvim iPhone-om 2007. godine (tada nazvan "*iPhone OS*"). Od samog početka, Apple je usvojio strategiju potpune vertikalne integracije: hardver, softver, operativni sistem, onlajn usluge i prodavnica aplikacija su svi dizajnirani, kontrolisani i održavani od strane Apple-a. U početku, čak ni nisu bile podržane nativne aplikacije koje nije proizveo Apple. Ovaj pristup se oštro razlikuje od Androida, čiji je ekosistem od samog početka bio mnogo fragmentiraniji, i takav je i danas.
+iOS je operativni sistem koji je razvila kompanija Apple za svoje pametne telefone, predstavljen sa prvim iPhone-om 2007. godine (tada nazvan "*iPhone OS*"). Od samog početka, Apple je usvojio strategiju potpune vertikalne integracije: hardver, softver, operativni sistem, onlajn usluge i prodavnica aplikacija su svi dizajnirani, kontrolisani i održavani od strane Apple-a. U početku, čak nisu bile podržane nativne aplikacije koje nije proizveo Apple. Ovaj pristup se oštro razlikuje od Androida, čiji je ekosistem od samog početka bio mnogo fragmentiraniji, i takav je i danas.
 
 
 ![Image](assets/fr/133.webp)
@@ -6548,7 +6541,7 @@ iOS je inicijalno bio zasnovan na operativnom sistemu koji koristi Mac: OS X. Ko
 
 
 
-- potpuno peskovanje aplikacija, sprečavanje jedne aplikacije da pristupi podacima ili procesima druge aplikacije
+- potpuno izolovanje aplikacija (sandboxing), sprečavanje jedne aplikacije da pristupi podacima ili procesima druge aplikacije
 - obavezno potpisivanje koda aplikacije, garantujući integritet binarnih datoteka i njihovo poreklo (samo App Store)
 - hardversko šifrovanje podataka direktno na čipu, putem *Secure Enclave*, kriptografskog koprocesora izolovanog od ostatka sistema
 - brze bezbednosne ispravke, koje direktno distribuira Apple na sve uređaje, bez posrednika
@@ -6563,31 +6556,31 @@ Ova zatvorena arhitektura omogućava Apple-u da garantuje fluidno i sigurno kori
 Međutim, ova sigurnost se oslanja na strogo zaključavanje krajnjeg korisnika, koji praktično nema tehničku kontrolu nad svojim uređajem. Nemoguće je instalirati aplikacije osim putem App Store-a, osim putem *jailbreak*-a, složene, rizične i često nestabilne operacije koja poništava garanciju i ugrožava sigurnost sistema. Ovaj princip takođe podržava poslovni model Apple-a, koji naplaćuje proviziju na transakcije obavljene u aplikacijama trećih strana.
 
 
-Prilagođavanje je takođe veoma ograničeno. Nije moguće duboko modifikovati ponašanje sistema, slobodno menjati runtime okruženje ili direktno pristupiti sistemskim fajlovima. Dakle, u praksi, pametni telefon ostaje vlasništvo Apple-a, čak i nakon kupovine, jer nemate potpunu kontrolu nad njim.
+Prilagođavanje je takođe veoma ograničeno. Nije moguće značajno modifikovati ponašanje sistema, slobodno menjati okruženje gde se izvršavaju  aplikacija (eng. runtime environment) ili direktno pristupiti sistemskim fajlovima. Dakle, u praksi, pametni telefon ostaje vlasništvo Apple-a, čak i nakon kupovine, jer nemate potpunu kontrolu nad njim.
 
 
 ![Image](assets/fr/134.webp)
 
 
-Štaviše, obavezna integracija iCloud-a u većinu usluga (bekapi, poruke, fotografije, lokacija, Siri...) izlaže korisnike masovnoj centralizaciji njihovih ličnih podataka. Iako Apple tvrdi da ima model fokusiran na privatnost (i, za razliku od Google-a, njegov poslovni model nije zasnovan na eksploataciji ličnih podataka), ostaje nekoliko ograničenja:
+Štaviše, obavezna integracija iCloud-a u većinu usluga (rezervne kopije (bekapi), poruke, fotografije, lokacija, Siri...) izlaže korisnike masovnoj centralizaciji njihovih ličnih podataka. Iako Apple tvrdi da ima model fokusiran na privatnost (i, za razliku od Google-a, njegov poslovni model nije zasnovan na eksploataciji ličnih podataka), ostaje nekoliko ograničenja:
 
 
 
-- neki Elements (kao što su metapodaci o vezi, zahtevi za Siri ili dnevnici grešaka) i dalje prolaze kroz Apple servere
-- mehanizmi za analizu ponašanja za kontekstualne sugestije, ažuriranja App Store-a ili filtriranje poruka koriste neauditabilne vlasničke modele
+- neki elementi (kao što su metapodaci o vezi, zahtevi za Siri ili dnevnici grešaka) i dalje prolaze kroz Apple servere
+- mehanizmi za analizu ponašanja za kontekstualne sugestije, ažuriranja App Store-a ili filtriranje poruka zasnivaju se na vlasničkim modelima koje nije moguće nezavisno proveriti
 - korišćenje usluga kao što je iCloud podrazumeva implicitno poverenje u Apple-ovu infrastrukturu, bez kontrole nad tim gde ili koliko dugo se podaci čuvaju
 
 
 Konačno, u smislu digitalnog suvereniteta, iOS predstavlja zatvoreno okruženje: nijedna spoljašnja vlast (ni korisnik ni nezavisna organizacija) ne može da verifikuje ili modifikuje njegov rad. Korisnici su stoga primorani da veruju Apple-u na svakom nivou: hardver, softver, mreža...
 
 
-### open-source alternative sa Android
+### Open-source alternative sa Android
 
 
 Kao što smo upravo videli, standardni Android ekosistem, kojim dominira Google, zasnovan je na verziji sistema otvorenog koda (AOSP) sa vlasničkim komponentama (GMS). Nekoliko projekata otvorenog koda koristi AOSP kako bi ponudili alternativne operativne sisteme koji više poštuju privatnost, bez nametljivih slojeva, i sa boljom kontrolom korisnika. Ove alternative se instaliraju da zamene originalni sistem, u obliku prilagođenih ROM-ova. Omogućavaju vam da povratite kontrolu nad softverom, ali takođe zahtevaju minimalnu kontrolu nad hardverom, jer su kompatibilne sa samo nekoliko uređaja.
 
 
-#### Zahtjevi za hardver i upozorenja
+#### Zahtevi za hardver i upozorenja
 
 
 Pre nego što instalirate, važno je proveriti kompatibilnost vašeg pametnog telefona sa izabranim ROM-om. Većina ovih projekata podržava ograničenu listu modela. Većinu vremena, moraćete da koristite Google Pixel telefone, zbog njihove podrške za otključavanje bootloader-a i javnih drajvera.
@@ -6620,7 +6613,7 @@ Neki proizvođači zabranjuju ili komplikuju ovu operaciju, ili čak deaktiviraj
 ![Image](assets/fr/136.webp)
 
 
-GrapheneOS integriše bez vlasničkih komponenti. Slobodni ste da dodate Google usluge ili ne, ali one su strogo izolovane (sandboxovane u posebnim profilima). Ovo čini sistem izuzetno otpornim na lokalne napade i eksploataciju sistemskih ranjivosti.
+GrapheneOS ne integriše nikakve vlasničke komponente. Slobodni ste da dodate Google usluge ili ne, ali one su strogo izolovane (sandboxovane u posebnim profilima). Ovo čini sistem izuzetno otpornim na lokalne napade i eksploataciju sistemskih ranjivosti.
 
 
 Grafen je kompatibilan samo sa novijim Google Pixelima (Pixel 6, 7, 8 i 9).
@@ -6634,7 +6627,7 @@ https://planb.academy/tutorials/computer-security/operating-system/grapheneos-08
 [CalyxOS](https://calyxos.org/) je posrednički sistem koji ima za cilj da pomiri privatnost, sigurnost i kompatibilnost sa svakodnevnom upotrebom. Takođe je zasnovan na AOSP-u, sa poboljšanjima sigurnosti. Njegova posebna karakteristika je opcionalna integracija MicroG-a, slobodne reimplementacije Google usluga. Ovo omogućava pokretanje većine Android aplikacija koje zavise od Google usluga, bez potrebe za korišćenjem zvaničnih vlasničkih binarnih datoteka.
 
 
-CalyxOS takođe nudi unapred instalirane aplikacije (Signal, F-Droid, Aurora Store, integrisani VPN...), i uredan Interface. Lako se instalira putem grafičkog alata za korisnike Pixel uređaja. Calyx je uglavnom kompatibilan sa Google Pixel uređajima, ali i nekim Fairphone i Motorola modelima.
+CalyxOS takođe nudi unapred instalirane aplikacije (Signal, F-Droid, Aurora Store, integrisani VPN...), i uredan interfejs. Lako se instalira putem grafičkog alata za korisnike Pixel uređaja. Calyx je uglavnom kompatibilan sa Google Pixel uređajima, ali i nekim Fairphone i Motorola modelima.
 
 
 ![Image](assets/fr/137.webp)
@@ -6646,7 +6639,7 @@ CalyxOS takođe nudi unapred instalirane aplikacije (Signal, F-Droid, Aurora Sto
 [LineageOS](https://lineageos.org/), naslednik CyanogenMod-a, najšire je kompatibilan alternativni ROM. Podržava nekoliko stotina modela, zahvaljujući velikoj zajednici saradnika. Baziran na AOSP-u, naglašava prilagodljivost, jednostavnost i slobodu korišćenja.
 
 
-LineageOS vam pruža Android sistem bez proizvođačkih slojeva, bez nepotrebnih aplikacija, sa potpunim upravljanjem dozvolama, lakim ažuriranjem i pojednostavljenim Interface. Možete dodati Google usluge ili se odlučiti za 100% besplatno korišćenje.
+LineageOS vam pruža Android sistem bez proizvođačkih slojeva, bez nepotrebnih aplikacija, sa potpunim upravljanjem dozvolama, lakim ažuriranjem i pojednostavljenim interfejsom. Možete dodati Google usluge ili se odlučiti za 100% besplatno korišćenje.
 
 
 Međutim, na polju bezbednosti, LineageOS ne integriše određene hardverske zaštite ili memorijska pojačanja koja se nalaze u GrapheneOS i CalyxOS. Njegov sistem ažuriranja takođe zavisi od zajednice, što može uvesti kašnjenja u bezbednosnim zakrpama.
@@ -6664,30 +6657,30 @@ Kada birate operativni sistem za svoj pametni telefon, morate biti svesni kompro
 Standardni Android (sa GMS) ostaje najrasprostranjenije rešenje danas. Nudi potpunu kompatibilnost sa svim Android aplikacijama, jednostavnost korišćenja i trenutni pristup popularnim servisima (Play Store, Maps, Gmail...). Međutim, ova jednostavnost korišćenja oslanja se na snažnu integraciju Google-ovih vlasničkih servisa, sa sistematskim prikupljanjem podataka: GPS pozicija, istorija pretrage, metapodaci poziva, preferencije za oglašavanje... Dakle, to je loš izbor ako ste zabrinuti za svoj digitalni suverenitet ili privatnost.
 
 
-Appleov iOS sistem se odlikuje visokim nivoom sigurnosti. Međutim, ova sigurnost dolazi uz ekstremnu zatvorenost okruženja: Korisnik ne može instalirati aplikacije van App Store-a (osim u marginalnim slučajevima), ne može menjati ponašanje sistema i u potpunosti zavisi od Apple-a za upravljanje hardverom, skladištenjem u oblaku i sinhronizacijom. To je efikasno i robusno okruženje, ali ono koje žrtvuje bilo kakav oblik personalizacije ili nezavisnosti.
+Appleov iOS sistem se odlikuje visokim nivoom sigurnosti. Međutim, ova sigurnost dolazi uz ekstremnu zatvorenost okruženja: korisnik ne može instalirati aplikacije van App Store-a (osim u marginalnim slučajevima), ne može menjati ponašanje sistema i u potpunosti zavisi od Apple-a za upravljanje hardverom, skladištenjem u oblaku i sinhronizacijom. To je efikasno i robusno okruženje, ali ono koje žrtvuje bilo kakav oblik personalizacije ili nezavisnosti.
 
 
-GrapheneOS je namenjen najzahtevnijim profilima u pogledu sigurnosti i poverljivosti. Njegov nivo sigurnosti, međutim, nameće određena ograničenja: malo kompatibilnih uređaja (samo noviji Google Pixel modeli), nema automatske integracije usluga trećih strana aplikacija, i potreba za ručnim podešavanjem alternativnih alata za ažuriranja, prodavnicu ili obaveštenja. Ako su privatnost i sigurnost vaši prioriteti, ovo je očigledno najbolji izbor.
+GrapheneOS je namenjen najzahtevnijim profilima u pogledu sigurnosti i poverljivosti. Njegov nivo sigurnosti, međutim, nameće određena ograničenja: malo kompatibilnih uređaja (samo noviji Google Pixel modeli), bez automatske integracije servisa trećih strana u aplikacije, i potreba za ručnim podešavanjem alternativnih alata za ažuriranja, prodavnicu ili obaveštenja. Ako su privatnost i sigurnost vaši prioriteti, ovo je očigledno najbolji izbor.
 
 
 CalyxOS nudi zanimljivu ravnotežu. Korisničko iskustvo ostaje blisko standardnom Androidu, ali bez direktnog nadzora Google-a. Podržava razuman broj modela (posebno Google Pixel), i može se instalirati bez naprednog tehničkog znanja. Za korisnike koji žele visok nivo sigurnosti bez žrtvovanja kompatibilnosti softvera, CalyxOS je praktično, dobro izbalansirano rešenje.
 
 
-Konačno, LineageOS je AOSP distribucija za korisnike koji žele fleksibilnost i kontrolu. Kompatibilan je sa velikim brojem uređaja, čak i starijim, omogućava potpunu prilagodbu sistema i nudi laganu alternativu OEM slojevima. Međutim, ne integriše nativno napredna sigurnosna poboljšanja koja se nalaze u GrapheneOS ili CalyxOS, i ne dobija uvek redovne ažuriranja za sve modele. LineageOS stoga zahteva određenu disciplinu korisnika kako bi ostao siguran tokom vremena.
+Konačno, LineageOS je AOSP distribucija za korisnike koji žele fleksibilnost i kontrolu. Kompatibilan je sa velikim brojem uređaja, čak i starijim, omogućava potpunu prilagodbu sistema i nudi laganu alternativu OEM slojevima. Međutim, ne integriše nativno napredna sigurnosna poboljšanja koja se nalaze u GrapheneOS ili CalyxOS, i ne dobija uvek redovna ažuriranja za sve modele. LineageOS stoga zahteva određenu disciplinu korisnika kako bi ostao siguran tokom vremena.
 
 
-| System | Security | Privacy | Compatibility | Customization |
-| ------ | -------- | ------- | ------------- | ------------- |
-| Android | 🟡       | 🔴      | 🟢            | 🟢            |
-| iOS     | 🟢       | 🟡      | 🟡            | 🔴            |
-| GrapheneOS | 🟢       | 🟢              | 🟡            | 🟡               |
-| CalyxOS    | 🟡       | 🟢              | 🟡            | 🟡               |
-| LineageOS  | 🟡       | 🟡              | 🟢            | 🟢               |
+| Sistem | Bezbednost | Privatnos | Compatibilnost | Kastamizacija |
+| ------ | --------   | -------   | ------------- | ------------- |
+| Android | 🟡        | 🔴         | 🟢            | 🟢            |
+| iOS     | 🟢        | 🟡         | 🟡            | 🔴            |
+| GrapheneOS | 🟢       | 🟢              | 🟡            | 🟡      |
+| CalyxOS    | 🟡       | 🟢              | 🟡            | 🟡      |
+| LineageOS  | 🟡       | 🟡              | 🟢            | 🟢      |
 
 Bez obzira na vaš izbor mobilnog operativnog sistema, u sledećem poglavlju ćemo pogledati najbolje prakse koje možete usvojiti da efikasno osigurate svoj telefon i održavate zdravo digitalno okruženje.
 
 
-## Osiguranje vašeg pametnog telefona za svakodnevnu upotrebu
+## Osiguravanje vašeg pametnog telefona za svakodnevnu upotrebu
 
 
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>
@@ -6702,7 +6695,7 @@ U ovom poglavlju, korak po korak ćemo razmotriti neke osnovne preporuke koje va
 ### Ažuriranja
 
 
-Ponoviću se ovde, ali svako ažuriranje koje izdaju programeri potencijalno uključuje važne sigurnosne zakrpe. Štaviše, pametni telefoni su izloženi brojnim rizicima zbog svoje velike površine napada: Preko mobilnih mreža, aplikacija trećih strana, bežičnih komunikacija (Wi-Fi, Bluetooth, NFC, itd.).
+Ponoviću se ovde, ali svako ažuriranje koje izdaju programeri potencijalno uključuje važne sigurnosne zakrpe. Štaviše, pametni telefoni su izloženi brojnim rizicima zbog svoje velike površine napada: preko mobilnih mreža, aplikacija trećih strana, bežičnih komunikacija (Wi-Fi, Bluetooth, NFC, itd.).
 
 
 Neprimenjivanje ovih ažuriranja znači namerno ostavljanje otvorenih poznatih ranjivosti, javno dokumentovanih u bazama podataka kao što je CVE (*Common Vulnerabilities and Exposures*). Ovi nedostaci se ponekad automatski eksploatišu alatima dostupnim na internetu, čak i bez potrebe za naprednim veštinama. To čini zastareli telefon idealnom metom, čak i za automatizovane napade velikih razmera.
@@ -6714,7 +6707,7 @@ Neprimenjivanje ovih ažuriranja znači namerno ostavljanje otvorenih poznatih r
 Stoga je neophodno omogućiti automatska ažuriranja u postavkama sistema i ručno proveravati svake nedelje da li vaš uređaj ima najnovije sigurnosne zakrpe. Na Androidu se to obično radi u `Settings > Security > System Update`, a na iOS-u u `Settings > General > Software Update`.
 
 
-#### Ažuriraj podršku
+#### Podrška za ažuriranja
 
 
 Nisu svi pametni telefoni jednaki kada je u pitanju podrška za softver. Mnogi uređaji početnog i srednjeg ranga prestaju da primaju kritične ažuriranja nakon samo dve ili tri godine, izlažući vas sve ozbiljnijim rizicima.
@@ -6726,10 +6719,10 @@ Međutim, neki brendovi imaju veoma dobru softversku podršku, posebno Google (7
 #### Koristite pouzdane prodavnice aplikacija
 
 
-Mobilne aplikacije predstavljaju veliki izvor rizika: Kroz njih prolazi većina modernog Android malvera. Instaliranje aplikacije putem `.apk` fajla primljenog sa nepoznatog sajta, ili iz necertifikovane prodavnice, znači preuzimanje rizika instaliranja programa koji je namerno zlonameran, ili modifikovan da uključuje funkcije špijuniranja ili krađe podataka.
+Mobilne aplikacije predstavljaju veliki izvor rizika: kroz njih prolazi većina modernog Android malvera. Instaliranje aplikacije putem `.apk` fajla primljenog sa nepoznatog sajta, ili sa nesertifikovane prodavnice, znači preuzimanje rizika instaliranja programa koji je namerno zlonameran, ili modifikovan da uključuje funkcije špijuniranja ili krađe podataka.
 
 
-Čak i na zvaničnim prodavnicama kao što su Google Play Store ili Apple App Store, morate ostati oprezni. Uprkos mehanizmima filtriranja, zlonamerne aplikacije redovno uspevaju da se provuku. Na primer, aplikacije "Sparrow wallet" ponekad se mogu videti na Play Store-u, iako ovaj softver postoji samo na računarima: Ovo je nesumnjivo prevarantska aplikacija.
+Čak i na zvaničnim prodavnicama kao što su Google Play Store ili Apple App Store, morate ostati oprezni. Uprkos mehanizmima filtriranja, zlonamerne aplikacije redovno uspevaju da se provuku. Na primer, aplikacija "Sparrow wallet" ponekad se mogla videti na Play Store-u, iako ovaj softver postoji samo na računarima: ovo je nesumnjivo prevarantska aplikacija.
 
 
 Pre nego što instalirate, odvojite vreme da proverite nekoliko stvari: potrebne dozvole, broj preuzimanja, ukupnu ocenu, datum poslednjeg ažuriranja i korisničke recenzije.
@@ -6741,22 +6734,22 @@ Na Androidu, alternativne prodavnice otvorenog koda kao što je [F-Droid](https:
 ![Image](assets/fr/140.webp)
 
 
-Pored Operativnog Sistema, aplikacije instalirane na vašem pametnom telefonu takođe treba redovno ažurirati. Možete aktivirati automatska ažuriranja putem podešavanja vaše prodavnice aplikacija i steći naviku da ručno proveravate ažuriranja barem jednom nedeljno.
+Pored operativnog Sistema, aplikacije instalirane na vašem pametnom telefonu takođe treba redovno ažurirati. Možete aktivirati automatska ažuriranja putem podešavanja vaše prodavnice aplikacija i steći naviku da ručno proveravate ažuriranja barem jednom nedeljno.
 
 
 Na Androidu, ako instalirate aplikacije putem `.apk` datoteka, moraćete ručno da upravljate ažuriranjima. Naime, ove aplikacije instalirane van zvaničnih kanala nemaju automatski mehanizam za ažuriranje. Zato ćete morati redovno da proveravate verzije koje su objavili programeri na GitHub-u ili na njihovoj zvaničnoj veb stranici.
 
 
-### Upravljaj dozvolama aplikacije
+### Upravljanje dozvolama aplikacije
 
 
-Na pametnom telefonu, bilo koja aplikacija može zatražiti direktan pristup osetljivim resursima: Mikrofon, kamera, precizna geografska pozicija, Address knjiga, fajlovi, SMS, senzori pokreta, itd. Takav pristup nije trivijalan: Tehnički, kada je dozvola odobrena, aplikacija može da je iskoristi u pozadini, na kontinuiranoj ili ad hoc osnovi, ponekad bez vidljive obaveštenja. Zato je važno primeniti princip najmanje privilegije: dati svakoj aplikaciji samo one dozvole koje su strogo neophodne za njeno minimalno funkcionisanje.
+Na pametnom telefonu, bilo koja aplikacija može zatražiti direktan pristup osetljivim resursima: mikrofon, kamera, precizna geografska pozicija, imenik, fajlovi, SMS, senzori pokreta, itd. Takav pristup nije trivijalan: tehnički, kada je dozvola odobrena, aplikacija može da je iskoristi u pozadini, na kontinuiranoj ili ad hoc osnovi, ponekad bez vidljive obaveštenja. Zato je važno primeniti princip najmanje privilegije: dati svakoj aplikaciji samo one dozvole koje su strogo neophodne za njeno minimalno funkcionisanje.
 
 
 ![Image](assets/fr/141.webp)
 
 
-Na primer, aplikacija za baterijsku lampu ne treba pristup vašim kontaktima ili geolokaciji. Aplikacija za vremensku prognozu može raditi sa ručnom lokalizacijom, bez pristupa GPS-u. Čitač PDF-a ne treba da koristi mikrofon ili SMS. Ako ste u nedoumici, uvek odbijte po defaultu, a zatim ponovo procenite ako aplikacija ne radi ispravno. Na nekim sistemima, moguće je i privremeno odobriti dozvole: ili za jednu upotrebu, ili samo kada je aplikacija pokrenuta. Ovo sprečava aplikaciju da koristi određene dozvole u pozadini bez vašeg znanja.
+Na primer, aplikaciji za baterijsku lampu ne treba pristup vašim kontaktima ili geolokaciji. Aplikacija za vremensku prognozu može raditi sa ručnom lokalizacijom, bez pristupa GPS-u. Čitač PDF-a ne treba da koristi mikrofon ili SMS. Ako ste u nedoumici, uvek odbijte po defaultu, a zatim ponovo procenite ako aplikacija ne radi ispravno. Na nekim sistemima, moguće je i privremeno odobriti dozvole: ili za jednu upotrebu, ili samo kada je aplikacija pokrenuta. Ovo sprečava aplikaciju da koristi određene dozvole u pozadini bez vašeg znanja.
 
 
 Android i iOS sada nude granularnu kontrolu dozvola. Možete ih upravljati po aplikaciji ili po tipu dozvole. Odvojite vreme, na primer jednom mesečno, da proverite aktivne dozvole putem podešavanja vašeg telefona.
@@ -6777,7 +6770,7 @@ S druge strane, metode otključavanja kao što su grafičke šeme se snažno ne 
 Biometrijski sistemi (prepoznavanje lica ili otisak prsta) nude očiglednu pogodnost, ali ih treba koristiti s oprezom. U slučaju fizičke prinude (krađa, policijski pritisak, itd.), otisak prsta ili lice mogu se koristiti bez vašeg aktivnog pristanka. U nekim zemljama, upotreba biometrije ne uživa istu pravnu zaštitu kao tajnost lozinke.
 
 
-S druge strane, biometrijski sistemi se mogu zaobići (ili bi mogli biti u budućnosti) korišćenjem tehnika kao što su vizuelna reprodukcija lica ili obnavljanje latentnih otisaka prstiju na površini. Njihova pouzdanost takođe u velikoj meri zavisi od nivoa sigurnosti vašeg uređaja: Na primer, Apple-ov Face ID za prepoznavanje lica je daleko rigorozniji od onog kod nekih osnovnih pametnih telefona.
+S druge strane, biometrijski sistemi se mogu zaobići (ili bi mogli biti u budućnosti) korišćenjem tehnika kao što su vizuelna reprodukcija lica ili otkrivanje/obnavljanje skrivenih otisaka prstiju na površini. Njihova pouzdanost takođe u velikoj meri zavisi od nivoa sigurnosti vašeg uređaja: na primer, Apple-ov Face ID za prepoznavanje lica je daleko rigorozniji od onog kod nekih osnovnih pametnih telefona.
 
 
 Da sumiramo, evo rangiranja od najboljeg do najgoreg sistema zaključavanja pametnih telefona:
@@ -6806,8 +6799,7 @@ Kao što smo videli u prethodnim poglavljima, kompartmenalizacija je važna prak
 #### Koristite poseban profesionalni profil
 
 
-*Work Profile* je funkcija koja je nativna za Android (od Android 5.0), koja vam omogućava da kreirate zasebnu softversku particiju unutar istog pametnog telefona. U praktičnom smislu, ovaj profil funkcioniše kao izolovani kontejner: Aplikacije, nalozi i podaci smešteni u ovom prostoru ne mogu da komuniciraju sa onima u ličnom profilu. Ova separacija sprečava curenje podataka između dva prostora i ograničava prava pristupa za aplikacije. Ova funkcija se često upravlja interno unutar kompanija, ali postoje i načini da se koristi lično za izolaciju aplikacija.
-
+*Work Profile* je funkcija koja je nativna za Android (od Android 5.0), koja vam omogućava da kreirate zasebnu softversku particiju unutar istog pametnog telefona. U praktičnom smislu, ovaj profil funkcioniše kao izolovani kontejner: alikacije, nalozi i podaci smešteni u ovom prostoru ne mogu da komuniciraju sa onima u ličnom profilu. Ova separacija sprečava curenje podataka između dva prostora i ograničava prava pristupa za aplikacije. Ovom funkcijom se kompanije često interno služe, ali postoje i načini da je pojedinac koristi za izolovanje aplikacija.
 
 ![Image](assets/fr/143.webp)
 
@@ -6836,7 +6828,7 @@ Vaš pametni telefon je u stalnoj komunikaciji sa spoljnim svetom, bilo putem Wi
 #### Javni Wi-Fi
 
 
-Javne Wi-Fi mreže, kao što su one u kafićima, hotelima ili javnom prevozu, retko su sigurne. Čak i kada zahtevaju lozinku, ona je često podeljena među mnogim korisnicima, a primenjena enkripcija se ponekad lako zaobilazi. Napadač povezan na istu mrežu može presresti vaše pakete, uhvatiti akreditive ili ubaciti zlonamerni sadržaj putem napada Čovek-u-Sredini.
+Javne Wi-Fi mreže, kao što su one u kafićima, hotelima ili javnom prevozu, retko su sigurne. Čak i kada zahtevaju lozinku, ona je često podeljena među mnogim korisnicima, a primenjena enkripcija se ponekad lako zaobilazi. Napadač povezan na istu mrežu može presresti vaše pakete, uhvatiti akreditive ili ubaciti zlonamerni sadržaj putem napada Čovek-u-Sredini (eng. Man-in-the-Middle).
 
 
 Da biste se zaštitili, jednostavno izbegavajte korišćenje ovih javnih mreža ili koristite VPN, koji će kreirati enkriptovani tunel između vašeg uređaja i udaljenog servera. Ovaj tunel enkapsulira vaše podatke, čineći ih izuzetno teškim za presretanje ili modifikaciju.
@@ -6855,7 +6847,7 @@ https://planb.academy/tutorials/computer-security/communication/mozilla-vpn-f559
 #### Bluetooth, NFC i GPS
 
 
-Bluetooth (bežični protokol za komunikaciju na kratkim udaljenostima), NFC (komunikacija bliskog polja) i GPS (satelitsko pozicioniranje) su podrazumevano omogućeni na mnogim pametnim telefonima. Ove tehnologije mogu biti korišćene kao ulazna tačka za lokalne napade: Daljinsko izvršavanje koda, neovlašćeni pristup, praćenje lokacije, čak i presretanje komunikacija u slučaju Bluetooth-a (na primer, BlueBorne ranjivosti).
+Bluetooth (bežični protokol za komunikaciju na kratkim udaljenostima), NFC (komunikacija bliskog polja) i GPS (satelitsko pozicioniranje) su podrazumevano omogućeni na mnogim pametnim telefonima. Ove tehnologije mogu biti korišćene kao ulazna tačka za lokalne napade: daljinsko izvršavanje koda, neovlašćeni pristup, praćenje lokacije, čak i presretanje komunikacija u slučaju Bluetooth-a (na primer, BlueBorne ranjivosti).
 
 
 Da biste ograničili ove rizike, uvek onemogućite ove funkcije kada ih ne koristite. Ovo drastično smanjuje površinu napada i sprečava bilo kakav pokušaj eksploatacije.
@@ -6885,7 +6877,7 @@ Najbolji način da osigurate svoje komunikacije je korišćenje sigurnih aplikac
 Korisnost antivirusnog softvera na pametnim telefonima često je precenjena, uglavnom zbog agresivnih marketinških kampanja. Prave pretnje na mobilnim uređajima, posebno Androidima, uglavnom su povezane sa instalacijom zlonamernih aplikacija iz neoficijalnih izvora. Na uređaju koji se redovno ažurira, pažljivo konfiguriše (posebno u smislu dozvola) i koristi samo zvanične ili verifikovane izvore, rizik od infekcije je veoma nizak.
 
 
-Takođe, Android uređaji su već po defaultu opremljeni sa Google Play Protect, koji deluje kao antivirus. Antivirus aplikacije trećih strana koriste isti Interface skener, što jednostavno dodaje redundanciju. U praksi, mobilni antivirus nudi malo dodatne vrednosti, bilo na Androidu ili iOS-u.
+Takođe, Android uređaji su već po defaultu opremljeni sa Google Play Protect, koji deluje kao antivirus. Antivirus aplikacije trećih strana koriste isti interfejs skener, što jednostavno dodaje redundanciju. U praksi, mobilni antivirus nudi malo dodatne vrednosti, bilo na Androidu ili iOS-u.
 
 
 Štaviše, ove aplikacije mogu izazvati lažni osećaj sigurnosti kod korisnika, navodeći ih da veruju da su potpuno zaštićeni od pretnji, dok u stvarnosti nude samo reaktivnu zaštitu. Ne nude zaštitu protiv phishing-a, niti protiv prekomernih dozvola dodeljenih aplikacijama, iako većina pretnji za pametne telefone dolazi upravo iz ovih vektora.
@@ -6897,13 +6889,13 @@ Njihova stvarna korisnost je stoga veoma ograničena, a ove aplikacije su poneka
 ### Proveri odlazne veze
 
 
-Postoje i aplikacije za zaštitni zid na pametnim telefonima, kao što su NetGuard ili RethinkDNS, koje deluju kao lokalni zaštitni zid direktno na vašem uređaju. One koriste Android-ov VPN API da presretnu sav odlazni saobraćaj, bez potrebe za root pristupom.
+Postoje i aplikacije za firewall na pametnim telefonima, poput NetGuard ili RethinkDNS, koje funkcionišu kao lokalni firewall direktno na vašem uređaju. One koriste Android-ov VPN API da presretnu sav odlazni saobraćaj, bez potrebe za root pristupom.
 
 
 U praktičnom smislu, ovo znači da možete pojedinačno blokirati pristup internetu za određene aplikacije, čime se značajno smanjuje rizik od neželjenog prikupljanja podataka ili neovlašćene komunikacije.
 
 
-NetGuard, na primer, omogućava vam da upravljate pristupom Internetu po aplikaciji, kako za Wi-Fi tako i za mobilne podatke. RethinkDNS takođe nudi napredne funkcije kao što su filtriranje DNS-a, blokiranje oglasa i inspekcija DNS upita za otkrivanje potencijalnih curenja.
+NetGuard, na primer, omogućava vam da upravljate pristupom internetu po aplikaciji, kako za Wi-Fi tako i za mobilne podatke. RethinkDNS takođe nudi napredne funkcije kao što su filtriranje DNS-a, blokiranje oglasa i inspekcija DNS upita za otkrivanje potencijalnih curenja podataka.
 
 
 ![Image](assets/fr/146.webp)
@@ -6918,7 +6910,7 @@ NetGuard, na primer, omogućava vam da upravljate pristupom Internetu po aplikac
 Redovan bekap podataka sa vašeg pametnog telefona je veoma važan za vašu sigurnost. Ali ovaj bekap mora biti šifrovan, kako bi se sprečilo da vaši osetljivi podaci budu dostupni bilo kome ko dođe do vašeg medija za bekap. Ovo se podjednako odnosi na fotografije, dokumente i podatke aplikacija.
 
 
-Da biste to postigli, trebalo bi da koristite šifrovana lokalna rešenja, kao što su eksterni disk ili šifrovani USB ključ (npr. sa Veracrypt-om). Ako to nije moguće, rešenja za oblak koja sami hostujete, kao što su *Syncthing* ili *Nextcloud*, omogućavaju vam da napravite rezervnu kopiju podataka na ličnom serveru, zadržavajući potpunu kontrolu nad pristupom i poverljivošću. Za razliku od komercijalnih usluga u oblaku (Google Drive, iCloud...), ova rešenja znatno ograničavaju izloženost vaših informacija trećim stranama.
+Da biste to postigli, trebalo bi da koristite šifrovana lokalna rešenja, kao što su eksterni disk ili šifrovani USB ključ (npr. sa Veracrypt-om). Ako to nije moguće, rešenja za cloud koja sami hostujete, kao što su *Syncthing* ili *Nextcloud*, omogućavaju vam da napravite rezervnu kopiju podataka na ličnom serveru, zadržavajući potpunu kontrolu nad pristupom i poverljivošću. Za razliku od komercijalnih usluga u oblaku (Google Drive, iCloud...), ova rešenja znatno ograničavaju izloženost vaših informacija trećim stranama.
 
 
 https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -6926,16 +6918,16 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 #### Daljinsko brisanje
 
 
-Izgubljeni ili ukradeni pametni telefon može postati bogat izvor informacija za napadača: Lični podaci, istorije pretrage, povezani nalozi, itd. Stoga može biti smisleno konfigurisati izvorne funkcije za lociranje, zaključavanje i daljinsko brisanje vašeg uređaja.
+Izgubljeni ili ukradeni pametni telefon može postati bogat izvor informacija za napadača: lični podaci, istorije pretrage, povezani nalozi, itd. Stoga može biti smisleno konfigurisati izvorne funkcije za lociranje, zaključavanje i daljinsko brisanje vašeg uređaja.
 
 
-Na Androidu, možete koristiti *Find My Device* iz Google podešavanja. Na iOS-u, *Find My iPhone* ima istu ulogu, dostupnu preko iClouda. Ovi alati vam omogućavaju da odmah zaključate pristup, pozvonite uređaju da ga locirate, ili kao poslednju opciju, potpuno obrišete podatke na daljinu. Postoje i slične usluge koje upravljaju softverskim slojevima proizvođača, kao što je Samsungov *SmartThings Find*.
+Na Androidu, možete koristiti *Find My Device* iz Google podešavanja. Na iOS-u, *Find My iPhone* ima istu ulogu, dostupnu preko iClouda. Ovi alati vam omogućavaju da odmah zaključate pristup, pozovete uređaj da ga locirate, ili kao poslednju opciju, potpuno obrišete podatke na daljinu. Postoje i slične usluge koje upravljaju softverskim slojevima proizvođača, kao što je Samsungov *SmartThings Find*.
 
 
 ![Image](assets/fr/147.webp)
 
 
-Međutim, ove funkcije predstavljaju značajne kompromise: One centralizuju vaše osetljive informacije (geolokacija, prijave, daljinski pristup, itd.) na serverima privatne kompanije i zahtevaju da vaša lokacija bude omogućena.
+Međutim, ove funkcije predstavljaju značajne kompromise: one centralizuju vaše osetljive informacije (geolokacija, prijave, daljinski pristup, itd.) na serverima privatne kompanije i zahtevaju da vaša lokacija bude omogućena.
 
 
 Ako odlučite da ih ipak implementirate, testirajte ove funkcije unapred kako biste bili sigurni da će raditi ispravno za dan kada vam zaista budu potrebne.
@@ -6944,7 +6936,7 @@ Ako odlučite da ih ipak implementirate, testirajte ove funkcije unapred kako bi
 Alternativno, ako ne želite da koristite ove usluge daljinskog upravljanja, toplo preporučujem da redovno pravite rezervne kopije podataka sa telefona kako biste izbegli gubitak informacija u slučaju da vaš uređaj bude izgubljen ili ukraden. Da biste smanjili rizik od napadača koji bi mogao da pristupi vašim informacijama, postavite jaku lozinku za zaključavanje telefona i SIM kartice.
 
 
-Došli smo do kraja ovog poglavlja o najboljim praksama za vaš pametni telefon. U sledećem poglavlju pokazaću vam najprikladnija rešenja za sigurno i poverljivo komuniciranje sa vašeg uređaja, bilo da se radi o obavljanju poziva, razmeni poruka ili upravljanju vašim novinskim grupama.
+Došli smo do kraja ovog poglavlja o najboljim praksama za vaš pametni telefon. U sledećem poglavlju pokazaću vam najprikladnija rešenja za sigurno i poverljivo komuniciranje sa vašeg uređaja, bilo da se radi o obavljanju poziva, razmeni poruka ili upravljanju vašim diskusionim grupama.
 
 
 ## Komuniciranje bez prisluškivanja
@@ -6962,7 +6954,7 @@ U ovom poglavlju pokušaćemo da razumemo tehnička i praktična pitanja koja su
 ### Zašto SMS poruke ne štite vaše razmene?
 
 
-SMS (*Short Message Service*) je istorijski bio veoma popularan za razmenu tekstualnih poruka, ali je zasnovan na zastarelom protokolu koji datira iz kasnih 1980-ih. Ovaj protokol, integrisan u GSM (*Global System for Mobile communications*) standarde, ne pruža mehanizam za end-to-end enkripciju. U praksi, svaki poslati SMS se prenosi u čistom tekstu preko mreža mobilnih operatera (ponekad šifrovan samo na Interface radiju, ali nikada end-to-end). To znači da sadržaj poruke može biti presretnut na nekoliko nivoa:
+SMS (*Short Message Service*) je istorijski bio veoma popularan za razmenu tekstualnih poruka, ali je zasnovan na zastarelom protokolu koji datira iz kasnih 1980-ih. Ovaj protokol, integrisan u GSM (*Global System for Mobile communications*) standarde, ne pruža mehanizam za end-to-end enkripciju. U praksi, svaki poslati SMS se prenosi u čistom tekstu preko mreža mobilnih operatera (ponekad enkriptovano samo na interfejsu radio veze, ali nikada end-to-end). To znači da sadržaj poruke može biti presretnut na nekoliko nivoa:
 
 
 
@@ -6983,13 +6975,13 @@ U poslednjih nekoliko godina, neki operateri i proizvođači su uveli RCS (*Rich
 Od 2021. godine, Google Messages je usvojio Signal protokol kako bi osigurao end-to-end enkripciju, ali ova funkcija je dostupna samo ako obe strane koriste Google Messages.
 
 
-U martu 2025. godine, GSM Association je objavila *Universal Profile 3.0* (UP 3.0), koji konačno uspostavlja standard interoperabilnosti za end-to-end enkripciju (E2EE) u RCS-u. Kao rezultat toga, kada se Exchange odvija putem RCS klijenta koji je u skladu sa UP 3.0, sadržaj postaje nečitljiv i za operatera i za IMSI-catcher. Google i Apple su najavili svoju nameru da podrže ovu tehnologiju (ostaje da se vidi da li će ovo biti interoperabilno). Međutim, ako jedan od uređaja nije kompatibilan sa RCS UP 3.0, ili ako nema IP povezivosti, komunikacija se automatski prebacuje na konvencionalni, neenkriptovani SMS, što čini presretanje trivijalnim.
+U martu 2025. godine, GSM Association je objavila *Universal Profile 3.0* (UP 3.0), koji konačno uspostavlja standard interoperabilnosti za end-to-end enkripciju (E2EE) u RCS-u. Kao rezultat toga, kada se razmena odvija putem RCS klijenta koji je u skladu sa UP 3.0, sadržaj postaje nečitljiv i za operatera i za IMSI-catcher. Google i Apple su najavili svoju nameru da podrže ovu tehnologiju (ostaje da se vidi da li će ovo biti interoperabilno). Međutim, ako jedan od uređaja nije kompatibilan sa RCS UP 3.0, ili ako nema IP povezivosti, komunikacija se automatski prebacuje na konvencionalni, neenkriptovani SMS, što čini presretanje trivijalnim.
 
 
-Na strani Apple-a, iMessage (pokrenut 2011.) nudi end-to-end enkripciju između Apple korisnika, ali ovaj protokol ostaje zatvoren i ograničen na iOS/macOS ekosistem. Kada razmenjujete poruke sa korisnicima van ovog ekosistema, poruka se vraća na klasični protokol, gubeći svu poverljivost. Enkripcija takođe može biti prekinuta ako vi ili vaš sagovornik sačuvate poruke u iCloud bez opcije *Advanced Data Protection*.
+Na strani Apple-a, iMessage (pokrenut 2011.) nudi end-to-end enkripciju između Apple korisnika, ali ovaj protokol ostaje zatvoren i ograničen na iOS/macOS ekosistem. Kada razmenjujete poruke sa korisnicima van ovog ekosistema, poruka se vraća na klasični protokol, gubeći svu poverljivost. Enkripcija takođe može biti prekinuta ako vi ili vaš sagovornik sačuvate poruke u iCloud-u bez opcije *Advanced Data Protection*.
 
 
-Ukratko, ni konvencionalni SMS, ni MMS, pa čak ni standardni RCS ne mogu se smatrati pouzdanim, univerzalnim rešenjima za očuvanje poverljivosti razmene. Samo korišćenje Google Messages, iMessage ili budućeg RCS UP 3.0 protokola može garantovati zadovoljavajuću poverljivost, pod uslovom da obe strane usvoje isti protokol za šifrovanje. I upravo tu leži glavna zamka SMS-a u najširem smislu: Ova aplikacija za razmenu poruka, unapred instalirana na većini telefona, okuplja radikalno različite protokole, i ako druga strana podržava samo SMS protokol, vaša poruka će biti preneta u otvorenom obliku, a da to možda i ne shvatite. Zato, dok se ne uspostavi univerzalni i robustan standard za šifrovanje od kraja do kraja, snažno savetujem protiv korišćenja konvencionalnih poruka, jer ostajete previše zavisni od izbora protokola vašeg sagovornika da biste garantovali sopstvenu sigurnost.
+Ukratko, ni konvencionalni SMS, ni MMS, pa čak ni standardni RCS ne mogu se smatrati pouzdanim, univerzalnim rešenjima za očuvanje poverljivosti razmene. Samo korišćenje Google Messages, iMessage ili budućeg RCS UP 3.0 protokola može garantovati zadovoljavajuću poverljivost, pod uslovom da obe strane usvoje isti protokol za enkripciju. I upravo tu leži glavna zamka SMS-a u najširem smislu: ova aplikacija za razmenu poruka, unapred instalirana na većini telefona, okuplja radikalno različite protokole, i ako druga strana podržava samo SMS protokol, vaša poruka će biti preneta u otvorenom obliku, a da to možda i ne shvatite. Zato, dok se ne uspostavi univerzalni i robustan standard za šifrovanje od kraja do kraja, snažno savetujem protiv korišćenja konvencionalnih poruka, jer ostajete previše zavisni od izbora protokola vašeg sagovornika da biste garantovali sopstvenu sigurnost.
 
 
 Umesto SMS-a, savetovao bih vam da koristite namenski aplikacije za razmenu poruka koje koriste robusnu, transparentnu end-to-end enkripciju, omogućavajući zaista sigurnu i privatnu komunikaciju.
@@ -7004,16 +6996,16 @@ Suočeni sa ograničenjima SMS-a, pojavile su se brojne moderne aplikacije, neke
 #### Signal
 
 
-Signal je aplikacija za instant poruke dizajnirana od samog početka da ponudi maksimalnu poverljivost i sigurnost. Zasniva se na *Signal Protocol*-u, koji obezbeđuje sistematsku end-to-end enkripciju za svaku poruku, glasovni ili video poziv, kao i za deljenje fajlova. Ovaj protokol koriste mnoge druge usluge za razmenu poruka, kao što su WhatsApp, Facebook Messenger, Skype i Google Messages (u svojim RCS implementacijama).
+Signal je aplikacija za instant poruke dizajnirana od samog početka da ponudi maksimalnu poverljivost i sigurnost. Zasniva se na *Signal Protocol*-u, koji obezbeđuje sistematsku end-to-end enkripciju za svaku poruku, glasovni ili video poziv, kao i za deljenje fajlova. Ovaj protokol koriste mnogi drugi servisi za razmenu poruka, kao što su WhatsApp, Facebook Messenger, Skype i Google Messages (u svojim RCS implementacijama).
 
 
 ![Image](assets/fr/148.webp)
 
 
-Tehnički, svaki razgovor unutar Signala je zaštićen asimetričnim i efemernim mehanizmom enkripcije: Ključevi sesije se dinamički pregovaraju i uništavaju nakon upotrebe, čime se ograničava rizik od kompromitovanja. Transparentnost aplikacije, čiji je kod u potpunosti otvorenog koda na strani klijenta i servera, znači da bilo koji stručnjak za sigurnost ili istraživač može proveriti njen integritet i usklađenost sa navedenim kriptografskim standardima.
+Tehnički, svaki razgovor unutar Signala je zaštićen asimetričnim i efemernim mehanizmom enkripcije: ključevi sesije se dinamički pregovaraju i uništavaju nakon upotrebe, čime se ograničava rizik od kompromitovanja. Transparentnost aplikacije, čiji je kod u potpunosti otvorenog koda na strani klijenta i servera, znači da bilo koji stručnjak za sigurnost ili istraživač može proveriti njen integritet i usklađenost sa navedenim kriptografskim standardima.
 
 
-Međutim, Signal ima slabu tačku kada je u pitanju anonimnost: aplikacija zahteva važeći telefonski broj za registraciju i identifikaciju korisnika. Iako ovaj broj nije sistematski vidljiv vašim kontaktima (može biti skriven pod pseudonimom), ovaj zahtev uvodi zavisnost od telefonske infrastrukture, i stoga potencijalnu rupu u tragljivosti.
+Međutim, Signal ima slabu tačku kada je u pitanju anonimnost: aplikacija zahteva važeći telefonski broj za registraciju i identifikaciju korisnika. Iako ovaj broj nije sistematski vidljiv vašim kontaktima (može biti skriven pod pseudonimom), ovaj zahtev uvodi zavisnost od telefonske infrastrukture, i samim tim potencijalni propust koji omogućava praćenje.
 
 
 Ukratko, Signal je veoma dobro rešenje za razmenu poruka, ali nažalost zahteva vezu sa telefonskim brojem.
@@ -7053,10 +7045,10 @@ Threema, pokrenuta u Švajcarskoj 2012. godine, izdvaja se od većine drugih sig
 ![Image](assets/fr/150.webp)
 
 
-Tehnički, Threema nudi end-to-end enkripciju za sve komunikacije: poruke, pozive, fajlove, grupe i druge funkcionalnosti. Od 2020. godine, izvorni kod za mobilne aplikacije je otvorenog koda, što omogućava nezavisne revizije. S druge strane, serverska infrastruktura ostaje vlasnička, iako je smeštena isključivo u Švajcarskoj, zemlji čije zakonodavstvo je povoljno za zaštitu ličnih podataka.
+Tehnički, Threema nudi end-to-end enkripciju za sve komunikacije: poruke, pozive, fajlove, grupe i druge funkcionalnosti. Od 2020. godine, izvorni kod za mobilne aplikacije je otvorenog koda, što omogućava nezavisne revizije. S druge strane, serverska infrastruktura ostaje vlasnička, ali se nalazi isključivo u Švajcarskoj, zemlji čije zakonodavstvo je povoljno za zaštitu ličnih podataka.
 
 
-Aplikacija je kompatibilna sa Android i iOS, i takođe nudi siguran Interface web, kao i native klijent za Windows, Linux i macOS. Početna aktivacija, međutim, zahteva pametni telefon.
+Aplikacija je kompatibilna sa Android i iOS, i takođe nudi siguran web interfejs, kao i native klijent za Windows, Linux i macOS. Početna aktivacija, međutim, zahteva pametni telefon.
 
 
 Još jedan važan aspekt Threema aplikacije je njen poslovni model: aplikacija nije besplatna, već se kupuje (oko €5.99). Ovaj izbor izbegava zavisnost od modela zasnovanog na prikupljanju podataka ili oglašavanju. Da bi se očuvala anonimnost prilikom kupovine, ključevi za aktivaciju mogu se kupiti u bitkoinima ili gotovinom direktno u Threema Shop-u za Android.
@@ -7082,15 +7074,15 @@ Tehnički, poruke su šifrovane od kraja do kraja i prolaze kroz relej servere. 
 Protokol je potpuno otvorenog koda: klijenti, serveri i protokoli su javno dostupni i revidirani. SimpleX je dostupan na Android, iOS, Linux, Windows i macOS platformama, sa enkriptovanom, prenosivom lokalnom memorijom, tako da se profili mogu preneti bez centralnog servera. Svaki korisnik takođe može upravljati sa nekoliko izolovanih profila, svaki sa svojim postavkama, nadimkom i fotografijom. Ova fleksibilnost omogućava jasno razdvajanje privatnog života, profesionalnog života i pseudonimnosti.
 
 
-Kontakti se dodaju putem privremenih linkova ili statičkih adresa (stalni, ali opozivi identifikatori). Takođe možete birati između efemernog Exchange ili klasičnijeg režima, sa detaljnom kontrolom vidljivosti i ovlašćenja (na primer, skrivanje vašeg pravog imena iza nasumičnog, jedinstvenog pseudonima za svaki kontakt).
+Kontakti se dodaju putem privremenih linkova ili statičkih adresa (stalni, ali opozivi identifikatori). Takođe možete birati između efemerne razmene ili klasičnijeg režima, sa detaljnom kontrolom vidljivosti i ovlašćenja (na primer, skrivanje vašeg pravog imena iza nasumičnog, jedinstvenog pseudonima za svaki kontakt).
 
 
-U smislu bezbednosti i poverljivosti, SimpleX ide dalje od većine postojećih sistema za razmenu poruka, ograničavajući metapodatke na minimum i eliminišući bilo kakvu zavisnost od centralnog direktorijuma ili jedinstvenog identifikatora. Međutim, ova arhitektura nameće određene kompromise u pogledu korisničke pristupačnosti: ponekad manje intuitivna ergonomija, potreba za blagom početnom krivom učenja i zavisnost od dostupnosti relej servera.
+U smislu bezbednosti i poverljivosti, SimpleX ide dalje od većine postojećih sistema za razmenu poruka, ograničavajući metapodatke na minimum i eliminišući bilo kakvu zavisnost od centralnog direktorijuma ili jedinstvenog identifikatora. Međutim, ova arhitektura nameće određene kompromise u pogledu korisničke pristupačnosti: ponekad manje intuitivna ergonomija, zahteva malo vremena za početno snalaženje i zavisnost od dostupnosti relej servera.
 
 
 https://planb.academy/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sesija
+#### Session
 
 
 Session, pokrenut 2020. godine od strane Oxen Privacy Tech Foundation, je aplikacija za razmenu poruka dizajnirana da ponudi poboljšanu privatnost i otpornost u suočavanju sa nadzorom. Session ne zahteva lične informacije prilikom registracije: nema broja telefona, nema e-maila, samo par lokalno generisanih kriptografskih ključeva. Ovo omogućava anonimnu autentifikaciju.
@@ -7102,7 +7094,7 @@ Session, pokrenut 2020. godine od strane Oxen Privacy Tech Foundation, je aplika
 Tehnički, Session implementira end-to-end enkripciju za poruke, fajlove, audio i pozive, kao i za grupe (do 100 članova). Poruke se rutiraju putem decentralizovane mreže zasnovane na serverskim čvorovima inspirisanim Tor-ovom onion arhitekturom. Ovaj mehanizam nudi naprednu zaštitu protiv nadzora mreže, uključujući od strane ISP-ova i državnih aktera.
 
 
-Klijent i server za Session su otvorenog koda. Softver je dostupan na Android, iOS, Windows, macOS i Linux platformama, sa opcijom sinhronizacije između uređaja putem Mnemonic fraze slične onoj koja se koristi u Bitcoin novčanicima. Ova fraza korisniku daje isključivu kontrolu nad njegovim ili njenim podacima, ali takođe nameće značajnu odgovornost u smislu pravljenja rezervnih kopija.
+Klijent i server za Session su otvorenog koda. Softver je dostupan na Android, iOS, Windows, macOS i Linux platformama, sa opcijom sinhronizacije između uređaja putem mnemoničke fraze (fraza za oporavak) slične onoj koja se koristi u Bitcoin novčanicima. Ova fraza korisniku daje isključivu kontrolu nad njegovim ili njenim podacima, ali takođe nameće značajnu odgovornost u smislu pravljenja rezervnih kopija.
 
 
 https://planb.academy/tutorials/computer-security/communication/session-b0e3193c-2129-4f1b-9013-c211210724c3
@@ -7110,50 +7102,49 @@ https://planb.academy/tutorials/computer-security/communication/session-b0e3193c
 #### Keet
 
 
-Keet, lansiran 2022. godine od strane Holepunch-a (kompanije koju podržavaju Tether i Bitfinex), ističe se svojim radikalno decentralizovanim pristupom: Sve komunikacije (poruke, audio i video pozivi, prenosi fajlova, itd.) odvijaju se direktno između korisnika, bez prolaska kroz bilo koji centralni server. Ova P2P arhitektura eliminiše posrednike i značajno poboljšava poverljivost i otpornost sistema.
+Keet, lansiran 2022. godine od strane Holepunch-a (kompanije koju podržavaju Tether i Bitfinex), ističe se svojim radikalno decentralizovanim pristupom: sve komunikacije (poruke, audio i video pozivi, prenosi fajlova, itd.) odvijaju se direktno između korisnika, bez prolaska kroz bilo koji centralni server. Ova P2P arhitektura eliminiše posrednike i značajno poboljšava poverljivost i otpornost sistema.
 
 
 ![Image](assets/fr/153.webp)
 
 
-Keet šifrira sve komunikacije od kraja do kraja. Registracija je potpuno anonimna: nije potreban broj telefona, e-mail Address ili identifikator. Ovo osigurava poboljšanu poverljivost od trenutka aktivacije usluge. Video pozivi su najvišeg kvaliteta, a prenos datoteka je neograničene veličine, što ga čini pogodnim za profesionalnu i ličnu upotrebu.
+Keet šifrira sve komunikacije od kraja do kraja. Registracija je potpuno anonimna: nije potreban broj telefona, e-mail adresa ili identifikator. Ovo osigurava poboljšanu poverljivost od trenutka aktivacije usluge. Video pozivi su najvišeg kvaliteta, a prenos datoteka je neograničene veličine, što ga čini pogodnim za profesionalnu i ličnu upotrebu.
 
 
-S druge strane, iako su neki komponenti (kriptografija i umrežavanje) objavljeni kao open-source na GitHub-u, Keet-ov Interface klijent nije bio potpuno otvoren u vreme pisanja SCU-202 (maj 2025). Međutim, Holepunch je najavio svoju nameru da u budućnosti objavi ceo kod.
+S druge strane, iako su neke komponente (kriptografija i umrežavanje) objavljene kao open-source na GitHub-u, Keet-ov klijentski interface nije bio potpuno otvoren u vreme pisanja SCU-202 (maj 2025). Međutim, Holepunch je najavio svoju nameru da u budućnosti objavi ceo kod.
 
 
-Keet je dostupan na Android, iOS, Windows, macOS i Linux, i može se sinhronizovati između uređaja koristeći Mnemonic frazu.
+Keet je dostupan na Android, iOS, Windows, macOS i Linux platformi, i može se sinhronizovati između uređaja koristeći mnemoničku frazu.
 
 
 https://planb.academy/tutorials/computer-security/communication/keet-efdb759d-5e94-4bbf-b28c-5fa8669c809b
 
-#### Zaboravi
+#### Olvid
 
 
-Olvid, launched in 2019, is a French encrypted messaging service. Its strong point: Registration without any personal data. Identification is based on a direct Exchange of cryptographic keys between users.
-
+Olvid, pokrenut 2019. godine, je francuski servis za enkriptovanu razmenu poruka. Njegova glavna prednost: registracija bez ikakvih ličnih podataka. Identifikacija se zasniva na direktnoj razmeni kriptografskih ključeva između korisnika.
 
 ![Image](assets/fr/154.webp)
 
 
-Tehnički, poruke na Olvidu su šifrovane od kraja do kraja, koristeći vlasnički protokol posebno dizajniran da zaštiti ne samo sadržaj poruka, već i metapodatke: Niko, uključujući centralni server, ne može znati ko komunicira sa kim, niti kada. Ovaj model značajno smanjuje rizike od špijunaže i nadzora.
+Tehnički, poruke na Olvidu su enkriptovane od kraja do kraja, koristeći vlasnički protokol posebno dizajniran da zaštiti ne samo sadržaj poruka, već i metapodatke: niko, uključujući centralni server, ne može znati ko komunicira sa kim, niti kada. Ovaj model značajno smanjuje rizike od špijunaže i nadzora.
 
 
 Međutim, serverska infrastruktura ostaje vlasnička i centralizovana, hostovana na AWS (*Amazon Web Services*). Klijentski kod je otvorenog koda već nekoliko godina, ali serverski kod nije objavljen, što ograničava tehničku transparentnost sistema.
 
 
-Olvidov bezbednosni model zasnovan je na važnom principu: Potpuno odsustvo pouzdane treće strane u uspostavljanju digitalnih identiteta. Za razliku od većine sistema za šifrovanu razmenu poruka, koji se oslanjaju na centralizovani imenik za upravljanje korisničkim identitetima, Olvid ne zavisi od bilo kakve centralizovane infrastrukture da bi garantovao integritet komunikacija. Ova arhitektura eliminiše rizike povezane sa kompromitovanjem imenika.
+Olvidov bezbednosni model počiva na ključnom principu: digitalni identiteti se uspostavljaju bez ikakve pouzdane treće strane. Za razliku od većine sistema za enkriptovanu razmenu poruka, koji se oslanjaju na centralizovani imenik za upravljanje korisničkim identitetima, Olvid ne zavisi od bilo kakve centralizovane infrastrukture da bi garantovao integritet komunikacija. Ova arhitektura eliminiše rizike povezane sa kompromitovanjem imenika.
 
 
-Olvid koristi centralni server za distribuciju poruka, ali njegova uloga je strogo logistička: On upravlja asinhronim prenosom enkriptovanih poruka. Ovaj server nije uključen ni u jednu fazu procesa enkripcije i ne zna stvarni identitet korisnika, niti sadržaj ili metapodatke poruka (izuzev javnog ključa primaoca, koji je potreban za rutiranje). Stoga se može smatrati neprijateljskim po defaultu, bez ugrožavanja ukupne sigurnosti. Čak i ako bi bio kompromitovan, ne bi omogućio pristup sadržaju komunikacija. Olvid stoga pretpostavlja centralizovanu distribuciju poruka (iz razloga efikasnosti i kvaliteta usluge), dok garantuje sigurnost nezavisnu od ove infrastrukture.
+Olvid koristi centralni server za distribuciju poruka, ali njegova uloga je strogo logistička: on upravlja asinhronim prenosom enkriptovanih poruka. Ovaj server nije uključen ni u jednu fazu procesa enkripcije i ne zna stvarni identitet korisnika, niti sadržaj ili metapodatke poruka (izuzev javnog ključa primaoca, koji je potreban za rutiranje). Stoga se može smatrati neprijateljskim po defaultu, bez ugrožavanja ukupne sigurnosti. Čak i ako bi bio kompromitovan, ne bi omogućio pristup sadržaju komunikacija. Olvid stoga pretpostavlja centralizovanu distribuciju poruka (iz razloga efikasnosti i kvaliteta usluge), dok garantuje sigurnost nezavisnu od ove infrastrukture.
 
 
 Olvid nudi dve verzije:
 
 
 
-- Besplatna verzija, koja nudi sve funkcije osim audio i video poziva (samo primanje) i sinhronizacije na više uređaja
-- Plaćena verzija po ceni od €4.99 mesečno otključava sve funkcije.
+- besplatnu verziju, koja nudi sve funkcije osim audio i video poziva (samo primanje) i sinhronizacije na više uređaja
+- plaćenu verziju po ceni od €4.99 mesečno otključava sve funkcije.
 
 
 Aplikacija je sertifikovana od strane ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*).
@@ -7170,7 +7161,7 @@ https://planb.academy/tutorials/computer-security/communication/olvid-05038dc1-6
 Popularne aplikacije za razmenu poruka kao što su WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat i LINE se svakodnevno široko koriste. Međutim, sa tehničke tačke gledišta, ove platforme ne ispunjavaju moderne sigurnosne standarde pogodne za privatne komunikacije.
 
 
-Generalno govoreći, dva osnovna kriterijuma koja treba uzeti u obzir prilikom odabira usluge za razmenu poruka su: Da li pruža end-to-end enkripciju i da li je njen kod otvorenog tipa? Zatim postoje i druge funkcije koje mogu biti zanimljive, kao što su anonimna registracija ili korišćenje decentralizovane mrežne arhitekture, ali ova prva dva Elements su osnova. Enkripcija garantuje poverljivost vaših razmena, dok otvaranje izvornog koda omogućava da proverite da li je enkripcija implementirana sigurno.
+Generalno govoreći, dva osnovna kriterijuma koja treba uzeti u obzir prilikom odabira usluge za razmenu poruka su: da li pruža end-to-end enkripciju i da li je njen kod otvorenog tipa? Zatim postoje i druge funkcije koje mogu biti zanimljive, kao što su anonimna registracija ili korišćenje decentralizovane mrežne arhitekture, ali ova prva dva elementa su osnova. Enkripcija garantuje poverljivost vaših razmena, dok otvaranje izvornog koda omogućava da proverite da li je enkripcija implementirana sigurno.
 
 
 Korišćenje usluga koje ne ispunjavaju ova dva preduslova je jednako potpunom delegiranju zaštite vaših razmena komercijalnim igračima čiji ekonomski interesi često zavise od njihovog iskorišćavanja.
@@ -7179,21 +7170,21 @@ Korišćenje usluga koje ne ispunjavaju ova dva preduslova je jednako potpunom d
 Evo sažeta tabela glavnih postojećih aplikacija za razmenu poruka i njihovih karakteristika, kako stoji u trenutku pisanja (maj 2025):
 
 
-| Application          | E2EE 1:1       | E2EE groups   | Anonymous registration | Client open-source license | Server open-source license | Decentralized server | Creation year |
+| Aplikacija          | E2EE 1:1       | E2EE grupe   | Anonimna registracija | Klijentska licenca otvorenog koda | Serverska licenca otvorenog koda | Decentralizovani server | Godina nastanka |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (opciono) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (opciono) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2014              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federisano)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (preko email-a)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federisano)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directory)   | 2019              |
+| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(bez globalnog imenika)   | 2019              |
 | Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
 | Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
 | Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
@@ -7205,10 +7196,10 @@ Evo sažeta tabela glavnih postojećih aplikacija za razmenu poruka i njihovih k
 Bezbednost vaših elektronskih komunikacija zavisi pre svega od izbora prave aplikacije i usvajanja najboljih praksi. Razumevanje osnovnih sigurnosnih mehanizama, identifikacija nedostataka u konvencionalnim rešenjima i izbor pouzdanih alternativa su suštinske osnove za komunikaciju bez prisluškivanja.
 
 
-Do sada smo istražili kako osigurati vaš pametni telefon i kako odabrati pouzdanu aplikaciju za razmenu poruka. U sledećem poglavlju, predlažem da proširimo ovu studiju na sve glavne porodice mobilnih aplikacija, kako bismo pronašli alternative koje poštuju privatnost vaših omiljenih aplikacija. Bilo da se radi o e-pošti, skladištenju datoteka, mapiranju, video ili muzičkom strimingu, koje su vam open-source aplikacije dostupne?
+Do sada smo istražili kako osigurati vaš pametni telefon i kako odabrati pouzdanu aplikaciju za razmenu poruka. U narednom poglavlju predlažem da ovu studiju proširimo na sve glavne kategorije mobilnih aplikacija, kako bismo pronašli alternative koje poštuju privatnost za vaše omiljene aplikacije. Bilo da je reč o e-pošti, skladištenju fajlova, mapama, video ili muzičkom strimovanju, koje open-source aplikacije su vam dostupne?
 
 
-## open-source aplikacije: najbolje alternative
+## Open-source aplikacije: najbolje alternative
 
 
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
@@ -7217,13 +7208,13 @@ Do sada smo istražili kako osigurati vaš pametni telefon i kako odabrati pouzd
 Osim aplikacija za instant poruke, važno je zapamtiti da druge aplikacije na vašem pametnom telefonu mogu iskoristiti vaše podatke u komercijalne svrhe. Srećom, postoje open-source alternative koje poštuju vašu privatnost. To je ono što bih želeo da vam predstavim u ovom poglavlju.
 
 
-Neću ponovo prelaziti preko alternativa za pretraživače i instant mesindžere ovde, jer smo ih već detaljno obradili u prethodnim poglavljima.
+Neću ponovo prelaziti preko alternativa za pretraživače i aplikacije za dopisivanje u realnom vremenu ovde, jer smo ih već detaljno obradili u prethodnim poglavljima.
 
 
-### E-poruke kupaca
+### e-poruke korisnika
 
 
-E-pošta ostaje osnovni alat za komunikaciju, ali najpopularnije aplikacije, kao što su Gmail ili Outlook, predstavljaju niz problema sa privatnošću. Ove usluge često analiziraju vaše poruke, čuvaju metapodatke i učestvuju u kreiranju reklamnih profila.
+E-pošta ostaje osnovni alat za komunikaciju, ali najpopularnije aplikacije, kao što su Gmail ili Outlook, nose sa sobom brojne rizike po privatnost. Ove usluge često analiziraju vaše poruke, čuvaju metapodatke i učestvuju u kreiranju reklamnih profila.
 
 
 **Alternative**:
@@ -7233,8 +7224,7 @@ E-pošta ostaje osnovni alat za komunikaciju, ali najpopularnije aplikacije, kao
 - [FairEmail](https://email.faircode.eu/)
 
 
-FairEmail je sveobuhvatna, sigurnosno orijentisana Android aplikacija. Podržava sve IMAP/SMTP provajdere, omogućava šifrovanje poruka putem OpenPGP-a, blokira udaljene slike (koje se koriste kao tragači) i ne koristi usluge trećih strana. Pruža vam detaljnu kontrolu nad konekcijama, obaveštenjima i ponašanjem sinhronizacije.
-
+FairEmail je sveobuhvatna, sigurnosno orijentisana Android aplikacija. Podržava sve IMAP/SMTP provajdere, omogućava šifrovanje poruka putem OpenPGP-a, blokira udaljene slike (koje se koriste kao tragači) i ne koristi usluge trećih strana. Pruža vam detaljnu kontrolu nad konekcijama, obaveštenjima i načinom sinhronizacije.
 
 ![Image](assets/fr/155.webp)
 
@@ -7253,7 +7243,7 @@ K-9 Mail je open-source Android klijent za e-poštu, nedavno integrisan u Mozill
 - [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
-Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta razvijenog od strane Mozilla Foundation. U skladu sa filozofijom projekta, aplikacija naglašava poverljivost, transparentnost koda i odsustvo nametljive telemetrije. Thunderbird Mobile je zasnovan na aplikaciji K-9 Mail, čiji je zvanični naslednik na Androidu. Pruža napredno upravljanje IMAP i POP nalozima, enkripciju e-mailova (putem OpenPGP), i jednostavan, efikasan Interface.
+Thunderbird Mobile je mobilna verzija popularnog open-source e-mail klijenta razvijenog od strane Mozilla Foundation. U skladu sa filozofijom projekta, aplikacija naglašava poverljivost, transparentnost koda i odsustvo nametljive telemetrije. Thunderbird Mobile je zasnovan na aplikaciji K-9 Mail, čiji je zvanični naslednik na Androidu. Pruža napredno upravljanje IMAP i POP nalozima, enkripciju e-mailova (putem OpenPGP), i jednostavan, efikasan interfejs.
 
 
 ![Image](assets/fr/157.webp)
@@ -7264,7 +7254,7 @@ https://planb.academy/tutorials/computer-security/communication/thunderbird-91d0
 - [Tuta](https://tuta.com/)
 
 
-Tuta (prethodno "*Tutanota*") nudi kompletno rešenje za e-poštu sa end-to-end enkripcijom, ali njegov mobilni klijent podržava samo Tuta naloge. Ne radi sa drugim provajderima. Interface je moderan i pregledan, a registracija ne zahteva lične podatke.
+Tuta (prethodno "*Tutanota*") nudi kompletno rešenje za e-poštu sa end-to-end enkripcijom, ali njegov mobilni klijent podržava samo Tuta naloge. Ne radi sa drugim provajderima. Interfejs je moderan i pregledan, a registracija ne zahteva lične podatke.
 
 
 ![Image](assets/fr/158.webp)
@@ -7280,13 +7270,13 @@ Proton Mail je sigurna švajcarska usluga za razmenu poruka koja nudi end-to-end
 ![Image](assets/fr/159.webp)
 
 
-Sistem e-pošte zasnovan je na 2 različite komponente: Provajder e-pošte (kao što su Gmail, Tuta ili Proton Mail), koji se bavi primanjem, slanjem i čuvanjem poruka putem servera; i klijent e-pošte, koji je aplikacija korišćena za pregled i pisanje vaših e-poruka (kao što su Gmail aplikacija, Outlook, K-9 Mail ili Thunderbird). Klijent može da se poveže sa različitim provajderima putem standardnih protokola kao što su IMAP ili SMTP.
+Sistem e-pošte zasnovan je na 2 različite komponente: provajdera e-pošte (kao što su Gmail, Tuta ili Proton Mail), koji se bavi primanjem, slanjem i čuvanjem poruka na serverima; i e-mail klijenta, aplikacije kojom pregledate i pišete svoje mejlove (kao što su Gmail aplikacija, Outlook, K-9 Mail ili Thunderbird). Klijent može da se poveže sa različitim provajderima putem standardnih protokola kao što su IMAP ili SMTP.
 
 
-Stoga je moguće koristiti klijent otvorenog koda koji poštuje privatnost, dok se u početku održava nalog kod tradicionalnijeg provajdera. Neke aplikacije, kao što su Gmail, Proton Mail ili Tuta, nude email klijente koji takođe deluju kao provajderi za razmenu poruka, i na taj način nude kompletno rešenje koje integriše i Interface čitanje i slanje/primanje email usluga.
+Stoga je moguće koristiti klijent otvorenog koda koji poštuje privatnost, dok se u početku održava nalog kod tradicionalnijeg provajdera. Neke aplikacije, kao što su Gmail, Proton Mail ili Tuta, nude e-mail klijente koji takođe deluju kao provajderi za razmenu poruka, i na taj način nude kompletno rešenje koje integriše i interfejs za čitanje i servis za slanje/primanje e-pošte..
 
 
-Evo nekoliko predloga, gde birate svog provajdera e-pošte:
+Evo nekoliko predloga, kada birate svog provajdera e-pošte:
 
 
 
@@ -7313,7 +7303,7 @@ Većina klasičnih aplikacija za mapiranje, kao što su Google Maps, Waze ili Ci
 Organic Maps je besplatna offline navigaciona aplikacija. Bazira se na podacima sa [OpenStreetMap](https://www.openstreetmap.org), otvorene, kolaborativne baze podataka. Preuzimate mape regiona koji vas zanimaju, a zatim navigirate bez mreže.
 
 
-Ne sadrži reklame, praćenje ili prikupljanje podataka. Aplikacija je posebno pogodna za putovanja peške, biciklom ili automobilom, sa Interface jednostavnom, brzom i bez ometanja.
+Ne sadrži reklame, praćenje ili prikupljanje podataka. Aplikacija je posebno pogodna za putovanja peške, biciklom ili automobilom, sa jednostavnim, brzim i bez ometanja interfejsom.
 
 
 ![Image](assets/fr/160.webp)
@@ -7323,7 +7313,7 @@ Ne sadrži reklame, praćenje ili prikupljanje podataka. Aplikacija je posebno p
 - [OsmAnd](https://osmand.net/)
 
 
-OsmAnd (*OpenStreetMap Automated Navigation Directions*) je još jedna sveobuhvatna aplikacija za mape otvorenog koda. Nudi offline GPS navigaciju, detaljne mape (uključujući staze, biciklističke staze i oblike terena) i opsežnu prilagodbu.
+OsmAnd (*OpenStreetMap Automated Navigation Directions*) je još jedna sveobuhvatna aplikacija za mape otvorenog koda. Nudi offline GPS navigaciju, detaljne mape (uključujući staze, biciklističke staze i oblike terena) i široke mogućnosti prilagođavanja.
 
 
 Možete aktivirati različite slojeve (pešačke zone, javni prevoz, itd.), definisati upozorenja o brzini ili integrisati specijalizovane mape kao što su one za planinarenje ili nautičke rute.
@@ -7335,7 +7325,7 @@ Besplatna verzija je već veoma bogata, a plaćena verzija vam omogućava da otk
 ![Image](assets/fr/161.webp)
 
 
-### Automatizacija kancelarije i dokumenti
+### Kancelarijski softver i dokumenti
 
 
 Klasični kancelarijski alati kao što su Google Docs ili Microsoft Office su veoma praktični, ali predstavljaju ozbiljne probleme sa poverljivošću. Dokumenti se čuvaju na njihovim serverima, analiziraju i ponekad koriste u marketinške svrhe ili za obuku AI modela.
@@ -7348,7 +7338,7 @@ Klasični kancelarijski alati kao što su Google Docs ili Microsoft Office su ve
 - [Collabora Office](https://www.collaboraoffice.com/)
 
 
-Collabora Office je mobilna verzija LibreOffice-a, dizajnirana za Android i iOS pametne telefone i tablete. Omogućava vam kreiranje, uređivanje i deljenje kancelarijskih dokumenata bez napuštanja vašeg uređaja ili ličnog oblaka.
+Collabora Office je mobilna verzija LibreOffice-a, dizajnirana za Android i iOS pametne telefone i tablete. Omogućava vam kreiranje, uređivanje i deljenje kancelarijskih dokumenata bez napuštanja vašeg uređaja ili ličnog oblaka (eng. cloud).
 
 
 Aplikacija podržava kolaborativno uređivanje kada je povezana sa Nextcloud instancom sa Collabora Online ekstenzijom. Ovo omogućava reprodukciju iskustva sličnog Google Docs-u, ali uz samostalno hostovanje vaših fajlova.
@@ -7367,7 +7357,7 @@ ONLYOFFICE je kancelarijski paket otvorenog koda. Omogućava vam da otvorite i u
 ![Image](assets/fr/163.webp)
 
 
-### Upravljač datotekama i oblak
+### Menadžer fajlovima i cloud servis
 
 
 Usluge kao što su Google Drive ili Dropbox čuvaju vaše fajlove na udaljenim serverima koji pripadaju privatnim kompanijama. Vaši podaci mogu biti skenirani i korišćeni za reklamne ili statističke svrhe. Štaviše, potreban vam je internet priključak i nalog treće strane da biste im pristupili.
@@ -7396,7 +7386,7 @@ Na Androidu, možete instalirati zvaničnu Nextcloud mobilnu aplikaciju da prist
 Material Files je menadžer datoteka otvorenog koda koji je lagan i pregledan. Omogućava vam pregledanje, premještanje, kopiranje ili brisanje datoteka lokalno na vašem Android uređaju.
 
 
-Aplikacija ne sadrži reklame ili trackere i ne zahteva zloupotrebljavajuće dozvole. To je zanimljiva alternativa Google-ovom pretraživaču datoteka, često integrisanom u druge vlasničke cloud usluge.
+Aplikacija ne sadrži reklame ili sisteme za praćenje (trackere) i ne zahteva zloupotrebljavajuće dozvole. To je zanimljiva alternativa Google-ovom pretraživaču datoteka, često integrisanom u druge vlasničke cloud usluge.
 
 
 ![Image](assets/fr/165.webp)
@@ -7435,7 +7425,7 @@ Ova aplikacija je deo paketa "*Simple Mobile Tools*". Ne zahteva nalog ili prist
 - [Tuta Calendar](https://tuta.com/calendar)
 
 
-Tuta Calendar, razvijen od strane tima iza Tuta Mail-a, je potpuno end-to-end šifrovani kalendar dizajniran da vaše događaje drži poverljivim. Radi na Androidu, iOS-u i putem web klijenta. Čak su i naslovi, opisi i metapodaci vaših događaja šifrovani, osiguravajući da nijedna treća strana, uključujući Tuta, ne može pristupiti vašim podacima.
+Tuta Calendar, razvijen od strane tima iza Tuta Mail-a, je potpuno end-to-end enkriptovani kalendar dizajniran da vaše događaje drži poverljivim. Radi na Androidu, iOS-u i putem web klijenta. Čak su i naslovi, opisi i metapodaci vaših događaja šifrovani, osiguravajući da nijedna treća strana, uključujući Tuta, ne može pristupiti vašim podacima.
 
 
 ![Image](assets/fr/168.webp)
@@ -7445,7 +7435,7 @@ Tuta Calendar, razvijen od strane tima iza Tuta Mail-a, je potpuno end-to-end š
 - [Proton Calendar](https://proton.me/calendar)
 
 
-Proton Calendar takođe nudi end-to-end enkripciju za vaše događaje i njihove metapodatke. Dostupan je na mobilnim uređajima (Android, iOS) i putem web klijenta, sa jasnim i intuitivnim Interface. Usluga omogućava kreiranje više kalendara, uvoz/izvoz događaja i opcije deljenja. Web klijent je open-source, ali mobilne aplikacije još uvek nisu potpuno open-source.
+Proton Calendar takođe nudi end-to-end enkripciju za vaše događaje i njihove metapodatke. Dostupan je na mobilnim uređajima (Android, iOS) i putem web klijenta, sa jasnim i intuitivnim interfejsom. Usluga omogućava kreiranje više kalendara, uvoz/izvoz događaja i opcije deljenja. Web klijent je open-source, ali mobilne aplikacije još uvek nisu potpuno open-source.
 
 
 ![Image](assets/fr/169.webp)
@@ -7464,7 +7454,7 @@ Aplikacije kao što su Evernote, Google Keep ili OneNote koriste se za beleženj
 - [Quillpad](https://quillpad.github.io/)
 
 
-Quillpad je lagana aplikacija dizajnirana posebno za beleške u Markdown formatu. Omogućava vam da opcionalno šifrujete svoje beleške, organizujete sadržaj po oznakama i bojama, i dodajete podsetnike. Sve funkcioniše bez naloga ili veze, a podaci ostaju sačuvani na vašem uređaju. Takođe mogu biti sačuvani šifrovani na pCloud-u.
+Quillpad je lagana aplikacija dizajnirana posebno za beleške u Markdown formatu. Omogućava vam da opcionalno enkriptujete svoje beleške, organizujete sadržaj po oznakama i bojama, i dodajete podsetnike. Sve funkcioniše bez naloga ili veze, a podaci ostaju sačuvani na vašem uređaju. Takođe mogu biti sačuvani šifrovani na pCloud-u.
 
 
 ![Image](assets/fr/170.webp)
@@ -7477,7 +7467,7 @@ Quillpad je lagana aplikacija dizajnirana posebno za beleške u Markdown formatu
 Joplin je sveobuhvatnije rešenje, koje nudi sinhronizaciju enkriptovanih beleški putem kompatibilnih servisa kao što su Nextcloud, Dropbox ili WebDAV. Možete upravljati jednostavnim ili strukturiranim beleškama (u Markdown formatu), klasifikovati vaše dokumente, pa čak i uvoziti priloge datoteka.
 
 
-Njegov Interface je malo složeniji od QuillNote-a, ali je i dalje savršeno upotrebljiv na mobilnim uređajima i pogodan za ličnu i profesionalnu upotrebu.
+Njegov interfejs je malo složeniji od QuillNote-a, ali je i dalje savršeno upotrebljiv na mobilnim uređajima i pogodan za ličnu i profesionalnu upotrebu.
 
 
 ![Image](assets/fr/171.webp)
@@ -7486,7 +7476,7 @@ Njegov Interface je malo složeniji od QuillNote-a, ali je i dalje savršeno upo
 ### Menadžer lozinki
 
 
-Mnogi korisnici dozvoljavaju svojim pregledačima da čuvaju njihove lozinke putem rešenja kao što je Google Password Manager. Iako je zgodno, ovaj tip centralizovanog upravljanja ne nudi korisnički kontrolisanu end-to-end enkripciju i izlaže vaše akreditive riziku ukoliko vaš Google nalog bude kompromitovan. Za sigurnije i suverenije upravljanje vašim lozinkama, dostupno je nekoliko open-source alternativa.
+Mnogi korisnici dozvoljavaju svojim pregledačima da čuvaju njihove lozinke putem rešenja kao što je Google Password Manager. Iako je zgodno, ovaj tip centralizovanog upravljanja ne nudi korisnički kontrolisanu end-to-end enkripciju i izlaže vaše kredencijale riziku ukoliko vaš Google nalog bude kompromitovan. Za sigurnije i suverenije upravljanje vašim lozinkama, dostupno je nekoliko open-source alternativa.
 
 
 **Alternative**:
@@ -7496,10 +7486,10 @@ Mnogi korisnici dozvoljavaju svojim pregledačima da čuvaju njihove lozinke put
 - [Bitwarden](https://bitwarden.com/)
 
 
-Bitwarden je jedan od najopsežnijih menadžera lozinki otvorenog koda koji su dostupni. Šifruje sve vaše akreditive lokalno, omogućava vam generate jake lozinke i nudi šifrovanu sinhronizaciju između uređaja.
+Bitwarden je jedan od najopsežnijih menadžera lozinki otvorenog koda koji su dostupni. Šifruje sve vaše kredencijale lokalno, omogućava vam da generišete jake lozinke i nudi šifrovanu sinhronizaciju između uređaja.
 
 
-Možete koristiti Bitwarden servere ili ga sami hostovati ako želite potpunu kontrolu. Njegov Interface mobilni je jasan i fluidan, sa besprekornom integracijom u Android ili iOS sistem.
+Možete koristiti Bitwarden servere ili ga sami hostovati ako želite potpunu kontrolu. Njegov mobilni interfejs je jasan i fluidan, sa besprekornom integracijom sa Android ili iOS sistemima.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -7508,13 +7498,13 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 - [KeePassDX](https://www.keepassdx.com/)
 
 
-KeePass je istorijski menadžer lozinki zasnovan na šifrovanim lokalnim fajlovima. Na mobilnim uređajima, KeePassDX je odlična Android implementacija, kompatibilna sa svim KeePass bazama podataka. Radi offline, bez oblaka, što ga čini dobrim rešenjem za one koji žele da zadrže svoje podatke 100% lokalno.
+KeePass je istorijski menadžer lozinki zasnovan na enkriptovanim lokalnim fajlovima. Na mobilnim uređajima, KeePassDX je odlična Android implementacija, kompatibilna sa svim KeePass bazama podataka. Radi offline, bez oblaka, što ga čini dobrim rešenjem za one koji žele da zadrže svoje podatke 100% lokalno.
 
 
 ![Image](assets/fr/172.webp)
 
 
-Tu je i [KeePassium](https://keepassium.com/) za iOS, dobro integrisana aplikacija u Apple ekosistem, kompatibilna sa KeePass formatom i otvorenog koda. Druga iOS alternativa za KeePass klijent je Strongbox, ali ovaj softver nije bio otvorenog koda već nekoliko godina.
+Tu je i [KeePassium](https://keepassium.com/) za iOS, dobro integrisana aplikacija u Apple ekosistem, kompatibilna sa KeePass formatom i otvorenog koda. Druga iOS alternativa za KeePass klijent je Strongbox, ali ovaj softver već nekoliko godina nije open-source.
 
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
@@ -7523,7 +7513,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 - [Proton Pass](https://proton.me/pass)
 
 
-Pokrenut od strane Proton tima (poznatog po Proton Mail i Proton Drive, između ostalog), Proton Pass kombinuje jednostavnost korišćenja, end-to-end enkripciju i privatnosti naklonjenu švajcarsku infrastrukturu. Mobilna aplikacija je intuitivna, omogućava dodavanje sigurnih beleški i podržava automatsko popunjavanje. To je odlična alternativa za one koji žele rešenje po principu "ključ u ruke", bez brige o tehničkom upravljanju.
+Pokrenut od strane Proton tima (poznatog po Proton Mail-u i Proton Drive-u, između ostalog), Proton Pass kombinuje jednostavnost korišćenja, end-to-end enkripciju i švajcarsku infrastrukturu koja je prijateljska prema privatnosti. Mobilna aplikacija je intuitivna, omogućava dodavanje sigurnih beleški i podržava automatsko popunjavanje. To je odlična alternativa za one koji žele rešenje po principu "ključ u ruke", bez brige o tehničkom upravljanju.
 
 
 ![Image](assets/fr/173.webp)
@@ -7532,7 +7522,7 @@ Pokrenut od strane Proton tima (poznatog po Proton Mail i Proton Drive, između 
 ### VPN
 
 
-VPN-ovi (*Virtual Private Network*) omogućavaju vam da šifrujete vaš internet saobraćaj i usmerite ga kroz udaljeni posrednički server. Ovo prikriva vaš IP Address, osigurava vaše veze na javnim mrežama (aerodromski Wi-Fi, kafići...) i štiti vas od određenih oblika nadzora.
+VPN-ovi (*Virtual Private Network*) omogućavaju vam da enkriptujete vaš internet saobraćaj i usmerite ga kroz udaljeni posrednički server. Ovo prikriva vašu IP adresu, osigurava vaše veze na javnim mrežama (aerodromski Wi-Fi, kafići...) i štiti vas od određenih oblika nadzora.
 
 
 Međutim, nisu svi VPN-ovi jednaki. Popularne usluge kao što su NordVPN ili ExpressVPN dobro funkcionišu, ali njihov pristup ostaje komercijalan, sa modelom zasnovanim na praćenju korisnika radi optimizacije marketinga. Takođe zahtevaju kreiranje naloga i često prikupljaju više podataka nego što to priznaju.
@@ -7545,7 +7535,7 @@ Međutim, nisu svi VPN-ovi jednaki. Popularne usluge kao što su NordVPN ili Exp
 - [Mullvad VPN](https://mullvad.net/)
 
 
-Mullvad je jedan od najboljih VPN-ova u smislu zaštite privatnosti. Ne zahteva email ili lozinku: Vaš nalog je povezan sa jednostavnim nasumičnim brojem. Plaćanje se može izvršiti u bitkoinima ili gotovinom. Mobilni klijent je open-source, jednostavan za korišćenje i moćan. Mullvad ne čuva logove, ne prati svoje korisnike i redovno objavljuje nezavisne bezbednosne revizije.
+Mullvad je jedan od najboljih VPN-ova u smislu zaštite privatnosti. Ne zahteva email ili lozinku: vaš nalog je povezan sa jednostavnim nasumičnim brojem. Plaćanje se može izvršiti u bitkoinima ili gotovinom. Mobilni klijent je open-source, jednostavan za korišćenje i moćan. Mullvad ne čuva logove, ne prati svoje korisnike i redovno objavljuje nezavisne bezbednosne revizije.
 
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -7554,7 +7544,7 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 - [IVPN](https://www.ivpn.net/)
 
 
-IVPN je još jedna odlična alternativa fokusirana na privatnost. Nudi jednostavan i efikasan mobilni Interface, bez prikupljanja logova, i omogućava anonimnu registraciju. Takođe možete platiti u bitkoinima. Aplikacija uključuje firewall koji blokira sav saobraćaj van VPN-a, što može biti veoma korisno na pametnom telefonu. Klijenti su open-source.
+IVPN je još jedna odlična alternativa fokusirana na privatnost. Nudi jednostavan i efikasan mobilni interfejs, bez prikupljanja logova, i omogućava anonimnu registraciju. Takođe možete platiti u bitkoinima. Aplikacija uključuje firewall koji blokira sav saobraćaj van VPN-a, što može biti veoma korisno na pametnom telefonu. Klijenti (aplikacije) su otvorenog koda.
 
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -7563,7 +7553,7 @@ https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 - [Proton VPN](https://protonvpn.com/)
 
 
-Razvijen od strane Proton tima, ovaj VPN nudi besplatan plan bez reklama. Proton VPN je baziran u Švajcarskoj, podložan strogim zakonima o privatnosti, i objavljuje redovne revizije. Njegovi klijenti su takođe otvorenog koda.
+Razvijen od strane Proton tima, ovaj VPN nudi besplatan plan bez reklama. Proton VPN je baziran u Švajcarskoj, podložan strogim zakonima o privatnosti, i objavljuje redovne revizije. Klijentske aplikacije su takođe otvorenog koda.
 
 
 ![Image](assets/fr/174.webp)
@@ -7572,7 +7562,7 @@ Razvijen od strane Proton tima, ovaj VPN nudi besplatan plan bez reklama. Proton
 ### 2FA autentifikacija
 
 
-Dvofaktorska autentifikacija (2FA) je dodatni Layer nivo sigurnosti povrh vaše lozinke. Često se oslanja na jednokratni kod koji se generiše svakih 30 sekundi putem aplikacije za autentifikaciju. Ovaj kod se zasniva na tajni koja se deli između vašeg uređaja i online servisa, prema TOTP (*Time-based One-Time Password*) protokolu. Najpoznatija aplikacija je Google Authenticator, ali nije otvorenog koda i čini vas zavisnim od Google ekosistema.
+Dvofaktorska autentifikacija (2FA) je dodatni nivo sigurnosti povrh vaše lozinke. Često se oslanja na jednokratni kod koji se generiše svakih 30 sekundi putem aplikacije za autentifikaciju. Ovaj kod se zasniva na tajni koja se deli između vašeg uređaja i online servisa, prema TOTP (*Time-based One-Time Password*) protokolu. Najpoznatija aplikacija je Google Authenticator, ali nije otvorenog koda i čini vas zavisnim od Google ekosistema.
 
 
 **Alternative**:
@@ -7582,7 +7572,7 @@ Dvofaktorska autentifikacija (2FA) je dodatni Layer nivo sigurnosti povrh vaše 
 - [Aegis Authenticator](https://getaegis.app/)
 
 
-Aegis je sveobuhvatna aplikacija otvorenog koda. Šifrira vašu 2FA bazu podataka pomoću lozinke, nudi izvozive rezervne kopije (takođe šifrovane) i omogućava vam da sortirate svoje naloge po direktorijumu. Interface je jasan, moderan i lak za vraćanje na novom uređaju, sve dok imate rezervnu datoteku i pripadajuću lozinku.
+Aegis je sveobuhvatna aplikacija otvorenog koda. Enkriptuje vašu 2FA bazu podataka pomoću lozinke, omogućava preuzimanje rezervnih kopija (takođe enkriptovane) i omogućava vam da sortirate svoje naloge po direktorijumu. Interfejs je jasan, moderan i lak za vraćanje na novom uređaju, sve dok imate rezervnu datoteku i pripadajuću lozinku.
 
 
 ![Image](assets/fr/175.webp)
@@ -7596,7 +7586,7 @@ Ente Auth je moderno, open-source, multiplatformsko rešenje sa end-to-end enkri
 
 
 https://planb.academy/tutorials/computer-security/authentication/ente-auth-1928e65a-3b43-40f3-9efd-457ee2d79bb9
-Ente Auth nudi mnoge dodatne funkcije: Organizacija po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisana pretraga, sigurno deljenje kodova sa timom.
+Ente Auth nudi mnoge dodatne funkcije: organizaciju po oznakama, prilagođene ikone za svaku uslugu, beleške, omiljene stavke, integrisanu pretragu, sigurno deljenje kodova sa timom.
 
 
 ![Image](assets/fr/176.webp)
@@ -7617,7 +7607,7 @@ Ako želite da saznate više o menadžerima lozinki, 2FA autentifikaciji i VPN-o
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-### Vreme
+### aplikacije za vremensku prognozu
 
 
 Klasične vremenske aplikacije kao što su AccuWeather ili Météo France često prikupljaju lične podatke, uključujući vašu preciznu lokaciju, navike korišćenja, a ponekad čak i identifikatore uređaja, u komercijalne ili reklamne svrhe. Ove usluge se takođe oslanjaju na centralizovane vlasničke API-je, ograničavajući vašu kontrolu nad tim koji podaci se prikazuju ili prenose.
@@ -7630,7 +7620,7 @@ Klasične vremenske aplikacije kao što su AccuWeather ili Météo France često
 - [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
-Geometric Weather nudi detaljne prognoze i prilagodljive widgete, sve bez reklama ili nametljivog prikupljanja podataka. Njegov kod je otvorenog tipa. Aplikacija podržava nekoliko provajdera vremenskih uslova.
+Geometric Weather nudi detaljne prognoze i prilagodljive widgete, sve bez reklama ili nametljivog prikupljanja podataka. Njegov kod je otvorenog tipa. Aplikacija podržava nekoliko provajdera vremenskih podataka.
 
 
 ![Image](assets/fr/177.webp)
@@ -7640,7 +7630,7 @@ Geometric Weather nudi detaljne prognoze i prilagodljive widgete, sve bez reklam
 - [Prognoza](https://github.com/davidtakac/prognoza)
 
 
-Prognoza je minimalistička aplikacija koja ide pravo na stvar: Prikazivanje trenutnog vremena i prognoza. Nudi nekoliko widgeta. Prognoza je bez reklama, bez praćenja i ne zahteva nepotrebne dozvole.
+Prognoza je minimalistička aplikacija koja ide pravo na stvar: prikazivanje trenutnog vremena i prognoza. Nudi nekoliko widgeta. Prognoza je bez reklama, bez praćenja i ne zahteva nepotrebne dozvole.
 
 
 ![Image](assets/fr/178.webp)
@@ -7656,13 +7646,13 @@ Jednostavna vremenska aplikacija, zasnovana na OpenWeatherMap, otvorenog koda, p
 ![Image](assets/fr/179.webp)
 
 
-Općenitije, na vremenskim aplikacijama, bolje je ručno konfigurirati lokacije koje vas zanimaju nego aktivirati automatsku geolokaciju.
+Šire gledano, kod aplikacija za vremensku prognozu bolje je ručno podesiti lokacije koje vas zanimaju nego uključivati automatsku geolokaciju.
 
 
 ### Strimovanje audio/video
 
 
-Popularne platforme kao što su Spotify ili YouTube nude besprekorno korisničko iskustvo, ali po cenu značajnog kompromisa po pitanju privatnosti. Ove usluge konstantno prikupljaju podatke o ponašanju: Istorija gledanja ili slušanja, vreme provedeno, preferencije sadržaja, korišćeni uređaj. Ove informacije se često koriste za profilisanje ili ciljanje.
+Popularne platforme kao što su Spotify ili YouTube nude besprekorno korisničko iskustvo, ali po cenu značajnog kompromisa po pitanju privatnosti. Ove usluge konstantno prikupljaju podatke o ponašanju: istorija gledanja ili slušanja, provedeno vreme, preferencije sadržaja, korišćeni uređaj. Ove informacije se često koriste za profilisanje ili za ciljano oglašavanje.
 
 
 **Alternative**:
@@ -7672,7 +7662,7 @@ Popularne platforme kao što su Spotify ili YouTube nude besprekorno korisničko
 - [LibreTube](https://libretube.dev/)
 
 
-LibreTube je Android aplikacija koja vam omogućava da gledate YouTube video zapise bez Google praćenja. Svi zahtevi se preusmeravaju putem Piped proxy servera, koji anonimizuje pristup video zapisima. Njegov Interface je moderan, brz i bez reklama. Aplikacija ne zahteva Google nalog i omogućava vam da anonimno pretplatite na kanale ili kreirate lokalne plejliste.
+LibreTube je Android aplikacija koja vam omogućava da gledate YouTube video zapise bez Google praćenja. Svi zahtevi se preusmeravaju putem Piped proxy servera, koji anonimizuje pristup video zapisima. Njegov interfejs je moderan, brz i bez reklama. Aplikacija ne zahteva Google nalog i omogućava vam da anonimno pretplatite na kanale ili kreirate lokalne plejliste.
 
 
 ![Image](assets/fr/180.webp)
@@ -7715,7 +7705,7 @@ Virtuelne tastature kao što su Google-ov Gboard ili Microsoft-ov SwiftKey su sv
 - [OpenBoard](https://github.com/dslul/openboard)
 
 
-OpenBoard je minimalistička, open-source Android tastatura zasnovana na AOSP (*Android open-source Project*) tastaturi. Ne sadrži vlasničke komponente ili trackere i nikada ne komunicira sa udaljenim serverima. Autokorekcija, prediktivno kucanje i lični rečnik funkcionišu isključivo lokalno.
+OpenBoard je minimalistička, open-source Android tastatura zasnovana na AOSP (*Android open-source Project*) tastaturi. Ne sadrži vlasničke komponente ili sisteme za praćenje (trackere) i nikada ne komunicira sa udaljenim serverima. Autokorekcija, prediktivno kucanje i lični rečnik funkcionišu isključivo lokalno.
 
 
 
@@ -7731,7 +7721,7 @@ FlorisBoard nudi moderniji, modularni pristup. Takođe je open-source i integri�
 ### Kalkulator
 
 
-Aplikacija Google Kalkulator, iako efikasna, i dalje je Google proizvod i dolazi sa uobičajenim rizicima povezanim sa prikupljanjem podataka i zavisnošću od centralizovanog ekosistema.
+Aplikacija Google Calculator, iako efikasna, i dalje je Google-ov proizvod i dolazi sa uobičajenim rizicima povezanim sa prikupljanjem podataka i zavisnošću od centralizovanog ekosistema.
 
 
 **Alternative**:
@@ -7750,7 +7740,7 @@ OpenCalc je brz i jednostavan za korišćenje kalkulator otvorenog koda, savrše
 ### Prodavnica aplikacija
 
 
-Google Play Store je podrazumevani izvor aplikacija na većini Android pametnih telefona. Međutim, duboko je integrisan sa Google uslugama i uključuje sistematsko prikupljanje podataka, čak i tokom jednostavnih pretraga ili ažuriranja.
+Google Play Store je podrazumevani izvor aplikacija na većini Android pametnih telefona. Međutim, duboko je integrisan sa Google servisima i uključuje sistematsko prikupljanje podataka, čak i tokom jednostavnih pretraga ili ažuriranja.
 
 
 **Alternative**:
@@ -7760,7 +7750,7 @@ Google Play Store je podrazumevani izvor aplikacija na većini Android pametnih 
 - [F-Cold](https://f-droid.org/)
 
 
-F-Droid je isključivo katalog aplikacija otvorenog koda. Sav dostupni softver je slobodno proverljiv i preuzimljiv, bez oglašavanja, praćenja ili zavisnosti od Google usluga. Sama F-Droid aplikacija ne zahteva korisnički nalog.
+F-Droid je isključivo katalog aplikacija otvorenog koda. Sav dostupni softver je slobodno proverljiv i preuzimljiv, bez oglašavanja, praćenja ili zavisnosti od Google servisa. Sama F-Droid aplikacija ne zahteva korisnički nalog.
 
 
 ![Image](assets/fr/184.webp)
@@ -7770,7 +7760,7 @@ F-Droid je isključivo katalog aplikacija otvorenog koda. Sav dostupni softver j
 - [Aurora Store](https://auroraoss.com/)
 
 
-Aurora Store vam omogućava pristup katalogu Google Play Store anonimno, bez Google naloga. To je besplatan klijent koji direktno komunicira sa Google serverima, dok maskira vaš identitet putem generičkog naloga. To je vredno rešenje za nastavak korišćenja određenih neophodnih vlasničkih: Aplikacija, dok se izbegava telemetrija Google Play-a.
+Aurora Store vam omogućava pristup katalogu Google Play Store-a anonimno, bez Google naloga. To je besplatan klijent koji direktno komunicira sa Google serverima, dok maskira vaš identitet putem generičkog naloga. To je vredno rešenje za nastavak korišćenja određenih neophodnih vlasničkih aplikacija, dok se izbegava telemetrija Google Play-a.
 
 
 ### Vesti
@@ -7792,7 +7782,7 @@ Aplikacija *News*, koju je razvio Bubelov, nudi radikalno drugačiji pristup. To
 ### Kontakt
 
 
-Google Kontakti, kao i mnoge podrazumevane aplikacije na Androidu, trajno sinhronizuju vaše Address knjige sa Google serverima. To znači da su sve informacije o vašim kontaktima (imena, brojevi, e-mailovi, ponekad poštanske adrese ili fotografije) pohranjene online i povezane sa vašim nalogom. Ova centralizacija olakšava pravljenje rezervnih kopija i sinhronizaciju, ali postavlja velike probleme privatnosti.
+Google Contacts, kao i mnoge podrazumevane aplikacije na Androidu, trajno sinhronizuju vaše imenike sa Google serverima. To znači da su sve informacije o vašim kontaktima (imena, brojevi, e-mailovi, ponekad poštanske adrese ili fotografije) skladištene online i povezane sa vašim nalogom. Ova centralizacija olakšava pravljenje rezervnih kopija i sinhronizaciju, ali postavlja velike probleme privatnosti.
 
 
 **Alternative**:
@@ -7802,13 +7792,13 @@ Google Kontakti, kao i mnoge podrazumevane aplikacije na Androidu, trajno sinhro
 - [Connect You](https://github.com/you-apps/ConnectYou)
 
 
-Connect You je lagana, pregledna open-source alternativa, dizajnirana za one koji žele da upravljaju svojim kontaktima lokalno, bez prikupljanja podataka ili prisilne sinhronizacije sa cloud-om treće strane. Nudi intuitivni Interface, olakšava sortiranje, pretragu i uređivanje vaših unosa, i može se integrisati sa CalDAV uslugama ako koristite server za kontakte koji sami hostujete (putem Nextcloud-a, na primer).
+Connect You je lagana, pregledna open-source alternativa, dizajnirana za one koji žele da upravljaju svojim kontaktima lokalno, bez prikupljanja podataka ili prisilne sinhronizacije sa cloud-om treće strane. Nudi intuitivni interfejs, olakšava sortiranje, pretragu i uređivanje vaših unosa, i može se integrisati sa CalDAV uslugama ako koristite server za kontakte koji sami hostujete (putem Nextcloud-a, na primer).
 
 
 ### Upravljanje fotografijama
 
 
-Google Photos je odličan za automatsko čuvanje slika u oblaku, njihovo organizovanje ili pronalaženje putem prepoznavanja lica. Ali ova jednostavnost prikriva sistematsku obradu vaših podataka: Svaka slika se analizira, indeksira i povezuje sa vašim drugim Google podacima. Vaše fotografije mogu postati dodatni izvor informacija, iskorišćen u komercijalne svrhe.
+Google Photos je odličan za automatsko čuvanje slika u oblaku, njihovo organizovanje ili pronalaženje putem prepoznavanja lica. Ali ova jednostavnost prikriva sistematsku obradu vaših podataka: svaka slika se analizira, indeksira i povezuje sa vašim drugim Google podacima. Vaše fotografije mogu postati dodatni izvor informacija, iskorišćen u komercijalne svrhe.
 
 
 **Alternative**:
@@ -7818,14 +7808,14 @@ Google Photos je odličan za automatsko čuvanje slika u oblaku, njihovo organiz
 - [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Gallery je minimalistička aplikacija otvorenog koda koja radi potpuno offline. Deo je paketa *Simple Mobile Tools*. Omogućava vam upravljanje, sortiranje, pregled i uređivanje slika bez ikakvog prenosa podataka sa vašeg uređaja. Takođe sadrži funkcije retuširanja, zaštitu lozinkom i kantu za otpatke za oporavak obrisanih stavki. Bez praćenja, bez prisilne sinhronizacije: Vaše fotografije ostaju sa vama.
+Simple Gallery je minimalistička aplikacija otvorenog koda koja radi potpuno offline. Deo je paketa *Simple Mobile Tools*. Omogućava vam upravljanje, sortiranje, pregled i uređivanje slika bez ikakvog prenosa podataka sa vašeg uređaja. Takođe sadrži funkcije retuširanja, zaštitu lozinkom i kantu za otpatke za oporavak obrisanih stavki. Bez praćenja, bez prisilne sinhronizacije: vaše fotografije ostaju sa vama.
 
 
 
 - [Aves](https://github.com/deckerst/aves)
 
 
-Aves je alternativa sa modernijim Interface. Omogućava glatku navigaciju kroz albume i naprednu organizaciju (oznake, filteri, sortiranje, itd.). Ne zahteva internet konekciju za rad i ne prikuplja korisničke podatke.
+Aves je alternativa sa modernijim interfejsom. Omogućava glatku navigaciju kroz albume i naprednu organizaciju (oznake, filteri, sortiranje, itd.). Ne zahteva internet konekciju za rad i ne prikuplja korisničke podatke.
 
 
 ![Image](assets/fr/185.webp)
@@ -7845,7 +7835,7 @@ Ente Photos je open-source usluga (klijenti + serveri) za automatsko pravljenje 
 - [Stingle Photos](https://stingle.org/)
 
 
-Stingle je i galerija fotografija i aplikacija za kameru, kombinovana sa uslugom šifrovane rezervne kopije. Kao Ente, fotografije su zaštićene end-to-end enkripcijom. Možete koristiti njihov cloud servis (1 GB besplatno) ili sami hostovati Stingle server za potpunu kontrolu. Interface je jednostavan, bez reklama ili trackera.
+Stingle je i galerija fotografija i aplikacija za kameru, kombinovana sa uslugom enkriptovane rezervne kopije. Kao Ente, fotografije su zaštićene end-to-end enkripcijom. Možete koristiti njihov cloud servis (1 GB besplatno) ili sami hostovati Stingle server za potpunu kontrolu. Interfejs je jednostavan, bez reklama ili trackera.
 
 
 ![Image](assets/fr/187.webp)
@@ -7857,14 +7847,14 @@ Stingle je i galerija fotografija i aplikacija za kameru, kombinovana sa uslugom
 **Alternative**:
 
 
-Adobe Acrobat Reader, široko korišćen za čitanje ili anotiranje PDF dokumenata, dolazi sa brojnim online funkcijama koje mogu izložiti vaše podatke: Aktivna telemetrija, sinhronizacija sa oblakom i prikupljanje informacija o vašim fajlovima ili navikama čitanja.
+Adobe Acrobat Reader, široko korišćen za čitanje ili anotiranje PDF dokumenata, dolazi sa brojnim online funkcijama koje mogu izložiti vaše podatke: aktivna telemetrija, sinhronizacija sa oblakom i prikupljanje informacija o vašim fajlovima ili navikama čitanja.
 
 
 
 - [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
 
-MuPDF Viewer je ultra-lagan, brz i potpuno open-source PDF čitač. Troši vrlo malo resursa. Iako ne nudi napredne funkcije kao što su anotacije ili potpisivanje, savršeno obavlja svoj posao: Prikazivanje vaših dokumenata, bez špijuniranja.
+MuPDF Viewer je ultra-lagan, brz i potpuno open-source PDF čitač. Troši vrlo malo resursa. Iako ne nudi napredne funkcije kao što su anotacije ili potpisivanje, savršeno obavlja svoj posao: prikazivanje vaših dokumenata, bez špijuniranja.
 
 
 
@@ -7887,7 +7877,7 @@ Googleova aplikacija Phone, instalirana po defaultu na mnogim Android pametnim t
 - [Koler](https://github.com/Chooloo/koler)
 
 
-Koler je aplikacija za telefoniju otvorenog koda dizajnirana da bude lepa, laka za korišćenje i prijateljska prema privatnosti. Nudi fluidan i intuitivan Interface za upravljanje vašim pozivima, bez tragača ili analize ličnih podataka. Međutim, trenutno ne uključuje napredno filtriranje poziva ili integraciju sa uslugama trećih strana.
+Koler je aplikacija za telefoniju otvorenog koda dizajnirana da bude lepa, laka za korišćenje i prijateljska prema privatnosti. Nudi fluidan i intuitivan interfejs za upravljanje vašim pozivima, bez tragača ili analize ličnih podataka. Međutim, trenutno ne uključuje napredno filtriranje poziva ili integraciju sa uslugama trećih strana.
 
 
 ![Image](assets/fr/188.webp)
@@ -7896,7 +7886,7 @@ Koler je aplikacija za telefoniju otvorenog koda dizajnirana da bude lepa, laka 
 ### Prevod
 
 
-Google Translate je merilo u automatskom prevođenju, ali njegova upotreba sistematski podrazumeva slanje svih vaših upita Google-u, sa ugrađenim praćenjem i mogućim prikupljanjem osetljivih podataka (Prevedeni tekstovi, istorija, itd.).
+Google Translate je merilo u automatskom prevođenju, ali njegova upotreba sistematski podrazumeva slanje svih vaših upita Google-u, sa ugrađenim praćenjem i mogućim prikupljanjem osetljivih podataka (prevedeni tekstovi, istorija, itd.).
 
 
 **Alternative**:
@@ -7906,10 +7896,10 @@ Google Translate je merilo u automatskom prevođenju, ali njegova upotreba siste
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
-TranslateYou je aplikacija za prevođenje otvorenog koda koja poštuje privatnost svojih korisnika. Radi kao Interface za različite prevodilačke motore (LibreTranslate, LingvaTranslate, Mozhi, DeepL, itd.) i omogućava vam da izaberete uslugu koja ne iskorišćava vaše podatke.
+TranslateYou je aplikacija za prevođenje otvorenog koda koja poštuje privatnost svojih korisnika. Radi kao interfejs za različite prevodilačke motore (LibreTranslate, LingvaTranslate, Mozhi, DeepL, itd.) i omogućava vam da izaberete uslugu koja ne iskorišćava vaše podatke.
 
 
-Bez oglasa, bez praćenja i jednostavan za korišćenje Interface čine TranslateYou praktičnom alternativom za Google Translate.
+Bez oglasa, bez praćenja i jednostavan za korišćenje interfejs čine TranslateYou praktičnom alternativom za Google Translate.
 
 
 ![Image](assets/fr/189.webp)
@@ -7934,7 +7924,7 @@ OpenFoodFacts je mnogo transparentnija i privatnosti prijatnija alternativa. Ova
 Mobilna aplikacija vam omogućava da skenirate bar kodove, odmah pristupite podacima o proizvodima i sami doprinesete bazi podataka. Potpuno je besplatna za korišćenje, bez reklama ili praćenja.
 
 
-### Deljenje u blizini
+### Deljenje sa onima u blizini
 
 
 Funkcije kao što su Quick Share (Android) ili AirDrop (iOS/macOS) omogućavaju vam slanje fajlova između obližnjih uređaja putem Bluetooth-a i direktnog Wi-Fi-ja, bez internet konekcije. One su praktične, ali se oslanjaju na zatvorene sisteme, ponekad povezane sa Google, Samsung ili Apple nalozima.
@@ -7960,14 +7950,14 @@ Zanimljiva alternativa je [PairDrop](https://github.com/schlagmichdoch/pairdrop)
 - [Warpinator](https://github.com/linuxmint/warpinator)
 
 
-Warpinator, razvijen od strane Linux Mint-a, olakšava prenos fajlova između uređaja povezanih na istu Wi-Fi mrežu. Radi peer-to-peer, bez oblaka ili servera treće strane, sa jednostavnim Interface. Postoje portovi za Android, omogućavajući prenos fajlova između telefona i računara.
+Warpinator, razvijen od strane Linux Mint-a, olakšava prenos fajlova između uređaja povezanih na istu Wi-Fi mrežu. Radi peer-to-peer, bez oblaka ili servera treće strane, sa jednostavnim interfejsom. Postoje portovi za Android, omogućavajući prenos fajlova između telefona i računara.
 
 
 
 - [LocalSend](https://localsend.org/)
 
 
-LocalSend je još jedna besplatna, potpuno opremljena alternativa sa urednim Interface. Potpuno open-source, ova aplikacija omogućava decentralizovane, end-to-end enkriptovane prenose fajlova između uređaja povezanih na istu lokalnu mrežu. Ne koriste se posrednički serveri, što osigurava da vaši podaci nikada ne napuštaju vašu kućnu mrežu.
+LocalSend je još jedna besplatna, potpuno opremljena alternativa sa urednim interfejsom. Potpuno open-source, ova aplikacija omogućava decentralizovane, end-to-end enkriptovane prenose fajlova između uređaja povezanih na istu lokalnu mrežu. Ne koriste se posrednički serveri, što osigurava da vaši podaci nikada ne napuštaju vašu kućnu mrežu.
 
 
 ![Image](assets/fr/190.webp)
@@ -7976,7 +7966,7 @@ LocalSend je još jedna besplatna, potpuno opremljena alternativa sa urednim Int
 ### Knjige
 
 
-Aplikacije kao što je Goodreads, iako se široko koriste, postavljaju ozbiljna pitanja privatnosti. Ova platforma je u vlasništvu Amazona, koji prikuplja mnogo podataka o vašem čitanju, preferencijama, ocenama i recenzijama. Pored toga, Interface se u velikoj meri oslanja na praćenje korisnika i analizu ponašanja u komercijalne svrhe.
+Aplikacije kao što je Goodreads, iako se široko koriste, postavljaju ozbiljna pitanja privatnosti. Ova platforma je u vlasništvu Amazona, koji prikuplja mnogo podataka o vašem čitanju, preferencijama, ocenama i recenzijama. Pored toga, interfejs se u velikoj meri oslanja na praćenje korisnika i analizu ponašanja u komercijalne svrhe.
 
 
 **Alternative**:
@@ -7999,7 +7989,7 @@ Openreads je open-source alternativa za praćenje čitanja koja poštuje privatn
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
 
-Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan Interface, bez reklama ili prikupljanja podataka. Omogućava vam kreiranje prilagodljivih alarma: ponavljanje prema određenim danima ili vremenskim intervalima, izbor zvuka, progresivni intenzitet, vibracija, ili čak zadaci koji se moraju izvršiti da bi se alarm deaktivirao (rešavanje proračuna, ponovno čitanje teksta, itd.).
+Dostupan na F-Droid-u i potpuno otvorenog koda, Chrono nudi moderan, pregledan interfejs, bez reklama ili prikupljanja podataka. Omogućava vam kreiranje prilagodljivih alarma: ponavljanje prema određenim danima ili vremenskim intervalima, izbor zvuka, progresivni intenzitet, vibracija, ili čak zadaci koji se moraju izvršiti da bi se alarm deaktivirao (rešavanje proračuna, ponovno čitanje teksta, itd.).
 
 
 Aplikacija takođe integriše tajmer i štopericu, sa snimanjem krugova, statistikom, poređenjem vremena i upravljanjem više tajmera. Možete konfigurisati više vremenskih zona, prilagoditi temu (boje, stilove, animacije), pa čak i organizovati svoje alarme i tajmere sa oznakama.
@@ -8030,13 +8020,13 @@ ___
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
 
-Digitalna sigurnost često počinje dobrim poznavanjem kućne mreže. Vaša kućna mreža je prva tačka ulaska Interneta u vaše lično okruženje, a upravo Internet predstavlja najveću pretnju i vašoj sigurnosti i vašoj privatnosti.
+Digitalna bezbednost često počinje dobrim poznavanjem kućne mreže. Vaša kućna mreža je prva tačka ulaska interneta u vaše lično okruženje, a upravo internet predstavlja najveću pretnju i vašoj sigurnosti i vašoj privatnosti.
 
 
 Razumevanje kako vaša lokalna mreža funkcioniše, kako vaši podaci teku i koji uređaji su odgovorni za upravljanje tim tokovima je ključno za vašu digitalnu suverenost.
 
 
-U ovom poglavlju ćemo postepeno istraživati osnovne pojmove kućnog umrežavanja, od objašnjenja šta je Internet do konkretnih detalja kao što su dodela lokalnih IP adresa i uloga rutera. Cilj je da se ponovo prođu teorijske osnove koje su neophodne za pravilno razumevanje narednog poglavlja, koje će se baviti praktičnijim aspektima.
+U ovom poglavlju ćemo postepeno istraživati osnovne pojmove kućnog umrežavanja, od objašnjenja šta je internet do konkretnih detalja kao što su dodela lokalnih IP adresa i uloga rutera. Cilj je da se ponovo prođu teorijske osnove koje su neophodne za pravilno razumevanje narednog poglavlja, koje će se baviti praktičnijim aspektima.
 
 
 ### Internet
@@ -8051,13 +8041,13 @@ Istorija interneta seže do kasnih 1960-ih, u kontekstu naučnih i vojnih istra�
 ![Image](assets/fr/191.webp)
 
 
-Cilj je bio i da se dizajnira otporna mreža, sposobna da nastavi sa radom čak i ako deo njenih čvorova bude uništen (neophodnost usred rata Cold). ARPANET je omogućio prve komunikacije između udaljenih računara 1969. godine.
+Cilj je bio i da se dizajnira otporna mreža, sposobna da nastavi sa radom čak i ako deo njenih čvorova bude uništen (neophodnost usred hladnog rata). ARPANET je omogućio prve komunikacije između udaljenih računara 1969. godine.
 
 
 ![Image](assets/fr/192.webp)
 
 
-Tokom decenija, projekat se proširio, posebno sa standardizacijom TCP/IP protokola 1983. godine, koji su postali zajednička tehnička osnova celog Interneta. Tokom 1990-ih, pojava *World Wide Web*-a, o kojoj je bilo reči u prethodnom poglavlju, učinila je Internet dostupnim široj javnosti pojednostavljujući pristup dokumentima putem pregledača. Ova velika prekretnica transformisala je Internet u univerzalni alat za komunikaciju i informacije.
+Tokom decenija, projekat se proširio, posebno sa standardizacijom TCP/IP protokola 1983. godine, koji je postao zajednička tehnička osnova celog interneta. Tokom 1990-ih, pojava *World Wide Web*-a, o kojoj je bilo reči u prethodnom poglavlju, učinilo je internet dostupnim široj javnosti pojednostavljujući pristup dokumentima putem pregledača. Ova velika prekretnica transformisala je internet u univerzalni alat za komunikaciju i informacije.
 
 
 #### Šta je Internet?
@@ -8066,12 +8056,12 @@ Tokom decenija, projekat se proširio, posebno sa standardizacijom TCP/IP protok
 Internet, što doslovno znači "međusobno povezana mreža", globalna je infrastruktura koja omogućava milijardama uređaja da komuniciraju međusobno. To nije jedna usluga, niti specifična lokacija, već zbirka javnih i privatnih računarskih mreža, međusobno povezanih na planetarnom nivou. Svaki učesnik (privatno lice, kompanija, javna vlast, itd.) može povezati svoju mrežu sa ostatkom sveta, pod uslovom da se pridržava određenih standardizovanih tehničkih protokola koji omogućavaju uređajima da se međusobno razumeju.
 
 
-Infrastruktura Interneta se uglavnom zasniva na dva protokola:
+Infrastruktura interneta se uglavnom zasniva na dva protokola:
 
 
 
-- **IP** (*Internet Protocol*) Identifikuje svaki povezani uređaj i usmerava pakete podataka.
-- **TCP** (*Transmission Control Protocol*) Segmentira tok, proverava greške i vraća segmente u ispravan redosled.
+- **IP** (*Internet Protocol*) - Identifikuje svaki povezani uređaj i usmerava pakete podataka.
+- **TCP** (*Transmission Control Protocol*) - Segmentira tok, proverava greške i vraća segmente u ispravan redosled.
 
 
 → Za upotrebe u realnom vremenu gde je pouzdanost manje važna od kašnjenja (VoIP, DNS, streaming, itd.), često se koristi drugi transportni protokol umesto TCP: UDP (*User Datagram Protocol*).
@@ -8080,22 +8070,22 @@ Infrastruktura Interneta se uglavnom zasniva na dva protokola:
 Ova dva protokola rade zajedno kako bi osigurali da poruke poslate sa jedne tačke na drugu stignu kompletne i u pravom redosledu.
 
 
-U konkretnim terminima, kada posetite veb-sajt, na primer tako što ukucate Address u vaš pretraživač, nekoliko operacija se pokreće u pozadini. Prvo, vaš računar ili pametni telefon mora da konvertuje čitljivi Address (kao što je `planb.network`) u IP Address, koristeći uslugu zvanu DNS (*Domain Name System*). Kada se IP Address veb servera dobije, podaci mogu biti poslati na svoje odredište.
+U konkretnim terminima, kada posetite veb-sajt, na primer tako što ukucate adresu u vaš pretraživač, nekoliko operacija se pokreće u pozadini. Prvo, vaš računar ili pametni telefon mora da konvertuje čitljivu adresu (kao što je `planb.network`) u IP adresu, koristeći servis zvanim DNS (*Domain Name System*). Kada se IP adresa veb servera dobije, podaci mogu biti poslati na svoje odredište.
 
 
-Ovi podaci zatim prate složen put. Prvo prolaze kroz vaš kućni ruter i modem, pre nego što stignu do infrastrukture vašeg ISP-a. Odatle potencijalno prelaze nekoliko međumreža (ponekad transokeanske kablove, tranzitne rutere, Internet Exchange tačke, itd.) pre nego što stignu do odredišta: Servera sajta koji želite da posetite. Taj server zatim šalje podatke (sadržaj sajta) u suprotnom pravcu.
+Ovi podaci zatim prate složen put. Prvo prolaze kroz vaš kućni ruter i modem, pre nego što stignu do infrastrukture vašeg ISP-a. Odatle potencijalno prelaze nekoliko međumreža (ponekad transokeanske kablove, tranzitne rutere, internet razmenske tačke (eng. Internet exchange points- IXP), itd.) pre nego što stignu do odredišta: servera sajta koji želite da posetite. Taj server zatim šalje podatke (sadržaj sajta) u suprotnom pravcu.
 
 
 ![Image](assets/fr/193.webp)
 
 
-Internet se stoga može sažeti kao ogromna decentralizovana mreža, zasnovana na zajedničkim pravilima, gde svaki uređaj potencijalno može komunicirati sa drugim, gde god se nalazio u svetu. Ali dok ova otvorenost omogućava digitalne razmene, takođe zahteva da usvojite oprezan stav: Svaka online akcija prolazi kroz infrastrukture nad kojima nemate kontrolu, a poverljivost vaših razmena zavisi od toga kako konfigurišete i koristite ove alate.
+Internet se stoga može sažeti kao ogromna decentralizovana mreža, zasnovana na zajedničkim pravilima, gde svaki uređaj potencijalno može komunicirati sa drugim, gde god se nalazio u svetu. Ali dok ova otvorenost omogućava digitalne razmene, takođe zahteva da usvojite oprezan stav: svaka online akcija prolazi kroz infrastrukture nad kojima nemate kontrolu, a poverljivost vaših razmena zavisi od toga kako konfigurišete i koristite ove alate.
 
 
 ### Uloga modema i rutera
 
 
-U većini modernih domova, pristup Internetu se obezbeđuje putem centralnog uređaja koji funkcioniše kao modem i ruter. Naziv ovog uređaja varira od zemlje do zemlje (u Francuskoj se zove "Internet Box"). To je ovaj multifunkcionalni uređaj koji obezbeđuje ISP i koji vas povezuje sa ostatkom Internet mreže.
+U većini modernih domova, pristup internetu se obezbeđuje putem centralnog uređaja koji funkcioniše kao modem i ruter. Naziv ovog uređaja varira od zemlje do zemlje (u Francuskoj se zove "Internet Box"). Upravo ovaj multifunkcionalni uređaj koji obezbeđuje ISP je taj koji vas povezuje sa ostatkom internet mreže.
 
 
 → *ISP = Internet Service Provider.*
@@ -8105,26 +8095,26 @@ Ovaj uređaj kombinuje 2 glavne funkcije:
 
 
 
-- **Uloga modema**
+- **Ulogu modema**
 
 
-Modem (skraćeno od "*modulator-demodulator*") je komponenta koja povezuje mrežu vašeg ISP-a sa vašim domom. On prilagođava električne ili optičke signale primljene (putem optičkih vlakana, koaksijalnog kabla, ADSL-a ili mobilne mreže) u digitalne signale koje vaši uređaji mogu razumeti. Obrnuto, on konvertuje podatke sa vaše opreme u format koji se može preneti preko infrastrukture operatera. Ovaj korak je ključan ako vaša kućna mreža treba da komunicira sa Internetom.
+Modem (skraćeno od "*modulator-demodulator*") je komponenta koja povezuje mrežu vašeg ISP-a sa vašim domom. On prilagođava električne ili optičke signale primljene (putem optičkih vlakana, koaksijalnog kabla, ADSL-a ili mobilne mreže) u digitalne signale koje vaši uređaji mogu razumeti. Obrnuto, on konvertuje podatke sa vaše opreme u format koji se može preneti preko infrastrukture operatera. Ovaj korak je ključan ako vaša kućna mreža treba da komunicira sa internetom.
 
 
 
-- **Uloga rutera**
+- **Ulogu rutera**
 
 
-Ruter je srce vaše lokalne mreže. On distribuira Internet konekciju na sve vaše uređaje: Računare, pametne telefone, povezane objekte, štampače, itd. Dodeljuje svakom od njih lokalnu IP Address (različitu od vaše javne IP vidljive na Internetu). Ruter zatim organizuje dolazni i odlazni saobraćaj, osiguravajući da podaci stignu do pravog uređaja. Takođe može integrisati firewall, filtrirati mrežne pakete ili upravljati pravilima za prosleđivanje portova. NAT maskira vašu lokalnu mrežu od očiju Interneta, koristeći jednu javnu IP Address da predstavlja sve vaše uređaje. Samo ruter zna koji lokalni uređaj je inicirao koji zahtev.
+Ruter je srce vaše lokalne mreže. On distribuira internet konekciju na sve vaše uređaje: računare, pametne telefone, povezane objekte, štampače, itd. Dodeljuje svakom od njih lokalnu IP adresu (različitu od vaše javne IP vidljive na internetu). Ruter zatim organizuje dolazni i odlazni saobraćaj, osiguravajući da podaci stignu do pravog uređaja. Takođe može integrisati firewall, filtrirati mrežne pakete ili upravljati pravilima za prosleđivanje portova. NAT maskira vašu lokalnu mrežu od očiju interneta, koristeći jednu javnu IP adresu da predstavlja sve vaše uređaje. Samo ruter zna koji lokalni uređaj je inicirao koji zahtev.
 
 
-U nekim zemljama, ove dve funkcije su ponekad podeljene između dva odvojena uređaja: Modem i ruter.
+U nekim zemljama, ove dve funkcije su ponekad podeljene između dva odvojena uređaja: modema i rutera.
 
 
-U praksi, moderni modem ruter često uključuje i druge komplementarne funkcije: Wi-Fi pristupnu tačku, Ethernet prekidač, administraciju Interface, a ponekad čak i fajl server i druge karakteristike.
+U praksi, moderni modem-ruter često uključuje i druge komplementarne funkcije: Wi-Fi pristupnu tačku, Ethernet prekidač, administrativni interfejs, a ponekad čak i fajl server i druge karakteristike.
 
 
-Razumevanje uloge rutera-modema je ključni faktor u obezbeđivanju vaše lokalne mreže. Na neki način, ovaj uređaj formira granicu između spoljnog sveta (Interneta) i vašeg privatnog digitalnog okruženja. Nepravilna konfiguracija, slabe lozinke ili zastareli firmver mogu pretvoriti ovu kapiju u zjapeću rupu. Suprotno tome, dobro konfigurisani modem-ruter postaje bedem protiv upada.
+Razumevanje uloge rutera-modema je ključni faktor u obezbeđivanju vaše lokalne mreže. Na neki način, ovaj uređaj formira granicu između spoljnog sveta (interneta) i vašeg privatnog digitalnog okruženja. Nepravilna konfiguracija, slabe lozinke ili zastareli firmware mogu pretvoriti ovu kapiju u zjapeću rupu. Suprotno tome, dobro konfigurisani modem-ruter postaje bedem protiv upada.
 
 
 U sledećem poglavlju, pogledaćemo kako optimizovati ovu konfiguraciju, identifikovati uobičajene slabe tačke i povratiti kontrolu nad ovim uređajem.
@@ -8133,28 +8123,27 @@ U sledećem poglavlju, pogledaćemo kako optimizovati ovu konfiguraciju, identif
 ### Lokalna mreža (LAN)
 
 
-Lokalna mreža, ili "LAN" (*Local Area Network*), odnosi se na sve digitalne veze unutar vašeg doma. Uključuje sve uređaje povezane na vaš ruter: Računare, pametne telefone, tablete, štampače, itd.
+Lokalna mreža, ili "LAN" (*Local Area Network*), odnosi se na sve digitalne veze unutar vašeg doma. Uključuje sve uređaje povezane na vaš ruter: računare, pametne telefone, tablete, štampače, itd.
 
 
-Za razliku od Interneta, koji je globalna, javna mreža, lokalna mreža je privatni, delimično izolovani prostor dizajniran da omogući uređajima međusobnu komunikaciju, bez da njihova razmena napušta vaš dom. Na primer, kada pošaljete fajl sa svog računara na štampač povezan putem Wi-Fi-ja, ili kontrolišete povezanu sijalicu putem telefona, te komunikacije se odvijaju isključivo lokalno, bez prolaska kroz udaljeni server.
+Za razliku od interneta, koji je globalna, javna mreža, lokalna mreža je privatni, delimično izolovani prostor dizajniran da omogući uređajima međusobnu komunikaciju, bez da njihova razmena napušta vaš dom. Na primer, kada pošaljete fajl sa svog računara na štampač povezan putem Wi-Fi-ja, ili kontrolišete povezanu sijalicu putem telefona, te komunikacije se odvijaju isključivo lokalno, bez prolaska kroz udaljeni server.
 
 
 ![Image](assets/fr/194.webp)
 
 
-Ovo se zasniva na skupu standardnih tehnologija i protokola, od kojih je najvažniji IP protokol. Svakom uređaju na vašoj lokalnoj mreži dodeljuje se lokalni IP Address (obično u formatu `192.168.x.x`), koji služi za jedinstvenu identifikaciju unutar te mreže. Ovaj Address nije vidljiv sa Interneta. Samo vaš javni IP Address, koji dele svi uređaji putem modema, je izložen van vašeg doma.
+Ovo se zasniva na skupu standardnih tehnologija i protokola, od kojih je najvažniji IP protokol. Svakom uređaju na vašoj lokalnoj mreži dodeljuje se lokalna IP adresa (obično u formatu `192.168.x.x`), koji služi za jedinstvenu identifikaciju unutar te mreže. Ova adresa nije vidljiv sa interneta. Samo vaša javna IP adresa, koju dele svi uređaji putem modema, je vidljiva spolja, izvan vaše kućne mreže.
 
 
 Ali ova prividna izolacija ne bi trebalo da vam pruži lažan osećaj sigurnosti. Loše konfigurisana lokalna mreža može postati ulaz za napade, naročito u sledećim slučajevima:
 
 
 
-- Ako su otvorene usluge (kao što su deljenje fajlova ili administrativni interfejsi) dostupne sa Interneta
+- Ako su otvoreni servisi dostupni sa Interneta (poput deljenja fajlova ili administrativnih interfejsa) 
 - Ako Wi-Fi nije siguran (slaba lozinka ili zastareo sistem enkripcije)
-- Ako određeni povezani objekti komuniciraju sa spoljnim svetom u čistom tekstu ili ostavljaju otvorene portove
+- Ako određeni povezani uređaji komuniciraju sa spoljnim svetom bez enkripcije ili ostavljaju otvorene portove
 
-
-Zato je važno razumeti interne tokove vaše mreže i kontrolisati koji uređaji mogu međusobno komunicirati, kao i sa spoljnim svetom.
+Zato je važno razumeti interne tokove u vašoj mreži i kontrolisati koji uređaji mogu da komuniciraju, kako međusobno, tako i sa spoljnim svetom.
 
 
 ### Wi-Fi
@@ -8169,14 +8158,14 @@ Ali ova jednostavnost korišćenja dolazi sa sopstvenim rizicima. Za razliku od 
 ![Image](assets/fr/195.webp)
 
 
-Napadač sa pristupom vašoj Wi-Fi mreži mogao bi:
+Napadač sa pristupom vašoj Wi-Fi mreži mogao bi da:
 
 
 
-- Presretni nešifrovane podatke koji prolaze preko mreže (npr. DNS zahtevi ili HTTP saobraćaj)
-- Pristupite svojim datotekama ili uređajima ako su slabo zaštićeni
-- Ubacite zlonamerni sadržaj u vaš pregledač
-- Koristite vašu internet konekciju bez vašeg znanja, ili čak izvršite online napade sa vaše javne IP adrese Address
+- presretne nešifrovane podatke koji prolaze preko mreže (npr. DNS zahtevi ili HTTP saobraćaj)
+- pristupi tvojim datotekama ili uređajima ako su slabo zaštićeni
+- ubaci zlonamerni sadržaj u vaš pregledač
+- koristi vašu internet konekciju bez vašeg znanja, ili čak izvršava online napade sa vaše javne IP adrese
 
 
 Da biste se zaštitili od ovih pretnji, potrebno je da osigurate svoju Wi-Fi mrežu. Pogledaćemo kako to da uradimo u narednim poglavljima.
@@ -8185,10 +8174,10 @@ Da biste se zaštitili od ovih pretnji, potrebno je da osigurate svoju Wi-Fi mre
 ### Lokalne IP adrese
 
 
-Kada povežete uređaj na vašu kućnu mrežu, on dobija lokalni IP Address. Ovaj Address se sastoji od četiri broja odvojenih tačkama (npr. `192.168.1.14`). Koristi se za jedinstvenu identifikaciju svakog uređaja unutar vaše lokalne mreže. Zahvaljujući ovom Address vaš ruter zna kojem uređaju treba poslati podatke (na primer, veb stranicu ili video koji ste zatražili).
+Kada povežete uređaj na vašu kućnu mrežu, on dobija lokalnu IP adresu. Ova adresa se sastoji od četiri broja odvojenih tačkama (npr. `192.168.1.14`). Koristi se za jedinstvenu identifikaciju svakog uređaja unutar vaše lokalne mreže. Zahvaljujući ovoj adresi vaš ruter zna kojem uređaju treba poslati podatke (na primer, veb stranicu ili video koji ste zatražili).
 
 
-Važno je razumeti da ove lokalne IP adrese nisu vidljive sa Interneta. One pripadaju rezervisanim opsezima, definisanim međunarodnim standardima, koji ne mogu biti korišćeni na javnoj mreži. Tri najčešća lokalna IP Address opsega su:
+Važno je razumeti da ove lokalne IP adrese nisu vidljive sa interneta. One pripadaju rezervisanim opsezima, definisanim međunarodnim standardima, koji ne mogu biti korišćeni na javnoj mreži. Tri najčešća lokalna IP adresna opsega su:
 
 
 
@@ -8197,28 +8186,28 @@ Važno je razumeti da ove lokalne IP adrese nisu vidljive sa Interneta. One prip
 - `172.16.0.0` do `172.31.255.255`
 
 
-Isti uređaj može stoga imati IP Address kao `192.168.1.42` kod kuće, dok će drugi korisnik u drugoj zemlji imati drugi uređaj sa istim IP Address na svojoj lokalnoj mreži, bez ikakvog konflikta, jer te adrese ne napuštaju kućnu mrežu. Ruter je taj koji obezbeđuje vezu između vaše kućne mreže i javnog Interneta, prevodeći te adrese putem mehanizma zvanog "NAT" (*Network Address Translation*).
+Isti uređaj može stoga imati IP adresu kao `192.168.1.42` kod kuće, dok će drugi korisnik u drugoj zemlji imati drugi uređaj sa istom IP adresom na svojoj lokalnoj mreži, bez ikakvog konflikta, jer te adrese ne napuštaju kućnu mrežu. Ruter je taj koji obezbeđuje vezu između vaše kućne mreže i javnog interneta, prevodeći te adrese putem mehanizma zvanog "NAT" (*Network Address Translation*).
 
 
-Lokalne IP adrese se obično dodeljuju dinamički, koristeći DHCP (*Dynamic Host Configuration Protocol*). Kada povežete novi uređaj na mrežu, on šalje DHCP zahtev za Address, a ruter mu dodeljuje slobodan Address unutar definisanog opsega. Ovaj Address može varirati tokom vremena.
+Lokalne IP adrese se obično dodeljuju dinamički, koristeći DHCP (*Dynamic Host Configuration Protocol*). Kada povežete novi uređaj na mrežu, on šalje DHCP zahtev za adresu, a ruter mu dodeljuje slobodnu adresu unutar definisanog opsega. Ova adresa može varirati tokom vremena.
 
 
-Međutim, moguće je konfigurisati fiksne IP adrese za određene uređaje. To znači rezervisanje specifičnog Address za dati uređaj, na trajnoj osnovi. Ovo je korisno u brojnim slučajevima, na primer:
+Međutim, moguće je konfigurisati fiksne IP adrese za određene uređaje. To znači rezervisanje specifične adrese za dati uređaj, na trajnoj osnovi. Ovo je korisno u brojnim slučajevima, na primer:
 
 
 
-- Za lak pristup ličnom serveru ili NAS-u sa drugog uređaja
-- Da biste štampali na daljinu na mrežnom štampaču bez potrebe za traženjem njegovog Address
-- Da kreirate pravila za filtriranje ili prosleđivanje portova u vašem ruteru
+- radi lakšeg pristupa ličnom serveru ili NAS-u sa drugog uređaja
+- kako biste štampali na mrežnom štampaču sa daljine, bez potrebe da tražite njegovu adresu
+- radi kreiranja pravila za filtriranje ili prosleđivanje portova u vašem ruteru
 
 
 ### Mrežna priključnica
 
 
-Da biste razumeli kako lokalna mreža funkcioniše, potrebno je znati da je svaki IP Address (bilo lokalni ili javni) povezan sa nizom numeričkih portova, numerisanih od `0` do `65535`. Ovi portovi nisu fizički: Oni su virtuelne ulazne ili izlazne tačke koje omogućavaju aplikacijama i uslugama da komuniciraju preko mreže.
+Da biste razumeli kako lokalna mreža funkcioniše, potrebno je znati da je svaka IP adresa (bilo lokalna ili javna) povezana sa nizom numeričkih portova, numerisanih od `0` do `65535`. Ovi portovi nisu fizički: oni su virtuelne ulazne ili izlazne tačke koje omogućavaju aplikacijama i uslugama da komuniciraju preko mreže.
 
 
-Svaki put kada uređaj komunicira putem Interneta ili lokalne mreže, to čini kombinovanjem IP Address i broja porta. Ovo omogućava identifikaciju ne samo koji uređaj treba da primi podatke, već i koja specifična aplikacija ili usluga na tom uređaju. Na primer:
+Svaki put kada uređaj komunicira putem interneta ili lokalne mreže, to čini kombinovanjem IP adrese i broja porta. Ovo omogućava identifikaciju ne samo koji uređaj treba da primi podatke, već i koja specifična aplikacija ili usluga je na tom uređaju. Na primer:
 
 
 
@@ -8238,24 +8227,24 @@ Ovi portovi se takođe koriste u sistemima kao što su Bitcoin ili Tor, gde se s
 
 - Port `8333` se koristi za P2P konekcije na Bitcoin Mainnet
 - Port `18333` se koristi za P2P konekcije na Bitcoin Testnet
-- Port `8332` se koristi za Interface RPC čvora Bitcoin
+- Port `8332` se koristi za RPC interfejs Bitcoin [čvora](https://planb.academy/resources/glossary/node)
 - Port `9050` koristi Tor-ov SOCKS5 proxy
 - Port `9150` koristi Tor Browser
 
 
-Drugim rečima, port je kao posvećena vrata. Kada posetite web sajt, vaš računar otvara izvorni port i šalje zahtev ka IP adresi udaljenog sajta Address, ciljajući port `443` ako je veza šifrovana. Udaljeni server zatim vraća odgovor putem istog kanala. Na ruteru, ovaj pojam porta je važan: Potrebno je znati kojem uređaju i kojem lokalnom portu preusmeriti dolazne pakete podataka.
+Drugim rečima, port je kao posvećena vrata. Kada posetite web sajt, vaš računar otvara izvorni port (eng. source port) i šalje zahtev ka IP adresi udaljenog sajta, ciljajući port `443` ako je veza enkriptovana. Udaljeni server zatim vraća odgovor putem istog kanala. Na ruteru, ovaj pojam porta je važan: potrebno je znati kojem uređaju i kojem lokalnom portu preusmeriti dolazne pakete podataka.
 
 
-Ali ova sposobnost otvaranja portova takođe uvodi sigurnosni rizik. Port koji je nepotrebno ostavljen otvoren može biti otkriven alatima za skeniranje mreže i iskorišćen od strane napadača ako je povezan sa ranjivom ili pogrešno konfigurisanom uslugom. To je kao da ostavite vrata otvorena. Ali o tome više kasnije.
+Ali ova sposobnost otvaranja portova takođe uvodi sigurnosni rizik. Port koji je nepotrebno ostavljen otvoren može biti otkriven alatima za skeniranje mreže i iskorišćen od strane napadača ako je povezan sa ranjivim ili pogrešno konfigurisanim serverom. To je kao da ostavite vrata otvorena. Ali o tome više kasnije.
 
 
 Razumevanje osnovnog rada vaše kućne mreže je stoga veoma važno. Dobro poznavanje osnova vašeg modema, Wi-Fi-ja, rutera, lokalnih IP adresa i portova omogućava vam da identifikujete potencijalne rizike i postupite u skladu s tim kako biste ojačali svoju digitalnu sigurnost.
 
 
-U ovom poglavlju, obradili smo važne pojmove kućnog umrežavanja. U sledećem poglavlju, pogledaćemo kako u praksi obezbediti vašu lokalnu Internet infrastrukturu i kako pravilno konfigurisati vaš Wi-Fi da optimizujete vašu sigurnost.
+U ovom poglavlju, obradili smo važne pojmove kućnog umrežavanja. U sledećem poglavlju, pogledaćemo kako u praksi obezbediti vašu lokalnu internet infrastrukturu i kako pravilno konfigurisati vaš Wi-Fi da optimizujete vašu sigurnost.
 
 
-## Osigurajte svoju kućnu mrežu u samo nekoliko koraka
+## Obezbedite svoju kućnu mrežu u samo nekoliko koraka
 
 
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
@@ -8273,7 +8262,7 @@ Nakon pregleda teorijskih osnova, ovo poglavlje će vas voditi kroz jasne, prakt
 ### Odabir i osiguranje vaše mrežne opreme
 
 
-Bezbednost vaše kućne mreže počinje pravim izborom hardvera: rutera, ili u nekim slučajevima modemski ruter. Ovaj uređaj obezbeđuje vezu između vaše lokalne mreže i Interneta. Stoga igra centralnu ulogu u zaštiti vaših podataka.
+Bezbednost vaše kućne mreže počinje pravim izborom hardvera: rutera, ili u nekim slučajevima modem-ruter. Ovaj uređaj obezbeđuje vezu između vaše lokalne mreže i interneta. Stoga igra centralnu ulogu u zaštiti vaših podataka.
 
 
 Važno je odabrati modernu opremu, koju održava njen proizvođač, i koja je u skladu sa najnovijim bezbednosnim standardima. Danas (jun 2025), preporučuje se odabir uređaja kompatibilnog sa WPA3 (*Wi-Fi Protected Access 3*) enkripcijskim protokolom, koji je naslednik WPA2 i ispravlja nekoliko njegovih nedostataka. Konkretno, WPA3 poboljšava otpornost na brute-force napade na Wi-Fi lozinke i uvodi bolju izolaciju između klijenata na mreži.
@@ -8284,10 +8273,10 @@ Ruter kompatibilan sa Wi-Fi 6, Wi-Fi 6E ili Wi-Fi 7 pružiće vam poboljšane br
 
 **Pažnja**: Kao opšte pravilo, ruteri koje obezbeđuju internet provajderi mogu da nemaju osnovnu funkciju ažuriranja, kao i mogućnosti personalizacije. U nekim slučajevima, provajderi mogu imati i neograničen pristup unutrašnjoj mreži krajnjeg korisnika.
 
-Zato se pobrinite da sistematski ažurirate firmver vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem alata za administraciju vašeg rutera Interface. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - Na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
+Zato se pobrinite da sistematski ažurirate firmware vašeg rutera. Ova ažuriranja ispravljaju ranjivosti, dodaju nove funkcije i poboljšavaju ukupnu stabilnost sistema. Neki proizvođači nude automatska ažuriranja, ali u nekim slučajevima ćete morati ručno proveriti putem administratorskog interfejsa vašeg rutera. Kao i sa vašim telefonom, računarom, operativnim sistemom i softverom, važno je redovno ažurirati vaš ruter. Možete to učiniti delom vaše nedeljne rutine - na primer, svake nedelje - tako što ćete napraviti listu svih stavki koje treba proveriti i ažurirati.
 
 
-Alternativno, možete omogućiti automatska ažuriranja ili makar automatsko skeniranje novih ažuriranja firmvera ako više volite da postupate ručno. Iako funkcija automatskog ažuriranja i dalje može predstavljati bezbednosnu pretnju, neosvežavanje firmvera rutera redovno izložiće vašu lokalnu mrežu javno poznatim ranjivostima.
+Alternativno, možete omogućiti automatska ažuriranja ili makar automatsko skeniranje novih ažuriranja firmware-a ako više volite da postupate ručno. Iako funkcija automatskog ažuriranja i dalje može predstavljati bezbednosnu pretnju, neosvežavanje firmware-a rutera izložiće vašu lokalnu mrežu javno poznatim ranjivostima.
 
 **Primer**: Prilikom kupovine sopstvenog rutera, može biti dobra ideja potražiti etablirane firme u industriji koje dugo pružaju rutere na tržištu. Na primer, Fritz!Box ruteri imaju dugogodišnju reputaciju plug-and-play uređaja, pogodnih za upotrebu i u porodičnom okruženju i u malim preduzećima. Njihova politika ažuriranja softvera obično se proteže tokom više godina.
 
@@ -8296,10 +8285,10 @@ Ako vaš ruter više nije održavan ali i dalje radi ispravno sa stajališta har
 
 
 - OpenWrt, Linux distribucija specijalizovana za rutere, nudi veliku fleksibilnost i redovna ažuriranja
-- pfSense i OPNsense, dva sistema zasnovana na FreeBSD-u (slična Unix-u) za x86 vatrozide i rutere
+- pfSense i OPNsense, dva sistema zasnovana na FreeBSD-u (slična Unix-u) za x86 firewall-ove i rutere
 
 
-**Napomena**: Neki ISP-ovi isporučuju svojim korisnicima masovne rutere koje proizvodi jedna kompanija koja istovremeno opslužuje mnoge različite ISP-ove širom sveta. Možda ćete otkriti da je za instaliranje jednog od alternativnih firmvera na ruter neko drugi već otkrio kako to da uradi, čak i ako se nalazi na drugoj strani sveta.
+**Napomena**: Neki ISP-ovi isporučuju svojim korisnicima masovne rutere koje proizvodi jedna kompanija koja istovremeno opslužuje mnoge različite ISP-ove širom sveta. Možda ćete otkriti da je za instaliranje jednog od alternativnih firmware-a na ruter neko već pronašao način kako to učiniti, čak i ako se nalazi na drugom kraju sveta.
 
 ![Image](assets/fr/196.webp)
 
@@ -8309,49 +8298,49 @@ https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2
 
 https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
-Ovi sistemi omogućavaju precizniju kontrolu pravila vatrozida, odlaznih i dolaznih veza, segmentacije mreže (VLAN-ovi) i upravljanja DNS-om, ali su više namenjeni naprednim korisnicima.
+Ovi sistemi omogućavaju precizniju kontrolu firewall pravila, odlaznih i dolaznih veza, segmentacije mreže (VLAN-ovi) i upravljanja DNS-om, ali su više namenjeni naprednim korisnicima.
 
 
 **Da sumiram, preporučujem**:
 
 
 
-- Izaberite nedavni ruter
-- Ažurirajte svoj sistem redovno
-- Razmotrite alternativni firmware ako je potrebno
+- izbor novije verzije rutera
+- redovno ažurirajte svoj sistem
+- razmotrite alternativni firmware ako je potrebno
 
 
-### Promenite podrazumevane prijave i lozinke
+### Promenite podrazumevane korisničke naloge i lozinke
 
 
 Jedna od najčešćih (i najopasnijih) grešaka je zadržavanje podrazumevanih kredencijala koje obezbeđuje proizvođač rutera, ili korišćenje slabe lozinke.
 
 
-Istorijski gledano, podrazumevane akreditive za rutere bile su veoma nesigurne i često identične za sve korisnike, kao što je poznato `admin/admin`. Ovi osnovni akreditive bili su javni, dokumentovani u korisničkim priručnicima i široko zabeleženi u bazama podataka koje koriste napadači. U ovom slučaju, svako ko detektuje prisustvo vašeg rutera mogao bi pokušati neovlašćeni pristup jednostavno testiranjem ovih poznatih kombinacija.
+Istorijski gledano, podrazumevani kredencijali za rutere bile su veoma nesigurni i često identični za sve korisnike, kao što je poznato `admin/admin`. Ovi osnovni kredencijali bili su javni, dokumentovani u korisničkim priručnicima i široko zabeleženi u bazama podataka koje koriste napadači. U ovom slučaju, svako ko detektuje prisustvo vašeg rutera mogao bi pokušati neovlašćeni pristup jednostavno testiranjem ovih poznatih kombinacija.
 
 
-Danas većina proizvođača dodeljuje jedinstvenu, robusnu lozinku svakom ruteru. Međutim, čak i u ovom slučaju, preporučujem promenu podrazumevanih akreditiva. Ovo smanjuje rizike lanca Supply i sprečava da originalna lozinka (ponekad odštampana na etiketi rutera) ugrozi vašu sigurnost.
+Danas većina proizvođača dodeljuje jedinstvenu, robusnu lozinku svakom ruteru. Međutim, čak i u ovom slučaju, preporučujem promenu podrazumevanih kredencijala. Ovo smanjuje rizike lanca snabdevanja i sprečava da originalna lozinka (ponekad odštampana na etiketi rutera) ugrozi vašu sigurnost.
 
 
 Stoga je neophodno da odmah promenite svoje identifikatore nakon instalacije rutera:
 
 
 
-- Korisničko ime (ako je dostupno) administracije Interface
-- I iznad svega, administratorska lozinka, koja štiti pristup svim mrežnim konfiguracijama, kao i Wi-Fi lozinka
+- korisničko ime (ako je dostupno) administratorskog interfejsa
+- i iznad svega, administratorsku lozinku, koja štiti pristup svim mrežnim konfiguracijama, kao i Wi-Fi lozinke
 
 
-Ova lozinka mora biti dugačka (40 karaktera), složena (brojevi, mala slova, velika slova i simboli), jedinstvena (ne sme se ponovo koristiti na drugom mestu) i nasumična. Preporučujem korišćenje menadžera lozinki za generate i sigurno čuvanje ovih akreditiva.
+Ova lozinka mora biti dugačka (40 karaktera), složena (brojevi, mala slova, velika slova i simboli), jedinstvena (ne sme se ponovo koristiti na drugom mestu) i nasumična. Preporučujem korišćenje menadžera lozinki za generisanje i sigurno čuvanje ovih kredencijala.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Upozorenje: nemojte mešati administratorsku lozinku rutera (koja štiti pristup njegovoj konfiguraciji) sa Wi-Fi lozinkom (koja vam omogućava povezivanje na bežičnu mrežu). Ovo su dve različite Elements, i obe treba promeniti.
+Upozorenje: nemojte mešati administratorsku lozinku rutera (koja štiti pristup njegovoj konfiguraciji) sa Wi-Fi lozinkom (koja vam omogućava povezivanje na bežičnu mrežu). Ovo su dva različita elementa, i obe lozinke treba promeniti.
 
 
-Konačno, neki moderni ruteri imaju dva interfejsa za upravljanje: lokalni Interface web (dostupan putem Address kao što je `192.168.1.1`) i cloud Interface (omogućava daljinsko upravljanje putem Interneta). Ako je drugi podrazumevano omogućen, savetujem vam da ga onemogućite ako ga ne koristite, ili da pojačate njegovu sigurnost jakom lozinkom i, ako je dostupno, dvofaktorskom autentifikacijom (2FA).
+Konačno, neki moderni ruteri imaju dva interfejsa za upravljanje: lokalni web interfejs(dostupan putem adrese kao što je `192.168.1.1`) i cloud interfejs (omogućava daljinsko upravljanje putem interneta). Ako je drugi podrazumevano omogućen, savetujem vam da ga onemogućite ako ga ne koristite, ili da pojačate njegovu sigurnost jakom lozinkom i, ako je dostupno, dvofaktorskom autentifikacijom (2FA).
 
 
 ### Sigurna konfiguracija rutera
@@ -8374,14 +8363,14 @@ Ova funkcija omogućava uređajima na vašoj mreži da automatski zatraže od ru
 - WPS (*Wi-Fi Protected Setup*):
 
 
-Prvobitno dizajniran da pojednostavi povezivanje uređaja na Wi-Fi bez unosa lozinke, ovaj sistem se zasniva na PIN kodu koji je često slab i lako napadnut metodom brute force. Savetujem vam da ga onemogućite.
+Prvobitno dizajniran da pojednostavi povezivanje uređaja na Wi-Fi bez unosa lozinke, ovaj sistem se zasniva na PIN kodu koji je često slab i lako napadnut brute force metodom. Savetujem vam da ga onemogućite.
 
 
 
 - Daljinski pristup (**Remote Management**):
 
 
-Neki ruteri omogućavaju povezivanje na njihovu administraciju Interface spolja, putem Interneta. Ova funkcija nerazumno povećava površinu napada vašeg rutera. Onemogućite je u potpunosti, osim ako nemate specifičnu potrebu za daljinskim upravljanjem. Čak i tada, uvek koristite VPN.
+Neki ruteri omogućavaju povezivanje na njihov administratorski interfejs spolja, putem interneta. Ova funkcija nerazumno povećava površinu napada vašeg rutera. Onemogućite je u potpunosti, osim ako nemate specifičnu potrebu za daljinskim upravljanjem. Čak i tada, uvek koristite VPN.
 
 
 https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
@@ -8390,7 +8379,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 - **Zastareli ili nesigurni protokoli**:
 
 
-Onemogući sve administrativne usluge koje koriste protokole u običnom tekstu kao što su Telnet, FTP, nešifrovani HTTP ili SMBv1. Ovi protokoli ne obezbeđuju poverljivost niti integritet razmenjenih podataka i često su meta malvera. Ako vam je potreban lokalni ili daljinski pristup, koristite samo veze putem HTTPS (šifrovani Interface), SSH ili SFTP, prema potrebi.
+Onemogućite sve administrativne servise koji koriste protokole u običnom tekstu, kao što su Telnet, FTP, nešifrovani HTTP ili SMBv1. Ovi protokoli ne obezbeđuju poverljivost niti integritet razmenjenih podataka i često su meta malware-a. Ako vam je potreban lokalni ili daljinski pristup, koristite samo veze putem HTTPS (enkriptovani interfejs), SSH ili SFTP, prema potrebi.
 
 
 
@@ -8400,7 +8389,7 @@ Onemogući sve administrativne usluge koje koriste protokole u običnom tekstu k
 Neki ruteri po defaultu odgovaraju na ICMP zahteve poslate spolja (komanda `ping`). Ovo omogućava napadaču da proveri da li je vaša mreža aktivna i dostupna. Ako vam to nije potrebno, onemogućite ovaj odgovor u firewall-u rutera.
 
 
-Konačno, zapamtite da ograničite pristup administraciji rutera Interface samo na pouzdane uređaje, ograničavajući njegovu dostupnost na specifične IP adrese, ako Interface to dozvoljava. Neki firmveri, kao što je OpenWrt, nude veoma preciznu kontrolu nad ovim parametrima.
+Konačno, zapamtite da ograničite pristup administratorskom interfejsu rutera samo na pouzdane uređaje, ograničavajući njegovu dostupnost na specifične IP adrese, ako interfejs to dozvoljava. Neki firmware-i, kao što je OpenWrt, nude veoma preciznu kontrolu nad ovim parametrima.
 
 
 ### Pojačavanje sigurnosti Wi-Fi mreže
@@ -8412,10 +8401,10 @@ Wi-Fi mreža je često preferirana tačka ulaska za upade u domaće okruženje. 
 Prvi važan korak je odabrati pravi protokol za šifrovanje. Uvek aktivirajte "*WPA3-Personal*", najnoviji i najsigurniji standard. Ne samo da štiti razmenjene podatke, već i sprečava određene poznate napade.
 
 
-Naziv vaše Wi-Fi mreže, nazvan "SSID" (*Service Set Identifier*), treba da ostane neutralan. Izbegavajte uključivanje vašeg imena, Address ili brenda rutera. Naziv poput `MaisonDupont_WiFi6` već daje previše informacija potencijalnom napadaču. Preferirajte generički naziv, bez posebnog značenja. Ovo ograničava dostupne informacije za pasivno praćenje ili socijalno ciljanje.
+Naziv vaše Wi-Fi mreže, nazvan "SSID" (*Service Set Identifier*), treba da ostane neutralan. Izbegavajte uključivanje vašeg imena, adrese ili brenda rutera. Naziv poput `MaisonDupont_WiFi6` već daje previše informacija potencijalnom napadaču. Preferirajte generički naziv, bez posebnog značenja. Ovo ograničava dostupne informacije za pasivno praćenje ili socijalno ciljanje.
 
 
-Još jedna najbolja praksa je kreiranje gostujuće mreže odvojene od vaše glavne mreže. Ova paralelna mreža, često ponuđena nativno na modernim ruterima, omogućava vam da svojim gostima pružite Internet konekciju bez da im omogućite pristup vašim drugim uređajima (računari, štampači, NAS, itd.). Takođe znači da im ne morate davati lozinku vaše glavne mreže. Da biste otišli još dalje, aktivirajte izolaciju klijenata na ovoj gostujućoj mreži: Ovo će takođe sprečiti posetioce da međusobno komuniciraju, dodatno smanjujući rizike povezane sa kompromitovanim uređajima.
+Još jedna najbolja praksa je kreiranje gostujuće mreže odvojene od vaše glavne mreže. Ova paralelna mreža, često ponuđena izvorno na modernim ruterima, omogućava vam da svojim gostima pružite internet konekciju bez da im omogućite pristup vašim drugim uređajima (računari, štampači, NAS, itd.). Takođe znači da im ne morate davati lozinku vaše glavne mreže. Da biste otišli još dalje, aktivirajte izolaciju klijenata na ovoj gostujućoj mreži: ovo će takođe sprečiti posetioce da međusobno komuniciraju, dodatno smanjujući rizike povezane sa kompromitovanim uređajima.
 
 
 Konačno, podesite snagu prenosa vašeg Wi-Fi pristupnog punkta. Podrazumevano, mnogi ruteri emituju veoma jak signal, ponekad detektabilan daleko izvan vaših zidova. Ovo povećava vašu izloženu površinu. U naprednim podešavanjima vašeg rutera, smanjite snagu prenosa na minimum potreban da pokrije vaš dom. Ako vaš ruter to omogućava, možete takođe konfigurisati automatsko isključivanje Wi-Fi-ja kada se ne koristi.
@@ -8427,7 +8416,7 @@ Konačno, podesite snagu prenosa vašeg Wi-Fi pristupnog punkta. Podrazumevano, 
 Jedna od najefikasnijih strategija za jačanje sigurnosti kućne mreže je segmentacija. Ovo podrazumeva deljenje lokalne mreže na nekoliko nezavisnih podmreža nazvanih "VLANs" (*Virtual Local Area Networks*). Ovi VLAN-ovi omogućavaju izolaciju različitih tipova uređaja ili načina korišćenja, čak i ako koriste isti fizički hardver (ruter, kabliranje, Wi-Fi terminal, itd.).
 
 
-Svaki VLAN funkcioniše kao mala, autonomna mreža sa sopstvenim pravilima komunikacije. Razmene između VLAN-ova su po defaultu blokirane ili strogo kontrolisane. Ovo sprečava, na primer, da kompromitovani povezani TV dođe do vašeg ličnog računara ili NAS-a. Ovaj pristup se zasniva na 2 osnovna principa sajber bezbednosti koje smo već proučili u prethodnim poglavljima: Kompartmentalizacija i najmanje privilegije.
+Svaki VLAN funkcioniše kao mala, autonomna mreža sa sopstvenim pravilima komunikacije. Razmene između VLAN-ova su po defaultu blokirane ili strogo kontrolisane. Ovo sprečava, na primer, da kompromitovani povezani TV dođe do vašeg ličnog računara ili NAS-a. Ovaj pristup se zasniva na 2 osnovna principa sajber bezbednosti koje smo već proučili u prethodnim poglavljima: kompartmentalizacija i najmanje privilegije.
 
 
 ![Image](assets/fr/197.webp)
@@ -8437,43 +8426,43 @@ U konkretnim terminima, evo nekoliko primera segmentacije koje biste mogli da ur
 
 
 
-- Lični VLAN: Za vaše pouzdane uređaje kao što su računari, pametni telefoni ili lični serveri. Ovo je glavni segment gde vaši osetljivi podaci cirkulišu.
+- lični VLAN: za vaše pouzdane uređaje kao što su računari, pametni telefoni ili lični serveri. Ovo je glavni segment gde vaši osetljivi podaci cirkulišu.
 
 
 
-- IoT VLAN: Za povezane objekte (sijalice, zvučnici, kamere, pametni televizori, itd.). Ovi uređaji su često nesigurni, manje ažurirani i česta meta napada. Izolovanjem njih se značajno smanjuje rizik da ih napadač iskoristi kao ulaznu tačku u vašu mrežu.
+- IoT VLAN: za povezane uređaje (sijalice, zvučnici, kamere, pametni televizori, itd.). Ovi uređaji su često nesigurni, manje ažurirani i česta meta napada. Izolovanjem njih se značajno smanjuje rizik da ih napadač iskoristi kao ulaznu tačku u vašu mrežu.
 
 
 
-- Gostujući VLAN: Rezervisan za vaše prijatelje ili porodicu kada dođu da ostanu kod vas. Omogućava pristup Internetu, ali ne i pristup vašoj privatnoj opremi.
+- gostujući VLAN: rezervisan za vaše prijatelje ili porodicu kada dođu da ostanu kod vas. Omogućava pristup internetu, ali ne i pristup vašoj privatnoj opremi.
 
 
-Konačno, ovaj pristup takođe nudi prednosti u pogledu performansi i upravljanja: Omogućava vam da prioritizujete određene tipove saobraćaja, primenite specifična sigurnosna pravila u zavisnosti od VLAN-a (firewall, ograničavanje brzine, DNS filtriranje, itd.), i bolje pratite abnormalno ponašanje mreže. To je praksa koju toplo preporučujem.
+Konačno, ovaj pristup takođe nudi prednosti u pogledu performansi i upravljanja: omogućava vam da prioritizujete određene tipove saobraćaja, primenite specifična sigurnosna pravila u zavisnosti od VLAN-a (firewall, ograničavanje brzine, DNS filtriranje, itd.), i bolje pratite abnormalno ponašanje mreže. To je praksa koju toplo preporučujem.
 
 
 ### Napredno upravljanje DNS-om
 
 
-DNS (*Domain Name System*) je Internet usluga koja prevodi web adrese razumljive ljudima (npr. `planb.network`) u IP adrese razumljive mašinama. Kada uređaj na vašoj mreži želi da poseti sajt, on šalje upit DNS serveru da dobije Address servera sa kojim treba da stupi u kontakt. Podrazumevano, ovi DNS upiti se često šalju u čistom tekstu (nešifrovani) vašem ISP-u, omogućavajući njemu (ili trećoj strani kao što je vlada) da vidi sve sajtove koje posećujete, čak i ako je njihov sadržaj šifrovan putem HTTPS-a.
+DNS (*Domain Name System*) je internet usluga koja prevodi web adrese razumljive ljudima (npr. `planb.network`) u IP adrese razumljive mašinama. Kada uređaj na vašoj mreži želi da poseti sajt, on šalje upit DNS serveru da dobije adresu servera sa kojim treba da stupi u kontakt. Podrazumevano, ovi DNS upiti se često šalju u čistom tekstu (nešifrovani) vašem ISP-u, omogućavajući njemu (ili trećoj strani kao što je vlada) da vidi sve sajtove koje posećujete, čak i ako je njihov sadržaj šifrovan putem HTTPS-a.
 
 
 Da biste poboljšali privatnost pretraživanja i blokirali određeni neželjeni sadržaj direktno iz korena, možete preuzeti kontrolu nad DNS rezolucijom unutar vaše kućne mreže. Počnite tako što ćete zameniti podrazumevane DNS servere sa alternativama koje više poštuju privatnost kao što su:
 
 
 
-- [Quad9](https://quad9.net/): Uključuje liste blokiranja za zlonamerne domene i ne čuva dugoročne zapise imena
+- [Quad9](https://quad9.net/): uključuje liste blokiranja za zlonamerne domene i ne čuva dugoročne zapise imena
 
 
 
-- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): Brz i posvećen strogom pravilu bez beleženja
+- [Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/): brz i posvećen strogom pravilu bez beleženja
 
 
 
-- [NextDNS](https://nextdns.io/): Visoko prilagodljiv, sa naprednim funkcijama filtriranja i statistike
+- [NextDNS](https://nextdns.io/): visoko prilagodljiv, sa naprednim funkcijama filtriranja i statistike
 
 
 
-- [AdGuard DNS](https://adguard-dns.io/): Lako za konfigurisanje, sa opcijama za blokiranje reklama i praćenja
+- [AdGuard DNS](https://adguard-dns.io/): lako za konfigurisanje, sa opcijama za blokiranje reklama i praćenja
 
 
 ![Image](assets/fr/199.webp)
@@ -8483,11 +8472,11 @@ Zatim, aktivirajte protokol za šifrovanje DNS upita kako biste sprečili presre
 
 
 
-- DoH (**DNS over HTTPS**): Encapsulira DNS zahteve u HTTPS protokol, čineći ih nerazlučivim od konvencionalnog šifrovanog web saobraćaja
+- DoH (**DNS over HTTPS**): encapsulira DNS zahteve u HTTPS protokol, čineći ih nerazlučivim od konvencionalnog šifrovanog web saobraćaja
 
 
 
-- DoT (**DNS over TLS**): Kreira specifičan enkriptovani kanal između vašeg uređaja i DNS servera
+- DoT (**DNS over TLS**): kreira specifičan enkriptovani kanal između vašeg uređaja i DNS servera
 
 
 
@@ -8498,7 +8487,7 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 
-- Na nivou aplikacije: Neke softverske aplikacije, kao što je Firefox pregledač, omogućavaju vam da direktno konfigurišete DNS enkripcijske protokole, kao što je DoH. Međutim, ovo rešenje štiti samo zahteve napravljene putem aplikacije, a ne i ostatak vašeg računara.
+- na nivou aplikacije: Neke softverske aplikacije, kao što je Firefox pregledač, omogućavaju vam da direktno konfigurišete DNS enkripcijske protokole, kao što je DoH. Međutim, ovo rešenje štiti samo zahteve napravljene putem aplikacije, a ne i ostatak vašeg računara.
 
 
 ![Image](assets/fr/198.webp)
@@ -8506,14 +8495,14 @@ U praktičnom smislu, enkripcija DNS-a i prebacivanje servera mogu se implementi
 
 
 https://planb.academy/tutorials/computer-security/communication/firefox-11814cec-3415-4ed9-a06e-f6fda5c9510f
-- Na nivou operativnog sistema: Neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: Aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
+- na nivou operativnog sistema: neki OS-ovi nativno integrišu podršku za enkriptovani DNS (DoT ili DoH), što osigurava sve DNS zahteve koji prolaze kroz mrežni stek sistema. Međutim, ovo ne osigurava ceo računar ili telefon: aplikacije mogu zaobići ovo podešavanje ako su konfigurisane da koriste drugi DNS resolver ili protokol.
 
 
 
-- Na mrežnom nivou: Šifrovanje DNS-a može se primeniti na celu lokalnu mrežu putem konfiguracije rutera. Još jednom, ruter konfigurisan za DoH/DoT vidi samo saobraćaj koji mu je zaista poslat. Dakle, pregledač konfigurisan da direktno kontaktira udaljeni rešavač izbegava ovu kontrolu. Da biste smanjili ove propuste, potrebno je blokirati port 53 u čistom tekstu i ograničiti neovlašćene DoH/DoT destinacije putem vatrozida rutera.
+- na mrežnom nivou: šifrovanje DNS-a može se primeniti na celu lokalnu mrežu putem konfiguracije rutera. Još jednom, ruter konfigurisan za DoH/DoT vidi samo saobraćaj koji mu je zaista poslat. Dakle, pregledač konfigurisan da direktno kontaktira udaljeni DNS rezolver izbegava ovu kontrolu. Da biste smanjili ove propuste, potrebno je blokirati port 53 u nešifrovanom tekstu i ograničiti neovlašćene DoH/DoT destinacije putem firewall-a rutera.
 
 
-Takođe, modemi ruteri koje obezbeđuje ISP ne podržavaju uvek ove funkcije. U slučaju ograničenja rutera, postoji nekoliko alternativa. Možete instalirati ručno šifrovani DNS klijent na svaki uređaj, dodati lični ruter iza ISP-ovog (sposoban za rukovanje šifrovanjem DNS-a) ili postaviti lokalni DNS server (na primer, na Raspberry Pi) koji je odgovoran za šifrovanje i preusmeravanje DNS zahteva ka sigurnom resolveru.
+Takođe, modem-ruteri koje obezbeđuje ISP ne podržavaju uvek ove funkcije. U slučaju ograničenja rutera, postoji nekoliko alternativa. Možete instalirati ručno šifrovani DNS klijent na svaki uređaj, dodati lični ruter iza ISP-ovog (sposoban za rukovanje šifrovanjem DNS-a) ili postaviti lokalni DNS server (na primer, na Raspberry Pi) koji je odgovoran za šifrovanje i preusmeravanje DNS zahteva ka sigurnom DNS resolveru.
 
 
 
@@ -8530,9 +8519,9 @@ Ovi alati deluju kao mali DNS server unutar vaše mreže, blokirajući zahteve k
 
 ### Siguran daljinski pristup putem VPN-a
 
-U nekim slučajevima, korisno je imati pristup kućnoj mreži kada ste u pokretu: Konsultovati fajlove na NAS-u, koristiti Bitcoin i Lightning čvor, pristupiti serveru koji sami hostujete ili administrirati vašu mrežu. Međutim, ova udaljena veza mora biti sigurna.
+U nekim slučajevima, korisno je imati pristup kućnoj mreži kada ste u pokretu: konsultovati fajlove na NAS-u, koristiti Bitcoin i Lightning čvor, pristupiti serveru koji sami hostujete ili administrirati vašu mrežu. Međutim, ova udaljena veza mora biti sigurna.
 
-Prvi savet je da nikada direktno ne otvorite port na vašem ruteru za pristup uređaju (npr. putem RDP, SSH ili FTP), jer to izlaže tu uslugu celom Internetu, što predstavlja ranjivost. Automatizovani napadi koji ciljaju otvorene portove su brojni.
+Prvi savet je da nikada direktno ne otvorite port na vašem ruteru za pristup uređaju (npr. putem RDP, SSH ili FTP), jer to izlaže taj servis celom internetu, što predstavlja ranjivost. Automatizovani napadi koji ciljaju otvorene portove su brojni.
 
 Rešenje koje preporučujem je korišćenje VPN-a (*Virtual Private Network*), tj. enkriptovanog tunela između vašeg udaljenog uređaja (računara, pametnog telefona, itd.) i vaše lokalne mreže. Kada se povežete na VPN, možete pristupiti resursima vašeg doma kao da ste fizički tamo, i to na siguran način.
 
@@ -8549,7 +8538,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 Možete hostovati ovaj VPN direktno na kompatibilnom ruteru, na malom računaru (kao što je Raspberry Pi) ili na namenskom serveru kod kuće. Takođe ga možete instalirati kao klijent direktno na bilo koji uređaj.
 
-Ali VPN nije samo za daljinski pristup. Možete koristiti i klasični VPN klijent na svojim uređajima da šifrujete sav svoj odlazni saobraćaj, čak i kada ste van kuće (javni Wi-Fi, hotel, univerzitet, itd.). U ovom slučaju, vaš uređaj se povezuje na treću VPN server (komercijalni ili samostalno hostovan), koji zatim prenosi vaše veze na Internet. Ovo skriva vaš pravi IP Address od ISP-a, štiti vaše podatke od lokalnog špijuniranja i izbegava određene oblike cenzure.
+Ali VPN nije samo za daljinski pristup. Možete koristiti i klasični VPN klijent na svojim uređajima da šifrujete sav svoj odlazni saobraćaj, čak i kada ste van kuće (javni Wi-Fi, hotel, univerzitet, itd.). U ovom slučaju, vaš uređaj se povezuje na treći VPN server (komercijalni ili samostalno hostovan), koji zatim prenosi vaše veze na Internet. Ovo skriva vašu pravu IP adresu od ISP-a, štiti vaše podatke od lokalnog špijuniranja i izbegava određene oblike cenzure.
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -8561,7 +8550,7 @@ Konačno, moguće je postaviti VPN direktno na vašem ruteru, omogućavajući va
 
 Kada vaša mreža bude pravilno konfigurisana i segmentirana, važno je ići dalje od pasivne sigurnosti. Aktivno praćenje vaše lokalne mreže može otkriti abnormalno ponašanje, neovlašćene veze ili znakove upada. Cilj je uočiti probleme rano, pre nego što prouzrokuju štetu.
 
-Prvi korak je centralizacija sigurnosnih logova. Svaki uređaj povezan na mrežu generiše logove koji sadrže informacije o konekcijama, greškama ili sumnjivim aktivnostima. Umesto da se ovi logovi pregledaju pojedinačno, preporučujem da ih pošaljete na server koji je sposoban da ih grupiše, sortira i analizira. Rešenja kao što su Graylog ili Elastic Stack (ELK) omogućavaju vam da agregirate ove logove u grafički Interface gde možete pretraživati specifične događaje, kreirati upozorenja ili vizualizovati mrežnu aktivnost.
+Prvi korak je centralizacija sigurnosnih logova. Svaki uređaj povezan na mrežu generiše logove koji sadrže informacije o konekcijama, greškama ili sumnjivim aktivnostima. Umesto da se ovi logovi pregledaju pojedinačno, preporučujem da ih pošaljete na server koji je sposoban da ih grupiše, sortira i analizira. Rešenja kao što su Graylog ili Elastic Stack (ELK) omogućavaju vam da agregirate ove logove u grafički interfejs gde možete pretraživati specifične događaje, kreirati upozorenja ili vizualizovati mrežnu aktivnost.
 
 https://planb.academy/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
@@ -8571,17 +8560,17 @@ https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6d
 
 Da biste otišli još dalje, možete instalirati IDS (*Intrusion Detection System*), ili čak IPS (*Intrusion Prevention System*). Ovi alati, kao što su Suricata ili Snort, nadgledaju mrežne tokove u realnom vremenu i detektuju potpise poznatih napada (skeniranje portova, injekcije, sumnjive veze, itd.). IDS upozorava, dok IPS može automatski blokirati određene akcije.
 
-Konačno, praćenje potrošnje propusnog opsega je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.
+Konačno, praćenje potrošnje propusnog opsega (eng. bandwith) je takođe dobar pokazatelj abnormalne aktivnosti. Ako uređaj iznenada troši mnogo podataka bez očiglednog razloga, to može ukazivati na neovlašćeno preuzimanje, curenje podataka ili čak kompromitovan uređaj. Alati kao što su ntopng ili vnStat omogućavaju vam da vidite dolazne i odlazne tokove po uređaju.
 
 https://planb.academy/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
-### Bekap i otpornost
+### Rezervne kopije i otpornost
 
-Čak i uz savršeno sigurnu mrežu, kvarovi hardvera, greške u konfiguraciji ili nepredviđeni događaji (nestanak struje, prenapon, kvar diska Hard, itd.) mogu uzrokovati gubitak podataka ili prekid vaših usluga. Da biste garantovali kontinuitet vašeg digitalnog okruženja i izbegli početak od nule u slučaju problema, važno je implementirati strategiju bekapa i otpornosti.
+Čak i uz savršeno sigurnu mrežu, kvarovi hardvera, greške u konfiguraciji ili nepredviđeni događaji (nestanak struje, prenapon, kvar hard diska, itd.) mogu uzrokovati gubitak podataka ili prekid vaših usluga. Da biste garantovali kontinuitet vašeg digitalnog okruženja i izbegli početak od nule u slučaju problema, važno je implementirati strategiju bekapa i otpornosti.
 
-Počnite redovno praviti rezervne kopije konfiguracije vaše mrežne opreme, posebno rutera. Ove konfiguracione datoteke često se mogu izvesti putem administracije Interface. Čuvanje kopije omogućava vam brzo vraćanje funkcionalnog sistema u slučaju resetovanja ili zamene uređaja. Takođe preporučujem šifrovanje ove rezervne kopije.
+Počnite redovno praviti rezervne kopije konfiguracija vaše mrežne opreme, posebno rutera. Ove konfiguracione datoteke često se mogu izvesti putem administrativnog interfejsa. Čuvanje kopije omogućava vam brzo vraćanje funkcionalnog sistema u slučaju resetovanja ili zamene uređaja. Takođe preporučujem šifrovanje ove rezervne kopije.
 
-Konačno, da biste poboljšali otpornost vaše mreže u slučaju nestanka struje, investirajte u UPS. Ovaj uređaj obezbeđuje rezervno napajanje na nekoliko minuta u slučaju nestanka struje, omogućavajući vam da nastavite sa korišćenjem Interneta ili osiguravajući da se kritični uređaji (NAS, ruter, Wi-Fi pristupna tačka, itd.) isključe na pravilan način. Neki modeli takođe mogu poslati automatsku komandu za isključivanje povezanim uređajima kada otkriju da je baterija pri kraju.
+Konačno, da biste poboljšali otpornost vaše mreže u slučaju nestanka struje, investirajte u UPS. Ovaj uređaj obezbeđuje rezervno napajanje na nekoliko minuta u slučaju nestanka struje, omogućavajući vam da nastavite sa korišćenjem interneta ili osiguravajući da se kritični uređaji (NAS, ruter, Wi-Fi pristupna tačka, itd.) isključe na pravilan način. Neki modeli takođe mogu poslati automatsku komandu za isključivanje povezanim uređajima kada otkriju da je baterija pri kraju.
 
 Prateći ovih nekoliko koraka, izgradićete robustno, sigurno mrežno okruženje koje poštuje vašu privatnost.
 

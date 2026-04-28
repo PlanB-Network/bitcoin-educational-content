@@ -1,0 +1,9 @@
+question: Ni tukio gani lililosababisha Satoshi Nakamoto kujiondoa kwenye uangalizi mnamo Desemba 2010?
+answer: Kuchapishwa kwa makala ya PC World inayowaalika WikiLeaks kutumia Bitcoin
+wrong_answers:
+  - Ross Ulbricht azindua jukwaa la Njia ya Hariri
+  - Mawasiliano yaliyoanzishwa na In-Q-Tel, mfuko wa uwekezaji wa CIA
+  - Ongezeko la kushangaza la bei ya BTC kutoka $0.20 hadi $32 katika miezi michache tu
+explanation: |
+ Satoshi ilitoa maoni hasi kuhusu chapisho hili kwenye jukwaa la Bitcoin, ikihofia kwamba lingevutia umakini wa mamlaka za serikali. Soko la Barabara ya Silk lilizinduliwa Januari 2011, mawasiliano kati ya In-Q-Tel na Gavin Andresen yalifanyika Aprili, na ongezeko la bei lilifikia kilele cha $32 mwezi Juni.
+reviewed: true

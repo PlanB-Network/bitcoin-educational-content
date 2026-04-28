@@ -1,0 +1,9 @@
+question: Vilken typ av hårdvara användes främst för mining i början av Bitcoin?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Vid lanseringen kördes programvaran på en vanlig dator och använde främst processorn.
+reviewed: false

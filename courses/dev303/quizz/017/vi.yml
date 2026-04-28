@@ -1,0 +1,8 @@
+question: Cấu trúc của một chuỗi (String) trong sơ đồ bộ nhớ của Rust gồm ba thành phần nào?
+answer: Con trỏ trỏ đến dữ liệu vùng nhớ heap, độ dài hiện tại và tổng dung lượng.
+wrong_answers:
+  - Con trỏ đến dữ liệu ngăn xếp, kích thước hiện tại và độ dài tối đa.
+  - Địa chỉ bộ nhớ, số lượng ký tự và kiểu cấp phát.
+  - Thông tin tham chiếu dữ liệu, kích thước byte và trạng thái quyền sở hữu.
+explanation: |
+  Trong Rust, một chuỗi ký tự bao gồm chính xác ba thành phần được lưu trữ trên ngăn xếp: một con trỏ đến dữ liệu ký tự được cấp phát trên vùng nhớ heap, độ dài hiện tại của nội dung chuỗi và tổng dung lượng của bộ đệm được cấp phát. Cấu trúc này cho phép các chuỗi ký tự tăng và giảm một cách hiệu quả trong khi vẫn duy trì được thông tin về ranh giới của chúng. Các lựa chọn khác không chính xác vì chúng tham chiếu đến các vị trí sai (ngăn xếp thay vì vùng nhớ heap), sử dụng thuật ngữ không chính xác (kích thước so với độ dài, số ký tự so với độ dài byte), hoặc bao gồm các thành phần không tồn tại như loại cấp phát hoặc trạng thái sở hữu.

@@ -1,0 +1,8 @@
+question: Rustup 在 Rust 开发生态系统中的主要用途是什么？
+answer: 用于安装和管理 Rust 的综合工具链管理系统
+wrong_answers:
+  - 用于处理 Rust 项目中依赖关系的软件包管理器
+  - 可分析代码并提供改进建议的高级内联程序
+  - 编译 Rust 程序和管理项目结构的构建系统
+explanation: |
+  Rustup 是专门设计的工具链管理系统，负责在不同项目和平台上安装、更新和管理 Rust。Cargo 是 Rust 项目的软件包管理器和构建系统，Clippy 则是代码分析的线程器，而 Rustup 则在更高层次上管理整个 Rust 开发环境。它允许开发人员安装不同的 Rust 版本，管理不同平台的编译目标，并通过 "rustup update "等简单命令轻松更新到新的 Rust 版本。

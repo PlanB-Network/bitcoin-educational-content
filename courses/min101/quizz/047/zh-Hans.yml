@@ -1,0 +1,9 @@
+question: 哪种统计原理说明了从长期来看，发现区块的频率会趋于算力份额？
+answer: 大数定律
+wrong_answers:
+  - 贝叶斯定理
+  - 生日悖论
+  - 最小作用量原理
+explanation: |
+  结果的收敛归功于大数定律，因为每一次哈希都是一次独立的尝试。
+reviewed: false

@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/zh-Hant/001.webp)
 
 
 斯賓諾莎肖像
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/zh-Hant/002.webp)
 
 
 斯賓諾莎肖像
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/zh-Hant/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/zh-Hant/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/zh-Hant/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/zh-Hant/006.webp)
 
 
 
@@ -157,7 +157,6 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/zh-Hant/007.webp)
 
 
 
@@ -189,10 +188,10 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/zh-Hant/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/zh-Hant/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/zh-Hant/010.webp)
 
 
 
@@ -255,7 +254,6 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/zh-Hant/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/zh-Hant/012.webp)
 
 
 
@@ -311,7 +309,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/zh-Hant/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hant/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/zh-Hant/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/zh-Hant/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/zh-Hant/017.webp)
 
 
 
@@ -427,7 +425,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/zh-Hant/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/zh-Hant/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/zh-Hant/020.webp)
 
 
 
@@ -492,10 +490,9 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/zh-Hant/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/zh-Hant/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/zh-Hant/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/zh-Hant/024.webp)
 
 
 
@@ -538,7 +534,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/zh-Hant/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/zh-Hant/026.webp)
 
 
 
@@ -606,7 +602,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/zh-Hant/027.webp)
 
 
 
@@ -622,7 +618,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/zh-Hant/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/zh-Hant/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/zh-Hant/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/zh-Hant/031.webp)
 
 
 
@@ -733,7 +728,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/zh-Hant/032.webp)
 
 
 
@@ -749,7 +744,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/zh-Hant/033.webp)
 
 
 
@@ -757,11 +752,11 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/zh-Hant/034.webp)
 
 
 
-例如，凱恩斯經濟學家和福利國家的倡議者對通貨膨脹的定義也很好地說明了這個悖論。根據他們的說法，通貨膨脹是一種價格上漲，而根據某些中央銀行家的說法，這種價格上漲不是來自「無處」，就是來自沒有人能控制或預測的地緣政治環境。雖然價格上漲的確會導致週期性的通貨膨脹 - 例如，當石油價格上漲時，某些加工品的價格也會上漲 - 但通貨膨脹真正的結構性原因主要是與貨幣 Supply 的增加有關，而貨幣 Supply 的增加又意味著貨幣價值的下降，因此價格也會機械性地上漲。
+例如，凱恩斯經濟學家和福利國家的倡議者對[通貨膨脹](https://planb.academy/resources/glossary/inflation)的定義也很好地說明了這個悖論。根據他們的說法，通貨膨脹是一種價格上漲，而根據某些中央銀行家的說法，這種價格上漲不是來自「無處」，就是來自沒有人能控制或預測的地緣政治環境。雖然價格上漲的確會導致週期性的通貨膨脹 - 例如，當石油價格上漲時，某些加工品的價格也會上漲 - 但通貨膨脹真正的結構性原因主要是與貨幣 Supply 的增加有關，而貨幣 Supply 的增加又意味著貨幣價值的下降，因此價格也會機械性地上漲。
 
 
 
@@ -773,7 +768,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/zh-Hant/035.webp)
 
 
 
@@ -809,7 +804,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/zh-Hant/036.webp)
 
 
 
@@ -833,7 +828,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/zh-Hant/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/zh-Hant/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/zh-Hant/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/zh-Hant/040.webp)
 
 
 
@@ -885,7 +880,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/zh-Hant/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/zh-Hant/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/zh-Hant/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/zh-Hant/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hant/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/zh-Hant/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/zh-Hant/047.webp)
 
 
 
@@ -1069,11 +1064,11 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-順便說一下，在加密貨幣領域尤其如此。
+順便說一下，在[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)領域尤其如此。
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/zh-Hant/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/zh-Hant/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/zh-Hant/050.webp)
 
 
 
@@ -1151,25 +1146,24 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 這正是啟蒙時期理性哲學的目的，特別要感謝伊曼紐爾‧康德（Immanuel Kant，1724-1804），對他來說，只有受過教育的個人，在理性的引導下，才能自己思考，並在倫理上決定什麼是「真」或「善」，什麼是有毒的。
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/zh-Hant/051.webp)
 
 
 
 換句話說，他說，如果我們自己思考，如果我們像理性的成年人一樣推理，如果我們因此努力依附於事物之間的因果關係，我們就不再需要道德權威來教導我們，例如，宗教的真正美德或政治和經濟領域的真正倫理價值。
 
 
-這個推理思路讓人聯想到奧地利自由經濟學派，它誕生於第一次世界大戰之前維也納極為肥沃的知識氛圍中。因為正是在這樣的背景下，卡爾-門格（Carl Menger，1840-1921）、路德維希-馮-米塞斯（Ludwig von Mises，1883-1979）和弗里德里希-哈耶克（Friedrich Hayek，1899-1992）等知識份子為新的自由經濟學派奠定了基礎，而這個學派也成為了日後cypherpunks的信念基礎。也因此創造了 Bitcoin。
+這個推理思路讓人聯想到[奧地利](https://planb.academy/resources/glossary/austrian-school)自由經濟學派，它誕生於第一次世界大戰之前維也納極為肥沃的知識氛圍中。因為正是在這樣的背景下，卡爾-門格（Carl Menger，1840-1921）、路德維希-馮-米塞斯（Ludwig von Mises，1883-1979）和弗里德里希-哈耶克（Friedrich Hayek，1899-1992）等知識份子為新的自由經濟學派奠定了基礎，而這個學派也成為了日後[cypherpunks](https://planb.academy/resources/glossary/cypherpunks)的信念基礎。也因此創造了 Bitcoin。
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/zh-Hant/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/zh-Hant/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/zh-Hant/054.webp)
 
 
 
@@ -1206,19 +1200,19 @@ Baruch de Spinoza 是誰？他是一位荷蘭哲學家，生於 1632 年，卒�
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/zh-Hant/055.webp)
 
 
 
-尤其是當他將 2009 年 1 月 3 日的《時報》標題刻在 Genesis 區塊的 Blockchain Bitcoin 幣基上，以說明一個時代（凱恩斯主義）的結束，以及另一個具有自由主義、無政府主義和自由主義訴求的時代的開始。
+尤其是當他將 2009 年 1 月 3 日的《時報》標題刻在 [Genesis 區塊](https://planb.academy/resources/glossary/genesis-block)的 [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin [幣基](https://planb.academy/resources/glossary/coinbase-transaction)上，以說明一個時代（凱恩斯主義）的結束，以及另一個具有自由主義、無政府主義和自由主義訴求的時代的開始。
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/zh-Hant/056.webp)
 
 
 
-2008 年 10 月 31 日發表的白皮書提出 Bitcoin 是一種在網際網路上交換價值的方式，不需要可信賴的第三方，以分散式通訊協定為基礎。這場「哥白尼式」的革命，終於讓人們重拾行動能力，也就是自由、交易自由、財產權和尊重隱私權。
+2008 年 10 月 31 日發表的[白皮書](https://planb.academy/resources/glossary/white-paper)提出 Bitcoin 是一種在網際網路上交換價值的方式，不需要可信賴的第三方，以分散式通訊協定為基礎。這場「哥白尼式」的革命，終於讓人們重拾行動能力，也就是自由、交易自由、財產權和尊重隱私權。
 
 
 為什麼？因為Bitcoin允許我們以斯宾諾莎的方式，藉由理性，藉由伽利略的數學語言，從這種奴役中解脫出來。而且，正如哈耶克所建議的，國家無法反對。而且是和平的，沒有強迫或傳教。

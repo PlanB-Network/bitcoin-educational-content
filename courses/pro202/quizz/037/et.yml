@@ -1,0 +1,8 @@
+question: Mis põhjustab OP_CHECKMULTISIG-s off-by-one viga, mis nõuab täiendavat OP_0 paljas multisig ScriptSigs'is?
+answer: OP_CHECKMULTISIG tarbib lisaks eeldatavatele allkirjadele ja avalikele võtmetele veel ühe täiendava korstnaelemendi
+wrong_answers:
+  - Allkirja kontrollimise protsess nõuab ECDSA korrektseks valideerimiseks täiendavat baiti
+  - "Bitcoin korstna implementatsioonis on piirikontroll, mis vajab mälu joondamiseks polsterelementi"
+  - Multisig-künnise lugemine algab nullist, mitte ühest, mis nõuab nihke paigutusväärtust
+explanation: |
+  OP_CHECKMULTISIG opkoodis on rakendusviga, mille puhul see tõstab korstnast ühe elemendi rohkem, kui see peaks täitmisel olema. See tähendab, et lisaks nõutavatele m allkirjadele ja n avalikule võtmele kulutab see ühe täiendava korstnaelemendi. Operatsiooni ebaõnnestumise vältimiseks peavad paljas multisig ScriptSigs sisaldama algset OP_0 (mis lükkab tühja baidimassiivi), et rahuldada see ootamatu virna tarbimine. Teised valikud kirjeldavad usutavalt kõlavaid tehnilisi probleeme, kuid ei ole selle tuntud Bitcoin veidruse tegelikuks põhjuseks.

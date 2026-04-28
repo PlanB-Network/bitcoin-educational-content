@@ -1,0 +1,8 @@
+question: Liquid Network içinde kullanılan Bitcoin temsilinin adı nedir?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Sarılı Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Federated Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC), Liquid yan zincirinde var olduğunda Bitcoin için doğru isimdir. Kullanıcılar Bitcoin'larını Liquid'a sabitlediklerinde, Liquid Network içindeki işlemler için kullanılabilecek eşdeğer miktarda LBTC alırlar. WBTC Ethereum tabanlı bir Bitcoin token iken, SBTC ve FBTC herhangi bir büyük ağda kullanılan gerçek Bitcoin temsilleri değildir.

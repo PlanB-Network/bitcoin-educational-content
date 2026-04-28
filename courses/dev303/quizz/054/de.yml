@@ -1,0 +1,8 @@
+question: In welchem Szenario wäre RefCell am besten geeignet, um eine Kompilierbarkeitsbeschränkung zu lösen?
+answer: Bei der Implementierung eines Mock-Objekts, das interne Zustandsänderungen über eine unveränderliche Trait-Schnittstelle verfolgen muss
+wrong_answers:
+  - Wenn Sie Daten für mehrere Threads freigeben müssen und eine atomare Referenzzählung benötigen
+  - Wenn Sie Laufzeit-Overhead vermeiden wollen, indem Sie die gesamte Kreditprüfung auf die Kompilierzeit verlagern
+  - Bei der Erstellung von Rundverweisen zwischen Datenstrukturen, die eine automatische Speicherbereinigung erfordern
+explanation: |
+  RefCell wurde für Szenarien mit interner Mutabilität entwickelt, in denen Sie Daten über eine unveränderliche Referenz verändern müssen, insbesondere wenn die statische Analyse des Compilers zu konservativ ist. Mock-Objekte, die Traits mit unveränderlichen Methoden implementieren, aber den internen Zustand verfolgen müssen, stellen einen perfekten Anwendungsfall dar. Die anderen Optionen sind falsch: RefCell ist nicht thread-sicher, es verlagert die Überprüfung auf die Laufzeit (nicht auf die Kompilierzeit), und es löst keine Probleme mit zirkulären Referenzen - es kann sogar zu ihnen beitragen, wenn es mit RC kombiniert wird.

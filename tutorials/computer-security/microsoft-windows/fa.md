@@ -1,5 +1,5 @@
 ---
-name: نصب اتوماتیک ویندوز 11
+name: Windows 11
 description: نصب اتوماتیک مایکروسافت ویندوز 11 به کمک فایل XML 
 ---
 ![cover](assets/cover.webp)

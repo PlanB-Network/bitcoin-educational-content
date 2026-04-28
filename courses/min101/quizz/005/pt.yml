@@ -1,0 +1,9 @@
+question: A que corresponde o campo nbits no cabeçalho do bloco?
+answer: O alvo de dificuldade codificado
+wrong_answers:
+  - O tamanho do bloco em bytes
+  - O número de transações no bloco
+  - O carimbo de data/hora do bloco
+explanation: |
+  O campo nbits codifica o alvo de dificuldade ativo.
+reviewed: false

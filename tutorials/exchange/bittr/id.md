@@ -21,7 +21,7 @@ Mari kita bahas betapa mudahnya untuk mulai menumpuk Sats dengan Bittr.
 ## Memulai dengan Bittr
 
 
-- Di web atau seluler, buka [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) dan klik "Beli Bitcoin"
+- Di web atau seluler, buka [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) dan klik "Beli Bitcoin"
 
 
 

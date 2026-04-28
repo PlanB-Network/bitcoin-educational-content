@@ -1,6 +1,7 @@
 ---
-term: TAIKAVERKKO
+term: Magic network
 
+definition: 4-tavuiset vakiot, jotka tunnistavat verkon (mainnet, testnet, regtest) solmujen välisissä viesteissä.
 ---
 Bitcoin-protokollassa käytetyt vakiot, joilla tunnistetaan solmujen välillä vaihdetun viestin tietty verkko (mainnet, testnet, regtest...). Nämä arvot merkitään jokaisen viestin alkuun, jotta niiden tunnistaminen tietovirrassa olisi helpompaa. Taikaverkot on suunniteltu siten, että ne esiintyvät harvoin tavallisessa viestintädatassa. Nämä neljä tavua ovat harvinaisia ASCII-koodissa, UTF-8-koodissa virheellisiä ja tuottavat hyvin suuren 32-bittisen kokonaisluvun riippumatta datan tallennusmuodosta. Magic Networks on (little-endian-muodossa):
 

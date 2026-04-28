@@ -1,6 +1,7 @@
 ---
 term: PSBT
 
+definition: Format standar untuk membangun dan membagikan transaksi Bitcoin yang ditandatangani secara parsial.
 ---
 Akronim untuk "_Partially Signed Bitcoin Transaction_", atau dapat diterjemahkan sebagai "Transaksi Bitcoin yang Ditandatangani Sebagian", yang merupakan sebuah spesifikasi yang diperkenalkan dengan BIP174 untuk menstandarkan cara di mana transaksi yang belum selesai dibuat dalam perangkat lunak yang terkait dengan Bitcoin, seperti perangkat lunak dompet. PSBT merangkum sebuah transaksi yang inputnya mungkin belum sepenuhnya ditandatangani. PSBT mencakup semua informasi yang diperlukan oleh partisipan untuk menandatangani transaksi tanpa memerlukan data tambahan. Dengan demikian, PSBT dapat memiliki 3 bentuk yang berbeda:
 

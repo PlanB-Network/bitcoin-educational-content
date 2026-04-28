@@ -28,7 +28,7 @@ Trong BTC304, chúng ta sẽ xem xét tại sao việc xây dựng cộng đồn
 
 
 
-Chào mừng đến với BTC302!
+Chào mừng đến với BTC 304!
 
 
 
@@ -193,7 +193,7 @@ Các cộng đồng Bitcoin thường theo đuổi các mục tiêu rộng hơn,
 4. Bóc trần những tuyên bố sai lệch hoặc vô căn cứ của một số nhân vật công chúng và phương tiện truyền thông;
 
 
-5. Sự khác biệt cơ bản giữa Bitcoin và các loại tiền điện tử khác;
+5. Sự khác biệt cơ bản giữa Bitcoin và các loại [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) khác;
 
 
 Bằng cách xây dựng những "thành trì" đầu tiên của tương lai, **các cộng đồng Bitcoin trên toàn thế giới đóng vai trò như một bức tường thành chống lại thông tin sai lệch và kiểm duyệt, đồng thời cung cấp nền tảng vững chắc để tìm hiểu những nguyên tắc cơ bản của Bitcoin**. Họ cung cấp cho những người mới tham gia, thậm chí cả những người hoài nghi, các nguồn lực và kết nối cần thiết để khám phá tiềm năng thực sự của Bitcoin.
@@ -302,7 +302,7 @@ Tuy nhiên, **hợp nhất thường hợp lý hơn là chia tách các cộng �
 Theo nghĩa này, một "quy tắc vàng" đơn giản có thể hữu ích: nếu không có cộng đồng Bitcoin nào đang hoạt động trong vòng 30-45 phút tính từ nơi bạn sống, bạn có thể nên bắt đầu một cộng đồng mới. Tuy nhiên, bạn luôn có thể tự do làm những gì mình muốn.
 
 
-Và tất nhiên, nếu một cộng đồng cũ đã "tiến hóa" theo hướng không còn phù hợp với các giá trị của bạn nữa, và bạn không có thời gian hoặc động lực để "cấm vận" họ, thì việc tự tạo Fork luôn là một lựa chọn.
+Và tất nhiên, nếu một cộng đồng cũ đã "tiến hóa" theo hướng không còn phù hợp với các giá trị của bạn nữa, và bạn không có thời gian hoặc động lực để "cấm vận" họ, thì việc tự tạo [Fork](https://planb.academy/resources/glossary/fork) luôn là một lựa chọn.
 
 
 
@@ -1391,7 +1391,7 @@ Bao gồm:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu Sats. Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
+- [Btcmap.org](https://btcmap.org/)**, một trang web với hai bản đồ được cập nhật hàng ngày: **[bản đồ thế giới về các doanh nghiệp chấp nhận Bitcoin](https://btcmap.org/map)** và **[bản đồ cộng đồng thế giới](https://btcmap.org/communities/map)**. Nhiều người dùng Bitcoin thường xuyên kiểm tra các bản đồ này, dù họ đang đi du lịch hay đang trong cuộc sống thường ngày, để gặp gỡ những người mới hoặc tìm địa điểm để chi tiêu [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap là tài liệu tham khảo toàn cầu, và việc liệt kê cộng đồng của bạn trên đó là điều cần thiết để tăng khả năng hiển thị.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), một trang web do những người dùng bitcoin tạo ra, dành cho những người dùng bitcoin. **Trang web này cho phép bạn đăng các sự kiện sắp tới của cộng đồng**. Tuy nhiên, ở Pháp, trang web này vẫn chưa được sử dụng rộng rãi.
 - Tùy thuộc vào quốc gia của bạn, có thể có những sáng kiến địa phương khác. Ví dụ, tại Pháp, có [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), **liệt kê hàng chục sự kiện Bitcoin mỗi tháng**. Vì vậy, nếu bạn chưa theo dõi họ trên Twitter hoặc liên hệ với họ để chia sẻ thông tin về cộng đồng và các sự kiện của mình, thì bây giờ chính là lúc! **Để giúp cập nhật lịch sự kiện của Pháp, sẽ rất tuyệt nếu tất cả các cộng đồng Bitcoin tại Pháp cùng nhau tạo thói quen:**
     - nhắc đến @bitcoinpointfr trên Twitter cho mọi sự kiện cộng đồng mới
@@ -1775,7 +1775,7 @@ Cuối cùng, chính bạn là người quyết định mức độ "mở và ba
 Khi các khối tiếp tục lăn, cộng đồng của bạn sẽ phát triển. Những gương mặt mới sẽ gia nhập, những người khác sẽ rời đi, nhưng nguyên tắc chỉ đạo vẫn phải giữ nguyên: phát triển hệ sinh thái Bitcoin và củng cố mối liên kết giữa các thành viên.
 
 
-Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Trước khi đi sâu hơn, chúng ta hãy xem lại một điểm đã đề cập trước đó.
@@ -1820,7 +1820,7 @@ Ngoài giá trị giáo dục mạnh mẽ, phương pháp này còn cho phép ch
 Dưới đây là tiến trình gặp mặt tại Pháp năm 2023-2024. Mỗi chủ đề đều có bài thuyết trình nguồn mở và video, có thể giúp bạn có thêm ý tưởng về các chủ đề để đưa vào sự kiện của riêng mình.
 
 
-Bạn cũng có thể tìm thấy các tài liệu chỉnh sửa bổ sung trong [Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)!
+Các tài nguyên khác cũng có sẵn trong phần ["Educator Content"](https://planb.academy/educator-content) của Plan ₿ Academy, một không gian cộng tác nơi các nhà giáo dục Bitcoin trên toàn thế giới chia sẻ và cung cấp tài liệu giáo dục của họ (bài thuyết trình, tờ rơi, hướng dẫn, áp phích...) ở các định dạng sẵn sàng sử dụng hoặc có thể chỉnh sửa. Mục tiêu: tập hợp nỗ lực để không phải bắt đầu từ đầu mỗi lần!
 
 
 
@@ -1936,7 +1936,7 @@ Tại các địa điểm riêng tư như hòa nhạc, quán bar hoặc sân v�
 Một dự án khác mà bạn có thể dễ dàng thực hiện là **tạo thư viện tại các buổi gặp mặt**.
 
 
-Bạn có thể mời những người tham gia muốn chia sẻ tài liệu đọc của mình mang theo một cuốn sách liên quan đến Bitcoin. Nếu ai đó tại buổi gặp mặt muốn mượn, bạn có thể thỏa thuận với chủ sở hữu Exchange về việc vay tiền với một khoản đặt cọc, ví dụ: 21.000 satoshi qua Lightning.
+Bạn có thể mời những người tham gia muốn chia sẻ tài liệu đọc của mình mang theo một cuốn sách liên quan đến Bitcoin. Nếu ai đó tại buổi gặp mặt muốn mượn, bạn có thể thỏa thuận với chủ sở hữu Exchange về việc vay tiền với một khoản đặt cọc, ví dụ: 21.000 satoshi qua [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Đối với chủ sở hữu, khoản tiền đặt cọc này giúp bù đắp cho các trường hợp mất mát hoặc trộm cắp tiềm ẩn. Đối với người vay, đây là động lực để họ quay lại gặp mặt trong tương lai để lấy lại tiền đặt cọc.
@@ -2599,7 +2599,7 @@ Với sự gia tăng đột biến về số lượng người tham dự:
     - nếu bạn thấy số lượng người tham dự trở nên quá nhiều, đối với các buổi gặp mặt trong tương lai, bạn có thể **yêu cầu người tham dự đăng ký** (thông qua ứng dụng Meetup hoặc biểu mẫu đơn giản) hoặc **tổ chức nhiều buổi gặp mặt mỗi tháng** (ví dụ: buổi gặp mặt dành cho người mới bắt đầu, buổi gặp mặt dành cho người trung cấp và buổi gặp mặt dành cho người nâng cao).
     - Đồng thời, hãy chuẩn bị tinh thần cho rất nhiều người mới tham gia hệ sinh thái, thường với mục tiêu chính là kiếm tiền. Để **giữ cho các cuộc trò chuyện tập trung vào Bitcoin** trong những buổi gặp gỡ đang phát triển nhanh chóng này, bạn nên:
 
-a) Bao gồm một bài thuyết trình **theo chủ đề Bitcoin** trong các sự kiện này, vì điều này sẽ tự nhiên chuyển hướng phần lớn cuộc trò chuyện theo chủ đề đó (và tránh xa dự án shitcoin mới nhất được cho là "mang tính cách mạng");
+a) Bao gồm một bài thuyết trình **theo chủ đề Bitcoin** trong các sự kiện này, vì điều này sẽ tự nhiên chuyển hướng phần lớn cuộc trò chuyện theo chủ đề đó (và tránh xa dự án [shitcoin](https://planb.academy/resources/glossary/shitcoin) mới nhất được cho là "mang tính cách mạng");
 
 b) **Tránh chỉ kết bạn với những người dùng Bitcoin khác**. Thay vào đó, hãy chủ động **tiếp cận những người mới**, ngay cả khi điều đó có nghĩa là phải đứng ở cuối phòng để chào đón họ. Từ đó, bạn có thể nói về lý do họ đến, điều họ đang tìm kiếm, mục tiêu (hoặc thậm chí là các nguyên tắc cốt lõi) của cộng đồng, v.v.
 
@@ -2831,14 +2831,14 @@ Một mình, bạn có thể nhanh chóng khám phá một trong nhiều đườ
 
 
 
-## BTC302, Tiếp theo là gì
+## BTC 304, Tiếp theo là gì
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Trong khóa học BTC302 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
+Trong khóa học BTC 304 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
 
 
 Khi cộng đồng của bạn sẵn sàng thực hiện bước tiếp theo, **bạn có thể tạo một hiệp hội chính thức**.

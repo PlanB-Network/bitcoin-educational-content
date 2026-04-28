@@ -6,4 +6,4 @@ wrong_answers:
   - Impide la reutilización de claves para transacciones repetidas
 explanation: |
   Intercambiar claves en persona es costoso e ineficiente, especialmente a gran escala, ya que ralentiza las transacciones e impone significativos costos logísticos para cada nuevo cliente.
-reviewed: false
+reviewed: true

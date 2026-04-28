@@ -1,5 +1,6 @@
 ---
-term: Bitcoin POOLED Mining (BPM)
+term: Bitcoin pooled mining (BPM)
+definition: Metoda obliczania nagród w pulach wyceniająca udziały (shares) na podstawie czasu, który upłynął w cyklu.
 ---
 
 Inna nazwa nadana "METODZIE OPARTEJ NA WYNIKACH" do obliczania wynagrodzenia górników w pulach Mining. Jest to metoda proporcjonalnego wynagradzania, ale ważona czasem, w którym udział został złożony. BPM wycenia udziały na podstawie czasu, jaki upłynął od początku cyklu Mining. Im później udział zostanie złożony w cyklu, tym wyższa jest jego wartość. Metoda ta zachęca górników do pozostania, ponieważ za każdym razem, gdy zatrzymują Mining, ich wynik ulega stagnacji, podczas gdy wyniki innych rosną szybciej.

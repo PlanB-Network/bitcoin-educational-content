@@ -3,7 +3,7 @@ answer: È possibile costruire sistemi affidabili sopra un sistema privo di fidu
 wrong_answers:
   - È possibile costruire sistemi privi di fiducia su sistemi fidati, ma non sistemi fidati su sistemi privi di fiducia
   - I sistemi trustless e trusted possono essere costruiti l'uno sull'altro senza limitazioni architettoniche
-  - I sistemi Trustless e trusted devono operare in modo indipendente e non possono essere sovrapposti gli uni agli altri
+  - I sistemi trustless e trusted devono operare in modo indipendente e non possono essere sovrapposti gli uni agli altri
 explanation: |
-  L'intuizione chiave di Matt Corallo è che il livello di base senza fiducia di Bitcoin consente la flessibilità nella progettazione del sistema. Una base priva di fiducia come il protocollo Bitcoin consente agli sviluppatori di creare servizi affidabili (come i portafogli custodiali) su livelli superiori, preservando le garanzie di sicurezza sottostanti. Tuttavia, l'inverso è impossibile: non è possibile creare sistemi veramente privi di fiducia se la base stessa richiede fiducia, poiché qualsiasi proprietà priva di fiducia sarebbe minata dalle vulnerabilità del livello di base fidato.
-reviewed: false
+  L'intuizione chiave di Matt Corallo è che il livello di base senza fiducia di Bitcoin consente la flessibilità nella progettazione del sistema. Una base priva di fiducia come il protocollo Bitcoin consente agli sviluppatori di creare servizi affidabili (come i custodial wallet) su livelli superiori, preservando le garanzie di sicurezza sottostanti. Tuttavia, l'inverso è impossibile: non è possibile creare sistemi veramente privi di fiducia se la base stessa richiede fiducia, poiché qualsiasi proprietà priva di fiducia sarebbe minata dalle vulnerabilità del livello di base fidato.
+reviewed: true

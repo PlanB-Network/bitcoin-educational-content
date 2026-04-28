@@ -285,6 +285,6 @@ Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika 
 
 
 
-- [SLIP-0039: Pembagian Rahasia Shamir untuk Kode Mnemonic] (https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
+- [SLIP-0039: Pembagian Rahasia Shamir untuk Kode Mnemonic](https://github.com/satoshilabs/slips/blob/master/slip-0039.md);
 - [Multi-share Backup di Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
 - [Wikipedia: Shamir's secret sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing).

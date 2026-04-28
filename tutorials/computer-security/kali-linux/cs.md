@@ -459,29 +459,30 @@ Shrňme si některé základní úlohy Kali Linuxu do tabulky.
 
 
 
-| **Catégorie**              | **Tâche de base**                      | **Description / Objectif**                                 | **Méthode principale**                                       |
+
+| **Kategorie** | **Základní úkol** | **Popis / Cíl** | **Hlavní metoda** |
 | -------------------------- | -------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **Navigation système**     | Ouvrir le terminal                     | Accéder à la ligne de commande principale de Kali          | Cliquez sur l’icône du terminal ou utilisez `Ctrl + Alt + T` |
-|                            | Parcourir les dossiers                 | Se déplacer dans l’arborescence du système                 | `cd /chemin/du/dossier`, `ls` pour lister les fichiers       |
-|                            | Créer / supprimer un dossier           | Organiser les fichiers                                     | `mkdir nom_dossier`, `rm -r nom_dossier`                     |
-| **Gestion des fichiers**   | Copier / déplacer un fichier           | Manipuler des fichiers dans le terminal                    | `cp fichier destination`, `mv fichier destination`           |
-|                            | Supprimer un fichier                   | Libérer de l’espace disque                                 | `rm nom_du_fichier`                                          |
-|                            | Afficher le contenu d’un fichier texte | Lire rapidement un fichier                                 | `cat fichier.txt`, `less fichier.txt`                        |
-| **Gestion du système**     | Mettre à jour Kali Linux               | Installer les dernières versions et correctifs de sécurité | `sudo apt update && sudo apt full-upgrade -y`                |
-|                            | Installer un logiciel                  | Ajouter un nouvel outil ou utilitaire                      | `sudo apt install nom_du_paquet`                             |
-|                            | Supprimer un logiciel                  | Nettoyer le système                                        | `sudo apt remove nom_du_paquet`                              |
-|                            | Nettoyer les dépendances inutiles      | Gagner de l’espace disque                                  | `sudo apt autoremove`                                        |
-| **Réseau et Internet**     | Vérifier la connexion réseau           | Tester l’accès à Internet                                  | `ping google.com`                                            |
-|                            | Identifier l’adresse IP                | Connaître sa configuration réseau                          | `ip a` ou `ifconfig`                                         |
-|                            | Changer de réseau Wi-Fi                | Se connecter à un autre point d’accès                      | Icône réseau → Sélectionner le Wi-Fi voulu                   |
-| **Comptes et permissions** | Exécuter une commande administrateur   | Obtenir les droits root temporairement                     | `sudo commande`                                              |
-|                            | Créer un nouvel utilisateur            | Ajouter un compte local                                    | `sudo adduser nom_utilisateur`                               |
-|                            | Modifier un mot de passe               | Sécuriser un compte                                        | `passwd`                                                     |
-| **Apparence et confort**   | Changer le fond d’écran                | Personnaliser le bureau                                    | Clic droit sur le bureau → **Paramètres du bureau**          |
-|                            | Modifier le thème / icônes             | Améliorer la lisibilité et l’esthétique                    | Paramètres → Apparence / Thèmes                              |
-| **Outils Kali**            | Ouvrir le menu des outils              | Explorer les outils de test et de sécurité                 | Menu **Applications → Kali Linux**                           |
-|                            | Lancer un outil (ex : nmap, wireshark) | Découverte pratique des utilitaires de sécurité            | `sudo nmap`, `wireshark`, etc.                               |
-| **Aide et documentation**  | Obtenir de l’aide sur une commande     | Comprendre une commande avant de l’utiliser                | `man commande` ou `commande --help`                          |
+| **Navigace v systému** | Otevřít terminál | Přístup k hlavnímu příkazovému řádku Kali | Klikněte na ikonu terminálu nebo použijte `Ctrl + Alt + T` |
+| | Procházet složky | Pohyb v adresářové struktuře systému | `cd /cesta/ke/slozce`, `ls` pro výpis souborů |
+| | Vytvořit / smazat složku | Organizace souborů | `mkdir nazev_slozky`, `rm -r nazev_slozky` |
+| **Správa souborů** | Kopírovat / přesunout soubor | Manipulace se soubory v terminálu | `cp soubor cil`, `mv soubor cil` |
+| | Smazat soubor | Uvolnění místa na disku | `rm nazev_souboru` |
+| | Zobrazit obsah textového souboru | Rychlé čtení souboru | `cat soubor.txt`, `less soubor.txt` |
+| **Správa systému** | Aktualizovat Kali Linux | Instalace nejnovějších verzí a bezpečnostních oprav | `sudo apt update && sudo apt full-upgrade -y` |
+| | Instalovat software | Přidání nového nástroje nebo utility | `sudo apt install nazev_balicku` |
+| | Smazat software | Vyčištění systému | `sudo apt remove nazev_balicku` |
+| | Vyčistit nepotřebné závislosti | Získání místa na disku | `sudo apt autoremove` |
+| **Sítě a internet** | Ověřit síťové připojení | Testování přístupu k internetu | `ping google.com` |
+| | Identifikovat IP adresu | Zjištění síťové konfigurace | `ip a` nebo `ifconfig` |
+| | Změnit Wi-Fi síť | Připojení k jinému přístupovému bodu | Ikona sítě → Vybrat požadovanou Wi-Fi |
+| **Účty a oprávnění** | Spustit příkaz jako správce | Dočasné získání root práv | `sudo prikaz` |
+| | Vytvořit nového uživatele | Přidání lokálního účtu | `sudo adduser uzivatelske_jmeno` |
+| | Změnit heslo | Zabezpečení účtu | `passwd` |
+| **Vzhled a pohodlí** | Změnit tapetu | Přizpůsobení plochy | Pravé kliknutí na plochu → **Nastavení plochy** |
+| | Změnit motiv / ikony | Zlepšení čitelnosti a estetiky | Nastavení → Vzhled / Motivy |
+| **Nástroje Kali** | Otevřít nabídku nástrojů | Průzkum testovacích a bezpečnostních nástrojů | Nabídka **Aplikace → Kali Linux** |
+| | Spustit nástroj (např. nmap, wireshark) | Praktické objevování bezpečnostních utilit | `sudo nmap`, `wireshark` atd. |
+| **Nápověda a dokumentace** | Získat nápovědu k příkazu | Pochopení příkazu před jeho použitím | `man prikaz` nebo `prikaz --help` |
 
 ## Závěr
 

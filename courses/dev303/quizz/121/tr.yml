@@ -1,0 +1,8 @@
+question: Breez SDK'nın sıfır kanal rezervi özelliğinin Yıldırım Hizmet Sağlayıcıları tarafından üstlenilmesi gereken ek risk yarattığı birincil mekanizma nedir?
+answer: LSP'ler, geleneksel olarak kanalın kapanmasına karşı koruma sağlayan güvenlik tamponunu ortadan kaldırarak, kullanıcıların kanal bakiyelerinin tamamını harcama riskini kabul etmelidir
+wrong_answers:
+  - LSP'ler, geleneksel rezerv tabanlı ücret telafisi olmaksızın birden fazla kullanıcı cihazında sürekli ağ grafiği senkronizasyonunu sürdürmekten sorumlu hale gelir
+  - LSP'ler, kanal rezervlerinin ağ tıkanıklığı senaryolarının üstesinden gelmek için sağladığı likidite yastığı olmadan anında ödeme yönlendirmesini garanti etmelidir
+  - LSP'ler, kullanıcılar yüksek ücretli dönemlerde tüm Lightning bakiyelerini Bitcoin'ye dönüştürmeye çalıştıklarında on-chain takas başarısızlıklarının sorumluluğunu üstlenir
+explanation: |
+  Sıfır kanal rezervleri, kullanıcıların görüntülenen bakiyelerinin tamamını harcamalarına izin verir, ancak bu, kanal zorla kapatmaları sırasında Yıldırım Hizmet Sağlayıcılarını koruyan geleneksel güvenlik tamponunu ortadan kaldırır. Kanal rezervleri genellikle kapanış maliyetlerini karşılamak ve kötü niyetli davranışlara karşı güvenlik sağlamak için bazı fonların kilitli kalmasını sağlar. Kullanıcı deneyimini iyileştirmek için bu rezervleri kaldıran LSP'ler, bu tamponların azaltmak için tasarlandığı ek operasyonel ve finansal riskleri üstlenmelidir; bu da teknik karmaşıklığın ve riskin kullanıcılardan hizmet sağlayıcılara kaydırıldığı açık bir değiş tokuşu temsil eder.

@@ -1,0 +1,8 @@
+question: Menurut teori Hayek tentang pengetahuan yang tersebar, mengapa perencanaan terpusat pada dasarnya cacat sebagai mekanisme koordinasi ekonomi?
+answer: Pengetahuan hanya ada dalam bentuk fragmen-fragmen yang tersebar di antara individu-individu, sehingga mustahil bagi perencana pusat untuk mengakses informasi lengkap yang diperlukan untuk koordinasi yang efisien
+wrong_answers:
+  - Perencana pusat tidak memiliki otoritas moral untuk membuat keputusan untuk orang lain, bahkan ketika mereka memiliki informasi pasar yang lengkap
+  - Korupsi politik dan kepentingan pribadi menghalangi para perencana pusat untuk menerapkan solusi yang optimal secara ekonomi meskipun mereka memiliki akses ke semua data yang diperlukan
+  - Perencanaan terpusat membutuhkan terlalu banyak daya komputasi dan teknologi yang tidak tersedia pada masa Hayek tetapi dapat bekerja saat ini
+explanation: |
+  Kritik Hayek terhadap perencanaan terpusat bersifat epistemologis, bukan moral atau teknologi. Ia berargumen bahwa pengetahuan tidak pernah ada dalam bentuk terkonsentrasi, melainkan hanya sebagai 'fragmen-fragmen yang tersebar dari pengetahuan yang tidak lengkap dan sering kali saling bertentangan yang dimiliki oleh setiap individu Masalah pengetahuan yang tersebar ini berarti perencana pusat tidak dapat mengakses biaya, manfaat, dan preferensi lokal yang subjektif yang hanya dimiliki oleh individu-individu, sehingga koordinasi ekonomi yang efisien menjadi tidak mungkin dilakukan terlepas dari niat atau kemampuan komputasi mereka.

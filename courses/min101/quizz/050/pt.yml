@@ -1,0 +1,9 @@
+question: Quando é que as transações de um bloco se tornam confirmadas?
+answer: Quando o bloco é adicionado à blockchain
+wrong_answers:
+  - Quando a transação é assinada pelo mineiro
+  - Quando a transação é difundida pelo nó
+  - Quando o mineiro começa a procurar a prova
+explanation: |
+  A confirmação de um pagamento em Bitcoin é a consequência da adição do bloco que o contém à blockchain.
+reviewed: false

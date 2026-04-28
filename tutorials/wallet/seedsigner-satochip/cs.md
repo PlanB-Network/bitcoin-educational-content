@@ -96,7 +96,7 @@ Chcete-li používat SeedSigner s čipem Satochip, musíte nainstalovat alternat
 
 
 
-Pokud jej ještě nemáte, stáhněte si software [Balena Etcher] (https://etcher.balena.io/) a postupujte následovně:
+Pokud jej ještě nemáte, stáhněte si software [Balena Etcher](https://etcher.balena.io/) a postupujte následovně:
 
 
 

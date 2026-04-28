@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale del processo di costruzione del sighash nella validazione delle transazioni Bitcoin?
+answer: Per creare l'esatto messaggio che è stato originariamente firmato dalla chiave privata per la verifica della firma
+wrong_answers:
+  - Al generate un identificativo univoco per la transazione che impedisce gli attacchi del double-spending
+  - Per comprimere i dati della transazione in un formato più piccolo per una trasmissione efficiente in rete
+  - Per criptare il contenuto della transazione in modo che solo il destinatario possa decifrare e spendere le coin
+explanation: |
+  La costruzione di sighash crea il messaggio esatto che è stato firmato dalla chiave privata, consentendo a OP_CHECKSIG di verificare l'autenticità della firma. Questo processo prevede lo svuotamento degli ScriptSig, la sostituzione dello ScriptSig dell'input corrente con la corrispondente ScriptPubKey e l'aggiunta di un tipo di hash prima del double-hashing. Le altre opzioni non sono corrette: gli ID delle transazioni servono come identificatori, la compressione è gestita separatamente e le transazioni Bitcoin non sono crittografate ma visibili pubblicamente sulla blockchain.

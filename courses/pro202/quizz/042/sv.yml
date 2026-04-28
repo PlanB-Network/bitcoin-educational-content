@@ -1,0 +1,8 @@
+question: Om Bitcoin:s mekanism för svårighetsjustering stöter på ett scenario där de tidigare 2016-blocken tog exakt 6 veckor att bryta istället för de förväntade 2 veckorna, vilken justeringsfaktor skulle då tillämpas?
+answer: Svårighetsgraden skulle minskas med en faktor 4 (högsta tillåtna minskning)
+wrong_answers:
+  - Svårighetsgraden skulle minska med en faktor 3 (6 veckor ÷ 2 veckor)
+  - Svårighetsgraden skulle minskas med en faktor 2,5 för att förhindra överkorrigering
+  - Svårighetsgraden skulle reduceras med en faktor 6 baserat på tidskvoten
+explanation: |
+  Bitcoin:s svårighetsjustering har inbyggda gränser som begränsar förändringar till inom en faktor fyra i båda riktningarna. Även om 6 veckor ÷ 2 veckor = 3, vilket tyder på en 3x minskning, begränsar protokollet justeringarna till 4x för att förhindra extrem volatilitet. Denna säkerhetsmekanism säkerställer nätverksstabilitet under stora hashhastighetsförändringar, som mining-förbud eller utrustningsfel, genom att förhindra överkorrigering som kan destabilisera blocktimingen.

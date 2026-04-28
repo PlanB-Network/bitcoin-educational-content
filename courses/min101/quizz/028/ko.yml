@@ -1,0 +1,9 @@
+question: 블록 보조금(block subsidy)은 무엇에 해당합니까?
+answer: 화폐 발행
+wrong_answers:
+  - 트랜잭션 수수료
+  - 사용자 예치금
+  - 스팸 페널티
+explanation: |
+  보조금은 프로토콜 규칙에 따라 무(無)에서 새로운 비트코인을 창출하는 보상의 일부입니다.
+reviewed: false

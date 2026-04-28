@@ -26,11 +26,11 @@ Sie können auch ein vorgefertigtes NerdMiner-Kit bei verschiedenen Händlern ka
 
 Zuerst werden wir sehen, wie man die Software auf den ESP-32 S3 flashen kann, und dann werden wir sehen, wie man ihn neu startet, um das WLAN-Netzwerk zu ändern. Diese Schritte sind für Windows-Benutzer gedacht. Wenn Sie ein Linux-Betriebssystem verwenden, führen Sie bitte die [Vorbereitungsschritte](#etapes-preliminaires-pour-utilisateurs-linux) aus, um die Erkennung des ESP-32 S3 durch Ihr System zu ermöglichen.
 
-# Installation der NerdMiner_v2-Software
+## Installation der NerdMiner_v2-Software
 
 Die Installation der Software wird durch die Verwendung des Webflashers erheblich vereinfacht.
 
-## Schritt 1: Vorbereitung des Webflashers
+### Schritt 1: Vorbereitung des Webflashers
 
 Zunächst müssen Sie zum [Online-Flasher NM2](https://bitmaker-hub.github.io/diyflasher/) gehen.
 
@@ -40,7 +40,7 @@ Wählen Sie dann die Firmware für Ihren ESP-32 aus. In den meisten Fällen ist 
 
 ![](assets/webflasher.webp)
 
-## Schritt 2: Anschließen des ESP-32
+### Schritt 2: Anschließen des ESP-32
 
 Sobald der Webflasher gestartet ist, öffnet sich ein Popup-Fenster, das die verschiedenen vom Browser erkannten USB-Ports anzeigt.
 Sie können dann Ihren ESP-32 anschließen und ein neuer Port wird angezeigt (hier ist es der Port ttyACM0). Wählen Sie ihn aus und klicken Sie auf "Verbinden".
@@ -51,7 +51,7 @@ Die Software wird dann in wenigen Sekunden auf Ihren ESP32 heruntergeladen.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Schritt 3: Konfiguration des NerdMiner
+### Schritt 3: Konfiguration des NerdMiner
 
 Die Konfiguration Ihres NerdMiners erfolgt über ein Smartphone oder einen Computer.
 Aktivieren Sie WLAN und verbinden Sie sich mit dem lokalen Netzwerk NerdMinerAP. Wenn Sie ein Smartphone verwenden, wird die Konfigurationsseite automatisch geöffnet. Andernfalls geben Sie in einem Browser die Adresse 192.168.4.1 ein.
@@ -78,7 +78,7 @@ Sie können jetzt auf "Speichern" klicken.
 
 Herzlichen Glückwunsch, Sie sind jetzt Teil des Bitcoin-Mining-Netzwerks!
 
-## Bedienung des NerdMiner
+### Bedienung des NerdMiner
 
 Die NerdMinerv2-Software besteht aus 3 verschiedenen Bildschirmen, auf die Sie zugreifen können, indem Sie auf die Schaltfläche oben rechts auf Ihrem Bildschirm klicken:
 
@@ -91,7 +91,7 @@ Wenn Sie Ihren NerdMiner neu starten möchten, z.B. um das WLAN-Netzwerk zu wech
 
 Wenn Sie einmal auf die untere Taste drücken, wird Ihr NerdMiner ausgeschaltet. Durch zweimaliges Klicken wird die Bildschirmausrichtung umgekehrt.
 
-### Vorbereitende Schritte für Linux-Benutzer
+#### Vorbereitende Schritte für Linux-Benutzer
 
 Hier sind die Schritte, damit Chrome Ihren seriellen Port auf einem Linux-System erkennen kann.
 
@@ -112,13 +112,13 @@ Hier sind die Schritte, damit Chrome Ihren seriellen Port auf einem Linux-System
 
 Jetzt, da Ihr ESP-32 von Ihrem System erkannt wird, können Sie zum [ersten Schritt](#schritt-1-vorbereitung-des-webflashers) zurückkehren, um die Software zu installieren.
 
-## Fazit
+### Fazit
 
 Und da haben Sie es! Ihr NerdMiner_v2 ist jetzt konfiguriert und einsatzbereit.
 
 Viel Spaß beim Mining und viel Glück!
 
-### Schätzung der Gewinnwahrscheinlichkeit
+#### Schätzung der Gewinnwahrscheinlichkeit
 
 Lassen Sie uns Spaß daran haben, die Wahrscheinlichkeit des Gewinns einer Blockbelohnung abzuschätzen. Diese Schätzung wird grob sein und dient nur dazu, die Größenordnung der Wahrscheinlichkeit zu ermitteln.
 Die Pool, zu dem ein NerdMiner eine Verbindung herstellen kann, sind nur "Solo-Mining-Pools", was bedeutet, dass der Pool die Hashrate aller verbundenen Miner nicht mutualisiert, sondern lediglich als Koordinator fungiert.
@@ -126,7 +126,7 @@ Nehmen wir nun an, dass unser NerdMiner eine Hashrate von etwa 45 kH/s hat.
 
 Angesichts der Tatsache, dass die Gesamthashrate etwa 450 EH/s (oder 4,5 x 10^20 Hashes pro Sekunde) beträgt, können wir davon ausgehen, dass die Wahrscheinlichkeit, den nächsten Block zu finden, 1 zu 100 Millionen Milliarden beträgt, was sehr, sehr, sehr unwahrscheinlich ist. Zusätzlich zu seiner Funktion als Bildungswerkzeug und Objekt der Neugier kann ein NerdMiner als Lotterielos im Bitcoin-Mining dienen, bei einem marginalen Stromverbrauch von 0,5 W - obwohl die Gewinnwahrscheinlichkeit geradezu lächerlich niedrig ist. Warum also nicht Ihr Glück herausfordern?
 
-### Zusätzliche Informationen
+#### Zusätzliche Informationen
 
 Hier sind einige Links, wenn Sie mehr über das Thema lesen möchten:
 

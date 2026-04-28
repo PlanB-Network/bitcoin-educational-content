@@ -6,4 +6,4 @@ wrong_answers:
   - Node tersebut mengelola jaringan Bitcoin.
 explanation: >-
   Sebuah node Bitcoin dalam jaringan Bitcoin menangani validasi blok baru dan transaksi yang termasuk di dalamnya. Melalui jaringan node Bitcoin inilah jaringan tersebut benar-benar terdesentralisasi.
-reviewed: false
+reviewed: true

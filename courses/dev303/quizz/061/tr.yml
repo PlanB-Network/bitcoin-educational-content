@@ -1,0 +1,8 @@
+question: Rust'da makroların ve fonksiyonların işlenme şekli arasındaki temel fark nedir?
+answer: Makrolar derleme başlamadan önce derleme zamanında derleyici tarafından genişletilirken, fonksiyonlar çalışma zamanında çağrılır
+wrong_answers:
+  - Makrolar tür denetimi için kalıp eşleştirmeyi kullanırken, işlevler çalışma zamanında doğrulama için statik analizi kullanır
+  - Fonksiyonlar Rust sanal makinesi tarafından yorumlanırken makrolar doğrudan generate optimize edilmiş assembly kodu
+  - Makrolar yürütme sırasında bellekte saklanırken, işlevler çağrıldıklarında diskten yüklenir
+explanation: |
+  Doğru cevap temel zamansal ayrımı tanımlar: makrolar derleme sırasında kod genişletme yoluyla çalışırken, fonksiyonlar program çalışma zamanı sırasında yürütülür. Yanlış cevaplar çeşitli programlama kavramlarını karıştırmaktadır - Rust bir sanal makine kullanmaz, hem makrolar hem de fonksiyonlar tip kontrolünden geçer (ancak farklı aşamalarda) ve ne fonksiyonlar ne de makrolar tanımlanan şekilde yürütme sırasında diskten yüklenmez.

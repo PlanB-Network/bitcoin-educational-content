@@ -1,0 +1,8 @@
+question: What did the medieval prohibition on charging interest (usury) actually demonstrate, according to the text?
+answer: Suppressing a voluntary exchange mechanism does not eliminate the underlying need; it merely forces it underground, creating workarounds and injustices
+wrong_answers:
+  - It demonstrated that religious authority could successfully override economic self-interest when enforced consistently enough
+  - It showed that economies can function without interest-based lending when communities adopt cooperative principles instead
+  - It proved that the price of capital is an artificial construct that societies can abolish through collective moral commitment
+explanation: |
+  The text argues that interest on money is simply the price at which capital is transmitted from one who has it to one who needs it, reflecting the time, risk, and sacrifice of the lender. The medieval prohibition on usury did not eliminate the need for capital transmission; it merely forced it underground. The tragic role imposed upon Jewish moneylenders in the Middle Ages illustrates this: because Christian merchants were forbidden from lending at interest, this function was displaced onto a marginalized group, creating new injustices rather than solving any economic problem. Every attempt to abolish a voluntary exchange mechanism encounters the same contradiction: the underlying human need persists and finds another outlet.

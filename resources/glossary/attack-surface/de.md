@@ -1,5 +1,6 @@
 ---
-term: ATTACK SURFACE
+term: Angriffsfläche
 
+definition: Eine Sammlung potenzieller Einstiegspunkte, die ein Angreifer ausnutzen kann, um auf ein System zuzugreifen. Die Verringerung dieser Fläche verbessert die Sicherheit.
 ---
 Bezieht sich auf die Gesamtzahl der potenziellen Einstiegspunkte, die ein Angreifer ausnutzen könnte, um Zugang zu einem System zu erhalten. Die Angriffsfläche umfasst alle Schnittstellen, Dienste, Ports, Protokolle und andere Kommunikationsvektoren, die offengelegt werden könnten. Eine erweiterte Angriffsfläche erhöht die Schwachstellen und macht das System damit anfälliger für Angriffe. Die Verringerung der Angriffsfläche ist eine gute Sicherheitspraxis, die die Deaktivierung unnötiger Dienste beinhaltet. Im Zusammenhang mit Bitcoin zum Beispiel haben Hardware-Wallets eine viel kleinere Angriffsfläche als Software-Wallets. Sie isolieren die Schlüssel auf einem Gerät, das nicht mit dem Internet verbunden ist, und verfügen über sehr wenige Schnittstellen und Dienste. Im Gegensatz dazu werden Software-Wallets auf vielseitigen PCs installiert, die aufgrund der zahlreichen Funktionen und Netzwerkverbindungen, die sie unterstützen, eine viel größere Angriffsfläche bieten.

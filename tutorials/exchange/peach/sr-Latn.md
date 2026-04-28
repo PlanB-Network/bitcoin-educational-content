@@ -1,17 +1,20 @@
 ---
 name: Peach
-description: Kompletan vodič za korišćenje Peach-a i razmenu bitkoina P2P
+description: Kompletan vodič za korišćenje Peach i trgovanje bitkoinima u P2P
 ---
+
 ![cover](assets/cover.webp)
 
 
-![peach](https://youtu.be/ziwhv9KqVkM)
+
 
 
 ## Uvod
 
 
+
 Peer-to-peer razmene bez KYC (P2P) su ključne za očuvanje poverljivosti korisnika i finansijske autonomije. Omogućavaju direktne transakcije između pojedinaca bez potrebe za verifikacijom identiteta, što je od suštinskog značaja za one koji cene privatnost. Za dublje razumevanje teorijskih koncepata, pogledajte kurs BTC204:
+
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -19,50 +22,65 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### 1. Šta je Peach?
 
 
-Breskva je P2P Exchange platforma koja omogućava korisnicima kupovinu i prodaju bitkoina bez KYC. Nudi intuitivan Interface i napredne sigurnosne funkcije. U poređenju sa drugim rešenjima kao što su Bisq, HodlHodl i Robosat, Breskva se ističe lakoćom korišćenja i niskim naknadama.
+
+Peach je P2P platforma za razmenu koja omogućava korisnicima kupovinu i prodaju bitkoina bez KYC. Nudi intuitivan interfejs i napredne sigurnosne funkcije. U poređenju sa drugim rešenjima kao što su Bisq, HodlHodl i Robosat, Peach se ističe po lakoći korišćenja.
 
 
-### 2. Privatnost i Prikupljanje Podataka
-
-
-**Koje informacije Peach prikuplja?**
-
-
-Breskva nastoji da čuva apsolutni minimum podataka o svojim korisnicima. Ovde je pregled podataka koji se čuvaju na njenim serverima:
+Sistem eskroua multisignature (2-2) garantuje sigurnost sredstava tokom transakcija. Peach podržava različite metode plaćanja i sadrži sistem reputacije koji vodi trgovce u njihovim akcijama. Kao i obično sa P2P platformama, stoga je važno održavati dobru reputaciju kako bi se održala kredibilnost kod drugih trgovaca.
 
 
 
+### 2. Privatnost i prikupljeni podaci
 
-- A Hash vašeg jedinstvenog identifikatora aplikacije (AdID)
-- Hash vaših podataka o plaćanju
+
+
+**Koje informacije prikuplja Peach?
+
+
+
+Peach nastoji da čuva apsolutni minimum podataka o svojim korisnicima. Ovde je pregled podataka koji se čuvaju na našim serverima:
+
+
+
+
+
+- hash vašeg jedinstvenog identifikatora aplikacije (AdID)
+- hash vaših podataka o plaćanju
 - Vaši šifrovani razgovori
 - Podaci o transakcijama kako bi se osiguralo da anonimni korisnici ne prekorače limit trgovanja (vrste korišćenih metoda plaćanja, iznosi kupovine i prodaje)
-- Adrese korišćene za slanje i primanje sa escrow računa
+- Addresses korišćen za slanje i primanje sa escrow računa
 - Podaci o korišćenju (Firebase i Google Analytics), samo uz vaš pristanak
 
 
-Kao podsetnik, Hash je podatak učinjen neprepoznatljivim, slično enkripciji. Isti podaci će uvek proizvesti isti Hash, što omogućava otkrivanje duplikata bez poznavanja originalnih podataka.
+
+Kao podsetnik, hash je podatak učinjen neprepoznatljivim, slično enkripciji. Isti podaci će uvek proizvesti isti hash, što omogućava detekciju duplikata bez poznavanja originalnih podataka.
 
 
-*Za više informacija o heširanju, možete pratiti ovaj kurs:*
+
+*Za detaljnije objašnjenje hashing-a, pohađajte ovaj kurs:*
+
 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Ko može videti moje podatke o plaćanju?**
+**Ko može videti moje podatke o plaćanju?
+
 
 
 
 
 - Samo vaša suprotna strana može videti vaše podatke o plaćanju
-- Podaci se prenose putem Peach servera, ali su u potpunosti šifrovani od kraja do kraja.
+- Podaci se prenose putem Peach servera, ali su potpuno šifrovani od kraja do kraja.
 - U slučaju spora, vaši podaci o plaćanju i istorija razgovora biće vidljivi dodeljenom Peach posredniku.
+
 
 
 ## Instalacija i konfiguracija
 
 
-### 1. Instalirajte Peach aplikaciju
+
+### 1. Instalirajte aplikaciju Peach
+
 
 
 ![Installation de Peach](assets/fr/01.webp)
@@ -70,11 +88,12 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Preuzmite aplikaciju sa [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
+
+- Preuzmite aplikaciju sa [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/). Na iOS-u, prvo ćete morati instalirati [testflight](https://apps.apple.com/us/app/testflight/id899247664) aplikaciju.
 - Pratite uputstva za instalaciju na vašem uređaju.
-- Tokom instalacije, bićete upitani da izaberete da li želite da delite određene podatke kako biste poboljšali Peach aplikaciju (slika 1)
+- Tokom instalacije, bićete upitani da izaberete da li želite da delite određene podatke kako biste poboljšali Peach aplikaciju. (slika 1)
 - Na sledećem ekranu (slika 2), imate dve opcije:
- - Ako ste novi korisnik, kliknite na "Novi korisnik" da kreirate novi profil
+ - Ako ste novi korisnik, kliknite na "Novi korisnik" da biste kreirali novi profil.
  - Ako već imate nalog, koristite "Restore" da vratite svoj postojeći profil
 - Ako imate referalni kod, možete ga uneti ovde.
 - Da biste vratili postojeći nalog (slika 3), biće vam potrebno :
@@ -82,10 +101,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
  - Lozinka za dešifrovanje ove datoteke
 
 
+
 ### 2. Pregled glavnih ekrana
 
 
+
 Aplikacija Peach je organizovana oko četiri glavna ekrana dostupna iz donje navigacione trake:
+
 
 
 ![Navigation dans l'application](assets/fr/02.webp)
@@ -93,58 +115,102 @@ Aplikacija Peach je organizovana oko četiri glavna ekrana dostupna iz donje nav
 
 
 
-- **Početna**: Glavni ekran za kupovinu i prodaju bitkoina. Ovde možete kreirati nove transakcije i pristupiti dostupnim ponudama.
-- **Wallet**: Vaš integrisani Bitcoin Wallet koji vam omogućava da:
- - Proveri svoj saldo
+
+- Početna (4)** : Glavni ekran sa kojeg možete izabrati da kupite ili prodate, kreirate nove transakcije i pristupite dostupnim ponudama:
+ - kreiraj ponude pomoću dva dugmeta ispod (kreiraj kupovinu / kreiraj prodaju)
+ - iskoristite postojeće ponude koje su kreirali drugi korisnici, koristeći dva dugmeta ispod ("Kupi"/"Prodaj").
+
+
+
+
+
+- Wallet (5)** : Vaš integrisani bitcoin wallet koji vam omogućava da :
+ - Proverite stanje vašeg računa
  - Primite bitkoine
- - Pošalji bitkoine
- - Pregledajte istoriju transakcija
-- **Trades**: Vaš centar za upravljanje trgovinom gde ćete pronaći :
- - Vaše trenutne transakcije
- - Kompletna istorija vaših razmena
- - Status svake transakcije
-- **Postavke**: Vaš čvorište za konfiguraciju naloga za:
+ - Envoyer bitcoini (sa kontrolom novčića)
+ - Pogledajte istoriju transakcija
+ - Finansiranje vaše prodaje
+
+
+
+
+
+- Trgovine (6)**: vaši trenutni i prošli ugovori, pod tri kartice:
+ - Kupovine u toku
+ - Prodaja u toku
+ - Istorija vaših razmena
+
+
+
+
+
+- Postavke (7)** : Čvorište za konfiguraciju
+ - Pogledaj svoj profil (reputacija, bedževi, ograničenja, itd.)
+ - Upravljanje sigurnošću (backup, pin)
  - Upravljajte svojim metodama plaćanja
- - Konfigurišite svoje rezervne kopije
- - Prilagodite svoje preference
- - Pristup pomoći i podršci
+ - Kontaktirajte podršku
+ - Promeni jezik
+ - itd.
+
 
 
 ### 3. Konfigurišite svoje metode plaćanja
 
 
+
 ![Accès aux paramètres de paiement](assets/fr/03.webp)
 
 
-Pristupite metodama plaćanja putem kartice Podešavanja (slika 8)
+
+Možete upravljati svojim metodama plaćanja u postavkama (slika 8)
 
 
-**Online plaćanja**
+
+Peach nudi online plaćanja i plaćanja licem u lice (samo na registrovanim okupljanjima).
+
+
+
+**Online plaćanja
+
+
+
+**Važno:**
+
+
+da zaštiti korisnike, Peach zahteva da izvor sredstava odgovara onom koji je oglašen. Na trgovcima je da osiguraju da je to slučaj, radi sopstvene zaštite.
+
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
 
 
+Da dodate metodu :
 
-- Kliknite na dugme da dodate novi način plaćanja
+
+
+
+- U kartici "online" kliknite na "dodaj valutu/metod"
 - Izaberite svoju valutu
 - Odaberite željeni način plaćanja
+
 
 
 *Vrste dostupnih metoda plaćanja:*
 
 
-***Bankovni transferi dostupni: ***
+
+***Za bankovne transfere: ***
 
 
 
 
-- SEPA (standardni ili instant)
-- Unesite svoje SEPA bankovne podatke
+- SEPA (standardna ili instant)
+- Unesite podatke o svom SEPA bankovnom računu.
 
 
-***Prihvaćeni online novčanici :***
+
+***Online wallets prihvaćeni :***
 
 
 
@@ -153,13 +219,15 @@ Pristupite metodama plaćanja putem kartice Podešavanja (slika 8)
 - Pratite uputstva da dodate svoje podatke za prijavu
 
 
-***Poklon kartica koja se može koristiti :***
+
+*gift kartica upotrebljiva:*** Gift kartica upotrebljiva:*** Gift kartica upotrebljiva:*** Gift kartica upotrebljiva:*** Gift kartica upotrebljiva:*** Gift kartica upotrebljiva:***
 
 
 
 
-- Amazon
-- Unesite zemlju izdavanja kartice i ostale potrebne informacije
+- Amazon, Steam, itd.
+- Unesite zemlju izdavanja kartice i druge potrebne informacije
+
 
 
 ***Nacionalne opcije plaćanja:***
@@ -174,9 +242,12 @@ Sistemi plaćanja specifični za zemlju :
 - MB Way (Portugal)
 - Bizum (Španija)
 - Brže uplate (Ujedinjeno Kraljevstvo)
+- itd.
 
 
-***Plaćanja lično:***
+
+***Za plaćanja licem u lice: ***
+
 
 
 ![Configuration des paiements en personne](assets/fr/05.webp)
@@ -184,8 +255,10 @@ Sistemi plaćanja specifični za zemlju :
 
 
 
-- Odaberite "Meetup
-- Zatim izaberite svoj sastanak sa liste
+
+- Odaberite "Meetup" (slika 12)
+- Zatim izaberite svoj meetup sa liste (slika 13)
+
 
 
 ### Uputstva za upotrebu
@@ -193,43 +266,52 @@ Sistemi plaćanja specifični za zemlju :
 
 
 
-- Možete istovremeno postaviti nekoliko metoda plaćanja.
+
+- Možete dodati nekoliko metoda plaćanja
 - Što više metoda dodate, širi će biti raspon ponuda kojima ćete imati pristup.
-- Molimo proverite da su vaši podaci tačni pre nego što se registrujete.
+- Proverite tačnost vaših informacija pre nego što se registrujete
 - Možete promeniti ili izbrisati svoje metode plaćanja u bilo kom trenutku.
 
 
-**Beleška o bezbednosti**: Vaše informacije o plaćanju su šifrovane i dele se samo sa vašim Exchange partnerom tokom transakcije.
+
+**Beleška o bezbednosti**: Vaše informacije o plaćanju su šifrovane i dele se samo sa vašim partnerom u razmeni tokom transakcije, osim u slučaju spora kada će i Peach medijator imati pristup.
 
 
-### 4. Kako osigurati svoj Wallet
+
+### 4. Kako osigurati svoj portfolio
 
 
-**Razumevanje vašeg Peach naloga**
+
+**Razumevanje vašeg Peach naloga
 
 
-Peach nalog nije tradicionalni nalog sa korisničkim imenom i lozinkom. To je fajl koji se čuva lokalno na vašem telefonu, što znači da Peach ne mora da čuva vaše podatke ili zna vaš identitet: vi imate kontrolu. Ovaj fajl sadrži sve vaše podatke, od vaših Bitcoin Wallet ključeva do vaših podataka o plaćanju.
+
+Peach nalog nema korisničko ime i lozinku. To je datoteka koja je lokalno uskladištena na vašem telefonu, što znači da Peach ne treba da čuva vaše podatke ili zna vaš identitet: vi imate kontrolu. Ova datoteka sadrži sve vaše podatke: uključujući 12 reči za oporavak bitcoina, PGP ključeve, detalje o plaćanju i tako dalje. Zato je ključno sačuvati ovu datoteku i zaštititi je __robustnom__ lozinkom.
 
 
-Ovaj pristup garantuje veću poverljivost, ali takođe podrazumeva veću odgovornost. Gubljenje telefona bez rezervne kopije znači gubitak pristupa vašem Peach nalogu i sredstvima. Zato je ključno napraviti rezervnu kopiju ovog fajla i zaštititi ga jakom lozinkom.
+
+Ovaj pristup garantuje određeni stepen poverljivosti i ostavlja odgovornost za upravljanje podacima i rezervnim kopijama u rukama korisnika. Gubljenje telefona bez rezervne kopije znači gubitak pristupa vašem Peach nalogu i sredstvima.
+
 
 
 **Kreirajte svoje rezervne kopije**
 
 
-![Accéder aux sauvegardes](assets/fr/13.webp)
 
 
 
 
-- Pristupite podešavanjima iz kartice u donjem desnom uglu početnog ekrana
-- Odaberite opciju "backups" u meniju podešavanja
+- Pristupite postavkama sa kartice u donjem desnom uglu početnog ekrana
+- Izaberite opciju "backups" u meniju podešavanja
+
 
 
 ![Processus de sauvegarde](assets/fr/06.webp)
 
 
+
 Dve vrste rezervne kopije su dostupne:
+
 
 
 **Sačuvaj datoteku naloga (slika 14)**
@@ -238,8 +320,9 @@ Dve vrste rezervne kopije su dostupne:
 
 
 - Kliknite na "Kreiraj novu rezervnu kopiju"
-- Kreirajte jaku lozinku za šifrovanje vaše rezervne datoteke
-- Čuvajte ovu datoteku na sigurnom mestu.
+- Kreirajte **jaku** lozinku za šifrovanje vaše rezervne datoteke
+- Pošaljite ovu datoteku na lokaciju koja će osigurati njenu redundanciju u slučaju gubitka telefona.
+
 
 
 Rezerva datoteke vraća vaš kompletan Peach nalog, uključujući :
@@ -247,11 +330,11 @@ Rezerva datoteke vraća vaš kompletan Peach nalog, uključujući :
 
 
 
-- Vaš Wallet
+- Vaš portfolio
 - Vaši načini plaćanja
-- Istorija razgovora
 - Podaci o plaćanju
-- Istorija transakcija sa detaljima o drugoj strani
+- Istorija transakcija sa detaljima o suprotnim stranama i razgovorima sa njima
+
 
 
 **Čuvanje fraze za oporavak (slika 15)**
@@ -260,46 +343,56 @@ Rezerva datoteke vraća vaš kompletan Peach nalog, uključujući :
 
 
 - Pratite uputstva da prikažete svoju frazu za oporavak
-- Pažljivo napišite reči redosledom.
-- Sačuvajte ovu rezervnu kopiju na sigurnom mestu, idealno različitom od datoteke naloga.
-
-
-Fraza za oporavak oporavlja samo:
+- Pažljivo napišite reči tačnim redosledom.
+- Čuvajte ovu rezervnu kopiju na sigurnom mestu, idealno različitom od datoteke naloga.
 
 
 
-
-- Pristup vašem nalogu
-- Vaša Bitcoin sredstva
-
-
-Izgubićeš :
+Fraza za oporavak vam omogućava da povratite :
 
 
 
 
-- Istorija razgovora
+- Vaša reputacija, vaša trgovina
+- Vaša bitcoin sredstva
+
+
+
+Ali **NE** sledeće:
+
+
+
+
+- Vaši trenutni i prošli razgovori
 - Podaci o plaćanju
 - Informacije o drugoj strani u istoriji transakcija
 
 
-Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
-## Kupovina i prodaja Bitcoina
+## Kupovina i prodaja bitkoina
 
 
-### 1. Kako kupiti Bitkoine
+
+### 1.a Kako kupiti bitkoine: Prihvatite ponudu za prodaju
 
 
-![Création et vue des offres](assets/fr/07.webp)
+
+Prvi refleks kupca treba da bude da pogleda ponude za prodaju koje su već finansirane bitcoin-om.
+
+
+
+![Vue des offres de vente et filtres](assets/fr/07.webp)
+
 
 
 
 
 - Na početnom ekranu, kliknite na dugme "Kupi" (slika 16)
-- Konfigurišite svoju kupovinu prema vašim preferencijama (slika 17)
-- Pregledajte listu dostupnih ponuda (slika 18)
+- Zatim možete pregledati listu bitkoina koji su postavljeni u escrow sistem i spremni su za prodaju (slika 17). Možete videti količinu, cenu (u % u odnosu na KYC tržište), metode plaćanja i prihvaćene valute.
+- Koristite filtere za sortiranje i redosled ponuda (slika 18).
+- Napomena: dugme na dnu stranice sa filterima omogućava vam da primite obaveštenje kada je objavljena ponuda koja odgovara vašim filterima; i dugme "resetuj", koje jednostavno briše sve filtere (slika 18).
+
 
 
 ![Sélection et confirmation d'achat](assets/fr/08.webp)
@@ -307,9 +400,21 @@ Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
 
-- Odaberite ponudu koja vam odgovara (slika 19)
+
+- Pogledajte ponudu koja vam odgovara i pošaljite zahtev za zamenu (slika 19)
+- Možete podneti nekoliko zahteva za zamenu, a prva pozitivna ponuda će poništiti vaše ostale zahteve.
 - Izvršite uplatu dogovorenim načinom.
-- Potvrdite uplatu u aplikaciji i ocenite transakciju (slika 20)
+
+
+**Podsetnik:** izvor sredstava mora odgovarati onom koji ste naveli prilikom dodavanja načina plaćanja.
+
+
+
+
+- Potvrdite uplatu u aplikaciji čim bude završena**.
+- Sačekajte da prodavac primi uplatu i to potvrdi (slika 20)
+- I na kraju, ocenite svoje iskustvo sa prodavcem (slika 21)
+
 
 
 ![Réception des bitcoins](assets/fr/09.webp)
@@ -317,80 +422,209 @@ Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
 
+
 - Pratite status vaše transakcije
 - Proverite potvrdu o prijemu bitkoina
-- Sredstva će biti dostupna na vašem Peach Wallet
-
-
-### 2. Kako prodati Bitcoine
-
-
-![Création d'un ordre de vente](assets/fr/10.webp)
+- Sredstva će biti dostupna u vašem Peach portfoliju (slika 22 i 23)
 
 
 
-
-- Konfigurišite svoju prodajnu ponudu (slika 24)
-- Finansirajte transakciju slanjem bitkoina na dati Address (slika 25)
-- Sačekajte potvrdu transakcije (slika 26)
-- Vaša ponuda je sada vidljiva kupcima (slika 27)
+### 1.b Kako kupiti bitkoine: Kreirajte ponudu
 
 
-![Attente du paiement](assets/fr/11.webp)
+
+Ako ne možete pronaći odgovarajuću ponudu za prodaju, možete kreirati ponudu za kupovinu. Pošto ovo ne obavezuje bilo koji bitcoin u ovoj fazi, imaćete manje šanse da pronađete partnera za razmenu, posebno ako je vaš dosadašnji učinak i reputacija loša ili nepostojeća. Da biste to ispravili, važno je, prilikom kreiranja ponude, *napraviti ponudu sa visokim premijama* kako biste motivisali prodavce da izaberu vašu ponudu. Nastavimo:
+
+
+
+![Creation d'ordre d'achat](assets/fr/10.webp)
 
 
 
 
-- Pratite status vaše ponude
-- Sačekajte potvrdu uplate od kupca
-- Proveri detalje transakcije
+
+- Na početnom ekranu kliknite na dugme "Kreiraj ponudu za kupovinu" (slika 24)
+- Dodajte način plaćanja, ako to već niste učinili, i unesite svoje preferencije (količina, premium itd.) (slika 25).
 
 
-![Finalisation de la vente](assets/fr/12.webp)
+Opcija "instant" vam omogućava da automatski prihvatite zahtev za trgovinu.
 
 
 
 
-- Proveri status plaćanja
-- Potvrdite prijem uplate
+ - Ponovo kliknite na "create a bid" da nastavite
+- Jednom kada je kreiran, na red dolaze prodavci da vam se obrate sa zahtevom za razmenu. Možete zatvoriti i izaći iz aplikacije bez brige.
+- Premiju možete promeniti ako ne dobijete nikakve zahteve. Zapamtite: viša premija će motivisati prodavce da potraže vašu ponudu (slika 26).
+- Ponudu ćete pronaći na kartici "Buy", koja se nalazi u prozoru "Exchange" (slika 27)
+
+
+
+![Reception d'une demande de vente, messagerie](assets/fr/11.webp)
+
+
+
+
+
+- Kada primite zahtev za kupovinu (slika 28) (i ako niste deaktivirali instant trgovinu na slici 25), prihvatite trgovinu nakon provere reputacije prodavca. Ako je instant trgovina omogućena, pređite direktno na sliku 29.
+- Prodavac tada mora da postavi bitcoin u sistem eskroua, („finansira sef“). (slika 29)
+- Zatim platite prodavcu na odredištu prikazanom na Slici 30, putem vašeg ličnog bankarskog sistema. Nemojte povlačiti kursor "Izvršio sam uplatu" dok to ne učinite!
+- Možete komunicirati sa prodavcem putem sistema za razmenu poruka (P2P šifrovano). U slučaju problema, možete otvoriti spor klikom na ikonu u gornjem desnom uglu (slika 31). Tada će Peach medijator ući u diskusiju.
+
+
+
+![Offre de vente completée](assets/fr/12.webp)
+
+
+
+
+
+- Jednom kada prodavac primi novac, prijaviće to i sistem eskrowa će osloboditi bitkoin, koji će biti na putu ka vašem wallet (podrazumevano putem GroupHug, Peach sistema grupisanja transakcija, koji se pokreće jednom dnevno),
+- Ocenite svoje iskustvo sa prodavcem
+
+
+
+To je to!
+
+
+
+**Napomena za nove kupce:** prodavci zasnivaju svoje trgovine na reputaciji kupaca i obično izbegavaju ponude od kupaca bez završenih trgovina. Lakše je, u prvom slučaju, izgraditi reputaciju prihvatanjem postojećih ponuda za prodaju.
+
+
+
+
+### 2.a Kako prodati bitkoine: Kreirajte prodaju
+
+
+
+Najbrži i najlakši način za prodaju na Peach je **kreirati ponudu za prodaju**.
+
+
+
+![Création d'un ordre de vente](assets/fr/13.webp)
+
+
+
+
+
+- Sa početne stranice kliknite na "Kreiraj prodajnu ponudu" (slika 32)
+- Postavite svoju ponudu, obavezno unesite način plaćanja i ispravne parametre.
+
+
+možete takođe :
+
+
+
+
+  - napraviti nekoliko identičnih ponuda
+  - aktivirajte "instant exchange" tako da prvi kupac koji naiđe može preuzeti ugovor (bez vaše potvrde) i nastaviti s plaćanjem.
+  - izaberite adresu za povraćaj novca
+  - finansirajte prtljažnik sa vašeg wallet Peach
+- Finansirajte transakciju slanjem bitkoina na navedenu adresu (slika 34)
+- Sačekajte potvrdu transakcije. Kada bude završeno, vaša ponuda će biti vidljiva na tržištu.
+
+
+
+![Attente du paiement](assets/fr/14.webp)
+
+
+
+
+
+- Sačekajte da kupac prihvati vašu ponudu. Razmislite o povećanju premije (%) ako želite da ubrzate stvari (slika 36)
+- Kada primite zahtev za razmenu, proverite reputaciju kupca. Sami procenite da li vam profil odgovara i kliknite na "prihvati" ako jeste. (37)
+- Sada je red na kupca da izvrši uplatu sa svoje banke na vašu. On će zatim proslediti uplatu vama. Ne oklevajte da kontaktirate kupca u četu.
+- nakon što proverite da su sredstva primljena od strane vaše banke*, oslobodite sredstva klikom na dugme "primio sam uplatu" (slika 38). Nikada ne potvrđujte prijem uplate pre nego što proverite da je primljena na vaš račun.
 - Proceni transakciju
-- Bitcoini se automatski puštaju kupcu
-
-
-**Saveti za uspešnu transakciju**
+- Bitcoins se automatski puštaju kupcu,
 
 
 
-
-- Brzo odgovarajte na poruke od vašeg sagovornika
-- Proverite detalje plaćanja pažljivo
-- Ne oklevajte da koristite uslugu medijacije ako imate problem.
+Tu imaš!
 
 
-**Beleška o bezbednosti**: Nikada ne potvrđujte prijem uplate dok ne proverite da li je primljena na vaš račun.
+
+**Napomena o bezbednosti i saveti za uspešnu transakciju:**
+
+
+
+
+ - Posmatrajte podatke o kupcu i proverite da li poreklo sredstava odgovara onom opisanom na Peach. Ako poreklo sredstava ne odgovara najavljenom, idite na Čet i otvorite argument (slika 39), i vratite sredstva na njihovo poreklo.
+ - Pratite uputstva u žutoj mački.
+ - Brzo odgovarajte na poruke od vašeg sagovornika
+ - budite oprezni prema stavu kupca, posebno kada imate posla sa profilom sa malo iskustva
+ - Ne oklevajte da koristite uslugu medijacije ako imate problem.
+
+
+
+### 2.b Kako prodati bitkoine: prihvatite ponudu
+
+
+
+Takođe je moguće pregledati i odabrati ponude za kupovinu. Moraćete biti posebno oprezni, jer se ovde nalazi najviše prevaranata.
+
+
+
+![Prendre une offre d'achat](assets/fr/15.webp)
+
+
+
+
+
+- Sa početne stranice, kliknite na "Prodaja" (slika 40)
+- Koristite filtere da pregledate i odaberete najatraktivnije ponude (slika 41)
+
+
+
+![vérification de la réputation](assets/fr/16.webp)
+
+
+
+
+
+- pre nego što zatražite trgovinu, preporučujemo da procenite podobnost profila kupca. Možete kliknuti na ponudu, zatim na ID korisnika da biste videli njegov profil. Na primer, ponuda na slici 42 mogla bi se smatrati "rizičnom" (novi korisnik, relativno visok iznos). "Rizik" koji preuzimate prihvatanjem ove ponude je jednostavno gubljenje vremena, sve dok ne napravite grešku oslobađanja bitkoina bez primljenog novca. I dalje možete deponovati bitkoine u sef.
+
+
+Ona na slici 43, s druge strane, dolazi od iskusnog trgovca (slika 44), bez sporova u svojoj istoriji. Stoga je to manje rizična ponuda.
+
+
+
+![Match avec vendeur](assets/fr/17.webp)
+
+
+
+
+
+- Kada je ponuda zatražena, ako kupac prihvati vaš zahtev, aplikacija će vas odvesti na sliku 34, gde možete nastaviti trgovinu kako je opisano u nastavku.
+
+
 
 
 ## Prednosti i nedostaci
 
 
-### Prednosti breskve
+
+### Peach pogodnosti
 
 
 
 
-- **Nije potreban KYC**: Čuva poverljivost korisnika.
-- **Nema pristupa bankovnim podacima**: Peach nema pristup vašim bankovnim podacima ili vašem identitetu.
-- **Intuitivni Interface**: Lako za korišćenje za korisnike srednjeg nivoa.
-- **Otvoreni kod**: Izvorni kod je javan i proverljiv od strane zajednice.
 
-
-### Nedostaci breskve
-
+- Nije potreban KYC**: Čuva poverljivost korisnika.
+- Nema pristupa bankovnim podacima**: Peach nema pristup vašim bankovnim podacima ili vašem identitetu.
+- Interface intuitivan**: Lako za korišćenje za korisnike srednjeg nivoa.
+- Otvoreni kod** : Izvorni kod je javan i proverljiv od strane zajednice.
 
 
 
-- **Ograničena likvidnost**: Manji obim trgovanja u poređenju sa etabliranijim platformama.
-- **Regulatory risk**: Aplikacija je upravljana od strane švajcarske kompanije. Stoga podleže švajcarskim propisima, koji bi mogli evoluirati i potencijalno cenzurisati aplikaciju.
+### Peach nedostaci
+
+
+
+
+
+- Ograničena Liquidnost**: Manji obim trgovanja u poređenju sa etabliranim platformama.
+- Regulatorni rizik** : Aplikaciju upravlja švajcarska kompanija. Stoga podleže švajcarskim propisima, koji bi mogli evoluirati i potencijalno cenzurisati aplikaciju.
+
 
 
 ## Korisni resursi
@@ -398,5 +632,7 @@ Za optimalnu sigurnost, preporučujemo da izvršite obe vrste bekapa.
 
 
 
+
 - Francuski objašnjavajući video: [YouTube](https://youtu.be/ziwhv9KqVkM)
 - Brzi vodič: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)
+- [Support telegram](t.me/peachtopeach) (čuvajte se prevaranata, administratori vam nikada neće prvi pisati privatnu poruku)

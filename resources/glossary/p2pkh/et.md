@@ -1,6 +1,7 @@
 ---
 term: P2PKH
 
+definition: Skript, mis lukustab bitcoinid avaliku võtme räsile, aadressid algavad numbriga 1.
 ---
 P2PKH tähendab *Pay to Public Key Hash*. See on standardne skripti mudel, mida kasutatakse UTXO kulutustingimuste kehtestamiseks. See võimaldab bitcoinide lukustamist avaliku võtme hashile, st vastuvõtva aadressi kohta. See skript on seotud Legacy-standardiga ja selle võttis kasutusele Satoshi Nakamoto Bitcoini esimestes versioonides.
 

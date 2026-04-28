@@ -1,9 +1,9 @@
-question: Lightning Network đã phát triển như thế nào để cải thiện trải nghiệm người dùng kể từ khi ra mắt?
+question: Kể từ khi ra mắt, Lightning Network (mạng Lightning) đã phát triển như thế nào để nâng cao trải nghiệm người dùng?
 answer: Nó đã giới thiệu các tính năng như ghép nối, hóa đơn Bolt12 tĩnh và quản lý thanh khoản tốt hơn, giúp giao dịch diễn ra suôn sẻ và đáng tin cậy hơn.
 wrong_answers:
   - Nó đã loại bỏ mọi tính năng bảo mật để tăng tốc độ giao dịch.
   - Hiện nay, mỗi khoản thanh toán đều cần có sự chấp thuận của chính phủ.
   - Nó đã ngừng phát triển các tính năng mới, chỉ dựa vào thiết kế ban đầu.
 explanation: |
-  Theo thời gian, Lightning Network đã được cải tiến kỹ thuật, giảm thiểu sự bất tiện cho người dùng. Các tính năng mới và công cụ quản lý node tốt hơn đã góp phần mang lại trải nghiệm liền mạch và thân thiện hơn với người dùng.
+  Theo thời gian, Lightning Network (mạng Lightning) đã được cải tiến kỹ thuật, cải thiện trải nghiệm cho người dùng. Các tính năng mới và công cụ quản lý nút tốt hơn đã góp phần mang lại trải nghiệm liền mạch và thân thiện hơn với người dùng.
 reviewed: true

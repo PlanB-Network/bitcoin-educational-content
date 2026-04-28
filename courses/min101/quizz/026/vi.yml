@@ -1,0 +1,9 @@
+question: Tham số nào của Bitcoin Core thiết lập ngưỡng chuyển tiếp (relay) tối thiểu mặc định?
+answer: minRelayTxFee
+wrong_answers:
+  - minConfirmTxFee
+  - relayTxWeight
+  - mempoolMinBits
+explanation: |
+  Các nút áp dụng các chính sách cục bộ và Bitcoin Core sử dụng tham số minRelayTxFee cho ngưỡng chuyển tiếp tối thiểu.
+reviewed: false

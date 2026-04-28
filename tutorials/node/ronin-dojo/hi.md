@@ -604,7 +604,7 @@ WST फिर पूर्वव्यापी स्कोर (बैकवर
 कृपया ध्यान दें कि आपके UTXO का संभावित स्कोर आपके शुरुआती मिक्स के txid के आधार पर गणना किया जाता है, न कि आपके पिछले मिक्स के आधार पर। इसके विपरीत, UTXO का पूर्वव्यापी स्कोर पिछले चक्र के txid के आधार पर गणना किया जाता है।
 
 
-एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment] (https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
+एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### बोल्ट्ज़मान कैलकुलेटर का उपयोग करना।

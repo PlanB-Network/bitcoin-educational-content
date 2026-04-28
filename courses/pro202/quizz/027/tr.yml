@@ -1,0 +1,8 @@
+question: İmza doğrulaması başarılı olduğunda OP_CHECKSIG çalıştırıldıktan sonra yığına ne olur?
+answer: 1 değeri yığına itilir
+wrong_answers:
+  - İmza ve açık anahtar yığın üzerinde kalır
+  - Yığın temizlenir ve boş olarak sıfırlanır
+  - Açık anahtar karması yığına itilir
+explanation: |
+  OP_CHECKSIG, yığından bir imza ve açık anahtar alan, imzayı işlemin sighash'ına karşı doğrulayan ve yığına ya 1 (geçerli için) ya da 0 (geçersiz için) iten bir yığın dönüştürme işlem kodudur. Bu işlem sırasında orijinal imza ve açık anahtar kaldırılır. Yığın tamamen temizlenmez ve hiçbir hash değeri itilmez - yalnızca doğrulama işleminin boolean sonucu itilir.

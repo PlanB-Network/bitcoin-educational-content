@@ -1,0 +1,8 @@
+question: Que operação matemática é utilizada para encontrar o ponto P + Q numa curva elíptica?
+answer: Traçar uma reta que passe pelos pontos P e Q, encontrar o terceiro ponto de intersecção R e refletir R no eixo dos x
+wrong_answers:
+  - Adicionar as coordenadas x e as coordenadas y de P e Q diretamente utilizando a aritmética modular
+  - Multiplicar as coordenadas de P e Q e aplicar a equação da curva para encontrar o resultado
+  - Calcular o ponto médio entre P e Q e, em seguida, aplicar o método da reta tangente para obter a soma
+explanation: |
+  A adição de pontos em curvas elípticas segue uma regra geométrica específica: traçar uma reta através dos dois pontos P e Q, que intersecta a curva num terceiro ponto R, e depois refletir R através do eixo x para obter P + Q. Esta operação geométrica torna-se algébrica quando se trabalha sobre campos finitos, mas mantém o mesmo princípio fundamental. As outras opções descrevem métodos incorrectos que não seguem a lei de grupo estabelecida para curvas elípticas.

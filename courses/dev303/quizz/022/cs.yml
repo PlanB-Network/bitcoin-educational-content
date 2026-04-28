@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel výčtového typu Option<T> v systému Rust?
+answer: Bezpečná reprezentace hodnot, které mohou, ale nemusí být přítomny, čímž se zabrání chybám nulového ukazatele
+wrong_answers:
+  - Uložení více různých datových typů do jedné proměnné bez kontroly typu
+  - Vytvoření nepovinných parametrů v definicích funkcí, které lze při volání vynechat
+  - Poskytnutí způsobu, jak vrátit více možných typů chyb z jedné funkce
+explanation: |
+  Výčet Option<T> slouží jako řešení problémů s nulovými ukazateli v systému Rust, protože vynucuje explicitní zpracování chybějících hodnot. Má dvě varianty: Some(T) pro přítomné hodnoty a None pro chybějící hodnoty. Překladač vyžaduje, abyste před použitím hodnoty zkontrolovali, kterou variantu máte, čímž se zabrání chybám za běhu. Špatné odpovědi zaměňují Option s dalšími koncepty: uniony/varianty (první), výchozí parametry (druhý) a typy Result pro ošetření chyb (třetí).

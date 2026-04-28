@@ -1,0 +1,8 @@
+question: Lightning Development Kit'in (LDK) hangi temel mimari sınırlaması, ağ ücreti artışları sırasında mobil wallet kullanıcıları için en ciddi operasyonel riski oluşturuyor?
+answer: Önceden ayarlanmış ücretler işlem onayı için yetersiz kaldığında kanalın zorla kapatılmasını önleyen çapa çıkışlarının olmaması
+wrong_answers:
+  - Tüm Lightning işlemleri için manuel fatura oluşturma ve ödeme işleme gerektiren LNURL desteğinin olmaması
+  - Mobil uygulamalar uzun süreler sonra yeniden başlatıldığında ödeme yönlendirme hatalarına neden olan eksik ağ grafiği senkronizasyonu
+  - Kullanıcılar görüntülenen bakiyelerinin tamamını harcamaya çalıştığında fon kilitlenmelerine yol açan yetersiz kanal rezerv yönetimi
+explanation: |
+  LDK'da çapa çıkışlarının olmaması, önceden ayarlanmış ücretlerin blok zinciri onayı için yetersiz kalması nedeniyle ücret artışları sırasında kanalların zorla kapatılamadığı kritik bir güvenlik açığı yaratır. Bu durum özellikle kullanıcıların işbirliğine dayalı kapatma olmadan uygulamayı terk edebilecekleri ve potansiyel olarak fonları süresiz olarak bekletebilecekleri mobil cüzdanlar için tehlikelidir. LNURL yokluğu kullanıcı deneyimini etkilerken ve yönlendirme sorunları güvenilirliği etkilerken, hiçbiri yüksek ücretli ortamlarda mevcut olan çapa çıktı sınırlamalarının fon kurtarma için varoluşsal bir risk oluşturmaz.

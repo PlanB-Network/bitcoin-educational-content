@@ -1,0 +1,8 @@
+question: Koje osnovno arhitektonsko ograničenje Lightning Development Kit-a (LDK) stvara najteži operativni rizik za mobilne korisnike wallet tokom skokova mrežnih naknada?
+answer: Odsustvo izlaza sidra sprečava zatvaranje kanala silom kada unapred postavljene naknade postanu nedovoljne za potvrdu transakcije
+wrong_answers:
+  - Nedostatak podrške za LNURL koji zahteva ručno generisanje faktura i obradu plaćanja za sve Lightning transakcije
+  - Nedostaje sinhronizacija mrežnog grafa što uzrokuje neuspehe u rutiranju plaćanja kada se mobilne aplikacije ponovo pokrenu nakon dužeg perioda.
+  - Nedovoljno upravljanje rezervama kanala dovodi do zaključavanja sredstava kada korisnici pokušaju da potroše svoj kompletan prikazani saldo
+explanation: |
+  Odsustvo anchor izlaza u LDK stvara kritičnu ranjivost gde kanali ne mogu biti nasilno zatvoreni tokom skokova naknada jer unapred postavljene naknade postaju nedovoljne za potvrdu na blokčejnu. Ovo je posebno opasno za mobilne novčanike gde korisnici mogu napustiti aplikaciju bez kooperativnog zatvaranja, potencijalno ostavljajući sredstva neograničeno. Dok odsustvo LNURL utiče na korisničko iskustvo, a problemi sa rutiranjem utiču na pouzdanost, nijedno ne stvara egzistencijalni rizik za povrat sredstava koji ograničenja anchor izlaza predstavljaju tokom okruženja sa visokim naknadama.

@@ -1,0 +1,8 @@
+question: Vilka är de tre sätt som closures kan fånga variabler från sin omgivning i Rust?
+answer: Genom oföränderlig referens, genom föränderlig referens eller genom att ta över ägandet
+wrong_answers:
+  - Genom värdekopiering, referenslån eller pekardereferentiering
+  - Genom stackallokering, genom heapallokering eller genom statisk lagring
+  - Genom delad tillgång, genom exklusiv tillgång eller genom samtidig tillgång
+explanation: |
+  Closures i Rust fångar miljövariabler på exakt tre sätt: genom oföränderlig referens (när de bara behöver läsa), genom föränderlig referens (när de behöver ändra) eller genom att ta över ägandet (när de behöver flytta värdet, ofta för trådsäkerhet). Kompilatorn väljer automatiskt den mest restriktiva metoden som uppfyller avslutningens behov, enligt principen om minsta privilegium.

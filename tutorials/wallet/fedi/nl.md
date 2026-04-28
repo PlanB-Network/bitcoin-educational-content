@@ -141,7 +141,7 @@ Je ontvanger moet de gegenereerde QR-code scannen om de satoshis te claimen.
 
 
 
-Offline betalingen worden voornamelijk gedaan met [e-cash] (https://planb.academy/resources/glossary/ecash-david-chaum). De transactie wordt opgeslagen in uw telefoon en zodra u verbinding maakt met internet, wordt de transactie automatisch bevestigd. Je kunt de betaling ook handmatig bevestigen door op **Transactie bevestigen** te klikken.
+Offline betalingen worden voornamelijk gedaan met [e-cash](https://planb.academy/resources/glossary/ecash-david-chaum). De transactie wordt opgeslagen in uw telefoon en zodra u verbinding maakt met internet, wordt de transactie automatisch bevestigd. Je kunt de betaling ook handmatig bevestigen door op **Transactie bevestigen** te klikken.
 
 
 

@@ -1,0 +1,12 @@
+question: Ni uruhara uruhe abacukuzi (miners) ba Bitcoin bafise mw’isi y’inguvu?
+answer: Abacukuzi ba Bitcoin baguma barondera amasoko y’umuyagankuba uzimbutse, akenshi uwu koreshwa ubusa canke udakoreshwa. barashobora gukora nkaba kiriya, biteguriye gukoresha uwo muyagankuba ’udakoreshwa’, gutyo bagafasha kugabanya amafaranga atangwa mugushiraho ibikorwa vy’iterambere vy’umuyagankuba.
+wrong_answers:
+  - Abacukuzi ba Bitcoin baguma barondera amasoko y’inguvu zishobora gusubirwamwo kugira ngo bagabanye ikirenge cabo c’umuyagankuba.
+  - Abacukuzi ba Bitcoin bama barondera amasoko y’inguvu z’imishwarara kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining, kubera ko ari bwo buryo bwonyene busukuye kandi bushobora gusubirwamwo bwo guhingura inguvu.
+  - Abacukuzi ba Bitcoin bama barondera amasoko y’inguvu z’izuba kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining.
+explanation: |
+  Iki gice kirasigura ko abacukuzi ba Bitcoin baguma barondera amasoko
+  y’umuyagankuba uzimbutse, akenshi uwu koreshwa ubusa canke udakoreshwa. 
+  barashobora gukora nkaba kiriya, biteguriye gukoresha uwo muyagankuba ’udakoreshwa’, 
+  gutyo bagafasha kugabanya amafaranga atangwa mugushiraho ibikorwa vy’iterambere vy’umuyagankuba.
+reviewed: true

@@ -1,5 +1,6 @@
 ---
 term: RGB
+definition: Système de contrats intelligents décentralisé et confidentiel fonctionnant sur Bitcoin.
 ---
 
 Système de contrats intelligents décentralisé et confidentiel, conçu pour fonctionner avec Bitcoin et le Lightning Network. RGB fonctionne sur un modèle de validation côté client et sépare le stockage de l’état des contrats de la blockchain, afin de ne conserver que des engagements cryptographiques sur celle-ci. Ainsi, l’historique complet des états est maintenu en dehors de la chaîne, ce qui permet une meilleure scalabilité et confidentialité. RGB permet ainsi la création de contrats complexes afin d'emmètre des tokens, des NFT, des identités décentralisées ou des solutions de DeFi, directement par-dessus Bitcoin.

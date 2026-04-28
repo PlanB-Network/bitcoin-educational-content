@@ -1,0 +1,8 @@
+question: Was ist nach dem Kleinen Satz von Fermat die multiplikative Inverse des Elements n in einer Primzahl F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Der kleine Satz von Fermat besagt, dass n^(p-1) ≡ 1 (mod p) für jedes Element n, das nicht Null ist, in einem Primzahlfeld gilt. Um den multiplikativen Kehrwert zu finden, benötigen wir einen Wert, der multipliziert mit n 1 ergibt. Da n^(p-1) ≡ 1 ist, können wir dies als n - n^(p-2) ≡ 1 umschreiben, was beweist, dass n^(p-2) die multiplikative Inverse von n ist. Die anderen Möglichkeiten sind falsch: n^(p-1) ist nach dem Satz von Fermat gleich 1, während n^(p+1) und n^(p+2) bei der Reduktion modulo p Werte ergeben würden, die n^2 bzw. n^3 entsprechen.

@@ -1,0 +1,9 @@
+question: เครื่องมือใดที่แสดงข้อความ DNS อย่างละเอียด รวมถึงระเบียนและกระบวนการแก้ไข?
+answer: ขุด
+wrong_answers:
+  - โฮสต์
+  - ปิง
+  - อาร์พี
+explanation: |
+  dig (Domain Information Groper) ให้ข้อมูลรายละเอียดเกี่ยวกับการแก้ไข DNS รวมถึงประเภทของระเบียน
+reviewed: false

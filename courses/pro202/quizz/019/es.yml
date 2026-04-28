@@ -1,0 +1,8 @@
+question: En el proceso de verificación de firmas ECDSA, ¿qué relación matemática debe cumplirse para que una firma se considere válida?
+answer: La coordenada x de UG + VP debe ser igual a R, donde U = Z/S y V = R/S
+wrong_answers:
+  - La coordenada y de UG + VP debe ser igual a S, donde U = R/Z y V = S/Z
+  - La coordenada x de KG + ZP debe ser igual a S, donde K es el nonce y Z es el hash
+  - La suma de R + S debe ser igual a la coordenada x del punto de clave pública P
+explanation: |
+  La verificación ECDSA funciona reconstruyendo el punto original KG mediante la ecuación UG + VP, donde U = Z/S (hash dividido por S) y V = R/S. Si la coordenada x de este punto reconstruido es igual a R de la firma, la verificación se realiza correctamente. Esta relación matemática permite la verificación sin conocer la clave privada o el nonce K, ya que el álgebra reconstruye KG indirectamente a través de los componentes de la clave pública y la firma.

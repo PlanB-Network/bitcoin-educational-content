@@ -1,5 +1,6 @@
 ---
-term: MEASUREMENT
+term: Ukur dari stopkontak
+definition: Pengukuran konsumsi daya aktual ASIC langsung di stopkontak dinding.
 ---
 
 Dalam industri penambangan, hal ini mengacu pada pengukuran konsumsi daya aktual ASIC, langsung pada titik koneksinya, yaitu pada stopkontak. Berlawanan dengan spesifikasi teoretis, pengukuran ini memungkinkan perhitungan yang tepat dari energi yang dikonsumsi oleh mesin, termasuk semua kerugian selama operasi aktual.

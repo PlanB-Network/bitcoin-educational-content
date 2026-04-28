@@ -6,21 +6,21 @@ description: Ubutumwa bwihariye kuri bose
 
 
 
-Olvid ni porogaramu y’ubutumwa bwo mu gifaransa yatangujwe mu mwaka w’2019, yagenewe gutanga umutekano wo ku rwego rwo hejuru, ataco ihinduye ku buzima bwite. Udakunze WhatsApp canke Signal, Olvid asaba ko ata makuru y’umuntu ku giti ciwe ku kwiyandikisha: nta nimero ya telefone, nta email, nta kintu na kimwe. Imenyekanisha hagati y'abakoresha rishingiye kuri Exchange y'imfunguruzo, ata server y'ububiko canke igitabu ca Address gisangiwe.
+Olvid ni porogaramu y’ubutumwa bwo mu gifaransa yatangujwe mu mwaka w’2019, yagenewe gutanga umutekano wo ku rwego rwo hejuru, ataco ihinduye ku buzima bwite. Udakunze WhatsApp canke Signal, Olvid isaba ko ata makuru y’umuntu ku bijanye n’ukwiyandikisha: nta nimero ya telefone, nta email, nta kintu na kimwe. Imenyekanisha hagati y’abakoresha rishingiye ku guhana imfunguruzo, ata serveri y’ububiko canke igitabu c’amaderesi rusangi.
 
 
 
-Ubutumwa bwose burashirwa mu mfuruka kuva ku mpera kugeza ku mpera hakoreshejwe uburyo bw’umwimerere bwo gupfuka, bugenewe kurinda n’amakuru y’imbere: nta n’umwe azi uwo uriko uravugana na we, canke ryari. Kode y’umukiriya ni inkomoko yuguruye, ariko umukozi wa mbere akoreshwa mu gutuma ubutumwa bushizwe mu mfuruka aguma ari uw’umuntu kandi akakira AWS.
+Ubutumwa bwose burashirwa mu mfuruka kuva ku mpera kugeza ku mpera hakoreshejwe ubuhinga bw’umwimerere bwo gupfuka, bugenewe kurinda n’amakuru y’imbere: nta n’umwe azi uwo uriko uravugana na we, canke ryari. Kode y’umukiriya ni inkomoko yuguruye, ariko umukozi wa mbere akoreshwa mu gutuma ubutumwa bushizwe mu mfuruka aguma ari uw’umuntu kandi akakira AWS.
 
 
 Icogereranyo c’umutekano ca Olvid gishingiye ku ngingo ngenderwako nyamukuru: ukutagira abandi bantu bizigira mu gushinga akaranga k’ubuhinga bwa none. Udakunze intumwa nyinshi zifise amakuru y’ibanga zishingiye ku bubiko bumwe kugira ngo zicunge akaranga k’abakoresha, Olvid ntiyizigira ibikorwa remezo vyose vy’ibanga kugira ngo ivy’itumanaho bibe vyiza. Iyi nyubakwa irakuraho ingorane zijanye n’ugusenyura ububiko.
 
 
-Ariko rero, Olvid ikoresha umukozi wo gukwiragiza ubutumwa hagati, akora cane ku ruhara rw’ivy’ubuhinga: ni we akora ivy’ugutanga ubutumwa bushizwe mu buryo butajanye n’igihe. Iyi server nta ruhara igira mu nzira yo gushiramwo amakuru, ntazi akaranga nyakuri k’abakoresha canke ibirimwo canke amakuru y’ubutumwa (kiretse urufunguzo rwa bose rw’uwuronka, rukenewe kugira ngo umuntu ashobore gutanga inzira). Bishobora rero gufatwa nk’urwanko ataco bihinduye ku mutekano wose wa sisitemu. Naho vyoba vyahungabanijwe, ntivyotuma umuntu ashobora kuronka ubutumwa burimwo. Olvid rero afata ko ubutumwa bushikirizwa hamwe (kugira ngo ubufasha bube bwiza kandi bube bwiza), mu gihe atanga umutekano udashingiye kuri ivyo bikorwa remezo.
+Ariko rero, Olvid ikoresha umurongo w’ugukwiragiza ubutumwa hagati, ugarukira cane ku ruhara rw’ivy’ubuhinga: ikora ivy’ugutanga ubutumwa bushizwe mu buryo butajanye n’igihe. Iyi server nta ruhara igira mu nzira yo gushiramwo amakuru, ntazi akaranga nyakuri k’abakoresha canke ibirimwo canke amakuru y’ubutumwa (kiretse urufunguzo rwa bose rw’uwuronka, rukenewe kugira ngo umuntu ashobore gutanga inzira). Bishobora rero gufatwa nk’urwanko ataco bihinduye ku mutekano wose wa sisitemu. Naho vyoba vyahungabanijwe, ntivyotuma umuntu ashobora kuronka ubutumwa burimwo. Olvid rero ifata ko ubutumwa bushikirizwa hamwe (kugira ngo bube bwiza kandi bube bwiza), mu gihe itanga umutekano udashingiye kuri ivyo bikorwa remezo.
 
 
 
-Olvid itanga verisiyo y’ubuntu n’iyindi y’ukwiyandikisha ku €4.99 ku kwezi. Verisiyo y’ubuntu itanga ibikorwa vyose, uretse guhamagara amajwi n’amasanamu (naho bishoboka ko uyakira), kandi ntiyemerera guhuza konti ku bikoresho vyinshi. Rero nimba uriko urategura gukoresha telefone yawe gusa, kandi udakeneye guhamagara, Olvid ni umuti mwiza cane.
+Olvid itanga verisiyo y’ubuntu n’iy’ukwiyandikisha ku €4.99 ku kwezi. Verisiyo y’ubuntu itanga ibikorwa vyose, uretse guhamagara amajwi n’amasanamu (naho bishoboka ko uyakira), kandi ntiyemerera guhuza konti ku bikoresho vyinshi. Rero nimba uriko urategura gukoresha telefone yawe gusa, kandi udakeneye guhamagara, Olvid ni umuti mwiza cane.
 
 
 
@@ -55,13 +55,13 @@ Olvid yemejwe na ANSSI (ikigo c’Ubufaransa kijejwe umutekano wo kuri internet)
 
 
 
-Olvid araboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa porogaramu bwa telefone yawe:
+Olvid iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa porogaramu bwa telefone yawe:
 
 
 
 
 - [Ikiganiro ca Google](https://igikino.google.com/ububiko/amaporogarama/ibisobanuro?id=io.olvid.intumwa);
-- [Iduka ry'amaporogarama](iporogarama.com/porogarama/olvid/id1414865219);
+- [Iduka ry'amaporogarama](iporogarama.porogarama.com/porogarama/olvid/id1414865219);
 
 
 
@@ -81,7 +81,7 @@ Muri iyi nyigisho, tuzoba twibanda ku bijanye n’ivyo gukoresha telefone ngenda
 
 
 
-Iyo ufunguye porogarama ku ncuro ya mbere, ukande kuri buto "*Ndi umukoresha mushasha*".
+Iyo ufunguye porogarama ku ncuro ya mbere, ukande kuri buto ya "*Ndi umukoresha mushasha*".
 
 
 
@@ -89,7 +89,7 @@ Iyo ufunguye porogarama ku ncuro ya mbere, ukande kuri buto "*Ndi umukoresha mus
 
 
 
-Hitamwo izina ry'ibanga canke winjize izina ryawe rya mbere n'iry'umuryango.
+Hitamwo izina ry'akataraboneka canke winjize izina ryawe rya mbere n'iry'umuryango.
 
 
 
@@ -113,10 +113,10 @@ Konti yawe ubu yaremewe.
 
 
 
-Kugira ngo ntutakaze uburenganzira bwo gukoresha konti yawe ya Olvid, turagusavye gushinga ama backups yikora. Kugira ngo ubikore, fungura amasetingi ukanda ku tudodo dutatu turi hejuru iburyo bwa Interface, hanyuma uhitemwo "*Settings*".
+Kugira ngo ntutakaze uburenganzira bwo gukoresha konti yawe ya Olvid, turagusavye gushinga amakuru yihuta. Kugira ngo ubikore, fungura amasetingi ukanda ku tudodo dutatu turi hejuru iburyo bwa Interface, hanyuma uhitemwo "*Settings*".
 
 
-⚠️ **Imbuzi**: Kuva kuri version 3.7 ya Olvid, uburyo bwo gukora backup y’imirongo yawe n’abantu ushobora guhura na bo bwasubiriwe n’ubundi bushasha. Iyi nyigisho iracariko iratanga verisiyo ya kera. Ushobora kuronka verisiyo nshasha ku bibazo vyabo: [💾 Gukora backup y'imirongo yawe]
+⚠️ **Imburi**: Kuva kuri Olvid version 3.7, uburyo bwo gukora backup y’imirongo yawe n’abantu ushobora guhura na bo bwasubiriwe n’ubundi bushasha. Iyi nyigisho iracariko iratanga verisiyo ya kera. Ushobora kuronka verisiyo nshasha ku bibazo vyabo: [💾 Gukora backup y'imirongo yawe]
 
 
 ![Image](assets/fr/06.webp)
@@ -131,7 +131,7 @@ Genda kuri "*Bika imfunguruzo n'abantu*".
 
 
 
-Hanyuma ukande kuri "*generate urufunguzo rwo gusubiza inyuma*". Uru rufunguzo ruzoshiramwo amakuru yawe. Niba ukeneye gusubirana konti yawe ku kindi gikoresho kandi utagishobora kuyironka, uzokenera vyose bibiri, ububiko n’urufunguzo kugira ngo uyifungure.
+Hanyuma ukande kuri "*Gushireho urufunguzo rwo gusubiza inyuma*". Uru rufunguzo ruzoshiramwo amakuru yawe. Niba ukeneye gusubirana konti yawe ku kindi gikoresho kandi utagishobora kuyironka, uzokenera ko uyikoresha n’urufunguzo kugira ngo uyifungure.
 
 
 
@@ -183,11 +183,11 @@ Kugira ngo ushobore kohereza ubutumwa, utegerezwa kubanza kwongerako abo ushobor
 
 
 
-Olvid aca yerekana ID yawe y’ukoresha. Ushobora rero kubirungikira abantu wipfuza kuvugana na bo, kugira ngo bashobore kukwongerako nk’umuntu wovugana na bo.
+Olvid rero yerekana ID yawe y’ukoresha. Ushobora rero kubirungikira abantu wipfuza kuvugana na bo, kugira ngo bashobore kukwongerako nk’umuntu wovugana na bo.
 
 
 
-Kugira ngo wongereko umuntu, scanner indangamuntu yiwe ukoresheje kamera yawe, canke uyishiremwo n’amaboko ukanda ku tudodo dutoduto dutatu turi hejuru iburyo.
+Kugira ngo wongere umuntu, scanner indangamuntu yiwe ukoresheje kamera yawe, canke uyishiremwo n’amaboko ukanda ku tudodo dutoduto dutatu turi hejuru iburyo.
 
 
 
@@ -243,7 +243,7 @@ Ushobora kandi gushinga ibiganiro vy’imigwi.
 
 
 
-Urasangwa, ubu uriko urakoresha ubutumwa bwa Olvid, uburyo bwiza bwo gukoresha WathsApp! Niba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa Green aha hepfo. Turagusavye ntutinye gusangiza abandi iyi nyigisho ku mbuga zawe zo gusangirirako amakuru. Murakoze cane!
+Urasangwa, ubu uriko urakoresha ubutumwa bwa Olvid, uburyo bwiza bwo gukoresha WathsApp! Niwaba wabonye ko iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rw’icatsi kibisi aha hepfo. Turagusavye ntutinye gusangiza abandi iyi nyigisho ku mbuga zawe zo gusangirirako amakuru. Murakoze cane!
 
 
 

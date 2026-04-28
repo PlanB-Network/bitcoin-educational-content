@@ -1,9 +1,9 @@
 question: Wat is het doel van de interne transactie heuristiek?
-answer: De Exchange identificeren.
+answer: Het wisselgeld (change) identificeren.
 wrong_answers:
   - Frauduleuze transacties in realtime identificeren.
   - Transactiepatronen identificeren.
   - Om een cluster te identificeren die tot dezelfde entiteit behoort.
 explanation: |
-  Met de interne heuristiek kunnen we de Exchange identificeren met als doel de gebruiker te observeren bij volgende transacties.
+  Met de interne heuristiek kunnen we het wisselgeld identificeren met als doel de gebruiker te observeren bij volgende transacties.
 reviewed: false

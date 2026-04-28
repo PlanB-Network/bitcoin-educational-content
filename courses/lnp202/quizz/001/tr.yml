@@ -1,0 +1,9 @@
+question: Hangi mekanizma eski bir Yıldırım kanalı durumunun serbest bırakılmasını önler?
+answer: İptal anahtarı
+wrong_answers:
+  - İşlem ücretleri
+  - Mutlak zaman saatleri
+  - Şebeke dedikodusu
+explanation: |
+  İptal anahtarları, eski bir kanal durumunu yayınlamaya çalışan bir düğümü cezalandırmak için kullanılır.
+reviewed: false

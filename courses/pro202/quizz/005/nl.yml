@@ -1,0 +1,8 @@
+question: Welke wiskundige eigenschap zorgt ervoor dat elk niet-nul element in een priemveld F(p) een multiplicatieve inverse heeft?
+answer: Het veld wordt gedefinieerd door een priemgetal p
+wrong_answers:
+  - Het veld bevat precies p-1 elementen
+  - Het veld gebruikt modulaire rekenkundige bewerkingen
+  - Het veld ondersteunt optellen en vermenigvuldigen
+explanation: |
+  Een eindig veld F(p) moet gedefinieerd worden door een priemgetal p om ervoor te zorgen dat elk element zonder nul een vermenigvuldigende inverse heeft. Dit is een fundamentele vereiste van de veldentheorie - als p priem is, vormen de gehele getallen modulo p een veld waar deling altijd mogelijk is (behalve door nul). Als p samengesteld zou zijn, dan zouden sommige elementen zonder nul geen inverse hebben, waardoor de veldstructuur verbroken zou worden. Terwijl de andere opties eigenschappen van eindige velden beschrijven, garandeert alleen de primaliteit van p het bestaan van multiplicatieve inverses voor alle niet-nul elementen.

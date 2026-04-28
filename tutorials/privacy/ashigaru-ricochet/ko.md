@@ -1,5 +1,5 @@
 ---
-name: 아시가루 - 리코쉐
+name: Ashigaru - Ricochet
 description: 리코렛 트랜잭션 이해 및 사용
 ---
 ![cover ricochet](assets/cover.webp)

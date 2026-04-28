@@ -1,0 +1,9 @@
+question: Zašto operater trgovinskog Lightning čvora ne može da se osloni na sopstvene uplate za generate dolaznu likvidnost?
+answer: Uglavnom dolazni tokovi
+wrong_answers:
+  - Uglavnom odlazni tokovi
+  - Kanali su previše mali
+  - Visoke naknade na lancu
+explanation: |
+  Unovčavanjem bez trošenja, trgovac prirodno ne pomera likvidnost iz svojih kanala.
+reviewed: false

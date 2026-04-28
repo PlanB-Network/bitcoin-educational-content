@@ -1,5 +1,6 @@
 ---
-term: RBF (Replace-by-fee)
+term: RBF (replace-by-fee)
+definition: Uburyo bwemerera gusubiriza i transaction itaremezwa n'iyindi ifise amahera y'indishi yo hejuru.
 ---
 
 Uburyo bwo gukorana butuma uwurungitse ashobora gusubirira igikorwa kimwe n’ikindi mu kwishura amahera menshi, kugira ngo vyihute kwemezwa. Iyo igikorwa gifise amafaranga make cane gifatanye, uwurungitse arashobora gukoresha *Replace-by-fee* kugira ngo yongere amafaranga yongere ashire imbere igikorwa cabo co gusubirira mu ma mempools.

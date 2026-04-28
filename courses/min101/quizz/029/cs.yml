@@ -1,0 +1,9 @@
+question: Z čeho se skládá odměna za blok?
+answer: Subvence + poplatky
+wrong_answers:
+  - Subvence + obtížnost
+  - Poplatky + nonce
+  - Hashrate + poplatky
+explanation: |
+  Odměna sčítá blokovou subvenci a veškeré poplatky ze zahrnutých transakcí.
+reviewed: false

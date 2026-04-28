@@ -1,0 +1,9 @@
+question: Welchen Algorithmus soll ein Bitcoin-ASIC speziell ausführen?
+answer: SHA256d
+wrong_answers:
+  - SHA512d
+  - SHA1
+  - SHA512
+explanation: |
+  Bitcoin-ASICs sind auf den doppelten SHA256 spezialisiert, der für den Proof-of-Work von Bitcoin verwendet wird.
+reviewed: false

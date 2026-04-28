@@ -1,5 +1,6 @@
 ---
 term: BIP0001
+definition: Bitcoin için iyileştirme önerme sürecini tanımlayan, Standards Track, Informational ve Process kategorilerini oluşturan ilk belge.
 ---
 
 Bitcoin protokolünde önerilen iyileştirmelerin geliştirilmesi ve uygulanmasına yönelik süreci tanımlayan belge. Ağustos 2011'de Amir Taaki tarafından yazılan bu belge, potansiyel değişikliklerin önerilmesi ve belgelenmesi için standart bir metodoloji oluşturmaktadır. BIP önerileri daha sonra üç kategoride sınıflandırılır:

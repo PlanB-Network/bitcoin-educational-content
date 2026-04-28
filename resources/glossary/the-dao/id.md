@@ -1,5 +1,6 @@
 ---
-term: DAO
+term: The DAO
 
+definition: Proyek Ethereum tahun 2016 yang peretasannya memengaruhi perdebatan tentang hardfork selama Blocksize War Bitcoin.
 ---
 Proyek yang diluncurkan pada tahun 2016 di Ethereum, yang bertujuan untuk menciptakan dana investasi otonom yang dikelola oleh kontrak pintar. Meskipun terutama terkait dengan Ethereum, DAO memiliki dampak yang signifikan terhadap evolusi Bitcoin. Pada bulan Juni 2016, DAO menjadi korban peretasan besar-besaran. Sebagai tanggapan, komunitas Ethereum melakukan _hard fork_, yang ternyata gagal total. Kejadian ini memperkuat posisi konservatif para _Small Blocker_ selama Perang Ukuran Blok Bitcoin. Mereka menggunakan peristiwa ini untuk menentang perubahan cepat dalam protokol Bitcoin, seperti yang dianjurkan oleh para _Big Blocker_, dan menentang gagasan untuk melakukan _hard fork_, seperti yang terjadi pada Ethereum setelah peretasan DAO.

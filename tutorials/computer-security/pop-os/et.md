@@ -451,24 +451,25 @@ Pop!OS pakub laia valikut tarkvara oma Pop!Shopi kaudu, kuid paljusid olulisi t�
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Tööriist | Kirjeldus | Paigalduskäsk |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Vaba ja populaarne veebibrauser | `sudo apt install firefox` |
+| Brave | Privaatsusele suunatud veebibrauser | Paigaldamine Pop!_Shopi või ametliku saidi kaudu |
+| Visual Studio Code (VS Code) | Võimas koodiredaktor arendajatele | `flatpak install flathub com.visualstudio.code` |
+| Git | Versioonihaldur | `sudo apt install git` |
+| Flatpak | Alternatiivne paketihaldur | `sudo apt install flatpak` |
+| VLC | Mitmekülgne meediapleier | `sudo apt install vlc` |
+| GNOME Terminal | Vaiketerminal | Eelinstallitud Pop!OS-is |
+| Curl | Veebiandmete edastamise tööriist | `sudo apt install curl` |
+| Wget | Failide allalaadimine HTTP/FTP kaudu | `sudo apt install wget` |
+| Docker | Rakenduste konteineriseerimine | Paigaldamine ametliku skripti või `apt` kaudu |
+| Node.js | Serveripoolne JavaScripti keskkond | Paigaldamine `apt` või NodeSource kaudu |
+| Python3 | Programeerimiskeel | `sudo apt install python3 python3-pip` |
+| GIMP | Täiustatud pildiredaktor | `sudo apt install gimp` |
+| Thunderbird | E-posti klient | `sudo apt install thunderbird` |
+| Transmission | Kerge BitTorrenti klient | `sudo apt install transmission-gtk` |
+| Htop | Interaktiivne süsteemimonitor | `sudo apt install htop` |
 
 ### Paigaldamine Pop! Shop (graafiline kasutajaliides)
 

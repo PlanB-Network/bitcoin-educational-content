@@ -1,0 +1,11 @@
+question: Ni huduma gani ya upangishaji ambayo Mark Karpelès aliisimamia kabla ya kuchukua Mt. Gox?
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ Hii ilikuwa moja tu ya huduma nyingi alizotoa kama msanidi programu huru. Mnamo Novemba, Mark Karpelès alianza kukubali malipo ya bitcoin na KalyHost.
+ 
+ Ross Ulbricht pia alitumia huduma hiyo kuandaa ukurasa wa wavuti wa Silkroadmarket.org, ambao ulielekezwa kwenye Barabara ya Silk.
+reviewed: true

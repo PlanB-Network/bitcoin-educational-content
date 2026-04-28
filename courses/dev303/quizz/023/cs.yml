@@ -1,0 +1,8 @@
+question: Co se stane s původní instancí struktury při použití syntaxe struct update s jinými typy než kopírování?
+answer: Pole, která jsou zkopírována, jsou v původní instanci nepoužitelná kvůli sémantice přesunu
+wrong_answers:
+  - Původní instance zůstává zcela nezměněná a plně přístupná
+  - Celá původní instance je naklonována, přičemž obě instance jsou plně funkční
+  - Pouze pole, která explicitně změníte, se stanou nepřístupnými v původním souboru
+explanation: |
+  Při použití syntaxe struct update s jinými typy než kopírování přesune systém vlastnictví Rust zkopírovaná pole z původní instance do nové. To znamená, že tato konkrétní pole se v původní instanci stanou nepoužitelnými, avšak pole, která nebyla zkopírována, zůstanou přístupná. Překladač tyto částečné přesuny inteligentně sleduje a zamezuje přístupu k přesunutým polím, zatímco umožňuje další používání nepřesunutých polí. Toto chování zajišťuje bezpečnost paměti tím, že zabraňuje vícenásobnému vlastnictví stejných dat.

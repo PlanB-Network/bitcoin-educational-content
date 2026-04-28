@@ -1,0 +1,8 @@
+question: Ketika hash blok Bitcoin ditafsirkan sebagai bilangan bulat berujung kecil untuk perbandingan target, mengapa blok yang valid biasanya menampilkan banyak angka nol yang tertinggal dalam representasi heksadesimalnya?
+answer: Karena interpretasi little-endian berarti byte paling kanan dalam heksa sesuai dengan bit paling signifikan dari nilai bilangan bulat
+wrong_answers:
+  - Karena algoritma SHA-256 secara alami menghasilkan angka nol yang tertinggal ketika input berisi data transaksi dengan pola yang berulang
+  - Karena penambang sengaja mengisi header blok dengan nol byte untuk membuat komputasi hash lebih efisien untuk perangkat keras ASIC
+  - Karena bidang nonce bertambah dari nol ke atas, menyebabkan fungsi hash ke pola generate dengan nol di belakang
+explanation: |
+  Dalam interpretasi little-endian, byte dibaca dalam urutan terbalik, sehingga byte paling kanan dalam heksadesimal menjadi bagian paling signifikan dari bilangan bulat. Agar hash berada di bawah target (angka kecil), bit yang paling signifikan harus nol, yang muncul sebagai nol di belakang pada tampilan heksa. Ini adalah artefak representasi dari konversi endianness, bukan properti dari perangkat keras SHA-256 atau mining.

@@ -1,0 +1,9 @@
+question: RPOW 缩写是什么意思？
+answer: Reusable Proofs of Work
+wrong_answers:
+  - Recursive Proofs of Work
+  - Random Proofs of Work
+  - Replayed Proofs of Work
+explanation: |
+  RPOW 指的是 Hal Finney 在 2004 年提出的可重复使用且可交换的工作量证明。
+reviewed: false

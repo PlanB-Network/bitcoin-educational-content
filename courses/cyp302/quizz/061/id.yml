@@ -6,4 +6,4 @@ wrong_answers:
   - Kunci publik
 explanation: |
   Enkripsi blok membagi data menjadi blok-blok berukuran tetap dan mengenkripsinya secara independen.
-reviewed: false
+reviewed: true

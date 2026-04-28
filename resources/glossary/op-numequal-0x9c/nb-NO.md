@@ -1,5 +1,6 @@
 ---
 term: OP_NUMEQUAL (0X9C)
 
+definition: Opcode som sjekker om de to øverste elementene på stakken er numerisk like.
 ---
 Sammenligner de to øverste elementene i stakken for å sjekke om de er numerisk like. Hvis verdiene er like, skyves `1` (true) opp på stabelen, ellers skyves `0` (false) opp.

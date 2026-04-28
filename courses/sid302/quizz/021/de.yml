@@ -1,0 +1,8 @@
+question: Was ist der primäre Geschäftsvorteil, den die 2-Minuten-Abwicklungszeit von Liquid gegenüber traditionellen Finanzsystemen bietet?
+answer: Verringerung des Kontrahentenrisikos durch die Möglichkeit der atomaren Abwicklung, bei der Lieferung und Zahlung gleichzeitig erfolgen
+wrong_answers:
+  - Eliminiert die Notwendigkeit der Einhaltung von Vorschriften und KYC-Anforderungen beim Handel mit Vermögenswerten
+  - Ermöglicht unbegrenzte Skalierbarkeit für den Hochfrequenzhandel ohne Transaktionsgebühren
+  - Ermöglicht automatische Preisfindung durch integrierte Market-Making-Algorithmen
+explanation: |
+  Die 2-Minuten-Abrechnung von Liquid ermöglicht eine atomare Abrechnung, die für die Verringerung des Kontrahentenrisikos von entscheidender Bedeutung ist, da beide Parteien die ihnen geschuldeten Beträge gleichzeitig erhalten und somit die Lücke, in der eine Partei ausfallen könnte, beseitigt wird. Die traditionelle T+2-Abrechnung schafft ein Zeitfenster, in dem ein Kontrahentenrisiko besteht. Die anderen Optionen sind falsch: Liquid erfordert nach wie vor die Einhaltung der Vorschriften durch AMP, hat Transaktionsgebühren und Skalierungsgrenzen und bietet kein automatisches Market Making.

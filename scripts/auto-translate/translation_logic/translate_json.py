@@ -18,6 +18,16 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(ROOT_DIR, '.env')
 load_dotenv(ENV_PATH)
 
+MAX_RETRIES = 5
+INITIAL_BACKOFF_SECS = 2
+
+def _is_retryable_error(e: Exception) -> bool:
+    err = str(e).lower()
+    return any(p in err for p in [
+        'dns', 'timeout', '503', '502', '500', '429',
+        'rate limit', 'connection', 'unavailable',
+    ])
+
 @dataclass
 class TranslationConfig:
     source_lang: str
@@ -26,6 +36,16 @@ class TranslationConfig:
     target_translator_code: str
 
 class GlossaryManager:
+    # Patterns matching transliterated forms of "GW-<number>" in various scripts
+    TRANSLITERATED_TOKEN_PATTERNS = [
+        r'जीडब्ल्यू-(\d+)',          # Hindi (Devanagari): जीडब्ल्यू = GW
+        r'ГВ-(\d+)',                  # Russian/Bulgarian (Cyrillic): ГВ = GW
+        r'ج[يی]دبليو-(\d+)',        # Arabic/Farsi
+        r'จีดับเบิลยู-(\d+)',       # Thai
+        r'ジーダブリュー-(\d+)',    # Japanese Katakana
+        r'지더블유-(\d+)',           # Korean
+    ]
+
     def __init__(self, glossary_path: str = 'glossary.yml'):
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.glossary_path = os.path.join(script_dir, glossary_path)
@@ -49,29 +69,75 @@ class GlossaryManager:
     def prepare_text(self, text: str) -> Tuple[str, Dict[str, str]]:
         working_text = text
         local_replacements = {}
-        
-        
+
+
         sorted_terms = sorted(self.glossary_terms, key=len, reverse=True)
-        
+
         for term in sorted_terms:
-            pattern = re.compile(r'\b' + re.escape(term) + r'\b')
+            # Use word boundary only at start to handle terms ending with punctuation
+            # The trailing \b fails for terms ending with ), ], etc.
+            pattern = re.compile(r'\b' + re.escape(term))
             if pattern.search(working_text):
                 replacement = self._create_replacement_token()
                 working_text = pattern.sub(replacement, working_text)
                 local_replacements[replacement] = term
-                
+
         return working_text, local_replacements
 
     def restore_text(self, text: str, replacements: Dict[str, str]) -> str:
         result = text
+        # First pass: exact token replacement (handles Latin-script preserved tokens)
         for token, original in replacements.items():
             result = result.replace(token, original)
+
+        # Second pass: replace transliterated variants of tokens
+        # Build a lookup from token number -> original term
+        number_to_original = {}
+        for token, original in replacements.items():
+            match = re.match(r'GW-(\d+)', token)
+            if match:
+                number_to_original[match.group(1)] = original
+
+        if number_to_original:
+            for pattern in self.TRANSLITERATED_TOKEN_PATTERNS:
+                def _replace_transliterated(m, lookup=number_to_original):
+                    num = m.group(1)
+                    return lookup.get(num, m.group(0))
+                result = re.sub(pattern, _replace_transliterated, result)
+
         return result
+
+    def detect_failed_restorations(self, text: str) -> List[Tuple[str, str]]:
+        """
+        Detect tokens that weren't properly restored (appear in transliterated form).
+        Returns list of (pattern_found, likely_script) tuples.
+        """
+        failed_tokens = []
+
+        # Pattern definitions for different scripts (with labels for reporting)
+        patterns = [
+            (r'जीडब्ल्यू-\d+', 'Devanagari (Hindi)'),
+            (r'ГВ-\d+', 'Cyrillic'),
+            (r'GW-\d+', 'Latin (untranslated)'),
+            (r'ج[يی]دبليو-\d+', 'Arabic/Farsi'),
+            (r'จีดับเบิลยู-\d+', 'Thai'),
+            (r'ジーダブリュー-\d+', 'Japanese Katakana'),
+            (r'지더블유-\d+', 'Korean'),
+        ]
+
+        for pattern, script_name in patterns:
+            matches = re.findall(pattern, text)
+            if matches:
+                for match in matches:
+                    failed_tokens.append((match, script_name))
+
+        return failed_tokens
 
 class TranslationProcessor:
     def __init__(self, translator: 'BaseTranslator'):
         self.translator = translator
         self.glossary_manager = GlossaryManager()
+        self.failed_restorations = []  # Track all failed restorations
 
     def process_text(self, text: str) -> str:
         if not text or not text.strip():
@@ -80,8 +146,49 @@ class TranslationProcessor:
         prepared_text, replacements = self.glossary_manager.prepare_text(text)
         translated_text = self.translator.translate_text(prepared_text)
         final_text = self.glossary_manager.restore_text(translated_text, replacements)
-        
+
+        # Detect failed restorations
+        failed = self.glossary_manager.detect_failed_restorations(final_text)
+        if failed:
+            # Store for summary report
+            self.failed_restorations.append({
+                'original': text[:100],
+                'translated': final_text[:100],
+                'failed_tokens': failed,
+                'expected_replacements': replacements
+            })
+            # Also print immediate warning
+            print(f"\n⚠️  WARNING: Failed token restorations detected!")
+            print(f"   Original text: {text[:100]}...")
+            print(f"   Translated text: {final_text[:100]}...")
+            for token, script in failed:
+                print(f"   - Found '{token}' in {script}")
+            if replacements:
+                print(f"   Expected replacements: {replacements}")
+
         return final_text
+
+    def get_failed_restorations_summary(self) -> Dict[str, Any]:
+        """Get summary of all failed restorations."""
+        if not self.failed_restorations:
+            return {'total_failures': 0}
+
+        scripts_affected = {}
+        total_tokens = 0
+
+        for failure in self.failed_restorations:
+            for token, script in failure['failed_tokens']:
+                total_tokens += 1
+                if script not in scripts_affected:
+                    scripts_affected[script] = []
+                scripts_affected[script].append(token)
+
+        return {
+            'total_failures': len(self.failed_restorations),
+            'total_tokens': total_tokens,
+            'scripts_affected': scripts_affected,
+            'details': self.failed_restorations
+        }
 
 class BaseTranslator(ABC):
     @abstractmethod
@@ -109,18 +216,27 @@ class DeepLTranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
         
-        try:
-            result = self.translator.translate_text(
-                text,
-                source_lang=self.source_lang,
-                target_lang=self.target_lang,
-                preserve_formatting=True
-            )
-            return str(result)
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                result = self.translator.translate_text(
+                    text,
+                    source_lang=self.source_lang,
+                    target_lang=self.target_lang,
+                    preserve_formatting=True
+                )
+                return str(result)
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class OpenAITranslator(BaseTranslator):
     def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
@@ -144,22 +260,30 @@ class OpenAITranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
-            
-            response = self.client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": text}
-                ],
-                temperature=0.1
-            )
-            return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.chat.completions.create(
+                    model="gpt-4o",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": text}
+                    ],
+                    temperature=0.1
+                )
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class DeepSeekTranslator(BaseTranslator):
     def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
@@ -183,22 +307,30 @@ class DeepSeekTranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
-            
-            response = self.client.chat.completions.create(
-                model="deepseek-chat",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": text}
-                ],
-                temperature=0.1
-            )
-            return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.chat.completions.create(
+                    model="deepseek-chat",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": text}
+                    ],
+                    temperature=0.1
+                )
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 
 class GoogleTranslator(BaseTranslator):
@@ -229,28 +361,44 @@ class GoogleTranslator(BaseTranslator):
     def translate_text(self, text: str) -> str:
         if not text or not text.strip():
             return text
-        
+
         current_time = time.time()
         time_since_last_request = current_time - self.last_request_time
         if time_since_last_request < self.min_request_interval:
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            response = self.client.translate_text(
-                request={
-                    "parent": self.parent,
-                    "contents": [text],
-                    "mime_type": "text/plain",
-                    "source_language_code": self.source_lang,
-                    "target_language_code": self.target_lang,
-                }
-            )
-            return response.translations[0].translated_text
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.translate_text(
+                    request={
+                        "parent": self.parent,
+                        "contents": [text],
+                        "mime_type": "text/plain",
+                        "source_language_code": self.source_lang,
+                        "target_language_code": self.target_lang,
+                    }
+                )
+                translated = response.translations[0].translated_text
+
+                # Fix: Google Translate adds trailing periods to short technical terms
+                # Remove trailing period if original text didn't have one
+                if not text.rstrip().endswith('.') and translated.rstrip().endswith('.'):
+                    translated = translated.rstrip()[:-1] + translated[len(translated.rstrip()):]
+
+                return translated
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class FileTranslator:
     def __init__(self, config: TranslationConfig):
@@ -384,10 +532,29 @@ class FileTranslator:
             
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(translated_content, f, ensure_ascii=False, indent=2)
-            
+
             print(f"\nTranslation completed: {output_path}")
             print(f"Processed {total_objects} objects")
-            
+
+            # Print summary of failed restorations
+            summary = self.translator.get_failed_restorations_summary()
+            if summary['total_failures'] > 0:
+                print(f"\n" + "="*60)
+                print(f"🚨 GLOSSARY RESTORATION FAILURE SUMMARY")
+                print(f"="*60)
+                print(f"Total failed restorations: {summary['total_failures']}")
+                print(f"Total failed tokens: {summary['total_tokens']}")
+                print(f"\nScripts affected:")
+                for script, tokens in summary['scripts_affected'].items():
+                    unique_tokens = set(tokens)
+                    print(f"  - {script}: {len(tokens)} occurrences ({len(unique_tokens)} unique tokens)")
+                    print(f"    Tokens: {', '.join(list(unique_tokens)[:5])}")
+                print(f"\nThis indicates that glossary terms were transliterated instead of preserved.")
+                print(f"See warnings above for details on each failed restoration.")
+                print(f"="*60)
+            else:
+                print(f"\n✅ All glossary tokens restored successfully!")
+
         except Exception as e:
             print(f"\nError processing file {input_path}")
             print(f"Error: {e}")

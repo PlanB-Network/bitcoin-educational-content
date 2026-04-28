@@ -24,7 +24,7 @@ Det er to hovedgrunner til å bruke en alternativ klient som Knots i stedet for 
 
 ## Hvordan installerer jeg Bitcoin-knuter?
 
-Gå til [det offisielle nettstedet til Bitcoin Knots] (https://bitcoinknots.org/#download) for å laste ned versjonen for operativsystemet ditt. Ikke glem å laste ned fingeravtrykk og signaturer for å verifisere programvaren. Disse filene er også tilgjengelige [på Bitcoin Knots GitHub-repository](https://github.com/bitcoinknots/Bitcoin).
+Gå til [det offisielle nettstedet til Bitcoin Knots](https://bitcoinknots.org/#download) for å laste ned versjonen for operativsystemet ditt. Ikke glem å laste ned fingeravtrykk og signaturer for å verifisere programvaren. Disse filene er også tilgjengelige [på Bitcoin Knots GitHub-repository](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
@@ -212,13 +212,14 @@ Ikke glem å starte programvaren på nytt etter at du har gjort disse endringene
 
 Gå deretter til programvaren for porteføljeadministrasjon (f.eks. Sparrow Wallet eller Liana) og skriv inn banen til cookie-filen, som vanligvis ligger i samme mappe som `Bitcoin.conf`, avhengig av operativsystemet ditt:
 
-|**macOS**|~/Bibliotek/Applikasjonsstøtte/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,19 +237,20 @@ server=1
 
 Når du har redigert filen, må du sørge for å lagre den i riktig mappe for operativsystemet ditt:
 
+
+
+
+
 |**macOS**|~/Library/Application Support/Bitcoin|
-
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Denne operasjonen kan også utføres via Bitcoin-QTs Interface-grafikk. Gå til menyen "*Settings*", deretter "*Options...*", og aktiver alternativet "*Enable RPC server*" ved å krysse av i den tilhørende boksen. Hvis filen `Bitcoin.conf` ikke finnes, kan du opprette den direkte fra denne Interface ved å klikke på "*Open Configuration File*".
 
 ![Image](assets/fr/37.webp)
 
-Finn IP Address til maskinen som er vert for Bitcoin Knots i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner] (https://angryip.org/). La oss for eksempel anta at IP Address til noden din er `192.168.1.18`.
+Finn IP Address til maskinen som er vert for Bitcoin Knots i ditt lokale nettverk. For å gjøre dette kan du bruke et verktøy som [Angry IP Scanner](https://angryip.org/). La oss for eksempel anta at IP Address til noden din er `192.168.1.18`.
 
 I filen `Bitcoin.conf` legger du til følgende linjer, og setter `rpcbind=192.168.1.18` til å samsvare med IP Address for noden din.
 

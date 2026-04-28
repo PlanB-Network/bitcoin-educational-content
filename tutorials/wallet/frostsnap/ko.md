@@ -1,5 +1,5 @@
 ---
-name: 프로스트스냅
+name: Frostsnap
 description: FROST 프로토콜을 사용하는 고급 다중 서명 보안 시스템
 ---
 

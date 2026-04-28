@@ -1,0 +1,9 @@
+question: Co mierzy hashrate?
+answer: Hashe na sekundę
+wrong_answers:
+  - Bloki na sekundę
+  - Transakcje na sekundę
+  - Bajty na sekundę
+explanation: |
+  Hashrate wyraża liczbę prób haszowania wykonywanych w każdej sekundzie, w H/s.
+reviewed: false

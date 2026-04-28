@@ -1,0 +1,8 @@
+question: Kiến trúc thành phần mô-đun của LDK cho phép tích hợp Mô-đun Bảo mật Phần cứng (HSM) cho các giao dịch Lightning như thế nào?
+answer: Bằng cách cho phép trích xuất các thành phần ký cụ thể có thể phân tích ngữ cảnh giao dịch Lightning và các tác động bảo mật.
+wrong_answers:
+  - Bằng cách cung cấp một thiết bị HSM daemon hoàn chỉnh hoạt động độc lập và giao tiếp thông qua các kênh mã hóa.
+  - Bằng cách triển khai các trình điều khiển phần cứng chuyên dụng giao tiếp trực tiếp với các chipset HSM cho các hoạt động mã hóa.
+  - Bằng cách tạo ra các môi trường biệt lập (sandbox) thực thi logic giao thức Lightning hoàn toàn bên trong môi trường HSM.
+explanation: |
+  Thiết kế dạng mô-đun của LDK cho phép các nhà phát triển chỉ trích xuất các thành phần ký và xác minh giao dịch để tích hợp với HSM. Điều này cho phép tạo ra các thiết bị ký giao dịch tương thích với Lightning, hiểu được ngữ cảnh giao dịch vượt ra ngoài việc ký đơn thuần - chúng có thể đánh giá xem một giao dịch có đại diện cho các khoản thanh toán hợp pháp, các hoạt động định tuyến hay các mối đe dọa bảo mật tiềm tàng hay không. Các tùy chọn khác mô tả các phương pháp nguyên khối hoặc dành riêng cho phần cứng, trái ngược với triết lý linh hoạt, dạng mô-đun của LDK, vốn cung cấp các thành phần có thể kết hợp thay vì các giải pháp hoàn chỉnh.

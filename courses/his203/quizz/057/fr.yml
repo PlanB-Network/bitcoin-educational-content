@@ -1,0 +1,9 @@
+question: Quel évènement survenu le 15 avril 2011 a-t-il été surnommé le « vendredi noir » par les joueurs de poker ?
+answer: Les principales plateformes de poker en ligne américaines ont été fermées par le FBI pour avoir contourné l'UIGEA
+wrong_answers:
+  - Certains sites de poker en ligne ont proposé des promotions majeures sur les commissions de jeu (rake) et sur les montant d'entrée des tournois (buy-in)
+  - Une faille majeure dans les logiciels de poker en ligne a permis de détourner des fonds pour acheter des bijoux et des balles de golf
+  - Le joueur amateur Chris Moneymaker a remporté le tournoi principal du championnat du monde de poker après s'être entrainé en ligne
+explanation: |
+ Elles étaient accusées de s'être faites passer pour des commerçants classiques pour que leurs banques valident les virements entrants, qui étaient prohibés par l'Unlawful Internet Gambling Enforcement Act de 2006. Cette fermeture a été désastreuse pour le milieu du poker en ligne. Elle a provoqué la création de plusieurs plateformes de poker en bitcoins, la cryptomonnaie n'étant pas soumise aux mêmes restrictions.
+reviewed: false

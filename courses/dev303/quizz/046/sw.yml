@@ -1,0 +1,8 @@
+question: Ni nini hufanyika unapoiga mfano wa RC<T> ulio na muundo mkubwa wa data?
+answer: Rejeleo pekee ndilo linalonakiliwa na kaunta ya marejeleo huongezwa, na kuacha data asili bila kubadilika
+wrong_answers:
+  - Muundo mzima wa data unarudiwa katika kumbukumbu na nakala zote mbili huhifadhi vihesabu tofauti vya marejeleo
+  - Nakala isiyo na kina imeundwa ambapo sehemu za awali zinanakiliwa lakini sehemu changamano zinabaki kuwa marejeleo ya pamoja
+  - Data huhamishiwa kwenye eneo jipya la kumbukumbu na RC ya asili inakuwa batili hadi itakapoanzishwa tena
+explanation: |
+  Wakati wa kuunda RC, Rust hunakili kiashiria cha marejeleo pekee na kuongeza kihesabu cha marejeleo cha ndani, na kufanya operesheni hiyo kuwa na ufanisi mkubwa bila kujali ukubwa wa data. Data ya msingi inabaki katika eneo moja la kumbukumbu na inashirikiwa kati ya mifano yote ya RC. Hii kimsingi ni tofauti na kuunda data halisi, ambayo ingeharibu madhumuni ya umiliki wa pamoja na kumbukumbu ya taka.

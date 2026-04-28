@@ -70,7 +70,7 @@ Välkommen till ECO104-kursen!
 **Vi lever i en värld där**
 
 
-● Bara [20 %] (https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) av alla människor lever i samhällen som anses vara "demokratiskt fria" Men även inom denna privilegierade grupp blir kränkningar av de mänskliga rättigheterna allt vanligare - från frysta bankkonton till censur. De återstående 80 procenten brottas med ett alltmer auktoritärt styre. För bara två decennier sedan åtnjöt nästan hälften av världens befolkning de mest grundläggande friheterna.
+● Bara [20 %](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf) av alla människor lever i samhällen som anses vara "demokratiskt fria" Men även inom denna privilegierade grupp blir kränkningar av de mänskliga rättigheterna allt vanligare - från frysta bankkonton till censur. De återstående 80 procenten brottas med ett alltmer auktoritärt styre. För bara två decennier sedan åtnjöt nästan hälften av världens befolkning de mest grundläggande friheterna.
 
 
 ● [1,4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.) miljarder vuxna världen över saknar fortfarande bank, medan otaliga andra är hänvisade till begränsade banktjänster.
@@ -219,7 +219,7 @@ För att pengar ska behålla sin köpkraft över tid måste de vara:
 **Skarghet:** När pengar erbjuder knapphet menar vi en begränsad tillgänglig Supply. Detta är viktigt för en värdebevarare eftersom om det finns för mycket av en viss valuta kan den minska i värde. En knapp valuta är mer benägen att behålla sitt värde över tid, vilket gör den till en pålitlig förmögenhet. Tänk på det som ett föremål i begränsad upplaga - om det bara finns ett fåtal av dem är de mer värdefulla och eftertraktade än om det fanns en obegränsad Supply. På samma sätt är det mer sannolikt att en knapp valuta håller sitt värde och bibehåller sin köpkraft, vilket gör den till ett bättre alternativ för att lagra rikedom.
 
 
-**För att pengar ska vara oföränderliga måste de vara omöjliga att återkalla eller ändra när en transaktion väl har gjorts.** Detta är en viktig egenskap hos en tillförlitlig värdebevarare eftersom det säkerställer att pengarnas värde inte är föremål för godtyckliga förändringar eller manipulationer. Om du till exempel köper något med kontanter kan du inte senare ändra dig och ta tillbaka transaktionen. På samma sätt, med kryptovalutor som Bitcoin, när en transaktion har registrerats på Blockchain, kan den inte ändras eller återkallas. Denna oföränderlighet ger en känsla av säkerhet och tillförlitlighet för både köpare och säljare i finansiella transaktioner.
+**För att pengar ska vara oföränderliga måste de vara omöjliga att återkalla eller ändra när en transaktion väl har gjorts.** Detta är en viktig egenskap hos en tillförlitlig värdebevarare eftersom det säkerställer att pengarnas värde inte är föremål för godtyckliga förändringar eller manipulationer. Om du till exempel köper något med kontanter kan du inte senare ändra dig och ta tillbaka transaktionen. På samma sätt, med [kryptovalutor](https://planb.academy/resources/glossary/cryptocurrency) som Bitcoin, när en transaktion har registrerats på [Blockchain](https://planb.academy/resources/glossary/blockchain), kan den inte ändras eller återkallas. Denna oföränderlighet ger en känsla av säkerhet och tillförlitlighet för både köpare och säljare i finansiella transaktioner.
 
 
 #### Medium för Exchange
@@ -243,7 +243,7 @@ För att pengar ska vara en effektiv mellanhand för att köpa och sälja varor 
 För att pengar ska kunna användas som ett gemensamt mått på värdet av varor och tjänster måste de vara det:
 
 
-**Fungibel:** När pengar sägs vara fungibla är varje enhet av valuta utbytbar mot vilken annan enhet som helst. I enklare termer betyder det att pengar är enhetliga och identiska, oavsett var de kommer ifrån eller vem som äger dem. Om du till exempel är skyldig någon 10 USD och ger dem en sedel på 10 USD spelar det ingen roll om sedeln kommer från din Wallet eller någon annans Wallet. Så länge det är en äkta 10-dollarsedel anses den vara lika mycket värd. Begreppet fungibilitet är viktigt eftersom det gör att pengar kan fungera effektivt som en gemensam måttenhet, vilket gör transaktioner enklare och mer effektiva.
+**Fungibel:** När pengar sägs vara [fungibla](https://planb.academy/resources/glossary/fungibility) är varje enhet av valuta utbytbar mot vilken annan enhet som helst. I enklare termer betyder det att pengar är enhetliga och identiska, oavsett var de kommer ifrån eller vem som äger dem. Om du till exempel är skyldig någon 10 USD och ger dem en sedel på 10 USD spelar det ingen roll om sedeln kommer från din Wallet eller någon annans Wallet. Så länge det är en äkta 10-dollarsedel anses den vara lika mycket värd. Begreppet fungibilitet är viktigt eftersom det gör att pengar kan fungera effektivt som en gemensam måttenhet, vilket gör transaktioner enklare och mer effektiva.
 
 
 Slutsats
@@ -252,7 +252,7 @@ Slutsats
 Pengar är en viktig och fascinerande del av vårt dagliga liv. De fungerar som en mellanhand och gör det möjligt för oss att handla varor och tjänster med varandra. Alla pengar är dock inte skapade på samma sätt. Vissa former av pengar är överlägsna som värdebevarare, som guldmynt, medan andra kan vara mer effektiva som ett medium för Exchange, den amerikanska dollarn. När dessa funktioner uppfylls i sin helhet gör det dock att vi kan göra trygga och enkla transaktioner, vilket inte bara hjälper oss som individer utan även främjar större ekonomisk tillväxt och välstånd för vår ekonomi.
 
 
-I de kommande modulerna kommer vi att utforska två populära former av pengar: Bitcoin och stablecoins. Genom att undersöka dem med hjälp av det innehåll som diskuteras i detta avsnitt kommer vi att utforska hur de uppfyller de olika funktionerna för valuta och hur de kan vara till stor nytta för samhället.
+I de kommande modulerna kommer vi att utforska två populära former av pengar: Bitcoin och [stablecoins](https://planb.academy/resources/glossary/stablecoin). Genom att undersöka dem med hjälp av det innehåll som diskuteras i detta avsnitt kommer vi att utforska hur de uppfyller de olika funktionerna för valuta och hur de kan vara till stor nytta för samhället.
 
 
 Från byteshandel till uppfinningen av mynt och pappersvaluta har pengar genomgått en rad omvandlingar för att anpassas till samhällets ständigt föränderliga behov. När vi nu går vidare till nästa kapitel ska vi ändra kurs och rikta uppmärksamheten mot pengarnas utveckling.
@@ -293,9 +293,9 @@ Med detta i åtanke, låt oss ta en titt på de primära formerna av Exchange so
 
 4. **Metalluppbackade papperspengar:** Papperspengar som backas upp av en fysisk råvara, till exempel guld eller silver.
 
-5. **Fiatpengar: ** Valuta som inte backas upp av en fysisk vara utan som har ett värde på grund av att en regering förklarar att den är ett lagligt betalningsmedel.
+5. **[Fiatpengar](https://planb.academy/resources/glossary/fiat): ** Valuta som inte backas upp av en fysisk vara utan som har ett värde på grund av att en regering förklarar att den är ett lagligt betalningsmedel.
 
-6. **Kryptovalutor:** Digitala eller virtuella tokens som använder kryptografi för att säkra transaktioner och kontrollera skapandet av nya enheter.
+6. **Kryptovalutor:** Digitala eller virtuella tokens som använder [kryptografi](https://planb.academy/resources/glossary/cryptography) för att säkra transaktioner och kontrollera skapandet av nya enheter.
 
 
 Med dessa i åtanke ska vi nu granska var och en av dem för att få en mer holistisk förståelse för hur vi hamnade där vi är idag.
@@ -334,7 +334,7 @@ När byteshandeln började visa sin svaghet i handeln behövde både individer o
 Det fina med att välja ett fördefinierat medium för Exchange var att samhällen kunde välja något som erbjöd knapphet och inte förstördes, vilket gjorde det till en mer hållbar värdebevarare. Saker som glaspärlor, salt och snäckskal blev snabbt eftertraktade eftersom de räknades, var ganska hållbara och gick att bära i säckar. Särskilt salt var populärt eftersom det var användbart - bland annat för att salta kött.
 
 
-Men i takt med att det blev lättare att resa började världen öppnas upp och människor insåg att knappa resurser i ett område var rikliga i andra. Detta ledde till exploatering, utspädning av Supply och utlöste händelser som slavhandeln. Till exempel såg europeiska nybyggare som utforskade Afrika att de lokala samhällena använde glaspärlor som en form av pengar. Förvirrade, på grund av den enkla glasproduktionen i Europa, tog nybyggarna med sig stora mängder av dessa pärlor till Afrika, vilket spädde ut deras värde. Vissa skulle till och med hävda att denna utspädning var en av de utlösande faktorerna för [slavhandeln] (https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), som bidrog till att den afrikanska ekonomin kollapsade.
+Men i takt med att det blev lättare att resa började världen öppnas upp och människor insåg att knappa resurser i ett område var rikliga i andra. Detta ledde till exploatering, utspädning av Supply och utlöste händelser som slavhandeln. Till exempel såg europeiska nybyggare som utforskade Afrika att de lokala samhällena använde glaspärlor som en form av pengar. Förvirrade, på grund av den enkla glasproduktionen i Europa, tog nybyggarna med sig stora mängder av dessa pärlor till Afrika, vilket spädde ut deras värde. Vissa skulle till och med hävda att denna utspädning var en av de utlösande faktorerna för [slavhandeln](https://breedlove22.medium.com/masters-and-slaves-of-money-255ecc93404f), som bidrog till att den afrikanska ekonomin kollapsade.
 
 
 Överlag spelade varupengar en viktig roll i utvecklingen av handel och kommers, eftersom de tillhandahöll ett standardiserat sätt att betala Exchange som var allmänt accepterat. I takt med att samhällena blev mer avancerade började dock andra former av pengar som var mer praktiska och delbara att dyka upp.
@@ -352,7 +352,7 @@ För att lösa dessa problem började människor söka efter råvaror som hade g
 Dessutom var metaller som guld en av de mest inerta Elements i det periodiska systemet, vilket gjorde dem extremt hållbara och korrosionsbeständiga.
 
 
-I takt med att tekniken utvecklades genomgick guld och silver en omvandlingsprocess och smältes, formades och stämplades till mynt, vilket gjorde det lättare att använda Exchange. Det standardiserade värdet och markeringarna på dessa mynt minskade avsevärt kostnaderna för att verifiera ädelmetallernas vikt och renhet. Men som med det mesta som är bra hittar alltid någon ett sätt att dra fördel av det. Både privatpersoner och regeringar klippte delar av mynten för att minska deras vikt av ädelmetall samtidigt som de försökte behålla deras ursprungliga nominella värde. Detta ledde till den första formen av devalvering av valutan, vilket i sin tur ledde till inflation.
+I takt med att tekniken utvecklades genomgick guld och silver en omvandlingsprocess och smältes, formades och stämplades till mynt, vilket gjorde det lättare att använda Exchange. Det standardiserade värdet och markeringarna på dessa mynt minskade avsevärt kostnaderna för att verifiera ädelmetallernas vikt och renhet. Men som med det mesta som är bra hittar alltid någon ett sätt att dra fördel av det. Både privatpersoner och regeringar klippte delar av mynten för att minska deras vikt av ädelmetall samtidigt som de försökte behålla deras ursprungliga nominella värde. Detta ledde till den första formen av devalvering av valutan, vilket i sin tur ledde till [inflation](https://planb.academy/resources/glossary/inflation).
 
 
 Till råga på allt blev guld och silver alltmer besvärligt att transportera och göra affärer med, särskilt för sjöfolk, i takt med att världen blev mer global.
@@ -373,7 +373,7 @@ Tänk på det: inget mer släpande på tunga guldpåsar eller oro för stöld. I
 Men som med all ny teknik började det dyka upp problem.
 
 
-Först insåg guldlagren att deras kunder sällan kom tillbaka för att hämta ut det guld som kvittona gjorde anspråk på och började därför utfärda papperskvitton utan guld som säkerhet, vilket ledde till att det första banksystemet med fraktionella reserver skapades i det fördolda (utgivarna håller bara en del av kundernas insättningar som reserver och lånar ut resten). Och även när länder försökte backa upp sina valutor med guld missbrukade de ofta systemet, vilket ledde till ekonomisk oro.
+Först insåg guldlagren att deras kunder sällan kom tillbaka för att hämta ut det guld som kvittona gjorde anspråk på och började därför utfärda papperskvitton utan guld som säkerhet, vilket ledde till att det första banksystemet med [fraktionella reserver](https://planb.academy/resources/glossary/fractional-reserves) skapades i det fördolda (utgivarna håller bara en del av kundernas insättningar som reserver och lånar ut resten). Och även när länder försökte backa upp sina valutor med guld missbrukade de ofta systemet, vilket ledde till ekonomisk oro.
 
 
 För det andra var papperspengar med metallstomme inte immuna mot förfalskning. Även med säkerhetsdetaljer kunde förfalskare skapa falska sedlar som kunde vara svåra att upptäcka.
@@ -571,7 +571,7 @@ Den här balansakten går inte riktigt som planerat..
 ![image](assets/en/001.webp)
 
 
-Diagram [Skuld i förhållande till BNP] (https://www.longtermtrends.net/us-debt-to-gdp/)
+Diagram [Skuld i förhållande till BNP](https://www.longtermtrends.net/us-debt-to-gdp/)
 
 
 När vi lägger samman federala skulder, företagsskulder och hushållens skulder blir resultatet svindlande 63,14 biljoner USD, vilket står i kontrast till USA:s bruttonationalprodukt (BNP) på 26,13 biljoner USD. Detta innebär att USA har en total skuld i förhållande till BNP på 241%. Med andra ord, för varje 1 dollar i BNP som genereras finns det hela 2,41 dollar i skuld.
@@ -586,7 +586,7 @@ Låt oss försiktigtvis anta att den genomsnittliga räntan på denna skuld är 
 3% \* 241% = 7.23%
 
 
-USA:s skuldbörda är så stor att det krävs en årlig tillväxttakt på 7,23% för att betala räntorna på skulden - en takt som är betydligt högre än den genomsnittliga BNP-tillväxten på [3,13%] (https://tradingeconomics.com/united-states/gdp-growth-annual.) under de senaste 70 åren.
+USA:s skuldbörda är så stor att det krävs en årlig tillväxttakt på 7,23% för att betala räntorna på skulden - en takt som är betydligt högre än den genomsnittliga BNP-tillväxten på [3,13%](https://tradingeconomics.com/united-states/gdp-growth-annual.) under de senaste 70 åren.
 
 
 7.23% - 3.13% = 4.1%
@@ -650,7 +650,7 @@ Med denna eftersläpning av lönerna i förhållande till tillgångspriserna har
 ![image](assets/en/002.webp)
 
 
-Diagram: Andel av total [nettoförmögenhet] (https://fred.stlouisfed.org/series/WFRBSN40188#0.)
+Diagram: Andel av total [nettoförmögenhet](https://fred.stlouisfed.org/series/WFRBSN40188#0.)
 
 
 ### Högkonjunktur och nedgång
@@ -734,10 +734,10 @@ I slutet av den här modulen kommer du att ha en gedigen förståelse för Bitco
 ### Vad är det här som kallas Bitcoin
 
 
-Bitcoin är en Trustless och tillståndslös decentraliserad digital valuta. Det kan låta förvirrande, så låt oss förklara. Eftersom ingen regering eller institution kontrollerar Bitcoin behöver du inte lita på någon tredje part eller kräva tillstånd för att använda den. Istället upprätthålls den av ett nätverk av användare runt om i världen som validerar och behandlar transaktioner på något som kallas Blockchain.
+Bitcoin är en Trustless och tillståndslös decentraliserad digital valuta. Det kan låta förvirrande, så låt oss förklara. Eftersom ingen regering eller institution kontrollerar Bitcoin behöver du inte lita på någon tredje part eller kräva tillstånd för att använda den. Istället upprätthålls den av ett nätverk av användare runt om i världen som validerar och behandlar [transaktioner](https://planb.academy/resources/glossary/transaction-tx) på något som kallas Blockchain.
 
 
-Tänk på Blockchain som en gigantisk Ledger eller ett digitalt kalkylblad som registrerar varje transaktion som görs via Bitcoin. Eftersom vem som helst globalt med en internetanslutning kan övervaka, validera eller behandla transaktioner, säkerställer detta att valutan är säker och inte kan förfalskas.
+Tänk på Blockchain som en gigantisk [Ledger](https://planb.academy/resources/glossary/ledger) eller ett digitalt kalkylblad som registrerar varje transaktion som görs via Bitcoin. Eftersom vem som helst globalt med en internetanslutning kan övervaka, validera eller behandla transaktioner, säkerställer detta att valutan är säker och inte kan förfalskas.
 
 
 Bitcoin är också unik genom att den har en begränsad Supply. Endast 21 miljoner Bitcoin kommer någonsin att skapas, vilket ger den knapphet, som guld och andra ädelmetaller. Denna knapphet är en del av det som ger Bitcoin dess värde.
@@ -758,13 +758,13 @@ Innan Bitcoin skapades lade en handfull visionärer grunden för Bitcoin när de
 #### The Cypherpunks
 
 
-Cypherpunks är en grupp tekniskt kunniga rebeller som samlades på 70-talet för att kämpa för individuell frihet och medborgerliga rättigheter med hjälp av ett kraftfullt verktyg: kryptografi. De trodde att möjligheten att kryptera information skulle ge människor makten att återta kontrollen från centraliserade myndigheter. Föreställ dig att kunna hålla din onlinekommunikation privat och säker från nyfikna ögon - det var det de kämpade för!
+[Cypherpunks](https://planb.academy/resources/glossary/cypherpunks) är en grupp tekniskt kunniga rebeller som samlades på 70-talet för att kämpa för individuell frihet och medborgerliga rättigheter med hjälp av ett kraftfullt verktyg: kryptografi. De trodde att möjligheten att kryptera information skulle ge människor makten att återta kontrollen från centraliserade myndigheter. Föreställ dig att kunna hålla din onlinekommunikation privat och säker från nyfikna ögon - det var det de kämpade för!
 
 
 Ett av de mest anmärkningsvärda resultaten av Cypherpunks var e-postlistan Cypherpunks, som grundades 1992. Genom listan kunde individer dela idéer och diskutera kryptografisk teknik, digitala valutakoncept och integritetsfokuserade initiativ. Detta ledde till bildandet av en gemenskap av likasinnade individer, inklusive utvecklare, aktivister och forskare.
 
 
-Idag fortsätter cypherpunkarnas visionära idéer att forma utvecklingen av vårt digitala landskap och ger individer större kontroll över sina data och sin kommunikation. Ett av deras mest betydelsefulla arv är Bitcoin, eftersom det bygger mycket på Hashcash - en teknik som utvecklades av Cypherpunk Adam Back 1997 för att bekämpa e-postspam.
+Idag fortsätter cypherpunkarnas visionära idéer att forma utvecklingen av vårt digitala landskap och ger individer större kontroll över sina data och sin kommunikation. Ett av deras mest betydelsefulla arv är Bitcoin, eftersom det bygger mycket på [Hashcash](https://planb.academy/resources/glossary/hashcash) - en teknik som utvecklades av Cypherpunk Adam Back 1997 för att bekämpa e-postspam.
 
 
 Andra anmärkningsvärda Cypherpunks inkluderar:
@@ -773,9 +773,9 @@ Andra anmärkningsvärda Cypherpunks inkluderar:
 
 - **Timothy May:** Grundare av e-postlistan Cypherpunks och skrev mycket om kryptografi och integritet under 90-talet och början av 2000-talet. Hans texter lade grunden för diskussioner om digital integritet och elektroniska kontantsystem.
 - **Eric Hughes:** En annan av Cypherpunks grundare och medförfattare till "A Cypherpunk's Manifesto", som betonade vikten av integritet och anonymitet i den digitala tidsåldern.
-- **Whitfield Diffie och Martin Hellman:** Utvecklade begreppet kryptografi med offentliga nycklar, vilket revolutionerade säker internetkommunikation.
+- **Whitfield Diffie och Martin Hellman:** Utvecklade begreppet kryptografi med [offentliga nycklar](https://planb.academy/resources/glossary/public-key), vilket revolutionerade säker internetkommunikation.
 - **Julian Assange:** Grundare av WikiLeaks, som publicerar hemligstämplad och känslig information för att främja öppenhet och ansvarsutkrävande.
-- **Bram Cohen:** Skapade BitTorrent, ett peer-to-peer-fildelningsprotokoll som decentraliserade distributionen av innehåll och möjliggjorde snabbare nedladdningar.
+- **Bram Cohen:** Skapade BitTorrent, ett [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-fildelningsprotokoll som decentraliserade distributionen av innehåll och möjliggjorde snabbare nedladdningar.
 - **John Gilmore:** En entreprenör och libertarian som var med och grundade Electronic Frontier Foundation (EFF) och förespråkade digitala rättigheter och integritet på nätet.
 
 
@@ -785,7 +785,7 @@ Andra anmärkningsvärda Cypherpunks inkluderar:
 #### David Chaum (Den digitala valutans fader)
 
 
-I början av 1980-talet revolutionerade David Chaum världen för digitala valutor genom sitt banbrytande arbete med "blinded-signaturer" Detta gjorde det möjligt att kryptografiskt signera ett meddelande utan att känna till dess innehåll, vilket garanterade integritet och säkerhet i digitala transaktioner. 1982 skapade David Chaum Ecash, ett anonymt elektroniskt kontantsystem som använde sig av kryptografi, vilket senare implementerades genom hans företag Digicash.
+I början av 1980-talet revolutionerade David Chaum världen för digitala valutor genom sitt banbrytande arbete med "[blinded-signaturer](https://planb.academy/resources/glossary/blind-signature)" Detta gjorde det möjligt att kryptografiskt signera ett meddelande utan att känna till dess innehåll, vilket garanterade integritet och säkerhet i digitala transaktioner. 1982 skapade David Chaum [Ecash](https://planb.academy/resources/glossary/ecash-david-chaum), ett anonymt elektroniskt kontantsystem som använde sig av kryptografi, vilket senare implementerades genom hans företag Digicash.
 
 
 Även om Digicash användes som ett mikrobetalningssystem på en amerikansk bank från 1995 till 1998, ansökte Chaum så småningom om konkurs. Hans innovativa idéer inspirerade dock andra att utforska digitala valutor och banade väg för utvecklingen av moderna kryptovalutor, som Bitcoin.
@@ -806,7 +806,7 @@ Trots sitt slutliga misslyckande var E-gold ett avgörande steg i utvecklingen a
 Med tanke på Bitcoin:s meteoriska uppgång tror många människor felaktigt att det var den första digitala valutan som någonsin existerat. Men som förhoppningsvis nu är uppenbart är detta antagande långt ifrån sanningen. Bitcoin:s uppkomst var resultatet av årtionden av forskning och experimenterande av pionjärer inom kryptografiområdet. Utan bidragen från individerna ovan och många andra kanske Bitcoin aldrig hade skapats. Även om dessa tidiga digitala valutor så småningom misslyckades, lärde sig Bitcoin av deras misstag och blev i slutändan den digitala valuta vi känner till idag.
 
 
-Med det sagt, om det inte vore för en individ... eller grupp (vi vet inte säkert), skulle Bitcoin inte existera. Och det är Satoshi Nakamoto. Den enigmatiske skaparen.
+Med det sagt, om det inte vore för en individ... eller grupp (vi vet inte säkert), skulle Bitcoin inte existera. Och det är [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Den enigmatiske skaparen.
 
 
 #### Satoshi Nakamoto
@@ -818,13 +818,13 @@ Bitcoin har fängslat miljontals människor med sin omvälvande potential och un
 Hur som helst, låt oss ta en titt på myten och legenden.
 
 
-Satoshi Nakamoto dök upp på internet 2008 med en revolutionerande idé: elektroniska kontanter peer-to-peer. Han delade med sig av sin vision i ett [nio sidor långt dokument] (https://Bitcoin.org/Bitcoin.pdf) med titeln "Bitcoin: A Peer-to-Peer Electronic Cash System" till Cypherpunk:s e-postlista. Trots inledande ointresse från de flesta medlemmarna på sändlistan väckte idén tillräckligt med nyfikenhet hos en medlem, Hal Finney, som så småningom kontaktade Satoshi. Hals engagemang i Bitcoin-utvecklingen visade sig vara en vändpunkt som ledde till att fler personer erbjöd sitt stöd.
+Satoshi Nakamoto dök upp på internet 2008 med en revolutionerande idé: elektroniska kontanter peer-to-peer. Han delade med sig av sin vision i ett [nio sidor långt dokument](https://Bitcoin.org/Bitcoin.pdf) med titeln "Bitcoin: A Peer-to-Peer Electronic Cash System" till Cypherpunk:s e-postlista. Trots inledande ointresse från de flesta medlemmarna på sändlistan väckte idén tillräckligt med nyfikenhet hos en medlem, Hal Finney, som så småningom kontaktade Satoshi. Hals engagemang i Bitcoin-utvecklingen visade sig vara en vändpunkt som ledde till att fler personer erbjöd sitt stöd.
 
 
-Efter två års arbete med projektet försvann dock Satoshi spårlöst, med [sin sista trovärdiga kommunikation] (https://plan99.net/~mike/Satoshi-emails/thread5.html) den 23 april 2011, där han uppgav att han hade "gått vidare till andra saker"
+Efter två års arbete med projektet försvann dock Satoshi spårlöst, med [sin sista trovärdiga kommunikation](https://plan99.net/~mike/Satoshi-emails/thread5.html) den 23 april 2011, där han uppgav att han hade "gått vidare till andra saker"
 
 
-Det mystiska försvinnandet av Satoshi Nakamoto har lett till olika teorier om vart han tog vägen. Vissa spekulerar i att han kände att han hade uppnått det han hade föresatt sig att göra, medan andra tror att han blev obekväm med den uppmärksamhet som Bitcoin drog till sig. I december [2010] (https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), när WikiLeaks förbjöds att använda traditionella betalningsmetoder, vände man sig till Bitcoin för att få finansiering. Satoshi:s oro över den ökade uppmärksamheten kring Bitcoin och de potentiella juridiska konsekvenserna av att skapa en valuta som används för att störa USA:s geopolitiska intressen kan ha fått honom att ta ett steg tillbaka. Alternativt kan han ha flyttat sitt fokus till andra projekt, fortfarande bidra till Bitcoin under andra namn eller till och med ha avlidit.
+Det mystiska försvinnandet av Satoshi Nakamoto har lett till olika teorier om vart han tog vägen. Vissa spekulerar i att han kände att han hade uppnått det han hade föresatt sig att göra, medan andra tror att han blev obekväm med den uppmärksamhet som Bitcoin drog till sig. I december [2010](https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), när WikiLeaks förbjöds att använda traditionella betalningsmetoder, vände man sig till Bitcoin för att få finansiering. Satoshi:s oro över den ökade uppmärksamheten kring Bitcoin och de potentiella juridiska konsekvenserna av att skapa en valuta som används för att störa USA:s geopolitiska intressen kan ha fått honom att ta ett steg tillbaka. Alternativt kan han ha flyttat sitt fokus till andra projekt, fortfarande bidra till Bitcoin under andra namn eller till och med ha avlidit.
 
 
 Även om vi kanske inte vet vem Satoshi är, har vi en tydligare bild av hans avsikter bakom Bitcoin. Han skapade Bitcoin som ett svar på den globala finanskrisen 2008 och den resulterande misstron mot traditionella banksystem och statligt kontrollerade valutor.
@@ -856,7 +856,7 @@ Sammanfattningsvis har Bitcoin revolutionerat vårt sätt att tänka kring penga
 
 - **Peer-to-Peer:** Bitcoin gör det möjligt för privatpersoner att skicka och ta emot betalningar direkt utan behov av mellanhänder, som banker eller betalningsleverantörer.
 - **Decentraliserad:** Bitcoin fungerar på ett decentraliserat nätverk, vilket innebär att det inte finns någon central myndighet eller kontroll över valutan.
-- **Säker:** Bitcoin-transaktioner är säkrade med hjälp av kryptografi, vilket gör det svårt att förfalska eller Double-spending-mynt.
+- **Säker:** Bitcoin-transaktioner är säkrade med hjälp av kryptografi, vilket gör det svårt att förfalska eller [Double-spending](https://planb.academy/resources/glossary/double-spending-attack)-mynt.
 - **Begränsad i Supply & delbar:** Supply av Bitcoin är begränsad - med endast 21 miljoner mynt i existens - samtidigt som den är delbar till åtta decimaler, vilket möjliggör transaktioner för en bråkdel av en cent. Denna knapphet är utformad för att ge valutan värde och förhindra inflation.
 - **Pseudoanonymous:** Även om Bitcoin-transaktioner inte är helt anonyma, erbjuder de en nivå av integritet och pseudonymitet som traditionella betalningsmetoder inte gör.
 
@@ -901,7 +901,7 @@ Jämfört med traditionella banksystem fungerar Bitcoin visserligen annorlunda, 
 Medan bankerna utför dessa roller internt, vilket ger dem fullständig kontroll över processen, kräver Bitcoin att samhället samarbetar för att utföra dessa roller. För att Bitcoin ska kunna replikera dessa processer i ett decentraliserat system måste Bitcoin med andra ord lägga ut var och en av dessa uppgifter på entreprenad för att säkerställa att ingen enskild individ eller centraliserad enhet har överdriven kontroll över systemet.
 
 
-För att uppnå denna revolutionerande bedrift har Bitcoin delat upp dessa uppgifter i tre nyckelroller: noder, miners och utvecklare. Där noder verifierar transaktioner och fastställer och upprätthåller regler, beställer och bekräftar miners transaktioner och utvecklare håller nätverket uppdaterat och föreslår uppgraderingar. Genom att fördela dessa uppgifter mellan dessa nyckelaktörer har Bitcoin skapat ett system som är säkert, transparent och ansvarigt för alla användare.
+För att uppnå denna revolutionerande bedrift har Bitcoin delat upp dessa uppgifter i tre nyckelroller: [noder](https://planb.academy/resources/glossary/node), [miners](https://planb.academy/resources/glossary/miner) och utvecklare. Där noder verifierar transaktioner och fastställer och upprätthåller regler, beställer och bekräftar miners transaktioner och utvecklare håller nätverket uppdaterat och föreslår uppgraderingar. Genom att fördela dessa uppgifter mellan dessa nyckelaktörer har Bitcoin skapat ett system som är säkert, transparent och ansvarigt för alla användare.
 
 
 Låt oss därför ta en titt på var och en av dessa roller..
@@ -913,7 +913,7 @@ Låt oss därför ta en titt på var och en av dessa roller..
 #### Noder
 
 
-Noderna är avgörande för integriteten och säkerheten i Bitcoin-nätverket. De fungerar som systemets grindvakter och ser till att transaktionerna behandlas korrekt och enligt reglerna. Varje nod laddar ner och verifierar lokalt en fullständig kopia av Blockchain, som i huvudsak är en digital Ledger som registrerar varje transaktion som någonsin gjorts i Bitcoin-nätverket. Genom konsensus kommer noderna överens om att varje transaktion är giltig och säkerställer att reglerna följs. Det innebär att noderna kommer att avvisa transaktionen om någon försöker fuska med systemet, t.ex. genom att skicka mer Bitcoin än de faktiskt har eller försöka spendera samma Bitcoin två gånger.
+Noderna är avgörande för integriteten och säkerheten i Bitcoin-nätverket. De fungerar som systemets grindvakter och ser till att transaktionerna behandlas korrekt och enligt reglerna. Varje nod laddar ner och verifierar lokalt en fullständig kopia av Blockchain, som i huvudsak är en digital Ledger som registrerar varje transaktion som någonsin gjorts i Bitcoin-nätverket. Genom [konsensus](https://planb.academy/resources/glossary/consensus) kommer noderna överens om att varje transaktion är giltig och säkerställer att reglerna följs. Det innebär att noderna kommer att avvisa transaktionen om någon försöker fuska med systemet, t.ex. genom att skicka mer Bitcoin än de faktiskt har eller försöka spendera samma Bitcoin två gånger.
 
 
 För att ytterligare utveckla idén om konsensus, när utvecklare föreslår ändringar eller uppgraderingar av Bitcoin, spelar noderna en roll i att anta eller förkasta dessa ändringar. De gör detta genom att antingen uppgradera sin programvara till den nya versionen eller fortsätta att köra den gamla versionen. Denna process involverar ofta diskussioner och debatter inom Bitcoin-communityn för att uppnå konsensus. Med detta sagt är Bitcoin:s konsensus inte lika svart och vitt som en röstningsmaskin. Majoriteten styr inte nödvändigtvis. Om vissa individer inte håller med om förändringen kan de lansera en ny Bitcoin-deriverad token. Nu finns den ursprungliga Bitcoin utan förändringen och en ny med förändringen. Genom köp och försäljning är det upp till samhället att markera vilken version de anser vara mest värdefull. Denna konsensusmekanism säkerställer att alla ändringar som görs i Bitcoin-protokollet godkänns av hela communityn, vilket gör det svårt för någon individ eller grupp att manipulera systemet för egen vinning.
@@ -925,7 +925,7 @@ Det är också viktigt att notera att en nod helt enkelt är en mjukvara som vem
 #### Gruvarbetare
 
 
-Bitcoin-miners spelar å andra sidan en viktig roll i registerhållningen, eftersom de ansvarar för att beställa och bekräfta transaktioner. För att göra detta använder miners specialiserade datorer för att utföra en funktion som kallas hashing. Utan att gå in på detaljerna kring hashing kan man tänka sig att miners tävlar med varandra om att lägga till nya transaktioner i Blockchain, den offentliga Ledger av transaktioner. I Exchange för sitt arbete belönas miners med nyskapade Bitcoin och transaktionsavgifterna för alla transaktioner som behandlas. Mining-processen är utformad för att vara svår, konkurrenskraftig och slumpmässig, med endast ett begränsat antal nya Bitcoin som släpps varje år, vilket säkerställer att Supply av Bitcoin är begränsat och att deras värde bibehålls. Utan miners skulle transaktioner inte kunna behandlas.
+Bitcoin-miners spelar å andra sidan en viktig roll i registerhållningen, eftersom de ansvarar för att beställa och bekräfta transaktioner. För att göra detta använder miners specialiserade datorer för att utföra en funktion som kallas [hashing](https://planb.academy/resources/glossary/hash-function). Utan att gå in på detaljerna kring hashing kan man tänka sig att miners tävlar med varandra om att lägga till nya transaktioner i Blockchain, den offentliga Ledger av transaktioner. I Exchange för sitt arbete belönas miners med nyskapade Bitcoin och [transaktionsavgifterna](https://planb.academy/resources/glossary/transaction-fees) för alla transaktioner som behandlas. [Mining](https://planb.academy/resources/glossary/mining)-processen är utformad för att vara svår, konkurrenskraftig och slumpmässig, med endast ett begränsat antal nya Bitcoin som släpps varje år, vilket säkerställer att Supply av Bitcoin är begränsat och att deras värde bibehålls. Utan miners skulle transaktioner inte kunna behandlas.
 
 
 Med tanke på att miners måste konkurrera med varandra för att behandla transaktioner och belönas för detta, minimerar denna konkurrens risken för att en enskild Miner eller enhet kan kontrollera nätverket och ger miners incitament att agera ärligt och följa reglerna. Om en Miner försöker fuska eller bryta mot reglerna riskerar de att förlora sin belöning, så det finns ett starkt incitament att spela enligt reglerna.
@@ -955,10 +955,10 @@ För att förstå hur alla dessa aktörer arbetar tillsammans, låt oss förest�
 #### Initiering av transaktion
 
 
-Varje Bitcoin-transaktion inleds med att avsändaren, i det här fallet Alice, skapar en transaktion som specificerar mottagaren, Bob, och beloppet, 0,00100000 Bitcoin. Den nod som är associerad med Alice:s Wallet sänder sedan transaktionen till nätverket, där noderna bekräftar dess giltighet, och den skickas till miners för bekräftelse.
+Varje Bitcoin-transaktion inleds med att avsändaren, i det här fallet Alice, skapar en transaktion som specificerar mottagaren, Bob, och beloppet, 0,00100000 Bitcoin. Den nod som är associerad med Alice:s [Wallet](https://planb.academy/resources/glossary/wallet) sänder sedan transaktionen till nätverket, där noderna bekräftar dess giltighet, och den skickas till miners för bekräftelse.
 
 
-Vid denna tidpunkt går transaktionen in i vad som kallas Mempool, i huvudsak ett väntrum för transaktioner som är redo att läggas till i Blockchain. Tänk på det som en lista över väntande transaktioner, ungefär som de du ser på ditt kreditkortsutdrag, som har initierats men väntar på att behandlas. När transaktionen har initierats och ligger i Mempool är den nu i händerna på gruvarbetarna.
+Vid denna tidpunkt går transaktionen in i vad som kallas [Mempool](https://planb.academy/resources/glossary/mempool), i huvudsak ett väntrum för transaktioner som är redo att läggas till i Blockchain. Tänk på det som en lista över väntande transaktioner, ungefär som de du ser på ditt kreditkortsutdrag, som har initierats men väntar på att behandlas. När transaktionen har initierats och ligger i Mempool är den nu i händerna på gruvarbetarna.
 
 
 #### Transaktionsbekräftelse
@@ -1052,7 +1052,7 @@ Medan fiatvalutor är föremål för inflation och historiskt har visat sig för
 
 
 - **Bärbar:** Bitcoin, som är digital, möjliggör gränslösa och förmedlingsfria överföringar mellan individer, vilket gör den till ett bekvämt och tillgängligt medium för Exchange. Även om vissa fiatvalutor också erbjuder digitala lösningar, kan de i utvecklingsländer eller krigshärjade länder kämpa för att få tillgång till banktjänster som uppfyller detta behov. Bitcoin:s decentraliserade natur gör den tillgänglig för alla med en internetanslutning, vilket ger ett livskraftigt alternativ till traditionella banksystem i områden med begränsad tillgång till finansiella tjänster.
-- **Delbarhet:** Bitcoin:s extrema delbarhet är en av dess viktigaste fördelar som valuta. Eftersom varje Bitcoin är delbar upp till åtta decimaler är den minsta enheten, en Satoshi, värd en bråkdel av en cent. Beroende på transaktionsmetod, dvs. Layer en eller två, gör detta Bitcoin mycket anpassningsbar till transaktioner av alla storlekar, från små inköp till stora investeringar.
+- **Delbarhet:** Bitcoin:s extrema delbarhet är en av dess viktigaste fördelar som valuta. Eftersom varje Bitcoin är delbar upp till åtta decimaler är den minsta enheten, en [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), värd en bråkdel av en cent. Beroende på transaktionsmetod, dvs. Layer en eller två, gör detta Bitcoin mycket anpassningsbar till transaktioner av alla storlekar, från små inköp till stora investeringar.
 - **Accepterad:** Även om Bitcoin ännu inte accepteras av alla, tyder den ökande användningen av handlare, institutioner och privatpersoner runt om i världen på att den blir alltmer allmänt accepterad som en legitim betalningsform.
 
 
@@ -1120,7 +1120,7 @@ Bitcoin ger handlare oöverträffad kontroll över sina transaktioner, vilket g�
 #### Inflation
 
 
-I slutet av 2022 brottades nästan [hälften av världen] (https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) med tvåsiffrig inflation, vilket gör det till ett angeläget problem. Om inflationen ligger kvar på den här nivån under det kommande decenniet kommer det att leda till en 65-procentig förlust av köpkraft. Bitcoin erbjuder dock nu en utväg för alla. Eftersom det är en verkligt knapp tillgång kan dess värde inte urholkas genom Supply-expansion, vilket ger oss en flykt från de negativa effekterna av att förnedra valutor.
+I slutet av 2022 brottades nästan [hälften av världen](https://Elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/#:~:text=Inflation%20is%20surging%20nearly%20everywhere,digit%20inflation%20rates%20or%20higher.) med tvåsiffrig inflation, vilket gör det till ett angeläget problem. Om inflationen ligger kvar på den här nivån under det kommande decenniet kommer det att leda till en 65-procentig förlust av köpkraft. Bitcoin erbjuder dock nu en utväg för alla. Eftersom det är en verkligt knapp tillgång kan dess värde inte urholkas genom Supply-expansion, vilket ger oss en flykt från de negativa effekterna av att förnedra valutor.
 
 
 #### Flyr från krigshärjade eller instabila länder
@@ -1168,7 +1168,7 @@ I det här avsnittet kommer vi att fördjupa oss i de olika lagren av transaktio
 Bitcoin:s Blockchain är uppbyggd av block, som namnet antyder. Dessa block har en teoretisk maximal storlek på 4 megabyte. den genomsnittliga blockstorleken i skrivande stund ligger på cirka 1,5 MB._ På grund av denna gräns finns det en begränsning för hur många transaktioner Bitcoin kan behandla per sekund, vilket är mellan sju och tio transaktioner per sekund (tps).
 
 
-Därför kan du undra: Hur kan Bitcoin:s Blockchain konkurrera med nätverk som Visa eller Mastercard som har en transaktionshastighet på [1 700 tps] (https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Därför kan du undra: Hur kan Bitcoin:s Blockchain konkurrera med nätverk som Visa eller Mastercard som har en transaktionshastighet på [1 700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Svaret är enkelt. Det är inte att konkurrera med dem.
@@ -1201,7 +1201,7 @@ Bitcoin Blockchain är ett utmärkt alternativ till Layer one-transaktioner. Äv
 Men trots sina fördelar som en Layer en lösning kan Bitcoin också konkurrera med Layer två transaktionsmetoder. Det finns tekniker som är byggda ovanpå Bitcoin-nätverket, såsom Lightning, som gör det möjligt för användare att göra transaktioner nästan omedelbart och för bråkdelar av en cent. Dessa tekniker kan ses som Layer två lösningar för Bitcoin-nätverket. Med detta i åtanke, precis som vårt traditionella monetära system har Layer en och två transaktioner, så har Bitcoin det också.
 
 
-Om du letar efter ett rimligt snabbt (men inte omedelbart), kostnadseffektivt och säkert sätt att skicka en stor summa pengar är Bitcoin Layer one ditt bästa val. Om du däremot är ute efter att göra transaktioner nästan omedelbart och för bråkdelar av en cent, bör du rikta din uppmärksamhet mot några av de tekniker som bygger på Bitcoin, som inkluderar innovationer som [Lightning] (https://lightning.network/).
+Om du letar efter ett rimligt snabbt (men inte omedelbart), kostnadseffektivt och säkert sätt att skicka en stor summa pengar är Bitcoin Layer one ditt bästa val. Om du däremot är ute efter att göra transaktioner nästan omedelbart och för bråkdelar av en cent, bör du rikta din uppmärksamhet mot några av de tekniker som bygger på Bitcoin, som inkluderar innovationer som [Lightning](https://lightning.network/).
 
 
 Bitcoin Lightning Network är en Layer tvåskalig lösning byggd ovanpå Bitcoin Layer en. Den möjliggör nästan omedelbara transaktioner med minimala avgifter, vilket gör mikrotransaktioner och små inköp möjliga.
@@ -1215,7 +1215,7 @@ Låt oss nu fokusera på vad vi ska göra när du har förvärvat några Bitcoin
 ### Säkra din Bitcoin på ett säkert sätt
 
 
-Det som gör Bitcoin revolutionerande är att vi för första gången i historien kan ta egen vårdnad om en digital tillgång. Denna bedrift kan inte överskattas! Precis som vi kan förvara kontanter under kudden kan vi göra samma sak med Bitcoin, men digitalt. Denna nya nivå av kontroll över våra pengar kommer dock med nya ansvarsområden. För att hålla vår Bitcoin säker måste vi lära oss att säkra den på rätt sätt. Detta innebär att vidta åtgärder för att skydda mot förlust, stöld och hackningsförsök.
+Det som gör Bitcoin revolutionerande är att vi för första gången i historien kan ta [egen vårdnad](https://planb.academy/resources/glossary/selfcustody) om en digital tillgång. Denna bedrift kan inte överskattas! Precis som vi kan förvara kontanter under kudden kan vi göra samma sak med Bitcoin, men digitalt. Denna nya nivå av kontroll över våra pengar kommer dock med nya ansvarsområden. För att hålla vår Bitcoin säker måste vi lära oss att säkra den på rätt sätt. Detta innebär att vidta åtgärder för att skydda mot förlust, stöld och hackningsförsök.
 
 
 #### Var du ska förvara din Bitcoin
@@ -1237,10 +1237,10 @@ Det finns också otaliga andra förvaringslösningar för Wallet tillgängliga f
 
 **Plånböcker utan förvaring (även kallad självförvaring)**
 
-Icke-förvaltande plånböcker är en typ av Bitcoin Wallet där du är den enda förmyndaren för dina medel, vilket innebär att du har fullständig kontroll över dina privata nycklar. Privata nycklar är som ett lösenord till din Wallet och används för att signera och auktorisera transaktioner. Utan dem kan du inte komma åt eller överföra din Bitcoin.
+Icke-förvaltande plånböcker är en typ av Bitcoin Wallet där du är den enda förmyndaren för dina medel, vilket innebär att du har fullständig kontroll över dina [privata nycklar](https://planb.academy/resources/glossary/private-key). Privata nycklar är som ett lösenord till din Wallet och används för att signera och auktorisera transaktioner. Utan dem kan du inte komma åt eller överföra din Bitcoin.
 
 
-Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet än förvaltarplånböcker eftersom du är den enda som ansvarar för säkerheten för dina medel. Exempel på icke-förvaltarplånböcker är hårdvaruplånböcker som [Coldcard](https://store.coinkite.com/store/coldcard) och [Trezor](https://trezor.io/), som är fysiska enheter som lagrar dina privata nycklar offline och ger en extra Layer säkerhet. Andra populära icke-frihetsberövande plånböcker är mjukvaruplånböcker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) och [Blockstream Green](https://blockstream.com/Green/), som kan laddas ner och installeras på din dator eller mobila enhet.
+Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet än förvaltarplånböcker eftersom du är den enda som ansvarar för säkerheten för dina medel. Exempel på icke-förvaltarplånböcker är [hårdvaruplånböcker](https://planb.academy/resources/glossary/hardware-wallet) som [Coldcard](https://store.coinkite.com/store/coldcard) och [Trezor](https://trezor.io/), som är fysiska enheter som lagrar dina privata nycklar offline och ger en extra Layer säkerhet. Andra populära icke-frihetsberövande plånböcker är mjukvaruplånböcker som [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home) och [Blockstream Green](https://blockstream.com/Green/), som kan laddas ner och installeras på din dator eller mobila enhet.
 
 
 *Även om vi inte kan rekommendera en specifik Wallet rekommenderar vi starkt att du tar kontroll över din Bitcoin genom egenvårdnad eller samarbetsvårdnad, vilket innebär att du väljer en Wallet som passar dina behov och preferenser. Det är viktigt att göra grundliga efterforskningar innan du bestämmer dig för en Wallet för att säkerställa att den uppfyller dina krav på säkerhet och användbarhet.*
@@ -1255,7 +1255,7 @@ Icke-förvaltarplånböcker erbjuder en högre nivå av säkerhet och integritet
 När du väl har bestämt dig för en Wallet är det roliga inte över än. Nu är det dags att minimera risken för förlust. För att skydda din Bitcoin ska du överväga dessa steg efter att du har valt din Wallet:
 
 
-1. Först och främst ska du säkerhetskopiera din Wallet när du tar egen vårdnad. Hårdvaruplånböcker levereras med en återställningsfras seed, en uppsättning ord som kan användas för att återställa dina privata nycklar om din enhet förloras eller skadas. Skapa en fysisk kopia, t.ex. en seed metallplatta, av denna [seed-fras] (https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) och förvara den på en säker plats. Det är viktigt att hålla denna seed-fras för återställning säker. Dela den ALDRIG med någon.
+1. Först och främst ska du säkerhetskopiera din Wallet när du tar egen vårdnad. Hårdvaruplånböcker levereras med en [återställningsfras](https://planb.academy/resources/glossary/recovery-phrase) seed, en uppsättning ord som kan användas för att återställa dina privata nycklar om din enhet förloras eller skadas. Skapa en fysisk kopia, t.ex. en seed metallplatta, av denna [seed-fras](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) och förvara den på en säker plats. Det är viktigt att hålla denna seed-fras för återställning säker. Dela den ALDRIG med någon.
 
 2. När du skyddar en betydande mängd Bitcoin som överstiger tröskeln som du inte vill förlora, är det viktigt att utforska alternativ för fastighetsplanering för den oförutsedda händelsen av din bortgång. Detta säkerställer att din familj och dina nära och kära kan få tillgång till och hantera din Bitcoin effektivt.
 
@@ -1279,7 +1279,7 @@ Och om du använder en Exchange:
 2. Aktivera tvåfaktorsautentisering (2FA) när det är möjligt. Detta ger en extra Layer av säkerhet genom att kräva en kod från din telefon eller hårdvaruenhet utöver ditt lösenord.
 
 
-Om du fortfarande är osäker rekommenderar vi starkt att du kollar in Ben från [BTCsessions] (https://www.youtube.com/c/BTCSessions) på YouTube.
+Om du fortfarande är osäker rekommenderar vi starkt att du kollar in Ben från [BTCsessions](https://www.youtube.com/c/BTCSessions) på YouTube.
 
 
 Kom ihåg att med stor makt kommer stort ansvar, och att ta sig tid att säkra din Bitcoin på rätt sätt är viktigt för att skydda din ekonomiska framtid.
@@ -1362,7 +1362,7 @@ Eftersom Bitcoin är en digital marknad är den alltid öppen för affärer, 24 
 Det är lätt att förbise dessa fakta tills man börjar räkna på det.
 
 
-För det första anses [en fjärdedel] (https://www.worldbank.org/en/publication/globalfindex) av alla människor i världen sakna banktillgång. Det innebär att det finns över en miljard människor som inte kan göra digitala transaktioner, än mindre spara på ett säkert sätt.
+För det första anses [en fjärdedel](https://www.worldbank.org/en/publication/globalfindex) av alla människor i världen sakna banktillgång. Det innebär att det finns över en miljard människor som inte kan göra digitala transaktioner, än mindre spara på ett säkert sätt.
 
 
 Och för det andra, med tanke på att det finns 8760 timmar per år och att den genomsnittliga banken bara har öppet mellan kl. 10.00 och 17.00 måndag till lördag och är stängd på söndagar och allmänna helgdagar, är den genomsnittliga banken bara öppen under 2100 timmar per år. Det är bara 24 procent av tiden!
@@ -1374,7 +1374,7 @@ Så förutom de miljarder människor som inte har tillgång till banktjänster o
 Till råga på allt är alla våra medel, såvida vi inte tar till kontanter, föremål för traditionella bankers begränsningar. Detta utgör en betydande risk om vår regering skulle införa en överdriven bankreform, vilket vi såg under den grekiska regeringens konkurs 2015.
 
 
-Under krisen stängdes bankerna, uttag i bankomater begränsades till endast 67 USD per dag och trots allt tog regeringen ut en betydande [del] (https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) av privatpersoners banktillgodohavanden för att finansiera sin finanspolitiska oansvarighet.
+Under krisen stängdes bankerna, uttag i bankomater begränsades till endast 67 USD per dag och trots allt tog regeringen ut en betydande [del](https://cointelegraph.com/news/greek-banks-plan-for-bail-in-withdrawals-from-consumer-deposits) av privatpersoners banktillgodohavanden för att finansiera sin finanspolitiska oansvarighet.
 
 
 Även om kontanter kan vara en lösning på en sådan kris är det inte en hållbar lösning på lång sikt att förlita sig på fysisk valuta i en värld där digitala transaktioner är en nödvändighet.
@@ -1530,7 +1530,7 @@ Nu är det värt att notera att inte alla stablecoins är skapade lika. Vissa fu
 Till exempel, eftersom dessa stablecoins inte bara förlitar sig på en centraliserad emittent utan också på finansiella institutioner för att hantera valutan som hålls i reserver, om någon av dessa enheter skulle misslyckas, finns det en potential för en minskning av stablecoinens värde och allmänhetens förlust av förtroende för emittenten.
 
 
-Tänk på USDC, den näst mest populära stablecoinen efter USDt. När Silicon Valley Bank [kollapsade] (https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) i mars 2023 förlorade USDC tillfälligt sin 1:1-peg till USD och handlades så lågt som [0,88 USD] (https://www.coingecko.com/en/coins/usd-coin). Det är en 12-procentig förlust av köpkraft över en natt, vilket är oroande för något som är tänkt att vara stabilt i pris.
+Tänk på USDC, den näst mest populära stablecoinen efter USDt. När Silicon Valley Bank [kollapsade](https://www.circle.com/blog/an-update-on-usdc-and-silicon-valley-bank) i mars 2023 förlorade USDC tillfälligt sin 1:1-peg till USD och handlades så lågt som [0,88 USD](https://www.coingecko.com/en/coins/usd-coin). Det är en 12-procentig förlust av köpkraft över en natt, vilket är oroande för något som är tänkt att vara stabilt i pris.
 
 Anledningen till detta prisfall var att Circle, utgivaren av USDC, hade förvarat en del av sina reserver hos Silicon Valley Bank. När folk fick nys om detta började de därför sälja sina USDC-innehav av rädsla för att Circle inte skulle kunna uppfylla alla inlösenbegäranden. Lyckligtvis för Circle ingrep Federal Reserve och Federal Deposit Insurance Corporation (FDIC) och garanterade alla bankens insättningar. Detta innebar att Circle inte skulle förlora sina reserver och USDC återhämtade sig snabbt till 1 USD. Det kunde dock lätt ha gått åt andra hållet och USDC skulle ha blivit en relik från det förflutna. Med detta i åtanke är det viktigt att undersöka de olika stablecoins som finns tillgängliga innan man väljer att investera eller handla.
 
@@ -1604,7 +1604,7 @@ Denna metod skulle säkerställa att priset på AlgoCoin förblir stabilt över 
 Nu är det viktigt att notera att det inte är så trivialt som det kan tyckas att minska den cirkulerande Supply av en token, till exempel genom att köpa den automatiskt till marknadspris eller genom att förstöra några Supply med avgifter eller lagringskostnader, allt utan att skada dess nytta och därmed dess efterfrågan. När algoritmiska stablecoins förlitar sig på komplexa regelsystem för att upprätthålla sin prisstabilitet, gör detta dem benägna att tekniska och finansiella sårbarheter. Vilket, om du följer utrymmet, utnyttjas regelbundet.
 
 
-I maj 2022 utnyttjade vissa handlare en sårbarhet i TerraUSD (UST), en av de största algoritmiska stablecoins. Som ett resultat sjönk UST:s värde från 18,7 miljarder USD till under 100 miljoner USD inom en månad, vilket motsvarar en häpnadsväckande nedgång på [99,5 %] (https://www.coingecko.com/en/coins/terraclassicusd).
+I maj 2022 utnyttjade vissa handlare en sårbarhet i TerraUSD (UST), en av de största algoritmiska stablecoins. Som ett resultat sjönk UST:s värde från 18,7 miljarder USD till under 100 miljoner USD inom en månad, vilket motsvarar en häpnadsväckande nedgång på [99,5 %](https://www.coingecko.com/en/coins/terraclassicusd).
 
 
 Med detta i åtanke, även om algoritmiska stablecoins har fått uppmärksamhet för sin potential att revolutionera hur vi tänker på stabilt värde i den digitala världen, är det viktigt att notera att de fortfarande är ett relativt nytt koncept och har varit benägna att bugga och sårbarheter. Eftersom de bara delvis, eller ibland, inte backas upp av fysiska tillgångar och är starkt beroende av utvecklare och kodning, liksom av känsliga försök till finansiell teknik, rekommenderar vi att du är försiktig och gör grundliga efterforskningar innan du använder några algoritmiska stablecoins.
@@ -1665,12 +1665,12 @@ Du undrar säkert: Vad är problemet här?
 Att skicka tillbaka pengar utomlands via en penningöverföringstjänst som Western Union är inte gratis. Det kostar pengar, och inte bara lite, utan en betydande summa.
 
 
-Att skicka 100 USD tillbaka till Tonga innebär en kostnad på [12,61 USD] (https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus en ytterligare förlust på 8,60 USD på grund av den ofördelaktiga Exchange-kursen. Detta innebär att mer än 21 % av det totala belopp som skickas går till Western Union, ett multinationellt företag. Följden blir att en ansenlig summa som kunde ha hamnat i händerna på förtjänta tonganska familjer hamnar i fickorna på leverantören av penningöverföringstjänster.
+Att skicka 100 USD tillbaka till Tonga innebär en kostnad på [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus en ytterligare förlust på 8,60 USD på grund av den ofördelaktiga Exchange-kursen. Detta innebär att mer än 21 % av det totala belopp som skickas går till Western Union, ett multinationellt företag. Följden blir att en ansenlig summa som kunde ha hamnat i händerna på förtjänta tonganska familjer hamnar i fickorna på leverantören av penningöverföringstjänster.
 
 Kan du föreställa dig fördelarna med att få 21% extra till din inkomst?
 
 
-Med tanke på att Tongas BNP var [469] (https://tradingeconomics.com/tonga/gdp) miljoner dollar 2021 och 45,5 % av den kommer från penningförsändelser, innebär de orimliga avgifterna som tas ut för att skicka pengar hem att Tonga går miste om ytterligare 45,2 miljoner dollar. Detta belopp skulle innebära en ökning av BNP med 9,6 % om det inte vore för dessa avgifter.
+Med tanke på att Tongas BNP var [469](https://tradingeconomics.com/tonga/gdp) miljoner dollar 2021 och 45,5 % av den kommer från penningförsändelser, innebär de orimliga avgifterna som tas ut för att skicka pengar hem att Tonga går miste om ytterligare 45,2 miljoner dollar. Detta belopp skulle innebära en ökning av BNP med 9,6 % om det inte vore för dessa avgifter.
 
 
 Och om du trodde att Tonga var ensamt om detta, så kan du lita på det.
@@ -1691,7 +1691,7 @@ Det är en häpnadsväckande summa pengar som nu finns i händerna på stora ame
 Till skillnad från traditionella penningöverföringstjänster är USDt en digital valuta som, i syfte att genomföra transaktioner, rör sig på Blockchain:s räls. Eftersom den inte kräver mellanhänder som banker eller penningöverföringstjänster är avgifterna betydligt lägre. Eftersom transaktionerna utförs på en offentlig Blockchain säkerställs dessutom större transparens och integritet. Detta innebär att individer kan skicka pengar till sina nära och kära i andra länder nästan omedelbart, säkert och till en mycket lägre kostnad.
 
 
-Till exempel har USDt, som främst fungerar på Ethereum- och Tron-blockkedjorna, i genomsnitt [\ $ 1,02] (https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) respektive [\ $ 0,000005] (https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaktionsavgifter under det senaste året, oavsett vilket belopp som skickas - avgiften förblir densamma oavsett om du skickar \ $ 5 eller \ $ 10 000. Och just nu arbetar utvecklare med [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) som bygger på Bitcoin:s Lightning Network, vilket skulle ge avgifter på cirka [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
+Till exempel har USDt, som främst fungerar på Ethereum- och Tron-blockkedjorna, i genomsnitt [\ $ 1,02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) respektive [\ $ 0,000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions) transaktionsavgifter under det senaste året, oavsett vilket belopp som skickas - avgiften förblir densamma oavsett om du skickar \ $ 5 eller \ $ 10 000. Och just nu arbetar utvecklare med [stablecoins](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/) som bygger på Bitcoin:s Lightning Network, vilket skulle ge avgifter på cirka [0,0003 USD](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption).
 
 
 Med USDt kan tonganer, liksom alla andra som skickar pengar tillbaka till sina familjer, ta emot mycket mer av sina penningförsändelser, vilket kan förbättra deras livskvalitet avsevärt och bidra till den ekonomiska utvecklingen i deras land.
@@ -1898,10 +1898,10 @@ Slutligen ligger Bitcoin:s totala marknadsvärde på knappt 550 miljarder US-dol
 
 
 
-- Global aktiemarknad: [\$124,4 biljoner] (https://www.sifma.org/resources/research/fact-book/)
+- Global aktiemarknad: [\$124,4 biljoner](https://www.sifma.org/resources/research/fact-book/)
 - Global marknad för räntebärande värdepapper/obligationer: \126,9 biljoner dollar
-- Global fastighetsmarknad: [\$326,5 biljoner] (https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
-- Den globala derivatmarknaden: Uppskattad till över [1 biljon dollar] (https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
+- Global fastighetsmarknad: [\$326,5 biljoner](https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate.html)
+- Den globala derivatmarknaden: Uppskattad till över [1 biljon dollar](https://www.investopedia.com/ask/answers/052715/how-big-derivatives-market.asp)
 
 
 Sammantaget, när människor kallar Bitcoin för en bubbla, antingen:
@@ -1927,7 +1927,7 @@ För det andra är volatilitet ett naturligt fenomen när det gäller införande
 Bitcoin:s volatilitet är dessutom inte unik. Traditionella finansmarknader upplever också fluktuationer i tillgångspriser, såsom aktiemarknaden, råvarumarknaden och till och med valutor. Faktum är att volatiliteten för Bitcoin förmodligen är mindre allvarlig än många andra tillgångar.
 
 
-Slutligen missar argumentet att Bitcoin är alltför volatil en viktig aspekt: dess värdering är för närvarande knuten till fiatvaluta. De observerade fluktuationerna i Bitcoin:s värde drivs främst av den inneboende instabiliteten i den underliggande måttenheten, såsom dollarn eller andra valutor. Som Lawrence White träffande påpekar i sin bok [Better Money] (https://amzn.to/3NZnCTm), beror dessa prissvängningar till stor del på att människor söker en säkring mot inflation. Annorlunda uttryckt, i vårt fraktionella reservsystem som styrs av centralbanker, har de som har maktpositioner kapacitet att ändra Supply för pengar i omlopp. När de bedriver penningpolitik, till exempel kvantitativa lättnader, stiger därför tillgångspriserna, och när de stramar åt faller priserna. Denna "whipsaw"-effekt är en biprodukt av ett centraliserat monetärt system och skapar osäkerhet och instabilitet på finansmarknaderna. Följaktligen är det missvisande att bedöma Bitcoin:s volatilitet baserat på dess beteende under en fiatstandard. I grund och botten belyser det bara den inneboende volatiliteten hos fiatvalutor.
+Slutligen missar argumentet att Bitcoin är alltför volatil en viktig aspekt: dess värdering är för närvarande knuten till fiatvaluta. De observerade fluktuationerna i Bitcoin:s värde drivs främst av den inneboende instabiliteten i den underliggande måttenheten, såsom dollarn eller andra valutor. Som Lawrence White träffande påpekar i sin bok [Better Money](https://amzn.to/3NZnCTm), beror dessa prissvängningar till stor del på att människor söker en säkring mot inflation. Annorlunda uttryckt, i vårt fraktionella reservsystem som styrs av centralbanker, har de som har maktpositioner kapacitet att ändra Supply för pengar i omlopp. När de bedriver penningpolitik, till exempel kvantitativa lättnader, stiger därför tillgångspriserna, och när de stramar åt faller priserna. Denna "whipsaw"-effekt är en biprodukt av ett centraliserat monetärt system och skapar osäkerhet och instabilitet på finansmarknaderna. Följaktligen är det missvisande att bedöma Bitcoin:s volatilitet baserat på dess beteende under en fiatstandard. I grund och botten belyser det bara den inneboende volatiliteten hos fiatvalutor.
 
 
 Däremot verkar Bitcoin i ett decentraliserat nätverk, där Supply är fast och inte kan manipuleras av en central myndighet. Även om detta innebär att det kan förekomma kortsiktig volatilitet, kommer knappheten och förutsägbarheten hos Bitcoin:s Supply sannolikt att minska volatiliteten och öka stabiliteten på lång sikt.
@@ -2021,13 +2021,13 @@ Men Bitcoin konkurrerar också med Layer två transaktionsmetoder, med tekniker 
 Trots de många studierna som avslöjar falska påståenden kritiseras Bitcoin fortfarande ofta för att främst användas för olaglig verksamhet. Återigen kunde detta inte vara längre från sanningen.
 
 
-En [studie] (https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) som genomfördes av den tidigare vice chefen för CIA fann att "breda generaliseringar om användningen av Bitcoin i olaglig finansiering är betydligt överskattade" Faktum är att sedan 2016 har mindre än 1 % av Bitcoin:s totala transaktionsvolym använts för olaglig verksamhet. Som jämförelse kan nämnas att "vissa uppskattar den svarta ekonomin till 11-12 procent av USA:s bruttonationalprodukt (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", varav merparten möjliggörs med hjälp av US-dollar.
+En [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) som genomfördes av den tidigare vice chefen för CIA fann att "breda generaliseringar om användningen av Bitcoin i olaglig finansiering är betydligt överskattade" Faktum är att sedan 2016 har mindre än 1 % av Bitcoin:s totala transaktionsvolym använts för olaglig verksamhet. Som jämförelse kan nämnas att "vissa uppskattar den svarta ekonomin till 11-12 procent av USA:s bruttonationalprodukt (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", varav merparten möjliggörs med hjälp av US-dollar.
 
 
 Och enligt en rapport från Chainalysis 2020 står olaglig aktivitet endast för cirka [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) av alla Bitcoin-transaktioner.
 
 
-Men även med dessa bevis fortsätter makthavare att göra vilseledande uttalanden, till exempel USA:s finansminister Janet Yellen [som hävdar] (https://home.treasury.gov/news/press-releases/jy0023), "Kryptovalutor har använts för att tvätta vinsterna från narkotikahandlare på nätet; de har varit ett verktyg för att finansiera terrorism."
+Men även med dessa bevis fortsätter makthavare att göra vilseledande uttalanden, till exempel USA:s finansminister Janet Yellen [som hävdar](https://home.treasury.gov/news/press-releases/jy0023), "Kryptovalutor har använts för att tvätta vinsterna från narkotikahandlare på nätet; de har varit ett verktyg för att finansiera terrorism."
 
 
 Även om otaliga studier motbevisar sådana falska påståenden är det tydligt att vissa individer har en agenda och är fast beslutna att konstruera negativa och ofaktuella berättelser kring Bitcoin. Verkligheten är att Bitcoin har potential att åstadkomma betydande positiva förändringar i världen, från att ge tillgång till finansiella tjänster för dem som saknar bank till att minska transaktionskostnaderna och öka den ekonomiska friheten.
@@ -2147,7 +2147,7 @@ _**Figur:** Fackla [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 Men med Bitcoin har ingenjörer kommit på ett sätt att utnyttja denna annars bortkastade naturgas genom att omvandla den till energi för att driva Bitcoin-gruvbrytare. Detta genombrott ger inte bara en extra intäktsström för dessa företag utan har också betydande miljöfördelar. Genom att utnyttja fackelgas till generate elektricitet för Bitcoin Mining kan dessa företag [minska utsläppen](https://batcoinz.com/quantifying-the-impact-of-using-stranded-methane-on-the-Bitcoin-network/) som annars skulle förorena luften vi andas. I grund och botten är Bitcoin koldioxidnegativt i detta scenario genom att erbjuda ett sätt att minska utsläppen och göra produktiv användning av tidigare kasserade energikällor.
 
 
-Sammantaget, med tanke på att Bitcoin gruvarbetare uppmuntras att söka efter kostnadseffektiva energikällor, som ofta gynnar förnybar energi, har Bitcoin en av de [mest hållbara] (https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) energimixarna bland industrier och till och med länder. Så nästa gång någon uttrycker oro över Bitcoin:s miljöavtryck kan du med säkerhet kontra med det faktum att Bitcoin ligger i framkant när det gäller hållbara energimetoder.
+Sammantaget, med tanke på att Bitcoin gruvarbetare uppmuntras att söka efter kostnadseffektiva energikällor, som ofta gynnar förnybar energi, har Bitcoin en av de [mest hållbara](https://bitcoinminingcouncil.com/wp-content/uploads/2021/07/2021.07.01-BMC-Q2-2021-Materials.pdf) energimixarna bland industrier och till och med länder. Så nästa gång någon uttrycker oro över Bitcoin:s miljöavtryck kan du med säkerhet kontra med det faktum att Bitcoin ligger i framkant när det gäller hållbara energimetoder.
 
 
 Och till sist..
@@ -2159,7 +2159,7 @@ Och till sist..
 Vi vill börja med att säga: **Allt förbrukar energi**, vare sig vi är medvetna om det eller inte. Även en enkel handling, som att springa med hunden, kräver att du och din lurviga följeslagare får i er bränsle. Både du och din hund är energikonsumenter.
 
 
-Nu är inte vår avsikt att kritisera andra industrier för deras energiförbrukning eftersom, som diskuterats ovan, energianvändning innebär det värde som människor finner i de tjänster eller produkter som tillhandahålls. Det är dock viktigt att sätta Bitcoin:s energianvändning i perspektiv. Tänk på följande [jämförelser] (https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
+Nu är inte vår avsikt att kritisera andra industrier för deras energiförbrukning eftersom, som diskuterats ovan, energianvändning innebär det värde som människor finner i de tjänster eller produkter som tillhandahålls. Det är dock viktigt att sätta Bitcoin:s energianvändning i perspektiv. Tänk på följande [jämförelser](https://bitcoinmagazine.com/business/Bitcoin-energy-use-compare-industry):
 
 
 
@@ -2226,7 +2226,7 @@ En annan vanlig kritik är att stablecoins ofta inte är helt uppbackade av kont
 För det första investerar stablecoin-utgivare ofta i kontantekvivalenter snarare än att hålla kontanter, eftersom kontanter kan ha en betydande inverkan på stablecoin-utgivarens balansräkning. Med nuvarande bankregler är alla tillgångar i balansräkningen, såsom kontanter, föremål för potentiell förlust i händelse av konkurs, och Federal Deposit Insurance Corporation (FDIC) tillhandahåller endast försäkringsskydd för upp till 250 000 USD, med belopp som överstiger denna gräns i riskzonen. För att minska denna exponering investerar stablecoins som syftar till att skydda användare mot oförutsedda händelser ofta i statligt utfärdade statsskuldväxlar. Genom att investera i tillgångar som statsskuldväxlar får de inte bara generate en avkastning, dessa tillgångar kan även anses vara värdepapper utanför balansräkningen. Som ett resultat kan stablecoin-emittenter skydda sina medel i händelse av bankkonkurs, eftersom dessa värdepapper kan återlämnas till kunden. En övertygande illustration av detta inträffade i februari/mars 2023 och involverade Silicon Valley Bank (SVB) och Circle, företaget bakom stablecoinen USDC. Vid den tidpunkten hade Circle en betydande [3,3 miljarder dollar](https://www.coindesk.com/business/2023/03/11/circle-confirms-33b-of-usdcs-cash-reserves-stuck-at-failed-silicon-valley-bank/#:~:text=Stablecoin%20issuer%20Circle%20said%20late,reserves%20backing%20Circle's%20stablecoin%20USDC.) i kontanter deponerade hos SVB. Och sedan gick SVB i konkurs. För att avvärja en finansiell katastrof ingrep FDIC för att rädda Circle och andra drabbade företag genom att täcka de saknade medlen. Detta är dock inte det normala tillvägagångssättet. Denna händelse utan motstycke var den första i historien där en sådan situation hade uppstått. Utan FDIC:s ingripande hade Circle kanske också gått i konkurs.
 
 
-För det andra kritiserar vi ofta utgivare av stablecoin för att investera i icke-kontanta tillgångar, men vårt befintliga banksystem fungerar på basis av fraktionerade reserver. Enkelt uttryckt har bankerna inte tillräckliga reserver för att möta kundernas krav på uttag. Om en betydande del av landets befolkning skulle ta ut sina insättningar skulle banksektorn snabbt kollapsa. Faktum är att sedan 2020 har reservkravet i USA varit satt till [noll] (https://www.federalreserve.gov/monetarypolicy/reservereq.htm), vilket innebär att bankerna inte är skyldiga att behålla **INGEN** kundinsättningar.
+För det andra kritiserar vi ofta utgivare av stablecoin för att investera i icke-kontanta tillgångar, men vårt befintliga banksystem fungerar på basis av fraktionerade reserver. Enkelt uttryckt har bankerna inte tillräckliga reserver för att möta kundernas krav på uttag. Om en betydande del av landets befolkning skulle ta ut sina insättningar skulle banksektorn snabbt kollapsa. Faktum är att sedan 2020 har reservkravet i USA varit satt till [noll](https://www.federalreserve.gov/monetarypolicy/reservereq.htm), vilket innebär att bankerna inte är skyldiga att behålla **INGEN** kundinsättningar.
 
 
 Vi vill vara tydliga. Denna observation innebär inte att vi bör bortse från oro för att stablecoins ersätter kontantreserver för tillgångar som kan minska i värde, vilket potentiellt destabiliserar stablecoin. Istället bör vi erkänna dubbelmoralen mellan traditionell och modern kryptografisk finansiering.
@@ -2268,10 +2268,10 @@ Sammanfattningsvis, nästa gång en stablecoin handlas över eller under sitt av
 För att bemöta missuppfattningen att stablecoins kan frysa dina medel på grund av sin centraliserade natur är det viktigt att betona skillnaden mellan centraliserade och decentraliserade enheter, var och en med sina egna fördelar och nackdelar. Även om vi starkt förespråkar decentraliserade tillgångar som Bitcoin, betyder det inte att centraliserade stablecoins saknar värde eller fördelar.
 
 
-En av de främsta fördelarna med centralisering är möjligheten att ingripa när det ligger i användarnas bästa intresse och systemets övergripande stabilitet. Även om det är sant har emittenter av stablecoins potential att frysa medel. I stort sett i alla fall används detta inte som en skadlig attack på stablecoin-innehavaren. Istället är det i samband med brottsbekämpning för att skydda konsumenterna. Ett anmärkningsvärt exempel är fallet med FTX Exchange-kollapsen. I samarbete med brottsbekämpande myndigheter frös Tether USDt till ett värde av [46 miljoner dollar] (https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) för att skydda konsumenternas medel.
+En av de främsta fördelarna med centralisering är möjligheten att ingripa när det ligger i användarnas bästa intresse och systemets övergripande stabilitet. Även om det är sant har emittenter av stablecoins potential att frysa medel. I stort sett i alla fall används detta inte som en skadlig attack på stablecoin-innehavaren. Istället är det i samband med brottsbekämpning för att skydda konsumenterna. Ett anmärkningsvärt exempel är fallet med FTX Exchange-kollapsen. I samarbete med brottsbekämpande myndigheter frös Tether USDt till ett värde av [46 miljoner dollar](https://www.coindesk.com/business/2022/11/10/tether-freezes-46m-of-usdt-following-law-enforcement-request/) för att skydda konsumenternas medel.
 
 
-Ett annat exempel som visar på fördelarna med centraliserade ingripanden inträffade efter [KuCoin-hacket] (https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) i september 2020. Tether frös USDt till ett värde av cirka 35 miljoner USDt för att förhindra att hackare drog nytta av sin olagliga verksamhet. Dessa exempel belyser hur centraliserade stablecoins, i vissa scenarier, snabbt kan reagera på illvilliga aktörer och skydda sina användares intressen.
+Ett annat exempel som visar på fördelarna med centraliserade ingripanden inträffade efter [KuCoin-hacket](https://cointelegraph.com/news/tether-freezes-150-million-in-usdt) i september 2020. Tether frös USDt till ett värde av cirka 35 miljoner USDt för att förhindra att hackare drog nytta av sin olagliga verksamhet. Dessa exempel belyser hur centraliserade stablecoins, i vissa scenarier, snabbt kan reagera på illvilliga aktörer och skydda sina användares intressen.
 
 
 Med detta i åtanke, medan vi prioriterar Bitcoin för långsiktigt sparande på grund av avsaknaden av mellanhänder eller individer som kan utnyttja nätverket, har centraliserade stablecoins fortfarande flera fördelar, dvs. medan stablecoins centraliserade natur möjliggör potentiell frysning av medel, kan denna egenskap vara ett värdefullt verktyg för att bekämpa olaglig verksamhet och skydda användare.
@@ -2318,17 +2318,17 @@ I slutändan ligger framtiden för decentraliserad finansiering hos dem som är 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-I dagens globaliserade värld är tillgång till finansiella tjänster en kritisk komponent för ekonomiskt deltagande och oberoende. Trots detta är alltför många människor fortfarande utestängda från det traditionella banksystemet, och det är ofta kvinnor som drabbas hårdast av denna utestängning. Det är chockerande att trots att en onödig [en fjärdedel] (https://www.worldbank.org/en/publication/globalfindex) av världens befolkning saknar tillgång till banktjänster, saknar [36,5%] (https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnorna i länder som Saudiarabien tillgång till grundläggande banktjänster, vilket hindrar dem från att fullt ut delta i landets ekonomi och samhälle.
+I dagens globaliserade värld är tillgång till finansiella tjänster en kritisk komponent för ekonomiskt deltagande och oberoende. Trots detta är alltför många människor fortfarande utestängda från det traditionella banksystemet, och det är ofta kvinnor som drabbas hårdast av denna utestängning. Det är chockerande att trots att en onödig [en fjärdedel](https://www.worldbank.org/en/publication/globalfindex) av världens befolkning saknar tillgång till banktjänster, saknar [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) av kvinnorna i länder som Saudiarabien tillgång till grundläggande banktjänster, vilket hindrar dem från att fullt ut delta i landets ekonomi och samhälle.
 
 
 Här är bara några exempel på de förhållanden som kvinnor runt om i världen får utstå än idag:
 
 
-1. Restriktioner för att öppna bankkonton: I [72] (https://www3.weforum.org/docs/WEF_GGGR_2020.pdf) länder världen över får kvinnor inte öppna bankkonton i sitt eget namn. Detta innebär att de inte kan få tillgång till finansiella tjänster, spara pengar eller ta kontroll över sina ekonomiska liv.
+1. Restriktioner för att öppna bankkonton: I [72](https://www3.weforum.org/docs/WEF_GGGR_2020.pdf) länder världen över får kvinnor inte öppna bankkonton i sitt eget namn. Detta innebär att de inte kan få tillgång till finansiella tjänster, spara pengar eller ta kontroll över sina ekonomiska liv.
 
 2. Beroende av manliga släktingar: I många patriarkala samhällen är kvinnor beroende av manliga släktingar för ekonomiskt stöd. Det innebär att de inte kan fatta egna ekonomiska beslut och att de ofta är utlämnade till sina manliga släktingar. I Afghanistan måste kvinnor till exempel ofta förlita sig på manliga familjemedlemmar för att få ekonomiskt stöd, och det är inte säkert att de kan få tillgång till finansiella tjänster utan tillstånd från en manlig förmyndare.
 
-3. Begränsningar i arbetslivet: I vissa länder får kvinnor inte arbeta utanför hemmet, vilket gör det svårt för dem att uppnå ekonomiskt oberoende. I till exempel Syrien, Irak, Afghanistan, Algeriet, Palestina, Jordanien och Iran utgör kvinnor endast mellan [15-18%] (https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) av arbetskraften.
+3. Begränsningar i arbetslivet: I vissa länder får kvinnor inte arbeta utanför hemmet, vilket gör det svårt för dem att uppnå ekonomiskt oberoende. I till exempel Syrien, Irak, Afghanistan, Algeriet, Palestina, Jordanien och Iran utgör kvinnor endast mellan [15-18%](https://www.worldatlas.com/articles/countries-where-women-are-least-likely-to-join-the-labor-force.html) av arbetskraften.
 
 4. Avsaknad av äganderätt: Det finns fortfarande [75](https://blogs.worldbank.org/opendata/where-world-do-women-still-face-legal-barriers-own-and-administer-assets) länder i världen där kvinnor inte har äganderätt, vilket innebär att de är begränsade i sin möjlighet att äga mark eller andra tillgångar. Detta gör det svårt för dem att starta företag eller få tillgång till krediter, eftersom de inte har några säkerheter att erbjuda. I vissa delar av Indien är det till exempel inte tillåtet för kvinnor att äga egendom, och de kanske inte kan få tillgång till krediter utan tillstånd från en manlig släkting.
 
@@ -2345,10 +2345,10 @@ Låt oss titta på ett sådant exempel på hur Bitcoin har förändrat kvinnors 
 Afghanistan är ett land som har plågats av konflikter i årtionden, och situationen för kvinnorna i landet är särskilt allvarlig. Talibanernas förtryckarregim, som styrde mellan 1996 och 2001, berövade kvinnor deras grundläggande rättigheter, inklusive rätten till utbildning och rätten att arbeta. Även efter talibanernas fall står kvinnor i Afghanistan inför betydande utmaningar, bland annat begränsad tillgång till utbildning och arbetstillfällen samt brist på ekonomiskt oberoende.
 
 
-Under de senaste åren har Bitcoin dock visat sig vara ett kraftfullt verktyg för ekonomisk egenmakt, särskilt för kvinnor som ofta är marginaliserade. En person som har dragit nytta av Bitcoin:s potential är [Roya Mahboob] (https://twitter.com/royamahboob), en afghansk entreprenör som har använt den digitala valutan för att hjälpa kvinnor i sitt land att få tillgång till finansiella tjänster och återfå sin värdighet.
+Under de senaste åren har Bitcoin dock visat sig vara ett kraftfullt verktyg för ekonomisk egenmakt, särskilt för kvinnor som ofta är marginaliserade. En person som har dragit nytta av Bitcoin:s potential är [Roya Mahboob](https://twitter.com/royamahboob), en afghansk entreprenör som har använt den digitala valutan för att hjälpa kvinnor i sitt land att få tillgång till finansiella tjänster och återfå sin värdighet.
 
 
-Medan världen med fasa såg på när talibanerna tog kontroll över Afghanistan [1996] (https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), levde den unga flickan Roya mitt i konfliktens centrum. Bara sju år gammal hamnade hon mitt i krigets tumult och osäkerhet när hennes hemstad invaderades och ockuperades av talibanerna. Trots de faror och motgångar hon utsattes för, och trots att hon inte kunde gå i skolan, vägrade Roya att låta sig besegras. Istället vände hon sig till utbildning som ett sätt att övervinna de begränsningar som hennes omständigheter medförde för henne.
+Medan världen med fasa såg på när talibanerna tog kontroll över Afghanistan [1996](https://bitcoinmagazine.com/culture/Bitcoin-financial-freedom-in-afghanistan#:~:text=She%20and%20the%20women%20liked,privacy%20and%20peace%20of%20mind.%E2%80%9D), levde den unga flickan Roya mitt i konfliktens centrum. Bara sju år gammal hamnade hon mitt i krigets tumult och osäkerhet när hennes hemstad invaderades och ockuperades av talibanerna. Trots de faror och motgångar hon utsattes för, och trots att hon inte kunde gå i skolan, vägrade Roya att låta sig besegras. Istället vände hon sig till utbildning som ett sätt att övervinna de begränsningar som hennes omständigheter medförde för henne.
 
 
 ![image](assets/en/005.webp)

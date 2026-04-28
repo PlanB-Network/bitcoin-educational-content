@@ -1,0 +1,8 @@
+question: Jaký matematický vztah musí v procesu ověřování podpisu ECDSA platit, aby byl podpis považován za platný?
+answer: Souřadnice x UG + VP se musí rovnat R, kde U = Z/S a V = R/S
+wrong_answers:
+  - Souřadnice y UG + VP se musí rovnat S, kde U = R/Z a V = S/Z
+  - Souřadnice x KG + ZP se musí rovnat S, kde K je nonce a Z je hash
+  - Součet R + S se musí rovnat souřadnici x bodu veřejného klíče P
+explanation: |
+  Ověření ECDSA funguje tak, že se rekonstruuje původní bod KG pomocí rovnice UG + VP, kde U = Z/S (hash dělený S) a V = R/S. Pokud se x-ová souřadnice tohoto rekonstruovaného bodu rovná R z podpisu, ověření proběhne úspěšně. Tento matematický vztah umožňuje ověření bez znalosti soukromého klíče nebo nonce K, protože algebra rekonstruuje KG nepřímo prostřednictvím složek veřejného klíče a podpisu.

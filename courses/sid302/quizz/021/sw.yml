@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya biashara ambayo muda wa malipo wa dakika 2 wa Liquid hutoa kuliko mifumo ya kifedha ya jadi?
+answer: Hupunguza hatari ya mwenzake kwa kuwezesha malipo ya atomiki ambapo uwasilishaji na malipo hutokea kwa wakati mmoja
+wrong_answers:
+  - Huondoa hitaji la kufuata sheria na mahitaji ya KYC katika biashara ya mali
+  - Huruhusu upanuzi usio na kikomo kwa biashara ya masafa ya juu bila ada yoyote ya muamala
+  - Huwezesha ugunduzi wa bei kiotomatiki kupitia algoriti za kutengeneza soko zilizojengewa ndani
+explanation: |
+  Malipo ya dakika 2 ya Liquid huwezesha malipo ya atomiki, ambayo ni muhimu kwa kupunguza hatari ya mwenzake kwa sababu pande zote mbili hupokea kile wanachodaiwa kwa wakati mmoja, na kuondoa pengo ambapo upande mmoja unaweza kushindwa kulipa. Malipo ya kawaida ya T+2 huunda dirisha ambapo hatari ya mwenzake ipo. Chaguzi zingine si sahihi: Liquid bado inahitaji kufuata sheria kupitia AMP, ina ada za miamala na mipaka ya kuongeza ukubwa, na haitoi uundaji wa soko kiotomatiki.

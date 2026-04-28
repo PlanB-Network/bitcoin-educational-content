@@ -36,7 +36,7 @@ description: Как добывать с помощью NerdQaxe?
 
 
 
-Видео с [YouTube-канала *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Видео с [YouTube-канала *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 

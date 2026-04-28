@@ -1,5 +1,6 @@
 ---
 term: Taproot
+definition: Ihindagurika ryamaze kwemezwa rya Bitcoin ryatangiye mu kwezi kw'icumi na rimwe 2021 rizanye ibijanye n'ibanga, uburyo bunoze n'ukworoha gukoreshwa binyuze muri BIP340, 341, na 342.
 ---
 
 Ivugurura rikomeye ry’amasezerano ya Bitcoin, ryemejwe biciye ku masezerano ya Soft Fork mu kwezi kwa 11 2021. Iryo vugurura rizana iterambere rikomeye mu bijanye n’ubuzima bwite, ubushobozi, n’uguhinduranya mu gushirwa mu ngiro BIP340, BIP341, na BIP342. Iryo vugurura ryafunzwe kuri block 687.284 ku wa 12 Ruheshi 2021, aho 90% vy’amabuye yavutse mu kiringo kinaka vyerekana ko rishigikiye, ivyo bikaba vyerekana ko abacukuzi biteguriye gukoresha iryo vugurura (*Speedy Trial*). Ivyo bikorwa vyaciye bibera ku nzu 709.632 kw’igenekerezo rya 14 Ugushyingo 2021, haciye hafi imyaka ine ibiganiro vya mbere ku bijanye n’ico kibazo vyabaye hagati ya Pieter Wuille, Andrew Poelstra na Gregory Maxwell. Ni co kigeragezo ca mbere gikomeye co guhindura kuva SegWit itanguye gukora mu 2017.

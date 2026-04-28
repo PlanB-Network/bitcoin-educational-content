@@ -24,7 +24,7 @@ Há duas razões principais para utilizar um cliente alternativo como o Knots em
 
 ## Como é que instalo o Bitcoin Knots?
 
-Vá para [o site oficial do Bitcoin Knots] (https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
+Vá para [o site oficial do Bitcoin Knots](https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
@@ -212,13 +212,14 @@ Não se esqueça de reiniciar o software depois de efetuar estas alterações.
 
 Em seguida, vá para o seu software de gestão de carteiras (por exemplo, Sparrow Wallet ou Liana) e introduza o caminho para o seu ficheiro cookie, normalmente localizado na mesma pasta que o `Bitcoin.conf`, dependendo do seu sistema operativo:
 
-|**macOS**|~/Biblioteca/Suporte a aplicativos/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 
@@ -236,19 +237,20 @@ server=1
 
 Depois de editar o ficheiro, certifique-se de que o guarda na pasta adequada ao seu sistema operativo:
 
-|**macOS**|~/Biblioteca/Suporte a aplicativos/Bitcoin|
 
+
+
+
+|**macOS**|~/Library/Application Support/Bitcoin|
 |---|---|
-
 |**Windows**|%APPDATA%\Bitcoin|
-
-|**Linux**|~/.Bitcoin|
+|**Linux**|~/.bitcoin|
 
 Esta operação também pode ser efectuada através dos gráficos Bitcoin-QT do Interface. Vá ao menu "*Settings*", depois "*Options...*", e active a opção "*Enable RPC server*" marcando a caixa correspondente. Se o ficheiro `Bitcoin.conf` não existir, pode criá-lo diretamente a partir deste Interface, clicando em "*Open Configuration File*".
 
 ![Image](assets/fr/37.webp)
 
-Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner] (https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
+Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner](https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
 
 No ficheiro `Bitcoin.conf`, adicione as seguintes linhas, definindo `rpcbind=192.168.1.18` para corresponder ao IP Address do seu nó.
 

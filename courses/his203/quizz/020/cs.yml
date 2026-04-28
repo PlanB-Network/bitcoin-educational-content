@@ -1,0 +1,10 @@
+question: Který vlivný ekonom v září 2011 kritizoval Bitcoin za její rigidní, deflační měnovou politiku?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman je neokeynesiánský ekonom a nositel Nobelovy ceny za ekonomii za rok 2008. V článku nazvaném "Zlaté kybernetické okovy", který byl zveřejněn na stránkách New York
+ Times 7. září 2011, tvrdil, že "soukromý model zlatého standardu" Bitcoin povede k jeho zániku jako prostředku směny.
+reviewed: true

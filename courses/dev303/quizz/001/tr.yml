@@ -1,0 +1,8 @@
+question: Rustup'ın Rust geliştirme ekosistemindeki birincil amacı nedir?
+answer: Rust'in kurulumu ve yönetimi için kapsamlı bir araç zinciri yönetim sistemi
+wrong_answers:
+  - Rust projelerinde bağımlılıkları işlemek için bir paket yöneticisi
+  - Kodu analiz eden ve iyileştirme önerileri sunan gelişmiş bir linter
+  - Rust programlarını derleyen ve proje yapısını yöneten bir derleme sistemi
+explanation: |
+  Rustup, özellikle Rust'ün farklı projeler ve platformlar arasında kurulumunu, güncellenmesini ve yönetimini gerçekleştiren bir araç zinciri yönetim sistemi olarak tasarlanmıştır. Cargo, Rust projeleri için paket yöneticisi ve derleme sistemi olarak hizmet verirken ve Clippy kod analizi için linter olarak işlev görürken, Rustup tüm Rust geliştirme ortamını yöneterek daha yüksek bir seviyede çalışır. Geliştiricilerin farklı Rust sürümlerini yüklemelerine, çeşitli platformlar için derleme hedeflerini yönetmelerine ve 'rustup update' gibi basit komutlarla yeni Rust sürümlerine kolayca güncelleme yapmalarına olanak tanır.

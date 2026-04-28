@@ -1,0 +1,8 @@
+question: Mekanisme arsitektur apa yang memungkinkan SDK Breez melakukan transfer Liquid ke Bitcoin tanpa bergantung pada federated peg-out atau pertukaran terpusat?
+answer: Mekanisme dual-swap dengan transaksi penguncian simultan di kedua rantai di mana pengirim mengklaim dana Bitcoin dan penerima mengklaim dana Liquid
+wrong_answers:
+  - Swap kapal selam tunggal di mana dana Bitcoin dikunci terlebih dahulu dan kemudian diklaim menggunakan preimage pembayaran Lightning dari transaksi Liquid
+  - Arsitektur reverse submarine swap di mana Liquid Network bertindak sebagai jembatan perantara untuk memvalidasi transaksi Bitcoin mainchain
+  - Sistem escrow multi-tanda tangan federasi yang dikelola oleh Boltz yang mengoordinasikan pertukaran atom antara Liquid dan Bitcoin menggunakan kontrak yang dikunci waktu
+explanation: |
+  Mekanisme dual-swap dirancang khusus untuk transfer Bitcoin lintas rantai, yang melibatkan transaksi penguncian simultan pada jaringan Liquid dan Bitcoin. Pendekatan tanpa kepercayaan ini memungkinkan penghubung langsung tanpa federated peg-out. Opsi lain secara tidak tepat menggambarkan swap kapal selam satu arah, salah menggambarkan peran Liquid Network, atau secara tidak tepat menyarankan ketergantungan pada sistem federasi yang secara eksplisit dihindari oleh SDK.

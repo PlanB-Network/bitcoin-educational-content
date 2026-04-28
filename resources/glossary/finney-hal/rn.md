@@ -1,6 +1,7 @@
 ---
-term: FINNEY HAL
+term: Finney hal
 
+definition: Umuhinga mu bijanye n'ibanga rya mudasobwa (cryptographe) akaba n'umuhinga mu gutunganya ubuhinga (développeur) yagize uruhara ruhambaye mu ntango za Bitcoin ari kumwe na Satoshi.
 ---
 
 Harold T. Finney II, azwi kw’izina rya Hal Finney, yari umuhinga mu vy’ubuhinga bwo gukora amakuru y’ibanga kandi yari umuhinga mu bijanye n’ubuhinga bwo gukora amakuru y’ibanga, azwi cane kubera uruhara rwiwe ruhambaye mu misi ya mbere ya Bitcoin be n’ivyo yashizeko mu bijanye n’ubuhinga bwo gukora amakuru y’ibanga. Kuva aho igitabu cera ca Bitcoin gisohotse mu 2008, ni umwe mu ba mbere bakoranye na Satoshi Nakamoto. Yatanze inyishu, atanga raporo y’ibibazo, yongera atanga ivyiyumviro vyo gutera imbere inyuma y’aho iyo porogarama itanguriwe muri Mukakaro 2009. Ni we yaronse igikorwa ca mbere ca Bitcoin (hanze y’ibibanza vy’amahera), yaronse 10 BTC iva kuri Satoshi mu gice ca 170:

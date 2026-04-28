@@ -1,5 +1,5 @@
 ---
-name: Samourai Wallet - Възстановяване
+name: Samourai Wallet - Recover
 description: Как да възстановим биткойни, заседнали в Samourai Wallet?
 ---
 

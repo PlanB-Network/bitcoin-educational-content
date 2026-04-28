@@ -285,7 +285,7 @@ Aynı şekilde, bitcoinlerinizi avro, dolar veya başka bir fiat para birimi kar
 ## 7. Bir Yaratıcıya Rumble'da Bahşiş Vermek
 
 
-Giriş bölümünde belirtildiği gibi, Rumble Wallet [Rumble video platformu] (https://rumble.com/) ile mükemmel bir şekilde entegre edilmiştir. Bu, herhangi bir aracıdan geçmeden favori içerik oluşturucularınıza Bitcoin veya USDT cinsinden ipuçlarını kolayca göndermenizi sağlar.
+Giriş bölümünde belirtildiği gibi, Rumble Wallet [Rumble video platformu](https://rumble.com/) ile mükemmel bir şekilde entegre edilmiştir. Bu, herhangi bir aracıdan geçmeden favori içerik oluşturucularınıza Bitcoin veya USDT cinsinden ipuçlarını kolayca göndermenizi sağlar.
 
 
 Bunu yapmak için ***Up Kavanozları*** özelliğini etkinleştirmeniz gerekir. Rumble Wallet ana sayfasından "*Uç Kavanozlarını Etkinleştir*" düğmesine tıklayın.

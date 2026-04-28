@@ -1,6 +1,7 @@
 ---
-term: TRANSAKČNÍ POPLATKY
+term: Transakční poplatky
 
+definition: Částka odměňující těžaře za zahrnutí transakce do bloku, vypočtená jako rozdíl mezi vstupy a výstupy.
 ---
 Transakční poplatky představují částku, která má těžařům kompenzovat jejich účast v mechanismu proof of work. Tyto poplatky motivují těžaře, aby do bloků, které vytvářejí, zahrnovali transakce. Vznikají z rozdílu mezi celkovým množstvím vstupů a celkovým množstvím výstupů v transakci:
 
@@ -22,4 +23,3 @@ V tomto konkrétním případě šlo o transakci iniciovanou ředitelem těžebn
 
 Je také nutné zvážit limity čištění. Během období vysokého přetížení čistí mempooly uzlů své nevyřízené transakce pod určitou hranicí, aby byl dodržen jejich přidělený limit paměti RAM. Tento limit si uživatel může libovolně zvolit, ale mnozí ponechávají výchozí hodnotu jádra Bitcoin na 300 MB. Lze jej upravit v souboru `bitcoin.conf` pomocí parametru `maxmempool`.
 
-> ► V angličtině se tomu říká "transakční poplatky".

@@ -1,0 +1,8 @@
+question: Jaká je hlavní vlastnost, díky níž jsou uzávěry v systému Rust výkonné?
+answer: Jejich schopnost zachycovat proměnné z okolního prostředí
+wrong_answers:
+  - Jejich schopnost běžet rychleji než běžné funkce
+  - Jejich schopnost automaticky zpracovávat přidělování paměti
+  - Jejich schopnost provádět kód v paralelních vláknech
+explanation: |
+  Základní vlastností, která dělá uzávěry mocnými, je jejich schopnost "uzavírat" své prostředí, což znamená, že mohou přistupovat k proměnným, které existují v oboru, v němž je uzávěra definována, a používat je. Tato schopnost zachycení umožňuje uzávěrům udržovat stav a kontext z prostředí jejich vytvoření, díky čemuž jsou mnohem flexibilnější než běžné funkce. Uzávěry lze sice optimalizovat z hlediska výkonu a používat v kontextu vláken, ale to jsou až sekundární výhody - jejich hlavní síla pramení ze zachycení proměnných prostředí.

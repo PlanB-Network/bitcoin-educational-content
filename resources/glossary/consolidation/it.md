@@ -1,6 +1,7 @@
 ---
-term: CONSOLIDAMENTO
+term: Consolidamento
 
+definition: Transazione che fonde più piccoli UTXO in uno solo più grande per ridurre le commissioni future.
 ---
 Una transazione specifica in cui più UTXO di piccole dimensioni vengono uniti in un unico input per formare un singolo UTXO più grande come output. Questa operazione è una transazione effettuata sul proprio portafoglio. L'obiettivo del consolidamento è quello di sfruttare i periodi in cui le commissioni sulla rete Bitcoin sono basse per unire più UTXO di piccole dimensioni in uno di valore maggiore. In questo modo, si anticipano le spese obbligatorie in caso di aumento delle commissioni, consentendo di risparmiare sulle future commissioni di transazione.
 
@@ -8,4 +9,3 @@ Infatti, le transazioni con molti input sono più pesanti e, di conseguenza, pi�
 
 Tuttavia, è importante notare che le transazioni di consolidamento sono riconoscibili durante l'analisi della catena. Una transazione di questo tipo indica una Common Input Ownership Heuristic (CIOH), ovvero che gli input della transazione di consolidamento sono di proprietà di un'unica entità. Ciò può avere implicazioni in termini di privacy per l'utente.
 
-![](../../dictionnaire/assets/7.webp)

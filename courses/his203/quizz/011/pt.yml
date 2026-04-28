@@ -1,0 +1,10 @@
+question: O que levou a Mt. Gox a ser pirateada a 19 de junho?
+answer: Acesso à base de dados de palavras-passe, que foi submetida a hash com MD5, mas não foi salgada
+wrong_answers:
+  - Jed McCaleb divulgou a palavra-passe de acesso à sua conta pessoal na plataforma
+  - Uma queda de raio, que permitiu ao pirata levantar mais bitcoins do que tinha
+  - Injeção de XML em pedidos de levantamento para desviar contas
+explanation: |
+ Esta fuga permitiu ao hacker aceder a contas com palavras-passe fracas (curtas ou fáceis de adivinhar). Em particular, ele acedeu à conta de Jed McCaleb desta forma. Ele
+ vendeu bitcoins para fazer baixar o preço, de modo a levantar um máximo de bitcoins (o limite diário de levantamento era de 1000 dólares).
+reviewed: true

@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen turvamekanismi, jolla varmistetaan, että Greenlight-infrastruktuuri ei pääse käsiksi käyttäjien varoihin, vaikka Lightning-solmut sijaitsevat pilvipalvelussa?
+answer: Yksityiset avaimet eivät koskaan poistu käyttäjän laitteilta, ja kaikki toiminnot edellyttävät aktiivista sovelluksen allekirjoitusta
+wrong_answers:
+  - Usean allekirjoituksen lompakot, joissa on hajautettuja avainsiruja useiden pilvipalvelujen tarjoajien välillä
+  - Laitteiston turvamoduulit, jotka salaavat kaikki tapahtumat ennen pilvipalvelun käsittelyä
+  - Aikalukitut älykkäät sopimukset, jotka palauttavat varat automaattisesti, jos luvaton pääsy tapahtuu
+explanation: |
+  Breez SDK ylläpitää turvallisuutta luotettavalla arkkitehtuurilla, jossa yksityiset avaimet pysyvät yksinomaan käyttäjän laitteissa. Vaikka Greenlight isännöi Lightning-solmun infrastruktuuria, se ei voi suorittaa mitään toimintoja ilman aktiivisesti yhdistettyä sovellusta, joka voi allekirjoittaa tapahtumia ja viestejä. Tämä rakenne varmistaa, että vaikka solmu toimii pilvessä, Greenlight ei koskaan pääse käsiksi käyttäjän avaimiin eikä voi siirtää varoja ilman käyttäjän nimenomaista lupaa paikallisen sovelluksen kautta. Muissa vaihtoehdoissa kuvataan erilaisia turvamekanismeja, joita ei käytetä tässä arkkitehtuurissa.

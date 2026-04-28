@@ -1,0 +1,8 @@
+question: Hva skjer når en variabel går ut av scope i Rusts eierskapssystem?
+answer: Verdien slettes automatisk, og minnet frigjøres
+wrong_answers:
+  - Verdien flyttes til det globale omfanget for gjenbruk
+  - Verdien blir uforanderlig og forblir i minnet
+  - Verdien kopieres til en sikkerhetskopi for sikkerhets skyld
+explanation: |
+  I Rusts eiersystem, når en variabel går ut av scope (vanligvis når kjøringen forlater en blokk definert av krøllparenteser), blir verdien automatisk droppet og minnet frigjort. Denne automatiske oppryddingen er implementert gjennom Rusts drop-mekanisme, der språket implisitt kaller en drop-funksjon på variabler som går ut av scope. Dette sikrer riktig ressurshåndtering uten at det kreves eksplisitt oppryddingskode fra programmereren, etter RAII-mønsteret lånt fra C++.

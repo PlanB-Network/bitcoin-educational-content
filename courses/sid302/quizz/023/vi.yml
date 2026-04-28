@@ -1,0 +1,8 @@
+question: Tại sao việc Mayfell triển khai giấy nợ trên Liquid lại tận dụng Confidential Transactions thay vì sử dụng các bản ghi blockchain minh bạch?
+answer: Các quy định về bảo mật thương mại yêu cầu số tiền cho vay chỉ hiển thị cho người cho vay và người đi vay, đồng thời vẫn đảm bảo khả năng xác minh của kiểm toán viên.
+wrong_answers:
+  - Luật pháp Mexico quy định rằng tất cả các giao dịch tài chính phải được giữ kín hoàn toàn khỏi sự giám sát của chính phủ và cơ quan thuế.
+  - Việc lưu trữ hồ sơ minh bạch sẽ tạo ra các nút thắt cổ chai về khả năng mở rộng, ngăn cản hệ thống xử lý hiệu quả hơn 25.000 giấy nợ cần thiết.
+  - Việc công khai số tiền vay sẽ kích hoạt các sự kiện tính thuế tự động, khiến quá trình mã hóa khoản vay trở nên không khả thi về mặt tài chính đối với người tham gia.
+explanation: |
+  Confidential Transactions giải quyết một vấn đề kinh doanh quan trọng trong cho vay thương mại: duy trì tính bảo mật cạnh tranh trong khi vẫn đảm bảo tuân thủ quy định. Trong tài chính truyền thống, số tiền cho vay giữa các doanh nghiệp là thông tin thương mại bí mật mà các đối thủ cạnh tranh không nên truy cập, nhưng các kiểm toán viên và cơ quan quản lý cần xác minh tính toàn vẹn của sổ cái. Confidential Transactions của Liquid đạt được sự cân bằng này bằng cách mã hóa ẩn số tiền khỏi công chúng trong khi vẫn cho phép các bên được ủy quyền xác minh giao dịch. Các câu trả lời sai đã xuyên tạc công nghệ - CT không che giấu giao dịch khỏi các cơ quan quản lý (quyền riêng tư so với bí mật), không giải quyết các vấn đề về khả năng mở rộng (đó là một mối quan tâm kỹ thuật riêng biệt) và không tạo ra các cơ chế trốn thuế (các công cụ bảo mật hợp pháp không né tránh nghĩa vụ thuế).

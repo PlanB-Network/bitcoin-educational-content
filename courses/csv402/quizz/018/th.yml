@@ -1,0 +1,9 @@
+question: การดำเนินการใดบ้างที่กำหนดวิวัฒนาการของสัญญาอัจฉริยะใน RGB?
+answer: State Transition, Genesis, และ State Extension
+wrong_answers:
+  - Seal การสร้าง, Contract การปฏิบัติ, และการตรวจสอบขั้นสุดท้าย
+  - UTXO Transfer, Proof Generation, and Hash Commitment
+  - ชุดการเปลี่ยนผ่าน, ซีลใช้ครั้งเดียว, และการสร้าง Valency
+explanation: |
+  การดำเนินการเหล่านี้สร้างหรือแก้ไขสถานะของสัญญา ในขณะที่รับประกันความถูกต้องผ่านจุดยึด Bitcoin
+reviewed: false

@@ -72,10 +72,10 @@ Ku rubuga rukurikira, urashobora gusuzuma kabiri inomero watanze. Niba ari ukuri
 Telegram ubu irakora neza kuri telefone ngendanwa, turashobora kuja ku mirongo ya mbere y’ishimikiro.
 
 
-# Amagenamiterere y'umutekano n'ubuzima bwite
+## Amagenamiterere y'umutekano n'ubuzima bwite
 
 
-## Izina ry'ukoresha
+### Izina ry'ukoresha
 
 
 Izina ry'ukoresha rya Telegram - rimwe na rimwe ryitwa `handle` - ni ikintu kirenze cane ugushaka gusa. Igikoresho ni **kidasanzwe ku muntu wese akoresha**.
@@ -129,7 +129,7 @@ Ntibashobora, kubera ubudasa bw’izina ry’ukoresha.
 **Ico bashobora gukora n'ukwerekana igikoresho "gisa n'ico", bagahindura gatoyi (urudome/umubare), kugira ngo ijisho ryitaho gusa ribone neza ko ari umuhendanyi**. Imisi yose urabe neza izina ry’ukoresha, uzobona ko abahendanyi batazogira urukino rworoshe.
 
 
-## Ubuzima bwite
+### Ubuzima bwite
 
 
 Ikindi kintu gihambaye wokwirinda ni uguhagarika amakuru usohora muri konti yawe nshasha.
@@ -165,7 +165,7 @@ Izo ni ingingo zizotuma udashira ahabona inomero yawe ya telefone, kugira ngo nt
 Ubu ko konti yawe ya Telegram yashizweho kandi ukaba wararonse ubuzima bwite bukeyi, urashobora gutangura kuyikoresha.
 
 
-## Kwongerako abo mubonana n'ibiganiro
+### Kwongerako abo mubonana n'ibiganiro
 
 
 Niba konti yawe iherutse kuremwa, birashoboka ko urupapuro nyamukuru ruzoboneka ataco rurimwo.
@@ -229,7 +229,7 @@ Ku mburabuzi, umuntu wese, kuva ku bakoresha ku giti cabo gushika ku mihora y’
 ⚠️Iciyumviro: **mwirinde kwinjira mu ma groupe n'imihora mutasuzumye ko ari ivy'ukuri**. Kugira uronke umurongo/umugwi wemewe wa Telegram w’ishirahamwe canke ingingo wipfuza gukurikira, rondera imfashanyo mu gice ca _Contacts_ c’imbuga zemewe canke mu masoko yizigirwa cane.
 
 
-### Ibirango vy'ubutumwa buteye imbere
+#### Ibirango vy'ubutumwa buteye imbere
 
 
 Telegram iragufasha gukoresha ibintu bidasanzwe biteye imbere iyo bije mu guhana ubutumwa. Injira mu kiganiro maze ukande ku nyuma, iruhande y’ubutumwa bwose buvuye ku wundi muntu.
@@ -257,7 +257,7 @@ Ushobora kandi gufatanya amadosiye manini, ugahana amakuru "iremereye" mu buryo 
 ![image](assets/en/46.webp)
 
 
-### Igicu c'umuntu ku giti ciwe
+#### Igicu c'umuntu ku giti ciwe
 
 
 Mu bintu vyinshi bitangaje vya Telegram, harimwo n’igicu c’umuntu ku giti ciwe - mu gihe c’ukwandika - **kitagira aho kigarukira**.
@@ -285,7 +285,7 @@ Ico kiganiro kiboneka imbere, kikaba giteguye gukoreshwa.
 ***
 
 
-## Gutegura ubutumwa no kohereza mu gacerere
+### Gutegura ubutumwa no kohereza mu gacerere
 
 
 Ibindi bintu vy’ingirakamaro biteye imbere bituma umuntu yohereza ubutumwa yubaha ubuzima bwite bw’ababuronse, agahitamwo hagati yo kuburungika mu gacerere, no kubushira ku rutonde rw’ubutumwa ku bihe n’imisi bikwiye.
@@ -301,7 +301,7 @@ Ico ukeneye gukora n’ukwandika ubutumwa ariko aho kuburungika ubwo nyene, ukan
 ![image](assets/en/48.webp)
 
 
-### Gukuraho ububiko bwa telefone yawe
+#### Gukuraho ububiko bwa telefone yawe
 
 
 Ikindi kintu ngirakamaro cotuma telefone yawe iguma ikora neza ni ugukuraho ububiko bwa Telegram rimwe na rimwe. Bivanye n’imigwi n’imirongo ukurikirana, mu vy’ukuri, amakuru n’ibinyamakuru biva muri ivyo bibanza vyoshobora kwirundanira mu bubiko, bigatuma telefone yawe igenda buhoro.
@@ -350,7 +350,7 @@ Ushobora kubona kw’ifoto ikurikira aho wosanga iyo setting.
 ![image](assets/en/28.webp)
 
 
-## Telegaramu y'ibiro
+### Telegaramu y'ibiro
 
 
 Telegram ishobora gukoreshwa kuri mudasobwa yawe, kugira ngo ihure na konti yerekanwa kuri telefone yawe. Ushobora guhitamwo kudakura kuri interineti iyo porogarama no kuyikoresha biciye ku rubuga gusa. Ariko rero, iyi verisiyo irafise aho igarukira ugereranyije n’iyo ikoreshwa kuri mudasobwa, ni co gituma ndabagira inama yo kuyikurako no kuyishiramwo kugira ngo mukoreshe neza ico gikoresho gikomeye.
@@ -421,7 +421,7 @@ Itangazo riri kuri telefone yawe ryemeza ko ico gikoresho gishasha congereweko n
 Cane cane, Telegram irakora kandi irakoreshwa no kuri mudasobwa yawe.
 
 
-### Guhamagara kw'umugwi
+#### Guhamagara kw'umugwi
 
 
 Nimba uri umuyobozi canke nyen’umugwi wa Telegram, urashobora gutangura guhamagara ukoresheje menu y’uwo mugwi ubwawo. Uko niko, ushobora gukora live streaming n’abantu benshi, ukabifata mu majwi no mu mashusho, ukabisangiza abandi, canke ukabikoresha mu ntumbero nk’inyigisho.
@@ -433,7 +433,7 @@ Mu ishusho ikurikira, urashobora kubona ingene wotangura guhamagara mu mugwi uko
 ![image](assets/en/47.webp)
 
 
-### Ivyiyumviro vya nyuma
+#### Ivyiyumviro vya nyuma
 
 
 Ubu umaze gusoma muri iyi nyigisho, urashoboye neza guhitamwo ingene ukoresha Telegram, utagira ico ukoze ku rusaku ruterwa n’ivyo abayikoresha bavuga, canke n’ivyo abantu benshi bavuga. Ushobora gutangura n’uburyo bworoshe hanyuma ukabona ingene wobukoresha neza, ku vyo ukeneye bwite, iyi porogarama yo gutanga ubutumwa.

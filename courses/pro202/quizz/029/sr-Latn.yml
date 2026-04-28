@@ -1,0 +1,8 @@
+question: Tokom validacije transakcije Bitcoin, čvor mora verifikovati da li je svaki ulaz pravilno ovlašćen da potroši svoj referencirani izlaz.
+answer: ScriptSig mora uspešno otključati odgovarajući ScriptPubKey kada se izvrše zajedno
+wrong_answers:
+  - "Digitalni potpis ulaza mora tačno odgovarati ugrađenom javnom ključu izlaza"
+  - Heš transakcije mora biti jednak merkle korenu koji je sačuvan u referenciranoj zaglavlju bloka.
+  - Ulazni iznos mora biti veći ili jednak iznosu koji se troši kao izlaz.
+explanation: |
+  Bitcoin-ov skript sistem zahteva da svaki ulazni ScriptSig (otključavajući skript) mora uspešno izvršiti sa referenciranim izlaznim ScriptPubKey (zaključavajući skript) kako bi proizveo tačan rezultat na steku. Ovaj model izvršavanja skripti omogućava fleksibilne uslove trošenja izvan jednostavnog podudaranja potpisa. Ostale opcije opisuju netačne zahteve za validaciju - potpisi ne moraju tačno odgovarati ugrađenim ključevima, heševi transakcija se ne upoređuju sa merkle korenima tokom validacije ulaza, i pojedinačni ulazi ne moraju premašiti svoje izlaze (samo ukupni ulazi moraju premašiti ukupne izlaze).

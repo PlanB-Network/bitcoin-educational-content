@@ -28,7 +28,7 @@ V BTC304 se podíváme na to, proč je budování komunity důležité, prozkoum
 
 
 
-Vítejte v BTC302!
+Vítejte v BTC 304!
 
 
 
@@ -193,7 +193,7 @@ Společenství Bitcoin často sledují širší cíle, zejména v oblasti vzděl
 4. Vyvracení zavádějících nebo nepodložených tvrzení některých veřejných činitelů a médií;
 
 
-5. Základní rozdíly mezi Bitcoin a ostatními kryptoměnami;
+5. Základní rozdíly mezi Bitcoin a ostatními [kryptoměnami](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Budováním prvních "citadel" zítřka slouží **komunity Bitcoin po celém světě jako hráz proti dezinformacím a cenzuře a zároveň poskytují živnou půdu pro učení se základům Bitcoin**. Nabízejí nováčkům, dokonce i skeptikům, zdroje a kontakty potřebné k prozkoumání skutečného potenciálu Bitcoin.
@@ -302,7 +302,7 @@ Bitcoin je decentralizovaný, takže si s ním přirozeně každý může dělat
 V tomto smyslu může pomoci jednoduché "pravidlo": pokud v okruhu 30-45 minut od vašeho bydliště není žádná aktivní komunita Bitcoin, možná by stálo za to založit novou. Přesto si vždy můžete dělat, co chcete.
 
 
-A samozřejmě, pokud se starší komunita "vyvinula" směrem, který již není v souladu s vašimi hodnotami, a vy nemáte čas nebo motivaci ji "oranžově obohatit", pak je vždy možné vytvořit si vlastní Fork.
+A samozřejmě, pokud se starší komunita "vyvinula" směrem, který již není v souladu s vašimi hodnotami, a vy nemáte čas nebo motivaci ji "oranžově obohatit", pak je vždy možné vytvořit si vlastní [Fork](https://planb.academy/resources/glossary/fork).
 
 
 
@@ -1391,7 +1391,7 @@ Patří mezi ně:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své Sats. Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
+- [Btcmap.org](https://btcmap.org/)**, webové stránky se dvěma denně aktualizovanými mapami: **[světová mapa podniků přijímajících Bitcoin](https://btcmap.org/map)** a **[mapa světových komunit](https://btcmap.org/communities/map)**. Mnoho uživatelů bitcoinů tyto mapy pravidelně kontroluje, ať už cestují nebo se věnují každodennímu životu, aby se seznámili s novými lidmi nebo našli místa, kde mohou utratit své [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je celosvětovou referencí a uvedení vaší komunity na ní je pro její zviditelnění nezbytné**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), webové stránky vytvořené bitcoinery pro bitcoinery. ** Umožňuje zveřejňovat nadcházející události vaší komunity**. Ve Francii však stále není příliš rozšířená.
 - v závislosti na vaší zemi mohou existovat další místní iniciativy. Například ve Francii existuje stránka [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), která každý měsíc **seznamuje desítky akcí Bitcoin**. Pokud jste je tedy ještě nesledovali na Twitteru nebo je nekontaktovali a nesdíleli s nimi informace o vaší komunitě a akcích, je nejvyšší čas! **Abyste pomohli udržovat francouzský kalendář akcí aktuální, bylo by skvělé, kdyby si všechny francouzské komunity Bitcoin zvykly:**
     - zmínka @bitcoinpointfr na Twitteru pro každou novou událost komunity
@@ -1820,7 +1820,7 @@ Kromě velké vzdělávací hodnoty umožňuje tento přístup sdílet mezi skup
 Níže je uveden postup setkání ve Francii v letech 2023-2024. Ke každému tématu je k dispozici prezentace s otevřeným zdrojovým kódem a video, které vám mohou poskytnout nápady na témata, jimiž byste se mohli zabývat na svých vlastních akcích.
 
 
-Další upravitelné materiály naleznete také v [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Další zdroje jsou také k dispozici v sekci ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, což je společný prostor, kde vzdělávatelé Bitcoinu z celého světa sdílejí a poskytují své vzdělávací materiály (prezentace, letáky, průvodce, plakáty...) ve formátech připravených k použití nebo upravitelných. Cíl: sdružit úsilí, aby se nemuselo začínat od nuly pokaždé!
 
 
 
@@ -1936,7 +1936,7 @@ Na soukromých místech, jako jsou koncerty, bary nebo stadiony, si před přid�
 Dalším projektem, který můžete snadno vytvořit, je **vytvoření knihovny na setkáních**.
 
 
-Můžete vyzvat účastníky, kteří se chtějí podělit o svou četbu, aby přinesli knihu související s Bitcoin. Pokud by si ji chtěl půjčit někdo jiný z účastníků setkání, bylo by možné s majitelem v Exchange domluvit výpůjčku za zálohu, například 21 000 satošů prostřednictvím Blesku.
+Můžete vyzvat účastníky, kteří se chtějí podělit o svou četbu, aby přinesli knihu související s Bitcoin. Pokud by si ji chtěl půjčit někdo jiný z účastníků setkání, bylo by možné s majitelem v Exchange domluvit výpůjčku za zálohu, například 21 000 satošů prostřednictvím [Blesku](https://planb.academy/resources/glossary/lightning-network).
 
 
 Pro majitele je tato záloha pomocníkem při krytí případné ztráty nebo krádeže. Pro vypůjčitele je to pobídka, aby se vrátil na budoucí setkání a vyzvedl si zálohu.
@@ -2599,7 +2599,7 @@ S tímto nárůstem návštěvnosti:
     - pokud zjistíte, že počet účastníků je ohromující, můžete pro příští setkání buď **vyžadovat registraci účastníků** (prostřednictvím aplikace Meetup nebo jednoduchého formuláře), nebo **pořádat každý měsíc více setkání** (například setkání pro začátečníky, středně pokročilé a pokročilé).
     - Zároveň očekávejte, že do ekosystému vstoupí mnoho nových uživatelů, jejichž hlavním cílem je vydělat peníze. Chcete-li **udržet konverzaci zaměřenou na Bitcoin** na těchto rychle se rozvíjejících setkáních, je dobré:
 
-a) Zařaďte během těchto akcí prezentaci** na téma **Bitcoin, protože to přirozeně nasměruje většinu konverzace k tomuto tématu (a odvede pozornost od nejnovějšího údajně "revolučního" projektu shitcoin);
+a) Zařaďte během těchto akcí prezentaci** na téma **Bitcoin, protože to přirozeně nasměruje většinu konverzace k tomuto tématu (a odvede pozornost od nejnovějšího údajně "revolučního" projektu [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vyhněte se setkávání pouze s ostatními bitcoinery**. Místo toho se snažte **přiblížit k nováčkům**, i kdyby to mělo znamenat, že se budete zdržovat v zadní části místnosti, abyste je pozdravili. Odtud si můžete promluvit o tom, proč přišli, co hledají, o cílech (nebo dokonce základních principech) vaší komunity atd.
 
@@ -2619,7 +2619,7 @@ Naštěstí jsou tyto situace vzácné a často spíše absurdní než hrozivé,
 Pro klid duše: pokud vy osobně neporušujete zákon nebo přímo neumožňujete nelegální transakce, nejste právně odpovědní za jednání ostatních na vaší akci (alespoň podle francouzského práva).
 
 
-V ideálním světě byste měli **prostor dostatečně velký na to, abyste mohli hostit několik desítek lidí**, jak se vaše komunita rozrůstá, a také byste budovali **silné vztahy mezi bitcoinery** a budoucími bitcoinery během medvědího trhu, takže až přijde býčí období, budete mít co nejvíce lidí připravených k oranžové pilulce pro ostatní.
+V ideálním světě byste měli **prostor dostatečně velký na to, abyste mohli hostit několik desítek lidí**, jak se vaše komunita rozrůstá, a také byste budovali **silné vztahy mezi bitcoinery** a budoucími bitcoinery během [medvědího trhu](https://planb.academy/resources/glossary/bear-market), takže až přijde [býčí období](https://planb.academy/resources/glossary/bull-market), budete mít co nejvíce lidí připravených k oranžové pilulce pro ostatní.
 
 
 
@@ -2831,14 +2831,14 @@ Sami můžete rychle prozkoumat jeden z mnoha tunelů v králičí noře Bitcoin
 
 
 
-## BTC302, Co bude dál
+## BTC 304, Co bude dál
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-V tomto kurzu BTC302 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
+V tomto kurzu BTC 304 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
 
 
 Až bude vaše komunita připravena učinit další krok, můžete **založit formální sdružení**.

@@ -1,0 +1,9 @@
+question: Ni tatizo gani la usalama lililogunduliwa na Russell O'Connor mnamo Februari 2012 lililosababisha kuundwa kwa BIP 30?
+answer: Uwepo wa miamala inayorudiwa kwenye blockchain
+wrong_answers:
+  - Tatizo la majenerali wa Byzantine kubatilisha makubaliano
+  - Uwepo wa dosari ya kujirudia katika maagizo ya OP_EVAL
+  - Kuondolewa kwa kipengele cha ziada na operator wa OP_CHECKMULTISIG
+explanation: |
+ Hizi zilikuwa miamala ya zawadi yenye kitambulisho sawa kilichojumuishwa katika vitalu tofauti. Mnamo Februari 4, 2012, Russell O'Connor aligundua udhaifu ambao uliruhusu miamala yote inayotokana na moja ya miamala hii miwili kufutwa moja kwa moja kwa njia ya upangaji upya wa mnyororo. Kiraka hicho, kilichoelezwa katika BIP 30 na Pieter Wuille, kilitumika kwenye mtandao mnamo Machi 15.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni ubuhe buryo bw’ubuhinga bwa mbere bushoboza Breez SDK gushikiriza abakoresha uburinganire bumwe mu gihe iguma ikora Lightning na on-chain Bitcoin?
+answer: Ibikorwa vy'uguhinduranya bihindura hagati ya Lightning na on-chain Bitcoin inyuma y'ivyo bikenewe
+wrong_answers:
+  - Igihe nyaco c'uburinganire bw'amahera yerekana umubare w'amahera ya Lightning na on-chain ata guhindura nyavyo
+  - Ivy’ugushiramwo amafaranga y’ububiko bw’imirongo bituma amafaranga ashobora guca mu mwidegemvyo hagati y’intara za Lightning na on-chain ziri muri UTXO imwe nyene.
+  - Ivyiyumviro vy'amaderesi y'ibice bibiri bishobora kwakira amaderesi y'imirongo ibiri ashobora kwakira amafaranga y'umuravyo n'aya on-chain
+explanation: |
+  Inyishu ibereye ni ibikorwa vy’uguhinduranya vyihuta kubera ko Breez SDK ishira mu ngiro cane cane ubuhinga bwo guhinduranya on-chain kugira ngo ihindure ata nkomanzi hagati ya Lightning na on-chain Bitcoin igihe abakoresha bakeneye gutanga ubwoko butandukanye bw’amahera. Ivyo bituma abakoresha babona uburinganire bumwe mu gihe iyo sisitemu ikora ibikorwa vy’ubuhinga bigoranye vyo kwimurira amahera hagati y’ibice. Inyishu zitari zo zidondora uburyo butabaho canke budashoboka mu buryo bw’ubuhinga - gukoranya amafaranga vyokwerekana gusa amafaranga ahuriweko ataco bishoboje gukora, amafaranga y’imirongo ntashobora kwimurira amafaranga mu bihugu vya on-chain, kandi amaderesi y’imirongo ntaboneka mu masezerano ya Bitcoin.

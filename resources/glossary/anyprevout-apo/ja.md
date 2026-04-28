@@ -1,4 +1,5 @@
 ---
-term: エニプレバウト（アポ）
+term: Anyprevout (apo)
+definition: 新しい SigHash フラグを追加する提案 (BIP118) で、トランザクションの特定の入力をカバーしない署名の作成を可能にする。
 ---
-SIGHASH_ANYPREVOUT`と`SIGHASH_ANYPREVOUTANYSCRIPT`という2つの新しいSigHashフラグ修飾子を追加することを提案するBIP118に与えられた名前である。この "*AnyPrevOut*"という用語は、"*Any Previous Output*"の短縮形から来ており、フランス語に訳すと "toute sortie précédente "となる。
+2 つの新しい SigHash フラグ修飾子である `SIGHASH_ANYPREVOUT` および `SIGHASH_ANYPREVOUTANYSCRIPT` を追加することを提案する BIP118 に与えられた名称。用語「*AnyPrevOut*」は「*Any Previous Output*」の短縮形に由来する。

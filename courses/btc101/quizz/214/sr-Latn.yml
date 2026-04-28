@@ -1,11 +1,9 @@
-question: Šta je Lightning mreža?
-answer: Mreža plaćanja koja koristi Bitkoin protokol za omogućavanje munjevito brzih transakcija.
+question: Koja od ovih Lightning operacija se beleži onchain?
+answer: Otvaranje kanala
 wrong_answers:
-  - Nova vrsta kriptovalute.
-  - Nova Blockchain tehnologija koja će u budućnosti zameniti Bitkoin.
-  - Metoda za rudarenje Bitkoina.
+  - Posredničko plaćanje
+  - Ažuriranje stanja
+  - Rutiranje sa više skokova
 explanation: |
-  Lightning mreža je mreža za plaćanje koja koristi
-  Bitkoin protokol za omogućavanje brzih transakcija. To nije
-  posebna kriptovaluta, niti metoda za rudarenje Bitkoina.
-reviewed: true
+  Samo otvaranje i zatvaranje Lightning kanala odgovaraju Bitcoin transakcijama objavljenim na blokčejnu.
+reviewed: false

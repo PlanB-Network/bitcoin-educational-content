@@ -16,6 +16,8 @@ The Bitaxe project represents a paradigm shift in Bitcoin mining, breaking the m
 
 No prior mining experience is required, though basic electronics knowledge and familiarity with GitHub will be helpful. The course will transform you from a curious observer into a capable Bitaxe builder and contributor.
 
+Note: The videos for this course are only available in English.
+
 +++
 
 
@@ -78,7 +80,7 @@ The lack of open source mining hardware became a driving frustration for Skot, p
 
 The development of Bitaxe required overcoming substantial technical obstacles, primarily centered around the complete lack of documentation of Bitmain's ASIC chips. Skot's approach to this challenge exemplified the determination and ingenuity required for successful reverse engineering. Without access to official datasheets or technical specifications, he resorted to examining chips under microscopes, measuring pin pitches with calipers, and even scanning chips to determine their exact footprint requirements. This painstaking process resulted in multiple failed prototypes, with the first two iterations of the "day miner" failing to function properly due to incorrect footprint calculations.
 
-The breakthrough came with the third iteration in May 2022, when Skot successfully created a working two-chip design using BM1387 chips harvested from Antminer S9 units. This achievement marked the birth of the Bitaxe name, inspired by the concept of a pickaxe for Bitcoin mining. The success of this design validated the reverse engineering approach and demonstrated that independent developers could create functional mining hreardwa without manufacturer support. However, the technical challenges extended beyond chip interfacing to include complex power supply design, as the ASICs required precise voltage regulation at high currents, often operating at voltages as low as 0.6 volts while drawing significant amperage.
+The breakthrough came with the third iteration in May 2022, when Skot successfully created a working two-chip design using BM1387 chips harvested from Antminer S9 units. This achievement marked the birth of the Bitaxe name, inspired by the concept of a pickaxe for Bitcoin mining. The success of this design validated the reverse engineering approach and demonstrated that independent developers could create functional mining hardware without manufacturer support. However, the technical challenges extended beyond chip interfacing to include complex power supply design, as the ASICs required precise voltage regulation at high currents, often operating at voltages as low as 0.6 volts while drawing significant amperage.
 
 The firmware development presented another layer of complexity, as the project required creating mining software that could run directly on an ESP32 microcontroller rather than relying on external computers running software such as CGMiner. This self-contained approach was essential to Skot's vision of deployable, independent mining units. The combination of hardware reverse engineering and embedded firmware development created a comprehensive technical challenge that required expertise across multiple disciplines, from electrical engineering and PCB design to embedded programming and network protocols.
 

@@ -5,5 +5,5 @@ wrong_answers:
   - Contract Schema, Business Logic, na Owned State
   - Sahihi, Muamala wa Hash, na Pedersen commitment
 explanation: |
-  Anchor ina data inayohitajika ili kuthibitisha kujumuishwa kwa Commitment ya kipekee katika shughuli ya Bitcoin.
+  Anchor ina data inayohitajika ili kuthibitisha kujumuishwa kwa Commitment ya kipekee katika muamala wa Bitcoin.
 reviewed: true

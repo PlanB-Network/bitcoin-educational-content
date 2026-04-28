@@ -3,7 +3,7 @@ answer: Data ya upande wa mteja inayohitajika ili kuthibitisha mpito
 wrong_answers:
   - Nakala kamili ya Bitcoin Blockchain
   - Orodha ya public commitments za Bitcoin
-  - Public keys za state transition Transition
+  - Public keys za washiriki wa State Transition
 explanation: |
   Consignment inajumuisha maelezo ya RGB yanayomwezesha mpokeaji kuthibitisha State Transition kulingana na sheria za Contract.
 reviewed: true

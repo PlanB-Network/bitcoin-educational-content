@@ -3,7 +3,7 @@ answer: Hakikisha kuwa Commitment moja imeingizwa katika muamala
 wrong_answers:
   - Kurahisisha muundo wa miamala ya Bitcoin
   - Punguza gharama za miamala za RGB
-  - Kuboresha uzalishaji multiple signs za RGB
+  - Kuboresha uzalishaji wa multisignature za RGB
 explanation: |
   Ahadi bainifu za Bitcoin zinahakikisha kwamba Commitment moja inaingizwa katika muamala, ili kuepuka ahadi fiche zinazoshindana.
 reviewed: true

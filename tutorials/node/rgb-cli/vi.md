@@ -1,135 +1,186 @@
 ---
 name: RGB CLI
-description: How do I create and exchange smart contracts on RGB?
+description: Tôi có thể tạo và trao đổi hợp đồng thông minh trên RGB như thế nào?
 ---
 ![cover](assets/cover.webp)
 
-In this tutorial, we'll follow the step-by-step process of writing a contract, using the command-line tool `rgb` created by the LNP/BP association. The aim is to show how to install and manipulate the CLI, compile a Schema, import the Interface and Interface Implementation, and then issue an RGB asset. We'll also look at the underlying logic, including compilation and state validation. At the end of this tutorial, you should be able to reproduce the process and create your own RGB contracts.
 
-## RGB protocol reminder
+Trong hướng dẫn này, chúng ta sẽ cùng tìm hiểu quy trình từng bước viết hợp đồng, sử dụng công cụ dòng lệnh `rgb` do hiệp hội LNP/BP tạo ra. Mục tiêu là để hướng dẫn cách cài đặt và thao tác với CLI, biên dịch Schema, nhập Interface và Interface Implementation, và sau đó phát hành tài sản RGB. Chúng ta cũng sẽ xem xét logic cơ bản, bao gồm biên dịch và xác thực trạng thái. Sau khi hoàn thành hướng dẫn này, bạn sẽ có thể tái tạo quy trình và tạo hợp đồng RGB của riêng mình.
 
-RGB is a protocol that runs on top of Bitcoin and emulates smart contract functionality and digital asset management, without overloading the blockchain on which it is based. Unlike conventional on-chain smart contracts (as on Ethereum, for example), RGB relies on a "*Client-side validation*" system: the majority of data and status histories are exchanged and stored exclusively by the participants involved, whereas the Bitcoin blockchain only hosts small cryptographic commitments (via mechanisms such as *Tapret* or *Opret*). In the RGB protocol, the Bitcoin blockchain therefore only serves as a time-stamping server and double-spending protection system.
 
-An RGB contract is structured like an evolutionary state machine. It starts with a Genesis that defines the initial state (describing, for example, the supply, ticker or other metadata) according to a strictly typed and compiled Schema. State Transitions and, if necessary, State Extensions are then applied to modify or extend this state. Each operation, whether transferring fungible assets (RGB20) or creating unique assets (RGB21), involves *Single-use Seals*. These link Bitcoin UTXOs to off-chain states and prevent double spending, while ensuring confidentiality and scalability.
+## Lời nhắc về giao thức RGB
 
-To learn more about how the RGB protocol works, I recommend you take this comprehensive training course:
+
+RGB là một giao thức chạy trên nền tảng Bitcoin và mô phỏng chức năng hợp đồng thông minh cũng như quản lý tài sản kỹ thuật số, mà không làm quá tải hệ thống blockchain mà nó dựa trên. Không giống như các hợp đồng thông minh on-chain thông thường (như trên Ethereum chẳng hạn), RGB dựa vào hệ thống "*xác thực phía máy khách*": phần lớn dữ liệu và lịch sử trạng thái được trao đổi và lưu trữ độc quyền bởi các bên tham gia, trong khi Bitcoin blockchain chỉ lưu trữ các cam kết mã hóa nhỏ (thông qua các cơ chế như *Tapret* hoặc *Opret*). Do đó, trong giao thức RGB, Bitcoin blockchain chỉ đóng vai trò là máy chủ đóng dấu thời gian và hệ thống bảo vệ double-spending.
+
+
+Hợp đồng RGB được cấu trúc giống như một cỗ máy trạng thái tiến hóa. Nó bắt đầu với một Genesis xác định trạng thái ban đầu (ví dụ: mô tả nguồn cung, mã giao dịch hoặc siêu dữ liệu khác) theo một Schema được định kiểu và biên dịch nghiêm ngặt. Sau đó, các State Transition và, nếu cần, State Extension được áp dụng để sửa đổi hoặc mở rộng trạng thái này. Mỗi thao tác, dù là chuyển giao tài sản có thể hoán đổi (RGB20) hay tạo ra tài sản độc nhất (RGB21), đều liên quan đến *Seal sử dụng một lần*. Chúng liên kết các Bitcoin và UTXO với các trạng thái off-chain và ngăn chặn việc chi tiêu kép, đồng thời đảm bảo tính bảo mật và khả năng mở rộng.
+
+
+Để tìm hiểu thêm về cách thức hoạt động của giao thức RGB, tôi khuyên bạn nên tham gia khóa đào tạo toàn diện này:
+
 
 https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
-The internal logic of RGB is based on Rust libraries that you, as developers, can import into your projects to manage the *Client-side Validation* part. In addition, the LNP/BP team is working on bindings for other languages, but this has not yet been finalized. In addition, other entities such as Bitfinex are developing their own integration stacks, but we'll talk about these in another tutorial. For the time being, the `rgb` CLI is the official reference, even if it remains relatively unpolished.
+Logic nội bộ của RGB dựa trên các thư viện Rust mà bạn, với tư cách là nhà phát triển, có thể nhập vào dự án của mình để quản lý phần *Client-side Validation*. Ngoài ra, nhóm LNP/BP đang làm việc trên các liên kết cho các ngôn ngữ khác, nhưng điều này vẫn chưa được hoàn thiện. Thêm vào đó, các thực thể khác như Bitfinex đang phát triển các ngăn xếp tích hợp riêng của họ, nhưng chúng ta sẽ thảo luận về những điều này trong một hướng dẫn khác. Hiện tại, CLI `rgb` là tài liệu tham khảo chính thức, mặc dù nó vẫn còn tương đối chưa được hoàn thiện.
 
-## Installation and presentation of the rgb CLI tool
 
-The main command is simply called `rgb`. It is designed to be reminiscent of `git`, with a set of sub-commands for manipulating contracts, invoking them, issuing assets and so on. Bitcoin Wallet is not currently integrated, but will be in an imminent version (0.11). This next version will enable users to create and manage their wallets (via descriptors) directly from `rgb`, including PSBT generation, compatibility with external hardware (e.g. a hardware wallet) for signing, and interoperability with software such as Sparrow. This will simplify the entire asset issuance and transfer scenario.
+## Lắp đặt và giới thiệu công cụ RGB CLI
 
-### Installation via Cargo
 
-We install the tool in Rust with :
+Lệnh chính được gọi đơn giản là `rgb`. Nó được thiết kế để gợi nhớ đến `git`, với một tập hợp các lệnh phụ để thao tác với hợp đồng, thực thi chúng, phát hành tài sản, v.v. Bitcoin và Wallet hiện chưa được tích hợp, nhưng sẽ được tích hợp trong phiên bản sắp tới (0.11). Phiên bản tiếp theo này sẽ cho phép người dùng tạo và quản lý wallet của họ (thông qua các mô tả) trực tiếp từ `rgb`, bao gồm cả việc tạo PSBT, khả năng tương thích với phần cứng bên ngoài (ví dụ: wallet phần cứng) để ký và khả năng tương tác với phần mềm như Sparrow. Điều này sẽ đơn giản hóa toàn bộ quy trình phát hành và chuyển giao tài sản.
+
+
+### Lắp đặt qua Cargo
+
+
+Chúng tôi cài đặt công cụ vào Rust bằng lệnh:
+
 
 ```bash
 cargo install rgb-contracts --all-features
 ```
 
-(Note: the crate is called `rgb-contracts`, and the installed command will be named `rgb`. If a crate named `rgb` already existed, there could have been a collision, hence the name)
 
-The installation compiles a large number of dependencies (e.g. command parsing, Electrum integration, zero-knowledge proofs management, etc.).
+(Lưu ý: thư viện này có tên là `rgb-contracts`, và lệnh được cài đặt sẽ có tên là `rgb`. Nếu đã tồn tại một thư viện có tên `rgb`, có thể xảy ra xung đột, do đó mới có tên gọi như vậy.)
 
-Once installation is complete, the :
+
+Quá trình cài đặt biên dịch một lượng lớn các thư viện phụ thuộc (ví dụ: phân tích cú pháp lệnh, tích hợp Electrum, quản lý bằng chứng không tiết lộ thông tin, v.v.).
+
+
+Sau khi quá trình cài đặt hoàn tất, thì:
+
 
 ```bash
 rgb
 ```
 
-Running `rgb` (without arguments) displays a list of available sub-commands, such as `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, etc. You can change the local storage directory (a stash that holds all logs, schematics and implementations), choose the network (testnet, mainnet) or configure your Electrum server.
+
+Chạy lệnh `rgb` (không có đối số) sẽ hiển thị danh sách các lệnh con có sẵn, chẳng hạn như `interfaces`, `schema`, `import`, `export`, `issue`, `invoice`, `transfer`, v.v. Bạn có thể thay đổi thư mục lưu trữ cục bộ (một thư mục chứa tất cả nhật ký, sơ đồ và triển khai), chọn mạng (testnet, mainnet) hoặc cấu hình máy chủ Electrum của bạn.
+
 
 ![RGB-CLI](assets/fr/01.webp)
 
-### First overview of controls
 
-When you run the following command, you'll see that an `RGB20` interface is already integrated by default:
+### Tổng quan ban đầu về các chức năng điều khiển
+
+
+Khi bạn chạy lệnh sau, bạn sẽ thấy rằng giao diện `RGB20` đã được tích hợp sẵn theo mặc định:
+
 
 ```bash
 rgb interfaces
 ```
 
-If this interface is not integrated, clone the :
+
+Nếu giao diện này chưa được tích hợp, hãy sao chép tệp:
+
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-interfaces
 ```
 
-Compile it:
+
+Biên dịch nó:
+
 
 ```bash
 cargo run
 ```
 
-Then import the interface of your choice:
+
+Sau đó, nhập giao diện mà bạn lựa chọn:
+
 
 ```bash
 rgb import interfaces/RGB20.rgb
 ```
 
+
 ![RGB-CLI](assets/fr/02.webp)
 
-However, we are told that no schema has yet been imported into the software. Nor is there a contract in the stash. To see it, run the command :
+
+Tuy nhiên, chúng tôi được thông báo rằng chưa có lược đồ nào được nhập vào phần mềm. Cũng không có hợp đồng nào trong kho lưu trữ. Để xem, hãy chạy lệnh:
+
 
 ```bash
 rgb schemata
 ```
 
-You can then clone the repository to retrieve certain schematics:
+
+Sau đó, bạn có thể sao chép kho lưu trữ để lấy các sơ đồ mạch cụ thể:
+
 
 ```bash
 git clone https://github.com/RGB-WG/rgb-schemata
 ```
 
+
 ![RGB-CLI](assets/fr/03.webp)
 
-This repository contains, in its `src/` directory, several Rust files (for example `nia.rs`) which define schemas (NIA for "*Non Inflatable Asset*", UDA for "*Unique Digital Asset*", etc.). To compile, you can then run :
+
+Kho lưu trữ này chứa, trong thư mục `src/`, một số tệp Rust (ví dụ: `nia.rs`) định nghĩa các lược đồ (NIA cho "*Tài sản không thể mở rộng*", UDA cho "*Tài sản kỹ thuật số duy nhất*", v.v.). Để biên dịch, bạn có thể chạy lệnh sau:
+
 
 ```bash
 cd rgb-schemata
 cargo run
 ```
 
-This generates several `.rgb` and `.rgba` files corresponding to the compiled schematics. For example, you'll find `NonInflatableAsset.rgb`.
 
-### Importing Schema and Interface Implementation
+Thao tác này tạo ra một số tệp `.rgb` và `.rgba` tương ứng với sơ đồ đã biên dịch. Ví dụ, bạn sẽ tìm thấy tệp `NonInflatableAsset.rgb`.
 
-You can now import the schematic into `rgb` :
+
+### Nhập khẩu Schema và Interface Implementation
+
+
+Giờ bạn có thể nhập sơ đồ vào `rgb`:
+
 
 ```bash
 rgb import schemata/NonInflatableAssets.rgb
 ```
 
+
 ![RGB-CLI](assets/fr/04.webp)
 
-This adds it to the local stash. If we run the following command, we see that the schema now appears:
+
+Thao tác này sẽ thêm nó vào kho lưu trữ cục bộ. Nếu chúng ta chạy lệnh sau, ta sẽ thấy lược đồ hiện đã xuất hiện:
+
 
 ```bash
 rgb schemata
 ```
 
-## Contract creation (issuing)
 
-There are two approaches to creating a new asset:
-
-
-- Either we use a script or code in Rust that builds a Contract by populating schema fields (global state, Owned States, etc.) and produces a `.rgb` or `.rgba` file;
-- Or use the `issue` sub-command directly, with a YAML (or TOML) file describing the token's properties.
-
-You can find examples in Rust in the `examples` folder, which illustrate how you build a `ContractBuilder`, fill in the `global state` (asset name, ticker, supply, date, etc.), define the Owned State (to which UTXO it is assigned), then compile all this into a *contract consignment* that you can export, validate and import into a stash.
-
-The other way is to manually edit a YAML file to customize the `ticker`, the `name`, the `supply`, and so on. Suppose the file is called `RGB20-demo.yaml`. You can specify :
+## Tạo (phát hành) Contract
 
 
-- `spec`: ticker, name, precision ;
-- `terms`: a field for legal notices ;
-- `issuedSupply` : the amount of token issued ;
-- `assignments`: indicates the Single-use Seal (*seal definition*) and the quantity unlocked.
+Có hai cách tiếp cận để tạo ra một tài sản mới:
 
-Here is an example of a YAML file to create:
+
+
+
+- Chúng ta có thể sử dụng script hoặc viết mã trong Rust để tạo ra Contract bằng cách điền các trường lược đồ (trạng thái toàn cục, Owned State, v.v.) và tạo ra tệp `.rgb` hoặc `.rgba`;
+- Hoặc sử dụng trực tiếp lệnh phụ `issue`, với tệp YAML (hoặc TOML) mô tả các thuộc tính của token.
+
+
+Bạn có thể tìm thấy các ví dụ trong Rust trong thư mục `examples`, minh họa cách bạn xây dựng một `ContractBuilder`, điền vào `trạng thái toàn cục` (tên tài sản, mã chứng khoán, nguồn cung, ngày tháng, v.v.), xác định Owned State (UTXO nào được gán cho nó), sau đó biên soạn tất cả những điều này thành một *lô hàng hợp đồng* mà bạn có thể xuất, xác thực và nhập vào kho.
+
+
+Cách khác là chỉnh sửa thủ công tệp YAML để tùy chỉnh `ticker`, `name`, `supply`, v.v. Giả sử tệp có tên là `RGB20-demo.yaml`. Bạn có thể chỉ định:
+
+
+
+
+- `spec`: mã chứng khoán, tên, độ chính xác;
+- `terms`: một trường dành cho các thông báo pháp lý;
+- `issuedSupply`: số lượng token đã được phát hành;
+- `assignments`: chỉ ra Seal dùng một lần (*định nghĩa niêm phong*) và số lượng đã được mở khóa.
+
+
+Dưới đây là một ví dụ về tệp YAML cần tạo:
+
 
 ```yaml
 interface: RGB20Fixed
@@ -150,110 +201,152 @@ seal: tapret1st:b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804
 amount: 100000000 # this is 1 million (we have two digits for cents)
 ```
 
+
 ![RGB-CLI](assets/fr/05.webp)
 
-Then simply run the command :
+
+Sau đó chỉ cần chạy lệnh:
+
 
 ```bash
 rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ```
 
+
 ![RGB-CLI](assets/fr/06.webp)
 
-In my case, the unique schema identifier (to be enclosed in single quotes) is `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` and I haven't put any issuer. So my order is :
+
+Trong trường hợp của tôi, mã định danh lược đồ duy nhất (phải được đặt trong dấu ngoặc đơn) là `RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k` và tôi chưa nhập bất kỳ tổ chức phát hành nào. Vì vậy, lệnh của tôi là:
+
 
 ```txt
 rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo.yaml
 ```
 
-If you don't know the schema ID, run the command :
+
+Nếu bạn không biết ID lược đồ, hãy chạy lệnh sau:
+
 
 ```bash
 rgb schemata
 ```
 
-The CLI replies that a new contract has been issued and added to the stash. If we type the following command, we see that there is now an additional contract, corresponding to the one just issued:
+
+CLI trả lời rằng một hợp đồng mới đã được phát hành và thêm vào kho. Nếu chúng ta nhập lệnh sau, ta sẽ thấy hiện có thêm một hợp đồng nữa, tương ứng với hợp đồng vừa được phát hành:
+
 
 ```bash
 rgb contracts
 ```
 
+
 ![RGB-CLI](assets/fr/07.webp)
 
-Then, the next command displays the global states (name, ticker, supply...) and the list of Owned States, i.e. allocations (for example, 1 million `Plan ₿ Academy` tokens defined in UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+
+Tiếp theo, lệnh tiếp theo hiển thị trạng thái toàn cầu (tên, mã chứng khoán, nguồn cung...) và danh sách Owned State, tức là các phân bổ (ví dụ: 1 triệu Plan ₿ Academy token được định nghĩa trong UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+
 
 ```bash
 rgb state '<ContractId>'
 ```
 
+
 ![RGB-CLI](assets/fr/08.webp)
 
-## Export, import and validation
 
-To share this contract with other users, it can be exported from the stash to a :
+## Xuất, nhập và xác thực
+
+
+Để chia sẻ hợp đồng này với người dùng khác, bạn có thể xuất hợp đồng từ kho lưu trữ sang tệp:
+
 
 ```bash
 rgb export '<ContractId>' myContractPBN.rgb
 ```
 
+
 ![RGB-CLI](assets/fr/09.webp)
 
-The `myContractPBN.rgb` file can be passed on to another user, who can add it to his stash with the command :
+
+Tệp `myContractPBN.rgb` có thể được chuyển cho người dùng khác, người đó có thể thêm nó vào kho lưu trữ của mình bằng lệnh:
+
 
 ```bash
 rgb import myContractPBN.rgb
 ```
 
-On import, if it's a simple *contract consignment*, we'll get an "`Importing consignment rgb`" message. If it's a larger *state transition consignment*, the command will be different (`rgb accept`).
 
-To ensure validity, you can also use the local validation function. For example, you could run :
+Khi nhập khẩu, nếu đó là một lô hàng hợp đồng đơn giản, chúng ta sẽ nhận được thông báo "`Đang nhập lô hàng rgb`". Nếu đó là một lô hàng chuyển đổi trạng thái lớn hơn, lệnh sẽ khác (`rgb accept`).
+
+
+Để đảm bảo tính hợp lệ, bạn cũng có thể sử dụng chức năng xác thực cục bộ. Ví dụ, bạn có thể chạy lệnh sau:
+
 
 ```bash
 rgb validate myContract.rgb
 ```
 
-### Stash usage, verification and display
 
-As a reminder, the stash is a local inventory of schemas, interfaces, implementations and contracts (Genesis + transitions). Each time you run "import", you add an element to the stash. This stash can be viewed in detail with the command :
+### Hướng dẫn sử dụng, xác minh và hiển thị Stash
+
+
+Xin nhắc lại, stash là kho lưu trữ cục bộ các lược đồ, giao diện, triển khai và hợp đồng (Genesis + chuyển đổi). Mỗi lần bạn chạy lệnh "import", bạn sẽ thêm một phần tử vào stash. Bạn có thể xem chi tiết stash này bằng lệnh :
+
 
 ```bash
 rgb dump
 ```
 
+
 ![RGB-CLI](assets/fr/10.webp)
 
-This will generate a folder with details of the entire stash.
 
-## Transfer and PSBT
-
-To carry out a transfer, you'll need to manipulate a local Bitcoin wallet to manage the `Tapret` or `Opret` commitments.
-
-### Generate an invoice
-
-In most cases, interaction between the participants in a contract (e.g. Alice and Bob) takes place via the generation of an invoice. If Alice wants Bob to execute something (a token transfer, a reissue, an action in a DAO, etc.), Alice creates an invoice detailing her instructions to Bob. So we have :
+Thao tác này sẽ tạo một thư mục chứa thông tin chi tiết về toàn bộ kho đồ.
 
 
-- **Alice** (the issuer of the invoice) ;
-- **Bob** (who receives and executes the invoice).
+## Chuyển giao và PSBT
 
-Unlike other ecosystems, an RGB invoice is not limited to the notion of payment. It can embed any request linked to the contract: revoke a key, vote, create an engraving (*engraving*) on an NFT, etc. The corresponding operation can be described in the contract interface. The corresponding operation can be described in the contract interface.
 
-The following command generates an RGB invoice:
+Để thực hiện chuyển khoản, bạn cần thao tác với thiết bị Bitcoin hoặc wallet cục bộ để quản lý các cam kết `Tapret` hoặc `Opret`.
+
+
+### Tạo hóa đơn
+
+
+Trong hầu hết các trường hợp, sự tương tác giữa các bên tham gia hợp đồng (ví dụ: Alice và Bob) diễn ra thông qua việc tạo hóa đơn. Nếu Alice muốn Bob thực hiện một việc gì đó (chuyển khoản token, phát hành lại, hành động trong DAO, v.v.), Alice sẽ tạo một hóa đơn nêu chi tiết hướng dẫn của mình cho Bob. Vì vậy, ta có:
+
+
+
+
+- Alice** (người phát hành hóa đơn);
+- Bob** (người nhận và thực hiện hóa đơn).
+
+
+Không giống như các hệ sinh thái khác, hóa đơn RGB không chỉ giới hạn ở khái niệm thanh toán. Nó có thể bao gồm bất kỳ yêu cầu nào liên kết với hợp đồng: thu hồi khóa, bỏ phiếu, tạo hình khắc trên NFT, v.v. Thao tác tương ứng có thể được mô tả trong giao diện hợp đồng.
+
+
+Lệnh sau tạo ra hóa đơn RGB:
+
 
 ```bash
 $ rgb invoice $CONTRACT -i $INTERFACE $ACTION $STATE $SEAL
 ```
 
-With :
+
+Với :
 
 
-- `$CONTRACT`: Contract identifier (*ContractId*) ;
-- `$INTERFACE`: the interface to be used (e.g. `RGB20`) ;
-- `$ACTION`: the name of the operation specified in the interface (for a simple fungible token transfer, this could be "Transfer"). If the interface already provides a default action, you don't need to enter it again here;
-- `$STATE`: the status data to be transferred (for example, an amount of tokens if a fungible token is transferred);
-- `$SEAL`: the beneficiary's (Alice's) Single-use Seal, i.e. an explicit reference to an UTXO. Bob will use this info to build the witness transaction, and the corresponding output will then belong to Alice (in *blinded UTXO* or unencrypted form).
 
-For example, with the following commands
+
+- `$CONTRACT`: Mã định danh Contract (*ContractId*) ;
+- `$INTERFACE`: giao diện cần sử dụng (ví dụ: `RGB20`);
+- `$ACTION`: tên của thao tác được chỉ định trong giao diện (đối với thao tác chuyển giao token đơn giản, tên này có thể là "Transfer"). Nếu giao diện đã cung cấp một thao tác mặc định, bạn không cần nhập lại ở đây;
+- `$STATE`: dữ liệu trạng thái cần chuyển (ví dụ: số lượng token nếu chuyển một token có thể thay thế được);
+- `$SEAL`: Seal dùng một lần của người thụ hưởng (Alice), tức là một tham chiếu rõ ràng đến UTXO. Bob sẽ sử dụng thông tin này để xây dựng giao dịch chứng thực, và đầu ra tương ứng sau đó sẽ thuộc về Alice (ở dạng *blinded UTXO* hoặc không được mã hóa).
+
+
+Ví dụ, với các lệnh sau:
+
 
 ```bash
 alice$ CONTRACT='iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY'
@@ -261,52 +354,71 @@ alice$ MY_UTXO=4960acc21c175c551af84114541eace09c14d3a1bb184809f7b80916f57f9ef8:
 alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
-The CLI will generate an invoice like :
+
+CLI sẽ tạo ra hóa đơn như sau:
+
 
 ```bash
 rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-...
 ```
 
-It can be transmitted to Bob via any channel (text, QR code, etc.).
 
-### Making a transfer
-
-To transfer from this invoice :
+Thông tin này có thể được truyền đến Bob thông qua bất kỳ kênh nào (văn bản, mã QR, v.v.).
 
 
-- Bob (who holds the tokens in his stash) has a Bitcoin wallet. He needs to prepare a Bitcoin transaction (in the form of a PSBT, e.g. `tx.psbt`) which spends the UTXOs where the required RGB tokens are located, plus one UTXO for currency (exchange) ;
-- Bob executes the following command:
+### Thực hiện chuyển khoản
+
+
+Để chuyển tiền từ hóa đơn này:
+
+
+
+
+- Bob (người đang giữ token trong kho của mình) có Bitcoin và wallet. Anh ta cần chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ: `tx.psbt`) để chi tiêu các UTXO vào nơi có các RGB và token cần thiết, cộng thêm một UTXO để đổi tiền;
+- Bob thực thi lệnh sau:
+
 
 ```bash
 bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 ```
 
 
-- This generates a `consignment.rgb` file which contains :
- - The transition history proving to Alice that the tokens are genuine;
- - The new transition that transfers tokens to Alice's Single-use Seal ;
- - A witness transaction (unsigned).
-- Bob sends this `consignment.rgb` file to Alice (by e-mail, a sharing server or an RGB-RPC protocol, Storm, etc.);
-- Alice receives `consignment.rgb` and accepts it in its own stash :
+
+
+- Thao tác này tạo ra một tệp `consignment.rgb` chứa nội dung sau:
+ - Lịch sử chuyển đổi chứng minh cho Alice thấy rằng token là hàng thật;
+ - Quá trình chuyển đổi mới này chuyển đổi token sang Alice dùng một lần (Seal);
+ - Giao dịch chứng kiến ​​(không có chữ ký).
+- Bob gửi tệp `consignment.rgb` này đến Alice (qua email, máy chủ chia sẻ hoặc giao thức RGB-RPC, Storm, v.v.);
+- Alice nhận được `consignment.rgb` và chấp nhận nó vào kho lưu trữ của mình:
+
 
 ```bash
 alice$ rgb accept consignment.rgb
 ```
 
 
-- The CLI checks the validity of the transition and adds it to Alice's stash. If invalid, the command fails with detailed error messages. Otherwise, it succeeds, and reports that the sample transaction has not yet been broadcast on the Bitcoin network (Bob is waiting for Alice's green light);
-- By way of confirmation, the `accept` command returns a signature (*payslip*) which Alice can send to Bob to show him that she has validated the *consignment* ;
-- Bob can then sign and publish (`--publish`) his Bitcoin transaction:
+
+
+- CLI kiểm tra tính hợp lệ của quá trình chuyển đổi và thêm nó vào kho lưu trữ của Alice. Nếu không hợp lệ, lệnh sẽ thất bại với các thông báo lỗi chi tiết. Ngược lại, lệnh sẽ thành công và báo cáo rằng giao dịch mẫu vẫn chưa được phát sóng trên mạng Bitcoin (Bob đang chờ tín hiệu xanh từ Alice);
+- Để xác nhận, lệnh `accept` trả về một chữ ký (*phiếu lương*) mà Alice có thể gửi cho Bob để chứng minh rằng cô ấy đã xác nhận *lô hàng*;
+- Bob sau đó có thể ký và công bố (`--publish`) giao dịch Bitcoin của mình:
+
 
 ```bash
 bob$ rgb check <sig> && wallet sign --publish tx.psbt
 ```
 
 
-- As soon as this transaction is confirmed on-chain, ownership of the asset is considered transferred to Alice. Alice's wallet, monitoring the transaction's mining, sees the new Owned State appear in its stash.
 
-You now know how to issue and transfer an RGB contract. If you found this tutorial useful, I'd be very grateful if you'd put a green thumb below. Please feel free to share this article on your social networks. Thank you very much!
 
-I also recommend this other tutorial in which I explain how to launch an RGB-compatible Lightning node to exchange tokens almost instantaneously:
+- Ngay sau khi giao dịch này được on-chain xác nhận, quyền sở hữu tài sản được coi là đã chuyển giao cho Alice. wallet của Alice, đang theo dõi giao dịch mining, thấy Owned State mới xuất hiện trong kho của mình.
+
+
+Giờ bạn đã biết cách phát hành và chuyển nhượng hợp đồng RGB. Nếu thấy hướng dẫn này hữu ích, tôi rất biết ơn nếu bạn nhấn nút thích bên dưới. Vui lòng chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn rất nhiều!
+
+
+Tôi cũng khuyên bạn nên xem hướng dẫn khác này, trong đó tôi giải thích cách khởi chạy một node Lightning tương thích với RGB để trao đổi token gần như tức thì:
+
 
 https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

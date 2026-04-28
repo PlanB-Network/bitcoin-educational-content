@@ -6,4 +6,4 @@ wrong_answers:
   - XOR adalah kebalikan dari penjumlahan
 explanation: |
   Operasi XOR dapat dilihat sebagai penjumlahan bit dengan modulo 2, membuat hasilnya identik.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
 question: What is the purpose of the revNNNNN.dat files stored alongside blkNNNNN.dat?
 answer: Restore UTXO set during reorganization
 wrong_answers:
-  - Restore UTXO set during a Hard Fork
-  - Restore Mempool during Hard Fork
-  - Restoring Mempool during a reorganization
+  - Restore UTXO set during a hard fork
+  - Restore mempool during hard fork
+  - Restore mempool during a reorganization
 explanation: |
   Each revNNNNN.dat contains the data needed to undo the effects of a block on the UTXO set, making it easier to manage reorganizations.
 reviewed: true

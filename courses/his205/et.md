@@ -1463,7 +1463,7 @@ Mis puutub vahetustehingutesse, siis mõned teooriad väidavad, et seda kasutati
 
 
 
-Nii et see on see, mida me selles osas teeme. Teeme omamoodi ülevaate, et tutvustada erinevaid teooriaid raha tekkimise kohta ja erinevaid määratlusi selle kohta, mis on raha. Esitame ja kritiseerime nii klassikaliste majandusteadlaste kui ka antropoloogide teese. Mul on isegi õnne, et mul on Ulrich Fromy kaasas, kes esitab Austria majandusteadlase vaatenurga nendele erinevatele teemadele.
+Nii et see on see, mida me selles osas teeme. Teeme omamoodi ülevaate, et tutvustada erinevaid teooriaid raha tekkimise kohta ja erinevaid määratlusi selle kohta, mis on raha. Esitame ja kritiseerime nii klassikaliste majandusteadlaste kui ka antropoloogide teese. Mul on isegi õnne, et mul on Ulrich kaasas, kes esitab Austria majandusteadlase vaatenurga nendele erinevatele teemadele.
 
 
 

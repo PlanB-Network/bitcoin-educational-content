@@ -5,5 +5,5 @@ wrong_answers:
   - 110,000
   - 11,000
 explanation: |
-   1 122 693 bitcoinów według badania Whale Alert opublikowanego w 2020 roku. Satoshi zaprzestał działalności Mining w maju 2010 roku.
-reviewed: false
+   1 122 693 bitcoinów według badania Whale Alert opublikowanego w 2020 roku. Satoshi zaprzestał działalności wydobywczej w maju 2010 roku.
+reviewed: true

@@ -1,6 +1,6 @@
 ---
-name: Apa kecenderungan politik kamu?
-goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan kamu sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
+name: Apa kecenderungan politik Anda?
+goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan Anda sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
 objectives: 
   - Memahami bahwa tipologi politik lebih bernuansa daripada sekadar sumbu kiri/kanan
   - Mengidentifikasi dua dimensi utama yang menyusun spektrum politik
@@ -11,11 +11,11 @@ objectives:
 
 ---
 
-Apakah posisi politik kamu bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik seperti sosialis, konservatif, sentris, dan libertarian, bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya seperti individualisme vs kolektivisme, dan pelajari cara mendefinisikan nilai-nilai kamu sendiri tanpa terjebak pada label-label tradisional.
+Apakah posisi politik Anda bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik seperti sosialis, konservatif, sentris, dan libertarian, bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya seperti individualisme vs kolektivisme, dan pelajari cara mendefinisikan nilai-nilai Anda sendiri tanpa terjebak pada label-label tradisional.
 
 
 
-Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang. Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari bisa diklasifikasikan pada sumbu linier, Bitcoin merupakan kekuatan desentralisasi yang menentang mata uang negara dan menawarkan jalan keluar yang damai dari inflasi serta pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang paling penting: apakah kamu yang menentukan hidup kamu sendiri, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis kamu dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu kamu.
+Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang. Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari bisa diklasifikasikan pada sumbu linier, Bitcoin merupakan kekuatan desentralisasi yang menentang mata uang negara dan menawarkan jalan keluar yang damai dari inflasi serta pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang paling penting: apakah Anda yang menentukan hidup Anda sendiri, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis Anda dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu Anda.
 
 
 
@@ -57,11 +57,11 @@ Namun, kategorisasi ini sering kali terlalu sederhana dan kurang efektif. Secara
 
 Kebanyakan orang yang berada di antara dua ekstrem tersebut sering disebut sebagai sentris, tetapi label ini juga terlalu menyederhanakan posisi mereka.
 
-Mari ambil contoh. Jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana kamu akan menempatkan mereka pada garis kiri dan kanan yang sederhana? Posisi seseorang dalam spektrum politik tidak bersifat statis dan sering kali bergantung pada isu yang sedang dibahas.
+Mari ambil contoh. Jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana Anda akan menempatkan mereka pada garis kiri dan kanan yang sederhana? Posisi seseorang dalam spektrum politik tidak bersifat statis dan sering kali bergantung pada isu yang sedang dibahas.
 
 Banyak orang merasa tidak cocok, karena kiri atau kanan, sosialis atau konservatif, tidak secara akurat menggambarkan pandangan mereka.
 
-Pernahkah kamu merasa bahwa kerangka ini tidak cukup untuk menjelaskan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya dan merasa bahwa label kiri atau kanan, sosialis atau konservatif, tidak benar-benar merepresentasikan apa yang mereka yakini.
+Pernahkah Anda merasa bahwa kerangka ini tidak cukup untuk menjelaskan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya dan merasa bahwa label kiri atau kanan, sosialis atau konservatif, tidak benar-benar merepresentasikan apa yang mereka yakini.
 
 Meskipun kriteria penentuan posisi ini masih berguna untuk menunjukkan kepekaan politik secara umum, pendekatan ini gagal secara konseptual dalam menjelaskan keragaman perdebatan dan posisi ideologis.
 
@@ -128,7 +128,7 @@ Mata uang fiat merupakan fondasi dari perluasan kekuasaan negara. Sistem ini mem
 
 Dalam kursus ini, kita akan melihat bahwa lanskap politik jauh lebih kaya dan kompleks dibandingkan sekadar dua kategori kiri dan kanan, melalui model visual yang membantu kita memahami berbagai keluarga politik dengan lebih baik.
 
-Sebelum memulai kursus ini, aku ingin mengajakmu untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
+Sebelum memulai kursus ini, saya ingin mengajak Anda untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
 
 
 
@@ -168,9 +168,9 @@ Sebelum memulai kursus ini, aku ingin mengajakmu untuk mengikuti kuis singkat. C
 
 
 
-Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul, yaitu tingkat kontrol pemerintah yang bisa kamu tolerir, dan dengan demikian juga tingkat pendanaan yang, secara sadar atau tidak, memaksa kamu untuk ikut berpartisipasi.
+Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul, yaitu tingkat kontrol pemerintah yang bisa Anda tolerir, dan dengan demikian juga tingkat pendanaan yang, secara sadar atau tidak, memaksa Anda untuk ikut berpartisipasi.
 
-Jadi, pertanyaan politik yang paling mendasar adalah: **Siapa yang harus memutuskan?** Dengan kata lain: **Apakah kamu yang membuat keputusan penting mengenai kehidupan pribadi dan sosial kamu, atau orang lain yang membuat keputusan untuk kamu?**
+Jadi, pertanyaan politik yang paling mendasar adalah: **Siapa yang harus memutuskan?** Dengan kata lain: **Apakah Anda yang membuat keputusan penting mengenai kehidupan pribadi dan sosial Anda, atau orang lain yang membuat keputusan untuk Anda?**
 
 Pada tahun 1966, dalam **Revolt on the Moon** (The Moon is a Harsh Mistress), novelis Robert Heinlein mengembangkan gagasan bahwa pemerintah pada akhirnya selalu cenderung mengumpulkan kekuasaan dan mengendalikan warga negara, sesuatu yang ia sebut sebagai penyakit manusia yang tidak terelakkan.
 
@@ -190,7 +190,7 @@ Dia mengamati bahwa umat manusia terbagi secara politis antara mereka yang ingin
 
 
 
-Saat ini, semua partai politik, baik kiri, tengah, maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan melakukan keterlibatan dalam hampir semua hal melalui peraturan dan pajak. Di media arus utama, kita melihat pola yang sama, di mana kerangka acuannya didominasi oleh statistik.
+Saat ini, semua partai politik, baik kiri, tengah, maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan melakukan intervensi dalam hampir semua hal melalui peraturan dan pajak. Di media arus utama, kita melihat pola yang sama, di mana kerangka acuannya didominasi oleh statistik.
 
 Jadi, apakah model politik tradisional kiri versus kanan perlu ditinggalkan? Dan jika iya, model apa yang seharusnya digunakan sebagai gantinya?
 
@@ -271,7 +271,7 @@ Skema ini didasarkan pada gagasan bahwa sebagian besar masalah politik dapat dib
 ### Kebebasan ekonomi
 
 
-Kategori Kebebasan Ekonomi mencakup apa yang kamu lakukan sebagai produsen dan konsumen, apa yang bisa kamu beli, jual, atau hasilkan. Ini juga mencakup di mana kamu bekerja, siapa yang kamu pekerjakan, serta apa yang kamu lakukan dengan uangmu.
+Kategori Kebebasan Ekonomi mencakup apa yang Anda lakukan sebagai produsen dan konsumen, apa yang bisa Anda beli, jual, atau hasilkan. Ini juga mencakup di mana Anda bekerja, siapa yang Anda pekerjakan, serta apa yang Anda lakukan dengan uang milik Anda.
 
 
 
@@ -281,7 +281,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sumbu sebelah kanan** (menuju 100 pada skala Masalah Ekonomi) terdapat preferensi terhadap **kebebasan ekonomi.** Ini berarti keterlibatan negara yang lebih minim dalam perekonomian, peraturan yang lebih sedikit, pajak yang lebih rendah, serta kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengonsumsi. Penekanannya ada pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
+- Di sumbu sebelah kanan** (menuju 100 pada skala Masalah Ekonomi) terdapat preferensi terhadap **kebebasan ekonomi.** Ini berarti intervensi negara yang lebih minim dalam perekonomian, peraturan yang lebih sedikit, pajak yang lebih rendah, serta kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengonsumsi. Penekanannya ada pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
  - Tokoh-tokoh simbolis:* Margaret Thatcher (Inggris), Ronald Reagan (Amerika Serikat), Javier Milei (Argentina).
 
 
@@ -292,7 +292,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sumbu sebelah kiri** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **keterlibatan negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
+- Di sumbu sebelah kiri** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **intervensi negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
   - Tokoh-tokoh lambang:* Franklin D. Roosevelt (AS), Jean Jaurès (Prancis), Bernie Sanders, Barack Obama.
 
 
@@ -305,10 +305,10 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-Kategori Kebebasan Pribadi mencakup apa yang kamu lakukan dalam hubungan pribadi, serta pendapat dan keyakinanmu. Secara umum, ini mencakup segala hal yang kamu lakukan dengan tubuh dan pikiranmu sendiri.
+Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi, serta pendapat dan keyakinan. Secara umum, ini mencakup segala hal yang Anda lakukan dengan tubuh dan pikiran Anda sendiri.
 
 
-*Contoh aktivitas pribadi:* pernikahan; memilih buku yang kamu baca dan film yang kamu tonton; makanan dan obat-obatan yang kamu pilih untuk dikonsumsi; olahraga; pilihan agamamu; organisasi yang kamu ikuti; orang-orang yang kamu pilih untuk bergaul.
+*Contoh aktivitas pribadi:* pernikahan; memilih buku yang Anda baca dan film yang Anda tonton; makanan dan obat-obatan yang Anda pilih untuk dikonsumsi; olahraga; pilihan agama Anda; organisasi yang Anda ikuti; orang-orang yang Anda pilih untuk bergaul.
 
 
 
@@ -336,7 +336,7 @@ Kategori Kebebasan Pribadi mencakup apa yang kamu lakukan dalam hubungan pribadi
 
 
 
-## Apakah kamu seorang statist sayap kanan atau sayap kiri?
+## Apakah Anda seorang statist sayap kanan atau sayap kiri?
 
 
 
@@ -356,7 +356,7 @@ Faktanya, kebijakan yang diterapkan oleh pemerintah sayap kanan maupun kiri sela
 
 Gagasan utama dari diagram Nolan adalah bahwa perbedaan utama antara berbagai filosofi politik, faktor penentu yang sesungguhnya, terletak pada tingkat kontrol pemerintah terhadap tindakan manusia, baik dalam ranah pribadi maupun ekonomi.
 
-Dengan kata lain, bukan hanya poros kiri-kanan yang mencerminkan nilai-nilai pribadimu, tetapi juga poros atas-bawah yang mencerminkan sejauh mana kamu bersedia menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilaimu.
+Dengan kata lain, bukan hanya poros kiri-kanan yang mencerminkan nilai-nilai pribadi Anda, tetapi juga poros atas-bawah yang mencerminkan sejauh mana Anda bersedia menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilai Anda.
 
 Dari sudut pandang ini, kanan dan kiri memiliki tujuan politik yang sama, yaitu memenangkan kekuasaan agar mereka dapat mengatur masyarakat sesuai dengan visi mereka tentang dunia dan memaksakannya kepada semua orang.
 
@@ -377,7 +377,7 @@ Sementara itu, kelompok kiri tidak terlalu mementingkan persyaratan moral dan ag
 
 
 
-## Apakah kamu seorang konservatif budaya atau konservatif politik?
+## Apakah Anda seorang konservatif budaya atau konservatif politik?
 
 
 <chapterId>bef3d6f1-390a-472d-8f18-a559d38aea54</chapterId>
@@ -392,7 +392,7 @@ Konservatisme budaya adalah kepatuhan pribadi terhadap apa yang disebut nilai-ni
 
 
 
-Jika kamu seorang konservatif budaya, kamu mendukung keluarga tradisional, etika kebajikan, dan kepercayaan kepada Tuhan. Konservatif budaya percaya bahwa manusia, untuk bisa bahagia, membutuhkan pengembangan jiwa, nilai-nilai spiritual, dan keluhuran perasaan.
+Jika Anda seorang konservatif budaya, Anda mendukung keluarga tradisional, etika kebajikan, dan kepercayaan kepada Tuhan. Konservatif budaya percaya bahwa manusia, untuk bisa bahagia, membutuhkan pengembangan jiwa, nilai-nilai spiritual, dan keluhuran perasaan.
 
 
 
@@ -400,7 +400,7 @@ Di sisi lain, **konservatisme politik** adalah cara mengorganisir masyarakat men
 
 
 
-Secara politis, konservatif budaya sering kali bergabung dengan barisan konservatisme politik. Namun, hal ini tidak selalu terjadi. Kedua konservatisme tersebut tidak selalu tidak dapat dipisahkan. **Kamu bisa menjadi seorang konservatif budaya dan seorang libertarian.**
+Secara politis, konservatif budaya sering kali bergabung dengan barisan konservatisme politik. Namun, hal ini tidak selalu terjadi. Kedua konservatisme tersebut tidak selalu tidak dapat dipisahkan. **Anda bisa menjadi seorang konservatif budaya dan seorang libertarian.**
 
 
 
@@ -420,7 +420,7 @@ Dalam praktiknya, tokoh-tokoh seperti Ron Paul atau pemikir seperti Rothbard dan
 
 
 
-## Apakah kamu seorang liberal atau libertarian?
+## Apakah Anda seorang liberal atau libertarian?
 
 
 <chapterId>d382c40b-78ce-416f-9f63-6ad43768406b</chapterId>
@@ -439,7 +439,7 @@ Di Eropa dan Amerika Serikat, beberapa kata tertentu tidak lagi memiliki arti ya
 
 
 
-Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan ideologi progresif. Bahkan, kaum *liberal* Amerika telah menjadi pendukung keterlibatan negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
+Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan ideologi progresif. Bahkan, kaum *liberal* Amerika telah menjadi pendukung intervensi negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
 
 
 
@@ -459,7 +459,7 @@ Sejak tahun 1960-an dan seterusnya, para pendukung liberalisme klasik di AS mula
 
 
 
-## Apakah kamu seorang libertarian atau libertaire/anarkis (dalam bahasa Prancis libertaire)?
+## Apakah Anda seorang libertarian atau libertaire/anarkis (dalam bahasa Prancis libertaire)?
 
 
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
@@ -544,7 +544,7 @@ Bagi Friedman, hasil yang terukur - seperti pertumbuhan ekonomi, pengurangan kem
 
 
 
-Definisi **struktural atau praktis**, berfokus pada bagaimana sistem politik bekerja dalam praktiknya, dan pada karakteristik yang dapat diamati. Sebagai contoh, sosialisme dicirikan oleh kecenderungan negara untuk mengambil alih, mengatur, dan merencanakan segalanya. Libertarianisme, di sisi lain, didefinisikan oleh keutamaan yang diberikan kepada individu dan kebebasannya, cenderung ke arah keterlibatan negara yang minimal dalam ekonomi dan di tempat lain.
+Definisi **struktural atau praktis**, berfokus pada bagaimana sistem politik bekerja dalam praktiknya, dan pada karakteristik yang dapat diamati. Sebagai contoh, sosialisme dicirikan oleh kecenderungan negara untuk mengambil alih, mengatur, dan merencanakan segalanya. Libertarianisme, di sisi lain, didefinisikan oleh keutamaan yang diberikan kepada individu dan kebebasannya, cenderung ke arah intervensi negara yang minimal dalam ekonomi dan di tempat lain.
 
 
 
@@ -643,7 +643,7 @@ Menurut Bernie Sanders, *reformasi ini, telah menjadi tatanan sosial bangsa dan 
 
 
 
-- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan keterlibatan negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat dan cenderung mendukung kewenangan polisi yang lebih luas. Sosialisme dipandang sebagai pemutusan hubungan yang brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme serta dalam penolakan terhadap intervensionisme pemerintah yang berlebihan.
+- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan intervensi negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat dan cenderung mendukung kewenangan polisi yang lebih luas. Sosialisme dipandang sebagai pemutusan hubungan yang brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme serta dalam penolakan terhadap intervensionisme pemerintah yang berlebihan.
 
 
 
@@ -747,7 +747,7 @@ Pada abad ke-20, muncul dua tren utama:
 2.  **Anarko-kapitalis lainnya:** yang percaya bahwa fungsi-fungsi negara harus diprivatisasi dan dikelola oleh pasar.
 
 
-Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide libertarian diekspresikan sejak abad ke-18 oleh kaum Fisiokrat, terutama Vincent de Gournay dan Turgot, dan dikembangkan oleh Condillac, Jean-Baptiste Say, dan Frédéric Bastiat. Pada abad ke-20, teori-teori ini diambil dan dikembangkan oleh [mazhab ekonomi Austria](https://planb.academy/resources/glossary/austrian-school), yang penulis utamanya adalah Ludwig von Mises, Friedrich Hayek, dan Murray Rothbard.
+Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide libertarian diekspresikan sejak abad ke-18 oleh kaum Fisiokrat, terutama Vincent de Gournay dan Turgot, dan dikembangkan oleh Condillac, Jean-Baptiste Say, dan Frédéric Bastiat. Pada abad ke-20, teori-teori ini diambil dan dikembangkan oleh mazhab ekonomi Austria, yang penulis utamanya adalah Ludwig von Mises, Friedrich Hayek, dan Murray Rothbard.
 
 
 
@@ -788,7 +788,7 @@ Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide liberta
 
 
 
-- Politik:** mereka ingin menggabungkan kontrol pemerintah dan pilihan individu untuk pendekatan yang stabil dan moderat. Ini adalah bentuk keterlibatan negara yang fleksibel dan bersifat kasus per kasus. Dalam bentuk pemerintahan teknokratis ini, keputusan politik didasarkan pada rasionalitas dan keahlian, bukan pada ideologi atau perdebatan partisan.
+- Politik:** mereka ingin menggabungkan kontrol pemerintah dan pilihan individu untuk pendekatan yang stabil dan moderat. Ini adalah bentuk intervensi negara yang fleksibel dan bersifat kasus per kasus. Dalam bentuk pemerintahan teknokratis ini, keputusan politik didasarkan pada rasionalitas dan keahlian, bukan pada ideologi atau perdebatan partisan.
 
 
 
@@ -812,7 +812,7 @@ Sentrisme juga mengakui pentingnya program-program sosial yang ditargetkan untuk
 
 
 
-Keynesianisme adalah teori ekonomi yang menganjurkan keterlibatan aktif pemerintah untuk menstabilkan ekonomi.
+Keynesianisme adalah teori ekonomi yang menganjurkan intervensi aktif pemerintah untuk menstabilkan ekonomi.
 
 
 
@@ -906,7 +906,7 @@ Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem
 Berikut ini adalah beberapa pertanyaan yang sering diajukan tentang isu-isu politik. Setiap pertanyaan diikuti dengan jawaban singkat yang khas dari seorang sosialis, konservatif, libertarian, dan sentris.
 
 
-Tentu saja, jawaban singkat ini hanya memberikan gambaran sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, jawaban-jawaban ini tentu terbuka untuk diperdebatkan. Meski begitu, aku sudah berusaha untuk bersikap adil dan secara akurat mewakili pandangan sebagian besar orang.
+Tentu saja, jawaban singkat ini hanya memberikan gambaran sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, jawaban-jawaban ini tentu terbuka untuk diperdebatkan. Meski begitu, saya sudah berusaha untuk bersikap adil dan secara akurat mewakili pandangan sebagian besar orang.
 
 
 Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang apa yang kita baca, makan, minum, merokok, pakaian yang kita kenakan, atau dengan siapa kita memilih untuk bergaul, tidur, atau menikah.
@@ -1073,7 +1073,7 @@ Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang ap
 
 
 
-Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, investasi, dan transaksi bisnis. Aku sendiri memilih lima pertanyaan untuk menampilkan jawaban dari tiap keluarga politik. Tentu saja, jawaban singkat ini hanya memberi gambaran umum dari masing-masing sudut pandang.
+Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, investasi, dan transaksi bisnis. Saya sendiri memilih lima pertanyaan untuk menampilkan jawaban dari tiap keluarga politik. Tentu saja, jawaban singkat ini hanya memberi gambaran umum dari masing-masing sudut pandang.
 
 
 ### Pajak
@@ -1123,7 +1123,7 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, i
 
 
 
-- Libertarian:** Ya. Upah minimum adalah keterlibatan buatan yang mendistorsi pasar tenaga kerja, menciptakan pengangguran, dan melanggar kebebasan berkontrak. Pasar seharusnya menentukan upah melalui negosiasi.
+- Libertarian:** Ya. Upah minimum adalah intervensi buatan yang mendistorsi pasar tenaga kerja, menciptakan pengangguran, dan melanggar kebebasan berkontrak. Pasar seharusnya menentukan upah melalui negosiasi.
 
 
 
@@ -1297,7 +1297,7 @@ Konsep *tatanan spontan* dan *tatanan terkonstruksi* sangat penting untuk memaha
 
 Konstruktivisme merujuk pada keinginan untuk membentuk masyarakat berdasarkan rencana tertentu. Pendekatan ini berupaya memaksakan visi masyarakat yang sudah ditentukan sebelumnya melalui tindakan negara atau entitas lain seperti serikat pekerja, LSM, kelompok penekan, atau organisasi internasional.
 
-Kebalikan dari konstruktivisme adalah tatanan spontan, yaitu tatanan yang muncul secara alami dari interaksi bebas antarindividu. Sementara itu, tatanan yang dibangun merupakan hasil keterlibatan yang disengaja dan terencana untuk membentuk masyarakat sesuai visi tertentu, baik yang bersifat konservatif (mempertahankan keadaan) maupun progresif (mendorong perubahan).
+Kebalikan dari konstruktivisme adalah tatanan spontan, yaitu tatanan yang muncul secara alami dari interaksi bebas antarindividu. Sementara itu, tatanan yang dibangun merupakan hasil intervensi yang disengaja dan terencana untuk membentuk masyarakat sesuai visi tertentu, baik yang bersifat konservatif (mempertahankan keadaan) maupun progresif (mendorong perubahan).
 
 Kaum konstruktivis percaya bahwa masyarakat dapat dibangun sesuai dengan kehendak mereka. Sebaliknya, kaum libertarian meyakini bahwa masyarakat terbentuk dengan sendirinya secara tidak terduga melalui proses koordinasi antarindividu.
 
@@ -1355,13 +1355,13 @@ Konstruktivis, sentris, konservatif, dan sosialis semuanya sepakat pada satu poi
 
 
 
-- Yang aku maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
+- Yang saya maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
 
 
 
 
 
-- Yang aku maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
+- Yang saya maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
 
 
 
@@ -1527,10 +1527,10 @@ Di akhir kursus ini, kami merasa penting untuk membahas posisi politik Bitcoin d
 
 
 
-Bitcoin adalah [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) terdesentralisasi yang diciptakan oleh Satoshi Nakamoto pada tahun 2008. Teknologi ini memungkinkan transaksi keuangan langsung [antarindividu](https://planb.academy/resources/glossary/peertopeer-p2p) tanpa perlu saling percaya.
+Bitcoin adalah mata uang kripto terdesentralisasi yang diciptakan oleh Satoshi Nakamoto pada tahun 2008. Teknologi ini memungkinkan transaksi keuangan langsung antarindividu tanpa perlu saling percaya.
 
 
-Bitcoin dijalankan oleh protokol perangkat lunak [sumber terbuka](https://planb.academy/resources/glossary/foss), tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas resmi. Artinya, tidak ada entitas politik atau pemerintah yang mengendalikannya.
+Bitcoin dijalankan oleh protokol perangkat lunak sumber terbuka, tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas resmi. Artinya, tidak ada entitas politik atau pemerintah yang mengendalikannya.
 
 
 Sifat netral ini sering membingungkan sebagian orang, bahkan membuat Bitcoin tampak seperti teknologi yang apolitis, mirip dengan Internet pada abad ke-20 atau mesin cetak pada abad ke-14.
@@ -1543,7 +1543,7 @@ Namun, meskipun Bitcoin bukan milik sayap kanan atau kiri, dan juga tidak terkai
 
 
 
-Membaca [Buku Putih](https://planb.academy/resources/glossary/white-paper) Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang untuk menawarkan perlindungan inovatif terhadap dua ancaman kontemporer utama: pengawasan yang meluas dan percepatan penciptaan uang buatan.
+Membaca Buku Putih Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang untuk menawarkan perlindungan inovatif terhadap dua ancaman kontemporer utama: pengawasan yang meluas dan percepatan penciptaan uang buatan.
 
 
 
@@ -1551,7 +1551,7 @@ Membaca [Buku Putih](https://planb.academy/resources/glossary/white-paper) Nakam
 
 
 
-2. Bitcoin memungkinkan siapa pun untuk melindungi tabungan mereka dari penggerusan nilai akibat [inflasi](https://planb.academy/resources/glossary/inflation) moneter, yang pada dasarnya merupakan bentuk pengambilan paksa atas kepemilikan pribadi. Bitcoin berupaya menantang kendali negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian menjadi pesaing bagi negara. Krisis keuangan 2008 dan pandemi Covid-19 telah menyingkap berbagai kelemahan dalam sistem yang ada. Triliunan dolar yang dicetak demi mencegah keruntuhan ekonomi justru menimbulkan dampak negatif yang besar, dan akibatnya masih kita rasakan hingga hari ini.
+2. Bitcoin memungkinkan siapa pun untuk melindungi tabungan mereka dari penggerusan nilai akibat inflasi moneter, yang pada dasarnya merupakan bentuk pengambilan paksa atas kepemilikan pribadi. Bitcoin berupaya menantang kendali negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian menjadi pesaing bagi negara. Krisis keuangan 2008 dan pandemi Covid-19 telah menyingkap berbagai kelemahan dalam sistem yang ada. Triliunan dolar yang dicetak demi mencegah keruntuhan ekonomi justru menimbulkan dampak negatif yang besar, dan akibatnya masih kita rasakan hingga hari ini.
 
 
 
@@ -1578,7 +1578,7 @@ Karena itu, titik awal pendekatan intelektual Satoshi Nakamoto adalah kritik ter
 
 
 
-Pencantuman judul ini dalam [blok genesis](https://planb.academy/resources/glossary/genesis-block) terbuka untuk berbagai tafsir. Namun, hal ini dapat dipahami sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, sekaligus pernyataan tujuan Bitcoin, yaitu menawarkan alternatif bagi sistem perbankan yang terpusat.
+Pencantuman judul ini dalam blok genesis terbuka untuk berbagai tafsir. Namun, hal ini dapat dipahami sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, sekaligus pernyataan tujuan Bitcoin, yaitu menawarkan alternatif bagi sistem perbankan yang terpusat.
 
 
 Ketika negara menerapkan kontrol ketat atas seluruh transaksi, misalnya dengan membatasi penggunaan uang tunai atau memberlakukan mata uang digital terpusat, negara pada dasarnya memperoleh kendali penuh atas perekonomian. Kondisi ini mengurangi kebebasan individu untuk memilih dan bersikap berdaulat. Dengan memantau semua transaksi, negara juga dapat lebih mudah menemukan sumber pajak baru dan menerapkan regulasi yang semakin ketat.
@@ -1594,15 +1594,15 @@ Bitcoin dirancang untuk membatasi kekuasaan pemerintah atas mata uang. Dengan de
 
 
 
-- Pemerintah dapat mengambil euro dari rekening bank milikmu.
-- Ia dapat mengambil rumah dan tanah milikmu.
-- Hal ini dapat mengambil saham milikmu.
-- Itu bisa mengambil emas milikmu.
-- Ia dapat mengambil segalanya dari milikmu.
+- Pemerintah dapat mengambil euro dari rekening bank milik Anda.
+- Ia dapat mengambil rumah dan tanah milik Anda.
+- Hal ini dapat mengambil saham milik Anda.
+- Itu bisa mengambil emas milik Anda.
+- Ia dapat mengambil segalanya dari milik Anda.
 
 
 
-Tetapi pemerintah tidak dapat mengambil bitcoinmu, karena tidak dapat menyita isi pikiran kamu.
+Tetapi pemerintah tidak dapat mengambil bitcoin Anda, karena tidak dapat menyita isi pikiran Anda.
 
 
 
@@ -1612,7 +1612,7 @@ Itulah sebabnya Bitcoin dibangun di atas satu pengandaian filosofis yang mendasa
 Dalam konteks ini, Bitcoin digerakkan oleh sebuah visi dunia yang bersifat moral sekaligus politis. Ketika negara memonopoli uang, individu berada dalam sistem negara, baik yang berhaluan kanan maupun kiri. Proyek Bitcoin bertujuan menawarkan pasar uang yang bebas dan terbuka bagi semua orang.
 
 
-Namun, Bitcoin tidak muncul begitu saja. Ia bertumpu pada kemajuan di bidang matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun sangat brilian, membangun karyanya di atas gagasan-gagasan para inovator sebelumnya, termasuk para pelopor gerakan [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
+Namun, Bitcoin tidak muncul begitu saja. Ia bertumpu pada kemajuan di bidang matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun sangat brilian, membangun karyanya di atas gagasan-gagasan para inovator sebelumnya, termasuk para pelopor gerakan cypherpunk.
 
 
 ## Siapakah para cypherpunks itu?
@@ -1634,7 +1634,7 @@ Gerakan ini muncul di tengah pesatnya perkembangan teknologi informasi dan komun
 
 
 
-Gagasannya adalah membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang melalui penggunaan alat-alat [kriptografi](https://planb.academy/resources/glossary/cryptography) digital. Dengan cara ini, otoritas negara tidak lagi memiliki kendali penuh atas aktivitas daring.
+Gagasannya adalah membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang melalui penggunaan alat-alat kriptografi digital. Dengan cara ini, otoritas negara tidak lagi memiliki kendali penuh atas aktivitas daring.
 
 
 
@@ -1645,7 +1645,7 @@ Manifesto Cypherpunk, yang ditulis oleh Eric Hughes pada tahun 1993, merangkum f
 
 
 
-> Privasi sangat penting bagi masyarakat terbuka di era elektronik (...) Kita tidak bisa mengharapkan pemerintah, perusahaan, atau organisasi anonim besar lainnya untuk menjamin privasi kita (...) Tujuanku yang utama untuk Cypherpunks adalah untuk membuat orang mempertahankan privasi mereka, daripada mengandalkan orang lain untuk menyediakannya.
+> Privasi sangat penting bagi masyarakat terbuka di era elektronik (...) Kita tidak bisa mengharapkan pemerintah, perusahaan, atau organisasi anonim besar lainnya untuk menjamin privasi kita (...) Tujuan utama saya untuk Cypherpunks adalah untuk membuat orang mempertahankan privasi mereka, daripada mengandalkan orang lain untuk menyediakannya.
 >
 
 
@@ -1713,7 +1713,7 @@ Dari sudut pandang ini, tanpa secara eksplisit mengklaim sebagai bagian dari kub
 
 
 
-Dalam mata kuliah ini, aku mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap keterlibatan negara.
+Dalam mata kuliah ini, saya mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap intervensi negara.
 
 
 
@@ -1729,7 +1729,7 @@ Karena itu, cara yang paling tepat untuk memahami politik adalah dengan berangka
 
 
 
-Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah kamu ingin membuat keputusan penting dalam hidup, atau apakah kamu ingin orang lain yang membuat keputusan untukmu?
+Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah Anda ingin membuat keputusan penting dalam hidup, atau apakah Anda ingin orang lain yang membuat keputusan untuk Anda?
 
 
 

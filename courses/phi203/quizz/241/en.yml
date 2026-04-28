@@ -1,0 +1,8 @@
+question: What paradox does the text identify in the state's treatment of education and healthcare?
+answer: The state considers these sectors so essential that it must monopolise them, but it is precisely because they are so useful that they would be highly valued in a regime of freedom
+wrong_answers:
+  - The state invests the most resources in these sectors yet achieves the worst outcomes, proving that spending alone cannot improve service quality
+  - The state claims to protect these sectors from market failures yet introduces the very inefficiencies it claims to prevent
+  - The state declares these sectors public goods yet charges users fees that exclude the poorest members of society from access
+explanation: |
+  The text explicitly identifies this as a paradoxical situation: the state's justification for monopolising education and healthcare is that they are so essential they cannot be left to the market. But the consequence is precisely the opposite of the stated intention — because these services are so useful, they would be highly valued and richly rewarded in a free market. State monopolisation, by removing the price mechanism and market competition, devalues the very services it claims to protect, sacrificing the professionals who produce them.

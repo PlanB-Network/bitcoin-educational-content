@@ -12,6 +12,9 @@ objectives:
 Mitä tarvitaan Bitcoinin päälle rakentamiseen? Tämä 20 tunnin kurssi vie sinut Bitcoinin ja Lightning Networkin pinnan alle, tutkien protokollia, jotka voimistavat maailman kestävintä rahoitusinfrastruktuuria. Olitpa sitten kiinnostunut osallistumaan avoimen lähdekoodin projekteihin tai rakentamaan seuraavan sukupolven Bitcoin-sovelluksia, saat teknisen syvyyden, jota tarvitset työskennelläksesi luottavaisesti tässä ekosysteemissä.
 
 Tallennettu CUBO+ 2023 bootcampin aikana El Salvadorissa, tämä kurssi kokoaa yhteen johtavien Bitcoin-kehittäjien ja kouluttajien näkökulmat, jotka ovat muovanneet teknologiaa. Paras osa? Se on täysin ilmainen, mahdollistettu Fulgure Venturesn, Bitcoin Officen ja DecouvreBitcoinin toimesta. Jos olet ollut utelias siitä, miten Bitcoin todella toimii protokollatasolla, tämä on tilaisuutesi selvittää se.
+
+Huomio: Tämän kurssin videot ovat saatavilla vain englanniksi.
+
 +++
 # Johdanto ja valmistavat kurssit
 

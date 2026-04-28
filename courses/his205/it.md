@@ -1463,7 +1463,7 @@ Per quanto riguarda il baratto, alcune teorie suggeriscono che fosse usato sopra
 
 
 
-Ecco cosa faremo in questa sezione. Condurremo una sorta di indagine per presentare le diverse teorie sulla nascita del denaro e le diverse definizioni di cosa sia il denaro. Presenteremo e criticheremo le tesi degli economisti classici e degli antropologi. Avrò anche la fortuna di avere con me Ulrich Fromy, che presenterà il punto di vista di un economista austriaco su questi vari argomenti.
+Ecco cosa faremo in questa sezione. Condurremo una sorta di indagine per presentare le diverse teorie sulla nascita del denaro e le diverse definizioni di cosa sia il denaro. Presenteremo e criticheremo le tesi degli economisti classici e degli antropologi. Avrò anche la fortuna di avere con me Ulrich, che presenterà il punto di vista di un economista austriaco su questi vari argomenti.
 
 
 

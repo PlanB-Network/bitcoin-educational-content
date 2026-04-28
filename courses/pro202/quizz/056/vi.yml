@@ -1,5 +1,5 @@
 question: Lý do chính khiến các giao dịch SegWit được bao bọc bởi P2SH sử dụng ba lớp quy tắc xác thực trong quá trình xác minh là gì?
-answer: Để đảm bảo khả năng tương thích ngược giữa các node trước BIP16, sau BIP16 và SegWit trong khi vẫn duy trì sự đồng thuận.
+answer: Để đảm bảo khả năng tương thích ngược giữa các nút trước BIP16, sau BIP16 và SegWit trong khi vẫn duy trì sự đồng thuận.
 wrong_answers:
   - Để tăng gấp ba lần mức độ bảo mật bằng cách yêu cầu ba bằng chứng mật mã riêng biệt trước khi chấp nhận giao dịch.
   - Phân bổ khối lượng công việc xác thực trên các loại nút khác nhau để cải thiện hiệu suất và khả năng mở rộng của mạng.

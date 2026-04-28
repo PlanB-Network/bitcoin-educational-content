@@ -1,4 +1,4 @@
-question: Những rủi ro nào liên quan đến việc sử dụng một node của bên thứ ba?
+question: Những rủi ro nào liên quan đến việc sử dụng một nút của bên thứ ba?
 
 answer: Kiểm duyệt và giám sát hoạt động.
 
@@ -8,6 +8,6 @@ wrong_answers:
   - Trộm bitcoin và theo dõi.
 
 explanation: |
-  Nếu bạn sử dụng một node không thuộc về bạn, bạn có nguy cơ bị chặn việc phát sóng giao dịch và bị chủ sở hữu node giám sát.
+  Nếu bạn sử dụng một nút không thuộc về bạn, bạn có nguy cơ bị chặn việc phát sóng giao dịch và bị chủ sở hữu nút giám sát.
 
 reviewed: false

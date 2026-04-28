@@ -924,6 +924,8 @@ Kuna maelezo muhimu ya kuzingatia kuhusu marekebisho haya: **ni mdogo**. Bitcoin
 
 
 
+Tukumbuke pia kwamba katika hali halisi, marekebisho ya ugumu wa Bitcoin si sahihi kabisa. Hakika, tumeona kwamba imepangwa kuhesabu tena ugumu kila baada ya vitalu 2016, kwa kulinganisha muda halisi uliopita na muda uliokusudiwa wa siku 14 (2016 × dakika 10). Hata hivyo, kodi asili ya Satoshi ina hitilafu inayoitwa "*off-by-one*": badala ya kupima muda kati ya vitalu vya mwisho vya kila kipindi (yaani vipindi 2016), inapima muda kati ya kitalu cha kwanza na cha mwisho, ambao ni vipindi 2015 pekee. Kwa hakika, ugumu huhesabiwa kana kwamba kipindi hicho kilikuwa na vitalu 2015 pekee badala ya 2016. Matokeo yake ni kwamba ugumu unakadiriwa kuwa juu kidogo kupita kiasi kila wakati, jambo ambalo hufanya vitalu kuchimbwa kwa wastani polepole kidogo kuliko dakika 10 zilizokusudiwa (takriban 0.05% polepole zaidi). Mdudu huyu anajulikana vizuri lakini hajawahi kusahihishwa, kwa sababu kuubadilisha kungehitaji hard fork na athari yake inabaki kuwa ndogo katika utendaji, mbali na shambulio la nadharia linaloitwa "*time warp*".
+
 ### Uwakilishi wa shabaha
 
 

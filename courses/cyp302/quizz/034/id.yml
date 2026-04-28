@@ -5,4 +5,5 @@ wrong_answers:
   - Sebuah string berpanjang tetap dari sebuah peristiwa acak alami
   - Sebuah string acak yang dipilih hanya dari nilai biner 0 dan 1
 explanation: |
-  Sebuah string pseudorandom dihasilkan oleh algoritma ekspansi dari sebuah benih yang lebih kecil, dengan cara yang meniru pemilihan seragam di antara semua string dengan panjang yang sama.
+  Sebuah string pseudorandom dihasilkan oleh algoritma ekspansi dari sebuah seed yang lebih kecil, dengan cara yang meniru pemilihan seragam di antara semua string dengan panjang yang sama.
+reviewed: true

@@ -1,9 +1,9 @@
 question: Kada korisnik mora instalirati indeksator?
-answer: Da pokrenete Block explorer
+answer: Da bi pokrenuo istraživač blokova (eng. Block explorer)
 wrong_answers:
-  - Za Mining blokira samog sebe
-  - Da aktivirate Lightning Network
-  - Da potpišete transakcije
+  - Da bi samostalno rudario blokove
+  - Da bi aktivirao Lightning Network
+  - Da bi potpisao transakcije
 explanation: |
-  Indekser postaje neophodan za napredne upotrebe, kao što je lokalni istraživač.
+  Indeksator postaje neophodan za napredne upotrebe, kao što je lokalni istraživač (explorer).
 reviewed: true

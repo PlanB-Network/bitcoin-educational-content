@@ -6,4 +6,4 @@ wrong_answers:
   - Ini selalu mengembalikan 0 terlepas dari hasilnya
 explanation: |
   Operasi XOR (atau exclusive or) menghasilkan 1 jika dua bit tersebut berbeda (0 dan 1 atau 1 dan 0) dan 0 jika mereka sama.
-reviewed: false
+reviewed: true

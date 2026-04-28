@@ -6,4 +6,4 @@ wrong_answers:
   - Bằng chứng cổ phần
 explanation: |
   Single-Use Seal (tem sử dụng một lần) tận dụng thực tế là UTXO chỉ có thể được chi tiêu một lần, đảm bảo khả năng chống lại việc chi tiêu gấp đôi trong các hợp đồng thông minh RGB.
-reviewed: false
+reviewed: true

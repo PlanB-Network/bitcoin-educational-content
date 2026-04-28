@@ -1,9 +1,9 @@
-question: Đặc điểm nào tạo nên sự phức tạp của quy trình thanh toán bằng thẻ hiện nay tại điểm bán lẻ?
-answer: Quá trình này liên quan đến nhiều bên trung gian, nhiều bước và có thể mất nhiều ngày để giải quyết xong toàn bộ số tiền.
+question: Đặc điểm nào tạo nên sự phức tạp của quy trình thanh toán bằng thẻ tại điểm bán lẻ hiện nay?
+answer: Quy trình này liên quan đến nhiều bên trung gian, nhiều bước và có thể mất nhiều ngày để tất toán xong toàn bộ số tiền.
 wrong_answers:
   - Chỉ cần một bước đơn giản và tiền sẽ được giải ngân ngay lập tức.
-  - Nó chỉ dựa vào tiền mặt và không có trung gian.
-  - Nó đảm bảo rằng khi quẹt thẻ, người bán sẽ có tiền ngay lập tức và không thể hoàn lại.
+  - Chỉ dựa vào tiền mặt và không có trung gian.
+  - Đảm bảo rằng khi quẹt thẻ, người bán sẽ có tiền ngay lập tức và không thể hoàn lại.
 explanation: |
-  Thanh toán bằng thẻ thường liên quan đến một chuỗi trung gian (ngân hàng thu mua, ngân hàng phát hành, mạng lưới thẻ), yêu cầu các bước ủy quyền và thanh toán, và có thể mất từ 48 giờ đến vài ngày trước khi người bán nhận được tiền ròng.
+  Thanh toán bằng thẻ thường liên quan đến một chuỗi cung ứng dịch vụ trung gian (ngân hàng thu mua, ngân hàng phát hành, mạng lưới thẻ), yêu cầu các bước ủy quyền và thanh toán, và có thể mất từ 48 giờ đến vài ngày trước khi người bán nhận được tiền đã bán sau khi trừ cách phí giao dịch.
 reviewed: true

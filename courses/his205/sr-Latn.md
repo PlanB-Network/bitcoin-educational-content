@@ -1463,7 +1463,7 @@ Na primer, u Mesopotamiji, jedna teorija o nastanku sugeriše da hram, kao autor
 
 
 
-Dakle, to je ono što ćemo raditi u ovom delu. Sprovešćemo neku vrstu istraživanja kako bismo predstavili različite teorije o nastanku novca i različite definicije šta je novac. Predstavićemo i kritikovati teze kako klasičnih ekonomista, tako i antropologa. Imaću čak sreću da sa mnom bude Ulrich Fromy, koji će predstaviti perspektivu austrijskog ekonomiste o ovim raznim temama.
+Dakle, to je ono što ćemo raditi u ovom delu. Sprovešćemo neku vrstu istraživanja kako bismo predstavili različite teorije o nastanku novca i različite definicije šta je novac. Predstavićemo i kritikovati teze kako klasičnih ekonomista, tako i antropologa. Imaću čak sreću da sa mnom bude Ulrich, koji će predstaviti perspektivu austrijskog ekonomiste o ovim raznim temama.
 
 
 

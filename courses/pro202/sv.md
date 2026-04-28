@@ -17,6 +17,7 @@ Denna intensiva tvådagarskurs, som leds av Jimmy Song, tar dig djupt in i Bitco
 
 Ha en trevlig resa!
 
+Obs: Videorna för denna kurs är endast tillgängliga på engelska.
 
 +++
 

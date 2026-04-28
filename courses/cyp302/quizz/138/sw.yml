@@ -2,8 +2,8 @@ question: Je, kipengele cha Hash lazima kiwe na mali gani ili kuhakikisha usalam
 answer: Upinzani wa mgongano
 wrong_answers:
   - Ugeuzaji
-  - Uendeshaji na funguo za asymmetric
+  - Uendeshaji na funguo za kriptografia isiyolinganishwa
   - Uzalishaji wa wakati halisi
 explanation: |
   Upinzani wa mgongano huhakikisha kuwa haiwezekani kupata pembejeo mbili tofauti zinazozalisha Hash sawa, ambayo ni muhimu kwa kuthibitisha kuwa programu haijaingiliwa.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Nambari kutoka 1 hadi 26
 explanation: |
   Katika usimbaji fiche wa shift, ufunguo ni nambari kati ya 0 na 25, ambayo inalingana na idadi ya nafasi za shift zinazotumika kwa kila herufi ya ujumbe katika alfabeti ya herufi 26.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Des octets par seconde
 explanation: |
   Le hashrate exprime le nombre d’essais de hachage réalisés chaque seconde, en H/s.
-reviewed: false
+reviewed: true 

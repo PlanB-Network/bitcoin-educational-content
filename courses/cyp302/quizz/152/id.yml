@@ -6,3 +6,4 @@ wrong_answers:
   - Digunakan untuk menghitung φ(N)
 explanation: |
   Kunci privat d digunakan untuk mendekripsi pesan yang telah dienkripsi, dengan menyelesaikan perhitungan menggunakan modulus N.
+reviewed: true

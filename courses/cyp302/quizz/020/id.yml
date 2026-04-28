@@ -6,4 +6,4 @@ wrong_answers:
   - Angka yang membagi tanpa sisa
 explanation: |
   Operasi modulo melibatkan penentuan sisa dari sebuah pembagian, contohnya, 25 mod 4 sama dengan 1 karena sisa dari pembagian tersebut adalah 1.
-reviewed: false
+reviewed: true

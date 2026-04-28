@@ -1,0 +1,330 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "course-characteristics",
+  "description": "Schema for validating course metadata (course.yml)",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the course (UUID format)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "topic": {
+      "type": "string",
+      "description": "Main topic of the course (lowercase)",
+      "enum": ["bitcoin", "business", "mining", "protocol", "security", "sociology", "sovereignty", "social studies"]
+    },
+    "subtopic": {
+      "type": "string",
+      "description": "Subtopic of the course (lowercase), depends on the main topic",
+      "enum": [
+        "bitcoin",
+        "business",
+        "accounting",
+        "data-analysis",
+        "entrepreneurship",
+        "finance",
+        "point-of-sale",
+        "point-of-sales",
+        "mining",
+        "energy",
+        "protocol",
+        "client-side-validation",
+        "client side validation",
+        "script",
+        "sidechain",
+        "lightning",
+        "lightning network",
+        "network",
+        "security",
+        "cryptography",
+        "sociology",
+        "economy",
+        "history",
+        "philosophy",
+        "social studies",
+        "sovereignty",
+        "do-it-yourself",
+        "open-source",
+        "development"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of course content",
+      "enum": ["theory", "practice"]
+    },
+    "level": {
+      "type": "string",
+      "description": "Difficulty level of the course",
+      "enum": ["beginner", "intermediate", "advanced", "expert", "wizard"]
+    },
+    "hours": {
+      "type": "integer",
+      "description": "Estimated number of hours to complete the course",
+      "minimum": 1
+    },
+    "teaching_format": {
+      "type": "string",
+      "description": "How the course is delivered",
+      "enum": ["self_paced", "professor_led"]
+    },
+    "professors_id": {
+      "type": "array",
+      "description": "List of professor UUIDs who teach this course",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+      },
+      "minItems": 1
+    },
+    "project_id": {
+      "type": "string",
+      "description": "UUID of the project associated with this course",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor GitHub usernames",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "published_at": {
+      "type": "string",
+      "description": "Date when the course was published (YYYY-MM-DD format)",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "original_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code of the original course language",
+      "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language version",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "ISO 639-1 language code for this proofreading entry",
+            "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+          },
+          "last_contribution_date": {
+            "type": ["string", "null"],
+            "description": "Date of the last contribution in YYYY-MM-DD format",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": "integer",
+            "description": "Level of urgency for proofreading, 1 being low urgency",
+            "minimum": 1
+          },
+          "contributor_names": {
+            "type": ["array", "null"],
+            "description": "List of contributor GitHub usernames",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number",
+            "description": "Amount of sats available for reward",
+            "minimum": 0
+          }
+        },
+        "required": ["language", "urgency", "reward"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with this course from the PlanB Network tag list",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "License of the course content",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    },
+    "test_only": {
+      "type": "boolean",
+      "description": "If true, course is only published on testnet; if false, on mainnet"
+    },
+    "format": {
+      "type": "string",
+      "description": "Delivery format for live/in-person courses (only for courses with presentation.md)",
+      "enum": ["online", "inperson", "hybrid"]
+    },
+    "address_city_country": {
+      "type": "string",
+      "description": "City and country for in-person courses (e.g., 'Paris, France')"
+    },
+    "address_line_2": {
+      "type": "string",
+      "description": "Detailed address for in-person courses (e.g., '3 rue de Montyon, 9eme arrondissement')"
+    },
+    "start_date": {
+      "type": "string",
+      "description": "Start date of the course in YYYY-MM-DD format",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "end_date": {
+      "type": "string",
+      "description": "End date of the course in YYYY-MM-DD format",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "requires_payment": {
+      "type": "boolean",
+      "description": "Whether the course requires payment for registration"
+    },
+    "inperson_price_dollars": {
+      "type": "number",
+      "description": "Price in USD for in-person attendance (0 for free courses)",
+      "minimum": 0
+    },
+    "payment_expiration_date": {
+      "type": "string",
+      "description": "Last date for payment/registration in YYYY-MM-DD format",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "available_seats": {
+      "type": "integer",
+      "description": "Number of available seats for the course",
+      "minimum": 1
+    },
+    "paid_description": {
+      "type": "string",
+      "description": "Description shown for paid/registered users"
+    },
+    "is_gdpr_compliance": {
+      "type": "boolean",
+      "description": "Whether GDPR compliance is required for registration"
+    },
+    "custom_tc_disclaimer": {
+      "type": "string",
+      "description": "Custom terms and conditions disclaimer for registration"
+    },
+    "videos": {
+      "type": "array",
+      "description": "Optional list of video content associated with course chapters",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "UUID identifier for the video entry",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "youtube": {
+            "type": "array",
+            "description": "List of YouTube video IDs by language",
+            "items": {
+              "type": "object",
+              "description": "Language code to YouTube video ID mapping",
+              "additionalProperties": {
+                "type": "string",
+                "description": "YouTube video ID"
+              }
+            }
+          },
+          "peertube": {
+            "type": "array",
+            "description": "List of PeerTube video IDs by language",
+            "items": {
+              "type": "object",
+              "description": "Language code to PeerTube video ID mapping",
+              "additionalProperties": {
+                "type": "string",
+                "description": "PeerTube video ID"
+              }
+            }
+          },
+          "rumble": {
+            "type": "array",
+            "description": "List of Rumble video IDs by language",
+            "items": {
+              "type": "object",
+              "description": "Language code to Rumble video ID mapping",
+              "additionalProperties": {
+                "type": "string",
+                "description": "Rumble video ID"
+              }
+            }
+          }
+        },
+        "required": ["id"],
+        "anyOf": [
+          { "required": ["youtube"] },
+          { "required": ["peertube"] },
+          { "required": ["rumble"] }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "id",
+    "topic",
+    "subtopic",
+    "level",
+    "hours",
+    "professors_id",
+    "original_language",
+    "proofreading"
+  ],
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "format": { "enum": ["inperson", "hybrid"] }
+        },
+        "required": ["format"]
+      },
+      "then": {
+        "required": [
+          "address_city_country",
+          "start_date",
+          "end_date",
+          "requires_payment",
+          "available_seats"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "format": { "const": "online" }
+        },
+        "required": ["format"]
+      },
+      "then": {
+        "required": [
+          "start_date",
+          "end_date",
+          "requires_payment"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "requires_payment": { "const": true }
+        },
+        "required": ["requires_payment"]
+      },
+      "then": {
+        "required": [
+          "payment_expiration_date"
+        ]
+      }
+    }
+  ]
+}

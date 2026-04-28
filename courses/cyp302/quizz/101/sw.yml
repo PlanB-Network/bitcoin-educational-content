@@ -6,4 +6,4 @@ wrong_answers:
   - Msimbo wa uthibitishaji wa ujumbe kulingana na Diffie-Hellman
 explanation: |
   HMAC ni msimbo wa uthibitishaji wa ujumbe unaotumia chaguo za kukokotoa za Hash, kama vile SHA-256, kuunda lebo inayothibitisha uadilifu na uhalisi wa ujumbe.
-reviewed: false
+reviewed: true

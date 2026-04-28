@@ -21,6 +21,7 @@ Bitaxe-prosjektet representerer et paradigmeskifte innen Bitcoin mining, og bryt
 
 Ingen tidligere mining-erfaring er påkrevd, men grunnleggende elektronikkunnskaper og kjennskap til GitHub vil være nyttig. Kurset vil forvandle deg fra en nysgjerrig observatør til en dyktig Bitaxe-bygger og bidragsyter.
 
+Merk: Videoene til dette kurset er kun tilgjengelige på engelsk.
 
 +++
 

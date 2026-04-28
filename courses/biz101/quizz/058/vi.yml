@@ -1,9 +1,9 @@
-question: Một lợi ích của việc sử dụng wallet giám hộ cho hồ sơ Starter là gì?
-answer: Giảm trách nhiệm kỹ thuật
+question: Một lợi ích của việc sử dụng ví giám hộ dành cho người mới bắt đầu là gì?
+answer: Giảm thiểu các khó khăn về mặt kỹ thuật
 wrong_answers:
-  - Tăng cường kiểm soát khóa riêng tư
-  - Quyền riêng tư được tăng cường với quyền tự chủ hoàn toàn đối với các giao dịch
+  - Tăng cường kiểm soát khóa riêng
+  - Nâng cao bảo mật riêng tư qua việc tự chủ hoàn toàn đối với các giao dịch
   - Loại bỏ phí giao dịch
 explanation: |
-  Ví lưu ký quản lý khóa riêng, giúp giảm bớt gánh nặng kỹ thuật cho người dùng.
+  Các ví giám hộ sẽ lưu ký quản lý các khóa riêng, giúp giảm khó khăn về kỹ thuật cho người dùng.
 reviewed: true

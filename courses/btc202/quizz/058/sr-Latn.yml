@@ -2,8 +2,8 @@ question: Koje je glavno ograničenje Tor komunikacija sa vašim čvorom?
 answer: Sporost
 wrong_answers:
   - Nedostatak enkripcije
-  - Spam
-  - Nemogućnost korišćenja RPC
+  - Spam (neželjeni sadržaj)
+  - Nemogućnost korišćenja RPC-a
 explanation: |
   Tor konekcije su sigurne, ali sporije od alternativa kao što je VPN.
 reviewed: true

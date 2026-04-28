@@ -153,7 +153,7 @@ Bastiat memberi tahu kita masih ada dua bentuk perampasan legal:
 
 Dalam [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), dia menjelaskan lebih lanjut:
 
-Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Sepuluh Perintah Allah secara resmi mengutuknya: Jangan mencuri : Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
+Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Sepuluh Perintah Allah secara resmi mengutuknya: Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
 
 ### Sejarah Perampasan
 
@@ -566,14 +566,14 @@ Kemudian, ketidakstabilan politik ditambahkan ke dalam ketidakstabilan ekonomi, 
 
 ### Kontrol Harga
 
-Sebuah contoh klasik dari intervensionisme muncul di Roma ketika Kaisar Diokletian ingin menetapkan batas harga. Intervensionisme didefinisikan sebagai tindakan kekuatan yang melampaui perannya dalam menjaga ketertiban dan melindungi warga negara. Ini adalah upaya untuk mengontrol pasar, dengan tujuan untuk memodifikasi harga, upah, suku bunga, dan keuntungan.
+Sebuah contoh klasik dari intervensionisme muncul di Roma ketika Kaisar Diocletianus ingin menetapkan batas harga. Intervensionisme didefinisikan sebagai tindakan kekuatan yang melampaui perannya dalam menjaga ketertiban dan melindungi warga negara. Ini adalah upaya untuk mengontrol pasar, dengan tujuan untuk memodifikasi harga, upah, suku bunga, dan keuntungan.
 
 ![image](assets/id/035.webp)
 
 Emisi moneter berulang oleh kaisar-kaisar berikutnya untuk mengatasi peningkatan pengeluaran militer telah menyebabkan lonjakan harga. Pada tahun 301, Diocletianus mengeluarkan Edict of Maximum sebagai upaya untuk membatasinya. Namun, kebijakan itu gagal.
 
 Ludwig von Mises menggambarkan episode ini, yang dengan baik mengilustrasikan efek buruk dari intervensionisme:
-Kaisar Romawi Diokletian terkenal karena telah menjadi kaisar Romawi terakhir yang mempersekusi orang Kristen. Kaisar-kaisar Romawi, pada bagian akhir abad ketiga, hanya memiliki satu metode keuangan, yaitu merusak mata uang. Pada masa primitif ini, sebelum penemuan mesin cetak, inflasi itu sendiri bersifat primitif, bisa dikatakan. Ini melibatkan penipuan dalam pencetakan koin, terutama perak, sampai warna paduan berubah dan beratnya secara signifikan berkurang. Hasil dari penurunan nilai mata uang ini, dikombinasikan dengan peningkatan yang sesuai dalam peredaran, adalah kenaikan harga, diikuti oleh sebuah edik kontrol harga. Dan kaisar-kaisar Romawi tidak menahan diri dalam menegakkan hukum; mereka tidak menganggap kematian sebagai hukuman yang terlalu berat bagi seorang pria yang telah meminta harga terlalu tinggi. Mereka menegakkan kontrol harga, tetapi sebagai konsekuensinya, mereka menurunkan masyarakat. Ini pada akhirnya menyebabkan disintegrasi Kekaisaran Romawi, dan juga kepada keruntuhan pembagian kerja.
+Kaisar Romawi Diocletianus terkenal karena telah menjadi kaisar Romawi terakhir yang mempersekusi orang Kristen. Kaisar-kaisar Romawi, pada bagian akhir abad ketiga, hanya memiliki satu metode keuangan, yaitu merusak mata uang. Pada masa primitif ini, sebelum penemuan mesin cetak, inflasi itu sendiri bersifat primitif, bisa dikatakan. Ini melibatkan penipuan dalam pencetakan koin, terutama perak, sampai warna paduan berubah dan beratnya secara signifikan berkurang. Hasil dari penurunan nilai mata uang ini, dikombinasikan dengan peningkatan yang sesuai dalam peredaran, adalah kenaikan harga, diikuti oleh sebuah edik kontrol harga. Dan kaisar-kaisar Romawi tidak menahan diri dalam menegakkan hukum; mereka tidak menganggap kematian sebagai hukuman yang terlalu berat bagi seorang pria yang telah meminta harga terlalu tinggi. Mereka menegakkan kontrol harga, tetapi sebagai konsekuensinya, mereka menurunkan masyarakat. Ini pada akhirnya menyebabkan disintegrasi Kekaisaran Romawi, dan juga kepada keruntuhan pembagian kerja.
 ([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### Dari Liberalisme ke Sosialisme
@@ -1114,7 +1114,7 @@ Pada abad ke-19, Alexis de Tocqueville, seorang filsuf politik Prancis, mencoba 
 
 ![image](assets/id/066.webp)
 
-Pertama, dalam cara mendefinisikan republik. Republik Prancis adalah satu dan tidak terbagi. Republik Amerika terdiri dari negara-negara berdaulat, masing-masing memiliki yurisdiksi dan kepentingan lokalnya sendiri. Federalisme dianggap sebagai pengkhianatan di Prancis. Di Amerika, pengkhianatan akan berupa keinginan untuk memaksakan persatuan. Setidaknya sampai Perang Saudara Amerika, Persatuan dalam keragaman Negara adalah kekuatan Federasi.
+Pertama, dalam cara mendefinisikan republik. Republik Prancis adalah satu dan tidak terbagi. Republik Amerika terdiri dari negara-negara berdaulat, masing-masing memiliki yurisdiksi dan kepentingan lokalnya sendiri. Federalisme dianggap sebagai pengkhianatan di Prancis. Di Amerika, pengkhianatan akan terdiri dari keinginan untuk mengimposkan kesatuan. Setidaknya sampai Perang Saudara Amerika, Persatuan dalam keragaman Negara adalah kekuatan Federasi.
 
 Dia juga berpendapat bahwa kepercayaan Amerika pada hukum yang lebih tinggi memainkan peran yang menentukan. Deklarasi Kemerdekaan menyatakan semua manusia diciptakan sama, bahwa mereka dianugerahi hak-hak tertentu yang tidak dapat dicabut (hidup, kebebasan, properti, dan pengejaran kebahagiaan) dan bahwa tujuan pemerintah adalah semata-mata untuk mengamankan hak-hak ini. Ini adalah tentang memulihkan prinsip dan ideal yang diinjak-injak oleh mahkota Inggris.
 
@@ -1205,7 +1205,7 @@ Memang, dalam _Principles of Politics_, Benjamin Constant menegaskan:
 
 ### Kebebasan Politik dan Kebebasan Ekonomi
 
-Kebebasan politik tanpa kebebasan lain hanyalah ilusi menurut Benjamin Constant. Kebebasan politik adalah kebebasan untuk berpartisipasi dalam pelaksanaan kekuasaan. Namun, kekuatan rakyat atau massa dapat merusak kebebasan karena memberikan hak kepada mayoritas pemilih untuk memaksakan kehendaknya pada seluruh masyarakat, termasuk keinginannya atau ideologinya saat itu: pajak konfiskasi tanpa kompensasi, penegakan satu pemikiran, sensor, represi, dan terorisme intelektual. Itulah mengapa tidak bisa ada kebebasan sejati tanpa hak-hak sipil, termasuk kebebasan beragama dan kebebasan ekonomi. Benjamin Constant tidak memisahkan liberalisme politik dari liberalisme ekonomi:
+Kebebasan politik tanpa kebebasan lain hanyalah ilusi menurut Benjamin Constant. Kebebasan politik adalah kebebasan untuk berpartisipasi dalam pelaksanaan kekuasaan. Namun, kekuatan rakyat atau massa dapat merusak kebebasan karena memberikan hak kepada mayoritas pemilih untuk mengimposisikan kehendaknya pada seluruh masyarakat, termasuk keinginannya atau ideologinya saat itu: pajak konfiskasi tanpa kompensasi, penegakan satu pemikiran, sensor, represi, dan terorisme intelektual. Itulah mengapa tidak bisa ada kebebasan sejati tanpa hak-hak sipil, termasuk kebebasan beragama dan kebebasan ekonomi. Benjamin Constant tidak memisahkan liberalisme politik dari liberalisme ekonomi:
 
 > Selama empat puluh tahun, saya telah membela prinsip yang sama, kebebasan dalam segala hal, dalam agama, dalam filsafat, dalam literatur, dalam industri, dalam politik: dan dengan kebebasan, saya maksudkan kemenangan individualitas, baik atas otoritas yang ingin memerintah dengan despotisme maupun atas massa yang mengklaim hak untuk memperbudak minoritas kepada mayoritas. Despotisme tidak memiliki hak. Mayoritas memiliki hak untuk memaksa minoritas menghormati ketertiban: tetapi segala sesuatu yang tidak mengganggu ketertiban, segala sesuatu yang hanya internal, seperti opini; segala sesuatu yang, dalam ekspresi opini, tidak merugikan orang lain, baik dengan memprovokasi kekerasan material atau dengan menentang ekspresi yang berlawanan; segala sesuatu yang, dalam hal industri, memungkinkan industri pesaing beroperasi secara bebas, adalah individual, dan tidak dapat secara sah tunduk pada kekuatan sosial.
 
@@ -1387,7 +1387,7 @@ Sejak awal tahun 1922, dalam bukunya _Socialism,_ Ludwig von Mises menunjukkan b
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta eksemplar, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
+Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta kopi, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
 
 ![image](assets/id/086.webp)
 

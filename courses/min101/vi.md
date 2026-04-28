@@ -250,7 +250,7 @@ Tiêu đề khối ứng cử viên này, được tạo ra bởi người khai 
 
 <chapterId>d054323b-16bd-4556-bac5-4878654e59a3</chapterId>
 
-Trong các chương trước, bạn đã theo dõi quy trình của một giao dịch Bitcoin: được tạo và ký bởi wallet, được chuyển tiếp bởi các node, được lưu trữ trong mempool, sau đó được xác nhận khi một thợ đào đưa nó vào một khối được mạng lưới chấp nhận. Nhưng chúng ta vẫn chưa thấy cách một thợ đào có thể thêm khối của mình vào chuỗi khối. Quy trình đằng sau mining là gì?
+Trong các chương trước, bạn đã theo dõi quy trình của một giao dịch Bitcoin: được tạo và ký bởi wallet, được chuyển tiếp bởi các nút, được lưu trữ trong mempool, sau đó được xác nhận khi một thợ đào đưa nó vào một khối được mạng lưới chấp nhận. Nhưng chúng ta vẫn chưa thấy cách một thợ đào có thể thêm khối của mình vào chuỗi khối. Quy trình đằng sau mining là gì?
 
 Hiểu về quy trình mining khá đơn giản. Nó gói gọn trong 3 khái niệm liên quan mật thiết với nhau: hàm băm, giá trị mục tiêu và một biến mà người khai thác có thể chỉnh sửa. Hãy cùng xem toàn bộ quá trình hoạt động như thế nào.
 
@@ -409,13 +409,13 @@ Sự biến thiên này bắt nguồn từ bản chất xác suất của mining
 
 ### Tại sao nên đặt mục tiêu 10 phút giữa các khối?
 
-Mặc dù không có bằng chứng nào cho điều này, nhưng Satoshi Nakamoto chắc chắn đã chọn 10 phút như một sự thỏa hiệp thực tế giữa hiệu quả và bảo mật. Khoảng thời gian ngắn hơn sẽ cho phép xác nhận thường xuyên hơn, nhưng sẽ gây ra nhiều sự cố mạng tạm thời hơn. Để hiểu điểm này, chúng ta cần quay lại cách thức lan truyền của một khối.
+Mặc dù không có bằng chứng nào cho điều này, nhưng Satoshi Nakamoto chắc chắn đã chọn 10 phút như một sự thỏa hiệp thực tế giữa hiệu quả và bảo mật. Khoảng thời gian ngắn hơn sẽ cho phép xác nhận thường xuyên hơn, nhưng sẽ gây ra nhiều sự cố mạng tạm thời hơn. Để hiểu điểm này, chúng ta cần quay lại cách thức truyền của một khối.
 
-Khi một thợ đào tìm thấy một khối hợp lệ, họ ngay lập tức phân phối nó cho các đồng nghiệp của mình. Các nút nhận được khối sẽ kiểm tra tính hợp lệ của nó (giao dịch, proof-of-work, quy tắc đồng thuận, v.v.), sau đó lần lượt chuyển tiếp nó. Quá trình lan truyền này mất một khoảng thời gian nhất định, bị giới hạn bởi độ trễ internet, băng thông và khả năng xác minh khối của mỗi nút.
+Khi một thợ đào tìm thấy một khối hợp lệ, họ ngay lập tức phân phối nó cho các đồng nghiệp của mình. Các nút nhận được khối sẽ kiểm tra tính hợp lệ của nó (giao dịch, proof-of-work, quy tắc đồng thuận, v.v.), sau đó lần lượt chuyển tiếp nó. Quá trình truyền này mất một khoảng thời gian nhất định, bị giới hạn bởi độ trễ internet, băng thông và khả năng xác minh khối của mỗi nút.
 
 ![Image](assets/fr/020.webp)
 
-Nếu trong quá trình trì hoãn lan truyền này, một thợ đào khác cũng phát hiện ra một khối hợp lệ ở cùng độ cao, mạng lưới có thể tạm thời bị chia tách: một phần các nút và thợ đào dựa vào khối A, trong khi phần còn lại dựa vào khối B. Đây là sự phân chia tạm thời của mạng lưới.
+Nếu trong quá trình trì hoãn truyền này, một thợ đào khác cũng phát hiện ra một khối hợp lệ ở cùng độ cao, mạng lưới có thể tạm thời bị chia tách: một phần các nút và thợ đào dựa vào khối A, trong khi phần còn lại dựa vào khối B. Đây là sự phân chia tạm thời của mạng lưới.
 
 ![Image](assets/fr/021.webp)
 
@@ -423,9 +423,9 @@ Những sự phân chia này không phải là thảm họa. Lý thuyết đồn
 
 ![Image](assets/fr/022.webp)
 
-Mặt khác, chúng cũng có cái giá của nó: trong vài phút, một phần nhỏ thợ đào làm việc trên một nhánh sẽ bị bỏ rơi. Công việc này sau đó bị lãng phí từ góc độ an ninh tổng thể, vì nó không đóng góp vào chuỗi cuối cùng. Khoảng thời gian giữa mỗi khối càng ngắn, xác suất xảy ra các sự phân tách như vậy càng lớn, vì thời gian lan truyền chiếm tỷ lệ lớn hơn trong tổng thời gian giữa mỗi khối.
+Mặt khác, chúng cũng có cái giá của nó: trong vài phút, một phần nhỏ thợ đào làm việc trên một nhánh sẽ bị bỏ rơi. Công việc này sau đó bị lãng phí từ góc độ an ninh tổng thể, vì nó không đóng góp vào chuỗi cuối cùng. Khoảng thời gian giữa mỗi khối càng ngắn, xác suất xảy ra các sự phân tách như vậy càng lớn, vì thời gian truyền chiếm tỷ lệ lớn hơn trong tổng thời gian giữa mỗi khối.
 
-Khoảng thời gian 10 phút thường đủ để khối chiến thắng lan truyền rộng rãi trước khi tìm thấy một khối cạnh tranh có cùng độ cao. Đó là một sự thỏa hiệp giúp hạn chế sự phân tách, giảm lãng phí năng lượng tính toán và giúp mạng lưới duy trì đồng bộ trên phạm vi toàn cầu.
+Khoảng thời gian 10 phút thường đủ để khối chiến thắng truyền rộng rãi trước khi tìm thấy một khối cạnh tranh có cùng độ cao. Đó là một sự thỏa hiệp giúp hạn chế sự phân tách, giảm lãng phí năng lượng tính toán và giúp mạng lưới duy trì đồng bộ trên phạm vi toàn cầu.
 
 ### Tìm hiểu về hashrate
 
@@ -596,9 +596,9 @@ Tỷ lệ này giải thích các lựa chọn kinh tế mà thợ đào đưa r
 
 ### Bảo vệ mạng chống thư rác
 
-Phí giao dịch cũng phục vụ mục đích bảo mật hoạt động: chúng tạo ra chi phí cho việc nhân rộng các giao dịch. Nếu việc công bố một giao dịch là miễn phí, sẽ rất dễ làm ngập mạng bằng các giao dịch vô ích và làm quá tải các mempool, làm tăng tải trọng trên các node.
+Phí giao dịch cũng phục vụ mục đích bảo mật hoạt động: chúng tạo ra chi phí cho việc nhân rộng các giao dịch. Nếu việc công bố một giao dịch là miễn phí, sẽ rất dễ làm ngập mạng bằng các giao dịch vô ích và làm quá tải các mempool, làm tăng tải trọng trên các nút.
 
-Trên thực tế, các node áp dụng các chính sách chuyển tiếp cục bộ (quy tắc mempool) và thường đặt ngưỡng phí tối thiểu mà dưới đó chúng sẽ không chuyển tiếp giao dịch (mặc định là `0.1 sat/vB` trong Bitcoin Core thông qua `minRelayTxFee`). Một giao dịch có thể hợp lệ theo đúng nghĩa của các quy tắc đồng thuận, nhưng không được hầu hết các node chuyển tiếp nếu phí của nó quá thấp. Kết quả là, nó không được lưu thông, không đến được tay người khai thác và có rất ít cơ hội được xác nhận.
+Trên thực tế, các nút áp dụng các chính sách chuyển tiếp cục bộ (quy tắc mempool) và thường đặt ngưỡng phí tối thiểu mà dưới đó chúng sẽ không chuyển tiếp giao dịch (mặc định là `0.1 sat/vB` trong Bitcoin Core thông qua `minRelayTxFee`). Một giao dịch có thể hợp lệ theo đúng nghĩa của các quy tắc đồng thuận, nhưng không được hầu hết các nút chuyển tiếp nếu phí của nó quá thấp. Kết quả là, nó không được lưu thông, không đến được tay người khai thác và có rất ít cơ hội được xác nhận.
 
 Đến đây, bạn đã nắm được ý chính về phần thưởng khối: nó tương ứng với phần thưởng dành cho người khai thác chiến thắng và bao gồm hai yếu tố riêng biệt. Một mặt, đó là khoản trợ cấp khối, được định nghĩa bởi các quy tắc của giao thức, tạo ra bitcoin mới từ con số không. Và mặt khác, đó là phí giao dịch được bao gồm trong khối đã khai thác.
 
@@ -931,7 +931,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 <chapterId>c871bece-eebe-4ef4-9789-d47251f16c8b</chapterId>
 
-Mining và Bitcoin liên quan đến các chi phí phát sinh liên tục và không thể tránh khỏi, trong đó quan trọng nhất là chi phí điện năng tiêu thụ của máy móc. Những chi phí này phát sinh độc lập với bất kỳ kết quả nào, ngay cả khi doanh thu từ mining, về bản chất, là hiếm và ngẫu nhiên. Việc phát hiện ra một khối phụ thuộc hoàn toàn vào phần chia sẻ của người khai thác trong hashrate, điều này làm cho thu nhập càng khó dự đoán hơn khi phần chia sẻ đó càng nhỏ. Chính vấn đề thực tiễn này đã nhanh chóng dẫn đến việc sử dụng rộng rãi các [mining pool][nhóm khai thác mining](https://planb.academy/resources/glossary/pool-mining). Trong chương cuối cùng của khóa học MIN 101 này, tôi giới thiệu về các nguyên tắc và hoạt động của các nhóm khai thác mining trong Bitcoin.
+Mining và Bitcoin liên quan đến các chi phí phát sinh liên tục và không thể tránh khỏi, trong đó quan trọng nhất là chi phí điện năng tiêu thụ của máy móc. Những chi phí này phát sinh độc lập với bất kỳ kết quả nào, ngay cả khi doanh thu từ mining, về bản chất, là hiếm và ngẫu nhiên. Việc phát hiện ra một khối phụ thuộc hoàn toàn vào phần chia sẻ của người khai thác trong hashrate, điều này làm cho thu nhập càng khó dự đoán hơn khi phần chia sẻ đó càng nhỏ. Chính vấn đề thực tiễn này đã nhanh chóng dẫn đến việc sử dụng rộng rãi các [mining pools](https://planb.academy/resources/glossary/pool-mining). Trong chương cuối cùng của khóa học MIN 101 này, tôi giới thiệu về các nguyên tắc và hoạt động của các nhóm khai thác mining trong Bitcoin.
 
 ### Mining pool là gì?
 

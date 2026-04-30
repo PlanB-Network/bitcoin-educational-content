@@ -1,0 +1,23 @@
+id: 77f7e12f-32d6-4760-a03c-9696b4c30c81
+name: Code Orange Dev School
+category: education
+links:
+  website: https://codeorange.dev/
+  twitter: https://x.com/codeorangedevs
+  github: https://github.com/code-orange-dev
+  youtube: 
+tags:
+  - development
+  - privacy
+  - proof-of-work
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

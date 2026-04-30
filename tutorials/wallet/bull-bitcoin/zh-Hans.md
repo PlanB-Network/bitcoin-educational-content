@@ -30,7 +30,7 @@ Bull Bitcoin 钱包由 [Bull Bitcoin](https://www.bullbitcoin.com/)开发，是�
 
 - **兼容的智能手机**：iOS（iPhone 或 iPad）或 Android 设备
 - 互联网连接
-- **安全备份介质**：在纸张或金属上写下你的**恢复助记词**（12 个单词），并将其存放在安全的地方。
+- **安全备份介质**：在纸张或金属上写下您的**恢复助记词**（12 个单词），并将其存放在安全的地方。
 - **基础知识**：对比特币概念（地址、交易、费用）的了解是有用的，不过本教程会为初学者解释每个步骤。
 
 
@@ -101,14 +101,14 @@ Bull Bitcoin 钱包由 [Bull Bitcoin](https://www.bullbitcoin.com/)开发，是�
 
 
 
-- `transaction overview`（就应概览）和 `settings menu`（设置）位于页面顶部。  
-- `Available Balance`（余额）提供隐私选项，可自由 `turned on or off`（开启或关闭）。  
-- 进入 `Bitcoin Bull Exchange` 可进行 `Buy, Sell, or Pay`（购买，出售，支付）操作（功能视地区法规而定，可能需要 KYC）。  
-- 支持钱包之间的转账 `Transfer`。  
-- `Secure Bitcoin` 对应链上比特币钱包（Onchain Bitcoin Wallet）。  
-- 通过闪电 / Liquid 网络进行 `Instant payments`。  
-  *（说明：Bull Bitcoin Wallet 支持通过闪电网络进行收付款。通过闪电网络接收的资金会自动经由 [*Boltz exchange*](https://boltz.exchange/) 转换后存入 [*Liquid network*](https://liquid.net/) 的钱包即时支付中。这样您无需自己管理流动性通道，就能在保持自我托管的前提下使用闪电网络。）*  
-- `Send`（发送）和 `Receive`（接收）比特币。  
+- `transaction overview`（交易概览）和 `settings menu`（设置）位于页面顶部。
+- `Available Balance`（余额）提供隐私选项，可自由 `turned on or off`（开启或关闭）。
+- 进入 `Bitcoin Bull Exchange` 可进行 `Buy, Sell, or Pay`（购买，出售，支付）操作（功能视地区法规而定，可能需要 KYC）。
+- 支持钱包之间的转账 `Transfer`。
+- `Secure Bitcoin` 对应链上比特币钱包（Onchain Bitcoin Wallet）。
+- 通过闪电 / Liquid 网络进行 `Instant payments`。
+  *（说明：Bull Bitcoin Wallet 支持通过闪电网络进行收付款。通过闪电网络接收的资金会自动经由 [*Boltz exchange*](https://boltz.exchange/) 转换后存入 [*Liquid network*](https://liquid.net/) 的钱包即时支付中。这样您无需自己管理流动性通道，就能在保持自我托管的前提下使用闪电网络。）*
+- `Send`（发送）和 `Receive`（接收）比特币。
 
 
 ![image](assets/en/02.webp)

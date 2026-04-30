@@ -117,7 +117,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 ![Image](assets/fr/19.webp)
 
-在链上收到的金额将首先显示为您的投资组合余额下的待定金额。资金需要经过 3 次确认后才能使用。
+在链上收到的金额将首先显示为您的钱包余额下的待定金额。资金需要经过 3 次确认后才能使用。
 
 ![Image](assets/fr/20.webp)
 

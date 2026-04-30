@@ -609,7 +609,7 @@ https://planb.academy/tutorials/computer-security/authentication/aegis-authentic
 
 
 
-然后，ColdcardQ 会显示一个警告，当你滚动到屏幕底部时，就会发现这笔交易违反了消费条件。
+然后，ColdcardQ 会显示一个警告，当您滚动到屏幕底部时，就会发现这笔交易违反了消费条件。
 
 
 

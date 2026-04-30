@@ -291,17 +291,17 @@ Sparrow Wallet 是一款功能强大的桌面应用程序，可让您精细控�
 
 在您可以查看余额或广播交易之前，Sparrow 需要连接到比特币节点以获取区块链数据。您有多种选择，每种选择在便利性、隐私和信任之间都有不同的权衡：
 
-- **公共电子服务器（最简单，最不私密）：** 连接到第三方运营的公共服务器。设置很快，但服务器可以看到您的钱包地址，并可能将它们链接到您的 IP 地址。适合在测试网上进行测试。 
+- **公共电子服务器（最简单，最不私密）：** 连接到第三方运营的公共服务器。设置很快，但服务器可以看到您的钱包地址，并可能将它们链接到您的 IP 地址。适合在测试网上进行测试。
 - 在 Sparrow 中，前往 **Tools → Preferences → Server**
  - 选择 **Public Server** 并从列表中选择一个服务器
  - 点击 **Test Connection** 以进行验证
 
-- **Bitcoin Core 或 Knots 节点（最私密、最有效）：** 运行您自己的比特币全节点。这是隐私和验证的黄金标准，因为您自己验证每笔交易而不信任任何其他人的服务器。但是，它需要下载整个区块链（~600GB）并保持节点同步。 
+- **Bitcoin Core 或 Knots 节点（最私密、最有效）：** 运行您自己的比特币全节点。这是隐私和验证的黄金标准，因为您自己验证每笔交易而不信任任何其他人的服务器。但是，它需要下载整个区块链（~600GB）并保持节点同步。
 - 安装并同步 Bitcoin Core 或 Knots
  - 在 Sparrow Wallet 上，前往 **Tools → Preferences → Server**
  - 选择 **Bitcoin Core 或 Knots** 并输入您节点的连接详细信息
 
-- **私人 Electrum 服务器（良好平衡）：** 托管连接到您的 Bitcoin Core 或 Knots 节点的您自己的 Electrum 服务器（如 Fulcrum 或 Electrs）。提供完全的隐私性，无需在与节点相同的计算机上运行 Sparrow。 
+- **私人 Electrum 服务器（良好平衡）：** 托管连接到您的 Bitcoin Core 或 Knots 节点的您自己的 Electrum 服务器（如 Fulcrum 或 Electrs）。提供完全的隐私性，无需在与节点相同的计算机上运行 Sparrow。
 - 设置指向您的 Bitcoin Core 或 Knots 节点的 Electrum 服务器
  - 在 Sparrow 中，前往 **Tools → Preferences → Server**
  - 选择 **Private Electrum** 并输入您的服务器的 URL
@@ -317,7 +317,7 @@ Blockstream Green 是完成自我动手 Jade 设置的软件，必须使用桌�
 ![image](assets/fr/12.webp)
 
 - 根据您的下载位置，该文件很可能被保存到您的 “下载” 文件夹中。检查那里并双击可执行文件来安装软件。
-  
+
 ![image](assets/fr/13.webp)
 
 - 您可能必须授予管理员权限才能运行安装程序。完成后，将弹出一个窗口，如下图所示 - 单击 “**Next**”。

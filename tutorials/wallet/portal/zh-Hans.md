@@ -46,7 +46,7 @@ Nunchuk 将识别您的门户。然后点击 "*Continue*"。
 
 ![Image](assets/fr/07.webp)
 
-要创建新的投资组合，请选择 "*Generate seed on Portal*"，然后点击 "*Continue*"。
+要创建新的钱包，请选择 "*Generate seed on Portal*"，然后点击 "*Continue*"。
 
 ![Image](assets/fr/08.webp)
 

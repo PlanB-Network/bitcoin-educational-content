@@ -319,7 +319,7 @@ _Broadcast_ 命令将出现在底部，用于传播最终完成并签名的交�
 
 ![image](assets/en/59.webp)
 
-从选项中选择 _Hot wallet_ 
+从选项中选择 _Hot wallet_
 
 ![image](assets/en/60.webp)
 

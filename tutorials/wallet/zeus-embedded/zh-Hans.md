@@ -79,7 +79,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 ![image](assets/fr/08.webp)
 
-最后，给你的钱包起个名称，然后点击 "SAVE Wallet CONFIG" 使更改生效。最后，点击左上角的返回箭头返回主屏幕。
+最后，给您的钱包起个名称，然后点击 "SAVE Wallet CONFIG" 使更改生效。最后，点击左上角的返回箭头返回主屏幕。
 
 ![image](assets/fr/09.webp)
 

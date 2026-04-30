@@ -134,7 +134,7 @@ Machankura 是一款托管式闪电网络钱包，您的比特币由 Machankura 
 
 任何拥有您的闪电网络的人都可以向您发送比特币，而无需知道您的电话号码。
 
-#### 重装您的马钱库拉投资组合
+#### 重装您的马钱库拉钱包
 
 除了接收来自其他闪电钱包的比特币外，您还可以用 **Azteco** 和 **1Voucher** 从 **Flash Group** 补充您的 Machankura Wallet。
 
@@ -215,7 +215,7 @@ Machankura 选择 WhatsApp 作为其智能手机使用的中间平台。
 
 - 选择 **1**，即 “Create an account” 选项。
 - 输入一个唯一的电子邮件地址。
-  
+
 ![wallet](assets/fr/04.webp)
 
 您的 Machankura 账户将自动创建。返回选单设置您的用户名。

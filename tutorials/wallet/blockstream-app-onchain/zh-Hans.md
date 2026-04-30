@@ -359,7 +359,7 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 
 
 
-- 在投资组合主屏幕上，点击 "**Transact**"，然后点击 **"Send"**：
+- 在钱包主屏幕上，点击 "**Transact**"，然后点击 **"Send"**：
 
 
 
@@ -521,7 +521,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **优化成本**：
  - 对于链上交易，根据紧急程度和网络拥塞情况选择适当的收费（慢、中、快）。
- - 使用 Liquid 或 闪电网路进行小额支付
+ - 使用 Liquid 或 闪电网络进行小额支付
 
 
 
@@ -550,7 +550,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - 区块浏览器：
  - 链上： **[Mempool.space](https://Mempool.space/)**
  - Liquid： **[Blockstream Info](https://blockstream.info/Liquid)**
- - **闪电网路**[1ML (闪电网络)](https://1ml.com/)**
+ - **闪电网络**[1ML (闪电网络)](https://1ml.com/)**
 
 
 

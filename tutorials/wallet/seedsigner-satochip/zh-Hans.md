@@ -215,7 +215,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-现在，您的投资组合已经启动并运行，我们将把其公共信息（"*keystore*"）导入 Sparrow Wallet 或其他投资组合管理软件。该软件将用于创建、分发和跟踪您的交易。不过，该软件无法对交易进行签名，因为只有 Satochip（以及任何备份）才持有签名所需的私人密钥。
+现在，您的钱包已经启动并运行，我们将把其公共信息（"*keystore*"）导入 Sparrow Wallet 或其他钱包管理软件。该软件将用于创建、分发和跟踪您的交易。不过，该软件无法对交易进行签名，因为只有 Satochip（以及任何备份）才持有签名所需的私人密钥。
 
 ### 6.1 准备 SeedSigner 和 Satochip
 

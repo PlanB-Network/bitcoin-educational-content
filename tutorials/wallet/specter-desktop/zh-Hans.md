@@ -1,6 +1,6 @@
 ---
 name: Specter Desktop
-description: 使用自己的节点，完全自主地管理多签名 Bitcoin 投资组合
+description: 使用自己的节点，完全自主地管理多签名 Bitcoin 钱包
 ---
 
 ![cover](assets/cover.webp)

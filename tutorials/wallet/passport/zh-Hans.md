@@ -191,7 +191,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 ![Image](assets/fr/32.webp)
 
-如果已插入 MicroSD，则已将投资组合的加密备份保存在其中。
+如果已插入 MicroSD，则已将钱包的加密备份保存在其中。
 
 ![Image](assets/fr/33.webp)
 

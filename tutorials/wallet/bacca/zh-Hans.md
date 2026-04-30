@@ -4,7 +4,7 @@ description: 无需 Ledger Live 软件即可设置 Ledger
 ---
 ![cover](assets/cover.webp)
 
-如果您使用 Ledger，您可能会发现，你必须通过 Ledger Live 软件，至少在初始设备配置时，要检查其真实性并在其上安装比特币应用程序。不过，在配置之后，许多比特币用户更愿意使用专门的比特币钱包管理软件，如 Sparrow 或 Liana，而不是 Ledger Live。虽然 Ledger 生产的硬件钱包非常出色，能快速包含最新的比特币功能，但他们的软件并不一定适合比特币用户的特定需求。事实上，Ledger Live 包含许多专为山赛币设计的功能，而专门用于比特币钱包管理的选项却很有限。但 Sparrow 和 Liana（目前）的问题在于，它们不允许您在 Ledger 上安装比特币应用程序。
+如果您使用 Ledger，您可能会发现，您必须通过 Ledger Live 软件，至少在初始设备配置时，要检查其真实性并在其上安装比特币应用程序。不过，在配置之后，许多比特币用户更愿意使用专门的比特币钱包管理软件，如 Sparrow 或 Liana，而不是 Ledger Live。虽然 Ledger 生产的硬件钱包非常出色，能快速包含最新的比特币功能，但他们的软件并不一定适合比特币用户的特定需求。事实上，Ledger Live 包含许多专为山赛币设计的功能，而专门用于比特币钱包管理的选项却很有限。但 Sparrow 和 Liana（目前）的问题在于，它们不允许您在 Ledger 上安装比特币应用程序。
 
 在初始配置 Ledger 时，如果不需要使用 Ledger Live，可以使用 Bacca 工具（或 "Ledger 安装程序"）。通过该软件，您可以安装和更新比特币应用程序，验证 Ledger 的真实性，甚至随后更新设备的固件。Bacca 由 Chaincode Labs 的 Bitcoin Core 开发者、[Revault and Liana](https://wizardsardine.com/) 的联合创始人和 Pythcoiner Antoine Poinsot (Darosior)创建。
 

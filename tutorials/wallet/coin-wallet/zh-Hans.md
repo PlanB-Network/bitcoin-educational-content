@@ -198,7 +198,7 @@ Mecto 完全是可选项，如果您希望最大限度地保护隐私，请不�
 发送 Bitcoin：
 
 
-1. 打开 Coin Wallet → 点击 **Send** 
+1. 打开 Coin Wallet → 点击 **Send**
 
 2. 粘贴地址或扫描二维码
 

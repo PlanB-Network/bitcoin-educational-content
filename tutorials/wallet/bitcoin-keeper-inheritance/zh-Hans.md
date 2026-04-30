@@ -244,7 +244,7 @@ Bitcoin Keeper 通过集成的刷新功能简化了这一过程。该应用程�
 
 
 
-## 创建 Canary Wallet 
+## 创建 Canary Wallet
 
 
 

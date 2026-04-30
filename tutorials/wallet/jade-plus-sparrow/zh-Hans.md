@@ -284,7 +284,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 - "*Manual*"：虚拟键盘可让您逐个字符输入字母（大写和小写）、数字和符号。这是所有硬件钱包的标准方法；
 - "*WordList*"：Blockstream 为 Jade 设计的特定方法，可加快密语输入速度并增加其熵。在输入过程中，系统会建议使用 BIP39 列表中的单词，使解锁更加容易。该方法通过连接所选单词自动生成句子，并用空格分隔（例如："abandon ability able"）。
 
-我个人建议您使用第一种方法，因为这是所有其他投资组合支持工具的标准。
+我个人建议您使用第一种方法，因为这是所有其他钱包支持工具的标准。
 
 ![Image](assets/fr/45.webp)
 

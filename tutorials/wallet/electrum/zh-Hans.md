@@ -14,7 +14,7 @@ description: 完整的 Electrum 指南，从零开始掌握
 
 以下是 Rogzy 对这篇教程的评价:
 
-> "我不得不说，当我看到这本指南时，我感到震惊。祝贺 Arman the Parman 取得这一成就。如果不在这里主办并翻译成尽可能多的语言，那就太遗憾了。老实说，老兄给点建议。" Rogzy
+> "我不得不说，当我看到这本指南时，我感到震惊。祝贺 Arman the Parman 取得这一成就。如果不在这里主办并翻译成尽可能多的语言，那就太遗憾了。老实说，请给这位老兄打赏一下。" Rogzy
 
 原始帖子：
 
@@ -34,7 +34,7 @@ description: 完整的 Electrum 指南，从零开始掌握
 
 在理想情况下，使用专用的比特币电脑进行比特币交易（我的指南可通过这个网址访问 [https://armantheparman.com/mint/](https://armantheparman.com/mint/) _(也可在隐私部分找到)_。初学者可以在一台 “脏” 电脑上用少量资金练习（谁知道您的普通电脑这些年积累了多少隐藏的恶意软件——您肯定不想让您的比特币钱包暴露在它们面前）。
 
-从 https://electrum.org/ 获取 lectrum。
+从 https://electrum.org/ 获取 Electrum。
 
 点击顶部的 Download 标签。
 

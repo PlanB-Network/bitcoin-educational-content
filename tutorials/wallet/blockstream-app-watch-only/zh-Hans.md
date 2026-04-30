@@ -382,7 +382,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-为了安全高效地使用 **Blockstream App**，请遵循以下建议。它们将帮助您在**Bitcoin（链上）**、**Liquid** 和 **闪电网路**上保护您的资金、优化您的交易并维护您的机密性。
+为了安全高效地使用 **Blockstream App**，请遵循以下建议。它们将帮助您在**Bitcoin（链上）**、**Liquid** 和 **闪电网络**上保护您的资金、优化您的交易并维护您的机密性。
 
 
 
@@ -436,7 +436,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **优化成本**：
  - 对于链上交易，根据紧急程度和网络拥塞情况选择适当的收费（慢、中、快）。
- - 使用 Liquid 或 闪电网路进行小额支付
+ - 使用 Liquid 或 闪电网络进行小额支付
 
 
 

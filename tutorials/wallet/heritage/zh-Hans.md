@@ -164,7 +164,7 @@ chmod +x Heritage-GUI-vX.X.X.AppImage
 ![Architecture split](assets/fr/12.webp)
 
 1. **Key Provider (Offline)**：管理私钥并签署交易。可用 Ledger 或钱包软件。
-  
+
 2. **Online Wallet**：处理与比特币网络的同步、地址创建和交易广播。
 
 填写创建钱包表单：

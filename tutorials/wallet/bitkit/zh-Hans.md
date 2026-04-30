@@ -74,7 +74,7 @@ Bitkit 还拥有一些独特的功能，使其脱颖而出：
 ### 2.首次启动和条款
 
 - 启动 BitKit，同意使用条款，然后点击 ”Continue“。
-- 点击 "Get Started" 开始学习如何使用 
+- 点击 "Get Started" 开始学习如何使用
 
 暂时忽略 Restore Wallet；我们将创建一个新的钱包。
 

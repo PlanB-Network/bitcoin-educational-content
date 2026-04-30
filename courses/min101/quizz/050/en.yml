@@ -5,5 +5,5 @@ wrong_answers:
   - When the transaction is broadcast by the node
   - When the miner starts looking for the proof
 explanation: |
-  The confirmation of a payment on Bitcoin is the consequence of adding the block containing it to the blockchain.
-reviewed: false
+  The confirmation of a payment in Bitcoin is the consequence of adding the block containing it to the blockchain.
+reviewed: true

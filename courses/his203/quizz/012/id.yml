@@ -1,0 +1,10 @@
+question: Berapa banyak bitcoin yang ditransfer oleh Mark Karpelès untuk membuktikan solvabilitas platform Mt. Gox pada tanggal 23 Juni 2011?
+answer: 424.242 bitcoin
+wrong_answers:
+  - 666 bitcoin
+  - 1.337 bitcoin
+  - 21.210 bitcoin
+explanation: |
+ Ini kira-kira jumlah bitcoin yang dimiliki perusahaan pada saat itu. Angka 42 adalah jawaban dari "pertanyaan besar tentang kehidupan, alam semesta dan
+ segala sesuatu yang lain" dalam H2G2.
+reviewed: true

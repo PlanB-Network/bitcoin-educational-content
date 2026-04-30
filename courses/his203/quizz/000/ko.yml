@@ -1,0 +1,10 @@
+question: 2010년 12월에 Satoshi Nakamoto이 스포트라이트에서 물러나게 된 계기는 무엇인가요?
+answer: 위키리크스에 Bitcoin 사용을 권유하는 PC World 기사 게시
+wrong_answers:
+  - 실크로드 플랫폼을 출시한 로스 울브리히트
+  - CIA의 투자 펀드인 In-Q-Tel이 설립한 연락 창구
+  - 불과 몇 달 만에 BTC의 가격이 0.20달러에서 32달러로 급등했습니다
+explanation: |
+ Satoshi는 이 게시물이 국가 당국의 관심을 끌 것을 우려하여 Bitcoin 포럼에서 부정적인 의견을 제시했습니다. 실크로드 마켓플레이스
+ 는 2011년 1월에 출시되었고, 4월에 In-Q-Tel과 개빈 안드레센의 접촉이 이루어졌으며, 6월에 32달러로 가격 인상이 정점을 찍었습니다.
+reviewed: true

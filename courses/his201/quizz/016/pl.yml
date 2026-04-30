@@ -1,9 +1,9 @@
-question: Która koncepcja pieniądza elektronicznego została wyraźnie wspomniana przez Satoshi Nakamoto w białej księdze Bitcoin?
+question: Która koncepcja pieniądza elektronicznego została wyraźnie wspomniana przez Satoshiego Nakamoto w białej księdze Bitcoina?
 answer: b-money (Wei Dai)
 wrong_answers:
   - bit gold (Nick Szabo)
   - RPOW (Hal Finney)
   - eCash (David Chaum)
 explanation: |
-  Było to pierwsze odniesienie. Została ona dodana przez Satoshi w sierpniu 2008 roku po wymianie zdań z Wei Dai.
-reviewed: false
+  Było to pierwsze odniesienie. Zostało dodane przez Satoshiego w sierpniu 2008 roku po wymianie zdań z Wei Daiem.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Ini digunakan hanya untuk menghasilkan eksponen e
 explanation: |
   Dalam RSA, bilangan bulat N adalah hasil kali dari dua bilangan prima besar p dan q, dan digunakan sebagai modulus untuk operasi enkripsi dan dekripsi.
-  direview: false
+reviewed: true

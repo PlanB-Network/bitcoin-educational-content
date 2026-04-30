@@ -5,5 +5,5 @@ wrong_answers:
   - Amini kwamba data ya simu ni salama kabisa
   - Tumia miunganisho ya waya pekee
 explanation: |
-  Katika ulimwengu ambamo njia nyingi za mawasiliano zinaweza kutekwa, ni jambo la hekima kudhania kwamba huenda mtu mwingine anasikiliza, na hivyo kufanya cryptography kuwa muhimu.
-reviewed: false
+  Katika ulimwengu ambamo njia nyingi za mawasiliano zinaweza kutekwa, ni jambo la hekima kudhania kwamba huenda mtu mwingine anasikiliza, na hivyo kufanya kriptografia kuwa muhimu.
+reviewed: true

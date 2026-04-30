@@ -92,14 +92,14 @@ Esta tabela oferece-lhe uma tradução dos principais termos em inglês utilizad
 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
-O primeiro tipo de algoritmos criptográficos usados no Bitcoin engloba as funções de hash. Elas desempenham um papel essencial em diferentes níveis do protocolo, mas também dentro das carteiras Bitcoin. Vamos descobrir juntos o que é uma função de hash e para que serve no Bitcoin.
+O primeiro tipo de algoritmos criptográficos usados no Bitcoin engloba as funções de hash. Elas desempenham um papel essencial em diferentes níveis do protocolo, mas também dentro das [carteiras](https://planb.academy/resources/glossary/wallet) Bitcoin. Vamos descobrir juntos o que é uma função de hash e para que serve no Bitcoin.
 
 ### Definição e Princípio do Hashing
 
 Hashing é um processo que transforma informações de comprimento arbitrário em outra peça de informação de comprimento fixo por meio de uma função de hash criptográfica. Em outras palavras, uma função de hash recebe uma entrada de qualquer tamanho e a converte em uma impressão digital de tamanho fixo, chamada de "hash".
 O hash também pode ser referido às vezes como "digest", "condensado", ou "hashed".
 
-Por exemplo, a função de hash SHA256 produz um hash de comprimento fixo de 256 bits. Assim, se usarmos a entrada "_PlanB_", uma mensagem de comprimento arbitrário, o hash gerado será a seguinte impressão digital de 256 bits:
+Por exemplo, a função de hash [SHA256](https://planb.academy/resources/glossary/sha256) produz um hash de comprimento fixo de 256 bits. Assim, se usarmos a entrada "_PlanB_", uma mensagem de comprimento arbitrário, o hash gerado será a seguinte impressão digital de 256 bits:
 
 ```txt
 24f1b93b68026bfc24f5c8265f287b4c940fb1664b0d75053589d7a4f821b688
@@ -174,18 +174,18 @@ Portanto, a resistência à segunda pré-imagem é um pouco semelhante à resist
 
 ### Aplicações de Funções Hash no Bitcoin
 
-A função hash mais usada no Bitcoin é **SHA256** ("_Secure Hash Algorithm 256 bits"_). Projetada no início dos anos 2000 pela NSA e padronizada pelo NIST, ela produz uma saída de hash de 256 bits.
+A [função hash](https://planb.academy/resources/glossary/hash-function) mais usada no Bitcoin é **SHA256** ("_Secure Hash Algorithm 256 bits"_). Projetada no início dos anos 2000 pela NSA e padronizada pelo NIST, ela produz uma saída de hash de 256 bits.
 
-Esta função é usada em muitos aspectos do Bitcoin. No nível do protocolo, ela está envolvida no mecanismo de Prova de Trabalho, onde é aplicada em duplo hash para buscar uma colisão parcial entre o cabeçalho de um bloco candidato, criado por um minerador, e o alvo de dificuldade. Se essa colisão parcial é encontrada, o bloco candidato torna-se válido e pode ser adicionado à blockchain.
+Esta função é usada em muitos aspectos do Bitcoin. No nível do protocolo, ela está envolvida no mecanismo de [Prova de Trabalho](https://planb.academy/resources/glossary/proof-of-work), onde é aplicada em duplo hash para buscar uma colisão parcial entre o cabeçalho de um [bloco](https://planb.academy/resources/glossary/block) candidato, criado por um minerador, e o alvo de [dificuldade](https://planb.academy/resources/glossary/difficulty). Se essa colisão parcial é encontrada, o bloco candidato torna-se válido e pode ser adicionado à [blockchain](https://planb.academy/resources/glossary/blockchain).
 
-SHA256 também é usado na construção de uma árvore de Merkle, que é notavelmente o acumulador usado para registrar transações em blocos. Esta estrutura também é encontrada no protocolo Utreexo, que permite reduzir o tamanho do Conjunto UTXO. Além disso, com a introdução do Taproot em 2021, SHA256 é explorado em MAST (_Merkelised Alternative Script Tree_), que permite revelar apenas as condições de gasto realmente usadas em um script, sem divulgar as outras opções possíveis. Ele também é usado no cálculo de identificadores de transação, na transmissão de pacotes pela rede P2P, em assinaturas eletrônicas... Finalmente, e isso é de particular interesse neste treinamento, SHA256 é usado no nível de aplicação para a construção de carteiras Bitcoin e a derivação de endereços.
+SHA256 também é usado na construção de uma [árvore de Merkle](https://planb.academy/resources/glossary/merkle-tree), que é notavelmente o acumulador usado para registrar transações em blocos. Esta estrutura também é encontrada no protocolo [Utreexo](https://planb.academy/resources/glossary/utreexo), que permite reduzir o tamanho do [Conjunto UTXO](https://planb.academy/resources/glossary/utxo-set). Além disso, com a introdução do [Taproot](https://planb.academy/resources/glossary/taproot) em 2021, SHA256 é explorado em [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), que permite revelar apenas as condições de gasto realmente usadas em um script, sem divulgar as outras opções possíveis. Ele também é usado no cálculo de identificadores de transação, na transmissão de pacotes pela rede P2P, em assinaturas eletrônicas... Finalmente, e isso é de particular interesse neste treinamento, SHA256 é usado no nível de aplicação para a construção de carteiras Bitcoin e a derivação de endereços.
 
-Na maioria das vezes, quando você se depara com o uso de SHA256 no Bitcoin, será na verdade um duplo hash SHA256, notado "**HASH256**", que simplesmente consiste em aplicar SHA256 duas vezes sucessivamente:
+Na maioria das vezes, quando você se depara com o uso de SHA256 no Bitcoin, será na verdade um duplo hash SHA256, notado "**[HASH256](https://planb.academy/resources/glossary/hash256)**", que simplesmente consiste em aplicar SHA256 duas vezes sucessivamente:
 HASH256(m) = SHA256(SHA256(m))
 
 Esta prática de duplo hash adiciona uma camada extra de segurança contra certos ataques potenciais, mesmo que um único SHA256 seja hoje considerado criptograficamente seguro.
 
-Outra função de hash disponível na linguagem Script e usada para derivar endereços de recebimento é a função RIPEMD160. Esta função produz um hash de 160 bits (portanto, mais curto que SHA256). Geralmente, ela é combinada com SHA256 para formar a função HASH160:
+Outra função de hash disponível na linguagem Script e usada para derivar endereços de recebimento é a função [RIPEMD160](https://planb.academy/resources/glossary/ripemd160). Esta função produz um hash de 160 bits (portanto, mais curto que SHA256). Geralmente, ela é combinada com SHA256 para formar a função HASH160:
 
 $$
 \text{HASH160}(m) = \text{RIPEMD160}(\text{SHA256}(m))
@@ -193,7 +193,7 @@ $$
 
 Esta combinação é usada para gerar hashes mais curtos, notavelmente na criação de certos endereços Bitcoin que representam hashes de chaves ou hashes de script, bem como para produzir impressões digitais de chaves.
 
-Finalmente, apenas no nível de aplicação, a função SHA512 às vezes também é usada, que indiretamente desempenha um papel na derivação de chaves para carteiras. Esta função é muito semelhante ao SHA256 em sua operação; ambos pertencem à mesma família SHA2, mas SHA512 produz, como seu nome indica, um hash de 512 bits, comparado a 256 bits para SHA256. Detalharemos seu uso nos próximos capítulos.
+Finalmente, apenas no nível de aplicação, a função [SHA512](https://planb.academy/resources/glossary/sha512) às vezes também é usada, que indiretamente desempenha um papel na derivação de chaves para carteiras. Esta função é muito semelhante ao SHA256 em sua operação; ambos pertencem à mesma família SHA2, mas SHA512 produz, como seu nome indica, um hash de 512 bits, comparado a 256 bits para SHA256. Detalharemos seu uso nos próximos capítulos.
 
 Agora você conhece os conceitos básicos essenciais sobre funções de hash para o que segue. No próximo capítulo, proponho descobrir em mais detalhes o funcionamento da função que está no coração do Bitcoin: SHA256. Vamos dissecá-la para entender como ela alcança as características que descrevemos aqui. Este próximo capítulo é bastante longo e técnico, mas não é essencial para seguir o restante do treinamento. Então, se você tiver dificuldade em entendê-lo, não se preocupe e passe diretamente para o capítulo seguinte, que será muito mais acessível.
 
@@ -558,7 +558,7 @@ A função de compressão também usa a operação $\text{ShR}$. Esta operação
 
 Finalmente, para a característica de resistência à colisão, vários parâmetros entram em jogo. O pré-processamento da mensagem original desempenha um papel essencial. Sem este pré-processamento, poderia ser mais fácil encontrar colisões na função. Embora, teoricamente, colisões existam (devido ao princípio da casa dos pombos), a estrutura da função de hash, combinada com as propriedades mencionadas, torna a probabilidade de encontrar uma colisão extremamente baixa.
 Para que uma função de hash seja resistente à colisão, é essencial que:
-- A saída seja imprevisível: Qualquer previsibilidade pode ser explorada para encontrar colisões mais rapidamente do que com um ataque de força bruta. A função garante que cada bit da saída dependa de uma maneira não trivial da entrada. Em outras palavras, a função é projetada de modo que cada bit do resultado final tenha uma probabilidade independente de ser 0 ou 1, mesmo que esta independência não seja absoluta na prática.
+- A saída seja imprevisível: Qualquer previsibilidade pode ser explorada para encontrar colisões mais rapidamente do que com um ataque de [força bruta](https://planb.academy/resources/glossary/brute-force-attack). A função garante que cada bit da saída dependa de uma maneira não trivial da entrada. Em outras palavras, a função é projetada de modo que cada bit do resultado final tenha uma probabilidade independente de ser 0 ou 1, mesmo que esta independência não seja absoluta na prática.
 - A distribuição dos hashes seja pseudo-aleatória: Isso garante que os hashes sejam uniformemente distribuídos.
 - O tamanho do hash seja substancial: quanto maior o espaço possível para resultados, mais difícil é encontrar uma colisão.
 
@@ -568,7 +568,7 @@ Os criptógrafos projetam essas funções avaliando os melhores ataques possíve
 
 A estrutura do SHA256 é baseada na construção de Merkle-Damgård, que permite transformar uma função de compressão em uma função de hash que pode processar mensagens de comprimento arbitrário. É exatamente isso que vimos neste capítulo.
 No entanto, algumas funções de hash antigas como SHA1 ou MD5, que usam essa construção específica, são vulneráveis a ataques de extensão de comprimento. Esta é uma técnica que permite a um atacante que conhece o hash de uma mensagem $M$ e o comprimento de $M$ (sem conhecer a própria mensagem) calcular o hash de uma mensagem $M'$ formada pela concatenação de $M$ com conteúdo adicional.
-SHA256, mesmo utilizando o mesmo tipo de construção, é teoricamente resistente a este tipo de ataque, ao contrário de SHA1 e MD5. Isso pode explicar o mistério da dupla hash implementada em todo o Bitcoin por Satoshi Nakamoto. Para evitar esse tipo de ataque, Satoshi pode ter preferido usar um duplo SHA256:
+SHA256, mesmo utilizando o mesmo tipo de construção, é teoricamente resistente a este tipo de ataque, ao contrário de SHA1 e MD5. Isso pode explicar o mistério da dupla hash implementada em todo o Bitcoin por [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Para evitar esse tipo de ataque, Satoshi pode ter preferido usar um duplo SHA256:
 
 
 $$
@@ -678,16 +678,16 @@ O segundo método criptográfico usado no Bitcoin envolve algoritmos de assinatu
 
 ### Bitcoins, UTXOs e Condições de Gasto
 
-O termo "*carteira*" em Bitcoin pode ser bastante confuso para iniciantes. De fato, o que é chamado de carteira Bitcoin é um software que não guarda diretamente seus bitcoins, ao contrário de uma carteira física que pode conter moedas ou cédulas. Bitcoins são simplesmente unidades de conta. Esta unidade de conta é representada por **UTXO** (*Unspent Transaction Outputs*), que são saídas de transações não gastas. Se essas saídas não são gastas, significa que pertencem a um usuário. UTXOs são, de certa forma, pedaços de bitcoins, de tamanho variável, pertencentes a um usuário.
+O termo "*carteira*" em Bitcoin pode ser bastante confuso para iniciantes. De fato, o que é chamado de carteira Bitcoin é um software que não guarda diretamente seus bitcoins, ao contrário de uma carteira física que pode conter moedas ou cédulas. Bitcoins são simplesmente unidades de conta. Esta unidade de conta é representada por **[UTXO](https://planb.academy/resources/glossary/utxo)** (*Unspent Transaction Outputs*), que são saídas de transações não gastas. Se essas saídas não são gastas, significa que pertencem a um usuário. UTXOs são, de certa forma, pedaços de bitcoins, de tamanho variável, pertencentes a um usuário.
 
 O protocolo Bitcoin é distribuído e opera sem uma autoridade central. Portanto, não é como os registros bancários tradicionais, onde os euros que pertencem a você são simplesmente associados à sua identidade pessoal. No Bitcoin, seus UTXOs pertencem a você porque são protegidos por condições de gasto especificadas na linguagem Script. Para simplificar, existem dois tipos de scripts: o script de bloqueio (*scriptPubKey*), que protege um UTXO, e o script de desbloqueio (*scriptSig*), que permite desbloquear um UTXO e, assim, gastar as unidades de bitcoin que ele representa.
-A operação inicial do Bitcoin com scripts P2PK envolve usar uma chave pública para bloquear fundos, especificando em um *scriptPubKey* que a pessoa que deseja gastar este UTXO deve fornecer uma assinatura válida com a chave privada correspondente a esta chave pública. Para desbloquear este UTXO, é necessário fornecer uma assinatura válida no *scriptSig*. Como seus nomes sugerem, a chave pública é conhecida por todos, pois é transmitida na blockchain, enquanto a chave privada é conhecida apenas pelo legítimo proprietário dos fundos.
-Esta é a operação básica do Bitcoin, mas com o tempo, essa operação se tornou mais complexa. Primeiro, Satoshi também introduziu scripts P2PKH, que usam um endereço de recebimento no *scriptPubKey*, que representa o hash da chave pública. Depois, o sistema se tornou ainda mais complexo com a chegada do SegWit e, em seguida, do Taproot. No entanto, o princípio geral permanece fundamentalmente o mesmo: uma chave pública ou uma representação desta chave é usada para bloquear UTXOs, e uma chave privada correspondente é necessária para desbloqueá-los e, assim, gastá-los.
+A operação inicial do Bitcoin com scripts [P2PK](https://planb.academy/resources/glossary/p2pk) envolve usar uma chave pública para bloquear fundos, especificando em um *scriptPubKey* que a pessoa que deseja gastar este UTXO deve fornecer uma assinatura válida com a chave privada correspondente a esta chave pública. Para desbloquear este UTXO, é necessário fornecer uma assinatura válida no *scriptSig*. Como seus nomes sugerem, a chave pública é conhecida por todos, pois é transmitida na blockchain, enquanto a chave privada é conhecida apenas pelo legítimo proprietário dos fundos.
+Esta é a operação básica do Bitcoin, mas com o tempo, essa operação se tornou mais complexa. Primeiro, Satoshi também introduziu scripts [P2PKH](https://planb.academy/resources/glossary/p2pkh), que usam um endereço de recebimento no *scriptPubKey*, que representa o hash da chave pública. Depois, o sistema se tornou ainda mais complexo com a chegada do [SegWit](https://planb.academy/resources/glossary/segwit) e, em seguida, do Taproot. No entanto, o princípio geral permanece fundamentalmente o mesmo: uma chave pública ou uma representação desta chave é usada para bloquear UTXOs, e uma chave privada correspondente é necessária para desbloqueá-los e, assim, gastá-los.
 Um usuário que deseja realizar uma transação com Bitcoin deve, portanto, criar uma assinatura digital usando sua chave privada na transação em questão. A assinatura pode ser verificada por outros participantes da rede. Se for válida, isso significa que o usuário que iniciou a transação é de fato o proprietário da chave privada e, portanto, o proprietário dos bitcoins que deseja gastar. Outros usuários podem então aceitar e propagar a transação.
 Como resultado, um usuário que possui bitcoins protegidos com uma chave pública deve encontrar uma maneira de armazenar de forma segura o que permite desbloquear seus fundos: a chave privada. Uma carteira de Bitcoin é precisamente um dispositivo que permitirá que você mantenha todas as suas chaves sem que outras pessoas tenham acesso a elas. Portanto, é mais como um chaveiro do que uma carteira.
 
-A ligação matemática entre uma chave pública e uma chave privada, bem como a capacidade de realizar uma assinatura para provar a posse de uma chave privada sem revelá-la, são possibilitadas por um algoritmo de assinatura digital. No protocolo Bitcoin, são usados 2 algoritmos de assinatura: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) e o **esquema de assinatura Schnorr**. ECDSA é o protocolo de assinatura digital usado no Bitcoin desde seus inícios. Schnorr é mais recente no Bitcoin, pois foi introduzido em novembro de 2021 com a atualização Taproot.
-Esses dois algoritmos são bastante semelhantes em seus mecanismos. Ambos são baseados na criptografia de curva elíptica. A principal diferença entre esses dois protocolos reside na estrutura da assinatura e em algumas propriedades matemáticas específicas. Portanto, estudaremos o funcionamento desses algoritmos, começando com o mais antigo: ECDSA.
+A ligação matemática entre uma chave pública e uma chave privada, bem como a capacidade de realizar uma assinatura para provar a posse de uma chave privada sem revelá-la, são possibilitadas por um algoritmo de assinatura digital. No protocolo Bitcoin, são usados 2 algoritmos de assinatura: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*Elliptic Curve Digital Signature Algorithm*) e o **esquema de assinatura [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)**. ECDSA é o protocolo de assinatura digital usado no Bitcoin desde seus inícios. Schnorr é mais recente no Bitcoin, pois foi introduzido em novembro de 2021 com a atualização Taproot.
+Esses dois algoritmos são bastante semelhantes em seus mecanismos. Ambos são baseados na [criptografia de curva elíptica](https://planb.academy/resources/glossary/elliptic-curve). A principal diferença entre esses dois protocolos reside na estrutura da assinatura e em algumas propriedades matemáticas específicas. Portanto, estudaremos o funcionamento desses algoritmos, começando com o mais antigo: ECDSA.
 ### Criptografia de Curva Elíptica
 
 Criptografia de Curva Elíptica (ECC) é um conjunto de algoritmos que usam uma curva elíptica por suas várias propriedades matemáticas e geométricas para fins criptográficos. A segurança desses algoritmos depende da dificuldade do problema do logaritmo discreto em curvas elípticas. Curvas elípticas são notavelmente usadas para trocas de chaves, criptografia assimétrica ou para criar assinaturas digitais.
@@ -711,7 +711,7 @@ $$
 
 Para usar ECDSA ou Schnorr, deve-se escolher os parâmetros da curva elíptica, isto é, os valores de $a$ e $b$ na equação da curva. Existem diferentes padrões de curvas elípticas que são reputados como seguros criptograficamente. O mais conhecido é a curva *secp256r1*, definida e recomendada pelo NIST (*National Institute of Standards and Technology*).
 
-Apesar disso, Satoshi Nakamoto, o inventor do Bitcoin, optou por não usar essa curva. A razão dessa escolha é desconhecida, mas alguns acreditam que ele preferiu encontrar uma alternativa porque os parâmetros dessa curva poderiam potencialmente conter uma porta dos fundos. Em vez disso, o protocolo Bitcoin usa a curva padrão ***secp256k1***. Esta curva é definida pelos parâmetros $a = 0$ e $b = 7$. Sua equação é, portanto:
+Apesar disso, Satoshi Nakamoto, o inventor do Bitcoin, optou por não usar essa curva. A razão dessa escolha é desconhecida, mas alguns acreditam que ele preferiu encontrar uma alternativa porque os parâmetros dessa curva poderiam potencialmente conter uma porta dos fundos. Em vez disso, o protocolo Bitcoin usa a curva padrão ***[secp256k1](https://planb.academy/resources/glossary/secp256k1)***. Esta curva é definida pelos parâmetros $a = 0$ e $b = 7$. Sua equação é, portanto:
 
 
 $$
@@ -769,7 +769,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Como visto anteriormente, os algoritmos de assinatura digital no Bitcoin são baseados em um par de chaves privadas e públicas que estão matematicamente vinculadas. Vamos explorar juntos qual é esse vínculo matemático e como elas são geradas.
+Como visto anteriormente, os algoritmos de assinatura digital no Bitcoin são baseados em um par de [chaves privadas](https://planb.academy/resources/glossary/private-key) e [públicas](https://planb.academy/resources/glossary/public-key) que estão matematicamente vinculadas. Vamos explorar juntos qual é esse vínculo matemático e como elas são geradas.
 
 ### A Chave Privada
 
@@ -956,7 +956,7 @@ $$
 e = \text{HASH}(m)
 $$
 
-Em seguida, calculamos um nonce. Em criptografia, um nonce é simplesmente um número gerado de maneira aleatória ou pseudoaleatória que é usado apenas uma vez. Ou seja, cada vez que uma nova assinatura digital é feita com este par de chaves, será muito importante usar um nonce diferente, caso contrário, comprometerá a segurança da chave privada. Portanto, é suficiente determinar um inteiro aleatório e único $r$ tal que $1 \leq r \leq n-1$, onde $n$ é a ordem do ponto gerador $G$ da curva elíptica.
+Em seguida, calculamos um [nonce](https://planb.academy/resources/glossary/nonce). Em criptografia, um nonce é simplesmente um número gerado de maneira aleatória ou pseudoaleatória que é usado apenas uma vez. Ou seja, cada vez que uma nova assinatura digital é feita com este par de chaves, será muito importante usar um nonce diferente, caso contrário, comprometerá a segurança da chave privada. Portanto, é suficiente determinar um inteiro aleatório e único $r$ tal que $1 \leq r \leq n-1$, onde $n$ é a ordem do ponto gerador $G$ da curva elíptica.
 
 Então, calcularemos o ponto $R$ na curva elíptica com as coordenadas $(x_R, y_R)$ tal que:
 
@@ -1160,9 +1160,9 @@ Essas duas bandeiras sighash ofereceriam uma possibilidade adicional no Bitcoin:
 ![CYP201](assets/en/037.webp)
 
 Essa ideia foi inicialmente formulada por Joseph Poon e Thaddeus Dryja no White Paper do Lightning. Antes de ser renomeada, essa bandeira sighash era chamada de `SIGHASH_NOINPUT`.
-Se essa bandeira sighash for integrada ao Bitcoin, ela permitirá o uso de covenants, mas também é um pré-requisito obrigatório para a implementação do Eltoo, um protocolo geral para camadas secundárias que define como gerenciar conjuntamente a propriedade de um UTXO. O Eltoo foi especificamente projetado para resolver os problemas associados aos mecanismos de negociação do estado dos canais Lightning, ou seja, entre a abertura e o fechamento.
+Se essa bandeira sighash for integrada ao Bitcoin, ela permitirá o uso de [covenants](https://planb.academy/resources/glossary/covenant), mas também é um pré-requisito obrigatório para a implementação do Eltoo, um protocolo geral para camadas secundárias que define como gerenciar conjuntamente a propriedade de um UTXO. O Eltoo foi especificamente projetado para resolver os problemas associados aos mecanismos de negociação do estado dos canais Lightning, ou seja, entre a abertura e o fechamento.
 
-Para aprofundar seu conhecimento sobre a Lightning Network, após o curso CYP201, eu recomendo fortemente o curso LNP201 por Fanis Michalakis, que aborda o tópico em detalhes:
+Para aprofundar seu conhecimento sobre a [Lightning Network](https://planb.academy/resources/glossary/lightning-network), após o curso CYP201, eu recomendo fortemente o curso LNP201 por Fanis Michalakis, que aborda o tópico em detalhes:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -1203,7 +1203,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### Carteiras HD (_Hierarchical Deterministic_)
 
-Para abordar a limitação das carteiras JBOK, uma nova estrutura de carteira foi posteriormente utilizada. Em 2012, Pieter Wuille introduziu uma melhoria com o BIP32, que introduz carteiras determinísticas hierárquicas. O princípio de uma carteira HD é derivar todas as chaves privadas de uma única fonte de informação, chamada de semente, de maneira determinística e hierárquica. Essa semente é gerada aleatoriamente quando a carteira é criada e constitui um backup único que permite a recriação de todas as chaves privadas da carteira. Assim, o usuário pode gerar um número muito grande de chaves privadas para evitar a reutilização de endereços e preservar sua privacidade, enquanto só precisa fazer um único backup de sua carteira via semente.
+Para abordar a limitação das carteiras JBOK, uma nova estrutura de carteira foi posteriormente utilizada. Em 2012, Pieter Wuille introduziu uma melhoria com o [BIP32](https://planb.academy/resources/glossary/bip0032), que introduz carteiras determinísticas hierárquicas. O princípio de uma carteira HD é derivar todas as chaves privadas de uma única fonte de informação, chamada de semente, de maneira determinística e hierárquica. Essa semente é gerada aleatoriamente quando a carteira é criada e constitui um backup único que permite a recriação de todas as chaves privadas da carteira. Assim, o usuário pode gerar um número muito grande de chaves privadas para evitar a reutilização de endereços e preservar sua privacidade, enquanto só precisa fazer um único backup de sua carteira via semente.
 ![CYP201](assets/en/039.webp)
 
 Nas carteiras HD, a derivação de chaves é realizada de acordo com uma estrutura hierárquica que permite que as chaves sejam organizadas em subespaços de derivação, cada subespaço sendo ainda mais subdividível, para facilitar a gestão de fundos e a interoperabilidade entre diferentes softwares de carteira. Atualmente, esse padrão é adotado pela grande maioria dos usuários de Bitcoin. Por essa razão, examinaremos isso em detalhe nos próximos capítulos.
@@ -1222,7 +1222,7 @@ Nos próximos capítulos, exploraremos os funcionamentos internos das carteiras 
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-As carteiras HD modernas (determinísticas e hierárquicas) dependem de uma única peça inicial de informação chamada "entropia" para gerar deterministicamente todo o conjunto de chaves da carteira. Esta entropia é um número pseudoaleatório cujo nível de caos determina em parte a segurança da carteira.
+As carteiras HD modernas (determinísticas e hierárquicas) dependem de uma única peça inicial de informação chamada "[entropia](https://planb.academy/resources/glossary/entropy)" para gerar deterministicamente todo o conjunto de chaves da carteira. Esta entropia é um número pseudoaleatório cujo nível de caos determina em parte a segurança da carteira.
 
 ### Definição de Entropia
 
@@ -1251,12 +1251,12 @@ No próximo capítulo, veremos como passamos de um número aleatório para uma f
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-A frase mnemônica, também chamada de "frase-semente", "frase de recuperação", "frase secreta" ou "frase de 24 palavras", é uma sequência geralmente composta por 12 ou 24 palavras, que é gerada a partir de entropia. É usada para derivar deterministicamente todas as chaves de uma carteira HD. Isso significa que, a partir desta frase, é possível gerar e recriar deterministicamente todas as chaves privadas e públicas da carteira Bitcoin, e consequentemente acessar os fundos que estão protegidos com ela. O propósito da frase mnemônica é fornecer um meio de backup e recuperação de bitcoins que seja seguro e fácil de usar. Foi introduzida nos padrões em 2013 com o BIP39.
+A frase mnemônica, também chamada de "frase-semente", "frase de recuperação", "frase secreta" ou "frase de 24 palavras", é uma sequência geralmente composta por 12 ou 24 palavras, que é gerada a partir de entropia. É usada para derivar deterministicamente todas as chaves de uma carteira HD. Isso significa que, a partir desta frase, é possível gerar e recriar deterministicamente todas as chaves privadas e públicas da carteira Bitcoin, e consequentemente acessar os fundos que estão protegidos com ela. O propósito da frase mnemônica é fornecer um meio de backup e recuperação de bitcoins que seja seguro e fácil de usar. Foi introduzida nos padrões em 2013 com o [BIP39](https://planb.academy/resources/glossary/bip0039).
 Vamos descobrir juntos como passar de entropia para uma frase mnemônica.
 
 ### O Checksum
 
-Para transformar entropia em uma frase mnemônica, deve-se primeiro adicionar um checksum (ou "soma de controle") ao final da entropia. Este checksum é uma curta sequência de bits que garante a integridade dos dados verificando que nenhuma modificação acidental foi introduzida.
+Para transformar entropia em uma frase mnemônica, deve-se primeiro adicionar um [checksum](https://planb.academy/resources/glossary/checksum) (ou "soma de controle") ao final da entropia. Este checksum é uma curta sequência de bits que garante a integridade dos dados verificando que nenhuma modificação acidental foi introduzida.
 
 Para calcular o checksum, a função hash SHA256 é aplicada à entropia (apenas uma vez; este é um dos raros casos no Bitcoin onde um único hash SHA256 é usado em vez de um hash duplo). Esta operação produz um hash de 256 bits. O checksum consiste nos primeiros bits deste hash, e seu comprimento depende do da entropia, de acordo com a seguinte fórmula:
 
@@ -1350,7 +1350,7 @@ Antes de continuar com a derivação da carteira a partir desta frase mnemônica
 
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
-Como acabamos de ver, as carteiras HD são geradas a partir de uma frase mnemônica tipicamente consistindo de 12 ou 24 palavras. Esta frase é muito importante porque permite a restauração de todas as chaves de uma carteira em caso de perda do seu dispositivo físico (como uma carteira de hardware, por exemplo). No entanto, ela constitui um único ponto de falha, porque se for comprometida, um atacante poderia roubar todos os bitcoins. É aqui que a passphrase BIP39 entra em jogo.
+Como acabamos de ver, as carteiras HD são geradas a partir de uma frase mnemônica tipicamente consistindo de 12 ou 24 palavras. Esta frase é muito importante porque permite a restauração de todas as chaves de uma carteira em caso de perda do seu dispositivo físico (como uma carteira de hardware, por exemplo). No entanto, ela constitui um único ponto de falha, porque se for comprometida, um atacante poderia roubar todos os bitcoins. É aqui que a [passphrase](https://planb.academy/resources/glossary/passphrase-bip39) BIP39 entra em jogo.
 
 ### O que é uma passphrase BIP39?
 
@@ -1463,7 +1463,7 @@ Antes de continuar com a derivação da carteira HD com os elementos seguintes, 
 
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
-Uma chave estendida é simplesmente a concatenação de uma chave (seja privada ou pública) e seu código de cadeia associado. Este código de cadeia é essencial para a derivação de chaves filhas porque, sem ele, é impossível derivar chaves filhas de uma chave pai, mas descobriremos esse processo com mais precisão no próximo capítulo. Essas chaves estendidas permitem, assim, agregar todas as informações necessárias para derivar chaves filhas, simplificando assim a gestão de contas dentro de uma carteira HD.
+Uma [chave estendida](https://planb.academy/resources/glossary/extended-key) é simplesmente a concatenação de uma chave (seja privada ou pública) e seu código de cadeia associado. Este código de cadeia é essencial para a derivação de chaves filhas porque, sem ele, é impossível derivar chaves filhas de uma chave pai, mas descobriremos esse processo com mais precisão no próximo capítulo. Essas chaves estendidas permitem, assim, agregar todas as informações necessárias para derivar chaves filhas, simplificando assim a gestão de contas dentro de uma carteira HD.
 
 ![CYP201](assets/en/051.webp)
 
@@ -1809,17 +1809,17 @@ Com o tempo, diferentes BIPs introduziram padrões para esses caminhos de deriva
 
 Os caminhos de derivação são organizados em camadas de profundidade, variando da profundidade 0, que representa a chave mestre e o código da cadeia mestre, até camadas de subníveis para derivar endereços usados para bloquear UTXOs. Os BIPs (_Propostas de Melhoria do Bitcoin_) definem os padrões para cada camada, o que ajuda a harmonizar práticas em diferentes softwares de gestão de carteiras.
 
-Um caminho de derivação, portanto, refere-se à sequência de índices usados para derivar chaves filhas de uma chave mestre.
+Um [caminho de derivação](https://planb.academy/resources/glossary/derivation-path), portanto, refere-se à sequência de índices usados para derivar chaves filhas de uma chave mestre.
 
 **Profundidade 0: Chave Mestre (BIP32)**
 
 Esta profundidade corresponde à chave privada mestre da carteira e ao código da cadeia mestre. É representada pela notação $m/$.
 
-**Profundidade 1: Propósito (BIP43)**
-O objetivo determina a estrutura lógica de derivação. Por exemplo, um endereço P2WPKH terá $/84'/$ na profundidade 1 (de acordo com o BIP84), enquanto um endereço P2TR terá $/86'/$ (de acordo com o BIP86). Esta camada facilita a compatibilidade entre carteiras ao indicar números de índice correspondentes aos números BIP.
+**Profundidade 1: Propósito ([BIP43](https://planb.academy/resources/glossary/bip0043))**
+O objetivo determina a estrutura lógica de derivação. Por exemplo, um endereço P2WPKH terá $/84'/$ na profundidade 1 (de acordo com o [BIP84](https://planb.academy/resources/glossary/bip0084)), enquanto um endereço P2TR terá $/86'/$ (de acordo com o [BIP86](https://planb.academy/resources/glossary/bip0086)). Esta camada facilita a compatibilidade entre carteiras ao indicar números de índice correspondentes aos números BIP.
 Em outras palavras, uma vez que você tenha a chave mestra e o código da cadeia mestre, estes servem como um par de chaves pai para derivar um par de chaves filho. O índice usado nesta derivação pode ser, por exemplo, $/84'/$ se a carteira for destinada a usar scripts do tipo SegWit v0. Este par de chaves está então na profundidade 1. Seu papel não é bloquear bitcoins, mas simplesmente servir como um ponto de passagem na hierarquia de derivação.
 
-**Profundidade 2: Tipo de Moeda (BIP44)**
+**Profundidade 2: Tipo de Moeda ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 A partir do par de chaves na profundidade 1, uma nova derivação é realizada para obter o par de chaves na profundidade 2. Esta profundidade permite diferenciar contas Bitcoin de outras criptomoedas dentro da mesma carteira.
 
@@ -1898,7 +1898,7 @@ No próximo capítulo, descobriremos o que são os "_output script descriptors_"
 
 Frequentemente, é dito que a frase mnemônica sozinha é suficiente para recuperar o acesso a uma carteira. Na realidade, as coisas são um pouco mais complexas. No capítulo anterior, examinamos a estrutura de derivação da carteira HD, e você pode ter notado que esse processo é bastante complexo. Os caminhos de derivação indicam ao software qual direção seguir para derivar as chaves do usuário. No entanto, ao recuperar uma carteira Bitcoin, se não se conhece esses caminhos, a frase mnemônica sozinha não é suficiente. Ela permite obter a chave mestra e o código da cadeia mestre, mas é necessário saber os índices usados para alcançar as chaves filhas.
 
-Teoricamente, seria necessário salvar não apenas a frase mnemônica da nossa carteira, mas também os caminhos para as contas que usamos. Na prática, muitas vezes é possível recuperar o acesso às chaves filhas sem essa informação, desde que os padrões tenham sido seguidos. Testando cada padrão um por um, geralmente é possível recuperar o acesso aos bitcoins. No entanto, isso não é garantido e é especialmente complicado para iniciantes. Além disso, com a diversificação dos tipos de script e o surgimento de configurações mais complexas, essa informação poderia se tornar difícil de extrapolar, transformando esses dados em informações privadas e difíceis de recuperar por força bruta. É por isso que uma inovação foi recentemente introduzida e está começando a ser integrada ao seu software de carteira favorito: os _output script descriptors_.
+Teoricamente, seria necessário salvar não apenas a frase mnemônica da nossa carteira, mas também os caminhos para as contas que usamos. Na prática, muitas vezes é possível recuperar o acesso às chaves filhas sem essa informação, desde que os padrões tenham sido seguidos. Testando cada padrão um por um, geralmente é possível recuperar o acesso aos bitcoins. No entanto, isso não é garantido e é especialmente complicado para iniciantes. Além disso, com a diversificação dos tipos de script e o surgimento de configurações mais complexas, essa informação poderia se tornar difícil de extrapolar, transformando esses dados em informações privadas e difíceis de recuperar por força bruta. É por isso que uma inovação foi recentemente introduzida e está começando a ser integrada ao seu software de carteira favorito: os _[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)_.
 
 ### O que é um "descriptor"?
 
@@ -1955,13 +1955,13 @@ Quando um usuário recebe bitcoins, o remetente cria uma saída UTXO e a bloquei
 
 
 
-| Padrão             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Padrão             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dados arbitrários | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Dados arbitrários | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -2026,13 +2026,13 @@ Este modelo de script foi introduzido na primeira versão do Bitcoin por Satoshi
 
 **P2PKH (_Pay-to-PubKey-Hash_)**:
 
-Assim como o P2PK, o script P2PKH foi introduzido no lançamento do Bitcoin. Diferentemente de seu predecessor, ele bloqueia os bitcoins usando o hash da chave pública, em vez de usar diretamente a chave pública bruta. O _scriptSig_ deve então fornecer a chave pública associada ao endereço de recebimento, bem como uma assinatura válida. Os endereços correspondentes a este modelo começam com `1` e são codificados em _base58check_. Este script também pertence ao padrão "_Legacy_".
+Assim como o P2PK, o script P2PKH foi introduzido no lançamento do Bitcoin. Diferentemente de seu predecessor, ele bloqueia os bitcoins usando o hash da chave pública, em vez de usar diretamente a chave pública bruta. O _scriptSig_ deve então fornecer a chave pública associada ao endereço de recebimento, bem como uma assinatura válida. Os endereços correspondentes a este modelo começam com `1` e são codificados em _[base58check](https://planb.academy/resources/glossary/base58check)_. Este script também pertence ao padrão "_Legacy_".
 
 **P2SH (_Pay-to-Script-Hash_)**:
 Introduzido em 2012 com o BIP16, o modelo P2SH permite o uso do hash de um script arbitrário no _scriptPubKey_. Este script hash, chamado de "_redeemScript_", contém as condições para desbloquear os fundos. Para gastar um UTXO bloqueado com P2SH, é necessário fornecer um _scriptSig_ contendo o _redeemScript_ original, bem como os dados necessários para validá-lo. Este modelo é notavelmente usado para multisigs antigos. Os endereços associados ao P2SH começam com `3` e são codificados em _base58check_. Este script também pertence ao padrão "_Legacy_".
 **P2WPKH (_Pay-to-Witness-PubKey-Hash_)**:
 Este script é semelhante ao P2PKH, pois também bloqueia bitcoins usando o hash de uma chave pública. No entanto, ao contrário do P2PKH, o _scriptSig_ é movido para uma seção separada chamada "_Witness_". Isso é às vezes referido como "_scriptWitness_" para denotar o conjunto composto pela assinatura e pela chave pública. Cada entrada SegWit tem seu próprio _scriptWitness_, e a coleção de _scriptWitnesses_ constitui o campo _Witness_ da transação. Esse movimento dos dados de assinatura é uma inovação introduzida pela atualização SegWit, visando especialmente prevenir a maleabilidade das transações devido às assinaturas ECDSA.
-Endereços P2WPKH usam codificação _bech32_ e sempre começam com `bc1q`. Este tipo de script corresponde às saídas SegWit versão 0.
+Endereços P2WPKH usam codificação _[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)_ e sempre começam com `bc1q`. Este tipo de script corresponde às saídas SegWit versão 0.
 
 **P2WSH (_Pay-to-Witness-Script-Hash_)**:
 

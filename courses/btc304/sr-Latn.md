@@ -193,7 +193,7 @@ Zajednice Bitcoin često teže širim ciljevima, posebno javnom obrazovanju o:
 4. Razotkrivanje obmanjujućih ili neutemeljenih tvrdnji koje iznose neke javne ličnosti i mediji;
 
 
-5. Osnovne razlike između Bitcoin i drugih kripto-valuta;
+5. Osnovne razlike između Bitcoin i drugih [kripto-valuta](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Izgradnjom prvih "citadela" sutrašnjice, **Bitcoin zajednice širom sveta služe kao bedem protiv dezinformacija i cenzure, dok istovremeno pružaju plodno tlo za učenje osnova Bitcoin**. One nude novajlijama, pa čak i skepticima, resurse i veze potrebne za istraživanje pravog potencijala Bitcoin.
@@ -302,7 +302,7 @@ Međutim, **udruživanje snaga često ima više smisla nego razdvajanje obližnj
 U tom smislu, jednostavno "pravilo palca" može pomoći: ako ne postoji aktivna Bitcoin zajednica unutar 30-45 minuta od mesta gde živite, možda vredi pokrenuti novu. Ipak, uvek ste slobodni da radite kako želite.
 
 
-I naravno, ako se starija zajednica "evoluirala" u pravcu koji više ne odgovara vašim vrednostima, a nemate vremena ili motivacije da ih "orange-pill", onda je stvaranje sopstvenog Fork uvek opcija.
+I naravno, ako se starija zajednica "evoluirala" u pravcu koji više ne odgovara vašim vrednostima, a nemate vremena ili motivacije da ih "[orange-pill](https://planb.academy/resources/glossary/orange-pill)", onda je stvaranje sopstvenog [Fork](https://planb.academy/resources/glossary/fork) uvek opcija.
 
 
 
@@ -1391,7 +1391,7 @@ To uključuje:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog Sats. Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
+- [Btcmap.org](https://btcmap.org/)**, vebsajt sa dve mape koje se ažuriraju svakodnevno: **[svetska mapa preduzeća koja prihvataju Bitcoin](https://btcmap.org/map)** i **[svetska mapa zajednica](https://btcmap.org/communities/map)**. Mnogi bitkoin entuzijasti redovno proveravaju ove mape, bilo da putuju ili obavljaju svakodnevne aktivnosti, kako bi upoznali nove ljude ili pronašli mesta za trošenje svog [Sats](https://planb.academy/resources/glossary/satoshi-sat). Btcmap je globalna referenca, a uvrštavanje vaše zajednice tamo je ključno za vidljivost.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), vebsajt kreiran od strane bitkoinera, za bitkoinere. **Omogućava vam da objavite predstojeće događaje vaše zajednice**. Međutim, u Francuskoj se još uvek ne koristi široko.
 - u zavisnosti od vaše zemlje, mogu postojati i druge lokalne inicijative. U Francuskoj, na primer, postoji [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), koji **navodi desetine Bitcoin događaja svakog meseca**. Dakle, ako ih još niste zapratili na Twitteru ili ih kontaktirali da podelite informacije o vašoj zajednici i događajima, sada je pravo vreme! **Da bi francuski kalendar događaja bio ažuriran, bilo bi sjajno kada bi sve francuske Bitcoin zajednice usvojile naviku da:**
     - pominjanje @bitcoinpointfr na Twitteru za svaki novi događaj zajednice
@@ -1820,7 +1820,7 @@ Pored svoje snažne obrazovne vrednosti, ovaj pristup omogućava deljenje dokume
 Ispod je napredak francuskog okupljanja za 2023-2024. Za svaku temu dostupna je prezentacija otvorenog koda i video, što vam može dati ideje za teme koje biste mogli pokriti na svojim događajima.
 
 
-Dodatni materijali za uređivanje mogu se pronaći i u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Drugi resursi su takođe dostupni u odeljku ["Educator Content"](https://planb.academy/educator-content) na Plan ₿ Academy, saradničkom prostoru gde Bitcoin edukatori iz celog sveta dele i stavljaju na raspolaganje svoje obrazovne materijale (prezentacije, letke, vodiče, postere...) u formatima spremnim za upotrebu ili izmenljivim. Cilj: objediniti napore da ne počinjemo od nule svaki put!
 
 
 
@@ -1936,7 +1936,7 @@ U privatnim prostorima kao što su koncerti, barovi ili stadioni, proverite da l
 Još jedan projekat koji možete lako postaviti je **kreiranje biblioteke na vašim okupljanjima**.
 
 
-Možete pozvati učesnike koji žele da podele svoj materijal za čitanje da donesu knjigu vezanu za Bitcoin. Ako neko drugi na okupljanju želi da je pozajmi, može se dogovoriti pozajmica sa vlasnikom u Exchange uz depozit, na primer, 21,000 satoshija putem Lightning-a.
+Možete pozvati učesnike koji žele da podele svoj materijal za čitanje da donesu knjigu vezanu za Bitcoin. Ako neko drugi na okupljanju želi da je pozajmi, može se dogovoriti pozajmica sa vlasnikom u Exchange uz depozit, na primer, 21,000 satoshija putem [Lightning](https://planb.academy/resources/glossary/lightning-network)-a.
 
 
 Za vlasnika, ovaj depozit pomaže u pokrivanju potencijalnog gubitka ili krađe. Za zajmoprimca, to je podsticaj da se vrati na budući sastanak kako bi preuzeo svoj depozit.
@@ -2599,7 +2599,7 @@ Sa ovim porastom posete:
     - ako ustanovite da broj učesnika postaje prevelik, možete, za buduće sastanke, ili **zahtevati od učesnika da se registruju** (putem aplikacije Meetup ili jednostavnog formulara) ili **održavati više sastanaka svakog meseca** (na primer: sastanak za početnike, jedan za srednji nivo i jedan za napredni nivo).
     - Istovremeno, očekujte mnogo novajlija u ekosistemu, često sa glavnim ciljem da zarade novac. Da biste **održali fokus razgovora na Bitcoin** na ovim brzo rastućim okupljanjima, dobra je ideja da:
 
-a) Uključite **prezentaciju na temu Bitcoin** tokom ovih događaja, jer će to prirodno usmeriti veći deo razgovora ka toj temi (i udaljiti ga od najnovijeg navodno "revolucionarnog" shitcoin projekta);
+a) Uključite **prezentaciju na temu Bitcoin** tokom ovih događaja, jer će to prirodno usmeriti veći deo razgovora ka toj temi (i udaljiti ga od najnovijeg navodno "revolucionarnog" [shitcoin](https://planb.academy/resources/glossary/shitcoin) projekta);
 
 b) **Izbegavajte druženje samo sa bitkoin entuzijastima**. Umesto toga, potrudite se da **priđete novajlijama**, čak i ako to znači da stojite pozadi u prostoriji kako biste ih pozdravili. Odatle možete razgovarati o tome zašto su došli, šta traže, ciljevima (ili čak osnovnim principima) vaše zajednice, i tako dalje.
 

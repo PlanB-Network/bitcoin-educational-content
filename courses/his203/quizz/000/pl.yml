@@ -1,0 +1,10 @@
+question: Jakie wydarzenie skłoniło Satoshi Nakamoto do wycofania się z centrum uwagi w grudniu 2010 roku?
+answer: Publikacja artykułu PC World zachęcającego WikiLeaks do korzystania z Bitcoin
+wrong_answers:
+  - Ross Ulbricht uruchamia platformę Silk Road
+  - Kontakt nawiązany przez In-Q-Tel, fundusz inwestycyjny CIA
+  - Spektakularny wzrost ceny BTC z 0,20 USD do 32 USD w ciągu zaledwie kilku miesięcy
+explanation: |
+ Satoshi negatywnie skomentował tę publikację na forum Bitcoin, obawiając się, że przyciągnie ona uwagę władz państwowych. Rynek Silk Road
+ został uruchomiony w styczniu 2011 r., kontakt między In-Q-Tel i Gavinem Andresenem miał miejsce w kwietniu, a cena wzrosła do 32 USD w czerwcu.
+reviewed: true

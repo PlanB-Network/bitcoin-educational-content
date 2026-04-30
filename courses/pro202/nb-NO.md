@@ -17,6 +17,7 @@ Dette intensive todagerskurset, undervist av Jimmy Song, tar deg dypt inn i Bitc
 
 Nyt reisen!
 
+Merk: Videoene til dette kurset er kun tilgjengelige på engelsk.
 
 +++
 
@@ -92,7 +93,7 @@ Som med alle kurs om Plan ₿ Academy inneholder den siste delen en evaluering s
 ### Bitcoin Grunnleggende programmering: Matematiske kjernestrukturer
 
 
-Dette kurset kondenserer den essensielle matematikken bak Bitcoins kryptografiske systemer til en svært praktisk arbeidsflyt. Konsepter blir forklart, demonstrert med eksempler og deretter implementert i Jupyter Notebook. Den ledende ideen er enkel: Du forstår en kryptografisk primitivitet først når du koder den. I løpet av de to dagene kurset varer, skal studentene generate testnettadresser, bygge og kringkaste transaksjoner, og til slutt samhandle med nettverket uten blokkutforskere. Alt dette krever et solid grunnlag i finitte felt og elliptiske kurver.
+Dette kurset kondenserer den essensielle matematikken bak Bitcoins kryptografiske systemer til en svært praktisk arbeidsflyt. Konsepter blir forklart, demonstrert med eksempler og deretter implementert i Jupyter Notebook. Den ledende ideen er enkel: Du forstår en kryptografisk primitivitet først når du koder den. I løpet av de to dagene kurset varer, skal studentene generate testnettadresser, bygge og kringkaste [transaksjoner](https://planb.academy/resources/glossary/transaction-tx), og til slutt samhandle med nettverket uten blokkutforskere. Alt dette krever et solid grunnlag i finitte felt og elliptiske kurver.
 
 
 ### Finite felt: Kryptografiens aritmetiske motor
@@ -103,7 +104,7 @@ Et endelig felt F(p) er et aritmetisk system definert av et primtall p, som inne
 
 #### Multiplikativ oppførsel
 
-Ved å multiplisere et hvilket som helst element k som ikke er null, med alle elementene i et primtallfelt, får man en permutasjon av feltet. Denne egenskapen garanterer ensartethet og forhindrer strukturelle svakheter, noe som gjør primtallsfelt ideelle for sikker nøkkelgenerering og digitale signaturer.
+Ved å multiplisere et hvilket som helst element k som ikke er null, med alle elementene i et primtallfelt, får man en permutasjon av feltet. Denne egenskapen garanterer ensartethet og forhindrer strukturelle svakheter, noe som gjør primtallsfelt ideelle for sikker nøkkelgenerering og [digitale signaturer](https://planb.academy/resources/glossary/digital-signature).
 
 
 #### Divisjon og Fermats lille læresetning
@@ -112,7 +113,7 @@ Divisjon implementeres ved hjelp av multiplikative inverser. Fermats lille teore
 
 n^(p-1) ≡ 1 (mod p),
 
-så den inverse er n^(p-2). Python støtter dette direkte med `pow(n, -1, p)`. Disse operasjonene forekommer stadig i ECDSA og Bitcoins underliggende kryptografiske rutiner.
+så den inverse er n^(p-2). Python støtter dette direkte med `pow(n, -1, p)`. Disse operasjonene forekommer stadig i [ECDSA](https://planb.academy/resources/glossary/ecdsa) og Bitcoins underliggende kryptografiske rutiner.
 
 
 ### Elliptiske kurver: Ikke-lineære strukturer for sikkerhet med offentlige nøkler
@@ -138,7 +139,7 @@ Finitte felt gir deterministisk, inverterbar aritmetikk, mens elliptiske kurver 
 ![lecture](https://www.youtube.com/watch?v=xOXdKuF3UFw)
 
 
-Dette kapittelet introduserer elliptiske kurver definert over endelige felt og forklarer hvorfor de utgjør den matematiske ryggraden i Bitcoins kryptografi. Mens elliptiske kurver over reelle tall ser glatte og kontinuerlige ut, skaper anvendelsen av de samme ligningene over et endelig felt et diskret, spredt sett med punkter. Til tross for den visuelle forskjellen oppfører alle punktaddisjonsformler, helninger og algebraiske regler seg på nøyaktig samme måte - det er bare aritmetikken som endres til modulær aritmetikk. Bitcoin bruker kurven y² = x³ + 7 (secp256k1), som bevarer symmetri og ikke-lineær oppførsel, noe som er avgjørende for kryptografisk sikkerhet.
+Dette kapittelet introduserer elliptiske kurver definert over endelige felt og forklarer hvorfor de utgjør den matematiske ryggraden i Bitcoins [kryptografi](https://planb.academy/resources/glossary/cryptography). Mens elliptiske kurver over reelle tall ser glatte og kontinuerlige ut, skaper anvendelsen av de samme ligningene over et endelig felt et diskret, spredt sett med punkter. Til tross for den visuelle forskjellen oppfører alle punktaddisjonsformler, helninger og algebraiske regler seg på nøyaktig samme måte - det er bare aritmetikken som endres til modulær aritmetikk. Bitcoin bruker kurven y² = x³ + 7 (secp256k1), som bevarer symmetri og ikke-lineær oppførsel, noe som er avgjørende for kryptografisk sikkerhet.
 
 
 ### Verifiseringspunkter og implementering av endelige felt
@@ -155,7 +156,7 @@ Elliptiske kurvepunkter danner en matematisk gruppe under addisjon. Gruppen tilf
 ### Sykliske grupper og det diskrete logaritmeproblemet
 
 
-Ved å velge et generatorpunkt G på en kurve kan vi generate en syklisk gruppe: G, 2G, 3G, ..., nG = 0. Punktene virker ikke-lineære og uforutsigbare, selv når de genereres sekvensielt. Denne uforutsigbarheten danner grunnlaget for det diskrete logaritmeproblemet: Det er enkelt å beregne P = sG, men å bestemme s ut fra P er beregningsmessig ugjennomførbart for store grupper. Det er denne enveisfunksjonen som gjør kryptografi med offentlig nøkkel sikker. Skalarer (private nøkler) skrives med små bokstaver, mens punkter (offentlige nøkler) skrives med store bokstaver.
+Ved å velge et generatorpunkt G på en kurve kan vi generate en syklisk gruppe: G, 2G, 3G, ..., nG = 0. Punktene virker ikke-lineære og uforutsigbare, selv når de genereres sekvensielt. Denne uforutsigbarheten danner grunnlaget for det diskrete logaritmeproblemet: Det er enkelt å beregne P = sG, men å bestemme s ut fra P er beregningsmessig ugjennomførbart for store grupper. Det er denne enveisfunksjonen som gjør kryptografi med offentlig nøkkel sikker. Skalarer ([private nøkler](https://planb.academy/resources/glossary/private-key)) skrives med små bokstaver, mens punkter ([offentlige nøkler](https://planb.academy/resources/glossary/public-key)) skrives med store bokstaver.
 
 
 #### Effektiv skalarmultiplikasjon
@@ -178,7 +179,7 @@ En privat nøkkel er en tilfeldig skalar s, mens den offentlige nøkkelen er P =
 #### Bitcoin Address Opprettelse
 
 
-Bitcoin-adresser er hashkoder av offentlige nøkler, ikke selve rånøklene. For å generate en adresse, serialiser den offentlige nøkkelen i SEC-format, beregn hash160 (SHA-256 og deretter RIPEMD-160), legg til nettverksprefikset (0x00 for mainnet, 0x6F for testnet), beregn en sjekksum ved hjelp av dobbel SHA-256, legg til de fire første byte med sjekksum, og kod resultatet med Base58. Denne kodingen fjerner tvetydige tegn og inkluderer sjekksummen for å forhindre transkripsjonsfeil. Flertrinnsløsningen skjuler den offentlige nøkkelen til det skjer et forbruk, legger til nettverksidentifikasjon og sikrer adresser som kan leses av mennesker og er motstandsdyktige mot feil.
+Bitcoin-adresser er hashkoder av offentlige nøkler, ikke selve rånøklene. For å generate en adresse, serialiser den offentlige nøkkelen i SEC-format, beregn hash160 ([SHA-256](https://planb.academy/resources/glossary/sha256) og deretter RIPEMD-160), legg til nettverksprefikset (0x00 for mainnet, 0x6F for testnet), beregn en sjekksum ved hjelp av dobbel SHA-256, legg til de fire første byte med sjekksum, og kod resultatet med Base58. Denne kodingen fjerner tvetydige tegn og inkluderer sjekksummen for å forhindre transkripsjonsfeil. Flertrinnsløsningen skjuler den offentlige nøkkelen til det skjer et forbruk, legger til nettverksidentifikasjon og sikrer adresser som kan leses av mennesker og er motstandsdyktige mot feil.
 
 
 # Bitcoin Transaksjonens indre funksjoner
@@ -212,13 +213,13 @@ Bitcoin koder ECDSA-signaturer ved hjelp av DER-formatet:
 - 0x02 + lengde + S byte
 
 
-Dette gir ekstra kostnader, og utvider en signatur på 64 byte til ~71-72 byte. Taproot eliminerer denne ineffektiviteten ved å ta i bruk Schnorr-signaturer med fast størrelse.
+Dette gir ekstra kostnader, og utvider en signatur på 64 byte til ~71-72 byte. [Taproot](https://planb.academy/resources/glossary/taproot) eliminerer denne ineffektiviteten ved å ta i bruk [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)-signaturer med fast størrelse.
 
 
 ### Signaturforpliktelser og signeringsprosessen
 
 
-ECDSA-signaturer baserer seg på en forpliktelsesligning: UG + VP = KG. Underskriveren velger U- og V-verdier som ikke er null, og en tilfeldig nonce K, som beviser kjennskap til den private nøkkelen uten å avsløre den. Meldingen hashes inn i Z, en tilfeldig K genereres, R er x-koordinaten til KG, og S = (Z + RE)/K. Signaturen er paret (R, S). Sikkerheten er kritisk avhengig av at det brukes en unik, uforutsigbar K - hvis K gjenbrukes eller lekker ut, er den private nøkkelen kompromittert. Moderne implementeringer bruker deterministisk K-generering (RFC 6979) for å unngå RNG-feil.
+ECDSA-signaturer baserer seg på en forpliktelsesligning: UG + VP = KG. Underskriveren velger U- og V-verdier som ikke er null, og en tilfeldig [nonce](https://planb.academy/resources/glossary/nonce) K, som beviser kjennskap til den private nøkkelen uten å avsløre den. Meldingen hashes inn i Z, en tilfeldig K genereres, R er x-koordinaten til KG, og S = (Z + RE)/K. Signaturen er paret (R, S). Sikkerheten er kritisk avhengig av at det brukes en unik, uforutsigbar K - hvis K gjenbrukes eller lekker ut, er den private nøkkelen kompromittert. Moderne implementeringer bruker deterministisk K-generering (RFC 6979) for å unngå RNG-feil.
 
 
 #### Verifisering av signatur
@@ -245,7 +246,7 @@ En Bitcoin-transaksjon består av:
 - locktime (4 byte)
 
 
-Inndata refererer til tidligere UTXO-er ved hjelp av transaksjonshash og utgangsindeks, og inkluderer et opplåsingsskript (scriptSig) og et sekvensnummer som brukes for tidssperrer eller RBF. Utdata spesifiserer beløpet (8 byte) og låseskriptet (scriptPubKey), som definerer utgiftsbetingelser. Bitcoin-adresser er representasjoner av disse skriptene.
+Inndata refererer til tidligere [UTXO](https://planb.academy/resources/glossary/utxo)-er ved hjelp av transaksjonshash og utgangsindeks, og inkluderer et opplåsingsskript (scriptSig) og et sekvensnummer som brukes for tidssperrer eller RBF. Utdata spesifiserer beløpet (8 byte) og låseskriptet (scriptPubKey), som definerer utgiftsbetingelser. Bitcoin-adresser er representasjoner av disse skriptene.
 
 
 #### UTXO-modellen
@@ -265,7 +266,7 @@ Transaksjoner bruker et kompakt binært format. Etter versjonsfeltet kommer en v
 - sekvens (4 byte)
 
 
-Utdataene inkluderer et beløp på 8 byte og scriptPubKey (varstr). Locktime styrer når transaksjonen blir gyldig. Serialisering bruker little-endian-orden for de fleste heltall. Parsere bruker byte sekvensielt og delegerer til spesialiserte klasser for innganger, utganger og skript.
+Utdataene inkluderer et beløp på 8 byte og scriptPubKey (varstr). Locktime styrer når transaksjonen blir gyldig. Serialisering bruker little-endian-orden for de fleste heltall. Parsere bruker byte sekvensielt og delegerer til spesialiserte klasser for innganger, utganger og [skript](https://planb.academy/resources/glossary/script).
 
 
 ### Avgifter, endring og formbarhet
@@ -275,7 +276,7 @@ Avgifter er implisitte:
 
 avgift = sum(inngangsverdier) - sum(utgangsverdier).
 
-Enhver verdi som ikke er tilordnet, blir gebyret, noe som gjør det viktig å konstruere korrekt endringsutdata. Før SegWit tillot signaturer manipulerbarhet - ved å endre S til N-S produserte man en ny, gyldig transaksjon med en annen ID. Bitcoin håndhever nå en regel om lav S, og SegWit isolerer signaturer fra txid-beregningen, noe som gjør ID-er stabile og muliggjør andrelagsprotokoller som Lightning.
+Enhver verdi som ikke er tilordnet, blir gebyret, noe som gjør det viktig å konstruere korrekt endringsutdata. Før [SegWit](https://planb.academy/resources/glossary/segwit) tillot signaturer manipulerbarhet - ved å endre S til N-S produserte man en ny, gyldig transaksjon med en annen ID. Bitcoin håndhever nå en regel om lav S, og SegWit isolerer signaturer fra txid-beregningen, noe som gjør ID-er stabile og muliggjør andrelagsprotokoller som [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 ## Bitcoin Skript- og transaksjonsvalidering
@@ -292,7 +293,7 @@ Bitcoin Script er et lite, stakkbasert smartkontraktspråk som definerer hvordan
 ### Skriptoperasjoner og utførelsesmodell
 
 
-Et skript er en sekvens av dataelementer og opkoder. Datapushes (signaturer, offentlige nøkler, hasher) plasseres i stakken, mens opkoder som begynner med `OP_`, transformerer stakken. Etter kjøring må det øverste stabelelementet være forskjellig fra null for å lykkes. Eksempler på dette: `OP_DUP` dupliserer det øverste elementet, `OP_HASH160` bruker SHA256 og deretter RIPEMD160, og `OP_CHECKSIG` verifiserer en signatur mot transaksjonens sighash og en offentlig nøkkel, og skyver 1 for gyldig, 0 for ugyldig. Parsing-reglene skiller mellom rådata (lengdeprefiks) og opkoder (slått opp etter byteverdi), og en liten virtuell maskin utfører dem deterministisk på hver node.
+Et skript er en sekvens av dataelementer og opkoder. Datapushes (signaturer, offentlige nøkler, hasher) plasseres i stakken, mens opkoder som begynner med `OP_`, transformerer stakken. Etter kjøring må det øverste stabelelementet være forskjellig fra null for å lykkes. Eksempler på dette: `OP_DUP` dupliserer det øverste elementet, `OP_HASH160` bruker SHA256 og deretter RIPEMD160, og `OP_CHECKSIG` verifiserer en signatur mot transaksjonens sighash og en offentlig nøkkel, og skyver 1 for gyldig, 0 for ugyldig. Parsing-reglene skiller mellom rådata (lengdeprefiks) og opkoder (slått opp etter byteverdi), og en liten virtuell maskin utfører dem deterministisk på hver [node](https://planb.academy/resources/glossary/node).
 
 
 ### P2PK og P2PKH: Kjernebetalingsmønstre
@@ -329,7 +330,7 @@ Fordi hver inndata i en eldre transaksjon krever sin egen sukkberegning over en 
 ### Skriptgåter og leksjoner i sikkerhet
 
 
-Skript kan uttrykke langt mer enn bare "en signatur låser opp disse myntene" Script-gåter demonstrerer dette ved å kode vilkårlige forhold - matteproblemer, hash preimage-utfordringer eller til og med kollisjonspremier - der alle som oppgir de riktige dataene, kan bruke myntene. Utganger som kun baserer seg på offentlige data (ingen signaturer), er imidlertid sårbare for "miner front-running": Når en gyldig løsning dukker opp i mempoolen, kan enhver miner kopiere den og omdirigere utbetalingen til seg selv.
+Skript kan uttrykke langt mer enn bare "en signatur låser opp disse myntene" Script-gåter demonstrerer dette ved å kode vilkårlige forhold - matteproblemer, hash preimage-utfordringer eller til og med kollisjonspremier - der alle som oppgir de riktige dataene, kan bruke myntene. Utganger som kun baserer seg på offentlige data (ingen signaturer), er imidlertid sårbare for "[miner](https://planb.academy/resources/glossary/miner) front-running": Når en gyldig løsning dukker opp i [mempoolen](https://planb.academy/resources/glossary/mempool), kan enhver miner kopiere den og omdirigere utbetalingen til seg selv.
 
 
 Den praktiske lærdommen er at kontrakter i den virkelige verden nesten alltid inkluderer signaturkontroller, selv når de inneholder mer kompleks logikk som multisig, tidslås eller hashlock. Signaturer binder løsningen til en spesifikk part, bevarer insentiver og hindrer andre i å stjele utbetalingen. Å forstå Skripts stakemodell, standardmønstre og subtile fallgruver er avgjørende for å utforme sikre Bitcoin-smartkontrakter og for å kunne resonnere om hvordan transaksjoner faktisk valideres i nettverket.
@@ -402,13 +403,13 @@ P2SH forbedrer personvernet ved å skjule utgiftsbetingelsene frem til den førs
 ![lecture](https://www.youtube.com/watch?v=lJYSM1iLWQU)
 
 
-Bitcoin-blokker grupperer transaksjoner og sikrer dem ved hjelp av proof of work. Hver blokk inneholder en header på 80 byte samt en liste over transaksjoner. Til tross for at det koster mye energi å produsere en gyldig blokk, er det billig å verifisere den: Lagring av alle ~900 000 overskrifter krever bare ~72 MB, noe som gjør at selv små enheter kan verifisere kjedens proof of work på en effektiv måte.
+Bitcoin-[blokker](https://planb.academy/resources/glossary/block) grupperer transaksjoner og sikrer dem ved hjelp av [proof of work](https://planb.academy/resources/glossary/proof-of-work). Hver blokk inneholder en [header](https://planb.academy/resources/glossary/block-header) på 80 byte samt en liste over transaksjoner. Til tross for at det koster mye energi å produsere en gyldig blokk, er det billig å verifisere den: Lagring av alle ~900 000 overskrifter krever bare ~72 MB, noe som gjør at selv små enheter kan verifisere kjedens proof of work på en effektiv måte.
 
 
 ### Coinbase-transaksjoner og Block Rewards
 
 
-Hver blokk begynner med nøyaktig én Coinbase-transaksjon - den eneste måten nye bitcoin kommer i omløp på. Den har en nullstilt prev-tx-hash og en indeks på 0xffffffffffff, som identifiserer den unikt. Tilskuddet startet på 50 BTC og halveres hver 210 000. blokk (50, 25, 12,5, 6,25, 3,125, ...). Gruvearbeidere inkluderer også transaksjonsgebyrer. Fordi noncen på 4 byte er for liten for moderne ASIC-er, modifiserer utvinnere data i Coinbase-transaksjonen for å endre Merkle-roten og skape ekstra søkeplass. BIP34 krever at blokkhøyden legges inn i Coinbase scriptSig for å sikre at hver Coinbase txid er unik.
+Hver blokk begynner med nøyaktig én [Coinbase-transaksjon](https://planb.academy/resources/glossary/coinbase-transaction) - den eneste måten nye bitcoin kommer i omløp på. Den har en nullstilt prev-tx-hash og en indeks på 0xffffffffffff, som identifiserer den unikt. Tilskuddet startet på 50 BTC og halveres hver 210 000. blokk (50, 25, 12,5, 6,25, 3,125, ...). Gruvearbeidere inkluderer også transaksjonsgebyrer. Fordi noncen på 4 byte er for liten for moderne ASIC-er, modifiserer utvinnere data i Coinbase-transaksjonen for å endre [Merkle](https://planb.academy/resources/glossary/merkle-tree)-roten og skape ekstra søkeplass. BIP34 krever at blokkhøyden legges inn i Coinbase scriptSig for å sikre at hver Coinbase txid er unik.
 
 
 ### Blokkhodefelt og Soft Fork-signalering
@@ -425,7 +426,7 @@ Toppteksten på 80 byte inneholder:
 - nonce (4 byte)
 
 
-Versjonsnumre utviklet seg til et bitfelt-signalsystem via BIP9, slik at utvinnere kan koordinere soft-fork-beredskapen. Tidsstempelet er en 32-biters Unix-tidsverdi og må oppdateres rundt år 2106.
+Versjonsnumre utviklet seg til et bitfelt-signalsystem via [BIP9](https://planb.academy/resources/glossary/bip), slik at utvinnere kan koordinere [soft-fork](https://planb.academy/resources/glossary/soft-fork)-beredskapen. Tidsstempelet er en 32-biters Unix-tidsverdi og må oppdateres rundt år 2106.
 
 
 #### Bits-felt og mål
@@ -436,7 +437,7 @@ Bits-feltet koder målet i kompakt form: mål = koeffisient × 256^(eksponent-3)
 ### Vanskelighetsgrad, validering og justeringer
 
 
-Vanskelighetsgrad er definert som lowest_target / current_target, og uttrykker hvor mye vanskeligere mining er i dag sammenlignet med den lettest mulige vanskelighetsgraden. Validering krever bare at man sammenligner hashen i overskriften med målet - ekstremt billig i forhold til mining.
+Vanskelighetsgrad er definert som lowest_target / current_target, og uttrykker hvor mye vanskeligere mining er i dag sammenlignet med den lettest mulige [vanskelighetsgraden](https://planb.academy/resources/glossary/difficulty). Validering krever bare at man sammenligner hashen i overskriften med målet - ekstremt billig i forhold til mining.
 
 
 Hver 2016-blokk justerer Bitcoin vanskelighetsgraden for å oppnå blokkintervaller på ~10 minutter. Justeringen sammenligner den faktiske tiden for de foregående 2016-blokkene med de forventede to ukene. Grensene begrenser justeringene til innenfor en faktor på fire. Store hendelser i den virkelige verden - som Kinas mining-forbud - demonstrerte denne mekanismens motstandsdyktighet da hashraten falt kraftig og vanskelighetsgraden ble justert nedover for å kompensere.
@@ -459,7 +460,7 @@ Subsidien i høyden h beregnes som: subsidy = 5_000_000_000 >> (h // 210_000). D
 ### Bitcoin Nettverksarkitektur
 
 
-Bitcoins peer-to-peer-nettverk fungerer som et desentralisert sladdersystem der noder videresender transaksjoner og blokker uten å stole på hverandre. Nye noder starter opp ved å kontakte hardkodede DNS-frø som vedlikeholdes av kjerneutviklerne. Disse DNS-frøene returnerer IP-adresser til aktive jevnaldrende, slik at nodene kan oppdage nettverket og deretter be om flere jevnaldrende via getaddr. Nettverket er med vilje ikke konsensuskritisk, så implementeringen kan variere så lenge konsensusreglene forblir uendret.
+Bitcoins [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-nettverk fungerer som et desentralisert sladdersystem der noder videresender transaksjoner og blokker uten å stole på hverandre. Nye noder starter opp ved å kontakte hardkodede DNS-frø som vedlikeholdes av kjerneutviklerne. Disse DNS-frøene returnerer IP-adresser til aktive jevnaldrende, slik at nodene kan oppdage nettverket og deretter be om flere jevnaldrende via getaddr. Nettverket er med vilje ikke konsensuskritisk, så implementeringen kan variere så lenge konsensusreglene forblir uendret.
 
 
 ### Meldingsstruktur og håndtrykk
@@ -474,12 +475,12 @@ Håndtrykket begynner når en tilkoblet node sender en versjonsmelding. Mottaker
 ### Merkle trær og Merkle røtter
 
 
-Bitcoin lagrer en enkelt Merkle-rot på 32 byte i hvert blokkhode som en forpliktelse til alle transaksjonene i blokken. Transaksjonene hashes (hash256), pares, sammenkjedes og hashes gjentatte ganger til det gjenstår én hash. Når et nivå har et oddetall, dupliseres den siste hashen. Internt er hashene big-endian, mens serialiserte blokkdata bruker little-endian, noe som krever reversering før og etter trekonstruksjon.
+Bitcoin lagrer en enkelt Merkle-rot på 32 byte i hvert blokkhode som en forpliktelse til alle transaksjonene i blokken. Transaksjonene [hashes](https://planb.academy/resources/glossary/hash-function) (hash256), pares, sammenkjedes og hashes gjentatte ganger til det gjenstår én hash. Når et nivå har et oddetall, dupliseres den siste hashen. Internt er hashene big-endian, mens serialiserte blokkdata bruker little-endian, noe som krever reversering før og etter trekonstruksjon.
 
 
 #### Merkle Proofs og SPV
 
-Merkle-bevis gjør det mulig å verifisere at en transaksjon er inkludert i en blokk uten å laste ned hele blokken. Beviset består av søskenhashes langs stien til roten. Lette SPV-klienter lagrer bare blokkhoder og ber om disse bevisene fra fulle noder. Fordi et Merkle-tre vokser logaritmisk, krever det bare noen få hundre byte å bevise inkludering i en blokk med tusenvis av transaksjoner.
+Merkle-bevis gjør det mulig å verifisere at en transaksjon er inkludert i en blokk uten å laste ned hele blokken. Beviset består av søskenhashes langs stien til roten. Lette SPV-klienter lagrer bare blokkhoder og ber om disse bevisene fra [fulle noder](https://planb.academy/resources/glossary/full-node). Fordi et Merkle-tre vokser logaritmisk, krever det bare noen få hundre byte å bevise inkludering i en blokk med tusenvis av transaksjoner.
 
 
 Taproot utvider dette konseptet ved å overføre utgiftsbetingelser til et Merklized Script Tree (MAST), slik at bare den utførte grenen avsløres sammen med et Merkle-bevis. Dette forbedrer både effektiviteten og personvernet.
@@ -515,7 +516,7 @@ Denne økten forener avansert P2P-nettverk med Segregated Witness, og viser hvor
 ### Blokkbasert transaksjonsinnhenting og personvern
 
 
-Lommebøker må oppdage innkommende betalinger ved å skanne blokker for utganger som samsvarer med scriptPubKey. Å hente hele blokker beskytter personvernet bedre enn å be om enkelttransaksjoner, som lekker sterke signaler om brukeraktivitet. Selv blokkforespørsler kan lekke informasjon om kjeder med lavt volum, noe som gjør kompakte blokkfiltre (BIP158) avgjørende for personvernbevarende lettklienter. Filtre kan gi falske positiver, men aldri falske negativer, slik at klienter bare kan laste ned potensielt relevante blokker uten å avsløre spesifikke adresser.
+[Lommebøker](https://planb.academy/resources/glossary/wallet) må oppdage innkommende betalinger ved å skanne blokker for utganger som samsvarer med scriptPubKey. Å hente hele blokker beskytter personvernet bedre enn å be om enkelttransaksjoner, som lekker sterke signaler om brukeraktivitet. Selv blokkforespørsler kan lekke informasjon om kjeder med lavt volum, noe som gjør kompakte blokkfiltre (BIP158) avgjørende for personvernbevarende lettklienter. Filtre kan gi falske positiver, men aldri falske negativer, slik at klienter bare kan laste ned potensielt relevante blokker uten å avsløre spesifikke adresser.
 
 
 ### Trustless Nettverksinteraksjon

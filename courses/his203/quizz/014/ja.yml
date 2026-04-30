@@ -1,0 +1,11 @@
+question: エリック・ヴォーヒーズとアイラ・ミラーが2011年11月に立ち上げた、Bitcoinを使ってTwitter上でコンテンツを宣伝する広告プラットフォームとは？
+answer: フィード・ゼ・バード
+wrong_answers:
+  - Coinヤパルト
+  - BTCインチ
+  - ビットマンチーズ
+explanation: |
+ FeedZeBirdsは、2011年11月23日にErik VoorheesとIra Millerによって立ち上げられた広告プラットフォームである。FeedZeBirdsの広告プラットフォームでは、ユーザーはビットコインで支払うことができる。
+ ビットコインでリツイートを購入し、Twitterでコンテンツを紹介することができる。BitMunchiesは2011年5月にアイラ・ミラーによって創設されたオンライン食品店であり、BTCinchは2011年夏に開発された決済プロセッサーである。
+ Coinapultは2人のパートナーによって後に開発された電子メール送金サービスである。
+reviewed: true

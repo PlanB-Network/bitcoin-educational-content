@@ -6,4 +6,4 @@ wrong_answers:
   - Spam penalty
 explanation: |
   The subsidy is the part of the reward that creates new bitcoins ex nihilo according to the protocol rules.
-reviewed: false
+reviewed: true

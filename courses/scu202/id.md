@@ -86,8 +86,6 @@ Untuk mengakhiri kursus ini, Anda akan dapat mengikuti ujian akhir untuk mendapa
 
 Apakah Anda siap untuk sepenuhnya mengambil kendali atas keamanan TI (teknologi informasi) Anda, memperkuat kedaulatan individu Anda, dan menjamin privasi online Anda? Ayo mulai!
 
-*Catatan: Jika Anda menemukan istilah yang tidak dikenal selama kursus, silakan baca [daftar istilah](https://planb.academy/resources/glossary) untuk mendapatkan definisinya
-
 ## Rekapitulasi penting dari SCU101
 
 <chapterId>26cfac35-a3bb-4657-95b3-8508bedfa903</chapterId>
@@ -641,7 +639,7 @@ Parrot OS juga merupakan turunan dari Debian. Parrot OS menawarkan lingkungan un
 
 - **Tails**:
 
-Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan Tor, dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan seed Bitcoin...).
+Tails adalah distribusi langsung (live distribution) berbasis Debian yang berfokus pada privasi. Semua lalu lintasnya melewati jaringan [Tor](https://planb.academy/resources/glossary/tor), dan tidak ada yang disimpan di antara sesi pengguna. Ini adalah distribusi ideal untuk penggunaan sekali pakai yang sensitif (jurnalisme, aktivisme, pembuatan [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 https://planb.academy/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
@@ -2068,13 +2066,13 @@ Ketika Anda mengunduh perangkat lunak dari internet, Anda secara implisit memerc
 
 Integritas sebuah file menjamin bahwa file tersebut tidak dimodifikasi, baik secara sengaja maupun tidak sengaja, antara waktu diterbitkan oleh pengembang dan waktu Anda mengunduhnya. Bahkan modifikasi sekecil apa pun dapat cukup untuk menyisipkan kode berbahaya ke dalam perangkat lunak.
 
-Modifikasi ini tidak terlihat kasat mata: file yang diunduh mungkin terbuka dan berjalan dengan sempurna dan normal, sementara pada saat yang sama mengeksekusi perilaku berbahaya. Oleh karena itu, penting untuk memverifikasi integritasnya menggunakan sidik jari kriptografi (Hash).
+Modifikasi ini tidak terlihat kasat mata: file yang diunduh mungkin terbuka dan berjalan dengan sempurna dan normal, sementara pada saat yang sama mengeksekusi perilaku berbahaya. Oleh karena itu, penting untuk memverifikasi integritasnya menggunakan sidik jari [kriptografi](https://planb.academy/resources/glossary/cryptography) (Hash).
 
 #### Keaslian: menjamin bahwa perangkat lunak berasal dari sumber yang tepat
 
 Sebuah file mungkin utuh (tidak dimodifikasi), tetapi diterbitkan oleh entitas berbahaya yang menyalahgunakan identitas pengembang yang sah. Oleh karena itu, keaslian bertujuan untuk memastikan bahwa file tersebut benar-benar berasal dari sumber resmi, dan bukan dari penipu, situs mirror yang tidak terverifikasi, atau peretas yang telah menyusupi server distribusi.
 
-Verifikasi asal ini dimungkinkan oleh tanda tangan digital, sebuah mekanisme kriptografi yang menghubungkan file tersebut dengan privat key pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan public key pengembang (yang didistribusikan melalui saluran aman), Anda dapat yakin bahwa file tersebut benar-benar berasal dari pihak tersebut.
+Verifikasi asal ini dimungkinkan oleh [tanda tangan digital](https://planb.academy/resources/glossary/digital-signature), sebuah mekanisme kriptografi yang menghubungkan file tersebut dengan privat key pengembang. Ketika Anda memverifikasi tanda tangan ini menggunakan public key pengembang (yang didistribusikan melalui saluran aman), Anda dapat yakin bahwa file tersebut benar-benar berasal dari pihak tersebut.
 
 Dengan memeriksa keaslian (yaitu, file instalasi berasal dari sumber yang tepat) dan integritas (yaitu, file tersebut belum dimodifikasi sejak diterbitkan oleh pengembang yang sah), Anda dapat yakin bahwa Anda memasang perangkat lunak yang benar.
 
@@ -2088,7 +2086,7 @@ Program kedua adalah tanda tangan digital. Program ini memverifikasi keaslian pe
 
 Sistem ini bergantung pada kriptografi asimetris dan program seperti GnuPG (command line) atau Kleopatra (Interface grafis untuk Windows). Program-program ini harus dikonfigurasi dengan benar, dan public key pengembang harus diverifikasi melalui saluran aman (situs web resmi, fingerprint di Twitter, dll.). Mari kita lihat sisi praktisnya.
 
-Untuk mempelajari lebih lanjut tentang fungsi hash kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Academy.
+Untuk mempelajari lebih lanjut tentang [fungsi hash](https://planb.academy/resources/glossary/hash-function) kriptografi dan tanda tangan digital, saya mengundang Anda untuk mengikuti kursus gratis CYP 201 yang ditawarkan di Plan ₿ Academy.
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
@@ -4453,7 +4451,7 @@ Sejarah Internet dimulai pada akhir tahun 1960-an, dalam konteks penelitian ilmi
 
 ![Image](assets/fr/191.webp)
 
-Tujuannya juga untuk merancang jaringan yang tangguh, yang mampu terus beroperasi bahkan jika sebagian node-nya hancur (sebuah keharusan di tengah-tengah Perang Dingin). ARPANET memungkinkan komunikasi pertama antara komputer jarak jauh pada tahun 1969.
+Tujuannya juga untuk merancang jaringan yang tangguh, yang mampu terus beroperasi bahkan jika sebagian [node](https://planb.academy/resources/glossary/node)-nya hancur (sebuah keharusan di tengah-tengah Perang Dingin). ARPANET memungkinkan komunikasi pertama antara komputer jarak jauh pada tahun 1969.
 
 ![Image](assets/fr/192.webp)
 

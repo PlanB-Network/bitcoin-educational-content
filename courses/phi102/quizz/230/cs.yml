@@ -1,8 +1,0 @@
-question: Který základní ekonomický princip vysvětluje, proč dobrovolné smlouvy vytvářejí vzájemné obohacení, a nikoli soutěž s nulovým součtem mezi stranami?
-answer: Každá strana má větší výhodu, když se zúčastní, než když se zdrží hlasování, takže smlouvy se uzavírají s pozitivním součtem, z něhož mají prospěch obě strany
-wrong_answers:
-  - Smlouvy přerozdělují bohatství od silnějších ke slabším stranám prostřednictvím vyjednaných kompromisů, které vyrovnávají nerovnováhu sil
-  - Vládní regulace zajišťuje spravedlivé podmínky, které zabraňují vykořisťování a vytvářejí umělou rovnost mezi smluvními stranami
-  - Tržní konkurence nutí strany akceptovat ztráty v některých smlouvách, aby získaly výhody v budoucích transakcích
-explanation: |
-  Text zdůrazňuje, že dobrovolné smlouvy představují hry s pozitivním součtem, kde každý jedinec nachází uspokojení v tom, že jedná, a ne v tom, že se zdrží jednání. K tomu dochází proto, že smlouvy jsou vždy vybranými možnostmi mezi alternativami - lidé uzavírají smlouvy pouze tehdy, když v transakci spatřují výhodu. Tento princip odlišuje dobrovolnou směnu od nuceného přerozdělování, regulovaných trhů nebo konkurenčních ztrátových scénářů, protože je založena na vzájemném prospěchu, nikoli na vnějším zásahu nebo strategické oběti.

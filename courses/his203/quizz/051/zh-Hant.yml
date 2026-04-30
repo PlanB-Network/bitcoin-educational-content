@@ -1,0 +1,10 @@
+question: 根據 Nicolas Christin 於 2012 年 8 月發表的研究報告，2012 年 5 月的每日銷售量是多少？
+answer: 15,000 BTC 或 75,000 美元
+wrong_answers:
+  - 600 BTC 或 $3,000
+  - 3,000 BTC 或 $15,000
+  - 75,000 BTC 或 375,000 美元
+explanation: |
+ 三月份的日銷售量為 8,000 BTC，五月份達到 15,000 BTC，當時約相當於 75,000 美元。活動量佔總
+ 2012 年間，Bitcoin 鏈活動量在 10% 到 20% 之間徘徊。11 月初，Ross 將平台的成功稱為「爆炸性成長」。
+reviewed: true

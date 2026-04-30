@@ -826,7 +826,7 @@ En el siglo XX surgieron dos grandes tendencias:
 2.  **El otro anarcocapitalista:** que cree que las funciones del Estado deben ser privatizadas y gestionadas por el mercado.
 
 
-Sin embargo, ambos coinciden en el principio fundamental de la soberanía individual. Las ideas libertarias fueron expresadas ya en el siglo XVIII por los fisiócratas, en particular Vincent de Gournay y Turgot, y desarrolladas por Condillac, Jean-Baptiste Say y Frédéric Bastiat. En el siglo XX, fueron retomadas y desarrolladas por la escuela austriaca de economía, cuyos principales autores son Ludwig von Mises, Friedrich Hayek y Murray Rothbard.
+Sin embargo, ambos coinciden en el principio fundamental de la soberanía individual. Las ideas libertarias fueron expresadas ya en el siglo XVIII por los fisiócratas, en particular Vincent de Gournay y Turgot, y desarrolladas por Condillac, Jean-Baptiste Say y Frédéric Bastiat. En el siglo XX, fueron retomadas y desarrolladas por la [escuela austriaca de economía](https://planb.academy/resources/glossary/austrian-school), cuyos principales autores son Ludwig von Mises, Friedrich Hayek y Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ Al final de este curso, nos parece esencial abordar el posicionamiento político
 
 
 
-Bitcoin es una criptomoneda descentralizada, creada por Satoshi Nakamoto en 2008, que permite realizar transacciones financieras no fiables entre pares.
+Bitcoin es una [criptomoneda](https://planb.academy/resources/glossary/cryptocurrency) descentralizada, creada por Satoshi Nakamoto en 2008, que permite realizar transacciones financieras no fiables [entre pares](https://planb.academy/resources/glossary/peertopeer-p2p).
 
 
-Bitcoin está controlada por un protocolo de software de código abierto, sin director general, ni oficina central, ni presupuesto de marketing, ni autoridad designada. Esto significa que ninguna entidad política o gobierno tiene control sobre ella.
+Bitcoin está controlada por un protocolo de software de [código abierto](https://planb.academy/resources/glossary/foss), sin director general, ni oficina central, ni presupuesto de marketing, ni autoridad designada. Esto significa que ninguna entidad política o gobierno tiene control sobre ella.
 
 
 
@@ -1645,7 +1645,7 @@ Aunque el Bitcoin en sí no es ni de derechas ni de izquierdas, ni pertenece a n
 
 
 
-Leyendo el Libro Blanco de Satoshi Nakamoto, podemos ver que Bitcoin fue diseñado para ofrecer una protección innovadora contra dos grandes amenazas contemporáneas: la vigilancia generalizada y la aceleración de la creación de dinero artificial.
+Leyendo el [Libro Blanco](https://planb.academy/resources/glossary/white-paper) de Satoshi Nakamoto, podemos ver que Bitcoin fue diseñado para ofrecer una protección innovadora contra dos grandes amenazas contemporáneas: la vigilancia generalizada y la aceleración de la creación de dinero artificial.
 
 
 
@@ -1653,7 +1653,7 @@ Leyendo el Libro Blanco de Satoshi Nakamoto, podemos ver que Bitcoin fue diseña
 
 
 
-2. La Bitcoin permite a todos proteger sus ahorros contra el expolio de la propiedad privada que supone la inflación monetaria. Es un intento de desafiar el control del Estado sobre la gestión del dinero como instrumento de intercambio, y de competir así con el Estado. La crisis financiera de 2008 y la pandemia del Covid 19 han puesto de manifiesto los fallos del sistema actual. Los billones de dólares impresos de la nada para evitar que la economía se hundiera aún más tuvieron efectos devastadores, que todavía estamos pagando.
+2. La Bitcoin permite a todos proteger sus ahorros contra el expolio de la propiedad privada que supone la [inflación](https://planb.academy/resources/glossary/inflation) monetaria. Es un intento de desafiar el control del Estado sobre la gestión del dinero como instrumento de intercambio, y de competir así con el Estado. La crisis financiera de 2008 y la pandemia del Covid 19 han puesto de manifiesto los fallos del sistema actual. Los billones de dólares impresos de la nada para evitar que la economía se hundiera aún más tuvieron efectos devastadores, que todavía estamos pagando.
 
 
 
@@ -1681,7 +1681,7 @@ El punto de partida del enfoque intelectual de Satoshi Nakamoto es, por tanto, e
 
 
 
-La inclusión de este título en el bloque de génesis está abierta a interpretación. Pero puede aparecer como un comentario de Satoshi sobre los fracasos de las instituciones financieras tradicionales, y como una declaración del objetivo de Bitcoin: ofrecer una alternativa a los sistemas bancarios centralizados.
+La inclusión de este título en el [bloque de génesis](https://planb.academy/resources/glossary/genesis-block) está abierta a interpretación. Pero puede aparecer como un comentario de Satoshi sobre los fracasos de las instituciones financieras tradicionales, y como una declaración del objetivo de Bitcoin: ofrecer una alternativa a los sistemas bancarios centralizados.
 
 
 
@@ -1725,7 +1725,7 @@ En este sentido, está impulsado por una visión del mundo que es a la vez moral
 
 
 
-Pero la Bitcoin no apareció de la nada. Se basa en avances de las matemáticas, la física, la informática y la filosofía. Satoshi Nakamoto, aunque brillante, se basó en las ideas de otros innovadores. Entre ellos, los pioneros del movimiento cypherpunk.
+Pero la Bitcoin no apareció de la nada. Se basa en avances de las matemáticas, la física, la informática y la filosofía. Satoshi Nakamoto, aunque brillante, se basó en las ideas de otros innovadores. Entre ellos, los pioneros del movimiento [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1772,7 +1772,7 @@ Y añade:
 
 > la confidencialidad en una sociedad abierta requiere sistemas de transacción anónimos. Hasta ahora, el efectivo ha sido el principal sistema de este tipo.
 
-Por eso la criptografía se utilizará como herramienta de resistencia contra todas las formas de control estatal y corporativo. Garantiza que cada parte de una transacción sepa sólo lo estrictamente necesario para esa transacción.
+Por eso la [criptografía](https://planb.academy/resources/glossary/cryptography) se utilizará como herramienta de resistencia contra todas las formas de control estatal y corporativo. Garantiza que cada parte de una transacción sepa sólo lo estrictamente necesario para esa transacción.
 
 
 

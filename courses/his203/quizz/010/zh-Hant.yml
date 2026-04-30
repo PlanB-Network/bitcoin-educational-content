@@ -1,0 +1,11 @@
+question: 與 Mt. Gox 競爭的外匯平台是由 David François 於 2010 年 12 月推出的？
+answer: Bitcoin-Central
+wrong_answers:
+  - Paymium
+  - 英國貨幣
+  - Bitomat
+explanation: |
+ Bitcoin-Central 是法國的平台，最初接受 Liberty Reserve 美元和歐元，以及傳統的歐元轉帳。其原始碼
+ 以開源授權 (AGPL) 發布。該平台後來與 Paymium 合併，Paymium 是由 Gonzague Grandval、Pierre Noizat 和 David
+ François 於 2011 年 6 月共同創立，該公司原本專注於支付領域。
+reviewed: true

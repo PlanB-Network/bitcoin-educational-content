@@ -1,0 +1,11 @@
+question: Quale metodo ha usato Tony76 per organizzare la sua truffa del 20 aprile 2012 sul mercato di Silk Road?
+answer: Sfruttare la sua impeccabile reputazione di venditore per richiedere il completamento anticipato delle transazioni
+wrong_answers:
+  - Sfruttamento di una vulnerabilità tecnica nell'elaborazione dei pagamenti in bitcoin sulla piattaforma
+  - Manipolazione del prezzo del bitcoin per gonfiare artificialmente i prezzi su Silk Road
+  - Ricatto di un dipendente di Silk Road per la stampa di false descrizioni dei prodotti
+explanation: |
+ Tony76 godeva di un'ottima reputazione, che gli consentiva di richiedere agli acquirenti di ricorrere alla finalizzazione anticipata, anziché al deposito a garanzia. Essendo il 20 aprile una data emblematica per i
+ consumatori di cannabis, per l'occasione ha offerto sconti multipli sui suoi prodotti abituali e gli ordini si sono accumulati. In seguito è scomparso con i bitcoin, e non ha mai
+ non ha mai onorato gli ordini.
+reviewed: true

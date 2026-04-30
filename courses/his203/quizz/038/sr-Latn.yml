@@ -1,0 +1,11 @@
+question: Za koje slučajeve upotrebe je posebno implementirana nadogradnja Pay to Script Hash?
+answer: Za obezbeđivanje sredstava putem potpisa više strana (multisig)
+wrong_answers:
+  - Za usluge eskroua
+  - Da bi se povećala računarska snaga mreže zahvaljujući spojenom mining
+  - Za slanje doznaka u inostranstvo
+explanation: |
+ Obezbeđivanje sredstava je trenutno veoma važno pitanje, zbog sve većeg broja piratskih napada. Tema je pokrenuta 23. avgusta 2011. godine
+ od strane Gavina Andresena, vođe projekta, koji je želeo da ubrza standardizaciju multisignature funkcionalnosti koja je već prisutna u protokolu.
+ To je dovelo do razvoja OP_EVAL, a zatim P2SH tokom zime.
+reviewed: true

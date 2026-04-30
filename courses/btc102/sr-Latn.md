@@ -101,8 +101,6 @@ Do kraja ovog kursa, imaćete sve praktične alate koji su vam potrebni da sa sa
 Spremni da započnete svoje putovanje u svet Bitcoin? Krenimo!
 
 
-**Napomena**: Ako tokom kursa naiđete na nepoznate termine, molimo vas da pogledate [glosar](https://planb.academy/resources/glossary) za definicije.
-
 # Preduslovi za razumevanje Bitcoin
 
 
@@ -132,7 +130,7 @@ Pre nego što nastavimo dalje, važno je jasno razlikovati dva suštinski razli�
 
 
 
-- **Industrija kriptovaluta**, s druge strane, mnogo je veća i uključuje desetine hiljada različitih projekata, svaki sa svojim token. Ovaj prostor često pokreću brze inovacije, hajp i kratkoročne finansijske spekulacije. Mnogi od ovih projekata su centralizovani, manje sigurni i ne nude mnogo stvarne vrednosti—uprkos smelim obećanjima i blještavom marketingu.
+- **Industrija [kriptovaluta](https://planb.academy/resources/glossary/cryptocurrency)**, s druge strane, mnogo je veća i uključuje desetine hiljada različitih projekata, svaki sa svojim token. Ovaj prostor često pokreću brze inovacije, hajp i kratkoročne finansijske spekulacije. Mnogi od ovih projekata su centralizovani, manje sigurni i ne nude mnogo stvarne vrednosti—uprkos smelim obećanjima i blještavom marketingu.
 
 
 ![image](assets/sr-Latn/005.webp)
@@ -177,7 +175,7 @@ Ove prevare obično sadrže :
 Na kraju, sve piramidalne i Ponzi šeme su osuđene na propast. Njihova osnovna slabost leži u konstantnoj potrebi za dovođenjem novih investitora kako bi se isplatile zarade ranijim učesnicima. Ova potreba postaje matematički neodrživa tokom vremena jer broj novih regruta koji su potrebni eksponencijalno raste kako sistem raste. Kada se dostigne kritična tačka, učesnici počinju da sumnjaju, poverenje nestaje, i cela piramida se urušava. U ovoj fazi, poslednji ljudi koji se pridruže, često najmanje informisani, gube celu svoju investiciju bez mogućnosti da je povrate, dok organizatori ili rani investitori obično već povuku svoja sredstva i napuste sistem.
 
 
-U svetu kriptovaluta, Ponzi šeme mogu poprimiti mnoge oblike, često dizajnirane da prikriju svoju prevarantsku prirodu iza tehnološke ili finansijske maske. Ove prevare mogu izgledati kao nove token ponude ili Početne Ponude Kovanica (ICOs), koje su operacije prikupljanja sredstava gde se nova kriptovaluta prodaje javnosti. Iza tehničkih termina kao što su "Blockchain," "pametni ugovori," ili "staking," neki projekti zapravo kriju složene piramidalne šeme. Drugi tvrde da nude visoke prinose kombinovanjem sumnjivih kripto-imovina sa sistemima kompenzacije koji se u potpunosti oslanjaju na kontinuirani priliv novih investitora.
+U svetu kriptovaluta, Ponzi šeme mogu poprimiti mnoge oblike, često dizajnirane da prikriju svoju prevarantsku prirodu iza tehnološke ili finansijske maske. Ove prevare mogu izgledati kao nove token ponude ili Početne Ponude Kovanica (ICOs), koje su operacije prikupljanja sredstava gde se nova kriptovaluta prodaje javnosti. Iza tehničkih termina kao što su "[Blockchain](https://planb.academy/resources/glossary/blockchain)," "pametni ugovori," ili "staking," neki projekti zapravo kriju složene piramidalne šeme. Drugi tvrde da nude visoke prinose kombinovanjem sumnjivih kripto-imovina sa sistemima kompenzacije koji se u potpunosti oslanjaju na kontinuirani priliv novih investitora.
 
 
 U novije vreme, Ponzi šeme su se takođe proširile u svet decentralizovanih finansija (DeFi). Iako je DeFi namenjen pružanju finansijskih usluga bez posrednika, neki projekti ga koriste da bi svojim prevarama dali lažni osećaj legitimnosti. Određene DeFi platforme obećavaju visoke, zagarantovane prinose u Exchange za kripto depozite u automatizovane protokole. Ova privlačna obećanja često su podržana netransparentnim i neproverljivim mehanizmima, sa tokenima kreiranim specifično za prevaru. U stvarnosti, ovi sistemi nemaju održiv poslovni model—prinosi se jednostavno isplaćuju iz sredstava novih korisnika, baš kao u tradicionalnoj Ponzi šemi. Kada poverenje počne da slabi ili priliv novih učesnika uspori, ovi sistemi neizbežno kolabiraju, što dovodi do značajnih gubitaka za nesvesne investitore.
@@ -256,7 +254,7 @@ Centralizovani projekti kripto-valuta ponekad nude besplatne tokene ("*airdrops*
 Napadači često koriste lažne veb-sajtove, naloge na društvenim mrežama ili obmanjujuće mejlove kako bi pokušali da ukradu vaša sredstva. Ove prevare mogu doći kroz bilo koji kanal komunikacije: mejl, društvene mreže, telefonski pozivi ili čak tradicionalna pošta...
 
 
-Pre nego što kliknete na link ili preduzmete bilo kakvu akciju, uvek dvaput proverite identitet pošiljaoca. Kada ste u nedoumici, posetite sajt ručno umesto da koristite dati link. Najvažnije, nikada ne delite svoje privatne ključeve ili lozinke sa bilo kim.
+Pre nego što kliknete na link ili preduzmete bilo kakvu akciju, uvek dvaput proverite identitet pošiljaoca. Kada ste u nedoumici, posetite sajt ručno umesto da koristite dati link. Najvažnije, nikada ne delite svoje [privatne ključeve](https://planb.academy/resources/glossary/private-key) ili lozinke sa bilo kim.
 
 
 #### Bitcoin Hardforks
@@ -571,7 +569,7 @@ Evo ključnih tačaka koje ćemo zajedno proći:
 
 
 
-- Čuvajte se **Shitcoins** i drugih beskorisnih kriptovaluta;
+- Čuvajte se **[Shitcoins](https://planb.academy/resources/glossary/shitcoin)** i drugih beskorisnih kriptovaluta;
 - Ulažite samo **novac koji možete priuštiti da izgubite**;
 - Znajte razliku između **trgovanja** i **investiranja**;
 - Budite svesni **poreznih implikacija** vaših investicija;
@@ -635,7 +633,7 @@ Pristupajući na ovaj način osiguravate da ne ugrožavate svoju finansijsku dob
 ![image](assets/sr-Latn/023.webp)
 
 
-Kada definišete svoj budžet, razmislite o tome kako želite da investirate. Jedna od metoda koja je najprikladnija za početnike i široko preporučena je [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca), kupovina fiksnog iznosa Bitcoin u redovnim intervalima (nedeljno, mesečno, itd.). Ova strategija pomaže da se izjednači prosečna ulazna cena tokom vremena i smanji emocionalni uticaj promena cena. To je pametan pristup za većinu ljudi, posebno za novajlije.
+Kada definišete svoj budžet, razmislite o tome kako želite da investirate. Jedna od metoda koja je najprikladnija za početnike i široko preporučena je Dollar Cost Averaging (DCA), kupovina fiksnog iznosa Bitcoin u redovnim intervalima (nedeljno, mesečno, itd.). Ova strategija pomaže da se izjednači prosečna ulazna cena tokom vremena i smanji emocionalni uticaj promena cena. To je pametan pristup za većinu ljudi, posebno za novajlije.
 
 
 Zatim, zapitajte se: Koji je moj vremenski horizont?
@@ -844,13 +842,13 @@ Tokom godina, Bitcoin je stekao priznanje kao globalna monetarna mreža. Nazivan
 #### Cypherpunks i izum sistema van kontrole banaka
 
 
-Bitcoin nije nastao preko noći. To je rezultat decenija istraživanja i eksperimentisanja u kriptografiji, računarskim naukama i monetarnoj teoriji. Pre njegovog lansiranja 2009. godine, nekoliko projekata (kao što su eCash, b-money, Bit Gold i RPOW) pokušalo je da stvori digitalne valute. Svi su se suočili sa istim osnovnim problemom: kako sprečiti dvostruko trošenje u decentralizovanom sistemu bez oslanjanja na centralni autoritet.
+Bitcoin nije nastao preko noći. To je rezultat decenija istraživanja i eksperimentisanja u [kriptografiji](https://planb.academy/resources/glossary/cryptography), računarskim naukama i monetarnoj teoriji. Pre njegovog lansiranja 2009. godine, nekoliko projekata (kao što su eCash, b-money, Bit Gold i RPOW) pokušalo je da stvori digitalne valute. Svi su se suočili sa istim osnovnim problemom: kako sprečiti dvostruko trošenje u decentralizovanom sistemu bez oslanjanja na centralni autoritet.
 
 
-Taj izazov ostao je nerešen sve do kraja 2008. godine, kada je neko pod imenom Satoshi Nakamoto objavio Bitcoin beli papir. Nekoliko meseci kasnije, prva verzija Bitcoin softvera otvorenog koda postala je dostupna, pokrećući sistem koji je mogao da funkcioniše nezavisno od banaka ili vlada.
+Taj izazov ostao je nerešen sve do kraja 2008. godine, kada je neko pod imenom Satoshi Nakamoto objavio Bitcoin [beli papir](https://planb.academy/resources/glossary/white-paper). Nekoliko meseci kasnije, prva verzija Bitcoin softvera [otvorenog koda](https://planb.academy/resources/glossary/foss) postala je dostupna, pokrećući sistem koji je mogao da funkcioniše nezavisno od banaka ili vlada.
 
 
-Projekat je bio snažno pod uticajem Cypherpunk etosa; zajednice programera i mislilaca koji su verovali u korišćenje kriptografije za zaštitu individualnih sloboda na internetu. Za njih, privatnost i decentralizacija nisu bile tehničke preferencije, već ideološke nužnosti. Bitcoin se pojavio kao najuspešnija inkarnacija tih ideala: peer-to-peer monetarna mreža koju svako može koristiti, niko ne može kontrolisati, a svi mogu verifikovati.
+Projekat je bio snažno pod uticajem [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) etosa; zajednice programera i mislilaca koji su verovali u korišćenje kriptografije za zaštitu individualnih sloboda na internetu. Za njih, privatnost i decentralizacija nisu bile tehničke preferencije, već ideološke nužnosti. Bitcoin se pojavio kao najuspešnija inkarnacija tih ideala: [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) monetarna mreža koju svako može koristiti, niko ne može kontrolisati, a svi mogu verifikovati.
 
 
 ![image](assets/sr-Latn/030.webp)
@@ -876,7 +874,7 @@ Ideja digitalne valute koja funkcioniše nezavisno od bilo koje centralne vlasti
 Bitcoin nije se samo pojavio niotkuda. Stvoren je u vrlo specifičnom trenutku—odmah nakon globalne finansijske krize 2008. godine. Kolaps američkog tržišta nekretnina i kriza subprime kredita uzrokovali su propast velikih banaka i uzdrmali poverenje ljudi u ceo finansijski sistem.
 
 
-Bilo je u ovom okruženju straha i nesigurnosti da je Bitcoin rođen. Tvorac, poznat kao Satoshi Nakamoto, uključio je vrlo simboličnu poruku u prvi blok Bitcoin Blockchain, poznat kao Genesis blok. Poruka je bila:
+Bilo je u ovom okruženju straha i nesigurnosti da je Bitcoin rođen. Tvorac, poznat kao Satoshi Nakamoto, uključio je vrlo simboličnu poruku u prvi blok Bitcoin Blockchain, poznat kao [Genesis blok](https://planb.academy/resources/glossary/genesis-block). Poruka je bila:
 
 
 > **"The Times 03/Jan/2009 Kancelar na ivici drugog paketa pomoći za banke"**
@@ -904,13 +902,13 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 #### Od osobe do osobe i bez centralnog tela
 
 
-Bitcoin je definisan kao "peer-to-peer elektronski sistem gotovine." To znači da svako može da se poveže na mrežu koristeći odgovarajući softver (Bitcoin čvor) i direktno komunicira sa drugim korisnicima, bez oslanjanja na centralni server. Cilj ove decentralizacije je da se spreči bilo koji pojedinačni entitet (kao što su banka, vlada ili velika korporacija) da kontroliše, cenzuriše ili zaustavi sistem. Bitcoin radi 24/7, globalno, i dostupan je svima bez ikakvih uslova.
+Bitcoin je definisan kao "peer-to-peer elektronski sistem gotovine." To znači da svako može da se poveže na mrežu koristeći odgovarajući softver (Bitcoin [čvor](https://planb.academy/resources/glossary/node)) i direktno komunicira sa drugim korisnicima, bez oslanjanja na centralni server. Cilj ove decentralizacije je da se spreči bilo koji pojedinačni entitet (kao što su banka, vlada ili velika korporacija) da kontroliše, cenzuriše ili zaustavi sistem. Bitcoin radi 24/7, globalno, i dostupan je svima bez ikakvih uslova.
 
 
 ![image](assets/sr-Latn/034.webp)
 
 
-U jednostavnim terminima, svaki učesnik u Bitcoin mreži (nazvan "čvor") ima punu kopiju transakcije Ledger, poznatu kao Blockchain. Kada se dogodi nova transakcija, ona se emituje mreži. Rudari zatim potvrđuju ove transakcije grupišući ih u blokove koji se zatim dodaju na kraj lanca (otuda naziv "Blockchain").
+U jednostavnim terminima, svaki učesnik u Bitcoin mreži (nazvan "čvor") ima punu kopiju transakcije Ledger, poznatu kao Blockchain. Kada se dogodi nova transakcija, ona se emituje mreži. [Rudari](https://planb.academy/resources/glossary/miner) zatim potvrđuju ove transakcije grupišući ih u blokove koji se zatim dodaju na kraj lanca (otuda naziv "Blockchain").
 
 
 ![image](assets/sr-Latn/035.webp)
@@ -931,7 +929,7 @@ Zamislite Blockchain kao džinovski računovodstveni Ledger, gde svaka linija pr
 #### Kako se Blokovi Kreiraju: Mining
 
 
-Mining je proces putem kojeg računari (ili velike Mining farme) doprinose **računarskoj snazi** kako bi osigurali istoriju transakcija Bitcoin i kreirali nove blokove. Rudari se takmiče u rešavanju matematičke zagonetke—konkretno, pronalaženju delimične Hash kolizije. Ovaj proces zahteva značajnu energiju i resurse. Kada Miner pronađe validno rešenje, emituju blok mreži, koja ga verifikuje i prihvata kao validan.
+[Mining](https://planb.academy/resources/glossary/mining) je proces putem kojeg računari (ili velike Mining farme) doprinose **računarskoj snazi** kako bi osigurali istoriju transakcija Bitcoin i kreirali nove blokove. Rudari se takmiče u rešavanju matematičke zagonetke—konkretno, pronalaženju delimične Hash kolizije. Ovaj proces zahteva značajnu energiju i resurse. Kada Miner pronađe validno rešenje, emituju blok mreži, koja ga verifikuje i prihvata kao validan.
 
 Kao nagradu, Miner prima novostvorene bitkoine (nazvane subvencija bloka) zajedno sa naknadama za transakcije iz svih transakcija uključenih u taj blok.
 
@@ -953,12 +951,12 @@ Na kraju, oko godine 2140, subvencija će dostići nulu, jer će ukupni Supply o
 #### Oškudica i Fiksna Monetarna Politika
 
 
-Jedna od najmoćnijih karakteristika Bitcoin je njegova *predvidiva i nepromenljiva monetarna politika*. Za razliku od tradicionalnih fiat valuta (poput dolara, evra ili jena), koje centralne banke mogu štampati po volji (što često dovodi do inflacije ili ekonomskih distorzija), Bitcoin funkcioniše prema transparentnom skupu pravila ugrađenih u njegov kod.
+Jedna od najmoćnijih karakteristika Bitcoin je njegova *predvidiva i nepromenljiva monetarna politika*. Za razliku od tradicionalnih fiat valuta (poput dolara, evra ili jena), koje centralne banke mogu štampati po volji (što često dovodi do [inflacije](https://planb.academy/resources/glossary/inflation) ili ekonomskih distorzija), Bitcoin funkcioniše prema transparentnom skupu pravila ugrađenih u njegov kod.
 
 Biće samo 21 milion bitkoina, a stopa po kojoj se novi novčići izdaju poznata je unapred svima u mreži.
 
 
-Nijedna vlada, institucija ili pojedinac ne može jednostrano promeniti ovaj Supply limit ili pravila distribucije. Jedini način da se ovi parametri izmene bio bi promena protokola Bitcoin; a čak bi i to zahtevalo konsenzus većine ekonomskih učesnika mreže.
+Nijedna vlada, institucija ili pojedinac ne može jednostrano promeniti ovaj Supply limit ili pravila distribucije. Jedini način da se ovi parametri izmene bio bi promena protokola Bitcoin; a čak bi i to zahtevalo [konsenzus](https://planb.academy/resources/glossary/consensus) većine ekonomskih učesnika mreže.
 
 
 Ova ugrađena oskudica je veliki mamac za one koji žele da se isključe iz nepredvidivih monetarnih politika ili da izbegnu postepeno smanjenje svoje kupovne moći kroz inflaciju. Vremenom, ovo bi moglo predstavljati promenu u finansijskom razmišljanju, gde štednja u deflatornoj imovini kao što je Bitcoin postaje privlačnija od oslanjanja na tradicionalne valute sklone inflaciji.
@@ -1008,7 +1006,7 @@ Iako je ovaj pristup tehnički zahtevniji, on nudi najzahtevnijim korisnicima mo
 #### Otpornost, prekogranična metoda plaćanja
 
 
-Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput [Lightning Network](https://planb.academy/resources/glossary/lightning-network) omogućavaju još brže i jeftinije Bitcoin transakcije.
+Zbog svoje decentralizovane prirode, Bitcoin radi 24/7, neometan granicama ili vremenskim zonama. U regionima gde nedostaje tradicionalna bankarska infrastruktura, Bitcoin se često koristi kao brzo i jeftino rešenje za slanje ili primanje sredstava bez oslanjanja na skupe posrednike. Iako naknade za transakcije mogu varirati u zavisnosti od zagušenja mreže, one su generalno mnogo niže od naknada koje banke naplaćuju za međunarodne transfere. Dodatno, Layer-2 rešenja poput Lightning Network omogućavaju još brže i jeftinije Bitcoin transakcije.
 
 
 #### Prodavnica vrednosti
@@ -1234,7 +1232,7 @@ Bitcoineri dolaze iz svih sfera života, ali dele zajedničku viziju: svet u koj
 - **Cypherpunks**, koji se zalažu za privatnost i opiru nadzoru;
 - **Ugnjetavani građani**, tražeći utočište od autoritarnih režima i kapitalnih kontrola;
 - **Anarhisti**, koji vide Bitcoin kao alat za oslobađanje od državne kontrole;
-- **Austrijski ekonomisti**, zalažući se za zdrav novac i slobodu od manipulacije vlade;
+- **[Austrijski ekonomisti](https://planb.academy/resources/glossary/austrian-school)**, zalažući se za zdrav novac i slobodu od manipulacije vlade;
 - Inženjeri, finansijeri i zagovornici slobode govora, koji prepoznaju duboke društvene implikacije ove nove monetarne paradigme.
 
 
@@ -1539,7 +1537,7 @@ Industrija Bitcoin Wallet je podeljena u nekoliko kategorija, od kojih svaka zad
 
 
 
-- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
+- **Hardware Wallet Proizvođači**: Ove kompanije razvijaju fizičke uređaje dizajnirane za sigurno skladištenje ključeva. Neki su open-source, dok drugi nude vlasnička rešenja sa različitim funkcijama i nivoima sigurnosti. Značajna imena uključuju Ledger, Trezor, Coinkite, Foundation i Shiftcrypto.
 - **Software Wallet Programeri**: Oni se kreću od kompanija do nezavisnih programera koji kreiraju mobilne i desktop aplikacije. Njihove ponude variraju u korisničkom iskustvu, bezbednosti i funkcijama. Primeri uključuju Sparrow, Wizard Sardine, Galoy, Synonym i Blockstream.
 - DIY (*Do It Yourself*) **Wallets**: Ova rešenja otvorenog koda su dizajnirana za napredne korisnike koji žele potpunu kontrolu i minimalno oslanjanje na treće strane. Izrada sopstvenog Wallet smanjuje zavisnost od poverenja i može povećati vašu sigurnost. Značajne DIY opcije uključuju Seedsigner i Specter DIY.
 
@@ -1550,7 +1548,7 @@ Novčanici igraju fundamentalnu ulogu u Bitcoin i biće detaljnije istraženi ka
 #### Bitcoin Mining
 
 
-Mining je osnovna funkcija Bitcoin mreže. Ona osigurava bezbednost sistema i održava Blockchain operativnim. Rudari potvrđuju transakcije i obezbeđuju mrežu izvođenjem energetski intenzivnih proračuna poznatih kao Proof of Work. Svaki novo iskopani blok dodaje grupu transakcija u Blockchain i oslobađa nove bitkoine prema rasporedu izdavanja protokola.
+Mining je osnovna funkcija Bitcoin mreže. Ona osigurava bezbednost sistema i održava Blockchain operativnim. Rudari potvrđuju transakcije i obezbeđuju mrežu izvođenjem energetski intenzivnih proračuna poznatih kao [Proof of Work](https://planb.academy/resources/glossary/proof-of-work). Svaki novo iskopani blok dodaje grupu transakcija u Blockchain i oslobađa nove bitkoine prema rasporedu izdavanja protokola.
 
 
 U ranim danima Bitcoin, Mining se mogao obavljati sa ličnog računara. Danas je to konkurentna, globalna industrija kojom dominiraju kompanije sa značajnim finansijskim i tehničkim resursima. Potraga za jeftinim izvorima energije postala je ključni fokus, jer rudari teže optimizaciji operativnih troškova i profitabilnosti. Operacije Mining sada se kreću od masivnih industrijskih postrojenja do malih postavki koje rade u domovima ili garažama.
@@ -1585,7 +1583,7 @@ Razvoj Bitcoin može se razumeti kroz nekoliko različitih grupa saradnika:
 - **Nezavisni programeri**, Ovi programeri se fokusiraju na kreiranje alata i aplikacija za poboljšanje korisničkog iskustva, kao što su Mempool.space (vizuelni Interface za praćenje aktivnosti transakcija) ili Alby (alati za korišćenje Lightning plaćanja u pregledačima i aplikacijama).
 
 
-Svako može predložiti izmene za Bitcoin Core, ali je proces namerno rigorozan. Nove ideje često zahtevaju godine da se usavrše i zahtevaju duboko tehničko razumevanje, široko angažovanje zajednice i više slojeva pregleda. Predlozi se obično podnose u obliku **Bitcoin Predloga za Poboljšanje (BIPs)**; neki od njih nikada ne uđu u protokol.
+Svako može predložiti izmene za Bitcoin Core, ali je proces namerno rigorozan. Nove ideje često zahtevaju godine da se usavrše i zahtevaju duboko tehničko razumevanje, široko angažovanje zajednice i više slojeva pregleda. Predlozi se obično podnose u obliku **Bitcoin Predloga za Poboljšanje ([BIPs](https://planb.academy/resources/glossary/bip))**; neki od njih nikada ne uđu u protokol.
 
 Inovacija je dobrodošla, ali samo kada je potkrepljena čvrstim razlozima, konsenzusom zajednice i pažljivim testiranjem.
 
@@ -1631,7 +1629,7 @@ Među glavnim nadslojnim sistemima koji obogaćuju ekosistem Bitcoin su:
 - **Lightning Network**:
 
 
-Lightning Network, koji su kreirali Thaddeus Dryja i Joseph Poon 2016. godine, je drugo-Layer rešenje dizajnirano da omogući trenutna i niskotarifna plaćanja. Dva korisnika mogu otvoriti privatni kanal gde mogu obavljati transakcije sa saldom koji se ažurira na Blockchain samo kada se kanal otvori ili zatvori. Transakcije unutar kanala se dešavaju off-chain, što znači da ne moraju biti pojedinačno zabeležene na Bitcoin Blockchain. Ova struktura omogućava trenutne transakcije i minimalne naknade, što je čini idealnom za transakcije male vrednosti koje zahtevaju brzu potvrdu.
+Lightning Network, koji su kreirali Thaddeus Dryja i Joseph Poon 2016. godine, je drugo-Layer rešenje dizajnirano da omogući trenutna i niskotarifna plaćanja. Dva korisnika mogu otvoriti privatni [kanal](https://planb.academy/resources/glossary/payment-channel) gde mogu obavljati transakcije sa saldom koji se ažurira na Blockchain samo kada se kanal otvori ili zatvori. Transakcije unutar kanala se dešavaju off-chain, što znači da ne moraju biti pojedinačno zabeležene na Bitcoin Blockchain. Ova struktura omogućava trenutne transakcije i minimalne naknade, što je čini idealnom za transakcije male vrednosti koje zahtevaju brzu potvrdu.
 
 
 ![image](assets/sr-Latn/061.webp)
@@ -1670,7 +1668,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 RGB je decentralizovani i na privatnost fokusirani Smart contract sistem dizajniran da radi na vrhu Bitcoin i Lightning Network. Za razliku od tradicionalnih Smart contract platformi, RGB koristi Client-side Validation model (što znači da je ceo Contract State uskladišten off-chain, a samo kriptografske obaveze su objavljene na Bitcoin Blockchain). Ovaj dizajn poboljšava i skalabilnost i privatnost. Sa RGB, korisnici mogu kreirati napredne pametne ugovore za izdavanje tokena, NFT-ova, decentralizovanih identiteta, ili čak DeFi aplikacija, direktno na Bitcoin ili Lightning.
 
 
-Ključna karakteristika RGB je njegova zaštita protiv Double-spending, postignuta korišćenjem kriptografske tehnike zvane Jednokratni Pečati. Ovaj mehanizam se oslanja na činjenicu da se Bitcoin-ovi UTXO-i (Neutrošeni Izlazi Transakcija) mogu potrošiti samo jednom. Autentičnost tokena se osigurava validacijom sa strane korisnika celokupne istorije Contract (od njegovog nastanka do trenutnog stanja).
+Ključna karakteristika RGB je njegova zaštita protiv Double-spending, postignuta korišćenjem kriptografske tehnike zvane Jednokratni Pečati. Ovaj mehanizam se oslanja na činjenicu da se Bitcoin-ovi [UTXO](https://planb.academy/resources/glossary/utxo)-i (Neutrošeni Izlazi Transakcija) mogu potrošiti samo jednom. Autentičnost tokena se osigurava validacijom sa strane korisnika celokupne istorije Contract (od njegovog nastanka do trenutnog stanja).
 
 
 ![image](assets/sr-Latn/062.webp)
@@ -2373,7 +2371,7 @@ Nekoliko najboljih praksi:
 - Povremeno proveravajte integritet vaše fraze za oporavak. Proverite da li koverta nije bila otvorena i da li je medijum i dalje čitljiv. Ako nešto izgleda sumnjivo, generate napravite novu rezervnu kopiju sa vašeg Wallet;
 
 
-Da biste pratili svoja sredstva bez ugrožavanja privatnih ključeva, razmislite o korišćenju Watch-only wallet. Omogućava vam praćenje stanja i transakcija koristeći samo vaše javne ključeve.
+Da biste pratili svoja sredstva bez ugrožavanja privatnih ključeva, razmislite o korišćenju Watch-only wallet. Omogućava vam praćenje stanja i transakcija koristeći samo vaše [javne ključeve](https://planb.academy/resources/glossary/public-key).
 
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-watch-only-66c3bc5a-5fa1-40ef-9998-6d6f7f2810fb
@@ -2921,7 +2919,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
 
-- **Hot Wallet za svakodnevne transakcije**, Za redovno trošenje, paranoični korisnici biraju novčanike fokusirane na privatnost kao što su Ashigaru, Wasabi Wallet ili Sparrow wallet. Ovi novčanici podržavaju napredne funkcije kao što su: mini-CoinJoin transakcije trošenja, payjoins, potencijalno CoinJoin alati, kontrola novčića, UTXO označavanje, ili mogućnost povezivanja putem sopstvenog Bitcoin čvora.
+- **Hot Wallet za svakodnevne transakcije**, Za redovno trošenje, paranoični korisnici biraju novčanike fokusirane na privatnost kao što su Ashigaru, Wasabi Wallet ili Sparrow wallet. Ovi novčanici podržavaju napredne funkcije kao što su: mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin) transakcije trošenja, payjoins, potencijalno CoinJoin alati, kontrola novčića, UTXO označavanje, ili mogućnost povezivanja putem sopstvenog Bitcoin čvora.
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d

@@ -6,4 +6,4 @@ wrong_answers:
   - 100 BTC
 explanation: |
   La subvention initiale était de 50 BTC par bloc, avant les divisions successives.
-reviewed: false
+reviewed: true 

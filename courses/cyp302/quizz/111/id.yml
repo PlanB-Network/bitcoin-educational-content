@@ -6,4 +6,4 @@ wrong_answers:
   - Sebuah enkripsi yang aliran kuncinya hanya bergantung pada kunci awal
 explanation: |
   Enkripsi aliran asinkron adalah jenis enkripsi di mana aliran kunci dipengaruhi oleh kunci dan elemen dari teks yang dienkripsi.
-reviewed: false
+reviewed: true

@@ -1,0 +1,24 @@
+id: 6cdb616a-ff55-4575-b0fb-01db5b2b834b
+start_date: 2026-10-22 22:00:00
+end_date: 2026-10-24 21:59:59
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Palazzo dei Congressi
+address_line_3:
+name: Lugano's Plan B Forum 2026
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Lugano's Plan ₿ Forum brings together the global Bitcoin community for discussions on adoption, regulation, and the future of Bitcoin as a financial standard.
+language:
+  - en
+links:
+  website: https://planb.lugano.ch/planb-forum
+  replay_url:
+  live_url:
+project_id: cf0fecdf-6a70-40ec-869d-c6c78f9fac01
+tags:
+  - adoption
+  - business
+  - use-case

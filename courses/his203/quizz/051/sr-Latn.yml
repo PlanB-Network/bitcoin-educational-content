@@ -1,0 +1,9 @@
+question: Prema studiji Nicolasa Christina objavljenoj u avgustu 2012, koliki je bio dnevni obim prodaje tokom maja 2012?
+answer: 15,000 BTC ili $75,000
+wrong_answers:
+  - 600 BTC ili $3,000
+  - 3,000 BTC ili $15,000
+  - 75.000 BTC ili $375.000
+explanation: |
+ Dnevni obim prodaje, koji je iznosio 8,000 BTC u martu, dostigao je 15,000 BTC u maju, što je tada bilo ekvivalentno oko $75,000. Aktivnost kao proporcija ukupne aktivnosti Bitcoin lanca kretala se između 10% i 20% tokom 2012. Početkom novembra, Ross je uspeh platforme nazvao "eksplozivnim rastom".
+reviewed: true

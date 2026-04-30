@@ -133,6 +133,12 @@
       "code_translator": "si"
     },
     {
+      "code": "sk",
+      "name": "Slovak",
+      "translator": "deepl",
+      "code_translator": "SK"
+    },
+    {
       "code": "sr-Latn",
       "name": "Serbian",
       "translator": "openai",

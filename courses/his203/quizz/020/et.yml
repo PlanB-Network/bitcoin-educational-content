@@ -1,0 +1,10 @@
+question: Milline mõjukas majandusteadlane kritiseeris 2011. aasta septembris Bitcoin tema jäika, deflatsioonile suunatud rahapoliitikat?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman on neokeynesistlik majandusteadlane ja 2008. aasta Nobeli majanduspreemia laureaat. New Yorgi ajakirjas avaldatud artiklis pealkirjaga "Kuldsed küberfetšerid"
+ Times'i veebisaidil 7. septembril 2011, väitis ta, et Bitcoin "eraõigusliku kulla standardi mudel" viib selle kui vahetusvahendi hääbumiseni.
+reviewed: true

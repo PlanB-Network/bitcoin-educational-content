@@ -6,4 +6,4 @@ wrong_answers:
   - SHA512
 explanation: |
   Bitcoin ASICs are specialized for the double SHA256 used by Bitcoin's proof-of-work.
-reviewed: false
+reviewed: true

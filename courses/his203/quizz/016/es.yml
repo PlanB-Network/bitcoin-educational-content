@@ -1,0 +1,10 @@
+question: ¿Cuál fue la razón principal por la que el movimiento Occupy Wall Street empezó a aceptar donaciones en bitcoin en septiembre de 2011?
+answer: Para eludir la censura financiera
+wrong_answers:
+  - Beneficiarse de una reserva de valor a largo plazo
+  - Para introducir información en la cadena de bloques
+  - Para comprar suministros en la Ruta de la Seda
+explanation: |
+  Este movimiento adoptó Bitcoin para escapar a la censura financiera tras la congelación de algunas de sus cuentas PayPal. Como resultado, la asamblea general de los manifestantes en
+  Nueva York recibió donaciones ya el 19 de septiembre, por un total de 686 BTC o más de 3.000 dólares en el momento de la recepción.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hợp tác xã mining nào đã vượt quá mức tỷ lệ băm mạng 50% trong một thời gian ngắn vào mùa hè năm 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Hồ Slush
+  - GHash.io
+explanation: |
+ Theo OrganOfCorti, tỷ lệ băm (hash rate) đo được của Deepbit là 52,86% vào ngày 5 tháng 8.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Thanh toán Lightning Network có lợi thế gì đối với người bán tại điểm bán hàng?
-answer: Thanh toán nhanh chóng được thực hiện gần như ngay lập tức và không cần nhiều trung gian, giúp giảm phí và thời gian thanh toán.
+question: Thanh toán qua Lightning Network (mạng Lightning) có lợi thế gì đối với người bán tại điểm bán hàng?
+answer: Thanh toán nhanh chóng được thực hiện gần như ngay lập tức và không cần qua trung gian, giúp giảm phí và thời gian thanh toán.
 wrong_answers:
   - Thanh toán nhanh chóng cần nhiều tuần để xác nhận và cần nhiều giấy tờ.
-  - Thanh toán sét chỉ diễn ra nếu được cơ quan có thẩm quyền của ngân hàng trung ương chấp thuận.
+  - Thanh toán Lightning chỉ diễn ra nếu được cơ quan có thẩm quyền như ngân hàng trung ương chấp thuận.
   - Người mua có thể hủy bỏ khoản thanh toán chớp nhoáng theo ý muốn sau khi bán.
 explanation: |
-  Lightning Network cho phép giao dịch nhanh hơn và rẻ hơn bằng cách hỗ trợ thanh toán off-chain. Người bán có thể nhận tiền gần như ngay lập tức, với mức phí tối thiểu và không cần phụ thuộc vào các trung gian thanh toán truyền thống.
+  Lightning Network (mạng Lightning) cho phép giao dịch nhanh hơn và rẻ hơn bằng cách hỗ trợ thanh toán off-chain. Người bán có thể nhận tiền gần như ngay lập tức, với mức phí tối thiểu và không cần phụ thuộc vào các trung gian thanh toán truyền thống.
 reviewed: true

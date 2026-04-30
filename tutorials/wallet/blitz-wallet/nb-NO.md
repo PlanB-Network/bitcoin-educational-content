@@ -1,272 +1,190 @@
 ---
 name: Blitz Wallet
-
-
-description: Den enkleste Bitcoin-porteføljen.
+description: Den enkleste Bitcoin-lommeboken.
 ---
+
 ![cover](assets/cover.webp)
 
-
-
-Brukeropplevelsen er en av de avgjørende faktorene når det gjelder å komme i gang med en Wallet. I denne veiledningen vil vi introdusere deg til en Wallet som har gjort brukeropplevelsen til en avgjørende faktor: Blitz Wallet tilbyr deg den enkleste og mest komplette Bitcoin-lommeboken du kan finne.
-
-
+Brukeropplevelsen er en av de avgjørende faktorene når man velger en Bitcoin-lommebok. I denne veiledningen presenterer vi Blitz Wallet, en lommebok som setter enkelhet i sentrum av sin tilnærming: takket være integrasjonen av **Spark**-protokollen, gir Blitz deg en av de enkleste og mest komplette Bitcoin-lommebøkene på markedet, med øyeblikkelige betalinger og uten teknisk administrasjon.
 
 ## Hva er Blitz Wallet?
 
+Blitz Wallet er en **self-custodial** og **open source** Bitcoin-lommebok som satser på din suverenitet og en smidig og intuitiv brukeropplevelse.
 
+[Blitz Wallet](https://blitz-wallet.com/) er en mobilapplikasjon tilgjengelig på Android (Play Store) og iOS (App Store).
 
-Blitz Wallet er en Bitcoin selvbevarende Wallet med tilgjengelig kildekode (Open Source), som fokuserer på din suverenitet og en brukeropplevelse som gjør den enkel å ta i bruk.
+I motsetning til tradisjonelle Lightning-lommebøker som krever at du administrerer betalingskanaler og innkommende likviditet, bruker Blitz Wallet **Spark-protokollen** for å eliminere disse tekniske kompleksitetene. Resultatet: øyeblikkelige betalinger fra den første satoshi du mottar, uten noen forhåndskonfigurasjon. Målet med Blitz er å gjøre bitcoin-betalinger like enkle som en vanlig betalingsapp, uten noensinne å kompromittere self-custody over midlene dine.
 
+Blitz Wallet støtter også **lesbare adresser** i formatet `bruker@domene.com` (via LNURL), noe som gjør det mulig å sende bitcoin like enkelt som en e-post, uten å måtte håndtere lange invoices eller QR codes for hver transaksjon.
 
+## Forstå Spark-protokollen
 
-[Blitz Wallet](https://blitz-Wallet.com/) er et mobilt Wallet tilgjengelig på Android (Play Store) og iOS (App Store).
+Før vi går videre til praksis, er det nyttig å forstå teknologien som driver Blitz Wallet under panseret: **Spark-protokollen**.
 
+### Hva er Spark?
 
+Spark er en open source overlaggsprotokoll bygget på Bitcoin, utviklet av teamet hos Lightspark. Den gjør det mulig å utføre øyeblikkelige transaksjoner med lave kostnader, samtidig som self-custody over dine bitcoin bevares.
 
-⚠️**VIKTIG**: Nedlasting av en Bitcoin Wallet på en offisiell plattform er viktig for å verifisere ektheten til applikasjonen og, i forlengelsen av dette, for å styrke sikkerheten til midlene dine.
+I motsetning til Lightning Network som er basert på **betalingskanaler** mellom to parter, bruker Spark en teknologi kalt **statechain** (tilstandskjede). Det grunnleggende prinsippet er som følger: i stedet for å flytte bitcoin på blokkjeden for hver transaksjon, overfører Spark **retten til å bruke** fra én bruker til en annen, uten on-chain-bevegelser.
 
+### Hvordan fungerer det?
 
+For å forstå Spark på en intuitiv måte, la oss forestille oss at det å bruke en bitcoin på Spark krever at man fullfører et puslespill med to brikker:
+- Én brikke holdes av brukeren (for eksempel Alice).
+- Den andre brikken holdes av en gruppe operatører kalt **Spark Entity (SE)**.
 
-I denne veiledningen tar vi utgangspunkt i Android-versjonen av Blitz Wallet, men alle prosessene som presenteres nedenfor, er like gyldige på iOS.
+Bare kombinasjonen av de to tilhørende brikkene gjør det mulig å bruke bitcoinene.
 
+Når Alice vil sende sine bitcoin til Bob, skjer følgende: et nytt puslespill opprettes i fellesskap mellom Bob og SE. Puslespillet beholder samme form, men brikkene som utgjør det endres. Nå er det Bobs brikke som passer med SEs brikke. Alices gamle brikke blir ubrukelig, fordi SE har destruert sin tilhørende brikke. Eierskapet til bitcoinene har skiftet hender, **uten noen transaksjon på blokkjeden**.
 
+Bob kan deretter gjenta den samme prosessen for å sende disse bitcoinene til Carol, og så videre. Hver overføring fungerer ved å erstatte brikkene i puslespillet, ikke ved en on-chain pengeoverføring.
+
+### Hvorfor er det sikkert?
+
+Et legitimt spørsmål melder seg: hva skjer hvis SE faktisk ikke destruerer sin gamle brikke?
+
+Spark Entity er ikke en enkelt enhet: det er en gruppe av uavhengige operatører. SEs brikke holdes aldri av én enkelt operatør. Erstatningen av puslespillet krever samarbeid fra flere operatører. Det er nok at **én enkelt operatør er ærlig** under en overføring for å forhindre reaktivering av et gammelt puslespill. Ingen enkelt operatør kan i hemmelighet beholde et gammelt aktivt puslespill eller gjenskape det senere.
+
+I tillegg inkluderer Spark en ensidig uttrekksmekanisme: du kan alltid hente ut dine bitcoin on-chain uten samarbeid fra SE. Denne sikkerhetsmekanismen er en integrert del av Spark-arkitekturen, og garanterer at du aldri er avhengig av nettverket for å få tilgang til midlene dine.
+
+### Spark vs Lightning Network
+
+Spark og Lightning konkurrerer ikke: de er **komplementære**. Blitz Wallet integrerer begge, noe som lar deg dra nytte av fordelene med hver av dem.
+
+|                               | **Spark**                      | **Lightning Network**  |
+| ----------------------------- | ------------------------------ | ---------------------- |
+| **Teknologi**                 | Statechains (tilstandskjeder)  | Betalingskanaler       |
+| **Kanaladministrasjon**       | Ikke nødvendig                 | Nødvendig              |
+| **Innkommende likviditet**    | Ikke nødvendig                 | Nødvendig              |
+| **Øyeblikkelige transaksjoner** | Ja                          | Ja                     |
+| **Self-custody**              | Ja                             | Ja                     |
+| **Lightning-kompatibilitet**  | Ja (via atomic swaps)          | Nativt                 |
+
+Lightning Network er fortsatt en utmerket protokoll for øyeblikkelige betalinger, men den medfører tekniske begrensninger (kanaladministrasjon, innkommende likviditet, node som må være tilkoblet...) som kan bremse nybegynnere. Spark fjerner disse begrensningene, samtidig som den forblir kompatibel med Lightning.
+
+## Installasjon og konfigurasjon
+
+I denne veiledningen tar vi utgangspunkt i Android-versjonen av Blitz Wallet, men alle prosessene som presenteres nedenfor gjelder også for iOS.
 
 ![installation](assets/fr/01.webp)
 
+Siden Blitz Wallet er en self-custody-lommebok, kan du velge mellom å **opprette en ny lommebok** eller **importere en gjenopprettingsfrase** (12 eller 24 ord) fra en eksisterende lommebok.
 
-
-Siden Blitz Wallet er en selvbærende portefølje av Bitcoin, kan du velge å opprette en ny portefølje eller importere 12/24 gjenopprettingsord fra en portefølje du allerede har.
-
-
-
-Her starter vi med å opprette en ny portefølje. Se nedenfor for våre anbefalinger om sikkerhetskopiering av sikkerhetskopifraser.
-
-
+Her går vi for opprettelse av en ny lommebok. Nedenfor finner du våre anbefalinger for sikkerhetskopiering av gjenopprettingsfrasen din:
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-❗**VIKTIG**: Disse 12/24 gjenopprettingsordene er avgjørende for å få tilgang til bitcoinsene dine. Hvis du mister dem, vil du ikke lenger være autorisert til å bruke bitcoinsene dine.
+❗ **VIKTIG**: Disse 12 eller 24 gjenopprettingsordene er **den eneste tilgangsnøkkelen til dine bitcoin**. Blitz er en self-custodial lommebok: verken Blitz eller Spark har tilgang til gjenopprettingsfrasen din eller midlene dine. Hvis du mister disse ordene, vil du permanent miste tilgangen til dine bitcoin. Del dem ikke med noen: enhver som har dem kan bruke dine bitcoin.
 
-
-
-Ikke nøklene dine, ikke bitcoinsene dine.
-
-
-
-
-Deretter oppretter du en PIN-kode for å autentisere tilgangen til Wallet.
-
-
+Opprett deretter en **PIN-kode** for å sikre tilgangen til lommeboken din.
 
 ![setup-wallet](assets/fr/02.webp)
 
+## Komme i gang med Blitz
 
+Å utføre transaksjoner med Blitz er mer intuitivt enn i de fleste andre Bitcoin-lommebøker. Grensesnittet er minimalistisk og sentrert rundt tre hovedhandlinger: sende, skanne og motta.
 
-## Kom i gang med Blitz
+### Motta bitcoin
 
+For å motta bitcoin i Blitz-lommeboken din, trykk på **«Pil ned»**-ikonet (↓), skriv inn beløpet i satoshi du ønsker å motta, legg til en valgfri beskrivelse, og lommeboken vil generere en faktura (invoice) som du kan dele med avsenderen.
 
+⚠️ **MERK**: Satoshi (eller «sat») er den minste enheten av bitcoin: **1 bitcoin = 100 000 000 satoshi**.
 
-Det er mer intuitivt å handle med Blitz enn med de fleste andre Bitcoin-lommebøker.
+En av særegenhetene med Blitz Wallet er at den støtter flere nettverk og protokoller i Bitcoin-økosystemet:
 
+- **Lightning Network**: Et av Bitcoins overlagringslag som gjør det mulig å utføre mikrobetalinger øyeblikkelig med svært lave gebyrer. Ideelt for små daglige beløp.
 
+- **Bitcoin (on-chain)**: Hoveblokkjeden i Bitcoin-protokollen, tilpasset for transaksjoner med større beløp der maksimal sikkerhet og endelig oppgjør er prioritert.
 
-I Wallet-menyen har du en minimalistisk Interface som kun fokuserer på de viktigste handlingene:
-
-
-
-### Motta bitcoins
-
-
-
-For å motta bitcoins på din Blitz Wallet klikker du på "pil ned"-ikonet, setter inn beløpet du ønsker å motta, og Wallet vil opprette en Invoice som du kan dele med avsenderen.
-
-
-
-⚠️ **NOTER**: Satoshi (eller "sat") representerer den minste enheten av Bitcoin: 1 Bitcoin = 100 000 000 satoshier
-
-
-
-En av de spesielle egenskapene til Blitz Wallet er at den støtter forskjellige nettverk og kanaler fra Bitcoin-økosystemet:
-
-
-
-
-
-- **Lightning Network**: Et av Bitcoin-overlayene som lar deg utføre mikrotransaksjoner umiddelbart.
-
-
-
-
-
-- **Bitcoin Mainnet**: Hovedkjeden i Bitcoin-protokollen, egnet for transaksjoner med store verdier.
-
-
-
-
-
-- **Liquid Network**: En parallellkjede til Bitcoin Mainnet utviklet av BlockStream som bruker Liquid Bitcoins til å utføre raske, Confidential Transactions.
-
-
+- **Liquid Network**: En sidechain (parallellkjede) til Bitcoin utviklet av Blockstream, som muliggjør raske og konfidensielle transaksjoner ved bruk av Liquid Bitcoin (L-BTC).
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-liquid-b3e4fb82-902e-4782-ad2b-a61ab05a543a
 
-Som standard vil alle transaksjonene dine være på Liquid Network, men med Blitz kan du velge hvilket nettverk du ønsker å motta satoshier på ved å klikke på knappen **Velg format**.
-
-
+Som standard genererer Blitz en Lightning-faktura, men du kan velge hvilket nettverk du ønsker å motta satoshiene dine på ved å trykke på knappen **«Choose format»** (Velg format).
 
 ![receive-sats](assets/fr/03.webp)
 
+### Opprette kontakter
 
+Blitz Wallet forenkler gjentakende bitcoin-sendinger takket være sitt kontaktsystem.
 
-### Opprett kontakter med Blitz
+I **Contacts**-menyen kan du lagre Blitz-brukernavn eller Lightning-adresser (LNURL) som du samhandler med ofte.
 
+Du kan dermed sende satoshi til disse adressene med noen få trykk, uten å måtte skanne en QR code eller manuelt taste inn en adresse hver gang.
 
+### Sende bitcoin
 
-Blitz Wallet gjør det enkelt for deg å sende bitcoins fra Wallet.
+I tillegg til de klassiske metodene for å sende bitcoin (skanning av QR code, manuell inntasting av adresse), tilbyr Blitz flere praktiske alternativer:
 
+- **Fra et bilde** (*From Image*): Importer en QR code fra bildegalleriet ditt.
+- **Fra utklippstavlen** (*From Clipboard*): Lim inn en adresse eller faktura du har kopiert tidligere.
+- **Manuell inntasting** (*Manual Input*): Skriv inn en Bitcoin-adresse, en Lightning-faktura eller en lesbar adresse direkte (for eksempel `bruker@walletofsatoshi.com`).
+- **Fra kontaktene dine**: Velg en forhåndsregistrert mottaker for å sende med noen få trykk.
 
+I **Wallet**-menyen, trykk på knappen **«Pil opp»** (↑), velg sendemetode, skriv inn beløpet du vil sende, legg til en beskrivelse og bekreft transaksjonen.
 
-I **Kontakter**-menyen kan du registrere de Blitz-brukernavnene eller Lightning-URL-ene du samhandler mest med.
-
-
-
-Dette betyr at du enkelt kan sende satoshier til disse adressene, uten å måtte skanne og legge inn Address manuelt.
-
-
-
-![add-contacts](assets/fr/04.webp)
-
-
-
-### Send bitcoins
-
-
-
-I tillegg til de klassiske metodene for å sende Bitcoins (QR-kode, manuell inntasting), kan du ved hjelp av kontaktene som er forhåndsregistrert i Wallet, sende Satss til mottakeren din med bare tre klikk.
-
-
-
-I **Wallet**-menyen klikker du på "Pil opp"-knappen, velger metoden for å sende bitcoins, setter deretter inn beløpet som skal sendes og fortsetter med bekreftelse.
-
-
-
-Minimumsbeløpet for å sende Bitcoin i Blitz Wallet er for øyeblikket 1 000 satoshier.
-
-
+Minimumsbeløpet for å gjennomføre en sending er for tiden **1 000 satoshi**.
 
 ![send-bitcoin](assets/fr/05.webp)
 
-
-
 ## Blitz-butikken
 
+Utover bitcoin-overføringer har Blitz Wallet en integrert butikk der du kan bruke dine bitcoin til å kjøpe digitale tjenester direkte fra applikasjonen.
 
+Fra hovedmenyen, trykk på fanen **Store** for å få tilgang til butikken. Der finner du også tilgang til plattformen **Bitrefill**, som lar deg kjøpe gavekort hos tusenvis av forhandlere over hele verden, direkte med bitcoin.
 
-I tillegg til Bitcoin-overføringer tilbyr Blitz Wallet deg en butikk der du kan bruke bitcoins til å betale for digitale tjenester.
-
-
-
-
-
-- **Få tilgang til AI-tjenester**: Bruk generative modeller for kunstig intelligens som f.eks: Claude 3-5 sonnet, gpt-4o, gpt-4o-mini gemini-flash-1.5 og betal direkte i bitcoins.
-
-
+- **Kunstig intelligens**: Få tilgang til de nyeste generative AI-modellene (Claude 3.5 Sonnet, GPT-4o, GPT-4o-mini, Gemini Flash 1.5) og betal kredittene dine direkte i satoshi. Flere abonnementer er tilgjengelige etter dine behov (Casual, Pro, Power).
 
 ![ia-credits](assets/fr/06.webp)
 
-
-
-
-
-- **Send tekstmeldinger hvor som helst i verden**: I Blitz-butikken har du tilgang til en GSM-tjeneste som lar deg sende tekstmeldinger anonymt hvor som helst i verden, med direkte fakturering i Bitcoin.
-
-
+- **Anonyme SMS**: Send og motta SMS over hele verden uten å avsløre ditt personlige telefonnummer. Tjenesten faktureres i satoshi for hver sendt melding.
 
 ![sms-credit](assets/fr/07.webp)
 
-
-
-
-
-- **Surf i total konfidensialitet**: Betal for et WireGuard VPN-abonnement (Virtual Private Network) i Wallet Blitz-butikken med dine bitcoins.
-
-
+- **VPN WireGuard**: Beskytt personvernet ditt på nett ved å abonnere på en VPN WireGuard-tjeneste (ukentlig, månedlig eller kvartalsvis), betalbar med bitcoin direkte fra Blitz-butikken. Du trenger bare å laste ned WireGuard-klientappen på enheten din for å ta den i bruk.
 
 ![wireguard](assets/fr/08.webp)
 
-
-
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
-https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
+## Blitz Wallet bak kulissene: gå dypere
 
-## Wallet Blitz bak kulissene: Vi går videre
+Bak den enkle bruken av Blitz Wallet skjuler det seg en gjennomtenkt teknisk arkitektur som kombinerer flere lag i Bitcoin-økosystemet.
 
+### Fordelingen av saldoen din
 
+Blitz Wallet administrerer saldoen din på en transparent måte ved å fordele midlene dine mellom de ulike protokollene etter behov. Når saldoen din er under 500 000 satoshi, bruker Blitz **Liquid Network** og atomic swaps for å gi deg en smidig opplevelse og muliggjøre transaksjoner på Lightning Network selv med små beløp.
 
-Bak den enkle betjeningen av Blitz Wallet skjuler det seg et vell av kraft og tilpasningsmuligheter.
-
-
-
-Som vi påpekte tidligere, er alle bitcoins du mottar som standard Liquid Network.
-
-
-
-Blitz bruker Liquid Network-mikrobørser for å presentere saldoen din i Satoshi når du har en saldo på mindre enn 500 000 satoshier.
-
-
-
-Denne tilnærmingen er begrunnet i ønsket om å gjøre det enklere å starte opp og hjelpe nye brukere med å gjennomføre transaksjoner på Lightning Network med små beløp så enkelt som mulig.
-
-
-
-https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
-
-Du kan se fordelingen av saldoen din i menyen **Innstillinger>Saldoinfo**.
-
-
+Denne tilnærmingen sikrer en enkel start for nye brukere, uten at de trenger å forstå de underliggende mekanismene. Du kan se fordelingen av saldoen din mellom de ulike lagene i menyen **Innstillinger > Balance Info**.
 
 ![balance](assets/fr/09.webp)
 
+### Lightning-modus (valgfritt)
 
+Som standard bruker Blitz Wallet Liquid Network og Spark-protokollen for å gi deg en smidig opplevelse uten teknisk konfigurasjon. Blitz gir deg imidlertid muligheten til å aktivere **Lightning-modus**, som automatisk vil åpne en betalingskanal når du når en saldo på **500 000 satoshi** (0,005 BTC).
 
-Blitz Wallet gir deg imidlertid muligheten til å aktivere Lightning-modus, som automatisk åpner en betalingskanal for deg når du har nådd en saldo på 500 000 satoshier.
-
-
-
-Du aktiverer Lightning-modus ved å gå til **Innstillinger** og deretter klikke på alternativet **Nodeinfo** i delen **Tekniske innstillinger**.
-
-
+For å aktivere Lightning-modus, gå til **Innstillinger**, deretter under seksjonen **Tekniske innstillinger**, trykk på alternativet **Node Info**.
 
 ![enable-lightning](assets/fr/10.webp)
 
+Takket være Spark-protokollen er denne aktiveringen **valgfri**: Spark gjør det allerede mulig å utføre Lightning-kompatible betalinger uten å måtte åpne en kanal eller administrere innkommende likviditet. Nativ Lightning-modus er fortsatt nyttig for avanserte brukere som ønsker å ha sin egen Lightning-node integrert i applikasjonen.
 
+### Utsalgssted (PoS)
 
-Ved å aktivere Lightning-modus, når hovedbetingelsen er oppfylt (saldo på 500 000 satoshis eller 0,005 Bitcoin), vil du kunne utføre transaksjoner på Lightning Network og trenger ikke lenger å gå gjennom BlockStreams Liquid Network.
+Blitz Wallet har en integrert **utsalgssted**-funksjon som lar forhandlere akseptere bitcoin-betalinger direkte fra applikasjonen.
 
+I menyen **Innstillinger > Point-of-sale** kan du konfigurere:
 
+- Den unike identifikatoren for butikken din
+- Den lokale fiatvalutaen som prisene skal vises i
+- Instruksjoner for de ansatte
+- Drikkepenge-alternativet for kundene dine
 
-
-
-- **Ta imot Bitcoin i butikken din**:
-
-
-
-Integreringen av Bitcoin-betalinger i butikker er fortsatt i eksperimentfasen med Blitz Wallet. Vi anbefaler at du bruker den sparsomt.
-
-
-
-I menyen **Innstillinger>Salgssted** kan du angi den unike identifikatoren som er knyttet til butikken din, og den lokale fiat-valutaen du ønsker å motta betalinger i.
-
-
+Kundene dine trenger bare å skanne den genererte QR code-en for å utføre sin bitcoin-betaling øyeblikkelig.
 
 ![pos](assets/fr/11.webp)
 
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
-
-Hvis denne veiledningen hjalp deg med å få grep om Blitz, er vi sikre på at du vil like veiledningen om Muun Wallet like godt. Oppdag Muun, en enkel Wallet som er like kraftig som Bitcoin.
-
-
-
-https://planb.academy/tutorials/wallet/mobile/muun-111b56b0-4872-4130-ad2e-e58f8363451d
+Ressurser brukt for å skrive denne veiledningen:
+- Bloggen til [Breez](https://breez.technology/) Technology: [*Spark Explained Like You're Five*](https://blog.breez.technology/spark-explained-like-youre-five-8d554aad18d0).

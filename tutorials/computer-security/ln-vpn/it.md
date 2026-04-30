@@ -82,4 +82,6 @@ Disattiva il tunnel:
 
 Fatto! Ora sai come utilizzare LN VPN, un servizio VPN unico nel suo genere!
 
-Se ti interessa sapere di più sulle VPN quarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)
+Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU 101 su Plan ₿ Accademy :
+
+https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47

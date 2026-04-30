@@ -1,0 +1,8 @@
+question: According to the Austrian school, what is the main reason why mathematical general equilibrium models are rejected?
+answer: They presuppose a constancy of preferences and behaviors that does not exist in reality
+wrong_answers:
+  - "They are too mathematically complex to be applied to practical economics."
+  - They require statistical data that are too costly to collect and analyze
+  - They were developed by competing and rival economic schools
+explanation: |
+  The Austrian school rejects mathematical general equilibrium models because they assume that human preferences and behaviors remain constant, which contradicts the fundamentally changing and creative nature of human action. These models create an illusion of scientificity by sacrificing true understanding of man as he learns, evolves and modifies his strategies. The other options concern technical or political aspects, but not the heart of the methodological problem raised by the Austrians.

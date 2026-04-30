@@ -1,0 +1,10 @@
+question: Quale autorevole economista ha criticato il Bitcoin nel settembre 2011 per la sua politica monetaria rigida e deflazionistica?
+answer: Paul Krugman
+wrong_answers:
+  - Yánis Varoufákis
+  - Alan Greenspan
+  - Barry Eichengreen
+explanation: |
+ Paul Krugman è un economista neokeynesiano e vincitore del Premio Nobel per l'Economia nel 2008. In un articolo intitolato "Golden Cyberfetters", pubblicato sul sito web del New York
+ Times il 7 settembre 2011, ha sostenuto che il "modello di gold standard privato" del Bitcoin porterà alla sua scomparsa come mezzo di scambio.
+reviewed: true

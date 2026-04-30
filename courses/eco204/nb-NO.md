@@ -65,7 +65,7 @@ Hva om den monetære historien gjentok seg rett foran øynene våre? Døm selv i
 ### Definisjoner av inflasjon
 
 
-Inflasjon er et begrep som ofte blir misforstått på grunn av sine mange definisjoner og tolkninger. Oppfatningen av inflasjon varierer mellom ulike grupper, for eksempel bitcoinere og tradisjonelle økonomer. La oss først avklare definisjonene før vi diskuterer hyperinflasjon:
+[Inflasjon](https://planb.academy/resources/glossary/inflation) er et begrep som ofte blir misforstått på grunn av sine mange definisjoner og tolkninger. Oppfatningen av inflasjon varierer mellom ulike grupper, for eksempel bitcoinere og tradisjonelle økonomer. La oss først avklare definisjonene før vi diskuterer hyperinflasjon:
 
 
 
@@ -111,7 +111,7 @@ En annen metode var å redusere mengden edelt metall i valutaer basert på metal
 ![image](assets/nb-NO/002.webp)
 
 
-Det er viktig å understreke at hyperinflasjon først og fremst observeres med fiat-valutaer som ikke er støttet av underliggende aktiva, som for eksempel edelmetaller. Historisk sett har det forekommet episoder med inflasjon (f.eks. gjennom devaluering av metallinnholdet) når en valuta har vært basert på slike aktiva, men disse episodene har aldri nådd de ekstreme nivåene av hyperinflasjon. I de følgende avsnittene skal vi se nærmere på periodene med devaluering av valutaen og hvilke konsekvenser disse ulike pengesystemene har hatt for inflasjonen.
+Det er viktig å understreke at hyperinflasjon først og fremst observeres med [fiat-valutaer](https://planb.academy/resources/glossary/fiat) som ikke er støttet av underliggende aktiva, som for eksempel edelmetaller. Historisk sett har det forekommet episoder med inflasjon (f.eks. gjennom devaluering av metallinnholdet) når en valuta har vært basert på slike aktiva, men disse episodene har aldri nådd de ekstreme nivåene av hyperinflasjon. I de følgende avsnittene skal vi se nærmere på periodene med devaluering av valutaen og hvilke konsekvenser disse ulike pengesystemene har hatt for inflasjonen.
 
 
 ### Studie av perioder med monetær devaluering
@@ -1160,7 +1160,7 @@ Fenomenet med zombieselskaper er ikke begrenset til etterkrigstidens Tyskland. S
 #### 6. Bli rik raskt!
 
 
-Historien viser eksempler på at enkeltpersoner har forsøkt å akkumulere rikdom raskt, slik tilfellet var i Weimar og Zimbabwe gjennom arbitrasje. I dag kan en lignende trend observeres med fremveksten av visse kryptovalutaer. Folk fristes av raske gevinster og tar risiko i håp om en eksponentiell økning i investeringen. Denne tilnærmingen minner om den vi så i perioder med hyperinflasjon, der arbitrasje ble brukt til å oppnå rask fortjeneste, ofte på bekostning av andre.
+Historien viser eksempler på at enkeltpersoner har forsøkt å akkumulere rikdom raskt, slik tilfellet var i Weimar og Zimbabwe gjennom arbitrasje. I dag kan en lignende trend observeres med fremveksten av visse [kryptovalutaer](https://planb.academy/resources/glossary/cryptocurrency). Folk fristes av raske gevinster og tar risiko i håp om en eksponentiell økning i investeringen. Denne tilnærmingen minner om den vi så i perioder med hyperinflasjon, der arbitrasje ble brukt til å oppnå rask fortjeneste, ofte på bekostning av andre.
 
 
 ![image](assets/nb-NO/052.webp)

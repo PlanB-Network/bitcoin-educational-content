@@ -94,7 +94,7 @@ Kas olete valmis uurima krüptograafia põnevat maailma? Lähme!
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Alustame oma uurimistööd krüptograafia valdkonnas selle ajaloo ühe võluvama ja meelelahutuslikuma episoodiga: Beale'i šifrite juhtumiga. [1]
+Alustame oma uurimistööd [krüptograafia](https://planb.academy/resources/glossary/cryptography) valdkonnas selle ajaloo ühe võluvama ja meelelahutuslikuma episoodiga: Beale'i šifrite juhtumiga. [1]
 
 Minu arvates on Beale'i salakirjade lugu pigem väljamõeldis kui tegelikkus. Kuid väidetavalt toimus see järgmiselt.
 
@@ -102,7 +102,7 @@ Nii 1820. kui ka 1822. aasta talvel viibis mees nimega Thomas J. Beale Lynchburg
 
 Mõni kuu hiljem sai Morriss Beale'ilt kirja, mis oli dateeritud 9. mail 1822. Selles rõhutati raudkarbi sisu suurt väärtust ja anti Morrissile mõned juhised: kui ei Beale ega keegi tema kaaslastest ei tule kunagi karbi järele, peaks ta selle avama täpselt kümne aasta pärast kirja kuupäevast (st 9. mai 1832). Mõned sees olevad paberid oleksid kirjutatud tavalise tekstiga. Mitmed teised oleksid aga "ilma võtme abita arusaamatu" Selle "võtme" annaks siis 1832. aasta juunis Morrissile üle Beale'i nimetu sõber.
 
-Vaatamata selgetele juhistele ei avanud Morriss 1832. aasta mais kasti ja Beale'i salapärane sõber ei ilmunud sama aasta juunis. Alles 1845. aastal otsustas kõrtsiomanik lõpuks kasti avada. Morriss leidis sealt märkuse, milles selgitati, kuidas Beale ja tema kaaslased avastasid läänes kulla ja hõbeda ning matsid selle koos mõningate ehetega turvaliseks hoidmiseks maha. Lisaks sellele sisaldas kast kolm **šifriteksti**, st koodiga kirjutatud teksti, mille avamiseks on vaja **krüptograafilist võtit** ehk saladust ja sellega kaasnevat algoritmi. Krüptoteksti avamise protsessi nimetatakse **dekrüpteerimiseks**, samas kui lukustamise protsessi nimetatakse **krüpteerimiseks**. (Nagu 3. peatükis selgitatud, võib mõiste "salakirjeldus" omandada erinevaid tähendusi. Nimetuses "Beale'i šifrid" on see lühend šifritekstist)
+Vaatamata selgetele juhistele ei avanud Morriss 1832. aasta mais kasti ja Beale'i salapärane sõber ei ilmunud sama aasta juunis. Alles 1845. aastal otsustas kõrtsiomanik lõpuks kasti avada. Morriss leidis sealt märkuse, milles selgitati, kuidas Beale ja tema kaaslased avastasid läänes kulla ja hõbeda ning matsid selle koos mõningate ehetega turvaliseks hoidmiseks maha. Lisaks sellele sisaldas kast kolm **šifriteksti**, st koodiga kirjutatud teksti, mille avamiseks on vaja **krüptograafilist võtit** ehk saladust ja sellega kaasnevat algoritmi. Krüptoteksti avamise protsessi nimetatakse **dekrüpteerimiseks**, samas kui lukustamise protsessi nimetatakse **[krüpteerimiseks](https://planb.academy/resources/glossary/encryption-encrypt)**. (Nagu 3. peatükis selgitatud, võib mõiste "salakirjeldus" omandada erinevaid tähendusi. Nimetuses "Beale'i šifrid" on see lühend šifritekstist)
 
 Kolm salakirjateksti, mille Morriss leidis raudkastist, koosnesid kõik komadega eraldatud numbrite jadast. Beale'i märkuse kohaselt annavad need salakirjad eraldi teavet aarde asukoha, aarde sisu ja nimekirja nimedest koos aarde õiguspärijatega ja nende osadega (viimane teave on oluline juhul, kui Beale ja tema kaaslased ei tule kunagi kastile järele).
 
@@ -144,13 +144,13 @@ Seega on oluline vahet teha **krüpteerimisskeemil** ja **krüptograafiaskeemil*
 
 Terviklikkuse ja autentsuse teemad on sama olulised kui salastatus. Meie tänapäevased sidesüsteemid ei saaks toimida ilma side terviklikkuse ja autentsuse garantiideta. Tagasilükkamatus on samuti oluline mure, näiteks digitaalsete lepingute puhul, kuid see on krüptograafilistes rakendustes vähem vajalik kui salastatus, terviklikkus ja autentsus.
 
-Teiseks, klassikalised krüpteerimisskeemid, nagu Beale'i šifrid, hõlmavad alati ühte võtit, mida jagavad kõik asjaomased osapooled. Paljud kaasaegsed krüptograafilised skeemid hõlmavad aga mitte ainult ühte, vaid kahte võtit: **privaatvõtit** ja **avalikku võtit**. Kui esimene peaks igas rakenduses jääma privaatseks, siis teine on tavaliselt avalik (sellest ka vastavad nimed). Krüpteerimise puhul saab avalikku võtit kasutada sõnumi krüpteerimiseks, samas kui privaatvõtit saab kasutada dekrüpteerimiseks.
+Teiseks, klassikalised krüpteerimisskeemid, nagu Beale'i šifrid, hõlmavad alati ühte võtit, mida jagavad kõik asjaomased osapooled. Paljud kaasaegsed krüptograafilised skeemid hõlmavad aga mitte ainult ühte, vaid kahte võtit: **[privaatvõtit](https://planb.academy/resources/glossary/private-key)** ja **[avalikku võtit](https://planb.academy/resources/glossary/public-key)**. Kui esimene peaks igas rakenduses jääma privaatseks, siis teine on tavaliselt avalik (sellest ka vastavad nimed). Krüpteerimise puhul saab avalikku võtit kasutada sõnumi krüpteerimiseks, samas kui privaatvõtit saab kasutada dekrüpteerimiseks.
 
 Krüptograafia haru, mis tegeleb skeemidega, kus kõik osapooled jagavad ühte võtit, on tuntud kui **sümmeetriline krüptograafia**. Selliste skeemide puhul nimetatakse tavaliselt ühte võtit **privaatvõtmeks** (või salajaks võtmeks). Krüptograafia haru, mis tegeleb skeemidega, mis nõuavad privaatse ja avaliku võtme paari, on tuntud kui **asümmeetriline krüptograafia**. Neid harusid nimetatakse mõnikord ka **privaatvõtme krüptograafiaks** ja **avaliku võtme krüptograafiaks** (kuigi see võib tekitada segadust, sest ka avaliku võtme krüptograafiaskeemidel on privaatvõtmed).
 
 Asümmeetrilise krüptograafia kasutuselevõtt 1970ndate lõpus on olnud üks olulisemaid sündmusi krüptograafia ajaloos. Ilma selleta ei oleks enamik meie tänapäevaseid sidesüsteeme, sealhulgas Bitcoin, võimalik või vähemalt väga ebapraktiline.
 
-Oluline on see, et kaasaegne krüptograafia ei ole ainult sümmeetriliste ja assümeetriliste võtmete krüptograafiliste skeemide uurimine (kuigi see hõlmab suurt osa valdkonnast). Näiteks on krüptograafia seotud ka hash-funktsioonidega ja pseudorandomnumbrite generaatoritega ning nendele algoritmidele saab ehitada rakendusi, mis ei ole seotud sümmeetrilise või assümeetrilise võtme krüptograafiaga.
+Oluline on see, et kaasaegne krüptograafia ei ole ainult sümmeetriliste ja assümeetriliste võtmete krüptograafiliste skeemide uurimine (kuigi see hõlmab suurt osa valdkonnast). Näiteks on krüptograafia seotud ka [hash-funktsioonidega](https://planb.academy/resources/glossary/hash-function) ja pseudorandomnumbrite generaatoritega ning nendele algoritmidele saab ehitada rakendusi, mis ei ole seotud sümmeetrilise või assümeetrilise võtme krüptograafiaga.
 
 Kolmandaks, klassikalised krüpteerimisskeemid, nagu Beale'i šifrites kasutatavad, olid pigem kunst kui teadus. Nende arvatav turvalisus põhines suuresti nende keerukust käsitlevatel intuitsioonidel. Tavaliselt parandati neid, kui avastati uus rünnak nende vastu, või loobuti neist täielikult, kui rünnak oli eriti tõsine. Kaasaegne krüptograafia on aga range teadus, mille puhul kasutatakse nii krüptograafiliste skeemide väljatöötamisel kui ka analüüsimisel formaalset matemaatilist lähenemist. [5]
 
@@ -1737,7 +1737,7 @@ Vähemalt üks nende ettevõtmise peamine ajend oli ettenägemine, et avatud arv
 
 Diffie, Hellmani ja Merkle'i visadus tasus end ära. Nende tulemused avaldati esmakordselt 1976. aastal Diffie ja Helmanni artiklis "New Directions in Cryptography" (Uued suundumused krüptograafias) Selles esitasid nad kaks originaalset viisi võtmete jaotamise ja võtmehalduse probleemide lahendamiseks.
 
-Esimene lahendus, mida nad pakkusid, oli *võtmevahetusprotokoll*, st reeglite kogum ühe või mitme sümmeetrilise võtme vahetamiseks ebaturvalise sidekanali kaudu. See protokoll on nüüd tuntud kui *Diffie-Helmanni võtmevahetus* või *Diffie-Helmanni-Merkle võtmevahetus*. [2]
+Esimene lahendus, mida nad pakkusid, oli *võtmevahetusprotokoll*, st reeglite kogum ühe või mitme sümmeetrilise võtme vahetamiseks ebaturvalise sidekanali kaudu. See protokoll on nüüd tuntud kui *[Diffie-Helmanni](https://planb.academy/resources/glossary/diffiehellman) võtmevahetus* või *Diffie-Helmanni-Merkle võtmevahetus*. [2]
 
 Diffie-Helmanni võtmevahetuse puhul vahetavad kaks osapoolt kõigepealt avalikult teavet ebaturvalises kanalis, näiteks Internetis. Seejärel loovad nad selle teabe põhjal sõltumatult sümmeetrilise võtme (või sümmeetriliste võtmete paari) turvaliseks suhtlemiseks. Kuigi mõlemad pooled loovad oma võtmed sõltumatult, tagab avalikult jagatud teave, et see võtme loomise protsess annab mõlemale poolele sama tulemuse.
 
@@ -1771,7 +1771,7 @@ Asümmeetrilises krüptograafias (ja Diffie Helmanni võtmevahetuses) kasutatava
 
 **diskreetse logaritmi probleem** on probleem, mis esineb tsüklilistes rühmades. Antud tsüklilise rühma generaatori korral tuleb arvutada ainuke eksponent, mis on vajalik selleks, et tekitada sellest generaatorist teine element selles rühmas.
 
-Diskreetse logaritmi põhised skeemid tuginevad kahele peamisele tsüklilistele rühmadele: täisarvude korrutisrühmadele ja rühmadele, mis sisaldavad punkte elliptilistel kõveratel. Algne Diffie Helmanni võtmevahetus, nagu on esitatud raamatus "New Directions in Cryptography", töötab täisarvude tsüklilise multiplikatiivse grupiga. Bitcoini digitaalallkirja algoritm ja hiljuti tutvustatud Schnorri allkirja skeem (2021) põhinevad mõlemad diskreetse logaritmi probleemil konkreetse elliptilise kõvera tsüklilise rühma jaoks.
+Diskreetse logaritmi põhised skeemid tuginevad kahele peamisele tsüklilistele rühmadele: täisarvude korrutisrühmadele ja rühmadele, mis sisaldavad punkte [elliptilistel kõveratel](https://planb.academy/resources/glossary/elliptic-curve). Algne Diffie Helmanni võtmevahetus, nagu on esitatud raamatus "New Directions in Cryptography", töötab täisarvude tsüklilise multiplikatiivse grupiga. Bitcoini [digitaalallkirja](https://planb.academy/resources/glossary/digital-signature) algoritm ja hiljuti tutvustatud [Schnorri allkirja skeem](https://planb.academy/resources/glossary/schnorr-protocol) (2021) põhinevad mõlemad diskreetse logaritmi probleemil konkreetse elliptilise kõvera tsüklilise rühma jaoks.
 
 Järgnevalt anname kõrgetasemelise ülevaate salastatusest ja autentimisest asümmeetrilises keskkonnas. Enne seda peame siiski tegema lühikese ajaloolise märkuse.
 
@@ -1835,7 +1835,7 @@ Veel üks näide: digitaalallkirjad on turvalise tarkvara ja tarkvarauuenduste l
 
 Viimase näitena digitaalallkirjade võimsusest võib tuua Bitcoini. Üks levinumaid väärarusaamu Bitcoini kohta, eriti meedias, on see, et tehingud on krüpteeritud: see ei ole nii. Selle asemel töötavad Bitcoini tehingud turvalisuse tagamiseks digitaalallkirjade abil.
 
-Bitcoine on olemas partiidena, mida nimetatakse kasutamata tehinguväljunditeks (või **UTXO-deks**). Oletame, et saate konkreetsele Bitcoini aadressile kolm makset, millest igaühe eest saab 2 bitcoini. Tehniliselt ei ole teil nüüd sellel aadressil 6 bitcoin'i. Selle asemel on teil kolm 2 bitcoini suurust partiid, mis on lukustatud selle aadressiga seotud krüptograafilise probleemi tõttu. Mis tahes makse tegemiseks võite kasutada ühte, kahte või kõiki kolme neist partiidest, sõltuvalt sellest, kui palju te tehingu jaoks vajate.
+Bitcoine on olemas partiidena, mida nimetatakse kasutamata tehinguväljunditeks (või **[UTXO](https://planb.academy/resources/glossary/utxo)-deks**). Oletame, et saate konkreetsele Bitcoini aadressile kolm makset, millest igaühe eest saab 2 bitcoini. Tehniliselt ei ole teil nüüd sellel aadressil 6 bitcoin'i. Selle asemel on teil kolm 2 bitcoini suurust partiid, mis on lukustatud selle aadressiga seotud krüptograafilise probleemi tõttu. Mis tahes makse tegemiseks võite kasutada ühte, kahte või kõiki kolme neist partiidest, sõltuvalt sellest, kui palju te tehingu jaoks vajate.
 
 Kasutamata tehingu väljundite omandiõigust tõendatakse tavaliselt ühe või mitme digitaalallkirjaga. Bitcoin töötab just seetõttu, et kehtivaid digitaalallkirju on kulumata tehingu väljundite kohta arvutuslikult võimatu anda, kui teil ei ole nende andmiseks vajalikku salajast teavet.
 
@@ -1881,7 +1881,7 @@ Alustame hash-funktsiooni defineerimisega. **Hash-funktsioon** on mis tahes tõh
 
 Krüptograafia kontekstis viitab "hash-funktsioon" tavaliselt krüptograafilisele hash-funktsioonile. Järgnevalt võtan ma selle praktika üle.
 
-Populaarne hash-funktsioon on näiteks **SHA-256** (secure hash algorithm 256). Sõltumata sisendi suurusest (nt 15 bitti, 100 bitti või 10 000 bitti) annab see funktsioon 256-bitise hash-väärtuse. Allpool näete mõned SHA-256 funktsiooni näitelahendused.
+Populaarne hash-funktsioon on näiteks **[SHA-256](https://planb.academy/resources/glossary/sha256)** (secure hash algorithm 256). Sõltumata sisendi suurusest (nt 15 bitti, 100 bitti või 10 000 bitti) annab see funktsioon 256-bitise hash-väärtuse. Allpool näete mõned SHA-256 funktsiooni näitelahendused.
 
 "Tere": `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 

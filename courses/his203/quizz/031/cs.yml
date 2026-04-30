@@ -1,0 +1,9 @@
+question: Které družstvo mining v létě 2011 nakrátko překročilo 50% míru síťového hashování?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Bazén Slush's Pool
+  - GHash.io
+explanation: |
+ Podle společnosti OrganOfCorti byla 5. srpna naměřená míra hašování služby Deepbit 52,86 %.
+reviewed: true

@@ -1,0 +1,25 @@
+id: e84d2088-0ed1-42e0-900b-774d52333bdf
+start_date: 2026-02-25 02:30:00
+end_date: 2026-02-25 06:30:00
+timezone: America/Los_Angeles
+address_city_country: Hawthorne, USA
+address_line_2: 12918 Cerise Ave, Hawthorne, CA 90250
+address_line_3: Los Angeles Ale Works - Brewery & Tasting Room
+name: Bitplebs Los Angeles 2026
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  A Bitcoin-only meetup welcoming all experience levels. Join fellow plebs at Los Angeles Ale Works for beer, food truck offerings, and discussions about Bitcoin. This is a casual gathering focused exclusively on Bitcoin topics in a brewery setting.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - en
+links:
+  website: https://lu.ma/bitplebsla
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - good-practice

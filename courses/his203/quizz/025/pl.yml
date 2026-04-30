@@ -1,0 +1,10 @@
+question: Która mobilna aplikacja do deponowania bitcoinów została opracowana przez francuską firmę Paymium SAS w kwietniu 2012 roku?
+answer: Paytunia
+wrong_answers:
+  - Instawallet
+  - MyBitcoin
+  - Vibanko
+explanation: |
+ Paymium przedstawił ją jako "rewolucyjną aplikację opartą na otwartym protokole Bitcoin do bezpiecznych i łatwych płatności online i przelewów pieniężnych".
+ Firma nabyła również aplikację internetową Instawallet od Jana Vornbergera w marcu 2012 roku.
+reviewed: true

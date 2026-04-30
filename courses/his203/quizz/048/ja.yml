@@ -1,0 +1,10 @@
+question: 2012年1月6日、ルーク・ジュニアがBitcoinのエコシステムを "守る "ために暗号通貨コイルドコインに対して取った物議を醸す行動とは？
+answer: 彼はエリギウスminingプールを使ってコイルドコインに対する検閲攻撃を行った。
+wrong_answers:
+  - 彼はCoinledcoinに対して著作権侵害のDMCAテイクダウン通知をGitHubに提出した。
+  - 彼はコイルドコイン・ウィキペディアのページを編集し、マルチ商法であることを公にした。
+  - 彼はOP_RETURNのおかげでCoiledcoinブロックチェーンに大量のメッセージを投稿した。
+explanation: |
+ この検閲攻撃（空ブロックのmining）は、彼がminingプールで実施したminingとBitcoinの組み合わせによって実行された。彼は
+ Luke-JrはDMCAを提出した。Luke-JrはGitHubにDMCAテイクダウン通知を提出したが、それはSolidCoinに対するものだった。
+reviewed: true

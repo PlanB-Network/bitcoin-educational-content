@@ -756,7 +756,7 @@ Ale jak říká Spinoza, "bludy lidí tím nekončí" a mezi všemi příklady n
 
 
 
-Tento paradox velmi dobře ilustruje například definice inflace, kterou podávají keynesiánští ekonomové a zastánci sociálního státu. Podle nich je inflace růst cen, který podle některých centrálních bankéřů přichází buď "odnikud", nebo z geopolitických souvislostí, které nikdo nemůže ovlivnit ani předvídat. Zatímco růst cen skutečně může vést k cyklické inflaci - například když se zvýší cena ropy, zvýší se i ceny některých zpracovaných výrobků - skutečné strukturální příčiny inflace jsou spojeny především s růstem peněz Supply, což zase znamená pokles hodnoty peněz a ipso facto mechanický růst cen.
+Tento paradox velmi dobře ilustruje například definice [inflace](https://planb.academy/resources/glossary/inflation), kterou podávají keynesiánští ekonomové a zastánci sociálního státu. Podle nich je inflace růst cen, který podle některých centrálních bankéřů přichází buď "odnikud", nebo z geopolitických souvislostí, které nikdo nemůže ovlivnit ani předvídat. Zatímco růst cen skutečně může vést k cyklické inflaci - například když se zvýší cena ropy, zvýší se i ceny některých zpracovaných výrobků - skutečné strukturální příčiny inflace jsou spojeny především s růstem peněz Supply, což zase znamená pokles hodnoty peněz a ipso facto mechanický růst cen.
 
 
 
@@ -1064,7 +1064,7 @@ Jinými slovy, pokud nenávidíme cizince, je to proto, že si tohoto cizince sp
 
 
 
-To mimochodem platí zejména v oblasti kryptoměn.
+To mimochodem platí zejména v oblasti [kryptoměn](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 
@@ -1159,7 +1159,7 @@ Právě o to šlo osvícenské racionální filozofii, zejména díky Immanuelu 
 Jinými slovy, říká, pokud budeme myslet sami za sebe, pokud budeme uvažovat jako dospělí racionální lidé, a pokud se tedy budeme snažit přilnout ke kauzálním souvislostem mezi věcmi, nebudeme již potřebovat morální autoritu, která by nás učila například pravým ctnostem náboženství nebo pravým etickým hodnotám v politické a ekonomické sféře.
 
 
-Tato argumentace navazuje na rakouskou školu liberální ekonomie, která se zrodila v mimořádně plodné intelektuální atmosféře Vídně před první světovou válkou. Právě v tomto kontextu totiž intelektuálové jako Carl Menger (1840-1921), Ludwig von Mises (1883-1979) a Friedrich Hayek (1899-1992) položili základy nové školy liberální ekonomie, která se měla stát základem přesvědčení budoucích cypherpunkerů. A odtud vznik Bitcoin.
+Tato argumentace navazuje na [rakouskou](https://planb.academy/resources/glossary/austrian-school) školu liberální ekonomie, která se zrodila v mimořádně plodné intelektuální atmosféře Vídně před první světovou válkou. Právě v tomto kontextu totiž intelektuálové jako Carl Menger (1840-1921), Ludwig von Mises (1883-1979) a Friedrich Hayek (1899-1992) položili základy nové školy liberální ekonomie, která se měla stát základem přesvědčení budoucích [cypherpunkerů](https://planb.academy/resources/glossary/cypherpunks). A odtud vznik Bitcoin.
 
 
 
@@ -1204,7 +1204,7 @@ Jedná se o politické a ekonomické argumenty, které předložili první cyphe
 
 
 
-Zvláště když do mincovní báze bloku Genesis Blockchain Bitcoin vepsal titulek Timesů z 3. ledna 2009, aby ilustroval konec jedné éry, keynesiánské, a začátek jiné, s liberálními, anarchistickými a libertariánskými aspiracemi.
+Zvláště když do [mincovní báze](https://planb.academy/resources/glossary/coinbase-transaction) [bloku Genesis](https://planb.academy/resources/glossary/genesis-block) [Blockchain](https://planb.academy/resources/glossary/blockchain) Bitcoin vepsal titulek Timesů z 3. ledna 2009, aby ilustroval konec jedné éry, keynesiánské, a začátek jiné, s liberálními, anarchistickými a libertariánskými aspiracemi.
 
 
 
@@ -1212,7 +1212,7 @@ Zvláště když do mincovní báze bloku Genesis Blockchain Bitcoin vepsal titu
 
 
 
-Bílá kniha zveřejněná 31. října 2008 představuje Bitcoin jako prostředek výměny hodnot na internetu bez důvěryhodné třetí strany, založený na decentralizovaném protokolu. Jde o "koperníkovskou" revoluci, která lidem konečně umožní znovu získat schopnost jednat, tj. svobodu, svobodu obchodování, právo na vlastnictví a respektování soukromí.
+[Bílá kniha](https://planb.academy/resources/glossary/white-paper) zveřejněná 31. října 2008 představuje Bitcoin jako prostředek výměny hodnot na internetu bez důvěryhodné třetí strany, založený na decentralizovaném protokolu. Jde o "koperníkovskou" revoluci, která lidem konečně umožní znovu získat schopnost jednat, tj. svobodu, svobodu obchodování, právo na vlastnictví a respektování soukromí.
 
 
 Proč? Protože Bitcoin nám umožňuje vymanit se z tohoto otroctví Spinozovým způsobem, díky rozumu, díky Galileovu jazyku matematiky. A jak naznačuje Hayek, bez toho, aby se proti tomu mohl postavit stát. A to mírovou cestou, bez nátlaku a proselytismu.

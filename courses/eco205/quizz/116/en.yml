@@ -1,0 +1,8 @@
+question: In what range does the final price of a good necessarily lie in a voluntary exchange according to the Austrian school?
+answer: Between the minimum the seller will accept and the maximum the buyer is willing to pay
+wrong_answers:
+  - "Between the cost of production and the objective marginal utility of the good"
+  - "Between the subjective value of the seller and the subjective value of the buyer"
+  - Between cost price and maximum psychological market price
+explanation: |
+  According to the Austrian school of thought, the price is always set in the interval between the minimum a seller is willing to accept and the maximum a buyer is prepared to pay. This interval allows for negotiation and the emergence of the final price. Other answers confuse price and value (which are distinct), or refer to objective concepts, whereas the Austrian approach emphasizes the subjectivity of individual valuations.

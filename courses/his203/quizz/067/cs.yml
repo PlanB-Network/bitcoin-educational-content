@@ -1,0 +1,10 @@
+question: Jaký přibližný podíl bitcoinů v oběhu představovaly peníze spravované fondem Bitcoin Savings & Trust v době jeho největšího rozmachu?
+answer: Přibližně 5 %
+wrong_answers:
+  - Přibližně 0,05
+  - Přibližně 0,5
+  - Přibližně 50 %
+explanation: |
+ Na svém vrcholu v srpnu 2012 spravoval fond Trendona Shaverse (alias PirateAt40) více než 500 000 bitcoinů, což představovalo přibližně 5 % z 9,7 milionu bitcoinů v oběhu
+ bitcoinů v oběhu! Společnost Bitcoin Savings & Trust se zhroutila hned poté, jak se vypařila důvěra.
+reviewed: true

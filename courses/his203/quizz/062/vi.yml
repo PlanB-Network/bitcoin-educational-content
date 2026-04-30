@@ -1,0 +1,9 @@
+question: Trên subreddit nào người dùng có thể đăng ảnh khỏa thân của mình để nhận tiền boa bằng Bitcoin từ tháng 3 năm 2012?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ Cộng đồng r/GirlsGoneBitcoin được Julian Tosh, hay còn gọi là Tuxavant, một người ủng hộ Linux và quyền riêng tư sống ở Las Vegas, mở vào ngày 26 tháng 3 năm 2012. Cộng đồng này đã có gần 2.000 thành viên vào cuối năm đó.
+reviewed: true

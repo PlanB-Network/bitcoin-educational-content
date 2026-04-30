@@ -1,0 +1,10 @@
+question: På vilken subreddit kunde användare publicera nakenbilder på sig själva för bitcointips från mars 2012?
+answer: r/GirlsGoneBitcoin
+wrong_answers:
+  - r/GoneWild
+  - r/CryptoPorn
+  - r/Bitcoin
+explanation: |
+ r/GirlsGoneBitcoin öppnades den 26 mars 2012 av Julian Tosh, alias Tuxavant, en Linux- och integritetsförespråkare som bor i Las Vegas. Subreddit hade nästan
+ 2 000 medlemmar i slutet av året.
+reviewed: true

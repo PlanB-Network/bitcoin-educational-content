@@ -193,7 +193,7 @@ Bitcoin kogukonnad taotlevad sageli laiemaid eesmärke, eriti avalikku haridust:
 4. Mõnede avaliku elu tegelaste ja meedia poolt esitatud eksitavate või alusetute väidete ümberlükkamine;
 
 
-5. Põhilised erinevused Bitcoin ja teiste krüptovaluutade vahel;
+5. Põhilised erinevused Bitcoin ja teiste [krüptovaluutade](https://planb.academy/resources/glossary/cryptocurrency) vahel;
 
 
 Ehitades esimesed homsed "linnakud", **Bitcoin kogukonnad üle maailma on kaitsevalliks desinformatsiooni ja tsensuuri vastu, pakkudes samal ajal viljakat pinnast Bitcoin põhialuste õppimiseks**. Nad pakuvad uustulnukatele, isegi skeptikutele, ressursse ja ühendusi, mis on vajalikud Bitcoin tõelise potentsiaali uurimiseks.
@@ -302,7 +302,7 @@ Kuid **jõudude ühendamine on sageli mõistlikum kui lähedaste kogukondade jag
 Selles mõttes võib aidata lihtne "rusikareegel": kui 30-45 minuti raadiuses teie elukohast ei ole aktiivset Bitcoin kogukonda, võib tasub alustada uut kogukonda. See tähendab, et te võite alati teha, mida soovite.
 
 
-Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "oranžida", siis on alati võimalus luua oma Fork.
+Ja muidugi, kui vanem kogukond on "arenenud" suunas, mis ei vasta enam teie väärtustele, ja teil ei ole aega või motivatsiooni neid "[oranžida](https://planb.academy/resources/glossary/orange-pill)", siis on alati võimalus luua oma [Fork](https://planb.academy/resources/glossary/fork).
 
 
 
@@ -1391,7 +1391,7 @@ Nende hulka kuuluvad:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma Sats kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
+- [Btcmap.org](https://btcmap.org/)**, veebisait, kus on kaks kaarti, mida uuendatakse iga päev: **[maailma kaart ettevõtetest, mis aktsepteerivad Bitcoin](https://btcmap.org/map)** ja **[maailma kogukondade kaart](https://btcmap.org/communities/map)**. Paljud bitcoin'i kasutajad vaatavad neid kaarte regulaarselt, kas nad reisivad või elavad oma igapäevaelu, et kohtuda uute inimestega või leida kohti, kus oma [Sats](https://planb.academy/resources/glossary/satoshi-sat) kulutada. Btcmap on ülemaailmne viide ja oma kogukonna loetellu kandmine seal on nähtavuse jaoks väga oluline.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), veebisait, mille on loonud bitcoiners, bitcoiners. **See võimaldab teil postitada oma kogukonna eelseisvaid üritusi**. Prantsusmaal ei kasutata seda siiski veel laialdaselt.
 - sõltuvalt teie riigist võivad olla ka muud kohalikud algatused. Prantsusmaal on näiteks [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), kus **kuulub iga kuu kümneid Bitcoin üritusi**. Nii et kui te ei ole neile veel Twitteris järgnenud või nendega ühendust võtnud, et jagada teavet oma kogukonna ja ürituste kohta, on nüüd õige aeg! **Kui aitaksite hoida Prantsuse sündmuste kalendrit ajakohasena, oleks tore, kui kõik Prantsuse Bitcoin kogukonnad võtaksid harjumuseks:**
     - mainides @bitcoinpointfr Twitteris iga uue kogukonna sündmuse puhul
@@ -1820,7 +1820,7 @@ Lisaks tugevale hariduslikule väärtusele võimaldab selline lähenemisviis jag
 Allpool on esitatud 2023-2024. aasta prantsuse kohtumiste kulg. Iga teema kohta on saadaval avatud esitlus ja video, mis võivad anda teile ideid teemade kohta, mida võiksite oma ürituste puhul käsitleda.
 
 
-Täiendavad redigeeritavad materjalid leiate ka [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)!
+Teised ressursid on samuti saadaval Plan ₿ Academy jaotises ["Educator Content"](https://planb.academy/educator-content), mis on koostööruum, kus Bitcoini hariduslikud töötajad üle maailma jagavad ja teevad kättesaadavaks oma õppematerjale (esitlused, flaierid, juhendid, plakatid...) kasutamisvalmis või muudetavates formaatides. Eesmärk: ühendada jõupingutused, et mitte alustada iga kord nullist!
 
 
 
@@ -1958,7 +1958,7 @@ Selle soodustuse saamiseks võtke lihtsalt **kontakti [kirjastus Konsensus](http
 Kui teil ei ole sularaha, võite siiski anda allahindlust edasi oma kogukonna liikmetele.
 
 
-Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal välkkiirelt.
+Kui teil endal ei ole vahendeid, saate allahindlust siiski oma liikmetele edasi anda. Näiteks võiks üks korraldaja koguda liikmetelt tellimusi, teha kogutellimuse soodushinnaga ja jagada raamatuid järgmisel kokkusaamisel, kusjuures makse kogutakse sel ajal [välkkiirelt](https://planb.academy/resources/glossary/lightning-network).
 
 
 Samuti võiksite oma kohtumistel välja panna raamatute laenutamise põhikirja, et selgitada uutele tulijatele selgelt laenutamise reegleid.
@@ -2599,7 +2599,7 @@ Selle osavõtu suurenemisega:
     - kui leiate, et osalejate arv muutub üle jõu käivaks, võite tulevaste kokkusaamiste puhul kas **nõuda osalejatelt registreerimist** (Meetupi rakenduse või lihtsa vormi kaudu) või **pidada iga kuu mitu kokkusaamist** (näiteks: algajate kokkusaamine, keskastme kokkusaamine ja edasijõudnute kokkusaamine).
     - Samal ajal on oodata ökosüsteemi palju uusi tulijaid, kelle peamine eesmärk on sageli raha teenimine. Selleks, et **suhtlused keskenduksid Bitcoin-le** nendel kiiresti kasvavatel kohtumistel, on hea mõte:
 
-a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" shitcoin-projektist);
+a) kaasata nende ürituste ajal **Bitcoin-teemaline esitlus**, sest see suunab loomulikult suure osa vestlusest sellele teemale (ja eemale viimasest väidetavalt "revolutsioonilisest" [shitcoin-projektist](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Vältige ainult bitcoin'idega**. Selle asemel tehke endale eesmärgiks **läheneda uutele tulijatele**, isegi kui see tähendab, et peate neid tervitama ruumi tagumises otsas. Sealt saate rääkida sellest, miks nad tulid, mida nad otsivad, millised on teie kogukonna eesmärgid (või isegi põhiprintsiibid) jne.
 

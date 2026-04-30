@@ -1,0 +1,11 @@
+question: Millise reklaamiplatvormi käivitasid Erik Voorhees ja Ira Miller 2011. aasta novembris, et reklaamida Twitteris sisu, kasutades Bitcoin?
+answer: FeedZeBirds
+wrong_answers:
+  - Coinapult
+  - BTC-tolline
+  - BitMunchies
+explanation: |
+ FeedZeBirds oli reklaamiplatvorm, mille käivitasid 23. novembril 2011 Erik Voorhees ja Ira Miller. FeedZeBirds'i reklaamiplatvorm võimaldas kasutajatel maksta
+ bitcoin'idega Twitteri sisu tutvustamise eest, ostes retweet'eid. BitMunchies oli Ira Milleri poolt 2011. aasta mais loodud veebipõhine toidupood, BTCinch oli
+ 2011. aasta suvel välja töötatud makseprotsessor ja Coinapult oli kahe partneri poolt hiljem välja töötatud e-posti ülekandeteenus.
+reviewed: true

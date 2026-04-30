@@ -6,4 +6,4 @@ wrong_answers:
   - SHA-256
 explanation: |
   Mbinu ya CBC hutumia vekta ya uanzishaji na hutumia XOR kati ya kila kizuizi cha maandishi wazi na kizuizi cha awali kilichosimbwa, na kufanya usimbaji fiche kuwa wa uwezekano na salama zaidi kuliko ECB.
-reviewed: false
+reviewed: true

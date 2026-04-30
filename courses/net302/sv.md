@@ -90,8 +90,6 @@ I slutet av kursen har du grundläggande kunskaper för att effektivt administre
 **ANMÄRKNING**: Beskrivningarna är baserade på ett GNU/Linux CentOS 7-system. Nätverkskonfigurationerna är dock i stort sett desamma när man jämför ett Debian- med ett CentOS-system. Så vi kommer inte att göra någon åtskillnad. När det finns en, kommer vi att prefixera den med en specifik logotyp.
 
 
-**N.B.**: Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan](https://planb.academy/resources/glossary) för definitioner.
-
 
 
 # TCP/IP-protokoll

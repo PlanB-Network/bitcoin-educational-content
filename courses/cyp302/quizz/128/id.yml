@@ -6,4 +6,4 @@ wrong_answers:
   - Pertukaran kunci yang aman
 explanation: |
   RSA didasarkan pada kesulitan faktorisasi bilangan prima, sebuah tugas komputasi yang sulit yang membuat sistem kriptografi aman dari serangan.
-reviewed: false
+reviewed: true

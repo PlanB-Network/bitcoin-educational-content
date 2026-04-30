@@ -1,0 +1,11 @@
+question: Millist BitInstanti 2011. aasta detsembris lisatud välisvaluutateenuse funktsiooni kasutas Robert Faiella ehk BTCKing oma tumedas veebis toimuva edasimüügi jaoks ära?
+answer: Sularaha sissemakse
+wrong_answers:
+  - Tasuta ostud
+  - Kohesed ülekanded
+  - Õigusaktide täitmine
+explanation: |
+ BitInstant lisas selle makseviisi oma pakkumisse 21. detsembril 2011. USA kodanikel oli võimalik hoiustada sularaha konkreetsetes kohtades ja olla
+ krediteerida peaaegu koheselt dollarites oma valitud vahetusplatvormil. Robert Faiella, teise nimega BTCKing, kasutas ära suhtelist konfidentsiaalsust
+ seda meetodit, et tegutseda Silk Roadil kõrgema tasu eest edasimüügiga.
+reviewed: true

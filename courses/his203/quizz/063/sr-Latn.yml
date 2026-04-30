@@ -1,0 +1,10 @@
+question: Koji Bitcoin ekosistemski servis NIJE bio pogođen hakovanjem Linode hosting servisa 1. marta 2012?
+answer: BitInstant usluga za razmenu stranih valuta, kojom upravlja Charlie Shrem
+wrong_answers:
+  - Bitcoinica platforma za trgovanje, kojom upravlja Zhou Tong
+  - BitcoinCZ Mining mining kooperativa, upravljana od strane Slush
+  - Slavina Bitcoin, kojom upravlja Gavin Andresen
+explanation: |
+ Haker je pristupio portalu korisničke službe kompanije i preuzeo kontrolu nad osam naloga, od kojih su svi imali vezu sa Bitcoin. Zaplenio je 43,554 
+ bitkoina koji pripadaju Bitcoinica, uklonio 3,094 bitkoina iz Slush-ovog kooperativnog hot wallet i došao do 5 bitkoina prisutnih na Gavinovom Bitcoin faucet-u.
+reviewed: true

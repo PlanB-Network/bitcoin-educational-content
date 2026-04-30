@@ -1,0 +1,10 @@
+question: "\"Pool hopping\" bisobanura iki ku mucukuzi w'amabuye y'agaciro ashinga hash rate yiwe ku kidengeri ca mining?"
+answer: Guca ku kigega ca mining igihe umubare kanaka w’imigabane washikirijwe mu nzira, no guhindura ububasha bwo gukoresha ubuhinga bwa none kuri konti yawe bwite canke ku kindi kigega ca mining 
+wrong_answers:
+  - Kwemera uburyo bwo guhanahana amakuru bukoresha uburebure bw’uruja n’uruza kugira ngo umuntu akoreshe n’ikigega ca mining kugira ngo agabanye imigabane ya kera mu gutuma itangazo ry’amabuye mashasha rigenda neza
+  - Gukora ibikorwa vyinshi vy’ibinyoma mu gice ca mining kugira ngo bigereranye ukwimurira uburenganzira bwa bitcoin no kwongera ibanga ry’abacukuzi bashinzwe 
+  - Kwandika izina ry’ikidengeri ca mining mu kibanza c’injiza c’ugucuruza impembo y’ibarabara ry’amabuye y’agaciro, kugira ngo ibikorwa vy’ibidengeri vya mining bibe bigaragara
+explanation: |
+ Ubwo buryo bwadondowe na Raulo muri Ruhuhuma 2011, yagereranyije ko umuntu ashobora kuronka 28% vy’ama bitcoins menshi muri ubwo buryo. Ni co catumye hashirwaho . 
+ igiharuro "co kurwanya ubusuma" mu gisata ca Slush.
+reviewed: true

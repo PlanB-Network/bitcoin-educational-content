@@ -77,7 +77,7 @@ Oletko valmis oppimaan Lightning Networkin tekniset mekanismit? Aloitetaan!
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-Lightning-verkko on maksukanavien verkosto, joka on rakennettu Bitcoin-protokollan päälle ja jonka tavoitteena on mahdollistaa nopeat ja edulliset siirrot. Se mahdollistaa maksukanavien luomisen osallistujien välille, joiden sisällä siirrot voidaan tehdä lähes välittömästi ja minimaalisin kustannuksin tallentamatta jokaista siirtoa erikseen lohkoketjuun. Näin ollen Lightning-verkko pyrkii parantamaan Bitcoinin skaalautuvuutta ja tekemään siitä käyttökelpoisen pienarvoisiin maksuihin.
+[Lightning-verkko](https://planb.academy/resources/glossary/lightning-network) on [maksukanavien](https://planb.academy/resources/glossary/payment-channel) verkosto, joka on rakennettu Bitcoin-protokollan päälle ja jonka tavoitteena on mahdollistaa nopeat ja edulliset siirrot. Se mahdollistaa maksukanavien luomisen osallistujien välille, joiden sisällä siirrot voidaan tehdä lähes välittömästi ja minimaalisin kustannuksin tallentamatta jokaista siirtoa erikseen [lohkoketjuun](https://planb.academy/resources/glossary/blockchain). Näin ollen Lightning-verkko pyrkii parantamaan Bitcoinin [skaalautuvuutta](https://planb.academy/resources/glossary/scalability) ja tekemään siitä käyttökelpoisen pienarvoisiin maksuihin.
 
 Ennen "verkon" aspektin tutkimista on tärkeää ymmärtää Lightningissa maksukanavan käsite, sen toiminta ja erityispiirteet. Tämä on tämän ensimmäisen luvun aihe.
 
@@ -87,7 +87,7 @@ Maksukanava mahdollistaa kahden osapuolen, tässä **Alicen** ja **Bobin**, varo
 
 ![LNP201](assets/en/001.webp)
 
-Esimerkissämme Alicella on 100 000 satoshia hänen puolellaan kanavaa, ja Bobilla on 30 000, yhteensä 130 000 satoshia, mikä muodostaa **kanavan kapasiteetin**.
+Esimerkissämme Alicella on 100 000 [satoshia](https://planb.academy/resources/glossary/satoshi-sat) hänen puolellaan kanavaa, ja Bobilla on 30 000, yhteensä 130 000 satoshia, mikä muodostaa **[kanavan kapasiteetin](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Mutta mikä on satoshi?**
 
@@ -135,7 +135,7 @@ Tämä luku on hieman erityinen, sillä se ei suoraan keskity Lightning-verkkoon
 
 ### Bitcoin-osoitteet, yksityiset avaimet ja julkiset avaimet
 
-Bitcoin-osoite on merkkijono, joka johdetaan **julkisesta avaimesta**, joka puolestaan lasketaan **yksityisestä avaimesta**. Kuten varmasti tiedät, sitä käytetään bitcoinien lukitsemiseen, mikä vastaa niiden vastaanottamista lompakkoosi.
+Bitcoin-osoite on merkkijono, joka johdetaan **[julkisesta avaimesta](https://planb.academy/resources/glossary/public-key)**, joka puolestaan lasketaan **[yksityisestä avaimesta](https://planb.academy/resources/glossary/private-key)**. Kuten varmasti tiedät, sitä käytetään bitcoinien lukitsemiseen, mikä vastaa niiden vastaanottamista lompakkoosi.
 
 Yksityinen avain on salainen elementti, jota **ei koskaan tulisi jakaa**, kun taas julkinen avain ja osoite voidaan jakaa ilman turvallisuusriskiä (niiden paljastaminen edustaa vain riskiä yksityisyydellesi). Tässä on yleinen esitystapa, jota noudatamme koko tämän koulutuksen ajan:
 
@@ -145,15 +145,15 @@ Yksityinen avain on salainen elementti, jota **ei koskaan tulisi jakaa**, kun ta
 
 ### Bitcoin-siirrot: Varojen lähettäminen ja skriptit
 
-Bitcoinissa siirto tarkoittaa varojen lähettämistä yhdestä osoitteesta toiseen. Otetaan esimerkki, jossa Alice lähettää 0.002 Bitcoinia Bobille. Alice käyttää osoitteeseensa liitettyä yksityistä avainta **allekirjoittaakseen** siirron, todistaen näin, että hän todella pystyy käyttämään näitä varoja. Mutta mitä tarkalleen ottaen tapahtuu tämän siirron takana? Bitcoin-osoitteessa olevat varat on lukittu **skriptillä**, eräänlaisella miniohjelmalla, joka asettaa tiettyjä ehtoja varojen käyttämiseksi.
+Bitcoinissa siirto tarkoittaa varojen lähettämistä yhdestä osoitteesta toiseen. Otetaan esimerkki, jossa Alice lähettää 0.002 Bitcoinia Bobille. Alice käyttää osoitteeseensa liitettyä yksityistä avainta **allekirjoittaakseen** siirron, todistaen näin, että hän todella pystyy käyttämään näitä varoja. Mutta mitä tarkalleen ottaen tapahtuu tämän siirron takana? Bitcoin-osoitteessa olevat varat on lukittu **[skriptillä](https://planb.academy/resources/glossary/script)**, eräänlaisella miniohjelmalla, joka asettaa tiettyjä ehtoja varojen käyttämiseksi.
 
-Yleisin skripti vaatii allekirjoituksen osoitteeseen liitetyllä yksityisellä avaimella. Kun Alice allekirjoittaa siirron yksityisellä avaimellaan, hän **avaa skriptin**, joka estää varojen siirtämisen, ja ne voidaan sitten siirtää. Varojen siirtoon liittyy uuden skriptin lisääminen näihin varoihin, joka määrää, että niiden käyttämiseen tällä kertaa tarvitaan **Bobin** yksityisen avaimen allekirjoitus.
+Yleisin skripti vaatii [allekirjoituksen](https://planb.academy/resources/glossary/digital-signature) osoitteeseen liitetyllä yksityisellä avaimella. Kun Alice allekirjoittaa siirron yksityisellä avaimellaan, hän **avaa skriptin**, joka estää varojen siirtämisen, ja ne voidaan sitten siirtää. Varojen siirtoon liittyy uuden skriptin lisääminen näihin varoihin, joka määrää, että niiden käyttämiseen tällä kertaa tarvitaan **Bobin** yksityisen avaimen allekirjoitus.
 
 ![LNP201](assets/en/005.webp)
 
 ### UTXO:t: Käyttämättömät siirtojen tulosteet
 
-Bitcoinissa vaihdamme itse asiassa suoraan bitcoineja, vaan **[UTXO](https://planb.academy/resources/glossary/utxo):ita** (_Unspent Transaction Outputs_), tarkoittaen "käyttämättömiä siirtojen tulosteita".
+Bitcoinissa vaihdamme itse asiassa suoraan bitcoineja, vaan **UTXO:ita** (_Unspent Transaction Outputs_), tarkoittaen "käyttämättömiä siirtojen tulosteita".
 
 UTXO on bitcoinin pala, joka voi olla minkä tahansa arvoinen, esimerkiksi **2,000 bitcoina**, **8 bitcoinia** tai jopa **8,000 satsia**. Jokainen UTXO on lukittu skriptillä, ja sen käyttämiseen täytyy täyttää skriptin ehdot, usein allekirjoitus annetun vastaanotto-osoitteen yksityisellä avaimella.
 
@@ -209,9 +209,9 @@ Kuten ensimmäisessä luvussa näimme, Lightning-verkon **maksukanavaa** voidaan
 
 On tärkeää selvästi erottaa Lightning-verkon eri tiedonvaihtotasot:
 
-- **Vertaisverkkoviestintä (Lightning-protokolla)**: Nämä ovat viestejä, joita Lightning-solmut lähettävät toisilleen kommunikoidakseen. Esitämme nämä viestit katkoviivoilla diagrammeissamme.
+- **[Vertaisverkkoviestintä](https://planb.academy/resources/glossary/peertopeer-p2p) (Lightning-protokolla)**: Nämä ovat viestejä, joita [Lightning-solmut](https://planb.academy/resources/glossary/lightning-node) lähettävät toisilleen kommunikoidakseen. Esitämme nämä viestit katkoviivoilla diagrammeissamme.
 - **Maksukanavat (Lightning-protokolla)**: Nämä ovat polkuja varojen vaihtoon Lightning-verkossa, jotka esitämme yhtenäisinä mustina viivoina.
-- **Bitcoin-siirrot (Bitcoin-protokolla)**: Nämä ovat onchain-tapahtumia, jotka esitämme oransseilla viivoilla.
+- **Bitcoin-siirrot (Bitcoin-protokolla)**: Nämä ovat [onchain](https://planb.academy/resources/glossary/onchain)-tapahtumia, jotka esitämme oransseilla viivoilla.
 
 ![LNP201](assets/en/010.webp)
 On huomionarvoista, että Lightning-solmu voi kommunikoida P2P-protokollan kautta avaamatta kanavaa, mutta varojen vaihtamiseksi kanava on välttämätön.
@@ -244,7 +244,7 @@ On huomionarvoista, että Lightning-solmu voi kommunikoida P2P-protokollan kautt
 
 ### Milloin kanava on avoin?
 
-Kanava katsotaan avatuksi, kun talletustransaktio on sisällytetty Bitcoin-lohkoon ja se on saavuttanut tietyn syvyyden vahvistuksissa (seuraavien lohkojen määrä).
+Kanava katsotaan avatuksi, kun talletustransaktio on sisällytetty Bitcoin-[lohkoon](https://planb.academy/resources/glossary/block) ja se on saavuttanut tietyn syvyyden [vahvistuksissa](https://planb.academy/resources/glossary/confirmation) (seuraavien lohkojen määrä).
 
 **Mitä sinun tulisi muistaa tästä luvusta?**
 
@@ -276,7 +276,7 @@ Kanavan avaamisen hetkellä Alice talletti **130 000 satoshia** kanavan multisig
 
 ### Julkaisemattomat Siirrot: Sitoumustapahtumat
 
-Kun Alice tekee kanavassa siirron lähettääkseen varoja Bobille, luodaan uusi Bitcoin-siirto, joka heijastaa tämän muutoksen varojen jakautumisessa. Tätä siirtoa, jota kutsutaan **sitoumustapahtumaksi**, ei julkaista lohkoketjussa, mutta se edustaa kanavan uutta tilaa Lightning-siirron jälkeen.
+Kun Alice tekee kanavassa siirron lähettääkseen varoja Bobille, luodaan uusi Bitcoin-siirto, joka heijastaa tämän muutoksen varojen jakautumisessa. Tätä siirtoa, jota kutsutaan **[sitoumustapahtumaksi](https://planb.academy/resources/glossary/commitment-transaction)**, ei julkaista lohkoketjussa, mutta se edustaa kanavan uutta tilaa Lightning-siirron jälkeen.
 
 Otetaan esimerkki, jossa Alice lähettää 30 000 satoshia Bobille:
 
@@ -346,9 +346,9 @@ Vielä pahempaa, Alice voisi julkaista kaikkein ensimmäisen nostotapahtuman, se
 
 Estääkseen tällaisen huijauksen Alicen toimesta, Lightning-verkossa sitoumustapahtumiin lisätään **turvamekanismeja**:
 
-- **Timelock**: Jokainen sitoumustapahtuma sisältää aikalukon Alicen varoille. Aikalukko on älykäs sopimusprimitiivi, joka asettaa aikaehtoja, jotka on täytettävä, jotta tapahtuma voidaan lisätä lohkoon. Tämä tarkoittaa, että Alice ei voi palauttaa varojaan ennen kuin tietty määrä lohkoja on kulunut, jos hän julkaisee jonkin sitoumustapahtumista. Tämä aikalukko alkaa soveltua sitoumustapahtuman vahvistamisesta. Sen kesto on yleensä suhteessa kanavan kokoon, mutta sen voi myös määrittää manuaalisesti.
+- **Timelock**: Jokainen sitoumustapahtuma sisältää [aikalukon](https://planb.academy/resources/glossary/timelock) Alicen varoille. Aikalukko on [älykäs sopimusprimitiivi](https://planb.academy/resources/glossary/smart-contract), joka asettaa aikaehtoja, jotka on täytettävä, jotta tapahtuma voidaan lisätä lohkoon. Tämä tarkoittaa, että Alice ei voi palauttaa varojaan ennen kuin tietty määrä lohkoja on kulunut, jos hän julkaisee jonkin sitoumustapahtumista. Tämä aikalukko alkaa soveltua sitoumustapahtuman vahvistamisesta. Sen kesto on yleensä suhteessa kanavan kokoon, mutta sen voi myös määrittää manuaalisesti.
 - **Revocation Key**: Alicen varat voidaan myös välittömästi käyttää Bobin toimesta, jos hänellä on **revocation key**. Tämä avain koostuu salaisuudesta, joka on Alicen hallussa, ja salaisuudesta, joka on Bobin hallussa. Huomaa, että tämä salaisuus on erilainen jokaiselle sitoumustapahtumalle.
-   Näiden kahden yhdistetyn mekanismin ansiosta Bobilla on aikaa havaita Alicen yritys huijata, ja rangaista häntä palauttamalla hänen tulonsa peruutusavaimella, mikä Bobille tarkoittaa kanavan kaikkien varojen takaisin saamista. Uusi sitoumustapahtumamme näyttää nyt tältä:
+   Näiden kahden yhdistetyn mekanismin ansiosta Bobilla on aikaa havaita Alicen yritys huijata, ja rangaista häntä palauttamalla hänen [tulonsa](https://planb.academy/resources/glossary/output) peruutusavaimella, mikä Bobille tarkoittaa kanavan kaikkien varojen takaisin saamista. Uusi sitoumustapahtumamme näyttää nyt tältä:
    ![LNP201](assets/en/025.webp)
 
 Käydään yhdessä läpi tämän mekanismin toiminta.
@@ -358,7 +358,7 @@ Käydään yhdessä läpi tämän mekanismin toiminta.
 Kun Alice ja Bob päivittävät kanavan tilan uudella Lightning-tapahtumalla, he vaihtavat etukäteen omat **salaisuutensa** edelliseen sitoumustapahtumaan (se, joka tulee vanhentuneeksi ja voisi mahdollistaa toisen huijaamisen). Tämä tarkoittaa, että kanavan uudessa tilassa:
 
 - Alicella ja Bobilla on uusi sitoumustapahtuma, joka edustaa varojen nykyistä jakautumista Lightning-tapahtuman jälkeen.
-- Kummallakin on toisen salaisuus edellisestä tapahtumasta, mikä mahdollistaa peruutusavaimen käytön vain, jos toinen yrittää huijata julkaisemalla vanhan tilan tapahtuman Bitcoin-verkon mempooleissa. Todellakin, toisen osapuolen rankaisemiseksi on välttämätöntä hallita molempia salaisuuksia ja toisen sitoumustapahtumaa, joka sisältää allekirjoitetun syötteen. Ilman tätä tapahtumaa peruutusavain yksinään on hyödytön. Ainoa tapa saada tämä tapahtuma on hakea se mempooleista (vahvistusta odottavissa tapahtumissa) tai vahvistetuissa tapahtumissa lohkoketjussa aikaviiveen aikana, mikä todistaa, että toinen osapuoli yrittää huijata, tahallisesti tai ei.
+- Kummallakin on toisen salaisuus edellisestä tapahtumasta, mikä mahdollistaa peruutusavaimen käytön vain, jos toinen yrittää huijata julkaisemalla vanhan tilan tapahtuman Bitcoin-verkon [mempooleissa](https://planb.academy/resources/glossary/mempool). Todellakin, toisen osapuolen rankaisemiseksi on välttämätöntä hallita molempia salaisuuksia ja toisen sitoumustapahtumaa, joka sisältää [allekirjoitetun syötteen](https://planb.academy/resources/glossary/input). Ilman tätä tapahtumaa peruutusavain yksinään on hyödytön. Ainoa tapa saada tämä tapahtuma on hakea se mempooleista (vahvistusta odottavissa tapahtumissa) tai vahvistetuissa tapahtumissa lohkoketjussa aikaviiveen aikana, mikä todistaa, että toinen osapuoli yrittää huijata, tahallisesti tai ei.
 
 Otetaan esimerkki ymmärtääksemme tämän prosessin hyvin:
 
@@ -425,7 +425,7 @@ Otetaan esimerkki:
 
 ![LNP201](assets/en/031.webp)
 
-- Alice ja Bob neuvottelevat yhdessä **sulkemistransaktion** kulut. Nämä kulut lasketaan yleensä Bitcoinin kulupörssin perusteella sulkemishetkellä. On tärkeää huomata, että **se henkilö, joka avasi kanavan** (esimerkissämme Alice) maksaa sulkemiskulut.
+- Alice ja Bob neuvottelevat yhdessä **sulkemistransaktion** [kulut](https://planb.academy/resources/glossary/transaction-fees). Nämä kulut lasketaan yleensä Bitcoinin kulupörssin perusteella sulkemishetkellä. On tärkeää huomata, että **se henkilö, joka avasi kanavan** (esimerkissämme Alice) maksaa sulkemiskulut.
 - He rakentavat uuden **sulkemistransaktion**. Tämä transaktio muistuttaa sitoumustransaktiota, mutta ilman aikalukkoja tai peruutusmekanismeja, koska molemmat osapuolet tekevät yhteistyötä eikä huijaamisen riskiä ole. Tämä yhteistyöllinen sulkemistransaktio on siis erilainen kuin sitoumustransaktiot.
    Esimerkiksi, jos Alice omistaa **100 000 satoshia** ja Bob **30 000 satoshia**, lopetustransaktio lähettää **100 000 satoshia** Alicen osoitteeseen ja **30 000 satoshia** Bobin osoitteeseen ilman aikalukkorajoituksia. Kun molemmat osapuolet ovat allekirjoittaneet tämän transaktion, Alice julkaisee sen. Kun transaktio on vahvistettu Bitcoin-lohkoketjussa, Lightning-kanava suljetaan virallisesti.
    ![LNP201](assets/en/032.webp)
@@ -478,11 +478,11 @@ Kanavan sulkemiseen on kolme tapaa:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Tässä luvussa tutkimme, miten maksut Lightning-verkossa voivat saavuttaa vastaanottajan, vaikka he eivät olisikaan suoraan yhdistettyjä maksukanavalla. Lightning on todellakin **maksukanavien verkosto**, joka mahdollistaa varojen lähettämisen kaukaiselle solmulle muiden osallistujien kanavien kautta. Tulemme löytämään, miten maksut reititetään verkoston läpi, miten likviditeetti liikkuu kanavien välillä, ja miten transaktiomaksut lasketaan.
+Tässä luvussa tutkimme, miten maksut Lightning-verkossa voivat saavuttaa vastaanottajan, vaikka he eivät olisikaan suoraan yhdistettyjä maksukanavalla. Lightning on todellakin **maksukanavien verkosto**, joka mahdollistaa varojen lähettämisen kaukaiselle solmulle muiden osallistujien kanavien kautta. Tulemme löytämään, miten maksut reititetään verkoston läpi, miten [likviditeetti](https://planb.academy/resources/glossary/liquidity-lightning) liikkuu kanavien välillä, ja miten transaktiomaksut lasketaan.
 
 ### Maksukanavien verkosto
 
-Lightning-verkossa transaktio vastaa varojen siirtoa kahden solmun välillä. Kuten aiemmissa luvuissa on nähty, Lightning-transaktioiden suorittamiseksi on tarpeen avata kanava jonkun kanssa. Tämä kanava mahdollistaa lähes rajattoman määrän off-chain-transaktioita ennen sen sulkemista on-chain-saldon takaisin saamiseksi. Tällä menetelmällä on kuitenkin haittana, että toisen henkilön kanssa tarvitaan suora kanava varojen vastaanottamiseksi tai lähettämiseksi, mikä tarkoittaa avaamistransaktiota ja sulkemistransaktiota jokaiselle kanavalle. Jos aion tehdä suuren määrän maksuja tämän henkilön kanssa, kanavan avaaminen ja sulkeminen muuttuu kustannustehokkaaksi. Päinvastoin, jos tarvitsen suorittaa vain muutaman Lightning-transaktion, suoran kanavan avaaminen ei ole edullista, koska se maksaisi minulle 2 on-chain-transaktiota rajalliselle määrälle off-chain-transaktioita. Tämä tilanne saattaisi ilmetä esimerkiksi silloin, kun haluaa maksaa Lightningilla kauppiaalle ilman aikomusta palata.
+Lightning-verkossa transaktio vastaa varojen siirtoa kahden solmun välillä. Kuten aiemmissa luvuissa on nähty, Lightning-transaktioiden suorittamiseksi on tarpeen avata kanava jonkun kanssa. Tämä kanava mahdollistaa lähes rajattoman määrän [off-chain](https://planb.academy/resources/glossary/offchain)-transaktioita ennen sen sulkemista on-chain-saldon takaisin saamiseksi. Tällä menetelmällä on kuitenkin haittana, että toisen henkilön kanssa tarvitaan suora kanava varojen vastaanottamiseksi tai lähettämiseksi, mikä tarkoittaa avaamistransaktiota ja sulkemistransaktiota jokaiselle kanavalle. Jos aion tehdä suuren määrän maksuja tämän henkilön kanssa, kanavan avaaminen ja sulkeminen muuttuu kustannustehokkaaksi. Päinvastoin, jos tarvitsen suorittaa vain muutaman Lightning-transaktion, suoran kanavan avaaminen ei ole edullista, koska se maksaisi minulle 2 on-chain-transaktiota rajalliselle määrälle off-chain-transaktioita. Tämä tilanne saattaisi ilmetä esimerkiksi silloin, kun haluaa maksaa Lightningilla kauppiaalle ilman aikomusta palata.
 
 Tämän ongelman ratkaisemiseksi Lightning-verkko mahdollistaa maksun reitittämisen useiden kanavien ja välisolmujen kautta, mahdollistaen siten transaktion ilman suoraa kanavaa toisen henkilön kanssa.
 
@@ -591,7 +591,7 @@ Tässä luvussa tutkimme maksujen reititystä Lightning-verkossa. Mutta herää 
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Tässä luvussa tutustumme siihen, miten Lightning mahdollistaa maksujen siirtymisen välisolmujen kautta ilman, että niitä tarvitsee luottaa, kiitos **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_) -älykkäiden sopimusten. Nämä älykkäät sopimukset varmistavat, että jokainen välisolmu saa varat kanavastaan vain, jos se välittää maksun lopulliselle vastaanottajalle, muuten maksua ei vahvisteta.
+Tässä luvussa tutustumme siihen, miten Lightning mahdollistaa maksujen siirtymisen välisolmujen kautta ilman, että niitä tarvitsee luottaa, kiitos **HTLC** (_Hashed Time-Locked Contracts_) -älykkäiden sopimusten. Nämä älykkäät sopimukset varmistavat, että jokainen välisolmu saa varat kanavastaan vain, jos se välittää maksun lopulliselle vastaanottajalle, muuten maksua ei vahvisteta.
 
 Maksujen reitityksessä esiin nouseva ongelma on siis tarvittava luottamus välisolmuihin ja välisolmujen keskinäinen luottamus. Havainnollistaaksemme tätä, palatkaamme yksinkertaistettuun Lightning-verkon esimerkkiimme, jossa on 3 solmua ja 2 kanavaa:
 
@@ -617,7 +617,7 @@ HTLC on erityinen sopimus, joka perustuu kahteen periaatteeseen:
 Tässä on, miten tämä prosessi toimii esimerkissämme Alicen, Suzien ja Bobin kanssa:
 
 ![LNP201](assets/en/048.webp)
-**Salaisuuden luominen**: Bob luo satunnaisen salaisuuden, jota merkitään _s_ (esikuva), ja laskee sen hajautusarvon, jota merkitään _r_, käyttäen hajautusfunktiota, jota merkitään _h_. Meillä on:
+**Salaisuuden luominen**: Bob luo satunnaisen salaisuuden, jota merkitään _s_ (esikuva), ja laskee sen hajautusarvon, jota merkitään _r_, käyttäen [hajautusfunktiota](https://planb.academy/resources/glossary/hash-function), jota merkitään _h_. Meillä on:
 
 $$
 r = h(s)
@@ -721,7 +721,7 @@ Vaikka meillä on tämä Lightning-verkon topologia, reitityksen kannalta olenna
 
 ### Verkkokartan Päivitys
 
-Pitääkseen verkkokarttansa ajan tasalla, solmut vaihtavat säännöllisesti viestejä algoritmin kautta, jota kutsutaan "**_juoruiluksi_**". Tämä on hajautettu algoritmi, jota käytetään tiedon leviämiseen epidemian tavoin kaikkiin verkon solmuihin, mikä mahdollistaa kanavien globaalin tilan vaihdon ja synkronoinnin muutamassa viestintäsyklissä. Jokainen solmu välittää tietoa yhdelle tai useammalle satunnaisesti tai ei satunnaisesti valitulle naapurille, jotka puolestaan välittävät tiedon muille naapureille ja niin edelleen, kunnes globaalisti synkronoitu tila saavutetaan.
+Pitääkseen verkkokarttansa ajan tasalla, solmut vaihtavat säännöllisesti viestejä algoritmin kautta, jota kutsutaan "**_[juoruiluksi](https://planb.academy/resources/glossary/gossip)_**". Tämä on hajautettu algoritmi, jota käytetään tiedon leviämiseen epidemian tavoin kaikkiin verkon solmuihin, mikä mahdollistaa kanavien globaalin tilan vaihdon ja synkronoinnin muutamassa viestintäsyklissä. Jokainen solmu välittää tietoa yhdelle tai useammalle satunnaisesti tai ei satunnaisesti valitulle naapurille, jotka puolestaan välittävät tiedon muille naapureille ja niin edelleen, kunnes globaalisti synkronoitu tila saavutetaan.
 
 Kaksi pääviestiä, joita Lightning-solmut vaihtavat, ovat seuraavat:
 
@@ -794,7 +794,7 @@ Seuraavassa luvussa tutkimme erityisesti laskujen toimintaa, lisäksi joitakin m
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
-Tässä luvussa tarkastelemme tarkemmin Lightning **laskujen** toimintaa, eli maksupyyntöjä, jotka vastaanottava solmu lähettää lähettävälle solmulle. Tavoitteena on ymmärtää, miten maksuja suoritetaan ja vastaanotetaan Lightning-verkossa. Keskustelemme myös kahdesta klassisten laskujen vaihtoehdosta: LNURL ja Keysend.
+Tässä luvussa tarkastelemme tarkemmin Lightning **laskujen** toimintaa, eli maksupyyntöjä, jotka vastaanottava solmu lähettää lähettävälle solmulle. Tavoitteena on ymmärtää, miten maksuja suoritetaan ja vastaanotetaan Lightning-verkossa. Keskustelemme myös kahdesta klassisten laskujen vaihtoehdosta: [LNURL](https://planb.academy/resources/glossary/lnurl) ja Keysend.
 ![LNP201](assets/en/068.webp)
 
 ### Lightning-laskujen rakenne
@@ -869,7 +869,7 @@ Laskun sisältö käsittää useita maksun käsittelyyn tarvittavia tietoja:
 - **Reititysvihjeet**: Vastaanottajan antama lisätieto, joka auttaa lähettäjää optimoimaan maksureitin.
 - **Allekirjoitus**: Takaa laskun eheyden vahvistamalla kaikki tiedot.
 
-Laskut koodataan sitten **bech32**-muotoon, samaan tapaan kuin Bitcoin SegWit -osoitteet (muoto alkaa `bc1`).
+Laskut koodataan sitten **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)**-muotoon, samaan tapaan kuin Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) -osoitteet (muoto alkaa `bc1`).
 
 ### LNURL Kotiutus
 
@@ -911,8 +911,8 @@ Tässä luvussa tutkimme strategioita tehokkaaseen likviditeetin hallintaan Ligh
 
 Lightning-verkossa on kolme pääkäyttäjäprofiilia, joilla kullakin on erityiset likviditeettitarpeet:
 
-- **Maksaja**: Tämä on henkilö, joka suorittaa maksuja. He tarvitsevat lähtevää likviditeettiä voidakseen siirtää varoja muille käyttäjille. Esimerkiksi tämä voisi olla kuluttaja.
-- **Myyjä (tai Saaja)**: Tämä on henkilö, joka vastaanottaa maksuja. He tarvitsevat saapuvaa likviditeettiä voidakseen hyväksyä maksuja omaan solmuunsa. Esimerkiksi tämä voisi olla yritys tai verkkokauppa.
+- **Maksaja**: Tämä on henkilö, joka suorittaa maksuja. He tarvitsevat [lähtevää likviditeettiä](https://planb.academy/resources/glossary/outbound-capacity) voidakseen siirtää varoja muille käyttäjille. Esimerkiksi tämä voisi olla kuluttaja.
+- **Myyjä (tai Saaja)**: Tämä on henkilö, joka vastaanottaa maksuja. He tarvitsevat [saapuvaa likviditeettiä](https://planb.academy/resources/glossary/inbound-capacity) voidakseen hyväksyä maksuja omaan solmuunsa. Esimerkiksi tämä voisi olla yritys tai verkkokauppa.
 - **Reititin**: Välisolmu, joka on usein erikoistunut maksujen reitittämiseen, ja jonka on optimoitava likviditeettinsä kussakin kanavassa voidakseen reitittää mahdollisimman monta maksua ja ansaita palkkioita.
 
 Nämä profiilit eivät tietenkään ole kiinteitä; käyttäjä voi vaihtaa maksajan ja saajan roolien välillä riippuen transaktioista. Esimerkiksi Bob voisi vastaanottaa palkkansa Lightning-verkossa työnantajaltaan, mikä asettaisi hänet "myyjän" asemaan tarviten saapuvaa likviditeettiä. Myöhemmin, jos hän haluaa käyttää palkkaansa ruoan ostamiseen, hänestä tulee "maksaja" ja hänen on silloin oltava lähtevää likviditeettiä.

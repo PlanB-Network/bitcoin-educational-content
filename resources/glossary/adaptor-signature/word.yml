@@ -7,132 +7,132 @@ proofreading:
     urgency: 1
     contributor_names:
       - bitcoinJungle
-    reward: 0.42
+    reward: 0.44
   - language: fr
     last_contribution_date: 2024-07-26
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.42
+    reward: 0.44
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.87
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.87
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.79
+    reward: 0.82
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.87
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 2.03
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 0.79
+    reward: 0.82
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 2.03
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 2.03
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.58
+    reward: 1.64
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.58
+    reward: 1.64
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.84
+    reward: 0.87
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.21
+    reward: 1.26
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.58
+    reward: 1.64
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.58
+    reward: 1.64
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.95
+    reward: 2.03

@@ -1,9 +1,9 @@
-question: U kom programskom jeziku je Bitcoin core napisan?
+question: U kom programskom jeziku je napisan Bitcoin Core?
 answer: C++
 wrong_answers:
   - Go
   - JavaScript
   - Rust
 explanation: |
-  Bitcoin core je napisan u C++ i održava ga velika zajednica otvorenog koda.
+  Bitcoin Core je napisan u C++ i održava ga velika zajednica otvorenog koda.
 reviewed: true

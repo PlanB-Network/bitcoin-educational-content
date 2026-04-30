@@ -1,0 +1,10 @@
+question: Hvem opprettet den første Bitcoin-blandingstjenesten, kalt BitLaundry, i september 2010?
+answer: Peter Vessenes
+wrong_answers:
+  - Roman Sterlingov
+  - Benjamin Reeves
+  - Gregory Maxwell
+explanation: |
+ Peter Venesses var en amerikansk gründer med en grad i kryptografi som oppdaget Bitcoin på tidspunktet for slashdotting. Han utviklet tjenesten for å gjøre
+ gjøre det vanskeligere å spore midler. I mai 2011 solgte han tjenesten til aktivisten Mike Gogulski, da han ante at det ville oppstå juridiske komplikasjoner.
+reviewed: true

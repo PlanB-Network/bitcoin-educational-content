@@ -6,4 +6,4 @@ wrong_answers:
   - Kelompok bilangan rasional atau elemen yang dijelaskan oleh bilangan rasional
 explanation: |
   Kriptografi menggunakan kelompok berbasis bilangan bulat, atau elemen yang dijelaskan oleh bilangan bulat seperti titik pada kurva eliptik, untuk operasi enkripsi dan penandatanganan.
-reviewed: false
+reviewed: true

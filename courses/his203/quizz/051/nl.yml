@@ -1,0 +1,10 @@
+question: Wat was volgens de studie van Nicolas Christin, gepubliceerd in augustus 2012, het dagelijkse verkoopvolume in mei 2012?
+answer: 15.000 BTC of $75.000
+wrong_answers:
+  - 600 BTC of $ 3000
+  - 3.000 BTC of $ 15.000
+  - 75.000 BTC of $ 375.000
+explanation: |
+ Het dagelijkse verkoopvolume, dat in maart 8.000 BTC bedroeg, bereikte 15.000 BTC in mei, wat overeenkomt met ongeveer 75.000 dollar op dat moment. Het aandeel van de activiteit in de totale
+ Bitcoin ketenactiviteit schommelde in 2012 tussen 10% en 20%. Begin november noemde Ross het succes van het platform een "explosieve groei".
+reviewed: true

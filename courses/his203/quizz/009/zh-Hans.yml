@@ -1,0 +1,10 @@
+question: 马克-卡佩莱斯在接管 Mt.
+answer: KalyHost
+wrong_answers:
+  - TibanneHost
+  - WeHostYou
+  - PlanetHost
+explanation: |
+ 这只是他作为独立开发者提供的众多服务之一。11 月，马克-卡佩莱斯（Mark Karpelès）开始使用 KalyHost 接受比特币支付。
+ 罗斯-乌尔布里切特（Ross Ulbricht）也使用 KalyHost 服务托管 Silkroadmarket.org 网页，该网页重定向到丝绸之路。
+reviewed: true

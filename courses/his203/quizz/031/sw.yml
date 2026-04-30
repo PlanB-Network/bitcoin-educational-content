@@ -1,0 +1,9 @@
+question: Ni ushirika gani wa mining uliozidi kwa muda kiwango cha hashi cha mtandao cha 50% katika msimu wa joto wa 2011?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Bwawa la Slush
+  - GHash.io
+explanation: |
+ Kulingana na OrganOfCorti, kiwango cha hash kilichopimwa cha Deepbit kilikuwa 52.86% mnamo Agosti 5.
+reviewed: true

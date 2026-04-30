@@ -94,7 +94,7 @@ Even if the outside observer manages to identify the paterne of the Stonewall tr
 ## How do I make a Stonewall transaction on Sparrow?
 
 
-Originally developed by the Samurai Wallet team, Stonewall transactions were taken over by the Ashigaru application, a fork from the original portfolio created following the arrest of the Samurai developers, and also on Sparrow Wallet.
+Originally developed by the Samurai Wallet team, Stonewall transactions were taken over by the Ashigaru application, a fork from the original wallet created following the arrest of the Samurai developers, and also on Sparrow Wallet.
 
 
 You will need to install Sparrow and create a :
@@ -117,7 +117,7 @@ Then enter the transaction details: the recipient's address, a label, the amount
 ![Image](assets/fr/07.webp)
 
 
-Before confirming, this is where you can select the Stonewall structure. At the bottom of the interface, replace `Efficiency` with `Privacy`. If this option does not appear, this means that your portfolio does not have a sufficient number of UTXOs to build this type of transaction.
+Before confirming, this is where you can select the Stonewall structure. At the bottom of the interface, replace `Efficiency` with `Privacy`. If this option does not appear, this means that your wallet does not have a sufficient number of UTXOs to build this type of transaction.
 
 
 ![Image](assets/fr/08.webp)
@@ -138,7 +138,7 @@ You can then check your transaction details one last time, and click on `Finaliz
 ![Image](assets/fr/10.webp)
 
 
-Then sign the transaction according to the method specific to your portfolio, and click on `Broadcast Transaction` to broadcast it on the Bitcoin network, awaiting confirmation.
+Then sign the transaction according to the method specific to your wallet, and click on `Broadcast Transaction` to broadcast it on the Bitcoin network, awaiting confirmation.
 
 
 ![Image](assets/fr/11.webp)

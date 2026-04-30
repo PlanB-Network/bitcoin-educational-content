@@ -114,7 +114,7 @@ Spremni da zaronite u složen i fascinantan svet RGB? Hajde da krenemo!
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
 
-RGB je protokol dizajniran da primeni i sprovede digitalna prava (u obliku ugovora i sredstava) na skalabilan i poverljiv način, zasnovan na pravilima konsenzusa i operacijama Bitcoin Blockchain. Cilj ovog prvog poglavlja je da predstavi osnovne pojmove i terminologiju oko RGB protokola, posebno ističući njegove bliske veze sa osnovnim konceptima distribuiranog računarstva kao što su Client-side Validation i Jednokratni Pečati.
+RGB je protokol dizajniran da primeni i sprovede digitalna prava (u obliku ugovora i sredstava) na skalabilan i poverljiv način, zasnovan na [pravilima konsenzusa](https://planb.academy/resources/glossary/consensus-rules) i operacijama Bitcoin [Blockchain](https://planb.academy/resources/glossary/blockchain). Cilj ovog prvog poglavlja je da predstavi osnovne pojmove i terminologiju oko RGB protokola, posebno ističući njegove bliske veze sa osnovnim konceptima distribuiranog računarstva kao što su Client-side Validation i Jednokratni Pečati.
 
 
 U ovom poglavlju istražujemo osnove **distribuiranih konsenzus sistema** i vidimo kako se RGB uklapa u ovu porodicu tehnologija. Takođe ćemo predstaviti glavne principe koji nam pomažu da razumemo zašto RGB teži da bude proširiv i nezavisan od sopstvenog konsenzus mehanizma Bitcoin, dok se oslanja na njega kada je to potrebno.
@@ -123,14 +123,14 @@ U ovom poglavlju istražujemo osnove **distribuiranih konsenzus sistema** i vidi
 ### Uvod
 
 
-Distribuirano računarstvo, specifična grana računarstva, proučava protokole korišćene za distribuciju i obradu informacija na mreži čvorova. Zajedno, ovi čvorovi i pravila protokola čine ono što je poznato kao distribuirani sistem. Među osnovnim svojstvima koja karakterišu takav sistem su :
+Distribuirano računarstvo, specifična grana računarstva, proučava protokole korišćene za distribuciju i obradu informacija na mreži [čvorova](https://planb.academy/resources/glossary/node). Zajedno, ovi čvorovi i pravila protokola čine ono što je poznato kao distribuirani sistem. Među osnovnim svojstvima koja karakterišu takav sistem su :
 
 
 
 
 - **sposobnost nezavisne verifikacije i validacije** određenih podataka od strane svakog čvora;
 - Mogućnost da čvorovi konstruiraju (u zavisnosti od protokola) kompletan ili delimičan prikaz informacija. Ovi prikazi su **stanja** distribuiranog sistema;
-- Hronološki redosled operacija, tako da su podaci pouzdano vremenski obeleženi i postoji konsenzus o redosledu događaja (redosled stanja).
+- Hronološki redosled operacija, tako da su podaci pouzdano [vremenski obeleženi](https://planb.academy/resources/glossary/timestamp) i postoji konsenzus o redosledu događaja (redosled stanja).
 
 
 Posebno, pojam **konsenzusa** u distribuiranom sistemu pokriva dva aspekta:
@@ -139,16 +139,16 @@ Posebno, pojam **konsenzusa** u distribuiranom sistemu pokriva dva aspekta:
 
 
 - Prepoznavanje **validnosti** promena stanja (prema pravilima protokola);
-- **sporazum o redosledu** ovih promena stanja, što onemogućava prepravljanje ili poništavanje validiranih operacija a posteriori (ovo je takođe poznato u Bitcoin kao "zaštita od dvostrukog trošenja").
+- **sporazum o redosledu** ovih promena stanja, što onemogućava prepravljanje ili poništavanje validiranih operacija a posteriori (ovo je takođe poznato u Bitcoin kao "zaštita od [dvostrukog trošenja](https://planb.academy/resources/glossary/double-spending-attack)").
 
 
-Prva funkcionalna, dozvola-slobodna implementacija mehanizma distribuiranog konsenzusa predstavljena je od strane Satoshi Nakamoto sa Bitcoin, zahvaljujući kombinovanoj upotrebi Blockchain strukture podataka i Proof-of-Work (PoW) algoritma. U ovom sistemu, kredibilitet istorije blokova zavisi od računarske snage koju mu posvećuju čvorovi (rudari). Bitcoin je stoga glavni i istorijski primer sistema distribuiranog konsenzusa otvorenog za sve (*permissionless*).
+Prva funkcionalna, dozvola-slobodna implementacija mehanizma distribuiranog konsenzusa predstavljena je od strane Satoshi Nakamoto sa Bitcoin, zahvaljujući kombinovanoj upotrebi Blockchain strukture podataka i [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) algoritma. U ovom sistemu, kredibilitet istorije blokova zavisi od računarske snage koju mu posvećuju čvorovi ([rudari](https://planb.academy/resources/glossary/miner)). Bitcoin je stoga glavni i istorijski primer sistema distribuiranog konsenzusa otvorenog za sve (*permissionless*).
 
 
-U svetu Blockchain i distribuiranog računarstva, možemo razlikovati dva fundamentalna paradigme: ***Blockchain*** u tradicionalnom smislu, i ***state channels***, čiji je najbolji primer u proizvodnji Lightning Network. Blockchain je definisan kao registar hronološki uređenih događaja, repliciran konsenzusom unutar otvorene, mreže bez dozvola. State channels, s druge strane, su peer-to-peer kanali koji omogućavaju dvema (ili više) učesnicima da održavaju ažurirano stanje off-chain, koristeći Blockchain samo prilikom otvaranja i zatvaranja ovih kanala.
+U svetu Blockchain i distribuiranog računarstva, možemo razlikovati dva fundamentalna paradigme: ***Blockchain*** u tradicionalnom smislu, i ***state channels***, čiji je najbolji primer u proizvodnji [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Blockchain je definisan kao registar hronološki uređenih događaja, repliciran konsenzusom unutar otvorene, mreže bez dozvola. State channels, s druge strane, su peer-to-peer kanali koji omogućavaju dvema (ili više) učesnicima da održavaju ažurirano stanje off-chain, koristeći Blockchain samo prilikom otvaranja i zatvaranja ovih kanala.
 
 
-U kontekstu Bitcoin, sigurno ste upoznati sa principima Mining, decentralizacijom i finalnošću transakcija na Blockchain, kao i kako funkcionišu platni kanali. Sa RGB, uvodimo novu paradigmu zvanu **Client-side Validation**, koja, za razliku od Blockchain ili Lightning, podrazumeva lokalno (na strani klijenta) čuvanje i validaciju prelaza stanja Smart contract. Ovo se takođe razlikuje od drugih "DeFi" tehnika (_rollups_, _plasma_, _ARK_, itd.), jer Client-side Validation se oslanja na Blockchain da spreči Double-spending i da ima sistem vremenskog pečatiranja, dok zadržava registar stanja i prelaza off-chain, samo sa uključenim učesnicima.
+U kontekstu Bitcoin, sigurno ste upoznati sa principima Mining, decentralizacijom i finalnošću transakcija na Blockchain, kao i kako funkcionišu [platni kanali](https://planb.academy/resources/glossary/payment-channel). Sa RGB, uvodimo novu paradigmu zvanu **Client-side Validation**, koja, za razliku od Blockchain ili Lightning, podrazumeva lokalno (na strani klijenta) čuvanje i validaciju prelaza stanja [Smart contract](https://planb.academy/resources/glossary/smart-contract). Ovo se takođe razlikuje od drugih "DeFi" tehnika (_rollups_, _plasma_, _ARK_, itd.), jer Client-side Validation se oslanja na Blockchain da spreči Double-spending i da ima sistem vremenskog pečatiranja, dok zadržava registar stanja i prelaza off-chain, samo sa uključenim učesnicima.
 
 
 ![RGB-Bitcoin](assets/en/003.webp)
@@ -257,7 +257,7 @@ Blockchain (u ovom slučaju, Bitcoin) služi prvenstveno kao mehanizam za _vreme
 Sharding je koncept koji je nastao u distribuiranim bazama podataka (npr. MySQL za društvene mreže kao što su Facebook ili Twitter). Da bi se rešio problem obima podataka i latencija sinhronizacije, baza podataka se segmentira u _shardove_ (SAD, Evropa, Azija, itd.). Svaki segment je lokalno konzistentan i samo delimično sinhronizovan sa ostalima.
 
 
-Za pametne ugovore tipa RGB, mi Shard prema samim ugovorima. Svaki Contract je nezavisni _shard_. Na primer, ako posedujete samo USDT tokene, ne morate čuvati ili validirati celu istoriju drugog tokena kao što je USDC. Na Bitcoin, Blockchain ne radi _sharding_: imate globalni skup UTXO-a. Sa Client-side Validation, svaki učesnik zadržava samo Contract podatke koje drži ili koristi.
+Za pametne ugovore tipa RGB, mi Shard prema samim ugovorima. Svaki Contract je nezavisni _shard_. Na primer, ako posedujete samo USDT tokene, ne morate čuvati ili validirati celu istoriju drugog tokena kao što je USDC. Na Bitcoin, Blockchain ne radi _sharding_: imate globalni skup [UTXO](https://planb.academy/resources/glossary/utxo)-a. Sa Client-side Validation, svaki učesnik zadržava samo Contract podatke koje drži ili koristi.
 
 
 Stoga možemo zamisliti ekosistem na sledeći način:
@@ -334,7 +334,7 @@ Client-side Validation se zasniva na suprotnoj ideji: umesto da cela mreža mora
 Istovremeno, tako da ostatak mreže (ili preciznije, osnovni Layer, kao što je Bitcoin) može zaključati konačno stanje bez uvida u detalje ovih podataka, Client-side Validation se oslanja na pojam ***Commitment***.
 
 
-*Commitment* je kriptografski Commitment, obično _hash_ (na primer SHA-256) umetnut u Bitcoin transakciju, koji dokazuje da su privatni podaci uključeni, bez otkrivanja tih podataka.
+*Commitment* je kriptografski Commitment, obično _hash_ (na primer [SHA-256](https://planb.academy/resources/glossary/sha256)) umetnut u Bitcoin transakciju, koji dokazuje da su privatni podaci uključeni, bez otkrivanja tih podataka.
 
 
 Zahvaljujući ovim _obavezama_, možemo dokazati:
@@ -414,7 +414,7 @@ Kada prihvatate sredstvo kao što je valuta, dve garancije su ključne:
 Za fizičku imovinu, kao što je novčanica, fizičko prisustvo je dovoljno da se dokaže da nije duplirana. Međutim, u digitalnom svetu, gde su sredstva isključivo informativna, ova verifikacija je složenija, jer se informacije lako mogu umnožiti i duplirati.
 
 
-Kao što smo ranije videli, otkrivanje istorije promena stanja od strane pošiljaoca omogućava nam da osiguramo autentičnost RGB tokena. Imajući pristup svim transakcijama od Genesis transakcije, možemo potvrditi autentičnost tokena. Ovaj princip je sličan onom kod Bitcoin, gde se istorija novčića može pratiti unazad do originalnog Coinbase Transaction kako bi se verifikovala njihova validnost. Međutim, za razliku od Bitcoin, ova istorija promena stanja u RGB je privatna i čuva se na strani klijenta.
+Kao što smo ranije videli, otkrivanje istorije promena stanja od strane pošiljaoca omogućava nam da osiguramo autentičnost RGB tokena. Imajući pristup svim transakcijama od Genesis transakcije, možemo potvrditi autentičnost tokena. Ovaj princip je sličan onom kod Bitcoin, gde se istorija novčića može pratiti unazad do originalnog [Coinbase Transaction](https://planb.academy/resources/glossary/coinbase-transaction) kako bi se verifikovala njihova validnost. Međutim, za razliku od Bitcoin, ova istorija promena stanja u RGB je privatna i čuva se na strani klijenta.
 
 
 Da bismo sprečili Double-spending od RGB tokena, koristimo mehanizam nazvan "**Single-Use Seal**". Ovaj sistem osigurava da svaki token, kada se jednom iskoristi, ne može biti prevarno ponovo upotrebljen.
@@ -456,7 +456,7 @@ Sledeće poređenje pomaže da se razume ovaj princip:
 
 
 
-- **Kriptografski Commitment (Hash)**: Sa funkcijom Hash, možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
+- **Kriptografski Commitment (Hash)**: Sa [funkcijom Hash](https://planb.academy/resources/glossary/hash-function), možete se obavezati na deo podataka (broj) objavljivanjem njegovog Hash. Podaci ostaju tajni dok ne otkrijete pre-image, ali možete dokazati da ste ih unapred znali;
 - **Timestamp (Blockchain)**: Umetanjem ovog Hash u Blockchain, takođe dokazujemo da smo to znali u tačnom trenutku (onog uključivanja u blok);
 - **Single-Use Seal**: Sa pečatima za jednokratnu upotrebu, idemo korak dalje čineći Commitment jedinstvenim. Sa jednim Hash, možete stvoriti nekoliko kontradiktornih obaveza paralelno (problem doktora koji objavljuje "*To je dečak*" porodici i "*To je devojčica*" u svom ličnom dnevniku). Single-Use Seal eliminiše ovu mogućnost povezivanjem Commitment sa medijumom za dokazivanje objavljivanja, kao što je Bitcoin Blockchain, tako da trošak UTXO definitivno zapečati Commitment. Jednom potrošen, isti UTXO ne može biti ponovo potrošen da zameni Commitment.
 
@@ -584,7 +584,7 @@ Imajte na umu da su ovi softverski blokovi agnostički prema Bitcoin; u teoriji,
 #### Ka širem korišćenju jednokratnih pečata
 
 
-Peter Todd je takođe kreirao protokol _Open Timestamps_, a koncept Single-Use Seal je prirodno proširenje ovih ideja. Pored RGB, mogu se zamisliti i drugi slučajevi upotrebe, kao što je konstrukcija _sidechains_ bez pribegavanja _merge mining_-u ili predlozima vezanim za drivechain kao što je BIP300. Bilo koji sistem koji zahteva jedan Commitment može, u principu, iskoristiti ovu kriptografsku primitivu. Danas je RGB prva velika implementacija u punom obimu.
+Peter Todd je takođe kreirao protokol _Open Timestamps_, a koncept Single-Use Seal je prirodno proširenje ovih ideja. Pored RGB, mogu se zamisliti i drugi slučajevi upotrebe, kao što je konstrukcija _[sidechains](https://planb.academy/resources/glossary/sidechain)_ bez pribegavanja _merge mining_-u ili predlozima vezanim za drivechain kao što je BIP300. Bilo koji sistem koji zahteva jedan Commitment može, u principu, iskoristiti ovu kriptografsku primitivu. Danas je RGB prva velika implementacija u punom obimu.
 
 
 #### Problemi dostupnosti podataka
@@ -596,7 +596,7 @@ Pošto u Client-side Validation, svaki korisnik čuva svoj deo istorije, dostupn
 #### Sharding i izolacija Contract
 
 
-Svaki Contract predstavlja izolovani _shard_: USDT i USDC, na primer, ne moraju deliti svoje istorije. Atomski swapovi su i dalje mogući, ali to ne uključuje spajanje njihovih registara. Sve se obavlja kriptografskim Commitment, bez otkrivanja celokupnog istorijskog grafa svakom učesniku.
+Svaki Contract predstavlja izolovani _shard_: USDT i USDC, na primer, ne moraju deliti svoje istorije. [Atomski swapovi](https://planb.academy/resources/glossary/atomic-swap) su i dalje mogući, ali to ne uključuje spajanje njihovih registara. Sve se obavlja kriptografskim Commitment, bez otkrivanja celokupnog istorijskog grafa svakom učesniku.
 
 
 ### Zaključak
@@ -620,13 +620,13 @@ Pre nego što se upustite u tehničke detalje drugog poglavlja, slobodno ponovo 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
 
-U ovom poglavlju ćemo pogledati implementaciju Client-side Validation i Jednokratnih Pečata unutar Bitcoin Blockchain. Predstavićemo glavne principe RGB-ovog **Commitment Layer** (Layer 1), sa posebnim fokusom na **TxO2** šemu, koju RGB koristi za definisanje i zatvaranje Seal u Bitcoin transakciji. Zatim ćemo diskutovati o dve važne tačke koje još nisu detaljno pokrivene:
+U ovom poglavlju ćemo pogledati implementaciju [Client-side Validation](https://planb.academy/resources/glossary/client-side-validation) i [Jednokratnih Pečata](https://planb.academy/resources/glossary/single-use-seal) unutar Bitcoin Blockchain. Predstavićemo glavne principe RGB-ovog **Commitment Layer** (Layer 1), sa posebnim fokusom na **TxO2** šemu, koju RGB koristi za definisanje i zatvaranje Seal u Bitcoin transakciji. Zatim ćemo diskutovati o dve važne tačke koje još nisu detaljno pokrivene:
 
 
 
 
 - _determinističke Bitcoin obaveze_;
-- Višestruke protokolarne obaveze.
+- [Višestruke protokolarne obaveze](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 
 To je kombinacija ovih koncepata koja nam omogućava da superponiramo nekoliko sistema ili ugovora na jedan UTXO i stoga jedan Blockchain.
@@ -646,7 +646,7 @@ Da bismo razumeli logiku, prisetimo se osnovnog principa: da bismo zatvorili _je
 
 
 
-- Koristite javni ključ ili **Address**
+- Koristite [javni ključ](https://planb.academy/resources/glossary/public-key) ili **Address**
 
 
 Možemo odlučiti da je određeni javni ključ ili Address _jednokratni pečat_. Čim se ovaj ključ ili Address pojavi On-Chain u transakciji, to znači da je Seal zatvoren sa određenom porukom.
@@ -654,10 +654,10 @@ Možemo odlučiti da je određeni javni ključ ili Address _jednokratni pečat_.
 
 
 
-- Koristite izlaz transakcije **Bitcoin**
+- Koristite [izlaz](https://planb.academy/resources/glossary/output) transakcije **Bitcoin**
 
 
-To znači da je _jednokratni pečat_ definisan kao precizan _outpoint_ (par txid + izlazni broj). Čim je ovaj _outpoint_ potrošen, Seal se zatvara.
+To znači da je _jednokratni pečat_ definisan kao precizan _[outpoint](https://planb.academy/resources/glossary/outpoint)_ (par [txid](https://planb.academy/resources/glossary/txid-transaction-identifier) + izlazni broj). Čim je ovaj _outpoint_ potrošen, Seal se zatvara.
 
 
 Dok radeći na RGB, identifikovali smo najmanje 4 različita načina za implementaciju ovih zaptivki na Bitcoin:
@@ -667,7 +667,7 @@ Dok radeći na RGB, identifikovali smo najmanje 4 različita načina za implemen
 
 - Definiši Seal putem javnog ključa i zatvori ga u _output_ ;
 - Definiši Seal sa _outpoint_ i zatvori ga sa _output_ ;
-- Definiši Seal putem vrednosti javnog ključa i zatvori ga u _input_ ;
+- Definiši Seal putem vrednosti javnog ključa i zatvori ga u _[input](https://planb.academy/resources/glossary/input)_ ;
 - Definiši Seal putem _outpoint_-a, i zatvori ga u _input_-u.
 
 
@@ -675,7 +675,7 @@ Dok radeći na RGB, identifikovali smo najmanje 4 različita načina za implemen
 | ----------- | ------------------------- | ------------------------- | -------------------------------------------------------------- | --------------------------- | -------------------------------- |
 | PkO         | Public Key Value          | Transaction Output        | P2(W)PKH                                                       | None at the moment          | Keytweak, taptweak, opret       |
 | TxO2        | Transaction Output        | Transaction Output        | Requires deterministic commitments on Bitcoin                  | RGBv1 (universal)           | Keytweak, tapret, opret         |
-| PkI         | Public Key Value          | Transaction Input         | Taproot only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
+| PkI         | Public Key Value          | Transaction Input         | [Taproot](https://planb.academy/resources/glossary/taproot) only & not compatible with legacy wallets              | Bitcoin-based identities    | Sigtweak, witweak               |
 | TxO1        | Transaction Output        | Transaction Input         | Taproot only & not compatible with legacy wallets              | None at the moment          | Sigtweak, witweak               |
 
 
@@ -703,7 +703,7 @@ Kao podsetnik, definisanje _jednokratnog pečata_ ne zahteva nužno objavljivanj
 ![RGB-Bitcoin](assets/en/024.webp)
 
 
-Na dan kada želi da zatvori Seal (da signalizira događaj, ili da Anchor pošalje određenu poruku), troši ovaj UTXO u novoj transakciji (ova transakcija se često naziva "_witness transaction_" (nije povezano sa _segwit_, to je samo termin koji koristimo). Ova nova transakcija će sadržati _commitment_ na poruku.
+Na dan kada želi da zatvori Seal (da signalizira događaj, ili da Anchor pošalje određenu poruku), troši ovaj UTXO u novoj transakciji (ova transakcija se često naziva "_[witness transaction](https://planb.academy/resources/glossary/witness-transaction)_" (nije povezano sa _segwit_, to je samo termin koji koristimo). Ova nova transakcija će sadržati _commitment_ na poruku.
 
 
 ![RGB-Bitcoin](assets/en/025.webp)
@@ -803,7 +803,7 @@ U prethodnom delu smo ukratko pomenuli kako se model Client-side Validation mož
 Kada nekome date dokaz da je određena poruka ugrađena u transakciju, morate biti u mogućnosti da garantujete da ne postoji drugi oblik Commitment (druga, skrivena poruka) u istoj transakciji koji vam nije otkriven. Da bi Client-side Validation ostao robustan, potreban vam je **deterministički** mehanizam za postavljanje jedne _obaveze_ u transakciju koja zatvara _jednokratni pečat_.
 
 
-Transakcija _svedoka_ troši čuveni UTXO (ili _definiciju pečata_) i ova potrošnja odgovara zatvaranju Seal. Tehnički gledano, znamo da se svaki outpoint može potrošiti samo jednom. Ovo je upravo ono što podržava otpornost Bitcoin na dvostruku potrošnju. Ali transakcija potrošnje može imati nekoliko _ulaza_, nekoliko _izlaza_, ili biti sastavljena na složen način (coinjoins, Lightning kanali, itd.). Stoga moramo jasno definisati gde da umetnemo _obavezu_ u ovu strukturu, nedvosmisleno i ujednačeno.
+Transakcija _svedoka_ troši čuveni UTXO (ili _definiciju pečata_) i ova potrošnja odgovara zatvaranju Seal. Tehnički gledano, znamo da se svaki outpoint može potrošiti samo jednom. Ovo je upravo ono što podržava otpornost Bitcoin na dvostruku potrošnju. Ali transakcija potrošnje može imati nekoliko _ulaza_, nekoliko _izlaza_, ili biti sastavljena na složen način ([coinjoins](https://planb.academy/resources/glossary/coinjoin), Lightning kanali, itd.). Stoga moramo jasno definisati gde da umetnemo _obavezu_ u ovu strukturu, nedvosmisleno i ujednačeno.
 
 
 Koji god metod (PkO, TxO2, itd.), _obaveza_ se može umetnuti :
@@ -812,7 +812,7 @@ Koji god metod (PkO, TxO2, itd.), _obaveza_ se može umetnuti :
 
 
 - U unosu putem :
-- **Sigtweak** (modifikuje `r` komponentu ECDSA potpisa, slično principu "Sign-to-Contract");
+- **Sigtweak** (modifikuje `r` komponentu [ECDSA](https://planb.academy/resources/glossary/ecdsa) [potpisa](https://planb.academy/resources/glossary/digital-signature), slično principu "Sign-to-Contract");
 - **Witweak** (podatak _segregated witness_ transakcije je izmenjen).
 - U **Izlazu** putem :
 - **Keytweak** (javni ključ primaoca je "prilagođen" sa porukom);
@@ -832,7 +832,7 @@ Evo detalja o svakoj metodi:
 ***Sig prilagodba (sign-to-Contract) :***
 
 
-Raniji plan je uključivao iskorišćavanje nasumičnog dela potpisa (ECDSA ili Schnorr) za ugradnju _commitment_-a: ovo je tehnika poznata kao "**Sign-to-Contract**". Zamenjujete nasumično generisani Nonce sa Hash koji sadrži podatke. Na ovaj način, potpis implicitno otkriva vaš Commitment, bez dodatnog prostora u transakciji. Ovaj pristup ima nekoliko prednosti:
+Raniji plan je uključivao iskorišćavanje nasumičnog dela potpisa (ECDSA ili [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) za ugradnju _commitment_-a: ovo je tehnika poznata kao "**Sign-to-Contract**". Zamenjujete nasumično generisani [Nonce](https://planb.academy/resources/glossary/nonce) sa Hash koji sadrži podatke. Na ovaj način, potpis implicitno otkriva vaš Commitment, bez dodatnog prostora u transakciji. Ovaj pristup ima nekoliko prednosti:
 
 
 
@@ -846,17 +846,17 @@ Međutim, pojavila su se 2 glavna nedostatka:
 
 
 
-- Multisig pre Taproot: kada imate nekoliko potpisnika, morate odlučiti koji potpis će nositi _obavezu_. Potpisi se mogu različito redoslediti, a ako potpisnik odbije, gubite kontrolu nad ishodom _obaveze_;
+- [Multisig](https://planb.academy/resources/glossary/multisig) pre Taproot: kada imate nekoliko potpisnika, morate odlučiti koji potpis će nositi _obavezu_. Potpisi se mogu različito redoslediti, a ako potpisnik odbije, gubite kontrolu nad ishodom _obaveze_;
 - MuSig i deljeni Nonce: sa Schnorr Multisig (*MuSig*), generisanje Nonce je algoritam sa više učesnika, i postaje praktično nemoguće pojedinačno prilagoditi Nonce.
 
 
-U praksi, **sig tweak** takođe nije baš kompatibilan sa postojećim hardverom (hardverski novčanici) i formatima (Lightning, itd.). Dakle, ova sjajna ideja je Hard da se sprovede u praksi.
+U praksi, **sig tweak** takođe nije baš kompatibilan sa postojećim hardverom ([hardverski novčanici](https://planb.academy/resources/glossary/hardware-wallet)) i formatima (Lightning, itd.). Dakle, ova sjajna ideja je Hard da se sprovede u praksi.
 
 
 ***Ključna izmena (pay-to-Contract) :***
 
 
-**ključna izmena** preuzima istorijski koncept _plaćanja po ugovoru_. Uzimamo javni ključ `X` i menjamo ga dodavanjem vrednosti `H(poruka)`. Konkretno, ako je `X = x * G` i `h = H(poruka)`, tada će novi ključ biti `X' = X + h * G`. Ovaj izmenjeni ključ skriva Commitment u `poruka`. Vlasnik originalnog privatnog ključa može, dodavanjem `h` svom privatnom ključu `x`, dokazati da ima ključ za trošenje izlaza. U teoriji, ovo je elegantno, jer :
+**ključna izmena** preuzima istorijski koncept _plaćanja po ugovoru_. Uzimamo javni ključ `X` i menjamo ga dodavanjem vrednosti `H(poruka)`. Konkretno, ako je `X = x * G` i `h = H(poruka)`, tada će novi ključ biti `X' = X + h * G`. Ovaj izmenjeni ključ skriva Commitment u `poruka`. Vlasnik originalnog [privatnog ključa](https://planb.academy/resources/glossary/private-key) može, dodavanjem `h` svom privatnom ključu `x`, dokazati da ima ključ za trošenje izlaza. U teoriji, ovo je elegantno, jer :
 
 
 
@@ -872,7 +872,7 @@ U praksi, međutim, nailazimo na sledeće poteškoće:
 
 - Novčanici više ne prepoznaju standardni javni ključ, jer je on "podešen", tako da ne mogu lako povezati UTXO sa vašim uobičajenim ključem;
 - Hardverski novčanici nisu dizajnirani da potpisuju ključem koji nije izveden iz njihove standardne derivacije;
-- Morate prilagoditi svoje skripte, opise, itd.
+- Morate prilagoditi svoje [skripte](https://planb.academy/resources/glossary/script), opise, itd.
 
 
 U kontekstu RGB, ova putanja je bila zamišljena do 2021, ali se pokazalo da je previše komplikovano da bi funkcionisalo sa trenutnim standardima i infrastrukturom.
@@ -935,7 +935,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 bajtova `OP_RESERVED`, zatim `OP_RETURN`, pa `OP_PUSHBYTE_33`, čine 31-bajtni _prefiks_ deo;
-- Sledeći dolazi 32-bajtni _commitment_ (obično Merkle Root iz **MPC**), kojem dodajemo 1 bajt **Nonce** (ukupno 33 bajta za ovaj drugi deo).
+- Sledeći dolazi 32-bajtni _commitment_ (obično [Merkle Root](https://planb.academy/resources/glossary/merkle-root) iz **MPC**), kojem dodajemo 1 bajt **Nonce** (ukupno 33 bajta za ovaj drugi deo).
 
 
 Dakle, 64-bajtni metod `Tapret` izgleda kao `Opret` kojem smo dodali prefiks od 29 bajtova `OP_RESERVED` i dodali dodatni bajt kao Nonce.
@@ -965,7 +965,7 @@ U ovom prvom slučaju, počinjemo od Taproot izlaznog ključa (*Taproot Output K
 
 
 - `P`: interni javni ključ za _Key Path Spend_.
-- `G`: generišuća tačka eliptičke krive [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
+- `G`: generišuća tačka [eliptičke krive](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 - t = tH_TWEAK(P)` je faktor prilagođavanja, izračunat putem _označenog heša_ (npr. `SHA-256(SHA-256(TapTweak) || P)`), u skladu sa [BIP86](https://github.com/Bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation). Ovo dokazuje da nema skrivenog skripta.
 
 
@@ -1328,7 +1328,7 @@ Ovaj mehanizam osigurava da :
 Multi Protocol Commitment* (MPC) je princip koji omogućava RGB da objedini više ugovora u jednu Bitcoin transakciju, dok održava jedinstvenost obaveza i poverljivost u odnosu na druge učesnike. Zahvaljujući determinističkoj konstrukciji stabla, svakom Contract je dodeljena jedinstvena pozicija, a prisustvo "dummy" listova (*Entropy Leaves*) delimično prikriva ukupan broj ugovora koji učestvuju u transakciji.
 
 
-Ceo Merkle Tree nikada nije uskladišten na klijentu. Mi jednostavno generate _Merkle putanju_ za svaki dotični Contract, koja se prenosi primaocu (koji zatim može validirati Commitment). U nekim slučajevima, možete imati nekoliko sredstava koja su prošla kroz isti UTXO. Tada možete spojiti nekoliko _Merkle putanja_ u takozvani _multi-protokol Commitment blok_, kako biste izbegli previše dupliranja podataka.
+Ceo [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree) nikada nije uskladišten na klijentu. Mi jednostavno generate _Merkle putanju_ za svaki dotični Contract, koja se prenosi primaocu (koji zatim može validirati Commitment). U nekim slučajevima, možete imati nekoliko sredstava koja su prošla kroz isti UTXO. Tada možete spojiti nekoliko _Merkle putanja_ u takozvani _multi-protokol Commitment blok_, kako biste izbegli previše dupliranja podataka.
 
 
 Svaki _Merkle dokaz_ je stoga lagan, posebno jer dubina stabla neće premašiti 32 u RGB. Postoji i pojam "Merkle blok", koji zadržava više informacija (poprečni presek, entropija, itd.), korisnih za kombinovanje ili razdvajanje nekoliko grana.
@@ -2023,7 +2023,7 @@ Jedna od velikih snaga RGB leži u sposobnosti da po volji otkrije (*reveal*) il
         - Jednostavan `txid`, ako ukazuje na određeni UTXO,
         - Ili `WitnessTx`, koji označava samoreferencu: Seal upućuje na samu transakciju. Ovo je posebno korisno kada nije dostupan spoljašnji UTXO, na primer u transakcijama otvaranja Lightning kanala, ili ako primalac nema UTXO.
 - **vout** : izlazni broj transakcije označen `txptr`. Prisutan samo za standardni Graph Seal (ne za `WitnessTx`);
-- **zaslepljivanje**: nasumičan broj od 8 bajtova, za jačanje poverljivosti i sprečavanje pokušaja brutalne sile na identitet UTXO;
+- **zaslepljivanje**: nasumičan broj od 8 bajtova, za jačanje poverljivosti i sprečavanje pokušaja [brutalne sile](https://planb.academy/resources/glossary/brute-force-attack) na identitet UTXO;
 - **method** : označava korišćeni metod ankerisanja (`Tapret` ili `Opret`).
 
 
@@ -2051,7 +2051,7 @@ RGB definiše četiri moguća tipa stanja (*StateTypes*) za Owned State:
 
 
 - **Deklarativno**: ne sadrži numeričke podatke, samo deklarativno pravo (npr. pravo glasa). Skriveni i otkriveni oblici su identični;
-- **Fungible**: predstavlja fungibilnu količinu (kao tokeni). U otkrivenom obliku, imamo `amount` i `blinding`. U skrivenom obliku, imamo jedan *Pedersen commitment* koji skriva količinu i zaslepljivanje;
+- **Fungible**: predstavlja fungibilnu količinu (kao tokeni). U otkrivenom obliku, imamo `amount` i `blinding`. U skrivenom obliku, imamo jedan *[Pedersen commitment](https://planb.academy/resources/glossary/pedersen-commitment)* koji skriva količinu i zaslepljivanje;
 - **Struktuirano**: čuva strukturirane podatke (do 64 kB). U otkrivenom obliku, to je podatkovni blok. U skrivenom obliku, to je označeni Hash ovog bloka:
 
 
@@ -2300,13 +2300,13 @@ Brzo premotavanje unapred se dešava kada prethodno nevažeće pravilo postane v
 
 
 
-- Ovo se ne može uporediti sa klasičnim Blockchain hardforkom, jer RGB radi u Client-side Validation i ne utiče na ukupnu kompatibilnost Blockchain ;
+- Ovo se ne može uporediti sa klasičnim Blockchain [hardforkom](https://planb.academy/resources/glossary/hard-fork), jer RGB radi u Client-side Validation i ne utiče na ukupnu kompatibilnost Blockchain ;
 - U praktičnim terminima, ova vrsta promene je označena poljem `Ffv` (*fast-forward version*) u Contract Operation;
 - Trenutni nosioci nisu oštećeni: njihov status ostaje važeći;
 - Novi korisnici (ili novi korisnici), s druge strane, treba da ažuriraju svoj softver (svoj Wallet) kako bi prepoznali nova pravila.
 
 
-Push-back znači da prethodno važeće pravilo postaje nevažeće. To je stoga "pooštravanje" pravila, ali striktno govoreći nije softfork:
+Push-back znači da prethodno važeće pravilo postaje nevažeće. To je stoga "pooštravanje" pravila, ali striktno govoreći nije [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 

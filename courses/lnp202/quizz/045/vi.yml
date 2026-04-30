@@ -1,4 +1,4 @@
-question: Tại sao người vận hành nút Lightning (Lightning node operator) không thể dựa vào các khoản thanh toán của chính mình cho thanh khoản đến generate?
+question: Tại sao người vận hành nút Lightning không thể dựa vào các khoản thanh toán của chính mình cho thanh khoản đến generate?
 answer: Chủ yếu là các luồng vào
 wrong_answers:
   - Chủ yếu là dòng chảy ra ngoài

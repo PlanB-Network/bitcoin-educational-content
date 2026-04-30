@@ -1,0 +1,10 @@
+question: 在 BitCoinJ 中實現的簡化支付驗證 (SPV)，被 Android 的 Bitcoin Wallet 等輕量級 wallet 使用，其主要優點是什麼？
+answer: 它使交易得以驗證，而無需下載整個區塊鏈
+wrong_answers:
+  - 它會在收到付款時自動洗比特幣，以提高保密性
+  - 它使用 AES-256 演算法加密 wallet 資料，以防止特洛伊木馬竊取
+  - 它使與現有節點的連接安全成為可能，以防止利用交易的延展性進行攻擊
+explanation: |
+ 簡化支付驗證 (SPV) 是 Bitcoin 白皮書中描述的一項重要創新，可讓瘦客戶端驗證其交易
+ 屬於區塊鏈，而無需下載和儲存整個資料。
+reviewed: true

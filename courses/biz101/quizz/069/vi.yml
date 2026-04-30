@@ -1,9 +1,9 @@
-question: Phần mềm nguồn mở nào phù hợp với hệ thống thanh toán Professional Bitcoin?
-answer: Máy chủ thanh toán BTC
+question: Phần mềm mã nguồn mở nào phù hợp với hệ thống thanh toán Bitcoin chuyên nghiệp?
+answer: BTCPay Server
 wrong_answers:
   - Swiss Bitcoin Pay
-  - Nút mở
+  - Open Node
   - Bitcoinize PoS
 explanation: |
-  Trong khóa học, BTC Pay Server được nhấn mạnh là giải pháp mã nguồn mở cốt lõi dành cho các thiết lập chuyên nghiệp nhờ các tùy chọn tích hợp và khả năng kiểm soát mở rộng.
+  Trong khóa học, BTCPay Server được nhấn mạnh là giải pháp mã nguồn mở cốt lõi dành cho các thiết kế chuyên nghiệp nhờ các tùy chọn tích hợp và khả năng kiểm soát mở rộng.
 reviewed: true

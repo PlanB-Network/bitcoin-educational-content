@@ -1,0 +1,10 @@
+question: Que efeito teve o código de operação do OP_EVAL no sistema de programação interno do Bitcoin?
+answer: Executar um script dentro de um script
+wrong_answers:
+  - Solicitar a assinatura dos participantes
+  - Corta um script e compara o resultado com uma pegada fornecida
+  - Verificar se dois valores são iguais
+explanation: |
+ Foi descrita por Nicolas van Saberhagen, também conhecido como ByteCoin, que a concebeu na noite de 1 para 2 de outubro de 2011. O opcode é executado no final do script de bloqueio
+ para avaliar a validade do script fornecido, cujo hash é comparado com a impressão digital fornecida.
+reviewed: true

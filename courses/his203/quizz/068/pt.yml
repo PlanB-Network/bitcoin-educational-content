@@ -1,0 +1,10 @@
+question: Que plataforma de troca teve 24 000 bitcoins roubados no início de setembro de 2012?
+answer: Bitfloor
+wrong_answers:
+  - Mt. Gox
+  - Tradehill
+  - BTC-e
+explanation: |
+ Na noite de 3 para 4 de setembro de 2012, um hacker acedeu a uma cópia de segurança não encriptada das chaves wallet da Bitfloor e conseguiu levantar um pouco mais de 24.000 BTC, ou
+ cerca de 250.000 dólares na altura.
+reviewed: true

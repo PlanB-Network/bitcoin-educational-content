@@ -1,0 +1,8 @@
+question: What's the main difference between the axiomatic and inductive approaches to economics?
+answer: The axiomatic approach starts from universal truths to deduce specific principles
+wrong_answers:
+  - "The axiomatic approach requires more empirical data than the inductive approach"
+  - "The axiomatic approach is based on the observation of particular cases to create theories"
+  - "The axiomatic approach uses mainly statistical and econometric methods"
+explanation: |
+  The axiomatic approach starts with axioms - universal, timeless truths - and logically deduces specific principles from them. It's a deductive approach that moves from the general to the particular. The inductive approach, on the other hand, observes particular cases in order to derive general theories. The Austrian school favours the axiomatic approach, as it enables universal economic laws to be established without depending on experimentation or quantitative data, unlike empirical approaches.

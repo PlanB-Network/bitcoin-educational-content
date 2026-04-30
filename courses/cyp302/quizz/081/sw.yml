@@ -6,4 +6,4 @@ wrong_answers:
   - Uingizwaji wa kila barua
 explanation: |
   Katika msimbo wa mtiririko, operesheni ya XOR kwa ujumla hutumiwa kuchanganya mtiririko wa vitufe na ujumbe kwa sababu ni rahisi na inaweza kutenduliwa.
-reviewed: false
+reviewed: true

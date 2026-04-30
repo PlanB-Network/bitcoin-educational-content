@@ -1,0 +1,10 @@
+question: Mikä Free State Project -hankkeen valitsema Yhdysvaltain osavaltio tuli Bitcoin-option keskukseksi vuosina 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - Kalifornia
+explanation: |
+ Vapaiden osavaltioiden hanke oli poliittinen siirtolaisuusliike, jonka tarkoituksena oli koota yhteen osavaltioon vapaamielisiä, jotta he voisivat vaikuttaa paikallishallintoon.
+ Tämän liikkeen jäsenet alkoivat käyttää Bitcoin:tä Roger Verin ja Erik Voorheesin kaltaisten libertaariaktivistien käännytystyön ansiosta.
+reviewed: true

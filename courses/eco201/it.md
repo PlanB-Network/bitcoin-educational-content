@@ -54,7 +54,7 @@ E se la chiave per comprendere l'economia attuale fosse nascosta in una teoria v
 
 ### Come viene creato il denaro
 
-Nel nostro sistema monetario attuale, il denaro viene principalmente creato attraverso una pratica bancaria nota come "banca a riserva frazionaria". Questo termine significa essenzialmente che le banche non sono tenute a mantenere riserve pari ai depositi ricevuti. Di conseguenza, possono creare nuovo potere di acquisto quando concedono prestiti e, al contrario, ridurre il potere di acquisto quando i clienti ripagano i loro prestiti.
+Nel nostro sistema monetario attuale, il denaro viene principalmente creato attraverso una pratica bancaria nota come "[banca a riserva frazionaria](https://planb.academy/resources/glossary/fractional-reserves)". Questo termine significa essenzialmente che le banche non sono tenute a mantenere riserve pari ai depositi ricevuti. Di conseguenza, possono creare nuovo potere di acquisto quando concedono prestiti e, al contrario, ridurre il potere di acquisto quando i clienti ripagano i loro prestiti.
 
 Ad esempio, se ti rivolgessi alla tua banca locale per ottenere un mutuo per l'acquisto di una casa, i soldi che ti vengono prestati dalla banca verrebbero creati come una voce contabile. In contabilità, rappresentiamo tipicamente la ricchezza netta di un individuo con un bilancio, che ha due lati: il lato attivo, che include qualsiasi proprietà, contratti finanziari, inventario o altre forme di ricchezza possedute, e il lato passivo, che mostra la fonte dei fondi utilizzati per creare il capitale elencato sul lato attivo. La differenza tra attività e passività è chiamata "patrimonio netto" e può essere considerata come la ricchezza netta dell'entità.
 
@@ -70,7 +70,7 @@ Figura 1: Creazione del denaro come voci contabili
 >
 > Henry Ford
 
-Questo processo consente alle banche di registrare tutte le transazioni, inclusi bonifici bancari, acquisti con carta di credito e assegni, durante un periodo specificato (di solito una settimana o un mese). Successivamente, regolano queste transazioni tra di loro utilizzando riserve bancarie, che sono un'altra forma di valuta fiat mai utilizzata dal pubblico. Le riserve bancarie sono detenute presso la banca centrale in un conto speciale accessibile solo a banche e istituti finanziari autorizzati.
+Questo processo consente alle banche di registrare tutte le transazioni, inclusi bonifici bancari, acquisti con carta di credito e assegni, durante un periodo specificato (di solito una settimana o un mese). Successivamente, regolano queste transazioni tra di loro utilizzando riserve bancarie, che sono un'altra forma di [valuta fiat](https://planb.academy/resources/glossary/fiat) mai utilizzata dal pubblico. Le riserve bancarie sono detenute presso la banca centrale in un conto speciale accessibile solo a banche e istituti finanziari autorizzati.
 
 ### Instabilità della banca a riserva frazionaria e prestatore di ultima istanza
 
@@ -120,7 +120,7 @@ Un'altra conseguenza non voluta della ZIRP è che incoraggia i governi a impegna
 
 Figura 6: Debito Pubblico e Privato come % del PIL (Mondo, pesato per PIL per paese) / Fonte IMF
 
-Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi ad un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
+Con l'aumento dell'[inflazione](https://planb.academy/resources/glossary/inflation) a causa della creazione di denaro in risposta ai blocchi legati al COVID, le banche centrali stanno ora aumentando i tassi di interesse per frenare l'inflazione. Tuttavia, ciò rappresenta una sfida significativa per l'intero sistema. Le banche sono più indebitate che mai, i governi hanno livelli di debito storicamente alti, la crescita economica è lenta, i deficit si accumulano e i consumatori, alle prese con l'aumento dei prezzi dei beni essenziali, faticano a far quadrare i conti. Controllare l'inflazione richiederebbe di aumentare i tassi ad un livello che potrebbe far fallire i governi, mentre le banche rischiano di perdere i depositanti poiché le persone spendono i loro risparmi per beni essenziali sempre più costosi o cercano rifugio in asset reali e fondi del mercato monetario per proteggersi dall'inflazione.
 
 ### Conclusioni
 
@@ -129,7 +129,7 @@ Con l'aumento dell'inflazione a causa della creazione di denaro in risposta ai b
 > John Maynard Keynes
 
 In sostanza, il nostro sistema sta affrontando sfide significative e Bitcoin emerge come l'unica alternativa credibile. Tuttavia, Bitcoin da solo non può risolvere i problemi all'interno del nostro sistema monetario. Soprattutto, abbiamo bisogno di individui che comprendano i principi economici di base tra gli appassionati di Bitcoin, consentendo una maggiore consapevolezza ed un senso comune economico per guidarci lontano dalla costruzione di un'altra fragile base finanziaria per la nostra civiltà. L'obiettivo principale di questo corso è educare i nuovi appassionati di Bitcoin nei principi economici solidi.
-Per raggiungere questo obiettivo, spiegheremo i principi fondamentali dell'"Economia Austriaca", una scuola di pensiero economica con una tradizione metodologica che risale al XVI secolo, fornendo approfondimenti sull'azione umana in condizioni economiche. Con questa introduzione, ora comprendi gli elementi essenziali della creazione di denaro e lo stato attuale del nostro sistema finanziario e monetario.
+Per raggiungere questo obiettivo, spiegheremo i principi fondamentali dell'"[Economia Austriaca](https://planb.academy/resources/glossary/austrian-school)", una scuola di pensiero economica con una tradizione metodologica che risale al XVI secolo, fornendo approfondimenti sull'azione umana in condizioni economiche. Con questa introduzione, ora comprendi gli elementi essenziali della creazione di denaro e lo stato attuale del nostro sistema finanziario e monetario.
 Nel prossimo capitolo, approfondiremo la pietra angolare fondamentale di qualsiasi scuola di pensiero economica: la teoria del valore. I capitoli successivi esploreranno il denaro come istituzione sociale, la teoria del capitale e del ciclo economico, la sfida del calcolo economico e una breve panoramica della storia e della metodologia della Scuola Austriaca di Economia.
 
 # Fondamenti Teorici

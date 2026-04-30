@@ -1,0 +1,9 @@
+question: Phần mềm nào đã tạo ra bước đột phá bằng cách biểu diễn quá trình suy luận chính seed dưới dạng một câu gồm 12 từ vào tháng 11 năm 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Tầng
+  - Paymium
+explanation: |
+ Máy tính wallet này được tạo ra bởi nhà phát triển người Pháp Thomas Voegtlin. Tên của nó đề cập đến electrum, một hợp kim tự nhiên của vàng và bạc. Electrum là một trong những máy wallet đầu tiên triển khai cấu trúc xác định, lấy khóa từ seed, và biểu diễn khóa đó cả dưới dạng chuỗi ký tự thập lục phân và câu 12 từ.
+reviewed: true

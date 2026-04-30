@@ -6,4 +6,4 @@ wrong_answers:
   - Sebagai string dengan panjang variabel yang merupakan hasil dari proses enkripsi
 explanation: |
   Sebuah string acak didefinisikan sebagai pilihan seragam di antara semua string yang mungkin dengan panjang yang sama.
-reviewed: false
+reviewed: true

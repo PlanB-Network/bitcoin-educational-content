@@ -6,4 +6,4 @@ wrong_answers:
   - Un bloc stocké dans la mempool
 explanation: |
   Chaque mineur assemble localement un bloc candidat, avant de tenter de trouver une preuve de travail valide.
-reviewed: false
+reviewed: true 

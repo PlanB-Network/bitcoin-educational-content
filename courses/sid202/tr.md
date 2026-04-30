@@ -83,10 +83,10 @@ Elements ve Liquid Sidechain'in potansiyelini keşfetmeye hazır mısınız? Hay
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
 
-Elements, Confidential Transactions ve Issued Assets gibi topluluk üyeleri tarafından geliştirilen güçlü özelliklere erişim sağlayan açık kaynaklı, Sidechain özellikli bir Blockchain platformudur.
+Elements, Confidential Transactions ve Issued Assets gibi topluluk üyeleri tarafından geliştirilen güçlü özelliklere erişim sağlayan açık kaynaklı, Sidechain özellikli bir [Blockchain](https://planb.academy/resources/glossary/blockchain) platformudur.
 
 
-Elements, özünde, dağıtılmış bir Blockchain Ledger'da depolanan varlıkların transferini ve oluşturulmasını yöneten işlem geçmişi ve kuralları etrafında fikir birliği oluşturulmasını sağlayan bir protokoldür.
+Elements, özünde, dağıtılmış bir Blockchain Ledger'da depolanan varlıkların transferini ve oluşturulmasını yöneten [işlem](https://planb.academy/resources/glossary/transaction-tx) geçmişi ve kuralları etrafında [fikir birliği](https://planb.academy/resources/glossary/consensus) oluşturulmasını sağlayan bir protokoldür.
 
 
 Elements hakkında daha fazla arka plan bilgisi Elements Projesi web sitesinde (https://elementsproject.org/), resmi Liquid blogunda (https://blog.Liquid.net/) ve geliştirici portalında (https://Liquid.net/devs) kolayca bulunabilir.
@@ -146,7 +146,7 @@ Elements, tüm bu özellikleri Bitcoin core kod tabanının üzerine ekleyerek m
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
 
-Elements, Blockchain kullanıcılarının her gün karşılaştığı işlem gecikmesi, gizlilik eksikliği ve değiştirilebilirlik riski gibi sorunlara teknik bir çözüm sunmaktadır.
+Elements, Blockchain kullanıcılarının her gün karşılaştığı işlem gecikmesi, gizlilik eksikliği ve [değiştirilebilirlik](https://planb.academy/resources/glossary/fungibility) riski gibi sorunlara teknik bir çözüm sunmaktadır.
 
 
 Elements, Federated block signing ve Confidential Transactions'yi kullanarak bu sorunların üstesinden gelir.
@@ -250,7 +250,7 @@ Varlıkları mainchain'e geri aktarmak için bir kullanıcı Sidechain üzerinde
 Elements, Bitcoin kod tabanına dayandığından, işleyen bir ağı oluşturan bileşenler çok benzerdir.
 
 
-Elements düğüm yazılımının kendisi `elementsd` olarak adlandırılır ve kullanıcının makinesinde bir daemon olarak çalışır. Bir daemon (veya Windows'ta hizmet), oturum açmış bir kullanıcının doğrudan kontrolünü gerektirmeden arka plan hizmeti olarak çalışan bir programdır.
+Elements [düğüm](https://planb.academy/resources/glossary/node) yazılımının kendisi `elementsd` olarak adlandırılır ve kullanıcının makinesinde bir daemon olarak çalışır. Bir daemon (veya Windows'ta hizmet), oturum açmış bir kullanıcının doğrudan kontrolünü gerektirmeden arka plan hizmeti olarak çalışan bir programdır.
 
 
 Not: Bu belge boyunca elementsd'den her zaman daemon sürümü olarak bahsedeceğiz, ancak sunucu seçeneğinin etkinleştirilmesi koşuluyla her şey Elements-qt ile yapılabilir.
@@ -298,8 +298,8 @@ Bu parametreler kullanılarak bazı şeyler değiştirilebilir:
 - Ağdaki işlem ücretlerini öderken kullanılacak varlık.
 - Blockchain veri dosyalarının depolama konumu.
 - Bir Bitcoin düğümüne bağlanmak için kullanılan RPC kimlik bilgileri.
-- Karşılanması gereken `n of m` eşiği ve blokları imzalayabilecek geçerli açık anahtarlar.
-- Varlıkları bir Sidechain'in içine ve dışına aktarmak için tatmin edici olması gereken komut dosyası.
+- Karşılanması gereken `n of m` eşiği ve blokları imzalayabilecek geçerli [açık anahtarlar](https://planb.academy/resources/glossary/public-key).
+- Varlıkları bir Sidechain'in içine ve dışına aktarmak için tatmin edici olması gereken [komut dosyası](https://planb.academy/resources/glossary/script).
 - Bir Bitcoin düğümüne Sidechain olarak bağlanılıp bağlanılmayacağı.
 
 

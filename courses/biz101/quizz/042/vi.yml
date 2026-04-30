@@ -1,9 +1,9 @@
-question: Ở hầu hết các khu vực pháp lý, điều gì gây ra sự kiện chịu thuế khi xử lý Bitcoin?
-answer: Việc bán, giao dịch hoặc sử dụng Bitcoin làm phương thức thanh toán thường dẫn đến sự kiện chịu thuế.
+question:  Điều gì sẽ tạo ra nghĩa vụ thuế khi xử lý Bitcoin với pháp lý ở hầu hết các lãnh thổ?
+answer: Việc bán, giao dịch hoặc sử dụng Bitcoin làm phương thức thanh toán thường xem là giao dịch chịu thuế.
 wrong_answers:
   - Chỉ cần nắm giữ Bitcoin vô thời hạn mà không cần bất kỳ giao dịch nào.
-  - Sao lưu Bitcoin wallet hoặc khóa của bạn.
+  - Sao lưu ví Bitcoin hoặc khóa của bạn.
   - Xem giá Bitcoin trực tuyến.
 explanation: |
-  Thông thường, một sự kiện chịu thuế xảy ra khi một doanh nghiệp thanh lý hoặc sử dụng Bitcoin của mình, chứ không chỉ đơn thuần là giữ nó làm dự trữ. Mỗi lần bán hoặc trao đổi Bitcoin để lấy hàng hóa, dịch vụ hoặc tiền tệ pháp định đều có thể tạo ra lãi hoặc lỗ chịu thuế generate.
+  Thông thường, một giao dịch chịu thuế xảy ra khi một doanh nghiệp thanh lý hoặc sử dụng Bitcoin của mình, chứ không chỉ đơn thuần là dự trữ nó. Mỗi lần bán hoặc trao đổi Bitcoin để lấy hàng hóa, dịch vụ hoặc tiền tệ pháp định đều có thể tạo ra các giao dịch lãi hoặc lỗ theo cách tính của thuế.
 reviewed: true

@@ -1,0 +1,11 @@
+question: Jeremias Kangas 及其兄弟於 2012 年 6 月推出的私人對私人外匯服務的名稱是什麼？
+answer: 本地比特幣
+wrong_answers:
+  - BTC 近我
+  - BitInstant
+  - Coinabul
+explanation: |
+ 這是一個撮合平台，於 6 月 7 日推出。在今年夏天，LocalBitcoins 整合了一個託管系統，透過這個系統，比特幣可以暫時由平台持有，然後透過簡訊釋放給買家付款。
+ 平台暫時持有比特幣，然後通過 SMS 將其釋放，以支付給買家。特別是，這使得面對面的交換成為可能，賣方將
+ 一旦收到現金，賣方就會釋放比特幣。
+reviewed: true

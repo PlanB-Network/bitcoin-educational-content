@@ -1,6 +1,6 @@
 ---
 name: Heritage
-description: A Bitcoin portfolio with integrated inheritance mechanism via Taproot scripts
+description: A Bitcoin wallet with integrated inheritance mechanism via Taproot scripts
 ---
 
 ![cover](assets/cover.webp)
@@ -15,7 +15,7 @@ Heritage provides an elegant answer by implementing a dead-man switch mechanism 
 ## What is Heritage?
 
 
-Heritage is a Bitcoin portfolio natively integrating an inheritance mechanism via Taproot scripts. Developed under MIT license by Jérémie Rodon, this open-source software guarantees transparency and durability.
+Heritage is a Bitcoin wallet natively integrating an inheritance mechanism via Taproot scripts. Developed under MIT license by Jérémie Rodon, this open-source software guarantees transparency and durability.
 
 
 Heritage uses Taproot scripts encoded in Bitcoin addresses. Each UTXO integrates two types of spending conditions:

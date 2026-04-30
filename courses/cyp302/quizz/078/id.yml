@@ -6,3 +6,4 @@ wrong_answers:
   - Memukul komputer dengan keras untuk memaksanya memberikan kunci rahasia
 explanation: |
   Serangan brute force melibatkan pengujian sistematis terhadap semua kunci yang mungkin untuk mendekripsi pesan yang terenkripsi.
+reviewed: true

@@ -119,7 +119,7 @@ Lukiessasi johdantoa, saatoit huomata kolme tärkeää termiä: arvon säilyttä
 Katsotaanpa kutakin:
 
 1. **Arvon säilyttäjä:** Raha toimii keino säilyttää arvoa tulevaa käyttöä varten, mahdollistaen haltijalle ostovoiman säilyttämisen ajan myötä. Näin ollen se tarjoaa haltijalle mahdollisuuden säästää ja suunnitella tulevaisuutta. Kulta toimii erinomaisena esimerkkinä tällaisesta arvon säilyttäjästä, sillä vuosisatojen ajan sillä on voinut ostaa kunnollisen puvun vain yhdellä unssilla.
-2. **Vaihdon väline:** Jotta raha toimisi käytännöllisenä vaihdon välineenä tavaroiden ja palveluiden osalta, sen on oltava helposti vaihdettavissa. Vaikka teknisesti mikä tahansa omaisuus voidaan käyttää rahana, suuret ja liikkumattomat omaisuudet, kuten talot, eivät ole käytännöllisiä vaihdon välineenä.
+2. **Vaihdon väline:** Jotta raha toimisi käytännöllisenä vaihdon välineenä tavaroiden ja palveluiden osalta, sen on oltava helposti [vaihdettavissa](https://planb.academy/resources/glossary/fungibility). Vaikka teknisesti mikä tahansa omaisuus voidaan käyttää rahana, suuret ja liikkumattomat omaisuudet, kuten talot, eivät ole käytännöllisiä vaihdon välineenä.
 3. **Tilin Yksikkö:** Lopulta rahan tulisi toimia standardiyksikkönä tavaroiden ja palveluiden hintojen mittaamiselle. Tämä tarkoittaa, että tuotteet hinnoitellaan ja arvotetaan tämän rahan termein, mikä mahdollistaa eri tuotteiden ja palveluiden suhteellisen arvon helpon vertailun.
    Kun nämä kolme rahan olennaista toimintoa täyttyvät kokonaisuudessaan, tällaisella rahalla on kyky vastata kaupankäynnin tiukkoihin vaatimuksiin. Ilman näitä toimintoja raha on paljon vähemmän luotettava ja luottamuksen arvoinen, mikä johtaa epävarmuuteen ja turvattomuuteen kaupankäynnissä, mikä voi aiheuttaa vahinkoa sekä henkilökohtaisella että kansallisella tasolla.
 
@@ -141,7 +141,7 @@ Jotta raha säilyttäisi ostovoimansa ajan myötä, sen on oltava:
 
 **Harvinainen:** Kun raha tarjoaa harvinaisuutta, tarkoitamme rajoitettua saatavilla olevaa tarjontaa. Tämä on tärkeää arvon säilyttäjälle, koska jos tiettyä valuuttaa on liikaa, sen arvo voi laskea. Harvinainen valuutta säilyttää todennäköisemmin arvonsa ajan myötä, tehden siitä luotettavan varallisuuden säilyttämisen välineen. Ajattele sitä kuin rajoitetun painoksen tuotetta - jos niitä on vain muutama, ne ovat arvokkaampia ja halutumpia kuin jos niitä olisi rajaton määrä. Samoin harvinainen valuutta on todennäköisemmin säilyttämässä arvonsa ja ostovoimansa, tehden siitä paremman vaihtoehdon varallisuuden säilyttämiseen.
 
-**Muuttumaton:** Jotta raha tarjoaisi muuttumattomuutta, sen tulisi olla muuttumaton tai muokkaamaton kerran tehdyn transaktion jälkeen. Tämä on tärkeä luotettavan arvon säilyttäjän ominaisuus, koska se varmistaa, että rahan arvo ei ole alttiina mielivaltaisille muutoksille tai manipulaatioille. Esimerkiksi, jos ostat jotain käteisellä, et voi myöhemmin muuttaa mieltäsi ja peruuttaa transaktiota. Samoin kryptovaluutoissa, kuten Bitcoinissa, kun transaktio on kirjattu lohkoketjuun, sitä ei voi muuttaa tai peruuttaa. Tämä muuttumattomuus tarjoaa turvallisuuden ja luotettavuuden tunteen sekä ostajille että myyjille rahoitustransaktioissa.
+**Muuttumaton:** Jotta raha tarjoaisi muuttumattomuutta, sen tulisi olla muuttumaton tai muokkaamaton kerran tehdyn transaktion jälkeen. Tämä on tärkeä luotettavan arvon säilyttäjän ominaisuus, koska se varmistaa, että rahan arvo ei ole alttiina mielivaltaisille muutoksille tai manipulaatioille. Esimerkiksi, jos ostat jotain käteisellä, et voi myöhemmin muuttaa mieltäsi ja peruuttaa transaktiota. Samoin [kryptovaluutoissa](https://planb.academy/resources/glossary/cryptocurrency), kuten Bitcoinissa, kun transaktio on kirjattu [lohkoketjuun](https://planb.academy/resources/glossary/blockchain), sitä ei voi muuttaa tai peruuttaa. Tämä muuttumattomuus tarjoaa turvallisuuden ja luotettavuuden tunteen sekä ostajille että myyjille rahoitustransaktioissa.
 
 #### Vaihdon Väline
 
@@ -161,7 +161,7 @@ Johtopäätös
 
 Raha on olennainen ja kiehtova osa jokapäiväistä elämäämme. Se toimii välittäjänä, mahdollistaen meidän käydä kauppaa tavaroiden ja palveluiden kanssa. Kaikki raha ei kuitenkaan ole luotu samanarvoiseksi. Jotkut rahan muodot ovat parempia arvon säilyttäjinä, kuten kultaraha, kun taas toiset saattavat olla tehokkaampia vaihdon välineinä, kuten Yhdysvaltain dollari. Kuitenkin, kun nämä toiminnot täyttyvät kokonaisuudessaan, se mahdollistaa meidän suorittaa transaktioita luottavaisesti ja vaivattomasti, mikä ei ainoastaan auta meitä yksilöinä, vaan edistää suurempaa talouskasvua ja vaurautta taloudellemme.
 
-Tulevissa moduuleissa tutkimme kahta suosittua rahan muotoa: Bitcoinia ja stablecoineja. Tarkastelemalla niitä tässä osiossa käsitellyn sisällön kautta, tutkimme, miten ne täyttävät eri valuutan toiminnot ja miten ne voivat suuresti hyödyttää yhteiskuntaa.
+Tulevissa moduuleissa tutkimme kahta suosittua rahan muotoa: Bitcoinia ja [stablecoineja](https://planb.academy/resources/glossary/stablecoin). Tarkastelemalla niitä tässä osiossa käsitellyn sisällön kautta, tutkimme, miten ne täyttävät eri valuutan toiminnot ja miten ne voivat suuresti hyödyttää yhteiskuntaa.
 
 Vaihdannasta kolikoiden ja paperirahan keksimiseen raha on kokenut sarjan muutoksia sopeutuakseen yhteiskunnan jatkuvasti muuttuviin tarpeisiin. Siirtyessämme seuraavaan lukuun, muutetaan kurssia ja suunnataan huomiomme rahan kehitykseen.
 
@@ -187,8 +187,8 @@ Tämän mielessä pitäen, tarkastellaan ensisijaisia vaihdon muotoja, jotka jok
 2. **Hyödykeraha:** Sovitun hyödykkeen vaihto, jota pidetään arvokkaana, kuten suola tai simpukankuoret.
 3. **Kolikkoraha:** Jalometallien, kuten kulta tai hopea, käyttö kolikoiden muodossa vaihdon välineenä.
 4. **Metallilla tuettu paperiraha:** Paperiraha, joka on tuettu fyysisellä hyödykkeellä, kuten kulta tai hopea.
-5. **Fiat-raha:** Valuutta, jota ei tue fyysinen hyödyke, mutta jolla on arvoa, koska hallitus julistaa sen lailliseksi maksuvälineeksi.
-6. **Kryptovaluutat:** Digitaaliset tai virtuaaliset tokenit, jotka käyttävät kryptografiaa transaktioiden turvaamiseen ja uusien yksiköiden luomisen hallintaan.
+5. **[Fiat-raha](https://planb.academy/resources/glossary/fiat):** Valuutta, jota ei tue fyysinen hyödyke, mutta jolla on arvoa, koska hallitus julistaa sen lailliseksi maksuvälineeksi.
+6. **Kryptovaluutat:** Digitaaliset tai virtuaaliset tokenit, jotka käyttävät [kryptografiaa](https://planb.academy/resources/glossary/cryptography) transaktioiden turvaamiseen ja uusien yksiköiden luomisen hallintaan.
 
 Näitä mielessä pitäen, tarkastellaan kutakin saadaksemme kokonaisvaltaisemman ymmärryksen siitä, miten päädyimme siihen, missä olemme tänään.
 
@@ -224,7 +224,7 @@ Vaikka kyseessä oli teknisesti ottaen edelleen hyödykeraha, ihmisten jatkaessa
 
 Lisäksi metallit, kuten kulta, olivat yksi jaksollisen järjestelmän inertteimmistä alkuaineista, mikä teki niistä erittäin kestäviä ja korroosionkestäviä.
 
-Teknologian kehittyessä kulta ja hopea kävivät läpi muodonmuutoksen; ne sulatettiin, muotoiltiin ja leimattiin kolikoiksi, mikä lisäsi vaihdon helppoutta. Näiden kolikoiden standardoitu arvo ja merkinnät vähensivät merkittävästi kustannuksia, jotka liittyivät arvometallien painon ja puhtauden varmistamiseen. Mutta, kuten useimmissa hyvissä asioissa, joku löytää aina tavan hyötyä tilanteesta. Kolikoiden leikkaaminen yleistyi; sekä yksilöt että hallitukset leikkasivat kolikoista palasia vähentääkseen niiden arvometallipainoa samalla yrittäen säilyttää niiden alkuperäisen nimellisarvon. Tämä johti ensimmäiseen valuutan arvon alenemisen muotoon, mikä johti inflaatioon.
+Teknologian kehittyessä kulta ja hopea kävivät läpi muodonmuutoksen; ne sulatettiin, muotoiltiin ja leimattiin kolikoiksi, mikä lisäsi vaihdon helppoutta. Näiden kolikoiden standardoitu arvo ja merkinnät vähensivät merkittävästi kustannuksia, jotka liittyivät arvometallien painon ja puhtauden varmistamiseen. Mutta, kuten useimmissa hyvissä asioissa, joku löytää aina tavan hyötyä tilanteesta. Kolikoiden leikkaaminen yleistyi; sekä yksilöt että hallitukset leikkasivat kolikoista palasia vähentääkseen niiden arvometallipainoa samalla yrittäen säilyttää niiden alkuperäisen nimellisarvon. Tämä johti ensimmäiseen valuutan arvon alenemisen muotoon, mikä johti [inflaatioon](https://planb.academy/resources/glossary/inflation).
 
 Pahentamaan tilannetta, kun maailma globalisoitui, kulta ja hopea muuttuivat yhä hankalammiksi kuljettaa ja käyttää kaupankäynnissä, erityisesti merenkulkijoiden keskuudessa.
 
@@ -238,7 +238,7 @@ Ajattelepa tätä: ei enää raskaiden kultasäkkien raahaamista tai varkauden p
 
 Mutta kuten minkä tahansa uuden teknologian kohdalla, ongelmia alkoi ilmetä.
 
-Ensinnäkin, kultavarastot, huomaten että heidän asiakkaansa harvoin tulivat takaisin nostamaan kuitteihin oikeuttamaansa kultaa, alkoivat laskea liikkeelle paperikuitteja ilman kultatukea, mikä johti ensimmäisen piilossa olevan fraktionaalisen varantopankkijärjestelmän luomiseen (liikkeeseenlaskijat pitävät vain osan asiakkaiden talletuksista varantoina ja lainaavat loput). Ja vaikka maat yrittivät tukea valuuttojaan kullalla, ne usein väärinkäyttivät järjestelmää, mikä johti taloudelliseen kaaokseen.
+Ensinnäkin, kultavarastot, huomaten että heidän asiakkaansa harvoin tulivat takaisin nostamaan kuitteihin oikeuttamaansa kultaa, alkoivat laskea liikkeelle paperikuitteja ilman kultatukea, mikä johti ensimmäisen piilossa olevan [fraktionaalisen varantopankkijärjestelmän](https://planb.academy/resources/glossary/fractional-reserves) luomiseen (liikkeeseenlaskijat pitävät vain osan asiakkaiden talletuksista varantoina ja lainaavat loput). Ja vaikka maat yrittivät tukea valuuttojaan kullalla, ne usein väärinkäyttivät järjestelmää, mikä johti taloudelliseen kaaokseen.
 
 Toiseksi, metallilla tuettu paperiraha ei ollut immuuni väärentämiselle. Vaikka turvatoimia oli, väärentäjät saattoivat silti luoda vaikeasti havaittavia väärennettyjä seteleitä.
 
@@ -469,9 +469,9 @@ Tervetuloa Moduuliin Kaksi, jossa tutkimme Bitcoinin kiehtovaa maailmaa. Rakenta
 
 ### Mikä tämä Bitcoin oikein on
 
-Bitcoin on luottamuksesta riippumaton ja luvanvaraisuudesta vapaa hajautettu digitaalinen valuutta. Tämä saattaa kuulostaa sekavalta, joten anna meidän selittää. Koska mikään hallitus tai instituutio ei kontrolloi Bitcoinia, sinun ei tarvitse luottaa mihinkään kolmansiin osapuoliin tai tarvita lupaa sen käyttöön. Sen sijaan sitä ylläpitää maailmanlaajuinen käyttäjien verkosto, jotka vahvistavat ja käsittelevät transaktioita jollakin, jota kutsutaan lohkoketjuksi.
+Bitcoin on luottamuksesta riippumaton ja luvanvaraisuudesta vapaa hajautettu digitaalinen valuutta. Tämä saattaa kuulostaa sekavalta, joten anna meidän selittää. Koska mikään hallitus tai instituutio ei kontrolloi Bitcoinia, sinun ei tarvitse luottaa mihinkään kolmansiin osapuoliin tai tarvita lupaa sen käyttöön. Sen sijaan sitä ylläpitää maailmanlaajuinen käyttäjien verkosto, jotka vahvistavat ja käsittelevät [transaktioita](https://planb.academy/resources/glossary/transaction-tx) jollakin, jota kutsutaan lohkoketjuksi.
 
-Ajattele lohkoketjua valtavana kirjanpitona tai digitaalisena taulukkona, joka ylläpitää kirjaa jokaisesta Bitcoinin kautta tehdystä transaktiosta. Koska kuka tahansa maailmassa, jolla on internet-yhteys, voi seurata, vahvistaa tai käsitellä transaktioita, tämä varmistaa, että valuutta on turvallinen eikä sitä voida väärentää.
+Ajattele lohkoketjua valtavana [kirjanpitona](https://planb.academy/resources/glossary/ledger) tai digitaalisena taulukkona, joka ylläpitää kirjaa jokaisesta Bitcoinin kautta tehdystä transaktiosta. Koska kuka tahansa maailmassa, jolla on internet-yhteys, voi seurata, vahvistaa tai käsitellä transaktioita, tämä varmistaa, että valuutta on turvallinen eikä sitä voida väärentää.
 
 Bitcoin on myös ainutlaatuinen siinä, että sen tarjonta on rajattu. Vain 21 miljoonaa bitcoinia luodaan koskaan, mikä antaa sille niukkuutta, kuten kullalla ja muilla arvometalleilla. Tämä niukkuus on osa sitä, mikä antaa bitcoinille sen arvon.
 
@@ -485,26 +485,26 @@ Ennen Bitcoinin luomista joukko visionäärejä loi pohjan Bitcoinille, kun he v
 
 #### Cypherpunkit
 
-Cypherpunkit ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 80-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
+[Cypherpunkit](https://planb.academy/resources/glossary/cypherpunks) ovat ryhmä teknologiataitoisia kapinallisia, jotka tulivat yhteen 80-luvulla taistelemaan yksilön vapauden ja kansalaisoikeuksien puolesta käyttäen yhtä voimakasta työkalua: kryptografiaa. He uskoivat, että tiedon salaamisen kyky antaisi ihmisille voiman ottaa kontrolli takaisin keskitetyiltä auktoriteeteilta. Kuvittele, että pystyisit pitämään online-viestintäsi yksityisenä ja turvattuna uteliailta silmiltä - juuri sitä he taistelivat!
 
 Yksi merkittävimmistä Cypherpunkkien saavutuksista oli Cypherpunkkien postituslista, perustettu vuonna 1992. Listan kautta yksilöt saattoivat jakaa ideoita ja keskustella kryptografisista teknologioista, digitaalisen valuutan käsitteistä ja yksityisyyteen keskittyvistä aloitteista. Tämä johti samanhenkisten yksilöiden, kuten kehittäjien, aktivistien ja tutkijoiden, yhteisön muodostumiseen.
 
-Nykyään cypherpunkkien visionääriset ideat jatkavat digitaalisen maisemamme muokkaamista, antaen yksilöille suuremman kontrollin omien tietojensa ja viestintänsä yli. Yksi heidän merkittävimmistä perinnöistään on Bitcoin, sillä se ammentaa voimakkaasti Hashcash-teknologiasta— teknologiasta, jonka cypherpunk Adam Back kehitti vuonna 1997 torjuakseen sähköpostispämmiä.
+Nykyään cypherpunkkien visionääriset ideat jatkavat digitaalisen maisemamme muokkaamista, antaen yksilöille suuremman kontrollin omien tietojensa ja viestintänsä yli. Yksi heidän merkittävimmistä perinnöistään on Bitcoin, sillä se ammentaa voimakkaasti [Hashcash](https://planb.academy/resources/glossary/hashcash)-teknologiasta— teknologiasta, jonka cypherpunk Adam Back kehitti vuonna 1997 torjuakseen sähköpostispämmiä.
 
 Muita merkittäviä Cypherpunkkeja ovat:
 
 - **Timothy May:** Cypherpunkkien postituslistan perustajajäsen ja kirjoitti laajasti kryptografiasta ja yksityisyydestä 90-luvulla ja 2000-luvun alussa. Hänen kirjoituksensa loivat pohjan keskusteluille digitaalisesta yksityisyydestä ja elektronisista rahajärjestelmistä.
 - **Eric Huges:** Toinen Cypherpunk-liikkeen perustajajäsen ja "A Cypherpunk's Manifesto" -manifestin toinen kirjoittaja, joka korosti yksityisyyden ja nimettömyyden merkitystä digitaalisella aikakaudella.
-- **Whitfield Diffie ja Martin Hellman:** Kehittivät julkisen avaimen kryptografian konseptin, mullistaen turvallisen internet-viestinnän.
+- **Whitfield Diffie ja Martin Hellman:** Kehittivät [julkisen avaimen](https://planb.academy/resources/glossary/public-key) kryptografian konseptin, mullistaen turvallisen internet-viestinnän.
 - **Julian Assange:** WikiLeaksin perustaja, joka julkaisee luokiteltua ja arkaluonteista tietoa edistääkseen läpinäkyvyyttä ja vastuullisuutta.
-- **Bram Cohen:** Loi BitTorrentin, vertaisverkkoon perustuvan tiedostonjakoprotokollan, joka hajautti sisällönjakelun ja mahdollisti nopeammat lataukset.
+- **Bram Cohen:** Loi BitTorrentin, [vertaisverkkoon perustuvan](https://planb.academy/resources/glossary/peertopeer-p2p) tiedostonjakoprotokollan, joka hajautti sisällönjakelun ja mahdollisti nopeammat lataukset.
 - **John Gilmore:** Yrittäjä ja libertaristi, joka oli Electronic Frontier Foundationin (EFF) perustajajäsen ja ajoi digitaalisia oikeuksia ja yksityisyyttä verkossa.
 
 ...ja lista jatkuu.
 
 #### David Chaum (Digitaalisen Valuutan Isä)
 
-1980-luvun alussa David Chaum mullisti digitaalisten valuuttojen maailman uraauurtavalla työllään "sokeilla allekirjoituksilla". Tämä mahdollisti viestin kryptografisen allekirjoittamisen tietämättä sen sisältöä, varmistaen yksityisyyden ja turvallisuuden digitaalisissa transaktioissa. Vuonna 1982 David Chaum konseptoi Ecashin, nimettömän sähköisen rahajärjestelmän, joka hyödynsi kryptografiaa ja myöhemmin toteutettiin hänen yrityksensä Digicashin kautta.
+1980-luvun alussa David Chaum mullisti digitaalisten valuuttojen maailman uraauurtavalla työllään "[sokeilla allekirjoituksilla](https://planb.academy/resources/glossary/blind-signature)". Tämä mahdollisti viestin kryptografisen allekirjoittamisen tietämättä sen sisältöä, varmistaen yksityisyyden ja turvallisuuden digitaalisissa transaktioissa. Vuonna 1982 David Chaum konseptoi [Ecashin](https://planb.academy/resources/glossary/ecash-david-chaum), nimettömän sähköisen rahajärjestelmän, joka hyödynsi kryptografiaa ja myöhemmin toteutettiin hänen yrityksensä Digicashin kautta.
 
 Vaikka Digicashia käytettiin mikromaksujärjestelmänä yhdessä Yhdysvaltain pankissa vuosina 1995–1998, Chaum joutui lopulta hakemaan yritykselleen konkurssia. Hänen innovatiiviset ideansa kuitenkin inspiroivat muita tutkimaan digitaalisia valuuttoja, raivaten tietä nykyaikaisten kryptovaluuttojen, kuten Bitcoinin, kehitykselle.
 
@@ -518,7 +518,7 @@ Vaikka E-gold lopulta epäonnistui, se oli ratkaiseva askel digitaalisten valuut
 
 Bitcoinin meteorisen nousun myötä monet ihmiset virheellisesti uskovat sen olleen ensimmäinen koskaan olemassa ollut digitaalinen valuutta. Kuten nyt toivottavasti käy ilmi, tämä oletus on kaukana totuudesta. Bitcoinin esiinmarssi on vuosikymmenten tutkimuksen ja kokeilun tulosta kryptografian pioneerien toimesta. Ilman yllä mainittujen henkilöiden ja monien muiden panosta Bitcoin ei ehkä olisi koskaan syntynyt. Vaikka nämä varhaiset digitaaliset valuutat lopulta epäonnistuivat, Bitcoin oppi niiden virheistä ja on lopulta tullut tuntemaksemme digitaaliseksi valuutaksi.
 
-Sanottakoon, että ilman yhtä henkilöä... tai ryhmää (emme tiedä varmasti), Bitcoin ei olisi olemassa. Ja kyseessä on Satoshi Nakamoto. Enigmaattinen luoja.
+Sanottakoon, että ilman yhtä henkilöä... tai ryhmää (emme tiedä varmasti), Bitcoin ei olisi olemassa. Ja kyseessä on [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi). Enigmaattinen luoja.
 
 #### Satoshi Nakamoto
 
@@ -549,7 +549,7 @@ Yhteenvetona voidaan todeta, että Bitcoin on mullistanut käsityksemme rahasta 
 
 - **Vertaisverkkoon perustuva:** Bitcoin mahdollistaa yksilöiden suorittaa maksuja suoraan toisilleen ilman välittäjiä, kuten pankkeja tai maksunvälittäjiä.
 - **Hajautettu:** Bitcoin toimii hajautetussa verkossa, mikä tarkoittaa, että valuutalla ei ole keskitettyä auktoriteettia tai kontrollia.
-- **Turvallinen:** Bitcoin-siirrot on suojattu kryptografialla, mikä tekee kolikoiden väärentämisen tai kaksinkertaisen kuluttamisen vaikeaksi.
+- **Turvallinen:** Bitcoin-siirrot on suojattu kryptografialla, mikä tekee kolikoiden väärentämisen tai [kaksinkertaisen kuluttamisen](https://planb.academy/resources/glossary/double-spending-attack) vaikeaksi.
 - **Rajoitettu määrä & jaettavissa:** Bitcoinin määrä on rajallinen—vain 21 miljoonaa kolikkoa on olemassa—samalla kun se on jaettavissa kahdeksaan desimaalipaikkaan, mahdollistaen transaktiot murto-osalla sentistä. Tämä niukkuus on suunniteltu antamaan valuutalle arvoa ja estämään inflaation.
 - **Pseudonyymi:** Vaikka Bitcoin-siirrot eivät ole täysin anonyymejä, ne tarjoavat yksityisyyden ja pseudonyymin tason, jota perinteiset maksutavat eivät tarjoa.
 
@@ -578,7 +578,7 @@ Verrattuna perinteisiin pankkijärjestelmiin, vaikka Bitcoin toimii toiminnallis
 3. varmistettava, että kaikki on ajan tasalla, toimii sujuvasti ja turvallisesti.
    Vaikka pankit suorittavat nämä tehtävät talon sisällä, mikä antaa niille täyden kontrollin prosessin yli, Bitcoin vaatii yhteisön yhteistyötä näiden roolien suorittamiseksi. Toisin sanoen, jotta Bitcoin voisi toistaa nämä prosessit hajautetussa järjestelmässä, sen on ulkoistettava kukin näistä tehtävistä varmistaakseen, että yksittäisellä henkilöllä tai keskitetyllä taholla ei ole suhteetonta kontrollia järjestelmän yli.
 
-Tämän mullistavan saavutuksen toteuttamiseksi Bitcoin on jakautunut kolmeen keskeiseen rooliin: solmut, louhijat ja kehittäjät. Missä solmut vahvistavat transaktioita ja asettavat sekä valvovat sääntöjä, louhijat järjestävät ja vahvistavat transaktioita, ja kehittäjät pitävät verkon ajan tasalla ja ehdottavat päivityksiä. Jakamalla nämä tehtävät näiden keskeisten toimijoiden kesken, Bitcoin on luonut järjestelmän, joka on turvallinen, läpinäkyvä ja kaikkien käyttäjien vastuulla.
+Tämän mullistavan saavutuksen toteuttamiseksi Bitcoin on jakautunut kolmeen keskeiseen rooliin: [solmut](https://planb.academy/resources/glossary/node), [louhijat](https://planb.academy/resources/glossary/miner) ja kehittäjät. Missä solmut vahvistavat transaktioita ja asettavat sekä valvovat sääntöjä, louhijat järjestävät ja vahvistavat transaktioita, ja kehittäjät pitävät verkon ajan tasalla ja ehdottavat päivityksiä. Jakamalla nämä tehtävät näiden keskeisten toimijoiden kesken, Bitcoin on luonut järjestelmän, joka on turvallinen, läpinäkyvä ja kaikkien käyttäjien vastuulla.
 
 Katsotaan siis tarkemmin kutakin näistä rooleista…
 
@@ -586,7 +586,7 @@ Katsotaan siis tarkemmin kutakin näistä rooleista…
 
 #### Solmut
 
-Solmut ovat olennaisen tärkeitä Bitcoin-verkon eheyden ja turvallisuuden kannalta. Ne toimivat järjestelmän vartijoina, varmistaen, että transaktiot käsitellään tarkasti ja sääntöjen mukaisesti. Jokainen solmu lataa ja tarkistaa paikallisesti koko lohkoketjun kopion, joka on käytännössä digitaalinen kirjanpito, joka tallentaa jokaisen Bitcoin-verkossa tehdyn transaktion. Konsensuksen kautta solmut sopivat kunkin transaktion pätevyydestä ja varmistavat, että sääntöjä noudatetaan. Tämä tarkoittaa, että jos joku yrittää huijata järjestelmää, esim. lähettämällä enemmän bitcoineja kuin heillä todellisuudessa on tai yrittämällä käyttää samoja bitcoineja kahdesti, solmut hylkäävät transaktion.
+Solmut ovat olennaisen tärkeitä Bitcoin-verkon eheyden ja turvallisuuden kannalta. Ne toimivat järjestelmän vartijoina, varmistaen, että transaktiot käsitellään tarkasti ja sääntöjen mukaisesti. Jokainen solmu lataa ja tarkistaa paikallisesti koko lohkoketjun kopion, joka on käytännössä digitaalinen kirjanpito, joka tallentaa jokaisen Bitcoin-verkossa tehdyn transaktion. [Konsensuksen](https://planb.academy/resources/glossary/consensus) kautta solmut sopivat kunkin transaktion pätevyydestä ja varmistavat, että sääntöjä noudatetaan. Tämä tarkoittaa, että jos joku yrittää huijata järjestelmää, esim. lähettämällä enemmän bitcoineja kuin heillä todellisuudessa on tai yrittämällä käyttää samoja bitcoineja kahdesti, solmut hylkäävät transaktion.
 
 Tarkemmin sanottuna konsensuksesta, kun kehittäjät ehdottavat muutoksia tai päivityksiä Bitcoiniin, solmuilla on rooli näiden muutosten hyväksymisessä tai hylkäämisessä. Ne tekevät tämän joko päivittämällä ohjelmistonsa uuteen versioon tai jatkamalla vanhan version käyttöä. Tämä prosessi usein sisältää keskusteluja ja väittelyitä Bitcoin-yhteisön sisällä konsensuksen saavuttamiseksi. Sanottakoon, että Bitcoinin konsensus ei ole niin mustavalkoinen kuin äänestyskone. Enemmistö ei välttämättä hallitse. Jos jotkut yksilöt eivät ole muutoksen kanssa samaa mieltä, he voivat käynnistää uuden Bitcoinista johdetun tokenin. Nyt alkuperäinen Bitcoin on olemassa ilman muutosta ja uusi sen kanssa. Ostamisen ja myymisen kautta yhteisö päättää, kumpaa versiota pitää arvokkaampana. Tämä konsensusmekanismi varmistaa, että kaikki Bitcoin-protokollaan tehdyt muutokset hyväksytään koko yhteisön toimesta, mikä tekee vaikeaksi yksilöiden tai ryhmien manipuloida järjestelmää omaksi hyödykseen.
 
@@ -594,7 +594,7 @@ On myös tärkeää huomata, että solmu on yksinkertaisesti ohjelmisto, jonka k
 
 #### Louhijat
 
-Toisaalta Bitcoin-louhijat ovat kriittisessä roolissa kirjanpidossa, sillä he ovat vastuussa transaktioiden järjestämisestä ja vahvistamisesta. Tätä varten louhijat käyttävät erikoistuneita tietokoneita suorittamaan toimintoa, jota kutsutaan hashaukseksi. Hashauksen nitty grittyyn syventymättä, ajattele sitä kuin louhijat kilpailevat keskenään lisätäkseen uusia transaktioita lohkoketjuun, julkiseen transaktioiden kirjanpitoon. Työstään louhijat palkitaan vasta luoduilla bitcoineilla ja kaikista käsitellyistä transaktioista saaduilla transaktiomaksuilla. Louhintaprosessi on suunniteltu olemaan vaikea, kilpailullinen ja satunnainen, ja joka vuosi vapautetaan vain rajoitettu määrä uusia bitcoineja, varmistaen, että bitcoinien tarjonta on rajallinen ja niiden arvo säilyy. Ilman louhijoita transaktioita ei käsiteltäisi.
+Toisaalta Bitcoin-louhijat ovat kriittisessä roolissa kirjanpidossa, sillä he ovat vastuussa transaktioiden järjestämisestä ja vahvistamisesta. Tätä varten louhijat käyttävät erikoistuneita tietokoneita suorittamaan toimintoa, jota kutsutaan [hashaukseksi](https://planb.academy/resources/glossary/hash-function). Hashauksen nitty grittyyn syventymättä, ajattele sitä kuin louhijat kilpailevat keskenään lisätäkseen uusia transaktioita lohkoketjuun, julkiseen transaktioiden kirjanpitoon. Työstään louhijat palkitaan vasta luoduilla bitcoineilla ja kaikista käsitellyistä transaktioista saaduilla [transaktiomaksuilla](https://planb.academy/resources/glossary/transaction-fees). Louhintaprosessi on suunniteltu olemaan vaikea, kilpailullinen ja satunnainen, ja joka vuosi vapautetaan vain rajoitettu määrä uusia bitcoineja, varmistaen, että bitcoinien tarjonta on rajallinen ja niiden arvo säilyy. Ilman louhijoita transaktioita ei käsiteltäisi.
 Koska louhijoiden on kilpailtava keskenään transaktioiden käsittelystä ja heitä palkitaan tästä, tämä kilpailu minimoi mahdollisuuden, että mikään yksittäinen louhija tai taho voisi hallita verkkoa ja kannustaa louhijoita toimimaan rehellisesti ja noudattamaan sääntöjä. Jos louhija yrittää huijata tai rikkoa sääntöjä, hän riskeeraa palkkionsa menettämisen, joten sääntöjen noudattamiseen on vahva kannustin.
 
 #### Kehittäjät
@@ -613,9 +613,9 @@ Ymmärtääksemme, miten kaikki nämä toimijat työskentelevät yhdessä, kuvit
 
 #### Transaktion Aloitus
 
-Jokainen Bitcoin-transaktio alkaa sen aloittamisella, kun lähettäjä, tässä tapauksessa Alice, luo transaktion määritellen vastaanottajan, Bobin, ja määrän, 0.00100000 bitcoinia. Alicen lompakkoon liitetty solmu lähettää sitten transaktion verkkoon, missä solmut vahvistavat sen pätevyyden, ja se lähetetään louhijoille vahvistettavaksi.
+Jokainen Bitcoin-transaktio alkaa sen aloittamisella, kun lähettäjä, tässä tapauksessa Alice, luo transaktion määritellen vastaanottajan, Bobin, ja määrän, 0.00100000 bitcoinia. Alicen [lompakkoon](https://planb.academy/resources/glossary/wallet) liitetty solmu lähettää sitten transaktion verkkoon, missä solmut vahvistavat sen pätevyyden, ja se lähetetään louhijoille vahvistettavaksi.
 
-Tässä vaiheessa transaktio siirtyy niin kutsuttuun mempooliin, joka on käytännössä odotushuone transaktioille, jotka ovat valmiita lisättäväksi lohkoketjuun. Ajattele sitä listana odottavista transaktioista, aivan kuten ne, joita näet luottokorttilausunnossasi, jotka on aloitettu mutta odottavat käsittelyä. Kun transaktio on aloitettu ja se on mempoolissa, se on nyt louhijoiden käsissä.
+Tässä vaiheessa transaktio siirtyy niin kutsuttuun [mempooliin](https://planb.academy/resources/glossary/mempool), joka on käytännössä odotushuone transaktioille, jotka ovat valmiita lisättäväksi lohkoketjuun. Ajattele sitä listana odottavista transaktioista, aivan kuten ne, joita näet luottokorttilausunnossasi, jotka on aloitettu mutta odottavat käsittelyä. Kun transaktio on aloitettu ja se on mempoolissa, se on nyt louhijoiden käsissä.
 
 #### Transaktion Vahvistus
 
@@ -676,7 +676,7 @@ Vaikka fiat-valuutat ovat alttiita inflaatiolle ja ovat historiallisesti osoitta
 Vaikka bitcoin ei vielä ole yhtä globaalisti hyväksytty kuin fiat-valuutat, sen vertaisverkkoluonne, nopeat transaktioajat ja matalat kulut tekevät siitä yhä houkuttelevamman vaihdon välineen, erityisesti rajat ylittävissä transaktioissa. Tämä on mahdollista, koska se on:
 
 - **Kannettava:** Bitcoin, ollessaan digitaalinen, mahdollistaa rajattomat ja välittäjättömät siirrot yksilöiden välillä, tehden siitä kätevän ja saavutettavan vaihdon välineen. Vaikka jotkut fiat-valuutat tarjoavat myös digitaalisia ratkaisuja, kehittyvissä tai sodan runtelemissa maissa asuvat saattavat kamppailla päästäkseen käsiksi pankkipalveluihin, jotka täyttävät tämän tarpeen. Bitcoinin hajautettu luonne tekee siitä saavutettavan kenelle tahansa, jolla on internet-yhteys, tarjoten elinkelpoisen vaihtoehdon perinteisille pankkijärjestelmille alueilla, joilla on rajoitettu pääsy rahoituspalveluihin.
-- **Jaettavissa:** Bitcoinin äärimmäinen jaettavuus on yksi sen keskeisistä eduista valuuttana. Jokainen bitcoin on jaettavissa jopa kahdeksaan desimaalipaikkaan, ja pienin yksikkö, Satoshi, on arvoltaan vain murto-osan sentistä. Riippuen transaktiotavasta, esim. kerros yksi tai kaksi, tämä tekee bitcoinista erittäin mukautuvan mihin tahansa kokoiseen transaktioon, pienistä ostoksista suuriin sijoituksiin.
+- **Jaettavissa:** Bitcoinin äärimmäinen jaettavuus on yksi sen keskeisistä eduista valuuttana. Jokainen bitcoin on jaettavissa jopa kahdeksaan desimaalipaikkaan, ja pienin yksikkö, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), on arvoltaan vain murto-osan sentistä. Riippuen transaktiotavasta, esim. kerros yksi tai kaksi, tämä tekee bitcoinista erittäin mukautuvan mihin tahansa kokoiseen transaktioon, pienistä ostoksista suuriin sijoituksiin.
 - **Hyväksytty:** Vaikka bitcoinin hyväksyntä ei vielä ole universaalia, sen kasvava omaksuminen kauppiaiden, instituutioiden ja yksilöiden keskuudessa ympäri maailmaa viittaa siihen, että se on tulemassa yhä laajemmin hyväksytyksi legitiiminä maksutapana.
 
 ### Tilin yksikkö
@@ -776,7 +776,7 @@ Käännämme nyt huomiomme siihen, mitä tehdä kun olet hankkinut bitcoineja ta
 
 ### Bitcoinien turvallinen säilyttäminen
 
-Se, mikä tekee Bitcoinista vallankumouksellisen, on se, että historian ensimmäistä kertaa voimme ottaa digitaalisen omaisuuden itsehallintaan. Tätä saavutusta ei voi liikaa korostaa! Aivan kuten voimme säilyttää käteistä tyynymme alla, voimme tehdä saman bitcoinien kanssa, mutta digitaalisesti. Tämä uusi kontrollin taso rahamme yli tuo kuitenkin mukanaan uusia vastuita. Pitääksemme bitcoinimme turvassa, meidän on opittava suojaamaan ne asianmukaisesti. Tämä tarkoittaa toimenpiteitä menetyksen, varkauden ja hakkerointiyritysten estämiseksi.
+Se, mikä tekee Bitcoinista vallankumouksellisen, on se, että historian ensimmäistä kertaa voimme ottaa digitaalisen omaisuuden [itsehallintaan](https://planb.academy/resources/glossary/selfcustody). Tätä saavutusta ei voi liikaa korostaa! Aivan kuten voimme säilyttää käteistä tyynymme alla, voimme tehdä saman bitcoinien kanssa, mutta digitaalisesti. Tämä uusi kontrollin taso rahamme yli tuo kuitenkin mukanaan uusia vastuita. Pitääksemme bitcoinimme turvassa, meidän on opittava suojaamaan ne asianmukaisesti. Tämä tarkoittaa toimenpiteitä menetyksen, varkauden ja hakkerointiyritysten estämiseksi.
 
 #### Missä säilyttää bitcoinejasi
 
@@ -790,9 +790,9 @@ Yksi yleinen esimerkki hallinnoivasta lompakosta on vaihtotilin lompakko. Kun os
 Lisäksi on lukemattomia muita hallinnoivia lompakkoratkaisuja saatavilla mobiililaitteille, jotka tarjoavat helpon pääsyn bitcoineihisi. Nämä lompakot ovat tyypillisesti käyttäjäystävällisiä ja tarjoavat yksinkertaisen tavan hallita bitcoinejasi, mutta ne pitävät silti hallussaan bitcoiniesi avaimia.
 
 **Hallitsemattomat lompakot (a.k.a. itsehallinta)**
-Hallitsemattomat lompakot ovat Bitcoin-lompakon tyyppi, jossa olet varojesi ainoa hallitsija, mikä tarkoittaa, että sinulla on täysi kontrolli yksityisiin avaimiisi. Yksityiset avaimet ovat kuin salasana lompakkoosi ja niitä käytetään transaktioiden allekirjoittamiseen ja valtuuttamiseen. Ilman niitä et voi päästä käsiksi tai siirtää bitcoinejasi.
+Hallitsemattomat lompakot ovat Bitcoin-lompakon tyyppi, jossa olet varojesi ainoa hallitsija, mikä tarkoittaa, että sinulla on täysi kontrolli [yksityisiin avaimiisi](https://planb.academy/resources/glossary/private-key). Yksityiset avaimet ovat kuin salasana lompakkoosi ja niitä käytetään transaktioiden allekirjoittamiseen ja valtuuttamiseen. Ilman niitä et voi päästä käsiksi tai siirtää bitcoinejasi.
 
-Hallitsemattomat lompakot tarjoavat korkeamman turvallisuuden ja yksityisyyden tason kuin hallinnoivat lompakot, koska vain sinä olet vastuussa varojesi turvallisuudesta. Esimerkkejä hallitsemattomista lompakoista ovat laitteistolompakot kuten [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), jotka ovat fyysisiä laitteita, jotka säilyttävät yksityiset avaimet offline-tilassa ja tarjoavat ylimääräisen turvallisuustason. Muita suosittuja hallitsemattomia lompakoita ovat ohjelmistolompakot kuten [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), jotka voidaan ladata ja asentaa tietokoneellesi tai mobiililaitteeseesi.
+Hallitsemattomat lompakot tarjoavat korkeamman turvallisuuden ja yksityisyyden tason kuin hallinnoivat lompakot, koska vain sinä olet vastuussa varojesi turvallisuudesta. Esimerkkejä hallitsemattomista lompakoista ovat [laitteistolompakot](https://planb.academy/resources/glossary/hardware-wallet) kuten [Coldcard](https://store.coinkite.com/store/coldcard) ja [Trezor](https://trezor.io/), jotka ovat fyysisiä laitteita, jotka säilyttävät yksityiset avaimet offline-tilassa ja tarjoavat ylimääräisen turvallisuustason. Muita suosittuja hallitsemattomia lompakoita ovat ohjelmistolompakot kuten [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), ja [Blockstream Green](https://blockstream.com/green/), jotka voidaan ladata ja asentaa tietokoneellesi tai mobiililaitteeseesi.
 
 **Vaikka emme voi suositella tiettyä lompakkoa, suosittelemme voimakkaasti ottamaan hallinnan bitcoineistasi itsehallinnan tai yhteishallinnan kautta, mikä tarkoittaa sopivan lompakon valitsemista tarpeidesi ja mieltymystesi mukaan. On olennaista tehdä perusteellista tutkimusta ennen lompakon valintaa varmistaaksesi, että se vastaa turvallisuus- ja käytettävyysvaatimuksiasi.**
 Vaikka säilytyspalveluita tarjoavat lompakot saattavat vaikuttaa käteviltä, niihin liittyy merkittäviä riskejä. Antamalla yksityisten avaintesi hallinnan kolmannelle osapuolelle, annat käytännössä heille valvonnan varoistasi. Jos säilyttäjä tulee maksukyvyttömäksi, joutuu hakkeroinnin kohteeksi tai lopettaa toimintansa, saatat menettää pääsyn bitcoineihisi. Ja tällaista on tapahtunut lukemattomia kertoja, korkean profiilin esimerkkeinä ovat Mt. Goxin ja QuadrigaCX:n hakkeroinnit, jotka johtivat asiakkaiden varojen menetyksiin, tai FTX, Voyager, BlockFi ja Celsius, jotka kokivat katastrofaalisia maksukyvyttömyyksiä, johtaen asiakkaiden varojen menetyksiin. Erityisesti säästöjen kohdalla on ratkaisevan tärkeää harjoittaa itsehallintaa ja ottaa vastuu bitcoiniesi turvaamisesta.
@@ -801,7 +801,7 @@ Vaikka säilytyspalveluita tarjoavat lompakot saattavat vaikuttaa käteviltä, n
 
 Kun olet päättänyt lompakosta, hauskuus ei ole vielä ohi. Nyt on aika minimoida tappion riski. Bitcoiniesi suojelemiseksi harkitse seuraavia toimenpiteitä lompakon valinnan jälkeen:
 
-1. Ennen kaikkea, varmuuskopioi lompakkosi ottaessasi itsehallinnan. Laitteistolompakot sisältävät palautusavainlauseen, joukon sanoja, joita voidaan käyttää yksityisten avaintesi palauttamiseen, mikäli laitteesi katoaa tai vahingoittuu. Luo fyysinen kopio, kuten metallinen avainlauselevy, tästä [avainlauseesta](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) ja säilytä sitä turvallisessa paikassa. On tärkeää pitää tämä palautusavainlause turvassa. ÄLÄ koskaan jaa sitä kenenkään kanssa.
+1. Ennen kaikkea, varmuuskopioi lompakkosi ottaessasi itsehallinnan. Laitteistolompakot sisältävät [palautusavainlauseen](https://planb.academy/resources/glossary/recovery-phrase), joukon sanoja, joita voidaan käyttää yksityisten avaintesi palauttamiseen, mikäli laitteesi katoaa tai vahingoittuu. Luo fyysinen kopio, kuten metallinen avainlauselevy, tästä [avainlauseesta](https://coincodex.com/article/23147/best-metal-crypto-wallets-for-seed-phrase-storage/) ja säilytä sitä turvallisessa paikassa. On tärkeää pitää tämä palautusavainlause turvassa. ÄLÄ koskaan jaa sitä kenenkään kanssa.
 2. Kun suojaat merkittävän määrän bitcoineja, joiden menettämistä et haluaisi kohdata, on tärkeää tutkia perintösuunnitteluvaihtoehtoja odottamattoman poismenosi varalta. Tämä varmistaa, että perheesi ja läheisesi voivat päästä käsiksi ja hallita bitcoinejasi tehokkaasti.
 3. Ole valppaana phishing-yritysten ja muiden huijausten suhteen. Huijarit yrittävät usein huijata sinua antamaan heille pääsyn bitcoineihisi esittäytymällä luotettavana yrityksenä tai henkilönä. Mikään arvostettu yritys ei koskaan pyydä sinulta yksityisiä avaimiasi, joten älä koskaan jaa yksityisiä avaimiasi kenenkään kanssa, ja varmista aina verkkosivuston tai henkilön aitous ennen kuin lähetät bitcoineja.
 

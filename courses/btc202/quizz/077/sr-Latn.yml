@@ -5,5 +5,5 @@ wrong_answers:
   - RocksDB
   - Berkeley DB
 explanation: |
-  Bitcoin core koristi LevelDB u blocks/index/ za indeksiranje blokova, ubrzavajući pretragu i uslugu prema vršnjacima.
+  Bitcoin Core koristi LevelDB u blocks/index/ za indeksiranje blokova, ubrzavajući pretragu i uslugu prema vršnjacima.
 reviewed: true

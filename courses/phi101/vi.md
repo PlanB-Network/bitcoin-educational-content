@@ -832,7 +832,7 @@ Việc nghiên cứu có hệ thống về các quy luật kinh tế bắt đầ
 
 ![image](assets/vi/049.webp)
 
-Trọng tâm trong phân tích về tiền tệ của ông là vấn đề về "sự biến đổi" của tiền tệ, tức là sự thay đổi về hàm lượng kim loại của đồng tiền và mệnh giá của chúng. Những thay đổi này đã xảy ra từ thời sơ khai và được ghi chép rõ ràng từ thời Cổ đại và Trung Cổ. Tác động rõ ràng nhất của chúng là thay đổi sức mua của đơn vị tiền tệ, đặc biệt là làm giảm sức mua. Đây là một hình thức lạm phát sơ khai mà Oresme đã thẳng thắn lên án như một điều xấu.
+Trọng tâm trong phân tích về tiền tệ của ông là vấn đề về "sự biến đổi" của tiền tệ, tức là sự thay đổi về hàm lượng kim loại của đồng tiền và mệnh giá của chúng. Những thay đổi này đã xảy ra từ thời sơ khai và được ghi chép rõ ràng từ thời Cổ đại và Trung Cổ. Tác động rõ ràng nhất của chúng là thay đổi sức mua của đơn vị tiền tệ, đặc biệt là làm giảm sức mua. Đây là một hình thức [lạm phát](https://planb.academy/resources/glossary/inflation) sơ khai mà Oresme đã thẳng thắn lên án như một điều xấu.
 
 Oresme ngay lập tức đặt ra một câu hỏi quan trọng: lạm phát có mang lại lợi ích cho cộng đồng không? Ông trả lời là không, và cho rằng lạm phát không làm cho tiền tệ trở nên hữu ích hơn hoặc kém hữu ích đi trong các giao dịch. Nền kinh tế có thể hoạt động tốt bất kể mức giá, và do đó, bất kể nguồn cung tiền tệ danh nghĩa.
 Nhưng nếu đúng như vậy, một câu hỏi khác tất yếu được đặt ra: tại sao lại có sự biến đổi của tiền tệ? Và cụ thể, tại sao lại tìm cách tăng nguồn cung tiền tệ? Oresme trả lời rằng những biến đổi này không có cùng hậu quả đối với các thành viên khác nhau trong cộng đồng. Chúng mang lại lợi ích cho một số người nhưng lại gây thiệt hại cho những thành viên khác của cộng đồng. Những người thắng cuộc trong việc biến đổi tiền tệ có lợi ích vật chất trong việc thực hiện chúng. Nói chung, những người thắng cuộc là những người có quyền lực. Oresme viết:
@@ -999,7 +999,7 @@ Turgot là một tín đồ của luật tự nhiên, mà ông cũng gọi là "
 
 Ở đây, Turgot đã gần như tiên đoán trước lập luận của Mises và Hayek về sự bất khả thi của bất kỳ tính toán kinh tế nào trong một hệ thống kinh tế xã hội chủ nghĩa.
 
-Murray Rothbard trong tác phẩm về lịch sử kinh tế từ góc nhìn của trường phái Áo, đã dành một chương cho "Vinh quang của Turgot," nhấn mạnh rằng "Ảnh hưởng của Turgot đối với tư tưởng kinh tế sau này bị hạn chế nghiêm trọng (...) bởi huyền thoại cho rằng Adam Smith là người sáng lập của kinh tế học chính trị." Và ông thêm vào, "J.B. Say, người được xem là môn đồ của Smith, thực chất lại chịu ảnh hưởng nhiều nhất từ Turgot, đặc biệt là lý thuyết về giá trị tiện ích của ông ấy."
+Murray Rothbard trong tác phẩm về lịch sử kinh tế từ góc nhìn của trường phái [Áo](https://planb.academy/resources/glossary/austrian-school), đã dành một chương cho "Vinh quang của Turgot," nhấn mạnh rằng "Ảnh hưởng của Turgot đối với tư tưởng kinh tế sau này bị hạn chế nghiêm trọng (...) bởi huyền thoại cho rằng Adam Smith là người sáng lập của kinh tế học chính trị." Và ông thêm vào, "J.B. Say, người được xem là môn đồ của Smith, thực chất lại chịu ảnh hưởng nhiều nhất từ Turgot, đặc biệt là lý thuyết về giá trị tiện ích của ông ấy."
 
 ### Kiệt tác của Condillac
 
@@ -1555,7 +1555,7 @@ Vào năm 1976, Hayek đã đề xuất một giải pháp thay thế cho độc
 Theo Hayek, sự bất ổn trước đây của nền kinh tế thị trường là do yếu tố quan trọng nhất để điều tiết các cơ chế thị trường, tiền tệ, chưa thể là kết quả của một quá trình thị trường tự do.
 
 ![image](assets/vi/101.webp)
-Hayek tin rằng một thị trường tự do của các đồng tiền tư nhân sẽ dẫn đến sự ổn định tiền tệ lớn hơn. Gần 50 năm sau, một loại tiền điện tử như Bitcoin đã hiện thực hoá tầm nhìn cạnh tranh của Hayek bằng cách mang lại một giải pháp phi tập trung thay thế cho hệ thống độc quyền của các ngân hàng trung ương. Bitcoin, với giới hạn phát hành ở mức 21 triệu đơn vị, là một biện pháp để chống lại lạm phát và sự tùy tiện của các nhà quản lý.
+Hayek tin rằng một thị trường tự do của các đồng tiền tư nhân sẽ dẫn đến sự ổn định tiền tệ lớn hơn. Gần 50 năm sau, một loại [tiền điện tử](https://planb.academy/resources/glossary/cryptocurrency) như Bitcoin đã hiện thực hoá tầm nhìn cạnh tranh của Hayek bằng cách mang lại một giải pháp phi tập trung thay thế cho hệ thống độc quyền của các ngân hàng trung ương. Bitcoin, với giới hạn phát hành ở mức 21 triệu đơn vị, là một biện pháp để chống lại lạm phát và sự tùy tiện của các nhà quản lý.
 
 
 

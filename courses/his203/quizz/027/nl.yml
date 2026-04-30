@@ -1,0 +1,11 @@
+question: Welk probleem loste het deterministische wallet concept op, geformaliseerd door ontwikkelaar Gregory Maxwell in juni 2011?
+answer: De noodzaak van regelmatige back-ups van privésleutels om bitcoins te beveiligen
+wrong_answers:
+  - Het risico van piraterij bij het opslaan van bitcoins op een apparaat met internetverbinding
+  - Kwetsbaarheid voor brute force-aanvallen vanwege de lage entropie van willekeurige getallengeneratoren
+  - Het niet kunnen hergebruiken van de account op een ander apparaat
+explanation: |
+ Deterministische wallet's passen sleutelafleiding toe: in plaats van individueel willekeurig generated te zijn, zoals in de hoofdsoftware werd gedaan, worden privésleutels afgeleid
+ deterministisch afgeleid uit informatie (seed genoemd) met cryptografische functies. Deze methode werd toegepast door de BitcoinSpinner en Electrum software
+ wallets eind 2011.
+reviewed: true

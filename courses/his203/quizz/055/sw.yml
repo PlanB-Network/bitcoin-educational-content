@@ -1,0 +1,9 @@
+question: Je, mfumo wa biashara nyuma ya BitPay, kichakataji cha malipo kilichozinduliwa na Stephen Pair na Tony Gallippi katika msimu wa joto wa 2011 ulikuwa upi?
+answer: Badilisha bitcoin za wateja kuwa dola papo hapo, kwa ada
+wrong_answers:
+  - Wawezeshe wateja kununua bitcoin mara moja kwa malipo ya dola, kwa kamisheni
+  - Kukopesha bitcoin zilizowekwa na wateja na kukusanya riba
+  - Rejesha malipo ya bitcoin kwa blockchain, ukipokea ada za miamala
+explanation: |
+ Wazo la BitPay lilikuwa kuwapa wafanyabiashara uwezekano wa kubadilisha malipo yao ya bitcoin mara moja kuwa dola, ili waweze kujikinga dhidi ya tete. BitPay iliwapa wateja dola mapema, ikitoza ada ya usindikaji ambayo mwanzoni ilikuwa 1%.
+reviewed: true

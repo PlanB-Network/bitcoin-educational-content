@@ -317,7 +317,7 @@ In reazione all'esperienza di John Law, Cantillon spiega cosa succede o deve suc
 ![image](assets/it/017.webp)
 
 
-Egli vede due conseguenze principali nella sostituzione di una moneta senza valore reale come la cartamoneta con una metallica. La prima conseguenza è quella che chiama "rifiuto popolare", ovvero una crescente sfiducia nei confronti del denaro senza valore. La seconda conseguenza è l'inflazione: l'indebolimento monetario rende i beni più costosi.
+Egli vede due conseguenze principali nella sostituzione di una moneta senza valore reale come la cartamoneta con una metallica. La prima conseguenza è quella che chiama "rifiuto popolare", ovvero una crescente sfiducia nei confronti del denaro senza valore. La seconda conseguenza è [l'inflazione](https://planb.academy/resources/glossary/inflation): l'indebolimento monetario rende i beni più costosi.
 
 
 In quarto luogo, nella sua analisi della **inflazione**, Cantillon si spinse oltre i suoi contemporanei. Avendo osservato il crollo del sistema di Law, Cantillon si rese conto che l'inflazione monetaria non colpisce tutti allo stesso modo. Al contrario, arricchisce alcuni impoverendo altri. Egli concluse che l'inflazione ha un effetto redistributivo: coloro che ricevono la moneta di nuova emissione beneficiano per primi dell'aumento del potere d'acquisto, mentre coloro che la ricevono successivamente si impoveriscono a causa dell'emissione di nuova moneta dovuta all'aumento dei tassi d'inflazione.

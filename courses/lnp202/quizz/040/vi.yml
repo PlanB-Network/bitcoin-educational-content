@@ -1,4 +1,4 @@
-question: Tại sao nên sử dụng trình quản lý node Lightning?
+question: Tại sao nên sử dụng trình quản lý nút Lightning?
 answer: Dễ dàng truy cập các chức năng nâng cao
 wrong_answers:
   - Thay thế việc triển khai LND

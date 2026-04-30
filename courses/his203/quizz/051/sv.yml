@@ -1,0 +1,10 @@
+question: Enligt Nicolas Christins studie som publicerades i augusti 2012, hur stor var den dagliga försäljningsvolymen under maj 2012?
+answer: 15 000 BTC eller 75 000 USD
+wrong_answers:
+  - 600 BTC eller 3.000 dollar
+  - 3.000 BTC eller 15.000 USD
+  - 75.000 BTC eller 375.000 dollar
+explanation: |
+ Den dagliga försäljningsvolymen, som uppgick till 8.000 BTC i mars, nådde 15.000 BTC i maj, motsvarande cirka 75.000 USD vid den tidpunkten. Aktiviteten som andel av den totala
+ Bitcoin-kedjans totala aktivitet låg mellan 10 och 20 procent under 2012. I början av november kallade Ross plattformens framgångar för "explosiv tillväxt".
+reviewed: true

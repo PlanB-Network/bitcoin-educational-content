@@ -1,0 +1,9 @@
+question: Erik Voorhees đã thực hiện đợt IPO không chính thức trên sàn giao dịch chứng khoán trực tuyến nào vào tháng 8 năm 2012 để phát triển sòng bạc trực tuyến SatoshiDICE?
+answer: MPEG
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ MPEx là nền tảng do Mircea Popescu quản lý và được ra mắt vài tháng trước đó. Erik Voorhees đã phát hành 100 triệu cổ phiếu (với mã chứng khoán S.DICE) và bán 10 cổ phiếu để huy động 34.500 bitcoin, tương đương khoảng 372.000 đô la.
+reviewed: true

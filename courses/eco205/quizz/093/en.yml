@@ -1,0 +1,8 @@
+question: In Austrian theory, what is the main role of money in the transmission of economic information?
+answer: It allows information to be disseminated in the form of prices that reflect the subjective valuations of goods
+wrong_answers:
+  - "It centralizes all economic decisions at a single point to optimize resource allocation"
+  - It standardizes individual preferences to create homogeneous demand across all markets
+  - It completely eliminates the subjectivity of exchanges by imposing fixed objective values
+explanation: |
+  According to Austrian thinking, money plays a crucial role in disseminating economic information in the form of prices. These prices are the accounting expression of subjective valuations, and serve as a "guiding star" informing all participants about the state of the market. Money acts as a common denominator enabling subjective values to be translated into comparable terms, thus facilitating decentralized coordination of economic players without centralization or forced standardization of preferences.

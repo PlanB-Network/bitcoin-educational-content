@@ -21,6 +21,7 @@ Bitaxe projesi, Bitcoin mining'da bir paradigma değişimini temsil ediyor ve ta
 
 Önceden mining deneyimi gerekmez, ancak temel elektronik bilgisi ve GitHub'a aşinalık faydalı olacaktır. Bu kurs sizi meraklı bir gözlemciden yetenekli bir Bitaxe kurucusu ve katılımcısına dönüştürecektir.
 
+Not: Bu kursun videoları yalnızca İngilizce olarak mevcuttur.
 
 +++
 
@@ -93,7 +94,7 @@ Bu teknik maceraya hemen dalın - Bitcoin mining'un geleceği sizin ellerinizde!
 
 :::video id=67d2529a-b7cb-4804-b02c-e56c12c9e66e:::
 
-Bitaxe projesi, Bitcoin mining donanım geliştirmede çığır açan bir değişimi temsil ediyor ve özel çözümlerin hakim olduğu bir sektöre açık kaynak ilkelerini getiriyor. Bu eğitim dizisi, Bitaxe'in kapsamlı tarihini, teknik yeniliklerini ve topluluk odaklı gelişimini inceleyerek, tek bir mühendisin vizyonunun nasıl merkezi olmayan mining donanımının gelişen bir ekosistemine dönüştüğüne dair içgörüler sunmaktadır. Projenin kökenlerini, zorluklarını ve başarılarını inceleyerek, hem ASIC geliştirmenin teknik karmaşıklıkları hem de Bitcoin alanındaki açık kaynak işbirliğinin gücü hakkında değerli bir anlayış kazanıyoruz.
+Bitaxe projesi, Bitcoin [mining](https://planb.academy/resources/glossary/mining) donanım geliştirmede çığır açan bir değişimi temsil ediyor ve özel çözümlerin hakim olduğu bir sektöre açık kaynak ilkelerini getiriyor. Bu eğitim dizisi, Bitaxe'in kapsamlı tarihini, teknik yeniliklerini ve topluluk odaklı gelişimini inceleyerek, tek bir mühendisin vizyonunun nasıl merkezi olmayan mining donanımının gelişen bir ekosistemine dönüştüğüne dair içgörüler sunmaktadır. Projenin kökenlerini, zorluklarını ve başarılarını inceleyerek, hem [ASIC](https://planb.academy/resources/glossary/asic) geliştirmenin teknik karmaşıklıkları hem de Bitcoin alanındaki açık kaynak işbirliğinin gücü hakkında değerli bir anlayış kazanıyoruz.
 
 
 ### Köken Hikayesi: İpek Yolu Keşfinden Solar Mining Vizyonuna
@@ -196,10 +197,10 @@ Yanlış voltaj uygulamasının cihaza kalıcı hasar verebileceği düşünüld
 ### Solo Mining Odaklanma ve Ağ Katılımı
 
 
-Bitaxe platformu, özellikle bireysel madencilerin büyük mining havuzlarına katılmak yerine Bitcoin bloklarını bağımsız olarak çözmeye çalıştıkları solo mining uygulamalarını hedeflemektedir. Bitaxe cihazlarının hash oranı, başarılı blok keşfini istatistiksel olarak olası kılmasa da, bu yaklaşım Bitcoin topluluğu içinde önemli eğitimsel ve felsefi amaçlara hizmet etmektedir. Bitaxe cihazlarıyla solo mining, kullanıcıların Bitcoin'ün proof-of-work sisteminin temel mekaniğini anlamalarına yardımcı olurken ağın merkezsizleşmesine de katkıda bulunur.
+Bitaxe platformu, özellikle bireysel madencilerin büyük mining havuzlarına katılmak yerine Bitcoin bloklarını bağımsız olarak çözmeye çalıştıkları solo mining uygulamalarını hedeflemektedir. Bitaxe cihazlarının hash oranı, başarılı blok keşfini istatistiksel olarak olası kılmasa da, bu yaklaşım Bitcoin topluluğu içinde önemli eğitimsel ve felsefi amaçlara hizmet etmektedir. Bitaxe cihazlarıyla solo mining, kullanıcıların Bitcoin'ün [proof-of-work](https://planb.academy/resources/glossary/proof-of-work) sisteminin temel mekaniğini anlamalarına yardımcı olurken ağın merkezsizleşmesine de katkıda bulunur.
 
 
-Solo mining'ye yapılan vurgu, OSMU topluluğunun Bitcoin'nın güvenlik modeline bireysel katılımı teşvik etme konusundaki kararlılığını yansıtmaktadır. Bitaxe platformu, bağımsız olarak çalışabilen erişilebilir donanım sağlayarak, kullanıcıların havuz altyapısına güvenmeden kendi mining işlemlerini yürütmelerini sağlar. Bu yaklaşım, Bitcoin'nın mutabakat mekanizmasının daha iyi anlaşılmasını sağlarken, madenci çeşitliliğini artırarak ağın merkezi olmayan yapısını desteklemektedir.
+Solo mining'ye yapılan vurgu, OSMU topluluğunun Bitcoin'nın güvenlik modeline bireysel katılımı teşvik etme konusundaki kararlılığını yansıtmaktadır. Bitaxe platformu, bağımsız olarak çalışabilen erişilebilir donanım sağlayarak, kullanıcıların havuz altyapısına güvenmeden kendi mining işlemlerini yürütmelerini sağlar. Bu yaklaşım, Bitcoin'nın [mutabakat](https://planb.academy/resources/glossary/consensus) mekanizmasının daha iyi anlaşılmasını sağlarken, madenci çeşitliliğini artırarak ağın merkezi olmayan yapısını desteklemektedir.
 
 
 ### Donanım Gelişimi ve Üretim İyileştirmeleri
@@ -526,7 +527,7 @@ Public Pool'un açık kaynak geliştirme taahhüdü, madencilere mining operasyo
 Yazılım mimarisi hem çekirdek mining havuz işlevselliğini hem de ayrı bir kullanıcı arayüzü havuzunu içerir ve her ikisi de ücretsiz olarak indirilebilir ve değiştirilebilir. Madenciler, Public Pool'u Docker konteynerleri de dahil olmak üzere çeşitli konfigürasyonlarda çalıştırabilir, bu da onu farklı donanım kurulumlarına ve teknik tercihlere uyarlanabilir hale getirir. GitHub depolarında sağlanan kapsamlı belgeler, ayrıntılı kurulum kılavuzları, yapılandırma seçenekleri ve değişiklik talimatları sunarak, çeşitli teknik uzmanlık düzeylerine sahip madenciler için erişilebilir hale getirir.
 
 
-Genel Havuza bağlanmak, geleneksel mining kurulumlarına kıyasla minimum yapılandırma gerektirir. Madencilerin mining cihazlarını Stratum bağlantı ayrıntılarıyla yapılandırmaları ve kullanıcı adı olarak Bitcoin adreslerini vermeleri yeterlidir. Organizasyonel amaçlar için bir nokta ayırıcıdan sonra isteğe bağlı bir işçi adı eklenebilir.
+Genel Havuza bağlanmak, geleneksel mining kurulumlarına kıyasla minimum yapılandırma gerektirir. Madencilerin mining cihazlarını [Stratum](https://planb.academy/resources/glossary/stratum) bağlantı ayrıntılarıyla yapılandırmaları ve kullanıcı adı olarak Bitcoin adreslerini vermeleri yeterlidir. Organizasyonel amaçlar için bir nokta ayırıcıdan sonra isteğe bağlı bir işçi adı eklenebilir.
 
 
 ### Topluluk Özellikleri ve Sürdürülebilirlik Modeli
@@ -557,13 +558,13 @@ Platformun kullanıcı arayüzü madencilere işçi durumu, hash oranı istatist
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
-Kendi Bitcoin mining havuzunuzu evde çalıştırmak, modern donanım ve basitleştirilmiş yazılım çözümleri ile giderek daha erişilebilir hale gelmiştir. Bu bölüm, uygun fiyatlı mini PC donanımı ve kolaylaştırılmış düğüm yönetim yazılımı kullanarak ev tabanlı bir halka açık havuzun pratik uygulamasını araştırmaktadır. Bu kılavuzun sonunda, kendi mining havuz altyapınızı kurmak için gereken donanım gereksinimlerini, yazılım kurulum sürecini ve temel yapılandırmayı anlayacaksınız.
+Kendi Bitcoin mining havuzunuzu evde çalıştırmak, modern donanım ve basitleştirilmiş yazılım çözümleri ile giderek daha erişilebilir hale gelmiştir. Bu bölüm, uygun fiyatlı mini PC donanımı ve kolaylaştırılmış [düğüm](https://planb.academy/resources/glossary/node) yönetim yazılımı kullanarak ev tabanlı bir halka açık havuzun pratik uygulamasını araştırmaktadır. Bu kılavuzun sonunda, kendi mining havuz altyapınızı kurmak için gereken donanım gereksinimlerini, yazılım kurulum sürecini ve temel yapılandırmayı anlayacaksınız.
 
 
 ### Donanım Gereksinimleri ve Kurulumu
 
 
-Herhangi bir ev mining havuz kurulumunun temeli, performans, maliyet ve enerji verimliliğini dengeleyen uygun donanımın seçilmesiyle başlar. Mini PC bu uygulama için ideal bir çözümdür, kompakt bir ayak izi ve makul güç tüketimini korurken yeterli işlem gücü sunar. Önerilen yapılandırma, Bitcoin blok zincirini ve ilgili verileri barındırmak için en az bir terabayt NVMe depolama alanı ile eşleştirilmiş, havuz işlemleri için yeterli hesaplama kaynakları sağlayan bir Intel N100 işlemci içerir.
+Herhangi bir ev mining havuz kurulumunun temeli, performans, maliyet ve enerji verimliliğini dengeleyen uygun donanımın seçilmesiyle başlar. Mini PC bu uygulama için ideal bir çözümdür, kompakt bir ayak izi ve makul güç tüketimini korurken yeterli [işlem](https://planb.academy/resources/glossary/transaction-tx) gücü sunar. Önerilen yapılandırma, Bitcoin [blok zincirini](https://planb.academy/resources/glossary/blockchain) ve ilgili verileri barındırmak için en az bir terabayt NVMe depolama alanı ile eşleştirilmiş, havuz işlemleri için yeterli hesaplama kaynakları sağlayan bir Intel N100 işlemci içerir.
 
 
 Bir mining havuzunun çalıştırılması, tamamen senkronize edilmiş bir Bitcoin düğümünün sürdürülmesini gerektirdiğinden, depolama gereksinimi özellikle kritiktir. Bir terabaytlık NVMe sürücü, blok zinciri senkronizasyonu ve devam eden işlem işleme için gerekli olan hızlı okuma/yazma işlemlerini sağlar. Ayrıca, yeterli RAM tahsisi hem temel Linux işletim sisteminin hem de havuz faaliyetlerini koordine edecek düğüm yönetim yazılımının sorunsuz çalışmasını destekler.
@@ -575,7 +576,7 @@ Bir mining havuzunun çalıştırılması, tamamen senkronize edilmiş bir Bitco
 Bir ev mining havuzu için yazılım yığını, Bitcoin işlemleri için gerekli kararlılığı ve güvenliği sağlayan bir Linux temeli üzerine kuruludur. Bu temel sistemin üzerine Umbrel gibi özel düğüm yönetim yazılımı, Bitcoin altyapısını yönetmek için sezgisel bir arayüz oluşturur. Bu yaklaşım, geleneksel olarak Bitcoin düğümlerinin çalıştırılmasıyla ilişkili karmaşıklığın çoğunu soyutlayarak havuz operasyonunu kapsamlı teknik geçmişe sahip olmayan kullanıcılar için erişilebilir hale getirir.
 
 
-Umbrel, web tabanlı bir arayüz aracılığıyla Bitcoin Çekirdek kurulumu, senkronizasyonu ve sürekli bakımı gerçekleştiren kapsamlı bir düğüm yönetim platformu olarak hizmet vermektedir. Platformun uygulama mağazası modeli, basit işaretle ve tıkla işlemleriyle mining havuz yazılımı da dahil olmak üzere ek hizmetlerin kolayca kurulmasına olanak tanır. Bu mimari, kullanıcıların Bitcoin altyapıları üzerinde tam kontrol sahibi olmaya devam ederken sistem yönetimi yerine havuz operasyonuna odaklanabilmelerini sağlar.
+Umbrel, web tabanlı bir arayüz aracılığıyla [Bitcoin Çekirdek](https://planb.academy/resources/glossary/bitcoin-core) kurulumu, senkronizasyonu ve sürekli bakımı gerçekleştiren kapsamlı bir düğüm yönetim platformu olarak hizmet vermektedir. Platformun uygulama mağazası modeli, basit işaretle ve tıkla işlemleriyle mining havuz yazılımı da dahil olmak üzere ek hizmetlerin kolayca kurulmasına olanak tanır. Bu mimari, kullanıcıların Bitcoin altyapıları üzerinde tam kontrol sahibi olmaya devam ederken sistem yönetimi yerine havuz operasyonuna odaklanabilmelerini sağlar.
 
 
 ### Halka Açık Havuz Kurulumu ve Yapılandırması

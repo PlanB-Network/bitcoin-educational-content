@@ -6,4 +6,4 @@ wrong_answers:
   - Non, mais c'était le cas avant 2012
 explanation: |
   Les frais sont la différence entre le total des inputs et le total des outputs, pas un output dédié. C'est le cas depuis toujours.
-reviewed: false
+reviewed: true 

@@ -1,4 +1,4 @@
-question: Every how many blocks is the difficulty target adjusted?
+question: After how many blocks is the difficulty target adjusted?
 answer: 2016 blocks
 wrong_answers:
   - 2000 blocks
@@ -6,4 +6,4 @@ wrong_answers:
   - 4096 blocks
 explanation: |
   The adjustment occurs every 2016 blocks, which is approximately two weeks at 10 minutes per block.
-reviewed: false
+reviewed: true

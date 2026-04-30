@@ -1,9 +1,9 @@
-question: Tại sao tính khan hiếm được coi là một đặc tính quan trọng của một loại tiền tệ tốt?
-answer: Bởi vì nguồn cung hạn chế giúp bảo vệ giá trị của nó khỏi bị pha loãng do sản xuất quá mức.
+question: Vì sao tính khan hiếm được coi là một đặc tính quan trọng của một loại tiền tệ tốt?
+answer: Bởi vì nguồn cung hạn chế giúp bảo vệ giá trị của loại tiền tệ đó khỏi bị pha loãng do việc phát hành quá mức.
 wrong_answers:
-  - Bởi vì nó đảm bảo rằng mọi người đều có thể dễ dàng đúc tiền của riêng mình.
-  - Bởi vì nó khiến cho đồng tiền khó được nhận dạng hơn.
-  - Bởi vì nó làm giảm việc sử dụng tiền tệ trong giao dịch đường dài.
+  - Bởi vì nó đảm bảo rằng mọi người đều có thể dễ dàng in tiền của riêng mình.
+  - Bởi vì nó khiến cho đồng tiền khó được chấp nhận hơn.
+  - Bởi vì nó làm giảm việc sử dụng đồng tiền trong các giao thương trên phạm vi đường dài.
 explanation: |
-  Một loại tiền tệ có sự khan hiếm được kiểm soát sẽ duy trì sức mua theo thời gian. Nếu không có sự khan hiếm, việc phát hành quá mức có thể dẫn đến lạm phát, làm xói mòn giá trị của đồng tiền.
+  Một loại tiền tệ có sự khan hiếm được kiểm soát sẽ duy trì sức mua theo thời gian. Nếu không có sự khan hiếm, việc phát hành quá mức có thể dẫn đến lạm phát giá, do đó làm xói mòn giá trị của đồng tiền.
 reviewed: true

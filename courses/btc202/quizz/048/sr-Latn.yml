@@ -1,4 +1,4 @@
-question: Koja komanda preuzima lokalni IP Address vašeg Umbrela ako pristup putem umbrel.local ne uspe?
+question: Koja komanda preuzima lokalnu IP adresu vašeg Umbrel-a ako pristup putem umbrel.local ne uspe?
 answer: hostname -I
 wrong_answers:
   - ifconfig -usb

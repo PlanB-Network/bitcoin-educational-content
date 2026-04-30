@@ -6,4 +6,4 @@ wrong_answers:
   - FPGA
 explanation: |
   At launch, the software ran on a personal computer and mainly used the processor.
-reviewed: false
+reviewed: true

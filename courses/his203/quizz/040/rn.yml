@@ -1,0 +1,10 @@
+question: None igishushanyo c’inyandiko ya Pay-to-Script-Hash (P2SH) gifise iki?
+answer: Gufunga amafaranga hash y'inyandiko, igomba gushirwa mu ngiro igihe ufungura
+wrong_answers:
+  - Gusaba imikono M ku bari muri N kugira ngo bemere ko umusaruro w'ugucuruza ukoreshwa
+  - Gutuma gukoresha amafaranga bitcoins bivana no gutanga umukono uhuye n'urufunguzo rumwe rwa bose 
+  - Kwandika amakuru atari yo ku rubuga rwa blockchain mu gutuma UTXO idashobora gukoreshwa
+explanation: |
+ Ivyo birimwo kwishura script hash no gutanga iyo script igihe ufungura amahera. Igitandukanya n’iciyumviro ca OP_EVAL ni uko ari . 
+ ryemezwa ubwaryo n’imashini y’ivy’impwemu, kugira ngo rishobore gukorwa ata mabwirizwa asobanutse akenewe.
+reviewed: true

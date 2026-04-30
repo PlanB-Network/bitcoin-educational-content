@@ -43,10 +43,11 @@ proofreading:
     contributor_names:
     reward: 1.07
   - language: id
-    last_contribution_date:
+    last_contribution_date: '2026-02-13'
     urgency: 1
     contributor_names:
-    reward: 1.39
+      - 62maximalist
+    reward: 0.7
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -68,7 +69,7 @@ proofreading:
     contributor_names:
     reward: 0.75
   - language: es
-    last_contribution_date: '2025-11-05'
+    last_contribution_date: '2025-11-04'
     urgency: 1
     contributor_names:
       - Salgraphics

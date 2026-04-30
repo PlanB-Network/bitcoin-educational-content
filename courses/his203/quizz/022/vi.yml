@@ -1,0 +1,9 @@
+question: Nền tảng Bitcoinica, được doanh nhân trẻ người Trung Quốc Zhou Tong ra mắt vào tháng 9 năm 2011, đã mang đến sự đổi mới tài chính chính nào?
+answer: Đòn bẩy và bán khống
+wrong_answers:
+  - Phát hành cổ phiếu và trái phiếu
+  - Khoản vay lãi suất thế chấp
+  - Trao đổi tiền mặt gần như tức thì
+explanation: |
+ Bitcoinica là nền tảng đầu tiên trong hệ sinh thái cung cấp giao dịch ký quỹ, cho phép khách hàng sử dụng đòn bẩy để khuếch đại lợi nhuận (và thua lỗ), và bán khống để đặt cược vào giá cổ phiếu giảm. Sau khi đóng cửa, loại dịch vụ này được tiếp quản bởi nền tảng Bitfinex, ra mắt vào tháng 10 năm 2012 và được xây dựng trên cùng mã nguồn.
+reviewed: true

@@ -11,10 +11,8 @@ description: Šta je Watch-only wallet i kako ga koristiti?
 **\*UPOZORENJE:** Nakon hapšenja osnivača Samourai Wallet i zaplene njihovih servera 24. aprila, aplikacija Sentinel nastavlja da funkcioniše, ali **obavezno je koristiti sopstveni Dojo** kako biste pristupili informacijama Blockchain i emitovali transakcije.\*
 
 
-_Pažljivo pratimo razvoj ovog slučaja kao i razvoj povezanih alata. Budite sigurni da ćemo ažurirati ovaj vodič čim nove informacije budu dostupne._
 
 
-_Ovaj vodič je pružen isključivo u obrazovne i informativne svrhe. Ne podržavamo niti ohrabrujemo korišćenje ovih alata u kriminalne svrhe. Odgovornost je svakog korisnika da se pridržava zakona u svojoj jurisdikciji._
 
 
 ---
@@ -40,7 +38,7 @@ Watch-only se generalno koristi u kombinaciji sa Hardware Wallet. Ovo omogućava
 ## Koji Watch-only wallet koristiti?
 
 
-Trenutno, najopsežnija aplikacija samo za gledanje je [Sentinel](https://sentinel.watch/), koju su razvili timovi u Samourai Wallet. Ona obuhvata sve osnovne funkcije za dobar Watch-only wallet:
+Trenutno je najkompletnija watch-only aplikacija [Sentinel](https://github.com/wanderingking072/sentinel-android), prvobitno razvijena od strane timova Samourai Wallet-a, a sada održavana od strane zajednice. Objedinjuje sve osnovne funkcionalnosti za dobar watch-only novčanik:
 
 
 
@@ -67,36 +65,31 @@ Za korisnike iOS-a koji traže alternativu za Sentinel, [Green Wallet](https://b
 ### Instalacija i podešavanje
 
 
-Počnite instaliranjem aplikacije Sentinel. To možete učiniti ili sa Google Play Store-a ili korišćenjem [APK-a dostupnog za preuzimanje na zvaničnom sajtu](https://sentinel.watch/download/).
-
-
-![watch-only](assets/notext/3.webp)
-
-
-Po prvom otvaranju aplikacije, imate izbor između:
+Počnite instaliranjem aplikacije Sentinel. To možete učiniti pomoću [APK-a dostupnog za preuzimanje na github repozitorijumu projekta](https://github.com/wanderingking072/sentinel-android/releases).
 
 
 
-- `Poveži se sa Dojo`;
-- `Poveži se na Samouraijev server`.
 
 
-Dojo, razvijen od strane Samourai tima, je puna Bitcoin nod verzija koja se može instalirati samostalno ili dodati jednim klikom na node-in-box rešenja kao što su [Umbrel](https://umbrel.com/) i [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Otkrijte kako instalirati RoninDojo v2 na Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
-Ako imate svoj Dojo, možete ga povezati u ovoj fazi. Time ćete ostvariti najviši nivo privatnosti prilikom provere informacija o transakcijama na vašoj Bitcoin mreži.
 
+
+
+
+
+
+Zatim ćete se morati obavezno povezati sa sopstvenim Dojom, jer serveri Samourai Wallet-a više nisu dostupni. Ako još nemate sopstveni Dojo, možete koristiti Dojo koji je zajednica stavila na raspolaganje na sajtu [The Dojo Bay](https://dojobay.pw/), ili pratiti naš tutorijal za instaliranje sopstvenog :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-Inače, moguće je odabrati Samourai-jev podrazumevani server. Takođe možete izabrati da li želite da se povežete putem Tor-a ili ne.
 
 
-![watch-only](assets/notext/5.webp)
 
 
 Zatim ćete stići na glavnu stranicu Sentinel.

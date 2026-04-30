@@ -1,0 +1,8 @@
+question: According to the Austrian school, what is the main difference between the adoption of Bitcoin and the establishment of modern fiat currencies?
+answer: Bitcoin emerges spontaneously from the recognition of its properties by individuals, while fiat currencies are imposed by government decree
+wrong_answers:
+  - Bitcoin is adopted by centralized financial institutions, while fiat currencies emerge from decentralized markets
+  - Bitcoin requires central planning for its adoption, while fiat currencies develop naturally through imitation
+  - "Bitcoin is established by democratic consensus of nations, whereas fiat currencies result from spontaneous exchange processes"
+explanation: |
+  According to Menger and the Austrian school, genuine money emerges spontaneously when economic agents gradually recognize and adopt the most exchangeable good, creating a network effect. Bitcoin perfectly illustrates this natural process of monetary emergence, with no central authority having decided on its value. In contrast, fiat currencies are imposed by states and maintained by legal constraint, not by spontaneous recognition of their monetary qualities.

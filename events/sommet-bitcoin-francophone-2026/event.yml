@@ -1,0 +1,24 @@
+id: 204aef01-4db0-4053-9cfc-cc838fffc495
+start_date: 2026-02-20 16:45:00
+end_date: 2026-02-21 22:00:00
+timezone: Europe/Paris
+address_city_country: France
+address_line_2: 
+address_line_3: 
+name: Sommet Bitcoin Francophone 2026
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  Le Sommet Bitcoin Francophone - 100% Bitcoin et 100% en ligne - réunit pour la première fois 15 pays francophones. L'objectif? Echanger entre pays afin de faire un bilan complet du développement de Bitcoin dans le monde francophone
+language:
+  - fr
+links:
+  website: https://bitcoinfrancophone.org
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - innovation
+  - case-studies

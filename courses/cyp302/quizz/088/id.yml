@@ -6,3 +6,4 @@ wrong_answers:
   - Diffie-Hellman
 explanation: |
   The Rijndael Cipher diadopsi sebagai standar enkripsi simetris (AES) oleh NIST, karena kinerja dan keamanannya yang tinggi.
+reviewed: true

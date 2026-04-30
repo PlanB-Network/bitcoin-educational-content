@@ -1,4 +1,4 @@
-question: Ni algorithm gani ya usimbaji fiche iliyopitishwa kama kiwango cha AES?
+question: Ni algoriti gani ya usimbaji fiche iliyopitishwa kama kiwango cha AES?
 answer: Sifa ya Rijndael
 wrong_answers:
   - DES
@@ -6,4 +6,4 @@ wrong_answers:
   - Diffie-Hellman
 explanation: |
   Rijndael Cipher ilipitishwa kama kiwango cha usimbaji fiche linganifu (AES) na NIST, kutokana na utendakazi wake wa juu na usalama.
-reviewed: false
+reviewed: true

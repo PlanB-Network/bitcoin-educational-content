@@ -18,6 +18,16 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(ROOT_DIR, '.env')
 load_dotenv(ENV_PATH)
 
+MAX_RETRIES = 5
+INITIAL_BACKOFF_SECS = 2
+
+def _is_retryable_error(e: Exception) -> bool:
+    err = str(e).lower()
+    return any(p in err for p in [
+        'dns', 'timeout', '503', '502', '500', '429',
+        'rate limit', 'connection', 'unavailable',
+    ])
+
 @dataclass
 class TranslationConfig:
     source_lang: str
@@ -26,6 +36,16 @@ class TranslationConfig:
     target_translator_code: str
 
 class GlossaryManager:
+    # Patterns matching transliterated forms of "GW-<number>" in various scripts
+    TRANSLITERATED_TOKEN_PATTERNS = [
+        r'जीडब्ल्यू-(\d+)',          # Hindi (Devanagari): जीडब्ल्यू = GW
+        r'ГВ-(\d+)',                  # Russian/Bulgarian (Cyrillic): ГВ = GW
+        r'ج[يی]دبليو-(\d+)',        # Arabic/Farsi
+        r'จีดับเบิลยู-(\d+)',       # Thai
+        r'ジーダブリュー-(\d+)',    # Japanese Katakana
+        r'지더블유-(\d+)',           # Korean
+    ]
+
     def __init__(self, glossary_path: str = 'glossary.yml'):
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.glossary_path = os.path.join(script_dir, glossary_path)
@@ -61,13 +81,30 @@ class GlossaryManager:
                 replacement = self._create_replacement_token()
                 working_text = pattern.sub(replacement, working_text)
                 local_replacements[replacement] = term
-                
+
         return working_text, local_replacements
 
     def restore_text(self, text: str, replacements: Dict[str, str]) -> str:
         result = text
+        # First pass: exact token replacement (handles Latin-script preserved tokens)
         for token, original in replacements.items():
             result = result.replace(token, original)
+
+        # Second pass: replace transliterated variants of tokens
+        # Build a lookup from token number -> original term
+        number_to_original = {}
+        for token, original in replacements.items():
+            match = re.match(r'GW-(\d+)', token)
+            if match:
+                number_to_original[match.group(1)] = original
+
+        if number_to_original:
+            for pattern in self.TRANSLITERATED_TOKEN_PATTERNS:
+                def _replace_transliterated(m, lookup=number_to_original):
+                    num = m.group(1)
+                    return lookup.get(num, m.group(0))
+                result = re.sub(pattern, _replace_transliterated, result)
+
         return result
 
     def detect_failed_restorations(self, text: str) -> List[Tuple[str, str]]:
@@ -75,19 +112,17 @@ class GlossaryManager:
         Detect tokens that weren't properly restored (appear in transliterated form).
         Returns list of (pattern_found, likely_script) tuples.
         """
-        import re
         failed_tokens = []
 
-        # Pattern definitions for different scripts
+        # Pattern definitions for different scripts (with labels for reporting)
         patterns = [
-            (r'जीडब्ल्यू-\d+', 'Devanagari (Hindi)'),       # Hindi: जीडब्ल्यू = GW
-            (r'ГВ-\d+', 'Cyrillic'),                         # Russian/Bulgarian: ГВ = GW
-            (r'GW-\d+', 'Latin (untranslated)'),            # Original token still present
-            (r'ج[يی]دبليو-\d+', 'Arabic/Farsi'),           # Arabic script
-            (r'จีดับเบิลยู-\d+', 'Thai'),                   # Thai
-            (r'ジーダブリュー-\d+', 'Japanese Katakana'),   # Japanese
-            (r'지더블유-\d+', 'Korean'),                    # Korean
-            (r'GW-\d+', 'Vietnamese'),                       # Vietnamese (likely stays Latin)
+            (r'जीडब्ल्यू-\d+', 'Devanagari (Hindi)'),
+            (r'ГВ-\d+', 'Cyrillic'),
+            (r'GW-\d+', 'Latin (untranslated)'),
+            (r'ج[يی]دبليو-\d+', 'Arabic/Farsi'),
+            (r'จีดับเบิลยู-\d+', 'Thai'),
+            (r'ジーダブリュー-\d+', 'Japanese Katakana'),
+            (r'지더블유-\d+', 'Korean'),
         ]
 
         for pattern, script_name in patterns:
@@ -181,18 +216,27 @@ class DeepLTranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
         
-        try:
-            result = self.translator.translate_text(
-                text,
-                source_lang=self.source_lang,
-                target_lang=self.target_lang,
-                preserve_formatting=True
-            )
-            return str(result)
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                result = self.translator.translate_text(
+                    text,
+                    source_lang=self.source_lang,
+                    target_lang=self.target_lang,
+                    preserve_formatting=True
+                )
+                return str(result)
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class OpenAITranslator(BaseTranslator):
     def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
@@ -216,22 +260,30 @@ class OpenAITranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
-            
-            response = self.client.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": text}
-                ],
-                temperature=0.1
-            )
-            return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.chat.completions.create(
+                    model="gpt-4o",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": text}
+                    ],
+                    temperature=0.1
+                )
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class DeepSeekTranslator(BaseTranslator):
     def __init__(self, source_lang: str, target_lang: str, custom_prompt: Optional[str] = None):
@@ -255,22 +307,30 @@ class DeepSeekTranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
-            
-            response = self.client.chat.completions.create(
-                model="deepseek-chat",
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": text}
-                ],
-                temperature=0.1
-            )
-            return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+        system_prompt = self.custom_prompt if self.custom_prompt else f"You are a translator from {self.source_lang} to {self.target_lang}. EXCLUSIVELY Translate the text exactly as provided, preserving formatting and special characters."
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.chat.completions.create(
+                    model="deepseek-chat",
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": text}
+                    ],
+                    temperature=0.1
+                )
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 
 class GoogleTranslator(BaseTranslator):
@@ -308,28 +368,37 @@ class GoogleTranslator(BaseTranslator):
             time.sleep(self.min_request_interval - time_since_last_request)
         self.last_request_time = time.time()
 
-        try:
-            response = self.client.translate_text(
-                request={
-                    "parent": self.parent,
-                    "contents": [text],
-                    "mime_type": "text/plain",
-                    "source_language_code": self.source_lang,
-                    "target_language_code": self.target_lang,
-                }
-            )
-            translated = response.translations[0].translated_text
+        last_error = None
+        for attempt in range(MAX_RETRIES + 1):
+            if attempt > 0:
+                wait = INITIAL_BACKOFF_SECS * (2 ** (attempt - 1))
+                print(f"\n⏳ Retry {attempt}/{MAX_RETRIES} after {wait}s...")
+                time.sleep(wait)
+            try:
+                response = self.client.translate_text(
+                    request={
+                        "parent": self.parent,
+                        "contents": [text],
+                        "mime_type": "text/plain",
+                        "source_language_code": self.source_lang,
+                        "target_language_code": self.target_lang,
+                    }
+                )
+                translated = response.translations[0].translated_text
 
-            # Fix: Google Translate adds trailing periods to short technical terms
-            # Remove trailing period if original text didn't have one
-            if not text.rstrip().endswith('.') and translated.rstrip().endswith('.'):
-                translated = translated.rstrip()[:-1] + translated[len(translated.rstrip()):]
+                # Fix: Google Translate adds trailing periods to short technical terms
+                # Remove trailing period if original text didn't have one
+                if not text.rstrip().endswith('.') and translated.rstrip().endswith('.'):
+                    translated = translated.rstrip()[:-1] + translated[len(translated.rstrip()):]
 
-            return translated
-        except Exception as e:
-            print(f"\nError translating text: {text}")
-            print(f"Error: {e}")
-            return text
+                return translated
+            except Exception as e:
+                last_error = e
+                if not _is_retryable_error(e):
+                    break
+        print(f"\nError translating text: {text}")
+        print(f"Error: {last_error}")
+        return text
 
 class FileTranslator:
     def __init__(self, config: TranslationConfig):

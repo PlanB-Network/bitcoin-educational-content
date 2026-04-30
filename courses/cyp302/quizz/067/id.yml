@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka seharusnya dapat menebak isi dari pesan tersebut
 explanation: |
   Dalam skema enkripsi simetris yang dirancang dengan baik, seorang penyerang yang meny intercept pesan terenkripsi seharusnya tidak dapat menemukan informasi relevan tentang isi pesan tanpa kunci dekripsi.
-reviewed: false
+reviewed: true

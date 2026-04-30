@@ -6,4 +6,4 @@ wrong_answers:
   - It is not in the Merkle tree
 explanation: |
   Its input points to a dummy UTXO, allowing the creation of the subsidy and the collection of fees.
-reviewed: false
+reviewed: true

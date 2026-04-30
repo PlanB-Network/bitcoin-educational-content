@@ -90,8 +90,6 @@ Pronto para mergulhar no mundo das redes informáticas? Vamos lá!
 **NOTA**: As descrições são baseadas num sistema GNU/Linux CentOS 7. No entanto, as configurações de rede são largamente as mesmas quando se compara um sistema Debian com um sistema CentOS. Então, nós não faremos nenhuma distinção. Quando houver uma, nós a prefixaremos com um logotipo específico.
 
 
-**N.B.**: Se encontrar termos que não lhe sejam familiares durante o curso, consulte [o glossário](https://planb.academy/resources/glossary) para obter as definições.
-
 
 
 # Protocolos TCP/IP

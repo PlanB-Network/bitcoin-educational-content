@@ -857,7 +857,7 @@ Lo studio sistematico delle leggi economiche inizia nel Medioevo avanzato. I pri
 
 ![image](assets/it/049.webp)
 
-Al centro della sua analisi monetaria si trova il problema delle "mutazioni" del denaro, ovvero le alterazioni nel contenuto metallico delle monete e nella loro denominazione. Queste alterazioni si verificano dall'alba dei tempi e sono ben documentate nell'Antichità e nel Medioevo. Il loro effetto più visibile è cambiare il potere d'acquisto dell'unità monetaria, specialmente per diminuirlo. Questa è una forma primitiva di inflazione che Oresme condanna chiaramente come un male.
+Al centro della sua analisi monetaria si trova il problema delle "mutazioni" del denaro, ovvero le alterazioni nel contenuto metallico delle monete e nella loro denominazione. Queste alterazioni si verificano dall'alba dei tempi e sono ben documentate nell'Antichità e nel Medioevo. Il loro effetto più visibile è cambiare il potere d'acquisto dell'unità monetaria, specialmente per diminuirlo. Questa è una forma primitiva di [inflazione](https://planb.academy/resources/glossary/inflation) che Oresme condanna chiaramente come un male.
 
 Oresme pone immediatamente una domanda centrale:"l'inflazione è vantaggiosa per la comunità?"
 Egli risponde negativamente, sostenendo che l’inflazione non rende la moneta né più né meno utile agli scambi. L’economia può funzionare bene indipendentemente dal livello dei prezzi e, dunque, a prescindere dalla quantità nominale di moneta in circolazione.
@@ -1033,7 +1033,7 @@ Non serve dimostrare che ogni individuo è l'unico responsabile dell'uso della p
 
 Qui, Turgot anticipa in gran parte l'argomento di Mises e Hayek sull'impossibilità di qualsiasi calcolo economico in un sistema economico socialista.
 
-Dedicando un capitolo alla "Brillantezza di Turgot", Murray Rothbard nella sua storia economica da una prospettiva austriaca, sottolinea che "l'influenza di Turgot sul pensiero economico successivo fu seriamente limitata (...) dal mito successivo che Adam Smith fosse il fondatore dell'economia politica." E aggiunge, "fu sul francese J.B. Say, ufficialmente un seguace di Smith, che Turgot alla fine ebbe la maggior influenza, in particolare la sua teoria del valore di utilità."
+Dedicando un capitolo alla "Brillantezza di Turgot", Murray Rothbard nella sua storia economica da una prospettiva [austriaca](https://planb.academy/resources/glossary/austrian-school), sottolinea che "l'influenza di Turgot sul pensiero economico successivo fu seriamente limitata (...) dal mito successivo che Adam Smith fosse il fondatore dell'economia politica." E aggiunge, "fu sul francese J.B. Say, ufficialmente un seguace di Smith, che Turgot alla fine ebbe la maggior influenza, in particolare la sua teoria del valore di utilità."
 
 ### Il capolavoro di Condillac
 
@@ -1597,7 +1597,7 @@ Per Hayek, la passata instabilità dell'economia di mercato deriva dal fatto che
 
 ![immagine](assets/it/101.webp)
 
-Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una criptovaluta come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
+Hayek riteneva che un mercato libero di valute private avrebbe portato a una maggiore stabilità monetaria. Quasi 50 anni dopo, una [criptovaluta](https://planb.academy/resources/glossary/cryptocurrency) come Bitcoin incarna la visione competitiva di Hayek offrendo un'alternativa decentralizzata al sistema monopolistico delle banche centrali. Bitcoin, con il suo limite di emissione di 21 milioni di unità, è una garanzia contro l'inflazione e l'arbitrarietà dei regolatori.
 
 
 ## Conclusione: il potere delle idee

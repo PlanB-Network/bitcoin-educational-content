@@ -1,9 +1,9 @@
-question: Câu nào mô tả tốt nhất vai trò của Bitcoin như một mạng lưới và tài sản cho doanh nghiệp?
-answer: Nó có thể hoạt động như một kho lưu trữ giá trị và phương tiện trao đổi trong một hệ thống phi tập trung toàn cầu.
+question: Câu nào mô tả đúng nhất vai trò của Bitcoin như một mạng lưới giao dịch và phương tiện lưu giữ gía trị tài sản dành cho doanh nghiệp?
+answer: Nó có thể hoạt động như một quỹ lưu trữ giá trị và phương tiện trao đổi trong một hệ thống kinh tế phi tập trung toàn cầu.
 wrong_answers:
-  - Nó chỉ có thể hoạt động như một hệ thống thẻ quà tặng địa phương.
-  - Đây chỉ là một công cụ giao dịch đầu cơ không có tiện ích thực sự.
-  - Nó phải gắn liền với chính sách tiền tệ của một quốc gia để có thể hoạt động.
+  - Bitcoin chỉ có thể hoạt động như một hệ thống thẻ quà tặng nội bộ.
+  - Bitcoin chỉ là một công cụ giao dịch đầu cơ không có tiện ích thực sự.
+  - Bitcoin phải gắn liền với chính sách tiền tệ của một quốc gia để có thể hoạt động.
 explanation: |
-  Thiết kế toàn cầu, dựa trên internet của Bitcoin cho phép nó không chỉ đóng vai trò là nơi lưu trữ giá trị mà còn là phương tiện trao đổi, cung cấp cho các doanh nghiệp dịch vụ thanh toán nhanh chóng, không cần xin phép và hoàn tất các giao dịch trên toàn thế giới.
+  Bitcoin với thiết kế toàn cầu dựa trên internet, cho phép nó không chỉ đóng vai trò là phương tiện lưu trữ giá trị mà còn là phương tiện trao đổi, cung cấp dịch vụ thanh toán nhanh chóng, không cần cấp phép cho các doanh nghiệp trên toàn thế giới.
 reviewed: true

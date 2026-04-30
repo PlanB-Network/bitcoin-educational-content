@@ -1,0 +1,10 @@
+question: Welke Amerikaanse staat, gekozen door het Free State Project, werd een centrum van Bitcoin adoptie in 2012-2013?
+answer: New Hampshire
+wrong_answers:
+  - Texas
+  - Colorado
+  - Californië
+explanation: |
+ Het Free State Project was een politieke migratiebeweging, gericht op het groeperen van libertariërs in één staat om daar de lokale overheid te beïnvloeden.
+ Leden van deze beweging begonnen Bitcoin te gebruiken dankzij de proselieten van libertarische activisten als Roger Ver en Erik Voorhees.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Hangi mining kooperatifi 2011 yazında kısa bir süre için %50 ağ hash oranını aşmıştır?
+answer: Deepbit
+wrong_answers:
+  - Deepbit
+  - Slush'ın Havuzu
+  - GHash.io
+explanation: |
+ OrganOfCorti'ye göre, Deepbit'in ölçülen hash oranı 5 Ağustos'ta %52,86 idi.
+reviewed: true

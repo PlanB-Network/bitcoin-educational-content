@@ -6,4 +6,4 @@ wrong_answers:
   - Bởi vì nền tảng Exchange yêu cầu rất nhiều tài liệu để tạo lại nó
 explanation: |
   Cụm từ khóa (Mnemonic) cho phép khôi phục quyền truy cập. Nếu cụm từ này bị mất và ví không còn có thể truy cập được trên thiết bị của nó nữa, thì bitcoin sẽ bị mất vĩnh viễn.
-reviewed: false
+reviewed: true

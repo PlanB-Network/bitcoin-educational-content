@@ -1,0 +1,10 @@
+question: Jaką przybliżoną część bitcoinów w obiegu stanowiły pieniądze zarządzane przez fundusz Bitcoin Savings & Trust w szczytowym momencie?
+answer: Około 5%
+wrong_answers:
+  - Około 0,05
+  - Około 0,5
+  - Około 50%
+explanation: |
+ W szczytowym momencie w sierpniu 2012 r. fundusz Trendona Shaversa (aka PirateAt40) zarządzał ponad 500 000 bitcoinów, co stanowiło około 5% z 9,7 miliona bitcoinów w obiegu
+ w obiegu! Bitcoin Savings & Trust upadł zaraz potem, gdy zaufanie wyparowało.
+reviewed: true

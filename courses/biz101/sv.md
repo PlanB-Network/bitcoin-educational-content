@@ -33,8 +33,6 @@ Oavsett om du representerar ett litet företag eller ett stort bolag syftar den 
 
 Är du redo att dyka ner i Bitcoin-världen för företag? Låt oss gå!
 
-**Obs**: Om du stöter på okända termer under kursen, vänligen konsultera [ordlistan](https://planb.academy/resources/glossary) för definitioner.
-
 # Valuta, betalningssystem och Bitcoin
 
 <partId>d9bd0e21-8488-44e0-af55-6d0b934f83c2</partId>
@@ -64,19 +62,19 @@ Sammanfattningsvis är valutor nätverk som är utformade för att flytta värde
 En bra valuta har flera viktiga egenskaper som gör den effektiv när det gäller att underlätta värdeöverföring. Här är en kortfattad förklaring av var och en av dem:
 
 - **Säker**: En valuta måste skyddas mot stöld eller obehörig åtkomst, så att användarna kan hålla och överföra den med tillit. Säkerheten är avgörande för att skapa förtroende för systemet.
-- **Förfalskningssäker**: En valuta måste vara extremt svår eller omöjlig att förfalska. Detta säkerställer att varje enhet är äkta, bibehåller sitt värde och förhindrar inflation som orsakas av att falska enheter kommer i omlopp. Historiskt sett har till exempel guld värderats inte bara för sin skönhet och sällsynthet, utan även för att det är extremt svårt att producera. Till skillnad från papperssedlar eller digitala poster kan man inte bara "göra" guld - det måste utvinnas ur jorden. Denna naturliga knapphet och svårigheten att producera har hjälpt guld att behålla sin status som en pålitlig värdebevarare och ett riktmärke för äkthet.
-- **Sällsynt**: En bra valuta måste ha ett begränsat utbud eller kontrollerad utgivning. Knapphet säkerställer att dess värde bevaras över tid och förhindrar överproduktion, vilket skulle urholka köpkraften. Till exempel använde vissa indianstammar pärlor som en form av valuta. Inledningsvis var dessa pärlor svåra att producera, vilket gjorde att de behöll sin knapphet och sitt värde. Men när europeiska handelsmän började massproducera och översvämma marknaden med pärlor försvann deras sällsynthet. I takt med att utbudet steg förlorade pärlorna sin köpkraft, vilket underminerade deras roll som en pålitlig värdebevarare.
+- **Förfalskningssäker**: En valuta måste vara extremt svår eller omöjlig att förfalska. Detta säkerställer att varje enhet är äkta, bibehåller sitt värde och förhindrar [inflation](https://planb.academy/resources/glossary/inflation) som orsakas av att falska enheter kommer i omlopp. Historiskt sett har till exempel guld värderats inte bara för sin skönhet och sällsynthet, utan även för att det är extremt svårt att producera. Till skillnad från papperssedlar eller digitala poster kan man inte bara "göra" guld - det måste utvinnas ur jorden. Denna naturliga knapphet och svårigheten att producera har hjälpt guld att behålla sin status som en pålitlig värdebevarare och ett riktmärke för äkthet.
+- **Sällsynt**: En bra valuta måste ha ett begränsat utbud eller [kontrollerad utgivning](https://planb.academy/resources/glossary/limite-demission). Knapphet säkerställer att dess värde bevaras över tid och förhindrar överproduktion, vilket skulle urholka köpkraften. Till exempel använde vissa indianstammar pärlor som en form av valuta. Inledningsvis var dessa pärlor svåra att producera, vilket gjorde att de behöll sin knapphet och sitt värde. Men när europeiska handelsmän började massproducera och översvämma marknaden med pärlor försvann deras sällsynthet. I takt med att utbudet steg förlorade pärlorna sin köpkraft, vilket underminerade deras roll som en pålitlig värdebevarare.
 - **Utan krav på tillstånd**: Förr i tiden präglades valutor som guld- och silvermynt ofta av privatpersoner, lokala myndigheter eller köpmän som hade tillgång till råvarorna. Detta system fungerade ibland under avtal eller licenser som beviljats av kungar eller härskare. Med tiden centraliserade kungar och regeringar denna process för att få större kontroll över den ekonomiska stabiliteten, beskattningen och det monetära systemet. Ett känt exempel är **thaler**, ett silvermynt som först präglades 1518 i **Joachimsthal-dalen** (dagens Jáchymov i Tjeckien) av lokala gruvarbetare och myndigheter. Namnet "thaler" härstammar från det tyska ordet **"Thal"** som betyder "dal". Dessa mynt, som var kända för sitt högkvalitativa silver, kom att cirkulera över hela Europa. Med tiden utvecklades termen språkligt och geografiskt och gav så småningom upphov till namnet "dollar", som antogs i USA för dess valuta.
 
 I modern tid blev valutor helt tillåtna enligt seignioragesystemet, vilket innebär att endast auktoriserade enheter - som centralbanker eller finansministerier - kan prägla mynt eller trycka sedlar. Enskilda personer har inte längre laglig rätt att tillverka valutor, vilket säkerställer centraliserad kontroll över dess utgivning och utbud.
 
-I dag utmanas principen om seigniorage av kryptovalutan Bitcoin, som fungerar utan centraliserad kontroll. Bitcoin är ett "tillståndslöst" system där vem som helst kan delta i att använda valutan utan att be om tillstånd och att skapa den genom mining.  Denna decentralisering tar bort regeringarnas utgivningsmonopol, vilket väcker frågor om en potentiell återgång till konkurrensutsatta valutasystem på den fria marknaden.
+I dag utmanas principen om seigniorage av [kryptovalutan](https://planb.academy/resources/glossary/cryptocurrency) Bitcoin, som fungerar utan centraliserad kontroll. Bitcoin är ett "tillståndslöst" system där vem som helst kan delta i att använda valutan utan att be om tillstånd och att skapa den genom [mining](https://planb.academy/resources/glossary/mining).  Denna decentralisering tar bort regeringarnas utgivningsmonopol, vilket väcker frågor om en potentiell återgång till konkurrensutsatta valutasystem på den fria marknaden.
 
 - **Värdeenhet**: En valuta bör tillhandahålla ett standardmått för att jämföra värdet på varor och tjänster. Detta förenklar handeln och gör prissättningen transparent och konsekvent i alla transaktioner.
 - **Hållbar**: En valuta måste tåla slitage över tid. Fysiska valutor, som mynt eller sedlar, ska tåla skador, medan digitala valutor måste kunna förvaras säkert utan risk för dataförlust.
 - **Portabel**: En valuta måste vara lätt att transportera och använda för att möjliggöra handel över stora avstånd. Detta kan uppnås genom fysisk bärbarhet (lättviktiga mynt eller sedlar) eller digitala överföringssystem.
 - **Delbar**: En valuta bör vara delbar i mindre enheter för att underlätta transaktioner av varierande storlek. Denna flexibilitet säkerställer att den är praktisk för både små inköp och storskalig handel.
-- **Fungibel**: Alla enheter i en valuta måste vara utbytbara och ha samma värde. Till exempel måste en dollarsedel vara likvärdig med vilken annan dollarsedel som helst. Denna enhetlighet säkerställer rättvisa och enkelhet i transaktioner.
+- **[Fungibel](https://planb.academy/resources/glossary/fungibility)**: Alla enheter i en valuta måste vara utbytbara och ha samma värde. Till exempel måste en dollarsedel vara likvärdig med vilken annan dollarsedel som helst. Denna enhetlighet säkerställer rättvisa och enkelhet i transaktioner.
 - **Igenkännlig**: En valuta måste vara lätt att identifiera och lita på. Fysiska valutor uppnår detta genom unik design och säkerhetsfunktioner, medan digitala valutor kan förlita sig på verifieringsprotokoll. Detta säkerställer en utbredd acceptans och minskar risken för bedrägerier.
 
 Dessa egenskaper gör att en valuta är praktisk, tillförlitlig och effektiv när det gäller att underlätta handel och lagra värde i en ekonomi.
@@ -99,9 +97,9 @@ Dessa moderna valutanätverk hade en betydande nackdel: **bristande kontrollerba
 
 **Från centraliserad till decentraliserad valuta: Förstärkt förtroende och suveränitet**
 
-Framväxten av den decentraliserade valutan Bitcoin utgör nästa steg i utvecklingen av valutanätverk. Traditionella elektroniska pengar förlitar sig på centraliserade myndigheter, som banker eller regeringar, för att hantera och verifiera transaktioner. Även om dessa system är effektiva är de sårbara för ineffektivitet, censur och en enda felpunkt som kan fälla hela systemet. Decentraliserade valutor förbättrar dessa nätverksegenskaper genom att **distribuera förtroende och ta bort mellanhänder**. Det innebär också att pengar kan röra sig mycket **snabbare** och **billigare**, eftersom det inte finns några auktoriseringssteg. Slutligen kan ingen människa frestas att ändra Bitcoin-valutans utbudsschema, det är programvaran som verkställer det.
+Framväxten av den decentraliserade valutan Bitcoin utgör nästa steg i utvecklingen av valutanätverk. Traditionella elektroniska pengar förlitar sig på centraliserade myndigheter, som banker eller regeringar, för att hantera och verifiera transaktioner. Även om dessa system är effektiva är de sårbara för ineffektivitet, censur och en enda [felpunkt](https://planb.academy/resources/glossary/spof) som kan fälla hela systemet. Decentraliserade valutor förbättrar dessa nätverksegenskaper genom att **[distribuera](https://planb.academy/resources/glossary/distributed) förtroende och ta bort mellanhänder**. Det innebär också att pengar kan röra sig mycket **snabbare** och **billigare**, eftersom det inte finns några auktoriseringssteg. Slutligen kan ingen människa frestas att ändra Bitcoin-valutans utbudsschema, det är programvaran som verkställer det.
 
-I decentraliserade system verifieras transaktioner av ett globalt nätverk av deltagare med hjälp av Blockchain-teknik, vilket garanterar säkerhet, transparens och motståndskraft. Denna struktur minimerar risken för bedrägerier, minskar beroendet av centrala myndigheter och ger individer större kontroll över sin ekonomi. Genom att eliminera geografiska och institutionella barriärer erbjuder decentraliserade valutor ett verkligt globalt och inkluderande monetärt system.
+I decentraliserade system verifieras transaktioner av ett globalt nätverk av deltagare med hjälp av [Blockchain](https://planb.academy/resources/glossary/blockchain)-teknik, vilket garanterar säkerhet, transparens och motståndskraft. Denna struktur minimerar risken för bedrägerier, minskar beroendet av centrala myndigheter och ger individer större kontroll över sin ekonomi. Genom att eliminera geografiska och institutionella barriärer erbjuder decentraliserade valutor ett verkligt globalt och inkluderande monetärt system.
 
 **Utvecklingen av valutanätverk**
 
@@ -185,14 +183,14 @@ Precis som vi gick från att betala per minut för röstsamtal till att använda
 
 **VAD ÄR BITCOIN?**
 
-Bitcoin är ett peer-to-peer-system för digitalt utbyte och handel (elektroniska kontanter). Termen "Bitcoin" hänvisar till följande komponenter:
+Bitcoin är ett [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p)-system för digitalt utbyte och handel (elektroniska kontanter). Termen "Bitcoin" hänvisar till följande komponenter:
 
 
-- **Ett datorprotokoll** som underlättar värdeöverföring på internet utan mellanhänder, utan krav på tillstånd samt pseudonymt. Det använder avancerade kryptografiska principer.
-- **Ett fysiskt nätverk** av internetanslutna maskiner (noder, miners etc.) som drivs av privatpersoner och företag och som utgör ett decentraliserat system (utan någon central myndighet eller kontrollpunkt).
-- **Värdeenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje bitcoin är delbar i 100 miljoner enheter som kallas "satoshis", uppkallad efter dess anonyma skapare.
+- **Ett datorprotokoll** som underlättar värdeöverföring på internet utan mellanhänder, utan krav på tillstånd samt pseudonymt. Det använder avancerade [kryptografiska](https://planb.academy/resources/glossary/cryptography) principer.
+- **Ett fysiskt nätverk** av internetanslutna maskiner ([noder](https://planb.academy/resources/glossary/node), [miners](https://planb.academy/resources/glossary/miner) etc.) som drivs av privatpersoner och företag och som utgör ett decentraliserat system (utan någon central myndighet eller kontrollpunkt).
+- **Värdeenheten** inom systemet. Det kommer aldrig att finnas mer än 21 miljoner bitcoins. Varje bitcoin är delbar i 100 miljoner enheter som kallas "[satoshis](https://planb.academy/resources/glossary/satoshi-sat)", uppkallad efter dess anonyma skapare.
 
-Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta **utan utgivare**. Ägarskap är säkrat enbart genom innehav av den **privata kryptografiska nyckeln**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När ägarskap överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. Transaktioner är **oföränderliga** - när de väl har registrerats på blockkedjan kan de inte ändras eller raderas.
+Tillsammans gör de Bitcoin till en **innehavartillgång** och en digital valuta **utan utgivare**. Ägarskap är säkrat enbart genom innehav av den **[privata kryptografiska nyckeln](https://planb.academy/resources/glossary/private-key)**, vilket ger full kontroll **utan mellanhänder eller betrodda tredje parter**. När ägarskap överförs är **finaliteten** omedelbar: den nya innehavaren äger den helt utan att förlita sig på en central myndighet för skydd eller konvertibilitet. [Transaktioner](https://planb.academy/resources/glossary/transaction-tx) är **oföränderliga** - när de väl har registrerats på blockkedjan kan de inte ändras eller raderas.
 
 ![BIZ101](assets/sv/003.webp)
 
@@ -202,7 +200,7 @@ Dess tekniska egenskaper överträffar guld och dollar tillsammans, vilket gör 
 
 ![BIZ101](assets/sv/004.webp)
 
-Bitcoin bevarar effektivt sitt värde eftersom dess register är manipuleringssäkert. Dess värde ökar på grund av dess sällsynta och begränsade utbyd i kombination med det växande antalet växelmöjligheter, som drivs av det ökande antalet användare.
+Bitcoin bevarar effektivt sitt värde eftersom dess [register](https://planb.academy/resources/glossary/ledger) är manipuleringssäkert. Dess värde ökar på grund av dess sällsynta och begränsade utbyd i kombination med det växande antalet växelmöjligheter, som drivs av det ökande antalet användare.
 
 Bitcoin är omvälvande eftersom det uppmuntrar oss att lära oss begrepp inom matematik, kryptografi, ekonomi och historia som vi aldrig har fått lära oss. Även om det ofta uppfattas som komplext är det i själva verket en innovation som är tillgänglig genom övning och experiment.
 
@@ -212,7 +210,7 @@ Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förkl
 
 - **Ålder:** 15 år (3 januari 2009)
 - **Dagligt växlingsvärde:** 10 miljarder USD (> CAC40)
-- **Börsvärde:** 1,8 biljoner dollar (> Meta, Visa, Silver ; < Apple, Google, Guld)
+- **[Börsvärde](https://planb.academy/resources/glossary/market-cap-capitalization):** 1,8 biljoner dollar (> Meta, Visa, Silver ; < Apple, Google, Guld)
 - **Användare:** ~100 till 200 miljoner (1-2% av världens befolkning)
 - **Volatilitet:** I grunden ingen (1 Bitcoin = 1 Bitcoin), externt mycket hög (i fiatvalutaväxling)
 - **Prestanda:** Första transaktionen på 0,0009 dollar; nu 100 000 dollar (x100 miljoner)
@@ -221,14 +219,14 @@ Bitcoin får oss att tänka om kring pengars grundläggande natur. Kan du förkl
 
 **Ett under av mänskligt samarbete**
 
-- Helt och hållet **öppen källkod**
+- Helt och hållet **[öppen källkod](https://planb.academy/resources/glossary/foss)**
 - **Juridisk person:** Ingen
 - **VD:** Ingen
 - **Riskkapitalinvesteringar:** Inga
 - **Marknadsföring:** Ingen
 - **FoU:** Volontärstyrd
 - **Styrning:** Av användarna
-- **Innovativ ekonomisk modell:** Blockskapande subventioneras av transaktionsavgifter (auktionsbaserad)
+- **Innovativ ekonomisk modell:** Blockskapande [subventioneras](https://planb.academy/resources/glossary/block-subsidy) av [transaktionsavgifter](https://planb.academy/resources/glossary/transaction-fees) (auktionsbaserad)
 
 För mer information om Bitcoin, dess historia, hur det fungerar och hur det används, föreslår jag också att du följer denna andra omfattande kurs:
 
@@ -240,17 +238,17 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 **VAD ÄR LIGHTNING?**
 
-Lightning Network är **ett protokoll och ett nätverk** som underlättar Bitcoin-transaktioner med minimal interaktion med blockkedjan. Så här fungerar det:
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) är **ett protokoll och ett nätverk** som underlättar Bitcoin-transaktioner med minimal interaktion med blockkedjan. Så här fungerar det:
 
-- **Initial konfiguration:** Medel låses (escrow) på huvudblockkedjan för att upprätta en betalningskanal mellan två parter.
+- **Initial konfiguration:** Medel låses (escrow) på huvudblockkedjan för att upprätta en [betalningskanal](https://planb.academy/resources/glossary/payment-channel) mellan två parter.
 - **Betalningsnätverk:** Ett nät av betalningskanaler mellan flera parter utgör ett betalningsnätverk (routing och sammankoppling).
-- **off-chain-transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoins huvudblockkedja (**"off-chain"**).
-- **On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"on-chain**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
+- **[off-chain](https://planb.academy/resources/glossary/offchain)-transaktioner:** Transaktioner sker mellan parter men publiceras **inte omedelbart** på Bitcoins huvudblockkedja (**"off-chain"**).
+- **On-chain-avveckling:** Endast **det slutliga saldot** av en kanals transaktioner publiceras på Bitcoins huvudblockkedja (**"[on-chain](https://planb.academy/resources/glossary/onchain)**"), vilket gör att många transaktioner kan ske under tiden. Denna sammanfogning av flera betalningar minskar överbelastningen och sänker därmed avgifterna jämfört med att göra många on-chain-transaktioner.
 - **Kanalstängning:** En användare kan när som helst stänga sin kanal och återfå sina bitcoin genom att publicera det senaste transaktionsstatuset. Detta är principen för transaktioner som är **"publicerbara" när som helst men "opublicerade"** tills det är nödvändigt. Avslutet (kanalstängning) kan vara ensidigt (beslutas av någon av de två parterna när som helst) eller ömsesidigt beslutat (vilket resulterar i lägre on-chain-avgifter)
 
 ![BIZ101](assets/sv/005.webp)
 
-Detta tillvägagångssätt undviker långsamheten och komplexiteten i att utföra varje transaktion direkt på Bitcoins huvudblockkedja, som endast registrerar slutliga saldon och behåller sin säkerhet. Lightning Network är en nivå "ovanpå" Bitcoin men förblir förankrad i den.
+Detta tillvägagångssätt undviker långsamheten och komplexiteten i att utföra varje transaktion direkt på Bitcoins huvudblockkedja, som endast registrerar slutliga saldon och behåller sin säkerhet. Lightning Network är en [nivå](https://planb.academy/resources/glossary/layer) "ovanpå" Bitcoin men förblir förankrad i den.
 
 **Ett globalt betalningsnätverk**
 
@@ -355,7 +353,7 @@ I traditionell ekonomisk teori (keynesiansk) ses kapital ofta förenklat som ett
 
 6. Den kulturella normaliseringen av antikapitalistisk retorik?
 
-Lyckligtvis får Bitcoin oss att tänka om och utmana dessa förutfattade meningar. Det finns en tankeskola - den österrikiska ekonomiska skolan - som kan kasta ljus över dessa frågor och hjälpa oss att ompröva kapitalets sanna natur.
+Lyckligtvis får Bitcoin oss att tänka om och utmana dessa förutfattade meningar. Det finns en tankeskola - [den österrikiska ekonomiska skolan](https://planb.academy/resources/glossary/austrian-school) - som kan kasta ljus över dessa frågor och hjälpa oss att ompröva kapitalets sanna natur.
 
 **Det var en gång**
 
@@ -454,7 +452,7 @@ Låt oss snabbt gå igenom den miljö som företagen verkar i.
 
 **Verklig inflation**: Till förtret för sitt uppdrag har centralbankerna ett inflationsmål på 2% per år, vilket innebär en värdeminskning på 40% på 20 år. Om man lägger till perioder med mer uttalad inflation blir det tydligt att företag inte enbart kan använda valuta för att lagra frukterna av sitt arbete. De måste genomföra komplexa finansiella strategier, som ofta är förenade med en rad risker. Dessa strategier är uppenbarligen **otillgängliga för mycket små företag**, som redan är kraftigt upptagna av sin kärnverksamhet.
 
-**Dold inflation**: I ett skuldbaserat monetärt system med fraktionella reserver som stöds av centralbanker växer **den totala penningmängden med i genomsnitt cirka 7 % per år** (t.ex. M1 i Eurozone eller USA). Det innebär att din "andel av kakan" halveras på bara några år - såvida du inte har privilegierad tillgång till det finansiella flödet och kan fortsätta att växa genom att belåna och köpa tillgångar snabbt till "gamla priser" innan de nyskapade pengarna driver upp dem. Detta är Cantillon-effekten, som delvis förklarar förmögenhetsöverföringen till de mer välbärgade, medan "kapitalet" felaktigt beskylls för att vara boven i dramat (se vår introduktion om kapital ovan).
+**Dold inflation**: I ett skuldbaserat monetärt system med [fraktionella reserver](https://planb.academy/resources/glossary/fractional-reserves) som stöds av centralbanker växer **den totala penningmängden med i genomsnitt cirka 7 % per år** (t.ex. M1 i Eurozone eller USA). Det innebär att din "andel av kakan" halveras på bara några år - såvida du inte har privilegierad tillgång till det finansiella flödet och kan fortsätta att växa genom att belåna och köpa tillgångar snabbt till "gamla priser" innan de nyskapade pengarna driver upp dem. Detta är Cantillon-effekten, som delvis förklarar förmögenhetsöverföringen till de mer välbärgade, medan "kapitalet" felaktigt beskylls för att vara boven i dramat (se vår introduktion om kapital ovan).
 
 **Motpartsrisker**: Det nuvarande finansiella systemet är riskfyllt och det är inte säkert att du alltid har tillgång till "dina pengar". Utan att åberopa bilden av ett korthus måste det erkännas att finansinstitut privatiserar vinster och socialiserar förluster vid minsta kris. I ett system med "skriftenliga" pengar (pengar som registrerats i ett register) är pengarna på banken bara en "fordran"; du äger dem inte på riktigt och bankerna själva "har dem inte" (fraktionella reserver). Dessa pengar är på sätt och vis helt magiska. Vissa prestigefyllda banker som en gång i tiden hånade Bitcoin finns inte längre kvar idag, till exempel Credit Suisse.
 
@@ -534,7 +532,7 @@ Den växande användningen av Bitcoin i USA påverkar också tankesättet på an
 
 Ur ett rent finansiellt perspektiv är Bitcoin erkänd som en diversifieringstillgång. Den är inte bara okorrelerad med andra tillgångsklasser, den verkar också frodas under perioder med nya likviditetsinjektioner - en annan sådan episod verkar börja med räntesänkningarna från ECB, Fed och Kina.
 
-Sammanfattningsvis passar Bitcoin perfekt för det vanligaste användningsområdet - att investera i överskott av kassan under minst fyra år. Det är värt att kombinera den med en strategi för gradvis inträde: att investera fasta belopp med jämna mellanrum för att jämna ut inträdes- eller utträdespunkten.
+Sammanfattningsvis passar Bitcoin perfekt för det vanligaste användningsområdet - att investera i överskott av kassan under minst fyra år. Det är värt att kombinera den med en [strategi för gradvis inträde](https://planb.academy/resources/glossary/dollar-cost-averaging-dca): att investera fasta belopp med jämna mellanrum för att jämna ut inträdes- eller utträdespunkten.
 
 Andra användningsområden gör Bitcoin till en strategisk kassatillgång, till exempel:
 
@@ -546,7 +544,7 @@ Andra användningsområden gör Bitcoin till en strategisk kassatillgång, till 
 
 ### Är Bitcoin för dyrt?
 
-Du behöver inte köpa exakt 1 Bitcoin, eftersom Bitcoin är delbart i mindre enheter som kallas satoshis, namngivna för att hedra dess anonyma skapare. En bitcoin motsvarar **100 miljoner satoshis**, vilket gör det möjligt för användare att köpa, sälja eller handla även **mycket små fraktioner av en Bitcoin**. Faktum är att i Bitcoins källkod redovisas alla transaktioner i satoshis, och termen "Bitcoin" förekommer endast i "coinbase", den speciella transaktion som miners skapar för att få sin belöning.
+Du behöver inte köpa exakt 1 Bitcoin, eftersom Bitcoin är delbart i mindre enheter som kallas satoshis, namngivna för att hedra dess anonyma skapare. En bitcoin motsvarar **100 miljoner satoshis**, vilket gör det möjligt för användare att köpa, sälja eller handla även **mycket små fraktioner av en Bitcoin**. Faktum är att i Bitcoins källkod redovisas alla transaktioner i satoshis, och termen "Bitcoin" förekommer endast i "[coinbase](https://planb.academy/resources/glossary/coinbase-transaction)", den speciella transaktion som miners skapar för att få sin belöning.
 
 Dessutom kan det totala antalet 21 miljoner bitcoins - eller **2,1 kvadriljoner satoshis** - effektivt representeras av ett 64-bitars heltal. Detta innebär att trots ett högt pris per hel bitcoin förblir den tillgänglig för ett brett spektrum av investerare tack vare dess delbarhet. Du behöver därför inte köpa en hel Bitcoin för att delta i nätverket eller investera i denna digitala tillgång.
 
@@ -601,7 +599,7 @@ Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i 
 
 - **Köp av Bitcoin:**
 
-Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-börser eller, mer typiskt, på specialiserade handelsplattformar. Men när företag skaffar Bitcoin som en tillgång i företagets kassa måste de följa robusta regleringsstandarder och Know-Your-Customer (KYC). När de handlar på specialiserade handelsplattformar måste företagen vanligtvis tillhandahålla detaljerad företagsinformation, inklusive identitetshandlingar, finansiella rapporter och bevis på adress, för att uppfylla kraven på kundkännedom och bekämpning av penningtvätt (AML).
+Detta är den absolut vanligaste metoden och sker antingen via peer-to-peer-börser eller, mer typiskt, på specialiserade handelsplattformar. Men när företag skaffar Bitcoin som en tillgång i företagets kassa måste de följa robusta regleringsstandarder och Know-Your-Customer ([KYC](https://planb.academy/resources/glossary/kyc-know-your-customer)). När de handlar på specialiserade handelsplattformar måste företagen vanligtvis tillhandahålla detaljerad företagsinformation, inklusive identitetshandlingar, finansiella rapporter och bevis på adress, för att uppfylla kraven på kundkännedom och bekämpning av penningtvätt (AML).
 
 För att lära dig hur du öppnar ett företagskonto och använder det för att köpa, sälja och överföra bitcoins kan du kolla in dessa två handledningar som är speciellt utformade för företag och som innehåller plattformarna Kraken och Bitfinex i sina företagsversioner:
 
@@ -641,7 +639,7 @@ Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och g
 
 Du äger inte Bitcoin fysiskt. Istället har du en kryptografisk nyckel som gör att du kan överföra ägarskap för vissa eller alla dina kontoenheter till en eller flera andra kryptografiska nycklar. Allt detta sker på Bitcoins blockkedja, som är replikerad över tiotusentals noder över hela världen.
 
-Denna kryptografiska nyckel är ett extremt stort slumptal. För att förenkla användarupplevelsen representeras den ofta som en sekvens av 12 eller 24 ord. Dessa ord kan överföras på en fysisk enhet som kallas en "hårdvaruplånbok". Du måste dock förstå att bitcoins inte finns "inuti" den här enheten; den är helt enkelt ett verktyg för att kryptografiskt signera transaktioner och sända dem till nätverket. Det som verkligen betyder något är de 12 eller 24 orden, som måste hållas säkra.
+Denna kryptografiska nyckel är ett extremt stort slumptal. För att förenkla användarupplevelsen representeras den ofta som en sekvens av 12 eller 24 ord. Dessa ord kan överföras på en fysisk enhet som kallas en "[hårdvaruplånbok](https://planb.academy/resources/glossary/hardware-wallet)". Du måste dock förstå att bitcoins inte finns "inuti" den här enheten; den är helt enkelt ett verktyg för att kryptografiskt signera transaktioner och sända dem till nätverket. Det som verkligen betyder något är de 12 eller 24 orden, som måste hållas säkra.
 
 Detta leder till frågan om förvaring: att äga Bitcoin innebär att man äger nyckeln/nycklarna. Antingen har du dem själv, eller så delegerar du uppgiften till en tredje part. Det finns också mellanliggande lösningar. Låt oss granska de vanligaste scenarierna:
 
@@ -660,7 +658,7 @@ Dessa är traditionella finansiella instrument som representerar fraktioner av B
 
 ![BIZ101](assets/sv/014.webp)
 
-Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de säkerhetsåtgärder som krävs för att skydda din företagskassa. Oavsett om du väljer självförvaring, använder hårdvaruplånböcker med en eller flera signaturer etc. för att upprätthålla direkt kontroll över dina nycklar, eller delegerar denna uppgift till tredje parts förvaringstjänster eller ETF: er, har varje alternativ sin egen riskprofil. Självförvaring ger till exempel full tillgång men kräver rigorösa interna säkerhetsprotokoll, medan tredjepartslösningar minskar förvaltningsbördan på bekostnad av motpartsrisken. För att ytterligare illustrera skillnaderna beskriver detta diagram säkerhetsmodellen för varje förvaringstyp, vilket hjälper dig att välja det tillvägagångssätt som bäst passar din organisations behov:
+Dessutom har den form i vilken du innehar Bitcoin en betydande inverkan på de säkerhetsåtgärder som krävs för att skydda din företagskassa. Oavsett om du väljer [självförvaring](https://planb.academy/resources/glossary/selfcustody), använder hårdvaruplånböcker med en eller [flera signaturer](https://planb.academy/resources/glossary/multisig) etc. för att upprätthålla direkt kontroll över dina nycklar, eller delegerar denna uppgift till tredje parts förvaringstjänster eller ETF: er, har varje alternativ sin egen riskprofil. Självförvaring ger till exempel full tillgång men kräver rigorösa interna säkerhetsprotokoll, medan tredjepartslösningar minskar förvaltningsbördan på bekostnad av motpartsrisken. För att ytterligare illustrera skillnaderna beskriver detta diagram säkerhetsmodellen för varje förvaringstyp, vilket hjälper dig att välja det tillvägagångssätt som bäst passar din organisations behov:
 
 ![BIZ101](assets/sv/015.webp)
 
@@ -830,7 +828,7 @@ I de följande kapitlen kommer vi att beskriva varje affärsprofil och de lösni
 
 <chapterId>7edda53d-5b9f-432a-8493-115de8c94a67</chapterId>
 
-Nybörjar-profilen är utformad för företag, kreatörer och individer som vill utforska Bitcoin-betalningar utan att engagera betydande resurser eller expertis. Dessa är vanligtvis de som hanterar en mycket liten volym transaktioner (kanske lite dricks, donationer eller tillfällig försäljning) och söker en enkel, lätt introduktion till Bitcoin och Lightning Network. Det viktigaste värdet med Nybörjar-metoden ligger i den minimala installationen: i de flesta fall är allt som krävs en smartphone eller surfplatta utrustad med en grundläggande Lightning-kompatibel plånbok.
+Nybörjar-profilen är utformad för företag, kreatörer och individer som vill utforska Bitcoin-betalningar utan att engagera betydande resurser eller expertis. Dessa är vanligtvis de som hanterar en mycket liten volym transaktioner (kanske lite dricks, donationer eller tillfällig försäljning) och söker en enkel, lätt introduktion till Bitcoin och Lightning Network. Det viktigaste värdet med Nybörjar-metoden ligger i den minimala installationen: i de flesta fall är allt som krävs en smartphone eller surfplatta utrustad med en grundläggande Lightning-kompatibel [plånbok](https://planb.academy/resources/glossary/wallet).
 
 ![BIZ101-profiles](assets/sv/017.webp)
 
@@ -840,7 +838,7 @@ De två vanligaste plånbokslösningarna för nybörjar-profilen handlar om att 
 
 ![BIZ101-profiles](assets/sv/018.webp)
 
-Även om säkerhetsfrågor kan kännas mindre akuta vid små transaktioner, är det ändå avgörande att införa grundläggande skyddsåtgärder. Även en enda smartphone eller surfplatta som används för att ta emot Bitcoin-betalningar bör vara skyddad med lösenord eller biometrisk säkerhet. Dessutom måste rutiner för backup tas på allvar – från att hålla ordning på inloggningsuppgifter för en custodial-plånbok till att förvara en seed phrase för en non-custodial plånbok på ett säkert sätt. Personal som hanterar transaktioner i en fysisk miljö bör känna till grunderna: hur man öppnar appen, visar en QR-kod för kunden och kontrollerar att betalningen verkligen kommit in.
+Även om säkerhetsfrågor kan kännas mindre akuta vid små transaktioner, är det ändå avgörande att införa grundläggande skyddsåtgärder. Även en enda smartphone eller surfplatta som används för att ta emot Bitcoin-betalningar bör vara skyddad med lösenord eller biometrisk säkerhet. Dessutom måste rutiner för backup tas på allvar – från att hålla ordning på inloggningsuppgifter för en custodial-plånbok till att förvara en [seed phrase](https://planb.academy/resources/glossary/recovery-phrase) för en non-custodial plånbok på ett säkert sätt. Personal som hanterar transaktioner i en fysisk miljö bör känna till grunderna: hur man öppnar appen, visar en QR-kod för kunden och kontrollerar att betalningen verkligen kommit in.
 
 Bokföring och rapportering är visserligen relativt enkla under nybörkar-profilen, men förtjänar ändå noggrann uppmärksamhet. Även om transaktionsvolymerna kan vara små, är det viktigt att behålla korrekta register för att undvika förvirring längre fram och för att upprätthålla transparens vid exempelvis revision eller skattedeklarationer. Många plånboksappar gör det möjligt att exportera en grundläggande transaktionshistorik som en CSV-fil. För ett mindre företag eller en enskild företagare kan det underlätta avstämningen betydligt att regelbundet spara dessa filer. Det är också klokt att notera det ungefärliga fiatvärdet (till exempel i euro eller dollar) vid tidpunkten då varje transaktion tas emot. Eftersom priset på Bitcoin kan variera är ett register över växlingskurser ovärderligt för både bokföring och skatteöverensstämmelse.
 
@@ -954,7 +952,7 @@ I den här skalan är det övergripande målet inte bara att acceptera Bitcoin, 
 
 I ett företagssammanhang blir den operativa komplexiteten särskilt uttalad. Ett stort företag kan behöva tillgodose flera avdelningar (försäljning, marknadsföring, devops, ekonomi och redovisning) som alla har olika ansvarsområden och datakrav. I det här scenariot måste en Bitcoin-betalningsplattform erbjuda mycket detaljerad rollhantering, så att varje avdelning kan få tillgång till exakt de funktioner som är relevanta för deras uppgifter samtidigt som den upprätthåller strikt kontroll över säkerhet och dataintegritet. Lika viktigt är kapaciteten att anpassa arbetsflöden: till exempel kan inkommande betalningar utlösa uppdateringar i lagersystem, skicka automatiska meddelanden till försäljningschefer och uppdatera register för finansteamet, allt i realtid. Själva kassaapparaterna är ofta skräddarsydda för företagsmiljön, med anpassade programvarugränssnitt som matchar företagets varumärke och operativa behov.
 
-**Säkerhet** är av yttersta vikt för företag i större skala. Höga transaktionsvolymer och potentiellt stora mängder Bitcoin kräver en robust infrastruktur som kan försvara sig mot både externa angrepp och hot inifrån. Bästa praxis inkluderar ofta multisignatur-konfigurationer med tidslås för företagskassan, noggrant granskad källkod samt strikt efterlevnad av relevanta regelverk. Dessutom kan regelefterlevnad på både lokal och internationell nivå vara avgörande för att bevara företagets anseende och tillstånd att verka.
+**Säkerhet** är av yttersta vikt för företag i större skala. Höga transaktionsvolymer och potentiellt stora mängder Bitcoin kräver en robust infrastruktur som kan försvara sig mot både externa angrepp och hot inifrån. Bästa praxis inkluderar ofta multisignatur-konfigurationer med [tidslås](https://planb.academy/resources/glossary/timelock) för företagskassan, noggrant granskad källkod samt strikt efterlevnad av relevanta regelverk. Dessutom kan regelefterlevnad på både lokal och internationell nivå vara avgörande för att bevara företagets anseende och tillstånd att verka.
 
 Den **anpassade utveckling** som krävs för att skapa eller integrera en Bitcoin-betalningslösning i företagsklass sträcker sig längre än till kodning av några applikationsfunktioner. Det kräver vanligtvis arkitektonisk design, noggranna testprotokoll och en strukturerad utrullning som kan omfatta flera faser (inledande pilotprogram, begränsade marknadstester och slutligen global spridning).
 

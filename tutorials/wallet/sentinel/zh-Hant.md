@@ -11,10 +11,8 @@ description: 什麼是 Watch-only wallet 以及如何使用？
 **警告：** 在 Samourai Wallet 的創始人於 4 月 24 日被捕並其伺服器被扣押之後，Sentinel 應用程式仍可繼續運作，但**必須使用您自己的 Dojo** 才能存取 Blockchain 資訊和廣播交易。
 
 
-我們正密切注意此案例的發展，以及相關工具的發展。請放心，我們會在有新資訊時更新本教學。
 
 
-本教學僅為教育和資訊目的而提供。我們不贊同或鼓勵將這些工具用於犯罪目的。每位使用者都有責任遵守其司法管轄區的法律。
 
 
 ---
@@ -40,7 +38,7 @@ Watch-only wallet 或唯讀 Wallet 是一種軟體，其設計目的是允許使
 ## 使用哪種 Watch-only wallet？
 
 
-目前，由 Samourai Wallet 的團隊所開發的 [Sentinel](https://sentinel.watch/)，是最全面的專用監視應用程式。它包含了優良 Watch-only wallet 的所有基本功能：
+目前，最完整的 watch-only 應用是 [Sentinel](https://github.com/wanderingking072/sentinel-android)，最初由 Samourai Wallet 團隊開發，如今由社群維護。它匯集了優秀 watch-only 錢包所需的所有核心功能：
 
 
 
@@ -67,36 +65,31 @@ Sentinel 的獨特缺點在於該應用程式僅適用於 Android，且不支援
 ### 安裝與設定
 
 
-首先安裝 Sentinel 應用程式。您可以從 Google Play 商店或使用 [可從官方網站下載的 APK](https://sentinel.watch/download/)。
-
-
-![watch-only](assets/notext/3.webp)
-
-
-首次開啟應用程式時，您可以在以下兩者之間進行選擇：
+首先安裝 Sentinel 應用程式。您可以使用[專案 github 儲存庫中提供下載的 APK](https://github.com/wanderingking072/sentinel-android/releases) 來完成此操作。
 
 
 
-- `連線到 Dojo`；
-- `連線到 Samourai 的伺服器`。
 
 
-Dojo 由 Samourai 團隊開發，是完整的 Bitcoin 節點版本，可單獨安裝，或一鍵加入節點盒中解決方案，例如 [Umbrel](https://umbrel.com/)、[RoninDojo](https://ronindojo.io/)。
 
 
-[**-> 探索如何在 Raspberry Pi 上安裝 RoninDojo v2.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
-如果您有自己的 Dojo，您可以在此階段連接它。如此一來，您在檢查 Bitcoin 網路交易資訊時，將享有最高等級的隱私權。
 
+
+
+
+
+
+接下來，您必須強制連接到您自己的 Dojo，因為 Samourai Wallet 的伺服器已不再可用。如果您還沒有自己的 Dojo，可以使用社群在 [The Dojo Bay](https://dojobay.pw/) 網站上提供的 Dojo，或者按照我們的教學安裝您自己的 Dojo :
+
+https://planb.academy/tutorials/wallet/mobile/sentinel-9876f960-e964-4d20-8a6e-36231de1f4d9
 
 ![watch-only](assets/notext/4.webp)
 
 
-否則，可以選擇 Samourai 的預設伺服器。您也可以選擇是否透過 Tor 連線。
 
 
-![watch-only](assets/notext/5.webp)
 
 
 然後您就會到達 Sentinel 的主頁面。

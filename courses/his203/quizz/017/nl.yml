@@ -1,0 +1,11 @@
+question: Wat was het voornaamste bezwaar dat Amerikaanse libertariërs aanvoerden tegen Bitcoin, waarbij ze zich beriepen op het regressietheorema van Mises?
+answer: Het had geen intrinsieke waarde en werd door niets concreets ondersteund
+wrong_answers:
+  - Er was sprake van monetaire inflatie, met een uitgiftepercentage van 40% per jaar in 2011
+  - Het werd niet gebruikt als rekeneenheid, een essentiële eigenschap van geld
+  - Het creëerde een zeer ongelijke verdeling van rijkdom
+explanation: |
+ Sommige Amerikaanse libertariërs, verbonden aan de Oostenrijkse school, verwierpen Bitcoin omdat het (volgens hen) in tegenspraak was met het regressietheorema van Ludwig von Mises,
+ die stelt dat een goed een objectieve niet-monetaire gebruikswaarde moet hebben voordat het een valuta kan worden. Dit gold in het bijzonder voor Peter Schiff, zoon van
+ anti-belastingactivist Irwin Schiff en een fervent voorstander van de goudstandaard.
+reviewed: true

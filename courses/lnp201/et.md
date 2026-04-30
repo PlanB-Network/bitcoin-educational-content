@@ -77,7 +77,7 @@ Kas olete valmis avastama Lightning Networki tehnilisi mehhanisme? Alustame!
 :::video id=4315a277-12fe-4946-bb49-a807e60c09a7:::
 
 
-Lightning Network on maksekanalite võrk, mis on ehitatud Bitcoin'i protokolli peale, eesmärgiga võimaldada kiireid ja madala tasuga tehinguid. See võimaldab luua maksekanaleid osalejate vahel, mille sees saab tehinguid teha peaaegu koheselt ja minimaalsete tasudega, ilma et iga tehingut oleks vaja eraldi plokiahelas salvestada. Seega püüab Lightning Network parandada Bitcoin'i skaleeritavust ja muuta selle kasutatavaks madala väärtusega maksete jaoks.
+[Lightning Network](https://planb.academy/resources/glossary/lightning-network) on [maksekanalite](https://planb.academy/resources/glossary/payment-channel) võrk, mis on ehitatud Bitcoin'i protokolli peale, eesmärgiga võimaldada kiireid ja madala tasuga tehinguid. See võimaldab luua maksekanaleid osalejate vahel, mille sees saab tehinguid teha peaaegu koheselt ja minimaalsete tasudega, ilma et iga tehingut oleks vaja eraldi [plokiahelas](https://planb.academy/resources/glossary/blockchain) salvestada. Seega püüab Lightning Network parandada Bitcoin'i [skaleeritavust](https://planb.academy/resources/glossary/scalability) ja muuta selle kasutatavaks madala väärtusega maksete jaoks.
 
 Enne "võrgu" aspekti uurimist on oluline mõista Lightning'il maksekanali kontseptsiooni, kuidas see toimib ja selle eripärasid. See on selle esimese peatüki teema.
 
@@ -87,7 +87,7 @@ Maksekanal võimaldab kahel osapoolel, siin **Alice** ja **Bob**, vahetada vahen
 
 ![LNP201](assets/en/001.webp)
 
-Meie näites on Alicel oma kanali poolel 100 000 satoshi ja Bobil 30 000, kokku 130 000 satoshi, mis moodustab **kanali mahutavuse**.
+Meie näites on Alicel oma kanali poolel 100 000 [satoshi](https://planb.academy/resources/glossary/satoshi-sat) ja Bobil 30 000, kokku 130 000 satoshi, mis moodustab **[kanali mahutavuse](https://planb.academy/resources/glossary/lightning-channel-capacity)**.
 
 **Aga mis on satoshi?**
 
@@ -135,7 +135,7 @@ See peatükk on veidi eriline, kuna see ei ole otseselt pühendatud Lightning'ul
 
 ### Bitcoin'i Aadressid, Privaatvõtmed ja Avalikud Võtmed
 
-Bitcoin'i aadress on tähemärkide jada, mis on tuletatud **avalikust võtmest**, mis omakorda on arvutatud **privaatvõtmest**. Nagu te kindlasti teate, kasutatakse seda bitcoinide lukustamiseks, mis on võrdne nende vastuvõtmisega meie rahakotti.
+Bitcoin'i aadress on tähemärkide jada, mis on tuletatud **[avalikust võtmest](https://planb.academy/resources/glossary/public-key)**, mis omakorda on arvutatud **[privaatvõtmest](https://planb.academy/resources/glossary/private-key)**. Nagu te kindlasti teate, kasutatakse seda bitcoinide lukustamiseks, mis on võrdne nende vastuvõtmisega meie rahakotti.
 
 Privaatvõti on salajane element, mida **ei tohiks kunagi jagada**, samas kui avalik võti ja aadressi võib jagada ilma turvariskita (nende avalikustamine kujutab endast ainult teie privaatsuse riski). Siin on üldine esitus, mida me kogu selle koolituse vältel kasutame:
 
@@ -145,15 +145,15 @@ Privaatvõti on salajane element, mida **ei tohiks kunagi jagada**, samas kui av
 
 ### Bitcoin'i Tehingud: Fondide Saatmine ja Skriptid
 
-Bitcoin'il hõlmab tehing fondide saatmist ühelt aadressilt teisele. Võtame näiteks Alice'i, kes saadab 0.002 Bitcoin'i Bobile. Alice kasutab oma aadressiga seotud privaatvõtit tehingu **allkirjastamiseks**, tõestades sellega, et ta on tõepoolest võimeline neid vahendeid kulutama. Kuid mis täpselt selle tehingu taga toimub? Bitcoin'i aadressil olevad fondid on lukustatud **skriptiga**, omamoodi mini-programmiga, mis seab fondide kulutamiseks teatud tingimused.
+Bitcoin'il hõlmab tehing fondide saatmist ühelt aadressilt teisele. Võtame näiteks Alice'i, kes saadab 0.002 Bitcoin'i Bobile. Alice kasutab oma aadressiga seotud privaatvõtit tehingu **allkirjastamiseks**, tõestades sellega, et ta on tõepoolest võimeline neid vahendeid kulutama. Kuid mis täpselt selle tehingu taga toimub? Bitcoin'i aadressil olevad fondid on lukustatud **[skriptiga](https://planb.academy/resources/glossary/script)**, omamoodi mini-programmiga, mis seab fondide kulutamiseks teatud tingimused.
 
-Kõige levinum skript nõuab aadressiga seotud privaatvõtmega allkirjastamist. Kui Alice allkirjastab tehingu oma privaatvõtmega, **avab ta skripti**, mis blokeerib vahendid, ja need saab seejärel üle kanda. Fondide ülekandmine hõlmab nende fondidele uue skripti lisamist, milles on sätestatud, et nende kulutamiseks on seekord vajalik **Bob'i** privaatvõtme allkiri.
+Kõige levinum skript nõuab aadressiga seotud privaatvõtmega allkirjastamist. Kui Alice allkirjastab tehingu oma privaatvõtmega, **avab ta skripti**, mis blokeerib vahendid, ja need saab seejärel üle kanda. Fondide ülekandmine hõlmab nende fondidele uue skripti lisamist, milles on sätestatud, et nende kulutamiseks on seekord vajalik **Bob'i** privaatvõtme [allkiri](https://planb.academy/resources/glossary/digital-signature).
 
 ![LNP201](assets/en/005.webp)
 
 ### UTXO-d: Kulutamata Tehinguväljundid
 
-Bitcoin'il vahetame tegelikult mitte otseselt bitcoine, vaid **[UTXO](https://planb.academy/resources/glossary/utxo)-sid** (_Unspent Transaction Outputs_), tähendab "kulutamata tehinguväljundeid".
+Bitcoin'il vahetame tegelikult mitte otseselt bitcoine, vaid **UTXO-sid** (_Unspent Transaction Outputs_), tähendab "kulutamata tehinguväljundeid".
 
 UTXO on bitcoin'i tükk, mis võib olla mis tahes väärtuses, näiteks **2,000 bitcoin'i**, **8 bitcoin'i** või isegi **8,000 sats'i**. Iga UTXO on lukustatud skriptiga ja selle kulutamiseks tuleb rahuldada skripti tingimused, sageli allkiri antud vastuvõtu aadressiga seotud privaatvõtmega.
 
@@ -209,9 +209,9 @@ Nagu me esimeses peatükis nägime, võib **maksekanalit** Lightningis võrrelda
 
 On oluline selgelt eristada erinevaid vahetuse tasemeid Lightning Networkis:
 
-- **Eakaaslastevaheline suhtlus (Lightning protokoll)**: Need on sõnumid, mida Lightningi sõlmed omavahel suhtlemiseks saadavad. Me kujutame neid sõnumeid meie diagrammides katkendlike mustade joontega.
+- **[Eakaaslastevaheline](https://planb.academy/resources/glossary/peertopeer-p2p) suhtlus (Lightning protokoll)**: Need on sõnumid, mida [Lightningi sõlmed](https://planb.academy/resources/glossary/lightning-node) omavahel suhtlemiseks saadavad. Me kujutame neid sõnumeid meie diagrammides katkendlike mustade joontega.
 - **Maksekanalid (Lightning protokoll)**: Need on teed vahendite vahetamiseks Lightningis, mida me kujutame tahkete mustade joontega.
-- **Bitcoin'i tehingud (Bitcoin protokoll)**: Need on onchain tehingud, mida me kujutame oranžide joontega.
+- **Bitcoin'i tehingud (Bitcoin protokoll)**: Need on [onchain](https://planb.academy/resources/glossary/onchain) tehingud, mida me kujutame oranžide joontega.
 
 ![LNP201](assets/en/010.webp)
 On oluline märkida, et Lightningi sõlm suudab suhelda P2P protokolli kaudu ilma kanalit avamata, kuid vahendite vahetamiseks on kanal vajalik.
@@ -244,7 +244,7 @@ On oluline märkida, et Lightningi sõlm suudab suhelda P2P protokolli kaudu ilm
 
 ### Millal peetakse kanalit avatuks?
 
-Kanalit peetakse avatuks, kui deposiidi tehing on lisatud Bitcoin'i plokki ja see on saavutanud teatud sügavuse kinnitustes (järgnevate plokkide arv).
+Kanalit peetakse avatuks, kui deposiidi tehing on lisatud Bitcoin'i [plokki](https://planb.academy/resources/glossary/block) ja see on saavutanud teatud sügavuse [kinnitustes](https://planb.academy/resources/glossary/confirmation) (järgnevate plokkide arv).
 
 **Mida peaksite sellest peatükist meeles pidama?**
 
@@ -276,7 +276,7 @@ Kanali avamise hetkel deposiit Alice **130 000 satoshi** kanali multisignatuuri 
 
 ### Avaldamata Tehingud: Kohustuslikud Tehingud
 
-Kui Alice teeb kanalis tehingu, et saata vahendeid Bobile, luuakse uus Bitcoin'i tehing, et kajastada seda muutust vahendite jaotuses. Seda tehingut, mida nimetatakse **kohustuslikuks tehinguks**, ei avaldata plokiahelas, kuid see esindab kanali uut seisundit pärast Lightning tehingut.
+Kui Alice teeb kanalis tehingu, et saata vahendeid Bobile, luuakse uus Bitcoin'i tehing, et kajastada seda muutust vahendite jaotuses. Seda tehingut, mida nimetatakse **[kohustuslikuks tehinguks](https://planb.academy/resources/glossary/commitment-transaction)**, ei avaldata plokiahelas, kuid see esindab kanali uut seisundit pärast Lightning tehingut.
 
 Võtame näiteks, kus Alice saadab 30 000 satoshi Bobile:
 
@@ -346,9 +346,9 @@ Veelgi hullem, Alice võiks avaldada kõige esimese väljavõtmistehingu, selle 
 
 Selle liiki petmise vältimiseks Alice'i poolt, lisatakse Lightning Network'is kohustuslikele tehingutele **turvamehhanismid**:
 
-- **Ajalukk**: Iga kohustuslik tehing sisaldab Alice'i vahenditele ajalukku. Ajalukk on nutilepingu primitiiv, mis seab aja tingimuse, mis peab olema täidetud, et tehingut saaks lisada plokki. See tähendab, et Alice ei saa oma vahendeid taastada enne, kui on möödunud teatud arv plokke, kui ta avaldab ühe kohustuslikest tehingutest. See ajalukk hakkab kehtima alates kohustusliku tehingu kinnitamisest. Selle kestus on üldiselt proportsionaalne kanali suurusega, kuid seda saab ka käsitsi seadistada.
+- **Ajalukk**: Iga kohustuslik tehing sisaldab Alice'i vahenditele [ajalukku](https://planb.academy/resources/glossary/timelock). Ajalukk on [nutilepingu](https://planb.academy/resources/glossary/smart-contract) primitiiv, mis seab aja tingimuse, mis peab olema täidetud, et tehingut saaks lisada plokki. See tähendab, et Alice ei saa oma vahendeid taastada enne, kui on möödunud teatud arv plokke, kui ta avaldab ühe kohustuslikest tehingutest. See ajalukk hakkab kehtima alates kohustusliku tehingu kinnitamisest. Selle kestus on üldiselt proportsionaalne kanali suurusega, kuid seda saab ka käsitsi seadistada.
 - **Tühistamisvõti**: Alice'i vahendeid saab samuti kohe kulutada Bob, kui tal on **tühistamisvõti**. See võti koosneb saladusest, mida hoiab Alice, ja saladusest, mida hoiab Bob. Pange tähele, et see saladus on iga kohustusliku tehingu jaoks erinev.
-   Tänu nende kahe ühendatud mehhanismi kasutamisele on Bobil aega tuvastada Alice'i petmiskatse ja teda karistada, taastades oma väljundi revokatsioonivõtmega, mis Bobi jaoks tähendab kanali kõikide vahendite tagasisaamist. Meie uus kohustuslik tehing näeb nüüd välja selline:
+   Tänu nende kahe ühendatud mehhanismi kasutamisele on Bobil aega tuvastada Alice'i petmiskatse ja teda karistada, taastades oma [väljundi](https://planb.academy/resources/glossary/output) revokatsioonivõtmega, mis Bobi jaoks tähendab kanali kõikide vahendite tagasisaamist. Meie uus kohustuslik tehing näeb nüüd välja selline:
    ![LNP201](assets/en/025.webp)
 
 Vaadelgem selle mehhanismi toimimist üksikasjalikumalt.
@@ -358,7 +358,7 @@ Vaadelgem selle mehhanismi toimimist üksikasjalikumalt.
 Kui Alice ja Bob uuendavad kanali olekut uue Lightning tehinguga, vahetavad nad ette oma vastavad **saladused** eelmise kohustusliku tehingu jaoks (see, mis muutub vananenuks ja võiks lubada ühel neist petta). See tähendab, et kanali uues olekus:
 
 - Alice'il ja Bobil on uus kohustuslik tehing, mis kujutab pärast Lightning tehingut fondide praegust jaotust.
-- Mõlemal on teise osapoole saladus eelmise tehingu jaoks, mis võimaldab neil kasutada revokatsioonivõtit ainult siis, kui üks neist üritab petta, avaldades tehingu vanas olekus Bitcoin'i sõlmede mempoolides. Tõepoolest, teise poole karistamiseks on vajalik mõlema saladuste ja teise osapoole kohustusliku tehingu omamine, mis sisaldab allkirjastatud sisendit. Ilma selle tehinguta on revokatsioonivõti üksi kasutu. Ainus viis selle tehingu saamiseks on selle taastamine mempoolidest (ootavates tehingutes) või kinnitatud tehingutest plokiahelas ajaluku ajal, mis tõestab, et teine pool üritab petta, olgu see tahtlikult või mitte.
+- Mõlemal on teise osapoole saladus eelmise tehingu jaoks, mis võimaldab neil kasutada revokatsioonivõtit ainult siis, kui üks neist üritab petta, avaldades tehingu vanas olekus Bitcoin'i sõlmede [mempoolides](https://planb.academy/resources/glossary/mempool). Tõepoolest, teise poole karistamiseks on vajalik mõlema saladuste ja teise osapoole kohustusliku tehingu omamine, mis sisaldab [allkirjastatud sisendit](https://planb.academy/resources/glossary/input). Ilma selle tehinguta on revokatsioonivõti üksi kasutu. Ainus viis selle tehingu saamiseks on selle taastamine mempoolidest (ootavates tehingutes) või kinnitatud tehingutest plokiahelas ajaluku ajal, mis tõestab, et teine pool üritab petta, olgu see tahtlikult või mitte.
 
 Võtame näite, et mõista seda protsessi hästi:
 
@@ -425,7 +425,7 @@ Võtame näite:
 
 ![LNP201](assets/en/031.webp)
 
-- Alice ja Bob läbirääkimisi peavad koos **sulgemistehingu** tasude üle. Need tasud arvutatakse üldiselt välja Bitcoin'i tasuturu alusel sulgemise ajal. On oluline märkida, et **alati on see isik, kes kanali avas** (meie näites Alice), kes maksab sulgemistasud.
+- Alice ja Bob läbirääkimisi peavad koos **sulgemistehingu** [tasude](https://planb.academy/resources/glossary/transaction-fees) üle. Need tasud arvutatakse üldiselt välja Bitcoin'i tasuturu alusel sulgemise ajal. On oluline märkida, et **alati on see isik, kes kanali avas** (meie näites Alice), kes maksab sulgemistasud.
 - Nad koostavad uue **sulgemistehingu**. See tehing sarnaneb kohustuste tehinguga, kuid ilma ajalukkude või tühistamismehhanismideta, kuna mõlemad pooled teevad koostööd ja petmise ohtu ei ole. Seega on see koostööaline sulgemistehing erinev kohustuste tehingutest.
    Näiteks, kui Alice omab **100,000 satoshit** ja Bob **30,000 satoshit**, siis lõpetav tehing saadab **100,000 satoshit** Alice'i aadressile ja **30,000 satoshit** Bob'i aadressile, ilma ajalukustuseta. Kui mõlemad pooled on tehingu allkirjastanud, avaldab Alice selle. Kui tehing on Bitcoin'i plokiahelas kinnitatud, on Lightning kanal ametlikult suletud.
    ![LNP201](assets/en/032.webp)
@@ -478,11 +478,11 @@ On kolm viisi kanali sulgemiseks:
 :::video id=38419c23-5592-4573-b0a7-84824a5bfb77:::
 
 
-Sel peatükis uurime, kuidas makseid Lightning Networkis saab saajani jõuda isegi siis, kui nad ei ole otse ühendatud maksekanaliga. Lightning on tõepoolest **maksekanalite võrk**, mis võimaldab vahendeid saata kaugemale sõlmele läbi teiste osalejate kanalite. Avastame, kuidas makseid võrgus suunatakse, kuidas likviidsus kanalite vahel liigub ja kuidas tehingutasusid arvutatakse.
+Sel peatükis uurime, kuidas makseid Lightning Networkis saab saajani jõuda isegi siis, kui nad ei ole otse ühendatud maksekanaliga. Lightning on tõepoolest **maksekanalite võrk**, mis võimaldab vahendeid saata kaugemale sõlmele läbi teiste osalejate kanalite. Avastame, kuidas makseid võrgus suunatakse, kuidas [likviidsus](https://planb.academy/resources/glossary/liquidity-lightning) kanalite vahel liigub ja kuidas tehingutasusid arvutatakse.
 
 ### Maksekanalite Võrk
 
-Lightning Networkis vastab tehing vahendite ülekandele kahe sõlme vahel. Nagu eelmistes peatükkides nägime, on Lightning tehingute sooritamiseks vajalik avada kellegagi kanal. See kanal võimaldab peaaegu lõpmatut hulka off-chain tehinguid enne selle sulgemist, et taastada on-chain saldo. Siiski on sellel meetodil puudus, kuna vahendite vastuvõtmiseks või saatmiseks on vaja otsest kanalit teise isikuga, mis tähendab iga kanali jaoks avamis- ja sulgemistehingut. Kui plaanin selle inimesega teha suure hulga makseid, muutub kanali avamine ja sulgemine kuluefektiivseks. Vastupidiselt, kui mul on vaja sooritada vaid mõned Lightning tehingud, ei ole otsekanali avamine kasulik, kuna see maksaks mulle 2 on-chain tehingut piiratud hulga off-chain tehingute jaoks. Selline olukord võib tekkida näiteks siis, kui soovitakse maksta Lightningiga kaupmehe juures, ilma et plaanitaks sinna tagasi pöörduda.
+Lightning Networkis vastab tehing vahendite ülekandele kahe sõlme vahel. Nagu eelmistes peatükkides nägime, on Lightning tehingute sooritamiseks vajalik avada kellegagi kanal. See kanal võimaldab peaaegu lõpmatut hulka [off-chain](https://planb.academy/resources/glossary/offchain) tehinguid enne selle sulgemist, et taastada on-chain saldo. Siiski on sellel meetodil puudus, kuna vahendite vastuvõtmiseks või saatmiseks on vaja otsest kanalit teise isikuga, mis tähendab iga kanali jaoks avamis- ja sulgemistehingut. Kui plaanin selle inimesega teha suure hulga makseid, muutub kanali avamine ja sulgemine kuluefektiivseks. Vastupidiselt, kui mul on vaja sooritada vaid mõned Lightning tehingud, ei ole otsekanali avamine kasulik, kuna see maksaks mulle 2 on-chain tehingut piiratud hulga off-chain tehingute jaoks. Selline olukord võib tekkida näiteks siis, kui soovitakse maksta Lightningiga kaupmehe juures, ilma et plaanitaks sinna tagasi pöörduda.
 
 Selle probleemi lahendamiseks võimaldab Lightning Network suunata makse läbi mitme kanali ja vahendajasõlmede, võimaldades nii tehingut ilma otsekanalita teise isikuga.
 
@@ -591,7 +591,7 @@ Sel peatükis uurisime maksete suunamist Lightningi võrgus. Kuid tekib küsimus
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-Sel peatükis avastame, kuidas Lightning võimaldab makseid suunata läbi vahendajasõlmede ilma, et peaks neid usaldama, tänu **[HTLC](https://planb.academy/resources/glossary/htlc)**-le (_Hashed Time-Locked Contracts_). Need nutilepingud tagavad, et iga vahendajasõlm saab oma kanalist rahad kätte ainult siis, kui ta edastab makse lõppsaajale, vastasel juhul makset ei valideerita.
+Sel peatükis avastame, kuidas Lightning võimaldab makseid suunata läbi vahendajasõlmede ilma, et peaks neid usaldama, tänu **HTLC**-le (_Hashed Time-Locked Contracts_). Need nutilepingud tagavad, et iga vahendajasõlm saab oma kanalist rahad kätte ainult siis, kui ta edastab makse lõppsaajale, vastasel juhul makset ei valideerita.
 
 Maksete suunamisel tekib seega vajadus usaldada vahendajasõlmi ja ka vahendajasõlmede vahelist usaldust. Selle illustreerimiseks vaatame uuesti meie lihtsustatud Lightningi võrgu näidet 3 sõlme ja 2 kanaliga:
 
@@ -617,7 +617,7 @@ HTLC on eriline leping, mis põhineb kahe põhimõttel:
 Siin on, kuidas see protsess meie näites Alice'i, Suzie ja Bobiga töötab:
 
 ![LNP201](assets/en/048.webp)
-**Saladuse loomine**: Bob genereerib juhusliku saladuse, mida tähistatakse _s_-na (eelkujutis), ja arvutab selle räsi, mida tähistatakse _r_-na, kasutades räsimisfunktsiooni, mida tähistatakse _h_-na. Meil on:
+**Saladuse loomine**: Bob genereerib juhusliku saladuse, mida tähistatakse _s_-na (eelkujutis), ja arvutab selle räsi, mida tähistatakse _r_-na, kasutades [räsimisfunktsiooni](https://planb.academy/resources/glossary/hash-function), mida tähistatakse _h_-na. Meil on:
 
 $$
 r = h(s)
@@ -718,7 +718,7 @@ Isegi selle Lightning Networki topoloogiaga on marsruutimiseks olulist infot, mi
 
 ### Võrgukaardi Uuendamine
 
-Selleks, et hoida oma võrgukaarti ajakohasena, vahetavad sõlmed regulaarselt sõnumeid algoritmi kaudu, mida nimetatakse "**_gossip_**" (kuulujutt). See on hajutatud algoritm, mida kasutatakse informatsiooni epideemiliseks levitamiseks kõigile võrgu sõlmedele, mis võimaldab kanalite globaalse oleku vahetamist ja sünkroniseerimist mõne suhtlusetsükli jooksul. Iga sõlm levitab teavet ühele või mitmele juhuslikult või mitte juhuslikult valitud naabrile, need omakorda levitavad teavet teistele naabritele ja nii edasi, kuni saavutatakse globaalselt sünkroniseeritud olek.
+Selleks, et hoida oma võrgukaarti ajakohasena, vahetavad sõlmed regulaarselt sõnumeid algoritmi kaudu, mida nimetatakse "**_[gossip](https://planb.academy/resources/glossary/gossip)_**" (kuulujutt). See on hajutatud algoritm, mida kasutatakse informatsiooni epideemiliseks levitamiseks kõigile võrgu sõlmedele, mis võimaldab kanalite globaalse oleku vahetamist ja sünkroniseerimist mõne suhtlusetsükli jooksul. Iga sõlm levitab teavet ühele või mitmele juhuslikult või mitte juhuslikult valitud naabrile, need omakorda levitavad teavet teistele naabritele ja nii edasi, kuni saavutatakse globaalselt sünkroniseeritud olek.
 
 Kahe peamise Lightning sõlmede vahel vahetatava sõnumi on järgmised:
 
@@ -791,7 +791,7 @@ Järgmises peatükis uurime spetsiifiliselt arvete toimimist, lisaks mõningaid 
 
 <chapterId>e34c7ecd-2327-52e3-b61e-c837d9e5e8b0</chapterId>
 :::video id=309c3412-506e-4189-ad46-5e5088c55008:::
-Selles peatükis vaatame lähemalt Lightning **arvete** tööpõhimõtet, see tähendab maksepäringuid, mida saaja sõlm saadab saatja sõlmele. Eesmärk on mõista, kuidas Lightningis makseid teha ja vastu võtta. Arutleme ka kahe klassikalisele arvetele alternatiivi üle: LNURL ja Keysend.
+Selles peatükis vaatame lähemalt Lightning **arvete** tööpõhimõtet, see tähendab maksepäringuid, mida saaja sõlm saadab saatja sõlmele. Eesmärk on mõista, kuidas Lightningis makseid teha ja vastu võtta. Arutleme ka kahe klassikalisele arvetele alternatiivi üle: [LNURL](https://planb.academy/resources/glossary/lnurl) ja Keysend.
 ![LNP201](assets/en/068.webp)
 
 ### Lightning Arvete Struktuur
@@ -866,7 +866,7 @@ Arve sisu hõlmab mitmeid makse töötlemiseks vajalikke teabeosi:
 - **Marsruudi Viited**: Saaja poolt antud lisateave, mis aitab saatjal optimeerida makseteed.
 - **Allkiri**: Tagab arve terviklikkuse, autentides kogu teabe.
 
-Arved kodeeritakse seejärel **bech32** formaadis, sama formaat nagu Bitcoin SegWit aadressidel (formaadiga alustades `bc1`).
+Arved kodeeritakse seejärel **[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)** formaadis, sama formaat nagu Bitcoin [SegWit](https://planb.academy/resources/glossary/segwit) aadressidel (formaadiga alustades `bc1`).
 
 ### LNURL Väljamakse
 
@@ -908,8 +908,8 @@ Sel peatükis uurime strateegiaid likviidsuse efektiivseks haldamiseks Lightning
 
 Lightning'il on kolm peamist kasutajaprofiili, millest igaühel on spetsiifilised likviidsusvajadused:
 
-- **Maksja**: See on isik, kes teeb makseid. Neil on vaja väljaminevat likviidsust, et suuta üle kanda vahendeid teistele kasutajatele. Näiteks võib see olla tarbija.
-- **Müüja (või Saaja)**: See on isik, kes saab makseid. Neil on vaja sissetulevat likviidsust, et suuta vastu võtta makseid oma sõlme. Näiteks võib see olla ettevõte või veebipood.
+- **Maksja**: See on isik, kes teeb makseid. Neil on vaja [väljaminevat likviidsust](https://planb.academy/resources/glossary/outbound-capacity), et suuta üle kanda vahendeid teistele kasutajatele. Näiteks võib see olla tarbija.
+- **Müüja (või Saaja)**: See on isik, kes saab makseid. Neil on vaja [sissetulevat likviidsust](https://planb.academy/resources/glossary/inbound-capacity), et suuta vastu võtta makseid oma sõlme. Näiteks võib see olla ettevõte või veebipood.
 - **Ruuter**: Vahepealne sõlm, mis on sageli spetsialiseerunud maksete suunamisele, peab optimeerima oma likviidsust igas kanalis, et suunata võimalikult palju makseid ja teenida tasusid.
 
 Need profiilid ei ole muidugi fikseeritud; kasutaja võib sõltuvalt tehingutest vahetada maksja ja saaja rolli. Näiteks võib Bob saada oma palga Lightning'is oma tööandjalt, mis asetab ta "müüja" positsioonile, vajades sissetulevat likviidsust. Järgnevalt, kui ta soovib oma palka kasutada toidu ostmiseks, muutub ta "maksjaks" ja peab seejärel omama väljaminevat likviidsust.

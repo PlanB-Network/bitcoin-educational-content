@@ -1,0 +1,23 @@
+id: 8eeb3d66-d991-47a2-840f-e076a57591db
+name: Bitcoin Bazar
+category: merchant
+links:
+  website: https://bitcoinbazar.fr/
+  twitter: https://x.com/bitcoinbazar21
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - user-friendly
+  - personal-security
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

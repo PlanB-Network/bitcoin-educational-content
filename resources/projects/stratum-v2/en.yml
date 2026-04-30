@@ -1,0 +1,2 @@
+description: |
+  Stratum V2 is the next-generation Bitcoin mining protocol focused on efficiency, security, privacy, and decentralization. It reduces bandwidth usage by ~70%, encrypts mining traffic, enables miners to select their own transactions for blocks, and increases profitability by up to 7.4% through technical improvements like reduced latency and near-zero stale shares. The protocol is community-driven, open-source, and designed with a modular architecture that allows gradual adoption while maintaining backward compatibility with legacy Stratum V1 infrastructure.

@@ -5,5 +5,5 @@ wrong_answers:
   - Mempool.dat i ip.dat
   - ip.dat i anchors.dat
 explanation: |
-  Bitcoin core prvo konsultuje anchors.dat (prethodni odlazni čvorovi), zatim peers.dat (poznata Address knjiga) da bi se ponovo povezao.
+  Bitcoin Core prvo konsultuje anchors.dat (prethodni odlazni čvorovi), zatim peers.dat (knjiga poznatih adresa) da bi se ponovo povezao.
 reviewed: true

@@ -1,0 +1,21 @@
+id: 025015db-cb6b-44ca-b7b4-3dc09f7a36f6
+name: Blog Ellipse-21
+category: education
+
+links:
+  website: https://ellipse-21.co
+  twitter: https://x.com/ellipse_21
+  nostr: npub1ut9tezuseycpu0q2zvsmzd5jw7vznp08ju9c20mkgyqntrlfqe3sp0pqyx
+
+tags:
+  - bitcoin
+  - blog
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2025-11-03
+    urgency: 1
+    contributor_names:
+      - Nisaba
+    reward: 0

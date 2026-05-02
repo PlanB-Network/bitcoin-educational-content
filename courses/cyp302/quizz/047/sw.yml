@@ -5,5 +5,5 @@ wrong_answers:
   - N mod a
   - mod N
 explanation: |
-  Nadharia ya Euler inasema kwamba kwa nambari mbili kamili a na N ambazo ni coprime, ufafanuzi a^ϕ(N) mod N daima ni sawa na 1 mod N, sifa inayotumiwa katika cryptography.
-reviewed: false
+  Nadharia ya Euler inasema kwamba kwa nambari mbili kamili a na N ambazo ni coprime, ufafanuzi a^ϕ(N) mod N daima ni sawa na 1 mod N, sifa inayotumiwa katika kriptografia.
+reviewed: true

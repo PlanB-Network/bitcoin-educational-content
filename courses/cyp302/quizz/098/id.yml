@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan secara otomatis memblokir pesan yang mencurigakan
 explanation: |
   MAC memungkinkan penerima untuk memverifikasi bahwa pesan tidak telah dimodifikasi melalui tag yang dihasilkan dengan kunci rahasia bersama, yang membatasi kemungkinan manipulasi.
+reviewed: true

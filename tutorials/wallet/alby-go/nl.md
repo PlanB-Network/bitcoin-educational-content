@@ -6,13 +6,13 @@ description: Gids voor Alby Go mobiele app
 ![cover-green](assets/cover.webp)
 
 
-## welkom bij Alby Go - de makkelijkst te gebruiken mobiele Wallet
+## 🚀 Welkom bij Alby Go - de makkelijkst te gebruiken mobiele Wallet
 
 
-**Alby Go** is een open-source, eenvoudig te gebruiken mobiele app, die werkt als een Wallet Interface naar Bitcoin bliksemknooppunten en wallets. Hier lees je hoe je aan de slag gaat en het meeste uit je ervaring haalt.
+**Alby Go** is een open-source, eenvoudig te gebruiken mobiele app, die werkt als een wallet-interface naar Bitcoin Lightning-nodes en wallets. Hier lees je hoe je aan de slag gaat en het meeste uit je ervaring haalt.
 
 
-**✅ Ondersteunde en bekende compatibele portemonnees/knooppunten:**
+**✅ Ondersteunde en bekende compatibele wallets/nodes:**
 
 
 
@@ -23,10 +23,10 @@ description: Gids voor Alby Go mobiele app
 - **Minibits** *(niet getest)*
 
 
-De meeste services met NWC zouden moeten werken. Als u een nieuwe test, laat de community dan uw resultaten weten!
+De meeste services met NWC zouden moeten werken. Als je een nieuwe test, deel je resultaten dan met de community !
 
 
-## installeer Alby Go
+## 📲 Installeer Alby Go
 
 
 Beschikbaar op de belangrijkste platforms:
@@ -40,49 +40,49 @@ Beschikbaar op de belangrijkste platforms:
 
 
 
-## sluit een Wallet aan
+## 🔌 Sluit een wallet aan
 
 
-Alby Go maakt verbinding met je lightning-enabled node of Wallet met behulp van een NWC (Nostr Wallet Connect) geheim. Je kunt een of meer wallets koppelen om gemakkelijk tussen de wallets te wisselen.
+Alby Go maakt verbinding met je Lightning-enabled node of wallet met behulp van een NWC (Nostr Wallet Connect) geheim. Je kunt een of meer wallets koppelen om gemakkelijk tussen de wallets te wisselen.
 
 Stappen:
 
-1. Open Instellingen → Portemonnees → Verbind een Wallet
+1. Open Instellingen (settings) → Wallets → Verbind een wallet
 
 2. Scan een QR-code of plak een NWC-verbindingsgeheim (bijv. nostr+walletconnect://...)
 
 3. Geef je verbinding een aangepaste naam
 
 
-Eenmaal aangesloten is je Wallet of node klaar voor het verzenden en ontvangen van Bitcoin lightning betalingen via Alby Go.
+Eenmaal aangesloten is je wallet of node klaar voor het verzenden en ontvangen van Bitcoin lightning betalingen via Alby Go.
 
 
-tip: Je kunt meerdere portemonnees aansluiten en op elk moment tussen de portemonnees wisselen.
+tip: Je kunt meerdere wallets aansluiten en op elk moment tussen de wallets wisselen.
 
 
 
 
-## gW-9 verzenden
+## ⚡ Bitcoin verzenden
 
 
-Om Sats over de Lightning Network te sturen:
+Om sats over het Lightning Network te sturen:
 
-1. Tik op de grote gele **Verstuur knop**.
+1. Tik op de grote gele **SEND knop**.
 
 2. Kies een van de volgende opties:
 
 
- - Scan een bliksem Invoice QR code
- - Een bliksem Invoice plakken vanaf het klembord
- - Handmatig een bliksem Address invoeren
+ - Scan een Lightning-invoice QR-code
+ - Plak een Lightning-invoice vanaf het klembord
+ - Handmatig een Lightning-adres invoeren
 
 
-Je kunt ook een ontvanger selecteren uit je Address Boek, waar je bliksemadressen kunt opslaan voor gemakkelijk hergebruik.
+Je kunt ook een ontvanger uit je adresboek selecteren, waar je Lightning-adressen kunt opslaan voor gemakkelijk hergebruik.
 
 
 
 
-## gW-16 ontvangen
+## 💸 Bitcoin ontvangen
 
 Sats ontvangen met Alby Go:
 
@@ -91,21 +91,21 @@ Sats ontvangen met Alby Go:
 2. Kies een van de volgende opties:
 
 
- - Deel je bliksem Address zoals weergegeven
- - Selecteer "Bedrag" om generate een bliksem Invoice met aangepaste bedragen te maken
- - Klik op "Redeem" om QR-codes te scannen die LNURL intrekken
+ - Deel je Lightning-adres zoals weergegeven
+ - Selecteer "Bedrag" om een Lightning-invoice met aangepast bedrag te maken
+ - Klik op "Redeem" om een afhaal LNRL QR-code te scannen 
 
 
-Zowel QR-codes als Invoice strings zijn beschikbaar voor het gemak van de verzender.
+Zowel QR-codes als invoice strings zijn beschikbaar voor het gemak van de verzender.
 
 
 
 
-## ga!
+## 🧳 Ga!
 
-Neem je Bitcoin overal mee naartoe.
+Neem je bitcoin overal mee naartoe.
 
-**Alby Go** is lichtgewicht, snel en makkelijk te gebruiken - perfect voor node operators en Bitcoiners onderweg.
+**Alby Go** is lichtgewicht, snel en makkelijk te gebruiken - perfect voor node-operators en Bitcoiners die onderweg ziin.
 
 Geen opgeblazen gevoel. Geen gedoe. Bliksemsnel.
 
@@ -115,12 +115,12 @@ Geen opgeblazen gevoel. Geen gedoe. Bliksemsnel.
 ## 🛠️ Extra functies
 
 
-- 🗺️ BTC Map (een uitgebreide lijst van handelaren die Bitcoin betalingen accepteren)
-- donker & lichtmodus
-- aangepaste valuta-invoer en rekenmachine
-- transactiegeschiedenis
-- gW-25 boek
-- portefeuilles toevoegen, verwijderen en exporteren
+- 🗺️ BTC Map (een uitgebreide lijst van handelaren die bitcoin betalingen accepteren)
+- 🌗 Donker & lichtmodus
+- 💱 Aangepaste valuta-invoer en rekenmachine
+- 🧾 Transactiegeschiedenis
+- 👥 Adresboek
+- 🧷 wallets toevoegen, verwijderen en exporteren
 
 
 **💡 Hulp nodig? **

@@ -1,9 +1,9 @@
-question: Lightning Network giúp giảm phí cho các giao dịch Bitcoin như thế nào?
-answer: Bằng cách thực hiện hầu hết các giao dịch off-chain và chỉ công bố các giao dịch thanh toán kênh trên blockchain chính.
+question: Lightning Network (mạng Lightning) giúp giảm phí cho các giao dịch Bitcoin như thế nào?
+answer: Bằng cách thực hiện hầu hết các giao dịch off-chain và chỉ công bố các giao dịch tất toán kênh trên blockchain chính.
 wrong_answers:
-  - Bằng cách xóa bỏ mọi xác minh mật mã khỏi thanh toán.
-  - Bằng cách tập trung quyền kiểm soát vào một trung tâm thanh toán lớn.
-  - Bằng cách yêu cầu các thương gia phải trả trước toàn bộ chi phí mạng lưới.
+  - Bằng cách xóa bỏ mọi xác minh mật mã khỏi việc thanh toán.
+  - Bằng cách tập trung quyền kiểm soát vào một trung tâm thanh toán quy mô lớn.
+  - Bằng cách yêu cầu các bên giao thương phải trả trước toàn bộ chi phí của mạng lưới.
 explanation: |
-  Vì các giao dịch Lightning diễn ra ở off-chain, nên chỉ có trạng thái kênh cuối cùng được giải quyết trên blockchain Bitcoin. Điều này làm giảm tắc nghẽn và do đó giảm phí bằng cách tránh thực hiện nhiều giao dịch on-chain.
+  Vì các giao dịch Lightning diễn ra off-chain, nên chỉ có trạng thái số dư cuối được xử lý trên blockchain Bitcoin. Điều này làm giảm tắc nghẽn và do đó giảm phí bằng cách tránh thực hiện nhiều giao dịch on-chain.
 reviewed: true

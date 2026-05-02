@@ -1,4 +1,4 @@
-question: Ni nini jukumu la nadharia ya Bayes kwa uwezekano?
+question: Ni nini jukumu la nadharia ya Bayes katika uwezekano?
 answer: Huruhusu kukokotoa uwezekano wa masharti kwa kubadilisha matukio.
 wrong_answers:
   - Inatoa uwezekano wa kutokea kwa tukio moja.
@@ -6,4 +6,4 @@ wrong_answers:
   - Inatumika tu kwa vigezo vinavyoendelea.
 explanation: |
   Nadharia ya Bayes huwezesha kukokotoa uwezekano wa tukio A lililotolewa B kwa kubadilisha uwezekano na ni muhimu katika nadharia ya uwezekano.
-reviewed: false
+reviewed: true

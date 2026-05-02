@@ -6,3 +6,4 @@ wrong_answers:
   - Posisi bit dalam operan tidak mempengaruhi hasil operasi
 explanation: |
   XOR bersifat komutatif, yang berarti a XOR b sama dengan b XOR a.
+reviewed: true

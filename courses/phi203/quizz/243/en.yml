@@ -1,0 +1,8 @@
+question: What historical example does the text give to illustrate that functions commonly assumed to require state management can be handled by private initiative?
+answer: Roads and bridges, which have often been built and managed privately in many societies throughout history
+wrong_answers:
+  - The postal service, which operated as a profitable private network before being nationalised for reasons of national security
+  - Public hospitals, which were originally founded and run by religious charitable organisations before state takeover
+  - Primary schools, which functioned as community-funded institutions before compulsory public education was introduced
+explanation: |
+  The text uses roads and bridges as a concrete example when distinguishing necessary state functions from ancillary ones. While liberals recognise that policing, justice, and certain aspects of land-use planning require the state, they argue that many functions considered state prerogatives are in fact perfectly suited to private initiative, free association, and the market economy. The historical record of privately built and managed roads and bridges demonstrates that infrastructure is not inherently a state function, as commonly assumed.

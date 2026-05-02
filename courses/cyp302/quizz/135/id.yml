@@ -6,4 +6,4 @@ wrong_answers:
   - Mereka memerlukan hashing yang lebih panjang untuk keamanan yang lebih
 explanation: |
   Kata sandi yang lemah dapat dengan mudah ditemukan dari hash mereka menggunakan serangan kamus, membuat pemilihan mereka penting untuk memastikan keamanan.
-reviewed: false
+reviewed: true

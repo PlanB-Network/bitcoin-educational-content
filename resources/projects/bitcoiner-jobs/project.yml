@@ -1,0 +1,19 @@
+id: acf2c8da-c5f3-45d2-b432-cbe7cc6e407f
+name: Bitcoiner Jobs
+category: service
+links:
+  website: https://bitcoinerjobs.com
+tags:
+  - adoption
+  - business
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-02-20
+    urgency: 1
+    contributor_names:
+      - PBN-bot
+    reward: 0
+contributor_names:
+  - PBN-bot
+license: CC-BY-SA-V4

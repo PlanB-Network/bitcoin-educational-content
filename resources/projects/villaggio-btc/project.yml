@@ -1,0 +1,22 @@
+id: 1e7cc4bb-8ffa-49c0-8d52-967e3f56ff3a
+name: Villaggio Bitcoin
+category: communities
+address_city_country: Darfo Boario Terme, Italy
+links:
+  website: https://www.villaggiobitcoin.it/
+  twitter: https://x.com/VillaggioBTC
+  linkedin: https://it.linkedin.com/company/villaggio-bitcoin
+tags:
+  - adoption
+  - education
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2026-02-18
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

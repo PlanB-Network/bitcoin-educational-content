@@ -5,5 +5,5 @@ wrong_answers:
   - Ghép kênh nhiều nút LND
   - Mining sats sử dụng Umbrel
 explanation: |
-  Mục tiêu là sử dụng ứng dụng Lightning wallet di động chạy ngầm trên chính node của bạn.
+  Mục tiêu là sử dụng ứng dụng Lightning wallet di động chạy ngầm trên chính nút của bạn.
 reviewed: false

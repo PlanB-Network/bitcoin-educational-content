@@ -6,3 +6,4 @@ wrong_answers:
   - Menambahkan lapisan enkripsi tambahan
 explanation: |
   Dalam skema enkripsi terautentikasi, nonce digunakan untuk memastikan bahwa setiap pesan memiliki tag unik, dengan demikian meningkatkan keamanan dengan mencegah pengulangan.
+reviewed: true

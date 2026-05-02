@@ -1,7 +1,7 @@
-question: Kakav je rizik ako Wallet zavisi od čvora treće strane?
+question: Kakav je rizik ako novčanik zavisi od čvora treće strane?
 answer: Rizik od nadzora i cenzure
 wrong_answers:
-  - Rizik od automatskog Double-spending
+  - Rizik od automatske dvostruke potrošnje
   - Rizik od gubitka privatnih ključeva
   - Rizik od gubitka i praćenje
 explanation: |

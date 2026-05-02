@@ -6,3 +6,4 @@ wrong_answers:
   - Ini membuat kode algoritma lebih indah bagi manusia.
 explanation: |
   Dengan menggunakan nonce acak untuk setiap sesi, metode CBC dan OFB memastikan bahwa setiap enkripsi bersifat unik, yang mencegah serangan yang memanfaatkan data yang identik.
+reviewed: true

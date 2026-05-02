@@ -6,3 +6,4 @@ wrong_answers:
   - Ini hanya berlaku untuk variabel kontinu.
 explanation: |
   Teorema Bayes memungkinkan perhitungan probabilitas suatu kejadian A diketahui B dengan membalikkan probabilitas dan sangat penting dalam teori probabilitas.
+reviewed: true

@@ -1463,7 +1463,7 @@ Joidenkin teorioiden mukaan vaihtokauppaa käytettiin lähinnä kansainvälisess
 
 
 
-Niinpä teemme tässä jaksossa. Teemme eräänlaisen tutkimuksen, jossa esitellään erilaisia teorioita rahan synnystä ja erilaisia määritelmiä siitä, mitä raha on. Esittelemme ja kritisoimme sekä klassisten taloustieteilijöiden että antropologien teesejä. Minulla on jopa onni saada mukaani Ulrich Fromy, joka esittelee itävaltalaisen taloustieteilijän näkökulman näihin eri aiheisiin.
+Niinpä teemme tässä jaksossa. Teemme eräänlaisen tutkimuksen, jossa esitellään erilaisia teorioita rahan synnystä ja erilaisia määritelmiä siitä, mitä raha on. Esittelemme ja kritisoimme sekä klassisten taloustieteilijöiden että antropologien teesejä. Minulla on jopa onni saada mukaani Ulrich, joka esittelee itävaltalaisen taloustieteilijän näkökulman näihin eri aiheisiin.
 
 
 

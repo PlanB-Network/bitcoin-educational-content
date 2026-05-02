@@ -1,9 +1,9 @@
-question: Kto ustanowił pierwszą usługę Exchange między Bitcoin a dolarem w październiku 2009 r.?
+question: Kto zaoferował pierwszą usługę wymiany między bitcoinem a dolarem w październiku 2009 r.?
 answer: NewLibertyStandard
 wrong_answers:
   - sirius-m
   - dwdolar
   - SmokeTooMuch
 explanation: |
-  Usługa ta była podstawowa: wymiany były negocjowane za pośrednictwem poczty elektronicznej, a płatności dokonywano za pośrednictwem PayPal. Stawka Exchange była oparta na kosztach Mining samego NewLibertyStandard.
-reviewed: false
+  Usługa ta była podstawowa: wymianę negocjowano za pośrednictwem poczty elektronicznej, a płatności dokonywano przez PayPala. Stawka wymiany była oparta na kosztach wydobycia samego NewLibertyStandard.
+reviewed: true

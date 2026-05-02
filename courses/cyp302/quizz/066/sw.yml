@@ -1,4 +1,4 @@
-question: Ni nini kazi ya algorithm ya kizazi muhimu katika mpango wa usimbaji fiche linganifu?
+question: Ni nini kazi ya algoriti ya kizazi muhimu katika mpango wa usimbaji fiche linganifu?
 answer: Inazalisha ufunguo wa kibinafsi
 wrong_answers:
   - Inazalisha ufunguo wa umma
@@ -6,4 +6,4 @@ wrong_answers:
   - Inasimba ujumbe kwa njia fiche
 explanation: |
   Katika mpango wa usimbaji wa ulinganifu, algoriti ya uundaji wa ufunguo hutoa ufunguo wa faragha, ambao utatumiwa kusimba na kusimbua ujumbe.
-reviewed: false
+reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - SHA1
   - SHA512
 explanation: |
-  Les ASIC Bitcoin sont spécialisés pour le double SHA256 utilisé par la preuve de travail de Bitcoin.
-reviewed: false
+  Les ASICs Bitcoin sont spécialisés pour le double SHA256 utilisé par la preuve de travail de Bitcoin.
+reviewed: true 

@@ -1,4 +1,4 @@
-question: What is the best way to access Bitcoin Core remotely?
+question: Which method is discouraged for remote access to Bitcoin Core?
 answer: Exposing the RPC port
 wrong_answers:
   - Using Tor

@@ -16,7 +16,7 @@ Avant d'aborder le cœur du sujet, prenons un moment pour examiner la particular
 
 ## La particularité du mode self-custody 
 
-La simplicité et la fluidité du mode self-custody de WoS vous éliminent la complexité liée à l'ouverture de canaux Lightning, à l'administration de nœuds… Mais comment est-ce possible?
+La simplicité et la fluidité du mode self-custody de WoS vous éliminent la complexité liée à l'ouverture de canaux Lightning, à l'administration de nœuds… Mais comment est-ce possible ?
  
 En effet, le mode self-custody de Wallet of Satoshi est alimenté par **Spark**. C'est une solution de couche 2 pour Bitcoin, créée par Lightspark, qui utilise la technologie des **statechains**. 
  
@@ -26,7 +26,7 @@ Par exemple, Bob souhaite régler une facture Lightning en utilisant WoS. Il tra
  
 À l'inverse, Alice souhaite obtenir des fonds directement dans son portefeuille WoS. Dans ce cas, le **SSP** reçoit les sats via LN et crédite immédiatement le portefeuille d'Alice.
 
-Ainsi, il est important de noter que pour profiter de la simplicité et de la fluidité de WoS, vous devez dépendre des serveurs de Spark. Toutefois, en termes de sécurité, si un SSP devient malveillant ou indisponible, vous disposez du mécanisme de **sortie unilatérale**, une mesure de sécurité qui vous permet de récupérer vos fonds sur Bitcoin on-chain (même si cela peut être lent et coûteux) , garantissant ainsi une expérience self-custodial comparable à celle d'un nœud Lightning privé.
+Ainsi, il est important de noter que pour profiter de la simplicité et de la fluidité de WoS, vous devez dépendre des serveurs de Spark. Toutefois, en termes de sécurité, si un SSP devient malveillant ou indisponible, vous disposez du mécanisme de **sortie unilatérale**, une mesure de sécurité qui vous permet de récupérer vos fonds sur Bitcoin on-chain (même si cela peut être lent et coûteux), garantissant ainsi une expérience self-custodial comparable à celle d'un nœud Lightning privé.
 
 C'est donc en tenant compte de tous ces paramètres que chacun pourra souverainement décider le montant de sats qu'il souhaite conserver dans le WoS self-custody.
 
@@ -54,7 +54,7 @@ Passons maintenant à la configuration de notre WoS en self-custody.
 
 ## Configuration du mode self-custody
 
-Cliquez sur le menu hamburger (icône à 3 barres) dans le coin supérieur droit de l'interface principale.
+Cliquez sur le menu "hamburger" (icône à 3 barres) dans le coin supérieur droit de l'interface principale.
 
 ![screen](assets/fr/06.webp)
 
@@ -66,7 +66,7 @@ WoS vous indique immédiatement que *le mode self-custody est fourni avec une ph
 
 ![screen](assets/fr/08.webp)
 
-Cochez le bouton "**I Understand**" (1), tapez ensuite sur le bouton **Open Self Custody Wallet** (2) qui s'affiche en jaune voyant.
+Cochez le bouton "**Je comprends**" (1), tapez ensuite sur le bouton **Open Self Custody Wallet** (2) qui s'affiche en jaune voyant.
 
 ![screen](assets/fr/09.webp)
 
@@ -80,11 +80,11 @@ WoS se chargera alors de vous créer un portefeuille self-custody, toujours dans
 
 ![screen](assets/fr/11.webp)
 
-Une fois créé, vous serez redirigé vers l'interface principale de WoS en mode self-custody. Vous constaterez qu'il n'y a pas de différences entre l'aperçu général et les interfaces d'un portefeuille WoS custody et ceux d'un portefeuille WoS self-custody.
+Une fois créé, vous serez redirigé vers l'interface principale de WoS en mode self-custody. Vous constaterez qu'il n'y a pas de différence entre l'aperçu général et les interfaces d'un portefeuille WoS custody et ceux d'un portefeuille WoS self-custody.
 
 ### Sauvegarde de votre phrase mnémonique
 
-Tapez sur l'ensemble icône **Trousseau de clés + Backup Wallet** qui est située en haut de l'écran entre le nom Wallet of Satoshi et le menu hamburger. 
+Tapez sur l'ensemble icône **Trousseau de clés + Backup Wallet** qui est située en haut de l'écran entre le nom "Wallet of Satoshi" et le menu "hamburger". 
 
 ![screen](assets/fr/12.webp)
 
@@ -102,7 +102,7 @@ Si vous optez pour la sauvegarde avec Google Drive, en cas de compromission de v
 
 Ajouter un mot de passe pour crypter le fichier contenant vos 12 mots est assurément une bonne solution pour ajouter une couche supplémentaire de sécurité.
 
-Activez donc le bouton **Encrypt with a password** (*Crypter avec un mot de passe*) dans les options avancées.
+Activez donc le bouton **Crypter avec un mot de passe** dans les "Options avancées".
 
 ![screen](assets/fr/14.webp)
 
@@ -110,7 +110,7 @@ Sur la nouvelle interface qui apparaît, définissez un mot de passe fort, puis 
 
 ![screen](assets/fr/15.webp)
 
-Il importe de vous rappeler qu'une fois le mot de passe choisi, vous ne devez pas l'oublier ou perdre le support sur lequel vous l'aurez inscrit. En cas d'oubli ou de perte, vous ne pourrez plus jamais accéder à vos 12 mots et par conséquent à vos fonds. 
+Il importe de vous rappeler qu'une fois le mot de passe choisi, vous ne devez pas l'oublier ou perdre le support sur lequel vous l'aurez inscrit. En cas d'oubli ou de perte, vous ne pourrez plus jamais accéder à vos 12 mots, et par conséquent à vos fonds. 
 
 Après avoir choisi votre mot de passe, sélectionnez un compte Google pour la sauvegarde, puis accordez les accès requis par WoS.
 
@@ -118,11 +118,12 @@ Après avoir choisi votre mot de passe, sélectionnez un compte Google pour la s
 
 ![screen](assets/fr/17.webp)
 
-Patientez quelques secondes. Bingo! Votre sauvegarde a été effectuée avec succès. 
+Patientez quelques secondes. Bingo ! Votre sauvegarde a été effectuée avec succès. 
 
 ![screen](assets/fr/18.webp)
 
 Vous avez toujours la possibilité de faire une sauvegarde supplémentaire en choisissant la deuxième méthode de sauvegarde : celle manuelle. 
+
 #### La sauvegarde manuelle
 
 Si vous optez pour la sauvegarde manuelle, nous vous recommandons fortement de consulter ce tutoriel qui explore les bonnes pratiques pour sauvegarder votre phrase mnémonique de manière sécurisée, afin de ne pas perdre l’accès à vos bitcoins.
@@ -135,11 +136,11 @@ Appuyez sur le bouton **Manual Backup**.
 
 Sur l'interface suivante, WoS vous rappelle quelques consignes de sécurité à prendre en considération avant de procéder à la sauvegarde manuelle.
 
-Activez le bouton **I understand** et appuyez sur le bouton **Next**.
+Activez le bouton **Je comprends** et appuyez sur le bouton **Suivant**.
 
 ![screen](assets/fr/20.webp)
 
-Vos 12 mots vous seront ensuite présentés. Procédez à leur sauvegarde, puis cliquez sur le bouton **Next**. 
+Vos 12 mots vous seront ensuite présentés. Procédez à leur sauvegarde, puis cliquez sur le bouton **Suivant**. 
 
 ![screen](assets/fr/21.webp)
 
@@ -147,15 +148,15 @@ Sur cette nouvelle interface, appuyez sur les mots dans le bon ordre.
 
 ![screen](assets/fr/22.webp)
 
-Enfin, cliquez sur le bouton **Next**. Félicitations! Votre sauvegarde est terminée.
+Enfin, cliquez sur le bouton **Suivant**. Félicitations ! Votre sauvegarde est terminée.
 
 ![screen](assets/fr/23.webp)
 
-## Restauration de portefeuille self-custody
+## Restauration d'un portefeuille self-custody
 
 Lorsque vous désirez récupérer ou restaurer votre portefeuille WoS self-custody suite à un changement de téléphone ou pour toute autre raison, voici les étapes à suivre. 
 
-Ouvrez le portefeuille WoS, cliquez sur le menu hamburger dans le coin supérieur droit de l'interface principale.
+Ouvrez le portefeuille WoS, cliquez sur le menu "hamburger" dans le coin supérieur droit de l'interface principale.
 Dans le menu qui apparaît, cliquez sur le sous-menu **Open Self Custody Wallet**.
 Sur la nouvelle interface qui apparaît, appuyez sur le bouton **Restore Existing Wallet**.
 
@@ -192,7 +193,7 @@ Ouvrez maintenant votre portefeuille custody et appuyez sur le bouton **Envoyer*
 
 Collez ensuite l'adresse ou la facture. Appuyez une seconde fois sur **Envoyer**.
 
-Retourner à nouveau dans votre portefeuille self-custody et vous verrez que vous aviez bel et bien reçu les fonds. 
+Retourner à nouveau dans votre portefeuille self-custody et vous verrez que vous avez bel et bien reçu les fonds. 
 
 ![screen](assets/fr/27.webp)
 
@@ -200,7 +201,7 @@ Retourner à nouveau dans votre portefeuille self-custody et vous verrez que vou
 
 Concernant l'envoi et la réception de bitcoins dans un mode self-custody, à l'instar de l'aperçu général et des interfaces, ils ne diffèrent en rien de l'envoi et de la réception de bitcoins via un portefeuille WoS custody. 
 
-Veuillez donc consulter le tutoriel de base relatif à l'utilisation de Wallet of Satoshi sur Plan₿ Network.
+Veuillez donc consulter le tutoriel de base relatif à l'utilisation de Wallet of Satoshi sur Plan ₿ Academy.
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 

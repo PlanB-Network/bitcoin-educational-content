@@ -1,9 +1,9 @@
 question: Giải pháp lưu trữ ngoại mạng nào được khuyến nghị cho người dùng đa nghi?
-answer: Ví lạnh có hỗ trợ air-gapped hoặc tự làm
+answer: Ví lạnh hỗ trợ air-gapped hoặc tự làm
 wrong_answers:
   - Ứng dụng di động (ví nóng)
   - Dịch vụ bảo quản trên các sàn giao dịch tập trung
   - Các ví lạnh đa mục đích có mã nguồn đóng
 explanation: |
-  Người dùng đa nghi thường ưu tiên lưu trữ ngoại tuyến bằng các giải pháp nguồn mở để giảm thiểu rủi ro bị lộ thông tin.
-reviewed: false
+  Người dùng đa nghi ưu tiên lưu trữ ngoại tuyến bằng giải pháp nguồn mở để giảm rủi ro lộ thông tin.
+reviewed: true

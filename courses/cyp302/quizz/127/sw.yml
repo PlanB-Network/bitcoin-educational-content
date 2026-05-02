@@ -5,5 +5,5 @@ wrong_answers:
   - Algorithm ya kriptografia ya Hash
   - Mgawanyiko wa msimu uliorahisishwa
 explanation: |
-  Diffie-Hellman hutegemea utendakazi wa njia moja ambayo ni rahisi kukokotoa katika mwelekeo mmoja lakini kwa kweli haiwezekani kugeuza bila taarifa ya siri, inayoitwa backdoor.
-reviewed: false
+  Diffie-Hellman hutegemea operesheni ya njia moja ambayo ni rahisi kukokotoa katika mwelekeo mmoja lakini kwa kweli haiwezekani kugeuza bila taarifa ya siri, inayoitwa backdoor.
+reviewed: true

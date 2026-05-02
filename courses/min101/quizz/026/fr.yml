@@ -6,4 +6,4 @@ wrong_answers:
   - mempoolMinBits
 explanation: |
   Les nœuds appliquent des politiques locales et Bitcoin Core utilise le paramètre minRelayTxFee pour le seuil minimal de relais.
-reviewed: false
+reviewed: true 

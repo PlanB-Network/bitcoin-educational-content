@@ -1,9 +1,9 @@
 question: What is the main function of a Bitcoin wallet?
 answer: Storing and managing private keys
 wrong_answers:
-  - Store and manage the complete Blockchain
-  - Check block validity
-  - Relay network transactions
+  - Storing and managing the complete blockchain
+  - Checking block validity
+  - Relaying network transactions
 explanation: |
   A Bitcoin wallet manages the private keys that enable bitcoins to be spent, but does not perform the functions of a node.
 reviewed: true

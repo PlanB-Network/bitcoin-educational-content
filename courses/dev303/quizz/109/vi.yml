@@ -1,8 +1,8 @@
-question: Ưu điểm kiến trúc cơ bản của phương pháp quản lý node Lightning trong Breez SDK so với các triển khai Lightning tự lưu trữ truyền thống là gì?
-answer: Người dùng tự duy trì các node Lightning của riêng mình trên cơ sở hạ tầng Greenlight trong khi vẫn giữ quyền kiểm soát độc quyền đối với các khóa riêng tư không bao giờ rời khỏi thiết bị của họ.
+question: Ưu điểm kiến trúc cơ bản của phương pháp quản lý nút Lightning trong Breez SDK so với các triển khai Lightning tự lưu trữ truyền thống là gì?
+answer: Người dùng tự duy trì các nút Lightning của riêng mình trên cơ sở hạ tầng Greenlight trong khi vẫn giữ quyền kiểm soát độc quyền đối với các khóa riêng tư không bao giờ rời khỏi thiết bị của họ.
 wrong_answers:
   - Người dùng chia sẻ các kênh Lightning dùng chung do Breez quản lý, đồng thời vẫn duy trì quyền kiểm soát riêng đối với số tiền thông qua các thỏa thuận đa chữ ký.
-  - "Người dùng chạy các node Lightning nhẹ cục bộ, đồng bộ hóa với các node chính của Breez để tăng độ tin cậy và giảm yêu cầu băng thông."
+  - "Người dùng chạy các nút Lightning nhẹ cục bộ, đồng bộ hóa với các nút chính của Breez để tăng độ tin cậy và giảm yêu cầu băng thông."
   - Người dùng ủy quyền quản lý kênh cho các nhà cung cấp dịch vụ Lightning trong khi vẫn duy trì quyền kiểm soát thông qua các mô-đun bảo mật phần cứng được tích hợp vào thiết bị di động.
 explanation: |
   Kiến trúc của SDK Breez cung cấp cho mỗi người dùng một nút Lightning chuyên dụng chạy trên cơ sở hạ tầng đám mây của Greenlight, nhưng điều quan trọng là các khóa riêng tư không bao giờ rời khỏi thiết bị của người dùng. Điều này có nghĩa là Greenlight không thể thực hiện bất kỳ hoạt động Lightning nào nếu ứng dụng của người dùng không chủ động ký các giao dịch. Điều này khác với các nhóm kênh dùng chung, các nút nhẹ cục bộ hoặc các mô-đun bảo mật phần cứng - đó là một phương pháp lai độc đáo giúp loại bỏ sự phức tạp trong vận hành đồng thời bảo toàn các nguyên tắc tự quản lý thực sự.

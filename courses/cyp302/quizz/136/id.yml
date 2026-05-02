@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan membandingkan kata sandi secara langsung dengan kata sandi pengguna lain
 explanation: |
   Layanan tersebut menghasilkan hash dari kata sandi yang dimasukkan dan membandingkannya dengan yang tersimpan, tanpa pernah menyimpan kata sandi secara langsung, sehingga memastikan peningkatan keamanan.
+reviewed: true

@@ -1,9 +1,9 @@
 question: Koji je naslov Satoshi Nakamoto-ovog White Paper-a objavljenog 2008?
-answer: Bitcoin Elektronski gotovinski sistem od osobe do osobe
+answer: Bitcoin Peer-to-Peer elektronski gotovinski sistem 
 wrong_answers:
-  - Bitcoin Decentralizovani Digitalni Zlatni Sistem
-  - Bitcoin Budućnost Novca
-  - Bitcoin: Mreža plaćanja zasnovana na Blockchain
+  - Bitcoin Decentralizovani digitalni zlatni sistem
+  - Bitcoin Budućnost novca
+  - Bitcoin: Mreža plaćanja zasnovana na blokčejnu
 explanation: |
-  Satoshi Nakamoto's White Paper, Bitcoin A Peer-to-Peer Electronic Cash System, was published in 2008.
+  Satoshi Nakamoto-ov White Paper, Bitcoin Peer-to-Peer elektronski gotovinski sistem, je objavljen 2008. Peer-to-peer je mreža ravnopravnih čvorova bez centralnog posrednika.
 reviewed: true

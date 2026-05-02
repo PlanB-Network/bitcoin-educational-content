@@ -6,4 +6,4 @@ wrong_answers:
   - Ví lưu ký bởi bên thứ ba
 explanation: |
   Ví hỗ trợ chức năng Watch-only chỉ sử dụng khóa công khai để hiển thị số dư và giao dịch mà không có nguy cơ tiết lộ khóa riêng.
-reviewed: false
+reviewed: true

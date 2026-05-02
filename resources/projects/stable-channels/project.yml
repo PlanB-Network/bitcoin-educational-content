@@ -1,0 +1,23 @@
+id: db91ec31-0c54-42af-b5e8-b6f86aed1858
+name: Stable Channels
+category: infrastructure
+links:
+  website: https://stablechannels.com
+  twitter: https://x.com/tonklaus
+  github: https://github.com/toneloc/stable-channels
+  youtube: https://www.youtube.com/watch?v=yZel3OGUyhg
+tags:
+  - lightning
+  - innovation
+  - decentralization
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

@@ -399,7 +399,7 @@ Bitcoin 的兩個主要價值主張是貨幣主權（不再依賴中央機構發
 
 
 
-第一種解決方案就是不使用Lightning本機，而是使用嵌入[原子交換](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 Bull Bitcoin Wallet 應用程式使用此方法，讓您無需自行操作 Lightning 節點，即可支付 [Lightning 發票](https://planb.academy/resources/glossary/invoice-lightning)，同時保持自我監控。
+第一種解決方案就是不使用Lightning本機，而是使用嵌入[原子交換](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 BULL Wallet 應用程式使用此方法，讓您無需自行操作 Lightning 節點，即可支付 [Lightning 發票](https://planb.academy/resources/glossary/invoice-lightning)，同時保持自我監控。
 
 
 

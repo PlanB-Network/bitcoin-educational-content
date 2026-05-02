@@ -399,7 +399,7 @@ Ngày nay, bạn hoàn toàn có thể có được trải nghiệm người dù
 
 
 
-Giải pháp đầu tiên đơn giản là không sử dụng Lightning trực tiếp, mà sử dụng Bitcoin, [Liquid](https://planb.academy/resources/glossary/liquid-network) hoặc wallet tích hợp tính năng [hoán đổi nguyên tử](https://planb.academy/resources/glossary/atomic-swap). Ví dụ, các ứng dụng Aqua hoặc Bull Bitcoin Wallet sử dụng phương pháp này, cho phép bạn thanh toán [hóa đơn Lightning](https://planb.academy/resources/glossary/invoice-lightning) mà không cần tự vận hành nút Lightning, đồng thời vẫn duy trì quyền tự quản lý.
+Giải pháp đầu tiên đơn giản là không sử dụng Lightning trực tiếp, mà sử dụng Bitcoin, [Liquid](https://planb.academy/resources/glossary/liquid-network) hoặc wallet tích hợp tính năng [hoán đổi nguyên tử](https://planb.academy/resources/glossary/atomic-swap). Ví dụ, các ứng dụng Aqua hoặc BULL Wallet sử dụng phương pháp này, cho phép bạn thanh toán [hóa đơn Lightning](https://planb.academy/resources/glossary/invoice-lightning) mà không cần tự vận hành nút Lightning, đồng thời vẫn duy trì quyền tự quản lý.
 
 
 

@@ -4,7 +4,7 @@ end_date: 2026-04-12 19:00:00
 timezone: America/New_York
 address_city_country: Cambridge, MA, USA
 name: MIT Bitcoin Expo 2026
-builder: mit-bitcoin-club
+project_id: 0c605d4a-f4cf-4f24-b851-739aaf9a0c68
 type: conference
 description: The premier Bitcoin conference and hackathon at MIT Campus. Talks, workshops, and a 36-hour hackathon exploring Bitcoin and freedom technologies.
 language:

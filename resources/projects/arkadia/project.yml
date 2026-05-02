@@ -1,0 +1,23 @@
+id: 2d79b486-3c28-494c-96ae-cf8f1d42e8f9
+name: Arkadia
+category: investment
+links:
+  website: https://arkadia.team/
+  twitter: 
+  github: 
+  youtube: 
+tags:
+  - investment
+  - business
+  - adoption
+original_language: it
+proofreading:
+  - language: it
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

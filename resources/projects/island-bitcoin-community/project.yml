@@ -1,0 +1,28 @@
+id: 1dff6f09-21e9-42fa-9c77-e6cae6a00a40
+name: Island Bitcoin Community
+category: communities
+address_city_country: Caribbean
+address_line_2: ''
+address_line_3: ''
+language:
+  - en
+links:
+  website: https://community.islandbitcoin.com
+  twitter: https://x.com/isaboricua
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - lightning
+  - user-friendly
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-26
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

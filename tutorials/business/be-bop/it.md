@@ -11,7 +11,7 @@ La soluzione è semplice, leggera e autonoma. Permette di creare un negozio onli
 
 In questo tutorial, ti guideremo passo dopo passo attraverso:
 - la creazione del tuo primo negozio online con **be-BOP**
-- la personalizzazopne della tua vetrina e dei tuoi prodotti
+- la personalizzazione della tua vetrina e dei tuoi prodotti
 - la configurazione dei metodi di pagamento disponibili
 - la comprensione delle migliori pratiche per vendere online in modo efficace con **be-BOP**
 
@@ -120,7 +120,7 @@ be-BOP consente di accettare pagamenti Bitcoin direttamente sulla Blockchain (On
 
 **Fasi di configurazione**:
 - vai al menu **Impostazioni di pagamento**
-- fie clic su **Bitcoin Nodeless** per accedere ai parametri di pagamento On-Chain.
+- fai clic su **Bitcoin Nodeless** per accedere ai parametri di pagamento On-Chain.
 - compila i seguenti campi:
 
 | Campo                      | Descrizione                                                        | Esempio da Utilizzare                                               |
@@ -152,7 +152,7 @@ Se non vuoi gestire un nodo Lightning da solo, **Swiss Bitcoin Pay** è una solu
 
 Fasi di configurazione:
 - Nel menu "Impostazioni di pagamento", clicca su "Swiss Bitcoin Pay"
-- Accedi al tuo conto Swiss Bitcoin Pay (o creaene uno se non ne hai già uno)
+- Accedi al tuo conto Swiss Bitcoin Pay (o creane uno se non ne hai già uno)
 - Inserisci la chiave API fornita da Swiss Bitcoin Pay, quindi fai clic su "Salva".
 
 Una volta configurato, be-BOP emetterà automaticamente le invoice Lightning generate per i tuoi clienti, e riceverai i pagamenti direttamente sul tuo conto Swiss Bitcoin Pay. Questa soluzione è ideale per gli utenti che vogliono evitare la complessità tecnica di un nodo personale, accettando al contempo pagamenti veloci e a basso costo.
@@ -180,7 +180,7 @@ Il software integra ora la soluzione di pagamento **SumUp**, che consente di acc
 - Iniziate inserendo la tua **API Key**, una chiave riservata fornita da SumUp quando hai creato il tuo account di sviluppatore. Questa stabilisce una connessione sicura tra il tuo account SumUp e il software.
 - Compila il campo `Codice commerciante` con il codice univoco che identifica la tua attività all'interno della piattaforma SumUp. Questo codice è essenziale per associare le transazioni alla tua attività.
 - Nel campo `Valuta`, scegli la valuta principale utilizzata per le transazioni (ad esempio **EUR**, **USD**, **CDF**, ecc.).
-- Una volta compilati correttamente tutti i campi, fai clic sul pulsante "Salva" per salvare le impostazioni. Il sistema stabilirà quindi il collegamento con il tuo account SumUp e il yuo software sarà pronto ad accettare i pagamenti.
+- Una volta compilati correttamente tutti i campi, fai clic sul pulsante "Salva" per salvare le impostazioni. Il sistema stabilirà quindi il collegamento con il tuo account SumUp e il tuo software sarà pronto ad accettare i pagamenti.
 
 ![payment-sumup](assets/fr/009.webp)
 
@@ -612,7 +612,7 @@ Vai a:
 
 `Admin > Gestione dei nodi > Nostr`
 - Fai clic su **Create nsec** se non ne hai una.
-- Il sistema può generane automaticamente una.
+- Il sistema può generarne automaticamente una.
 - In alternativa, è possibile utilizzare una chiave esistente (ad esempio di Damus o Amethyst).
 
 Successivamente:

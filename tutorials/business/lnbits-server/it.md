@@ -159,7 +159,7 @@ proxy_set_header X-Forwarded-Proto $scheme;
 
 Attiva: `sudo ln -s /etc/nginx/sites-available/lnbits /etc/nginx/sites-enabled/ && sudo nginx -t && sudo systemctl reload nginx && sudo certbot --nginx -d your-domain.com`
 
-Aggiungi a `.env': `*FORWARDED_ALLOW_IPS=*`
+Aggiungi a `.env`: `FORWARDED_ALLOW_IPS=*`
 
 
 ## Installazione su Umbrel

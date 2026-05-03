@@ -7,7 +7,7 @@ description: Piattaforma di contabilità aziendale
 
 ## Sistema di contabilità
 
-LNbits è dotato di molti strumenti per controllare e incanalare i fondi in entrata e in uscita, collegare il tuo negozio web o anche dispositivi come un wallet hardware o un ATM che hai costruitotui stesso. I tipi di utente includono:
+LNbits è dotato di molti strumenti per controllare e incanalare i fondi in entrata e in uscita, collegare il tuo negozio web o anche dispositivi come un wallet hardware o un ATM che hai costruito tu stesso. I tipi di utente includono:
 - I proprietari di wallet che desiderano utilizzare LNbits come interfaccia per la gestione dei propri fondi e per le sue funzioni extra.
 - Commercianti o fornitori di servizi online e offline che vogliono accettare pagamenti Bitcoin onchain e Lightning Network.
 - Sviluppatori che vogliono creare applicazioni per la rete Lightning.
@@ -54,7 +54,7 @@ Prima di installare LNbits, assicurati di aver letto e compreso le seguenti guid
 - [Esempio di configurazione LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | Impostazioni LND.
 - [Guida CLN](https://docs.corelightning.org/docs/installation) | Installazione di CLN.
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec.
-- [Gestire una twatchtower](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower) | Molto importante!
+- [Gestire una watchtower](https://docs.lightning.engineering/lightning-network-tools/lnd/watchtower) | Molto importante!
 
 Guide più dettagliate sull'utilizzo di LNbit in scenari d'uso specifici qui:
 - [Guida introduttiva a LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Guida alla sottostazione.
@@ -441,7 +441,7 @@ Se sei alle prime armi con la creazione di gadget, iniziate con questa [MakerBit
 - TT-Go Display S3: Il colore della linguetta della pellicola protettiva dello schermo indica esattamente quale controller (ST7735_redtab, ST7735_blacktag, ST7735_greetab, greentab128, ...) è stato utilizzato per costruirlo. Conservalo per poter eseguire il debug se programmi e lo schermo non visualizza correttamente la grafica, ad esempio colori sbagliati, immagini speculari o pixel vaganti ai bordi. Se mai dovessi avere bisogno di farlo, c'è una guida epica sulla regolazione per i diversi schermi.
 - Usa sempre lnurl239xx minuscolo invece di LNURLl239xx.
 - L'aggiunta di lightning:lnurl1234xyz creerà un QR che richiede l'apertura del wallet dell'utente per questa invoice alla scansione (ultima app lightning installata su iOS, impostazione in Android).
-- Se sti flashando un esp32 via web funzionerà solo con questi browser (TL:DR Chrome, Edge e Opera).
+- Se stai flashando un esp32 via web funzionerà solo con questi browser (TL:DR Chrome, Edge e Opera).
 - Tieni presente il riferimento PIN-OUT per l'esp.
 - Quando utilizzi FOSSoftware o FOSGuide, linkate sempre l'autore. Tutti amano veder crescere il proprio bambino e questo dà inizio a una catena di costruzione che è davvero impressionante da vedere :).
 
@@ -456,7 +456,7 @@ Ecco alcune categorie di progetti che puoi realizzare con LNbits:
 - [Lampada Nostr Zap](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#zap-lamp)
 - [BTC/LN ATM](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#atm)
 - [LNPoS](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lnpos-terminal)
-- [Piggy ligthning](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
+- [Lightning Piggy](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#lightning-piggy)
 - [Hardware wallet](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#hardware-wallet)
 - [Bitcoin Switch](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#bitcoin-switch)
 - [Distributore automatico](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#vending-machine)

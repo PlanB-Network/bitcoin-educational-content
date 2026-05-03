@@ -193,7 +193,7 @@ Una volta copiata la chiave pubblica principale, incollala nell'apposito campo d
 
 ![capture](assets/fr/22.webp)
 
-Dopo la verifica, sari reindirizzato alla dashboard del tuo negozio.
+Dopo la verifica, sarai reindirizzato alla dashboard del tuo negozio.
 
 ![capture](assets/fr/23.webp)
 

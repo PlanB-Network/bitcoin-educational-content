@@ -37,7 +37,7 @@ L'applicazione trasforma lo smartphone o il tablet in un terminale Lightning. L'
 
 ### Merchant Dashboard - Gestione unificata delle vendite
 
-Interface web centralizzato per collegare i propri wallet Lightning, tracciare le transazioni in tempo reale, emettere fatture e generate report contabili. La piattaforma aggrega tutti i canali: pagamenti in negozio (POS), vendite online (plug-in di e-commerce) o integrazioni API . I pagamenti convergono sul wallet scelto.
+Interface web centralizzato per collegare i propri wallet Lightning, tracciare le transazioni in tempo reale, emettere fatture e generare report contabili. La piattaforma aggrega tutti i canali: pagamenti in negozio (POS), vendite online (plug-in di e-commerce) o integrazioni API . I pagamenti convergono sul wallet scelto.
 
 ### Carta Contactless Bitcoin (carta Bolt)
 
@@ -47,11 +47,11 @@ A differenza delle tradizionali soluzioni di custodia, questa carta segue uno st
 
 Questa soluzione è particolarmente inclusiva per le persone che non hanno familiarità con gli smartphone, offrendo una porta d'accesso accessibile all'economia Bitcoin.
 
-### App IBI - Interfacia individuale Bitcoin
+### App IBI - Interfaccia individuale Bitcoin
 
 L'applicazione IBI (Individual Bitcoin Interface) è progettata per le persone che desiderano utilizzare Bitcoin Lightning su base quotidiana. Il suo principale vantaggio consiste nella generazione di un indirizzo Lightning personalizzato, un identificativo di pagamento leggibile in formato e-mail (esempio: alice@ibi.me).
 
-Questo identificatore semplifica drasticamente la ricezione dei pagamenti: non c'è bisogno di generate una nuova invoice per ogni transazione, il mittente può semplicemente inserire l'indirizzo Lightning. L'interfaccia consente inoltre di gestire la carta Bolt (attivazione, disattivazione, limiti di spesa), di collegare vari wallet Lightning e di effettuare pagamenti tramite la scansione di codici QR.
+Questo identificatore semplifica drasticamente la ricezione dei pagamenti: non c'è bisogno di generare una nuova invoice per ogni transazione, il mittente può semplicemente inserire l'indirizzo Lightning. L'interfaccia consente inoltre di gestire la carta Bolt (attivazione, disattivazione, limiti di spesa), di collegare vari wallet Lightning e di effettuare pagamenti tramite la scansione di codici QR.
 
 ### Plugin per il commercio elettronico
 

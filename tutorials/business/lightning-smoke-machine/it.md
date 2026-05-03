@@ -151,7 +151,7 @@ Obiettivo: Collega il relè al pulsante ON/OFF del telecomando
 **Schema di cablaggio:**
 
 | **ESP32** | **→** | **Modulo Relè** |
-| --------- | :-_-: | --------------- |
+| --------- | :---: | --------------- |
 | V5 (5V)   | **→** | VCC             |
 | GND       | **→** | GND             |
 | GPIO 21   | **→** | IN (Ingresso)   |
@@ -213,7 +213,7 @@ Utilizzeremo *Blink* come esempio, ma *BTCPay Server* offre anche *Strike, Breez
 - Visita https://www.blink.sv.
 - Crea il tuo account. Consulta il tutorial :
 
-[https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
 **2 - Generazione di una chiave API *Blink***
 
@@ -331,7 +331,7 @@ type=blink;server=https://api.blink.sv/graphql;api-key=blink_mZ5KxxxxxxxxNbmX;wa
 - Ricollega l'ESP32 al computer con il cavo USB/Micro-USB.
 - Quindi fai clic su *Connect to device*.
 - Seleziona la porta USB del tuo ESP32, quindi fai clic su *Connect* come descritto sopra.
-- Una volta collegato, premei il pulsante **RESET** sull'ESP32.
+- Una volta collegato, premi il pulsante **RESET** sull'ESP32.
 - Controlla nei log che le ultime righe mostrino:
 
 ```
@@ -441,11 +441,11 @@ Prima del test finale, controlla:
 4. Scansione dell'elemento "macchina del fumo".
 5. Paga con un wallet Lightning (Blink o altro wallet).
 6. Osserva:
-   - Il relè se scatta (suono udibile e LED del relè acceso).
+   - Il relè scatta (suono udibile e LED del relè acceso).
    - La macchina del fumo viene attivata.
    - Fumo generato!
 
-### Problemi e soluzioni di equità
+### Problemi e soluzioni comuni
 
 | **Problema**                       | **Causa Probabile**             | **Soluzione**                                                                               |
 | ---------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------- |

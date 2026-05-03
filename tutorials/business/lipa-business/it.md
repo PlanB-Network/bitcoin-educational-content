@@ -43,12 +43,12 @@ Per utilizzare Lipa for Business, occorre innanzitutto creare un conto commercia
 
 Una volta inviato il modulo, Lipa crea il tuo spazio commerciale. Prima dell'attivazione definitiva può essere effettuato un breve controllo manuale (processo KYC semplificato). L'attivazione avviene solitamente entro 24 ore, ma i tempi possono variare.
 
-**Importante**: non è necessario un collegamento al conto bancario per iniziare a incassare de bitcoin. Le coordinate bancarie sono necessarie solo se si sceglie la conversione automatica in CHF.
+**Importante**: non è necessario un collegamento al conto bancario per iniziare a incassare dei bitcoin. Le coordinate bancarie sono necessarie solo se si sceglie la conversione automatica in CHF.
 
 
 ## Installazione e interfaccia
 
-**Applicazione mobile**: disponibile per smartphone e tablet Android/iOS. Interfaccia è stato progettato per essere utilizzato nel punto vendita, con elemnti di facile lettura e interazioni limitate allo stretto necessario. Un pulsante "Incassa un pagamento" consente di accedere alla schermata di inserimento dell'importo.
+**Applicazione mobile**: disponibile per smartphone e tablet Android/iOS. L'interfaccia è stata progettata per essere utilizzato nel punto vendita, con elementi di facile lettura e interazioni limitate allo stretto necessario. Un pulsante "Incassa un pagamento" consente di accedere alla schermata di inserimento dell'importo.
 
 **Requisiti tecnici**: è necessaria una connessione Internet stabile (minimo 3G) per elaborare i pagamenti Lightning in tempo reale.
 

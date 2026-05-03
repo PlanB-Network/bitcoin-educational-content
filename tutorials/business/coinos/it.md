@@ -78,7 +78,7 @@ Coinos, in quanto wallet web, non è disponibile su Play Store o App Store. Tutt
 
 ![screen|220](assets/fr/14.webp)
 
-Quindi selezioi **Aggiungi alla schermata iniziale**.
+Quindi seleziona **Aggiungi alla schermata iniziale**.
 
 ![screen|220](assets/fr/15.webp)
 
@@ -115,7 +115,7 @@ Qui è possibile scegliere la lingua e la valuta locale, inserire il proprio ind
 
 - **Nostr**
 
-Se hai un account Nostr, puoi collegarlo al account Coinos.
+Se hai un account Nostr, puoi collegarlo al tuo account Coinos.
 
 ![screen|220](assets/fr/23.webp)
 
@@ -162,7 +162,7 @@ Vengono quindi generati automaticamente un codice QR e un indirizzo di consegna.
 
 ![screen|220](assets/fr/30.webp)
 
-Il tuo **codice QR** e il tuo **indirizzo Bitcoin personalizzato** sono ora pronti; non dovi fare altro che inoltrarli al mittente per ricevere dei bitcoin.
+Il tuo **codice QR** e il tuo **indirizzo Bitcoin personalizzato** sono ora pronti; non devi fare altro che inoltrarli al mittente per ricevere dei bitcoin.
 
 ![screen|220](assets/fr/31.webp)
 
@@ -178,7 +178,7 @@ Vengono inoltre generati un codice QR e un indirizzo di ricezione Liquid.
 
 ![screen|220](assets/fr/34.webp)
 
-Coinos ricorda che è possibile inviare dei bitcoin Liquid** (**L-BTC**) solo a questo indirizzo o tramite questo codice QR.
+Coinos ricorda che è possibile inviare dei **bitcoin Liquid** (**L-BTC**) solo a questo indirizzo o tramite questo codice QR.
 
 È possibile personalizzarli con una quantità specifica e un'etichetta.
 

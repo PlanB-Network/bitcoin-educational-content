@@ -10,16 +10,16 @@ Combinare la potenza di Lightning Network con un'esperienza utente fluida per ac
 
 ## Il wallet
 
-All'interno dell'ecosistema Bitcoin, Wallet di Satoshi è un Wallet consigliato per iniziare con i pagamenti Lightning. Nonostante il fatto che non si sia in pieno possesso dei propri bitcoin (autocustodia), Wallet del Satoshi offre un'esperienza agevole per iniziare a utilizzare Bitcoin con piccole somme utilizzando il layer di Lightning Network. Se questa è la tua prima esperienza con questo Wallet, ti consigliamo il nostro tutorial Getting Started.
+All'interno dell'ecosistema Bitcoin, Wallet of Satoshi è un Wallet consigliato per iniziare con i pagamenti Lightning. Nonostante il fatto che non si sia in pieno possesso dei propri bitcoin (autocustodia), Wallet of Satoshi offre un'esperienza agevole per iniziare a utilizzare Bitcoin con piccole somme utilizzando il layer di Lightning Network. Se questa è la tua prima esperienza con questo Wallet, ti consigliamo il nostro tutorial Getting Started.
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Per facilitare l'adozione di Bitcoin nelle comunità di tutto il mondo, Wallet del Satoshi ha anche allestito un punto vendita per incoraggiare gli utenti a trovare un uso collaudato nella loro comunità: comprare e vendere beni e servizi con Bitcoin.
+Per facilitare l'adozione di Bitcoin nelle comunità di tutto il mondo, Wallet of Satoshi ha anche allestito un punto vendita per incoraggiare gli utenti a trovare un uso collaudato nella loro comunità: comprare e vendere beni e servizi con Bitcoin.
 
 
 ## Punto vendita (PoS)
 
-L'esperienza del punto vendita offerta da Wallet di Satoshi si distingue dalle altre opzioni soprattutto per la sua semplicità e fluidità. Oltre a non richiedere altro che l'applicazione mobile disponibile su Google Play Store e iOS, è possibile utilizzare il Wallet per:
+L'esperienza del punto vendita offerta da Wallet of Satoshi si distingue dalle altre opzioni soprattutto per la sua semplicità e fluidità. Oltre a non richiedere altro che l'applicazione mobile disponibile su Google Play Store e iOS, è possibile utilizzare il Wallet per:
 - Effettuare transazioni personali.
 - Gestire l'inventario.
 - Invoice per i tuoi clienti.

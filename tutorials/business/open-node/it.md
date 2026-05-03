@@ -5,7 +5,7 @@ description: Configura Open Node per la tua attività online
 
 ![cover](assets/cover.webp)
 
-OpenNode (https://www.opennode.com/) è una soluzione semplice per i pagamenti in bitcoin. Ottieni pagamenti ligthning vitcoin veloci e a basso costo per la tua attività con la nostra potente API, plugin per e-commerce o pagine di pagamento hostate.
+OpenNode (https://www.opennode.com/) è una soluzione semplice per i pagamenti in bitcoin. Ottieni pagamenti lightning bitcoin veloci e a basso costo per la tua attività con la nostra potente API, plugin per e-commerce o pagine di pagamento ospitate.
 
 
 ## guida video:

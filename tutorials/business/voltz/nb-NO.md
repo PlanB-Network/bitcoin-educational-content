@@ -19,7 +19,7 @@ I tillegg til å være en depotbasert Lightning wallet som lar deg sende, motta 
 
 
 
-Gå til [Voltz]-plattformen (https://www.voltz.com/en) og opprett en konto ved å klikke på "Prøv nå"-knappen.
+Gå til [Voltz]-plattformen (https://www.lnvoltz.xyz/en) og opprett en konto ved å klikke på "Prøv nå"-knappen.
 
 
 

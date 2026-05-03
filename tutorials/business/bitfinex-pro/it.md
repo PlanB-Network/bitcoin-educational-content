@@ -190,7 +190,7 @@ A fini contabili, dovrai esportare i dettagli delle tue transazioni (acquisti, v
 
 ![BITFINEX](assets/fr/29.webp)
 
-A sinistra è possibile selezionare il tipo di dati da esportare. Ad esempio, selezionando "_Trade_*" avrai accesso a tutte le tue operazioni.
+A sinistra è possibile selezionare il tipo di dati da esportare. Ad esempio, selezionando "_Trade_" avrai accesso a tutte le tue operazioni.
 
 ![BITFINEX](assets/fr/30.webp)
 

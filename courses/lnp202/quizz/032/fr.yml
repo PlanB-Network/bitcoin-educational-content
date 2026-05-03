@@ -6,4 +6,4 @@ wrong_answers:
   - Manque de liquidité
 explanation: |
   Les très gros nœuds imposent souvent des montants minimums élevés et ferment facilement les petits canaux.
-reviewed: false
+reviewed: true 

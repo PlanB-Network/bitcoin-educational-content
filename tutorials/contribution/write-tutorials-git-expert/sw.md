@@ -1,35 +1,35 @@
 ---
-name: Mchango - Mafunzo ya Git (ya juu)
-description: Mwongozo kwa watumiaji wa hali ya juu ili kutoa mafunzo kwenye Plan ₿ Academy na Git
+name: Mchango - Mafunzo ya Git (ya hali ya juu)
+description: Mwongozo kwa watumiaji wa hali ya juu wa kutoa mafunzo kuhusu Plan ₿ Academy ukitumia Git
 ---
 ![cover](assets/cover.webp)
 
 
-Kabla ya kufuata mafunzo haya juu ya kuongeza mafunzo mapya, unahitaji kuwa umekamilisha hatua chache za awali. Ikiwa bado hujafanya hivyo, tafadhali angalia mafunzo haya ya utangulizi kwanza, kisha urudi hapa:
+Kabla ya kufuata mafunzo haya kuhusu kuongeza mafunzo mapya, unahitaji kuwa umekamilisha hatua chache za awali. Ikiwa bado hujafanya hivyo, tafadhali angalia mafunzo haya ya utangulizi kwanza, kisha urudi hapa:
 
 
 https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Tayari unayo:
+Tayari una:
 
 
 
-- Chagua mada ya mafunzo yako;
-- Iliwasiliana na timu ya Plan ₿ Academy kupitia [Telegram group](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network ;
-- Chagua zana zako za mchango.
+- Chagua mada kwa ajili ya mafunzo yako;
+- Niliwasiliana na timu ya Plan ₿ Academy kupitia [kundi la Telegram](https://t.me/PlanBNetwork_ContentBuilder) au paolo@planb.network;
+- Chagua zana zako za michango.
 
 
-Katika mafunzo haya kwa watumiaji wenye uzoefu wa Git, tutafanya muhtasari wa hatua muhimu na miongozo muhimu ya kutoa mafunzo mapya ya Plan ₿ Academy. Ikiwa hujui Git na GitHub, ninapendekeza ufuate mojawapo ya mafunzo haya mengine 2 ya kina ambayo yatakuchukua hatua kwa hatua:
+Katika mafunzo haya kwa watumiaji wenye uzoefu wa Git, tutafupisha kwa ufupi hatua muhimu na miongozo muhimu ya kutoa mafunzo mapya ya Plan ₿ Academy. Ikiwa hujui Git na GitHub, ninapendekeza ufuate mojawapo ya mafunzo mengine 2 ya kina ambayo yatakupeleka hatua kwa hatua:
 
 
 
-- Kati (Desktop ya GitHub):
+- Kiwango cha kati (GitHub Desktop):
 
 
 https://planb.academy/tutorials/contribution/content/write-tutorials-github-desktop-intermediate-4a36a052-1000-4191-890a-9a1dc65f8957
 
 
-- Wanaoanza (mtandao Interface):
+- Wanaoanza (kiolesura cha wavuti):
 
 
 https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-beginner-e64f8fed-4c0b-4225-9ebb-7fc5f1c01a79
@@ -41,48 +41,48 @@ Kwa kuhariri faili za Markdown:
 
 
 
-- Obsidian (Bure, sio chanzo wazi)
-- Weka alama kwenye maandishi (Bure, chanzo-wazi)
-- Zettlr (Bure, chanzo-wazi)
-- Typora (Payware, ~€15, si chanzo huria)
+- Obsidian (Bila malipo, si chanzo huria)
+- Weka alama kwenye Maandishi (Bila Malipo, chanzo huria)
+- Zettlr (Bila malipo, chanzo huria)
+- Typora (Payware, ~€15, sio chanzo huria)
 
 
-kwa Git:
+Kwa Git:
 
 
 
-- Git (Bure, chanzo-wazi)
-- GitHub Desktop (Bure, chanzo-wazi)
-- Sourcetree (Bure, sio chanzo wazi)
+- Git (Bila malipo, chanzo huria)
+- GitHub Desktop (Bila malipo, chanzo huria)
+- Sourcetree (Bila malipo, si chanzo huria)
 
 
 Kwa kuhariri faili za YAML:
 
 
 
-- Msimbo wa Studio unaoonekana (Bure, chanzo-wazi)
-- Maandishi Madogo (Bila na vikwazo, sio chanzo-wazi)
+- Msimbo wa Studio ya Kuonekana (Bila Malipo, chanzo huria)
+- Maandishi Mafupi (Bila malipo yenye mapungufu, si chanzo huria)
 
 
 Ili kuunda michoro na taswira:
 
 
 
-- Canva (Bila malipo na chaguzi zilizolipwa, sio chanzo wazi)
-- Inkscape (Bure, chanzo-wazi)
-- Penpot (Bure, chanzo wazi)
+- Canva (Bila malipo na chaguo za kulipia, si programu huria)
+- Inkscape (Bila malipo, chanzo huria)
+- Penpot (Bila malipo, chanzo huria)
 
 
-## Mitiririko ya kazi
+## Mtiririko wa kazi
 
 
-### 1 - Sanidi mazingira ya eneo lako
+### 1 - Sanidi mazingira yako ya karibu
 
 
 
-- Ni lazima uwe na Fork yako mwenyewe ya [Plan ₿ Academy hazina kwenye GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
-- Sawazisha tawi kuu (`dev`) la Fork yako na hazina ya chanzo.
-- Sasisha mshirika wako wa karibu.
+- Lazima uwe na fork yako mwenyewe ya [hifadhi ya Plan ₿ Academy kwenye GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Sawazisha tawi kuu (`dev`) la fork yako na hazina chanzo.
+- Sasisha nakala yako ya ndani.
 
 
 ```
@@ -112,8 +112,8 @@ git push origin dev
 
 
 - Hakikisha uko kwenye tawi la `dev`.
-- Unda tawi jipya kwa jina la maelezo (k.m. `tuto-Green-Wallet-loic`).
-- Chapisha tawi hili kwenye mtandao wako wa Fork.
+- Unda tawi jipya lenye jina linaloelezea (k.m. `tuto-green-wallet-loic`).
+- Chapisha tawi hili kwenye fork yako mtandaoni.
 
 
 ```
@@ -131,23 +131,23 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Ongeza hati za mafunzo
 
 
-***Kumbuka:*** Unaweza kubadilisha hatua ya 3 na 4 otomatiki kwa kutumia [hati yangu ya Python GUI](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Iendeshe moja kwa moja kutoka kwa folda yake kwenye mwambaa wako wa karibu, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kuisakinisha na kuitumia, angalia [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Kumbuka:*** Unaweza kuendesha hatua za 3 na 4 kiotomatiki kwa kutumia [Python GUI yangu script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Iendeshe moja kwa moja kutoka kwenye folda yake katika nakala yako ya ndani, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kusakinisha na kuitumia, angalia [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
 
-Ikiwa ungependa kuifanya kwa mikono, fuata hatua hizi:
+Ukitaka kuifanya kwa mikono, fuata hatua hizi:
 
 
 
-- Tafuta folda inayofaa katika hazina ya ndani (k.m. `mafunzo/Wallet`).
-- Unda saraka inayotolewa kwa mafunzo yenye jina wazi (k.m. `Green-Wallet`). Jina la folda hii pia litabainisha njia ya URL ya mafunzo. Inapaswa kuwa katika herufi ndogo, isiyo na herufi maalum (isipokuwa viambatisho) na hakuna nafasi.
-- Ongeza vitu vifuatavyo kwenye saraka hii:
-    - Folda ndogo inayoitwa `assets` iliyo na:
+- Tafuta folda inayofaa katika hazina ya ndani (k.m. `mafunzo/wallet`).
+- Unda saraka iliyotengwa kwa ajili ya mafunzo yenye jina wazi (k.m. `kijani-wallet`). Jina la folda hii pia litaamua njia ya URL ya mafunzo. Inapaswa kuwa katika herufi ndogo, bila herufi maalum (isipokuwa vistari) na bila nafasi.
+- Ongeza vipengee vifuatavyo kwenye saraka hii:
+    - Folda ndogo inayoitwa `assets` yenye:
         - Picha mbili za `.webp`:
-            - `logo.webp`: Nembo ya mafunzo (umbizo la mraba lenye usuli). Nembo hii lazima iwakilishe programu au zana iliyowasilishwa. Ikiwa mafunzo si mahususi kwa zana (k.m.: mwongozo wa jumla wa kutengeneza maneno ya Mnemonic), unaweza kuchagua taswira inayofaa (k.m.: ikoni ya jumla).
-            - `cover.webp`: Picha ya jalada lililoonyeshwa mwanzoni mwa mafunzo.
-        - Folda ndogo iliyo na msimbo wa lugha asili ya mafunzo. Kwa mfano, ikiwa somo limeandikwa kwa Kiingereza, folda hii inapaswa kupewa jina `en'. Weka taswira zote za mafunzo (michoro, picha, picha za skrini, n.k.) kwenye folda hii.
-    - Faili ya `tutorial.yml` iliyo na metadata (mwandishi, lebo, kitengo, kiwango cha ugumu, n.k.).
-    - Faili ya Markdown iliyo na mafunzo, iliyopewa jina kulingana na msimbo wa lugha (k.m. `fr.md`, `en.md`, n.k.).
+            - `logo.webp`: Nembo ya mafunzo (muundo wa mraba wenye usuli). Nembo hii lazima iwakilishe programu au zana iliyowasilishwa. Ikiwa mafunzo hayahusu zana maalum (k.m.: mwongozo wa jumla wa kutengeneza kifungu cha kumbukumbu), unaweza kuchagua taswira inayofaa (k.m.: aikoni ya jumla).
+            - `cover.webp`: Picha ya jalada inayoonyeshwa mwanzoni mwa mafunzo.
+        - Folda ndogo yenye msimbo wa lugha asilia ya mafunzo. Kwa mfano, ikiwa mafunzo yameandikwa kwa Kiingereza, folda hii ndogo inapaswa kuitwa `en'. Weka taswira zote za mafunzo (michoro, picha, picha za skrini, n.k.) kwenye folda hii.
+    - Faili ya `tutorial.yml` iliyo na metadata (mwandishi, lebo, kategoria, kiwango cha ugumu, n.k.).
+    - Faili ya Markdown iliyo na mafunzo, yenye jina kulingana na msimbo wa lugha (k.m. `fr.md`, `en.md`, nk.).
 
 
 ```
@@ -209,44 +209,44 @@ Hapa kuna sehemu zinazohitajika:
 
 
 
-- **id**: UUID (_Kitambulisho cha Kipekee cha Universally_) ambacho hutambulisha mafunzo kwa njia ya kipekee. Unaweza generate kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii ni ya nasibu ili kuepusha migongano na UUID nyingine kwenye jukwaa;
+- id**: UUID (_Kitambulisho cha Unique cha Ulimwenguni_) kinachotambua mafunzo kwa njia ya kipekee. Unaweza kuitengeneza kwa kutumia [zana ya mtandaoni](https://www.uuidgenerator.net/version4). Sharti pekee ni kwamba UUID hii iwe nasibu ili kuepuka migogoro na UUID nyingine kwenye mfumo;
 
 
 
-- **project_id**: UUID ya kampuni au shirika nyuma ya zana iliyowasilishwa kwenye mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Maelezo haya yanaongezwa kwenye faili ya mafunzo yako ya YAML kwa sababu Plan ₿ Academy ina hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa kwenye mafunzo yako, unaunda kiungo kati ya Elements mbili;
+- project_id**: UUID ya kampuni au shirika nyuma ya chombo kilichowasilishwa katika mafunzo [kutoka kwenye orodha ya mradi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Kwa mfano, ikiwa unaunda mafunzo kuhusu programu ya Green Wallet, unaweza kupata `project_id` hii katika faili ifuatayo: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Taarifa hii imeongezwa kwenye faili ya YAML ya mafunzo yako kwa sababu Plan ₿ Academy inahifadhi hifadhidata ya makampuni na mashirika yote yanayofanya kazi kwenye Bitcoin au miradi inayohusiana. Kwa kuongeza `project_id` ya huluki iliyounganishwa na mafunzo yako, unaunda kiungo kati ya vipengele hivyo viwili;
 
 
 
-- **tags**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwa orodha ya lebo za Plan ₿ Academy](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- lebo**: Maneno muhimu 2 au 3 yanayohusiana na maudhui ya mafunzo, yaliyochaguliwa pekee [kutoka kwenye orodha ya lebo ya Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
-- **kategoria**: Kitengo kidogo kinacholingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Academy (kwa mfano, kwa pochi: `desktop`, `hardware`, `mobile`, `chelezo`);
+- kategoria**: Kategoria ndogo inayolingana na maudhui ya mafunzo, kulingana na muundo wa tovuti ya Plan ₿ Academy (kwa mfano, kwa wallets: `desktop`, `hardware`, `mobile`, `backup`);
 
 
 
-- **kiwango**: Kiwango cha ugumu cha mafunzo, kilichochaguliwa kutoka:
-    - `Mwanzo`
-    - `katikati`
-    - `advanced`
-    - `mtaalam`
+- kiwango**: Kiwango cha ugumu wa mafunzo, kilichochaguliwa kutoka:
+    - 'mwanzilishi'
+    - `wa kati`
+    - 'ya hali ya juu'
+    - 'mtaalamu'
 
 
 
-- **professor_id**: `professor_id` (UUID) yako kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- profesa_id**: `Profesa_id` wako (UUID) kama inavyoonyeshwa kwenye [wasifu wako wa profesa](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 
 
-- **lugha_asilia**: Lugha asilia ya mafunzo (k.m., `fr`, `en`, n.k.);
+- lugha_asili**: Lugha asili ya mafunzo (k.m., `fr`, `en`, n.k.);
 
 
 
-- **kusahihisha**: Taarifa kuhusu mchakato wa kusahihisha. Kamilisha sehemu ya kwanza, kwani kusahihisha mafunzo yako mwenyewe kunahesabiwa kama uthibitisho wa kwanza:
-    - **lugha**: Msimbo wa lugha wa kusahihisha (k.m., `fr`, `en`, n.k.).
-    - **tarehe_ya_mwisho_mchango**: Tarehe ya siku.
-    - **dharura**: 1
-    - **contributor_names**: Kitambulisho chako cha GitHub.
-    - **malipo**: 0
+- usomaji sahihi**: Taarifa kuhusu mchakato wa usomaji sahihi. Kamilisha sehemu ya kwanza, kwani usomaji sahihi wa mafunzo yako mwenyewe unahesabiwa kama uthibitisho wa kwanza:
+    - lugha**: Msimbo wa lugha wa usomaji sahihi (k.m., `fr`, `en`, nk.).
+    - tarehe_ya_mchango_wa_mwisho**: Tarehe ya siku.
+    - dharura**: 1
+    - majina_ya_mchangiaji**: Kitambulisho chako cha GitHub.
+    - zawadi**: 0
 
 
 Kwa maelezo zaidi kuhusu kitambulisho chako cha mwalimu, tafadhali rejelea mafunzo yanayolingana:
@@ -283,14 +283,14 @@ reward: 0
 ```
 
 
-### 5 - Andika yaliyomo
+### 5 - Andika maudhui
 
 
 
-- Kamilisha mali ya faili ya Markdown na:
-    - Kichwa (`jina`).
+- Kamilisha sifa za faili ya Markdown kwa kutumia:
+    - Cheo (`jina`).
     - Maelezo mafupi (`maelezo`).
-- Ongeza picha ya jalada juu ya mafunzo kwa kutumia syntax ya Markdown (badilisha "Green" na jina la zana iliyoonyeshwa):
+- Ongeza picha ya jalada juu ya mafunzo kwa kutumia sintaksia ya Markdown (badilisha "kijani" na jina la kifaa kilichoonyeshwa):
 
 
 ```
@@ -300,8 +300,8 @@ reward: 0
 
 
 - Andika maudhui ya mafunzo katika Markdown:
-    - Tumia vichwa vilivyoundwa vyema (`##`), orodha na aya.
-    - Ingiza taswira kwa kutumia syntax ya Markdown:
+    - Tumia vichwa vya habari vilivyopangwa vizuri (`##`), orodha na aya.
+    - Ingiza taswira kwa kutumia sintaksia ya Markdown:
 
 
 ```
@@ -318,8 +318,8 @@ reward: 0
 
 
 
-- Hifadhi mabadiliko yako ndani ya nchi kwa kuunda ahadi na ujumbe wa maelezo.
-- Sukuma mabadiliko kwenye GitHub Fork yako.
+- Hifadhi mabadiliko yako ndani ya eneo lako kwa kuunda ahadi yenye ujumbe unaoelezea.
+- Sukuma mabadiliko kwenye GitHub yako fork.
 
 
 ```
@@ -332,8 +332,8 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Mara baada ya kumaliza, unda Ombi la Kuvuta (PR) kwenye GitHub ili kupendekeza ujumuishaji wa marekebisho yako.
-- Ongeza kichwa na maelezo mafupi kwa PR. Taja nambari inayolingana ya suala kwenye maoni.
+- Ukishamaliza, tengeneza Ombi la Kuvuta (PR) kwenye GitHub ili kupendekeza ujumuishaji wa marekebisho yako.
+- Ongeza kichwa na maelezo mafupi kwenye PR. Taja nambari inayolingana ya suala kwenye maoni.
 
 
 ### 7 - Kusahihisha na kuunganisha
@@ -341,7 +341,7 @@ git push origin tuto-green-wallet-loic
 
 
 - Subiri uthibitisho au maoni kutoka kwa msimamizi.
-- Ikibidi, fanya masahihisho na sukuma ahadi mpya.
+- Ikiwa ni lazima, fanya marekebisho na uboreshe ahadi mpya.
 
 
 ```
@@ -354,18 +354,18 @@ git push origin tuto-green-wallet-loic
 
 
 
-- Mara tu PR imeunganishwa, unaweza kufuta tawi lako linalofanya kazi.
+- Mara tu PR ikiwa imeunganishwa, unaweza kufuta tawi lako linalofanya kazi.
 
 
-## Viwango vya kuunda maudhui
+## Viwango vya uundaji wa maudhui
 
 
 
-- **Uumbizaji unatumika kwenye jukwaa**:
-    - Classic Markdown: orodha, viungo, picha, quotes, ujasiri, italiki, nk.
-    - LaTeX (zuia pekee, sio ndani): imetengwa na `$$`.
-    - Msimbo wa ndani: Sintaksia yenye tiki moja.
-    - Vizuizi vya msimbo: Sintaksia yenye vijiti vitatu, kwa mfano:
+- Uumbizaji unaungwa mkono kwenye mfumo**:
+    - Alama ya Kawaida: orodha, viungo, picha, nukuu, herufi nzito, italiki, n.k.
+    - LaTeX (kizuizi pekee, si ndani ya mstari): imepunguzwa na `$$`.
+    - Msimbo wa ndani: Sintaksia yenye tiki moja ya mgongo.
+    - Vizuizi vya msimbo: Sintaksia yenye vibandiko vitatu vya mgongo, kwa mfano:
 
 
 ```
@@ -374,13 +374,13 @@ print("Hello, Bitcoin!")
 
 
 
-- **Vielelezo na michoro**:
-    - Picha zote lazima ziwe katika umbizo la WebP. Tumia zana hii isiyolipishwa ili kuzibadilisha ikihitajika: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
+- Vielelezo na michoro**:
+    - Picha zote lazima ziwe katika umbizo la WebP. Tumia zana hii ya bure kuzibadilisha inapohitajika: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
     - Taja taswira zenye tarakimu 2 au 3 (k.m. `001.webp`, `002.webp`).
-    - Kwa mafunzo ya simu au Hardware Wallet, tumia dhihaka.
-    - Tumia taswira zilizoundwa mwenyewe au zisizo na mrabaha pekee.
-    - Hakikisha yanafaa na ya ubora wa juu.
-- **Hati ya picha**:
+    - Kwa mafunzo ya simu au vifaa vya wallet, tumia mock-ups.
+    - Tumia taswira zilizotengenezwa na wewe mwenyewe au zisizo na mrahaba pekee.
+    - Hakikisha zinafaa na zina ubora wa hali ya juu.
+- Hati ya michoro**:
     - Fonti: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
     - Rangi Plan ₿ Academy:
         - Chungwa: `#FF5C00`
@@ -388,4 +388,4 @@ print("Hello, Bitcoin!")
         - Nyeupe: `#FFFFFF`
 
 
-Iwapo una matatizo ya kiufundi kuwasilisha mafunzo yako, tafadhali usisite kuomba usaidizi kwenye [kikundi chetu maalum cha Telegram kwa michango](https://t.me/PlanBNetwork_ContentBuilder). Asante sana!
+Ikiwa unapata shida ya kiufundi katika kuwasilisha mafunzo yako, tafadhali usisite kuomba usaidizi kuhusu [kikundi chetu maalum cha Telegram kwa michango](https://t.me/PlanBNetwork_ContentBuilder). Asante sana!

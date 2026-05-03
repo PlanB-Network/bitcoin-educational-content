@@ -6,4 +6,4 @@ wrong_answers:
   - Canaux trop petits
 explanation: |
   Chaque sat d’inbound obtenu nécessite de bloquer un sat d’outbound, ce qui limite la scalabilité pour un commerce.
-reviewed: false
+reviewed: true 

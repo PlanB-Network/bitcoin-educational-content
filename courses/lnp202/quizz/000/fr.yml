@@ -6,4 +6,4 @@ wrong_answers:
   - Le nombre maximum de paiements possibles
 explanation: |
   La capacité correspond à la somme totale des sats bloqués dans la sortie multisig du canal.
-reviewed: false
+reviewed: true 

@@ -193,7 +193,7 @@ Jumuiya za Bitcoin mara nyingi hufuata malengo mapana, hasa elimu kwa umma kuhus
 4. Kukanusha madai ya kupotosha au yasiyo na msingi yanayotolewa na baadhi ya watu maarufu na vyombo vya habari;
 
 
-5. Tofauti za kimsingi kati ya Bitcoin na sarafu nyingine za crypto;
+5. Tofauti za kimsingi kati ya Bitcoin na sarafu nyingine za [crypto](https://planb.academy/resources/glossary/cryptocurrency);
 
 
 Kwa kujenga "shield" za kwanza za kesho, **Jumuiya za Bitcoin ulimwenguni pote hutumika kama ngome dhidi ya upotoshaji na udhibiti huku zikitoa msingi mzuri wa kujifunza mambo msingi ya Bitcoin**. Wanatoa wageni, hata wenye kutilia shaka, rasilimali na miunganisho inayohitajika ili kuchunguza uwezo wa kweli wa Bitcoin.
@@ -302,7 +302,7 @@ Hata hivyo, **kuunganisha nguvu mara nyingi kunaleta maana zaidi kuliko kugawany
 Kwa maana hii, "kanuni" rahisi inaweza kusaidia: ikiwa hakuna jumuiya amilifu ya Bitcoin ndani ya dakika 30-45 kutoka mahali unapoishi, inaweza kufaa kuanzisha mpya. Hiyo ilisema, kila wakati uko huru kufanya unavyotaka.
 
 
-Na bila shaka, ikiwa jumuiya ya wazee "imebadilika" katika mwelekeo ambao haulingani tena na maadili yako, na huna wakati au motisha ya "kidonge cha chungwa", basi kuunda Fork yako mwenyewe daima ni chaguo.
+Na bila shaka, ikiwa jumuiya ya wazee "imebadilika" katika mwelekeo ambao haulingani tena na maadili yako, na huna wakati au motisha ya "[kidonge cha chungwa](https://planb.academy/resources/glossary/orange-pill)", basi kuunda [Fork](https://planb.academy/resources/glossary/fork) yako mwenyewe daima ni chaguo.
 
 
 
@@ -1390,7 +1390,7 @@ Hizi ni pamoja na:
 
 
 
-- [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia Sats yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
+- [Btcmap.org](https://btcmap.org/)**, tovuti iliyo na ramani mbili zinazosasishwa kila siku: **[ramani ya ulimwengu ya biashara zinazokubali Bitcoin](https://btcmap.org/map)** na **[ramani ya jumuiya za ulimwengu](https://btcmap.org/communities/map)**. Wafanyabiashara wengi wa bitcoin huangalia ramani hizi mara kwa mara, iwe wanasafiri au wanaendelea na maisha yao ya kila siku, kukutana na watu wapya au kutafuta maeneo ya kutumia [Sats](https://planb.academy/resources/glossary/satoshi-sat) yao. Btcmap ndiyo rejeleo la kimataifa, na kuorodhesha jumuiya yako huko ni muhimu kwa mwonekano.**
 - [BitcoinerEvents](https://www.bitcoinerevents.com/), tovuti iliyoundwa na bitcoiners, kwa bitcoiners. **Inakuwezesha kuchapisha matukio yajayo ya jumuiya yako**. Huko Ufaransa, hata hivyo, bado haitumiki sana.
 - kulingana na nchi yako, kunaweza kuwa na mipango mingine ya ndani. Nchini Ufaransa, kwa mfano, kuna [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), ambayo **orodhesha makumi ya matukio ya Bitcoin kila mwezi**. Kwa hivyo ikiwa bado hujawafuata kwenye Twitter au kuwasiliana nao ili kushiriki habari kuhusu jumuiya na matukio yako, sasa ndio wakati! **Ili kusaidia kusasisha kalenda ya matukio ya Ufaransa, itakuwa vyema ikiwa jumuiya zote za Kifaransa za Bitcoin zitakuwa na mazoea ya:**
     - kutaja @bitcoinpointfr kwenye Twitter kwa kila tukio jipya la jumuiya
@@ -1935,7 +1935,7 @@ Katika kumbi za faragha kama vile tamasha, baa au viwanja vya michezo, angalia i
 Mradi mwingine unaoweza kusanidi kwa urahisi ni **kuunda maktaba kwenye mikutano yako**.
 
 
-Unaweza kuwaalika washiriki wanaotaka kushiriki nyenzo zao za usomaji kuleta kitabu kinachohusiana na Bitcoin. Ikiwa mtu mwingine kwenye mkutano anataka kuazima, mkopo unaweza kupangwa na mmiliki katika Exchange kwa amana, kwa mfano, satoshi 21,000 kupitia Lightning.
+Unaweza kuwaalika washiriki wanaotaka kushiriki nyenzo zao za usomaji kuleta kitabu kinachohusiana na Bitcoin. Ikiwa mtu mwingine kwenye mkutano anataka kuazima, mkopo unaweza kupangwa na mmiliki katika Exchange kwa amana, kwa mfano, satoshi 21,000 kupitia [Lightning](https://planb.academy/resources/glossary/lightning-network).
 
 
 Kwa mmiliki, amana hii husaidia kufidia uwezekano wa hasara au wizi. Kwa mkopaji, ni motisha ya kurejea kwenye mkutano wa siku zijazo ili kurejesha amana yake.
@@ -2598,7 +2598,7 @@ Pamoja na kuongezeka kwa mahudhurio haya:
     - ukipata kwamba idadi ya waliohudhuria inakuwa nyingi sana, unaweza, kwa mikutano ya siku zijazo, ama **kuwahitaji washiriki kujisajili** (kupitia programu ya Meetup au fomu rahisi) au **kufanya mikutano mingi kila mwezi** (kwa mfano: mkutano wa wanaoanza, wa kati na wa hali ya juu).
     - Wakati huo huo, tarajia wageni wengi kwenye mfumo wa ikolojia, mara nyingi kwa lengo kuu la kupata pesa. Ili **kuweka mazungumzo yakilenga Bitcoin** katika mikutano hii inayokua kwa kasi, ni vyema:
 
-a) Jumuisha wasilisho lenye mandhari ya **Bitcoin** wakati wa matukio haya, kwa kuwa hii itaelekeza mazungumzo mengi kuelekea mada hiyo (na mbali na mradi wa hivi punde unaodaiwa kuwa wa "mapinduzi" wa shitcoin);
+a) Jumuisha wasilisho lenye mandhari ya **Bitcoin** wakati wa matukio haya, kwa kuwa hii itaelekeza mazungumzo mengi kuelekea mada hiyo (na mbali na mradi wa hivi punde unaodaiwa kuwa wa "mapinduzi" wa [shitcoin](https://planb.academy/resources/glossary/shitcoin));
 
 b) **Epuka kushikamana na bitcoiners wenzako tu **. Badala yake, hakikisha **kuwakaribia watu wapya**, hata kama hiyo inamaanisha kubarizi nyuma ya chumba ili kuwasalimu. Kutoka hapo, unaweza kuzungumza kuhusu kwa nini walikuja, wanachotafuta, malengo (au hata kanuni za msingi) za jumuiya yako, na kadhalika.
 

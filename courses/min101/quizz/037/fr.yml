@@ -6,4 +6,4 @@ wrong_answers:
   - Le double-nonce
 explanation: |
   En modifiant l’extra-nonce dans le scriptSig de la coinbase, on change la racine de Merkle et donc l’entête.
-reviewed: false
+reviewed: true 

@@ -92,7 +92,7 @@ Nếu bạn hoàn thành khóa học LNP202 này theo đúng trình tự, đến
 
 
 
-Trước khi khởi chạy node của riêng bạn, chương này sẽ tóm tắt ngắn gọn lý thuyết cơ bản đằng sau Lightning Network. Việc hiểu rõ các cơ chế liên quan thực sự rất quan trọng, vì điều này sẽ giúp bạn xác định rủi ro và áp dụng các biện pháp tốt để hạn chế chúng. Tuy nhiên, tôi sẽ không đi sâu vào chi tiết ở đây, vì đây không phải là mục tiêu chính của khóa học này. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, tôi đặc biệt khuyên bạn nên tham khảo khóa học LNP 201 của Fanis Michalakis, đây là tài liệu tham khảo hàng đầu trong lĩnh vực này
+Trước khi khởi chạy node của riêng bạn, chương này sẽ tóm tắt ngắn gọn lý thuyết cơ bản đằng sau [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Việc hiểu rõ các cơ chế liên quan thực sự rất quan trọng, vì điều này sẽ giúp bạn xác định rủi ro và áp dụng các biện pháp tốt để hạn chế chúng. Tuy nhiên, tôi sẽ không đi sâu vào chi tiết ở đây, vì đây không phải là mục tiêu chính của khóa học này. Nếu bạn muốn tìm hiểu sâu hơn về chủ đề này, tôi đặc biệt khuyên bạn nên tham khảo khóa học LNP 201 của Fanis Michalakis, đây là tài liệu tham khảo hàng đầu trong lĩnh vực này
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Hãy quay lại những điều cơ bản: trước khi định nghĩa node là gì, chúng ta cần hiểu Lightning Network là gì. Đó là một giao thức lớp trên cùng, được xây dựng trên nền tảng Bitcoin, được thiết kế để cho phép các giao dịch BTC ngoài chuỗi (offchain) diễn ra nhanh chóng (với độ hoàn tất gần như tức thì) và nhìn chung là không tốn kém. "Ngoài chuỗi" (offchain) có nghĩa là các giao dịch được thực hiện trên Lightning không nhằm mục đích xuất hiện trên chuỗi khối Bitcoin chính. Lightning cũng là một phần phản ứng trước việc sử dụng Bitcoin ngày càng tăng và tình trạng tắc nghẽn trên chuỗi (onchain), điều này đang làm dấy lên lo ngại về khả năng mở rộng của hệ thống.
+Hãy quay lại những điều cơ bản: trước khi định nghĩa node là gì, chúng ta cần hiểu Lightning Network là gì. Đó là một giao thức lớp trên cùng, được xây dựng trên nền tảng Bitcoin, được thiết kế để cho phép các giao dịch BTC [ngoài chuỗi](https://planb.academy/resources/glossary/offchain) (offchain) diễn ra nhanh chóng (với độ hoàn tất gần như tức thì) và nhìn chung là không tốn kém. "Ngoài chuỗi" (offchain) có nghĩa là các giao dịch được thực hiện trên Lightning không nhằm mục đích xuất hiện trên [chuỗi khối](https://planb.academy/resources/glossary/blockchain) Bitcoin chính. Lightning cũng là một phần phản ứng trước việc sử dụng Bitcoin ngày càng tăng và tình trạng tắc nghẽn [trên chuỗi](https://planb.academy/resources/glossary/onchain) (onchain), điều này đang làm dấy lên lo ngại về [khả năng mở rộng](https://planb.academy/resources/glossary/scalability) của hệ thống.
 
 
 
-Để hoạt động, Lightning dựa vào việc mở các kênh thanh toán giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như tức thời, thường với phí tối thiểu, mà không cần phải đăng ký từng giao dịch một trên chuỗi khối Bitcoin. Các kênh này có thể được mở trong thời gian rất dài, chỉ yêu cầu các giao dịch trên chuỗi khi chúng được mở và đóng.
+Để hoạt động, Lightning dựa vào việc mở các [kênh thanh toán](https://planb.academy/resources/glossary/payment-channel) giữa các bên tham gia, trong đó các giao dịch có thể được thực hiện gần như tức thời, thường với phí tối thiểu, mà không cần phải đăng ký từng giao dịch một trên chuỗi khối Bitcoin. Các kênh này có thể được mở trong thời gian rất dài, chỉ yêu cầu các giao dịch trên chuỗi khi chúng được mở và đóng.
 
 
 
-Một nút Lightning là một thành phần tham gia vào mạng Lightning, mở các kênh và thực hiện thanh toán với các nút khác. Nói một cách cụ thể, một nút Lightning là một phần mềm chạy trên máy tính và thực thi giao thức Lightning Network. Ví dụ bao gồm LND, Core Lightning hoặc Eclair. Vai trò chính của phần mềm này là:
+Một [nút Lightning](https://planb.academy/resources/glossary/lightning-node) là một thành phần tham gia vào mạng Lightning, mở các kênh và thực hiện thanh toán với các nút khác. Nói một cách cụ thể, một nút Lightning là một phần mềm chạy trên máy tính và thực thi giao thức Lightning Network. Ví dụ bao gồm LND, Core Lightning hoặc Eclair. Vai trò chính của phần mềm này là:
 
 
 
 
-- Kết nối với nút Bitcoin để lấy thông tin từ chuỗi khối chính;
+- Kết nối với [nút Bitcoin](https://planb.academy/resources/glossary/full-node) để lấy thông tin từ chuỗi khối chính;
 - Tạo và quản lý các kênh thanh toán hai chiều với các nút khác;
 - Trao đổi tin nhắn với toàn bộ mạng Lightning.
 
@@ -129,7 +129,7 @@ Một nút Lightning là một thành phần tham gia vào mạng Lightning, m�
 
 
 
-Trên Bitcoin (trên chuỗi), "*wallet*" đề cập đến phần mềm quản lý khóa riêng tư của bạn, tính toán số dư từ UTXO và xây dựng các giao dịch của bạn. wallet này có thể dựa trên nút Bitcoin của riêng bạn hoặc của người khác, nhưng hiện nay, vai trò của nút và wallet trên chuỗi là hoàn toàn khác biệt.
+Trên Bitcoin (trên chuỗi), "*[wallet](https://planb.academy/resources/glossary/wallet)*" đề cập đến phần mềm quản lý [khóa riêng tư](https://planb.academy/resources/glossary/private-key) của bạn, tính toán số dư từ [UTXO](https://planb.academy/resources/glossary/utxo) và xây dựng các giao dịch của bạn. wallet này có thể dựa trên nút Bitcoin của riêng bạn hoặc của người khác, nhưng hiện nay, vai trò của nút và wallet trên chuỗi là hoàn toàn khác biệt.
 
 
 
@@ -141,7 +141,7 @@ Trên Lightning, việc tái sử dụng loại từ vựng này khó hơn mà k
 
 
 
-- Để sử dụng dịch vụ lưu ký: bạn sử dụng một ứng dụng hiển thị số dư trong sats trên Lightning, nhưng trên thực tế, số tiền đó nằm trên một node của nhà cung cấp (ví dụ: Wallet of Satoshi). Bạn không có khóa cũng như quyền kiểm soát các kênh. Số dư của bạn chỉ đơn thuần là một mục nhập kế toán trong cơ sở dữ liệu của công ty. Điều này tương tự như việc để bitcoin của bạn trên một sàn giao dịch, với tất cả các rủi ro liên quan. Trong trường hợp này, "*Lightning wallet*" của bạn chỉ đơn thuần là quyền truy cập vào một tài khoản được quản lý bởi một nhà điều hành, người này lại vận hành một node Lightning thực sự.
+- Để sử dụng dịch vụ lưu ký: bạn sử dụng một ứng dụng hiển thị số dư trong [sats](https://planb.academy/resources/glossary/satoshi-sat) trên Lightning, nhưng trên thực tế, số tiền đó nằm trên một node của nhà cung cấp (ví dụ: Wallet of Satoshi). Bạn không có khóa cũng như quyền kiểm soát các kênh. Số dư của bạn chỉ đơn thuần là một mục nhập kế toán trong cơ sở dữ liệu của công ty. Điều này tương tự như việc để bitcoin của bạn trên một sàn giao dịch, với tất cả các rủi ro liên quan. Trong trường hợp này, "*Lightning wallet*" của bạn chỉ đơn thuần là quyền truy cập vào một tài khoản được quản lý bởi một nhà điều hành, người này lại vận hành một node Lightning thực sự.
 
 
 
@@ -161,7 +161,7 @@ Trong phần này, tôi sẽ nhắc lại nhanh cách thức hoạt động củ
 
 
 
-Cốt lõi của mạng Lightning dựa trên các kênh thanh toán hai chiều. Một kênh có thể được mở (tức là tạo), cập nhật khi các giao dịch Lightning diễn ra, và cuối cùng là đóng lại. Từ góc nhìn trên chuỗi, một kênh không gì khác hơn là một đầu ra đa chữ ký 2/2.
+Cốt lõi của mạng Lightning dựa trên các kênh thanh toán hai chiều. Một kênh có thể được mở (tức là tạo), cập nhật khi các giao dịch Lightning diễn ra, và cuối cùng là đóng lại. Từ góc nhìn trên chuỗi, một kênh không gì khác hơn là một [đầu ra](https://planb.academy/resources/glossary/output) [đa chữ ký](https://planb.academy/resources/glossary/multisig) 2/2.
 
 
 
@@ -169,7 +169,7 @@ Cốt lõi của mạng Lightning dựa trên các kênh thanh toán hai chiều
 
 
 
-Từ góc nhìn của Lightning, đây là một kênh thanh toán với tính thanh khoản được phân chia giữa hai bên tham gia.
+Từ góc nhìn của Lightning, đây là một kênh thanh toán với [tính thanh khoản](https://planb.academy/resources/glossary/liquidity-lightning) được phân chia giữa hai bên tham gia.
 
 
 
@@ -183,7 +183,7 @@ Từ góc nhìn của Lightning, đây là một kênh thanh toán với tính t
 
 
 
-Hai nút quyết định mở một kênh. Một trong số chúng cam kết bitcoin trong một giao dịch trên chuỗi gọi là *giao dịch cấp vốn*. Giao dịch này tạo ra một đầu ra dựa trên kịch bản đa chữ ký 2 trên 2, có nghĩa là việc chi tiêu số tiền này trên Bitcoin yêu cầu chữ ký của cả hai nút trong kênh. Trước khi thực hiện giao dịch này, bên cung cấp tiền yêu cầu bên kia ký một *giao dịch rút tiền*, giao dịch này không được thực hiện trên chuỗi, nhưng cho phép bên đó thu hồi tiền của mình trong trường hợp xảy ra sự cố.
+Hai nút quyết định mở một kênh. Một trong số chúng cam kết bitcoin trong một giao dịch trên chuỗi gọi là *giao dịch cấp vốn*. Giao dịch này tạo ra một đầu ra dựa trên [kịch bản](https://planb.academy/resources/glossary/script) đa chữ ký 2 trên 2, có nghĩa là việc chi tiêu số tiền này trên Bitcoin yêu cầu [chữ ký](https://planb.academy/resources/glossary/digital-signature) của cả hai nút trong kênh. Trước khi thực hiện giao dịch này, bên cung cấp tiền yêu cầu bên kia ký một *giao dịch rút tiền*, giao dịch này không được thực hiện trên chuỗi, nhưng cho phép bên đó thu hồi tiền của mình trong trường hợp xảy ra sự cố.
 
 
 
@@ -197,7 +197,7 @@ Hai nút quyết định mở một kênh. Một trong số chúng cam kết bit
 
 
 
-Trạng thái của kênh (tức là sự phân phối sats giữa A và B) được biểu thị bằng một *commitment transaction*, được cả hai nút biết đến nhưng không được phát sóng ngay lập tức trên blockchain. Giao dịch này mô tả cách phân phối lại tiền của kênh trên chuỗi theo các khoản thanh toán được thực hiện trên Lightning.
+Trạng thái của kênh (tức là sự phân phối sats giữa A và B) được biểu thị bằng một *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, được cả hai nút biết đến nhưng không được phát sóng ngay lập tức trên blockchain. Giao dịch này mô tả cách phân phối lại tiền của kênh trên chuỗi theo các khoản thanh toán được thực hiện trên Lightning.
 
 
 
@@ -237,7 +237,7 @@ Trước khi đi sâu hơn, đây là hai khái niệm thiết yếu để hiể
 
 
 - Liquidity*: lượng sats có sẵn ở một bên kênh;
-- *Dung lượng*: đó là tổng số tiền bị khóa trong đầu ra đa chữ ký 2/2, tức là tổng lượng thanh khoản ở cả hai phía của kênh.
+- *[Dung lượng](https://planb.academy/resources/glossary/lightning-channel-capacity)*: đó là tổng số tiền bị khóa trong đầu ra đa chữ ký 2/2, tức là tổng lượng thanh khoản ở cả hai phía của kênh.
 
 
 
@@ -249,7 +249,7 @@ Kênh không chỉ dùng để thanh toán giữa hai nút: nó là một phần
 
 
 
-Mỗi nút đều biết, thông qua giao thức lan truyền thông tin, một bản đồ của mạng này: các kênh nào tồn tại, các nút nào được kết nối bằng kênh hai chiều và dung lượng nào được công bố. Để gửi một khoản thanh toán cho người nhận không có kênh trực tiếp, nút của bạn sẽ tính toán một lộ trình gồm nhiều bước nhảy: nút của bạn → nút X → nút Y → nút người nhận. Tại mỗi bước nhảy, khoản thanh toán sẽ đi qua một kênh phải có đủ tính thanh khoản theo hướng thanh toán.
+Mỗi nút đều biết, thông qua giao thức [lan truyền thông tin](https://planb.academy/resources/glossary/gossip), một bản đồ của mạng này: các kênh nào tồn tại, các nút nào được kết nối bằng kênh hai chiều và dung lượng nào được công bố. Để gửi một khoản thanh toán cho người nhận không có kênh trực tiếp, nút của bạn sẽ tính toán một lộ trình gồm nhiều bước nhảy: nút của bạn → nút X → nút Y → nút người nhận. Tại mỗi bước nhảy, khoản thanh toán sẽ đi qua một kênh phải có đủ tính thanh khoản theo hướng thanh toán.
 
 
 
@@ -265,7 +265,7 @@ Do đó, tính thanh khoản của một kênh không đối xứng: một bên 
 
 
 
-Để cho phép thanh toán được thực hiện thông qua các nút trung gian mà không cần sự tin tưởng, Lightning sử dụng các hợp đồng thông minh có tên là *HTLC* (*Hashed Time-Locked Contracts*). Nói một cách đơn giản, HTLC quy định việc chuyển tiền phụ thuộc vào việc tiết lộ một bí mật, và tích hợp một ràng buộc về thời gian để bảo vệ người gửi trong trường hợp giao dịch thất bại. Do đó, mỗi khoản thanh toán đều phải tuân theo việc trình bày một tiền ảnh (một bí mật có hàm băm tương ứng với một giá trị đã được thỏa thuận). Nếu người nhận cuối cùng cung cấp tiền ảnh này, họ có thể nhận được tiền, điều này cho phép mỗi nút trung gian thu hồi lại tiền của chính mình.
+Để cho phép thanh toán được thực hiện thông qua các nút trung gian mà không cần sự tin tưởng, Lightning sử dụng các [hợp đồng thông minh](https://planb.academy/resources/glossary/smart-contract) có tên là *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Nói một cách đơn giản, HTLC quy định việc chuyển tiền phụ thuộc vào việc tiết lộ một bí mật, và tích hợp một ràng buộc về thời gian để bảo vệ người gửi trong trường hợp giao dịch thất bại. Do đó, mỗi khoản thanh toán đều phải tuân theo việc trình bày một tiền ảnh (một bí mật có [hàm băm](https://planb.academy/resources/glossary/hash-function) tương ứng với một giá trị đã được thỏa thuận). Nếu người nhận cuối cùng cung cấp tiền ảnh này, họ có thể nhận được tiền, điều này cho phép mỗi nút trung gian thu hồi lại tiền của chính mình.
 
 
 
@@ -281,7 +281,7 @@ Tôi sẽ không đi sâu vào các chi tiết kỹ thuật về cách hoạt đ
 
 
 
-Cũng giống như Bitcoin, có nhiều phiên bản triển khai giao thức Lightning. Một số nhóm độc lập đang phát triển các phiên bản riêng của họ, tất cả đều tương thích với nhau vì chúng tuân thủ cùng một tiêu chuẩn (BOLT). Dưới đây là các phiên bản triển khai chính đang được sử dụng hiện nay.
+Cũng giống như Bitcoin, có nhiều phiên bản triển khai giao thức Lightning. Một số nhóm độc lập đang phát triển các phiên bản riêng của họ, tất cả đều tương thích với nhau vì chúng tuân thủ cùng một tiêu chuẩn ([BOLT](https://planb.academy/resources/glossary/bolt)). Dưới đây là các phiên bản triển khai chính đang được sử dụng hiện nay.
 
 
 
@@ -399,7 +399,7 @@ Ngày nay, bạn hoàn toàn có thể có được trải nghiệm người dù
 
 
 
-Giải pháp đầu tiên đơn giản là không sử dụng Lightning trực tiếp, mà sử dụng Bitcoin, Liquid hoặc wallet tích hợp tính năng hoán đổi nguyên tử. Ví dụ, các ứng dụng Aqua hoặc Bull Bitcoin Wallet sử dụng phương pháp này, cho phép bạn thanh toán hóa đơn Lightning mà không cần tự vận hành nút Lightning, đồng thời vẫn duy trì quyền tự quản lý.
+Giải pháp đầu tiên đơn giản là không sử dụng Lightning trực tiếp, mà sử dụng Bitcoin, [Liquid](https://planb.academy/resources/glossary/liquid-network) hoặc wallet tích hợp tính năng [hoán đổi nguyên tử](https://planb.academy/resources/glossary/atomic-swap). Ví dụ, các ứng dụng Aqua hoặc BULL Wallet sử dụng phương pháp này, cho phép bạn thanh toán [hóa đơn Lightning](https://planb.academy/resources/glossary/invoice-lightning) mà không cần tự vận hành nút Lightning, đồng thời vẫn duy trì quyền tự quản lý.
 
 
 
@@ -411,7 +411,7 @@ Nguyên tắc rất đơn giản: tiền của bạn được lưu trữ trong B
 
 
 
-Ưu điểm chính của phương pháp này, so với wallet lưu ký Lightning thông thường, là bạn luôn giữ quyền kiểm soát 100% số tiền của mình. Bitcoin được lưu trữ trên onchain hoặc Liquid wallet của bạn, với cụm từ ghi nhớ riêng của bạn. Ngay cả trong quá trình hoán đổi, bạn vẫn giữ được quyền kiểm soát tiền của mình, vì giao dịch hoán đổi là nguyên tử. Nó dựa trên một cơ chế mã hóa đảm bảo chỉ có hai kết quả có thể xảy ra: hoặc giao dịch hoán đổi thành công hoàn toàn, hoặc thất bại và dịch vụ không thể chiếm đoạt tiền của bạn.
+Ưu điểm chính của phương pháp này, so với wallet lưu ký Lightning thông thường, là bạn luôn giữ quyền kiểm soát 100% số tiền của mình. Bitcoin được lưu trữ trên onchain hoặc Liquid wallet của bạn, với [cụm từ ghi nhớ](https://planb.academy/resources/glossary/seed) riêng của bạn. Ngay cả trong quá trình hoán đổi, bạn vẫn giữ được quyền kiểm soát tiền của mình, vì giao dịch hoán đổi là nguyên tử. Nó dựa trên một cơ chế mã hóa đảm bảo chỉ có hai kết quả có thể xảy ra: hoặc giao dịch hoán đổi thành công hoàn toàn, hoặc thất bại và dịch vụ không thể chiếm đoạt tiền của bạn.
 
 
 
@@ -423,7 +423,7 @@ Giải pháp này cũng mang lại những lợi thế thú vị về mặt bả
 
 
 
-Mặt khác, phương pháp này cũng có những hạn chế. Thứ nhất, nó không phải là không thể tranh cãi: bạn phụ thuộc vào sự sẵn có và thiện chí của dịch vụ hoán đổi. Nếu dịch vụ đó không còn muốn xử lý tài khoản của bạn, hoặc ngừng hoạt động, bạn sẽ không thể thanh toán hóa đơn Lightning thông qua đó nữa. Sau đó là các khoản phí không nhỏ: bạn phải trả cả phí giao dịch trên chuỗi hoặc Liquid, và phí hoa hồng của dịch vụ hoán đổi. Ngoài ra, nếu phí trên chuỗi tăng mạnh, việc sử dụng Lightning có thể trở nên rất tốn kém.
+Mặt khác, phương pháp này cũng có những hạn chế. Thứ nhất, nó không phải là không thể tranh cãi: bạn phụ thuộc vào sự sẵn có và thiện chí của dịch vụ hoán đổi. Nếu dịch vụ đó không còn muốn xử lý tài khoản của bạn, hoặc ngừng hoạt động, bạn sẽ không thể thanh toán hóa đơn Lightning thông qua đó nữa. Sau đó là các khoản phí không nhỏ: bạn phải trả cả [phí giao dịch](https://planb.academy/resources/glossary/transaction-fees) trên chuỗi hoặc Liquid, và phí hoa hồng của dịch vụ hoán đổi. Ngoài ra, nếu phí trên chuỗi tăng mạnh, việc sử dụng Lightning có thể trở nên rất tốn kém.
 
 
 
@@ -479,7 +479,7 @@ Giải pháp thứ ba, giải pháp mà chúng ta sẽ xem xét kỹ hơn trong 
 
 
 
-"Cổ điển" ở đây có nghĩa là bạn tự cài đặt và cấu hình một hệ thống Lightning (ví dụ: LND) trên node Bitcoin của riêng mình. Bạn chọn các peer, mở kênh, quản lý thanh khoản vào và ra, và thiết lập chính sách phí định tuyến.
+"Cổ điển" ở đây có nghĩa là bạn tự cài đặt và cấu hình một hệ thống Lightning (ví dụ: LND) trên node Bitcoin của riêng mình. Bạn chọn các peer, mở kênh, quản lý [thanh khoản vào và ra](https://planb.academy/resources/glossary/inbound-capacity), và thiết lập chính sách phí định tuyến.
 
 
 
@@ -616,7 +616,7 @@ Sau đó, bạn sẽ đến giao diện chính của nút Lightning. Ở bên tr
 
 
 
-Ở trung tâm, bạn sẽ thấy Lightning wallet. Nó thực sự đại diện cho dòng tiền bạn chi ra, tức là số bitcoin bạn sở hữu trong các kênh Lightning của mình.
+Ở trung tâm, bạn sẽ thấy Lightning wallet. Nó thực sự đại diện cho [dòng tiền bạn chi ra](https://planb.academy/resources/glossary/outbound-capacity), tức là số bitcoin bạn sở hữu trong các kênh Lightning của mình.
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Untuk menjamin bahwa setiap pesan memiliki kunci unik
 explanation: |
   Menurut prinsip Kerckhoff, keamanan dari sistem kriptografi seharusnya hanya bergantung pada kunci rahasia, dan tidak pada kerahasiaan dari algoritma itu sendiri.
-reviewed: false
+reviewed: true

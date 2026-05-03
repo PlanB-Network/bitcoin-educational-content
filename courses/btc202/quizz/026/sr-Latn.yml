@@ -1,9 +1,9 @@
-question: Satoshi Nakamoto
+question: Ko je izmislio koncept pojednostavljenje verifikacije plaćanja (SPV)?
 answer: Satoshi Nakamoto
 wrong_answers:
   - Hal Finney
   - Adam Back
   - Pieter Wuille
 explanation: |
-  SPV je predstavljen u delu 8 Satoshi Nakamoto-ovog Belog papira.
+  SPV je predstavljen u delu 8 Satoshi Nakamoto-ovog White paper-a.
 reviewed: true

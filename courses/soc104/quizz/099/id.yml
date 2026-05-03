@@ -1,7 +1,7 @@
 question: Menurut Manifesto Cypherpunk Eric Hughes, pendekatan mendasar apa yang membedakan cypherpunks dari mereka yang hanya mengharapkan perlindungan privasi?
 answer: Mereka secara aktif menulis kode untuk membangun sistem kriptografi daripada menunggu institusi untuk memberikan privasi
 wrong_answers:
-  - Mereka berfokus pada pengaruh politik dan reformasi hukum untuk menetapkan hak-hak privasi konstitusional
+  - Mereka berfokus pada lobi politik dan reformasi hukum untuk menetapkan hak-hak privasi konstitusional
   - Mereka memprioritaskan edukasi kepada masyarakat tentang risiko pengawasan melalui penelitian dan publikasi akademis
   - Mereka bekerja di dalam lembaga keuangan yang ada untuk secara bertahap menerapkan teknologi yang menjaga privasi
 explanation: |

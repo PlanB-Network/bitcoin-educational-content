@@ -826,7 +826,7 @@ No século XX, surgiram duas grandes tendências:
 2.  **O outro anarco-capitalista:** que acredita que as funções do Estado devem ser privatizadas e geridas pelo mercado.
 
 
-No entanto, ambos concordam com o princípio fundamental da soberania individual. As ideias libertárias foram expressas já no século XVIII pelos fisiocratas, nomeadamente Vincent de Gournay e Turgot, e desenvolvidas por Condillac, Jean-Baptiste Say e Frédéric Bastiat. No século XX, foram retomadas e desenvolvidas pela escola austríaca de economia, cujos principais autores são Ludwig von Mises, Friedrich Hayek e Murray Rothbard.
+No entanto, ambos concordam com o princípio fundamental da soberania individual. As ideias libertárias foram expressas já no século XVIII pelos fisiocratas, nomeadamente Vincent de Gournay e Turgot, e desenvolvidas por Condillac, Jean-Baptiste Say e Frédéric Bastiat. No século XX, foram retomadas e desenvolvidas pela [escola austríaca de economia](https://planb.academy/resources/glossary/austrian-school), cujos principais autores são Ludwig von Mises, Friedrich Hayek e Murray Rothbard.
 
 
 
@@ -1626,10 +1626,10 @@ No final deste curso, parece-nos essencial abordar o posicionamento político do
 
 
 
-O Bitcoin é uma criptomoeda descentralizada, criada por Satoshi Nakamoto em 2008, que permite transacções financeiras peer-to-peer não confiáveis.
+O Bitcoin é uma [criptomoeda](https://planb.academy/resources/glossary/cryptocurrency) descentralizada, criada por Satoshi Nakamoto em 2008, que permite transacções financeiras [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) não confiáveis.
 
 
-O Bitcoin é controlado por um protocolo de software de fonte aberta, sem diretor executivo, sem sede social, sem orçamento de marketing e sem autoridade designada. Isto significa que nenhuma entidade política ou governo tem controlo sobre ele.
+O Bitcoin é controlado por um protocolo de software de [fonte aberta](https://planb.academy/resources/glossary/foss), sem diretor executivo, sem sede social, sem orçamento de marketing e sem autoridade designada. Isto significa que nenhuma entidade política ou governo tem controlo sobre ele.
 
 
 
@@ -1645,7 +1645,7 @@ Embora o Bitcoin em si não seja de direita nem de esquerda, nem pertença a nen
 
 
 
-Lendo o Livro Branco do Satoshi Nakamoto, podemos ver que o Bitcoin foi concebido para oferecer uma proteção inovadora contra duas grandes ameaças contemporâneas: a vigilância generalizada e a aceleração da criação de dinheiro artificial.
+Lendo o [Livro Branco](https://planb.academy/resources/glossary/white-paper) do Satoshi Nakamoto, podemos ver que o Bitcoin foi concebido para oferecer uma proteção inovadora contra duas grandes ameaças contemporâneas: a vigilância generalizada e a aceleração da criação de dinheiro artificial.
 
 
 
@@ -1653,7 +1653,7 @@ Lendo o Livro Branco do Satoshi Nakamoto, podemos ver que o Bitcoin foi concebid
 
 
 
-2. O Bitcoin permite a cada um proteger as suas poupanças contra a espoliação da propriedade privada que se traduz na inflação monetária. É uma tentativa de desafiar o controlo do Estado sobre a gestão do dinheiro como instrumento de troca e, portanto, de competir com o Estado. A crise financeira de 2008 e a pandemia de Covid-19 puseram em evidência as falhas do sistema atual. Os triliões de dólares impressos do nada para evitar que a economia entrasse em colapso tiveram efeitos devastadores, que ainda estamos a pagar.
+2. O Bitcoin permite a cada um proteger as suas poupanças contra a espoliação da propriedade privada que se traduz na [inflação](https://planb.academy/resources/glossary/inflation) monetária. É uma tentativa de desafiar o controlo do Estado sobre a gestão do dinheiro como instrumento de troca e, portanto, de competir com o Estado. A crise financeira de 2008 e a pandemia de Covid-19 puseram em evidência as falhas do sistema atual. Os triliões de dólares impressos do nada para evitar que a economia entrasse em colapso tiveram efeitos devastadores, que ainda estamos a pagar.
 
 
 
@@ -1681,7 +1681,7 @@ O ponto de partida da abordagem intelectual de Satoshi Nakamoto é, portanto, o 
 
 
 
-A inclusão deste título no bloco da génese está aberta a interpretações. Mas pode aparecer como um comentário de Satoshi sobre os fracassos das instituições financeiras tradicionais e como uma declaração do objetivo de Bitcoin: oferecer uma alternativa aos sistemas bancários centralizados.
+A inclusão deste título no [bloco da génese](https://planb.academy/resources/glossary/genesis-block) está aberta a interpretações. Mas pode aparecer como um comentário de Satoshi sobre os fracassos das instituições financeiras tradicionais e como uma declaração do objetivo de Bitcoin: oferecer uma alternativa aos sistemas bancários centralizados.
 
 
 
@@ -1725,7 +1725,7 @@ Neste sentido, é guiado por uma visão do mundo que é simultaneamente moral e 
 
 
 
-Mas a Bitcoin não surgiu do nada. Baseia-se nos avanços da matemática, da física, da informática e da filosofia. O Satoshi Nakamoto, embora brilhante, baseou-se nas ideias de outros inovadores. Entre eles, os pioneiros do movimento cypherpunk.
+Mas a Bitcoin não surgiu do nada. Baseia-se nos avanços da matemática, da física, da informática e da filosofia. O Satoshi Nakamoto, embora brilhante, baseou-se nas ideias de outros inovadores. Entre eles, os pioneiros do movimento [cypherpunk](https://planb.academy/resources/glossary/cypherpunks).
 
 
 
@@ -1772,7 +1772,7 @@ E acrescenta:
 
 > a confidencialidade numa sociedade aberta exige sistemas de transação anónimos. Até à data, o numerário tem sido o principal sistema deste tipo.
 
-É por isso que a criptografia será usada como uma ferramenta de resistência contra todas as formas de controlo estatal e empresarial. Ela garante que cada parte de uma transação saiba apenas o que é estritamente necessário para essa transação.
+É por isso que a [criptografia](https://planb.academy/resources/glossary/cryptography) será usada como uma ferramenta de resistência contra todas as formas de controlo estatal e empresarial. Ela garante que cada parte de uma transação saiba apenas o que é estritamente necessário para essa transação.
 
 
 

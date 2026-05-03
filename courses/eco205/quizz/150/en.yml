@@ -1,0 +1,8 @@
+question: According to Austrian business cycle theory, why does monetary expansion create an illusion of capital abundance that doesn't correspond to economic reality?
+answer: Because creating money does not create additional material, human and technical resources, which remain limited
+wrong_answers:
+  - "Because monetary expansion artificially increases the velocity of money circulation without creating value"
+  - Because the new currency dilutes the value of existing investments and mechanically reduces available capital
+  - "Because monetary expansion creates a disconnect between nominal prices and real production costs."
+explanation: |
+  Austrian theory stresses that monetary expansion merely increases the quantity of money in circulation, giving the illusion of an abundance of capital. However, as Mises explains, printing money does not print scarce goods. Real resources (material, human, technical) remain limited, despite the increase in liquidity. This illusion leads entrepreneurs to undertake more projects than there are resources available, inevitably creating malinvestment and structural imbalances in the economy.

@@ -6,4 +6,4 @@ wrong_answers:
   - Ini memungkinkan pertukaran mata uang elektronik.
 explanation: |
   Protokol Diffie-Hellman memungkinkan dua pihak untuk berbagi informasi secara publik sambil memastikan bahwa hanya mereka yang dapat menghasilkan kunci bersama untuk mengamankan pertukaran mereka di masa depan.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: According to the Austrian school of thought, what is the fundamental difference between price determination in a market economy and in a socialist planned economy?
+answer: In a market economy, prices emerge spontaneously from voluntary exchanges and reflect subjective valuations, whereas in a socialist economy, prices are arbitrarily set by planners with no objective basis
+wrong_answers:
+  - "In a market economy, prices are determined by production costs, whereas in a socialist economy, they are set according to the social utility of goods."
+  - "In a market economy, prices fluctuate according to inflation, whereas in a socialist economy, they remain stable thanks to state control of monetary variables."
+  - "In a market economy, prices are manipulated by monopolies, whereas in a socialist economy, they represent the true value of the labor embodied in goods."
+explanation: |
+  The Austrian school makes a clear distinction between market prices, which emerge from voluntary exchanges between private owners and convey information about individual preferences, and socialist administrative prices, which are arbitrarily set by planners. Without private property and free exchange, it becomes impossible to discover the true subjective valuations of individuals, making rational economic calculation impossible. This distinction lies at the heart of Mises' critique of socialism.

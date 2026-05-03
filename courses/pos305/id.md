@@ -74,7 +74,7 @@ Setelah kata-kata yang diucapkan oleh Nicolas, tibalah saatnya untuk mulai memba
 Apa yang dimaksud dengan open source, dan apa saja yang ada di dalam proyek semacam itu?
 
 
-FOSS adalah singkatan dari Perangkat Lunak Bebas & Sumber Terbuka. Yang pertama mengacu pada istilah yang mengizinkan siapa saja untuk menyalin, memodifikasi, dan bahkan mendistribusikan versi perangkat lunak (bahkan untuk mendapatkan keuntungan). Yang terakhir mengacu pada pembagian kode sumber secara terbuka, mendorong publik untuk berkontribusi dan memperbaikinya.
+[FOSS](https://planb.academy/resources/glossary/foss) adalah singkatan dari Perangkat Lunak Bebas & Sumber Terbuka. Yang pertama mengacu pada istilah yang mengizinkan siapa saja untuk menyalin, memodifikasi, dan bahkan mendistribusikan versi perangkat lunak (bahkan untuk mendapatkan keuntungan). Yang terakhir mengacu pada pembagian kode sumber secara terbuka, mendorong publik untuk berkontribusi dan memperbaikinya.
 
 Hal ini menarik pengguna berpengalaman yang antusias untuk berkontribusi pada perangkat lunak yang telah mereka gunakan dan mendapatkan nilai dari perangkat lunak tersebut, yang pada akhirnya terbukti lebih berhasil dalam pengadopsiannya daripada perangkat lunak berpemilik. Hal ini sesuai dengan etos Bitcoin bahwa "informasi ingin bebas." FOSS menyatukan orang-orang yang bersemangat yang membentuk sebuah komunitas dan lebih menyenangkan. Seperti Bitcoin, FOSS tidak bisa dihindari.
 
@@ -122,13 +122,13 @@ BTCPay Server Foundation, yang memungkinkan Alekos dan Bas menulis kursus ini, b
 Ini adalah latihan di kelas, jadi jika Anda mengambil kursus ini sendiri, Anda tidak dapat melakukannya, tetapi Anda masih dapat mengerjakan latihan ini. Untuk menyelesaikan tugas ini, diperlukan minimal 9 hingga 11 orang.
 
 
-Latihan dimulai setelah menonton pengantar "Cara kerja Bitcoin dan Blockchain" oleh BBC.
+Latihan dimulai setelah menonton pengantar "Cara kerja Bitcoin dan [Blockchain](https://planb.academy/resources/glossary/blockchain)" oleh BBC.
 
 
 :::video id=c20b6df7-0c3a-4785-94b9-42ef59093acc:::
 
 
-Latihan ini membutuhkan minimal sembilan peserta. Latihan ini bertujuan untuk memberikan pemahaman fisik tentang cara kerja Bitcoin. Dengan memainkan setiap peran dalam jaringan, Anda akan mendapatkan cara belajar yang interaktif dan menyenangkan. Latihan ini tidak melibatkan Lightning Network.
+Latihan ini membutuhkan minimal sembilan peserta. Latihan ini bertujuan untuk memberikan pemahaman fisik tentang cara kerja Bitcoin. Dengan memainkan setiap peran dalam jaringan, Anda akan mendapatkan cara belajar yang interaktif dan menyenangkan. Latihan ini tidak melibatkan [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
 
 ### Contoh: Membutuhkan 9 / 11 orang
@@ -140,7 +140,7 @@ Perannya adalah:
 
 - 1 Pelanggan
 - 1 Pedagang
-- 7 hingga 9 node Bitcoin
+- 7 hingga 9 [node](https://planb.academy/resources/glossary/node) Bitcoin
 
 
 **Pengaturannya adalah sebagai berikut:**
@@ -181,7 +181,7 @@ Pelanggan membeli produk dari toko dengan Bitcoin.
 - Masing-masing dari 9 Komputer memiliki catatan historis lengkap tentang semua transaksi masa lalu yang pernah dilakukan (sehingga saldo yang akurat tanpa pemalsuan), serta seperangkat aturan:
   - Verifikasi transaksi telah ditandatangani dengan benar (thekeyfitsthelock)
   - Menyiarkan dan menerima transaksi yang valid ke rekan-rekan dalam jaringan, membuang transaksi yang tidak valid (termasuk transaksi yang mencoba membelanjakan dana yang sama dua kali)
-- Perbarui/Tambahkan catatan secara berkala dengan transaksi baru yang diterima dari komputer "acak" asalkan semua isinya valid (catatan: untuk saat ini, kami mengabaikan komponen Proof of Work untuk semua ini, untuk mempermudah), jika tidak, tolak dan lanjutkan seperti sebelumnya sampai komputer "acak" berikutnya mengirimkan pembaruan
+- Perbarui/Tambahkan catatan secara berkala dengan transaksi baru yang diterima dari komputer "acak" asalkan semua isinya valid (catatan: untuk saat ini, kami mengabaikan komponen [Proof of Work](https://planb.academy/resources/glossary/proof-of-work) untuk semua ini, untuk mempermudah), jika tidak, tolak dan lanjutkan seperti sebelumnya sampai komputer "acak" berikutnya mengirimkan pembaruan
   - Jumlah yang tepat diberikan jika isinya valid.
 - Peragakan urutan kejadian:
   - Pelanggan- menjelajahi toko secara online dan menemukan barang seharga $25 yang mereka inginkan, dan memberi tahu Penjual bahwa mereka ingin membeli
@@ -192,7 +192,7 @@ Pelanggan membeli produk dari toko dengan Bitcoin.
   - Transaksi ditandatangani dengan benar ("dibuka" oleh pelanggan)
   - Jika tidak demikian, maka transaksi tidak akan disebarkan melalui jaringan, dan jika demikian, maka transaksi akan disebarkan dan ditahan.
   - Pedagang dapat memeriksa apakah transaksi sedang tertunda dan menunggu.
-- Satu komputer dipilih secara "acak" untuk mengusulkan penyelesaian transaksi yang diusulkan dengan menyiarkan "blok" yang berisi transaksi tersebut; jika disetujui, mereka akan menerima hadiah BTC.
+- Satu komputer dipilih secara "acak" untuk mengusulkan penyelesaian transaksi yang diusulkan dengan menyiarkan "[blok](https://planb.academy/resources/glossary/block)" yang berisi transaksi tersebut; jika disetujui, mereka akan menerima hadiah BTC.
   - PILIHAN/ LANJUTAN - alih-alih memilih Komputer secara acak, simulasikan Mining dengan meminta Komputer melempar dadu hingga beberapa hasil yang telah ditentukan sebelumnya muncul (misalnya, yang pertama melempar angka enam ganda yang dipilih)
   - Ini juga dapat menggambarkan apa yang akan terjadi jika dua Komputer menang secara bersamaan, yang mengakibatkan perpecahan rantai.
   - Komputer memeriksa validitas, memperbarui/menambahkan catatan ke buku besar mereka jika aturan terpenuhi, dan menyiarkan blok transaksi ke rekan-rekannya.
@@ -234,15 +234,15 @@ Definisikan istilah-istilah kunci berikut yang diperkenalkan di bagian sebelumny
 
 
 - Node
-- Mempool
-- Target Kesulitan
+- [Mempool](https://planb.academy/resources/glossary/mempool)
+- Target [Kesulitan](https://planb.academy/resources/glossary/difficulty)
 - Blokir
 
 
 **Diskusikan arti dari beberapa istilah tambahan sebagai sebuah kelompok:**
 
 
-Blockchain, Transaksi, Pengeluaran Ganda, Masalah Jenderal Bizantium, Mining, Proof of Work (PoW), Fungsi Hash, Block reward, Blockchain, Rantai Terpanjang, Serangan 51%, Keluaran, Kunci Keluaran, Perubahan, Satoshi, Kunci Publik/Privat, Address, Kriptografi Kunci Publik, Tanda Tangan Digital, Wallet
+Blockchain, Transaksi, Pengeluaran Ganda, Masalah Jenderal Bizantium, Mining, Proof of Work (PoW), [Fungsi Hash](https://planb.academy/resources/glossary/hash-function), Block reward, Blockchain, Rantai Terpanjang, Serangan 51%, Keluaran, Kunci Keluaran, Perubahan, [Satoshi](https://planb.academy/resources/glossary/satoshi-sat), [Kunci Publik](https://planb.academy/resources/glossary/public-key)/Privat, Address, [Kriptografi](https://planb.academy/resources/glossary/cryptography) Kunci Publik, [Tanda Tangan Digital](https://planb.academy/resources/glossary/digital-signature), Wallet
 
 
 # Memperkenalkan Server BTCPay
@@ -573,7 +573,7 @@ Di bagian ini, Anda sudah belajar:
 ### Apa saja yang terlibat dalam pembuatan kunci Bitcoin?
 
 
-Dompet Bitcoin, ketika dibuat, menciptakan apa yang disebut "seed". Pada tujuan terakhir, Anda membuat "seed", Rangkaian kata yang dibuat sebelumnya juga dikenal sebagai frasa Mnemonic. seed digunakan untuk mendapatkan Kunci Bitcoin individual dan digunakan untuk mengirim atau menerima Bitcoin. Frasa seed tidak boleh dibagikan dengan pihak ketiga atau rekan yang tidak dipercaya.
+Dompet Bitcoin, ketika dibuat, menciptakan apa yang disebut "[seed](https://planb.academy/resources/glossary/seed)". Pada tujuan terakhir, Anda membuat "seed", Rangkaian kata yang dibuat sebelumnya juga dikenal sebagai frasa Mnemonic. seed digunakan untuk mendapatkan Kunci Bitcoin individual dan digunakan untuk mengirim atau menerima Bitcoin. Frasa seed tidak boleh dibagikan dengan pihak ketiga atau rekan yang tidak dipercaya.
 
 
 Generasi seed dilakukan sesuai dengan standar industri yang dikenal sebagai kerangka kerja "Hierarchical Deterministic" (HD).
@@ -596,11 +596,11 @@ Sebuah Address didapatkan dari kunci Publik melalui sebuah "algoritma hashing" A
 
 
 
-- Alamat yang dimulai dengan `bc1... ` secara perlahan bergerak ke alamat yang sangat umum. Alamat ini dikenal sebagai Alamat SegWit (asli). Alamat ini menawarkan struktur biaya yang lebih baik daripada Alamat yang disebutkan sebelumnya. Alamat SegWit asli menggunakan pengkodean Bech32 dan hanya mengizinkan huruf kecil.
+- Alamat yang dimulai dengan `bc1... ` secara perlahan bergerak ke alamat yang sangat umum. Alamat ini dikenal sebagai Alamat [SegWit](https://planb.academy/resources/glossary/segwit) (asli). Alamat ini menawarkan struktur biaya yang lebih baik daripada Alamat yang disebutkan sebelumnya. Alamat SegWit asli menggunakan pengkodean Bech32 dan hanya mengizinkan huruf kecil.
 
 
 
-- Alamat yang dimulai dengan `3...` biasanya masih digunakan oleh bursa untuk alamat penyimpanan. Alamat-alamat ini disebutkan dalam bab "Membuat toko baru," alamat SegWit yang dibungkus atau bersarang. Namun, alamat-alamat ini juga dapat berfungsi sebagai "Multisig Address". Ketika digunakan sebagai SegWit Address, ada beberapa penghematan biaya transaksi, sekali lagi, lebih sedikit dibandingkan dengan SegWit asli. Alamat P2SH menggunakan pengodean Base58. Hal ini membuatnya menjadi case Sensitive, seperti Address yang lama.
+- Alamat yang dimulai dengan `3...` biasanya masih digunakan oleh bursa untuk alamat penyimpanan. Alamat-alamat ini disebutkan dalam bab "Membuat toko baru," alamat SegWit yang dibungkus atau bersarang. Namun, alamat-alamat ini juga dapat berfungsi sebagai "Multisig Address". Ketika digunakan sebagai SegWit Address, ada beberapa penghematan [biaya transaksi](https://planb.academy/resources/glossary/transaction-fees), sekali lagi, lebih sedikit dibandingkan dengan SegWit asli. Alamat P2SH menggunakan pengodean Base58. Hal ini membuatnya menjadi case Sensitive, seperti Address yang lama.
 
 
 
@@ -618,7 +618,7 @@ Kunci publik sudah jarang digunakan dalam praktiknya saat ini. Seiring berjalann
 
 
 
-- Akan tetapi, dompet HD menggunakan struktur yang berbeda. `xpub... `, `ypub... ` atau `zpub... ` disebut sebagai kunci publik yang diperluas, atau xpub. Kunci-kunci ini digunakan untuk mendapatkan banyak kunci publik sebagai bagian dari HD Wallet. Karena xpub Anda menyimpan catatan seluruh riwayat Anda, yang berarti transaksi di masa lalu dan masa depan, jangan pernah membagikannya kepada pihak yang tidak dipercaya.
+- Akan tetapi, dompet HD menggunakan struktur yang berbeda. `xpub... `, `ypub... ` atau `zpub... ` disebut sebagai kunci publik yang diperluas, atau [xpub](https://planb.academy/resources/glossary/xpub). Kunci-kunci ini digunakan untuk mendapatkan banyak kunci publik sebagai bagian dari HD Wallet. Karena xpub Anda menyimpan catatan seluruh riwayat Anda, yang berarti transaksi di masa lalu dan masa depan, jangan pernah membagikannya kepada pihak yang tidak dipercaya.
 
 
 ### Ringkasan Keterampilan
@@ -655,7 +655,7 @@ Jaga agar frasa pemulihan Anda tetap aman. Jika diakses oleh seseorang, khususny
 ### Penyimpanan kunci Hot dan Cold untuk kunci Bitcoin
 
 
-Biasanya, dompet Bitcoin didenominasi dalam Hot Wallet atau Cold Wallet. Sebagian besar trade-off terletak pada kenyamanan, kemudahan penggunaan, dan risiko keamanan. Masing-masing metode ini juga dapat dilihat dalam solusi kustodian. Namun, pertukaran di sini sebagian besar berbasis keamanan dan privasi dan melampaui cakupan kursus ini.
+Biasanya, dompet Bitcoin didenominasi dalam Hot Wallet atau [Cold Wallet](https://planb.academy/resources/glossary/cold-wallet). Sebagian besar trade-off terletak pada kenyamanan, kemudahan penggunaan, dan risiko keamanan. Masing-masing metode ini juga dapat dilihat dalam solusi kustodian. Namun, pertukaran di sini sebagian besar berbasis keamanan dan privasi dan melampaui cakupan kursus ini.
 
 
 ### Hot Wallet
@@ -667,10 +667,10 @@ Dompet Hot adalah cara yang paling nyaman untuk berinteraksi dengan Bitcoin mela
 ### Cold Wallet
 
 
-Individu memindahkan Bitcoin mereka ke dalam Cold Wallet karena dapat mengisolasi kunci privat dari internet, sehingga melindungi mereka dari potensi ancaman online. Menghapus koneksi internet dari persamaan akan mengurangi risiko malware, spyware, dan pertukaran SIM. Penyimpanan Cold diyakini lebih unggul daripada penyimpanan Hot untuk keamanan dan otonomi, asalkan tindakan pencegahan yang memadai diambil untuk mencegah kehilangan kunci pribadi Bitcoin. Penyimpanan Cold paling cocok untuk Bitcoin dalam jumlah besar, yang tidak dimaksudkan untuk sering digunakan karena kerumitan pengaturan Wallet.
+Individu memindahkan Bitcoin mereka ke dalam Cold Wallet karena dapat mengisolasi kunci privat dari internet, sehingga melindungi mereka dari potensi ancaman online. Menghapus koneksi internet dari persamaan akan mengurangi risiko malware, spyware, dan pertukaran SIM. Penyimpanan Cold diyakini lebih unggul daripada penyimpanan Hot untuk keamanan dan otonomi, asalkan tindakan pencegahan yang memadai diambil untuk mencegah kehilangan [kunci pribadi](https://planb.academy/resources/glossary/private-key) Bitcoin. Penyimpanan Cold paling cocok untuk Bitcoin dalam jumlah besar, yang tidak dimaksudkan untuk sering digunakan karena kerumitan pengaturan Wallet.
 
 
-Ada berbagai metode untuk menyimpan kunci Bitcoin dalam penyimpanan Cold, mulai dari dompet kertas hingga dompet otak, dompet perangkat keras, atau, dari awal, file Wallet. Kebanyakan dompet menggunakan BIP 39 hingga generate frasa seed. Namun, dalam perangkat lunak Bitcoin core, belum ada konsensus mengenai penggunaannya. Perangkat lunak Bitcoin core masih akan generate file Wallet.dat, yang perlu Anda simpan di lokasi offline yang aman.
+Ada berbagai metode untuk menyimpan kunci Bitcoin dalam penyimpanan Cold, mulai dari dompet kertas hingga dompet otak, dompet perangkat keras, atau, dari awal, file Wallet. Kebanyakan dompet menggunakan [BIP](https://planb.academy/resources/glossary/bip) 39 hingga generate frasa seed. Namun, dalam perangkat lunak Bitcoin core, belum ada konsensus mengenai penggunaannya. Perangkat lunak Bitcoin core masih akan generate file Wallet.dat, yang perlu Anda simpan di lokasi offline yang aman.
 
 
 ### Ringkasan Keterampilan
@@ -717,14 +717,14 @@ BTCPay Server terdiri dari fitur-fitur standar Wallet berikut ini:
 - Pindai ulang
 - Tarik Pembayaran
 - Pembayaran
-- PSBT
+- [PSBT](https://planb.academy/resources/glossary/psbt)
 - Pengaturan umum
 
 
 ### Transaksi
 
 
-Administrator dapat melihat transaksi masuk dan keluar untuk On-Chain Wallet yang terhubung ke toko khusus ini dalam tampilan transaksi. Setiap transaksi memiliki perbedaan antara jumlah yang diterima dan jumlah yang dikirim. Transaksi yang diterima akan berwarna Green, dan transaksi yang dikirim akan berwarna merah. Dalam tampilan transaksi BTCPay Server, administrator juga akan melihat serangkaian label standar.
+Administrator dapat melihat transaksi masuk dan keluar untuk On-Chain Wallet yang terhubung ke toko khusus ini dalam tampilan transaksi. Setiap transaksi memiliki perbedaan antara jumlah yang diterima dan jumlah yang dikirim. Transaksi yang diterima akan berwarna Green, dan transaksi yang dikirim akan berwarna merah. Dalam tampilan transaksi BTCPay Server, administrator juga akan melihat serangkaian [label](https://planb.academy/resources/glossary/label) standar.
 
 
 
@@ -732,8 +732,8 @@ Administrator dapat melihat transaksi masuk dan keluar untuk On-Chain Wallet yan
 | ---------------- | ------------------------------------------------- |
 | Aplikasi         | Pembayaran diterima melalui faktur yang dibuat oleh aplikasi |
 | Faktur           | Pembayaran diterima melalui faktur                |
-| Payjoin          | Belum dibayar, pengatur waktu faktur belum kedaluwarsa |
-| Payjoin-terekspos | UTXO terekspos melalui proposal payjoin pada faktur |
+| [Payjoin](https://planb.academy/resources/glossary/payjoin)          | Belum dibayar, pengatur waktu faktur belum kedaluwarsa |
+| Payjoin-terekspos | [UTXO](https://planb.academy/resources/glossary/utxo) terekspos melalui proposal payjoin pada faktur |
 | Permintaan pembayaran | Pembayaran diterima melalui permintaan pembayaran |
 | Pembayaran       | Pembayaran dikirim melalui pembayaran atau pengembalian dana |
 
@@ -1131,7 +1131,7 @@ Dalam opsi Lightning Wallet di bilah menu sebelah kiri, administrator server aka
 #### Info simpul internal
 
 
-Administrator server dapat mengklik info node internal untuk melihat status server mereka (Online/Offline) dan string koneksi untuk Clearnet atau Tor.
+Administrator server dapat mengklik info node internal untuk melihat status server mereka (Online/Offline) dan string koneksi untuk Clearnet atau [Tor](https://planb.academy/resources/glossary/tor).
 
 
 ![image](assets/en/033.webp)

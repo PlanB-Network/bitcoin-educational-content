@@ -5,5 +5,5 @@ wrong_answers:
   - Trọng tài
   - Tin tặc
 explanation: |
-  Chiến lược trung bình giá cho phép mua Bitcoin thường xuyên để làm phẳng giá mua trung bình theo thời gian. Người nắm giữ có thể kết hợp điều này với việc mua một lần thỉnh thoảng.
-reviewed: false
+  Chiến lược bình quân giá theo thời gian (Dollar-Cost Averaging) cho phép mua Bitcoin đều đặn để làm giảm sự biến động của giá mua trung bình theo thời gian. Người nắm giữ Bitcoin có thể kết hợp điều này với những lần mua một khoản tiền lớn không thường xuyên.
+reviewed: true

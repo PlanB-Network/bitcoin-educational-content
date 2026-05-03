@@ -191,7 +191,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 
-암호화폐와 권력의 관계에 대한 질문은 Bitcoin의 역사에서 상당히 빠르게 등장했습니다. 2010년 12월, 위키리크스가 Bitcoin을 사용하도록 권장하는 PC World의 기사가 게재된 후 Satoshi Nakamoto은 대중의 시야에서 사라졌습니다. 그의 직감을 확인이라도 하듯 이 기사는 불과 몇 달 만에 가격이 0.20달러에서 32달러로 급등한 Bitcoin에 대한 엄청난 관심을 불러일으켰습니다. Satoshi는 가장 가까운 공동 작업자들과 비공개로 계속 소통하다가 결국 2011년 봄에 사라졌습니다. 프로젝트를 맡았던 개발자인 개빈 안드레센이 마지막으로 남긴 메시지는 Bitcoin의 제작자가 CIA가 관리하는 투자 펀드인 In-Q-Tel에서 연락을 받았다는 사실을 알려주었다는 상징적인 내용이었습니다. 판도라의 상자가 열린 것이나 다름없었습니다.
+[암호화폐](https://planb.academy/resources/glossary/cryptocurrency)와 권력의 관계에 대한 질문은 Bitcoin의 역사에서 상당히 빠르게 등장했습니다. 2010년 12월, 위키리크스가 Bitcoin을 사용하도록 권장하는 PC World의 기사가 게재된 후 Satoshi Nakamoto은 대중의 시야에서 사라졌습니다. 그의 직감을 확인이라도 하듯 이 기사는 불과 몇 달 만에 가격이 0.20달러에서 32달러로 급등한 Bitcoin에 대한 엄청난 관심을 불러일으켰습니다. Satoshi는 가장 가까운 공동 작업자들과 비공개로 계속 소통하다가 결국 2011년 봄에 사라졌습니다. 프로젝트를 맡았던 개발자인 개빈 안드레센이 마지막으로 남긴 메시지는 Bitcoin의 제작자가 CIA가 관리하는 투자 펀드인 In-Q-Tel에서 연락을 받았다는 사실을 알려주었다는 상징적인 내용이었습니다. 판도라의 상자가 열린 것이나 다름없었습니다.
 
 
 
@@ -250,7 +250,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 > "이제 제 목표가 바뀌었습니다. 저는 경제 이론을 인류의 강압과 침략을 폐지하기 위한 수단으로 사용하고 싶습니다. 노예제도가 대부분의 지역에서 폐지된 것처럼, 한 사람이 다른 사람에 대해 가하는 폭력, 강압 및 모든 형태의 무력도 종식될 수 있다고 믿습니다. 가장 광범위하고 조직적인 무력 사용은 기관과 정부에서 이루어지고 있기 때문에 현재 제가 가장 중점을 두고 있는 부분입니다. 그러나 정부를 변화시키는 가장 좋은 방법은 피지배자의 마음을 바꾸는 것입니다. 이를 위해 저는 사람들이 체계적인 무력 사용 없는 세상에서 사는 것이 어떤 것인지 직접 경험할 수 있도록 경제 시뮬레이션을 만들고 있습니다."
 
-이 아이디어는 사실 새로운 것이 아니었습니다. 단순한 아고리스트적 접근 방식이 아니라, 팀 메이의 [*사이퍼노미콘*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt)에서 볼 수 있는 것처럼 사이퍼펑크가 경제적 자유를 행사하기 위해 '암시장'을 의도적으로 이용했다는 것을 보여주는 예시이기도 합니다.
+이 아이디어는 사실 새로운 것이 아니었습니다. 단순한 아고리스트적 접근 방식이 아니라, 팀 메이의 [*사이퍼노미콘*](https://ia801307.us.archive.org/7/items/cyphernomicon/cyphernomicon.txt)에서 볼 수 있는 것처럼 [사이퍼펑크](https://planb.academy/resources/glossary/cypherpunks)가 경제적 자유를 행사하기 위해 '암시장'을 의도적으로 이용했다는 것을 보여주는 예시이기도 합니다.
 
 
 
@@ -387,7 +387,7 @@ Ross의 자유주의 철학에 따라 사이트에 등록할 수 있는 제품�
 
 
 
-특히 당시 소프트웨어 개발에 참여했던 프로그래머 제프 가직은 이 반갑지 않은 연관성에 대해 곱지 않은 시선을 보냈습니다. 기사가 게재된 후 그는 개인적으로 [연락](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)을 취했습니다 이메일을 보내 Bitcoin이 생각만큼 익명성이 보장되지 않고 모든 거래가 블록체인에 영구적으로 기록된다는 점을 설명했습니다. 그는 이런 평가로 이메일을 마무리했습니다:
+특히 당시 소프트웨어 개발에 참여했던 프로그래머 제프 가직은 이 반갑지 않은 연관성에 대해 곱지 않은 시선을 보냈습니다. 기사가 게재된 후 그는 개인적으로 [연락](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)을 취했습니다 이메일을 보내 Bitcoin이 생각만큼 익명성이 보장되지 않고 모든 거래가 [블록체인](https://planb.academy/resources/glossary/blockchain)에 영구적으로 기록된다는 점을 설명했습니다. 그는 이런 평가로 이메일을 마무리했습니다:
 
 
 > "법 집행 기관이 현장에 배치한 기존 통계 분석 기술을 고려할 때 비트코인으로 주요 불법 거래를 시도하는 것은 매우 어리석은 일입니다."
@@ -1387,7 +1387,7 @@ Paymium SAS는 2011년 6월에 곤자그 그랑발, 피에르 누이자(포럼�
 
 
 
-또한 Bitcoin 프로토콜을 다시 작성하기에 좋은 시기이기도 했습니다. 당시 "Bitcoin"이라고 간단히 불렸던 메인 소프트웨어는 전체 블록체인을 유지 관리하고 새로운 트랜잭션과 블록을 릴레이해야 한다는 점에서 완전한 구현이었습니다. 하지만 현존하는 유일한 소프트웨어였기 때문에 전체 네트워크가 이 소프트웨어에만 의존해 작동했습니다. 따라서 Bitcoin의 대체 구현을 개발하고자 하는 욕구가 생겼습니다.
+또한 Bitcoin 프로토콜을 다시 작성하기에 좋은 시기이기도 했습니다. 당시 "Bitcoin"이라고 간단히 불렸던 메인 소프트웨어는 전체 [블록](https://planb.academy/resources/glossary/block)체인을 유지 관리하고 새로운 트랜잭션과 블록을 릴레이해야 한다는 점에서 완전한 구현이었습니다. 하지만 현존하는 유일한 소프트웨어였기 때문에 전체 네트워크가 이 소프트웨어에만 의존해 작동했습니다. 따라서 Bitcoin의 대체 구현을 개발하고자 하는 욕구가 생겼습니다.
 
 
 
@@ -1400,7 +1400,7 @@ Satoshi Nakamoto은 본질적으로 mining의 운영을 손상시키지 않기 �
 
 
 
-마이크 헌이 구현한 소프트웨어는 비트코인J입니다. 이는 백서에 설명된 대로 간편 결제 인증(SPV)을 구현한 것으로, 주로 씬 클라이언트, 특히 안드로이드 운영 체제를 사용하는 휴대폰과 상호 작용합니다. Mike는 2010년 말 [https://plan99.net/~mike/satoshi-emails/thread3.html]에서 이 프로젝트를 개발하여 2011년 3월 7일에 첫 번째 버전을 [게시](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438)했습니다. 그는 Google에서 엔지니어로 일하고 있었기 때문에 코드는 다국적 기업에 귀속되어야 했지만 라이선스(Apache 2)는 공개되어 있었습니다.
+마이크 헌이 구현한 소프트웨어는 비트코인J입니다. 이는 [백서](https://planb.academy/resources/glossary/white-paper)에 설명된 대로 간편 결제 인증(SPV)을 구현한 것으로, 주로 씬 클라이언트, 특히 안드로이드 운영 체제를 사용하는 휴대폰과 상호 작용합니다. Mike는 2010년 말 [https://plan99.net/~mike/satoshi-emails/thread3.html]에서 이 프로젝트를 개발하여 2011년 3월 7일에 첫 번째 버전을 [게시](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438)했습니다. 그는 Google에서 엔지니어로 일하고 있었기 때문에 코드는 다국적 기업에 귀속되어야 했지만 라이선스(Apache 2)는 공개되어 있었습니다.
 
 
 
@@ -1428,7 +1428,7 @@ Bitcoin 프로토콜의 재작성은 여기서 멈추지 않았습니다. 2011�
 
 
 
-첫 번째 아이디어는 사용자가 완전히 신뢰할 수 있는 노드를 원격 서버로 사용하는 것이었습니다. 2011년 2월, 아미르 타키는 Spesmilo라는 기존 노드에 연결하여 wallet을 로컬에서 관리할 수 있는 소프트웨어 클라이언트[를 출시했습니다](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538). 이 클라이언트는 처음에는 Linux에서 실행되었지만 곧 Windows로 포팅되었습니다. 이 이름은 1907년 스위스 수학자 르네 드 소쉬르(언어학자 페르디난드의 형제)가 에스페란토 프로젝트의 일환으로 제안한 고대 국제 화폐 단위인 스페스밀로를 참조한 것입니다.
+첫 번째 아이디어는 사용자가 완전히 신뢰할 수 있는 [노드](https://planb.academy/resources/glossary/node)를 원격 서버로 사용하는 것이었습니다. 2011년 2월, 아미르 타키는 Spesmilo라는 기존 노드에 연결하여 wallet을 로컬에서 관리할 수 있는 소프트웨어 클라이언트[를 출시했습니다](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538). 이 클라이언트는 처음에는 Linux에서 실행되었지만 곧 Windows로 포팅되었습니다. 이 이름은 1907년 스위스 수학자 르네 드 소쉬르(언어학자 페르디난드의 형제)가 에스페란토 프로젝트의 일환으로 제안한 고대 국제 화폐 단위인 스페스밀로를 참조한 것입니다.
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell는 Bitcoin의 사용을 개선하는 방법에 대한 많은 아
 
 > "Bitcoin는 결정론적 wallet을 기본적으로 사용하도록 제공해야 합니다.   대부분의 사람들이 비트코인을 사용하는 방식과 불충분한 백업으로 인한 피해의 책임, 단일 wallet을 온라인 상태로 유지해야 하는 부담 증가를 고려하면 현재 generated 이전 버전의 추가 보안은 상당히 미미합니다."
 
-두 가지 유형의 파생이 예상되었습니다. 한 가지 유형(유형 1)은 seed에서 직접 개인 키를 생성하는 간단한 방식이었습니다. 다른 유형(유형 2)은 더 복잡하지만 seed 자체에 액세스하지 않고도 seed에서 얻은 마스터 공개 키에서 주소를 파생할 수 있었습니다. 이를 통해 결제 처리 소프트웨어는 개인 키를 노출하지 않고도 각 거래에 대한 주소를 generate에 제공할 수 있었습니다.
+두 가지 유형의 파생이 예상되었습니다. 한 가지 유형(유형 1)은 seed에서 직접 개인 키를 생성하는 간단한 방식이었습니다. 다른 유형(유형 2)은 더 복잡하지만 seed 자체에 액세스하지 않고도 seed에서 얻은 마스터 [공개 키](https://planb.academy/resources/glossary/public-key)에서 주소를 파생할 수 있었습니다. 이를 통해 결제 처리 소프트웨어는 개인 키를 노출하지 않고도 각 거래에 대한 주소를 generate에 제공할 수 있었습니다.
 
 
 
-이후 2012년 2월, BIP 32의 [공개](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)를 통해 표준화가 이루어졌습니다. 여기에는 Wallet 키와 주소를 도출하기 위해 체계적으로 파생물을 사용하는 *계층적 결정론적 Wallet*, HD seed의 일반적인 구조가 설명되어 있습니다. 이 방식은 수년에 걸쳐 대부분의 wallet에 점진적으로 채택되었습니다.
+이후 2012년 2월, [BIP](https://planb.academy/resources/glossary/bip) 32의 [공개](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)를 통해 표준화가 이루어졌습니다. 여기에는 Wallet 키와 주소를 도출하기 위해 체계적으로 파생물을 사용하는 *계층적 결정론적 Wallet*, HD seed의 일반적인 구조가 설명되어 있습니다. 이 방식은 수년에 걸쳐 대부분의 wallet에 점진적으로 채택되었습니다.
 
 
 
@@ -1700,7 +1700,7 @@ USB 스틱과 같은 디지털 백업 매체에 개인 키를 저장하여 Cold�
 
 
 
-마이크 콜드웰은 미국 유타주 솔트레이크시티 교외에 거주하는 33세의 미국 개발자로, [Swipeclock](https://www.linkedin.com/company/swipeclock/)이라는 비즈니스 자동화 회사를 운영했습니다. 그의 필명 카사시우스는 '스페이드를 스페이드라고 부르라'는 속담의 이니셜인 CASAS의 라틴어식 표현입니다. 합리주의자였던 그는 암호학에 매료되었고 Bitcoin의 기술적 측면에 매료되었습니다. 그는 한동안 mining에 손을 댔습니다.
+마이크 콜드웰은 미국 유타주 솔트레이크시티 교외에 거주하는 33세의 미국 개발자로, [Swipeclock](https://www.linkedin.com/company/swipeclock/)이라는 비즈니스 자동화 회사를 운영했습니다. 그의 필명 카사시우스는 '스페이드를 스페이드라고 부르라'는 속담의 이니셜인 CASAS의 라틴어식 표현입니다. 합리주의자였던 그는 [암호학](https://planb.academy/resources/glossary/cryptography)에 매료되었고 Bitcoin의 기술적 측면에 매료되었습니다. 그는 한동안 mining에 손을 댔습니다.
 
 
 
@@ -1757,7 +1757,7 @@ USB 스틱과 같은 디지털 백업 매체에 개인 키를 저장하여 Cold�
 
 
 
-첫 번째는 BitLaundry입니다. 이 서비스는 슬래시닷팅 당시 Bitcoin의 존재를 발견한 암호학을 전공한 미국인 기업가 피터 베센스가 2010년 9월에 [출시](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)한 서비스입니다. 블렌더는 사용자에게 일회용 주소(https://maltemoeser.de/paper/money-laundering.pdf#page=5)를 제공했고, 이 주소로 익명화할 자금을 보냈습니다. 그런 다음 비트코인은 다른 사용자의 비트코인을 포함하는 다중 입력 거래 내에서 여러 개의 코인(UTXO) 형태로 다시 전송되어 블렌딩이 효과적으로 이루어졌습니다. 수수료는 거래 금액의 2.5% 정도였습니다. 2011년 5월, 이 활동으로 인해 발생할 수 있는 법적 문제를 감지한 피터 베센스는 미국 시민권을 보유하지 않고 무국적자로 유명한 활동가 마이크 고굴스키에게 서비스를 [양도](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)했습니다.
+첫 번째는 BitLaundry입니다. 이 서비스는 슬래시닷팅 당시 Bitcoin의 존재를 발견한 암호학을 전공한 미국인 기업가 피터 베센스가 2010년 9월에 [출시](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)한 서비스입니다. 블렌더는 사용자에게 일회용 주소(https://maltemoeser.de/paper/money-laundering.pdf#page=5)를 제공했고, 이 주소로 익명화할 자금을 보냈습니다. 그런 다음 비트코인은 다른 사용자의 비트코인을 포함하는 다중 입력 거래 내에서 여러 개의 코인([UTXO](https://planb.academy/resources/glossary/utxo)) 형태로 다시 전송되어 블렌딩이 효과적으로 이루어졌습니다. 수수료는 거래 금액의 2.5% 정도였습니다. 2011년 5월, 이 활동으로 인해 발생할 수 있는 법적 문제를 감지한 피터 베센스는 미국 시민권을 보유하지 않고 무국적자로 유명한 활동가 마이크 고굴스키에게 서비스를 [양도](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)했습니다.
 
 
 
@@ -1777,7 +1777,7 @@ USB 스틱과 같은 디지털 백업 매체에 개인 키를 저장하여 Cold�
 
 
 
-중앙화된 믹서의 확산은 탈중앙화 코인 믹싱에 대한 생각을 촉발하는 효과를 가져왔으며, 이는 2011년 여름 Hash코인에서 제안한 [제안](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)으로 시작되었습니다. 이는 2013년 Gregory Maxwell에 의해 CoinJoin의 [공식화](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)로 이어졌습니다. 하지만 이는 또 다른 이야기입니다...
+중앙화된 믹서의 확산은 탈중앙화 코인 믹싱에 대한 생각을 촉발하는 효과를 가져왔으며, 이는 2011년 여름 Hash코인에서 제안한 [제안](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)으로 시작되었습니다. 이는 2013년 Gregory Maxwell에 의해 [CoinJoin](https://planb.academy/resources/glossary/coinjoin)의 [공식화](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)로 이어졌습니다. 하지만 이는 또 다른 이야기입니다...
 
 
 
@@ -1808,7 +1808,7 @@ USB 스틱과 같은 디지털 백업 매체에 개인 키를 저장하여 Cold�
 
 
 
-2010년 가을, 채굴자들이 처음 유입되면서 CPU(중앙처리장치) mining보다 수익성이 훨씬 높은 GPU(그래픽 처리장치) mining이 널리 사용되기 시작했습니다. 그러나 이러한 기술 발전으로 인해 네트워크의 난이도가 높아져 소규모 채굴자들은 더 이상 합리적인 시간 내에 블록을 찾기를 기대할 수 없게 되었습니다. 이로 인해 BitcoinCZ Mining, 슬러시 풀과 같은 채굴자 그룹이 탄생하게 되었습니다. 2011년 가격이 상승하면서 채굴자들의 유입이 계속되었고, mining 풀은 빠르게 정상화되었습니다.
+2010년 가을, 채굴자들이 처음 유입되면서 CPU(중앙처리장치) mining보다 수익성이 훨씬 높은 GPU(그래픽 처리장치) mining이 널리 사용되기 시작했습니다. 그러나 이러한 기술 발전으로 인해 네트워크의 [난이도](https://planb.academy/resources/glossary/difficulty)가 높아져 소규모 채굴자들은 더 이상 합리적인 시간 내에 블록을 찾기를 기대할 수 없게 되었습니다. 이로 인해 BitcoinCZ Mining, 슬러시 풀과 같은 채굴자 그룹이 탄생하게 되었습니다. 2011년 가격이 상승하면서 채굴자들의 유입이 계속되었고, mining 풀은 빠르게 정상화되었습니다.
 
 
 
@@ -1920,7 +1920,7 @@ Luke는 처음에 비례 지급 모델을 채택했습니다. 하지만 풀 호�
 
 
 
-엘리기우스는 또한 채굴된 블록의 보상 거래 입력 필드에 풀 이름(여기서는 '엘리기우스')을 작성하는 "코인베이스 서명"을 통해 혁신을 이루었습니다. 풀의 운영을 더욱 투명하게 만드는 이 방식은 MPPS 모델로 전환한 당일인 6월 13~14일 밤에 블록 [130635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52)를 통해 시작되었습니다. 이는 2009년 1월 제네시스 블록에 Satoshi Nakamoto에 포함된 *Times*의 상징적인 인용문에 이어 두 번째로 이러한 방식으로 만들어진 항목입니다.
+엘리기우스는 또한 채굴된 블록의 보상 거래 입력 필드에 풀 이름(여기서는 '엘리기우스')을 작성하는 "코인베이스 서명"을 통해 혁신을 이루었습니다. 풀의 운영을 더욱 투명하게 만드는 이 방식은 MPPS 모델로 전환한 당일인 6월 13~14일 밤에 블록 [130635](https://mempool.space/block/0000000000000a067d94ff753eec72830f1205ad3a4c216a08a80c832e551a52)를 통해 시작되었습니다. 이는 2009년 1월 [제네시스 블록](https://planb.academy/resources/glossary/genesis-block)에 Satoshi Nakamoto에 포함된 *Times*의 상징적인 인용문에 이어 두 번째로 이러한 방식으로 만들어진 항목입니다.
 
 
 
@@ -1936,7 +1936,7 @@ Luke는 처음에 비례 지급 모델을 채택했습니다. 하지만 풀 호�
 
 
 
-2주 후, 이 기도는 커뮤니티의 한 회원에 의해 발견되었고, 그는 [트랜잭션](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6)에 메시지를 썼습니다. 그는 루크를 "소아성애자"라고 비난하고 "신은 실존하지 않는다"고 주장하며 "당신의 헛소리로 블록체인을 오염시키지 말라"고 말했습니다. 이 거래는 나중에 마크 카펠레스가 [공유](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598)했고, [IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851)와 [포럼](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841)에서 이 텍스트 항목에 대한 토론으로 이어졌습니다. 특히 오즈코인 운영자 그레이엄 티는 엘리지우스 회원들이 이 사실을 모르고 있었다며 이 관행에 대해 비판적이었습니다. 그는 루크에게 "비트코인은 다종교적"이라는 점을 고려할 때 "기도문을 넣는 것이 일부 P2P를 소외시킬 수 있다고 생각하지 않느냐"고 물었고, 이에 대해 루크는 "가톨릭은 종교의 자유를 믿지 않는다"고 퉁명스럽게 대답했습니다.
+2주 후, 이 기도는 커뮤니티의 한 회원에 의해 발견되었고, 그는 [트랜잭션](https://mempool.space/tx/9740e7d646f5278603c04706a366716e5e87212c57395e0d24761c0ae784b2c6)에 메시지를 썼습니다. 그는 루크를 "소아성애자"라고 비난하고 "신은 실존하지 않는다"고 주장하며 "당신의 헛소리로 블록체인을 오염시키지 말라"고 말했습니다. 이 거래는 나중에 마크 카펠레스가 [공유](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-598)했고, [IRC](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-18.html#l-851)와 [포럼](https://bitcointalk.org/index.php?topic=38007.msg466841#msg466841)에서 이 텍스트 항목에 대한 토론으로 이어졌습니다. 특히 오즈코인 운영자 그레이엄 티는 엘리지우스 회원들이 이 사실을 모르고 있었다며 이 관행에 대해 비판적이었습니다. 그는 루크에게 "비트코인은 다종교적"이라는 점을 고려할 때 "기도문을 넣는 것이 일부 [P2P](https://planb.academy/resources/glossary/peertopeer-p2p)를 소외시킬 수 있다고 생각하지 않느냐"고 물었고, 이에 대해 루크는 "가톨릭은 종교의 자유를 믿지 않는다"고 퉁명스럽게 대답했습니다.
 
 
 
@@ -2067,7 +2067,7 @@ mining의 진화는 해셔의 구성뿐만 아니라 하드웨어 자체에 관�
 
 
 
-Satoshi Nakamoto이 오래 전에 [계획](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)한 이 최종 진화는 프로그래머블 논리 회로(FPGA) 덕분에 점진적으로 개발되어, Bitcoin의 해시 함수에 맞게 하드웨어를 사실상 최적화할 수 있게 되었습니다. 2011년 5월에 최초의 개방형 FPGA 알고리즘이 [공개](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)되었고, ASIC은 칩 자체에 FPGA 최적화를 적용했습니다. 2012년 6월에 미국 회사 Butterfly Labs에서 [첫 번째 ASIC 사전 판매](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html)가 이루어졌습니다. 마침내 2013년 1월에 첫 번째 작동하는 ASIC인 Avalon ASIC이 일반 대중에게 [배포](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)되었습니다.
+Satoshi Nakamoto이 오래 전에 [계획](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)한 이 최종 진화는 프로그래머블 논리 회로(FPGA) 덕분에 점진적으로 개발되어, Bitcoin의 [해시 함수](https://planb.academy/resources/glossary/hash-function)에 맞게 하드웨어를 사실상 최적화할 수 있게 되었습니다. 2011년 5월에 최초의 개방형 FPGA 알고리즘이 [공개](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)되었고, ASIC은 칩 자체에 FPGA 최적화를 적용했습니다. 2012년 6월에 미국 회사 Butterfly Labs에서 [첫 번째 ASIC 사전 판매](https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html)가 이루어졌습니다. 마침내 2013년 1월에 첫 번째 작동하는 ASIC인 Avalon ASIC이 일반 대중에게 [배포](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)되었습니다.
 
 
 
@@ -2090,7 +2090,7 @@ Satoshi Nakamoto가 떠난 후 소프트웨어 개발은 커뮤니티가 맡았�
 
 
 
-이 장에서는 Bitcoin의 기술 역사에서 이 독특한 에피소드를 되돌아봅니다. 먼저 소프트웨어의 개발 과정과 다중 서명 아이디어를 분석해 보겠습니다. 그런 다음 이 기술을 구현하기 위한 다양한 제안을 OP\_EVAL과 P2SH를 시작으로 살펴봅니다. 마지막으로 많은 어려움에도 불구하고 페이 투 스크립트 Hash이 어떻게 활성화되었는지에 대해 이야기하겠습니다.
+이 장에서는 Bitcoin의 기술 역사에서 이 독특한 에피소드를 되돌아봅니다. 먼저 소프트웨어의 개발 과정과 다중 서명 아이디어를 분석해 보겠습니다. 그런 다음 이 기술을 구현하기 위한 다양한 제안을 OP\_EVAL과 P2SH를 시작으로 살펴봅니다. 마지막으로 많은 어려움에도 불구하고 페이 투 [스크립트](https://planb.academy/resources/glossary/script) Hash이 어떻게 활성화되었는지에 대해 이야기하겠습니다.
 
 
 
@@ -3563,3 +3563,21 @@ Bitcoin의 비참한 이미지는 일반 대중에게 혐오감을 불러일으�
 ---
 
 2011년 봄부터 2012년 여름까지 Bitcoin의 건설에 관한 과정은 여기서 끝납니다. 암호화폐 역사의 다음 시기인 Bitcoin의 거부할 수 없는 상승에 대해서는 다음 강좌에서 다룰 예정입니다.
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

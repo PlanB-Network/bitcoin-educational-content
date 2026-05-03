@@ -12,6 +12,9 @@ objectives:
 Mida on vaja Bitcoinil ehitamiseks? See 20-tunnine kursus viib teid Bitcoin'i ja Lightning Network'i pinna alla, uurides protokolle, mis toitavad maailma vastupidavamat finantstaristut. Olenemata sellest, kas soovite panustada avatud lähtekoodiga projektidesse või ehitada järgmise põlvkonna Bitcoin'i rakendusi, omandате tehnilise sügavuse, mis on vajalik selles ökosüsteemis enesekindlalt töötamiseks.
 
 Salvestatud CUBO+ 2023 laagri ajal El Salvadoris, toob see kursus kokku juhtivate Bitcoin'i arendajate ja haridustegelaste vaatenurgad, kes on tehnoloogiat kujundanud. Parim osa? See on täiesti tasuta, võimaldatud Fulgure Ventures'i, Bitcoin Office'i ja DecouvreBitcoin'i poolt. Kui olete olnud uudishimulik, kuidas Bitcoin protokolli tasemel tegelikult töötab, on see teie võimalus seda välja selgitada.
+
+Märkus: Selle kursuse videod on saadaval ainult inglise keeles.
+
 +++
 # Sissejuhatus ja ettevalmistavad kursused
 
@@ -70,14 +73,14 @@ _Maailmne pankadeta elanikkond_
 ### Bitcoin: finantsvabadus ja selle mõju El Salvadorile
 
 
-Selles loengus **"Miks El Salvador vajab Bitcoin"** antakse ülevaade **Bitcoin protokollist**, selle juurtest **Cypherpunk liikumises** ja selle rollist vabadust võimaldava vahendina **tsenseerimata raha**, **finantskaasamise** ja palju muu hulgas.
+Selles loengus **"Miks El Salvador vajab Bitcoin"** antakse ülevaade **Bitcoin protokollist**, selle juurtest **[Cypherpunk](https://planb.academy/resources/glossary/cypherpunks) liikumises** ja selle rollist vabadust võimaldava vahendina **tsenseerimata raha**, **finantskaasamise** ja palju muu hulgas.
 
 
 **Määratlused:**
 
 
 - _Bitcoini protokoll:_ Reeglid ja struktuur, mis reguleerivad Bitcoin kui detsentraliseeritud digitaalse valuuta toimimist.
-- _Cypherpunk liikumine:_ Rühm, mis propageerib krüptograafia kasutamist, et tagada privaatsus ja vabadus digitaalses ruumis.
+- _Cypherpunk liikumine:_ Rühm, mis propageerib [krüptograafia](https://planb.academy/resources/glossary/cryptography) kasutamist, et tagada privaatsus ja vabadus digitaalses ruumis.
 - _Finantskaasamine:_ Finantsteenuste kättesaadavus inimestele, kes on traditsioonilisest pangandussüsteemist kõrvale jäänud ja keda sageli nimetatakse "pangata inimesteks"
 - _Tsenseerimata raha:_ Raha, mida ei saa valitsuste või finantsasutuste poolt kontrollida ega piirata.
 
@@ -90,10 +93,10 @@ Rikki teekond Bitcoin-sse on seotud tema tööga inimõiguste kaitsjana. Ta usub
 ### Bitcoin ülemaailmne tähtsus ja probleemid
 
 
-Bitcoin on palju enamat kui lihtsalt digitaalne valuuta. See on vahend eraelu puutumatuse kaitsmiseks ja finantsvabaduse tagamiseks. Kasutades **privaatvõtmeid**, mis toimivad nagu põhiparoolid, saavad kasutajad oma Bitcoin turvaliselt hallata, omades täielikku kontrolli oma raha üle.
+Bitcoin on palju enamat kui lihtsalt digitaalne valuuta. See on vahend eraelu puutumatuse kaitsmiseks ja finantsvabaduse tagamiseks. Kasutades **[privaatvõtmeid](https://planb.academy/resources/glossary/private-key)**, mis toimivad nagu põhiparoolid, saavad kasutajad oma Bitcoin turvaliselt hallata, omades täielikku kontrolli oma raha üle.
 
 
-Autoritaarsetes režiimides, kus finantsrepressioonid on tavalised, võimaldab Bitcoin **tundetu olemus** inimestel teha tehinguid, kartmata, et nende raha külmutatakse või konfiskeeritakse. Selle **avatud lähtekoodiga** olemus soodustab ülemaailmset osalemist, edendades kogukonda, mis parandab võrgustikku pidevalt.
+Autoritaarsetes režiimides, kus finantsrepressioonid on tavalised, võimaldab Bitcoin **tundetu olemus** inimestel teha [tehinguid](https://planb.academy/resources/glossary/transaction-tx), kartmata, et nende raha külmutatakse või konfiskeeritakse. Selle **[avatud lähtekoodiga](https://planb.academy/resources/glossary/foss)** olemus soodustab ülemaailmset osalemist, edendades kogukonda, mis parandab võrgustikku pidevalt.
 
 
 ![Image](assets/en/002.webp)
@@ -143,7 +146,7 @@ Kokkuvõttes võib öelda, et Bitcoin on väga paljulubav rahaliste võimaluste 
 #### Austria majandusteadus
 
 
-Samal ajal pani **Austria majandus** aluse Bitcoin rahapoliitilistele põhimõtetele. Majandusteadlased nagu **Ludwig von Mises** ja **Friedrich Hayek** väitsid, et usaldusväärne raha peaks olema napp, vastupidav ja hea väärtuse säilitaja - need on põhiprintsiibid, mis kujundasid Bitcoin ülesehitust.
+Samal ajal pani **[Austria majandus](https://planb.academy/resources/glossary/austrian-school)** aluse Bitcoin rahapoliitilistele põhimõtetele. Majandusteadlased nagu **Ludwig von Mises** ja **Friedrich Hayek** väitsid, et usaldusväärne raha peaks olema napp, vastupidav ja hea väärtuse säilitaja - need on põhiprintsiibid, mis kujundasid Bitcoin ülesehitust.
 
 
 **Määratlus:**
@@ -221,7 +224,7 @@ Tänan teid selle materjaliga tegelemise eest!
 
 :::video id=2c008198-7f4e-4e60-87a0-0af17528ad2f:::
 
-Kursuse "Kuidas Bitcoin" esimeses loengus alustasime Bitcoin võrgu aluseks oleva tehnoloogilise korpuse uurimist. Käsitlesime selliseid teemasid nagu **Hashcash**, **transaktsioonid**, **Blockchain**, **Lightning Network** ja muud Bitcoin protokolli põhikomponendid.
+Kursuse "Kuidas Bitcoin" esimeses loengus alustasime Bitcoin võrgu aluseks oleva tehnoloogilise korpuse uurimist. Käsitlesime selliseid teemasid nagu **Hashcash**, **transaktsioonid**, **[Blockchain](https://planb.academy/resources/glossary/blockchain)**, **[Lightning Network](https://planb.academy/resources/glossary/lightning-network)** ja muud Bitcoin protokolli põhikomponendid.
 
 
 ### Bitcoin tehnoloogiline korstnat 2. osa
@@ -234,13 +237,13 @@ Teise loengu "Kuidas Bitcoin" käigus uurisime põhjalikumalt Bitcoin tehnoloogi
 ### Bitcoin struktuur
 
 
-Bitcoin päritolu põhineb mitmetel olulistel uuendustel, alustades **Adam Backi Hashcashist**, Proof-of-Work (PoW) süsteemist, mis on loodud e-posti rämpsposti ja teenusetõkestusrünnakute vältimiseks, nõudes saatjatelt arvutusülesannete täitmist. Sellest PoW-kontseptsioonist sai Bitcoin turvalisuse nurgakivi.
+Bitcoin päritolu põhineb mitmetel olulistel uuendustel, alustades **Adam Backi Hashcashist**, [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) süsteemist, mis on loodud e-posti rämpsposti ja teenusetõkestusrünnakute vältimiseks, nõudes saatjatelt arvutusülesannete täitmist. Sellest PoW-kontseptsioonist sai Bitcoin turvalisuse nurgakivi.
 
 
-Bitcoin tugineb **digitaalsetele allkirjadele**, mis kasutavad tehingute kindlustamiseks ja kontrollimiseks **elliptilise kõveraga krüptograafiat**. **Elliptic Curve Digital Signature Algorithm (ECDSA)** tagab, et ainult Bitcoin õigustatud omanik saab tehinguid autoriseerida ilma oma isiklikke võtmeid avaldamata.
+Bitcoin tugineb **[digitaalsetele allkirjadele](https://planb.academy/resources/glossary/digital-signature)**, mis kasutavad tehingute kindlustamiseks ja kontrollimiseks **elliptilise kõveraga krüptograafiat**. **Elliptic Curve Digital Signature Algorithm ([ECDSA](https://planb.academy/resources/glossary/ecdsa))** tagab, et ainult Bitcoin õigustatud omanik saab tehinguid autoriseerida ilma oma isiklikke võtmeid avaldamata.
 
 
-**Satoshi Nakamoto**, Bitcoin pseudonüümne looja, laiendas neid ideid, viies PoW-mudeli üle detsentraliseeritud **Blockchain**-le. See võimaldas jaotatud sõlmede võrgustikul tehingute kinnitamist ja registreerimist ilma keskse asutuseta, mis tähistab olulist arengut võrreldes varasemate digitaalvaluuta katsetega.
+**Satoshi Nakamoto**, Bitcoin pseudonüümne looja, laiendas neid ideid, viies PoW-mudeli üle detsentraliseeritud **Blockchain**-le. See võimaldas jaotatud [sõlmede](https://planb.academy/resources/glossary/node) võrgustikul tehingute kinnitamist ja registreerimist ilma keskse asutuseta, mis tähistab olulist arengut võrreldes varasemate digitaalvaluuta katsetega.
 
 
 **Määratlused:**
@@ -252,16 +255,16 @@ Bitcoin tugineb **digitaalsetele allkirjadele**, mis kasutavad tehingute kindlus
 ### Blockchain mehaanika ja tehingu valideerimine
 
 
-Bitcoin tehinguid valideerivad ja plokkidesse lisavad **minerid**, kes võistlevad Proof-of-Work algoritmi abil krüptograafilise mõistatuse lahendamisel. See tähendab, et tuleb leida Hash, millel on kindel arv eesolevaid nulle, kohandades **Nonce** väärtust, kuni õige Hash on leitud.
+Bitcoin tehinguid valideerivad ja plokkidesse lisavad **minerid**, kes võistlevad Proof-of-Work algoritmi abil krüptograafilise mõistatuse lahendamisel. See tähendab, et tuleb leida [Hash](https://planb.academy/resources/glossary/hash-function), millel on kindel arv eesolevaid nulle, kohandades **[Nonce](https://planb.academy/resources/glossary/nonce)** väärtust, kuni õige Hash on leitud.
 
 
-Iga **plokk** Blockchain-s koosneb **pealkirjast** (andmetega nagu eelmise ploki Hash) ja tehingute loetelust. Esimene plokk, mida nimetatakse **Genesis plokiks**, on ainulaadne, sest tal puudub eelkäija.
+Iga **[plokk](https://planb.academy/resources/glossary/block)** Blockchain-s koosneb **[pealkirjast](https://planb.academy/resources/glossary/block-header)** (andmetega nagu eelmise ploki Hash) ja tehingute loetelust. Esimene plokk, mida nimetatakse **[Genesis plokiks](https://planb.academy/resources/glossary/genesis-block)**, on ainulaadne, sest tal puudub eelkäija.
 
 
 ![Image](assets/en/004.webp)
 
 
-Enne tehingute lisamist plokki asuvad need **Mempool**-s, kus nad ootavad valideerimist. Pärast valideerimist lisatakse need tehingud äsja kaevandatud plokki ja seejärel Blockchain-sse.
+Enne tehingute lisamist plokki asuvad need **[Mempool](https://planb.academy/resources/glossary/mempool)**-s, kus nad ootavad valideerimist. Pärast valideerimist lisatakse need tehingud äsja kaevandatud plokki ja seejärel Blockchain-sse.
 
 
 **Määratlused:**
@@ -274,13 +277,13 @@ Enne tehingute lisamist plokki asuvad need **Mempool**-s, kus nad ootavad valide
 ### Bitcoin skaleeritavus, privaatsus ja arendus
 
 
-Bitcoin seisab silmitsi väljakutsetega, mis on seotud skaleeritavuse ja privaatsusega. Blockchain piiratud tehingumahu tõttu on tal raske toime tulla suurte tehingumahtudega. Sellised lahendused nagu **Lightning Network** Address lahendavad need probleemid, võimaldades off-chain tehinguid maksekanalite kaudu, mis suurendavad kiirust ja privaatsust.
+Bitcoin seisab silmitsi väljakutsetega, mis on seotud skaleeritavuse ja privaatsusega. Blockchain piiratud tehingumahu tõttu on tal raske toime tulla suurte tehingumahtudega. Sellised lahendused nagu **Lightning Network** Address lahendavad need probleemid, võimaldades off-chain tehinguid [maksekanalite](https://planb.academy/resources/glossary/payment-channel) kaudu, mis suurendavad kiirust ja privaatsust.
 
 
-**Full node** kasutamine on detsentraliseerimise ja turvalisuse tagamiseks hädavajalik, kuid **Ühendatud makse kontrollimise (SPV) sõlmed** võimaldavad kergemat osalemist mõningase turvalisuse arvelt.
+**[Full node](https://planb.academy/resources/glossary/full-node)** kasutamine on detsentraliseerimise ja turvalisuse tagamiseks hädavajalik, kuid **Ühendatud makse kontrollimise (SPV) sõlmed** võimaldavad kergemat osalemist mõningase turvalisuse arvelt.
 
 
-Bitcoin arendus on arenenud jõudluse ja turvalisuse parandamiseks. Peamised uuendused hõlmavad **Segregated Witness (SegWit)**, mis tegeleb tehingu muutlikkusega ja suurendab bloki efektiivset suurust, ning **Taproot**, mis parandab privaatsust ja võimaldab keerulisemaid lepinguid, kasutades **Merkleized Abstract Syntax Trees (MAST)**.
+Bitcoin arendus on arenenud jõudluse ja turvalisuse parandamiseks. Peamised uuendused hõlmavad **Segregated Witness ([SegWit](https://planb.academy/resources/glossary/segwit))**, mis tegeleb tehingu muutlikkusega ja suurendab bloki efektiivset suurust, ning **[Taproot](https://planb.academy/resources/glossary/taproot)**, mis parandab privaatsust ja võimaldab keerulisemaid lepinguid, kasutades **Merkleized Abstract Syntax Trees (MAST)**.
 
 
 **Määratlused:**
@@ -325,7 +328,7 @@ Sageli on levinud väärarusaam, et **Bitcoin** ja **Blockchain** on samad. Kui 
 ### Bitcoin vs. Crypto
 
 
-Teine oluline erinevus on see, et **Bitcoin** loodi ainsa eesmärgiga pakkuda detsentraliseeritud, tsensuurikindlat rahavormi, mida ei kontrolli ükski ettevõte ega valitsus. Seevastu krüptovaluutad **shitcoins** on sageli loodud tsentraliseeritud kontrolliga, mis on mõeldud eelkõige selleks, et rikastada nende taga olevaid ettevõtteid röövimiste, pump-and-dump skeemide või otseste pettuste kaudu. Need märgid ei teeni tavaliselt mingit tõelist eesmärki peale kiire kasumi teenimise nende loojate jaoks teadmatute investorite arvelt. Bitcoin on aga ainus tõeliselt detsentraliseeritud digitaalne valuuta, mille turvalisus ja vastupidavus on tõestatud.
+Teine oluline erinevus on see, et **Bitcoin** loodi ainsa eesmärgiga pakkuda detsentraliseeritud, tsensuurikindlat rahavormi, mida ei kontrolli ükski ettevõte ega valitsus. Seevastu [krüptovaluutad](https://planb.academy/resources/glossary/cryptocurrency) **[shitcoins](https://planb.academy/resources/glossary/shitcoin)** on sageli loodud tsentraliseeritud kontrolliga, mis on mõeldud eelkõige selleks, et rikastada nende taga olevaid ettevõtteid röövimiste, pump-and-dump skeemide või otseste pettuste kaudu. Need märgid ei teeni tavaliselt mingit tõelist eesmärki peale kiire kasumi teenimise nende loojate jaoks teadmatute investorite arvelt. Bitcoin on aga ainus tõeliselt detsentraliseeritud digitaalne valuuta, mille turvalisus ja vastupidavus on tõestatud.
 
 
 **Määratlused:**
@@ -339,7 +342,7 @@ Teine oluline erinevus on see, et **Bitcoin** loodi ainsa eesmärgiga pakkuda de
 ### Energiatarbimine ja keskkonnamõju
 
 
-Üks kõige levinumaid kriitikaid Bitcoin kohta on selle **energiakulu**. Kuigi Bitcoin Mining kasutab energiat, moodustab see vähem kui 1% ülemaailmsest elektritarbimisest ja vähem kui 3% raisatud energiast. Lisaks sellele kasutab **Bitcoin Mining** sageli kasutamata või taastuvaid energiaallikaid, mistõttu on see rohelisem, kui sageli kujutatakse.
+Üks kõige levinumaid kriitikaid Bitcoin kohta on selle **energiakulu**. Kuigi Bitcoin [Mining](https://planb.academy/resources/glossary/mining) kasutab energiat, moodustab see vähem kui 1% ülemaailmsest elektritarbimisest ja vähem kui 3% raisatud energiast. Lisaks sellele kasutab **Bitcoin Mining** sageli kasutamata või taastuvaid energiaallikaid, mistõttu on see rohelisem, kui sageli kujutatakse.
 
 
 **Määratlused:**
@@ -356,7 +359,7 @@ Bitcoini kritiseeritakse sageli selle eest, et seda kasutatakse kuritegelikus te
 ### Privaatsus ja asendatavus
 
 
-**Privaatsus** ja **sõbralikkus** on Bitcoin olulised omadused. Privaatsus kaitseb kasutajaid repressiivsetes režiimides ja asendatavus tagab, et iga Bitcoin on võrdne, sõltumata selle ajaloost. See muudab Bitcoin usaldusväärseks ja õiglaseks rahavormiks.
+**Privaatsus** ja **[sõbralikkus](https://planb.academy/resources/glossary/fungibility)** on Bitcoin olulised omadused. Privaatsus kaitseb kasutajaid repressiivsetes režiimides ja asendatavus tagab, et iga Bitcoin on võrdne, sõltumata selle ajaloost. See muudab Bitcoin usaldusväärseks ja õiglaseks rahavormiks.
 
 
 **Määratlused:**
@@ -853,7 +856,7 @@ Specteri konfigureerimiseks peate selle ühendama Bitcoin core või Electrumi se
 **Eristamine tuletamise teed ja avaliku võtme otsimine**
 
 
-Wallet haldamiseks on oluline mõista tuletamisviise. Tuletamise teed määratlevad, kuidas võtmed genereeritakse üldvõtmest. Specteris saate avalikke võtmeid kätte, ühendades oma Hardware Wallet (või emulaatori) ja navigeerides Wallet Interface kaudu. Veenduge, et dokumenteerite need teed edaspidiseks kasutamiseks.
+Wallet haldamiseks on oluline mõista tuletamisviise. Tuletamise teed määratlevad, kuidas võtmed genereeritakse üldvõtmest. Specteris saate [avalikke võtmeid](https://planb.academy/resources/glossary/public-key) kätte, ühendades oma Hardware Wallet (või emulaatori) ja navigeerides Wallet Interface kaudu. Veenduge, et dokumenteerite need teed edaspidiseks kasutamiseks.
 
 
 **Praktiline demonstratsioon: Ledger emulaatori kasutamine**
@@ -1008,7 +1011,7 @@ Bitcoin kasutatavuse parandamise püüdlused toimuvad sageli turvalisuse ja priv
 #### Skaleeritavuse ja eraelu puutumatuse kompromissid
 
 
-Bitcoin võrgus on skaalumisvõime ja privaatsus sageli vastuolus. Parandused, mis parandavad skaleeritavust, näiteks suuremad UTXOd või vähendatud krüptograafiline varjamine, vähendavad üldiselt privaatsust. Seevastu eraelu puutumatusele keskenduvad tehnikad, nagu Monero ringallkirjad, suurendavad kasutajate anonüümsust, kuid mõjutavad negatiivselt skaleeritavust. Lisaks pakub Ethereumi puhul täheldatud riigipõhiste lepingute kasutuselevõtt suuremat paindlikkust turvalisuse ja skaleeritavuse vähenemise hinnaga. Nende kompromisside tasakaalustamine on keeruline ülesanne, mis nõuab hoolikat kaalumist.
+Bitcoin võrgus on skaalumisvõime ja privaatsus sageli vastuolus. Parandused, mis parandavad skaleeritavust, näiteks suuremad [UTXOd](https://planb.academy/resources/glossary/utxo) või vähendatud krüptograafiline varjamine, vähendavad üldiselt privaatsust. Seevastu eraelu puutumatusele keskenduvad tehnikad, nagu Monero ringallkirjad, suurendavad kasutajate anonüümsust, kuid mõjutavad negatiivselt skaleeritavust. Lisaks pakub Ethereumi puhul täheldatud riigipõhiste lepingute kasutuselevõtt suuremat paindlikkust turvalisuse ja skaleeritavuse vähenemise hinnaga. Nende kompromisside tasakaalustamine on keeruline ülesanne, mis nõuab hoolikat kaalumist.
 
 
 ### Privaatsustehnikad
@@ -1144,7 +1147,7 @@ Valimiste kaitsmiseks võib näiteks rakendada erapooletut järelevalvet või er
 #### Usalduse kontrollimine
 
 
-Usalduse kontrollimist saab illustreerida PGP (Pretty Good Privacy) kontrolliga. PGP-võtmete sõrmejälgede ja allkirjade kontrollimisega saavad kasutajad kindlaks teha digitaalsete identiteetide autentsuse. Sarnased tavad on olulised tarkvara terviklikkuse kontrollimisel Hash sobitamise abil (nt SHA-256).
+Usalduse kontrollimist saab illustreerida PGP (Pretty Good Privacy) kontrolliga. PGP-võtmete sõrmejälgede ja allkirjade kontrollimisega saavad kasutajad kindlaks teha digitaalsete identiteetide autentsuse. Sarnased tavad on olulised tarkvara terviklikkuse kontrollimisel Hash sobitamise abil (nt [SHA-256](https://planb.academy/resources/glossary/sha256)).
 
 
 #### Usalduse saavutamine
@@ -1275,7 +1278,7 @@ Selles jaotises tutvume Bitcoin arendajatele oluliste krüptograafiliste põhim�
 **Turvalisuse omadused**: Krüptograafilised Hash funktsioonid peavad vastama mitmetele turvaomadustele. Eelkujutise vastupidavus tagab, et Hash väljundist on arvutuslikult võimatu algset sisendit tagasi töötada. Teiseks tähendab eelkujutise vastupidavus, et peaks olema raske leida teistsugust sisendit, mis annab sama Hash väljundit. Kokkupõrkekindlus tagab, et on ebatõenäoline leida kaks erinevat sisendit, mis annavad sama Hash väljundi.
 
 
-**Merkle puud**: Merkle Tree on andmestruktuur, mis võimaldab suurte andmekogumite tõhusat ja turvalist kontrollimist. Andmeelemendid hashitakse paarikaupa, kusjuures saadud hashid kombineeritakse iteratiivselt, et moodustada üks juur Hash. Bitcoin puhul on Merkle'i puud olulised plokkide loomisel ja tehingu kontrollimisel, eriti lihtsustatud makse kontrollimise (SPV) klientide ja Taproot (Mast) puhul.
+**[Merkle puud](https://planb.academy/resources/glossary/merkle-tree)**: Merkle Tree on andmestruktuur, mis võimaldab suurte andmekogumite tõhusat ja turvalist kontrollimist. Andmeelemendid hashitakse paarikaupa, kusjuures saadud hashid kombineeritakse iteratiivselt, et moodustada üks juur Hash. Bitcoin puhul on Merkle'i puud olulised plokkide loomisel ja tehingu kontrollimisel, eriti lihtsustatud makse kontrollimise (SPV) klientide ja Taproot (Mast) puhul.
 
 
 ![Image](assets/en/016.webp)
@@ -1314,7 +1317,7 @@ Selles jaotises uurime nende mõistete rakendamist Bitcoin tegelikus arenduses j
 **Turvalisuse mõju**: Nonce korduvkasutamisest tulenev märkimisväärne rahaline kahju. Ainulaadsete mittetunnuste genereerimise tähtsuse mõistmine on väga oluline. Usaldusväärsete raamatukogude nagu LibSecP256k1 kasutamine tagab usaldusväärsed ja turvalised krüptograafilised operatsioonid.
 
 
-**Elliptic Curve Cryptography (ECC)**: Allkirjastusskeemid on arenenud identiteediprotokollidest selliste skeemideni nagu Schnorr'i allkirjad, mida praegu kasutatakse Bitcoin (BIP 340). Elliptiliste kõverate ja lõplike väljade aritmeetika tundmine tagab turvalised krüptograafilised rakendused.
+**Elliptic Curve Cryptography (ECC)**: Allkirjastusskeemid on arenenud identiteediprotokollidest selliste skeemideni nagu [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)'i allkirjad, mida praegu kasutatakse Bitcoin ([BIP](https://planb.academy/resources/glossary/bip) 340). Elliptiliste kõverate ja lõplike väljade aritmeetika tundmine tagab turvalised krüptograafilised rakendused.
 
 
 **Üldised nõuanded arendajatele**: Krüptograafilised protokollid peavad läbima põhjaliku vastastikuse eksperdihinnangu. Arendajad peavad olema täpsed ja mõistma täielikult krüptograafiliste menetluste iga sammu. Teadlikkus krüptograafiliste rakenduste tavalistest lõksudest võib ära hoida olulisi haavatavusi.
@@ -1468,7 +1471,7 @@ Mining keerukus Bitcoin kontekstis hõlmab peamiselt tehnilisi ja strateegilisi 
 
 4. **BTC hind**: BTC hind on oluline, et määrata Mining kasumlikkus.
 
-5. **Võrgu raskus**: Võrgustiku raskusaste näitab, kui palju Hashrate on keskmiselt vaja kaevandada plokki 10 minuti jooksul.
+5. **Võrgu [raskus](https://planb.academy/resources/glossary/difficulty)**: Võrgustiku raskusaste näitab, kui palju Hashrate on keskmiselt vaja kaevandada plokki 10 minuti jooksul.
 
 6. **Strateegilised vahendid**: Tööriistad nagu [braiins.com](https://insights.braiins.com) on hindamatu väärtusega kasumlikkuse arvutamisel ja aitavad kaevandajatel teha andmepõhiseid otsuseid.
 
@@ -1843,7 +1846,7 @@ Iga tehing Bitcoin plokis sisaldab järgmist:
 - Väljundid**: Sisaldab Value ja ScriptPubKey.
   - Väärtus**: Tehingu väärtus.
   - PubKey skripti pikkus**: PubKey skripti pikkus.
-  - PubKey script**: Sisaldab avalikku võtit kui seadistust, et nõuda väljundit.
+  - PubKey [script](https://planb.academy/resources/glossary/script)**: Sisaldab avalikku võtit kui seadistust, et nõuda väljundit.
 - Lukustusaeg**: Näitab ploki kõrgust või Timestamp, mille juures see tehing saab plokki lisada.
 
 
@@ -1979,7 +1982,7 @@ Lisage kinnitused, et kontrollida, et pärast täieliku ploki töötlemist ei j�
 #### Erijuhtumid nagu coinbase'i tehingud
 
 
-Coinbase'i tehingutel, mis on esimene tehing plokis, mida kasutatakse Block reward taotlemiseks, on ainulaadsed omadused. Me peame neid erijuhtumeid asjakohaselt käsitlema.
+[Coinbase](https://planb.academy/resources/glossary/coinbase-transaction)'i tehingutel, mis on esimene tehing plokis, mida kasutatakse Block reward taotlemiseks, on ainulaadsed omadused. Me peame neid erijuhtumeid asjakohaselt käsitlema.
 
 
 ```Rust
@@ -2598,7 +2601,7 @@ Address jaoks pakkus Manny Rosenfeld 2012. aastal välja tsentraliseeritud hopsi
 ### Hashed Time Lock Contract (HTLC) ja rakendamine
 
 
-Tsentraliseeritud hopside piirangud ja puudused nõudsid turvalisemat ja detsentraliseeritud lahendust. See vajadus viis 2015. aastal Joseph Pooni ja Thaddeus Dreijeri poolt Lightning Network osana välja pakutud Hashed Time Lock Contract (HTLC) väljatöötamiseni. HTLC-d kombineerivad ajalukkude ja Hash lukkude põhimõtteid, et tagada tehingute aatomilisus ja usaldamatus. See tähendab, et tehing kas viiakse täielikult lõpule või ei toimu üldse, vähendades mittetäielike maksetega seotud riske.
+Tsentraliseeritud hopside piirangud ja puudused nõudsid turvalisemat ja detsentraliseeritud lahendust. See vajadus viis 2015. aastal Joseph Pooni ja Thaddeus Dreijeri poolt Lightning Network osana välja pakutud Hashed Time Lock Contract ([HTLC](https://planb.academy/resources/glossary/htlc)) väljatöötamiseni. HTLC-d kombineerivad ajalukkude ja Hash lukkude põhimõtteid, et tagada tehingute aatomilisus ja usaldamatus. See tähendab, et tehing kas viiakse täielikult lõpule või ei toimu üldse, vähendades mittetäielike maksetega seotud riske.
 
 
 HTLC tööprotsess hõlmab mitmeastmelist protsessi, mis tagab turvalise marsruutimise läbi mitme vahendaja. Oletame, et Alice soovib maksta Ericile vahendajate Bob, Carol ja Diana kaudu. Protsessi iga samm hõlmab Commitment tehingute loomist kahanevate ajaliste lukkude ja summadega. Vajaduse korral võib viimase sammu edastada Bitcoin võrku, et tehing lõpule viia.
@@ -2690,7 +2693,7 @@ Sisuliselt täiendab Lightning Network Bitcoin võrku, käsitledes selle piirang
 ### **Lightning Network spetsifikatsioonid**
 
 
-Lightning Network protokoll on hoolikalt määratletud 10 BOLTi (Basis of Lightning Technology) kaudu. Need BOLTid lepiti kokku Milanos toimunud konverentsil ja need on aluseks Lightning Network erinevatele rakendustele.
+Lightning Network protokoll on hoolikalt määratletud 10 [BOLTi](https://planb.academy/resources/glossary/bolt) (Basis of Lightning Technology) kaudu. Need BOLTid lepiti kokku Milanos toimunud konverentsil ja need on aluseks Lightning Network erinevatele rakendustele.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2764,7 +2767,7 @@ Maksete suunamine toimub Onion marsruutimise abil, mis hõlmab krüpteeritud pak
 ### Invoice struktuur
 
 
-Lightning Network arved (Bolt 11) on kodeeritud Bech32-s ja sisaldavad selliseid üksikasju nagu makse Hash, kirjeldus ja kehtivusaeg. Iga Invoice tuleb kasutada üks kord, et vältida korduvkasutamise probleeme.
+Lightning Network [arved](https://planb.academy/resources/glossary/invoice-lightning) (Bolt 11) on kodeeritud Bech32-s ja sisaldavad selliseid üksikasju nagu makse Hash, kirjeldus ja kehtivusaeg. Iga Invoice tuleb kasutada üks kord, et vältida korduvkasutamise probleeme.
 
 
 ![Invoice structure](assets/en/051.webp)_BOLT11 Invoice_
@@ -3430,5 +3433,5 @@ Lightning-maksete laiendamine ja integreerimine erinevate protokollide ja kasutu
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::
 
-Adam Gibson annab ülevaate Joinmarketist, kirjeldades üksikasjalikult, kuidas see CoinJoin rakendamine parandab Bitcoin privaatsust ja asendatavust. Ta arutab, kuidas Joinmarket hõlbustab Bitcoin ökosüsteemis ühiseid, Trustless ja anonüümseid tehinguid. Seejärel näitab ta teises osas, kuidas Joinmarketit Signetis käivitada.
+Adam Gibson annab ülevaate Joinmarketist, kirjeldades üksikasjalikult, kuidas see [CoinJoin](https://planb.academy/resources/glossary/coinjoin) rakendamine parandab Bitcoin privaatsust ja asendatavust. Ta arutab, kuidas Joinmarket hõlbustab Bitcoin ökosüsteemis ühiseid, Trustless ja anonüümseid tehinguid. Seejärel näitab ta teises osas, kuidas Joinmarketit Signetis käivitada.
 

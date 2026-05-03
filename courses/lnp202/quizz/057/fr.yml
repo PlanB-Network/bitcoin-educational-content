@@ -6,4 +6,4 @@ wrong_answers:
   - Zeus Server
 explanation: |
   L’application Umbrel spécifiquement dédiée à NWC n’étant plus disponible, il faut désormais passer par Alby Hub pour ce type de connexion.
-reviewed: false
+reviewed: true 

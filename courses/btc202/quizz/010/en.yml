@@ -1,8 +1,8 @@
 question: What's the economic difference between a node and a miner?
-answer: The miner receives rewards, the node has no direct gain
+answer: A miner receives rewards; a node has no direct gain
 wrong_answers:
-  - Node receives fee, miner receives block grant
-  - The node receives rewards, the miner has no direct gain
+  - A node receives fee; a miner receives block grant
+  - A node receives rewards; a miner has no direct gain
   - Both receive the same awards
 explanation: |
   Miners receive rewards (subsidies and fees), whereas a node brings no direct financial benefit to its user.

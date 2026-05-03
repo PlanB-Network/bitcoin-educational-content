@@ -1,304 +1,425 @@
 ---
 name: Jade Plus - Green
-description: Easily configure Jade Plus with Green
+description: Dễ dàng cấu hình Jade Plus với Green
 ---
 ![cover](assets/cover.webp)
 
-Jade Plus is a Bitcoin-only hardware wallet designed by Blockstream. It is the successor to the classic Jade, with software enhancements, more options and redesigned ergonomics for more intuitive use. This new version boasts a magnificent 1.9-inch LCD screen, with a wider color gamut than its predecessor. Buttons and menu navigation have also been optimized.
 
-The Jade Plus can be used in a number of ways: via a USB-C wired connection, in "*Air-Gap*" mode with a micro SD card (adapter required), via Bluetooth or even by exchanging QR codes thanks to the integrated camera. This hardware wallet is battery-powered.
+![video](https://youtu.be/rv_cN7F7-TM)
 
-It is available from $149.99 in the basic black version, and the price can rise by up to $20 for the "*Genesis Grey*" or "*Lunar Silver*" versions. The Jade Plus is therefore an interesting choice, with advanced functionalities comparable to those of high-end hardware wallets such as Coldcard Q or Passport V2, but at a fairly low price, close to mid-range models.
+
+Jade Plus là phiên bản phần cứng wallet chỉ dành riêng cho Bitcoin, được thiết kế bởi Blockstream. Đây là phiên bản kế nhiệm của Jade cổ điển, với những cải tiến về phần mềm, nhiều tùy chọn hơn và thiết kế công thái học được cải tiến để sử dụng trực quan hơn. Phiên bản mới này sở hữu màn hình LCD 1,9 inch tuyệt đẹp, với dải màu rộng hơn so với phiên bản tiền nhiệm. Các nút bấm và điều hướng menu cũng đã được tối ưu hóa.
+
+
+Jade Plus có thể được sử dụng theo nhiều cách: thông qua kết nối có dây USB-C, ở chế độ "*Air-Gap*" với thẻ nhớ micro SD (cần bộ chuyển đổi), qua Bluetooth hoặc thậm chí bằng cách trao đổi mã QR nhờ camera tích hợp. Phần cứng wallet này sử dụng pin.
+
+
+Sản phẩm có giá khởi điểm từ 149,99 đô la cho phiên bản màu đen cơ bản, và giá có thể tăng lên đến 20 đô la cho các phiên bản "*Genesis Grey*" hoặc "*Lunar Silver*". Do đó, Jade Plus là một lựa chọn thú vị, với các chức năng tiên tiến tương đương với các thiết bị wallet cao cấp như Coldcard Q hoặc Passport V2, nhưng với mức giá khá thấp, gần với các mẫu tầm trung.
+
 
 ![JADE-PLUS-GREEN](assets/fr/01.webp)
 
-Jade Plus is compatible with most portfolio management software. Here is a summary of compatibility at the time of writing (January 2025):
 
-| Desktop | Mobile | USB | Bluetooth | QR | JadeLink | Management software
+Jade Plus tương thích với hầu hết phần mềm quản lý wallet. Dưới đây là tóm tắt về khả năng tương thích tại thời điểm viết bài này (tháng 1 năm 2025):
 
-| ------------------- | ------- | ------ | --- | ----------- | --- | -------- |
 
-| Blockstream Green | 🟢 | 🟢 | 🟢 (Mobile) | 🟢 | 🔴 |
+| Management Software  | Desktop | Mobile | USB | Bluetooth   | QR  | JadeLink |
+| -------------------- | ------- | ------ | --- | ----------- | --- | -------- |
+| Blockstream Green    | 🟢      | 🟢     | 🟢  | 🟢 (Mobile) | 🟢  | 🔴       |
+| Liana                | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Sparrow              | 🟢      | 🔴     | 🟢  | 🔴          | 🟢  | 🟢       |
+| Nunchuk              | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Specter              | 🟢      | 🔴     | 🔴  | 🔴          | 🟢  | 🟢       |
+| BlueWallet           | 🟢      | 🟢     | 🔴  | 🔴          | 🟢  | 🟢       |
+| Electrum             | 🟢      | 🔴     | 🟢  | 🔴          | 🔴  | 🔴       |
+| Keeper               | 🔴      | 🟢     | 🔴  | 🔴          | 🟢  | 🔴       |
 
-| Liana | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 |
+Trong hướng dẫn này, chúng ta sẽ thiết lập và sử dụng Jade Plus với ứng dụng di động Green Wallet của Blockstream thông qua kết nối Bluetooth. Thiết lập này lý tưởng cho người mới bắt đầu. Nếu bạn đang tìm kiếm cách tiếp cận nâng cao hơn, tôi khuyên bạn nên xem hướng dẫn này, nơi chúng tôi sử dụng Jade Plus với Sparrow Wallet ở chế độ mã QR:
 
-| Sparrow | 🟢 | 🔴 | 🟢 | 🔴 | 🟢 | 🟢 |
-
-| Nunchuk | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Specter | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| BlueWallet | 🟢 | 🟢 | 🔴 | 🔴 | 🟢 | 🟢 |
-
-| Electrum | 🟢 | 🔴 | 🟢 | 🔴 | 🔴 | 🔴 |
-
-| Keeper | 🔴 | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
-
-In this tutorial, we'll set up and use the Jade Plus with Blockstream's Green Wallet mobile app via a Bluetooth connection. This setup is ideal for beginners. If you're looking for a more advanced approach, I recommend you take a look at this tutorial where we use the Jade Plus with Sparrow Wallet in QR codes mode:
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-## The Jade Plus safety model
-
-The Jade Plus uses a security model based on a "virtual secure element", materialized by a "blind oracle". In concrete terms, this mechanism combines the PIN chosen by the user, a secret hosted on the Jade and a secret held by the oracle (a server maintained by Blockstream), to create an AES-256 key distributed over two entities. During initiation, an ECDH exchange secures communication with the oracle, and encrypts the recovery phrase on the hardware wallet. In practical terms, when you want to access the seed to sign transactions, you need access to :
+## Mẫu an toàn Jade Plus
 
 
-- To the Jade Plus device itself;
-- To PIN to unlock the device ;
-- And to the secret of the oracle.
+Jade Plus sử dụng mô hình bảo mật dựa trên "secure element ảo", được hiện thực hóa bởi một "oracle mù". Cụ thể, cơ chế này kết hợp mã PIN do người dùng chọn, một khóa bí mật được lưu trữ trên Jade và một khóa bí mật do oracle (máy chủ do Blockstream duy trì) nắm giữ để tạo ra khóa AES-256 được phân bổ cho hai thực thể. Trong quá trình khởi tạo, việc trao đổi ECDH bảo mật giao tiếp với oracle và mã hóa cụm từ khôi phục trên phần cứng wallet. Trên thực tế, khi bạn muốn truy cập seed để ký giao dịch, bạn cần quyền truy cập vào:
 
-The major advantage of this approach is the absence of a single point of failure at hardware level, since if an attacker ever gains access to your Jade, extracting the keys requires simultaneously compromising the Jade and the oracle. This model also means that Jade Plus is entirely open-source, avoiding the constraints associated with the use of true physical secure elements, such as those used on Ledger, for example.
 
-The disadvantage of this system is that the use of Jade Plus depends on the oracle maintained by Blockstream. If this oracle becomes inaccessible, it is no longer possible to use the hardware wallet directly with the PIN. However, this does not mean that your bitcoins are lost, as they can still be recovered using your recovery phrase, which you can enter in Jade Plus in "*stateless*" mode. To get around this dependency, you can also configure and manage your own oracle server.
 
-## Unboxing the Jade Plus
 
-When you receive your Jade Plus, check that the box and seal are in good condition to ensure that your package has not been opened.
+- Đối với chính thiết bị Jade Plus;
+- Nhập mã PIN để mở khóa thiết bị;
+- Và cả bí mật của lời tiên tri nữa.
+
+
+Ưu điểm chính của phương pháp này là không có điểm lỗi duy nhất ở cấp độ phần cứng, vì nếu kẻ tấn công có thể truy cập vào Jade của bạn, việc trích xuất khóa đòi hỏi phải đồng thời xâm nhập cả Jade và oracle. Mô hình này cũng có nghĩa là Jade Plus hoàn toàn là mã nguồn mở, tránh được những hạn chế liên quan đến việc sử dụng các secure element vật lý thực sự, chẳng hạn như những Ledger.
+
+
+Nhược điểm của hệ thống này là việc sử dụng Jade Plus phụ thuộc vào oracle do Blockstream duy trì. Nếu oracle này không thể truy cập được, bạn sẽ không thể sử dụng trực tiếp thiết bị phần cứng wallet với mã PIN nữa. Tuy nhiên, điều này không có nghĩa là bitcoin của bạn bị mất, vì chúng vẫn có thể được khôi phục bằng cụm từ khôi phục, mà bạn có thể nhập vào Jade Plus ở chế độ "không trạng thái". Để khắc phục sự phụ thuộc này, bạn cũng có thể cấu hình và quản lý máy chủ oracle của riêng mình.
+
+
+## Mở hộp Jade Plus
+
+
+Khi nhận được Jade Plus, hãy kiểm tra hộp và niêm phong xem còn nguyên vẹn không để đảm bảo gói hàng của bạn chưa bị mở.
+
 
 ![JADE-PLUS-GREEN](assets/fr/02.webp)
 
-In the box you will find :
+
+Trong hộp bạn sẽ tìm thấy:
+
+
 
 
 - Le Jade Plus;
-- USB-C cable;
-- Cards to record your mnemonic phrase as words or as "*CompactSeedQR*";
-- Some instructions for use ;
-- A cord;
-- Some stickers.
+- Cáp USB-C;
+- Thẻ để ghi lại cụm từ ghi nhớ của bạn dưới dạng từ hoặc dưới dạng "*CompactSeedQR*";
+- Một số hướng dẫn sử dụng;
+- Một sợi dây;
+- Một số hình dán.
+
 
 ![JADE-PLUS-GREEN](assets/fr/03.webp)
 
-The device has 4 navigation buttons:
+
+Thiết bị có 4 nút điều hướng:
 
 
-- The button on the bottom right turns the Jade on;
-- The large button on the front of the device is used to select an item;
-- The two small buttons at the top allow you to navigate left and right;
-- You can also select an item by simultaneously clicking on the two buttons at the top of the device.
+
+
+- Nút ở phía dưới bên phải dùng để bật Jade;
+- Nút lớn ở phía trước thiết bị được dùng để chọn một mục;
+- Hai nút nhỏ ở phía trên cho phép bạn di chuyển sang trái và phải;
+- Bạn cũng có thể chọn một mục bằng cách nhấn đồng thời vào hai nút ở phía trên thiết bị.
+
 
 ![JADE-PLUS-GREEN](assets/fr/04.webp)
 
-## Setting up a new Bitcoin wallet
 
-Click on the start button.
+## Thiết lập Bitcoin wallet mới
+
+
+Nhấp vào nút bắt đầu.
+
 
 ![JADE-PLUS-GREEN](assets/fr/05.webp)
 
-Click on "*Setup Jade*".
+
+Nhấp vào "*Thiết lập Jade*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/06.webp)
 
-Choose "Begin Setup". The "*Advanced Setup*" option does the same thing, but with access to advanced settings.
+
+Chọn "Bắt đầu thiết lập". Tùy chọn "*Thiết lập nâng cao*" cũng thực hiện thao tác tương tự, nhưng cho phép truy cập vào các cài đặt nâng cao.
+
 
 ![JADE-PLUS-GREEN](assets/fr/07.webp)
 
-Then click on "*Create a New Wallet*" to generate a new seed.
+
+Sau đó nhấp vào "*Tạo Wallet mới*" để tạo seed mới.
+
 
 ![JADE-PLUS-GREEN](assets/fr/08.webp)
 
-Click on the "*Continue*" button to display your new recovery phrase.
+
+Nhấp vào nút "*Tiếp tục*" để hiển thị cụm từ khôi phục mới của bạn.
+
 
 ![JADE-PLUS-GREEN](assets/fr/09.webp)
 
-Your Jade Plus displays your 12-word mnemonic phrase. **This mnemonic gives you full, unrestricted access to all your bitcoins. Anyone in possession of this phrase can steal your funds, even without physical access to your Jade Plus. The 12-word phrase restores access to your bitcoins in the event of loss, theft or breakage of your Jade. It is therefore very important to save it carefully and store it in a secure location.**
 
-You can write it on the cardboard supplied in the box, or for added security, I recommend engraving it on a stainless steel base to protect it from fire, flood or collapse.
+Thiết bị Jade Plus của bạn hiển thị cụm từ ghi nhớ 12 từ. **Cụm từ ghi nhớ này cho phép bạn truy cập đầy đủ và không hạn chế vào tất cả bitcoin của mình. Bất kỳ ai sở hữu cụm từ này đều có thể đánh cắp tiền của bạn, ngay cả khi không có quyền truy cập vật lý vào Jade Plus của bạn. Cụm từ 12 từ này sẽ khôi phục quyền truy cập vào bitcoin của bạn trong trường hợp Jade bị mất, bị đánh cắp hoặc bị hỏng. Do đó, điều rất quan trọng là phải lưu giữ nó cẩn thận và cất giữ ở một nơi an toàn.**
+
+
+Bạn có thể viết nó lên tấm bìa cứng được cung cấp trong hộp, hoặc để an toàn hơn, tôi khuyên bạn nên khắc nó lên đế bằng thép không gỉ để bảo vệ khỏi hỏa hoạn, lũ lụt hoặc sụp đổ.
+
 
 ![JADE-PLUS-GREEN](assets/fr/10.webp)
 
-For more information on the proper way to save and manage your mnemonic phrase, I highly recommend following this other tutorial, especially if you're a beginner:
+
+Để biết thêm thông tin về cách lưu và quản lý cụm từ ghi nhớ đúng cách, tôi đặc biệt khuyên bạn nên tham khảo hướng dẫn khác này, nhất là nếu bạn là người mới bắt đầu:
+
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-**Obviously, you must never share these words on the Internet, as I do in this tutorial. This sample portfolio will be used only on Testnet and will be deleted at the end of the tutorial**
+**Rõ ràng là bạn tuyệt đối không được chia sẻ những từ ngữ này trên Internet, như tôi đã làm trong hướng dẫn này. Mẫu wallet này sẽ chỉ được sử dụng trên Testnet và sẽ bị xóa khi kết thúc hướng dẫn.**
 
-Click on the arrow on the right of the screen to display the following words.
+
+Nhấp vào mũi tên ở bên phải màn hình để hiển thị các từ sau.
+
 
 ![JADE-PLUS-GREEN](assets/fr/11.webp)
 
-Once you've saved your phrase, Jade Plus asks you to confirm it. Select the correct word according to the order using the buttons at the top of the device, and click the central button to move on to the next word.
+
+Sau khi lưu cụm từ, Jade Plus sẽ yêu cầu bạn xác nhận. Chọn từ đúng theo thứ tự bằng các nút ở phía trên thiết bị, rồi nhấn nút ở giữa để chuyển sang từ tiếp theo.
+
 
 ![JADE-PLUS-GREEN](assets/fr/12.webp)
 
-## Connecting Jade Plus to Green Wallet
 
-In this tutorial, we'll use the Green Wallet application to manage the wallet hosted on the Jade Plus. This method is particularly suitable for beginners. If you'd like to manage your Bitcoin wallet in more detail, you can also use Sparrow Wallet, which we'll cover in a separate tutorial:
+## Kết nối Jade Plus với Green Wallet
+
+
+Trong hướng dẫn này, chúng ta sẽ sử dụng ứng dụng Green Wallet để quản lý wallet được lưu trữ trên Jade Plus. Phương pháp này đặc biệt phù hợp cho người mới bắt đầu. Nếu bạn muốn quản lý Bitcoin wallet chi tiết hơn, bạn cũng có thể sử dụng Sparrow Wallet, mà chúng ta sẽ đề cập trong một hướng dẫn riêng:
+
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
-For instructions on installing and setting up the Blockstream Green application, please see the first part of this other tutorial:
+Để biết hướng dẫn về cách cài đặt và thiết lập ứng dụng Blockstream Green, vui lòng xem phần đầu tiên của hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-fb65-48c1-a357-8a5f27996143
 
-Once on the Blockstream Green application, click on the "*Configure a new portfolio*" button.
+Sau khi mở ứng dụng Blockstream Green, hãy nhấp vào nút "*Cấu hình wallet mới*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/13.webp)
 
-Select "*On Hardware Wallet*".
+
+Chọn "*Trên Hardware Wallet*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/14.webp)
 
-Activate Bluetooth on your smartphone, then click on the "*Connect your Jade*" button.
+
+Kích hoạt Bluetooth trên điện thoại thông minh của bạn, sau đó nhấn vào nút "Kết nối Jade của bạn".
+
 
 ![JADE-PLUS-GREEN](assets/fr/15.webp)
 
-Authorize the Green application to access Bluetooth connections.
+
+Cấp quyền cho ứng dụng Green truy cập các kết nối Bluetooth.
+
 
 ![JADE-PLUS-GREEN](assets/fr/16.webp)
 
-The application is looking for your Jade Plus.
+
+Ứng dụng đang tìm kiếm thiết bị Jade Plus của bạn.
+
 
 ![JADE-PLUS-GREEN](assets/fr/17.webp)
 
-On the Jade Plus, click on the "*Bluetooth*" menu.
+
+Trên Jade Plus, hãy nhấp vào menu "*Bluetooth*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/18.webp)
 
-Select your device on the Green application.
+
+Chọn thiết bị của bạn trên ứng dụng Green.
+
 
 ![JADE-PLUS-GREEN](assets/fr/19.webp)
 
-Confirm the pairing code on your Jade Plus.
+
+Hãy xác nhận mã ghép nối trên thiết bị Jade Plus của bạn.
+
 
 ![JADE-PLUS-GREEN](assets/fr/20.webp)
 
-Green offers you a test to ensure that your Jade is genuine. Click on the button to do so.
+
+Green cung cấp cho bạn một bài kiểm tra để đảm bảo rằng Jade của bạn là hàng chính hãng. Nhấp vào nút để thực hiện.
+
 
 ![JADE-PLUS-GREEN](assets/fr/21.webp)
 
-Confirm on the Jade.
+
+Xác nhận trên Jade.
+
 
 ![JADE-PLUS-GREEN](assets/fr/22.webp)
 
-Green confirms that your device is genuine.
+
+Green xác nhận rằng thiết bị của bạn là hàng chính hãng.
+
 
 ![JADE-PLUS-GREEN](assets/fr/23.webp)
 
-## Setting the PIN code
 
-Click on the "*Continue*" button to choose your Jade's PIN code.
+## Thiết lập mã PIN
+
+
+Nhấp vào nút "*Tiếp tục*" để chọn mã PIN cho Jade của bạn.
+
 
 ![JADE-PLUS-GREEN](assets/fr/24.webp)
 
-The PIN code unlocks your Jade. It is therefore a protection against unauthorized physical access. This PIN code is not involved in the derivation of your wallet's cryptographic keys. So, even without access to this PIN code, possession of your 12-word mnemonic phrase will enable you to regain access to your bitcoins. We recommend choosing a PIN code that is as random as possible. And be sure to save this code in a separate location from where your Jade is stored (e.g. in a password manager).
 
-Choose the 6-digit PIN code on your Jade, using the right and left buttons to scroll through the digits, and the middle button to confirm the entry of a digit.
+Mã PIN mở khóa Jade của bạn. Do đó, nó là một biện pháp bảo vệ chống lại việc truy cập vật lý trái phép. Mã PIN này không liên quan đến việc tạo ra các khóa mã hóa của wallet. Vì vậy, ngay cả khi không có mã PIN này, việc sở hữu cụm từ ghi nhớ 12 từ sẽ cho phép bạn lấy lại quyền truy cập vào bitcoin của mình. Chúng tôi khuyên bạn nên chọn một mã PIN càng ngẫu nhiên càng tốt. Và hãy chắc chắn lưu mã này ở một nơi riêng biệt với nơi bạn lưu trữ Jade (ví dụ: trong trình quản lý mật khẩu).
+
+
+Chọn mã PIN 6 chữ số trên thiết bị Jade của bạn bằng cách sử dụng các nút bên phải và bên trái để cuộn qua các chữ số, và nút ở giữa để xác nhận việc nhập một chữ số.
+
 
 ![JADE-PLUS-GREEN](assets/fr/25.webp)
 
-Confirm your PIN a second time.
+
+Hãy xác nhận mã PIN của bạn lần thứ hai.
+
 
 ![JADE-PLUS-GREEN](assets/fr/26.webp)
 
-Your bitcoin wallet has been created.
+
+Giao dịch Bitcoin wallet của bạn đã được tạo.
+
 
 ![JADE-PLUS-GREEN](assets/fr/27.webp)
 
-## Create a Bitcoin account
 
-You must now create an account within your portfolio. Click on the "*Create an account*" button.
+## Tạo tài khoản Bitcoin
+
+
+Bạn cần tạo tài khoản trong wallet. Nhấp vào nút "*Tạo tài khoản*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/28.webp)
 
-Choose "*Standard*" if you wish to create a classic single-sig portfolio.
+
+Chọn "*Tiêu chuẩn*" nếu bạn muốn tạo một khẩu wallet cổ điển với một chữ ký duy nhất.
+
 
 ![JADE-PLUS-GREEN](assets/fr/29.webp)
 
-For more information on the "*2FA*" option, you can follow this other tutorial:
+
+Để biết thêm thông tin về tùy chọn "*2FA*", bạn có thể tham khảo hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/mobile/blockstream-green-2fa-37397d5c-5c27-44ad-a27a-c9ceac8c9df9
 
-Your account has been created.
+Tài khoản của bạn đã được tạo.
+
 
 ![JADE-PLUS-GREEN](assets/fr/30.webp)
 
-If you wish to personalize your Green portfolio, click on the three small dots at top right.
+
+Nếu bạn muốn cá nhân hóa chiếc Green wallet của mình, hãy nhấp vào ba dấu chấm nhỏ ở góc trên bên phải.
+
 
 ![JADE-PLUS-GREEN](assets/fr/31.webp)
 
-The "*Rename*" option lets you customize the name of your portfolio, which is particularly useful if you manage several portfolios on the same application. The "*Unit*" menu lets you change the basic unit of your portfolio. For example, you can choose to display it in satoshis rather than bitcoins. Finally, the "*Parameters*" menu gives you access to other options. Here, for example, you'll find your extended public key and its descriptor, useful if you're planning to set up a watch-only wallet from your Jade.
+
+Tùy chọn "*Đổi tên*" cho phép bạn tùy chỉnh tên của wallet, điều này đặc biệt hữu ích nếu bạn quản lý nhiều wallet trên cùng một ứng dụng. Menu "*Đơn vị*" cho phép bạn thay đổi đơn vị cơ bản của wallet. Ví dụ, bạn có thể chọn hiển thị nó bằng satoshi thay vì bitcoin. Cuối cùng, menu "*Thông số*" cung cấp cho bạn quyền truy cập vào các tùy chọn khác. Ví dụ, tại đây bạn sẽ tìm thấy khóa công khai mở rộng và mô tả của nó, hữu ích nếu bạn đang có kế hoạch thiết lập một wallet chỉ để xem từ Jade của mình.
+
 
 ![JADE-PLUS-GREEN](assets/fr/32.webp)
 
-To reconnect to your Jade after switching it off, press the on/off button at the bottom of the device. On the Green application, select your device from the home page:
+
+Để kết nối lại với Jade sau khi tắt thiết bị, hãy nhấn nút bật/tắt ở phía dưới thiết bị. Trên ứng dụng Green, chọn thiết bị của bạn từ trang chủ:
+
 
 ![JADE-PLUS-GREEN](assets/fr/33.webp)
 
-Then enter the PIN code on your Jade, and you'll be connected again.
+
+Sau đó, nhập mã PIN trên thiết bị Jade của bạn, và bạn sẽ được kết nối lại.
+
 
 ![JADE-PLUS-GREEN](assets/fr/34.webp)
 
-Your Jade is unlocked via Blockstream's "virtual secure element" (see the first section of this tutorial). This requires a Bluetooth connection with the Green application. If you encounter difficulties with the Bluetooth connection during unlocking, try dissociating and reassociating the two devices. If the problem persists, you can still unlock your Jade by selecting the "*QR Scan*" option and following the instructions available [on the Blockstream website](https://jadefw.blockstream.com/pinqr/index.html).
 
-Before you receive your first bitcoins in your wallet, **I strongly advise you to perform an empty recovery test**. Make a note of some reference information, such as your xpub or first receiving address, then delete your wallet on the Green app and on the Jade Plus while it's still empty (`Options -> Device -> Factory Reset`). Then try to restore your wallet using your paper backups of the mnemonic phrase. Check that the cookie information generated after the restore matches the one you originally wrote down. If it does, you can rest assured that your paper backups are reliable. To find out more about how to carry out a test recovery, please consult this other tutorial :
+Thiết bị Jade của bạn được mở khóa thông qua "secure element ảo" của Blockstream (xem phần đầu tiên của hướng dẫn này). Việc này yêu cầu kết nối Bluetooth với ứng dụng Green. Nếu bạn gặp khó khăn với kết nối Bluetooth trong quá trình mở khóa, hãy thử ngắt kết nối và kết nối lại hai thiết bị. Nếu sự cố vẫn tiếp diễn, bạn vẫn có thể mở khóa Jade bằng cách chọn tùy chọn "*Quét mã QR*" và làm theo hướng dẫn có sẵn [trên trang web của Blockstream](https://jadefw.blockstream.com/pinqr/index.html).
+
+
+Trước khi nhận được những đồng bitcoin đầu tiên trên wallet, **tôi khuyên bạn nên thực hiện kiểm tra khôi phục trống**. Hãy ghi lại một số thông tin tham khảo, chẳng hạn như địa chỉ xpub hoặc địa chỉ nhận tiền đầu tiên của bạn, sau đó xóa wallet trên ứng dụng Green và trên Jade Plus khi thiết bị vẫn đang trống (`Tùy chọn -> Thiết bị -> Khôi phục cài đặt gốc`). Sau đó, hãy thử khôi phục wallet bằng cách sử dụng bản sao lưu giấy của cụm từ ghi nhớ. Kiểm tra xem thông tin cookie được tạo ra sau khi khôi phục có khớp với thông tin bạn đã ghi lại ban đầu hay không. Nếu khớp, bạn có thể yên tâm rằng bản sao lưu giấy của bạn đáng tin cậy. Để tìm hiểu thêm về cách thực hiện kiểm tra khôi phục, vui lòng tham khảo hướng dẫn khác này:
+
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Receive bitcoins
+## Nhận bitcoin
 
-Now that your Bitcoin wallet is set up, you're ready to receive your first sats! Simply click on the "*Receive*" button on the Green application.
+
+Giờ đây, sau khi đã thiết lập xong Bitcoin và wallet, bạn đã sẵn sàng nhận chiếc sats đầu tiên! Chỉ cần nhấp vào nút "*Nhận*" trên ứng dụng Green.
+
 
 ![JADE-PLUS-GREEN](assets/fr/35.webp)
 
-Green displays a reception address, but before using it, it's essential to check it on the Jade to confirm that it actually belongs to our portfolio. To do this, click on the "*Verify on device*" button.
+
+Green hiển thị địa chỉ nhận tín hiệu, nhưng trước khi sử dụng, điều cần thiết là phải kiểm tra trên Jade để xác nhận rằng nó thực sự thuộc về wallet của chúng ta. Để làm điều này, hãy nhấp vào nút "*Xác minh trên thiết bị*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/36.webp)
 
-Check on the Jade that the address is the same as on Green, then click on the button to confirm.
+
+Kiểm tra trên Jade xem địa chỉ có giống với trên Green hay không, sau đó nhấp vào nút để xác nhận.
+
 
 ![JADE-PLUS-GREEN](assets/fr/37.webp)
 
-You can now share the address with the payer to receive bitcoins in your wallet. When the transaction is broadcast on the network, it will appear in your wallet. Wait until you've received enough confirmations to consider the transaction definitive.
+
+Giờ đây bạn có thể chia sẻ địa chỉ với người trả tiền để nhận bitcoin vào wallet của mình. Khi giao dịch được phát sóng trên mạng, nó sẽ xuất hiện trong wallet của bạn. Hãy đợi cho đến khi bạn nhận được đủ xác nhận để coi giao dịch là hoàn tất.
+
 
 ![JADE-PLUS-GREEN](assets/fr/38.webp)
 
-## Send bitcoins
 
-With bitcoins in your wallet, you can now also send bitcoins. Click on "*Send*".
+## Gửi bitcoin
+
+
+Với Bitcoin trong wallet, giờ đây bạn cũng có thể gửi Bitcoin. Nhấp vào "*Gửi*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/39.webp)
 
-On the next page, enter the recipient's address. You can enter it manually or scan a QR code.
+
+Ở trang tiếp theo, hãy nhập địa chỉ người nhận. Bạn có thể nhập thủ công hoặc quét mã QR.
+
 
 ![JADE-PLUS-GREEN](assets/fr/40.webp)
 
-Choose the payment amount.
+
+Chọn số tiền thanh toán.
+
 
 ![JADE-PLUS-GREEN](assets/fr/41.webp)
 
-At the bottom of the screen, you can select the fee rate for this transaction. You have the choice of following the application's recommendations or customizing your fees. The higher the fee in relation to other pending transactions, the faster your transaction will be processed. For fee market information, please visit [Mempool.space](https://mempool.space/) in the "*Transaction Fees*" section.
+
+Ở cuối màn hình, bạn có thể chọn mức phí cho giao dịch này. Bạn có thể chọn theo khuyến nghị của ứng dụng hoặc tùy chỉnh mức phí của mình. Mức phí càng cao so với các giao dịch đang chờ xử lý khác, giao dịch của bạn sẽ được xử lý càng nhanh. Để biết thông tin về thị trường phí, vui lòng truy cập [Mempool.space](https://mempool.space/) trong mục "*Phí giao dịch*".
+
 
 ![JADE-PLUS-GREEN](assets/fr/42.webp)
 
-Click on "*Next*" to access the transaction summary screen. Check that the address, amount and charges are correct.
+
+Nhấp vào "*Tiếp theo*" để truy cập màn hình tóm tắt giao dịch. Kiểm tra xem địa chỉ, số tiền và phí có chính xác không.
+
 
 ![JADE-PLUS-GREEN](assets/fr/43.webp)
 
-If all goes well, slide the green button at the bottom of the screen to the right to sign and broadcast the transaction on the Bitcoin network.
+
+Nếu mọi việc suôn sẻ, hãy trượt nút màu xanh lá cây ở cuối màn hình sang bên phải để ký và phát sóng giao dịch trên mạng Bitcoin.
+
 
 ![JADE-PLUS-GREEN](assets/fr/44.webp)
 
-You are now asked to confirm the transaction on the Jade.
+
+Bạn được yêu cầu xác nhận giao dịch trên thiết bị Jade.
+
 
 ![JADE-PLUS-GREEN](assets/fr/45.webp)
 
-Make sure the recipient's address is correct. Click on the checkmark to confirm.
+
+Hãy chắc chắn rằng địa chỉ người nhận là chính xác. Nhấp vào dấu tích để xác nhận.
+
 
 ![JADE-PLUS-GREEN](assets/fr/46.webp)
 
-Check that the charge amount is correct, then validate.
+
+Kiểm tra lại số tiền thanh toán xem có chính xác không, sau đó xác nhận.
+
 
 ![JADE-PLUS-GREEN](assets/fr/47.webp)
 
-Your transaction has been signed and broadcast from Green.
+
+Giao dịch của bạn đã được ký và phát sóng từ Green.
+
 
 ![JADE-PLUS-GREEN](assets/fr/48.webp)
 
-Congratulations, you now know how to set up and use the Jade Plus with the Blockstream Green mobile application, via Bluetooth connection. If you found this tutorial useful, I'd be grateful if you'd leave a green thumb below. Feel free to share this article on your social networks. Thanks for sharing!
 
-To take things a step further, I recommend this tutorial on the Jade Plus, where we configure it with Sparrow Wallet software in QR mode. You'll also learn how to use the advanced settings of your hardware wallet:
+Chúc mừng, giờ bạn đã biết cách thiết lập và sử dụng Jade Plus với ứng dụng di động Blockstream Green thông qua kết nối Bluetooth. Nếu bạn thấy hướng dẫn này hữu ích, tôi rất biết ơn nếu bạn để lại một biểu tượng ngón tay cái màu xanh lá cây bên dưới. Hãy thoải mái chia sẻ bài viết này trên mạng xã hội của bạn. Cảm ơn vì đã chia sẻ!
+
+
+Để hiểu rõ hơn, tôi khuyên bạn nên tham khảo hướng dẫn này về Jade Plus, trong đó chúng ta sẽ cấu hình nó với phần mềm Sparrow Wallet ở chế độ QR. Bạn cũng sẽ học cách sử dụng các cài đặt nâng cao của phần cứng wallet:
+
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
-
-

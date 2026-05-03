@@ -5,5 +5,5 @@ wrong_answers:
   - Kikundi cha ushirika
   - Kikundi cha kinyume
 explanation: |
-  Kikundi cha abelian, au cha kubadilisha, ni kikundi ambacho mpangilio wa Elements katika operesheni ya binary hauathiri matokeo. Hii ina maana kwamba kwa yoyote a na b, a ∘ b = b ∘ a.
-reviewed: false
+  Kikundi cha abelian, au cha kubadilisha, ni kikundi ambacho mpangilio wa Elements katika operesheni ya biti hauathiri matokeo. Hii ina maana kwamba kwa yoyote a na b, a ∘ b = b ∘ a.
+reviewed: true

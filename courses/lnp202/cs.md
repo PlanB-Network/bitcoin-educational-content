@@ -92,7 +92,7 @@ Pokud budete postupovat podle tohoto kurzu LNP202 ve správném pořadí, budete
 
 
 
-Před spuštěním vlastního uzlu se v této kapitole stručně seznámíte se základní teorií Lightning Network. Je skutečně důležité porozumět příslušným mechanismům, protože vám to umožní identifikovat rizika a přijmout správné postupy k jejich omezení. Nebudu zde však zacházet do podrobností, protože to není hlavním cílem tohoto kurzu. Pokud byste chtěli do tématu proniknout hlouběji, vřele doporučuji prostudovat kurz LNP 201 od Fanise Michalakise, který je v této oblasti referencí:
+Před spuštěním vlastního uzlu se v této kapitole stručně seznámíte se základní teorií [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Je skutečně důležité porozumět příslušným mechanismům, protože vám to umožní identifikovat rizika a přijmout správné postupy k jejich omezení. Nebudu zde však zacházet do podrobností, protože to není hlavním cílem tohoto kurzu. Pokud byste chtěli do tématu proniknout hlouběji, vřele doporučuji prostudovat kurz LNP 201 od Fanise Michalakise, který je v této oblasti referencí:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Vraťme se k základům: než definujeme, co je to uzel, musíme pochopit, co je to Lightning Network. Je to protokol nejvyšší vrstvy postavený nad protokolem Bitcoin, který je navržen tak, aby umožňoval transakce mimo řetězec BTC, které jsou rychlé (s téměř okamžitou konečností) a obecně levné. "Offchain" znamená, že transakce prováděné na Lightningu nejsou určeny k tomu, aby se objevily v hlavním blockchainu Bitcoin. Lightning je také částečnou reakcí na rostoucí využívání Bitcoin a na přetížení onchainu, které vyvolává obavy o škálovatelnost systému.
+Vraťme se k základům: než definujeme, co je to uzel, musíme pochopit, co je to Lightning Network. Je to protokol nejvyšší vrstvy postavený nad protokolem Bitcoin, který je navržen tak, aby umožňoval transakce mimo řetězec BTC, které jsou rychlé (s téměř okamžitou konečností) a obecně levné. "[Offchain](https://planb.academy/resources/glossary/offchain)" znamená, že transakce prováděné na Lightningu nejsou určeny k tomu, aby se objevily v hlavním [blockchainu](https://planb.academy/resources/glossary/blockchain) Bitcoin. Lightning je také částečnou reakcí na rostoucí využívání Bitcoin a na přetížení [onchainu](https://planb.academy/resources/glossary/onchain), které vyvolává obavy o [škálovatelnost](https://planb.academy/resources/glossary/scalability) systému.
 
 
 
-Pro své fungování Lightning spoléhá na otevření platebních kanálů mezi účastníky, v jejichž rámci lze transakce provádět téměř okamžitě, často s minimálními poplatky, aniž by bylo nutné je postupně registrovat v blockchainu Bitcoin. Tyto kanály mohou zůstat otevřené po velmi dlouhou dobu a vyžadují transakce na řetězci pouze při jejich otevření a uzavření.
+Pro své fungování Lightning spoléhá na otevření [platebních kanálů](https://planb.academy/resources/glossary/payment-channel) mezi účastníky, v jejichž rámci lze transakce provádět téměř okamžitě, často s minimálními poplatky, aniž by bylo nutné je postupně registrovat v blockchainu Bitcoin. Tyto kanály mohou zůstat otevřené po velmi dlouhou dobu a vyžadují transakce na řetězci pouze při jejich otevření a uzavření.
 
 
 
-Uzel Lightning je účastníkem sítě Lightning, který otevírá kanály a provádí platby s jinými uzly. Konkrétně je uzel Lightning kus softwaru běžícího na počítači a implementujícího protokol Lightning Network. Příklady zahrnují LND, Core Lightning nebo Eclair. Hlavním úkolem tohoto softwaru je:
+[Uzel Lightning](https://planb.academy/resources/glossary/lightning-node) je účastníkem sítě Lightning, který otevírá kanály a provádí platby s jinými uzly. Konkrétně je uzel Lightning kus softwaru běžícího na počítači a implementujícího protokol Lightning Network. Příklady zahrnují LND, Core Lightning nebo Eclair. Hlavním úkolem tohoto softwaru je:
 
 
 
 
-- připojit se k uzlu Bitcoin a získat informace z hlavního blockchainu;
+- připojit se k [uzlu Bitcoin](https://planb.academy/resources/glossary/full-node) a získat informace z hlavního blockchainu;
 - vytvářet a spravovat obousměrné platební kanály s jinými uzly;
 - vyměňovat zprávy s celou sítí Lightning.
 
@@ -129,7 +129,7 @@ Uzel Lightning je účastníkem sítě Lightning, který otevírá kanály a pro
 
 
 
-U Bitcoin (onchain) se "*wallet*" vztahuje na software, který spravuje vaše soukromé klíče, vypočítává váš zůstatek z vašich UTXO a vytváří vaše transakce. Tento wallet může být založen na vašem vlastním uzlu Bitcoin nebo na uzlu někoho jiného, ale dnes se role uzlu a role onchainu wallet jasně liší.
+U Bitcoin (onchain) se "*[wallet](https://planb.academy/resources/glossary/wallet)*" vztahuje na software, který spravuje vaše [soukromé klíče](https://planb.academy/resources/glossary/private-key), vypočítává váš zůstatek z vašich [UTXO](https://planb.academy/resources/glossary/utxo) a vytváří vaše transakce. Tento wallet může být založen na vašem vlastním uzlu Bitcoin nebo na uzlu někoho jiného, ale dnes se role uzlu a role onchainu wallet jasně liší.
 
 
 
@@ -141,7 +141,7 @@ V aplikaci Lightning je obtížnější tento druh slovní zásoby znovu použí
 
 
 
-- Používání služby úschovy: používáte aplikaci, která vám v aplikaci Lightning zobrazuje zůstatek na účtu sats, ale na pozadí jsou prostředky v uzlu poskytovatele (např. Wallet of Satoshi). Nemáte klíče ani kontrolu nad kanály. Váš zůstatek je pouze účetní záznam v databázi společnosti. Je to srovnatelné s ponecháním bitcoinů na burzovní platformě se všemi souvisejícími riziky. V tomto případě je váš "*Lightning wallet*" pouze přístupem k účtu spravovanému operátorem, který zase provozuje skutečný uzel Lightning.
+- Používání služby úschovy: používáte aplikaci, která vám v aplikaci Lightning zobrazuje zůstatek na účtu [sats](https://planb.academy/resources/glossary/satoshi-sat), ale na pozadí jsou prostředky v uzlu poskytovatele (např. Wallet of Satoshi). Nemáte klíče ani kontrolu nad kanály. Váš zůstatek je pouze účetní záznam v databázi společnosti. Je to srovnatelné s ponecháním bitcoinů na burzovní platformě se všemi souvisejícími riziky. V tomto případě je váš "*Lightning wallet*" pouze přístupem k účtu spravovanému operátorem, který zase provozuje skutečný uzel Lightning.
 
 
 
@@ -161,7 +161,7 @@ V této části vám stručně připomenu, jak Lightning funguje. Ještě jednou
 
 
 
-Základem sítě Lightning jsou obousměrné platební kanály. Kanál lze otevřít (tj. vytvořit), aktualizovat podle toho, jak probíhají transakce Lightning, a nakonec uzavřít. Z pohledu onchainu není kanál nic jiného než 2/2 vícepodpisový výstup.
+Základem sítě Lightning jsou obousměrné platební kanály. Kanál lze otevřít (tj. vytvořit), aktualizovat podle toho, jak probíhají transakce Lightning, a nakonec uzavřít. Z pohledu onchainu není kanál nic jiného než 2/2 [vícepodpisový](https://planb.academy/resources/glossary/multisig) [výstup](https://planb.academy/resources/glossary/output).
 
 
 
@@ -169,7 +169,7 @@ Základem sítě Lightning jsou obousměrné platební kanály. Kanál lze otev�
 
 
 
-Z pohledu Blesku se jedná o platební kanál s likviditou rozdělenou mezi dva účastníky.
+Z pohledu Blesku se jedná o platební kanál s [likviditou](https://planb.academy/resources/glossary/liquidity-lightning) rozdělenou mezi dva účastníky.
 
 
 
@@ -183,7 +183,7 @@ Z pohledu Blesku se jedná o platební kanál s likviditou rozdělenou mezi dva 
 
 
 
-Dva uzly se rozhodnou otevřít kanál. Jeden z nich odevzdá bitcoiny v řetězové transakci nazvané *finanční transakce*. Tato transakce vytvoří výstup založený na multisignature skriptu 2 z 2, což znamená, že utracení těchto prostředků na Bitcoin vyžaduje podpis obou uzlů v kanálu. Před vydáním této transakce strana poskytující prostředky požádá druhou stranu o podepsání transakce *výběr*, která není vydávána onchain, ale která jí umožňuje získat zpět své prostředky v případě problému.
+Dva uzly se rozhodnou otevřít kanál. Jeden z nich odevzdá bitcoiny v řetězové transakci nazvané *finanční transakce*. Tato transakce vytvoří výstup založený na multisignature [skriptu](https://planb.academy/resources/glossary/script) 2 z 2, což znamená, že utracení těchto prostředků na Bitcoin vyžaduje [podpis](https://planb.academy/resources/glossary/digital-signature) obou uzlů v kanálu. Před vydáním této transakce strana poskytující prostředky požádá druhou stranu o podepsání transakce *výběr*, která není vydávána onchain, ale která jí umožňuje získat zpět své prostředky v případě problému.
 
 
 
@@ -197,7 +197,7 @@ Dva uzly se rozhodnou otevřít kanál. Jeden z nich odevzdá bitcoiny v řetěz
 
 
 
-Stav kanálu (tj. distribuce sats mezi A a B) je reprezentován *commitment transaction*, který je znám oběma uzlům, ale není okamžitě vysílán do blockchainu. Tato transakce popisuje, jak přerozdělit prostředky kanálu v řetězci podle plateb provedených na Lightningu.
+Stav kanálu (tj. distribuce sats mezi A a B) je reprezentován *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, který je znám oběma uzlům, ale není okamžitě vysílán do blockchainu. Tato transakce popisuje, jak přerozdělit prostředky kanálu v řetězci podle plateb provedených na Lightningu.
 
 
 
@@ -237,7 +237,7 @@ Než se pustíme do dalších kroků, uvedeme dva základní pojmy pro pochopen�
 
 
 - Liquidity*: množství sats dostupné na jedné straně kanálu;
-- *kapacita*: jedná se o celkovou částku zablokovanou v multisigovém výstupu 2/2, tj. součet likvidity na obou stranách kanálu.
+- *[kapacita](https://planb.academy/resources/glossary/lightning-channel-capacity)*: jedná se o celkovou částku zablokovanou v multisigovém výstupu 2/2, tj. součet likvidity na obou stranách kanálu.
 
 
 
@@ -249,7 +249,7 @@ Kanál neslouží pouze k platbám mezi dvěma uzly: je součástí globální s
 
 
 
-Každý uzel zná prostřednictvím drbacího protokolu mapu této sítě: které kanály existují, které uzly jsou propojeny obousměrným kanálem a které kapacity jsou zveřejněny. Chcete-li poslat platbu příjemci bez přímého kanálu, vypočítá váš uzel trasu sestávající z několika skoků: váš uzel → uzel X → uzel Y → uzel příjemce. V každém skoku platba prochází kanálem, který musí mít dostatečnou likviditu ve směru platby.
+Každý uzel zná prostřednictvím [drbacího protokolu](https://planb.academy/resources/glossary/gossip) mapu této sítě: které kanály existují, které uzly jsou propojeny obousměrným kanálem a které kapacity jsou zveřejněny. Chcete-li poslat platbu příjemci bez přímého kanálu, vypočítá váš uzel trasu sestávající z několika skoků: váš uzel → uzel X → uzel Y → uzel příjemce. V každém skoku platba prochází kanálem, který musí mít dostatečnou likviditu ve směru platby.
 
 
 
@@ -265,7 +265,7 @@ Likvidita kanálu proto není symetrická: jedna strana může být silně zatí
 
 
 
-Aby mohly platby procházet přes zprostředkující uzly bez nutnosti důvěry, používá Lightning chytré smlouvy zvané *HTLC* (*Hashed Time-Locked Contracts*). Zjednodušeně řečeno, HTLC podmiňuje převod finančních prostředků odhalením tajemství a obsahuje časové omezení, které chrání odesílatele v případě selhání transakce. Každá platba je tedy podmíněna předložením předběžného obrazu (tajemství, jehož hash odpovídá dohodnuté hodnotě). Pokud konečný příjemce předloží tento předběžný obraz, může si nárokovat prostředky, což následně umožní každému zprostředkujícímu uzlu získat zpět své vlastní prostředky.
+Aby mohly platby procházet přes zprostředkující uzly bez nutnosti důvěry, používá Lightning [chytré smlouvy](https://planb.academy/resources/glossary/smart-contract) zvané *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Zjednodušeně řečeno, HTLC podmiňuje převod finančních prostředků odhalením tajemství a obsahuje časové omezení, které chrání odesílatele v případě selhání transakce. Každá platba je tedy podmíněna předložením předběžného obrazu (tajemství, jehož [hash](https://planb.academy/resources/glossary/hash-function) odpovídá dohodnuté hodnotě). Pokud konečný příjemce předloží tento předběžný obraz, může si nárokovat prostředky, což následně umožní každému zprostředkujícímu uzlu získat zpět své vlastní prostředky.
 
 
 
@@ -281,7 +281,7 @@ Ušetřím vás technických podrobností o tom, jak HTLC fungují, protože pro
 
 
 
-Stejně jako v případě Bitcoin existuje několik implementací protokolu Lightning. Řada nezávislých týmů vyvíjí vlastní verze, které jsou všechny interoperabilní, protože dodržují stejné specifikace (BOLT). Zde jsou hlavní dnes používané implementace.
+Stejně jako v případě Bitcoin existuje několik implementací protokolu Lightning. Řada nezávislých týmů vyvíjí vlastní verze, které jsou všechny interoperabilní, protože dodržují stejné specifikace ([BOLT](https://planb.academy/resources/glossary/bolt)). Zde jsou hlavní dnes používané implementace.
 
 
 
@@ -399,7 +399,7 @@ Dnes je možné mít uživatelský zážitek velmi podobný tomu, který poskytu
 
 
 
-Prvním řešením je jednoduše nepoužívat nativně Lightning, ale použít Bitcoin nebo Liquid wallet, které obsahují atomické výměny. Tuto metodu využívají například aplikace Aqua nebo Bull Bitcoin Wallet, které umožňují platit faktury Lightning, aniž byste sami provozovali uzel Lightning, a přitom zůstávají v režimu self-custody.
+Prvním řešením je jednoduše nepoužívat nativně Lightning, ale použít Bitcoin nebo [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, které obsahují [atomické výměny](https://planb.academy/resources/glossary/atomic-swap). Tuto metodu využívají například aplikace Aqua nebo BULL Wallet, které umožňují platit [faktury Lightning](https://planb.academy/resources/glossary/invoice-lightning), aniž byste sami provozovali uzel Lightning, a přitom zůstávají v režimu self-custody.
 
 
 
@@ -411,7 +411,7 @@ Princip je jednoduchý: vaše prostředky zůstávají v Bitcoin, buď v on-chai
 
 
 
-Hlavní výhodou tohoto přístupu ve srovnání s běžným bleskovým depozitářem wallet je, že své prostředky máte vždy stoprocentně ve své moci. Bitcoiny jsou ve vašem onchainu nebo Liquid wallet s vaší vlastní mnemotechnickou frází. I během směny zůstáváte ve vlastnictví svých prostředků, protože směna je atomická. Spoléhá na kryptografický mechanismus, který zajišťuje, že existují pouze dva možné výsledky: buď se výměna zcela podaří, nebo se nezdaří a služba si vaše prostředky nemůže přivlastnit.
+Hlavní výhodou tohoto přístupu ve srovnání s běžným bleskovým depozitářem wallet je, že své prostředky máte vždy stoprocentně ve své moci. Bitcoiny jsou ve vašem onchainu nebo Liquid wallet s vaší vlastní [mnemotechnickou frází](https://planb.academy/resources/glossary/seed). I během směny zůstáváte ve vlastnictví svých prostředků, protože směna je atomická. Spoléhá na kryptografický mechanismus, který zajišťuje, že existují pouze dva možné výsledky: buď se výměna zcela podaří, nebo se nezdaří a služba si vaše prostředky nemůže přivlastnit.
 
 
 
@@ -423,7 +423,7 @@ Toto řešení nabízí také zajímavé výhody z hlediska důvěrnosti, zejmé
 
 
 
-Na druhou stranu má tento přístup svá omezení. Zaprvé, není neocenitelný: jste závislí na dostupnosti a dobré vůli výměnné služby. Pokud již nechce zpracovávat váš účet nebo přestane fungovat, nemůžete jejím prostřednictvím platit faktury Blesku. Pak jsou tu nezanedbatelné poplatky: platíte jak poplatky za transakce v řetězci nebo Liquid, tak provizi swapové služby. Pokud navíc poplatky onchain prudce vzrostou, může se používání služby Lightning velmi prodražit.
+Na druhou stranu má tento přístup svá omezení. Zaprvé, není neocenitelný: jste závislí na dostupnosti a dobré vůli výměnné služby. Pokud již nechce zpracovávat váš účet nebo přestane fungovat, nemůžete jejím prostřednictvím platit faktury Blesku. Pak jsou tu nezanedbatelné poplatky: platíte jak [poplatky za transakce](https://planb.academy/resources/glossary/transaction-fees) v řetězci nebo Liquid, tak provizi swapové služby. Pokud navíc poplatky onchain prudce vzrostou, může se používání služby Lightning velmi prodražit.
 
 
 
@@ -479,7 +479,7 @@ Třetím řešením, kterému se budeme v tomto kurzu LNP202 věnovat podrobněj
 
 
 
-Pod pojmem "klasický" rozumím, že si sami nainstalujete a nakonfigurujete implementaci Lightning (např. LND) nad vlastním uzlem Bitcoin. Vyberete si své partnery, otevřete své kanály, spravujete příchozí a odchozí likviditu a nastavíte zásady směrování poplatků.
+Pod pojmem "klasický" rozumím, že si sami nainstalujete a nakonfigurujete implementaci Lightning (např. LND) nad vlastním uzlem Bitcoin. Vyberete si své partnery, otevřete své kanály, spravujete [příchozí a odchozí likviditu](https://planb.academy/resources/glossary/inbound-capacity) a nastavíte zásady směrování poplatků.
 
 
 
@@ -616,7 +616,7 @@ Poté se dostanete do hlavního rozhraní uzlu Lightning. Vlevo najdete svůj ř
 
 
 
-Uprostřed najdete blesk wallet. Ve skutečnosti představuje vaši odchozí hotovost, tj. bitcoiny, které vlastníte v rámci svých kanálů Lightning.
+Uprostřed najdete blesk wallet. Ve skutečnosti představuje vaši [odchozí hotovost](https://planb.academy/resources/glossary/outbound-capacity), tj. bitcoiny, které vlastníte v rámci svých kanálů Lightning.
 
 
 

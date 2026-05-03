@@ -1,0 +1,8 @@
+question: According to Menger, what phenomenon explains why a commodity becomes increasingly exchangeable as it is adopted as money?
+answer: The network externality effect that creates a virtuous circle of adoption
+wrong_answers:
+  - "Institutional regulation that gradually stabilizes its exchange value"
+  - "The natural decrease in supply mechanically increases scarcity"
+  - "The intervention of central authorities guarantees universal acceptance"
+explanation: |
+  Menger identifies the network externality effect as the key mechanism: the more a commodity is used as money, the more exchangeable it becomes, creating a virtuous circle where accumulation leads to exchangeability, which increases demand. The other options contradict the Austrian theory of spontaneous emergence, which rejects institutional intervention as the origin of money.

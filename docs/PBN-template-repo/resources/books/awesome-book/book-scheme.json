@@ -3,6 +3,10 @@
   "title": "book-characteristics",
   "type": "object",
   "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (UUID) for the book."
+    },
     "author": {
       "type": "string",
       "description": "The author of the book."
@@ -10,7 +14,15 @@
     "level": {
       "type": "string",
       "description": "The difficulty level of the book.",
-      "enum": ["beginner", "intermediate", "expert", "wizard"]
+      "enum": ["beginner", "intermediate", "advanced", "expert", "wizard"]
+    },
+    "original_language": {
+      "type": "string",
+      "description": "Original language of the book."
+    },
+    "license": {
+      "type": "string",
+      "description": "License of the book."
     },
     "tags": {
       "type": "array",
@@ -19,9 +31,39 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading status per language.",
+      "items": {
+        "type": "object"
+      }
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor names.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "object",
+      "description": "External links for the book (website, amazon, etc.).",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "maxProperties": 1,
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
     }
   },
-  "required": ["author", "level", "tags"],
+  "required": ["id", "author", "level", "original_language", "tags"],
   "additionalProperties": false
 }
 

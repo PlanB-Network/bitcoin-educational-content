@@ -191,7 +191,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 
-加密货币与权威之间的关系问题在 Bitcoin 的历史上出现得相当快。2010 年 12 月，《个人电脑世界》发表了一篇鼓励维基解密使用 Bitcoin 的文章，随后 Satoshi Nakamoto 退出了公众视野。似乎是为了证实他的直觉，这篇文章引起了人们对 Bitcoin 的广泛关注，其价格在短短几个月内从 0.20 美元跃升至 32 美元。Satoshi 继续与他最亲密的合作者进行私下交流，并最终于 2011 年春季销声匿迹。颇具象征意义的是，接手该项目的开发者加文-安德森（Gavin Andresen）在最后一条信息中告知 Bitcoin 的创建者，In-Q-Tel（一家由美国中央情报局管理的投资基金）已与他取得联系。潘多拉的盒子真的打开了。
+[加密货币](https://planb.academy/resources/glossary/cryptocurrency)与权威之间的关系问题在 Bitcoin 的历史上出现得相当快。2010 年 12 月，《个人电脑世界》发表了一篇鼓励维基解密使用 Bitcoin 的文章，随后 Satoshi Nakamoto 退出了公众视野。似乎是为了证实他的直觉，这篇文章引起了人们对 Bitcoin 的广泛关注，其价格在短短几个月内从 0.20 美元跃升至 32 美元。Satoshi 继续与他最亲密的合作者进行私下交流，并最终于 2011 年春季销声匿迹。颇具象征意义的是，接手该项目的开发者加文-安德森（Gavin Andresen）在最后一条信息中告知 Bitcoin 的创建者，In-Q-Tel（一家由美国中央情报局管理的投资基金）已与他取得联系。潘多拉的盒子真的打开了。
 
 
 
@@ -387,7 +387,7 @@ Bitcoin 也是一个很好的工具，因为它无法在一夜之间被当局关
 
 
 
-尤其是当时参与软件开发的程序员杰夫-加齐克（Jeff Garzik），对这种不受欢迎的联想不以为然。文章发表后，他亲自[联系](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Adrien Chen 通过电子邮件解释说，Bitcoin 并不像看上去那样匿名，所有交易都被永久记录在区块链上。他在邮件的最后写道
+尤其是当时参与软件开发的程序员杰夫-加齐克（Jeff Garzik），对这种不受欢迎的联想不以为然。文章发表后，他亲自[联系](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Adrien Chen 通过电子邮件解释说，Bitcoin 并不像看上去那样匿名，所有交易都被永久记录在[区块链](https://planb.academy/resources/glossary/blockchain)上。他在邮件的最后写道
 
 
 > "鉴于执法部门在实地部署的现有统计分析技术，试图用比特币进行重大非法交易是非常愚蠢的"。
@@ -932,7 +932,7 @@ Bitcoin 尤其受益于美国的自由主义运动，该运动既主张经济自
 
 
 
-两人相处融洽，技能互补。今年八月，埃里克-沃希斯正在寻找一名程序员来开发他的一个创意，艾拉接受了他的邀请。这就是 FeedZeBirds（字面意思是 "喂鸟"），一个让用户通过购买转发来提升 Twitter 上内容的广告平台，他们于 11 月 23 日[推出](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)了这个平台。利用 Bitcoin 的审查阻力和无交易费用的优势，这种做法值得商榷（Twitter 当然不鼓励这种行为）。11 月 28 日，这两个合作伙伴[出现](https://www.youtube.com/watch?v=VuLAhZsFc1A) 在*Bitcoin 节目*中宣传他们的产品。随后，他们还开发了 Paysius 支付处理器和 Coinapult 电子邮件汇款服务。
+两人相处融洽，技能互补。今年八月，埃里克-沃希斯正在寻找一名程序员来开发他的一个创意，艾拉接受了他的邀请。这就是 FeedZeBirds（字面意思是 "喂鸟"），一个让用户通过购买转发来提升 Twitter 上内容的广告平台，他们于 11 月 23 日[推出](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)了这个平台。利用 Bitcoin 的审查阻力和无[交易费用](https://planb.academy/resources/glossary/transaction-fees)的优势，这种做法值得商榷（Twitter 当然不鼓励这种行为）。11 月 28 日，这两个合作伙伴[出现](https://www.youtube.com/watch?v=VuLAhZsFc1A) 在*Bitcoin 节目*中宣传他们的产品。随后，他们还开发了 Paysius 支付处理器和 Coinapult 电子邮件汇款服务。
 
 
 
@@ -1234,7 +1234,7 @@ Bitcoinica 于 2011 年 9 月 8 日[推出](https://bitcointalk.org/index.php?to
 
 
 
-詹姆斯-麦卡锡（James McCarthy）是这场运动的参与者之一，他在 Bitcoin 论坛上使用的笔名是 "奈法里奥"（Nefario），意指动画电影《卑鄙的我》（*Despicable Me*）中的同名角色。奈法里奥是一名生活在中国的爱尔兰人，在一所大学担任英语教授。他对奥地利学派和密码朋克的思想很感兴趣，[宣称](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) 自己是 "一个密码朋克分子"。2010 年，他[发现](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) 了 Bitcoin 的存在，并挖掘了一千多个。随后，他参与了多个项目，包括《Bitcoin周刊》在线杂志项目。
+詹姆斯-麦卡锡（James McCarthy）是这场运动的参与者之一，他在 Bitcoin 论坛上使用的笔名是 "奈法里奥"（Nefario），意指动画电影《卑鄙的我》（*Despicable Me*）中的同名角色。奈法里奥是一名生活在中国的爱尔兰人，在一所大学担任英语教授。他对[奥地利学派](https://planb.academy/resources/glossary/austrian-school)和密码朋克的思想很感兴趣，[宣称](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) 自己是 "一个密码朋克分子"。2010 年，他[发现](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) 了 Bitcoin 的存在，并挖掘了一千多个。随后，他参与了多个项目，包括《Bitcoin周刊》在线杂志项目。
 
 
 
@@ -1387,7 +1387,7 @@ Paymium SAS 是一家法国公司，由 Gonzague Grandval、Pierre Noizat（论�
 
 
 
-这也是重写 Bitcoin 协议的好时机。当时的主要软件被简单地称为 "Bitcoin"，它是一个完整的实施方案，需要维护整个区块链，并转发新的交易和区块。但它是现存的唯一一个，因此整个网络只能依靠它来运行。因此，人们希望开发 Bitcoin 的替代实施方案。
+这也是重写 Bitcoin 协议的好时机。当时的主要软件被简单地称为 "Bitcoin"，它是一个完整的实施方案，需要维护整个[区块](https://planb.academy/resources/glossary/block)链，并转发新的交易和区块。但它是现存的唯一一个，因此整个网络只能依靠它来运行。因此，人们希望开发 Bitcoin 的替代实施方案。
 
 
 
@@ -1400,7 +1400,7 @@ Satoshi Nakamoto 基本上反对重写协议，以免影响 mining 的运行。2
 
 
 
-Mike Hearn 的软件实现是 BitCoinJ。这是白皮书中描述的简化支付验证（SPV）的实现，主要与瘦客户机互动，特别是使用安卓操作系统的手机上的瘦客户机。Mike [从](https://plan99.net/~mike/satoshi-emails/thread3.html) 2010 年末开始开发这个项目，并于 2011 年 3 月 7 日[发布](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) 了第一个版本。由于他在谷歌担任工程师，代码必须归属于这家跨国公司，但许可证（Apache 2）是开放的。
+Mike Hearn 的软件实现是 BitCoinJ。这是[白皮书](https://planb.academy/resources/glossary/white-paper)中描述的简化支付验证（SPV）的实现，主要与瘦客户机互动，特别是使用安卓操作系统的手机上的瘦客户机。Mike [从](https://plan99.net/~mike/satoshi-emails/thread3.html) 2010 年末开始开发这个项目，并于 2011 年 3 月 7 日[发布](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) 了第一个版本。由于他在谷歌担任工程师，代码必须归属于这家跨国公司，但许可证（Apache 2）是开放的。
 
 
 
@@ -1428,7 +1428,7 @@ Bitcoin 协议的重写并未就此停止。2011 年 7 月，在 Satoshi 离开�
 
 
 
-第一个想法是将节点用作远程服务器，用户对其完全信任。2011年2月，阿米尔-塔基[推出](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)了一个软件客户端，通过连接到一个名为Spesmilo的现有节点，在本地管理wallet。该客户端最初在 Linux 上运行，但很快被移植到 Windows 上。Spesmilo 是瑞士数学家勒内-德-索绪尔（语言学家费迪南德的兄弟）在 1907 年作为世界语项目的一部分提出的一种古老的国际货币单位。
+第一个想法是将[节点](https://planb.academy/resources/glossary/node)用作远程服务器，用户对其完全信任。2011年2月，阿米尔-塔基[推出](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538)了一个软件客户端，通过连接到一个名为Spesmilo的现有节点，在本地管理wallet。该客户端最初在 Linux 上运行，但很快被移植到 Windows 上。Spesmilo 是瑞士数学家勒内-德-索绪尔（语言学家费迪南德的兄弟）在 1907 年作为世界语项目的一部分提出的一种古老的国际货币单位。
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell 就如何改进 Bitcoin 的使用提出了很多想法，密钥�
 
 > "Bitcoin确实应该提供并默认使用确定性的wallet。   考虑到大多数人使用比特币的方式，目前generated之前的wallet的额外安全性是相当小的，而由于备份不足和保持单个wallet在线的压力增加而造成的伤害责任是巨大的。"
 
-设想了两种派生方式。一种（类型 1）简单明了，直接从 seed 生成私人密钥。另一种（类型 2）更为复杂，但允许从 seed 获取的主公钥衍生地址，而无需访问 seed 本身。这样，支付处理软件就能为每笔交易生成 generate 地址，而不会暴露私钥。
+设想了两种派生方式。一种（类型 1）简单明了，直接从 seed 生成私人密钥。另一种（类型 2）更为复杂，但允许从 seed 获取的主[公钥](https://planb.academy/resources/glossary/public-key)衍生地址，而无需访问 seed 本身。这样，支付处理软件就能为每笔交易生成 generate 地址，而不会暴露私钥。
 
 
 
-后来，在 2012 年 2 月，随着 BIP 32 的[出版](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)，标准化工作得以开展。它描述了*分层确定性 Wallet*（HD Wallet）的一般结构，其中有条不紊地使用推导法推导出 seed 密钥和地址。多年来，大多数 wallets 都逐渐采用了这种结构。
+后来，在 2012 年 2 月，随着 [BIP](https://planb.academy/resources/glossary/bip) 32 的[出版](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198)，标准化工作得以开展。它描述了*分层确定性 Wallet*（HD Wallet）的一般结构，其中有条不紊地使用推导法推导出 seed 密钥和地址。多年来，大多数 wallets 都逐渐采用了这种结构。
 
 
 
@@ -1700,7 +1700,7 @@ Cold 存储可以通过将私人密钥存储在 USB 盘等数字备份介质上�
 
 
 
-迈克-考德威尔（Mike Caldwell）是一名 33 岁的美国开发人员，住在犹他州盐湖城郊区，经营一家名为[Swipeclock](https://www.linkedin.com/company/swipeclock/)的商业自动化公司。他的笔名 "Casascius "是 "CASAS "的拉丁化形式，而 "CASAS "是 "Call a spade a spade "这句话的首字母缩写。作为一名理性主义者，他对密码学非常着迷，并被 Bitcoin 的技术层面所吸引。他曾在 mining 中尝试过一段时间。
+迈克-考德威尔（Mike Caldwell）是一名 33 岁的美国开发人员，住在犹他州盐湖城郊区，经营一家名为[Swipeclock](https://www.linkedin.com/company/swipeclock/)的商业自动化公司。他的笔名 "Casascius "是 "CASAS "的拉丁化形式，而 "CASAS "是 "Call a spade a spade "这句话的首字母缩写。作为一名理性主义者，他对[密码学](https://planb.academy/resources/glossary/cryptography)非常着迷，并被 Bitcoin 的技术层面所吸引。他曾在 mining 中尝试过一段时间。
 
 
 
@@ -1757,7 +1757,7 @@ Cold 存储可以通过将私人密钥存储在 USB 盘等数字备份介质上�
 
 
 
-第一个是 BitLaundry。这项服务由拥有密码学学位的美国企业家 Peter Vessenes 于 2010 年 9 月[推出](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)，他在 slashdotting 时发现了 Bitcoin 的存在。搅拌器[为](https://maltemoeser.de/paper/money-laundering.pdf#page=5)用户提供了一个一次性使用的地址，要匿名化的资金就发送到这个地址。然后，这些比特币会以多个币（UTXO）的形式发回，在一个包含其他用户的比特币的多入口交易中，使混合有效。收取的费用约为所涉金额的 2.5%。2011 年 5 月，彼得-维塞内斯（Peter Vessenes）意识到这一活动可能会引发法律纠纷，于是将服务[转让](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)给了迈克-戈古尔斯基（Mike Gogulski），他是一位著名的无国籍活动家，放弃了美国国籍，但并未拥有其他国籍。
+第一个是 BitLaundry。这项服务由拥有密码学学位的美国企业家 Peter Vessenes 于 2010 年 9 月[推出](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)，他在 slashdotting 时发现了 Bitcoin 的存在。搅拌器[为](https://maltemoeser.de/paper/money-laundering.pdf#page=5)用户提供了一个一次性使用的地址，要匿名化的资金就发送到这个地址。然后，这些比特币会以多个币（[UTXO](https://planb.academy/resources/glossary/utxo)）的形式发回，在一个包含其他用户的比特币的多入口交易中，使混合有效。收取的费用约为所涉金额的 2.5%。2011 年 5 月，彼得-维塞内斯（Peter Vessenes）意识到这一活动可能会引发法律纠纷，于是将服务[转让](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955)给了迈克-戈古尔斯基（Mike Gogulski），他是一位著名的无国籍活动家，放弃了美国国籍，但并未拥有其他国籍。
 
 
 
@@ -1777,7 +1777,7 @@ Cold 存储可以通过将私人密钥存储在 USB 盘等数字备份介质上�
 
 
 
-中心化混合币的激增催化了对去中心化混合币的思考，这种思考始于 2011 年夏天 Hashcoin 提出的一项提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)。这导致了 2013 年 Gregory Maxwell 对 CoinJoin 的 [正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)。但这完全是另一个故事了...
+中心化混合币的激增催化了对去中心化混合币的思考，这种思考始于 2011 年夏天 Hashcoin 提出的一项提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)。这导致了 2013 年 Gregory Maxwell 对 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 的 [正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)。但这完全是另一个故事了...
 
 
 
@@ -1808,7 +1808,7 @@ Cold 存储可以通过将私人密钥存储在 USB 盘等数字备份介质上�
 
 
 
-2010 年秋，矿工的首次涌入导致了 GPU（图形处理单元）mining 的广泛使用，其利润远高于 CPU（中央处理单元）mining。然而，这一技术进步增加了网络的难度，以至于小型矿工无法再指望在合理的时间范围内找到区块。这导致了矿工团体的成立，如 BitcoinCZ Mining，即 Slush Pool。势头并未就此停止：随着 2011 年价格上涨，矿工继续涌入，mining 矿池迅速正常化。
+2010 年秋，矿工的首次涌入导致了 GPU（图形处理单元）mining 的广泛使用，其利润远高于 CPU（中央处理单元）mining。然而，这一技术进步增加了网络的[难度](https://planb.academy/resources/glossary/difficulty)，以至于小型矿工无法再指望在合理的时间范围内找到区块。这导致了矿工团体的成立，如 BitcoinCZ Mining，即 Slush Pool。势头并未就此停止：随着 2011 年价格上涨，矿工继续涌入，mining 矿池迅速正常化。
 
 
 
@@ -1996,7 +1996,7 @@ mining 池的广泛使用所导致的集中化问题的一种解决方法是去�
 
 
 
-该模型[依赖](https://im.forre.st/pb/85341005.txt)于 "份额链，由点对点连接的参与矿工维护，类似于 Bitcoin 的区块链。每个份额都包含前一个份额的指纹，它将份额链接在一起，确保了整体的完整性。难度（最初比主网络难度低 600 倍）会定期调整，以保证平均间隔为 5 秒。每次发现一个区块时，奖励方法是直接在奖励交易中根据最后 N 个份额付款（PPLNS）。
+该模型[依赖](https://im.forre.st/pb/85341005.txt)于 "份额链，由[点对点](https://planb.academy/resources/glossary/peertopeer-p2p)连接的参与矿工维护，类似于 Bitcoin 的区块链。每个份额都包含前一个份额的指纹，它将份额链接在一起，确保了整体的完整性。难度（最初比主网络难度低 600 倍）会定期调整，以保证平均间隔为 5 秒。每次发现一个区块时，奖励方法是直接在奖励交易中根据最后 N 个份额付款（PPLNS）。
 
 
 
@@ -2067,7 +2067,7 @@ Slush 提出的标准是 Stratum mining 协议（或 StratumMP）。其名称在
 
 
 
-Satoshi Nakamoto早就[计划](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)了这一最终演进，但由于可编程逻辑电路（FPGA）的出现，使得Bitcoin的哈希函数几乎可以实现硬件优化，从而逐渐发展起来。2011 年 5 月，首个开放式 FPGA 算法[发布](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)，ASIC 将 FPGA 优化应用于芯片本身。2012 年 6 月，美国公司 Butterfly Labs 首次预售了 ASIC（https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html）。最后，2013 年 1 月，第一款工作的 ASIC 即 Avalon ASIC 向公众[发布](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)。
+Satoshi Nakamoto早就[计划](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)了这一最终演进，但由于可编程逻辑电路（FPGA）的出现，使得Bitcoin的[哈希函数](https://planb.academy/resources/glossary/hash-function)几乎可以实现硬件优化，从而逐渐发展起来。2011 年 5 月，首个开放式 FPGA 算法[发布](https://bitcointalk.org/index.php?topic=9047.msg130885#msg130885)，ASIC 将 FPGA 优化应用于芯片本身。2012 年 6 月，美国公司 Butterfly Labs 首次预售了 ASIC（https://web.archive.org/web/20120619090952/http://news.yahoo.com/butterfly-labs-announces-next-generation-asic-lineup-054626776.html）。最后，2013 年 1 月，第一款工作的 ASIC 即 Avalon ASIC 向公众[发布](https://bitcointalk.org/index.php?topic=137534.msg1465887#msg1465887)。
 
 
 
@@ -2090,7 +2090,7 @@ Satoshi Nakamoto 离开后，软件开发工作由社区接管，社区必须在
 
 
 
-在本章中，我们将回顾 Bitcoin 技术史上这一独特的插曲。首先，我们将分析软件的开发和多重签名的想法。然后，我们将从 OP\_EVAL 和 P2SH 开始，探讨实现这一技术的各种方案。最后，我们将谈谈 Pay to Script Hash 是如何在遇到重重困难的情况下被激活的。
+在本章中，我们将回顾 Bitcoin 技术史上这一独特的插曲。首先，我们将分析软件的开发和多重签名的想法。然后，我们将从 OP\_EVAL 和 P2SH 开始，探讨实现这一技术的各种方案。最后，我们将谈谈 Pay to [Script](https://planb.academy/resources/glossary/script) Hash 是如何在遇到重重困难的情况下被激活的。
 
 
 
@@ -3563,3 +3563,21 @@ Satoshi Nakamoto 在 2010 年 12 月担心的大黄蜂群已经到来，带来�
 ---
 
 关于 2011 年春季至 2012 年夏季期间 Bitcoin 建设的课程到此结束。下一个加密货币历史时期，即 Bitcoin 不可阻挡的崛起时期，将在下一期课程中介绍，愿上帝保佑。
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

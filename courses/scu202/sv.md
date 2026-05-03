@@ -156,8 +156,6 @@ Som avslutning på kursen kommer du att kunna göra ett slutprov för att få di
 
 
 
-**OBS:** Om du stöter på obekanta termer under kursens gång, vänligen se [ordlistan](https://planb.academy/resources/glossary) för definitioner
-
 
 
 ## Grundläggande sammanfattning av SCU101
@@ -1242,7 +1240,7 @@ Parrot OS härstammar också från Debian. Det erbjuder en miljö för pentestin
 
 
 
-Tails är en Debian-baserad, integritetsfokuserad live-distribution. Allt passerar genom Tor-nätverket och ingenting lagras mellan användarsessioner. Det är en idealisk distribution för känsliga engångsanvändningar (journalistik, aktivism, seed Bitcoin-generering ...).
+Tails är en Debian-baserad, integritetsfokuserad live-distribution. Allt passerar genom [Tor](https://planb.academy/resources/glossary/tor)-nätverket och ingenting lagras mellan användarsessioner. Det är en idealisk distribution för känsliga engångsanvändningar (journalistik, aktivism, [seed](https://planb.academy/resources/glossary/seed) Bitcoin-generering ...).
 
 
 
@@ -4061,7 +4059,7 @@ Det andra verktyget är den digitala signaturen. Detta verifierar installationsp
 
 
 
-Det här systemet bygger på asymmetrisk kryptografi och verktyg som GnuPG (kommandorad) eller Kleopatra (Interface grafiskt för Windows). Dessa verktyg måste vara korrekt konfigurerade och utvecklarens publika nyckel måste verifieras via en säker kanal (officiell webbplats, fingeravtryck på Twitter ...). Låt oss ta en titt på det praktiska.
+Det här systemet bygger på asymmetrisk [kryptografi](https://planb.academy/resources/glossary/cryptography) och verktyg som GnuPG (kommandorad) eller Kleopatra (Interface grafiskt för Windows). Dessa verktyg måste vara korrekt konfigurerade och utvecklarens publika nyckel måste verifieras via en säker kanal (officiell webbplats, fingeravtryck på Twitter ...). Låt oss ta en titt på det praktiska.
 
 
 
@@ -8242,7 +8240,7 @@ Dessa portar används också i system som Bitcoin eller Tor, där specifika port
 
 - Port `8333` används för P2P-anslutningar på Bitcoin Mainnet
 - Porten `18333` används för P2P-anslutningar på Bitcoin Testnet
-- Port `8332` används för Interface RPC i en Bitcoin-nod
+- Port `8332` används för Interface RPC i en Bitcoin-[nod](https://planb.academy/resources/glossary/node)
 - Port `9050` används av Tors SOCKS5-proxy
 - Port `9150` används av Tor Browser
 

@@ -317,7 +317,7 @@ Vastauksena John Law'n kokemukseen Cantillon selittää, mitä tapahtuu tai mit�
 ![image](assets/fi/017.webp)
 
 
-Hän näkee kaksi keskeistä seurausta siitä, että metalliraha korvataan paperirahalla, jolla ei ole todellista arvoa. Ensimmäinen seuraus on se, mitä hän kutsuu "kansan hylkäämiseksi", mikä tarkoittaa kasvavaa epäluottamusta arvotonta rahaa kohtaan. Toinen seuraus on inflaatio: rahan heikkeneminen tekee tavaroista kalliimpia.
+Hän näkee kaksi keskeistä seurausta siitä, että metalliraha korvataan paperirahalla, jolla ei ole todellista arvoa. Ensimmäinen seuraus on se, mitä hän kutsuu "kansan hylkäämiseksi", mikä tarkoittaa kasvavaa epäluottamusta arvotonta rahaa kohtaan. Toinen seuraus on [inflaatio](https://planb.academy/resources/glossary/inflation): rahan heikkeneminen tekee tavaroista kalliimpia.
 
 
 Neljänneksi Cantillon meni **inflaatiota** koskevassa analyysissään pidemmälle kuin aikalaisensa. Havainnoituaan Law'n järjestelmän romahduksen Cantillon ymmärsi, että rahan inflaatio ei vaikuta kaikkiin yhtä paljon. Päinvastoin, se rikastuttaa joitakin ja köyhdyttää toisia. Hän päätteli, että inflaatiolla on uudelleenjakava vaikutus: ne, jotka saavat uutta rahaa, hyötyvät ensin lisääntyneestä ostovoimasta, kun taas ne, jotka saavat sitä myöhemmin, köyhtyvät inflaatiovauhdin nousun vuoksi liikkeeseen lasketun uuden rahan seurauksena.

@@ -6,4 +6,4 @@ wrong_answers:
   - Miner des sats depuis Umbrel
 explanation: |
   Le but est d’utiliser une application mobile de wallet Lightning qui s’appuie en arrière-plan sur votre propre nœud.
-reviewed: false
+reviewed: true 

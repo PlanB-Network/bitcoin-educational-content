@@ -90,8 +90,6 @@ Jste připraveni ponořit se do světa počítačových sítí? Jdeme na to!
 **POZNÁMKA**: Popisy jsou založeny na systému GNU/Linux CentOS 7. Síťové konfigurace jsou však při porovnání systému Debian a CentOS z velké části stejné. Nebudeme tedy dělat žádné rozdíly. Pokud nějaké bude, uvedeme před něj specifické logo.
 
 
-**N.B.**: Pokud se v průběhu kurzu setkáte s neznámými pojmy, vyhledejte si jejich definice ve [slovníčku pojmů](https://planb.academy/resources/glossary).
-
 
 
 # Protokoly TCP/IP

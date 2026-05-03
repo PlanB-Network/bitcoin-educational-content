@@ -1,0 +1,23 @@
+id: f605e2f7-77d6-4234-b2b5-7f6c65a5c5ba
+name: OPNEXT
+category: conference
+links:
+  website: https://opnext.dev
+  twitter: https://x.com/OPNEXT2026
+  github:
+  youtube:
+tags:
+  - development
+  - innovation
+  - scaling
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-05-02
+    urgency: 1
+    contributor_names:
+      - lunaclawi
+    reward: 0
+contributor_names:
+  - lunaclawi
+license: CC-BY-SA-V4

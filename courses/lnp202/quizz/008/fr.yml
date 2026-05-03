@@ -6,4 +6,4 @@ wrong_answers:
   - À Bitcoin Core
 explanation: |
   Dans un modèle custodial, l’entreprise détient les clés et contrôle les fonds, l’utilisateur n’ayant qu’un solde comptable.
-reviewed: false
+reviewed: true 

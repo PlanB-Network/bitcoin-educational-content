@@ -1,0 +1,8 @@
+question: What is the fundamental difference between the Austrian and Schumpeterian conception of the entrepreneur?
+answer: The Austrian entrepreneur is an endogenous balancing force that coordinates dispersed information, while the Schumpeterian entrepreneur disrupts equilibrium as an exogenous innovator
+wrong_answers:
+  - "The Austrian entrepreneur focuses solely on the rational allocation of resources, while the Schumpeterian entrepreneur favors technological innovation."
+  - "The Austrian entrepreneur destroys market equilibrium through competition, while the Schumpeterian entrepreneur maintains economic stability."
+  - "The Austrian entrepreneur acts exogenously to the system, while the Schumpeterian entrepreneur is endogenously integrated into the market process"
+explanation: |
+  The Austrian conception presents the entrepreneur as an endogenous agent who contributes to market equilibrium by coordinating dispersed information and discovering opportunities. Kirzner emphasizes that the entrepreneur tends towards equilibrium rather than away from it. Schumpeter, on the other hand, sees the entrepreneur as an exogenous innovator who upsets the existing equilibrium through creative destruction, where the new competes with the old to the point of ruin.

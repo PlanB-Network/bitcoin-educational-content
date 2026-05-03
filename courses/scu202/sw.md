@@ -1254,7 +1254,7 @@ Parrot OS pia inatokana na Debian. Inatoa mazingira kwa ajili ya pentesting, usa
 
 
 
-Tails ni usambazaji wa moja kwa moja unaozingatia Debian, unaozingatia faragha. Kila kitu hupitia mtandao wa Tor, na hakuna kitu kinachohifadhiwa kati ya vikao vya mtumiaji. Ni usambazaji bora kwa matumizi nyeti ya mara moja (uandishi wa habari, uanaharakati, kizazi cha seed Bitcoin...).
+Tails ni usambazaji wa moja kwa moja unaozingatia Debian, unaozingatia faragha. Kila kitu hupitia mtandao wa [Tor](https://planb.academy/resources/glossary/tor), na hakuna kitu kinachohifadhiwa kati ya vikao vya mtumiaji. Ni usambazaji bora kwa matumizi nyeti ya mara moja (uandishi wa habari, uanaharakati, kizazi cha [seed](https://planb.academy/resources/glossary/seed) Bitcoin...).
 
 
 
@@ -4042,7 +4042,7 @@ Integrity ya file huhakikisha kuwa halijarekebishwa, kwa makusudi au bila kukusu
 
 
 
-Marekebisho haya hayaonekani kwa jicho la uchi: faili iliyopakuliwa inaweza kufungua na kukimbia kwa kawaida, wakati huo huo kutekeleza tabia mbaya. Kwa hivyo umuhimu wa kuthibitisha uadilifu wake kwa kutumia alama za vidole za siri (Hash).
+Marekebisho haya hayaonekani kwa jicho la uchi: faili iliyopakuliwa inaweza kufungua na kukimbia kwa kawaida, wakati huo huo kutekeleza tabia mbaya. Kwa hivyo umuhimu wa kuthibitisha uadilifu wake kwa kutumia alama za vidole za [siri](https://planb.academy/resources/glossary/cryptography) (Hash).
 
 
 
@@ -4054,7 +4054,7 @@ File inaweza kuwa nzima (haijabadilishwa), lakini ikatolewa na huluki hasidi ina
 
 
 
-Uthibitishaji huu wa asili unawezeshwa na sahihi ya dijiti, utaratibu wa kriptografia unaounganisha faili na ufunguo wa faragha wa msanidi programu. Unapothibitisha sahihi hii kwa kutumia ufunguo wa umma wa msanidi programu (unaosambazwa kupitia njia salama), unaweza kuwa na uhakika kwamba faili inatoka kwa mtu huyo.
+Uthibitishaji huu wa asili unawezeshwa na sahihi ya dijiti, utaratibu wa kriptografia unaounganisha faili na ufunguo wa faragha wa msanidi programu. Unapothibitisha sahihi hii kwa kutumia [ufunguo wa umma](https://planb.academy/resources/glossary/public-key) wa msanidi programu (unaosambazwa kupitia njia salama), unaweza kuwa na uhakika kwamba faili inatoka kwa mtu huyo.
 
 
 
@@ -8264,7 +8264,7 @@ Ports hizi pia hutumika katika mifumo kama Bitcoin au Tor, ambapo ports mahususi
 
 - port `8333` inatumika kwa miunganisho ya P2P kwenye Bitcoin Mainnet
 - Port ya `18333` inatumika kwa miunganisho ya P2P kwenye Bitcoin Testnet
-- port `8332` inatumika kwa Interface RPC ya nodi ya Bitcoin
+- port `8332` inatumika kwa Interface RPC ya [nodi](https://planb.academy/resources/glossary/node) ya Bitcoin
 - port `9050` inatumiwa na proksi ya Tor's SOCKS5
 - port `9150` inatumiwa na Kivinjari cha Tor
 

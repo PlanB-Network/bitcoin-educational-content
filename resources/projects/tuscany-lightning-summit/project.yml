@@ -1,0 +1,23 @@
+id: a2538e24-829d-4614-b4ca-de8ddfab55be
+name: Tuscany Lightning Summit
+category: conference
+links:
+  website: https://tuscanysummit.com/
+  twitter: 
+  github: 
+  youtube: 
+tags:
+  - lightning
+  - layers
+  - innovation
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-13
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

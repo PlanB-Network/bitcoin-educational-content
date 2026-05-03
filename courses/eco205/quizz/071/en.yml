@@ -1,0 +1,8 @@
+question: According to the Austrian approach, how do entrepreneurs use the concept of opportunity cost in their resource allocation decisions?
+answer: They allocate resources where the opportunity cost is lowest relative to the anticipated value
+wrong_answers:
+  - They mathematically calculate all possible costs before making a final decision
+  - "They rely solely on historical costs to determine the optimal use of resources."
+  - "They systematically choose the alternative that generates the greatest possible number of jobs"
+explanation: |
+  In the Austrian approach, entrepreneurs constantly make trade-offs, forgoing certain uses in favor of others. They naturally allocate resources where the opportunity cost is lowest in relation to the value they expect to create. This continuous, subjective process enables the efficient allocation of limited resources, unlike approaches based on formal mathematical calculations, historical costs, or non-economic criteria such as employment.

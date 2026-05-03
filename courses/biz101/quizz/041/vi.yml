@@ -1,9 +1,9 @@
-question: Tại sao nên xuất CSV tất cả các giao dịch Bitcoin?
-answer: Nó cung cấp hồ sơ rõ ràng, có cấu trúc về mọi giao dịch, giúp kế toán viên dễ dàng tích hợp chúng vào báo cáo tài chính và hồ sơ khai thuế.
+question: Tại sao nên xuất dữ liệu (định dạng CSV) cho tất cả các giao dịch Bitcoin?
+answer: Vì nó cung cấp sổ sách rõ ràng, có chi tiết về mọi giao dịch, giúp kế toán viên dễ dàng tích hợp chúng vào báo cáo tài chính và hồ sơ khai thuế.
 wrong_answers:
   - Bởi vì biên lai giấy là chứng từ kế toán duy nhất được pháp luật chấp nhận.
   - Bởi vì việc xuất dữ liệu sẽ tự động hoàn tất tờ khai thuế của bạn mà không cần xem xét lại.
   - Bởi vì tệp CSV loại bỏ nhu cầu theo dõi cơ sở chi phí.
 explanation: |
-  Việc có hồ sơ kỹ thuật số theo định dạng chung cho phép tích hợp liền mạch vào các hệ thống kế toán, duy trì dấu vết kiểm toán và hỗ trợ báo cáo thuế và tuân thủ chính xác.
+  Việc có dữ liệu kỹ thuật số theo định dạng chung cho phép tích hợp liền mạch vào các hệ thống kế toán, duy trì nguồn gốc kiểm toán và hỗ trợ và tuân thủ chính xác báo cáo thuế.
 reviewed: true

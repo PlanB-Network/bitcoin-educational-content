@@ -1,0 +1,28 @@
+id: c28af34d-84f9-49ea-8cfa-768ad131fdf1
+name: Taiwan Bitcoin Hub
+category: communities
+address_city_country: "Taipei, Taiwan"
+address_line_2: ''
+address_line_3: ''
+language:
+  - zh
+  - en
+links:
+  website: https://portaly.cc/tempohouse
+  twitter: https://x.com/BitcoinHubTW
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - innovation
+original_language: zh
+proofreading:
+  - language: zh
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

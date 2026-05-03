@@ -1,0 +1,23 @@
+id: 66bdf627-71e6-4f49-9a83-5fbdefd38617
+name: Spark
+category: infrastructure
+links:
+  website: https://www.spark.money
+  twitter: https://x.com/spark
+  github: https://github.com/buildonspark/spark
+  youtube: 
+tags:
+  - lightning
+  - scalability
+  - layers
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

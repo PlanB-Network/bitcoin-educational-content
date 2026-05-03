@@ -63,22 +63,22 @@ Sukella Liquid-sivuketjun maailmaan ja vapauta sen koko potentiaali juuri nyt!
 ### Liquid Network-arkkitehtuuri ja konsensusmalli
 
 
-Liquid Network on Elements:n koodipohjaan rakennettu federoitu sivuketju, joka on suunniteltu laajentamaan Bitcoin:n ominaisuuksia ja samalla tukeutumaan sen perusturvallisuuteen. Toisin kuin Bitcoin:n Proof-of-Work, Liquid toimii Federated Consensus -mallilla. Verkkoa ylläpitää maailmanlaajuisesti hajautettu jäsenryhmä, johon kuuluu pörssejä, kaupankäyntipisteitä ja infrastruktuurin tarjoajia. Tästä jäsenkunnasta valitaan viisitoista "toiminnantekijää" toimimaan lohkojen allekirjoittajina.
+Liquid Network on Elements:n koodipohjaan rakennettu federoitu sivuketju, joka on suunniteltu laajentamaan Bitcoin:n ominaisuuksia ja samalla tukeutumaan sen perusturvallisuuteen. Toisin kuin Bitcoin:n [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work), Liquid toimii Federated [Consensus](https://planb.academy/resources/glossary/consensus) -mallilla. Verkkoa ylläpitää maailmanlaajuisesti hajautettu jäsenryhmä, johon kuuluu pörssejä, kaupankäyntipisteitä ja infrastruktuurin tarjoajia. Tästä jäsenkunnasta valitaan viisitoista "toiminnantekijää" toimimaan [lohkojen](https://planb.academy/resources/glossary/block) allekirjoittajina.
 
 
-Nämä toimihenkilöt tuottavat lohkoja deterministisesti round-robin-muodossa, ja uusi lohko luodaan joka minuutti. Tämä tarkka ajoitus on vastakohta Bitcoin:n todennäköisille kymmenen minuutin väleille. Jotta lohko olisi pätevä, sen on oltava vähintään 11:n allekirjoittajan allekirjoittama 15:stä (kaksi kolmasosaa plus yksi). Tämä mekanismi antaa Liquid:lle "kahden lohkon lopullisuuden", mikä tarkoittaa, että kun transaktio on vahvistettu kahdesti (noin kahden minuutin kuluessa), ketjua on matemaattisesti mahdotonta järjestää uudelleen. Tämä nopeus ja varmuus ovat ratkaisevan tärkeitä arbitraasin, automaattisen kaupankäynnin ja nopean pörssien välisen selvityksen kannalta.
+Nämä toimihenkilöt tuottavat lohkoja deterministisesti round-robin-muodossa, ja uusi lohko luodaan joka minuutti. Tämä tarkka ajoitus on vastakohta Bitcoin:n todennäköisille kymmenen minuutin väleille. Jotta lohko olisi pätevä, sen on oltava vähintään 11:n allekirjoittajan allekirjoittama 15:stä (kaksi kolmasosaa plus yksi). Tämä mekanismi antaa Liquid:lle "kahden lohkon lopullisuuden", mikä tarkoittaa, että kun [transaktio](https://planb.academy/resources/glossary/transaction-tx) on vahvistettu kahdesti (noin kahden minuutin kuluessa), ketjua on matemaattisesti mahdotonta järjestää uudelleen. Tämä nopeus ja varmuus ovat ratkaisevan tärkeitä arbitraasin, automaattisen kaupankäynnin ja nopean pörssien välisen selvityksen kannalta.
 
 
-Liitto on dynaaminen. Dynafed-protokollan (Dynamic Federation) avulla verkko voi vaihtaa toimihenkilöitä tai päivittää parametreja ilman, että tarvitaan kovaa fork:ta. Tämän ansiosta järjestelmä voi kehittyä ja vaihtaa laitteistoa tai jäseniä saumattomasti ja samalla ylläpitää jatkuvaa toimintaa.
+Liitto on dynaaminen. Dynafed-protokollan (Dynamic Federation) avulla verkko voi vaihtaa toimihenkilöitä tai päivittää parametreja ilman, että tarvitaan kovaa [fork](https://planb.academy/resources/glossary/fork):ta. Tämän ansiosta järjestelmä voi kehittyä ja vaihtaa laitteistoa tai jäseniä saumattomasti ja samalla ylläpitää jatkuvaa toimintaa.
 
 
 ### Confidential Transactions ja omaisuuden hallinta
 
 
-Liquid:n erityispiirre on sen natiivituki Confidential Transactions:lle (CT) ja useille omaisuuserille. Bitcoin-pääketjussa kaikki transaktiotiedot - lähettäjä, vastaanottaja ja summa - ovat julkisia. Liquid:ssä CT käyttää kryptografisia sitoumuksia piilottaakseen omaisuuserän tyypin ja summan julkiselta pääkirjalta, mutta antaa verkon silti tarkistaa, että transaktio on pätevä (eli inflaatiota ei ole tapahtunut). Ainoastaan osallistujat, joilla on sulkemisavaimet, voivat nähdä tietyt arvot, mikä tarjoaa kaupallisen yksityisyyden tason, joka on välttämätön suuria positioita siirtäville laitoksille.
+Liquid:n erityispiirre on sen natiivituki Confidential Transactions:lle (CT) ja useille omaisuuserille. Bitcoin-pääketjussa kaikki transaktiotiedot - lähettäjä, vastaanottaja ja summa - ovat julkisia. Liquid:ssä CT käyttää kryptografisia sitoumuksia piilottaakseen omaisuuserän tyypin ja summan julkiselta pääkirjalta, mutta antaa verkon silti tarkistaa, että transaktio on pätevä (eli [inflaatiota](https://planb.academy/resources/glossary/inflation) ei ole tapahtunut). Ainoastaan osallistujat, joilla on sulkemisavaimet, voivat nähdä tietyt arvot, mikä tarjoaa kaupallisen yksityisyyden tason, joka on välttämätön suuria positioita siirtäville laitoksille.
 
 
-Liquid käsittelee kaikkia omaisuuseriä lohkoketjun "alkuperäisinä" kansalaisina. Tämä sisältää Liquid Bitcoin (LBTC), vakaat kolikot, kuten USDT, ja turvamerkit. Omaisuuserän liikkeeseenlasku ei vaadi monimutkaisia älykkäitä sopimuksia, vaan se on protokollan perustoiminto.
+Liquid käsittelee kaikkia omaisuuseriä [lohkoketjun](https://planb.academy/resources/glossary/blockchain) "alkuperäisinä" kansalaisina. Tämä sisältää Liquid Bitcoin (LBTC), vakaat kolikot, kuten USDT, ja turvamerkit. Omaisuuserän liikkeeseenlasku ei vaadi monimutkaisia älykkäitä sopimuksia, vaan se on protokollan perustoiminto.
 
 
 #### Säännellyt varat ja AMP
@@ -97,7 +97,7 @@ Yhteys Liquid:n ja Bitcoin:n välillä säilyy kaksisuuntaisen tapin kautta. Kä
 
 #### Laitteiston turvamoduulit (HSM)
 
-Tietoturva varmistetaan tiukasti laitteiston avulla. Toimijat eivät pidä yksityisiä avaimia tavallisilla palvelimilla, vaan käyttävät laitteiston turvamoduuleja (Hardware Security Modules, HSM). Nämä laitteet on erotettu isäntäpalvelimen logiikasta, ja ne on ohjelmoitu tiukkojen sääntöjen mukaisesti. HSM esimerkiksi kieltäytyy allekirjoittamasta lohkoa, jos sen korkeus ei ole suurempi kuin edellisen lohkon korkeus, mikä estää historian uudelleenkirjoittamisen. Tässä "vastarinnan" suojausmallissa oletetaan, että isäntäpalvelin voidaan vaarantaa, jolloin varmistetaan, että avaimet pysyvät turvassa, vaikka fyysinen sijainti murrettaisiinkin.
+Tietoturva varmistetaan tiukasti laitteiston avulla. Toimijat eivät pidä [yksityisiä avaimia](https://planb.academy/resources/glossary/private-key) tavallisilla palvelimilla, vaan käyttävät laitteiston turvamoduuleja (Hardware Security Modules, HSM). Nämä laitteet on erotettu isäntäpalvelimen logiikasta, ja ne on ohjelmoitu tiukkojen sääntöjen mukaisesti. HSM esimerkiksi kieltäytyy allekirjoittamasta lohkoa, jos sen korkeus ei ole suurempi kuin edellisen lohkon korkeus, mikä estää historian uudelleenkirjoittamisen. Tässä "vastarinnan" suojausmallissa oletetaan, että isäntäpalvelin voidaan vaarantaa, jolloin varmistetaan, että avaimet pysyvät turvassa, vaikka fyysinen sijainti murrettaisiinkin.
 
 
 ## Elements:n perusteet
@@ -114,7 +114,7 @@ Tietoturva varmistetaan tiukasti laitteiston avulla. Toimijat eivät pidä yksit
 Elements on avoimen lähdekoodin lohkoketjualusta, joka perustuu Bitcoin Core -koodipohjaan. Se laajentaa Bitcoin:n toiminnallisuutta mahdollistamalla sivuketjuista riippumattomat lohkoketjut, jotka voivat siirtää varoja Bitcoin:een ja Bitcoin:sta. Bitcoin Core käyttää Bitcoin-verkkoa, mutta Elements on Liquid Network:n ja muiden mukautettujen sivuketjujen taustalla oleva ohjelmistomoottori.
 
 
-Suhde on suoraviivainen: Liquid on Elements-sivuketjun erityinen "instanssi", joka on konfiguroitu tuotantokäyttöön federoitua konsensusmallia varten. Bitcoin:n tuntevat kehittäjät pitävät Elements:tä intuitiivisena, koska siinä on sama RPC:n (Remote Procedure Call) käyttöliittymä ja komentorivirakenne (`elements-cli`, `elements-d`, `elements-qt`). Keskeinen ero on konfiguroinnissa: asetus `chain=liquidv1` yhdistää solmun Liquid-pääverkkoon, kun taas `chain=elementsregtest` käynnistää paikallisen regressiotestausympäristön, jossa kehittäjät voivat generate-lohkoja välittömästi ja testata ilman ulkoisia riippuvuuksia.
+Suhde on suoraviivainen: Liquid on Elements-sivuketjun erityinen "instanssi", joka on konfiguroitu tuotantokäyttöön federoitua konsensusmallia varten. Bitcoin:n tuntevat kehittäjät pitävät Elements:tä intuitiivisena, koska siinä on sama RPC:n (Remote Procedure Call) käyttöliittymä ja komentorivirakenne (`elements-cli`, `elements-d`, `elements-qt`). Keskeinen ero on konfiguroinnissa: asetus `chain=liquidv1` yhdistää [solmun](https://planb.academy/resources/glossary/node) Liquid-pääverkkoon, kun taas `chain=elementsregtest` käynnistää paikallisen regressiotestausympäristön, jossa kehittäjät voivat generate-lohkoja välittömästi ja testata ilman ulkoisia riippuvuuksia.
 
 
 #### Omaisuuserien liikkeeseenlasku
@@ -152,7 +152,7 @@ Vuorovaikutus Elements-solmun kanssa tapahtuu pääasiassa sen JSON-RPC-rajapinn
 
 - Asennus:** Kehittäjä aloittaa tyypillisesti `regtest`-tilassa. Tämä mahdollistaa lohkojen välittömän luomisen (`generateblock`), jotta transaktiot voidaan vahvistaa välittömästi, jolloin ohitetaan live-verkon 1 minuutin lohkoaika.
 - Komennot:** Bitcoin:n vakiokomennot, kuten `getblockchaininfo`, ovat käytettävissä, samoin kuin Elements-kohtaiset komennot, kuten `dumpblindingkey` (CT:iden auditointiin) tai `pegin` (BTC:n siirtämiseen sivuketjuun).
-- Aliakset:** Useiden solmujen hallitsemiseksi (esim. "lähettäjä" ja "vastaanottaja" testausta varten) kehittäjät käyttävät usein komentotulkin aliaksia, kuten `e1-cli` ja `e2-cli`, jotka osoittavat eri datahakemistoihin, simuloiden vertaisverkkoa yhdellä koneella.
+- Aliakset:** Useiden solmujen hallitsemiseksi (esim. "lähettäjä" ja "vastaanottaja" testausta varten) kehittäjät käyttävät usein komentotulkin aliaksia, kuten `e1-cli` ja `e2-cli`, jotka osoittavat eri datahakemistoihin, simuloiden [vertaisverkkoa](https://planb.academy/resources/glossary/peertopeer-p2p) yhdellä koneella.
 
 
 Tämän arkkitehtuurin avulla kehittäjät voivat rakentaa kehittyneitä rahoitussovelluksia, kuten arvopaperialustoja tai yksityisiä maksuportaita, Bitcoin-ekosysteemin vankkojen ja tuttujen työkalujen avulla.
@@ -169,10 +169,10 @@ Tämän arkkitehtuurin avulla kehittäjät voivat rakentaa kehittyneitä rahoitu
 ### Layer:n rajat ylittävä infrastruktuuri ja HTLC:t
 
 
-Bitcoin-ekosysteemi on kehittynyt monikerroksiseksi arkkitehtuuriksi, jossa Mainchain tarjoaa selvityksen, Lightning nopeuden ja Liquid kehittyneet omaisuuseräominaisuudet. Arvon siirtäminen näiden kerrosten välillä ilman keskitettyjä välikäsiä edellyttää luotettavaa kryptografista primitiiviä: Hash Time Locked Contract (HTLC).
+Bitcoin-ekosysteemi on kehittynyt monikerroksiseksi arkkitehtuuriksi, jossa Mainchain tarjoaa selvityksen, Lightning nopeuden ja Liquid kehittyneet omaisuuseräominaisuudet. Arvon siirtäminen näiden kerrosten välillä ilman keskitettyjä välikäsiä edellyttää luotettavaa kryptografista primitiiviä: [Hash](https://planb.academy/resources/glossary/hash-function) Time Locked Contract ([HTLC](https://planb.academy/resources/glossary/htlc)).
 
 
-HTLC luo ehdollisen maksukanavan, joka yhdistää itsenäiset järjestelmät atomisesti. Se toimii kahden ensisijaisen rajoituksen avulla: **hash-lukko** ja **aikalukko**.
+HTLC luo ehdollisen [maksukanavan](https://planb.academy/resources/glossary/payment-channel), joka yhdistää itsenäiset järjestelmät atomisesti. Se toimii kahden ensisijaisen rajoituksen avulla: **hash-lukko** ja **aikalukko**.
 
 
 - Hash-lukko:** Varat voidaan käyttää välittömästi, jos vastaanottaja paljastaa salaisen "esikuvan", joka vastaa tiettyä kryptografista hash-määritystä.
@@ -185,20 +185,20 @@ Tämä kaksitie rakenne takaa turvallisuuden. Ristikkäisessä vaihdossa samaa h
 ### Taproot ja MuSig2 päivitys
 
 
-Vanhat HTLC:t (SegWit v0) toimivat hyvin, mutta kärsivät yksityisyyden suojaan ja tehokkuuteen liittyvistä puutteista. Ne edellyttivät koko käsikirjoituslogiikan on-chain:n julkaisemista, mikä teki vaihtotapahtumista helposti tunnistettavia lohkoketjuanalyytikoille ja kalliimpia niiden datakoon vuoksi. Taproot:n (SegWit v1) ja MuSig2-protokollan käyttöönotto mullisti tämän arkkitehtuurin.
+Vanhat HTLC:t ([SegWit](https://planb.academy/resources/glossary/segwit) v0) toimivat hyvin, mutta kärsivät yksityisyyden suojaan ja tehokkuuteen liittyvistä puutteista. Ne edellyttivät koko käsikirjoituslogiikan on-chain:n julkaisemista, mikä teki vaihtotapahtumista helposti tunnistettavia lohkoketjuanalyytikoille ja kalliimpia niiden datakoon vuoksi. [Taproot](https://planb.academy/resources/glossary/taproot):n (SegWit v1) ja MuSig2-protokollan käyttöönotto mullisti tämän arkkitehtuurin.
 
 
-Taproot sallii **avainten yhdistämisen** MuSig2:n kautta. Sen sijaan, että paljastettaisiin monimutkainen käsikirjoitus, jossa on useita julkisia avaimia, MuSig2:n avulla vaihtoon osallistujat voivat yhdistää avaimensa yhdeksi yhdistetyksi julkiseksi avaimeksi.
+Taproot sallii **avainten yhdistämisen** MuSig2:n kautta. Sen sijaan, että paljastettaisiin monimutkainen [käsikirjoitus](https://planb.academy/resources/glossary/script), jossa on useita [julkisia avaimia](https://planb.academy/resources/glossary/public-key), MuSig2:n avulla vaihtoon osallistujat voivat yhdistää avaimensa yhdeksi yhdistetyksi julkiseksi avaimeksi.
 
 
 - Yhteistyöhön perustuva "avainpolku":** Jos molemmat osapuolet hyväksyvät swapin ("onnellinen polku"), he allekirjoittavat transaktion. Verkon silmissä tämä näyttää samanlaiselta kuin tavallinen, yhden allekirjoituksen maksu. Se kuluttaa minimaalisen vähän lohkotilaa eikä paljasta mitään tietoa swap-ehdoista.
-- Vastapuolen "käsikirjoituspolku":** Jos toinen osapuoli ei vastaa tai on pahansuopa, taustalla oleva käsikirjoitus (joka sisältää hash-/aikalukot) paljastuu vasta silloin. Tämä on järjestetty Merkle-puuksi, jolloin rehellinen osapuoli voi paljastaa vain sen haaran, jota tarvitaan varojen takaisin saamiseksi, ja pitää muun sopimuslogiikan piilossa.
+- Vastapuolen "käsikirjoituspolku":** Jos toinen osapuoli ei vastaa tai on pahansuopa, taustalla oleva käsikirjoitus (joka sisältää hash-/aikalukot) paljastuu vasta silloin. Tämä on järjestetty [Merkle-puuksi](https://planb.academy/resources/glossary/merkle-tree), jolloin rehellinen osapuoli voi paljastaa vain sen haaran, jota tarvitaan varojen takaisin saamiseksi, ja pitää muun sopimuslogiikan piilossa.
 
 
 ### Käytännön toteutus: Liquid-Lightning Swaps
 
 
-Käytännössä nämä protokollat mahdollistavat saumattoman vuorovaikutuksen Bitcoin:n kerrosten välillä. Tyypillinen Liquid:stä Lightningiin tapahtuva vaihto alkaa siten, että asiakas pyytää vaihtoa palveluntarjoajalta. Asiakas toimittaa Lightning-laskun, ja palveluntarjoaja lukitsee vastaavan Liquid Bitcoin:n (L-BTC) Taproot-käytössä olevaan HTLC-osoitteeseen.
+Käytännössä nämä protokollat mahdollistavat saumattoman vuorovaikutuksen Bitcoin:n kerrosten välillä. Tyypillinen Liquid:stä Lightningiin tapahtuva vaihto alkaa siten, että asiakas pyytää vaihtoa palveluntarjoajalta. Asiakas toimittaa [Lightning-laskun](https://planb.academy/resources/glossary/invoice-lightning), ja palveluntarjoaja lukitsee vastaavan Liquid Bitcoin:n (L-BTC) Taproot-käytössä olevaan HTLC-osoitteeseen.
 
 
 Atomisuus toteutuu, kun maksu suoritetaan. L-BTC:n lunastamiseksi palveluntarjoajalla on oltava esikuva. Se saa tämän preimagen vain, kun se maksaa asiakkaan Lightning-laskun onnistuneesti. Kun Lightning-maksu on suoritettu, preimage paljastuu, jolloin palveluntarjoaja voi vapauttaa Liquid-varat.
@@ -206,7 +206,7 @@ Atomisuus toteutuu, kun maksu suoritetaan. L-BTC:n lunastamiseksi palveluntarjoa
 
 #### Wallet Abstraktio ja UTXO Hallinta
 
-Loppukäyttäjille tämä monimutkaisuus on täysin abstraktia. Nykyaikaiset lompakot, kuten Aqua, hoitavat avainten luomisen, laskujen laatimisen ja allekirjoittamisen taustalla. Käyttäjä yksinkertaisesti "maksaa" Lightning-laskun Liquid-saldollaan. Kulissien takana palvelu hallinnoi UTXO:n konsolidointia, pyyhkäisee säännöllisesti pienet, lunastamattomat tai palautetut tuotot, jotta wallet:n tehokkuus säilyy ja maksuvaikutukset minimoituvat vilkkaina kausina.
+Loppukäyttäjille tämä monimutkaisuus on täysin abstraktia. Nykyaikaiset lompakot, kuten Aqua, hoitavat avainten luomisen, laskujen laatimisen ja allekirjoittamisen taustalla. Käyttäjä yksinkertaisesti "maksaa" Lightning-laskun Liquid-saldollaan. Kulissien takana palvelu hallinnoi [UTXO](https://planb.academy/resources/glossary/utxo):n konsolidointia, pyyhkäisee säännöllisesti pienet, lunastamattomat tai palautetut tuotot, jotta [wallet](https://planb.academy/resources/glossary/wallet):n tehokkuus säilyy ja maksuvaikutukset minimoituvat vilkkaina kausina.
 
 
 ## Liquid Network Yleiskatsaus
@@ -220,7 +220,7 @@ Loppukäyttäjille tämä monimutkaisuus on täysin abstraktia. Nykyaikaiset lom
 ### Liquid Network Arkkitehtuuri ja konsensus
 
 
-Liquid Network toimii yhdistettynä sivuketjuna, joka perustuu **Elements**-koodipohjaan. Elements - fork Bitcoin Core - tarjoaa ohjelmistoperustan, mutta Liquid on tuotantoverkon toteutus. Toisin kuin Bitcoin:n Proof-of-Work, joka perustuu kilpailevaan mining:ään, Liquid käyttää **Federated Consensus** -mallia.
+Liquid Network toimii yhdistettynä sivuketjuna, joka perustuu **Elements**-koodipohjaan. Elements - fork Bitcoin Core - tarjoaa ohjelmistoperustan, mutta Liquid on tuotantoverkon toteutus. Toisin kuin Bitcoin:n Proof-of-Work, joka perustuu kilpailevaan [mining](https://planb.academy/resources/glossary/mining):ään, Liquid käyttää **Federated Consensus** -mallia.
 
 
 Verkostoa ylläpitää viisitoista maailmanlaajuisesti hajautettua "toimihenkilöä" Nämä yksiköt käyttävät erikoistuneita palvelimia, joilla on kaksi kriittistä tehtävää:
@@ -283,7 +283,7 @@ Pitkäikäisyyden varmistamiseksi Liquid käyttää Dynafed-protokollaa, jonka a
 ### Liquid Network: Liiketoimintastrategia ja ekosysteemi
 
 
-Liquid on enemmän kuin tekninen sivuketju; se on liiketoimintaan keskittyvä infrastruktuurikerros, joka on suunniteltu käsittelemään pääomamarkkinoiden monimutkaisia vaatimuksia, joita Bitcoin mainchain ei pysty tehokkaasti tukemaan. Lightning Network on optimoitu suurtaajuusmaksuja ja vähäarvoisia maksuja varten, kun taas Liquid on suunnattu suurten arvojen siirtoihin, omaisuuserien liikkeeseenlaskuun ja pörssien väliseen selvitykseen.
+Liquid on enemmän kuin tekninen sivuketju; se on liiketoimintaan keskittyvä infrastruktuurikerros, joka on suunniteltu käsittelemään pääomamarkkinoiden monimutkaisia vaatimuksia, joita Bitcoin mainchain ei pysty tehokkaasti tukemaan. [Lightning Network](https://planb.academy/resources/glossary/lightning-network) on optimoitu suurtaajuusmaksuja ja vähäarvoisia maksuja varten, kun taas Liquid on suunnattu suurten arvojen siirtoihin, omaisuuserien liikkeeseenlaskuun ja pörssien väliseen selvitykseen.
 
 
 Ekosysteemiä vetää **Liquid Federation**, joka on noin 73 yrityksen yhteenliittymä, johon kuuluu pörssejä, kaupankäyntipisteitä ja infrastruktuurin tarjoajia. Tämä yhteistoimintamalli vastaa perinteisiä rahoitusalan selvityskeskuksia, mutta se toimii avoimemmin ja huomattavasti lyhyemmällä toimitusajalla (2 minuuttia verrattuna T+2 päivään).
@@ -358,7 +358,7 @@ Alustan keskeinen arvolupaus perustuu kahteen ensisijaiseen ominaisuuteen: katta
 
 #### Operatiiviset kompromissit
 
-Tämä arkkitehtuuri tuo mukanaan erityisiä kompromisseja. Järjestelmä on riippuvainen AMP-palvelimen käytettävyydestä; jos palvelin toimii toisena allekirjoittajana ja menee offline-tilaan, varojen likviditeetti pysähtyy. Lisäksi vaikka käyttäjien välinen yksityisyys säilyy, sijoittajien on hyväksyttävä, että liikkeeseenlaskijalla on täysi näkyvyys heidän omistuksiinsa. Tämä malli on ihanteellinen sääntöjen mukaisille arvopaperilähteille, mutta ei sovellu sensuurin kestäviin kryptovaluuttoihin.
+Tämä arkkitehtuuri tuo mukanaan erityisiä kompromisseja. Järjestelmä on riippuvainen AMP-palvelimen käytettävyydestä; jos palvelin toimii toisena allekirjoittajana ja menee offline-tilaan, varojen likviditeetti pysähtyy. Lisäksi vaikka käyttäjien välinen yksityisyys säilyy, sijoittajien on hyväksyttävä, että liikkeeseenlaskijalla on täysi näkyvyys heidän omistuksiinsa. Tämä malli on ihanteellinen sääntöjen mukaisille arvopaperilähteille, mutta ei sovellu sensuurin kestäviin [kryptovaluuttoihin](https://planb.academy/resources/glossary/cryptocurrency).
 
 
 ### Arkkitehtuurin kehitys ja integraatiopolut

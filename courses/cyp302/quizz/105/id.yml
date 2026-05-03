@@ -6,4 +6,4 @@ wrong_answers:
   - Dengan mengenkripsi pesan dengan algoritma yang berbeda
 explanation: |
   Nomor urut memastikan bahwa pesan diterima dalam urutan yang benar dan mencegah pengurutan ulang pesan.
-reviewed: false
+reviewed: true

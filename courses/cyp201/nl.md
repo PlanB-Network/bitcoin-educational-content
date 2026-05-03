@@ -122,7 +122,7 @@ Deze tabel biedt u een vertaling van de belangrijkste gebruikte Engelse termen, 
 :::video id=f36528c9-9ab0-4037-a413-b16c204d5cc8:::
 
 
-Het eerste type cryptografische algoritmen dat gebruikt wordt in Bitcoin omvat Hash functies. Ze spelen een essentiële rol op verschillende niveaus van het protocol, maar ook binnen Bitcoin wallets. Laten we samen ontdekken wat een Hash functie is en waar deze voor wordt gebruikt in Bitcoin.
+Het eerste type cryptografische algoritmen dat gebruikt wordt in Bitcoin omvat Hash functies. Ze spelen een essentiële rol op verschillende niveaus van het protocol, maar ook binnen Bitcoin [wallets](https://planb.academy/resources/glossary/wallet). Laten we samen ontdekken wat een Hash functie is en waar deze voor wordt gebruikt in Bitcoin.
 
 
 ### Definitie en Principe van Hashing
@@ -133,7 +133,7 @@ Hashing is een proces dat informatie van willekeurige lengte omzet in een ander 
 De Hash wordt soms ook "digest", "condensate", "condensed" of "hashed" genoemd.
 
 
-De SHA256 Hash functie produceert bijvoorbeeld een Hash met een vaste lengte van 256 bits. Als we dus de invoer "_PlanB_" gebruiken, een bericht van willekeurige lengte, zal de gegenereerde Hash de volgende 256-bit vingerafdruk zijn:
+De [SHA256](https://planb.academy/resources/glossary/sha256) Hash functie produceert bijvoorbeeld een Hash met een vaste lengte van 256 bits. Als we dus de invoer "_PlanB_" gebruiken, een bericht van willekeurige lengte, zal de gegenereerde Hash de volgende 256-bit vingerafdruk zijn:
 
 
 ```text
@@ -245,13 +245,13 @@ Daarom is de weerstand tegen het tweede preimage enigszins vergelijkbaar met bot
 De meest gebruikte Hash functie in Bitcoin is **SHA256** ("_Secure Hash Algorithm 256 bits"_). Ontworpen in de vroege jaren 2000 door de NSA en gestandaardiseerd door het NIST, produceert het een 256-bit Hash uitvoer.
 
 
-Deze functie wordt in veel aspecten van Bitcoin gebruikt. Op protocolniveau is het betrokken bij het Proof-of-Work mechanisme, waar het wordt toegepast in dubbele hashing om te zoeken naar een gedeeltelijke botsing tussen de header van een kandidaatblok, aangemaakt door een Miner, en het moeilijkheidsdoel. Als deze gedeeltelijke botsing wordt gevonden, wordt het kandidaat-blok geldig en kan het worden toegevoegd aan Blockchain.
+Deze functie wordt in veel aspecten van Bitcoin gebruikt. Op protocolniveau is het betrokken bij het Proof-of-Work mechanisme, waar het wordt toegepast in dubbele hashing om te zoeken naar een gedeeltelijke botsing tussen de header van een kandidaatblok, aangemaakt door een Miner, en het moeilijkheidsdoel. Als deze gedeeltelijke botsing wordt gevonden, wordt het kandidaat-[blok](https://planb.academy/resources/glossary/block) geldig en kan het worden toegevoegd aan [Blockchain](https://planb.academy/resources/glossary/blockchain).
 
 
-SHA256 wordt ook gebruikt bij de opbouw van een Merkle Tree, wat met name de accumulator is die gebruikt wordt om transacties in blokken op te slaan. Deze structuur wordt ook gevonden in het Utreexo protocol, dat het mogelijk maakt om de grootte van de UTXO set te verkleinen. Daarnaast, met de introductie van Taproot in 2021, wordt SHA256 gebruikt in MAST (_Merkelised Alternative Script Tree_), wat het mogelijk maakt om alleen de bestedingsvoorwaarden te onthullen die daadwerkelijk gebruikt worden in een script, zonder de andere mogelijke opties te onthullen. Het wordt ook gebruikt bij het berekenen van transactie identifiers, bij het verzenden van pakketten over het P2P netwerk, bij elektronische handtekeningen... Tot slot, en dit is van bijzonder belang in deze training, wordt SHA256 gebruikt op applicatieniveau voor de constructie van Bitcoin wallets en de afleiding van adressen.
+SHA256 wordt ook gebruikt bij de opbouw van een [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree), wat met name de accumulator is die gebruikt wordt om transacties in blokken op te slaan. Deze structuur wordt ook gevonden in het [Utreexo](https://planb.academy/resources/glossary/utreexo) protocol, dat het mogelijk maakt om de grootte van de [UTXO set](https://planb.academy/resources/glossary/utxo-set) te verkleinen. Daarnaast, met de introductie van [Taproot](https://planb.academy/resources/glossary/taproot) in 2021, wordt SHA256 gebruikt in [MAST](https://planb.academy/resources/glossary/mast) (_Merkelised Alternative [Script](https://planb.academy/resources/glossary/script) Tree_), wat het mogelijk maakt om alleen de bestedingsvoorwaarden te onthullen die daadwerkelijk gebruikt worden in een script, zonder de andere mogelijke opties te onthullen. Het wordt ook gebruikt bij het berekenen van transactie identifiers, bij het verzenden van pakketten over het P2P netwerk, bij elektronische handtekeningen... Tot slot, en dit is van bijzonder belang in deze training, wordt SHA256 gebruikt op applicatieniveau voor de constructie van Bitcoin wallets en de afleiding van adressen.
 
 
-Meestal, wanneer je het gebruik van SHA256 in Bitcoin tegenkomt, zal het eigenlijk een dubbele Hash SHA256 zijn, genoteerd "**HASH256**", die simpelweg bestaat uit het twee keer achter elkaar toepassen van SHA256:
+Meestal, wanneer je het gebruik van SHA256 in Bitcoin tegenkomt, zal het eigenlijk een dubbele Hash SHA256 zijn, genoteerd "**[HASH256](https://planb.academy/resources/glossary/hash256)**", die simpelweg bestaat uit het twee keer achter elkaar toepassen van SHA256:
 
 
 $$
@@ -262,7 +262,7 @@ $$
 Deze praktijk van dubbel hashen voegt een extra Layer aan beveiliging toe tegen bepaalde potentiële aanvallen, ook al wordt een enkele SHA256 tegenwoordig als cryptografisch veilig beschouwd.
 
 
-Een andere hashingfunctie die beschikbaar is in de Scripttaal en gebruikt wordt voor het afleiden van ontvangstadressen is de functie RIPEMD160. Deze functie produceert een Hash van 160 bits (dus korter dan SHA256). Deze wordt meestal gecombineerd met SHA256 om de functie HASH160 te vormen:
+Een andere hashingfunctie die beschikbaar is in de Scripttaal en gebruikt wordt voor het afleiden van ontvangstadressen is de functie [RIPEMD160](https://planb.academy/resources/glossary/ripemd160). Deze functie produceert een Hash van 160 bits (dus korter dan SHA256). Deze wordt meestal gecombineerd met SHA256 om de functie HASH160 te vormen:
 
 
 $$
@@ -273,7 +273,7 @@ $$
 Deze combinatie wordt gebruikt om generate kortere hashes te maken, met name bij het maken van bepaalde Bitcoin adressen die hashes van sleutels of script-hashes voorstellen, en om fingerprints van sleutels te maken.
 
 
-Tot slot wordt, alleen op applicatieniveau, soms ook de SHA512 functie gebruikt, die indirect een rol speelt bij het afleiden van sleutels voor wallets. Deze functie lijkt erg op SHA256 in zijn werking; beide behoren tot dezelfde SHA2 familie, maar SHA512 produceert, zoals zijn naam aangeeft, een 512-bit Hash, vergeleken met 256 bits voor SHA256. We zullen het gebruik ervan in de volgende hoofdstukken gedetailleerd beschrijven.
+Tot slot wordt, alleen op applicatieniveau, soms ook de [SHA512](https://planb.academy/resources/glossary/sha512) functie gebruikt, die indirect een rol speelt bij het afleiden van sleutels voor wallets. Deze functie lijkt erg op SHA256 in zijn werking; beide behoren tot dezelfde SHA2 familie, maar SHA512 produceert, zoals zijn naam aangeeft, een 512-bit Hash, vergeleken met 256 bits voor SHA256. We zullen het gebruik ervan in de volgende hoofdstukken gedetailleerd beschrijven.
 
 
 Je kent nu de essentiële basis over hashing functies voor wat volgt. In het volgende hoofdstuk stel ik voor om in meer detail de werking van de functie te ontdekken die het hart vormt van Bitcoin: SHA256. We zullen het ontleden om te begrijpen hoe het de karakteristieken bereikt die we hier beschreven hebben. Dit volgende hoofdstuk is vrij lang en technisch, maar het is niet essentieel om de rest van de training te volgen. Dus, als je moeite hebt om het te begrijpen, maak je dan geen zorgen en ga direct door naar het volgende hoofdstuk, dat veel toegankelijker zal zijn.
@@ -751,7 +751,7 @@ Om een Hash functie botsingsbestendig te maken, is het essentieel dat:
 
 
 
-- De uitvoer is onvoorspelbaar: Elke voorspelbaarheid kan worden uitgebuit om sneller botsingen te vinden dan met een brute force aanval. De functie zorgt ervoor dat elke bit van de uitvoer op een niet-triviale manier afhangt van de invoer. Met andere woorden, de functie is zo ontworpen dat elke bit van het eindresultaat een onafhankelijke kans heeft om 0 of 1 te zijn, zelfs als deze onafhankelijkheid in de praktijk niet absoluut is.
+- De uitvoer is onvoorspelbaar: Elke voorspelbaarheid kan worden uitgebuit om sneller botsingen te vinden dan met een [brute force](https://planb.academy/resources/glossary/brute-force-attack) aanval. De functie zorgt ervoor dat elke bit van de uitvoer op een niet-triviale manier afhangt van de invoer. Met andere woorden, de functie is zo ontworpen dat elke bit van het eindresultaat een onafhankelijke kans heeft om 0 of 1 te zijn, zelfs als deze onafhankelijkheid in de praktijk niet absoluut is.
 - De verdeling van hashes is pseudo-willekeurig: Dit zorgt ervoor dat de hashes uniform verdeeld zijn.
 - De grootte van de Hash is aanzienlijk: hoe groter de mogelijke ruimte voor resultaten, hoe moeilijker het is om een botsing te vinden.
 
@@ -768,7 +768,7 @@ De structuur van SHA256 is gebaseerd op de Merkle-Damgård constructie, die het 
 Sommige oude Hash functies zoals SHA1 of MD5, die deze specifieke constructie gebruiken, zijn echter kwetsbaar voor lengte-uitbreidingsaanvallen. Dit is een techniek waarmee een aanvaller die de Hash van een bericht $M$ en de lengte van $M$ kent (zonder het bericht zelf te kennen), de Hash van een bericht $M'$ kan berekenen dat gevormd is door $M$ aan elkaar te rijgen met extra inhoud.
 
 
-SHA256, hoewel het hetzelfde type constructie gebruikt, is theoretisch bestand tegen dit type aanval, in tegenstelling tot SHA1 en MD5. Dit verklaart misschien het mysterie van de dubbele hashing die Satoshi Nakamoto in Bitcoin implementeerde. Om dit type aanval te vermijden, gebruikte Satoshi misschien liever een dubbele SHA256:
+SHA256, hoewel het hetzelfde type constructie gebruikt, is theoretisch bestand tegen dit type aanval, in tegenstelling tot SHA1 en MD5. Dit verklaart misschien het mysterie van de dubbele hashing die [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) in Bitcoin implementeerde. Om dit type aanval te vermijden, gebruikte Satoshi misschien liever een dubbele SHA256:
 
 
 $$
@@ -933,14 +933,14 @@ De tweede cryptografische methode die gebruikt wordt in Bitcoin zijn digitale ha
 ### Bitcoins, UTXO's en bestedingsvoorwaarden
 
 
-De term "_wallet_" in Bitcoin kan nogal verwarrend zijn voor beginners. Een Bitcoin Wallet is namelijk software die niet direct je bitcoins bevat, in tegenstelling tot een fysieke Wallet die munten of biljetten kan bevatten. Bitcoins zijn gewoon rekeneenheden. Deze rekeneenheid wordt vertegenwoordigd door **UTXO** (_Unspent Transaction Outputs_), dat zijn niet-uitgegeven transactie-uitgangen. Als deze outputs niet uitgegeven zijn, betekent dit dat ze toebehoren aan een gebruiker. UTXO's zijn in zekere zin stukjes bitcoins, van variabele grootte, die toebehoren aan een gebruiker.
+De term "_wallet_" in Bitcoin kan nogal verwarrend zijn voor beginners. Een Bitcoin Wallet is namelijk software die niet direct je bitcoins bevat, in tegenstelling tot een fysieke Wallet die munten of biljetten kan bevatten. Bitcoins zijn gewoon rekeneenheden. Deze rekeneenheid wordt vertegenwoordigd door **[UTXO](https://planb.academy/resources/glossary/utxo)** (_Unspent Transaction Outputs_), dat zijn niet-uitgegeven transactie-uitgangen. Als deze outputs niet uitgegeven zijn, betekent dit dat ze toebehoren aan een gebruiker. UTXO's zijn in zekere zin stukjes bitcoins, van variabele grootte, die toebehoren aan een gebruiker.
 
 
 Het Bitcoin protocol is gedistribueerd en werkt zonder centrale autoriteit. Daarom is het niet zoals traditionele bankgegevens, waar de euro's die van jou zijn simpelweg geassocieerd zijn met je persoonlijke identiteit. In Bitcoin zijn je UTXO's van jou, omdat ze beschermd zijn door bestedingsvoorwaarden die in de Scripttaal zijn gespecificeerd. Simpel gezegd zijn er twee soorten scripts: het vergrendelingsscript (_scriptPubKey_), dat een UTXO beschermt, en het ontgrendelingsscript (_scriptSig_), dat het mogelijk maakt een UTXO te ontgrendelen en dus de Bitcoin eenheden die het vertegenwoordigt uit te geven.
 
-De initiële werking van Bitcoin met P2PK scripts houdt in dat er een publieke sleutel gebruikt wordt om geld te blokkeren, waarbij in een _scriptPubKey_ gespecificeerd wordt dat de persoon die deze UTXO wil uitgeven een geldige handtekening moet leveren met de private sleutel die overeenkomt met deze publieke sleutel. Om deze UTXO te ontgrendelen, is het dus nodig om een geldige handtekening te leveren in het _scriptSig_. Zoals de namen al suggereren, is de publieke sleutel bij iedereen bekend, omdat deze wordt uitgezonden op de Blockchain, terwijl de privésleutel alleen bekend is bij de rechtmatige eigenaar van het geld.
+De initiële werking van Bitcoin met [P2PK](https://planb.academy/resources/glossary/p2pk) scripts houdt in dat er een publieke sleutel gebruikt wordt om geld te blokkeren, waarbij in een _scriptPubKey_ gespecificeerd wordt dat de persoon die deze UTXO wil uitgeven een geldige handtekening moet leveren met de private sleutel die overeenkomt met deze publieke sleutel. Om deze UTXO te ontgrendelen, is het dus nodig om een geldige handtekening te leveren in het _scriptSig_. Zoals de namen al suggereren, is de publieke sleutel bij iedereen bekend, omdat deze wordt uitgezonden op de Blockchain, terwijl de privésleutel alleen bekend is bij de rechtmatige eigenaar van het geld.
 
-Dit is de basiswerking van Bitcoin, maar in de loop der tijd is deze werking complexer geworden. Eerst introduceerde Satoshi ook P2PKH scripts, die een ontvangende Address gebruiken in de _scriptPubKey_, die de Hash van de publieke sleutel voorstelt. Daarna werd het systeem nog complexer met de komst van SegWit en daarna Taproot. Het algemene principe blijft echter fundamenteel hetzelfde: een publieke sleutel of een representatie van deze sleutel wordt gebruikt om UTXO's te vergrendelen, en een corresponderende private sleutel is nodig om ze te ontgrendelen en dus uit te geven.
+Dit is de basiswerking van Bitcoin, maar in de loop der tijd is deze werking complexer geworden. Eerst introduceerde Satoshi ook [P2PKH](https://planb.academy/resources/glossary/p2pkh) scripts, die een ontvangende Address gebruiken in de _scriptPubKey_, die de Hash van de publieke sleutel voorstelt. Daarna werd het systeem nog complexer met de komst van [SegWit](https://planb.academy/resources/glossary/segwit) en daarna Taproot. Het algemene principe blijft echter fundamenteel hetzelfde: een publieke sleutel of een representatie van deze sleutel wordt gebruikt om UTXO's te vergrendelen, en een corresponderende private sleutel is nodig om ze te ontgrendelen en dus uit te geven.
 
 
 Een gebruiker die een Bitcoin transactie wil doen, moet daarom een digitale handtekening zetten met zijn privé-sleutel op de transactie. De handtekening kan worden geverifieerd door andere netwerkdeelnemers. Als deze geldig is, betekent dit dat de gebruiker die de transactie initieert inderdaad de eigenaar is van de private sleutel, en dus de eigenaar van de bitcoins die hij/zij wil uitgeven. Andere gebruikers kunnen de transactie dan accepteren en verspreiden.
@@ -949,9 +949,9 @@ Een gebruiker die een Bitcoin transactie wil doen, moet daarom een digitale hand
 Daarom moet een gebruiker die bitcoins bezit die vergrendeld zijn met een publieke sleutel, een manier vinden om veilig op te bergen wat het mogelijk maakt om zijn fondsen te ontgrendelen: de privésleutel. Een Bitcoin Wallet is precies een apparaat waarmee je gemakkelijk al je sleutels kunt bewaren zonder dat andere mensen er toegang toe hebben. Het is daarom meer een sleutelhanger dan een Wallet.
 
 
-Het wiskundige verband tussen een openbare sleutel en een privésleutel, evenals de mogelijkheid om een handtekening uit te voeren om het bezit van een privésleutel te bewijzen zonder deze te onthullen, worden mogelijk gemaakt door een algoritme voor digitale handtekeningen. In het Bitcoin protocol worden twee handtekeningalgoritmen gebruikt: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) en het **Schnorr handtekeningenschema**. ECDSA is het digitale handtekeningprotocol dat vanaf het begin in Bitcoin gebruikt werd. Schnorr is recenter in Bitcoin, omdat het in november 2021 werd geïntroduceerd met de Taproot update.
+Het wiskundige verband tussen een openbare sleutel en een privésleutel, evenals de mogelijkheid om een handtekening uit te voeren om het bezit van een privésleutel te bewijzen zonder deze te onthullen, worden mogelijk gemaakt door een algoritme voor digitale handtekeningen. In het Bitcoin protocol worden twee handtekeningalgoritmen gebruikt: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_Elliptic Curve Digital Signature Algorithm_) en het **[Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) handtekeningenschema**. ECDSA is het digitale handtekeningprotocol dat vanaf het begin in Bitcoin gebruikt werd. Schnorr is recenter in Bitcoin, omdat het in november 2021 werd geïntroduceerd met de Taproot update.
 
-Deze twee algoritmen lijken erg op elkaar in hun mechanisme. Ze zijn beide gebaseerd op elliptische curve cryptografie. Het grote verschil tussen deze twee protocollen zit in de structuur van de handtekening en enkele specifieke wiskundige eigenschappen. We zullen daarom de werking van deze algoritmen bestuderen, te beginnen met de oudste: ECDSA.
+Deze twee algoritmen lijken erg op elkaar in hun mechanisme. Ze zijn beide gebaseerd op [elliptische curve cryptografie](https://planb.academy/resources/glossary/elliptic-curve). Het grote verschil tussen deze twee protocollen zit in de structuur van de handtekening en enkele specifieke wiskundige eigenschappen. We zullen daarom de werking van deze algoritmen bestuderen, te beginnen met de oudste: ECDSA.
 
 
 ### Elliptische kromme cryptografie
@@ -986,7 +986,7 @@ $$
 Om ECDSA of Schnorr te gebruiken, moet men de parameters van de elliptische curve kiezen, dat wil zeggen de waarden van $a$ en $b$ in de vergelijking van de curve. Er zijn verschillende standaarden van elliptische krommen die cryptografisch veilig zijn. De meest bekende is de _secp256r1_ curve, gedefinieerd en aanbevolen door het NIST (_National Institute of Standards and Technology_).
 
 
-Desondanks koos Satoshi Nakamoto, de uitvinder van Bitcoin, ervoor om deze curve niet te gebruiken. De reden voor deze keuze is onbekend, maar sommigen geloven dat hij liever een alternatief zocht omdat de parameters van deze curve mogelijk een achterdeur zouden kunnen bevatten. In plaats daarvan gebruikt het Bitcoin protocol de standaard **_secp256k1_** curve. Deze curve wordt gedefinieerd door de parameters $a = 0$ en $b = 7$. De vergelijking is dus:
+Desondanks koos Satoshi Nakamoto, de uitvinder van Bitcoin, ervoor om deze curve niet te gebruiken. De reden voor deze keuze is onbekend, maar sommigen geloven dat hij liever een alternatief zocht omdat de parameters van deze curve mogelijk een achterdeur zouden kunnen bevatten. In plaats daarvan gebruikt het Bitcoin protocol de standaard **_[secp256k1](https://planb.academy/resources/glossary/secp256k1)_** curve. Deze curve wordt gedefinieerd door de parameters $a = 0$ en $b = 7$. De vergelijking is dus:
 
 
 $$
@@ -1067,7 +1067,7 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Zoals eerder gezien, zijn de digitale handtekening algoritmen in Bitcoin gebaseerd op een paar private en publieke sleutels die wiskundig aan elkaar gekoppeld zijn. Laten we samen onderzoeken wat deze wiskundige link is en hoe ze gegenereerd worden.
+Zoals eerder gezien, zijn de digitale handtekening algoritmen in Bitcoin gebaseerd op een paar [private](https://planb.academy/resources/glossary/private-key) en [publieke sleutels](https://planb.academy/resources/glossary/public-key) die wiskundig aan elkaar gekoppeld zijn. Laten we samen onderzoeken wat deze wiskundige link is en hoe ze gegenereerd worden.
 
 
 ### De privésleutel
@@ -1337,7 +1337,7 @@ e = \text{HASH}(m)
 $$
 
 
-Vervolgens berekenen we een Nonce. In cryptografie is een Nonce gewoon een getal dat willekeurig of pseudo-willekeurig gegenereerd wordt en slechts één keer gebruikt wordt. Dat wil zeggen, elke keer dat er een nieuwe digitale handtekening wordt gemaakt met dit sleutelpaar, is het erg belangrijk om een andere Nonce te gebruiken, anders zal dit de veiligheid van de private sleutel in gevaar brengen. Het is daarom voldoende om een willekeurig en uniek geheel getal $r$ te bepalen zodat $1 \leq r \leq n-1$, waarbij $n$ de orde is van het voortbrengende punt $G$ van de elliptische curve.
+Vervolgens berekenen we een [Nonce](https://planb.academy/resources/glossary/nonce). In cryptografie is een Nonce gewoon een getal dat willekeurig of pseudo-willekeurig gegenereerd wordt en slechts één keer gebruikt wordt. Dat wil zeggen, elke keer dat er een nieuwe digitale handtekening wordt gemaakt met dit sleutelpaar, is het erg belangrijk om een andere Nonce te gebruiken, anders zal dit de veiligheid van de private sleutel in gevaar brengen. Het is daarom voldoende om een willekeurig en uniek geheel getal $r$ te bepalen zodat $1 \leq r \leq n-1$, waarbij $n$ de orde is van het voortbrengende punt $G$ van de elliptische curve.
 
 
 Dan berekenen we het punt $R$ op de elliptische kromme met de coördinaten $(x_R, y_R)$ zo dat:
@@ -1653,7 +1653,7 @@ Dit idee werd oorspronkelijk geformuleerd door Joseph Poon en Thaddeus Dryja in 
 Als deze sighash flag wordt geïntegreerd in Bitcoin, zal het het gebruik van convenanten mogelijk maken, maar het is ook een verplichte voorwaarde voor het implementeren van Eltoo, een algemeen protocol voor tweede lagen dat definieert hoe de Ownership van een UTXO gezamenlijk beheerd moet worden. Eltoo is specifiek ontworpen om de problemen op te lossen die samenhangen met de mechanismen voor het onderhandelen over de toestand van Lightning-kanalen, dat wil zeggen tussen openen en sluiten.
 
 
-Om je kennis van de Lightning Network te verdiepen, raad ik je na de CYP201 cursus van harte de LNP201 cursus van Fanis Michalakis aan, die het onderwerp in detail behandelt:
+Om je kennis van de [Lightning Network](https://planb.academy/resources/glossary/lightning-network) te verdiepen, raad ik je na de CYP201 cursus van harte de LNP201 cursus van Fanis Michalakis aan, die het onderwerp in detail behandelt:
 
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
@@ -1715,7 +1715,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 ### HD Portemonnees
 
 
-Om Address de beperking van JBOK wallets op te heffen, werd vervolgens een nieuwe Wallet structuur gebruikt. In 2012 stelde Pieter Wuille een verbetering voor met BIP32, die HD (Hierarchical Deterministic) wallets introduceerde. Het principe van een HD Wallet is om alle private sleutels af te leiden uit één enkele informatiebron, een seed genaamd, op een deterministische en hiërarchische manier. Deze seed wordt willekeurig gegenereerd wanneer de Wallet wordt aangemaakt en vormt een unieke back-up waarmee alle privésleutels van de Wallet opnieuw kunnen worden aangemaakt. De gebruiker kan dus generate een zeer groot aantal privésleutels aanmaken om Address hergebruik te voorkomen en zijn privacy te bewaren, terwijl hij slechts één back-up van zijn Wallet hoeft te maken via de seed.
+Om Address de beperking van JBOK wallets op te heffen, werd vervolgens een nieuwe Wallet structuur gebruikt. In 2012 stelde Pieter Wuille een verbetering voor met [BIP32](https://planb.academy/resources/glossary/bip0032), die HD (Hierarchical Deterministic) wallets introduceerde. Het principe van een HD Wallet is om alle private sleutels af te leiden uit één enkele informatiebron, een [seed](https://planb.academy/resources/glossary/seed) genaamd, op een deterministische en hiërarchische manier. Deze seed wordt willekeurig gegenereerd wanneer de Wallet wordt aangemaakt en vormt een unieke back-up waarmee alle privésleutels van de Wallet opnieuw kunnen worden aangemaakt. De gebruiker kan dus generate een zeer groot aantal privésleutels aanmaken om Address hergebruik te voorkomen en zijn privacy te bewaren, terwijl hij slechts één back-up van zijn Wallet hoeft te maken via de seed.
 
 
 ![CYP201](assets/en/039.webp)
@@ -1743,7 +1743,7 @@ In de komende hoofdstukken zullen we de interne werking van HD wallets onderzoek
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Moderne HD wallets vertrouwen op een enkel initieel stukje informatie genaamd "entropie" om deterministisch generate de hele set Wallet sleutels te maken. Deze entropie is een pseudo-willekeurig getal dat deels de veiligheid van de Wallet bepaalt.
+Moderne HD wallets vertrouwen op een enkel initieel stukje informatie genaamd "[entropie](https://planb.academy/resources/glossary/entropy)" om deterministisch generate de hele set Wallet sleutels te maken. Deze entropie is een pseudo-willekeurig getal dat deels de veiligheid van de Wallet bepaalt.
 
 
 ### Definitie van Entropie
@@ -1785,7 +1785,7 @@ In het volgende hoofdstuk zullen we zien hoe we van een willekeurig getal naar e
 
 :::video id=6218472e-b965-484f-b56b-e363f65d2827:::
 
-De Mnemonic frase, ook wel "seed frase", "herstelfrase", "geheime frase", of "24-woord frase" genoemd, is een reeks die meestal bestaat uit 12 of 24 woorden, die gegenereerd wordt uit entropie. Deze wordt gebruikt om deterministisch alle sleutels van een HD Wallet af te leiden. Dit betekent dat het mogelijk is om uit deze zin op deterministische wijze generate alle private en publieke sleutels van de Bitcoin Wallet te recreëren en dus toegang te krijgen tot de fondsen die ermee beschermd zijn. Het doel van de Mnemonic-zin is om een veilige en gebruiksvriendelijke manier te bieden voor back-up en herstel van bitcoins. Het werd in 2013 geïntroduceerd met de BIP39 standaard.
+De Mnemonic frase, ook wel "seed frase", "herstelfrase", "geheime frase", of "24-woord frase" genoemd, is een reeks die meestal bestaat uit 12 of 24 woorden, die gegenereerd wordt uit entropie. Deze wordt gebruikt om deterministisch alle sleutels van een HD Wallet af te leiden. Dit betekent dat het mogelijk is om uit deze zin op deterministische wijze generate alle private en publieke sleutels van de Bitcoin Wallet te recreëren en dus toegang te krijgen tot de fondsen die ermee beschermd zijn. Het doel van de Mnemonic-zin is om een veilige en gebruiksvriendelijke manier te bieden voor back-up en herstel van bitcoins. Het werd in 2013 geïntroduceerd met de [BIP39](https://planb.academy/resources/glossary/bip0039) standaard.
 
 
 Laten we samen ontdekken hoe we van entropie naar een Mnemonic zin kunnen gaan.
@@ -1933,7 +1933,7 @@ Voordat we verder gaan met de afleiding van de Wallet uit deze Mnemonic frase, z
 :::video id=59f8a63e-56af-4937-a1d1-3314b3934048:::
 
 
-Zoals we net gezien hebben, worden HD wallets gegenereerd uit een Mnemonic zin die meestal uit 12 of 24 woorden bestaat. Deze zin is erg belangrijk, omdat het de mogelijkheid biedt om alle sleutels van een Wallet te herstellen in het geval dat het fysieke apparaat (zoals een Hardware Wallet, bijvoorbeeld) verloren gaat. Het is echter een enkelvoudig faalpunt, want als het gecompromitteerd wordt, kan een aanvaller alle bitcoins stelen. Dit is waar de BIP39 passphrase om de hoek komt kijken.
+Zoals we net gezien hebben, worden HD wallets gegenereerd uit een Mnemonic zin die meestal uit 12 of 24 woorden bestaat. Deze zin is erg belangrijk, omdat het de mogelijkheid biedt om alle sleutels van een Wallet te herstellen in het geval dat het fysieke apparaat (zoals een Hardware Wallet, bijvoorbeeld) verloren gaat. Het is echter een enkelvoudig faalpunt, want als het gecompromitteerd wordt, kan een aanvaller alle bitcoins stelen. Dit is waar de BIP39 [passphrase](https://planb.academy/resources/glossary/passphrase-bip39) om de hoek komt kijken.
 
 
 ### Wat is een BIP39 passphrase?
@@ -2101,7 +2101,7 @@ Voordat we verder gaan met de afleiding van de HD Wallet met de volgende Element
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
 
-Een uitgebreide sleutel is eenvoudigweg de aaneenschakeling van een sleutel (privaat of publiek) en zijn geassocieerde chain code. Deze chain code is essentieel voor het afleiden van kindsleutels, omdat het zonder deze sleutel onmogelijk is om kindsleutels af te leiden van een oudersleutel. Deze uitgebreide sleutels maken het dus mogelijk om alle benodigde informatie te verzamelen om kindsleutels af te leiden, waardoor accountbeheer binnen een HD Wallet vereenvoudigd wordt.
+Een uitgebreide sleutel is eenvoudigweg de aaneenschakeling van een sleutel (privaat of publiek) en zijn geassocieerde [chain code](https://planb.academy/resources/glossary/chain-code). Deze chain code is essentieel voor het afleiden van kindsleutels, omdat het zonder deze sleutel onmogelijk is om kindsleutels af te leiden van een oudersleutel. Deze uitgebreide sleutels maken het dus mogelijk om alle benodigde informatie te verzamelen om kindsleutels af te leiden, waardoor accountbeheer binnen een HD Wallet vereenvoudigd wordt.
 
 
 ![CYP201](assets/en/051.webp)
@@ -2161,7 +2161,7 @@ Het volledige formaat van een uitgebreide sleutel is daarom 78 bytes zonder de c
 
 | Element           | Description                                                                                                        | Size      |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------ | --------- |
-| Version           | Indicates whether the key is public (`xpub`, `ypub`) or private (`xprv`, `zprv`), as well as the version of the extended key | 4 bytes   |
+| Version           | Indicates whether the key is public (`xpub`, `ypub`) or private (`xprv`, `zprv`), as well as the version of the [extended key](https://planb.academy/resources/glossary/extended-key) | 4 bytes   |
 | Depth             | Level in the hierarchy relative to the master key                                                                  | 1 byte    |
 | Parent Fingerprint| The first 4 bytes of HASH160 of the parent public key                                                              | 4 bytes   |
 | Index Number      | Position of the key in the order of children                                                                       | 4 bytes   |
@@ -2550,16 +2550,16 @@ Een afleidingspad verwijst daarom naar de reeks indexen die worden gebruikt om k
 Deze diepte komt overeen met de master private key en master chain code van de Wallet. Het wordt weergegeven door de notatie $m/$.
 
 
-**Diepgang 1: Doel (BIP43)**
+**Diepgang 1: Doel ([BIP43](https://planb.academy/resources/glossary/bip0043))**
 
 
-Het doel bepaalt de logische structuur van de afleiding. Bijvoorbeeld, een P2WPKH Address zal $/84'/$ hebben op diepte 1 (volgens BIP84), terwijl een P2TR Address $/86'/$ zal hebben (volgens BIP86). Deze Layer vergemakkelijkt de compatibiliteit tussen portemonnees door indexnummers aan te geven die overeenkomen met de BIP-nummers.
+Het doel bepaalt de logische structuur van de afleiding. Bijvoorbeeld, een P2WPKH Address zal $/84'/$ hebben op diepte 1 (volgens [BIP84](https://planb.academy/resources/glossary/bip0084)), terwijl een P2TR Address $/86'/$ zal hebben (volgens [BIP86](https://planb.academy/resources/glossary/bip0086)). Deze Layer vergemakkelijkt de compatibiliteit tussen portemonnees door indexnummers aan te geven die overeenkomen met de BIP-nummers.
 
 
 Met andere woorden, zodra je de hoofdsleutel en de chain code hoofdsleutel hebt, dienen deze als ouder sleutelpaar om een kind sleutelpaar af te leiden. De index die gebruikt wordt in deze afleiding kan bijvoorbeeld $/84'/$ zijn als de Wallet bedoeld is om SegWit v0 type scripts te gebruiken. Dit sleutelpaar bevindt zich dan op diepte 1. Zijn rol is niet om bitcoins te vergrendelen, maar gewoon om te dienen als een tussenpunt in de afleidingshiërarchie.
 
 
-**Diepte 2: Valutasoort (BIP44)**
+**Diepte 2: Valutasoort ([BIP44](https://planb.academy/resources/glossary/bip0044))**
 
 
 Van het sleutelpaar op diepte 1 wordt een nieuwe afleiding uitgevoerd om het sleutelpaar op diepte 2 te verkrijgen. Deze diepte maakt het mogelijk om Bitcoin-accounts te onderscheiden van andere cryptocurrencies binnen dezelfde Wallet.
@@ -2666,7 +2666,7 @@ In het volgende hoofdstuk zullen we ontdekken wat "*output script descriptors*" 
 Er wordt vaak gezegd dat de Mnemonic zin alleen voldoende is om toegang te krijgen tot een Wallet. In werkelijkheid liggen de zaken iets ingewikkelder. In het vorige hoofdstuk hebben we gekeken naar de afleidingsstructuur van de HD Wallet, en het is je misschien opgevallen dat dit proces behoorlijk complex is. Afleidingspaden vertellen software welke richting ze moet volgen om de sleutels van de gebruiker af te leiden. Echter, bij het herstellen van een Bitcoin Wallet, als men deze paden niet kent, is de Mnemonic zin alleen niet genoeg. Het maakt het mogelijk om de hoofdsleutel en de hoofd chain code te verkrijgen, maar dan is het nodig om de indexen te kennen die gebruikt zijn om de kind sleutels te bereiken.
 
 
-Theoretisch zou het nodig zijn om niet alleen de Mnemonic zinsnede van onze Wallet op te slaan, maar ook de paden naar de accounts die we gebruiken. In de praktijk is het vaak mogelijk om zonder deze informatie weer toegang te krijgen tot de kind sleutels, mits de standaarden zijn gevolgd. Door elke standaard één voor één te testen, is het over het algemeen mogelijk om weer toegang te krijgen tot de bitcoins. Dit is echter niet gegarandeerd en het is vooral ingewikkeld voor beginners. Met de diversificatie van scripttypen en de opkomst van complexere configuraties kan deze informatie bovendien moeilijk te extrapoleren zijn, waardoor deze gegevens privé-informatie worden en moeilijk te achterhalen zijn met brute kracht. Daarom is er onlangs een innovatie geïntroduceerd die nu in uw favoriete Wallet software geïntegreerd begint te worden: de *output script descriptors*.
+Theoretisch zou het nodig zijn om niet alleen de Mnemonic zinsnede van onze Wallet op te slaan, maar ook de paden naar de accounts die we gebruiken. In de praktijk is het vaak mogelijk om zonder deze informatie weer toegang te krijgen tot de kind sleutels, mits de standaarden zijn gevolgd. Door elke standaard één voor één te testen, is het over het algemeen mogelijk om weer toegang te krijgen tot de bitcoins. Dit is echter niet gegarandeerd en het is vooral ingewikkeld voor beginners. Met de diversificatie van scripttypen en de opkomst van complexere configuraties kan deze informatie bovendien moeilijk te extrapoleren zijn, waardoor deze gegevens privé-informatie worden en moeilijk te achterhalen zijn met brute kracht. Daarom is er onlangs een innovatie geïntroduceerd die nu in uw favoriete Wallet software geïntegreerd begint te worden: de *[output script descriptors](https://planb.academy/resources/glossary/output-script-descriptors)*.
 
 
 ### Wat is een "descriptor"?
@@ -2752,13 +2752,13 @@ Het is precies in de *scriptPubKey* dat de ontvangende adressen te vinden zijn. 
 
 
 
-| Standaard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _witness_ |
+| Standaard             | _scriptPubKey_ | _scriptSig_ | _redeem script_ | _[witness](https://planb.academy/resources/glossary/scriptwitness)_ |
 | -------------------- | ----------------------------------------------------------- | --------------------------------- | ------------------- | -------------------------------------------- |
 | P2PK                 | <*pubkey*> OP_CHECKSIG | <*signature*> | | |
 | P2PKH                | OP_DUP OP_HASH160 <*pubKeyHash*> OP_EQUALVERIFY OP_CHECKSIG | <*signature*> <*public key*> | | |
-| P2SH                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Willekeurige gegevens | |
-| P2WPKH               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
-| P2WSH                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
+| [P2SH](https://planb.academy/resources/glossary/p2sh)                 | OP_HASH160 <*scriptHash*> OP_EQUAL | <*data pushes*> <*redeem script*> | Willekeurige gegevens | |
+| [P2WPKH](https://planb.academy/resources/glossary/p2wpkh)               | 0 <*pubKeyHash*> | | | <*signature*> <*public key*> |
+| [P2WSH](https://planb.academy/resources/glossary/p2wsh)                | 0 <*witnessScriptHash*> | | | <*data pushes*> <*witness script*> |
 | P2SH-P2WPKH          | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*pubKeyHash*> | <*signature*> <*public key*> |
 | P2SH-P2WSH           | OP_HASH160 <*redeemScriptHash*> OP_EQUAL | <*redeem script*> | 0 <*scriptHash*> | <*data pushes*> <*witness script*> |
 | P2TR (*key path*)    | 1 <*public key*> | | | <*signature*> |
@@ -2862,7 +2862,7 @@ Dit scriptmodel werd geïntroduceerd in de eerste versie van Bitcoin door Satosh
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
 
-Net als P2PK werd het P2PKH-script geïntroduceerd bij de lancering van Bitcoin. In tegenstelling tot zijn voorganger, vergrendelt het de bitcoins door gebruik te maken van de Hash van de publieke sleutel, in plaats van direct gebruik te maken van de ruwe publieke sleutel. Het *scriptSig* moet dan de publieke sleutel leveren die geassocieerd is met de ontvangende Address, evenals een geldige handtekening. De adressen die overeenkomen met dit model beginnen met `1` en zijn gecodeerd in *base58check*. Dit script behoort ook tot de "*Legacy*" standaard.
+Net als P2PK werd het P2PKH-script geïntroduceerd bij de lancering van Bitcoin. In tegenstelling tot zijn voorganger, vergrendelt het de bitcoins door gebruik te maken van de Hash van de publieke sleutel, in plaats van direct gebruik te maken van de ruwe publieke sleutel. Het *scriptSig* moet dan de publieke sleutel leveren die geassocieerd is met de ontvangende Address, evenals een geldige handtekening. De adressen die overeenkomen met dit model beginnen met `1` en zijn gecodeerd in *[base58check](https://planb.academy/resources/glossary/base58check)*. Dit script behoort ook tot de "*Legacy*" standaard.
 
 
 **P2SH (*Pay-to-Script-Hash*)**:
@@ -2876,7 +2876,7 @@ Het P2SH model, geïntroduceerd in 2012 met BIP16, maakt het mogelijk om de Hash
 
 Dit script lijkt op P2PKH, omdat het ook bitcoins vergrendelt met behulp van de Hash van een publieke sleutel. Echter, in tegenstelling tot P2PKH, is het *scriptSig* verplaatst naar een aparte sectie genaamd "*Witness*". Dit wordt soms "*scriptWitness*" genoemd om de set aan te duiden die bestaat uit de handtekening en de publieke sleutel. Elke SegWit invoer heeft zijn eigen *scriptWitness* en de verzameling *scriptWitnesses* vormt het *Witness* veld van de transactie. Deze verplaatsing van handtekeninggegevens is een innovatie die is geïntroduceerd door de SegWit update, met name gericht op het voorkomen van de vervormbaarheid van transacties door ECDSA handtekeningen.
 
-P2WPKH adressen gebruiken *bech32* codering en beginnen altijd met `bc1q`. Dit type script komt overeen met versie 0 SegWit uitgangen.
+P2WPKH adressen gebruiken *[bech32](https://planb.academy/resources/glossary/bech32-and-bech32m)* codering en beginnen altijd met `bc1q`. Dit type script komt overeen met versie 0 SegWit uitgangen.
 
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:

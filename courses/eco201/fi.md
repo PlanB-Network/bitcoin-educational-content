@@ -55,7 +55,7 @@ Entä jos nykyisen talouden ymmärtämisen avain piilee vuosisatoja vanhassa teo
 
 ### Miten rahaa luodaan
 
-Nykyisessä rahajärjestelmässämme raha luodaan pääasiassa pankkikäytännön kautta, jota kutsutaan "osittaisvarantopankkitoiminnaksi". Tämä termi tarkoittaa käytännössä sitä, että pankeilta ei vaadita yhtä suuria varantoja kuin mitä ne saavat talletuksina. Tämän seurauksena ne voivat luoda uutta ostovoimaa myöntäessään lainoja ja vastaavasti vähentää ostovoimaa, kun asiakkaat maksavat lainojaan takaisin.
+Nykyisessä rahajärjestelmässämme raha luodaan pääasiassa pankkikäytännön kautta, jota kutsutaan "[osittaisvarantopankkitoiminnaksi](https://planb.academy/resources/glossary/fractional-reserves)". Tämä termi tarkoittaa käytännössä sitä, että pankeilta ei vaadita yhtä suuria varantoja kuin mitä ne saavat talletuksina. Tämän seurauksena ne voivat luoda uutta ostovoimaa myöntäessään lainoja ja vastaavasti vähentää ostovoimaa, kun asiakkaat maksavat lainojaan takaisin.
 
 Esimerkiksi, jos lähestyisit paikallista pankkiasi hankkiaksesi asuntolainan talon ostoa varten, pankin sinulle lainaama raha syntyisi kirjanpidollisena merkintänä. Kirjanpidossa yksilön nettovarallisuutta yleensä esitetään taseella, jolla on kaksi puolta: varapuoli, johon kuuluu kaikki omaisuus, rahoitussopimukset, varasto tai muut varallisuuden muodot, ja velkapuoli, joka näyttää varojen lähteen, joilla pääoman varapuolella listattu omaisuus on luotu. Varojen ja velkojen välistä eroa kutsutaan "omaksi pääomaksi", ja sitä voidaan pitää yksikön nettovarallisuutena.
 
@@ -119,7 +119,7 @@ Toinen ZIRP:n tahaton seuraus on, että se kannustaa hallituksia laajamittaiseen
 
 Kuva 6: Julkinen & yksityinen velka % BKT:sta (Maailma, painotettu BKT:lla maittain) / Lähde IMF
 
-Inflaation noustessa merkittävästi rahan luomisen seurauksena COVID-aiheisten lockdownien vastauksena, keskuspankkiirit nostavat nyt politiikkakorkoja inflaation hillitsemiseksi. Tämä kuitenkin asettaa merkittävän haasteen koko järjestelmälle. Pankit ovat enemmän velkaantuneita kuin koskaan, hallitukset kantavat historiallisesti korkeita velkatasoja, talouskasvu on hidasta, alijäämät kasvavat ja kuluttajat, jotka kamppailevat välttämättömien hyödykkeiden nousevien hintojen kanssa, ovat vaikeuksissa tulla toimeen. Inflaation hallitseminen vaatisi korkojen nostamista tasolle, joka voisi ajaa hallitukset konkurssiin, samalla kun pankit riskoivat menettävänsä tallettajia, kun yksilöt käyttävät säästöjään yhä kalliimpiin välttämättömyyksiin tai etsivät suojaa kovissa varoissa ja rahamarkkinarahastoissa inflaatiota vastaan.
+[Inflaation](https://planb.academy/resources/glossary/inflation) noustessa merkittävästi rahan luomisen seurauksena COVID-aiheisten lockdownien vastauksena, keskuspankkiirit nostavat nyt politiikkakorkoja inflaation hillitsemiseksi. Tämä kuitenkin asettaa merkittävän haasteen koko järjestelmälle. Pankit ovat enemmän velkaantuneita kuin koskaan, hallitukset kantavat historiallisesti korkeita velkatasoja, talouskasvu on hidasta, alijäämät kasvavat ja kuluttajat, jotka kamppailevat välttämättömien hyödykkeiden nousevien hintojen kanssa, ovat vaikeuksissa tulla toimeen. Inflaation hallitseminen vaatisi korkojen nostamista tasolle, joka voisi ajaa hallitukset konkurssiin, samalla kun pankit riskoivat menettävänsä tallettajia, kun yksilöt käyttävät säästöjään yhä kalliimpiin välttämättömyyksiin tai etsivät suojaa kovissa varoissa ja rahamarkkinarahastoissa inflaatiota vastaan.
 
 ### Johtopäätös
 
@@ -127,7 +127,7 @@ Inflaation noustessa merkittävästi rahan luomisen seurauksena COVID-aiheisten 
 > John Maynard Keynes
 > Olemukseltaan järjestelmämme kohtaa merkittäviä haasteita, ja Bitcoin nousee ainoaksi uskottavaksi vaihtoehdoksi. Bitcoin yksinään ei kuitenkaan pysty ratkaisemaan rahajärjestelmämme ongelmia. Ennen kaikkea tarvitsemme henkilöitä, jotka ymmärtävät perustaloustieteen periaatteita Bitcoin-harrastajien joukossa, mahdollistaen laajemman tietoisuuden ja talousjärjen ohjaamaan meitä pois hauraan taloudellisen perustan rakentamisesta sivilisaatiollemme. Tämän kurssin päätavoite on kouluttaa uusia Bitcoin-harrastajia vankkoihin taloustieteen periaatteisiin.
 
-Tavoitteen saavuttamiseksi selitämme "Itävaltalaisen taloustieteen" perusperiaatteet, taloustieteellisen koulukunnan, jolla on metodologinen perinne, joka ulottuu 1500-luvulle saakka, tarjoten näkemyksiä ihmisen toiminnasta taloudellisten rajoitteiden alaisena. Tämän johdannon myötä ymmärrät nyt rahanluonnin perusteet ja nykyisen talous- ja rahajärjestelmämme tilan.
+Tavoitteen saavuttamiseksi selitämme "[Itävaltalaisen taloustieteen](https://planb.academy/resources/glossary/austrian-school)" perusperiaatteet, taloustieteellisen koulukunnan, jolla on metodologinen perinne, joka ulottuu 1500-luvulle saakka, tarjoten näkemyksiä ihmisen toiminnasta taloudellisten rajoitteiden alaisena. Tämän johdannon myötä ymmärrät nyt rahanluonnin perusteet ja nykyisen talous- ja rahajärjestelmämme tilan.
 
 Tulevassa luvussa syvennymme minkä tahansa taloustieteellisen koulukunnan peruskiveen: arvoteoriaan. Seuraavat luvut tutkivat rahaa sosiaalisena instituutiona, pääoman ja liiketoimintasyklin teoriaa, taloudellisen laskennan haastetta sekä lyhyen katsauksen Itävaltalaisen taloustieteen koulukunnan historiaan ja metodologiaan.
 

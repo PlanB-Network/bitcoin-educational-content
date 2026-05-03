@@ -117,11 +117,11 @@ Bạn đã sẵn sàng khám phá Bitcoin mining chưa? Cùng bắt đầu nào!
 
 
 
-Trước khi đi vào phần giải thích chi tiết và chuyên sâu hơn về Bitcoin và mining, tôi muốn giới thiệu cho các bạn nguyên lý hoạt động một cách đơn giản và sơ lược. Nếu bạn đã có kiến ​​thức cơ bản, bạn có thể chuyển thẳng đến phần chính ở chương tiếp theo, sau khi trả lời các câu hỏi trắc nghiệm. Chương này chủ yếu dành cho người mới bắt đầu, nhằm giúp bạn có một khởi đầu dễ dàng.
+Trước khi đi vào phần giải thích chi tiết và chuyên sâu hơn về Bitcoin và [mining](https://planb.academy/resources/glossary/mining), tôi muốn giới thiệu cho các bạn nguyên lý hoạt động một cách đơn giản và sơ lược. Nếu bạn đã có kiến ​​thức cơ bản, bạn có thể chuyển thẳng đến phần chính ở chương tiếp theo, sau khi trả lời các câu hỏi trắc nghiệm. Chương này chủ yếu dành cho người mới bắt đầu, nhằm giúp bạn có một khởi đầu dễ dàng.
 
 
 
-Hãy tưởng tượng Bitcoin như một cuốn sổ tay công cộng lớn, được mọi người cùng chia sẻ, nơi chúng ta ghi lại ai đã gửi bitcoin cho ai. Cuốn sổ tay này được gọi là blockchain. Nó không thể chỉ do một người nắm giữ, nếu không thì nó phải được tin tưởng. Thay vào đó, Bitcoin hoạt động tập thể: hàng ngàn máy tính xác minh và duy trì cùng một phiên bản của cuốn sổ tay này.
+Hãy tưởng tượng Bitcoin như một cuốn sổ tay công cộng lớn, được mọi người cùng chia sẻ, nơi chúng ta ghi lại ai đã gửi bitcoin cho ai. Cuốn sổ tay này được gọi là [blockchain](https://planb.academy/resources/glossary/blockchain). Nó không thể chỉ do một người nắm giữ, nếu không thì nó phải được tin tưởng. Thay vào đó, Bitcoin hoạt động tập thể: hàng ngàn máy tính xác minh và duy trì cùng một phiên bản của cuốn sổ tay này.
 
 
 
@@ -129,7 +129,7 @@ Hãy tưởng tượng Bitcoin như một cuốn sổ tay công cộng lớn, đ
 
 
 
-Trong Bitcoin, khi bạn thực hiện thanh toán, bạn tạo ra một giao dịch. Giao dịch này không được thêm ngay lập tức vào sổ ghi chép. Nó được gửi đến mạng trước, sau đó chờ được tích hợp vào gói giao dịch tiếp theo. Gói này được gọi là một khối.
+Trong Bitcoin, khi bạn thực hiện thanh toán, bạn tạo ra một [giao dịch](https://planb.academy/resources/glossary/transaction-tx). Giao dịch này không được thêm ngay lập tức vào sổ ghi chép. Nó được gửi đến mạng trước, sau đó chờ được tích hợp vào gói giao dịch tiếp theo. Gói này được gọi là một [khối](https://planb.academy/resources/glossary/block).
 
 
 
@@ -141,11 +141,11 @@ Một khối (block) đơn giản chỉ là một tập hợp các giao dịch �
 
 
 
-Mining là quá trình xác thực một khối bằng cách tiêu thụ năng lượng. Các tác nhân được gọi là thợ đào sử dụng các máy tính chuyên dụng. Những máy này tiêu thụ điện năng để thực hiện một số lượng lớn các phép thử, theo vòng lặp, cho đến khi chúng tìm thấy bằng chứng mà mạng lưới chấp nhận. Khi một thợ đào tìm thấy bằng chứng này, khối của anh ta được coi là hợp lệ.
+Mining là quá trình xác thực một khối bằng cách tiêu thụ năng lượng. Các tác nhân được gọi là [thợ đào](https://planb.academy/resources/glossary/miner) sử dụng các máy tính chuyên dụng. Những máy này tiêu thụ điện năng để thực hiện một số lượng lớn các phép thử, theo vòng lặp, cho đến khi chúng tìm thấy bằng chứng mà mạng lưới chấp nhận. Khi một thợ đào tìm thấy bằng chứng này, khối của anh ta được coi là hợp lệ.
 
 
 
-Sau khi khối được xác thực, nó sẽ được phát sóng đến mạng. Các nút khác nhanh chóng kiểm tra xem nó có tuân thủ các quy tắc hay không, sau đó thêm nó vào chuỗi các khối trước đó. Đó là lý do tại sao nó được gọi là "blockchain": mỗi khối mới xuất hiện sau các khối khác, theo thứ tự tuần tự, và chuỗi này phát triển dần dần.
+Sau khi khối được xác thực, nó sẽ được phát sóng đến mạng. Các [nút](https://planb.academy/resources/glossary/node) khác nhanh chóng kiểm tra xem nó có tuân thủ các quy tắc hay không, sau đó thêm nó vào chuỗi các khối trước đó. Đó là lý do tại sao nó được gọi là "blockchain": mỗi khối mới xuất hiện sau các khối khác, theo thứ tự tuần tự, và chuỗi này phát triển dần dần.
 
 
 
@@ -153,11 +153,11 @@ Sau khi khối được xác thực, nó sẽ được phát sóng đến mạng
 
 
 
-Tóm lại, các giao dịch được tạo ra trước. Sau đó, chúng được nhóm lại với nhau trong một khối. Tiếp theo, thợ đào xác thực khối này bằng cách tiêu thụ điện năng. Cuối cùng, khối này được thêm vào chuỗi khối, và các giao dịch chứa trong đó được xác nhận.
+Tóm lại, các giao dịch được tạo ra trước. Sau đó, chúng được nhóm lại với nhau trong một khối. Tiếp theo, thợ đào xác thực khối này bằng cách tiêu thụ điện năng. Cuối cùng, khối này được thêm vào chuỗi khối, và các giao dịch chứa trong đó được [xác nhận](https://planb.academy/resources/glossary/confirmation).
 
 
 
-Nếu các thợ đào tiêu thụ điện năng, đó không phải vì họ làm việc tình nguyện. Họ làm vậy vì có phần thưởng. Khi một thợ đào xác thực một khối, họ nhận được hai loại thu nhập. Một mặt, họ nhận được bitcoin mới được tạo ra. Mặt khác, họ thu phí giao dịch do người dùng trả cho các giao dịch có trong khối đó. Nói cách khác, thợ đào được bồi thường cả thông qua việc phát hành tiền tệ được lập trình và phí giao dịch được xác định bởi thị trường.
+Nếu các thợ đào tiêu thụ điện năng, đó không phải vì họ làm việc tình nguyện. Họ làm vậy vì có phần thưởng. Khi một thợ đào xác thực một khối, họ nhận được hai loại thu nhập. Một mặt, họ nhận được bitcoin mới được tạo ra. Mặt khác, họ thu [phí](https://planb.academy/resources/glossary/transaction-fees) giao dịch do người dùng trả cho các giao dịch có trong khối đó. Nói cách khác, thợ đào được bồi thường cả thông qua việc phát hành tiền tệ được lập trình và phí giao dịch được xác định bởi thị trường.
 
 
 
@@ -187,7 +187,7 @@ Mục tiêu của chương này đơn giản là cung cấp cho bạn một cấ
 
 
 
-Trong Bitcoin, giao dịch là một cấu trúc dữ liệu chuyển quyền sở hữu bitcoin từ người dùng này sang người dùng khác. Cụ thể, nó tiêu thụ "đầu ra" từ các giao dịch trước đó (gọi là UTXO), coi chúng là "đầu vào", và sau đó tạo ra các "đầu ra" mới xác định bitcoin đó thuộc về ai và trong điều kiện nào chúng có thể được sử dụng sau này.
+Trong Bitcoin, giao dịch là một cấu trúc dữ liệu chuyển quyền sở hữu bitcoin từ người dùng này sang người dùng khác. Cụ thể, nó tiêu thụ "[đầu ra](https://planb.academy/resources/glossary/output)" từ các giao dịch trước đó (gọi là [UTXO](https://planb.academy/resources/glossary/utxo)), coi chúng là "[đầu vào](https://planb.academy/resources/glossary/input)", và sau đó tạo ra các "đầu ra" mới xác định bitcoin đó thuộc về ai và trong điều kiện nào chúng có thể được sử dụng sau này.
 
 
 
@@ -195,7 +195,7 @@ Trong Bitcoin, giao dịch là một cấu trúc dữ liệu chuyển quyền s�
 
 
 
-Một điểm quan trọng về Bitcoin là quyền chi tiêu. Bitcoin không nằm trong tài khoản như tiền của bạn trong ngân hàng, mà bị khóa bởi các điều kiện chi tiêu. Khi một wallet muốn sử dụng UTXO làm đầu vào, nó phải cung cấp bằng chứng mật mã chứng minh rằng nó có quyền mở khóa. Bằng chứng này thường có dạng chữ ký số generated từ khóa riêng. Đó là lý do tại sao những người dùng bitcoin nhấn mạnh việc bảo mật khóa riêng của bạn: chính những khóa này mở khóa quyền truy cập vào bitcoin của bạn và do đó, cho phép bạn chi tiêu chúng.
+Một điểm quan trọng về Bitcoin là quyền chi tiêu. Bitcoin không nằm trong tài khoản như tiền của bạn trong ngân hàng, mà bị khóa bởi các điều kiện chi tiêu. Khi một [wallet](https://planb.academy/resources/glossary/wallet) muốn sử dụng UTXO làm đầu vào, nó phải cung cấp bằng chứng mật mã chứng minh rằng nó có quyền mở khóa. Bằng chứng này thường có dạng [chữ ký số](https://planb.academy/resources/glossary/digital-signature) generated từ [khóa riêng](https://planb.academy/resources/glossary/private-key). Đó là lý do tại sao những người dùng bitcoin nhấn mạnh việc bảo mật khóa riêng của bạn: chính những khóa này mở khóa quyền truy cập vào bitcoin của bạn và do đó, cho phép bạn chi tiêu chúng.
 
 
 
@@ -221,7 +221,7 @@ Sau khi giao dịch được xây dựng và ký kết chính xác bởi Bitcoin
 
 
 
-Bitcoin là một mạng ngang hàng: không có máy chủ trung tâm nào nhận và xử lý tất cả các giao dịch. Vai trò này được thực hiện tập thể bởi các nút. Một nút Bitcoin là một phần mềm (ví dụ: Bitcoin Core) được kết nối với các nút khác trong mạng Bitcoin, nhiệm vụ chính của nó là xác minh, lưu trữ và chuyển tiếp các giao dịch và khối.
+Bitcoin là một mạng [ngang hàng](https://planb.academy/resources/glossary/peertopeer-p2p): không có máy chủ trung tâm nào nhận và xử lý tất cả các giao dịch. Vai trò này được thực hiện tập thể bởi các nút. Một nút Bitcoin là một phần mềm (ví dụ: [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core)) được kết nối với các nút khác trong mạng Bitcoin, nhiệm vụ chính của nó là xác minh, lưu trữ và chuyển tiếp các giao dịch và khối.
 
 
 
@@ -250,7 +250,7 @@ Nếu giao dịch vượt qua tất cả các bước kiểm tra này, nút sẽ
 
 
 
-Khoảng thời gian giữa lúc một giao dịch được phát đi và lúc nó được xác nhận trong một khối là khoảng thời gian chờ đợi. Khu vực chờ này được gọi là **mempool** (viết tắt của `memory` và `pool`). Do đó, mempool là một không gian lưu trữ tạm thời cho các giao dịch hợp lệ nhưng chưa được xác nhận.
+Khoảng thời gian giữa lúc một giao dịch được phát đi và lúc nó được xác nhận trong một khối là khoảng thời gian chờ đợi. Khu vực chờ này được gọi là **[mempool](https://planb.academy/resources/glossary/mempool)** (viết tắt của `memory` và `pool`). Do đó, mempool là một không gian lưu trữ tạm thời cho các giao dịch hợp lệ nhưng chưa được xác nhận.
 
 
 
@@ -270,7 +270,7 @@ Khoảng thời gian giữa lúc một giao dịch được phát đi và lúc n
 
 
 
-Vì bitcoin là một loại tiền tệ vô hình, nó phải giải quyết một vấn đề: ngăn chặn việc chi tiêu kép khi không có cơ quan trung ương. Nếu hai giao dịch cố gắng chi tiêu cùng một UTXO, tất cả mọi người phải có khả năng hội tụ về một trạng thái duy nhất, nhất quán. Satoshi Nakamoto tóm tắt vấn đề này bằng câu nói nổi tiếng sau:
+Vì bitcoin là một loại tiền tệ vô hình, nó phải giải quyết một vấn đề: ngăn chặn việc [chi tiêu kép](https://planb.academy/resources/glossary/double-spending-attack) khi không có cơ quan trung ương. Nếu hai giao dịch cố gắng chi tiêu cùng một UTXO, tất cả mọi người phải có khả năng hội tụ về một trạng thái duy nhất, nhất quán. Satoshi Nakamoto tóm tắt vấn đề này bằng câu nói nổi tiếng sau:
 
 
 
@@ -284,7 +284,7 @@ Nói cách khác, để biết một bitcoin chưa bị tiêu xài, bạn cần 
 
 
 
-Sổ ghi này không thể ghi đè lên được, nhờ một nguyên tắc đơn giản: mỗi khối bao gồm dấu vân tay mật mã (mã băm) của khối trước đó. Do đó, các khối được liên kết với nhau: nếu bạn sửa đổi một khối từ trước, mã băm của nó sẽ thay đổi, điều này làm đứt liên kết với khối tiếp theo, khối tiếp theo nữa thì liên kết với khối sau đó nữa, và cứ thế tiếp diễn. Chính chuỗi phụ thuộc này đã tạo nên tên gọi "*blockchain*".
+Sổ ghi này không thể ghi đè lên được, nhờ một nguyên tắc đơn giản: mỗi khối bao gồm dấu vân tay mật mã ([mã băm](https://planb.academy/resources/glossary/hash-function)) của khối trước đó. Do đó, các khối được liên kết với nhau: nếu bạn sửa đổi một khối từ trước, mã băm của nó sẽ thay đổi, điều này làm đứt liên kết với khối tiếp theo, khối tiếp theo nữa thì liên kết với khối sau đó nữa, và cứ thế tiếp diễn. Chính chuỗi phụ thuộc này đã tạo nên tên gọi "*blockchain*".
 
 
 
@@ -292,7 +292,7 @@ Sổ ghi này không thể ghi đè lên được, nhờ một nguyên tắc đ�
 
 
 
-Một khi đã hiểu được những nguyên tắc cơ bản của Bitcoin, chúng ta có thể mô tả mục tiêu của người khai thác một cách cụ thể hơn: xây dựng một khối mới mở rộng chuỗi hiện có bằng cách ghi các giao dịch đang chờ xử lý, và sau đó cố gắng làm cho nó hợp lệ (đây là "proof of work" nổi tiếng mà chúng ta sẽ nghiên cứu trong chương sau). Nhưng trước tiên, hãy cùng nhau khám phá trong chương tiếp theo cách một khối ứng cử viên được xây dựng.
+Một khi đã hiểu được những nguyên tắc cơ bản của Bitcoin, chúng ta có thể mô tả mục tiêu của người khai thác một cách cụ thể hơn: xây dựng một khối mới mở rộng chuỗi hiện có bằng cách ghi các giao dịch đang chờ xử lý, và sau đó cố gắng làm cho nó hợp lệ (đây là "[proof of work](https://planb.academy/resources/glossary/proof-of-work)" nổi tiếng mà chúng ta sẽ nghiên cứu trong chương sau). Nhưng trước tiên, hãy cùng nhau khám phá trong chương tiếp theo cách một khối ứng cử viên được xây dựng.
 
 
 
@@ -303,7 +303,7 @@ Một khi đã hiểu được những nguyên tắc cơ bản của Bitcoin, ch
 
 
 
-Giờ bạn đã hiểu cách thức hoạt động của giao dịch Bitcoin và vai trò của blockchain. Tuy nhiên, trước khi đi sâu hơn vào cách thức hoạt động của proof-of-work, vẫn còn một bước thiết yếu mà người khai thác phải thực hiện: xây dựng khối ứng cử viên. Chúng ta hãy cùng tìm hiểu khối ứng cử viên là gì và cách người khai thác xây dựng nó, trước khi bắt đầu tìm kiếm bằng chứng hợp lệ.
+Giờ bạn đã hiểu cách thức hoạt động của giao dịch Bitcoin và vai trò của blockchain. Tuy nhiên, trước khi đi sâu hơn vào cách thức hoạt động của proof-of-work, vẫn còn một bước thiết yếu mà người khai thác phải thực hiện: xây dựng [khối ứng cử viên](https://planb.academy/resources/glossary/candidate-block). Chúng ta hãy cùng tìm hiểu khối ứng cử viên là gì và cách người khai thác xây dựng nó, trước khi bắt đầu tìm kiếm bằng chứng hợp lệ.
 
 
 
@@ -318,7 +318,7 @@ Các máy đào Miner phải tự xây dựng các khối của mình trước k
 
 - Chọn những giao dịch cần đưa vào;
 - Sắp xếp các giao dịch này theo cách phù hợp với các quy tắc Bitcoin;
-- Tạo ra siêu dữ liệu của khối, được lưu trữ trong phần tiêu đề của nó.
+- Tạo ra siêu dữ liệu của khối, được lưu trữ trong phần [tiêu đề](https://planb.academy/resources/glossary/block-header) của nó.
 
 
 
@@ -340,7 +340,7 @@ Do đó, một khối Bitcoin bao gồm hai phần chính:
 
 
 
-Phần tiêu đề rất quan trọng, vì nó được sử dụng làm cơ sở cho proof-of-work: trong Bitcoin, bạn không khai thác toàn bộ khối trực tiếp; bạn chỉ khai thác phần tiêu đề của khối, tóm tắt thông tin cần thiết để liên kết khối với chuỗi và cam kết nội dung của nó. Để cho phép phần tiêu đề đại diện cho tất cả các giao dịch, Bitcoin sử dụng một công cụ mật mã: cây Merkle.
+Phần tiêu đề rất quan trọng, vì nó được sử dụng làm cơ sở cho proof-of-work: trong Bitcoin, bạn không khai thác toàn bộ khối trực tiếp; bạn chỉ khai thác phần tiêu đề của khối, tóm tắt thông tin cần thiết để liên kết khối với chuỗi và cam kết nội dung của nó. Để cho phép phần tiêu đề đại diện cho tất cả các giao dịch, Bitcoin sử dụng một công cụ mật mã: [cây Merkle](https://planb.academy/resources/glossary/merkle-tree).
 
 
 
@@ -348,7 +348,7 @@ Phần tiêu đề rất quan trọng, vì nó được sử dụng làm cơ s�
 
 
 
-Việc liệt kê tất cả các giao dịch trong phần tiêu đề là không thể: một khối có thể chứa hàng nghìn giao dịch, trong khi phần tiêu đề có kích thước cố định (80 byte). Do đó, giải pháp là tính toán một mã băm duy nhất phụ thuộc vào tất cả các giao dịch trong khối: đây chính là gốc Merkle.
+Việc liệt kê tất cả các giao dịch trong phần tiêu đề là không thể: một khối có thể chứa hàng nghìn giao dịch, trong khi phần tiêu đề có kích thước cố định (80 byte). Do đó, giải pháp là tính toán một mã băm duy nhất phụ thuộc vào tất cả các giao dịch trong khối: đây chính là [gốc Merkle](https://planb.academy/resources/glossary/merkle-root).
 
 
 
@@ -371,7 +371,7 @@ Vì vậy, nếu một giao dịch duy nhất thay đổi, dù chỉ một bit, 
 
 
 
-Từ SegWit, chúng ta đã tách phần chữ ký ra khỏi phần còn lại. Vì vậy, trên thực tế, có 2 cây Merkle lồng nhau trong mỗi khối. Sự tách biệt này có những hệ quả đối với cách chúng ta tính kích thước của một khối và đối với một số cam kết mật mã nhất định, nhưng ý tưởng cơ bản vẫn giữ nguyên: phần tiêu đề phải cam kết, một cách cô đọng, tất cả nội dung của khối.
+Từ [SegWit](https://planb.academy/resources/glossary/segwit), chúng ta đã tách phần chữ ký ra khỏi phần còn lại. Vì vậy, trên thực tế, có 2 cây Merkle lồng nhau trong mỗi khối. Sự tách biệt này có những hệ quả đối với cách chúng ta tính kích thước của một khối và đối với một số cam kết mật mã nhất định, nhưng ý tưởng cơ bản vẫn giữ nguyên: phần tiêu đề phải cam kết, một cách cô đọng, tất cả nội dung của khối.
 
 
 
@@ -402,19 +402,19 @@ Phần tiêu đề khối dài 80 byte và chứa chính xác 6 trường. Chín
 
 
 
-- Dấu thời gian: Đây là dấu thời gian (thời gian Unix) do người khai thác chọn (với các ràng buộc về tính hợp lệ), phải cho biết thời điểm khối được khai thác. Nó không cần phải chính xác đến từng giây, nhưng phải đáp ứng một số điều kiện nhất định để được mạng lưới chấp nhận.
+- [Dấu thời gian](https://planb.academy/resources/glossary/timestamp): Đây là dấu thời gian (thời gian Unix) do người khai thác chọn (với các ràng buộc về tính hợp lệ), phải cho biết thời điểm khối được khai thác. Nó không cần phải chính xác đến từng giây, nhưng phải đáp ứng một số điều kiện nhất định để được mạng lưới chấp nhận.
 
 
 
 
 
-- Mục tiêu độ khó được mã hóa (`nbits`): Trường này mã hóa mục tiêu độ khó hiện tại. Chúng ta sẽ đi vào chi tiết hơn trong chương về độ khó, nhưng hãy nhớ rằng tham số này là một phần của tiêu đề.
+- [Mục tiêu độ khó](https://planb.academy/resources/glossary/difficulty-target) được mã hóa (`nbits`): Trường này mã hóa mục tiêu độ khó hiện tại. Chúng ta sẽ đi vào chi tiết hơn trong chương về độ khó, nhưng hãy nhớ rằng tham số này là một phần của tiêu đề.
 
 
 
 
 
-- Nonce (`nonce`): Đây là một giá trị mà người khai thác có thể tự do sửa đổi. Nó đóng vai trò là một biến có thể điều chỉnh trong proof-of-work. Tôi sẽ giải thích chi tiết hơn về vai trò của nó trong chương tiếp theo, nhưng điều quan trọng là phải hiểu rằng nonce là một phần của tiêu đề khối và được thiết kế để cho phép các lần thử liên tiếp.
+- [Nonce](https://planb.academy/resources/glossary/nonce) (`nonce`): Đây là một giá trị mà người khai thác có thể tự do sửa đổi. Nó đóng vai trò là một biến có thể điều chỉnh trong proof-of-work. Tôi sẽ giải thích chi tiết hơn về vai trò của nó trong chương tiếp theo, nhưng điều quan trọng là phải hiểu rằng nonce là một phần của tiêu đề khối và được thiết kế để cho phép các lần thử liên tiếp.
 
 
 
@@ -510,7 +510,7 @@ Hàm băm rất thú vị trong hệ thống máy tính vì nó có một số �
 
 
 
-Hàm băm được sử dụng trong Bitcoin cho mining là `SHA256`, được áp dụng hai lần liên tiếp. Điều này được gọi là SHA256 kép, hay `SHA256d`. Chính việc băm kép này tạo ra dấu vân tay của khối.
+Hàm băm được sử dụng trong Bitcoin cho mining là `SHA256`, được áp dụng hai lần liên tiếp. Điều này được gọi là [SHA256](https://planb.academy/resources/glossary/sha256) kép, hay `SHA256d`. Chính việc băm kép này tạo ra dấu vân tay của khối.
 
 
 
@@ -618,7 +618,7 @@ Quy trình mining rất đơn giản:
 
 
 
-Trên thực tế, nonce không phải là trường duy nhất có thể được sửa đổi. Bất kỳ sửa đổi nào trong các giao dịch của một khối đều dẫn đến thay đổi ở gốc của cây Merkle, và do đó, dẫn đến sửa đổi phần tiêu đề của khối đó. Với sức mạnh tính toán hiện đại, việc xem xét 4,29 tỷ giá trị có thể có của nonce có thể được thực hiện tương đối nhanh chóng. Đó là lý do tại sao có một trường khác, thường được gọi là "*extra-nonce*", giúp nhân lên thêm nhiều khả năng thay đổi tiêu đề. Chúng ta sẽ quay lại cơ chế này chi tiết hơn trong một chương sau.
+Trên thực tế, nonce không phải là trường duy nhất có thể được sửa đổi. Bất kỳ sửa đổi nào trong các giao dịch của một khối đều dẫn đến thay đổi ở gốc của cây Merkle, và do đó, dẫn đến sửa đổi phần tiêu đề của khối đó. Với sức mạnh tính toán hiện đại, việc xem xét 4,29 tỷ giá trị có thể có của nonce có thể được thực hiện tương đối nhanh chóng. Đó là lý do tại sao có một trường khác, thường được gọi là "*[extra-nonce](https://planb.academy/resources/glossary/extra-nonce)*", giúp nhân lên thêm nhiều khả năng thay đổi tiêu đề. Chúng ta sẽ quay lại cơ chế này chi tiết hơn trong một chương sau.
 
 
 
@@ -630,7 +630,7 @@ Chúng tôi gọi đó là "bằng chứng" vì kết quả có thể được k
 
 
 
-Trong Sách trắng Bitcoin, Satoshi Nakamoto nêu ra hai ưu điểm khi sử dụng hệ thống proof-of-work trong Bitcoin:
+Trong [Sách trắng](https://planb.academy/resources/glossary/white-paper) Bitcoin, Satoshi Nakamoto nêu ra hai ưu điểm khi sử dụng hệ thống proof-of-work trong Bitcoin:
 
 
 
@@ -650,7 +650,7 @@ Nói cách khác, proof-of-work đóng vai trò là xương sống của hệ th
 
 
 
-- Xác định nguyên tắc đa số (đồng thuận) và vô hiệu hóa Sybil:**
+- Xác định nguyên tắc đa số ([đồng thuận](https://planb.academy/resources/glossary/consensus)) và vô hiệu hóa Sybil:**
 
 
 
@@ -658,7 +658,7 @@ Proof-of-Work cũng cho phép Bitcoin đạt được sự đồng thuận mà k
 
 
 
-Trong Bitcoin, "đa số" không phải là số lượng người tham gia lớn nhất, mà là **chuỗi tích lũy được nhiều công việc nhất**. Như Satoshi đã nêu, đây là nguyên tắc "một CPU = một phiếu bầu", tức là một phiếu bầu được tính trọng số dựa trên sức mạnh tính toán thực tế được sử dụng để tạo ra các khối hợp lệ. Vì vậy, việc triển khai hàng nghìn nút không mang lại lợi thế nào so với Bitcoin. Nếu không có thêm sức mạnh tính toán, sẽ không có thêm bằng chứng công việc nào được tích lũy, và cuộc tấn công Sybil trở nên vô dụng, trong khi quy tắc quyết định vẫn khách quan và không yêu cầu xác định danh tính người tham gia.
+Trong Bitcoin, "đa số" không phải là số lượng người tham gia lớn nhất, mà là **chuỗi tích lũy được nhiều công việc nhất**. Như Satoshi đã nêu, đây là nguyên tắc "một CPU = một phiếu bầu", tức là một phiếu bầu được tính trọng số dựa trên sức mạnh tính toán thực tế được sử dụng để tạo ra các khối hợp lệ. Vì vậy, việc triển khai hàng nghìn nút không mang lại lợi thế nào so với Bitcoin. Nếu không có thêm sức mạnh tính toán, sẽ không có thêm bằng chứng công việc nào được tích lũy, và cuộc [tấn công Sybil](https://planb.academy/resources/glossary/sybil-attack) trở nên vô dụng, trong khi quy tắc quyết định vẫn khách quan và không yêu cầu xác định danh tính người tham gia.
 
 
 
@@ -689,7 +689,7 @@ Trong chương tiếp theo, chúng ta sẽ tìm hiểu sơ lược về nguyên 
 
 
 
-Cơ chế Proof-of-work không phải là ý tưởng được phát minh riêng cho Bitcoin. Satoshi Nakamoto đã tiếp thu và kết hợp một số ý tưởng cũ hơn, vốn đã được khám phá trong các bối cảnh khác nhau.
+Cơ chế Proof-of-work không phải là ý tưởng được phát minh riêng cho Bitcoin. [Satoshi Nakamoto](https://planb.academy/resources/glossary/nakamoto-satoshi) đã tiếp thu và kết hợp một số ý tưởng cũ hơn, vốn đã được khám phá trong các bối cảnh khác nhau.
 
 
 
@@ -701,7 +701,7 @@ Vào cuối những năm 1990, vấn đề thư rác trở nên nghiêm trọng.
 
 
 
-Đây là mục tiêu của Hashcash, được đề xuất bởi Adam Back vào năm 1997, được coi là phát minh của nguyên tắc proof-of-work. Nguyên tắc Hashcash rất giống với mining: tạo ra một mã băm tuân thủ một điều kiện (có một số lượng số 0 nhất định ở đầu mã băm). Bằng chứng sau đó được đính kèm với thông điệp và có thể được người nhận xác minh rất nhanh chóng. Nếu nhận được một email không chứa bằng chứng này, nó có thể ngay lập tức được coi là thư rác và do đó bị lọc. Những kẻ gửi thư rác sau đó buộc phải tiêu tốn một lượng năng lượng đáng kể để gửi hàng triệu tin nhắn, điều này làm giảm đáng kể (hoặc thậm chí loại bỏ hoàn toàn) lợi nhuận của loại hoạt động này, cho dù là tiếp thị hay gian lận.
+Đây là mục tiêu của [Hashcash](https://planb.academy/resources/glossary/hashcash), được đề xuất bởi Adam Back vào năm 1997, được coi là phát minh của nguyên tắc proof-of-work. Nguyên tắc Hashcash rất giống với mining: tạo ra một mã băm tuân thủ một điều kiện (có một số lượng số 0 nhất định ở đầu mã băm). Bằng chứng sau đó được đính kèm với thông điệp và có thể được người nhận xác minh rất nhanh chóng. Nếu nhận được một email không chứa bằng chứng này, nó có thể ngay lập tức được coi là thư rác và do đó bị lọc. Những kẻ gửi thư rác sau đó buộc phải tiêu tốn một lượng năng lượng đáng kể để gửi hàng triệu tin nhắn, điều này làm giảm đáng kể (hoặc thậm chí loại bỏ hoàn toàn) lợi nhuận của loại hoạt động này, cho dù là tiếp thị hay gian lận.
 
 
 
@@ -792,7 +792,7 @@ Nếu trong quá trình trì hoãn lan truyền này, một thợ đào khác c�
 
 
 
-Những sự phân chia này không phải là thảm họa. Lý thuyết đồng thuận Nakamoto dự đoán rằng, về lâu dài, chỉ có một nhánh sẽ chiếm ưu thế: nhánh tích lũy được nhiều công việc nhất. Thật vậy, ngay khi một khối mới được khai thác trên khối A, chẳng hạn, toàn bộ mạng lưới sẽ đồng bộ hóa lại trên nhánh này và bỏ rơi khối B, khối B sau đó trở thành một "*khối lỗi thời*", đôi khi bị gọi nhầm là "*khối mồ côi*" trong ngôn ngữ thông thường.
+Những sự phân chia này không phải là thảm họa. Lý thuyết đồng thuận Nakamoto dự đoán rằng, về lâu dài, chỉ có một nhánh sẽ chiếm ưu thế: nhánh tích lũy được nhiều công việc nhất. Thật vậy, ngay khi một khối mới được khai thác trên khối A, chẳng hạn, toàn bộ mạng lưới sẽ đồng bộ hóa lại trên nhánh này và bỏ rơi khối B, khối B sau đó trở thành một "*[khối lỗi thời](https://planb.academy/resources/glossary/stale-block)*", đôi khi bị gọi nhầm là "*khối mồ côi*" trong ngôn ngữ thông thường.
 
 
 
@@ -812,7 +812,7 @@ Khoảng thời gian 10 phút thường đủ để khối chiến thắng lan t
 
 
 
-*"Hashrate*" đề cập đến lượng tính toán băm được tạo ra mỗi giây, cho dù bởi một thợ đào đơn lẻ, một nhóm thợ đào, hay tất cả các thợ đào trong Bitcoin. Nó được biểu thị bằng `H/s` (băm mỗi giây), với các bội số như `TH/s` (terahash mỗi giây) hoặc `EH/s` (exahash mỗi giây). Điều này thể hiện số lần thử mà các thợ đào có thể thực hiện mỗi giây để cố gắng đạt được giá trị băm thấp hơn mục tiêu.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" đề cập đến lượng tính toán băm được tạo ra mỗi giây, cho dù bởi một thợ đào đơn lẻ, một nhóm thợ đào, hay tất cả các thợ đào trong Bitcoin. Nó được biểu thị bằng `H/s` (băm mỗi giây), với các bội số như `TH/s` (terahash mỗi giây) hoặc `EH/s` (exahash mỗi giây). Điều này thể hiện số lần thử mà các thợ đào có thể thực hiện mỗi giây để cố gắng đạt được giá trị băm thấp hơn mục tiêu.
 
 
 
@@ -833,7 +833,7 @@ Nói cách khác, nếu mạng Bitcoin trong tương lai tăng gấp đôi sức
 
 
 
-Bitcoin giải quyết vấn đề này bằng cơ chế điều chỉnh mục tiêu định kỳ, điều chỉnh độ khó của mining. Nguyên tắc như sau: cứ sau 2016 khối (khoảng 2 tuần), mỗi nút sẽ tính toán lại mục tiêu độ khó bằng cách quan sát xem thực tế cần bao nhiêu thời gian để tạo ra 2016 khối này.
+Bitcoin giải quyết vấn đề này bằng cơ chế điều chỉnh mục tiêu định kỳ, [điều chỉnh độ khó](https://planb.academy/resources/glossary/difficulty-adjustment) của mining. Nguyên tắc như sau: cứ sau 2016 khối (khoảng 2 tuần), mỗi nút sẽ tính toán lại mục tiêu độ khó bằng cách quan sát xem thực tế cần bao nhiêu thời gian để tạo ra 2016 khối này.
 
 
 
@@ -924,6 +924,8 @@ Có một chi tiết quan trọng cần lưu ý về sự điều chỉnh này: 
 
 
 
+Cũng cần lưu ý rằng trên thực tế, việc điều chỉnh độ khó của Bitcoin không hoàn toàn chính xác. Thật vậy, chúng ta đã thấy rằng nó được dự tính để tính toán lại độ khó sau mỗi 2016 khối, bằng cách so sánh thời gian thực tế đã trôi qua với thời gian mục tiêu là 14 ngày (2016 × 10 phút). Tuy nhiên, mã nguồn gốc của Satoshi có chứa một lỗi gọi là "*off-by-one*": thay vì đo thời gian giữa các khối cuối cùng của mỗi giai đoạn (tức là 2016 khoảng thời gian), nó lại đo thời gian giữa khối đầu tiên và khối cuối cùng, tức là chỉ có 2015 khoảng thời gian. Cụ thể, độ khó được tính toán như thể giai đoạn đó chỉ bao gồm 2015 khối thay vì 2016. Hệ quả là độ khó luôn bị đánh giá cao hơn một chút một cách có hệ thống, khiến cho các khối được khai thác trung bình chậm hơn một chút so với mục tiêu 10 phút (chậm hơn khoảng 0,05%). Lỗi này đã được biết đến từ lâu nhưng chưa bao giờ được sửa đổi, vì việc thay đổi nó sẽ yêu cầu một bản hard fork và tác động của nó vẫn không đáng kể trong thực tế, ngoại trừ cuộc tấn công lý thuyết được gọi là "*time warp*".
+
 ### Biểu diễn mục tiêu
 
 
@@ -959,7 +961,7 @@ Nguyên tắc này dựa trên lý thuyết trò chơi: giao thức khiến sự
 
 
 
-Để đạt được điều này, giao thức Bitcoin quy định rằng người khai thác tìm thấy một khối hợp lệ sẽ giành được quyền đưa một giao dịch cụ thể vào khối đó, điều này sẽ thưởng cho người khai thác một khoản tiền nhất định là BTC. Điều này được gọi là **phần thưởng khối**. Trong chương đầu tiên của phần này, mục tiêu là hiểu được phần thưởng khối được tạo thành từ những gì và cách thức xác định nó. Sau đó, chúng ta sẽ xem phần tạo ra tiền phát triển như thế nào theo thời gian (với các sự kiện giảm một nửa) và cách thức thu thập tiền trên thực tế về mặt kỹ thuật (thông qua giao dịch Coinbase).
+Để đạt được điều này, giao thức Bitcoin quy định rằng người khai thác tìm thấy một khối hợp lệ sẽ giành được quyền đưa một giao dịch cụ thể vào khối đó, điều này sẽ thưởng cho người khai thác một khoản tiền nhất định là BTC. Điều này được gọi là **[phần thưởng khối](https://planb.academy/resources/glossary/block-reward)**. Trong chương đầu tiên của phần này, mục tiêu là hiểu được phần thưởng khối được tạo thành từ những gì và cách thức xác định nó. Sau đó, chúng ta sẽ xem phần tạo ra tiền phát triển như thế nào theo thời gian (với các sự kiện giảm một nửa) và cách thức thu thập tiền trên thực tế về mặt kỹ thuật (thông qua giao dịch Coinbase).
 
 
 
@@ -976,7 +978,7 @@ Chính sự kiện này (việc thêm khối vào chuỗi khối) sẽ kích ho�
 
 
 
-- trợ cấp khối**;
+- [trợ cấp khối](https://planb.academy/resources/glossary/block-subsidy)**;
 - Phí giao dịch**.
 
 
@@ -1091,7 +1093,7 @@ Do đó, hai giao dịch có thể trả cùng một khoản phí tuyệt đối
 
 
 
-Đây là lý do tại sao, trên thực tế, chúng ta thể hiện tính cạnh tranh của một giao dịch bằng tỷ lệ phí, thường là `sats/vB` (satoshis trên mỗi byte ảo). Việc tính toán tỷ lệ này rất đơn giản:
+Đây là lý do tại sao, trên thực tế, chúng ta thể hiện tính cạnh tranh của một giao dịch bằng tỷ lệ phí, thường là `sats/vB` ([satoshis](https://planb.academy/resources/glossary/satoshi-sat) trên mỗi byte ảo). Việc tính toán tỷ lệ này rất đơn giản:
 
 
 
@@ -1142,7 +1144,7 @@ Trong chương tiếp theo, chúng ta sẽ tập trung chi tiết hơn vào tr�
 
 
 
-Trong chương trước, chúng ta đã thấy rằng những người khai thác tạo ra một khối hợp lệ sẽ nhận được phần thưởng bao gồm phí giao dịch trong khối đó, cộng với một khoản trợ cấp khối. Tuy nhiên, chúng ta vẫn chưa giải thích cách xác định số tiền trợ cấp này. Cơ chế thiết lập và thay đổi giá trị này được gọi là ***giảm một nửa***.
+Trong chương trước, chúng ta đã thấy rằng những người khai thác tạo ra một khối hợp lệ sẽ nhận được phần thưởng bao gồm phí giao dịch trong khối đó, cộng với một khoản trợ cấp khối. Tuy nhiên, chúng ta vẫn chưa giải thích cách xác định số tiền trợ cấp này. Cơ chế thiết lập và thay đổi giá trị này được gọi là ***[giảm một nửa](https://planb.academy/resources/glossary/halving)***.
 
 
 
@@ -1251,7 +1253,7 @@ Lý do chính là do cơ chế. Qua các lần giảm một nửa liên tiếp, 
 
 
 
-Ngoài ra, những sai lệch nhỏ liên quan đến giao thức cũng có thể góp phần vào điều này. Ví dụ, trong những trường hợp hiếm hoi, một số thợ đào có thể không nhận đủ phần trợ cấp của họ, điều này chắc chắn làm giảm số lượng bitcoin thực sự được phát hành. Chúng ta cũng có thể đề cập đến khối khởi tạo, được tạo ra bởi Satoshi vào ngày 3 tháng 1 năm 2009, mà bitcoin được tạo ra không phải là một phần của UTXO set, cũng như một số sự kiện lịch sử liên quan đến lỗi, chẳng hạn như mã định danh giao dịch Coinbase trùng lặp.
+Ngoài ra, những sai lệch nhỏ liên quan đến giao thức cũng có thể góp phần vào điều này. Ví dụ, trong những trường hợp hiếm hoi, một số thợ đào có thể không nhận đủ phần trợ cấp của họ, điều này chắc chắn làm giảm số lượng bitcoin thực sự được phát hành. Chúng ta cũng có thể đề cập đến [khối khởi tạo](https://planb.academy/resources/glossary/genesis-block), được tạo ra bởi Satoshi vào ngày 3 tháng 1 năm 2009, mà bitcoin được tạo ra không phải là một phần của [UTXO set](https://planb.academy/resources/glossary/utxo-set), cũng như một số sự kiện lịch sử liên quan đến lỗi, chẳng hạn như mã định danh giao dịch Coinbase trùng lặp.
 
 
 
@@ -1295,7 +1297,7 @@ Tuy nhiên, vẫn còn một câu hỏi: bằng cơ chế nào người khai th�
 
 
 
-Như chúng ta đã thấy trong phần đầu của khóa học, mỗi khối Bitcoin chứa một danh sách các giao dịch đang chờ xử lý mà nó sẽ xác nhận. Giao dịch đầu tiên trong số này luôn là giao dịch Coinbase. Chính giao dịch này cho phép người khai thác chiến thắng nhận được phần thưởng của họ.
+Như chúng ta đã thấy trong phần đầu của khóa học, mỗi khối Bitcoin chứa một danh sách các giao dịch đang chờ xử lý mà nó sẽ xác nhận. Giao dịch đầu tiên trong số này luôn là [giao dịch Coinbase](https://planb.academy/resources/glossary/coinbase-transaction). Chính giao dịch này cho phép người khai thác chiến thắng nhận được phần thưởng của họ.
 
 
 
@@ -1303,7 +1305,7 @@ Như chúng ta đã thấy trong phần đầu của khóa học, mỗi khối B
 
 
 
-Thoạt nhìn, nó trông giống như một giao dịch Bitcoin điển hình: nó có TXID, đầu ra và được bao gồm trong cây Merkle của khối. Tuy nhiên, nó khác biệt ở một khía cạnh quan trọng: nó không sử dụng bất kỳ UTXO hiện có nào.
+Thoạt nhìn, nó trông giống như một giao dịch Bitcoin điển hình: nó có [TXID](https://planb.academy/resources/glossary/txid-transaction-identifier), đầu ra và được bao gồm trong cây Merkle của khối. Tuy nhiên, nó khác biệt ở một khía cạnh quan trọng: nó không sử dụng bất kỳ UTXO hiện có nào.
 
 
 
@@ -1402,7 +1404,7 @@ Theo thời gian, giao dịch Coinbase đã trở thành một điểm chèn đ�
 
 
 
-BIP-34 là phiên bản phần mềm fork được triển khai vào tháng 3 năm 2013, bắt đầu từ khối 227.930, giới thiệu phiên bản 2 của các khối Bitcoin. Phiên bản mới này yêu cầu mỗi khối phải bao gồm chiều cao của khối đang được tạo trong `scriptSig` của giao dịch coinbase.
+[BIP-34](https://planb.academy/resources/glossary/bip0034) là phiên bản phần mềm fork được triển khai vào tháng 3 năm 2013, bắt đầu từ khối 227.930, giới thiệu phiên bản 2 của các khối Bitcoin. Phiên bản mới này yêu cầu mỗi khối phải bao gồm chiều cao của khối đang được tạo trong `scriptSig` của giao dịch coinbase.
 
 
 
@@ -1454,7 +1456,7 @@ Vì lý do vận hành, các pool mining cũng khai thác trường trống củ
 
 
 
-Kể từ khi SegWit soft fork được kích hoạt vào năm 2017, dữ liệu chứng thực (tức là chữ ký nói chung) đã được tách biệt khỏi dữ liệu chính của giao dịch, đặc biệt là để khắc phục vấn đề dễ bị thay đổi của các giao dịch Bitcoin. Do đó, sự tách biệt này đưa thêm một yếu tố mới cần được cam kết trong khối.
+Kể từ khi SegWit [soft fork](https://planb.academy/resources/glossary/soft-fork) được kích hoạt vào năm 2017, dữ liệu chứng thực (tức là chữ ký nói chung) đã được tách biệt khỏi dữ liệu chính của giao dịch, đặc biệt là để khắc phục vấn đề [dễ bị thay đổi của các giao dịch Bitcoin](https://planb.academy/resources/glossary/malleability-transaction). Do đó, sự tách biệt này đưa thêm một yếu tố mới cần được cam kết trong khối.
 
 
 
@@ -1500,7 +1502,7 @@ Thông điệp này, có trong khối Genesis (khối đầu tiên của Bitcoin
 ### Thời kỳ đáo hạn
 
 
-Sau khi khối được khai thác và phân phối, giao dịch coinbase sẽ xuất hiện trên blockchain giống như bất kỳ giao dịch nào khác. Nó tạo ra UTXO cho người khai thác thắng cuộc, cho phép họ thu thập phần thưởng. Tuy nhiên, những UTXO này không thể được sử dụng ngay lập tức: chúng phải tuân theo một khoảng thời gian đáo hạn. Thời gian đáo hạn này được đặt ở 100 khối sau khối chứa coinbase. Cụ thể, giao dịch coinbase do đó phải nhận được tổng cộng 101 xác nhận để người khai thác thắng cuộc có thể sử dụng được số tiền thu được.
+Sau khi khối được khai thác và phân phối, giao dịch coinbase sẽ xuất hiện trên blockchain giống như bất kỳ giao dịch nào khác. Nó tạo ra UTXO cho người khai thác thắng cuộc, cho phép họ thu thập phần thưởng. Tuy nhiên, những UTXO này không thể được sử dụng ngay lập tức: chúng phải tuân theo một [khoảng thời gian đáo hạn](https://planb.academy/resources/glossary/maturity-period). Thời gian đáo hạn này được đặt ở 100 khối sau khối chứa coinbase. Cụ thể, giao dịch coinbase do đó phải nhận được tổng cộng 101 xác nhận để người khai thác thắng cuộc có thể sử dụng được số tiền thu được.
 
 
 ![Image](assets/fr/040.webp)
@@ -1615,7 +1617,7 @@ Chính vào thời điểm này, độ khó của mining bắt đầu tăng vọ
 
 
 
-Giữa kỷ nguyên GPU và kỷ nguyên ASIC hiện đại, có một giai đoạn trung gian: việc sử dụng FPGA. FPGA là một linh kiện có thể lập trình lại: nó có thể được cấu hình để trực tiếp thực hiện một mạch logic dành riêng cho một phép tính cụ thể, trong trường hợp này là `SHA256d`. Ý tưởng là để tiến xa hơn nữa khỏi phần cứng đa năng (CPU/GPU) nhằm đạt được hiệu quả năng lượng cao hơn. Nhưng chẳng bao lâu sau, những cải tiến được thực hiện trên FPGA về mặt ảo đã được áp dụng vật lý vào chính các chip: đó là sự ra đời của ASIC.
+Giữa kỷ nguyên GPU và kỷ nguyên [ASIC](https://planb.academy/resources/glossary/asic) hiện đại, có một giai đoạn trung gian: việc sử dụng FPGA. FPGA là một linh kiện có thể lập trình lại: nó có thể được cấu hình để trực tiếp thực hiện một mạch logic dành riêng cho một phép tính cụ thể, trong trường hợp này là `SHA256d`. Ý tưởng là để tiến xa hơn nữa khỏi phần cứng đa năng (CPU/GPU) nhằm đạt được hiệu quả năng lượng cao hơn. Nhưng chẳng bao lâu sau, những cải tiến được thực hiện trên FPGA về mặt ảo đã được áp dụng vật lý vào chính các chip: đó là sự ra đời của ASIC.
 
 
 
@@ -1667,7 +1669,7 @@ Một máy riêng lẻ có thể khai thác, nhưng bằng cách nhóm hàng tr�
 
 
 
-Một trang trại mining, ở dạng đơn giản nhất, là một tòa nhà (hoặc một tập hợp các container) chứa đầy các thiết bị ASIC hoạt động 24/7. Thách thức hiện nay là duy trì điều kiện hoạt động ổn định:
+Một [trang trại mining](https://planb.academy/resources/glossary/mining-farm), ở dạng đơn giản nhất, là một tòa nhà (hoặc một tập hợp các container) chứa đầy các thiết bị ASIC hoạt động 24/7. Thách thức hiện nay là duy trì điều kiện hoạt động ổn định:
 
 
 
@@ -1724,7 +1726,7 @@ https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-
 
 
 
-Mining và Bitcoin liên quan đến các chi phí phát sinh liên tục và không thể tránh khỏi, trong đó quan trọng nhất là chi phí điện năng tiêu thụ của máy móc. Những chi phí này phát sinh độc lập với bất kỳ kết quả nào, ngay cả khi doanh thu từ mining, về bản chất, là hiếm và ngẫu nhiên. Việc phát hiện ra một khối phụ thuộc hoàn toàn vào phần chia sẻ của người khai thác trong hashrate, điều này làm cho thu nhập càng khó dự đoán hơn khi phần chia sẻ đó càng nhỏ. Chính vấn đề thực tiễn này đã nhanh chóng dẫn đến việc sử dụng rộng rãi các nhóm khai thác mining. Trong chương cuối cùng của khóa học MIN 101 này, tôi giới thiệu về các nguyên tắc và hoạt động của các nhóm khai thác mining trong Bitcoin.
+Mining và Bitcoin liên quan đến các chi phí phát sinh liên tục và không thể tránh khỏi, trong đó quan trọng nhất là chi phí điện năng tiêu thụ của máy móc. Những chi phí này phát sinh độc lập với bất kỳ kết quả nào, ngay cả khi doanh thu từ mining, về bản chất, là hiếm và ngẫu nhiên. Việc phát hiện ra một khối phụ thuộc hoàn toàn vào phần chia sẻ của người khai thác trong hashrate, điều này làm cho thu nhập càng khó dự đoán hơn khi phần chia sẻ đó càng nhỏ. Chính vấn đề thực tiễn này đã nhanh chóng dẫn đến việc sử dụng rộng rãi các [nhóm khai thác mining](https://planb.academy/resources/glossary/pool-mining). Trong chương cuối cùng của khóa học MIN 101 này, tôi giới thiệu về các nguyên tắc và hoạt động của các nhóm khai thác mining trong Bitcoin.
 
 
 
@@ -1736,7 +1738,7 @@ mining pool là một tổ chức (thường là một dịch vụ trực tuyế
 
 
 
-Những người tham gia vào nhóm mining thường được gọi là "người băm" (haher) thay vì "người khai thác" (miner), vì họ không còn thực hiện toàn bộ công việc của mining nữa, mà chỉ đơn giản là băm dữ liệu được nhóm truyền đến cho họ.
+Những người tham gia vào nhóm mining thường được gọi là "[người băm](https://planb.academy/resources/glossary/hasher)" (haher) thay vì "người khai thác" (miner), vì họ không còn thực hiện toàn bộ công việc của mining nữa, mà chỉ đơn giản là băm dữ liệu được nhóm truyền đến cho họ.
 
 
 
@@ -1807,7 +1809,7 @@ Các pool đầu tiên được tạo ra chính xác là để đáp ứng thự
 
 
 
-Về mặt kỹ thuật, các pool khai thác được cấu trúc xung quanh các giao thức truyền thông chuyên biệt giữa pool và các thợ đào (ví dụ: Stratum, sau đó là Stratum V2), nhằm điều phối hiệu quả công việc phân tán. Chúng ta sẽ xem xét kỹ hơn các khái niệm này trong khóa đào tạo MIN 201.
+Về mặt kỹ thuật, các pool khai thác được cấu trúc xung quanh các giao thức truyền thông chuyên biệt giữa pool và các thợ đào (ví dụ: [Stratum](https://planb.academy/resources/glossary/stratum), sau đó là Stratum V2), nhằm điều phối hiệu quả công việc phân tán. Chúng ta sẽ xem xét kỹ hơn các khái niệm này trong khóa đào tạo MIN 201.
 
 
 

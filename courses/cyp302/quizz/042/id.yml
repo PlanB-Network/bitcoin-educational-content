@@ -6,4 +6,4 @@ wrong_answers:
   - Grup invers
 explanation: |
   Grup abelian, atau komutatif, adalah grup di mana urutan elemen dalam operasi biner tidak mempengaruhi hasilnya. Ini berarti bahwa untuk setiap a dan b, a ∘ b = b ∘ a.
-reviewed: false
+reviewed: true

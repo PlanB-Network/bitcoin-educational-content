@@ -6,4 +6,4 @@ wrong_answers:
   - Les routes choisies par le nœud
 explanation: |
   Les paramètres avancés permettent de personnaliser des éléments d’identification du nœud, sans impact sur le consensus ou le fonctionnement du réseau Lightning.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,8 @@
+question: According to the Austrian theory of business cycles, what is the main cause of economic crises?
+answer: Central bank manipulation of interest rates
+wrong_answers:
+  - The natural failings of the free market
+  - "Excessive competition between private companies"
+  - "Insufficient consumer demand"
+explanation: |
+  Austrian business cycle theory explains that crises do not arise from free market failures, but from monetary intervention. When central banks artificially manipulate interest rates, they distort the essential price signal that naturally coordinates people's time preferences. This manipulation provokes systematic malinvestment, which inevitably leads to a painful correction in the form of recession.

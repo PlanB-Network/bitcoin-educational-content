@@ -130,7 +130,7 @@ Ingawa familia zote mbili hutoa kiwango sawa cha usalama, inashauriwa kuepuka ki
 
 Kuvinjari kwa faragha, ingawa hakufichi kuvinjari kutoka kwa mtoa huduma wako wa mtandao, hukuruhusu usiondoe alama za ndani kwenye kompyuta yako. Vidakuzi hufutwa kiotomatiki mwishoni mwa kila kipindi, hivyo kukuruhusu kukubali vidakuzi vyote bila kufuatiliwa. Kuvinjari kwa faragha kunaweza kuwa muhimu wakati wa kununua huduma za mtandaoni, kwani tovuti hufuatilia tabia zetu za utafutaji na kurekebisha bei ipasavyo. Hata hivyo, ni muhimu kutambua kwamba kuvinjari kwa faragha kunapendekezwa kwa vipindi vya muda na maalum, si kwa kuvinjari kwa ujumla kwa mtandao.
 
-Njia mbadala ya kisasa zaidi ni mtandao wa TOR (The Onion Router), ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Anwani na kuruhusu ufikiaji wa Darknet. Kivinjari cha TOR ni kivinjari iliyoundwa mahsusi kutumia mtandao wa TOR. Inakuruhusu kutembelea tovuti za kawaida na tovuti za .onion, ambazo kwa kawaida huendeshwa na watu binafsi na zinaweza kuwa ni za kinyume cha sheria.
+Njia mbadala ya kisasa zaidi ni mtandao wa [TOR (The Onion Router)](https://planb.academy/resources/glossary/tor), ambao hutoa kutokujulikana kwa kuficha IP ya mtumiaji Anwani na kuruhusu ufikiaji wa Darknet. Kivinjari cha TOR ni kivinjari iliyoundwa mahsusi kutumia mtandao wa TOR. Inakuruhusu kutembelea tovuti za kawaida na tovuti za .onion, ambazo kwa kawaida huendeshwa na watu binafsi na zinaweza kuwa ni za kinyume cha sheria.
 
 TOR ni halali na inatumiwa na wanahabari, wanaharakati wa uhuru, na wengine wanaotaka kuepuka udhibiti katika nchi zenye mamlaka. Hata hivyo, ni muhimu kuelewa kwamba TOR haihifadhi tovuti zilizotembelewa au kompyuta yenyewe. Zaidi ya hayo, kutumia TOR kunaweza kupunguza kasi ya muunganisho wa intaneti, kwani data inapita kupitia kompyuta za watu wengine watatu kabla ya kufika mahali inapokwenda. Pia ni muhimu kutambua kwamba TOR si suluhu la kijinga ili kuhakikisha kutokujulikana kwa 100% na haipaswi kutumiwa kwa muamala haramu.
 
@@ -475,18 +475,6 @@ Katika mafunzo haya mawili, ninakuongoza pia katika kulinda akaunti zako za mtan
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Mpangilio wa chelezo
-
-<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
-
-Kulinda faili zako za kibinafsi pia ni hatua muhimu. Mafunzo haya yanakuonyesha jinsi ya kutekeleza mbinu bora ya kuhifadhi nakala kwa kutumia Proton Drive. Gundua jinsi ya kutumia suluhisho hili salama la wingu kutumia mbinu ya 3-2-1: nakala tatu za data yako kwenye midia mbili tofauti, na nakala moja nje ya tovuti. Hii inahakikisha ufikiaji na usalama wa faili zako nyeti:
-
-https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
-
-Na ili kulinda faili zako zilizohifadhiwa kwenye midia inayoweza kutolewa kama vile hifadhi ya USB au kiendeshi cha nje cha Hard, pia ninakuonyesha jinsi ya kusimba kwa urahisi na kusimbua midia hii kwa kutumia VeraCrypt:
-
-https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
-
 ## Mabadiliko ya kivinjari na VPN
 
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
@@ -501,6 +489,18 @@ https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5
 Pia, jifunze jinsi ya kutumia Tor Browser, kivinjari kilichoundwa mahususi kulinda faragha yako mtandaoni:
 
 https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+
+## Mpangilio wa chelezo
+
+<chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
+
+Kulinda faili zako za kibinafsi pia ni hatua muhimu. Mafunzo haya yanakuonyesha jinsi ya kutekeleza mbinu bora ya kuhifadhi nakala kwa kutumia Proton Drive. Gundua jinsi ya kutumia suluhisho hili salama la wingu kutumia mbinu ya 3-2-1: nakala tatu za data yako kwenye midia mbili tofauti, na nakala moja nje ya tovuti. Hii inahakikisha ufikiaji na usalama wa faili zako nyeti:
+
+https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
+
+Na ili kulinda faili zako zilizohifadhiwa kwenye midia inayoweza kutolewa kama vile hifadhi ya USB au kiendeshi cha nje cha Hard, pia ninakuonyesha jinsi ya kusimba kwa urahisi na kusimbua midia hii kwa kutumia VeraCrypt:
+
+https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
 # Nenda zaidi
 

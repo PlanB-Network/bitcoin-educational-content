@@ -1,4 +1,4 @@
-question: Koji opcioni indeks može biti aktiviran u Bitcoin core da bi se pronašla transakcija po njenom txid?
+question: Koji opcioni indeks može biti aktiviran u Bitcoin Core-u da bi se pronašla transakcija po njenom txid?
 answer: txindex
 wrong_answers:
   - addrindex

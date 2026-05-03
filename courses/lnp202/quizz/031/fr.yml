@@ -6,4 +6,4 @@ wrong_answers:
   - Hash de l'alias du nœud et seed
 explanation: |
   Le Node ID combine la clé publique du nœud avec son adresse réseau et son port.
-reviewed: false
+reviewed: true 

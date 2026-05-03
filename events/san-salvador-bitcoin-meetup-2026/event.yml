@@ -1,0 +1,25 @@
+id: f51857b3-7629-4a85-950b-823bf9234683
+start_date: 2026-02-27 00:30:00
+end_date: 2026-02-27 03:00:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+address_line_2: Calle La Mascota N°450 CC KTM
+address_line_3: Garage Burger La Mascota
+name: San Salvador Bitcoin Meetup 2026
+type: meetup
+book_online: false
+book_in_person: false
+description: |
+  Join our Bitcoin Meetup on Thursday, February 26th! An open space to learn about Bitcoin, share ideas and connect with the Bitcoiner community. Whether you're new to Bitcoin or already an expert, this event is for you. Features a talk titled 'Bitcoin: The Store of Value They Didn't Tell You About.' Free entry, supported by Bitdriver and Satlantis App.
+  
+  Warning: information may change. Booking and up-to-date information are on SATLANTIS.
+language:
+  - es
+links:
+  website: https://www.satlantis.io/events/1765/San-Salvador-Bitcoin-Meetup
+  replay_url: 
+  live_url: 
+tags:
+  - adoption
+  - use-case
+  - good-practice

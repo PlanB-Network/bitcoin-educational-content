@@ -1,9 +1,9 @@
-question: Bitcoin cho phép bạn làm gì mà không cần trung gian?
-answer: Giá trị Exchange trên Internet
+question: Doanh nghiệp có thể sử dụng Bitcoin làm những gì mà không cần qua trung gian?
+answer: Trao đổi giá trị trực tuyến trên Internet
 wrong_answers:
   - Tạo các ứng dụng tập trung
   - Vay vốn ngân hàng
   - Lưu trữ dữ liệu cá nhân
 explanation: |
-  Bitcoin cho phép trao đổi giá trị trên Internet mà không cần trung gian thông qua giao thức ngang hàng.
+  Bitcoin cho phép trao đổi giá trị trên Internet thông qua giao thức ngang hàng mà không cần trung gian.
 reviewed: true

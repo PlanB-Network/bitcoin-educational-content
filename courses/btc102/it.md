@@ -70,8 +70,6 @@ Alla fine di questo corso avrai tutti gli strumenti pratici necessari per naviga
 
 Pronto a iniziare il tuo viaggio nel mondo Bitcoin? Andiamo!
 
-**N.B.**: Se incontri termini sconosciuti durante il corso, consulta [il glossario](https://planb.academy/resources/glossary) per le definizioni.
-
 # Prerequisiti per capire Bitcoin
 
 <partId>4481fc4b-0f83-489e-ad07-81517c5d6bad</partId>
@@ -90,7 +88,7 @@ Prima di proseguire, è importante distinguere in modo netto due mondi fondament
 
 - **L'ecosistema Bitcoin** è incentrato sull'idea di una moneta sana, costruita su una forte decentralizzazione, la resilienza a lungo termine, su privacy e sovranità individuale. Dal suo lancio nel 2009, Bitcoin ha operato in modo affidabile e sicuro, supportato da una comunità di sviluppatori globale e fortemente impegnata. Non si tratta di una tendenza passeggera, ma di un protocollo stabile e consolidato, progettato per conservare valore nel tempo.
 
-- **Il settore delle criptovalute**, invece, è molto più grande e comprende decine di migliaia di progetti diversi, ognuno con il proprio token. Questo spazio è spesso guidato da una rapida innovazione, dal clamore e dalla speculazione finanziaria a breve termine. Molti di questi progetti sono centralizzati, meno sicuri e non offrono molto valore reale, nonostante le promesse ardite e il marketing appariscente.
+- **Il settore delle [criptovalute](https://planb.academy/resources/glossary/cryptocurrency)**, invece, è molto più grande e comprende decine di migliaia di progetti diversi, ognuno con il proprio token. Questo spazio è spesso guidato da una rapida innovazione, dal clamore e dalla speculazione finanziaria a breve termine. Molti di questi progetti sono centralizzati, meno sicuri e non offrono molto valore reale, nonostante le promesse ardite e il marketing appariscente.
 
 ![image](assets/it/005.webp)
 
@@ -121,7 +119,7 @@ Queste truffe sono solitamente caratterizzate da :
 
 In definitiva tutti gli schemi piramidali e Ponzi sono condannati a fallire. La loro principale debolezza risiede nella costante necessità di coinvolgere nuovi investitori per pagare i rendimenti ai primi partecipanti. Questa necessità diventa matematicamente impossibile da sostenere nel tempo, perché il numero di nuove reclute necessarie dovrebbe aumentare esponenzialmente con la crescita del sistema. Una volta raggiunto un punto critico, i partecipanti iniziano a dubitare, la fiducia scompare e l'intera piramide crolla. A questo punto gli ultimi ad aderire, spesso i meno informati, perdono l'intero investimento senza poterlo recuperare, mentre gli organizzatori o i primi investitori hanno già ritirato i loro fondi e lasciato il sistema.
 
-Nel mondo delle criptovalute gli schemi Ponzi possono assumere diverse forme, spesso progettate per nascondere la loro natura fraudolenta dietro una maschera tecnologica o finanziaria. Queste truffe possono presentarsi come nuove offerte di token o ICO (Initial Coin Offerings), ovvero operazioni di raccolta fondi in cui una nuova criptovaluta viene venduta al pubblico. Dietro termini tecnici come "Blockchain", "smart contract" o "stacking", alcuni progetti nascondono in realtà complessi schemi piramidali. Altri sostengono di offrire rendimenti elevati combinando criptovalute discutibili con sistemi di compensazione che si basano interamente sul continuo afflusso di nuovi investitori.
+Nel mondo delle criptovalute gli schemi Ponzi possono assumere diverse forme, spesso progettate per nascondere la loro natura fraudolenta dietro una maschera tecnologica o finanziaria. Queste truffe possono presentarsi come nuove offerte di token o ICO (Initial Coin Offerings), ovvero operazioni di raccolta fondi in cui una nuova criptovaluta viene venduta al pubblico. Dietro termini tecnici come "[Blockchain](https://planb.academy/resources/glossary/blockchain)", "smart contract" o "stacking", alcuni progetti nascondono in realtà complessi schemi piramidali. Altri sostengono di offrire rendimenti elevati combinando criptovalute discutibili con sistemi di compensazione che si basano interamente sul continuo afflusso di nuovi investitori.
 
 Più recentemente gli schemi Ponzi si sono diffusi anche nel mondo della finanza decentralizzata (DeFi). Sebbene una DeFi abbia lo scopo di fornire servizi finanziari senza intermediari, alcuni progetti la utilizzano per dare un falso senso di legittimità alle loro truffe. Alcune piattaforme di DeFi promettono, per esempio, rendimenti elevati e garantiti in cambio di depositi di criptovalute in protocolli automatizzati. Queste allettanti promesse sono spesso sostenute da meccanismi opachi e non verificabili, con token creati appositamente per la truffa. In realtà, questi sistemi non hanno un modello di business sostenibile: i rendimenti sono semplicemente pagati dai fondi dei nuovi utenti, proprio come un tradizionale schema Ponzi. Quando la fiducia inizia a venir meno o l'afflusso di nuovi partecipanti rallenta, questi sistemi inevitabilmente collassano, causando perdite significative per gli ignari investitori.
 
@@ -215,7 +213,7 @@ In definitiva, la migliore difesa è l'educazione personale, un sano scetticismo
 **Per rimanere al sicuro online, soprattutto nel mondo delle crypto, è bene che ricordi questi principi chiave:**
 - Mai fidarsi ciecamente: _"_Don't trust, verify_";
 - Sii scettico nei confronti di rendimenti garantiti o insolitamente elevati;
-- Non condividere mai le tue chiavi private con nessuno;
+- Non condividere mai le tue [chiavi private](https://planb.academy/resources/glossary/private-key) con nessuno;
 - Non inviare Bitcoin (o altre crypto) a indirizzi sconosciuti;
 - In caso di dubbio, fermati. Fai un respiro e rifletti prima di agire. Il FOMO è il tuo peggior nemico;
 - Evita i gruppi di trading a pagamento o le comunità che fanno promesse irrealistiche;
@@ -373,7 +371,7 @@ In questo capitolo condividerò alcuni consigli pratici e una guida generale per
 
 Ecco i punti chiave che esamineremo insieme:
 
-- Attenzione alle **Shitcoin** e ad altre criptovalute inutili;
+- Attenzione alle **[Shitcoin](https://planb.academy/resources/glossary/shitcoin)** e ad altre criptovalute inutili;
 - Investire solo **denaro che puoi permetterti di perdere**;
 - Imparare a riconoscere la differenza tra **trading** e **investimento**;
 - Prendere coscienza delle **implicazioni fiscali** dei tuoi investimenti;
@@ -389,7 +387,7 @@ Bitcoin è aperto a tutti, ma questo non significa che ci si debba far trovare i
 
 **Errori tecnologici**
 
-- **Perdita della recovery phrase:** la [recovery phrase](https://planb.academy/resources/glossary/recovery-phrase) (di solito 12 o 24 parole) è l'unico modo per accedere a Bitcoin se succede qualcosa al tuo wallet. Se la smarrisci, i tuoi fondi sono persi definitivamente;
+- **Perdita della recovery phrase:** la recovery phrase (di solito 12 o 24 parole) è l'unico modo per accedere a Bitcoin se succede qualcosa al tuo wallet. Se la smarrisci, i tuoi fondi sono persi definitivamente;
 - **Conservare bitcoin su una piattaforma di terze parti:** se i tuoi bitcoin sono su una piattaforma centralizzata, non li possiedi veramente. Sei esposto a rischi come hacking, fallimenti della piattaforma o addirittura sequestro di fondi;
 - **Trascurare la privacy:** proteggere la privacy è una parte fondamentale della sicurezza dei tuoi beni. Rivelare pubblicamente la quantità di Bitcoin in tuo possesso potrebbe fare di te un bersaglio;
 - **Sicurezza online insufficiente:** la mancata protezione dei tuoi dispositivi con protezioni di base (come aggiornamenti, password forti o 2FA) ti rende un bersaglio facile per gli aggressori e potrebbe costarti tutto.
@@ -416,7 +414,7 @@ Un approccio di questo tipo garantisce che non si metta a rischio il proprio ben
 
 ![image](assets/it/023.webp)
 
-Una volta definito il tuo budget, pensa a come vuoi investire. Uno dei metodi più semplici, ampiamente consigliati, per i principianti è il [Dollar Cost Averaging (DCA)](https://planb.academy/resources/glossary/dollar-cost-averaging-dca) - i Piano di Accumulo Costante (PAC), che consiste nell'acquistare una quantità fissa di Bitcoin a intervalli regolari (settimanalmente, mensilmente, ecc.). Questa strategia consente di livellare il prezzo medio di ingresso nel tempo e ridurre l'impatto emotivo delle oscillazioni di prezzo. È un approccio intelligente per la maggior parte delle persone, soprattutto per chi è all'inizio.
+Una volta definito il tuo budget, pensa a come vuoi investire. Uno dei metodi più semplici, ampiamente consigliati, per i principianti è il Dollar Cost Averaging (DCA) - i Piano di Accumulo Costante (PAC), che consiste nell'acquistare una quantità fissa di Bitcoin a intervalli regolari (settimanalmente, mensilmente, ecc.). Questa strategia consente di livellare il prezzo medio di ingresso nel tempo e ridurre l'impatto emotivo delle oscillazioni di prezzo. È un approccio intelligente per la maggior parte delle persone, soprattutto per chi è all'inizio.
 
 A questo punto domandati: Qual è il mio orizzonte temporale?
 Vuoi entrare e uscire rapidamente dal mercato (trading)? Oppure sei più affine alla mentalità di conservare Bitcoin a lungo termine e per diversi anni (hodler)? Se sei un hodler, probabilmente ti preoccuperai meno delle oscillazioni giornaliere dei prezzi e ti concentrerai maggiormente per migliorare la sicurezza e l'auto-custodia a lungo termine. Se fai trading, sarai più esposto al rumore del mercato a breve termine, al rischio più elevato e allo stress che spesso deriva dal prendere decisioni rapide. Non esiste una risposta univoca per tutti, ma conoscere il tuo approccio ii aiuterà a orientare le decisioni.
@@ -439,7 +437,7 @@ Soprattutto, non investire mai più di quanto puoi permetterti di perdere. Evita
 
 ### Gestione e protezione del Wallet Bitcoin
 
-Una delle caratteristiche più potenti (e spesso sottovalutate) di Bitcoin è l'**auto-custodia**. Con un Wallet self-hosted (un wallet gestito da te e non da una piattaforma), solo tu sei responsabile dei tuoi fondi. Questi wallet sono in genere derivati da una **recovery phrase** (nota anche come [seed phrase](https://planb.academy/resources/glossary/seed)), una sequenza di 12 o 24 parole che garantisce l'accesso completo ai tuoi BTC. Se perdi questa frase (o se qualcun altro ne entra in possesso) i tuoi bitcoin sono persi per sempre. **Nessun servizio clienti. Nessun pulsante di reset.**
+Una delle caratteristiche più potenti (e spesso sottovalutate) di Bitcoin è l'**auto-custodia**. Con un Wallet self-hosted (un wallet gestito da te e non da una piattaforma), solo tu sei responsabile dei tuoi fondi. Questi wallet sono in genere derivati da una **recovery phrase** (nota anche come seed phrase), una sequenza di 12 o 24 parole che garantisce l'accesso completo ai tuoi BTC. Se perdi questa frase (o se qualcun altro ne entra in possesso) i tuoi bitcoin sono persi per sempre. **Nessun servizio clienti. Nessun pulsante di reset.**
 
 ![image](assets/it/025.webp)
 
@@ -559,11 +557,11 @@ Nel corso degli anni Bitcoin è stato riconosciuto come una rete monetaria globa
 
 #### I Cypherpunk e l'invenzione di un sistema al di fuori del controllo bancario
 
-Bitcoin non è nato da un giorno all'altro. È il risultato di decenni di ricerca e sperimentazione in crittografia, informatica e teoria monetaria. Prima del suo lancio nel 2009, diversi progetti (come eCash, b-money, Bit Gold e RPOW) hanno tentato di creare valute digitali. Tutti hanno affrontato lo stesso problema di fondo: come prevenire la doppia spesa in un sistema decentralizzato senza affidarsi a un'autorità centrale.
+Bitcoin non è nato da un giorno all'altro. È il risultato di decenni di ricerca e sperimentazione in [crittografia](https://planb.academy/resources/glossary/cryptography), informatica e teoria monetaria. Prima del suo lancio nel 2009, diversi progetti (come eCash, b-money, Bit Gold e RPOW) hanno tentato di creare valute digitali. Tutti hanno affrontato lo stesso problema di fondo: come prevenire la doppia spesa in un sistema decentralizzato senza affidarsi a un'autorità centrale.
 
-Questa sfida è rimasta irrisolta fino alla fine del 2008, quando qualcuno con il nome di Satoshi Nakamoto ha pubblicato il white paper Bitcoin. La prima versione del software open-source di Bitcoin è stata resa disponibile pochi mesi dopo, lanciando un sistema in grado di operare indipendentemente da banche o governi.
+Questa sfida è rimasta irrisolta fino alla fine del 2008, quando qualcuno con il nome di Satoshi Nakamoto ha pubblicato il [white paper](https://planb.academy/resources/glossary/white-paper) Bitcoin. La prima versione del software [open-source](https://planb.academy/resources/glossary/foss) di Bitcoin è stata resa disponibile pochi mesi dopo, lanciando un sistema in grado di operare indipendentemente da banche o governi.
 
-Il progetto è stato fortemente influenzato dall'etica dei Cypherpunk, una comunità di sviluppatori e pensatori che credevano nell'uso della crittografia per proteggere le libertà individuali online. Per loro privacy e decentralizzazione non erano mere scelte tecniche, ma necessità ideologiche. Bitcoin è emerso come l'incarnazione di maggior successo di questi ideali: una rete monetaria peer-to-peer che chiunque poteva usare, nessuno poteva controllare e tutti potevano verificare.
+Il progetto è stato fortemente influenzato dall'etica dei [Cypherpunk](https://planb.academy/resources/glossary/cypherpunks), una comunità di sviluppatori e pensatori che credevano nell'uso della crittografia per proteggere le libertà individuali online. Per loro privacy e decentralizzazione non erano mere scelte tecniche, ma necessità ideologiche. Bitcoin è emerso come l'incarnazione di maggior successo di questi ideali: una rete monetaria [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) che chiunque poteva usare, nessuno poteva controllare e tutti potevano verificare.
 
 ![image](assets/it/030.webp)
 
@@ -580,7 +578,7 @@ L'idea di una moneta digitale che operi indipendentemente da qualsiasi autorità
 
 Bitcoin non è apparso dal nulla. È stato creato in un momento ben preciso, subito dopo la crisi finanziaria globale del 2008. Il crollo del mercato immobiliare statunitense e la crisi dei mutui subprime hanno causato il fallimento di importanti banche e hanno scosso la fiducia dei cittadini nell'intero sistema finanziario.
 
-È in questo ambiente di paura e incertezza che nasce Bitcoin. Il creatore, noto come Satoshi Nakamoto, inserì un messaggio molto simbolico nel primo blocco della blockchain di Bitcoin, noto come blocco Genesi. Il messaggio era:
+È in questo ambiente di paura e incertezza che nasce Bitcoin. Il creatore, noto come Satoshi Nakamoto, inserì un messaggio molto simbolico nel primo blocco della blockchain di Bitcoin, noto come [blocco Genesi](https://planb.academy/resources/glossary/genesis-block). Il messaggio era:
 
 > **"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"**
 
@@ -600,11 +598,11 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 #### Peer-to-peer e nessun organismo centrale
 
-Bitcoin è definito come un "sistema di contante elettronico peer-to-peer" Significa che chiunque può connettersi alla rete utilizzando il software appropriato (un nodo Bitcoin) e interagire direttamente con altri utenti, senza fare affidamento su un server centrale. L'obiettivo di questa decentralizzazione è quello di evitare che una singola entità (come una banca, un governo o una grande azienda) possa controllare, censurare o bloccare il sistema. Bitcoin opera 24 ore su 24, 7 giorni su 7 a livello globale, rimanendo accessibile a tutti senza alcuna condizione.
+Bitcoin è definito come un "sistema di contante elettronico peer-to-peer" Significa che chiunque può connettersi alla rete utilizzando il software appropriato (un [nodo](https://planb.academy/resources/glossary/node) Bitcoin) e interagire direttamente con altri utenti, senza fare affidamento su un server centrale. L'obiettivo di questa decentralizzazione è quello di evitare che una singola entità (come una banca, un governo o una grande azienda) possa controllare, censurare o bloccare il sistema. Bitcoin opera 24 ore su 24, 7 giorni su 7 a livello globale, rimanendo accessibile a tutti senza alcuna condizione.
 
 ![image](assets/it/034.webp)
 
-In parole povere ogni partecipante alla rete Bitcoin (chiamato "nodo") possiede una copia completa del libro mastro contenente le transazioni, nota come blockchain. Quando arriva una nuova transazione, questa viene trasmessa alla rete. I miner confermano le transazioni raggruppandole in blocchi che vengono aggiunti alla fine della catena (da qui il nome "Blockchain").
+In parole povere ogni partecipante alla rete Bitcoin (chiamato "nodo") possiede una copia completa del libro mastro contenente le transazioni, nota come blockchain. Quando arriva una nuova transazione, questa viene trasmessa alla rete. I [miner](https://planb.academy/resources/glossary/miner) confermano le transazioni raggruppandole in blocchi che vengono aggiunti alla fine della catena (da qui il nome "Blockchain").
 
 ![image](assets/it/035.webp)
 
@@ -618,7 +616,7 @@ Pensate alla blockchain come a un gigantesco libro contabile, dove ogni riga rap
 
 #### Come vengono creati i blocchi: Mining
 
-Il mining è il processo attraverso il quale i computer (o le grandi mining farm) utilizzano **potenza di calcolo**, necessaria per creare nuovi blocchi e proteggere la cronologia delle transazioni Bitcoin. I miner competono per risolvere un rompicapo matematico, in particolare per trovare la collisione parziale di un Hash. Questo processo richiede energia e risorse significative. Una volta che un miner trova una soluzione valida, trasmette il blocco alla rete che lo verifica e lo accetta come valido.
+Il [mining](https://planb.academy/resources/glossary/mining) è il processo attraverso il quale i computer (o le grandi mining farm) utilizzano **potenza di calcolo**, necessaria per creare nuovi blocchi e proteggere la cronologia delle transazioni Bitcoin. I miner competono per risolvere un rompicapo matematico, in particolare per trovare la collisione parziale di un Hash. Questo processo richiede energia e risorse significative. Una volta che un miner trova una soluzione valida, trasmette il blocco alla rete che lo verifica e lo accetta come valido.
 Come ricompensa, il miner riceve bitcoin di nuova creazione (chiamati block subsidy) insieme alle commissioni di transazione di tutte le transazioni incluse in quel blocco.
 
 #### Halving: diminuzione della block subsidy
@@ -632,10 +630,10 @@ Alla fine, intorno all'anno 2140, la ricompensa raggiungerà lo zero, poiché l'
 
 #### Scarsità e politica monetaria fissa
 
-Una delle caratteristiche più potenti di Bitcoin è la sua _politica monetaria fissa e immutabile_. A differenza delle valute fiat tradizionali (come il dollaro, l'euro o lo yen), che possono essere stampate a piacimento dalle banche centrali (spesso causando inflazione o distorsioni economiche), Bitcoin opera in base a un insieme trasparente di regole incorporate nel suo codice.
+Una delle caratteristiche più potenti di Bitcoin è la sua _politica monetaria fissa e immutabile_. A differenza delle valute fiat tradizionali (come il dollaro, l'euro o lo yen), che possono essere stampate a piacimento dalle banche centrali (spesso causando [inflazione](https://planb.academy/resources/glossary/inflation) o distorsioni economiche), Bitcoin opera in base a un insieme trasparente di regole incorporate nel suo codice.
 Ci saranno sempre e solo 21 milioni di bitcoin e il tasso di emissione di nuove monete è noto in anticipo a tutti i partecipanti della rete.
 
-Nessun governo, istituzione o individuo può modificare unilateralmente il tetto di questa emissione o le regole di distribuzione. L'unico modo per alterare questi parametri sarebbe quello di modificare il protocollo Bitcoin, ma anche questo richiederebbe il consenso della maggioranza degli attori economici della rete.
+Nessun governo, istituzione o individuo può modificare unilateralmente il tetto di questa emissione o le regole di distribuzione. L'unico modo per alterare questi parametri sarebbe quello di modificare il protocollo Bitcoin, ma anche questo richiederebbe il [consenso](https://planb.academy/resources/glossary/consensus) della maggioranza degli attori economici della rete.
 
 Questa innata scarsità è un'attrattiva importante per coloro che desiderano sottrarsi a politiche monetarie imprevedibili o evitare la graduale erosione del potere d'acquisto a causa dell'inflazione. Nel tempo, questo potrebbe rappresentare un cambiamento nel pensiero finanziario, in cui il risparmio in un asset deflazionistico come Bitcoin diventa più attraente rispetto a fare affidamento sulle valute tradizionali, soggette a inflazione.
 
@@ -668,7 +666,7 @@ Sebbene questo approccio sia più tecnico, offre agli utenti più esigenti la po
 
 #### Metodo di pagamento senza confini e resiliente
 
-Grazie alla sua natura decentralizzata, Bitcoin opera 24 ore su 24, 7 giorni su 7, senza essere influenzato da confini o fusi orari. Nelle regioni in cui le infrastrutture bancarie tradizionali sono carenti, Bitcoin è spesso utilizzato come soluzione rapida e a basso costo per inviare o ricevere fondi senza affidarsi a intermediari costosi. Le commissioni di transazione possono variare in base al traffico della rete, ma in genere sono molto più basse delle commissioni applicate dalle banche per i trasferimenti internazionali. Inoltre, le soluzioni cosiddette di Layer-2 come [Lightning Network](https://planb.academy/resources/glossary/lightning-network), consentono di effettuare transazioni Bitcoin ancora più veloci ed economiche.
+Grazie alla sua natura decentralizzata, Bitcoin opera 24 ore su 24, 7 giorni su 7, senza essere influenzato da confini o fusi orari. Nelle regioni in cui le infrastrutture bancarie tradizionali sono carenti, Bitcoin è spesso utilizzato come soluzione rapida e a basso costo per inviare o ricevere fondi senza affidarsi a intermediari costosi. Le commissioni di transazione possono variare in base al traffico della rete, ma in genere sono molto più basse delle commissioni applicate dalle banche per i trasferimenti internazionali. Inoltre, le soluzioni cosiddette di Layer-2 come Lightning Network, consentono di effettuare transazioni Bitcoin ancora più veloci ed economiche.
 
 #### Riserva di valore
 
@@ -817,7 +815,7 @@ I bitcoiner provengono da ogni categoria sociale, ma condividono una visione com
 - **Cypherpunks**, che difendono la privacy e si oppongono alla sorveglianza;
 - **Cittadini oppressi**, che cercano rifugio da regimi autoritari e al controllo sui capitali;
 - **Anarchici**, che vedono Bitcoin come uno strumento di liberazione dal controllo statale;
-- **Economisti austriaci**, sostenitori di una moneta sana e della libertà dalle manipolazioni governative;
+- **[Economisti austriaci](https://planb.academy/resources/glossary/austrian-school)**, sostenitori di una moneta sana e della libertà dalle manipolazioni governative;
 - **Ingegneri, finanzieri e sostenitori della libertà di parola**, che riconoscono le profonde implicazioni sociali di questo nuovo paradigma monetario.
 
 ![image](assets/it/051.webp)
@@ -951,7 +949,7 @@ Gli exchange svolgono un ruolo fondamentale nell'ecosistema Bitcoin, fungendo da
 - un'opzione per gli acquisti automatici ricorrenti (ARP);
 - prelievo facile e gratuito di bitcoin su un wallet personale.
 
-Gli exchange che rispettano le normative locali devono in genere seguire rigidi protocolli **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer) "** (KYC), che richiedono agli utenti di fornire documenti di identità prima di accedere ai servizi. Se da un lato questi processi sono pensati per prevenire attività illegali, dall'altro possono compromettere la privacy che Bitcoin offre intrinsecamente.
+Gli exchange che rispettano le normative locali devono in genere seguire rigidi protocolli **"Know Your Customer "** (KYC), che richiedono agli utenti di fornire documenti di identità prima di accedere ai servizi. Se da un lato questi processi sono pensati per prevenire attività illegali, dall'altro possono compromettere la privacy che Bitcoin offre intrinsecamente.
 
 ![image](assets/it/058.webp)
 
@@ -1062,7 +1060,7 @@ Lo sviluppo di Bitcoin può essere compreso attraverso alcuni gruppi distinti di
 - **Sviluppatori di protocolli sui layer**, gruppo che lavora su tecnologie che si basano su Bitcoin, come Lightning Network o RGB, con l'obiettivo di estendere le capacità di Bitcoin senza modificarne il cuore.
 - **Sviluppatori indipendenti**, che concentrano sulla creazione di strumenti e applicazioni per migliorare l'esperienza utente, come ad esempio Mempool.space (un'interfaccia visiva per tracciare l'attività delle transazioni) o Alby (strumenti per utilizzare i pagamenti Lightning nei browser e nelle app).
 
-Chiunque può proporre modifiche a Bitcoin Core, ma il processo è intenzionalmente rigoroso. Le nuove idee richiedono spesso anni per essere perfezionate, nonché una profonda comprensione tecnica, un ampio coinvolgimento della comunità e molteplici livelli di revisione. Le proposte sono in genere presentate sotto forma di **Bitcoin Improvement Proposals** (Proposte di miglioramento a Bitcoin BIP); alcune di esse non vengono mai inserite nel protocollo.
+Chiunque può proporre modifiche a Bitcoin Core, ma il processo è intenzionalmente rigoroso. Le nuove idee richiedono spesso anni per essere perfezionate, nonché una profonda comprensione tecnica, un ampio coinvolgimento della comunità e molteplici livelli di revisione. Le proposte sono in genere presentate sotto forma di **[Bitcoin Improvement Proposals](https://planb.academy/resources/glossary/bip)** (Proposte di miglioramento a Bitcoin BIP); alcune di esse non vengono mai inserite nel protocollo.
 L'innovazione è benvenuta, ma solo quando è sostenuta da un solido ragionamento, dal consenso della comunità e da un'attenta sperimentazione.
 
 ![image](assets/it/059.webp)
@@ -1092,7 +1090,7 @@ Tra i principali layer aggiuntivi che arricchiscono l'ecosistema Bitcoin vi sono
 
 - **Lightning Network**:
 
-Lightning Network, rete creata da Thaddeus Dryja e Joseph Poon nel 2016, è una soluzione di secondo livello progettata per consentire pagamenti istantanei e a basso costo. Due utenti possono aprire un canale privato in cui effettuare transazioni e il saldo viene aggiornato sulla blockchain solo quando il canale viene aperto o chiuso. Le transazioni all'interno del canale avvengono off-chain, il che significa che non devono essere registrate individualmente nella blockchain di Bitcoin. Una simile struttura consente transazioni istantanee e commissioni minime, rendendola ideale per pagamenti di importi piccoli e che richiedono una rapida conferma.
+Lightning Network, rete creata da Thaddeus Dryja e Joseph Poon nel 2016, è una soluzione di secondo livello progettata per consentire pagamenti istantanei e a basso costo. Due utenti possono aprire un [canale](https://planb.academy/resources/glossary/payment-channel) privato in cui effettuare transazioni e il saldo viene aggiornato sulla blockchain solo quando il canale viene aperto o chiuso. Le transazioni all'interno del canale avvengono off-chain, il che significa che non devono essere registrate individualmente nella blockchain di Bitcoin. Una simile struttura consente transazioni istantanee e commissioni minime, rendendola ideale per pagamenti di importi piccoli e che richiedono una rapida conferma.
 
 ![image](assets/it/061.webp)
 
@@ -1118,7 +1116,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 RGB è un sistema di Smart contract decentralizzato e incentrato sulla privacy, progettato per funzionare sopra Bitcoin e Lightning Network. A differenza delle piattaforme smart contract tradizionali, RGB utilizza un modello Client-side Validation (il che significa che l'intero stato del contratto, Contract State, è memorizzato off-chain e solo i commitment crittografici sono pubblicati sulla blockchain di Bitcoin). Questo design migliora sia la scalabilità che la privacy. Con RGB gli utenti possono creare smart contract avanzati per l'emissione di token, NFT, identità decentralizzate o persino applicazioni DeFi, direttamente su Bitcoin o Lightning.
 
-Una caratteristica fondamentale di RGB è la sua protezione nei confronti del Double-spending, ottenuta con una tecnica crittografica chiamata Single-use Seals. Questo meccanismo si basa sul fatto che gli UTXO (Unspent Transaction Output) di Bitcoin possono essere spesi una sola volta. L'autenticità dei token è garantita dalla convalida lato utente dell'intera storia dello smart contract (dalla sua creazione al suo stato attuale).
+Una caratteristica fondamentale di RGB è la sua protezione nei confronti del Double-spending, ottenuta con una tecnica crittografica chiamata Single-use Seals. Questo meccanismo si basa sul fatto che gli [UTXO](https://planb.academy/resources/glossary/utxo) (Unspent Transaction Output) di Bitcoin possono essere spesi una sola volta. L'autenticità dei token è garantita dalla convalida lato utente dell'intera storia dello smart contract (dalla sua creazione al suo stato attuale).
 
 ![image](assets/it/062.webp)
 
@@ -1136,7 +1134,7 @@ Questo design a layer è in contrasto con gran parte del settore crypto, che spe
 
 ### Strumenti per commercianti che vogliono accettare Bitcoin
 
-Oggi sono disponibili numerosi strumenti per gli esercenti che desiderano accettare Bitcoin come forma di pagamento. Per le piccole imprese che desiderano una configurazione semplice, l'utilizzo di un [hot wallet](https://planb.academy/resources/glossary/hot-wallet--software-wallet) (o anche di un wallet Lightning) è spesso sufficiente per iniziare ad accettare direttamente i pagamenti. Le aziende più grandi, che necessitano di un'adeguata contabilità e rendicontazione, preferiscono solitamente sistemi di elaborazione dei pagamenti più avanzati. Fortunatamente sono disponibili diverse opzioni a seconda delle esigenze.
+Oggi sono disponibili numerosi strumenti per gli esercenti che desiderano accettare Bitcoin come forma di pagamento. Per le piccole imprese che desiderano una configurazione semplice, l'utilizzo di un hot wallet (o anche di un wallet Lightning) è spesso sufficiente per iniziare ad accettare direttamente i pagamenti. Le aziende più grandi, che necessitano di un'adeguata contabilità e rendicontazione, preferiscono solitamente sistemi di elaborazione dei pagamenti più avanzati. Fortunatamente sono disponibili diverse opzioni a seconda delle esigenze.
 
 Se preferisci una soluzione non vincolante e desideri ricevere la valuta fiat direttamente sul conto bancario, i servizi di custodia come OpenNode offrono un'esperienza semplificata:
 
@@ -1150,7 +1148,7 @@ A metà strada si trova Swiss Bitcoin Pay, una soluzione facile ma potente da us
 
 https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Accettare Bitcoin può portare alle aziende diversi vantaggi pratici e finanziari. Proprio come i contanti, Bitcoin consente di effettuare pagamenti diretti tra cliente ed esercente (senza bisogno di una banca tradizionale). I pagamenti effettuati tramite Lightning Network sono istantanei e definitivi, riducendo il rischio di chargeback. Inoltre, quando gli esercenti detengono i propri Bitcoin ([self-custody](https://planb.academy/resources/glossary/selfcustody)), acquisiscono una maggiore autonomia finanziaria.
+Accettare Bitcoin può portare alle aziende diversi vantaggi pratici e finanziari. Proprio come i contanti, Bitcoin consente di effettuare pagamenti diretti tra cliente ed esercente (senza bisogno di una banca tradizionale). I pagamenti effettuati tramite Lightning Network sono istantanei e definitivi, riducendo il rischio di chargeback. Inoltre, quando gli esercenti detengono i propri Bitcoin (self-custody), acquisiscono una maggiore autonomia finanziaria.
 
 Può anche contribuire a ridurre i costi eliminando le commissioni bancarie e la necessità di terminali di pagamento tradizionali; spesso è sufficiente uno smartphone o un computer portatile. Anche se sono coinvolti processori di pagamento, le commissioni sono generalmente inferiori a quelle applicate dalle banche.
 
@@ -2013,7 +2011,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-513cca944ace
 
-- **Un Hot Wallet per le transazioni quotidiane**. Per le spese di tutti i giorni gli utenti paranoici optano per wallet incentrati sulla privacy, come Ashigaru, Wasabi o Sparrow. Questi software supportano funzioni avanzate come: transazioni di spesa mini-CoinJoin, payjoin, strumenti potenzialmente CoinJoin, coin control, etichettatura degli UTXO o possibilità di connettersi tramite il proprio nodo Bitcoin.
+- **Un Hot Wallet per le transazioni quotidiane**. Per le spese di tutti i giorni gli utenti paranoici optano per wallet incentrati sulla privacy, come Ashigaru, Wasabi o Sparrow. Questi software supportano funzioni avanzate come: transazioni di spesa mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin), payjoin, strumenti potenzialmente CoinJoin, coin control, etichettatura degli UTXO o possibilità di connettersi tramite il proprio nodo Bitcoin.
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 

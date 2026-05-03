@@ -5,5 +5,5 @@ wrong_answers:
   - ビットコインマイナーとビットコインウォレット
   - ビットコインコアとビットコインノード
 explanation: |
-  バージョン0.5以降、ビットコインコアにはグラフィカルなInterface(Bitcoin-qt)とコマンドラインのInterface(bitcoind)があります。
+  バージョン0.5以降、ビットコインコアにはグラフィカルなインターフェース(Bitcoin-qt)とコマンドラインのインターフェース(bitcoind)があります。
 reviewed: true

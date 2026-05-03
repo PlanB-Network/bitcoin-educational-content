@@ -1,7 +1,7 @@
-question: Apa yang diperlukan untuk transaksi yang berhasil dalam sistem barter?
-answer: Kebetulan keinginan ganda
+question:  Manakah dari berikut ini yang diperlukan agar transaksi dalam sistem barter berhasil?
+answer:  Kebetulan keinginan ganda
 wrong_answers:
-  - Satuan akun yang umum
+  -  Satuan hitung yang sama
   - Otoritas perbankan sentral
   - Persyaratan saldo minimum
 explanation: |

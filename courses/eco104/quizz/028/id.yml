@@ -1,8 +1,8 @@
-question: Siapapun bisa menduplikasi kode Bitcoin?
-answer: ya tapi Anda tidak bisa menyalin nilai dari jaringan Bitcoin
+question: Apakah siapapun bisa menduplikasi kode Bitcoin?
+answer: Ya, tapi Anda tidak bisa menyalin nilai dari jaringan Bitcoin
 wrong_answers:
-  - ya dan Anda akan menyalin nilai dari jaringan Bitcoin juga
-  - tidak dan Anda bisa menyalin nilai dari jaringan Bitcoin
+  - ya, dan Anda akan menyalin nilai dari jaringan Bitcoin juga
+  - tidak, dan Anda bisa menyalin nilai dari jaringan Bitcoin
   - tidak, karena kode Bitcoin bersifat tertutup
 explanation: |
   Meskipun kode untuk Bitcoin bersifat open source dan dapat disalin,

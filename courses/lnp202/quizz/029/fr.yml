@@ -1,9 +1,9 @@
 question: Quel risque principal une watchtower vise-t-elle à prévenir ?
-answer: Triche avec ancien état
+answer: Triche avec un ancien état
 wrong_answers:
   - Attaque des 51 %
   - Vol de seed
-  - Triche avec nouvel état
+  - Triche avec un nouvel état
 explanation: |
   Une watchtower protège contre la publication d’un ancien état de canal visant à détourner des fonds.
-reviewed: false
+reviewed: true 

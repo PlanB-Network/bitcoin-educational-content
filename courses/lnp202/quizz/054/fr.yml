@@ -6,4 +6,4 @@ wrong_answers:
   - Aucun
 explanation: |
   Tor fonctionne très mal en pratique pour cet usage à cause des échecs et de la latence qui rendent l’expérience utilisateur mauvaise.
-reviewed: false
+reviewed: true 

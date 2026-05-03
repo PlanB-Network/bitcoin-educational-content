@@ -6,3 +6,4 @@ wrong_answers:
   - Dengan membagi kunci dari setiap huruf terenkripsi dan menerapkan modulo 27
 explanation: |
   Dalam sandi geser, dekripsi dilakukan dengan mengurangkan kunci dari setiap huruf terenkripsi, kemudian menerapkan modulo 26 untuk kembali ke teks asli. Modulo 26 memungkinkan untuk kembali ke awal abjad setelah huruf Z.
+reviewed: true

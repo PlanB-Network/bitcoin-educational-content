@@ -25,3 +25,4 @@ scripts/reports
 docs/PBN-template-repo/scripts/__pycache__
 .mcp.json
 .venv
+scripts/auto-translate/translation_logic/argon-edge-450706-b7-d2831a252186.json

@@ -1,0 +1,8 @@
+question: What is the main impact of quantitative easing on bondholders, according to the analysis presented?
+answer: It allows bond sellers to increase their cash flow and create a cascade of monetary expansion
+wrong_answers:
+  - "It directly reduces commercial interest rates by decreasing the demand for bonds on the market."
+  - "It stabilizes financial asset prices by creating a balance between supply and demand for bonds."
+  - "It encourages real savings by increasing the profitability of government bonds for investors."
+explanation: |
+  Quantitative easing consists of massive bond purchases by the central bank using money created ex nihilo. This money ends up with the sellers (banks, investment funds, governments), who can then increase their cash holdings, reduce their debt or buy other securities. These additional purchases create a cascade of monetary expansion that is difficult to control, amplifying the distortion of economic signals.

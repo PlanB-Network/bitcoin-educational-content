@@ -6,4 +6,4 @@ wrong_answers:
   - Blocage du routage
 explanation: |
   Un état obsolète peut être interprété comme une tentative de triche et entraîner la perte des fonds du canal.
-reviewed: false
+reviewed: true 

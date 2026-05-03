@@ -6,3 +6,4 @@ wrong_answers:
   - Peng-hashing-an pesan, enkripsi tag, distribusi tag
 explanation: |
   Skema MAC terdiri dari tiga langkah utama: menghasilkan sebuah kunci rahasia, memproduksi sebuah tag untuk pesan, dan memverifikasi bahwa pesan yang diterima dan tag-nya cocok.
+reviewed: true

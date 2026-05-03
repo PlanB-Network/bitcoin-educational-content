@@ -1,9 +1,9 @@
 question: Que représente le solde du portefeuille Lightning affiché sur l'interface de l'application LND ?
 answer: La somme des liquidités sortantes
 wrong_answers:
-  - La somme des fonds onchains
+  - La somme des fonds on-chain
   - La somme des liquidités entrantes
   - La somme des capacités de canaux
 explanation: |
   Le solde Lightning correspond aux sats disponibles pour être dépensés via les canaux, c'est-à-dire la somme des liquidités sortantes de tous les canaux du nœud.
-reviewed: false
+reviewed: true 

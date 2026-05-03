@@ -80,13 +80,13 @@ Oletko valmis sukeltamaan RGB:n monimutkaiseen ja kiehtovaan maailmaan? Lähdet�
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB on protokolla, joka on suunniteltu digitaalisten oikeuksien (sopimusten ja omaisuuden muodossa) soveltamiseen ja täytäntöönpanoon skaalautuvalla ja luottamuksellisella tavalla Bitcoin-lohkoketjun konsensussääntöjen ja toimintojen perusteella. Tämän ensimmäisen luvun tavoitteena on esitellä RGB-protokollaan liittyviä peruskäsitteitä ja terminologiaa ja korostaa erityisesti sen läheisiä yhteyksiä hajautetun tietojenkäsittelyn peruskäsitteisiin, kuten asiakaspuolen validointiin ja kertakäyttöisiin sinetteihin.
+RGB on protokolla, joka on suunniteltu digitaalisten oikeuksien (sopimusten ja omaisuuden muodossa) soveltamiseen ja täytäntöönpanoon skaalautuvalla ja luottamuksellisella tavalla Bitcoin-[lohkoketjun](https://planb.academy/resources/glossary/blockchain) [konsensussääntöjen](https://planb.academy/resources/glossary/consensus-rules) ja toimintojen perusteella. Tämän ensimmäisen luvun tavoitteena on esitellä RGB-protokollaan liittyviä peruskäsitteitä ja terminologiaa ja korostaa erityisesti sen läheisiä yhteyksiä hajautetun tietojenkäsittelyn peruskäsitteisiin, kuten asiakaspuolen validointiin ja kertakäyttöisiin sinetteihin.
 
 Tässä luvussa tarkastelemme **hajautettujen konsensusjärjestelmien** perusteita ja katsomme, miten RGB sopii tähän teknologiaryhmään. Esittelemme myös tärkeimmät periaatteet, jotka auttavat ymmärtämään, miksi RGB pyrkii olemaan laajennettavissa ja riippumaton Bitcoinin omasta konsensusmekanismista, mutta tukeutumaan siihen tarvittaessa.
 
 ### Johdanto
 
-Hajautettu tietojenkäsittely, joka on tietotekniikan erityinen osa-alue, tutkii protokollia, joita käytetään tiedon levittämiseen ja käsittelyyn solmujen verkossa. Yhdessä nämä solmut ja protokollasäännöt muodostavat niin sanotun hajautetun järjestelmän. Tällaiselle järjestelmälle ominaisia olennaisia ominaisuuksia ovat muun muassa :
+Hajautettu tietojenkäsittely, joka on tietotekniikan erityinen osa-alue, tutkii protokollia, joita käytetään tiedon levittämiseen ja käsittelyyn [solmujen](https://planb.academy/resources/glossary/node) verkossa. Yhdessä nämä solmut ja protokollasäännöt muodostavat niin sanotun hajautetun järjestelmän. Tällaiselle järjestelmälle ominaisia olennaisia ominaisuuksia ovat muun muassa :
 
 
 - Kunkin solmupisteen **mahdollisuus tarkistaa ja validoida** tietyt tiedot riippumattomasti;
@@ -99,11 +99,11 @@ Hajautetun järjestelmän **konsensuksen** käsite kattaa erityisesti kaksi näk
 - **Tilanmuutosten pätevyyden** tunnistaminen (protokollasääntöjen mukaisesti);
 - **sopimus näiden tilamuutosten järjestyksestä**, mikä tekee mahdottomaksi jälkikäteen tapahtuvan validoitujen operaatioiden uudelleenkirjoittamisen tai kumoamisen (tämä tunnetaan Bitcoinissa myös nimellä "double-spend protection").
 
-Satoshi Nakamoto esitteli Bitcoinin avulla ensimmäisen toimivan, lupavapaan hajautetun konsensusmekanismin, joka perustuu lohkoketjun tietorakenteen ja Proof-of-Work (PoW) -algoritmin yhdistettyyn käyttöön. Tässä järjestelmässä lohkojen historian uskottavuus riippuu solmujen (louhijoiden) siihen käyttämästä laskentatehosta. Bitcoin on näin ollen merkittävä ja historiallinen esimerkki kaikille avoimesta (*valtuudeton*) hajautetusta konsensusjärjestelmästä.
+Satoshi Nakamoto esitteli Bitcoinin avulla ensimmäisen toimivan, lupavapaan hajautetun konsensusmekanismin, joka perustuu lohkoketjun tietorakenteen ja [Proof-of-Work](https://planb.academy/resources/glossary/proof-of-work) (PoW) -algoritmin yhdistettyyn käyttöön. Tässä järjestelmässä lohkojen historian uskottavuus riippuu solmujen ([louhijoiden](https://planb.academy/resources/glossary/miner)) siihen käyttämästä laskentatehosta. Bitcoin on näin ollen merkittävä ja historiallinen esimerkki kaikille avoimesta (*valtuudeton*) hajautetusta konsensusjärjestelmästä.
 
-Lohkoketjujen ja hajautetun tietojenkäsittelyn maailmassa voidaan erottaa kaksi perusparadigmaa: ***lohkoketju*** perinteisessä merkityksessä ja ***tilakanavat***, joista paras esimerkki tuotannossa on Lightning Network. Lohkoketju määritellään kronologisesti järjestettyjen tapahtumien rekisteriksi, joka toistetaan konsensuksen avulla avoimessa, luvattomassa verkossa. Tilakanavat taas ovat vertaisverkkokanavia, joiden avulla kaksi (tai useampi) osallistuja voi ylläpitää päivitettyä tilaa ketjun ulkopuolella, jolloin lohkoketjua käytetään vain kanavia avattaessa ja suljettaessa.
+Lohkoketjujen ja hajautetun tietojenkäsittelyn maailmassa voidaan erottaa kaksi perusparadigmaa: ***lohkoketju*** perinteisessä merkityksessä ja ***tilakanavat***, joista paras esimerkki tuotannossa on [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Lohkoketju määritellään kronologisesti järjestettyjen tapahtumien rekisteriksi, joka toistetaan konsensuksen avulla avoimessa, luvattomassa verkossa. Tilakanavat taas ovat vertaisverkkokanavia, joiden avulla kaksi (tai useampi) osallistuja voi ylläpitää päivitettyä tilaa ketjun ulkopuolella, jolloin lohkoketjua käytetään vain kanavia avattaessa ja suljettaessa.
 
-Bitcoinin yhteydessä olet epäilemättä perehtynyt louhinnan, hajauttamisen ja lohkoketjun transaktioiden lopullisuuden periaatteisiin sekä siihen, miten maksukanavat toimivat. RGB:n myötä otamme käyttöön uuden paradigman nimeltä **Client-side Validation**, joka lohkoketjusta tai Lightningista poiketen koostuu älykkään sopimuksen tilasiirtymien paikallisesta (asiakaspuolen) tallentamisesta ja validoinnista. Tämä eroaa myös muista "DeFi"-tekniikoista (_rollups_, _plasma_, _ARK_ jne.) siinä, että Client-side Validation luottaa lohkoketjuun estääkseen kaksinkertaisen kuluttamisen ja saadakseen aikaleimausjärjestelmän, kun taas ketjun ulkopuolisten tilojen ja siirtymien rekisteri pysyy vain asianomaisilla osallistujilla.
+Bitcoinin yhteydessä olet epäilemättä perehtynyt louhinnan, hajauttamisen ja lohkoketjun transaktioiden lopullisuuden periaatteisiin sekä siihen, miten [maksukanavat](https://planb.academy/resources/glossary/payment-channel) toimivat. RGB:n myötä otamme käyttöön uuden paradigman nimeltä **Client-side Validation**, joka lohkoketjusta tai Lightningista poiketen koostuu [älykkään sopimuksen](https://planb.academy/resources/glossary/smart-contract) tilasiirtymien paikallisesta (asiakaspuolen) tallentamisesta ja validoinnista. Tämä eroaa myös muista "DeFi"-tekniikoista (_rollups_, _plasma_, _ARK_ jne.) siinä, että Client-side Validation luottaa lohkoketjuun estääkseen [kaksinkertaisen kuluttamisen](https://planb.academy/resources/glossary/double-spending-attack) ja saadakseen [aikaleimausjärjestelmän](https://planb.academy/resources/glossary/timestamp), kun taas ketjun ulkopuolisten tilojen ja siirtymien rekisteri pysyy vain asianomaisilla osallistujilla.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
@@ -174,7 +174,7 @@ Lohkoketju (tässä tapauksessa Bitcoin) toimii ensisijaisesti _aikaleimamekanis
 
 Jakaminen on käsite, joka on peräisin hajautetuista tietokannoista (esim. MySQL sosiaalisille verkostoille, kuten Facebook tai Twitter). Tietomäärän ja synkronointiviiveiden ongelman ratkaisemiseksi tietokanta jaetaan _shardeihin_ (USA, Eurooppa, Aasia jne.). Kukin segmentti on paikallisesti johdonmukainen ja vain osittain synkronoitu muiden kanssa.
 
-RGB-tyyppisten älykkäiden sopimusten osalta jaottelemme sopimukset itse sopimusten mukaan. Jokainen sopimus on itsenäinen _shard_. Jos sinulla on esimerkiksi hallussasi vain USDT-tavaramerkkejä, sinun ei tarvitse tallentaa tai validoida koko historiaa toisesta merkistä, kuten USDC:stä. Bitcoinissa lohkoketju ei tee _shardingia_: sinulla on maailmanlaajuinen joukko UTXO:ita. Asiakaspuolen validoinnin avulla kukin osallistuja säilyttää vain hallussaan tai käyttämänsä sopimustiedot.
+RGB-tyyppisten älykkäiden sopimusten osalta jaottelemme sopimukset itse sopimusten mukaan. Jokainen sopimus on itsenäinen _shard_. Jos sinulla on esimerkiksi hallussasi vain USDT-tavaramerkkejä, sinun ei tarvitse tallentaa tai validoida koko historiaa toisesta merkistä, kuten USDC:stä. Bitcoinissa lohkoketju ei tee _shardingia_: sinulla on maailmanlaajuinen joukko [UTXO](https://planb.academy/resources/glossary/utxo):ita. Asiakaspuolen validoinnin avulla kukin osallistuja säilyttää vain hallussaan tai käyttämänsä sopimustiedot.
 
 Voimme siis kuvitella ekosysteemin seuraavasti:
 
@@ -226,7 +226,7 @@ Asiakaspuolen validointi perustuu päinvastaiseen ajatukseen: sen sijaan, että 
 
 Samaan aikaan, jotta muu verkko (tai tarkemmin sanottuna taustalla oleva kerros, kuten Bitcoin) voi lukita lopullisen tilan näkemättä näiden tietojen yksityiskohtia, asiakaspuolen validointi perustuu käsitteeseen ***commitment***.
 
-*Sitoumus* on Bitcoin-tapahtumaan liitetty kryptografinen sitoumus, tyypillisesti _hash_ (esimerkiksi SHA-256), joka todistaa, että siihen on liitetty yksityisiä tietoja paljastamatta näitä tietoja.
+*Sitoumus* on Bitcoin-tapahtumaan liitetty kryptografinen sitoumus, tyypillisesti _hash_ (esimerkiksi [SHA-256](https://planb.academy/resources/glossary/sha256)), joka todistaa, että siihen on liitetty yksityisiä tietoja paljastamatta näitä tietoja.
 
 Näiden _sitoumusten_ ansiosta voimme todistaa:
 
@@ -279,7 +279,7 @@ Hyväksyttäessä omaisuuseriä, kuten valuuttaa, kaksi takuuta on olennaisen t�
 
 Fyysisen omaisuuden, kuten setelin, fyysinen läsnäolo riittää osoittamaan, ettei sitä ole kopioitu. Digitaalisessa maailmassa, jossa omaisuuserät ovat puhtaasti tietoteknisiä, tämä todentaminen on kuitenkin monimutkaisempaa, koska tieto voi helposti monistua ja monistua.
 
-Kuten aiemmin todettiin, RGB-tunnisteen aitous voidaan varmistaa, kun lähettäjä paljastaa tilasiirtymien historian. Kun meillä on pääsy kaikkiin tapahtumiin syntytapahtuman jälkeen, voimme varmistaa merkin aitouden. Tämä periaate on samankaltainen kuin Bitcoinissa, jossa kolikoiden historia voidaan jäljittää alkuperäiseen coinbase-transaktioon niiden oikeellisuuden varmistamiseksi. Toisin kuin Bitcoinissa, RGB:ssä tilasiirtymien historia on kuitenkin yksityinen ja säilytetään asiakkaan puolella.
+Kuten aiemmin todettiin, RGB-tunnisteen aitous voidaan varmistaa, kun lähettäjä paljastaa tilasiirtymien historian. Kun meillä on pääsy kaikkiin tapahtumiin syntytapahtuman jälkeen, voimme varmistaa merkin aitouden. Tämä periaate on samankaltainen kuin Bitcoinissa, jossa kolikoiden historia voidaan jäljittää alkuperäiseen [coinbase-transaktioon](https://planb.academy/resources/glossary/coinbase-transaction) niiden oikeellisuuden varmistamiseksi. Toisin kuin Bitcoinissa, RGB:ssä tilasiirtymien historia on kuitenkin yksityinen ja säilytetään asiakkaan puolella.
 
 Estääksemme RGB-merkkien kaksinkertaisen käytön käytämme mekanismia nimeltä "**Kertakäyttösinetti**". Tämä järjestelmä varmistaa, että jokaista kerran käytettyä merkkiä ei voi käyttää vilpillisesti uudelleen toista kertaa.
 
@@ -400,7 +400,7 @@ Huomaa, että nämä ohjelmistokivet ovat Bitcoin-riippumattomia; teoriassa niit
 
 #### Kohti kertakäyttöisten tiivisteiden laajempaa käyttöä
 
-Peter Todd loi myös _Open Timestamps_ -protokollan, ja kertakäyttösinetti on näiden ideoiden luonnollinen jatke. RGB:n lisäksi voidaan ajatella muitakin käyttötapauksia, kuten _sivuketjujen_ rakentaminen ilman _merge miningia_ tai ajoketjuihin liittyviä ehdotuksia, kuten BIP300. Periaatteessa mikä tahansa järjestelmä, joka vaatii yhden sitoumuksen, voi hyödyntää tätä kryptografista primitiiviä. Nykyään RGB on ensimmäinen merkittävä täysimittainen toteutus.
+Peter Todd loi myös _Open Timestamps_ -protokollan, ja kertakäyttösinetti on näiden ideoiden luonnollinen jatke. RGB:n lisäksi voidaan ajatella muitakin käyttötapauksia, kuten _[sivuketjujen](https://planb.academy/resources/glossary/sidechain)_ rakentaminen ilman _merge miningia_ tai ajoketjuihin liittyviä ehdotuksia, kuten BIP300. Periaatteessa mikä tahansa järjestelmä, joka vaatii yhden sitoumuksen, voi hyödyntää tätä kryptografista primitiiviä. Nykyään RGB on ensimmäinen merkittävä täysimittainen toteutus.
 
 #### Tietojen saatavuusongelmat
 
@@ -408,7 +408,7 @@ Koska asiakaspuolen validoinnissa kukin käyttäjä tallentaa oman osansa histor
 
 #### Jakaminen ja sopimusten eristäminen
 
-Kukin sopimus edustaa erillistä sirpaletta: Esimerkiksi USDT:n ja USDC:n ei tarvitse jakaa historiaansa. Atomivaihdot ovat edelleen mahdollisia, mutta tämä ei edellytä niiden rekisterien yhdistämistä. Kaikki tapahtuu kryptografisen sitoumuksen avulla, ilman että koko historian kuvaaja paljastuu kullekin osallistujalle.
+Kukin sopimus edustaa erillistä sirpaletta: Esimerkiksi USDT:n ja USDC:n ei tarvitse jakaa historiaansa. [Atomivaihdot](https://planb.academy/resources/glossary/atomic-swap) ovat edelleen mahdollisia, mutta tämä ei edellytä niiden rekisterien yhdistämistä. Kaikki tapahtuu kryptografisen sitoumuksen avulla, ilman että koko historian kuvaaja paljastuu kullekin osallistujalle.
 
 ### Päätelmä
 
@@ -424,11 +424,11 @@ Ennen kuin sukellat toisen luvun teknisempiin yksityiskohtiin, lue uudelleen kes
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Tässä luvussa tarkastelemme asiakaspuolen validoinnin ja kertakäyttöisten sinettien toteuttamista Bitcoin-lohkoketjussa. Esittelemme RGB:n **sitoumuskerroksen** (kerros 1) pääperiaatteet ja keskitymme erityisesti **TxO2**-järjestelmään, jota RGB käyttää sinetin määrittelemiseen ja sulkemiseen Bitcoin-transaktiossa. Seuraavaksi käsittelemme kahta tärkeää seikkaa, joita ei ole vielä käsitelty yksityiskohtaisesti:
+Tässä luvussa tarkastelemme [asiakaspuolen validoinnin](https://planb.academy/resources/glossary/client-side-validation) ja [kertakäyttöisten sinettien](https://planb.academy/resources/glossary/single-use-seal) toteuttamista Bitcoin-lohkoketjussa. Esittelemme RGB:n **sitoumuskerroksen** (kerros 1) pääperiaatteet ja keskitymme erityisesti **TxO2**-järjestelmään, jota RGB käyttää sinetin määrittelemiseen ja sulkemiseen Bitcoin-transaktiossa. Seuraavaksi käsittelemme kahta tärkeää seikkaa, joita ei ole vielä käsitelty yksityiskohtaisesti:
 
 
 - _deterministiset Bitcoin-sitoumukset_;
-- Moniprotokollasitoumukset.
+- [Moniprotokollasitoumukset](https://planb.academy/resources/glossary/multi-protocol-commitment).
 
 Näiden käsitteiden yhdistelmä mahdollistaa sen, että yhden UTXO:n ja siten yhden lohkoketjun päälle voidaan sijoittaa useita järjestelmiä tai sopimuksia.
 
@@ -441,28 +441,28 @@ Kuten näimme kurssin ensimmäisessä luvussa, kertakäyttöiset sinetit ovat yl
 Logiikan ymmärtämiseksi muistutetaan perusperiaatteesta: sulkeaksemme _kertakäyttöisen sinetin_, käytämme sinetöityä aluetta lisäämällä _sitoumuksen_ tietylle viestille. Bitcoinissa tämä voidaan tehdä monella tavalla:
 
 
-- Käytä julkista avainta tai osoitetta
+- Käytä [julkista avainta](https://planb.academy/resources/glossary/public-key) tai osoitetta
 
 Voimme päättää, että tietty julkinen avain tai osoite on _kertakäyttöinen sinetti_. Heti kun tämä avain tai osoite esiintyy ketjussa transaktiossa, se tarkoittaa, että sinetti on suljettu tietyllä viestillä.
 
 
-- Käytä **Bitcoin-tapahtuman** ulostuloa
+- Käytä **Bitcoin-tapahtuman** [ulostuloa](https://planb.academy/resources/glossary/output)
 
-Tämä tarkoittaa, että _kertakäyttöinen sinetti_ määritellään tarkaksi _ulostulopisteeksi_ (TXID + lähtönumeropari). Kun tämä _ulostulopiste_ on käytetty, sinetti suljetaan.
+Tämä tarkoittaa, että _kertakäyttöinen sinetti_ määritellään tarkaksi _[ulostulopisteeksi](https://planb.academy/resources/glossary/outpoint)_ ([TXID](https://planb.academy/resources/glossary/txid-transaction-identifier) + lähtönumeropari). Kun tämä _ulostulopiste_ on käytetty, sinetti suljetaan.
 
 RGB:n parissa työskennellessämme löysimme ainakin neljä erilaista tapaa toteuttaa nämä sinetit Bitcoinissa:
 
 
 - Määritä sinetti julkisen avaimen avulla ja sulje se _ulostuloon_ ;
 - Määrittele tiiviste _outpoint_ -merkinnällä ja sulje se _output_ -merkinnällä;
-- Määritä sinetti julkisen avaimen arvon avulla ja sulje se _input_ -kenttään;
+- Määritä sinetti julkisen avaimen arvon avulla ja sulje se _[input](https://planb.academy/resources/glossary/input)_ -kenttään;
 - Määritä tiiviste _outpoint_:n kautta ja sulje se _input_:lla.
 
 | Kaavion nimi | Tiivisteen määritelmä     | Tiivisteen sulkeminen   | Lisävaatimukset                                                 | Pääsovellus                | Mahdolliset sitoutumisjärjestelmät |
 | ------------- | ------------------------- | ----------------------- | -------------------------------------------------------------- | -------------------------- | ---------------------------------- |
 | PkO           | Julkisen avaimen arvo     | Tapahtuman ulostulo     | P2(W)PKH                                                        | Ei vielä käytössä          | Keytweak, taptweak, opret         |
 | TxO2          | Tapahtuman ulostulo       | Tapahtuman ulostulo     | Edellyttää deterministisiä sitoumuksia Bitcoinissa              | RGBv1 (yleinen)            | Keytweak, tapret, opret           |
-| PkI           | Julkisen avaimen arvo     | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Bitcoin-pohjaiset identiteetit | Sigtweak, witweak                |
+| PkI           | Julkisen avaimen arvo     | Tapahtuman sisääntulo   | Vain [Taproot](https://planb.academy/resources/glossary/taproot) & ei yhteensopiva perinteisten lompakoiden kanssa  | Bitcoin-pohjaiset identiteetit | Sigtweak, witweak                |
 | TxO1          | Tapahtuman ulostulo       | Tapahtuman sisääntulo   | Vain Taproot & ei yhteensopiva perinteisten lompakoiden kanssa  | Ei vielä käytössä          | Sigtweak, witweak                 |
 
 Emme mene yksityiskohtaisesti kuhunkin näistä konfiguraatioista, sillä RGB:ssä olemme päättäneet käyttää **ulkopistettä_ tiivisteen määritelmänä** ja sijoittaa _sitoumuksen_ transaktion ulostuloon, joka kuluttaa tämän _ulkopisteen_. Voimme siis ottaa käyttöön seuraavat käsitteet jatkoa varten:
@@ -481,7 +481,7 @@ Muistutuksena mainittakoon, että _kertakäyttöisen sinetin_ määrittely ei v�
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
-Sinä päivänä, kun se haluaa sulkea sinetin (ilmoittaa tapahtumasta tai ankkuroida tietyn viestin), se käyttää tämän UTXO:n uuteen transaktioon (tätä transaktiota kutsutaan usein "_todistustransaktioksi_" (ei liity _segwitiin_, se on vain termi, jonka me annamme sille). Tämä uusi transaktio sisältää viestin _sitoumuksen_.
+Sinä päivänä, kun se haluaa sulkea sinetin (ilmoittaa tapahtumasta tai ankkuroida tietyn viestin), se käyttää tämän UTXO:n uuteen transaktioon (tätä transaktiota kutsutaan usein "_[todistustransaktioksi](https://planb.academy/resources/glossary/witness-transaction)_" (ei liity _segwitiin_, se on vain termi, jonka me annamme sille). Tämä uusi transaktio sisältää viestin _sitoumuksen_.
 
 ![RGB-Bitcoin](assets/en/025.webp)
 
@@ -547,13 +547,13 @@ Edellisessä jaksossa mainittiin lyhyesti, miten asiakaspuolen validointimallia 
 
 Kun annat jollekin todisteen siitä, että tietty viesti sisältyy transaktioon, sinun on pystyttävä takaamaan, että samassa transaktiossa ei ole toista sitoutumisen muotoa (toista, piilotettua viestiä), jota ei ole paljastettu sinulle. Jotta asiakaspuolen validointi pysyisi vankkana, tarvitaan **deterministinen** mekanismi, jolla transaktioon voidaan sijoittaa yksittäinen _sitoumus_, joka sulkee _kertakäyttöisen sinetin_.
 
-Todistajatapahtuma_ kuluttaa kuuluisan UTXO:n (tai _sinetin määrittelyn_), ja tämä kulu vastaa sinetin sulkemista. Teknisesti ottaen tiedämme, että kukin ulostulopiste voidaan käyttää vain kerran. Juuri tämä on Bitcoinin kaksinkertaisen kuluttamisen vastustuskyvyn perusta. Kulutustapahtumalla voi kuitenkin olla useita _sisäänmenoja_, useita _ulostuloja_ tai se voi koostua monimutkaisella tavalla (kolikkoliitokset, Lightning-kanavat jne.). Siksi meidän on määriteltävä selkeästi, mihin kohtaan _sitoumus_ lisätään tässä rakenteessa, yksiselitteisesti ja yhdenmukaisesti.
+Todistajatapahtuma_ kuluttaa kuuluisan UTXO:n (tai _sinetin määrittelyn_), ja tämä kulu vastaa sinetin sulkemista. Teknisesti ottaen tiedämme, että kukin ulostulopiste voidaan käyttää vain kerran. Juuri tämä on Bitcoinin kaksinkertaisen kuluttamisen vastustuskyvyn perusta. Kulutustapahtumalla voi kuitenkin olla useita _sisäänmenoja_, useita _ulostuloja_ tai se voi koostua monimutkaisella tavalla ([kolikkoliitokset](https://planb.academy/resources/glossary/coinjoin), Lightning-kanavat jne.). Siksi meidän on määriteltävä selkeästi, mihin kohtaan _sitoumus_ lisätään tässä rakenteessa, yksiselitteisesti ja yhdenmukaisesti.
 
 Menetelmästä riippumatta (PkO, TxO2 jne.), _sitoumus_ voidaan lisätä :
 
 
 - **Input** kautta :
-- **Sigtweak** (muuttaa ECDSA-allekirjoituksen `r`-komponenttia, kuten "Sign-to-contract"-periaatteessa) ;
+- **Sigtweak** (muuttaa [ECDSA](https://planb.academy/resources/glossary/ecdsa)-[allekirjoituksen](https://planb.academy/resources/glossary/digital-signature) `r`-komponenttia, kuten "Sign-to-contract"-periaatteessa) ;
 - **Witweak** (tapahtuman _segregated witness_ -tietoja muutetaan).
 - **Lähtö** kautta :
 - **Keytweak** (vastaanottajan julkinen avain "viritetään" viestin kanssa) ;
@@ -568,7 +568,7 @@ Seuraavassa on kunkin menetelmän yksityiskohdat:
 
 ***Sig tweak (sign-to-contract) :***
 
-Aikaisemmassa järjestelmässä käytettiin hyväksi allekirjoituksen (ECDSA tai Schnorr) satunnaisosaa sitoumuksen upottamiseksi: tämä tekniikka tunnetaan nimellä "**Sign-to-contract**". Satunnaisesti generoitu nonce korvataan datan sisältävällä hashilla. Tällä tavoin allekirjoitus paljastaa epäsuorasti sitoutumisesi ilman, että transaktiossa on ylimääräistä tilaa. Tällä lähestymistavalla on useita etuja:
+Aikaisemmassa järjestelmässä käytettiin hyväksi allekirjoituksen (ECDSA tai [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol)) satunnaisosaa sitoumuksen upottamiseksi: tämä tekniikka tunnetaan nimellä "**Sign-to-contract**". Satunnaisesti generoitu [nonce](https://planb.academy/resources/glossary/nonce) korvataan datan sisältävällä hashilla. Tällä tavoin allekirjoitus paljastaa epäsuorasti sitoutumisesi ilman, että transaktiossa on ylimääräistä tilaa. Tällä lähestymistavalla on useita etuja:
 
 
 - Ei ketjun ylikuormitusta (käytät samaa paikkaa kuin perusnonce);
@@ -577,14 +577,14 @@ Aikaisemmassa järjestelmässä käytettiin hyväksi allekirjoituksen (ECDSA tai
 On kuitenkin ilmennyt kaksi merkittävää haittaa:
 
 
-- Multisig ennen Taprootia: kun allekirjoittajia on useita, sinun on päätettävä, mikä allekirjoitus kantaa _sitoumuksen_. Allekirjoitukset voidaan asettaa eri järjestykseen, ja jos allekirjoittaja kieltäytyy, menetät _sitoumuksen_ lopputuloksen hallinnan;
+- [Multisig](https://planb.academy/resources/glossary/multisig) ennen Taprootia: kun allekirjoittajia on useita, sinun on päätettävä, mikä allekirjoitus kantaa _sitoumuksen_. Allekirjoitukset voidaan asettaa eri järjestykseen, ja jos allekirjoittaja kieltäytyy, menetät _sitoumuksen_ lopputuloksen hallinnan;
 - MuSig ja jaettu nonce: Schnorr multisigissä (*MuSig*) nonceen generointi on monen osapuolen algoritmi, ja on käytännössä mahdotonta muokata noncea erikseen.
 
-Käytännössä **sig tweak** ei myöskään ole kovin yhteensopiva nykyisten laitteistojen (laitteistolompakot) ja formaattien (Lightning jne.) kanssa. Joten tätä hienoa ideaa on vaikea toteuttaa käytännössä.
+Käytännössä **sig tweak** ei myöskään ole kovin yhteensopiva nykyisten laitteistojen ([laitteistolompakot](https://planb.academy/resources/glossary/hardware-wallet)) ja formaattien (Lightning jne.) kanssa. Joten tätä hienoa ideaa on vaikea toteuttaa käytännössä.
 
 **Key tweak (pay-to-contract):**
 
-**Tärkein parannus** on historiallinen käsite _pay-to-contract_. Otetaan julkinen avain `X` ja muokataan sitä lisäämällä siihen arvo `H(viesti)`. Jos `X = x * G` ja `h = H(viesti)`, uusi avain on `X' = X + h * G`. Tämä muokattu avain kätkee `viestiin` sitoutumisen. Alkuperäisen yksityisen avaimen haltija voi lisäämällä `h` yksityiseen avaimeensa `x` todistaa, että hänellä on avain, jolla hän voi käyttää tuloksen. Teoriassa tämä on tyylikästä, koska :
+**Tärkein parannus** on historiallinen käsite _pay-to-contract_. Otetaan julkinen avain `X` ja muokataan sitä lisäämällä siihen arvo `H(viesti)`. Jos `X = x * G` ja `h = H(viesti)`, uusi avain on `X' = X + h * G`. Tämä muokattu avain kätkee `viestiin` sitoutumisen. Alkuperäisen [yksityisen avaimen](https://planb.academy/resources/glossary/private-key) haltija voi lisäämällä `h` yksityiseen avaimeensa `x` todistaa, että hänellä on avain, jolla hän voi käyttää tuloksen. Teoriassa tämä on tyylikästä, koska :
 
 
 - Sitoumus_ syötetään ilman lisäkenttien lisäämistä;
@@ -595,7 +595,7 @@ Käytännössä törmäämme kuitenkin seuraaviin ongelmiin:
 
 - Lompakot eivät enää tunnista tavallista julkista avainta, koska sitä on "viritetty", joten ne eivät voi helposti yhdistää UTXO:ta tavalliseen avaimeesi;
 - Laitteistolompakoita ei ole suunniteltu allekirjoittamaan avaimella, joka ei ole peräisin niiden vakiojohdannasta;
-- Sinun on mukautettava skriptejäsi, kuvaajia jne.
+- Sinun on mukautettava [skriptejäsi](https://planb.academy/resources/glossary/script), kuvaajia jne.
 
 RGB:n osalta tätä reittiä kaavailtiin vuoteen 2021 asti, mutta se osoittautui liian monimutkaiseksi, jotta se olisi mahdollista toteuttaa nykyisten standardien ja infrastruktuurin avulla.
 
@@ -640,7 +640,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 
 
 - 29 tavua `OP_RESERVED`, jota seuraavat `OP_RETURN` ja `OP_PUSHBYTE_33` muodostavat 31 tavun _prefix_-osan;
-- Seuraavaksi tulee 32 tavun _commitment_ (yleensä Merkle-juuresta **MPC**), johon lisätään 1 tavu **Nonce** (yhteensä 33 tavua tässä toisessa osassa).
+- Seuraavaksi tulee 32 tavun _commitment_ (yleensä [Merkle-juuresta](https://planb.academy/resources/glossary/merkle-root) **MPC**), johon lisätään 1 tavu **Nonce** (yhteensä 33 tavua tässä toisessa osassa).
 
 64 tavun `Tapret`-menetelmä näyttää siis `Opret`-menetelmältä, johon olemme liittäneet 29 tavua `OP_RESERVED`-merkkiä ja lisänneet ylimääräisen tavun Nonce-merkiksi.
 
@@ -660,7 +660,7 @@ Tässä ensimmäisessä tapauksessa aloitamme taproot-tulostusavaimesta (*Taproo
 
 
 - "P": _Key Path Spend_:n sisäinen julkinen avain.
-- `G`: elliptisen käyrän [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) generointipiste.
+- `G`: [elliptisen käyrän](https://planb.academy/resources/glossary/elliptic-curve) [secp256k1](https://en.bitcoin.it/wiki/Secp256k1) generointipiste.
 - t = tH_TWEAK(P)` on muunnoskerroin, joka on laskettu _tunnisteellisen hash:n_ avulla (esim. `SHA-256(SHA-256(TapTweak) || P)`) [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#address-derivation) mukaisesti. Tämä todistaa, että piilotettua käsikirjoitusta ei ole.
 
 Jos haluat sisällyttää **Tapret**-sitoumuksen, lisää **Script Path Spend** ja **yksilöllinen script** seuraavasti:
@@ -928,7 +928,7 @@ Tällä mekanismilla varmistetaan, että :
 
 Multi Protocol Commitment* (MPC) on periaate, jonka avulla RGB voi yhdistää useita sopimuksia yhdeksi Bitcoin-tapahtumaksi säilyttäen samalla sitoumusten ainutlaatuisuuden ja luottamuksellisuuden muihin osallistujiin nähden. Puun deterministisen rakenteen ansiosta jokaiselle sopimukselle annetaan yksilöllinen asema, ja "tyhjien" lehtien (*Entropy Leaves*) läsnäolo peittää osittain transaktioon osallistuvien sopimusten kokonaismäärän.
 
-Koko Merkle-puuta ei koskaan tallenneta asiakkaalle. Luomme vain _Merkle-polun_ kullekin kyseiselle sopimukselle, joka toimitetaan vastaanottajalle (joka voi sitten validoida sitoumuksen). Joissakin tapauksissa sinulla voi olla useita omaisuuseriä, jotka ovat kulkeneet saman UTXO:n kautta. Tällöin voit yhdistää useita _Merkle-polkuja_ ns. moniprotokollasitoumuslohkoksi, jotta vältytään liialliselta tietojen päällekkäisyydeltä.
+Koko [Merkle-puuta](https://planb.academy/resources/glossary/merkle-tree) ei koskaan tallenneta asiakkaalle. Luomme vain _Merkle-polun_ kullekin kyseiselle sopimukselle, joka toimitetaan vastaanottajalle (joka voi sitten validoida sitoumuksen). Joissakin tapauksissa sinulla voi olla useita omaisuuseriä, jotka ovat kulkeneet saman UTXO:n kautta. Tällöin voit yhdistää useita _Merkle-polkuja_ ns. moniprotokollasitoumuslohkoksi, jotta vältytään liialliselta tietojen päällekkäisyydeltä.
 
 Jokainen _Merkle-todistus_ on siis kevyt, varsinkin kun puun syvyys on RGB:ssä enintään 32. On myös olemassa käsite "Merkle-lohko", joka säilyttää enemmän tietoa (poikkileikkaus, entropia jne.), mikä on hyödyllistä useiden haarojen yhdistämisessä tai erottamisessa.
 
@@ -1429,7 +1429,7 @@ Yksi RGB:n suurista vahvuuksista on kyky paljastaa (*paljastaa*) tai piilottaa (
         - Yksinkertainen `txid`, jos se osoittaa tiettyyn UTXO:hon,
         - Tai `WitnessTx`, joka tarkoittaa itseviittausta: sinetti osoittaa itse tapahtumaan. Tämä on erityisen hyödyllistä silloin, kun ulkoista UTXO:ta ei ole saatavilla, esimerkiksi salamakanavan avaustapahtumissa, tai jos vastaanottajalla ei ole UTXO:ta.
 - **vout** : `txptr`:n osoittaman tapahtuman lähtönumero. Käytössä vain tavallisessa Graph sealissa (ei `WitnessTx`:ssä);
-- **blinding**: 8 tavun satunnaisluku, jolla vahvistetaan luottamuksellisuutta ja estetään UTXO:n henkilöllisyyttä koskevat raa'an voiman yritykset;
+- **blinding**: 8 tavun satunnaisluku, jolla vahvistetaan luottamuksellisuutta ja estetään UTXO:n henkilöllisyyttä koskevat [raa'an voiman](https://planb.academy/resources/glossary/brute-force-attack) yritykset;
 - **method**: ilmoittaa käytetyn ankkurointimenetelmän (`Tapret` tai `Opret`).
 
 Sinettimääritelmän *peitetty* muoto on SHA256-hash (merkitty) näiden neljän kentän yhdistelmästä, jossa on RGB-kohtainen merkintä.
@@ -1448,7 +1448,7 @@ RGB määrittelee neljä mahdollista tilatyyppiä (*StateTypes*) omistetulle til
 
 
 - **Deklaratiivinen**: ei sisällä numerotietoja, vain deklaratiivisen oikeuden (esim. äänioikeus). Piilotettu ja paljastettu muoto ovat identtiset;
-- **Fungible**: edustaa korvattavaa määrää (kuten rahakkeita). Paljastetussa muodossa meillä on `amount` ja `blinding`. Piilotetussa muodossa meillä on yksi *Pedersen-sitoumus*, joka piilottaa määrän ja sokeuden;
+- **Fungible**: edustaa korvattavaa määrää (kuten rahakkeita). Paljastetussa muodossa meillä on `amount` ja `blinding`. Piilotetussa muodossa meillä on yksi *[Pedersen-sitoumus](https://planb.academy/resources/glossary/pedersen-commitment)*, joka piilottaa määrän ja sokeuden;
 - **Strukturoitu**: tallentaa strukturoitua tietoa (enintään 64 kB). Paljastetussa muodossa se on datapläjäys. Piilotetussa muodossa se on tämän blobin tagged hash:
 
 ```txt
@@ -1630,12 +1630,12 @@ Semanttisen koodin versioinnin lisäksi RGB sisältää järjestelmän, jonka av
 Pikakelaus tapahtuu, kun aiemmin pätemätön sääntö muuttuu päteväksi. Esimerkiksi jos sopimus kehittyy siten, että se sallii uuden "AssignmentType"-tyypin tai uuden kentän :
 
 
-- Tätä ei voi verrata klassiseen lohkoketjun hardforkiin, sillä RGB toimii asiakaspuolen validoinnissa eikä vaikuta lohkoketjun yleiseen yhteensopivuuteen;
+- Tätä ei voi verrata klassiseen lohkoketjun [hardforkiin](https://planb.academy/resources/glossary/hard-fork), sillä RGB toimii asiakaspuolen validoinnissa eikä vaikuta lohkoketjun yleiseen yhteensopivuuteen;
 - Käytännössä tämäntyyppinen muutos ilmaistaan sopimustoimen "Ffv"-kentällä (*fast-forward version*);
 - Nykyisille haltijoille ei aiheudu haittaa: heidän asemansa pysyy voimassa;
 - Uusien edunsaajien (tai uusien käyttäjien) on sen sijaan päivitettävä ohjelmistonsa (lompakkonsa), jotta ne tunnistavat uudet säännöt.
 
-Push-back tarkoittaa, että aiemmin voimassa ollut sääntö muuttuu pätemättömäksi. Kyseessä on siis sääntöjen "koventaminen", mutta ei varsinaisesti softfork:
+Push-back tarkoittaa, että aiemmin voimassa ollut sääntö muuttuu pätemättömäksi. Kyseessä on siis sääntöjen "koventaminen", mutta ei varsinaisesti [softfork](https://planb.academy/resources/glossary/soft-fork):
 
 
 - Nykyiset haltijat voivat joutua kärsimään (heidän omaisuuseränsä voivat olla vanhentuneita tai mitätöityjä uudessa versiossa);

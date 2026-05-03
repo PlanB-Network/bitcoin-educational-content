@@ -65,7 +65,7 @@ E se la storia monetaria si ripetesse sotto i nostri occhi? Giudicate voi nei ca
 ### Definizioni di inflazione
 
 
-L'inflazione è un concetto spesso frainteso a causa delle sue molteplici definizioni e interpretazioni. La percezione dell'inflazione varia tra diversi gruppi, come i bitcoiners e gli economisti tradizionali. Chiariamo innanzitutto le definizioni prima di parlare di iperinflazione:
+[L'inflazione](https://planb.academy/resources/glossary/inflation) è un concetto spesso frainteso a causa delle sue molteplici definizioni e interpretazioni. La percezione dell'inflazione varia tra diversi gruppi, come i bitcoiners e gli economisti tradizionali. Chiariamo innanzitutto le definizioni prima di parlare di iperinflazione:
 
 
 
@@ -111,7 +111,7 @@ Un altro metodo fu quello di ridurre la quantità di metallo prezioso nelle mone
 ![image](assets/it/002.webp)
 
 
-È fondamentale sottolineare che l'iperinflazione si osserva principalmente con le valute fiat che non sono sostenute dai beni sottostanti, come i metalli preziosi. Storicamente, quando una valuta era basata su tali asset, si sono verificati episodi di inflazione (ad esempio, attraverso la svalutazione del metallo contenuto), ma questi episodi non hanno mai raggiunto i livelli estremi dell'iperinflazione. Nelle sezioni seguenti analizzeremo in dettaglio i periodi di svalutazione monetaria e le implicazioni di questi diversi sistemi monetari sull'inflazione.
+È fondamentale sottolineare che l'iperinflazione si osserva principalmente con le [valute fiat](https://planb.academy/resources/glossary/fiat) che non sono sostenute dai beni sottostanti, come i metalli preziosi. Storicamente, quando una valuta era basata su tali asset, si sono verificati episodi di inflazione (ad esempio, attraverso la svalutazione del metallo contenuto), ma questi episodi non hanno mai raggiunto i livelli estremi dell'iperinflazione. Nelle sezioni seguenti analizzeremo in dettaglio i periodi di svalutazione monetaria e le implicazioni di questi diversi sistemi monetari sull'inflazione.
 
 
 ### Studio dei periodi di svalutazione monetaria
@@ -1160,7 +1160,7 @@ Il fenomeno delle aziende zombie non è limitato alla Germania del dopoguerra. A
 #### 6. Diventare ricchi in fretta!
 
 
-La storia rivela casi in cui gli individui hanno cercato di accumulare rapidamente ricchezza, come nel caso di Weimar e dello Zimbabwe, attraverso l'arbitraggio. Oggi, una tendenza simile si osserva con l'ascesa di alcune criptovalute. Le persone sono tentate da guadagni rapidi, assumendo rischi nella speranza di un aumento esponenziale del loro investimento. Questo approccio ricorda quello visto durante i periodi di iperinflazione, dove l'arbitraggio veniva utilizzato per ottenere rapidi guadagni, spesso a spese di altri.
+La storia rivela casi in cui gli individui hanno cercato di accumulare rapidamente ricchezza, come nel caso di Weimar e dello Zimbabwe, attraverso l'arbitraggio. Oggi, una tendenza simile si osserva con l'ascesa di alcune [criptovalute](https://planb.academy/resources/glossary/cryptocurrency). Le persone sono tentate da guadagni rapidi, assumendo rischi nella speranza di un aumento esponenziale del loro investimento. Questo approccio ricorda quello visto durante i periodi di iperinflazione, dove l'arbitraggio veniva utilizzato per ottenere rapidi guadagni, spesso a spese di altri.
 
 
 ![image](assets/it/052.webp)

@@ -6,3 +6,4 @@ wrong_answers:
   - Panjang kunci tidak memiliki dampak pada Salsa20.
 explanation: |
   Dalam skema enkripsi simetris Salsa20, panjang kunci (128 atau 256 bit) mempengaruhi jumlah ronde dalam algoritma, tanpa mengubah inti dari algoritma itu sendiri.
+reviewed: true

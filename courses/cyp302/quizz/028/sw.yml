@@ -6,4 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   Na XOR, 0 XOR 1 hutoa 1 kwa sababu biti ni tofauti.
-reviewed: false
+reviewed: true

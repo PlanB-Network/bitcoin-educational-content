@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bit secara total
 explanation: |
   Dalam sistem kriptografi modern seperti RSA, bilangan prima yang dipilih biasanya berukuran 1024 bit setiap satu, membuat faktorisasi menjadi sangat sulit dan meningkatkan keamanan.
-reviewed: false
+reviewed: true

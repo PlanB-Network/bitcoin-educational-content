@@ -1,9 +1,9 @@
 question: オールインワンのオンライン小売環境を好む企業にとって、どの代替ソリューションが挙げられるだろうか？
-answer: ビーボップ
+answer: Be-BOP
 wrong_answers:
-  - フェニックス
-  - オープンノード
-  - スイス・ビットコイン・ペイ
+  - Phoenix
+  - OpenNode
+  - Swiss Bitcoin Pay
 explanation: |
   Be-BOPは、ビットコイン決済が可能な統合型オンラインEストアを望む人々のためのオプションである。
 reviewed: false

@@ -1,4 +1,4 @@
-question: Ni nini ufafanuzi wa kutofautisha bila mpangilio katika muktadha wa kriptografia?
+question: Ni nini ufafanuzi wa kigeugeu nasibu muktadha wa kriptografia?
 answer: Tofauti ambayo inaweza kuchukua thamani kadhaa zinazowezekana na uwezekano chanya
 wrong_answers:
   - Tofauti inayobadilisha thamani kila wakati
@@ -6,4 +6,4 @@ wrong_answers:
   - Tofauti hufafanuliwa kila wakati katika muktadha wa jaribio mahususi la kimwili
 explanation: |
   Tofauti nasibu inaweza kuchukua thamani mbili au zaidi, kila moja ikiwa na uwezekano chanya, na mara nyingi hufafanuliwa kidhahiri katika muktadha wa kriptografia.
-reviewed: false
+reviewed: true

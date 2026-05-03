@@ -617,7 +617,7 @@ In the 20th century, two major trends emerged:
 
 2.  **The other anarcho-capitalist:** who believes that state functions should be privatized and managed by the market.
 
-However, both agree on the fundamental principle of individual sovereignty. Libertarian ideas were expressed as early as the 18th century by the Physiocrats, notably Vincent de Gournay and Turgot, and developed by Condillac, Jean-Baptiste Say and Frédéric Bastiat. In the 20th century, they were taken up and developed by the Austrian school of economics, whose main authors are Ludwig von Mises, Friedrich Hayek and Murray Rothbard.
+However, both agree on the fundamental principle of individual sovereignty. Libertarian ideas were expressed as early as the 18th century by the Physiocrats, notably Vincent de Gournay and Turgot, and developed by Condillac, Jean-Baptiste Say and Frédéric Bastiat. In the 20th century, they were taken up and developed by the [Austrian school of economics](https://planb.academy/resources/glossary/austrian-school), whose main authors are Ludwig von Mises, Friedrich Hayek and Murray Rothbard.
 
 
 
@@ -1191,9 +1191,9 @@ At the end of this course, we feel it is essential to address the political posi
 ### Is Bitcoin a political project?
 
 
-Bitcoin is a decentralized cryptocurrency, created by Satoshi Nakamoto in 2008, which enables untrusted, peer-to-peer financial transactions.
+Bitcoin is a decentralized [cryptocurrency](https://planb.academy/resources/glossary/cryptocurrency), created by Satoshi Nakamoto in 2008, which enables untrusted, [peer-to-peer](https://planb.academy/resources/glossary/peertopeer-p2p) financial transactions.
 
-Bitcoin is controlled by an open source software protocol, with no CEO, no head office, no marketing budget and no designated authority. This means that no political entity or government has control over it.
+Bitcoin is controlled by an [open source](https://planb.academy/resources/glossary/foss) software protocol, with no CEO, no head office, no marketing budget and no designated authority. This means that no political entity or government has control over it.
 
 
 This neutrality is disconcerting for some, and may lead one to believe that this is an apolitical technology, like the Internet in the 20th century or the printing press in the 14th century.
@@ -1205,13 +1205,13 @@ While Bitcoin itself is neither right-wing nor left-wing, nor does it belong to 
 ![Bitcoin Whitepaper Abstract](./assets/fr/020.webp)
 
 
-Reading the Satoshi Nakamoto White Paper, we can see that Bitcoin was designed to offer innovative protection against two major contemporary threats: widespread surveillance and the acceleration of artificial money creation.
+Reading the Satoshi Nakamoto [White Paper](https://planb.academy/resources/glossary/white-paper), we can see that Bitcoin was designed to offer innovative protection against two major contemporary threats: widespread surveillance and the acceleration of artificial money creation.
 
 
 1. Although not totally anonymous, Bitcoin considerably enhances privacy by limiting financial surveillance of individuals. This capability enables, for example, a dissident in a dictatorship to hold and exchange value online without fear of confiscation or censorship. While this may seem a long way off for citizens of democracies, it is a crucial step forward for individual freedoms.
 
 
-2. Bitcoin enables everyone to protect their savings against the spoliation of private property embodied in monetary inflation. It is an attempt to challenge the state's control on the management of money as an instrument of exchange, and thus to compete with the state. The 2008 financial crisis and the Covid 19 pandemic have highlighted the flaws in the current system. The trillions of dollars printed out of thin air to prevent the economy from collapsing further had devastating effects, which we are still paying for.
+2. Bitcoin enables everyone to protect their savings against the spoliation of private property embodied in monetary [inflation](https://planb.academy/resources/glossary/inflation). It is an attempt to challenge the state's control on the management of money as an instrument of exchange, and thus to compete with the state. The 2008 financial crisis and the Covid 19 pandemic have highlighted the flaws in the current system. The trillions of dollars printed out of thin air to prevent the economy from collapsing further had devastating effects, which we are still paying for.
 
 
 ![Bitcoin Counterflow Abstract](./assets/fr/021.webp)
@@ -1233,7 +1233,7 @@ The starting point of Satoshi Nakamoto's intellectual approach is therefore peop
 ![Genesis Block Title](./assets/fr/022.webp)
 
 
-The inclusion of this title in the genesis block is open to interpretation. But it may appear as Satoshi's commentary on the failures of traditional financial institutions, and as a statement of Bitcoin's aim: to offer an alternative to centralized banking systems.
+The inclusion of this title in the [genesis block](https://planb.academy/resources/glossary/genesis-block) is open to interpretation. But it may appear as Satoshi's commentary on the failures of traditional financial institutions, and as a statement of Bitcoin's aim: to offer an alternative to centralized banking systems.
 
 
 When the state imposes strict control over all transactions (for example, by limiting cash or imposing a centralized digital currency), it has total control over the economy, to the detriment of individuals' freedom of choice and sovereignty. By monitoring all transactions, the state can better identify new sources of taxation and impose strict regulations.
@@ -1266,7 +1266,7 @@ That's why Bitcoin is built on a fundamental philosophical presupposition: freed
 In this sense, it is driven by a vision of the world that is both moral and political. When the state has a monopoly on money, you're in a statist system, whether right-wing or left-wing. Bitcoin's project is to offer everyone a free money market.
 
 
-But Bitcoin didn't appear out of nowhere. It is based on advances in mathematics, physics, computer science and philosophy. Satoshi Nakamoto, though brilliant, built on the ideas of other innovators. Among them, the pioneers of the cypherpunk movement.
+But Bitcoin didn't appear out of nowhere. It is based on advances in mathematics, physics, computer science and philosophy. Satoshi Nakamoto, though brilliant, built on the ideas of other innovators. Among them, the pioneers of the [cypherpunk](https://planb.academy/resources/glossary/cypherpunks) movement.
 
 
 ## Who are the cypherpunks?
@@ -1302,7 +1302,7 @@ And he adds:
 
 > confidentiality in an open society requires anonymous transaction systems. Until now, cash has been the main system of this type.
 
-This is why cryptography will be used as a tool of resistance against all forms of state and corporate control. It ensures that each party to a transaction knows only what is strictly necessary for that transaction.
+This is why [cryptography](https://planb.academy/resources/glossary/cryptography) will be used as a tool of resistance against all forms of state and corporate control. It ensures that each party to a transaction knows only what is strictly necessary for that transaction.
 
 
 Cypherpunks believe in the power of cryptography to create spaces of freedom and individual autonomy, enabling people to communicate and interact securely and anonymously.

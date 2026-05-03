@@ -826,7 +826,7 @@ Mu kinjana ca 20, hariho ibintu bibiri bihambaye vyadutse:
 2. **Uwundi anarcho-capitaliste:** yizera ko ibikorwa vya Leta bikwiye guhindurwa ivy’abantu ku giti cabo, bikarongorwa n’isoko.
 
 
-Ariko rero, bompi barahuza ingingo ngenderwako y’ishimikiro y’ubusegaba bw’umuntu ku giti ciwe. Ivyiyumviro vy’ubwigenge vyaseruwe kuva mu kinjana ca 18 n’abanyabwenge b’ivy’umubiri, cane cane Vincent de Gournay na Turgot, hanyuma bitegurwa na Condillac, Jean-Baptiste Say na Frédéric Bastiat. Mu kinjana ca 20, vyafashwe kandi birategurwa n’ishure ry’ubutunzi ryo muri Otirishiya, abanditsi bavyo nyamukuru bakaba ari Ludwig von Mises, Friedrich Hayek na Murray Rothbard.
+Ariko rero, bompi barahuza ingingo ngenderwako y’ishimikiro y’ubusegaba bw’umuntu ku giti ciwe. Ivyiyumviro vy’ubwigenge vyaseruwe kuva mu kinjana ca 18 n’abanyabwenge b’ivy’umubiri, cane cane Vincent de Gournay na Turgot, hanyuma bitegurwa na Condillac, Jean-Baptiste Say na Frédéric Bastiat. Mu kinjana ca 20, vyafashwe kandi birategurwa n’[ishure ry’ubutunzi ryo muri Otirishiya](https://planb.academy/resources/glossary/austrian-school), abanditsi bavyo nyamukuru bakaba ari Ludwig von Mises, Friedrich Hayek na Murray Rothbard.
 
 
 
@@ -1626,7 +1626,7 @@ Mu mpera z’iri shure, twumva ko ari ngombwa gutorera umuti ikibanza ca politik
 
 
 
-Bitcoin ni amafaranga y’ibanga yegerejwe, yaremwe na Satoshi Nakamoto mu 2008, ishobora gutuma habaho amafaranga ata kwizigirwa, akoreshwa n’abandi.
+Bitcoin ni [amafaranga y’ibanga](https://planb.academy/resources/glossary/cryptocurrency) yegerejwe, yaremwe na Satoshi Nakamoto mu 2008, ishobora gutuma habaho amafaranga ata kwizigirwa, akoreshwa n’abandi.
 
 
 Bitcoin igenzurwa n’umurongo w’ubuhinga bwa none, ata muyobozi mukuru, ata biro bikuru, ata ngengo y’imari yo kwamamaza kandi ata butegetsi bugenewe. Ivyo bisigura ko ata kigo ca politike canke intwaro ishobora kuyigenzura.
@@ -1645,7 +1645,7 @@ Naho Bitcoin ubwayo atari iy’iburyo canke iy’ibubamfu, eka mbere nta n’idi
 
 
 
-Dusomye igitabu cera ca Satoshi Nakamoto, turashobora kubona ko Bitcoin yagenewe gutanga uburinzi bushasha ku bibazo bibiri bikomeye vyo muri iki gihe: ugucungera abantu benshi no kwihutisha uguhingura amahera y’ubuhinga.
+Dusomye [igitabu cera](https://planb.academy/resources/glossary/white-paper) ca Satoshi Nakamoto, turashobora kubona ko Bitcoin yagenewe gutanga uburinzi bushasha ku bibazo bibiri bikomeye vyo muri iki gihe: ugucungera abantu benshi no kwihutisha uguhingura amahera y’ubuhinga.
 
 
 
@@ -1681,7 +1681,7 @@ Intango y’uburyo bw’ubwenge bwa Satoshi Nakamoto rero ni ukwizigira abantu b
 
 
 
-Gushiramwo iri zina mu gice c’intango birafunguye ku gusobanura. Ariko bishobora gusa n’ibisobanuro vya Satoshi ku bijanye n’ukunanirwa kw’ibigo vy’imari vya kera, kandi nk’ijambo ry’intumbero ya Bitcoin: gutanga ubundi buryo bwo gukoresha amabanki ahuriweko.
+Gushiramwo iri zina mu [gice c’intango](https://planb.academy/resources/glossary/genesis-block) birafunguye ku gusobanura. Ariko bishobora gusa n’ibisobanuro vya Satoshi ku bijanye n’ukunanirwa kw’ibigo vy’imari vya kera, kandi nk’ijambo ry’intumbero ya Bitcoin: gutanga ubundi buryo bwo gukoresha amabanki ahuriweko.
 
 
 
@@ -1725,7 +1725,7 @@ Muri ubwo buryo, rirongorwa n’iyerekwa ry’isi riri mu vy’inyifato runtu no
 
 
 
-Ariko Bitcoin ntiyabonetse ataco imaze. Ishingiye ku gutera imbere mu vy’imibare, fizike, ubuhinga bwa mudasobwa n’ubuhinga bwa filozofiya. Satoshi Nakamoto naho yari umunyabwenge cane, yubakiye ku vyiyumviro vy’abandi bahinga. Muri bo harimwo abatsimvyi b’umuhari w’ivy’ubuhinga bwa none (cypherpunk).
+Ariko Bitcoin ntiyabonetse ataco imaze. Ishingiye ku gutera imbere mu vy’imibare, fizike, ubuhinga bwa mudasobwa n’ubuhinga bwa filozofiya. Satoshi Nakamoto naho yari umunyabwenge cane, yubakiye ku vyiyumviro vy’abandi bahinga. Muri bo harimwo abatsimvyi b’umuhari w’ivy’ubuhinga bwa none ([cypherpunk](https://planb.academy/resources/glossary/cypherpunks)).
 
 
 
@@ -1772,7 +1772,7 @@ Kandi yongerako ati:
 
 > ibanga mu kibano c’abantu bose bisaba uburyo bwo gukorana ata mazina. Gushika ubu, amahera ni yo yari uburyo nyamukuru bw’ubwo bwoko.
 
-Ni co gituma ubuhinga bwo gukingira amakuru buzokoreshwa nk’igikoresho co kurwanya uburyo bwose bwo kugenzura Leta n’amashirahamwe. Bituma uwugira uruhara wese mu bijanye n’ugucuruza amenya gusa ivyo ari ngombwa cane ku bijanye n’ugucuruza.
+Ni co gituma [ubuhinga bwo gukingira amakuru](https://planb.academy/resources/glossary/cryptography) buzokoreshwa nk’igikoresho co kurwanya uburyo bwose bwo kugenzura Leta n’amashirahamwe. Bituma uwugira uruhara wese mu bijanye n’ugucuruza amenya gusa ivyo ari ngombwa cane ku bijanye n’ugucuruza.
 
 
 

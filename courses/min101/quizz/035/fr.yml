@@ -6,4 +6,4 @@ wrong_answers:
   - Dans les frais de la coinbase
 explanation: |
   SegWit utilise un engagement inscrit dans la coinbase via un output OP_RETURN.
-reviewed: false
+reviewed: true 

@@ -57,9 +57,9 @@ Oletko valmis tutkimaan Elementsin ja Liquid-sidechainin potentiaalia? Aloitetaa
 
 :::video id=eae666b4-eddc-4e00-adea-2a5f94396044:::
 
-Elements on avoimen lähdekoodin, sivuketjuihin soveltuva lohkoketjualusta, joka tarjoaa pääsyn yhteisön jäsenten kehittämiin tehokkaisiin ominaisuuksiin, kuten luottamuksellisiin transaktioihin ja liikkeeseen laskettuihin varoihin.
+Elements on avoimen lähdekoodin, sivuketjuihin soveltuva [lohkoketjualusta](https://planb.academy/resources/glossary/blockchain), joka tarjoaa pääsyn yhteisön jäsenten kehittämiin tehokkaisiin ominaisuuksiin, kuten luottamuksellisiin [transaktioihin](https://planb.academy/resources/glossary/transaction-tx) ja liikkeeseen laskettuihin varoihin.
 
-Elements on pohjimmiltaan protokolla, joka mahdollistaa konsensuksen muodostamisen transaktiohistoriasta ja säännöistä, jotka ohjaavat hajautettuun lohkoketjuun tallennettujen varojen siirtoa ja luomista.
+Elements on pohjimmiltaan protokolla, joka mahdollistaa [konsensuksen](https://planb.academy/resources/glossary/consensus) muodostamisen transaktiohistoriasta ja säännöistä, jotka ohjaavat hajautettuun lohkoketjuun tallennettujen varojen siirtoa ja luomista.
 
 Lisää taustatietoa Elementsistä löytyy helposti Elements-projektin verkkosivuilta (https://elementsproject.org/), virallisesta Liquid-blogista (https://blog.liquid.net/) ja kehittäjäportaalista (https://liquid.net/devs).
 
@@ -85,7 +85,7 @@ Elements on yleiskäyttöinen lohkoketjualusta, joka voidaan myös "kiinnittää
 
 #### Allekirjoitetut lohkot
 
-Elements käyttää vahvaa allekirjoittajien liittoa, jota kutsutaan lohkojen allekirjoittajiksi, jotka allekirjoittavat ja luovat lohkoja luotettavasti ja ajallaan. Tämä poistaa PoW-louhintaprosessin transaktioviiveen, joka on altis suurelle lohkojen aikavaihtelulle sen satunnaisen poisson-jakauman vuoksi. Federated Block Signing -prosessilla saavutetaan luotettava lohkojen luominen ilman, että tarvitaan kolmannen osapuolen luottamusta tai laskennalliseen "algoritmiin" perustuvaa louhintaa.
+Elements käyttää vahvaa allekirjoittajien liittoa, jota kutsutaan lohkojen allekirjoittajiksi, jotka allekirjoittavat ja luovat [lohkoja](https://planb.academy/resources/glossary/block) luotettavasti ja ajallaan. Tämä poistaa PoW-louhintaprosessin transaktioviiveen, joka on altis suurelle lohkojen aikavaihtelulle sen satunnaisen poisson-jakauman vuoksi. Federated Block Signing -prosessilla saavutetaan luotettava lohkojen luominen ilman, että tarvitaan kolmannen osapuolen luottamusta tai laskennalliseen "algoritmiin" perustuvaa louhintaa.
 
 Elements lisää kaikki nämä ominaisuudet Bitcoin Core -koodipohjan päälle, laajentaa pääketjun protokollan kykyä ja mahdollistaa uusia liiketoimintakäyttötapauksia, kun se otetaan käyttöön sivuketjuna tai itsenäisenä lohkoketjuratkaisuna.
 
@@ -99,7 +99,7 @@ Elements lisää kaikki nämä ominaisuudet Bitcoin Core -koodipohjan päälle, 
 
 :::video id=7c8c7981-11e5-47a2-a257-ef998f4892f5:::
 
-Elements tarjoaa teknisen ratkaisun ongelmiin, joita lohkoketjun käyttäjät kohtaavat päivittäin: transaktioiden viive, yksityisyyden puute ja korvaavuuden riski.
+Elements tarjoaa teknisen ratkaisun ongelmiin, joita lohkoketjun käyttäjät kohtaavat päivittäin: transaktioiden viive, yksityisyyden puute ja [korvaavuuden](https://planb.academy/resources/glossary/fungibility) riski.
 
 Elements voittaa nämä ongelmat käyttämällä Federated Block Signing -järjestelmää ja Confidential Transactions -järjestelmää.
 
@@ -150,7 +150,7 @@ Jotta sivuketju toimisi luotettavalla tavalla, sen on annettava osallistujille m
 
 Federated 2-way Peg -ominaisuuden ansiosta omaisuuserä voi olla yhteentoimiva muiden lohkoketjujen kanssa ja edustaa toisen lohkoketjun omaa omaisuuserää. Kiinnittämällä lohkoketjusi toiseen lohkoketjuun voit laajentaa pääketjun ominaisuuksia ja voittaa joitakin sen luontaisia rajoituksia.
 
-Korkealla tasolla siirrot sivuketjuun tapahtuvat, kun joku lähettää pääketjun varoja osoitteeseen, jota kontrolloi Watchmen-lompakko, jossa on useita allekirjoituksia. Tämä käytännössä jäädyttää varat pääketjussa. Tämän jälkeen Watchmen validoi transaktion ja vapauttaa saman määrän siihen liittyvää omaisuutta sivuketjussa. Vapautetut varat lähetetään sivuketjun lompakkoon, joka voi todistaa, että se on oikeutettu alkuperäisiin pääketjun varoihin. Tämä prosessi siirtää tehokkaasti varoja pääketjusta sivuketjuun.
+Korkealla tasolla siirrot sivuketjuun tapahtuvat, kun joku lähettää pääketjun varoja osoitteeseen, jota kontrolloi Watchmen-lompakko, jossa on useita allekirjoituksia. Tämä käytännössä jäädyttää varat pääketjussa. Tämän jälkeen Watchmen validoi transaktion ja vapauttaa saman määrän siihen liittyvää omaisuutta sivuketjussa. Vapautetut varat lähetetään sivuketjun [lompakkoon](https://planb.academy/resources/glossary/wallet), joka voi todistaa, että se on oikeutettu alkuperäisiin pääketjun varoihin. Tämä prosessi siirtää tehokkaasti varoja pääketjusta sivuketjuun.
 
 Siirtääkseen varoja takaisin pääketjuun käyttäjä tekee erityisen peg-out-transaktion sivuketjussa. Watchmen tarkastaa tämän transaktion ja allekirjoittaa sitten transaktiomenot pääketjussa hallitsemastaan monen allekirjoituksen lompakosta. Kynnysarvoisen määrän federaation osallistujia on allekirjoitettava, ennen kuin pääketjun transaktiosta tulee pätevä. Kun Watchmenit lähettävät omaisuuserän takaisin pääketjuun, he tuhoavat myös vastaavan määrän sivuketjussa, jolloin omaisuuserät siirtyvät tehokkaasti lohkoketjujen välillä.
 
@@ -166,7 +166,7 @@ Itse Elements-solmun ohjelmisto on nimeltään `elementsd`, ja se toimii daemoni
 
 Huomautus: Tässä dokumentissa viitataan aina elementsd:hen daemon-versiona, mutta kaikki voidaan tehdä myös elements-qt:llä edellyttäen, että palvelinoptio on käytössä.
 
-Elements-demoni muodostaa yhteyden verkon muihin solmuihin, jotta se voi vaihtaa transaktio- ja lohkotietoja, validoida ja laajentaa paikallista kopiota verkon lohkoketjusta.
+Elements-demoni muodostaa yhteyden verkon muihin [solmuihin](https://planb.academy/resources/glossary/node), jotta se voi vaihtaa transaktio- ja lohkotietoja, validoida ja laajentaa paikallista kopiota verkon lohkoketjusta.
 
 Elements-ohjelmisto koostuu myös asiakasohjelmasta nimeltä `elements-cli`, jonka avulla voit lähettää RPC-komentoja (Remote Procedure Call) elementsd:lle komentoriviltä. Tätä voidaan käyttää esimerkiksi lompakon saldon kyselyyn, transaktio- tai lohkotietojen tarkasteluun tai transaktion lähettämiseen. Tämän asetusten pitäisi olla tuttuja kaikille, jotka ovat käyttäneet Bitcoinin vastaavia bitcoind- ja bitcoin-cli-ohjelmia.
 
@@ -196,8 +196,8 @@ Joitakin asioita voidaan muuttaa näiden parametrien avulla:
 - Omaisuuserä, jota käytetään maksettaessa transaktiomaksuja verkossa.
 - Lohkoketjun datatiedostojen säilytyspaikka.
 - RPC-tunnukset, joita käytetään yhteyden muodostamiseen Bitcoin-solmuun.
-- Kynnysarvo "n of m", joka on saavutettava, ja kelvolliset julkiset avaimet, jotka voivat allekirjoittaa lohkoja.
-- Skripti, joka tarvitsee tyydytystä, jotta varoja voidaan siirtää sivuketjuun ja sieltä pois.
+- Kynnysarvo "n of m", joka on saavutettava, ja kelvolliset [julkiset avaimet](https://planb.academy/resources/glossary/public-key), jotka voivat allekirjoittaa lohkoja.
+- [Skripti](https://planb.academy/resources/glossary/script), joka tarvitsee tyydytystä, jotta varoja voidaan siirtää sivuketjuun ja sieltä pois.
 - Otetaanko yhteys Bitcoin-solmuun sivuketjuna vai ei.
 
 Monet näistä ovat osa verkon konsensussääntöjä, joten on tärkeää, että niitä sovelletaan kaikkiin solmuihin käynnistyksen yhteydessä. Joitakin niistä voidaan muuttaa ketjun alustamisen jälkeen, mutta jotkin niistä on korjattava sen jälkeen, kun niitä on käytetty ketjun alustamiseen.
@@ -301,7 +301,7 @@ Se palauttaa raa'at tapahtuman tiedot. Jos tarkastelet vout-osiota, näet, että
 
 Kahdessa ensimmäisessä vout-osiossa näkyvät arvosummien "sokeat vaihteluvälit" ja maksusitoumustiedot, jotka toimivat todisteena toteutuneen omaisuuden todellisesta määrästä ja tyypistä.
 
-Vaikka e2:n yksityinen avain tuotaisiin e1:n lompakkoon, e1 ei silti pystyisi näkemään siirrettyjen varojen määriä ja tyyppejä, koska se ei edelleenkään tiedä e2:n käyttämää sokeuttavaa avainta. Todistamme tämän tuomalla e2:n lompakon käyttämän yksityisen avaimen e1:n lompakkoon. Ensin meidän on vietävä avain e2:sta
+Vaikka e2:n [yksityinen avain](https://planb.academy/resources/glossary/private-key) tuotaisiin e1:n lompakkoon, e1 ei silti pystyisi näkemään siirrettyjen varojen määriä ja tyyppejä, koska se ei edelleenkään tiedä e2:n käyttämää sokeuttavaa avainta. Todistamme tämän tuomalla e2:n lompakon käyttämän yksityisen avaimen e1:n lompakkoon. Ensin meidän on vietävä avain e2:sta
 
 ```
 e2-cli dumpprivkey <address>
@@ -361,7 +361,7 @@ Liikkeeseen laskettu omaisuuserä hyötyy myös luottamuksellisista transaktiois
 
 Ensimmäiseksi tarvitsemme pääsyn kahteen Elements-solmuun, joita kutsumme nimillä e1 ja e2. Solmujen lohkoketjut on nollattu ja oletusvarallisuus jaettu niiden kesken.
 
-Nämä kaksi solmua ovat samassa paikallisverkossa ja yhteydessä toisiinsa, joten ne jakavat samat transaktiot transaktiomempoolissaan ja identtiset lohkoketjut. Vaikka ne toimivat samassa koneessa, on syytä huomata, että ne eivät jaa samoja varsinaisia lohkoketjutiedostoja. Kukin solmu hallinnoi omaa paikallista kopiotaan lohkoketjusta, joka sisältää saman transaktiohistorian, koska ne ovat konsensuksessa ja noudattavat samoja protokollasääntöjä keskenään.
+Nämä kaksi solmua ovat samassa paikallisverkossa ja yhteydessä toisiinsa, joten ne jakavat samat transaktiot [transaktiomempoolissaan](https://planb.academy/resources/glossary/mempool) ja identtiset lohkoketjut. Vaikka ne toimivat samassa koneessa, on syytä huomata, että ne eivät jaa samoja varsinaisia lohkoketjutiedostoja. Kukin solmu hallinnoi omaa paikallista kopiotaan lohkoketjusta, joka sisältää saman transaktiohistorian, koska ne ovat konsensuksessa ja noudattavat samoja protokollasääntöjä keskenään.
 
 Aloitetaan tarkistamalla kunkin solmun näkemys verkon nykyisistä omaisuuserien liikkeeseenlaskuista.
 
@@ -892,7 +892,7 @@ e1-cli importprivkey <priv-key-1>
 e2-cli importprivkey <priv-key-1>
 ```
 
-Meidän on nyt kypsytettävä joitakin esteitä molemmissa ketjuissa. Lohkojen kypsyminen on sidontaprosessin vaatimus, sillä se suojaa lohkojen uudelleenjärjestelyiltä pääketjussa, jotka johtavat sidottujen varojen tarjonnan inflaatioon sivuketjussa.
+Meidän on nyt kypsytettävä joitakin esteitä molemmissa ketjuissa. Lohkojen kypsyminen on sidontaprosessin vaatimus, sillä se suojaa lohkojen uudelleenjärjestelyiltä pääketjussa, jotka johtavat sidottujen varojen tarjonnan [inflaatioon](https://planb.academy/resources/glossary/inflation) sivuketjussa.
 
 Jotta tämä jakso keskittyisi federoituun pegiin, luomme lohkoja ilman edellisessä jaksossa tarkasteltua lohkojen allekirjoitusmallia ja palaamme käyttämään komentoa 'generate' uusien lohkojen luomiseen.
 
@@ -1016,7 +1016,7 @@ Tässä jaksossa olemme nähneet, miten:
 
 ### FederatedPegScript
 
-Jotta Elements voisi toimia sivuketjuna, sen lohkoketjun genesis-lohko on luotava siten, että `fedpegscript` on paikallaan. Tämä tehdään antamalla `fedpegscript`-parametri solmun käynnistyksen yhteydessä. Skripti on sitten osa Elements-lohkoketjun konsensussääntöjä ja mahdollistaa peg-in- ja peg-out-pyyntöjen validoinnin ja toteuttamisen.
+Jotta Elements voisi toimia sivuketjuna, sen lohkoketjun [genesis-lohko](https://planb.academy/resources/glossary/genesis-block) on luotava siten, että `fedpegscript` on paikallaan. Tämä tehdään antamalla `fedpegscript`-parametri solmun käynnistyksen yhteydessä. Skripti on sitten osa Elements-lohkoketjun konsensussääntöjä ja mahdollistaa peg-in- ja peg-out-pyyntöjen validoinnin ja toteuttamisen.
 
 `fedpegscript` koostuu julkisista avaimista, joita hallitsevat ne, joilla on oikeus suorittaa peg-toimintoja. Seuraavassa on esimerkki 2:sta 2:een monialkakirjoitetun fedpeg-skriptin muodosta:
 

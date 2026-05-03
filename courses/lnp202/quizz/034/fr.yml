@@ -6,4 +6,4 @@ wrong_answers:
   - Nombre de messages dans le graphe
 explanation: |
   Un nœud bien positionné dans le graphe Lightning facilite le routage vers de nombreuses destinations.
-reviewed: false
+reviewed: true 

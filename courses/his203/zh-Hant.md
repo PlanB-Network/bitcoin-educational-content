@@ -191,7 +191,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 
 
 
-在 Bitcoin 的歷史中，加密貨幣與權威的關係問題出現得相當快。2010 年 12 月，在 PC World 發表一篇鼓勵維基解密使用 Bitcoin 的文章後，Satoshi Nakamoto 退出了公眾的視線。似乎是為了印證他的直覺，這篇文章引起了 Bitcoin 的大量關注，其價格在短短幾個月內從 0.20 美元飆升至 32 美元。Satoshi 繼續與他最親密的合作夥伴私下溝通，最終在 2011 年春天消失。相當具有象徵意義的是，接手該專案的開發人員 Gavin Andresen 發來的最後一則訊息，告知 Bitcoin 的創造者，In-Q-Tel（一個由 CIA 管理的投資基金）已經與他聯繫。潘多拉的盒子真的打開了。
+在 Bitcoin 的歷史中，[加密貨幣](https://planb.academy/resources/glossary/cryptocurrency)與權威的關係問題出現得相當快。2010 年 12 月，在 PC World 發表一篇鼓勵維基解密使用 Bitcoin 的文章後，Satoshi Nakamoto 退出了公眾的視線。似乎是為了印證他的直覺，這篇文章引起了 Bitcoin 的大量關注，其價格在短短幾個月內從 0.20 美元飆升至 32 美元。Satoshi 繼續與他最親密的合作夥伴私下溝通，最終在 2011 年春天消失。相當具有象徵意義的是，接手該專案的開發人員 Gavin Andresen 發來的最後一則訊息，告知 Bitcoin 的創造者，In-Q-Tel（一個由 CIA 管理的投資基金）已經與他聯繫。潘多拉的盒子真的打開了。
 
 
 
@@ -387,7 +387,7 @@ Bitcoin 論壇從一開始就知道絲綢之路的存在。然而，一開始它
 
 
 
-尤其是當時參與軟體開發的程式設計師 Jeff Garzik，對於這種不受歡迎的聯繫看法很淡。文章發表後，他親自[聯絡](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Adrien Chen 的電子郵件，解釋 Bitcoin 並不如表面上看來那麼匿名，所有交易都會永久記錄在區塊鏈上。他在電子郵件的結尾寫了這樣的評價
+尤其是當時參與軟體開發的程式設計師 Jeff Garzik，對於這種不受歡迎的聯繫看法很淡。文章發表後，他親自[聯絡](https://www.theatlantic.com/technology/archive/2011/06/libertarian-dream-a-site-where-you-buy-drugs-with-digital-dollars/239776/)Adrien Chen 的電子郵件，解釋 Bitcoin 並不如表面上看來那麼匿名，所有交易都會永久記錄在[區塊鏈](https://planb.academy/resources/glossary/blockchain)上。他在電子郵件的結尾寫了這樣的評價
 
 
 > 「嘗試用比特幣進行重大非法交易」 「鑒於執法部門在現場部署的現有統計分析技術」 「是非常愚蠢的」
@@ -932,7 +932,7 @@ Ira Miller 藉由 Bitcoin 尋求「建立替代系統，與腐敗不堪的現狀
 
 
 
-兩個人相處得非常融洽，他們的技術也相得益彰。八月時，Erik Voorhees 想找一位程式設計師來開發他的一個點子，而 Ira 接受了。這就是 FeedZeBirds（字面意思是「餵飼鳥兒」），一個廣告平台，讓使用者可以透過購買轉貼來提升 Twitter 上的內容，他們在 11 月 23 日 [推出](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)。這是一個值得商榷的用途（Twitter 當然不鼓勵這種行為），利用了 Bitcoin 的抵制審查和沒有交易費用的優勢。11 月 28 日，這兩個合作夥伴 [出現](https://www.youtube.com/watch?v=VuLAhZsFc1A) 在 *Bitcoin Show* 上宣傳他們的產品。隨後，他們還開發了 Paysius 付款處理器和 Coinapult 電子郵件匯款服務。
+兩個人相處得非常融洽，他們的技術也相得益彰。八月時，Erik Voorhees 想找一位程式設計師來開發他的一個點子，而 Ira 接受了。這就是 FeedZeBirds（字面意思是「餵飼鳥兒」），一個廣告平台，讓使用者可以透過購買轉貼來提升 Twitter 上的內容，他們在 11 月 23 日 [推出](https://bitcointalk.org/index.php?topic=52638.msg628165#msg628165)。這是一個值得商榷的用途（Twitter 當然不鼓勵這種行為），利用了 Bitcoin 的抵制審查和沒有[交易費用](https://planb.academy/resources/glossary/transaction-fees)的優勢。11 月 28 日，這兩個合作夥伴 [出現](https://www.youtube.com/watch?v=VuLAhZsFc1A) 在 *Bitcoin Show* 上宣傳他們的產品。隨後，他們還開發了 Paysius 付款處理器和 Coinapult 電子郵件匯款服務。
 
 
 
@@ -1234,7 +1234,7 @@ Bitcoinica 於 2011 年 9 月 8 日 [發佈](https://bitcointalk.org/index.php?t
 
 
 
-參與這項運動的其中一人是 James McCarthy，他在 Bitcoin 論壇上使用 Nefario 這個假名，意指動畫片 *Despicable Me* 中的同名角色。Nefario 是一個住在中國的愛爾蘭人，在一所大學擔任英文教授。他對奧地利學派和朋克思想很感興趣，[宣布](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) 自己是「一個朋克」。他在 2010 年 [發現](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) Bitcoin 的存在，並開採了一千多顆。之後，他參與了數個計畫，包括 Bitcoin Weekly 線上雜誌計畫。
+參與這項運動的其中一人是 James McCarthy，他在 Bitcoin 論壇上使用 Nefario 這個假名，意指動畫片 *Despicable Me* 中的同名角色。Nefario 是一個住在中國的愛爾蘭人，在一所大學擔任英文教授。他對[奧地利學派](https://planb.academy/resources/glossary/austrian-school)和朋克思想很感興趣，[宣布](https://web.archive.org/web/20110607050421/http://bitcoinweekly.com/articles/interview-with-nefario-founder-of-bitcoin-global) 自己是「一個朋克」。他在 2010 年 [發現](https://bitcointalk.org/index.php?topic=2502.msg33800#msg33800) Bitcoin 的存在，並開採了一千多顆。之後，他參與了數個計畫，包括 Bitcoin Weekly 線上雜誌計畫。
 
 
 
@@ -1387,7 +1387,7 @@ Paymium SAS 是由 Gonzague Grandval、Pierre Noizat（又名論壇上的 Boussa
 
 
 
-這也是重寫 Bitcoin 協定的好時機。當時的主要軟體簡稱為「Bitcoin」，它是一個完整的實作，因為它需要維護整個區塊鏈，並轉送新的交易和區塊。但它是唯一存在的實作，因此整個網路只能依賴它來運作。因此，人們希望開發 Bitcoin 的替代實作。
+這也是重寫 Bitcoin 協定的好時機。當時的主要軟體簡稱為「Bitcoin」，它是一個完整的實作，因為它需要維護整個[區塊](https://planb.academy/resources/glossary/block)鏈，並轉送新的交易和區塊。但它是唯一存在的實作，因此整個網路只能依賴它來運作。因此，人們希望開發 Bitcoin 的替代實作。
 
 
 
@@ -1400,7 +1400,7 @@ Satoshi Nakamoto 基本上反對重寫協定，以免影響 mining 的運作。�
 
 
 
-Mike Hearn 的軟體實作是 BitCoinJ。這是白皮書中描述的簡化支付驗證 (SPV) 的實現，主要與瘦客戶機互動，特別是使用 Android 作業系統的手機上的瘦客戶機互動。Mike [從](https://plan99.net/~mike/satoshi-emails/thread3.html) 2010 年底開始開發這個專案，並於 2011 年 3 月 7 日 [發表](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) 第一個版本。由於他在 Google 擔任工程師，因此程式碼必須歸屬於該跨國公司，但授權 (Apache 2) 是開放的。
+Mike Hearn 的軟體實作是 BitCoinJ。這是[白皮書](https://planb.academy/resources/glossary/white-paper)中描述的簡化支付驗證 (SPV) 的實現，主要與瘦客戶機互動，特別是使用 Android 作業系統的手機上的瘦客戶機互動。Mike [從](https://plan99.net/~mike/satoshi-emails/thread3.html) 2010 年底開始開發這個專案，並於 2011 年 3 月 7 日 [發表](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438) 第一個版本。由於他在 Google 擔任工程師，因此程式碼必須歸屬於該跨國公司，但授權 (Apache 2) 是開放的。
 
 
 
@@ -1428,7 +1428,7 @@ Bitcoin 協定的重寫並未就此停止。2011 年 7 月，在 Satoshi 離開�
 
 
 
-第一個構思是使用節點作為遠端伺服器，使用者對其完全信任。2011 年 2 月，Amir Taaki [推出](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) 了一個軟體用戶端，可透過連線到現有的 Spesmilo 節點，在本機管理 wallet。用戶端最初在 Linux 上執行，但很快就移植到 Windows 上。這個名稱是參考 spesmilo，瑞士數學家 René de Saussure (語言學家 Ferdinand 的兄弟) 在 1907 年提出的古代國際貨幣單位，作為世界語計畫的一部分。
+第一個構思是使用[節點](https://planb.academy/resources/glossary/node)作為遠端伺服器，使用者對其完全信任。2011 年 2 月，Amir Taaki [推出](https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) 了一個軟體用戶端，可透過連線到現有的 Spesmilo 節點，在本機管理 wallet。用戶端最初在 Linux 上執行，但很快就移植到 Windows 上。這個名稱是參考 spesmilo，瑞士數學家 René de Saussure (語言學家 Ferdinand 的兄弟) 在 1907 年提出的古代國際貨幣單位，作為世界語計畫的一部分。
 
 
 
@@ -1494,11 +1494,11 @@ Gregory Maxwell 對於如何改善 Bitcoin 的使用有許多想法，而金鑰�
 
 > "Bitcoin真的應該提供並預設使用確定的wallet。   考慮到大多數人使用比特幣的方式，目前generated之前的wallet的額外安全性是相當小的，而且由於備份不足和保持單個wallet在線的壓力增加而造成的傷害責任是巨大的。
 
-預期有兩種衍生方式。一種（類型 1）很直接，直接從 seed 產生私密金鑰。另一種（類型 2）較為複雜，但允許從 seed 獲得的主公鑰衍生地址，而無需存取 seed 本身。這樣，付款處理軟體就可以為每筆交易取得 generate 位址，而無須暴露私密金鑰。
+預期有兩種衍生方式。一種（類型 1）很直接，直接從 seed 產生私密金鑰。另一種（類型 2）較為複雜，但允許從 seed 獲得的主[公鑰](https://planb.academy/resources/glossary/public-key)衍生地址，而無需存取 seed 本身。這樣，付款處理軟體就可以為每筆交易取得 generate 位址，而無須暴露私密金鑰。
 
 
 
-之後，在 2012 年 2 月，BIP 32 的 [出版](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) 進行了標準化。它描述了 *Hierarchical Deterministic Wallets*（HD Wallets）的一般結構，在此結構中，推導法被有條理地用於推導 seed 金鑰和位址。多年來，大多數 wallets 已逐漸採用此結構。
+之後，在 2012 年 2 月，[BIP](https://planb.academy/resources/glossary/bip) 32 的 [出版](https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) 進行了標準化。它描述了 *Hierarchical Deterministic Wallets*（HD Wallets）的一般結構，在此結構中，推導法被有條理地用於推導 seed 金鑰和位址。多年來，大多數 wallets 已逐漸採用此結構。
 
 
 
@@ -1700,7 +1700,7 @@ Bitbills 取得了一些成功，但 Doug Feigelson 卻很難滿足需求。2012
 
 
 
-Mike Caldwell 是一位 33 歲的美國開發人員，住在猶他州鹽湖城的郊區，經營一家名為 [Swipeclock](https://www.linkedin.com/company/swipeclock/) 的商業自動化公司。他的假名 Casascius 是 CASAS 的拉丁化形式，是俗語 *call a spade a spade* 的縮寫。他是一位理性主義者，對密碼學非常著迷，並被 Bitcoin 的技術層面所吸引。他曾在 mining 嘗試過一陣子。
+Mike Caldwell 是一位 33 歲的美國開發人員，住在猶他州鹽湖城的郊區，經營一家名為 [Swipeclock](https://www.linkedin.com/company/swipeclock/) 的商業自動化公司。他的假名 Casascius 是 CASAS 的拉丁化形式，是俗語 *call a spade a spade* 的縮寫。他是一位理性主義者，對[密碼學](https://planb.academy/resources/glossary/cryptography)非常著迷，並被 Bitcoin 的技術層面所吸引。他曾在 mining 嘗試過一陣子。
 
 
 
@@ -1757,7 +1757,7 @@ Casascius比特幣在發行的兩年內將取得巨大成功。根據 [Uberbills
 
 
 
-第一個是 BitLaundry。這項服務由 Peter Vessenes 於 2010 年 9 月 [推出](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)，他是一位擁有密碼學學位的美國企業家，在 slashdot 時發現 Bitcoin 的存在。Blender [提供](https://maltemoeser.de/paper/money-laundering.pdf#page=5) 使用者一個單次使用的地址，將要匿名化的資金傳送至該地址。然後，這些比特幣會以多個硬幣 (UTXO) 的形式傳回，在一個包含其他使用者的比特幣的多重輸入交易中，使混合變得有效。收取的費用約為所涉金額的 2.5%。2011 年 5 月，Peter Vessenes 感覺到這項活動可能會引起法律上的複雜問題，於是將這項服務 [轉讓](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) 給 Mike Gogulski，Mike Gogulski 是一位以無國籍著稱的活動人士，他放棄了美國公民身份，卻沒有擁有其他公民身份。
+第一個是 BitLaundry。這項服務由 Peter Vessenes 於 2010 年 9 月 [推出](https://bitcointalk.org/index.php?topic=963.msg11823#msg11823)，他是一位擁有密碼學學位的美國企業家，在 slashdot 時發現 Bitcoin 的存在。Blender [提供](https://maltemoeser.de/paper/money-laundering.pdf#page=5) 使用者一個單次使用的地址，將要匿名化的資金傳送至該地址。然後，這些比特幣會以多個硬幣 ([UTXO](https://planb.academy/resources/glossary/utxo)) 的形式傳回，在一個包含其他使用者的比特幣的多重輸入交易中，使混合變得有效。收取的費用約為所涉金額的 2.5%。2011 年 5 月，Peter Vessenes 感覺到這項活動可能會引起法律上的複雜問題，於是將這項服務 [轉讓](https://bitcointalk.org/index.php?topic=963.msg122955#msg122955) 給 Mike Gogulski，Mike Gogulski 是一位以無國籍著稱的活動人士，他放棄了美國公民身份，卻沒有擁有其他公民身份。
 
 
 
@@ -1777,7 +1777,7 @@ Casascius比特幣在發行的兩年內將取得巨大成功。根據 [Uberbills
 
 
 
-集中式混合器的激增催化了圍繞分散式混合硬幣的思考，這種思考始於 2011 年夏天由 Hashcoin 提出的一項提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)。這導致了 2013 年 Gregory Maxwell 對 CoinJoin 的 [正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)。但這完全是另一個故事...
+集中式混合器的激增催化了圍繞分散式混合硬幣的思考，這種思考始於 2011 年夏天由 Hashcoin 提出的一項提案[proposal](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)。這導致了 2013 年 Gregory Maxwell 對 [CoinJoin](https://planb.academy/resources/glossary/coinjoin) 的 [正式化](https://bitcointalk.org/index.php?topic=279249.msg2983902#msg2983902)。但這完全是另一個故事...
 
 
 
@@ -1808,7 +1808,7 @@ Casascius比特幣在發行的兩年內將取得巨大成功。根據 [Uberbills
 
 
 
-2010 年秋天，第一批湧入的礦工導致 GPU（圖形處理單元）mining 的廣泛使用，其利潤遠遠高於 CPU（中央處理器）mining。然而，這項技術進步增加了網路的難度，以至於小型礦工再也無法指望在合理的時間範圍內找到區塊。這導致了礦工團體的建立，例如 BitcoinCZ Mining，即 Slush Pool。這股勢頭並未就此停止：隨著 2011 年價格上漲，礦工繼續湧入，mining 池也迅速正常化。
+2010 年秋天，第一批湧入的礦工導致 GPU（圖形處理單元）mining 的廣泛使用，其利潤遠遠高於 CPU（中央處理器）mining。然而，這項技術進步增加了網路的[難度](https://planb.academy/resources/glossary/difficulty)，以至於小型礦工再也無法指望在合理的時間範圍內找到區塊。這導致了礦工團體的建立，例如 BitcoinCZ Mining，即 Slush Pool。這股勢頭並未就此停止：隨著 2011 年價格上漲，礦工繼續湧入，mining 池也迅速正常化。
 
 
 
@@ -1996,7 +1996,7 @@ Deepbit 的主導地位在夏季達到頂峰，8 月 5 日測得的計算力佔�
 
 
 
-該模型 [依賴](https://im.forre.st/pb/85341005.txt) 於「共享鏈，由點對點連接的參與礦工維護，類似於 Bitcoin 的區塊鏈。每份分享都包含前一份分享的指紋，將分享連結在一起，確保整體的完整性。難度（初始比主網路的難度低 600 倍）會定期調整，以保證平均 5 秒的間隔。報酬方式是根據最後 N 份（PPLNS）付款，每次發現一個區塊時，直接在報酬交易中進行。
+該模型 [依賴](https://im.forre.st/pb/85341005.txt) 於「共享鏈，由[點對點](https://planb.academy/resources/glossary/peertopeer-p2p)連接的參與礦工維護，類似於 Bitcoin 的區塊鏈。每份分享都包含前一份分享的指紋，將分享連結在一起，確保整體的完整性。難度（初始比主網路的難度低 600 倍）會定期調整，以保證平均 5 秒的間隔。報酬方式是根據最後 N 份（PPLNS）付款，每次發現一個區塊時，直接在報酬交易中進行。
 
 
 
@@ -2090,7 +2090,7 @@ Satoshi Nakamoto 離開後，軟體開發工作由社群接手，並在 Gavin An
 
 
 
-在本章中，我們將回顧 Bitcoin 技術史上這段獨特的插曲。首先，我們會分析軟體的發展和多重簽章的概念。接著，我們會從 OP\_EVAL 和 P2SH 開始，看看實作這項技術的各種提案。最後，我們會談談 Pay to Script Hash 是如何啟用的，儘管遇到了許多困難。
+在本章中，我們將回顧 Bitcoin 技術史上這段獨特的插曲。首先，我們會分析軟體的發展和多重簽章的概念。接著，我們會從 OP\_EVAL 和 P2SH 開始，看看實作這項技術的各種提案。最後，我們會談談 Pay to [Script](https://planb.academy/resources/glossary/script) Hash 是如何啟用的，儘管遇到了許多困難。
 
 
 
@@ -3563,3 +3563,21 @@ Satoshi Nakamoto 在 2010 年 12 月所擔心的大黃蜂襲擊已經來臨，�
 ---
 
 2011 年春季至 2012 年夏季期間 Bitcoin 的建構課程到此為止。下一個加密貨幣歷史時期，也就是 Bitcoin 不可抗拒的崛起時期，將在下一個課程中涵蓋，上帝保佑。
+# Conclusion
+
+<partId>85b5b21d-2754-41ad-9e25-21350488cfd3</partId>
+
+## Reviews & Ratings
+
+<chapterId>52d64403-1669-4852-ae4f-17ecfe1dc315</chapterId>
+<isCourseReview>true</isCourseReview>
+
+## Final Exam
+
+<chapterId>080fb5af-dfff-4600-95cb-61455831080f</chapterId>
+<isCourseExam>true</isCourseExam>
+
+## Conclusion
+
+<chapterId>cd50980c-0c9e-43e5-97ec-4db79388335b</chapterId>
+<isCourseConclusion>true</isCourseConclusion>

@@ -6,4 +6,4 @@ wrong_answers:
   - Hanya dua nilai yang dapat terjadi dengan probabilitas yang sama
 explanation: |
   Variabel seragam adalah variabel acak di mana semua nilai yang mungkin memiliki probabilitas yang sama untuk terjadi.
-reviewed: false
+reviewed: true

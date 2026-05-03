@@ -6,3 +6,4 @@ wrong_answers:
   - Ini memungkinkan untuk perhitungan operasi dalam biner saja.
 explanation: |
   Teori bilangan sangat penting dalam kriptografi kunci publik karena membantu menyusun algoritma berdasarkan sifat-sifat bilangan bulat, memfasilitasi operasi enkripsi dan dekripsi.
+reviewed: true

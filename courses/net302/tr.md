@@ -90,8 +90,6 @@ Bilgisayar ağları dünyasına dalmaya hazır mısınız? Hadi başlayalım!
 **NOT**: Açıklamalar bir GNU/Linux CentOS 7 sistemine dayanmaktadır. Ancak, bir Debian ile bir CentOS sistemi karşılaştırıldığında ağ yapılandırmaları büyük ölçüde aynıdır. Bu yüzden herhangi bir ayrım yapmayacağız. Bir ayrım olduğunda, bunun önüne belirli bir logo ekleyeceğiz.
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurunuz.
-
 
 
 # TCP/IP protokolleri

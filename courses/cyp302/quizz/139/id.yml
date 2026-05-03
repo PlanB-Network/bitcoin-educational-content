@@ -6,4 +6,4 @@ wrong_answers:
   - Ia mendekripsi pesan menggunakan kunci publik.
 explanation: |
   Fungsi hash menghasilkan hash dengan panjang tetap, tidak peduli seberapa besar ukuran inputnya.
-reviewed: false
+reviewed: true

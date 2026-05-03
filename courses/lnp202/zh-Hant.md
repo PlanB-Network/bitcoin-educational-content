@@ -92,7 +92,7 @@ https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-
 
 
 
-在啟動您自己的節點之前，本章會簡單回顧 Lightning Network 背後的基本理論。瞭解相關的機制確實很重要，因為這能讓您識別風險，並採取良好的作法來限制風險。不過，我不會在此詳述，因為這並非本課程的主要目的。如果您想深入瞭解這個主題，我強烈建議您參考 Fanis Michalakis 的 LNP 201 課程，它是這個領域的參考書：
+在啟動您自己的節點之前，本章會簡單回顧 [Lightning Network](https://planb.academy/resources/glossary/lightning-network) 背後的基本理論。瞭解相關的機制確實很重要，因為這能讓您識別風險，並採取良好的作法來限制風險。不過，我不會在此詳述，因為這並非本課程的主要目的。如果您想深入瞭解這個主題，我強烈建議您參考 Fanis Michalakis 的 LNP 201 課程，它是這個領域的參考書：
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-讓我們回到基本：在定義節點之前，我們需要瞭解 Lightning Network 是什麼。它是建立在 Bitcoin 之上的頂層協定，旨在實現 BTC 的離鏈交易，交易速度快（近乎瞬間完成）且成本低廉。「離鏈 」是指在 Lightning 上進行的交易不會出現在主 Bitcoin 區塊鏈上。Lightning 也是對 Bitcoin 使用量不斷增加以及onchain 擁擠問題的部分回應，onchain 擁擠問題引起了人們對系統可擴展性的擔憂。
+讓我們回到基本：在定義節點之前，我們需要瞭解 Lightning Network 是什麼。它是建立在 Bitcoin 之上的頂層協定，旨在實現 BTC 的[離鏈](https://planb.academy/resources/glossary/offchain)交易，交易速度快（近乎瞬間完成）且成本低廉。「離鏈 」是指在 Lightning 上進行的交易不會出現在主 Bitcoin [區塊鏈](https://planb.academy/resources/glossary/blockchain)上。Lightning 也是對 Bitcoin 使用量不斷增加以及[onchain](https://planb.academy/resources/glossary/onchain) 擁擠問題的部分回應，onchain 擁擠問題引起了人們對系統[可擴展性](https://planb.academy/resources/glossary/scalability)的擔憂。
 
 
 
-為了運作，「閃電」依賴於參與者之間開放支付通道，在這些通道中，交易幾乎可以立即進行，通常只需支付很少的費用，而無需在 Bitcoin 區塊鏈上逐一註冊。這些通道可以保持開放很長時間，只有在打開和關閉時才需要進行鏈上交易。
+為了運作，「閃電」依賴於參與者之間開放[支付通道](https://planb.academy/resources/glossary/payment-channel)，在這些通道中，交易幾乎可以立即進行，通常只需支付很少的費用，而無需在 Bitcoin 區塊鏈上逐一註冊。這些通道可以保持開放很長時間，只有在打開和關閉時才需要進行鏈上交易。
 
 
 
-Lightning 節點是 Lightning 網絡的參與者，與其他節點開通渠道並進行支付。具體來說，Lightning 節點是在電腦上運行並實施 Lightning Network 協定的軟件。例如 LND、Core Lightning 或 Eclair。該軟件的主要作用是：
+[Lightning 節點](https://planb.academy/resources/glossary/lightning-node)是 Lightning 網絡的參與者，與其他節點開通渠道並進行支付。具體來說，Lightning 節點是在電腦上運行並實施 Lightning Network 協定的軟件。例如 LND、Core Lightning 或 Eclair。該軟件的主要作用是：
 
 
 
 
-- 連接至 Bitcoin 節點，從主區塊鏈中獲取資訊；
+- 連接至 [Bitcoin 節點](https://planb.academy/resources/glossary/full-node)，從主區塊鏈中獲取資訊；
 - 與其他節點建立和管理雙向付款通道；
 - 與整個 Lightning 網路交換訊息。
 
@@ -129,7 +129,7 @@ Lightning 節點是 Lightning 網絡的參與者，與其他節點開通渠道�
 
 
 
-在 Bitcoin（onchain）上，「*wallet*」是指管理您的私人金鑰、根據您的 UTXO 計算您的餘額以及建立您的交易的軟體。此 wallet 可能基於您自己的 Bitcoin 節點，也可能基於其他人的節點，但今天，節點的角色和鏈上 wallet 的角色明顯不同。
+在 Bitcoin（onchain）上，「*[wallet](https://planb.academy/resources/glossary/wallet)*」是指管理您的[私人金鑰](https://planb.academy/resources/glossary/private-key)、根據您的 [UTXO](https://planb.academy/resources/glossary/utxo) 計算您的餘額以及建立您的交易的軟體。此 wallet 可能基於您自己的 Bitcoin 節點，也可能基於其他人的節點，但今天，節點的角色和鏈上 wallet 的角色明顯不同。
 
 
 
@@ -141,7 +141,7 @@ Lightning 節點是 Lightning 網絡的參與者，與其他節點開通渠道�
 
 
 
-- 使用託管服務：您使用的應用程式在 Lightning 上顯示 sats 的餘額，但在後台，資金在提供者的節點上（例如 Wallet of Satoshi）。您既沒有鑰匙，也沒有通道的控制權。您的餘額只是公司資料庫中的一個會計項目。這與將您的 bitcoins 放在交換平台上有相似之處，並帶有所有相關的風險。在這種情況下，您的 "*Lightning wallet*"只是一個由運營商管理的帳戶，而運營商則運行一個真正的 Lightning 節點。
+- 使用託管服務：您使用的應用程式在 Lightning 上顯示 [sats](https://planb.academy/resources/glossary/satoshi-sat) 的餘額，但在後台，資金在提供者的節點上（例如 Wallet of Satoshi）。您既沒有鑰匙，也沒有通道的控制權。您的餘額只是公司資料庫中的一個會計項目。這與將您的 bitcoins 放在交換平台上有相似之處，並帶有所有相關的風險。在這種情況下，您的 "*Lightning wallet*"只是一個由運營商管理的帳戶，而運營商則運行一個真正的 Lightning 節點。
 
 
 
@@ -161,7 +161,7 @@ Lightning 節點是 Lightning 網絡的參與者，與其他節點開通渠道�
 
 
 
-Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即創建），隨著閃電交易的發生而更新，最後關閉。從 onchain 的角度來看，通道不過是一個 2/2 多重簽章輸出。
+Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即創建），隨著閃電交易的發生而更新，最後關閉。從 onchain 的角度來看，通道不過是一個 2/2 [多重簽章](https://planb.academy/resources/glossary/multisig)[輸出](https://planb.academy/resources/glossary/output)。
 
 
 
@@ -169,7 +169,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-從 Lightning 的角度來看，這是一個由兩個參與者瓜分流動資金的付款管道。
+從 Lightning 的角度來看，這是一個由兩個參與者瓜分[流動資金](https://planb.academy/resources/glossary/liquidity-lightning)的付款管道。
 
 
 
@@ -183,7 +183,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-兩個節點決定打開一個通道。其中一個在稱為 *funding transaction* 的 onchain 交易中投入 bitcoins。此交易根據 2 對 2 多重簽名腳本建立輸出，這表示在 Bitcoin 上花費這些資金需要通道中兩個節點的簽名。在發出此交易之前，提供資金的一方會要求另一方簽署*提款交易*，此交易並非在鏈上發出，但可讓其在發生問題時收回資金。
+兩個節點決定打開一個通道。其中一個在稱為 *funding transaction* 的 onchain 交易中投入 bitcoins。此交易根據 2 對 2 多重[簽名](https://planb.academy/resources/glossary/digital-signature)[腳本](https://planb.academy/resources/glossary/script)建立輸出，這表示在 Bitcoin 上花費這些資金需要通道中兩個節點的簽名。在發出此交易之前，提供資金的一方會要求另一方簽署*提款交易*，此交易並非在鏈上發出，但可讓其在發生問題時收回資金。
 
 
 
@@ -197,7 +197,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-通道的狀態（即 A 和 B 之間 sats 的分配）由 *commitment transaction* 表示，兩個節點都知道，但不會立即在區塊鏈上廣播。此交易描述了如何根據 Lightning 上的支付在區塊鏈上重新分配通道資金。
+通道的狀態（即 A 和 B 之間 sats 的分配）由 *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)* 表示，兩個節點都知道，但不會立即在區塊鏈上廣播。此交易描述了如何根據 Lightning 上的支付在區塊鏈上重新分配通道資金。
 
 
 
@@ -237,7 +237,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 - Liquidity*：通道一側可用的 sats 數量；
-- 容量*：它是鎖定在 2/2 multisig 輸出中的總量，也就是通道兩端的流動性總和。
+- [容量](https://planb.academy/resources/glossary/lightning-channel-capacity)*：它是鎖定在 2/2 multisig 輸出中的總量，也就是通道兩端的流動性總和。
 
 
 
@@ -249,7 +249,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-每個節點都透過八卦通訊協定知道這個網路的地圖：哪些頻道存在、哪些節點有雙向頻道連接、哪些容量已公佈。若要將款項傳送給沒有直接通道的收款人，您的節點會計算一條包含數跳的路由：您的節點 → 節點 X → 節點 Y → 收款人節點。在每個跳躍點，付款都會經過一個在付款方向必須有足夠流動性的通道。
+每個節點都透過[八卦](https://planb.academy/resources/glossary/gossip)通訊協定知道這個網路的地圖：哪些頻道存在、哪些節點有雙向頻道連接、哪些容量已公佈。若要將款項傳送給沒有直接通道的收款人，您的節點會計算一條包含數跳的路由：您的節點 → 節點 X → 節點 Y → 收款人節點。在每個跳躍點，付款都會經過一個在付款方向必須有足夠流動性的通道。
 
 
 
@@ -265,7 +265,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-為了讓支付能夠在不需要信任的情況下通過中間節點，Lightning 使用稱為 *HTLC*（*Hashed Time-Locked Contracts*）的智能合約。簡單來說，HTLC 使資金轉移以揭露秘密為條件，並加入時間限制，以在交易失敗時保護寄件者。因此，每筆付款都必須出示預先影像 (其雜湊值對應於協定值的秘密)。如果最終收款人提供了這個預先影像，他或她就可以領回資金，這反过来又可以讓每個中介節點收回自己的資金。
+為了讓支付能夠在不需要信任的情況下通過中間節點，Lightning 使用稱為 *[HTLC](https://planb.academy/resources/glossary/htlc)*（*Hashed Time-Locked Contracts*）的[智能合約](https://planb.academy/resources/glossary/smart-contract)。簡單來說，HTLC 使資金轉移以揭露秘密為條件，並加入時間限制，以在交易失敗時保護寄件者。因此，每筆付款都必須出示預先影像 (其[雜湊值](https://planb.academy/resources/glossary/hash-function)對應於協定值的秘密)。如果最終收款人提供了這個預先影像，他或她就可以領回資金，這反过来又可以讓每個中介節點收回自己的資金。
 
 
 
@@ -281,7 +281,7 @@ Lightning 網絡的核心是基於雙向支付通道。通道可以打開（即�
 
 
 
-與 Bitcoin 一樣，Lightning 協定也有多種實作。許多獨立的團隊正在開發自己的版本，由於它們遵循相同的規格（BOLT），因此所有版本都具有互操作性。以下是目前使用的主要實作。
+與 Bitcoin 一樣，Lightning 協定也有多種實作。許多獨立的團隊正在開發自己的版本，由於它們遵循相同的規格（[BOLT](https://planb.academy/resources/glossary/bolt)），因此所有版本都具有互操作性。以下是目前使用的主要實作。
 
 
 
@@ -399,7 +399,7 @@ Bitcoin 的兩個主要價值主張是貨幣主權（不再依賴中央機構發
 
 
 
-第一種解決方案就是不使用Lightning本機，而是使用嵌入原子交換的Bitcoin或Liquid wallet。例如，Aqua 或 Bull Bitcoin Wallet 應用程式使用此方法，讓您無需自行操作 Lightning 節點，即可支付 Lightning 發票，同時保持自我監控。
+第一種解決方案就是不使用Lightning本機，而是使用嵌入[原子交換](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 BULL Wallet 應用程式使用此方法，讓您無需自行操作 Lightning 節點，即可支付 [Lightning 發票](https://planb.academy/resources/glossary/invoice-lightning)，同時保持自我監控。
 
 
 
@@ -411,7 +411,7 @@ Bitcoin 的兩個主要價值主張是貨幣主權（不再依賴中央機構發
 
 
 
-與傳統的 Lightning 託管 wallet 相比，這種方式的主要優勢在於您始終 100% 擁有您的資金。比特幣在您的 onchain 或 Liquid wallet，有您自己的助記短語。即使在交換過程中，您仍然擁有您的資金，因為交換是原子式的。它依賴於加密機制，確保只有兩種可能的結果：一是交換完全成功，二是交換失敗，服務不能佔用您的資金。
+與傳統的 Lightning 託管 wallet 相比，這種方式的主要優勢在於您始終 100% 擁有您的資金。比特幣在您的 onchain 或 Liquid wallet，有您自己的[助記短語](https://planb.academy/resources/glossary/seed)。即使在交換過程中，您仍然擁有您的資金，因為交換是原子式的。它依賴於加密機制，確保只有兩種可能的結果：一是交換完全成功，二是交換失敗，服務不能佔用您的資金。
 
 
 
@@ -423,7 +423,7 @@ Bitcoin 的兩個主要價值主張是貨幣主權（不再依賴中央機構發
 
 
 
-另一方面，這種方法也有其限制。首先，它不是不可替代的：您依賴於交換服務的可用性和善意。如果它不想再處理您的帳戶，或停止運作，您就無法再透過它支付 Lightning 發票。此外，您還要支付不小的費用：您既要支付onchain或Liquid的交易費用，也要支付交換服務的佣金。此外，如果 onchain 費用大幅增加，使用 Lightning 可能會變得非常昂貴。
+另一方面，這種方法也有其限制。首先，它不是不可替代的：您依賴於交換服務的可用性和善意。如果它不想再處理您的帳戶，或停止運作，您就無法再透過它支付 Lightning 發票。此外，您還要支付不小的費用：您既要支付onchain或Liquid的[交易費用](https://planb.academy/resources/glossary/transaction-fees)，也要支付交換服務的佣金。此外，如果 onchain 費用大幅增加，使用 Lightning 可能會變得非常昂貴。
 
 
 
@@ -479,7 +479,7 @@ LN 板載節點的優點有很多：
 
 
 
-我所說的 「傳統 」是指您在自己的 Bitcoin 節點之上自行安裝和配置 Lightning 實現（例如 LND）。您選擇您的對等、開啟您的通道、管理您的入站和出站流動性，並設定您的路由費政策。
+我所說的 「傳統 」是指您在自己的 Bitcoin 節點之上自行安裝和配置 Lightning 實現（例如 LND）。您選擇您的對等、開啟您的通道、管理您的[入站和出站流動性](https://planb.academy/resources/glossary/inbound-capacity)，並設定您的路由費政策。
 
 
 
@@ -616,7 +616,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-在中間，您會發現您的 Lightning wallet。它實際上代表您流出的現金，也就是您在 Lightning 頻道中擁有的比特幣。
+在中間，您會發現您的 Lightning wallet。它實際上代表您[流出的現金](https://planb.academy/resources/glossary/outbound-capacity)，也就是您在 Lightning 頻道中擁有的比特幣。
 
 
 

@@ -92,7 +92,7 @@ Jeśli będziesz postępować zgodnie z tym kursem LNP202 we właściwej kolejno
 
 
 
-Przed uruchomieniem własnego węzła, niniejszy rozdział zawiera krótki przegląd podstawowej teorii stojącej za Lightning Network. Rzeczywiście ważne jest zrozumienie mechanizmów z tym związanych, ponieważ umożliwi to identyfikację zagrożeń i przyjęcie dobrych praktyk w celu ich ograniczenia. Nie będę jednak wchodził tutaj w szczegóły, ponieważ nie jest to głównym celem tego kursu. Jeśli chcesz zagłębić się w ten temat, gorąco polecam zapoznanie się z kursem LNP 201 Fanisa Michalakisa, który jest punktem odniesienia w tej dziedzinie:
+Przed uruchomieniem własnego węzła, niniejszy rozdział zawiera krótki przegląd podstawowej teorii stojącej za [Lightning Network](https://planb.academy/resources/glossary/lightning-network). Rzeczywiście ważne jest zrozumienie mechanizmów z tym związanych, ponieważ umożliwi to identyfikację zagrożeń i przyjęcie dobrych praktyk w celu ich ograniczenia. Nie będę jednak wchodził tutaj w szczegóły, ponieważ nie jest to głównym celem tego kursu. Jeśli chcesz zagłębić się w ten temat, gorąco polecam zapoznanie się z kursem LNP 201 Fanisa Michalakisa, który jest punktem odniesienia w tej dziedzinie:
 
 
 
@@ -102,20 +102,20 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Wróćmy do podstaw: zanim zdefiniujemy, czym jest węzeł, musimy zrozumieć, czym jest Lightning Network. Jest to protokół najwyższej warstwy, zbudowany na Bitcoin, zaprojektowany w celu umożliwienia transakcji offchain BTC, które są szybkie (z niemal natychmiastową finalnością) i ogólnie niedrogie. "Offchain" oznacza, że transakcje przeprowadzane na Lightning nie są przeznaczone do wyświetlania na głównym blockchainie Bitcoin. Lightning jest również częściową odpowiedzią na rosnące wykorzystanie Bitcoin i przeciążenie onchain, które budzi obawy o skalowalność systemu.
+Wróćmy do podstaw: zanim zdefiniujemy, czym jest węzeł, musimy zrozumieć, czym jest Lightning Network. Jest to protokół najwyższej warstwy, zbudowany na Bitcoin, zaprojektowany w celu umożliwienia transakcji [offchain](https://planb.academy/resources/glossary/offchain) BTC, które są szybkie (z niemal natychmiastową finalnością) i ogólnie niedrogie. "Offchain" oznacza, że transakcje przeprowadzane na Lightning nie są przeznaczone do wyświetlania na głównym [blockchainie](https://planb.academy/resources/glossary/blockchain) Bitcoin. Lightning jest również częściową odpowiedzią na rosnące wykorzystanie Bitcoin i przeciążenie [onchain](https://planb.academy/resources/glossary/onchain), które budzi obawy o [skalowalność](https://planb.academy/resources/glossary/scalability) systemu.
 
 
 
-Aby działać, Lightning opiera się na otwieraniu kanałów płatności między uczestnikami, w ramach których transakcje mogą być przeprowadzane niemal natychmiast, często przy minimalnych opłatach, bez konieczności rejestrowania ich jeden po drugim w łańcuchu bloków Bitcoin. Kanały te mogą pozostawać otwarte przez bardzo długi czas, wymagając transakcji onchain tylko wtedy, gdy są otwierane i zamykane.
+Aby działać, Lightning opiera się na otwieraniu [kanałów płatności](https://planb.academy/resources/glossary/payment-channel) między uczestnikami, w ramach których transakcje mogą być przeprowadzane niemal natychmiast, często przy minimalnych opłatach, bez konieczności rejestrowania ich jeden po drugim w łańcuchu bloków Bitcoin. Kanały te mogą pozostawać otwarte przez bardzo długi czas, wymagając transakcji onchain tylko wtedy, gdy są otwierane i zamykane.
 
 
 
-Węzeł Lightning jest uczestnikiem sieci Lightning, otwierającym kanały i dokonującym płatności z innymi węzłami. Mówiąc konkretnie, węzeł Lightning to oprogramowanie działające na komputerze i implementujące protokół Lightning Network. Przykłady obejmują LND, Core Lightning lub Eclair. Główną rolą tego oprogramowania jest:
+[Węzeł Lightning](https://planb.academy/resources/glossary/lightning-node) jest uczestnikiem sieci Lightning, otwierającym kanały i dokonującym płatności z innymi węzłami. Mówiąc konkretnie, węzeł Lightning to oprogramowanie działające na komputerze i implementujące protokół Lightning Network. Przykłady obejmują LND, Core Lightning lub Eclair. Główną rolą tego oprogramowania jest:
 
 
 
 
-- połączyć się z węzłem Bitcoin, aby uzyskać informacje z głównego łańcucha bloków;
+- połączyć się z [węzłem Bitcoin](https://planb.academy/resources/glossary/full-node), aby uzyskać informacje z głównego łańcucha bloków;
 - tworzyć i zarządzać dwukierunkowymi kanałami płatności z innymi węzłami;
 - wymieniać wiadomości z całą siecią Lightning.
 
@@ -129,7 +129,7 @@ Węzeł Lightning jest uczestnikiem sieci Lightning, otwierającym kanały i dok
 
 
 
-Na Bitcoin (onchain), "*wallet*" odnosi się do oprogramowania, które zarządza kluczami prywatnymi, oblicza saldo z UTXO i tworzy transakcje. Ten wallet może być oparty na własnym węźle Bitcoin lub na węźle kogoś innego, ale obecnie rola węzła i rola wallet onchain są wyraźnie różne.
+Na Bitcoin (onchain), "*[wallet](https://planb.academy/resources/glossary/wallet)*" odnosi się do oprogramowania, które zarządza [kluczami prywatnymi](https://planb.academy/resources/glossary/private-key), oblicza saldo z [UTXO](https://planb.academy/resources/glossary/utxo) i tworzy transakcje. Ten wallet może być oparty na własnym węźle Bitcoin lub na węźle kogoś innego, ale obecnie rola węzła i rola wallet onchain są wyraźnie różne.
 
 
 
@@ -141,7 +141,7 @@ Na Lightning trudniej jest ponownie użyć tego rodzaju słownictwa bez wprowadz
 
 
 
-- Aby skorzystać z usługi powierniczej: używasz aplikacji, która pokazuje saldo w sats na Lightning, ale w tle środki znajdują się w węźle dostawcy (np. Wallet of Satoshi). Nie masz ani kluczy, ani kontroli nad kanałami. Twoje saldo jest jedynie wpisem księgowym w bazie danych firmy. Można to porównać do pozostawienia bitcoinów na platformie wymiany, ze wszystkimi związanymi z tym zagrożeniami. W tym przypadku "*Lightning wallet*" jest jedynie dostępem do konta zarządzanego przez operatora, który z kolei obsługuje prawdziwy węzeł Lightning.
+- Aby skorzystać z usługi powierniczej: używasz aplikacji, która pokazuje saldo w [sats](https://planb.academy/resources/glossary/satoshi-sat) na Lightning, ale w tle środki znajdują się w węźle dostawcy (np. Wallet of Satoshi). Nie masz ani kluczy, ani kontroli nad kanałami. Twoje saldo jest jedynie wpisem księgowym w bazie danych firmy. Można to porównać do pozostawienia bitcoinów na platformie wymiany, ze wszystkimi związanymi z tym zagrożeniami. W tym przypadku "*Lightning wallet*" jest jedynie dostępem do konta zarządzanego przez operatora, który z kolei obsługuje prawdziwy węzeł Lightning.
 
 
 
@@ -161,7 +161,7 @@ W tej sekcji krótko przypomnę, jak działa Lightning. Ponownie, jeśli chcesz 
 
 
 
-Sercem sieci Lightning są dwukierunkowe kanały płatności. Kanał można otworzyć (tj. utworzyć), zaktualizować w miarę przeprowadzania transakcji Lightning, a następnie ostatecznie zamknąć. Z punktu widzenia onchain, kanał to nic innego jak wielopodpisowe wyjście 2/2.
+Sercem sieci Lightning są dwukierunkowe kanały płatności. Kanał można otworzyć (tj. utworzyć), zaktualizować w miarę przeprowadzania transakcji Lightning, a następnie ostatecznie zamknąć. Z punktu widzenia onchain, kanał to nic innego jak [wielopodpisowe](https://planb.academy/resources/glossary/multisig) [wyjście](https://planb.academy/resources/glossary/output) 2/2.
 
 
 
@@ -169,7 +169,7 @@ Sercem sieci Lightning są dwukierunkowe kanały płatności. Kanał można otwo
 
 
 
-Z punktu widzenia Lightning jest to kanał płatności z płynnością podzieloną między dwóch uczestników.
+Z punktu widzenia Lightning jest to kanał płatności z [płynnością](https://planb.academy/resources/glossary/liquidity-lightning) podzieloną między dwóch uczestników.
 
 
 
@@ -183,7 +183,7 @@ Z punktu widzenia Lightning jest to kanał płatności z płynnością podzielon
 
 
 
-Dwa węzły decydują się otworzyć kanał. Jeden z nich przekazuje bitcoiny w transakcji onchain o nazwie *funding transaction*. Transakcja ta tworzy wyjście oparte na skrypcie wielopodpisowym 2 na 2, co oznacza, że wydanie tych środków na Bitcoin wymaga podpisu obu węzłów w kanale. Przed wydaniem tej transakcji, strona dostarczająca środki prosi drugą o podpisanie *withdrawal transaction*, która nie jest wydawana onchain, ale która umożliwia jej odzyskanie środków w przypadku wystąpienia problemu.
+Dwa węzły decydują się otworzyć kanał. Jeden z nich przekazuje bitcoiny w transakcji onchain o nazwie *funding transaction*. Transakcja ta tworzy wyjście oparte na [skrypcie](https://planb.academy/resources/glossary/script) wielopodpisowym 2 na 2, co oznacza, że wydanie tych środków na Bitcoin wymaga [podpisu](https://planb.academy/resources/glossary/digital-signature) obu węzłów w kanale. Przed wydaniem tej transakcji, strona dostarczająca środki prosi drugą o podpisanie *withdrawal transaction*, która nie jest wydawana onchain, ale która umożliwia jej odzyskanie środków w przypadku wystąpienia problemu.
 
 
 
@@ -197,7 +197,7 @@ Dwa węzły decydują się otworzyć kanał. Jeden z nich przekazuje bitcoiny w 
 
 
 
-Stan kanału (tj. dystrybucja sats między A i B) jest reprezentowany przez *commitment transaction*, znany obu węzłom, ale nie jest natychmiast transmitowany w łańcuchu bloków. Ta transakcja opisuje sposób redystrybucji funduszy kanału w łańcuchu bloków zgodnie z płatnościami dokonanymi na Lightning.
+Stan kanału (tj. dystrybucja sats między A i B) jest reprezentowany przez *[commitment transaction](https://planb.academy/resources/glossary/commitment-transaction)*, znany obu węzłom, ale nie jest natychmiast transmitowany w łańcuchu bloków. Ta transakcja opisuje sposób redystrybucji funduszy kanału w łańcuchu bloków zgodnie z płatnościami dokonanymi na Lightning.
 
 
 
@@ -237,7 +237,7 @@ Zanim przejdziemy dalej, oto dwie podstawowe koncepcje pozwalające zrozumieć, 
 
 
 - Liquidity*: ilość sats dostępna po jednej stronie kanału;
-- Pojemność *: jest to całkowita kwota zablokowana w wyjściu multisig 2/2, tj. suma płynności po obu stronach kanału.
+- [Pojemność](https://planb.academy/resources/glossary/lightning-channel-capacity) *: jest to całkowita kwota zablokowana w wyjściu multisig 2/2, tj. suma płynności po obu stronach kanału.
 
 
 
@@ -249,7 +249,7 @@ Kanał nie służy tylko do płatności między dwoma węzłami: jest częścią
 
 
 
-Każdy węzeł zna, za pośrednictwem protokołu plotek, mapę tej sieci: które kanały istnieją, które węzły są połączone kanałem dwukierunkowym i które przepustowości są publikowane. Aby wysłać płatność do odbiorcy bez bezpośredniego kanału, węzeł użytkownika oblicza trasę składającą się z kilku przeskoków: węzeł użytkownika → węzeł X → węzeł Y → węzeł odbiorcy. W każdym przeskoku płatność przechodzi przez kanał, który musi mieć wystarczającą płynność w kierunku płatności.
+Każdy węzeł zna, za pośrednictwem [protokołu plotek](https://planb.academy/resources/glossary/gossip), mapę tej sieci: które kanały istnieją, które węzły są połączone kanałem dwukierunkowym i które przepustowości są publikowane. Aby wysłać płatność do odbiorcy bez bezpośredniego kanału, węzeł użytkownika oblicza trasę składającą się z kilku przeskoków: węzeł użytkownika → węzeł X → węzeł Y → węzeł odbiorcy. W każdym przeskoku płatność przechodzi przez kanał, który musi mieć wystarczającą płynność w kierunku płatności.
 
 
 
@@ -265,7 +265,7 @@ Płynność kanału nie jest zatem symetryczna: jedna strona może być mocno ob
 
 
 
-Aby umożliwić płatnościom przechodzenie przez węzły pośrednie bez potrzeby zaufania, Lightning wykorzystuje inteligentne kontrakty o nazwie *HTLC* (*Hashed Time-Locked Contracts*). Mówiąc prościej, HTLC uzależnia transfer środków od ujawnienia sekretu i zawiera ograniczenie czasowe w celu ochrony nadawcy w przypadku niepowodzenia transakcji. Każda płatność jest zatem uzależniona od przedstawienia obrazu wstępnego (sekretu, którego hash odpowiada uzgodnionej wartości). Jeśli odbiorca końcowy dostarczy ten obraz wstępny, może zażądać środków, co z kolei umożliwia każdemu węzłowi pośredniczącemu odzyskanie własnych środków.
+Aby umożliwić płatnościom przechodzenie przez węzły pośrednie bez potrzeby zaufania, Lightning wykorzystuje [inteligentne kontrakty](https://planb.academy/resources/glossary/smart-contract) o nazwie *[HTLC](https://planb.academy/resources/glossary/htlc)* (*Hashed Time-Locked Contracts*). Mówiąc prościej, HTLC uzależnia transfer środków od ujawnienia sekretu i zawiera ograniczenie czasowe w celu ochrony nadawcy w przypadku niepowodzenia transakcji. Każda płatność jest zatem uzależniona od przedstawienia obrazu wstępnego (sekretu, którego [hash](https://planb.academy/resources/glossary/hash-function) odpowiada uzgodnionej wartości). Jeśli odbiorca końcowy dostarczy ten obraz wstępny, może zażądać środków, co z kolei umożliwia każdemu węzłowi pośredniczącemu odzyskanie własnych środków.
 
 
 
@@ -281,7 +281,7 @@ Oszczędzę ci szczegółów technicznych dotyczących działania HTLC, poniewa�
 
 
 
-Podobnie jak w przypadku Bitcoin, istnieje kilka implementacji protokołu Lightning. Wiele niezależnych zespołów opracowuje własne wersje, z których wszystkie są interoperacyjne, ponieważ są zgodne z tymi samymi specyfikacjami (BOLT). Oto główne implementacje używane obecnie.
+Podobnie jak w przypadku Bitcoin, istnieje kilka implementacji protokołu Lightning. Wiele niezależnych zespołów opracowuje własne wersje, z których wszystkie są interoperacyjne, ponieważ są zgodne z tymi samymi specyfikacjami ([BOLT](https://planb.academy/resources/glossary/bolt)). Oto główne implementacje używane obecnie.
 
 
 
@@ -399,7 +399,7 @@ W dzisiejszych czasach możliwe jest uzyskanie doświadczenia użytkownika bardz
 
 
 
-Pierwszym rozwiązaniem jest po prostu nieużywanie Lightning natywnie, ale korzystanie z Bitcoin lub Liquid wallet, które zawierają atomowe swapy. Na przykład aplikacje Aqua lub Bull Bitcoin Wallet wykorzystują tę metodę, umożliwiając płacenie faktur Lightning bez samodzielnej obsługi węzła Lightning, pozostając pod własną opieką.
+Pierwszym rozwiązaniem jest po prostu nieużywanie Lightning natywnie, ale korzystanie z Bitcoin lub [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, które zawierają [atomowe swapy](https://planb.academy/resources/glossary/atomic-swap). Na przykład aplikacje Aqua lub BULL Wallet wykorzystują tę metodę, umożliwiając płacenie [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) bez samodzielnej obsługi węzła Lightning, pozostając pod własną opieką.
 
 
 
@@ -411,7 +411,7 @@ Zasada jest prosta: Twoje środki pozostają w Bitcoin, on-chain lub Liquid, a d
 
 
 
-Główną zaletą tego podejścia, w porównaniu z konwencjonalnym wallet Lightning, jest to, że użytkownik pozostaje w 100% w posiadaniu swoich środków przez cały czas. Bitcoiny znajdują się w łańcuchu onchain lub Liquid wallet, z własną frazą mnemoniczną. Nawet podczas swapu użytkownik pozostaje w posiadaniu swoich środków, ponieważ swap jest atomowy. Opiera się na mechanizmie kryptograficznym, który zapewnia, że istnieją tylko dwa możliwe wyniki: albo swap zakończy się całkowitym sukcesem, albo nie powiedzie się i usługa nie może przywłaszczyć twoich środków.
+Główną zaletą tego podejścia, w porównaniu z konwencjonalnym wallet Lightning, jest to, że użytkownik pozostaje w 100% w posiadaniu swoich środków przez cały czas. Bitcoiny znajdują się w łańcuchu onchain lub Liquid wallet, z własną [frazą mnemoniczną](https://planb.academy/resources/glossary/seed). Nawet podczas swapu użytkownik pozostaje w posiadaniu swoich środków, ponieważ swap jest atomowy. Opiera się na mechanizmie kryptograficznym, który zapewnia, że istnieją tylko dwa możliwe wyniki: albo swap zakończy się całkowitym sukcesem, albo nie powiedzie się i usługa nie może przywłaszczyć twoich środków.
 
 
 
@@ -423,7 +423,7 @@ Rozwiązanie to oferuje również interesujące korzyści w zakresie poufności,
 
 
 
-Z drugiej strony podejście to ma swoje ograniczenia. Po pierwsze, nie jest ono niewymierne: jesteś zależny od dostępności i dobrej woli usługi swap. Jeśli przestanie ona obsługiwać Twoje konto lub przestanie działać, nie będziesz już mógł płacić za jej pośrednictwem faktur Lightning. Do tego dochodzą niemałe opłaty: płacisz zarówno opłaty transakcyjne onchain lub Liquid, jak i prowizję za usługę swap. Ponadto, jeśli opłaty onchain gwałtownie wzrosną, korzystanie z Lightning może stać się bardzo kosztowne.
+Z drugiej strony podejście to ma swoje ograniczenia. Po pierwsze, nie jest ono niewymierne: jesteś zależny od dostępności i dobrej woli usługi swap. Jeśli przestanie ona obsługiwać Twoje konto lub przestanie działać, nie będziesz już mógł płacić za jej pośrednictwem faktur Lightning. Do tego dochodzą niemałe opłaty: płacisz zarówno [opłaty transakcyjne](https://planb.academy/resources/glossary/transaction-fees) onchain lub Liquid, jak i prowizję za usługę swap. Ponadto, jeśli opłaty onchain gwałtownie wzrosną, korzystanie z Lightning może stać się bardzo kosztowne.
 
 
 
@@ -479,7 +479,7 @@ Trzecim rozwiązaniem, któremu przyjrzymy się dokładniej w tym kursie LNP202,
 
 
 
-Przez "klasyczny" rozumiem, że użytkownik samodzielnie instaluje i konfiguruje implementację Lightning (np. LND) na własnym węźle Bitcoin. Wybierasz swoich peerów, otwierasz kanały, zarządzasz płynnością przychodzącą i wychodzącą oraz ustawiasz zasady opłat za routing.
+Przez "klasyczny" rozumiem, że użytkownik samodzielnie instaluje i konfiguruje implementację Lightning (np. LND) na własnym węźle Bitcoin. Wybierasz swoich peerów, otwierasz kanały, zarządzasz [płynnością przychodzącą i wychodzącą](https://planb.academy/resources/glossary/inbound-capacity) oraz ustawiasz zasady opłat za routing.
 
 
 
@@ -616,7 +616,7 @@ Następnie przejdziesz do głównego interfejsu węzła Lightning. Po lewej stro
 
 
 
-Pośrodku znajdziesz swój Lightning wallet. W rzeczywistości reprezentuje on wychodzącą gotówkę, tj. bitcoiny, które posiadasz w swoich kanałach Lightning.
+Pośrodku znajdziesz swój Lightning wallet. W rzeczywistości reprezentuje on [wychodzącą gotówkę](https://planb.academy/resources/glossary/outbound-capacity), tj. bitcoiny, które posiadasz w swoich kanałach Lightning.
 
 
 

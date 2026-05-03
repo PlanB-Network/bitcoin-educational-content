@@ -117,11 +117,11 @@ Bitcoin mining'i keşfetmeye hazır mısınız? Hadi başlayalım!
 
 
 
-Bitcoin mining'in ayrıntılı ve daha teknik bir açıklamasına geçmeden önce, size kasıtlı olarak basit ve şematik olan prensibe genel bir bakış sunmak istiyorum. Zaten temel bilgilere sahipseniz, test sorularını yanıtladıktan sonra bir sonraki bölümde doğrudan konunun özüne inebilirsiniz. Bu bölüm, size nazik bir başlangıç sağlamak için öncelikle yeni başlayanlara yöneliktir.
+Bitcoin [mining](https://planb.academy/resources/glossary/mining)'in ayrıntılı ve daha teknik bir açıklamasına geçmeden önce, size kasıtlı olarak basit ve şematik olan prensibe genel bir bakış sunmak istiyorum. Zaten temel bilgilere sahipseniz, test sorularını yanıtladıktan sonra bir sonraki bölümde doğrudan konunun özüne inebilirsiniz. Bu bölüm, size nazik bir başlangıç sağlamak için öncelikle yeni başlayanlara yöneliktir.
 
 
 
-Bitcoin'yı, kimin kime bitcoin gönderdiğini yazdığımız, herkes tarafından paylaşılan büyük bir not defteri olarak düşünün. Bu deftere blok zinciri denir. Tek bir kişi tarafından tutulamaz, aksi takdirde güvenilir olması gerekirdi. Bunun yerine, Bitcoin kolektif olarak çalışır: binlerce bilgisayar bu defterin aynı versiyonunu doğrular ve korur.
+Bitcoin'yı, kimin kime bitcoin gönderdiğini yazdığımız, herkes tarafından paylaşılan büyük bir not defteri olarak düşünün. Bu deftere [blok zinciri](https://planb.academy/resources/glossary/blockchain) denir. Tek bir kişi tarafından tutulamaz, aksi takdirde güvenilir olması gerekirdi. Bunun yerine, Bitcoin kolektif olarak çalışır: binlerce bilgisayar bu defterin aynı versiyonunu doğrular ve korur.
 
 
 
@@ -129,7 +129,7 @@ Bitcoin'yı, kimin kime bitcoin gönderdiğini yazdığımız, herkes tarafında
 
 
 
-Bitcoin'de bir ödeme yaptığınızda bir işlem oluşturursunuz. Bu işlem anında not defterine eklenmez. Önce ağa gönderilir, ardından bir sonraki işlem paketine entegre edilmeyi bekler. Bu pakete blok adı verilir.
+Bitcoin'de bir ödeme yaptığınızda bir [işlem](https://planb.academy/resources/glossary/transaction-tx) oluşturursunuz. Bu işlem anında not defterine eklenmez. Önce ağa gönderilir, ardından bir sonraki işlem paketine entegre edilmeyi bekler. Bu pakete [blok](https://planb.academy/resources/glossary/block) adı verilir.
 
 
 
@@ -187,7 +187,7 @@ Bitcoin mining'nın neyle ilgili olduğunu anlamak için öncelikle tipik bir Bi
 
 
 
-Bitcoin'de bir işlem, bitcoinlerin sahipliğini bir kullanıcıdan diğerine aktaran bir veri yapısıdır. Somut bir ifadeyle, geçmiş işlemlerden (UTXO'ler olarak adlandırılır) `girdi' olarak adlandırılan `çıktıları' tüketir ve ardından bu bitcoinlerin artık kime ait olduğunu ve daha sonra hangi koşullar altında harcanabileceğini tanımlayan yeni `çıktılar' oluşturur.
+Bitcoin'de bir işlem, bitcoinlerin sahipliğini bir kullanıcıdan diğerine aktaran bir veri yapısıdır. Somut bir ifadeyle, geçmiş işlemlerden ([UTXO'ler](https://planb.academy/resources/glossary/utxo) olarak adlandırılır) `girdi' olarak adlandırılan `çıktıları' tüketir ve ardından bu bitcoinlerin artık kime ait olduğunu ve daha sonra hangi koşullar altında harcanabileceğini tanımlayan yeni `çıktılar' oluşturur.
 
 
 
@@ -195,7 +195,7 @@ Bitcoin'de bir işlem, bitcoinlerin sahipliğini bir kullanıcıdan diğerine ak
 
 
 
-Bitcoin ile ilgili önemli bir nokta da harcama yetkisidir. Bitcoin'lar bankadaki paranız gibi bir hesapta bulunmaz, ancak harcama koşullarına göre kilitlenir. Bir wallet, bir UTXO'yi girdi olarak kullanmak istediğinde, kilidi açma hakkına sahip olduğuna dair kriptografik kanıt sağlamalıdır. Bu kanıt genellikle özel bir anahtardan alınan dijital imza generated şeklini alır. Bitcoin kullanıcılarının özel anahtarlarınızı güvence altına almakta ısrar etmelerinin nedeni budur: bitcoinlerinize erişimin kilidini açan ve sonuç olarak onları harcamanızı sağlayan şey bunlardır.
+Bitcoin ile ilgili önemli bir nokta da harcama yetkisidir. Bitcoin'lar bankadaki paranız gibi bir hesapta bulunmaz, ancak harcama koşullarına göre kilitlenir. Bir [wallet](https://planb.academy/resources/glossary/wallet), bir UTXO'yi [girdi](https://planb.academy/resources/glossary/input) olarak kullanmak istediğinde, kilidi açma hakkına sahip olduğuna dair kriptografik kanıt sağlamalıdır. Bu kanıt genellikle [özel bir anahtardan](https://planb.academy/resources/glossary/private-key) alınan [dijital imza](https://planb.academy/resources/glossary/digital-signature) generated şeklini alır. Bitcoin kullanıcılarının özel anahtarlarınızı güvence altına almakta ısrar etmelerinin nedeni budur: bitcoinlerinize erişimin kilidini açan ve sonuç olarak onları harcamanızı sağlayan şey bunlardır.
 
 
 
@@ -311,14 +311,14 @@ Artık bir Bitcoin işleminin nasıl çalıştığını ve blok zincirinin rolü
 
 
 
-Miner'ler bloklarını madenciliğe başlamadan önce kendileri inşa etmek zorundadır. Her madenci, sırayla, kendi mempool'unda bekleyen işlemlerden aday blok olarak bilinen bir blok oluşturur. Bu nedenle bir aday blok oluşturmak şunlardan oluşur:
+Miner'ler bloklarını madenciliğe başlamadan önce kendileri inşa etmek zorundadır. Her madenci, sırayla, kendi mempool'unda bekleyen işlemlerden [aday blok](https://planb.academy/resources/glossary/candidate-block) olarak bilinen bir blok oluşturur. Bu nedenle bir aday blok oluşturmak şunlardan oluşur:
 
 
 
 
 - hangi işlemlerin dahil edileceğini seçin;
 - bu işlemleri Bitcoin kuralları ile uyumlu bir şekilde düzenleyecektir;
-- bloğun başlığında saklanan meta verilerini üretir.
+- bloğun [başlığında](https://planb.academy/resources/glossary/block-header) saklanan meta verilerini üretir.
 
 
 
@@ -510,7 +510,7 @@ Hash fonksiyonu bilgisayar sistemlerinde ilginçtir çünkü belirli özellikler
 
 
 
-Bitcoin`da mining için kullanılan hash fonksiyonu `SHA256`dir ve art arda iki kez uygulanır. Bu çift SHA256 ya da `SHA256d` olarak bilinir. Bloğun parmak izini üreten bu çift hashtir.
+Bitcoin`da mining için kullanılan hash fonksiyonu `[SHA256](https://planb.academy/resources/glossary/sha256)`dir ve art arda iki kez uygulanır. Bu çift SHA256 ya da `SHA256d` olarak bilinir. Bloğun parmak izini üreten bu çift hashtir.
 
 
 
@@ -792,7 +792,7 @@ Bu yayılma gecikmesi sırasında başka bir madenci de aynı yükseklikte geçe
 
 
 
-Bu bölünmeler felaket değildir. Nakamoto mutabakatı, uzun vadede yalnızca bir dalın üstün geleceğini öngörmektedir: en çok iş biriktiren dal. Gerçekten de, örneğin A bloğunun üzerine yeni bir blok çıkarılır çıkarılmaz, tüm ağ bu dal üzerinde yeniden senkronize olur ve B bloğunu terk eder, bu da günlük dilde bazen hatalı bir şekilde "*yetim blok*" olarak adlandırılan bir "*stale blok*" haline gelir.
+Bu bölünmeler felaket değildir. Nakamoto mutabakatı, uzun vadede yalnızca bir dalın üstün geleceğini öngörmektedir: en çok iş biriktiren dal. Gerçekten de, örneğin A bloğunun üzerine yeni bir blok çıkarılır çıkarılmaz, tüm ağ bu dal üzerinde yeniden senkronize olur ve B bloğunu terk eder, bu da günlük dilde bazen hatalı bir şekilde "*yetim blok*" olarak adlandırılan bir "*[stale blok](https://planb.academy/resources/glossary/stale-block)*" haline gelir.
 
 
 
@@ -812,7 +812,7 @@ Bu bölünmeler felaket değildir. Nakamoto mutabakatı, uzun vadede yalnızca b
 
 
 
-*"Hashrate*" tek bir madenci, bir grup madenci ya da Bitcoin'deki tüm madenciler tarafından saniyede üretilen hash hesaplama miktarını ifade eder. H/s` (saniye başına hash) olarak ifade edilir ve `TH/s` (saniye başına terahash) veya `EH/s` (saniye başına exahash) gibi katları vardır. Bu, madencilerin hedeften daha düşük bir hash elde etmek için her saniye yapabilecekleri deneme sayısını temsil eder.
+*"[Hashrate](https://planb.academy/resources/glossary/hashrate)*" tek bir madenci, bir grup madenci ya da Bitcoin'deki tüm madenciler tarafından saniyede üretilen hash hesaplama miktarını ifade eder. H/s` (saniye başına hash) olarak ifade edilir ve `TH/s` (saniye başına terahash) veya `EH/s` (saniye başına exahash) gibi katları vardır. Bu, madencilerin hedeften daha düşük bir hash elde etmek için her saniye yapabilecekleri deneme sayısını temsil eder.
 
 
 
@@ -924,6 +924,8 @@ Bu ayarlamayla ilgili dikkat edilmesi gereken önemli bir ayrıntı var: **sın�
 
 
 
+Gerçekte Bitcoin zorluk ayarlamasının tamamen kusursuz olmadığını da belirtelim. Nitekim zorluğun, geçen gerçek süreyi 14 günlük (2016 × 10 dakika) hedef süreyle karşılaştırarak her 2016 blokta bir yeniden hesaplanmasının öngörüldüğünü gördük. Ancak Satoshi'nin orijinal kodu "*off-by-one*" olarak adlandırılan bir hata içeriyor: Her dönemin son blokları arasındaki süreyi (yani 2016 aralık) ölçmek yerine, ilk blok ile son blok arasındaki süreyi, yani sadece 2015 aralığı ölçüyor. Somut olarak zorluk, sanki dönem 2016 blok yerine sadece 2015 bloktan oluşuyormuş gibi hesaplanıyor. Bunun sonucu, zorluğun sistematik olarak çok hafif bir şekilde aşırı tahmin edilmesidir; bu da blokların hedeflenen 10 dakikadan ortalamada biraz daha yavaş (yaklaşık %0,05 daha yavaş) kazılmasına neden olur. Bu hata iyi bilinmektedir ancak hiçbir zaman düzeltilmemiştir; çünkü değiştirilmesi bir hard fork gerektirecektir ve pratik etkisi, "*time warp*" olarak adlandırılan teorik saldırı dışında ihmal edilebilir düzeydedir.
+
 ### Hedef temsil
 
 
@@ -959,7 +961,7 @@ Bu mantık oyun teorisine dayanır: protokol dürüstlüğü rasyonel hale getir
 
 
 
-Bunu başarmak için, Bitcoin protokolü, geçerli bir blok bulan madencinin, madenciye belirli bir BTC toplamı veren belirli bir işlemi dahil etme hakkını kazanmasını şart koşar. Bu **blok ödülü** olarak bilinir. Bu bölümün bu ilk kısmında amaç, bunun nelerden oluştuğunu ve nasıl belirlendiğini anlamaktır. Daha sonra, para yaratma kısmının zaman içinde nasıl geliştiğini (halvings ile) ve teknik olarak nasıl toplandığını (coinbase işlemi yoluyla) göreceğiz.
+Bunu başarmak için, Bitcoin protokolü, geçerli bir blok bulan madencinin, madenciye belirli bir BTC toplamı veren belirli bir işlemi dahil etme hakkını kazanmasını şart koşar. Bu **[blok ödülü](https://planb.academy/resources/glossary/block-reward)** olarak bilinir. Bu bölümün bu ilk kısmında amaç, bunun nelerden oluştuğunu ve nasıl belirlendiğini anlamaktır. Daha sonra, para yaratma kısmının zaman içinde nasıl geliştiğini (halvings ile) ve teknik olarak nasıl toplandığını (coinbase işlemi yoluyla) göreceğiz.
 
 
 
@@ -976,7 +978,7 @@ Kazanan madenciye bir ödül verilmesini tetikleyen de tam olarak bu olaydır (b
 
 
 
-- blok sübvansiyon**;
+- [blok sübvansiyon](https://planb.academy/resources/glossary/block-subsidy)**;
 - işlem ücretleri**.
 
 
@@ -1142,7 +1144,7 @@ Bir sonraki bölümde, tam olarak nasıl hesaplandığını ve Bitcoin protokol�
 
 
 
-Bir önceki bölümde, geçerli bir blok üreten madencilerin, blokta yer alan işlemlerin ücretlerinden ve bir blok sübvansiyonundan oluşan bir ödül aldığını gördük. Ancak, bu sübvansiyon miktarının nasıl belirlendiğini henüz açıklamadık. Bu değeri belirleyen ve geliştiren mekanizma ***halving*** olarak bilinir.
+Bir önceki bölümde, geçerli bir blok üreten madencilerin, blokta yer alan işlemlerin ücretlerinden ve bir blok sübvansiyonundan oluşan bir ödül aldığını gördük. Ancak, bu sübvansiyon miktarının nasıl belirlendiğini henüz açıklamadık. Bu değeri belirleyen ve geliştiren mekanizma ***[halving](https://planb.academy/resources/glossary/halving)*** olarak bilinir.
 
 
 

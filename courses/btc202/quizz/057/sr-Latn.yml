@@ -1,9 +1,9 @@
-question: Koja opcija servera Sparrow wallet odgovara vezi RPC?
+question: Koja opcija servera u Sparrow Wallet-u se koristi za RPC konekciju?
 answer: Bitcoin Core
 wrong_answers:
   - Public Server
   - Private Electrum
   - Remote API
 explanation: |
-  U Sparrow, opcija Bitcoin core odgovara direktnoj vezi sa čvorom preko RPC.
+  U Sparrow, opcija Bitcoin Core odgovara direktnoj vezi sa čvorom preko RPC-a.
 reviewed: true

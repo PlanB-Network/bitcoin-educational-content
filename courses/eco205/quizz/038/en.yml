@@ -1,0 +1,8 @@
+question: What does Friedrich Hayek and the Austrian school of thought mean by the term 'scientism'?
+answer: A pseudo-science that imitates the appearance of scientific rigor without possessing the substance
+wrong_answers:
+  - A rigorous scientific method specifically adapted to the economic and social sciences
+  - "The correct application of mathematics and statistics to the study of human phenomena"
+  - An approach that harmoniously combines the methods of natural and human sciences
+explanation: |
+  According to Hayek, scientism consists in mechanically applying the methods of the natural sciences to the human sciences, without taking into account the fundamental differences between the objects studied. This approach creates an illusion of scientificity, but misses the point: intentional, creative human action. The other answers describe positive or legitimate approaches, while scientism is criticized as a false science.

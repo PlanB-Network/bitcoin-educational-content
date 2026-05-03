@@ -1,8 +1,8 @@
-question: Welches Konzept steckt hinter P2Pool, dem verteilten mining-Pool, der 2011 von Forrest Voight geschaffen wurde?
-answer: Die Kette der Aktien
+question: Welches Konzept steckt hinter P2Pool, dem verteilten Mining-Pool, der 2011 von Forrest Voight geschaffen wurde?
+answer: Die Sharechain
 wrong_answers:
   - Lange Abfrage
-  - Die coinbase-Signatur
+  - Die Coinbase-Signatur
   - Das FPGA
 explanation: |
  Die "Aktienkette" (sharechain) bestand aus Teilnachweisen der von den Teilnehmern geleisteten Arbeit. Sie wurde von den Teilnehmern verwaltet, die untereinander verbunden waren

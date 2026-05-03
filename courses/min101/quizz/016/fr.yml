@@ -6,4 +6,4 @@ wrong_answers:
   - Replayed Proofs of Work
 explanation: |
   RPOW désigne des preuves de travail réutilisables et échangeables, proposées par Hal Finney en 2004.
-reviewed: false
+reviewed: true 

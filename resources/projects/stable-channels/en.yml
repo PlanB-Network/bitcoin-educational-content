@@ -1,0 +1,2 @@
+description: |
+  Stable Channels is an open-source Bitcoin Lightning Network protocol that enables peer-to-peer USD stability without tokens or custodians. It matches stability seekers (Stable Receivers) with leveraged Bitcoin longs (Stable Providers) through continuous settlement in Lightning channels, allowing users to maintain dollar-denominated balances while keeping full custody of their bitcoin. The system queries multiple price feeds and rebalances positions every few minutes to maintain stability, offering a decentralized alternative to traditional stablecoins.

@@ -1467,25 +1467,25 @@ twitize kazinduzi *D* yegeranya inyuguti zose zo mu nyuguti z’icongereza, mu b
     - Hanyuma ushire hamwe $m_0, m_1,\utudomo, m_l$ kugira ngo ubone ubutumwa bw'intango $m$ .
 
 
-Igituma shift cipher iba umugambi wo gupfuka ugereranijwe ni uko urufunguzo rumwe rukoreshwa mu gupfuka no gukuraho. Nk'akarorero, dufate ko ushaka gupfuka ubutumwa “DOG” ukoresheje shift cipher, kandi ko wahisemwo "24" nk'urufunguzo. Gushiramwo ubutumwa n’urwo rufunguzo vyotuma haba “BME”. Uburyo bumwe rudende bwo kugarura ubutumwa bw'umwimerere ni ugukoresha urufunguzo rumwe, "24", ku bijanye n'igikorwa co gufungura.
+Igituma ihinduranya ry'ibitigiri iba umugambi wo gupfuka ugereranijwe ni uko urufunguzo rumwe rukoreshwa mu gupfuka no gufukura. Nk'akarorero, dufate ko ushaka gupfuka ubutumwa “DOG” ukoresheje ihinduranya ry'ibitigiri, kandi ko wahitishijemwo "24" nk'urufunguzo. Uguhisha ubutumwa n’urwo rufunguzo vyotanga “BME”. Uburyo bumwe rudende bwo kugarura ubutumwa bw'umwimerere ni ugukoresha urufunguzo rumwe, "24", ku bijanye n'igikorwa co guhinshura.
 
 
-Iyi Shift cipher ni akarorero k'**cipher y'ugusubirira inyuguti imwe**: umugambi wo gupfuka aho inyuguti y'inyandiko y'ibanga igumaho (i.e., inyuguti imwe gusa ikoreshwa). Dufashe ko ubuhinga bwo gusobanura ari ubw'itegeko, ikimenyetso cose mu nyandiko y'ibanga y'isubirizwa gishobora gushika ku kimenyetso kimwe mu nyandiko y'ibanga.
+Iryo hinduranya ry'ibitigiri ni akarorero k'**igitigiri c'ugusubiriza inyuguti incuro imwe**: umugambi wo gupfuka aho inyuguti y'inyandiko y'ibanga igumaho (i.e., inyuguti imwe gusa ikoreshwa). Dufashe ko ubuhinga bwo gusobanura ari ubw'itegeko, ikimenyetso cose mu nyandiko y'ibanga y'isubirizwa gishobora gushika ku kimenyetso kimwe mu nyandiko y'ibanga.
 
 
-Kugeza mu myaka ya 1700, ibikorwa vyinshi vyo gushiramwo amakuru vyishingikirije cane ku majambo y'ibanga y'inyuguti imwe, naho kenshi ayo majambo yari akomeye cane kuruta amajambo y'ibanga y'ihinduka. Nk’akarorero, woshobora guhitamwo urudome rumwe mu nyuguti z’inyuguti ku rudome rwose rw’inyandiko y’intango mu gihe urudome rumwe rumwe ruboneka rimwe gusa mu nyuguti z’inyandiko z’ibanga. Ivyo bisigura ko woba ufise imfunguruzo z’ibanga 26 zishoboka, zari nini cane mu gihe c’imbere ya mudasobwa.
+Kugeza mu myaka ya 1700, ibikorwa vyinshi vyo guhisha amakuru vyishingikirije cane k'ubitigiri vy'ugusubiriza inyuguti incuro imwe, naho kenshi ayo majambo yari akomeye cane kuruta amajambo y'ibanga y'ihinduka. Nk’akarorero, woshobora guhitishamwo urudome rumwe mu nyuguti z’inyuguti ku rudome rwose rw’inyandiko y’intango mu gihe urudome rumwe rumwe ruboneka rimwe gusa mu nyuguti z’inyandiko z’ibanga. Ivyo bisigura ko woba ufise imfunguruzo z’ibanga 26 zishoboka, zari nyishi cane mu gihe c’imbere y'uko haza za mudasobwa.
 
 
-Zirikana ko uzohura n’ijambo **cipher** cane mu vy’ubuhinga bwo gukingira amakuru. Menya ko iri jambo rifise insobanuro zitandukanye. Nkako, ndazi n’imiburiburi insobanuro zitanu zitandukanye z’iryo jambo mu bijanye n’ubuhinga bwo gukingira amakuru.
+Zirikana ko uzohura n’ijambo **Igitigiri** cane mu vy’ubuhinga bwo gukingira amakuru. Menya ko iri jambo rifise insobanuro zitandukanye. Nkako, ndazi n’imiburiburi insobanuro zitanu zitandukanye z’iryo jambo mu bijanye n’ubuhinga bwo gukingira amakuru.
 
 
-Mu bihe bimwebimwe ryerekeza ku mugambi wo gupfuka, nk’uko bigenda mu gupfuka Shift no mu gusubirira inyuguti imwe. Ariko rero, iryo jambo rishobora kandi kwerekeza ku buryo budasanzwe ku bijanye n’ubuhinga bwo gupfuka, urufunguzo rw’ibanga canke gusa amajambo y’ibanga y’uwo mugambi uwo ari wo wose wo gupfuka.
+Mu bihe bimwebimwe ryerekeza ku mugambi wo gupfuka, nk’uko bigenda mw'ihinduranya ry'ibitigiri no mubitigiri vy'isubiriza inyuguti incuro imwe. Ariko rero, iryo jambo rishobora kandi kwerekeza ku buryo budasanzwe ku bijanye n’ubuhinga bwo gupfuka, urufunguzo rw’ibanga canke gusa amajambo y’ibanga y’uwo mugambi uwo ari wo wose wo gupfuka.
 
 
-Ubwa nyuma, ijambo cipher rishobora kandi kwerekeza ku nzira nyamukuru ushobora gukoresha mu kwubaka imigambi y’ubuhinga bwo gukora amakuru. Ivyo bishobora kubamwo ubuhinga butandukanye bwo gupfuka amakuru, ariko kandi n’ubundi bwoko bw’imigambi yo gupfuka amakuru. Ubwo busobanuro bw’iryo jambo buraba ngirakamaro mu bijanye n’amajambo y’ububiko (raba igice kivuga ngo “Amajambo y’ububiko” aha hepfo).
+Ubwa nyuma, ijambo Igitigiri rishobora kandi kwerekana inzira nyamukuru ushobora gukoresha mu kwubaka imigambi y’ubuhinga bwo gukora amakuru. Ivyo bishobora kubamwo ubuhinga butandukanye bwo gupfuka amakuru, ariko kandi n’ubundi bwoko bw’imigambi yo gupfuka amakuru. Ubwo busobanuro bw’iryo jambo buraba ngirakamaro mu bijanye n’amajambo y’ububiko (raba igice kivuga ngo “Amajambo y’ububiko” aha hepfo).
 
 
-Ushobora kandi guhura n'amajambo **gusobanura** canke **gusobanura**. Aya majambo ni amajambo amwe gusa asobanura gupfuka no gufungura.
+Ushobora kandi guhura n'amajambo **guhisha** canke **guhishura**. Aya majambo ni amajambo amwe gusa asobanura gupfuka no gufungura.
 
 
 

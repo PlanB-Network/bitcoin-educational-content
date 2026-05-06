@@ -271,11 +271,11 @@ Node ya Bitcoin, nk’uko twabibonye haruguru, ni igice ca software gifise uruha
 
 - gushingura kuri Blockchain,
 - kwemeza hamwe no gutanga ihanahanwa,
-- kwemeza n;ugutanga imigwi.
+- kwemeza n'ugutanga imigwi.
 
 
 
-Ku rundi ruhande, Ingodo za Bitcoin ni ibice vya software vyakozwe kugira bibike kandi bigenzure impfunguruzo z'ibanga. Izo mpfunguruzo zigufasha kurungika ama bitcoins mugukwiriza inandiko zo kwugara (mu bisanzwe biciye kumikono). Ingodo ishobora gufatanywa na node (Birashoboka uraho canke urikure) kugira ngo ibone uko Blockchain imeze no gutangaza amahanahanwa yakoze, ariko ntabwo arivyo, nk’uko biri, kuwukoresha urubuga.
+Kurundi ruhande, Ingodo za Bitcoin ni ibice vya software vyakozwe kugira bibike kandi bigenzure impfunguruzo z'ibanga. Izo mpfunguruzo zigufasha kurungika ama bitcoins mugukwirikiza inyandiko zo kwugara (mu bisanzwe biciye kumukono). Ingodo ishobora gufatanywa na node (Birashoboka uraho canke urikure) kugira ngo ibone uko Blockchain imeze no gutangaza amahanahanwa yakoze, ariko ntabwo arivyo, nk’uko biri, kuwukoresha urubuga.
 
 
 
@@ -298,7 +298,7 @@ Inyigisho za node hamwe no gucukura ziracangana kenshi. Yamara izo Elements zibi
 
 
 
-Mu ntango, igihe Bitcoin yatanguzwa na Satoshi Nakamoto mu 2009, uwuyikoresha wese yari yitezwe ko yogira uruhara muri iyo nzira yose uko ingana. Gutyo, Software y'intango ihuza ibikorwa vyinshi icarimwe: yakora nk’ingodo, nka node, kandi yakora kandi nk’iyicukura, ishobora gutuma habaho ibice bishasha. Iciyo gihe, ingorane za Mining zari nto cane. Ico wari ukeneye gukora ni ugukoresha software ya Bitcoin kuri mudasobwa yawe kugira uronke ibice bishasha hama uronke ama bitcoin hamwe nagahembo.
+Mu ntango, igihe Bitcoin yatanguzwa na Satoshi Nakamoto mu 2009, uwuyikoresha wese yari yitezwe ko yogira uruhara muri iyo nzira yose uko ingana. Gutyo, Software y'intango ihuza ibikorwa vyinshi icarimwe: yakora nk’ingodo, nka node, kandi yakora kandi nk’iyicukura, ishobora gutuma habaho ibice bishasha. Murico  gihe, ingorane za Mining zarinke. Ico wari ukeneye gukora ni ugukoresha software ya Bitcoin kuri mudasobwa yawe kugira uronke ibice bishasha hama uronke ama bitcoin hamwe nagahembo.
 
 
 

@@ -3,7 +3,6 @@ name: Gutegura node yawe yambere ya Bitcoin
 goal: Gutahura, gushiramwo, kuyinjiza, no gukoresha node ya Bitcoin
 objectives: 
 
-
   - Gutahura uruhara n’intumbero ya node ya Bitcoin.
   - Raba ama hardware atandukanye hamwe ninyishu zama software zihari.
   - Gushiramwo no gutunganya node ikwiye (Bitcoin core).
@@ -17,11 +16,11 @@ objectives:
 
 
 
-Kumbure  uramenyereye imvugo ivuga ati "atamfunguruzo zawe, ntabiceri vyawe", itera intege kwishigurira ama bitcoin yawe. Gufata imfunguruzo zawe bwite ni intambwe ya mbere yakamaro vy’ukuri, ariko ntibihagije. Kuirango ushikire ubwigenge bwa nyabwo bw'amahera, urakeneye kandi gushiramwo no gukoresha node yawe bwite ya Bitcoin. Kino cigwa cagenewe kukuyobora muntambwe z'ibanze mu rugendo rwawe rwa Bitcoin!
+Kumbure  uramenyereye imvugo ivuga iti "atamfunguruzo zawe, ntabiceri vyawe", itera intege kwishigurira ama bitcoin yawe. Gufata imfunguruzo zawe bwite ni intambwe ya mbere yakamaro vy’ukuri, ariko ntibihagije. Kugirango ushikire ubwigenge bwa nyabwo bw'amahera, urakeneye kandi gushiramwo no gukoresha node yawe bwite ya Bitcoin. Kino cigwa cagenewe kukuyobora muntambwe z'ibanze mu rugendo rwawe rwa Bitcoin!
 
 
 
-BTC 202 ni icirwa gishobora kubonwa nabose cakozwe kugira cigishe uburyo bwo gutanguza node yawe ya Bitcoin, nubwo utoba urumuhinga rurangiranwa. Tuzotangura dusigura icarico node ya Bitcoin, ico ikora, n’ico ari co kugira ngo uyikoreshe wenyene. Hanyuma nzagufasha intambwe ku yindi muguhitamwo hardware yawe, gushiramwo software ikenewe, guhuza software y'ingodo yawe no gukora amwe mu mavugurura ya mbere ashoboka kugira ngo ugere kure.
+BTC 202 ni icirwa gishobora kubonwa nabose cakozwe kugira cigishe uburyo bwo gutanguza node yawe ya Bitcoin, nubwo utoba urumuhinga rurangiranwa. Tuzotangura dusigura icarico node ya Bitcoin, ico ikora, n’ico ari co kugira ngo uyikoreshe wenyene. Hanyuma nzogufasha intambwe ku yindi muguhitamwo hardware yawe, gushiramwo software ikenewe, guhuza software y'ingodo yawe no gukora amwe mu mavugurura ya mbere ashoboka kugira ngo ugere kure.
 
 
 
@@ -58,7 +57,7 @@ Ikaze muri BTC 202, aho uzokwiga gushiramwo, gutunganya, no gukoresha node ya Bi
 
 
 
-Muri iki gice ca mbere c’icigwa, tuzotanga umuco kuvyiyumviro vy’ishimikiro hanyuma tuje ku nsiguro zitomoye kuruta. Node ni iki? Ni ubuhe butandukaniro buri hagati ya node, Ingodo, n'ugucukura? Uzoheza umenye ivyerekeye Bitcoin core n'ingene iyo shirwa mungiro y'urukwirikirane. Ihangiro nikuvuga ururimi rumwe, kwirinda ukudatahurana, nogushiraho umushinge ukomeye w'ivyiyumviro.
+Muri iki gice ca mbere c’icigwa, tuzotanga umuco kuvyiyumviro vy’ishimikiro hanyuma tuje ku nsiguro zitomoye kuruta. Node ni iki? Nirihe tandukaniro riri hagati ya node, ingodo(wallet), n'ugucukura? Uzoheza umenye ivyerekeye Bitcoin core n'ingene ishirwa mungiro y'urukwirikirane. Ihangiro n'ukuvuga ururimi rumwe, kwirinda ukudatahurana, nogushiraho umushinge ukomeye w'ivyiyumviro.
 
 
 

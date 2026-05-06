@@ -69,11 +69,11 @@ Muri iki gice ca kabiri, nzotangura ndabasigurira igituma arivyingirakamaro guko
 
 
 
-Tuzoca tuguha icegeranyo ca software zihari zikoreshwa kuri node ya Bitcoin, harimwo n’ivyiza n’ibibi vyayo. Ubwa nyuma, tuzosozera n’impanuro zimwe zimwe zishobora gushirwa mungiro zo guhitamwo hardware yukuri bivanye nico ukeneye hamwe n'amafaranga ufise.
+Tuzoca tuguha icegeranyo ca software zihari zikoreshwa kuri node ya Bitcoin, harimwo vyiza n’ibibi vyayo. Ubwa nyuma, tuzosozera n’impanuro zimwe zimwe zishobora gushirwa mungiro zo guhitamwo hardware yukuri bivanye nico ukeneye hamwe n'amafaranga ufise.
 
 
 
-Kano gace rero, karerekana inzira y’uwukoresa Bitcoin: gutahura igituma bikenewe gukoresha node, guhitamwo ubwoko bwa node, vyubakiye kuri iryo hitamwo, guhitamwo software, kandi, bivanye na software wahisemwo, biraza kwerekana hardware bikwiranye.
+Kano gace rero, karerekana inzira y’uwukoresha Bitcoin: gutahura igituma bikenewe gukoresha node, guhitamwo ubwoko bwa node, vyubakiye kuri iryo hitamwo, guhitamwo software, kandi, bivanye na software wahisemwo, biraza kwerekana hardware bikwiranye.
 
 
 
@@ -81,7 +81,7 @@ Kano gace rero, karerekana inzira y’uwukoresa Bitcoin: gutahura igituma bikene
 
 
 
-Mugihe imyiteguro ikwiye, nakaryo keza ko gukorana n’Igice ca 3 kigenewe Umbrel: OS ya cloud co mu nzu yorosha kwiyakira no gushiramwo Bitcoin na node ya Lightning.
+Mugihe imyiteguro ikwiye, nakaryo keza ko gukorana n’Igice ca 3 kigenewe Umbrel: OS ya cloud co mu nzu yorosha kwakira no gushiramwo Bitcoin na node ya Lightning.
 
 
 
@@ -93,11 +93,11 @@ Inyuma y’intangamarara ngufi ya Umbrel, tuzoguha inyigisho ido n’ido kugira 
 
 
 
-Ubu kowamaze gushinga node ya Bitcoin, harageze ko uyikoresha! Muri iki gice, uzomenya ingene wokoresha ingodo yawe n'uko wkoresa software (nk'ingodo ya Sparrow) n’urutonde rwa aderesi rwawe bwite (Electrs canke Fulcrum), canke ushiremwo Bitcoin core, kugira ngo ntube uyoboka ubushinguzi bwa bose.
+Ubu kowamaze gushinga node ya Bitcoin, harageze ko uyikoresha! Muri iki gice, uzomenya ingene wokoresha ingodo yawe n'uko wokoresha software (nk'ingodo ya Sparrow) n’urutonde rwa aderesi rwawe bwite (Electrs canke Fulcrum), canke ushiremwo Bitcoin core, kugira ngo ntube uyoboka ubushinguzi bwa bose.
 
 
 
-Turaza kandi gusuzuma uruhara rw’abakora n'ubuhinga butandukanye bwoguhuza na node yawe (LAN, Tor, Tailscale, n’ibindi). Ubwa nyuma, mu kigabane ca nyuma, tuzosubiramwo ibikorwa vy’ingirakamaro bihari kuri  cane biri kuri Umbrel ku muntu akoresha bitcoiner ku musi ku musi.
+Turaza kandi gusuzuma uruhara rw’abakora ubuhinga butandukanye bwoguhuza node yawe (LAN, Tor, Tailscale, n’ibindi). Ubwa nyuma, mu kigabane ca nyuma, tuzosubiramwo ibikorwa vy’ingirakamaro bihari  kuri Umbrel ku muntu akoresha bitcoiner ku musi ku musi.
 
 
 

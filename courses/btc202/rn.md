@@ -105,11 +105,11 @@ Turaza kandi gusuzuma uruhara rw’abakora ubuhinga butandukanye bwoguhuza node 
 
 
 
-Muri iki gice ca nyuma ca BTC 202, ihangiro ni kugukarihiriza ubumenyi bwawe. Ubwambere, turaza kuraba uburyo bwiza bwo gukoresha node yawe nshasha ya Bitcoin nuko woyi gumana kugihe kirekire.
+Muri iki gice ca nyuma ca BTC 202, ihangiro ni kugukarihiriza ubumenyi bwawe. Ubwambere, turaza kuraba uburyo bwiza bwo gukoresha node yawe nshasha ya Bitcoin nuko woyigumana kugihe kirekire.
 
 
 
-Tuzoca dufata akanyako gusubiramwo bimwe muvyavuzwe imbere y'igihe mucigwa, harimwo nogutahura uko IBD igenda n’ukuvumbura kw’urunganwe mu buryo buramvuye, gutohoza ubuhinga bw’urudodo, no kwiga ingene wokoresha dosiye `Bitcoin.conf` kugira ngo utunganye neza ivyo ushizeho.
+Tuzoca dufata akanya ko gusubiramwo bimwe muvyavuzwe imbere y'igihe mucigwa, harimwo nogutahura uko IBD igenda n’ukuvumbura kw’urunganwe mu buryo buramvuye, gutohoza ubuhinga bw’urudodo, no kwiga ingene wokoresha dosiye `Bitcoin.conf` kugira ngo utunganye neza ivyo ushizeho.
 
 
 
@@ -137,9 +137,9 @@ Nk’uko vyasiguwe neza n’uwayikoze, Satoshi Nakamoto, Bitcoin yiyerekana nk�
 
 
 
-- Ubwambere na mbere, Satoshi irasigura Bitcoin nk'"ubhinga", mu yandi majambo, numurwi urhamwe ugiza nibice vya hardware hamwe na software bikorana kugira bitange ubufasha kanaka canke urubuga kanaka rukora;
-- Inyuma y’aho, asigura ko iyo nzira ishoboza gukoresha amahera y’ubuhinga bwa none, ni ukuvuga uburyo bw’amahera ataboneka;
-- Ubwa nyuma, yerekana ko iyo nzira idashingiye ku kintu na kimwe gifise aho kiyoboka: ni "peer-to-peer( ubuhinga bushingiye kuantu babiri)", bisigura yuko aruwuyikoresha nyene akoresha ubwo buhinga.
+- Ubwambere na mbere, Satoshi arasigura Bitcoin nk'ubuhinga, mu yandi majambo, numurwi hamwe ugizwe n'ibice vya hardware hamwe na software bikorana kugira bitange ubufasha kanaka canke urubuga kanaka rukora;
+- Inyuma y’aho, asigura ko iyo nzira ishobora gukoresha amahera y’ubuhinga bwa none, ni ukuvuga uburyo bw’amahera ataboneka;
+- Ubwa nyuma, yerekana ko iyo nzira idashingiye ku kintu na kimwe gifise aho kiyoboka: ni "peer-to-peer( ubuhinga bushingiye kubantu babiri)", bisigura yuko aruwuyikoresha nyene akoresha ubwo buhinga.
 
 
 

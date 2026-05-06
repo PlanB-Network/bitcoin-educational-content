@@ -155,11 +155,11 @@ Nakamoto, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buryo bw’ubuhin
 
 
 
-Nibano bantu bazijoe Abo bakoresha nyene ni bo bacungera umutekano wa Bitcoin. Nk’uko Eric Voskuil abisigura mu gitabu ciwe *Cryptoeconomics*, umutekano wa Bitcoin ntushingiye kuri Blockchain, canke ku bubasha bwo gukora hashing, canke ku kwemeza, ku kwegereza ubutegetsi, ku gukora amakuru y’ibanga, ku nzira yuguruye, canke ku nyigisho y’imikino. Umutekano wa Bitcoin uvana canecane n’abantu biteguriye kwishira mu kaga k’umuntu ku giti ciwe. Kutagira aho iyobokobifasha yuko zino ngorane zisabikanywa nabantu benshi cane, hanyuma bikaba ubushobozi bwabo bwo kurwanya ni bwo bwonyene butuma iyo nzira ikomeye.
+Ni bo nyene bakoresha bacungera umutekano wa Bitcoin. Nk’uko Eric Voskuil abisigura mu gitabu ciwe *Cryptoeconomics*, umutekano wa Bitcoin ntushingiye kuri Blockchain, canke ku bubasha bwo gukora hashing, canke ku kwemeza, ku kwegereza ubutegetsi, ku gukora amakuru y’ibanga, ku nzira yuguruye, canke ku nyigisho y’imikino. Umutekano wa Bitcoin uvana canecane n’abantu biteguriye kwishira mu kaga k’umuntu ku giti ciwe. Kutagira aho iyoboka bifasha yuko zino ngorane zisabikanywa nabantu benshi cane, hanyuma bikaba ubushobozi bwabo bwo kurwanya ni bwo bwonyene butuma iyo nzira ikomera.
 
 
 
-Ino ngingo ngenderwako iroroshe gutahura: iyo Bitcoin iba ishingiye kuri node imwe , hama nokumuntu umwe gusa, kuko bo bonyene bokwikorera ingorane zose. Kubera ko hariho ibihumbi mirongo vy’ibice bikwiragiye kw’isi yose, ingorane zirakwiragira: umwe wese muri abo bakoresha yobwirizwa gukurwamwo kugira ngo Bitcoin ihagarare.
+Ino ngingo ngenderwako iroroshe gutahura: iyo Bitcoin iba ishingiye kuri node imwe gusa, iri mu maboko y’umuntu umwe, uwo muntu ni we wenyene yokwikorera ingorane zose. Kubera ko hariho ibihumbi mirongo vy’ibice bikwiragiye kw’isi yose, ingorane zirakwiragira: umwe wese muri abo bakoresha yobwirizwa gukurwamwo kugira ngo Bitcoin ihagarare.
 
 
 
@@ -173,7 +173,7 @@ Turashobora rero gutandukanya no gutanga amazina kuvyiyumviro vyinshi kugira dut
 
 
 - Amafaranga ya Bitcoin: urugero rw'ikonti rukoreshwa mwihanahanwa ryomuri bunobuhinga;
-- Urubuga rwa Bitcoin: ushiraho ama node yose ahuriranye;
+- Urubuga rwa Bitcoin: rushiraho ama node yose ahuriranye;
 - Nodes ya bitcoin : imashini zikoresha mw'ishirwa mu ngiro rya Bitcoin;
 - Gushira mungiro Bitcoin : software isobanura urukwirikirane mu mabwirizwa yogukora;
 - Urukwirikirane rw'ibikoze Bitcoin: amategeko agenga uko iyo sisitemu ikora;
@@ -197,11 +197,11 @@ Kuva mu ntango, Bitcoin yari igenewe gutuma uwuyikoresha wese akoresha node yiwe
 
 
 
-Igikorwa ca mbere ca node nikugumana kopi yiwawe ya Blockchain. Nukwirinda kuriha kabiri kuri Bitcoin hatiriwe harajamwo abayobozi, umukoresha wese ategerezwa kugenzura ko atahanahanwa narimmwe rikoreshwa mubuhinga. Uburyo bwonyene bwokugira icizere c'ibi nikumenya ko amahanahanwa yose yabaye kuri Bitcoin. Kubwino mvo, amahanahanwa yose arategwako ikidodo, hama agashirwa hamwe mumigwi, hama buri node ibika Blockchain yose.
+Igikorwa ca mbere ca node n'ukugumana kopi yiwawe ya Blockchain. N'ukwirinda kuriha kabiri kuri Bitcoin hatiriwe harajamwo abayobozi, umukoresha wese ategerezwa kugenzura ko atahanahanwa narimmwe rikoreshwa mubuhinga. Uburyo bwonyene bwokugira icizere c'ibi n'ukumenya ko amahanahanwa yose yabaye kuri Bitcoin. Kubwizo mvo, amahanahanwa yose arategwako ikidodo, hama agashirwa hamwe mumigwi, hama buri node ibika Blockchain yose.
 
 
 
-> Uburyo bwonyene bwo kwemeza ko ata hanahanwa ryabaye nikumenya amahanahanwa yose.
+> Uburyo bwonyene bwo kwemeza ko ata hanahanwa ryabaye n'ukumenya amahanahanwa yose.
 
 Nakamoto, S. (2008). *Bitcoin: Uburyo bwo gukoresha amahera mu buryo bw’ubuhinga bwa none ashingiye kumuntu umwumwe*. https://Bitcoin.org/Bitcoin.pdf
 
@@ -223,7 +223,7 @@ Iyo node kandi igumana umuvuduko waho w'ama UTXO yose ariho igihe cose, azwi kw�
 
 
 
-Akamaro kakabiri ka node nikuraba neza isuzumwa n'ikwiragizwa ry'ama Bitcoin. Iyo ihanahanwa rishasha rishikiye node (biciye kurikungodo ya software canke iyindi node), kizosuzuma ko kijanye n’amategeko (amategeko y’uguhurizako n’amategeko y’ugutanga amakuru). Nk'akarorero:
+Akamaro kakabiri ka node n'ukuraba neza isuzumwa n'ikwiragizwa ry'ama Bitcoin. Iyo ihanahanwa rishasha rishikiye node (biciye kuri buri ngodo ya software canke iyindi node), kizosuzuma ko kijanye n’amategeko (amategeko y’uguhurizako n’amategeko y’ugutanga amakuru). Nk'akarorero:
 
 
 
@@ -237,8 +237,7 @@ Akamaro kakabiri ka node nikuraba neza isuzumwa n'ikwiragizwa ry'ama Bitcoin. Iy
 ![Image](assets/fr/050.webp)
 
 
-
-Inyuma y’ukwemezwa, iyo nzira ibikwa kuri node ya Mempool, ikibanza c’ukwibuka cagenewe amahanahanwa ataremerwa, hanyuma igashikirizwa abandi bagenzi b’urubuga ihuriyeko. Ubwo buryo bwo gukwiragiza no kwemeza burabandanya kuva ku nzira imwe gushika ku yindi. Muri ubwo buryo, iyo nzira ikwiragizwa ku rubuga rwa Bitcoin, kandi buri node ikayibika muri Mempool gushika ishizwe mu gice gifitiye akamaro abacukuzi, iyo na yo igaca ikora ku kwemeza kwayo kwa mbere.
+Inyuma yo kwemezwa, ico gikorwa (transaction) kibikwa muri node ya Mempool, ikibanza c’ukwibuka cagenewe amahanahanwa ataremerwa, hanyuma kigashikirizwa abandi bagenzi b’urubuga gihuriyeko. Ubwo buryo bwo gukwiragiza no kwemeza burabandanya kuva ku nzira imwe gushika ku yindi. Muri ubwo buryo, iyo nzira ikwiragizwa ku rubuga rwa Bitcoin, kandi buri node ikayibika muri Mempool gushika ishizwe mu gice gifitiye akamaro abacukuzi, iyo na yo igaca ikora ku kwemezwa kwayo kwa mbere.
 
 
 

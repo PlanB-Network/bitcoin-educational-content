@@ -245,7 +245,7 @@ Inyuma yo kwemezwa, ico gikorwa (transaction) kibikwa muri node ya Mempool, ikib
 
 
 
-Uruhara rwa gatatu rwa node nugusuzuma ibikuta vyacukuwe. Iyo Abacukuzi bavumbuye imigwi mishasha ifise Proof Of Work yemewe n'amategeko, iratangazwa ku rubuga. Ama node arayakira, akihweza neza yuko ko ihuye n’amategeko yose y’itegeko, hanyuma bikayishira muri kopi yabo bwite y’aho hantu ya Blockchain nimba ari ngirakamaro. Nk’uko bigenda ku bikorwa, imigwi mishasha yemejwe aca ashikirizwa bagenzi bose bahuye na node. Ivyo birabandanya gushika aho ama node yose ari ku rubuga rwa Bitcoin amenye iyo block nshasha.
+Uruhara rwa gatatu rwa node n'ugusuzuma ibibanza(blocks) vyacukuwe. Iyo Abacukuzi bavumbuye imigwi mishasha ifise Proof Of Work yemewe n'amategeko, iratangazwa ku rubuga. Ama node arayakira, akihweza neza yuko  ihuye n’amategeko yose y’itegeko, hanyuma bikayishira muri kopi yabo bwite y’aho hantu ya Blockchain nimba ari ngirakamaro. Nk’uko bigenda ku bikorwa, imigwi mishasha yemejwe aca ashikirizwa abagenzi bose bahurikiye kuri iyo node. Ivyo birabandanya gushika aho ama node yose ari ku rubuga rwa Bitcoin amenye iyo block nshasha.
 
 
 

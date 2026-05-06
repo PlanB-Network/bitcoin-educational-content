@@ -302,7 +302,7 @@ Mu ntango, igihe Bitcoin yatanguzwa na Satoshi Nakamoto mu 2009, uwuyikoresha we
 
 
 
-N'ubwo biruko, kubera ko Bitcoin yagenda iramenyekana buhorobuhoro hamwe n'ubucukuzi bariko baragwira, uburyo bwo guhiganwa mugucukura bwarahindutse cane. Ubu, Ugucukura vyacitse igikorwa c’uguhiganwa cane, kiganzwa n’abakinyi b’inganda bafise ibikorwa remezo vyihariye. Inguvu zikenewe kugira ngo umuntu acukure gushasha ubu ni nyinshi cane ku buryo umuntu ku giti ciwe adashobora kubishikako akoresheje mudasobwa dusanzwe tumenyereye. nk'inyishu, ugucukura ahanini bikoreshwa amamashine adasanzwe yitwa  ASICs (*Application-Specific Integrated Circuits*). Izo chips zitunganijwe gusa kugira ngo zikoreshe kabiri SHA-256, ubuhinga bukoreshwa mugucukura kuri Bitcoin.
+N'ubwo biruko, kubera ko Bitcoin yagenda iramenyekana buhorobuhoro hamwe n'ubucukuzi buriko baragwira, uburyo bwo guhiganwa mugucukura bwarahindutse cane. Ubu, Ugucukura vyacitse igikorwa c’uguhiganwa cane, kiganzwa n’abakinyi b’inganda bafise ibikorwa remezo vyihariye. Inguvu zikenewe kugira ngo umuntu acukure gushasha ubu ni nyinshi cane ku buryo umuntu ku giti ciwe adashobora kubishikako akoresheje mudasobwa dusanzwe tumenyereye. nk'inyishu, ugucukura ahanini bikoreshwa amamashine adasanzwe yitwa  ASICs (*Application-Specific Integrated Circuits*). Izo chips zitunganijwe gusa kugira ngo zikoreshe kabiri SHA-256, ubuhinga bukoreshwa mugucukura kuri Bitcoin.
 
 
 

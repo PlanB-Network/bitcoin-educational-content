@@ -685,7 +685,7 @@ Ku bijanye n’amategeko y’uguhurizako, node yawe ruraguha uburenganzira bwo k
 
 
 
-Rero si igitigiri c’ibihimba vy’umubiri bihambaye, ahubwo ni akamaro k’igikorwa c’ubutunzi bashigikira. Ikindi, iyo igikorwa cawe co mu vy’ubutunzi kivana na node idacungegwa, nyen’uruganda ni we azofata ingingo y’amafaranga ukoresha, igihe cose uzoba uguma uhuye n’iyo node. Nicogituma gukoresha no gukoresha node rwawe ari ngirakamaro cane mu bijanye n'uburongozi bwa sisitemu:
+Rero si igitigiri c’ibihimba vy’umubiri bihambaye, ahubwo ni akamaro k’igikorwa c’ubutunzi bashigikira. Ikindi, iyo igikorwa cawe co mu vy’ubutunzi kivana na node idacungegwa, nyen’urudodo ni we azofata ingingo y’amafaranga ukoresha, igihe cose uzoba uguma uhuye n’iyo node. Nicogituma gukoresha no gukoresha node rwawe ari ngirakamaro cane mu bijanye n'uburongozi bwa sisitemu:
 
 
 
@@ -715,11 +715,11 @@ Node yuzuye ni gusa node ya Bitcoin ikura kuri Blockchain yose mu gice ca Genesi
 
 
 
-Node yose nta n’umwe ikeneye kwizigira kuko yemeza kandi ikamenya amakuru yose ari muri iyo sisitemu. Ni ubwoko bwa node buguha ivyemezo vyinshi: urazi, utazigiye uwundi muntu, nimba ukuriha gufise akamaro, nimba ububiko bufise akamaro, nimba ugusubira gutunganya ibintu bibereye, n’ibindi.
+Node yose nta n’umwe ikeneye kwizigira kuko yemeza kandi ikamenya amakuru yose ari muri iyo sisitemu. Ni ubwoko bwa node buguha ivyemezo vyinshi: urazi, utizigiye uwundi muntu, nimba ukuriha gufise akamaro, nimba ububiko bufise akamaro, nimba ugusubira gutunganya ibintu bibereye, n’ibindi.
 
 
 
-Mu bikorwa, node yose isaba ibikoresho bitagira akamaro, harimwo amajana menshi ya gigabytes y’amadosiye y’amabuye, igikoresho gishobora kwemeza inyandiko, RAM ya Mempool n’ibibanza vy’ububiko, n’uburebure bw’uruja n’uruza buhamye. Ihuriro rya mbere (*IBD*) risoma kandi rikagenzura kahise kose : rirakomeye cane, ariko rishika rimwe gusa. Node yose iragira uruhara n’umwete mu rubuga, igatanga amabuye n’ibikorwa, kandi ishobora kwemera amahuzu yinjira kugira ngo afashe abandi bagenzi.
+Mu bikorwa, node yose isaba ibikoresho bitagira akamaro, harimwo amajana menshi ya gigabytes y’amadosiye y’amabuye, igikoresho gishobora kwemeza inyandiko, RAM ya Mempool n’ibibanza vy’ububiko, n’uburebure bw’uruja n’uruza buhamye. Ihuriro rya mbere (*IBD*) risoma kandi rikagenzura kahise kose : rirakomeye cane, ariko rishika rimwe gusa. Node yose iragira uruhara n’umwete mu rubuga, igatanga amabuye n’ibikorwa, kandi ishobora kwemera amahuza yinjira kugira ngo afashe abandi bagenzi.
 
 
 
@@ -771,7 +771,7 @@ Ubwo bwoko bw’uruzitiro buragaragara ko buremereye cane mu bijanye no kubika n
 
 
 
-Ico guhindura ni ukwizigirana n’ibanga: umukiriya wa SPV ntasuzuma inyandiko canke amategeko y’ukwemeza ubwiwe; rifata ko uruzitiro rufise igikorwa kinini ari rwo rufise akamaro, kandi ruvana n'urudodo rumwe canke nyinshi zuzuye ku nyishu. Gukoresha ubwo bwoko bw’urudodo rero ni uburyo bwiza kuruta gufatanya n’urudodo rw’uwundi muntu; ariko rero, biracari bifise akamaro gatoyi kuruta kugira Full node canke mbere node pruned.
+Ico guhindura ni ukwizigirana n’ibanga: umukiriya wa SPV ntasuzuma inyandiko canke amategeko y’ukwemeza ubwiwe; rifata ko uruzitiro rufise igikorwa kinini ari rwo rufise akamaro, kandi ruvana n'urudodo rumwe canke nyinshi zuzuye ku nyishu. Gukoresha ubwo bwoko bw’urudodo rero ni uburyo bwiza kuruta gufatanya n’urudodo rw’uwundi muntu; ariko rero, biracafise akamaro gatoyi kuruta kugira Full node canke mbere node pruned.
 
 
 

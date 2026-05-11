@@ -842,7 +842,7 @@ Gushiramwo ishyirwa mu ngiro ritagiramwo ibintu bisigura gukoresha porogaramu y'
 
 
 
-Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko biragenda, aho amakuru ari, n’ingene vyose bikora. Ku rundi ruhande, birarushiriza kugorana igihe nyene ushaka kurenga igikorwa coroshe c’uruzitiro rwa Bitcoin. Nimba intumbero yawe ari iyo kugira gusa urudodo, ugusobanuka kwayo kugereranywa n’ukw’urudodo-mu-gasandugu, canke mbere n’uguke, kuko ari ikibazo co gushiramwo porogarama gusa.
+Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko biragenda, aho amakuru ari, n’ingene vyose bikora. Ku rundi ruhande, birarushiriza kugorana igihe nyene ushaka kurenga igikorwa coroshe c’uruzitiro rwa Bitcoin. Nimba intumbero yawe ari iyo kugira gusa urudodo, ugusobanuka kwayo kugereranywa n’ukw’urudodo-mu-gasandugu(node-in-a-box), canke mbere n’uguke, kuko ari ikibazo co gushiramwo porogarama gusa.
 
 
 
@@ -850,11 +850,11 @@ Ubu ni bwo buryo bufise ubusegaba kandi bushobora guhinduka: urazi neza ibiriko 
 
 
 
-[Bitcoin core ni umukiriya w’urubuga rw’abantu benshi cane] Ikura, yemeza, kandi ikabungabunga Blockchain, itanga RPC/REST APIs, kandi ishobora gushiramwo Wallet. Niba ukunda ibikoresho bisanzwe kandi wumva ushobora kwongerako ibikorwa wewe nyene (nk’umukozi wa Electrum, explorer, na LND), urashobora gukoresha Core uko iri.
+[Bitcoin core ni umukiriya w’urubuga rw’abantu benshi cane] Ikura, yemeza, kandi ikabungabunga Blockchain, itanga RPC/REST APIs, kandi ishobora gushiramwo Wallet. Nimba ukunda ibikoresho bisanzwe kandi wumva ushobora kwongerako ibikorwa wewe nyene (nk’umukozi wa Electrum, explorer, na LND), urashobora gukoresha Core uko iri.
 
 
 
-**Ivyiza:** Gushikama cane, inyifato ishobora gutegekanirwa, ubumenyi butagiramwo ivyiza, vyoroshe gushiramwo no gutunganya.
+**Ivyiza:** Gushikama cane, inyifato ishobora gutekanirwa, ubumenyi butagiramwo ivyiza, vyoroshe gushiramwo no gutunganya.
 
 
 
@@ -880,7 +880,7 @@ Hari impamvu 2 zishoboka zo guhitamwo Knots kuruta Core:
 
 
 - Ubuhinga**: Amahitamwo atandukanye ava kuri Core, cane cane mu bijanye n’uburongozi bw’ivy’ugutanga amakuru, mu kumenya amafaranga yemerwa kandi atangazwa n’uruzitiro rwawe.
-- Policy**: Abantu bamwe bamwe barakunda gukoresha ubundi ba clients nka Knots kubera imvo zitari izo mu vy’ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi no kumenya ingene yobakoresha neza. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kubera ko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bwinshi bw’umukiriya.
+- Policy**: Abantu bamwe bamwe barakunda gukoresha abandi ba clients nka Knots kubera imvo zitari izo mu vy’ubuhinga, cane cane kugira ngo bashigikire ubundi buryo bwo gukoresha Core gutyo bagabanye ububasha bwayo bwo gukoresha. Iyo Core izokwigera ihungabana, vyoba vyiza atari gusa kugira abaguzi bakomeye kandi batunganijwe neza, ariko kandi no kumenya ingene yobakoresha neza. Abandi bakoresha Knots mu ntumbero zo kwiyamiriza, kubera ko batakaje icizigiro mu bategura Core canke ntibemera uburongozi bwinshi bw’umukiriya.
 
 
 https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
@@ -901,7 +901,7 @@ Ni umuti woroshe cane wo gutangura no gucunga ibikorwa vyinshi vy'inyongera ku m
 
 
 
-Rero, node-in-a-box ni yoroshe cane gukoresha igihe cose vyose bikora neza, ariko iyo habaye ikibazo, utegerezwa kwitegurira gukora ubushakashatsi burebure, kurindira imfashanyo, no guhumanya ibiganza vyawe.
+Rero, node-in-a-box niyo yoroshe cane gukoresha igihe cose vyose bikora neza, ariko iyo habaye ikibazo, utegerezwa kwitegurira gukora ubushakashatsi burebure, kurindira imfashanyo, no guhumanya ibiganza vyawe.
 
 
 
@@ -915,7 +915,7 @@ Vyinshi muri ivyo bisubizo biraboneka mu buryo bubiri:
 
 
 
-Aha niho hari incamake y'ibisubizo nyamukuru vy'urudodo-mu-gasanduku biriho (mu 2025):
+Aha niho hari incamake y'ibisubizo nyamukuru vy'urudodo-mu-gasanduku(node-in-a-box) biriho (mu 2025):
 
 
 
@@ -931,11 +931,11 @@ Aha niho hari incamake y'ibisubizo nyamukuru vy'urudodo-mu-gasanduku biriho (mu 
 
 
 
-Yatangujwe mu 2020 nk’uruzitiro rworoshe rwa Bitcoin ruherekejwe n’ibikoresho bikeyi vy’inyongera, Umbrel yarateye imbere buhoro buhoro iba igicu co mu nzu gifise ubushobozi bwose, c’ubuhinga bwa none.
+Yatangujwe mu 2020 nk’uruzitiro rworoshe rwa Bitcoin ruherekejwe n’ibikoresho bikeyi vy’inyongera, Umbrel yarateye imbere buhoro buhoro iba igicu co mu nzu(home cloud) gifise ubushobozi bwose, n’ubuhinga bwa none.
 
 
 
-Sinzoja mu ndondoro nyinshi hano ku kuntu ikora n’ibintu vyihariye biyiranga, kuko ivyo tuzobisuzuma mu buryo burambuye mu kigabane ca mbere c’igice gikurikira. Nkako, kubera intumbero z’iri shure rya BTC 202, nahisemwo gukoresha UmbrelOS, iyo nizera ko ari yo nzira nziza cane yo gukoresha node-in-a-box ku batangura n’abakoresha hagati.
+Sinzoja mu ndondoro nyinshi hano ku kuntu ikora n’ibintu vyihariye biyiranga, kuko ivyo tuzobisuzuma mu buryo buramvuye mu kigabane ca mbere c’igice gikurikira. Nkako, kubera intumbero z’iri shure rya BTC 202, nahisemwo gukoresha UmbrelOS, iyo nizera ko ari yo nzira nziza cane yo gukoresha node-in-a-box ku batangura n’abakoresha hagati.
 
 
 
@@ -945,7 +945,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-[Start9 itanga StartOS (https://start9.com/), ubuhinga bwagenewe "ubuhinga bwo gukoresha ubuhinga bwa none": intumbero ni uko umuntu wese yogira no gucunga server yiwe bwite, ikomezwa n'isoko ry'ibikoresho vy'ubuhinga bwa none. Ushobora kugura server ya Start9 (Server One ku madolari 619, Server Pure ku madolari 899) canke ugakoranya iyawe mu buryo bwa DIY ku mashine yawe bwite.
+[Start9 itanga StartOS (https://start9.com/), uburyo bwagenewe "ubuhinga bwo gukoresha ubuhinga bwa none": intumbero ni uko umuntu wese yogira no gucunga server yiwe bwite, ikomezwa n'isoko ry'ibikoresho vy'ubuhinga bwa none. Ushobora kugura server ya Start9 (Server One ku madolari 619, Server Pure ku madolari 899) canke ugakoranya iyawe mu buryo bwa DIY ku mashine yawe bwite.
 
 
 
@@ -961,7 +961,7 @@ Itandukaniro rikomeye na Umbrel riri muri Interface. Umbrel yizigira UX isukuye 
 
 
 
-Muri make, nimba ukeneye gusa ibikorwa vy’ingenzi vya Bitcoin, ataco wipfuza cane mu bidukikije vy’ubutunzi cane vya Umbrel, kandi uwukoresha Interface atari we abanza, rero Start9 ni uburyo bwiza. Ahandi ho, Umbrel ni yo ihitamwo ryiza.
+Muri make, nimba ukeneye gusa ibikorwa vy’ingenzi vya Bitcoin, ataco wipfuza cane mu bidukikije vy’ubutunzi cane vya Umbrel, kandi uwukoresha Interface atari we abanza, rero Start9 ni uburyo bwiza. Ahandi ho, Umbrel ni yo hitamwo ryiza.
 
 
 
@@ -1007,11 +1007,11 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo ni ubuzima bwite bwibanda ku nzira y’ubuzima bwite](https://wiki.ronindojo.io/ru/home) ikoresha ubuhinga bwo gukoresha Samurai Dojo na Whirlpool, ifise Interface yihariye n’ibindi bikoresho vyagenewe canecane ibidukikije vy’i Samurai.
+[RoninDojo ni ubuzima bwite bwibanda ku nzira y’ubuzima bwite](https://wiki.ronindojo.io/ru/home) ikoresha ubuhinga bwo gukoresha Samourai Dojo na Whirlpool, ifise Interface yihariye n’ibindi bikoresho vyagenewe cane cane ibidukikije vy’i Samourai.
 
 
 
-Ingingo ngenderwako ni yoroshe: nimba ukoresha Ashigaru Wallet (Fork yakurikiye Samurai Wallet, inyuma y’ugufatwa kw’abayikoze) canke nimba ushaka kwungukira ku bikoresho vy’ubuzima bwite biteye imbere, RoninDojo ni iyawe.
+Ingingo ngenderwako ni yoroshe: nimba ukoresha Ashigaru Wallet (Fork yakurikiye Samourai Wallet, inyuma y’ugufatwa kw’abayikoze) canke nimba ushaka kwungukira ku bikoresho vy’ubuzima bwite biteye imbere, RoninDojo ni iyawe.
 
 
 
@@ -1019,7 +1019,7 @@ Ingingo ngenderwako ni yoroshe: nimba ukoresha Ashigaru Wallet (Fork yakurikiye 
 
 
 
-Uwo mugambi wari waratanga imashini yari yaratunganijwe imbere y’igihe yitwa Tanto, ariko ubu nta mashini iriho. Bishobora kugaruka mu nyuma. Hagati aho, birashoboka gushiramwo RoninDojo mu buryo bworoshe kuri Rock5B+ canke Rockpro64, canke mbere mu buryo butaziguye kuri Raspberry Pi.
+Uwo mugambi wari waratanze imashini yari yaratunganijwe imbere y’igihe yitwa Tanto, ariko ubu nta mashini iriho. Bishobora kugaruka mu nyuma. Hagati aho, birashoboka gushiramwo RoninDojo mu buryo bworoshe kuri Rock5B+ canke Rockpro64, canke mbere mu buryo butaziguye kuri Raspberry Pi.
 
 
 
@@ -1053,7 +1053,7 @@ Amaze gutohoza inyishu zitandukanye za porogarama, ubu ni igihe co guhitamwo ima
 
 
 
-None ko twasuzumye ubushobozi bwose bwa software, reka twibande ku bikoresho bisabwa ku node yawe. Nzoguha impanuro zitomoye ku bijanye no guhitamwo ibihimba vyawe, hamwe n’imiterere ihuye n’ingengo y’imari itandukanye. Ego ni ko, iki ni iciyumviro canje bwite n’ivyiyumviro vyanje: nta gukeka ko hariho n’izindi nzira zibereye uretse izo zishikirijwe ngaha. Ikindi, sinzosubira gusura imashini zibanza gukoranirizwa hamwe zitangwa n’imigambi y’ubuhinga bwa node-in-a-box, ivyo twamaze kubivuga mu kigabane c’imbere. Aha, tuzokwibanda cane ku mirongo y’ibisubizo vy’ubuhinga bwa none.
+None ko twasuzumye ubushobozi bwose bwa software, reka twibande ku bikoresho bisabwa kuri node yawe. Nzoguha impanuro zitomoye ku bijanye no guhitamwo ibihimba vyawe, hamwe n’imiterere ihuye n’ingengo y’imari itandukanye. Ego ni ko, iki ni iciyumviro canje bwite n’ivyiyumviro vyanje: nta gukeka ko hariho n’izindi nzira zibereye uretse izo zishikirijwe ngaha. Ikindi, sinzosubira gusura imashini zibanza gukoranirizwa hamwe zitangwa n’imigambi y’ubuhinga bwa node-in-a-box, ivyo twamaze kubivuga mu kigabane c’imbere. Aha, tuzoshimikira cane ku mirongo y’ibisubizo vy’ubuhinga bwa none.
 
 
 
@@ -1061,7 +1061,7 @@ None ko twasuzumye ubushobozi bwose bwa software, reka twibande ku bikoresho bis
 
 
 
-Mu myaka mikeyi iheze, abakoresha ama bitcoiners bararushirije kumenya iciyumviro kitari co gisanzwe, cane cane mu gihe node-in-a-box yamenyekanye cane mu ntango z’imyaka ya 2020: node ya Bitcoin ikwiye gukoreshwa n’imashini yihariye gusa iyo ntumbero. Ariko ivyo si ukuri. Ntukeneye vy’ukuri mudasobwa yihariye kugira ngo ukoreshe node ya Bitcoin: Bitcoin core irashoboye neza gukora kuri PC yawe ya misi yose. Niba ufise umwanya uhagije wo gukoresha Blockchain canke ushobora gukata, urashobora kwemeza uruzitiro, ugahuza Wallet yawe, mbere ugafunga porogarama iyo umaze kuyikoresha. Inyungu y’iyi nzira ni nini cane: nta n’ishoramari ry’intango ririho kandi nta n’ibintu vyinshi bigoranye.
+Mu myaka mikeyi iheze, abakoresha ama bitcoiners bararushirije kumenya iciyumviro kitari co gisanzwe, cane cane mu gihe node-in-a-box yamenyekanye cane mu ntango z’imyaka ya 2020: node ya Bitcoin ikwiye gukoreshwa n’imashini yihariye gusa iyo ntumbero. Ariko ivyo si ukuri. Ntukeneye vy’ukuri mudasobwa yihariye kugira ngo ukoreshe node ya Bitcoin: Bitcoin core irashoboye neza gukora kuri PC yawe ya misi yose. Nimba ufise umwanya uhagije wo gukoresha Blockchain canke ushobora gukata, urashobora kwemeza uruzitiro, ugahuza Wallet yawe, mbere ugafunga porogarama iyo umaze kuyikoresha. Inyungu y’iyi nzira ni nini cane: nta n’ishoramari ry’intango ririho kandi nta n’ibintu vyinshi bigoranye.
 
 
 
@@ -1069,7 +1069,7 @@ Mu myaka mikeyi iheze, abakoresha ama bitcoiners bararushirije kumenya iciyumvir
 
 
 
-Ivyo bivuzwe, gukoresha imashini yihariye akenshi birarushiriza kuryoha. Ishobora gukora ubudasiba (24/7), ishobora gushikirwa kure ibihe vyose, ntiyigere ikoresha ubutunzi bw’imashini yawe nyamukuru, kandi, ikiruta vyose, ikoreshwa mu buryo bwihariye (ikintu ciza co gucungera umutekano: iyo PC yawe bwite ihuye n’ingorane, node yawe irabandanya gukora, n’ibihushanye n’ivyo). Rero ikibazo si "Noba nkeneye kwegurira imashini?", ahubwo ni "Noba nkeneye node iguma iri kuri internet, ishobora gushikirwa n'ibindi bikoresho, kandi ishobora gutera imbere?" (Imiravyo, indexers, ibindi bikoresho...). Nimba inyishu ari egome, guhitamwo imashini itandukanye bizokworoha cane.
+Ivyo bivuze, gukoresha imashini yihariye akenshi birarushiriza kuryoha. Ishobora gukora ubudasiba (24/7), ishobora gushikirwa kure ibihe vyose, ntiyigere ikoresha ubutunzi bw’imashini yawe nyamukuru, kandi, ikiruta vyose, ikoreshwa mu buryo bwihariye (ikintu ciza co gucungera umutekano: iyo PC yawe bwite ihuye n’ingorane, node yawe irabandanya gukora, n’ibihushanye n’ivyo). Rero ikibazo si "Noba nkeneye kwegurira imashini?", ahubwo ni "Noba nkeneye node iguma iri kuri internet, ishobora gushikirwa n'ibindi bikoresho, kandi ishobora gutera imbere?" (Imiravyo, indexers, ibindi bikoresho...). Nimba inyishu ari egome, guhitamwo imashini itandukanye bizokworoha cane.
 
 
 
@@ -1085,11 +1085,11 @@ Ni umuti w’ubutunzi kuruta iyindi yose. Benshi muri twebwe dufise PC ya kera i
 
 
 
-Imbere yo kugura ikintu ico ari co cose, banza urabe igitigiri c’ibibanza vyo gukoresha kuri disk, ubwoko bw’ihuriro (M.2 canke SATA), uburyo RAM iteye (SODIMM canke DIMM), n’ingene ikora (DDR4, n’ibindi). Ushobora kandi gufata akaryo ko gusukura imashini, cane cane umuyaga, kugira ngo ukore neza.
+Imbere yo kugura ikintu ico ari co cose, banza urabe igitigiri c’ibibanza vyo gukoresha kuri disk, ubwoko bw’ihuriro (M.2 canke SATA), uburyo RAM iteye (SODIMM canke DIMM), n’ingene ikora (DDR4, n’ibindi). Ushobora kandi gufata akaryo ko gusukura imashini, cane cane umuyaga(ventilateur), kugira ngo ukore neza.
 
 
 
-Ariko rero, urabe maso nimba uriko urakoresha laptop: bateri irashobora kuba ingorane uko igihe kigenda kirarenga (ibindi kuri ivyo mu nyuma mu kigabane).
+Ariko rero, uraba maso nimba uriko urakoresha laptop: bateri irashobora kuba ingorane uko igihe kigenda kirarenga (ibindi kuri ivyo mu nyuma mu kigabane).
 
 
 
@@ -1097,7 +1097,7 @@ Ariko rero, urabe maso nimba uriko urakoresha laptop: bateri irashobora kuba ing
 
 
 
-Isoko ryuzuye ama PC mato mato y’ubudandaji yasanuwe nk’aya *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, canke *Dell OptiPlex Micro*. Izo mashini zirakomeye, zikomeye, ntizivuga kandi zikoresha neza inguvu. Igiciro cavyo kiri munsi cane y’ibindi bishasha, kandi biroroshe kuronka ibikoresho bifise amaprocesseur i5/i7 y’uruvyaro rwa 6 gushika ku rwa 10 n’ubuhinga bwa RAM bwa 8 gushika ku 16 GB, vyose ku bici- ro bikwegera cane, muri rusangi biri hagati ya €70 na €200, bivanye n’ingene biteye. Mu vyiyumviro vyanje, iyi ni yo nzira nziza cane nimba uriko urondera imashini yihariye ku nzira yawe ya Bitcoin.
+Isoko ryuzuye ama PC mato mato y’ubudandaji yasanuwe nk’aya *Lenovo ThinkCentre Tiny*, *HP EliteDesk Mini*, canke *Dell OptiPlex Micro*. Izo mashini zirakomeye, zikomeye, ntizivuga kandi zikoresha neza inguvu. Igiciro cavyo kiri munsi cane y’ibindi bishasha, kandi biroroshe kuronka ibikoresho bifise amaprocesseur i5/i7 y’uruvyaro rwa 6 gushika ku rwa 10 n’ubuhinga bwa RAM bwa 8 gushika ku 16 GB, vyose ku biciro bikwegera cane, muri rusangi biri hagati ya €70 na €200, bivanye n’ingene biteye. Mu vyiyumviro vyanje, iyi ni yo nzira nziza cane nimba uriko urondera imashini yihariye ku nzira yawe ya Bitcoin.
 
 
 
@@ -1109,7 +1109,7 @@ Birashoboka kandi kuronka ama PC n’ama laptops yakoreshejwe amaze imyaka mikey
 
 
 
-**Iciyumviro:** imashini zivuye mu mashirahamwe, nka *ThinkCentre Tiny*, akenshi zifise gusa *DisplayPort* (DP) y’ibarabara, ata n’isohoka rya HDMI. Ntimwibagire rero kuzana adapteur canke umugozi wa DP-to-HDMI nimba mukeneye.
+**Iciyumviro:** imashini zivuye mu mashirahamwe, nka *ThinkCentre Tiny*, akenshi zifise gusa *DisplayPort* (DP) y’ibarabara, ata n’isohoka rya HDMI. Ntimwibagire rero kuzana adaptateur canke umugozi wa DP-to-HDMI nimba m'uwukeneye.
 
 
 
@@ -1145,7 +1145,7 @@ Ku bwanje, nkunda *Lenovo ThinkCentre Tiny*, ikwiragiye cane kw’isoko ry’ibi
 
 
 
-**Intege nke:** irazimvye gatoyi kurusha Raspberry Pi-type SBC, nta screen yubatswemwo (ushobora kuyironka kure canke biciye ku moniteur yo hanze), nta bateri (irazima bukwi na bukwi iyo umuyagankuba ucitse).
+**Intege nke:** irazimvye gatoyi kurusha Raspberry Pi-type SBC, nta screen yubatswemwo (ushobora kuyironka kure canke biciye kuri moniteur yo hanze), nta bateri (irazima bukwi na bukwi iyo umuyagankuba ucitse).
 
 
 
@@ -1153,7 +1153,7 @@ Ku bwanje, nkunda *Lenovo ThinkCentre Tiny*, ikwiragiye cane kw’isoko ry’ibi
 
 
 
-Ni uburyo bwiza cane bwo gukoresha mini-PC: uno musi, urashobora gusanga ama laptops yakoreshejwe canke mbere mashasha ku bici- ro bito, afise ama processeur meza, ama ports menshi, hamwe n’ibara ry’inyuma n’ibarabara ry’ibarabara (birakora cane ku bijanye no gushiramwo ubwa mbere). Ikiruta vyose, iyo bateri ikora nk’uko UPS isanzwe: iyo umuriro ucitse, iyo node ntizima bukwi na bukwi, kandi irashobora mbere kuguma ikora amasaha menshi.
+Ni uburyo bwiza cane bwo gukoresha mini-PC: uno musi, urashobora gusanga ama laptops yakoreshejwe canke mbere mashasha ku bici-ro bito, afise ama processeur meza, ama ports menshi, hamwe n’ibara ry’inyuma ry’ibarabara (birakora cane ku bijanye no gushiramwo ubwa mbere). Ikiruta vyose, iyo bateri ikora nk’uko UPS isanzwe: iyo umuriro ucitse, iyo node ntizima bukwi na bukwi, kandi irashobora mbere kuguma ikora amasaha menshi.
 
 
 
@@ -1169,11 +1169,11 @@ Ni uburyo bwiza cane bwo gukoresha mini-PC: uno musi, urashobora gusanga ama lap
 
 
 
-Niwahitamwo uwo muti, ndagusavye ko uguma ubona neza uko bateri imeze kugira ngo wirinde akaga kose. Raba ubushuhe bukaze, iminuko idasanzwe, ukudashikama canke igikoko gifise ubumuga. Iyo habaye inkengeri, nuzime iyo orodinateri maze uyikuremwo, hanyuma uyishire mu kibanza kidasanzwe co gusubiramwo ibintu.
+Niwahitamwo uwo muti, ndagusavye ko uguma ubona neza uko bateri imeze kugira ngo wirinde akaga kose. Raba ubushuhe bukaze, iminuko idasanzwe, ukudashikama canke igikoko gifise ubumuga. Iyo habaye inkengeri, nuzimye iyo orodinateri hama uyikuremwo, hanyuma uyishire mu kibanza kidasanzwe co gusubiramwo ibintu.
 
 
 
-**Impanuro:** Niba BIOS/UEFI canke igikoresho c’umuhinguzi kivyemerera, shiraho umupaka w’umuzigo (nk’akarorero, 60% canke 80%) kugira ngo wongere ubuzima bwa bateri.
+**Impanuro:** Nimba BIOS/UEFI canke igikoresho c’umuhinguzi kivyemerera, shiraho umupaka w’umuzigo (nk’akarorero, 60% canke 80%) kugira ngo wongere ubuzima bwa bateri.
 
 
 
@@ -1207,7 +1207,7 @@ Raspberry Pi ifise ingorane nyinshi:
 
 
 
-Mu mateka, akamaro kanini k’ama SBC nka Raspberry Pi ni igiciro cayo: ku ma euros amajana makeyi, woshobora kuronka imashini yihariye. Ariko rero, uno musi, ibiciro vyaradutse cane, kandi iyo umaze kwongerako ibikoresho vyose vy’ingenzi vy’inyongera, igiciro kiriko cegera ic’ama PC mato mato x86 ya mbere yakoreshejwe canke yasanuwe, ayo, mu vyiyumviro vyanje, atanga inyungu nyinshi cane. Kubera iyo mpamvu, sinsaba ko umuntu ahitamwo SBC.
+Mu mateka, akamaro kanini k’ama SBC nka Raspberry Pi ni igiciro cayo: ku ma euros amajana makeyi, woshobora kuronka imashini yihariye. Ariko rero, uno musi, ibiciro vyaraduze cane, kandi iyo umaze kwongerako ibikoresho vyose vy’akamaro vy’iyongera, igiciro kiriko cegera ic’ama PC mato mato x86 ya mbere yakoreshejwe canke yasanuwe, ayo, mu vyiyumviro vyanje, atanga inyungu nyinshi cane. Kubera iyo mpamvu, sinsaba ko umuntu ahitamwo SBC.
 
 
 
@@ -1223,7 +1223,7 @@ Mu buryo bw’ubuhinga, birashoboka gukoresha node ya Bitcoin kuri HDD. Ikibazo 
 
 
 
-SSDs zihindura cane ubumenyi bwawe bwo gukoresha: vyose bica vyihuta kandi bigenda neza, bikaba vyizigirwa cane. Gukoresha SSD rero ni (hafi) itegeko ku node yawe, kandi ntuzokwicuza, cane cane ko ibigereranyo vy’ubushobozi bwinshi ubu bishobora kugurwa.
+SSD zihindura cane ubumenyi bwawe bwo gukoresha: vyose bica vyihuta kandi bigenda neza, bikaba vyizigirwa cane. Gukoresha SSD rero ni (hafi) itegeko kuri node yawe, kandi ntuzokwicuza, cane cane ko ibigereranyo vy’ubushobozi bwinshi ubu bishobora kugurwa.
 
 
 
@@ -1231,7 +1231,7 @@ SSDs zihindura cane ubumenyi bwawe bwo gukoresha: vyose bica vyihuta kandi bigen
 
 
 
-Ku bijanye n’ubushobozi, 2TB iriko iragenda yishingira intahe buhoro buhoro nk’igipimo gishasha gishoboka. Mu ci ca 2025, Blockchain iramaze kwegera 700 GB, kandi iyo wongeyeko Umbrel, indexer ya Address, n’ibikoresho bikeyi, SSD ya 1 TB izokwihuta kwuzura. Iyo ufise 2TB, urafise urugero rwiza rw’imyaka izoza (mu kigereranyo cagutse, hagati y’imyaka 5 na 15). Ushobora kandi guhitamwo 4TB nimba utegura gukoresha porogaramu nyinshi kuri Umbrel, kubika amadosiye manini mu kwiyakira, canke nimba ushaka kwitega umwanya wawe wo kuri disiki ukeneye ku rugero runini.
+Ku bijanye n’ubushobozi, 2TB iriko iragenda yishingira intahe buhoro buhoro nk’igipimo gishasha gishoboka. Muci rya 2025, Blockchain iramaze kwegera 700 GB, kandi iyo wongeyeko Umbrel, indexer ya Address, n’ibikoresho bikeyi, SSD ya 1 TB izokwihuta kwuzura. Iyo ufise 2TB, urafise urugero rwiza rw’imyaka izoza (mu kigereranyo cagutse, hagati y’imyaka 5 na 15). Ushobora kandi guhitamwo 4TB nimba utegura gukoresha porogaramu nyinshi kuri Umbrel, kubika amadosiye manini mu kwiyakira, canke nimba ushaka kwitega umwanya wawe wo kuri disiki ukeneye ku rugero runini.
 
 
 

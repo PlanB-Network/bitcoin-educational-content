@@ -6,4 +6,4 @@ wrong_answers:
   - Pas besoin de backup
 explanation: |
   Le consommateur n'a pas besoin de beaucoup de liquidité entrante, et les paiements sortants créent naturellement un peu de liquidité entrante sans stratégie complexe.
-reviewed: false
+reviewed: true 

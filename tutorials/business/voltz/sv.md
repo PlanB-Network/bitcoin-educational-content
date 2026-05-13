@@ -19,7 +19,7 @@ Utöver att vara en depåbaserad Lightning wallet som låter dig skicka, ta emot
 
 
 
-Gå till [Voltz]-plattformen (https://www.voltz.com/en) och skapa ett konto genom att klicka på knappen "Try now".
+Gå till [Voltz]-plattformen (https://www.lnvoltz.xyz/en) och skapa ett konto genom att klicka på knappen "Try now".
 
 
 

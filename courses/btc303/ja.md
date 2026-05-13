@@ -1224,8 +1224,8 @@ Lombrozoはコンセンサスの変更にまつわるプロセスについても
 
 
 
-- [ライトニング・ネットワーク](https://planb.academy/resources/glossary/lightning-network)ライトニング・ネットワーク：非常に少額の支払いを迅速に行える決済ネットワーク。[オンチェーン](https://planb.academy/resources/glossary/onchain) ビットコイン のトランザクションをほとんど必要としない。[コアライトニング](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), [Lightning Dev Kit](https://github.com/lightningdevkit) など、相互運用可能な様々な実装が存在する。
-- [コインジョイン](https://planb.academy/resources/glossary/coinjoin)：アドレス：クラスタリングを難しくするために、複数の当事者が協力して支払いを1つのトランザク ションにまとめる。様々な実装が存在する。
+- [ライトニング・ネットワーク](https://planb.academy/resources/glossary/lightning-network)：非常に少額の支払いを迅速に行える決済ネットワーク。[オンチェーン](https://planb.academy/resources/glossary/onchain) ビットコイン のトランザクションをほとんど必要としない。[コアライトニング](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair), [Lightning Dev Kit](https://github.com/lightningdevkit) など、相互運用可能な様々な実装が存在する。
+- [コインジョイン](https://planb.academy/resources/glossary/coinjoin)：アドレス・クラスタリングを難しくするために、複数の当事者が協力して支払いを1つのトランザクションにまとめる。様々な実装が存在する。
 - [サイドチェーン](https://planb.academy/resources/glossary/sidechain)：このシステムは ビットコイン の ブロックチェーン でコインをロックし、他の ブロックチェーン でコインのロックを解除することができる。これにより、ビットコインを他のブロックチェーン、すなわちサイドチェーンに移動させ、そのサイドチェーンで利用可能な機能を利用することができる。例としては、[Blockstream's Elements](https://github.com/ElementsProject/Elements)などがある。
 - OpenTimestamps：ビットコインのブロックチェーンにある[文書をタイムスタンプ](https://opentimestamps.org/)をプライベートな方法で利用できる。そして、その[タイムスタンプ](https://planb.academy/resources/glossary/timestamp)を使って、ある文書がある時間以前に存在したはずであることを証明することができます。
 

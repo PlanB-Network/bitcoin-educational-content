@@ -6,4 +6,4 @@ wrong_answers:
   - Muun
 explanation: |
   Parmi les propositions, seule l'application Alby Go est compatible NWC, même si d'autres applications comme Zeus le sont également.
-reviewed: false
+reviewed: true 

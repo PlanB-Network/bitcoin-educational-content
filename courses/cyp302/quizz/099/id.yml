@@ -6,4 +6,4 @@ wrong_answers:
   - Menghasilkan kunci privat untuk setiap komunikasi
 explanation: |
   MAC adalah skema kriptografi yang memungkinkan verifikasi bahwa sebuah pesan benar-benar berasal dari pengirim yang sah dan tidak telah diubah, sehingga memastikan keaslian dan integritas.
-reviewed: false
+reviewed: true

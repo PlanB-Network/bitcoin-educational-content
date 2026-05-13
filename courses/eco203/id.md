@@ -480,6 +480,7 @@ Proteksionisme, pada kenyataannya, adalah bentuk nasionalisme ekonomi. Tujuannya
 
 ![image](assets/id/057.webp)
 _Contoh iklan promosi blender yang diproduksi di Prancis_
+
 ---
 
 >Pertemuan kami dengan Arnaud Montebourg  

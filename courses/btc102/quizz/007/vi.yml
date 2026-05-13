@@ -1,9 +1,9 @@
 question: Nguyên tắc 3-2-1 có ý nghĩa gì khi sao lưu dữ liệu?
-answer: 3 bản sao được lưu trữ trên 2 thiết bị khác nhau, trong đó 1 bản lưu ở 1 nơi khác
+answer: 3 bản sao trên 2 loại phương tiện khác nhau, với 1 bản được lưu trữ ở ngoài địa điểm chính
 wrong_answers:
   - 3 bản sao trên 2 phương tiện trực tuyến và 1 thiết bị vật lý
-  - 3 phương tiện truyền thông với 2 bản sao, một trong số đó là ngoài trang web
-  - 3 bản sao, 2 bản được mã hóa và 1 bản được lưu trữ ngoài trang web
+  - 3 phương tiện với 2 bản sao, trong đó có 1 bản được lưu trữ ngoài địa điểm chính
+  - 3 bản sao, trong đó 2 bản được mã hóa và 1 bản được lưu trữ ngoài địa điểm chính
 explanation: |
-  Quy tắc này khuyến nghị nên có 3 bản sao dữ liệu trên 2 loại thiết bị khác nhau, với 1 bản sao được lưu trữ ở một nơi khác để có khả năng phục hồi tốt hơn.
-reviewed: false
+  Quy tắc này khuyến nghị nên có 3 bản sao dữ liệu trên 2 loại phương tiện khác nhau, với 1 bản được lưu trữ ở ngoài địa điểm chính nhằm tăng khả năng phục hồi.
+reviewed: true

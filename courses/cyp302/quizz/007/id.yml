@@ -6,3 +6,4 @@ wrong_answers:
   - Anonimisasi pesan
 explanation: |
   Kriptografi modern mencakup skema yang melampaui kerahasiaan untuk memastikan integritas dan keaslian, serta non-repudiasi, tidak seperti skema enkripsi sederhana.
+reviewed: true

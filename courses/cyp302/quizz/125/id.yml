@@ -6,4 +6,4 @@ wrong_answers:
   - Meningkatkan teknik enkripsi simetris
 explanation: |
   Diffie, Hellman, dan Merkle termotivasi oleh kesulitan praktis distribusi dan manajemen kunci untuk mengamankan komunikasi, tantangan krusial di dunia yang beralih ke komunikasi digital.
-  direview: false
+reviewed: true

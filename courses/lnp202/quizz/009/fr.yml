@@ -1,9 +1,9 @@
-question: Quel pouter un opérateur custodial détient-il sur les paiements de ses utilisateurs ?
-answer: Pouter de censure
+question: Quel pouvoir un opérateur custodial détient-il sur les paiements de ses utilisateurs ?
+answer: Pouvoir de censure
 wrong_answers:
-  - Pouter de minage
-  - Pouter de consensus
-  - Pouter de halving
+  - Pouvoir de minage
+  - Pouvoir de consensus
+  - Pouvoir de halving
 explanation: |
   Un opérateur qui contrôle les fonds et les canaux peut bloquer, retarder ou filtrer les paiements.
-reviewed: false
+reviewed: true 

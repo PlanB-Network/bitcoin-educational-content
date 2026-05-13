@@ -196,7 +196,7 @@ Meskipun mengawasi data dalam skala besar membutuhkan musuh yang kuat, seperti b
 
 Sebagian besar data jaringan lokal kita - baik di rumah, di kantor, atau di kafe - sekarang berjalan melalui gelombang radio ke titik akses nirkabel pada router all-in-one, bukan melalui kabel fisik. Jadi, penyerang hanya membutuhkan sedikit sumber daya untuk mencegat lalu lintas lokal Anda. Hal ini sangat mengkhawatirkan karena kebanyakan orang hanya melakukan sedikit hal untuk melindungi data yang melintasi jaringan lokal mereka. Selain itu, penyerang potensial juga bisa menargetkan koneksi broadband seluler kita, seperti 3G, 4G, dan 5G. Semua komunikasi nirkabel ini merupakan sasaran empuk bagi para penyerang.
 
-Oleh karena itu, ide untuk menjaga kerahasiaan komunikasi dengan melindungi saluran komunikasi adalah sebuah aspirasi yang sangat mengkhayal bagi sebagian besar dunia modern. Semua yang kita ketahui menjamin paranoia yang parah: Anda harus selalu berasumsi bahwa ada seseorang yang mendengarkan. Dan kriptografi adalah alat utama yang kita miliki untuk mendapatkan segala jenis keamanan dalam lingkungan modern ini.
+Oleh karena itu, ide untuk menjaga kerahasiaan komunikasi dengan melindungi saluran komunikasi adalah aspirasi yang sangat keliru bagi sebagian besar dunia modern. Semua yang kita ketahui menjamin paranoia yang parah: Anda harus selalu berasumsi bahwa ada seseorang yang mendengarkan. Dan kriptografi adalah alat utama yang kita miliki untuk mendapatkan segala jenis keamanan dalam lingkungan modern ini.
 
 **Catatan:**
 
@@ -355,7 +355,7 @@ Misalkan Bob bermaksud untuk memilih satu hari secara seragam dari tahun kalende
 
 Selama kita berpikir bahwa proses yang dialami Bob benar-benar seragam, kita harus menyimpulkan bahwa ada 1/4 kemungkinan Bob memilih hari di musim panas. Ini adalah **probabilitas tak bersyarat** dari hari yang dipilih secara acak berada di Musim Panas.
 
-Anggaplah sekarang bahwa alih-alih menggambar hari kalender secara seragam, Bob hanya memilih secara seragam di antara hari-hari di mana suhu siang hari di Crystal Lake (New Jersey) adalah 21 derajat Celcius atau lebih tinggi. Dengan informasi tambahan ini, apa yang dapat kita simpulkan tentang probabilitas bahwa Bob akan memilih hari di musim panas?
+Sekarang misalkan, alih-alih memilih satu hari kalender secara acak dan merata, Bob hanya memilih secara seragam di antara hari-hari di mana suhu siang hari di Crystal Lake (New Jersey) adalah 21 derajat Celcius atau lebih tinggi. Dengan informasi tambahan ini, apa yang dapat kita simpulkan tentang probabilitas bahwa Bob akan memilih hari di musim panas?
 
 Kita harus benar-benar menarik kesimpulan yang berbeda dari sebelumnya, bahkan tanpa informasi spesifik lebih lanjut (misalnya, suhu pada siang hari setiap hari di tahun lalu).
 
@@ -524,8 +524,7 @@ Sangat mudah untuk melihat bahwa operasi XOR bersifat komutatif, yaitu bahwa $m_
 
 Operasi XOR pada dua string dengan panjang alternatif dapat memiliki interpretasi yang berbeda, tergantung pada konteksnya. Di sini kita tidak akan membahas operasi XOR pada string dengan panjang yang berbeda.
 
-Operasi XOR setara dengan kasus khusus untuk melakukan operasi modulo pada penambahan bit ketika pembaginya adalah 2. Anda dapat melihat ekuivalensi pada hasil berikut:
-
+Operasi XOR setara dengan kasus khusus untuk melakukan operasi modulo pada penambahan bit ketika pembaginya adalah 2. Anda dapat melihat kesetaraan tersebut pada hasil berikut:
 
 - $(0 + 0) \mod 2 = 0 \oplus 0 = 0$
 - $(1 + 0) \mod 2 = 1 \oplus 0 = 1$
@@ -562,7 +561,7 @@ Sebagai tambahan, misalkan sebuah variabel acak $S'$. Himpunan hasilnya hanya me
 
 Misalkan sekarang saya mengambil 1000 sampel dari $S$ dan 1000 sampel dari $S'$ dan memberikan dua set hasil kepada Anda. Saya akan memberi tahu Anda kumpulan hasil mana yang terkait dengan variabel acak yang mana. Selanjutnya, saya mengambil sampel dari salah satu dari dua variabel acak tersebut. Tetapi kali ini saya tidak memberi tahu Anda variabel acak mana yang saya ambil. Jika $S'$ adalah pseudorandom, maka idenya adalah probabilitas Anda untuk menebak dengan benar variabel acak mana yang saya ambil sampelnya secara praktis tidak lebih baik dari $1/2$.
 
-Biasanya, sebuah string pseudorandom dengan panjang $n$ dihasilkan dengan memilih secara acak sebuah string dengan ukuran $n - x$, di mana $x$ adalah sebuah bilangan bulat positif, dan menggunakannya sebagai input untuk algoritma ekspansif. String acak dengan ukuran $n - x$ ini dikenal sebagai **benih**.
+Biasanya, sebuah string pseudorandom dengan panjang $n$ dihasilkan dengan memilih secara acak sebuah string dengan ukuran $n - x$, di mana $x$ adalah sebuah bilangan bulat positif, dan menggunakannya sebagai input untuk algoritma ekspansif. String acak dengan ukuran $n - x$ ini dikenal sebagai **seed**.
 
 String pseudorandom adalah konsep kunci untuk membuat kriptografi menjadi praktis. Sebagai contoh, pertimbangkan stream cipher. Dengan stream cipher, sebuah kunci yang dipilih secara acak dimasukkan ke dalam sebuah algoritma ekspansif untuk menghasilkan sebuah string pseudorandom yang jauh lebih besar. String pseudorandom ini kemudian digabungkan dengan plaintext melalui operasi XOR untuk menghasilkan ciphertext.
 
@@ -644,14 +643,14 @@ Dua aksioma pertama jelas berlaku. Selain itu, dalam perkalian, elemen 1 dapat b
 
 Sebagai contoh, misalkan $x = 22$. Berapa nilai $y$ dari himpunan $\mathbb{Z}$ yang dikalikan dengan $x$ yang akan menghasilkan elemen identitas 1? Nilai $1/22$ bisa saja digunakan, tetapi nilai ini tidak ada di dalam himpunan $\mathbb{Z}$. Faktanya, Anda akan mengalami masalah ini untuk semua bilangan bulat $x$, selain nilai 1 dan -1 (di mana $y$ harus bernilai 1 dan -1).
 
-Jika kita mengijinkan bilangan real untuk himpunan kita, maka masalah kita akan hilang. Untuk setiap elemen $x$ dalam himpunan, perkalian dengan $1/x$ menghasilkan 1. Karena pecahan termasuk dalam himpunan bilangan real, maka kebalikannya dapat ditemukan untuk setiap bilangan real. Pengecualiannya adalah nol, karena perkalian dengan nol tidak akan menghasilkan elemen identitas 1. Oleh karena itu, himpunan bilangan real tak nol yang dilengkapi dengan perkalian adalah sebuah grup.
+Jika kita mengijinkan bilangan real untuk himpunan kita, maka masalah kita akan hilang. Untuk setiap elemen $x$ dalam himpunan, perkalian dengan $1/x$ menghasilkan 1. Karena pecahan termasuk dalam himpunan bilangan real, maka kebalikannya dapat ditemukan untuk setiap bilangan real. Pengecualiannya adalah nol, karena perkalian dengan nol tidak akan menghasilkan elemen identitas 1. Oleh karena itu, himpunan bilangan real bukan nol yang dilengkapi dengan perkalian memang merupakan sebuah grup.
 
 Beberapa kelompok memenuhi syarat umum kelima, yang dikenal sebagai **kondisi komutativitas**. Kondisi ini adalah sebagai berikut:
 
 
 - Misalkan sebuah grup $G$ dengan sebuah himpunan **S** dan sebuah operator biner $\circ$. Misalkan $a$ dan $b$ adalah elemen-elemen dari **S**. Jika $a \circ b = b \circ a$ untuk setiap dua elemen $a$ dan $b$ di **S**, maka $G$ memenuhi kondisi komutativitas.
 
-Setiap grup yang memenuhi syarat komutatifitas dikenal sebagai grup komutatif, atau grup Abelian (diambil dari nama Niels Henrik Abel). Sangat mudah untuk memverifikasi bahwa himpunan bilangan real atas penjumlahan dan himpunan bilangan bulat atas penjumlahan adalah grup Abelian. Himpunan bilangan bulat atas perkalian sama sekali bukan sebuah grup, sehingga secara ipso facto tidak dapat menjadi grup Abelian. Himpunan bilangan real tak nol atas perkalian, sebaliknya, juga merupakan grup Abelian.
+Setiap grup yang memenuhi syarat komutatifitas dikenal sebagai grup komutatif, atau grup Abelian (diambil dari nama Niels Henrik Abel). Sangat mudah untuk memverifikasi bahwa himpunan bilangan real atas penjumlahan dan himpunan bilangan bulat atas penjumlahan adalah grup Abelian. Himpunan bilangan bulat atas perkalian sama sekali bukan sebuah grup, sehingga secara ipso facto tidak dapat menjadi grup Abelian. Sebaliknya, himpunan bilangan real bukan nol atas perkalian juga merupakan grup Abelian.
 
 Anda harus memperhatikan dua konvensi penting tentang notasi. Pertama, tanda "+" atau "×" akan sering digunakan untuk melambangkan operasi grup, bahkan ketika elemen-elemennya sebenarnya bukan angka. Dalam kasus ini, Anda tidak boleh menafsirkan tanda-tanda ini sebagai penjumlahan atau perkalian aritmatika standar. Sebaliknya, mereka adalah operasi yang hanya memiliki kemiripan abstrak dengan operasi aritmatika ini.
 
@@ -687,7 +686,7 @@ Mari kita beralih ke sebuah contoh. Misalkan $G = \langle \mathbb{Z} \mod 7, + \
 
 Beberapa grup Abelian memiliki satu atau lebih elemen, yang dapat menghasilkan semua elemen grup lainnya melalui eksponensial yang berkelanjutan. Elemen-elemen ini disebut **generator** atau **elemen primitif**.
 
-Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ di sini berarti bahwa grup tersebut berisi semua bilangan bulat positif yang tidak nol dan kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
+Kelas yang penting dari kelompok tersebut adalah $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, di mana $N$ adalah sebuah bilangan prima. Notasi $\mathbb{Z}^*$ di sini berarti bahwa grup tersebut berisi semua bilangan bulat positif bukan nol yang kurang dari $N$. Oleh karena itu, grup seperti ini selalu memiliki elemen $N - 1$.
 
 Sebagai contoh, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Grup ini memiliki elemen-elemen berikut: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Urutan grup ini adalah 10 (yang memang sama dengan $11 - 1$).
 
@@ -1147,7 +1146,7 @@ Dengan demikian, ciphertext $c$ = "IFJSZCRUGDSB".
 
 Contoh lain yang terkenal dari stream cipher adalah **one-time pad**. Dengan one-time pad, Anda cukup membuat sebuah rangkaian bit acak sepanjang pesan plaintext dan menghasilkan ciphertext melalui operasi XOR. Oleh karena itu, kunci privat dan keystream setara dengan one-time pad.
 
-Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, pad sekali pakai sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari pad sekali pakai adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
+Sementara sandi Shift dan sandi Vigenere sangat tidak aman di era modern, one-time pad sangat aman jika digunakan dengan benar. Mungkin aplikasi yang paling terkenal dari one-time pad adalah, setidaknya sampai tahun 1980-an, untuk **saluran telepon Washington-Moskow**. [4]
 
 Hotline ini merupakan hubungan komunikasi langsung antara Washington dan Moskow untuk hal-hal mendesak yang dipasang setelah Krisis Rudal Kuba. Teknologi untuk saluran ini telah berubah selama bertahun-tahun. Saat ini, sambungan ini mencakup kabel serat optik langsung serta dua sambungan satelit (untuk redundansi), yang memungkinkan pengiriman email dan pesan teks. Sambungan ini berakhir di berbagai tempat di AS. Pentagon, Gedung Putih, dan Raven Rock Mountain adalah titik akhir yang diketahui. Berlawanan dengan pendapat umum, hotline ini tidak pernah menggunakan telepon.
 
@@ -1363,9 +1362,9 @@ Skema enkripsi terautentikasi memungkinkan penerima pesan untuk memverifikasi ba
 
 Alasan utamanya adalah bahwa skema enkripsi yang diautentikasi tidak memberikan jaminan bahwa pesan tersebut sebenarnya juga dikirim oleh agen yang membuatnya dalam sebuah sesi komunikasi. Pertimbangkan tiga vektor serangan berikut ini:
 
-1. **Serangan ulang**: Seorang penyerang mengirim ulang ciphertext dan sebuah tag yang ia cegat di antara dua pihak pada titik sebelumnya.
+1. **Serangan pengulangan**: Seorang penyerang mengirim ulang ciphertext dan sebuah tag yang ia cegat di antara dua pihak pada titik sebelumnya.
 
-2. **Serangan pemesanan ulang**: Penyerang mencegat dua pesan pada waktu yang berbeda dan mengirimkannya ke penerima dalam urutan terbalik.
+2. **Serangan pengurutan ulang**: Penyerang mencegat dua pesan pada waktu yang berbeda dan mengirimkannya ke penerima dalam urutan terbalik.
 
 3. **Serangan refleksi**: Seorang penyerang mengamati pesan yang dikirim dari A ke B, dan juga mengirim pesan tersebut ke A.
 
@@ -1399,29 +1398,28 @@ ___
 
 Untuk memahami bagaimana cara kerja stream cipher pseudorandom modern, saya akan fokus pada stream cipher RC4. Ini adalah sebuah stream cipher pseudorandom yang digunakan pada protokol keamanan jalur akses nirkabel WEP dan WAP serta TLS. Karena RC4 memiliki banyak kelemahan yang telah terbukti, RC4 tidak lagi digunakan. Bahkan, Internet Engineering Task Force sekarang melarang penggunaan rangkaian RC4 oleh aplikasi klien dan server di semua contoh TLS. Akan tetapi, RC4 bekerja dengan baik sebagai contoh untuk mengilustrasikan bagaimana cara kerja stream cipher primitif.
 
-Untuk memulai, pertama-tama saya akan menunjukkan cara mengenkripsi pesan plaintext dengan sebuah sandi RC4. Misalkan pesan plaintext kita adalah "SOUP." Enkripsi dengan sandi RC4 bayi kita, kemudian, berlangsung dalam empat langkah.
+Untuk memulai, pertama-tama saya akan menunjukkan cara mengenkripsi pesan plaintext dengan sebuah sandi RC4. Misalkan pesan plaintext kita adalah "SOUP." Enkripsi dengan sandi RC4 sederhana kita kemudian berlangsung dalam empat langkah.
 
 ### Langkah 1
 
-Pertama, tentukan larik **S** dengan $S[0] = 0$ hingga $S[7] = 7$. Larik di sini berarti kumpulan nilai yang dapat diubah-ubah yang diatur oleh sebuah indeks, yang juga disebut daftar dalam beberapa bahasa pemrograman (misalnya, Python). Dalam hal ini, indeks berjalan dari 0 sampai 7, dan nilai juga berjalan dari 0 sampai 7. Jadi **S** adalah sebagai berikut:
+Pertama, definisikan sebuah array **S** dengan $S[0] = 0$ hingga $S[7] = 7$. Larik di sini berarti kumpulan nilai yang dapat diubah-ubah yang diatur oleh sebuah indeks, yang juga disebut daftar dalam beberapa bahasa pemrograman (misalnya, Python). Dalam hal ini, indeks berjalan dari 0 sampai 7, dan nilai juga berjalan dari 0 sampai 7. Jadi **S** adalah sebagai berikut:
 
 
 - $S = [0, 1, 2, 3, 4, 5, 6, 7]$
 
-Nilai-nilai di sini bukanlah angka ASCII, tetapi representasi nilai desimal dari string 1-byte. Jadi nilai 2 akan sama dengan $0000 \ 0011$. Panjang larik **S** adalah 8 byte.
+Nilai-nilai di sini bukanlah angka ASCII, tetapi representasi nilai desimal dari string 1-byte. Jadi nilai 2 akan sama dengan $0000 \ 0011$. Panjang array **S** adalah 8 byte.
 
 ### Langkah 2
 
-Kedua, tentukan larik kunci **K** dengan panjang 8 byte dengan memilih kunci antara 1 dan 8 byte (tanpa pecahan byte yang diperbolehkan). Karena setiap byte terdiri dari 8 bit, Anda dapat memilih angka apa saja antara 0 dan 255 untuk setiap byte kunci Anda.
+Kedua, definisikan sebuah array kunci **K** dengan panjang 8 byte dengan memilih kunci antara 1 dan 8 byte (tanpa pecahan byte yang diperbolehkan). Karena setiap byte terdiri dari 8 bit, Anda dapat memilih angka apa saja antara 0 dan 255 untuk setiap byte kunci Anda.
 
-Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari larik kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot dari larik kunci. Oleh karena itu, larik kunci kita adalah sebagai berikut:
-
+Misalkan kita memilih kunci **k** sebagai $[14, 48, 9]$, sehingga kunci tersebut memiliki panjang 3 byte. Setiap indeks dari array kunci kita, kemudian, diatur sesuai dengan nilai desimal untuk elemen tertentu dari kunci tersebut, secara berurutan. Jika Anda menjalankan seluruh kunci, mulailah lagi dari awal, hingga Anda telah mengisi 8 slot pada array kunci terisi. Dengan demikian, array kunci kita adalah sebagai berikut:
 
 - $K = [14, 48, 9, 14, 48, 9, 14, 48]$
 
 ### Langkah 3
 
-Ketiga, kita akan mentransformasikan larik **S** menggunakan larik kunci **K**, dalam sebuah proses yang dikenal sebagai **penjadwalan kunci**. Prosesnya adalah sebagai berikut dalam pseudocode:
+Ketiga, kita akan mentransformasikan array **S** menggunakan array kunci **K**, dalam sebuah proses yang dikenal sebagai **penjadwalan kunci**. Prosesnya adalah sebagai berikut dalam pseudocode:
 
 
 - Membuat variabel **j** dan **i**
@@ -1430,15 +1428,15 @@ Ketiga, kita akan mentransformasikan larik **S** menggunakan larik kunci **K**, 
     - Set $j = (j + S[i] + K[i]) \mod 8$
     - Tukar $S[i]$ dan $S[j]$
 
-Transformasi larik **S** ditangkap oleh *Tabel 1*.
+Transformasi array **S** ditangkap oleh *Tabel 1*.
 
-Untuk memulai, Anda dapat melihat keadaan awal **S** sebagai $[0, 1, 2, 3, 4, 5, 6, 7]$ dengan nilai awal 0 untuk **j**. Ini akan diubah dengan menggunakan larik kunci $[14, 48, 9, 14, 48, 9, 14, 48]$.
+Untuk memulai, Anda dapat melihat keadaan awal **S** sebagai $[0, 1, 2, 3, 4, 5, 6, 7]$ dengan nilai awal 0 untuk **j**. Ini akan diubah dengan menggunakan array kunci $[14, 48, 9, 14, 48, 9, 14, 48]$.
 
 Perulangan for dimulai dengan $i = 0$. Menurut pseudocode di atas, nilai baru dari **j** menjadi 6 ($j = (j + S[0] + K[0]) \mod 8 = (0 + 0 + 14) \mod 8 = 6 \mod 8$). Dengan menukar $S[0]$ dan $S[6]$, keadaan **S** setelah 1 putaran menjadi $[6, 1, 2, 3, 4, 5, 0, 7]$.
 
 Pada baris berikutnya, $i = 1$. Melalui perulangan for lagi, **j** memperoleh nilai 7 ($j = (j + S[1] + K[1]) \mod 8 = (6 + 1 + 48) \mod 8 = 55 \mod 8 = 7 \mod 8$). Menukar $S[1]$ dan $S[7]$ dari kondisi **S** saat ini, $[6, 1, 2, 3, 4, 5, 0, 7]$, menghasilkan $[6, 7, 2, 3, 4, 5, 0, 1]$ setelah ronde ke-2.
 
-Kita lanjutkan proses ini hingga kita menghasilkan baris terakhir di bagian bawah untuk larik **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
+Kita lanjutkan proses ini hingga kita menghasilkan baris terakhir di bagian bawah untuk array **S**, $[6, 4, 1, 0, 3, 7, 5, 2]$.
 
 *Tabel 1: Tabel penjadwalan utama*
 
@@ -1479,7 +1477,7 @@ Kita kemudian melanjutkan untuk menghasilkan byte lainnya sampai kita mendapatka
 
 Sebagai permulaan, dengan menggunakan tabel ASCII, kita dapat melihat bahwa "SOUP" yang dikodekan oleh nilai desimal dari string byte yang mendasarinya adalah "83 79 85 80". Kombinasi dengan keystream "2 6 3 7" menghasilkan "85 85 88 87", yang tetap sama setelah operasi modulo 256. Dalam ASCII, cipherteks "85 85 88 87" sama dengan "UUXW".
 
-Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari larik **S**? Dalam hal ini, larik **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
+Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari array **S**? Dalam hal ini, array **S** akan terus bertransformasi dengan cara seperti yang ditunjukkan di atas untuk setiap byte **i** dari plaintext, sampai kita memiliki jumlah byte dalam keystream yang sama dengan jumlah huruf dalam plaintext.
 
 *Tabel 2: Pembuatan aliran kunci*
 
@@ -1494,13 +1492,13 @@ Apa yang terjadi jika kata yang akan dienkripsi lebih panjang dari larik **S**? 
 | 4   | 1   | 7   | 2         | 6    | 4    | 7    | 1    | 3    | 0    | 5    | 2    |
 
 
-Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki larik **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. Larik kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari larik **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
+Contoh yang baru saja kita bahas hanyalah sebuah versi sederhana dari stream cipher **RC4**. Stream cipher RC4 yang sebenarnya memiliki array **S** dengan panjang 256 byte, bukan 8 byte, dan sebuah kunci yang dapat berukuran antara 1 sampai 256 byte, bukan 1 sampai 8 byte. array kunci dan aliran kunci kemudian diproduksi dengan mempertimbangkan panjang 256 byte dari array **S**. Perhitungannya menjadi jauh lebih kompleks, tetapi prinsip-prinsipnya tetap sama. Menggunakan kunci yang sama, 14,48,9, dengan cipher RC4 standar, pesan plaintext "SOUP" dienkripsi sebagai 67 02 ed df dalam format heksadesimal.
 
 Sebuah stream cipher di mana keystream memperbarui secara independen dari pesan plaintext atau ciphertext adalah **synchronous stream cipher**. Aliran kunci hanya bergantung pada kunci. Jelasnya, RC4 adalah sebuah contoh dari sebuah stream cipher sinkron, karena keystream tidak memiliki hubungan dengan plaintext atau ciphertext. Semua cipher stream primitif yang disebutkan di bab sebelumnya, termasuk shift cipher, cipher Vigenère, dan one-time pad, juga merupakan jenis cipher sinkron.
 
 Sebaliknya, sebuah **asynchronous stream cipher** memiliki aliran kunci yang dihasilkan oleh kunci dan elemen-elemen sebelumnya dari ciphertext. Jenis cipher ini juga disebut sebagai **cipher yang menyinkronkan sendiri**.
 
-Yang penting, keystream yang dihasilkan dengan RC4 harus diperlakukan sebagai pad sekali pakai, dan Anda tidak dapat menghasilkan keystream dengan cara yang persis sama di waktu berikutnya. Daripada mengubah kunci setiap kali, solusi praktisnya adalah menggabungkan kunci dengan **nonce** untuk menghasilkan bytestream.
+Yang penting, keystream yang dihasilkan dengan RC4 harus diperlakukan sebagai one-time pad, dan Anda tidak dapat menghasilkan keystream dengan cara yang persis sama di waktu berikutnya. Daripada mengubah kunci setiap kali, solusi praktisnya adalah menggabungkan kunci dengan **nonce** untuk menghasilkan bytestream.
 
 ## AES dengan kunci 128-bit
 
@@ -1559,9 +1557,9 @@ Putaran 0 dari sandi Rijndael sangatlah mudah. Larik $S_0$ dihasilkan oleh opera
 
 ### Ronde 1
 
-Pada putaran 1, larik $S_0$ pertama-tama digabungkan dengan kunci bulat $K_1$ menggunakan operasi XOR. Hal ini menghasilkan keadaan baru $S$.
+Pada putaran 1, array $S_0$ pertama-tama digabungkan dengan kunci bulat $K_1$ menggunakan operasi XOR. Hal ini menghasilkan keadaan baru $S$.
 
-Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari larik $S$ 16-byte dan menggantinya dengan byte dari larik yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
+Kedua, operasi **substitusi byte** dilakukan pada keadaan $S$ saat ini. Operasi ini bekerja dengan mengambil setiap byte dari array $S$ 16-byte dan menggantinya dengan byte dari array yang disebut **Kotak-S Rijndael**. Setiap byte memiliki transformasi yang unik, dan keadaan baru $S$ dihasilkan sebagai hasilnya. Kotak-S Rijndael ditampilkan pada *Gambar 3*.
 
 *Gambar 3: S-Box Rijndael*
 
@@ -1592,7 +1590,7 @@ Untuk memulai, Anda mendefinisikan setiap elemen byte 00 sampai FF sebagai vekto
 
 Selanjutnya, untuk setiap elemen yang mungkin di dalam field, kita membuat apa yang disebut dengan **Nyberg S-Box**. Di dalam kotak ini, setiap byte dipetakan ke **kebalikan perkaliannya** (yaitu, sehingga hasil perkaliannya sama dengan 1). Kita kemudian memetakan nilai-nilai tersebut dari Nyberg S-Box ke Rijndael S-Box dengan menggunakan **transformasi affine**.
 
-Operasi ketiga pada larik **S** adalah operasi **geser baris**. Operasi ini mengambil status **S** dan mencantumkan semua enam belas byte dalam matriks. Pengisian matriks dimulai dari kiri atas dan bekerja dari atas ke bawah dan kemudian, setiap kali kolom diisi, menggeser satu kolom ke kanan dan ke atas.
+Operasi ketiga pada array **S** adalah operasi **geser baris**. Operasi ini mengambil status **S** dan mencantumkan semua enam belas byte dalam matriks. Pengisian matriks dimulai dari kiri atas dan bekerja dari atas ke bawah dan kemudian, setiap kali kolom diisi, menggeser satu kolom ke kanan dan ke atas.
 
 Setelah matriks **S** dibuat, keempat baris digeser. Baris pertama tetap sama. Baris kedua bergeser satu ke kiri. Baris ketiga bergeser dua ke kiri. Baris keempat bergeser tiga ke kiri. Contoh prosesnya diberikan pada *Gambar 4*. Keadaan asli **S** ditampilkan di bagian atas, dan keadaan yang dihasilkan setelah operasi pergeseran baris ditampilkan di bawahnya.
 
@@ -1641,9 +1639,9 @@ Sebagai langkah selanjutnya, semua suku dalam matriks harus diubah menjadi polin
 
 Semua perkalian kemudian dilakukan **modulo** $x^8 + x^4 + x^3 + x + 1$. Hal ini menghasilkan penambahan empat polinomial di masing-masing empat sel kolom. Setelah melakukan penambahan tersebut **modulo 2**, Anda akan mendapatkan empat polinomial. Setiap polinomial ini mewakili string 8-bit, atau 1 byte, dari **S**. Kita tidak akan melakukan semua perhitungan ini di sini pada matriks pada *Gambar 6* karena sangat luas.
 
-Setelah kolom pertama diproses, tiga kolom lainnya dari matriks **S** diproses dengan cara yang sama. Pada akhirnya, ini akan menghasilkan matriks dengan enam belas byte yang dapat diubah menjadi larik.
+Setelah kolom pertama diproses, tiga kolom lainnya dari matriks **S** diproses dengan cara yang sama. Pada akhirnya, ini akan menghasilkan matriks dengan enam belas byte yang dapat diubah menjadi array.
 
-Sebagai langkah terakhir, larik **S** digabungkan dengan tombol bulat lagi dalam operasi **XOR**. Ini menghasilkan keadaan $S_1$. Artinya,
+Sebagai langkah terakhir, array **S** digabungkan dengan tombol bulat lagi dalam operasi **XOR**. Ini menghasilkan keadaan $S_1$. Artinya,
 
 
 - $S_1 = S \oplus K_0$
@@ -1849,9 +1847,9 @@ Tidak ada satu jawaban di sini. Kriptografi asimetris adalah sebuah alat dan tid
 
 Untuk memulainya, Jim's Sporting Goods mungkin akan mendekati **otoritas sertifikat**, sebuah organisasi yang mendukung distribusi kunci publik. Otoritas sertifikat akan mendaftarkan beberapa detail mengenai Jim's Sporting Goods dan memberikan kunci publik. Kemudian, otoritas tersebut akan mengirimkan sertifikat kepada Jim's Sporting Goods, yang dikenal sebagai **sertifikat TLS/SSL**, dengan kunci publik Jim's Sporting Goods yang ditandatangani secara digital menggunakan kunci publik milik otoritas sertifikat. Dengan cara ini, otoritas sertifikat menegaskan bahwa kunci publik tertentu memang milik Jim's Sporting Goods.
 
-Kunci untuk memahami proses ini dengan sertifikat TLS/SSL adalah bahwa, meskipun Anda umumnya tidak akan memiliki kunci publik Jim's Sporting Goods yang disimpan di mana pun di komputer Anda, kunci publik dari otoritas sertifikat yang diakui memang disimpan di peramban atau sistem operasi Anda. Ini disimpan dalam apa yang disebut **sertifikat root**.
+Kunci untuk memahami proses ini dengan sertifikat TLS/SSL adalah bahwa, meskipun Anda umumnya tidak akan memiliki kunci publik Jim's Sporting Goods yang disimpan di mana pun di komputer Anda, kunci publik dari otoritas sertifikat yang diakui memang disimpan di browser atau sistem operasi Anda. Ini disimpan dalam apa yang disebut **sertifikat root**.
 
-Oleh karena itu, ketika Jim's Sporting Goods memberi Anda sertifikat TLS/SSL, Anda dapat memverifikasi tanda tangan digital otoritas sertifikat melalui sertifikat root pada peramban atau sistem operasi Anda. Jika tanda tangan tersebut valid, Anda dapat relatif yakin bahwa kunci publik pada sertifikat tersebut memang milik Jim's Sporting Goods. Atas dasar ini, mudah untuk menyiapkan protokol untuk komunikasi yang aman dengan Jim's Sporting Goods.
+Oleh karena itu, ketika Jim's Sporting Goods memberi Anda sertifikat TLS/SSL, Anda dapat memverifikasi tanda tangan digital otoritas sertifikat melalui sertifikat root pada browser atau sistem operasi Anda. Jika tanda tangan tersebut valid, Anda dapat relatif yakin bahwa kunci publik pada sertifikat tersebut memang milik Jim's Sporting Goods. Atas dasar ini, mudah untuk menyiapkan protokol untuk komunikasi yang aman dengan Jim's Sporting Goods.
 
 Distribusi kunci kini menjadi jauh lebih sederhana untuk Jim's Sporting Goods. Tidak sulit untuk melihat bahwa manajemen kunci juga telah menjadi sangat disederhanakan. Daripada harus menyimpan ribuan kunci, Jim's Sporting Goods hanya perlu menyimpan kunci privat yang memungkinkannya untuk membuat tanda tangan untuk kunci publik pada sertifikat SSL-nya. Setiap kali pelanggan datang ke situs Jim's Sporting Goods, mereka dapat membuat sesi komunikasi yang aman dari kunci publik ini. Pelanggan juga tidak perlu menyimpan informasi apa pun (selain kunci publik dari otoritas sertifikat yang diakui di sistem operasi dan browser mereka).
 
@@ -1925,7 +1923,7 @@ Tetapi saya tidak akan membiarkan Anda dalam ketegangan sampai SHA-256 menjadi l
 
 - "Ini adalah pesan yang sangat acak, atau agak acak. Bagian awal ini tidak acak, tetapi saya akan mengakhirinya dengan beberapa karakter yang relatif acak untuk memastikan pesan yang sangat tidak terduga. XLWz4dVG3BxUWm7zQ9qS".
 
-Cara umum di mana fungsi hash dengan properti persembunyian digunakan adalah dalam manajemen kata sandi (ketahanan terhadap tabrakan juga penting untuk aplikasi ini). Layanan berbasis akun online yang layak seperti Facebook atau Google tidak akan menyimpan kata sandi Anda secara langsung untuk mengelola akses ke akun Anda. Sebaliknya, mereka hanya akan menyimpan hash dari kata sandi tersebut. Setiap kali Anda mengisi kata sandi pada peramban, sebuah hash akan dihitung terlebih dahulu. Hanya hash tersebut yang dikirim ke server penyedia layanan dan dibandingkan dengan hash yang tersimpan dalam basis data back-end. Properti penyembunyian dapat membantu memastikan bahwa penyerang tidak dapat memulihkannya dari nilai hash.
+Cara umum di mana fungsi hash dengan properti persembunyian digunakan adalah dalam manajemen kata sandi (ketahanan terhadap tabrakan juga penting untuk aplikasi ini). Layanan berbasis akun online yang layak seperti Facebook atau Google tidak akan menyimpan kata sandi Anda secara langsung untuk mengelola akses ke akun Anda. Sebaliknya, mereka hanya akan menyimpan hash dari kata sandi tersebut. Setiap kali Anda mengisi kata sandi pada browser, sebuah hash akan dihitung terlebih dahulu. Hanya hash tersebut yang dikirim ke server penyedia layanan dan dibandingkan dengan hash yang tersimpan dalam basis data back-end. Properti penyembunyian dapat membantu memastikan bahwa penyerang tidak dapat memulihkannya dari nilai hash.
 
 Manajemen kata sandi melalui hash, tentu saja, hanya berfungsi jika pengguna benar-benar memilih kata sandi yang sulit. Properti penyembunyian mengasumsikan bahwa x dipilih secara acak dari sebuah rentang yang sangat besar. Memilih kata sandi seperti "1234", "mypassword", atau tanggal ulang tahun Anda tidak akan memberikan keamanan yang sesungguhnya. Daftar panjang kata sandi yang umum dan hash-nya ada yang dapat dimanfaatkan oleh penyerang jika mereka mendapatkan hash kata sandi Anda. Jenis serangan ini dikenal sebagai **serangan kamus**. Jika penyerang mengetahui beberapa detail pribadi Anda, mereka mungkin juga akan mencoba menebak. Oleh karena itu, Anda selalu membutuhkan kata sandi yang panjang dan aman (lebih baik lagi jika Anda menggunakan kata sandi yang panjang dan acak dari pengelola kata sandi).
 
@@ -1941,7 +1939,7 @@ Walaupun ketahanan terhadap tabrakan dan persembunyian adalah properti utama yan
 
 <partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
-## Masalah anjak piutang
+## Masalah faktorisasi
 
 <chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
@@ -1951,7 +1949,7 @@ Pada bab ini, saya akan menghilangkan beberapa misteri seputar kriptografi asime
 
 Menambahkan kedalaman ini ke dalam diskusi kita bukanlah tugas yang mudah. Hal ini membutuhkan pengenalan beberapa teorema dan proposisi teori bilangan. Tetapi jangan biarkan matematika menghalangi Anda. Mengerjakan diskusi ini akan secara signifikan meningkatkan pemahaman Anda tentang apa yang mendasari kriptografi asimetris dan merupakan sebuah investasi yang berharga.
 
-Sekarang mari kita bahas masalah anjak piutang.
+Sekarang mari kita beralih terlebih dahulu ke masalah faktorisasi.
 
 ___
 
@@ -2014,7 +2012,7 @@ Sebagai permulaan, anggaplah komputer mencoba untuk menyelesaikan masalah dengan
 
 Bahkan jika Anda mengambil semua komputer di planet ini dan meminta mereka mencoba menemukan dan menguji bilangan prima 1024-bit dengan cara ini, peluang 1 banding 1 miliar untuk berhasil menemukan faktor prima dari $N$ akan membutuhkan periode perhitungan yang jauh lebih lama daripada usia alam semesta.
 
-Sekarang dalam praktiknya, komputer dapat melakukan lebih baik daripada prosedur kasar yang baru saja dijelaskan. Ada beberapa algoritma yang dapat digunakan komputer untuk melakukan faktorisasi dengan lebih cepat. Akan tetapi, intinya adalah bahwa bahkan dengan menggunakan algoritma-algoritma yang lebih efisien ini, tugas komputer masih tidak dapat dilakukan secara komputasi. [3]
+Sekarang dalam praktiknya, komputer dapat melakukan lebih baik daripada prosedur kasar yang baru saja dijelaskan. Ada beberapa algoritma yang dapat digunakan komputer untuk melakukan faktorisasi dengan lebih cepat. Namun, intinya adalah bahwa bahkan dengan menggunakan algoritma yang lebih efisien ini, tugas komputer masih tidak layak secara komputasi. [3]
 
 Yang penting, kesulitan dari faktorisasi di bawah kondisi yang baru saja dijelaskan bertumpu pada asumsi bahwa tidak ada algoritma yang efisien secara komputasi untuk menghitung faktor prima. Kami tidak dapat membuktikan bahwa algoritma yang efisien tidak ada. Namun demikian, asumsi ini sangat masuk akal: meskipun telah dilakukan upaya ekstensif selama ratusan tahun, kami belum menemukan algoritma yang efisien secara komputasi.
 
@@ -2185,7 +2183,7 @@ Akan tetapi, kita mungkin dapat secara tidak langsung menghitung $d$ dari urutan
 
 Akhirnya, urutan dapat dihitung secara tidak langsung dengan faktor prima $p$ dan $q$, sehingga pada akhirnya kita dapat menghitung $d$. Tetapi dengan asumsi, nilai $p$ dan $q$ juga tidak diberikan kepada kita.
 
-Sebenarnya, meskipun masalah anjak piutang dalam masalah RSA sulit, kita tidak dapat membuktikan bahwa masalah RSA juga sulit. Mungkin saja ada cara lain untuk menyelesaikan masalah RSA selain melalui pemfaktoran. Namun, secara umum diterima dan diasumsikan bahwa jika masalah pemfaktoran dalam masalah RSA adalah sulit, maka masalah RSA itu sendiri juga sulit.
+Secara tegas, bahkan jika masalah pemfaktoran dalam suatu masalah RSA itu sulit, kita tidak dapat membuktikan bahwa masalah RSA itu sendiri juga sulit. Mungkin saja ada cara lain untuk menyelesaikan masalah RSA selain melalui pemfaktoran. Namun, secara umum diterima dan diasumsikan bahwa jika masalah pemfaktoran dalam masalah RSA adalah sulit, maka masalah RSA itu sendiri juga sulit.
 
 Jika masalah RSA memang sulit, maka ia akan menghasilkan sebuah fungsi satu arah dengan sebuah pintu jebakan. Fungsi di sini adalah $f(g) = g^e \mod N$. Dengan pengetahuan tentang $f(g)$, siapa pun dapat dengan mudah menghitung sebuah nilai $y$ untuk sebuah nilai $g = x$ tertentu. Namun, secara praktis tidak mungkin untuk menghitung nilai tertentu $x$ hanya dengan mengetahui nilai $y$ dan fungsi $f(g)$. Pengecualiannya adalah ketika Anda diberikan sebuah informasi $d$, yaitu pintu jebakan. Dalam hal ini, Anda cukup menghitung $y^d$ untuk menghasilkan $x$.
 
@@ -2226,7 +2224,7 @@ Siapapun yang ingin mengirimkan sebuah pesan $m$ yang merupakan sebuah elemen da
 
 Anda dapat mencoba membuat skema tanda tangan digital dengan cara yang sama. Misalkan Anda ingin mengirimkan pesan $m$ kepada seseorang dengan tanda tangan digital $S$. Anda dapat mengatur $S = m^d \mod N$ dan mengirimkan pasangan $(m,S)$ kepada penerima. Siapa pun dapat memverifikasi tanda tangan digital hanya dengan memeriksa apakah $S^e \mod N = m \mod N$. Akan tetapi, penyerang mana pun akan mengalami kesulitan untuk membuat $S$ yang valid untuk sebuah pesan, karena mereka tidak memiliki $d$.
 
-Sayangnya, mengubah apa yang merupakan masalah yang sulit, yaitu masalah RSA, menjadi sebuah skema kriptografi tidak semudah ini. Untuk skema enkripsi yang mudah, Anda hanya dapat memilih coprimes dari $N$ sebagai pesan Anda. Hal ini tidak memberikan kita banyak kemungkinan pesan, tentu saja tidak cukup untuk komunikasi standar. Sebagai tambahan, pesan-pesan ini harus dipilih secara acak. Hal ini tampaknya agak tidak praktis. Akhirnya, setiap pesan yang dipilih dua kali akan menghasilkan ciphertext yang sama persis. Hal ini sangat tidak diinginkan dalam skema enkripsi apapun dan tidak memenuhi standar keamanan modern yang ketat dalam enkripsi.
+Sayangnya, mengubah masalah RSA yang memang sudah sulit menjadi sebuah skema kriptografi tidaklah sesederhana itu. Untuk skema enkripsi yang mudah, Anda hanya dapat memilih coprimes dari $N$ sebagai pesan Anda. Hal ini tidak memberikan kita banyak kemungkinan pesan, tentu saja tidak cukup untuk komunikasi standar. Sebagai tambahan, pesan-pesan ini harus dipilih secara acak. Hal ini tampaknya agak tidak praktis. Akhirnya, setiap pesan yang dipilih dua kali akan menghasilkan ciphertext yang sama persis. Hal ini sangat tidak diinginkan dalam skema enkripsi apapun dan tidak memenuhi standar keamanan modern yang ketat dalam enkripsi.
 
 Masalahnya menjadi lebih buruk lagi untuk skema tanda tangan digital yang sederhana. Pada saat ini, setiap penyerang dapat dengan mudah memalsukan tanda tangan digital hanya dengan pertama-tama memilih sebuah coprime sebesar $N$ sebagai tanda tangan dan kemudian menghitung pesan asli yang sesuai. Hal ini jelas melanggar persyaratan eksistensial yang tidak dapat dipalsukan.
 

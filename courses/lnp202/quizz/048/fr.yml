@@ -6,4 +6,4 @@ wrong_answers:
   - 1ML
 explanation: |
   Lightning Network Plus permet d’obtenir de la liquidité entrante via des ouvertures de canaux circulaires.
-reviewed: false
+reviewed: true 

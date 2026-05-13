@@ -5,5 +5,5 @@ wrong_answers:
   - プレーンされたテキストでRPCポートを開く
   - 長いパスワードとSSHアクティベーション
 explanation: |
-  強力なパスワードと2FAの組み合わせは、Interface Umbrelへのアクセスを効果的に保護します。
+  強力なパスワードと2FAの組み合わせは、インターフェース Umbrelへのアクセスを効果的に保護します。
 reviewed: true

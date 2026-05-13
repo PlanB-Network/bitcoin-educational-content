@@ -399,7 +399,7 @@ Leo, inawezekana kuwa na uzoefu wa mtumiaji karibu sana na ule wa wallet ya Ligh
 
 
 
-Suluhisho la kwanza si kutumia Lightning kiasili, bali ni kutumia Bitcoin au [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet inayoingiza [ubadilishaji wa atomiki](https://planb.academy/resources/glossary/atomic-swap). Kwa mfano, programu za Aqua au Bull Bitcoin Wallet hutumia njia hii, kwa kukuwezesha kulipa [ankara za Lightning](https://planb.academy/resources/glossary/invoice-lightning) bila kutumia nodi ya Lightning mwenyewe, huku ukibaki chini ya ulinzi wa kibinafsi.
+Suluhisho la kwanza si kutumia Lightning kiasili, bali ni kutumia Bitcoin au [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet inayoingiza [ubadilishaji wa atomiki](https://planb.academy/resources/glossary/atomic-swap). Kwa mfano, programu za Aqua au BULL Wallet hutumia njia hii, kwa kukuwezesha kulipa [ankara za Lightning](https://planb.academy/resources/glossary/invoice-lightning) bila kutumia nodi ya Lightning mwenyewe, huku ukibaki chini ya ulinzi wa kibinafsi.
 
 
 

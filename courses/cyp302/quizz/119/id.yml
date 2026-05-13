@@ -6,3 +6,4 @@ wrong_answers:
   - Ini tidak memungkinkan membagi teks menjadi blok 128-bit
 explanation: |
   Mode ECB tidak direkomendasikan karena menghasilkan enkripsi deterministik, yang berarti blok teks yang identik akan menghasilkan blok ciphertext yang identik, yang dapat dimanfaatkan untuk menebak informasi tentang plaintext.
+reviewed: true

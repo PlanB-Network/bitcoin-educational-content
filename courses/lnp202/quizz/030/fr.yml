@@ -6,4 +6,4 @@ wrong_answers:
   - 90 % sortante 10 % entrante
 explanation: |
   Lorsqu’on ouvre un canal, toute la liquidité se trouve initialement du côté de l’initiateur.
-reviewed: false
+reviewed: true 

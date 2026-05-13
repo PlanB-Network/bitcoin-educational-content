@@ -399,7 +399,7 @@ W dzisiejszych czasach możliwe jest uzyskanie doświadczenia użytkownika bardz
 
 
 
-Pierwszym rozwiązaniem jest po prostu nieużywanie Lightning natywnie, ale korzystanie z Bitcoin lub [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, które zawierają [atomowe swapy](https://planb.academy/resources/glossary/atomic-swap). Na przykład aplikacje Aqua lub Bull Bitcoin Wallet wykorzystują tę metodę, umożliwiając płacenie [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) bez samodzielnej obsługi węzła Lightning, pozostając pod własną opieką.
+Pierwszym rozwiązaniem jest po prostu nieużywanie Lightning natywnie, ale korzystanie z Bitcoin lub [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, które zawierają [atomowe swapy](https://planb.academy/resources/glossary/atomic-swap). Na przykład aplikacje Aqua lub BULL Wallet wykorzystują tę metodę, umożliwiając płacenie [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) bez samodzielnej obsługi węzła Lightning, pozostając pod własną opieką.
 
 
 

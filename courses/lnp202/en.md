@@ -297,7 +297,7 @@ Today, it's possible to have a user experience very close to that of a Lightning
 ### Option 1: Do not use Lightning directly
 
 
-The first solution is simply not to use Lightning natively, but to use a Bitcoin or [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet that embeds [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). For example, Aqua or Bull Bitcoin Wallet applications use this method, by enabling you to pay [Lightning invoices](https://planb.academy/resources/glossary/invoice-lightning) without operating a Lightning node yourself, while remaining in self-custody.
+The first solution is simply not to use Lightning natively, but to use a Bitcoin or [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet that embeds [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). For example, Aqua or BULL Wallet applications use this method, by enabling you to pay [Lightning invoices](https://planb.academy/resources/glossary/invoice-lightning) without operating a Lightning node yourself, while remaining in self-custody.
 
 
 The principle is straightforward: your funds stay in Bitcoin, either on-chain or on Liquid, and you access them through a wallet where you hold the keys in the traditional manner. When you scan a Lightning invoice, your wallet initiates a transaction (on-chain or Liquid) to an atomic swap service. This service then manages the Lightning payment through its own node, using the bitcoins you provided on-chain or via Liquid. As a result, you don't have to handle any Lightning channels yourself, yet you can still settle Lightning invoices seamlessly.

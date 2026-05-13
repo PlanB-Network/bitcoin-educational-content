@@ -1,0 +1,2 @@
+description: |
+  Second provides simple developer solutions for integrating Ark and Lightning bitcoin payments into applications. The platform offers a painless API for fast, low-cost, self-custodial bitcoin payments without the complexity of channel management or routing. Second bridges Ark and Lightning, enabling users to make Lightning payments directly from Ark balances while maintaining full self-custody.

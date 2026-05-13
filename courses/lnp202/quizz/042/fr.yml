@@ -6,4 +6,4 @@ wrong_answers:
   - Désynchronisation du nœud Lightning
 explanation: |
   Les fonds sont bloqués par un timelock et les frais sont souvent élevés.
-reviewed: false
+reviewed: true 

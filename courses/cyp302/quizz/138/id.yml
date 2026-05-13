@@ -6,3 +6,4 @@ wrong_answers:
   - Dapat dihasilkan secara real-time
 explanation: |
   Ketahanan terhadap tabrakan memastikan bahwa praktis mustahil untuk menemukan dua masukan berbeda yang menghasilkan hash yang sama, yang penting untuk memverifikasi bahwa perangkat lunak tidak telah diubah.
+reviewed: true

@@ -1,4 +1,4 @@
-question: Cơ chế cơ bản nào cho phép SegWit tăng dung lượng khối trong khi vẫn duy trì khả năng tương thích ngược với các node trước SegWit?
+question: Cơ chế cơ bản nào cho phép SegWit tăng dung lượng khối trong khi vẫn duy trì khả năng tương thích ngược với các nút trước SegWit?
 answer: Hệ thống trọng số khối, trong đó dữ liệu chứng thực được giảm 75% trong các tính toán dung lượng, cho phép tổng dung lượng dữ liệu lên đến 4MB trong khi các nút cũ chỉ thấy ≤1MB.
 wrong_answers:
   - Các thuật toán nén giúp giảm kích thước dữ liệu chứng thực xuống 75% trước khi truyền, giữ cho các khối dữ liệu có kích thước dưới 1MB cho tất cả các nút.

@@ -1,8 +1,8 @@
-question: Apa keuntungan utama dari verifikasi pembayaran yang disederhanakan (SPV) yang diimplementasikan di BitCoinJ dan digunakan oleh wallet ringan seperti Bitcoin Wallet untuk Android?
+question: Apa keuntungan utama dari verifikasi pembayaran yang disederhanakan (SPV) yang diimplementasikan di BitCoinJ dan digunakan oleh dompet ringan seperti Bitcoin Wallet untuk Android?
 answer: Ini memungkinkan transaksi diverifikasi tanpa harus mengunduh seluruh blockchain
 wrong_answers:
   - Secara otomatis mengacak bitcoin saat menerima pembayaran untuk meningkatkan kerahasiaan
-  - Ia mengenkripsi data wallet menggunakan algoritma AES-256 untuk mencegah pencurian Trojan horse
+  - Ia mengenkripsi data dompet menggunakan algoritma AES-256 untuk mencegah pencurian Trojan horse
   - Ini memungkinkan untuk mengamankan koneksi ke node yang ada untuk mencegah serangan yang mengeksploitasi kelenturan transaksi
 explanation: |
  Simplified Payment Verification (SPV) merupakan inovasi penting yang dijelaskan dalam white paper Bitcoin yang memungkinkan thin client untuk memverifikasi bahwa transaksi mereka

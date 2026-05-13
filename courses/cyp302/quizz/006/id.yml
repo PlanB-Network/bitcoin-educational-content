@@ -6,3 +6,4 @@ wrong_answers:
   - Kriptografi simetris
 explanation: |
   Fungsi hash adalah komponen kunci dari kriptografi modern, tetapi mereka tidak secara spesifik terkait dengan skema simetris atau asimetris, tidak seperti kunci publik dan privat.
+reviewed: true

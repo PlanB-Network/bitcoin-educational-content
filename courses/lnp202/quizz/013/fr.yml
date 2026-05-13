@@ -2,8 +2,8 @@ question: Quelle solution permet d'exécuter un véritable nœud Lightning sur m
 answer: Nœud LN embarqué
 wrong_answers:
   - Wallet custodial Lightning
-  - Swap atomique Lightning
+  - Atomic swap Lightning
   - Canaux fédérés
 explanation: |
   Les solutions comme Phoenix ou Zeus Embedded embarquent un véritable nœud Lightning directement dans l’application.
-reviewed: false
+reviewed: true 

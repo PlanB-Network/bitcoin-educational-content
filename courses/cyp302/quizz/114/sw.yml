@@ -6,4 +6,4 @@ wrong_answers:
   - Hakuna urefu maalum wa S katika RC4 ya kawaida
 explanation: |
   Katika RC4 ya kawaida, safu ya S ina baiti 256, ambayo huongeza kwa kiasi kikubwa utata wa hesabu na kuimarisha usalama ikilinganishwa na toleo lililorahisishwa lenye baiti 8 pekee.
-reviewed: false
+reviewed: true

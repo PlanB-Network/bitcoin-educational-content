@@ -511,7 +511,7 @@ sudo systemctl status bitcoind
 ```
 
 
-### Pemasangan petir-C
+### Pemasangan C-Lightning
 
 
 :::video id=e13a1407-46e3-4b03-9a7a-b0f4a338c3c7:::
@@ -981,7 +981,7 @@ Skalabilitas telah menjadi masalah yang terus-menerus dalam pengembangan Bitcoin
 #### Masalah terbuka dalam keamanan
 
 
-Mengamankan aset Bitcoin adalah tugas yang kompleks, penuh dengan tantangan. Dompet Hot, yang sering digunakan untuk transaksi sehari-hari, menimbulkan risiko keamanan yang signifikan, terutama bagi mereka yang mengoperasikan node Lightning. Selain itu, perencanaan untuk pewarisan aset Bitcoin masih merupakan proses yang berbelit-belit dan sering kali tidak aman. Kompleksitas langkah-langkah keamanan ini dapat menghalangi pengguna potensial dan mempersulit adopsi secara luas.
+Mengamankan aset Bitcoin adalah tugas yang kompleks, penuh dengan tantangan. Hot Wallet, yang sering digunakan untuk transaksi sehari-hari, menimbulkan risiko keamanan yang signifikan, terutama bagi mereka yang mengoperasikan node Lightning. Selain itu, perencanaan untuk pewarisan aset Bitcoin masih merupakan proses yang berbelit-belit dan sering kali tidak aman. Kompleksitas langkah-langkah keamanan ini dapat menghalangi pengguna potensial dan mempersulit adopsi secara luas.
 
 
 #### Masalah terbuka dalam privasi
@@ -1005,7 +1005,7 @@ Fleksibilitas dalam protokol Bitcoin diperlukan untuk mendorong peningkatan priv
 ![Image](assets/en/007.webp)
 
 
-Upaya untuk meningkatkan kegunaan Bitcoin sering kali mengorbankan keamanan dan privasi. Sebagai contoh, dompet kustodian yang mudah digunakan, seperti Wallet dari Satoshi, menyediakan Interface yang dapat diakses tetapi berkompromi secara signifikan pada keamanan dan privasi. Sistem yang disederhanakan dapat meningkatkan kegunaan tetapi dapat menyebabkan masalah seperti penggunaan kembali Address, yang merusak privasi. Oleh karena itu, setiap peningkatan dalam kegunaan harus dipertimbangkan dengan hati-hati terhadap potensi pertukaran keamanan dan privasi.
+Upaya untuk meningkatkan kegunaan Bitcoin sering kali mengorbankan keamanan dan privasi. Sebagai contoh, dompet kustodian yang mudah digunakan, seperti Wallet dari Satoshi, menyediakan Interface yang mudah diakses tetapi secara signifikan mengorbankan keamanan dan privasi. Sistem yang disederhanakan dapat meningkatkan kegunaan tetapi dapat menyebabkan masalah seperti penggunaan kembali Address, yang merusak privasi. Oleh karena itu, setiap peningkatan dalam kegunaan harus dipertimbangkan dengan hati-hati terhadap potensi pertukaran keamanan dan privasi.
 
 
 #### Skalabilitas dan pertukaran privasi
@@ -1196,7 +1196,7 @@ Penggunaan Perangkat Lunak Sumber Terbuka dan Bebas (FLOSS) sangat penting dalam
 Perangkat lunak, pada intinya, adalah kumpulan kode dan data yang menginstruksikan perangkat komputasi tentang cara melakukan tugas-tugas tertentu. Tidak seperti perangkat keras, yang membutuhkan bahan fisik dan proses produksi untuk direplikasi, perangkat lunak dapat dengan mudah disalin dan didistribusikan tanpa biaya. Perbedaan mendasar ini memainkan peran penting dalam proliferasi dan pengembangan perangkat lunak.
 
 
-Salah satu perbedaan utama antara perangkat lunak dan perangkat keras adalah konsep sumber terbuka. Meskipun perangkat keras sumber terbuka ada, namun tidak lazim karena kerumitan yang terlibat dalam penggandaan objek fisik. Sebaliknya, perangkat lunak sumber terbuka berkembang pesat karena kemudahan replikasi dan distribusi. Perangkat lunak sumber terbuka memungkinkan siapa saja untuk melihat, memodifikasi, dan mendistribusikan kode, sehingga menumbuhkan lingkungan kolaboratif yang mempercepat inovasi dan pemecahan masalah.
+Salah satu perbedaan utama antara perangkat lunak dan perangkat keras adalah konsep sumber terbuka. Meskipun perangkat keras sumber terbuka ada, hal ini tidak terlalu umum karena kompleksitas dalam menduplikasi objek fisik. Sebaliknya, perangkat lunak sumber terbuka berkembang pesat karena kemudahan replikasi dan distribusi. Perangkat lunak sumber terbuka memungkinkan siapa saja untuk melihat, memodifikasi, dan mendistribusikan kode, sehingga menumbuhkan lingkungan kolaboratif yang mempercepat inovasi dan pemecahan masalah.
 
 
 Kerangka hukum yang mengatur perangkat lunak terutama berkisar pada undang-undang hak cipta. Undang-undang ini memberikan hak eksklusif kepada pencipta perangkat lunak untuk menggunakan, memodifikasi, dan mendistribusikan karya mereka. Namun, lisensi sumber terbuka menyediakan mekanisme untuk membagikan hak-hak ini kepada publik, dalam kondisi tertentu. Struktur hukum ini sangat penting dalam memahami dinamika distribusi dan modifikasi perangkat lunak.
@@ -2275,19 +2275,19 @@ Dompet Bitcoin sangat penting untuk mengelola kepemilikan Bitcoin Anda dengan am
    - Dompet seluler**: Menawarkan kenyamanan dan portabilitas.
 
 
-3. **On-Chain vs petir**:
+3. **On-Chain vs Lightning**:
 
 
 
    - Dompet On-Chain**: Berinteraksi langsung dengan Bitcoin Blockchain.
-   - Dompet kilat**: Memfasilitasi transaksi yang lebih cepat dan lebih murah off-chain.
+   - Dompet Lightning**: Memfasilitasi transaksi yang lebih cepat dan lebih murah off-chain.
 
 
-4. **Dompet Cold vs dompet Hot**:
+4. **Cold Wallet vs Hot Wallet**:
 
 
-   - Dompet Cold**: Tidak terhubung ke internet, memberikan keamanan yang unggul terhadap peretasan.
-   - Dompet Hot**: Terhubung ke internet, menawarkan lebih banyak aksesibilitas tetapi kurang aman.
+   - Cold Wallet**: Tidak terhubung ke internet, memberikan keamanan yang unggul terhadap peretasan.
+   - Hot Wallet**: Terhubung ke internet, menawarkan lebih banyak aksesibilitas tetapi kurang aman.
 
 
 #### Keamanan Cold Wallet
@@ -2579,7 +2579,7 @@ Saluran pembayaran mewakili lompatan yang signifikan dalam teknologi Blockchain,
 Sebagai kesimpulan, memahami konteks historis dan tantangan Bitcoin, dan solusi inovatif yang diusulkan melalui MHL, Lightning Network, dan saluran pembayaran, memberikan pandangan yang komprehensif tentang lanskap saat ini dan potensi masa depan teknologi Blockchain.
 
 
-## Sejarah perutean atom
+## Sejarah atomic routing
 
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
@@ -2693,7 +2693,7 @@ Pada intinya, Lightning Network melengkapi jaringan Bitcoin dengan mengatasi ket
 ### *spesifikasi *Lightning Network**
 
 
-Protokol Lightning Network didefinisikan dengan cermat melalui 10 [BOLT](https://planb.academy/resources/glossary/bolt) (Dasar Teknologi Petir). BOLT ini disepakati selama konferensi di Milan dan berfungsi sebagai fondasi untuk berbagai implementasi Lightning Network.
+Protokol Lightning Network didefinisikan dengan cermat melalui 10 [BOLT](https://planb.academy/resources/glossary/bolt) (Dasar Teknologi Lightning). BOLT ini disepakati selama konferensi di Milan dan berfungsi sebagai fondasi untuk berbagai implementasi Lightning Network.
 
 
 ![bolt](assets/en/049.webp)_BOLT Diagram _
@@ -2880,7 +2880,7 @@ Dompet Bitcoin dan dompet Lightning berbeda secara fundamental dalam arsitektur 
 - Kompleksitas transaksi**: Dompet Bitcoin menangani berbagai skrip transaksi seperti Segregated Witness (SegWit) dan Taproot, yang mengoptimalkan ukuran transaksi dan meningkatkan privasi dan keamanan.
 
 
-#### Dompet petir:
+#### Dompet Lightning:
 
 
 
@@ -2888,7 +2888,7 @@ Dompet Bitcoin dan dompet Lightning berbeda secara fundamental dalam arsitektur 
 - Manajemen likuiditas**: Fitur khas dompet Lightning adalah kebutuhan untuk mengelola likuiditas, yang melibatkan penyeimbangan likuiditas lokal (keluar) dan jarak jauh (masuk) untuk memastikan kelancaran perutean transaksi. Hal ini mengharuskan pengguna untuk memahami dan mengoptimalkan saluran mereka untuk memfasilitasi penerusan pembayaran yang efisien.
 
 
-#### Manajemen likuiditas dalam dompet kilat
+#### Manajemen likuiditas di dompet Lightning
 
 
 Manajemen likuiditas yang efektif adalah landasan dari operasi Lightning Network yang sukses. Hal ini melibatkan keseimbangan strategis dari dua jenis likuiditas utama:
@@ -2956,7 +2956,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Ekstensi peramban, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
+- Fitur**: Ekstensi browser, sumber terbuka, mendukung model kustodian dan non-kustodian, meningkatkan keserbagunaan.
 
 
 #### Breez:
@@ -2977,7 +2977,7 @@ Berbagai dompet Lightning tersedia, masing-masing memenuhi kebutuhan dan prefere
 
 
 
-- Fitur**: Mengintegrasikan dompet On-Chain dan Lightning, mendukung saluran yang di-host, sumber terbuka dengan fitur-fitur canggih, cocok untuk pengguna daya.
+- Fitur**: Mengintegrasikan dompet On-Chain dan Lightning, mendukung saluran yang di-host, sumber terbuka dengan fitur-fitur canggih, cocok untuk pengguna tingkat lanjut (power users).
 
 
 ### Matriks manajemen kustodian dan likuiditas
@@ -3103,7 +3103,7 @@ Para pengembang menghadapi tantangan untuk mengimplementasikan manajemen likuidi
 
 
 - **Likuiditas**: Ketersediaan dana dalam saluran Lightning untuk melakukan atau menerima pembayaran.
-- **LSP (Penyedia Layanan Petir)**: Layanan yang membantu pengguna mengelola likuiditas dan saluran pada Lightning Network.
+- **LSP (Penyedia Layanan Lightning)**: Layanan yang membantu pengguna mengelola likuiditas dan saluran pada Lightning Network.
 
 ---
 
@@ -3246,9 +3246,9 @@ Berlawanan dengan anggapan bahwa Bitcoin bersifat statis, Bitcoin berada dalam k
 Lightning Network, solusi Layer kedua dari Bitcoin untuk menskalakan dan mempercepat transaksi, sedang mengalami perkembangan yang pesat. Layer ini memungkinkan transaksi yang cepat dan berbiaya rendah dengan mengaktifkan saluran pembayaran off-chain. Inovasi yang signifikan sedang diintegrasikan untuk meningkatkan efisiensi dan kegunaannya.
 
 
-**Saluran yang didanai ganda**
+**Saluran pendanaan ganda**
 
-Secara tradisional, saluran Lightning didanai oleh satu pihak. Namun, saluran yang didanai ganda memungkinkan kedua belah pihak (misalnya, Alice dan Bob) untuk berkontribusi pada likuiditas saluran. Peningkatan ini memfasilitasi fleksibilitas yang lebih besar dalam kapasitas pengiriman dan penerimaan dan memerlukan komunikasi di muka dan protokol baru untuk mengelola pendanaan bersama.
+Secara tradisional, saluran Lightning didanai oleh satu pihak. Namun, saluran pendanaan ganda memungkinkan kedua belah pihak (misalnya, Alice dan Bob) untuk berkontribusi pada likuiditas saluran. Peningkatan ini memfasilitasi fleksibilitas yang lebih besar dalam kapasitas pengiriman dan penerimaan dan memerlukan komunikasi di muka dan protokol baru untuk mengelola pendanaan bersama.
 
 
 ** Penyambungan**
@@ -3274,33 +3274,27 @@ Bolt 12 mengatasi keterbatasan faktur Bolt 11 saat ini yang digunakan dalam Ligh
 Taproot merupakan peningkatan signifikan yang mengkonsolidasikan kompleksitas transaksi dan meningkatkan privasi. Ketika dikombinasikan dengan MuSig (protokol untuk transaksi multi-tanda tangan) dan Tanda Tangan Schnorr, Taproot meningkatkan efisiensi transaksi. Kemajuan ini memungkinkan transaksi Lightning menyerupai transaksi Bitcoin biasa, menyederhanakan proses dan meningkatkan privasi.
 
 
-*perutean PTLC ** * Perutean PTLC
-
+** Perutean PTLC **
 Kontrak Terkunci Waktu Titik (PTLC) merupakan peningkatan dari Kontrak Kunci Waktu Hash (HTLC) yang sudah ada. PTLC menggunakan tanda tangan Schnorr dan meningkatkan privasi dengan mengganti rahasia bersama dengan kunci publik, sehingga mengurangi potensi korelasi pembayaran dan penyalahgunaan.
 
 
-*pabrik saluran** *Pabrik saluran
-
+**Pabrik Saluran**
 Pabrik saluran memungkinkan pembuatan saluran multi-partai (misalnya, 4-dari-4 Multisig), yang dapat menelurkan saluran pembayaran 2-dari-2 off-chain yang baru. Sistem ini memungkinkan pembuatan dan penutupan saluran yang cepat dan bebas biaya, meskipun membutuhkan kerja sama dari semua peserta. Pabrik saluran meningkatkan skalabilitas dan fleksibilitas Lightning Network secara keseluruhan.
 
 
 **Menara Pengawal**
-
 Menara pengawas adalah entitas pihak ketiga yang memantau Blockchain untuk mengetahui status saluran lama. Jika pelanggaran terdeteksi, mereka mempublikasikan transaksi penalti untuk memastikan keamanan jaringan. Meskipun menara pengawas meningkatkan keamanan dengan mencegah perilaku buruk, mereka juga memperkenalkan masalah privasi terkait pemantauan transaksi.
 
 
 ** Jalur blinded**
-
 Jalur blinded dirancang untuk meningkatkan privasi penerima pada Lightning Network. Jalur ini menyamarkan Address. Jalur ini mengaburkan Address penerima akhir, memastikan bahwa hanya pengirim yang mengetahui simpul perantara, dan setiap simpul hanya mengetahui simpul-simpul yang berdekatan. Metode ini melindungi identitas penerima dan meningkatkan privasi secara keseluruhan.
 
 
-*penyedia Layanan Petir (LSP) ** *Penyedia Layanan Petir (LSP)
-
+**Penyedia Layanan Lightning (LSP)**
 Dikonseptualisasikan oleh Breez Wallet, Lightning Service Provider (LSP) bertujuan untuk meningkatkan pengalaman pengguna dengan memungkinkan kemampuan penerimaan instan. LSP membuka saluran bagi pengguna, mirip dengan cara penyedia layanan internet menawarkan layanan konektivitas. Inovasi ini menyederhanakan proses orientasi pengguna dan memastikan interaksi yang mulus pada Lightning Network.
 
 
 **Sumber daya untuk tetap mendapatkan informasi terbaru**
-
 Untuk terus mengikuti inovasi teknis terbaru dalam Bitcoin dan Lightning Network, sangat penting untuk memanfaatkan sumber daya yang berharga. Buletin Bitcoin OpTec, milis lightning dev, dan materi dari pakar industri seperti Jason Lopp memberikan wawasan dan pembaruan tentang kemajuan dan penelitian yang sedang berlangsung di bidang yang berkembang pesat ini.
 
 
@@ -3330,7 +3324,7 @@ Proses ini bergantung pada **Hash Time-Locked Contracts (HTLC) **, yang memastik
 
 
 
-- Perutean bawang merah**: Memberikan privasi dengan mengenkapsulasi data transaksi secara berlapis-lapis, memastikan bahwa setiap perantara hanya mengetahui node sebelum dan sesudahnya, tetapi tidak seluruh rute.
+- Perutean bawang (Onion routing): Memberikan privasi dengan mengenkapsulasi data transaksi secara berlapis-lapis, memastikan bahwa setiap perantara hanya mengetahui node sebelum dan sesudahnya, tetapi tidak seluruh rute.
 - Rantai HTLC**: Serangkaian kontrak yang mengunci dana hingga pembayaran selesai atau dikembalikan.
 
 
@@ -3374,7 +3368,7 @@ Salah satu integrasi pembayaran Lightning yang patut dicatat adalah di **Nostr**
 Protokol lain, **RGB**, semakin memperluas fungsionalitas Lightning dengan memungkinkan **transfer aset** melalui Lightning Network. RGB memungkinkan transfer berbagai aset, termasuk token, melalui saluran Lightning, memperluas cakupan apa yang dapat ditransaksikan.
 
 
-**Penyedia Layanan Likuiditas Lightning (LSP) juga memainkan peran penting dalam memperluas pembayaran Lightning. LSP menyediakan likuiditas untuk menerima pembayaran, membantu membuka **saluran yang didanai ganda**, dan memastikan transaksi yang lancar dengan mencegat pembayaran dan membuka saluran dengan cepat.
+**Penyedia Layanan Likuiditas Lightning (LSP) juga memainkan peran penting dalam memperluas pembayaran Lightning. LSP menyediakan likuiditas untuk menerima pembayaran, membantu membuka **saluran pendanaan ganda**, dan memastikan transaksi yang lancar dengan mencegat pembayaran dan membuka saluran dengan cepat.
 
 
 **Definisi:**
@@ -3383,7 +3377,7 @@ Protokol lain, **RGB**, semakin memperluas fungsionalitas Lightning dengan memun
 - **LNURL**: Protokol yang memungkinkan pembuatan Invoice yang dinamis, sehingga pembayaran menjadi lebih mudah dan fleksibel.
 - **Bolt 12**: Perpanjangan dari Lightning yang memanfaatkan pesan Onion untuk privasi sekaligus mengotomatiskan pengambilan Invoice.
 - **Tidak ada: Platform terdesentralisasi yang mengintegrasikan LProtokol dan Kasus Penggunaan
-- mbayaran kilat untuk transaksi mikro.
+- **Lightning:** pembayaran untuk transaksi mikro.
 - protokol **RGB**: Protokol yang memungkinkan transfer aset, seperti token, melalui Lightning Network.
 - **LSP (Penyedia Layanan Lightning)**: Entitas yang menyediakan likuiditas dan membuka saluran untuk transaksi Lightning, membuat jaringan lebih mudah diakses oleh pengguna.
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Có các tính năng giống nhau trên các lớp như trên giao thức cơ sở
 explanation: |
   Phương pháp tiếp cận theo lớp cho phép thêm chức năng mà không ảnh hưởng đến tính bảo mật và tính đơn giản của giao thức cơ sở.
-reviewed: false
+reviewed: true

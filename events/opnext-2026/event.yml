@@ -1,0 +1,17 @@
+id: 6dcf69eb-a719-4ba9-a63b-80e0596cf197
+start_date: 2026-04-16 09:00:00
+end_date: 2026-04-16 21:00:00
+timezone: America/New_York
+address_city_country: New York City, NY, USA
+name: OPNEXT 2026
+project_id: f605e2f7-77d6-4234-b2b5-7f6c65a5c5ba
+type: conference
+description: The premier Bitcoin developer and investor conference at The Times Center NYC. Technical deep dives, workshops, and networking focused on Bitcoin scaling and innovation.
+language:
+  - en
+links:
+  website: https://opnext.dev/
+tags:
+  - development
+  - innovation
+  - scaling

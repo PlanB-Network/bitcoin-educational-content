@@ -6,4 +6,4 @@ wrong_answers:
   - Dengan memverifikasi alamat IP pengirim
 explanation: |
   Alice menggunakan kunci rahasia bersama untuk menghasilkan tag dari pesan yang diterima. Jika tag ini cocok dengan yang dikirim oleh Bob, dia tahu bahwa pesan tersebut asli dan utuh.
-reviewed: false
+reviewed: true

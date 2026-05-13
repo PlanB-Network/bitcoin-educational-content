@@ -399,7 +399,7 @@ Uyu musi, birashoboka ko umuntu agira ubumenyi bwo gukoresha bujanye n’ubw’i
 
 
 
-Umuti wa mbere ni ukudakoresha Lightning mu buryo bw’akavukire, ahubwo ni ugukoresha Bitcoin canke [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet ishiramwo ivy’[uguhinduranya atome](https://planb.academy/resources/glossary/atomic-swap). Nk’akarorero, amaporogarama ya Aqua canke Bull Bitcoin Wallet akoresha ubu buryo, mu kugufasha kwishura [amafagitire ya Lightning](https://planb.academy/resources/glossary/invoice-lightning) utakoresheje node ya Lightning wewe nyene, mu gihe uguma wicungera.
+Umuti wa mbere ni ukudakoresha Lightning mu buryo bw’akavukire, ahubwo ni ugukoresha Bitcoin canke [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet ishiramwo ivy’[uguhinduranya atome](https://planb.academy/resources/glossary/atomic-swap). Nk’akarorero, amaporogarama ya Aqua canke BULL Wallet akoresha ubu buryo, mu kugufasha kwishura [amafagitire ya Lightning](https://planb.academy/resources/glossary/invoice-lightning) utakoresheje node ya Lightning wewe nyene, mu gihe uguma wicungera.
 
 
 

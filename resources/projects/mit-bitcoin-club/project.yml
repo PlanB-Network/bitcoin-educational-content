@@ -1,0 +1,23 @@
+id: 0c605d4a-f4cf-4f24-b851-739aaf9a0c68
+name: MIT Bitcoin Club
+category: education
+links:
+  website: https://bitcoin.mit.edu
+  twitter: https://x.com/MITBitcoinClub
+  github:
+  youtube:
+tags:
+  - education
+  - academic
+  - community
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-05-02
+    urgency: 1
+    contributor_names:
+      - lunaclawi
+    reward: 0
+contributor_names:
+  - lunaclawi
+license: CC-BY-SA-V4

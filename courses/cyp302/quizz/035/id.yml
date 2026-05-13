@@ -6,4 +6,4 @@ wrong_answers:
   - Mengembangkan algoritma enkripsi simetris
 explanation: |
   Teori bilangan berfokus pada sifat-sifat bilangan bulat dan fungsi-fungsi yang diterapkan pada bilangan bulat, seringkali untuk aplikasi dalam kriptografi, khususnya dalam konteks kriptografi kunci publik.
-reviewed: false
+reviewed: true

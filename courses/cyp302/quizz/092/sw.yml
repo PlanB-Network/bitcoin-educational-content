@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa kuongeza urefu wa ufunguo kwa kila kizuizi kilichosimbwa
 explanation: |
   Njia kama OFB huruhusu block cipher kufanya kazi kama misimbo ya mtiririko kwa kutoa mtiririko muhimu, ambao hutumiwa kwa kila sehemu ya maandishi wazi.
-reviewed: false
+reviewed: true

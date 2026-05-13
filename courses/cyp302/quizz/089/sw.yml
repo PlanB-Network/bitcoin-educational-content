@@ -6,4 +6,4 @@ wrong_answers:
   - Inafanya msimbo wa algoriti kuwa mzuri zaidi kwa wanadamu.
 explanation: |
   Kwa kutumia Nonce nasibu kwa kila kipindi, mbinu za CBC na OFB huhakikisha kwamba kila usimbaji fiche ni wa kipekee, jambo ambalo huzuia mashambulizi ambayo yanatumia data inayofanana.
-reviewed: false
+reviewed: true

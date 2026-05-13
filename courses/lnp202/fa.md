@@ -399,7 +399,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-اولین راه‌حل این است که به‌طور بومی از Lightning استفاده نکنید، بلکه از Bitcoin یا [Liquid](https://planb.academy/resources/glossary/liquid-network) یا wallet که [مبادلات اتمی](https://planb.academy/resources/glossary/atomic-swap) را جاسازی می‌کنند، استفاده کنید. به عنوان مثال، برنامه‌های Aqua یا Bull Bitcoin Wallet از این روش استفاده می‌کنند، با این امکان که بتوانید [فاکتورهای Lightning](https://planb.academy/resources/glossary/invoice-lightning) را بدون اجرای یک نود Lightning خودتان پرداخت کنید، در حالی که همچنان خودتان نگهداری می‌کنید.
+اولین راه‌حل این است که به‌طور بومی از Lightning استفاده نکنید، بلکه از Bitcoin یا [Liquid](https://planb.academy/resources/glossary/liquid-network) یا wallet که [مبادلات اتمی](https://planb.academy/resources/glossary/atomic-swap) را جاسازی می‌کنند، استفاده کنید. به عنوان مثال، برنامه‌های Aqua یا BULL Wallet از این روش استفاده می‌کنند، با این امکان که بتوانید [فاکتورهای Lightning](https://planb.academy/resources/glossary/invoice-lightning) را بدون اجرای یک نود Lightning خودتان پرداخت کنید، در حالی که همچنان خودتان نگهداری می‌کنید.
 
 
 

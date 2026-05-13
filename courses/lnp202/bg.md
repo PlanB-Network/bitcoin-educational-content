@@ -399,7 +399,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-Първото решение е просто да не се използва Lightning в оригинал, а да се използва Bitcoin или [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, който вгражда [атомни суапове](https://planb.academy/resources/glossary/atomic-swap). Например приложенията Aqua или Bull Bitcoin Wallet използват този метод, като ви дават възможност да плащате [фактури на Lightning](https://planb.academy/resources/glossary/invoice-lightning), без сами да управлявате възел на Lightning, като същевременно оставате на самоиздръжка.
+Първото решение е просто да не се използва Lightning в оригинал, а да се използва Bitcoin или [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, който вгражда [атомни суапове](https://planb.academy/resources/glossary/atomic-swap). Например приложенията Aqua или BULL Wallet използват този метод, като ви дават възможност да плащате [фактури на Lightning](https://planb.academy/resources/glossary/invoice-lightning), без сами да управлявате възел на Lightning, като същевременно оставате на самоиздръжка.
 
 
 

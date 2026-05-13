@@ -1259,7 +1259,7 @@ Ku rundi ruhande, iyo ukoresha ubuhinga bwa node-in-a-box nka Umbrel canke Start
 
 
 
-Ku bijanye n’umurongo wa Umbrel, ikintu gitoyi gikenewe ni umurongo w’ivyuma bibiri w’ibice 64 uva kuri Intel canke AMD. Niba ushaka gukoresha ibikorwa bikeyi vyongeyeko Bitcoin core, quad-core (canke hejuru) izotuma habaho itandukaniro nyaryo mu bijanye n’uguhinduka kw’amazi. Nk’akarorero, amaprocesseur i5/i7 yo mu rwego rwa 6 gushika ku rwa 10 ni amahitamwo meza cane ku isoko ry’ibikoresho vyakoreshejwe.
+Ku bijanye n’umurongo wa Umbrel, ikintu gitoyi gikenewe ni umurongo w’ivyuma bibiri w’ibice 64 uva kuri Intel canke AMD. Niba ushaka gukoresha ibikorwa bikeyi vyongeyeko Bitcoin core, quad-core (canke hejuru) izotuma habaho itandukaniro nyaryo mu bijanye n’uguhinduka kw’amazi. Nk’akarorero, amaprocesseur i5/i7 yo mu rwego rwa 6 gushika ku rwa 10 ni amahitamwo meza cane kw'isoko ry’ibikoresho vyakoreshejwe.
 
 
 
@@ -1275,7 +1275,7 @@ Aha hepfo, ndatanga ivyiyumviro bitatu vy’ukuri, bihuye n’ingengo y’imari 
 
 
 
-Mbere na mbere, ukeneye SSD nini bihagije kugira ngo ushobore kwakira Blockchain, mu gihe usigaye usiga umwanya wo gukora. SSDs zifise ubuzima buke mu bijanye n’ingendo zo kwandika be n’umubare wose w’amakuru yanditswe. Ariko rero, urudodo rwa Bitcoin rushira umuzigo munini kuri disiki igihe umuntu yandika. Ni co gituma ntasaba ivyitegererezo vy’urugero rw’injira; ahubwo, ndasaba NVMe SSD, itanga ubushobozi bwiza cane.
+Mbere na mbere, ukeneye SSD nini bihagije kugira ngo ushobore kwakira Blockchain, mu gihe usigaye usiga umwanya wo gukora. SSD zifise ubuzima buke mu bijanye n’ingendo zo kwandika be n’umubare wose w’amakuru yanditswe. Ariko rero, urudodo rwa Bitcoin rushira umuzigo munini kuri disiki igihe umuntu yandika. Ni co gituma ntasaba ivyitegererezo vy’urugero rw’injira; ahubwo, ndasaba NVMe SSD, itanga ubushobozi bwiza cane.
 
 
 
@@ -1335,7 +1335,7 @@ Nk'akarorero, *ASUS NUC 14 Pro* iraboneka nshasha kuri Amazon ku €540. Kugicir
 
 
 
-Iyi ni configuration iryoshe cane, mbere n’ugurenga urugero nimba intumbero y’intango ari ugukoresha gusa urudodo rwa Bitcoin. Ku rundi ruhande, nimba ushaka kwungukira neza ku bikoresho vyose vy’ukwikira biri kuri Umbrel na Start9, urugero rw’ububasha ni rwo rubereye wewe.
+Iyi ni configuration iryoshe cane, mbere n’ugurenga urugero nimba intumbero y’intango ari ugukoresha gusa urudodo rwa Bitcoin. Ku rundi ruhande, nimba ushaka kwungukira neza ku bikoresho vyose vy’ukwakira biri kuri Umbrel na Start9, urugero rw’ububasha ni rwo rubereye wewe.
 
 
 
@@ -1353,7 +1353,7 @@ Bivanye n’ivyo ushaka gukoresha, urashobora guhitamwo SSD ya 2TB, nk’uko bir
 
 
 
-- Niba wifuza kugura ibikoresho vya kera ukavyishyura mu bitcoins, n'uze mu nama iri hafi yawe! Mu kuganira n’abandi bari muri iyo nama, urazi neza ko uzoronka ibikoresho bikwiye ku giciro ciza, mu gihe ufasha kuguma ubutunzi buzunguruka bukikuje Bitcoin bukiriho. Ni akaryo kandi ko kwungukira ku mpanuro nziza zivuye mu kibano.
+- Nimba wifuza kugura ibikoresho vya kera ukavyishyura mu bitcoins, n'uze mu nama iri hafi yawe! Mu kuganira n’abandi bari muri iyo nama, urazi neza ko uzoronka ibikoresho bikwiye ku giciro ciza, mu gihe ufasha kuguma ubutunzi buzunguruka bukikuje Bitcoin bukiriho. Ni akaryo kandi ko kwungukira ku mpanuro nziza zivuye mu kibano.
 
 
 
@@ -1452,7 +1452,7 @@ Umbrel itanga uburyo bubiri butandukanye:
 
 
 
-Muri ivyo bihe vyose, ubumenyi bw’ukoresha burasa ku ruhande rwa porogarama: uburongozi bushingiye ku mucukumbuzi, guhindura ibintu bishasha mu gukanda rimwe, gushiramwo porogarama ku vyo usaba... Umuti wo gukora ubwawe akenshi urahezagira kuruta kugura Umbrel Home (bivanye n’imashini ikoreshwa). Ariko rero, sinzogusaba ko wama uhitamwo uburyo bwo gukora ivyo ushaka, kuko **kugura Inzu y’Umutaka bifasha ata guca ku ruhande mu gutanga amahera yo guteza imbere umugambi**, kuko ubuhinga bwawo bwo gukora ubucuruzi bushingiye ku kugurisha ibikoresho. Kandi mu kuvuga ukuri, ku €389 ku 2TB y’ububiko, igiciro kiguma ari ciza cane kubera uburyo imashini iriko iratangwa.
+Muri ivyo bihe vyose, ubumenyi bw’ugukoresha burasa ku ruhande rwa porogarama: uburongozi bushingiye ku mucukumbuzi, guhindura ibintu bishasha mu gukanda rimwe, gushiramwo porogarama ku vyo usaba... Umuti wo gukora ubwawe akenshi urahezagira kuruta kugura Umbrel Home (bivanye n’imashini ikoreshwa). Ariko rero, sinzogusaba ko wama uhitamwo uburyo bwo gukora ivyo ushaka, kuko **kugura Inzu y’Umutaka bifasha ata guca ku ruhande mu gutanga amahera yo guteza imbere umugambi**, kuko ubuhinga bwawo bwo gukora ubucuruzi bushingiye ku kugurisha ibikoresho. Kandi mu kuvuga ukuri, ku €389 ku 2TB y’ububiko, igiciro kiguma ari ciza cane kubera uburyo imashini iriko iratangwa.
 
 
 
@@ -1506,7 +1506,7 @@ Mu gushiramwo porogaramu mu bikoresho, urashobora guhingura Umbrel uko wipfuza: 
 
 
 
-Kimwe mu vyiza bihambaye vya Umbrel ku bandi bayihiganwa ni umuryango wayo munini kandi ukora cane. Ushobora kubashikira cane cane biciye ku [Discord yabo](https://discord.gg/efNtFzqtdx) no ku [huriro ryabo ryo kuri internet](https://community.umbrel.com/). Aha, ntuzosanga impanuro ngirakamaro gusa, ariko ikiruta vyose, uzosanga inyishu zo gutorera umuti ingorane canke gutorera umuti ibibazo. Ni ahantu heza ho gutangura, gutera imbere, no gufasha abandi bakoresha, kugira ngo ntusigara wenyene na Coin yawe.
+Kimwe mu vyiza bihambaye vya Umbrel ku bandi bayihiganwa ni umuryango wayo munini kandi ukora cane. Ushobora kubashikira cane cane biciye ku [Discord yabo](https://discord.gg/efNtFzqtdx) no ku [huriro ryabo ryo kuri internet](https://community.umbrel.com/). Aha, ntuzosanga impanuro ngirakamaro gusa, ariko ikiruta vyose, uzosanga inyishu zo gutorera umuti ingorane canke gutorera umuti ibibazo. Ni ahantu heza ho gutangura, gutera imbere, no gufasha abandi bakoresha, kugira ngo ntusigare wenyene na Coin yawe.
 
 
 
@@ -1514,7 +1514,7 @@ Kimwe mu vyiza bihambaye vya Umbrel ku bandi bayihiganwa ni umuryango wayo munin
 
 
 
-### Uruhusha rwa Umutaka
+### Uruhusha rw'Umutaka
 
 
 
@@ -1554,11 +1554,11 @@ Ubu ko dufise amakuru yose akenewe, ni igihe co kwihweza neza ibintu vyose. Muri
 
 
 
-Aha, tuzoba turiko turakoresha ishusho ya UmbrelOS x86 (mu buryo bubereye, verisiyo ya x86_64). Uzoshobora gukurikira iyi nzira ku mashini iyo ari yo yose uhisemwo, igihe cose idafise ubuhinga bwo gukora ubuhinga bwa ARM (nta Apple Silicon, Raspberry Pi, n’ibindi). Ivyo bisigura ko mudasobwa iyo ari yo yose ifise processeur ya Intel canke AMD 64-bit izohagije, igihe cose izoba ihuye n’ibisabwa bikeyi, bivanye n’ingene wipfuza gukoresha Umbrel yawe (nibura processeur y’ibice bibiri ni vyo vyiza).
+Aha, tuzoba turiko turakoresha ishusho ya UmbrelOS x86 (mu buryo bubereye, verisiyo ya x86_64). Uzoshobora gukurikira iyi nzira ku mashini iyo ari yo yose uhisemwo, igihe cose idafise ubuhinga bwo gukora ubuhinga bwa ARM (nta Apple Silicon, Raspberry Pi, n’ibindi). Ivyo bisigura ko mudasobwa iyo ari yo yose ifise processeur ya Intel canke AMD 64-bit izobihagije, igihe cose izoba ihuye n’ibisabwa bikeyi, bivanye n’ingene wipfuza gukoresha Umbrel yawe (nibura processeur y’ibice bibiri ni vyo vyiza).
 
 
 
-Niba warahisemwo Raspberry Pi 5 (ihitamwo ntagusaba, nk’uko vyavuzwe mu gice ca mbere), ugushiramwo biratandukanye gatoyi. Ushobora rero gukurikira iyi nyigisho yihariye maze ugasubira ku nyigisho yanje rimwe ku rubuga rwa Interface `http://umbrel.local`:
+Nimba warahisemwo Raspberry Pi 5 (ihitamwo ntagusaba, nk’uko vyavuzwe mu gice ca mbere), ugushiramwo biratandukanye gatoyi. Ushobora rero gukurikira iyi nyigisho yihariye maze ugasubira ku nyigisho yanje rimwe ku rubuga rwa Interface `http://umbrel.local`:
 
 
 
@@ -1572,11 +1572,11 @@ Nk’uko nabibonye mu gice ca mbere, nahisemwo gukoresha iyi nyigisho kuri PC nt
 
 
 
-Nkunda cane cane amashini ya Lenovo yitwa ThinkCentre Tiny, kuko ari imashini zikomeye, zitekanye, kandi zikomeye cane. Izo mudasobwa zirakundwa cane n’abacuruzi kandi rero ziragwiriye kw’isoko ry’ibikoresho vya kera, aho ushobora gusanga imiterere iryoshe hagati y’amayero 70 n’amayero 200.
+Nkunda cane cane amamashini ya Lenovo yitwa ThinkCentre Tiny, kuko ari imashini zikomeye, zitekanye, kandi zikomeye cane. Izo mudasobwa zirakundwa cane n’abacuruzi kandi rero ziragwiriye kw’isoko ry’ibikoresho vya kera, aho ushobora gusanga imiterere iryoshe hagati y’amayero 70 n’amayero 200.
 
 
 
-Niba, nkanje, wahisemwo PC itagira moniteur, **uzokenera gufatanya moniteur na keyboard** gusa mu kiringo co gushiramwo. Inyuma y’aho, uzoshobora kuyironka uri kure uri ku yindi mudasobwa iri kuri iyo nzira nyene (canke ukoresheje ubundi buryo tuzovuga mu bigabane bizokurikira). Uzokenera kandi umugozi wa Ethernet RJ45 kugira ngo uhuze imashini yawe n’urubuga rwo mu karere, n’urufunguzo rwa USB rw’imiburiburi 4 GB kugira ngo ubike ishusho y’ugushiraho.
+Nimba, nkanje, nahisemwo PC itagira moniteur, **uzokenera gufatanya moniteur na keyboard** gusa mu kiringo co gushiramwo. Inyuma y’aho, uzoshobora kuyironka uri kure uri ku yindi mudasobwa iri kuri iyo nzira nyene (canke ukoresheje ubundi buryo tuzovuga mu bigabane bizokurikira). Uzokenera kandi umugozi wa Ethernet RJ45 kugira ngo uhuze imashini yawe n’urubuga rwo mu karere, n’urupfunguzo rwa USB rw’imiburiburi 4 GB kugira ngo ubike ishusho y’ugushiraho.
 
 
 
@@ -1640,21 +1640,21 @@ Kugira ngo ureme inkoni ya USB ishobora gutangura, uzokoresha igikoresho coroshe
 
 
 
-- Injiza urufunguzo rwa USB rudafise ikintu nibura 4 GB:
+- Injiza urupfunguzo rwa USB rudafise ikintu nibura 4 GB:
 
 
 
-Shira urufunguzo rwa USB muri mudasobwa yawe (urwo uherutse gukurako ishusho ya UmbrelOS na Balena Etcher). **Imburi: amakuru yose ari ku rufunguzo azokurwaho**. Raba neza ko ata madosiye ahambaye arimwo.
+Shira urupfunguzo rwa USB muri mudasobwa yawe (urwo uherutse gukurako ishusho ya UmbrelOS na Balena Etcher). **Imburi: amakuru yose ari ku rupfunguzo azokurwaho**. Raba neza ko ata madosiye ahambaye arimwo.
 
 
 
 
 
-- Turira ishusho ya ISO ku nkoni ya USB ukoresheje Balena Etcher:
+- Shira ishusho ya ISO ku nkoni ya USB ukoresheje Balena Etcher:
 
 
 
-Tangaza Balena Etcher maze uhitemwo dosiye ISO uherutse gukuraho ukanda kuri buto ya "*Flash from dosiye*". Hanyuma, uhitemwo urufunguzo rwa USB nk'igikoresho ushaka gukoresha hanyuma ukande "*Flash!*" kugira ngo utangure kwandika.
+Tangaza Balena Etcher maze uhitemwo dosiye ISO uherutse gukuraho ufyonde kuri buto ya "*Flash from dosiye*". Hanyuma, uhitemwo urupfunguzo rwa USB nk'igikoresho ushaka gukoresha hanyuma ufyonde "*Flash!*" kugira ngo utangure kwandika.
 
 
 
@@ -1670,15 +1670,15 @@ Igihe igikorwa kirangiye, uzoba ufise urufunguzo rwa USB rushobora gufungurwa ru
 
 
 
-### Intambwe ya 3: Gufungura mudasobwa ukoresheje urufunguzo rwa USB
+### Intambwe ya 3: Gufungura mudasobwa ukoresheje urupfunguzo rwa USB
 
 
 
-Ubu ko USB stick yawe ishobora gufungurwa irimwo UmbrelOS iteguye, urashobora gufungura mudasobwa yawe kuri yo kugira ngo utangure gushiramwo system. Kura urufunguzo rwa USB kuri mudasobwa yawe nyamukuru maze urushire mu gikoresho wipfuza gushiramwo Umbrel n’urudodo rwawe rwa Bitcoin.
+Ubu ko USB stick yawe ishobora gufungurwa irimwo UmbrelOS iteguye, urashobora gufungura mudasobwa yawe kuri yo kugira ngo utangure gushiramwo system. Kura urupfunguzo rwa USB kuri mudasobwa yawe nyamukuru maze urushire mu gikoresho wipfuza gushiramwo Umbrel n’urudodo rwawe rwa Bitcoin.
 
 
 
-Nk’uko vyasiguwe mu ntango y’iki kigabane, kugira ngo urangize gushiramwo, uzokenera igikoresho co kwerekana n’igikoresho co kwinjiza. Huza ikigaragaza biciye kuri HDMI (canke ikindi kibanza, bivanye na PC yawe) hanyuma uhuze klavye biciye kuri USB ku mashine yawe. Ivyo bikoresho bisabwa gusa kugira ngo umuntu abishiremwo; ntuzobikenera inyuma, kuko Umbrel izoshobora gukoreshwa kure ukoresheje uwundi mudasobwa. Ivyo bikoresho bibiri ubihuze na PC yawe.
+Nk’uko vyasiguwe mu ntango y’iki kigabane, kugira ngo urangize gushiramwo, uzokenera igikoresho co kwerekana n’igikoresho co kwinjiza. Huza ikigaragaza biciye kuri HDMI (canke ikindi kibanza, bivanye na PC yawe) hanyuma uhuze klavye biciye kuri USB ku mashine yawe. Ivyo bikoresho bisabwa gusa kugira ngo umuntu abishiremwo; ntuzobikenera inyuma, kuko Umbrel izoshobora gukoreshwa kure ukoresheje iyindi mudasobwa. Ivyo bikoresho bibiri ubihuze na PC yawe.
 
 
 
@@ -1694,11 +1694,11 @@ Biragaragara ko Umbrel isaba ko umuntu afise Internet. Huza umugozi wa Ethernet 
 
 
 
-Guca imashini yawe. Akenshi, ikwiye kwibonera ubwayo urufunguzo rwa USB maze ikarufungura. Uzoca ubona igicapo co gushiramwo UmbrelOS Interface kigaragara.
+Atsa imashini yawe. Akenshi, ikwiye kwibonera ubwayo urupfunguzo rwa USB maze ikarufungura. Uzoca ubona igicapo co gushiramwo UmbrelOS Interface kigaragara.
 
 
 
-Iyo igikoresho gifunguye ku yindi sisitemu canke kigaragaza ubutumwa bw’ikosa, ivyo birashoboka ko bisobanura ko kitariko kirafunguka ubwaco kivuye ku rufunguzo rwa USB. Muri ivyo, subiramwo maze winjire mu mirongo ya BIOS/UEFI (akenshi uyironka ukanda `DEL`, `F2`, `F12`, canke `ESC`, bivanye n’uwayikoze). Hanyuma, uhindure urutonde rw’ugutangura kugira ngo ushire imbere urufunguzo rwa USB. Hanyuma wongere utangure igikoresho kugira ngo utangure UmbrelOS.
+Iyo igikoresho gifunguye ku yindi sisitemu canke kigaragaza ubutumwa bw’ikosa, ivyo birashoboka ko bisobanura ko kitariko kirafunguka ubwaco kivuye ku rupfunguzo rwa USB. Muri ivyo, subiramwo maze winjire mu mirongo ya BIOS/UEFI (akenshi uyironka ufyonze `DEL`, `F2`, `F12`, canke `ESC`, bivanye n’uwayikoze). Hanyuma, uhindure urutonde rw’ugutangura kugira ngo ushire imbere urupfunguzo rwa USB. Hanyuma wongere utangure igikoresho kugira ngo utangure UmbrelOS.
 
 
 
@@ -1718,7 +1718,7 @@ Ico gicapo kigaragara kirimwo urutonde rw’ibikoresho vyose vyo mu mutima vy’
 
 
 
-Umaze kumenya disiki ibereye (akenshi iyo ifise ubushobozi bwinshi kuruta izindi, zo gushiramwo Blockchain), nushireko igitigiri cayihawe. Nk'akarorero, nimba disiki wahisemwo iboneka munsi y'umubare `2`, ushiremwo gusa `2`, hanyuma ukande urufunguzo `Enter` ku klavye.
+Umaze kumenya disiki ibereye (akenshi iyo ifise ubushobozi bwinshi kuruta izindi, zo gushiramwo Blockchain), nushireko igitigiri cayihawe. Nk'akarorero, nimba disiki wahisemwo iboneka munsi y'umubare `2`, ushiremwo gusa `2`, hanyuma ufyonde urupfunguzo `Enter` ku klavye(clavier).
 
 
 
@@ -1734,7 +1734,7 @@ Porogarama izohindura format ya disiki yatowe, ishiremwo UmbrelOS, maze ihite ih
 
 
 
-Igihe installation izoba yarangiye, uzosabwa kuzimya igikoresho. Kanda urufunguzo urwo ari rwo rwose kugira ngo ufunge mudasobwa.
+Igihe installation izoba yarangiye, uzosabwa kuzimya igikoresho. Fyonda urupfunguzo urw'ari rwo rwose kugira ngo ufunge mudasobwa.
 
 
 
@@ -1742,7 +1742,7 @@ Igihe installation izoba yarangiye, uzosabwa kuzimya igikoresho. Kanda urufunguz
 
 
 
-Ubu urashobora gukuraho urufunguzo rwa USB, klavye, n’igicapo, ivyo bikaba bitagikenewe kuri Umbrel yawe. Ivyo bisigaye vyose ku node yawe ni ububasha Supply n’umugozi wa Ethernet RJ45.
+Ubu urashobora gukuraho urupfunguzo rwa USB, klavye((clavier), n’igicapo(écran ), ivyo bikaba bitagikenewe kuri Umbrel yawe. Ivyo bisigaye vyose ku node yawe ni ububasha Supply n’umugozi wa Ethernet RJ45.
 
 
 
@@ -1756,12 +1756,12 @@ Imbere yo gusubira gukoresha igikoresho, nusuzume ingingo zibiri zikurikira:
 
 
 
-- Urufunguzo rwa USB rurakurwako**: iyo rugumye rufatanye, sisitemu ishobora gusubira kurirwo aho gufungura kuri disiki yo mu mutima;
+- Urupfunguzo rwa USB rurakurwako**: iyo rugumye rufatanye, sisitemu ishobora gusubira kurirwo aho gufungura kuri disiki yo mu mutima;
 - Umugozi wa Ethernet urashizwemwo**: igikoresho kigomba gufatanywa na router yawe kugira ngo gikore.
 
 
 
-Kanda buto y’umuriro. Sisitemu iratangura ubwayo ivuye kuri disiki yo mu mutima aho UmbrelOS yashizwe. Igitero ca mbere gishobora gutwara nk’iminota **5**. Muri ico gihe, Umbrel iratangura ibikorwa vyayo na Interface.
+Fyonda buto y’umuriro. Sisitemu iratangura ubwayo ivuye kuri disiki yo mu mutima aho UmbrelOS yashizwe. Igitero ca mbere gishobora gutwara nk’iminota **5**. Muri ico gihe, Umbrel iratangura ibikorwa vyayo na Interface.
 
 
 
@@ -1789,7 +1789,7 @@ http://umbrel
 
 
 
-Niba ivyo bitarakora, shiramwo IP ya Umbrel yawe Address mu mucukumbuzi. Nk'akarorero (subiriza `42` umubare w'imashini yawe yakira Umbrel ku rubuga rw'aho uba):
+Niba ivyo bitarakora, shiramwo IP ya Umbrel yawe Address mu mucukumbuzi. Nk'akarorero (subiriza `42` ibiharuro vy'imashini yawe yakira Umbrel ku rubuga rw'aho uba):
 
 
 
@@ -1841,7 +1841,7 @@ Ubu rero urateguye gukoresha Umbrel!
 
 
 
-Kugira ngo utangure gutegura Umutaka wawe, fyonda ku buto "*Start*".
+Kugira ngo utangure gutegura Umutaka wawe, fyonda kuri buto "*Start*".
 
 
 
@@ -1849,15 +1849,15 @@ Kugira ngo utangure gutegura Umutaka wawe, fyonda ku buto "*Start*".
 
 
 
-#### Rema konti
+#### Pfungura konti
 
 
 
-Hitamwo izina ry’uruyeri canke winjize izina ryawe, hanyuma ushireho ijambobanga rikomeye. Urabe maso: iri jambobanga ni ryo nzitizi yonyene irinda gushika ku Umbrel yawe uvuye ku rubuga rwawe (kandi rero, bishoboka, ku bitcoins zawe iyo ukoresheje node ya Lightning kuri Umbrel). Irakingira kandi ukuntu umuntu ashobora gushika kure biciye kuri Tor canke VPN, iyo izo serivisi zishoboka.
+Hitamwo izina ry’uruyeri canke winjize izina ryawe, hanyuma ushireho ijambo banga(password) rikomeye. Uraba maso: iri jambo banga(password) ni ryo nzitizi yonyene irinda gushika kuri Umbrel yawe uvuye ku rubuga rwawe (kandi rero, bishoboka, kuri bitcoins zawe iyo ukoresheje node ya Lightning kuri Umbrel). Irakingira kandi ukuntu umuntu ashobora gushika kure biciye kuri Tor canke VPN, iyo izo serivisi zishoboka.
 
 
 
-Hitamwo ijambobanga rikomeye kandi urabe ko ufise n’imiburiburi ububiko bumwe (umucungerezi w’ijambobanga ni we asabwa).
+Hitamwo ijambo banga rikomeye kandi urabe ko ufise n’imiburiburi ububiko bumwe (umucungerezi w’ijambo banga(password) ni we asabwa).
 
 
 
@@ -1865,7 +1865,7 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Uhejeje kwinjiza ijambobanga ryawe, ukande kuri buto ya "*Create*".
+Uhejeje kwinjiza ijambo banga(password) ryawe, ufyonde kuri buto ya "*Create*".
 
 
 
@@ -1921,7 +1921,7 @@ Interface ya Umbrel ni nziza cane:
 
 
 
-- "*Ivyagezwe*" bigufasha guhindura ivyagezwe vya Umbrel yawe no kuronka amakuru yayo, harimwo:
+- "*Ivyagezwe(Settings)*" bigufasha guhindura ivyagezwe vya Umbrel yawe no kuronka amakuru yayo, harimwo:
     - Gusubiramwo, gusubiramwo canke guhagarika imashini yawe;
     - Raba ahantu ho kubika, ikoreshwa rya RAM, n'ubushuhe bwa processeur;
     - Guhindura urupapuro rwo ku ruhome;
@@ -1937,13 +1937,13 @@ Interface ya Umbrel ni nziza cane:
 
 
 
-Mbere na mbere, ndabahimiriza cane ko mwoshobora gukoresha uburyo bwo kwemeza ko umuntu ari uwundi (2FA). Ivyo vyongerako Layer y’umutekano ku jambobanga ryawe. Ni hafi ngombwa cane nimba utegura gukoresha Umbrel yawe kugira ngo ubike amadosiye yawe bwite, ukoreshe urudodo rwa Lightning, canke ukore ikindi gikorwa cose gihambaye.
+Mbere na mbere, ndabahimiriza cane ko mwoshobora gukoresha uburyo bwo kwemeza(2FA). Ivyo vyongerako Layer y’umutekano ku jambo banga(password) ryawe. Ni hafi ngombwa cane nimba utegura gukoresha Umbrel yawe kugira ngo ubike amadosiye yawe bwite, ukoreshe urudodo rwa Lightning, canke ukore ikindi gikorwa cose gihambaye.
 
 
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Kugira ngo ubikore, nufyonde ku gasandugu kahuye n’ako kari mu mirongo y’ibintu.
+Kugira ngo ubikore, n'ufyonde ku gasandugu gahuye n’ako kari mu mirongo y’ibintu.
 
 
 
@@ -1951,11 +1951,11 @@ Kugira ngo ubikore, nufyonde ku gasandugu kahuye n’ako kari mu mirongo y’ibi
 
 
 
-Hanyuma ushireko kode ya QR yerekanwa ukoresheje porogarama yawe yo kwemeza ko ari we. Hanyuma winjize kode y’imibare 6 mu kibanza catanzwe ku Mutaka wawe.
+Hanyuma ushireko kode ya QR yerekanwa ukoresheje porogarama yawe yo kwemeza ko ari we. Hanyuma winjize kode y’ibiharuro 6 mu kibanza catanzwe ku Mutaka wawe.
 
 
 
-Kuva ubu, igihe cose uzoba uriko urahuza n’Umbrel yawe, uzosaba ijambobanga n’ikode y’imirongo 6 ivugwa n’ikoreshwa ryawe ry’ivyemezo bibiri (2FA).
+Kuva ubu, igihe cose uzoba uriko urahuza n’Umbrel yawe, uzosaba ijambo banga(password) n’ikode y’imirongo 6 ivuga n’ikoreshwa ryawe ry’ivyemezo bibiri (2FA).
 
 
 
@@ -1967,11 +1967,11 @@ Ku bijanye no gushika kure biciye kuri Tor, nimba udakeneye, ndagusavye gusiga i
 
 
 
-Iyo ushoboje iki gikoresho, birashoboka ko imashini iyo ari yo yose kw'isi igerageza gukorana n'uruzitiro rwawe, igihe cose izi Tor Address. Ariko rero, ijambo banga ryawe na 2FA bizoguma bikurinda.
+Iyo ushoboje iki gikoresho, birashoboka ko imashini iy'ari yo yose kw'isi igerageza gukorana n'uruzitiro rwawe, igihe cose izi Tor Address. Ariko rero, ijambo banga(password) ryawe na 2FA bizoguma bikurinda.
 
 
 
-Niwakoresha iyi nzira, urabe ko ufise ivyemezo bibiri (2FA) bishoboka, ijambobanga rikomeye, kandi ntukigere utangaza uruja n'uruza rwawe rwa Tor Address.
+Niwakoresha iyi nzira, urabe ko ufise ivyemezo bibiri (2FA) bishoboka, ijambo banga(password) rikomeye, kandi ntukigere utangaza uruja n'uruza rwawe rwa Tor Address.
 
 
 
@@ -1983,7 +1983,7 @@ Niwinjize gusa iyi Tor Address mu mucukumbuzi wawe wa Tor kugira ngo ushikire In
 
 
 
-Ubwa nyuma, kuri iyi paji y’amasetingi, urashobora kandi gukoresha uruja n’uruza rwa Wi-Fi. Nimba imashini yawe yakira Umbrel ifise ikarita y’urubuga rwa Wi-Fi canke dongle ya Wi-Fi, ivyo bigufasha gukoresha Internet udakoresheje umugozi wa RJ45. Ariko, bivanye n'imiterere yawe, uwo muti ushobora gutuma ubufatanye bugenda buhoro, ivyo bishobora kugira ico bikoze ku guhuza kw'intango (IBD) no ku gukoresha urudodo muri kazoza (nk'akarorero, ku bikorwa vya Lightning). Ku bwanje, sinsaba ko ukoresha iyo nzira, kuko node ntigenewe gukoreshwa kuri telefone ngendanwa: yama ikoreshwa kure, rero woshobora kuyisiga ifunguwe.
+Ubwa nyuma, kuri iyi paji y’amasetingi(settings), urashobora kandi gukoresha uruja n’uruza rwa Wi-Fi. Nimba imashini yawe yakira Umbrel ifise ikarita y’urubuga rwa Wi-Fi canke dongle ya Wi-Fi, ivyo bigufasha gukoresha Internet udakoresheje umugozi wa RJ45. Ariko, bivanye n'imiterere yawe, uwo muti ushobora gutuma ubufatanye bugenda buhoro, ivyo bishobora kugira ico bikoze ku guhuza kw'intango (IBD) no ku gukoresha urudodo muri kazoza (nk'akarorero, ku bikorwa vya Lightning). Ku bwanje, sinsaba ko ukoresha iyo nzira, kuko node ntigenewe gukoreshwa kuri telefone ngendanwa: yama ikoreshwa kure, rero woshobora kuyisiga ifunguwe.
 
 
 
@@ -1999,7 +1999,7 @@ Ubu UmbrelOS yashizweho neza kandi itunganijwe neza ku mashine yawe, urashobora 
 
 
 
-Hanyuma ukande kuri buto ya "*Install*".
+Hanyuma ufyonde kuri buto ya "*Install*".
 
 
 
@@ -2043,7 +2043,7 @@ Kugira ngo umenye vyinshi ku ngaruka z’umurongo wa `dbcache` ku guhuza kwa mbe
 
 
 
-IBD y’urudodo rwawe imaze kurangira (100% y’uguhuza), ubu urafise urudodo rwa Bitcoin rukora neza. Urasangwa, ubu uri igice kigize urubuga rwa Bitcoin!
+IBD y’urudodo rwawe imaze kurangira (100% y’uguhuza), ubu urafise urudodo rwa Bitcoin rukora neza. Urasanga, ubu uri igice kigize urubuga rwa Bitcoin!
 
 
 
@@ -2071,7 +2071,7 @@ Mu gice gikurikira, tuzokwihweza ingene node yawe nshasha ikoreshwa: ingene woyi
 
 
 
-Niba waramaze gutohoza ama node ya Bitcoin imbere yo gufata iri shure, ushobora kuba warahuye n'ijambo "indexer". Ivyo ni ibikoresho nka Electrs canke Fulcrum, bishobora kwongerwa ku nzira ya Bitcoin core. Ariko none, uruhara rwabo ni uruhe nyabuna? None mu bikorwa bakora gute? Kandi woba ukwiye gushiramwo imwe ku nzira yawe nshasha ya Bitcoin? Ivyo ni vyo tuzokwihweza muri iki kigabane.
+Nimba waramaze gutohoza ama node ya Bitcoin imbere yo gufata iri shure, ushobora kuba warahuye n'ijambo "indexer". Ivyo ni ibikoresho nka Electrs canke Fulcrum, bishobora kwongerwa ku nzira ya Bitcoin core. Ariko none, uruhara rwabo ni uruhe nyabuna? None mu bikorwa bakora gute? Kandi woba ukwiye gushiramwo imwe ku nzira yawe nshasha ya Bitcoin? Ivyo ni vyo tuzokwihweza muri iki kigabane.
 
 
 
@@ -2079,7 +2079,7 @@ Niba waramaze gutohoza ama node ya Bitcoin imbere yo gufata iri shure, ushobora 
 
 
 
-Mu kuvuga muri rusangi, indexer ni porogaramu isuzuma urutonde rw'amakuru atagira ishingiro, igakuramwo imfunguruzo zijanye n'ivyo (nk'amajambo, ibimenyetso, n'amaderesi), maze igakora dosiye y'inyongera, yitwa "index", aho urufunguzo rwose rwerekeza ku kibanza nyaco c'amakuru ari muri corpus. Ico gice c’imbere y’ugukora gikoresha umwanya wa CPU kandi gisaba umwanya wo kuri disiki, ariko kirakuraho ivy’ugukora igitabu cose igihe cose urutonde rw’amakuru rubajijwe; kubaza gusa urutonde rw’ibintu bituma umuntu aronka inyishu hafi ubwo nyene.
+Mu kuvuga muri rusangi, indexer ni porogaramu isuzuma urutonde rw'amakuru atagira ishingiro, igakuramwo impfunguruzo zijanye n'ivyo (nk'amajambo, ibimenyetso, n'amaderesi), maze igakora dosiye y'inyongera, yitwa "index", aho urupfunguzo rwose rwerekeza ku kibanza nyaco c'amakuru ari muri corpus. Ico gice c’imbere y’ugukora gikoresha umwanya wa CPU kandi gisaba umwanya wo kuri disiki, ariko kirakuraho ivy’ugukora igitabu cose igihe cose urutonde rw’amakuru rubajijwe; kubaza gusa urutonde rw’ibintu bituma umuntu aronka inyishu hafi ubwo nyene.
 
 
 
@@ -2087,7 +2087,7 @@ Mu majambo y’abanyabwenge, ni ingingo ngenderwako imwe n’urutonde rw’ibint
 
 
 
-Mu nzira ya Bitcoin, nka Bitcoin core, amakuru ya Blockchain abikwa mu buryo bwayo butagiramwo ivyiza, bujanye n’igihe. Buri bubiko burimwo ibikorwa, navyo bikaba birimwo ivyinjijwe n'ibisohoka, ata n'imwe ishirwa mu migwi na Address, ikimenyetso, canke Wallet. Iyi nteguro y'umurongo iratunganijwe neza kugira ngo yemezwe, ariko ntibereye ku bushakashatsi bushingiye ku ntumbero. Nk'akarorero, nimba ushaka kuronka amafaranga yose afitaniye isano na Address yihariye mu gice kitari mu rutonde, wobwirizwa gusubiramwo n'amaboko Blockchain yose, igice ku kindi n'amafaranga ku yindi. Aha niho nyene indexer iri ku node yawe ya Bitcoin yinjira.
+Mu nzira ya Bitcoin, nka Bitcoin core, amakuru ya Blockchain abikwa mu buryo bwayo butagiramwo ivyiza, bujanye n’igihe. Buri bubiko burimwo ibikorwa, navyo bikaba birimwo ivyinjijwe n'ibisohoka, ata n'imwe ishirwa mu migwi na Address, ikimenyetso, canke Wallet. Iyi nteguro y'umurongo iratunganijwe neza kugira ngo yemezwe, ariko ntibereye ku bushakashatsi bushingiye ku ntumbero. Nk'akarorero, nimba ushaka kuronka amafaranga yose afitaniye isano na Address yihariye mu gice kitari mu rutonde, wobwirizwa gusubiramwo n'amaboko Blockchain yose, igice ku kindi n'amafaranga ku yindi. Aha niho nyene indexer iri kuri node yawe ya Bitcoin yinjira.
 
 
 
@@ -2095,7 +2095,7 @@ Mu nzira ya Bitcoin, nka Bitcoin core, amakuru ya Blockchain abikwa mu buryo bwa
 
 
 
-Indexer ni porogarama yihariye isesangura ayo makuru menshi atagiramwo ivyatsi (Blockchain, Mempool, UTXO set) maze igakuraho imfunguruzo, nk’ibimenyetso vy’ibikorwa, amaderesi, n’uburebure bw’ibice. Ivuye kuri izo mfunguruzo, yubaka urutonde rwayo, igafatanya urufunguzo rumwe rumwe n’aho amakuru ari mu bubiko bw’urudodo.
+Indexer ni porogarama yihariye isesangura ayo makuru menshi atagiramwo ivyatsi (Blockchain, Mempool, UTXO set) maze igakuraho impfunguruzo, nk’ibimenyetso vy’ibikorwa, amaderesi, n’uburebure bw’ibice. Ivuye kuri izo mpfunguruzo, yubaka urutonde rwayo, igafatanya urupfunguzo rumwe rumwe n’aho amakuru ari mu bubiko bw’urudodo.
 
 
 

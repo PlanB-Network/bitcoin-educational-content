@@ -1,6 +1,6 @@
 ---
 name: Kuba inzobere mugukora mining y'isoko y'uguruye (open source mining) ya Bitaxe
-goal: Kuba inzobere mw'isi ya yuzuye ya Bitaxe, kuva ku gukoranya ibikoresho gushika ku guhindura ibintu bimwe vy'ubuhinga bwohejuru no gutuma ibikorwa bigenda neza
+goal: Kuba inzobere mw'isi ya yuzuye ya Bitaxe, kuva ku guteranya ibikoresho gushika ku guhindura ibintu bimwe vy'ubuhinga bwohejuru no gutuma ibikorwa bigenda neza
 objectives: 
 
   - Gutahura firozofiya y'ibikoresho vyogukora Bitcoin mining vy'isoko yuguruye
@@ -16,7 +16,7 @@ objectives:
 Ikaze muri iki cigwa ca Bitaxe, aho uzomenya neza ubuhinga ibikoresho bizanye impinduka muri mining y'isoko yuguruye bifise gushitsa kuri bose ikoranabuhanga rya mining. Iki cigwa kikujana mu gutahura imishinge ya firozofiya ya mining ikwiragijwe (decentrarized) gushika ku buhinga buteye imbere bwo guhindura ibikoresho n’ubuhinga bwo gutuma ibikorwa bikora neza.
 
 
-Umugambi wa Bitaxe buhagarariye impinduka y’akarorero muri Bitcoin mining, ugaca ukwiharira isoko kw’abahinguzi ba ASIC mu gutanga uburyo bw'isoko y'uguruye bwuzuye, porgarame ya firmware, n'izindi porogarame. Biciye muri ibi bice vy’ibikorwa, uzoronka ubuhinga ngirakamaro mu gukoranya ibikoresho, gutunganya porogarame, guhingura PCB, no gutuma ibintu bigenda neza.
+Umugambi wa Bitaxe buhagarariye impinduka y’akarorero muri Bitcoin mining, ugaca ukwiharira isoko kw’abahinguzi ba ASIC mu gutanga uburyo bw'isoko y'uguruye bwuzuye, porgarame ya firmware, n'izindi porogarame. Biciye muri ibi bice vy’ibikorwa, uzoronka ubuhinga ngirakamaro mu guteranya ibikoresho, gutunganya porogarame, guhingura PCB, no gutuma ibintu bigenda neza.
 
 
 Nta bumenyi bwa mining busabwa imbere y'igihe, naho ubumenyi bw’ishimikiro bw’ivy’ubuhinga bwa eregitoronike n’ukumenya GitHub bizofasha. Iki cigwa kizoguhindura kuva ku muntu afise ubushake bwo kumenya ibintu vyinshi ukaja ku muntu ashoboye kwubaka Bitaxe no gutanga intererano.
@@ -57,7 +57,7 @@ Igice ca kabiri kivuga cane ku bidukikije vya porogarame, n’ugushikiriza mu bu
 Igice ca gatatu kirerekana uruhande rw’ubufatanye rw’uwo mugambi. Uzokwihweza firozofiya y’isoko yuguruye ikoreshwa mu gutegura ibikoresho n’amaporogarame ya Bitaxe. Biciye mu myimenyerezo, uzomenya ingene wotanga intererano mu buryo buziguye kuri kode y’isoko, kandi uzobona kandi _Public Pool_, urubuga rw’abaryango rwo gukoranya ubushobozi bwo gukoresha ubuhinga bwa none. Uzomenya kandi ingene woyishira kuri node ya Umbrel kugira ngo uyikoreshe aho mu karere no mu gihugu.
 
 
-### Gukoranya ibikoresho n'ugutorera umuti ingorane
+### Guteranya ibikoresho n'ugutorera umuti ingorane
 
 
 Mu gice ca kane, uzokwisuka mu bikoresho ubwavyo. Uzomenya ingene wobasha kumenya ibikoresho bikenewe kugira ngo uteranye Bitaxe, ukosore ibibazo vyo gusudira gukora isuzuma ryuzuye ukoresheje ibikoresho vya *AxeOS* na USB. Iki gice gishimika ku bikorwa vy’amaboko no gutahura bimwe bikomeye ingene ibihimba vy’ibikoresho n’ivy’amaporogarame bikorana.
@@ -670,7 +670,7 @@ Ivyo bikoresho bihurikiye hamwe bituma haba ubushobozi bwo gutera SMD bushitse b
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
-Igikoresho co kwakira amajwi ca Bitaxe kiratanga ingorane zidasanzwe mu gihe co gukoranya ibintu bisaba kwitwararika cane ukuntu ibihimba vy’umubiri biteye, kwirinda ikiraro c’ivyuma, no gucungera neza ubushuhe. Gutahura ivyo bibazo rusangi n’ingene bitorwa umuti ni ngombwa kugira ngo umuntu ashobore kwubaka neza ibikoresho no kwirinda kwonona ibihimba vy’umubiri bizimvye. Iki gice kirasuzuma ingorane zikunda gushika mu gihe c’iteraniro rya Bitaxe kandi kigatanga ubuhinga ngirakamaro bwo kuzimenya no kuzitorera umuti.
+Igikoresho co kwakira amajwi ca Bitaxe kiratanga ingorane zidasanzwe mu gihe co guteranya ibintu bisaba kwitwararika cane ukuntu ibihimba vy’umubiri biteye, kwirinda ikiraro c’ivyuma, no gucungera neza ubushuhe. Gutahura ivyo bibazo rusangi n’ingene bitorwa umuti ni ngombwa kugira ngo umuntu ashobore kwubaka neza ibikoresho no kwirinda kwonona ibihimba vy’umubiri bizimvye. Iki gice kirasuzuma ingorane zikunda gushika mu gihe c’iteraniro rya Bitaxe kandi kigatanga ubuhinga ngirakamaro bwo kuzimenya no kuzitorera umuti.
 
 
 ### Ivyiyumviro vy'ibice n'ukubimenya

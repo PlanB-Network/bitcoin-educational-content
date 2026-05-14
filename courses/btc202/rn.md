@@ -1383,7 +1383,7 @@ Bivanye n’ivyo ushaka gukoresha, urashobora guhitamwo SSD ya 2TB, nk’uko bir
 
 
 
-- Bivanye n’agaciro k’ibikoresho vyawe be n’aho uri, uburyo bwo guhagarika imiravyo na bwo nyene burashobora kuba bwiza, haba ku rubaho rwo guhindura umuriro canke ku nzira y’amashanyarazi ikoreshwa.
+- Bivanye n’agaciro k’ibikoresho vyawe be n’aho uri, uburyo bwo guhagarika imiravyo na bwo nyene burashobora kuba bwiza, haba ku rubaho rwo guhindura umuriro canke ku nzira y’umuyagankuba ikoreshwa.
 
 
 
@@ -2249,7 +2249,7 @@ Nk’uko twabibonye haruguru, hariho uburyo bubiri nyamukuru bwo guhuza:
 
 
 - Guhuza ata guca ku ruhande na Bitcoin core biciye kuri RPC;
-- Canke uhuze n’umurongo w’amashanyarazi (Electrs canke Fulcrum).
+- Canke uhuze n’umurongo w’umuyagankuba (Electrs canke Fulcrum).
 
 
 
@@ -2284,7 +2284,7 @@ Uzoca ubona uburyo butatu bwo guhuza porogarama yawe n'uruzitiro rwa Bitcoin:
 
 - Server ya bose* (umuhondo): ku buryo busanzwe, iyo udafise urudodo rwa Bitcoin, iyi nzira iraguhuza n’urudodo rwa bose udafise (kenshi n’urw’ishirahamwe). Iyi nzira ntaco imaze hano, kuko ufise urudodo rwawe kuri Umbrel.
 - Bitcoin core* (Green): iyi nzira ihuye n'uguhuza biciye kuri Interface RPC, n'ukuvuga, guca kuri Bitcoin core.
-- Igikoresho c’amashanyarazi c’ibanga* (ubururu): iyi nzira ituma ushobora kwifatanya biciye ku gikorwa cawe c’amashanyarazi Interface (Electrs canke Fulcrum).
+- Igikoresho c’umuyagankuba c’ibanga* (ubururu): iyi nzira ituma ushobora kwifatanya biciye ku gikorwa cawe c’umuyagankuba Interface (Electrs canke Fulcrum).
 
 
 
@@ -2340,7 +2340,7 @@ Ikimenyetso kiri hasi iburyo bwa Interface Sparrow wallet ubu kizoba ari Green (
 
 
 
-### Huza n'amashanyarazi
+### Huza n'umuyagankuba
 
 
 
@@ -2674,7 +2674,7 @@ Ku Raspberry Pi na mini-PCs, Dust amaherezo irazibira ibikoresho vy’ubushuhe, 
 
 
 
-Raba neza ko ukoresha umuriro w’agaciro kanini Supply, kuko umuriro udashikamye ushobora gutuma ubuhinga bwononekara mbere n’ugutera umuriro. Ivyiza ni uko wokoresha ububasha bw’intango Supply butangwa n’uwakoze imashini yawe. Iyubare kandi ku gushuha cane bitewe n’ingaruka za Joule ku mirongo y’amashanyarazi: wama wubaha amashanyarazi menshi cane yemerewe kandi ntukigere ufatanya imirongo y’amashanyarazi myinshi mu nzira y’amazi.
+Raba neza ko ukoresha umuriro w’agaciro kanini Supply, kuko umuriro udashikamye ushobora gutuma ubuhinga bwononekara mbere n’ugutera umuriro. Ivyiza ni uko wokoresha ububasha bw’intango Supply butangwa n’uwakoze imashini yawe. Iyubare kandi ku gushuha cane bitewe n’ingaruka za Joule ku mirongo y’umuyagankuba: wama wubaha umuyagankuba menshi cane yemerewe kandi ntukigere ufatanya imirongo y’umuyagankuba myinshi mu nzira y’amazi.
 
 
 

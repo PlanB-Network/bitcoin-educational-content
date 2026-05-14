@@ -2103,7 +2103,7 @@ Indexer ni porogarama yihariye isesangura ayo makuru menshi atagiramwo ivyatsi (
 
 
 
-Indexing iragufasha kurondera amakuru ku node yawe vyihuta, ataco bihinduye kandi neza. Nk’akarorero, iyo uhuje Wallet nka Sparrow ku node yawe, irashobora kwerekana uburinganire bwa Address hafi mu kanya nk’ako gukubita. Mu majambo nyayo, ibaza umukozi w'urutonde n'ikibazo nk'iki: "_Ni ibihe UTXO bifitaniye isano n'iyi nyandiko-Hash?_" Umukozi w'urutonde arishura hafi ubwo nyene, ataco akeneye gusubira gusoma Blockchain yose, kuko ayo makuru asanzwe ari mu rutonde rwiwe rw'amakuru.
+Indexing iragufasha kurondera amakuru kuri node yawe vyihuta, ataco bihinduye kandi neza. Nk’akarorero, iyo uhuje Wallet nka Sparrow ku node yawe, irashobora kwerekana uburinganire bwa Address hafi mu kanya nk’ako gukubita. Mu majambo nyayo, ibaza umukozi w'urutonde n'ikibazo nk'iki: "_Ni ibihe UTXO bifitaniye isano n'iyi nyandiko-Hash?_" Umukozi w'urutonde arishura hafi ubwo nyene, ataco akeneye gusubira gusoma Blockchain yose, kuko ayo makuru asanzwe ari mu rutonde rwiwe rw'amakuru.
 
 
 
@@ -2145,7 +2145,7 @@ Mu buryo butandukanye n’ivyo abantu benshi bemera, Bitcoin core ntitanga index
 
 
 
-- Porogarama yose ya porogarama irafise ibisabwa vyihariye ku bijanye n’uburyo canke ubwoko bw’amakuru azoshirwa mu rutonde (Address, inyandiko ya Hash, ikimenyetso c’umunyagihugu, n’ibindi). Ni vyiza kandi bihuye n'ubwenge kureka izo porogaramu zikaba zikora index zazo kuruta gukosora umuti rusangi muri Bitcoin core.
+- Porogarama yose irafise ibisabwa vyihariye ku bijanye n’uburyo canke ubwoko bw’amakuru azoshirwa mu rutonde (Address, inyandiko ya Hash, ikimenyetso c’umunyagihugu, n’ibindi). Ni vyiza kandi bihuye n'ubwenge kureka izo porogarama zikaba zikora index zazo kuruta gukosora umuti rusangi muri Bitcoin core.
 
 
 
@@ -2161,7 +2161,7 @@ Kwongera urutonde rwa Address, nka Electrs canke Fulcrum, si ngombwa; bivana n�
 
 
 
-Niba ushaka gusa gufatanya Wallet, nka Sparrow, n’urudodo rwawe kugira ngo ubone amafaranga n’amafaranga yo gutangaza, ivyo birashoboka vyose biciye ku Interface RPC ya Bitcoin core, haba mu karere canke kure biciye ku Tor.
+Nimba ushaka gusa gufatanya Wallet, nka Sparrow, n’urudodo rwawe kugira ngo ubone amafaranga n’amafaranga yo gutangaza, ivyo birashoboka vyose biciye kuri Interface RPC ya Bitcoin core, haba mu karere canke kure biciye ku Tor.
 
 
 
@@ -2189,18 +2189,18 @@ Mu mvugo yoroshe, Electrs ni nziza cane: ikora index Blockchain vyihuta kandi if
 
 
 
-Ku bijanye n’ugukoresha umuntu ku giti ciwe, ndabagira inama Electrs: ifata umwanya muto, iratunganijwe neza, kandi, naho igenda buhoro gatoyi ku bisabwa bimwebimwe kuruta Fulcrum, iracari ihagije cane ku gukoresha buri musi. Niba ufise umwanya n’umwanya kuri disk, urashobora kandi kugerageza Fulcrum, izokora neza cane cane ku ma wallets afise amaderesi menshi yo kugenzura.
+Ku bijanye n’ugukoresha umuntu ku giti ciwe, ndabagira inama Electrs: ifata umwanya muto, iratunganijwe neza, kandi, naho igenda buhoro gatoyi ku bisabwa bimwebimwe kuruta Fulcrum, irahagije cane ku gukoresha buri musi. Nimba ufise umwanya n’ikibanza kuri disk, urashobora kandi kugerageza Fulcrum, izokora neza cane cane kuma wallets afise amaderesi menshi yo kugenzura.
 
 
 
-Mu majambo nyayo, muri Myandagaro 2025, Electrs izosaba ububiko bugera kuri 56 GB, ugereranyije n’ububiko bwa Fulcrum bugera kuri 178 GB. Ihitamwo ryawe ry'urutonde, rero, rivana n'ubushobozi bwawe bwo kubika:
+Mu majambo nyayo, muri Myandagaro 2025, Electrs izosaba ububiko bugera kuri 56 GB, ugereranije n’ububiko bwa Fulcrum bugera kuri 178 GB. Ihitamwo ryawe ry'urutonde, rero, rivana n'ubushobozi bwawe bwo kubika:
 
 
 
 
-- Niba umwanya wawe kuri disk uri muto cane, uzobwirizwa gukoresha Bitcoin core ata indexer ya Address yo hanze.
-- Niba ushaka gukoresha indexer, ariko ukaba ukiri n'ubushobozi, hitamwo Electrs.
-- Niba ufise umwanya ubereye kuri disk, Fulcrum ishobora kuba ari co nyene uriko urarondera.
+- Nimba umwanya wawe kuri disk ari muto cane, uzobwirizwa gukoresha Bitcoin core ata indexer ya Address yo hanze.
+- Nimba ushaka gukoresha indexer, ariko ukaba ukiri n'ubushobozi, hitamwo Electrs.
+- Nimba ufise umwanya ubereye kuri disk, Fulcrum ishobora kuba ari co nyene uriko urarondera.
 
 
 
@@ -2212,7 +2212,7 @@ Mu gihe gisigaye c’iyi nyigisho ya BTC 202, nzoba ndiko nkoresha Electrs, arik
 
 
 
-Kugira ngo ushire Electrs (canke Fulcrum) kuri Umbrel yawe, uburyo bwo kubikora buragoye: genda muri App Store, urondere porogarama ibereye (iri mu gice ca Bitcoin), hanyuma ukande kuri buto ya "*Install*".
+Kugira ngo ushire Electrs (canke Fulcrum) kuri Umbrel yawe, uburyo bwo kubikora buragoye: genda muri App Store, urondere porogarama ibereye (iri mu gice ca Bitcoin), hanyuma ufyonde kuri buto ya "*Install*".
 
 
 
@@ -2220,7 +2220,7 @@ Kugira ngo ushire Electrs (canke Fulcrum) kuri Umbrel yawe, uburyo bwo kubikora 
 
 
 
-Igihe gushiramwo, Electrs izobandanya n’igice co gukorana (indexing), gishobora gutwara amasaha menshi.
+Igihe gushiramwo vyarangiye, Electrs izobandanya n’igice co gukorana (indexing), gishobora gutwara amasaha menshi.
 
 
 
@@ -2248,7 +2248,7 @@ Nk’uko twabibonye haruguru, hariho uburyo bubiri nyamukuru bwo guhuza:
 
 
 
-- Guhuza ata guca ku ruhande na Bitcoin core biciye ku RPC;
+- Guhuza ata guca ku ruhande na Bitcoin core biciye kuri RPC;
 - Canke uhuze n’umurongo w’amashanyarazi (Electrs canke Fulcrum).
 
 
@@ -2257,11 +2257,11 @@ Muri iyi nyigisho, tuzokwibanda ku gufatanya n’uruzitiro rwawe biciye kuri Tor
 
 
 
-Tuzokoresha Sparrow nk'akarorero muri iki gice, ariko uburyo bwo kubikora ni bumwe ku zindi porogarama zose zo gucunga Wallet zemera gukorana n'amaserveri ya Electrum. Gusa rondera ivyagezwe bihuye mu mirongo y'ikoreshwa ryawe (kenshi muri "*Server*", "*Irezo*", "*Node*"...).
+Tuzokoresha Sparrow nk'akarorero muri iki gice, ariko uburyo bwo kubikora ni bumwe ku zindi porogarama zose zo gucunga Wallet zemera gukorana n'amaserveri ya Electrum. Gusa rondera ivyagezwe bihuye mu mirongo y'ikoreshwa ryawe (kenshi muri "*Server*", "*Network*", "*Node*"...).
 
 
 
-Ku Sparrow, fungura urupapuro rwa "*Dosiye*" maze uje kuri "Ivyagezwe".
+Kuri Sparrow, fungura urupapuro rwa "*Dosiye*" maze uje ku "vyagezwe(Settings)".
 
 
 
@@ -2269,7 +2269,7 @@ Ku Sparrow, fungura urupapuro rwa "*Dosiye*" maze uje kuri "Ivyagezwe".
 
 
 
-Hanyuma ukande kuri "*Server*" kugira ngo ushikire amaparametere y'ihuriro.
+Hanyuma ufyonde kuri "*Server*" kugira ngo ushikire amaparametere(Settings) y'ihuriro(connexion).
 
 
 
@@ -2277,13 +2277,13 @@ Hanyuma ukande kuri "*Server*" kugira ngo ushikire amaparametere y'ihuriro.
 
 
 
-Uzoca ubona uburyo butatu bwo guhuza porogaramu yawe n'uruzitiro rwa Bitcoin:
+Uzoca ubona uburyo butatu bwo guhuza porogarama yawe n'uruzitiro rwa Bitcoin:
 
 
 
 
 - Server ya bose* (umuhondo): ku buryo busanzwe, iyo udafise urudodo rwa Bitcoin, iyi nzira iraguhuza n’urudodo rwa bose udafise (kenshi n’urw’ishirahamwe). Iyi nzira ntaco imaze hano, kuko ufise urudodo rwawe kuri Umbrel.
-- Bitcoin core* (Green): iyi nzira ihuye n'uguhuza biciye kuri Interface RPC, ni ukuvuga, guca kuri Bitcoin core.
+- Bitcoin core* (Green): iyi nzira ihuye n'uguhuza biciye kuri Interface RPC, n'ukuvuga, guca kuri Bitcoin core.
 - Igikoresho c’amashanyarazi c’ibanga* (ubururu): iyi nzira ituma ushobora kwifatanya biciye ku gikorwa cawe c’amashanyarazi Interface (Electrs canke Fulcrum).
 
 
@@ -2292,7 +2292,7 @@ Uzoca ubona uburyo butatu bwo guhuza porogaramu yawe n'uruzitiro rwa Bitcoin:
 
 
 
-Niba node yawe ya Umbrel idafise indexer, iyi ni yo nzira ukeneye guhitamwo. Ku gitabu-444, kanda kuri "*igitabu-443*".
+Nimba node yawe ya Umbrel idafise indexer, iyi ni yo nzira ukeneye guhitamwo. Ku gitabu-444, Fyonda kuri "*igitabu-443*".
 
 
 
@@ -2300,7 +2300,7 @@ Niba node yawe ya Umbrel idafise indexer, iyi ni yo nzira ukeneye guhitamwo. Ku 
 
 
 
-Uzoca ukenera kwinjiza amakuru menshi kugira ngo ushireho ihuriro n’urudodo rwawe. Aya makuru yose ashobora gushikirizwa kuri porogaramu ya "*Bitcoin Node*" kuri Umbrel ukanda kuri buto ya "*Connect*" iri hejuru iburyo bwa Interface.
+Uzoca ukenera kwinjiza amakuru menshi kugira ngo ushireho ihuriro n’urudodo rwawe. Aya makuru yose ashobora gushikirizwa kuri porogarama ya "*Bitcoin Node*" kuri Umbrel Fyonda kuri buto ya "*Connect*" iri hejuru iburyo bwa Interface.
 
 
 
@@ -2308,7 +2308,7 @@ Uzoca ukenera kwinjiza amakuru menshi kugira ngo ushireho ihuriro n’urudodo rw
 
 
 
-Igipande ca "*Ibisobanuro vya RPC*" kigaragaza amakuru yose akenewe kugira ngo umuntu ashobore gukorana. Hitamwo kwifatanya na Tor Address (mu `.igitunguru`).
+Igipande ci "*Ibisigura ivya RPC*" kigaragaza amakuru yose akenewe kugira ngo umuntu ashobore gukorana. Hitamwo kwifatanya na Tor Address (mu `.igitunguru`).
 
 
 
@@ -2316,7 +2316,7 @@ Igipande ca "*Ibisobanuro vya RPC*" kigaragaza amakuru yose akenewe kugira ngo u
 
 
 
-Injira ayo makuru mu bibanza bihuye kuri Sparrow wallet, hanyuma ukande kuri buto "*Test Connection*".
+Injira ayo makuru mu bibanza bihuye kuri Sparrow wallet, hanyuma ufyonde kuri buto "*Test Connection*".
 
 
 
@@ -2324,7 +2324,7 @@ Injira ayo makuru mu bibanza bihuye kuri Sparrow wallet, hanyuma ukande kuri but
 
 
 
-Iyo iyo nzira ishobora gukora neza, hazoboneka akamenyetso ka Green n’ubutumwa bwo kwemeza.
+Iyo  nzira ishobora gukora neza, hazoboneka akamenyetso ka Green n’ubutumwa bwo kwemeza.
 
 
 
@@ -2332,7 +2332,7 @@ Iyo iyo nzira ishobora gukora neza, hazoboneka akamenyetso ka Green n’ubutumwa
 
 
 
-Ikimenyetso kiri hasi iburyo bwa Interface Sparrow wallet ubu kizoba ari Green (kigaragaza ko gifitaniye isano n’i Bitcoin core).
+Ikimenyetso kiri hasi iburyo bwa Interface Sparrow wallet ubu kizoba ari Green (kigaragaza ko gifitaniye isano na Bitcoin core).
 
 
 
@@ -2344,11 +2344,11 @@ Ikimenyetso kiri hasi iburyo bwa Interface Sparrow wallet ubu kizoba ari Green (
 
 
 
-Niba node yawe ifise indexer, ni vyiza ko uyifatanya na yo kuruta gukoresha Bitcoin core ataco uhinduye, kuko ibibazo vyawe bizokorwa ningoga.
+Niba node yawe ifise indexer, ni vyiza ko uyifatanya nayo kuruta gukoresha Bitcoin core ataco uhinduye, kuko ibibazo vyawe bizokorwa ningoga.
 
 
 
-Ku Sparrow, genda ku rubuga rwa "*Electrum y'ibanga*".
+Kuri Sparrow, genda ku rubuga rwa "*Electrum y'ibanga*".
 
 
 
@@ -2360,7 +2360,7 @@ Uzoca ukenera kwinjiza amakuru menshi kugira ngo ushireho isano n'umurongo wawe.
 
 
 
-Hitamwo "*Tor*" kugira ngo ubone `.onion` ihuriro Address. Niba wipfuza gufatanya porogarama y’itelefone ngendanwa yitwa Wallet, urashobora kandi gucapura kode ya QR ataco uhinduye.
+Hitamwo "*Tor*" kugira ngo ubone `.onion` ihuriro Address. Niba wipfuza gufatanya porogarama y’itelefone ngendanwa yitwa Wallet, urashobora kandi gucapura(scanner) kode ya QR ataco uhinduye.
 
 
 
@@ -2368,7 +2368,7 @@ Hitamwo "*Tor*" kugira ngo ubone `.onion` ihuriro Address. Niba wipfuza gufatany
 
 
 
-Niwinjize gusa Tor Address ya server yawe ya Electrum mu kibanza ca "*URL*", hanyuma ukande kuri buto ya "*Igerageza ry'Ihuza*".
+Niwinjize gusa Tor Address ya server yawe ya Electrum mu kibanza ca "*URL*", hanyuma ufyonde kuri buto ya "*Igerageza ry'Ihuza*".
 
 
 
@@ -2392,7 +2392,7 @@ Ikimenyetso kiri mu mfuruka iburyo hasi ya Interface Sparrow wallet kizohinduka 
 
 
 
-Ubu urazi ingene wofatanya Wallet yawe n’urudodo rwawe rwa Bitcoin! Mu gice gikurikira, nzobamenyesha izindi porogaramu nyinshi ziboneka kuri Umbrel nkunda cane, kandi izotuma mushobora kwongereza ubushobozi bwo gukoresha Bitcoin ku musi ku musi biciye ku nzira yanyu.
+Ubu urazi ingene wofatanya Wallet yawe n’urudodo rwawe rwa Bitcoin! Mu gice gikurikira, nzobamenyesha izindi porogarama nyinshi ziboneka kuri Umbrel nkunda cane, kandi izotuma mushobora kwongereza ubushobozi bwo gukoresha Bitcoin ku musi ku musi biciye ku nzira yanyu.
 
 
 
@@ -2404,7 +2404,7 @@ Ubu urazi ingene wofatanya Wallet yawe n’urudodo rwawe rwa Bitcoin! Mu gice gi
 
 
 
-Umbrel itanga iduka ryinshi ry’ibikoresho. Nk’uko uzobibona, hariho ibikoresho vyinshi bijanye na Bitcoin, ariko kandi n’ibikoresho vyinshi bitandukanye mu bikorwa bitandukanye cane: inyishu z’ukwiyakira ku bikorwa n’amadosiye, ibikoresho vy’umwimbu, ibikoresho vy’amahera rusangi, uburongozi bw’ivy’itangazamakuru, umutekano w’urubuga n’uburongozi, iterambere, ubwenge bukorano, ubuhinga bwo gukoresha urubuga rwo mu nzu, n’ibindi.
+Umbrel itanga iduka ryinshi ry’ibikoresho. Nk’uko uzobibona, hariho ibikoresho vyinshi bijanye na Bitcoin, ariko kandi n’ibikoresho vyinshi bitandukanye mu bikorwa bitandukanye cane: inyishu z’ukwiyakira ku bikorwa n’amadosiye, ibikoresho vy’umwimbu, ibikoresho vy’amahera rusangi, uburongozi bw’ivy’ukumenyesha amakuru, umutekano w’urubuga n’uburongozi, iterambere, ubwenge bukorano, ubuhinga bwo gukoresha urubuga rwo mu nzu, n’ibindi.
 
 
 
@@ -2420,15 +2420,15 @@ Ego ni ko, ntivyoshoboka ko umuntu atanga urutonde rw’ibisabwa vyose vya Bitco
 
 
 
-Mu gukoresha Bitcoin ku musi ku musi, nimba hari igikoresho kimwe gikenewe cane, ni Block explorer. Yaba ishobora gushikirizwa kuri Internet canke ishizweho aho hantu, irahindura amakuru atagiramwo ivyatsi ya Blockchain akagira uburyo butunganijwe, butomoye kandi bworoshe gusoma. Irafise kandi ubuhinga bwo kurondera bufasha abakoresha kwihuta kuronka igice kinaka, igikorwa canke Address.
+Mu gukoresha Bitcoin ku musi ku musi, nimba hari igikoresho kimwe gikenewe cane, ni Block explorer. Yoba ishobora gushikirizwa kuri Internet canke ishizweho aho hantu, irahindura amakuru atagiramwo ivyatsi ya Blockchain akagira uburyo butunganijwe, butomoye kandi bworoshe gusoma. Irafise kandi ubuhinga bwo kurondera bufasha abakoresha kwihuta kuronka igice kinaka, igikorwa canke Address.
 
 
 
-Mu majambo nyayo, umutohoji araguha uburenganzira bwo kugereranya amafaranga asabwa kugira ngo igikorwa cawe gishirwe mu gice, hanyuma ukurikirane ingene gitera: umenye nimba gishobora gushirwa muri kazoza ka vuba, bivanye n’isoko ry’amahera, hanyuma ugaheza ukemeza ko vy’ukuri cashizwe mu gice. Iratanga kandi ubushobozi bwo gusuzuma amafaranga mwakoze kera no kumenya amateka yayo. Muri make, ni Imbugita y’Ingabo z’Ubusuwisi y’umu bitcoiner.
+Mu majambo nyayo, umutohoji araguha uburenganzira bwo kugereranya amafaranga asabwa kugira ngo igikorwa cawe gishirwe mu gice, hanyuma ukurikirane ingene gitera: umenye nimba gishobora gushirwa muri kazoza ka vuba, bivanye n’isoko ry’amahera, hanyuma ugaheza ukemeza ko vy’ukuri cashizwe mu gice. Iratanga kandi ubushobozi bwo gusuzuma amafaranga mwakoze kera no kumenya amateka yayo. Muri make, ni Imbugita  y’Ubusuwisi y’umu bitcoiner.
 
 
 
-Nk’uko twabibonye kera, umugenzuzi ashobora kwakirwa kuri internet ku rubuga canke akoreshe aho hantu ku mashine yawe. Intambamyi ikomeye y’ibikorwa vyo kuri Internet ni uko bishobora gutuma ubuzima bwawe buhungabana. Ata VPN canke Tor, server yakira explorer ishobora guhuza IP yawe Address n’ibikorwa uriko urabona, bishobora gutanga ahantu heza ho kwinjira mu gusesangura uruhererekane.
+Nk’uko twabibonye kera, umugenduzi ashobora kwakirwa kuri internet ku rubuga canke akoreshe aho hantu ku mashine yawe. Intambamyi ikomeye y’ibikorwa vyo kuri Internet ni uko bishobora gutuma ubuzima bwawe buhungabana. Ata VPN canke Tor, server yakira explorer ishobora guhuza IP yawe Address n’ibikorwa uriko urabona, bishobora gutanga ahantu heza ho kwinjira mu gusesangura uruhererekane.
 
 
 
@@ -2438,7 +2438,7 @@ Ikindi kandi, uwuguha Internet (ISP) yoshobora kumenya ko uriko urabona ikintu k
 
 
 
-Ni co gituma vyama ari vyiza gukoresha Block explorer yo mu karere kawe. Muri ubwo buryo, nta makuru ajanye n’igikorwa cawe co kurondera azosohoka, kubera ko ibibazo vyose bica ku mashini ugenzura, ataco biciye kuri Internet. Ikindi, umugenzuzi wo mu karere yizigira amakuru ava ku nzira yawe bwite ya Bitcoin, ayo wewe nyene wiyemeje, hakurikijwe amategeko yawe bwite, kandi ushobora kwizigira.
+Ni co gituma vyama ari vyiza gukoresha Block explorer yo mu karere kawe. Muri ubwo buryo, nta makuru ajanye n’igikorwa cawe co kurondera azosohoka, kubera ko ibibazo vyose bica ku mashini ugenzura, ataco biciye kuri Internet. Ikindi, umugenduzi wo mu karere yizigira amakuru ava ku nzira yawe bwite ya Bitcoin, ayo wewe nyene wiyemeje, hakurikijwe amategeko yawe bwite, kandi ushobora kwizigira.
 
 
 
@@ -2449,15 +2449,15 @@ Umbrel itanga abashakashatsi benshi:
 
 - Mempool.Ikirere
 - Bitfeed
-- BTC RPC Umugenzuzi
+- BTC RPC Umugenduzi
 
 
 
-Nkunda cane cane Mempool.Space, iyo nashize ku node yanje. Iyumvire: kugira ngo ukoreshe benshi mu bashakashatsi b'amabuye kuri Umbrel, bisaba indexer ya Address. Ukeneye rero porogarama ya Bitcoin Node (canke Bitcoin Knots), ifise Blockchain ihuye 100%, hamwe n’indexer nka Electrs canke Fulcrum, na yo nyene ihuye 100%.
+Nkunda cane cane Mempool.Space, iyo nashize kuri node yanje. Iyumvire: kugira ngo ukoreshe benshi mu bashakashatsi b'amabuye kuri Umbrel, bisaba indexer ya Address. Ukeneye rero porogarama ya Bitcoin Node (canke Bitcoin Knots), ifise Blockchain ihuye 100%, hamwe n’indexer nka Electrs canke Fulcrum, nayo nyene ihuye 100%.
 
 
 
-Iyo porogarama imaze gushirwamwo, uyifungure gusa kugira ngo ushikire explorer yawe bwite.
+Iyo porogarama imaze gushirwamwo, uyipfungure gusa kugira ngo ushikire explorer yawe bwite.
 
 
 
@@ -2503,7 +2503,7 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-Ubwa nyuma, ndabagira inama yo gukoresha porogarama ya *Lightning Network+*, ishobora kugufasha kuronka abo musangiye urugero wofungura imihora, igatuma ushobora gukoresha amahera asohoka n’ayinjira.
+Ubwa nyuma, ndabagira inama yo gukoresha porogarama ya *Lightning Network+*, ishobora kugufasha kuronka abo musangiye urugero wopfungura imihora, igatuma ushobora gukoresha amahera asohoka n’ayinjira.
 
 
 
@@ -2511,7 +2511,7 @@ Ubwa nyuma, ndabagira inama yo gukoresha porogarama ya *Lightning Network+*, ish
 
 
 
-Kubera Umbrel, gucunga node ya Lightning yawe bwite vyaroroshe, ariko biracari bigoye mu rugero runaka. Ni co gituma ndagusaba gukurikira isomo LNP 202, ari ryo rikurikirana mu buryo bubereye isomo BTC 202, kandi aho ndaguherekeza intambwe ku yindi mu gushiraho no gucunga node yawe ya Lightning kuri Umbrel.
+Kubera Umbrel, gucunga node ya Lightning yawe bwite vyaroroshe, ariko biracari ibigoye mu rugero runaka. Ni co gituma ndagusaba gukurikira isomo LNP 202, ari ryo rikurikirana mu buryo bubereye isomo BTC 202, kandi aho ndaguherekeza intambwe ku yindi mu gushiraho no gucunga node yawe ya Lightning kuri Umbrel.
 
 
 
@@ -2521,11 +2521,11 @@ https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 
 
-Iyindi porogarama nkunda cane kuri Umbrel ni Tailscale. Ni porogaramu ya VPN yagenewe kworohereza uguhingura imihora itekanye hagati y’ibikoresho vyinshi, aho vyoba biri hose kw’isi. Udakunze VPN za kera, zishingiye ku ma server ahuriweko, Tailscale ikoresha umurongo wa WireGuard kugira ngo ishireho amahuzu apfutse hagati y’amamashini yawe atandukanye. Ivyo bisigura ko ushobora gukoresha VPN ikora mu minota mikeyi gusa, ata nkenerwa y’imiterere y’urubuga igoye.
+Iyindi porogarama nkunda cane kuri Umbrel ni Tailscale. Ni porogarama ya VPN yagenewe kworohereza uguhingura imihora itekanye hagati y’ibikoresho vyinshi, aho vyoba biri hose kw’isi. Udakunze VPN za kera, zishingiye ku ma server ahuriweko, Tailscale ikoresha umurongo wa WireGuard kugira ngo ishireho amahuza(connections) apfutse hagati y’amamashini yawe atandukanye. Ivyo bisigura ko ushobora gukoresha VPN ikora mu minota mikeyi gusa, ata nkenerwa y’imiterere y’urubuga igoye.
 
 
 
-Ku Umbrel, ugushiraho Tailscale guhuza urudodo rwawe rwa Bitcoin n’urubuga rwawe bwite rw’ibanga. Iyo imaze gutunganirizwa, node yawe ironka IP y’ibanga ya Tailscale Address, ishobora gukoreshwa gusa n’ibindi bikoresho bifatanye n’urubuga rwa Tailscale rumwe (nk’amaordinateri, amatelefone ngendanwa, n’amatablette). Iryo huriro rifise amakuru y’iherezo kugeza ku mpera kandi ntirica ku rubuga rwa bose rutarinzwe, ivyo bikaba bituma umutekano urushirizaho gutera imbere cane ugereranije n’ihuriro ritagira amakuru.
+Ku Umbrel, ugushiraho Tailscale guhuza urudodo rwawe rwa Bitcoin n’urubuga rwawe bwite rw’ibanga. Iyo imaze gutunganirizwa, node yawe ironka IP y’ibanga ya Tailscale Address, ishobora gukoreshwa gusa n’ibindi bikoresho bifatanye n’urubuga rwa Tailscale rumwe (nk’amamachine, amatelefone ngendanwa, n’amatablette). Iryo huriro rifise amakuru y’iherezo kugeza ku mpera kandi ntirica ku rubuga rwa bose rutarinzwe, ivyo bikaba bituma umutekano urushirizaho gutera imbere cane ugereranije n’ihuriro ritagira amakuru.
 
 
 
@@ -2545,13 +2545,13 @@ Mu majambo nyayo, Tailscale iraguha ivyiza vyinshi iyo ukoresheje Umutaka wawe:
 
 
 
-- Ushobora kwifatanya na server yawe ya Electrum (Electrs canke Fulcrum) canke ugaca kuri Bitcoin core uciye kuri VPN yawe, ukirengagiza Tor. Ivyo bitanga ubufatanye butekanye, bugereranywa no gukoresha Tor, ariko bufise umuvuduko munini cane kandi bugabanuka. Muri make, uguma ufise inyungu z’ubuzima bwite n’umutekano za Tor mu gihe winovora umuvuduko w’ihuriro rya Clearnet. Ku On-Chain Wallet, iyo nyungu yoshobora gusa n’iyike, ariko nimba uriko urategura gushinga urudodo rwawe rw’umuravyo mu nyuma, itandukaniro ni rinini cane. Nkako, kwishura biciye ku nzira yawe uriko uragenda kuri Tor biragenda buhoro cane kubera uguhinduranya kwinshi bisabwa, mu gihe na Tailscale, bikora neza cane.
+- Ushobora kwifatanya na server yawe ya Electrum (Electrs canke Fulcrum) canke ugaca kuri Bitcoin core uciye kuri VPN yawe, ukirengagiza Tor. Ivyo bitanga ubufatanye butekanye, bugereranywa no gukoresha Tor, ariko bufise umuvuduko munini cane kandi bugabanuka. Muri make, uguma ufise inyungu z’ubuzima bwite n’umutekano za Tor mu gihe winovora umuvuduko w’ihuriro rya Clearnet. Kuri On-Chain Wallet, iyo nyungu yoshobora gusa n’iyike, ariko nimba uriko urategura gushinga urudodo rwawe rw’umuravyo mu nyuma, itandukaniro ni rinini cane. Nkako, kwishura biciye ku nzira yawe uriko uragenda kuri Tor biragenda buhoro cane kubera uguhinduranya kwinshi bisabwa, mu gihe na Tailscale, bikora neza cane.
 
 
 
 
 
-- Nta nkenerwa yo gutunganya amategeko ya NAT, gufungura ivyuho, canke gushinga umukozi wa VPN asanzwe. Iyo porogarama imaze gushirwa kuri Umbrel no ku bikoresho vyawe, urubuga ruca rutangura.
+- Nta nkenerwa yo gutunganya amategeko ya NAT, gufungura ivyuho(port), canke gushinga umukozi wa VPN asanzwe. Iyo porogarama imaze gushirwa kuri Umbrel no ku bikoresho vyawe, urubuga ruca rutangura.
 
 
 
@@ -2569,7 +2569,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-Nostr, ni ijambo ry'inyongera risobanura "*Ivyanditswe n'ibindi bintu birungikwa n'ibikoresho*", ni uburyo bufunguye, bushizwe ahantu hamwe, bugenewe gutuma ubutumwa bushobora gusohorwa no guhanahana kuri Internet ataco bushingiye ku rubuga rumwe. Buri mukoresha afise urufunguzo rubiri rw’ibanga: urufunguzo rwa bose (`npub`), rukora nk’ikimenyetso, n’urufunguzo rw’ibanga (`nsec`), rukoreshwa mu gusinya ubutumwa no kwemeza ko ari ubw’ukuri.
+Nostr, ni ijambo ry'inyongera risobanura "*Ivyanditswe n'ibindi bintu birungikwa n'ibikoresho*", ni uburyo bufunguye, bushizwe ahantu hamwe, bugenewe gutuma ubutumwa bushobora gusohorwa no guhanahana kuri Internet  budashingiye ku rubuga rumwe. Buri mukoresha afise impfunguzo zibiri z’ibanga: urufunguzo rwa bose (`npub`), rukora nk’ikimenyetso, n’urupfunguzo rw’ibanga (`nsec`), rukoreshwa mu gusinya ubutumwa no kwemeza ko ari ubw’ukuri.
 
 
 
@@ -2581,15 +2581,15 @@ Iyi porotokole irazwi cane mu muryango wa Bitcoin kuko, nka Bitcoin, Nostr ivuga
 
 
 
-Ukoresheje Umbrel yawe, urashobora gukoresha neza Nostr. Mu gushiramwo porogaramu ya ***Nostr Relay***, urashobora kwakira relay yawe bwite ataco uhinduye ku mashine yawe, ukamenya neza ko ivyo washizeko vyose n’ivyo ukora vyose kuri Nostr bibikwa aho hantu kandi ntibishobora gutakazwa biciye mu gukuraho n’irelay za bose.
+Ukoresheje Umbrel yawe, urashobora gukoresha neza Nostr. Mu gushiramwo porogarama ya ***Nostr Relay***, urashobora kwakira relay yawe bwite ataco uhinduye ku mashine yawe, ukamenya neza ko ivyo washizeko vyose n’ivyo ukora vyose kuri Nostr bibikwa aho hantu kandi ntibishobora gutakazwa biciye mu gukuraho n’irelay za bose.
 
 
 
-Abaguzi ba Nostr ***noStrudel*** canke ***Snort*** na bo nyene baraboneka ku Mutaka. Ushimiye kuri izo porogaramu, urashobora gutangaza, gusoma, kurondera imirongo, no gukorana n’ibidukikije vya Nostr uhereye ku rubuga rwa Interface kuri Umbrel yawe.
+Abaguzi ba Nostr ***noStrudel*** canke ***Snort*** na bo nyene baraboneka ku Mutaka. Ushimiye kuri izo porogarama, urashobora gutangaza, gusoma, kurondera imirongo, no gukorana n’ibidukikije vya Nostr uhereye ku rubuga rwa Interface kuri Umbrel yawe.
 
 
 
-Mu mpera, hari porogaramu yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ubwishyu bwa Lightning muri Nostr. Mu buryo bweruye, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo wohereze ubwishyu buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibikubiyeho cyangwa kugirana imikoranire ishingiye ku mafaranga, utanyuze muri serivisi z’abandi. Aya mafaranga ava muri node yawe bwite anyura mu mikoranire yawe.
+Mu mpera, hari porogarama yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ubwishyu bwa Lightning muri Nostr. Mu buryo bweruye, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo wohereze ubwishyu buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibikubiyeho cyangwa kugirana imikoranire ishingiye ku mafaranga, udaciye muri serivisi z’abandi. Aya mafaranga ava muri node yawe bwite anyura mu mikoranire yawe.
 
 
 

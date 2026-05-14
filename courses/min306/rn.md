@@ -516,89 +516,89 @@ Ikintu giteye umunezero cane kuri Public Pool ni uko udasabwa amafarana. Iyo aba
 Kugira ngo utahure ikibanza kidasanzwe ca Public Pool, birahambaye gutahura itandukaniro ry'ishimikiro hagati ya solo mining(umuntu ku giti ciwe) na pooled mining(muri ruange). True solo mining bisigura ko ucukura wigenga kandi ukaronka impembo yuzuye ya block (ubu 3.125 BTC + amafaranga akatwa) iyo ubonye block, ariko ubushobozi burahuye n’igipimo cawe ca hash ugereranije n’urubuga rwose bituma habaho itandukaniro rikomeye cane rishobora gufata amezi canke imyaka hagati y’impembo. Ibidengeri vya kera bifatanya ububasha bwa hash kugira ngo bironke ama block kenshi, impembo zigasangirwa bivanye kandi bitanga inyungu idahinduka, ishobora gutegekaninywa. Ku bacukuzi b'ama block bafise umutahe munini bashize mu bikoresho vyo mu nzu no mu biguzi vyo gukoresha, gukora mining umuntu kugiti ciwe mu bisanzwe ntibishoboka naho hariho firozofiya y'ukuntu vyongera amhirwe guhindagurika bituma bidashoboka kwishura ibiciro vy’umuyagankuba no gusubirana amafaranga yashizwemwo. Ivyo vy’ubutunzi bisigura ko benshi mu bacukuzi bazohitamwo gukorera mining mubidengeri kubera imvo z’amafaranga. Public Pool ikora nka solo mining, bisigura ko uguma uhura nuguhindagurika nkuwuriko akora solo mining (uronka impembo gusa iyo wewe ubwawe ubonye block), ariko wungukira ku bidukikije ukoreramwo vy’ikidengeri n’ugukora mu muco, ataco utanga.
 
 
-### Inyungu y'inkomoko yuguruye n'ugushirwa mu ngiro kw'ubuhinga
+### Inyungu y'isoko yuguruye n'ugushirwa mu ngiro kw'ubuhinga
 
 
-Ukwiyemeza kwa Public Pool mu guteza imbere ubuhinga bufunguye guha abacukuzi ubutare n’ukugenzura ibikorwa vyabo vya mining bitagira uko bingana. Ico gice cose c’amakode kiraboneka kuri GitHub, kikaba gituma abacukuzi bashobora gusuzuma neza ingene iyo porogarama ikora, bakayihindura bivanye n’ivyo bakeneye, mbere bakagira ico baterereye mu guteza imbere iyo porogarama. Ukwo guseruka gutorera umuti ikibazo gikomeye mu muryango wa mining ku bijanye n’imiterere n’imigenzo itazwi y’ibidengeri vya kera vya mining.
+Ukwiyemeza kwa Public Pool mu guteza imbere open-source biha abacukuzi ugukorera mu muco n’ukugenzura ibikorwa vyabo vya mining bitagira uko bingana. urwo rutonde rw’amakode ruraboneka kuri GitHub, rukaba rutuma abacukuzi bashobora gusuzuma neza ingene iyo porogarame ikora, bakayihindura bivanye n’ivyo bakeneye, mbere bakagira ico baterereye mu guteza imbere iyo porogarame. Ukwo gukorera mu muco bifasha gutorera umuti ikibazo gikomeye mu muryango wa mining ku bijanye n’imiterere n’imigenzo itazwi y’ibidengeri vya kera vya mining.
 
 
-Ubwubatsi bwa porogarama burimwo ibikorwa vy’ishimikiro vya mining pool be n’ububiko bw’ikoreshwa ryitandukanye, vyose bikaba bishobora gukurwa ku buntu no kubihindura. Abacukuzi bashobora gukoresha Public Pool mu mice itandukanye, harimwo n’ibikoresho vya Docker, bikaba bituma ishobora guhuzwa n’imiterere itandukanye y’ibikoresho n’ivyo umuntu akunda. Ivyanditswe vyose bitangwa mu bubiko bwa GitHub biratanga ubuyobozi burambuye bwo gushiramwo, uburyo bwo gutunganya, n’amabwirizwa yo guhindura, bikaba bituma abacukuzi b’amabuye y’agaciro bafise ubuhinga butandukanye bashobora kubironka.
+Uko porogarame yubatse birimwo ibikorwa vy’ishimikiro vy'ikidengeri ca mining be n’ububiko bwa interface y'abakoresha, vyose bikaba bishobora kuvomwa ku buntu no kubihindura. Abacukuzi bashobora gukoresha Public Pool mu mice y'imiterere itandukanye, harimwo n’ibikoresho vya Docker, bikaba bituma ishobora guhuzwa n’imiterere itandukanye y’ibikoresho n’ivyo umuntu akunda. Ivyanditswe vyose bitangwa mu bubiko bwa GitHub biratanga amabwirizwa ngenderwako arambuye yo gushiramwo, uburyo bwo gutunganya, n’amabwirizwa yo guhindura, bikaba bituma abacukuzi bafise ubuhinga butandukanye bashobora kubironka.
 
 
-Gufatanya na Public Pool bisaba gutunganya bike cane ugereranyije n’ugutunganya kwa kera kwa mining. Abacukuzi barakeneye gusa gutunganya ibikoresho vyabo vya mining n’amakuru y’ihuriro rya [Stratum](https://planb.academy/resources/glossary/stratum) maze bagatanga aderesi yabo ya Bitcoin nk’izina ry’ukoresha. Izina ry'umukozi ry'ubusa rishobora kwongerwa inyuma y'itandukaniro ry'utudomo ku ntumbero z'imitunganirize.
+Kwihuza na Public Pool bisaba gutunganya ibintu bike cane ugereranyije n’ugutunganya kwa kera kwa mining. Abacukuzi barakeneye gusa gutunganya ibikoresho vyabo vya mining n’amakuru y’ihuriro rya [Stratum](https://planb.academy/resources/glossary/stratum) maze bagatanga aderesi yabo ya Bitcoin nk’izina ry’ukoresha. Izina ry'umukozi rirashobora kwongerwako inyuma y'itandukaniro ry'utuburungu ku ntumbero z'imitunganirize.
 
 
-### Ibirango vy'abanyagihugu n'akarorero k'ubuzima buramba
+### Uturango tw'abanyamuryango n'ikigereranyo c'ubuzima buramba
 
 
-Public Pool ishiramwo ibintu bishasha vyinshi bikomeza umuryango wa Bitcoin mining mu gihe uguma ukora ata mahera. Iryo koraniro ryerekana imibare yuzuye harimwo n’igipimo cose c’abacukuzi b’amabuye y’agaciro bahuye, cari hagati ya 1 na 2 PetaHash ku segonda mu 2024 no ku 40 PH/s mu kwezi kwa 11 2025, kandi ritanga amakuru arambuye yerekeye ibikoresho vya mining bihuye. Ikintu gihambaye cane ni uko urubuga rushimika ku bikoresho vy’inkomoko yuguruye mining, n’ibikoresho vyerekanwa n’inyenyeri vyerekana imiterere y’inkomoko yuguruye yuzuye, yuzuye amahuza ku bubiko bwavyo bwa GitHub.
+Public Pool ishiramwo ibintu bishasha vyinshi bikomeza umuryango wa Bitcoin mining mu gihe uguma ukora ata mafaranga. Urwo rubuga rwerekana ibiharuro vyuzuye harimwo n’igipimo cose ca hash rate z'abacukuzi b’ama block bari k'urubuga, cari hagati ya 1 na 2 PetaHash ku musegonda mu mwaka wa 2024 no ku muvuduko wa 40 PH/s mu kwezi kwa 11 2025, kandi ukabona amakuru arambuye yerekeye ibikoresho vya mining biri k'urubuga. Ikintu gihambaye cane ni uko urubuga rushimika ku bikoresho vy’isoko yuguruye mining, n’ibikoresho vyerekanwa n’inyenyeri vyerekana imiterere y’isoko yuguruye yuzuye, amahuza ku bubiko bwavyo bwa GitHub.
 
 
-Ugukomera kw’ibikorwa vya Public Pool bitagira amahera bishingiye ku bufatanye bwa porogarama y’abafatanyabikorwa n’abagurisha ibikoresho vya mining. Iyo abacukuzi baguze ibikoresho mu masosiyete abafatanyabikorwa bakoresheje kode y'igabanya ry'ibiciro "SOLO", mirongo itanu kw'ijana vy'amahera abafatanyabikorwa baronka birafasha mu gutanga amafaranga y'ibikorwa vya Public Pool, mu gihe ibice mirongo itanu kw'ijana bisigaye bigabanywa nk'impera ku bacukuzi bashika ku migabane myinshi y'ingorane buri kwezi. Ico kigereranyo kirema ubucuti bw’ubumwe aho abacukuzi baronka ibiciro bigabanywa ku bikoresho bagura, abagurisha bagaronka abakiriya, Public Pool na yo igakomeza ibikorwa vyayo ataco isaba.
+Ugukomera kw’ibikorwa vya Public Pool bitagira amafaranga akatwa bishingiye ku bufatanye bwa porogarame y’abafatanyabikorwa n’abagurisha ibikoresho vya mining. Iyo abacukuzi baguze ibikoresho mu masosiyete abafatanyabikorwa bakoresheje kode y'igabanya ry'ibiciro "SOLO", ibice mirongo itanu kw'ijana vy'amafaranga abafatanyabikorwa baronka birafasha mu gutanga amafaranga y'ibikorwa vya Public Pool, mu gihe ibice mirongo itanu kw'ijana bisigaye bitangwa nk'impembo ku bacukuzi bashika ku migabane myinshi y'ingorane buri kwezi. Ico kigereranyo kirema ubucuti bw’ubumwe aho abacukuzi baronka ibiciro bigabanijwe ku bikoresho bagura, abagurisha bakaronka abakiriya, Public Pool na yo igakomeza ibikorwa vyayo ataco isaba.
 
 
-### Filozofiya yo kwegereza ubutegetsi ubutegetsi n'imigenzo myiza
+### Firozofiya yo gukwiragiza be n'imigenzo myiza
 
 
-Naho Public Pool itanga uburyo bwiza cane bwo gusubirira ibidengeri vya kera vya mining, birahambaye gutahura uruhara rwavyo mu rwego rwagutse rwo kwegereza ubutegetsi Bitcoin. Ico kibanza gikora nk’intambwe yo gushika ku ntumbero nyamukuru y’abacukuzi b’amabuye y’agaciro ku giti cabo bakoresha ibidengeri vyabo bwite vy’amabuye y’agaciro bita mining. Gukoresha ikigega cawe bwite ca mining bigereranya urugero rwo hejuru rwo kwegereza ubutegetsi abaturage, kuko bikuraho kwizigira ibikorwa remezo canke porogarama z’uwundi muntu, utitaye ku kuntu uwo muntu yoba agaragara canke afise intumbero nziza.
+Naho Public Pool itanga uburyo bwiza cane bwo gusubirira ibidengeri vya kera vya mining, birahambaye gutahura uruhara rwavyo mu rwego rwagutse rwo gukwiragiza Bitcoin. Ico kibanza gikora nk’intambwe yo gushika ku ntumbero nyamukuru y’abacukuzi ku giti cabo bakoresha ibidengeri vyabo bwite vya mining. Gukoresha ikidengeri cawe bwite ca mining bigereranya urugero rwo hejuru rwo gukwiragiza, kuko bikuraho kwizigira ibikorwa na serivise  nkenerwa canke porogarame vy’uwundi muntu, utitaye ku kuntu uwo muntu yoba akorera mu muco canke afise intumbero nziza.
 
 
-Kubera ko Public Pool ifise ubuhinga bwo gufungura, bituma iba urubuga rwiza rwo kwigirako abacukuzi bashaka gutahura ibikorwa vy’amazi imbere y’uko bashira mu ngiro inyishu zabo bwite. Kuba hariho uburongozi bwo gushiramwo ubuhinga bwinshi bwo gukoresha n’inyandiko zitomoye bituma abacukuzi b’amabuye y’agaciro bagira ubumenyi bukenewe kugira ngo bave mu gukoresha Public Pool baje mu gukoresha ibikorwa remezo vyabo bwite vya mining. Uwo muce w’inyigisho uhuye n’ingingo ngenderwako z’ishimikiro za Bitcoin z’ukwigenga no kwegereza ubutegetsi, bikaba biha ububasha abacukuzi ku giti cabo bwo kugenzura neza ibikorwa vyabo vya mining mu gihe bagira ico baterereye ku mutekano rusangi no kwegereza ubutegetsi urusobe rwa Bitcoin.
+Uburyo kamere bwa kuba isoko y'uguruye bwa Public Pool, bituma iba urubuga rwiza rwo kwigirako ku bacukuzi bashaka gutahura ibikorwa vy'ibidengeri imbere y’uko bashira mu ngiro inyishu zabo bwite. Kuba hariho amabwirizwa ngenderwako yo gushiramwo sisiteme nyinshi be n’inyandiko zitomoye bituma abacukuzi bagira ubumenyi bukenewe kugira ngo bave mu gukoresha Public Pool baje mu gukoresha ibikorwa na serivisi nkenerwa vyabo bwite vya mining. Uwo muce w’inyigisho uhuye n’ingingo ngenderwako z’ishimikiro za Bitcoin z’ukwigenga no gukwiragiza, bikaba biha ububasha abacukuzi ku giti cabo bwo kugenzura neza ibikorwa vyabo vya mining mu gihe bagira ico baterereye ku mutekano rusangi no gukwiragiza umuhora wa Bitcoin.
 
 
-Igikoresho c’abakoresha urubuga gitanga abacukuzi ubushobozi bwo kugenzura mu buryo burambuye, harimwo n’ingene abakozi bameze, imibare y’igipimo c’ama hash, n’ibipimo vy’ibikorwa. Ivyo bifasha abacukuzi gukora neza ibikorwa vyabo mu gihe biga ingingo ngenderwako zo gucunga amazi bashobora gukoresha mu nyuma mu gushirwa mu ngiro kw’amazi yabo bwite mining.
+Interface y’abakoresha urubuga itanga ku bacukuzi ubushobozi bwo kugenzura mu buryo burambuye, harimwo n’ingene abakozi bameze, ibiharuro vy’igipimo c’ama hash, n’ibipimo vy’ibikorwa. Ivyo bifasha abacukuzi gukora neza ibikorwa vyabo mu gihe biga ingingo ngenderwako zo gucunga ikidengeri bashobora gukoresha mu nyuma mu gushira mu ngiro ikidengeri cabo bwite ca mining.
 
 
-## Uko woshiraho Public-Pool ku Mutaka
+## Uko woshirako Public-Pool kuri Umbrel
 
 <chapterId>7f6d0307-7715-5581-89ea-f13cf8754f9a</chapterId>
 
 
 :::video id=3a4fe0a9-bbf5-458a-8ec1-52c3b83afd87:::
 
-Gukoresha ikidengeri cawe ca Bitcoin mining muhira vyaciye bigenda birashoboka cane kubera ibikoresho vya none be n’imiti yoroshe. Iki gice kiratohoza ugushirwa mu ngiro kw’ikidengeri ca bose co mu rugo hakoreshejwe ibikoresho vya mini PC bishoboka be n’ubuhinga bwo gucunga neza [amanode](https://planb.academy/resources/glossary/node). Mu mpera z’iyi nkuru, uzotahura ibisabwa ku bikoresho, uburyo bwo gutegura porogarama, n’imiterere y’ishimikiro ikenewe kugira ngo ushireho ibikorwa remezo vyawe vy’ikidengeri ca mining.
+Gukoresha ikidengeri cawe ca Bitcoin mining muhira vyagiye bigenda bishoboka cane kubera ibikoresho vya none be n’imiti yoroshe. Iki gice kiratohoza ugushirwa mu ngiro kw’ikidengeri ca rusange (public pool) co mu hira hakoreshejwe ibikoresho vya mini PC bishoboka be na porogarame yo gucunga neza ama [node](https://planb.academy/resources/glossary/node). Mu mpera z’aya mabwirizwa ngenderwako, uzotahura ibisabwa ku bikoresho, uburyo bwo gutegura porogarame, n’imiterere y’ishimikiro ikenewe kugira ngo ushireho ibikorwa na serivisi nkenerwa vyawe vy’ikidengeri ca mining.
 
 
-### Ibisabwa ku bikoresho n'ugutegura
+### Ibisabwa ku bikoresho be n'ugutegura
 
 
-Umushinge w’inzu iyo ari yo yose mining pool setup utangura no guhitamwo ibikoresho bikwiye bihuza ubushobozi, igiciro, n’ugukoresha neza inguvu. PC ntoyi iserukira umuti mwiza w’iyi porogarama, itanga ubushobozi buhagije bwo gukora mu gihe iguma ifise ikirenge gikomeye kandi ikoresha ubushobozi bubereye. Ivyo bikoresho vyemewe birimwo umurongo wa Intel N100, utanga ubuhinga buhagije bwo gukoresha ubuhinga bwa pool, ukaba ufatanijwe n’ububiko bwa NVMe n’imiburiburi terabyte imwe kugira ngo ushobore kwakira Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain) n’amakuru ajanye.
+Umushinge wogutegura ikidengeri ca  mining muhira utangurana no guhitamwo ibikoresho bikwiye bihuza ubushobozi, igiciro, n’ugukoresha neza inguvu. PC(inyabwonko) ntoyi irakwiye nk'umuti mwiza w’iyi porogarame, itanga ubushobozi buhagije bwo gukora mu gihe iguma ifise ibimenyetso bitarengeje kandi ikoresha ubushobozi bubereye. Ivyo bikoresho vyemewe birimwo processor ya Intel N100, itanga ubuhinga buhagije bwo gukoresha ibikorwa vya pool, ikaba ifatanijwe n’ububiko bwa NVMe n’imiburiburi terabyte imwe kugira ngo ushobore kwakira Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain) n’amakuru bijana.
 
 
-Igisabwa co kubika ni ikintu gihambaye cane kuko gukoresha ikidengeri ca mining bisaba ko umuntu aguma afise uruzitiro rwa Bitcoin rukoranye neza. Igikoresho kimwe ca NVMe gikora neza gusoma/kwandika vyihuta bihambaye ku bijanye n’uguhuza blockchain no gukora ibikorwa vy’ubudandaji. Ikindi, gutanga RAM ihagije birafasha mu gukora neza kw’imirongo y’ibikorwa ya Linux n’ivy’ubuhinga bwo gucunga node bizohuza ibikorwa vy’ibarabara.
+Igisabwa co ububiko ni ikintu gihambaye cane kuko gukoresha ikidengeri ca mining bisaba ko umuntu aguma afise node ya Bitcoin irikugihe n'umuhora. Terabyte imwe ya NVMe ituma habaho ibikorwa vyo gusoma/kwandika vyihuta bihambaye ku bijanye n’uguhuza blockchain no gukora ibikorwa vy’ubudandaji. Ikindi, gutanga RAM ihagije birafasha mu gukora neza kwa sisiteme ya Linux hamwe na porogarame yo gucunga node izofasha kurangurura ibikorwa vy'ikidengeri.
 
 
-### Ubwubatsi bwa porogaramu n'uburongozi bw'imirongo
+### Uko Porogarame yubatse no Gucunga Node
 
 
-Ivyuma vy’amaporogarama vy’inzu mining vyubatswe ku mushinge wa Linux, bitanga ugushikama n’umutekano bikenewe ku bikorwa vya Bitcoin. Hejuru y’iyi sisitemu y’ishimikiro, porogarama yihariye yo gucunga amanode nka Umbrel irema interface yoroshe yo gucunga ibikorwa remezo vya Bitcoin. Ubu buryo burakuraho vyinshi mu bigoranye vyari bisanzwe bifitaniye isano n’ugukoresha ama node ya Bitcoin, bikaba bituma gukoresha pool bishikira abakoresha batagira ubumenyi bwinshi mu vy’ubuhinga.
+Ubwoko bw’amaporogarame yo gukora mining i muhira yubakira ku mushinge wa Linux, bitanga ugushikama n’umutekano bikenewe ku bikorwa vya Bitcoin. Hejuru y’iyi sisiteme y’ishimikiro, porogarame yihariye yo gucunga ama node nka Umbrel irema interface yoroshe yo gucunga ibikorwa na serivisi nkenerwa vya Bitcoin. Ubu buryo burakuraho vyinshi mu bigoranye vyari bisanzwe bifitaniye isano n’ugukoresha ama node ya Bitcoin, bikaba bituma gukoresha pool bishikira abakoresha batagira ubumenyi bwinshi mu vy’ubuhinga.
 
 
-Umbrel ikora nk’urubuga rwo gucunga node rwuzuye rukorana n’ugushiraho [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), guhuza, no gukomeza gucungera biciye ku rubuga rushingiye ku rubuga. Ico kigereranyo c’iduka ry’amaporogarama ry’iyi nzira kiremesha gushiramwo mu buryo bworoshe ibindi bikorwa, harimwo n’ubuhinga bwa mining pool, biciye mu bikorwa vyoroshe vy’ugukanda. Iyi nyubakwa ituma abakoresha bashobora kwibanda ku bikorwa vy’amazi aho kwibanda ku burongozi bwa sisitemu, mu gihe baguma bafise ububasha bwose ku bikorwa remezo vyabo vya Bitcoin.
+Umbrel ikora nk’urubuga rwo gucunga node rwuzuye rwita kubijanye n’ugushirako [Bitcoin Core](https://planb.academy/resources/glossary/bitcoin-core), guhuza, no gukomeza gucungera biciye kuri interface ishingiye ku rubuga. Ikigereranyo c’iduka ry’amaporogarame kurwo rubuga gituma habaho gushiramwo mu buryo bworoshe izindi serivisi, harimwo na porogarame z'ikidengeri co gucukura (mining pool), biciye mu bikorwa vyoroshe vy’ugufyonda. Ububuryo vy'ubatse bituma abakoresha bashobora kwibanda ku bikorwa vy’ikidengeri aho kwibanda ku burongozi bwa sisiteme, mu gihe baguma bafise ububasha bwose ku bikorwa na serivisi nkenerwa vyabo vya Bitcoin.
 
 
-### Gushiramwo no gutunganya ikidengeri ca bose
+### Gushiramwo no gutunganya ikidengeri ca rusange
 
 
-Gushiramwo porogarama y’amazi ya bose biciye ku rubuga rwa Umbrel vyerekana uburyo bwo gukoresha ibikorwa remezo vya Bitcoin vy’ubu. Ivyo bitangura no gushika ku bubiko bwa Umbrel app store biciye ku rubuga, aho gushaka "public pool" bigaragaza porogarama ya mining pool iriho. Gushiramwo bisaba gusa gukanda bikeyi: guhitamwo porogarama, kwemeza ko yashizwemwo, no kurindira ko igikorwa co gushiramwo ibintu vy’ubuhinga bwa none kirangira.
+Gushiramwo porogarame y’ikidengeri ca rusange biciye ku rubuga rwa Umbrel vyerekana uburyo bwo gukoresha ibikorwa na serivisi nkenerwa vya Bitcoin vy’ubu. Ivyo bitangurana no gushika ku bubiko bwa Umbrel app store biciye ku rubuga, aho kwandindikamwo gusa "public pool" bigaragaza porogarame ya mining pool iriko. Gushiramwo bisaba gusa gufyonda ahantu hakeyi: guhitamwo porogarame, kwemeza ko yashizwemwo, no kurindira ko igikorwa co gushiramwo ibintu vy’ubuhinga bwa none kirangira.
 
 
-Ivyo bikoresho bica bihindura amasano akenewe hagati ya porogarama y’amazi ya bose n’uruzitiro rwa Bitcoin ruri munsi yayo. Ivyo bituma iyo pool ishobora kwemeza ibikorwa, kwubaka ibigereranyo vy’amabuye, no gutanga ibikorwa ku bacukuzi bahuye ataco bisaba guhindura n’amaboko ibipimo vy’uruja n’uruza bikomeye. Igihe gushiramwo, interface y’ikidengeri ica ishobora gushikwako ubwo nyene biciye ku rubuga rw’aho hantu, igatanga ubushobozi bwo kugenzura no gucunga mu gihe nyaco.
+Igikorwa co gushiramwo kigirako habaho no gutunganya ibijanye no guhuza kuba hagati ya porogarame y’ikidengeri ca rusange na node ya Bitcoin iriko. Ivyo bituma iyo pool ishobora kwemeza [Ibikorwa vy'amahera](https://planb.academy/resources/glossary/transaction-tx) (Transaction), kwubaka ibigereranyo vy’ama block, no gutanga ibikorwa ku bacukuzi bari kurubuga ataco bisaba co hindurwa n’amaboko mu bipimo vy’uruja n’uruza bigoye. Igihe gushiramwo birangiye, interface y’ikidengeri ica ishobora gushikwako ubwo nyene biciye ku muhora waho hantu, igatanga ubushobozi bwo kugenzura no gucunga mu gihe nyaco.
 
 
-### Guhuza abacukuzi n'ivy'urubuga
+### Guhuza abacukuzi n'ivyo kwitwararika vy'urubuga
 
 
-Guhuza ibikoresho vya mining n’ikidengeri cawe gishasha bisaba gutunganya imiterere y’ikidengeri c’umucukuzi kugira ngo yerekane ibikorwa remezo vyo mu karere kawe. Ivyo birimwo gusubirira aderesi y’ibarabara ry’ibarabara n’aderesi IP yawe yo mu karere n’inomero y’ibarabara ibereye yatanzwe mu gihe co gushiramwo ibarabara rya bose. Ihinduka ry’imiterere rihindura utwigoro tw’ubuhinga bwa mining tuva ku bidengeri vyo hanze tukaja ku bikorwa remezo vyawe vyo muhira, bikagufasha kuguma ugenzura neza ibikorwa vya mining n’ivyiza bishobora gushikako.
+Guhuza ibikoresho vya mining n’ikidengeri cawe gishasha bisaba gutunganya imiterere y’ikidengeri c’umucukuzi(miner) kugira ngo yerekane ibikorwa na serivisi nkenerwa vyo mu karere kawe. Ivyo birimwo gusubirira aderesi isanzwe irimwo muri pool n’aderesi IP yawe yo mu karere n’inomero y’icambu (port) ibereye yatanzwe mu gihe co gushiramwo pool ya rusange. Ihinduka ry’imiterere rihindura utwigoro tw’ubuhinga bwa mining tuva ku bidengeri vyo hanze tukaja ku bikorwa na serivisi nkenerwa vyawe vyo muhira, bikagufasha kuguma ugenzura neza ibikorwa vya mining n’impembo.
 
 
-Itunganywa ry’urubuga rifise uruhara runini mu gushikira no gukora neza. Gutegura urubuga rwo mu karere mu bisanzwe birimwo gukoresha aderesi IP, ariko abakoresha bashobora guhura n’uguhinduka mu gutorera umuti DNS bivanye n’imiterere ya router yabo. Hari ama router atanga ibikorwa vya DNS vyo mu karere bikora amazina y’abagenzi ku bikorwa vyo mu karere, mu gihe ayandi asaba ko umuntu ashobora gushika ku aderesi IP ataco akora. Kugira ngo umuntu ashobore gushikira abantu benshi hanze y’urubuga rwo mu karere, gutunganya ivy’ugurungika amakuru ku rubuga rwo gukoresha bishobora kuba ngombwa, naho ivyo bishobora gutuma habaho ibindi bintu vy’umutekano bisaba gusuzuma neza ingorane n’ivyiza bijana.
+Itunganywa ry’urubuga rifise uruhara runini mu kungene ubasha kurushikira no gukora neza. Gutegura urubuga rwo mu karere mu bisanzwe birimwo gukoresha aderesi IP, ariko abakoresha bashobora guhura n’ihindagurika mu gukora kwa DNS bivanye n’imiterere ya router yabo. Hari ama router atanga serivisi za DNS zo mu karere birema amazina yoroheje ku ma serivisi yo mu karere, mu gihe ayandi asaba ko umuntu ashobora gushika ku aderesi IP atanzitizi. Kugira ngo umuntu ashobore gushikira abantu benshi hanze y’umuhora wo mu karere, gutunganya port forwarding bishobora kuba ngombwa, naho ivyo bishobora gutuma habaho ibindi bintu vyo kwitwararika vy’umutekano bisaba gusuzuma neza ingorane n’ivyiza bijana.
 
 
-Gushinga neza ikidengeri co mu nzu ca mining bigereranya intambwe ikomeye mu bijanye n’ibikorwa remezo vya Bitcoin vyegerejwe, bitanga agaciro k’inyigisho n’ubushobozi bukora bwa mining mu gihe uguma ugenzura neza ibikorwa vyawe vya Bitcoin.
+Kuroranirwa mugushirako neza ikidengeri co gukora mining muhira ni intambwe ikomeye mugukwiragiza ibikorwa na serivisi nkenerwa vya Bitcoin, bitanga inyigisho n’ubushobozi bwogukora mining mu gihe uguma ugenzura neza ibikorwa vyawe vya Bitcoin.
 
 
-# Ikoraniro ry'ibikoresho n'ugutorera umuti ingorane
+# Gukoranya ibikoresho n'ugutorera umuti ingorane
 
 <partId>f6987088-5ba4-52e2-b2d0-aa122080940c</partId>
 
@@ -610,59 +610,59 @@ Gushinga neza ikidengeri co mu nzu ca mining bigereranya intambwe ikomeye mu bij
 
 :::video id=bddd0e47-7b43-4685-ba2e-bf3a8ff653c9:::
 
-Mu isi y’ugutera ivyuma ku ruhande (SMD), cane cane iyo ukorana n’imigambi ya Bitaxe, kugira ibikoresho bikwiye biratuma habaho itandukaniro hagati y’ugucika intege n’uguterimbere. Iyi nkuru yuzuye ivuga ku bikoresho vy’ingenzi bikenewe kugira ngo ushobore guhangana n’imigambi yo gutera SMD neza, kuva ku bikoresho vy’ishimikiro vy’amaboko gushika ku bikoresho vyihariye bizoduza ubushobozi bwawe bwo gutera.
+Mw'isi yo gusudira ico bita surface-mount device (SMD) canke ibikoresho bifatishwa hasi, cane cane iyo ukorana n’imigambi ya Bitaxe, kugira ibikoresho bikwiye nyavyo biratuma habaho itandukaniro hagati y’ukwidoga be n'ukuroranirwa. Aya mabwirizwa ngenderwako yuzuye avuga ku bikoresho vy’ingenzi bikenewe kugira ngo ushobore gutangura gukora neza kumigambi yo gusudira SMD, kuva ku bikoresho vy’ishimikiro vy’amaboko gushika ku bikoresho vyihariye bizoduza ubushobozi bwawe bwo gusudira.
 
 
-Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/igiti/igikuru).
+Niba ushaka kwisunga ku nyandiko zimwe zimwe zijanye n'ibicapo, raba ubu [bubiko bwa GitHub](https://github.com/skot/bitaxe-doc/tree/main).
 
 
-### Ibikoresho vy'ishimikiro vy'amaboko n'ibikoresho vy'ukuri
+### Ibikoresho vy'Ibanze vy'Amaboko n'Ibikoresho vy'Ubugororotsi
 
 
-Umushinge w’ivyo bikoresho vyose vyo gutera SMD utangura n’ibikoresho vy’ubuhinga, bikora nk’ibikoresho vyawe vy’intango vyo gushiramwo ibihimba. Ubwoko bubiri bw’ibikoresho vy’ugupima buragaragaza ko ari ngirakamaro cane muri ico gikorwa: ibikoresho vy’ugupima bimenyerewe bifise umutwe ugororotse be n’ivyo bifise umutwe ugoramye gatoyi. Ubwoko bw’amahembe agororotse burakorana n’ibihimba vyinshi vya SMD biboneka mu bikoresho vya Bitaxe bisanzwe, mu gihe ivyuma bifise amahembe apfutse bikora neza cane iyo bikorana n’ibihimba bitobito cane bisaba gushirwa ahantu habereye. Ivyo bikoresho akenshi bizanana n’ibikoresho vyo gusanura, nk’ibikoresho vy’iFixit vyagenewe gusanura telefone, bikaba bituma abantu benshi bakunda ivyo kwisamaza bashobora kubironka bitagoranye.
+Umushinge wo gutegura gusudira SMD iyariyo yose utangurana na "tweezers" zizira intenge, zikora nk’ibikoresho vyawe vya mbere vyo gushiramwo ibihimba. Ubwoko bubiri bwa tweezers buragaragaza ko ari ngirakamaro cane muri iki gikorwa: Ubumenyerewe bufise imitwe igororotse be n’ubwo bufise imitwe igoramye gatoyi. Ubwoko bw’imitwe igororotse burakorana n’ibihimba vyinshi vya SMD biboneka mu bikoresho vya Bitaxe bisanzwe, mu gihe ubufise imitwe igoramye bukora neza cane iyo uriko ukorana n’ibihimba bitobito cane bisaba gushirwa ahantu habereye mubugororotsi. Ivyo bikoresho akenshi bizanana na n'udusandugu (kits) two gusanura, nka iFixit yagenewe gusanura ngendanwa, bikaba bituma abantu benshi bakunda ivyo kwisamaza bashobora kubironka bitagoranye.
 
 
-Kubera ko umukasi mwiza ushobora gucapura, umukasi mwiza uba uwukenewe cane mu gucapura umugozi w’amashanyarazi, ukaba ukoreshwa mu bintu vyinshi mu migambi y’ivy’ubuhinga bwa none. Ivyuma vy’umuyagankuba biratanga uburinzi buhambaye ku nsinga n’ibihimba vyavyo, kandi kugira ivyuma vyiza biboneka bitagoranye biratuma igikorwa co gutera umuyagankuba kigenda neza. Ivyo bikoresho vy’ishimikiro bishobora kuronswa mu maduka y’ibikoresho vy’ubuhinga bwa none canke mu maduka yo kuri Internet ataco bisaba abahinga mu vy’ubuhinga bwa none.
+Mukwuzuza tweezers, imikasi mwiza iba iyikenewe cane mugukata insinga zicamwo umucanwa, ikaba ikoreshwa mu bintu vyinshi mu migambi y’ivya eregitoronike. Tape eregitoronike itanga uburinzi buhambaye ku nsinga n’ibihimba, kandi kugira tape nziza iboneka bitagoranye biratuma igikorwa co gusudira kigenda neza. Ivyo bikoresho vy’ishimikiro bishobora kuboneka mu maduka y’ibikoresho vy’ubuhinga bwa none canke mu maduka yo kuri internet bidasavye ababitanga badasanzwe.
 
 
-### Gukoresha n'uburongozi bwa Solder Paste
+### Gukoresha no Kubungabunga amavuta yo Gusudira (Solder Paste)
 
 
-Gukoresha umunyu w’ivyuma bigereranya kimwe mu bintu bihambaye cane vyo gutera ivyuma bita SMD, kandi ibikoresho bikwiye bituma iyo nzira iba nziza kandi iryoshe. Inshinge ntoyi zidasongoye zuzuye amavuta y’ivyuma zitanga ubugenzuzi budasanzwe ku bijanye no gushiramwo amavuta. Ubwo buryo buratuma umuntu ashobora gukoresha neza igitigiri nyaco c’umunyu w’ivyuma bikenewe ku ntugu imwe imwe, kandi abantu benshi barihuta gutegura ubuhinga bukwiye bwo kugenzura umukazo n’urugero rw’amazi agenda biciye ku kwimenyereza.
+Gukoresha solder Paste bibonwa nka kimwe mu bintu bihambaye cane vyo gusudira SMD, kandi ibikoresho bikwiye bituma ico gikorwa kiba ciza kandi kiryoshe. Inshinge ntoyi zidasongoye zuzuye amavuta yo gusudira zitanga ubugenzuzi budasanzwe bwaho uyashira. Ubwo buryo buratuma umuntu ashobora gukoresha neza igitigiri nyaco c’amavuta akenewe ku mahuriro amwe amwe, kandi abantu benshi barihuta kumenyera bakaronka uburyo bukwiye bwo kugenzura umukazo n’urugero rw’amavuta agenda biciye ku kwimenyereza.
 
 
-Guhitamwo umuti wo gutera ubwawo biragira ingaruka nyinshi ku kuroranirwa kw’ugutera. ChipQuik TS391SNL50 igaragara nk’umuti w’ivyuma udasanzwe ku migambi ya Bitaxe n’ibikorwa rusangi vya SMD. Iryo pasta riguma rimeze neza kandi rikaba rifise akaranga ko gushonga, rikagira ingorane zijanye n’ibindi bikoresho bihenda cane bifise ubushobozi bwo gushonga buke cane. Amapaste y’ugusoda y’agaciro gatoyi arashobora gutuma haba ibibazo aho amajosi yari yarasozwe mbere yongera guhinduka amazi igihe asusurutsa ahantu hafi, bikaba bituma ibihimba biva aho bihuriye n’uguhuza nabi. Naho umuti w’ugusodera w’agaciro ugereranya ishoramari ryinshi ry’intango, ivyiza bivamwo be n’ukugabanya intuntu biratuma umuntu akoresha amahera menshi.
+Guhitamwo amavuta ubwayo biragira ingaruka nyinshi ku kuroranirwa kw’ugusudira. ChipQuik TS391SNL50 igaragara nk’amavuta adasanzwe ku migambi ya Bitaxe n’ibikorwa rusangi vya SMD. Aya mavuta ameze neza kandi akaba afise akaranga ko gushonga, akarinda ingorane zijana n’ibindi bikoresho bizimbutse cane bifise ubushobozi bwo gushonga buke cane. Amavuta y’ugusudira azimbutse arashobora gutuma haba ibibazo aho amahuriro yasudiriwe mbere yongera gushonga kubw'ubushuhe buri hafi yaho, bikaba bituma ibihimba biva mukibanza vyarimwo n’uguhuza nabi. Naho amavuta meza azira inenge asaba imitahe ikwiye muntango, ivyiza bivamwo be n’ukugabanya ukwidoga birakwiye nk'impamvu.
 
 
 ### Ibikoresho vyo gutorera umuti ingorane no gusukura
 
 
-Mbere n’abasoda bazi utuntu n’utundi barahura n’ingorane zisaba gukosorwa, ivyo bikaba bituma ibikoresho vyo gusodera biba ngirakamaro ku gikoresho ico ari co cose cuzuye. Igikoresho co gukuraho ivyuma, mu vy’ukuri ni igikoresho gishushe, kirakuraho ivyuma birenze urugero maze kigakosora amasano ari hagati y’ibihimba vy’umubiri. Ivyo bikoresho birakora neza cane iyo bifatanijwe n’umuyagankuba, ivyo bikaba bituma umuyagankuba ugenda neza kandi bikaba bifasha igikorwa co gukuraho umuyagankuba gukora neza.
+Mbere n’abasudira babimenyereye barahura n’ingorane zisaba gukosorwa, ivyo bikaba bituma ibikoresho vyo kwomora ivyasudiriwe biba ngirakamaro kuri kiti iyariyo yose yuzuye. Igikoresho co kwomora, gikunze kuba ari vaccum ishushe, kirakuraho ivyasudiriwe birenze urugero maze kigakosora amasano ari hagati y’utuguru(pins) tw'ibihimba. Ivyo bikoresho birakora neza cane iyo bifatanijwe na flux, ivyo bikaba vyongera ukuroranirwa kandi bigafasha igikorwa co kwomora gikorwa neza.
 
 
-Flux iza mu buryo butandukanye, harimwo ubwoko bukomeye n’ubw’amazi, kandi ikora intumbero nyinshi zirenze gufasha gukuraho ivyuma. Iyo umunyu w’ivyuma utanguye gutakaza ubushobozi bwawo mu kiringo c’akazi kirekire, gukoresha ivyuma vy’inyongera birasubizaho ibiranga ivyuma bikwiye kandi bikaba bituma habaho amasano yizigirwa. Igikoresho gitoyi kimeze nk’ikiyiko, akenshi kiboneka mu bikoresho vyo gusanura neza, kirafasha gukoresha neza umuyagankuba mu bibanza bimwebimwe ata kwanduza ibihimba bikikije.
+Flux iza mu buryo butandukanye, harimwo ubwoko bugumye n’ubw’amazi, kandi ikora intumbero nyinshi zirenze gufasha kwomora. Iyo amavuta yo gusudira atanguye gutakaza ubushobozi bwayo mu kiringo c’akazi kirekire, gukoresha flux y’inyongera birasubizako akaranga gakwiye kandi bikaba bituma habaho amasano yizigirwa. Igikoresho gitoyi kimeze nk’ikiyiko, akenshi kiboneka mu bikoresho vyo gusanura neza, kirafasha gukoresha neza flux mu bibanza bimwebimwe ata kwanduza ibihimba bikikije.
 
 
-Gusukura urubaho bigereranya intambwe ya nyuma mu gikorwa c’ubuhinga, bisaba inzoga ya isopropanol n’uburoso bwo gusukura bwihariye. Igikoresho co gusukura amenyo ca kera kirakora neza cane ku bw’iyo ntumbero, kandi icapa co gufyonda kirimwo isopropanol kiratuma umuntu ashobora gukoresha umuti wo gusukura mu buryo bugenzuwe. Ivyo bivanze bikuraho ibisigarira vy’amazi n’ibisigazwa vy’amazi, bikasiga imbaho ​​zifise ishusho isukuye kandi igaragara nk’iy’umwuga, ivyo bikaba bituma kandi umuntu ashobora gusuzuma aho amasoderi ahuriye.
+Gusukura urubaho vyerekana intambwe ya nyuma mu gikorwa kinyamwuga c’ubuziranenge, bisaba alcohol ya isopropanol n’uburoso bwo gusukura bwihariye. Uburoso bw'amenyo bwa kera burakora neza cane ku bw’iyo ntumbero, kandi icupa rifyondeka ririmwo isopropanol riratuma umuntu ashobora gukoresha umuti wo gusukura mu buryo bugenzuwe. Ivyo bivanze bikuraho ibisigarira vya flux na solder paste, bikasiga imbaho ​​zifise ishusho isukuye kandi igaragara nk’iy’umwuga, ivyo bikaba bituma kandi umuntu ashobora gusuzuma amahuriro ya sudiriwe.
 
 
-### Ibikoresho vyihariye n'ibikoresho vy'imbere
+### Ibikoresho Vyihariye n'Ibikoresho Biteye imbere
 
 
-Ku migambi ijana n’imirongo ikomeye, canecane ASIC, ama stencils arahindura uburyo bwo gutera amabuye kuva ku gushiramwo amaboko arambiranye gushika ku gukoresha neza kandi ataco bihinduye. Ivyo bigereranyo vy’ugucapura neza bituma uburemere bw’impuzu n’aho bishirwa bimeze neza, bikagabanya cane igihe gikenewe kugira ngo ibihimba bikomeye bibeho mu gihe bituma umuntu ashobora kwizigirwa. Ivyo gushiramwo amafaranga mu ma stencil y’uburyo bwiza biratanga inyungu mu kuzigama umwanya no mu gutuma umuntu agira ibisubizo vyiza.
+Ku migambi ijana na circuits zirimwo zigoye, cane cane ASIC, ama stencils arahindura uburyo bwo gusudira kuva ku gushiramwo n'amaboko birambirana gushika ku gukoresha neza, amavuta. Ivyo bigereranyo bikase neza bituma habaho kutihenda ku mavuta akwiye naho ashirwa, bikagabanya cane igihe gikenewe ku bihimba bigoye mu gihe bituma umuntu ashobora kwizigirwa. Gushira umutahe mu ma stencil meza azira inenge biratanga inyungu mu kuzigama umwanya no mu gutuma umuntu agira ivyashitseko vyiza.
 
 
-Ugucungera ubushuhe bica biba ikintu gihambaye cane iyo ukorana n’ibihimba vy’ububasha, bikaba bituma umunyu w’ubushuhe canke amavuta y’ubushuhe biba ibikoresho vy’ingenzi. Ivyo bikoresho bituma ubushuhe bugenda neza hagati y’ibikoresho bifata ubushuhe n’ibikoresho bifata ubushuhe, bikaba bituma ubushuhe butashobora kwonona kandi bikaba bikora neza. Ivyo bikoresho vy’ubushuhe vyiza bigereranya ishoramari ritoyi rikingiye ibihimba bizimvye cane.
+Ugucungera ubushuhe bica biba ikintu gihambaye cane iyo ukorana n’ibihimba vy’ububasha, bikaba bituma amavuta y’ubushuhe canke ubundi bwoko bw'amavuta y’ubushuhe biba ibikoresho vy’umumaro. Ivyo bikoresho bituma ubushuhe bugenda neza hagati y’ibikoresho bifata ubushuhe(heat sinks) na circuits zirimwo, bikaba bituma ubushuhe budashobora kwonona kandi bikaba bikora neza. Ibikoresho vya interface z'ubushuhe vyiza ni umutahe muto woshiramwo ukingira ibihimba bizimvye cane.
 
 
-Umutima w’imiterere yose y’ugutera SMD ni ikibanza co gusubiramwo umuyaga ushushe, kikaba ari co gitanga ubushuhe bugenzurwa bukenewe ku bikorwa vyo gutera hejuru. Naho ama stations y’ingengo y’imari ari hagati y’amadolari 30-50 ashobora gukora neza, akenshi ntashobora kwizigirwa no gukora neza nk’ibikoresho vy’agaciro kanini. Ivyo bikoresho vy’imbere mu nzu bikora neza cane ku bushuhe bwa 355°C kandi birimwo no kugabanya ubushuhe iyo igikoresho co mu ntoke kigarutse aho gifise. Ariko rero, ukwizigirwa kwavyo kurashobora kuba kudahuye, aho amayunite amwe amwe ashobora gusenyuka imbere y’igihe. Ku bikorwa bikomeye, gushiramwo ibikoresho vy’agaciro kanini biva ku bacuruzi b’ibikoresho vy’ubuhinga bwa none bitanga agaciro keza k’igihe kirekire biciye mu kwizigirwa neza no kugenzura neza ubushuhe.
+Umutima w'umuteguro uwariwo wose wo gusudira SMD ni rework station y'umuyaga ushushe, ikaba ari yo itanga ubushuhe bugenzurwa bukenewe ku bikorwa vya surface-mount (gufatisha hasi). Naho ama stations azimbutse ari hagati y’amadorari 30-50 ashobora gukora neza, akenshi ntashobora kwizigirwa no gukora neza nk’ibikoresho vy’agaciro kanini. Ivyo bikoresho vyabagitangura umwuga bikora neza cane ku bushuhe bwa 355°C kandi birimwo no kugabanya ubushuhe iyo igikoresho co mu ntoke kigarutse kuwu gifise. Ariko rero, ukwizigirwa kwavyo kurashobora kuba kudahuye, aho bimwe na bimwe bishobora kwononekara imbere y’igihe. Ku bikorwa bikomeye, gushira imitahe mu bikoresho vyiza bizira inenge biva ku bacuruzi b’ibikoresho vya eregitoronike bitanga agaciro keza k’igihe kirekire biciye mu kwizigirwa neza no kugenzura neza ubushuhe.
 
 
-Ivyo bikoresho bihurikiye hamwe bituma haba ubushobozi bwo gutera SMD bushitse burengeye kure imigambi ya Bitaxe gushika ku bikorwa rusangi vy’ubuhinga bwa none. Gutahura uruhara rw’igikoresho cose no guhitamwo ibikoresho vyiza bihuye n’urugero rw’ubuhinga bwawe n’ibisabwa mu mugambi bituma uronka ingaruka nziza kandi ukagira ubumenyi bushimishije bwo gusodera.
+Ibi bikoresho bihurikiye hamwe bituma haba ubushobozi bwo gusudira SMD bushitse burengeye kure imigambi ya Bitaxe gushika ku bikorwa rusangi vya eregitoronike. Gutahura uruhara rw’igikoresho cose no guhitamwo ibikoresho vyiza bihuye n’urugero rw’ubuhinga bwawe n’ibisabwa mu mugambi bituma uronka ingaruka nziza kandi ukagira ubumenyi bushimishije bwo gusudira.
 
 
 
-## Gutorera umuti ibibazo vy'ugusoda
+## Gutorera umuti ibibazo vy'ugusudira
 
 <chapterId>96663744-b4f7-5154-930f-a68ba7954603</chapterId>
 
@@ -670,34 +670,34 @@ Ivyo bikoresho bihurikiye hamwe bituma haba ubushobozi bwo gutera SMD bushitse b
 :::video id=9286c0dc-acd6-44d9-b34e-59cfb2da9748:::
 
 
-Igikoresho co kwakira amajwi ca Bitaxe kiratanga ingorane zidasanzwe mu gihe co guteranya ibintu bisaba kwitwararika cane ukuntu ibihimba vy’umubiri biteye, kwirinda ikiraro c’ivyuma, no gucungera neza ubushuhe. Gutahura ivyo bibazo rusangi n’ingene bitorwa umuti ni ngombwa kugira ngo umuntu ashobore kwubaka neza ibikoresho no kwirinda kwonona ibihimba vy’umubiri bizimvye. Iki gice kirasuzuma ingorane zikunda gushika mu gihe c’iteraniro rya Bitaxe kandi kigatanga ubuhinga ngirakamaro bwo kuzimenya no kuzitorera umuti.
+Bitaxe transceiver kit kiratanga ingorane zidasanzwe mu gihe co guteranya ibintu bisaba kwitwararika cane ukuntu ibihimba bipanze, kwirinda gufatanya inzira, no gucungera neza ubushuhe. Gutahura ivyo bibazo rusangi n’ingene bitorerwa umuti ni ngombwa kugira ngo umuntu ashobore kwubaka neza ibikoresho no kwirinda kwonona ibihimba bizimvye. Iki gice kirasuzuma ingorane zikunda gushika mu gihe co guteranya Bitaxe kandi kigatanga ubuhinga ngirakamaro bwo kuzimenya no kuzitorera umuti.
 
 
-### Ivyiyumviro vy'ibice n'ukubimenya
+### Gupanga ibihimba no kubimenya
 
 
-Ivyerekeye neza ibice bigereranya kimwe mu bintu bihambaye cane vyo gukoranya Bitaxe, cane cane na MOSFETs Q1 na Q2. Ivyo bihimba birafise ibimenyetso bidasanzwe vy’aho umuntu ari bitegerezwa kwihwezwa neza igihe ariko arabishiramwo. MOSFET yose irimwo akadomo gatoyi gahuye n’imiterere yihariye y’ibipande biri ku rubaho rw’umurongo. Urufunguruzo rwo gukosora aho umuntu abona ibintu ni ugutahura ukuntu ivyo bihimba vyubatswe, ivyo bikaba bifise ibipimo bine bitunganijwe n’igipande kimwe kinini be n’ibipande bitatu bitobito bitagira aho bihuriye n’ico gipande kinini.
+Gupanga neza ibihimba ni kimwe mu bintu bihambaye cane vyo guteranya Bitaxe, cane cane na MOSFETs Q1 na Q2. Ivyo bihimba birafise ibimenyetso bidasanzwe vyerekana uko bipangwa bitegerezwa kwihwezwa neza igihe uriko urabishiramwo. MOSFET yose irimwo akadomo gatoyi gahuye n’imiterere yihariye y’ibipande biri ku rubaho rwa circuits. Urufunguruzo rwo gupanga neza ni ugutahura ukuntu ivyo bihimba vyubatswe kugaragara, ivyo bikaba bifise utuguru(pins) tune dutunganijwe n’igipande kimwe kinini be n’ibipande bitatu bitobito bitagira aho bihuriye n’ico gipande kinini.
 
 
-Igihe ushizeho Q1 na Q2, nusuzume neza igice cose n’uruzitiro rw’umurongo. Igishushanyo c’urubaho kirerekana neza aho gitegekanijwe biciye ku miterere yaco y’ibipande, n’ibipimo bine bishizwe kugira ngo bihure n’imiterere ya MOSFET. Imbere yo gutera igice kinini ico ari co cose, wama ugenzura aho kiri mu kugereranya ibimenyetso vy’umubiri vy’ico gice n’ingene igipande c’urubaho giteye. Iyi ntambwe yoroshe yo kugenzura irabuza gucika intege mu gukuraho ivyuma no gusubira gushiramwo ibihimba bitari vyo.
+Igihe ushizemwo Q1 na Q2, nusuzume neza igihimba cose n’urubaho rwa circuit. igicapo c’urubaho kirerekana neza aho gitegekanijwe biciye ku miterere yaco y’ibipande, hamwe n’utuguru tune dushizweko kugira ngo bihure n’imiterere ya MOSFET. Imbere yo gutera igihimba kinini ico ari co cose, wame ugenzura uko gipangwa mu kugereranya ibimenyetso biri kuri ico gihimba n’ingene igipande c’urubaho giteye. Iyi ntambwe yoroshe yo kugenzura ikurinda kwidoga mu kwomora no gusubira gushiramwo ibihimba vyapanzwe nabi.
 
 
-Inkurikizi z’ugutahura nabi zirarenga ibibazo vy’imikorere vyoroshe. MOSFETs zifise ubuhinga butari bwo zirashobora gutuma habaho ukudakora neza kw’imirongo bigoye kumenya kandi bishobora gusaba ko bisubirizwa ibihimba vyose. Gufata umwanya wo kugenzura aho ibintu biri imbere yo gukoresha ubushuhe biratuma umurongo ukora neza kandi bikabuza gutorera umuti ingorane zidakenewe mu nyuma mu gihe c’iteraniro.
+Inkurikizi z’ugupanga nabi zirarenga ibibazo vy’imikorere vyoroshe. MOSFETs zipanzwe nabi zirashobora gutuma habaho ukudakora neza kwa circuit bigoye kumenya kandi bishobora gusaba ko usubiriza igihimba cose. Gufata umwanya wo kugenzura aho ibintu bija imbere yo gushirako ubushuhe biratuma circuits ikora neza kandi bikabuza gutorera umuti ingorane zidakenewe mu nyuma mu gihe co guteranya.
 
 
-### Gucungera ibiraro vy'amabuye y'agaciro n'amabuye y'agaciro arengeje urugero
+### Gucungera Amakosa yo gufatanya inzira no Gusudira Birengeje urugero
 
 
-Ibiraro vy'amabuye y'agaciro bigereranya ikindi kibazo gisanzwe mu gukoranya Bitaxe, cane cane hirya no hino y'ibihimba vy'ijwi ryiza nka U10. Ivyo bihuza bidakenewe hagati y’ibipimo bifatanye birashobora gutuma umurongo w’amashanyarazi udakora neza kandi bisaba ubuhinga bwo kubikuraho witonze. Uburyo bwiza kuruta ubundi bwose ni ugukoresha umuriro wo gukuraho ivyuma, ni ukuvuga ikintu gipfutse n’umuringa kinywa ivyuma birenze urugero iyo bishushe. Ubwo buryo busaba ukwihangana no guhitamwo neza ibikoresho kugira ngo umuntu ntiyononekare ibihimba bikomeye.
+Gufatanya inzira n'ikindi kibazo kimenyerewe mu guteranya Bitaxe, cane cane hirya no hino y'ibihimba nka U10. Uko guhuza inzira bidakenewe hagati y’utuguru turi hagufi na hagufi birashobora gutuma circuits ikora nabi bisaba ubuhinga bwo kubikuraho witonze. Uburyo bwiza kuruta ubundi bwose ni ugukoresha wick yo kwomora, ni urutsinga ruboshe rukozwe mu muringa runywa ivyasudiriwe birengeje urugero iyo urushuhije. Ubwo buhinga busaba ukwihangana no guhitamwo neza ibikoresho kugira ngo umuntu ntiyonone ibihimba bikomeye.
 
 
-Igihe uvuga ibiraro vy’amabuye y’agaciro ku mirongo y’ivyuma, ukoreshe igikoresho co gufata PCB canke igikoresho co gufata neza igihimba igihe uriko urakora. Siga ubushuhe buyoroshe ahantu hakozweko maze ukwegere witonze umuriro wo gukuraho ivyuma ku bihuza vy’ikiraro. Ico gipfukisho c’umuringa kiranywa mu buryo busanzwe ivyuma birenze urugero, kigatandukanya amasano adakenewe. Ivyo bishobora gusaba ko umuntu agerageza kenshi, mugabo gushikama bituma haba amasano asukuye kandi atandukanye neza.
+Igihe ukosora inzira zifatanye kuri circuit zishizwemwo, ukoreshe igikoresho co gufatatisha ca PCB canke igikoresho co gufatatisha neza igihimba igihe uriko urakora. Shirako ubushuhe bugereranije ahagizweko ingaruka maze ukwegere witonze wick kure y'inzira zifatanijwe. Wick iterako inywa mu buryo busanzwe ibisigarizwa birenze urugero, igatandukanya inzira zihujwe zidakenewe. Ivyo bishobora gusaba ko umuntu agerageza kenshi, mugabo gushikama bituma habaho inzira zisukuye kandi zitandukanye neza.
 
 
-Gukingira biguma ari uburyo bwiza bwo gucunga ikiraro c’amabuye y’agaciro. Gukoresha ingano zibereye z’umuti w’ivyuma no kuguma ugenzura neza ukuboko mu gihe co gushiramwo ibihimba biragabanya cane uguhingura ikiraro. Igihe ibiraro bishitse, uvyiteho ubwo nyene aho kwizigira ko bitazogira ico bikoze ku migenderanire y’umurongo. Mbere n’ibiraro bisa n’ibitobito birashobora gutuma haba ingorane zikomeye z’imikorere zigoye kumenya iyo urubaho rumaze gukoranywa neza.
+Gukingira biguma ari uburyo bwiza bwo gucunga amakosa yo gufatanya inzira. Gukoresha ingano ibereye ya solder paste no kuguma ugenzura neza ukuboko mu gihe co gushiramwo ibihimba biragabanya cane ugufatanya inzira. Mugihe bishitse ugafatanya inzira, uvyiteho ubwo nyene aho kwizigira ko bitazogira ico bikoze ku bikorwa vya circuit. Mbere n’uguhuza inzira bisa n’ibitobito birashobora gutuma haba ingorane zikomeye z’imikorere zigoye kumenya iyo urubaho rumaze guteranywa neza.
 
 
-### Ibice bihambaye n'ibintu bidasanzwe vyo kwitwararika
+### Ibihimba bihambaye n'ibintu bidasanzwe vyo kwitwararika
 
 
 Igihindura amafaranga U9 gikwiriye kwitwararikwa cane kubera uruhara ruhambaye gifise mu guhindura ama volts 5 ngo abe 1.2 volts ku gice ca ASIC. Ico gice kiratanga ingorane zidasanzwe kubera amasano mato mato atanu gifise be n’ukuntu gikunda kunanirwa. Gushiramwo neza bisaba gukoresha neza amavuta y'ivyuma no gucungera neza ubushuhe. Igikoresho co gutera ivyuma kidahagije kiri munsi ya U9 gishobora gutuma habaho amahuzu mabi abuza guhindura neza umuriro, mu gihe ivyuma birenze urugero bishobora gutuma haba ibiraro bituma umurongo w’amashanyarazi udakora neza.

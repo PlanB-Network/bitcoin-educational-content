@@ -700,73 +700,73 @@ Gukingira biguma ari uburyo bwiza bwo gucunga amakosa yo gufatanya inzira. Gukor
 ### Ibihimba bihambaye n'ibintu bidasanzwe vyo kwitwararika
 
 
-Igihindura amafaranga U9 gikwiriye kwitwararikwa cane kubera uruhara ruhambaye gifise mu guhindura ama volts 5 ngo abe 1.2 volts ku gice ca ASIC. Ico gice kiratanga ingorane zidasanzwe kubera amasano mato mato atanu gifise be n’ukuntu gikunda kunanirwa. Gushiramwo neza bisaba gukoresha neza amavuta y'ivyuma no gucungera neza ubushuhe. Igikoresho co gutera ivyuma kidahagije kiri munsi ya U9 gishobora gutuma habaho amahuzu mabi abuza guhindura neza umuriro, mu gihe ivyuma birenze urugero bishobora gutuma haba ibiraro bituma umurongo w’amashanyarazi udakora neza.
+Buck converter U9 ikwiriye kwitwararikwa cane kubera uruhara ruhambaye ifise mu guhindura ama volts 5 ngo abe 1.2 volts kuri chip ya ASIC. Iki gihimba kiratanga ingorane zidasanzwe kubera amasano mato mato atanu gifise be n’ukuntu gikunda kunanirwa. Gushiramwo neza bisaba gukoresha neza amavuta yo gusudira(solder paste) no gucungera neza ubushuhe. Amavuta adakwiye munsi ya U9 ashobora gutuma habaho inzira mbi zibuza guhindura neza umucanwa, mu gihe amavuta arenze urugero ashobora gutuma habako inzira zifatanije zituma circuits idakora neza.
 
 
-U9 itanga imikono y’amajwi idasanzwe iyo ishikiwe n’ingorane z’ikiraro c’ivyuma, itanga urusaku rw’incuro nyinshi rutandukanye n’ugukora kwa ASIC gusanzwe. Ubwo buryo bwo gupima indwara bukoresheje ugutwi burashobora gufasha kumenya ingorane, naho nyene bisaba kwumva neza incuro nyinshi kugira ngo umuntu abimenye. Iyo isuzuma ry’amajwi ridashoboka, isuzuma ry’amaso riba ari ngirakamaro. Suzuma neza amahuza yose, urondere ibiraro canke ibipfukisho vy’ivyuma bidahagije.
+U9 itanga imikono y’amajwi idasanzwe iyo ishikiriwe n’ingorane zo guhuza inzira, itanga urusaku rw’incuro nyinshi rutandukanye n’ugukora kwa ASIC gusanzwe. Ubwo buryo bwo gupima ikibazo hakoreshejwe kwumva n'amatwi burashobora gufasha kumenya ingorane, naho nyene bisaba kwumva neza incuro nyinshi kugira ngo umuntu abimenye. Iyo isuzuma ry’amajwi ridashoboka, isuzuma ry’amaso riba ari ngirakamaro. Suzuma neza amahuza yose, urondere inzira zifatanye canke ahata sudiriwe bihagije.
 
 
-Iyo U9 inaniwe gutanga ama volts 1,2 asabwa naho isa n’iyiteye neza, urabe ko ata n’imwe ihagije ari yo ishobora kuba ari yo yatumye. Kura ico gice, ushireko agace gatoyi k’inyongera k’umunyu w’ivyuma, hanyuma wongere ugishiremwo. Mu bihe aho amapine umwumwe wese adafise igipfukisho gihagije c’ivyuma, ushireko witonze utugingo ngengabuzima dutoduto tw’ivyuma ku bibanza bimwebimwe ukoresheje amapinse. Ivyo bizotuma habaho uguhuza neza biciye ku gikorwa c’imitsi.
+Iyo U9 inaniwe gutanga ama volts 1,2 asabwa naho yoba isa n’iyiteye neza, urabe ko atari amavuta yo gusudira adahagije ari yo ishobora kuba ari yompamvu yabitumye. Kurako ico gihimba, ushireko agace gatoyi k’inyongera k’amavuta yo gusudira, hanyuma wongere ugishiremwo. Mu bihe aho utuguru tumwetumwe twose tudafise amavuta yo gusudira akwiye, shirako witonze ayandi kugipimo gitoya ku kibanza ukoresheje tweezers. Ivyo bizotuma habaho uguhuza neza biciye ku gikorwa c’imitsi.
 
 
-### Ugucungera ubushuhe n'uburinzi bw'ibice
+### Ugucungera ubushuhe n'uburinzi bw'ibihimba
 
 
-Ugucungera neza ubushuhe birakingira ibihimba bikomeye kugira ngo ntivyononekare bitewe n’ubushuhe mu gihe bituma habaho amajosi yizigirwa. Ibintu nk’ivyo bita crystal oscillator Y1 na U1 birakunda cane gushikirwa n’ubushuhe igihe kirekire kandi bisaba ko umuntu agenzura neza ubushuhe. Gumana ubushuhe bw’icuma co gutera ivyuma ku bushuhe bwa degre 350, ariko ugabanye igihe co gukoresha ubushuhe kugira ngo ibihimba ntivyononeke. Ubuhinga bwo gutera amabuye bwihuta kandi bukora neza burakingira ivyo bihimba bikomeye mu gihe bushika ku guhuza kwizigirwa.
+Ugucungera neza ubushuhe birakingira ibihimba bikomeye kugira ngo ntivyononekare bitewe n’ubushuhe mu gihe bituma habaho amahuriro yizigirwa. Ibintu nk’ivyo bita crystal oscillator Y1 na U1 birakunda cane gushikirwa n’ubushuhe igihe kirekire kandi bisaba ko umuntu agenzura neza ubushuhe. Gumiza ubushuhe bw’icuma co gusudira ku bushuhe bwa 350 degrees Celsius, ariko ugabanye igihe co gukoresha ubushuhe kugira ngo ibihimba ntivyononeke. Ubuhinga bwo gusudira bwihuta kandi bukora neza burakingira ivyo bihimba bikomeye mu gihe ushika ku guhuza kwizigirwa.
 
 
-Igikoresho ca ASIC gisaba ubuhinga budasanzwe bwo kugikoresha kubera ubuhinga bwaco buteye igomwe kandi gishobora gushikirwa n’imibabaro y’ubuhinga. Igihe ukoresha ama stencils yo gukoresha amavuta y’ivyuma, urabe ko ata n’umwe apfutse ku bipimo vyose kugira ngo ntube ufise ivyicaro bitaringaniye. Nimba umunyu w’ivyuma vy’ivyuma birenze urugero utuma ASIC yicara mu buryo butaringaniye, reka ikoraniro rikone neza imbere y’uko ukosora. Gukoresha umukazo mutoyi gusa ku mpande z’ico gice zifise ikimenyetso, ntukigere ukoresha ahantu hagati, mu gihe uriko urasubira gushusha kugira ngo ushikire aho wicara neza.
+chip ya ASIC isaba ubuhinga budasanzwe bwo kuyikoresha kubera imiterere yutuguru twayo igoye kandi ishobora gushikirwa n’ingaruka zo gufatwa nabi. Igihe ukoresha ama stencils ukoresha solder paste, urabe ko ata wanganishije amavuta kutuguru twose kugira ngo ntube ufise igihimba cicaye kitaringaniye. Nimba solder paste irengeje urugero ituma ASIC yicara mu buryo butaringaniye, reka ivyateranijwe vyumye neza imbere y’uko ukosora. Gukoresha umukazo mutoyi gusa ku mpande z’ico gihimba zifise ikimenyetso, ntukigere ukoresha ahantu hagati, mu gihe uriko urasubira gushusha kugira ngo ushikire aho kicara neza.
 
 
-Igice ca U8 kiratanga ingorane zidasanzwe kubera amapine menshi gifise be n’ubushobozi bwo gukoresha amabara apfutse. Iyo amapine apfutse mu gihe co gukoresha, koresha igikoresho co gufata PCB canke igikoresho co gufata amapine kugira ngo ukingire ico gice maze ugorore neza amapine yakozweko. Kora buhoro buhoro kandi wihangane kugira ngo wirinde guca imirongo y’ivyuma igoye. Gutahura ko imigwi imwe imwe y’amapin kuri U8 ihuriye imbere birashobora kworohereza gutorera umuti ingorane, kuko ibiraro biri hagati y’izo pin zihariye ntibigira ico bikoze ku mikorere y’umurongo. Ariko rero, ibiraro biri hagati y’ibindi bipimo bisaba ko bikurwaho vyitondewe kugira ngo bikore neza.
+Igihimba ca U8 kiragorana bidasanzwe kubera utuguru twinshi gifise be n’amahirwe menshi yo kuba two kwigonda. Iyo utuguru twigonze mugihe urihata, koresha igikoresho co gufata ca PCB canke igikoresho co gufata utuguru kugira ngo ukingire ico gihimba maze ugorore neza utuguru twogondamye. Kora buhoro buhoro kandi wihangane kugira ngo wirinde guca imirongo igoye. Gutahura ko imigwi imwe imwe y’utuguru kuri U8 ihuriye indani birashobora kworohereza gutorera umuti ingorane, kuko guhuza inzira ziri hagati y’izo pin zihariye ntibigira ico bikoze ku mikorere ya circuit. Ariko rero, inzira zifatanye ziri hagati y’ibindi bipimo bisaba ko bikurwaho vyitondewe kugira ngo bikore neza.
 
 
-## Uko wokosora Bitaxe yawe ukoresheje AxeOS
+## Uko wotorera inyishu Bitaxe yawe ukoresheje AxeOS
 
 <chapterId>603f5c0d-4b7c-51e1-9bad-318a8b8e9db7</chapterId>
 
 :::video id=d23d748b-510e-4748-9617-b875da757031:::
 
-Igihe ukorana n’ibikoresho vya Bitaxe mining, ukunanirwa kw’ibikoresho birashobora kwigaragaza mu buryo butandukanye bishobora kutaboneka ubwo nyene. Gutahura ingene umuntu yosuzuma ivyo bibazo mu buryo butunganye akoresheje ubuhinga bwa AxeOS birashobora kuzigama umwanya munini no gukingira gusubirira ibihimba bidakenewe. Iki gice kiratohoza ubuhinga bwo gupima n’uburyo bwo gutorera umuti ingorane abahinga bazi utuntu n’utundi bakoresha kugira ngo bamenye ingorane zidasanzwe z’ibikoresho biciye mu gusesangura porogarama.
+Igihe ukorana n’ibikoresho vya Bitaxe mining, ukunanirwa kw’ibikoresho birashobora kwigaragaza mu buryo butandukanye bishobora kutaboneka ubwo nyene. Gutahura ingene umuntu yosuzuma ivyo bibazo mu buryo butunganye akoresheje ubuhinga bwa AxeOS birashobora kuzigama umwanya munini no gukingira gusubirira ibihimba bidakenewe. Iki gice kiratohoza ubuhinga bwo gupima n’uburyo bwo gutorera umuti ingorane abahinga bazi utuntu n’utundi bakoresha kugira ngo bamenye ingorane zidasanzwe z’ibikoresho biciye mu gusesangura porogarame.
 
 
-### Gutahura ibimenyetso vy'ugukoresha amashanyarazi
+### Gutahura ibimenyetso vy'ugukoresha umuyagankuba
 
 
-Ikimenyetso ca mbere kandi gihambaye cane co gupima indwara muri AxeOS ni ugukurikirana ingene amashanyarazi akoreshwa. Ivyuma bisanzwe vya Bitaxe, harimwo n’ivya Bitaxe Ultra na Bitaxe Supra, bikoresha amashanyarazi ari hagati ya 10 na 17 mu gihe bikoreshwa mu buryo busanzwe. Iyi ngero y’intango ikora nk’ikimenyetso cawe ca mbere c’ubuzima ku bijanye n’urutonde rwose. Iyo ubushobozi bukoreshwa bugabanutse cane munsi y’ivyo, cane cane munsi ya 3 watts, bigaragaza ingorane y’ishimikiro ku gice ca ASIC canke ku gice gifasha.
+Ikimenyetso ca mbere kandi gihambaye cane co gupima ibibazo muri AxeOS ni ugukurikirana ingene umuyagankuba ukoreshwa. Ibikoresho bisanzwe vya Bitaxe, harimwo n’ivya Bitaxe Ultra na Bitaxe Supra, bikoresha umuyagankuba uri hagati ya 10 na 17 watts mu gihe bikoreshwa mu buryo busanzwe. Iki gipimo fatizo gikora nk’ikimenyetso cawe ca mbere c’ubuzima ca sisiteme yose. Iyo ubushobozi bukoreshwa bugabanutse cane munsi y’ivyo, cane cane munsi ya 3 watts, bigaragaza ingorane y’ishimikiro kuri chip ca ASIC canke kuri circuit irimwo.
 
 
-Ivyerekeye ugukoresha amashanyarazi make bisaba ko umuntu ahita avyitaho kubera ko vyerekana ko igice ca mining kitakora rwose canke ko gikora mu buryo bwasenyutse cane. Iyi ngero yonyene irashobora kugufasha gutandukanya ningoga hagati y’ibibazo vy’imikorere n’ugusenyuka kw’ibikoresho. Igisomwa c’ububasha muri AxeOS kiratanga inyishu mu gihe nyaco kigufasha kugenzura ubushobozi bw’ivyo ugerageza gusanura igikoresho vyose.
+Ivyerekeye ugukoresha umuyagankuba muke bisaba ko umuntu atera yita kubiraba kubera ko vyerekana ko chip ya mining idakora canke ko ikora mu buryo bwasenyutse cane. Iki gipimo cyonyene kirashobora kugufasha gutandukanya ningoga hagati y’ibibazo vy’imikorere n’ugusenyuka kw’ibikoresho. Igisomwa c’ububasha muri AxeOS kiratanga inyishu mu gihe nyaco kigufasha kugenzura ubushobozi bw’ivyo ugerageza gusanura ku gikoresho vyose.
 
 
-### Gusuzuma ingero z'umuriro ASIC
+### Gusuzuma ibipimo vy'ingero z'umucanwa wa ASIC
 
 
-Igikoresho co gupima umuriro ASIC muri AxeOS kiratanga amakuru ahambaye yo gupima afasha kumenya neza kamere nyayo y’ingorane z’ibikoresho. Igihe usuzuma ibisomwa vy’umuriro, urakeneye gutahura isano riri hagati y’umuriro ugereranijwe n’umuriro usabwa kugira ngo ushobore gusuzuma neza ibibazo. Ico gikoresho kigaragaza umuriro uriko urashikirizwa igice ca ASIC be n’umuriro ico gice gisaba ku gikoresho co gucunga ubushobozi.
+Ibipimo vy'ingero z'umucanwa wa ASIC umucanwa ASIC muri AxeOS kiratanga amakuru ahambaye yo gupima afasha kumenya neza kamere nyayo y’ingorane z’ibikoresho. Igihe usuzuma ibisomwa vy’umucanwa, urakeneye gutahura isano riri hagati y’umucanwa ugereranijwe n’uwusabwa kugira ngo ushobore gusuzuma neza ibibazo. Iyo sisiteme igaragaza umucanwa uriko urashikirizwa chip ya ASIC be n’umucanwa iyo chip iriko irasaba kuri sisiteme yo gucunga ubushobozi.
 
 
-Iyo ubonye ingero y’umuriro wa ASIC y’ama volts 1,2 nyene ifatanijwe n’inguvu zikoreshwa munsi y’ama watts 3, iyo nzira yihariye yerekana ko hari ingorane yo gutera umuriro ku gice ca ASIC canke ko ASIC yananiwe rwose. Ivyo bisomwa vy’umuriro vyerekana ko ububasha buriko burashika aho iyo chip iri, ariko iyo chip ubwayo ntiriko irakora neza. Gusuzuma umubiri w’urupfu rwa ASIC birashobora kwerekana imivyimba canke ibindi bintu bibonetse vyoshobora gusigura iyo nyifato.
+Iyo ubonye ibipimo vy'ingero z'umucanwa wa ASIC bingana n'ama volts 1,2 harimwo n’inguvu zikoreshwa munsi y’ama watts 3, iyo nzira yihariye yerekana ko hari ingorane yo gusudira kuri chip ya ASIC canke ko ASIC yananiwe rwose. Ivyo bisomwa vy’umucanwa vyerekana ko umucanwa uriko urashika aho iyo chip iri, ariko iyo chip ubwayo ntiriko irakora neza. Gusuzuma chip yubwayo ya ASIC birashobora kwerekana imivyimba canke ibindi bintu bibonetse vyoshobora gusigura iyo nyifato.
 
 
-Igishushanyo gitandukanye co gupima kigaragara iyo ubonye ugukoresha ubushobozi buke bufatanye n’ibisomwa vy’umuriro usabwa bike cane, nk’imillivolts 100 canke 0,5 volts. Ivyo bigaragaza ko igice ca ASIC kitaronka umuriro uhagije, ivyo bikaba vyerekana ingorane ziri mu gice c’umuhinduzi w’amafaranga U9. Igihindura amafaranga ni co gishinzwe gutanga amategeko nyayo y’umuriro akenewe n’ibice vya ASIC kugira ngo bikore neza.
+igicapo gitandukanye co gupima kigaragara iyo ubonye ugukoresha ubushobozi buke bufatanye n’ibisomwa vy’umucanwa usabwa bike cane, nka millivolts 100 canke 0,5 volts. Ivyo bigaragaza ko chip ya ASIC itariko ira ronka umucanwa uhagije, ivyo bikaba vyerekana ingorane ziri mu gihimba ca U9 buck converter. buck converter ni co gishinzwe gutanga amategeko nyayo y’umucanwa akenewe na chip ya ASIC kugira ngo bikore neza.
 
 
-### Gusobanura amakuru y'inyandiko n'itumanaho rya ASIC
+### Gusobanura amakuru y'inyandiko z'ivyabaye n'itumanako rya ASIC
 
 
-Uburyo bwo gukora amakuru bwa AxeOS buratanga ubumenyi bw’agaciro ku vyerekeye nimba igice cawe ca ASIC kiriko kiravugana n’uburyo bwo kugenzura. Iyo winjiye ku bitabo biciye ku gikorwa ca "show logs", kubaho kw'ibisubizo vya "ASIC" vyemeza ko iyo chip idafise ubushobozi gusa ariko kandi ikora cane igikorwa no kugarura ibisubizo. Iryo tangazo ryerekana ko ASIC ipfutse neza kandi ko iguma ifatanye n’umurongo w’igenzura.
+Sisiteme yo kwandika amakuru y'ivyabaye muri AxeOS iratanga ubumenyi bw’agaciro ku vyerekeye nimba chip yawe ca ASIC iriko iravugana na sisiteme yo kugenzura. Iyo winjiye ku makuru y'ivyabaye biciye ku gikorwa ca "show logs", kubaho kwa "ASIC results" vyemeza ko iyo chip idafise ubushobozi gusa ariko kandi ikora cane igikorwa no kugarura inyishu. Iryo tumanako ryerekana ko ASIC isudiriye neza kandi ko iguma ifatanye na circuitry w’igenzura.
 
 
-Kubura ASIC bituma habaho ibitabo, cane cane iyo bifatanijwe n’ibindi bimenyetso, bifasha kugabanya ingorane ku bihimba vyihariye canke ibibazo vy’uguhuza. Ubwo buryo bwo gupima buratuma ushobora gutandukanya ibice bitagira ico bikora rwose n’ivyo bishobora kuba bifise ingorane zo gukorana n’ibindi bice. Isesengura ry’inyandiko rigira akamaro cane cane iyo umuntu ariko aratorera umuti ibibazo bikomeye aho ibimenyetso vyinshi bishobora kwerekana imvo zitandukanye.
+Kubura kwa ASIC bituma habaho inyandiko za ndikwa muvyabaye, cane cane iyo bifatanijwe n’ibindi bimenyetso, bifasha kugabanya ingorane ku bihimba vyihariye canke ibibazo vy’uguhuza. Ubwo buryo bwo gupima buratuma ushobora gutandukanya ibice bitagira ico bikora rwose n’ivyo bishobora kuba bifise ingorane zo gukorana n’ibindi bice. Isesengura ry’inyandiko rigira akamaro cane cane iyo umuntu ariko aratorera umuti ibibazo bikomeye aho ibimenyetso vyinshi bishobora kwerekana imvo zitandukanye.
 
 
 ### Uburyo bwo gutorera umuti ingorane
 
 
-Igihe umuntu asuzuma ibibazo vy’ibikoresho vya Bitaxe, gukurikiza uburyo butunganye birabuza kwirengagiza ingorane zikomeye kandi bikaba bituma habaho uburyo bwiza bwo gusanura. Tangana n’ugushira mu nyandiko ubushobozi bukoreshwa n’ibisomwa vy’umuriro, hanyuma uhuze izo ngero n’amakuru y’inyandiko kugira ngo wubake ishusho yuzuye y’inyifato y’urwo rutonde. Ubwo buryo bw’ubuhinga burafasha kumenya nimba ingorane zikomoka ku gice ca ASIC ubwaco, ku buryo bwo gutanga ubushobozi, canke ku nzira zikoreshwa mu guhanahana amakuru hagati y’ibihimba.
+Igihe umuntu asuzuma ibibazo vy’ibikoresho vya Bitaxe, gukurikiza uburyo butunganye birabuza kwirengagiza ingorane zikomeye kandi bikaba bituma habaho uburyo bwiza bwo gusanura. Tangurana n’ugushira mu nyandiko ubushobozi bukoreshwa n’ibisomwa vy’umucanwa, hanyuma uhuze izo ngero n’amakuru y’inyandiko kugira ngo wubake ishusho yuzuye y’inyifato yiyo sisiteme. Ubwo buryo bw’ubuhinga burafasha kumenya nimba ingorane zikomoka kuri chip ya ASIC ubwaco, ku buryo bwo gutanga ubushobozi, canke ku nzira zikoreshwa mu guhanahana amakuru hagati y’ibihimba.
 
 
-Ku bihe aho umuhinduzi w’amahera ya U9 asa n’uwutera ingorane, gusuzuma umubiri no gusubira gukora bishobora kuba ngombwa. Igihimba ca U9 kirashobora cane gushikirwa n’ingorane zo gutera, cane cane mu bihe vy’iteraniro rya mbere. Iyo umuntu akekwa ko hari ingorane zo gutunganya umuriro, gukoresha igipimo c’umuriro kugira ngo umenye ko 1,2 volts ziriho vy’ukuri ku bipimo vya ASIC bitanga icemezo c’ukuri c’ibibazo bijanye n’ugutanga umuriro. Iyo umuriro uri ku bipimo ariko ASIC ikaba iguma idakora, kandi iyo umuntu asuzumye ataco yononekaye, gusubirira igice ca ASIC bica biba intambwe ikurikira yumvikana. Iyo ingorane zikomeje mbere n’inyuma yo gusubirizwa ASIC, igice ca U2, kijana igice ca ASIC, coshobora gusaba kwitwararikwa nk’ikintu ca nyuma mu rukurikirane rwo gutorera umuti ingorane.
+Mu bihe aho U9 buck converter isa n’itera ingorane, gusuzuma no kwomora ivyo wa sudiriye bishobora kuba ngombwa. Igihimba ca U9 kirashobora cane gushikirwa n’ingorane zijanye no gusudira, cane cane mu bihe vyo guteranya ubwa mbere. Bikekwa ko hari ingorane zo gutunganya umucanwa, gukoresha igipimo c’umucanwa kugira ngo umenye ko 1,2 volts ziriho vy’ukuri ku bipimo vya ASIC bitanga icemezo c’ukuri c’ibibazo bijanye n’ugutanga umucanwa. Iyo umucanwa uri kuri pin ariko ASIC ikaba iguma idakora, kandi iyo umuntu asuzumye ataco abona cononekaye, gusubirira chip ya ASIC bica biba intambwe ikurikira yumvikana. Iyo ingorane zikomeje mbere n’inyuma yo gusubirizwa ASIC, igihimba ca U2, kijana chip ya ASIC, coshobora gusaba kwitwararikwa nk’ikintu ca nyuma mu rukurikirane rwo gutorera umuti ingorane.
 
 
 ## Ni gute wokora debug ukoresheje USB?
@@ -777,58 +777,58 @@ Ku bihe aho umuhinduzi w’amahera ya U9 asa n’uwutera ingorane, gusuzuma umub
 :::video id=fe1b4b48-5f8a-4fd7-9417-ca03a36bce9f:::
 
 
-Igihe utorera umuti ingorane z’ibikoresho vya Bitaxe mining, kugira uburenganzira bwo gushika ku buryo butaziguye bwo gukora amakuru y’imbere mu gikoresho bitanga ubumenyi bw’agaciro kanini ibikoresho bishingiye ku rubuga bidashobora gutanga. Iki gice kiratohoza ingene woshinga ubufatanye butaziguye bwa USB n’igikoresho cawe ca Bitaxe ukoresheje ubuhinga bwa ESP-IDF, bikaba bishoboza gukurikirana mu gihe nyaco ibitabo vya sisitemu, urutonde rw’ugutangura, n’ubutumwa bw’amakosa. Ubu buryo bwo gukosora ni ngirakamaro cane cane iyo ukorana n’ibikoresho bikunda gusubira gufungura canke bikunda gukora nabi, kuko bifata amakuru yose yo gupima yoshobora gutakarira mu gihe sisitemu isubira gufungura.
+Igihe utorera umuti ingorane z’ibikoresho vya Bitaxe mining, kugira uburenganzira bwo gushika kuri sisiteme yindani yokwandika amakuru y'ivyabaye mu gikoresho bitanga ubumenyi bw’agaciro kanini ibikoresho bishingiye ku rubuga bidashobora gutanga. Iki gice kiratohoza ingene wohuza mu buryo bwa serial ni'igikoresho cawe ca Bitaxe na USB vyihuse ukoresheje umurongo wibikorwa (framework) wa ESP-IDF, bikaba bigushoboza gukurikirana mu gihe nyaco inyandiko zivyabaye za sisiteme, urukurikirane rw'ibikorwa mugutangura, n’ubutumwa bw’ibibazo. Ubu buryo bwo gukosora ni ngirakamaro cane cane iyo ukorana n’ibikoresho bikunda gusubira gutangura canke bikunda gukora nabi, kuko bifata amakuru yose yo gupima yoshobora gutakarira mu gihe sisiteme isubira kwuguruka.
 
 
-Uburyo bwo gukosora busaba Visual Studio Code n'ukwaguka kwa ESP-IDF, naho IDE yose ihuye ishobora gukoreshwa. Ubu buryo bukorana n’ibindi bikoresho vyose vya Bitaxe birimwo icuma ca USB, harimwo Bitaxe Ultra 204 n’ibindi bikoresho biri muri iyo nkuru. Ihuriro ry’uruhererekane ry’uruhererekane rirenga imipaka ishobora kuba ku rubuga kandi ritanga uburenganzira bwo gushika ku makuru y’imbere mu gikoresho ataco ayunguruwe.
+Uburyo bwo gukosora busaba Visual Studio Code n'inyongerabushobozi(extension) ya ESP-IDF, naho IDE yose ihuye ishobora gukoreshwa. Ubu buryo bukorana n’ibindi bikoresho vyose vya Bitaxe birimwo icambu ca USB, harimwo Bitaxe Ultra 204 n’ibindi bigereranyo vy'ibikoresho biri muri urwo rutonde. Guhuza mu buryo bwa serial birenga imipaka ishobora kuba ku rubuga kandi bitanga uburenganzira bwo gushika ku makuru y’imbere mu gikoresho atakuyungurura kwabayeho.
 
 
-### Gutegura Uguhanahana Amakuru
+### Gutegura itumanako rya Serial
 
 
-Gushinga ubutumwa n’igikoresho cawe ca Bitaxe bitangura no gufatanya umugozi wa USB no gufungura umurongo wa ESP-IDF mu bidukikije vyawe vy’iterambere. Itegeko `idf.py monitor` ritangura igikorwa co guhuza, rihita risuzuma ivyuho vya COM biriho kugira ngo rishingireho ubutumwa bwa UART n’igice ca ESP32 ku gikoresho cawe ca Bitaxe. Ubusanzwe iyo sisitemu izunguruka mu bibanza biriho (COM3, COM4, ​​COM16, n’ibindi) gushika ibonye ihuriro ryiza.
+Gushinga itumanako n’igikoresho cawe ca Bitaxe bitangurana no gucomeka umugozi wa USB no gufungura porogarame ya terminal ya ESP-IDF mu bidukikije vyawe vyo guhingura porogarame. Ibwirizwa `idf.py monitor` ritangura igikorwa co guhuza, rihita risuzuma ivyambo vya COM biriko kugira ngo rishingireko itumanako rya UART na chip ya ESP32 ku gikoresho cawe ca Bitaxe. Mubisanzwe iyo sisiteme izunguruka mu bibanza biriko (COM3, COM4, ​​COM16, n’ibindi) gushika ibonye ihuriro ryiza.
 
 
-Iyo imaze guhuzwa, iyo terminal yerekana urutonde rw’ibikorwa vyose n’inyandiko z’ibikorwa bibandanya. Inzira y’intango yo guhuza ishobora gutwara ibihe vyinshi uko iyo sisitemu imenya icuma co guhanahana amakuru kibereye. Niba ukumenya icuma kwikora kunanirwa, ushobora gusobanura icuma ca COM biciye ku nzira yo guhitamwo icuma ya IDE. Uwo muhora wo guhanahana amakuru utaziguye uraguma ukora mu kiringo cose igikoresho gikora, ugatuma umuntu ashobora gukomeza kumenya ivy’ugupima ubuhinga n’ugupima ubushobozi.
+Iyo imaze guhuzwa, porogarame ya terminal yerekana urukurikirane rw'ibikorwa mugutangura n’inyandiko z’ibikorwa bibandanya. Igikorwa c’intango co guhuza gishobora gutwara igihe kinini uko iyo sisiteme imenya icambu co guhanahanako amakuru kibereye. Niba ukumenya icambu vyikora vyanse, ushobora gusobanura icambu ca COM biciye ku nzira ya interface yo guhitamwo icambu ca IDE. Uwo murongo wo guhanahana amakuru vyihuse uguma ukora mu kiringo cose igikoresho gikora, ugatuma umuntu ashobora gukomeza kumenya ivy’ugupima sisiteme n’ugupima ubushobozi.
 
 
-### Gusobanura urutonde rw'ibikorwa n'inyandiko z'imikorere isanzwe
+### Gusobanura Urukurikirane rw'ibikorwa mugutangura n'Inyandiko z'Ibikorwa bisanzwe
 
 
-Urutonde rw’ugutangura rutanga amakuru ahambaye ku bijanye n’imiterere y’ibikoresho vy’igikoresho cawe ca Bitaxe n’ingene gitangura. Ivyandiko vy'intango bisanzwe bitangura n'amakuru ya verisiyo ya ESP-IDF, hanyuma hakaza ubutumwa budasanzwe "Urakaze muri Bitaxe. Hack the planet" bwemeza ko porogarama y'ubuhinga bwa none yashizwemwo neza. Ico gikoresho gica kigaragaza ingene incuro ASIC zitunganijwe, ukuntu igikoresho kigaragara, be n’ingene igikoresho gikoreshwa.
+Urukurikirane rw'ibikorwa mugutangura rutanga amakuru ahambaye ku bijanye n’imiterere y’ibikoresho vy’igikoresho cawe ca Bitaxe n’ingene gitangura. Inyandiko z'ivyabaye mugutangura zisanzwe zitangurana n'amakuru ya verisiyo ya ESP-IDF, hanyuma hakaza ubutumwa bwihariye "Welcome to Bitaxe. Hack the planet" bwemeza ko porogarame ya firmware yashizwemwo neza. Ico gikoresho gica kigaragaza ingene incuro za ASIC zitunganijwe, ukuntu igikoresho kigaragara, be n’ingene igikoresho gikoreshwa.
 
 
-Igikoresho gikora neza kizokwerekana ko I2C ishobora gutangura neza be n’uko umurongo w’umuriro wa ASIC ushizwe ku 1,2 volts. Ivyo bitabo vyerekana amakuru yerekeye uko GPIO imeze be n’urutonde rw’intango ya Wi-Fi, hanyuma hakaza ugutunganya server ya DHCP n’ugutanga aderesi IP. Kimwe mu bimenyetso bihambaye cane ni ubutumwa bwo kumenya igice ca ASIC, bukwiye gutanga raporo y'uko "habonetse igice kimwe ca ASIC" ku gikoresho gifise igice kimwe. Ivyo vyemezo vyemeza ko ibikoresho vya mining bihuye neza kandi bivugana n’umugenzuzi wa ESP32.
+Igikoresho gikora neza kizokwerekana ko I2C ishobora gutangura neza be n’uko umurongo w’umucanwa wa ASIC ushizwe kuri 1,2 volts. Inyandiko z'amakuru y'ivyabaye zerekana amakuru yerekeye uko GPIO imeze be n’urukurikirane rwo gutanguza Wi-Fi, hanyuma hakaza ugutunganya seriveri ya DHCP n’ugutanga aderesi IP. Kimwe mu bimenyetso bihambaye cane ni ubutumwa bwo kumenya chip ya ASIC, bukwiye gutanga amakuru "detected one ASIC chip" ku gikoresho gifise chip imwe. Ivyo vyemezo vyemeza ko ibikoresho vya mining bihuye neza kandi bivugana na controller ya ESP32.
 
 
-Ivyo bitabo vyerekana ibikorwa vyinshi bikorana kuri ico gikoresho, harimwo n’uguhanahana amakuru ku rwego rwa API, guhuza ibikorwa nyamukuru, gucunga ibikorwa vya ASIC, no gutunganya ibikorwa vyo ku rwego rwa ASIC. Ivyo bimenyetso bitandukanye vy'ibikorwa bifasha gutandukanya ibibazo ku bice vy'urutonde vyihariye. Ibikorwa bisanzwe birimwo gushinga uruja n’uruza rw’amazi, ubutumwa bwo guhindura ingorane, gushiramwo umurongo w’akazi no gukuraho umurongo, no gutanga raporo y’uruvyaro rwa nonce. Ibikorwa vya mining vyiza vyerekana ibisubizo vya ASIC n’imibare igoye kandi mining itanga ivyemezo iyo imigabane ishitse ku rugero rukenewe.
+Inyandiko z'amakuru y'ivyabaye zerekana ubuzi bwinshi bukorerwa icarimwe kuri ico gikoresho, harimwo n’uguhanahana amakuru ku rwego rwa stratum API, guhuza ubuzi nyamukuru, gucunga ibikorwa vya ASIC, no gutunganya ubuzi bwa stratum. Ubwo buzi butandukanye bufasha gutandukanya ibibazo ku bihimba vya sisiteme vyihariye. Ibikorwa bisanzwe birimwo gushirako inzira y'ikidengeri, ubutumwa bwo guhindura ingorane, gushiramwo umurongo w’akazi no gukuraho umurongo, no gutanga amakuru y’uruvyaro rwa nonce. Ukuroranirwa mu bikorwa vya mining vyerekanwa n'inyishu za ASIC n’ibiharuro vy'ingorane be n'amakuru y'ukwakirwa kwa mining iyo imigabane ishitse ku rugero rukenewe.
 
 
-### Kumenya ibikoresho vyananiwe n'imiterere y'amakosa
+### Kumenya ibikoresho vyananiwe n'imiterere y'ibibazo
 
 
-Ivyuma bikora nabi bigaragara mu nyandiko biciye ku makosa yihariye yerekana ibihimba bikora nabi. Uburyo busanzwe bwo kunanirwa bujanye n’amakosa yo guhanahana amakuru I2C n’imirongo yihariye yunze ubumwe ku rubaho rwa Bitaxe. Nk'akarorero, DS4432U guhanahana ivy'itumanaho bigaragara nk'ubutumwa "ESP_ERROR_CHECK bwananiwe" bufise ibimenyetso vy'igihe c'iherezo, vyerekana ibibazo vy'amategeko y'umuriro canke ingorane z'ugusodera zigira ingaruka ku gice ca U10 gishinzwe guhanahana amakuru.
+Ibikoresho bikora nabi bigaragara mu nyandiko biciye ku miterere y'ibibazosa yihariye yerekana ibihimba bikora nabi. Uburyo busanzwe bwo kunanirwa bujanye n’ibibazo vyo guhanahana amakuru na I2C na ciricuits zihariye zunze ubumwe ku rubaho rwa Bitaxe. Nk'akarorero, kunanirwa kw'itumanako na DS4432U bigaragara nk'ubutumwa "ESP_ERROR_CHECK failed" hamwe n'ibimenyetso vy'igihe gihera, vyerekana ibibazo vyo kugenzura umucanwa canke ingorane z'ugusudira zigira ingaruka ku gihimba ca U10 kijejwe itumanako ryibibonwa.
 
 
-Ubu butumwa bw'ikosa burimwo amakuru y'ido n'ido yo gukosora nk'idosiye y'inkomoko yihariye (main_ds4432u.c), uguhamagara kw'ibikorwa bidakora, n'umurongo w'umurongo w'ibikorwa. Amakuru y'inyuma atanga ibindi bimenyetso vyo gutorera umuti ingorane ziteye imbere. Amakosa nk’ayo arashobora gushika ku gikoresho co kugenzura ubushuhe n’umuyaga ca EMC2101, kimwe cose kikaba kizana imikono idasanzwe ifasha kumenya igice kidakora neza.
+Ubu butumwa bw'ibibazo burimwo amakuru y'ido n'ido yo gukosora nk'idosiye y'isoko yihariye (main_ds4432u.c), uguhamagara kw'ibikorwa bidakora, n'akazi nyamukuru kogufata muminwe ka processor. Amakuru y'inyuma atanga ibindi bimenyetso vyo gutorera umuti ingorane ziteye imbere. Ibibazo nk’ivyo birashobora gushika kuri chip igenzura ubushuhe n’umuyaga ya EMC2101, imwe yose ikaba izana imikono idasanzwe ifasha kumenya igihimba kidakora neza.
 
 
-Ibibazo vy’ibikoresho vy’umubiri akenshi bigaragara nk’ingendo z’amakosa zisubirwamwo zikurikirwa n’ugusubira gufungura sisitemu. Iyo igikoresho cawe gitera urusaku rwumvikana mu gihe gikora, ivyo vyerekana ingorane zo gutera nk’ibiraro hagati y’ibipimo vy’ibihimba canke amasonga adakwiriye. Naho ivyo bibazo vy’ubuhinga bishobora kutaguma ari ivyanditswe vy’inyandiko vyihariye vya generate, bituma habaho ibintu bidashikamye bigaragara nk’ugusenyuka kenshi no gusubira gutangura mu gisohoka co kugenzura.
+Ibibazo vy’ibikoresho akenshi bigaragazwa n’ukwisubiramwo kw’ibibazo bikurikirwa n’ugusubira kwitanguza kwa sisiteme. Iyo igikoresho cawe gitera urusaku rwumvikana mu gihe gikora, ivyo vyerekana ingorane zo gufatana kw'ibihimbaaga canke amasonga adakwiriye. Naho ivyo bibazo vy’ubuhinga bishobora kutaguma bituma habaho inyandiko zihariye, bituma habaho ibintu bidashikamye bigaragara nk’ugupfa kenshi no gusubira kwitanguza mu bigaragara mugukurikirana.
 
 
 ### Ingamba ziteye imbere zo gutorera umuti ingorane
 
 
-Gukurikirana urutonde bitanga inyungu nyinshi ku rubuga rwo gukosora, cane cane ku bihe bimwe bimwe canke ibikoresho bisubira gufungura kenshi. Ivyo bimenyetso bikomeza gufata amakuru bituma ata makuru y’isuzuma atakarira mu gihe sisitemu isubira gutangura, bitandukanye n’imirongo y’urubuga ishobora gutakaza amakuru mu gihe c’ibintu vy’uguhagarika. Ubu bushobozi bwo gukora ibiti bushitse buratuma bishoboka kumenya uburyo bwo kunanirwa no guhuza ibintu vy’amakosa vyihariye n’ibikoresho canke ibidukikije.
+Gukurikirana serial bitanga inyungu nyinshi gusumba gukosora ku rubuga, cane cane ku bihe bimwe bimwe canke ibikoresho bisubira kwitanguza kenshi. Inyanfiko ziguma zandikwa bituma ata makuru y’isuzuma atakarira mu gihe sisiteme isubira gutangura, bitandukanye n’imirongo y’urubuga ishobora gutakaza amakuru mu gihe c’uhagaritse. Ubu bushobozi bwo gukora kwandika amakuru y'ivyabaye bushitse buratuma bishoboka kumenya uburyo bwo kunanirwa no guhuza ibibazo vyihariye n’ibikoresho canke ibidukikije.
 
 
-Igihe usesangura ibikoresho bifise ingorane, nushire umutima ku rutonde rw’ibintu bishikana ku kunanirwa aho kwibanda ku butumwa bw’amakosa buri ukwabwo. Imenyekanisha ryiza rya ASIC rikwiye kwerekana ugutunganya akazi ubudasiba, uguhingura nonce, n’ingendo zo gutanga amakuru. Ivyiyumviro vya ASIC bibuze mu bitabo vyerekana ko hariho ukunanirwa kw’itumanaho hagati ya ESP32 n’igice ca mining, akenshi biterwa n’ibibazo vy’amashanyarazi, ibimenyetso vyononekaye, canke ukunanirwa kw’ibihimba.
+Igihe usesangura ibikoresho bifise ingorane, nushire umutima ku rukurikirane rw’ibintu bishikana kuko kunanirwa aho kwibanda ku butumwa bw’ibibazo buri ukwabwo. Kuroranirwa kw'itumanako rya ASIC bikwiye kwerekana ugutunganya akazi ubudasiba, uguhingura nonce, n’ingendo zo gutanga amakuru. Inyishu ziva kuri ASIC zibuze mu nyandiko z'ivyabaye vyerekana ko hariho ukunanirwa kw’itumanako hagati ya ESP32 n’igihimba ca mining, akenshi biterwa n’ibibazo vy’umuyagankuba, ibimenyetso vyononekaye, canke ukunanirwa kw’ibihimba.
 
 
-Kugira ngo utore umuti w’ingorane mu buryo butunganye, wandike amakosa n’ibice bimwebimwe bitari vyo imbere yo kurondera infashanyo y’abanyagihugu. Ivyo bitabo vy’amakosa vy’ido n’ido, harimwo n’ibimenyetso vy’ibintu vyihariye be n’uburyo bwo kunanirwa, biratuma abakoresha bazi utuntu n’utundi bashobora gutanga ubuyobozi bushingiye ku ntumbero, nk’uburyo bwo gusubirira ibihimba canke gukosora ivyuma. Ubu buryo bwo gukosora ibikoresho butera imbere cane mu gusanura kandi bugabanura igihe co gutorera umuti ingorane zikomeye.
+Kugira ngo utore umuti w’ingorane mu buryo butunganye, wandike imiterere y'ibibazo be n'ukunanirwa kw'ibihimba mbere yo kurondera ubufasha mu banyamuryango. Izo nyandiko z’ido n’ido z’ibibazo, harimwo n’ibimenyetso vya chip vyihariye be n’ibigereranyo vyo kunanirwa, biratuma abakoresha bazi utuntu n’utundi bashobora gutanga ubuyobozi bushingiye ku ntumbero bwo gusanura, nk’uburyo bwo gusubirira ibihimba canke gukosora ivya sudiriwe. Ubu buryo bwo gukosora ibikoresho bwongereza amahirwe yo kuroranirwa mu gusanura kandi bugabanura igihe co gutorera umuti ingorane zikomeye.
 
 
-# Guhindura uko ushaka
+# Guhindura uko ushaka biteye imbere
 
 <partId>8d333102-ecb5-5f05-bfb5-03a27b2d0d70</partId>
 
@@ -840,49 +840,49 @@ Kugira ngo utore umuti w’ingorane mu buryo butunganye, wandike amakosa n’ibi
 
 :::video id=30fb0010-f560-4e96-a05b-c21dc172746e:::
 
-KiCad igereranya kimwe mu bikoresho bikomeye cane vy’inkomoko yuguruye bishobora gukoreshwa mu guhingura no gucapura (PCB). Iyi porogarama y’ubuhinga iratuma abahinga be n’abakunda gukora ivyo bintu bashobora guhingura ibintu bikomeye vy’ubuhinga bwa none mu gushiramwo ibihimba ku bipande vy’ubuhinga bwa none no gutuma ibimenyetso bikomeye bihuza ivyo bihimba hamwe. Igituma KiCad igira agaciro cane cane mu bijanye n’inyigisho n’iterambere ni uko ikoreshwa mu buryo bushitse, igatuma abayikoresha bashobora guhindura, guhindura uko bashaka, no kwigira ku migero iriho ata n’uruhusha rwo gukoresha.
+KiCad igereranya kimwe mu bikoresho bikomeye cane vy’isoko yuguruye biriko vyo guhingura no gushirako inzira (routing) Printed Circuit Board (PCB). Iyi porogarame kinyamwuga iratuma abahinga be n’abakunda gukora ivyo bintu bashobora guhingura ibicapo vya eregitoronike mu gushiramwo ibihimba ku rubaho mpimbano no gushirako inzira zigoye zihuza ivyo bihimba hamwe. Igituma KiCad igira agaciro cane cane mu bijanye n’inyigisho n’uguhingura ni uburyo bwayo kamere bwa open-source, igatuma abayikoresha bashobora guhindura, kugira uko bashatse, no kwigira ku bicapo biriko ata ruhusha basabwa gukoresha.
 
 
-Umugambi wa Bitaxe utanga akarorero k’ububasha bwo gutegura ibikoresho vy’ubuhinga bwa none, utanga umugambi wuzuye wa PCB abakoresha bashobora gusuzuma, guhindura, no guhindura bivanye n’ivyo bakeneye vyihariye. Ukwo gushikira abantu bituma haba ahantu heza cane ho kwigira aho abanyeshure n’abahinga mu vy’ubuhinga bwa none bashobora gutohoza imiterere y’ibikoresho vya PCB vy’ukuri mu gihe bariko barateza imbere ugutahura kwabo ku bijanye n’ubuhinga bwa none. Ubushobozi bwo guhindura ibintu bigaragara nk’ibimenyetso bitanga ahantu heza ho kwinjira ku bakoresha bashobora guterwa ubwoba n’ubuhinga butoroshe bwo guhingura ibintu vy’ubuhinga bwa none.
+Umugambi wa Bitaxe utanga akarorero k’ububasha bwo gutegura ibikoresho vya open-source, utanga igicapo cuzuye ca PCB abakoresha bashobora gusuzuma, guhindura, no guhindura bivanye n’ivyo bakeneye vyihariye. Ukwo gushikirizwa bose bituma haba ahantu heza cane ho kwigira aho abanyeshure n’abahinga murivyo bashobora gutohoza imiterere y’ibikoresho vya PCB vy’ukuri mu gihe bariko bariteza imbere mugutahura kwabo ku bijanye sisiteme za eregitoronike. Ubushobozi bwo guhindura ibintu bigaragara nk’ibimenyetso vya logo bitanga ahantu heza ho kwinjira ku bakoresha bashobora guterwa ubwoba n’ubuhinga butoroshe bwo guhingura ibicapo vya eregitoronike.
 
 
 ### Gutegura ibidukikije vyawe vya KiCad
 
 
-Imbere yo gutangura igikorwa cose co guhindura ibintu, gutegura neza ibidukikije vyawe vy’iterambere ni ngombwa. Ububiko bwa Bitaxe butegerezwa gukurwa ku mashine yawe yo mu karere, mu bisanzwe bushikwako biciye ku mikorere yo gukura ZIP ya GitHub. Ubu bubiko burimwo amadosiye yose akenewe y’umugambi, harimwo amadosiye y’umugambi wa KiCad, amasomero y’ibice, n’inyandiko z’imiterere zikenewe kugira ngo umuntu ashobore guhindura neza.
+Imbere yo gutangura igikorwa cose co guhindura ibintu nkuko ubishaka, gutegura neza ibidukikije vyawe vyo guhingura ni ngombwa. Ububiko bwa Bitaxe butegerezwa kuvomwa ku mashine yawe, mu bisanzwe bushikwako biciye ku buryo bwo kuvoma ZIP ya GitHub. Ubu bubiko burimwo amadosiye yose akenewe y’umugambi, harimwo amadosiye y’umugambi wa KiCad, amasomero (libraries) y’ibihimba, n’inyandiko z’imiterere zikenewe kugira ngo umuntu ashobore guhindura neza.
 
 
-Gushiramwo KiCad bikwiye kurangira hakoreshejwe ugukwiragiza ku mugaragaro ku rubuga rwa KiCad, kugira ngo bihure n’amadosiye y’umugambi no kuronka ibintu bishasha. Igihe ububiko na KiCad vyose bimaze gushirwaho neza, gufungura umugambi bisaba kuja muri dosiye y’umugambi wa Bitaxe Ultra KiCad iri mu miterere y’ububiko bwakuweko. Iyi dosiye y'umugambi ikora nk'inzira nyamukuru ihuza amadosiye yose y'imiterere, amasomero y'ibice, n'imiterere y'imiterere.
+Gushiramwo KiCad bikwiye kurangira hakoreshejwe distribution yemewe iva ku rubuga rwa KiCad, kugira ngo bihure n’amadosiye y’umugambi no kuronka ibintu bishasha. Igihe ububiko na KiCad vyose bimaze gushirwako neza, Kwugurura umugambi bisaba kuja muri dosiye y’umugambi wa Bitaxe Ultra KiCad iri mu miterere y’ububiko bwavommwe. Iyi dosiye y'umugambi ikora nk'inzira nyamukuru ihuza amadosiye yose y'ibicapo, amasomero(libraries) y'ibihimba, n'imiterere y'ibihindurwa.
 
 
-Ivyo umuntu abona mu ntango vy’umubumbe w’ibintu bikomeye cane bita PCB birashobora gusa n’ibirengeye urugero, bifise ibihimba vyinshi, ibimenyetso be n’ibice vyinshi bituma umuntu abona ibintu vyinshi. Ariko rero, ubuhinga bwa KiCad bwo kuraba 3D buratanga igikoresho c’agaciro kanini co gutahura ukuntu ibintu vyifashe be n’imigenderanire iri hagati y’ivyo bikoresho. Ivyo bipimo bitatu bihindura igishushanyo c’ibintu bitaboneka bikagira igishushanyo c’ukuri c’igicuruzwa ca nyuma gikozwe, bigatuma vyoroha gutahura ukuntu ibihimba bishirwa be n’ubwiza bw’igishushanyo muri rusangi.
+Ivyo umuntu abona mu ntango vy’ibicapo vya PCB bigoye cane birashobora gusa n’ibirengeye urugero, bifise ibihimba vyinshi, ibimenyetso be n’ibice vyinshi bituma umuntu abona ibintu vyinshi. Ariko rero, ubuhinga bwa KiCad bwo kuraba 3D buratanga igikoresho c’agaciro kanini co gutahura ukuntu ibintu bimeze be n’imigenderanire iri hagati y’ivyo bicapo. Iyi mbono ya 3D ihindura igicapo c’ibintu bitaboneka bikagira igicapo c’ukuri c’igikoresho giheze, bigatuma vyoroha gutahura ukuntu ibihimba bishirwamwo be n’ubwiza bw’igicapo muri rusangi.
 
 
-### Uburyo bwo guhindura ikimenyetso
+### Uburyo bwo guhindura ikimenyetso ca logo
 
 
-Guhindura ibimenyetso ku migero ya PCB bigereranya kimwe mu bihinduka bishobora gushikwako cane ku bakoresha bashasha muri KiCad, bisaba ubumenyi bukeyi bw’ubuhinga mu gihe bitanga ibisubizo vy’amaso vyihuta. Ivyo bitangurana n’igikoresho co guhindura amashusho, gihindura amadosiye y’amashusho asanzwe mu mice y’ibirenge ihuye n’ubuhinga bwo guhingura PCB. Ivyo bihindura bisaba kwitwararika cane ibipimo vy’ingero, mu bisanzwe bipimwa mu milimetero kugira ngo umuntu ashobore gupima neza ku rubaho rwa nyuma rwakozwe.
+Guhindura ibimenyetso vya logo ku bicapo vya PCB bigereranya kimwe mubint bihinduka bishobora gushikwako cane ku bakoresha bashasha muri KiCad, bisaba ubumenyi bukeyi bw’ubuhinga mu gihe ushika kubintu ubonesha amaso vyihuse. Ivyo bitangurana n’igikoresho co guhindura amashusho, gihindura amadosiye y’amashusho asanzwe muri footprint ihuye na porogarame yo guhingura ibicapo vya PCB. Uko guhindura bisaba kwitwararika cane ibipimo vy’ingero, mu bisanzwe bipimwa muri mirimetero kugira ngo umuntu ashobore kuganisha neza ku rubaho rwa nyuma rwakozwe.
 
 
-Ivyo guhindura ishusho birimwo intambwe nyinshi zihambaye zigena ukuntu ibimenyetso vy’abantu bizoboneka be n’ingene bizoshirwa. Guhitamwo ishusho y’inkomoko bikwiye gushira imbere imigero itandukanye cane izohindura neza uburyo bwo gucapura bukoreshwa mu guhingura PCB. Gusobanura ubunini bica biba ikintu gihambaye cane, kuko ibimenyetso bitegerezwa kuba binini bihagije kugira ngo bigume bisomwa inyuma yo gukorwa mu gihe bitabangamira ugushiramwo ibihimba canke ugukora. Guhitamwo hagati y’imbere n’inyuma y’ibipande vy’ubudodo biragira ico bikoze ku kubona no ku bijanye n’uguhingura.
+Inzira igikoresho co guhindura amashusho gicamwo harimwo intambwe nyinshi zihambaye zigena ukuntu ibimenyetso vya logo bizoboneka be n’ingene bizoshirwako. Guhitamwo ishusho y’isoko bikwiye gushira imbere ibicapo bifise umuco mwinshi bizohindurwa neza mu gikorwa co gusohora kuri silkscreen zikoresha mu guhingura PCB. Gushirako ubunini bica biba ikintu gihambaye cane, kuko ibimenyetso vya logos bitegerezwa kuba binini bihagije kugira ngo bigume bisomwa inyuma yo gukorwa mu gihe bitabangamira ugushiramwo ibihimba canke ugukora. Guhitamwo hagati y’imbere n’inyuma ya silkscreen biragira ico bikoze ku kubona no ku bijanye n’uguhingura.
 
 
-Uburongozi bw’ibitabo vy’ibirenge bugereranya umuce w’ishimikiro wo guhindura KiCad, bisaba abakoresha gutahura ingene porogarama itunganya no gushika ku bintu vy’imiterere. Kwongera ibimenyetso vy’abantu birimwo guhingura amasomero mashasha canke guhindura ayasanzweho, hanyuma ugahuza neza ayo masomero mu mibumbe y’umugambi. Iyi nzira ituma ibintu bimenyerewe biguma bishikira mu bihe bitandukanye vyo guhingura kandi bishobora gusangizwa n’abandi bagize umugwi canke abafatanyabikorwa.
+Gucungera ibusomero rya Footprint bigereranya umuce w’ishimikiro wo guhindura uko ushatse KiCad, bisaba abakoresha gutahura ingene porogarame itunganya no gushika ku bicapo vy’imiterere. Kwongera ibimenyetso vya logos birimwo guhingura amasomero mashasha ya footprint canke guhindura ayasanzweko, hanyuma ugahuza neza ayo masomero mu miterere ya ma dossier y’umugambi. Iyi nzira ituma ibintu vyahinduwe biguma bishobora gushikwako mu bihe bitandukanye vyo guhingura kandi bishobora gusangizwa n’abandi bagize umugwi canke abafatanyabikorwa.
 
 
-### Ugushakashaka no gutahura imigambi iteye imbere
+### Ugutohoza gusumbije ibira imigambi iteye imbere
 
 
-Uretse guhindura ikimenyetso gisanzwe, KiCad itanga ibikoresho bikomeye vyo gutohoza no gutahura imigero igoranye ya PCB. Uburyo bwo gucunga ibice buratuma abakoresha bashobora guhitamwo kuraba imice itandukanye y’umugambi, kuva ku gushiramwo ibihimba no ku nzira gushika ku mirongo y’uguhingura n’amakuru y’iteraniro. Ubwo buryo bushingiye ku bice buratuma umuntu ashobora gusuzuma mu buryo burambuye ibintu vyihariye vy’umubumbe ata n’ibintu bitari vyo biva ku bihimba bitagira isano.
+Uretse guhindura ikimenyetso ca logo bisanzwe, KiCad itanga ibikoresho bikomeye vyo gutohoza no gutahura ibicapo bigoranye vya PCB. Sisiteme yo gucunga ibice buratuma abakoresha bashobora guhitamwo kuraba imice itandukanye y’igicapo, kuva ku gushiramwo ibihimba no ku nzira(routing) gushika ku mirongo y’uguhingura n’amakuru y’iteranirizo. Ubwo buryo bushingiye ku bice buratuma umuntu ashobora gusuzuma mu buryo burambuye ibintu vyihariye vy’igicapo nta bintu vyinshi bituma utabona neza biva ku bihimba bidafitanye isano.
 
 
-Isesengura ry’inzira y’ugukurikirana rigereranya kimwe mu bintu vyigisha cane mu gutohoza PCB, rihishura ingene amasano y’amashanyarazi agenda hagati y’ibihimba n’ibice bitobito. Mu gukurikira ibimenyetso vy’umuntu ku giti ciwe canke imigwi y’ibimenyetso bifitaniye isano, abakoresha barashobora gutera imbere mu gutahura imikorere y’umurongo n’ingingo zo guhingura. Nk’akarorero, gusuzuma imirongo y’ugukwiragiza amashanyarazi birerekana ingene ibihimba bigenzura amashanyarazi be n’ibihimba bicungera amashanyarazi bikorana kugira ngo bihe amashanyarazi asukuye kandi adahinduka ku bihimba vy’ubuhinga bwa elegitoronike bifise ubushobozi bwo gukora.
+Isesengura ry’inzira y’ugukurikirana rigereranya kimwe mu bintu vyigisha cane mu gutohoza PCB, rihishura ingene amasano y’umuyagankuba ugenda hagati y’ibihimba n’ibice bitobito. Mu gukurikira ibimenyetso bimwe bimwe ku giti cavyo canke imigwi ya signal zifitaniye isano, abakoresha barashobora gutera imbere mu gutahura imikorere ya circuit n’ingingo zo guhingura ibicapo. Nk’akarorero, gusuzuma imirongo y’ugukwiragiza umuyagankuba birerekana ingene ibihimba bigenzura umuyagankuba be n’ibihimba bicungera umuyagankuba bikorana kugira ngo bihe umuyagankuba usukuye kandi adahinduka ku bihimba vy’ubuhinga bwa elegitoronike bifise ubushobozi bwo gukora.
 
 
-Isano riri hagati y’uguhingura igishushanyo n’uguhingura ibintu bigaragara biciye mu gusuzuma neza ukuntu ibihimba bishirwa be n’ingingo zifatwa ku bijanye n’inzira. Gutahura igituma ibihimba vyihariye bishirwa ahantu kanaka, ingene ivyerekeye ubushuhe bigira ico bikoze ku ngingo zifatwa ku bijanye n’imiterere, be n’ingene ibisabwa mu bijanye n’ubutungane bw’ikimenyetso bituma umuntu ahitamwo inzira, biratanga ubumenyi bw’agaciro ku migenzo y’ubuhinga yo guhingura PCB. Ubwo bumenyi buragaragaza ko ari ngirakamaro cane ku bakoresha bariko barategura imigero yabo bwite canke bagahindura iyo bariho kugira ngo bakoreshe mu bikorwa vyihariye.
+Isano riri hagati y’uguhingura igicapo n’uguhingura ibintu bigaragara biciye mu gusuzuma neza ukuntu ibihimba bishirwamwo be n’ingingo zifatwa ku bijanye n’inzira. Gutahura igituma ibihimba vyihariye bishirwa ahantu kanaka, ingene ivyerekeye ubushuhe bigira ico bikoze ku ngingo zifatwa ku bijanye n’imiterere, be n’ingene ibisabwa mu bijanye n’ubutungane bwa signal bituma umuntu ahitamwo inzira, biratanga ubumenyi bw’agaciro ku migenzo y’ubuhinga yo guhingura PCB. Ubwo bumenyi buragaragaza ko ari ngirakamaro cane ku bakoresha bariko barategura ibicapo vyabo bwite canke bagahindura ibiriko bikoreshwa mu bikorwa vyihariye.
 
 
-Ibikoresho vya KiCad vyo gusuzuma no kugenzura amategeko y’imiterere y’ibintu vyose bituma ivyo bihinduwe biguma bihuye n’amashanyarazi n’ivyo gukora. Izo nzira zikora zifasha gukingira amakosa asanzwe yo guhingura ibintu mu gihe zigisha abazikoresha ivyerekeye ingingo mfatirwako z’inganda be n’ingene zikora neza. Ugushiramwo ivyerekanwa mu buryo bwa 3D n’amakuru y’imiterere y’amashanyarazi bituma haba ikibanza gikomeye co kwigiramwo aho ivyiyumviro vy’inyigisho bica bigaragara biciye mu guserukira amashusho n’ugutohoza mu buryo bukorana.
+Ibikoresho vya KiCad vyo gusuzuma no kugenzura amategeko y’imiterere y’ibintu vyose bituma ivyo bihinduwe biguma bihuye n’umuyagankuba n’ivyo gukora. Izo sisiteme zikora zifasha gukingira ibibaz bisanzwe vyo guhingura ibicaapo mu gihe zigisha abazikoresha ivyerekeye ingingo mfatirwako z’inganda be n’imigenzo myiza. Ugushiramwo ivyerekanwa mu buryo bwa 3D n’amakuru y’imiterere y’umuyagankuba bituma haba ikibanza gikomeye co kwigiramwo aho ivyiyumviro vy’inyigisho bica bigaragara biciye mu guserukira amashusho n’ugutohoza mu buryo bwogukorana.
 
 
 ## Ni gute wokora dosiye y’uruganda?
@@ -892,61 +892,61 @@ Ibikoresho vya KiCad vyo gusuzuma no kugenzura amategeko y’imiterere y’ibint
 
 :::video id=07f980bf-6052-4ed4-bf7b-75e8aba585df:::
 
-Kubaka porogarama y’ibikoresho vy’ubuhinga bwa none vy’ibikoresho vya mining bishingiye kuri ESP bisaba kwitwararika cane imiterere, ivyo bishingiyeko, n’uburyo bwiza bwo kwubaka. Iyi nzira yuzuye igenda mu nzira yose yo kurema amadosiye y’uruganda arimwo amasetingi yatunganijwe imbere y’igihe, bituma gukoresha bigenda neza kandi bikagabanya igihe co gutegura ku bakoresha.
+Kubaka porogarame ya firmware y’ibikoresho vya mining bishingiye kuri ESP bisaba kwitwararika cane imiterere, ivyo bishingiyeko, n’uburyo bwiza bwo kwubaka. Aya mabwirizwa ngenderwako yuzuye agenda mu nzira yose yo kurema amadosiye asanzwe be nay'uruganda arimwo imiterere yatunganijwe imbere y’igihe, bituma gukoresha bigenda neza kandi bikagabanya igihe co gutegura ku bakoresha.
 
 
-Zirikana ko iki gice ari ic’ubuhinga kandi ko ushobora kugisoma nimba ushaka kumenya vyinshi.
+Zirikana ko iki gice ari ic’ubuhinga kandi ko ushobora kugisoma ucishako nimba ushaka kumenya vyinshi.
 
 
-### Gutegura ibidukikije vy'iterambere
+### Gutegura ibidukikije uhinguriramwo
 
 
-Kugira ngo utangure gutegura porogarama za ESP-Miner, ushobora gushinga ahantu heza ho gutegura muri Visual Studio Code, vyiza cane ku bijanye n’ugukwiragiza kwa linux. Ukwaguka kwa ESP-IDF ni kwo gukora nk’ibuye ry’imfuruka ry’iyi nzira, ritanga ibikoresho bikenewe n’ugushiramwo inzego z’iterambere rya ESP32. Igihe ushizeho ESP-IDF extension ku ncuro ya mbere, abakoresha bahura n’uburongozi bwo gutegura bworosha igikorwa co gutunganya.
+Kugira ngo utangure guhinigura firmware za ESP-Miner, ushobora gushinga ahantu heza ho guhingurira muri Visual Studio Code, vyiza cane ku bijanye na distribution ya linux. Inyongerabushobozi(extension) ya ESP-IDF ikora nk’ibuye ry’imfuruka ry’iyi nteguro, itanga ibikoresho bikenewe n’ugushiramwo umurongo w'ibikorwa(framework) wa ESP32. Igihe ushizeho extension ya ESP-IDF ku ncuro ya mbere, abakoresha bahura n’uburongozi bwo gutegura bworosha igikorwa co gutunganya.
 
 
-Iciyumviro gihambaye mu bijanye no gutegura ni uguhitamwo verisiyo ya ESP-IDF ibereye. Naho verisiyo 5.1.3 yari yarasabwe mbere, ubumenyi ngirakamaro bwagaragaje ko iyo verisiyo ishobora gutuma haba ibibazo vyo kwubaka bigorana mu bijanye n’iterambere. Uburyo bushimikijwe ubu ni ugukoresha ESP-IDF version 5.3 Beta 1, ikaba yerekanye ko itorera umuti izo ngorane zo kwubaka kandi igatuma ibikoresho vya Bitaxe bikora neza. Ivyo gushiramwo bisaba guhitamwo uburyo bwo gushiramwo Express no guhitamwo canecane verisiyo 5.3 Beta 1 mu mahitamwo ariho.
+Ico kwitwararika gihambaye mu bijanye no gutegura ni uguhitamwo verisiyo ya ESP-IDF ibereye. Naho verisiyo 5.1.3 yari yarasabwe mbere, ubumenyi ngirakamaro bwagaragaje ko iyo verisiyo ishobora gutuma haba ibibazo vyo kwubaka bigorana mu bijanye n’uguhingura. Uburyo mubwirizwa gukoresha ubu ni ugukoresha ESP-IDF version 5.3 Beta 1, ikaba yerekanye ko itorera umuti izo ngorane zo kwubaka kandi igatuma ibikoresho vya Bitaxe bikora neza. Ivyo gushiramwo bisaba guhitamwo uburyo bwo gushiramwo Express no guhitamwo canecane verisiyo 5.3 Beta 1 mu mahitamwo ariko.
 
 
-Ivyerekeye ibidukikije vy’iterambere birarenga ivy’ugushiraho ESP-IDF kugira ngo bishiremwo ugutunganya neza kw’iherezo. Visual Studio Code itanga uburyo bwinshi bwo gushika ku mikorere ya ESP-IDF, harimwo n’uburyo bwo gufungura umurongo wa ESP-IDF canke gukoresha ikimenyetso c’umurongo wihariye kiri mu nzira. Ivyo bidukikije vy’iherezo vy’umwihariko bituma amabwirizwa yose ya ESP-IDF akora neza kandi bitanga uburyo bwo gushika ku ruhererekane rw’ibikoresho rwose.
+Ivyerekeye ibidukikije vy’uguhinguriramwo birarenga ivy’ugushirako ESP-IDF kugira ngo bishiremwo ugutunganya neza kwa porogarame ya terminal. Visual Studio Code itanga uburyo bwinshi bwo gushika ku mikorere ya ESP-IDF, harimwo n’uburyo bwa command pallet bwo gufungur ESP-IDF canke gukoresha ikimenyetso ca porogarame cihariye kiri kuri interface. Ivyo bidukikije vya terminal vy’umwihariko bituma amabwirizwa yose ya ESP-IDF akora neza kandi bitanga uburyo bwo gushika ku ruhererekane rw’ibikoresho rwose.
 
 
-### Gutunganya amategeko ya ESP-Miner
+### Gutunganya imiterere ya ESP-Miner
 
 
-Dosiye y’imiterere igereranya umutima w’igikorwa co guhindura ESP-Miner, irimwo ibintu vyose vy’ingenzi bisobanura ingene igikoresho kizokorera mu bidukikije bigenewe. Iyi ntunganyo irimwo imiterere y’urubuga, amahuza y’ibidengeri vya mining, n’imirongo yihariye y’ibikoresho bitegerezwa guhuzwa n’ivyo gukoresha.
+Dosiye y’imiterere igereranya umutima w’igikorwa co guhindura ESP-Miner, irimwo ibintu vyose vy’ingenzi bisigura ingene igikoresho kizokorera mu bidukikije bigenewe. Iyi ntunganyo irimwo imiterere y’urubuga, amahuza y’ibidengeri vya mining, n’imirongo yihariye y’ibikoresho bitegerezwa guhuzwa n’ivyo gukoresha.
 
 
-Itunganywa ry’urubuga ni ryo ry’intango ry’igikorwa co gutunganya, risaba gusobanura ivyemezo vya Wi-Fi harimwo SSID n’ijambobanga. Aho gukoresha agaciro k'ibibanza nka "ikigeragezo," imiterere y'ibikorwa ikwiye kubamwo ivyemezo vy'urubuga nyavyo igikoresho kizokoresha mu bidukikije vyaco. Iryo koraniro kandi rishobora kwakira imiterere itandukanye y’ibidengeri vya mining, rishigikira imiterere y’ibidengeri vy’abantu ku giti cabo n’amaderesi ya IP yihariye be n’ibidengeri vya bose nka public-pool.io n’imiterere y’ibidengeri vyavyo bihuye.
+Itunganywa ry’urubuga ni ryo ry’intango ry’igikorwa co gutunganya, risaba gusobanura ivyemezo vya Wi-Fi harimwo SSID n’ijambo ry'ibanga. Aho gukoresha agaciro k'ibibanza nka "ikigeragezo," imiterere y'ibikorwa ikwiye kubamwo ivyemezo vy'urubuga nyavyo igikoresho kizokoresha mu bidukikije vyaco. Iryo koraniro kandi rishobora kwakira imiterere itandukanye y’ibidengeri vya mining, rishigikira imiterere y’ibidengeri vy’abantu ku giti cabo n’ama aderesi ya IP yihariye be n’ibidengeri vya bose nka public-pool.io n’imiterere y’ibidengeri vyavyo bihuye.
 
 
-Mining-ivyihariye vy'imiterere y'imiterere birimwo imiterere y'umukoresha w'umurongo, ivyo bikaba bihuye n'aderesi ya Bitcoin aho ingororano za mining zikwiye kurungikwa. Ibindi bipimo vy’ibikoresho nk’imiterere y’incuro, imiterere y’umuriro, n’ibisobanuro vy’ubwoko bwa ASIC bitegerezwa guhura n’urubuga rw’ibikoresho vy’intumbero. Ububiko bwa GitHub buratanga ingero zatunganijwe mbere ku mice itandukanye y'ibikoresho, nk'imiterere ya BM1368 yagenewe ibikoresho vya Super n'imiterere ya BM1366 ku mice ya Ultra. Ivyerekeye verisiyo y’ibarabara, nk’ugushinga verisiyo y’icuma kuri 401 ku bijanye n’isubiramwo rishasha ry’ibikoresho, bituma bihuye n’ibiranga igikoresho kigenewe.
+Ibice vy'imiterere y'ivyo ku mining birimwo imiterere y'umukoresha ya stratum, ivyo bikaba bihuye n'aderesi ya Bitcoin aho impembo za mining zikwiye kurungikwa. Ibindi bipimo vy’ibikoresho nk’imiterere y’incuro, imiterere y’umucanwa, n’insiguro z’ubwoko bwa ASIC bitegerezwa guhura n’urubuga rw’ibikoresho vy’intumbero. Ububiko bwa GitHub buratanga uturorero dutunganijwe mbere ku mice itandukanye y'ibikoresho, nk'imiterere ya BM1368 yagenewe ibikoresho vya Super n'imiterere ya BM1366 ku mice ya Ultra. Ivyerekeye verisiyo y’urubaho, nk’ugushinga verisiyo y’icambu kuri 401 ku bijanye n’isubiramwo rishasha ry’ibikoresho, bituma bihuye n’ibiranga igikoresho kigenewe.
 
 
-### Kubaka urubuga Interface na porogaramu nyamukuru
+### Kubaka Interface y'urubuga na firmware nyamukuru
 
 
-Umugambi wa ESP-Miner ushiramwo urubuga rworoshe cane rusaba gukoranya ibintu bitandukanye imbere y’uko igikorwa co kwubaka porogarama nyamukuru gishobora gutangura. Iyi nzira y’urubuga, yitwa firmware ya AxeOS, itanga abakoresha uburyo bwo kugenzura no kugenzura ibikoresho vyabo vya mining.
+Umugambi wa ESP-Miner ushiramwo urubuga rudasanzwe cane rusaba gukoranya ibintu bitandukanye imbere y’uko igikorwa co kwubaka porogarame nyamukuru gishobora gutangura. Iyi nzira y’urubuga, yitwa firmware ya AxeOS, itanga ku bakoresha uburyo bwo gucungera no kugenzura ibikoresho vyabo vya mining.
 
 
-Urubuga rwo kwubaka urubuga rutangura no kugenda mu bubiko bwa server ya HTTP mu miterere y'ububiko nyamukuru, cane cane ububiko buto bwa AxeOS. Iki kibanza kirimwo porogaramu y'urubuga ishingiye kuri Node.js isaba gushiramwo ivy'ubufatanye biciye ku itegeko ry'ugushiramwo npm. Uburyo bwo kwubaka bufata ko Node.js ishizwe neza kuri uburyo bwo gutegura, kuko ivyo bigereranya igisabwa nyamukuru ku bijanye n’ugukoranya urubuga.
+Igikorwa co kuwubaka urubuga gitangurana no kugenda mu bubiko bwa seriveri ya HTTP mu miterere y'ububiko nyamukuru, cane cane ububiko buto bwa AxeOS. Iki kibanza kirimwo Porogarame y'urubuga ishingiye kuri Node.js isaba gushiramwo ivy'ubufatanye biciye ku ibwirizwa ry'ugushiramwo npm. Uburyo bwo kwubaka bufata ko Node.js ishizwemwo neza kuri sisiteme yo guhingura, kuko ivyo bigereranya igisabwa nyamukuru ku bijanye n’ugukoranya urubuga.
 
 
-Inyuma y’ugushiraho ivy’ukwisunga, itegeko rya npm run build rikoranya ibice vy’urubuga, rikagira amadosiye akenewe azoshirwa muri porogarama ya ESP32. Iyi nzira yo gukoranya itanga ibikoresho vyiza vy’urubuga bitanga ubushobozi bwo gukoresha mu gihe bigumya ikoreshwa ryiza ry’ubwenge ku rubuga rwa ESP32 rufise uburenganzira. Kurangiza neza iyi ntambwe yo kwubaka ni ngombwa imbere y’uko umuntu aja ku gukoranya porogarama nyamukuru, kuko porogarama nyamukuru ya ESP-Miner ishiramwo ivyo bihimba vy’urubuga nk’ibikorwa vy’ingenzi.
+Inyuma y’ugushiraho ivy’ukwisunga, ibwirizwa rya npm run build rikoranya ibice vy’urubuga, rikagira amadosiye akenewe azoshirwa muri porogarame ya ESP32. Iyi nzira yo gukoranya itanga ibikoresho vyiza vy’urubuga bitanga ubushobozi bwo gukoresha mu gihe bigumya ikoreshwa ryiza ry’ububiko bwa memory ku rubuga rwa ESP32 rufise uburenganzira. Kurangiza neza iyi ntambwe yo kwubaka ni ngombwa imbere y’uko umuntu aja ku gukoranya porogarame nyamukuru, kuko porogarame nyamukuru ya ESP-Miner ishiramwo ivyo bihimba vy’urubuga nk’ibikorwa vy’ingenzi.
 
 
-### Gukora amadosiye y'uruganda n'imiterere yinjijwe
+### Gukora amadosiye y'uruganda n'imiterere yinjijwemwo
 
 
-Guhingura amadosiye y’uruganda bigereranya ubuhinga bwo gukoresha buteye imbere bushiramwo imiterere y’imiterere mu buryo butaziguye muri firmware binary, bikaba bikuraho ivy’imiterere y’amaboko mu gihe co gutegura ibikoresho. Ubu buryo buragaragaza ko ari ngirakamaro cane cane ku bikorwa vyinshi canke mu bihe aho ugutunganya ibintu bimwe bimwe ku bikoresho vyinshi ari ngombwa.
+Guhingura amadosiye y’uruganda bigereranya ubuhinga bwo gukoresha buteye imbere bushiramwo ibijanye n'imiterere mu buryo bwaako kanya muri firmware binary, bikaba bikurako ivyo guhindura namaboko mu gihe co gutegura igikoresho. Ubu buryo buragaragaza ko ari ngirakamaro cane cane ku bikorwa vyinshi canke mu bihe aho ugutunganya ibintu bimwe bimwe ku bikoresho vyinshi ari ngombwa.
 
 
-Ivyo guhingura dosiye y’uruganda bitangura n’uguhingura ibice bibiri vy’imiterere bivuye muri dosiye y’imiterere ya CSV hakoreshejwe igikoresho co guhingura imigabane ya NVS ca ESP-IDF. Ico gikoresho, kiri mu bubiko bw’ibice vya ESP-IDF munsi ya nvs-flash/nvs-partition-generator, gihindura imiterere ishobora gusomwa n’umuntu mu buryo bubiri bubereye ububiko bw’umuco w’umuco. Inyandiko ya nvs-partition-gen.py ikora dosiye ya config.csv maze itanga dosiye ya config.binary igenewe umwanya w’aderesi y’ububiko 0x6000.
+Ivyo guhingura dosiye y’uruganda bitangurana n’uguhingura ibice bibiri vy’imiterere bivuye muri dosiye y’imiterere ya CSV hakoreshejwe igikoresho co gukora imice ya NVS ca ESP-IDF. Ico gikoresho, kiri mu bubiko bw’ibice vya ESP-IDF munsi ya nvs-flash/nvs-partition-generator, gihindura imiterere ishobora gusomwa n’umuntu mu buryo bw' ibiharuro biri bubereye ububiko bwa flash memory. Inyandiko ya nvs-partition-gen.py ikora dosiye ya config.csv maze itanga dosiye ya config.binary igenewe umwanya w’aderesi y’ububiko 0x6000.
 
 
-Ikoraniro rya nyuma ry’amadosiye y’uruganda rikoresha inyandiko zidasanzwe zifatanya amadosiye y’ingenzi n’amakuru y’imiterere. Ububiko buratanga uburyo bwinshi bwo gufatanya, harimwo inyandiko yo gufatanya isanzwe ku madosiye y'uruganda y'ishimikiro n'inyandiko yo gufatanya irimwo imiterere ku madosiye y'uruganda yuzuye. Inyandiko ya merge-bin-with-config.sh irema amadosiye y'uruganda arimwo ibikorwa vya porogaramu n'imiterere yateguwe mbere, bikavamwo umuzigo wuzuye wo gukoresha. Ubu buryo burashoboza kurema amadosiye y’uruganda yihariye ku bikoresho, nk’amaverisiyo agenewe ibikoresho vya Bitaxe Ultra bifise amasubiramwo yihariye y’urubaho, mu gihe bigumye bifise ubushobozi bwo guhindura amadosiye y’uruganda rwa generate ata n’imiterere ishizwemwo ku bintu bisaba guhinduranya amadosiye y’uruganda n’amaboko.
+Ikoraniro rya nyuma ry’amadosiye y’uruganda rikoresha inyandiko zidasanzwe zifatanya amadosiye y’ingenzi n’amakuru y’imiterere. Ububiko buratanga uburyo bwinshi bwo gufatanya, harimwo inyandiko yo gufatanya isanzwe ku madosiye y'uruganda y'ishimikiro n'inyandiko yo gufatanya irimwo imiterere ku madosiye y'uruganda yuzuye. Inyandiko ya merge-bin-with-config.sh irema amadosiye y'uruganda arimwo ibikorwa vya Porogarame n'imiterere yateguwe mbere, bikavamwo umuzigo wuzuye wo gukoresha. Ubu buryo burashoboza kurema amadosiye y’uruganda yihariye ku bikoresho, nk’amaverisiyo agenewe ibikoresho vya Bitaxe Ultra bifise gusubirwamwo kenshi vyihariye vy’urubaho, mu gihe bigumye bifise ubushobozi bwo guhindura amadosiye y’uruganda ya remwe ata n’imiterere ishizwemwo ku bintu bisaba guhinduranya amadosiye y’uruganda ari wewe uvyigiriye n'amaboko.
 
 
-Amadosiye y’uruganda yuzuye atanga imigwi y’abakoresha ibikoresho bibiri biteguye gukoreshwa birimwo ibihimba vyose bikenewe vya porogarama n’imiterere y’imiterere, bituma uburyo bwo gutanga ibikoresho bugenda neza kandi bikaba bituma ibikoresho bikora neza mu bikoresho vyose vya mining.
+Amadosiye y’uruganda yuzuye atanga ku migwi y’abakoresha ibikoresho bibiri biteguriwe gukoreshwa birimwo ibihimba vyose vya firmware bikenewe be nivy’imiterere, bituma uburyo bwo gutanga ibikoresho bugenda neza kandi bikaba bituma ibikoresho bikora neza mu bikoresho vyose vya mining.
 
 
 ## Ni gute wokoresha urubuga rwa Bitaxe?
@@ -956,52 +956,52 @@ Amadosiye y’uruganda yuzuye atanga imigwi y’abakoresha ibikoresho bibiri bit
 
 :::video id=291757b9-f459-48f6-8766-56387f907859:::
 
-Bitaxe Web Installer igereranya uburyo bubereye bwo gucunga porogarama y’ibikoresho vya Bitaxe, itanga abakoresha uburyo bwinshi bwo gushiramwo biciye ku rubuga rushingiye ku rubuga. Ico gikoresho gikomeye kirakuraho ubugoyagoye busanzwe bujanye n’uguhindura porogarama n’ugushiramwo ibintu bishasha, bikaba bituma abakoresha bashobora gucunga neza ibikoresho ata kuraba ubuhinga bwabo bwo mu vy’ubuhinga. Gutahura neza ingene iyo nkuru ikoreshwa ni ikintu gihambaye cane kugira ngo ibikoresho bikomeze gukora neza kandi umuntu yirinde imitego isanzwe ishobora gutuma ibikoresho bidakora neza mu gihe gito.
+Bitaxe Web Installer igereranya uburyo bubereye bwo gucunga porogarame ya firmware y’ibikoresho vya Bitaxe, itanga ku bakoresha uburyo bwinshi bwo gushiramwo biciye kuri interface ishingiye kurubuga. Ico gikoresho gikomeye kirakuraho ubugoyagoye busanzwe bujanye n’uguhindura porogarame ya firmware n’ugushiramwo ibintu bishasha, bikaba bituma abakoresha bashobora gucunga neza ibikoresho ata kuraba ubunararibonye bwabo muvy’ubuhinga. Gutahura neza ingene iyo installer ikoreshwa ni ikintu gihambaye cane kugira ngo ibikoresho bikomeze gukora neza kandi umuntu yirinde imitego isanzwe ishobora gutuma ibikoresho bidakora neza mu gihe gito.
 
 
-### Kuronka no guhuza n'umucukumbuzi bisabwa
+### Kuronka n'ibisabwa mu guhuza na mucukumbuzi
 
 
-Igikoresho co gushiramwo urubuga rwa Bitaxe gishobora gushikwako biciye ku rubuga rwa URL rwihariye [https://bitaxeorg.github.io/bitaxe-web-flasher/](ico kigaragazwa muri videwo mu bikorwa vyose vyacitse intege). Ariko rero, kugira ngo iki gikoresho gishingiye ku rubuga gikore neza, bisaba ko umucukumbuzi akora neza, kuko uwugishiramwo yizigira ubuhinga bwihariye bwo ku rubuga butashigikirwa n’umucukumbuzi wose. Chrome ihagaze nk’umucukumbuzi w’intango ushimikiye ku mucukumbuzi, itanga ubufatanye bushitse n’ibiranga vyose n’imikorere. Naho izindi nzira zikoreshwa na Chromium zishobora gutanga ibikorwa nk’ivyo, izindi nzira zizwi cane nka Brave na Firefox ntizigira ubufasha bukenewe bw’urubuga rwa API, bikaba bituma zidahuye n’ibikorwa nyamukuru vy’uwuzishiramwo.
+Bitaxe Web Installer ishobora gushikwako biciye kuri URL rwihariye [https://bitaxeorg.github.io/bitaxe-web-flasher/](https://bitaxeorg.github.io/bitaxe-web-flasher/) (iyo igaragazwa mu mashusho ubu ntigikoreshwa). Ubu, igakora nk'ihuriro ry'ibikorwa vyose vyo guhsiramwo firmware. Ariko rero kuroranirwa kwigikorwa gishingiye ku rubuga, bisaba ko mucukumbuzi ikora neza, kuko uwugishiramwo yizigira ubuhinga bwihariye bwo ku rubuga butashigikirwa na mucukumbuzi. Chrome ihagaze nka mucukumbuzi y’intango ishimikiye ku mucukumbuzi, itanga ubufatanye bushitse n’ibiranga vyose n’imikorere. Naho izindi nzira zikoreshwa na Chromium zishobora gutanga ibikorwa nk’ivyo, izindi nzira zizwi cane nka Brave na Firefox ntizigira ubufasha bukenewe bw’urubuga rwa API, bikaba bituma zidahuye n’ibikorwa nyamukuru vy’uwuzishiramwo.
 
 
-Ivyo biva ku kwizigira kw’uwushiramwo ubuhinga bwo guhanahana amakuru n’ibikoresho vya Bitaxe biciye ku rubuga. Urubuga rwa API, rushobora gutuma umuntu ashobora guhanahana amakuru, ruracari urugero rushasha rw’urubuga rutarashika ku kwemerwa n’abacukumbuzi bose. Abakoresha bagerageza gushika ku mucukumbuzi udashigikiwe bazohura n’ibibazo vyo gukorana n’ibikoresho vyabo be n’ukudashobora kuvugana n’ibikoresho vyabo, bikaba bisaba ko bahindukira bakaja ku mucukumbuzi ahuye imbere y’uko babandanya ibikorwa vyose vyo gushiramwo.
+Ivyo biva ku kwizigira Itumanako rya serial kwa installer ubuhinga bwo guhanahana amakuru n’ibikoresho vya Bitaxe biciye ku rubuga. Urubuga rwa Serial API, rushobora gutuma umuntu ashobora guhanahana amakuru, ruracari urugero rushasha rw’urubuga rutarashika ku kwemerwa n’abacukumbuzi bose. Abakoresha bagerageza gushika kuri installer biciye ku mucukumbuzi udashigikiwe bazohura n’ibibazo vyo gukorana n’ibikoresho vyabo be n’ukudashobora kuvugana n’ibikoresho vyabo, bikaba bisaba ko bahindukira bakaja ku mucukumbuzi ihuye imbere y’uko babandanya ibikorwa vyose vyo gushiramwo.
 
 
-### Ibisabwa n'ugutegura ibikoresho
+### Ibisabwa vy'umucanwa n'ugutegura ibikoresho
 
 
-Ivyuma vya Bitaxe vyerekana ibisabwa bitandukanye vy’ububasha bivanye n’umuderi wavyo n’uburyo bwavyo, bikaba bituma gucunga neza ububasha biba ngombwa kugira ngo umuntu ashobore gushiramwo neza porogarama. Ivyo bikoresho bikoresha verisiyo 204 canke iri munsi yavyo birashobora gukora gusa biciye ku nguvu za USB, bikakura amashanyarazi ahagije kuri orodinateri ihuriweko kugira ngo bikomeze gukora mu gihe c’uguca ibibatsi. Ukwo gutunganya amashanyarazi kworoshe gutuma izo verisiyo za kera zibereye canecane ku bijanye no guhindura porogarama, kuko abazikoresha bakeneye gusa gufatanya umugozi umwe wa USB kugira ngo batangure gukora.
+Ibikoresho vya Bitaxe vyerekana ibisabwa bitandukanye vy’ububasha bivanye n’ibigereranyo vyavyo n’uburyo bwavyo, bikaba bituma gucunga neza ububasha biba ngombwa kugira ngo umuntu ashobore gushiramwo neza porogarame. Ivyo bikoresho bikoresha verisiyo 204 canke iri munsi yavyo birashobora gukora gusa biciye ku nguvu za USB, bigakurura umuyagankuba uhagije kuri orodinateri ihuriweko kugira ngo bikomeze gukora mu gihe ca flashing. Ukwo gutunganya umuyagankuba kworoshe gutuma izo verisiyo za kera zibereye canecane ku bijanye no guhindura porogarame, kuko abazikoresha bakeneye gusa gufatanya umugozi umwe wa USB kugira ngo batangure gukora.
 
 
-Ariko rero, ibikoresho bikoresha verisiyo 205 n’iyirengeye bisaba amasoko y’inguvu yo hanze uretse n’uguhuza USB, ivyo bikaba vyerekana amahinduka mu gukoresha ingufu no mu guhingura imirongo mu bishasha vy’ugusubiramwo ibikoresho. Ivyo bikoresho ntibishobora gukura amashanyarazi ahagije biciye kuri USB gusa, bikaba bisaba ko bifatanya n’amashanyarazi yavyo asanzwe mu gihe co gushiramwo porogarama. Kudatanga ubushobozi buhagije kuri ivyo bikoresho bishasha bizovamwo ukunanirwa kw’ugushiramwo n’ugushobora kwonona uburyo bwo guhindura porogarama.
+Ariko rero, ibikoresho bikoresha verisiyo 205 n’iyirengeye bisaba amasoko y’inguvu yo hanze uretse n’uguhuza USB, ivyo bikaba vyerekana ivyahinduwe mu gukoresha inguvu no mu guhingura ibicapo vya circuit mu bishasha vy’ugusubiramwo ibikoresho. Ivyo bikoresho ntibishobora gukurura umuyagankuba uhagije biciye kuri USB gusa, bikaba bisaba ko bifatanya n’umuyagankuba wavyo usanzwe mu gihe co gushiramwo porogarame ya firmware. Kudatanga ubushobozi buhagije kuri ivyo bikoresho bishasha bizovamwo ukunanirwa kw’ugushiramwo n’ugushobora kwonona igikorwa co gushira kigihe firmware.
 
 
-Uburyo bwo guhuza ibintu mu buryo bw’umubiri busaba umwanya wihariye be n’ugukoresha ubuto kugira ngo habeho uguhanahana amakuru neza hagati y’uwushiramwo n’ico gikoresho. Abakoresha bategerezwa gukanda no gufata buto ya boot iri ku gikoresho cabo ca Bitaxe imbere y’uko bafatanya umugozi wa USB-C na mudasobwa yabo. Uwo murongo ushiramwo igikoresho mu buryo bwo gufungura, bikaba bituma uwugishiramwo ashobora kuvugana ata guca ku ruhande n’ububiko bwa porogarama y’ico gikoresho. Gufatanya umugozi wa USB imbere yo gukoresha buto yo gufungura bizotuma igikoresho gikora neza aho gukoresha uburyo bwo gufungura busabwa kugira ngo umuntu ashiremwo porogarama y’imbere, ivyo bikaba bizotuma uwuyishiramwo adashobora gushinga umurongo w’itumanaho ukenewe.
+Uburyo bwo guhuza ibintu bugaragara busaba umwanya wihariye be n’ugukoresha ibuto kugira ngo habeho uguhanahana amakuru neza hagati ya installer n’ico gikoresho. Abakoresha bategerezwa gukanda no gufata buto ya boot iri ku gikoresho cabo ca Bitaxe imbere y’uko bafatanya umugozi wa USB-C n'inyabwonko yabo. Ururukurikirane rushira igikoresho mu buryo bwa bootloader, bikaba bituma installer ishobora kuvugana ata guca ku ruhande n’ububiko bwa porogarame ya firmware y’ico gikoresho. Gufatanya umugozi wa USB imbere yo gukoresha buto yo gufungura bizotuma igikoresho gikora neza aho gukoresha uburyo bwo gufungura busabwa kugira ngo umuntu ashiremwo porogarame y’imbere, ivyo bikaba bizotuma installer idashobora gushinga umurongo w’itumanako ukenewe.
 
 
-### Amahitamwo yo gushiramwo n'ibikorwa vyavyo
+### Amahitamwo yo gushiramwo n'aho akoreshwa
 
 
-Bitaxe Web Installer itanga uburyo bune butandukanye bwo gushiramwo, buri bumwe bugenewe ibikorwa vyihariye n’imiterere y’ibikoresho. Verisiyo ya Bitaxe Superboard 4.0.1 igereranya porogaramu y’ubuhinga bwa none cane ku bikoresho vy’ubuhinga bwa none, verisiyo 4.0.2 ikaba itegekanijwe gusohoka muri kazoza. Iyi nzira irimwo ivy’uruganda n’ivy’ivugurura, itanga uburyo bwo guhindura uburyo bwo gushiramwo bishingiye ku bikenewe n’ukoresha n’ingene igikoresho kimeze.
+Bitaxe Web Installer itanga uburyo bune butandukanye bwo gushiramwo, buri bumwe bugenewe ibikorwa vyihariye n’imiterere y’ibikoresho. Verisiyo 4.0.1 ya Bitaxe Superboard igereranya Porogarame ya firmware igezweko ku bikoresho vya super model, verisiyo 4.0.2 ikaba itegekanijwe gusohoka muri kazoza. Iyi nzira irimwo ivy’uruganda n’ivy’ivugushira kugihe, itanga uburyo bwo guhindura uburyo bwo gushiramwo bishingiye ku bikenewe n’ukoresha n’ingene igikoresho kimeze.
 
 
-Ivyo bikoresho bishirwa mu ruganda bigereranya ugusubirira porogarama yuzuye yerekana uburyo bwo gukora, harimwo n’uburyo bwo kwisuzuma bushitse bugenzura uko ibikoresho bikora muri sisitemu zose. Iyo abakoresha bahisemwo gushiramwo ibintu mu ruganda, uwubishiramwo arafuta vyose amakuru ya kera n’ay’imiterere y’ibintu vyariho, akabisubiriza n’ibindi bishasha kandi bisukuye bisa n’ivyo vyokoreshwa mu gihe co kubikora. Ivyo birimwo ukwigerageza kw’ivyuma vyemeza ko ibikoresho bikora neza, bisaba ko abakoresha basubira gufungura ibikoresho vyabo iyo bimaze gutangura imbere y’uko ibikorwa bisanzwe bishobora gusubira gutangura. Ivyo bikoresho bishirwa mu ruganda birafise akamaro canecane igihe ibikoresho bifise ingorane zidahera canke igihe ababikoresha bipfuza gusubiza ibikoresho vyabo nk’uko vyari vyifashe mu ruganda.
+Gushiramwo vy'uruganda bigereranya ugusubirira porogarame ya firmare vyuzuye vyerekana uburyo bwo gukora, harimwo n’uburyo bwo kwisuzuma bushitse bugenzura uko ibikoresho bikora muri sisiteme zose. Iyo abakoresha bahisemwo gushiramwo vy'uruganda , uwubishiramwo arafuta vyose amakuru ya kera n’ay’imiterere y’ibintu vyariho, akabisubiriza n’ibindi bishasha kandi bisukuye bisa n’ivyo vyokoreshwa mu gihe co guhingura. Ivyo birimwo ukwigerageza kw’ibikoresho vyemeza ko ibikoresho bikora neza, bisaba ko abakoresha basubira kwugurura ibikoresho vyabo iyo bimaze gutangura imbere y’uko ibikorwa bisanzwe bishobora gusubira gutangura. uko gushiramwo vy'uruganda birafise akamaro canecane igihe ibikoresho bifise ingorane zidahera canke igihe ababikoresha bipfuza gusubiza ibikoresho vyabo nk’uko vyari vyifashe mu ruganda.
 
 
-Ivyuma bivugururwa bitanga uburyo bwo kubungabunga, bikazigama amakuru y’imiterere asanzweho mu gihe bivugurura gusa ibice nyamukuru vya porogarama. Iryo hitamwo ryerekana ko ari ryiza ku bakoresha bahinduye imiterere y’ibikoresho vyabo kandi bipfuza kuguma bafise imiterere yabo bwite mu gihe bungukira ku guhindura porogarama n’ugukosora ibibazo. Ivyo guhindura bishingiye gusa ku bihimba vya porogarama bisaba guhindurwa, bikasiga amasetingi yihariye y’ukoresha, ivyemezo vya WiFi, n’amaderesi ya Bitcoin ataco bihinduye mu gihe cose co gushiramwo.
+Gushiramwo ibivugururwa bitanga uburyo bwo kubungabunga, bikazigama amakuru y’imiterere asanzweho mu gihe hashirwa kugihe gusa ibihimba nyamukuru vya porogarame ya firmware. Iryo hitamwo ryerekana ko ari ryiza ku bakoresha bahinduye imiterere y’ibikoresho vyabo kandi bipfuza kuguma bafise imiterere yabo bwite mu gihe bungukira ku guhindura porogarame n’ugukosora ibibazo. Ivyo guhindura bishingiye gusa ku bihimba vya porogarame bisaba guhindurwa, bigasiga imiterere yihariye y’ukoresha, ivyemezo vya WiFi, n’amaderesi ya Bitcoin ataco bihinduye mu gihe cose co gushiramwo.
 
 
-### Ivyiyumviro bihambaye vyo gushiramwo no kurinda amakuru
+### Ivyo kwitwararika bihambaye vyo gushiramwo no gukingira amakuru
 
 
-Itandukaniro hagati y’uruganda n’ugushiraho ibintu bishasha rifise ingaruka zikomeye ku bijanye n’ugutunganya ibikoresho no kuzigama amakuru y’abakoresha. Ivyuma bishirwa mu ruganda birakuraho ibikoresho vyose, bikakuraho ibintu vyose vyatunganijwe n’ukoresha harimwo n’ivyemezo vya WiFi, amaderesi ya Bitcoin, n’ibindi vyose vyerekeye ibikoresho vy’umuntu ku giti ciwe. Inyuma y’aho bashizeho uruganda, abakoresha bategerezwa gusubira kwifatanya n’urubuga rwa WiFi rwa kera rw’ico gikoresho maze bagasubira gutunganya ibintu vyose vy’umuntu ku giti ciwe kuva mu ntango, mu vy’ukuri bagafata ico gikoresho nk’aho coba ari gishasha kivuye ku wagikoze.
+Itandukaniro hagati y’ugushiramwo vy'uruganda n’ugushiramwo ibivugururwa rifise ingaruka zikomeye ku bijanye n’ugutunganya ibikoresho no kuzigama amakuru y’abakoresha. Ugushiramwo vy'uruganda birakurako ibikoresho vyose, bikakurako ibintu vyose vyatunganijwe n’ukoresha harimwo n’ivyemezo vya WiFi, amaderesi ya Bitcoin, n’ibindi vyose vyerekeye ibikoresho vy’umuntu ku giti ciwe. Inyuma y’aho bashizemwo vy'uruganda, abakoresha bategerezwa gusubira kwifatanya n’urubuga rwa WiFi rwa kera rw’ico gikoresho maze bagasubira gutunganya ibintu vyose vy’umuntu ku giti ciwe kuva mu ntango, mu vy’ukuri bagafata ico gikoresho nk’aho coba ari gishasha kivuye ku wagikoze.
 
 
-Ivyo gushiramwo ibintu bishasha bisaba kwitwararika cane uburyo bwo gukuraho igikoresho kigaragazwa mu gihe co gushiramwo ibintu bishasha. Ico gikoresho kizosaba abakoresha ikibazo kiti "Woba ushaka gukuraho igikoresho imbere yo gushiramwo Bitaxe Flasher?" biherekejwe n’imburi y’uko amakuru yose ari kuri ico gikoresho azozimangana. Abakoresha bakora ivy'ugushiramwo ibintu bishasha bategerezwa kwanka iyo nzira mu gufyonda "Ibikurikira" aho kwemeza igikorwa co gukuraho. Kwemera uburyo bwo gukuraho mu gihe co gushiramwo ivyagezwe bizokuraho dosiye y’imiterere y’igikoresho, bishobora gutuma igikoresho kidakora gushika imiterere ibereye isubiyeho. Naho ivyo bintu bidashobora kwonona igikoresho ubudasiba, biratuma haba ingorane zidakenewe kandi bisaba ko umuntu afata izindi ntambwe zo kugitunganya kugira ngo kigaruke gukora neza.
+Ivyo gushiramwo ibivugururwaa bisaba kwitwararika cane uburyo bwo gukurako igikoresho kigaragazwa mu gihe co gushiramwo ibintu bishasha. Ico gikoresho kizosaba abakoresha ikibazo kiti "Do you want to erase the device before installing Bitaxe Flasher?" biherekejwe n’imburi y’uko amakuru yose ari kuri ico gikoresho azozimangana. Abakoresha bakora ivy'ugushiramwo ibintu bishasha bategerezwa kwanka iyo nzira mu gufyonda "Next" aho kwemeza igikorwa co gukurako. Kwemera uburyo bwo gukurako mu gihe co gushiramwo ibivugurugwa bizokuraho dosiye y’imiterere y’igikoresho, bishobora gutuma igikoresho kidakora gushika imiterere ibereye isubiyeho. Naho ivyo bintu bidashobora kwonona igikoresho ubudasiba, biratuma haba ingorane zidakenewe kandi bisaba ko umuntu afata izindi ntambwe zo kugitunganya kugira ngo kigaruke gukora neza.
 
 
-Ivyo gushiramwo ubwavyo biragenda ubwavyo iyo abakoresha bamaze guhitamwo no kwemeza ivyo bahisemwo. Uwushiramwo ni we akora imice yose y’ubuhinga yo gutanga no kugenzura porogarama, agatanga ibimenyetso vy’iterambere n’ivyo guhindura uko ibintu vyifashe mu gihe cose. Ubu buryo bwikora burakuraho ivy’uko abakoresha batahura uburyo butoroshe bwo gushiramwo porogarama y’ubuhinga bwa none mu gihe bashobora gutanga ibisubizo vyizigirwa kandi bihuye ku bikoresho bitandukanye n’imirongo ya porogarama y’ubuhinga bwa none.
+Ivyo gushiramwo ubwavyo birijana ubwavyo iyo abakoresha bamaze guhitamwo no kwemeza ivyo bahisemwo. Installer niyo ishiramwo imice yose y’ubuhinga yo gutanga firmware no kuyigenzura, igatanga ibimenyetso vy’iterambere n’ivyo guhindura uko ibintu vyifashe mu gihe cose. Ubu buryo bwikora burakurako ivy’uko abakoresha batahura uburyo butoroshe bwo gushiramwo porogarame ya firmware mu gihe bashobora gutanga umusaruro wizigiwe kandi bihuye ku bikoresho bitandukanye n’imirongo ya porogarame ya firmware.
 
 
 ## Ni gute tworema no gutegeka PCB?

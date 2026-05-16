@@ -2491,7 +2491,7 @@ Umbrel itanga ibikorwa vyinshi vyo kugufasha gutuma node yawe ya Lightning ikora
 
 https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-Ushobora rero gucungera urudodo rwawe ukoresheje Interface nyamukuru, canke, kugira ngo ubone ibikorwa vyinshi n'amahitamwo ateye imbere, ushiremwo *Ride The Lightning* canke *ThunderHub*. Ivyo bikoresho bizokuronsa uburyo bwo gucunga Interface bushingiye ku rubuga bushingiye ku rubuga rwawe.
+Ushobora rero gucungera urudodo rwawe ukoresheje Interface nyamukuru, canke, kugira ngo ubone ibikorwa vyinshi hamwe n’uburyo bwo guhitamwo buteye imbere, ushiremwo *Ride The Lightning* canke *ThunderHub*. Ivyo bikoresho bizokuronsa uburyo bwo gucunga Interface bushingiye ku rubuga bushingiye ku rubuga rwawe.
 
 
 
@@ -2551,7 +2551,7 @@ Mu majambo nyayo, Tailscale iraguha ivyiza vyinshi iyo ukoresheje Umutaka wawe:
 
 
 
-- Nta nkenerwa yo gutunganya amategeko ya NAT, gufungura ivyuho(port), canke gushinga umukozi wa VPN asanzwe. Iyo porogarama imaze gushirwa kuri Umbrel no ku bikoresho vyawe, urubuga ruca rutangura.
+- Nta nkenerwa yo gutunganya amategeko ya NAT, gukugurura irembo(port), canke gushinga umukozi wa VPN asanzwe. Iyo porogarama imaze gushirwa kuri Umbrel no ku bikoresho vyawe, urubuga ruca rutangura.
 
 
 
@@ -2569,7 +2569,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 
 
 
-Nostr, ni ijambo ry'inyongera risobanura "*Ivyanditswe n'ibindi bintu birungikwa n'ibikoresho*", ni uburyo bufunguye, bushizwe ahantu hamwe, bugenewe gutuma ubutumwa bushobora gusohorwa no guhanahana kuri Internet  budashingiye ku rubuga rumwe. Buri mukoresha afise impfunguzo zibiri z’ibanga: urufunguzo rwa bose (`npub`), rukora nk’ikimenyetso, n’urupfunguzo rw’ibanga (`nsec`), rukoreshwa mu gusinya ubutumwa no kwemeza ko ari ubw’ukuri.
+Nostr, ni ijambo ry'inyongera risobanura "*Ivyanditswe n'ibindi bintu birungikwa n'ibikoresho*", ni uburyo bwuguruye, bushizwe ahantu hamwe, bugenewe gutuma ubutumwa bushobora gusohorwa no guhanahana kuri Internet  budashingiye ku rubuga rumwe. Buri mukoresha afise impfunguzo zibiri z’ibanga: urufunguzo rwa bose (`npub`), rukora nk’ikimenyetso, n’urupfunguzo rw’ibanga (`nsec`), rukoreshwa mu gusinya ubutumwa no kwemeza ko ari ubw’ukuri.
 
 
 
@@ -2589,7 +2589,7 @@ Abaguzi ba Nostr ***noStrudel*** canke ***Snort*** na bo nyene baraboneka ku Mut
 
 
 
-Mu mpera, hari porogarama yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ubwishyu bwa Lightning muri Nostr. Mu buryo bweruye, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo wohereze ubwishyu buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibikubiyeho cyangwa kugirana imikoranire ishingiye ku mafaranga, udaciye muri serivisi z’abandi. Aya mafaranga ava muri node yawe bwite anyura mu mikoranire yawe.
+Mu mpera, hari porogarama yitwa ***Nostr Wallet Connect*** kuri Umbrel, igufasha gukora ukwishurana kwa Lightning muri Nostr. Mu buryo bworoshe, ushobora guhuza node yawe ya Lightning n’abakiriya ba Nostr kugira ngo urungike amahera muburyo buto buto buzwi nka "*zaps*" mu rwego rwo guhemba ibirimwo canke gukora ibikorwa vyishyurwa bishingiye ku mafaranga, udaciye muri serivisi z’abandi. Ayo mafaranga ava muri node yawe bwite kandi aca mu nzira zawe zo kwishurirwamwo.
 
 
 
@@ -2603,11 +2603,11 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-BTCPay Server ni ubuhinga bwo kwishura ku buntu, bufunguye, bushobora kugufasha kwemera kwishura biciye kuri Bitcoin na Lightning Network ata bahuza, mu gihe uguma wizigamira amahera.
+BTCPay Server ni ubuhinga bwo kwishura ku buntu, bwuguruye, bushobora kugufasha kwemera kwishura biciye kuri Bitcoin na Lightning Network ata bahuza, mu gihe uguma wiziganiriza amahera.
 
 
 
-Ubwubatsi bwa BTCPay Server bushingiye ku nzira ya Bitcoin kandi, ku bijanye n’umuravyo, ku gushirwa mu ngiro guhuye (LND, Core Lightning...), bikaba biyigira imwe mu nzira zonyene zidashobora gucungera PoS. Ni yo kandi porogaramu yuzuye cane yo gukurikirana no kubara.
+Inyubako ya BTCPay Server ishingiye ku nzira ya Bitcoin kandi, ku bijanye n’umuravyo, ku gushirwa mu ngiro guhuye (LND, Core Lightning...), bikaba biyigira imwe mu nzira zonyene zidashobora gucungera PoS. Ni yo kandi porogarama yuzuye cane yo gukurikirana no guharura.
 
 
 
@@ -2615,7 +2615,7 @@ Ubwubatsi bwa BTCPay Server bushingiye ku nzira ya Bitcoin kandi, ku bijanye n�
 
 
 
-Niba ufise ubucuruzi kandi wipfuza kwemera amahera ya Bitcoin biciye ku nzira yawe ya Umbrel, porogarama ya BTCPay Server ni nziza kuri wewe. Kugira ngo umenye vyinshi kuri iyo nkuru, ndagusavye urabe ibi bikurikira:
+Nimba ufise ubucuruzi kandi wipfuza kwemera amahera ya Bitcoin biciye ku nzira yawe ya Umbrel, porogarama ya BTCPay Server ni nziza kuri wewe. Kugira ngo umenye vyinshi kuri iyo nkuru, ndagusavye urabe ibi bikurikira:
 
 
 
@@ -2658,7 +2658,7 @@ https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-82
 
 
 
-Kugira ngo ntangire iki gice ca nyuma, kandi imbere yo kuja ku vyiyumviro biteye imbere, noshima gusuzuma ingendo nziza n’ibikorwa nyavyo ushobora gukora igihe urudodo rwawe rwa Umbrel rwashizweho, rwahujwe, kandi rwatunganijwe neza muri iki kigabane kigufi. None muvyibungabunga gute ku musi ku musi?
+Kugira ngo ntangure iki gice ca nyuma, kandi imbere yo kuja ku vyiyumviro biteye imbere, noshima gusuzuma ingendo nziza n’ibikorwa nyavyo ushobora gukora igihe urudodo rwawe rwa Umbrel rwashizweho, rwahujwe, kandi rwatunganijwe neza muri iki kigabane kigufi. None mubibungabunga gute ku musi ku musi?
 
 
 

@@ -2670,11 +2670,11 @@ Igikoresho co kwizigirwa gitangurana n’ibikoresho bikomeye. Raba neza ko imash
 
 
 
-Ku Raspberry Pi na mini-PCs, Dust amaherezo irazibira ibikoresho vy’ubushuhe, igatuma ubushuhe buzamuka kandi bikajana ku guhagarara (uguhagarika ikoreshwa ry’ibikoresho ku bushake), ivyo na vyo bikaba bituma ubushobozi bw’uruzitiro rwawe bugabanuka. Ni co gituma ndabagira inama yo gusukura aho umuyaga winjira n’aho umuyaga winjira, vyiza ni uko wosukura inyuma y’amezi makeyi.
+Ku Raspberry Pi na mini-PCs, Dust amaherezo irazibira ibikoresho vy’ubushuhe, igatuma ubushuhe buduga kandi bikajana ku guhagarara (uguhagarika ikoreshwa ry’ibikoresho ku bushake), ivyo na vyo bikaba bituma ubushobozi bw’uruzitiro rwawe bugabanuka. Ni co gituma ndabagira inama yo gusukura aho umuyaga winjira n’aho umuyaga winjira, vyiza ni uko wosukura inyuma y’amezi makeyi.
 
 
 
-Raba neza ko ukoresha umuriro w’agaciro kanini Supply, kuko umuriro udashikamye ushobora gutuma ubuhinga bwononekara mbere n’ugutera umuriro. Ivyiza ni uko wokoresha ububasha bw’intango Supply butangwa n’uwakoze imashini yawe. Iyubare kandi ku gushuha cane bitewe n’ingaruka za Joule ku mirongo y’umuyagankuba: wama wubaha umuyagankuba menshi cane yemerewe kandi ntukigere ufatanya imirongo y’umuyagankuba myinshi mu nzira y’amazi.
+Raba neza ko ukoresha umuriro w’agaciro kanini Supply, kuko umuriro udashikamye ushobora gutuma ubuhinga bwononekara mbere n’ugutera umuriro. Ivyiza ni uko wokoresha ububasha bw’intango Supply butangwa n’uwakoze imashini yawe. Iyubare kandi ku gushuha cane bitewe n’ingaruka za Joule ku mirongo y’umuyagankuba: wama wubaha umuyagankuba mwishi cane wemerewe kandi ntukigere ufatanya imirongo y’umuyagankuba myinshi mu nzira y’amazi.
 
 
 
@@ -2696,7 +2696,7 @@ Ivyo guhindura node birahambaye kubera imvo zitatu nyamukuru: iya mbere, umuteka
 
 
 
-- Kugira ngo uhindure sisitemu: Fungurira urutonde rw'imiterere, hanyuma ukande kuri buto "*Suzuma ko hariho ivugurura*" iri iruhande y'umurongo wa "*UmbrelOS*".
+- Kugira ngo uhindure sisitemu: ugururira urutonde rw'ivyagezwe(Settings), hanyuma ufyonde kuri buto "*Suzuma ko hariho ihindura*" iri iruhande y'umurongo wa "*UmbrelOS*".
 
 
 
@@ -2706,7 +2706,7 @@ Ivyo guhindura node birahambaye kubera imvo zitatu nyamukuru: iya mbere, umuteka
 
 
 
-- Kugira ngo uhindure porogarama: Genda kuri App Store. Nimba hariho porogarama yawe isaba guhindurwa, ubuto bufise igipfukisho gitukura buzoboneka mu mfuruka yo hejuru iburyo bwa Interface. Gusa n’uwufyondako, hanyuma ugahindura porogarama yose.
+- Kugira ngo uhindure porogarama: Genda kuri App Store. Nimba hariho porogarama yawe isaba guhindurwa, ibuto(bouton) ifise igipfukisho gitukura bizoboneka mu mfuruka yo hejuru iburyo bwa Interface. Fyonda hejuru gusa , hanyuma ugahindura porogarama yose.
 
 
 
@@ -2718,11 +2718,11 @@ Ivyo bikorwa ubikore ubudasiba kugira ngo ukomeze gukoresha ubuhinga bwawe n’i
 
 
 
-Niba ukoresha gusa urudodo rwawe rwa Bitcoin kugira ngo wemeze kandi ushire ahabona amafaranga yawe, ariko amasakoshi yawe arongowe hanze ya Umbrel (nk'akarorero, ufise Hardware Wallet na Sparrow wallet), ntaco wosubiza inyuma kuri Umbrel. Muri iki gihe, ububiko bw’ingenzi buguma ari ubw’ijambo ry’ugusubirana na Descriptor ya Wallet yawe yo hanze, kandi ivyo birakora waba ukoresha node yawe bwite canke utayikoresha. Ntaco rero gihinduka ku bijanye n’ivyo mwari mwateguye mbere.
+Nimba ukoresha gusa urudodo rwawe rwa Bitcoin kugira ngo wemeze kandi ushire ahabona amafaranga yawe, ariko amasakoshi yawe arongowe hanze ya Umbrel (nk'akarorero, ufise Hardware Wallet na Sparrow wallet), ntaco wosubiza inyuma kuri Umbrel. Muri iki gihe, ububiko bw’akamaro buguma ari ubw’ijambo ry’ugusubirana na Descriptor ya Wallet yawe yo hanze, kandi ivyo birakora waba ukoresha node yawe bwite canke utayikoresha. Ntagihinduka ku bijanye n’ivyo mwari mwateguye mbere.
 
 
 
-Ku rundi ruhande, bivanye n’ibindi bikoresho ukoresha kuri Umbrel, vyoshobora gusaba ko ukora ibindi bikoresho vyo gusubiza inyuma. Ivyo ni ko biri cane cane iyo ukoresheje urudodo rw’umuravyo kuri Umbrel. Muri ivyo, ni ngombwa cane ko ukora backup ya seed yatanzwe igihe washiraho node yawe ya Lightning. Uretse seed, ukeneye ***Static Channel Backup (SCB)*** igezweho kugira ngo ushobore kugarura node yawe y’umuravyo iyo habaye ingorane. SCB iraguha uburenganzira bwo kugarura amahera yawe mu gufunga ku nguvu imihora. Iyo seed canke SCB zibuze, ntibishoboka ko umuntu asubizaho urudodo rwa Lightning.
+Ku rundi ruhande, bivanye n’ibindi bikoresho ukoresha kuri Umbrel, vyoshobora gusaba ko ukora ibindi bikoresho vyo gusubiza inyuma. Ivyo ni ko biri cane cane iyo ukoresheje urudodo rw’umuravyo kuri Umbrel. Muri ivyo, ni ngombwa cane ko ukora backup ya seed yatanzwe igihe washiraho node yawe ya Lightning. Uretse seed, ukeneye ***Static Channel Backup (SCB)*** igezweho kugira ngo ushobore kugarura node yawe y’umuravyo iyo habaye ingorane. SCB iraguha uburenganzira bwo kugarura amahera yawe mu gupfunga ku nguvu imihora. Iyo seed canke SCB zibuze, ntibishoboka ko umuntu asubizaho urudodo rwa Lightning.
 
 
 
@@ -2730,7 +2730,7 @@ Umbrel kandi itanga uburyo bwo gukora backup y’iyi SCB ku ma server yabo, bici
 
 
 
-Ivyo bintu tuzobisubiramwo mu buryo burambuye mu nyigisho ikurikira ya LNP202.
+Ivyo bintu tuzobisubiramwo mu buryo buramvuye mu nyigisho ikurikira ya LNP202.
 
 
 
@@ -2738,7 +2738,7 @@ Ivyo bintu tuzobisubiramwo mu buryo burambuye mu nyigisho ikurikira ya LNP202.
 
 
 
-Ku bijanye n’umutekano, koresha ijambobanga rirerire, ridasanzwe, kandi ry’imburakimazi rya Interface Umbrel, kandi wibuke gukoresha uburyo bwo kwemeza ko umuntu ari uwundi (2FA). Ku bikoresho bitanga ijambobanga n’uburinzi bwa 2FA, wama ubikoresha vyose kandi ugahindura amajambobanga y’imbere.
+Ku bijanye n’umutekano, koresha ijambo banga(password) rirerire, ridasanzwe, kandi ry’imburakimazi rya Interface Umbrel, kandi wibuke gukoresha uburyo bwo kwemeza ko umuntu ari uwundi (2FA). Ku bikoresho bitanga ijambo banga(password) n’uburinzi bwa 2FA, wama ubikoresha vyose kandi ugahindura amajambo banga y’imbere.
 
 
 
@@ -2756,7 +2756,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-Mu gihe habaye ikibazo kuri Umbrel yawe, banza generate umugwi w’ibipimo biciye ku gice co gutorera umuti ingorane ca UmbrelOS canke porogarama ireba, hanyuma wongere utangure porogarama. Niba ari ngombwa, gerageza kandi gusubira gufungura sisitemu yose.
+Mu gihe habaye ikibazo kuri Umbrel yawe, banza generate umugwi w’ibipimo biciye ku gice co gutorera umuti ingorane ca UmbrelOS canke porogarama ireba, hanyuma wongere utangure porogarama. Nimba ari ngombwa, gerageza kandi gusubira kugurura sisitemu yose.
 
 
 

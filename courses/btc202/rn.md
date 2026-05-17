@@ -2760,7 +2760,7 @@ Mu gihe habaye ikibazo kuri Umbrel yawe, banza generate umugwi w’ibipimo biciy
 
 
 
-Nimba ingorane igumaho, ndagusavye [winjire mu muryango w’abakoresha Umbrel kuri Discord yabo](https://discord.gg/efNtFzqtdx). Tangana n’ugukora ubushakashatsi kugira ngo umenye nimba hari uwumaze guhura n’ingorane nk’iyo maze akaronka umuti. Niba atarivyo, ushobora gushiramwo ubutumwa mu muhora `gushigikira rusangi`. Ushobora kandi gukoresha [ihuriro ry'umutaka](https://umuryango.umutaka.com/).
+Nimba ingorane igumaho, ndagusavye [winjire mu muryango w’abakoresha Umbrel kuri Discord yabo](https://discord.gg/efNtFzqtdx). Tangura gukora ubushakashatsi kugira ngo umenye nimba hari uwumaze guhura n’ingorane nk’iyo maze akaronka umuti. Nimba atarivyo, ushobora gushiramwo ubutumwa mu muhora `gushigikira rusangi`. Ushobora kandi gukoresha [ihuriro ry'umutaka](https://umuryango.umutaka.com/).
 
 
 
@@ -2780,11 +2780,11 @@ Ukoresheje izo ngeso zoroheje, urudodo rwawe rwa Umbrel ruzoguma ruhagaze neza, 
 
 
 
-Igikoresho cawe ca Bitcoin gitangura ata bumenyi ufise ku bijanye n’amateka y’ibikorwa. Mu ntango, ni porogarama gusa ikoresha nyabwonko (Bitcoin core canke isa n’iyo). Kugira ngo ibe urudodo rwa Bitcoin rukora neza kandi rukora, rutegerezwa gusubira kwubaka mu karere uko Ledger imeze mu kugenzura amabuye yose yasohowe kuva ku gice ca Genesis (igice ca 0, casohowe na Satoshi Nakamoto ku wa 3 Mukakaro 2009). Iyi ntambwe yitwa **IBD (_Igice ca mbere co gukuraho_)**.
+Igikoresho cawe ca Bitcoin gitangura ata bumenyi ufise ku bijanye n’amateka y’ibikorwa. Mu ntango, ni porogarama gusa ikoresha nyabwonko (Bitcoin core canke isa n’iyo). Kugira ngo ibe urudodo rwa Bitcoin rukora neza kandi rukora, rutegerezwa gusubira kwubaka mu karere uko Ledger imeze mu kugenzura amabuye yose yasohowe kuva ku [gice ca Genesis]((https://planb.academy/resources/glossary/genesis-block)) (igice ca 0, casohowe na Satoshi Nakamoto ku wa 3 Mukakaro 2009). Iyi ntambwe yitwa **IBD (_Igice ca mbere co gukuraho_)**.
 
 
 
-IBD igizwe no gukura no kugenzura igice cose n’ibikorwa vyose ku giti cabo, hakoreshejwe amategeko y’uguhurizako, kugira ngo yubake verisiyo yayo bwite ya Blockchain. Intumbero si iyo kuronka kopi y’amakuru atagenzuwe gusa, ahubwo ni iyo gushika ku ciyumviro kimwe ataco yigenga, nk’uko benshi mu b’inzirabugunge bo muri iyo nzira babigira.
+IBD igizwe no gukura no kugenzura igice cose n’ibikorwa vyose ku giti cabo, hakoreshejwe amategeko y’uguhurizako, kugira ngo yubake verisiyo yayo bwite ya Blockchain. Intumbero si iyo kuronka kopi y’amakuru atagenzuwe gusa, ahubwo ni iyo gushika ku ciyumviro kimwe kandi yigenga, nk’uko benshi mu b’inyankamugayo bo muri iyo nzira babigira.
 
 
 

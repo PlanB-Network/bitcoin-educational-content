@@ -1551,34 +1551,34 @@ Naho tutazokwinjira mu ndondoro zose z’ivyiyumviro bitandukanye vy’umutekano
 **Ivyiyumviro:**
 
 
-[1] Nk’uko Seutonius abivuga, igiharuro c’urufunguzo (shift cipher) gifise agaciro k’urufunguzo kadahinduka ka 3, ni co cakoreshwa na Julius Caesar mu guhanahana amakuru yiwe y’igisirikare. Rero A yokwama ari D, B yama ari E, C yama ari F, n’ibindi. Iyi verisiyo yihariye y’ibara ry’ihinduka, rero, ryamenyekanye kw’izina rya **Caesar Cipher** (naho mu vy’ukuri atari ibara mu busobanuro bwa none bw’iryo jambo, kuko agaciro k’urufunguzo kagumaho). Igitabu ca Kayisari gishobora kuba cari gifise umutekano mu kinjana ca mbere imbere ya Kristu, nimba abansi b’Uburoma batamenyereye cane gukingira. Ariko biragaragara ko atari umugambi utekanye cane mu bihe vya none.
+[1] Nk’uko Suétone abivuga, igitigiri c’urufunguzo (shift cipher) gifise agaciro k’urufunguzo kadahinduka ka 3, ni co cakoreshwa na Julius Caesar mu guhanahana amakuru mugisirikare ciwe. Gutyo rero A yama icika D, B yama icika E, C yama icika F, n’ibindi n'ibindi. Iyi verisiyo yihariye y’igitiri c’ihinduka, rero, ryamenyekanye kw’izina rya **Caesar Cipher** (naho mu vy’ukuri atari igitigiri mu busobanuro bwa none bw’iryo jambo, kuko agaciro k’urufunguzo kaguma ari kakandi). Igitigiri(chiffre) ca cesar gishobora kuba cari gifise umutekano mu kinjana ca mbere imbere ya Kristu, nimba abansi b’Uburoma batari bamenyereye ubwoko bwokunyegeza amakuru. Ariko biragaragarako ubu atari ubuhinga butekanye.
 
 
 [2] Jonathan Katz na Yehuda Lindell, _Intango y’Ivy’Ikinyamakuru c’Igihugu_, Ikinyamakuru ca CRC (Boca Raton, FL: 2015), urupapuro rwa 10. 7f.
 
 
-[3] Ikete rya Eric Raymond, “Ingoro y’Imana n’Isoko,” ryashikirijwe mw’Ikoraniro ry’Ivya Linux, i Würzburg, mu Budagi (27 Rusama 1997). Hariho insiguro zitari nke zakurikiyeho ziboneka be n’igitabu. Ivyo navuze ni ivyo ku rupapuro rwa 30 rw’igitabu: Eric Raymond, _Ikatederali n’Isoko: Ivyiyumviro ku Linux n’Isoko ry’Igihugu ry’Umunyagihugu w’Impinduka_, vyasubiwemwo edn. (2001), O’Reilly: Igisagara ca Sebastopoli, muri Californie.
+[3] Eric Raymond, “The Cathedral and the Bazaar ,” ryashikirijwe mw’Ikoraniro ry’Ivya Linux, i Würzburg, mu Budagi (27 Rusama 1997). Hariho insiguro zitari nke zakurikiyeho ziboneka be n’igitabu. Ivyo navuze ni ivyo ku rupapuro rwa 30 rw’igitabu: Eric Raymond, _Ikatederali n’Isoko: Ivyiyumviro ku Linux n’Isoko ry’Igihugu ry’Umunyagihugu w’Impinduka_, vyasubiwemwo edn. (2001), O’Reilly: Igisagara ca Sebastopoli, muri Californie.
 
 
 
-## Amajambo y'uruzi
+## Ipfuka ryamakuru hakoreshejwe flot
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
 
-Ivyiyumviro vy'ugushiramwo amakuru bihuye bigabanywamwo ubwoko bubiri: **ibiharuro vy'uruzi** na **ibiharuro vy'amabuye**. Ariko rero, iyo ntandukaniro iratera ingorane, kuko abantu bakoresha ayo majambo mu buryo budahuye. Mu bice bikeyi bikurikira, nzoshiraho itandukaniro mu buryo mbona ko ari bwo bwiza. Ariko rero, urakwiye kumenya ko abantu benshi bazokoresha ayo majambo mu buryo butandukanye n’ubwo nashizeho.
+Ivyiyumviro vy'ugushiramwo amakuru bihuye bigabuyemwo ubwoko bubiri: **ipfuka ry'amakuru hakoreshejwe flot** na **ipfuka ry'amakuru hakoreshejwe bloc**. Ariko rero, iryo tandukaniro riratera ingorane, kuko ayo majambo akoreshwa rimwe na rimwe mu buryo budahuye. Mu bice bikurikira, nzoshiraho itandukaniro mu buryo mbona bubereye. Ariko rero, urakwiye kumenya ko abantu benshi bazokoresha ayo majambo mu buryo butandukanye n’ubwo nashizeho.
 
 
-Reka tubanze duhindukire ku ma ciphers y’uruzi. **stream cipher** ni umugambi wo gushiramwo amakuru ugereranijwe aho gushiramwo amakuru agizwe n'intambwe zibiri.
+Reka dutangurire kw'ipfuka ry'amakuru hakoreshejwe flot. **ipfuka ry'amakuru hakoreshejwe flot** ni umugambi wo gushiramwo amakuru ugereranijwe aho gushiramwo amakuru agizwe n'intambwe zibiri.
 
 
-Ica mbere, urudodo rungana n’uburebure bw’inyandiko yoroshe rusohoka biciye ku rufunguzo rw’ibanga. Uyu murongo witwa **umurongo w'urufunguzo**.
+Ica mbere, uruherekerane ry'amajambo angana n’uburebure bw’inyandiko itomoye rukorwa n'urufunguzo rw’ibanga. Uyu murongo witwa **umurongo w'urufunguzo**.
 
 
-Inyuma y’aho, umurongo w’urufunguzo urafatanywa mu biharuro n’inyandiko yoroshe kugira ngo haboneke inyandiko y’ibanga. Iryo huriro ni igikorwa ca XOR. Ku bijanye no gukuraho amakuru, ushobora guhindura gusa igikorwa. (Ibuka ko $A \oplus B = B \oplus A$, mu gihe $A$ na $B$ ari imirongo y'ibice. Rero urutonde rw'igikorwa ca XOR mu nzira y'uruzi ntaco rumaze ku gisubizo. Uwo muco uzwi nka **uguhinduranya**.)
+Hanyuma , umurongo w’urufunguzo urafatanywa mu biharuro n’inyandiko yoroshe kugira ngo haboneke inyandiko y’ibanga. Iryo huzwa ni igikorwa ca XOR. Ku bijanye nugukuramwo amakuru, bigusaba guhindura igikorwa gusa. (Ibuka ko $A \oplus B = B \oplus A$, mu gihe $A$ na $B$ ari imirongo y'ibice. Rero urutonde rw'igikorwa ca XOR mw'ipfuka ry'amakuru hakoreshejwe flot ntakamaro rufise kugisubizo. Uwo muco uzwi nka **uguhinduranya(commutativité)**.)
 
 
-Igiharuro c'umugezi wa XOR kigaragara mu *Ishusho 3*. Ubanza gufata urufunguzo rw’ibanga $K$ ukarukoresha kugira ngo generate urufunguzo. Urufunguzo rero, rufatanywa n'inyandiko rusangi biciye ku gikorwa ca XOR kugira ngo haboneke inyandiko y'ibanga. Umukozi wese yakira amajambo y’ibanga ashobora kuyafungura bitagoranye iyo afise urufunguzo $K$. Ico akeneye gukora n’uguhingura urufunguzo rw’urufunguzo igihe cose inyandiko y’ibanga hakurikijwe uburyo bwategekanijwe bw’umugambi maze akayi XOR n’inyandiko y’ibanga.
+Ipfuka ry'amakuru hakoreshejwe flot ishingiye kuri XOR igaragara mu *Ishusho 3*. Ubanza gufata urufunguzo rw’ibanga $K$ ukarukoresha kugira ngo uhingure urufunguzo. Urufunguzo rero, rufatanywa n'inyandiko rusangi biciye ku gikorwa ca XOR kugira ngo haboneke inyandiko y'ibanga. Umukozi wese yakira amajambo y’ibanga ashobora kuyafungura bitagoranye iyo afise urufunguzo $K$. Ico akeneye gukora n’uguhingura urufunguzo rw’urufunguzo igihe cose inyandiko y’ibanga hakurikijwe uburyo bwategekanijwe bw’umugambi maze akayi XOR n’inyandiko y’ibanga.
 
 
 
@@ -1588,31 +1588,31 @@ Igiharuro c'umugezi wa XOR kigaragara mu *Ishusho 3*. Ubanza gufata urufunguzo r
 ![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 
-Nimwibuke ko umugambi wo gushiramwo amakuru ari nk'akarorero k'ugushiramwo amakuru n'ubuhinga bumwe, aho kuba ivyerekeye nyavyo. Mu kwagura, uruzi cipher ni nk'akarorero k'ububiko aho ushobora gukoresha imfunguruzo z'uburebure butandukanye. Naho uburebure bw’urufunguzo bushobora kugira ico bukoze ku bintu bimwebimwe bitobito vyo muri uwo mugambi, ntibuzogira ico bukoze ku buryo bwawo bw’ingenzi.
+Nimwibuke ko umugambi wo gupfuka amakuru ari nk'uburyo bwo gupfuka amakuru n'ubuhinga bumwe, aho kuba ivyerekeye nyavyo. Mu kwagura, ipfuka ry'amakuru hakoreshejwe flot ni nk'uburyo bw'ipfuka ry'amakuru aho ushobora gukoresha imfunguruzo z'uburebure butandukanye. Naho uburebure bw’urufunguzo bushobora kugira ico bukoze ku bintu bimwebimwe bitobito vyo muri uwo mugambi, ntibuzogira ico bukoze ku buryo bwawo bw’ingenzi.
 
 
-Igiharuro c’uguhindura ni akarorero k’igiharuro c’uruzi coroshe cane kandi kidatekanye. Ukoresheje urudome rumwe (urufunguzo rw’ibanga), urashobora gutanga uruhererekane rw’inyuguti zingana n’uburebure bw’ubutumwa (urufunguzo). Uwo murongo w'urufunguzo rero, ufatanywa n'inyandiko rusangi biciye ku gikorwa ca modulo kugira ngo haboneke inyandiko y'ibanga. (Iyi nzira ya modulo ishobora kworoshwa ikaba igikorwa ca XOR igihe ugereranya inyuguti mu bice).
+Igitigiri c’uguhindura ni akarorero k’ipfuka ry'amakuru hakoreshejwe flot coroshe cane kandi kidatekanye. Ukoresheje urudome rumwe (urufunguzo rw’ibanga), urashobora gutanga uruhererekane rw’inyuguti zingana n’uburebure bw’ubutumwa (urufunguzo). Uwo murongo w'urufunguzo rero, ufatanywa n'inyandiko rusangi biciye ku gikorwa ca modulo kugira ngo haboneke inyandiko y'ibanga. (Iyi nzira ya modulo ishobora kworoshwa ikaba igikorwa ca XOR igihe ugereranya inyuguti mu bice).
 
 
-Akandi karorero kazwi cane k’uruzitiro rw’umugezi ni **uruzitiro rwa Vigenere**, inyuma ya Blaise de Vigenere yaruteye imbere bimwe bishitse mu mpera z’ikinjana ca 16 (naho abandi bari barakoze ibikorwa vyinshi vy’imbere y’aho). Ni akarorero k'**inyuguti nyinshi zo gusubirira inyuguti**: umugambi wo gupfuka aho inyuguti z'inyuguti z'ikimenyetso c'inyandiko rusangi zihinduka bivanye n'aho ziri mu nyandiko. Mu buryo butandukanye n’inyandiko y’inyandiko y’inyandiko imwe, ibimenyetso vy’inyandiko y’inyandiko bishobora gufatanywa n’ikimenyetso c’inyandiko y’inyandiko yoroshe kirenze kimwe.
+Akandi karorero kazwi cane k’ipfuka ry'amakuru hakoreshejwe flot ni **igitigiri ca *Vigenère*, inyuma ya Blaise de Vigenère yaruteje imbere bimwe bishitse mu mpera z’ikinjana ca 16 (naho abandi bari barakoze ibikorwa vyinshi vy’imbere y’aho). Ni akarorero k'**ipfuka ry'amakuru hakoreshejwe  gusubirira indome nyishi**: umugambi wo gupfuka amakuru aho indome z'inyandiko zipfutse z'ikimenyetso c'inyandiko rusangi zihinduka bivanye n'aho ziri mu nyandiko. Mu buryo butandukanye n'igitigiri c'isubiriza n'indome yonsa, ibimenyetso vy’inyandiko ipfutse bishobora gufatanywa n’ikimenyetso c’inyandiko yoroshe.
 
 
-Uko ubuhinga bwo gushiramwo amakuru bwagenda burakundwa cane mu Buraya bwo mu gihe c'Ivugurura, ni ko n'ugusesangura amakuru—ni ukuvuga gucapura amajambo y'ibanga—cane cane, hakoreshejwe **ugusesangura incuro**. Iryo rya nyuma rikoresha imibare idasanzwe mu rurimi rwacu kugira ngo rimene amajambo y'ibanga, kandi ryavumbuwe n'intiti z'ikinyaarabu zisanzwe ziri mu kinjana ca cenda. Ni ubuhinga bukora neza cane cane ku nyandiko ndende. Kandi mbere n'ibiharuro vy'inyuguti imwe vy'ubuhinga bwa none ntivyari bigihagije ku bijanye n'ugusesangura incuro mu myaka ya 1700 mu Buraya, cane cane mu vy'igisirikare no mu vy'umutekano. Uko igiharuro ca Vigenere catanga iterambere rikomeye mu bijanye n'umutekano
+Uko ubuhinga bwo gupfuka amakuru bwagenda burakundwa cane mu Buraya bwo mu gihe c'Ivugurura(Renaissance), ni ko n'ugupfukura amakuru vyagenda biratera imbere—ni ukuvuga gucapura amajambo y'ibanga—cane cane, hakoreshejwe **ugusesangura incuro**. Iryo rya nyuma rikoresha imibare idasanzwe mu rurimi rwacu kugira ngo rimene amajambo y'ibanga, kandi ryavumbuwe n'intiti z'ikinyaarabu zisanzwe ziri mu kinjana ca cenda. Ni ubuhinga bukora neza cane cane ku nyandiko ndende. Kandi mbere n'ibiharuro vy'inyuguti imwe vy'ubuhinga bwa none ntivyari bigihagije ku bijanye n'ugusesangura incuro mu myaka ya 1700 mu Buraya, cane cane mu vy'igisirikare no mu vy'umutekano. Uko igiharuro ca Vigenere catanga iterambere rikomeye mu bijanye n'umutekano
 
 
 Mu kuvuga mu buryo butamenyerewe, umugambi wo gupfuka amakuru ukora gutya:
 
 
-1. Hitamwo ijambo ry’inyuguti nyinshi nk’urufunguzo rw’ibanga.
+1. Hitamwo ijambo ry’indome nyinshi nk’urufunguzo rw’ibanga.
 
 2. Ku butumwa ubwo ari bwo bwose, shiraho urudome rwo guhindura urudome rwose rw’ubutumwa ukoresheje urudome rujanye n’iryo jambo ry’ingenzi nk’urudome rwo guhindura.
 
 3. Niba waraciye mw’ijambo ry’ingenzi ariko ukaba utaramenya neza igisomwa gisanzwe, wongere ukoreshe inyuguti z’ijambo ry’ingenzi nk’inyuguti zihuye n’izo nyandiko zisigaye.
 
-4. Mubandanye muri iyo nzira gushika ubutumwa bwose bushizwe mu mfuruka.
+4. Mubandanye muri iyo nzira gushika ubutumwa bwose bupfutswe.
 
 
-Nk'akarorero, dufate ko urufunguzo rwawe rw'ibanga ari "GOLD" kandi ushaka gupfuka ubutumwa "CryptoGRAPHY". Iyo bimeze gutyo, wobandanya gutya ukurikije igiharuro ca Vigenère:
+Nk'akarorero, dufate ko urufunguzo rwawe rw'ibanga ari "GOLD" kandi ushaka gupfuka ubutumwa "CRYPTOGRAPHY". Iyo bimeze gutyo, wobandanya gutya ukurikije igiharuro ca Vigenère:
 
 
 

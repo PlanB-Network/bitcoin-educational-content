@@ -3005,7 +3005,7 @@ Kugira ngo ushobore gusubira inyuma mu gihe c'ugusubira gutunganya, Core ibika, 
 
 
 
-Gushaka igice mu madosiye y’ibarabara vyoba ari ugutwara umwanya mwinshi cane. Core rero ibungabunga urutonde rw'amakuru rwa LevelDB muri `blocks/index/` rutanga urutonde, kuri buri bubiko buzwi, amakuru nk'aya Hash, uburebure, ikibanza co kwemeza, dosiye `blk`, n'aho iri. Iyo umugenzi asavye ububiko, canke igihe igice co mu mutima gikeneye gushika ku bubiko bumwe bumwe, uru rutonde rutanga uburyo bwo gushika ku bubiko bumwe bumwe. Iyo hataba iyo index, vyosaba ko umuntu akora ibikorwa vyinshi cane.
+Gushaka igice mu madosiye y’ibuye(bloc) vyoba ari ugutwara umwanya mwinshi cane. Core rero ibungabunga urutonde rw'amakuru rwa [LevelDB](https://planb.academy/resources/glossary/leveldb) muri `blocks/index/` rutanga urutonde, kuri buri bubiko buzwi, amakuru nk'aya Hash, uburebure, ikibanza co kwemeza, dosiye `blk`, n'aho iri. Iyo umugenzi asavye ububiko, canke igihe igice co mu mutima gikeneye gushika ku bubiko bumwe bumwe, uru rutonde rutanga uburyo bwo gushika ku bubiko bumwe bumwe. Iyo hataba iyo index, vyosaba ko umuntu akora ibikorwa vyinshi cane.
 
 
 
@@ -3022,7 +3022,7 @@ Index zimwe zimwe ni ubusabe kandi zizimye ku buryo busanzwe, kuko zongera ikire
 
 
 
-- `indexes/txindex/`, twamaze kuvuga, itanga imbonerahamwe y'ikarita y'ibikorwa → ahantu, bikaba bishoboka ko umuntu ashobora kugarura ibikorwa vyose vyemejwe atazi igice kirimwo. Ivyo ni ngirakamaro ku bibazo vy'ubwoko bwa Wallet `getrawtransaction`, ariko birazimvye cane.
+- `indexes/txindex/`, twamaze kuvuga, itanga imbonerahamwe y'ikarata y'ibikorwa → ahantu, bikaba bishoboka ko umuntu ashobora kugarura ibikorwa vyose vyemejwe atazi igice kirimwo. Ivyo ni ngirakamaro ku bibazo vy'ubwoko bwa Wallet `getrawtransaction`, ariko birazimvye cane.
 - urutonde/akayunguruzo k'amabuye/` gashobora kubamwo amayunguruzo y'amabuye (BIP157/158) ku bakiriya batobato. Ivyo bibanza vyihuta kugenzura ku ruhande rw'umukiriya kubera ububiko bwongerewe ku nzira y'urutonde.
 
 
@@ -3031,7 +3031,7 @@ Index zimwe zimwe ni ubusabe kandi zizimye ku buryo busanzwe, kuko zongera ikire
 
 
 
-Icogereranyo ca UTXO (*Igisubizo c'Ibikorwa Bitakoreshejwe*) ni ikigereranyo c'ivy'ubuhinga bw'ibarabara ca Bitcoin: igisubizo cose kitakoreshejwe ni "Coin" iriho ishobora gukoreshwa nk'inyungu y'ibikorwa vyo muri kazoza.
+Ikigereranyo ca UTXO (*Inyishu y'Ibikorwa Bitakoreshejwe*) ni ikigereranyo c'ivy'ubuhinga bw'ibarabara ca Bitcoin: inyishu yose itakoreshejwe ni "Coin" iriho ishobora gukoreshwa nk'inyungu y'ibikorwa vyo muri kazoza.
 
 
 

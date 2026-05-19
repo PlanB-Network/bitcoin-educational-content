@@ -2804,7 +2804,7 @@ Guhuza bitangura n'intambwe ya _**imitwe-ya mbere**_. Igikoresho cawe gisaba uru
 
 
 
-Nk’ukwibutsa, igice ca Bitcoin gifise umutwe w’amabayiti 80 n’urutonde rw’ibikorwa. Urutoke rw’ibarabara ruronswa mu gukoresha SHA-256 Hash ibiri kuri uwo mutwe, urimwo ivyicaro 6:
+Nk’ukwibutsa, igice ca Bitcoin gifise umutwe w’amabayiti 80 n’urutonde rw’ibikorwa. Urutoke rw’ibuye(bloc) ruronswa mu gukoresha SHA-256 Hash ibiri kuri uwo mutwe, biri mumirwi 6:
 
 
 
@@ -2812,9 +2812,9 @@ Nk’ukwibutsa, igice ca Bitcoin gifise umutwe w’amabayiti 80 n’urutonde rw�
 - version
 - Hash y'ibara ry'imbere
 - Merkle Root y'ibikorwa
-- Timestamp (irengeye igihe c’imbere c’amabarabara 11 yabanje)
+- Timestamp (irengeye igihe c’imbere c’amabuye(blocs) 11 yabanje)
 - ingorane
-- Nonce
+- [Nonce] (https://planb.academy/resources/glossary/nonce).
 
 
 
@@ -2822,7 +2822,7 @@ Nk’ukwibutsa, igice ca Bitcoin gifise umutwe w’amabayiti 80 n’urutonde rw�
 
 
 
-Ibikorwa vy'ubudandaji bishikirizwa Merkle Tree. Iyi ni imiterere ivuga mu ncamake urutonde runini rw'amakuru (muri iki gihe, ibikorwa vyose biri mu gice) mu gukoranya ama hashes yabo buhoro buhoro abiri abiri gushika ku "muzi" umwe, gutyo bigaragaza ko ikintu ari ic'urutonde (kandi kigatahura ihinduka ryose). Muri ubwo buryo, uguhindura kwose kw’isoko na kwo nyene kurahindura umuzi wa Merkle Tree rero urutoke rw’umutwe w’ibarabara. SegWit yashizeho Commitment y’inyongera itandukanye y’ibifungurwa (imikono), ishizwe mu coinbase.
+Ibikorwa vy'ubudandaji bishikirizwa Merkle Tree. Iyi ni inyubako ivuga mu ncamake urutonde runini rw'amakuru (muri iki gihe, ibikorwa vyose biri mu gice) mu gukoranya ama hashes yabo buhoro buhoro abiri abiri gushika ku "muzi" umwe, gutyo bigaragaza ko ikintu ari ic'urutonde (kandi kigatahura ihinduka ryose). Muri ubwo buryo, uguhindura kwose kw’isoko na kwo nyene kurahindura umuzi wa Merkle Tree rero urutoke rw’umutwe w’ibarabara. [SegWit](https://planb.academy/resources/glossary/segwit) yashizeho Commitment y’inyongera itandukanye y’ibifungurwa (imikono), ishizwe muri coinbase.
 
 
 
@@ -2830,15 +2830,15 @@ Ibikorwa vy'ubudandaji bishikirizwa Merkle Tree. Iyi ni imiterere ivuga mu ncama
 
 
 
-Iyi ntambwe _**headers-first**_ ishoboza node kumenya ishami rifise igikorwa kinini (ataco rifatiye ku mubare w'amabuye), ari ryo shami node za Bitcoin zikoranako. Iryo shami rihejeje kumenyekana, iyo node ikura ibirimwo mu bice bihuye bivuye mu mahuriro menshi, hanyuma ikemeza igikorwa cose: uburyo, ukuri kw’inyandiko (kiretse `assumevalid=1`), amafaranga, n’ukutagira amahera akoreshwa incuro zibiri. Igihe cose umuntu asuzuma neza, uko ibiceri bitakoreshejwe bimeze (UTXO set) birahindurwa mu rutonde rw'amakuru rwa `chainstate/`: ibisohoka vyakoreshejwe birakurwaho, mu gihe ibisohoka bishasha vy'ukuri vyongerwako.
+Iyi ntambwe _**headers-first**_ ishoboza node kumenya ishami rifise igikorwa kinini (ata kuraba igiharuro c’amabuye rifise ), ari ryo shami node za Bitcoin zikoranako. Iryo shami rihejeje kumenyekana, iyo node ikura ibirimwo mu bice bihuye bivuye mu mahuriro menshi, hanyuma ikemeza igikorwa cose: uburyo, ukuri kw’inyandiko (kiretse `assumevalid=1`), amafaranga, n’ukutagira amahera akoreshwa incuro zibiri. Igihe cose umuntu asuzuma neza, uko ibiceri bitakoreshejwe bimeze (UTXO set) birahindurwa mu rutonde rw'amakuru rwa `chainstate/`: ibisohoka vyakoreshejwe birakurwaho, mu gihe ibisohoka bishasha vy'ukuri vyongerwako.
 
 
 
-Mempool, ku rundi ruhande, iza mu bikorwa gusa iyo yegereye isonga ry’uruzitiro: igihe cose urudodo ruguma rucerewe, nta bikorwa vy’ubudandaji bitegerejwe vyo kubika.
+Mempool, ku rundi ruhande, iza mu bikorwa gusa iyo yegereye isonga ry’uruzitiro: igihe cose urudodo ruguma rucerewe, nta bikorwa vy’ubudandaji birindiriwe vyo kubika.
 
 
 
-IBD imaze kurangira, iyo node yinjira mu gihe cayo gisanzwe: yemeza amabuye mashasha uko asohoka, ibungabunga Mempool yayo n’ibikorwa bitegerejwe hakurikijwe amategeko yayo y’ugutanga, igatanga ibikorwa n’amabuye, kandi igacungera ugusubira gutunganya uruhererekane kwose.
+IBD imaze kurangira, iyo node yinjira mu buryo bwayo busanzwe bwo gukora: Itangura kwemeza ibarabara rishasha uko risohoka, ibungabunga Mempool yayo n’ibikorwa birindiriwe hakurikijwe amategeko yayo y’ugutanga, igatanga ibikorwa n’ibuye(blocs), kandi igacungera ugusubira gutunganya uruhererekane rwose.
 
 
 
@@ -2850,11 +2850,11 @@ Bitcoin core ishiramwo uburyo bugenewe kugabanya igihe gikenewe imbere y’uko u
 
 
 
-Igiharuro ca `assumevalid` gishingiye ku gice c'ivya kera, Hash caco kikaba kiri muri verisiyo ya porogarama yose. Mu gihe ca IBD, iyo node yawe ibonye ko iyo block iri kw'ishami rifise ibikorwa vyinshi, irashobora kwirengagiza ukugenzura inyandiko ku bikorwa vyose vy'imbere y'iki gihe.
+Igiharuro ca `assumevalid` gishingiye ku gice c'ivya kera, Hash nayo ikikaba iri muri verisiyo ya porogarama yose. Mu gihe ca IBD, iyo node yawe ibonye ko iyo block iri kw'ishami rifise ibikorwa vyinshi, irashobora kwirengagiza ukugenzura inyandiko ku bikorwa vyose vy'imbere y'iki gihe.
 
 
 
-Ayandi mategeko yose (imiterere y’amabuye, Proof of Work, imipaka y’ubunini, amafaranga y’ibikorwa, UTXOs, n’ibindi) aguma agenzurwa neza. Guharura gusa inyandiko imbere y'iki gice c'ishingiro ni vyo vyirengagizwa. Inyungu y’ibikorwa ni nini kuri IBD, kuko ukugenzura umukono ari vyo bifata igice kinini c’umuzigo wa CPU. Inyuma y'iki gice c'ishingiro, igenzura risubira mu buryo busanzwe.
+Ayandi mategeko yose (inyubako y’amabuye(blocs), Proof of Work, imipaka y’ubunini, amafaranga y’ibikorwa, UTXOs, n’ibindi) aguma agenzurwa neza. Guharura gusa inyandiko imbere y'iki gice c'ishingiro ni vyo vyirengagizwa. Inyungu y’ibikorwa ni nini kuri IBD, kuko ukugenzura umukono ari vyo bifata igice kinini c’umuzigo wa CPU. Inyuma y'iki gice c'ishingiro, igenzura risubira mu buryo busanzwe.
 
 
 
@@ -2866,11 +2866,11 @@ Ushobora guhatira kwemeza inyandiko zose mu guhagarika ubu buryo, ku giciro ca I
 
 
 
-`assumeutxo` ni ikindi gipimo kiriho, ariko bitandukanye na `assumevalid`, ntikikoreshwa ku buryo busanzwe. Ubwo buryo buratuma porogarama ishobora gushiramwo ifoto y’umugwi wa UTXO, hamwe n’amakuru yayo, maze ikayifata mu gihe gito nk’igihugu c’ishingiro, inyuma yo kugenzura ko imitwe vy’ukuri ijana kuri Blockchain ifise igikorwa kinini cane.
+`assumeutxo` ni ikindi gipimo kiriho, ariko bitandukanye na `assumevalid`, ntigikoreshwa ku buryo busanzwe. Ubwo buryo buratuma porogarama ishobora gushiramwo ifoto y’umugwi wa UTXO, hamwe n’amakuru yayo, maze ikayifata mu gihe gito nk’igihugu c’ishingiro, inyuma yo kugenzura ko imitwe vy’ukuri ijana kuri Blockchain ifise igikorwa kinini cane.
 
 
 
-Iryo node rero rica ritangura gukora ningoga kugira ngo rikoreshwe mu buryo busanzwe (RPC, amasakoshi yo gufatanya, n’ibindi), mu gihe nyene ritangura gusubira kwubaka ryuzuye kandi ry’ukuri ry’iyi UTXO yaryo bwite yashizwe inyuma. Iyo ntambwe imaze kurangira, igishushanyo ca mbere gisubirizwa n’igihugu casubiwemwo mu karere. Ubu buryo butandukanya ugutanga node vyihuta n’ugusuzuma gushitse, ataco bihinduye ku vya nyuma.
+Iyo node rero ica itangura gukora ningoga kugira ngo ikoreshwe mu buryo busanzwe (RPC, amasakoshi yo gufatanya, n’ibindi), mu gihe nyene ritangura gusubira kwubaka ryuzuye kandi ry’ukuri ry’iyi UTXO yaryo bwite yashizwe inyuma. Iyo ntambwe imaze kurangira, igishushanyo ca mbere gisubirizwa n’igihugu casubiwemwo mu karere. Ubu buryo butandukanya ugutanga node vyihuta n’ugusuzuma gushitse, ataco bihinduye ku vya nyuma.
 
 
 
@@ -2886,28 +2886,27 @@ Iyo node itanguye ku ncuro ya mbere, nta n’umwe iramenya urunganwe rwayo. Arik
 
 
 
-Igihe urudodo rusubira gutangura inyuma yo gukoreshwa, Core ibanza kugerageza gusubira kwifatanya n'abagenzi basohotse banditswe imbere y'uko bafunga, amakuru abitswe muri dosiye `anchors.dat`. Hanyuma, iraba igitabu cayo ca IP Address **`peers.dat`**, kibika urutonde rw’abagenzi bari barahuye na bo mbere, kugira ngo isubire kubafatanya. Iyi ni dosiye yo mu karere gusa, ivuguruwe kandi ibikwa na Core. Ku rundi ruhande, ku node nshasha iherutse gutangura, izo dosiye 2 ziri ubusa, kuko zitarigeze zivugana n’izindi node za Bitcoin.
+Igihe urudodo rusubira gutangura inyuma yo gukoreshwa, Core ibanza kugerageza gusubira kwifatanya n'abagenzi basohotse banditswe imbere y'uko bapfunga, amakuru abitswe muri dosiye `anchors.dat`. Hanyuma, iraba igitabu cayo ca IP Address **`peers.dat`**, kibika urutonde rw’abagenzi bari barahuye na bo mbere, kugira ngo isubire kubafatanya. Iyi ni dosiye yo mu karere gusa, isubiwemwo kandi ibikwa na Core. Ku rundi ruhande, ku node nshasha iherutse gutangura, izo dosiye 2 ziri ubusa, kuko zitigeze zivugana n’izindi node za Bitcoin.
 
 
 
-Muri iki gihe, porogaramu irabaza _**imbuto za DNS**_. Ivyo ni [abakozi bacungiwe n’abahinguzi b’ibidukikije bemewe](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), bagarukana urutonde rw’amaderesi IP y’ibihimba vy’umubiri vyiyumvirwa ko bikora. Izo aderesi zituma iyo node nshasha ishobora gutangura amahuzu yayo ya mbere no gusaba amakuru akenewe kuri IBD. Aha niho hari urutonde rw'imbuto za *DNS* zikora gushika ubu (Myandagaro 2025):
+Muri iki gihe, porogarama irabaza _**[imbuto za DNS](https://planb.academy/resources/glossary/dns-seeds)**_. Ivyo ni [abakozi bacungiwe n’abahinguzi b’ibibidukikije bemewe](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), bagarukana urutonde rw’amaderesi IP y’ibihimba vy’umubiri vyiyumvirwa ko bikora. Izo aderesi zituma iyo node nshasha ishobora gutangura amahuza yayo ya mbere no gusaba amakuru akenewe kuri IBD. Aha niho hari urutonde rw'imbuto za *DNS* zikora gushika ubu (Myandagaro 2025):
 
 
 
-
-- Pieteri Wuille: 'seed.Bitcoin.sipa.be.'
-- Matt Corallo: `imbuto y'ubururu.'
-- Luka Dashjr: `urutonde-rw'ibihimba-559-vyacu.'
-- Yonasi: `seed.Bitcoin.Yonasi.ch.`
-- Petero Todd: `seed.btc.
-- Umuyobozi mukuru: `seed.Bitcoin.umuyobozi.nl.`
-- Sitefano Oeste: 'Imbuto.'
-- Jason Maurice: 'seed.Bitcoin.Ubucuruzi.'
-- Ava Chow: `seed.Mainnet.Imirongo.xyz.`
-
+- Pieter Wuille : `seed.bitcoin.sipa.be.`  
+- Matt Corallo : `dnsseed.bluematt.me.`  
+- Luke Dashjr : `dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us.`  
+- Jonas Schnelli : `seed.bitcoin.jonasschnelli.ch.`  
+- Peter Todd : `seed.btc.petertodd.net.`  
+- Sjors Provoost : `seed.bitcoin.sprovoost.nl.`  
+- Stephan Oeste : `dnsseed.emzy.de.`  
+- Jason Maurice : `seed.bitcoin.wiz.biz.`  
+- Ava Chow : `seed.mainnet.achownodes.xyz.`
 
 
-Mu bihe vyinshi, intambwe ya *DNS seeds* irahagije kugira ngo umuntu ashobore gushinga amasano ya mbere n’izindi node. Iyo, mu buryo budasanzwe, izo serveri zidashobora kwishura mu masegonda 60, iyo node ihindukira ikaja ku bundi buryo: [urutonde rudahinduka rw’amaderesi arenga 1.000] kode kandi igahora ivugururwa. Iyo uburyo bubiri bwa mbere bwo kuronka amaderesi IP butashobotse, uwo muti wa nyuma ushinga uruja n’uruza rw’intango, aho node ishobora gusaba amaderesi mashasha ya IP.
+
+Mu bihe vyinshi, intambwe ya *DNS seeds* irahagije kugira ngo umuntu ashobore gushinga amasano ya mbere n’izindi node. Iyo, mu buryo budasanzwe, izo serveri zidashobora kwishura mu masegonda 60, iyo node ihindukira ikaja ku bundi buryo: [urutonde rudahinduka rw’amaderesi arenga 1.000](https://github.com/bitcoin/bitcoin/blob/master/src/chainparamsseeds.h) _seed nodes_ ishirwa mu macode ya Bitcoin core  kandi igahora ihindurwa. Iyo uburyo bubiri bwa mbere bwo kuronka amaderesi IP butashobotse, uwo muti wa nyuma ushinga uruja n’uruza rw’intango, aho node ishobora gusaba amaderesi mashasha ya IP.
 
 
 
@@ -2915,7 +2914,7 @@ Mu bihe vyinshi, intambwe ya *DNS seeds* irahagije kugira ngo umuntu ashobore gu
 
 
 
-Nk'uburyo bwa nyuma, ushobora gukoresha amaboko Supply IP aderesi biciye muri dosiye `peers.dat` kugira ngo ukoreshe ku nguvu amahuzu yihariye.
+Nk'uburyo bwa nyuma, ushobora gukoresha amaboko Supply IP aderesi biciye muri dosiye `peers.dat` kugira ngo ukoreshe ku nguvu amahuza yisangije.
 
 
 
@@ -2923,12 +2922,12 @@ Igihe amaze gutangura, umuyobozi w’imbere wa Address arahindura amasoko (imiho
 
 
 
-Niba node yawe iriko iratega yompi ku port yuguruye (ku mburabuzi, 8333), yemera amahuzwa yinjira. Ivyo bikomeza ubushobozi bwo kwihangana muri rusangi bw’urubuga mu gutanga ahantu ho guhura n’ibihimba bishasha, ata nyungu n’imwe yihariye bizana kuri IBD yawe bwite. Iyo node yawe ikoresha Tor, ivyiyumviro biguma ari bimwe, ariko aderesi zikoreshwa ni `.onion` services.
+Nimba node yawe iriko iratega yompi ku port yuguruye (ku mburabuzi, 8333), yemera amahuzwa yinjira. Ivyo bikomeza ubushobozi bwo kwihangana muri rusangi bw’urubuga mu gutanga ahantu ho guhura n’ibihimba bishasha, ata nyungu n’imwe yihariye bizana kuri IBD yawe bwite. Iyo node yawe ikoresha Tor, ivyiyumviro biguma ari bimwe, ariko aderesi zikoreshwa ni `.onion` services.
 
 
 
 
-## Imiterere ya node yawe ya Bitcoin
+## Inyubako ya node yawe ya Bitcoin
 
 
 <chapterId>b420bd9d-7e2a-4984-bc70-2b732a94c8ce</chapterId>
@@ -2941,7 +2940,7 @@ Iyo node yawe irangije gukorana neza, ibika amakuru menshi yuzuzanya mu karere, 
 
 
 - **ibibuga** bya blockchain bibitswe kuri disiki,
-- **UTXO set** igumye mu bubiko bw'amakuru y'agaciro k'urufunguzo,
+- **UTXO set** igumye mu bubiko bw'amakuru y'agaciro k'urupfunguzo,
 - kandi **Mempool** ibikwa muri RAM kandi ikagenda irakurikirana.
 
 
@@ -2954,7 +2953,7 @@ Ikindi, amadosiye menshi y’inyongera (abagenzi, ingereranyo z’amahera, uruto
 
 
 
-Ku mburabuzi, Bitcoin core ibika amakuru yayo mu bubiko bwihariye bukora. Munsi ya GNU/Linux, ivyo bikunda kuba muri `~/.Bitcoin/`, munsi ya Windows muri `%APPDATA%\Bitcoin/`, no munsi ya macOS muri `~/Isoko ry'ibitabo/Ifashanyo ry'Ibikorwa/Bitcoin/`. Niba ukoresha umuti ushizwe mu bipapuro (nk'akarorero, mu gukwirakwiza kw'inzira), ubu bubiko bushobora gushirwa ahandi, ariko imiterere yabwo iguma ari imwe. Amadosiye n’amadosiye ahambaye adondora aha hepfo aracari hano.
+Ku mburabuzi, Bitcoin core ibika amakuru yayo mu bubiko bwihariye bukora. Munsi ya GNU/Linux, ivyo bikunda kuba muri `~/.Bitcoin/`, munsi ya Windows muri `%APPDATA%\Bitcoin/`, no munsi ya macOS muri `~/Isoko ry'ibitabo/Ifashanyo ry'Ibikorwa/Bitcoin/`. Niba ukoresha umuti ushizwe mu bipapuro (nk'akarorero, mu gukwirakwiza kw'inzira), ubu bubiko bushobora gushirwa ahandi, ariko inyubako yabwo iguma ari imwe. Amadosiye n’amadosiye ahambaye adondora aha hepfo aracari hano.
 
 
 
@@ -2978,7 +2977,7 @@ Blockchain rero ni igitabu c’amabuye. Full node ibika ayo mabuye nk’amadosiy
 
 
 
-Ivyuma vyakiriwe n'ivyemejwe vyandikwa mu bikoresho bikurikirana vyitwa `blkNNNNN.dat`, bibitswe muri dosiye `blocks/`. Buri dosiye yuzuzwa mu buryo bukurikiranye gushika ishitse ku rugero rwo hejuru rwa 128 MiB, aho Core ifungura dosiye ikurikira. Imbere, buri bubiko burakurikirana mu buryo bw’urubuga, butangurirwa n’ikimenyetso c’ubupfumu n’uburebure. Iryo shirahamwe rituma umuntu ashobora kwandika vyihuta kuri disiki kandi rituma umuntu ashobora gukorana n’abandi.
+Ivyuma vyakiriwe n'ivyemejwe vyandikwa mu bikoresho bikurikirana vyitwa `blkNNNNN.dat`, bibitswe muri dosiye `blocks/`. Buri dosiye yuzuzwa mu buryo bukurikiranye gushika ishitse ku rugero rwo hejuru rwa 128 MiB, aho Core yugurura dosiye ikurikira. Imbere, buri bubiko burakurikirana mu buryo bw’urubuga, butangurirwa n’ikimenyetso c’ubupfumu n’uburebure. Iryo shirahamwe rituma umuntu ashobora kwandika vyihuta kuri disiki kandi rituma umuntu ashobora gukorana n’abandi.
 
 
 
@@ -2994,7 +2993,7 @@ Mu buryo bwa pruned, urudodo rugumya gusa idirisha rya vuba ry'ayo madosiye kugi
 
 
 
-Kugira ngo ushobore gusubira inyuma mu gihe c'ugusubira gutunganya, Core ibika, bihuye na dosiye yose ya `blk`, dosiye ya `revNNNNN.dat` mu `blocks/`. Iyi dosiye irimwo amakuru akenewe kugira ngo umuntu akureho ingaruka z’ibarabara ku rutonde rwa UTXO: ku gisohoka cose gikoreshwa n’ibarabara, ivy’imbere y’ibarabara rya UTXO rihuye birabikwa (umubare, inyandiko, uburebure...). Iyo havuyeho inda, iyo node irashobora gusubira gukora nk’uko yari imbere ataco ikeneye gusubira gupima uruzitiro rwose.
+Kugira ngo ushobore gusubira inyuma mu gihe c'ugusubira gutunganya, Core ibika, bihuye na dosiye yose ya `blk`, dosiye ya `revNNNNN.dat` mu `blocks/`. Iyi dosiye irimwo amakuru akenewe kugira ngo umuntu akureho ingaruka z’ibarabara ku rutonde rwa UTXO: ku gisohoka cose gikoreshwa n’ibarabara, ivy’imbere y’ibarabara rya UTXO rihuye birabikwa (igiharuro, inyandiko, uburebure...). Iyo hari ibarabara rihebwe, iyo node irashobora gusubira gukora nk’uko yari imbere ataco ikeneye gusubira gupima uruzitiro rwose.
 
 
 

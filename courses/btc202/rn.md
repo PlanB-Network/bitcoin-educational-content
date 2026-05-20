@@ -3384,7 +3384,7 @@ Biragaragara ko nimba uri umutanguzi, noguhanura ngo ureke ivyo vyose vy’urubu
 
 
 
-Aha niho hari amaparametere(settings) y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` yawe yerekeye uburongozi bwa Mempool yawe no gutanga amafaranga ataremezwa:
+Aha niho hari ivyagezwe(settings) y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` yawe yerekeye uburongozi bwa Mempool yawe no gutanga amafaranga ataremezwa:
 
 
 
@@ -3402,19 +3402,19 @@ Aha niho hari amaparametere(settings) y'ishimikiro ushobora guhindura kuri `Bitc
 
 
 
-- `persistmempool=1`: Ibika ifoto ya Mempool iyo ihagaze maze ikayisubiramwo iyo isubiye gutangura (ivya kera: `1`). Ivyo bica vyihuta gukira inyuma yo gusubira gufungura, bikaba bikirinda gusubira kwiga igihugu biciye ku rubuga.
+- `persistmempool=1`: Ibika ifoto ya Mempool iyo ihagaze maze ikayisubiramwo iyo isubiye gutangura (ivya kera: `1`). Ivyo bica vyihuta gukira inyuma yo gusubira gupfungura, bikaba bikirinda gusubira kwiga igihugu biciye ku rubuga.
 
 
 
 
 
-- `maxorphantx=<n>`: Umubare munini w'ibikorwa vy'impfuvyi vyagumye (ivyinjijwe biva ku UTXOs bitaraboneka mu mugwi wa UTXO, mburabuzi: `100`). Inyuma y’ico kigero, amafaranga y’igihe ca kera cane arafutwa kugira ngo ntihagire ukura kw’ububiko kutagenzurwa.
+- `maxorphantx=<n>`: igiharuro kinini c'ibikorwa vy'impfuvyi vyagumye (ivyinjijwe biva ku UTXOs bitaraboneka mu mugwi wa UTXO, mburabuzi: `100`). Inyuma y’ico kigero, amafaranga y’igihe ca kera cane arafutwa kugira ngo ntihagire ukura kw’ububiko kutagenzurwa.
 
 
 
 
 
-- `blocksonly=1` : Igererayo no kongera kohereza ibikorwa bitaremezwa byavuye ku bandi (keretse abafite uburenganzira bwihariye). Uru rubuga rumanura kandi ruvuga gusa ibibaho. Ibikorwa byakorewe hafi biracyashobora gukwirakwizwa (mu gukoresha uru rubuga hamwe na porogaramu y’umufuka wawe). Ibi bigabanya cyane ubusabwa bw’imiyoboro n’ubushobozi bwa RAM, ariko bigatuma bidafasha cyane mu kohereza no kutamenya na gato mempool.
+- `blocksonly=1` :Ihagarika kwakira no gusubira gukwiragiza ibikorwa bitaremezwa vyavuye ku zindi nœuds (kiretse izifise uburenganzira budasanzwe). Iyo nœud ntiba ikimanura canke ngo imenyeshe ibindi atari amablock gusa. Ibikorwa vyakorewe hafi biracashobora gukwirakwizwa (mu gukoresha uru rubuga hamwe na porogarama y’umufuko wawe).Ivyo bigabanya cane ubushobozi bw’umurongo wa Internet hamwe n’ubushobozi bwa RAM , ariko bigatuma bidafasha cane mu gukwiragiza no kutamenya na gato ibiri muri mempool.
 
 
 

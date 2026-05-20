@@ -3205,11 +3205,11 @@ Mu ncamake, ng'iyi inyubako ya dosiye Bitcoin core:
 
 
 
-Iyo wakiriye ububiko bushasha, urudodo rwawe rurasuzuma Proof of Work kandi, muri rusangi, rwubahiriza amategeko y’ugusezerana. Iyo vyose bimeze neza, ikoresha amahinduka y’ugucuruza ku gucuruza ku rutonde rwayo rwa UTXO: igenzura ko ikintu cose cinjiye gikoresha UTXO zisanzweho n’inyandiko ibereye, kigafuta izo UTXO, kikongerako amasohoka mashasha. Niba vyose bifise akamaro, amahinduka ashirwa kuri `chainstate/`.
+Iyo wakiriye ububiko bushasha, urudodo rwawe rurasuzuma Proof of Work kandi, muri rusangi, rwubahiriza amategeko y’ugusezerana. Iyo vyose bimeze neza, ikoresha amahinduka y’ugucuruza ku gucuruza ku rutonde rwayo rwa UTXO: igenzura ko ikintu cose cinjiye gikoresha UTXO zisanzweho n’inyandiko ibereye, kigafuta izo UTXO, kikongerako amasohoka mashasha. Nimba vyose bifise akamaro, amahinduka ashirwa kuri `chainstate/`.
 
 
 
-Mu buryo bumwe, amakuru yo gusubiramwo yandikwa kuri `rev*.dat` n'amakuru y'inyuma yandikwa kuri `amabuye/urutonde/` urutonde. Ico gice gica gikurikirana muri dosiye `blk*.dat` ibereye. Iyo habaye ugusubira gutunganya, iyo node isoma `rev*.dat` mu buryo buhindutse kugira ngo ikureho neza amabuye yahebwe, igarure umugwi wa UTXO, hanyuma ihuze amabuye y’uruzitiro rushasha rwiza kuruta izindi.
+Mu buryo bumwe, amakuru yo gusubiramwo yandikwa kuri `rev*.dat` n'amakuru y'inyuma yandikwa kuri `blocks/index/` urutonde. Ico gice gica gikurikirana muri dosiye `blk*.dat` ibereye. Iyo habaye ugusubira gutunganya, iyo node isoma `rev*.dat` mu buryo buhindutse kugira ngo ikureho neza amabuye(blocs) yahebwe, igarure umugwi wa UTXO, hanyuma ihuze amabuye y’uruzitiro rushasha rwiza kuruta izindi.
 
 
 
@@ -3222,11 +3222,10 @@ Mu buryo bumwe, amakuru yo gusubiramwo yandikwa kuri `rev*.dat` n'amakuru y'inyu
 
 
 
-Dosiye `Bitcoin.conf` ni dosiye nyamukuru y'imiterere ya Bitcoin core. Igufasha guhindura inyifato n'imirongo y'urudodo rwawe ataco ukeneye gusubira gukoranya kode y'inkomoko yayo canke guhindura umurongo w'amabwirizwa. Mu majambo nyayo, ni dosiye y'inyandiko rusangi itunganijwe mu migwi y'agaciro k'urufunguzo, bisobanura ko umurongo wose wa dosiye yerekana umurongo wihariye (urufunguzo) n'agaciro kawo, bishobora guhindurwa kugira ngo utunganye uwo murongo.
+Dosiye `Bitcoin.conf` iyi ni  dosiye nyamukuru y'inyubako(configuration) ya Bitcoin core. Igufasha guhindura inyifato n'imirongo y'urudodo rwawe ataco ukeneye gusubira gukoranya kode y'inkomoko yayo canke guhindura umurongo w'amabwirizwa. Mu majambo nyayo, ni dosiye y'inyandiko rusangi itunganijwe mu migwi y'agaciro k'urupfunguzo, bisigura ko umurongo wose wa dosiye yerekana umurongo wihariye (urufunguzo) n'agaciro kawo, bishobora guhindurwa kugira ngo utunganye uwo murongo.
 
 
-
-Urubuga, uguhanahana amakuru, ibikorwa, gushiramwo, gushiramwo, n'imirongo y'uburyo bwo gushika ku RPC bishobora gusobanurwa muri `Bitcoin.conf`. Ariko rero, iyi dosiye y’imiterere ntiyigera ihindura amategeko y’uguhurizako y’umurongo: ishiraho gusa politike y’aho hantu y’urudodo (amategeko yo gutanga), uburyo ihuza, igaragaza, n’ugushira ahabona ibikorwa.
+Muri bitcoin.conf hashobora gusobanurwa ibijanye n’ukuntu urubuga rukora, uguhana amakuru (transactions relay), ubushobozi n’inyubako ya node, indexation, uko logging ikorwa, hamwe n’ukwemerera gushika kuri RPC. Ariko rero, iyi dosiye y’inyubako ntiyigera ihindura amategeko y’uguhurizako y’umurongo: ishiraho gusa politike y’aho hantu y’urudodo (amategeko yo gutanga), uburyo ihuza, igaragaza, n’ugushira ahabona ibikorwa.
 
 
 
@@ -3243,7 +3242,7 @@ Ivyagezwe vyasobanuwe muri `Bitcoin.conf` bishobora guhindurwa n'ibice 2:
 
 
 
-- `imiterere.json` (yanditswe n'ibishushanyo vya Interface canke RPC),
+- `settings.json` (yanditswe n'ibishushanyo vya Interface canke RPC),
 - n'amahitamwo yahinduwe biciye ku mirongo y'amabwirizwa.
 
 
@@ -3277,13 +3276,13 @@ Nk'uko vyasiguwe haruguru, amategeko y'uguhurizako ntashobora guhindurwa muri `B
 
 
 
-- Ivyagezwe vyo mu karere gusa. Ivyo bigira ico bikoze ku nzira yawe gusa: ubunini bw'ububiko (`dbcache`), uburyo bwa pruned (`prune`), urutonde rw'amahitamwo... Bigira ico bikoze ku mikorere y'imashini yawe, ariko ntibigira ico bikoze ku rubuga.
+- Ivyagezwe vyo mu karere gusa. Ivyo bigira ico bikoze ku nzira yawe gusa: ubunini bw'ububiko (`dbcache`), uburyo bwa pruned (`prune`), urutonde rw'amahitamwo... Bigira ico bikoze ku nyubako y'imashini yawe, ariko ntibigire ico bikoze ku rubuga.
 - Ivy’ugutanga amakuru n’ivya Mempool. Ivyo bifata ingingo y’ico node yawe yemera, igumya, kandi itanga imbere y’uko yemezwa: igipimo c’amahera makeyi (`minrelaytxfee`), ubunini bwa Mempool n’igihe co kugumya (`maxmempool`, `mempoolexpiry`), gusubirira ibikorwa (RBF)... Aya mategeko ntashobora kuba atandukanye, n’ubu nyene ntabwo ari igice c’i bihuye. Ku rundi ruhande, ivyo bipimo bizogira ico bikoze ku rubuga rwa Bitcoin (nk’uko vyasiguwe mu gice ca mbere, cane cane n’inyigisho y’uguca mu mazi).
-- Uguhuza urubuga. Aya mahitamwo agena ingene node yawe ironka abagenzi, yumviriza, ijabuka NAT, ikoresha Tor canke proxy, canke igabanya ubwaguke bwayo. Bihingura topologie yawe, ariko ntibihindura ugutanga amakuru.
+- Uguhuza urubuga. Aya mahitamwo agena ingene node yawe ironka abagenzi, yumviriza, ijabuka NAT, ikoresha Tor canke proxy, canke igabanya ubwaguke bwayo. Bihindura topologie yawe, ariko ntibihindura ugutanga amakuru.
 
 
 
-Gutahura iyo ntandukaniro ni ikintu gihambaye cane: iyo igikorwa co gucuruza kidakurikiza amategeko y’uguhurizako, urudodo rwawe ruzovyanka uko vyogenda kwose. Ariko politike y’aho hantu ikomeye cane yoshobora kwanka gutanga amakuru y’ubudandaji afise akamaro mu buryo bw’uguhurizako.
+Gutahura iryo tandukaniro ni ikintu gihambaye cane: iyo igikorwa co gucuruza kidakurikiza amategeko y’uguhurizako, urudodo rwawe ruzovyanka uko vyogenda kwose. Ariko politike y’aho hantu ikomeye cane yoshobora kwanka gutanga amakuru y’ubudandaji afise akamaro mu buryo bw’uguhurizako.
 
 
 

@@ -3047,7 +3047,7 @@ Igitigiri cose c’ivyo bihimba vyose ku gihe kanaka T ni co gikora umugwi wa UT
 
 
 
-Igitero ca UTXO kibikwa muri dosiye ya `chainstate/` nk'urutonde rw'amakuru rwa LevelDB. Igice cose gifatanya urufunguzo ruva kuri Hash y'ugucuruza n'urutonde rw'isohoka n'agaciro karimwo: umubare, urufunguzo rwa `scriptPubKey`, uburebure bw'igice c'irema, n'ikimenyetso c'ishimikiro ry'ibiceri.
+ UTXO ibikwa muri dosiye ya `chainstate/` nk'urutonde rw'amakuru rwa LevelDB. Igice cose gifatanya uruPfunguzo ruva kuri Hash y'ugucuruza n'urutonde rw'isohoka n'agaciro karimwo: igiharuro, urupfunguzo rwa `scriptPubKey`, uburebure bw'igice c'irema, n'ikimenyetso [coinbase](https://planb.academy/resources/glossary/coinbase-transaction).
 
 
 
@@ -3063,7 +3063,7 @@ Mu vy’impwemu, twoshobora kwemeza igikorwa mu gusubira gupima amateka y’ibar
 
 
 
-Zirikana ko umugwi wa UTXO akenshi ari wo utera ivyiyumviro ku bijanye n’ugusenyuka kwa Bitcoin, kuko ubunini bwawo bugenda buragwira cane. Ivyo biva ku kwiyongera kw’igiciro ca Bitcoin, kigatuma ibice bica ibice, kandi biva ku gukura kw’ukwemera iyo nzira: uko abakoresha iyo nzira baba benshi, ni ko n’abashaka UTXO bagenda baragwira.
+Zirikana ko umugwi wa UTXO akenshi ari wo utera ivyiyumviro ku bijanye n’ugusenyuka kwa Bitcoin, kuko ubunini bwawo bugenda buragwira cane. Ivyo biva ku kwiyongera kw’igiciro ca Bitcoin, kigatuma amafaranga acikaguramwo uduce duto duto, kandi biva ku gukura kw’ukwemera iyo nzira: uko abakoresha iyo nzira baba benshi, ni ko n’abashaka UTXO bagenda bagwira.
 
 
 
@@ -3071,7 +3071,7 @@ Zirikana ko umugwi wa UTXO akenshi ari wo utera ivyiyumviro ku bijanye n’uguse
 
 
 
-Ukwiyongera kw'umugwi wa UTXO na kwo nyene kuva ku miterere y'ibikorwa vy'ukwishura vyoroshe kuri Bitcoin. Nkako, iyo urishe, ukoresha UTXO imwe nk’injiza maze ugahingura UTXO nshasha 2 nk’isohoka (imwe y’ukwishura iyindi y’i Exchange). Ubwa nyuma, ubuhinga bwo gusesangura uruhererekane, bwitwa CIOH (*Ubuhinga bwo gusesangura ivyiyumviro rusangi Ownership*), buratanga ikindi kintu cotuma umuntu yirinda gufatanya Coin.
+Ukwiyongera kw'umugwi wa UTXO na kwo nyene kuva ku nyubako y'ibikorwa vy'ukwishura vyoroshe kuri Bitcoin. Nkako, iyo urishe, ukoresha UTXO imwe nk’injiza maze ugahingura UTXO nshasha 2 nk’isohoka (imwe y’ukwishura iyindi y’i Exchange). Ubwa nyuma, ubuhinga bwo gusesangura uruhererekane, bwitwa CIOH (*Ubuhinga bwo gusesangura ivyiyumviro rusangi Ownership*), buratanga ikindi kintu cotuma umuntu yirinda gufatanya Coin.
 
 
 

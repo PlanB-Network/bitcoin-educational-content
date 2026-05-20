@@ -3313,7 +3313,7 @@ Mbere na mbere, birahambaye gutandukanya neza ubwoko 2 bw'ihuriro urudodo rwa Bi
 
 
 
-Ubwo bwoko bubiri bw’uguhuza burashoboye neza guhanahana amakuru amwe mu nzira zompi; si ikibazo co guhagarika inzira y'uruja n'uruza, ahubwo ni itandukaniro gusa mu mutanguriro w'ihuriro. Dukurikije ukuntu urudodo rwacu rubona, amahuzu asohoka muri rusangi abonwa ko ari ay’umutekano kuruta, kuko ari twebwe tuyatanguza kandi tugahitamwo neza urudodo twohuzako, ivyo bikaba bituma bidashoboka ko iyo nzira yoba ari mbi. Ku mburabuzi, Bitcoin core igumya amahuzwa 10 asohoka (8 "*ivy'ugutanga-vyuzuye*" + 2 "*ivy'ugutanga-vy'ububiko-gusa*").
+Ubwo bwoko bubiri bw’uguhuza burashoboye neza guhanahana amakuru amwe mu nzira zompi; si ikibazo co guhagarika inzira y'uruja n'uruza, ahubwo ni itandukaniro gusa  wmitanguriro ry'ihuriro. Dukurikije ukuntu urudodo rwacu rubona, amahuza asohoka muri rusangi abonwa ko ari ay’umutekano kuruta, kuko ari twebwe tuyatanguza kandi tugahitamwo neza urudodo twohuzako, ivyo bikaba bituma bidashoboka ko iyo nzira yoba ari mbi. Ku mburabuzi, Bitcoin core igumya amahuzwa 10 asohoka (8 "*ivy'ugutanga-vyuzuye*" + 2 "*ivy'ugutanga-vy'ububiko-gusa*").
 
 
 
@@ -3321,7 +3321,7 @@ Full node yongera agaciro ku rubuga mu kwemera amahuzwa yinjira. `listen=1` para
 
 
 
-Niba ushaka kudafungura icuma kuri router yawe, ariko ugaca wemera amahuzu yinjira, ushobora gukoresha `listenonion=1` parameter. Ivyo bizoshika ku ciyumviro nk’ico nyene, ariko biciye ku rubuga rwa Tor gusa aho gukoresha clearnet.
+Niba ushaka kudafungura icuma kuri router yawe, ariko ugaca wemera amahuza yinjira, ushobora gukoresha `listenonion=1` parameter. Ivyo bizoshika ku ciyumviro nk’ico nyene, ariko biciye ku rubuga rwa Tor gusa aho gukoresha clearnet.
 
 
 
@@ -3331,10 +3331,10 @@ Ku rugero rw'urubuga, turafise kandi:
 
 
 - `addnode`: yongerako umugenzi w'umugenzi wo guhamagara uretse ivyo usanzwe uvumbura (bishobora gusobanurwamwo incuro nyinshi).
-- `connect`: igabanya cyane ihuriro ku aderesi yatanzwe (ishobora gutangwa inshuro nyinshi). Core ntizahuza n'undi node uwo ari wo wose;
+- `connect`: igabanya cane ihuriro kuri aderesi yatanzwe (ishobora gutangwa inshuro nyinshi). Core ntizahuza n'iyindi node iyariyo yose;
 - `seednode`: ikoreshwa gusa mu kwuzuza igitabu-Address iyo ihuye n'urudodo, hanyuma igaca.
-- `maxconnections`: isobanura igipimo c'isi yose c'amahuza yinjira + asohoka. Ku mburabuzi, iyi parametere iteguwe kuri 125, bisobanura ko node yawe itazokwigera yemera amahuzwa arenga 125.
-- `maxuploadtarget` : igabanya gukurura amafayilo kugira ngo igabanye ubuhagarike bw’imiyoboro mu masaha 24 ahindagurika. Iyi ntambwe ntiyigomwa ikwirakwizwa ry’ibice bishya by’ingenzi;
+- `maxconnections`: isobanura igipimo c'isi yose c'amahuza yinjira + asohoka. Ku mburabuzi, iyi parametre(settings) iteguwe kuri 125, bisigura ko node yawe itazokwigera yemera amahuzwa arenga 125.
+- `maxuploadtarget` : igabanya gukwega amafayilo kugira ngo igabanye ikoreshwa rya bande passante mu gihe c’amasaha 24 agenda ahinduka. Ariko rero, iyo ntambwe ntibuza ikwirakwizwa ry’amakuru mashasha y’ingenzi akenewe ku rubuga;
 - `onlynet`: igabanya amahuzwa asohoka ku mihora yatowe gusa (`ipv4`, `ipv6`, `igitunguru`, `i2p`, `cjdns`). Nk'akarorero, niwaba ushaka ko urudodo rwawe rufatanya n'urubuga rwa Bitcoin biciye kuri Tor gusa, urashobora gukoresha `onlynet=onion` parameter maze ugahagarika amahuriro yinjira (canke kwemera gusa amahuriro biciye kuri Tor na yo nyene).
 - `dnsseed`: yemera canke ntiyemere _Imbuto za DNS_ gusaba bagenzi igihe ikigega ca Address co mu karere kawe kiri hasi (ivya kera: `1`, kiretse `-guhuza` canke `-maxconnections=0`).
 - `forcednsseed`: ihatira _Imbuto za DNS_ gusaba mu gutangura, naho woba usanzwe ufise amaderesi mu bubiko (ivya kera: `0`).
@@ -3347,7 +3347,7 @@ Ku mburabuzi, urudodo rwawe ruvugana kuri clearnet, Tor, na I2P. Ivyo bisigura k
 
 
 
-Kugira ngo ushobore gukoresha Tor mu buryo bushitse, ukeneye guhatira Bitcoin core gukoresha uru rubuga gusa no gukora igikorwa cihishije c’amahuza yinjira (niba ushaka kuyakoresha). Mu `Bitcoin.conf`, ukeneye kwongerako iyi ntunganyo:
+Kugira ngo ushobore gukoresha Tor mu buryo bushitse, ukeneye guhatira Bitcoin core gukoresha uru rubuga gusa no gukora igikorwa cihishije c’amahuza yinjira (niba ushaka kuyakoresha). Muri `Bitcoin.conf`, ukeneye kwongerako iyi ntunganyo:
 
 
 
@@ -3364,7 +3364,7 @@ Kugira ngo ushobore gukoresha Tor mu buryo bushitse, ukeneye guhatira Bitcoin co
 
 
 
-Amahuza yawe yose ya P2P aca muri Tor. Node yawe ironka `.onion` Address ku mahuriro yinjira, rero nta ports zikeneye gufungurwa kuri router. ISP yawe ibona gusa uruja n'uruza rwa Tor, kandi abo mu runganwe rwawe ntibazi IP yawe ya bose Address.
+Amahuza yawe yose ya P2P aca muri Tor. Node yawe ironka `.onion` Address ku mahuriro yinjira, rero nta ports zikeneye gupfungurwa kuri router. ISP yawe ibona gusa uruja n'uruza rwa Tor, kandi abo mu runganwe rwawe ntibazi IP yawe ya bose Address.
 
 
 
@@ -3384,13 +3384,13 @@ Biragaragara ko nimba uri umutanguzi, noguhanura ngo ureke ivyo vyose vy’urubu
 
 
 
-Aha niho hari amaparametere y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` yawe yerekeye uburongozi bwa Mempool yawe no gutanga amafaranga ataremejwe:
+Aha niho hari amaparametere(settings) y'ishimikiro ushobora guhindura kuri `Bitcoin.conf` yawe yerekeye uburongozi bwa Mempool yawe no gutanga amafaranga ataremezwa:
 
 
 
 
 
-- `maxmempool=<n>`: Igabanya ubunini bwa Mempool bwo mu karere ku `<n>` megabaiti (ivya kera: `300`). Iyo umupaka ushitse, urudodo rwawe ruraduza cane umupaka warwo w’amahera kandi rugashira imbere ibikorwa bifise inyungu nkeyi (bishingiye ku rugero rw’amahera, atari ku gaciro nyako) kugira ngo bigume munsi y’umupaka. Ushobora gusiga iyi nzira nk'iyisanzwe. Kuvyongera birashobora kuba ngirakamaro nimba uri Mining wenyene, canke nimba ushaka kuronka iciyumviro kibereye ku bijanye n’uguhagarara kw’abantu mu Mempool no kunoza ingereranyo y’amahera. Ku rundi ruhande, kuyigabanya bizokuzigama RAM, ku rugero rutoyi, n’ibindi bikoresho vyo muri sisitemu.
+- `maxmempool=<n>`: Igabanya ubunini bwa Mempool bwo mu karere ku `<n>` megabaiti (ivya kera: `300`). Iyo umupaka ushitse, urudodo rwawe ruraduza cane umupaka warwo w’amahera kandi rugashira imbere ibikorwa bifise inyungu nkeyi (bishingiye ku rugero rw’amahera, atari ku gaciro nyako) kugira ngo bigume munsi y’umupaka. Ushobora gusiga iyi nzira nk'iyisanzwe. Kuvyongera birashobora kuba ngirakamaro nimba uri Mining wenyene, canke nimba ushaka kuronka iciyumviro kibereye ku bijanye n’uguhagarara kw’abantu muri Mempool no kunoza ingereranyo y’amahera. Ku rundi ruhande, kuyigabanya bizokuzigamira RAM, ku rugero rutoyi, n’ibindi bikoresho vyo muri sisitemu.
 
 
 

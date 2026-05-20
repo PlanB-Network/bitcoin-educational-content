@@ -1630,34 +1630,34 @@ Nk'akarorero, dufate ko urufunguzo rwawe rw'ibanga ari "GOLD" kandi ushaka gupfu
 - $c_{11} = [(24 + 3) \mod 26] = 1 = B$
 
 
-Gutyo, inyandiko y'ibanga $c$ = "IFJSZCRUGDSB".
+Gutyo, inyandiko y'ibanga $c$ itowe ni = "IFJSZCRUGDSB".
 
 
-Ikindi kigereranyo kizwi cane c'uruzi cipher ni **pad y'igihe kimwe**. Na pad y'igihe kimwe, ushobora gusa kurema urudodo rw'ibice vy'imburakimazi nk'ubutumwa bw'inyandiko rusangi maze ugatanga inyandiko y'ibanga biciye ku gikorwa ca XOR. Ku bw’ivyo, urufunguzo rw’ibanga n’urufunguzo rw’urufunguzo bingana n’igipapuro c’igihe kimwe.
+Ikindi kigereranyo kizwi cane c'ipfuka ry'amakuru hakoreshejwe flot ni **One-Time Pad**(ipfuka ry'amakuru rikoreshwa rimwe). Hamwe nubwo buryo, ushobora gusa kurema uruhererekane rw'ibice bihitishijwemwo nk'ubutumwa bw'inyandiko rusangi maze ugatanga inyandiko y'ibanga biciye ku gikorwa ca XOR. Ku bw’ivyo, urufunguzo rw’ibanga n’urufunguzo rw’urufunguzo bingana n’igipapuro c’igihe kimwe.
 
 
-Naho Shift cipher na Vigenere ciphers zidatekanye cane mu bihe vya none, pad y’igihe kimwe iratekanye cane iyo ikoreshejwe neza. Kumbure igikorwa camenyekanye cane c’ivyo bikoresho vy’igihe kimwe cari, n’imiburiburi gushika mu myaka ya 1980, ku **umurongo w’i Washington-Moscow**. [4]
+Naho Shift cipher na Vigenere ciphers zidatekanye cane mu bihe vya none, One-Time Pad iratekanye cane iyo ikoreshejwe neza. Kumbure igikorwa camenyekanye cane c’ivyo bikoresho One-Time Pad, n’imiburiburi gushika mu myaka ya 1980, ku **umurongo w’i Washington-Moscow**. [4]
 
 
-Uwo murongo w’ubuhinga ni umurongo w’itumanaho hagati ya Washington na Moscou ku bibazo vyihutirwa washizweho inyuma y’ingorane y’imizinga ya Cuba. Ivy’ubuhinga bwa none vyarahindutse uko imyaka yagenda irarenga. Ubu, irimwo umugozi w’amatara utaziguye be n’amahuza abiri y’inyenyeri (kugira ngo umuntu ashobore gukoresha ubutumwa bwo kuri interineti), ivyo bikaba bituma umuntu ashobora gukoresha ubutumwa bwo kuri e-mail n’ubutumwa bwo mu nyandiko. Iryo huriro rihera mu bibanza bitandukanye muri Amerika. Pentagon, Inzu y’Ubwami, n’Umusozi Raven Rock ni vyo bimenyekana ko ari vyo bihera. Mu buryo butandukanye n’ivyo abantu benshi biyumvira, iyo nzira y’ubutumwa ntiyigeze ikoresha amatelefone.
+Uwo murongo w’ubuhinga ni umurongo w’itumanaho hagati ya Washington na Moscou ugenewe gukoreshwa c'ihutirwa washizweho inyuma y’ingorane y’imizinga ya Cuba. Ivy’ubuhinga bwa none vyagiye biratera imbere uko imyaka yagenda irarenga. Ubu, ihuzwa hakoresheje itsinga zitumatumanako be n’amahuza abiri afatanijwe na  satelite (kugira ngo umuntu ashobore gukoresha ubutumwa bwo kuri interineti), ivyo bikaba bituma umuntu ashobora gukoresha ubutumwa bwo kuri e-mail n’ubutumwa bwo mu nyandiko. Iryo huriro rihera mu bibanza bitandukanye muri Amerika. Pentagon, maison blanche, n’Umusozi Raven Rock ni vyo bimenyekana ko ari vyo bihera. Mu buryo butandukanye n’ivyo abantu benshi biyumvira, iyo nzira y’ubutumwa ntiyigeze ikoresha amatelefone.
 
 
-Mu vy’ukuri, umugambi w’igihe kimwe wo gukoresha pad warakoze gutya. Washington na Moscou zompi zogira imibare ibiri y’imburakimazi. Igitigiri kimwe c’imibare y’imburakimazi, cakozwe n’Abarusiya, cari kijanye n’ugushiramwo no gufungura ubutumwa bwose bwo mu rurimi rw’ikirusiya. Igitigiri kimwe c’imibare y’imburakimazi, cakozwe n’Abanyamerika, cari kijanye n’ugushiramwo no gukuraho ubutumwa bwose bwo mu rurimi rw’icongereza. Rimwe na rimwe, imibare myinshi y’imburakimazi yoshikirizwa ku rundi ruhande n’abarungika ubutumwa bizigirwa.
+Mu vy’ukuri, umugambi wa One-Time Pad wakora gutya: Washington na Moscou zose zari zifise ibiharuro bibiri bihitishijwemwo. Umugwi w'ibiharuro bihitishijwemwo, wakozwe n’Abarusiya, wari ujanye n’ugushiramwo no gufungura ubutumwa bwose bwo mu rurimi rw’ikirusiya. Umugwi w’ibiharuro bihitishijwemwo, wakozwe n’Abanyamerika, wari ujanye n’ugushiramwo no gukuraho ubutumwa bwose bwo mu rurimi rw’icongereza. Rimwe na rimwe, ibiharuro bihitishijwemwo yoshikirizwa ku rundi ruhande n’abarungika ubutumwa bizigirwa.
 
 
-Washington na Moscou rero vyarashoboye kuvugana mu mpisho bikoresheje iyo mibare y’imburakimazi yo guhingura amapadi akoreshwa rimwe gusa. Igihe cose woba ukeneye kuvugana, wokoresha igice gikurikira c’imibare y’imburakimazi ku bw’ubutumwa bwawe.
+Washington na Moscou rero vyarashoboye kuvugana mu mpisho bikoresheje ivyo biharuro bihitishijwemwo yo guhingura ama One-Time Pads. Igihe cose woba ukeneye kuvugana, wokoresha igice gikurikira c’ibiharuro bihitishijwemwo ku bw’ubutumwa bwawe.
 
 
-Naho igipapuro co gukoresha rimwe gifise umutekano mwinshi cane, gifise utunenge dukomeye: urufunguruzo rukeneye kuba rurerure nk’ubutumwa kandi nta gice c’ico gipapuro co gukoresha rimwe gishobora gusubira gukoreshwa. Ivyo bisigura ko ukeneye kuguma ukurikirana aho uri mu gitabu c’igihe kimwe, ukabika umubare munini w’ibice, n’ibice vy’imburakimazi vya Exchange n’abagenzi bawe rimwe na rimwe. Ivyo bituma iyo pad y’igihe kimwe idakoreshwa kenshi mu bikorwa.
+Naho One-Time Pads ifise umutekano munini cane, gifise utunenge dukomeye: urufunguruzo rukeneye kuba rurerure nk’ubutumwa kandi nta gice ca One-Time Pads gishobora gusubira gukoreshwa. Ivyo bisigura ko ukeneye kuguma ukurikirana aho uri mu One-Time Pads, ukabika umubare munini w’ibice, n’ibice bihitishijwemwo vya Exchange n’abagenzi bawe rimwe na rimwe. Ivyo bituma iyo One-Time Pads idakoreshwa kenshi mu bikorwa.
 
 
-Ahubwo, amajambo y’uruzi akoreshwa cane mu bikorwa ni **amajambo y’uruzi y’ibinyoma**. Salsa20 n’iyindi nzira ifitaniye isano cane yitwa ChaCha ni ingero z’ibiharuro vy’uruzi vy’ibinyoma bikoreshwa cane.
+Ahubwo, ipfuka ubutumwana hakoreshejwe flot ikoreshwa cane mu bikorwa ni **ipfuka ubutumwana hakoreshejwe flot pseudorandomisés**. Salsa20 n’iyindi nzira ifitaniye isano cane yitwa ChaCha ni ipfuka ubutumwana hakoreshejwe flot pseudorandomisés.
 
 
-Na izo pseudorandom stream ciphers, ubanza guhitamwo urufunguzo K rugufi kuruta uburebure bw'inyandiko rusangi. Mwene ukwo rufunguzo K rw’imburakimazi akenshi ruremwa na mudasobwa yacu ishingiye ku makuru atamenyekana ayo yegeranya uko igihe kigenda kirarenga, nk’igihe kiri hagati y’ubutumwa bwo ku rubuga, ukuntu imbeba yinyiganza, n’ibindi.
+Hamwe niryo pfuka ry'ubutumwana hakoreshejwe flot pseudorandomisés, ubanza guhitamwo urufunguzo K rugufi kuruta uburebure bw'inyandiko rusangi. Mwene ukwo rufunguzo K ruhitishijwemwo akenshi ruremwa na mudasobwa yacu ishingiye ku makuru atamenyekana ayo yegeranya uko igihe kigenda kirarenga, nk’igihe kiri hagati y’ubutumwa bwo ku rubuga, ukuntu imbeba yinyiganza, n’ibindi.
 
 
-Urufunguzo rw'imburakimazi $K$ rero rwinjira mu nzira yo kwagura irema urufunguzo rw'imburakimazi nk'ubutumwa. Ushobora gusobanura neza igihe umurongo w'urufunguzo ukeneye kuba (nk'akarorero, ibice 500, ibice 1000, ibice 1200, ibice 29.117, n'ibindi).
+Urufunguzo ruhitishijwemwo $K$ rero rwinjira mu nzira yo kwagura irema urufunguzo ruhitishijwemwo nk'ubutumwa. Ushobora gusobanura neza igihe umurongo w'urufunguzo ukeneye kuba (nk'akarorero, ibice 500, ibice 1000, ibice 1200, ibice 29.117, n'ibindi).
 
 
 Uruzitiro rw'urufunguzo rw'ibinyoma rugaragara *nk'aho* rwatowe mu buryo butari bwo mu rwego rw'imirongo yose ifise uburebure bumwe. Ku bw’ivyo, gupfuka amakuru hakoreshejwe urufunguzo rw’urufunguzo rw’ibinyoma bisa n’aho vyakozwe hakoreshejwe urufunguzo rw’igihe kimwe. Ariko ivyo, birumvikana ko atari ko biri.
@@ -1669,10 +1669,10 @@ Kubera ko urufunguzo rwacu rw’ibanga ari rugufi kuruta urufunguzo kandi ubuhin
 Twibaze nk’akarorero ko urufunguzo rwacu rw’ibanga rufise uburebure bw’ibice 128 kandi ko dushobora kurushira mu buhinga bwo kwagura kugira ngo dukore urufunguzo rurerure cane, tuvuge ko rw’ibice 2.500. Nk'uko ubuhinga bwacu bwo kwagura bukeneye kuba ubugenzuzi, ubuhinga bwacu burashobora guhitamwo $1/2^{128}$ imirongo ifise uburebure bw'ibice 2.500. Rero mwene iyo nzira y’urufunguzo ntishobora kwigera itorwa mu buryo butari bwo mu mirongo yose y’uburebure bumwe.
 
 
-Insobanuro yacu y’uruzitiro rw’uruzitiro rufise imice ibiri: (1) uruzitiro rw’urufunguzo igihe cose umwandiko usanzwe uvutse ufashijwe n’urufunguzo rw’ibanga; kandi (2) iyo nzira y’urufunguzo ifatanijwe n’inyandiko yoroshe, mu bisanzwe biciye ku gikorwa ca XOR, kugira ngo haboneke inyandiko y’ibanga.
+Insobanuro yacu y’igitigiri gikoresha flot gifise imice ibiri: (1) uruzitiro rw’urufunguzo igihe cose umwandiko usanzwe uvutse ufashijwe n’urufunguzo rw’ibanga; kandi (2) iyo nzira y’urufunguzo ifatanijwe n’inyandiko yoroshe, mu bisanzwe biciye ku gikorwa ca XOR, kugira ngo haboneke inyandiko y’ibanga.
 
 
-Rimwe na rimwe abantu barasobanura neza cane ivyangombwa (1), mu kwemeza ko umurongo w’urufunguzo utegerezwa kuba ari pseudorandom. Ivyo bisigura ko ata cipher y’uguhindura, canke iyo pad y’igihe kimwe yobonwa ko ari cipher y’uruzi.
+Rimwe na rimwe abantu barasobanura neza cane ivyangombwa (1), mu kwemeza ko umurongo w’urufunguzo utegerezwa kuba ari pseudorandom. Ivyo bisigura ko ata cipher y’uguhindura, canke iyo One-Time Pad yobonwa ko ari ipfuka ry'amakuru hakoreshejwe flot.
 
 
 Mu kubona kwanje, gusobanura ivyangombwa (1) mu buryo bwagutse cane bitanga uburyo bworoshe bwo gutunganya imigambi yo gupfuka. Ikindi, bisigura ko tudategerezwa guhagarika kwita umugambi kanaka wo gupfuka amakuru ngo ni umugezi kubera gusa twize ko mu vy’ukuri udashingiye ku nzira z’urufunguzo z’ibinyoma.

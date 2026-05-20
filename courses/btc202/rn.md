@@ -3071,28 +3071,27 @@ Zirikana ko umugwi wa UTXO akenshi ari wo utera ivyiyumviro ku bijanye n’uguse
 
 
 
-Ukwiyongera kw'umugwi wa UTXO na kwo nyene kuva ku nyubako y'ibikorwa vy'ukwishura vyoroshe kuri Bitcoin. Nkako, iyo urishe, ukoresha UTXO imwe nk’injiza maze ugahingura UTXO nshasha 2 nk’isohoka (imwe y’ukwishura iyindi y’i Exchange). Ubwa nyuma, ubuhinga bwo gusesangura uruhererekane, bwitwa CIOH (*Ubuhinga bwo gusesangura ivyiyumviro rusangi Ownership*), buratanga ikindi kintu cotuma umuntu yirinda gufatanya Coin.
+Ukwiyongera kw'umugwi wa UTXO na kwo nyene kuva ku nyubako y'ibikorwa vy'ukwishura vyoroshe kuri Bitcoin. Nkako, iyo urishe, ukoresha UTXO imwe nk’injiza maze ugahingura UTXO nshasha 2 nk’isohoka (imwe y’ukwishura iyindi y’i Exchange). Ubwa nyuma, ubuhinga bwo gusesangura uruhererekane, bwitwa  [CIOH](https://planb.academy/resources/glossary/cioh)  (*Ubuhinga bwo gusesangura ivyiyumviro rusangi Ownership*), buratanga ikindi kintu cotuma umuntu yirinda gufatanya Coin.
 
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Kubera ko igice caco kigomba kubikwa muri RAM kugira ngo umuntu asuzume amafaranga akoreshwa mu kiringo gikwiriye, iyo UTXO yoshobora buhorobuhoro gutuma igikorwa ca Full node gitwara amahera menshi cane. Kugira ngo iki kibazo gitorerwe umuti, hariho ivyiyumviro bikeyi bimaze kubaho, cane cane [Utreexo](https://planb.academy/ibikoresho/urutonde rw’amajambo/utreexo).
+Kubera ko igice caco kigomba kubikwa muri RAM kugira ngo umuntu asuzume amafaranga akoreshwa mu kiringo gikwiriye, iyo UTXO yoshobora buhorobuhoro gutuma igikorwa ca Full node gitwara amahera menshi cane. Kugira ngo iki kibazo gitorerwe umuti, hariho ivyiyumviro bikeyi bimaze kubaho, cane cane Utreexo.
 
 
 
 ### Mempool
 
 
-
-Mempool ni urutonde rw’amafaranga y’aho hantu y’ukuri yashikirijwe ariko atararemezwa. Nk'ukwibutsa, "ugucuruza kwemejwe" ni ugushirwa mu gice gifise akamaro. Buri node igumya Mempool yayo, ishobora gutandukanywa n’iy’izindi node ziri mu rubuga bivanye n’:
-
+Mempool ni urutonde rw’aho node ibika amafaranga (transactions) yashikirijwe ariko ataremezwa.Nk’ukwibutsa, transaction yemejwe ni transaction yashizwe muri block yemewe. Buri node igumya Mempool yayo, ishobora gutandukanywa n’izindi node ziri mu rubuga bivanye n’ibi:
 
 
 
-- ubunini bugenewe Mempool biciye ku `maxmempool` parameter: urudodo rufise Mempool nini ruzoshobora gufata amafaranga menshi kurusha urudodo rufise Mempool nto (kiretse iyo ya nyuma iba ubusa);
-- amategeko ya mempool: ni igice cy’amategeko yo kohereza kwa node kandi asobanura ibiranga igikorwa kitaremezwa kigomba kugira ngo cyemererwe muri mempool;
-- transaction percolation: kubera ibintu bitandukanye, igikorwa kanaka gishobora kuba carashikirijwe igice kimwe c’urubuga, ariko ntikigeze ku kindi.
+
+- ubunini bugenewe Mempool biciye ku `maxmempool` parameter: urudodo rufise Mempool nini ruzoshobora gufata amafaranga menshi kurusha urudodo rufise Mempool nto (kiretse iyo yanyuma iba ubusa);
+- amategeko ya mempool: ni igice cy’amategeko yo kurungika kuri node kandi asobanura ibiranga igikorwa kitaremezwa kigomba kugira ngo cemezwe muri mempool;
+-la percolation des transactions: kubera ibintu bitandukanye, igikorwa kanaka gishobora kuba carashikirijwe igice kimwe c’urubuga, ariko ntikigeze ku kindi.
 
 
 
@@ -3104,11 +3103,11 @@ Ni ngombwa kumenya ko node mempools ata gaciro k’uguhurizako zifise. Bitcoin i
 
 
 
-Iyo igikorwa cakiriwe, Core ikoresha urutonde rw’igenzura ku mategeko y’uguhurizako (inyuguti, inyandiko zifise akamaro, nta gukoresha amahera kabiri, n’ibindi) n’amategeko ya Mempool, ari yo ngingo ngenderwako y’aho hantu (RBF, ibipimo vy’amahera makeyi, umupaka w’amakuru muri `OP_RETURN`, n’ibindi). Iyo iyo nzira yubahiriza ayo mategeko, irabikwa mu mutwe.
+Iyo igikorwa cakiriwe, Core ikoresha urutonde rw’igenzura ku mategeko y’uguhurizako (inyuguti, inyandiko zifise akamaro, nta gukoresha amahera kabiri, n’ibindi) n’amategeko ya Mempool, ari yo ngingo ngenderwako y’aho hantu ([RBF](https://planb.academy/resources/glossary/rbf-replacebyfee), ibipimo vy’amahera makeyi, umupaka w’amakuru muri `OP_RETURN`, n’ibindi). Iyo iyo nzira yubahiriza ayo mategeko, irabikwa mu mutwe.
 
 
 
-Ingano ya Mempool igabanywa n'umurongo wa `maxmempool` uri muri dosiye ya `Bitcoin.conf` (ibindi kuri ivyo mu kigabane gikurikira). Ku mburabuzi, umupaka ni 300 MB. Iyo yuzuye, iyo node iraduza umurongo wayo w'amahera makeyi maze igaca yirukana amafaranga make cane (ni ukuvuga, igumya amafaranga akwiye gucukurwa mbere). Ibikorwa vya kera cane navyo nyene birashobora guhera inyuma y’ugucerezwa kwatunganijwe.
+Ubunini bwa mempool bugenwa n'umurongo wa `maxmempool` uri muri dosiye ya `Bitcoin.conf` (ibindi kuri ivyo mu gice gikurikira). Ku mburabuzi, umupaka ni 300 MB. Iyo yuzuye, iyo node iraduza umurongo wayo w'amahera makeyi maze igaca yirukana amafaranga make cane (ni ukuvuga, igumya amafaranga akwiye gucukurwa mbere). Ibikorwa vya kera cane navyo nyene birashobora guhera inyuma y’ugucerezwa kwatunganijwe.
 
 
 

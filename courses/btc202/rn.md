@@ -3115,7 +3115,7 @@ Ubunini bwa mempool bugenwa n'umurongo wa `maxmempool` uri muri dosiye ya `Bitco
 
 
 
-Kugira ngo wihutishe gusubira gutangura, Core iguma ikurikiranya uko Mempool imeze muri dosiye `Mempool.dat` iyo node ifunze. Uretse Mempool nyayo, iguma mu ciyumviro, Core ibika iyi dosiye `Mempool.dat` kuri disiki. Igihe kizoza iyo node itanguye, isubira gushiramwo iyi foto maze igakuraho ikintu cose kitagikora kuri Blockchain iriho ubu.
+Kugira ngo wihutishe gusubira gutangura, Core iguma ikurikiranya uko Mempool imeze muri dosiye `Mempool.dat` iyo node ipfunze. Uretse Mempool nyayo, iguma mu ciyumviro, Core ibika iyi dosiye `Mempool.dat` kuri disiki. Igihe kizoza iyo node itanguye, isubira gushiramwo iyi foto maze igakuraho ikintu cose kitagikora kuri Blockchain iriho ubu.
 
 
 
@@ -3128,36 +3128,36 @@ Ayandi madosiye menshi ari ku rugero rumwe na `amabuye/`, `uruhererekane/`, na `
 
 
 
-- `peers.dat` ibika igitabu ca IP Address c'abashobora kuba abagenzi, kigaburirwa n'ukuvumbura kwa DNS kwa mbere, uguhanahana amakuru, n'ivyongeweko n'amaboko. Iyo node itanguye, ishobora gukoresha kuri iyi dosiye kugira ngo ishingeho amahuzu asohoka.
+- `peers.dat` ibika igitabu ca IP Address c'abashobora kuba abagenzi, kigaburirwa n'ukuvumbura kwa DNS kwa mbere, uguhanahana amakuru, n'ivyongeweko n'amaboko. Iyo node itanguye, ishobora gukoresha kuri iyi dosiye kugira ngo ishingeho amahuza asohoka.
 - Iyo node izimye, `anchors.dat` ibika aderesi z'abagenzi basohotse, kugira ngo ushobore kugerageza kwongera guhamagara ningoga igihe uzotangura.
 - `banlist.json` irimwo ibibujijwe vyo mu karere vyafashwe n'umukoresha canke n'urudodo (inyifato idakwiriye isubiramwo), kugira ngo urudodo ntirusubire gufatanya canke kwemera amahuzwa avuye kuri abo bagenzi.
-- `fee_estimates.dat` ibika imibare y'igihe ku vyemezo vyerekanwa, ikoreshwa n'umugenzuzi w'amahera kugira ngo ashireho ibiciro vy'amahera bihuye n'intumbero z'ugucererwa zatowe igihe umuntu akora igikorwa.
-- `bitcoin.conf` irimo ibisobanuro bya node yawe. Ni muri iri dosiye ushobora guhindura amategeko yo kohereza. Nzabisobanura neza mu gice gikurikira;
-- `imiterere.json` irimwo ibindi bipimo kuri `Bitcoin.conf`.
+- `fee_estimates.dat` ibika ibiharuro vy'igihe ku vyemezo vyerekanwa, ikoreshwa n'umugenduzi w'amahera kugira ngo ashireho ibiciro vy'amahera bihuye n'intumbero z'ugucererwa zatowe igihe umuntu akora igikorwa.
+- `bitcoin.conf` iriwmo insiguro za node yawe. Ni muri iri dosiye ushobora guhindura amategeko yo kurungika. Nzobisigura neza mu gice gikurikira;
+- `settings.json` irimwo ibindi bipimo kuri `Bitcoin.conf`.
 - `debug.log` ni igitabo c'inyandiko y'isuzuma, gishobora gukoreshwa mu gutahura igikorwa c'urudodo iyo habaye ikibazo.
-- `bitcoind.pid` ibika indangamuntu y’umurimo mu gihe cyo gukora, bikemerera izindi porogaramu cyangwa scripts kumenya byoroshye Bitcoind (*Bitcoin Daemon*) no kuganira nayo niba bikenewe. Ikorwa igihe node itangiye kandi igahanagurwa igihe ihagaritswe;
-- `ip_asn.map` ni IP → ASN imeza y'ikarita (uburyo bwigenga) ikoreshwa mu gukora ububiko n'uguhinduranya urunganwe (`-asmap` uburyo).
-- `onion_v3_private_key` ibika urufunguzo rw'ibanga rwa serivisi ya Tor v3 iyo uburyo bwa `-listenonion` bukoreshejwe, kugira ngo ugume ufise igitunguru gikomeye Address hagati y'ugusubira gutangura.
-- `i2p_private_key` ibika urufunguzo rw'ibanga rwa I2P iyo `-i2psam=` ikoreshejwe, kugira ngo ukore amahuzwa asohoka n'ashobora kwinjira kuri I2P.
-- `.cookie` irimwo ivyemezo vy'igihe gito RPC token (vyaremwe mu gutangura, bifutwa mu gihe co gufunga) iyo ivyemezo vy'ukuri vy'amakuru bikoreshwa. Ivyo birashobora gukoreshwa nk’akarorero, mu gufatanya porogarama ya Wallet.
-- `.lock` ni urufunguzo rw'ububiko bw'amakuru, rubuza instance nyinshi kwandika kuri datadir imwe icarimwe.
-- `imiterere.ini.bak` ni ububiko bwikora bw'imiterere ya GUI (*Bitcoin Qt*) iyo `-gusubiramwo imiterere` ikoreshwa.
+- `bitcoind.pid` ibika numero iranga process(PID) mu gihe co gukora, bikemerera izindi porogarama canke scripts kumenya ko vyoroshe Bitcoind (*Bitcoin Daemon*) no kuganira nayo nimba bikenewe. Ikorwa igihe node itanguye kandi igahanagurwa igihe ihagaritswe;
+- `ip_asn.map` ni IP → ASN imeza y'ikarata (uburyo bwigenga) ikoreshwa mu gukora ububiko n'uguhinduranya urunganwe (`-asmap` uburyo).
+- `onion_v3_private_key` ibika urupfunguzo rw'ibanga rwa serivisi ya Tor v3 iyo uburyo bwa `-listenonion` bukoreshejwe, kugira ngo ugume ufise igitunguru gikomeye Address hagati y'ugusubira gutangura.
+- `i2p_private_key` ibika urupfunguzo rw'ibanga rwa I2P iyo `-i2psam=` ikoreshejwe, kugira ngo ukore amahuzwa asohoka n'ashobora kwinjira kuri I2P.
+- `.cookie` irimwo ivyemezo vy'igihe gito RPC token (vyaremwe mu gutangura, bifutwa mu gihe co gupfunga) iyo ivyemezo vy'ukuri vy'amakuru bikoreshwa. Ivyo birashobora gukoreshwa nk’akarorero, mu gufatanya porogarama ya Wallet.
+- `.lock` ni urupfunguzo rw'ububiko bw'amakuru, rubuza instance nyinshi kwandika kuri datadir imwe icarimwe.
+- `guisettings.ini.bak` ni ububiko bwikora bw'amasetingi(settings) ya GUI (*Bitcoin Qt*) iyo `-gusubiramwo imiterere(resetguisettings)` ikoreshwa.
 
 
 
-Nk'uko twabibonye mu bice vya mbere vy'iri shure rya BTC 202, Bitcoin core ni porogarama ya Bitcoin na Wallet. Ariko rero, si ngombwa ko ari umuti nogusaba ku bijanye no gucunga amasakoshi yawe, kuko Interface yayo iguma ari iya mbere kandi ibikorwa vyayo birake ugereranyije na porogarama za none nka Sparrow canke Liana. Core kandi irimwo amadosiye yo gucunga amafaranga yawe:
+Nk'uko twabibonye mu bice vya mbere vy'iri shure rya BTC 202, Bitcoin core ni porogarama ya Bitcoin na Wallet. Ariko rero, si ngombwa ko ari umuti nogusaba ku bijanye no gucunga amasakoshi yawe, kuko Interface yayo iguma ari iya mbere kandi ibikorwa vyayo biragabanutse ugereranyije na porogarama za none nka Sparrow canke Liana. Core kandi irimwo amadosiye yo gucunga amafaranga yawe:
 
 
 
 
 
-- `wallets/` ni ububiko bw'ibanze burimo ububiko bumwe cyangwa bwinshi bw'amafaranga;
-- `amasakoshi/<izina>/Wallet.dat` ni urutonde rw'amakuru rwa SQLite rwa Wallet (imfunguruzo, ibisobanuro, amakuru y'ibikorwa, n'ibindi);
-- `wallets/<name>/wallet.dat-journal` ni ikinyamakuru cya rollback cya SQLite.
+- `wallets/` ni ububiko bw'intango buriwmo ububiko bumwe canke bwinshi bw'amafaranga;
+- `amasakoshi(wallets)/<izina>/Wallet.dat` ni urutonde rw'amakuru rwa SQLite rwa Wallet (impfunguruzo, insiguro, amakuru y'ibikorwa, n'ibindi);
+- `wallets/<name>/wallet.dat-journal` ni ikinyamakuru ca rollback ca SQLite.
 
 
 
-Mu ncamake, ng'iyi imiterere ya dosiye Bitcoin core:
+Mu ncamake, ng'iyi inyubako ya dosiye Bitcoin core:
 
 
 

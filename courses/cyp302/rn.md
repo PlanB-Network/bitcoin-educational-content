@@ -1691,10 +1691,10 @@ Mu kubona kwanje, gusobanura ivyangombwa (1) mu buryo bwagutse cane bitanga ubur
 <chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
 
 
-Uburyo bwa mbere **block cipher** itahurwa cane ni nk'ikintu c'intango kuruta cipher y'umugezi: Algorithme nyamukuru ikora ihinduka ry'uburebure ku murongo w'uburebure bukwiye ifashijwe n'urufunguzo. Iyi algorithme ishobora gukoreshwa mu guhingura imigambi yo gupfuka amakuru kumbure n’ubundi bwoko bw’imigambi yo gupfuka amakuru.
+Uburyo bwa mbere bwo gutahura **ipfuka ry'amakuru hakoreshejwe bloc** ni ukukigereranya nk'ikintu c'intango kuruta ipfuma ryamakuru hakoreshejwe flot : Algorithme nyamukuru ikora ihinduka ry'uburebure ku murongo w'uburebure bukwiye ifashijwe n'urufunguzo. Iyi algorithme ishobora gukoreshwa mu guhingura imigambi yo gupfuka amakuru kumbure n’ubundi bwoko bw’imigambi yo gupfuka amakuru.
 
 
-Kenshi, igiharuro c’amabara gishobora gufata imirongo y’inyungu y’uburebure butandukanye nk’ibice 64, 128 canke 256, hamwe n’imfunguruzo z’uburebure butandukanye nk’ibice 128, 192 canke 256. Naho ibintu bimwebimwe vyo muri algorithme bishobora guhinduka bivanye n’ivyo bihinduka, algorithme nyamukuru ntihinduka. Iyo bishika, twovuga ama ciphers abiri atandukanye y’amabuye. Zirikana ko ikoreshwa ry'amajambo y'ishimikiro y'ubuhinga hano ari co kimwe n'iry'imigambi yo gupfuka.
+Kenshi, igiharuro c’amabara gishobora gufata imirongo y’inyungu y’uburebure butandukanye nk’ibice 64, 128 canke 256, hamwe n’imfunguruzo z’uburebure butandukanye nk’ibice 128, 192 canke 256. Naho ibintu bimwebimwe vyo muri algorithme bishobora guhinduka bivanye n’ivyo bihinduka, algorithme nyamukuru ntihinduka. Iyo bishika, twovuga ama amapfuka abiri y'amakuru hakoreshejejwe bloc atandukanye. Zirikana ko ikoreshwa ry'amajambo y'ishimikiro y'ubuhinga hano ari co kimwe n'iry'imigambi yo gupfuka.
 
 
 Igishushanyo c'ingene block cipher ikora gishobora kubonwa ku *Ishusho ya 4* iri musi. Ubutumwa $M$ bw'uburebure $L$ n'urufunguzo $K$ bikora nk'inyungu ku cipher ya Block. Isohora ubutumwa $M'$ bw'uburebure $L$. Urufunguzo ntirukeneye kuba rungana n'uburebure bwa $M$ na $M'$ ku bimenyetso vyinshi vy'amabuye.
@@ -1706,10 +1706,10 @@ Igishushanyo c'ingene block cipher ikora gishobora kubonwa ku *Ishusho ya 4* iri
 ![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 
-Igiharuro c'amabuye ubwaco si umugambi wo gupfuka. Ariko block cipher ishobora gukoreshwa n'uburyo butandukanye bwo gukora kugira ngo haboneke imigambi itandukanye yo gupfuka. Uburyo bwo gukora bwongerako gusa ibindi bikorwa hanze y'ibanga ry'ibarabara.
+Igiharuro c'amabuye ubwaco si umugambi wo gupfuka amakuru. Ariko block cipher ishobora gukoreshwa n'uburyo butandukanye bwo gukora kugira ngo haboneke imigambi itandukanye yo gupfuka. Uburyo bwo gukora bwongerako gusa ibindi bikorwa hanze y'ibanga ry'ibarabara.
 
 
-Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (BC) rusaba urudodo rw’injiza rw’ibice 128 n’urufunguzo rw’ibanga rw’ibice 128. Igishushanyo ca 5 kiri musi kirerekana ingene iyo cipher y’ibarabara ishobora gukoreshwa n’**uburyo bw’igitabu c’amakode y’ubuhinga bwa none** (**uburyo bwa ECB**) kugira ngo haboneke umugambi wo gupfuka. (Imirongo y’uruzitiro iri iburyo yerekana ko ushobora gusubiramwo iyo nzira igihe cose bikenewe).
+Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (BC) rusaba uruhererekane rw’injiza rw’ibice 128 n’urufunguzo rw’ibanga rw’ibice 128. Igishushanyo ca 5 kiri musi kirerekana ingene iyo cipher y’ibarabara ishobora gukoreshwa n’**uburyo bw’igitabu c’amakode y’ubuhinga bwa none** (**uburyo bwa ECB**) kugira ngo haboneke umugambi wo gupfuka. (Imirongo y’uruzitiro iri iburyo yerekana ko ushobora gusubiramwo iyo nzira igihe cose bikenewe).
 
 
 *Ishusho ya 5: Igiharuro c'ibarabara gifise uburyo bwa ECB*
@@ -1721,19 +1721,19 @@ Kugira ngo tubone ingene ivyo bikora, dufate ko hariho urufunguzo rw’ibanga (B
 Uburyo bwo gupfuka igitabu c’amakode y’ubuhinga bwa none hakoreshejwe ubuhinga bwa block cipher ni ubu. Raba nimba ushobora gucapura ubutumwa bwawe bw’inyandiko rusangi mu bice vy’ibice 128. Niba atarivyo, wongereko **padding** ku butumwa, kugira ngo igisubizo gishobore kugabanywa neza n'ubunini bw'ibice 128. Aya ni amakuru yawe akoreshwa mu nzira yo gushiramwo amakuru.
 
 
-Ubu rero, ugabanye amakuru mu bice vy’imirongo y’ibice 128 ($M_1$, $M_2$, $M_3$, n’ibindi). Gukoresha urudodo rwose rw'ibice 128 biciye mu nzira y'ububiko n'urufunguzo rwawe rw'ibice 128 kugira ngo ukore ibice vy'ibice 128 vy'inyandiko y'ububiko ($C_1$, $C_2$, $C_3$, n'ibindi). Ivyo bice, iyo bisubiye guhurizwa hamwe, bica bigira igisomwa cuzuye c’ibanga.
+Ubu rero, ugabanye amakuru mu bice vy’imirongo y’ibice 128 ($M_1$, $M_2$, $M_3$, n’ibindi). Gukoresha uruhererekane rwose rw'ibice 128 biciye mu nzira y'ububiko n'urufunguzo rwawe rw'ibice 128 kugira ngo ukore ibice vy'ibice 128 vy'inyandiko y'ububiko ($C_1$, $C_2$, $C_3$, n'ibindi). Ivyo bice, iyo bisubiye guhurizwa hamwe, bica bigira igisomwa cuzuye c’ibanga.
 
 
-Gukuraho ni uburyo bwo guhindura, naho uwuronka ubutumwa akeneye uburyo buzwi bwo gukuraho ubutumwa bwose buva mu makuru yasobanuwe kugira ngo asohore ubutumwa bw’inyandiko y’umwimerere.
+Gupfukura amakuru ni uburyo bwo guhindura, naho uwuronka ubutumwa akeneye uburyo buzwi bwo gukuraho ubutumwa bwose buva mu makuru yasobanuwe kugira ngo asohore ubutumwa bw’inyandiko y’umwimerere.
 
 
-Naho bigoranye, igitabu c’amakode y’ubuhinga bwa none nta mutekano gifise. Ivyo ni kubera ko bishikana ku **gushiramwo amakuru y’ibintu**. Imirongo ibiri yose isa n’iyo y’amakuru y’ibice 128 irashirwa mu buryo bumwe nyene. Ayo makuru arashobora gukoreshwa nabi.
+Naho atari ibigoeye ,ipfuka ry'amakuru hakoreshejwe bloc muburyo bwa Electronic Code Book(ECB) nta mutekano gifise. Ivyo ni kubera ko bishikana ku **gushiramwo amakuru y’ibintu**. Imirongo ibiri yose isa n’iyo y’amakuru y’ibice 128 irashirwa mu buryo bumwe nyene. Ayo makuru arashobora gukoreshwa nabi.
 
 
 Ahubwo, umugambi wose wo gupfuka wubakiwe mu gipfukisho c'amabuye ukwiye kuba **ushobora kubaho**: ni ukuvuga, gupfuka ubutumwa bwose $M$, canke igice ico ari co cose c'i $M$, muri rusangi bikwiye gutanga ingaruka zitandukanye igihe cose. [5]
 
 
-**Uburyo bwo gukorana n'uruzitiro rw'amabuye** (**uburyo bwa CBC**) ni bwo buryo busanzwe bukoreshwa cane n'uruzitiro rw'amabuye. Ivyo bihuriweko, iyo bikozwe neza, bivamwo umugambi wo gupfuka amakuru y’ibishoboka. Ushobora kubona ishusho y'ubwo buryo bwo gukora mu *Ishusho ya 6* iri musi.
+**Uburyo bwo gukorana n'uruhererekane rw'ipfuka ry'amakuru hakoreshejwe bloc ** (**uburyo bwa CBC**) ni bwo buryo busanzwe bukoreshwa cane n'uruzitiro rwa bloc. Ivyo bihuriweko, iyo bikozwe neza, bivamwo umugambi wo gupfuka amakuru y’ibishoboka. Ushobora kubona ishusho y'ubwo buryo bwo gukora mu *Ishusho ya 6* iri musi.
 
 
 *Ishusho ya 6: Igishushanyo c'ububiko gifise uburyo bwa CBC*

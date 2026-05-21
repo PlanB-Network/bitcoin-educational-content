@@ -3800,7 +3800,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `includeconf=<dosiye>`: Ishiramwo dosiye y'inyongezo y'imiterere (inzira ijyanye na `datadir/`). Kwemerera gutandukanya uruhara: ishingiro rusangi + umuzigo w'aho hantu urengeje urugero.
+- `includeconf=<dosiye>`: Ishiramwo dosiye y'inyongezo y'imiterere(configuration) (inzira ijanye na `datadir/`). Kwemerera gutandukanya uruhara: ishingiro rusangi + umuzigo w'aho hantu urengeje urugero.
 
 
 
@@ -3824,7 +3824,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `ugutangura=<cmd>` / `uguhagarika=<cmd>`: Gushitsa itegeko mu gutangura canke gufunga.
+- `ugutangura=<cmd>` / `uguhagarika=<cmd>`: Gushitsa itegeko mu gutangura canke gupfunga.
 
 
 
@@ -3842,7 +3842,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `gukosora=<urutonde>|1` / `gukosoragukuraho=<urutonde>`: Gushoboza/guhagarika ivyiciro vy'inyandiko vy'ido n'ido (nk'akarorero `urusenga`, `Mempool`, `RPC`, `kwemeza`...).
+- `gukosora=<urutonde>|1` / `gukosoragukuraho=<urutonde>`: Gushoboza/guhagarika mu mirwi vy'inyandiko vy'ido n'ido (nk'akarorero `urusenga`, `Mempool`, `RPC`, `kwemeza`...).
 
 
 
@@ -3860,7 +3860,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `capa kuri konsole=1`: Yohereza ibimenyetso/ibikosorwa kuri konsole (*stdout*).
+- `capa kuri konsole=1`: kurungika ibimenyetso/ibikosorwa(debug) kuri konsole (*stdout*).
 
 
 
@@ -3872,11 +3872,11 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `Igitekerezo=<cmt>`: Yongerako igitekerezo ku Mukozi-Umukozi P2P.
+- `Iciyu=<cmt>`: Yongerako insiguro ku Mukozi-Umukozi P2P.
 
 
 
-Ubu twarangije gutanga urutonde rw'ibintu vyinshi vy'imiterere. Iyi dosiye `Bitcoin.conf` rero ni yo igize urupapuro nyarwo rw'uruzitiro rwawe: isobanura imiterere y'urubuga, uburongozi bwa Mempool, ikoreshwa rya disiki n'ububiko, gushiramwo urutonde, n'uburongozi rusangi. Niba wifuza kumenya vyinshi kuri iyi dosiye maze ukayihingura ihuye n’ivyo ukeneye, ndagusavye gukoresha [umuhinguzi wa Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Ubu twarangije gutanga urutonde rw'ibintu vyinshi vy'inyubako(configuration). Iyi dosiye `Bitcoin.conf` rero ni yo igize urupapuro nyarwo rw'uruzitiro rwawe: isobanura inyubako y'urubuga, uburongozi bwa Mempool, ikoreshwa rya disiki n'ububiko, gushiramwo urutonde, n'uburongozi rusangi. Nimba wifuza kumenya vyinshi kuri iyi dosiye maze ukayihingura ihuye n’ivyo ukeneye, ndagusavye gukoresha [umuhinguzi wa Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
 
 
 
@@ -3888,7 +3888,7 @@ Ubu ushobora kuja ku gice ca nyuma c’amashure, aho uzoshobora gusuzuma BTC 202
 
 
 
-Ubu hari hari inzira nyinshi ziri imbere yawe. Intambwe ikurikirana mu buryo bwumvikana ni ugushiraho node yawe bwite ya Lightning, kugira ngo wigenga rwose mu bikorwa vyawe vya off-chain. Ivyo nyene ni vyo bigize insiguro y’iyindi nyigisho iri kuri Plan ₿ Academy:
+Ubu hari inzira nyinshi ziri imbere yawe. Intambwe ikurikirana mu buryo bwumvikana ni ugushiraho node yawe bwite ya Lightning, kugira ngo wigenge rwose mu bikorwa vyawe vya off-chain. Ivyo nyene ni vyo bigize insiguro y’iyindi nyigisho iri kuri Plan ₿ Academy:
 
 
 

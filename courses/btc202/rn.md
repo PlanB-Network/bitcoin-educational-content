@@ -3604,13 +3604,13 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- `discardfee=<amt>`: Igiciro (BTC/kvB) kigaragaza ukwihangana kwawe guta Exchange mu kuyishira ku giciro. Ivyiza vyoshobora gutwara amahera arenga ica gatatu c’agaciro kavyo kuri iki kigero biragabanywa.
+- `discardfee=<amt>`: Igiciro (BTC/kvB) kigaragaza ukwihangana kwawe guta Exchange mu kuyashira ku giciro. Ivyiza vyoshobora gutwara amahera arenga ica gatatu c’agaciro kayo kuri ico gipimo aravaho.
 
 
 
 
 
-- `ikigega=<n>`: Ubwinshi bw'ikigega ca Address cakozwe mbere (ivya kera: `1000`). Amafaranga ari make cane yongera ingorane zo gusubizaho ibintu bidatunganye.
+- `ikigega=<n>`: Ubwinshi bw'ikigega ca Address cakozwe mbere (mburabuzi: `1000`). Amafaranga ari make cane yongera ingorane zo gusubizaho ibintu bidatunganye.
 
 
 
@@ -3624,7 +3624,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashini yawe. Ivyo birashobora kuba vyiza canecane nimba ufise uburyo buke, canke, ku rundi ruhande, ubushobozi bwinshi buboneka:
+Dosiye y’imiterere(configuration) iragufasha kandi guhindura amasetingi(settings) ajanye n’imashini yawe. Ivyo birashobora kuba vyiza canecane nimba ufise uburyo buke, canke, ku rundi ruhande, ubushobozi bwinshi buboneka:
 
 
 
@@ -3636,31 +3636,31 @@ Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashin
 
 
 
-- `blocksdir=<dir>`: Itandukanya ahantu amadosiye y'amabuye (`amabuye/blk*.dat` na `amabuye/rev*.dat`) kuva kuri `datadir`. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko bw'amabuye ku rugero rutandukanye, mu gihe ugumya ishingiro rya Leta (`chainstate/`) ku buryo bwihuta, nk'akarorero.
+- `blocksdir=<dir>`: Itandukanya ahantu amadosiye y'amabuye (`amabuye/blk*.dat` na `amabuye/rev*.dat`) kuva kuri `datadir`. Ivyo bishobora kuba ngirakamaro mu gushiramwo ububiko bw'amabuye ku rugero rutandukanye, mu gihe ububiko bw’ishimikiro(`chainstate/`) ku buryo bwihuta, nk'akarorero.
 
 
 
 
 
-- `dbcache=<n>`: Itanga `<n>` MiB ku bubiko bw'amakuru (*LevelDB*) bukoreshwa n'urutonde rw'ibice na `uruzitiro` (ivya kera: `450`). Uko agaciro kagenda karakura, niko IBD n’ugushingira intahe ubu bigenda vyihuta, ku giciro c’ugukoresha RAM nyinshi.
+- `dbcache=<n>`: Itanga `<n>` MiB ku bubiko bw'amakuru (*LevelDB*) bukoreshwa n'urutonde rw'ibice na `uruzitiro` (mburabuzi: `450`). Uko agaciro kagenda karakura, niko IBD n’ugushingira intahe ubu bigenda vyihuta, ku giciro c’ugukoresha RAM nyinshi.
 
 
 
 
 
-- `prune=<n>`: Bishoboza gukata amadosiye y'amabuye no gushinga intego y'umwanya wa disiki muri MiB (ivya kera: `0` = bibujijwe; `1` = gukata n'amaboko biciye kuri RPC; `>=550` = gukata ubwavyo munsi y'intumbero). Ntibihuye na `txindex=1`. Igikoresho kiguma ari igikoresho cemeza neza, ariko ntigishobora gutanga amateka ya kera. Iryo hitamwo ni ngirakamaro canecane iyo umwanya wawe wo kuri disiki ari muto, nk’akarorero, igihe ushizeho urudodo kuri nyabwonko yawe yo muhira.
+- `prune=<n>`: Bishoboza gukata amadosiye y'amabuye no gushinga intego y'umwanya wa disiki muri MiB (mburabuzi: `0` = bibujijwe; `1` = gukata n'amaboko biciye kuri RPC; `>=550` = gukata ubwavyo munsi y'intumbero). Ntibihuye na `txindex=1`. Igikoresho kiguma ari igikoresho cemeza neza, ariko ntigishobora gutanga amateka ya kera. Iryo hitamwo ni ngirakamaro canecane iyo umwanya wawe wo kuri disiki ari muto, nk’akarorero, igihe ushizeho urudodo kuri nyabwonko yawe yo muhira.
 
 
 
 
 
-- `txindex=1` : Yubaka kandi ikarinde urutonde rw’isi rw’ibikorwa byemejwe. Ni ngombwa ku busabe bumwe (`getrawtransaction` hanze y’umufuka) no mu bushakashatsi, ariko byongera cyane gukoresha disiki. Ntibijyana n’imikorere yo kugabanya amakuru.
+- `txindex=1` : Yubaka kandi ikarinde urutonde rw’isi rw’ibikorwa vyemejwe. Ni ngombwa ku busabe bumwe (`getrawtransaction` hanze y’umufuko) no mu bushakashatsi, ariko vyongera cane gukoresha disiki. Ntibijana n’imikorere yo kugabanya amakuru.
 
 
 
 
 
-- `assumevalid=<hex>`: Yerekana igice ciyumvirwa ko gifise akamaro, kiguha uburenganzira bwo gusimbuka igenzura ry'inyandiko ku ba sekuruza bayo (shinga `0` kugira ngo usuzume vyose). Raba ikigabane c’imbere kugira ngo umenye vyinshi.
+- `assumevalid=<hex>`: Yerekana block ifatwa nk’iyemewe, bikaguha uburenganzira bwo gusimba igenzura ry'inyandiko ku ba sekuruza bayo (shira `0` kugira ngo usuzume vyose). Raba ikigabane c’imbere kugira ngo umenye vyinshi.
 
 
 
@@ -3684,7 +3684,7 @@ Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashin
 
 
 
-- `coinstatsindex=1`: Ibungabunga urutonde rw'imibare rwa UTXO rukoreshwa n'uguhamagara. Ni ngirakamaro ku bijanye n’igenzura n’ibipimo, bikakuraho ivy’ugusubira kubara bizimvye. Izimye ku mburabuzi.
+- `coinstatsindex=1`: Ibungabunga urutonde rw'ibiharuro rwa UTXO rukoreshwa n'uguhamagara. Ni ngirakamaro ku bijanye n’igenzura n’ibipimo, bikakuraho ivy’ugusubira guharura bizimvye. Izimye ku mburabuzi.
 
 
 
@@ -3696,7 +3696,7 @@ Dosiye y’imiterere iragufasha kandi guhindura amaparametere ajanye n’imashin
 
 
 
-- `par=<n>`: Ishinga umubare w'indodo zo kugenzura inyandiko (kuva kuri `-10` gushika kuri `15`, `0` = auto, `<0` = isiga uwo mubare w'imirongo y'ubuntu). Iguha uburenganzira bwo guhindura uburinganire bwa CPU mu gihe co kwemeza. Uburyo bw’ivyuma burabereye mu bihe vyinshi.
+- `par=<n>`: Ishinga igiharuro c'indodo zo kugenzura inyandiko (kuva kuri `-10` gushika kuri `15`, `0` = auto, `<0` = isiga ico giharuro c'imirongo y'ubuntu). Iguha uburenganzira bwo guhindura uburinganire bwa CPU mu gihe co kwemeza. Uburyo bw’ivyuma burabereye mu bihe vyinshi.
 
 
 
@@ -3734,13 +3734,13 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `rpcbind=<adr>[:icuma]`: RPC umukozi yumviriza Address/icuma. Ku mburabuzi, kwumviriza bikorwa mu karere gusa (`127.0.0.1` na `::1`). Iyi parametere irarengagizwa iyo `rpcallowip` nayo itasobanuwe. Uyikoreshe kugira ngo uhagarike Interface.
+- `rpcbind=<adr>[:port]`: RPC umukozi yumviriza Address/port. Ku mburabuzi, kwumviriza bikorwa mu karere gusa (`127.0.0.1` na `::1`). Iyi parametere irarengagizwa iyo `rpcallowip` nayo itasobanuwe. Uyikoreshe kugira ngo uhagarike Interface.
 
 
 
 
 
-- `rpcport=<icuma>`: Icuma ca RPC (ivya kera: `8332` kuri Mainnet, `18332` kuri Testnet, `38332` ku kimenyetso c'igitabu, `18443` ku kigeragezo).
+- `rpcport=<port>`: Port ca RPC (ivya kera: `8332` kuri Mainnet, `18332` kuri Testnet, `38332` ku kimenyetso c'igitabu, `18443` ku kigeragezo).
 
 
 
@@ -3752,7 +3752,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `rpcauth=<IZINA RY'UMUKORESHA>:<UMUNYU>$<Hash>`: Uburyo bwo kwemeza RPC bushimikijwe (ijambobanga ry'ibanga). Kwemera kwinjira kenshi kandi kirinda kubika ibanga mu nyandiko igaragara.
+- `rpcauth=<IZINA RY'UMUKORESHA>:<UMUNYU>$<Hash>`: Uburyo bwo kwemeza RPC bushimikijwe (ijambo banga ry'ibanga). Kwemera kwinjira kenshi kandi kwirinda kubika ibanga mu nyandiko igaragara.
 
 
 
@@ -3770,7 +3770,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `rpcthreads=<n>`: Umubare w'indodo zo gukoresha amahamagara ya RPC (ivya kera: `4`). Wongereko nimba ufise amasonga menshi y’uguhamagara ku ruhande rw’ibikoresho vyo kugenzura/vyo hanze.
+- `rpcthreads=<n>`: Igiharuro c'indodo zo gukoresha amahamagara ya RPC (mburabuzi: `4`). Wongereko nimba ufise amasonga menshi y’uguhamagara ku ruhande rw’ibikoresho vyo kugenzura/vyo hanze.
 
 
 
@@ -3794,7 +3794,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-- `conf=<dosiye>`: Igaragaza, ku murongo w'itegeko gusa, dosiye y'imiterere isomwa gusa. Ni ngirakamaro mu gukonja urutonde rw'ibikorwa (rudahinduka) ku ruhande rw'ibikorwa.
+- `conf=<dosiye>`: Igaragaza, ku murongo w'itegeko gusa, dosiye y'inyubako isomwa gusa. Ni ngirakamaro mu gukonja urutonde rw'ibikorwa (rudahinduka) ku ruhande rw'ibikorwa.
 
 
 

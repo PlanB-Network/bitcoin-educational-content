@@ -3498,11 +3498,9 @@ Aha niho hari amasetingi(settings) ateye imbere ya Mempool n’ingingo ngenderwa
 
 
 
-- `blockreconstructionextratxn=<n>`: Umubare w'ibikorwa vy'inyongera bigumye mu bubiko kugira ngo wongere wubake amabuye akomeye (ivya kera: `100`). Itera imbere mu kuroranirwa kw’ibikorwa vyo gusubira kwubaka mu gihe c’uguhuza ibintu bikomeye, ku giciro c’ukwibuka guke.
+- `blockreconstructionextratxn=<n>`: Igiharuro c'ibikorwa vy'inyongera bigumye mu bubiko kugira ngo wongere wubake amabuye akomeye (mburabuzi: `100`). Itera imbere mu kuroranirwa kw’ibikorwa vyo gusubira kwubaka mu gihe c’uguhuza ibintu bikomeye, ku giciro c’ukwibuka guke.
 
-
-
-Nk’ukwibutsa, ayo mategeko yose y’ugutanga amakuru ntaco akora ku vyerekeye ukuri kw’ibikorwa vy’ubudandaji biri mu gice gifise agaciro. Bifasha guhindura umusanzu wawe ku bijanye n’ugutanga, kurinda ubutunzi bwawe, no gutuma urudodo rwawe rushobora gutegekanirwa mu bidukikije bigoranye, ariko ntivyigera bikwemerera kwanka amabuye yubaha amategeko y’ugusezerana.
+Nk’ukwibutsa, ayo mategeko yose y’ugukwiragiza amakuru nta co ahindura ku vyerekeye ukwemerwa kw’ibikorwa vy’ubudandaji biri mu gice (block) cemewe. Ayo mategeko afasha gusa guhindura uburyo urutonde rwawe rutanga amakuru, kurinda ibikoresho vyawe, no gutuma nœud yawe ikora neza kandi igategurwa mu bidukikije bigoye, ariko ntibishobora gutuma wanka amablock yubahirije amategeko y’ugusezerana (consensus).
 
 
 
@@ -3510,19 +3508,19 @@ Nk’ukwibutsa, ayo mategeko yose y’ugutanga amakuru ntaco akora ku vyerekeye 
 
 
 
-Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.conf`. Niba udakoresha Wallet mu Core, ahubwo ukoresha porogaramu zo hanze nka Sparrow canke Liana, ibi bipimo ntibizoba bifise akamaro kanini:
+Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.conf`. Niba udakoresha Wallet muri Core, ahubwo ukoresha porogarama zo hanze nka Sparrow canke Liana, ibi bipimo ntibizoba bifise akamaro kanini:
 
 
 
 
 
-- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Igena uburyo bw’amaherere bukorwa n’umufuka mu kwakira.
+- `addresstype=<legacy|p2sh-segwit|bech32|bech32m>` : Igena ubwoko bw’aderesi umufuko ukoresha mu kwakira amafaranga.
 
 
 
 
 
-- `uguhindura ubwoko=<iragi|P2SH-SegWit|bech32|bech32m>`: Guhatira Exchange Address uburyo (igisigaye c'inyungu ku kwishura kumwe).
+- `uguhindura ubwoko=<iragi|P2SH-SegWit|bech32|bech32m>`: Guhatira Exchange Address uburyo z’ivunjisha (igisigaye c'inyungu ku kwishura kumwe).
 
 
 
@@ -3534,49 +3532,49 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- `walletdir=<dir>`: Ububiko burimwo amasakoshi (ivya kera: `<amakuru>/amasakoshi` nimba ariho, ahandi ho `<amakuru>`). Ivyo birashobora kuba ngirakamaro nimba wipfuza kubika ama wallet ku gitabu cihariye canke gipfutse.
+- `walletdir=<dir>`: Ububiko burimwo amasakoshi (mburabuzi: `<amakuru>/amasakoshi` nimba ariho, ahandi ho `<amakuru>`). Ivyo birashobora kuba ngirakamaro nimba wipfuza kubika ama wallet ku gitabu cihariye canke gipfutse.
 
 
 
 
 
-- `walletbroadcast=1`: Itangaza ubwayo ibikorwa vyakozwe n'amasakoshi yuzuye (ivya kera: `1`). Tegura kuri `0` niba wipfuza gucunga gutangaza biciye ku yindi nzira.
+- `walletbroadcast=1`: Itangaza ubwayo ibikorwa vyakozwe n'amasakoshi yuzuye (mburabuzi: `1`). Tegura kuri `0` niba wipfuza gucunga gutangaza biciye ku yindi nzira.
 
 
 
 
 
-- `walletrbf=1`: Bishoboza RBF guhitamwo kwinjira kugira ngo yerekane RBF ku bikorwa vyose (ivya kera: `1`). Iguha uburenganzira bwo kwongera amafaranga mu nyuma iyo habayeho ugucuruza kwabujijwe.
+- `walletrbf=1`: Bishoboza RBF guhitamwo kwinjira kugira ngo yerekane RBF ku bikorwa vyose (mburabuzi: `1`). Bituma bishoboka kwongera amafaranga y’ukwishura mu nyuma iyo igikorwa kitashoboye kwinjizwa muri block.
 
 
 
 
 
-- `txconfirmtarget=<n>`: Intumbero y'ukwemeza y'ibikorwa (mu mubare w'ibice, mburabuzi: `6`). Wallet izoca ihita ishinga amahera y’ugucuruza azokwemezwa muri uwo mubare w’amabuye.
+- `txconfirmtarget=<n>`: Intumbero y'ukwemeza y'ibikorwa (mu biharuro vy'ibice, mburabuzi: `6`). Wallet izoca ihita ishinga amahera y’ugucuruza azokwemezwa muri vyo biharuro vy’amabuye.
 
 
 
 
 
-- `payxfee=<amt>`: Igiciro c'amahera adahinduka (BTC/kvB) gikoreshwa ku bikorwa vy'ubudandaji vya Wallet. Irinde muri rusangi: koresha ingereranyo ihuye biciye ku `txconfirmtarget`.
+- `payxfee=<amt>`: Igiciro c'amahera adahinduka (BTC/kvB) gikoreshwa ku bikorwa vy'ubudandaji vya Wallet. Irinde muri rusangi: koresha ingereranyo ihuye biciye kuri `txconfirmtarget`.
 
 
 
 
 
-- `fallbackfee=<amt>` : Igiciro cy’inyongera (BTC/kvB) gikoreshwa igihe umupima atabonye amakuru (defaults: `0.00`). Kugitera kuri 0 birahagarika burundu iyi gahunda y’inyongera.
+- `fallbackfee=<amt>` : Igiciro c’inyongera (BTC/kvB) gikoreshwa igihe uwupima atabonye amakuru (mburabuzi(defaut): `0.00`). Gushira kuri 0 birahagarika burundu iyi gahunda y’inyongera.
 
 
 
 
 
-- `mintxfee=<amt>`: Igitigiri gitoyi (BTC/kvB) ca Wallet kugira ngo ureme amafaranga (ivya kera: `0.00001`). Wallet izokwanka kwubaka ubucuruzi buri munsi y’iyi nzira.
+- `mintxfee=<amt>`: Igitigiri gitoyi (BTC/kvB) ca Wallet kugira ngo ureme amafaranga (mburabuzi: `0.00001`). Wallet izokwanka kwubaka ubucuruzi buri munsi y’iyi nzira.
 
 
 
 
 
-- `maxtxfee=<amt>`: Igitigiri c'amafaranga yose y'ugucuruza Wallet (ivya kera: `0.10` BTC). Ikingira amafaranga menshi cane adasanzwe yoshobora gusenyura bitcoins ataco bimaze.
+- `maxtxfee=<amt>`: Igitigiri c'amafaranga yose y'ugucuruza Wallet (mburabuzi: `0.10` BTC). Ikingira amafaranga menshi cane adasanzwe yoshobora gusenyura bitcoins ataco bimaze.
 
 
 
@@ -3588,7 +3586,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- `spendzeroconfchange=1`: Yemerera UTXO Exchange itaremejwe gusubira gukoreshwa nk'inyandiko mu gucuruza gushasha (ivya kera: `1`).
+- `spendzeroconfchange=1`: Yemerera UTXO Exchange itaremezwa gusubira gukoreshwa nk'inyandiko mu gucuruza gushasha (mburabuzi: `1`).
 
 
 
@@ -3600,7 +3598,7 @@ Ushobora kandi guhindura uburyo amasakoshi yawe acungirwa muri dosiye `Bitcoin.c
 
 
 
-- `maxapsfee=<n>`: Ingingo y'imari y'inyongera (BTC, agaciro nyako) Wallet yemera kwishura kugira ngo ikoreshe uburyo bwa "*kwirinda gukoresha igice*".
+- `maxapsfee=<n>`: Igenamigambi ry’amafaranga y'inyongera (BTC, agaciro nyako) Wallet yemera kwishura kugira ngo ikoreshe uburyo bwo "*kwirinda gukoresha igice*".
 
 
 

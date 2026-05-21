@@ -3430,7 +3430,7 @@ Aha niho hari ivyagezwe(settings) y'ishimikiro ushobora guhindura kuri `Bitcoin.
 
 
 
-Nk’ukwibutsa, RBF ni uburyo bwo gukorana n’abandi bufasha uwurungitse gusubirira ubucuruzi n’ubundi bufise amahera menshi kugira ngo umuntu yihute kwemeza. Iyo igikorwa gifise amafaranga make cane kigumye kibujijwe, uwugirungitse arashobora gukoresha *Replace-by-fee* kugira ngo yongere amafaranga yongere ashire imbere igikorwa cabo co gusubirira muri mempools no mu bacukuzi b’amabuye y’agaciro.
+Nk’ukwibutsa, RBF ni uburyo bwo gukorana n’abandi bufasha uwurungitse gusubirira ubucuruzi n’ubundi bufise amahera menshi kugira ngo umuntu yihute kwemeza. Iyo igikorwa gifise amafaranga make cane kigumye kibujijwe, uwukirungitse arashobora gukoresha *Replace-by-fee* kugira ngo yongere amafaranga yongere ashire imbere igikorwa cabo co gusubirira muri mempools no mu bacukuzi b’amabuye y’agaciro.
 
 
 
@@ -3438,37 +3438,37 @@ Nk’ukwibutsa, RBF ni uburyo bwo gukorana n’abandi bufasha uwurungitse gusubi
 
 
 
-Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugutanga amakuru. Niwaba uri umutanguzi, ntukwiye guhindura aya magenamiterere:
+Aha niho hari amasetingi(settings) ateye imbere ya Mempool n’ingingo ngenderwako y’ugutanga amakuru. Niwaba uri umutanguzi, ntukwiye guhindura aya amasetingi(settings):
 
 
 
 
 
-- `datacarrier=1` : Iremeza kohereza no kongeramo ibikorwa bifite amakuru adafitanye isano n’amafaranga binyuze kuri `OP_RETURN` output (muri defaults: `1`) igihe bikorwa binyuze ku node. Kureka iri tegeko bigabanya gato spam y’amakuru adafitanye isano n’amafaranga ariko bigatuma bidahuza neza n’imikoreshereze imwe. Mu gihe cyose, ugomba kwemera `OP_RETURN` byacukuwe.
+- `datacarrier=1` :Yemerera gukwiragiza no (iyo iyo nœud ikoreshwa mu gucukura) kwinjiza ibikorwa bitwaye amakuru atari ayo amafaranga biciye kuri output OP_RETURN (default : 1). Guhagarika iri tegeko bigabanya gatoyi ikwiragizwa rya spam y’amakuru atari ayo amafaranga, ariko bikagabanya uguhuza n’imikoreshereze imwe imwe. Muri ico gihe, utegerezwa kwemera ama OP_RETURN zacukuwe.
 
 
 
 
 
-- `ubunini bw'umutwazi w'amakuru=<n>`: Ubunini burengeye (mu bytes) bwa `OP_RETURN` iyo node irungika (imbere: `83`). Kugabanya aka gaciro bigabanya imizigo itwarwa biciye ku `OP_RETURN`. Iyumvire ko iyo nzira izokurwaho ku buryo busanzwe muri verisiyo izoza ya Bitcoin core.
+- `ubunini bw'umutwazi w'amakuru=<n>`: Ubunini burengeye (mu bytes) bwa `OP_RETURN` iyo node irungika (imbere: `83`). Kugabanya aka gaciro bigabanya imizigo itwarwa biciye kuri `OP_RETURN`. Iyumvire ko iyo nzira izokurwaho ku buryo busanzwe muri verisiyo izoza ya Bitcoin core.
 
 
 
 
 
-- `bytespersigop=<n>`: Igiharuro gihindura ibikorwa vy'umukono mu bice bingana vy'isuzuma ry'imipaka y'ivy'ugutanga (ivya kera: `20`). Ivyo bizogira ico bikoze ku kwemera amafaranga y’ubutunzi bwa `sigops` hakurikijwe amategeko y’intara.
+- `bytespersigop=<n>`: Igiharuro gihindura ibikorwa vy'umukono mu bice bingana vy'isuzuma ry'imipaka y'ivy'ugutanga (mburabuzi: `20`). Ivyo bizogira ico bikoze ku kwemera amafaranga y’ubutunzi bwa `sigops` hakurikijwe amategeko ngenderwako y’aho nyene.
 
 
 
 
 
-- `ukwemerera vyinshi = 1`: Kwemerera gutanga amakuru *bare-Multisig* P2MS (ivya kera: `1`). Iyi ni yo nzira ya kera cane yo gushinga ivyangombwa vy’imikono myinshi ku UTXO (yavumbuwe mu 2011 na Gavin Andresen).
+- `ukwemerera vyinshi = 1`: Kwemerera gutanga amakuru *bare-Multisig* P2MS (mburabuzi: `1`). Iyi ni yo nzira ya kera cane yo gushinga ivyangombwa   [multisignature](https://planb.academy/resources/glossary/multisig) kuri UTXO (yavumbuwe mu 2011 na Gavin Andresen).
 
 
 
 
 
-- `whitelistrelay=1`: Itanga uburenganzira bwo gutanga uruhusha ku bandi bari ku rutonde rweranda (ivya kera: `1`). Abo bagenzi bafise amafaranga yabo yemerwa n’ivyo bikoresho naho node yawe yoba itari mu buryo rusangi.
+- `whitelistrelay=1`: Itanga uburenganzira bwo gutanga uruhusha ku bandi bari ku rutonde rweranda (mburabuzi: `1`). Abo bagenzi bafise amafaranga yabo yemerwa n’ivyo bikoresho naho node yawe yoba itari mu buryo rusangi.
 
 
 
@@ -3480,19 +3480,19 @@ Aha niho hari amasetingi ateye imbere ya Mempool n’ingingo ngenderwako y’ugu
 
 
 
-- `whitebind=<[uburenganzira@]addr>` / `urutonde rwera=<[uburenganzira@]CIDR>`: Iboha urutonde rwa Interface canke Address maze igatanga uburenganzira bw'intete nziza ku bagenzi bihuye: `ugusubiza`, `ugusubiza inguvu`, `G5-1 `noban`, `gukuraho`, `aderesi`, `akayunguruzo k'amashurwe`. Ivyo birashobora kuba ngirakamaro mu gutanga ubuvuzi bw’agaciro ku bagenzi bizigira (nk’amarembo, ama LAN, n’ibikorwa vyo mu mutima).
+- `whitebind=<[uburenganzira@]addr>` / `urutonde rwera=<[uburenganzira@]CIDR>`: Bihuza interface canke urutonde rw’ama aderesi maze bigaha uburenganzira budasanzwe ama nœuds bihuye na vyo: `ugusubiza`, `ugusubiza inguvu`, `G5-1 `noban`, `gukwega(download)`, `aderesi`, `akayunguruzo k'amashurwe`. Ivyo birashobora kuba ngirakamaro mu gutanga ubuvuzi bw’agaciro ku bagenzi bizigira (nk’amarembo, ama LAN, n’ibikorwa vyo mu mutima).
 
 
 
 
 
-- `peerbloomfilters=1` : Iremeza ikoreshwa ry’amasefa ya Bloom (BIP37) kugira ngo ihereze abakiriya boroshye ibibaho/ibikorwa byayunguwe (defaults: `0`). Icyitonderwa, ibi byongera imirimo ku bikoresho byawe.
+- `peerbloomfilters=1` : Iremeza ikoreshwa ry’amasefa ya Bloom [filtres Bloom](https://planb.academy/resources/glossary/bloom-filter) (BIP37) kugira ngo ihereze abakiriya boroshe ibibaho/ibikorwa byayunguwe (defaults: `0`). Icitonderwa, ibi vyongera imirimo ku bikoresho vyawe.
 
 
 
 
 
-- `peerblockfilters=1` : Itanga amasefa agufi ya BIP157 (*Neutrino*) ku bandi (defaults: `0`).
+- `peerblockfilters=1` : Itanga amasefa yegeranye ya BIP157 (*Neutrino*) ku bandi (defaults: `0`).
 
 
 

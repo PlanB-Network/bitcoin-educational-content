@@ -1,5 +1,5 @@
 question: Ni uruhe rutonde rw’amakuru node ya Bitcoin ibika mu karere kugira ngo ikurikirane umusaruro utakoreshejwe?
-answer: Ivyo UTXO
+answer: UTXO set
 wrong_answers:
   - Igitabo ca Mempool.
   - Igitabo ca Blockchain.

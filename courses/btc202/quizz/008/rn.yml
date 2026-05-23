@@ -1,9 +1,9 @@
-question: Ni igikorwa nyamukuru ikihe Bitcoin Wallet ikora?
-answer: Kubika no gucunga imfunguruzo z'ibanga
+question: Ni igiki Wallet ikeneye gukora kugira ibone uko Blockchain imeze?
+answer: Guhuza node ya hafi canke iya kure
 wrong_answers:
-  - Bika kandi ucunge Blockchain yuzuye.
-  - Suzuma ukuri kw'ububiko
-  - Guhanahana amakuru ku rubuga
+  - Kubaza izindi wallets ziri ku rubuga.
+  -  Kubaza abacukuzi bo ku rubuga
+  - Guhuza na plateforme yo guhanahanirako amafaranga kuri internet
 explanation: |
-  Bitcoin Wallet icungera imfunguruzo z’ibanga zituma bitcoins zikoreshwa, ariko ntikora ibikorwa vy’urudodo.
+   Wallet ikeneye kwifatanya na node kugira ibone amakuru y’uko Blockchain imeze no kugira ishobore kurungika transactions.
 reviewed: true

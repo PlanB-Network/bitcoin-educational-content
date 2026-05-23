@@ -1,9 +1,9 @@
-question: Ni itandukaniro irihe ry’ubutunzi hagati ya node na Miner?
-answer: Miner ironka ingororano, iyo node nta nyungu itaziguye ifise
+question: N'itandukaniro irihe ry’ubutunzi hagati ya node na Miner?
+answer: Miner aronka agashimwe, iyo node nta nyungu itaziguye ifise
 wrong_answers:
   - Node yaronse amafaranga, Miner yaronse infashanyo
-  - Ico gice kironka impembo, Miner nta nyungu itaziguye ifise
+  - Ico gice kironka impembo, Miner nta nyungu itaziguye afise
   - Bompi baronka ibihembo bimwe .
 explanation: |
-  Abacukuzi b’amabuye y’agaciro bararonka impembo (infashanyo n’amahera), mu gihe node nta nyungu y’amahera itaziguye izana ku wuyikoresha.
+  Abacukuzi b’amabuye y’agaciro bararonka impembo (infashanyo n’amahera),  ariko node yo ntironka inyungu y’amafaranga itaziguye ku muntu ayikoresha.
 reviewed: true

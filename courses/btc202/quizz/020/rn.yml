@@ -1,5 +1,5 @@
-question: None bigenda gute iyo umugwi urenganye amategeko y’uguhurizako?
-answer: Ubwo nyene bica bivanwa n'ibihimba .
+question:  Bigenda gute iyo block itubahirije amategeko ya consensus?
+answer: Ihita ikugwamwo na node.
 wrong_answers:
   - Ibitswe muri Mempool irindiriye kwemezwa
   - Irungikwa gusa n'ibihimba vyemeza ayandi mategeko

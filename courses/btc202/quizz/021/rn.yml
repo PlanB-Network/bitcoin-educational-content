@@ -1,9 +1,9 @@
-question: Ni ikihe kintu kigena ico urudodo rugira ku mategeko y’uguhurizako?
+question: Ni igiki kigena uburemere bwa node mu mategeko ya consensus??
 answer: Uburemere bwayo bw'ubutunzi
 wrong_answers:
-  - Umubare w'amahuza asohoka
-  - Ubukuru mu rubuga
-  - Ntaco, kuko buri node ifise itora rimwe
+  - N'Igiharuro c'amahuza asohoka
+  - Igihe imaze mu rubuga
+  - Nta na kimwe, kuko node yose ifise ijwi rimwe
 explanation: |
-  Inkurikizi ku mategeko y’uguhurizako zivana n’igikorwa c’ubutunzi gishigikiwe n’urudodo, atari umubare wayo.
+  Inkurikizi ku mategeko y’uguhurizako bivana n’igikorwa c’ubutunzi gishigikiwe na node, atari igiharuro  cayo.
 reviewed: true

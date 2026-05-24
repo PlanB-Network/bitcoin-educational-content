@@ -1,8 +1,8 @@
 question: Ni igiki kidasanzwe ku node ya SPV?
-answer: Igumya gusa imitwe y'amabuye
+answer: Ibika gusa block headers
 wrong_answers:
   - Igumya Blockchain yose kuva ku gice ca Genesis .
-  - Ibika gusa amabuye aherutse
+  - Ibika gusa blocks ziheruka
   - Igumya gusa UTXO set, si Blockchain.
 explanation: |
   Igikoresho ca SPV kigenzura ibikorwa biciye ku mitwe y’amabuye n’ibimenyamenya vya Merkle, ata kubika amakuru yose.

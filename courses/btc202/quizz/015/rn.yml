@@ -4,6 +4,5 @@ wrong_answers:
   - Bitcoin Cash
   - BTCD
   - Bcoin
-explanation: |
-  Bitcoin Knots, yateguwe na Luke Dashjr, ni Fork ya Core, itanga uburyo bwo kwongerako n’iyerekwa ry’ubuhinga.
+explanation: Bitcoin Knots ni fork ya Bitcoin Core yatunganijwe na Luke Dashjr, ni Fork ya Core, itanga uburyo bwo kwongerako n’iyerekwa ry’ubuhinga.
 reviewed: true

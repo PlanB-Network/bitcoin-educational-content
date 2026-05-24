@@ -1,9 +1,9 @@
-question: Ni ryari urudodo rwa pruned ruba ingorane kuri Wallet?
-answer: Igihe basubizaho Wallet ya kera.
+question: Ni ryari pruned node ishobora kuba ikibazo kuri wallet?
+answer: Igihe basubijeho Wallet ya kera.
 wrong_answers:
-  - Igihe urema ikibanza gishasha co kwakira abantu Address.
+  - Iyo uriko urarema aderesi nshasha yo kwakira.
   - Igihe wohereje amafaranga aherutse gukoreshwa
   - Igihe uhisemwo amafaranga
-explanation: |
-  Igikoresho ca pruned ntikigumya amabuye ya kera, ivyo bishobora kubuza ko amafaranga ya kera adashobora gusuzumwa mu gihe co gusubizaho.
+explanation: Pruned node ntibika old blocks zose za kera.
+  Ivyo bishobora gutuma transactions za kera zitaboneka igihe uriko urasubiza kugarura wallet.
 reviewed: true

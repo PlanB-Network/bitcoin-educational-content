@@ -1,9 +1,9 @@
-question: Ni akamaro akahe nyamukuru k’urudodo-mu-sandugu ku gushirwa mu ngiro kw’ibintu bitagiramwo ivyatsi?
-answer: Gushiramwo vyoroshe no gucunga porogaramu zihuriweko
+question: Ni iki kidasanzwe gituma node-in-a-box itandukana na raw implementation??
+answer: Gushiramwo vyoroshe no gucunga porogarama zihuriweko
 wrong_answers:
   - Gusuzuma bikomeye amategeko y'ubumwe
   - Ushobora gushika kuri Blockchain ata bubiko
-  - Uguhuza n’iyindi mafaranga atari Bitcoin.
+  - Uguhuza n’ayandi mafaranga atari Bitcoin.
 explanation: |
   Node-in-a-box yorosha gushiramwo no gucunga ibikorwa vyinshi vy'inyongera biciye ku Interface yunze ubumwe.
 reviewed: true

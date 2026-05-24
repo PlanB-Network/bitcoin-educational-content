@@ -1,9 +1,8 @@
-question: Ni itandukaniro irihe rikomeye hagati y’ugushirwa mu ngiro kw’ibintu bitagiramwo ivyatsi n’ugushirwa mu ngiro kw’ibintu bishasha?
-answer: Kuba hariho Interface n'ibikorwa bihuriweko
+question: Ni nde ashinzwe kubungabunga (maintain) umugambi wa Bitcoin Knots?
+answer: Luke Dashjr
 wrong_answers:
-  - Ubuhuza n'urubuga
-  - Ingano ya Blockchain ibitswe kuri disiki
-  - Amategeko n'amafaranga vyakoreshejwe
-explanation: |
-  Ishirwa mu ngiro ritagiramwo ibintu rishiramwo gusa porogarama y’uruzitiro, mu gihe uruzitiro-mu-sandugu rwongerako Interface, App Store, n’ibikorwa vy’uruzitiro.
+  - Gavin Andresen
+  - Wladimir J. Van Der Laan
+  - Pieter Wuille
+explanation: | Bitcoin Knots ibungabungwa na Luke Dashjr kandi ni yo alternative client nyamukuru ikoreshwa mu kibanza ca Bitcoin Core.
 reviewed: true

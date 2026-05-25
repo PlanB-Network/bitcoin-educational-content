@@ -1742,16 +1742,16 @@ Ahubwo, umugambi wose wo gupfuka wubakiwe mu gipfukisho c'amabuye ukwiye kuba **
 ![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 
-Twibaze ko ubunini bw’ibarabara ari 128 bits. Rero kugira ngo utangure, wosubira gukenera kwizigira ko ubutumwa bwawe bw’intango bwo mu nyandiko zisanzwe buronka ivyiza bikenewe.
+Twibaze ko ubunini bwa blocs ari 128 bits. Rero kugira ngo utangure, wosubira gukenera kwizigira ko ubutumwa bwawe bw’intango bwo mu nyandiko zisanzwe buronka ukuzura gukwiye.
 
 
-Hanyuma, ukora XOR igice ca mbere c'ibice 128 c'inyandiko yawe isanzwe n'**umurongo w'intango** w'ibice 128. Ico gisubizo gishirwa mu gipfukisho c'ibarabara kugira ngo haboneke inyandiko y'ibarabara y'ibarabara rya mbere. Ku gice ca kabiri c'ibice 128, ubanza XOR umwandiko usanzwe n'inyandiko y'ibanga ivuye mu gice ca mbere, imbere y'uko uyishira mu gice c'ibanga. Ubandanya iyo nzira gushika umaze gushiramwo ubutumwa bwawe bwose bw’inyandiko rusangi.
+Hanyuma, uca ukoresha ubuhinga bwa XOR kugice ca mbere ca block 128 c'ubutumwa bwawe isanzwe n'**umurongo w'intango** w'ibice 128. Ico gisubizo gishirwa mu gipfukisho ca bloc kugira ngo haboneke inyandiko ipfutse kuri bloc ya mbere. Ku gice ca kabiri c'ibice 128, ubanza gukoresha ubhinga bwa XOR inyandiko isanzwe n'inyandiko y'ibanga ivuye mu gice ca mbere, imbere y'uko uyishira mu gice c'ibanga. Ubandanya iyo nzira gushika umaze gushiramwo ubutumwa bwawe bwose bw’inyandiko rusangi.
 
 
-Iyo uhejeje, wohereza ubutumwa bushizwemwo amakuru hamwe n’umurongo w’intango utashizwemwo amakuru ku wubwakira. Uwuronka amakuru arakeneye kumenya umurongo w’intango, ahandi ho ntashobora gusobanura amajambo y’ibanga.
+Iyo uhejeje, uca urungika ubutumwa bupfutse  hamwe n’umurongo w’intango udapfutse kuri nyene ubutumwa. Uwuronka amakuru arakeneye kumenya umurongo w’intango, ahandi ho ntashobora gusobanura amajambo y’ibanga.
 
 
-Iyi nyubakwa iratekanye cane kuruta uburyo bwo gukoresha igitabu c’amakode y’ubuhinga bwa none iyo ikoreshejwe neza. Ushobora, ubwa mbere, kumenya neza ko umurongo w'intango ari urudodo rw'imburakimazi canke rw'imburakimazi. Ikindi, ushobora gukoresha umurongo w'intango utandukanye igihe cose ukoresheje iyi nzira yo gupfuka.
+Iyi nyubakwa ifise umutekano munini kuruta uburyo bwa Electronic Code Book (ECB) iyo ikoreshejwe neza. Ushobora, ubwa mbere, kumenya neza ko umurongo w'intango ari uruhererekane ruhitishijwemwo canke rw'imburakimazi. Ikindi, utegerezwa gukoresha umurongo w'intango utandukanye igihe cose ukoresheje iyi nzira yo gupfuka amakuru.
 
 
 Mu yandi majambo, umurongo wawe w'intango ugomba kuba Nonce, aho **Nonce** ihagarariye "umubare ukoreshwa rimwe gusa." Niwagumya iyo ngeso, rero uburyo bwa CBC bufise igiharuro c'amabara buratuma amabara abiri yose asa n'ayanditswe rusangi azoshirwa mu buryo butandukanye igihe cose.
@@ -1766,19 +1766,19 @@ Ubwa nyuma, reka twibande kuri **uburyo bwo gutanga inyishu** (**uburyo bwa OFB*
 ![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 
-Na OFB mode uhitamwo kandi umurongo w'intango. Ariko hano, ku gice ca mbere, umurongo w'intango winjira mu gice c'ibanga n'urufunguzo rwawe. Ivyo biva muri 128-bits rero, bifatwa nk’urufunguzo. Uyu murongo w'urufunguzo ni XORed n'inyandiko rusangi kugira ngo uvemwo inyandiko y'ibanga y'ibarabara. Ku bice bikurikira, ukoresha urufunguzo ruva ku gice c'imbere nk'inyungu mu gice c'inyuma maze ugasubiramwo intambwe.
+Na OFB mode uhitamwo kandi umurongo w'intango. Ariko hano, ku gice ca mbere, umurongo w'intango winjira mu gice c'ibanga n'urufunguzo rwawe. Ivyo biva muri 128-bits rero, bifatwa nk’urufunguzo. Uyu murongo w'urufunguzo uzoca n'inyandiko rusangi kugira ngo uvemwo inyandiko y'ibanga y'ibarabara. Ku bice bikurikira, ukoresha urufunguzo ruva ku gice c'imbere nk'inyungu mu gice c'inyuma maze ugasubiramwo intambwe.
 
 
-Niwaraba neza, ico mu vy’ukuri caremwe hano kivuye ku cipher y’amabuye n’uburyo bwa OFB ni cipher y’umugezi. Wewe generate ibice vy'urufunguzo vy'ibice 128 gushika ufise uburebure bw'inyandiko y'urufunguzo (uguta ibice udakeneye bivuye ku gice ca nyuma c'urufunguzo rw'ibice 128). Wewe rero, XOR umurongo w'urufunguzo n'ubutumwa bwawe bw'inyandiko rusangi kugira ngo ubone inyandiko y'ibanga.
+Niwaraba neza, ico mu vy’ukuri caremwe hano kivuye ku cipher ya bloc n’uburyo bwa OFB ni cipher ya flot. Muhingura ibice vy'urufunguzo vy'ibice 128 gushika ufise uburebure bw'inyandiko y'urufunguzo (uguta ibice udakeneye bivuye ku gice ca nyuma c'urufunguzo rw'ibice 128). Ugaca ukoresha hanyuma uburyo bwa XOR umurongo w'urufunguzo n'ubutumwa bwawe bw'inyandiko rusangi kugira ngo ubone inyandiko ipfutse.
 
 
-Mu gice ca mbere ku bijanye n’amaciphers y’uruzi, naravuze ko utanga urufunguzo rw’urufunguzo ufashijwe n’urufunguzo rw’ibanga. Kugira ngo tuvuge ukuri, ntibitegerezwa gusa kuremwa n’urufunguzo rw’ibanga. Nk'uko ushobora kubibona mu buryo bwa OFB, urufunguzo rusohoka rufashijwe n'urufunguzo rw'ibanga hamwe n'urufunguzo rw'intango.
+Mu gice giheze ku bijanye n'ipfuka ry'amakuru hakoreshejwe flot, naravuze ko muhingura umurongo w'urufunguzo ufashijwe n’urufunguzo rw’ibanga. Kugira dutomore neza, ntibitegerezwa gukorwa n’urufunguzo rw’ibanga gusa. Nk'uko ushobora kubibona mu buryo bwa OFB, urufunguzo rusohoka rufashijwe n'urufunguzo rw'ibanga hamwe n'urufunguzo rw'intango.
 
 
-Zirikana ko nk’uko biri ku buryo bwa CBC, birahambaye guhitamwo pseudorandom canke random Nonce ku bijanye n’umurongo w’intango igihe cose ukoresheje ububiko bw’ibarabara mu buryo bwa OFB. Ahandi ho, iyo nzira nyene y’ubutumwa bw’ibice 128 yoherejwe mu nzira zitandukanye zo guhanahana amakuru izoshirwa mu buryo bumwe. Ubu ni uburyo bumwe bwo gukora ububiko bw'ibishoboka n'ububiko bw'umugezi.
+Zirikana ko nk’uko biri ku buryo bwa CBC, birahambaye guhitamwo pseudorandom canke random Nonce ku bijanye n’umurongo w’intango igihe cose ukoresheje ububiko bwa bloc mu buryo bwa OFB. Ahandi ho, iyo nzira nyene y’ubutumwa bw’ibice 128 yoherejwe mu nzira zitandukanye zo guhanahana amakuru izoshirwa mu buryo bumwe. Ubu ni uburyo bumwe bwo gukora ububiko bw'ibishoboka n'ububiko bw'umugezi.
 
 
-Hariho ama ciphers y'uruzi akoresha gusa urufunguzo rw'ibanga kugira ngo akore urufunguzo rw'uruzi. Ku bijanye n’izo nzira, birahambaye ko ukoresha Nonce kugira uhitemwo urufunguzo rw’ibanga ku nkuru yose y’uguhanahana amakuru. Ahandi ho, ivyavuye mu gushiramwo amakuru n’izo nzira z’amazi na vyo nyene bizoba ari ivy’uguhitamwo, bikajana ku bibazo vy’umutekano.
+Hariho ama ciphers ya flot akoresha gusa urufunguzo rw'ibanga kugira ngo akore urufunguzo rw'uruzi. Ku bijanye n’izo nzira, birahambaye ko ukoresha Nonce kugira uhitemwo urufunguzo rw’ibanga ku nkuru yose y’uguhanahana amakuru. Ahandi ho, ivyavuye mu gushiramwo amakuru n’izo nzira z’amazi na vyo nyene bizoba ari ivy’uguhitamwo, bikajana ku bibazo vy’umutekano.
 
 
 Igiharuro c'amabuye gikundwa cane muri iki gihe ni **igiharuro ca Rijndael**. Ni co cari igitabu catsinze mu bitabo cumi na bitanu vyashikirijwe mu mahiganwa yatunganijwe n’Ikigo c’Igihugu c’Ivy’Imirongo Ngenderwako n’Ikoranabuhanga (NIST) hagati y’umwaka wa 1997 n’uwa 2000 kugira ngo gisubirire ingingo ngenderwako y’ugushiramwo amakuru ya kera, ari yo **ingingo ngenderwako y’ugushiramwo amakuru** (**DES**).

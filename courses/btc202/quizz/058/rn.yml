@@ -1,9 +1,9 @@
-question: Ni igiki gikomeye gituma Tor ivugana n’uruzitiro rwawe?
-answer: Ubute
+question: Ikibazo nyamukuru kiri mu guhanahana amakuru na node yawe ukoresheje Tor ni ikihe?
+answer: Slowness
 wrong_answers:
-  - Kubura ububiko
-  - Ubutumwa budaciye mu mategeko
-  - Ivyo kudashoboka gukoresha RPC.
+  -Kubura encryption
+  - Ubutumwa budaciye mu mategeko(spam)
+  - Ivyo kudashobora gukoresha RPC.
 explanation: |
   Amahuza ya Tor aratekanye, ariko aragenda buhoro kuruta ubundi buryo nka VPN.
 reviewed: true

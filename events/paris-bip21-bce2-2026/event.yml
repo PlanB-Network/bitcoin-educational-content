@@ -5,7 +5,7 @@ timezone: Europe/Paris
 address_city_country: Paris, France
 address_line_2:
 address_line_3:
-name: Paris BIP21 - BCE #2
+name: "Paris BIP21 - BCE #2"
 type: conference
 book_online: false
 book_in_person: false

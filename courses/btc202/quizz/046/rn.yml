@@ -1,9 +1,9 @@
 question: Ni igiki dbcache ishobora gukora muri Bitcoin core?
-answer: Gutanga RAM kugira ngo wihutishe IBD
+answer: Gutanga RAM kugira ngo yihutishe IBD
 wrong_answers:
   - Sigura ubunini bwa Blockchain
   - Guhindura ingorane nyinshi za Mining
-  - Guhagarika umubare w'abagenzi bahuye
+  - Guhagarika igitigiri c'abagenzi bahuye
 explanation: |
-  Igiharuro ca dbcache congera umwanya wo kwibuka ukoreshwa mu kubika mu gihe gito umugwi wa UTXO, bishobora kwihutisha igikorwa co gukorana n’ibindi.
+ dbcache yongera umwanya wa memory (RAM) ukoreshwa mu kubika temporarily UTXO set, bigafasha kwihutisha initial synchronization ya node.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Ni iyihe verisiyo ya Bitcoin core yashizeho umuderi wa Ultraprune?
+question: Ni iyihe verisiyo ya Bitcoin core yazanye Ultraprune model?
 answer: 0.8.0
 wrong_answers:
   - 0.3.0
   - 0.6.0
   - 0.10.0
 explanation: |
-  Kuva kuri verisiyo 0.8.0, Bitcoin core ntigikoresha urutonde rw’isi yose, ariko irabungabunga ata guca ku ruhande urutonde rwa UTXO kubera Ultraprune.
+  Guhera kuri version 0.8.0, Bitcoin Core ntiyakoresheje global index ukwayo, ahubwo yatangiye gucunga UTXO set mu buryo butaziguye biciye muri Ultraprune.
 reviewed: true

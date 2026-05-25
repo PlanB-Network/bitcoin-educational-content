@@ -1,9 +1,9 @@
-question: Ni ubuhe bwoko bw’imashini yerekanwa nk’uburyo bwiza bwo gusenyera ku mugozi umwe ku bijanye n’urudodo rwo mu nzu rwa Bitcoin?
+question: Ni ubuhe bwoko bwa machine bugaragazwa nk’ihitamwo ryiza ku Bitcoin home node?
 answer: PC ntoyi y'ubwoko bwa NUC
 wrong_answers:
   - Mudasobwa y'iminwe
   - Mudasobwa ikomeye cane
   - Igikoresho co gukina
 explanation: |
-  Ama PC mato mato (NUC, Tiny, OptiPlex Micro...) akoresha amashanyarazi make, ni ay’ukwizigirwa, kandi yoroshe guhindura, ivyo bikaba bituma ari yo meza cane.
+  Ama PC mato mato (NUC, Tiny, OptiPlex Micro...)zikoresha umuriro muke,zirizewe kandi zoroshe guhindurwako, bigatuma ziba ihitamwo ryiza hagati y’ibikenewe n’igiciro.
 reviewed: true

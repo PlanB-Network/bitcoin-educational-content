@@ -367,13 +367,11 @@ Każdy może to zrobić przez węzeł sieci (czyli punkt potwierdzania transakcj
 ```json
 {
   "height": 710560,
-```json
-{
   "bestblock": "0000000000000000000887384d67103412ea7f18a43953e65c8c4ac36bf42e54",
   "transactions": 473244,
   "txouts": 1018917,
   "bogosize": 2183872374,
-  "[hash](https://planb.academy/resources/glossary/hash-function)_serialized_2": "eebb9987337700ffaacbbaa11223344",
+  "hash_serialized_2": "eebb9987337700ffaacbbaa11223344",
   "disk_size": 178239584,
   "total_amount": 18745998.12345678
 }

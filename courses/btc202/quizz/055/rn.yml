@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo butatu bwo gukoresha server buri muri Sparrow?
-answer: Umukozi wa bose, Bitcoin core, umuyagankuba wigenga
+question: Ni izihe server options zitatu ziri muri Sparrow?
+answer: Public Server, Bitcoin Core, Private Electrum
 wrong_answers:
-  - RPC Utaziguye, VPN, Tor
-  - Full node, Urudodo rw'umuco, Urudodo rw'igendagenda
-  - Ishingiro RPC, Umuravyo, UmuyagankubaX
+  - RPC Direct, VPN, Tor
+  - Full node, Light Node, Mobile Node
+  - Core RPC, Lightning, ElectrumX
 explanation: |
-  Sparrow itanga amahitamwo atatu y’amaserveri: Serveri ya Leta, Bitcoin core (RPC), na Serveri y’Umwigenga.
+  Sparrow itanga amahitamwo atatu y’amaserveri: Serveri ya Leta, Bitcoin core (RPC), na  Private Electrum.
 reviewed: true

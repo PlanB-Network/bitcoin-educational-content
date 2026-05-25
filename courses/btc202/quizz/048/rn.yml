@@ -1,4 +1,4 @@
-question: Ni irihe tegeko rigarura IP y'aho hantu Address y'Umbrel yawe iyo gushika ku umbrel.local bidashoboka?
+question:  Ni irihe tegeko rikoreshwa kugira ubone local IP ya Umbrel igihe umbrel.local idakora?
 answer: hostname -I
 wrong_answers:
   - ifconfig -usb

@@ -1,7 +1,7 @@
 question: What is the protocol used by Electrs and Fulcrum to connect wallets?
 answer: Electrum
 wrong_answers:
-  - RPC REST
+  - RPC REST 
   - JSON API
   - Lightning gRPC
 explanation: |

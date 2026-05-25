@@ -5,5 +5,5 @@ wrong_answers:
   - Private Electrum
   - Remote API
 explanation: |
-  Mu Sparrow, uburyo bwa Bitcoin core buhuye n'uguhuza n'urudodo biciye kuri RPC.
+  Muri Sparrow, uburyo bwa Bitcoin Core bujanye no guhuza direct na node ukoresheje RPC.
 reviewed: true

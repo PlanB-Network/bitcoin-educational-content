@@ -1,9 +1,9 @@
 question: Ni ubuhinga ubuhe Umbrel ikoresha mu gutandukanya no gucunga ibikorwa vyayo?
-answer: Ibikoresho vya Docker
+answer: Docker containers
 wrong_answers:
-  - Imashini zisanzwe
-  - Inyandiko za Bash
-  - Amatsinda ya Kubernetes
+   - VirtualBox virtual machines
+  - Bash scripts
+  - Kubernetes clusters
 explanation: |
-  Buri porogaramu muri Umbrel ikoreshwa mu gitereko ca Docker, ishoboza uburongozi bwigenga no kwitandukanya.
+  Buri porogarama muri Umbrel ikoreshwa mu gitereko ca Docker, ishoboza uburongozi bwigenga no kwitandukanya.
 reviewed: true

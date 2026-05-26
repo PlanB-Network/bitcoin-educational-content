@@ -5,5 +5,5 @@ wrong_answers:
   - 512 MB
   - 1024 MB
 explanation: |
-  Kubera ko ari vyo, Bitcoin core igabanya Mempool ku 300 MB. Ikirenze ivyo, ryirukana amafaranga adatanga inyungu nyinshi.
+Ku buryo busanzwe, Bitcoin Core igabanya Mempool kuri 300 MB. Iyo irenze iyo mipaka, itangira gusohora transactions zifite agaciro kari hasi.
 reviewed: true

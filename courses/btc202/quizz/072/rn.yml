@@ -1,9 +1,9 @@
-question: Ni uburyo ubuhe bushobora gukoreshwa mu gushiramwo ifoto y’umugwi wa UTXO kugira ngo urudodo rukoreshwe ningoga?
-answer: twiyumvireko
+question:Ni ubuhe buryo bushobora gukoreshwa kugira ngo node yikoreze snapshot ya UTXO set bityo iba ishobora gukoreshwa vuba?
+answer: assumeutxo
 wrong_answers:
-  - twiyumvire uruhererekane
-  - urutonde
-  - si index
+ - assumechainstate
+  - txindex
+  - notxindex
 explanation: |
-  Assumeutxo ishiramwo ifoto y’umugwi wa UTXO kugira ngo node ikore vuba, mu gihe isubira kwubaka umugwi wose wa UTXO mu nyuma.
+  Assumeutxo yifashishwa mu gufata snapshot ya UTXO set kugira ngo node itangire gukora vuba, mu gihe iyi UTXO set yuzuye irimwo yubakwa inyuma buhoro buhoro.
 reviewed: true

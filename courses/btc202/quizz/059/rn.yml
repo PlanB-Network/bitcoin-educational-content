@@ -5,5 +5,5 @@ wrong_answers:
   - Gukoresha VPN
   - Gushira ahabona umukozi wa Electrum
 explanation: |
-  Gushira ahabona icuma ca RPC kitarimwo amakuru bitera ingorane nyinshi ku mutekano. Tor canke VPN nivyo vyiza.
+Gupfungura RPC port ata encryption birimwo ni ikibazo gikomeye ku mutekano. Gukoresha Tor canke VPN ni bwo buryo bwiza
 reviewed: true

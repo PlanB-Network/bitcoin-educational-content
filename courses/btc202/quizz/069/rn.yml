@@ -1,8 +1,8 @@
-question: Ni ikihe kibazo nyamukuru giterwa n’ukwirundanira kwa Dust muri mini-PC yawe?
-answer: Guhagarika umuriro
+question: Ni iyihe ngaruka nyamukuru y’umukungugu ugiye wiyegeranya muri mini-PC yawe?
+answer: Kugabanya imikorere ya processor (throttling)
 wrong_answers:
   - Blockchain gukuraho
-  - Igiturire ca disiki
+  -  Konona disk
   - Ubushobozi bwa RAM bwagabanutse
 explanation: |
   Dust irazibira umwuka, igatuma umuntu ashuha cane, kandi igatuma umuntu agira throttling, bigatuma processeur idakora neza.

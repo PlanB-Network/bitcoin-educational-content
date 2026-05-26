@@ -1,5 +1,5 @@
-question: Ni intambwe iyihe ya mbere umuntu yotera iyo habaye ikibazo kuri Umbrel?
-answer: generate umuzigo wo gupima
+question: Ni iyihe ntambwe ya mbere yo gukora iyo habaye ikibazo (bug) kuri Umbrel?
+answer:  Gukora diagnostics bundle
 wrong_answers:
   - Subiramwo Bitcoin core hanyuma wongere ukore IBD
   - Kuraho ububiko

@@ -1,9 +1,9 @@
 question: Ni uruhara uruhe rw’umuyagankuba wa Nostr ushizwe kuri Umbrel?
-answer: Kwakira ibisohokayandikiro vyawe aho uba
+answer: Kubika publications zawe kuri serveur yawe
 wrong_answers:
   - Suzuma ubucuruzi bwa Bitcoin
-  - Rema imirongo ya Nostr n'abo mubonana
-  - Ububiko bw'aho hantu bwa Blockchain Nostr
+  - Rema imirongo ya Nostr n'abo muvugana
+  - Kubika Blockchain ya Nostr kuri local
 explanation: |
-  Nostr relay kuri Umbrel ishoboza amakuru kwakirwa mu karere, igatanga icemezo c’ukuboneka n’ubusegaba.
+Nostr relay iri kuri Umbrel ituma amakuru yawe abikwa kuri serveur yawe bwite, bikagufasha kugira ubwigenge no gutuma amakuru yawe aboneka igihe cose.
 reviewed: true

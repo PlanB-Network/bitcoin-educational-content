@@ -1,9 +1,9 @@
-question: Ni uwuhe mubumbe w’amakuru ucapura mu ncamake ibikorwa vy’ubudandaji biri mu gice?
+question:  Ni iyihe structure ikoreshwa mu gusobanura (summarize) transactions zo muri block?
 answer: Ivyo Merkle Tree.
 wrong_answers:
   - Imeza ya Hash UTXO
-  - Dosiye y'urunganwe.dat
-  - Igitabo c'ivyigwa
+  - Dosiye peers.dat
+  - assumeutxo register
 explanation: |
   Ibikorwa biri mu bubiko bishikirizwa Merkle Tree, umuzi wayo ukaba ushirwa mu mutwe w’ububiko kugira ngo ubutungane bw’ububiko bube ubw’ukuri.
 reviewed: true

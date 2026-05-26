@@ -5,5 +5,5 @@ wrong_answers:
   - 256 GiB
   - 128 GiB
 explanation: |
-  Amadosiye ya blkNNNNN.dat abika amabuye mu buryo bukurikiranye kandi ashika ku bunini bwa 128 MiB imbere y’uko Bitcoin core ifungura irikurikira.
+  Amadosiye ya blkNNNNN.dat abika amabuye(blocs) mu buryo bukurikiranye kandi ashika ku bunini bwa 128 MiB imbere y’uko Bitcoin core ifungura irikurikira.
 reviewed: true

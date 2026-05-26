@@ -1,4 +1,4 @@
-question: Ni igiki gikorwa n'umurongo w'ivy'ukuri muri Bitcoin core?
+question:Ni uwuhe murimo wa parameter assumevalid muri Bitcoin Core?
 answer: Kwirengagiza igenzura ry'inyandiko imbere y'ububiko bw'inyandiko
 wrong_answers:
   - Kwirengagiza igenzura rya Proof-of-Work imbere y'igice c'ishingiro

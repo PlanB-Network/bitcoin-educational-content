@@ -1,9 +1,10 @@
-question: Ni ibihe bikoresho bisabwa kugira ngo umuntu asubire kuronka urudodo rw’umuravyo?
+question:  Ni izihe backups zikenewe kugira ngo usubize (restore) node ya Lightning?
 answer: seed na SCB
 wrong_answers:
-  - seed na dosiye ya txindex
-  - seed na IP ya bose Address.
-  - seed na 2FA
+  - seed and txindex file
+  - seed and public IP address
+  - seed and 2FA
 explanation: |
-  Gusubizaho urudodo rw’umuravyo bisaba seed na SCB (Static Channel Backup), iyo atavyo amahera y’umurongo ntashobora gusubirwamwo.
+Gusubiza node ya Lightning bisaba seed hamwe na SCB (Static Channel Backup), kuko bitabaye ivyo amafaranga ari mu channels ntashobora kugarurwa.
+reviewed: true
 reviewed: true

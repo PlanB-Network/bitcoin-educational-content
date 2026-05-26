@@ -1,9 +1,9 @@
-question: Ni igiki gifise intumbero y’amadosiye ya revNNNNN.dat abitswe iruhande ya blkNNNNN.dat?
+question: Ni igiki gifise intumbero y’amadosiye ya revNNNNN.dat zibikwa hamwe iruhande na blkNNNNN.dat?
 answer: Kugarura UTXO yashizweho mu gihe co gusubira gutunganya
 wrong_answers:
-  - Gusubizaho UTXO yashizweho mu gihe ca Hard Fork.
-  - Gusubiza Mempool mu gihe ca Hard Fork.
-  - Gusubizaho Mempool mu gihe co gusubira gutunganya
+  - Gusubiza UTXO set mu gihe ca Hard Fork
+  - Gusubiza Mempool mu gihe ca Hard Fork
+  - Gusubiza Mempool mu gihe ca reorganization
 explanation: |
-  Buri revNNNNN.dat irimwo amakuru akenewe kugira ngo umuntu akureho ingaruka z’ibarabara ku rutonde rwa UTXO, bikaba bituma vyoroha gucunga ugusubira gutunganya.
+  Buri revNNNNN.dat irimo amakuru akoreshwa mu gusubira inyuma (undo) ingaruka za block ku UTXO set, bigafasha gucunga neza reorganizations.
 reviewed: true

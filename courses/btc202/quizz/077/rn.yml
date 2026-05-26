@@ -1,9 +1,9 @@
-question: Ni uruhe rutonde rw'amakuru rukoreshwa mu mabuye/index/ kugira ngo ubike amakuru y'amabuye?
-answer: UrugeroDB
+question: Ni iyihe database ikoreshwa muri blocks/index/ mu kubika block metadata?
+answer: LevelDB
 wrong_answers:
   - SQLite
-  - IbitareDB
+  - RocksDB
   - Berkeley DB
 explanation: |
-  Bitcoin core ikoresha LevelDB mu mabuye/index/ kugira ngo ikore index amabuye, yihutishe ubushakashatsi bwayo n'ugutanga ubufasha ku bagenzi.
+  Bitcoin Core ikoresha LevelDB muri blocks/index/ kugira ngo itegure (index) blocks, bigafasha kwihutisha gushakisha no gutanga service ku bandi peers.
 reviewed: true

@@ -1,6 +1,6 @@
 ---
 name: Gutegura node yawe yambere ya Bitcoin
-goal: Gutahura, gushiramwo, kuyinjiza, no gukoresha node ya Bitcoin
+goal: Gutahura, gushiramwo, kuyinjiza, no gukoresha node  ya Bitcoin
 objectives: 
 
   - Gutahura uruhara n’intumbero ya node ya Bitcoin.

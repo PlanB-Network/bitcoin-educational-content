@@ -1,0 +1,8 @@
+question: What is Bitcoin?
+answer: A decentralized digital currency
+wrong_answers:
+  - A centralized database
+  - A type of credit card
+  - A physical coin
+explanation: Bitcoin is a decentralized digital currency that operates without a central authority.
+reviewed: true

@@ -5,7 +5,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
       "description": "Unique identifier using UUID v4 format."
     },
     "name": {
@@ -42,11 +42,12 @@
         "youtube": {
           "type": "string",
           "description": "URL of the podcast's YouTube channel."
+        },
+        "nostr": {
+          "type": "string",
+          "description": "Nostr profile/feed of the podcast."
         }
       },
-      "required": [
-        "podcast"
-      ],
       "additionalProperties": false
     },
     "description": {
@@ -57,7 +58,7 @@
       "type": "array",
       "description": "List of associated tags to the podcast from the PlanB Network tag list.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -99,11 +100,7 @@
     "id",
     "name",
     "host",
-    "language",
-    "links",
-    "description",
-    "tags",
-    "contributor_names"
+    "language"
   ],
   "additionalProperties": false
 }

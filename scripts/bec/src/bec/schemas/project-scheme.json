@@ -54,11 +54,11 @@
       "description": "License type for the project content (e.g., CC-BY-SA-V4)."
     },
     "language": {
-      "type": [
-        "string",
-        "array"
-      ],
-      "description": "Primary language(s) of the project."
+      "type": "array",
+      "description": "Primary language(s) of the project.",
+      "items": {
+        "type": "string"
+      }
     },
     "links": {
       "type": [
@@ -150,15 +150,13 @@
       "type": "array",
       "description": "List of associated tags to the project.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string",
+        "minLength": 1
       },
       "minItems": 1
     },
     "original_language": {
-      "type": [
-        "string",
-        "array"
-      ],
+      "type": "string",
       "description": "ISO 639-1 language code of the original content language."
     },
     "proofreading": {
@@ -270,8 +268,7 @@
     "name",
     "category",
     "links",
-    "original_language",
-    "proofreading"
+    "original_language"
   ],
   "additionalProperties": false
 }

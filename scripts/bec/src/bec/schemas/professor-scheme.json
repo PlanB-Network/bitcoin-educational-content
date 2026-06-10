@@ -12,19 +12,33 @@
       "format": "uuid",
       "description": "Unique identifier (UUID) for the professor"
     },
+    "contributor_id": {
+      "type": ["string", "null"],
+      "description": "PlanB-UID contributor identifier (two bip39 words, see /docs/planb-uid.md). Ignored by the LMS importer."
+    },
     "links": {
       "type": "object",
       "description": "Online presence of the professor",
       "properties": {
         "twitter": {
-          "type": "string",
-          "format": "url",
+          "type": ["string", "null"],
           "description": "Twitter URL of the professor"
         },
         "website": {
-          "type": "string",
-          "format": "url",
+          "type": ["string", "null"],
           "description": "Personal or professional website of the professor"
+        },
+        "github": {
+          "type": ["string", "null"],
+          "description": "GitHub URL of the professor"
+        },
+        "linkedin": {
+          "type": ["string", "null"],
+          "description": "LinkedIn URL of the professor"
+        },
+        "nostr": {
+          "type": ["string", "null"],
+          "description": "Nostr public key or profile URL of the professor"
         }
       },
       "additionalProperties": true
@@ -33,7 +47,8 @@
       "type": "array",
       "description": "List of tags associated with the professor's expertise and interests",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string",
+        "minLength": 1
       }
     },
     "tips": {
@@ -41,25 +56,38 @@
       "description": "Information for direct tips to the professor",
       "properties": {
         "lightning_address": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Lightning network address for tips"
         },
+        "lnurl_pay": {
+          "type": ["string", "null"],
+          "description": "LNURL-pay string for tips"
+        },
+        "paynym": {
+          "type": ["string", "null"],
+          "description": "PayNym (BIP47) identifier for tips"
+        },
         "silent_payment": {
-          "type": "string",
+          "type": ["string", "null"],
           "description": "Silent payment address for tips"
+        },
+        "url": {
+          "type": ["string", "null"],
+          "description": "External tipping page URL"
         }
       },
       "additionalProperties": true
     },
     "company": {
-      "type": "string",
+      "type": ["string", "null"],
       "description": "Name of the company the professor is affiliated with"
     },
     "affiliations": {
-      "type": "array",
-      "description": "List of affiliations the professor has within the industry or elsewhere",
+      "type": ["array", "null"],
+      "description": "List of affiliations (UUIDs) the professor has within the industry or elsewhere",
       "items": {
-        "type": "string"
+        "type": "string",
+        "format": "uuid"
       }
     },
     "assets_rules": {

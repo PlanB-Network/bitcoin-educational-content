@@ -7,7 +7,7 @@
     "id": {
       "type": "string",
       "description": "Unique identifier for the course (UUID format)",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+      "maxLength": 100
     },
     "topic": {
       "type": "string",
@@ -73,14 +73,13 @@
         "beginner",
         "intermediate",
         "advanced",
-        "expert",
-        "wizard"
+        "expert"
       ]
     },
     "hours": {
-      "type": "integer",
-      "description": "Estimated number of hours to complete the course",
-      "minimum": 1
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Estimated number of hours to complete the course"
     },
     "teaching_format": {
       "type": "string",
@@ -164,7 +163,6 @@
         },
         "required": [
           "language",
-          "urgency",
           "reward"
         ],
         "additionalProperties": false
@@ -175,7 +173,8 @@
       "type": "array",
       "description": "List of tags associated with this course from the PlanB Network tag list",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string",
+        "minLength": 1
       },
       "minItems": 1
     },
@@ -223,7 +222,7 @@
       "description": "Whether the course requires payment for registration"
     },
     "inperson_price_dollars": {
-      "type": "number",
+      "type": "integer",
       "description": "Price in USD for in-person attendance (0 for free courses)",
       "minimum": 0
     },
@@ -300,25 +299,56 @@
         "required": [
           "id"
         ],
-        "anyOf": [
-          {
-            "required": [
-              "youtube"
-            ]
-          },
-          {
-            "required": [
-              "peertube"
-            ]
-          },
-          {
-            "required": [
-              "rumble"
-            ]
-          }
-        ],
         "additionalProperties": false
       }
+    },
+    "is_archived": {
+      "type": "boolean",
+      "description": "Whether the course is archived (hidden from listings)."
+    },
+    "online_price_dollars": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Price in dollars for the online version."
+    },
+    "paid_video_link": {
+      "type": "string",
+      "description": "Link to paid course videos."
+    },
+    "contact": {
+      "type": "string",
+      "maxLength": 255,
+      "description": "Contact for the course."
+    },
+    "is_planb_school": {
+      "type": "boolean",
+      "description": "Whether the course is part of the PlanB School program."
+    },
+    "passing_grade_threshold_percentage": {
+      "type": "integer",
+      "description": "Passing grade threshold percentage for assignments."
+    },
+    "assignment_weight_percentage": {
+      "type": "integer",
+      "description": "Weight of the assignment in the final grade, percent."
+    },
+    "has_assignment": {
+      "type": "boolean",
+      "description": "Whether the course has an assignment."
+    },
+    "assignment_start_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Assignment start date."
+    },
+    "assignment_end_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Assignment end date."
+    },
+    "assignment_description": {
+      "type": "string",
+      "description": "Assignment description."
     }
   },
   "required": [
@@ -328,70 +358,7 @@
     "level",
     "hours",
     "professors_id",
-    "original_language",
-    "proofreading"
+    "original_language"
   ],
-  "additionalProperties": true,
-  "allOf": [
-    {
-      "if": {
-        "properties": {
-          "format": {
-            "enum": [
-              "inperson",
-              "hybrid"
-            ]
-          }
-        },
-        "required": [
-          "format"
-        ]
-      },
-      "then": {
-        "required": [
-          "address_city_country",
-          "start_date",
-          "end_date",
-          "requires_payment",
-          "available_seats"
-        ]
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "format": {
-            "const": "online"
-          }
-        },
-        "required": [
-          "format"
-        ]
-      },
-      "then": {
-        "required": [
-          "start_date",
-          "end_date",
-          "requires_payment"
-        ]
-      }
-    },
-    {
-      "if": {
-        "properties": {
-          "requires_payment": {
-            "const": true
-          }
-        },
-        "required": [
-          "requires_payment"
-        ]
-      },
-      "then": {
-        "required": [
-          "payment_expiration_date"
-        ]
-      }
-    }
-  ]
+  "additionalProperties": true
 }

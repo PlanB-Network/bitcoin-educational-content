@@ -5,7 +5,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
       "description": "UUID v4 identifier for the channel."
     },
     "name": {
@@ -31,7 +31,8 @@
         }
       },
       "required": [
-        "channel"
+        "channel",
+        "trailer"
       ],
       "additionalProperties": false
     },
@@ -51,8 +52,7 @@
       "type": "array",
       "description": "List of contributor UUIDs (alternative to contributor_names for main repo).",
       "items": {
-        "type": "string",
-        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -60,7 +60,7 @@
       "type": "array",
       "description": "List of associated tags from the predefined 52 PlanB Network tags.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -74,7 +74,7 @@
     },
     "project_id": {
       "type": "string",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
       "description": "UUID v4 linking this channel to a PlanB Network project."
     }
   },
@@ -99,21 +99,7 @@
     "id",
     "name",
     "language",
-    "links",
-    "description",
-    "tags"
-  ],
-  "oneOf": [
-    {
-      "required": [
-        "contributor_names"
-      ]
-    },
-    {
-      "required": [
-        "contributors"
-      ]
-    }
+    "links"
   ],
   "additionalProperties": false
 }

@@ -12,6 +12,6 @@
       "description": "A short one-line biography or tagline for the professor."
     }
   },
-  "required": ["bio", "short_bio"],
+  "required": [],
   "additionalProperties": false
 }

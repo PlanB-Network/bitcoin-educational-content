@@ -79,6 +79,49 @@ class TestStripNulls:
         assert cleaned == data
         assert nulls == []
 
+    def test_schema_allowed_null_kept(self):
+        schema = {"properties": {"a": {"type": ["string", "null"]}, "b": {"type": "string"}}}
+        cleaned, nulls = _strip_nulls({"a": None, "b": None}, schema)
+        assert cleaned == {"a": None}
+        assert len(nulls) == 1
+        assert "b" in nulls[0]
+
+    def test_schema_allowed_null_in_nested_array(self):
+        schema = {
+            "properties": {
+                "items": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {"date": {"type": ["string", "null"]}},
+                    },
+                }
+            }
+        }
+        cleaned, nulls = _strip_nulls({"items": [{"date": None}]}, schema)
+        assert cleaned == {"items": [{"date": None}]}
+        assert nulls == []
+
+    def test_anyof_null_kept(self):
+        schema = {"properties": {"a": {"anyOf": [{"type": "string"}, {"type": "null"}]}}}
+        cleaned, nulls = _strip_nulls({"a": None}, schema)
+        assert cleaned == {"a": None}
+        assert nulls == []
+
+    def test_untyped_property_null_kept(self):
+        """A described but untyped field accepts null per jsonschema semantics."""
+        schema = {"properties": {"a": {"description": "date or null"}}}
+        cleaned, nulls = _strip_nulls({"a": None}, schema)
+        assert cleaned == {"a": None}
+        assert nulls == []
+
+    def test_undescribed_field_null_still_stripped(self):
+        schema = {"properties": {"a": {"type": "string"}}}
+        cleaned, nulls = _strip_nulls({"a": "x", "extra": None}, schema)
+        assert cleaned == {"a": "x"}
+        assert len(nulls) == 1
+        assert "extra" in nulls[0]
+
 
 # ---------------------------------------------------------------------------
 # load_json_schema
@@ -140,6 +183,31 @@ class TestValidateYamlAgainstSchema:
         result = validate_yaml_against_schema(data, schema, "test.yml")
         assert len(result.warnings) > 0
         assert any("null" in w.lower() or "empty" in w.lower() for w in result.warnings)
+
+    def test_schema_allowed_nulls_pass_silently(self, repo_root):
+        """Fields typed [x, 'null'] accept null without warnings or errors."""
+        schema = load_json_schema(repo_root / "schemas" / "course-scheme.json")
+        data = {
+            "id": "2b7dc507-81e3-4b70-88e6-41ed44239966",
+            "topic": "bitcoin",
+            "subtopic": "bitcoin",
+            "level": "beginner",
+            "hours": 7,
+            "professors_id": ["2e1b5182-567e-453a-af29-36009340ff02"],
+            "original_language": "en",
+            "proofreading": [
+                {
+                    "language": "en",
+                    "urgency": 1,
+                    "reward": 0,
+                    "last_contribution_date": None,
+                    "contributor_names": None,
+                }
+            ],
+        }
+        result = validate_yaml_against_schema(data, schema, "test.yml")
+        assert result.is_valid, f"Unexpected errors: {result.errors}"
+        assert result.warnings == []
 
 
 # ---------------------------------------------------------------------------
@@ -240,13 +308,19 @@ class TestTagsDefinitions:
             assert len(descs[tag]) > 10, f"Description too short for tag: {tag}"
 
     @pytest.mark.parametrize("schema_file", SCHEMAS_WITH_TAGS)
-    def test_schema_references_shared_tags(self, repo_root, schema_file):
+    def test_schema_tags_are_open_strings(self, repo_root, schema_file):
+        # LMS alignment: the importer lowercases and upserts any tag string,
+        # so schemas must not close the tag vocabulary with a $ref enum.
+        # tags-definitions.json stays as the documented vocabulary.
         path = repo_root / "schemas" / schema_file
         data = json.loads(path.read_text())
         tags = data["properties"]["tags"]
-        ref = tags["items"].get("$ref", "")
-        assert "tags-definitions.json" in ref, (
-            f"{schema_file}: tags.items should $ref tags-definitions.json"
+        items = tags["items"]
+        assert "$ref" not in items, (
+            f"{schema_file}: tags.items must not $ref a closed enum (LMS accepts any string)"
+        )
+        assert items.get("type") == "string", (
+            f"{schema_file}: tags.items should be plain strings"
         )
 
     def test_all_schemas_remain_valid_draft7(self, repo_root):
@@ -278,7 +352,10 @@ class TestTagsDefinitions:
         )
         assert result.is_valid, f"Valid tags should pass: {result.errors}"
 
-    def test_ref_resolution_invalid_tag(self, repo_root):
+    def test_non_vocabulary_tag_accepted(self, repo_root):
+        # LMS alignment: tags outside tags-definitions.json are valid
+        # (the importer accepts and lowercases any string, e.g. 'complex-DIY'
+        # and 'philosophy' exist in real synced courses).
         schemas_dir = repo_root / "schemas"
         schema = load_json_schema(schemas_dir / "course-scheme.json")
         data = {
@@ -290,13 +367,12 @@ class TestTagsDefinitions:
             "professors_id": ["2e1b5182-567e-453a-af29-36009340ff02"],
             "original_language": "en",
             "proofreading": [{"language": "en", "urgency": 1, "reward": 0}],
-            "tags": ["invalid-tag-name"],
+            "tags": ["complex-DIY"],
         }
         result = validate_yaml_against_schema(
             data, schema, "test.yml", schema_dir=schemas_dir,
         )
-        assert not result.is_valid, "Invalid tag should fail validation"
-        assert any("invalid-tag-name" in e for e in result.errors)
+        assert result.is_valid, f"Non-vocabulary tag should pass: {result.errors}"
 
     def test_build_registry_caches(self, repo_root):
         from bec.lib.schema import _registry_cache

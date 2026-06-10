@@ -5,33 +5,45 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
       "description": "Unique identifier for the event, UUID v4 format."
     },
     "start_date": {
       "type": "string",
-      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(\\s+[0-9]{2}:[0-9]{2}:[0-9]{2})?$",
       "description": "Start date and time of the event, format: YYYY-MM-DD hh:mm:ss."
     },
     "end_date": {
       "type": "string",
-      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}(\\s+[0-9]{2}:[0-9]{2}:[0-9]{2})?$",
       "description": "End date and time of the event, format: YYYY-MM-DD hh:mm:ss."
     },
     "timezone": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "IANA timezone identifier for the event location (e.g., Europe/Zurich, America/New_York)."
     },
     "address_city_country": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Primary address including street, city, postal code, and country. Critical for map display."
     },
     "address_line_2": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Additional location details such as floor or building name."
     },
     "address_line_3": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Additional location details such as room number."
     },
     "name": {
@@ -45,20 +57,27 @@
         "course",
         "conference",
         "lecture",
-        "meetup"
+        "meetup",
+        "exam"
       ],
       "description": "Category of the event."
     },
     "description": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Main description of the event content and purpose."
     },
     "language": {
-      "type": "array",
+      "type": [
+        "array",
+        "null"
+      ],
       "description": "Languages spoken during the event, using ISO 639-1 codes or extended codes (zh-hans, zh-hant).",
       "items": {
         "type": "string",
-        "pattern": "^[a-z]{2}(-[a-z]+)?$"
+        "pattern": "^[a-zA-Z]{2}(-[a-zA-Z0-9]+)?$"
       },
       "minItems": 1
     },
@@ -66,22 +85,41 @@
       "type": "object",
       "properties": {
         "website": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "URL of the event's main website."
         },
         "replay_url": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "URL for the event recording or replay."
         },
         "live_url": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "URL for live streaming of the event."
+        },
+        "chat_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "URL of the event chat."
         }
       },
       "additionalProperties": false
     },
     "project_id": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
       "description": "UUID of the project that organizes this event."
     },
@@ -99,7 +137,10 @@
       "description": "Number of available seats for the event."
     },
     "custom_tc_disclaimer": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Custom terms and conditions disclaimer for the event."
     },
     "is_gdpr_compliance": {
@@ -111,10 +152,13 @@
       "description": "Whether this is a test event."
     },
     "tags": {
-      "type": "array",
+      "type": [
+        "array",
+        "null"
+      ],
       "description": "List of associated tags for the event from the PlanB Network tag list.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -127,23 +171,34 @@
       "description": "Whether in-person booking is available for the event."
     },
     "price_dollars": {
-      "type": "number",
+      "type": [
+        "number",
+        "null"
+      ],
       "minimum": 0,
       "description": "Price of the event in US dollars."
+    },
+    "professor": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "UUID of the professor running the event."
+    },
+    "course_related": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Id of the course related to this event."
     }
   },
   "required": [
     "id",
     "start_date",
     "end_date",
-    "timezone",
-    "address_city_country",
-    "name",
-    "type",
-    "description",
-    "language",
-    "links",
-    "tags"
+    "type"
   ],
   "additionalProperties": false
 }

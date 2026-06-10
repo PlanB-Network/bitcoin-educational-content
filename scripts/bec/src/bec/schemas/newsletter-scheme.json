@@ -6,7 +6,7 @@
     "id": {
       "type": "string",
       "description": "Unique identifier for the newsletter in UUID v4 format.",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
     },
     "title": {
       "type": "string",
@@ -42,10 +42,7 @@
             "description": "URL of the newsletter's website."
           }
         },
-        "required": [
-          "website"
-        ],
-        "additionalProperties": false
+        "additionalProperties": true
       },
       "minItems": 1
     },
@@ -69,7 +66,7 @@
       "type": "array",
       "description": "List of tags associated with the newsletter from the PlanB tags list.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -83,7 +80,7 @@
     },
     "project_id": {
       "type": "string",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
       "description": "UUID v4 linking this newsletter to a PlanB Network project."
     }
   },
@@ -106,15 +103,7 @@
   },
   "required": [
     "id",
-    "title",
-    "author",
-    "level",
-    "publication_date",
-    "link",
-    "language",
-    "description",
-    "contributor_names",
-    "tags"
+    "author"
   ],
   "additionalProperties": false
 }

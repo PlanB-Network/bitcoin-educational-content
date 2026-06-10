@@ -16,8 +16,10 @@
       "maxLength": 1000
     }
   },
-  "required": ["name", "description"],
-  "additionalProperties": false,
+  "required": [
+    "name"
+  ],
+  "additionalProperties": true,
   "content_rules": {
     "description": "Structural requirements for tutorial markdown content following YAML front-matter",
     "cover_image": {
@@ -93,12 +95,18 @@
         },
         "language_specific": {
           "path_pattern": "assets/{lang}/{number}.webp",
-          "examples": ["assets/en/01.webp", "assets/fr/01.webp"],
+          "examples": [
+            "assets/en/01.webp",
+            "assets/fr/01.webp"
+          ],
           "description": "Screenshots with text that needs translation"
         },
         "universal": {
           "path_pattern": "assets/notext/{number}.webp",
-          "examples": ["assets/notext/1.webp", "assets/notext/2.webp"],
+          "examples": [
+            "assets/notext/1.webp",
+            "assets/notext/2.webp"
+          ],
           "description": "Images without text, shared across all languages"
         }
       },

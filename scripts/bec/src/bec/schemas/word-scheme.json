@@ -26,7 +26,8 @@
       "type": "array",
       "description": "List of tags associated with the word, chosen from the predefined PlanB tags list",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string",
+        "minLength": 1
       }
     },
     "original_language": {
@@ -79,7 +80,6 @@
         },
         "required": [
           "language",
-          "urgency",
           "reward"
         ],
         "additionalProperties": false
@@ -88,9 +88,7 @@
   },
   "required": [
     "id",
-    "en_word",
-    "original_language",
-    "proofreading"
+    "original_language"
   ],
   "additionalProperties": false
 }

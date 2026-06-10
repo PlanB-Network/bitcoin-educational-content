@@ -17,6 +17,7 @@
       "enum": [
         "beginner",
         "intermediate",
+        "advanced",
         "expert",
         "wizard"
       ]
@@ -33,7 +34,7 @@
       "type": "array",
       "description": "List of tags associated with the book.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string"
       },
       "minItems": 1
     },
@@ -43,7 +44,44 @@
     },
     "proofreading": {
       "type": "array",
-      "description": "Proofreading status for each language."
+      "description": "Proofreading status for each language.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "last_contribution_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "contributor_names": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "language",
+          "reward"
+        ]
+      }
     },
     "contributor_names": {
       "type": "array",
@@ -51,12 +89,16 @@
       "items": {
         "type": "string"
       }
+    },
+    "website_url": {
+      "type": "string",
+      "description": "URL of the book or author website."
     }
   },
   "required": [
     "author",
-    "level",
-    "tags"
+    "id",
+    "original_language"
   ],
   "additionalProperties": false
 }

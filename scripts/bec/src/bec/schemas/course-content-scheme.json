@@ -27,8 +27,11 @@
       "maxItems": 10
     }
   },
-  "required": ["name", "goal", "objectives"],
-  "additionalProperties": false,
+  "required": [
+    "name",
+    "goal"
+  ],
+  "additionalProperties": true,
   "content_rules": {
     "description": "Structural rules for the markdown body content. JSON Schema cannot fully validate markdown structure, but these rules document the required format.",
     "structure": {

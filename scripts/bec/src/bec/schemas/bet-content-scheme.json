@@ -12,6 +12,9 @@
       "description": "A description of the BET content. Supports multiline text."
     }
   },
-  "required": ["name", "description"],
-  "additionalProperties": false
+  "required": [
+    "name",
+    "description"
+  ],
+  "additionalProperties": true
 }

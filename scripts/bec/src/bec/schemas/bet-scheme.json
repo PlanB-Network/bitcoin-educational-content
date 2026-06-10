@@ -6,7 +6,7 @@
     "id": {
       "type": "string",
       "description": "Unique identifier for the BET content (UUID v4).",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
     },
     "type": {
       "type": "string",
@@ -37,7 +37,10 @@
           }
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "required": [
+        "download"
+      ]
     },
     "contributor_names": {
       "type": "array",
@@ -50,7 +53,7 @@
     "project_id": {
       "type": "string",
       "description": "UUID of the associated project that organizes this content.",
-      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
     },
     "original_language": {
       "type": "string",
@@ -67,35 +70,39 @@
             "description": "Language code for the version being proofread."
           },
           "last_contribution_date": {
-            "type": "string",
-            "description": "The date when last contribution was received (YYYY-MM-DD format).",
-            "pattern": "^(YYYY-MM-DD|[0-9]{4}-[0-9]{2}-[0-9]{2})$"
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
           },
           "urgency": {
-            "type": "integer",
+            "type": [
+              "integer",
+              "null"
+            ],
             "description": "Level of urgency from 1 (low) to higher values (high urgency).",
             "minimum": 1
           },
           "contributor_names": {
-            "type": "array",
-            "description": "List of contributor GitHub usernames for this proofreading.",
+            "type": [
+              "array",
+              "null"
+            ],
             "items": {
               "type": "string"
-            },
-            "minItems": 1
+            }
           },
           "reward": {
-            "type": "integer",
-            "description": "Amount of sats available for reward.",
+            "type": [
+              "number",
+              "null"
+            ],
             "minimum": 0
           }
         },
         "required": [
-          "language",
-          "last_contribution_date",
-          "urgency",
-          "contributor_names",
-          "reward"
+          "language"
         ],
         "additionalProperties": false
       }
@@ -104,7 +111,8 @@
       "type": "array",
       "description": "List of associated tags to this content from the PlanB Network tag list.",
       "items": {
-        "$ref": "tags-definitions.json#/definitions/tag_item"
+        "type": "string",
+        "minLength": 1
       },
       "minItems": 1
     },
@@ -135,11 +143,8 @@
   "required": [
     "id",
     "type",
-    "contributor_names",
-    "original_language",
-    "proofreading",
-    "tags",
-    "license"
+    "links",
+    "original_language"
   ],
   "additionalProperties": false
 }

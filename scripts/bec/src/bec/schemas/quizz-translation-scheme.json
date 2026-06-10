@@ -4,32 +4,52 @@
   "type": "object",
   "properties": {
     "question": {
-      "type": "string",
+      "type": [
+        "string",
+        "number",
+        "boolean"
+      ],
       "description": "The complete question text."
     },
     "answer": {
-      "type": "string",
-      "description": "The correct answer to the question."
+      "type": [
+        "string",
+        "number",
+        "boolean"
+      ],
+      "description": "The correct answer to the question. Usually a string, but numeric or boolean answers occur and are accepted by the LMS (stored as text)."
     },
     "wrong_answers": {
       "type": "array",
       "description": "A list of three incorrect answers to the question.",
       "items": {
-        "type": "string"
+        "type": [
+          "string",
+          "number",
+          "boolean"
+        ]
       },
-      "minItems": 3,
-      "maxItems": 3
+      "minItems": 3
     },
     "explanation": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "description": "Additional information explaining why the correct answer is true and why the other answers are incorrect."
     },
     "reviewed": {
-      "type": "boolean",
-      "description": "Indicates whether the question has been reviewed by at least two different persons."
+      "type": [
+        "boolean",
+        "string"
+      ],
+      "description": "Indicates whether the question has been reviewed by at least two different persons. Not consumed by the LMS; legacy translated values (e.g. 'vero') exist as strings."
     }
   },
-  "required": ["question", "answer", "wrong_answers", "explanation", "reviewed"],
-  "additionalProperties": false
+  "required": [
+    "question",
+    "answer",
+    "wrong_answers"
+  ],
+  "additionalProperties": true
 }
-

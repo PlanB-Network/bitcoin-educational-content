@@ -9,9 +9,9 @@
     "authors",
     "abstract",
     "paper_type",
-    "topics",
     "pdf_url",
-    "id"
+    "id",
+    "source"
   ],
   "properties": {
     "title": {
@@ -54,7 +54,8 @@
         "pre-print",
         "review",
         "PhD Thesis",
-        "book"
+        "book",
+        "report"
       ]
     },
     "source": {
@@ -65,7 +66,11 @@
     "type": {
       "type": "string",
       "description": "Academic index type",
-      "enum": ["SCI", "SCIE", "SSCI"]
+      "enum": [
+        "SCI",
+        "SCIE",
+        "SSCI"
+      ]
     },
     "category": {
       "type": "string",
@@ -89,6 +94,13 @@
       "type": "string",
       "description": "Unique identifier (UUID format)",
       "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Optional tags, lowercased and stored verbatim by the LMS."
     }
   },
   "additionalProperties": false

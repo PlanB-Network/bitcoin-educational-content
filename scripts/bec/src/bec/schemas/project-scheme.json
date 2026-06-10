@@ -206,7 +206,8 @@
           }
         },
         "required": [
-          "language"
+          "language",
+          "reward"
         ],
         "additionalProperties": false
       },

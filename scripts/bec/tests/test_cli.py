@@ -63,3 +63,28 @@ def test_report_subcommands():
     assert result.exit_code == 0
     for cmd in ["translation", "images", "video", "proofreading", "analytics"]:
         assert cmd in result.output
+
+
+def test_report_no_subcommand_errors():
+    """bec report with no subcommand and no --all prints help and exits non-zero."""
+    runner = CliRunner()
+    result = runner.invoke(cli, ["report"])
+    assert result.exit_code == 2
+    assert "Generate HTML/JSON reports" in result.output
+
+
+def test_validate_type_conflicts_with_shortcut_flags():
+    """--type combined with --courses-only/--tutorials-only is an error."""
+    runner = CliRunner()
+    for flag in ["--courses-only", "--tutorials-only"]:
+        result = runner.invoke(cli, ["validate", "--all", "--type", "course", flag])
+        assert result.exit_code == 2
+        assert "--type cannot be combined" in result.output
+
+
+def test_validate_shortcut_flags_mutually_exclusive():
+    """--courses-only and --tutorials-only cannot be combined."""
+    runner = CliRunner()
+    result = runner.invoke(cli, ["validate", "--all", "--courses-only", "--tutorials-only"])
+    assert result.exit_code == 2
+    assert "mutually exclusive" in result.output

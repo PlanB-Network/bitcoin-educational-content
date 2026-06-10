@@ -114,6 +114,17 @@ class TestFindSourceLang:
         (tmp_path / "es.md").touch()
         assert _find_source_lang(tmp_path) == "es"  # sorted: es < fr
 
+    def test_accepts_regional_codes(self, tmp_path):
+        (tmp_path / "zh-Hans.md").touch()
+        assert _find_source_lang(tmp_path) == "zh-Hans"
+
+    def test_accepts_regional_codes_yml(self, tmp_path):
+        (tmp_path / "nb-NO.yml").touch()
+        assert _find_source_lang(tmp_path) == "nb-NO"
+        (tmp_path / "nb-NO.yml").unlink()
+        (tmp_path / "sr-Latn.yml").touch()
+        assert _find_source_lang(tmp_path) == "sr-Latn"
+
     def test_returns_none_if_empty(self, tmp_path):
         assert _find_source_lang(tmp_path) is None
 
@@ -203,6 +214,15 @@ class TestCreateLanguageMd:
         _create_language_md(source, target, "fr")
         text = target.read_text(encoding="utf-8")
         assert "![cover](assets/cover.webp)" in text
+
+    def test_unterminated_frontmatter_raises_click_error(self, tmp_path):
+        import click
+
+        source = tmp_path / "en.md"
+        source.write_text("---\nname: Broken\nno closing fence\n", encoding="utf-8")
+        target = tmp_path / "fr.md"
+        with pytest.raises(click.ClickException, match=r"Unterminated frontmatter.*en\.md"):
+            _create_language_md(source, target, "fr")
 
     def test_heading_structure_preserved(self, tmp_path):
         source = tmp_path / "en.md"
@@ -411,6 +431,11 @@ class TestAddQuizCommand:
         ])
         from bec.lib.yaml_utils import load_yaml
         data = load_yaml(quiz_course / "quizz" / "000" / "question.yml")
+        # LMS uses question id as primary key — must be a UUID
+        assert re.match(
+            r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+            data["id"],
+        )
         assert data["chapterId"] == "test-chapter-id-001"
         assert data["difficulty"] == "intermediate"
         assert data["author"] == "satoshi"
@@ -508,12 +533,38 @@ class TestAddQuizCommand:
         result = runner.invoke(cli, [
             "add", "quiz",
             "--course", "_test_quiz_course",
-            "--chapter-id", "some-id",
+            "--chapter-id", "test-chapter-id-001",
             "--lang", "en",
             "--difficulty", "impossible",
         ])
         assert result.exit_code != 0
         assert "invalid difficulty" in result.output.lower()
+
+    def test_unknown_chapter_id_fails(self, runner, quiz_course):
+        result = runner.invoke(cli, [
+            "add", "quiz",
+            "--course", "_test_quiz_course",
+            "--chapter-id", "does-not-exist",
+            "--lang", "en",
+            "--difficulty", "easy",
+            "--author", "test",
+        ])
+        assert result.exit_code != 0
+        assert "not found" in result.output.lower()
+        assert not (quiz_course / "quizz").exists()
+
+    def test_invalid_lang_fails(self, runner, quiz_course):
+        result = runner.invoke(cli, [
+            "add", "quiz",
+            "--course", "_test_quiz_course",
+            "--chapter-id", "test-chapter-id-001",
+            "--lang", "xx",
+            "--difficulty", "easy",
+            "--author", "test",
+        ])
+        assert result.exit_code != 0
+        assert "invalid language" in result.output.lower()
+        assert not (quiz_course / "quizz").exists()
 
     def test_interactive_prompts(self, runner, quiz_course):
         result = runner.invoke(

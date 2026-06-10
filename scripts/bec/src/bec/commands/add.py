@@ -46,12 +46,13 @@ def _list_course_ids(repo_root: Path) -> list[str]:
 
 
 def _list_course_langs(course_id: str, repo_root: Path) -> list[str]:
-    """List available language codes for a course."""
+    """List available language codes for a course (excludes non-language .md files)."""
     course_dir = repo_root / "courses" / course_id
     if not course_dir.is_dir():
         return []
+    languages = load_registry(repo_root).languages
     return sorted(
-        p.stem for p in course_dir.glob("*.md")
+        p.stem for p in course_dir.glob("*.md") if p.stem in languages
     )
 
 
@@ -113,7 +114,7 @@ def run_add_chapter(
     title: str | None,
     json_output: bool,
 ) -> None:
-    """Add a chapter heading with auto-generated BIP39 chapterId."""
+    """Add a chapter heading with auto-generated UUID chapterId."""
     repo_root = find_repo_root()
 
     # Interactive prompts for missing args
@@ -208,19 +209,30 @@ def run_add_quiz(
     if not course_dir.is_dir():
         raise click.ClickException(f"Course not found: courses/{course}")
 
+    cids = _list_chapter_ids(course, repo_root)
     if not chapter_id:
-        cids = _list_chapter_ids(course, repo_root)
         if cids:
             click.echo(f"Available chapterIds: {', '.join(cids)}")
         chapter_id = click.prompt("Chapter ID")
+    if chapter_id not in cids:
+        raise click.ClickException(
+            f"Chapter ID '{chapter_id}' not found in courses/{course} markdown files"
+        )
 
+    registry = load_registry(repo_root)
     if not lang:
         langs = _list_course_langs(course, repo_root)
         if langs:
             click.echo(f"Available languages: {', '.join(langs)}")
         lang = click.prompt("Language code", default="en")
+    if lang not in registry.languages:
+        raise click.ClickException(
+            f"Invalid language '{lang}'. Choose from: {', '.join(registry.languages)}"
+        )
 
-    valid_difficulties = ["easy", "intermediate", "hard", "expert"]
+    from bec.lib.schema import load_json_schema
+    question_schema = load_json_schema(repo_root / registry.quiz_schemas["question"])
+    valid_difficulties = question_schema["properties"]["difficulty"]["enum"]
     if not difficulty:
         difficulty = click.prompt(
             f"Difficulty ({', '.join(valid_difficulties)})", default="easy"
@@ -243,8 +255,8 @@ def run_add_quiz(
     quiz_dir.mkdir(parents=True)
 
     # Build question.yml
-    question_uuid = str(uuid.uuid4())
     question_data = {
+        "id": str(uuid.uuid4()),
         "chapterId": chapter_id,
         "difficulty": difficulty,
         "author": author,
@@ -320,10 +332,10 @@ def _find_source_lang(content_dir: Path) -> str | None:
     if (content_dir / "en.yml").is_file():
         return "en"
     # Otherwise pick the first .md or .yml that looks like a language code
+    # (including regional codes like zh-Hans, sr-Latn, nb-NO)
+    lang_re = re.compile(r"^[a-z]{2}(-[A-Za-z]{2,4})?$")
     for f in sorted(content_dir.iterdir()):
-        if f.suffix == ".md" and re.match(r"^[a-z]{2}$", f.stem):
-            return f.stem
-        if f.suffix == ".yml" and re.match(r"^[a-z]{2}$", f.stem):
+        if f.suffix in (".md", ".yml") and lang_re.match(f.stem):
             return f.stem
     return None
 
@@ -341,7 +353,12 @@ def _create_language_md(
 
     # Split frontmatter from body
     if source_text.startswith("---\n"):
-        end_idx = source_text.index("\n---\n", 4)
+        try:
+            end_idx = source_text.index("\n---\n", 4)
+        except ValueError:
+            raise click.ClickException(
+                f"Unterminated frontmatter in {source_path}: missing closing '---'"
+            )
         frontmatter_block = source_text[4:end_idx]
         body = source_text[end_idx + 5:]
     else:

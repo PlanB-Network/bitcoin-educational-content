@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 import click
+import yaml
 
 from bec.lib.content_types import ContentRegistry, ContentType, load_registry
 from bec.lib.repo import find_repo_root, resolve_content_path
@@ -97,10 +98,8 @@ def _resolve_type_filter(
     type_filter: str | None,
 ) -> list[str]:
     """Resolve a type_filter string to a list of content type keys."""
-    all_keys = list(registry.content_types.keys())
-
     if type_filter is None:
-        return all_keys
+        return list(registry.content_types.keys())
 
     f = type_filter.lower().strip("/")
 
@@ -113,26 +112,16 @@ def _resolve_type_filter(
     if singular in registry.content_types:
         return [singular]
 
-    # "professors" → "professor", "events" → "event"
-    if singular in registry.content_types:
-        return [singular]
+    # All resource types: "resources"
+    if f == "resources":
+        return [k for k in _RESOURCE_DIR_TO_KEY.values() if k in registry.content_types]
 
     # Resource path: "resources/books" → "book"
     if f.startswith("resources/"):
         subtype = f.split("/", 1)[1].rstrip("/")
         mapped = _RESOURCE_DIR_TO_KEY.get(subtype)
-        if mapped:
+        if mapped and mapped in registry.content_types:
             return [mapped]
-
-    # Group shortcuts
-    if f in ("course", "courses"):
-        return ["course"]
-    if f in ("tutorial", "tutorials"):
-        return ["tutorial"]
-    if f in ("professor", "professors"):
-        return ["professor"]
-    if f in ("event", "events"):
-        return ["event"]
 
     # If nothing matched, return empty (will produce zero results)
     return []
@@ -192,6 +181,17 @@ def _discover_for_type(
 # ---------------------------------------------------------------------------
 
 
+def _parse_yaml_item(path: Path) -> tuple[dict | list | None, ValidationResult | None]:
+    """Parse a YAML file; on failure return (None, error result) instead of raising."""
+    try:
+        data = load_yaml(path)
+    except (yaml.YAMLError, OSError) as e:
+        r = ValidationResult(path=str(path))
+        r.add_error(f"Failed to parse YAML: {e}")
+        return None, r
+    return data if data is not None else {}, None
+
+
 def _validate_folder(
     folder: Path,
     registry: ContentRegistry,
@@ -222,24 +222,25 @@ def _validate_folder(
     yaml_path = folder / ct.metadata_file
     if not yaml_path.exists():
         r = ValidationResult(path=str(yaml_path))
-        r.add_warning(f"Missing metadata file: {ct.metadata_file}")
+        r.add_error(f"Missing metadata file: {ct.metadata_file}")
         results.append(r)
         return results
 
-    schema_abs = repo_root / ct.schema
-    if not schema_abs.exists():
-        r = ValidationResult(path=str(yaml_path))
-        r.add_warning(f"Schema file not found: {ct.schema}")
-        results.append(r)
+    yaml_data, parse_err = _parse_yaml_item(yaml_path)
+    if parse_err is not None:
+        results.append(parse_err)
     else:
-        schema = _load_schema_cached(schema_abs)
-        yaml_data = load_yaml(yaml_path)
-        if yaml_data is None:
-            yaml_data = {}
-        result = validate_yaml_against_schema(
-            yaml_data, schema, str(yaml_path), schema_dir=schema_abs.parent,
-        )
-        results.append(result)
+        schema_abs = repo_root / ct.schema
+        if not schema_abs.exists():
+            r = ValidationResult(path=str(yaml_path))
+            r.add_warning(f"Schema file not found: {ct.schema}")
+            results.append(r)
+        else:
+            schema = _load_schema_cached(schema_abs)
+            result = validate_yaml_against_schema(
+                yaml_data, schema, str(yaml_path), schema_dir=schema_abs.parent,
+            )
+            results.append(result)
 
         # Semantic validation for events
         if ct.key == "event":
@@ -258,11 +259,17 @@ def _validate_folder(
             else None
         )
 
+        content_schema_dir = content_schema_path.parent if content_schema else None
+
         if ct.content_uses_yml:
             for yml_file in folder.glob("*.yml"):
                 if yml_file.name != ct.metadata_file:
                     if content_schema:
-                        results.append(validate_yml_content(yml_file, content_schema))
+                        results.append(
+                            validate_yml_content(
+                                yml_file, content_schema, content_schema_dir
+                            )
+                        )
                     else:
                         r = ValidationResult(path=str(yml_file))
                         r.add_warning("Content schema not found — skipping")
@@ -273,7 +280,9 @@ def _validate_folder(
                     continue
                 if content_schema:
                     results.append(
-                        validate_markdown_frontmatter(md_file, content_schema)
+                        validate_markdown_frontmatter(
+                            md_file, content_schema, content_schema_dir
+                        )
                     )
                 else:
                     r = ValidationResult(path=str(md_file))
@@ -287,9 +296,12 @@ def _validate_folder(
     return results
 
 
-def _validate_event_semantics(yaml_data: dict, file_path: str) -> ValidationResult:
+def _validate_event_semantics(yaml_data: object, file_path: str) -> ValidationResult:
     """Semantic checks for events beyond schema type validation."""
     result = ValidationResult(path=file_path)
+
+    if not isinstance(yaml_data, dict):
+        return result
 
     booking = yaml_data.get("book_online") is True or yaml_data.get("book_in_person") is True
 
@@ -300,7 +312,12 @@ def _validate_event_semantics(yaml_data: dict, file_path: str) -> ValidationResu
         result.add_warning("Booking enabled but no project_id")
 
     price = yaml_data.get("price_dollars")
-    if not booking and price is not None and price > 0:
+    if (
+        not booking
+        and isinstance(price, (int, float))
+        and not isinstance(price, bool)
+        and price > 0
+    ):
         result.add_warning("Price set but booking is disabled")
 
     return result
@@ -348,14 +365,15 @@ def _validate_quizzes(
 
         # Validate question.yml against schema
         if q_schema:
-            data = load_yaml(question_file)
-            if data is None:
-                data = {}
-            schemas_dir = (repo_root / q_schema_path).parent
-            result = validate_yaml_against_schema(
-                data, q_schema, str(question_file), schema_dir=schemas_dir,
-            )
-            results.append(result)
+            data, parse_err = _parse_yaml_item(question_file)
+            if parse_err is not None:
+                results.append(parse_err)
+            else:
+                schemas_dir = (repo_root / q_schema_path).parent
+                result = validate_yaml_against_schema(
+                    data, q_schema, str(question_file), schema_dir=schemas_dir,
+                )
+                results.append(result)
         else:
             # Fallback manual validation
             results.append(_validate_question_manual(question_file))
@@ -369,9 +387,10 @@ def _validate_quizzes(
         else:
             for tf in trans_files:
                 if t_schema:
-                    data = load_yaml(tf)
-                    if data is None:
-                        data = {}
+                    data, parse_err = _parse_yaml_item(tf)
+                    if parse_err is not None:
+                        results.append(parse_err)
+                        continue
                     schemas_dir = (repo_root / t_schema_path).parent
                     result = validate_yaml_against_schema(
                         data, t_schema, str(tf), schema_dir=schemas_dir,
@@ -421,6 +440,14 @@ def _validate_quiz_translation_manual(trans_file: Path) -> ValidationResult:
 # ---------------------------------------------------------------------------
 
 
+def _rel_path(path: str, repo_root: Path) -> str:
+    """Make a path relative to repo root where possible."""
+    try:
+        return str(Path(path).relative_to(repo_root))
+    except ValueError:
+        return path
+
+
 def _print_results(
     results: list[ValidationResult],
     repo_root: Path,
@@ -434,11 +461,7 @@ def _print_results(
     click.echo(f"{'=' * 60}\n")
 
     for r in results:
-        # Make path relative to repo root where possible
-        try:
-            rel = str(Path(r.path).relative_to(repo_root))
-        except ValueError:
-            rel = r.path
+        rel = _rel_path(r.path, repo_root)
 
         if r.errors or r.warnings:
             status = f"{_RED}FAILED{_END}" if r.errors else f"{_YELLOW}WARNINGS{_END}"
@@ -585,10 +608,10 @@ def run_validate_all(
             "type": ct_key,
             "status": status,
             "errors": [
-                e for r in results for e in r.errors
+                f"{_rel_path(r.path, repo_root)}: {e}" for r in results for e in r.errors
             ],
             "warnings": [
-                w for r in results for w in r.warnings
+                f"{_rel_path(r.path, repo_root)}: {w}" for r in results for w in r.warnings
             ],
         })
 

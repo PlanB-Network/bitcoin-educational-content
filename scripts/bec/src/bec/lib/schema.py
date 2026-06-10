@@ -73,32 +73,69 @@ def _build_registry(schemas_dir: Path) -> Registry:
     return registry
 
 
-def _strip_nulls(obj: Any, path: str = "") -> tuple[Any, list[str]]:
-    """Recursively remove null values, returning cleaned data and null paths."""
+def _allows_null(schema: Any) -> bool:
+    """Whether a known schema node accepts null (per jsonschema semantics).
+
+    Untyped nodes accept anything, including null. Unknown nodes (None, i.e.
+    field not described by the schema) and unresolvable $refs return False so
+    their nulls keep the legacy strip-and-warn behavior.
+    """
+    if isinstance(schema, bool):
+        return schema
+    if not isinstance(schema, dict):
+        return False
+    try:
+        return Draft7Validator(schema).is_valid(None)
+    except Exception:
+        return False
+
+
+def _strip_nulls(
+    obj: Any,
+    schema: Any = None,
+    path: str = "",
+) -> tuple[Any, list[str]]:
+    """Recursively remove schema-disallowed null values.
+
+    Returns cleaned data and the paths of stripped nulls. Nulls explicitly
+    allowed by the schema (type: [x, "null"], enum with null, anyOf/oneOf)
+    are kept so jsonschema validates them normally.
+    """
+    schema = schema if isinstance(schema, dict) else {}
     null_paths: list[str] = []
 
     if obj is None:
         return None, [path] if path else []
     elif isinstance(obj, dict):
+        props = schema.get("properties", {})
+        additional = schema.get("additionalProperties")
         cleaned: dict[str, Any] = {}
         for k, v in obj.items():
             current = f"{path} -> {k}" if path else k
+            sub_schema = props.get(k, additional)
             if v is None:
-                null_paths.append(current)
+                if _allows_null(sub_schema):
+                    cleaned[k] = None
+                else:
+                    null_paths.append(current)
             else:
-                cleaned_v, sub = _strip_nulls(v, current)
+                cleaned_v, sub = _strip_nulls(v, sub_schema, current)
                 null_paths.extend(sub)
                 if cleaned_v is not None:
                     cleaned[k] = cleaned_v
         return cleaned, null_paths
     elif isinstance(obj, list):
+        items_schema = schema.get("items")
         cleaned_list: list[Any] = []
         for i, item in enumerate(obj):
             current = f"{path}[{i}]"
             if item is None:
-                null_paths.append(current)
+                if _allows_null(items_schema):
+                    cleaned_list.append(None)
+                else:
+                    null_paths.append(current)
             else:
-                cleaned_item, sub = _strip_nulls(item, current)
+                cleaned_item, sub = _strip_nulls(item, items_schema, current)
                 null_paths.extend(sub)
                 if cleaned_item is not None:
                     cleaned_list.append(cleaned_item)
@@ -119,7 +156,7 @@ def validate_yaml_against_schema(
     """
     result = ValidationResult(path=file_path)
 
-    cleaned, null_paths = _strip_nulls(yaml_data)
+    cleaned, null_paths = _strip_nulls(yaml_data, schema)
     for p in null_paths:
         result.add_warning(f"[{p}] Empty/null value")
 
@@ -139,6 +176,7 @@ def validate_yaml_against_schema(
 def validate_markdown_frontmatter(
     md_path: Path,
     content_schema: dict,
+    schema_dir: Path | None = None,
 ) -> ValidationResult:
     """Validate markdown frontmatter and content rules.
 
@@ -155,17 +193,13 @@ def validate_markdown_frontmatter(
         result.add_error(f"Failed to parse markdown: {e}")
         return result
 
-    # Validate frontmatter fields against schema
-    schema_props = content_schema.get("properties", {})
-    required_fields = content_schema.get("required", [])
-
-    for f in required_fields:
-        if f not in post.metadata:
-            result.add_error(f"Missing required frontmatter field: '{f}'")
-
-    for f, value in post.metadata.items():
-        if f in schema_props:
-            _validate_field(result, f, value, schema_props[f])
+    _validate_content_fields(
+        result,
+        dict(post.metadata),
+        content_schema,
+        "Missing required frontmatter field: '{}'",
+        schema_dir,
+    )
 
     # Apply content_rules if present
     content_rules = content_schema.get("content_rules", {})
@@ -178,6 +212,7 @@ def validate_markdown_frontmatter(
 def validate_yml_content(
     yml_path: Path,
     content_schema: dict,
+    schema_dir: Path | None = None,
 ) -> ValidationResult:
     """Validate YML content files (books, bet, projects) against a schema."""
     result = ValidationResult(path=str(yml_path))
@@ -190,57 +225,45 @@ def validate_yml_content(
         result.add_error(f"Failed to parse YAML: {e}")
         return result
 
-    schema_props = content_schema.get("properties", {})
-    required_fields = content_schema.get("required", [])
-
-    for f in required_fields:
-        if f not in data:
-            result.add_error(f"Missing required field: '{f}'")
-
-    for f, value in data.items():
-        if f in schema_props:
-            _validate_field(result, f, value, schema_props[f])
+    _validate_content_fields(
+        result, data, content_schema, "Missing required field: '{}'", schema_dir,
+    )
 
     return result
 
 
-def _validate_field(
+def _validate_content_fields(
     result: ValidationResult,
-    field_name: str,
-    value: Any,
-    schema: dict,
+    data: Any,
+    content_schema: dict,
+    missing_msg: str,
+    schema_dir: Path | None = None,
 ) -> None:
-    """Validate a single field value against its schema definition."""
-    expected_type = schema.get("type")
+    """Validate data against a content schema's properties/required.
 
-    type_map = {
-        "string": str,
-        "integer": int,
-        "number": (int, float),
-        "boolean": bool,
-        "array": list,
-        "object": dict,
+    Builds a plain object schema (dropping the non-standard content_rules key)
+    and runs Draft7Validator so pattern/items/nested/additionalProperties and
+    bool-vs-integer distinctions are all enforced.
+    """
+    schema: dict[str, Any] = {
+        "type": "object",
+        "properties": content_schema.get("properties", {}),
+        "required": content_schema.get("required", []),
     }
+    if "additionalProperties" in content_schema:
+        schema["additionalProperties"] = content_schema["additionalProperties"]
 
-    if expected_type and expected_type in type_map:
-        expected = type_map[expected_type]
-        if not isinstance(value, expected):
-            result.add_error(
-                f"Field '{field_name}' should be {expected_type}, got {type(value).__name__}"
-            )
-
-    if expected_type == "string" and isinstance(value, str):
-        min_len = schema.get("minLength")
-        max_len = schema.get("maxLength")
-        if min_len and len(value) < min_len:
-            result.add_error(f"Field '{field_name}' is too short (min {min_len} chars)")
-        if max_len and len(value) > max_len:
-            result.add_error(f"Field '{field_name}' is too long (max {max_len} chars)")
-
-    if "enum" in schema and value not in schema["enum"]:
-        result.add_error(
-            f"Field '{field_name}' has invalid value '{value}'. Allowed: {schema['enum']}"
-        )
+    registry = _build_registry(schema_dir) if schema_dir else Registry()
+    validator = Draft7Validator(schema, registry=registry)
+    for error in validator.iter_errors(data):
+        if error.validator == "required" and not error.absolute_path:
+            field_name = error.message.split("'")[1]
+            result.add_error(missing_msg.format(field_name))
+        elif error.absolute_path:
+            path_str = " -> ".join(str(p) for p in error.absolute_path)
+            result.add_error(f"Field '{path_str}': {error.message}")
+        else:
+            result.add_error(error.message)
 
 
 def _validate_content_rules(

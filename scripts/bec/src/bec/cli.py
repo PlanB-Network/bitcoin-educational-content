@@ -25,10 +25,14 @@ def cli():
 @click.option("--summary-only", is_flag=True, help="Show only aggregate counts (requires --all).")
 def validate(path, validate_all, json_output, courses_only, tutorials_only, content_type, summary_only):
     """Validate content against schemas."""
+    if content_type and (courses_only or tutorials_only):
+        raise click.UsageError("--type cannot be combined with --courses-only/--tutorials-only.")
+    if courses_only and tutorials_only:
+        raise click.UsageError("--courses-only and --tutorials-only are mutually exclusive.")
+
     if validate_all:
         from bec.commands.validate import run_validate_all
 
-        # Resolve filter: explicit --type wins, then shortcut flags
         type_filter = content_type
         if courses_only:
             type_filter = "course"
@@ -185,7 +189,7 @@ def add_part(course, lang, title, json_output):
 @click.option("--title", default=None, help="Chapter title.")
 @click.option("--json", "json_output", is_flag=True, help="Output result as JSON.")
 def add_chapter(course, lang, title, json_output):
-    """Add a chapter with auto-generated BIP39 chapterId."""
+    """Add a chapter with auto-generated UUID chapterId."""
     from bec.commands.add import run_add_chapter
 
     run_add_chapter(course=course, lang=lang, title=title, json_output=json_output)
@@ -300,6 +304,9 @@ def report(ctx, run_all, output, json_output):
         from bec.commands.report import run_report_all
 
         run_report_all(output=output, json_output=json_output)
+    elif ctx.invoked_subcommand is None:
+        click.echo(ctx.get_help())
+        ctx.exit(2)
 
 
 @report.command("translation")

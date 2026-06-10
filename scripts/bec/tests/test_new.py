@@ -200,6 +200,7 @@ class TestNewCourseCommand:
         assert (clean_course / "course.yml").exists()
         assert (clean_course / "en.md").exists()
         assert (clean_course / "assets").is_dir()
+        assert (clean_course / "assets" / ".gitkeep").exists()
 
     def test_course_yml_valid_structure(self, runner, repo_root, clean_course):
         runner.invoke(

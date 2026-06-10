@@ -1137,15 +1137,15 @@ def _parse_video_coverage(
         yt_langs: set[str] = set()
         pt_langs: set[str] = set()
 
-        for entry in video.get("youtube", []):
+        for entry in video.get("youtube") or []:
             if isinstance(entry, dict):
                 yt_langs.update(entry.keys())
 
-        for entry in video.get("peertube", []):
+        for entry in video.get("peertube") or []:
             if isinstance(entry, dict):
                 pt_langs.update(entry.keys())
 
-        for entry in video.get("rumble", []):
+        for entry in video.get("rumble") or []:
             if isinstance(entry, dict):
                 pt_langs.update(entry.keys())  # treat rumble like peertube
 
@@ -1208,13 +1208,6 @@ def analyze_video_deployment(
         })
 
     courses.sort(key=lambda c: c["id"])
-
-    # Summary stats
-    total_covered = sum(
-        c["coverage"][languages[0]]["covered"]
-        for c in courses
-        if c["total_videos"] > 0
-    ) if languages else 0
 
     return {
         "courses": courses,
@@ -1977,7 +1970,7 @@ def run_report_proofreading(
 # Phase 13: Course analytics report
 # ===========================================================================
 
-_TAG_RE = re.compile(r"<[^>]+>")
+_TAG_RE = re.compile(r"<(chapterId|partId)>[^<]*</\1>|<[^>]+>")
 _IMG_RE_CLEAN = re.compile(r"!\[.*?\]\(.*?\)")
 _LINK_RE = re.compile(r"\[([^\]]*)\]\([^\)]*\)")
 _CODE_BLOCK_RE = re.compile(r"```.*?```", re.DOTALL)
@@ -2010,6 +2003,9 @@ def _count_content_words(text: str) -> int:
 def _parse_course_structure(content: str) -> dict:
     """Parse a course markdown file into parts and chapters with metrics.
 
+    Format: YAML frontmatter, intro/excerpt, a '+++' separator, then parts
+    as level-1 headings each containing level-2 chapter headings.
+
     Returns:
         {
             "intro_words": int,
@@ -2018,62 +2014,46 @@ def _parse_course_structure(content: str) -> dict:
     """
     # Split frontmatter
     parts_raw = content.split("---", 2)
-    if len(parts_raw) >= 3:
-        body = parts_raw[2]
-    else:
-        body = content
+    body = parts_raw[2] if len(parts_raw) >= 3 else content
 
-    # Split on +++ separator
-    sections = body.split("+++")
-    intro_text = sections[0] if sections else ""
+    # '+++' separates the intro/excerpt from the parts body
+    intro_text, sep, parts_body = body.partition("+++")
+    if not sep:
+        intro_text, parts_body = "", body
     intro_words = _count_content_words(intro_text)
 
     parts: list[dict] = []
+    current_chapter_name = ""
+    current_chapter_lines: list[str] = []
 
-    # Process remaining sections (each starts after a +++ separator)
-    for section in sections[1:]:
-        lines = section.strip().split("\n")
-        part_name = ""
-        chapters: list[dict] = []
-        current_chapter_name = ""
-        current_chapter_lines: list[str] = []
-
-        for line in lines:
-            stripped = line.strip()
-
-            # Part title: # heading (level 1)
-            if stripped.startswith("# ") and not stripped.startswith("## "):
-                part_name = stripped[2:].strip()
-                continue
-
-            # Chapter title: ## heading
-            if stripped.startswith("## "):
-                # Save previous chapter
-                if current_chapter_name:
-                    chapter_text = "\n".join(current_chapter_lines)
-                    chapters.append({
-                        "name": current_chapter_name,
-                        "words": _count_content_words(chapter_text),
-                    })
-                current_chapter_name = stripped[3:].strip()
-                current_chapter_lines = []
-                continue
-
-            current_chapter_lines.append(line)
-
-        # Save last chapter
-        if current_chapter_name:
-            chapter_text = "\n".join(current_chapter_lines)
-            chapters.append({
+    def flush_chapter() -> None:
+        nonlocal current_chapter_name, current_chapter_lines
+        if current_chapter_name and parts:
+            parts[-1]["chapters"].append({
                 "name": current_chapter_name,
-                "words": _count_content_words(chapter_text),
+                "words": _count_content_words("\n".join(current_chapter_lines)),
             })
+        current_chapter_name = ""
+        current_chapter_lines = []
 
-        if part_name or chapters:
-            parts.append({
-                "name": part_name or "(untitled part)",
-                "chapters": chapters,
-            })
+    for line in parts_body.split("\n"):
+        stripped = line.strip()
+
+        # Part title: # heading (level 1)
+        if stripped.startswith("# "):
+            flush_chapter()
+            parts.append({"name": stripped[2:].strip(), "chapters": []})
+            continue
+
+        # Chapter title: ## heading
+        if stripped.startswith("## "):
+            flush_chapter()
+            current_chapter_name = stripped[3:].strip()
+            continue
+
+        current_chapter_lines.append(line)
+
+    flush_chapter()
 
     return {
         "intro_words": intro_words,

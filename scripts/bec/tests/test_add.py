@@ -21,35 +21,24 @@ from bec.lib.markdown import (
 # ---- Unit tests for lib/markdown.py ----
 
 
+UUID_RE = re.compile(
+    r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+)
+
+
 class TestGenerateChapterId:
-    def test_format_three_words(self):
+    def test_is_valid_uuid(self):
+        """LMS importer requires chapterId to be a valid UUID."""
+        import uuid
+
         cid = generate_chapter_id()
-        parts = cid.split("-")
-        assert len(parts) == 3, f"Expected 3 words, got {len(parts)}: {cid}"
-
-    def test_all_lowercase(self):
-        cid = generate_chapter_id()
-        assert cid == cid.lower()
-
-    def test_words_are_from_bip39(self):
-        from bec.lib.markdown import _load_wordlist
-
-        wordlist = _load_wordlist()
-        cid = generate_chapter_id()
-        for word in cid.split("-"):
-            assert word in wordlist, f"'{word}' not in BIP39 wordlist"
-
-    def test_unique_words(self):
-        """Each chapter ID should have 3 distinct words (random.sample)."""
-        for _ in range(20):
-            cid = generate_chapter_id()
-            parts = cid.split("-")
-            assert len(set(parts)) == 3, f"Duplicate words in: {cid}"
+        assert UUID_RE.match(cid), f"Expected UUID, got: {cid}"
+        assert str(uuid.UUID(cid)) == cid
 
     def test_randomness(self):
         """Two generated IDs should (almost certainly) differ."""
         ids = {generate_chapter_id() for _ in range(10)}
-        assert len(ids) > 1, "Generated IDs are all identical"
+        assert len(ids) == 10, "Generated IDs collide"
 
 
 class TestBuildPartBlock:
@@ -84,13 +73,11 @@ class TestBuildChapterBlock:
         block = build_chapter_block("My Chapter", "test-id")
         assert "<chapterId>test-id</chapterId>" in block
 
-    def test_auto_generates_bip39_id(self):
+    def test_auto_generates_uuid_id(self):
         block = build_chapter_block("My Chapter")
         match = re.search(r"<chapterId>(.+?)</chapterId>", block)
         assert match
-        cid = match.group(1)
-        parts = cid.split("-")
-        assert len(parts) == 3, f"Expected BIP39 3-word ID, got: {cid}"
+        assert UUID_RE.match(match.group(1)), f"Expected UUID, got: {match.group(1)}"
 
     def test_structure(self):
         block = build_chapter_block("Title", "cid")
@@ -124,27 +111,13 @@ class TestAppendToMarkdown:
         result = md.read_text(encoding="utf-8")
         assert "# Heading\n\n## New\n" in result
 
-
-class TestBip39Wordlist:
-    def test_wordlist_loads(self):
-        from bec.lib.markdown import _load_wordlist
-
-        words = _load_wordlist()
-        assert len(words) == 2048
-
-    def test_wordlist_no_empty(self):
-        from bec.lib.markdown import _load_wordlist
-
-        words = _load_wordlist()
-        assert all(w for w in words)
-
-    def test_known_words_present(self):
-        from bec.lib.markdown import _load_wordlist
-
-        words = _load_wordlist()
-        assert "abandon" in words
-        assert "zoo" in words
-        assert "bitcoin" not in words  # not in BIP39
+    def test_preserves_crlf_line_endings(self, tmp_path):
+        md = tmp_path / "test.md"
+        md.write_bytes(b"# Heading\r\n\r\nContent here.\r\n")
+        append_to_markdown(md, "## New\n")
+        raw = md.read_bytes()
+        assert b"# Heading\r\n\r\nContent here.\r\n" in raw
+        assert b"## New\n" in raw
 
 
 # ---- CLI integration tests ----
@@ -278,21 +251,20 @@ class TestAddChapterCommand:
         content = (test_course / "en.md").read_text(encoding="utf-8")
         assert "## New Chapter\n\n<chapterId>" in content
 
-    def test_bip39_chapter_id(self, runner, test_course):
+    def test_uuid_chapter_id(self, runner, test_course):
         result = runner.invoke(cli, [
             "add", "chapter",
             "--course", "_test_add_course",
             "--lang", "en",
-            "--title", "BIP39 Test",
+            "--title", "UUID Test",
         ])
         assert result.exit_code == 0
         assert "chapterId:" in result.output
 
         content = (test_course / "en.md").read_text(encoding="utf-8")
-        match = re.search(r"<chapterId>([a-z]+-[a-z]+-[a-z]+)</chapterId>", content)
-        assert match, "Expected BIP39 3-word chapter ID"
-        words = match.group(1).split("-")
-        assert len(words) == 3
+        ids = re.findall(r"<chapterId>(.+?)</chapterId>", content)
+        assert any(UUID_RE.match(cid) for cid in ids), \
+            f"Expected a UUID chapter ID, got: {ids}"
 
     def test_json_output(self, runner, test_course):
         result = runner.invoke(cli, [
@@ -308,9 +280,8 @@ class TestAddChapterCommand:
         assert data["course"] == "_test_add_course"
         assert data["title"] == "JSON Chapter"
         assert "chapter_id" in data
-        # chapter_id should be 3 BIP39 words
-        words = data["chapter_id"].split("-")
-        assert len(words) == 3
+        # chapter_id should be a UUID (LMS importer requirement)
+        assert UUID_RE.match(data["chapter_id"])
 
     def test_chapter_heading_is_h2(self, runner, test_course):
         runner.invoke(cli, [

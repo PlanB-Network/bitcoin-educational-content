@@ -22,20 +22,26 @@ METADATA_FILES = {
     "book.yml",
     "word.yml",
     "bet.yml",
-    "builder.yml",
+    "project.yml",
     "conference.yml",
 }
 
-# Language difficulty factors (how hard a language is to translate into)
+# Language difficulty factors (how hard a language is to translate into).
+# Keys are lowercase; always look up via get_language_factor().
 LANGUAGE_FACTORS: dict[str, float] = {
     "en": 1.0, "fr": 1.0, "de": 1.0, "es": 1.0, "it": 1.0, "pt": 1.0,
     "ro": 1.0, "sv": 1.0,
-    "cs": 1.5, "ru": 1.5, "fi": 1.5, "et": 1.5, "uk": 1.5, "nb-NO": 1.5,
+    "cs": 1.5, "ru": 1.5, "fi": 1.5, "et": 1.5, "uk": 1.5, "nb-no": 1.5,
     "pl": 1.5, "sw": 1.5, "fa": 1.5, "nl": 1.5, "bg": 1.5,
-    "id": 2.0, "zh-Hans": 2.0, "tr": 2.0, "ha": 2.0, "sr-Latn": 2.0,
-    "zh-Hant": 2.0, "ko": 2.0, "th": 2.0,
+    "id": 2.0, "zh-hans": 2.0, "tr": 2.0, "ha": 2.0, "sr-latn": 2.0,
+    "zh-hant": 2.0, "ko": 2.0, "th": 2.0,
     "vi": 2.5, "ja": 2.5, "hi": 2.5, "rn": 2.5,
 }
+
+
+def get_language_factor(language: str) -> float:
+    """Language difficulty factor, matched case-insensitively."""
+    return LANGUAGE_FACTORS.get(language.lower(), 1.0)
 
 # Content difficulty multiplier by level
 CONTENT_DIFFICULTY: dict[str, int] = {
@@ -164,7 +170,7 @@ def evaluate_reward_for_language(metadata_path: Path, data: dict, language: str)
         return {"error": f"Language '{language}' not in proofreading entries"}
 
     words = get_original_word_count(metadata_path, data)
-    lang_factor = LANGUAGE_FACTORS.get(language, 1.0)
+    lang_factor = get_language_factor(language)
     urgency = entry.get("urgency", 1)
     iteration = get_contributor_count(entry)
 
@@ -201,7 +207,7 @@ def get_status_matrix(metadata_path: Path, data: dict) -> list[dict]:
         contributors = entry.get("contributor_names") or []
         iteration = len(contributors)
         urgency = entry.get("urgency", 1)
-        lang_factor = LANGUAGE_FACTORS.get(lang, 1.0)
+        lang_factor = get_language_factor(lang)
         reward = compute_reward(words, lang_factor, urgency, iteration)
         remaining = max(0, MAX_PAID_ITERATIONS - iteration)
 
@@ -267,7 +273,11 @@ def update_metadata_file(metadata_path: Path, data: dict) -> None:
         else:
             new_lines.append(f"{proof_indent}    last_contribution_date:")
 
-        new_lines.append(f"{proof_indent}    urgency: {entry.get('urgency', 1)}")
+        urgency = entry.get("urgency", 1)
+        if urgency is None:
+            new_lines.append(f"{proof_indent}    urgency:")
+        else:
+            new_lines.append(f"{proof_indent}    urgency: {urgency}")
 
         # contributor_names
         names = entry.get("contributor_names")
@@ -278,7 +288,11 @@ def update_metadata_file(metadata_path: Path, data: dict) -> None:
         else:
             new_lines.append(f"{proof_indent}    contributor_names:")
 
-        new_lines.append(f"{proof_indent}    reward: {entry.get('reward', 0)}")
+        reward = entry.get("reward", 0)
+        if reward is None:
+            new_lines.append(f"{proof_indent}    reward:")
+        else:
+            new_lines.append(f"{proof_indent}    reward: {reward}")
 
     # Reconstruct
     before = "\n".join(lines[:proof_start])
@@ -310,7 +324,7 @@ def recalculate_rewards(metadata_path: Path, data: dict) -> None:
 
     for entry in entries:
         lang = entry.get("language", "")
-        lang_factor = LANGUAGE_FACTORS.get(lang, 1.0)
+        lang_factor = get_language_factor(lang)
         urgency = entry.get("urgency", 1)
         iteration = get_contributor_count(entry)
         reward = compute_reward(words, lang_factor, urgency, iteration)

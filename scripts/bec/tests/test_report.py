@@ -14,6 +14,7 @@ from bec.commands.report import (
     _classify_image,
     _extract_images_from_markdown,
     _get_language_files,
+    _parse_course_structure,
     _parse_video_coverage,
     analyze_course_analytics,
     analyze_image_translation,
@@ -670,6 +671,15 @@ def test_parse_video_coverage_empty():
     assert cov["fr"]["covered"] == 0
 
 
+def test_parse_video_coverage_null_provider():
+    videos = [
+        {"id": "v1", "youtube": None, "peertube": [{"en": "a"}], "rumble": None},
+    ]
+    cov = _parse_video_coverage(videos, ["en"])
+    assert cov["en"]["peertube"] == 1
+    assert cov["en"]["covered"] == 1
+
+
 @pytest.fixture
 def video_repo(tmp_path):
     """Create a repo with courses that have video metadata."""
@@ -951,6 +961,41 @@ def test_cli_report_proofreading_json_structure(proof_repo):
 
 # ---- Unit tests: course analytics (Phase 13) -----------------------------------
 
+def test_parse_course_structure_real_format():
+    """Parts are level-1 headings after the single '+++' excerpt separator."""
+    content = (
+        "---\n"
+        "name: Test\n"
+        "---\n"
+        "# Intro Heading\n\n"
+        "Intro words here.\n\n"
+        "+++\n\n"
+        "# Part A\n\n"
+        "<partId>p1</partId>\n\n"
+        "## Chapter A1\n\n"
+        "<chapterId>c1</chapterId>\n\n"
+        "Some chapter one words.\n\n"
+        "## Chapter A2\n\n"
+        "<chapterId>c2</chapterId>\n\n"
+        "More words.\n\n"
+        "# Part B\n\n"
+        "<partId>p2</partId>\n\n"
+        "## Chapter B1\n\n"
+        "<chapterId>c3</chapterId>\n\n"
+        "Final chapter words.\n"
+    )
+    structure = _parse_course_structure(content)
+
+    assert structure["intro_words"] == 5  # "Intro Heading Intro words here."
+    assert [p["name"] for p in structure["parts"]] == ["Part A", "Part B"]
+    assert [ch["name"] for ch in structure["parts"][0]["chapters"]] == [
+        "Chapter A1", "Chapter A2",
+    ]
+    assert [ch["name"] for ch in structure["parts"][1]["chapters"]] == ["Chapter B1"]
+    assert structure["parts"][0]["chapters"][0]["words"] == 4
+    assert structure["parts"][1]["chapters"][0]["words"] == 3
+
+
 @pytest.fixture
 def analytics_repo(tmp_path):
     """Create a repo with course markdown for analytics."""
@@ -983,6 +1028,7 @@ def analytics_repo(tmp_path):
         "objectives:\n"
         "  - Understand Bitcoin\n"
         "---\n"
+        "# Course Intro\n\n"
         "This is the intro section with some words here.\n\n"
         "+++\n\n"
         "# Part One\n\n"
@@ -994,7 +1040,6 @@ def analytics_repo(tmp_path):
         "## Chapter Two\n\n"
         "<chapterId>444-555-666</chapterId>\n\n"
         "Chapter two has different content.\n\n"
-        "+++\n\n"
         "# Part Two\n\n"
         "<partId>jkl-mno-pqr</partId>\n\n"
         "## Chapter Three\n\n"
@@ -1274,11 +1319,11 @@ def test_real_repo_analytics(real_repo_root):
     assert analysis["summary"]["total_words"] > 100000
     assert analysis["summary"]["total_quizzes"] > 100
 
-    # Spot-check btc101
+    # Spot-check btc101: 7 parts, 25+ chapters (was collapsing to 1 part)
     btc101 = next((c for c in analysis["courses"] if c["id"] == "btc101"), None)
     assert btc101 is not None
-    assert btc101["parts"] > 0
-    assert btc101["chapters"] > 0
+    assert btc101["parts"] > 5
+    assert btc101["chapters"] > 20
     assert btc101["total_words"] > 1000
 
 

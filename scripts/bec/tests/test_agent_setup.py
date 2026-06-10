@@ -74,6 +74,31 @@ class TestCreateSymlink:
         assert link.readlink() == target
         assert (tmp_path / "CLAUDE.md.bak").exists()
 
+    def test_backup_does_not_clobber_existing_bak(self, tmp_path):
+        target = Path("docs/agents/CLAUDE.md")
+        link = tmp_path / "CLAUDE.md"
+        link.write_text("current content")
+        (tmp_path / "CLAUDE.md.bak").write_text("old backup")
+
+        status = _create_symlink(link, target, "CLAUDE.md")
+
+        assert status == "replaced"
+        assert (tmp_path / "CLAUDE.md.bak").read_text() == "old backup"
+        assert (tmp_path / "CLAUDE.md.bak.1").read_text() == "current content"
+
+    def test_symlink_error_raises_click_exception(self, tmp_path, monkeypatch):
+        import click
+
+        target = Path("docs/agents/AGENTS.md")
+        link = tmp_path / "AGENTS.md"
+
+        def boom(self, t):
+            raise OSError("permission denied")
+
+        monkeypatch.setattr(Path, "symlink_to", boom)
+        with pytest.raises(click.ClickException, match="failed to create symlink AGENTS.md"):
+            _create_symlink(link, target, "AGENTS.md")
+
 
 # ── CLI integration tests ───────────────────────────────────────────────
 

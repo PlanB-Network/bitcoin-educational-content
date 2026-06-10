@@ -14,12 +14,14 @@ from click.testing import CliRunner
 from bec.cli import cli
 from bec.commands.new import (
     RESOURCE_TYPE_KEYS,
+    _PLACEHOLDER_WEBP,
     _validate_slug,
     build_event_yml,
     build_professor_lang_yml,
     build_professor_yml,
     build_tutorial_md,
     build_tutorial_yml,
+    prompt_enum,
 )
 
 UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
@@ -40,6 +42,55 @@ class TestValidateSlug:
         assert _validate_slug("a") is not None  # too short
         assert _validate_slug("My-Tutorial") is not None  # uppercase
         assert _validate_slug("-leading") is not None  # leading hyphen
+
+
+# ---- prompt_enum ----
+
+
+class TestPromptEnum:
+    def test_case_insensitive_returns_canonical(self):
+        from unittest.mock import patch
+
+        with patch("click.prompt", return_value="cc-by-sa-v4"):
+            assert prompt_enum("license", ["CC-BY-SA-V4", "MIT"]) == "CC-BY-SA-V4"
+        with patch("click.prompt", return_value="MIT"):
+            assert prompt_enum("license", ["CC-BY-SA-V4", "MIT"]) == "MIT"
+
+    def test_invalid_reprompts(self):
+        from unittest.mock import patch
+
+        with patch("click.prompt", side_effect=["nope", "mit"]):
+            assert prompt_enum("license", ["CC-BY-SA-V4", "MIT"]) == "MIT"
+
+
+# ---- Placeholder WebP ----
+
+
+class TestPlaceholderWebp:
+    def test_valid_webp_structure(self):
+        data = _PLACEHOLDER_WEBP
+        assert data[:4] == b"RIFF"
+        assert int.from_bytes(data[4:8], "little") == len(data) - 8
+        assert data[8:12] == b"WEBP"
+        assert data[12:16] == b"VP8L"
+        vp8l_size = int.from_bytes(data[16:20], "little")
+        assert len(data) == 20 + vp8l_size + (vp8l_size % 2)
+        assert data[20] == 0x2F  # VP8L signature byte
+
+    def test_decodable(self):
+        import subprocess
+        import tempfile
+
+        if shutil.which("dwebp") is None:
+            pytest.skip("dwebp not available")
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "ph.webp"
+            src.write_bytes(_PLACEHOLDER_WEBP)
+            result = subprocess.run(
+                ["dwebp", str(src), "-o", str(Path(tmp) / "ph.png")],
+                capture_output=True,
+            )
+            assert result.returncode == 0, result.stderr.decode()
 
 
 # ---- Tutorial unit tests ----
@@ -278,6 +329,7 @@ class TestNewProfessorCommand:
         assert (clean_professor / "professor.yml").exists()
         assert (clean_professor / "en.yml").exists()
         assert (clean_professor / "assets").is_dir()
+        assert (clean_professor / "assets" / ".gitkeep").exists()
 
     def test_professor_yml_valid(self, runner, clean_professor):
         runner.invoke(cli, [
@@ -359,6 +411,7 @@ class TestNewEventCommand:
         assert clean_event.exists()
         assert (clean_event / "event.yml").exists()
         assert (clean_event / "assets").is_dir()
+        assert (clean_event / "assets" / ".gitkeep").exists()
 
     def test_event_yml_valid(self, runner, clean_event):
         runner.invoke(cli, self._default_args())
@@ -377,6 +430,13 @@ class TestNewEventCommand:
         data = json.loads(result.output)
         assert data["type"] == "event"
         assert data["id"] == "test-event-2025"
+
+    def test_schema_enum_type_accepted(self, runner, clean_event):
+        """Event types come from the event schema enum."""
+        args = self._default_args()
+        args[args.index("meetup")] = "lecture"
+        result = runner.invoke(cli, args)
+        assert result.exit_code == 0, result.output
 
     def test_invalid_event_type_rejected(self, runner):
         result = runner.invoke(cli, [
@@ -432,6 +492,7 @@ class TestNewResourceCommand:
         assert (clean_book / "book.yml").exists()
         assert (clean_book / "en.yml").exists()
         assert (clean_book / "assets").is_dir()
+        assert (clean_book / "assets" / ".gitkeep").exists()
 
     def test_book_yml_valid(self, runner, clean_book):
         runner.invoke(cli, [

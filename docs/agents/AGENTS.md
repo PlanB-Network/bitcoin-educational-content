@@ -74,14 +74,14 @@ objectives:
 
 ## Chapter Title
 
-<chapterId>three-bip39-words</chapterId>
+<chapterId>uuid-here</chapterId>
 
 Content here...
 ```
 
 - Parts: `+++` separator, then `# heading`, then `<partId>uuid</partId>`
-- Chapters: `## heading`, then `<chapterId>three-bip39-words</chapterId>`
-- Chapter IDs: 3 hyphenated BIP39 words (e.g., `father-loop-frog`)
+- Chapters: `## heading`, then `<chapterId>uuid</chapterId>`
+- Chapter IDs: UUIDs (e.g., `27e3fb60-4b50-556b-9e70-c4f5475c121d`) — the LMS importer requires valid UUIDs
 - Quizzes: `courses/{id}/quizz/{nnn}/question.yml` + `{lang}.yml`
 
 ### Tutorial Categories

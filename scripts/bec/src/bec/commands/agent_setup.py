@@ -48,6 +48,23 @@ def run_agent_setup(*, json_output: bool = False) -> None:
         click.echo("\nAgent orientation files are ready at repo root.")
 
 
+def _backup_path(link_path: Path) -> Path:
+    """Return a backup path that does not clobber an existing one."""
+    backup = link_path.with_name(link_path.name + ".bak")
+    counter = 1
+    while backup.exists() or backup.is_symlink():
+        backup = link_path.with_name(f"{link_path.name}.bak.{counter}")
+        counter += 1
+    return backup
+
+
+def _symlink(link_path: Path, target: Path, name: str) -> None:
+    try:
+        link_path.symlink_to(target)
+    except OSError as e:
+        raise click.ClickException(f"failed to create symlink {name}: {e}")
+
+
 def _create_symlink(link_path: Path, target: Path, name: str) -> str:
     """Create or update a symlink. Returns status string."""
     if link_path.is_symlink():
@@ -56,15 +73,17 @@ def _create_symlink(link_path: Path, target: Path, name: str) -> str:
             return "already_correct"
         # Remove stale symlink and recreate
         link_path.unlink()
-        link_path.symlink_to(target)
+        _symlink(link_path, target, name)
         return "updated"
 
     if link_path.exists():
         # A real file exists — back it up and replace
-        backup = link_path.with_suffix(link_path.suffix + ".bak")
-        link_path.rename(backup)
-        link_path.symlink_to(target)
+        try:
+            link_path.rename(_backup_path(link_path))
+        except OSError as e:
+            raise click.ClickException(f"failed to back up {name}: {e}")
+        _symlink(link_path, target, name)
         return "replaced"
 
-    link_path.symlink_to(target)
+    _symlink(link_path, target, name)
     return "created"

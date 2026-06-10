@@ -17,10 +17,10 @@ from bec.lib.yaml_utils import dump_yaml
 
 UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 
-# Minimal 1x1 WebP placeholder (40 bytes) for scaffold cover images
+# Minimal valid 1x1 white lossless WebP (VP8L, 38 bytes) for scaffold cover images
 import base64 as _b64
 _PLACEHOLDER_WEBP = _b64.b64decode(
-    b"UklGRiAAAABXRUJQVlA4IBMAAAAwAQCdASoBAAEAAUAlpAADcAAAAA=="
+    b"UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA="
 )
 
 # Resource type keys that live under resources/
@@ -241,12 +241,13 @@ def prompt_course_id(registry) -> str:
 
 
 def prompt_enum(field_name: str, choices: list[str], default: str | None = None) -> str:
-    """Prompt user to pick from enum values."""
+    """Prompt user to pick from enum values (case-insensitive, returns canonical value)."""
     click.echo(f"\n{field_name} options: {', '.join(choices)}")
+    canonical = {c.lower(): c for c in choices}
     while True:
         value = click.prompt(field_name, default=default or "").strip().lower()
-        if value in choices:
-            return value
+        if value in canonical:
+            return canonical[value]
         click.echo(f"Invalid. Choose from: {', '.join(choices)}", err=True)
 
 
@@ -361,6 +362,7 @@ def run_new_course(
     md_path = course_dir / f"{lang}.md"
     assets_dir = course_dir / "assets"
     assets_dir.mkdir()
+    (assets_dir / ".gitkeep").touch()
 
     dump_yaml(course_yml_data, yml_path)
     md_path.write_text(course_md_content, encoding="utf-8")
@@ -632,6 +634,7 @@ def run_new_professor(
     lang_path = prof_dir / f"{lang}.yml"
     assets_dir = prof_dir / "assets"
     assets_dir.mkdir()
+    (assets_dir / ".gitkeep").touch()
 
     dump_yaml(prof_yml, yml_path)
     dump_yaml(lang_yml, lang_path)
@@ -656,8 +659,6 @@ def run_new_professor(
 # ========================================================================
 # Event scaffolding
 # ========================================================================
-
-EVENT_TYPES = ["workshop", "course", "conference", "lecture", "meetup"]
 
 
 def build_event_yml(
@@ -708,6 +709,11 @@ def run_new_event(
     repo_root = find_repo_root()
     registry = load_registry(repo_root)
 
+    # Load schema for enum introspection
+    schema_path = repo_root / registry.content_types["event"].schema
+    schema = load_json_schema(schema_path)
+    event_types = get_enum_values(schema, "type")
+
     if event_id is None:
         event_id = _prompt_slug("Event")
     else:
@@ -729,9 +735,9 @@ def run_new_event(
         raise SystemExit(1)
 
     if event_type is None:
-        event_type = prompt_enum("type", EVENT_TYPES, default="meetup")
-    elif event_type not in EVENT_TYPES:
-        click.echo(f"Error: invalid event type '{event_type}'. Allowed: {', '.join(EVENT_TYPES)}", err=True)
+        event_type = prompt_enum("type", event_types, default="meetup")
+    elif event_type not in event_types:
+        click.echo(f"Error: invalid event type '{event_type}'. Allowed: {', '.join(event_types)}", err=True)
         raise SystemExit(1)
 
     if start_date is None:
@@ -768,6 +774,7 @@ def run_new_event(
     yml_path = event_dir / "event.yml"
     assets_dir = event_dir / "assets"
     assets_dir.mkdir()
+    (assets_dir / ".gitkeep").touch()
 
     dump_yaml(event_yml, yml_path)
 
@@ -814,6 +821,7 @@ def _build_resource_metadata(resource_type: str, resource_uuid: str, lang: str) 
             "license": "CC-BY-SA-V4",
         },
         "book": lambda: {
+            "id": resource_uuid,
             "author": "TODO: Author Name",
             "level": "beginner",
             "tags": ["software"],
@@ -1003,6 +1011,7 @@ def run_new_resource(
 
     assets_dir = resource_dir / "assets"
     assets_dir.mkdir()
+    (assets_dir / ".gitkeep").touch()
     created_files.append(str(assets_dir.relative_to(repo_root)) + "/")
 
     _scaffold_output(

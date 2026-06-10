@@ -1,37 +1,14 @@
-"""Markdown manipulation and BIP39 chapter ID generation."""
+"""Markdown manipulation and chapter ID generation."""
 
 from __future__ import annotations
 
-import random
-from importlib import resources as pkg_resources
+import uuid
 from pathlib import Path
-
-_WORDLIST: list[str] | None = None
-
-
-def _load_wordlist() -> list[str]:
-    """Load the BIP39 English wordlist (2048 words), cached on first call."""
-    global _WORDLIST
-    if _WORDLIST is not None:
-        return _WORDLIST
-
-    # Use importlib.resources for package data (works with installed packages)
-    try:
-        ref = pkg_resources.files("bec") / "data" / "bip39_wordlist.txt"
-        text = ref.read_text(encoding="utf-8")
-    except (TypeError, FileNotFoundError):
-        # Fallback: resolve relative to this file
-        data_path = Path(__file__).resolve().parent.parent / "data" / "bip39_wordlist.txt"
-        text = data_path.read_text(encoding="utf-8")
-
-    _WORDLIST = [w.strip() for w in text.splitlines() if w.strip()]
-    return _WORDLIST
 
 
 def generate_chapter_id() -> str:
-    """Generate a 3-word BIP39 chapter ID (e.g., 'father-loop-frog')."""
-    words = _load_wordlist()
-    return "-".join(random.sample(words, 3))
+    """Generate a UUID chapter ID (the LMS importer requires valid UUIDs)."""
+    return str(uuid.uuid4())
 
 
 def build_part_block(title: str, part_id: str) -> str:
@@ -48,10 +25,10 @@ def build_chapter_block(title: str, chapter_id: str | None = None) -> str:
 
     Args:
         title: Chapter heading text.
-        chapter_id: Optional chapter ID. Auto-generated BIP39 ID if None.
+        chapter_id: Optional chapter ID. Auto-generated UUID if None.
 
     Returns:
-        String like: ## Title\\n\\n<chapterId>word-word-word</chapterId>
+        String like: ## Title\\n\\n<chapterId>uuid</chapterId>
     """
     cid = chapter_id or generate_chapter_id()
     return f"## {title}\n\n<chapterId>{cid}</chapterId>\n"
@@ -61,15 +38,15 @@ def append_to_markdown(filepath: Path, block: str) -> None:
     """Append a content block to the end of a markdown file.
 
     Ensures exactly one blank line before the appended block.
+    Existing line endings are preserved (no newline translation).
     """
-    content = filepath.read_text(encoding="utf-8")
+    with filepath.open(encoding="utf-8", newline="") as f:
+        content = f.read()
 
     # Ensure trailing newline separation
+    separator = ""
     if content and not content.endswith("\n\n"):
-        if content.endswith("\n"):
-            content += "\n"
-        else:
-            content += "\n\n"
+        separator = "\n" if content.endswith("\n") else "\n\n"
 
-    content += block
-    filepath.write_text(content, encoding="utf-8")
+    with filepath.open("a", encoding="utf-8", newline="") as f:
+        f.write(separator + block)

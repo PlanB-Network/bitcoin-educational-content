@@ -173,7 +173,11 @@ def run_proofread_reward(
         results = []
         for entry in entries:
             entry_lang = entry.get("language", "?")
-            info = evaluate_reward_for_language(metadata_path, data, entry_lang)
+            try:
+                info = evaluate_reward_for_language(metadata_path, data, entry_lang)
+            except (ValueError, FileNotFoundError) as exc:
+                click.echo(f"Error: {exc}", err=True)
+                raise SystemExit(1)
             results.append(info)
 
         if json_output:
@@ -192,7 +196,11 @@ def run_proofread_reward(
                     f"{r['remaining_paid_proofreadings']:>10} {contribs}"
                 )
     else:
-        info = evaluate_reward_for_language(metadata_path, data, lang)
+        try:
+            info = evaluate_reward_for_language(metadata_path, data, lang)
+        except (ValueError, FileNotFoundError) as exc:
+            click.echo(f"Error: {exc}", err=True)
+            raise SystemExit(1)
         if "error" in info:
             click.echo(f"Error: {info['error']}", err=True)
             raise SystemExit(1)

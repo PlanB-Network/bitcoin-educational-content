@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 
 import pytest
@@ -14,6 +13,7 @@ from bec.lib.proofreading import (
     BASE_FEE,
     LANGUAGE_FACTORS,
     MAX_PAID_ITERATIONS,
+    METADATA_FILES,
     add_contributor,
     compute_reward,
     count_words,
@@ -21,6 +21,7 @@ from bec.lib.proofreading import (
     find_metadata_file,
     get_contributor_count,
     get_difficulty_factor,
+    get_language_factor,
     get_proofreading_entries,
     get_status_matrix,
     recalculate_rewards,
@@ -207,8 +208,32 @@ class TestFindMetadataFile:
         assert result is not None
         assert result.name == "word.yml"
 
+    def test_finds_project_yml(self, tmp_path):
+        project = tmp_path / "resources" / "projects" / "acinq"
+        project.mkdir(parents=True)
+        (project / "project.yml").write_text("original_language: en\n")
+        result = find_metadata_file(project)
+        assert result is not None
+        assert result.name == "project.yml"
+
+    def test_builder_yml_is_not_a_metadata_file(self):
+        assert "builder.yml" not in METADATA_FILES
+
     def test_returns_none_for_empty_dir(self, tmp_path):
         assert find_metadata_file(tmp_path) is None
+
+
+# ---- Unit tests: get_language_factor -------------------------------------------
+
+class TestGetLanguageFactor:
+    def test_case_insensitive_lookup(self):
+        assert get_language_factor("zh-Hans") == 2.0
+        assert get_language_factor("ZH-HANS") == 2.0
+        assert get_language_factor("nb-NO") == 1.5
+        assert get_language_factor("sr-latn") == 2.0
+
+    def test_unknown_language_defaults_to_one(self):
+        assert get_language_factor("xx") == 1.0
 
 
 # ---- Unit tests: proofreading entry helpers ------------------------------------
@@ -293,6 +318,18 @@ class TestEvaluateReward:
         info = evaluate_reward_for_language(metadata, data, "xx")
         assert "error" in info
 
+    def test_language_factor_case_insensitive(self, course_dir):
+        metadata = course_dir / "course.yml"
+        data = load_yaml(metadata)
+        data["proofreading"].append({
+            "language": "zh-Hans",
+            "urgency": 1,
+            "contributor_names": None,
+            "reward": 0,
+        })
+        info = evaluate_reward_for_language(metadata, data, "ZH-HANS")
+        assert info["language_factor"] == 2.0
+
 
 # ---- Unit tests: get_status_matrix --------------------------------------------
 
@@ -347,6 +384,18 @@ class TestUpdateMetadataFile:
         en_entry = next(e for e in updated["proofreading"] if e["language"] == "en")
         assert "testuser" in en_entry["contributor_names"]
 
+    def test_null_urgency_and_reward_stay_null(self, course_dir):
+        metadata = course_dir / "course.yml"
+        data = load_yaml(metadata)
+        data["proofreading"][0]["urgency"] = None
+        data["proofreading"][0]["reward"] = None
+        update_metadata_file(metadata, data)
+
+        assert "None" not in metadata.read_text()
+        updated = load_yaml(metadata)
+        assert updated["proofreading"][0]["urgency"] is None
+        assert updated["proofreading"][0]["reward"] is None
+
 
 # ---- Unit tests: recalculate_rewards -------------------------------------------
 
@@ -371,17 +420,11 @@ class TestRecalculateRewards:
 # ---- CLI integration tests: proofread update -----------------------------------
 
 class TestProofreadUpdateCLI:
-    def test_update_adds_contributor(self, course_dir):
+    def test_update_adds_contributor(self, course_dir, monkeypatch):
+        # cwd must be the tmp repo root BEFORE any invoke, otherwise repo
+        # root detection escapes to the real repo and mutates real content.
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
-        result = runner.invoke(cli, [
-            "proofread", "update",
-            "--path", "courses/btc101",
-            "--lang", "en",
-            "--contributor", "newuser",
-        ], catch_exceptions=False, env={"HOME": str(course_dir.parent.parent)})
-
-        # Use the tmp_path as cwd so repo root detection works
-        os.chdir(course_dir.parent.parent)
         result = runner.invoke(cli, [
             "proofread", "update",
             "--path", "courses/btc101",
@@ -397,8 +440,8 @@ class TestProofreadUpdateCLI:
         en_entry = next(e for e in data["proofreading"] if e["language"] == "en")
         assert "newuser" in en_entry["contributor_names"]
 
-    def test_update_json_output(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_update_json_output(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "update",
@@ -413,8 +456,8 @@ class TestProofreadUpdateCLI:
         assert parsed["success"] is True
         assert parsed["contributor"] == "translator1"
 
-    def test_update_duplicate_fails(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_update_duplicate_fails(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "update",
@@ -429,8 +472,8 @@ class TestProofreadUpdateCLI:
 # ---- CLI integration tests: proofread reward -----------------------------------
 
 class TestProofreadRewardCLI:
-    def test_reward_all_languages(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_reward_all_languages(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "reward",
@@ -442,8 +485,8 @@ class TestProofreadRewardCLI:
         assert "fr" in result.output
         assert "ja" in result.output
 
-    def test_reward_single_language(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_reward_single_language(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "reward",
@@ -455,8 +498,8 @@ class TestProofreadRewardCLI:
         assert "Words:" in result.output
         assert "Reward:" in result.output
 
-    def test_reward_json_output(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_reward_json_output(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "reward",
@@ -469,8 +512,8 @@ class TestProofreadRewardCLI:
         assert "rewards" in parsed
         assert len(parsed["rewards"]) == 3
 
-    def test_reward_invalid_language(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_reward_invalid_language(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "reward",
@@ -480,12 +523,26 @@ class TestProofreadRewardCLI:
 
         assert result.exit_code == 1
 
+    def test_reward_missing_original_content_file(self, course_dir, monkeypatch):
+        (course_dir / "en.md").unlink()
+        monkeypatch.chdir(course_dir.parent.parent)
+        runner = CliRunner()
+        result = runner.invoke(cli, [
+            "proofread", "reward",
+            "--path", "courses/btc101",
+            "--lang", "en",
+        ], catch_exceptions=False)
+
+        assert result.exit_code == 1
+        assert "Error:" in result.output
+        assert "Traceback" not in result.output
+
 
 # ---- CLI integration tests: proofread batch-add --------------------------------
 
 class TestProofreadBatchAddCLI:
-    def test_batch_add_single_path(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_batch_add_single_path(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "batch-add",
@@ -497,8 +554,8 @@ class TestProofreadBatchAddCLI:
         assert result.exit_code == 0
         assert "1 updated" in result.output
 
-    def test_batch_add_json_output(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_batch_add_json_output(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "batch-add",
@@ -513,10 +570,10 @@ class TestProofreadBatchAddCLI:
         assert parsed["success"] == 1
         assert parsed["contributor"] == "batchuser"
 
-    def test_batch_add_multiple_paths(self, course_dir, tutorial_dir):
+    def test_batch_add_multiple_paths(self, course_dir, tutorial_dir, monkeypatch):
         # Both course and tutorial are under different tmp_paths,
         # so we test with just one path but verify the count logic
-        os.chdir(course_dir.parent.parent)
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "batch-add",
@@ -532,8 +589,8 @@ class TestProofreadBatchAddCLI:
 # ---- CLI integration tests: proofread status -----------------------------------
 
 class TestProofreadStatusCLI:
-    def test_status_table(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_status_table(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "status",
@@ -545,8 +602,8 @@ class TestProofreadStatusCLI:
         assert "pending" in result.output   # ja should show as pending
         assert "1/2" in result.output       # fr should show as 1/2
 
-    def test_status_json_output(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_status_json_output(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "status",
@@ -567,8 +624,8 @@ class TestProofreadStatusCLI:
             assert "reward" in lang_entry
             assert "remaining_paid_proofreadings" in lang_entry
 
-    def test_status_invalid_path(self, course_dir):
-        os.chdir(course_dir.parent.parent)
+    def test_status_invalid_path(self, course_dir, monkeypatch):
+        monkeypatch.chdir(course_dir.parent.parent)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "status",
@@ -581,7 +638,7 @@ class TestProofreadStatusCLI:
 # ---- Edge case tests -----------------------------------------------------------
 
 class TestEdgeCases:
-    def test_no_proofreading_section(self, tmp_path):
+    def test_no_proofreading_section(self, tmp_path, monkeypatch):
         """Content without proofreading metadata."""
         course = tmp_path / "courses" / "test"
         course.mkdir(parents=True)
@@ -589,7 +646,7 @@ class TestEdgeCases:
         (course / "course.yml").write_text("id: test\noriginal_language: en\n")
         (course / "en.md").write_text("content")
 
-        os.chdir(tmp_path)
+        monkeypatch.chdir(tmp_path)
         runner = CliRunner()
         result = runner.invoke(cli, [
             "proofread", "status",
@@ -613,8 +670,9 @@ class TestEdgeCases:
         """All languages in the original script should be in LANGUAGE_FACTORS."""
         expected = {
             "en", "fr", "de", "es", "it", "cs", "vi", "ja", "pt",
-            "ru", "fi", "et", "id", "zh-Hans", "uk", "nb-NO", "pl",
-            "ro", "ha", "sr-Latn", "hi", "zh-Hant", "sw", "fa", "sv",
+            "ru", "fi", "et", "id", "zh-hans", "uk", "nb-no", "pl",
+            "ro", "ha", "sr-latn", "hi", "zh-hant", "sw", "fa", "sv",
             "nl", "tr", "ko", "rn", "bg", "th",
         }
         assert expected == set(LANGUAGE_FACTORS.keys())
+        assert all(k == k.lower() for k in LANGUAGE_FACTORS)

@@ -1,5 +1,0 @@
-appdirs==1.4.4
-customtkinter==5.2.2
-darkdetect>=0.7.1
-packaging>=23.2
-Pillow>=10.2.0

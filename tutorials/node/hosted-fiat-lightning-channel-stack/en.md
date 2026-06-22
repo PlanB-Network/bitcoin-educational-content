@@ -1904,9 +1904,9 @@ The Hosted channel protocol stack and the Valet Bitcoin wallet are both open sou
 
 You may join the Standard Sats community on [telegram](https://t.me/StandardSatsCommunity). Feel free to check out the project with the links below:
 
-[Hosted Channel RFC](https://github.com/standardsats/hosted-channels-rfc)
-[Fiat Channels RFC](https://github.com/standardsats/fiat-channels-rfc)
-[Valet Bitcoin Wallet](https://github.com/standardsats/valet)
-[IMMORTAN Library](https://github.com/standardsats/immortan) 
+- [**Hosted Channel RFC**](https://github.com/standardsats/hosted-channels-rfc)
+- [**Fiat Channels RFC**](https://github.com/standardsats/fiat-channels-rfc)
+- [**Valet Bitcoin Wallet**](https://github.com/standardsats/valet)
+- [**IMMORTAN Library**](https://github.com/standardsats/immortan) 
 
 Thank you and “may the Bitcoin be with you!!” ♥

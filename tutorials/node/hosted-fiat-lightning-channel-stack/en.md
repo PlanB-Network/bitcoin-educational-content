@@ -9,7 +9,7 @@ description: Set up and test the Hosted/Fiat Lightning channel host and client s
 
 This tutorial contains a step by step description for the Host side setup, and mobile app client side build of the Hosted/Fiat Lightning channel protocol implementation.
 
-The setup and build described below is primarily for the regtest testing environment, with key distinctive changes for testnet and mainnet builds highlighted subsequently.
+The setup and build described below is primarily for the regtest testing environment, with key distinctive changes for testnet and mainnet builds highlighted subsequently.<br>
 
 **What is Hosted/Fiat Channel?**
 
@@ -23,9 +23,7 @@ A Client initiates the channel creation by requesting for a channel from the Hos
 
 Unlike in opening a normal Lightning channel, a Hosted channel opening is automatic, fast and simple, and *requires no prior Liquidity commitment from neither the Host nor the client*, making it largely cost effective for onboarding users to the Lightning network.
 
-As earlier stated, Hosted channel is custodial because the client’s funds stay on the Host’s nodes, hence the Client’s in-app balances are IOU’s of the assets on the from the Host side. The Host helps the client route payments over the network, however, the client is completely anonymous because the *Host does not know who the Client is and has no metadata on Client's payments since route selection, onion formation as well as preimage generation for incoming payments all still happen on the Client side*.
-
-
+As earlier stated, Hosted channel is custodial because the client’s funds stay on the Host’s nodes, hence the Client’s in-app balances are IOU’s assets on the Host side. The Host helps the client route payments over the network, however, the client is completely anonymous because the *Host does not know who the Client is and has no metadata on Client's payments since route selection, onion formation as well as preimage generation for incoming payments all still happen on the Client side*.<br>
 
 ### **KEY**
 
@@ -48,7 +46,7 @@ Example:
 In this command: `curl -s -u :eclairapi -X POST http://127.0.0.1:15599/fc-findbyremoteid -d nodeId=<VALET_NODEID> | jq` , you are expected to replace **<VALET_NODEID>** with the actual node ID.
 
 So in essence, this becomes; `curl -s -u :eclairapi -X POST http://127.0.0.1:15599/fc-findbyremoteid -d nodeId=025d573a8022fc6ece8b6891c4a64 | jq`
-
+<br><br>
 
 ## Requirements
 
@@ -63,7 +61,7 @@ Below are the required hardware and software dependencies needed to run and test
 
 **Android Mobile Device**
 
-- Android V8+
+- Android v8+
 
 
 ### Software Dependencies
@@ -80,10 +78,9 @@ Press **Ctrl** + **Alt** + **T**
 
 **Windows:**
 
-Press *Win Key* on your keyboard
-Type *powershell* on the search space
-Select *Run as Administrator*
-
+Press *Win Key* on your keyboard<br>
+Type *powershell* on the search space<br>
+Select *Run as Administrator*<br><br>
 
 #### 1. Docker
 
@@ -179,7 +176,7 @@ Open powershell as administrator and run command below
 docker run hello-world
 ```
 
-> It’d print a long string of results.
+> This would print a long string of results.
 
 
 ### 2. Git
@@ -861,7 +858,7 @@ If the Host runs inside a Virtual Machine, the VM must use **Bridged** networkin
 hostname -I
 ```
 
-> Your IP is the first address *(e.g 192.168.0.149)* as shown below
+> Your IP is the first address *(e.g 192.168.1.110)* as shown below
 
 ![img23](assets/img23.webp)
 
@@ -1014,8 +1011,8 @@ Once you’ve displayed the node QR image, you’ll need to scan it with Valet t
 
 - You’ll be taken to the next page with options to
 
-**Request USD Fiat Channel**
-**Request Euro Fiat Channel**
+**Request USD Fiat Channel**<br>
+**Request Euro Fiat Channel**<br>
 
 As shown below
 
@@ -1299,7 +1296,7 @@ Now let us examine the fields on that box
 
 1. **Title:** This is the first field named **FIAT CHANNEL**, which also indicates that this is a custodial solution.
 
-2. **Host IP / Port:** The field below the title boldly displays the IP address and port of the Host (This is the Host node's address and P2P port, the same `<nodeId>@<HOST_IP>:15598` we scanned via QR to open the channel). It should look similar to this: **192.168.0.149:15598**.
+2. **Host IP / Port:** The field below the title boldly displays the IP address and port of the Host (This is the Host node's address and P2P port, the same `<nodeId>@<HOST_IP>:15598` we scanned via QR to open the channel). It should look similar to this: **192.168.0.101:15598**.
 
 3. **Server Rate:** This is the current Bitcoin market price as offered by the host. It may be slightly lower than the prevalent market price because the Host may add a small margin to this.
 

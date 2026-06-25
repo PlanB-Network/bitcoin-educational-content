@@ -1,0 +1,245 @@
+/*
+ * planb-lesson.css — shared stylesheet for /teach lessons.
+ * Plan ₿ Academy flavored, Tufte-clean, print-friendly, dependency-free.
+ * Lessons in ./lessons/ link this as: <link rel="stylesheet" href="../assets/planb-lesson.css">
+ * Seeded into each teaching workspace's ./assets/ on first lesson. Extend it;
+ * never inline styles a second lesson would duplicate.
+ */
+
+:root {
+  --bn-orange: #ff5c00;
+  --bn-orange-soft: #ff8c4d;
+  --ink: #1a1a1a;
+  --ink-soft: #555;
+  --paper: #fdfdfb;
+  --rule: #e7e4dd;
+  --card: #f6f4ef;
+  --ok: #1c7c3c;
+  --no: #b00020;
+  --reading: 42rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ece9e2;
+    --ink-soft: #a7a39a;
+    --paper: #16140f;
+    --rule: #322e26;
+    --card: #211d16;
+    --ok: #5fd17f;
+    --no: #ff6b81;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+.lesson {
+  max-width: var(--reading);
+  margin: 0 auto;
+  padding: 3.5rem 1.4rem 5rem;
+}
+
+/* --- masthead --- */
+.kicker {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bn-orange);
+  margin: 0 0 0.6rem;
+}
+.kicker::before { content: "₿ "; }
+
+h1 {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  margin: 0 0 0.4rem;
+  font-weight: 600;
+}
+.lede {
+  font-size: 1.18rem;
+  color: var(--ink-soft);
+  margin: 0 0 1.2rem;
+}
+hr.rule { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+
+h2 {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.3rem;
+  margin: 2.4rem 0 0.6rem;
+  font-weight: 650;
+}
+h3 { font-size: 1.1rem; margin: 1.6rem 0 0.4rem; }
+
+p, ul, ol { margin: 0 0 1rem; }
+a { color: var(--bn-orange); text-underline-offset: 2px; }
+a:hover { color: var(--bn-orange-soft); }
+
+/* --- citations --- */
+.cite { font-size: 0.7em; vertical-align: super; line-height: 0; }
+.cite a { text-decoration: none; padding: 0 0.1em; }
+.sources {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--rule);
+  padding-top: 0.8rem;
+}
+.sources ol { padding-left: 1.2rem; }
+
+/* --- callouts --- */
+.callout {
+  border-left: 3px solid var(--bn-orange);
+  background: var(--card);
+  border-radius: 0 8px 8px 0;
+  padding: 0.9rem 1.1rem;
+  margin: 1.4rem 0;
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout .tag {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bn-orange);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.callout.warn { border-left-color: var(--no); }
+.callout.warn .tag { color: var(--no); }
+
+/* --- reveal (uses native <details>) --- */
+details.reveal {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 0.2rem 1rem;
+  margin: 1.2rem 0;
+  background: var(--card);
+}
+details.reveal > summary {
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 600;
+  padding: 0.7rem 0;
+  list-style: none;
+}
+details.reveal > summary::before { content: "▸ "; color: var(--bn-orange); }
+details.reveal[open] > summary::before { content: "▾ "; }
+details.reveal[open] > summary { border-bottom: 1px solid var(--rule); margin-bottom: 0.6rem; }
+
+/* --- quiz widget --- */
+.quiz {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 1.1rem 1.2rem 1.3rem;
+  margin: 1.6rem 0;
+  background: var(--card);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+.quiz .q { font-weight: 650; margin: 0 0 0.8rem; }
+.quiz .opt {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  padding: 0.6rem 0.8rem;
+  margin: 0 0 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+.quiz .opt:hover { border-color: var(--bn-orange-soft); }
+.quiz .opt.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 12%, var(--paper)); }
+.quiz .opt.wrong { border-color: var(--no); background: color-mix(in srgb, var(--no) 12%, var(--paper)); }
+.quiz .opt:disabled { cursor: default; }
+.quiz .feedback { font-size: 0.92rem; color: var(--ink-soft); margin-top: 0.5rem; min-height: 1.2em; }
+.quiz .feedback.ok { color: var(--ok); }
+.quiz .feedback.no { color: var(--no); }
+
+/* --- the next door CTA --- */
+.next-door {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 2px solid var(--bn-orange);
+  border-radius: 12px;
+  padding: 1.1rem 1.3rem;
+  margin: 2.4rem 0 1rem;
+  background: color-mix(in srgb, var(--bn-orange) 6%, var(--paper));
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.next-door:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255, 92, 0, 0.18); }
+.next-door .nd-kicker {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--bn-orange);
+}
+.next-door .nd-title { font-size: 1.25rem; font-weight: 650; margin: 0.2rem 0; }
+.next-door .nd-meta { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.85rem; color: var(--ink-soft); }
+
+/* --- primary source --- */
+.primary-source {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.95rem;
+  border-top: 1px dashed var(--rule);
+  border-bottom: 1px dashed var(--rule);
+  padding: 0.9rem 0;
+  margin: 1.6rem 0;
+}
+.primary-source .tag { color: var(--bn-orange); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* --- glossary / reference tables --- */
+table.glossary { width: 100%; border-collapse: collapse; font-size: 0.95rem; margin: 1.2rem 0; }
+table.glossary th, table.glossary td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+table.glossary th { font-family: ui-sans-serif, system-ui, sans-serif; color: var(--bn-orange); }
+
+/* --- code --- */
+code, pre {
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+code { background: var(--card); padding: 0.1em 0.35em; border-radius: 4px; }
+pre { background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem; overflow-x: auto; line-height: 1.45; }
+pre code { background: none; padding: 0; }
+kbd {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.8em;
+  border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 5px;
+  padding: 0.05em 0.4em; background: var(--paper);
+}
+
+/* --- ask-your-teacher footer --- */
+.ask-teacher {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  text-align: center;
+  border-top: 1px solid var(--rule);
+  margin-top: 2.6rem;
+  padding-top: 1.2rem;
+}
+.ask-teacher strong { color: var(--bn-orange); }
+
+/* --- print --- */
+@media print {
+  :root { --paper: #fff; --ink: #000; --card: #f4f4f4; }
+  .lesson { max-width: none; padding: 0; }
+  .quiz .opt, .next-door { box-shadow: none; }
+  details.reveal[open] { break-inside: avoid; }
+  details.reveal:not([open]) > summary::after { content: " (open in browser)"; color: var(--ink-soft); font-weight: 400; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: var(--ink-soft); word-break: break-all; }
+}

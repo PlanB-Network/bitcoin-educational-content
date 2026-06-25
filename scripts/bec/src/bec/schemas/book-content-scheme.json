@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "book-content-characteristics",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The complete title of the book."
+    },
+    "publication_year": {
+      "type": "integer",
+      "description": "The year when the book was published."
+    },
+    "cover": {
+      "type": "string",
+      "description": "The corresponding cover file for the translated cover."
+    },
+    "original": {
+      "type": "boolean",
+      "description": "Indicates if the language used in this file is the original language of the book."
+    },
+    "description": {
+      "type": "string",
+      "description": "A description of the book."
+    },
+    "contributors": {
+      "type": "array",
+      "description": "List of contributors who helped format, review, or translate the book, identified by their UUID.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "translator": {
+      "type": "string",
+      "description": "Translator of this language edition."
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Publisher of this edition."
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "by": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "additionalProperties": false
+    },
+    "shop_url": {
+      "type": "string",
+      "description": "URL to buy the book."
+    },
+    "download_url": {
+      "type": "string",
+      "description": "URL to download the book."
+    },
+    "contributor_names": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "GitHub usernames of contributors for this edition."
+    }
+  },
+  "required": [
+    "title",
+    "description"
+  ],
+  "additionalProperties": false
+}

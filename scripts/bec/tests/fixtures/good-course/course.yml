@@ -1,0 +1,24 @@
+id: 2b7dc507-81e3-4b70-88e6-41ed44239966
+topic: bitcoin
+subtopic: bitcoin
+type: theory
+level: beginner
+hours: 7
+teaching_format: self_paced
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+project_id: 77f56919-1875-45ab-8c4c-b8fb26b021de
+contributor_names:
+  - TestUser
+published_at: 2023-04-29
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-05-14
+    urgency: 1
+    contributor_names:
+      - TestUser
+    reward: 0
+tags:
+  - user-friendly
+  - wallets

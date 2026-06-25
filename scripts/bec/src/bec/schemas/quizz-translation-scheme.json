@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "quiz-question-content",
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": [
+        "string",
+        "number",
+        "boolean"
+      ],
+      "description": "The complete question text."
+    },
+    "answer": {
+      "type": [
+        "string",
+        "number",
+        "boolean"
+      ],
+      "description": "The correct answer to the question. Usually a string, but numeric or boolean answers occur and are accepted by the LMS (stored as text)."
+    },
+    "wrong_answers": {
+      "type": "array",
+      "description": "A list of three incorrect answers to the question.",
+      "items": {
+        "type": [
+          "string",
+          "number",
+          "boolean"
+        ]
+      },
+      "minItems": 3
+    },
+    "explanation": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Additional information explaining why the correct answer is true and why the other answers are incorrect."
+    },
+    "reviewed": {
+      "type": [
+        "boolean",
+        "string"
+      ],
+      "description": "Indicates whether the question has been reviewed by at least two different persons. Not consumed by the LMS; legacy translated values (e.g. 'vero') exist as strings."
+    }
+  },
+  "required": [
+    "question",
+    "answer",
+    "wrong_answers"
+  ],
+  "additionalProperties": true
+}

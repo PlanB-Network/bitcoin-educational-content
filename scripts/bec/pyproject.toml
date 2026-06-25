@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bec"
+version = "0.1.0"
+description = "Bitcoin Educational Content CLI — agent-first repo tooling"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "jsonschema>=4.18",
+    "referencing>=0.30",
+    "pyyaml>=6.0",
+    "python-frontmatter>=1.0",
+    "tqdm>=4.65",
+]
+
+[project.scripts]
+bec = "bec.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bec = ["schemas/*.json", "data/*.txt"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]

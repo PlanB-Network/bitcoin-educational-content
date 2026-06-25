@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "book-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "The unique identifier of the book."
+    },
+    "author": {
+      "type": "string",
+      "description": "The author of the book."
+    },
+    "level": {
+      "type": "string",
+      "description": "The difficulty level of the book.",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert",
+        "wizard"
+      ]
+    },
+    "original_language": {
+      "type": "string",
+      "description": "The original language of the book."
+    },
+    "license": {
+      "type": "string",
+      "description": "The license of the book."
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the book.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "links": {
+      "type": "object",
+      "description": "Links associated with the book (website, amazon, etc.)."
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading status for each language.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string"
+          },
+          "last_contribution_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "contributor_names": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "language",
+          "reward"
+        ]
+      }
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributor names.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "website_url": {
+      "type": "string",
+      "description": "URL of the book or author website."
+    }
+  },
+  "required": [
+    "author",
+    "id",
+    "original_language"
+  ],
+  "additionalProperties": false
+}

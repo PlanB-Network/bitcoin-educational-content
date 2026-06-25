@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Professor",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the professor"
+    },
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier (UUID) for the professor"
+    },
+    "contributor_id": {
+      "type": ["string", "null"],
+      "description": "PlanB-UID contributor identifier (two bip39 words, see /docs/planb-uid.md). Ignored by the LMS importer."
+    },
+    "links": {
+      "type": "object",
+      "description": "Online presence of the professor",
+      "properties": {
+        "twitter": {
+          "type": ["string", "null"],
+          "description": "Twitter URL of the professor"
+        },
+        "website": {
+          "type": ["string", "null"],
+          "description": "Personal or professional website of the professor"
+        },
+        "github": {
+          "type": ["string", "null"],
+          "description": "GitHub URL of the professor"
+        },
+        "linkedin": {
+          "type": ["string", "null"],
+          "description": "LinkedIn URL of the professor"
+        },
+        "nostr": {
+          "type": ["string", "null"],
+          "description": "Nostr public key or profile URL of the professor"
+        }
+      },
+      "additionalProperties": true
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the professor's expertise and interests",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "tips": {
+      "type": "object",
+      "description": "Information for direct tips to the professor",
+      "properties": {
+        "lightning_address": {
+          "type": ["string", "null"],
+          "description": "Lightning network address for tips"
+        },
+        "lnurl_pay": {
+          "type": ["string", "null"],
+          "description": "LNURL-pay string for tips"
+        },
+        "paynym": {
+          "type": ["string", "null"],
+          "description": "PayNym (BIP47) identifier for tips"
+        },
+        "silent_payment": {
+          "type": ["string", "null"],
+          "description": "Silent payment address for tips"
+        },
+        "url": {
+          "type": ["string", "null"],
+          "description": "External tipping page URL"
+        }
+      },
+      "additionalProperties": true
+    },
+    "company": {
+      "type": ["string", "null"],
+      "description": "Name of the company the professor is affiliated with"
+    },
+    "affiliations": {
+      "type": ["array", "null"],
+      "description": "List of affiliations (UUIDs) the professor has within the industry or elsewhere",
+      "items": {
+        "type": "string",
+        "format": "uuid"
+      }
+    },
+    "assets_rules": {
+      "type": "object",
+      "description": "Documentation of required asset files for professors",
+      "properties": {
+        "profile": {
+          "type": "object",
+          "description": "Professor profile picture requirements",
+          "properties": {
+            "path": {
+              "type": "string",
+              "const": "assets/profile.webp",
+              "description": "Path to the profile image file"
+            },
+            "required": {
+              "type": "boolean",
+              "const": true,
+              "description": "This asset is required"
+            },
+            "format": {
+              "type": "string",
+              "const": "webp",
+              "description": "Image format must be WebP"
+            },
+            "aspect_ratio": {
+              "type": "string",
+              "const": "1:1",
+              "description": "Square aspect ratio required"
+            },
+            "recommended_dimensions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "400x400",
+                "800x800"
+              ],
+              "description": "Recommended pixel dimensions"
+            },
+            "content": {
+              "type": "string",
+              "const": "Professor's face or avatar",
+              "description": "What the image should contain"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "name",
+    "id"
+  ],
+  "additionalProperties": false
+}

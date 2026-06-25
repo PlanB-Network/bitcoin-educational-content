@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "quiz-question",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the quiz question (UUID format). Used as the primary key by the LMS importer.",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "chapterId": {
+      "type": "string",
+      "description": "Defines the chapter this question is related to, using the chapterId (UUID). The LMS stores it in a NOT NULL uuid column referencing course_chapters.",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Difficulty level of the question.",
+      "enum": [
+        "easy",
+        "intermediate",
+        "hard",
+        "expert"
+      ]
+    },
+    "duration": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Expected time to answer the question, in seconds."
+    },
+    "author": {
+      "type": "string",
+      "description": "The contribution-id of the author of the question."
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the question.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "original_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code of the original question language",
+      "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language version",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "ISO 639-1 language code for this proofreading entry",
+            "pattern": "^[a-z]{2}(-[A-Za-z]{2,4})?$"
+          },
+          "last_contribution_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Date of the last contribution in YYYY-MM-DD format",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "urgency": {
+            "type": "integer",
+            "description": "Level of urgency for proofreading, 1 being low urgency",
+            "minimum": 1
+          },
+          "contributor_names": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "description": "List of contributor GitHub usernames",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reward": {
+            "type": "number",
+            "description": "Amount of sats available for reward",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "language",
+          "urgency",
+          "reward"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "id",
+    "chapterId",
+    "difficulty"
+  ],
+  "additionalProperties": false
+}

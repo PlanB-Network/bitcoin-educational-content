@@ -1,9 +1,9 @@
 question: "Why does bip0340-verify use the Failure effect instead of returning a boolean (true/false)?"
-answer: "To enable batch verification of Schnorr signatures, which requires that any single failed check causes the entire batch to fail."
+answer: To enable batch verification of Schnorr signatures, where one failed check fails the batch.
 wrong_answers:
-  - "Because boolean types are too expensive in terms of block space compared to the unit type."
-  - "Because Simplicity's type system cannot represent boolean return values from jets."
-  - "Because returning a boolean would violate the completeness theorem."
+  - Because boolean types are too expensive in terms of block space compared to the unit type.
+  - Because Simplicity's type system cannot represent boolean return values coming from jets.
+  - Because returning a plain boolean value would directly violate the completeness theorem.
 explanation: >-
   If bip0340-verify returned a boolean, a failing signature check could still lead to a branch where
   the script succeeds. In that case, the verifier would need to know which specific signature

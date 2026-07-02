@@ -1,9 +1,9 @@
 question: What does the completeness theorem guarantee about Simplicity?
-answer: That any function between two Simplicity types can be expressed using the nine core combinators.
+answer: That any function between two Simplicity types can be built from the nine combinators.
 wrong_answers:
-  - That Simplicity programs always terminate in constant time.
-  - That Simplicity can simulate any Turing machine.
-  - That every Simplicity program has a unique representation.
+  - That Simplicity programs are guaranteed to always terminate in constant time.
+  - That Simplicity is Turing-complete and can simulate any Turing machine at all.
+  - That every valid Simplicity program has one single unique representation.
 explanation: >-
   The completeness theorem proves that for any function between finite
   Simplicity types, there exists a Simplicity expression that computes it.

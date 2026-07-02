@@ -1,9 +1,9 @@
 question: What does the 'take' combinator do?
-answer: It extracts the left component from a product type, discarding the right.
+answer: It extracts the left component of a product, discarding the right.
 wrong_answers:
-  - It removes an element from a sum type.
-  - It sequentially composes two operations.
-  - It wraps a value with a left tag to create a sum type.
+  - It removes an element from a sum type, discarding the tag bit.
+  - It sequentially composes two separate operations end to end.
+  - It wraps a value with a left tag to build up a new sum type.
 explanation: >-
   The take combinator is an extractor for product types. Given take f
   applied to a pair ⟨a, b⟩, it discards b and applies f to a. Combined

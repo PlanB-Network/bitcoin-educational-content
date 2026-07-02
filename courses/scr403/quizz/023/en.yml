@@ -1,9 +1,9 @@
 question: "Why does sig-all-hash use the Reader effect instead of taking the transaction data as a typed input?"
-answer: "So the jet can rely on PrecomputedTransactionData and operate in constant time, since it only accesses a fixed transaction environment."
+answer: So the jet can use PrecomputedTransactionData and run in constant time on a fixed environment.
 wrong_answers:
-  - "Because Simplicity's type system cannot represent transaction data as a type."
-  - "Because the Reader effect is faster than passing data through the combinator tree."
-  - "Because transaction data is too large to fit in Simplicity's fixed-size type system."
+  - Because Simplicity's type system fundamentally cannot represent transaction data as a type.
+  - Because the Reader effect is faster than passing that data through the combinator tree.
+  - Because transaction data is far too large to fit in Simplicity's fixed-size type system.
 explanation: >-
   If sig-all-hash took a TxEnv input type, programs could pass modified copies of transaction data
   to the jet, preventing it from using precomputed hashes. With the Reader effect, the jet only

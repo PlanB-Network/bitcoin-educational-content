@@ -1,9 +1,9 @@
 question: What does sequential composition produce when chaining operation f (A → B) with operation g (B → C)?
-answer: A single composite operation from A to C, where f's output feeds directly into g.
+answer: A single composite operation from A to C, with f's output feeding into g.
 wrong_answers:
-  - A pair containing both outputs of type B and C.
+  - A pair value containing both intermediate outputs of type B and C.
   - A conditional that chooses between f and g based on the input.
-  - Two separate operations that run independently.
+  - Two separate operations that run independently, sharing no data.
 explanation: >-
   Sequential composition chains two operations end-to-end. The output of the
   first operation becomes the input of the second. In Simplicity, this is

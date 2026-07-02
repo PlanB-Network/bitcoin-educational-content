@@ -1,12 +1,13 @@
 question: How is the boolean type (𝟚) defined in Simplicity?
-answer: As the sum type 𝟙 + 𝟙, containing exactly two values (false and true).
+answer: As the sum type 𝟙 + 𝟙, holding exactly two values (false and true).
 wrong_answers:
-  - As a product type 𝟙 × 𝟙 with one value.
-  - As a special primitive type built into the language.
-  - As a 32-bit integer type restricted to 0 and 1.
+  - As a product type 𝟙 × 𝟙 that would then hold only one value.
+  - As a special primitive type built directly into the language.
+  - As a 32-bit integer type restricted to just the values 0 and 1.
 explanation: >-
-  The boolean type 𝟚 is defined as 𝟙 + 𝟙, a sum of two unit types.
-  The left-tagged value σᴸ⟨⟩ represents false (0) and the right-tagged
-  value σᴿ⟨⟩ represents true (1). This is a one-bit data type built
-  entirely from Simplicity's three type formers.
+  The boolean type 𝟚 is defined as 𝟙 + 𝟙, a sum of two unit types. The
+  left-tagged value σᴸ⟨⟩ represents false (0) and the right-tagged value
+  σᴿ⟨⟩ represents true (1). This is a one-bit data type built from just
+  the unit type and the sum type former — the product former is not
+  needed.
 reviewed: false

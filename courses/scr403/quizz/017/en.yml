@@ -1,8 +1,8 @@
 question: How does the access notation (O, I, H) work in Simplicity?
-answer: O abbreviates 'take' (left element), I abbreviates 'drop' (right element), and H abbreviates 'iden' (whole value), allowing binary-tree navigation of nested tuples.
+answer: O means 'take' (left), I means 'drop' (right), and H means 'iden' (whole value).
 wrong_answers:
-  - O means output, I means input, and H means halt.
-  - They are variable names assigned automatically by the compiler.
+  - O means output, I means input, and H means halt the program's execution.
+  - They are variable names that the compiler assigns to values automatically.
   - O selects odd-indexed elements, I selects even-indexed elements, H selects the head.
 explanation: >-
   The O/I/H shorthand provides a compact way to navigate nested pairs.

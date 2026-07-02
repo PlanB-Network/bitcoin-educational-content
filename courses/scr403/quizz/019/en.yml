@@ -1,9 +1,9 @@
 question: What is SimplicityHL and why is it needed?
-answer: A higher-level language that compiles down to Simplicity expressions, handling variable naming, scope, and environment management automatically.
+answer: A higher-level language compiling to Simplicity that manages naming and scope.
 wrong_answers:
-  - A hardware description language for mining ASICs that run Simplicity.
-  - A graphical IDE for visually connecting Simplicity combinators.
-  - A testing framework for running Simplicity programs in a sandbox.
+  - A hardware description language for mining the ASICs that run Simplicity.
+  - A graphical drag-and-drop IDE for wiring together Simplicity combinators.
+  - A testing framework for running Simplicity programs inside a safe sandbox.
 explanation: >-
   Raw Simplicity becomes inscrutable at production complexity levels because
   all data access must be done through nested take/drop combinators. SimplicityHL

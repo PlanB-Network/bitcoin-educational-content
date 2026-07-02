@@ -1,9 +1,9 @@
 question: "Why is the Failure effect commutative in Simplicity, even though exceptions are generally not commutative?"
-answer: "Because the exception type is unit (1), so there is only one possible exception value — no matter which expression throws, the result is the same."
+answer: Because the exception type is unit (1) with only one value, so the throwing order does not matter.
 wrong_answers:
-  - "Because Simplicity executes all expressions in a deterministic order defined by the combinator tree."
-  - "Because the Failure effect is always caught and re-thrown by the case combinator."
-  - "Because Simplicity uses batch verification which makes all exceptions equivalent."
+  - Because Simplicity executes all expressions in a deterministic order defined by the combinator tree.
+  - Because the Failure effect is always caught and then re-thrown by the case combinator.
+  - Because Simplicity uses batch verification, which makes all thrown exceptions equivalent.
 explanation: >-
   In general, exceptions are not commutative because different expressions may throw different
   exception values. However, Simplicity restricts exceptions to unit type (only one possible value),

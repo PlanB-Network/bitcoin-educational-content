@@ -8,7 +8,9 @@ objectives:
   - Learn how Simplicity programs become Taproot addresses and are redeemed with witness data
 ---
 
-A deep dive into the theory and design decisions behind the Simplicity language, based on the complete five-part ["Delving Simplicity"](https://delvingbitcoin.org/t/delving-simplicity-part-three-fundamental-ways-of-combining-computations/1902) article series by [Dr. Russell O'Connor](https://r6.ca/), the creator of Simplicity at Blockstream Research. This is not a hands-on coding course — it is an exploration of *why* the language was designed the way it was, from the philosophical foundations of composition to the mathematical proof that nine combinators are enough.
+# Delving Into Simplicity
+
+A deep dive into the theory and design decisions behind the Simplicity language, based on the complete five-part ["Delving Simplicity"](https://delvingbitcoin.org/t/delving-simplicity-part-three-fundamental-ways-of-combining-computations/1902) article series by [Dr. Russell O'Connor](https://r6.ca/), the creator of Simplicity at Blockstream Research. This course explains *why* Simplicity was designed the way it was, not how to write it.
 
 The course follows Dr. O'Connor's articles through the three fundamental ways of combining computations, the minimal type system and its completeness theorem, the construction of practical data types and arithmetic from first principles, the careful introduction of side effects for blockchain interaction, and finally how programs are committed to addresses and redeemed on-chain.
 
@@ -38,7 +40,7 @@ This course explores the design philosophy and mathematical foundations behind S
 This is an **expert-level** course (approximately 10 hours). You should be comfortable with:
 - Basic Bitcoin scripting concepts (what transaction validation does)
 - Fundamental programming concepts (types, functions, composition)
-- Some familiarity with mathematical notation is helpful but not required — we introduce everything as we go
+- Some familiarity with mathematical notation is helpful but not required. We introduce everything as we go
 
 ### Key resources
 
@@ -57,18 +59,18 @@ If you're coming to this course without a background in Simplicity, this chapter
 
 ### Simplicity in a nutshell
 
-Simplicity is a **smart contract language for Bitcoin** (and the Liquid sidechain). It was designed from scratch by Dr. Russell O'Connor starting in 2017 and activated on the Liquid Network in July 2025, after years of formal verification and development.
+Simplicity is a **Bitcoin-native smart contract language**, live on the Liquid Network today. First envisioned by Dr. Russell O'Connor around 2012 and detailed in his 2017 paper *Simplicity: A New Language for Blockchains*, it was activated on the Liquid Network in July 2025 after years of formal verification and development.
 
-Unlike Ethereum's Solidity — which is a general-purpose, high-level language — Simplicity is intentionally minimal. It has:
+Unlike Ethereum's Solidity, which is a Turing-complete, high-level contract language, Simplicity is intentionally minimal. It has:
 - **Three type formers** (unit, sum, product)
 - **Nine combinators** (basic operations and composition rules)
 - **No loops, no recursion, no dynamic memory**
 
-From just these primitives, you can build any computation you need for transaction validation — from boolean logic to full SHA-256 hashing.
+From just these primitives, you can build any computation you need for transaction validation, from boolean logic to full SHA-256 hashing.
 
 ### What can you do with Simplicity today?
 
-Simplicity is already powering real applications on the Liquid Network. The most notable example is the [Simplicity DEX](https://docs.simplicity-lang.org/use-cases/simplicity-dex/) — a structured options marketplace where users can create and trade call and put options on L-BTC using USDt as collateral, with no price oracle required. The open-source [Deadcat](https://github.com/Resolvr-io/deadcat) protocol implements this, and the [Swaption](https://swaption.io/) app provides a user-facing interface. You can watch a [demo of the DEX in action](https://www.youtube.com/watch?v=4c8bvD6oomw). Beyond DeFi, Simplicity enables any advanced spending condition — vaults, covenants, complex multisig schemes — that would be impossible or unsafe in Bitcoin Script.
+Simplicity is already powering real applications on the Liquid Network. The most notable is the [Simplicity DEX](https://docs.simplicity-lang.org/use-cases/simplicity-dex/), an oracle-free options marketplace where users trade call options on L-BTC using USDt as collateral (the underlying contract also supports puts). Other live Simplicity projects include [Swaption](https://swaption.io/) by SideSwap (options) and the open-source [Deadcat](https://github.com/Resolvr-io/deadcat) by Resolvr (prediction markets). Beyond DeFi, Simplicity enables advanced spending conditions such as vaults, covenants, and complex multisig schemes that would be impossible or unsafe in Bitcoin Script.
 
 ### What this course is — and isn't
 
@@ -89,11 +91,11 @@ This course is ideal for:
 - **Computer scientists** curious about the connection between sequent calculus and blockchain computation
 - **Advanced bitcoiners** who want to go beyond surface-level understanding of Liquid's scripting capabilities
 
-If terms like "sum types", "combinators", or "sequent calculus" are entirely new to you, don't worry — we explain everything from scratch. But be prepared for a dense, mathematical journey.
+If terms like "sum types", "combinators", or "sequent calculus" are entirely new to you, don't worry, we explain everything from scratch. But be prepared for a dense, mathematical journey.
 
 ### From articles to course
 
-The original "Delving Simplicity" series by Dr. O'Connor is structured as five technical articles. This course reorganizes and annotates that material into a progressive learning path with quizzes to test your understanding along the way. The ideas, definitions, and proofs are his — we've adapted the format for structured education.
+The original "Delving Simplicity" series by Dr. O'Connor is structured as five technical articles. This course reorganizes and annotates that material into a progressive learning path with quizzes to test your understanding along the way. The ideas, definitions, and proofs are his, and we've adapted the format for structured education.
 
 # Foundations of Simplicity
 
@@ -250,6 +252,8 @@ case f g : (A + B) × C ⊢ D
 ⟦case f g⟧⟨σᴿ(b), c⟩ = ⟦g⟧⟨b, c⟩
 ```
 
+Why does conditional composition take this shape — a sum paired with a shared environment `C` — rather than a simpler `copair f g : A + B ⊢ C` that merely picks a branch? Because a bare `copair` cannot express **distribution**: the function `dist : (A + B) × C ⊢ A × C + B × C` that pushes a shared input into whichever branch is taken. By building the environment `C` directly into `case`, Simplicity obtains conditional composition *and* distribution from a single combinator — one of the key design decisions that keeps the core language down to nine combinators.
+
 ### Four More Combinators
 
 Product consumption uses `take` and `drop`:
@@ -306,7 +310,7 @@ In total, Simplicity has exactly nine core combinators:
 
 ### Simplicity and the Sequent Calculus
 
-Simplicity's design derives from the conjunctive-disjunctive fragment of Gentzen's sequent calculus, analogous to the Curry-Howard correspondence. The combinator rules exhibit "smaller types in premises than conclusions," enabling the Bit Machine — Simplicity's abstract stack machine interpreter — to minimize data copying during execution.
+Simplicity's design derives from the conjunctive-disjunctive fragment of Gentzen's sequent calculus. More precisely, it is a variant of the *functional interpretation* of the sequent calculus, which is itself analogous to the Curry-Howard correspondence between natural deduction and the lambda calculus. The combinator rules exhibit "smaller types in premises than conclusions," enabling the Bit Machine — Simplicity's abstract stack machine interpreter — to minimize data copying during execution.
 
 ### Values are not Expressions
 
@@ -314,7 +318,7 @@ Simplicity expressions denote operations, not values. The notation `scribe b : A
 
 ### Simplicity's Completeness Theorem
 
-The Simplicity Completeness theorem proves that for any function between Simplicity types, some Simplicity expression denotes it. The proof is constructive — it shows how to build the expression:
+With all nine combinators in hand, how do we know we aren't missing something — that these nine really are enough? The Simplicity Completeness theorem answers this: for any function between (finite) Simplicity types, some Simplicity expression denotes it. The proof is constructive — it shows how to build the expression:
 
 1. **Decompose the input**: Using nested `case` expressions, fully decompose any input of any type into its constituent bits
 2. **Build a lookup table**: For each possible input, use `scribe` to produce the corresponding output
@@ -322,7 +326,7 @@ The Simplicity Completeness theorem proves that for any function between Simplic
 
 This theorem is formally verified in the Rocq proof assistant (formerly Coq). The proof is part of the official Simplicity repository and has been machine-checked for correctness.
 
-While the completeness theorem guarantees that Simplicity's nine combinators are a sufficient foundation for any blockchain computation, resulting expressions from the lookup-table construction are impractically large. A function on 256-bit inputs would require a lookup table with 2²⁵⁶ entries. This is why the next chapters focus on building efficient expressions that exploit the structure of computations, rather than brute-forcing everything through lookup tables.
+While the completeness theorem guarantees that Simplicity's nine combinators can express any function between (finite) Simplicity types, resulting expressions from the lookup-table construction are impractically large. A function on 256-bit inputs would require a lookup table with 2²⁵⁶ entries. This is why the next chapters focus on building efficient expressions that exploit the structure of computations, rather than brute-forcing everything through lookup tables.
 
 ### Conclusion
 
@@ -573,7 +577,7 @@ For Bitcoin and Liquid applications, we currently have two side effects: the Fai
 
 ### Jets with Effects
 
-We will talk more about jets later in this series, but here we introduce a few example jets to illustrate their side effects.
+We will talk more about jets later in this course, but here we introduce a few example jets to illustrate their side effects.
 
 #### Bip0340-verify
 
@@ -621,6 +625,15 @@ Reading data from the environment is one of the few types of unitary effects. If
 
 The failure effect isn't unitary. If `f` throws an exception then so will `f ⨾ unit`; execution will not even make it to the `unit` combinator before the computation is aborted. On the other hand, `unit` obviously would not throw any exception, so the effects of `f ⨾ unit` and `unit` would be different.
 
+To summarize, here is how the effects discussed above fare against these three properties:
+
+| Effect | Commutative | Idempotent | Unitary |
+| --- | :---: | :---: | :---: |
+| Reader (transaction environment) | ✓ | ✓ | ✓ |
+| Failure (unit-typed exception) | ✓ | ✓ | ✗ |
+| Writer (log as a set) | ✓ | ✓ | ✗ |
+| General exceptions (arbitrary type) | ✗ | ✓ | ✗ |
+
 ### Effects Allowed in Simplicity
 
 The more well-behaved properties that a type of effect has, the more room a Simplicity optimizer has for transforming programs that use those effects. Ideally we would only allow effects that have all three properties: commutative, idempotent, and unitary. This would allow an optimizer to perform any sort of program transformation it would like. However, reading from an environment is the only effect that satisfies all three properties.
@@ -635,7 +648,7 @@ Why does Simplicity even allow side effects at all? Wouldn't it be better if eve
 
 #### Batch Verification
 
-One reason we have the Failure effect is to support batch verification of Schnorr signatures. In batch verification, many individual Schnorr signature checks are pooled together in such a way that if any single signature check fails, then the entire batch fails.
+One reason we have the Failure effect is to support [batch verification](https://github.com/bitcoin/bips/blob/c9a6ca6297eb8de850f6b64dafb8e60ee9b64d66/bip-0340.mediawiki#batch-verification) of Schnorr signatures. In batch verification, many individual Schnorr signature checks are pooled together in such a way that if any single signature check fails, then the entire batch fails.
 
 This batching procedure improves efficiency over individually verifying each signature. The downside is that if the batch verification fails, then we do not learn which specific signature check or checks failed.
 
@@ -653,7 +666,7 @@ Because `sig-all-hash : 𝟙 ⊢ 𝟚²⁵⁶` uses the Reader effect to access 
 
 ### Cross-Input Signature Aggregation
 
-While neither Liquid nor Bitcoin support cross-input signature aggregation at this point in time, we would like to check that Simplicity can be compatible with it when the time comes.
+While neither Liquid nor Bitcoin support [cross-input signature aggregation](https://hrf.org/latest/cisa-research-paper/) at this point in time, we would like to check that Simplicity can be compatible with it when the time comes.
 
 While details haven't been worked out, we imagine half-aggregation being implemented using a Writer effect. That is, a new jet with a type such as `half-agg-verify : (𝟚²⁵⁶ × 𝟚²⁵⁶) × 𝟚²⁵⁶ ⊢ 𝟙` would take a public key, message digest, and the `r`-component of a Schnorr signature (a Schnorr signature consists of an `r`-component and an `s`-component) and write it to a transaction log before continuing on with execution. Then, elsewhere in the transaction or with the transaction, an aggregate `s`-component for all half-aggregated Schnorr signatures would be provided. The transaction would only be valid when such an aggregate `s`-component is provided for all the logged keys, messages, and `r`-components.
 
@@ -685,9 +698,9 @@ Rather than storing complete programs on-chain, Bitcoin employs commitments — 
 
 Each combinator receives a SHA-256 tag derived from the pattern: `Simplicity␟Commitment␟[identifier]`, where `␟` represents ASCII code 31 (the unit separator).
 
-The specific tags for each combinator are:
+Each tag is the SHA-256 hash of the corresponding pre-image string listed below:
 
-| Combinator | Tag |
+| Combinator | Tag pre-image (ASCII string) |
 |---|---|
 | `iden` | `Simplicity␟Commitment␟iden` |
 | `unit` | `Simplicity␟Commitment␟unit` |
@@ -699,7 +712,23 @@ The specific tags for each combinator are:
 | `injl` | `Simplicity␟Commitment␟injl` |
 | `injr` | `Simplicity␟Commitment␟injr` |
 
-The CMR calculation uses recursive hashing with tagged SHA-256 midstates. For the `unit` combinator, the CMR is computed by applying SHA-256 with the tag `Simplicity␟Commitment␟unit` and no additional input data. The resulting CMR for the trivial `unit` program is:
+A Simplicity expression is then recursively hashed into a 256-bit CMR by computing a tagged SHA-256 midstate for each combinator together with the CMRs of its arguments (write `#ᶜ(e)` for the CMR of expression `e`, and `∥` for byte concatenation):
+
+| Combinator | CMR rule |
+|---|---|
+| `iden` | `#ᶜ(iden) = SHA-256-midstate(tag_iden ∥ tag_iden)` |
+| `unit` | `#ᶜ(unit) = SHA-256-midstate(tag_unit ∥ tag_unit)` |
+| `comp f g` | `#ᶜ(comp f g) = SHA-256-midstate(tag_comp ∥ tag_comp ∥ #ᶜ(f) ∥ #ᶜ(g))` |
+| `pair f g` | `#ᶜ(pair f g) = SHA-256-midstate(tag_pair ∥ tag_pair ∥ #ᶜ(f) ∥ #ᶜ(g))` |
+| `case f g` | `#ᶜ(case f g) = SHA-256-midstate(tag_case ∥ tag_case ∥ #ᶜ(f) ∥ #ᶜ(g))` |
+| `take f` | `#ᶜ(take f) = SHA-256-midstate(tag_take ∥ tag_take ∥ 32·0x00 ∥ #ᶜ(f))` |
+| `drop f` | `#ᶜ(drop f) = SHA-256-midstate(tag_drop ∥ tag_drop ∥ 32·0x00 ∥ #ᶜ(f))` |
+| `injl f` | `#ᶜ(injl f) = SHA-256-midstate(tag_injl ∥ tag_injl ∥ 32·0x00 ∥ #ᶜ(f))` |
+| `injr f` | `#ᶜ(injr f) = SHA-256-midstate(tag_injr ∥ tag_injr ∥ 32·0x00 ∥ #ᶜ(f))` |
+
+Binary combinators (`comp`, `pair`, `case`) concatenate the CMRs of both children; unary combinators (`take`, `drop`, `injl`, `injr`) concatenate their single child's CMR after 32 bytes of `0x00` padding; and the nullary leaves (`iden`, `unit`) hash their tag alone. Two conventions keep this cheap to compute: SHA-256 midstates are used so that **each expression requires at most one call to the SHA-256 compression function** (assuming the midstate up to the constant tags is precomputed), and the one-argument constructors prefix their argument with 32 bytes of `0x00` padding, which allows for a little extra precomputation for implementations that want it.
+
+For the `unit` combinator — a nullary constructor with no argument sub-expressions — this rule specialises to `#ᶜ(unit) = SHA-256-midstate(tag_unit ∥ tag_unit)`, where `tag_unit = SHA-256(Simplicity␟Commitment␟unit)` (the tag is fed in twice). The resulting CMR for the trivial `unit` program is:
 
 ```
 0xc40a10263f7436b4160acbef1c36fba4be4d95df181a968afeab5eac247adff7
@@ -716,32 +745,78 @@ Addresses employ BIP-0341's Taproot mechanism with CMRs committed under TapLeaf 
 3. Converting to bech32m format
 4. Adding appropriate checksums
 
-The NUMS point (Non-Mundane Secret) is used for key-spend-less addresses, meaning addresses where there is no key-spend path and spending can only happen through the Simplicity script.
+When no key-spend path is desired, the internal public key is set to a **NUMS** ("Nothing-Up-My-Sleeve") point: a curve point deliberately chosen so that nobody knows its discrete logarithm — in other words, a point with no corresponding private key. Because no one can ever produce a signature for it, the key-spend path is provably unusable, and the output can be spent *only* through the committed Simplicity script path. In a real application, this NUMS point should be randomized as recommended by BIP-0341, so that outputs with no key-spend path are indistinguishable from ordinary Taproot outputs (a privacy benefit).
+
+#### From Simplicity to Address
+
+Let's walk through the whole derivation for the simplest program possible: `unit : 𝟙 ⊢ 𝟙`, a no-op that always succeeds.
+
+**1. Combinator tag.** First compute the `unit` tag:
+
+```
+tag_unit = SHA-256(Simplicity␟Commitment␟unit)
+         = 0xd723083cff3c75e29f296707ecf2750338f100591c86e0c71717f807ff3cf69d
+```
+
+**2. CMR.** Feed the tag in twice to obtain the program's CMR:
+
+```
+CMR = #ᶜ(unit) = SHA-256-midstate(tag_unit ∥ tag_unit)
+    = 0xc40a10263f7436b4160acbef1c36fba4be4d95df181a968afeab5eac247adff7
+```
+
+**3. TapLeaf hash.** Prefix the CMR with Simplicity's TapLeaf version `0xbe` and the CMR length `0x20` (32 bytes), then take the Elements TapLeaf tagged hash (a tagged hash is `hash_str(x) = SHA-256(SHA-256(str) ∥ SHA-256(str) ∥ x)`):
+
+```
+hash_TapLeaf/elements(0xbe ∥ 0x20 ∥ CMR)
+  = 0x44cc38311ec7e5dfb7b573baf38449496ecd334eb5509cfed1b4fd30da8dd41c
+```
+
+With only this one leaf there are no TapBranches, so this hash is already the TapTree root.
+
+**4. TapTweak.** Since we want no key-spend path, we use the BIP-0341 NUMS point as the internal key and tweak it with the TapTree root:
+
+```
+internal_pk = 0x50929b74c1a04954b78b4b6035e97a5e078a5a0f28ec96d547bfee9ace803ac0
+t = hash_TapTweak/elements(internal_pk ∥ 0x44cc38311ec7e5dfb7b573baf38449496ecd334eb5509cfed1b4fd30da8dd41c)
+  = 0xb3bef172389b0937d7e5a8b15cfa41e776777f13f2f659cb06220a6ff0658285
+```
+
+**5. Output key.** Tweak the internal key on the curve, `output_pk = lift_x(internal_pk) ⊕ t·G` (the elliptic-curve arithmetic is summarized here), giving the x-only output key `0x2cb0c20acd7340b4d4b65f6a60e2888d0d64e3267261f3b3cf7290e5af3f9e09`.
+
+**6. Bech32m address.** Encode the x-only output key, prefix a `p` (the SegWit v1 witness-version character), add the Liquid-testnet human-readable prefix `tex1`, and append the Bech32m checksum. The final address is:
+
+```
+tex1p9jcvyzkdwdqtf49kta4xpc5g35xkfcexwfsl8v70w2gwttelncyshxjk56
+```
+
+That was a lot of work — but much of it is mandated by Taproot itself, not by Simplicity.
 
 ### Witness Expressions
 
 A new combinator type addresses the absence of input to Simplicity programs: the witness expression. The `witness` combinator permits signature data and other witness material to be integrated into programs.
 
 ```
+      w : B
+-----------------
 witness w : A ⊢ B
 ```
 
-The witness expression's semantics is straightforward: it ignores its input and just returns the value `w`. Crucially, witness values are **excluded** from the expression's CMR, enabling address calculation before knowing witness values.
+The witness expression's semantics is straightforward: it ignores its input and simply returns the value `w` (which may be of any Simplicity type), i.e. `⟦witness w⟧(a) = w`. This adds **no new expressiveness** — by the completeness theorem, Simplicity can already build any such constant function (recall the `scribe` macro from the previous chapters). The point of the `witness` combinator lies entirely in its **CMR**: the value `w` is **excluded** from the expression's CMR, so the address can be computed before `w` is known, and `w` is supplied at redemption time.
 
 This design choice supports pruning — unexecuted conditional branches needn't be revealed on-chain, including their associated witness expressions. When a branch is pruned, the verifier only needs the CMR of the pruned subtree, not its actual content.
 
 ### Witness Values
 
-Witness values are provided at spending time (redemption), not at address creation time. This separation is fundamental to how Simplicity programs work:
+It may seem like a limitation that a witness expression can hold only a *value*, and not a more general Simplicity expression. But programs for UTXO-based blockchains are executed only once. There is no need to pass a whole sub-expression into a witness node: the user can simply run that sub-expression themselves, off-chain, and transcribe its output into the witness value to obtain the very same result.
 
-1. At **address creation time**: The program structure is committed via CMR, but witness values are left unspecified
-2. At **spending time**: Witness values (signatures, preimages, etc.) are provided to complete the program
+(Later in this course we will meet the `disconnect` combinator, which behaves much like a witness expression that *does* take an entire Simplicity expression as its argument.)
 
-This is analogous to how Bitcoin Script separates the scriptPubKey (committed at funding time) from the scriptSig/witness (provided at spending time).
+An alternative design would feed all witness data in as an argument to the top-level Simplicity program. Witness expressions are preferred for two reasons. First, **pruning**: unexecuted branches of `case` expressions are never revealed on-chain, and any witness expressions inside those branches are pruned away along with them. Second, **locality**: witness expressions let us place each witness value exactly where it is used, instead of threading it down from the program's top-level input.
 
 ### Type Inference
 
-Since CMRs don't commit to types, the type system is reconstructed during redemption. Simplicity's type inference algorithm determines the minimal types for each subexpression based on the combinator structure. This means the same CMR can potentially be used at different types, though in practice the program structure constrains the types uniquely.
+Since CMRs don't commit to types, the type system is reconstructed during redemption. Simplicity's type inference algorithm determines the minimal types for each subexpression based on the combinator structure. More precisely, inference computes the *principal* (most general) type of every subexpression; any type variables that remain free are then instantiated to the unit type `𝟙`, which yields a unique, minimal type for the program.
 
 ### Conclusion
 

@@ -1,9 +1,9 @@
 question: How are variable-length buffers represented in Simplicity's type system?
-answer: As nested products of option types, where each option layer represents the presence or absence of a power-of-two sized block.
+answer: As nested option-type products, each layer flagging a power-of-two block.
 wrong_answers:
-  - Using a special dynamic array type built into the language.
-  - Through recursive sum types that grow on each function call.
-  - As fixed-size vectors padded with zero values.
+  - Using a special dynamic array type built directly into the language.
+  - Through recursive sum types that grow larger on each function call.
+  - As fixed-size vectors that are padded out with trailing zero values.
 explanation: >-
   Buffers use nested option types. For example, Xᑉ⁸ expands to
   (1 + X⁴) × ((1 + X²) × (1 + X)), which as a polynomial yields

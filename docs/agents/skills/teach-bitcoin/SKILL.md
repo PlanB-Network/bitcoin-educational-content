@@ -1,5 +1,5 @@
 ---
-name: teach
+name: teach-bitcoin
 description: Teach Bitcoin (or any concept) as a stateful, personalized journey. Generates interactive HTML lessons and routes the learner through the "right door" of the Plan ₿ Academy catalog (course / tutorial / resource) for their level and goal. Adapted from Matt Pocock's /teach.
 argument-hint: "What would you like to learn? (e.g. 'teach me how Bitcoin self-custody works')"
 disable-model-invocation: true

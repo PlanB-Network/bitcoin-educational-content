@@ -2,7 +2,7 @@
 
 > **Canonical, tracked, tool-agnostic agent config lives in this folder
 > (`docs/agents/`).** `AGENTS.md` is the source of truth; `CLAUDE.md` is a
-> symlink to it. The root `AGENTS.md`/`CLAUDE.md` and `.claude/skills/teach` are
+> symlink to it. The root `AGENTS.md`/`CLAUDE.md` and `.claude/skills/teach-bitcoin` are
 > gitignored *pointers* created by [`install.sh`](./install.sh) — edit the files
 > here, never the pointers.
 
@@ -41,7 +41,7 @@ bitcoin-educational-content/
 ├── docs/             # repo + content-format documentation (start here)
 │   └── agents/       # ← tracked, tool-agnostic agent config (this folder)
 │       ├── AGENTS.md #    the guide — CLAUDE.md is a symlink to it
-│       ├── skills/   #    published skills (teach, …)
+│       ├── skills/   #    published skills (teach-bitcoin, …)
 │       └── install.sh#    wires pointers into .claude/ and repo root
 ├── scripts/          # validators & automation (Python + Node)
 └── .claude/          # tool-specific, gitignored: symlinks into docs/agents/
@@ -122,13 +122,13 @@ Agent config is **published in the repo** so anyone learning or contributing via
 this repo gets the same setup, regardless of agent.
 
 - **`docs/agents/`** — canonical, tracked source: this guide + `skills/`.
-- **`docs/agents/skills/`** — published skills. First one: **`teach`** — a
+- **`docs/agents/skills/`** — published skills. First one: **`teach-bitcoin`** — a
   stateful Bitcoin teaching skill that generates interactive HTML lessons and
   routes the learner through the "right door" of the Plan ₿ Academy catalog
   (course / tutorial / resource) for their level and goal. See
-  [`skills/teach/SKILL.md`](./skills/teach/SKILL.md).
+  [`skills/teach-bitcoin/SKILL.md`](./skills/teach-bitcoin/SKILL.md).
 - **`.claude/`** (gitignored, tool-specific) — Claude Code's `commands/` and
-  `skills/`. `skills/teach` is a symlink to `docs/agents/skills/teach`. Other
+  `skills/`. `skills/teach-bitcoin` is a symlink to `docs/agents/skills/teach-bitcoin`. Other
   repo-local Claude skills: `create-professor-profile`, `export_thumbnail`,
   `fix_sync_errors`, `generate_annual_report`, `generate_monthly_report`,
   `update_app`.
@@ -141,7 +141,7 @@ After cloning, wire the tool pointers (idempotent, safe to re-run):
 sh docs/agents/install.sh
 ```
 
-Then, in Claude Code: `/teach` (e.g. *"teach me how Bitcoin self-custody
+Then, in Claude Code: `/teach-bitcoin` (e.g. *"teach me how Bitcoin self-custody
 works"*). Using another agent? Point its skills directory at
 `docs/agents/skills/` and have it read this file.
 

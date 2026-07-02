@@ -5,12 +5,12 @@
 # What lives where:
 #   docs/agents/            ← canonical, tracked, tool-agnostic agent config
 #   docs/agents/AGENTS.md   ← the agent guide (CLAUDE.md is a symlink to it)
-#   docs/agents/skills/     ← published skills (e.g. teach)
+#   docs/agents/skills/     ← published skills (e.g. teach-bitcoin)
 #
 # This script creates the pointers tools expect (all gitignored):
 #   ./AGENTS.md            -> docs/agents/AGENTS.md
 #   ./CLAUDE.md            -> docs/agents/CLAUDE.md
-#   .claude/skills/teach   -> ../../docs/agents/skills/teach   (Claude Code)
+#   .claude/skills/teach-bitcoin -> ../../docs/agents/skills/teach-bitcoin  (Claude Code)
 #
 # Usage:  sh docs/agents/install.sh        (run from the repo root)
 
@@ -44,8 +44,8 @@ link() {
 
 link "docs/agents/AGENTS.md" "AGENTS.md"
 link "docs/agents/CLAUDE.md" "CLAUDE.md"
-link "../../docs/agents/skills/teach" ".claude/skills/teach"
+link "../../docs/agents/skills/teach-bitcoin" ".claude/skills/teach-bitcoin"
 
 echo
-echo "Done. In Claude Code, try:  /teach   (e.g. 'teach me how Bitcoin self-custody works')"
+echo "Done. In Claude Code, try:  /teach-bitcoin   (e.g. 'teach me how Bitcoin self-custody works')"
 echo "Other agents: point your skills dir at docs/agents/skills/ and read docs/agents/AGENTS.md."

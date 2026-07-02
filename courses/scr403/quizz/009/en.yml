@@ -1,0 +1,12 @@
+question: What does a half-adder compute?
+answer: The carry (AND) and sum (XOR) of two input bits.
+wrong_answers:
+  - The sum of two multi-bit integers with carry propagation.
+  - The average of two bits rounded down.
+  - The bitwise OR and AND of two input bits.
+explanation: >-
+  A half-adder takes two single bits and produces two outputs using
+  parallel composition: the carry bit (AND of inputs) and the sum bit
+  (XOR of inputs). In Simplicity it's defined as and ▵ xor, running
+  both operations on the same input pair.
+reviewed: false

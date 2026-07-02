@@ -1,0 +1,13 @@
+question: What is the role of jets in Simplicity?
+answer: Jets are native implementations replacing given Simplicity expressions for speed.
+wrong_answers:
+  - Jets are a compilation step that converts Simplicity into Bitcoin Script.
+  - Jets are network messages that broadcast Simplicity programs to all nodes.
+  - Jets are debugging tools for testing and tracing Simplicity expressions.
+explanation: >-
+  A jet is a native implementation that the network agrees to substitute
+  for a particular Simplicity expression (identified by its Merkle root).
+  The Simplicity expression serves as a formal specification of what the
+  jet computes, while the native code provides practical execution speed.
+  Common jets handle arithmetic and cryptographic operations like SHA-256.
+reviewed: false

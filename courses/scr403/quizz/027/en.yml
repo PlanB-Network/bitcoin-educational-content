@@ -1,0 +1,12 @@
+question: "Why are witness values excluded from the Commitment Merkle Root (CMR)?"
+answer: So addresses form before witnesses are known, and unused branches prune privately.
+wrong_answers:
+  - Because witness values are simply far too large to include in a 256-bit hash.
+  - Because witness values are validated entirely separately by the Failure effect.
+  - Because including the witness values would make the CMR non-deterministic.
+explanation: >-
+  Witness expressions (like signatures) are provided at spending time, not at address creation time.
+  Excluding them from the CMR enables two important properties: addresses can be generated before
+  the spending transaction exists, and unexecuted conditional branches can be pruned from the
+  on-chain data without revealing their associated witness values.
+reviewed: true

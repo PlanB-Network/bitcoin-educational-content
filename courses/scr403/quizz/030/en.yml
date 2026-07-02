@@ -1,0 +1,15 @@
+question: "Which core-combinator expression implements the distribution function dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Inside each branch of case, the environment is already paired with the
+  untagged value, so f = injl iden and g = injr iden give ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ and ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — exactly dist. The take/drop variant
+  type-checks but discards the pairing, denoting a function of type (A +
+  B) × C ⊢ A + C instead. pair produces a product rather than a sum, and
+  copair is not a Simplicity combinator at all — dist is precisely what
+  copair alone cannot express.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Why does the 'case' combinator include a shared environment type C in its signature?
+answer: So both branches can read shared context data alongside the tagged input.
+wrong_answers:
+  - To limit the size of the input in order to prevent stack overflows.
+  - To enable recursive calls back and forth between the two branches.
+  - To store the output of the previous combinator earlier in the chain.
+explanation: >-
+  The case combinator has signature (A + B) × C ⊢ D. The extra type C
+  acts as a shared environment that both the left branch (f : A × C ⊢ D)
+  and right branch (g : B × C ⊢ D) can access. This is more powerful
+  than a simple if-then-else because branches receive both their specific
+  data and contextual information needed for computation.
+reviewed: false

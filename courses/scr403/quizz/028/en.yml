@@ -1,0 +1,16 @@
+question: Conditional composition is described as the dual of parallel composition. Which statement precisely captures this duality?
+answer: "The shared type changes sides: parallel feeds one common input type to both operations and pairs their outputs into a product, while conditional merges alternative tagged inputs into a sum and requires both operations to produce one common output type."
+wrong_answers:
+  - "Execution order is inverted: parallel must run its two operations simultaneously, whereas conditional runs the same two operations one after the other and returns only the result of the branch that the tag selects."
+  - Both compositions execute the two operations on one shared input; parallel keeps the pair of outputs, while conditional executes both branches and then discards the output that the tag bit does not select.
+  - Parallel composition duplicates its input before execution while conditional composition duplicates its output afterward, so the two are duals by exchanging where the copying of data takes place in the pipeline.
+explanation: >-
+  The duality is a product/sum exchange with the shared type switching
+  sides: parallel composition gives both operations the same input type
+  and pairs their outputs into a product, whereas conditional composition
+  takes a sum (tagged union) of the two input types and both branches must
+  yield the same output type. Simultaneity is irrelevant — the article
+  stresses parallel composition may be implemented sequentially — and
+  conditional composition executes exactly one branch, chosen by the tag,
+  rather than running both and discarding one.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Applying the typing rules for iden, take, drop and pair, what is the most general type of the expression pair (drop iden) (take iden), and what function does it denote?
+answer: A × B ⊢ B × A — the second component comes out first, so it denotes the swap function on pairs
+wrong_answers:
+  - A × B ⊢ A × B — both components pass through in their place, so it denotes the identity on pairs
+  - It is ill-typed, because take iden and drop iden produce different output types that pair cannot merge
+  - (A × B) × (A × B) ⊢ B × A — pair combines the input types of its two subexpressions into one product
+explanation: >-
+  drop iden : A × B ⊢ B extracts the second component and take iden : A ×
+  B ⊢ A extracts the first. The pair combinator requires only that its two
+  subexpressions share the same input type (here A × B); their outputs may
+  differ, and are returned as a pair. On input ⟨a, b⟩ the expression
+  therefore yields ⟨b, a⟩: the swap function, of type A × B ⊢ B × A.
+reviewed: false

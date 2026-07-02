@@ -1,0 +1,14 @@
+question: The stack operation push-<n has type Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Why must its output be a sum involving the full vector type Aⁿ, rather than simply the buffer type Aᑉⁿ?
+answer: A buffer Aᑉⁿ holds at most n−1 items, so pushing onto a full buffer yields exactly n items — a result only the vector type Aⁿ can represent.
+wrong_answers:
+  - The sum lets callers choose the cheaper encoding, since full vectors serialize far more compactly than equivalent nested option products.
+  - Push can fail when the buffer is empty, and the left branch Aⁿ is the error case that carries whatever contents were already stored in it.
+  - Simplicity's case combinator requires any function consuming a sum-based buffer type to also produce a sum type as its output afterwards.
+explanation: >-
+  Aᑉⁿ is exactly the type of lists whose length is strictly less than n,
+  so a buffer at maximum capacity holds n−1 elements. Pushing one more
+  produces exactly n elements, which Aᑉⁿ cannot represent; the Aⁿ summand
+  returns that overflowed result as a full vector. Encoding overflow in
+  the output type keeps push-<n a total function rather than a partial one
+  — the empty-buffer failure case belongs to pop-<n, not push.
+reviewed: false

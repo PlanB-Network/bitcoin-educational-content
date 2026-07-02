@@ -1,0 +1,17 @@
+question: A Simplicity optimizer is transforming an expression built from jets such as verify, bip0340-verify, and sig-all-hash. Given that Simplicity demands its effects be commutative and idempotent but not unitary, which program transformation must the optimizer refuse in general?
+answer: "Replacing an expression whose discarded output makes it look dead with `unit`, since Failure is not unitary: the expression could hide a failing `bip0340-verify` that must abort the transaction."
+wrong_answers:
+  - Swapping the order of two independent subexpressions, because each `sig-all-hash` call could observe the transaction environment in a different state depending on when it executes.
+  - Deduplicating two identical `verify` calls into one, because a duplicated Failure effect would throw the unit exception twice and abort a computation that should have continued.
+  - Reordering expressions that may throw, because the exception that propagates from a pair depends on which side runs first, changing the program's observable failure value.
+explanation: >-
+  Because Simplicity's effects are guaranteed commutative and idempotent,
+  swapping independent subexpressions and duplicating or merging identical
+  ones are always safe; the Reader environment is fixed, and Failure's
+  unit-typed exception is identical no matter which side throws first or
+  how many times. The discard transformation `f ⨾ unit = unit`, however,
+  requires unitarity, which Failure lacks: if `f` contains a
+  `bip0340-verify` on an invalid signature, eliminating the 'dead' code
+  would optimize away the abort and validate a transaction that should
+  fail.
+reviewed: false

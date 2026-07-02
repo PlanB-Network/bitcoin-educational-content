@@ -1,9 +1,9 @@
-question: The stack operation push-<n has type Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Why must its output be a sum involving the full vector type Aⁿ, rather than simply the buffer type Aᑉⁿ?
-answer: A buffer Aᑉⁿ holds at most n−1 items, so pushing onto a full buffer yields exactly n items — a result only the vector type Aⁿ can represent.
+question: push-<n has type Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Why must its output be a sum that includes the full vector type Aⁿ?
+answer: A buffer Aᑉⁿ holds at most n−1 items, so pushing onto a full buffer yields n items — only Aⁿ can represent that.
 wrong_answers:
-  - The sum lets callers choose the cheaper encoding, since full vectors serialize far more compactly than equivalent nested option products.
-  - Push can fail when the buffer is empty, and the left branch Aⁿ is the error case that carries whatever contents were already stored in it.
-  - Simplicity's case combinator requires any function consuming a sum-based buffer type to also produce a sum type as its output afterwards.
+  - The sum lets callers pick the cheaper encoding, since vectors serialize more compactly than option products.
+  - Push can fail on an empty buffer, and the Aⁿ branch is the error case carrying the old contents.
+  - case requires any function consuming a sum-typed buffer to also produce a sum-typed output.
 explanation: >-
   Aᑉⁿ is exactly the type of lists whose length is strictly less than n,
   so a buffer at maximum capacity holds n−1 elements. Pushing one more

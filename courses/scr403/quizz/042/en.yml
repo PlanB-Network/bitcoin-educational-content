@@ -1,9 +1,9 @@
-question: At spending time, a Simplicity program is revealed with an unexecuted case branch pruned away. How can the verifier still confirm that the revealed program matches the CMR committed in the UTXO?
-answer: "The CMR is a Merkle root: a case node hashes both children's CMRs, so the spender supplies only the pruned branch's 32-byte CMR and the verifier recomputes the root without its contents."
+question: At spending time a case branch is pruned away. How can the verifier still match the revealed program to the committed CMR?
+answer: The CMR is a Merkle root, so the spender supplies just the pruned branch's CMR and the verifier folds it in to recompute the root.
 wrong_answers:
-  - The verifier recomputes the commitment from the executed branch alone, because branches of a case expression that never execute were not included in the CMR in the first place.
-  - Pruned branches are replaced by a canonical placeholder node whose fixed, well-known CMR stands in for the missing subtree when the Merkle root is recomputed by the verifier.
-  - The pruned branch's full code is still committed in the transaction witness, where the verifier hashes it but skips executing it in order to save on validation costs.
+  - The verifier uses only the executed branch, since unexecuted case branches were never in the CMR.
+  - Pruned branches become a canonical placeholder whose fixed CMR stands in when recomputing the root.
+  - The pruned branch's full code stays in the witness, where the verifier hashes but does not execute it.
 explanation: >-
   The CMR of case f g is a tagged hash over both children's CMRs, so every
   branch — executed or not — is committed at address time. Because the

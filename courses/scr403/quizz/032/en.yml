@@ -1,9 +1,9 @@
-question: The proof of the Simplicity Completeness theorem constructs an expression for any function by nesting case expressions to fully decompose the input and composing with scribe expressions for each output. Why is this construction useful only as a theoretical tool?
-answer: The constructed expression is effectively a giant lookup table whose size grows exponentially with input width — a function on 256-bit inputs would need about 2²⁵⁶ entries
+question: The completeness proof builds any function by nesting case to decompose the input and scribe for each output. Why is it only a theoretical tool?
+answer: The resulting expression is a giant lookup table whose size grows exponentially — a 256-bit input would need about 2²⁵⁶ entries.
 wrong_answers:
-  - Because scribe is a macro rather than a true combinator, the constructed expression falls outside the formally verified core Simplicity language and cannot be machine-checked
-  - Because the Bit Machine takes exponential time to evaluate the constructed expression, even though the expression itself stays compact thanks to sharing between branches
-  - Because nested case expressions can only decompose sum types, so the lookup-table construction fails whenever the function's input type is built from products
+  - scribe is a macro, not a core combinator, so the expression falls outside the formally verified language.
+  - The Bit Machine evaluates it in exponential time, even though the expression itself stays compact via sharing.
+  - Nested case can only decompose sum types, so the construction fails on any product-typed input.
 explanation: >-
   The construction enumerates every possible input via nested case
   decomposition and hard-codes each output with scribe, so expression size

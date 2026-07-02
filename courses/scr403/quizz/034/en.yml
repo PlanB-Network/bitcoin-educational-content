@@ -1,9 +1,9 @@
-question: The chapter's full-adder combines the carry bits of its two half-adders with logical OR rather than with XOR or a third adder stage. Why is a plain OR sufficient to produce the correct carry-out?
-answer: Because for any input, at most one of the two half-adders can produce a carry, so OR merges two mutually exclusive carry cases exactly.
+question: The full-adder ORs the carry bits of its two half-adders instead of XORing them. Why is OR correct?
+answer: At most one half-adder can carry for any input, so OR merges two mutually exclusive cases exactly.
 wrong_answers:
-  - Because the two carry bits must themselves be added together, and OR is how single-bit binary addition is implemented in Simplicity.
-  - Because after the case-based branching, OR is the only binary Boolean operator whose type still matches the remaining environment.
-  - Because OR over-approximates the carry, and any spurious extra carry values are discarded by the final I I H projection afterwards.
+  - The two carry bits must be added, and OR is how single-bit binary addition is done in Simplicity.
+  - After the branching, OR is the only Boolean operator whose type still matches the environment.
+  - OR over-approximates the carry; any spurious carries are dropped by the final projection afterwards.
 explanation: >-
   If the first half-adder carries, both of its input bits were 1, so its
   sum bit is 0 — and a half-adder fed a 0 can never carry. The two carry

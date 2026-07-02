@@ -1,4 +1,4 @@
-question: "The distribution function dist : (A + B) × C ⊢ A × C + B × C is the operation that a naive copair combinator could never express. Which core-combinator expression correctly implements dist?"
+question: "Which core-combinator expression implements the distribution function dist : (A + B) × C ⊢ A × C + B × C?"
 answer: case (injl iden) (injr iden)
 wrong_answers:
   - case (injl (take iden)) (injr (drop iden))

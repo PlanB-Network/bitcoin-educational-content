@@ -1,9 +1,9 @@
-question: "In the recursive CMR rule, computing #ᶜ(comp f g) hashes a 128-byte input: the 32-byte comp tag repeated twice, followed by the two 32-byte child CMRs. Why does this still cost at most one call to the SHA-256 compression function?"
-answer: The first 64-byte block holds only the constant repeated tag, so its midstate can be precomputed once per combinator; only the block carrying the two child CMRs is compressed.
+question: "Computing #ᶜ(comp f g) hashes 128 bytes: the comp tag twice, then both child CMRs. Why is that still at most one SHA-256 compression call?"
+answer: The first 64-byte block is the constant tag∥tag, whose midstate is precomputed once; only the block holding the child CMRs is compressed.
 wrong_answers:
-  - Dropping SHA-256's final length-padding block is alone what saves the work; without that padding, the whole 128-byte input fits within one invocation of the compression function.
-  - The two child CMRs are XORed into a single 32-byte digest before hashing, shrinking the entire input to one 64-byte block containing the tags plus the combined child hash.
-  - SHA-256-midstate is a wide-block variant of the compression function that accepts 128-byte message blocks directly, so the tags and child CMRs are absorbed in a single pass.
+  - Dropping SHA-256's final length-padding block alone lets the whole 128 bytes fit in one call.
+  - The two child CMRs are XORed into one 32-byte digest, shrinking the input to a single block.
+  - SHA-256-midstate is a wide-block variant that absorbs 128-byte message blocks in one pass.
 explanation: >-
   SHA-256's compression function processes fixed 64-byte blocks, so a
   128-byte input normally needs two calls (plus one more for the length

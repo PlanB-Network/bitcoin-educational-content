@@ -1,9 +1,9 @@
-question: The Bit Machine exploits the 'smaller types in the premises' structure of Simplicity's typing rules to minimize copying during execution. Which core combinators actually involve moving data around when expressions are interpreted?
-answer: Only iden and comp — the remaining seven core combinators are implemented with nothing more than some bookkeeping
+question: Given the 'smaller types in the premises' typing rules, which core combinators actually move data during execution?
+answer: Only iden and comp; the other seven are implemented with nothing more than bookkeeping.
 wrong_answers:
-  - Only take and drop — extracting a single component of a pair forces the machine to copy that component out of the product
-  - Only pair and case — duplicating the input for two parallel branches and dispatching on a tag both require shuffling data
-  - Only injl and injr — attaching a tag means rewriting the value into a freshly allocated, larger sum-type representation
+  - Only take and drop; extracting one component forces the machine to copy it out of the product.
+  - Only pair and case; duplicating the input for two branches and dispatching on a tag shuffle data.
+  - Only injl and injr; adding a tag rewrites the value into a larger sum-type representation.
 explanation: >-
   Counterintuitively, the combinators that look like data access (take,
   drop, pair, case, injl, injr) need no copying: because premises in the

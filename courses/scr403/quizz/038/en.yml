@@ -1,9 +1,9 @@
-question: To make Simplicity forward-compatible with cross-input signature aggregation, a half-agg-verify jet is imagined as a Writer effect whose transaction log is treated as a set of (key, message, r-component) tuples rather than a list. Under the commutative/idempotent/unitary classification, what does this set-based design achieve, and what limit remains?
-answer: "It becomes commutative and idempotent, meeting Simplicity's requirement, but not unitary: discarding a call with unused output would drop its tuple from the log and skip a signature in the aggregate check."
+question: A half-agg-verify jet logs a set of tuples as a Writer effect. Under the commutative/idempotent/unitary test, what does the set design achieve, and what is still missing?
+answer: "Commutative and idempotent (as Simplicity requires), but not unitary: discarding a call would drop its tuple and skip a signature."
 wrong_answers:
-  - It becomes idempotent and unitary, but stays non-commutative because the aggregate s-component must combine the logged r-components in the exact order the individual signatures were produced.
-  - It gains all three properties, so an optimizer may freely duplicate, reorder, or discard half-agg-verify calls without any risk of changing whether the transaction is valid.
-  - It becomes commutative but stays non-idempotent, since inserting an identical tuple twice would make the verifier demand two aggregate s-components for a single logged signature.
+  - Idempotent and unitary, but not commutative, since the aggregate must combine r-components in signing order.
+  - All three, so an optimizer may freely duplicate, reorder, or discard the calls with no risk.
+  - Commutative but not idempotent, since logging the same tuple twice would demand two aggregate s-components.
 explanation: >-
   Treating the writer log as a set makes the effect idempotent and
   commutative, because set insertion itself has both properties — exactly

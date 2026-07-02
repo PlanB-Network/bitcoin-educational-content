@@ -1,9 +1,9 @@
-question: Simplicity's designers explicitly excluded unbounded recursion. According to their stated thesis, what is the intended substitute for unbounded iterative computation?
-answer: Recursive covenants that spread an iterative computation across multiple transactions, sidestepping block-space and standardness constraints while keeping the cost of each transaction predictable.
+question: Simplicity excludes unbounded recursion. What is its intended substitute for unbounded iteration?
+answer: Recursive covenants that spread the computation across multiple transactions, keeping each transaction's cost predictable.
 wrong_answers:
-  - The delegation feature, which was purpose-built to give Simplicity programs a disciplined, metered form of unbounded recursion executed entirely inside a single transaction.
-  - The nine core combinators, whose combinator completeness allows a fixed-point construction to encode any recursive function directly within one Simplicity program.
-  - Compile-time loop unrolling, in which static analysis infers the maximum iteration count and duplicates the loop body that many times before deployment.
+  - The delegation feature, purpose-built to give a metered form of unbounded recursion inside a single transaction.
+  - The nine core combinators, whose completeness lets a fixed-point construction encode any recursive function.
+  - Compile-time loop unrolling, where static analysis infers the maximum iteration count and duplicates the body.
 explanation: >-
   The article's thesis is that unbounded iteration is better implemented
   as recursive covenants computing over multiple transactions, which

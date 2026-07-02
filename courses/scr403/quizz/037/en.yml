@@ -1,9 +1,9 @@
-question: SHA-256 compression will run as a jet, yet the chapter insists the fold and map combinators for vectors and buffers 'cannot be replaced with jets' and will appear literally in deployed programs. What explains this asymmetry?
-answer: A jet replaces one fixed expression with a concrete type, and sha256-hash-block is exactly that, whereas fold and map are schemas producing a different expression for every inner function f.
+question: SHA-256 compression becomes a jet, but the fold and map combinators cannot. What explains the asymmetry?
+answer: A jet replaces one fixed expression; fold and map aren't single expressions but schemas, yielding a different one per inner function f.
 wrong_answers:
-  - Jets can only accelerate straight-line code without repetition, so iterating combinators must first be fully unrolled, after which the unrolled form no longer matches any jet.
-  - Only expressions carrying a machine-checked Rocq correctness proof are eligible for jet replacement, and such proofs exist for SHA-256 but not for the generic folding combinators.
-  - Folds over short vectors are too cheap to benefit from native code, so the standard library deliberately reserves its jets for the expensive cryptographic operations alone.
+  - Jets only accelerate straight-line code, so iterating combinators must be unrolled first and then match no jet.
+  - Only expressions with a machine-checked Rocq proof qualify, which exists for SHA-256 but not the folds.
+  - Folds over short vectors are too cheap to benefit, so jets are reserved for costly crypto operations.
 explanation: >-
   A jet is a native replacement for one specific, fully-formed Simplicity
   expression, which nodes can substitute while preserving its exact

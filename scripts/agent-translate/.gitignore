@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.translation-lessons/
+.translation-report.json

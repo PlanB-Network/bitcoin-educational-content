@@ -1,0 +1,108 @@
+# Agent-driven translation pipeline — configuration
+# The source of truth is always the English file (en.md / en.yml) inside each
+# content folder. A translation is the sibling {lang}.{ext} in the same folder.
+
+source_lang: en
+
+# Target languages. `name` is injected into the translation prompt.
+languages:
+  - { code: bg,      name: Bulgarian }
+  - { code: cs,      name: Czech }
+  - { code: de,      name: German }
+  - { code: es,      name: Spanish }
+  - { code: et,      name: Estonian }
+  - { code: fa,      name: Farsi }
+  - { code: fi,      name: Finnish }
+  - { code: fr,      name: French }
+  - { code: hi,      name: Hindi }
+  - { code: id,      name: Indonesian }
+  - { code: it,      name: Italian }
+  - { code: ja,      name: Japanese }
+  - { code: ko,      name: Korean }
+  - { code: nb-NO,   name: Norwegian }
+  - { code: nl,      name: Dutch }
+  - { code: pl,      name: Polish }
+  - { code: pt,      name: Portuguese }
+  - { code: rn,      name: Rundi }
+  - { code: ro,      name: Romanian }
+  - { code: ru,      name: Russian }
+  - { code: si,      name: Sinhala }
+  - { code: sk,      name: Slovak }
+  - { code: sr-Latn, name: Serbian }
+  - { code: sv,      name: Swedish }
+  - { code: sw,      name: Swahili }
+  - { code: th,      name: Thai }
+  - { code: tr,      name: Turkish }
+  - { code: vi,      name: Vietnamese }
+  - { code: zh-Hans, name: Chinese (Simplified) }
+  - { code: zh-Hant, name: Chinese (Traditional) }
+
+# Content roots scanned for en.md / en.yml (relative to repo root).
+content_roots:
+  - courses
+  - tutorials
+  - resources
+  - professors
+  - events
+
+# Path fragments to skip entirely (drafts / incomplete / intentionally EN-only).
+# Ported from the legacy pipeline's excluded_subfolders.
+exclude_paths:
+  - courses/biz221
+  - courses/biz205
+  - courses/csv404
+  - courses/ene101
+  - courses/lnp206
+  - courses/btc208
+  - courses/lnp404
+  - courses/eco208
+  - courses/sid402
+  - courses/sid406
+  - courses/eco205
+  - courses/dev301
+
+# Default worker concurrency (overridable with --concurrency).
+concurrency: 8
+
+# A markdown file larger than this (bytes) gets explicit chapter-chunking
+# instructions in the worker prompt.
+long_form_threshold_bytes: 40000
+
+# Model routing. `--model` on the CLI overrides everything, per-language `overrides`
+# beat `default`. Patterns use omp fuzzy match — the model MUST be authenticated in
+# omp or the worker crashes. See knowledge/model-matrix.md for the full evidence.
+#
+# CURRENT STATE: only Claude ("sonnet") is authenticated in this omp install, so it
+# is the default everywhere (it is also the matrix's safety anchor: best tool-use and
+# best prompt-injection resistance). To adopt the evidence-based routing below, first
+# authenticate the providers in omp, then move the entries from `recommended` into
+# `overrides` (and set `default: gpt-5.1`).
+models:
+  default: sonnet
+  overrides: {}
+
+  # Evidence-based target routing (knowledge/model-matrix.md). Enable once authed:
+  recommended:
+    default: gpt-5.1          # workhorse: S-tier translator + S-tier agent (WMT25 / SWE-bench)
+    overrides:
+      # Gemini 3 Pro — low-resource + Asian + Nordic/Finnic (WMT25 human-eval lineage winner)
+      et: gemini-3-pro
+      fi: gemini-3-pro
+      sv: gemini-3-pro
+      nb-NO: gemini-3-pro
+      ja: gemini-3-pro
+      ko: gemini-3-pro
+      th: gemini-3-pro
+      vi: gemini-3-pro
+      id: gemini-3-pro
+      hi: gemini-3-pro
+      si: gemini-3-pro
+      sw: gemini-3-pro
+      rn: gemini-3-pro        # Kirundi: least-bad; ALSO requires mandatory human review
+      # GLM-4.6 — Chinese fidelity (COMET #1 pro zh->en) + ~1/7 cost, open-weights
+      zh-Hans: glm-4.6
+      zh-Hant: glm-4.6
+
+# Runtime worktree location (sibling of the repo). {ts} is replaced with a timestamp.
+worktree_base: "../bec-autotranslate-{ts}"
+branch_prefix: "auto-translate"

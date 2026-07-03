@@ -65,6 +65,7 @@ def translate_job(
     system_prompt: str,
     knowledge_dir: Path,
     lessons_root: Path,
+    session_dir: Path,
     timeout: int,
 ) -> dict:
     started = time.time()
@@ -89,7 +90,7 @@ def translate_job(
 
     cmd = [
         "omp", "-p",
-        "--no-session", "--auto-approve", "--no-lsp", "--no-pty", "--no-title",
+        "--session-dir", str(session_dir), "--auto-approve", "--no-lsp", "--no-pty", "--no-title",
         "--cwd", str(worktree),
         "--model", model,
         "--thinking", thinking,

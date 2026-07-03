@@ -127,6 +127,50 @@ class Governor:
         return True
 
 
+def percents(data: dict) -> dict:
+    """Per-sub used_percent for the 5h and weekly windows (for before/after deltas)."""
+    out = {}
+    for sub in SUBS:
+        u5, _, _ = _window(data, sub)
+        uw, _, _ = _window(data, sub, WEEKLY)
+        out[sub] = {"5h": u5, "weekly": uw}
+    return out
+
+
+def aggregate_sessions(sessions_dir) -> dict:
+    """Sum omp session-file token usage per model. One .jsonl per omp session; each
+    assistant `message` line carries a `usage` object. Returns
+    {model: {provider, input, output, cacheRead, cacheWrite, cost, messages}}."""
+    from pathlib import Path
+    agg: dict = {}
+    sdir = Path(sessions_dir)
+    if not sdir.exists():
+        return agg
+    for f in sdir.glob("*.jsonl"):
+        for ln in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            try:
+                e = json.loads(ln)
+            except ValueError:
+                continue
+            if e.get("type") != "message":
+                continue
+            m = e.get("message") or {}
+            if m.get("role") != "assistant":
+                continue
+            u = m.get("usage") or {}
+            model = m.get("model") or "?"
+            a = agg.setdefault(model, {"provider": m.get("provider") or provider_of(model),
+                                       "input": 0, "output": 0, "cacheRead": 0,
+                                       "cacheWrite": 0, "cost": 0.0, "messages": 0})
+            a["input"] += int(u.get("input", 0) or 0)
+            a["output"] += int(u.get("output", 0) or 0)
+            a["cacheRead"] += int(u.get("cacheRead", 0) or 0)
+            a["cacheWrite"] += int(u.get("cacheWrite", 0) or 0)
+            a["cost"] += float((u.get("cost") or {}).get("total", 0.0) or 0.0)
+            a["messages"] += 1
+    return agg
+
+
 if __name__ == "__main__":
     g = Governor(set(SUBS))
     print(g.status_line())

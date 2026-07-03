@@ -269,6 +269,9 @@ def main() -> None:
     system_prompt = (PROMPTS_DIR / "translate.md").read_text(encoding="utf-8")
     knowledge_dir = worktree / KNOWLEDGE_SUBPATH
     batch_size = args.batch_size or int(config.get("batch_size", 15))
+    sessions_dir = worktree.parent / f"{worktree.name}.sessions"
+    sessions_dir.mkdir(parents=True, exist_ok=True)
+    pct_before = usage.percents(governor.fresh())
 
     # Group work into omp sessions; small YAML files are batched per language (a4).
     def dispatch(jobs: list[list[dict]], attempt: int = 0) -> None:
@@ -288,7 +291,7 @@ def main() -> None:
                     fut = pool.submit(
                         worker.translate_job, job, worktree=worktree, model=m, thinking=th,
                         system_prompt=system_prompt, knowledge_dir=knowledge_dir,
-                        lessons_root=lessons_root, timeout=args.timeout)
+                        lessons_root=lessons_root, session_dir=sessions_dir, timeout=args.timeout)
                     pending.add(fut)
                     job_of[fut] = job
 
@@ -339,6 +342,34 @@ def main() -> None:
     added = consolidate_lessons(lessons_root, knowledge_dir)
     if not args.in_place:
         shutil.rmtree(lessons_root, ignore_errors=True)  # scratch never enters the PR
+
+    # Per-batch usage log: token in/out per model + %-consumption per provider.
+    pct_after = usage.percents(governor.fresh(force=True))
+    per_model = usage.aggregate_sessions(sessions_dir)
+    providers = {sub: {
+        "5h_before": pct_before[sub]["5h"], "5h_after": pct_after[sub]["5h"],
+        "5h_delta": round(pct_after[sub]["5h"] - pct_before[sub]["5h"], 1),
+        "weekly_before": pct_before[sub]["weekly"], "weekly_after": pct_after[sub]["weekly"],
+        "weekly_delta": round(pct_after[sub]["weekly"] - pct_before[sub]["weekly"], 1),
+    } for sub in usage.SUBS}
+    cost_total = round(sum(m["cost"] for m in per_model.values()), 4)
+    usage_log = {"ts": datetime.now().isoformat(timespec="seconds"),
+                 "scope": {"langs": args.langs, "content": args.content,
+                           "subtype": args.subtype, "path": args.path},
+                 "files": len(items), "wall_s": round(time.time() - t0),
+                 "cost_total": cost_total, "per_model": per_model, "providers": providers}
+    usage_log_path = worktree.parent / f"{worktree.name}.usage.json"
+    usage_log_path.write_text(json.dumps(usage_log, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("\n── usage ──")
+    for model, m in sorted(per_model.items()):
+        print(f"  {model:<20} in {m['input']:>8} · out {m['output']:>7} · "
+              f"cacheR {m['cacheRead']:>9} · cacheW {m['cacheWrite']:>10} · ${m['cost']:.2f} ({m['messages']} msg)")
+    for sub in usage.SUBS:
+        p = providers[sub]
+        print(f"  {sub:<10} 5h {p['5h_before']:.0f}%→{p['5h_after']:.0f}% (Δ{p['5h_delta']:+.1f}) · "
+              f"weekly {p['weekly_before']:.0f}%→{p['weekly_after']:.0f}% (Δ{p['weekly_delta']:+.1f})")
+    print(f"  total cost ≈ ${cost_total:.2f}  · usage log: {usage_log_path}")
+    shutil.rmtree(sessions_dir, ignore_errors=True)
 
     dt = round(time.time() - t0)
     summary_text = (

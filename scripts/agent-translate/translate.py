@@ -34,6 +34,7 @@ sys.path.insert(0, str(SCRIPT_DIR))
 import find_missing  # noqa: E402
 import verify  # noqa: E402
 import worker  # noqa: E402
+import usage  # noqa: E402
 
 KNOWLEDGE_SUBPATH = "scripts/agent-translate/knowledge"  # under the worktree -> lands in the PR
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
@@ -146,6 +147,32 @@ def make_jobs(items: list[dict], batch_size: int) -> list[list[dict]]:
     return jobs
 
 
+def interactive_menu(args, config: dict) -> None:
+    """Prompt for a batch scope and mutate `args` in place."""
+    print("\n=== agent-translate — lancement interactif ===")
+    print("\nType de batch :")
+    print("  1) Un cours — toutes les langues manquantes")
+    print("  2) Un cours — langues au choix")
+    print("  3) Une langue — tout le contenu manquant")
+    print("  4) Scope personnalisé")
+    c = input("Choix [1-4] : ").strip()
+    if c == "1":
+        args.path = "courses/" + input("Cours (ex. scr403) : ").strip()
+    elif c == "2":
+        args.path = "courses/" + input("Cours (ex. scr403) : ").strip()
+        args.langs = input("Langues csv (ex. fr,de) : ").strip() or None
+    elif c == "3":
+        args.langs = input("Langue (ex. fr) : ").strip() or None
+        args.content = input("Content roots csv (vide=tous) : ").strip() or None
+    else:
+        args.path = input("Path (vide=tous) : ").strip() or None
+        args.langs = input("Langues csv (vide=toutes) : ").strip() or None
+        args.content = input("Content csv (vide=tous) : ").strip() or None
+        args.subtype = input("Subtype csv (vide=tous) : ").strip() or None
+    if input("Ouvrir une PR à la fin ? [O/n] : ").strip().lower() == "n":
+        args.no_pr = True
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description="Agent-driven translation orchestrator.")
     p.add_argument("--langs", help="comma-separated target languages (default: all)")
@@ -166,12 +193,19 @@ def main() -> None:
     p.add_argument("--max-items", type=int, default=500, help="safety cap; use --force to exceed")
     p.add_argument("--force", action="store_true", help="allow batches larger than --max-items")
     p.add_argument("--batch-size", type=int, help="small-file batch size per session (default: config 15)")
+    p.add_argument("--interactive", action="store_true", help="interactive menu to pick the batch + live progress/usage")
+    p.add_argument("--usage-threshold", type=float, default=80, help="freeze when ALL in-use subs reach this pct of the 5h window")
+    p.add_argument("--usage-hard", type=float, default=95, help="freeze when ANY in-use sub reaches this pct (backstop)")
+    p.add_argument("--no-usage-gate", action="store_true", help="disable subscription-usage gating")
     p.add_argument("--repo-root", type=Path, default=find_missing.DEFAULT_REPO_ROOT)
     args = p.parse_args()
 
     config = find_missing.load_config()
     repo_root = args.repo_root.resolve()
     concurrency = args.concurrency or int(config.get("concurrency", 8))
+    if args.interactive:
+        interactive_menu(args, config)
+
 
     items = [asdict(w) for w in find_missing.scan(
         config, repo_root=repo_root,
@@ -199,9 +233,28 @@ def main() -> None:
         print("Nothing to translate. \u2705")
         return
 
-    if len(items) > args.max_items and not args.force:
+    if len(items) > args.max_items and not args.force and not args.interactive:
         sys.exit(f"Refusing to run {len(items)} items (> --max-items {args.max_items}). "
                  f"Scope with --langs/--content/--limit or pass --force.")
+    # Subscription-usage governor (freezes the batch near the 5h window cap).
+    in_use = set()
+    for it in items:
+        for step in route_for(config, it["lang"], args.model, args.thinking):
+            in_use.add(usage.provider_of(step["model"]))
+    in_use.discard("unknown")
+    governor = usage.Governor(in_use, threshold=args.usage_threshold, hard=args.usage_hard,
+                              enabled=not args.no_usage_gate, log=print)
+    governor.preflight()
+
+    if args.interactive:
+        n_sessions = len(make_jobs(items, args.batch_size or int(config.get("batch_size", 15))))
+        pr_note = "no PR" if args.no_pr else f"1 PR -> {args.base}"
+        print(f"\n{len(items)} fichiers · {n_sessions} sessions omp · concurrence {concurrency} · "
+              f"providers {sorted(in_use) or ['?']} · {pr_note}")
+        if input("Lancer ? [o/N] : ").strip().lower() not in ("o", "y", "oui"):
+            print("Annulé.")
+            return
+
 
     # Workspace
     if args.in_place:
@@ -219,29 +272,39 @@ def main() -> None:
 
     # Group work into omp sessions; small YAML files are batched per language (a4).
     def dispatch(jobs: list[list[dict]], attempt: int = 0) -> None:
-        done, total = 0, len(jobs)
+        total, done = len(jobs), 0
         with cf.ThreadPoolExecutor(max_workers=concurrency) as pool:
-            futures = {}
-            for job in jobs:
-                m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking), attempt)
-                futures[pool.submit(
-                    worker.translate_job, job,
-                    worktree=worktree,
-                    model=m,
-                    thinking=th,
-                    system_prompt=system_prompt,
-                    knowledge_dir=knowledge_dir,
-                    lessons_root=lessons_root,
-                    timeout=args.timeout,
-                )] = job
-            for fut in cf.as_completed(futures):
-                r = fut.result()
-                done += 1
-                job = r["items"]
-                st = "ok" if r["ok"] else "FAIL"
-                label = job[0]["dst"] if len(job) == 1 else f"{job[0]['lang']} batch×{len(job)}"
-                note = "" if r["ok"] else f"  ({r['error']})"
-                print(f"[{done}/{total}] {st:>4} {label} {r['duration']}s{note}")
+            job_iter = iter(jobs)
+            job_of: dict = {}
+            pending: set = set()
+
+            def fill():
+                while len(pending) < concurrency:
+                    job = next(job_iter, None)
+                    if job is None:
+                        break
+                    governor.gate()  # blocks new launches while in-use subs are capped
+                    m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking), attempt)
+                    fut = pool.submit(
+                        worker.translate_job, job, worktree=worktree, model=m, thinking=th,
+                        system_prompt=system_prompt, knowledge_dir=knowledge_dir,
+                        lessons_root=lessons_root, timeout=args.timeout)
+                    pending.add(fut)
+                    job_of[fut] = job
+
+            fill()
+            while pending:
+                dset, _ = cf.wait(pending, return_when=cf.FIRST_COMPLETED)
+                for fut in dset:
+                    pending.discard(fut)
+                    job = job_of.pop(fut)
+                    r = fut.result()
+                    done += 1
+                    st = "ok" if r["ok"] else "FAIL"
+                    label = job[0]["dst"] if len(job) == 1 else f"{job[0]['lang']} batch×{len(job)}"
+                    note = "" if r["ok"] else f"  ({r['error']})"
+                    print(f"[{done}/{total}] {st:>4} {label} {r['duration']}s{note}  · {governor.status_line()}")
+                fill()
 
     def verify_all() -> list[dict]:
         return [

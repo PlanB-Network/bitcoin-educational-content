@@ -69,6 +69,30 @@ Scoping flags combine freely: `--langs`, `--content`, `--subtype`
 `--retries N` (default 2, walks the fallback chain), `--base dev`, `--in-place`,
 `--no-pr`, `--keep-worktree`, `--max-items`/`--force`.
 
+## Interactive launcher & usage governor
+`translate.py` runs two ways — a coordinator agent passes CLI flags, a human uses the menu:
+```bash
+python3 translate.py --interactive          # menu: pick course/lang/scope, live progress + usage
+python3 translate.py --path courses/scr403 --force   # non-interactive (logs); coordinator-friendly
+```
+`--interactive` prompts for the batch (a course × all langs, a course × chosen langs, a
+language × all content, or custom), shows the file/session/provider/PR summary, and asks to
+confirm. Progress lines carry live usage (`· usage ●anth 5h 2% wk 32% · ●open 5h 0%`);
+non-interactive runs log the same — redirect to a file and leave it running.
+
+**Usage governor** (`usage.py`, wraps `agent-sub-usage`): before launching each session it
+checks the 5-hour subscription windows of the providers the batch uses (anthropic ← sonnet/opus,
+openai ← gpt-5.5). It **freezes** the batch when every in-use sub is ≥ `--usage-threshold`
+(80) — or any is ≥ `--usage-hard` (95) — and resumes at the window reset (≤~65 min). The probe
+is cached (~60 s) and fails open (a broken probe never blocks). Disable with `--no-usage-gate`.
+
+Run the full Simplicity batch (interactive):
+```bash
+cd <checkout-with-pipeline>
+python3 scripts/agent-translate/translate.py --interactive
+#  → 1) un cours · scr403 · (toutes langues) · PR: O   → ~1320 files, ~120 omp sessions
+```
+
 ## Model routing (`config.yml → models`)
 asi0's decision, from `knowledge/model-matrix.html`. Each language maps to an ordered
 chain `[#1, #2, #3]` of `{model, thinking}`; the retry pass walks DOWN the chain, so a
@@ -98,10 +122,11 @@ FAILs are retried (walking the fallback chain); persistent FAILs are dropped by 
 release agent and listed in the PR body.
 
 ## Status
-- Proven end-to-end (in-place): gap-check → batched worker (omp) → verify → retry →
-  lessons consolidation. Real FR quizz batch: 4 files / 1 session, verify all PASS,
-  knowledge/fr.md grown.
-- The release agent (`run_pr_agent` / `pr_agent.md`) is implemented and wired but not yet
-  fired against a live PR.
-- **Prerequisite for content batches:** this pipeline must be on `dev` first, so content
-  PRs contain only translations (+ knowledge), not the tooling diff.
+- **Proven end-to-end**: scoped FR pilot on `courses/scr403` (1 long-form course + 43 quizz,
+  batched) in a real worktree — **44/44 verify PASS**, structure parity exact (78/78 headings,
+  56/56 code fences), `knowledge/fr.md` grew by 20 terminology lessons. `--path`, per-language
+  routing, batching (88→8 sessions), and the usage governor are all validated.
+- The release agent (`run_pr_agent` / `pr_agent.md`) is implemented and wired but not yet fired
+  against a live PR (needs explicit go — it opens a real PR).
+- **Prerequisite for clean content PRs:** this pipeline should be on `dev` first, so content
+  PRs contain only translations (+ knowledge/*.md), not the tooling diff.

@@ -15,7 +15,7 @@ before reaching for external material.
 
 ## Knowledge
 
-- [Plan ₿ Academy: btc101 — The Bitcoin Journey](https://planb.academy/courses/btc101) · `courses/btc101/en.md`
+- [Plan ₿ Academy: btc101 — The Bitcoin Journey](https://planb.academy/en/courses/UUID-FROM-course.yml) · `courses/btc101/en.md`
   The canonical beginner course. Use for: monetary value proposition, transactions, wallets, mining overview.
 - [Bitcoin: A Peer-to-Peer Electronic Cash System — Satoshi Nakamoto (2008)](https://bitcoin.org/bitcoin.pdf)
   Primary source. Use for: the original design rationale, double-spend, proof-of-work.
@@ -32,6 +32,9 @@ before reaching for external material.
 
 - **Repo content first.** Cite the matching Plan ₿ Academy course/tutorial/
   resource (link the website *and* the repo path) before external sources.
+- **Link by UUID, not slug.** Every planb.academy link uses the content's UUID
+  (the `id:` in its `course.yml`/`tutorial.yml`), never the human slug like
+  `/courses/btc101` — a slug URL 404s. See the **Links** rules in `RIGHT-DOOR.md`.
 - **High-trust only.** Prefer primary sources (whitepaper, BIPs, mailing list),
   recognized experts, peer-reviewed work, and well-moderated communities. Leave
   out marketing dressed as education and price/speculation content.

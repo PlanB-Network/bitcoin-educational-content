@@ -33,7 +33,8 @@ quiz, a reveal, a tiny in-browser simulator, a step checklist), then render it.
 3. **Feedback loop** — quiz / reveal / task with immediate feedback.
 4. **Primary source** — the single best thing to read/watch next (`.primary-source`).
 5. **Your next door** — the `.next-door` CTA linking the recommended Plan ₿
-   Academy course/tutorial (website URL + repo path). See `RIGHT-DOOR.md`.
+   Academy course/tutorial by **content UUID** (never the human slug — a slug URL
+   404s), plus the repo path. See the **Links** rules in `RIGHT-DOOR.md`.
 6. **Ask your teacher** — reminder that you (the agent) are their teacher and can
    clarify anything.
 
@@ -92,7 +93,7 @@ sha256sum --check SHA256SUMS --ignore-missing</code></pre>
     <a href="https://bitcoincore.org/en/download/">bitcoincore.org — verifying downloads</a>
   </p>
 
-  <a class="next-door" href="https://planb.academy/courses/btc202">
+  <a class="next-door" href="https://planb.academy/en/courses/UUID-FROM-course.yml">
     <span class="nd-kicker">Your next door</span>
     <span class="nd-title">btc202 — Setting up your first Bitcoin node</span>
     <span class="nd-meta">intermediate · Plan ₿ Academy · repo: courses/btc202/</span>

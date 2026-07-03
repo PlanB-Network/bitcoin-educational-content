@@ -86,8 +86,10 @@ advanced, `401–499` developer/expert (`docs/course_ID_rules.md`).
    Treat it as a snapshot that can drift — prefer live reads when possible.
 
 Every lesson ends with a **"Your next door"** call-to-action linking the
-recommended Plan ₿ Academy course/tutorial (link to
-`https://planb.academy/courses/<id>` / `/tutorials/...` and to the repo path).
+recommended Plan ₿ Academy course/tutorial. **Link by the content's UUID, never
+the human slug** — `courses/<uuid>`, not `courses/btc101`; a slug URL 404s. Read
+the UUID from the content's `course.yml`/`tutorial.yml` `id` and follow the URL
+rules in the **Links** section of [RIGHT-DOOR.md](./RIGHT-DOOR.md). Also link the repo path.
 
 ## Philosophy
 

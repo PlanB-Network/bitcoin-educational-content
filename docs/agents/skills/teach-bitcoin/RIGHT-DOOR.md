@@ -107,11 +107,27 @@ For breadth and wisdom, route to `resources/<type>/`: `books`, `podcasts`,
 `papers`, `newsletters`, `movies`, `conferences`, `channels`, `glossary`,
 `projects`. Seed lesson glossaries from `resources/glossary/`.
 
-## Links
+## Links — always link by content UUID, never the human slug
 
-- Course page: `https://planb.academy/courses/<id>` (e.g. `/courses/btc101`)
-- Tutorials: `https://planb.academy/tutorials/<category>/<slug>`
-- Resources: `https://planb.academy/resources`
+The platform routes by each content's **UUID**, not the `btc204`/folder slug. A
+slug URL 404s with "Cours introuvable / course not found". Read the UUID from the
+content's own file, and build the URL with a language segment (`en` by default,
+or the learner's UI language):
+
+- **Course** — UUID = the `id:` field in `courses/<slug>/course.yml`:
+  `https://planb.academy/<lang>/courses/<uuid>`
+  e.g. btc204 → `https://planb.academy/en/courses/65c138b0-4161-4958-bbe3-c12916bc959c`
+- **Tutorial** — UUID = the `id:` in `tutorials/<cat>/<slug>/tutorial.yml`. The
+  path is `<cat>/<subcat>/<slug>-<uuid>`, where `<subcat>` = the `category:` field
+  inside that same `tutorial.yml` (e.g. `peer-to-peer`):
+  `https://planb.academy/<lang>/tutorials/<cat>/<subcat>/<slug>-<uuid>`
+  e.g. RoboSats → `https://planb.academy/en/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-4295-9f6d-5368152e8c06`
+- **Resource** — UUID = the `id:` in the resource's yml; same `<slug>-<uuid>`
+  convention: `https://planb.academy/<lang>/resources/<type>/<slug>-<uuid>`
+  (confirm the exact path live if unsure).
+
+> Never emit a slug/course-id URL like `/courses/btc204`. If you only know the
+> human id, open its `course.yml`/`tutorial.yml` and read the `id` first.
 
 > Snapshot taken from 48 courses present in `courses/`. If a course is missing or
 > renamed here, the live catalog wins — update this map when you notice drift.

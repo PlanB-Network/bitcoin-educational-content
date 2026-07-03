@@ -1,0 +1,14 @@
+question: Vad är SimplicityHL och varför behövs det?
+answer: Ett högnivåspråk som kompileras till Simplicity och hanterar namngivning och scope.
+wrong_answers:
+  - Ett hårdvarubeskrivningsspråk för att bryta de ASIC:ar som kör Simplicity.
+  - En grafisk drag-och-släpp-IDE för att koppla samman Simplicity-kombinatorer.
+  - Ett testramverk för att köra Simplicity-program i en säker sandlåda.
+explanation: >-
+  Rå Simplicity blir oöverskådlig vid produktionskomplexitet eftersom
+  all dataåtkomst måste göras via nästlade take/drop-kombinatorer. SimplicityHL
+  tillhandahåller bekanta programmeringskonstruktioner — namngivna variabler, scope,
+  biblioteksimporter och kontrollflöde — som kompileras ner till Simplicity-kombinator-
+  uttryck. Slutanvändare skriver SimplicityHL medan Simplicity fungerar som
+  det formellt verifierade kompileringsmålet.
+reviewed: false

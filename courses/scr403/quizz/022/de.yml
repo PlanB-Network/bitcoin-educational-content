@@ -1,0 +1,14 @@
+question: "Warum verwendet bip0340-verify den Failure-Effekt statt einen booleschen Wert (wahr/falsch) zurückzugeben?"
+answer: Um die Batch-Verifikation von Schnorr-Signaturen zu ermöglichen, bei der eine fehlgeschlagene Prüfung den gesamten Batch scheitern lässt.
+wrong_answers:
+  - Weil boolesche Typen im Vergleich zum Unit-Typ zu teuer in Bezug auf den Blockplatz sind.
+  - Weil das Typsystem von Simplicity boolesche Rückgabewerte von Jets nicht darstellen kann.
+  - Weil die Rückgabe eines einfachen booleschen Werts direkt gegen das Vollständigkeitstheorem verstoßen würde.
+explanation: >-
+  Würde bip0340-verify einen booleschen Wert zurückgeben, könnte eine fehlgeschlagene
+  Signaturprüfung dennoch zu einem Zweig führen, in dem das Skript erfolgreich ist. In diesem
+  Fall müsste der Verifizierer wissen, welche spezifische Signatur fehlgeschlagen ist, was die
+  Batch-Verifikation verhindern würde. Durch die Verwendung des Failure-Effekts bricht eine
+  fehlgeschlagene Prüfung immer die gesamte Berechnung ab, was eine effiziente Batch-Verifikation
+  ermöglicht, bei der viele Signaturen zusammen geprüft werden.
+reviewed: true

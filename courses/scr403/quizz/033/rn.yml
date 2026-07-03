@@ -1,0 +1,14 @@
+question: Dufatiye ku mategeko y'ubwoko avuga ko hari 'ubwoko buto mu premises', ni izihe core combinators vy'ukuri zimura amakuru mu gihe co gukora?
+answer: Iden na comp gusa; izindi ndwi zishirwa mu ngiro ata kindi kirenze bookkeeping.
+wrong_answers:
+  - take na drop gusa; gukura igice kimwe bituma machine ibwirizwa kugikopa hanze ya product.
+  - pair na case gusa; gusubiramwo input ku mashami abiri no guhitamwo hakoreshejwe tag birimura amakuru.
+  - injl na injr gusa; kwongerako tag bisubira kwandika agaciro mu representation nini kuruta ya sum-type.
+explanation: >-
+  Naho bitangaje, combinators zisa n'aho zishikira amakuru (take,
+  drop, pair, case, injl, injr) ntizikeneye gukopa: kubera ko premises
+  mu mategeko y'ubwoko zikoresha ubwoko buto kuruta conclusions zazo, Bit
+  Machine ishobora kuzishira mu ngiro hakoreshejwe bookkeeping gusa. Iden,
+  ikopa input yayo yose muri output yayo, na comp, ikora agaciro k'ubuhuza
+  gaherezwa kuva kuri f gushika kuri g, ni vyo vyonyene vy'ukuri vyimura amakuru.
+reviewed: false

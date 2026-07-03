@@ -1,0 +1,11 @@
+question: Simplicity 有多少个核心组合子？
+answer: 九个（iden、unit、comp、pair、case、take、drop、injl、injr）。
+wrong_answers:
+  - 三个（顺序组合、并行组合、条件）。
+  - 五个（仅 comp、pair、case、take 和 drop 组合子）。
+  - 十二个（九个核心组合子加三个额外扩展组合子）。
+explanation: >-
+  Simplicity 正好有九个核心组合子。两个基本操作（iden 和 unit），
+  三种组合方法（comp、pair、case），以及四个访问器（用于积的 take、drop，
+  用于和的 injl 和 injr）。这九个足以表达 Simplicity 类型之间的任意函数。
+reviewed: false

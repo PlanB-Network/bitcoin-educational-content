@@ -1,0 +1,19 @@
+question: Une sortie Simplicity utilise le point NUMS fixe de BIP-0341 comme clé interne. Pourquoi la dépense par clé est-elle prouvablement impossible, et qu'apporte la randomisation du point NUMS ?
+answer: Personne ne connaît le logarithme discret du point NUMS, donc aucune signature de chemin par clé ne peut exister ; la randomisation n'ajoute que de la confidentialité.
+wrong_answers:
+  - Le point NUMS est hors courbe, donc les signatures de chemin par clé échouent ; la randomisation le ramène sur la courbe.
+  - La clé privée du point NUMS vaut zéro, ce que le consensus rejette ; la randomisation protège la modification (tweak) contre les canaux auxiliaires.
+  - Modifier un point NUMS produit une clé hors intervalle, rendant la dépense par clé non standard ; la randomisation évite la réutilisation d'adresse.
+explanation: >-
+  Un point NUMS (« Nothing-Up-My-Sleeve ») est un point de courbe
+  parfaitement valide construit de manière à ce que personne ne connaisse
+  de clé privée correspondante — son logarithme discret est inconnu.
+  Puisqu'une dépense par chemin de clé exige une signature Schnorr sous la
+  clé interne, et qu'aucune signature de ce type ne peut être produite sans
+  la clé privée, le chemin de dépense par clé est prouvablement inutilisable
+  et les fonds ne peuvent circuler que par le chemin de script engagé.
+  Randomiser le point NUMS ne change rien à cela ; cela masque simplement le
+  fait que la dépense par clé est désactivée, si bien que la sortie
+  ressemble à n'importe quelle autre sortie Taproot — un avantage de
+  confidentialité.
+reviewed: false

@@ -1,0 +1,16 @@
+question: På vilket sätt är villkorlig sammansättning dualen till parallell sammansättning?
+answer: Parallell matar båda operationerna med en gemensam indata och parar ihop deras utdata (en produkt); villkorlig tar emot en summa av indata och båda grenarna delar en och samma utdatatyp.
+wrong_answers:
+  - Parallell måste köra sina två operationer samtidigt; villkorlig kör dem i sekvens och returnerar endast den gren som taggen väljer.
+  - Båda körs på en delad indata; parallell behåller utdataparet, medan villkorlig kör båda grenarna och kasserar den ej valda.
+  - Parallell duplicerar sin indata i förväg medan villkorlig duplicerar sin utdata efteråt, vilket byter var kopieringen sker.
+explanation: >-
+  Dualiteten är ett produkt/summa-utbyte där den delade typen byter
+  sida: parallell sammansättning ger båda operationerna samma indatatyp
+  och parar ihop deras utdata till en produkt, medan villkorlig sammansättning
+  tar emot en summa (taggad union) av de två indatatyperna och båda grenarna
+  måste ge samma utdatatyp. Samtidighet är irrelevant — artikeln
+  betonar att parallell sammansättning kan implementeras sekventiellt — och
+  villkorlig sammansättning exekverar exakt en gren, vald av taggen,
+  istället för att köra båda och kassera en.
+reviewed: false

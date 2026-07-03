@@ -1,0 +1,16 @@
+question: Jet half-agg-verify zaznamenáva množinu n-tíc ako efekt Writer. Čo v teste komutatívnosti/idempotentnosti/unitárnosti dosahuje návrh s množinou a čo stále chýba?
+answer: "Komutatívny a idempotentný (ako Simplicity vyžaduje), ale nie unitárny: zahodenie volania by zahodilo jeho n-ticu a preskočilo podpis."
+wrong_answers:
+  - Idempotentný a unitárny, ale nie komutatívny, keďže agregát musí kombinovať r-zložky v poradí podpisovania.
+  - Všetky tri, takže optimalizátor môže volania voľne duplikovať, preusporiadať alebo zahodiť bez rizika.
+  - Komutatívny, ale nie idempotentný, keďže zaznamenanie tej istej n-tice dvakrát by vyžadovalo dve agregátne s-zložky.
+explanation: >-
+  Zaobchádzanie so záznamom writer ako s množinou robí efekt idempotentným a
+  komutatívnym, pretože samotné vloženie do množiny má obe tieto vlastnosti
+  — presne to, čo Simplicity vyžaduje od každého efektu. Unitárnosť je stále
+  mimo dosahu: podobne ako Failure, zápis ovplyvňuje platnosť transakcie,
+  keďže transakcia je platná iba vtedy, keď agregátna s-zložka pokrýva každú
+  zaznamenanú n-ticu. Výraz vykonávajúci zápis preto nemožno zahodiť len
+  preto, že jeho unit výstup je nevyužitý, pretože jeho n-tica by potichu
+  zmizla z overenia polovičnej agregácie.
+reviewed: false

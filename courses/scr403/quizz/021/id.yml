@@ -1,0 +1,13 @@
+question: "Mengapa efek Failure bersifat komutatif dalam Simplicity, meskipun exception pada umumnya tidak komutatif?"
+answer: Karena tipe exception adalah unit (1) yang hanya memiliki satu nilai, sehingga urutan pelemparannya tidak berpengaruh.
+wrong_answers:
+  - Karena Simplicity mengeksekusi semua ekspresi dalam urutan deterministik yang ditentukan oleh pohon kombinator.
+  - Karena efek Failure selalu ditangkap lalu dilempar ulang oleh kombinator case.
+  - Karena Simplicity menggunakan verifikasi batch, yang membuat semua exception yang dilempar setara.
+explanation: >-
+  Secara umum, exception tidak komutatif karena ekspresi yang berbeda bisa melempar nilai exception
+  yang berbeda pula. Namun, Simplicity membatasi exception pada tipe unit (hanya satu nilai
+  yang mungkin), sehingga menukar urutan dua ekspresi yang berpotensi gagal menghasilkan exception
+  yang sama terlepas dari mana yang sebenarnya gagal. Sifat komutatif ini memungkinkan optimisasi
+  program yang penting.
+reviewed: true

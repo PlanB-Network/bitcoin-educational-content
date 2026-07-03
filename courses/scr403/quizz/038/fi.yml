@@ -1,0 +1,17 @@
+question: half-agg-verify-jetti kirjaa monikkojen joukon Writer-sivuvaikutuksena. Mitä joukkoon perustuva ratkaisu saavuttaa kommutatiivisuus/idempotenssi/unitaarisuus-testissä, ja mitä vielä puuttuu?
+answer: "Kommutatiivinen ja idempotentti (kuten Simplicity vaatii), mutta ei unitaarinen: kutsun hylkääminen pudottaisi sen monikon ja ohittaisi allekirjoituksen."
+wrong_answers:
+  - Idempotentti ja unitaarinen, mutta ei kommutatiivinen, koska aggregaatin on yhdistettävä r-komponentit allekirjoitusjärjestyksessä.
+  - Kaikki kolme, joten optimoija voi vapaasti monistaa, järjestää uudelleen tai hylätä kutsut ilman riskiä.
+  - Kommutatiivinen mutta ei idempotentti, koska saman monikon kirjaaminen kahdesti vaatisi kaksi aggregaatin s-komponenttia.
+explanation: >-
+  Writer-lokin käsitteleminen joukkona tekee sivuvaikutuksesta idempotentin ja
+  kommutatiivisen, koska joukkoon lisääminen itsessään omaa molemmat
+  ominaisuudet — täsmälleen ne kaksi, joita Simplicity vaatii jokaiselta
+  sivuvaikutukselta. Unitaarisuus on yhä saavuttamattomissa: kuten Failure,
+  kirjoitus vaikuttaa transaktion kelvollisuuteen, sillä transaktio on
+  kelvollinen vain, kun jokin aggregaatin s-komponentti kattaa jokaisen
+  kirjatun monikon. Kirjoituksen suorittavaa lauseketta ei siksi voi hylätä
+  pelkästään siksi, että sen yksikkötuloste on käyttämätön, sillä sen monikko
+  katoaisi hiljaa puoliaggregoinnin varmennuksesta.
+reviewed: false

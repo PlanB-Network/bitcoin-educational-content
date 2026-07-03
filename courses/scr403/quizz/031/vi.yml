@@ -1,0 +1,13 @@
+question: Kiểu của pair (drop iden) (take iden) là gì, và nó biểu thị hàm nào?
+answer: A × B ⊢ B × A — nó hoán đổi hai thành phần của một cặp.
+wrong_answers:
+  - A × B ⊢ A × B — nó truyền cả hai thành phần qua mà không thay đổi (identity).
+  - "Sai kiểu: take iden và drop iden có kiểu đầu ra khác nhau, điều mà pair không thể gộp."
+  - (A × B) × (A × B) ⊢ B × A — pair gộp các kiểu đầu vào của hai biểu thức con.
+explanation: >-
+  drop iden : A × B ⊢ B trích xuất thành phần thứ hai và take iden : A ×
+  B ⊢ A trích xuất thành phần thứ nhất. Combinator pair chỉ yêu cầu hai
+  biểu thức con của nó có cùng kiểu đầu vào (ở đây là A × B); đầu ra của
+  chúng có thể khác nhau, và được trả về dưới dạng một cặp. Trên đầu vào
+  ⟨a, b⟩, biểu thức vì vậy cho ra ⟨b, a⟩: hàm hoán đổi, có kiểu A × B ⊢ B × A.
+reviewed: false

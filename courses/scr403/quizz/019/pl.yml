@@ -1,0 +1,14 @@
+question: Czym jest SimplicityHL i dlaczego jest potrzebny?
+answer: Językiem wyższego poziomu kompilowanym do Simplicity, który zarządza nazewnictwem i zakresem.
+wrong_answers:
+  - Językiem opisu sprzętu do kopania układów ASIC, które uruchamiają Simplicity.
+  - Graficznym środowiskiem IDE typu „przeciągnij i upuść” do łączenia kombinatorów Simplicity.
+  - Frameworkiem testowym do uruchamiania programów Simplicity w bezpiecznej piaskownicy.
+explanation: >-
+  Surowy Simplicity staje się nieczytelny przy produkcyjnych poziomach złożoności, ponieważ
+  cały dostęp do danych musi odbywać się poprzez zagnieżdżone kombinatory take/drop. SimplicityHL
+  zapewnia znajome konstrukcje programistyczne — nazwane zmienne, zakresy, importy
+  bibliotek i przepływ sterowania — które kompilują się do wyrażeń kombinatorów
+  Simplicity. Użytkownicy końcowi piszą w SimplicityHL, podczas gdy Simplicity służy jako
+  formalnie zweryfikowany cel kompilacji.
+reviewed: false

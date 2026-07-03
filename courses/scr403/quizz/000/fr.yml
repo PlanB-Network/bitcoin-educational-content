@@ -1,0 +1,12 @@
+question: Pourquoi Simplicity exclut-elle l'allocation dynamique de mémoire pendant l'exécution ?
+answer: Pour permettre l'analyse statique et exclure des classes entières de bugs et d'attaques.
+wrong_answers:
+  - Parce que le Liquid Network ne prend pas en charge les opérations mémoire de bas niveau.
+  - Pour réduire la courbe d'apprentissage de la programmation pour les nouveaux développeurs de smart contracts.
+  - Parce que Bitcoin Script lui-même ne dispose pas non plus d'allocation dynamique de mémoire.
+explanation: >-
+  Simplicity évite l'allocation dynamique de mémoire afin que toute l'utilisation
+  des ressources puisse être déterminée statiquement avant l'exécution. Cela permet
+  des limites de ressources prévisibles et élimine les vulnérabilités liées à la
+  gestion de la mémoire, ce qui est essentiel dans un contexte de validation blockchain.
+reviewed: false

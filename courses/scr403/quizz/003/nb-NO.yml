@@ -1,0 +1,12 @@
+question: Hva er en sumtype (A + B) i Simplicity?
+answer: "En merket union: en verdi er enten en venstre-merket A eller en høyre-merket B."
+wrong_answers:
+  - En type som inneholder alle verdier fra både A og B samtidig.
+  - En aritmetisk addisjon av bit-størrelsene til de to komponenttypene.
+  - En funksjonstype som mapper hver inndata fra A til en utdata i B.
+explanation: >-
+  En sumtype A + B er en merket union. Hver verdi bærer en ett-bits merking
+  som angir om det er en venstre-variant (av type A) eller en høyre-variant
+  (av type B). Selv når A og B er samme type, forblir venstre-merkede og
+  høyre-merkede verdier distinkte.
+reviewed: false

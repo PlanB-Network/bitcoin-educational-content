@@ -1,0 +1,15 @@
+question: Date le regole di tipizzazione 'tipi più piccoli nelle premesse', quali combinatori core spostano effettivamente dati durante l'esecuzione?
+answer: Solo iden e comp; gli altri sette sono implementati con nient'altro che contabilità (bookkeeping).
+wrong_answers:
+  - Solo take e drop; estrarre una componente costringe la macchina a copiarla fuori dal prodotto.
+  - Solo pair e case; duplicare l'input per due rami e smistare in base a un tag spostano dati.
+  - Solo injl e injr; aggiungere un tag riscrive il valore in una rappresentazione di tipo somma più grande.
+explanation: >-
+  Controintuitivamente, i combinatori che sembrano accedere ai dati (take,
+  drop, pair, case, injl, injr) non richiedono alcuna copia: poiché le
+  premesse nelle regole di tipizzazione coinvolgono tipi più piccoli
+  rispetto alle loro conclusioni, la Bit Machine può implementarli con
+  la sola contabilità. Solo iden, che copia l'intero input nel suo
+  output, e comp, che materializza un valore intermedio passato da f a g,
+  spostano davvero dati.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mis on summatüüp (A + B) Simplicitys?
+answer: "Sildistatud ühend: väärtus on kas vasaku sildiga A või parema sildiga B."
+wrong_answers:
+  - Tüüp, mis sisaldab samaaegselt kõiki väärtusi nii A-st kui ka B-st.
+  - Kahe komponenttüübi bitisuuruste aritmeetiline liitmine.
+  - Funktsioonitüüp, mis kaardistab iga sisendi A-st väljundiks B-s.
+explanation: >-
+  Summatüüp A + B on sildistatud ühend. Iga väärtus kannab ühebitist silti, mis
+  näitab, kas tegemist on vasaku variandiga (tüübist A) või parema variandiga
+  (tüübist B). Isegi kui A ja B on sama tüüp, jäävad vasaku sildiga ja parema
+  sildiga väärtused eristatavaks.
+reviewed: false

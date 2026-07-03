@@ -1,0 +1,17 @@
+question: "Izračunavanje #ᶜ(comp f g) hešira 128 bajtova: comp tag dvaput, zatim oba dečja CMR-a. Zašto je to i dalje najviše jedan poziv SHA-256 kompresije?"
+answer: Prvi blok od 64 bajta je konstanta tag∥tag, čije se midstate jednom unapred izračunava; kompresuje se samo blok koji sadrži dečje CMR-ove.
+wrong_answers:
+  - Izostavljanje samo završnog bloka za dopunu dužine u SHA-256 omogućava da svih 128 bajtova stane u jedan poziv.
+  - Dva dečja CMR-a se XOR-uju u jedan 32-bajtni sažetak, smanjujući ulaz na jedan blok.
+  - SHA-256-midstate je varijanta sa širokim blokom koja apsorbuje 128-bajtne blokove poruke u jednom prolazu.
+explanation: >-
+  SHA-256 kompresiona funkcija obrađuje fiksne blokove od 64 bajta, pa
+  128-bajtni ulaz obično zahteva dva poziva (plus još jedan za dopunu
+  dužine u punom SHA-256). Pošto je prvi blok svakog kombinatora
+  konstanta tag∥tag, njegovo midstate se može jednom unapred izračunati
+  i keširati; svakom izrazu je onda potrebna samo jedna nova kompresija
+  bloka koji sadrži CMR-ove svoje dece. Midstate takođe izostavlja
+  završni blok dopune, ali bi to samo po sebi i dalje ostavilo dve
+  kompresije — unapred izračunato tag midstate je ono što ga svodi na
+  najviše jedan.
+reviewed: false

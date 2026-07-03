@@ -1,0 +1,9 @@
+question: Simplicity 中的存取記法（O、I、H）是如何運作的？
+answer: O 代表 'take'（左），I 代表 'drop'（右），而 H 代表 'iden'（整個值）。
+wrong_answers:
+  - O 代表輸出，I 代表輸入，而 H 代表停止程式的執行。
+  - 它們是編譯器自動指派給值的變數名稱。
+  - O 選取奇數索引的元素，I 選取偶數索引的元素，H 選取開頭元素。
+explanation: >-
+  O/I/H 這套簡寫提供了一種精簡的方式來巡覽巢狀配對。O f 就是 take f（取出左側），I f 就是 drop f（取出右側），而 H 則是 iden（整個值）。像 I O H 這樣的序列意指 drop(take(iden))，也就是取出第二個元素中的第一個元素。這類似於以二進位數字作為樹狀位置的 De Bruijn 索引。
+reviewed: false

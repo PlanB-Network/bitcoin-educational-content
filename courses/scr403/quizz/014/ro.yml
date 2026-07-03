@@ -1,0 +1,13 @@
+question: Ce este tipul unitate (𝟙) și de ce este util, în ciuda faptului că nu poartă nicio informație?
+answer: Conține o singură valoare (tuplul gol) și este baza pentru toate celelalte tipuri.
+wrong_answers:
+  - Reprezintă numărul 1 și este folosit direct pentru operații aritmetice.
+  - Este un tip special de depanare care înregistrează urme de execuție într-un fișier.
+  - Stochează exact un singur bit de date, folosit pentru operații booleene.
+explanation: >-
+  Tipul unitate 𝟙 are exact o singură valoare — tuplul gol ⟨⟩. Deși nu
+  poartă niciun bit de informație, este esențial ca sămânță din care
+  tipurile sumă și produs construiesc toate tipurile de date utile. De
+  exemplu, tipul boolean 𝟚 este 𝟙 + 𝟙, construit în întregime din tipuri
+  unitate.
+reviewed: false

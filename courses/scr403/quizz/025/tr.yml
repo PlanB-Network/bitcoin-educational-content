@@ -1,0 +1,13 @@
+question: "Simplicity'de Commitment Merkle Root (CMR) nedir?"
+answer: Etiketli SHA-256 ile bir Simplicity programının yapısına taahhüt eden 256-bit hash.
+wrong_answers:
+  - Bir Simplicity programının tüm olası yürütme yollarını içeren ikili ağaç.
+  - Adres doğrulaması için kullanılan program türlerinin ve tanık değerlerinin hash'i.
+  - Programın erişmeye yetkili olduğu işlem verilerinin Merkle kökü.
+explanation: >-
+  Her Simplicity kombinatörünün benzersiz bir SHA-256 etiketi vardır (ör. Simplicity␟Commitment␟iden)
+  ve CMR, programın kombinatör ağacının bu etiketli midstate'ler kullanılarak özyinelemeli
+  biçimde hashlenmesiyle hesaplanır. Önemli olarak CMR, ifadelerin türlerine taahhüt etmez;
+  harcama sırasında tür çıkarımına dayanır. CMR'ler, programları Taproot adreslerine taahhüt
+  etmek için kullanılır.
+reviewed: true

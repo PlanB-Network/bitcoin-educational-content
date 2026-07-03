@@ -1,0 +1,18 @@
+question: Uma saída Simplicity usa o ponto NUMS fixo do BIP-0341 como sua chave interna. Por que o gasto por chave (key-spend) é comprovadamente impossível, e o que a randomização do ponto NUMS acrescenta?
+answer: Ninguém conhece o logaritmo discreto do ponto NUMS, então nenhuma assinatura por caminho de chave pode existir; a randomização só acrescenta privacidade.
+wrong_answers:
+  - O ponto NUMS está fora da curva, então assinaturas por caminho de chave falham; a randomização o traz de volta para a curva.
+  - A chave privada do ponto NUMS é zero, o que o consenso rejeita; a randomização protege o tweak contra canais laterais.
+  - Aplicar tweak a um ponto NUMS produz uma chave fora do intervalo, tornando o key-spend não padrão; a randomização evita reutilização de endereços.
+explanation: >-
+  Um ponto NUMS ('Nothing-Up-My-Sleeve') é um ponto de curva perfeitamente
+  válido construído de forma que ninguém conheça uma chave privada
+  correspondente — seu logaritmo discreto é desconhecido. Como um gasto
+  por caminho de chave exige uma assinatura Schnorr sob a chave interna, e
+  nenhuma assinatura desse tipo pode ser produzida sem a chave privada, o
+  caminho de key-spend é comprovadamente inutilizável e os fundos só
+  podem se mover pelo caminho de script comprometido. Randomizar o ponto
+  NUMS não muda nada disso; apenas esconde o fato de que o key-spend está
+  desabilitado, de modo que a saída se pareça com qualquer outra saída
+  Taproot — um benefício de privacidade.
+reviewed: false

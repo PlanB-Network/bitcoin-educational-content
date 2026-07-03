@@ -1,0 +1,12 @@
+question: Simplicityでは論理AND操作はどのように機能しますか？
+answer: 最初のビットで分岐し、falseならfalseを返し、そうでなければ2番目のビットを返します。
+wrong_answers:
+  - 積型を使って2つのboolean値を掛け合わせます。
+  - 4通りすべての入力組み合わせを持つルックアップテーブルを使います。
+  - XORコンビネータを適用し、その結果にNOTコンビネータを適用します。
+explanation: >-
+  ANDはcase (injl unit) (drop iden)として定義される。caseコンビネータは
+  最初のビットで分岐する。それがfalse（左タグ付き）なら、injl unitは
+  2番目のビットにかかわらずfalseを返す。それがtrue（右タグ付き）なら、
+  drop idenは2番目のビットを変更せずに返す。これはAND真理値表と一致する。
+reviewed: false

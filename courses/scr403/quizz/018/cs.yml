@@ -1,0 +1,13 @@
+question: Jak jsou v typovém systému Simplicity reprezentovány buffery s proměnnou délkou?
+answer: Jako vnořené součiny typu option, kde každá vrstva označuje blok o velikosti mocniny dvojky.
+wrong_answers:
+  - Pomocí speciálního typu dynamického pole vestavěného přímo do jazyka.
+  - Prostřednictvím rekurzivních součtových typů, které se zvětšují při každém volání funkce.
+  - Jako vektory pevné velikosti doplněné koncovými nulovými hodnotami.
+explanation: >-
+  Buffery používají vnořené typy option. Například Xᑉ⁸ se rozvíjí na
+  (1 + X⁴) × ((1 + X²) × (1 + X)), což jako polynom dává
+  1 + X + X² + ... + X⁷ — reprezentující kolekce o 0 až 7 prvcích.
+  Každá vrstva option udává, zda je přítomen blok o velikosti mocniny
+  dvojky, čímž se délka efektivně kóduje binárně.
+reviewed: false

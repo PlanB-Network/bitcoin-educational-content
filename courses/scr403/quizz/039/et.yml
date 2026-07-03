@@ -1,0 +1,16 @@
+question: Simplicity väljund kasutab oma sisemise võtmena fikseeritud BIP-0341 NUMS-punkti. Miks on võtmetee kulutus tõestatavalt võimatu ja mida lisab NUMS-punkti randomiseerimine?
+answer: Keegi ei tea NUMS-punkti diskreetset logaritmi, seega ei saa võtmetee allkirja olemas olla; randomiseerimine lisab ainult privaatsust.
+wrong_answers:
+  - NUMS-punkt asub kõverast väljas, mistõttu võtmetee allkirjad ebaõnnestuvad; randomiseerimine toob selle kõverale tagasi.
+  - NUMS-punkti privaatvõti on null, mille konsensus tagasi lükkab; randomiseerimine kaitseb tweak'i kõrvalkanalite eest.
+  - NUMS-punkti tweak'imine annab vahemikust väljas võtme, muutes võtmekulutuse mittestandardseks; randomiseerimine väldib aadressi taaskasutust.
+explanation: >-
+  NUMS-punkt ('Nothing-Up-My-Sleeve') on täiesti kehtiv kõverapunkt, mis on
+  konstrueeritud nii, et keegi ei tea vastavat privaatvõtit — selle diskreetne
+  logaritm on teadmata. Kuna võtmetee kulutus nõuab sisemise võtme all
+  Schnorr'i allkirja ja sellist allkirja ei saa privaatvõtmeta toota, on
+  võtmekulutuse tee tõestatavalt kasutamatu ning vahendid saavad liikuda ainult
+  seotud skriptitee kaudu. NUMS-punkti randomiseerimine ei muuda sellest midagi;
+  see pelgalt peidab fakti, et võtmekulutus on keelatud, nii et väljund näeb
+  välja nagu iga teine Taprooti väljund — privaatsuse kasu.
+reviewed: false

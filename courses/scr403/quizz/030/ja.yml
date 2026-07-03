@@ -1,0 +1,15 @@
+question: "どのコアコンビネータ式が分配関数 dist : (A + B) × C ⊢ A × C + B × C を実装しますか？"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case の各分岐内では、環境はすでにタグを外された値とペアになっているため、
+  f = injl iden と g = injr iden によって ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ および ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ が得られます。これはまさに dist です。
+  take/drop 版は型検査には通りますが、ペア構造を捨ててしまい、型 (A +
+  B) × C ⊢ A + C の関数を表します。pair は和ではなく積を生成し、
+  copair はそもそも Simplicity のコンビネータではありません。dist は、まさに
+  copair だけでは表現できないものです。
+reviewed: false

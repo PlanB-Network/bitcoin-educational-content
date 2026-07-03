@@ -1,0 +1,17 @@
+question: Wyjście Simplicity używa ustalonego punktu NUMS z BIP-0341 jako swojego klucza wewnętrznego. Dlaczego wydatek ścieżką klucza jest dowodliwie niemożliwy i co dodaje randomizacja punktu NUMS?
+answer: Nikt nie zna logarytmu dyskretnego punktu NUMS, więc żaden podpis ścieżką klucza nie może istnieć; randomizacja dodaje jedynie prywatność.
+wrong_answers:
+  - Punkt NUMS leży poza krzywą, więc podpisy ścieżką klucza zawodzą; randomizacja przywraca go na krzywą.
+  - Klucz prywatny punktu NUMS wynosi zero, co konsensus odrzuca; randomizacja chroni tweak przed kanałami bocznymi.
+  - Tweakowanie punktu NUMS daje klucz spoza zakresu, czyniąc wydatek ścieżką klucza niestandardowym; randomizacja pozwala uniknąć ponownego użycia adresu.
+explanation: >-
+  Punkt NUMS ('Nothing-Up-My-Sleeve') to całkowicie prawidłowy punkt krzywej,
+  skonstruowany tak, aby nikt nie znał odpowiadającego mu klucza prywatnego —
+  jego logarytm dyskretny jest nieznany. Ponieważ wydatek ścieżką klucza
+  wymaga podpisu Schnorra pod kluczem wewnętrznym, a bez klucza prywatnego
+  żaden taki podpis nie może zostać wytworzony, ścieżka klucza jest dowodliwie
+  nieużywalna, a środki mogą przemieszczać się wyłącznie przez zatwierdzoną
+  ścieżkę skryptu. Randomizacja punktu NUMS niczego z tego nie zmienia; jedynie
+  ukrywa fakt, że wydatek ścieżką klucza jest wyłączony, dzięki czemu wyjście
+  wygląda jak każde inne wyjście Taproot — korzyść dla prywatności.
+reviewed: false

@@ -1,0 +1,15 @@
+question: "Vilket core-kombinatoruttryck implementerar distributionsfunktionen dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Inuti varje gren av case är miljön redan parad med det otaggade värdet,
+  så f = injl iden och g = injr iden ger ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩ och ⟨σᴿ(b),
+  c⟩ ↦ σᴿ⟨b, c⟩ — precis dist. Varianten med take/drop typkontrolleras men
+  kastar bort pareringen, och betecknar istället en funktion av typen (A +
+  B) × C ⊢ A + C. pair producerar en produkt snarare än en summa, och
+  copair är inte alls en Simplicity-kombinator — dist är precis vad copair
+  ensam inte kan uttrycka.
+reviewed: false

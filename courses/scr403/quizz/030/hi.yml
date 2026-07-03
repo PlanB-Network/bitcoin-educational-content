@@ -1,0 +1,15 @@
+question: "कौन-सा core-combinator expression distribution function dist : (A + B) × C ⊢ A × C + B × C को लागू करता है?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case की प्रत्येक branch के भीतर environment पहले से untagged value के साथ
+  paired होता है, इसलिए f = injl iden और g = injr iden ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ और ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ देते हैं — ठीक dist. take/drop वाला variant
+  type-check होता है, लेकिन pairing को discard कर देता है, और इसके बजाय type (A +
+  B) × C ⊢ A + C के function को दर्शाता है। pair sum के बजाय product बनाता है, और
+  copair कोई Simplicity combinator बिल्कुल नहीं है — dist ठीक वही है जिसे
+  copair अकेला व्यक्त नहीं कर सकता।
+reviewed: false

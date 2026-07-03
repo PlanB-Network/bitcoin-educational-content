@@ -1,0 +1,12 @@
+question: Ce calculează un semi-sumator (half-adder)?
+answer: Transportul (AND) și suma (XOR) a doi biți de intrare.
+wrong_answers:
+  - Suma a doi întregi pe mai mulți biți, cu propagarea transportului.
+  - Media a doi biți, rotunjită în jos.
+  - OR-ul și AND-ul pe biți a doi biți de intrare.
+explanation: >-
+  Un semi-sumator ia doi biți individuali și produce două ieșiri folosind
+  compoziția paralelă: bitul de transport (AND-ul intrărilor) și bitul de
+  sumă (XOR-ul intrărilor). În Simplicity, este definit ca and ▵ xor,
+  rulând ambele operații pe aceeași pereche de intrare.
+reviewed: false

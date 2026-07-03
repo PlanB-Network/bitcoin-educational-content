@@ -1,0 +1,15 @@
+question: Simplicity 的效应是可交换且幂等的，但不是幺元的。因此，一般必须拒绝哪种优化器变换？
+answer: 用 unit 替换一个看似无效的表达式 —— Failure 不是幺元的，所以它可能隐藏一个必须中止的失败检查。
+wrong_answers:
+  - 交换两个独立子表达式，因为 sig-all-hash 可能观察到不同的环境状态。
+  - 合并两个相同的 verify 调用，因为重复的 Failure 会抛出两次并错误地中止。
+  - 重排可能抛出的表达式，因为传播的异常取决于哪一侧先运行。
+explanation: >-
+  因为 Simplicity 的效应保证可交换且幂等，
+  所以交换独立子表达式以及复制或合并相同子表达式总是安全的；Reader 环境是固定的，
+  而 Failure 的 unit-typed exception 无论哪一侧先抛出、
+  抛出多少次，都是同一个异常。不过，丢弃变换 `f ⨾ unit = unit`
+  需要幺元性，而 Failure 不具备：如果 `f` 包含一个针对无效签名的
+  `bip0340-verify`，消除这段“dead”代码就会优化掉中止，
+  并验证一笔本应失败的交易。
+reviewed: false

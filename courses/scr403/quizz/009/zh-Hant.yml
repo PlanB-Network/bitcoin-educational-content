@@ -1,0 +1,9 @@
+question: 半加器計算什麼？
+answer: 兩個輸入位元的進位（AND）與和（XOR）。
+wrong_answers:
+  - 兩個多位元整數帶進位傳遞的加總。
+  - 兩個位元向下取整的平均值。
+  - 兩個輸入位元的位元 OR 與 AND。
+explanation: >-
+  半加器取兩個單一位元，並使用平行組合產生兩個輸出：進位位元（輸入的 AND）與和位元（輸入的 XOR）。在 Simplicity 中它定義為 and ▵ xor，對同一個輸入配對同時執行兩個運算。
+reviewed: false

@@ -1,0 +1,15 @@
+question: "计算 #ᶜ(comp f g) 会哈希 128 字节：comp 标签两次，然后是两个子 CMR。为什么这仍然最多只需要一次 SHA-256 compression 调用？"
+answer: 第一个 64-byte 区块是常量 tag∥tag，其 midstate 会预先计算一次；只有包含子 CMR 的区块会被压缩。
+wrong_answers:
+  - 仅仅去掉 SHA-256 的最终长度填充区块，就能让整个 128 字节放进一次调用。
+  - 两个子 CMR 被 XOR 成一个 32-byte 摘要，从而把输入缩小到单个区块。
+  - SHA-256-midstate 是一种宽区块变体，能一次吸收 128-byte 消息区块。
+explanation: >-
+  SHA-256 的 compression function 处理固定的 64-byte 区块，因此一个
+  128-byte 输入通常需要两次调用（在完整 SHA-256 中还要再加一次长度
+  填充）。因为每个组合子的第一个区块都是常量 tag∥tag，
+  它的 midstate 可以预先计算一次并缓存；于是每个表达式之后只需要对
+  包含其子 CMR 的区块做一次新的压缩。Midstates 也会去掉最终填充区块，
+  但仅这一点仍会留下两次压缩 —— 预先计算的 tag
+  midstate 才是把它降到最多一次的原因。
+reviewed: false

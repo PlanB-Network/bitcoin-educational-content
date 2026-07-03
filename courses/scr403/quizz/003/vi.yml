@@ -1,0 +1,11 @@
+question: Combinator 'take' làm gì?
+answer: Nó trích xuất thành phần bên trái của một kiểu tích, bỏ qua thành phần bên phải.
+wrong_answers:
+  - Nó loại bỏ một phần tử khỏi một kiểu tổng, bỏ qua bit tag.
+  - Nó hợp thành tuần tự hai thao tác riêng biệt từ đầu đến cuối.
+  - Nó bọc một giá trị bằng tag trái để xây dựng một kiểu tổng mới.
+explanation: >-
+  Combinator take là một bộ trích xuất cho các kiểu tích. Khi take f
+  được áp dụng cho một cặp ⟨a, b⟩, nó bỏ qua b và áp dụng f cho a. Kết hợp
+  với iden, take iden trích xuất phần tử đầu tiên của bất kỳ cặp nào.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Qual é a relação entre a Simplicity e o cálculo de sequentes de Gentzen?
+answer: Os seus nove combinadores refletem o fragmento conjuntivo-disjuntivo do cálculo de sequentes.
+wrong_answers:
+  - A Simplicity foi diretamente traduzida a partir de provas do cálculo de sequentes para código funcional.
+  - O cálculo de sequentes de Gentzen é usado em tempo de execução para verificar os tipos dos programas Simplicity.
+  - Não têm qualquer relação, e a semelhança superficial é puramente coincidência.
+explanation: >-
+  As nove regras nucleares da Simplicity assemelham-se muito às regras do
+  cálculo de sequentes de Gentzen, de forma análoga à correspondência de
+  Curry-Howard entre o cálculo lambda e a dedução natural. Esta ligação
+  assegura que os tipos nas premissas são mais pequenos do que nas conclusões,
+  o que a Bit Machine explora para uma execução eficiente com cópia mínima de dados.
+reviewed: false

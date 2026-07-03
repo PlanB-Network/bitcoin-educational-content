@@ -1,0 +1,16 @@
+question: Simplicity හි effects commutative සහ idempotent නමුත් unitary නොවේ. එබැවින් සාමාන්‍යයෙන් ප්‍රතික්ෂේප කළ යුතු optimizer transformation එක කුමක්ද?
+answer: seemingly-dead expression එකක් unit එකෙන් replace කිරීම — Failure unitary නොවන නිසා, එය abort විය යුතු failing check එකක් සඟවා දැමිය හැක.
+wrong_answers:
+  - independent subexpressions දෙකක් swap කිරීම, sig-all-hash එකකට වෙනස් environment state එකක් observe කළ හැකි නිසා.
+  - identical verify calls දෙකක් merge කිරීම, duplicated Failure එකක් දෙවරක් throw කර වැරදි ලෙස abort කරන නිසා.
+  - throw විය හැකි expressions reorder කිරීම, propagated exception එක මුලින් run වන side එක මත රඳා පවතින නිසා.
+explanation: >-
+  Simplicity හි effects commutative සහ idempotent බව guarantee කර ඇති නිසා,
+  independent subexpressions swap කිරීම සහ identical ඒවා duplicate හෝ merge කිරීම
+  සෑම විටම safe ය; Reader environment එක fixed වන අතර, Failure හි
+  unit-typed exception එක කුමන side එක මුලින් throw කළද හෝ කී වතාවක් වුවද identical ය.
+  එහෙත් discard transformation `f ⨾ unit = unit` සඳහා
+  unitarity අවශ්‍ය වන අතර, Failure ට එය නැත: `f` තුළ invalid signature එකක් මත
+  `bip0340-verify` එකක් තිබේ නම්, 'dead' code ඉවත් කිරීම abort එක optimize away කර,
+  fail විය යුතු transaction එකක් validate කරනු ඇත.
+reviewed: false

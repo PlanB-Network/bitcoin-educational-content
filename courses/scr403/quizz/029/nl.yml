@@ -1,0 +1,16 @@
+question: Simplicity sluit onbegrensde recursie uit. Wat is het beoogde alternatief voor onbegrensde iteratie?
+answer: Recursieve covenants die de berekening over meerdere transacties verspreiden, zodat de kosten van elke transactie voorspelbaar blijven.
+wrong_answers:
+  - De delegatiefunctie, speciaal gebouwd om een gemeten vorm van onbegrensde recursie binnen één transactie te bieden.
+  - De negen kerncombinators, waarvan de volledigheid het mogelijk maakt om via een fixed-point-constructie elke recursieve functie te coderen.
+  - Loop-unrolling tijdens compilatie, waarbij statische analyse het maximale aantal iteraties afleidt en de body dupliceert.
+explanation: >-
+  De these van het artikel is dat onbegrensde iteratie beter geïmplementeerd
+  wordt als recursieve covenants die over meerdere transacties heen rekenen,
+  wat blockruimte- en standaardness-beperkingen vermijdt en transactiekosten
+  voorspelbaar maakt. Delegatie kan alleen worden misbruikt om iets te
+  bereiken dat lijkt op onbegrensde recursie — het is niet het beoogde
+  mechanisme — en de negen kerncombinators zijn alleen compleet voor
+  eindige berekeningen, dus bestaat er binnen één enkel programma geen
+  fixed-point-constructie.
+reviewed: false

@@ -1,0 +1,16 @@
+question: Effects za Simplicity ni commutative kandi idempotent ariko si unitary. Ni iyihe transformation ya optimizer itegerezwa rero kwankwa muri rusangi?
+answer: Gusubiriza imvugo isa n'iyapfuye na unit — Failure si unitary, rero vyoshobora guhisha isuzuma ryananiwe ritegerezwa guhagarika.
+wrong_answers:
+  - Guhinduranya imvugo zibiri nto zitigenga, kuko sig-all-hash yoshobora kubona environment state itandukanye.
+  - Gufatanya verify calls zibiri zisa, kuko Failure yasubiwemwo yotera exception kabiri kandi igahagarika nabi.
+  - Gusubira gutondeka imvugo zishobora gutera exception, kuko exception ikwiragizwa ivana n'uruhande rukora ubwa mbere.
+explanation: >-
+  Kubera ko effects za Simplicity zemejwe kuba commutative na idempotent,
+  guhinduranya imvugo nto zitigenga no gusubiramwo canke gufatanya
+  izisa birama bitekanye; environment ya Reader ntihinduka, kandi exception
+  ya Failure ifise ubwoko bwa unit irasa uko uruhande rwose rwotera ubwa mbere
+  canke incuro zose rwoterwa. Ariko transformation yo guta `f ⨾ unit = unit`
+  isaba unitarity, ico Failure idafise: iyo `f` irimwo `bip0340-verify`
+  ku mukono utemewe, gukuraho code 'dead' vyoca bikuraho abort kandi bikemeza
+  transaction yari ikwiye kunanirwa.
+reviewed: false

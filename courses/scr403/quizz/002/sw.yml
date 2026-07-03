@@ -1,0 +1,12 @@
+question: Utungaji wa mfuatano huzalisha nini unapounganisha operesheni f (A → B) na operesheni g (B → C)?
+answer: Operesheni moja composite kutoka A hadi C, ambapo matokeo ya f huingia kwenye g.
+wrong_answers:
+  - Thamani ya jozi iliyo na matokeo yote mawili ya kati ya aina B na C.
+  - Sharti linalochagua kati ya f na g kulingana na ingizo.
+  - Operesheni mbili tofauti zinazoendeshwa kwa kujitegemea, bila kushiriki data.
+explanation: >-
+  Utungaji wa mfuatano huunganisha operesheni mbili kutoka mwanzo hadi
+  mwisho. Matokeo ya operesheni ya kwanza huwa ingizo la operesheni ya
+  pili. Katika Simplicity, hili huonyeshwa kwa combinator ya comp: comp f g
+  hutumia f kwanza, kisha hutumia g kwa matokeo.
+reviewed: false

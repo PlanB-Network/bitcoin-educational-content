@@ -1,0 +1,14 @@
+question: Với các quy tắc typing “các kiểu nhỏ hơn trong tiền đề”, những combinator lõi nào thực sự di chuyển dữ liệu trong khi thực thi?
+answer: Chỉ iden và comp; bảy combinator còn lại được triển khai chỉ bằng bookkeeping.
+wrong_answers:
+  - Chỉ take và drop; trích xuất một thành phần buộc máy phải sao chép nó ra khỏi tích.
+  - Chỉ pair và case; nhân đôi đầu vào cho hai nhánh và dispatch theo tag sẽ xáo trộn dữ liệu.
+  - Chỉ injl và injr; thêm tag sẽ viết lại giá trị thành một biểu diễn kiểu tổng lớn hơn.
+explanation: >-
+  Ngược trực giác, các combinator trông giống truy cập dữ liệu (take,
+  drop, pair, case, injl, injr) không cần sao chép: vì các tiền đề trong
+  quy tắc typing liên quan đến các kiểu nhỏ hơn kết luận của chúng, Bit
+  Machine có thể triển khai chúng chỉ bằng bookkeeping. Chỉ iden, vốn sao
+  chép toàn bộ đầu vào sang đầu ra, và comp, vốn hiện thực hóa một giá trị
+  trung gian được truyền từ f sang g, mới thực sự di chuyển dữ liệu.
+reviewed: false

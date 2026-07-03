@@ -1,0 +1,14 @@
+question: Mengapa Simplicity menggunakan analisis statis, bukan model gas dinamis seperti Ethereum?
+answer: Untuk menentukan batas sumber daya sebelum eksekusi dimulai, memberikan biaya yang dapat diprediksi.
+wrong_answers:
+  - Karena analisis statis jauh lebih mudah diimplementasikan oleh para pengembang.
+  - Karena model gas milik Ethereum dipatenkan sehingga tidak tersedia.
+  - Karena program Simplicity terlalu pendek untuk benar-benar membutuhkan pengukuran.
+explanation: >-
+  Analisis statis pada Simplicity memungkinkan jaringan untuk mengetahui
+  secara pasti berapa banyak komputasi yang dibutuhkan sebuah program
+  sebelum program itu dijalankan. Hal ini menghilangkan ketidakpastian
+  dari pengukuran dinamis, mencegah denial-of-service melalui penghabisan
+  sumber daya, dan memungkinkan node menolak program yang melebihi batas
+  tanpa membuang komputasi.
+reviewed: false

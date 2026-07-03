@@ -1,0 +1,16 @@
+question: Ved bruk beskjæres en case-gren bort. Hvordan kan verifikatoren fortsatt matche det avslørte programmet mot den forpliktede CMR-en?
+answer: CMR-en er en Merkle-rot, så den som bruker utdataen leverer bare den beskjårne grenens CMR, og verifikatoren folder den inn for å beregne roten på nytt.
+wrong_answers:
+  - Verifikatoren bruker bare den utførte grenen, siden ikke-utførte case-grener aldri var med i CMR-en.
+  - Beskjårne grener blir en kanonisk plassholder hvis faste CMR trer inn ved gjenberegning av roten.
+  - Den beskjårne grenens fullstendige kode forblir i vitnedataene, hvor verifikatoren hasher, men ikke utfører den.
+explanation: >-
+  CMR-en til case f g er en tagget hash over begge barnas CMR-er, så hver
+  gren — utført eller ikke — er forpliktet ved adressetidspunktet. Fordi
+  konstruksjonen er et Merkle-tre, kan en beskjåret gren oppsummeres med
+  bare sin 32-byte CMR: verifikatoren setter denne hashen inn i den
+  rekursive beregningen og sjekker at roten matcher UTXO-ens forpliktelse,
+  uten noensinne å se den beskjårne koden. Dette er nøyaktig hvorfor en
+  Merkle-rot brukes til forpliktelsen, og hvorfor eventuelle
+  vitneuttrykk inni den beskjårne grenen aldri vises på kjeden.
+reviewed: false

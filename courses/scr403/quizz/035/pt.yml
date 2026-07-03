@@ -1,0 +1,14 @@
+question: "Trace o full-adder em ⟨⟨1,1⟩,1⟩ (1+1+1). Que valor o estágio dois, O O H ▵ (O I H ▵ I H ⨾ half-adder), entrega ao estágio final?"
+answer: ⟨1, ⟨0, 1⟩⟩ — o carry do primeiro half-adder, depois o carry e a soma do segundo.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — o carry do primeiro half-adder, depois a soma e o carry do segundo.
+  - ⟨0, ⟨0, 1⟩⟩ — o bit de soma do primeiro half-adder, depois o carry e a soma do segundo.
+  - ⟨1, ⟨1, 1⟩⟩ — o carry do primeiro half-adder, depois os bits OR e XOR do segundo.
+explanation: >-
+  O estágio um calcula half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, soma 0) e
+  guarda o carry-in, dando ⟨⟨1,0⟩, 1⟩. No estágio dois, O O H extrai o
+  primeiro carry (1), enquanto O I H ▵ I H alimenta ⟨0, 1⟩ — a primeira
+  soma e o carry-in — no segundo half-adder, produzindo ⟨0, 1⟩ já que
+  and(0,1)=0 e xor(0,1)=1. O estágio final então faz OR dos dois carries e
+  mantém a soma, produzindo ⟨1, 1⟩: binário 3, como esperado.
+reviewed: false

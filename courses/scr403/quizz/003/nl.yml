@@ -1,0 +1,12 @@
+question: Wat is een somtype (A + B) in Simplicity?
+answer: "Een getagde unie: een waarde is ofwel een links-getagde A, ofwel een rechts-getagde B."
+wrong_answers:
+  - Een type dat alle waarden van zowel A als B tegelijk bevat.
+  - Een rekenkundige optelling van de bitgroottes van de twee componenttypes.
+  - Een functietype dat elke invoer van A afbeeldt op een uitvoer in B.
+explanation: >-
+  Een somtype A + B is een getagde unie. Elke waarde draagt een bit als tag,
+  die aangeeft of het een linkse variant (van type A) of een rechtse variant
+  (van type B) is. Zelfs wanneer A en B hetzelfde type zijn, blijven
+  links-getagde en rechts-getagde waarden onderscheiden.
+reviewed: false

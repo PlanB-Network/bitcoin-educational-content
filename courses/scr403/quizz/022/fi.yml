@@ -1,0 +1,12 @@
+question: "Miksi bip0340-verify käyttää Failure-efektiä sen sijaan, että palauttaisi totuusarvon (true/false)?"
+answer: Jotta Schnorr-allekirjoitusten eräverifiointi on mahdollista, jossa yksi epäonnistunut tarkistus kaataa koko erän.
+wrong_answers:
+  - Koska totuusarvotyypit ovat lohkotilan suhteen liian kalliita yksikkötyyppiin verrattuna.
+  - Koska Simplicityn tyyppijärjestelmä ei voi esittää jeteistä tulevia totuusarvopalautuksia.
+  - Koska pelkän totuusarvon palauttaminen rikkoisi suoraan täydellisyyslauseen.
+explanation: >-
+  Jos bip0340-verify palauttaisi totuusarvon, epäonnistunut allekirjoituksen tarkistus voisi silti johtaa haaraan, jossa
+  skripti onnistuu. Siinä tapauksessa verifioijan tulisi tietää, mikä tietty allekirjoitus
+  epäonnistui, mikä estäisi eräverifioinnin. Käyttämällä Failure-efektiä epäonnistunut tarkistus keskeyttää aina
+  koko laskennan, mahdollistaen tehokkaan eräverifioinnin, jossa monta allekirjoitusta niputetaan yhteen.
+reviewed: true

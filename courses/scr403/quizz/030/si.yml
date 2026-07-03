@@ -1,0 +1,15 @@
+question: "dist : (A + B) × C ⊢ A × C + B × C යන බෙදාහැරීමේ ශ්‍රිතය ක්‍රියාත්මක කරන්නේ කුමන core-combinator expression එකද?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case හි එක් එක් branch එක තුළ, environment එක දැනටමත් untagged value එක
+  සමඟ pair වී ඇති නිසා, f = injl iden සහ g = injr iden මඟින් ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ සහ ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ ලැබේ — එය හරියටම dist ය. take/drop variant
+  type-check වුවත් pairing එක ඉවත දමා, (A +
+  B) × C ⊢ A + C වර්ගයේ ශ්‍රිතයක් denoting කරයි. pair එක sum එකක් වෙනුවට product එකක් නිපදවයි, සහ
+  copair යනු Simplicity combinator එකක් කිසිසේත් නොවේ — dist යනු හරියටම
+  copair පමණක් ප්‍රකාශ කළ නොහැකි දෙයයි.
+reviewed: false

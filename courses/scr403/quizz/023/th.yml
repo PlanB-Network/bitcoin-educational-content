@@ -1,0 +1,12 @@
+question: "ทำไม Failure effect จึงเป็น commutative ใน Simplicity แม้ว่าโดยทั่วไป exceptions จะไม่ commutative?"
+answer: เพราะชนิด exception เป็น unit (1) ที่มีค่าเดียวเท่านั้น ดังนั้นลำดับการโยนจึงไม่สำคัญ
+wrong_answers:
+  - เพราะ Simplicity execute expressions ทั้งหมดตามลำดับ deterministic ที่กำหนดโดย combinator tree
+  - เพราะ Failure effect ถูก catch แล้วโยนซ้ำโดย combinator case เสมอ
+  - เพราะ Simplicity ใช้ batch verification ซึ่งทำให้ exceptions ที่ถูกโยนทั้งหมดเทียบเท่ากัน
+explanation: >-
+  โดยทั่วไป exceptions ไม่เป็น commutative เพราะ expressions ต่างกันอาจโยนค่า exception ต่างกัน
+  อย่างไรก็ตาม Simplicity จำกัด exceptions ให้เป็นชนิด unit (มีค่าเป็นไปได้เพียงค่าเดียว)
+  ดังนั้นการสลับลำดับของ expressions สองตัวที่อาจล้มเหลวจึงให้ exception เดียวกันไม่ว่า
+  ตัวใดจะล้มเหลวจริง คุณสมบัติ commutativity นี้เปิดให้ทำ program optimizations ที่สำคัญได้
+reviewed: true

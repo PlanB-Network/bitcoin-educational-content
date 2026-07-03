@@ -1,0 +1,13 @@
+question: Come vengono rappresentati i buffer a lunghezza variabile nel sistema di tipi di Simplicity?
+answer: Come prodotti di tipi opzione annidati, ogni livello segnala un blocco di potenza di due.
+wrong_answers:
+  - Usando un tipo di array dinamico speciale integrato direttamente nel linguaggio.
+  - Attraverso tipi somma ricorsivi che crescono a ogni chiamata di funzione.
+  - Come vettori a dimensione fissa riempiti con valori zero finali.
+explanation: >-
+  I buffer usano tipi opzione annidati. Ad esempio, Xᑉ⁸ si espande in
+  (1 + X⁴) × ((1 + X²) × (1 + X)), che come polinomio dà
+  1 + X + X² + ... + X⁷ — rappresentando collezioni da 0 a 7 elementi.
+  Ogni livello opzione indica se un blocco di potenza di due è presente,
+  codificando di fatto la lunghezza in binario.
+reviewed: false

@@ -1,0 +1,15 @@
+question: "Verfolgen Sie den Volladdierer bei ⟨⟨1,1⟩,1⟩ (1+1+1). Welchen Wert übergibt Stufe zwei, O O H ▵ (O I H ▵ I H ⨾ half-adder), an die letzte Stufe?"
+answer: ⟨1, ⟨0, 1⟩⟩ — der Übertrag des ersten Halbaddierers, dann Übertrag und Summe des zweiten.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — der Übertrag des ersten Halbaddierers, dann Summe und Übertrag des zweiten.
+  - ⟨0, ⟨0, 1⟩⟩ — das Summenbit des ersten Halbaddierers, dann Übertrag und Summe des zweiten.
+  - ⟨1, ⟨1, 1⟩⟩ — der Übertrag des ersten Halbaddierers, dann die OR- und XOR-Bits des zweiten.
+explanation: >-
+  Stufe eins berechnet half-adder⟨1,1⟩ = ⟨1, 0⟩ (Übertrag 1, Summe 0) und
+  speichert den Übertrag-Eingang, was ⟨⟨1,0⟩, 1⟩ ergibt. In Stufe zwei
+  extrahiert O O H den ersten Übertrag (1), während O I H ▵ I H ⟨0, 1⟩ —
+  die erste Summe und den Übertrag-Eingang — an den zweiten Halbaddierer
+  übergibt, was ⟨0, 1⟩ liefert, da and(0,1)=0 und xor(0,1)=1. Die letzte
+  Stufe verknüpft dann die beiden Überträge mit OR und behält die Summe,
+  was ⟨1, 1⟩ ergibt: binär 3, wie erwartet.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hoeveel kerncombinators heeft Simplicity?
+answer: Negen (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Drie (sequentiële compositie, parallelle compositie, voorwaarde).
+  - Vijf (alleen de combinators comp, pair, case, take en drop).
+  - Twaalf (de negen kern-combinators plus drie extra extensiecombinators).
+explanation: >-
+  Simplicity heeft precies negen kerncombinators. Twee basisbewerkingen (iden
+  en unit), drie compositiemethoden (comp, pair, case) en vier accessors
+  (take, drop voor producten, injl en injr voor sommen). Deze negen zijn
+  voldoende om elke functie tussen Simplicity-types uit te drukken.
+reviewed: false

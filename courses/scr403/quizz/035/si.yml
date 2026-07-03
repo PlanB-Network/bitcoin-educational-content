@@ -1,0 +1,14 @@
+question: push-<n හි type එක Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ වේ. එහි output එකට full vector type Aⁿ ඇතුළත් sum එකක් විය යුතු ඇයි?
+answer: Aᑉⁿ buffer එකක් උපරිම n−1 items තබා ගනී, එබැවින් full buffer එකකට push කළ විට n items ලැබේ — එය represent කළ හැක්කේ Aⁿ ට පමණි.
+wrong_answers:
+  - vectors option products වලට වඩා compact ලෙස serialize වන නිසා, sum එක callers ට cheaper encoding එක තෝරා ගැනීමට ඉඩ දෙයි.
+  - Push empty buffer එකක fail විය හැකි අතර, Aⁿ branch එක old contents රැගෙන යන error case එකයි.
+  - sum-typed buffer එකක් consume කරන ඕනෑම function එකකට sum-typed output එකක් ද produce කිරීමට case අවශ්‍ය කරයි.
+explanation: >-
+  Aᑉⁿ යනු length n ට strictly less වන lists වල type එක හරියටමයි,
+  එබැවින් maximum capacity හි buffer එකක් n−1 elements තබා ගනී. තවත් එකක් push කිරීමෙන්
+  හරියටම n elements ලැබේ, එය Aᑉⁿ ට represent කළ නොහැක; Aⁿ summand එක
+  overflowed result එක full vector එකක් ලෙස return කරයි. output type එක තුළ overflow encode කිරීමෙන්
+  push-<n partial function එකක් නොව total function එකක් ලෙස තබා ගනී
+  — empty-buffer failure case එක push නොව pop-<n ට අයත් වේ.
+reviewed: false

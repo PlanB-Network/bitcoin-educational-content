@@ -1,0 +1,13 @@
+question: "Dlaczego sig-all-hash używa efektu Reader zamiast przyjmować dane transakcji jako typowane wejście?"
+answer: Aby jet mógł używać PrecomputedTransactionData i działać w stałym czasie na ustalonym środowisku.
+wrong_answers:
+  - Ponieważ system typów Simplicity zasadniczo nie potrafi reprezentować danych transakcji jako typu.
+  - Ponieważ efekt Reader jest szybszy niż przekazywanie tych danych przez drzewo kombinatorów.
+  - Ponieważ dane transakcji są zdecydowanie zbyt duże, aby zmieścić się w systemie typów Simplicity o stałym rozmiarze.
+explanation: >-
+  Gdyby sig-all-hash przyjmowało typ wejściowy TxEnv, programy mogłyby przekazywać zmodyfikowane kopie danych transakcji
+  do jeta, uniemożliwiając mu użycie wstępnie obliczonych hashy. Dzięki efektowi Reader jet
+  uzyskuje dostęp jedynie do ustalonego, niezmiennego środowiska transakcji, więc jego implementacja może bezpiecznie używać
+  PrecomputedTransactionData i działać w stałym czasie na weryfikację podpisu, unikając kwadratowego
+  problemu haszowania, który nękał wczesny Bitcoin Script.
+reviewed: true

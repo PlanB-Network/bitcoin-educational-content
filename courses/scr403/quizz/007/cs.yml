@@ -1,0 +1,13 @@
+question: Jak je v Simplicity definován booleovský typ (𝟚)?
+answer: Jako součtový typ 𝟙 + 𝟙, který obsahuje přesně dvě hodnoty (false a true).
+wrong_answers:
+  - Jako součinový typ 𝟙 × 𝟙, který by pak obsahoval pouze jednu hodnotu.
+  - Jako speciální primitivní typ zabudovaný přímo do jazyka.
+  - Jako 32bitový celočíselný typ omezený pouze na hodnoty 0 a 1.
+explanation: >-
+  Booleovský typ 𝟚 je definován jako 𝟙 + 𝟙, součet dvou jednotkových typů.
+  Hodnota s levou značkou σᴸ⟨⟩ představuje false (0) a hodnota s pravou
+  značkou σᴿ⟨⟩ představuje true (1). Jde o jednobitový datový typ vytvořený
+  pouze z jednotkového typu a konstruktoru součtového typu — konstruktor
+  součinu není potřeba.
+reviewed: false

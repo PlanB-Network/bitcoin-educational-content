@@ -1,0 +1,15 @@
+question: Étant donné les règles de typage « types plus petits dans les prémisses », quels combinateurs centraux déplacent réellement des données pendant l'exécution ?
+answer: Seulement iden et comp ; les sept autres sont implémentés avec rien de plus que de la comptabilité.
+wrong_answers:
+  - Seulement take et drop ; extraire une composante force la machine à la copier hors du produit.
+  - Seulement pair et case ; dupliquer l'entrée pour deux branches et répartir selon une étiquette déplacent des données.
+  - Seulement injl et injr ; ajouter une étiquette réécrit la valeur dans une représentation de type somme plus grande.
+explanation: >-
+  Contre-intuitivement, les combinateurs qui ressemblent à de l'accès aux
+  données (take, drop, pair, case, injl, injr) n'ont besoin d'aucune copie :
+  parce que les prémisses des règles de typage impliquent des types plus
+  petits que leurs conclusions, la Bit Machine peut les implémenter avec
+  seulement de la comptabilité. Seuls iden, qui copie toute son entrée vers
+  sa sortie, et comp, qui matérialise une valeur intermédiaire passée de f à
+  g, déplacent réellement des données.
+reviewed: false

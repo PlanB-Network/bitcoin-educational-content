@@ -1,0 +1,14 @@
+question: full-adder wykonuje OR na bitach przeniesienia swoich dwóch half-adderów zamiast XOR. Dlaczego OR jest poprawne?
+answer: Dla dowolnego wejścia co najwyżej jeden half-adder może wygenerować przeniesienie, więc OR dokładnie scala dwa wzajemnie wykluczające się przypadki.
+wrong_answers:
+  - Dwa bity przeniesienia muszą zostać dodane, a OR to sposób, w jaki jednobitowe dodawanie binarne jest realizowane w Simplicity.
+  - Po rozgałęzieniu OR jest jedynym operatorem logicznym, którego typ nadal pasuje do środowiska.
+  - OR nadmiernie aproksymuje przeniesienie; wszelkie fałszywe przeniesienia są następnie odrzucane przez końcową projekcję.
+explanation: >-
+  Jeśli pierwszy half-adder generuje przeniesienie, to oba jego bity wejściowe
+  były równe 1, więc jego bit sumy wynosi 0 — a half-adder, do którego podano
+  0, nigdy nie wygeneruje przeniesienia. Dwa bity przeniesienia nigdy nie są
+  zatem jednocześnie równe 1, a OR scala je dokładnie (na osiągalnych
+  wejściach pokrywa się nawet z XOR). Właśnie ta wzajemna wykluczalność
+  sprawia, że dekompozycja full-addera na dwa half-addery jest poprawna.
+reviewed: false

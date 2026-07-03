@@ -1,0 +1,17 @@
+question: Dalam pengertian apa komposisi kondisional merupakan dual dari komposisi paralel?
+answer: Paralel memberi kedua operasi satu input dan memasangkan outputnya (sebuah produk); kondisional mengambil sum dari input dan kedua cabang berbagi satu tipe output.
+wrong_answers:
+  - Paralel harus menjalankan kedua operasinya secara bersamaan; kondisional menjalankannya secara berurutan dan hanya mengembalikan cabang yang dipilih oleh tag.
+  - Keduanya berjalan pada satu input bersama; paralel mempertahankan pasangan output, sementara kondisional menjalankan kedua cabang dan membuang yang tidak dipilih.
+  - Paralel menduplikasi inputnya terlebih dahulu sedangkan kondisional menduplikasi outputnya kemudian, menukar di mana penyalinan terjadi.
+explanation: >-
+  Dualitas ini adalah pertukaran produk/sum dengan tipe bersama yang
+  berpindah sisi: komposisi paralel memberikan kedua operasi tipe input
+  yang sama dan memasangkan outputnya menjadi sebuah produk, sedangkan
+  komposisi kondisional mengambil sum (tagged union) dari kedua tipe
+  input dan kedua cabang harus menghasilkan tipe output yang sama.
+  Simultanitas tidak relevan — artikel menekankan bahwa komposisi
+  paralel bisa diimplementasikan secara sekuensial — dan komposisi
+  kondisional mengeksekusi tepat satu cabang, yang dipilih oleh tag,
+  bukannya menjalankan keduanya lalu membuang salah satu.
+reviewed: false

@@ -1,0 +1,12 @@
+question: vector ความยาวคงที่ถูกสร้างในระบบชนิดข้อมูลของ Simplicity อย่างไร?
+answer: ผ่าน product type ซ้อนกันที่มีความยาวเป็นกำลังของสอง (เช่น A⁴ = A² × A²).
+wrong_answers:
+  - โดยใช้ตัวสร้างชนิด array พิเศษที่ built into ภาษา.
+  - ผ่าน sum type แบบ recursive ที่เชื่อม elements ต่อกันเป็น list.
+  - โดยใช้ buffer ความยาวแปรผันที่มีขนาดสูงสุดคงที่.
+explanation: >-
+  Simplicity สร้าง vector จาก product type ที่ซ้อนกัน A² คือ A × A,
+  A⁴ คือ A² × A², A⁸ คือ A⁴ × A⁴ และต่อไปเรื่อย ๆ สิ่งนี้ให้ collection
+  ที่มีขนาดเป็นกำลังของสอง ตัวอย่างเช่น 𝟚²⁵⁶ (hash 256-bit) ถูกสร้างโดย
+  ซ้อน products ลึก 8 ระดับจาก boolean type.
+reviewed: false

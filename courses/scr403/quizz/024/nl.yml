@@ -1,0 +1,11 @@
+question: "Wat is het type van een Simplicity-programma?"
+answer: 1 ⊢ 1 (eenheid naar eenheid) — geen betekenisvolle input of output; neveneffecten verzorgen de I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — het neemt transactiedata en geeft een geldigheidsboolean terug.
+  - 2^256 ⊢ 2^256 — het neemt een hash-input en geeft een nieuwe hash-outputwaarde terug.
+  - Elk type A ⊢ B — programma's mogen volledig arbitraire input- en outputtypes hebben.
+explanation: >-
+  Een Simplicity-programma wordt gedefinieerd als een expressie van type 1 ⊢ 1. Het Reader-effect
+  legt de transactieomgeving als input vast, terwijl het Failure-effect bepaalt of het slaagt of
+  faalt. Deze neveneffecten verzorgen alle I/O, in plaats van de Simplicity-types zelf.
+reviewed: true

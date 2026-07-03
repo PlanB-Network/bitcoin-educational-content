@@ -1,0 +1,13 @@
+question: "Quel est le type d'un programme Simplicity ?"
+answer: 1 ⊢ 1 (unité vers unité) — aucune entrée ou sortie significative ; les effets de bord assurent les entrées/sorties.
+wrong_answers:
+  - TxEnv ⊢ Bool — il prend les données de transaction et renvoie un booléen de validité.
+  - 2^256 ⊢ 2^256 — il prend un hachage en entrée et renvoie une nouvelle valeur de hachage en sortie.
+  - Tout type A ⊢ B — les programmes peuvent avoir des types d'entrée et de sortie totalement arbitraires.
+explanation: >-
+  Un programme Simplicity est défini comme une expression de type 1 ⊢ 1.
+  L'effet Reader capture l'entrée de l'environnement de transaction,
+  tandis que l'effet Failure détermine le succès ou l'échec. Ces effets de
+  bord gèrent l'ensemble des entrées/sorties plutôt que les types
+  Simplicity eux-mêmes.
+reviewed: true

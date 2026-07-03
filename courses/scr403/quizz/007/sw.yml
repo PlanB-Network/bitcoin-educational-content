@@ -1,0 +1,12 @@
+question: Half-adder huhesabu nini?
+answer: Carry (AND) na sum (XOR) za biti mbili za ingizo.
+wrong_answers:
+  - Jumla ya integer mbili za biti nyingi pamoja na usambazaji wa carry.
+  - Wastani wa biti mbili uliopunguzwa chini.
+  - OR na AND za bitwise za biti mbili za ingizo.
+explanation: >-
+  Half-adder huchukua biti mbili moja moja na huzalisha matokeo mawili kwa
+  kutumia utungaji sambamba: biti ya carry (AND ya maingizo) na biti ya
+  sum (XOR ya maingizo). Katika Simplicity inafafanuliwa kama and ▵ xor,
+  ikiendesha operesheni zote mbili kwa jozi ileile ya ingizo.
+reviewed: false

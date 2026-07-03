@@ -1,0 +1,15 @@
+question: "#ᶜ(comp f g) compute करने में 128 bytes hash होते हैं: comp tag दो बार, फिर दोनों child CMRs. फिर भी यह अधिकतम एक SHA-256 compression call क्यों है?"
+answer: पहला 64-byte block constant tag∥tag है, जिसका midstate एक बार precomputed होता है; केवल child CMRs रखने वाला block compressed होता है।
+wrong_answers:
+  - केवल SHA-256 का final length-padding block drop करने से पूरे 128 bytes एक call में fit हो जाते हैं।
+  - दोनों child CMRs XOR होकर एक 32-byte digest बन जाते हैं, जिससे input single block में shrink हो जाता है।
+  - SHA-256-midstate एक wide-block variant है जो 128-byte message blocks को one pass में absorb करता है।
+explanation: >-
+  SHA-256 का compression function fixed 64-byte blocks process करता है, इसलिए
+  128-byte input को normally two calls चाहिए होते हैं (plus full SHA-256 में length
+  padding के लिए one more)। क्योंकि हर combinator का first block constant tag∥tag
+  है, उसका midstate एक बार precompute और cache किया जा सकता है; फिर प्रत्येक
+  expression को केवल अपने children's CMRs वाले block की one fresh compression चाहिए
+  होती है। Midstates final padding block को भी drop करते हैं, लेकिन वह अकेला अभी भी
+  two compressions छोड़ता — precomputed tag midstate ही इसे at most one तक लाता है।
+reviewed: false

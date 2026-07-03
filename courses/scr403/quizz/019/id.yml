@@ -1,0 +1,15 @@
+question: Apa itu SimplicityHL dan mengapa dibutuhkan?
+answer: Bahasa tingkat tinggi yang dikompilasi menjadi Simplicity dan mengelola penamaan serta scope.
+wrong_answers:
+  - Bahasa deskripsi hardware untuk menambang ASIC yang menjalankan Simplicity.
+  - IDE grafis drag-and-drop untuk merangkai kombinator Simplicity.
+  - Framework pengujian untuk menjalankan program Simplicity di dalam sandbox yang aman.
+explanation: >-
+  Simplicity mentah menjadi sulit dipahami pada tingkat kompleksitas
+  produksi karena semua akses data harus dilakukan melalui kombinator
+  take/drop yang bersarang. SimplicityHL menyediakan konstruk pemrograman
+  yang familiar — variabel bernama, scoping, import library, dan alur
+  kontrol — yang dikompilasi menjadi ekspresi kombinator Simplicity.
+  Pengguna akhir menulis SimplicityHL sementara Simplicity berfungsi
+  sebagai target kompilasi yang terverifikasi secara formal.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Simplicity තුළ sum type (A + B) යනු කුමක්ද?
+answer: "tagged union එකක්: value එකක් left-tagged A එකක් හෝ right-tagged B එකක් වේ."
+wrong_answers:
+  - A සහ B දෙකේම සියලු values එකවර අඩංගු type එකක්.
+  - component types දෙකේ bit sizes වල අංකගණිත එකතු කිරීමක්.
+  - A වෙතින් සෑම input එකක්ම B තුළ output එකකට map කරන function type එකක්.
+explanation: >-
+  sum type A + B යනු tagged union එකකි. එක් එක් value එකේ එය left variant
+  (type A) ද right variant (type B) ද යන්න දක්වන one-bit tag එකක් ඇත.
+  A සහ B එකම type එක වන විට පවා, left-tagged සහ right-tagged values
+  වෙනස්ව පවතී.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Wat berekent een half-adder?
+answer: De carry (AND) en de som (XOR) van twee invoerbits.
+wrong_answers:
+  - De som van twee meerbits gehele getallen met carry-propagatie.
+  - Het naar beneden afgeronde gemiddelde van twee bits.
+  - De bitsgewijze OR en AND van twee invoerbits.
+explanation: >-
+  Een half-adder neemt twee losse bits en produceert twee uitvoerwaarden via
+  parallelle compositie: de carry-bit (AND van de invoer) en de sum-bit (XOR
+  van de invoer). In Simplicity wordt dit gedefinieerd als and ▵ xor, waarbij
+  beide bewerkingen op hetzelfde invoerpaar draaien.
+reviewed: false

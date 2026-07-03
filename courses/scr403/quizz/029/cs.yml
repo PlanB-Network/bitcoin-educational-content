@@ -1,0 +1,15 @@
+question: Simplicity vylučuje neomezenou rekurzi. Jaká je jeho zamýšlená náhrada za neomezenou iteraci?
+answer: Rekurzivní covenanty, které rozprostírají výpočet napříč více transakcemi, čímž udržují náklady každé transakce předvídatelné.
+wrong_answers:
+  - Funkce delegace, přímo navržená k poskytnutí měřené formy neomezené rekurze uvnitř jediné transakce.
+  - Devět základních kombinátorů, jejichž úplnost umožňuje konstrukci pevného bodu zakódovat libovolnou rekurzivní funkci.
+  - Rozbalení smyčky při kompilaci, kdy statická analýza odvodí maximální počet iterací a duplikuje tělo.
+explanation: >-
+  Teze článku zní, že neomezená iterace se lépe implementuje jako rekurzivní
+  covenanty počítající napříč více transakcemi, což se vyhýbá omezením prostoru
+  v bloku a standardnosti a činí náklady na transakce předvídatelnými. Delegaci
+  lze pouze zneužít k vytvoření něčeho, co připomíná neomezenou rekurzi — není to
+  zamýšlený mechanismus — a devět základních kombinátorů je úplných pouze pro
+  konečné výpočty, takže uvnitř jediného programu žádná konstrukce pevného bodu
+  neexistuje.
+reviewed: false

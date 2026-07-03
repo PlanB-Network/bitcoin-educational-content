@@ -1,0 +1,14 @@
+question: push-<n tüüp on Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Miks peab selle väljund olema summa, mis sisaldab täielikku vektoritüüpi Aⁿ?
+answer: Puhver Aᑉⁿ mahutab kõige rohkem n−1 üksust, seega täis puhvrisse lükkamine annab n üksust — ainult Aⁿ saab seda esitada.
+wrong_answers:
+  - Summa laseb kutsujatel valida odavama kodeeringu, sest vektorid serialiseeruvad kompaktsemalt kui option-korrutised.
+  - push võib tühja puhvri korral ebaõnnestuda ja Aⁿ-haru on veajuht, mis kannab vanu sisusid.
+  - case nõuab, et iga summatüüpi puhvrit tarbiv funktsioon toodaks samuti summatüüpi väljundi.
+explanation: >-
+  Aᑉⁿ on täpselt nende listide tüüp, mille pikkus on rangelt väiksem kui n,
+  seega maksimaalse mahuga puhver sisaldab n−1 elementi. Ühe lisamine toodab
+  täpselt n elementi, mida Aᑉⁿ ei saa esitada; summaharu Aⁿ tagastab selle
+  ületäidetud tulemuse täieliku vektorina. Ületäitumise kodeerimine
+  väljundtüüpi hoiab push-<n-i totaalse funktsioonina, mitte osalisena — tühja
+  puhvri veajuht kuulub pop-<n-ile, mitte pushile.
+reviewed: false

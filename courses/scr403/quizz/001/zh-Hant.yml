@@ -1,0 +1,9 @@
+question: 當把運算 f（A → B）與運算 g（B → C）串接時，循序組合會產生什麼？
+answer: 一個從 A 到 C 的單一複合運算，其中 f 的輸出饋入 g。
+wrong_answers:
+  - 一個配對值，包含型別 B 與 C 的兩個中間輸出。
+  - 一個根據輸入在 f 與 g 之間選擇的條件式。
+  - 兩個獨立執行、不共享資料的分離運算。
+explanation: >-
+  循序組合將兩個運算首尾相接。第一個運算的輸出成為第二個運算的輸入。在 Simplicity 中，這以 comp 組合子表示：comp f g 先套用 f，再對結果套用 g。
+reviewed: false

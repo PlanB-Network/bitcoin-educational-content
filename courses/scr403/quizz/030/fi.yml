@@ -1,0 +1,15 @@
+question: "Mikä ydinkombinaattorilauseke toteuttaa distribuutiofunktion dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Jokaisen case-haaran sisällä ympäristö on jo parina tunnisteettoman arvon
+  kanssa, joten f = injl iden ja g = injr iden antavat ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩
+  ja ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — täsmälleen dist. take/drop-variantti läpäisee
+  tyyppitarkistuksen mutta hylkää parituksen, merkiten sen sijaan tyypin (A +
+  B) × C ⊢ A + C funktiota. pair tuottaa tulon eikä summaa, ja copair ei ole
+  lainkaan Simplicity-kombinaattori — dist on juuri se, mitä pelkkä copair ei
+  kykene ilmaisemaan.
+reviewed: false

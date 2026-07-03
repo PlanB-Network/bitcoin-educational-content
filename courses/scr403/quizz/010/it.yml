@@ -1,0 +1,13 @@
+question: Come vengono costruiti i vettori a lunghezza fissa nel sistema di tipi di Simplicity?
+answer: Tramite tipi prodotto annidati di lunghezza pari a una potenza di due (es. A⁴ = A² × A²).
+wrong_answers:
+  - Usando un costruttore di tipo array speciale integrato nel linguaggio.
+  - Tramite tipi somma ricorsivi che concatenano gli elementi in una lista.
+  - Usando buffer a lunghezza variabile con una dimensione massima fissa.
+explanation: >-
+  Simplicity costruisce i vettori a partire da tipi prodotto annidati. A² è
+  A × A, A⁴ è A² × A², A⁸ è A⁴ × A⁴, e così via. Questo dà collezioni di
+  dimensione pari a una potenza di due. Per esempio, 𝟚²⁵⁶ (un hash a 256
+  bit) è costruito annidando prodotti fino a 8 livelli di profondità a
+  partire dal tipo booleano.
+reviewed: false

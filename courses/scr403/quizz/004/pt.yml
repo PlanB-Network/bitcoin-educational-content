@@ -1,0 +1,13 @@
+question: Quantos combinadores centrais a Simplicity possui?
+answer: Nove (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Três (composição sequencial, composição paralela, condicional).
+  - Cinco (apenas os combinadores comp, pair, case, take e drop).
+  - Doze (os nove centrais mais três combinadores de extensão adicionais).
+explanation: >-
+  A Simplicity tem exatamente nove combinadores centrais. Duas operações
+  básicas (iden e unit), três métodos de composição (comp, pair, case), e
+  quatro acessores (take, drop para produtos, injl e injr para somas).
+  Esses nove são suficientes para expressar qualquer função entre tipos
+  da Simplicity.
+reviewed: false

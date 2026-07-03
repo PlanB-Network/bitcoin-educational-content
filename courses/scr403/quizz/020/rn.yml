@@ -1,0 +1,12 @@
+question: "Ni izihe ngaruka zibiri zo ku ruhande zikoreshwa muri Simplicity ku bikorwa vya Bitcoin na Liquid?"
+answer: "Ingaruka ya Failure (exception y'ubwoko 1) n'ingaruka ya Reader (ugushikira amakuru ya environment ya transaction)."
+wrong_answers:
+  - "Ingaruka ya State (variables zihinduka) n'ingaruka ya Writer (kwandika muri log ya transaction)."
+  - "Ingaruka ya IO (uguhanahana amakuru ku network) n'ingaruka ya Memory (dynamic memory allocation)."
+  - "Ingaruka ya Continuation (callbacks) n'ingaruka ya Nondeterminism (inzira nyinshi z'ikora)."
+explanation: >-
+  Simplicity ikoresha neza na neza ingaruka zibiri zo ku ruhande ku bikorwa vya blockchain. Ingaruka ya Failure iremera
+  ubuharuro guhagarara (nk'akarorero, iyo isuzuma ry'umukono rinaniwe), kandi ingaruka ya Reader iremera
+  expressions gusoma amakuru ava muri environment ya transaction. Combinators z'ishimikiro ziguma ari pure —
+  ingaruka zo ku ruhande zinjizwa biciye muri jets.
+reviewed: true

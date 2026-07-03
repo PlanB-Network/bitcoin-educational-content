@@ -1,0 +1,13 @@
+question: Apa itu tipe unit (𝟙) dan mengapa ia berguna meskipun tidak membawa informasi apa pun?
+answer: Tipe ini menampung satu nilai (tuple kosong) dan menjadi dasar bagi semua tipe lainnya.
+wrong_answers:
+  - Tipe ini merepresentasikan angka 1 dan digunakan langsung untuk operasi aritmetika.
+  - Tipe ini merupakan tipe debugging khusus yang mencatat jejak eksekusi ke sebuah berkas.
+  - Tipe ini menyimpan tepat satu bit data yang digunakan untuk operasi boolean.
+explanation: >-
+  Tipe unit 𝟙 memiliki tepat satu nilai — tuple kosong ⟨⟩. Meskipun
+  membawa nol bit informasi, tipe ini penting sebagai bibit dari mana
+  tipe jumlah dan produk membangun semua tipe data yang berguna. Sebagai
+  contoh, tipe boolean 𝟚 adalah 𝟙 + 𝟙, yang dibangun sepenuhnya dari
+  tipe unit.
+reviewed: false

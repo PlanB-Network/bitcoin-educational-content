@@ -1,0 +1,12 @@
+question: "Hvorfor er vitneverdier utelatt fra Commitment Merkle Root (CMR)?"
+answer: Slik at adresser kan dannes før vitnene er kjent, og ubrukte grener kan beskjæres privat.
+wrong_answers:
+  - Fordi vitneverdier rett og slett er altfor store til å inkluderes i en 256-bit hash.
+  - Fordi vitneverdier valideres helt separat av Failure-effekten.
+  - Fordi det å inkludere vitneverdiene ville gjøre CMR-en ikke-deterministisk.
+explanation: >-
+  Vitneuttrykk (som signaturer) leveres på brukstidspunktet, ikke på tidspunktet for
+  adresseopprettelse. Å utelate dem fra CMR-en muliggjør to viktige egenskaper: adresser kan
+  genereres før bruksforsendelsen (spending-transaksjonen) eksisterer, og ukjørte betingede
+  grener kan beskjæres fra on-chain-dataene uten å avsløre de tilhørende vitneverdiene.
+reviewed: true

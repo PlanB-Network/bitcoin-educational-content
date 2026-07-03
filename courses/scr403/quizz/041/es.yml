@@ -1,0 +1,17 @@
+question: Una salida de Simplicity usa el punto NUMS fijo de BIP-0341 como su clave interna. ¿Por qué el gasto por clave (key-spend) es demostrablemente imposible, y qué añade aleatorizar el punto NUMS?
+answer: Nadie conoce el logaritmo discreto del punto NUMS, así que no puede existir ninguna firma por vía de clave; aleatorizarlo solo añade privacidad.
+wrong_answers:
+  - El punto NUMS queda fuera de la curva, así que las firmas por vía de clave fallan; aleatorizarlo lo devuelve a la curva.
+  - La clave privada del punto NUMS es cero, lo cual el consenso rechaza; aleatorizarlo protege el ajuste (tweak) frente a canales laterales.
+  - Ajustar (tweak) un punto NUMS produce una clave fuera de rango, haciendo que el gasto por clave sea no estándar; aleatorizarlo evita la reutilización de direcciones.
+explanation: >-
+  Un punto NUMS ('Nothing-Up-My-Sleeve', sin trampa a la vista) es un punto de curva
+  perfectamente válido construido de modo que nadie conoce una clave privada
+  correspondiente — su logaritmo discreto es desconocido. Como un gasto por vía de clave
+  requiere una firma Schnorr bajo la clave interna, y no puede producirse
+  tal firma sin la clave privada, la vía de gasto por clave es demostrablemente
+  inutilizable y los fondos solo pueden moverse mediante la vía de script comprometida. Aleatorizar el
+  punto NUMS no cambia nada de esto; solo oculta el hecho de que el gasto por clave
+  está deshabilitado, de modo que la salida parece cualquier otra salida Taproot — un
+  beneficio de privacidad.
+reviewed: false

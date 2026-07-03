@@ -1,0 +1,14 @@
+question: Hoe werkt de toegangsnotatie (O, I, H) in Simplicity?
+answer: O betekent 'take' (links), I betekent 'drop' (rechts), en H betekent 'iden' (de hele waarde).
+wrong_answers:
+  - O betekent output, I betekent input, en H betekent de uitvoering van het programma stoppen (halt).
+  - Het zijn variabelenamen die de compiler automatisch aan waarden toekent.
+  - O selecteert elementen met een oneven index, I selecteert elementen met een even index, H selecteert de kop.
+explanation: >-
+  De O/I/H-afkorting biedt een compacte manier om door geneste paren te
+  navigeren. O f is take f (extraheer links), I f is drop f (extraheer
+  rechts), en H is iden (de hele waarde). Reeksen zoals I O H betekenen
+  drop(take(iden)), waarmee het eerste element van het tweede element
+  wordt geëxtraheerd. Dit lijkt op De Bruijn-indices met binaire cijfers
+  als boomposities.
+reviewed: false

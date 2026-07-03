@@ -1,0 +1,9 @@
+question: Simplicity 與 Gentzen 的序列演算之間有什麼關係？
+answer: 它的九個組合子映照了序列演算中的合取-析取片段。
+wrong_answers:
+  - Simplicity 是直接從序列演算的證明翻譯成可運作的程式碼。
+  - Gentzen 的序列演算在執行期用來對 Simplicity 程式進行型別檢查。
+  - 兩者完全無關，表面上的相似純屬巧合。
+explanation: >-
+  Simplicity 的九條核心規則與 Gentzen 序列演算中的規則極為相似，這類比於 lambda 演算與自然演繹之間的 Curry-Howard 對應。這種關聯確保了前提中的型別小於結論中的型別，而 Bit Machine 正是利用這一點，以最少的資料複製達成高效的執行。
+reviewed: false

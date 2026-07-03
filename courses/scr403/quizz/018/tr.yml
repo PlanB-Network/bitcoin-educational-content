@@ -1,0 +1,14 @@
+question: SimplicityHL nedir ve neden gereklidir?
+answer: Adlandırmayı ve kapsamı yöneten, Simplicity'ye derlenen daha yüksek seviyeli bir dil.
+wrong_answers:
+  - Simplicity'yi çalıştıran ASIC'leri madencilikte kullanmak için bir donanım tanımlama dili.
+  - Simplicity kombinatörlerini birbirine bağlamak için grafiksel bir sürükle-bırak IDE'si.
+  - Simplicity programlarını güvenli bir sandbox içinde çalıştırmak için bir test framework'ü.
+explanation: >-
+  Ham Simplicity, üretim karmaşıklığı seviyelerinde anlaşılmaz hâle gelir çünkü
+  tüm veri erişimi iç içe take/drop kombinatörleri üzerinden yapılmalıdır. SimplicityHL,
+  Simplicity kombinatör ifadelerine derlenen tanıdık programlama yapılarını —
+  adlandırılmış değişkenler, kapsam belirleme, kütüphane içe aktarımları ve kontrol
+  akışı — sağlar. Son kullanıcılar SimplicityHL yazar; Simplicity ise biçimsel olarak
+  doğrulanmış derleme hedefi olarak hizmet eder.
+reviewed: false

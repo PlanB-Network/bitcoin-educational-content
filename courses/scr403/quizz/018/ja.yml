@@ -1,0 +1,13 @@
+question: SimplicityHL とは何で、なぜ必要なのですか？
+answer: 名前付けとスコープを管理し、Simplicity にコンパイルされる高水準言語です。
+wrong_answers:
+  - Simplicity を実行する ASIC をマイニングするためのハードウェア記述言語。
+  - Simplicity コンビネータを配線するための、グラフィカルなドラッグ＆ドロップ IDE。
+  - 安全なサンドボックス内で Simplicity プログラムを実行するためのテストフレームワーク。
+explanation: >-
+  生の Simplicity は、本番環境レベルの複雑さになると判読困難になります。なぜなら、
+  すべてのデータアクセスを、ネストした take/drop コンビネータを通して行わなければならないからです。SimplicityHL は、
+  名前付き変数、スコープ、ライブラリのインポート、制御フローといった馴染みのあるプログラミング構成要素を提供し、
+  それらは Simplicity のコンビネータ式へコンパイルされます。エンドユーザーは SimplicityHL を書き、
+  Simplicity は形式的に検証されたコンパイル先として機能します。
+reviewed: false

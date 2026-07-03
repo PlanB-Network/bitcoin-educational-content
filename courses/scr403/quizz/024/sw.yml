@@ -1,0 +1,11 @@
+question: "Type ya programu ya Simplicity ni ipi?"
+answer: 1 ⊢ 1 (unit kwenda unit) — hakuna ingizo au pato lenye maana; side effects ndizo hufanya I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — inachukua data ya muamala na kurudisha boolean ya uhalali.
+  - 2^256 ⊢ 2^256 — inachukua ingizo la hash na kurudisha thamani mpya ya pato la hash.
+  - Any type A ⊢ B — programu zinaweza kuwa na types za ingizo na pato kiholela kabisa.
+explanation: >-
+  Programu ya Simplicity hufafanuliwa kama expression ya type 1 ⊢ 1. Athari ya Reader hukamata
+  ingizo la mazingira ya muamala, huku athari ya Failure ikiamua mafanikio au kushindwa.
+  Athari hizi za pembeni hushughulikia I/O yote badala ya types za Simplicity zenyewe.
+reviewed: true

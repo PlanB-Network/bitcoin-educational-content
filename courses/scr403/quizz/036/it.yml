@@ -1,0 +1,15 @@
+question: push-<n ha tipo Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Perché il suo output deve essere una somma che include il tipo vettore completo Aⁿ?
+answer: Un buffer Aᑉⁿ contiene al massimo n−1 elementi, quindi eseguire push su un buffer pieno produce n elementi — solo Aⁿ può rappresentarlo.
+wrong_answers:
+  - La somma permette ai chiamanti di scegliere la codifica più economica, poiché i vettori si serializzano in modo più compatto dei prodotti opzionali.
+  - Push può fallire su un buffer vuoto, e il ramo Aⁿ è il caso di errore che porta il contenuto precedente.
+  - case richiede che qualsiasi funzione che consuma un buffer di tipo somma produca anch'essa un output di tipo somma.
+explanation: >-
+  Aᑉⁿ è esattamente il tipo delle liste la cui lunghezza è strettamente
+  inferiore a n, quindi un buffer alla capacità massima contiene n−1
+  elementi. Aggiungerne un altro produce esattamente n elementi, che
+  Aᑉⁿ non può rappresentare; l'addendo Aⁿ restituisce quel risultato in
+  overflow come vettore completo. Codificare l'overflow nel tipo di
+  output mantiene push-<n una funzione totale anziché parziale — il caso
+  di fallimento per buffer vuoto appartiene a pop-<n, non a push-<n.
+reviewed: false

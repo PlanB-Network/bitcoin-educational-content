@@ -1,0 +1,15 @@
+question: L'additionneur complet fait un OR sur les bits de retenue de ses deux demi-additionneurs au lieu d'un XOR. Pourquoi OR est-il correct ?
+answer: Au plus un demi-additionneur peut retenir pour une entrée donnée, donc OR fusionne exactement deux cas mutuellement exclusifs.
+wrong_answers:
+  - Les deux bits de retenue doivent être additionnés, et OR est la façon dont l'addition binaire à un bit se fait en Simplicity.
+  - Après l'embranchement, OR est le seul opérateur booléen dont le type correspond encore à l'environnement.
+  - OR surestime la retenue ; toute retenue parasite est ensuite éliminée par la projection finale.
+explanation: >-
+  Si le premier demi-additionneur retient, ses deux bits d'entrée valaient
+  1, donc son bit de somme est 0 — et un demi-additionneur alimenté par un
+  0 ne peut jamais retenir. Les deux bits de retenue ne sont donc jamais
+  simultanément à 1, et OR les fusionne exactement (sur les entrées
+  atteignables, il coïncide même avec XOR). Cette exclusivité mutuelle est
+  précisément ce qui rend correcte la décomposition d'un additionneur
+  complet en deux demi-additionneurs.
+reviewed: false

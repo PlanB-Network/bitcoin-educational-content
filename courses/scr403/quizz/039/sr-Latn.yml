@@ -1,0 +1,17 @@
+question: Simplicity-jevi efekti su komutativni i idempotentni ali ne i unitarni. Koja transformacija optimizatora se stoga mora odbiti u opštem slučaju?
+answer: Zamena naizgled mrtvog izraza sa unit — Failure nije unitaran, pa bi mogao sakriti neuspelu proveru koja mora prekinuti.
+wrong_answers:
+  - Zamena dva nezavisna podizraza, jer bi sig-all-hash mogao posmatrati drugačije stanje okruženja.
+  - Spajanje dva identična verify poziva, jer bi duplirani Failure bacio izuzetak dvaput i pogrešno prekinuo.
+  - Preuređivanje izraza koji mogu baciti izuzetak, jer propagirani izuzetak zavisi od toga koja strana se prva izvršava.
+explanation: >-
+  Pošto su Simplicity-jevi efekti zagarantovano komutativni i
+  idempotentni, zamena nezavisnih podizraza i dupliranje ili spajanje
+  identičnih su uvek bezbedni; Reader okruženje je fiksno, a Failure-ov
+  izuzetak jediničnog tipa je identičan bez obzira na to koja strana
+  prva baca izuzetak ili koliko puta. Transformacija odbacivanja `f ⨾
+  unit = unit`, međutim, zahteva unitarnost, koju Failure nema: ako `f`
+  sadrži `bip0340-verify` na nevažećem potpisu, eliminisanje 'mrtvog'
+  koda bi optimizacijom uklonilo prekid i validiralo transakciju koja
+  bi trebalo da ne uspe.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Simplicity neden Ethereum gibi dinamik bir gas modeli yerine statik analiz kullanır?
+answer: Yürütme başlamadan önce kaynak sınırlarını belirlemek ve öngörülebilir maliyetler sağlamak için.
+wrong_answers:
+  - Çünkü statik analizi geliştiriciler için uygulamak çok daha hızlıdır.
+  - Çünkü Ethereum'un kendi gas modeli patentliydi ve bu yüzden kullanılamıyordu.
+  - Çünkü Simplicity programları ölçümlemeye gerçekten ihtiyaç duymayacak kadar kısadır.
+explanation: >-
+  Simplicity'nin statik analizi, ağın bir programın ne kadar hesaplama
+  gerektirdiğini program çalışmadan önce tam olarak bilmesini sağlar. Bu,
+  dinamik ölçümlemenin öngörülemezliğini ortadan kaldırır, kaynak tükenmesi
+  yoluyla hizmet engellemeyi önler ve düğümlerin sınırları aşan programları
+  hesaplama israf etmeden reddetmesine olanak tanır.
+reviewed: false

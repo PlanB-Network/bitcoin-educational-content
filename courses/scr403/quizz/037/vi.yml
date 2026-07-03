@@ -1,0 +1,16 @@
+question: Nén SHA-256 trở thành một jet, nhưng các combinator fold và map thì không thể. Điều gì giải thích sự bất đối xứng này?
+answer: Một jet thay thế một biểu thức cố định; fold và map không phải biểu thức đơn lẻ mà là schema, tạo ra một biểu thức khác nhau cho từng hàm bên trong f.
+wrong_answers:
+  - Jet chỉ tăng tốc mã straight-line, nên các combinator lặp trước hết phải được unroll rồi sau đó không khớp jet nào.
+  - Chỉ các biểu thức có chứng minh Rocq được máy kiểm tra mới đủ điều kiện, mà điều này tồn tại cho SHA-256 nhưng không cho các fold.
+  - Fold trên vector ngắn quá rẻ để được lợi, nên jet được dành riêng cho các thao tác crypto tốn kém.
+explanation: >-
+  Jet là một thay thế native cho một biểu thức Simplicity cụ thể, đã hình
+  thành đầy đủ, mà các node có thể thay thế trong khi vẫn bảo toàn đúng
+  ngữ nghĩa của nó. fold-right-n, map, zip và các biến thể của chúng không
+  phải là các biểu thức đơn lẻ mà là các schema xây dựng: mỗi lựa chọn của
+  hàm bên trong f tạo ra một biểu thức có cấu trúc khác nhau, nên không
+  một jet đơn lẻ nào có thể đại diện cho cả họ. Đó là lý do các mẫu lặp
+  này xuất hiện dưới dạng mã combinator thật trong các chương trình thực tế,
+  thường được sinh bởi các ngôn ngữ cấp cao như SimplicityHL.
+reviewed: false

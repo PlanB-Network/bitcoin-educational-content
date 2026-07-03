@@ -1,0 +1,13 @@
+question: Câți combinatori de bază are Simplicity?
+answer: Nouă (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Trei (compoziție secvențială, compoziție paralelă, condițional).
+  - Cinci (doar combinatorii comp, pair, case, take și drop).
+  - Doisprezece (cei nouă de bază plus trei combinatori de extensie suplimentari).
+explanation: >-
+  Simplicity are exact nouă combinatori de bază. Două operații de bază
+  (iden și unit), trei metode de compoziție (comp, pair, case) și patru
+  accesori (take, drop pentru produse, injl și injr pentru sume). Acești
+  nouă sunt suficienți pentru a exprima orice funcție între tipurile
+  Simplicity.
+reviewed: false

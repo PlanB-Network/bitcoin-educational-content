@@ -1,0 +1,13 @@
+question: Apa hubungan antara Simplicity dan sequent calculus milik Gentzen?
+answer: Sembilan kombinatornya mencerminkan fragmen konjungtif-disjungtif dari sequent calculus.
+wrong_answers:
+  - Simplicity diterjemahkan langsung dari bukti sequent calculus menjadi kode yang berjalan.
+  - Sequent calculus Gentzen digunakan saat runtime untuk memeriksa tipe program Simplicity.
+  - Keduanya sama sekali tidak berhubungan, dan kemiripan permukaannya murni kebetulan.
+explanation: >-
+  Sembilan aturan inti Simplicity sangat mirip dengan aturan dalam sequent
+  calculus Gentzen, analog dengan korespondensi Curry-Howard antara lambda
+  calculus dan deduksi natural. Hubungan ini memastikan bahwa tipe pada
+  premis lebih kecil daripada pada kesimpulan, yang dimanfaatkan oleh Bit
+  Machine untuk eksekusi yang efisien dengan penyalinan data yang minimal.
+reviewed: false

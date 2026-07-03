@@ -1,0 +1,13 @@
+question: Dlaczego wyrażenia Simplicity są serializowane jako DAG-i, a nie drzewa?
+answer: Aby zapobiec wykładniczemu wzrostowi, ponieważ współdzielone podwyrażenia są przechowywane tylko raz.
+wrong_answers:
+  - Ponieważ zwykłe struktury drzewiaste w ogóle nie mogą reprezentować rozgałęzień warunkowych.
+  - Aby umożliwić równoległe wykonywanie na wielu oddzielnych procesorach wielordzeniowych.
+  - Ponieważ protokół Liquid Network ściśle nakazuje tutaj format DAG.
+explanation: >-
+  Wyrażenia Simplicity w naturalny sposób tworzą drzewa, które mogłyby rosnąć
+  wykładniczo wraz ze wzrostem złożoności. Dzięki serializacji jako skierowane
+  grafy acykliczne (DAG-i) podwyrażenia pojawiające się wielokrotnie są
+  przechowywane raz i wskazywane przez wielu rodziców. Utrzymuje to rzeczywisty
+  rozmiar programów rosnący liniowo, a nie wykładniczo.
+reviewed: false

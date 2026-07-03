@@ -1,0 +1,13 @@
+question: Hoe werkt de logische AND-bewerking in Simplicity?
+answer: Er wordt vertakt op de eerste bit — als deze false is, wordt false teruggegeven, anders de tweede bit.
+wrong_answers:
+  - De twee booleaanse waarden worden vermenigvuldigd met behulp van het producttype.
+  - Er wordt een opzoektabel gebruikt met alle vier mogelijke invoercombinaties.
+  - De XOR-combinator wordt toegepast en daarna de NOT-combinator op het resultaat.
+explanation: >-
+  AND wordt gedefinieerd als case (injl unit) (drop iden). De case-combinator
+  vertakt op de eerste bit. Als deze false is (links-getagd), geeft injl unit
+  false terug, ongeacht de tweede bit. Als deze true is (rechts-getagd), geeft
+  drop iden de tweede bit ongewijzigd terug. Dit komt overeen met de
+  waarheidstabel van AND.
+reviewed: false

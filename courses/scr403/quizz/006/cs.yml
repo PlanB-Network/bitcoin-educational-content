@@ -1,0 +1,12 @@
+question: Co zaručuje věta o úplnosti ohledně Simplicity?
+answer: Že libovolnou funkci mezi dvěma typy v Simplicity lze sestavit z devíti kombinátorů.
+wrong_answers:
+  - Že programy v Simplicity vždy zaručeně skončí v konstantním čase.
+  - Že Simplicity je Turingovsky úplný a dokáže simulovat jakýkoli Turingův stroj.
+  - Že každý platný program v Simplicity má jedinou jedinečnou reprezentaci.
+explanation: >-
+  Věta o úplnosti dokazuje, že pro libovolnou funkci mezi konečnými typy
+  v Simplicity existuje výraz v Simplicity, který ji vypočítá. Konstruktivní
+  důkaz sestavuje vyhledávací tabulku pomocí vnořených výrazů case a scribe.
+  Toto bylo formálně ověřeno v dokazovacím asistentu Rocq.
+reviewed: false

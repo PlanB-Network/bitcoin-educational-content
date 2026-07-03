@@ -1,0 +1,17 @@
+question: "Å beregne #ᶜ(comp f g) hasher 128 byte: comp-taggen to ganger, deretter begge barne-CMR-ene. Hvorfor er dette fortsatt maksimalt ett SHA-256-kompresjonskall?"
+answer: Den første 64-byte-blokken er den konstante tag∥tag, hvis mellomtilstand er forhåndsberegnet én gang; bare blokken som inneholder barne-CMR-ene komprimeres.
+wrong_answers:
+  - Å bare fjerne SHA-256s avsluttende lengde-padding-blokk lar hele de 128 bytene få plass i ett kall.
+  - De to barne-CMR-ene XOR-es sammen til ett 32-byte digest, som krymper inndata til én enkelt blokk.
+  - SHA-256-midstate er en bred-blokk-variant som absorberer 128-byte meldingsblokker i én omgang.
+explanation: >-
+  SHA-256s kompresjonsfunksjon behandler faste 64-byte-blokker, så 128 byte
+  inndata trenger normalt to kall (pluss ett til for lengde-paddingen i
+  full SHA-256). Fordi hver kombinators første blokk er den konstante
+  tag∥tag, kan dens mellomtilstand forhåndsberegnes én gang og caches;
+  hvert uttrykk trenger da bare én fersk komprimering av blokken som
+  inneholder barnas CMR-er. Mellomtilstander fjerner også den avsluttende
+  padding-blokken, men det alene ville fortsatt etterlate to
+  komprimeringer — den forhåndsberegnede tag-mellomtilstanden er det som
+  bringer det ned til maksimalt ett.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Ni isano irihe riri hagati ya Simplicity na sequent calculus ya Gentzen?
+answer: Combinators zayo icenda zigereranya igice conjunctive-disjunctive ca sequent calculus.
+wrong_answers:
+  - Simplicity yahinduwe ata guca hirya ivuye mu vyemezo vya sequent calculus iba code ikora.
+  - Sequent calculus ya Gentzen ikoreshwa mu gihe c'ikoreshwa kugira ngo isuzume types za porogarama za Simplicity.
+  - Nta sano na rimwe bafitaniye, kandi ugusa kwo ku buringanire ni impanuka gusa.
+explanation: >-
+  Amategeko icenda y'ishimikiro ya Simplicity arasa cane n'amategeko yo muri
+  sequent calculus ya Gentzen, nk'uko isano rya Curry-Howard riri hagati ya
+  lambda calculus na natural deduction. Iri sano rituma types ziri mu premises
+  ziba nto kuruta iziri mu conclusions, ivyo Bit Machine ikoresha kugira ngo
+  ikore neza ikopiye amakuru make cane.
+reviewed: false

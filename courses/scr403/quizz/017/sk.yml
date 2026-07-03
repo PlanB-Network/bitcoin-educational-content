@@ -1,0 +1,13 @@
+question: Ako funguje prístupová notácia (O, I, H) v jazyku Simplicity?
+answer: O znamená 'take' (vľavo), I znamená 'drop' (vpravo) a H znamená 'iden' (celá hodnota).
+wrong_answers:
+  - O znamená výstup, I znamená vstup a H znamená zastavenie vykonávania programu.
+  - Sú to názvy premenných, ktoré kompilátor priraďuje hodnotám automaticky.
+  - O vyberá prvky s nepárnym indexom, I vyberá prvky s párnym indexom, H vyberá hlavu.
+explanation: >-
+  Skratka O/I/H poskytuje kompaktný spôsob navigácie vnorenými dvojicami.
+  O f je take f (extrahuje ľavú časť), I f je drop f (extrahuje pravú časť) a H je
+  iden (celá hodnota). Postupnosti ako I O H znamenajú drop(take(iden)),
+  čím sa extrahuje prvý prvok druhého prvku. Pripomína to
+  De Bruijnove indexy s binárnymi číslicami ako pozíciami v strome.
+reviewed: false

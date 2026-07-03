@@ -1,0 +1,13 @@
+question: Cum funcționează operația logică AND în Simplicity?
+answer: Ramifică pe baza primului bit — dacă este false, returnează false, altfel al doilea bit.
+wrong_answers:
+  - Înmulțește cele două valori booleene folosind tipul produs.
+  - Folosește un tabel de căutare cu toate cele patru combinații posibile de intrare.
+  - Aplică combinatorul XOR și apoi combinatorul NOT asupra rezultatului.
+explanation: >-
+  AND este definit ca case (injl unit) (drop iden). Combinatorul case
+  ramifică pe baza primului bit. Dacă este false (etichetat stânga), injl
+  unit returnează false indiferent de al doilea bit. Dacă este true
+  (etichetat dreapta), drop iden returnează al doilea bit neschimbat.
+  Acest lucru corespunde tabelului de adevăr al operației AND.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "Witness values को Commitment Merkle Root (CMR) से बाहर क्यों रखा जाता है?"
+answer: ताकि addresses witnesses के ज्ञात होने से पहले बन सकें, और unused branches निजी रूप से prune हो सकें।
+wrong_answers:
+  - क्योंकि witness values 256-bit hash में शामिल करने के लिए सचमुच बहुत बड़े होते हैं।
+  - क्योंकि witness values को Failure इफेक्ट द्वारा पूरी तरह अलग से validate किया जाता है।
+  - क्योंकि witness values शामिल करने से CMR non-deterministic हो जाएगा।
+explanation: >-
+  Witness expressions (जैसे signatures) spending time पर दिए जाते हैं, address creation time पर नहीं।
+  उन्हें CMR से बाहर रखने से दो महत्वपूर्ण properties संभव होती हैं: spending transaction मौजूद होने से पहले
+  addresses generate किए जा सकते हैं, और unexecuted conditional branches को
+  on-chain data से उनके associated witness values reveal किए बिना prune किया जा सकता है।
+reviewed: true

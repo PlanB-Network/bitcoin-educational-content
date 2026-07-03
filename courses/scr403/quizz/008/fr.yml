@@ -1,0 +1,13 @@
+question: Comment fonctionne l'opération logique AND (ET) en Simplicity ?
+answer: Elle effectue un branchement sur le premier bit — s'il est faux, elle renvoie faux, sinon le second bit.
+wrong_answers:
+  - Elle multiplie les deux valeurs booléennes entre elles à l'aide du type produit.
+  - Elle utilise une table de correspondance avec les quatre combinaisons d'entrée possibles.
+  - Elle applique le combinateur XOR puis le combinateur NOT au résultat.
+explanation: >-
+  AND est défini comme case (injl unit) (drop iden). Le combinateur case
+  effectue un branchement sur le premier bit. S'il est faux (étiqueté à
+  gauche), injl unit renvoie faux quel que soit le second bit. S'il est vrai
+  (étiqueté à droite), drop iden renvoie le second bit inchangé. Cela
+  correspond à la table de vérité du AND.
+reviewed: false

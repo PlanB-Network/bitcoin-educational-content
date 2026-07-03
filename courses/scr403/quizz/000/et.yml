@@ -1,0 +1,12 @@
+question: Miks välistab Simplicity dünaamilise mälu eraldamise täitmise ajal?
+answer: Et võimaldada staatilist analüüsi ja välistada terved vigade ja rünnakute klassid.
+wrong_answers:
+  - Sest Liquidi võrk ei toeta madalatasemelisi mäluoperatsioone.
+  - Et vähendada programmeerimise õppimiskõverat uute nutilepingute arendajate jaoks.
+  - Sest Bitcoin Scriptil endal puudub samuti igasugune dünaamiline mälu eraldamine.
+explanation: >-
+  Simplicity väldib dünaamilist mälu eraldamist, nii et kogu ressursikasutuse
+  saab määrata staatiliselt enne täitmist. See võimaldab prognoositavaid
+  ressursipiire ja kõrvaldab mäluhaldusega seotud haavatavused, mis on
+  plokiahela valideerimise kontekstis kriitilise tähtsusega.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Mikä SimplicityHL on ja miksi sitä tarvitaan?
+answer: Simplicityksi kääntyvä korkeamman tason kieli, joka hallinnoi nimeämistä ja näkyvyysaluetta.
+wrong_answers:
+  - Laitteistokuvauskieli Simplicityä ajavien ASIC-piirien louhintaan.
+  - Graafinen raahaa-ja-pudota-IDE Simplicity-kombinaattorien yhdistelemiseen.
+  - Testauskehys Simplicity-ohjelmien ajamiseen turvallisessa hiekkalaatikossa.
+explanation: >-
+  Raaka Simplicity muuttuu käsittämättömäksi tuotantotason monimutkaisuudessa,
+  koska kaikki datan käyttö on tehtävä sisäkkäisten take/drop-kombinaattorien
+  kautta. SimplicityHL tarjoaa tuttuja ohjelmointirakenteita — nimettyjä
+  muuttujia, näkyvyysalueita, kirjastojen tuonteja ja ohjausvuon — jotka
+  kääntyvät Simplicity-kombinaattori-lausekkeiksi. Loppukäyttäjät kirjoittavat
+  SimplicityHL:ää, kun taas Simplicity toimii formaalisti verifioituna
+  käännöskohteena.
+reviewed: false

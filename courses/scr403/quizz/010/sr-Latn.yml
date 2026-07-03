@@ -1,0 +1,12 @@
+question: Kako se vektori fiksne dužine grade u sistemu tipova Simplicity-ja?
+answer: Kroz ugnežđene proizvodne tipove dužine stepena dvojke (npr. A⁴ = A² × A²).
+wrong_answers:
+  - Korišćenjem specijalnog konstruktora tipa niza ugrađenog u jezik.
+  - Kroz rekurzivne zbirne tipove koji ulančavaju elemente zajedno u listu.
+  - Korišćenjem bafera promenljive dužine koji imaju fiksnu maksimalnu veličinu.
+explanation: >-
+  Simplicity gradi vektore od ugnežđenih proizvodnih tipova. A² je A × A,
+  A⁴ je A² × A², A⁸ je A⁴ × A⁴, i tako dalje. Ovo daje kolekcije
+  veličine stepena dvojke. Na primer, 𝟚²⁵⁶ (256-bitni heš) se gradi
+  ugnežđavanjem proizvoda 8 nivoa duboko od Bulovog tipa.
+reviewed: false

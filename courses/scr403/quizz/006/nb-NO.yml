@@ -1,0 +1,12 @@
+question: Hva garanterer fullstendighetsteoremet om Simplicity?
+answer: At enhver funksjon mellom to Simplicity-typer kan bygges fra de ni kombinatorene.
+wrong_answers:
+  - At Simplicity-programmer alltid garantert termineres i konstant tid.
+  - At Simplicity er Turing-komplett og kan simulere en hvilken som helst Turing-maskin.
+  - At hvert gyldig Simplicity-program har én enkelt unik representasjon.
+explanation: >-
+  Fullstendighetsteoremet beviser at for enhver funksjon mellom endelige
+  Simplicity-typer finnes det et Simplicity-uttrykk som beregner den.
+  Det konstruktive beviset bygger en oppslagstabell ved bruk av nøstede
+  case- og scribe-uttrykk. Dette er formelt verifisert i beviseren Rocq.
+reviewed: false

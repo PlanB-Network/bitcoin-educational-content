@@ -1,0 +1,15 @@
+question: Hva er SimplicityHL, og hvorfor trengs det?
+answer: Et høyere-nivå språk som kompilerer til Simplicity og håndterer navngiving og synlighetsomfang.
+wrong_answers:
+  - Et maskinvarebeskrivelsesspråk for å utvinne ASIC-ene som kjører Simplicity.
+  - Et grafisk dra-og-slipp-IDE for å koble sammen Simplicity-kombinatorer.
+  - Et testrammeverk for å kjøre Simplicity-programmer inne i en trygg sandkasse.
+explanation: >-
+  Rå Simplicity blir uoversiktlig ved kompleksitetsnivåer som brukes i
+  produksjon, fordi all datatilgang må gjøres gjennom nøstede take/drop-
+  kombinatorer. SimplicityHL tilbyr kjente programmeringskonstruksjoner —
+  navngitte variabler, synlighetsomfang, biblioteksimport og kontrollflyt —
+  som kompileres ned til Simplicity-kombinatoruttrykk. Sluttbrukere skriver
+  SimplicityHL, mens Simplicity fungerer som det formelt verifiserte
+  kompileringsmålet.
+reviewed: false

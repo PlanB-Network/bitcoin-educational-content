@@ -1,0 +1,12 @@
+question: "Milliseid kahte kõrvalmõju kasutab Simplicity Bitcoini ja Liquid rakenduste jaoks?"
+answer: "Failure effect (tüübi 1 erand) ja Reader effect (juurdepääs tehingukeskkonna andmetele)."
+wrong_answers:
+  - "State effect (muudetavad muutujad) ja Writer effect (logimine tehingulogisse)."
+  - "IO effect (võrgusuhtlus) ja Memory effect (dünaamiline mälueraldus)."
+  - "Continuation effect (tagasikutsed) ja Nondeterminism effect (mitu täitmisteed)."
+explanation: >-
+  Simplicity kasutab plokiahela rakenduste jaoks täpselt kahte kõrvalmõju. Failure effect võimaldab
+  arvutustel katkeda (nt kui allkirjakontroll ebaõnnestub) ja Reader effect võimaldab
+  avaldistel lugeda andmeid tehingukeskkonnast. Põhikombinaatorid jäävad puhtaks —
+  kõrvalmõjud lisatakse jetide kaudu.
+reviewed: true

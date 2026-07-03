@@ -1,0 +1,12 @@
+question: "De ce folosește bip0340-verify efectul Failure în loc să returneze un boolean (true/false)?"
+answer: Pentru a permite verificarea în lot a semnăturilor Schnorr, unde o verificare eșuată face să eșueze întregul lot.
+wrong_answers:
+  - Deoarece tipurile boolean sunt prea costisitoare în termeni de spațiu de bloc comparativ cu tipul unit.
+  - Deoarece sistemul de tipuri al Simplicity nu poate reprezenta valori boolean returnate de jets.
+  - Deoarece returnarea unei valori boolean simple ar încălca direct teorema de completitudine.
+explanation: >-
+  Dacă bip0340-verify ar returna un boolean, o verificare eșuată a semnăturii ar putea totuși duce la o ramură în care
+  scriptul reușește. În acest caz, verificatorul ar avea nevoie să știe ce semnătură anume
+  a eșuat, împiedicând verificarea în lot. Prin folosirea efectului Failure, o verificare eșuată întrerupe întotdeauna
+  întreaga computație, permițând verificarea eficientă în lot, unde multe semnături sunt grupate împreună.
+reviewed: true

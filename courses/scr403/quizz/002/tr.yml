@@ -1,0 +1,12 @@
+question: Paralel bileşimde girdiye ne olur?
+answer: Her iki işlem de aynı girdiyi alır ve çıktıları bir çarpım (çift) oluşturur.
+wrong_answers:
+  - Girdi ikiye bölünür ve her işlem ayrı bir parça alır.
+  - Bir işlem girdiyi önce işler, diğeri ise değiştirilmiş sonucu alır.
+  - Girdi etiketlenir ve işlenmek üzere yalnızca iki işlemden birine yönlendirilir.
+explanation: >-
+  Paralel bileşim, aynı değiştirilmemiş girdiyi eşzamanlı olarak iki işleme
+  de verir. Sonuçlar bir çarpım türünde (çift) paketlenir. Simplicity'de
+  bu, f ▵ g şeklinde yazılan pair kombinatörünü kullanır ve a girdisi için
+  ⟨f(a), g(a)⟩ üretir.
+reviewed: false

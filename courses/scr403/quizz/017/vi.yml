@@ -1,0 +1,13 @@
+question: Các bộ đệm có độ dài biến thiên được biểu diễn như thế nào trong hệ thống kiểu của Simplicity?
+answer: Dưới dạng các tích kiểu tùy chọn lồng nhau, mỗi lớp đánh dấu một khối có kích thước là lũy thừa của hai.
+wrong_answers:
+  - Bằng một kiểu mảng động đặc biệt được tích hợp trực tiếp vào ngôn ngữ.
+  - Thông qua các kiểu tổng đệ quy lớn dần lên ở mỗi lời gọi hàm.
+  - Dưới dạng các vector kích thước cố định được đệm bằng các giá trị 0 ở cuối.
+explanation: >-
+  Các bộ đệm dùng các kiểu tùy chọn lồng nhau. Ví dụ, Xᑉ⁸ mở rộng thành
+  (1 + X⁴) × ((1 + X²) × (1 + X)), mà dưới dạng đa thức cho ra
+  1 + X + X² + ... + X⁷ — biểu diễn các tập hợp từ 0 đến 7 phần tử.
+  Mỗi lớp tùy chọn cho biết liệu một khối có kích thước là lũy thừa của hai có hiện diện hay không,
+  qua đó mã hóa hiệu quả độ dài ở dạng nhị phân.
+reviewed: false

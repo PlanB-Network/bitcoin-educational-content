@@ -1,0 +1,12 @@
+question: Simplicity expressions trees වෙනුවට DAGs ලෙස serialize කරන්නේ ඇයි?
+answer: shared sub-expressions එක් වරක් පමණක් store කරන නිසා exponential growth වැළැක්වීමට.
+wrong_answers:
+  - plain tree structures වලට conditional branching කිසිසේත් නිරූපණය කළ නොහැකි නිසා.
+  - බොහෝ වෙනම multi-core processors හරහා parallel execution සක්‍රීය කිරීමට.
+  - Liquid Network protocol මෙහි DAG format එක දැඩිව නියම කරන නිසා.
+explanation: >-
+  Simplicity expressions ස්වභාවිකව trees සාදන අතර complexity වැඩි වන විට ඒවා
+  exponentialව වර්ධනය විය හැක. directed acyclic graphs (DAGs) ලෙස serialize කිරීමෙන්,
+  කිහිපවරක් පෙනෙන sub-expressions එක් වරක් store කර multiple parents විසින් reference කරයි.
+  මෙය සැබෑ program sizes exponential ලෙස නොව linear ලෙස වර්ධනය වීමට ඉඩ සලසයි.
+reviewed: false

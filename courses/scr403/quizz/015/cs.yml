@@ -1,0 +1,13 @@
+question: Proč kombinátor 'case' obsahuje ve své signatuře sdílený typ prostředí C?
+answer: Aby obě větve mohly číst sdílená kontextová data spolu s označeným vstupem.
+wrong_answers:
+  - Aby se omezila velikost vstupu a zabránilo se přetečení zásobníku.
+  - Aby umožnil rekurzivní volání tam a zpět mezi oběma větvemi.
+  - Aby ukládal výstup předchozího kombinátoru dříve v řetězci.
+explanation: >-
+  Kombinátor case má signaturu (A + B) × C ⊢ D. Typ C navíc funguje jako
+  sdílené prostředí, ke kterému mají přístup jak levá větev (f : A × C ⊢ D),
+  tak pravá větev (g : B × C ⊢ D). To je mocnější než jednoduchá konstrukce
+  if-then-else, protože větve dostávají jak svá specifická data, tak
+  kontextové informace potřebné pro výpočet.
+reviewed: false

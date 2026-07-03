@@ -1,0 +1,9 @@
+question: "在 Bitcoin 與 Liquid 應用中，Simplicity 使用了哪兩種副作用？"
+answer: "Failure 副作用（一個型別為 1 的例外）與 Reader 副作用（存取交易環境資料）。"
+wrong_answers:
+  - "State 副作用（可變變數）與 Writer 副作用（寫入交易日誌）。"
+  - "IO 副作用（網路通訊）與 Memory 副作用（動態記憶體配置）。"
+  - "Continuation 副作用（回呼）與 Nondeterminism 副作用（多重執行路徑）。"
+explanation: >-
+  Simplicity 在區塊鏈應用中恰好使用兩種副作用。Failure 副作用允許運算中止（例如，當簽章檢查失敗時），而 Reader 副作用則允許運算式從交易環境中讀取資料。核心組合子維持純粹——副作用是透過 jet 引入的。
+reviewed: true

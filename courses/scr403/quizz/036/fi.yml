@@ -1,0 +1,15 @@
+question: Lausekkeella push-<n on tyyppi Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Miksi sen tulosteen on oltava summa, joka sisältää täyden vektorityypin Aⁿ?
+answer: Puskuri Aᑉⁿ pitää sisällään korkeintaan n−1 alkiota, joten työntäminen täyteen puskuriin tuottaa n alkiota — vain Aⁿ voi esittää sen.
+wrong_answers:
+  - Summa antaa kutsujien valita halvemman koodauksen, koska vektorit serialisoituvat kompaktimmin kuin option-tulot.
+  - Push voi epäonnistua tyhjässä puskurissa, ja Aⁿ-haara on virhetapaus, joka kantaa vanhaa sisältöä.
+  - case vaatii, että jokainen summatyyppistä puskuria kuluttava funktio tuottaa myös summatyyppisen tulosteen.
+explanation: >-
+  Aᑉⁿ on täsmälleen niiden listojen tyyppi, joiden pituus on aidosti pienempi
+  kuin n, joten enimmäiskapasiteetissaan oleva puskuri pitää sisällään n−1
+  alkiota. Yhden lisääminen tuottaa täsmälleen n alkiota, joita Aᑉⁿ ei voi
+  esittää; Aⁿ-yhteenlaskettava palauttaa tuon ylivuotaneen tuloksen täytenä
+  vektorina. Ylivuodon koodaaminen tulostetyyppiin pitää push-<n:n
+  totaalifunktiona eikä osittaisfunktiona — tyhjän puskurin epäonnistumistapaus
+  kuuluu pop-<n:lle, ei push-lle.
+reviewed: false

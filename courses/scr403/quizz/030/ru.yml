@@ -1,0 +1,15 @@
+question: "Какое выражение из базовых комбинаторов реализует функцию распределения dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Внутри каждой ветви case окружение уже связано в пару с непомеченным
+  значением, поэтому f = injl iden и g = injr iden дают ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ и ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — именно dist. Вариант take/drop
+  проходит проверку типов, но отбрасывает эту пару, обозначая вместо
+  этого функцию типа (A + B) × C ⊢ A + C. pair производит произведение,
+  а не сумму, а copair — это вообще не комбинатор Simplicity: dist —
+  это как раз то, что один copair выразить не может.
+reviewed: false

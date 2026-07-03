@@ -1,0 +1,16 @@
+question: "Welke kerncombinator-expressie implementeert de distributiefunctie dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Binnen elke tak van case is de omgeving al gekoppeld aan de ongetagde
+  waarde, dus f = injl iden en g = injr iden geven ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ en ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — precies dist. De take/drop-variant
+  is wel goedgetypeerd, maar verwerpt de koppeling en representeert in
+  plaats daarvan een functie van het type (A + B) × C ⊢ A + C. pair
+  levert een product op in plaats van een som, en copair is helemaal
+  geen Simplicity-combinator — dist is precies wat copair alleen niet
+  kan uitdrukken.
+reviewed: false

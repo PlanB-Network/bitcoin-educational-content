@@ -1,0 +1,13 @@
+question: Co twierdzenie o zupełności gwarantuje w odniesieniu do Simplicity?
+answer: Że dowolną funkcję między dwoma typami Simplicity można zbudować z dziewięciu kombinatorów.
+wrong_answers:
+  - Że programy Simplicity zawsze kończą się w stałym czasie.
+  - Że Simplicity jest kompletny Turinga i może symulować dowolną maszynę Turinga.
+  - Że każdy poprawny program Simplicity ma jedną jedyną unikalną reprezentację.
+explanation: >-
+  Twierdzenie o zupełności dowodzi, że dla dowolnej funkcji między skończonymi
+  typami Simplicity istnieje wyrażenie Simplicity, które ją oblicza.
+  Konstruktywny dowód buduje tablicę przeglądową przy użyciu zagnieżdżonych
+  wyrażeń case i scribe. Zostało to formalnie zweryfikowane w asystencie
+  dowodowym Rocq.
+reviewed: false

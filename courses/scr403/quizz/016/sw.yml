@@ -1,0 +1,13 @@
+question: Uhusiano kati ya Simplicity na sequent calculus ya Gentzen ni upi?
+answer: Combinator zake tisa huakisi sehemu ya kiunganishi-kiutenganishi ya sequent calculus.
+wrong_answers:
+  - Simplicity ilitafsiriwa moja kwa moja kutoka kwa ithibati za sequent calculus kuwa code inayofanya kazi.
+  - Sequent calculus ya Gentzen hutumika wakati wa runtime kufanya type-check ya programu za Simplicity.
+  - Hazihusiani kabisa, na kufanana kwa nje ni sadfa tu.
+explanation: >-
+  Kanuni tisa za msingi za Simplicity zinafanana sana na kanuni katika
+  sequent calculus ya Gentzen, kwa mlinganisho na ulinganifu wa Curry-Howard kati ya
+  lambda calculus na natural deduction. Muunganisho huu huhakikisha kwamba
+  types katika premises ni ndogo kuliko katika conclusions, jambo ambalo Bit
+  Machine hulitumia kwa utekelezaji wenye ufanisi na kunakili data kidogo sana.
+reviewed: false

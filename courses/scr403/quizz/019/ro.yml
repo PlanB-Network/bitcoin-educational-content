@@ -1,0 +1,15 @@
+question: Ce este SimplicityHL și de ce este necesar?
+answer: Un limbaj de nivel mai înalt care se compilează în Simplicity și gestionează denumirea și domeniul de vizibilitate.
+wrong_answers:
+  - Un limbaj de descriere hardware pentru minarea ASIC-urilor care rulează Simplicity.
+  - Un IDE grafic drag-and-drop pentru conectarea combinatorilor Simplicity.
+  - Un framework de testare pentru rularea programelor Simplicity într-un sandbox sigur.
+explanation: >-
+  Simplicity brut devine incomprehensibil la nivelurile de complexitate din
+  producție, deoarece tot accesul la date trebuie făcut prin combinatori
+  take/drop imbricați. SimplicityHL oferă construcții familiare de
+  programare — variabile denumite, domeniu de vizibilitate, importuri de
+  biblioteci și flux de control — care se compilează în expresii de
+  combinatori Simplicity. Utilizatorii finali scriu SimplicityHL, în timp
+  ce Simplicity servește drept țintă de compilare formal verificată.
+reviewed: false

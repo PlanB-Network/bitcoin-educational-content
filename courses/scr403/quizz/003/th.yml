@@ -1,0 +1,11 @@
+question: sum type (A + B) คืออะไรใน Simplicity?
+answer: "tagged union: ค่าหนึ่งเป็นได้ทั้ง A ที่ติด tag ซ้าย หรือ B ที่ติด tag ขวา."
+wrong_answers:
+  - ชนิดข้อมูลที่มีค่าทั้งหมดจากทั้ง A และ B พร้อมกัน.
+  - การบวกทางเลขคณิตของขนาดบิตของชนิดข้อมูลองค์ประกอบทั้งสอง.
+  - function type ที่ map อินพุตทุกค่าจาก A ไปยังเอาต์พุตใน B.
+explanation: >-
+  sum type A + B คือ tagged union แต่ละค่าพก tag หนึ่งบิตที่บอกว่าเป็น
+  variant ซ้าย (ชนิด A) หรือ variant ขวา (ชนิด B) แม้ A และ B จะเป็นชนิดเดียวกัน
+  ค่าที่ติด tag ซ้ายและค่าที่ติด tag ขวาก็ยังคงแยกจากกัน.
+reviewed: false

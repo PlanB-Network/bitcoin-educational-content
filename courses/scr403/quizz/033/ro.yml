@@ -1,0 +1,15 @@
+question: Conform regulilor de tipare „tipuri mai mici în premise", care combinatori de bază mută efectiv date în timpul execuției?
+answer: Doar iden și comp; ceilalți șapte sunt implementați doar prin contabilizare (bookkeeping), fără nicio copiere de date.
+wrong_answers:
+  - Doar take și drop; extragerea unei componente obligă mașina să o copieze din produs.
+  - Doar pair și case; duplicarea intrării pentru două ramuri și direcționarea pe baza unei etichete mută date.
+  - Doar injl și injr; adăugarea unei etichete rescrie valoarea într-o reprezentare de tip sumă mai mare.
+explanation: >-
+  În mod contraintuitiv, combinatorii care par să acceseze date (take,
+  drop, pair, case, injl, injr) nu necesită nicio copiere: deoarece
+  premisele din regulile de tipare implică tipuri mai mici decât
+  concluziile lor, Bit Machine îi poate implementa doar prin
+  contabilizare. Doar iden, care copiază întreaga sa intrare la ieșire, și
+  comp, care materializează o valoare intermediară transmisă de la f la g,
+  mută efectiv date.
+reviewed: false

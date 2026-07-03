@@ -1,0 +1,13 @@
+question: Was ist der Unit-Typ (𝟙), und warum ist er nützlich, obwohl er keine Information trägt?
+answer: Er enthält einen Wert (das leere Tupel) und ist die Grundlage für alle anderen Typen.
+wrong_answers:
+  - Er repräsentiert die Zahl 1 und wird direkt für arithmetische Operationen verwendet.
+  - Er ist ein spezieller Debugging-Typ, der Ausführungsprotokolle in eine Datei schreibt.
+  - Er speichert genau ein Bit an Daten, das für boolesche Operationen verwendet wird.
+explanation: >-
+  Der Unit-Typ 𝟙 hat genau einen Wert — das leere Tupel ⟨⟩. Obwohl er null
+  Bit an Information trägt, ist er als Ausgangspunkt unentbehrlich, aus dem
+  Summen- und Produkttypen alle nützlichen Datentypen aufbauen. Zum Beispiel
+  ist der boolesche Typ 𝟚 gleich 𝟙 + 𝟙, vollständig aus Unit-Typen
+  konstruiert.
+reviewed: false

@@ -1,0 +1,11 @@
+question: "Kiểu của một chương trình Simplicity là gì?"
+answer: 1 ⊢ 1 (đơn vị sang đơn vị) — không có đầu vào hay đầu ra có ý nghĩa; các hiệu ứng phụ thực hiện I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — nó nhận dữ liệu giao dịch và trả về một boolean hợp lệ.
+  - 2^256 ⊢ 2^256 — nó nhận một đầu vào hash và trả về một giá trị đầu ra hash mới.
+  - Bất kỳ kiểu A ⊢ B nào — các chương trình có thể có các kiểu đầu vào và đầu ra hoàn toàn tùy ý.
+explanation: >-
+  Một chương trình Simplicity được định nghĩa là một biểu thức có kiểu 1 ⊢ 1. Hiệu ứng Reader nắm bắt
+  đầu vào môi trường giao dịch, trong khi hiệu ứng Failure xác định thành công hay thất bại.
+  Các hiệu ứng phụ này xử lý toàn bộ I/O thay vì chính các kiểu Simplicity.
+reviewed: true

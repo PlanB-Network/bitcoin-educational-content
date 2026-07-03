@@ -1,0 +1,12 @@
+question: "Tại sao các giá trị witness bị loại khỏi Commitment Merkle Root (CMR)?"
+answer: Để địa chỉ được hình thành trước khi biết witness, và các nhánh không dùng có thể được cắt tỉa riêng tư.
+wrong_answers:
+  - Vì các giá trị witness đơn giản là quá lớn để đưa vào một hash 256 bit.
+  - Vì các giá trị witness được xác thực hoàn toàn riêng biệt bởi hiệu ứng Failure.
+  - Vì việc đưa các giá trị witness vào sẽ làm CMR không xác định.
+explanation: >-
+  Các biểu thức witness (như chữ ký) được cung cấp tại thời điểm chi tiêu, không phải lúc tạo địa chỉ.
+  Việc loại chúng khỏi CMR cho phép hai thuộc tính quan trọng: địa chỉ có thể được tạo trước khi
+  giao dịch chi tiêu tồn tại, và các nhánh có điều kiện không được thực thi có thể được cắt tỉa khỏi
+  dữ liệu on-chain mà không tiết lộ các giá trị witness liên quan của chúng.
+reviewed: true

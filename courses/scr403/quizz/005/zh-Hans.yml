@@ -1,0 +1,11 @@
+question: "'take' 组合子做什么？"
+answer: 它提取一个积的左组成部分，并丢弃右组成部分。
+wrong_answers:
+  - 它从和类型中移除一个元素，并丢弃标签位。
+  - 它把两个单独操作首尾顺序组合起来。
+  - 它用左标签包裹一个值，以构造一个新的和类型。
+explanation: >-
+  take 组合子是积类型的提取器。给定 take f 应用于一个对 ⟨a, b⟩，
+  它会丢弃 b，并把 f 应用于 a。与 iden 结合时，take iden 会提取
+  任意对的第一个元素。
+reviewed: false

@@ -1,0 +1,13 @@
+question: "Varför använder bip0340-verify Failure-effekten istället för att returnera en boolesk (true/false)?"
+answer: För att möjliggöra batchverifiering av Schnorr-signaturer, där en misslyckad kontroll fäller hela batchen.
+wrong_answers:
+  - Eftersom booleska typer är för dyra i termer av blockutrymme jämfört med enhetstypen.
+  - Eftersom Simplicitys typsystem inte kan representera booleska returvärden från jets.
+  - Eftersom att returnera ett vanligt booleskt värde direkt skulle bryta mot fullständighetsteoremet.
+explanation: >-
+  Om bip0340-verify returnerade en boolesk, skulle en misslyckad signaturkontroll ändå kunna leda
+  till en gren där skriptet lyckas. I så fall skulle verifieraren behöva veta vilken specifik
+  signatur som misslyckades, vilket skulle förhindra batchverifiering. Genom att använda
+  Failure-effekten avbryter en misslyckad kontroll alltid hela beräkningen, vilket möjliggör
+  effektiv batchverifiering där många signaturer samlas ihop.
+reviewed: true

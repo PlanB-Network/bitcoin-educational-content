@@ -1,0 +1,17 @@
+question: In welke zin is conditionele compositie het duale van parallelle compositie?
+answer: Parallelle compositie geeft beide operaties dezelfde input en koppelt hun outputs (een product); conditionele compositie neemt een som van inputs en beide takken delen één outputtype.
+wrong_answers:
+  - Parallelle compositie moet haar twee operaties gelijktijdig uitvoeren; conditionele compositie voert ze sequentieel uit en geeft alleen de door de tag geselecteerde tak terug.
+  - Beide draaien op één gedeelde input; parallelle compositie behoudt het outputpaar, terwijl conditionele compositie beide takken uitvoert en de niet-geselecteerde verwerpt.
+  - Parallelle compositie dupliceert vooraf haar input, terwijl conditionele compositie achteraf haar output dupliceert, waardoor omgewisseld wordt waar het kopiëren plaatsvindt.
+explanation: >-
+  De dualiteit is een uitwisseling van product/som waarbij het gedeelde type
+  van kant wisselt: parallelle compositie geeft beide operaties hetzelfde
+  inputtype en koppelt hun outputs tot een product, terwijl conditionele
+  compositie een som (tagged union) van de twee inputtypes neemt en beide
+  takken hetzelfde outputtype moeten opleveren. Gelijktijdigheid is
+  irrelevant — het artikel benadrukt dat parallelle compositie sequentieel
+  geïmplementeerd kan worden — en conditionele compositie voert precies
+  één tak uit, gekozen door de tag, in plaats van beide uit te voeren en
+  er één te verwerpen.
+reviewed: false

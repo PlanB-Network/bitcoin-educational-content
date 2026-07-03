@@ -1,0 +1,13 @@
+question: Dlaczego kombinator 'case' zawiera w swojej sygnaturze wspólny typ środowiska C?
+answer: Aby obie gałęzie mogły odczytywać wspólne dane kontekstowe obok oznaczonego wejścia.
+wrong_answers:
+  - Aby ograniczyć rozmiar wejścia w celu zapobiegania przepełnieniom stosu.
+  - Aby umożliwić rekurencyjne wywołania w obie strony między dwiema gałęziami.
+  - Aby przechowywać wyjście poprzedniego kombinatora wcześniej w łańcuchu.
+explanation: >-
+  Kombinator case ma sygnaturę (A + B) × C ⊢ D. Dodatkowy typ C
+  działa jako wspólne środowisko, do którego dostęp mają zarówno lewa gałąź (f : A × C ⊢ D),
+  jak i prawa gałąź (g : B × C ⊢ D). Jest to bardziej rozbudowane
+  niż proste if-then-else, ponieważ gałęzie otrzymują zarówno swoje konkretne
+  dane, jak i informacje kontekstowe potrzebne do obliczeń.
+reviewed: false

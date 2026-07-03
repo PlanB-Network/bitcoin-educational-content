@@ -1,0 +1,17 @@
+question: In che senso la composizione condizionale è la duale della composizione parallela?
+answer: La composizione parallela alimenta entrambe le operazioni con un solo input e accoppia i loro output (un prodotto); quella condizionale prende una somma di input e i due rami condividono un solo tipo di output.
+wrong_answers:
+  - La composizione parallela deve eseguire le sue due operazioni simultaneamente; quella condizionale le esegue in sequenza e restituisce solo il ramo selezionato dal tag.
+  - Entrambe operano su un unico input condiviso; la parallela mantiene la coppia di output, mentre la condizionale esegue entrambi i rami e scarta quello non selezionato.
+  - La parallela duplica il proprio input in anticipo mentre la condizionale duplica il proprio output in seguito, scambiando il momento in cui avviene la copia.
+explanation: >-
+  La dualità è uno scambio prodotto/somma con il tipo condiviso che cambia
+  lato: la composizione parallela dà a entrambe le operazioni lo stesso
+  tipo di input e accoppia i loro output in un prodotto, mentre la
+  composizione condizionale prende una somma (unione taggata) dei due tipi
+  di input e i due rami devono produrre lo stesso tipo di output. La
+  simultaneità è irrilevante — l'articolo sottolinea che la composizione
+  parallela può essere implementata in modo sequenziale — e la composizione
+  condizionale esegue esattamente un ramo, scelto dal tag, invece di
+  eseguirli entrambi e scartarne uno.
+reviewed: false

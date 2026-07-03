@@ -1,0 +1,12 @@
+question: Vectors z'uburebure budahinduka zubakwa gute mu ndinganizo y'ubwoko ya Simplicity?
+answer: Biciye mu bwoko bw'igikubo buringaniye imbere mu bundi bufise uburebure bw'inkomezi za kabiri (nk'akarorero A⁴ = A² × A²).
+wrong_answers:
+  - Hakoreshejwe umwubatsi w'ubwoko bwa array udasanzwe wubatswe mu rurimi.
+  - Biciye mu bwoko bw'igiteranyo bwisubiramwo buhuza ibintu mu rutonde.
+  - Hakoreshejwe buffers z'uburebure buhindagurika zifise ingero ntarengwa idahinduka.
+explanation: >-
+  Simplicity yubaka vectors ivuye ku bwoko bw'igikubo buringaniye imbere mu bundi. A² ni A × A,
+  A⁴ ni A² × A², A⁸ ni A⁴ × A⁴, gutyo gutyo. Ivyo bitanga imigwi ifise ubunini
+  bw'inkomezi za kabiri. Nk'akarorero, 𝟚²⁵⁶ (hash y'intibice 256) yubakwa
+  mu kuzingazinga ibikubo ku nzego 8 zivuye ku bwoko bwa boolean.
+reviewed: false

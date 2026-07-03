@@ -1,0 +1,12 @@
+question: Một bộ cộng nửa tính gì?
+answer: Bit nhớ (AND) và bit tổng (XOR) của hai bit đầu vào.
+wrong_answers:
+  - Tổng của hai số nguyên nhiều bit với lan truyền bit nhớ.
+  - Giá trị trung bình của hai bit được làm tròn xuống.
+  - OR và AND theo bit của hai bit đầu vào.
+explanation: >-
+  Một bộ cộng nửa nhận hai bit đơn và tạo ra hai đầu ra bằng hợp thành song song:
+  bit nhớ (AND của các đầu vào) và bit tổng (XOR của các đầu vào). Trong
+  Simplicity, nó được định nghĩa là and ▵ xor, chạy cả hai thao tác trên cùng
+  một cặp đầu vào.
+reviewed: false

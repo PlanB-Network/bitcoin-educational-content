@@ -1,0 +1,12 @@
+question: Unit type (𝟙) क्या है, और information carry न करने के बावजूद यह उपयोगी क्यों है?
+answer: इसमें एक value (empty tuple) होती है और यह बाकी सभी types का base है।
+wrong_answers:
+  - यह संख्या 1 को represent करता है और directly arithmetic operations के लिए उपयोग होता है।
+  - यह एक special debugging type है जो execution traces को file में log करता है।
+  - यह boolean operations के लिए उपयोग होने वाला ठीक एक single bit data store करता है।
+explanation: >-
+  Unit type 𝟙 में ठीक एक value होती है — empty tuple ⟨⟩। हालांकि यह zero
+  bits of information carry करता है, यह उस seed के रूप में essential है जिससे
+  sum और product types सभी useful data types बनाते हैं। उदाहरण के लिए,
+  boolean type 𝟚, 𝟙 + 𝟙 है, जो पूरी तरह unit types से constructed है।
+reviewed: false

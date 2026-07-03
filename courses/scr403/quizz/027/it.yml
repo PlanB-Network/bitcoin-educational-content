@@ -1,0 +1,12 @@
+question: "Perché i valori di witness sono esclusi dalla Commitment Merkle Root (CMR)?"
+answer: Così gli indirizzi si formano prima che i witness siano noti, e i rami inutilizzati vengono potati privatamente.
+wrong_answers:
+  - Perché i valori di witness sono semplicemente troppo grandi per essere inclusi in un hash a 256 bit.
+  - Perché i valori di witness vengono validati interamente in modo separato dall'effetto Failure.
+  - Perché includere i valori di witness renderebbe la CMR non deterministica.
+explanation: >-
+  Le espressioni witness (come le firme) vengono fornite al momento della spesa, non al momento della
+  creazione dell'indirizzo. Escluderle dalla CMR abilita due proprietà importanti: gli indirizzi
+  possono essere generati prima che la transazione di spesa esista, e i rami condizionali non
+  eseguiti possono essere potati dai dati on-chain senza rivelare i loro valori di witness associati.
+reviewed: true

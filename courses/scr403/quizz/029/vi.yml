@@ -1,0 +1,15 @@
+question: Simplicity loại bỏ đệ quy không giới hạn. Vậy phương án thay thế mà nó dự định dùng cho phép lặp không giới hạn là gì?
+answer: Các khế ước đệ quy trải rộng phép tính qua nhiều giao dịch, giữ cho chi phí của mỗi giao dịch có thể dự đoán được.
+wrong_answers:
+  - Tính năng delegation, được thiết kế riêng để cung cấp một dạng đệ quy không giới hạn có định mức bên trong một giao dịch duy nhất.
+  - Chín combinator cốt lõi, mà tính đầy đủ của chúng cho phép một cấu trúc điểm bất động (fixed-point) mã hóa bất kỳ hàm đệ quy nào.
+  - Loop unrolling tại thời điểm biên dịch, trong đó phân tích tĩnh suy ra số lần lặp tối đa và nhân bản phần thân.
+explanation: >-
+  Luận điểm của bài viết là phép lặp không giới hạn được triển khai tốt hơn
+  dưới dạng các khế ước đệ quy tính toán qua nhiều giao dịch, cách này
+  tránh được các ràng buộc về không gian khối và tính chuẩn (standardness) và làm cho chi phí
+  giao dịch có thể dự đoán được. Delegation chỉ có thể bị lạm dụng để tạo ra thứ gì đó
+  giống với đệ quy không giới hạn — đó không phải là cơ chế được dự định — và
+  chín combinator cốt lõi chỉ đầy đủ đối với các phép tính hữu hạn, nên
+  không tồn tại cấu trúc điểm bất động nào bên trong một chương trình đơn lẻ.
+reviewed: false

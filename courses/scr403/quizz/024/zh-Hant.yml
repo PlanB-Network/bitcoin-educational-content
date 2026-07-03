@@ -1,0 +1,9 @@
+question: "Simplicity 程式的型別是什麼？"
+answer: 1 ⊢ 1（單位到單位）—— 沒有有意義的輸入或輸出；I/O 由副作用來完成。
+wrong_answers:
+  - TxEnv ⊢ Bool —— 它接收交易資料並回傳一個表示有效性的布林值。
+  - 2^256 ⊢ 2^256 —— 它接收一個雜湊輸入並回傳一個新的雜湊輸出值。
+  - 任意型別 A ⊢ B —— 程式可以有完全任意的輸入與輸出型別。
+explanation: >-
+  一個 Simplicity 程式被定義為型別為 1 ⊢ 1 的運算式。Reader 副作用捕捉交易環境的輸入，而 Failure 副作用則決定成功或失敗。這些副作用處理了所有的 I/O，而非由 Simplicity 型別本身來處理。
+reviewed: true

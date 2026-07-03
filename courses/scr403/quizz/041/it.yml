@@ -1,0 +1,19 @@
+question: Un output Simplicity usa il punto NUMS fisso di BIP-0341 come chiave interna. Perché il key-spend è dimostrabilmente impossibile, e cosa aggiunge la randomizzazione del punto NUMS?
+answer: Nessuno conosce il logaritmo discreto del punto NUMS, quindi non può esistere alcuna firma key-path; randomizzare aggiunge solo privacy.
+wrong_answers:
+  - Il punto NUMS non giace sulla curva, quindi le firme key-path falliscono; randomizzare lo riporta sulla curva.
+  - La chiave privata del punto NUMS è zero, cosa che il consenso rifiuta; randomizzare protegge il tweak dai canali laterali.
+  - Modificare (tweak) un punto NUMS produce una chiave fuori intervallo, rendendo il key-spend non standard; randomizzare evita il riutilizzo di indirizzi.
+explanation: >-
+  Un punto NUMS ('Nothing-Up-My-Sleeve') è un punto della curva
+  perfettamente valido costruito in modo che nessuno conosca una chiave
+  privata corrispondente — il suo logaritmo discreto è ignoto. Poiché
+  una spesa key-path richiede una firma Schnorr sotto la chiave interna,
+  e nessuna firma del genere può essere prodotta senza la chiave
+  privata, il percorso key-spend è dimostrabilmente inutilizzabile e i
+  fondi possono muoversi solo tramite il percorso di script impegnato.
+  Randomizzare il punto NUMS non cambia nulla di tutto ciò; nasconde
+  semplicemente il fatto che il key-spend è disabilitato, così l'output
+  appare come qualsiasi altro output Taproot — un beneficio per la
+  privacy.
+reviewed: false

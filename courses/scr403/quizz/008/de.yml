@@ -1,0 +1,13 @@
+question: Wie funktioniert die logische UND-Operation in Simplicity?
+answer: Sie verzweigt anhand des ersten Bits — ist es falsch, wird falsch zurückgegeben, sonst das zweite Bit.
+wrong_answers:
+  - Sie multipliziert die beiden booleschen Werte mithilfe des Produkttyps miteinander.
+  - Sie verwendet eine Nachschlagetabelle mit allen vier möglichen Eingabekombinationen.
+  - Sie wendet den XOR-Kombinator und anschließend den NOT-Kombinator auf das Ergebnis an.
+explanation: >-
+  AND ist definiert als case (injl unit) (drop iden). Der case-Kombinator
+  verzweigt anhand des ersten Bits. Ist es falsch (links-getaggt), gibt
+  injl unit unabhängig vom zweiten Bit falsch zurück. Ist es wahr
+  (rechts-getaggt), gibt drop iden das zweite Bit unverändert zurück. Dies
+  entspricht der Wahrheitstabelle von AND.
+reviewed: false

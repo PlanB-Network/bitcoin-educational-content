@@ -1,0 +1,11 @@
+question: "Simplicity ikoresha TapLeaf version iyihe iyo ishizwe muri commitment munsi ya BIP-0341 Taproot?"
+answer: Version 0xbe, ari yo byte value 190 mu decimal.
+wrong_answers:
+  - Version 0xc0, imwe na Tapscript ya Bitcoin Script.
+  - Version 0x00, version isanzwe ya leaf ya Taproot.
+  - Version 0xff, version ibitswe ku scripts z'igerageza.
+explanation: >-
+  Porogarama za Simplicity zishirwa muri commitment mu maderesi ya Taproot hakoreshejwe TapLeaf version 0xbe. Ivyo
+  bitandukanya scripts za Simplicity na Bitcoin Tapscript (ikoresha version 0xc0) kandi bigatuma
+  network imenya no kwemeza neza porogarama za Simplicity iyo ziboneka on-chain.
+reviewed: true

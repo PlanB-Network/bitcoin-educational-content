@@ -1,0 +1,16 @@
+question: Simplicity utesluter obegränsad rekursion. Vad är dess avsedda ersättning för obegränsad iteration?
+answer: Rekursiva covenants som sprider beräkningen över flera transaktioner, vilket håller varje transaktions kostnad förutsägbar.
+wrong_answers:
+  - Delegeringsfunktionen, särskilt byggd för att ge en avmätt form av obegränsad rekursion inom en enda transaktion.
+  - De nio kärnkombinatorerna, vars fullständighet gör att en fixpunktskonstruktion kan koda vilken rekursiv funktion som helst.
+  - Looputrullning vid kompileringstillfället, där statisk analys härleder det maximala antalet iterationer och duplicerar kroppen.
+explanation: >-
+  Artikelns tes är att obegränsad iteration bättre implementeras som
+  rekursiva covenants som beräknar över flera transaktioner, vilket
+  undviker begränsningar i blockutrymme och standardisering och gör
+  transaktionskostnader förutsägbara. Delegering kan endast missbrukas för
+  att producera något som liknar obegränsad rekursion — det är inte den
+  avsedda mekanismen — och de nio kärnkombinatorerna är endast fullständiga
+  för ändliga beräkningar, så ingen fixpunktskonstruktion existerar inom
+  ett enda program.
+reviewed: false

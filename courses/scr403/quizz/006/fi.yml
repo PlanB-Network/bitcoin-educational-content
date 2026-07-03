@@ -1,0 +1,12 @@
+question: Mitä täydellisyyslause takaa Simplicitystä?
+answer: Että mikä tahansa funktio kahden Simplicity-tyypin välillä voidaan rakentaa yhdeksästä kombinaattorista.
+wrong_answers:
+  - Että Simplicity-ohjelmien taataan aina päättyvän vakioajassa.
+  - Että Simplicity on Turing-täydellinen ja voi simuloida mitä tahansa Turingin konetta.
+  - Että jokaisella kelvollisella Simplicity-ohjelmalla on yksi ainoa yksikäsitteinen esitys.
+explanation: >-
+  Täydellisyyslause todistaa, että mille tahansa funktiolle äärellisten
+  Simplicity-tyyppien välillä on olemassa Simplicity-lauseke, joka laskee sen.
+  Konstruktiivinen todistus rakentaa hakutaulun sisäkkäisillä case- ja
+  scribe-lausekkeilla. Tämä on formaalisti verifioitu Rocq-todistusassistentissa.
+reviewed: false

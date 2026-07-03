@@ -1,0 +1,12 @@
+question: "Welche zwei Seiteneffekte werden in Simplicity für Bitcoin- und Liquid-Anwendungen verwendet?"
+answer: "Der Failure-Effekt (eine Ausnahme vom Typ 1) und der Reader-Effekt (Zugriff auf Transaktionsumgebungsdaten)."
+wrong_answers:
+  - "Der State-Effekt (veränderliche Variablen) und der Writer-Effekt (Protokollierung in ein Transaktionslog)."
+  - "Der IO-Effekt (Netzwerkkommunikation) und der Memory-Effekt (dynamische Speicherzuweisung)."
+  - "Der Continuation-Effekt (Callbacks) und der Nondeterminism-Effekt (mehrere Ausführungspfade)."
+explanation: >-
+  Simplicity verwendet für Blockchain-Anwendungen genau zwei Seiteneffekte. Der Failure-Effekt
+  erlaubt es Berechnungen abzubrechen (z. B. wenn eine Signaturprüfung fehlschlägt), und der
+  Reader-Effekt erlaubt es Ausdrücken, Daten aus der Transaktionsumgebung zu lesen. Die
+  Kernkombinatoren bleiben rein — Seiteneffekte werden durch Jets eingeführt.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Buffers zifise uburebure buhinduka ziserurwa gute muri sisitemu y'ubwoko ya Simplicity?
+answer: Nk'ama products y'option type ziteretse mu zindi, buri layer yerekana block ya power-of-two.
+wrong_answers:
+  - Hakoreshejwe ubwoko budasanzwe bwa dynamic array bwubatswe ata guca hirya mu rurimi.
+  - Biciye muri recursive sum types zigenda zirakura kuri buri hamagara rya function.
+  - Nk'ama vectors y'ubunini budahinduka yuzuzwa zero values inyuma.
+explanation: >-
+  Buffers zikoresha option types ziteretse mu zindi. Nk'akarorero, Xᑉ⁸ yaguka iba
+  (1 + X⁴) × ((1 + X²) × (1 + X)), iyo nk'ipolynomial itanga
+  1 + X + X² + ... + X⁷ — iserukira collections zifise elements kuva kuri 0 gushika kuri 7.
+  Buri option layer yerekana nimba block ya power-of-two ihari,
+  igakora encoding y'uburebure mu buryo bwa binary.
+reviewed: false

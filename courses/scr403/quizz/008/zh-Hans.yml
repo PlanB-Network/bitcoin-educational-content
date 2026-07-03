@@ -1,0 +1,12 @@
+question: 在 Simplicity 中，逻辑 AND 操作如何工作？
+answer: 它根据第一个位进行分支——如果为 false，则返回 false；否则返回第二个位。
+wrong_answers:
+  - 它使用积类型把两个布尔值相乘。
+  - 它使用一个包含四种可能输入组合的查找表。
+  - 它应用 XOR 组合子，然后对结果应用 NOT 组合子。
+explanation: >-
+  AND 被定义为 case (injl unit) (drop iden)。case 组合子根据第一个位
+  进行分支。如果它是 false（带左标签），injl unit 会无视第二个位并返回
+  false。如果它是 true（带右标签），drop iden 会原样返回第二个位。
+  这与 AND 真值表一致。
+reviewed: false

@@ -1,0 +1,12 @@
+question: operation f (A → B) को operation g (B → C) के साथ chain करने पर sequential composition क्या produce करती है?
+answer: A से C तक एक single composite operation, जिसमें f का output g में feed होता है।
+wrong_answers:
+  - एक pair value जिसमें type B और C के दोनों intermediate outputs होते हैं।
+  - एक conditional जो input के आधार पर f और g के बीच चुनता है।
+  - दो separate operations जो independent रूप से चलते हैं और कोई data share नहीं करते।
+explanation: >-
+  Sequential composition दो operations को end-to-end chain करती है। पहले
+  operation का output दूसरे का input बन जाता है। Simplicity में इसे comp
+  combinator से express किया जाता है: comp f g पहले f apply करता है, फिर
+  result पर g apply करता है।
+reviewed: false

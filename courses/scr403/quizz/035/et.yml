@@ -1,0 +1,14 @@
+question: Täisliitja ühendab oma kahe poolliitja ülekandebitid OR-iga, mitte XOR-iga. Miks on OR õige?
+answer: Mis tahes sisendi korral saab ülekanne tekkida kõige rohkem ühes poolliitjas, seega ühendab OR kaks teineteist välistavat juhtu täpselt.
+wrong_answers:
+  - Kaks ülekandebitti tuleb kokku liita ja OR on viis, kuidas Simplicitys ühebitist kahendliitmist tehakse.
+  - Pärast hargnemist on OR ainus Boole'i operaator, mille tüüp sobib veel keskkonnaga.
+  - OR ülehindab ülekannet; kõik üleliigsed ülekanded visatakse hiljem lõppprojektsioonis ära.
+explanation: >-
+  Kui esimene poolliitja tekitab ülekande, olid mõlemad selle sisendbitid 1,
+  seega on selle summabitt 0 — ja 0-ga toidetud poolliitja ei saa kunagi
+  ülekannet tekitada. Kaks ülekandebitti ei ole seega kunagi samaaegselt 1
+  ning OR ühendab need täpselt (saavutatavatel sisenditel langeb see isegi
+  XOR-iga kokku). Just see vastastikune välistavus teeb täisliitja lagundamise
+  kaheks poolliitjaks korrektseks.
+reviewed: false

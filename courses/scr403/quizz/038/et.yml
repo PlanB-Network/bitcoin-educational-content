@@ -1,0 +1,15 @@
+question: Kulutamise ajal kärbitakse üks case'i haru ära. Kuidas saab verifitseerija avaldatud programmi ikkagi seotud CMR-iga sobitada?
+answer: CMR on Merkle'i juur, seega annab kulutaja ainult kärbitud haru CMR-i ja verifitseerija voldib selle sisse, et juur uuesti arvutada.
+wrong_answers:
+  - Verifitseerija kasutab ainult täidetud haru, sest täitmata case'i harusid ei olnud kunagi CMR-is.
+  - Kärbitud harud muutuvad kanooniliseks kohatäitjaks, mille fikseeritud CMR asendab neid juure uuesti arvutamisel.
+  - Kärbitud haru täielik kood jääb tunnistajasse, kus verifitseerija seda räsib, kuid ei täida.
+explanation: >-
+  case f g CMR on märgendatud räsi üle mõlema lapse CMR-i, seega on iga haru
+  — täidetud või mitte — aadressi loomise ajal seotud. Kuna konstruktsioon on
+  Merkle'i puu, saab kärbitud haru kokku võtta üksnes selle 32-baidise CMR-iga:
+  verifitseerija sisestab selle räsi rekursiivsesse arvutusse ja kontrollib,
+  et juur vastaks UTXO sidumusele, nägemata kunagi kärbitud koodi. Just see on
+  põhjus, miks sidumuseks kasutatakse Merkle'i juurt, ja miks kärbitud harus
+  olevad tunnistajaavaldised ei ilmu kunagi ahelasse.
+reviewed: false

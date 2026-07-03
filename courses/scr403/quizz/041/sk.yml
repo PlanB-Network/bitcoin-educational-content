@@ -1,0 +1,17 @@
+question: Výstup Simplicity používa ako svoj interný kľúč pevný bod NUMS z BIP-0341. Prečo je míňanie cestou kľúča preukázateľne nemožné a čo pridáva randomizácia bodu NUMS?
+answer: Nikto nepozná diskrétny logaritmus bodu NUMS, takže žiadny podpis cesty kľúča nemôže existovať; randomizácia pridáva iba súkromie.
+wrong_answers:
+  - Bod NUMS leží mimo krivku, takže podpisy cesty kľúča zlyhávajú; randomizácia ho vracia späť na krivku.
+  - Súkromný kľúč bodu NUMS je nula, čo konsenzus odmieta; randomizácia chráni tweak pred postrannými kanálmi.
+  - Tweaknutie bodu NUMS dáva kľúč mimo rozsah, čím sa míňanie cestou kľúča stáva neštandardným; randomizácia zabraňuje opätovnému použitiu adresy.
+explanation: >-
+  Bod NUMS ('Nothing-Up-My-Sleeve') je úplne platný bod na krivke zostrojený
+  tak, že nikto nepozná zodpovedajúci súkromný kľúč — jeho diskrétny
+  logaritmus je neznámy. Keďže míňanie cestou kľúča vyžaduje Schnorrov podpis
+  pod interným kľúčom a žiadny takýto podpis nemožno bez súkromného kľúča
+  vytvoriť, cesta kľúča je preukázateľne nepoužiteľná a prostriedky sa môžu
+  pohybovať iba zaviazanou cestou skriptu. Randomizácia bodu NUMS na tom nič
+  nemení; iba skrýva skutočnosť, že míňanie cestou kľúča je zakázané, takže
+  výstup vyzerá ako ktorýkoľvek iný Taproot výstup — čo je prínos pre
+  súkromie.
+reviewed: false

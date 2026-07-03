@@ -1,0 +1,16 @@
+question: W momencie wydawania gałąź case zostaje przycięta. Jak weryfikator może nadal dopasować ujawniony program do zatwierdzonego CMR?
+answer: CMR jest korzeniem Merkle, więc wydający dostarcza jedynie CMR przyciętej gałęzi, a weryfikator włącza go, aby ponownie obliczyć korzeń.
+wrong_answers:
+  - Weryfikator używa tylko wykonanej gałęzi, ponieważ niewykonane gałęzie case nigdy nie były w CMR.
+  - Przycięte gałęzie stają się kanonicznym symbolem zastępczym, którego ustalony CMR zastępuje je przy ponownym obliczaniu korzenia.
+  - Pełny kod przyciętej gałęzi pozostaje w świadku, gdzie weryfikator go haszuje, ale nie wykonuje.
+explanation: >-
+  CMR wyrażenia case f g to otagowany hasz z wartości CMR obu dzieci, więc
+  każda gałąź — wykonana czy nie — jest zatwierdzana w momencie tworzenia
+  adresu. Ponieważ konstrukcja jest drzewem Merkle, przyciętą gałąź można
+  podsumować samym jej 32-bajtowym CMR: weryfikator wstawia ten hasz do
+  rekurencyjnego obliczenia i sprawdza, czy korzeń zgadza się z zobowiązaniem
+  UTXO, nigdy nie widząc przyciętego kodu. Właśnie dlatego do zobowiązania
+  używa się korzenia Merkle i dlatego żadne wyrażenia świadka wewnątrz
+  przyciętej gałęzi nigdy nie pojawiają się on-chain.
+reviewed: false

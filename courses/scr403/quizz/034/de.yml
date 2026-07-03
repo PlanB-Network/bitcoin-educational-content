@@ -1,0 +1,15 @@
+question: Der Volladdierer verknüpft die Übertragsbits seiner beiden Halbaddierer mit OR statt mit XOR. Warum ist OR korrekt?
+answer: Für jede Eingabe kann höchstens ein Halbaddierer einen Übertrag erzeugen, sodass OR zwei sich gegenseitig ausschließende Fälle exakt zusammenführt.
+wrong_answers:
+  - Die beiden Übertragsbits müssen addiert werden, und OR ist die Art, wie Ein-Bit-Binäraddition in Simplicity durchgeführt wird.
+  - Nach der Verzweigung ist OR der einzige boolesche Operator, dessen Typ noch zur Umgebung passt.
+  - OR approximiert den Übertrag zu grob; etwaige falsche Überträge werden anschließend durch die abschließende Projektion verworfen.
+explanation: >-
+  Wenn der erste Halbaddierer einen Übertrag erzeugt, waren beide seiner
+  Eingabebits 1, sodass sein Summenbit 0 ist — und ein Halbaddierer, der
+  eine 0 erhält, kann niemals einen Übertrag erzeugen. Die beiden
+  Übertragsbits sind daher nie gleichzeitig 1, und OR führt sie exakt
+  zusammen (auf den erreichbaren Eingaben stimmt es sogar mit XOR
+  überein). Genau diese gegenseitige Ausschließlichkeit macht die
+  Zerlegung eines Volladdierers in zwei Halbaddierer korrekt.
+reviewed: false

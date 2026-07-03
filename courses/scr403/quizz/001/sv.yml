@@ -1,0 +1,12 @@
+question: Vad ger sekventiell komposition när operation f (A → B) kedjas med operation g (B → C)?
+answer: En enda sammansatt operation från A till C, där f:s utdata blir g:s indata.
+wrong_answers:
+  - Ett parvärde som innehåller båda mellanliggande utdata av typ B och C.
+  - Ett villkor som väljer mellan f och g baserat på indata.
+  - Två separata operationer som körs oberoende av varandra utan att dela data.
+explanation: >-
+  Sekventiell komposition kedjar två operationer från slut till slut.
+  Utdata från den första operationen blir indata till den andra. I
+  Simplicity uttrycks detta med comp-kombinatorn: comp f g tillämpar
+  f först, sedan g på resultatet.
+reviewed: false

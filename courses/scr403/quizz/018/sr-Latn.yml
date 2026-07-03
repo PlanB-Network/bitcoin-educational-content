@@ -1,0 +1,13 @@
+question: Kako se baferi promenljive dužine predstavljaju u sistemu tipova Simplicity-ja?
+answer: Kao ugnežđeni proizvodi opcionih tipova, gde svaki sloj označava blok stepena dvojke.
+wrong_answers:
+  - Korišćenjem posebnog tipa dinamičkog niza ugrađenog direktno u jezik.
+  - Kroz rekurzivne sumske tipove koji postaju sve veći pri svakom pozivu funkcije.
+  - Kao vektore fiksne veličine dopunjene pratećim nultim vrednostima.
+explanation: >-
+  Baferi koriste ugnežđene opcione tipove. Na primer, Xᑉ⁸ se razvija u
+  (1 + X⁴) × ((1 + X²) × (1 + X)), što kao polinom daje
+  1 + X + X² + ... + X⁷ — predstavljajući kolekcije od 0 do 7 elemenata.
+  Svaki opcioni sloj ukazuje na to da li je prisutan blok stepena dvojke,
+  čime se dužina efektivno kodira binarno.
+reviewed: false

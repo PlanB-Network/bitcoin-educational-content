@@ -1,0 +1,12 @@
+question: Simplicityにはいくつのコアコンビネータがありますか？
+answer: 9つ（iden、unit、comp、pair、case、take、drop、injl、injr）です。
+wrong_answers:
+  - 3つ（逐次合成、並列合成、条件分岐）です。
+  - 5つ（comp、pair、case、take、dropコンビネータのみ）です。
+  - 12個（9つのコアに3つの追加拡張コンビネータを加えたもの）です。
+explanation: >-
+  Simplicityには正確に9つのコアコンビネータがある。2つの基本操作（iden
+  とunit）、3つの合成方法（comp、pair、case）、そして4つの
+  アクセサ（積に対するtakeとdrop、和に対するinjlとinjr）である。
+  これら9つで、Simplicity型の間の任意の関数を表現するのに十分である。
+reviewed: false

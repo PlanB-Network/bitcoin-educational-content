@@ -1,0 +1,15 @@
+question: push-<n bertipe Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Mengapa keluarannya harus berupa jumlah yang mencakup tipe vektor penuh Aⁿ?
+answer: Buffer Aᑉⁿ menampung paling banyak n−1 item, sehingga push ke buffer yang penuh menghasilkan n item — hanya Aⁿ yang dapat merepresentasikan itu.
+wrong_answers:
+  - Jumlah tersebut memungkinkan pemanggil memilih encoding yang lebih murah, karena vektor diserialisasi lebih ringkas daripada produk opsional.
+  - Push dapat gagal pada buffer kosong, dan cabang Aⁿ adalah kasus error yang membawa isi lama.
+  - case mensyaratkan setiap fungsi yang mengonsumsi buffer bertipe jumlah untuk juga menghasilkan keluaran bertipe jumlah.
+explanation: >-
+  Aᑉⁿ adalah persis tipe list yang panjangnya kurang dari n secara ketat,
+  sehingga buffer pada kapasitas maksimum menampung n−1 elemen. Mendorong
+  satu elemen lagi menghasilkan tepat n elemen, yang tidak dapat
+  direpresentasikan oleh Aᑉⁿ; summand Aⁿ mengembalikan hasil yang overflow
+  tersebut sebagai vektor penuh. Meng-encode overflow di tipe keluaran
+  menjaga push-<n tetap sebagai fungsi total, bukan parsial — kasus
+  kegagalan buffer-kosong adalah milik pop-<n, bukan push-<n.
+reviewed: false

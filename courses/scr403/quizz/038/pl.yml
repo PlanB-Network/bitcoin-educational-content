@@ -1,0 +1,16 @@
+question: Jet half-agg-verify zapisuje zbiór krotek jako efekt Writer. W ramach testu przemienności/idempotentności/unitarności, co osiąga projekt oparty na zbiorze, a czego wciąż brakuje?
+answer: "Przemienny i idempotentny (jak wymaga Simplicity), ale nie unitarny: odrzucenie wywołania spowodowałoby utratę jego krotki i pominięcie podpisu."
+wrong_answers:
+  - Idempotentny i unitarny, ale nie przemienny, ponieważ agregat musi łączyć składniki r w kolejności podpisywania.
+  - Wszystkie trzy, więc optymalizator może swobodnie duplikować, zmieniać kolejność lub odrzucać wywołania bez ryzyka.
+  - Przemienny, ale nie idempotentny, ponieważ zapisanie tej samej krotki dwukrotnie wymagałoby dwóch zagregowanych składników s.
+explanation: >-
+  Traktowanie dziennika writera jako zbioru czyni efekt idempotentnym i
+  przemiennym, ponieważ samo wstawianie do zbioru ma obie te własności —
+  dokładnie te dwie, których Simplicity wymaga od każdego efektu. Unitarność
+  wciąż pozostaje poza zasięgiem: podobnie jak Failure, zapis wpływa na ważność
+  transakcji, ponieważ transakcja jest ważna tylko wtedy, gdy zagregowany
+  składnik s pokrywa każdą zapisaną krotkę. Wyrażenie wykonujące zapis nie może
+  zatem zostać odrzucone tylko dlatego, że jego wyjście typu unit jest
+  nieużywane, gdyż jego krotka po cichu zniknęłaby z weryfikacji pół-agregacji.
+reviewed: false

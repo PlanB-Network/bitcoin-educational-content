@@ -1,0 +1,17 @@
+question: "Obliczenie #ᶜ(comp f g) haszuje 128 bajtów: znacznik comp dwukrotnie, następnie obie wartości CMR dzieci. Dlaczego to nadal co najwyżej jedno wywołanie kompresji SHA-256?"
+answer: Pierwszy 64-bajtowy blok to stała tag∥tag, której midstate jest wstępnie obliczany raz; kompresowany jest tylko blok zawierający wartości CMR dzieci.
+wrong_answers:
+  - Samo pominięcie końcowego bloku dopełnienia długości SHA-256 pozwala zmieścić całe 128 bajtów w jednym wywołaniu.
+  - Obie wartości CMR dzieci są XOR-owane do jednego 32-bajtowego skrótu, zmniejszając wejście do pojedynczego bloku.
+  - SHA-256-midstate to wariant z szerokim blokiem, który pochłania 128-bajtowe bloki wiadomości w jednym przebiegu.
+explanation: >-
+  Funkcja kompresji SHA-256 przetwarza ustalone bloki 64-bajtowe, więc wejście
+  128-bajtowe normalnie wymaga dwóch wywołań (plus jedno dodatkowe na
+  dopełnienie długości w pełnym SHA-256). Ponieważ pierwszy blok każdego
+  kombinatora to stała tag∥tag, jego midstate można wstępnie obliczyć raz i
+  zbuforować; każde wyrażenie potrzebuje wtedy tylko jednej nowej kompresji
+  bloku zawierającego wartości CMR swoich dzieci. Midstate'y pomijają też
+  końcowy blok dopełnienia, ale to samo w sobie wciąż pozostawiłoby dwie
+  kompresje — dopiero wstępnie obliczony midstate znacznika sprowadza to do co
+  najwyżej jednej.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Simplicity wyklucza nieograniczoną rekurencję. Co jest jego zamierzonym zamiennikiem dla nieograniczonej iteracji?
+answer: Rekurencyjne kowenanty, które rozkładają obliczenia na wiele transakcji, utrzymując przewidywalny koszt każdej transakcji.
+wrong_answers:
+  - Funkcja delegacji, zaprojektowana specjalnie po to, aby zapewnić miarkowaną formę nieograniczonej rekurencji w ramach pojedynczej transakcji.
+  - Dziewięć podstawowych kombinatorów, których zupełność pozwala konstrukcji punktu stałego zakodować dowolną funkcję rekurencyjną.
+  - Rozwijanie pętli w czasie kompilacji, gdzie analiza statyczna wnioskuje maksymalną liczbę iteracji i duplikuje ciało.
+explanation: >-
+  Tezą artykułu jest to, że nieograniczona iteracja jest lepiej implementowana
+  jako rekurencyjne kowenanty obliczające na wielu transakcjach, co
+  pozwala uniknąć ograniczeń miejsca w bloku i standardowości oraz sprawia, że koszty
+  transakcji są przewidywalne. Delegację można jedynie nadużyć, aby wyprodukować coś
+  przypominającego nieograniczoną rekurencję — nie jest to zamierzony mechanizm — a
+  dziewięć podstawowych kombinatorów jest zupełne tylko dla obliczeń skończonych, więc
+  żadna konstrukcja punktu stałego nie istnieje w ramach pojedynczego programu.
+reviewed: false

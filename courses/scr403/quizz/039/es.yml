@@ -1,0 +1,17 @@
+question: Los efectos de Simplicity son conmutativos e idempotentes pero no unitarios. ¿Qué transformación del optimizador debe rechazarse en general?
+answer: Reemplazar una expresión aparentemente muerta por unit — Failure no es unitario, así que podría ocultar una comprobación fallida que debe abortar.
+wrong_answers:
+  - Intercambiar dos subexpresiones independientes, ya que un sig-all-hash podría observar un estado del entorno diferente.
+  - Fusionar dos llamadas verify idénticas, ya que un Failure duplicado lanzaría dos veces y abortaría incorrectamente.
+  - Reordenar expresiones que pueden lanzar, ya que la excepción propagada depende de qué lado se ejecute primero.
+explanation: >-
+  Como los efectos de Simplicity son garantizadamente conmutativos e idempotentes,
+  intercambiar subexpresiones independientes y duplicar o fusionar
+  otras idénticas siempre es seguro; el entorno Reader es fijo, y la excepción de tipo
+  unit de Failure es idéntica sin importar qué lado lance primero o
+  cuántas veces. La transformación de descarte `f ⨾ unit = unit`, sin embargo,
+  requiere unitariedad, que Failure no tiene: si `f` contiene un
+  `bip0340-verify` sobre una firma inválida, eliminar el código 'muerto'
+  optimizaría el aborto y validaría una transacción que debería
+  fallar.
+reviewed: false

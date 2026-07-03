@@ -1,0 +1,12 @@
+question: Wat gebeurt er met de invoer bij parallelle compositie?
+answer: Beide bewerkingen ontvangen dezelfde invoer, en hun uitvoer vormt een product (paar).
+wrong_answers:
+  - De invoer wordt in tweeën gesplitst, waarbij elke bewerking één apart deel ontvangt.
+  - Eén bewerking verwerkt de invoer eerst, en de andere ontvangt het gewijzigde resultaat.
+  - De invoer wordt gelabeld en doorgestuurd naar slechts één van de twee bewerkingen.
+explanation: >-
+  Parallelle compositie geeft dezelfde ongewijzigde invoer tegelijkertijd aan
+  beide bewerkingen. De resultaten worden gebundeld in een producttype (paar).
+  In Simplicity gebeurt dit met de pair-combinator, geschreven als f ▵ g, die
+  ⟨f(a), g(a)⟩ oplevert voor invoer a.
+reviewed: false

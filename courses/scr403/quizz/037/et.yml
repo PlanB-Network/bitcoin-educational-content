@@ -1,0 +1,16 @@
+question: SHA-256 kompressioonist saab jet, kuid fold- ja map-kombinaatoritest ei saa. Mis seletab seda asümmeetriat?
+answer: Jet asendab üht fikseeritud avaldist; fold ja map ei ole üksikud avaldised, vaid skeemid, mis annavad iga sisefunktsiooni f korral erineva avaldise.
+wrong_answers:
+  - Jetid kiirendavad ainult sirgjoonelist koodi, seega tuleb iteratiivsed kombinaatorid kõigepealt lahti rullida ja siis ei vasta need enam ühelegi jetile.
+  - Kvalifitseeruvad ainult avaldised, millel on masinkontrollitud Rocqi tõestus; SHA-256 jaoks on see olemas, foldide jaoks mitte.
+  - Lühikeste vektorite foldid on kasu saamiseks liiga odavad, seega reserveeritakse jetid kulukatele krüptooperatsioonidele.
+explanation: >-
+  Jet on natiivne asendus ühele konkreetsele, täielikult moodustatud Simplicity
+  avaldisele, mille sõlmed saavad asendada, säilitades selle täpse semantika.
+  fold-right-n, map, zip ja nende variandid ei ole üksikud avaldised, vaid
+  konstruktsiooniskeemid: iga sisefunktsiooni f valik annab struktuurilt
+  erineva avaldise, seega ei saa ükski üksik jet kogu perekonda asendada.
+  Seetõttu ilmuvad need iteratsioonimustrid päris programmides ehtsa
+  kombinaatorikoodina, tavaliselt genereerituna kõrgema taseme keeltest nagu
+  SimplicityHL.
+reviewed: false

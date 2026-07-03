@@ -1,0 +1,12 @@
+question: Hva produserer sekvensiell komposisjon når man kjeder operasjon f (A → B) med operasjon g (B → C)?
+answer: En enkelt sammensatt operasjon fra A til C, der f sin utdata mater inn i g.
+wrong_answers:
+  - En parverdi som inneholder begge mellomresultatene av type B og C.
+  - En betingelse som velger mellom f og g basert på inndataen.
+  - To separate operasjoner som kjører uavhengig, uten å dele data.
+explanation: >-
+  Sekvensiell komposisjon kjeder to operasjoner ende til ende. Utdataen
+  fra den første operasjonen blir inndataen til den andre. I Simplicity
+  uttrykkes dette med comp-kombinatoren: comp f g anvender f først, deretter
+  g på resultatet.
+reviewed: false

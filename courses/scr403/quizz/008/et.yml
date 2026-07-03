@@ -1,0 +1,12 @@
+question: Kuidas töötab loogiline AND-operatsioon Simplicitys?
+answer: See hargneb esimese biti järgi — kui väär, tagastab väära, muidu teise biti.
+wrong_answers:
+  - See korrutab kaks tõeväärtust omavahel, kasutades korrutistüüpi.
+  - See kasutab otsingutabelit kõigi nelja võimaliku sisendkombinatsiooniga.
+  - See rakendab XOR-kombinaatorit ja seejärel NOT-kombinaatorit tulemusele.
+explanation: >-
+  AND on defineeritud kui case (injl unit) (drop iden). case-kombinaator
+  hargneb esimese biti järgi. Kui see on väär (vasaku sildiga), tagastab injl
+  unit väära, olenemata teisest bitist. Kui see on tõene (parema sildiga),
+  tagastab drop iden teise biti muutmata. See vastab AND-i tõesustabelile.
+reviewed: false

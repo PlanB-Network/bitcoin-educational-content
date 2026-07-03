@@ -1,0 +1,13 @@
+question: Simplicity에서 jet의 역할은 무엇인가요?
+answer: jet은 속도를 위해 특정 Simplicity 표현식을 대체하는 네이티브 구현입니다.
+wrong_answers:
+  - jet은 Simplicity를 Bitcoin Script로 변환하는 컴파일 단계입니다.
+  - jet은 Simplicity 프로그램을 모든 노드에 브로드캐스트하는 네트워크 메시지입니다.
+  - jet은 Simplicity 표현식을 테스트하고 추적하기 위한 디버깅 도구입니다.
+explanation: >-
+  jet은 네트워크가 특정 Simplicity 표현식(Merkle root로 식별됨)을 대신해
+  사용하기로 합의한 네이티브 구현입니다. Simplicity 표현식은 jet이 무엇을
+  계산하는지에 대한 형식 명세 역할을 하고, 네이티브 코드는 실용적인 실행
+  속도를 제공합니다. 일반적인 jet은 SHA-256 같은 산술 및 암호학 연산을
+  처리합니다.
+reviewed: false

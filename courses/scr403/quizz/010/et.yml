@@ -1,0 +1,12 @@
+question: Kuidas ehitatakse fikseeritud pikkusega vektorid Simplicity tüübisüsteemis?
+answer: Pesastatud korrutistüüpide kaudu, mille pikkus on kahe aste (nt A⁴ = A² × A²).
+wrong_answers:
+  - Kasutades spetsiaalset massiivitüübi konstruktorit, mis on keelde sisse ehitatud.
+  - Rekursiivsete summatüüpide kaudu, mis aheldavad elemendid loendisse.
+  - Kasutades muutuva pikkusega puhvreid, millel on fikseeritud maksimaalne suurus.
+explanation: >-
+  Simplicity ehitab vektorid pesastatud korrutistüüpidest. A² on A × A, A⁴ on
+  A² × A², A⁸ on A⁴ × A⁴ ja nii edasi. See annab kahe astme suurusega kogumid.
+  Näiteks 𝟚²⁵⁶ (256-bitine räsi) ehitatakse, pesastades korrutisi 8 taset
+  sügavale tõeväärtustüübist.
+reviewed: false

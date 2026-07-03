@@ -1,0 +1,15 @@
+question: "Ekspresi kombinator-inti mana yang mengimplementasikan fungsi distribusi dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Di dalam setiap cabang case, environment sudah dipasangkan dengan nilai
+  yang belum ditandai, sehingga f = injl iden dan g = injr iden menghasilkan
+  ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩ dan ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — persis dist. Varian
+  take/drop lolos pengecekan tipe tetapi membuang pemasangannya, sehingga
+  menandakan fungsi bertipe (A + B) × C ⊢ A + C. pair menghasilkan produk,
+  bukan jumlah, dan copair sama sekali bukan kombinator Simplicity — dist
+  adalah persis apa yang tidak bisa diekspresikan oleh copair sendirian.
+reviewed: false

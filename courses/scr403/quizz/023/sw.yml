@@ -1,0 +1,13 @@
+question: "Kwa nini sig-all-hash hutumia athari ya Reader badala ya kuchukua data ya muamala kama ingizo lenye type?"
+answer: Ili jet iweze kutumia PrecomputedTransactionData na kuendeshwa kwa muda constant kwenye mazingira yasiyobadilika.
+wrong_answers:
+  - Kwa sababu mfumo wa types wa Simplicity kimsingi hauwezi kuwakilisha data ya muamala kama type.
+  - Kwa sababu athari ya Reader ni ya haraka kuliko kupitisha data hiyo kupitia mti wa combinator.
+  - Kwa sababu data ya muamala ni kubwa mno kutoshea katika mfumo wa types wa ukubwa usiobadilika wa Simplicity.
+explanation: >-
+  Ikiwa sig-all-hash ingechukua type ya ingizo TxEnv, programu zingeweza kupitisha nakala zilizorekebishwa za data ya muamala
+  kwenda kwenye jet, na kuizuia kutumia hashes zilizokokotolewa mapema. Kwa athari ya Reader, jet huweza tu
+  kufikia mazingira ya muamala yasiyobadilika na thabiti, hivyo utekelezaji wake unaweza kutumia kwa usalama
+  PrecomputedTransactionData na kuendeshwa kwa muda constant kwa kila ukaguzi wa signature, ikiepuka tatizo la quadratic
+  hashing lililoisumbua Bitcoin Script ya awali.
+reviewed: true

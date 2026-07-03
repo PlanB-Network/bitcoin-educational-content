@@ -1,0 +1,12 @@
+question: "Mikä on Commitment Merkle Root (CMR) Simplicityssä?"
+answer: 256-bittinen tiiviste, joka sitoutuu Simplicity-ohjelman rakenteeseen tunnisteellisella SHA-256:lla.
+wrong_answers:
+  - Binääripuu, joka sisältää kaikki Simplicity-ohjelman mahdolliset suorituspolut.
+  - Ohjelman tyyppien ja todistaja-arvojen tiiviste, jota käytetään osoitteen varmennukseen.
+  - Transaktiodatan Merkle-juuri, johon ohjelmalla on valtuutus päästä.
+explanation: >-
+  Jokaisella Simplicity-kombinaattorilla on ainutlaatuinen SHA-256-tunniste (esim. Simplicity␟Commitment␟iden), ja
+  CMR lasketaan tiivistämällä rekursiivisesti ohjelman kombinaattoripuu näiden tunnisteellisten välitilojen avulla.
+  Tärkeää on, että CMR ei sitoudu lausekkeiden tyyppeihin, vaan luottaa tyyppipäättelyyn
+  lunastuksen aikana. CMR:iä käytetään ohjelmien sitomiseen Taproot-osoitteisiin.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Vad garanterar fullständighetssatsen om Simplicity?
+answer: Att varje funktion mellan två Simplicity-typer kan byggas från de nio kombinatorerna.
+wrong_answers:
+  - Att Simplicity-program garanterat alltid termineras i konstant tid.
+  - Att Simplicity är Turing-komplett och kan simulera vilken Turingmaskin som helst.
+  - Att varje giltigt Simplicity-program har en enda unik representation.
+explanation: >-
+  Fullständighetssatsen bevisar att det för varje funktion mellan
+  ändliga Simplicity-typer finns ett Simplicity-uttryck som beräknar
+  den. Det konstruktiva beviset bygger en uppslagstabell med hjälp av
+  nästlade case- och scribe-uttryck. Detta har formellt verifierats
+  i beviskontrollsystemet Rocq.
+reviewed: false

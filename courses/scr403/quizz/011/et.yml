@@ -1,0 +1,13 @@
+question: Mis on jetide roll Simplicitys?
+answer: Jetid on natiivsed teostused, mis asendavad antud Simplicity avaldisi kiiruse huvides.
+wrong_answers:
+  - Jetid on kompileerimissamm, mis teisendab Simplicity Bitcoin Scriptiks.
+  - Jetid on võrgusõnumid, mis levitavad Simplicity programme kõigile sõlmedele.
+  - Jetid on silumistööriistad Simplicity avaldiste testimiseks ja jälgimiseks.
+explanation: >-
+  Jet on natiivne teostus, mida võrk nõustub kasutama teatud Simplicity
+  avaldise asemel (mille tuvastab selle Merkle'i juur). Simplicity avaldis
+  toimib formaalse spetsifikatsioonina sellest, mida jet arvutab, samas kui
+  natiivne kood pakub praktilist täitmiskiirust. Levinud jetid tegelevad
+  aritmeetiliste ja krüptograafiliste operatsioonidega nagu SHA-256.
+reviewed: false

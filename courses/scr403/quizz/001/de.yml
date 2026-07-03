@@ -1,0 +1,12 @@
+question: Was erzeugt die sequentielle Komposition, wenn Operation f (A → B) mit Operation g (B → C) verkettet wird?
+answer: Eine einzelne zusammengesetzte Operation von A nach C, wobei die Ausgabe von f in g einfließt.
+wrong_answers:
+  - Einen Paarwert, der beide Zwischenausgaben vom Typ B und C enthält.
+  - Eine Bedingung, die basierend auf der Eingabe zwischen f und g wählt.
+  - Zwei separate Operationen, die unabhängig voneinander laufen und keine Daten teilen.
+explanation: >-
+  Die sequentielle Komposition verkettet zwei Operationen von Anfang bis Ende.
+  Die Ausgabe der ersten Operation wird zur Eingabe der zweiten. In Simplicity
+  wird dies mit dem comp-Kombinator ausgedrückt: comp f g wendet zuerst f an,
+  dann g auf das Ergebnis.
+reviewed: false

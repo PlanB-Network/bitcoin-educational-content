@@ -1,0 +1,9 @@
+question: 為什麼 Simplicity 在執行期間排除動態記憶體配置？
+answer: 為了實現靜態分析，並排除整類的錯誤與攻擊。
+wrong_answers:
+  - 因為 Liquid Network 不支援低階記憶體操作。
+  - 為了降低新進智慧合約開發者的程式設計學習曲線。
+  - 因為 Bitcoin Script 本身也缺乏任何動態記憶體配置。
+explanation: >-
+  Simplicity 避免動態記憶體配置，使所有資源使用量都能在執行前被靜態確定。這帶來可預測的資源上限，並消除與記憶體管理相關的漏洞，這在區塊鏈驗證的情境中至關重要。
+reviewed: false

@@ -1,0 +1,17 @@
+question: En Simplicity-utdata använder den fasta BIP-0341 NUMS-punkten som sin interna nyckel. Varför är key-spend bevisligen omöjligt, och vad tillför slumpning av NUMS-punkten?
+answer: Ingen känner till NUMS-punktens diskreta logaritm, så ingen nyckel-path-signatur kan existera; slumpning tillför bara integritet.
+wrong_answers:
+  - NUMS-punkten ligger utanför kurvan så nyckel-path-signaturer misslyckas; slumpning för den tillbaka på kurvan.
+  - NUMS-punktens privata nyckel är noll, vilket konsensus avvisar; slumpning skyddar tweaken mot sidokanaler.
+  - Att tweaka en NUMS-punkt ger en nyckel utanför intervallet, vilket gör key-spend icke-standard; slumpning undviker adressåteranvändning.
+explanation: >-
+  En NUMS-punkt ('Nothing-Up-My-Sleeve') är en fullt giltig kurvpunkt
+  konstruerad så att ingen känner till en motsvarande privat nyckel —
+  dess diskreta logaritm är okänd. Eftersom en key-path-spend kräver en
+  Schnorr-signatur under den interna nyckeln, och ingen sådan signatur
+  kan produceras utan den privata nyckeln, är key-spend-vägen bevisligen
+  oanvändbar och pengar kan bara flyttas via den committade
+  script-vägen. Att slumpa NUMS-punkten ändrar inget av detta; det
+  döljer bara det faktum att key-spend är inaktiverat, så utdatan ser ut
+  som vilken annan Taproot-utdata som helst — en integritetsfördel.
+reviewed: false

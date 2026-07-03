@@ -1,0 +1,13 @@
+question: Uruhara rwa jets muri Simplicity ni uruhe?
+answer: Jets ni amashirwa mu ngiro kavukire asubirira imvugo za Simplicity zatanzwe kugira ngo vyihute.
+wrong_answers:
+  - Jets ni intambwe yo gukoranya ihindura Simplicity ikaba Bitcoin Script.
+  - Jets ni ubutumwa bw'urubuga busasa porogarama za Simplicity ku ma node yose.
+  - Jets ni ibikoresho vyo gukosora amakosa vyo kugerageza no gukurikirana imvugo za Simplicity.
+explanation: >-
+  Jet ni ishirwa mu ngiro kavukire urubuga rwumvikana gusubiriza
+  imvugo kanaka ya Simplicity (imenyekanira ku muzi wayo wa Merkle).
+  Imvugo ya Simplicity ikora nk'igisobanuro cemewe c'ivyo
+  jet iharura, mu gihe code kavukire itanga umuvuduko ngirakamaro w'ishirwa mu ngiro.
+  Jets zisanzwe zikora ibikorwa vy'imibare n'ivyo muri cryptography nka SHA-256.
+reviewed: false

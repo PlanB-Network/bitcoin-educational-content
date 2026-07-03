@@ -1,0 +1,13 @@
+question: Vilket är förhållandet mellan Simplicity och Gentzens sekventkalkyl?
+answer: Dess nio kombinatorer speglar det konjunktiv-disjunktiva fragmentet av sekventkalkylen.
+wrong_answers:
+  - Simplicity översattes direkt från sekventkalkylens bevis till fungerande kod.
+  - Gentzens sekventkalkyl används vid körning för att typkontrollera Simplicity-program.
+  - De är helt orelaterade, och den ytliga likheten är rent tillfällig.
+explanation: >-
+  De nio kärnreglerna i Simplicity liknar nära reglerna i Gentzens
+  sekventkalkyl, analogt med Curry-Howard-korrespondensen mellan
+  lambdakalkyl och naturlig deduktion. Detta samband säkerställer att
+  typerna i premisserna är mindre än i slutsatserna, vilket Bit Machine
+  utnyttjar för effektiv körning med minimal datakopiering.
+reviewed: false

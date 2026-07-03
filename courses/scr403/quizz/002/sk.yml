@@ -1,0 +1,12 @@
+question: Čo sa deje so vstupom pri paralelnej kompozícii?
+answer: Obe operácie dostanú rovnaký vstup a ich výstupy tvoria súčin (pár).
+wrong_answers:
+  - Vstup sa rozdelí na polovicu, pričom každá operácia dostane jednu samostatnú časť.
+  - Jedna operácia spracuje vstup ako prvá a druhá dostane upravený výsledok.
+  - Vstup sa označkuje a smeruje na spracovanie len jednej z dvoch operácií.
+explanation: >-
+  Paralelná kompozícia dáva rovnaký neupravený vstup obom operáciám súčasne.
+  Výsledky sa zabalia do súčinového typu (páru). V Simplicity to používa
+  kombinátor pair, zapisovaný f ▵ g, ktorý pre vstup a produkuje
+  ⟨f(a), g(a)⟩.
+reviewed: false

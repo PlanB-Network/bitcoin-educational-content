@@ -1,0 +1,16 @@
+question: Simplicity exclude recursivitatea nemărginită. Care este substitutul său intenționat pentru iterația nemărginită?
+answer: Covenant-uri recursive care distribuie computația pe mai multe tranzacții, păstrând predictibil costul fiecărei tranzacții.
+wrong_answers:
+  - Funcționalitatea de delegare, concepută special pentru a oferi o formă contorizată de recursivitate nemărginită într-o singură tranzacție.
+  - Cei nouă combinatori de bază, a căror completitudine permite unei construcții de punct fix să codifice orice funcție recursivă.
+  - Desfășurarea buclelor la compilare, unde analiza statică deduce numărul maxim de iterații și duplică corpul buclei.
+explanation: >-
+  Teza articolului este că iterația nemărginită este mai bine implementată
+  ca și covenant-uri recursive care efectuează computația pe mai multe
+  tranzacții, ceea ce evită constrângerile de spațiu de bloc și de
+  standardness și face costurile tranzacțiilor predictibile. Delegarea
+  poate fi abuzată doar pentru a produce ceva ce seamănă cu recursivitatea
+  nemărginită — nu este mecanismul intenționat — iar cei nouă combinatori
+  de bază sunt compleți doar pentru computații finite, deci nu există nicio
+  construcție de punct fix în cadrul unui singur program.
+reviewed: false

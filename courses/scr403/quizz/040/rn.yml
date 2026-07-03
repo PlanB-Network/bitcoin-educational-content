@@ -1,0 +1,16 @@
+question: "Guharura #ᶜ(comp f g) bihasha bytes 128: tag ya comp kabiri, hanyuma CMRs z'abana bompi. Kubera iki ivyo bikiri SHA-256 compression call imwe itarenze?"
+answer: Block ya mbere ya bytes 64 ni tag∥tag idahinduka, midstate yayo ikaba ibanza guharurwa rimwe; block irimwo CMRs z'abana gusa ni yo icishwa muri compression.
+wrong_answers:
+  - Gukuraho gusa block ya nyuma ya length-padding ya SHA-256 bituma bytes 128 zose zijamwo mu call imwe.
+  - CMRs z'abana babiri zikoreshwa XOR zikavamo digest imwe ya bytes 32, bikagabanya input ikaba block imwe.
+  - SHA-256-midstate ni variant ya wide-block imira message blocks za bytes 128 mu nzira imwe.
+explanation: >-
+  Compression function ya SHA-256 ikora ku blocks zidahinduka za bytes 64,
+  rero input ya bytes 128 mu bisanzwe isaba calls zibiri (hiyongereyeho iyindi
+  imwe ya length padding muri SHA-256 yuzuye). Kubera ko block ya mbere ya
+  buri combinator ari tag∥tag idahinduka, midstate yayo ishobora kubanza
+  guharurwa rimwe no kubikwa; expression yose rero ikenera gusa compression
+  nshasha imwe ya block irimwo CMRs z'abana bayo. Midstates kandi zikuraho
+  block ya nyuma ya padding, ariko ivyo vyonyene vyosigaza compressions zibiri
+  — midstate ya tag yabanje guharurwa ni yo ibigabanya bikaba compression nshasha imwe gusa.
+reviewed: false

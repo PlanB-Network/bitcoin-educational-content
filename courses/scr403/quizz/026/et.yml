@@ -1,0 +1,11 @@
+question: "Millist TapLeafi versiooni kasutab Simplicity, kui see on BIP-0341 Taprooti all commititud?"
+answer: Versiooni 0xbe, mis on kümnendsüsteemis baidiväärtus 190.
+wrong_answers:
+  - Versiooni 0xc0, sama mis Bitcoin Scripti Tapscript.
+  - Versiooni 0x00, vaikimisi Taprooti leheversioon.
+  - Versiooni 0xff, eksperimentaalsete skriptide jaoks reserveeritud versioon.
+explanation: >-
+  Simplicity programmid commititakse Taprooti aadressidesse TapLeafi versiooniga 0xbe. See
+  eristab Simplicity skripte Bitcoin Tapscriptist (mis kasutab versiooni 0xc0) ja võimaldab
+  võrgul Simplicity programme õigesti tuvastada ja valideerida, kui need ahelas ilmuvad.
+reviewed: true

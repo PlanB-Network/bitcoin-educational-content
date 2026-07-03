@@ -1,0 +1,13 @@
+question: Ký pháp truy cập (O, I, H) hoạt động như thế nào trong Simplicity?
+answer: O nghĩa là 'take' (trái), I nghĩa là 'drop' (phải), và H nghĩa là 'iden' (toàn bộ giá trị).
+wrong_answers:
+  - O nghĩa là output, I nghĩa là input, và H nghĩa là tạm dừng việc thực thi chương trình.
+  - Chúng là tên biến mà trình biên dịch tự động gán cho các giá trị.
+  - O chọn các phần tử có chỉ số lẻ, I chọn các phần tử có chỉ số chẵn, H chọn phần tử đầu.
+explanation: >-
+  Cách viết tắt O/I/H cung cấp một cách gọn để điều hướng các cặp lồng nhau.
+  O f là take f (trích xuất bên trái), I f là drop f (trích xuất bên phải), và H là
+  iden (toàn bộ giá trị). Các chuỗi như I O H nghĩa là drop(take(iden)),
+  trích xuất phần tử thứ nhất của phần tử thứ hai. Điều này giống
+  các chỉ số De Bruijn với các chữ số nhị phân làm vị trí trong cây.
+reviewed: false

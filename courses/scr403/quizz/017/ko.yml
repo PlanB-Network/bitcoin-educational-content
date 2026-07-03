@@ -1,0 +1,13 @@
+question: Simplicity에서 접근 표기 (O, I, H)는 어떻게 작동하나요?
+answer: O는 'take'(왼쪽), I는 'drop'(오른쪽), H는 'iden'(전체 값)을 의미합니다.
+wrong_answers:
+  - O는 output, I는 input, H는 프로그램 실행 halt를 의미합니다.
+  - 컴파일러가 값에 자동으로 할당하는 변수 이름입니다.
+  - O는 홀수 인덱스 원소, I는 짝수 인덱스 원소, H는 head를 선택합니다.
+explanation: >-
+  O/I/H 축약 표기는 중첩된 쌍을 탐색하는 간결한 방법을 제공합니다.
+  O f는 take f(왼쪽 추출), I f는 drop f(오른쪽 추출), H는
+  iden(전체 값)입니다. I O H 같은 시퀀스는 drop(take(iden))을 의미하며,
+  두 번째 원소의 첫 번째 원소를 추출합니다. 이는 이진 숫자를 tree 위치로
+  사용하는 De Bruijn 인덱스와 비슷합니다.
+reviewed: false

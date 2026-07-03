@@ -1,0 +1,14 @@
+question: push-<n ina aina Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Kwa nini pato lake lazima liwe jumla inayojumuisha aina kamili ya vector Aⁿ?
+answer: Buffer Aᑉⁿ hushikilia hadi vipengee n−1, hivyo kusukuma kwenye buffer iliyojaa hutoa vipengee n — ni Aⁿ pekee inayoweza kuwakilisha hilo.
+wrong_answers:
+  - Jumla huwawezesha callers kuchagua encoding nafuu zaidi, kwa kuwa vectors hu-serialize kwa ukompakt zaidi kuliko option products.
+  - Push inaweza kushindwa kwenye buffer tupu, na tawi la Aⁿ ndilo kesi ya kosa inayobeba yaliyomo ya zamani.
+  - case huhitaji kazi yoyote inayotumia buffer yenye aina ya jumla pia kuzalisha pato lenye aina ya jumla.
+explanation: >-
+  Aᑉⁿ ndiyo hasa aina ya orodha ambazo urefu wake ni mdogo kabisa kuliko n,
+  hivyo buffer yenye uwezo wake wa juu hushikilia vipengele n−1. Kusukuma kimoja zaidi
+  huzalisha vipengele n hasa, ambavyo Aᑉⁿ haiwezi kuwakilisha; summand ya Aⁿ
+  hurejesha matokeo hayo yaliyozidi uwezo kama vector kamili. Kuweka overflow katika
+  aina ya pato huifanya push-<n iwe kazi total badala ya partial
+  — kesi ya kushindwa kwa buffer tupu ni ya pop-<n, si push.
+reviewed: false

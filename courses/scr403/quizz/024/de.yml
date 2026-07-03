@@ -1,0 +1,12 @@
+question: "Was ist der Typ eines Simplicity-Programms?"
+answer: 1 ⊢ 1 (Unit zu Unit) — keine bedeutungsvolle Eingabe oder Ausgabe; Ein-/Ausgabe erfolgt über Seiteneffekte.
+wrong_answers:
+  - "TxEnv ⊢ Bool — es nimmt Transaktionsdaten entgegen und gibt einen Gültigkeits-Boolean zurück."
+  - "2^256 ⊢ 2^256 — es nimmt einen Hash-Wert entgegen und gibt einen neuen Hash-Wert zurück."
+  - "Beliebiger Typ A ⊢ B — Programme können völlig beliebige Eingabe- und Ausgabetypen haben."
+explanation: >-
+  Ein Simplicity-Programm ist als Ausdruck vom Typ 1 ⊢ 1 definiert. Der Reader-Effekt erfasst
+  die Eingabe der Transaktionsumgebung, während der Failure-Effekt über Erfolg oder Misserfolg
+  entscheidet. Diese Seiteneffekte übernehmen die gesamte Ein-/Ausgabe, statt dass dies durch
+  die Simplicity-Typen selbst geschieht.
+reviewed: true

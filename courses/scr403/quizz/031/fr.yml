@@ -1,0 +1,14 @@
+question: Quel est le type de pair (drop iden) (take iden), et quelle fonction dénote-t-il ?
+answer: A × B ⊢ B × A — il échange les deux composantes d'une paire.
+wrong_answers:
+  - A × B ⊢ A × B — il fait passer les deux composantes sans changement (l'identité).
+  - "Mal typé : take iden et drop iden ont des types de sortie différents, que pair ne peut pas fusionner."
+  - (A × B) × (A × B) ⊢ B × A — pair fusionne les types d'entrée de ses deux sous-expressions.
+explanation: >-
+  drop iden : A × B ⊢ B extrait la seconde composante et take iden : A × B ⊢
+  A extrait la première. Le combinateur pair exige seulement que ses deux
+  sous-expressions partagent le même type d'entrée (ici A × B) ; leurs
+  sorties peuvent différer, et sont renvoyées sous forme de paire. Sur
+  l'entrée ⟨a, b⟩, l'expression produit donc ⟨b, a⟩ : la fonction
+  d'échange, de type A × B ⊢ B × A.
+reviewed: false

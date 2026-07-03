@@ -1,0 +1,14 @@
+question: Gitt typereglene med 'mindre typer i premissene', hvilke kjernekombinatorer flytter faktisk data under kjøring?
+answer: Bare iden og comp; de andre syv er implementert med ikke mer enn bokføring.
+wrong_answers:
+  - Bare take og drop; å trekke ut én komponent tvinger maskinen til å kopiere den ut av produktet.
+  - Bare pair og case; å duplisere inndata for to grener og velge basert på en tagg flytter data.
+  - Bare injl og injr; å legge til en tagg skriver om verdien til en større sumtype-representasjon.
+explanation: >-
+  Kontraintuitivt trenger kombinatorene som ser ut som datatilgang (take,
+  drop, pair, case, injl, injr) ingen kopiering: fordi premissene i
+  typereglene involverer mindre typer enn sine konklusjoner, kan Bit
+  Machine implementere dem med bare bokføring. Bare iden, som kopierer
+  hele sin inndata til sitt utdata, og comp, som materialiserer en
+  mellomverdi sendt fra f til g, flytter faktisk data.
+reviewed: false

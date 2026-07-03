@@ -1,0 +1,13 @@
+question: Simplicity में logical AND operation कैसे काम करता है?
+answer: यह first bit पर branch करता है — यदि false हो तो false return करता है, नहीं तो second bit।
+wrong_answers:
+  - यह product type का उपयोग करके दो boolean values को multiply करता है।
+  - यह सभी चार possible input combinations वाली lookup table का उपयोग करता है।
+  - यह XOR combinator apply करता है और फिर result पर NOT combinator apply करता है।
+explanation: >-
+  AND को case (injl unit) (drop iden) के रूप में define किया गया है। case
+  combinator first bit पर branch करता है। यदि वह false (left-tagged) है,
+  तो injl unit second bit की परवाह किए बिना false return करता है। यदि वह
+  true (right-tagged) है, तो drop iden second bit को unchanged return करता
+  है। यह AND truth table से match करता है।
+reviewed: false

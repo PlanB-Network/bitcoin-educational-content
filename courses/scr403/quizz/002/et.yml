@@ -1,0 +1,12 @@
+question: Mis juhtub sisendiga paralleelses kompositsioonis?
+answer: Mõlemad operatsioonid saavad sama sisendi ja nende väljundid moodustavad korrutise (paari).
+wrong_answers:
+  - Sisend jagatakse pooleks, kusjuures iga operatsioon saab ühe eraldi osa.
+  - Üks operatsioon töötleb sisendit esimesena ja teine saab muudetud tulemuse.
+  - Sisend sildistatakse ja suunatakse töötlemiseks ainult ühele kahest operatsioonist.
+explanation: >-
+  Paralleelne kompositsioon annab sama muutmata sisendi mõlemale operatsioonile
+  samaaegselt. Tulemused pakitakse korrutistüüpi (paari). Simplicitys
+  kasutatakse selleks pair-kombinaatorit, mis kirjutatakse f ▵ g ja mis toodab
+  sisendi a jaoks ⟨f(a), g(a)⟩.
+reviewed: false

@@ -1,0 +1,14 @@
+question: "Pourquoi les valeurs de témoin sont-elles exclues de la Commitment Merkle Root (CMR) ?"
+answer: Pour que les adresses puissent être formées avant que les témoins ne soient connus, et pour que les branches inutilisées puissent être élaguées de façon privée.
+wrong_answers:
+  - Parce que les valeurs de témoin sont tout simplement bien trop volumineuses pour tenir dans un hachage de 256 bits.
+  - Parce que les valeurs de témoin sont validées entièrement séparément par l'effet Failure.
+  - Parce qu'inclure les valeurs de témoin rendrait la CMR non déterministe.
+explanation: >-
+  Les expressions de témoin (comme les signatures) sont fournies au moment
+  de la dépense, et non au moment de la création de l'adresse. Les exclure
+  de la CMR permet deux propriétés importantes : les adresses peuvent être
+  générées avant que la transaction de dépense n'existe, et les branches
+  conditionnelles non exécutées peuvent être élaguées des données on-chain
+  sans révéler leurs valeurs de témoin associées.
+reviewed: true

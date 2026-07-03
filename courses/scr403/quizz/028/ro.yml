@@ -1,0 +1,16 @@
+question: În ce sens este compunerea condițională duala compunerii paralele?
+answer: Compunerea paralelă furnizează ambelor operații același input și asociază output-urile lor (un produs); compunerea condițională primește o sumă de input-uri, iar ambele ramuri partajează același tip de output.
+wrong_answers:
+  - Compunerea paralelă trebuie să execute cele două operații simultan; compunerea condițională le execută secvențial și returnează doar ramura selectată de etichetă.
+  - Ambele rulează pe un singur input comun; compunerea paralelă păstrează perechea de output-uri, în timp ce compunerea condițională execută ambele ramuri și o elimină pe cea neselectată.
+  - Compunerea paralelă duplică input-ul în prealabil, în timp ce compunerea condițională duplică output-ul ulterior, inversând momentul copierii.
+explanation: >-
+  Dualitatea este un schimb produs/sumă, în care tipul comun schimbă
+  parte: compunerea paralelă oferă ambelor operații același tip de input
+  și asociază output-urile lor într-un produs, în timp ce compunerea condițională
+  primește o sumă (uniune etichetată) a celor două tipuri de input, iar ambele ramuri trebuie
+  să producă același tip de output. Simultaneitatea este irelevantă — articolul
+  subliniază că compunerea paralelă poate fi implementată secvențial — iar
+  compunerea condițională execută exact o ramură, aleasă de etichetă,
+  în loc să le execute pe amândouă și să o elimine pe una dintre ele.
+reviewed: false

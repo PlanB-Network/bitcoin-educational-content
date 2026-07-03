@@ -1,0 +1,14 @@
+question: Miksi Simplicity-lausekkeet serialisoidaan DAG-rakenteina eikä puina?
+answer: Eksponentiaalisen kasvun estämiseksi, koska jaetut alilausekkeet tallennetaan vain kerran.
+wrong_answers:
+  - Koska pelkät puurakenteet eivät pysty lainkaan esittämään ehdollista haarautumista.
+  - Jotta rinnakkainen suoritus useilla erillisillä moniytimisillä prosessoreilla olisi mahdollista.
+  - Koska Liquid Network -protokolla määrää tässä tiukasti DAG-muodon.
+explanation: >-
+  Simplicity-lausekkeet muodostavat luonnostaan puita, jotka voisivat kasvaa
+  eksponentiaalisesti monimutkaisuuden lisääntyessä. Serialisoimalla ne
+  suunnattuina asyklisinä verkkoina (DAG:eina) alilausekkeet, jotka esiintyvät
+  useita kertoja, tallennetaan kerran ja niihin viitataan useista vanhemmista.
+  Tämä pitää ohjelmien todelliset koot kasvamassa lineaarisesti eksponentiaalisen
+  sijaan.
+reviewed: false

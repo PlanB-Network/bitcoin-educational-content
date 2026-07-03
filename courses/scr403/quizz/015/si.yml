@@ -1,0 +1,13 @@
+question: "'case' combinator එක එහි signature එකෙහි shared environment type C එකක් ඇතුළත් කරන්නේ ඇයි?"
+answer: branches දෙකටම tagged input එක සමඟම shared context data කියවිය හැකි වන පරිදි.
+wrong_answers:
+  - stack overflows වැළැක්වීම සඳහා input එකෙහි size එක සීමා කිරීමට.
+  - branches දෙක අතර ඉදිරියට හා පසුපසට recursive calls සක්‍රීය කිරීමට.
+  - chain එකෙහි කලින් තිබූ previous combinator එකෙහි output එක store කිරීමට.
+explanation: >-
+  case combinator එකෙහි signature එක (A + B) × C ⊢ D වේ. අමතර type C එක,
+  left branch (f : A × C ⊢ D) සහ right branch (g : B × C ⊢ D) යන දෙකටම
+  access කළ හැකි shared environment එකක් ලෙස ක්‍රියා කරයි. මෙය සරල
+  if-then-else එකකට වඩා බලවත් වන්නේ, branches ඒවායේ නිශ්චිත data මෙන්ම
+  computation සඳහා අවශ්‍ය contextual information ද යන දෙකම ලබා ගන්නා නිසාය.
+reviewed: false

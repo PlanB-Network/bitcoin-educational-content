@@ -1,0 +1,14 @@
+question: "Telusuri full-adder pada ⟨⟨1,1⟩,1⟩ (1+1+1). Nilai apa yang diserahkan tahap dua, O O H ▵ (O I H ▵ I H ⨾ half-adder), ke tahap akhir?"
+answer: ⟨1, ⟨0, 1⟩⟩ — carry half-adder pertama, lalu carry dan sum dari yang kedua.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — carry half-adder pertama, lalu sum dan carry dari yang kedua.
+  - ⟨0, ⟨0, 1⟩⟩ — bit sum half-adder pertama, lalu carry dan sum dari yang kedua.
+  - ⟨1, ⟨1, 1⟩⟩ — carry half-adder pertama, lalu bit OR dan XOR dari yang kedua.
+explanation: >-
+  Tahap satu menghitung half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) dan
+  menyimpan carry-in, menghasilkan ⟨⟨1,0⟩, 1⟩. Pada tahap dua, O O H
+  mengekstrak carry pertama (1), sementara O I H ▵ I H memberi ⟨0, 1⟩ —
+  sum pertama dan carry-in — ke half-adder kedua, menghasilkan ⟨0, 1⟩
+  karena and(0,1)=0 dan xor(0,1)=1. Tahap akhir kemudian meng-OR-kan kedua
+  carry dan menyimpan sum, menghasilkan ⟨1, 1⟩: biner 3, sesuai harapan.
+reviewed: false

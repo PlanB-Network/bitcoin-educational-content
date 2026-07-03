@@ -1,0 +1,12 @@
+question: "Por que motivo os valores de testemunha (witness) são excluídos da Commitment Merkle Root (CMR)?"
+answer: Para que os endereços se formem antes de as testemunhas serem conhecidas, e os ramos não usados sejam podados de forma privada.
+wrong_answers:
+  - Porque os valores de testemunha são simplesmente demasiado grandes para incluir num hash de 256 bits.
+  - Porque os valores de testemunha são validados inteiramente à parte, pelo efeito Failure.
+  - Porque incluir os valores de testemunha tornaria a CMR não determinística.
+explanation: >-
+  As expressões de testemunha (como as assinaturas) são fornecidas no momento do gasto, não no
+  momento da criação do endereço. Excluí-las da CMR permite duas propriedades importantes: os
+  endereços podem ser gerados antes de a transação de gasto existir, e os ramos condicionais não
+  executados podem ser podados dos dados on-chain sem revelar os seus valores de testemunha associados.
+reviewed: true

@@ -1,0 +1,17 @@
+question: Bukti kelengkapan membangun fungsi apa pun dengan menyarangkan case untuk mendekomposisi masukan dan scribe untuk setiap keluaran. Mengapa ini hanya alat teoretis?
+answer: Ekspresi hasilnya adalah tabel pencarian raksasa yang ukurannya tumbuh secara eksponensial — masukan 256-bit membutuhkan sekitar 2²⁵⁶ entri.
+wrong_answers:
+  - scribe adalah makro, bukan kombinator inti, sehingga ekspresi tersebut berada di luar bahasa yang diverifikasi secara formal.
+  - Bit Machine mengevaluasinya dalam waktu eksponensial, meskipun ekspresi itu sendiri tetap ringkas berkat sharing.
+  - case bersarang hanya dapat mendekomposisi tipe jumlah, sehingga konstruksi ini gagal pada masukan bertipe produk apa pun.
+explanation: >-
+  Konstruksi ini mendaftar setiap kemungkinan masukan lewat dekomposisi
+  case bersarang dan meng-hardcode setiap keluaran dengan scribe, sehingga
+  ukuran ekspresi meledak secara eksponensial — sangat besar untuk tipe
+  realistis seperti kata 256-bit. Ledakan ini terjadi pada ukuran ekspresi,
+  bukan pada runtime ekspresi yang seharusnya ringkas. scribe berkembang
+  menjadi kombinator inti sejati (unit, injl, injr, pair), sehingga
+  hasilnya tetap berada di dalam bahasa inti, yang teorema kelengkapannya
+  diverifikasi secara formal di Rocq; dan dekomposisi tersebut menangani
+  masukan dari tipe apa pun, termasuk produk.
+reviewed: false

@@ -1,0 +1,16 @@
+question: Jet ya half-agg-verify hu-log seti ya tuples kama athari ya Writer. Chini ya jaribio la commutative/idempotent/unitary, muundo wa seti unafanikisha nini, na bado ni nini kinakosekana?
+answer: "Commutative na idempotent (kama Simplicity inavyohitaji), lakini si unitary: kutupa call kungeondoa tuple yake na kuruka saini."
+wrong_answers:
+  - Idempotent na unitary, lakini si commutative, kwa kuwa aggregate lazima ichanganye r-components kwa mpangilio wa kusaini.
+  - Zote tatu, hivyo optimizer inaweza kurudufu, kupanga upya, au kutupa calls bila hatari yoyote.
+  - Commutative lakini si idempotent, kwa kuwa ku-log tuple ileile mara mbili kungetaka aggregate s-components mbili.
+explanation: >-
+  Kuchukulia writer log kama seti huifanya athari kuwa idempotent na
+  commutative, kwa sababu insertion ya seti yenyewe ina sifa zote mbili — hasa
+  zile mbili ambazo Simplicity huidai kwa kila athari. Unitarity bado iko nje ya
+  kufikiwa: kama Failure, write huathiri uhalali wa muamala, kwa kuwa
+  muamala ni halali tu wakati aggregate s-component inafunika kila
+  tuple iliyologiwa. Usemi unaofanya write kwa hiyo hauwezi
+  kutupwa tu kwa sababu pato lake la unit halitumiki, kwa kuwa tuple yake ingetoweka
+  kimyakimya kutoka kwenye verification ya half-aggregation.
+reviewed: false

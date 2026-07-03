@@ -1,0 +1,12 @@
+question: "Hvorfor er Failure-effekten kommutativ i Simplicity, selv om unntak generelt ikke er kommutative?"
+answer: Fordi unntakstypen er enhet (1) med bare én verdi, så rekkefølgen på kastingen spiller ingen rolle.
+wrong_answers:
+  - Fordi Simplicity utfører alle uttrykk i en deterministisk rekkefølge definert av kombinatortreet.
+  - Fordi Failure-effekten alltid blir fanget opp og deretter kastet på nytt av case-kombinatoren.
+  - Fordi Simplicity bruker batch-verifisering, noe som gjør alle kastede unntak likeverdige.
+explanation: >-
+  Generelt er ikke unntak kommutative fordi ulike uttrykk kan kaste ulike
+  unntaksverdier. Simplicity begrenser imidlertid unntak til enhetstypen (bare én mulig verdi),
+  så det å bytte rekkefølgen på to potensielt feilende uttrykk gir det samme unntaket uansett
+  hvilket av dem som faktisk feiler. Denne kommutative egenskapen muliggjør viktige programoptimaliseringer.
+reviewed: true

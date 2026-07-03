@@ -1,0 +1,15 @@
+question: "Pourquoi bip0340-verify utilise-t-il l'effet Failure au lieu de renvoyer un booléen (vrai/faux) ?"
+answer: Pour permettre la vérification par lots des signatures Schnorr, où un seul échec de vérification fait échouer le lot entier.
+wrong_answers:
+  - Parce que les types booléens sont trop coûteux en espace de bloc par rapport au type unité.
+  - Parce que le système de types de Simplicity ne peut pas représenter des valeurs de retour booléennes provenant de jets.
+  - Parce que renvoyer une simple valeur booléenne violerait directement le théorème de complétude.
+explanation: >-
+  Si bip0340-verify renvoyait un booléen, un échec de vérification de
+  signature pourrait tout de même mener à une branche où le script
+  réussit. Dans ce cas, le vérificateur devrait savoir quelle signature
+  spécifique a échoué, empêchant la vérification par lots. En utilisant
+  l'effet Failure, un échec de vérification interrompt toujours le calcul
+  entier, permettant une vérification par lots efficace où de nombreuses
+  signatures sont regroupées.
+reviewed: true

@@ -1,0 +1,12 @@
+question: "Proč bip0340-verify používá efekt Failure místo vracení hodnoty boolean (true/false)?"
+answer: Aby umožnil dávkové ověřování Schnorrových podpisů, kde jedno neúspěšné ověření zneplatní celou dávku.
+wrong_answers:
+  - Protože typy boolean jsou z hlediska prostoru v bloku příliš nákladné ve srovnání s jednotkovým typem.
+  - Protože typový systém Simplicity nedokáže reprezentovat návratové hodnoty boolean pocházející z jetů.
+  - Protože vracení prosté hodnoty boolean by přímo porušovalo větu o úplnosti.
+explanation: >-
+  Pokud by bip0340-verify vracel boolean, neúspěšné ověření podpisu by stále mohlo vést do větve,
+  kde skript uspěje. V takovém případě by ověřovatel potřeboval vědět, který konkrétní podpis
+  selhal, což znemožňuje dávkové ověřování. Použitím efektu Failure vždy neúspěšné ověření přeruší
+  celý výpočet, což umožňuje efektivní dávkové ověřování, při kterém se mnoho podpisů shromáždí dohromady.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Tam-toplayıcı, iki yarım-toplayıcısının taşıma bitlerini XOR ile birleştirmek yerine OR ile birleştirir. OR neden doğrudur?
+answer: Herhangi bir girdi için en fazla bir yarım-toplayıcı taşıma üretebilir; bu yüzden OR, birbirini dışlayan iki durumu tam olarak birleştirir.
+wrong_answers:
+  - İki taşıma biti toplanmalıdır ve Simplicity içinde tek bitlik ikili toplama OR ile yapılır.
+  - Dallanma sonrasında OR, tipi hâlâ ortamla eşleşen tek Boole operatörüdür.
+  - OR taşımayı üstten yaklaştırır; sahte taşımalar son projeksiyon tarafından sonradan atılır.
+explanation: >-
+  İlk yarım-toplayıcı taşıma üretirse, iki girdi biti de 1 olur; bu yüzden
+  toplam biti 0 olur — ve 0 ile beslenen bir yarım-toplayıcı asla taşıma
+  üretemez. Bu nedenle iki taşıma biti hiçbir zaman aynı anda 1 olmaz ve
+  OR bunları tam olarak birleştirir (erişilebilir girdilerde XOR ile bile
+  çakışır). Bu karşılıklı dışlayıcılık, bir tam-toplayıcının iki
+  yarım-toplayıcıya ayrıştırılmasını doğru kılan şeyin ta kendisidir.
+reviewed: false

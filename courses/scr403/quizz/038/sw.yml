@@ -1,0 +1,16 @@
+question: Wakati wa matumizi, tawi la case hukatwa. Verifier anawezaje bado kulinganisha programu iliyofichuliwa na CMR iliyocommitiwa?
+answer: CMR ni Shina la Merkle, hivyo spender hutoa CMR ya tawi lililokatwa tu na verifier huijumuisha ili kukokotoa upya shina.
+wrong_answers:
+  - Verifier hutumia tawi lililotekelezwa pekee, kwa kuwa matawi ya case yasiyotekelezwa hayakuwa kamwe kwenye CMR.
+  - Matawi yaliyokatwa huwa placeholder ya canonical ambayo CMR yake isiyobadilika husimama wakati wa kukokotoa upya shina.
+  - Code kamili ya tawi lililokatwa hubaki katika witness, ambapo verifier huihash lakini haitekelezi.
+explanation: >-
+  CMR ya case f g ni tagged hash juu ya CMR za children zote mbili, hivyo kila
+  tawi — lililotekelezwa au la — huwekewa commitment wakati wa address. Kwa kuwa
+  ujenzi ni Mti wa Merkle, tawi lililokatwa linaweza kufupishwa kwa
+  CMR yake ya baiti 32 pekee: verifier huingiza hash hiyo kwenye ukokotoaji
+  wa recursive na hukagua kwamba shina linalingana na commitment ya UTXO,
+  bila kuona code iliyokatwa kamwe. Hii ndiyo hasa sababu Shina la Merkle
+  hutumiwa kwa commitment, na kwa nini witness expressions zozote ndani ya
+  tawi lililokatwa hazionekani kamwe on-chain.
+reviewed: false

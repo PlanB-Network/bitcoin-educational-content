@@ -1,0 +1,14 @@
+question: Bagaimana buffer dengan panjang variabel direpresentasikan dalam sistem tipe Simplicity?
+answer: Sebagai produk tipe-opsi bersarang, setiap lapisan menandai satu blok pangkat dua.
+wrong_answers:
+  - Menggunakan tipe array dinamis khusus yang dibangun langsung ke dalam bahasa.
+  - Melalui tipe sum rekursif yang membesar pada setiap pemanggilan fungsi.
+  - Sebagai vektor berukuran tetap yang diisi padding dengan nilai nol di akhir.
+explanation: >-
+  Buffer menggunakan tipe opsi bersarang. Sebagai contoh, Xᑉ⁸ diperluas
+  menjadi (1 + X⁴) × ((1 + X²) × (1 + X)), yang sebagai polinomial
+  menghasilkan 1 + X + X² + ... + X⁷ — merepresentasikan kumpulan
+  berisi 0 hingga 7 elemen. Setiap lapisan opsi menandakan apakah
+  sebuah blok pangkat dua ada, secara efektif mengkodekan panjang
+  dalam bentuk biner.
+reviewed: false

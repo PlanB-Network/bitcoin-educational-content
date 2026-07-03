@@ -1,0 +1,11 @@
+question: "Aký je typ programu v jazyku Simplicity?"
+answer: 1 ⊢ 1 (z unit na unit) — žiadny zmysluplný vstup ani výstup; I/O zabezpečujú vedľajšie efekty.
+wrong_answers:
+  - TxEnv ⊢ Bool — prijíma dáta transakcie a vracia boolovskú hodnotu platnosti.
+  - 2^256 ⊢ 2^256 — prijíma vstupný haš a vracia novú výstupnú hodnotu hašu.
+  - Ľubovoľný typ A ⊢ B — programy môžu mať úplne ľubovoľné typy vstupu a výstupu.
+explanation: >-
+  Program v jazyku Simplicity je definovaný ako výraz typu 1 ⊢ 1. Efekt Reader zachytáva
+  vstup prostredia transakcie, zatiaľ čo efekt Failure určuje úspech alebo zlyhanie.
+  Tieto vedľajšie efekty spracúvajú všetko I/O namiesto samotných typov jazyka Simplicity.
+reviewed: true

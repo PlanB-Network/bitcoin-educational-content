@@ -1,0 +1,15 @@
+question: Trace l'additionneur complet sur ⟨⟨1,1⟩,1⟩ (1+1+1). Quelle valeur l'étape deux, O O H ▵ (O I H ▵ I H ⨾ half-adder), transmet-elle à l'étape finale ?
+answer: ⟨1, ⟨0, 1⟩⟩ — la retenue du premier demi-additionneur, puis la retenue et la somme du second.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — la retenue du premier demi-additionneur, puis la somme et la retenue du second.
+  - ⟨0, ⟨0, 1⟩⟩ — le bit de somme du premier demi-additionneur, puis la retenue et la somme du second.
+  - ⟨1, ⟨1, 1⟩⟩ — la retenue du premier demi-additionneur, puis les bits OR et XOR du second.
+explanation: >-
+  L'étape un calcule half-adder⟨1,1⟩ = ⟨1, 0⟩ (retenue 1, somme 0) et
+  conserve la retenue entrante, donnant ⟨⟨1,0⟩, 1⟩. À l'étape deux, O O H
+  extrait la première retenue (1), tandis que O I H ▵ I H fournit ⟨0, 1⟩ —
+  la première somme et la retenue entrante — au second demi-additionneur,
+  produisant ⟨0, 1⟩ puisque and(0,1)=0 et xor(0,1)=1. L'étape finale fait
+  ensuite un OR des deux retenues et conserve la somme, produisant ⟨1, 1⟩ :
+  binaire 3, comme attendu.
+reviewed: false

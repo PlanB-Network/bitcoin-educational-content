@@ -1,0 +1,12 @@
+question: Các vector độ dài cố định được xây dựng như thế nào trong hệ thống kiểu của Simplicity?
+answer: Thông qua các kiểu tích lồng nhau có độ dài là lũy thừa của hai (ví dụ A⁴ = A² × A²).
+wrong_answers:
+  - Dùng một constructor kiểu mảng đặc biệt được tích hợp vào ngôn ngữ.
+  - Thông qua các kiểu tổng đệ quy nối các phần tử lại với nhau thành một danh sách.
+  - Dùng các buffer độ dài biến đổi có kích thước tối đa cố định.
+explanation: >-
+  Simplicity xây dựng vector từ các kiểu tích lồng nhau. A² là A × A,
+  A⁴ là A² × A², A⁸ là A⁴ × A⁴, và cứ tiếp tục như vậy. Điều này tạo ra
+  các tập hợp có kích thước là lũy thừa của hai. Ví dụ, 𝟚²⁵⁶ (một hash 256 bit)
+  được xây dựng bằng cách lồng các tích sâu 8 cấp từ kiểu Boolean.
+reviewed: false

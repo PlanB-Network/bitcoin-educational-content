@@ -1,0 +1,13 @@
+question: Simplicity में access notation (O, I, H) कैसे काम करती है?
+answer: O का अर्थ 'take' (बाएँ) है, I का अर्थ 'drop' (दाएँ) है, और H का अर्थ 'iden' (पूरा मान) है।
+wrong_answers:
+  - O का अर्थ output, I का अर्थ input, और H का अर्थ प्रोग्राम का execution रोकना है।
+  - वे variable names हैं जिन्हें compiler स्वतः values को assign करता है।
+  - O odd-indexed तत्व चुनता है, I even-indexed तत्व चुनता है, H head चुनता है।
+explanation: >-
+  O/I/H shorthand nested pairs में navigate करने का एक संक्षिप्त तरीका देता है।
+  O f यानी take f (बाएँ को निकालना), I f यानी drop f (दाएँ को निकालना), और H
+  iden (पूरा मान) है। I O H जैसी sequences का अर्थ drop(take(iden)) होता है,
+  यानी दूसरे तत्व के पहले तत्व को निकालना। यह binary digits को tree positions
+  की तरह इस्तेमाल करने वाले De Bruijn indices जैसा है।
+reviewed: false

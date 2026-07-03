@@ -1,0 +1,12 @@
+question: Ce produce compoziția secvențială atunci când se înlănțuie operația f (A → B) cu operația g (B → C)?
+answer: O singură operație compusă de la A la C, în care ieșirea lui f alimentează intrarea lui g.
+wrong_answers:
+  - O valoare pereche care conține ambele ieșiri intermediare de tip B și C.
+  - Un condițional care alege între f și g în funcție de intrare.
+  - Două operații separate care rulează independent, fără a partaja date.
+explanation: >-
+  Compoziția secvențială înlănțuie două operații de la un capăt la altul.
+  Ieșirea primei operații devine intrarea celei de-a doua. În Simplicity,
+  aceasta este exprimată cu combinatorul comp: comp f g aplică mai întâi f,
+  apoi g asupra rezultatului.
+reviewed: false

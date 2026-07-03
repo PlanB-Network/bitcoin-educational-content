@@ -1,0 +1,13 @@
+question: Cum sunt construiți vectorii de lungime fixă în sistemul de tipuri al Simplicity?
+answer: Prin tipuri produs imbricate cu lungime putere a lui doi (de ex. A⁴ = A² × A²).
+wrong_answers:
+  - Folosind un constructor de tip array special, integrat în limbaj.
+  - Prin tipuri sumă recursive care înlănțuie elementele într-o listă.
+  - Folosind buffere de lungime variabilă cu o dimensiune maximă fixă.
+explanation: >-
+  Simplicity construiește vectorii din tipuri produs imbricate. A² este
+  A × A, A⁴ este A² × A², A⁸ este A⁴ × A⁴ și așa mai departe. Aceasta
+  oferă colecții de dimensiuni putere a lui doi. De exemplu, 𝟚²⁵⁶ (un hash
+  de 256 de biți) este construit prin imbricarea produselor pe 8 niveluri
+  de adâncime, pornind de la tipul boolean.
+reviewed: false

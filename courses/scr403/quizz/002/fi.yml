@@ -1,0 +1,12 @@
+question: Mitä syötteelle tapahtuu rinnakkaisessa kompositiossa?
+answer: Molemmat operaatiot saavat saman syötteen, ja niiden tulosteet muodostavat tulon (parin).
+wrong_answers:
+  - Syöte jaetaan kahtia, ja kumpikin operaatio saa yhden erillisen osan.
+  - Toinen operaatio käsittelee syötteen ensin, ja toinen saa muokatun tuloksen.
+  - Syöte merkitään ja ohjataan vain toisen operaation käsiteltäväksi.
+explanation: >-
+  Rinnakkainen kompositio antaa saman muokkaamattoman syötteen molemmille
+  operaatioille samanaikaisesti. Tulokset niputetaan tulotyypiksi (pariksi).
+  Simplicityssä tähän käytetään pair-kombinaattoria, merkintänä f ▵ g, joka
+  tuottaa ⟨f(a), g(a)⟩ syötteelle a.
+reviewed: false

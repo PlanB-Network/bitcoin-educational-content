@@ -1,0 +1,13 @@
+question: "Por que motivo o efeito Failure é comutativo na Simplicity, mesmo as exceções geralmente não sendo comutativas?"
+answer: Porque o tipo da exceção é unit (1), com apenas um valor, pelo que a ordem de lançamento não importa.
+wrong_answers:
+  - Porque a Simplicity executa todas as expressões numa ordem determinística definida pela árvore de combinadores.
+  - Porque o efeito Failure é sempre capturado e depois relançado pelo combinador case.
+  - Porque a Simplicity usa verificação em lote (batch verification), o que torna todas as exceções lançadas equivalentes.
+explanation: >-
+  Em geral, as exceções não são comutativas porque expressões diferentes podem lançar valores de
+  exceção diferentes. No entanto, a Simplicity restringe as exceções ao tipo unit (apenas um valor
+  possível), pelo que trocar a ordem de duas expressões potencialmente falíveis produz a mesma
+  exceção independentemente de qual delas efetivamente falhar. Esta propriedade de comutatividade
+  permite otimizações importantes do programa.
+reviewed: true

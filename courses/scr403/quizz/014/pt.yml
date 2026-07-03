@@ -1,0 +1,13 @@
+question: O que é o tipo unidade (𝟙) e por que ele é útil apesar de não carregar nenhuma informação?
+answer: Ele contém um valor (a tupla vazia) e é a base para todos os outros tipos.
+wrong_answers:
+  - Ele representa o número 1 e é usado diretamente para operações aritméticas.
+  - É um tipo de depuração especial que registra rastros de execução em um arquivo.
+  - Ele armazena exatamente um bit de dado usado para operações booleanas.
+explanation: >-
+  O tipo unidade 𝟙 tem exatamente um valor — a tupla vazia ⟨⟩. Embora
+  carregue zero bits de informação, ele é essencial como a semente a
+  partir da qual os tipos soma e produto constroem todos os tipos de
+  dados úteis. Por exemplo, o tipo booleano 𝟚 é 𝟙 + 𝟙, construído
+  inteiramente a partir de tipos unidade.
+reviewed: false

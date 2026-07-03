@@ -1,0 +1,11 @@
+question: combinator 'take' ทำอะไร?
+answer: มันดึง component ซ้ายของ product ออกมา และทิ้ง component ขวา.
+wrong_answers:
+  - มันลบ element ออกจาก sum type และทิ้งบิต tag.
+  - มันประกอบปฏิบัติการแยกกันสองตัวแบบตามลำดับหัวต่อท้าย.
+  - มันห่อค่าด้วย tag ซ้ายเพื่อสร้าง sum type ใหม่.
+explanation: >-
+  take combinator เป็น extractor สำหรับ product type เมื่อให้ take f
+  ใช้กับคู่ ⟨a, b⟩ มันจะทิ้ง b และใช้ f กับ a เมื่อใช้ร่วมกับ iden,
+  take iden จะดึง element แรกของคู่ใด ๆ ออกมา.
+reviewed: false

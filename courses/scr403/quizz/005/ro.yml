@@ -1,0 +1,12 @@
+question: Ce face combinatorul „take”?
+answer: Extrage componenta stângă a unui produs, eliminând-o pe cea dreaptă.
+wrong_answers:
+  - Elimină un element dintr-un tip sumă, eliminând bitul de etichetă.
+  - Compune secvențial două operații separate de la un capăt la altul.
+  - Împachetează o valoare cu o etichetă stânga pentru a construi un nou tip sumă.
+explanation: >-
+  Combinatorul take este un extractor pentru tipurile produs. Dat fiind
+  take f aplicat unei perechi ⟨a, b⟩, acesta elimină b și aplică f asupra
+  lui a. Combinat cu iden, take iden extrage primul element al oricărei
+  perechi.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Pourquoi les expressions Simplicity sont-elles sérialisées sous forme de DAG plutôt que d'arbres ?
+answer: Pour empêcher une croissance exponentielle, car les sous-expressions partagées ne sont stockées qu'une seule fois.
+wrong_answers:
+  - Parce que les structures arborescentes classiques ne peuvent absolument pas représenter le branchement conditionnel.
+  - Pour permettre l'exécution parallèle sur de nombreux processeurs multi-cœurs distincts.
+  - Parce que le protocole du Liquid Network impose strictement le format DAG ici.
+explanation: >-
+  Les expressions Simplicity forment naturellement des arbres qui pourraient
+  croître de manière exponentielle à mesure que la complexité augmente. En
+  les sérialisant sous forme de graphes orientés acycliques (DAG), les
+  sous-expressions qui apparaissent plusieurs fois sont stockées une seule
+  fois et référencées par plusieurs parents. Cela permet aux tailles réelles
+  des programmes de croître de manière linéaire plutôt qu'exponentielle.
+reviewed: false

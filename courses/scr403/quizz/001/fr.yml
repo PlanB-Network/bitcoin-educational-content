@@ -1,0 +1,12 @@
+question: Que produit la composition séquentielle lorsqu'elle enchaîne l'opération f (A → B) avec l'opération g (B → C) ?
+answer: Une seule opération composite de A vers C, la sortie de f alimentant l'entrée de g.
+wrong_answers:
+  - Une valeur paire contenant les deux sorties intermédiaires de type B et C.
+  - Une conditionnelle qui choisit entre f et g selon l'entrée.
+  - Deux opérations distinctes qui s'exécutent indépendamment, sans partager de données.
+explanation: >-
+  La composition séquentielle enchaîne deux opérations de bout en bout. La sortie
+  de la première opération devient l'entrée de la seconde. En Simplicity, cela
+  s'exprime avec le combinateur comp : comp f g applique d'abord f, puis g au
+  résultat.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Hvorfor utelukker Simplicity dynamisk minneallokering under kjøring?
+answer: For å muliggjøre statisk analyse og utelukke hele klasser av feil og angrep.
+wrong_answers:
+  - Fordi Liquid Network ikke støtter operasjoner på lavnivå minne.
+  - For å redusere læringskurven for nye utviklere av smartkontrakter.
+  - Fordi Bitcoin Script selv også mangler dynamisk minneallokering.
+explanation: >-
+  Simplicity unngår dynamisk minneallokering slik at all ressursbruk
+  kan fastslås statisk før kjøring. Dette muliggjør forutsigbare
+  ressursgrenser og eliminerer sårbarheter knyttet til minnehåndtering,
+  noe som er kritisk i en blokkjede-valideringskontekst.
+reviewed: false

@@ -1,0 +1,12 @@
+question: completeness theorem එක Simplicity ගැන සහතික කරන්නේ කුමක්ද?
+answer: Simplicity types දෙකක් අතර ඕනෑම function එකක් combinators නවයෙන් ගොඩනැගිය හැකි බව.
+wrong_answers:
+  - Simplicity programs සෑම විටම constant time තුළ අවසන් වන බවට සහතික කර ඇති බව.
+  - Simplicity Turing-complete වන අතර ඕනෑම Turing machine එකක් සම්පූර්ණයෙන් simulate කළ හැකි බව.
+  - සෑම වලංගු Simplicity program එකකටම එකම තනි unique representation එකක් ඇති බව.
+explanation: >-
+  completeness theorem එක finite Simplicity types අතර ඕනෑම function එකක් සඳහා, එය
+  compute කරන Simplicity expression එකක් පවතින බව ඔප්පු කරයි. constructive proof එක
+  nested case සහ scribe expressions භාවිතයෙන් lookup table එකක් ගොඩනගයි.
+  මෙය Rocq proof assistant තුළ formalව verify කර ඇත.
+reviewed: false

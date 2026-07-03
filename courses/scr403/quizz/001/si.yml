@@ -1,0 +1,12 @@
+question: operation f (A → B) operation g (B → C) සමඟ දාමගත කරන විට අනුක්‍රමික සංයෝජනය නිපදවන්නේ කුමක්ද?
+answer: A සිට C දක්වා එක් composite operation එකක්; f හි output එක g වෙත input ලෙස යයි.
+wrong_answers:
+  - B සහ C වර්ගවල අතරමැදි outputs දෙකම අඩංගු pair value එකක්.
+  - input මත පදනම්ව f හෝ g අතරින් එකක් තෝරන conditional එකක්.
+  - කිසිදු data බෙදා නොගෙන ස්වාධීනව ක්‍රියාත්මක වන වෙනම operations දෙකක්.
+explanation: >-
+  අනුක්‍රමික සංයෝජනය operations දෙකක් ආරම්භයේ සිට අවසානය දක්වා දාමගත කරයි. පළමු
+  operation එකේ output දෙවන operation එකේ input වේ. Simplicity තුළ මෙය
+  comp combinator මඟින් ප්‍රකාශ වේ: comp f g පළමුව f යොදයි, පසුව
+  ප්‍රතිඵලයට g යොදයි.
+reviewed: false

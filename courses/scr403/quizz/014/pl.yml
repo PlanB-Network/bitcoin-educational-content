@@ -1,0 +1,13 @@
+question: Czym jest typ jednostkowy (𝟙) i dlaczego jest użyteczny, mimo że nie niesie żadnej informacji?
+answer: Przechowuje jedną wartość (pustą krotkę) i jest podstawą wszystkich innych typów.
+wrong_answers:
+  - Reprezentuje liczbę 1 i jest używany bezpośrednio do operacji arytmetycznych.
+  - Jest specjalnym typem do debugowania, który zapisuje ślady wykonania do pliku.
+  - Przechowuje dokładnie jeden bit danych używany do operacji logicznych.
+explanation: >-
+  Typ jednostkowy 𝟙 ma dokładnie jedną wartość — pustą krotkę ⟨⟩. Choć
+  niesie zero bitów informacji, jest niezbędny jako zalążek, z którego
+  typy sumy i iloczynu budują wszystkie użyteczne typy danych.
+  Na przykład typ logiczny 𝟚 to 𝟙 + 𝟙, zbudowany w całości
+  z typów jednostkowych.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Co dělá kombinátor „take"?
+answer: Extrahuje levou složku součinu a pravou zahodí.
+wrong_answers:
+  - Odstraní prvek ze součtového typu a zahodí bit značky.
+  - Sekvenčně složí dvě samostatné operace jednu za druhou.
+  - Obalí hodnotu levou značkou, aby vytvořil nový součtový typ.
+explanation: >-
+  Kombinátor take je extraktor pro součinové typy. Při aplikaci take f na pár
+  ⟨a, b⟩ zahodí b a aplikuje f na a. Ve spojení s iden extrahuje take iden
+  první prvek libovolného páru.
+reviewed: false

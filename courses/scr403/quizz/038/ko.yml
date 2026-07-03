@@ -1,0 +1,14 @@
+question: push-<n의 type은 Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ입니다. 왜 그 output은 full vector type Aⁿ을 포함하는 sum이어야 하나요?
+answer: buffer Aᑉⁿ은 최대 n−1개 item만 담으므로, full buffer에 push하면 n개 item이 됩니다 — 이를 표현할 수 있는 것은 Aⁿ뿐입니다.
+wrong_answers:
+  - sum은 caller가 더 cheap한 encoding을 선택할 수 있게 해줍니다. vectors가 option products보다 더 compact하게 serialize되기 때문입니다.
+  - Push는 empty buffer에서 fail할 수 있으며, Aⁿ branch는 old contents를 carrying하는 error case입니다.
+  - case는 sum-typed buffer를 consume하는 모든 function이 sum-typed output도 produce해야 한다고 요구합니다.
+explanation: >-
+  Aᑉⁿ은 길이가 n보다 strictly less인 lists의 type입니다.
+  따라서 maximum capacity의 buffer는 n−1 elements를 담습니다. 하나를 더 push하면
+  정확히 n elements가 되고, Aᑉⁿ은 이를 표현할 수 없습니다. Aⁿ summand는
+  그 overflowed result를 full vector로 반환합니다. output type에 overflow를 encoding하면
+  push-<n은 partial function이 아니라 total function으로 남습니다
+  — empty-buffer failure case는 push가 아니라 pop-<n에 속합니다.
+reviewed: false

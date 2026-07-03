@@ -1,0 +1,12 @@
+question: Định lý đầy đủ bảo đảm điều gì về Simplicity?
+answer: Rằng bất kỳ hàm nào giữa hai kiểu Simplicity đều có thể được xây dựng từ chín combinator.
+wrong_answers:
+  - Rằng các chương trình Simplicity được bảo đảm luôn kết thúc trong thời gian hằng số.
+  - Rằng Simplicity là Turing-complete và có thể mô phỏng bất kỳ máy Turing nào.
+  - Rằng mọi chương trình Simplicity hợp lệ đều có đúng một biểu diễn duy nhất.
+explanation: >-
+  Định lý đầy đủ chứng minh rằng với bất kỳ hàm nào giữa các kiểu Simplicity
+  hữu hạn, tồn tại một biểu thức Simplicity tính hàm đó. Chứng minh mang tính
+  xây dựng tạo ra một bảng tra cứu bằng các biểu thức case và scribe lồng nhau.
+  Điều này đã được xác minh hình thức trong trợ lý chứng minh Rocq.
+reviewed: false

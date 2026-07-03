@@ -1,0 +1,16 @@
+question: "#ᶜ(comp f g) hesaplamak 128 bayt üzerinde hash hesaplar: comp etiketi iki kez, sonra iki çocuk CMR. Bu neden yine de en fazla bir SHA-256 sıkıştırma çağrısıdır?"
+answer: İlk 64 baytlık blok sabit tag∥tag değeridir; bunun midstate değeri bir kez önceden hesaplanır. Yalnızca çocuk CMR değerlerini tutan blok sıkıştırılır.
+wrong_answers:
+  - Yalnızca SHA-256 algoritmasının son uzunluk-dolgu bloğunu düşürmek, 128 baytın tamamını tek çağrıya sığdırır.
+  - İki çocuk CMR, XOR ile tek bir 32 baytlık özette birleştirilir ve girdi tek bloğa küçülür.
+  - SHA-256-midstate, 128 baytlık mesaj bloklarını tek geçişte emen geniş-blok varyantıdır.
+explanation: >-
+  SHA-256 sıkıştırma fonksiyonu sabit 64 baytlık blokları işler; bu yüzden
+  128 baytlık bir girdi normalde iki çağrı gerektirir (tam SHA-256 kullanımında
+  uzunluk dolgusu için bir çağrı daha eklenir). Her kombinatörün ilk bloğu
+  sabit tag∥tag olduğu için bunun midstate değeri bir kez önceden hesaplanıp
+  önbelleğe alınabilir; her ifade sonra yalnızca çocuklarının CMR değerlerini
+  tutan bloğun bir taze sıkıştırmasına ihtiyaç duyar. Midstate değerleri son dolgu
+  bloğunu da düşürür; ama bu tek başına yine de iki sıkıştırma bırakırdı —
+  bunu en fazla bire indiren şey, önceden hesaplanmış etiket midstate değeridir.
+reviewed: false

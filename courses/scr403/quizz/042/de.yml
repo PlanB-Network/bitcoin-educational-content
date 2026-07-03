@@ -1,0 +1,18 @@
+question: Zur Ausgabezeit wird ein case-Zweig weggeschnitten (pruned). Wie kann der Verifizierer das offengelegte Programm dennoch mit dem committeten CMR abgleichen?
+answer: Der CMR ist eine Merkle-Wurzel, sodass der Ausgebende nur den CMR des weggeschnittenen Zweigs bereitstellt und der Verifizierer ihn einbezieht, um die Wurzel neu zu berechnen.
+wrong_answers:
+  - Der Verifizierer verwendet nur den ausgeführten Zweig, da nicht ausgeführte case-Zweige nie im CMR enthalten waren.
+  - Weggeschnittene Zweige werden zu einem kanonischen Platzhalter, dessen fester CMR beim Neuberechnen der Wurzel einspringt.
+  - Der vollständige Code des weggeschnittenen Zweigs bleibt im Witness, wo der Verifizierer ihn hasht, aber nicht ausführt.
+explanation: >-
+  Der CMR von case f g ist ein getaggter Hash über die CMRs beider
+  Kinder, sodass jeder Zweig — ausgeführt oder nicht — zum Adresszeitpunkt
+  committet wird. Da die Konstruktion ein Merkle-Baum ist, kann ein
+  weggeschnittener Zweig allein durch seinen 32-Byte-CMR zusammengefasst
+  werden: Der Verifizierer setzt diesen Hash in die rekursive Berechnung
+  ein und prüft, ob die Wurzel mit dem Commitment der UTXO
+  übereinstimmt, ohne den weggeschnittenen Code je zu sehen. Genau
+  deshalb wird für das Commitment eine Merkle-Wurzel verwendet, und
+  deshalb erscheinen Witness-Ausdrücke innerhalb des weggeschnittenen
+  Zweigs nie on-chain.
+reviewed: false

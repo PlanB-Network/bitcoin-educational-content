@@ -1,0 +1,9 @@
+question: jets 在 Simplicity 中扮演什麼角色？
+answer: Jets 是為了速度而取代特定 Simplicity 運算式的原生實作。
+wrong_answers:
+  - Jets 是把 Simplicity 轉換成 Bitcoin Script 的編譯步驟。
+  - Jets 是把 Simplicity 程式廣播給所有節點的網路訊息。
+  - Jets 是用於測試與追蹤 Simplicity 運算式的除錯工具。
+explanation: >-
+  jet 是網路一致同意用來替換特定 Simplicity 運算式（以其 Merkle 根識別）的原生實作。該 Simplicity 運算式作為 jet 所計算內容的形式化規格，而原生程式碼則提供實際的執行速度。常見的 jets 處理算術與密碼學運算，例如 SHA-256。
+reviewed: false

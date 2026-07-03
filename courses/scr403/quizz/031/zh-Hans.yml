@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden) 的类型是什么，它表示什么函数？
+answer: A × B ⊢ B × A —— 它交换一个对中的两个分量。
+wrong_answers:
+  - A × B ⊢ A × B —— 它让两个分量原样通过（恒等函数）。
+  - "类型错误：take iden 和 drop iden 的输出类型不同，pair 无法将它们合并。"
+  - (A × B) × (A × B) ⊢ B × A —— pair 合并其两个子表达式的输入类型。
+explanation: >-
+  drop iden : A × B ⊢ B 提取第二个分量，take iden : A ×
+  B ⊢ A 提取第一个分量。pair 组合子只要求它的两个
+  子表达式共享同一个输入类型（这里是 A × B）；它们的输出可以
+  不同，并会作为一个对返回。对于输入 ⟨a, b⟩，该表达式
+  因而产生 ⟨b, a⟩：交换函数，其类型为 A × B ⊢ B × A。
+reviewed: false

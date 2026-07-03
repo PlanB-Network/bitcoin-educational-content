@@ -1,0 +1,12 @@
+question: "ทำไมค่า witness จึงถูกกันออกจาก Commitment Merkle Root (CMR)?"
+answer: เพื่อให้สร้าง addresses ได้ก่อนรู้ witnesses และ pruned branches ที่ไม่ได้ใช้คงความเป็นส่วนตัว
+wrong_answers:
+  - เพราะค่า witness ใหญ่เกินกว่าจะรวมไว้ใน hash 256 บิตได้
+  - เพราะค่า witness ถูก validate แยกต่างหากทั้งหมดโดย Failure effect
+  - เพราะการรวมค่า witness จะทำให้ CMR ไม่ deterministic
+explanation: >-
+  witness expressions (เช่น signatures) ถูกให้มาตอนใช้จ่าย ไม่ใช่ตอนสร้าง address
+  การกันมันออกจาก CMR ทำให้เกิดคุณสมบัติสำคัญสองข้อ: สร้าง addresses ได้ก่อนที่
+  spending transaction จะมีอยู่ และ conditional branches ที่ไม่ได้ execute สามารถถูก prune ออกจาก
+  on-chain data ได้โดยไม่เปิดเผยค่า witness ที่เกี่ยวข้อง
+reviewed: true

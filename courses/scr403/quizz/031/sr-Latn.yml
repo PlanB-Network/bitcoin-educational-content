@@ -1,0 +1,13 @@
+question: Koji je tip izraza pair (drop iden) (take iden), i koju funkciju označava?
+answer: A × B ⊢ B × A — zamenjuje dve komponente para.
+wrong_answers:
+  - A × B ⊢ A × B — propušta obe komponente nepromenjene (identitet).
+  - "Loše tipiziran: take iden i drop iden imaju različite izlazne tipove, koje pair ne može spojiti."
+  - (A × B) × (A × B) ⊢ B × A — pair spaja ulazne tipove svoja dva podizraza.
+explanation: >-
+  drop iden : A × B ⊢ B izdvaja drugu komponentu a take iden : A × B ⊢
+  A izdvaja prvu. Kombinator pair zahteva samo da njegova dva podizraza
+  dele isti ulazni tip (ovde A × B); njihovi izlazi se mogu razlikovati,
+  i vraćaju se kao par. Na ulazu ⟨a, b⟩ izraz stoga daje ⟨b, a⟩:
+  funkciju zamene, tipa A × B ⊢ B × A.
+reviewed: false

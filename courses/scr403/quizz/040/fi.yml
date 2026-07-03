@@ -1,0 +1,17 @@
+question: "#ᶜ(comp f g):n laskeminen tiivistää 128 tavua: comp-tunnisteen kahdesti, sitten molemmat lapsi-CMR:t. Miksi se on silti korkeintaan yksi SHA-256-pakkauskutsu?"
+answer: Ensimmäinen 64-tavuinen lohko on vakio tag∥tag, jonka välitila esilasketaan kerran; vain lapsi-CMR:t sisältävä lohko pakataan.
+wrong_answers:
+  - Pelkästään SHA-256:n viimeisen pituustäytelohkon pudottaminen saa koko 128 tavua mahtumaan yhteen kutsuun.
+  - Kaksi lapsi-CMR:ää XOR:ataan yhdeksi 32-tavuiseksi tiivisteeksi, mikä kutistaa syötteen yhdeksi lohkoksi.
+  - SHA-256-midstate on leveälohkoinen variantti, joka absorboi 128-tavuiset viestilohkot yhdellä läpimenolla.
+explanation: >-
+  SHA-256:n pakkausfunktio käsittelee kiinteitä 64-tavuisia lohkoja, joten
+  128-tavuinen syöte tarvitsee normaalisti kaksi kutsua (plus vielä yhden
+  pituustäytteelle täydessä SHA-256:ssa). Koska jokaisen kombinaattorin
+  ensimmäinen lohko on vakio tag∥tag, sen välitila voidaan esilaskea kerran ja
+  tallentaa välimuistiin; kukin lauseke tarvitsee sitten vain yhden tuoreen
+  pakkauksen lohkolle, joka sisältää sen lasten CMR:t. Välitilat pudottavat
+  myös viimeisen täytelohkon, mutta pelkästään se jättäisi silti kaksi
+  pakkausta — esilaskettu tag∥tag-välitila on se, mikä pudottaa määrän
+  korkeintaan yhteen.
+reviewed: false

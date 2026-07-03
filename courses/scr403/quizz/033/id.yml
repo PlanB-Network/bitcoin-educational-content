@@ -1,0 +1,15 @@
+question: Berdasarkan aturan pengetikan 'tipe lebih kecil pada premis', kombinator inti mana yang benar-benar memindahkan data selama eksekusi?
+answer: Hanya iden dan comp; tujuh lainnya diimplementasikan dengan tidak lebih dari sekadar pembukuan (bookkeeping).
+wrong_answers:
+  - Hanya take dan drop; mengekstrak satu komponen memaksa mesin untuk menyalinnya keluar dari produk.
+  - Hanya pair dan case; menduplikasi masukan untuk dua cabang dan mendispatch berdasarkan tag memindahkan data.
+  - Hanya injl dan injr; menambahkan tag menulis ulang nilai ke representasi tipe jumlah yang lebih besar.
+explanation: >-
+  Secara mengejutkan, kombinator yang tampak seperti akses data (take,
+  drop, pair, case, injl, injr) tidak memerlukan penyalinan: karena premis
+  dalam aturan pengetikan melibatkan tipe yang lebih kecil daripada
+  konklusinya, Bit Machine dapat mengimplementasikannya hanya dengan
+  pembukuan. Hanya iden, yang menyalin seluruh masukannya ke keluaran, dan
+  comp, yang mewujudkan nilai antara yang diteruskan dari f ke g, yang
+  benar-benar memindahkan data.
+reviewed: false

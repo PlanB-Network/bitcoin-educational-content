@@ -1,0 +1,16 @@
+question: एक Simplicity output fixed BIP-0341 NUMS point को अपनी internal key के रूप में use करता है। key-spend provably impossible क्यों है, और NUMS point को randomize करने से क्या जुड़ता है?
+answer: कोई भी NUMS point का discrete log नहीं जानता, इसलिए कोई key-path signature exist नहीं कर सकता; randomizing केवल privacy जोड़ता है।
+wrong_answers:
+  - NUMS point curve से बाहर स्थित है इसलिए key-path signatures fail होते हैं; randomizing उसे वापस on-curve लाता है।
+  - NUMS point की private key zero है, जिसे consensus reject करता है; randomizing tweak को side channels से guard करता है।
+  - NUMS point को tweak करने से out-of-range key बनती है, जिससे key-spend non-standard हो जाता है; randomizing address reuse से बचाता है।
+explanation: >-
+  NUMS ('Nothing-Up-My-Sleeve') point एक perfectly valid curve point है, जिसे इस
+  तरह construct किया गया है कि कोई भी corresponding private key नहीं जानता — उसका
+  discrete logarithm unknown है। चूँकि key-path spend को internal key के तहत
+  Schnorr signature चाहिए, और private key के बिना ऐसा signature produce नहीं किया
+  जा सकता, key-spend path provably unusable है और funds केवल committed script path
+  के माध्यम से move हो सकते हैं। NUMS point को randomize करने से इसमें कुछ नहीं
+  बदलता; यह केवल यह hide करता है कि key-spend disabled है, ताकि output किसी भी अन्य
+  Taproot output जैसा दिखे — privacy benefit।
+reviewed: false

@@ -1,0 +1,13 @@
+question: "Zašto sig-all-hash koristi Reader efekat umesto da uzima podatke transakcije kao tipizirani ulaz?"
+answer: Da bi jet mogao da koristi PrecomputedTransactionData i da se izvršava u konstantnom vremenu na fiksnom okruženju.
+wrong_answers:
+  - Zato što sistem tipova Simplicity-ja u osnovi ne može da predstavi podatke transakcije kao tip.
+  - Zato što je Reader efekat brži od prosleđivanja tih podataka kroz stablo kombinatora.
+  - Zato što su podaci transakcije previše veliki da bi stali u Simplicity-jev sistem tipova fiksne veličine.
+explanation: >-
+  Kada bi sig-all-hash uzimao ulazni tip TxEnv, programi bi mogli da proslede izmenjene kopije podataka transakcije
+  jet-u, sprečavajući ga da koristi unapred izračunate heševe. Uz Reader efekat, jet
+  pristupa samo fiksnom, nepromenljivom okruženju transakcije, pa njegova implementacija može bezbedno da koristi
+  PrecomputedTransactionData i da se izvršava u konstantnom vremenu po proveri potpisa, izbegavajući kvadratni
+  problem heširanja koji je mučio rani Bitcoin Script.
+reviewed: true

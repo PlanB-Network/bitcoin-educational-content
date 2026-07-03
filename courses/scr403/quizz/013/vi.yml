@@ -1,0 +1,12 @@
+question: Vì sao Simplicity dùng phân tích tĩnh thay vì mô hình gas động như Ethereum?
+answer: Để xác định các giới hạn tài nguyên trước khi bắt đầu thực thi, đem lại chi phí dự đoán được.
+wrong_answers:
+  - Vì phân tích tĩnh đơn giản là nhanh hơn nhiều để các nhà phát triển triển khai.
+  - Vì mô hình gas riêng của Ethereum đã được cấp bằng sáng chế nên không thể dùng được.
+  - Vì các chương trình Simplicity quá ngắn nên thật ra không bao giờ cần đo lường tài nguyên.
+explanation: >-
+  Phân tích tĩnh của Simplicity cho phép mạng lưới biết chính xác một chương trình
+  cần bao nhiêu phép tính trước khi nó chạy. Điều này loại bỏ tính khó dự đoán
+  của đo lường động, ngăn chặn tấn công từ chối dịch vụ thông qua cạn kiệt tài nguyên,
+  và cho phép các node từ chối các chương trình vượt quá giới hạn mà không lãng phí phép tính.
+reviewed: false

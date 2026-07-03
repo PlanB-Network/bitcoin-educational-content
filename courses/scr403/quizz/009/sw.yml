@@ -1,0 +1,13 @@
+question: Operesheni ya kimantiki AND hufanyaje kazi katika Simplicity?
+answer: Huunda tawi kulingana na biti ya kwanza — ikiwa ni false hurudisha false, vinginevyo biti ya pili.
+wrong_answers:
+  - Huzidisha thamani mbili za boolean pamoja kwa kutumia aina ya product.
+  - Hutumia jedwali la kutazama lenye michanganyiko yote minne inayowezekana ya ingizo.
+  - Hutumia combinator ya XOR kisha combinator ya NOT kwa matokeo.
+explanation: >-
+  AND hufafanuliwa kama case (injl unit) (drop iden). Combinator ya case
+  huunda tawi kulingana na biti ya kwanza. Ikiwa ni false (yenye tagi ya
+  kushoto), injl unit hurudisha false bila kujali biti ya pili. Ikiwa ni
+  true (yenye tagi ya kulia), drop iden hurudisha biti ya pili bila
+  kuibadilisha. Hili linalingana na jedwali la ukweli la AND.
+reviewed: false

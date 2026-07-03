@@ -1,0 +1,16 @@
+question: U vreme trošenja jedna case grana se potkresuje. Kako verifikator i dalje može upariti otkriveni program sa obavezanim CMR-om?
+answer: CMR je Merkle koren, pa onaj ko troši dostavlja samo CMR potkresane grane a verifikator ga uključuje da bi ponovo izračunao koren.
+wrong_answers:
+  - Verifikator koristi samo izvršenu granu, jer neizvršene case grane nikada nisu bile u CMR-u.
+  - Potkresane grane postaju kanonski čuvar mesta čiji fiksni CMR stoji umesto njih pri ponovnom izračunavanju korena.
+  - Pun kod potkresane grane ostaje u witness-u, gde ga verifikator hešira ali ne izvršava.
+explanation: >-
+  CMR od case f g je označeni heš nad CMR-ovima oba deteta, pa je svaka
+  grana — izvršena ili ne — obavezana u vreme kreiranja adrese. Pošto je
+  konstrukcija Merkle stablo, potkresana grana se može sažeti samo
+  svojim 32-bajtnim CMR-om: verifikator ubacuje taj heš u rekurzivno
+  izračunavanje i proverava da se koren poklapa sa obavezom UTXO-a, a da
+  nikada ne vidi potkresani kod. Upravo zbog toga se Merkle koren
+  koristi za obavezivanje, i zbog čega se nijedan witness izraz unutar
+  potkresane grane nikada ne pojavljuje na lancu.
+reviewed: false

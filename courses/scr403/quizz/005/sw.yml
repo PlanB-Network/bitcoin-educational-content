@@ -1,0 +1,11 @@
+question: Combinator ya 'take' hufanya nini?
+answer: Hutoa sehemu ya kushoto ya product, ikitupa ya kulia.
+wrong_answers:
+  - Huondoa elementi kutoka aina ya sum, ikitupa biti ya tagi.
+  - Huunganisha kwa mfuatano operesheni mbili tofauti kutoka mwanzo hadi mwisho.
+  - Hufungasha thamani kwa tagi ya kushoto ili kujenga aina mpya ya sum.
+explanation: >-
+  Combinator ya take ni kitoa-thamani kwa aina za product. Ikiwa take f
+  imetumiwa kwa jozi ⟨a, b⟩, huitupa b na hutumia f kwa a. Ikiunganishwa
+  na iden, take iden hutoa elementi ya kwanza ya jozi yoyote.
+reviewed: false

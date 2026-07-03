@@ -1,0 +1,16 @@
+question: "Welcher Kern-Kombinator-Ausdruck implementiert die Distributionsfunktion dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Innerhalb jedes Zweigs von case ist die Umgebung bereits mit dem
+  ungetaggten Wert gepaart, sodass f = injl iden und g = injr iden ⟨σᴸ(a),
+  c⟩ ↦ σᴸ⟨a, c⟩ und ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ ergeben — genau dist. Die
+  take/drop-Variante ist typkorrekt, verwirft aber die Paarung und
+  bezeichnet stattdessen eine Funktion vom Typ (A + B) × C ⊢ A + C. pair
+  erzeugt ein Produkt statt einer Summe, und copair ist überhaupt kein
+  Simplicity-Kombinator — dist ist genau das, was copair allein nicht
+  ausdrücken kann.
+reviewed: false

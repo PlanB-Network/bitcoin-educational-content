@@ -8,8 +8,8 @@ translation and rejects mismatches.
 Severity:
   FAIL  — structural break: missing/empty output, invalid YAML, heading or code
           count mismatch, YAML key-structure mismatch, changed verbatim identifier.
-  WARN  — soft signal: link/image count drift, dropped glossary term, high
-          identical-line ratio (possible untranslated content).
+  WARN  — soft signal: link/image count drift, high identical-line ratio
+          (possible untranslated content).
   PASS  — all checks clean.
 
 Usage:
@@ -38,15 +38,6 @@ VERBATIM_KEYS = {
 
 _HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s")
 
-
-def load_glossary(path: Path | None = None) -> list[str]:
-    p = path or (SCRIPT_DIR / "glossary.yml")
-    try:
-        with open(p, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f) or {}
-        return data.get("non_translatable", []) or []
-    except FileNotFoundError:
-        return []
 
 
 # ---------- markdown helpers ----------
@@ -113,19 +104,10 @@ def _collect_verbatim(obj, out: dict, path: str = "") -> None:
             _collect_verbatim(x, out, f"{path}[{i}]")
 
 
-# ---------- glossary ----------
-
-def _glossary_drift(src: str, dst: str, terms: list[str]) -> list[str]:
-    missing = []
-    for term in terms:
-        if term and term in src and term not in dst:
-            missing.append(term)
-    return missing
-
-
 # ---------- pair check ----------
 
-def check_pair(src_path: Path, dst_path: Path, ext: str, glossary: list[str]) -> dict:
+
+def check_pair(src_path: Path, dst_path: Path, ext: str) -> dict:
     checks: list[dict] = []
 
     def add(name, sev, detail):
@@ -192,10 +174,6 @@ def check_pair(src_path: Path, dst_path: Path, ext: str, glossary: list[str]) ->
         if ratio > 0.5:
             add("untranslated", "WARN", f"{ratio:.0%} of text lines identical to English")
 
-    missing = _glossary_drift(src, dst, glossary)
-    if missing:
-        add("glossary", "WARN", f"{len(missing)} glossary term(s) not found verbatim: {missing[:8]}")
-
     return _finalize(dst_path, checks)
 
 
@@ -217,7 +195,6 @@ def main() -> None:
     p.add_argument("--json", action="store_true")
     args = p.parse_args()
 
-    glossary = load_glossary()
     results: list[dict] = []
 
     if args.pairs:
@@ -225,11 +202,11 @@ def main() -> None:
         root = args.repo_root.resolve()
         for it in items:
             ext = it.get("ext") or it["src"].rsplit(".", 1)[-1]
-            results.append(check_pair(root / it["src"], root / it["dst"], ext, glossary))
+            results.append(check_pair(root / it["src"], root / it["dst"], ext))
     elif args.src and args.dst:
         src, dst = Path(args.src), Path(args.dst)
         ext = dst.suffix.lstrip(".")
-        results.append(check_pair(src, dst, ext, glossary))
+        results.append(check_pair(src, dst, ext))
     else:
         p.error("provide <src> <dst> or --pairs FILE")
 

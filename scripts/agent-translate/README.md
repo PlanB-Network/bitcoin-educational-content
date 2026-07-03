@@ -6,93 +6,102 @@ with a single headless agent (`omp -p`) that translates whole files in place.
 
 ## Why
 Generic MT engines can't see markdown structure and translate technical terms, so
-the old pipeline built a huge scaffold to isolate text, shield 902 terms behind
-`GW-<n>` tokens, and un-transliterate them per script. An LLM agent translates the
-file directly: it preserves code/links/YAML, honours a glossary in context, and has
-whole-document context (better cohesion than per-string MT). We keep the cheap,
-correct parts (gap detection, validation, human proofreading) and delete the
-plumbing.
+the old pipeline built a huge scaffold to isolate text and shield terms. An LLM agent
+translates the file directly: it preserves code/links/YAML, resolves terminology
+against the repo's own glossary, and has whole-document context. We keep the cheap,
+correct parts (gap detection, validation, human proofreading) and delete the plumbing.
 
 ## Pipeline
 ```
-gap-check (deterministic)  ->  dedicated worktree + branch  ->  bounded omp worker pool (default 8)
-      find_missing.py                translate.py                 worker.py (1 omp -p / file×lang)
+gap-check (deterministic)  ->  dedicated worktree + branch  ->  bounded omp job pool (default 8)
+      find_missing.py                translate.py               worker.py (1 omp -p per JOB)
+                                                                        |
+   a JOB = N files, ONE language:  long-form md = 1 file/job · small YAML batched (≈15/job)
                                                                         |
    knowledge/<lang>.md  --inject-->  worker  --lessons-->  consolidate --> knowledge/<lang>.md
                                                                         |
-                                            verify.py (structural parity)  -> retry FAILs once
+                                            verify.py (structural parity)  -> retry walks fallback models
                                                                         |
                                        release agent (omp -p): validate, commit, push, ONE PR
-                                                                     prompts/pr_agent.md
 ```
-One batch = one PR.
+One batch = one PR. Knowledge updates ride in the same PR.
 
 ## Files
 | File | Role |
 |------|------|
-| `config.yml` | languages, content roots, exclusions, concurrency, **model routing** |
-| `find_missing.py` | deterministic gap-check → work list (`(source, lang)` pairs) |
-| `worker.py` | one `omp -p` translation per file×lang; course chapter-chunking |
-| `verify.py` | structural parity + verbatim-id + glossary guard (the safety net) |
-| `translate.py` | orchestrator: gap-check → worktree → pool → verify → retry → PR |
-| `prompts/translate.md` | translation system rules (format contract, glossary, tone) |
+| `config.yml` | languages, content roots, exclusions, concurrency, **batch_size**, **model routing** |
+| `find_missing.py` | deterministic gap-check → work list; scope by `--langs`/`--content`/`--subtype`/`--path` |
+| `worker.py` | one `omp -p` per JOB (1 long file, or a per-language batch of small files) |
+| `verify.py` | structural parity + verbatim-id guard (FAIL/WARN); the safety net |
+| `translate.py` | orchestrator: gap-check → worktree → job pool → verify → retry → PR |
+| `prompts/translate.md` | translation rules (format contract, terminology policy, tone) |
 | `prompts/pr_agent.md` | release-agent rules (validate, commit, push, PR) |
-| `glossary.yml` | 902 verbatim terms (ported from legacy), injected per-file |
-| `knowledge/<lang>.md` | per-language lessons, injected into workers and grown each batch |
-| `knowledge/model-matrix.md` | model-selection research (drives `config.yml` routing) |
+| `knowledge/<lang>.md` | per-language lessons; injected into workers, grown each batch, committed in the PR |
+| `knowledge/model-matrix.html` | asi0's model-selection decision (drives `config.yml` routing) |
+
+No provider SDKs, no MD/YAML↔JSON parser, no static glossary tokenisation — those were
+the legacy scaffold and are intentionally gone.
 
 ## Usage
 ```bash
 # What is missing? (deterministic, no LLM, no network)
-python3 find_missing.py                              # all gaps, summary
-python3 find_missing.py --langs fr,de --content courses --json
+python3 find_missing.py                                   # all gaps
+python3 find_missing.py --langs fr,de --content courses
+python3 find_missing.py --subtype quizz --json
+python3 find_missing.py --path courses/btc101             # scope to one content subtree
+python3 find_missing.py --path courses/btc101/en.md       # or one specific source file
 
 # Translate (creates a worktree + branch, runs the pool, verifies, opens a PR)
-python3 translate.py --langs fr --content courses --limit 20
-python3 translate.py --langs zh-Hans --subtype quizz --concurrency 8
+python3 translate.py --path courses/scr403 --langs fr
+python3 translate.py --langs zh-Hans --subtype quizz --concurrency 8 --batch-size 15
 
-# Preview only
-python3 translate.py --dry-run --langs fr
+# Preview only (shows per-language model · thinking)
+python3 translate.py --dry-run --path courses/scr403 --langs fr,ja,et
 
 # Local, no worktree, no PR (dev / smoke test)
-python3 translate.py --in-place --no-pr --langs fr --subtype quizz --limit 2
+python3 translate.py --in-place --no-pr --langs fr --subtype quizz --limit 4 --batch-size 4
 ```
 
-Key flags: `--langs`, `--content` (courses/tutorials/resources/professors/events),
-`--subtype` (course/quizz/tutorial/resource/professor/event), `--limit`,
-`--concurrency N` (default 8), `--model X` (force one model), `--retries N`,
-`--base dev`, `--in-place`, `--no-pr`, `--keep-worktree`, `--max-items` / `--force`.
+Scoping flags combine freely: `--langs`, `--content`, `--subtype`
+(course/quizz/tutorial/resource/professor/event), `--path` (subtree or one
+`en.md`/`en.yml`), `--limit`. Run flags: `--concurrency N` (default 8),
+`--batch-size N` (small-file packet, default 15), `--model X` + `--thinking`,
+`--retries N` (default 2, walks the fallback chain), `--base dev`, `--in-place`,
+`--no-pr`, `--keep-worktree`, `--max-items`/`--force`.
 
-## Model routing
-`config.yml → models`. `--model` overrides everything; per-language `overrides` beat
-`default`. Patterns use omp fuzzy match — **the model must be authenticated in omp**.
+## Model routing (`config.yml → models`)
+asi0's decision, from `knowledge/model-matrix.html`. Each language maps to an ordered
+chain `[#1, #2, #3]` of `{model, thinking}`; the retry pass walks DOWN the chain, so a
+FAIL is retried on the next-ranked model. `--model` overrides the whole chain.
 
-- **Shipped default: `sonnet`** — the only model currently authenticated here, and the
-  research matrix's safety anchor (best tool-use, best prompt-injection resistance).
-- **Evidence-based target routing** lives under `models.recommended` (see
-  `knowledge/model-matrix.md`): `gpt-5.1` workhorse, `gemini-3-pro` for
-  low-resource/Asian/Nordic-Finnic, `glm-4.6` for Chinese. To adopt it, authenticate
-  those providers in omp, then move `recommended` into `default`/`overrides`.
-- **rn (Kirundi)** is unsupported by every candidate agent model — route to
-  `gemini-3-pro` **and mandate human review** (or NLLB-200 pre-translate → post-edit).
+- `sonnet` (Claude Sonnet 5) — European naturalness, value; **present in every chain**,
+  so if `opus`/`gpt-5.5` are unauthenticated the chain still lands on a working model.
+- `opus` (Claude Opus 4.8) — self-verification, terminology consistency, hardest targets.
+- `gpt-5.5` — raw CJK / Indic / RTL accuracy.
+- thinking: `medium` (easy langs) → `high` (register/morphology) → `xhigh` (low-resource).
+- **rn (Kirundi)**: routed to `opus/xhigh` but MUST get human review (no model is reliable alone).
+
+Model patterns use omp fuzzy match and MUST be authenticated in omp.
+
+## Terminology (no static glossary)
+The agent resolves terms against the repo's own glossary: `resources/glossary/<slug>/<lang>.md`
+(frontmatter `term:` = canonical rendering). On doubt it greps the glossary, checks other
+same-language files, or web-searches the conventional usage — see `prompts/translate.md`.
 
 ## The safety net (`verify.py`)
 Deterministic, does not trust the model:
-- **FAIL** (excluded from the PR): missing/empty output, invalid YAML, heading or
-  code-fence count mismatch, YAML key-structure mismatch, changed verbatim identifier
+- **FAIL** (excluded from PR): missing/empty output, invalid YAML, heading or code-fence
+  count mismatch, YAML key-structure mismatch, changed verbatim identifier
   (`partId`, `video_id`, `url`, …).
-- **WARN** (kept, flagged for human spot-check): link/image count drift, dropped
-  glossary term, high identical-line ratio (possible untranslated content).
-FAILs are retried once on a fresh session; persistent FAILs are dropped by the
+- **WARN** (kept, flagged): link/image count drift, high identical-line ratio.
+FAILs are retried (walking the fallback chain); persistent FAILs are dropped by the
 release agent and listed in the PR body.
 
 ## Status
-- Proven end-to-end: gap-check → worker (omp) → verify → pool → retry → lessons
-  consolidation, on real quizz content (FR), structural verify PASS.
-- The release agent (`run_pr_agent` / `pr_agent.md`) is implemented and wired but has
-  **not** been fired against a live PR (to avoid an unsolicited PR to the repo). Run a
-  scoped pilot with a real `translate.py` invocation to exercise it.
-
-## Not included on purpose
-No provider SDKs, no MD/YAML↔JSON parser, no glossary tokenisation, no
-transliteration regex. Those were the legacy scaffold and are intentionally gone.
+- Proven end-to-end (in-place): gap-check → batched worker (omp) → verify → retry →
+  lessons consolidation. Real FR quizz batch: 4 files / 1 session, verify all PASS,
+  knowledge/fr.md grown.
+- The release agent (`run_pr_agent` / `pr_agent.md`) is implemented and wired but not yet
+  fired against a live PR.
+- **Prerequisite for content batches:** this pipeline must be on `dev` first, so content
+  PRs contain only translations (+ knowledge), not the tooling diff.

@@ -4,7 +4,7 @@
 Pipeline:
   1. Deterministic gap-check (find_missing) -> work list of (content x language).
   2. Create a dedicated git worktree + branch for the batch (one batch = one PR).
-  3. Dispatch a bounded pool of headless omp workers (default 8), one per unit.
+  3. Dispatch a bounded pool of headless omp workers; small files batched per language.
   4. Verify every produced file structurally (verify.check_pair).
   5. Consolidate per-worker lessons into knowledge/<lang>.md (race-free).
   6. Hand the worktree to a final headless omp release agent: validate, commit,
@@ -34,7 +34,7 @@ import find_missing  # noqa: E402
 import verify  # noqa: E402
 import worker  # noqa: E402
 
-KNOWLEDGE_DIR = SCRIPT_DIR / "knowledge"
+KNOWLEDGE_SUBPATH = "scripts/agent-translate/knowledge"  # under the worktree -> lands in the PR
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 LESSONS_DIRNAME = ".translation-lessons"
 REPORT_NAME = ".translation-report.json"
@@ -112,10 +112,36 @@ def run_pr_agent(worktree: Path, branch: str, base: str, summary_text: str,
 
 # ---------------- main ----------------
 
-def model_for(config: dict, lang: str, override: str | None) -> str:
-    if override:
-        return override
-    return config["models"].get("overrides", {}).get(lang) or config["models"]["default"]
+def route_for(config: dict, lang: str, override_model: str | None = None,
+              override_thinking: str | None = None) -> list[dict]:
+    """Ordered list of {model, thinking} for a language: [#1 primary, #2, #3 …].
+    Retry walks down this chain, so a fallback model is tried on FAIL."""
+    if override_model:
+        return [{"model": override_model, "thinking": override_thinking or "medium"}]
+    r = config["models"].get("routes", {}).get(lang) or config["models"]["default"]
+    return [r] if isinstance(r, dict) else r
+
+
+def pick(route: list[dict], attempt: int) -> tuple[str, str]:
+    step = route[min(attempt, len(route) - 1)]
+    return step["model"], step.get("thinking", "medium")
+
+
+def make_jobs(items: list[dict], batch_size: int) -> list[list[dict]]:
+    """Group work into omp sessions. Markdown (courses / long-form) = one file per
+    job. Small YAML files are packed per-language into batches of `batch_size`."""
+    singles: list[list[dict]] = []
+    smalls: dict[str, list[dict]] = {}
+    for it in items:
+        if it["ext"] == "md":
+            singles.append([it])
+        else:
+            smalls.setdefault(it["lang"], []).append(it)
+    jobs = list(singles)
+    for group in smalls.values():
+        for i in range(0, len(group), batch_size):
+            jobs.append(group[i:i + batch_size])
+    return jobs
 
 
 def main() -> None:
@@ -123,11 +149,13 @@ def main() -> None:
     p.add_argument("--langs", help="comma-separated target languages (default: all)")
     p.add_argument("--content", help="comma-separated content roots (default: all)")
     p.add_argument("--subtype", help="comma-separated subtypes (course,quizz,tutorial,resource,professor,event)")
+    p.add_argument("--path", help="scope to a specific content path (folder subtree or one en.md/en.yml)")
     p.add_argument("--limit", type=int, help="cap number of work items")
     p.add_argument("--concurrency", type=int, help="max parallel workers (default: config)")
-    p.add_argument("--model", help="force a model for every worker (overrides routing)")
+    p.add_argument("--model", help="force one model for every worker (overrides routing)")
+    p.add_argument("--thinking", help="thinking effort when --model is set (default: medium)")
     p.add_argument("--timeout", type=int, default=1200, help="per-worker timeout seconds")
-    p.add_argument("--retries", type=int, default=1, help="retry passes over FAILed items")
+    p.add_argument("--retries", type=int, default=2, help="retry passes over FAILs (walks the fallback chain)")
     p.add_argument("--base", default="dev", help="base branch for the worktree/PR")
     p.add_argument("--dry-run", action="store_true", help="show the work list and exit")
     p.add_argument("--in-place", action="store_true", help="translate in the current checkout (no worktree)")
@@ -135,6 +163,7 @@ def main() -> None:
     p.add_argument("--keep-worktree", action="store_true", help="do not remove the worktree afterward")
     p.add_argument("--max-items", type=int, default=500, help="safety cap; use --force to exceed")
     p.add_argument("--force", action="store_true", help="allow batches larger than --max-items")
+    p.add_argument("--batch-size", type=int, help="small-file batch size per session (default: config 15)")
     p.add_argument("--repo-root", type=Path, default=find_missing.DEFAULT_REPO_ROOT)
     args = p.parse_args()
 
@@ -147,6 +176,7 @@ def main() -> None:
         langs=find_missing._parse_csv(args.langs),
         content=find_missing._parse_csv(args.content),
         subtype=find_missing._parse_csv(args.subtype),
+        path=args.path,
         limit=args.limit,
     )]
 
@@ -157,7 +187,8 @@ def main() -> None:
 
     if args.dry_run:
         for it in items[:20]:
-            print(f"  · {it['dst']}  [{model_for(config, it['lang'], args.model)}]")
+            m, th = pick(route_for(config, it["lang"], args.model, args.thinking), 0)
+            print(f"  · {it['dst']}  [{m} · {th}]")
         if len(items) > 20:
             print(f"  … +{len(items)-20} more")
         return
@@ -181,46 +212,47 @@ def main() -> None:
 
     lessons_root = worktree / LESSONS_DIRNAME
     system_prompt = (PROMPTS_DIR / "translate.md").read_text(encoding="utf-8")
-    glossary_terms = verify.load_glossary()
-    threshold = int(config.get("long_form_threshold_bytes", 40000))
+    knowledge_dir = worktree / KNOWLEDGE_SUBPATH
+    batch_size = args.batch_size or int(config.get("batch_size", 15))
 
-    # Dispatch pool (with a bounded retry pass — agent tool-call artifacts are flaky)
-    def dispatch(subset: list[dict]) -> None:
-        done = 0
+    # Group work into omp sessions; small YAML files are batched per language (a4).
+    def dispatch(jobs: list[list[dict]], attempt: int = 0) -> None:
+        done, total = 0, len(jobs)
         with cf.ThreadPoolExecutor(max_workers=concurrency) as pool:
-            futures = {
-                pool.submit(
-                    worker.translate_one, it,
+            futures = {}
+            for job in jobs:
+                m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking), attempt)
+                futures[pool.submit(
+                    worker.translate_job, job,
                     worktree=worktree,
-                    model=model_for(config, it["lang"], args.model),
+                    model=m,
+                    thinking=th,
                     system_prompt=system_prompt,
-                    glossary_terms=glossary_terms,
-                    knowledge_dir=KNOWLEDGE_DIR,
+                    knowledge_dir=knowledge_dir,
                     lessons_root=lessons_root,
-                    long_form_threshold=threshold,
                     timeout=args.timeout,
-                ): it for it in subset
-            }
+                )] = job
             for fut in cf.as_completed(futures):
                 r = fut.result()
                 done += 1
-                it = r["item"]
+                job = r["items"]
                 st = "ok" if r["ok"] else "FAIL"
+                label = job[0]["dst"] if len(job) == 1 else f"{job[0]['lang']} batch×{len(job)}"
                 note = "" if r["ok"] else f"  ({r['error']})"
-                print(f"[{done}/{len(subset)}] {st:>4} {it['dst']} {r['duration']}s{note}")
+                print(f"[{done}/{total}] {st:>4} {label} {r['duration']}s{note}")
 
     def verify_all() -> list[dict]:
         return [
-            verify.check_pair(worktree / it["src"], worktree / it["dst"], it["ext"], glossary_terms)
+            verify.check_pair(worktree / it["src"], worktree / it["dst"], it["ext"])
             for it in items
         ]
 
     t0 = time.time()
-    dispatch(items)
+    dispatch(make_jobs(items, batch_size), 0)
     print("\nVerifying …")
     reports = verify_all()
 
-    # Retry FAILs on a fresh session (removes the corrupt output first).
+    # Retry FAILs, walking down the model fallback chain (removes corrupt output first).
     for attempt in range(1, args.retries + 1):
         fails = [items[i] for i, r in enumerate(reports) if r["status"] == "FAIL"]
         if not fails:
@@ -228,7 +260,7 @@ def main() -> None:
         print(f"\nRetry {attempt}/{args.retries} on {len(fails)} FAIL(s) …")
         for it in fails:
             (worktree / it["dst"]).unlink(missing_ok=True)
-        dispatch(fails)
+        dispatch(make_jobs(fails, batch_size), attempt)
         reports = verify_all()
 
     tally = {"PASS": 0, "WARN": 0, "FAIL": 0}
@@ -238,7 +270,7 @@ def main() -> None:
         json.dumps(reports, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # Consolidate lessons into the persistent knowledge base
-    added = consolidate_lessons(lessons_root, KNOWLEDGE_DIR)
+    added = consolidate_lessons(lessons_root, knowledge_dir)
 
     dt = round(time.time() - t0)
     summary_text = (
@@ -259,7 +291,7 @@ def main() -> None:
 
     print("\nHanding off to release agent …")
     rc = run_pr_agent(worktree, branch, args.base, summary_text, REPORT_NAME,
-                      model=config["models"]["default"], timeout=args.timeout)
+                      model=route_for(config, "__default__")[0]["model"], timeout=args.timeout)
     if rc != 0:
         print(f"Release agent exited {rc}; worktree kept at {worktree} on {branch}.")
         return

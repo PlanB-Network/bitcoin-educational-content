@@ -64,44 +64,68 @@ exclude_paths:
 # Default worker concurrency (overridable with --concurrency).
 concurrency: 8
 
+# Small files (quizz / resource / professor / event YAML) are packed into one omp
+# session per language, this many files per session (a4 feedback: 10-20). Long-form
+# markdown (courses) is always one file per session. Overridable with --batch-size.
+batch_size: 15
+
 # A markdown file larger than this (bytes) gets explicit chapter-chunking
 # instructions in the worker prompt.
 long_form_threshold_bytes: 40000
 
-# Model routing. `--model` on the CLI overrides everything, per-language `overrides`
-# beat `default`. Patterns use omp fuzzy match — the model MUST be authenticated in
-# omp or the worker crashes. See knowledge/model-matrix.md for the full evidence.
+# Model routing — asi0's decision, from knowledge/model-matrix.html.
+# Each language maps to an ORDERED chain [#1 primary, #2, #3]; every entry is
+# {model, thinking}. The retry pass walks DOWN the chain, so a FAIL is retried on the
+# next-ranked model. `--model` on the CLI overrides the whole chain.
 #
-# CURRENT STATE: only Claude ("sonnet") is authenticated in this omp install, so it
-# is the default everywhere (it is also the matrix's safety anchor: best tool-use and
-# best prompt-injection resistance). To adopt the evidence-based routing below, first
-# authenticate the providers in omp, then move the entries from `recommended` into
-# `overrides` (and set `default: gpt-5.1`).
+# Model patterns use omp fuzzy match and MUST resolve in omp (asi0 verifies auth):
+#   sonnet  = Claude Sonnet 5  · European naturalness, value pick
+#   opus    = Claude Opus 4.8  · self-verification, terminology consistency, hardest targets
+#   gpt-5.5 = GPT-5.5          · raw CJK / Indic / RTL accuracy
+# thinking: medium | high | xhigh  (higher = better quality, higher token cost).
+# sonnet is present in every chain, so if opus/gpt-5.5 are unauthenticated the chain
+# still lands on a working model.
 models:
-  default: sonnet
-  overrides: {}
+  default:
+    - {model: sonnet, thinking: medium}
 
-  # Evidence-based target routing (knowledge/model-matrix.md). Enable once authed:
-  recommended:
-    default: gpt-5.1          # workhorse: S-tier translator + S-tier agent (WMT25 / SWE-bench)
-    overrides:
-      # Gemini 3 Pro — low-resource + Asian + Nordic/Finnic (WMT25 human-eval lineage winner)
-      et: gemini-3-pro
-      fi: gemini-3-pro
-      sv: gemini-3-pro
-      nb-NO: gemini-3-pro
-      ja: gemini-3-pro
-      ko: gemini-3-pro
-      th: gemini-3-pro
-      vi: gemini-3-pro
-      id: gemini-3-pro
-      hi: gemini-3-pro
-      si: gemini-3-pro
-      sw: gemini-3-pro
-      rn: gemini-3-pro        # Kirundi: least-bad; ALSO requires mandatory human review
-      # GLM-4.6 — Chinese fidelity (COMET #1 pro zh->en) + ~1/7 cost, open-weights
-      zh-Hans: glm-4.6
-      zh-Hant: glm-4.6
+  routes:
+    # ── Tier A · high-resource European (naturalness > capability) ──
+    fr:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    de:      [{model: sonnet, thinking: medium}, {model: opus, thinking: high},    {model: gpt-5.5, thinking: medium}]
+    es:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    it:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    pt:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    nl:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    sv:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+
+    # ── Tier B · major world / CJK (register, script complexity) ──
+    nb-NO:   [{model: sonnet, thinking: medium}, {model: opus, thinking: high},    {model: gpt-5.5, thinking: medium}]
+    ru:      [{model: sonnet, thinking: high},   {model: opus, thinking: high},    {model: gpt-5.5, thinking: high}]
+    tr:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    id:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    vi:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    ja:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    ko:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    zh-Hans: [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: medium}]
+    zh-Hant: [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+
+    # ── Tier C · complex morphology / non-Latin (high → xhigh, self-verify) ──
+    fi:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    et:      [{model: opus, thinking: xhigh},    {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    pl:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    cs:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    sk:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    bg:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    sr-Latn: [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    hi:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    fa:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    th:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+
+    # ── Tier D · low-resource (pair with glossary + human review; NLLB-200 draft optional) ──
+    si:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    sw:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    rn:      [{model: opus, thinking: xhigh},    {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]   # Kirundi: MANDATORY human review
 
 # Runtime worktree location (sibling of the repo). {ts} is replaced with a timestamp.
 worktree_base: "../bec-autotranslate-{ts}"

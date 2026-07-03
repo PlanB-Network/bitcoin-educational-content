@@ -72,6 +72,7 @@ def scan(
     langs: list[str] | None = None,
     content: list[str] | None = None,
     subtype: list[str] | None = None,
+    path: str | None = None,
     limit: int | None = None,
 ) -> list[WorkItem]:
     lang_map = {l["code"]: l["name"] for l in config["languages"]}
@@ -80,48 +81,67 @@ def scan(
     if unknown:
         raise SystemExit(f"Unknown language codes: {unknown}. Known: {sorted(lang_map)}")
 
-    roots = content or config["content_roots"]
     exclude = tuple(config.get("exclude_paths", []))
     threshold = int(config.get("long_form_threshold_bytes", 40000))
 
+    # Source files to consider: either a single --path target/subtree, or the roots.
+    src_paths: list[Path] = []
+    if path:
+        target = (repo_root / path).resolve()
+        if not target.exists():
+            raise SystemExit(f"--path not found under repo: {path}")
+        if target.is_file():
+            if target.name not in SOURCE_FILENAMES:
+                raise SystemExit(f"--path file must be an English source {SOURCE_FILENAMES}: {path}")
+            src_paths = [target]
+        else:
+            for name in SOURCE_FILENAMES:
+                src_paths.extend(target.rglob(name))
+    else:
+        for root in (content or config["content_roots"]):
+            root_dir = repo_root / root
+            if root_dir.is_dir():
+                for name in SOURCE_FILENAMES:
+                    src_paths.extend(root_dir.rglob(name))
+
     items: list[WorkItem] = []
-    for root in roots:
-        root_dir = repo_root / root
-        if not root_dir.is_dir():
+    for src_path in sorted(set(src_paths)):
+        try:
+            rel = src_path.relative_to(repo_root)
+        except ValueError:
+            raise SystemExit(f"--path must live inside the repo: {src_path}")
+        rel_str = str(rel)
+        if any(frag in rel_str for frag in exclude):
             continue
-        for name in SOURCE_FILENAMES:
-            for src_path in sorted(root_dir.rglob(name)):
-                rel = src_path.relative_to(repo_root)
-                rel_str = str(rel)
-                if any(frag in rel_str for frag in exclude):
-                    continue
-                ext = name.split(".")[1]
-                content_type, sub = _classify(rel, ext)
-                if subtype and sub not in subtype:
-                    continue
-                try:
-                    src_bytes = src_path.stat().st_size
-                except OSError:
-                    src_bytes = 0
-                long_form = ext == "md" and src_bytes >= threshold
-                for lang in target_langs:
-                    dst_path = src_path.parent / f"{lang}.{ext}"
-                    if dst_path.exists():
-                        continue
-                    items.append(
-                        WorkItem(
-                            src=rel_str,
-                            dst=str(dst_path.relative_to(repo_root)),
-                            lang=lang,
-                            lang_name=lang_map[lang],
-                            ext=ext,
-                            content_type=content_type,
-                            subtype=sub,
-                            src_bytes=src_bytes,
-                            long_form=long_form,
-                        )
-                    )
-    # Stable, useful ordering: heavy long-form first so the slow work starts early.
+        ext = src_path.name.split(".")[1]
+        content_type, sub = _classify(rel, ext)
+        if content and content_type not in content:   # extra filter, also with --path
+            continue
+        if subtype and sub not in subtype:
+            continue
+        try:
+            src_bytes = src_path.stat().st_size
+        except OSError:
+            src_bytes = 0
+        long_form = ext == "md" and src_bytes >= threshold
+        for lang in target_langs:
+            dst_path = src_path.parent / f"{lang}.{ext}"
+            if dst_path.exists():
+                continue
+            items.append(
+                WorkItem(
+                    src=rel_str,
+                    dst=str(dst_path.relative_to(repo_root)),
+                    lang=lang,
+                    lang_name=lang_map[lang],
+                    ext=ext,
+                    content_type=content_type,
+                    subtype=sub,
+                    src_bytes=src_bytes,
+                    long_form=long_form,
+                )
+            )
+    # Stable ordering: heavy long-form first so the slow work starts early.
     items.sort(key=lambda w: (not w.long_form, w.content_type, w.src, w.lang))
     if limit is not None:
         items = items[:limit]
@@ -150,6 +170,7 @@ def main() -> None:
     p.add_argument("--langs", help="comma-separated language codes (default: all)")
     p.add_argument("--content", help="comma-separated content roots (default: all)")
     p.add_argument("--subtype", help="comma-separated subtypes: course,quizz,tutorial,resource,professor,event")
+    p.add_argument("--path", help="scope to a specific content path (a folder subtree or one en.md/en.yml)")
     p.add_argument("--limit", type=int, help="cap the number of work items")
     p.add_argument("--repo-root", type=Path, default=DEFAULT_REPO_ROOT)
     p.add_argument("--config", type=Path, help="path to config.yml")
@@ -163,6 +184,7 @@ def main() -> None:
         langs=_parse_csv(args.langs),
         content=_parse_csv(args.content),
         subtype=_parse_csv(args.subtype),
+        path=args.path,
         limit=args.limit,
     )
 

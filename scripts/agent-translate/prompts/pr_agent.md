@@ -15,7 +15,10 @@ description. You have shell (`git`, `gh`), `read`, `grep`, `glob`.
    - `FAIL` files are broken — exclude them: `git checkout -- <path>` for modified
      files, `rm <path>` for newly-created ones. List them in the PR body.
    - `WARN` files are kept, but summarised in the PR body so a human can spot-check.
-2. `git add -A` the surviving translated files and any `knowledge/*.md` updates.
+2. Stage the surviving translated files and any `knowledge/*.md` updates. Before
+   committing, ensure NO ephemeral artifacts are staged: `git rm -r --cached
+   --ignore-unmatch .translation-lessons .translation-report.json` then `git add -A`
+   (never commit `.translation-lessons/` or `*.translation-report*.json`).
 3. Commit, conventional message, NO attribution footer:
    `feat(translation): <langs> — <N> files [agent]`
 4. Push the branch to `origin`.

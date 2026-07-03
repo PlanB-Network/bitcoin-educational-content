@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import json
+import shutil
 import subprocess
 import sys
 import time
@@ -92,11 +93,12 @@ def consolidate_lessons(lessons_root: Path, knowledge_dir: Path) -> dict[str, in
 # ---------------- release agent ----------------
 
 def run_pr_agent(worktree: Path, branch: str, base: str, summary_text: str,
-                 report_rel: str, model: str, timeout: int) -> int:
+                 report_path: Path, model: str, timeout: int) -> int:
     prompt = (PROMPTS_DIR / "pr_agent.md").read_text(encoding="utf-8")
     message = (
         f"Batch summary:\n{summary_text}\n\n"
-        f"Verify report (JSON, repo-relative): {report_rel}\n"
+        f"Verify report (JSON) is at this absolute path (read it, it is OUTSIDE the "
+        f"worktree — do not commit it): {report_path}\n"
         f"Branch '{branch}' is already checked out here. Base branch: '{base}'.\n"
         f"Validate the batch, drop FAIL files, commit, push, and open ONE PR against {base}."
     )
@@ -266,11 +268,14 @@ def main() -> None:
     tally = {"PASS": 0, "WARN": 0, "FAIL": 0}
     for r in reports:
         tally[r["status"]] += 1
-    (worktree / REPORT_NAME).write_text(
+    report_path = (worktree / REPORT_NAME) if args.in_place else worktree.parent / f"{worktree.name}.report.json"
+    report_path.write_text(
         json.dumps(reports, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # Consolidate lessons into the persistent knowledge base
     added = consolidate_lessons(lessons_root, knowledge_dir)
+    if not args.in_place:
+        shutil.rmtree(lessons_root, ignore_errors=True)  # scratch never enters the PR
 
     dt = round(time.time() - t0)
     summary_text = (
@@ -284,13 +289,13 @@ def main() -> None:
 
     # Release agent
     if args.no_pr or args.in_place:
-        print(f"\nSkipping PR. Report: {worktree / REPORT_NAME}")
+        print(f"\nSkipping PR. Report: {report_path}")
         if branch:
             print(f"Worktree kept at {worktree} on {branch}.")
         return
 
     print("\nHanding off to release agent …")
-    rc = run_pr_agent(worktree, branch, args.base, summary_text, REPORT_NAME,
+    rc = run_pr_agent(worktree, branch, args.base, summary_text, report_path,
                       model=route_for(config, "__default__")[0]["model"], timeout=args.timeout)
     if rc != 0:
         print(f"Release agent exited {rc}; worktree kept at {worktree} on {branch}.")

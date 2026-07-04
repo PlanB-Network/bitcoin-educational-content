@@ -1,0 +1,12 @@
+question: Šta izračunava polusabirač?
+answer: Prenos (AND) i zbir (XOR) dva ulazna bita.
+wrong_answers:
+  - Zbir dva višebitna cela broja sa propagacijom prenosa.
+  - Prosek dva bita zaokružen naniže.
+  - OR i AND po bitovima dva ulazna bita.
+explanation: >-
+  Polusabirač uzima dva pojedinačna bita i proizvodi dva izlaza koristeći
+  paralelnu kompoziciju: bit prenosa (AND ulaza) i bit zbira
+  (XOR ulaza). U Simplicity-ju je definisan kao and ▵ xor, izvršavajući
+  obe operacije na istom paru ulaza.
+reviewed: false

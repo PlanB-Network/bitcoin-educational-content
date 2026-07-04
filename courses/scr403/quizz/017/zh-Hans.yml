@@ -1,0 +1,13 @@
+question: SimplicityHL 是什么，为什么需要它？
+answer: 一种编译到 Simplicity 的高级语言，用于管理命名和作用域。
+wrong_answers:
+  - 一种用于挖矿 ASIC 硬件的硬件描述语言，这些 ASIC 运行 Simplicity。
+  - 一个通过图形化拖放方式把 Simplicity 组合子连接起来的 IDE。
+  - 一个用于在安全沙盒中运行 Simplicity 程序的测试框架。
+explanation: >-
+  原始的 Simplicity 在生产级复杂度下会变得难以理解，因为
+  所有数据访问都必须通过嵌套的 take/drop 组合子完成。SimplicityHL
+  提供熟悉的编程结构——命名变量、作用域、库导入和控制流——
+  并将其编译为 Simplicity 组合子表达式。最终用户编写 SimplicityHL，
+  而 Simplicity 作为经过形式化验证的编译目标。
+reviewed: false

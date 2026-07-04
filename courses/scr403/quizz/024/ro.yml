@@ -1,0 +1,11 @@
+question: "Care este tipul unui program Simplicity?"
+answer: 1 ⊢ 1 (unit la unit) — fără input sau output semnificativ; efectele secundare se ocupă de I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — primește date de tranzacție și returnează un boolean de validitate.
+  - 2^256 ⊢ 2^256 — primește un input de tip hash și returnează o nouă valoare de hash ca output.
+  - Orice tip A ⊢ B — programele pot avea tipuri de input și output complet arbitrare.
+explanation: >-
+  Un program Simplicity este definit ca o expresie de tipul 1 ⊢ 1. Efectul Reader captează
+  input-ul reprezentat de mediul tranzacției, iar efectul Failure determină succesul sau eșecul.
+  Aceste efecte secundare gestionează tot I/O-ul, în loc ca tipurile Simplicity însele să o facă.
+reviewed: true

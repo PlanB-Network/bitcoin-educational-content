@@ -1,0 +1,15 @@
+question: Simplicity schließt unbegrenzte Rekursion aus. Was ist der vorgesehene Ersatz für unbegrenzte Iteration?
+answer: Rekursive Covenants, die die Berechnung über mehrere Transaktionen verteilen und so die Kosten jeder einzelnen Transaktion vorhersehbar halten.
+wrong_answers:
+  - Die Delegationsfunktion, die eigens dafür geschaffen wurde, eine limitierte Form unbegrenzter Rekursion innerhalb einer einzelnen Transaktion zu ermöglichen.
+  - Die neun Kernkombinatoren, deren Vollständigkeit es einer Fixpunktkonstruktion erlaubt, jede rekursive Funktion zu kodieren.
+  - Das Auflösen von Schleifen zur Kompilierzeit, bei dem eine statische Analyse die maximale Iterationsanzahl ermittelt und den Rumpf dupliziert.
+explanation: >-
+  Die These des Artikels ist, dass unbegrenzte Iteration besser als rekursive Covenants
+  implementiert wird, die über mehrere Transaktionen hinweg rechnen, was Blockplatz- und
+  Standardness-Beschränkungen vermeidet und Transaktionskosten vorhersehbar macht. Delegation
+  kann nur missbraucht werden, um etwas wie unbegrenzte Rekursion zu erzeugen — sie ist nicht
+  der vorgesehene Mechanismus — und die neun Kernkombinatoren sind nur für endliche
+  Berechnungen vollständig, sodass innerhalb eines einzelnen Programms keine
+  Fixpunktkonstruktion existiert.
+reviewed: false

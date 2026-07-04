@@ -1,0 +1,13 @@
+question: Hur definieras den booleska typen (𝟚) i Simplicity?
+answer: Som summatypen 𝟙 + 𝟙, som håller exakt två värden (false och true).
+wrong_answers:
+  - Som en produkttyp 𝟙 × 𝟙 som då endast skulle hålla ett värde.
+  - Som en särskild primitiv typ inbyggd direkt i språket.
+  - Som en 32-bitars heltalstyp begränsad till endast värdena 0 och 1.
+explanation: >-
+  Den booleska typen 𝟚 definieras som 𝟙 + 𝟙, en summa av två
+  enhetstyper. Det vänstertaggade värdet σᴸ⟨⟩ representerar false
+  (0) och det högertaggade värdet σᴿ⟨⟩ representerar true (1).
+  Detta är en enbitars datatyp byggd endast av enhetstypen och
+  summatypbildaren — produktbildaren behövs inte.
+reviewed: false

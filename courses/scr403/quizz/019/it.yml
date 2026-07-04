@@ -1,0 +1,15 @@
+question: Cos'è SimplicityHL e perché è necessario?
+answer: Un linguaggio di livello più alto che compila in Simplicity e gestisce naming e scope.
+wrong_answers:
+  - Un linguaggio di descrizione hardware per minare gli ASIC che eseguono Simplicity.
+  - Un IDE grafico drag-and-drop per collegare tra loro i combinatori Simplicity.
+  - Un framework di test per eseguire programmi Simplicity dentro una sandbox sicura.
+explanation: >-
+  Simplicity allo stato grezzo diventa incomprensibile a livelli di complessità
+  di produzione perché ogni accesso ai dati deve avvenire tramite combinatori
+  take/drop annidati. SimplicityHL fornisce costrutti di programmazione
+  familiari — variabili con nome, scope, import di librerie e flusso di
+  controllo — che compilano in espressioni di combinatori Simplicity.
+  Gli utenti finali scrivono SimplicityHL mentre Simplicity funge da
+  target di compilazione formalmente verificato.
+reviewed: false

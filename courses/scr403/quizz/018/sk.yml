@@ -1,0 +1,13 @@
+question: Ako sú v typovom systéme jazyka Simplicity reprezentované buffery s premenlivou dĺžkou?
+answer: Ako vnorené súčiny typu option, kde každá vrstva označuje blok s veľkosťou mocniny dvojky.
+wrong_answers:
+  - Použitím špeciálneho typu dynamického poľa zabudovaného priamo do jazyka.
+  - Prostredníctvom rekurzívnych súčtových typov, ktoré sa pri každom volaní funkcie zväčšujú.
+  - Ako vektory s pevnou veľkosťou, ktoré sú doplnené koncovými nulovými hodnotami.
+explanation: >-
+  Buffery používajú vnorené typy option. Napríklad Xᑉ⁸ sa rozvinie na
+  (1 + X⁴) × ((1 + X²) × (1 + X)), čo ako polynóm dáva
+  1 + X + X² + ... + X⁷ — reprezentujúc kolekcie s 0 až 7 prvkami.
+  Každá vrstva option indikuje, či je prítomný blok s veľkosťou mocniny dvojky,
+  čím sa efektívne kóduje dĺžka v binárnej sústave.
+reviewed: false

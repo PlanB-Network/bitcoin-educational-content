@@ -1,0 +1,9 @@
+question: 在『前提中的型別較小』的型別規則之下，究竟哪些核心組合子會在執行期間真正移動資料？
+answer: 只有 iden 與 comp；其餘七個僅憑簿記就能實作。
+wrong_answers:
+  - 只有 take 與 drop；取出一個元素會迫使機器把它從積中複製出來。
+  - 只有 pair 與 case；為兩個分支複製輸入、以及依標記進行分派都會搬動資料。
+  - 只有 injl 與 injr；加上一個標記會把值改寫成一個更大的和型別表示法。
+explanation: >-
+  有違直覺的是，那些看似在存取資料的組合子（take、drop、pair、case、injl、injr）並不需要複製：因為型別規則中的前提所涉及的型別小於其結論，Bit Machine 僅憑簿記就能實作它們。只有把整個輸入複製到輸出的 iden，以及會具現化一個由 f 傳給 g 之中間值的 comp，才真正在搬動資料。
+reviewed: false

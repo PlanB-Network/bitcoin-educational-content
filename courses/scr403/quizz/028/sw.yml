@@ -1,0 +1,16 @@
+question: Ni kwa maana gani conditional composition ni dual ya parallel composition?
+answer: Parallel hulisha operations zote mbili ingizo moja na kuunganisha matokeo yao kuwa pair (product); conditional huchukua sum ya inputs na matawi yote mawili hushiriki type moja ya output.
+wrong_answers:
+  - Parallel lazima iendeshe operations zake mbili kwa wakati mmoja; conditional huziendesha kwa mfululizo na kurudisha tu branch iliyochaguliwa na tag.
+  - Zote huendeshwa kwenye ingizo moja la pamoja; parallel huhifadhi output pair, ilhali conditional huendesha branches zote mbili na kutupa ile isiyochaguliwa.
+  - Parallel hunakili ingizo lake mapema ilhali conditional hunakili output yake baadaye, zikibadilishana mahali ambapo kunakili hutokea.
+explanation: >-
+  Duality ni ubadilishaji wa product/sum huku type ya pamoja ikihamisha
+  upande: parallel composition huipa operations zote mbili type ileile ya input
+  na kuunganisha outputs zao kuwa product, ilhali conditional composition
+  huchukua sum (tagged union) ya types mbili za input na branches zote mbili lazima
+  zitoe type ileile ya output. Simultaneity haina umuhimu — makala
+  inasisitiza kwamba parallel composition inaweza kutekelezwa kwa mfululizo — na
+  conditional composition hutekeleza branch moja tu, iliyochaguliwa na tag,
+  badala ya kuendesha zote mbili na kutupa moja.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mis on pair (drop iden) (take iden) tüüp ja millist funktsiooni see tähistab?
+answer: A × B ⊢ B × A — see vahetab paari kaks komponenti omavahel.
+wrong_answers:
+  - A × B ⊢ A × B — see laseb mõlemad komponendid muutmata läbi (identsus).
+  - "Tüübivigane: take iden ja drop iden on erinevate väljundtüüpidega, mida pair ei saa ühendada."
+  - (A × B) × (A × B) ⊢ B × A — pair ühendab oma kahe alamavaldise sisendtüübid.
+explanation: >-
+  drop iden : A × B ⊢ B eraldab teise komponendi ja take iden : A ×
+  B ⊢ A eraldab esimese. Kombinaator pair nõuab ainult, et selle kahel
+  alamavaldisel oleks sama sisendtüüp (siin A × B); nende väljundid võivad
+  erineda ja tagastatakse paarina. Sisendil ⟨a, b⟩ annab avaldis seega
+  tulemuseks ⟨b, a⟩: vahetusfunktsiooni, tüübiga A × B ⊢ B × A.
+reviewed: false

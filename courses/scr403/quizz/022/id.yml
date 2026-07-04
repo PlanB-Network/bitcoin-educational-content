@@ -1,0 +1,13 @@
+question: "Mengapa bip0340-verify menggunakan efek Failure alih-alih mengembalikan boolean (true/false)?"
+answer: Untuk memungkinkan verifikasi batch tanda tangan Schnorr, di mana satu pemeriksaan yang gagal menggagalkan seluruh batch.
+wrong_answers:
+  - Karena tipe boolean terlalu mahal dari segi ruang blok dibandingkan tipe unit.
+  - Karena sistem tipe Simplicity tidak dapat merepresentasikan nilai kembalian boolean dari jet.
+  - Karena mengembalikan nilai boolean biasa akan secara langsung melanggar teorema kelengkapan.
+explanation: >-
+  Jika bip0340-verify mengembalikan boolean, pemeriksaan tanda tangan yang gagal tetap bisa
+  mengarah ke cabang di mana script berhasil. Dalam kasus itu, verifier perlu tahu tanda tangan
+  mana yang gagal, sehingga mencegah verifikasi batch. Dengan menggunakan efek Failure, pemeriksaan
+  yang gagal selalu membatalkan seluruh komputasi, memungkinkan verifikasi batch yang efisien di
+  mana banyak tanda tangan dikumpulkan bersama.
+reviewed: true

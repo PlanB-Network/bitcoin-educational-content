@@ -1,0 +1,17 @@
+question: Fullstendighetsbeviset bygger enhver funksjon ved å neste case for å dekomponere inndata og scribe for hvert utdata. Hvorfor er dette bare et teoretisk verktøy?
+answer: Det resulterende uttrykket er en gigantisk oppslagstabell hvis størrelse vokser eksponentielt — en 256-bits inndata ville trenge omtrent 2²⁵⁶ oppføringer.
+wrong_answers:
+  - scribe er en makro, ikke en kjernekombinator, så uttrykket faller utenfor det formelt verifiserte språket.
+  - Bit Machine evaluerer det i eksponentiell tid, selv om selve uttrykket forblir kompakt via deling.
+  - Nestet case kan bare dekomponere sumtyper, så konstruksjonen mislykkes for enhver produkttypet inndata.
+explanation: >-
+  Konstruksjonen ramser opp enhver mulig inndata via nestet case-
+  dekomponering og hardkoder hvert utdata med scribe, så uttrykkets
+  størrelse eksploderer eksponentielt — astronomisk for realistiske typer
+  som 256-bits ord. Oppblåsingen ligger i uttrykkets størrelse, ikke i
+  kjøretiden til et ellers kompakt uttrykk. scribe utvides til ekte
+  kjernekombinatorer (unit, injl, injr, pair), så resultatet forblir
+  innenfor kjernespråket, hvis fullstendighetsteorem er formelt verifisert
+  i Rocq; og dekomponeringen håndterer inndata av enhver type, inkludert
+  produkter.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 為什麼 Simplicity 使用靜態分析，而非像 Ethereum 那樣的動態 gas 模型？
+answer: 為了在執行開始前確定資源上限，從而帶來可預測的成本。
+wrong_answers:
+  - 因為對開發者而言，靜態分析單純就是實作起來快得多。
+  - 因為 Ethereum 自己的 gas 模型已申請專利，因此無法使用。
+  - 因為 Simplicity 程式太短，根本從不真正需要計量。
+explanation: >-
+  Simplicity 的靜態分析讓網路在程式執行前就能確切知道它需要多少計算量。這消除了動態計量的不可預測性，防止透過資源耗盡發動的阻斷服務攻擊，並讓節點能在不浪費計算的情況下拒絕超出限制的程式。
+reviewed: false

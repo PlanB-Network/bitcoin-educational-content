@@ -1,0 +1,12 @@
+question: "Simplicity 中的 Commitment Merkle Root (CMR) 是什么？"
+answer: 一个 256 位哈希，通过带标签的 SHA-256 承诺到 Simplicity 程序的结构。
+wrong_answers:
+  - 一棵包含 Simplicity 程序所有可能执行路径的二叉树。
+  - 程序的类型和见证值的哈希，用于地址验证。
+  - 程序被授权访问的交易数据的 Merkle 根。
+explanation: >-
+  每个 Simplicity 组合子都有一个唯一的 SHA-256 标签（例如 Simplicity␟Commitment␟iden），并且
+  CMR 通过使用这些带标签的中间状态递归哈希程序的组合子树来计算。
+  重要的是，CMR 不承诺表达式的类型，而是在赎回期间依赖类型推断。
+  CMR 用于把程序提交到 Taproot 地址中。
+reviewed: true

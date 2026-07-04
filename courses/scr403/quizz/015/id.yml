@@ -1,0 +1,13 @@
+question: Mengapa kombinator 'case' menyertakan tipe lingkungan bersama C dalam signature-nya?
+answer: Agar kedua cabang dapat membaca data konteks bersama beserta input yang diberi tag.
+wrong_answers:
+  - Untuk membatasi ukuran input agar mencegah stack overflow.
+  - Untuk memungkinkan pemanggilan rekursif bolak-balik antara kedua cabang.
+  - Untuk menyimpan output dari kombinator sebelumnya lebih awal dalam rantai.
+explanation: >-
+  Kombinator case memiliki signature (A + B) × C ⊢ D. Tipe tambahan C
+  bertindak sebagai lingkungan bersama yang dapat diakses oleh cabang kiri
+  (f : A × C ⊢ D) maupun cabang kanan (g : B × C ⊢ D). Ini lebih kuat
+  dibandingkan if-then-else sederhana karena cabang menerima baik data
+  spesifiknya maupun informasi kontekstual yang dibutuhkan untuk komputasi.
+reviewed: false

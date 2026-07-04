@@ -1,0 +1,13 @@
+question: Hva er sammenhengen mellom Simplicity og Gentzens sekvenskalkyle?
+answer: De ni kombinatorene speiler det konjunktiv-disjunktive fragmentet av sekvenskalkylen.
+wrong_answers:
+  - Simplicity ble direkte oversatt fra sekvenskalkyle-bevis til fungerende kode.
+  - Gentzens sekvenskalkyle brukes under kjøretid til å typesjekke Simplicity-programmer.
+  - De er fullstendig urelaterte, og likheten på overflaten er ren tilfeldighet.
+explanation: >-
+  De ni kjernereglene til Simplicity ligner sterkt på reglene i Gentzens
+  sekvenskalkyle, analogt med Curry-Howard-korrespondansen mellom
+  lambdakalkyle og naturlig deduksjon. Denne sammenhengen sikrer at
+  typene i premissene er mindre enn i konklusjonene, noe Bit-maskinen
+  utnytter for effektiv utførelse med minimal datakopiering.
+reviewed: false

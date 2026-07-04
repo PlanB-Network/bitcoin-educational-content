@@ -1,0 +1,15 @@
+question: "Quelle expression de combinateur central implémente la fonction de distribution dist : (A + B) × C ⊢ A × C + B × C ?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  À l'intérieur de chaque branche de case, l'environnement est déjà associé à
+  la valeur non étiquetée, donc f = injl iden et g = injr iden donnent
+  ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩ et ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — exactement dist. La
+  variante take/drop se type-vérifie mais abandonne l'association, dénotant
+  une fonction de type (A + B) × C ⊢ A + C à la place. pair produit un
+  produit plutôt qu'une somme, et copair n'est même pas un combinateur
+  Simplicity — dist est précisément ce que copair seul ne peut pas exprimer.
+reviewed: false

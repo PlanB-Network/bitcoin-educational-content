@@ -1,0 +1,13 @@
+question: Milline on Simplicity ja Gentzeni sekventsarvutuse suhe?
+answer: Selle üheksa kombinaatorit peegeldavad sekventsarvutuse konjunktiiv-disjunktiivset fragmenti.
+wrong_answers:
+  - Simplicity tõlgiti otse sekventsarvutuse tõestustest töötavaks koodiks.
+  - Gentzeni sekventsarvutust kasutatakse käitusajal Simplicity programmide tüübikontrolliks.
+  - Need ei ole omavahel üldse seotud ja pealiskaudne sarnasus on puhas juhus.
+explanation: >-
+  Simplicity üheksa põhireeglit sarnanevad väga Gentzeni
+  sekventsarvutuse reeglitega, analoogselt Curry-Howardi vastavusele
+  lambda-arvutuse ja loomuliku tuletuse vahel. See seos tagab, et
+  eeldustes olevad tüübid on väiksemad kui järeldustes, mida Bit
+  Machine kasutab ära tõhusaks täitmiseks minimaalse andmete kopeerimisega.
+reviewed: false

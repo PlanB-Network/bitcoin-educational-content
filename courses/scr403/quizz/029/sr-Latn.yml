@@ -1,0 +1,15 @@
+question: Simplicity isključuje neograničenu rekurziju. Koja je njegova predviđena zamena za neograničenu iteraciju?
+answer: Rekurzivni covenant-i koji raspoređuju računanje na više transakcija, održavajući trošak svake transakcije predvidljivim.
+wrong_answers:
+  - Funkcija delegacije, namenski napravljena da pruži merljivi oblik neograničene rekurzije unutar jedne transakcije.
+  - Devet osnovnih kombinatora, čija potpunost omogućava konstrukciji fiksne tačke da kodira bilo koju rekurzivnu funkciju.
+  - Odmotavanje petlje u vreme kompilacije, gde statička analiza zaključuje maksimalni broj iteracija i duplira telo.
+explanation: >-
+  Teza članka je da se neograničena iteracija bolje implementira
+  kao rekurzivni covenant-i koji računaju preko više transakcija, čime se
+  izbegavaju ograničenja prostora u bloku i standardnosti i čine troškovi
+  transakcija predvidljivim. Delegacija se može samo zloupotrebiti da bi se proizvelo nešto
+  što podseća na neograničenu rekurziju — to nije predviđeni mehanizam — a
+  devet osnovnih kombinatora je potpuno samo za konačna računanja, pa
+  ne postoji konstrukcija fiksne tačke unutar jednog programa.
+reviewed: false

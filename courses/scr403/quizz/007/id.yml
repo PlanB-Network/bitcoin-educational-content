@@ -1,0 +1,13 @@
+question: Bagaimana tipe boolean (𝟚) didefinisikan dalam Simplicity?
+answer: Sebagai tipe jumlah 𝟙 + 𝟙, yang menampung tepat dua nilai (false dan true).
+wrong_answers:
+  - Sebagai tipe produk 𝟙 × 𝟙 yang kemudian hanya akan menampung satu nilai.
+  - Sebagai tipe primitif khusus yang dibangun langsung ke dalam bahasa.
+  - Sebagai tipe bilangan bulat 32-bit yang dibatasi hanya pada nilai 0 dan 1.
+explanation: >-
+  Tipe boolean 𝟚 didefinisikan sebagai 𝟙 + 𝟙, sebuah jumlah dari dua tipe
+  unit. Nilai bertanda kiri σᴸ⟨⟩ merepresentasikan false (0) dan nilai
+  bertanda kanan σᴿ⟨⟩ merepresentasikan true (1). Ini adalah tipe data
+  satu bit yang dibangun hanya dari tipe unit dan pembentuk tipe jumlah —
+  pembentuk produk tidak diperlukan.
+reviewed: false

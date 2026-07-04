@@ -1,0 +1,13 @@
+question: "Miksi sig-all-hash käyttää Reader-efektiä sen sijaan, että ottaisi transaktiodatan tyypitettynä syötteenä?"
+answer: Jotta jet voi käyttää PrecomputedTransactionDataa ja toimia vakioajassa kiinteässä ympäristössä.
+wrong_answers:
+  - Koska Simplicityn tyyppijärjestelmä ei perustavanlaatuisesti voi esittää transaktiodataa tyyppinä.
+  - Koska Reader-efekti on nopeampi kuin kyseisen datan välittäminen kombinaattoripuun läpi.
+  - Koska transaktiodata on aivan liian suurta mahtuakseen Simplicityn kiinteän kokoiseen tyyppijärjestelmään.
+explanation: >-
+  Jos sig-all-hash ottaisi TxEnv-syötetyypin, ohjelmat voisivat välittää muokattuja kopioita transaktiodatasta
+  jetille, estäen sitä käyttämästä esilaskettuja tiivisteitä. Reader-efektin avulla jet vain
+  käyttää kiinteää, muuttumatonta transaktioympäristöä, joten sen toteutus voi turvallisesti käyttää
+  PrecomputedTransactionDataa ja toimia vakioajassa allekirjoituksen tarkistusta kohden, välttäen kvadraattisen
+  tiivistysongelman, joka vaivasi varhaista Bitcoin Scriptiä.
+reviewed: true

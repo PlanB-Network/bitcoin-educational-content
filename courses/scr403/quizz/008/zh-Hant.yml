@@ -1,0 +1,9 @@
+question: 邏輯 AND 運算在 Simplicity 中如何運作？
+answer: 它以第一個位元進行分支——若為 false 則回傳 false，否則回傳第二個位元。
+wrong_answers:
+  - 它使用積型別把兩個布林值相乘。
+  - 它使用一個包含全部四種可能輸入組合的查找表。
+  - 它先套用 XOR 組合子，再對結果套用 NOT 組合子。
+explanation: >-
+  AND 定義為 case (injl unit) (drop iden)。case 組合子以第一個位元進行分支。若它為 false（左標籤），injl unit 無論第二個位元為何都回傳 false。若它為 true（右標籤），drop iden 原封不動地回傳第二個位元。這與 AND 真值表相符。
+reviewed: false

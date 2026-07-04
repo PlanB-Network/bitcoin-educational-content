@@ -1,0 +1,13 @@
+question: Miks kasutab Simplicity staatilist analüüsi Ethereumi-taolise dünaamilise gas-mudeli asemel?
+answer: Et määrata ressursipiirid enne täitmise algust, andes prognoositavad kulud.
+wrong_answers:
+  - Sest staatilist analüüsi on arendajatel lihtsalt palju kiirem teostada.
+  - Sest Ethereumi enda gas-mudel oli patenteeritud ja seetõttu kättesaamatu.
+  - Sest Simplicity programmid on liiga lühikesed, et kunagi tegelikult mõõtmist vajada.
+explanation: >-
+  Simplicity staatiline analüüs võimaldab võrgul teada täpselt, kui palju
+  arvutust programm vajab, enne kui see käivitub. See kõrvaldab dünaamilise
+  mõõtmise ettearvamatuse, ennetab teenusetõkestust ressursside ammendamise
+  kaudu ja võimaldab sõlmedel tagasi lükata programmid, mis ületavad piirid,
+  ilma arvutust raiskamata.
+reviewed: false

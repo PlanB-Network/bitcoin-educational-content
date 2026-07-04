@@ -1,0 +1,13 @@
+question: Care este tipul lui pair (drop iden) (take iden), și ce funcție denotă?
+answer: A × B ⊢ B × A — interschimbă cele două componente ale unei perechi.
+wrong_answers:
+  - A × B ⊢ A × B — lasă ambele componente neschimbate (identitatea).
+  - "Netipizabil: take iden și drop iden au tipuri de ieșire diferite, pe care pair nu le poate combina."
+  - (A × B) × (A × B) ⊢ B × A — pair combină tipurile de intrare ale celor două subexpresii.
+explanation: >-
+  drop iden : A × B ⊢ B extrage a doua componentă, iar take iden : A ×
+  B ⊢ A extrage prima. Combinatorul pair necesită doar ca cele două
+  subexpresii ale sale să aibă același tip de intrare (aici A × B); ieșirile lor pot
+  diferi și sunt returnate ca o pereche. Pentru intrarea ⟨a, b⟩ expresia
+  produce deci ⟨b, a⟩: funcția de interschimbare, de tipul A × B ⊢ B × A.
+reviewed: false

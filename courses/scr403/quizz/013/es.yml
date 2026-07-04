@@ -1,0 +1,13 @@
+question: ¿Por qué Simplicity usa análisis estático en lugar de un modelo de gas dinámico como Ethereum?
+answer: Para determinar los límites de recursos antes de que comience la ejecución, dando costos predecibles.
+wrong_answers:
+  - Porque el análisis estático es simplemente mucho más rápido de implementar para los desarrolladores.
+  - Porque el propio modelo de gas de Ethereum estaba patentado y por lo tanto no disponible.
+  - Porque los programas de Simplicity son demasiado cortos para necesitar realmente medición.
+explanation: >-
+  El análisis estático de Simplicity permite que la red sepa exactamente
+  cuánta computación requiere un programa antes de que se ejecute. Esto
+  elimina la imprevisibilidad de la medición dinámica, previene la
+  denegación de servicio por agotamiento de recursos y permite a los nodos
+  rechazar programas que excedan los límites sin desperdiciar computación.
+reviewed: false

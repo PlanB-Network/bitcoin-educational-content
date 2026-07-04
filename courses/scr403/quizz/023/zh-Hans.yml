@@ -1,0 +1,11 @@
+question: "Simplicity 程序的类型是什么？"
+answer: 1 ⊢ 1（单位到单位）——没有有意义的输入或输出；副作用负责 I/O。
+wrong_answers:
+  - TxEnv ⊢ Bool——它接收交易数据并返回有效性布尔值。
+  - 2^256 ⊢ 2^256——它接收一个哈希输入并返回一个新的哈希输出值。
+  - 任意类型 A ⊢ B——程序可以有完全任意的输入和输出类型。
+explanation: >-
+  Simplicity 程序被定义为类型 1 ⊢ 1 的表达式。Reader 效应捕获
+  交易环境输入，而 Failure 效应决定成功或失败。
+  这些副作用处理所有 I/O，而不是由 Simplicity 类型本身处理。
+reviewed: true

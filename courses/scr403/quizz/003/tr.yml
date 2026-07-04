@@ -1,0 +1,12 @@
+question: Simplicity'de bir toplam türü (A + B) nedir?
+answer: "Etiketli birleşim: bir değer ya sol etiketli bir A'dır ya da sağ etiketli bir B'dir."
+wrong_answers:
+  - Hem A'dan hem de B'den gelen tüm değerleri aynı anda içeren bir tür.
+  - İki bileşen türün bit boyutlarının aritmetik toplamı.
+  - A'daki her girdiyi B'deki bir çıktıya eşleyen bir fonksiyon türü.
+explanation: >-
+  A + B toplam türü etiketli bir birleşimdir. Her değer, sol varyant mı
+  (A türünden) yoksa sağ varyant mı (B türünden) olduğunu gösteren tek bitlik
+  bir etiket taşır. A ve B aynı tür olduğunda bile, sol etiketli ve sağ
+  etiketli değerler ayrı kalır.
+reviewed: false

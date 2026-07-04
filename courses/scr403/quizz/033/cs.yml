@@ -1,0 +1,14 @@
+question: Vzhledem k typovacím pravidlům s 'menšími typy v premisách', které kombinátory jádra skutečně přesouvají data během provádění?
+answer: Pouze iden a comp; ostatních sedm je implementováno pouhou evidencí.
+wrong_answers:
+  - Pouze take a drop; extrakce jedné složky nutí stroj ji zkopírovat ven ze součinu.
+  - Pouze pair a case; duplikace vstupu pro dvě větve a rozdělení podle tagu přesouvají data.
+  - Pouze injl a injr; přidání tagu přepíše hodnotu do větší reprezentace součtového typu.
+explanation: >-
+  Paradoxně kombinátory, které vypadají jako přístup k datům (take, drop,
+  pair, case, injl, injr), nepotřebují žádné kopírování: protože premisy v
+  typovacích pravidlech zahrnují menší typy než jejich závěry, dokáže je
+  Bit Machine implementovat pouze pomocí evidence. Pouze iden, který
+  kopíruje celý svůj vstup na svůj výstup, a comp, který materializuje
+  mezihodnotu předávanou z f do g, skutečně přesouvají data.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Wie werden Puffer variabler Länge im Typsystem von Simplicity dargestellt?
+answer: Als verschachtelte Produkte von Optionstypen, wobei jede Ebene einen Zweierpotenz-Block markiert.
+wrong_answers:
+  - Mit Hilfe eines speziellen dynamischen Array-Typs, der direkt in die Sprache eingebaut ist.
+  - Durch rekursive Summentypen, die bei jedem Funktionsaufruf größer werden.
+  - Als feste Vektoren, die mit nachgestellten Nullwerten aufgefüllt werden.
+explanation: >-
+  Puffer verwenden verschachtelte Optionstypen. Zum Beispiel expandiert Xᑉ⁸ zu
+  (1 + X⁴) × ((1 + X²) × (1 + X)), was als Polynom
+  1 + X + X² + ... + X⁷ ergibt — es stellt Sammlungen von 0 bis 7 Elementen
+  dar. Jede Optionsebene zeigt an, ob ein Zweierpotenz-Block vorhanden ist,
+  wodurch die Länge effektiv binär kodiert wird.
+reviewed: false

@@ -1,0 +1,17 @@
+question: En half-agg-verify-jet logger et sett med tupler som en Writer-effekt. Under kommutativ/idempotent/unitær-testen, hva oppnår settdesignet, og hva mangler fortsatt?
+answer: "Kommutativ og idempotent (slik Simplicity krever), men ikke unitær: å forkaste et kall ville droppe dets tuppel og hoppe over en signatur."
+wrong_answers:
+  - Idempotent og unitær, men ikke kommutativ, siden aggregatet må kombinere r-komponenter i signeringsrekkefølge.
+  - Alle tre, så en optimalisator kan fritt duplisere, omordne eller forkaste kallene uten risiko.
+  - Kommutativ men ikke idempotent, siden å logge samme tuppel to ganger ville kreve to aggregat-s-komponenter.
+explanation: >-
+  Å behandle writer-loggen som et sett gjør effekten idempotent og
+  kommutativ, fordi selve settinnsetting har begge egenskapene — nøyaktig
+  de to Simplicity krever av enhver effekt. Unitæritet er fortsatt
+  utenfor rekkevidde: som Failure påvirker skrivingen transaksjonens
+  gyldighet, siden transaksjonen bare er gyldig når en aggregat-
+  s-komponent dekker hvert loggførte tuppel. Et uttrykk som utfører
+  skrivingen kan derfor ikke forkastes bare fordi dets enhets-utdata er
+  ubrukt, siden dets tuppel da stille ville forsvinne fra
+  halv-aggregeringsverifikasjonen.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Simplicity execution के दौरान dynamic memory allocation को क्यों exclude करती है?
+answer: Static analysis सक्षम करने और bugs तथा attacks की पूरी classes को असंभव करने के लिए।
+wrong_answers:
+  - क्योंकि Liquid Network low-level memory operations को support नहीं करता।
+  - नए smart-contract developers के लिए programming learning curve कम करने के लिए।
+  - क्योंकि Bitcoin Script में भी कोई dynamic memory allocation नहीं होता।
+explanation: >-
+  Simplicity dynamic memory allocation से बचती है ताकि सभी resource usage
+  execution से पहले statically निर्धारित किए जा सकें। इससे predictable
+  resource bounds संभव होते हैं और memory management से संबंधित vulnerabilities
+  खत्म हो जाती हैं, जो blockchain validation context में critical है।
+reviewed: false

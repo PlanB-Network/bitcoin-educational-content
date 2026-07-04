@@ -1,0 +1,17 @@
+question: Simplicity etkileri değişmeli ve idempotenttir ama birimsel değildir. Bu yüzden genel olarak hangi optimizer dönüşümü reddedilmelidir?
+answer: Görünüşte ölü bir ifadeyi unit ile değiştirmek — Failure birimsel değildir; bu yüzden abort etmesi gereken başarısız bir denetimi gizleyebilir.
+wrong_answers:
+  - İki bağımsız alt ifadeyi yer değiştirmek; çünkü sig-all-hash farklı bir ortam durumunu gözlemleyebilir.
+  - İki özdeş verify çağrısını birleştirmek; çünkü çoğaltılmış Failure iki kez fırlatılır ve yanlış biçimde abort eder.
+  - Fırlatabilecek ifadeleri yeniden sıralamak; çünkü yayılan istisna önce hangi tarafın çalıştığına bağlıdır.
+explanation: >-
+  Simplicity etkilerinin değişmeli ve idempotent olduğu garanti edildiği için
+  bağımsız alt ifadeleri yer değiştirmek ve aynı olanları çoğaltmak ya da
+  birleştirmek her zaman güvenlidir; Reader ortamı sabittir ve Failure etkisinin
+  unit tipli istisnası, hangi tarafın önce fırlattığından veya kaç kez
+  fırlattığından bağımsız olarak aynıdır. Ancak `f ⨾ unit = unit` atma
+  dönüşümü birimsellik gerektirir ve Failure bundan yoksundur: `f` geçersiz
+  bir imza üzerinde `bip0340-verify` içeriyorsa 'ölü' kodu ortadan kaldırmak
+  abort davranışını optimize edip yok eder ve başarısız olması gereken bir işlemi
+  geçerli kılar.
+reviewed: false

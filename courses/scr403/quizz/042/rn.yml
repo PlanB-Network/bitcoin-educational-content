@@ -1,0 +1,16 @@
+question: Mu gihe co gukoresha amahera, ishami rya case riracibwa. Verifier ashobora gute kugereranya porogarama ihishuwe na CMR yashizwemwo commitment?
+answer: CMR ni Merkle root, rero spender atanga gusa CMR y'ishami ryaciwe, verifier akayizinga mu guharura kugira ngo asubire kubara root.
+wrong_answers:
+  - Verifier akoresha gusa ishami ryakozwe, kuko amashami ya case atakozwe atigeze aja muri CMR.
+  - Amashami yaciwe acika placeholder ya canonical ifise CMR idahinduka ikoreshwa mu gusubira kubara root.
+  - Code yose y'ishami ryaciwe iguma muri witness, aho verifier ayihasha ariko ntayikore.
+explanation: >-
+  CMR ya case f g ni tagged hash kuri CMRs z'abana bompi, rero ishami ryose
+  — ryakozwe canke ritakozwe — riba ryashizwemwo commitment mu gihe co kurema
+  aderesi. Kubera ko ubwo bwubatsi ari igiti ca Merkle, ishami ryaciwe rishobora
+  gucurwa incamake na CMR yaryo ya bytes 32 gusa: verifier yinjiza iyo hash
+  mu guharura recursive maze ikagenzura ko root ihuye na commitment ya UTXO,
+  atigeze abona code yaciwe. Ni co gituma Merkle root ikoreshwa ku commitment,
+  kandi ni co gituma witness expressions zose ziri muri iryo shami ryaciwe
+  zitigera ziboneka on-chain.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mida toodab järjestikune kompositsioon, kui aheldada operatsioon f (A → B) operatsiooniga g (B → C)?
+answer: Üksik liitoperatsioon A-st C-sse, kus f-i väljund suundub g-sse.
+wrong_answers:
+  - Paariväärtus, mis sisaldab mõlemat vahepealset väljundit tüüpidega B ja C.
+  - Tingimuslause, mis valib f ja g vahel sisendi põhjal.
+  - Kaks eraldiseisvat operatsiooni, mis töötavad sõltumatult, jagamata andmeid.
+explanation: >-
+  Järjestikune kompositsioon aheldab kaks operatsiooni otsast otsani. Esimese
+  operatsiooni väljund saab teise sisendiks. Simplicitys väljendatakse seda
+  comp-kombinaatoriga: comp f g rakendab kõigepealt f-i, seejärel g-d
+  tulemusele.
+reviewed: false

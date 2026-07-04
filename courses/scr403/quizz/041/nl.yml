@@ -1,0 +1,18 @@
+question: Een Simplicity-output gebruikt het vaste BIP-0341-NUMS-punt als interne sleutel. Waarom is key-spend aantoonbaar onmogelijk, en wat voegt het randomiseren van het NUMS-punt toe?
+answer: Niemand kent de discrete logaritme van het NUMS-punt, dus kan er geen key-path-handtekening bestaan; randomiseren voegt alleen privacy toe.
+wrong_answers:
+  - Het NUMS-punt ligt buiten de curve, waardoor key-path-handtekeningen falen; randomiseren brengt het terug op de curve.
+  - De privésleutel van het NUMS-punt is nul, wat door consensus wordt verworpen; randomiseren beschermt de tweak tegen sidechannels.
+  - Het tweaken van een NUMS-punt levert een sleutel buiten bereik op, waardoor key-spend niet-standaard wordt; randomiseren voorkomt hergebruik van adressen.
+explanation: >-
+  Een NUMS-punt ('Nothing-Up-My-Sleeve') is een volkomen geldig
+  curvepunt dat zo is geconstrueerd dat niemand een bijbehorende
+  privésleutel kent — de discrete logaritme ervan is onbekend. Omdat
+  een key-path-uitgave een Schnorr-handtekening onder de interne
+  sleutel vereist, en zo'n handtekening niet kan worden geproduceerd
+  zonder de privésleutel, is het key-spend-pad aantoonbaar onbruikbaar
+  en kunnen middelen alleen bewegen via het vastgelegde scriptpad. Het
+  randomiseren van het NUMS-punt verandert hier niets aan; het verbergt
+  enkel het feit dat key-spend is uitgeschakeld, zodat de output eruitziet
+  als elke andere Taproot-output — een privacyvoordeel.
+reviewed: false

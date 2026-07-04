@@ -1,0 +1,12 @@
+question: Katika utungaji sambamba, nini hutokea kwa ingizo?
+answer: Operesheni zote mbili hupokea ingizo lilelile, na matokeo yake huunda product (jozi).
+wrong_answers:
+  - Ingizo hugawanywa katikati, kila operesheni ikipokea sehemu moja tofauti.
+  - Operesheni moja huchakata ingizo kwanza, na nyingine hupokea matokeo yaliyobadilishwa.
+  - Ingizo huwekewa tagi na kuelekezwa kwa operesheni moja tu kati ya hizo mbili ili lichakatwe.
+explanation: >-
+  Utungaji sambamba hutoa ingizo lilelile lisilobadilishwa kwa operesheni
+  zote mbili kwa wakati mmoja. Matokeo huunganishwa katika aina ya product
+  (jozi). Katika Simplicity, hili hutumia combinator ya pair, iliyoandikwa
+  f ▵ g, ambayo hutoa ⟨f(a), g(a)⟩ kwa ingizo a.
+reviewed: false

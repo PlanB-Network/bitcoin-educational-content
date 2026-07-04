@@ -1,0 +1,9 @@
+question: "Simplicity 中的承諾 Merkle Root（CMR）是什麼？"
+answer: 一個 256 位元的雜湊，以帶標籤的 SHA-256 對某個 Simplicity 程式的結構做出承諾。
+wrong_answers:
+  - 一棵包含某個 Simplicity 程式所有可能執行路徑的二元樹。
+  - 一個對程式的型別與見證值所做的雜湊，用於位址驗證。
+  - 一個對該程式被授權存取之交易資料所做的 Merkle Root。
+explanation: >-
+  每個 Simplicity 組合子都有一個獨特的 SHA-256 標籤（例如 Simplicity␟Commitment␟iden），而 CMR 是透過使用這些帶標籤的中間狀態，對程式的組合子樹遞迴地做雜湊計算而得。重要的是，CMR 並不對運算式的型別做出承諾，而是在贖回期間依賴型別推論。CMR 用於將程式承諾至 Taproot 位址。
+reviewed: true

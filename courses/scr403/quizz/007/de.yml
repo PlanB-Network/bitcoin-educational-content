@@ -1,0 +1,13 @@
+question: Wie ist der boolesche Typ (𝟚) in Simplicity definiert?
+answer: Als Summentyp 𝟙 + 𝟙, der genau zwei Werte enthält (falsch und wahr).
+wrong_answers:
+  - Als Produkttyp 𝟙 × 𝟙, der dann nur einen Wert enthalten würde.
+  - Als spezieller primitiver Typ, der direkt in die Sprache eingebaut ist.
+  - Als 32-Bit-Ganzzahltyp, der auf die Werte 0 und 1 beschränkt ist.
+explanation: >-
+  Der boolesche Typ 𝟚 ist definiert als 𝟙 + 𝟙, eine Summe zweier Unit-Typen.
+  Der links-getaggte Wert σᴸ⟨⟩ repräsentiert falsch (0) und der rechts-getaggte
+  Wert σᴿ⟨⟩ repräsentiert wahr (1). Dies ist ein Ein-Bit-Datentyp, der
+  ausschließlich aus dem Unit-Typ und dem Summentyp-Konstruktor aufgebaut
+  ist — der Produkt-Konstruktor wird nicht benötigt.
+reviewed: false

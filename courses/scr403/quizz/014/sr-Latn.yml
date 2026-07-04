@@ -1,0 +1,13 @@
+question: Šta je jedinični tip (𝟙) i zašto je koristan iako ne nosi nikakvu informaciju?
+answer: Sadrži jednu vrednost (praznu torku) i osnova je za sve druge tipove.
+wrong_answers:
+  - Predstavlja broj 1 i koristi se direktno za aritmetičke operacije.
+  - To je specijalni tip za otklanjanje grešaka koji beleži tragove izvršavanja u datoteku.
+  - Skladišti tačno jedan bit podataka koji se koristi za Bulove operacije.
+explanation: >-
+  Jedinični tip 𝟙 ima tačno jednu vrednost — praznu torku ⟨⟩. Iako
+  nosi nula bitova informacije, on je suštinski važan kao seme
+  iz kojeg zbirni i proizvodni tipovi izgrađuju sve korisne tipove podataka.
+  Na primer, Bulov tip 𝟚 je 𝟙 + 𝟙, konstruisan u potpunosti
+  od jediničnih tipova.
+reviewed: false

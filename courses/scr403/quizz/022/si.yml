@@ -1,0 +1,12 @@
+question: "bip0340-verify boolean (true/false) එකක් return කිරීම වෙනුවට Failure effect භාවිත කරන්නේ ඇයි?"
+answer: Schnorr signatures batch verification සක්‍රීය කිරීමට, එහිදී එක් failed check එකක් batch එක අසමත් කරයි.
+wrong_answers:
+  - Boolean types unit type එකට සාපේක්ෂව block space අනුව අධික වියදම් සහිත නිසා.
+  - Simplicityහි type system එකට jets වෙතින් එන boolean return values නිරූපණය කළ නොහැකි නිසා.
+  - plain boolean value එකක් return කිරීම completeness theorem එක සෘජුවම උල්ලංඝනය කරන නිසා.
+explanation: >-
+  bip0340-verify boolean එකක් return කළේ නම්, failing signature check එකක් තිබුණත් script එක
+  succeed වන branch එකකට යා හැක. එවැනි අවස්ථාවක, verifier ට අසමත් වූ specific signature එක
+  දැනගත යුතු වන අතර, batch verification වැළැක්වේ. Failure effect භාවිත කිරීමෙන්, failed check එකක් සැමවිටම
+  සම්පූර්ණ computation එක abort කරයි, බොහෝ signatures එකට pool කරන efficient batch verification සක්‍රීය කරමින්.
+reviewed: true

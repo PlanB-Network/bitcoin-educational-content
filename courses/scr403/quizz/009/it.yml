@@ -1,0 +1,12 @@
+question: Cosa calcola un half-adder?
+answer: Il riporto (AND) e la somma (XOR) di due bit di input.
+wrong_answers:
+  - La somma di due interi multi-bit con propagazione del riporto.
+  - La media di due bit arrotondata per difetto.
+  - L'OR bit a bit e l'AND di due bit di input.
+explanation: >-
+  Un half-adder prende due singoli bit e produce due output usando la
+  composizione parallela: il bit di riporto (AND degli input) e il bit di
+  somma (XOR degli input). In Simplicity è definito come and ▵ xor, eseguendo
+  entrambe le operazioni sulla stessa coppia di input.
+reviewed: false

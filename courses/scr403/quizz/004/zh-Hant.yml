@@ -1,0 +1,9 @@
+question: Simplicity 有多少個核心組合子？
+answer: 九個（iden、unit、comp、pair、case、take、drop、injl、injr）。
+wrong_answers:
+  - 三個（循序組合、平行組合、條件式）。
+  - 五個（僅 comp、pair、case、take 與 drop 組合子）。
+  - 十二個（九個核心加上三個額外的擴充組合子）。
+explanation: >-
+  Simplicity 恰好有九個核心組合子。兩個基本運算（iden 與 unit）、三種組合方法（comp、pair、case），以及四個存取子（take、drop 用於積，injl 與 injr 用於和）。這九個足以表達 Simplicity 型別之間的任何函式。
+reviewed: false

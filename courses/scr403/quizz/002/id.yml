@@ -1,0 +1,12 @@
+question: Dalam komposisi paralel, apa yang terjadi pada masukan?
+answer: Kedua operasi menerima masukan yang sama, dan keluarannya membentuk produk (pasangan).
+wrong_answers:
+  - Masukan dibagi dua, dengan masing-masing operasi menerima satu bagian terpisah.
+  - Satu operasi memproses masukan terlebih dahulu, dan operasi lainnya menerima hasil yang telah dimodifikasi.
+  - Masukan diberi tanda dan diarahkan ke hanya salah satu dari dua operasi untuk diproses.
+explanation: >-
+  Komposisi paralel memberikan masukan yang sama tanpa modifikasi kepada
+  kedua operasi secara bersamaan. Hasilnya digabungkan menjadi tipe produk
+  (pasangan). Dalam Simplicity, ini menggunakan kombinator pair, ditulis
+  f ▵ g, yang menghasilkan ⟨f(a), g(a)⟩ untuk masukan a.
+reviewed: false

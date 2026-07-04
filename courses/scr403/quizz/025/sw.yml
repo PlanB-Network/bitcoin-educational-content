@@ -1,0 +1,12 @@
+question: "Commitment Merkle Root (CMR) ni nini katika Simplicity?"
+answer: Hash ya biti 256 inayocommit muundo wa programu ya Simplicity kwa tagged SHA-256.
+wrong_answers:
+  - Mti wa binary wenye njia zote zinazowezekana za utekelezaji wa programu ya Simplicity.
+  - Hash ya types za programu na thamani za witness zinazotumika kwa uthibitishaji wa address.
+  - Shina la Merkle la data ya muamala ambayo programu imeidhinishwa kufikia.
+explanation: >-
+  Kila combinator ya Simplicity ina tag ya kipekee ya SHA-256 (mfano, Simplicity␟Commitment␟iden), na
+  CMR hukokotolewa kwa kuhashi kwa kujirudia mti wa combinator wa programu kwa kutumia midstates hizi zilizo na tag.
+  Muhimu zaidi, CMR hai-commit types za expressions, ikitegemea type inference
+  wakati wa redemption. CMR hutumika kucommit programu ndani ya addresses za Taproot.
+reviewed: true

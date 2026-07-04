@@ -1,0 +1,15 @@
+question: Jälgi täisliitjat sisendil ⟨⟨1,1⟩,1⟩ (1+1+1). Millise väärtuse annab teine etapp, O O H ▵ (O I H ▵ I H ⨾ half-adder), lõppetapile?
+answer: ⟨1, ⟨0, 1⟩⟩ — esimese poolliitja ülekanne, seejärel teise ülekanne ja summa.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — esimese poolliitja ülekanne, seejärel teise summa ja ülekanne.
+  - ⟨0, ⟨0, 1⟩⟩ — esimese poolliitja summabitt, seejärel teise ülekanne ja summa.
+  - ⟨1, ⟨1, 1⟩⟩ — esimese poolliitja ülekanne, seejärel teise OR- ja XOR-bitid.
+explanation: >-
+  Esimene etapp arvutab half-adder⟨1,1⟩ = ⟨1, 0⟩ (ülekanne 1, summa 0)
+  ja salvestab sisendülekande, andes ⟨⟨1,0⟩, 1⟩. Teises etapis eraldab
+  O O H esimese ülekande (1), samal ajal kui O I H ▵ I H söödab teise
+  poolliitjasse ⟨0, 1⟩ — esimese summa ja sisendülekande —, mis annab
+  tulemuseks ⟨0, 1⟩, sest and(0,1)=0 ja xor(0,1)=1. Lõppetapp OR-ib seejärel
+  kaks ülekannet ja säilitab summa, tekitades ⟨1, 1⟩: kahendarvuna 3, nagu
+  oodatud.
+reviewed: false

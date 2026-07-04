@@ -1,0 +1,13 @@
+question: Mitu põhikombinaatorit on Simplicityl?
+answer: Üheksa (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Kolm (järjestikune kompositsioon, paralleelne kompositsioon, tingimuslik).
+  - Viis (ainult comp-, pair-, case-, take- ja drop-kombinaatorid).
+  - Kaksteist (üheksa põhikombinaatorit pluss kolm täiendavat laienduskombinaatorit).
+explanation: >-
+  Simplicityl on täpselt üheksa põhikombinaatorit. Kaks põhioperatsiooni (iden
+  ja unit), kolm kompositsioonimeetodit (comp, pair, case) ja neli
+  juurdepääsuoperaatorit (take, drop korrutiste jaoks, injl ja injr summade
+  jaoks). Nendest üheksast piisab mis tahes funktsiooni väljendamiseks
+  Simplicity tüüpide vahel.
+reviewed: false

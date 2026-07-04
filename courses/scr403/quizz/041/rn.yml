@@ -1,0 +1,16 @@
+question: Simplicity output ikoresha point NUMS idahinduka ya BIP-0341 nk'internal key yayo. Kubera iki key-spend bidashoboka mu buryo bwemejwe, kandi guhindura NUMS point random vyongerako iki?
+answer: Nta muntu azi discrete log ya NUMS point, rero nta key-path signature ishobora kubaho; guhindura random vyongerako ubuzima bwite gusa.
+wrong_answers:
+  - NUMS point iri hanze ya curve rero key-path signatures zirananirwa; guhindura random biyisubiza kuri curve.
+  - Private key ya NUMS point ni zero, consensus ikaba iyanka; guhindura random bikingira tweak ku side channels.
+  - Gutweak NUMS point bitanga key iri hanze y'urugero, bigatuma key-spend iba non-standard; guhindura random birinda address reuse.
+explanation: >-
+  Point NUMS ('Nothing-Up-My-Sleeve') ni point valid neza kuri curve yubatswe
+  ku buryo ata n'umwe azi private key ihuye na yo — discrete logarithm yayo
+  ntizwi. Kubera ko key-path spend isaba umukono wa Schnorr munsi ya internal
+  key, kandi uwo mukono ntushobora gukorwa ata private key, inzira ya key-spend
+  ntishobora gukoreshwa mu buryo bwemejwe kandi amahera ashobora kwimurwa gusa
+  biciye ku nzira ya script yashizwemwo commitment. Guhindura NUMS point random
+  nta co bihindura kuri ivyo; bihisha gusa ko key-spend yazimijwe, kugira ngo
+  output iboneke nk'iyindi output ya Taproot yose — inyungu y'ubuzima bwite.
+reviewed: false

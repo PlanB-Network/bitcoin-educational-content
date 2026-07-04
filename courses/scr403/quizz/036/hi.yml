@@ -1,0 +1,14 @@
+question: ⟨⟨1,1⟩,1⟩ (1+1+1) पर full-adder को trace करें। Stage two, O O H ▵ (O I H ▵ I H ⨾ half-adder), final stage को कौन-सा value देता है?
+answer: ⟨1, ⟨0, 1⟩⟩ — पहले half-adder का carry, फिर दूसरे का carry और sum।
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — पहले half-adder का carry, फिर दूसरे का sum और carry।
+  - ⟨0, ⟨0, 1⟩⟩ — पहले half-adder का sum bit, फिर दूसरे का carry और sum।
+  - ⟨1, ⟨1, 1⟩⟩ — पहले half-adder का carry, फिर दूसरे के OR और XOR bits।
+explanation: >-
+  Stage one half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) compute करता है और
+  carry-in save करता है, जिससे ⟨⟨1,0⟩, 1⟩ मिलता है। Stage two में, O O H पहला
+  carry (1) extract करता है, जबकि O I H ▵ I H ⟨0, 1⟩ — पहला sum और carry-
+  in — को दूसरे half-adder में feed करता है, जिससे ⟨0, 1⟩ मिलता है क्योंकि
+  and(0,1)=0 और xor(0,1)=1। Final stage फिर दोनों carries को OR करता है और sum
+  रखता है, जिससे ⟨1, 1⟩ मिलता है: binary 3, जैसा अपेक्षित है।
+reviewed: false

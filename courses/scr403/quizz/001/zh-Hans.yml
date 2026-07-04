@@ -1,0 +1,11 @@
+question: 当把操作 f（A → B）与操作 g（B → C）串联时，顺序组合会产生什么？
+answer: 一个从 A 到 C 的单一复合操作，其中 f 的输出会送入 g。
+wrong_answers:
+  - 一个包含类型 B 和 C 的两个中间输出的成对值。
+  - 一个根据输入在 f 和 g 之间选择的条件语句。
+  - 两个独立运行、彼此不共享数据的独立操作。
+explanation: >-
+  顺序组合将两个操作首尾相连。第一个操作的输出会成为第二个操作
+  的输入。在 Simplicity 中，这用 comp 组合子表示：comp f g 先应用 f，
+  然后把 g 应用于其结果。
+reviewed: false

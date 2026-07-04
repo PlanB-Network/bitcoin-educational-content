@@ -1,0 +1,15 @@
+question: push-<n tem o tipo Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Por que sua saída precisa ser uma soma que inclui o tipo de vetor completo Aⁿ?
+answer: Um buffer Aᑉⁿ contém no máximo n−1 itens, então fazer push em um buffer cheio produz n itens — só Aⁿ consegue representar isso.
+wrong_answers:
+  - A soma permite que os chamadores escolham a codificação mais barata, já que vetores serializam de forma mais compacta do que produtos de opções.
+  - Push pode falhar em um buffer vazio, e o ramo Aⁿ é o caso de erro que carrega o conteúdo antigo.
+  - case exige que qualquer função que consuma um buffer de tipo soma também produza uma saída de tipo soma.
+explanation: >-
+  Aᑉⁿ é exatamente o tipo de listas cujo comprimento é estritamente menor
+  que n, então um buffer na capacidade máxima contém n−1 elementos.
+  Empurrar mais um produz exatamente n elementos, que Aᑉⁿ não consegue
+  representar; o somando Aⁿ devolve esse resultado transbordado como um
+  vetor completo. Codificar o transbordamento no tipo de saída mantém
+  push-<n como uma função total em vez de parcial — o caso de falha de
+  buffer vazio pertence a pop-<n, não a push-<n.
+reviewed: false

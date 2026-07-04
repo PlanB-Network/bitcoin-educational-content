@@ -1,0 +1,13 @@
+question: Kako funkcioniše operacija logičkog I (AND) u Simplicity-ju?
+answer: Grana se na prvom bitu — ako je netačno vraća netačno, inače drugi bit.
+wrong_answers:
+  - Množi dve Bulove vrednosti zajedno koristeći proizvodni tip.
+  - Koristi tabelu za pretraživanje sa sve četiri moguće kombinacije ulaza.
+  - Primenjuje kombinator XOR a zatim kombinator NOT na rezultat.
+explanation: >-
+  AND je definisan kao case (injl unit) (drop iden). Kombinator case
+  se grana na prvom bitu. Ako je netačan (levo označen), injl unit
+  vraća netačno bez obzira na drugi bit. Ako je tačan (desno označen),
+  drop iden vraća drugi bit nepromenjen. Ovo odgovara tablici
+  istinitosti za AND.
+reviewed: false

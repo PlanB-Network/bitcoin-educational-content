@@ -1,0 +1,16 @@
+question: "Qual expressão de combinador central implementa a função de distribuição dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Dentro de cada ramo de case, o ambiente já está emparelhado com o
+  valor sem tag, então f = injl iden e g = injr iden dão ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ e ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — exatamente dist. A variante com
+  take/drop compila corretamente, mas descarta o emparelhamento, denotando
+  uma função do tipo (A + B) × C ⊢ A + C em vez disso. pair produz um
+  produto em vez de uma soma, e copair não é sequer um combinador de
+  Simplicity — dist é precisamente o que copair sozinho não consegue
+  expressar.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Miten Simplicityn pääsynotaatio (O, I, H) toimii?
+answer: O tarkoittaa 'take' (vasen), I tarkoittaa 'drop' (oikea) ja H tarkoittaa 'iden' (koko arvo).
+wrong_answers:
+  - O tarkoittaa outputia, I tarkoittaa inputia ja H pysäyttää ohjelman suorituksen.
+  - Ne ovat muuttujien nimiä, jotka kääntäjä määrittää arvoille automaattisesti.
+  - O valitsee parittomasti indeksoidut alkiot, I valitsee parillisesti indeksoidut alkiot, H valitsee pään.
+explanation: >-
+  O/I/H-lyhennemerkintä tarjoaa tiiviin tavan navigoida sisäkkäisissä pareissa.
+  O f on take f (poimi vasen), I f on drop f (poimi oikea) ja H on
+  iden (koko arvo). Sekvenssit kuten I O H tarkoittavat drop(take(iden)),
+  poimien toisen alkion ensimmäisen alkion. Tämä muistuttaa
+  De Bruijn -indeksejä, joissa binäärinumerot toimivat puun sijainteina.
+reviewed: false

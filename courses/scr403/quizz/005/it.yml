@@ -1,0 +1,11 @@
+question: Cosa fa il combinatore 'take'?
+answer: Estrae la componente sinistra di un prodotto, scartando quella destra.
+wrong_answers:
+  - Rimuove un elemento da un tipo somma, scartando il bit di tag.
+  - Compone sequenzialmente due operazioni separate da un capo all'altro.
+  - Racchiude un valore con un tag sinistro per costruire un nuovo tipo somma.
+explanation: >-
+  Il combinatore take è un estrattore per i tipi prodotto. Dato take f
+  applicato a una coppia ⟨a, b⟩, scarta b e applica f ad a. Combinato con
+  iden, take iden estrae il primo elemento di qualsiasi coppia.
+reviewed: false

@@ -1,0 +1,17 @@
+question: Simplicitys effekter er kommutative og idempotente, men ikke unitære. Hvilken optimalisatortransformasjon må derfor generelt avvises?
+answer: Å erstatte et tilsynelatende dødt uttrykk med unit — Failure er ikke unitær, så det kan skjule en feilende sjekk som må avbryte.
+wrong_answers:
+  - Å bytte om to uavhengige deluttrykk, siden en sig-all-hash kunne observere en annen miljøtilstand.
+  - Å slå sammen to identiske verify-kall, siden en duplisert Failure ville kaste to ganger og avbryte feil.
+  - Å omordne uttrykk som kan kaste, siden det propagerte unntaket avhenger av hvilken side som kjører først.
+explanation: >-
+  Fordi Simplicitys effekter er garantert kommutative og idempotente, er
+  det alltid trygt å bytte om uavhengige deluttrykk og å duplisere eller
+  slå sammen identiske uttrykk; Reader-miljøet er fast, og Failures
+  enhetstypede unntak er identisk uansett hvilken side som kaster først
+  eller hvor mange ganger. Forkastningstransformasjonen `f ⨾ unit = unit`
+  krever derimot unitæritet, som Failure mangler: hvis `f` inneholder en
+  `bip0340-verify` på en ugyldig signatur, ville eliminering av den
+  'døde' koden optimalisere bort avbruddet og validere en transaksjon som
+  burde ha feilet.
+reviewed: false

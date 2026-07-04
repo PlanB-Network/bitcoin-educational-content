@@ -1,0 +1,17 @@
+question: No momento do gasto, um ramo de case é removido. Como o verificador ainda consegue corresponder o programa revelado ao CMR comprometido?
+answer: O CMR é uma raiz de Merkle, então o gastador fornece apenas o CMR do ramo removido e o verificador o incorpora para recalcular a raiz.
+wrong_answers:
+  - O verificador usa apenas o ramo executado, já que ramos de case não executados nunca estiveram no CMR.
+  - Ramos removidos se tornam um placeholder canônico cujo CMR fixo entra no lugar ao recalcular a raiz.
+  - O código completo do ramo removido permanece na testemunha, onde o verificador o faz hash mas não o executa.
+explanation: >-
+  O CMR de case f g é um hash com tag sobre os CMRs de ambos os filhos,
+  então todo ramo — executado ou não — é comprometido no momento de
+  endereçamento. Como a construção é uma árvore de Merkle, um ramo
+  removido pode ser resumido apenas pelo seu CMR de 32 bytes: o verificador
+  insere esse hash no cálculo recursivo e verifica se a raiz corresponde ao
+  compromisso do UTXO, sem nunca ver o código removido. É exatamente por
+  isso que uma raiz de Merkle é usada para o compromisso, e por que
+  quaisquer expressões de testemunha dentro do ramo removido nunca aparecem
+  on-chain.
+reviewed: false

@@ -1,0 +1,15 @@
+question: effects ของ Simplicity เป็น commutative และ idempotent แต่ไม่ unitary ดังนั้นการแปลง optimizer แบบใดต้องถูกปฏิเสธโดยทั่วไป?
+answer: การแทนนิพจน์ที่ดูเหมือนตายแล้วด้วย unit — Failure ไม่ใช่ unitary ดังนั้นมันอาจซ่อนการตรวจสอบที่ล้มเหลวซึ่งต้อง abort
+wrong_answers:
+  - การสลับนิพจน์ย่อยอิสระสองตัว เพราะ sig-all-hash อาจสังเกตเห็นสถานะสภาพแวดล้อมที่ต่างออกไป
+  - การรวม verify calls ที่เหมือนกันสองตัว เพราะ Failure ที่ถูก duplicated จะ throw สองครั้งและ abort ผิดพลาด
+  - การ reorder นิพจน์ที่อาจ throw เพราะ exception ที่ propagate ขึ้นอยู่กับว่าฝั่งใดรันก่อน
+explanation: >-
+  เพราะ effects ของ Simplicity รับประกันว่า commutative และ idempotent,
+  การสลับนิพจน์ย่อยที่เป็นอิสระ และการ duplicate หรือ merge นิพจน์ที่เหมือนกัน
+  จึงปลอดภัยเสมอ; สภาพแวดล้อม Reader คงที่ และ exception ชนิด unit ของ Failure
+  เหมือนกันไม่ว่าฝั่งใดจะ throw ก่อนหรือกี่ครั้งก็ตาม อย่างไรก็ตาม การแปลงแบบ discard
+  `f ⨾ unit = unit` ต้องการ unitarity ซึ่ง Failure ไม่มี: ถ้า `f` มี
+  `bip0340-verify` บน signature ที่ไม่ถูกต้อง การลบโค้ด 'dead' นี้
+  จะ optimize การ abort ทิ้งไป และ validate ธุรกรรมที่ควรล้มเหลว
+reviewed: false

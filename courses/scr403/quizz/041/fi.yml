@@ -1,0 +1,17 @@
+question: Simplicity-tuloste käyttää kiinteää BIP-0341-NUMS-pistettä sisäisenä avaimenaan. Miksi avainpolkukulutus on todistettavasti mahdotonta, ja mitä NUMS-pisteen satunnaistaminen tuo lisää?
+answer: Kukaan ei tunne NUMS-pisteen diskreettiä logaritmia, joten mitään avainpolun allekirjoitusta ei voi olla olemassa; satunnaistaminen lisää vain yksityisyyttä.
+wrong_answers:
+  - NUMS-piste on käyrän ulkopuolella, joten avainpolun allekirjoitukset epäonnistuvat; satunnaistaminen tuo sen takaisin käyrälle.
+  - NUMS-pisteen yksityinen avain on nolla, jonka konsensus hylkää; satunnaistaminen suojaa tweakin sivukanavilta.
+  - NUMS-pisteen tweakkaus tuottaa arvoalueen ulkopuolisen avaimen, mikä tekee avainpolkukulutuksesta epästandardin; satunnaistaminen välttää osoitteen uudelleenkäytön.
+explanation: >-
+  NUMS-piste ('Nothing-Up-My-Sleeve') on täysin kelvollinen käyräpiste, joka
+  on rakennettu niin, ettei kukaan tunne vastaavaa yksityistä avainta — sen
+  diskreetti logaritmi on tuntematon. Koska avainpolkukulutus vaatii
+  Schnorr-allekirjoituksen sisäisen avaimen alla, eikä tällaista
+  allekirjoitusta voi tuottaa ilman yksityistä avainta, avainpolku on
+  todistettavasti käyttökelvoton ja varat voivat liikkua vain sidotun
+  skriptipolun kautta. NUMS-pisteen satunnaistaminen ei muuta tästä mitään; se
+  vain kätkee sen, että avainpolkukulutus on poistettu käytöstä, joten tuloste
+  näyttää miltä tahansa muulta Taproot-tulosteelta — yksityisyyshyöty.
+reviewed: false

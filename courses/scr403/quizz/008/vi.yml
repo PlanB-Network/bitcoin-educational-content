@@ -1,0 +1,12 @@
+question: Phép AND logic hoạt động như thế nào trong Simplicity?
+answer: Nó rẽ nhánh trên bit đầu tiên — nếu false thì trả về false, nếu không thì trả về bit thứ hai.
+wrong_answers:
+  - Nó nhân hai giá trị Boolean với nhau bằng kiểu tích.
+  - Nó dùng một bảng tra cứu với cả bốn tổ hợp đầu vào khả dĩ.
+  - Nó áp dụng combinator XOR rồi áp dụng combinator NOT cho kết quả.
+explanation: >-
+  AND được định nghĩa là case (injl unit) (drop iden). Combinator case
+  rẽ nhánh trên bit đầu tiên. Nếu nó là false (gắn tag trái), injl unit
+  trả về false bất kể bit thứ hai. Nếu nó là true (gắn tag phải),
+  drop iden trả về bit thứ hai không đổi. Điều này khớp với bảng chân trị AND.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Nadharia ya ukamilifu huhakikisha nini kuhusu Simplicity?
+answer: Kwamba function yoyote kati ya aina mbili za Simplicity inaweza kujengwa kutoka kwa combinator tisa.
+wrong_answers:
+  - Kwamba programu za Simplicity zinahakikishwa kumalizika kila mara kwa muda wa kudumu.
+  - Kwamba Simplicity ni Turing-complete na inaweza kuiga mashine yoyote ya Turing kabisa.
+  - Kwamba kila programu halali ya Simplicity ina uwakilishi mmoja tu wa kipekee.
+explanation: >-
+  Nadharia ya ukamilifu huthibitisha kwamba kwa function yoyote kati ya
+  aina finyu za Simplicity, kuna expression ya Simplicity inayoihesabu.
+  Uthibitisho wa kujenga huunda jedwali la kutazama kwa kutumia expressions
+  za case zilizowekwa ndani na scribe. Hili limethibitishwa rasmi katika
+  proof assistant ya Rocq.
+reviewed: false

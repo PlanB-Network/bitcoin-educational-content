@@ -1,0 +1,13 @@
+question: De ce Simplicity exclude alocarea dinamică de memorie în timpul execuției?
+answer: Pentru a permite analiza statică și a elimina întregi clase de bug-uri și atacuri.
+wrong_answers:
+  - Deoarece rețeaua Liquid nu suportă operații de memorie de nivel scăzut.
+  - Pentru a reduce curba de învățare a programării pentru dezvoltatorii noi de contracte inteligente.
+  - Deoarece Bitcoin Script în sine nu are nicio alocare dinamică de memorie.
+explanation: >-
+  Simplicity evită alocarea dinamică de memorie astfel încât toată utilizarea
+  resurselor să poată fi determinată static înainte de execuție. Acest lucru
+  permite limite de resurse predictibile și elimină vulnerabilitățile legate
+  de gestionarea memoriei, ceea ce este esențial într-un context de validare
+  blockchain.
+reviewed: false

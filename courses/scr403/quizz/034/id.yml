@@ -1,0 +1,14 @@
+question: Full-adder meng-OR-kan bit carry dari kedua half-adder-nya alih-alih meng-XOR-kannya. Mengapa OR sudah benar?
+answer: Paling banyak satu half-adder bisa carry untuk masukan apa pun, sehingga OR menggabungkan dua kasus yang saling eksklusif secara tepat.
+wrong_answers:
+  - Kedua bit carry harus dijumlahkan, dan OR adalah cara penjumlahan biner satu-bit dilakukan di Simplicity.
+  - Setelah percabangan, OR adalah satu-satunya operator Boolean yang tipenya masih cocok dengan environment.
+  - OR meng-over-approximate carry; carry yang berlebih dibuang oleh proyeksi akhir setelahnya.
+explanation: >-
+  Jika half-adder pertama carry, kedua bit masukannya bernilai 1, sehingga
+  bit sum-nya 0 — dan half-adder yang menerima 0 tidak pernah bisa carry.
+  Kedua bit carry karenanya tidak pernah bernilai 1 secara bersamaan, dan
+  OR menggabungkannya secara tepat (pada masukan yang tercapai, OR bahkan
+  bertepatan dengan XOR). Eksklusivitas timbal balik inilah yang membuat
+  dekomposisi full-adder menjadi dua half-adder menjadi benar.
+reviewed: false

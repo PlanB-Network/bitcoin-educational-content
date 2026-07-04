@@ -1,0 +1,16 @@
+question: completeness proof එක ඕනෑම function එකක් build කරන්නේ input එක decompose කිරීමට case nest කරමින්, සහ එක් එක් output එක සඳහා scribe භාවිත කරමින් ය. එය සෛද්ධාන්තික tool එකක් පමණක් වන්නේ ඇයි?
+answer: එම expression එක, size එක exponential ලෙස වර්ධනය වන දැවැන්ත lookup table එකකි — 256-bit input එකකට 2²⁵⁶ entries පමණ අවශ්‍ය වනු ඇත.
+wrong_answers:
+  - scribe macro එකක් මිස core combinator එකක් නොවන නිසා, expression එක formally verified language එකෙන් පිටතට යයි.
+  - expression එක sharing හරහා compact ලෙස පවතින නමුත්, Bit Machine එක එය exponential time තුළ evaluate කරයි.
+  - Nested case ට decompose කළ හැක්කේ sum types පමණක් නිසා, product-typed input ඕනෑම එකක construction එක fail වේ.
+explanation: >-
+  construction එක nested case decomposition හරහා හැකි සෑම input එකක්ම enumerate කර
+  scribe මඟින් එක් එක් output එක hard-code කරයි, එබැවින් expression size
+  exponential ලෙස explode වේ — 256-bit
+  words වැනි realistic types සඳහා astronomical. blowup එක තිබෙන්නේ expression එකේ size එක තුළයි, otherwise-
+  compact expression එකක runtime තුළ නොවේ. scribe genuine core
+  combinators (unit, injl, injr, pair) බවට expand වන නිසා, result එක
+  Rocq තුළ formally verified වූ completeness theorem ඇති core language එක තුළම පවතී;
+  සහ decomposition එක products ඇතුළුව ඕනෑම type එකක inputs handle කරයි.
+reviewed: false

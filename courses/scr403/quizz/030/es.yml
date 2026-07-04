@@ -1,0 +1,15 @@
+question: "¿Qué expresión de combinadores núcleo implementa la función de distribución dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Dentro de cada rama de case, el entorno ya está emparejado con el
+  valor sin etiquetar, de modo que f = injl iden y g = injr iden dan ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ y ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — exactamente dist. La variante con
+  take/drop tipa correctamente pero descarta el emparejamiento, denotando una función de tipo (A +
+  B) × C ⊢ A + C en su lugar. pair produce un producto en lugar de una suma, y
+  copair no es en absoluto un combinador de Simplicity — dist es precisamente lo que
+  copair por sí solo no puede expresar.
+reviewed: false

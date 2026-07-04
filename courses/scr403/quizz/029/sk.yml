@@ -1,0 +1,15 @@
+question: Simplicity vylučuje neohraničenú rekurziu. Aká je jej zamýšľaná náhrada za neohraničenú iteráciu?
+answer: Rekurzívne covenanty, ktoré rozprestierajú výpočet naprieč viacerými transakciami, čím udržiavajú náklady každej transakcie predvídateľné.
+wrong_answers:
+  - Funkcia delegácie, účelovo navrhnutá na poskytnutie meranej formy neohraničenej rekurzie v rámci jedinej transakcie.
+  - Deväť základných kombinátorov, ktorých úplnosť umožňuje konštrukcii pevného bodu zakódovať ľubovoľnú rekurzívnu funkciu.
+  - Rozvinutie cyklu počas kompilácie, pri ktorom statická analýza odvodí maximálny počet iterácií a zduplikuje telo.
+explanation: >-
+  Téza článku je, že neohraničená iterácia sa lepšie implementuje
+  ako rekurzívne covenanty počítajúce naprieč viacerými transakciami, čo
+  sa vyhýba obmedzeniam priestoru v bloku a štandardnosti a robí náklady
+  transakcií predvídateľnými. Delegáciu možno len zneužiť na vytvorenie niečoho,
+  čo pripomína neohraničenú rekurziu — nie je to zamýšľaný mechanizmus — a
+  deväť základných kombinátorov je úplných iba pre konečné výpočty, takže
+  v rámci jedného programu neexistuje žiadna konštrukcia pevného bodu.
+reviewed: false

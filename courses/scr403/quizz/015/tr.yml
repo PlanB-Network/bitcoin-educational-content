@@ -1,0 +1,13 @@
+question: "'case' kombinatörü imzasında neden ortak ortam türü C içerir?"
+answer: Böylece iki dal da etiketli girdinin yanında paylaşılan bağlam verilerini okuyabilir.
+wrong_answers:
+  - Girdinin boyutunu sınırlayarak yığın taşmalarını önlemek için.
+  - İki dal arasında ileri geri özyinelemeli çağrıları mümkün kılmak için.
+  - Zincirde daha önceki kombinatörün çıktısını depolamak için.
+explanation: >-
+  case kombinatörünün imzası (A + B) × C ⊢ D şeklindedir. Ek C türü,
+  hem sol dalın (f : A × C ⊢ D) hem de sağ dalın (g : B × C ⊢ D)
+  erişebileceği ortak bir ortam görevi görür. Bu, basit bir if-then-else
+  yapısından daha güçlüdür çünkü dallar hem kendilerine özgü verileri hem de
+  hesaplama için gereken bağlamsal bilgileri alır.
+reviewed: false

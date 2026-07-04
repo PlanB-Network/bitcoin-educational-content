@@ -1,0 +1,15 @@
+question: "Hvilket kjerne-kombinator-uttrykk implementerer distribusjonsfunksjonen dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Inne i hver gren av case er miljøet allerede paret med den utaggede
+  verdien, så f = injl iden og g = injr iden gir ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ og ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — nøyaktig dist. Take/drop-varianten
+  typesjekker, men forkaster paringen, og angir i stedet en funksjon av typen
+  (A + B) × C ⊢ A + C. pair produserer et produkt i stedet for en sum, og
+  copair er ikke en Simplicity-kombinator i det hele tatt — dist er nettopp
+  det copair alene ikke kan uttrykke.
+reviewed: false

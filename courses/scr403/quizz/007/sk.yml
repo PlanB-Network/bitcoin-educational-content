@@ -1,0 +1,13 @@
+question: Ako je definovaný logický typ (𝟚) v Simplicity?
+answer: Ako súčtový typ 𝟙 + 𝟙, ktorý obsahuje presne dve hodnoty (false a true).
+wrong_answers:
+  - Ako súčinový typ 𝟙 × 𝟙, ktorý by potom obsahoval len jednu hodnotu.
+  - Ako špeciálny primitívny typ zabudovaný priamo do jazyka.
+  - Ako 32-bitový celočíselný typ obmedzený len na hodnoty 0 a 1.
+explanation: >-
+  Logický typ 𝟚 je definovaný ako 𝟙 + 𝟙, súčet dvoch jednotkových typov.
+  Ľavo označená hodnota σᴸ⟨⟩ predstavuje false (0) a pravo označená hodnota
+  σᴿ⟨⟩ predstavuje true (1). Ide o jednobitový dátový typ vytvorený len
+  z jednotkového typu a konštruktora súčtového typu — konštruktor súčinu
+  nie je potrebný.
+reviewed: false

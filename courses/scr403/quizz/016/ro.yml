@@ -1,0 +1,13 @@
+question: Care este relația dintre Simplicity și calculul secvenților al lui Gentzen?
+answer: Cei nouă combinatori ai săi oglindesc fragmentul conjunctiv-disjunctiv al calculului secvenților.
+wrong_answers:
+  - Simplicity a fost tradus direct din demonstrații ale calculului secvenților în cod funcțional.
+  - Calculul secvenților al lui Gentzen este folosit la runtime pentru a verifica tipurile programelor Simplicity.
+  - Sunt complet nelegate, iar asemănarea de suprafață este pur coincidentală.
+explanation: >-
+  Cele nouă reguli de bază ale Simplicity seamănă îndeaproape cu reguli din
+  calculul secvenților al lui Gentzen, analog corespondenței Curry-Howard
+  dintre calculul lambda și deducția naturală. Această legătură asigură că
+  tipurile din premise sunt mai mici decât cele din concluzii, lucru pe care
+  Bit Machine îl exploatează pentru execuție eficientă cu copiere minimă de date.
+reviewed: false

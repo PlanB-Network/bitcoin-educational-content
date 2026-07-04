@@ -1,0 +1,12 @@
+question: Vad är en summatyp (A + B) i Simplicity?
+answer: "En taggad union: ett värde är antingen en vänstertaggad A eller en högertaggad B."
+wrong_answers:
+  - En typ som innehåller alla värden från både A och B samtidigt.
+  - En aritmetisk addition av de två komponenttypernas bitstorlekar.
+  - En funktionstyp som mappar varje indata från A till en utdata i B.
+explanation: >-
+  En summatyp A + B är en taggad union. Varje värde bär en enbitstagg
+  som anger om det är en vänstervariant (av typ A) eller en
+  högervariant (av typ B). Även när A och B är samma typ förblir
+  vänstertaggade och högertaggade värden distinkta.
+reviewed: false

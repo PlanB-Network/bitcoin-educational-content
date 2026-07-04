@@ -1,0 +1,11 @@
+question: "Apa tipe dari sebuah program Simplicity?"
+answer: 1 ⊢ 1 (unit ke unit) — tidak ada input atau output yang bermakna; side effect yang menangani I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — mengambil data transaksi dan mengembalikan boolean validitas.
+  - 2^256 ⊢ 2^256 — mengambil input hash dan mengembalikan nilai output hash baru.
+  - Tipe apa pun A ⊢ B — program bisa memiliki tipe input dan output yang sepenuhnya arbitrer.
+explanation: >-
+  Program Simplicity didefinisikan sebagai ekspresi bertipe 1 ⊢ 1. Efek Reader menangkap
+  input lingkungan transaksi, sementara efek Failure menentukan keberhasilan atau kegagalan.
+  Side effect ini menangani semua I/O, bukan tipe-tipe Simplicity itu sendiri.
+reviewed: true

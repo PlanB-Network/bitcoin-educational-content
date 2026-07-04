@@ -1,0 +1,13 @@
+question: Was berechnet ein Halbaddierer?
+answer: Den Übertrag (AND) und die Summe (XOR) zweier Eingabebits.
+wrong_answers:
+  - Die Summe zweier mehrstelliger Ganzzahlen mit Übertragsweiterleitung.
+  - Den auf ganze Zahlen abgerundeten Durchschnitt zweier Bits.
+  - Das bitweise OR und AND zweier Eingabebits.
+explanation: >-
+  Ein Halbaddierer nimmt zwei einzelne Bits und erzeugt zwei Ausgaben
+  mittels paralleler Komposition: das Übertragsbit (AND der Eingaben) und
+  das Summenbit (XOR der Eingaben). In Simplicity ist er als and ▵ xor
+  definiert, wobei beide Operationen auf demselben Eingabepaar ausgeführt
+  werden.
+reviewed: false

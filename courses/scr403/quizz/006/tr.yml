@@ -1,0 +1,13 @@
+question: Simplicity'nin kaç çekirdek kombinatörü vardır?
+answer: Dokuz (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Üç (ardışık bileşim, paralel bileşim, koşul).
+  - Beş (yalnızca comp, pair, case, take ve drop kombinatörleri).
+  - On iki (dokuz çekirdeğe ek olarak üç ekstra uzantı kombinatörü).
+explanation: >-
+  Simplicity'nin tam olarak dokuz çekirdek kombinatörü vardır. İki temel
+  işlem (iden ve unit), üç bileşim yöntemi (comp, pair, case) ve dört
+  erişici (çarpımlar için take, drop; toplamlar için injl ve injr). Bu
+  dokuz kombinatör, Simplicity türleri arasındaki herhangi bir fonksiyonu
+  ifade etmek için yeterlidir.
+reviewed: false

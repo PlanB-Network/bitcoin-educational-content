@@ -1,0 +1,14 @@
+question: Waarom worden Simplicity-expressies geserialiseerd als DAG's in plaats van bomen?
+answer: Om exponentiële groei te voorkomen, aangezien gedeelde subexpressies slechts één keer worden opgeslagen.
+wrong_answers:
+  - Omdat gewone boomstructuren helemaal geen voorwaardelijke vertakking kunnen weergeven.
+  - Om parallelle uitvoering op veel afzonderlijke multi-coreprocessors mogelijk te maken.
+  - Omdat het Liquid Network-protocol het DAG-formaat hier strikt voorschrijft.
+explanation: >-
+  Simplicity-expressies vormen van nature bomen die exponentieel zouden
+  kunnen groeien naarmate de complexiteit toeneemt. Door serialisatie als
+  directed acyclic graphs (DAG's) worden subexpressies die meerdere keren
+  voorkomen, één keer opgeslagen en door meerdere ouders gerefereerd. Dit
+  zorgt ervoor dat de daadwerkelijke programmagrootte lineair groeit in
+  plaats van exponentieel.
+reviewed: false

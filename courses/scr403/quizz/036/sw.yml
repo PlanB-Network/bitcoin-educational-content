@@ -1,0 +1,14 @@
+question: Kwa kuzingatia kanuni za uainishaji za 'aina ndogo katika masharti tangulizi', ni core combinators zipi kwa kweli huhamisha data wakati wa utekelezaji?
+answer: iden na comp pekee; zile nyingine saba hutekelezwa kwa bookkeeping tu.
+wrong_answers:
+  - take na drop pekee; kuchomoa kipengele kimoja hulazimisha mashine kukinakili kutoka kwenye zao.
+  - pair na case pekee; kurudufu ingizo kwa matawi mawili na dispatching kwenye tag huchanganya data.
+  - injl na injr pekee; kuongeza tag huandika upya thamani kuwa uwakilishi mkubwa wa aina-jumla.
+explanation: >-
+  Kinyume na matarajio, combinators zinazoonekana kama ufikiaji wa data (take,
+  drop, pair, case, injl, injr) hazihitaji kunakili: kwa sababu masharti tangulizi katika
+  kanuni za uainishaji huhusisha aina ndogo kuliko hitimisho zake, Bit
+  Machine inaweza kuzitekeleza kwa bookkeeping pekee. iden tu, ambayo
+  hunakili ingizo lake lote kwenda kwenye pato lake, na comp, ambayo humaterialize
+  thamani ya kati inayopitishwa kutoka f kwenda g, ndizo huhamisha data kweli.
+reviewed: false

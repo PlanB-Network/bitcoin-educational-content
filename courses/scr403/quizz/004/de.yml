@@ -1,0 +1,12 @@
+question: Wie viele Kern-Kombinatoren hat Simplicity?
+answer: Neun (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Drei (sequentielle Komposition, parallele Komposition, Bedingung).
+  - Fünf (nur die Kombinatoren comp, pair, case, take und drop).
+  - Zwölf (die neun Kern-Kombinatoren plus drei zusätzliche Erweiterungs-Kombinatoren).
+explanation: >-
+  Simplicity hat genau neun Kern-Kombinatoren. Zwei Grundoperationen (iden
+  und unit), drei Kompositionsmethoden (comp, pair, case) und vier Zugriffs-
+  Kombinatoren (take, drop für Produkte, injl und injr für Summen). Diese
+  neun genügen, um jede Funktion zwischen Simplicity-Typen auszudrücken.
+reviewed: false

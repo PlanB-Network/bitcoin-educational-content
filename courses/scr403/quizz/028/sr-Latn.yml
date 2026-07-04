@@ -1,0 +1,16 @@
+question: U kom smislu je uslovna kompozicija dual paralelne kompozicije?
+answer: Paralelna daje obema operacijama jedan ulaz i uparuje njihove izlaze (proizvod); uslovna uzima sumu ulaza, a obe grane dele jedan izlazni tip.
+wrong_answers:
+  - Paralelna mora da izvršava svoje dve operacije istovremeno; uslovna ih izvršava sekvencijalno i vraća samo granu koju oznaka izabere.
+  - Obe se izvršavaju na jednom deljenom ulazu; paralelna zadržava par izlaza, dok uslovna izvršava obe grane i odbacuje neizabranu.
+  - Paralelna unapred duplira svoj ulaz, dok uslovna naknadno duplira svoj izlaz, zamenjujući mesto na kome se dešava kopiranje.
+explanation: >-
+  Dualnost je razmena proizvod/suma pri čemu deljeni tip menja
+  strane: paralelna kompozicija daje obema operacijama isti ulazni tip
+  i uparuje njihove izlaze u proizvod, dok uslovna kompozicija
+  uzima sumu (označenu uniju) dvaju ulaznih tipova, a obe grane moraju
+  dati isti izlazni tip. Istovremenost je nebitna — članak
+  naglašava da paralelna kompozicija može biti implementirana sekvencijalno — a
+  uslovna kompozicija izvršava tačno jednu granu, izabranu oznakom,
+  umesto da izvršava obe i jednu odbacuje.
+reviewed: false

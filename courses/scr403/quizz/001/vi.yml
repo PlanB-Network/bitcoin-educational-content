@@ -1,0 +1,12 @@
+question: Hợp thành tuần tự tạo ra gì khi nối thao tác f (A → B) với thao tác g (B → C)?
+answer: Một thao tác hợp thành duy nhất từ A đến C, với đầu ra của f được đưa vào g.
+wrong_answers:
+  - Một giá trị cặp chứa cả hai đầu ra trung gian thuộc kiểu B và C.
+  - Một điều kiện chọn giữa f và g dựa trên đầu vào.
+  - Hai thao tác riêng biệt chạy độc lập, không chia sẻ dữ liệu.
+explanation: >-
+  Hợp thành tuần tự nối hai thao tác đầu-cuối với nhau. Đầu ra của thao tác
+  thứ nhất trở thành đầu vào của thao tác thứ hai. Trong Simplicity, điều này
+  được biểu diễn bằng combinator comp: comp f g áp dụng f trước, rồi áp dụng
+  g cho kết quả.
+reviewed: false

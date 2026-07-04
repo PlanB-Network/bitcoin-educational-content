@@ -1,0 +1,16 @@
+question: Simplicity efektid on kommutatiivsed ja idempotentsed, kuid mitte unitaarsed. Millisest optimeerija teisendusest tuleb seetõttu üldiselt keelduda?
+answer: Näiliselt surnud avaldise asendamisest unit-iga — Failure ei ole unitaarne, seega võiks see peita ebaõnnestuva kontrolli, mis peab katkestama.
+wrong_answers:
+  - Kahe sõltumatu alamavaldise vahetamisest, sest sig-all-hash võiks märgata erinevat keskkonna olekut.
+  - Kahe identse verify-kutse ühendamisest, sest dubleeritud Failure viskaks kaks korda ja katkestaks valesti.
+  - Avaldiste ümberjärjestamisest, mis võivad visata, sest leviv erind sõltub sellest, kumb pool esimesena käivitub.
+explanation: >-
+  Kuna Simplicity efektid on garanteeritult kommutatiivsed ja idempotentsed,
+  on sõltumatute alamavaldiste vahetamine ning identsete avaldiste dubleerimine
+  või ühendamine alati ohutu; Readeri keskkond on fikseeritud ja Failure'i
+  ühiktüüpi erind on sama olenemata sellest, kumb pool esimesena viskab või
+  mitu korda. Kõrvalejätmise teisendus `f ⨾ unit = unit` nõuab aga unitaarsust,
+  mida Failure'il ei ole: kui `f` sisaldab `bip0340-verify`-d kehtetu allkirja
+  peal, optimeeriks 'surnud' koodi eemaldamine katkestuse ära ja valideeriks
+  tehingu, mis peaks ebaõnnestuma.
+reviewed: false

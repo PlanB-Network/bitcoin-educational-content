@@ -1,0 +1,15 @@
+question: "Quale espressione di core-combinator implementa la funzione di distribuzione dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  All'interno di ogni ramo di case, l'ambiente è già accoppiato con il
+  valore non taggato, quindi f = injl iden e g = injr iden danno ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ e ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — esattamente dist. La variante con
+  take/drop passa il type-check ma scarta l'accoppiamento, denotando una
+  funzione di tipo (A + B) × C ⊢ A + C. pair produce un prodotto anziché
+  una somma, e copair non è affatto un combinatore Simplicity — dist è
+  esattamente ciò che copair da solo non può esprimere.
+reviewed: false

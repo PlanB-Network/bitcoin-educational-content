@@ -1,0 +1,12 @@
+question: Co dzieje się z wejściem w kompozycji równoległej?
+answer: Obie operacje otrzymują to samo wejście, a ich wyjścia tworzą iloczyn (parę).
+wrong_answers:
+  - Wejście jest dzielone na pół, a każda operacja otrzymuje jedną oddzielną część.
+  - Jedna operacja przetwarza wejście jako pierwsza, a druga otrzymuje zmodyfikowany wynik.
+  - Wejście jest oznaczane tagiem i kierowane tylko do jednej z dwóch operacji do przetworzenia.
+explanation: >-
+  Kompozycja równoległa przekazuje to samo niezmodyfikowane wejście obu operacjom
+  jednocześnie. Wyniki są łączone w typ iloczynu (parę). W Simplicity używa
+  do tego kombinatora pair, zapisywanego f ▵ g, który wytwarza
+  ⟨f(a), g(a)⟩ dla wejścia a.
+reviewed: false

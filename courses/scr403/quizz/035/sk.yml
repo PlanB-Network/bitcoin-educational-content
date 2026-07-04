@@ -1,0 +1,14 @@
+question: Vystopujte úplnú sčítačku na ⟨⟨1,1⟩,1⟩ (1+1+1). Akú hodnotu odovzdá fáza dva, O O H ▵ (O I H ▵ I H ⨾ half-adder), záverečnej fáze?
+answer: ⟨1, ⟨0, 1⟩⟩ — prenos prvej polovičnej sčítačky, potom prenos a súčet druhej.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — prenos prvej polovičnej sčítačky, potom súčet a prenos druhej.
+  - ⟨0, ⟨0, 1⟩⟩ — súčtový bit prvej polovičnej sčítačky, potom prenos a súčet druhej.
+  - ⟨1, ⟨1, 1⟩⟩ — prenos prvej polovičnej sčítačky, potom bity OR a XOR druhej.
+explanation: >-
+  Fáza jedna vypočíta half-adder⟨1,1⟩ = ⟨1, 0⟩ (prenos 1, súčet 0) a uloží
+  vstupný prenos, čím dáva ⟨⟨1,0⟩, 1⟩. Vo fáze dva O O H extrahuje prvý
+  prenos (1), zatiaľ čo O I H ▵ I H privádza ⟨0, 1⟩ — prvý súčet a vstupný
+  prenos — do druhej polovičnej sčítačky, čím dáva ⟨0, 1⟩, keďže and(0,1)=0
+  a xor(0,1)=1. Záverečná fáza potom vykoná OR na oboch prenosoch a ponechá
+  súčet, čím produkuje ⟨1, 1⟩: binárne 3, ako sa očakávalo.
+reviewed: false

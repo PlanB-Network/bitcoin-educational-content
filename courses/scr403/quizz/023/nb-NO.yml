@@ -1,0 +1,13 @@
+question: "Hvorfor bruker sig-all-hash Reader-effekten i stedet for å ta transaksjonsdataene som en typet inndata?"
+answer: Slik at jeten kan bruke PrecomputedTransactionData og kjøre i konstant tid på et fast miljø.
+wrong_answers:
+  - Fordi Simplicitys typesystem grunnleggende sett ikke kan representere transaksjonsdata som en type.
+  - Fordi Reader-effekten er raskere enn å sende disse dataene gjennom kombinatortreet.
+  - Fordi transaksjonsdata er altfor store til å passe inn i Simplicitys typesystem med fast størrelse.
+explanation: >-
+  Hvis sig-all-hash tok imot en TxEnv-inndatatype, kunne programmer sende inn modifiserte kopier
+  av transaksjonsdata til jeten, noe som ville hindre den i å bruke forhåndsberegnede hasher. Med
+  Reader-effekten får jeten kun tilgang til et fast, uforanderlig transaksjonsmiljø, slik at
+  implementasjonen trygt kan bruke PrecomputedTransactionData og kjøre i konstant tid per
+  signatursjekk, og dermed unngå det kvadratiske hashing-problemet som plaget tidlig Bitcoin Script.
+reviewed: true

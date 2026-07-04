@@ -1,0 +1,13 @@
+question: Aina ya pair (drop iden) (take iden) ni ipi, na inaashiria kazi gani?
+answer: A × B ⊢ B × A — hubadilisha nafasi za vipengele viwili vya jozi.
+wrong_answers:
+  - A × B ⊢ A × B — hupitisha vipengele vyote viwili bila kuvibadilisha (identity).
+  - "Aina si sahihi: take iden na drop iden zina aina tofauti za pato, ambazo pair haiwezi kuziunganisha."
+  - (A × B) × (A × B) ⊢ B × A — pair huunganisha aina za ingizo za subexpressions zake mbili.
+explanation: >-
+  drop iden : A × B ⊢ B huchomoa kipengele cha pili na take iden : A ×
+  B ⊢ A huchomoa cha kwanza. Combinator ya pair huhitaji tu kwamba
+  subexpressions zake mbili zishiriki aina ileile ya ingizo (hapa A × B); matokeo yake yanaweza
+  kutofautiana, na hurejeshwa kama jozi. Kwenye ingizo ⟨a, b⟩ usemi huo
+  kwa hiyo hutoa ⟨b, a⟩: kazi ya kubadilisha nafasi, ya aina A × B ⊢ B × A.
+reviewed: false

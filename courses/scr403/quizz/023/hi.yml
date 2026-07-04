@@ -1,0 +1,14 @@
+question: "sig-all-hash, transaction data को typed input के रूप में लेने के बजाय Reader इफेक्ट का उपयोग क्यों करता है?"
+answer: ताकि jet, PrecomputedTransactionData का उपयोग कर सके और एक fixed environment पर constant time में चले।
+wrong_answers:
+  - क्योंकि Simplicity का type system मूल रूप से transaction data को एक type के रूप में represent नहीं कर सकता।
+  - क्योंकि उस data को combinator tree से पास करने की तुलना में Reader इफेक्ट तेज़ है।
+  - क्योंकि transaction data इतना बड़ा है कि Simplicity के fixed-size type system में fit नहीं हो सकता।
+explanation: >-
+  यदि sig-all-hash कोई TxEnv input type लेता, तो programs jet को transaction data की
+  modified copies पास कर सकते थे, जिससे वह precomputed hashes का उपयोग नहीं कर पाता।
+  Reader इफेक्ट के साथ, jet केवल एक fixed, immutable transaction environment को access
+  करता है, इसलिए इसका implementation सुरक्षित रूप से PrecomputedTransactionData का
+  उपयोग कर सकता है और प्रति signature check constant time में चल सकता है, जिससे वह
+  quadratic hashing समस्या टल जाती है जो शुरुआती Bitcoin Script को परेशान करती थी।
+reviewed: true

@@ -1,0 +1,13 @@
+question: Aká je úloha jets v Simplicity?
+answer: Jets sú natívne implementácie nahrádzajúce dané výrazy Simplicity kvôli rýchlosti.
+wrong_answers:
+  - Jets sú kompilačný krok, ktorý prevádza Simplicity do Bitcoin Scriptu.
+  - Jets sú sieťové správy, ktoré vysielajú programy Simplicity všetkým uzlom.
+  - Jets sú ladiace nástroje na testovanie a trasovanie výrazov Simplicity.
+explanation: >-
+  Jet je natívna implementácia, ktorou sa sieť dohodne nahradiť konkrétny
+  výraz Simplicity (identifikovaný jeho Merkle rootom). Výraz Simplicity
+  slúži ako formálna špecifikácia toho, čo jet počíta, zatiaľ čo natívny kód
+  poskytuje praktickú rýchlosť vykonávania. Bežné jets spracúvajú aritmetické
+  a kryptografické operácie ako SHA-256.
+reviewed: false

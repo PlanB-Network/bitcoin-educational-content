@@ -1,0 +1,13 @@
+question: Simplicity'nin tür sisteminde değişken uzunluklu tamponlar nasıl temsil edilir?
+answer: İç içe option türü çarpımları olarak; her katman bir ikinin kuvveti bloğunu işaretler.
+wrong_answers:
+  - Doğrudan dile yerleşik özel bir dinamik dizi türü kullanılarak.
+  - Her fonksiyon çağrısında büyüyen özyinelemeli toplam türleri aracılığıyla.
+  - Sonda sıfır değerleriyle doldurulan sabit boyutlu vektörler olarak.
+explanation: >-
+  Tamponlar iç içe option türleri kullanır. Örneğin, Xᑉ⁸ şu şekilde açılır:
+  (1 + X⁴) × ((1 + X²) × (1 + X)); bu da polinom olarak
+  1 + X + X² + ... + X⁷ sonucunu verir — 0'dan 7'ye kadar eleman içeren
+  koleksiyonları temsil eder. Her option katmanı, bir ikinin kuvveti bloğunun
+  mevcut olup olmadığını belirtir ve uzunluğu fiilen ikili olarak kodlar.
+reviewed: false

@@ -1,0 +1,15 @@
+question: SimplicityHL ni iki kandi kubera iki ikenewe?
+answer: Ni ururimi rwo ku rwego rwo hejuru rutanga code ya Simplicity, rugacunga amazina na scope.
+wrong_answers:
+  - Ururimi rwo kudondora hardware rwo gucukura ASICs zikoresha Simplicity.
+  - IDE y'ibishushanyo ya drag-and-drop yo gufatanya combinators za Simplicity.
+  - Framework yo kugerageza porogarama za Simplicity mu sandbox itekanye.
+explanation: >-
+  Simplicity raw ica igora gutahura ku nzego za complexity zo muri production
+  kuko ugushikira amakuru kwose gutegerezwa gukorwa biciye muri combinators
+  take/drop ziteretse mu zindi. SimplicityHL itanga inyubako zimenyerewe zo
+  gukora porogarama — variables zifise amazina, scoping, imports za library,
+  na control flow — zihindurwa zikaba expressions za combinator za Simplicity.
+  Abakoresha ba nyuma bandika SimplicityHL, mu gihe Simplicity ikora nk'intumbero
+  ya compilation yemejwe mu buryo formal.
+reviewed: false

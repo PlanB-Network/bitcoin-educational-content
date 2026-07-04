@@ -1,0 +1,17 @@
+question: Simplicity mengecualikan rekursi tak terbatas. Apa penggantinya yang dimaksudkan untuk iterasi tak terbatas?
+answer: Kovenan rekursif yang menyebarkan komputasi ke banyak transaksi, menjaga biaya setiap transaksi tetap dapat diprediksi.
+wrong_answers:
+  - Fitur delegasi, yang dirancang khusus untuk memberikan bentuk rekursi tak terbatas yang terukur di dalam satu transaksi.
+  - Sembilan kombinator inti, yang kelengkapannya memungkinkan konstruksi titik-tetap (fixed-point) mengkodekan fungsi rekursif apa pun.
+  - Loop unrolling saat waktu kompilasi, di mana analisis statis menyimpulkan jumlah iterasi maksimum dan menduplikasi isinya.
+explanation: >-
+  Tesis artikel ini adalah bahwa iterasi tak terbatas lebih baik
+  diimplementasikan sebagai kovenan rekursif yang melakukan komputasi
+  melalui beberapa transaksi, yang menghindari batasan ruang blok dan
+  standardness serta membuat biaya transaksi dapat diprediksi. Delegasi
+  hanya bisa disalahgunakan untuk menghasilkan sesuatu yang menyerupai
+  rekursi tak terbatas — ini bukan mekanisme yang dimaksudkan — dan
+  sembilan kombinator inti hanya lengkap untuk komputasi yang terbatas,
+  sehingga tidak ada konstruksi titik-tetap yang ada di dalam satu
+  program.
+reviewed: false

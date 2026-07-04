@@ -1,0 +1,12 @@
+question: "Koja su dva sporedna efekta koja se koriste u Simplicity-ju za Bitcoin i Liquid aplikacije?"
+answer: "Failure efekat (izuzetak tipa 1) i Reader efekat (pristup podacima o okruženju transakcije)."
+wrong_answers:
+  - "State efekat (izmenljive promenljive) i Writer efekat (beleženje u dnevnik transakcija)."
+  - "IO efekat (mrežna komunikacija) i Memory efekat (dinamička alokacija memorije)."
+  - "Continuation efekat (povratni pozivi) i Nondeterminism efekat (višestruke putanje izvršavanja)."
+explanation: >-
+  Simplicity koristi tačno dva sporedna efekta za blockchain aplikacije. Failure efekat omogućava
+  računanjima da se prekinu (npr. kada provera potpisa ne uspe), a Reader efekat omogućava
+  izrazima da čitaju podatke iz okruženja transakcije. Osnovni kombinatori ostaju čisti —
+  sporedni efekti se uvode kroz jet-ove.
+reviewed: true

@@ -1,0 +1,11 @@
+question: "'take' combinator එක කරන්නේ කුමක්ද?"
+answer: එය product එකක වම් component එක උපුටාගෙන, දකුණු එක ඉවත දමයි.
+wrong_answers:
+  - එය sum type එකකින් element එකක් ඉවත් කර, tag bit එක ඉවත දමයි.
+  - එය වෙනම operations දෙකක් ආරම්භයේ සිට අවසානය දක්වා අනුක්‍රමිකව සංයෝජනය කරයි.
+  - එය නව sum type එකක් ගොඩනැගීමට value එකක් left tag එකකින් wrap කරයි.
+explanation: >-
+  take combinator යනු product types සඳහා extractor එකකි. pair ⟨a, b⟩කට
+  යෙදූ take f ලබා දුන් විට, එය b ඉවත දමා a වෙත f යොදයි. iden සමඟ
+  එක් කළ විට, take iden ඕනෑම pair එකක පළමු element එක උපුටා ගනී.
+reviewed: false

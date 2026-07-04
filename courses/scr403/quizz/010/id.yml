@@ -1,0 +1,12 @@
+question: Bagaimana vektor dengan panjang tetap dibangun dalam sistem tipe Simplicity?
+answer: Melalui tipe produk bertingkat dengan panjang pangkat dua (misalnya A⁴ = A² × A²).
+wrong_answers:
+  - Menggunakan konstruktor tipe array khusus yang dibangun ke dalam bahasa.
+  - Melalui tipe jumlah rekursif yang merangkai elemen-elemen menjadi sebuah list.
+  - Menggunakan buffer dengan panjang variabel yang memiliki ukuran maksimum tetap.
+explanation: >-
+  Simplicity membangun vektor dari tipe produk bertingkat. A² adalah A × A,
+  A⁴ adalah A² × A², A⁸ adalah A⁴ × A⁴, dan seterusnya. Ini menghasilkan
+  kumpulan dengan ukuran pangkat dua. Sebagai contoh, 𝟚²⁵⁶ (hash 256-bit)
+  dibangun dengan produk bertingkat sedalam 8 level dari tipe boolean.
+reviewed: false

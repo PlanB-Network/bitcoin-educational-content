@@ -1,0 +1,15 @@
+question: เมื่อถึงเวลาจ่าย สาขา case หนึ่งถูก prune ออกไป verifier ยังจับคู่โปรแกรมที่เปิดเผยกับ CMR ที่ commit ไว้ได้อย่างไร?
+answer: CMR เป็นราก Merkle ดังนั้น spender จึงส่งเพียง CMR ของสาขาที่ถูก prune แล้วให้ และ verifier fold มันเข้าไปเพื่อคำนวณ root ใหม่
+wrong_answers:
+  - verifier ใช้เฉพาะสาขาที่ถูก execute เพราะสาขา case ที่ไม่ถูก execute ไม่เคยอยู่ใน CMR
+  - สาขาที่ถูก prune กลายเป็น placeholder มาตรฐานซึ่ง CMR คงที่ของมันแทนที่เมื่อคำนวณ root ใหม่
+  - โค้ดเต็มของสาขาที่ถูก prune ยังคงอยู่ใน witness ซึ่ง verifier แฮชแต่ไม่ execute
+explanation: >-
+  CMR ของ case f g คือ tagged hash เหนือ CMR ของลูกทั้งสอง ดังนั้นทุก
+  สาขา — ไม่ว่าจะถูก execute หรือไม่ — ถูก commit ตั้งแต่ตอนสร้างที่อยู่
+  เพราะโครงสร้างนี้เป็น Merkle tree สาขาที่ถูก prune จึงสรุปได้ด้วย
+  CMR ขนาด 32 ไบต์ของมันเท่านั้น: verifier เสียบ hash นั้นเข้าในการคำนวณแบบ recursive
+  และตรวจว่า root ตรงกับ commitment ของ UTXO โดยไม่เคยเห็นโค้ดที่ถูก prune เลย
+  นี่คือเหตุผลโดยตรงที่ใช้ Merkle root สำหรับ commitment และเหตุผลที่นิพจน์ witness ใด ๆ
+  ภายในสาขาที่ถูก prune ไม่เคยปรากฏ on-chain
+reviewed: false

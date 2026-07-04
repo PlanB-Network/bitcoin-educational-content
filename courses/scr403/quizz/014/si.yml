@@ -1,0 +1,13 @@
+question: unit type (𝟙) යනු කුමක්ද, සහ කිසිදු තොරතුරක් නොදරන නමුත් එය ප්‍රයෝජනවත් වන්නේ ඇයි?
+answer: එය එක් value එකක් (empty tuple) දරන අතර අනෙකුත් සියලු types සඳහා base එක වේ.
+wrong_answers:
+  - එය number 1 නිරූපණය කරන අතර arithmetic operations සඳහා සෘජුව භාවිතා වේ.
+  - එය execution traces file එකකට log කරන special debugging type එකකි.
+  - එය boolean operations සඳහා භාවිතා කරන හරියටම single bit of data එකක් store කරයි.
+explanation: >-
+  unit type 𝟙 සතුව හරියටම එක් value එකක් ඇත — empty tuple ⟨⟩. එය
+  information bits ශුන්‍යයක් දරන නමුත්, sum සහ product types සියලු ප්‍රයෝජනවත්
+  data types ගොඩනැගීමට භාවිතා කරන seed ලෙස අත්‍යවශ්‍ය වේ.
+  උදාහරණයක් ලෙස, boolean type 𝟚 යනු 𝟙 + 𝟙 වන අතර, එය සම්පූර්ණයෙන්ම
+  unit types වලින් නිර්මාණය කර ඇත.
+reviewed: false

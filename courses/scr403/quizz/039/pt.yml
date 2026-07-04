@@ -1,0 +1,17 @@
+question: Os efeitos de Simplicity são comutativos e idempotentes mas não unitários. Qual transformação do otimizador deve, portanto, ser recusada em geral?
+answer: Substituir uma expressão aparentemente morta por unit — Failure não é unitário, então poderia esconder uma verificação com falha que precisa abortar.
+wrong_answers:
+  - Trocar duas subexpressões independentes, já que um sig-all-hash poderia observar um estado de ambiente diferente.
+  - Combinar duas chamadas verify idênticas, já que uma Failure duplicada lançaria erro duas vezes e abortaria incorretamente.
+  - Reordenar expressões que podem lançar erro, já que a exceção propagada depende de qual lado executa primeiro.
+explanation: >-
+  Como os efeitos de Simplicity são garantidamente comutativos e
+  idempotentes, trocar subexpressões independentes e duplicar ou combinar
+  expressões idênticas são sempre seguros; o ambiente Reader é fixo, e a
+  exceção de tipo unit de Failure é idêntica não importa qual lado lance
+  o erro primeiro ou quantas vezes. A transformação de descarte
+  `f ⨾ unit = unit`, porém, exige unitariedade, que Failure não possui: se
+  `f` contém um `bip0340-verify` sobre uma assinatura inválida, eliminar o
+  código "morto" otimizaria o aborto e validaria uma transação que deveria
+  falhar.
+reviewed: false

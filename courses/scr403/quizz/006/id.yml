@@ -1,0 +1,13 @@
+question: Apa yang dijamin oleh teorema kelengkapan tentang Simplicity?
+answer: Bahwa fungsi apa pun antara dua tipe Simplicity dapat dibangun dari sembilan kombinator.
+wrong_answers:
+  - Bahwa program Simplicity dijamin selalu berhenti dalam waktu konstan.
+  - Bahwa Simplicity bersifat Turing-complete dan dapat mensimulasikan mesin Turing apa pun.
+  - Bahwa setiap program Simplicity yang valid memiliki satu representasi unik tunggal.
+explanation: >-
+  Teorema kelengkapan membuktikan bahwa untuk fungsi apa pun antara tipe
+  Simplicity yang terbatas, terdapat sebuah ekspresi Simplicity yang
+  menghitungnya. Bukti konstruktifnya membangun tabel pencarian menggunakan
+  ekspresi case dan scribe yang bertingkat. Hal ini telah diverifikasi
+  secara formal dalam asisten bukti Rocq.
+reviewed: false

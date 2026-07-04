@@ -1,0 +1,12 @@
+question: Jak w systemie typów Simplicity budowane są wektory o stałej długości?
+answer: Poprzez zagnieżdżone typy iloczynu o długości będącej potęgą dwójki (np. A⁴ = A² × A²).
+wrong_answers:
+  - Za pomocą specjalnego konstruktora typu tablicowego wbudowanego w język.
+  - Poprzez rekurencyjne typy sumy, które łączą elementy w listę.
+  - Za pomocą buforów o zmiennej długości, które mają stały rozmiar maksymalny.
+explanation: >-
+  Simplicity buduje wektory z zagnieżdżonych typów iloczynu. A² to A × A,
+  A⁴ to A² × A², A⁸ to A⁴ × A⁴, i tak dalej. Daje to kolekcje o rozmiarze
+  będącym potęgą dwójki. Na przykład 𝟚²⁵⁶ (256-bitowy hash) jest budowany
+  przez zagnieżdżenie iloczynów na 8 poziomów, począwszy od typu logicznego.
+reviewed: false

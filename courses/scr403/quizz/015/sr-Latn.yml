@@ -1,0 +1,13 @@
+question: Zašto 'case' kombinator uključuje tip deljenog okruženja C u svom potpisu?
+answer: Da bi obe grane mogle da čitaju podatke iz deljenog konteksta uz označeni ulaz.
+wrong_answers:
+  - Da bi se ograničila veličina ulaza kako bi se sprečila prekoračenja steka.
+  - Da bi se omogućili rekurzivni pozivi tamo-amo između dve grane.
+  - Da bi se sačuvao izlaz prethodnog kombinatora ranije u lancu.
+explanation: >-
+  case kombinator ima potpis (A + B) × C ⊢ D. Dodatni tip C
+  deluje kao deljeno okruženje kojem mogu pristupiti i leva grana (f : A × C ⊢ D)
+  i desna grana (g : B × C ⊢ D). Ovo je moćnije
+  od običnog if-then-else jer grane primaju i svoje specifične
+  podatke i kontekstualne informacije potrebne za izračunavanje.
+reviewed: false

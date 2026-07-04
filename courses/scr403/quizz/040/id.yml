@@ -1,0 +1,17 @@
+question: "Menghitung #ᶜ(comp f g) meng-hash 128 byte: tag comp dua kali, lalu kedua CMR anak. Mengapa itu tetap paling banyak satu panggilan kompresi SHA-256?"
+answer: Blok 64-byte pertama adalah konstanta tag∥tag, yang midstate-nya dihitung di muka satu kali; hanya blok yang berisi CMR anak yang dikompresi.
+wrong_answers:
+  - Membuang blok padding-panjang akhir SHA-256 saja sudah membuat seluruh 128 byte muat dalam satu panggilan.
+  - Kedua CMR anak di-XOR menjadi satu digest 32-byte, menyusutkan masukan menjadi satu blok.
+  - SHA-256-midstate adalah varian blok-lebar yang menyerap blok pesan 128-byte dalam satu kali proses.
+explanation: >-
+  Fungsi kompresi SHA-256 memproses blok 64-byte tetap, sehingga masukan
+  128-byte biasanya membutuhkan dua panggilan (ditambah satu lagi untuk
+  padding-panjang pada SHA-256 penuh). Karena blok pertama setiap
+  kombinator adalah konstanta tag∥tag, midstate-nya dapat dihitung di
+  muka satu kali dan disimpan dalam cache; setiap ekspresi kemudian hanya
+  membutuhkan satu kompresi baru pada blok yang berisi CMR anak-anaknya.
+  Midstate juga membuang blok padding akhir, tetapi itu saja masih
+  menyisakan dua kompresi — midstate tag yang dihitung di muka itulah
+  yang menurunkannya menjadi paling banyak satu.
+reviewed: false

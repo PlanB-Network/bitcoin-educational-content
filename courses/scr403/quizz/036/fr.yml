@@ -1,0 +1,15 @@
+question: push-<n a pour type Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Pourquoi sa sortie doit-elle être une somme incluant le type vecteur complet Aⁿ ?
+answer: Un buffer Aᑉⁿ contient au plus n−1 éléments, donc pousser sur un buffer plein donne n éléments — seul Aⁿ peut représenter cela.
+wrong_answers:
+  - La somme laisse les appelants choisir l'encodage le moins coûteux, puisque les vecteurs se sérialisent plus compactement que les produits d'options.
+  - Push peut échouer sur un buffer vide, et la branche Aⁿ est le cas d'erreur portant l'ancien contenu.
+  - case exige que toute fonction consommant un buffer de type somme produise aussi une sortie de type somme.
+explanation: >-
+  Aᑉⁿ est exactement le type des listes dont la longueur est strictement
+  inférieure à n, donc un buffer à capacité maximale contient n−1 éléments.
+  En pousser un de plus produit exactement n éléments, ce que Aᑉⁿ ne peut
+  pas représenter ; le sommant Aⁿ renvoie ce résultat en débordement comme
+  vecteur complet. Encoder le débordement dans le type de sortie fait de
+  push-<n une fonction totale plutôt que partielle — le cas d'échec du
+  buffer vide appartient à pop-<n, pas à push.
+reviewed: false

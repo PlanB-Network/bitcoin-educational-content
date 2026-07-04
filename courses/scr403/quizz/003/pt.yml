@@ -1,0 +1,12 @@
+question: O que é um tipo soma (A + B) na Simplicity?
+answer: "Uma união marcada: um valor é ou um A marcado à esquerda, ou um B marcado à direita."
+wrong_answers:
+  - Um tipo que contém todos os valores de A e B simultaneamente.
+  - Uma adição aritmética dos tamanhos em bits dos dois tipos componentes.
+  - Um tipo função que mapeia toda entrada de A para uma saída em B.
+explanation: >-
+  Um tipo soma A + B é uma união marcada. Cada valor carrega uma marca de
+  um bit indicando se é uma variante esquerda (do tipo A) ou uma variante
+  direita (do tipo B). Mesmo quando A e B são o mesmo tipo, os valores
+  marcados à esquerda e à direita permanecem distintos.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Miksi Simplicity käyttää staattista analyysia dynaamisen kaasumallin sijaan, jollaista Ethereum käyttää?
+answer: Jotta resurssirajat voidaan määrittää ennen suorituksen alkamista, mikä antaa ennustettavat kustannukset.
+wrong_answers:
+  - Koska staattinen analyysi on yksinkertaisesti paljon nopeampi toteuttaa kehittäjille.
+  - Koska Ethereumin oma kaasumalli oli patentoitu ja siksi ei saatavilla.
+  - Koska Simplicity-ohjelmat ovat aivan liian lyhyitä tarvitakseen koskaan todella mittausta.
+explanation: >-
+  Simplicityn staattinen analyysi antaa verkon tietää tarkalleen, kuinka paljon
+  laskentaa ohjelma vaatii ennen sen suorittamista. Tämä poistaa dynaamisen
+  mittauksen ennustamattomuuden, estää resurssien ehtymisen kautta tapahtuvat
+  palvelunestohyökkäykset ja mahdollistaa sen, että solmut voivat hylätä rajat
+  ylittävät ohjelmat tuhlaamatta laskentaa.
+reviewed: false

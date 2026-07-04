@@ -1,0 +1,13 @@
+question: "De ce folosește sig-all-hash efectul Reader în loc să primească datele tranzacției ca input tipizat?"
+answer: Pentru ca jet-ul să poată folosi PrecomputedTransactionData și să ruleze în timp constant pe un mediu fix.
+wrong_answers:
+  - Deoarece sistemul de tipuri al Simplicity nu poate în principiu reprezenta datele tranzacției ca tip.
+  - Deoarece efectul Reader este mai rapid decât transmiterea acelor date prin arborele de combinatori.
+  - Deoarece datele tranzacției sunt mult prea mari pentru a încăpea în sistemul de tipuri de dimensiune fixă al Simplicity.
+explanation: >-
+  Dacă sig-all-hash ar primi un tip de input TxEnv, programele ar putea transmite jet-ului copii modificate
+  ale datelor tranzacției, împiedicându-l să folosească hash-uri precalculate. Cu efectul Reader, jet-ul
+  accesează doar un mediu de tranzacție fix, imutabil, astfel încât implementarea sa poate folosi în siguranță
+  PrecomputedTransactionData și rula în timp constant per verificare de semnătură, evitând problema
+  hash-uirii pătratice care a afectat Bitcoin Script-ul timpuriu.
+reviewed: true

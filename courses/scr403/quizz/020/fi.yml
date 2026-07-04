@@ -1,0 +1,12 @@
+question: "Mitkä ovat kaksi sivuvaikutusta, joita Simplicityssä käytetään Bitcoin- ja Liquid-sovelluksissa?"
+answer: "Failure-efekti (tyypin 1 poikkeus) ja Reader-efekti (pääsy transaktioympäristön dataan)."
+wrong_answers:
+  - "State-efekti (muuttuvat muuttujat) ja Writer-efekti (kirjaus transaktiolokiin)."
+  - "IO-efekti (verkkoviestintä) ja Memory-efekti (dynaaminen muistinvaraus)."
+  - "Continuation-efekti (takaisinkutsut) ja Nondeterminism-efekti (useita suorituspolkuja)."
+explanation: >-
+  Simplicity käyttää täsmälleen kahta sivuvaikutusta lohkoketjusovelluksissa. Failure-efekti antaa
+  laskentojen keskeytyä (esim. kun allekirjoituksen tarkistus epäonnistuu), ja Reader-efekti antaa
+  lausekkeiden lukea dataa transaktioympäristöstä. Ydinkombinaattorit pysyvät puhtaina —
+  sivuvaikutukset tuodaan mukaan jettien kautta.
+reviewed: true

@@ -1,0 +1,13 @@
+question: ¿Cómo se construyen los vectores de longitud fija en el sistema de tipos de Simplicity?
+answer: A través de tipos producto anidados de longitud potencia de dos (p. ej. A⁴ = A² × A²).
+wrong_answers:
+  - Usando un constructor de tipo array especial incorporado en el lenguaje.
+  - Mediante tipos suma recursivos que encadenan los elementos en una lista.
+  - Usando buffers de longitud variable que tienen un tamaño máximo fijo.
+explanation: >-
+  Simplicity construye vectores a partir de tipos producto anidados. A² es
+  A × A, A⁴ es A² × A², A⁸ es A⁴ × A⁴, y así sucesivamente. Esto da
+  colecciones de tamaño potencia de dos. Por ejemplo, 𝟚²⁵⁶ (un hash de 256
+  bits) se construye anidando productos 8 niveles de profundidad a partir
+  del tipo booleano.
+reviewed: false

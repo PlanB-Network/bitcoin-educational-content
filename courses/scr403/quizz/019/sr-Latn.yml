@@ -1,0 +1,14 @@
+question: Šta je SimplicityHL i zašto je potreban?
+answer: Jezik višeg nivoa koji se kompajlira u Simplicity i upravlja imenovanjem i opsegom.
+wrong_answers:
+  - Jezik za opis hardvera za rudarenje ASIC-ova koji pokreću Simplicity.
+  - Grafičko drag-and-drop IDE okruženje za povezivanje Simplicity kombinatora.
+  - Radni okvir za testiranje koji pokreće Simplicity programe unutar bezbednog sandboksa.
+explanation: >-
+  Sirovi Simplicity postaje nedokučiv na produkcijskim nivoima složenosti jer
+  se svaki pristup podacima mora obaviti kroz ugnežđene take/drop kombinatore. SimplicityHL
+  pruža poznate programske konstrukcije — imenovane promenljive, opsege, uvoze
+  biblioteka i kontrolu toka — koje se kompajliraju u Simplicity izraze
+  kombinatora. Krajnji korisnici pišu SimplicityHL, dok Simplicity služi kao
+  formalno verifikovana meta kompilacije.
+reviewed: false

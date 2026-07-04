@@ -1,0 +1,13 @@
+question: Vekta zenye urefu usiobadilika hujengwaje katika mfumo wa aina wa Simplicity?
+answer: Kupitia aina za product zilizowekwa ndani zenye urefu wa nguvu za mbili (mf. A⁴ = A² × A²).
+wrong_answers:
+  - Kwa kutumia kiundaji maalum cha aina ya array kilichojengwa ndani ya lugha.
+  - Kupitia aina za sum za kujirudia zinazounganisha elementi pamoja katika orodha.
+  - Kwa kutumia buffers zenye urefu unaobadilika ambazo zina ukubwa wa juu usiobadilika.
+explanation: >-
+  Simplicity hujenga vekta kutoka aina za product zilizowekwa ndani ya
+  nyingine. A² ni A × A, A⁴ ni A² × A², A⁸ ni A⁴ × A⁴, na kuendelea.
+  Hili hutoa mikusanyiko yenye ukubwa wa nguvu za mbili. Kwa mfano,
+  𝟚²⁵⁶ (hash ya biti 256) hujengwa kwa kuweka products ndani ya nyingine
+  kwa tabaka 8 kutoka aina ya boolean.
+reviewed: false

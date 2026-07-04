@@ -1,0 +1,12 @@
+question: Waarom sluit Simplicity dynamische geheugentoewijzing tijdens uitvoering uit?
+answer: Om statische analyse mogelijk te maken en hele klassen van bugs en aanvallen uit te sluiten.
+wrong_answers:
+  - Omdat het Liquid Network geen low-level geheugenbewerkingen ondersteunt.
+  - Om de programmeercurve voor nieuwe smart-contractontwikkelaars te verlagen.
+  - Omdat Bitcoin Script zelf ook geen dynamische geheugentoewijzing kent.
+explanation: >-
+  Simplicity vermijdt dynamische geheugentoewijzing zodat al het resourcegebruik
+  statisch kan worden bepaald vóór uitvoering. Dit maakt voorspelbare
+  resourcelimieten mogelijk en elimineert kwetsbaarheden gerelateerd aan
+  geheugenbeheer, wat cruciaal is in een blockchain-validatiecontext.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Proč se výrazy v Simplicity serializují jako DAG, a ne jako stromy?
+answer: Aby se zabránilo exponenciálnímu růstu, protože sdílené podvýrazy se ukládají jen jednou.
+wrong_answers:
+  - Protože obyčejné stromové struktury vůbec nedokážou reprezentovat podmíněné větvení.
+  - Aby se umožnilo paralelní vykonávání na mnoha samostatných vícejádrových procesorech.
+  - Protože protokol Liquid Network zde striktně vyžaduje formát DAG.
+explanation: >-
+  Výrazy v Simplicity přirozeně tvoří stromy, které by mohly s rostoucí
+  složitostí růst exponenciálně. Serializací do podoby orientovaných
+  acyklických grafů (DAG) se podvýrazy, které se objevují vícekrát, ukládají
+  jednou a odkazuje na ně více rodičů. Díky tomu skutečná velikost programů
+  roste lineárně, nikoli exponenciálně.
+reviewed: false

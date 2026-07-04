@@ -1,0 +1,11 @@
+question: "BIP-0341 Taproot の下でコミットされるとき、Simplicity はどの TapLeaf バージョンを使いますか？"
+answer: バージョン 0xbe で、これは10進数ではバイト値 190 です。
+wrong_answers:
+  - Bitcoin Script Tapscript と同じ、バージョン 0xc0。
+  - デフォルトの Taproot leaf バージョンである、バージョン 0x00。
+  - 実験的なスクリプト用に予約された、バージョン 0xff。
+explanation: >-
+  Simplicity プログラムは TapLeaf バージョン 0xbe を使って Taproot アドレスにコミットされます。これにより、
+  Simplicity スクリプトは Bitcoin Tapscript（バージョン 0xc0 を使う）と区別され、
+  ネットワークはオンチェーンに現れた Simplicity プログラムを正しく識別し、検証できます。
+reviewed: true

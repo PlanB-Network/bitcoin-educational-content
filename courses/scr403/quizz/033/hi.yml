@@ -1,0 +1,14 @@
+question: typing rules में 'smaller types in the premises' को देखते हुए, execution के दौरान कौन-से core combinators वास्तव में data move करते हैं?
+answer: केवल iden और comp; बाकी सात केवल bookkeeping से implemented हैं।
+wrong_answers:
+  - केवल take और drop; एक component निकालना machine को उसे product से बाहर copy करने के लिए मजबूर करता है।
+  - केवल pair और case; दो branches के लिए input duplicate करना और tag पर dispatch करना data shuffle करता है।
+  - केवल injl और injr; tag जोड़ना value को बड़े sum-type representation में rewrite करता है।
+explanation: >-
+  Counterintuitively, जो combinators data access जैसे दिखते हैं (take,
+  drop, pair, case, injl, injr) उन्हें copying की जरूरत नहीं होती: क्योंकि typing
+  rules में premises अपने conclusions से छोटे types involve करते हैं, Bit
+  Machine उन्हें केवल bookkeeping से implement कर सकती है। केवल iden, जो अपने
+  पूरे input को output में copy करता है, और comp, जो f से g को passed
+  intermediate value materialize करता है, वास्तव में data इधर-उधर move करते हैं।
+reviewed: false

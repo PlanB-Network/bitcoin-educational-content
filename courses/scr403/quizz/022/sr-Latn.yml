@@ -1,0 +1,12 @@
+question: "Zašto bip0340-verify koristi Failure efekat umesto da vraća logičku vrednost (true/false)?"
+answer: Da bi se omogućila grupna verifikacija Schnorr potpisa, gde jedna neuspela provera obara ceo paket.
+wrong_answers:
+  - Zato što su logički tipovi preskupi u pogledu prostora u bloku u poređenju sa jediničnim tipom.
+  - Zato što sistem tipova Simplicity-ja ne može da predstavi logičke povratne vrednosti koje dolaze iz jet-ova.
+  - Zato što bi vraćanje obične logičke vrednosti direktno prekršilo teoremu potpunosti.
+explanation: >-
+  Kada bi bip0340-verify vraćao logičku vrednost, neuspela provera potpisa bi ipak mogla da dovede do grane u kojoj
+  skripta uspeva. U tom slučaju, verifikator bi morao da zna koji je tačno potpis
+  otkazao, čime se onemogućava grupna verifikacija. Korišćenjem Failure efekta, neuspela provera uvek prekida
+  celo računanje, omogućavajući efikasnu grupnu verifikaciju u kojoj se mnogi potpisi objedinjuju.
+reviewed: true

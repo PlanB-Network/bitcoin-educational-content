@@ -1,0 +1,13 @@
+question: Comment les tampons de longueur variable sont-ils représentés dans le système de types de Simplicity ?
+answer: Sous forme de produits de types option imbriqués, chaque couche signalant un bloc de puissance de deux.
+wrong_answers:
+  - En utilisant un type de tableau dynamique spécial intégré directement dans le langage.
+  - Par le biais de types somme récursifs qui grossissent à chaque appel de fonction.
+  - Sous forme de vecteurs de taille fixe complétés par des valeurs zéro de remplissage.
+explanation: >-
+  Les tampons utilisent des types option imbriqués. Par exemple, Xᑉ⁸ se
+  développe en (1 + X⁴) × ((1 + X²) × (1 + X)), ce qui, en tant que
+  polynôme, donne 1 + X + X² + ... + X⁷ — représentant des collections de
+  0 à 7 éléments. Chaque couche option indique si un bloc de puissance de
+  deux est présent, encodant ainsi la longueur en binaire.
+reviewed: false

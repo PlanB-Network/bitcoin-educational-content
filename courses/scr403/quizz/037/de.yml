@@ -1,0 +1,17 @@
+question: Die SHA-256-Kompression wird zu einem Jet, die fold- und map-Kombinatoren jedoch nicht. Was erklärt diese Asymmetrie?
+answer: Ein Jet ersetzt einen festen Ausdruck; fold und map sind keine einzelnen Ausdrücke, sondern Schemata, die je nach innerer Funktion f einen anderen Ausdruck erzeugen.
+wrong_answers:
+  - Jets beschleunigen nur linearen Code, sodass iterierende Kombinatoren zunächst entrollt werden müssen und dann zu keinem Jet mehr passen.
+  - Nur Ausdrücke mit einem maschinengeprüften Rocq-Beweis qualifizieren sich, und ein solcher existiert für SHA-256, nicht aber für die folds.
+  - Folds über kurze Vektoren sind zu billig, um zu profitieren, daher sind Jets kostspieligen Krypto-Operationen vorbehalten.
+explanation: >-
+  Ein Jet ist ein nativer Ersatz für einen einzigen, vollständig
+  ausgeformten Simplicity-Ausdruck, den Knoten unter Beibehaltung seiner
+  exakten Semantik substituieren können. fold-right-n, map, zip und ihre
+  Varianten sind keine einzelnen Ausdrücke, sondern
+  Konstruktionsschemata: Jede Wahl der inneren Funktion f ergibt einen
+  strukturell anderen Ausdruck, sodass kein einzelner Jet für die gesamte
+  Familie stehen kann. Deshalb erscheinen diese Iterationsmuster in
+  echten Programmen als genuiner Kombinator-Code, typischerweise erzeugt
+  von höherstufigen Sprachen wie SimplicityHL.
+reviewed: false

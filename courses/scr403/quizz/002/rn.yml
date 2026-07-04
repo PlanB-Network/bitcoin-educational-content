@@ -1,0 +1,12 @@
+question: Iteoreme y'ukwuzura yemeza iki kuri Simplicity?
+answer: Ko igikorwa cose hagati y'ubwoko bubiri bwa Simplicity gishobora kwubakwa bivuye ku bateranyi icenda.
+wrong_answers:
+  - Ko porogarama za Simplicity zemezwa ko zama zirangira mu mwanya udahinduka.
+  - Ko Simplicity ari Turing-complete kandi ishobora kwigana imashini iyo ari yo yose ya Turing.
+  - Ko porogarama yose ya Simplicity yemewe ifise ishusho imwe gusa yihariye.
+explanation: >-
+  Iteoreme y'ukwuzura yerekana ko ku gikorwa cose kiri hagati y'ubwoko bwa Simplicity
+  bufise umubare ugarukira, hariho imvugo ya Simplicity igiharura. Icemezo cubaka cubaka
+  imeza yo kurondereramwo gikoresheje imvugo case na scribe zizingazinganye.
+  Ivyo vyaremejwe ku buryo bwemewe muri proof assistant Rocq.
+reviewed: false

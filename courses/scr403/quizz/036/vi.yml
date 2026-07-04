@@ -1,0 +1,15 @@
+question: push-<n có kiểu Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Vì sao đầu ra của nó phải là một tổng bao gồm kiểu vector đầy đủ Aⁿ?
+answer: Một buffer Aᑉⁿ chứa nhiều nhất n−1 phần tử, nên đẩy vào một buffer đầy sẽ tạo ra n phần tử — chỉ Aⁿ mới biểu diễn được điều đó.
+wrong_answers:
+  - Tổng cho phép caller chọn encoding rẻ hơn, vì vector serialize gọn hơn option product.
+  - Push có thể thất bại trên buffer rỗng, và nhánh Aⁿ là trường hợp lỗi mang nội dung cũ.
+  - case yêu cầu mọi hàm tiêu thụ buffer kiểu tổng cũng phải tạo ra đầu ra kiểu tổng.
+explanation: >-
+  Aᑉⁿ chính xác là kiểu của các danh sách có độ dài nhỏ hơn nghiêm ngặt
+  so với n, nên một buffer ở dung lượng tối đa chứa n−1 phần tử. Đẩy thêm
+  một phần tử nữa tạo ra đúng n phần tử, điều mà Aᑉⁿ không thể biểu diễn;
+  hạng tử tổng Aⁿ trả về kết quả overflow đó dưới dạng một vector đầy đủ.
+  Mã hóa overflow trong kiểu đầu ra giữ cho push-<n là một hàm toàn phần
+  thay vì một hàm từng phần — trường hợp thất bại do buffer rỗng thuộc về
+  pop-<n, không phải push.
+reviewed: false

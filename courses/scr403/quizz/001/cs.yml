@@ -1,0 +1,11 @@
+question: Co produkuje sekvenční kompozice při zřetězení operace f (A → B) s operací g (B → C)?
+answer: Jedinou složenou operaci z A do C, kde výstup f vstupuje do g.
+wrong_answers:
+  - Hodnotu páru obsahující oba mezivýstupy typu B a C.
+  - Podmínku, která volí mezi f a g na základě vstupu.
+  - Dvě samostatné operace, které běží nezávisle a nesdílejí žádná data.
+explanation: >-
+  Sekvenční kompozice zřetězuje dvě operace jednu za druhou. Výstup první
+  operace se stává vstupem druhé. V Simplicity se to vyjadřuje kombinátorem
+  comp: comp f g aplikuje nejprve f a poté g na výsledek.
+reviewed: false

@@ -1,0 +1,19 @@
+question: Ein Simplicity-Output verwendet den festen BIP-0341-NUMS-Punkt als internen Schlüssel. Warum ist ein Key-Spend nachweislich unmöglich, und was bringt eine Randomisierung des NUMS-Punkts zusätzlich?
+answer: Niemand kennt den diskreten Logarithmus des NUMS-Punkts, sodass keine Key-Path-Signatur existieren kann; die Randomisierung bringt lediglich zusätzliche Privatsphäre.
+wrong_answers:
+  - Der NUMS-Punkt liegt außerhalb der Kurve, sodass Key-Path-Signaturen scheitern; die Randomisierung bringt ihn zurück auf die Kurve.
+  - Der private Schlüssel des NUMS-Punkts ist null, was der Konsens ablehnt; die Randomisierung schützt das Tweak vor Seitenkanälen.
+  - Das Tweaken eines NUMS-Punkts ergibt einen außerhalb des gültigen Bereichs liegenden Schlüssel, was Key-Spend non-standard macht; die Randomisierung vermeidet Adresswiederverwendung.
+explanation: >-
+  Ein NUMS-Punkt ('Nothing-Up-My-Sleeve') ist ein völlig gültiger
+  Kurvenpunkt, der so konstruiert ist, dass niemand einen zugehörigen
+  privaten Schlüssel kennt — sein diskreter Logarithmus ist unbekannt. Da
+  ein Key-Path-Spend eine Schnorr-Signatur unter dem internen Schlüssel
+  erfordert und ohne den privaten Schlüssel keine solche Signatur erzeugt
+  werden kann, ist der Key-Spend-Pfad nachweislich unbenutzbar, und
+  Gelder können nur über den committeten Script-Pfad bewegt werden. Die
+  Randomisierung des NUMS-Punkts ändert daran nichts; sie verbirgt
+  lediglich die Tatsache, dass Key-Spend deaktiviert ist, sodass der
+  Output wie jeder andere Taproot-Output aussieht — ein
+  Privatsphäre-Vorteil.
+reviewed: false

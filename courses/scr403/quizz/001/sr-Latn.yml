@@ -1,0 +1,12 @@
+question: Šta sekvencijalna kompozicija proizvodi kada ulančava operaciju f (A → B) sa operacijom g (B → C)?
+answer: Jednu složenu operaciju od A do C, gde izlaz od f ulazi u g.
+wrong_answers:
+  - Vrednost para koja sadrži oba međuizlaza tipa B i C.
+  - Uslovni izraz koji bira između f i g na osnovu ulaza.
+  - Dve odvojene operacije koje se izvršavaju nezavisno, ne deleći nikakve podatke.
+explanation: >-
+  Sekvencijalna kompozicija ulančava dve operacije od početka do kraja. Izlaz
+  prve operacije postaje ulaz druge. U Simplicity-ju, ovo se izražava
+  kombinatorom comp: comp f g prvo primenjuje f, a zatim g na
+  rezultat.
+reviewed: false

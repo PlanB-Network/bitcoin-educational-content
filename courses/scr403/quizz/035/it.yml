@@ -1,0 +1,15 @@
+question: Traccia il full-adder su ⟨⟨1,1⟩,1⟩ (1+1+1). Quale valore passa lo stage due, O O H ▵ (O I H ▵ I H ⨾ half-adder), allo stage finale?
+answer: ⟨1, ⟨0, 1⟩⟩ — il riporto del primo half-adder, poi il riporto e la somma del secondo.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — il riporto del primo half-adder, poi la somma e il riporto del secondo.
+  - ⟨0, ⟨0, 1⟩⟩ — il bit di somma del primo half-adder, poi il riporto e la somma del secondo.
+  - ⟨1, ⟨1, 1⟩⟩ — il riporto del primo half-adder, poi i bit di OR e XOR del secondo.
+explanation: >-
+  Lo stage uno calcola half-adder⟨1,1⟩ = ⟨1, 0⟩ (riporto 1, somma 0) e
+  salva il riporto in ingresso, ottenendo ⟨⟨1,0⟩, 1⟩. Nello stage due,
+  O O H estrae il primo riporto (1), mentre O I H ▵ I H alimenta ⟨0, 1⟩
+  — la prima somma e il riporto in ingresso — nel secondo half-adder,
+  producendo ⟨0, 1⟩ poiché and(0,1)=0 e xor(0,1)=1. Lo stage finale mette
+  quindi in OR i due riporti e mantiene la somma, producendo ⟨1, 1⟩:
+  binario 3, come atteso.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Simplicity ikuraho recursion itagira urugero. Ni iki giteganywa nk'igisubirira iteration itagira urugero?
+answer: Recursive covenants zisanza ubuharuro ku ma transactions menshi, zigatuma ikiguzi ca buri transaction gishobora gutegekanwa.
+wrong_answers:
+  - Feature ya delegation, yahinguwe canecane kugira ngo itange recursion itagira urugero ipimwe imbere muri transaction imwe.
+  - Combinators icenda z'ishimikiro, ukwuzura kwazo gutuma fixed-point construction ishobora guserura recursive function iyo ari yo yose.
+  - Loop unrolling yo mu gihe ca compile, aho static analysis itora umubare munini cane w'iteration hanyuma igakoporora body.
+explanation: >-
+  Thesis y'ikiganiro ni uko iteration itagira urugero ishirwa mu ngiro neza kuruta
+  nka recursive covenants ziharura hejuru y'ama transactions menshi, ivyo
+  bikirinda ibibujijwe vy'ikibanza ca block n'amategeko ya standardness kandi bigatuma ibiciro vya transaction
+  bishobora gutegekanwa. Delegation ishobora gusa gukoreshwa nabi kugira ngo itange ikintu
+  gisa na recursion itagira urugero — si yo nzira igenewe — kandi
+  combinators icenda z'ishimikiro zuzura gusa ku buharuro bufise iherezo, rero
+  nta fixed-point construction ibaho imbere muri porogarama imwe.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "Tanık değerleri neden Commitment Merkle Root'tan (CMR) dışlanır?"
+answer: Adreslerin tanıklar bilinmeden önce oluşturulabilmesi ve kullanılmayan dalların özel olarak budanabilmesi için.
+wrong_answers:
+  - Çünkü tanık değerleri 256-bit hash'e dahil edilemeyecek kadar çok büyüktür.
+  - Çünkü tanık değerleri Failure etkisi tarafından tamamen ayrı olarak doğrulanır.
+  - Çünkü tanık değerlerinin dahil edilmesi CMR'yi deterministik olmaktan çıkarırdı.
+explanation: >-
+  Tanık ifadeleri (imzalar gibi) adres oluşturma sırasında değil, harcama sırasında sağlanır.
+  Bunların CMR'den dışlanması iki önemli özelliği mümkün kılar: adresler harcama işlemi
+  var olmadan önce üretilebilir ve yürütülmeyen koşullu dallar, ilişkili tanık değerlerini
+  açığa çıkarmadan zincir üstü veriden budanabilir.
+reviewed: true

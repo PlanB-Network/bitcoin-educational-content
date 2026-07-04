@@ -1,0 +1,12 @@
+question: "Šta je Commitment Merkle Root (CMR) u Simplicity-ju?"
+answer: 256-bitni heš koji se obavezuje na strukturu Simplicity programa pomoću označenog SHA-256.
+wrong_answers:
+  - Binarno stablo koje sadrži sve moguće putanje izvršavanja Simplicity programa.
+  - Heš tipova programa i witness vrednosti koji se koristi za verifikaciju adrese.
+  - Merkle koren podataka transakcije kojima je program ovlašćen da pristupa.
+explanation: >-
+  Svaki Simplicity kombinator ima jedinstvenu SHA-256 oznaku (npr. Simplicity␟Commitment␟iden), a
+  CMR se izračunava rekurzivnim heširanjem stabla kombinatora programa pomoću ovih označenih međustanja.
+  Važno je da se CMR ne obavezuje na tipove izraza, oslanjajući se na zaključivanje tipova
+  tokom iskupljenja. CMR-ovi se koriste za obavezivanje programa u Taproot adrese.
+reviewed: true

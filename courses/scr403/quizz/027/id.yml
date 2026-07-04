@@ -1,0 +1,12 @@
+question: "Mengapa nilai witness dikecualikan dari Commitment Merkle Root (CMR)?"
+answer: Agar alamat dapat terbentuk sebelum witness diketahui, dan cabang yang tidak digunakan dapat dipangkas secara pribadi.
+wrong_answers:
+  - Karena nilai witness sekadar terlalu besar untuk dimasukkan ke dalam hash 256-bit.
+  - Karena nilai witness divalidasi sepenuhnya secara terpisah oleh efek Failure.
+  - Karena menyertakan nilai witness akan membuat CMR menjadi non-deterministik.
+explanation: >-
+  Ekspresi witness (seperti tanda tangan) disediakan pada saat pembelanjaan, bukan pada saat
+  pembuatan alamat. Mengecualikannya dari CMR memungkinkan dua properti penting: alamat dapat
+  dibuat sebelum transaksi pembelanjaan ada, dan cabang kondisional yang tidak dieksekusi dapat
+  dipangkas dari data on-chain tanpa mengungkap nilai witness yang terkait dengannya.
+reviewed: true

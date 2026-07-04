@@ -1,0 +1,13 @@
+question: Was garantiert das Vollständigkeitstheorem über Simplicity?
+answer: Dass jede Funktion zwischen zwei Simplicity-Typen aus den neun Kombinatoren aufgebaut werden kann.
+wrong_answers:
+  - Dass Simplicity-Programme garantiert immer in konstanter Zeit terminieren.
+  - Dass Simplicity turingvollständig ist und jede Turingmaschine überhaupt simulieren kann.
+  - Dass jedes gültige Simplicity-Programm genau eine eindeutige Darstellung hat.
+explanation: >-
+  Das Vollständigkeitstheorem beweist, dass für jede Funktion zwischen
+  endlichen Simplicity-Typen ein Simplicity-Ausdruck existiert, der sie
+  berechnet. Der konstruktive Beweis baut eine Nachschlagetabelle mithilfe
+  verschachtelter case- und scribe-Ausdrücke auf. Dies wurde im
+  Beweisassistenten Rocq formal verifiziert.
+reviewed: false

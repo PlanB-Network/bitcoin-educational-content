@@ -1,0 +1,12 @@
+question: "Varför är Failure-effekten kommutativ i Simplicity, trots att undantag i allmänhet inte är kommutativa?"
+answer: Eftersom undantagstypen är enhetstypen (1) med endast ett värde, så spelar kastordningen ingen roll.
+wrong_answers:
+  - Eftersom Simplicity kör alla uttryck i en deterministisk ordning som definieras av kombinatorträdet.
+  - Eftersom Failure-effekten alltid fångas upp och sedan kastas om av case-kombinatorn.
+  - Eftersom Simplicity använder batchverifiering, vilket gör alla kastade undantag likvärdiga.
+explanation: >-
+  I allmänhet är undantag inte kommutativa eftersom olika uttryck kan kasta olika
+  undantagsvärden. Simplicity begränsar dock undantag till enhetstypen (endast ett möjligt värde),
+  så att byta ordning på två uttryck som potentiellt kan misslyckas ger samma undantag oavsett
+  vilket av dem som faktiskt misslyckas. Denna kommutativitet möjliggör viktiga programoptimeringar.
+reviewed: true

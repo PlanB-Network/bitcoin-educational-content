@@ -1,0 +1,13 @@
+question: Warum schließt Simplicity dynamische Speicherzuweisung während der Ausführung aus?
+answer: Um statische Analyse zu ermöglichen und ganze Klassen von Fehlern und Angriffen auszuschließen.
+wrong_answers:
+  - Weil das Liquid Network keine Low-Level-Speicheroperationen unterstützt.
+  - Um die Lernkurve für neue Smart-Contract-Entwickler zu verringern.
+  - Weil Bitcoin Script selbst ebenfalls keine dynamische Speicherzuweisung besitzt.
+explanation: >-
+  Simplicity vermeidet dynamische Speicherzuweisung, damit die gesamte
+  Ressourcennutzung statisch vor der Ausführung bestimmt werden kann. Dies
+  ermöglicht vorhersehbare Ressourcengrenzen und beseitigt Schwachstellen im
+  Zusammenhang mit Speicherverwaltung, was in einem Blockchain-Validierungskontext
+  entscheidend ist.
+reviewed: false

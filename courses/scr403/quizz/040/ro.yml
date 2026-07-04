@@ -1,0 +1,18 @@
+question: "Calcularea lui #ᶜ(comp f g) hashuiește 128 de octeți: eticheta comp de două ori, apoi ambele CMR-uri ale copiilor. De ce este totuși cel mult un apel de compresie SHA-256?"
+answer: Primul bloc de 64 de octeți este constanta tag∥tag, a cărei stare intermediară (midstate) este precalculată o singură dată; este comprimat doar blocul care conține CMR-urile copiilor.
+wrong_answers:
+  - Eliminarea singură a blocului final de completare (padding) de lungime al SHA-256 permite ca toți cei 128 de octeți să încapă într-un singur apel.
+  - Cele două CMR-uri ale copiilor sunt combinate prin XOR într-un singur digest de 32 de octeți, reducând intrarea la un singur bloc.
+  - SHA-256-midstate este o variantă cu bloc lat care absoarbe blocuri de mesaj de 128 de octeți dintr-o singură trecere.
+explanation: >-
+  Funcția de compresie a SHA-256 procesează blocuri fixe de 64 de octeți,
+  așa că o intrare de 128 de octeți necesită în mod normal două apeluri
+  (plus încă unul pentru completarea de lungime în SHA-256 complet).
+  Deoarece primul bloc al fiecărui combinator este constanta tag∥tag,
+  starea sa intermediară poate fi precalculată o singură dată și
+  memorată în cache; fiecare expresie are apoi nevoie doar de o singură
+  compresie nouă a blocului care conține CMR-urile copiilor săi.
+  Stările intermediare elimină și blocul final de completare, dar asta
+  singură ar lăsa tot două compresii — starea intermediară precalculată a
+  etichetei este cea care reduce numărul la cel mult unu.
+reviewed: false

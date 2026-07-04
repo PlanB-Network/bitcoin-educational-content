@@ -1,0 +1,14 @@
+question: Jak zdefiniowany jest typ logiczny (𝟚) w Simplicity?
+answer: Jako typ sumy 𝟙 + 𝟙, przechowujący dokładnie dwie wartości (fałsz i prawda).
+wrong_answers:
+  - Jako typ iloczynu 𝟙 × 𝟙, który przechowywałby wtedy tylko jedną wartość.
+  - Jako specjalny typ prymitywny wbudowany bezpośrednio w język.
+  - Jako 32-bitowy typ całkowitoliczbowy ograniczony tylko do wartości 0 i 1.
+explanation: >-
+  Typ logiczny 𝟚 jest zdefiniowany jako 𝟙 + 𝟙, suma dwóch typów jednostkowych.
+  Wartość oznaczona lewostronnie σᴸ⟨⟩ reprezentuje fałsz (0), a wartość
+  oznaczona prawostronnie σᴿ⟨⟩ reprezentuje prawdę (1). Jest to jednobitowy typ
+  danych zbudowany wyłącznie z typu jednostkowego i konstruktora typu sumy —
+  konstruktor iloczynu nie jest
+  potrzebny.
+reviewed: false

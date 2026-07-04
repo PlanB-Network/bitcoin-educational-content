@@ -1,0 +1,11 @@
+question: "Jaki jest typ programu Simplicity?"
+answer: 1 ⊢ 1 (jednostka do jednostki) — brak znaczącego wejścia lub wyjścia; operacje we/wy realizują efekty uboczne.
+wrong_answers:
+  - TxEnv ⊢ Bool — przyjmuje dane transakcji i zwraca logiczną wartość poprawności.
+  - 2^256 ⊢ 2^256 — przyjmuje wejściowy hash i zwraca nową wartość wyjściową hasha.
+  - Dowolny typ A ⊢ B — programy mogą mieć całkowicie dowolne typy wejścia i wyjścia.
+explanation: >-
+  Program Simplicity jest zdefiniowany jako wyrażenie typu 1 ⊢ 1. Efekt Reader przechwytuje
+  wejście środowiska transakcji, podczas gdy efekt Failure określa sukces lub porażkę.
+  To efekty uboczne obsługują całe we/wy, a nie same typy Simplicity.
+reviewed: true

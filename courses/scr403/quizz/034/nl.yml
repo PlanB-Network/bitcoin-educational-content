@@ -1,0 +1,15 @@
+question: De full-adder past OR toe op de carry-bits van zijn twee half-adders in plaats van XOR. Waarom is OR correct?
+answer: Voor elke invoer kan hoogstens één half-adder een carry genereren, dus OR combineert twee elkaar uitsluitende gevallen precies correct.
+wrong_answers:
+  - De twee carry-bits moeten worden opgeteld, en OR is de manier waarop eenbits binaire optelling in Simplicity gebeurt.
+  - Na de vertakking is OR de enige Booleaanse operator wiens type nog overeenkomt met de omgeving.
+  - OR overschat de carry; eventuele overtollige carries worden achteraf verwijderd door de laatste projectie.
+explanation: >-
+  Als de eerste half-adder een carry genereert, waren beide invoerbits
+  1, dus is zijn sombit 0 — en een half-adder die een 0 krijgt kan nooit
+  een carry genereren. De twee carry-bits zijn dus nooit tegelijk 1, en
+  OR combineert ze precies correct (op de bereikbare invoerwaarden komt
+  het zelfs overeen met XOR). Deze wederzijdse uitsluiting is precies
+  wat de decompositie van een full-adder in twee half-adders correct
+  maakt.
+reviewed: false

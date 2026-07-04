@@ -1,0 +1,15 @@
+question: Spåra full-addern på ⟨⟨1,1⟩,1⟩ (1+1+1). Vilket värde skickar steg två, O O H ▵ (O I H ▵ I H ⨾ half-adder), vidare till det sista steget?
+answer: ⟨1, ⟨0, 1⟩⟩ — den första half-adderns carry, sedan den andras carry och summa.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — den första half-adderns carry, sedan den andras summa och carry.
+  - ⟨0, ⟨0, 1⟩⟩ — den första half-adderns summabit, sedan den andras carry och summa.
+  - ⟨1, ⟨1, 1⟩⟩ — den första half-adderns carry, sedan den andras OR- och XOR-bitar.
+explanation: >-
+  Steg ett beräknar half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, summa 0) och
+  sparar carry-in, vilket ger ⟨⟨1,0⟩, 1⟩. I steg två extraherar O O H
+  den första carryn (1), medan O I H ▵ I H matar ⟨0, 1⟩ — den första
+  summan och carry-in — in i den andra half-addern, vilket ger ⟨0, 1⟩
+  eftersom and(0,1)=0 och xor(0,1)=1. Det sista steget OR:ar sedan de
+  två carry-värdena och behåller summan, vilket ger ⟨1, 1⟩: binärt 3,
+  som förväntat.
+reviewed: false

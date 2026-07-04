@@ -1,0 +1,16 @@
+question: "Tính #ᶜ(comp f g) băm 128 byte: tag comp hai lần, rồi cả hai CMR con. Vì sao điều đó vẫn nhiều nhất chỉ là một lần gọi nén SHA-256?"
+answer: Block 64 byte đầu tiên là hằng tag∥tag, midstate của nó được tính trước một lần; chỉ block chứa các CMR con mới được nén.
+wrong_answers:
+  - Chỉ cần bỏ block padding độ dài cuối của SHA-256 là toàn bộ 128 byte vừa trong một lần gọi.
+  - Hai CMR con được XOR thành một digest 32 byte, thu nhỏ đầu vào còn một block duy nhất.
+  - SHA-256-midstate là một biến thể wide-block hấp thụ các block thông điệp 128 byte trong một lượt.
+explanation: >-
+  Hàm nén của SHA-256 xử lý các block cố định 64 byte, nên đầu vào 128
+  byte thông thường cần hai lần gọi (cộng thêm một lần nữa cho length
+  padding trong SHA-256 đầy đủ). Vì block đầu tiên của mọi combinator là
+  hằng tag∥tag, midstate của nó có thể được tính trước một lần và lưu cache;
+  sau đó mỗi biểu thức chỉ cần một lần nén mới cho block chứa các CMR con
+  của nó. Midstate cũng bỏ block padding cuối, nhưng chỉ điều đó thôi vẫn
+  sẽ còn lại hai lần nén — midstate tag được tính trước mới là thứ giảm nó
+  xuống nhiều nhất một lần.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "在 BIP-0341 Taproot 下做出承諾時，Simplicity 使用哪個 TapLeaf 版本？"
+answer: 版本 0xbe，也就是十進位中的位元組值 190。
+wrong_answers:
+  - 版本 0xc0，與 Bitcoin Script 的 Tapscript 相同。
+  - 版本 0x00，預設的 Taproot 葉版本。
+  - 版本 0xff，一個保留給實驗性腳本的版本。
+explanation: >-
+  Simplicity 程式使用 TapLeaf 版本 0xbe 被承諾至 Taproot 位址。這使 Simplicity 腳本得以與 Bitcoin Tapscript（使用版本 0xc0）區分開來，並讓網路在 Simplicity 程式出現於鏈上時能正確地識別並驗證它們。
+reviewed: true

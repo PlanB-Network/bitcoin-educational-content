@@ -1,0 +1,16 @@
+question: Kompresia SHA-256 sa stáva jetom, ale kombinátory fold a map nie. Čím sa vysvetľuje táto asymetria?
+answer: Jet nahrádza jeden pevný výraz; fold a map nie sú jednotlivé výrazy, ale schémy, ktoré pre každú vnútornú funkciu f dávajú iný výraz.
+wrong_answers:
+  - Jety zrýchľujú iba priamočiary kód, takže iterujúce kombinátory musia byť najprv rozvinuté a potom nezodpovedajú žiadnemu jetu.
+  - Kvalifikujú sa iba výrazy so strojovo overeným dôkazom v Rocq, ktorý existuje pre SHA-256, ale nie pre foldy.
+  - Foldy nad krátkymi vektormi sú príliš lacné na to, aby z toho ťažili, takže jety sú vyhradené pre nákladné kryptografické operácie.
+explanation: >-
+  Jet je natívna náhrada za jeden konkrétny, plne vytvorený výraz
+  Simplicity, ktorý uzly môžu nahradiť pri zachovaní jeho presnej sémantiky.
+  fold-right-n, map, zip a ich varianty nie sú jednotlivé výrazy, ale
+  konštrukčné schémy: každá voľba vnútornej funkcie f dáva štrukturálne
+  odlišný výraz, takže žiadny jednotlivý jet nemôže zastúpiť celú rodinu.
+  Preto sa tieto iteračné vzory objavujú ako skutočný kód z kombinátorov v
+  reálnych programoch, obvykle generovaný jazykmi vyššej úrovne ako
+  SimplicityHL.
+reviewed: false

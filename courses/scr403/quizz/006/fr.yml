@@ -1,0 +1,12 @@
+question: Que garantit le théorème de complétude à propos de Simplicity ?
+answer: Que toute fonction entre deux types Simplicity peut être construite à partir des neuf combinateurs.
+wrong_answers:
+  - Que les programmes Simplicity sont garantis de toujours se terminer en temps constant.
+  - Que Simplicity est Turing-complet et peut simuler n'importe quelle machine de Turing.
+  - Que tout programme Simplicity valide possède une seule représentation unique.
+explanation: >-
+  Le théorème de complétude prouve que pour toute fonction entre types Simplicity
+  finis, il existe une expression Simplicity qui la calcule. La preuve constructive
+  construit une table de correspondance à l'aide d'expressions case et scribe
+  imbriquées. Cela a été formellement vérifié dans l'assistant de preuve Rocq.
+reviewed: false

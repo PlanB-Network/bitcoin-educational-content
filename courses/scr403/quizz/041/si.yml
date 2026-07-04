@@ -1,0 +1,15 @@
+question: වියදම් කිරීමේ අවස්ථාවේදී case branch එකක් prune කර ඉවත් කරයි. verifier ට revealed program එක committed CMR එකට තවමත් match කළ හැක්කේ කෙසේද?
+answer: CMR එක Merkle root එකක් නිසා, spender pruned branch එකේ CMR එක පමණක් supply කරයි, සහ verifier root එක recompute කිරීමට එය fold in කරයි.
+wrong_answers:
+  - verifier executed branch එක පමණක් භාවිත කරයි, unexecuted case branches කිසිවිට CMR තුළ නොතිබුණු නිසා.
+  - Pruned branches canonical placeholder එකක් බවට පත් වන අතර, root recompute කරන විට එහි fixed CMR එක stand in කරයි.
+  - pruned branch එකේ full code witness තුළ පවතින අතර, verifier එය hash කරයි නමුත් execute නොකරයි.
+explanation: >-
+  case f g හි CMR යනු children දෙකේ CMRs මත tagged hash එකක් වන නිසා, සෑම
+  branch එකක්ම — executed හෝ නොexecuted — address time හි committed වේ. construction එක
+  Merkle tree එකක් නිසා, pruned branch එකක් එහි
+  32-byte CMR එක පමණින් summarize කළ හැක: verifier එම hash එක recursive
+  computation එකට plug කර, pruned code කිසිවිට නොදැකම root එක UTXO හි commitment එකට match වන බව
+  check කරයි. commitment එක සඳහා Merkle root එකක් භාවිත කිරීමේ හේතුව මෙයම වන අතර,
+  pruned branch තුළ ඇති ඕනෑම witness expressions කිසිවිට on-chain නොපෙනීමේ හේතුවද මෙයයි.
+reviewed: false

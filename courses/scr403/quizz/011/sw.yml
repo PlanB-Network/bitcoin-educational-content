@@ -1,0 +1,13 @@
+question: Kwa nini expressions za Simplicity husirialishwa kama DAGs badala ya miti?
+answer: Ili kuzuia ukuaji wa kiexponential, kwa kuwa sub-expressions zinazoshirikiwa huhifadhiwa mara moja tu.
+wrong_answers:
+  - Kwa sababu miundo ya miti ya kawaida haiwezi kuwakilisha matawi ya masharti hata kidogo.
+  - Ili kuwezesha utekelezaji sambamba kwenye processors nyingi tofauti za multi-core.
+  - Kwa sababu itifaki ya Liquid Network inalazimisha kwa ukali muundo wa DAG hapa.
+explanation: >-
+  Expressions za Simplicity kwa kawaida huunda miti ambayo ingeweza kukua
+  kiexponential kadiri uchangamano unavyoongezeka. Kwa kusirialisha kama
+  grafu elekezwa zisizo na mizunguko (DAGs), sub-expressions zinazoonekana
+  mara nyingi huhifadhiwa mara moja na kurejelewa na wazazi wengi. Hili
+  hufanya ukubwa halisi wa programu ukue kwa mstari badala ya kiexponential.
+reviewed: false

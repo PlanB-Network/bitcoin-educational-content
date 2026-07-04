@@ -1,0 +1,13 @@
+question: Mối quan hệ giữa Simplicity và phép tính sequent của Gentzen là gì?
+answer: Chín tổ hợp tử của nó phản chiếu mảnh hội-tuyển của phép tính sequent.
+wrong_answers:
+  - Simplicity được dịch trực tiếp từ các chứng minh của phép tính sequent thành mã chạy được.
+  - Phép tính sequent của Gentzen được dùng khi chạy để kiểm tra kiểu cho các chương trình Simplicity.
+  - Chúng hoàn toàn không liên quan, và sự giống nhau bề mặt chỉ thuần túy là trùng hợp.
+explanation: >-
+  Chín quy tắc cốt lõi của Simplicity rất giống các quy tắc trong phép tính
+  sequent của Gentzen, tương tự tương ứng Curry-Howard giữa phép tính lambda
+  và suy diễn tự nhiên. Mối liên hệ này đảm bảo rằng các kiểu trong tiền đề
+  nhỏ hơn trong kết luận, điều mà Bit Machine khai thác để thực thi hiệu quả
+  với việc sao chép dữ liệu tối thiểu.
+reviewed: false

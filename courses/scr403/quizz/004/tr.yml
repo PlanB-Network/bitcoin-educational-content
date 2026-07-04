@@ -1,0 +1,12 @@
+question: Tamlık teoremi Simplicity hakkında neyi garanti eder?
+answer: İki Simplicity türü arasındaki herhangi bir fonksiyonun dokuz kombinatörden oluşturulabileceğini.
+wrong_answers:
+  - Simplicity programlarının her zaman sabit zamanda sonlanmasının garanti edildiğini.
+  - Simplicity'nin Turing-complete olduğunu ve herhangi bir Turing makinesini tamamen simüle edebileceğini.
+  - Her geçerli Simplicity programının tek ve benzersiz bir temsile sahip olduğunu.
+explanation: >-
+  Tamlık teoremi, sonlu Simplicity türleri arasındaki herhangi bir fonksiyon için
+  onu hesaplayan bir Simplicity ifadesi bulunduğunu kanıtlar. Yapıcı kanıt,
+  iç içe case ve scribe ifadeleri kullanarak bir arama tablosu oluşturur.
+  Bu, Rocq ispat asistanında biçimsel olarak doğrulanmıştır.
+reviewed: false

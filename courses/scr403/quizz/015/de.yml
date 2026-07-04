@@ -1,0 +1,13 @@
+question: Warum enthält die Signatur des 'case'-Kombinators einen gemeinsamen Umgebungstyp C?
+answer: Damit beide Zweige gemeinsame Kontextdaten zusätzlich zur getaggten Eingabe lesen können.
+wrong_answers:
+  - Um die Größe der Eingabe zu begrenzen und so Stack-Overflows zu verhindern.
+  - Um rekursive Aufrufe zwischen den beiden Zweigen hin und her zu ermöglichen.
+  - Um die Ausgabe des vorherigen Kombinators weiter oben in der Kette zu speichern.
+explanation: >-
+  Der case-Kombinator hat die Signatur (A + B) × C ⊢ D. Der zusätzliche Typ C
+  fungiert als gemeinsame Umgebung, auf die sowohl der linke Zweig (f : A × C ⊢ D)
+  als auch der rechte Zweig (g : B × C ⊢ D) zugreifen können. Das ist mächtiger
+  als ein einfaches if-then-else, da die Zweige sowohl ihre spezifischen Daten
+  als auch die für die Berechnung benötigten Kontextinformationen erhalten.
+reviewed: false

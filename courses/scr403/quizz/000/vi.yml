@@ -1,0 +1,12 @@
+question: Vì sao Simplicity loại trừ việc cấp phát bộ nhớ động trong quá trình thực thi?
+answer: Để cho phép phân tích tĩnh và loại trừ toàn bộ các lớp lỗi và tấn công.
+wrong_answers:
+  - Vì Liquid Network không hỗ trợ các thao tác bộ nhớ cấp thấp.
+  - Để giảm đường cong học lập trình cho các nhà phát triển hợp đồng thông minh mới.
+  - Vì bản thân Bitcoin Script cũng không có bất kỳ cấp phát bộ nhớ động nào.
+explanation: >-
+  Simplicity tránh cấp phát bộ nhớ động để mọi mức sử dụng tài nguyên
+  có thể được xác định tĩnh trước khi thực thi. Điều này cho phép các
+  giới hạn tài nguyên dự đoán được và loại bỏ các lỗ hổng liên quan đến
+  quản lý bộ nhớ, vốn rất quan trọng trong bối cảnh xác thực blockchain.
+reviewed: false

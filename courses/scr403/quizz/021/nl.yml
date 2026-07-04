@@ -1,0 +1,13 @@
+question: "Waarom is het Failure-effect commutatief in Simplicity, ook al zijn exceptions doorgaans niet commutatief?"
+answer: Omdat het exception-type een eenheid (1) is met slechts één waarde, waardoor de volgorde van optreden er niet toe doet.
+wrong_answers:
+  - Omdat Simplicity alle expressies uitvoert in een deterministische volgorde die door de combinatorboom wordt bepaald.
+  - Omdat het Failure-effect altijd wordt opgevangen en vervolgens opnieuw wordt geworpen door de case-combinator.
+  - Omdat Simplicity batchverificatie gebruikt, waardoor alle geworpen exceptions equivalent worden.
+explanation: >-
+  In het algemeen zijn exceptions niet commutatief, omdat verschillende expressies verschillende
+  exception-waarden kunnen werpen. Simplicity beperkt exceptions echter tot het unit-type (slechts
+  één mogelijke waarde), zodat het verwisselen van de volgorde van twee mogelijk falende expressies
+  dezelfde exception oplevert, ongeacht welke daadwerkelijk faalt. Deze commutativiteitseigenschap
+  maakt belangrijke programma-optimalisaties mogelijk.
+reviewed: true

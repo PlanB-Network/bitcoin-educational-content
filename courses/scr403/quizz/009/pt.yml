@@ -1,0 +1,12 @@
+question: O que um meio-somador (half-adder) calcula?
+answer: O carry (AND) e a soma (XOR) de dois bits de entrada.
+wrong_answers:
+  - A soma de dois inteiros multi-bit com propagação de carry.
+  - A média de dois bits arredondada para baixo.
+  - O OR e o AND bit a bit de dois bits de entrada.
+explanation: >-
+  Um meio-somador recebe dois bits únicos e produz duas saídas usando
+  composição paralela: o bit de carry (AND das entradas) e o bit de soma
+  (XOR das entradas). Na Simplicity é definido como and ▵ xor, executando
+  ambas as operações sobre o mesmo par de entrada.
+reviewed: false

@@ -1,0 +1,16 @@
+question: La prueba de completitud construye cualquier función anidando case para descomponer la entrada y scribe para cada salida. ¿Por qué es solo una herramienta teórica?
+answer: La expresión resultante es una tabla de consulta gigante cuyo tamaño crece exponencialmente — una entrada de 256 bits necesitaría alrededor de 2²⁵⁶ entradas.
+wrong_answers:
+  - scribe es una macro, no un combinador núcleo, por lo que la expresión queda fuera del lenguaje formalmente verificado.
+  - La Máquina de Bits la evalúa en tiempo exponencial, aunque la propia expresión se mantenga compacta gracias al compartido (sharing).
+  - case anidado solo puede descomponer tipos suma, por lo que la construcción falla en cualquier entrada de tipo producto.
+explanation: >-
+  La construcción enumera cada entrada posible mediante descomposición
+  anidada con case y codifica de forma fija cada salida con scribe, de modo que el tamaño de la expresión
+  explota exponencialmente — astronómico para tipos realistas como palabras
+  de 256 bits. La explosión está en el tamaño de la expresión, no en el tiempo de ejecución de una expresión que por lo demás
+  sería compacta. scribe se expande en combinadores núcleo
+  genuinos (unit, injl, injr, pair), por lo que el resultado permanece dentro del
+  lenguaje núcleo, cuyo teorema de completitud está formalmente verificado en Rocq;
+  y la descomposición maneja entradas de cualquier tipo, incluidos los productos.
+reviewed: false

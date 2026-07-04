@@ -1,0 +1,15 @@
+question: half-agg-verify jet บันทึกชุดของ tuples เป็น Writer effect ภายใต้การทดสอบ commutative/idempotent/unitary การออกแบบแบบ set ทำอะไรได้ และยังขาดอะไรอยู่?
+answer: "Commutative และ idempotent (ตามที่ Simplicity ต้องการ) แต่ไม่ unitary: การทิ้ง call หนึ่งจะทำให้ tuple ของมันหายไปและข้าม signature หนึ่งรายการ"
+wrong_answers:
+  - Idempotent และ unitary แต่ไม่ commutative เพราะ aggregate ต้องรวม r-components ตามลำดับการ signing
+  - ครบทั้งสามอย่าง ดังนั้น optimizer อาจ duplicate, reorder, หรือ discard calls ได้อย่างอิสระโดยไม่มีความเสี่ยง
+  - Commutative แต่ไม่ idempotent เพราะการบันทึก tuple เดิมสองครั้งจะเรียกร้อง aggregate s-components สองรายการ
+explanation: >-
+  การปฏิบัติต่อ writer log เป็น set ทำให้ effect เป็น idempotent และ
+  commutative เพราะการแทรกลง set เองมีคุณสมบัติทั้งสอง — ตรงกับสองข้อที่ Simplicity
+  เรียกร้องจากทุก effect อย่างพอดี แต่ unitarity ยังเอื้อมไม่ถึง: เช่นเดียวกับ Failure,
+  การเขียนมีผลต่อความถูกต้องของธุรกรรม เพราะธุรกรรมจะถูกต้องก็ต่อเมื่อ
+  aggregate s-component ครอบคลุมทุก tuple ที่ถูกบันทึกไว้ ดังนั้นนิพจน์ที่ทำการเขียน
+  จึงไม่สามารถถูกทิ้งเพียงเพราะเอาต์พุต unit ของมันไม่ได้ถูกใช้ มิฉะนั้น tuple ของมัน
+  จะหายไปจากการตรวจสอบ half-aggregation อย่างเงียบ ๆ
+reviewed: false

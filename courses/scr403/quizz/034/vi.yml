@@ -1,0 +1,14 @@
+question: Full-adder lấy OR của các bit nhớ từ hai half-adder thay vì lấy XOR. Vì sao OR là đúng?
+answer: Với bất kỳ đầu vào nào, nhiều nhất chỉ một half-adder có thể sinh bit nhớ, nên OR gộp chính xác hai trường hợp loại trừ lẫn nhau.
+wrong_answers:
+  - Hai bit nhớ phải được cộng, và OR là cách phép cộng nhị phân một bit được thực hiện trong Simplicity.
+  - Sau khi rẽ nhánh, OR là toán tử Boolean duy nhất có kiểu vẫn khớp với môi trường.
+  - OR xấp xỉ trên bit nhớ; mọi bit nhớ dư thừa sẽ bị phép chiếu cuối cùng loại bỏ sau đó.
+explanation: >-
+  Nếu half-adder thứ nhất sinh bit nhớ, cả hai bit đầu vào của nó đều là
+  1, nên bit tổng của nó là 0 — và một half-adder nhận đầu vào 0 thì không
+  bao giờ có thể sinh bit nhớ. Vì vậy hai bit nhớ không bao giờ đồng thời
+  là 1, và OR gộp chúng một cách chính xác (trên các đầu vào có thể đạt
+  tới, nó thậm chí trùng với XOR). Tính loại trừ lẫn nhau này chính là
+  điều làm cho phép phân rã full-adder thành hai half-adder là đúng.
+reviewed: false

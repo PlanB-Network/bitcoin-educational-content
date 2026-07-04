@@ -1,0 +1,11 @@
+question: "Koji je tip Simplicity programa?"
+answer: 1 ⊢ 1 (jedinica u jedinicu) — nema smislenog ulaza ni izlaza; sporedni efekti obavljaju U/I.
+wrong_answers:
+  - TxEnv ⊢ Bool — uzima podatke transakcije i vraća logičku vrednost validnosti.
+  - 2^256 ⊢ 2^256 — uzima heš na ulazu i vraća novu heš vrednost na izlazu.
+  - Bilo koji tip A ⊢ B — programi mogu imati potpuno proizvoljne ulazne i izlazne tipove.
+explanation: >-
+  Simplicity program je definisan kao izraz tipa 1 ⊢ 1. Reader efekat obuhvata
+  ulaz okruženja transakcije, dok Failure efekat određuje uspeh ili neuspeh.
+  Ovi sporedni efekti obrađuju sve U/I umesto samih Simplicity tipova.
+reviewed: true

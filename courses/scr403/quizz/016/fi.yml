@@ -1,0 +1,14 @@
+question: Mikä on Simplicityn ja Gentzenin sekventtikalkyylin välinen suhde?
+answer: Sen yhdeksän kombinaattoria heijastavat sekventtikalkyylin konjunktiivis-disjunktiivista fragmenttia.
+wrong_answers:
+  - Simplicity käännettiin suoraan sekventtikalkyylin todistuksista toimivaksi koodiksi.
+  - Gentzenin sekventtikalkyyliä käytetään ajonaikaisesti Simplicity-ohjelmien tyyppitarkistukseen.
+  - Ne ovat täysin toisiinsa liittymättömiä, ja pinnallinen samankaltaisuus on puhtaasti sattumaa.
+explanation: >-
+  Simplicityn yhdeksän ydinsääntöä muistuttavat läheisesti Gentzenin
+  sekventtikalkyylin sääntöjä, analogisesti lambdakalkyylin ja luonnollisen
+  päättelyn välisen Curry-Howard-vastaavuuden kanssa. Tämä yhteys takaa,
+  että premisseissä olevat tyypit ovat pienempiä kuin johtopäätöksissä,
+  mitä Bit Machine hyödyntää tehokkaassa suorituksessa minimaalisella
+  datan kopioinnilla.
+reviewed: false

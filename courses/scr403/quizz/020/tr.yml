@@ -1,0 +1,12 @@
+question: "Simplicity'de Bitcoin ve Liquid uygulamaları için kullanılan iki yan etki nedir?"
+answer: "Failure etkisi (1 türünde bir istisna) ve Reader etkisi (işlem ortamı verilerine erişim)."
+wrong_answers:
+  - "State etkisi (değiştirilebilir değişkenler) ve Writer etkisi (bir işlem günlüğüne kayıt)."
+  - "IO etkisi (ağ iletişimi) ve Memory etkisi (dinamik bellek ayırma)."
+  - "Continuation etkisi (callback'ler) ve Nondeterminism etkisi (birden çok yürütme yolu)."
+explanation: >-
+  Simplicity, blockchain uygulamaları için tam olarak iki yan etki kullanır. Failure etkisi,
+  hesaplamaların sonlandırılmasına izin verir (örneğin bir imza kontrolü başarısız olduğunda),
+  Reader etkisi ise ifadelerin işlem ortamından veri okumasına izin verir. Çekirdek
+  kombinatörler saf kalır — yan etkiler jet'ler aracılığıyla getirilir.
+reviewed: true

@@ -1,0 +1,9 @@
+question: pair (drop iden) (take iden) 的型別是什麼，它表示的又是什麼函數？
+answer: A × B ⊢ B × A —— 它交換配對的兩個元素。
+wrong_answers:
+  - A × B ⊢ A × B —— 它讓兩個元素原封不動地通過（即恆等）。
+  - "型別不正確：take iden 與 drop iden 有不同的輸出型別，而 pair 無法將它們合併。"
+  - (A × B) × (A × B) ⊢ B × A —— pair 會合併它兩個子運算式的輸入型別。
+explanation: >-
+  drop iden : A × B ⊢ B 取出第二個元素，而 take iden : A × B ⊢ A 取出第一個。pair 組合子只要求它的兩個子運算式共用相同的輸入型別（此處為 A × B）；它們的輸出可以不同，並會以配對的形式回傳。因此，對於輸入 ⟨a, b⟩，該運算式會產生 ⟨b, a⟩：即型別為 A × B ⊢ B × A 的交換函數。
+reviewed: false

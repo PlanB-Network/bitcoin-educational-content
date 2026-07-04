@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden) の型は何で、どの関数を表しますか？
+answer: A × B ⊢ B × A — ペアの 2 つの成分を入れ替えます。
+wrong_answers:
+  - A × B ⊢ A × B — 両方の成分を変更せずそのまま通します（恒等関数）。
+  - "不適切な型: take iden と drop iden は出力型が異なり、pair はそれらをマージできない。"
+  - (A × B) × (A × B) ⊢ B × A — pair は 2 つの部分式の入力型をマージする。
+explanation: >-
+  drop iden : A × B ⊢ B は第 2 成分を取り出し、take iden : A ×
+  B ⊢ A は第 1 成分を取り出します。pair コンビネータが要求するのは、2 つの
+  部分式が同じ入力型（ここでは A × B）を共有することだけです。出力型は
+  異なっていてもよく、それらはペアとして返されます。したがって入力 ⟨a, b⟩ に対して、
+  この式は ⟨b, a⟩ を返します。つまり型 A × B ⊢ B × A の swap 関数です。
+reviewed: false

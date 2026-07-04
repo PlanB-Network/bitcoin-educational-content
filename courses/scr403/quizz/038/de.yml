@@ -1,0 +1,19 @@
+question: Ein half-agg-verify-Jet protokolliert eine Menge von Tupeln als Writer-Effekt. Was erreicht der Mengen-Entwurf beim Test auf Kommutativität/Idempotenz/Unitarität, und was fehlt noch?
+answer: "Kommutativ und idempotent (wie von Simplicity gefordert), aber nicht unitär: Das Verwerfen eines Aufrufs würde dessen Tupel verlieren und eine Signatur überspringen."
+wrong_answers:
+  - Idempotent und unitär, aber nicht kommutativ, da das Aggregat die r-Komponenten in Signierreihenfolge kombinieren muss.
+  - Alle drei, sodass ein Optimierer die Aufrufe risikofrei duplizieren, umordnen oder verwerfen darf.
+  - Kommutativ, aber nicht idempotent, da das zweimalige Protokollieren desselben Tupels zwei aggregierte s-Komponenten erfordern würde.
+explanation: >-
+  Das Writer-Protokoll als Menge zu behandeln, macht den Effekt idempotent
+  und kommutativ, da die Mengeneinfügung selbst beide Eigenschaften
+  besitzt — genau die zwei Eigenschaften, die Simplicity von jedem Effekt
+  verlangt. Unitarität bleibt außer Reichweite: Wie bei Failure
+  beeinflusst das Schreiben die Gültigkeit der Transaktion, da die
+  Transaktion nur gültig ist, wenn eine aggregierte s-Komponente jedes
+  protokollierte Tupel abdeckt. Ein Ausdruck, der das Schreiben
+  durchführt, kann daher nicht allein deshalb verworfen werden, weil
+  seine Unit-Ausgabe ungenutzt bleibt, da sein Tupel dadurch
+  stillschweigend aus der Halb-Aggregationsverifikation verschwinden
+  würde.
+reviewed: false

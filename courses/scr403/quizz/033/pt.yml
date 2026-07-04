@@ -1,0 +1,15 @@
+question: Dadas as regras de tipagem "tipos menores nas premissas", quais combinadores centrais realmente movem dados durante a execução?
+answer: Apenas iden e comp; os outros sete são implementados com nada mais do que contabilidade interna.
+wrong_answers:
+  - Apenas take e drop; extrair um componente força a máquina a copiá-lo para fora do produto.
+  - Apenas pair e case; duplicar a entrada para dois ramos e despachar com base em uma tag movimentam dados.
+  - Apenas injl e injr; adicionar uma tag reescreve o valor em uma representação de tipo soma maior.
+explanation: >-
+  Contraintuitivamente, os combinadores que parecem de acesso a dados
+  (take, drop, pair, case, injl, injr) não precisam de cópia: como as
+  premissas nas regras de tipagem envolvem tipos menores do que suas
+  conclusões, a Bit Machine consegue implementá-los apenas com
+  contabilidade interna. Somente iden, que copia toda a sua entrada para a
+  saída, e comp, que materializa um valor intermediário passado de f para
+  g, realmente movem dados.
+reviewed: false

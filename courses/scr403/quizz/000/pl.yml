@@ -1,0 +1,12 @@
+question: Dlaczego Simplicity wyklucza dynamiczną alokację pamięci podczas wykonywania?
+answer: Aby umożliwić analizę statyczną i wyeliminować całe klasy błędów oraz ataków.
+wrong_answers:
+  - Ponieważ Liquid Network nie obsługuje niskopoziomowych operacji na pamięci.
+  - Aby zmniejszyć krzywą uczenia się programowania dla nowych programistów inteligentnych kontraktów.
+  - Ponieważ sam Bitcoin Script również nie ma żadnej dynamicznej alokacji pamięci.
+explanation: >-
+  Simplicity unika dynamicznej alokacji pamięci, dzięki czemu całe zużycie
+  zasobów można określić statycznie przed wykonaniem. Umożliwia to przewidywalne
+  ograniczenia zasobów i eliminuje podatności związane z zarządzaniem pamięcią,
+  co jest kluczowe w kontekście walidacji blockchaina.
+reviewed: false

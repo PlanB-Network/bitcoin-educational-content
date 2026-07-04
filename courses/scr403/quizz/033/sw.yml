@@ -1,0 +1,16 @@
+question: Uthibitisho wa ukamilifu huunda kazi yoyote kwa kutandika case ili kuvunja ingizo na scribe kwa kila pato. Kwa nini ni zana ya kinadharia tu?
+answer: Usemi unaotokana ni jedwali kubwa la lookup ambalo ukubwa wake hukua kwa kasi ya eksponenti — ingizo la biti 256 lingehitaji takribani maingizo 2²⁵⁶.
+wrong_answers:
+  - scribe ni macro, si combinator ya msingi, hivyo usemi hutoka nje ya lugha iliyothibitishwa rasmi.
+  - Bit Machine huitathmini kwa muda wa eksponenti, ingawa usemi wenyewe hubaki kompakt kupitia sharing.
+  - case iliyotandikwa inaweza kuvunja aina za jumla pekee, hivyo ujenzi hushindwa kwenye ingizo lolote lenye aina ya zao.
+explanation: >-
+  Ujenzi huu huorodhesha kila ingizo linalowezekana kupitia uvunjaji wa case
+  iliyotandikwa na huandika kila pato moja kwa moja kwa scribe, hivyo ukubwa wa usemi
+  hulipuka kwa kasi ya eksponenti — wa kiastronomia kwa aina halisi kama maneno ya biti 256.
+  Mlipuko huo uko katika ukubwa wa usemi, si katika muda wa utekelezaji wa usemi mwingine
+  kompakt. scribe hupanuka kuwa combinators halisi za msingi
+  (unit, injl, injr, pair), hivyo matokeo hubaki ndani ya
+  lugha ya msingi, ambayo theorem yake ya ukamilifu imethibitishwa rasmi katika Rocq;
+  na uvunjaji hushughulikia maingizo ya aina yoyote, yakiwemo mazao.
+reviewed: false

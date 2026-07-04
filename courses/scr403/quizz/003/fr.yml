@@ -1,0 +1,12 @@
+question: Qu'est-ce qu'un type somme (A + B) en Simplicity ?
+answer: "Une union étiquetée : une valeur est soit un A étiqueté à gauche, soit un B étiqueté à droite."
+wrong_answers:
+  - Un type qui contient toutes les valeurs de A et de B simultanément.
+  - Une addition arithmétique des tailles en bits des deux types composants.
+  - Un type fonction qui associe chaque entrée de A à une sortie dans B.
+explanation: >-
+  Un type somme A + B est une union étiquetée. Chaque valeur porte une étiquette
+  d'un bit indiquant s'il s'agit d'une variante gauche (de type A) ou d'une
+  variante droite (de type B). Même lorsque A et B sont le même type, les valeurs
+  étiquetées à gauche et à droite restent distinctes.
+reviewed: false

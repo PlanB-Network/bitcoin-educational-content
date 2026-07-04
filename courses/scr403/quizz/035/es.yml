@@ -1,0 +1,14 @@
+question: "Traza el sumador completo sobre ⟨⟨1,1⟩,1⟩ (1+1+1). ¿Qué valor entrega la etapa dos, O O H ▵ (O I H ▵ I H ⨾ half-adder), a la etapa final?"
+answer: ⟨1, ⟨0, 1⟩⟩ — el acarreo del primer semisumador, luego el acarreo y la suma del segundo.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — el acarreo del primer semisumador, luego la suma y el acarreo del segundo.
+  - ⟨0, ⟨0, 1⟩⟩ — el bit de suma del primer semisumador, luego el acarreo y la suma del segundo.
+  - ⟨1, ⟨1, 1⟩⟩ — el acarreo del primer semisumador, luego los bits OR y XOR del segundo.
+explanation: >-
+  La etapa uno calcula half-adder⟨1,1⟩ = ⟨1, 0⟩ (acarreo 1, suma 0) y guarda
+  el acarreo de entrada, dando ⟨⟨1,0⟩, 1⟩. En la etapa dos, O O H extrae el primer
+  acarreo (1), mientras que O I H ▵ I H alimenta ⟨0, 1⟩ — la primera suma y el acarreo
+  de entrada — al segundo semisumador, produciendo ⟨0, 1⟩ ya que and(0,1)=0 y
+  xor(0,1)=1. La etapa final entonces hace OR de los dos acarreos y conserva la suma,
+  produciendo ⟨1, 1⟩: binario 3, como se esperaba.
+reviewed: false

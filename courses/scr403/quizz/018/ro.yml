@@ -1,0 +1,13 @@
+question: Cum sunt reprezentate buffer-ele de lungime variabilă în sistemul de tipuri al Simplicity?
+answer: Ca produse imbricate de tip option, fiecare strat marcând un bloc de dimensiune putere a lui doi.
+wrong_answers:
+  - Folosind un tip dedicat de array dinamic, integrat direct în limbaj.
+  - Prin tipuri sumă recursive care cresc la fiecare apel de funcție.
+  - Ca vectori de dimensiune fixă, umpluți la final cu valori zero.
+explanation: >-
+  Buffer-ele folosesc tipuri option imbricate. De exemplu, Xᑉ⁸ se extinde la
+  (1 + X⁴) × ((1 + X²) × (1 + X)), care ca polinom dă
+  1 + X + X² + ... + X⁷ — reprezentând colecții de la 0 la 7 elemente.
+  Fiecare strat option indică dacă un bloc de dimensiune putere a lui doi
+  este prezent, codificând astfel lungimea în binar.
+reviewed: false

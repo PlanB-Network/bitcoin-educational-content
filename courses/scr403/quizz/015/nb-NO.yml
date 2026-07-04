@@ -1,0 +1,13 @@
+question: Hvorfor inkluderer 'case'-kombinatoren en delt miljøtype C i signaturen sin?
+answer: Slik at begge grenene kan lese delt kontekstdata sammen med det taggede inndataet.
+wrong_answers:
+  - For å begrense størrelsen på inndataene og dermed hindre stack overflow.
+  - For å muliggjøre rekursive kall frem og tilbake mellom de to grenene.
+  - For å lagre utdataene fra den forrige kombinatoren tidligere i kjeden.
+explanation: >-
+  Case-kombinatoren har signaturen (A + B) × C ⊢ D. Den ekstra typen C
+  fungerer som et delt miljø som både venstre gren (f : A × C ⊢ D)
+  og høyre gren (g : B × C ⊢ D) kan få tilgang til. Dette er kraftigere
+  enn en enkel hvis-så-ellers-konstruksjon fordi grenene mottar både sine
+  spesifikke data og kontekstuell informasjon som trengs for beregningen.
+reviewed: false

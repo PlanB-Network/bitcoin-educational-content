@@ -1,0 +1,12 @@
+question: "Zašto su witness vrednosti isključene iz Commitment Merkle Root-a (CMR)?"
+answer: Da bi se adrese formirale pre nego što se witness vrednosti saznaju, a nekorišćene grane se orezuju privatno.
+wrong_answers:
+  - Zato što su witness vrednosti jednostavno prevelike da bi se uključile u 256-bitni heš.
+  - Zato što se witness vrednosti validiraju potpuno odvojeno pomoću Failure efekta.
+  - Zato što bi uključivanje witness vrednosti učinilo CMR nedeterminističkim.
+explanation: >-
+  Witness izrazi (poput potpisa) se dostavljaju u trenutku trošenja, a ne u trenutku kreiranja adrese.
+  Njihovo isključivanje iz CMR-a omogućava dva važna svojstva: adrese se mogu generisati pre
+  nego što transakcija trošenja postoji, a neizvršene uslovne grane se mogu orezati iz
+  podataka na lancu bez otkrivanja pridruženih witness vrednosti.
+reviewed: true

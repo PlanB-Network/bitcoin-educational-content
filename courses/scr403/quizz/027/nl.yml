@@ -1,0 +1,13 @@
+question: "Waarom worden witness-waarden uitgesloten van de Commitment Merkle Root (CMR)?"
+answer: Zodat adressen gevormd kunnen worden voordat witnesses bekend zijn, en ongebruikte takken privé kunnen worden weggesnoeid.
+wrong_answers:
+  - Omdat witness-waarden simpelweg te groot zijn om in een 256-bit hash op te nemen.
+  - Omdat witness-waarden volledig apart worden gevalideerd door het Failure-effect.
+  - Omdat het opnemen van de witness-waarden de CMR niet-deterministisch zou maken.
+explanation: >-
+  Witness-expressies (zoals handtekeningen) worden pas geleverd op het moment van besteden, niet op
+  het moment van adrescreatie. Door ze uit te sluiten van de CMR ontstaan twee belangrijke eigenschappen:
+  adressen kunnen worden gegenereerd voordat de bestedende transactie bestaat, en niet-uitgevoerde
+  conditionele takken kunnen worden weggesnoeid uit de on-chain data zonder hun bijbehorende
+  witness-waarden prijs te geven.
+reviewed: true

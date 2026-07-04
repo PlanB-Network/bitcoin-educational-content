@@ -1,0 +1,11 @@
+question: Uguteranya ku murongo bitanga iki igihe uhuza igikorwa f (A → B) n'igikorwa g (B → C)?
+answer: Igikorwa kimwe giteranyijwe kuva kuri A gushika kuri C, aho umusaruro wa f uca uba ivyinjizwa muri g.
+wrong_answers:
+  - Agaciro k'umugwi karimwo imisuro yompi yo hagati y'ubwoko B na C.
+  - Ikintu c'ihitamwo gihitamwo hagati ya f na g hisunzwe ivyinjizwa.
+  - Ibikorwa bibiri bitandukanye bikora ukwavyo, bitasangiye amakuru.
+explanation: >-
+  Uguteranya ku murongo guhuza ibikorwa bibiri kuva ku ntango gushika ku mpera. Umusaruro w'igikorwa
+  ca mbere uba ivyinjizwa vy'igikorwa ca kabiri. Muri Simplicity, ivyo bigaragazwa n'umuteranyi
+  comp: comp f g ibanza gukoresha f, hanyuma igakoresha g ku vyavuye muri f.
+reviewed: false

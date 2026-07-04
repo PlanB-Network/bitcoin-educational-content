@@ -1,0 +1,12 @@
+question: Was geschieht bei paralleler Komposition mit der Eingabe?
+answer: Beide Operationen erhalten dieselbe Eingabe, und ihre Ausgaben bilden ein Produkt (Paar).
+wrong_answers:
+  - Die Eingabe wird geteilt, wobei jede Operation einen separaten Teil erhält.
+  - Eine Operation verarbeitet die Eingabe zuerst, und die andere erhält das veränderte Ergebnis.
+  - Die Eingabe wird markiert und nur an eine der beiden Operationen zur Verarbeitung weitergeleitet.
+explanation: >-
+  Die parallele Komposition gibt beiden Operationen gleichzeitig dieselbe,
+  unveränderte Eingabe. Die Ergebnisse werden zu einem Produkttyp (Paar)
+  gebündelt. In Simplicity wird dafür der pair-Kombinator verwendet,
+  geschrieben als f ▵ g, der ⟨f(a), g(a)⟩ für die Eingabe a erzeugt.
+reviewed: false

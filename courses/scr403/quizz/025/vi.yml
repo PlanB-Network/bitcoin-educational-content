@@ -1,0 +1,12 @@
+question: "Commitment Merkle Root (CMR) trong Simplicity là gì?"
+answer: Một hash 256 bit cam kết với cấu trúc của một chương trình Simplicity bằng SHA-256 có gắn thẻ.
+wrong_answers:
+  - Một cây nhị phân chứa mọi đường thực thi khả dĩ của một chương trình Simplicity.
+  - Một hash của các kiểu chương trình và giá trị witness được dùng để xác minh địa chỉ.
+  - Một gốc Merkle của dữ liệu giao dịch mà chương trình được phép truy cập.
+explanation: >-
+  Mỗi tổ hợp tử Simplicity có một thẻ SHA-256 duy nhất (ví dụ, Simplicity␟Commitment␟iden), và
+  CMR được tính bằng cách băm đệ quy cây tổ hợp tử của chương trình bằng các midstate có gắn thẻ này.
+  Quan trọng là, CMR không cam kết với các kiểu của biểu thức, mà dựa vào suy luận kiểu
+  trong quá trình redeem. CMR được dùng để cam kết các chương trình vào địa chỉ Taproot.
+reviewed: true

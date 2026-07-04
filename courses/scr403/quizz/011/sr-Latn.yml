@@ -1,0 +1,13 @@
+question: Koja je uloga jet-ova u Simplicity-ju?
+answer: Jet-ovi su nativne implementacije koje zamenjuju date Simplicity izraze radi brzine.
+wrong_answers:
+  - Jet-ovi su korak kompilacije koji konvertuje Simplicity u Bitcoin Script.
+  - Jet-ovi su mrežne poruke koje emituju Simplicity programe svim čvorovima.
+  - Jet-ovi su alati za otklanjanje grešaka za testiranje i praćenje Simplicity izraza.
+explanation: >-
+  Jet je nativna implementacija koju mreža pristaje da koristi umesto
+  određenog Simplicity izraza (identifikovanog svojim Merkle korenom).
+  Simplicity izraz služi kao formalna specifikacija onoga što
+  jet izračunava, dok nativni kod pruža praktičnu brzinu izvršavanja.
+  Uobičajeni jet-ovi obrađuju aritmetičke i kriptografske operacije poput SHA-256.
+reviewed: false

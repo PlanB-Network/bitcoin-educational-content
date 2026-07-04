@@ -1,0 +1,14 @@
+question: 给定“前提中的类型更小”的类型规则，哪些核心组合子在执行期间实际移动数据？
+answer: 只有 iden 和 comp；其他七个只用记账即可实现。
+wrong_answers:
+  - 只有 take 和 drop；提取一个分量会迫使机器把它从积中复制出来。
+  - 只有 pair 和 case；为两个分支复制输入并按标签分派会打乱数据。
+  - 只有 injl 和 injr；添加标签会把值重写成更大的和类型表示。
+explanation: >-
+  反直觉的是，那些看起来像在访问数据的组合子（take、
+  drop、pair、case、injl、injr）不需要复制：因为
+  类型规则中的前提涉及的类型比其结论更小，Bit
+  Machine 可以只用记账来实现它们。只有 iden 会把整个输入
+  复制到输出，而 comp 会物化从 f 传给 g 的
+  中间值，二者才真正移动数据。
+reviewed: false

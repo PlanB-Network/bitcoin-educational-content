@@ -1,0 +1,13 @@
+question: Hoe worden vectoren van vaste lengte opgebouwd in het typesysteem van Simplicity?
+answer: Via geneste producttypes met een lengte die een macht van twee is (bv. A⁴ = A² × A²).
+wrong_answers:
+  - Met een speciale array-typeconstructor die in de taal is ingebouwd.
+  - Via recursieve somtypes die de elementen aan elkaar koppelen tot een lijst.
+  - Met buffers van variabele lengte die een vaste maximale grootte hebben.
+explanation: >-
+  Simplicity bouwt vectoren op uit geneste producttypes. A² is A × A, A⁴ is
+  A² × A², A⁸ is A⁴ × A⁴, enzovoort. Dit levert verzamelingen op met een
+  grootte die een macht van twee is. Zo wordt bijvoorbeeld 𝟚²⁵⁶ (een 256-bits
+  hash) opgebouwd door producten acht niveaus diep te nesten, vanaf het
+  booleaanse type.
+reviewed: false

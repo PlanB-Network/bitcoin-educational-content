@@ -1,0 +1,16 @@
+question: Simplicity의 effects는 commutative이고 idempotent이지만 unitary는 아닙니다. 따라서 optimizer가 일반적으로 거부해야 하는 transformation은 무엇인가요?
+answer: 겉보기에 dead인 표현식을 unit으로 대체하는 것 — Failure는 unitary가 아니므로, 반드시 abort해야 하는 실패하는 검사를 숨길 수 있습니다.
+wrong_answers:
+  - 두 independent subexpression을 서로 바꾸는 것, sig-all-hash가 다른 environment state를 관찰할 수 있기 때문입니다.
+  - 동일한 verify 호출 두 개를 병합하는 것, duplicated Failure가 두 번 throw되어 잘못 abort할 수 있기 때문입니다.
+  - throw할 수 있는 표현식들을 재정렬하는 것, 전파되는 exception이 어느 쪽이 먼저 실행되는지에 따라 달라지기 때문입니다.
+explanation: >-
+  Simplicity의 effects는 commutative이고 idempotent임이 보장되므로,
+  independent subexpression들을 서로 바꾸거나 동일한 것들을 복제 또는 병합하는 것은
+  항상 안전합니다. Reader 환경은 고정되어 있고, Failure의
+  unit-typed exception은 어느 쪽이 먼저 throw하든, 몇 번 throw하든 동일합니다.
+  그러나 discard transformation `f ⨾ unit = unit`은
+  unitarity를 요구하는데, Failure에는 이것이 없습니다. `f`가 유효하지 않은 signature에 대한
+  `bip0340-verify`를 포함한다면, 이 'dead' code를 제거하는 것은
+  abort를 optimize away하여 실패해야 할 transaction을 유효화할 것입니다.
+reviewed: false

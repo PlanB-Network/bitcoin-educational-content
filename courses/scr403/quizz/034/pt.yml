@@ -1,0 +1,14 @@
+question: O full-adder faz OR dos bits de carry de seus dois half-adders em vez de XOR. Por que OR está correto?
+answer: No máximo um half-adder pode gerar carry para qualquer entrada, então OR combina dois casos mutuamente exclusivos exatamente.
+wrong_answers:
+  - Os dois bits de carry precisam ser somados, e OR é como a adição binária de um único bit é feita em Simplicity.
+  - Depois da ramificação, OR é o único operador booleano cujo tipo ainda corresponde ao ambiente.
+  - OR superestima o carry; quaisquer carries espúrios são descartados pela projeção final depois.
+explanation: >-
+  Se o primeiro half-adder gera carry, ambos os seus bits de entrada eram
+  1, então seu bit de soma é 0 — e um half-adder alimentado com um 0 nunca
+  pode gerar carry. Os dois bits de carry, portanto, nunca são 1
+  simultaneamente, e OR os combina exatamente (nas entradas alcançáveis
+  ele até coincide com XOR). Essa exclusividade mútua é precisamente o que
+  torna correta a decomposição de um full-adder em dois half-adders.
+reviewed: false

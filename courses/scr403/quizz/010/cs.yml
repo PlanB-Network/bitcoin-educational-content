@@ -1,0 +1,12 @@
+question: Jak se v typovém systému Simplicity sestavují vektory pevné délky?
+answer: Pomocí vnořených součinových typů s délkou mocniny dvou (např. A⁴ = A² × A²).
+wrong_answers:
+  - Pomocí speciálního konstruktoru typu pole zabudovaného do jazyka.
+  - Pomocí rekurzivních součtových typů, které zřetězují prvky do seznamu.
+  - Pomocí bufferů proměnné délky s pevnou maximální velikostí.
+explanation: >-
+  Simplicity sestavuje vektory z vnořených součinových typů. A² je A × A,
+  A⁴ je A² × A², A⁸ je A⁴ × A⁴ a tak dále. To dává kolekce velikosti mocniny
+  dvou. Například 𝟚²⁵⁶ (256bitový hash) se sestaví vnořením součinů do
+  hloubky 8 úrovní z booleovského typu.
+reviewed: false

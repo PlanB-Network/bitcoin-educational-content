@@ -1,0 +1,11 @@
+question: Mitä 'take'-kombinaattori tekee?
+answer: Se poimii tulon vasemman komponentin ja hylkää oikean.
+wrong_answers:
+  - Se poistaa elementin summatyypistä ja hylkää tunnistebitin.
+  - Se yhdistää kaksi erillistä operaatiota peräkkäin päästä päähän.
+  - Se kietoo arvon vasemmalla tunnisteella uuden summatyypin rakentamiseksi.
+explanation: >-
+  take-kombinaattori on poimija tulotyypeille. Kun take f sovelletaan pariin
+  ⟨a, b⟩, se hylkää b:n ja soveltaa f:ää a:han. Yhdistettynä iden:iin, take iden
+  poimii minkä tahansa parin ensimmäisen elementin.
+reviewed: false

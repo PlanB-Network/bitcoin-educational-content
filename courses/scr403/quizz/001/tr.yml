@@ -1,0 +1,11 @@
+question: f (A → B) işlemi ile g (B → C) işlemini zincirlerken ardışık bileşim ne üretir?
+answer: f'nin çıktısının g'ye beslendiği, A'dan C'ye tek bir bileşik işlem.
+wrong_answers:
+  - Hem B hem de C türündeki ara çıktıları içeren bir çift değeri.
+  - Girdiye göre f ile g arasında seçim yapan bir koşul.
+  - Hiç veri paylaşmadan bağımsız çalışan iki ayrı işlem.
+explanation: >-
+  Ardışık bileşim iki işlemi uçtan uca zincirler. İlk işlemin çıktısı
+  ikinci işlemin girdisi olur. Simplicity'de bu, comp kombinatörüyle
+  ifade edilir: comp f g önce f'yi, ardından sonuca g'yi uygular.
+reviewed: false

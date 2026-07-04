@@ -1,0 +1,12 @@
+question: Aina ya unit (𝟙) ni nini na kwa nini ni muhimu licha ya kutobeba taarifa yoyote?
+answer: Inashikilia thamani moja (tuple tupu) na ndiyo msingi wa aina nyingine zote.
+wrong_answers:
+  - Huwakilisha nambari 1 na hutumiwa moja kwa moja kwa operesheni za arithmetic.
+  - Ni aina maalum ya debugging inayorekodi traces za utekelezaji kwenye faili.
+  - Huhifadhi biti moja hasa ya data inayotumiwa kwa operesheni za boolean.
+explanation: >-
+  Aina ya unit 𝟙 ina thamani moja hasa — tuple tupu ⟨⟩. Ingawa haibebi
+  biti zozote za taarifa, ni muhimu kama mbegu ambayo aina za sum na
+  product hutumia kujenga aina zote muhimu za data. Kwa mfano, aina ya
+  boolean 𝟚 ni 𝟙 + 𝟙, iliyojengwa kabisa kutoka aina za unit.
+reviewed: false

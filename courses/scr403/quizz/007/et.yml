@@ -1,0 +1,12 @@
+question: Kuidas on tõeväärtustüüp (𝟚) Simplicitys defineeritud?
+answer: Summatüübina 𝟙 + 𝟙, mis sisaldab täpselt kaht väärtust (väär ja tõene).
+wrong_answers:
+  - Korrutistüübina 𝟙 × 𝟙, mis sisaldaks siis ainult üht väärtust.
+  - Spetsiaalse primitiivtüübina, mis on ehitatud otse keelde.
+  - 32-bitise täisarvutüübina, mis on piiratud ainult väärtustega 0 ja 1.
+explanation: >-
+  Tõeväärtustüüp 𝟚 on defineeritud kui 𝟙 + 𝟙, kahe ühiktüübi summa. Vasaku
+  sildiga väärtus σᴸ⟨⟩ esindab väära (0) ja parema sildiga väärtus σᴿ⟨⟩ esindab
+  tõest (1). See on ühebitine andmetüüp, mis on ehitatud ainult ühiktüübist ja
+  summatüübi moodustajast — korrutise moodustajat ei ole vaja.
+reviewed: false

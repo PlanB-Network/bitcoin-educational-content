@@ -1,0 +1,12 @@
+question: "Kubera iki ingaruka ya Failure ari commutative muri Simplicity, naho exceptions muri rusangi zitaba commutative?"
+answer: Kubera ko ubwoko bwa exception ari unit (1) ifise value imwe gusa, rero urutonde rwo gutera exception ntaco ruhindura.
+wrong_answers:
+  - Kubera ko Simplicity ikora expressions zose mu rutonde deterministic rusigurwa na tree ya combinator.
+  - Kubera ko ingaruka ya Failure yama ifatwa hanyuma igasubira guterwa na combinator case.
+  - Kubera ko Simplicity ikoresha batch verification, ituma exceptions zose zitewe ziba zingana.
+explanation: >-
+  Muri rusangi, exceptions si commutative kuko expressions zitandukanye zishobora gutera
+  values za exception zitandukanye. Ariko Simplicity igarukira kuri exceptions z'ubwoko unit (value imwe yonyene ishoboka),
+  rero guhindura urutonde rw'expressions zibiri zishobora kunanirwa bitanga exception imwe, tutitaye
+  ku yinanirwa vy'ukuri. Uyu muco wa commutativity ushoboza optimizations zihambaye za porogarama.
+reviewed: true

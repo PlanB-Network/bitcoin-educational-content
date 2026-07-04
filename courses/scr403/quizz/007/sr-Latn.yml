@@ -1,0 +1,13 @@
+question: Kako je Bulov tip (𝟚) definisan u Simplicity-ju?
+answer: Kao zbirni tip 𝟙 + 𝟙, koji sadrži tačno dve vrednosti (netačno i tačno).
+wrong_answers:
+  - Kao proizvodni tip 𝟙 × 𝟙 koji bi tada sadržao samo jednu vrednost.
+  - Kao specijalni primitivni tip ugrađen direktno u jezik.
+  - Kao 32-bitni celobrojni tip ograničen samo na vrednosti 0 i 1.
+explanation: >-
+  Bulov tip 𝟚 je definisan kao 𝟙 + 𝟙, zbir dva jedinična tipa.
+  Levo označena vrednost σᴸ⟨⟩ predstavlja netačno (0), a desno označena
+  vrednost σᴿ⟨⟩ predstavlja tačno (1). Ovo je jednobitni tip podataka
+  izgrađen samo od jediničnog tipa i konstruktora zbirnog tipa —
+  konstruktor proizvoda nije potreban.
+reviewed: false

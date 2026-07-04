@@ -1,0 +1,16 @@
+question: half-agg-verify jet tuples के set को Writer effect के रूप में log करता है। commutative/idempotent/unitary test के तहत, set design क्या हासिल करता है, और अभी क्या missing है?
+answer: "Commutative और idempotent (जैसा Simplicity require करती है), लेकिन unitary नहीं: call discard करने से उसका tuple drop हो जाएगा और signature skip हो जाएगा।"
+wrong_answers:
+  - Idempotent और unitary, लेकिन commutative नहीं, क्योंकि aggregate को r-components को signing order में combine करना पड़ता है।
+  - तीनों, इसलिए optimizer calls को बिना risk freely duplicate, reorder, या discard कर सकता है।
+  - Commutative लेकिन idempotent नहीं, क्योंकि same tuple को दो बार log करना दो aggregate s-components मांगता।
+explanation: >-
+  Writer log को set की तरह treat करने से effect idempotent और commutative बनता
+  है, क्योंकि set insertion में स्वयं दोनों properties होती हैं — ठीक वे दो
+  properties जो Simplicity हर effect से मांगती है। Unitarity अभी भी reach से बाहर
+  है: Failure की तरह, write transaction validity को influence करता है, क्योंकि
+  transaction केवल तब valid है जब aggregate s-component हर logged tuple को cover
+  करता है। Write perform करने वाले expression को इसलिए केवल उसके unit output के
+  unused होने से discard नहीं किया जा सकता, क्योंकि उसका tuple half-aggregation
+  verification से silently vanish हो जाएगा।
+reviewed: false

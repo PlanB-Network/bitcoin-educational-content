@@ -1,0 +1,17 @@
+question: Igihinyuza c'ukwuzura cubaka function iyo ari yo yose mu kwinjizamwo case ku buryo busubiranamwo kugira ngo gisambure input, hanyuma kigakoresha scribe kuri buri output. Kubera iki ari igikoresho c'inyigisho gusa?
+answer: Imvugo ivamwo ni imeza nini cane yo kuronderamwo, ubunini bwayo bugakura mu buryo bwa exponential — input ya 256-bit yosaba nk'ivyinjizwa 2²⁵⁶.
+wrong_answers:
+  - scribe ni macro, si combinator y'ishimikiro, rero iyo mvugo ica ija hanze y'ururimi rwemejwe formal.
+  - Bit Machine iyikora mu gihe exponential, naho imvugo ubwayo iguma ntoyi kubera sharing.
+  - Nested case ishobora gusa gusambura sum types, rero ubwo bwubatsi burananirwa ku input iyo ari yo yose ifise ubwoko bwa product.
+explanation: >-
+  Ubwo bwubatsi buradondagura input yose ishoboka biciye mu gusambura
+  gukoresha nested case, kandi bugashiramwo output yose muri code hakoreshejwe
+  scribe; rero ubunini bw'imvugo buraturika mu buryo bwa exponential — buba
+  ari ubunini buteye ubwoba ku bwoko nyakuri nk'amajambo ya 256-bit.
+  Ukwo guturika kuri mu bunini bw'imvugo, si mu gihe co gukora c'imvugo
+  yari kuba ntoyi kubera sharing. scribe yaguka ikaba combinators z'ishimikiro
+  nyakuri (unit, injl, injr, pair), rero igisubizo kiguma mu rurimi rw'ishimikiro,
+  urwo teoreme yarwo y'ukwuzura yemejwe formal muri Rocq; kandi gusambura
+  input bikora ku bwoko ubwo ari bwo bwose bwa input, harimwo na products.
+reviewed: false

@@ -1,0 +1,17 @@
+question: Demonstrația de completitudine construiește orice funcție prin imbricarea lui case pentru a descompune intrarea și scribe pentru fiecare ieșire. De ce este doar un instrument teoretic?
+answer: Expresia rezultată este un tabel de căutare uriaș a cărui dimensiune crește exponențial — o intrare de 256 de biți ar avea nevoie de aproximativ 2²⁵⁶ intrări.
+wrong_answers:
+  - scribe este o macro, nu un combinator de bază, așa că expresia iese din limbajul verificat formal.
+  - Bit Machine o evaluează în timp exponențial, deși expresia în sine rămâne compactă prin partajare.
+  - case imbricat poate descompune doar tipuri sumă, așa că construcția eșuează pentru orice intrare de tip produs.
+explanation: >-
+  Construcția enumeră fiecare intrare posibilă prin descompunere case
+  imbricată și codifică fiecare ieșire cu scribe, astfel încât dimensiunea
+  expresiei explodează exponențial — astronomic pentru tipuri realiste
+  precum cuvintele de 256 de biți. Explozia se produce în dimensiunea
+  expresiei, nu în timpul de execuție al unei expresii altfel compacte.
+  scribe se extinde în combinatori de bază autentici (unit, injl, injr,
+  pair), astfel încât rezultatul rămâne în limbajul de bază, a cărui
+  teoremă de completitudine este verificată formal în Rocq; iar
+  descompunerea gestionează intrări de orice tip, inclusiv produse.
+reviewed: false

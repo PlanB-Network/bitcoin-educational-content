@@ -1,0 +1,18 @@
+question: De effecten van Simplicity zijn commutatief en idempotent maar niet unitair. Welke optimizertransformatie moet daarom in het algemeen worden geweigerd?
+answer: Het vervangen van een schijnbaar dode expressie door unit — Failure is niet unitair, dus het zou een falende controle kunnen verbergen die moet afbreken.
+wrong_answers:
+  - Het verwisselen van twee onafhankelijke subexpressies, aangezien een sig-all-hash een andere omgevingstoestand zou kunnen waarnemen.
+  - Het samenvoegen van twee identieke verify-aanroepen, aangezien een gedupliceerde Failure tweemaal zou werpen en ten onrechte zou afbreken.
+  - Het herordenen van expressies die kunnen werpen, aangezien de doorgegeven uitzondering afhangt van welke kant eerst wordt uitgevoerd.
+explanation: >-
+  Omdat de effecten van Simplicity gegarandeerd commutatief en
+  idempotent zijn, zijn het verwisselen van onafhankelijke subexpressies
+  en het dupliceren of samenvoegen van identieke expressies altijd
+  veilig; de Reader-omgeving ligt vast, en de uitzondering van Failure
+  van het type unit is identiek ongeacht welke kant het eerst werpt of
+  hoe vaak. De verwijdertransformatie `f ⨾ unit = unit` vereist echter
+  unitariteit, die Failure mist: als `f` een `bip0340-verify` op een
+  ongeldige handtekening bevat, zou het wegoptimaliseren van de 'dode'
+  code de afbreking wegoptimaliseren en een transactie valideren die zou
+  moeten falen.
+reviewed: false

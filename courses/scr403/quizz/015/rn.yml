@@ -1,0 +1,13 @@
+question: Kubera iki combinator 'case' ishiramwo ubwoko C bwa environment isangiwe muri signature yayo?
+answer: Kugira ngo amashami yompi ashobore gusoma amakuru ya context asangiye hamwe na input ifise tag.
+wrong_answers:
+  - Kugira ngo igabanye ubunini bwa input mu ntumbero yo gukinga stack overflows.
+  - Kugira ngo ishoboze amahamagare ya recursive asubiranamwo hagati y'ayo mashami abiri.
+  - Kugira ngo ibike output ya combinator ibanza imbere muri chain.
+explanation: >-
+  Combinator case ifise signature (A + B) × C ⊢ D. Ubwoko C bwiyongereye
+  bukora nka environment isangiwe amashami yompi ashobora gushikira: ishami
+  rya left (f : A × C ⊢ D) n'ishami rya right (g : B × C ⊢ D). Ivyo birafise
+  ubushobozi buruta if-then-else yoroshe, kuko amashami aronka amakuru yayo
+  yihariye hamwe n'amakuru ya context akenewe mu buharuro.
+reviewed: false

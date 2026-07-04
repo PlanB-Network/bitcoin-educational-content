@@ -1,0 +1,17 @@
+question: Pada saat pembelanjaan, sebuah cabang case dipangkas. Bagaimana verifier tetap bisa mencocokkan program yang diungkap dengan CMR yang dikomit?
+answer: CMR adalah sebuah Merkle root, sehingga spender hanya perlu menyediakan CMR dari cabang yang dipangkas dan verifier melipatnya untuk menghitung ulang root.
+wrong_answers:
+  - Verifier hanya menggunakan cabang yang dieksekusi, karena cabang case yang tidak dieksekusi tidak pernah masuk ke dalam CMR.
+  - Cabang yang dipangkas menjadi placeholder kanonik yang CMR tetapnya digunakan saat menghitung ulang root.
+  - Kode lengkap cabang yang dipangkas tetap berada di witness, di mana verifier meng-hash-nya tetapi tidak mengeksekusinya.
+explanation: >-
+  CMR dari case f g adalah hash bertag atas kedua CMR anak, sehingga
+  setiap cabang — baik dieksekusi maupun tidak — dikomit pada saat
+  pengalamatan. Karena konstruksinya adalah pohon Merkle, sebuah cabang
+  yang dipangkas dapat diringkas hanya dengan CMR 32-byte-nya: verifier
+  memasukkan hash tersebut ke dalam komputasi rekursif dan memeriksa
+  bahwa root-nya cocok dengan komitmen UTXO, tanpa pernah melihat kode
+  yang dipangkas. Inilah persisnya mengapa Merkle root digunakan untuk
+  komitmen, dan mengapa ekspresi witness apa pun di dalam cabang yang
+  dipangkas tidak pernah muncul on-chain.
+reviewed: false

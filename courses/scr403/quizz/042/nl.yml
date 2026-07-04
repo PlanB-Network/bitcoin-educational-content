@@ -1,0 +1,17 @@
+question: Op het moment van uitgeven wordt een case-tak weggesnoeid. Hoe kan de verifier het onthulde programma nog steeds koppelen aan de vastgelegde CMR?
+answer: De CMR is een Merkle-root, dus levert de uitgever alleen de CMR van de weggesnoeide tak, en de verifier verwerkt die om de root opnieuw te berekenen.
+wrong_answers:
+  - De verifier gebruikt alleen de uitgevoerde tak, aangezien niet-uitgevoerde case-takken nooit in de CMR zaten.
+  - Weggesnoeide takken worden een canonieke placeholder waarvan de vaste CMR wordt gebruikt bij het herberekenen van de root.
+  - De volledige code van de weggesnoeide tak blijft in de witness staan, waar de verifier deze hasht maar niet uitvoert.
+explanation: >-
+  De CMR van case f g is een getagde hash over de CMR's van beide
+  kinderen, dus elke tak — uitgevoerd of niet — wordt op adrestijd
+  vastgelegd. Omdat de constructie een Merkle-boom is, kan een
+  weggesnoeide tak worden samengevat door alleen zijn CMR van 32 bytes:
+  de verifier voegt die hash in de recursieve berekening in en
+  controleert of de root overeenkomt met de commitment van de UTXO,
+  zonder de weggesnoeide code ooit te zien. Dit is precies waarom een
+  Merkle-root wordt gebruikt voor de commitment, en waarom witness-
+  expressies binnen de weggesnoeide tak nooit on-chain verschijnen.
+reviewed: false

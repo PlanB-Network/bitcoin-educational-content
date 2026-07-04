@@ -1,0 +1,12 @@
+question: Simplicity තුළ boolean type (𝟚) නිර්වචනය කරන්නේ කෙසේද?
+answer: හරියටම values දෙකක් (false සහ true) දරන sum type 𝟙 + 𝟙 ලෙස.
+wrong_answers:
+  - එවිට value එකක් පමණක් දරන product type 𝟙 × 𝟙 ලෙස.
+  - භාෂාව තුළ සෘජුවම ගොඩනගා ඇති special primitive type එකක් ලෙස.
+  - 0 සහ 1 values වලට පමණක් සීමා කළ 32-bit integer type එකක් ලෙස.
+explanation: >-
+  boolean type 𝟚 නිර්වචනය කරන්නේ 𝟙 + 𝟙 ලෙස, unit types දෙකක sum එකක් ලෙසය. වම්-tagged
+  value σᴸ⟨⟩ false (0) නිරූපණය කරයි, දකුණු-tagged value
+  σᴿ⟨⟩ true (1) නිරූපණය කරයි. මෙය unit type සහ sum type former පමණකින්
+  ගොඩනැගූ one-bit data type එකකි — product former අවශ්‍ය නැත.
+reviewed: false

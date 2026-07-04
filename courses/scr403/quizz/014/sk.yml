@@ -1,0 +1,12 @@
+question: Čo je jednotkový typ (𝟙) a prečo je užitočný, hoci nenesie žiadnu informáciu?
+answer: Obsahuje jednu hodnotu (prázdnu n-ticu) a je základom pre všetky ostatné typy.
+wrong_answers:
+  - Predstavuje číslo 1 a používa sa priamo na aritmetické operácie.
+  - Je to špeciálny ladiaci typ, ktorý zapisuje trasy vykonávania do súboru.
+  - Ukladá presne jeden bit dát používaný na logické operácie.
+explanation: >-
+  Jednotkový typ 𝟙 má presne jednu hodnotu — prázdnu n-ticu ⟨⟩. Hoci nesie
+  nula bitov informácie, je nevyhnutný ako základ, z ktorého súčtové a
+  súčinové typy budujú všetky užitočné dátové typy. Napríklad logický typ 𝟚
+  je 𝟙 + 𝟙, zostavený úplne z jednotkových typov.
+reviewed: false

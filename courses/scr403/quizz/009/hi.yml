@@ -1,0 +1,12 @@
+question: Simplicity के type system में fixed-length vectors कैसे बनाए जाते हैं?
+answer: Power-of-two length वाले nested product types के माध्यम से (जैसे A⁴ = A² × A²)।
+wrong_answers:
+  - भाषा में built special array type constructor का उपयोग करके।
+  - recursive sum types के माध्यम से, जो elements को list में chain करते हैं।
+  - ऐसे variable-length buffers का उपयोग करके जिनका fixed maximum size होता है।
+explanation: >-
+  Simplicity vectors को nested product types से बनाती है। A², A × A है,
+  A⁴, A² × A² है, A⁸, A⁴ × A⁴ है, और इसी तरह आगे। इससे power-of-two
+  sized collections मिलती हैं। उदाहरण के लिए, 𝟚²⁵⁶ (एक 256-bit hash)
+  boolean type से products को 8 levels deep nest करके बनाया जाता है।
+reviewed: false

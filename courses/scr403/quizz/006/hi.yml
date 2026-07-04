@@ -1,0 +1,13 @@
+question: Simplicity में boolean type (𝟚) कैसे define किया जाता है?
+answer: Sum type 𝟙 + 𝟙 के रूप में, जिसमें ठीक दो values (false और true) होती हैं।
+wrong_answers:
+  - Product type 𝟙 × 𝟙 के रूप में, जिसमें फिर केवल एक value होती।
+  - भाषा में directly built एक special primitive type के रूप में।
+  - केवल values 0 और 1 तक restricted 32-bit integer type के रूप में।
+explanation: >-
+  Boolean type 𝟚 को 𝟙 + 𝟙 के रूप में define किया जाता है, जो दो unit
+  types का sum है। Left-tagged value σᴸ⟨⟩ false (0) को represent करती है
+  और right-tagged value σᴿ⟨⟩ true (1) को represent करती है। यह सिर्फ unit
+  type और sum type former से बना one-bit data type है — product former की
+  जरूरत नहीं होती।
+reviewed: false

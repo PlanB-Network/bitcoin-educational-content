@@ -1,0 +1,15 @@
+question: Simplicity sulkee pois rajoittamattoman rekursion. Mikä on sen aiottu korvike rajoittamattomalle iteroinnille?
+answer: Rekursiiviset covenantit, jotka jakavat laskennan useiden transaktioiden kesken pitäen kunkin transaktion kustannuksen ennustettavana.
+wrong_answers:
+  - Delegointiominaisuus, joka on rakennettu tarkoituksella tarjoamaan mitattu muoto rajoittamattomasta rekursiosta yhden transaktion sisällä.
+  - Yhdeksän ydinkombinaattoria, joiden täydellisyys antaa kiintopisterakenteen koodata minkä tahansa rekursiivisen funktion.
+  - Käännösaikainen silmukan purku, jossa staattinen analyysi päättelee iteraatioiden maksimimäärän ja monistaa rungon.
+explanation: >-
+  Artikkelin teesi on, että rajoittamaton iterointi toteutetaan paremmin
+  rekursiivisina covenantteina, jotka laskevat useiden transaktioiden yli, mikä
+  välttää lohkotilan ja standardinmukaisuuden rajoitukset ja tekee transaktion
+  kustannuksista ennustettavia. Delegointia voidaan vain väärinkäyttää tuottamaan jotain
+  rajoittamatonta rekursiota muistuttavaa — se ei ole aiottu mekanismi — ja
+  yhdeksän ydinkombinaattoria ovat täydellisiä vain äärellisille laskennoille, joten
+  yhden ohjelman sisällä ei ole kiintopisterakennetta.
+reviewed: false

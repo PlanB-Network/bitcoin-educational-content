@@ -1,0 +1,12 @@
+question: Mikä on summatyyppi (A + B) Simplicityssä?
+answer: "Tunnistettu unioni: arvo on joko vasemmalle merkitty A tai oikealle merkitty B."
+wrong_answers:
+  - Tyyppi, joka sisältää kaikki arvot sekä A:sta että B:stä samanaikaisesti.
+  - Kahden komponenttityypin bittikokojen aritmeettinen yhteenlasku.
+  - Funktiotyyppi, joka kuvaa jokaisen A:n syötteen B:n tulosteeksi.
+explanation: >-
+  Summatyyppi A + B on tunnistettu unioni. Jokainen arvo kantaa yhden bitin
+  tunnistetta, joka ilmaisee, onko se vasen variantti (tyyppiä A) vai oikea
+  variantti (tyyppiä B). Vaikka A ja B olisivat sama tyyppi, vasemmalle
+  merkityt ja oikealle merkityt arvot pysyvät erillisinä.
+reviewed: false

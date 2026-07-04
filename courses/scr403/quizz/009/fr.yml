@@ -1,0 +1,12 @@
+question: Que calcule un demi-additionneur (half-adder) ?
+answer: La retenue (AND) et la somme (XOR) de deux bits d'entrée.
+wrong_answers:
+  - La somme de deux entiers multi-bits avec propagation de retenue.
+  - La moyenne de deux bits arrondie vers le bas.
+  - Le OU et le ET bit à bit de deux bits d'entrée.
+explanation: >-
+  Un demi-additionneur prend deux bits uniques et produit deux sorties à l'aide
+  de la composition parallèle : le bit de retenue (AND des entrées) et le bit
+  de somme (XOR des entrées). En Simplicity, il est défini comme and ▵ xor,
+  exécutant les deux opérations sur la même paire d'entrée.
+reviewed: false

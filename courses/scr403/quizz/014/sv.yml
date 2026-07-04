@@ -1,0 +1,13 @@
+question: Vad är enhetstypen (𝟙) och varför är den användbar trots att den inte bär någon information?
+answer: Den håller ett värde (den tomma tupeln) och är basen för alla andra typer.
+wrong_answers:
+  - Den representerar talet 1 och används direkt för aritmetiska operationer.
+  - Den är en särskild felsökningstyp som loggar körningsspår till en fil.
+  - Den lagrar exakt en bit data som används för booleska operationer.
+explanation: >-
+  Enhetstypen 𝟙 har exakt ett värde — den tomma tupeln ⟨⟩. Även om
+  den bär noll bitar information är den avgörande som fröet från
+  vilket summa- och produkttyper bygger upp alla användbara datatyper.
+  Till exempel är den booleska typen 𝟚 lika med 𝟙 + 𝟙, uppbyggd
+  helt av enhetstyper.
+reviewed: false

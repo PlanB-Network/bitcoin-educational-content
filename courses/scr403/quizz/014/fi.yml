@@ -1,0 +1,12 @@
+question: Mikä on yksikkötyyppi (𝟙) ja miksi se on hyödyllinen, vaikka se ei kanna informaatiota?
+answer: Se pitää sisällään yhden arvon (tyhjän monikon) ja on kaikkien muiden tyyppien perusta.
+wrong_answers:
+  - Se edustaa lukua 1 ja sitä käytetään suoraan aritmeettisiin operaatioihin.
+  - Se on erityinen vianetsintätyyppi, joka kirjaa suoritusjäljet tiedostoon.
+  - Se tallentaa täsmälleen yhden bitin dataa, jota käytetään totuusarvo-operaatioihin.
+explanation: >-
+  Yksikkötyypillä 𝟙 on täsmälleen yksi arvo — tyhjä monikko ⟨⟩. Vaikka se kantaa
+  nolla bittiä informaatiota, se on olennainen siemenenä, josta summa- ja
+  tulotyypit rakentavat kaikki hyödylliset tietotyypit. Esimerkiksi
+  totuusarvotyyppi 𝟚 on 𝟙 + 𝟙, joka on rakennettu kokonaan yksikkötyypeistä.
+reviewed: false

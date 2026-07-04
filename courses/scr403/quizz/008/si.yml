@@ -1,0 +1,13 @@
+question: Simplicity තුළ logical AND operation එක ක්‍රියා කරන්නේ කෙසේද?
+answer: එය පළමු bit එක මත branch කරයි — false නම් false return කරයි, එසේ නොවේ නම් දෙවන bit එක.
+wrong_answers:
+  - එය product type භාවිතයෙන් boolean values දෙක එකිනෙකට ගුණ කරයි.
+  - එය හැකි input combinations හතරම සහිත lookup table එකක් භාවිතා කරයි.
+  - එය XOR combinator යොදා පසුව result එකට NOT combinator යොදයි.
+explanation: >-
+  AND නිර්වචනය කරන්නේ case (injl unit) (drop iden) ලෙසය. case combinator
+  පළමු bit එක මත branch කරයි. එය false (left-tagged) නම්, injl unit
+  දෙවන bit එක කුමක් වුවත් false return කරයි. එය true (right-tagged) නම්,
+  drop iden දෙවන bit එක වෙනස් නොකර return කරයි. මෙය AND truth
+  table එකට ගැළපේ.
+reviewed: false

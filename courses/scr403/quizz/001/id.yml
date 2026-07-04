@@ -1,0 +1,12 @@
+question: Apa yang dihasilkan oleh komposisi sekuensial saat merangkai operasi f (A → B) dengan operasi g (B → C)?
+answer: Sebuah operasi komposit tunggal dari A ke C, dengan keluaran f menjadi masukan g.
+wrong_answers:
+  - Sebuah nilai pasangan yang berisi kedua keluaran antara bertipe B dan C.
+  - Sebuah kondisional yang memilih antara f dan g berdasarkan masukan.
+  - Dua operasi terpisah yang berjalan secara independen, tanpa berbagi data.
+explanation: >-
+  Komposisi sekuensial merangkai dua operasi secara ujung-ke-ujung. Keluaran
+  dari operasi pertama menjadi masukan operasi kedua. Dalam Simplicity, hal
+  ini diekspresikan dengan kombinator comp: comp f g menerapkan f terlebih
+  dahulu, lalu g pada hasilnya.
+reviewed: false

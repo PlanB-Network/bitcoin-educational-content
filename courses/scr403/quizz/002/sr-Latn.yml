@@ -1,0 +1,12 @@
+question: Šta se dešava sa ulazom u paralelnoj kompoziciji?
+answer: Obe operacije primaju isti ulaz, a njihovi izlazi formiraju proizvod (par).
+wrong_answers:
+  - Ulaz se deli na pola, pri čemu svaka operacija prima jedan zaseban deo.
+  - Jedna operacija prvo obrađuje ulaz, a druga prima izmenjeni rezultat.
+  - Ulaz se označava i usmerava samo ka jednoj od dve operacije na obradu.
+explanation: >-
+  Paralelna kompozicija istovremeno daje isti nemodifikovani ulaz obema
+  operacijama. Rezultati se objedinjuju u proizvodni tip (par). U
+  Simplicity-ju, ovo koristi kombinator pair, zapisan f ▵ g, koji proizvodi
+  ⟨f(a), g(a)⟩ za ulaz a.
+reviewed: false

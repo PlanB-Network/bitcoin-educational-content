@@ -1,0 +1,14 @@
+question: Apa peran jets dalam Simplicity?
+answer: Jets adalah implementasi native yang menggantikan ekspresi Simplicity tertentu demi kecepatan.
+wrong_answers:
+  - Jets adalah tahap kompilasi yang mengubah Simplicity menjadi Bitcoin Script.
+  - Jets adalah pesan jaringan yang menyiarkan program Simplicity ke semua node.
+  - Jets adalah alat debugging untuk menguji dan melacak ekspresi Simplicity.
+explanation: >-
+  Sebuah jet adalah implementasi native yang disepakati oleh jaringan untuk
+  menggantikan ekspresi Simplicity tertentu (diidentifikasi melalui Merkle
+  root-nya). Ekspresi Simplicity berfungsi sebagai spesifikasi formal dari
+  apa yang dihitung oleh jet tersebut, sementara kode native memberikan
+  kecepatan eksekusi praktis. Jets umum menangani operasi aritmetika dan
+  kriptografi seperti SHA-256.
+reviewed: false

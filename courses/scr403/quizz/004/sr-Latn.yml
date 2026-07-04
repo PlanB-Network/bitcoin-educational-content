@@ -1,0 +1,12 @@
+question: Koliko osnovnih kombinatora ima Simplicity?
+answer: Devet (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tri (sekvencijalna kompozicija, paralelna kompozicija, uslovni izraz).
+  - Pet (samo kombinatori comp, pair, case, take i drop).
+  - Dvanaest (devet osnovnih plus tri dodatna kombinatora proširenja).
+explanation: >-
+  Simplicity ima tačno devet osnovnih kombinatora. Dve osnovne operacije (iden
+  i unit), tri metode kompozicije (comp, pair, case), i četiri
+  pristupnika (take, drop za proizvode, injl i injr za zbirove). Ovih devet
+  je dovoljno da izraze bilo koju funkciju između Simplicity tipova.
+reviewed: false

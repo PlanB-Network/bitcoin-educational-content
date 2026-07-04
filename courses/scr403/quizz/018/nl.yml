@@ -1,0 +1,14 @@
+question: Hoe worden buffers met variabele lengte weergegeven in Simplicity's typesysteem?
+answer: Als geneste producten van optietypes, waarbij elke laag een blok ter grootte van een macht van twee markeert.
+wrong_answers:
+  - Met een speciaal dynamisch array-type dat direct in de taal is ingebouwd.
+  - Via recursieve somtypes die bij elke functieaanroep groter worden.
+  - Als vectoren met vaste grootte die worden opgevuld met achterliggende nulwaarden.
+explanation: >-
+  Buffers gebruiken geneste optietypes. Bijvoorbeeld, Xᑉ⁸ breidt uit tot
+  (1 + X⁴) × ((1 + X²) × (1 + X)), wat als polynoom
+  1 + X + X² + ... + X⁷ oplevert — een weergave van collecties van 0 tot 7
+  elementen. Elke optielaag geeft aan of een blok ter grootte van een
+  macht van twee aanwezig is, waarmee de lengte effectief binair wordt
+  gecodeerd.
+reviewed: false

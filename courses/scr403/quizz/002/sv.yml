@@ -1,0 +1,12 @@
+question: Vad händer med indata vid parallell komposition?
+answer: Båda operationerna tar emot samma indata, och deras utdata bildar en produkt (par).
+wrong_answers:
+  - Indata delas i två delar, där varje operation tar emot en separat del.
+  - En operation bearbetar indata först, och den andra tar emot det ändrade resultatet.
+  - Indata märks och dirigeras till endast en av de två operationerna att bearbeta.
+explanation: >-
+  Parallell komposition ger samma oförändrade indata till båda
+  operationerna samtidigt. Resultaten packas ihop till en produkttyp
+  (par). I Simplicity används pair-kombinatorn, skriven f ▵ g, som
+  producerar ⟨f(a), g(a)⟩ för indata a.
+reviewed: false

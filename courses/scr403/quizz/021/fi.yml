@@ -1,0 +1,12 @@
+question: "Miksi Failure-efekti on kommutatiivinen Simplicityssä, vaikka poikkeukset eivät yleensä ole kommutatiivisia?"
+answer: Koska poikkeustyyppi on yksikkö (1), jolla on vain yksi arvo, joten heittojärjestyksellä ei ole väliä.
+wrong_answers:
+  - "Koska Simplicity suorittaa kaikki lausekkeet deterministisessä järjestyksessä, jonka kombinaattoripuu määrittää."
+  - "Koska Failure-efekti aina napataan ja heitetään uudelleen case-kombinaattorin toimesta."
+  - "Koska Simplicity käyttää eräverifiointia, mikä tekee kaikista heitetyistä poikkeuksista samanarvoisia."
+explanation: >-
+  Yleisesti poikkeukset eivät ole kommutatiivisia, koska eri lausekkeet voivat heittää eri
+  poikkeusarvoja. Simplicity kuitenkin rajoittaa poikkeukset yksikkötyyppiin (vain yksi mahdollinen arvo),
+  joten kahden mahdollisesti epäonnistuvan lausekkeen järjestyksen vaihtaminen tuottaa saman poikkeuksen riippumatta
+  siitä, kumpi todella epäonnistuu. Tämä kommutatiivisuusominaisuus mahdollistaa tärkeitä ohjelman optimointeja.
+reviewed: true

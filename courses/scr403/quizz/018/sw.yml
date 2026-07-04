@@ -1,0 +1,13 @@
+question: Buffers zenye urefu unaobadilika huwakilishwaje katika mfumo wa types wa Simplicity?
+answer: Kama products za option-type zilizowekwa ndani kwa ndani, kila safu ikiashiria block ya nguvu-ya-mbili.
+wrong_answers:
+  - Kwa kutumia aina maalum ya dynamic array iliyojengwa moja kwa moja ndani ya lugha.
+  - Kupitia sum types za kujirudia ambazo hukua kubwa katika kila mwito wa function.
+  - Kama vectors za ukubwa usiobadilika zinazojazwa kwa thamani sifuri mwishoni.
+explanation: >-
+  Buffers hutumia option types zilizowekwa ndani kwa ndani. Kwa mfano, Xᑉ⁸ hupanuka kuwa
+  (1 + X⁴) × ((1 + X²) × (1 + X)), ambayo kama polynomial hutoa
+  1 + X + X² + ... + X⁷ — ikiwakilisha mikusanyo ya elementi 0 hadi 7.
+  Kila safu ya option huonyesha kama block ya nguvu-ya-mbili ipo,
+  hivyo kwa ufanisi kusimba urefu katika binary.
+reviewed: false

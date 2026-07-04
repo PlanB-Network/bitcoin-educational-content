@@ -1,0 +1,14 @@
+question: Wie funktioniert die Zugriffsnotation (O, I, H) in Simplicity?
+answer: O bedeutet 'take' (links), I bedeutet 'drop' (rechts), und H bedeutet 'iden' (der gesamte Wert).
+wrong_answers:
+  - O bedeutet Output, I bedeutet Input, und H bedeutet, die Programmausführung anzuhalten.
+  - Es handelt sich um Variablennamen, die der Compiler den Werten automatisch zuweist.
+  - O wählt Elemente mit ungeradem Index, I Elemente mit geradem Index, H den Kopf aus.
+explanation: >-
+  Die O/I/H-Kurzschreibweise bietet eine kompakte Möglichkeit, durch
+  verschachtelte Paare zu navigieren. O f ist take f (linkes Element
+  extrahieren), I f ist drop f (rechtes Element extrahieren), und H ist
+  iden (der gesamte Wert). Folgen wie I O H bedeuten drop(take(iden)),
+  was das erste Element des zweiten Elements extrahiert. Dies ähnelt
+  De-Bruijn-Indizes mit Binärziffern als Baumpositionen.
+reviewed: false

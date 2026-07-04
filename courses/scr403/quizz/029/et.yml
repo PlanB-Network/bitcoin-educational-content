@@ -1,0 +1,15 @@
+question: Simplicity välistab piiritlemata rekursiooni. Mis on selle kavandatud asendus piiritlemata iteratsioonile?
+answer: Rekursiivsed covenant'id, mis jaotavad arvutuse mitme tehingu peale, hoides iga tehingu kulu prognoositavana.
+wrong_answers:
+  - Delegation-funktsioon, mis on loodud spetsiaalselt selleks, et anda ühe tehingu sees mõõdetud kujul piiritlemata rekursioon.
+  - Üheksa põhikombinaatorit, mille täielikkus laseb püsipunkti konstruktsioonil kodeerida mis tahes rekursiivse funktsiooni.
+  - Kompileerimisaegne tsüklite lahtirullimine, kus staatiline analüüs tuletab maksimaalse iteratsioonide arvu ja dubleerib keha.
+explanation: >-
+  Artikli tees on, et piiritlemata iteratsiooni on parem teostada
+  rekursiivsete covenant'itena, mis arvutavad mitme tehingu üle, vältides
+  plokiruumi- ja standardness-piiranguid ning muutes tehingukulud
+  prognoositavaks. Delegationit saab ainult kuritarvitada, et tekitada midagi,
+  mis meenutab piiritlemata rekursiooni — see ei ole kavandatud mehhanism — ja
+  üheksa põhikombinaatorit on täielikud ainult lõplike arvutuste jaoks, seega
+  ühe programmi sees püsipunkti konstruktsiooni ei eksisteeri.
+reviewed: false

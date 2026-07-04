@@ -1,0 +1,13 @@
+question: Miksi 'case'-kombinaattorin signatuuriin sisältyy jaettu ympäristötyyppi C?
+answer: Jotta molemmat haarat voivat lukea jaettua kontekstidataa tunnisteellisen syötteen ohella.
+wrong_answers:
+  - Syötteen koon rajoittamiseksi, jotta pinon ylivuodot estyvät.
+  - Rekursiivisten edestakaisten kutsujen mahdollistamiseksi kahden haaran välillä.
+  - Ketjussa aiemmin sijainneen edellisen kombinaattorin tulosteen tallentamiseksi.
+explanation: >-
+  case-kombinaattorin signatuuri on (A + B) × C ⊢ D. Ylimääräinen tyyppi C
+  toimii jaettuna ympäristönä, johon sekä vasen haara (f : A × C ⊢ D)
+  että oikea haara (g : B × C ⊢ D) pääsevät käsiksi. Tämä on tehokkaampaa
+  kuin yksinkertainen if-then-else, koska haarat saavat sekä omat erityiset
+  tietonsa että laskennassa tarvittavan kontekstitiedon.
+reviewed: false

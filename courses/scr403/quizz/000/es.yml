@@ -1,0 +1,13 @@
+question: ¿Por qué Simplicity excluye la asignación dinámica de memoria durante la ejecución?
+answer: Para permitir el análisis estático y descartar clases enteras de errores y ataques.
+wrong_answers:
+  - Porque la red Liquid no admite operaciones de memoria de bajo nivel.
+  - Para reducir la curva de aprendizaje de programación de los nuevos desarrolladores de contratos inteligentes.
+  - Porque Bitcoin Script tampoco tiene ninguna asignación dinámica de memoria.
+explanation: >-
+  Simplicity evita la asignación dinámica de memoria para que todo el uso de
+  recursos pueda determinarse de forma estática antes de la ejecución. Esto
+  permite límites de recursos predecibles y elimina vulnerabilidades
+  relacionadas con la gestión de memoria, lo cual es crítico en un contexto
+  de validación de blockchain.
+reviewed: false

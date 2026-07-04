@@ -1,0 +1,15 @@
+question: S obzirom na pravila tipiziranja sa 'manjim tipovima u premisama', koji jezgarni kombinatori zaista pomeraju podatke tokom izvršavanja?
+answer: Samo iden i comp; ostalih sedam se implementiraju samo pukim vođenjem evidencije.
+wrong_answers:
+  - Samo take i drop; izdvajanje jedne komponente prisiljava mašinu da je kopira iz proizvoda.
+  - Samo pair i case; dupliranje ulaza za dve grane i grananje po tagu premeštaju podatke.
+  - Samo injl i injr; dodavanje taga prepisuje vrednost u veću reprezentaciju zbirnog tipa.
+explanation: >-
+  Kontraintuitivno, kombinatori koji izgledaju kao pristup podacima
+  (take, drop, pair, case, injl, injr) ne zahtevaju kopiranje: pošto
+  premise u pravilima tipiziranja uključuju manje tipove od svojih
+  zaključaka, Bit mašina ih može implementirati samo vođenjem
+  evidencije. Samo iden, koji kopira svoj ceo ulaz na svoj izlaz, i
+  comp, koji materijalizuje međuvrednost prosleđenu od f do g, zaista
+  pomeraju podatke.
+reviewed: false

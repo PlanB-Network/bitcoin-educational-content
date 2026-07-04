@@ -1,0 +1,12 @@
+question: Apa itu tipe jumlah (A + B) dalam Simplicity?
+answer: "Sebuah union bertanda: sebuah nilai berupa A bertanda kiri atau B bertanda kanan."
+wrong_answers:
+  - Sebuah tipe yang berisi semua nilai dari A dan B secara bersamaan.
+  - Sebuah penjumlahan aritmetika dari ukuran bit kedua tipe komponen.
+  - Sebuah tipe fungsi yang memetakan setiap masukan dari A ke keluaran di B.
+explanation: >-
+  Tipe jumlah A + B adalah union bertanda. Setiap nilai membawa tanda satu
+  bit yang menunjukkan apakah nilai tersebut merupakan varian kiri (bertipe
+  A) atau varian kanan (bertipe B). Bahkan ketika A dan B adalah tipe yang
+  sama, nilai bertanda kiri dan bertanda kanan tetap berbeda.
+reviewed: false

@@ -1,0 +1,17 @@
+question: La momentul cheltuirii, o ramură case este eliminată (pruned). Cum poate verificatorul să potrivească totuși programul dezvăluit cu CMR-ul angajat?
+answer: CMR-ul este o rădăcină Merkle, așa că cheltuitorul furnizează doar CMR-ul ramurii eliminate, iar verificatorul îl integrează pentru a recalcula rădăcina.
+wrong_answers:
+  - Verificatorul folosește doar ramura executată, deoarece ramurile case neexecutate nu au fost niciodată incluse în CMR.
+  - Ramurile eliminate devin un substituent canonic al cărui CMR fix este folosit la recalcularea rădăcinii.
+  - Codul complet al ramurii eliminate rămâne în martor (witness), unde verificatorul îl hashuiește dar nu îl execută.
+explanation: >-
+  CMR-ul lui case f g este un hash etichetat peste CMR-urile ambelor
+  ramuri, așa că fiecare ramură — executată sau nu — este angajată la
+  momentul adresării. Deoarece construcția este un arbore Merkle, o
+  ramură eliminată poate fi rezumată doar prin CMR-ul său de 32 de octeți:
+  verificatorul introduce acel hash în calculul recursiv și verifică dacă
+  rădăcina se potrivește cu angajamentul UTXO-ului, fără a vedea vreodată
+  codul ramurii eliminate. Exact de aceea se folosește o rădăcină Merkle
+  pentru angajament, și de ce orice expresii de martor din interiorul
+  ramurii eliminate nu apar niciodată on-chain.
+reviewed: false

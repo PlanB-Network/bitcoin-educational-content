@@ -1,0 +1,11 @@
+question: 为什么 Simplicity 在执行期间排除动态内存分配？
+answer: 为了支持静态分析，并排除整类 bug 和攻击。
+wrong_answers:
+  - 因为 Liquid network 不支持低级内存操作。
+  - 为了降低新智能合约开发者的编程学习曲线。
+  - 因为 Bitcoin Script 本身也没有任何动态内存分配。
+explanation: >-
+  Simplicity 避免动态内存分配，因此所有资源使用都可以在执行前
+  静态确定。这使资源边界可预测，并消除与内存管理相关的漏洞；
+  在区块链验证环境中，这一点至关重要。
+reviewed: false

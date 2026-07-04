@@ -1,0 +1,13 @@
+question: ทำไม combinator 'case' จึงมีชนิด environment ร่วม C อยู่ใน signature?
+answer: เพื่อให้ทั้งสอง branch สามารถอ่านข้อมูล context ร่วมควบคู่กับ input ที่ถูกติด tag ได้
+wrong_answers:
+  - เพื่อจำกัดขนาดของ input เพื่อป้องกัน stack overflows
+  - เพื่อให้เกิด recursive calls ไปกลับระหว่างสอง branch
+  - เพื่อเก็บ output ของ combinator ก่อนหน้าใน chain ไว้ก่อน
+explanation: >-
+  combinator case มี signature (A + B) × C ⊢ D ชนิด C ที่เพิ่มเข้ามา
+  ทำหน้าที่เป็น environment ร่วมที่ทั้ง branch ซ้าย (f : A × C ⊢ D)
+  และ branch ขวา (g : B × C ⊢ D) สามารถเข้าถึงได้ สิ่งนี้ทรงพลังกว่า
+  if-then-else แบบง่าย เพราะ branch จะได้รับทั้งข้อมูลเฉพาะของตัวเอง
+  และข้อมูล context ที่จำเป็นต่อการคำนวณ
+reviewed: false

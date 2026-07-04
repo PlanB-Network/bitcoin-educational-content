@@ -1,0 +1,12 @@
+question: "Kwa nini thamani za witness hazijumuishwi katika Commitment Merkle Root (CMR)?"
+answer: Ili addresses ziundwe kabla witnesses hazijajulikana, na branches zisizotumika zikatwe kwa faragha.
+wrong_answers:
+  - Kwa sababu thamani za witness ni kubwa mno kuweza kujumuishwa katika hash ya biti 256.
+  - Kwa sababu thamani za witness huthibitishwa kando kabisa na athari ya Failure.
+  - Kwa sababu kujumuisha thamani za witness kungefanya CMR isiwe deterministic.
+explanation: >-
+  Expressions za witness (kama signatures) hutolewa wakati wa kutumia fedha, si wakati wa kuunda address.
+  Kuziondoa kwenye CMR huwezesha sifa mbili muhimu: addresses zinaweza kuzalishwa kabla
+  muamala wa matumizi haujakuwepo, na branches za conditional ambazo hazijatekelezwa zinaweza kukatwa kutoka kwenye
+  data ya on-chain bila kufichua thamani zao za witness zinazohusiana.
+reviewed: true

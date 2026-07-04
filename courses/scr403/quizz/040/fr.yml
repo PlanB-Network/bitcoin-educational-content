@@ -1,0 +1,18 @@
+question: "Calculer #ᶜ(comp f g) hache 128 octets : l'étiquette comp deux fois, puis les deux CMR enfants. Pourquoi cela reste-t-il au plus un appel de compression SHA-256 ?"
+answer: Le premier bloc de 64 octets est la constante tag∥tag, dont l'état intermédiaire est précalculé une fois ; seul le bloc contenant les CMR enfants est compressé.
+wrong_answers:
+  - Abandonner seul le bloc final de remplissage de longueur de SHA-256 permet aux 128 octets entiers de tenir dans un seul appel.
+  - Les deux CMR enfants sont combinés par XOR en un seul condensé de 32 octets, réduisant l'entrée à un seul bloc.
+  - SHA-256-midstate est une variante à bloc large qui absorbe des blocs de message de 128 octets en une seule passe.
+explanation: >-
+  La fonction de compression de SHA-256 traite des blocs fixes de 64
+  octets, donc une entrée de 128 octets nécessite normalement deux appels
+  (plus un de plus pour le remplissage de longueur en SHA-256 complet).
+  Comme le premier bloc de chaque combinateur est la constante tag∥tag, son
+  état intermédiaire peut être précalculé une fois et mis en cache ; chaque
+  expression n'a alors besoin que d'une nouvelle compression du bloc
+  contenant les CMR de ses enfants. Les états intermédiaires suppriment
+  aussi le bloc de remplissage final, mais cela seul laisserait encore deux
+  compressions — c'est l'état intermédiaire précalculé de l'étiquette qui
+  ramène ce nombre à au plus un.
+reviewed: false

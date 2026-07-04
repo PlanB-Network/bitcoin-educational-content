@@ -1,0 +1,17 @@
+question: "En half-agg-verify-jet loggar en mängd tupler som en Writer-effekt. Enligt testet kommutativ/idempotent/unitär, vad uppnår mängddesignen, och vad saknas fortfarande?"
+answer: "Kommutativ och idempotent (vilket Simplicity kräver), men inte unitär: att förkasta ett anrop skulle tappa dess tupel och hoppa över en signatur."
+wrong_answers:
+  - Idempotent och unitär, men inte kommutativ, eftersom aggregatet måste kombinera r-komponenter i signeringsordning.
+  - Alla tre, så en optimerare kan fritt duplicera, ordna om eller kasta bort anropen utan risk.
+  - Kommutativ men inte idempotent, eftersom att logga samma tupel två gånger skulle kräva två aggregerade s-komponenter.
+explanation: >-
+  Att behandla writer-loggen som en mängd gör effekten idempotent och
+  kommutativ, eftersom själva mängdinsättningen har båda egenskaperna —
+  precis de två som Simplicity kräver av varje effekt. Unitäritet är
+  fortfarande utom räckhåll: precis som Failure påverkar skrivningen
+  transaktionens giltighet, eftersom transaktionen bara är giltig när en
+  aggregerad s-komponent täcker varje loggad tupel. Ett uttryck som
+  utför skrivningen kan därför inte förkastas bara för att dess
+  unit-utdata är oanvänd, eftersom dess tupel då tyst skulle försvinna
+  från half-aggregeringsverifieringen.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ce este un tip sumă (A + B) în Simplicity?
+answer: "O uniune etichetată: o valoare este fie A etichetată stânga, fie B etichetată dreapta."
+wrong_answers:
+  - Un tip care conține toate valorile din A și B simultan.
+  - O adunare aritmetică a dimensiunilor în biți ale celor două tipuri componente.
+  - Un tip de funcție care mapează fiecare intrare din A la o ieșire din B.
+explanation: >-
+  Un tip sumă A + B este o uniune etichetată. Fiecare valoare poartă un bit
+  de etichetă care indică dacă este o variantă stânga (de tip A) sau o
+  variantă dreapta (de tip B). Chiar și atunci când A și B sunt același
+  tip, valorile etichetate stânga și cele etichetate dreapta rămân distincte.
+reviewed: false

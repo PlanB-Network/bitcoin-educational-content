@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden) का type क्या है, और यह किस function को denote करता है?
+answer: A × B ⊢ B × A — यह pair के दो components को swap करता है।
+wrong_answers:
+  - A × B ⊢ A × B — यह दोनों components को बिना बदले pass through करता है (identity)।
+  - "Ill-typed: take iden और drop iden के output types अलग हैं, जिन्हें pair merge नहीं कर सकता।"
+  - (A × B) × (A × B) ⊢ B × A — pair अपने दो subexpressions के input types को merge करता है।
+explanation: >-
+  drop iden : A × B ⊢ B दूसरा component extract करता है और take iden : A ×
+  B ⊢ A पहला component extract करता है। pair combinator केवल यह मांगता है कि उसके
+  दो subexpressions का input type समान हो (यहाँ A × B); उनके outputs अलग हो सकते
+  हैं, और वे pair के रूप में returned होते हैं। Input ⟨a, b⟩ पर expression इसलिए
+  ⟨b, a⟩ देता है: type A × B ⊢ B × A वाला swap function।
+reviewed: false

@@ -1,0 +1,14 @@
+question: Givet typningsreglerna 'mindre typer i premisserna', vilka core-kombinatorer flyttar faktiskt data under exekvering?
+answer: Endast iden och comp; de övriga sju implementeras med inget mer än bokföring.
+wrong_answers:
+  - Endast take och drop; att extrahera en komponent tvingar maskinen att kopiera ut den ur produkten.
+  - Endast pair och case; att duplicera indata för två grenar och avgöra baserat på en tagg flyttar data.
+  - Endast injl och injr; att lägga till en tagg skriver om värdet till en större summatypsrepresentation.
+explanation: >-
+  Motintuitivt behöver kombinatorerna som ser ut som dataåtkomst (take,
+  drop, pair, case, injl, injr) ingen kopiering: eftersom premisserna i
+  typningsreglerna involverar mindre typer än deras slutsatser kan Bit
+  Machine implementera dem med enbart bokföring. Endast iden, som
+  kopierar hela sin indata till sin utdata, och comp, som materialiserar
+  ett mellanvärde som skickas från f till g, flyttar faktiskt data.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Kakav je odnos između Simplicity-ja i Gentzenovog sekventnog računa?
+answer: Njegovih devet kombinatora odražava konjunktivno-disjunktivni fragment sekventnog računa.
+wrong_answers:
+  - Simplicity je direktno preveden iz dokaza sekventnog računa u funkcionalni kod.
+  - Gentzenov sekventni račun se koristi tokom izvršavanja za proveru tipova Simplicity programa.
+  - Oni su potpuno nepovezani, a površinska sličnost je čisto slučajna.
+explanation: >-
+  Devet osnovnih pravila Simplicity-ja veoma podseća na pravila u Gentzenovom
+  sekventnom računu, analogno Curry-Howard korespondenciji između
+  lambda računa i prirodne dedukcije. Ova veza osigurava da su
+  tipovi u premisama manji nego u zaključcima, što Bit
+  Machine iskorišćava za efikasno izvršavanje uz minimalno kopiranje podataka.
+reviewed: false

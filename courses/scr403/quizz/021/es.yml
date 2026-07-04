@@ -1,0 +1,13 @@
+question: "¿Por qué el efecto Failure es conmutativo en Simplicity, aunque las excepciones generalmente no lo son?"
+answer: Porque el tipo de excepción es unit (1) con un solo valor, así que el orden de lanzamiento no importa.
+wrong_answers:
+  - Porque Simplicity ejecuta todas las expresiones en un orden determinista definido por el árbol de combinadores.
+  - Porque el efecto Failure siempre es capturado y vuelto a lanzar por el combinador case.
+  - Porque Simplicity usa verificación por lotes, lo que hace que todas las excepciones lanzadas sean equivalentes.
+explanation: >-
+  En general, las excepciones no son conmutativas porque distintas expresiones pueden lanzar
+  distintos valores de excepción. Sin embargo, Simplicity restringe las excepciones al tipo unit
+  (con un único valor posible), así que intercambiar el orden de dos expresiones que pueden fallar
+  produce la misma excepción sin importar cuál falle realmente. Esta propiedad de conmutatividad
+  permite optimizaciones importantes del programa.
+reviewed: true

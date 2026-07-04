@@ -1,0 +1,13 @@
+question: "'case' combinator अपनी signature में shared environment type C क्यों शामिल करता है?"
+answer: ताकि दोनों branches tagged input के साथ-साथ shared context data भी read कर सकें।
+wrong_answers:
+  - stack overflows रोकने के लिए input के size को सीमित करने हेतु।
+  - दोनों branches के बीच आगे-पीछे recursive calls सक्षम करने के लिए।
+  - chain में पहले वाले combinator का output store करने के लिए।
+explanation: >-
+  case combinator की signature (A + B) × C ⊢ D है। अतिरिक्त type C एक shared
+  environment की तरह काम करता है जिसे left branch (f : A × C ⊢ D) और right branch
+  (g : B × C ⊢ D) दोनों access कर सकते हैं। यह एक साधारण if-then-else से अधिक
+  powerful है क्योंकि branches को उनका specific data और computation के लिए आवश्यक
+  contextual information दोनों मिलते हैं।
+reviewed: false

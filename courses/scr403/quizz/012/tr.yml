@@ -1,0 +1,12 @@
+question: Birim türü (𝟙) nedir ve bilgi taşımamasına rağmen neden faydalıdır?
+answer: Bir değer (boş demet) tutar ve diğer tüm türlerin temelidir.
+wrong_answers:
+  - 1 sayısını temsil eder ve aritmetik işlemler için doğrudan kullanılır.
+  - Yürütme izlerini bir dosyaya kaydeden özel bir hata ayıklama türüdür.
+  - Boole işlemleri için kullanılan tam olarak tek bir bit veri depolar.
+explanation: >-
+  Birim türü 𝟙'in tam olarak bir değeri vardır — boş demet ⟨⟩. Sıfır bit
+  bilgi taşımasına rağmen, toplam ve çarpım türlerinin tüm yararlı veri
+  türlerini inşa ettiği tohum olarak esastır. Örneğin, Boole türü 𝟚,
+  tamamen birim türlerinden oluşturulmuş 𝟙 + 𝟙'dir.
+reviewed: false

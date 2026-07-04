@@ -1,0 +1,13 @@
+question: Varför inkluderar 'case'-kombinatorn en delad miljötyp C i sin signatur?
+answer: Så att båda grenarna kan läsa delad kontextdata tillsammans med den taggade indatan.
+wrong_answers:
+  - För att begränsa storleken på indatan och därmed förhindra stacköverflöden.
+  - För att möjliggöra rekursiva anrop fram och tillbaka mellan de två grenarna.
+  - För att lagra utdatan från den tidigare kombinatorn i kedjan.
+explanation: >-
+  Case-kombinatorn har signaturen (A + B) × C ⊢ D. Den extra typen C
+  fungerar som en delad miljö som både den vänstra grenen (f : A × C ⊢ D)
+  och den högra grenen (g : B × C ⊢ D) kan komma åt. Detta är mer kraftfullt
+  än ett enkelt if-then-else eftersom grenarna får tillgång till både sin
+  specifika data och den kontextuella information som behövs för beräkningen.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "왜 witness 값은 Commitment Merkle Root(CMR)에서 제외되나요?"
+answer: witness를 알기 전에 주소를 만들 수 있고, 사용되지 않는 분기를 비공개로 가지치기할 수 있도록 하기 위해서입니다.
+wrong_answers:
+  - witness 값이 단순히 256비트 해시에 포함하기에는 너무 크기 때문입니다.
+  - witness 값은 Failure 효과에 의해 완전히 별도로 검증되기 때문입니다.
+  - witness 값을 포함하면 CMR이 비결정적이 되기 때문입니다.
+explanation: >-
+  witness 표현식(서명 같은 것)은 주소 생성 시점이 아니라 지출 시점에 제공됩니다.
+  이를 CMR에서 제외하면 두 가지 중요한 속성이 가능해집니다. 지출 트랜잭션이 존재하기 전에
+  주소를 생성할 수 있고, 실행되지 않은 조건부 분기를 관련 witness 값을 드러내지 않은 채
+  온체인 데이터에서 가지치기할 수 있습니다.
+reviewed: true

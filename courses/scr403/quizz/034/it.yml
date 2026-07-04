@@ -1,0 +1,15 @@
+question: Il full-adder mette in OR i bit di riporto dei suoi due half-adder invece di metterli in XOR. Perché OR è corretto?
+answer: Al massimo un half-adder può generare riporto per qualsiasi input, quindi OR unisce due casi mutuamente esclusivi esattamente.
+wrong_answers:
+  - I due bit di riporto devono essere sommati, e OR è il modo in cui l'addizione binaria a un bit viene fatta in Simplicity.
+  - Dopo il branching, OR è l'unico operatore booleano il cui tipo corrisponde ancora all'ambiente.
+  - OR sovrastima il riporto; eventuali riporti spuri vengono scartati dalla proiezione finale successiva.
+explanation: >-
+  Se il primo half-adder genera riporto, entrambi i suoi bit di input
+  erano 1, quindi il suo bit di somma è 0 — e un half-adder alimentato
+  con uno 0 non può mai generare riporto. I due bit di riporto non sono
+  quindi mai simultaneamente 1, e OR li unisce esattamente (sugli input
+  raggiungibili coincide persino con XOR). Questa mutua esclusività è
+  esattamente ciò che rende corretta la decomposizione del full-adder in
+  due half-adder.
+reviewed: false

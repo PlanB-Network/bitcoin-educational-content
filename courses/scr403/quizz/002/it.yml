@@ -1,0 +1,12 @@
+question: Nella composizione parallela, cosa succede all'input?
+answer: Entrambe le operazioni ricevono lo stesso input, e i loro output formano un prodotto (coppia).
+wrong_answers:
+  - L'input viene diviso a metà, e ciascuna operazione riceve una parte separata.
+  - Un'operazione elabora prima l'input, e l'altra riceve il risultato modificato.
+  - L'input viene contrassegnato e instradato verso una sola delle due operazioni.
+explanation: >-
+  La composizione parallela fornisce lo stesso input non modificato a
+  entrambe le operazioni simultaneamente. I risultati vengono raggruppati in
+  un tipo prodotto (coppia). In Simplicity, questo utilizza il combinatore
+  pair, scritto f ▵ g, che produce ⟨f(a), g(a)⟩ per l'input a.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Simplicity'de jet'lerin rolü nedir?
+answer: Jet'ler, hız için belirli Simplicity ifadelerinin yerini alan yerel uygulamalardır.
+wrong_answers:
+  - Jet'ler, Simplicity'yi Bitcoin Script'e dönüştüren bir derleme adımıdır.
+  - Jet'ler, Simplicity programlarını tüm düğümlere yayınlayan ağ mesajlarıdır.
+  - Jet'ler, Simplicity ifadelerini test etmeye ve izlemeye yarayan hata ayıklama araçlarıdır.
+explanation: >-
+  Bir jet, ağın belirli bir Simplicity ifadesinin (Merkle köküyle tanımlanan)
+  yerine koymayı kabul ettiği yerel bir uygulamadır. Simplicity ifadesi,
+  jet'in ne hesapladığının biçimsel spesifikasyonu olarak hizmet ederken,
+  yerel kod pratik yürütme hızı sağlar. Yaygın jet'ler SHA-256 gibi
+  aritmetik ve kriptografik işlemleri ele alır.
+reviewed: false

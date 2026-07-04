@@ -1,0 +1,12 @@
+question: Vad gör kombinatorn 'take'?
+answer: Den extraherar den vänstra komponenten av en produkt och kasserar den högra.
+wrong_answers:
+  - Den tar bort ett element från en summatyp och kasserar taggbiten.
+  - Den komponerar sekventiellt två separata operationer från slut till slut.
+  - Den omsluter ett värde med en vänstertagg för att bygga upp en ny summatyp.
+explanation: >-
+  Kombinatorn take är en extraktor för produkttyper. Givet take f
+  tillämpad på ett par ⟨a, b⟩ kasseras b och f tillämpas på a.
+  Tillsammans med iden extraherar take iden det första elementet
+  i vilket par som helst.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "Bitcoin と Liquid のアプリケーションで Simplicity が使う2つの副作用は何ですか？"
+answer: "Failure エフェクト（型 1 の例外）と Reader エフェクト（トランザクション環境データへのアクセス）です。"
+wrong_answers:
+  - "State エフェクト（可変変数）と Writer エフェクト（トランザクションログへの記録）。"
+  - "IO エフェクト（ネットワーク通信）と Memory エフェクト（動的メモリ割り当て）。"
+  - "Continuation エフェクト（コールバック）と Nondeterminism エフェクト（複数の実行経路）。"
+explanation: >-
+  Simplicity は、ブロックチェーンアプリケーションのために正確に2つの副作用を使います。Failure エフェクトは
+  計算の中断を可能にし（たとえば署名検証が失敗した場合）、Reader エフェクトは
+  式がトランザクション環境からデータを読み取れるようにします。コアコンビネータは純粋なままです —
+  副作用は jets を通じて導入されます。
+reviewed: true

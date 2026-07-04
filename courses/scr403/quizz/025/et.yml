@@ -1,0 +1,12 @@
+question: "Mis on Commitment Merkle Root (CMR) Simplicitys?"
+answer: 256-bitine räsi, mis commitib tagged SHA-256 abil Simplicity programmi struktuurile.
+wrong_answers:
+  - Binaarpuu, mis sisaldab kõiki Simplicity programmi võimalikke täitmisteid.
+  - Programmi tüüpide ja witness-väärtuste räsi, mida kasutatakse aadressi kontrollimiseks.
+  - Tehinguandmete Merkle'i juur, millele programmil on lubatud ligi pääseda.
+explanation: >-
+  Igal Simplicity kombinaatoril on unikaalne SHA-256 tag (nt Simplicity␟Commitment␟iden) ja
+  CMR arvutatakse, räsides programmi kombinaatoripuu rekursiivselt nende tagged midstates'ide abil.
+  Oluline on, et CMR ei commit'i avaldiste tüüpidele, vaid tugineb lunastamise ajal
+  tüübituletusele. CMR-e kasutatakse programmide commitimiseks Taprooti aadressidesse.
+reviewed: true

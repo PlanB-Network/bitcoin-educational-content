@@ -1,0 +1,14 @@
+question: Tam-toplayıcıyı ⟨⟨1,1⟩,1⟩ (1+1+1) üzerinde izleyin. İkinci aşama, O O H ▵ (O I H ▵ I H ⨾ half-adder), son aşamaya hangi değeri verir?
+answer: ⟨1, ⟨0, 1⟩⟩ — önce birinci yarım-toplayıcının taşıması, sonra ikincinin taşıması ve toplamı.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — önce birinci yarım-toplayıcının taşıması, sonra ikincinin toplamı ve taşıması.
+  - ⟨0, ⟨0, 1⟩⟩ — önce birinci yarım-toplayıcının toplam biti, sonra ikincinin taşıması ve toplamı.
+  - ⟨1, ⟨1, 1⟩⟩ — önce birinci yarım-toplayıcının taşıması, sonra ikincinin OR ve XOR bitleri.
+explanation: >-
+  Birinci aşama half-adder⟨1,1⟩ = ⟨1, 0⟩ (taşıma 1, toplam 0) hesaplar ve
+  giriş taşımasını saklayarak ⟨⟨1,0⟩, 1⟩ verir. İkinci aşamada O O H ilk
+  taşımayı (1) çıkarırken, O I H ▵ I H ise ilk toplam ve giriş taşıması olan
+  ⟨0, 1⟩ değerini ikinci yarım-toplayıcıya besler; and(0,1)=0 ve xor(0,1)=1
+  olduğundan sonuç ⟨0, 1⟩ olur. Son aşama sonra iki taşımayı OR ile
+  birleştirir ve toplamı korur; ⟨1, 1⟩ üretir: beklendiği gibi ikilik 3.
+reviewed: false

@@ -1,0 +1,17 @@
+question: La preuve de complétude construit n'importe quelle fonction en imbriquant case pour décomposer l'entrée et scribe pour chaque sortie. Pourquoi n'est-ce qu'un outil théorique ?
+answer: L'expression résultante est une gigantesque table de correspondance dont la taille croît exponentiellement — une entrée de 256 bits nécessiterait environ 2²⁵⁶ entrées.
+wrong_answers:
+  - scribe est une macro, pas un combinateur central, donc l'expression sort du langage formellement vérifié.
+  - La Bit Machine l'évalue en temps exponentiel, même si l'expression elle-même reste compacte grâce au partage.
+  - case imbriqué ne peut décomposer que des types somme, donc la construction échoue sur toute entrée de type produit.
+explanation: >-
+  La construction énumère chaque entrée possible via une décomposition case
+  imbriquée et code en dur chaque sortie avec scribe, si bien que la taille
+  de l'expression explose exponentiellement — astronomique pour des types
+  réalistes comme les mots de 256 bits. L'explosion touche la taille de
+  l'expression, pas le temps d'exécution d'une expression par ailleurs
+  compacte. scribe se développe en véritables combinateurs centraux (unit,
+  injl, injr, pair), donc le résultat reste dans le langage central, dont le
+  théorème de complétude est formellement vérifié en Rocq ; et la
+  décomposition traite des entrées de tout type, produits inclus.
+reviewed: false

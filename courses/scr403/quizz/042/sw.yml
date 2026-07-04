@@ -1,0 +1,16 @@
+question: "Kukokotoa #ᶜ(comp f g) huhash baiti 128: tag ya comp mara mbili, kisha CMR zote mbili za children. Kwa nini bado inahitaji call moja tu ya SHA-256 compression kwa upeo wa juu?"
+answer: Block ya kwanza ya baiti 64 ni tag∥tag isiyobadilika, ambayo midstate yake hukokotolewa kabla mara moja; ni block inayoshikilia CMR za children pekee ndiyo hu-compressiwa.
+wrong_answers:
+  - Kuondoa block ya mwisho ya length-padding ya SHA-256 peke yake huruhusu baiti zote 128 kutoshea katika call moja.
+  - CMR mbili za children hufanyiwa XOR kuwa digest moja ya baiti 32, ikipunguza ingizo hadi block moja.
+  - SHA-256-midstate ni variant ya wide-block inayomeza blocks za ujumbe za baiti 128 katika pass moja.
+explanation: >-
+  Compression function ya SHA-256 huchakata blocks zisizobadilika za baiti 64, hivyo
+  ingizo la baiti 128 kwa kawaida huhitaji calls mbili (pamoja na moja zaidi kwa length
+  padding katika SHA-256 kamili). Kwa kuwa block ya kwanza ya kila combinator ni
+  tag∥tag isiyobadilika, midstate yake inaweza kukokotolewa kabla mara moja na kuwekwa cache; kila
+  expression kisha huhitaji compression moja mpya tu ya block inayoshikilia
+  CMR za children wake. Midstates pia huondoa block ya mwisho ya padding, lakini
+  hilo peke yake bado lingeacha compressions mbili — midstate ya tag iliyokokotolewa kabla
+  ndiyo huifanya ishuke hadi call moja tu kwa upeo wa juu.
+reviewed: false

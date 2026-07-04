@@ -1,0 +1,11 @@
+question: "Ubwoko bwa porogarama ya Simplicity ni ubuhe?"
+answer: 1 ⊢ 1 (unit to unit) — nta input canke output ifise insobanuro; ingaruka zo ku ruhande ni zo zikora I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — ifata amakuru ya transaction igasubiza boolean y'ukwemezwa.
+  - 2^256 ⊢ 2^256 — ifata hash input igasubiza value nshasha ya hash output.
+  - Ubwoko ubwo ari bwo bwose A ⊢ B — porogarama zishobora kugira ubwoko bwa input na output ubwo ari bwo bwose.
+explanation: >-
+  Porogarama ya Simplicity isigurwa nk'expression y'ubwoko 1 ⊢ 1. Ingaruka ya Reader ifata
+  input ya environment ya transaction, mu gihe ingaruka ya Failure igena ukuroranirwa canke ukunanirwa.
+  Izo ngaruka zo ku ruhande zicunga I/O yose aho kuba ubwoko bwa Simplicity ubwabwo.
+reviewed: true

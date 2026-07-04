@@ -1,0 +1,12 @@
+question: Mida arvutab poolsummaator?
+answer: Kahe sisendbiti ülekanne (AND) ja summa (XOR).
+wrong_answers:
+  - Kahe mitmebitise täisarvu summa ülekande levimisega.
+  - Kahe biti keskmine, allapoole ümardatud.
+  - Kahe sisendbiti bitihaaval OR ja AND.
+explanation: >-
+  Poolsummaator võtab kaks üksikbitti ja toodab kaks väljundit paralleelse
+  kompositsiooni abil: ülekandebiti (sisendite AND) ja summabiti (sisendite
+  XOR). Simplicitys on see defineeritud kui and ▵ xor, käivitades mõlemad
+  operatsioonid samal sisendpaaril.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "De ce sunt valorile witness excluse din Commitment Merkle Root (CMR)?"
+answer: Pentru ca adresele să se formeze înainte ca witness-urile să fie cunoscute, iar ramurile neutilizate să poată fi tăiate privat.
+wrong_answers:
+  - Deoarece valorile witness sunt pur și simplu prea mari pentru a fi incluse într-un hash de 256 de biți.
+  - Deoarece valorile witness sunt validate complet separat de efectul Failure.
+  - Deoarece includerea valorilor witness ar face CMR-ul nedeterminist.
+explanation: >-
+  Expresiile witness (precum semnăturile) sunt furnizate la momentul cheltuirii, nu la momentul creării adresei.
+  Excluderea lor din CMR permite două proprietăți importante: adresele pot fi generate înainte ca
+  tranzacția de cheltuire să existe, iar ramurile condiționale neexecutate pot fi tăiate din
+  datele on-chain fără a dezvălui valorile witness asociate lor.
+reviewed: true

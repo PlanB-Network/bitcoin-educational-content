@@ -1,0 +1,15 @@
+question: "Кой израз от основни комбинатори имплементира разпределителната функция dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Във всеки клон на case средата вече е сдвоена със стойността без таг,
+  така че f = injl iden и g = injr iden дават ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ и ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — точно dist. Вариантът с take/drop
+  минава проверката на типовете, но изхвърля сдвояването, обозначавайки функция
+  от тип (A + B) × C ⊢ A + C вместо това. pair произвежда product, а не sum, и
+  copair изобщо не е комбинатор на Simplicity — dist е именно това,
+  което copair сам не може да изрази.
+reviewed: false

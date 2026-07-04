@@ -1,0 +1,12 @@
+question: "Dlaczego efekt Failure jest przemienny w Simplicity, mimo że wyjątki na ogół nie są przemienne?"
+answer: Ponieważ typem wyjątku jest jednostka (1) z tylko jedną wartością, więc kolejność rzucania nie ma znaczenia.
+wrong_answers:
+  - Ponieważ Simplicity wykonuje wszystkie wyrażenia w deterministycznej kolejności zdefiniowanej przez drzewo kombinatorów.
+  - Ponieważ efekt Failure jest zawsze przechwytywany, a następnie ponownie rzucany przez kombinator case.
+  - Ponieważ Simplicity używa weryfikacji wsadowej, dzięki czemu wszystkie rzucane wyjątki są równoważne.
+explanation: >-
+  Ogólnie rzecz biorąc, wyjątki nie są przemienne, ponieważ różne wyrażenia mogą rzucać różne
+  wartości wyjątków. Jednak Simplicity ogranicza wyjątki do typu jednostkowego (tylko jedna możliwa wartość),
+  więc zamiana kolejności dwóch potencjalnie zawodzących wyrażeń daje ten sam wyjątek niezależnie
+  od tego, które z nich faktycznie zawiedzie. Ta właściwość przemienności umożliwia istotne optymalizacje programów.
+reviewed: true

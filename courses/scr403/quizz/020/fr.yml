@@ -1,0 +1,14 @@
+question: "Quels sont les deux effets de bord utilisés dans Simplicity pour les applications Bitcoin et Liquid ?"
+answer: "L'effet Failure (une exception de type 1) et l'effet Reader (accès aux données de l'environnement de transaction)."
+wrong_answers:
+  - "L'effet State (variables mutables) et l'effet Writer (journalisation dans un journal de transaction)."
+  - "L'effet IO (communication réseau) et l'effet Memory (allocation dynamique de mémoire)."
+  - "L'effet Continuation (callbacks) et l'effet Nondeterminism (chemins d'exécution multiples)."
+explanation: >-
+  Simplicity utilise exactement deux effets de bord pour les applications
+  blockchain. L'effet Failure permet aux calculs d'échouer (par exemple,
+  lorsqu'une vérification de signature échoue), et l'effet Reader permet
+  aux expressions de lire des données depuis l'environnement de
+  transaction. Les combinateurs de base restent purs — les effets de bord
+  sont introduits via les jets.
+reviewed: true

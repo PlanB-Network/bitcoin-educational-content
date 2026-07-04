@@ -1,0 +1,22 @@
+id: 1a5b79c9-0cc5-44eb-a1f3-2e2864d86866
+name: DigiOats
+category: service
+links:
+  website: https://digioats.io
+  twitter: 
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - business
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

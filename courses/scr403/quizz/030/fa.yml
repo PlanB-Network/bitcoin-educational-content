@@ -1,0 +1,15 @@
+question: "کدام عبارت ترکیب‌گر هسته‌ای تابع توزیع dist : (A + B) × C ⊢ A × C + B × C را پیاده‌سازی می‌کند؟"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  داخل هر شاخهٔ case، محیط از قبل با مقدار بدون برچسب جفت شده است، بنابراین
+  f = injl iden و g = injr iden نگاشت ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ و ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ را می‌دهند — دقیقاً dist. گونهٔ take/drop
+  از نظر نوع‌بررسی درست است اما جفت‌سازی را دور می‌اندازد و تابعی از نوع (A +
+  B) × C ⊢ A + C را نشان می‌دهد. pair یک حاصل‌ضرب به‌جای یک جمع تولید می‌کند، و
+  copair اصلاً ترکیب‌گر Simplicity نیست — dist دقیقاً همان چیزی است که
+  copair به‌تنهایی نمی‌تواند بیان کند.
+reviewed: false

@@ -1,7 +1,7 @@
 question: Theo ý tưởng được Satoshi tóm tắt, cách duy nhất để đảm bảo không có chi tiêu gấp đôi (double-spending) là gì?
 answer: Biết tất cả các giao dịch
 wrong_answers:
-  - Biết tất cả các nút (nodes) đang hoạt động
+  - Biết tất cả các nút đang hoạt động
   - Biết tất cả các thợ đào đang hoạt động
   - Biết tất cả các khóa cá nhân
 explanation: |

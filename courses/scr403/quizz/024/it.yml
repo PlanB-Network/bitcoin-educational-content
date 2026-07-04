@@ -1,0 +1,11 @@
+question: "Qual è il tipo di un programma Simplicity?"
+answer: 1 ⊢ 1 (unit a unit) — nessun input o output significativo; gli effetti collaterali gestiscono l'I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — prende i dati della transazione e restituisce un booleano di validità.
+  - 2^256 ⊢ 2^256 — prende un input hash e restituisce un nuovo valore hash in output.
+  - Qualsiasi tipo A ⊢ B — i programmi possono avere tipi di input e output completamente arbitrari.
+explanation: >-
+  Un programma Simplicity è definito come un'espressione di tipo 1 ⊢ 1. L'effetto Reader cattura
+  l'input dell'ambiente della transazione, mentre l'effetto Failure determina successo o fallimento.
+  Questi effetti collaterali gestiscono tutto l'I/O invece dei tipi Simplicity stessi.
+reviewed: true

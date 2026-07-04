@@ -1,0 +1,14 @@
+question: Apa tipe dari pair (drop iden) (take iden), dan fungsi apa yang ditandakannya?
+answer: A × B ⊢ B × A — ia menukar kedua komponen sebuah pair.
+wrong_answers:
+  - A × B ⊢ A × B — ia meneruskan kedua komponen tanpa perubahan (identitas).
+  - "Salah tipe: take iden dan drop iden memiliki tipe keluaran berbeda, yang tidak bisa digabungkan oleh pair."
+  - (A × B) × (A × B) ⊢ B × A — pair menggabungkan tipe masukan kedua subekspresinya.
+explanation: >-
+  drop iden : A × B ⊢ B mengekstrak komponen kedua dan take iden : A ×
+  B ⊢ A mengekstrak komponen pertama. Kombinator pair hanya mensyaratkan
+  kedua subekspresinya memiliki tipe masukan yang sama (di sini A × B);
+  tipe keluarannya boleh berbeda, dan dikembalikan sebagai sebuah pair.
+  Pada masukan ⟨a, b⟩, ekspresi tersebut karenanya menghasilkan ⟨b, a⟩:
+  fungsi swap, bertipe A × B ⊢ B × A.
+reviewed: false

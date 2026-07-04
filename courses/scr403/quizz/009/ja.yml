@@ -1,0 +1,13 @@
+question: Simplicityにおけるjetの役割は何ですか？
+answer: jetは、高速化のために特定のSimplicity式を置き換えるネイティブ実装です。
+wrong_answers:
+  - jetはSimplicityをBitcoin Scriptに変換するコンパイル手順です。
+  - jetはSimplicityプログラムをすべてのノードへブロードキャストするネットワークメッセージです。
+  - jetはSimplicity式のテストとトレースのためのデバッグツールです。
+explanation: >-
+  jetとは、特定のSimplicity式（そのMerkle rootで識別される）の代わりに
+  使うことをネットワークが合意するネイティブ実装である。
+  Simplicity式はjetが何を計算するかの形式仕様として機能し、
+  ネイティブコードは実用的な実行速度を提供する。一般的なjetは、
+  SHA-256のような算術演算や暗号学的操作を扱う。
+reviewed: false

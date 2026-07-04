@@ -1,0 +1,16 @@
+question: Täielikkuse tõestus ehitab mis tahes funktsiooni, pesastades case'i sisendi lahutamiseks ja scribe'i iga väljundi jaoks. Miks on see ainult teoreetiline tööriist?
+answer: Saadud avaldis on hiiglaslik otsingutabel, mille suurus kasvab eksponentsiaalselt — 256-bitine sisend vajaks umbes 2²⁵⁶ kirjet.
+wrong_answers:
+  - scribe on makro, mitte põhikombinaator, seega jääb avaldis formaalselt verifitseeritud keelest välja.
+  - Bit Machine hindab seda eksponentsiaalse ajaga, kuigi avaldis ise jääb jagamise tõttu kompaktseks.
+  - Pesastatud case saab lahutada ainult summatüüpe, seega ebaõnnestub konstruktsioon iga korrutistüüpi sisendi korral.
+explanation: >-
+  Konstruktsioon loetleb pesastatud case-lahutuse abil kõik võimalikud
+  sisendid ja kodeerib iga väljundi scribe'iga otse sisse, nii et avaldise
+  suurus plahvatab eksponentsiaalselt — realistlike tüüpide, nagu 256-bitiste
+  sõnade, puhul astronoomiliseks. Paisumine toimub avaldise suuruses, mitte
+  muidu kompaktse avaldise käitusajas. scribe laieneb ehtsateks
+  põhikombinaatoriteks (unit, injl, injr, pair), seega jääb tulemus
+  põhikeelde, mille täielikkuse teoreem on Rocqis formaalselt verifitseeritud;
+  ning lahutus käsitleb mis tahes tüüpi sisendeid, kaasa arvatud korrutisi.
+reviewed: false

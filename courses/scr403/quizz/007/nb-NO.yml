@@ -1,0 +1,13 @@
+question: Hvordan er den boolske typen (𝟚) definert i Simplicity?
+answer: Som sumtypen 𝟙 + 𝟙, som inneholder nøyaktig to verdier (usann og sann).
+wrong_answers:
+  - Som en produkttype 𝟙 × 𝟙, som da bare ville inneholde én verdi.
+  - Som en spesiell primitiv type innebygd direkte i språket.
+  - Som en 32-bits heltallstype begrenset til bare verdiene 0 og 1.
+explanation: >-
+  Den boolske typen 𝟚 er definert som 𝟙 + 𝟙, en sum av to enhetstyper.
+  Den venstre-merkede verdien σᴸ⟨⟩ representerer usann (0), og den
+  høyre-merkede verdien σᴿ⟨⟩ representerer sann (1). Dette er en
+  ett-bits datatype bygget kun fra enhetstypen og sumtype-konstruktøren —
+  produkttype-konstruktøren trengs ikke.
+reviewed: false

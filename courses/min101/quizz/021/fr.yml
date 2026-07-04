@@ -6,4 +6,4 @@ wrong_answers:
   - 4096 blocs
 explanation: |
   L’ajustement se fait toutes les 2016 blocs, soit environ deux semaines à 10 minutes par bloc.
-reviewed: false
+reviewed: true 

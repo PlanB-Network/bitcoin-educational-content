@@ -6,4 +6,4 @@ wrong_answers:
   - 256 bits
 explanation: |
   Le nonce est un champ de 32 bits dans l’entête.
-reviewed: false
+reviewed: true 

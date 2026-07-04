@@ -1,0 +1,12 @@
+question: "Čo je Commitment Merkle Root (CMR) v jazyku Simplicity?"
+answer: 256-bitový haš, ktorý sa zaväzuje k štruktúre programu Simplicity pomocou označeného SHA-256.
+wrong_answers:
+  - Binárny strom obsahujúci všetky možné cesty vykonávania programu Simplicity.
+  - Haš typov programu a witness hodnôt používaný na overovanie adries.
+  - Merkle koreň dát transakcie, ku ktorým má program oprávnenie pristupovať.
+explanation: >-
+  Každý kombinátor jazyka Simplicity má jedinečnú značku SHA-256 (napr. Simplicity␟Commitment␟iden) a
+  CMR sa vypočíta rekurzívnym hašovaním stromu kombinátorov programu pomocou týchto označených medzistavov.
+  Dôležité je, že CMR sa nezaväzuje k typom výrazov, spoliehajúc sa na typovú inferenciu
+  počas uplatnenia. CMR sa používajú na zaviazanie programov do Taproot adries.
+reviewed: true

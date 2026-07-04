@@ -34,7 +34,7 @@
       ],
       "description": "Define project category. Only specific categories are allowed."
     },
-    "licence": {
+    "license": {
       "type": "string",
       "description": "License type for the project content (e.g., CC-BY-SA-V4)."
     },

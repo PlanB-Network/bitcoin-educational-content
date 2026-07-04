@@ -1,0 +1,16 @@
+question: A Simplicity exclui a recursão ilimitada. Qual é o substituto pretendido para a iteração ilimitada?
+answer: Covenants recursivos que distribuem o cálculo por várias transações, mantendo o custo de cada transação previsível.
+wrong_answers:
+  - A funcionalidade de delegação, construída de propósito para dar uma forma limitada (metered) de recursão ilimitada dentro de uma única transação.
+  - Os nove combinadores nucleares, cuja completude permite que uma construção de ponto fixo codifique qualquer função recursiva.
+  - O desenrolamento de ciclos (loop unrolling) em tempo de compilação, em que a análise estática infere o número máximo de iterações e duplica o corpo.
+explanation: >-
+  A tese do artigo é que a iteração ilimitada é melhor implementada como
+  covenants recursivos que calculam ao longo de várias transações, o que
+  evita as restrições de espaço de bloco e de standardness, e torna os
+  custos de transação previsíveis. A delegação só pode ser abusada para
+  produzir algo parecido com recursão ilimitada — não é o mecanismo
+  pretendido — e os nove combinadores nucleares são apenas completos para
+  cálculos finitos, pelo que não existe nenhuma construção de ponto fixo
+  dentro de um único programa.
+reviewed: false

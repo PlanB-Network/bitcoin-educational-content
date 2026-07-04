@@ -1,0 +1,15 @@
+question: "Ktorý výraz z kombinátorov jadra implementuje distribučnú funkciu dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Vnútri každej vetvy case je prostredie už spárované s neoznačenou
+  hodnotou, takže f = injl iden a g = injr iden dávajú ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ a ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — presne dist. Variant take/drop prejde
+  typovou kontrolou, ale zahodí párovanie, čím namiesto toho označuje
+  funkciu typu (A + B) × C ⊢ A + C. pair produkuje súčin, nie súčet, a
+  copair vôbec nie je kombinátorom Simplicity — dist je presne to, čo
+  samotný copair nedokáže vyjadriť.
+reviewed: false

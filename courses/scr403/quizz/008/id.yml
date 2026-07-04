@@ -1,0 +1,13 @@
+question: Bagaimana cara kerja operasi logika AND dalam Simplicity?
+answer: Operasi ini bercabang pada bit pertama — jika false ia mengembalikan false, jika tidak mengembalikan bit kedua.
+wrong_answers:
+  - Operasi ini mengalikan kedua nilai boolean menggunakan tipe produk.
+  - Operasi ini menggunakan tabel pencarian dengan keempat kemungkinan kombinasi masukan.
+  - Operasi ini menerapkan kombinator XOR lalu kombinator NOT pada hasilnya.
+explanation: >-
+  AND didefinisikan sebagai case (injl unit) (drop iden). Kombinator case
+  bercabang pada bit pertama. Jika false (bertanda kiri), injl unit
+  mengembalikan false terlepas dari bit kedua. Jika true (bertanda kanan),
+  drop iden mengembalikan bit kedua tanpa perubahan. Ini sesuai dengan
+  tabel kebenaran AND.
+reviewed: false

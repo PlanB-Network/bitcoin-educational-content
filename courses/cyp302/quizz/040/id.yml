@@ -6,3 +6,4 @@ wrong_answers:
   - Kondisi distributif
 explanation: |
   Sebuah himpunan S dengan operasi biner harus memenuhi beberapa kondisi untuk membentuk sebuah grup, dan yang pertama adalah kondisi tertutup: operasi antara dua elemen dari S harus menghasilkan elemen dari S.
+reviewed: true

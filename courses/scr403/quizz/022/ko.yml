@@ -1,0 +1,13 @@
+question: "sig-all-hash는 왜 트랜잭션 데이터를 타입이 지정된 입력으로 받지 않고 Reader 효과를 사용하나요?"
+answer: jet가 PrecomputedTransactionData를 사용하고 고정된 환경에서 상수 시간에 실행될 수 있도록 하기 위해서입니다.
+wrong_answers:
+  - Simplicity의 타입 시스템은 근본적으로 트랜잭션 데이터를 타입으로 표현할 수 없기 때문입니다.
+  - Reader 효과가 그 데이터를 컴비네이터 tree를 통해 전달하는 것보다 빠르기 때문입니다.
+  - 트랜잭션 데이터가 Simplicity의 고정 크기 타입 시스템에 담기에는 너무 크기 때문입니다.
+explanation: >-
+  sig-all-hash가 TxEnv 입력 타입을 받는다면, 프로그램은 수정된 트랜잭션 데이터 사본을
+  jet에 전달할 수 있고, 그러면 미리 계산된 해시를 사용할 수 없게 됩니다. Reader 효과를 사용하면 jet는
+  고정되고 불변인 트랜잭션 환경에만 접근하므로, 그 구현은 안전하게
+  PrecomputedTransactionData를 사용하고 서명 검사마다 상수 시간에 실행될 수 있어, 초기 Bitcoin Script를
+  괴롭혔던 이차 해싱 문제를 피할 수 있습니다.
+reviewed: true

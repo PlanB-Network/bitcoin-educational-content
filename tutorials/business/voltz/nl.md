@@ -19,7 +19,7 @@ Voltz is niet alleen een custodial Lightning wallet waarmee je dagelijks kunt ve
 
 
 
-Ga naar het [Voltz] platform (https://www.voltz.com/en) en maak een account aan door op de knop "Probeer nu" te klikken.
+Ga naar het [Voltz] platform (https://www.lnvoltz.xyz/en) en maak een account aan door op de knop "Probeer nu" te klikken.
 
 
 

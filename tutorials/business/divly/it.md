@@ -1,141 +1,96 @@
 ---
 name: Divly
-description: Calcolate e dichiarate facilmente le tasse sulle criptovalute con Divly, in piena conformità fiscale.
+description: Calcola e dichiara facilmente le tasse sulle criptovalute con Divly, in piena conformità fiscale.
 ---
 
 ![cover](assets/cover.webp)
 
 
-
 ## Introduzione
 
+Questo tutorial spiega come utilizzare [Divly](https://divly.com/) per preparare un report fiscale Bitcoin (BTC). La preparazione di un report fiscale comporta la raccolta di tutte le transazioni BTC rilevanti in un esercizio finanziario, il calcolo dei guadagni o dei redditi imponibili e l'esportazione di un report da presentare all'autorità fiscale locale.
 
-Questa esercitazione spiega come utilizzare [Divly](https://divly.com/) per preparare un rapporto fiscale Bitcoin (BTC). La preparazione di un rapporto fiscale comporta la raccolta di tutte le transazioni BTC rilevanti in un anno finanziario, il calcolo dei guadagni o dei redditi imponibili e l'esportazione di un rapporto da presentare all'autorità fiscale locale.
+Nelle giurisdizioni in cui Bitcoin è soggetto a norme fiscali, è necessario dichiarare i profitti o le perdite derivanti dalle cessioni di BTC e i redditi ricevuti in BTC. Utilizzare un software di rendicontazione fiscale ti aiuta a organizzare queste informazioni e a generare un report fiscale in modo efficiente.
 
-
-Nelle giurisdizioni in cui la Bitcoin è soggetta a regole fiscali, è necessario segnalare i profitti o le perdite derivanti dalle cessioni della BTC e i redditi percepiti nella BTC. L'utilizzo di un software di rendicontazione fiscale vi aiuta a organizzare queste informazioni e a generare una relazione fiscale in modo efficiente.
-
-
-## Come iniziare
-
+## Iniziare
 
 Per iniziare:
 
+- Crea un account Divly.
+- Imposta il **paese di residenza fiscale** e la **valuta locale**.
+- Conferma che queste impostazioni riflettano la giurisdizione in cui dichiari le tasse.
 
-
-- Creare un account Divly.
-- Impostare il **paese di residenza fiscale** e la **valuta locale**.
-- Confermare che queste impostazioni riflettono la giurisdizione in cui si registrano le imposte.
-
-
-Divly utilizza questa configurazione per applicare le regole fiscali e le conversioni di valuta appropriate durante la generazione del report.
-
+Divly utilizza questa configurazione per applicare le regole fiscali e le conversioni valutarie appropriate quando generi il report.
 
 ![img](assets/en/01.webp)
 
+## Step 1 - Importa tutte le transazioni Bitcoin dai tuoi wallet e exchange
 
-## Fase 1 - Importazione di tutte le transazioni Bitcoin dai wallet e dagli scambi
-
-
-Tutte le transazioni Bitcoin per l'anno fiscale devono essere importate prima di effettuare qualsiasi calcolo delle imposte.
-
+Tutte le transazioni Bitcoin dell'anno fiscale devono essere importate prima di effettuare qualsiasi calcolo delle tasse.
 
 Divly supporta diversi metodi di importazione:
 
+- **Connessioni API o OAuth** per gli exchange o i servizi che lo supportano.
+- **Caricamento di file CSV** dai wallet o dagli exchange.
+- **Inserimento manuale** per le transazioni non coperte da metodi automatici.
 
-
-- Connessioni API o OAuth** per gli scambi o i servizi che le supportano
-- Caricamento di file CSV** da wallet o scambi
-- Inserimento manuale** per tutte le transazioni non coperte da metodi automatizzati
-
-
-Assicurarsi di importare **tutti i flussi in entrata e in uscita di BTC** relativi al periodo fiscale che si sta dichiarando.
-
+Assicurati di importare **ogni flusso BTC in entrata e in uscita** relativo al periodo fiscale che stai dichiarando.
 
 ![img](assets/en/02.webp)
 
+## Step 2 - Revisione delle transazioni importate
 
-## Passo 2 - Esaminare le transazioni importate
+**Conferma il tuo bilancio crypto:**
 
+Il punto migliore da cui partire è verificare che il totale delle crypto in tuo possesso corrisponda al numero visualizzato in Divly. Divly calcola le tue partecipazioni sommando tutte le transazioni che hai importato.
 
-**Confermare il proprio saldo in cripto:**
+Per farlo, vai alla pagina "Panoramica". Controlla che ciascuna crypto elencata corrisponda davvero alla quantità che possiedi. Divly non visualizza le valute fiat nella Panoramica, quindi ignorale in questo esercizio.
 
-
-Il punto di partenza migliore è verificare che il totale delle criptovalute possedute corrisponda al numero visualizzato in Divly. Divly calcola le vostre partecipazioni sommando tutte le transazioni che avete importato.
-
-
-A tal fine, si deve iniziare a navigare nella pagina Panoramica. Verificate che ogni singola criptovaluta elencata sia effettivamente quella che possedete. Divly non mostra le vostre valute fiat nella Panoramica, quindi ignoratele in questo esercizio.
-
-
-È possibile filtrare per wallet se si riscontrano problemi. Questo aiuta a capire quali wallet possono essere fuori sincrono.
-
+Puoi filtrare per wallet se riscontri problemi. Questo ti aiuta a capire quale wallet potrebbe essere fuori sincronizzazione.
 
 ![img](assets/en/03.webp)
 
-
 Dopo l'importazione:
 
+- Vai alla sezione **Transazioni**.
+- Controlla che ogni transazione sia visualizzata con date e importi corretti.
+- Risolvi gli avvisi di prezzo o costo base mancanti, dove necessario.
 
-
-- Andare alla sezione **Transazioni**.
-- Controllare che ogni transazione appaia con date e importi corretti.
-- Risolvere gli avvisi di prezzo o di base di costo mancanti, se necessario.
-
-
-**Importante: ** Assicuratevi di importare **TUTTE** le vostre transazioni di criptovalute in Divly prima di procedere alla fase successiva. Compresi i wallet freddi! Altrimenti c'è il rischio che le tasse non siano corrette.
-
+**Importante:** assicurati di importare **tutte** le tue transazioni crypto in Divly prima di passare allo step successivo, inclusi i cold wallet! Altrimenti le tasse rischiano di non essere corrette.
 
 ![img](assets/en/04.webp)
 
+## Step 3 - Categorizza i depositi e i prelievi rilevanti
 
-## Fase 3 - Categorizzare i depositi e i prelievi pertinenti
+Diversi tipi di transazioni crypto possono avere implicazioni fiscali distinte. Tra queste rientrano attività come il dono di criptovalute, asset persi, ricompense da mining, fork, airdrop ed eventi simili. È importante che tutte le transazioni siano categorizzate con precisione.
 
+Nella maggior parte dei casi, Divly assegna automaticamente le etichette corrette. Tuttavia, quando i dati delle transazioni disponibili sono insufficienti, la classificazione automatica potrebbe non essere possibile. In queste situazioni, è responsabilità dell'utente assegnare manualmente l'etichetta appropriata. Per comprendere il significato e il trattamento fiscale di ogni etichetta, consulta il relativo articolo di aiuto.
 
-Diversi tipi di transazioni in criptovaluta possono avere implicazioni fiscali diverse. Queste includono attività come il dono di criptovalute, beni perduti, ricompense mining, fork, lanci aerei ed eventi simili. È importante che tutte le transazioni siano classificate in modo accurato.
-
-
-Nella maggior parte dei casi, Divly assegna automaticamente le etichette corrette. Tuttavia, quando i dati delle transazioni disponibili sono insufficienti, la classificazione automatica potrebbe non essere possibile. In queste situazioni, è responsabilità dell'utente assegnare manualmente l'etichetta appropriata. Per comprendere il significato e il trattamento fiscale di ciascuna etichetta, consultare il relativo articolo della Guida.
-
-
-Per etichettare le transazioni, accedere alla pagina Transazioni. Selezionare una o più transazioni e scegliere l'etichetta corretta dal menu a discesa nella parte superiore della pagina.
-
+Per etichettare le transazioni, vai alla pagina Transazioni. Seleziona una o più transazioni e scegli l'etichetta corretta dal menu a discesa nella parte superiore della pagina.
 
 ![img](assets/en/05.webp)
 
-
-## Fase 4 - Generazione del rapporto fiscale
-
+## Step 4 - Genera il report fiscale
 
 Una volta che le transazioni sono state importate e classificate:
 
+- Vai alla sezione **Tax Report**.
+- Seleziona il **tax year** di riferimento.
+- Rivedi il riassunto dei guadagni, delle perdite e delle categorie di reddito calcolate.
 
+Il riassunto aggrega gli eventi imponibili in base ai dati importati e alle classificazioni.
 
-- Andare alla sezione **Rapporto fiscale**.
-- Selezionare il relativo **anno fiscale**.
-- Esaminare il riepilogo dei guadagni, delle perdite e delle categorie di reddito calcolate.
-
-
-Il riepilogo aggrega gli eventi imponibili in base ai dati e alle classificazioni importate.
-
-
-L'interfaccia dei rapporti fiscali di Divly consente di confermare che tutte le transazioni sono state acquisite prima dell'esportazione.
-
+L'interfaccia del report fiscale di Divly ti consente di verificare che tutte le transazioni siano incluse prima di esportare.
 
 ![img](assets/en/06.webp)
 
-
-## Passo 5 - Esportazione del rapporto
-
+## Step 5 - Esporta il report
 
 Dopo la revisione:
 
-
-
-- Esportare il rapporto fiscale BTC finalizzato nel formato disponibile per il proprio Paese.
-- Salvare il file esportato o stamparlo per presentarlo alle autorità fiscali.
-
+- Esporta il report fiscale BTC finalizzato nel formato disponibile per il tuo paese.
+- Salva il file esportato o stampalo per la presentazione all'autorità fiscale del tuo paese.
 
 ![img](assets/en/07.webp)
 
-
-A seconda della giurisdizione, potrebbe essere necessario seguire istruzioni specifiche per l'invio o utilizzare moduli specifici per il Paese con i dati esportati. se necessario, le [guide specifiche per paese di Divly] (https://divly.com/en/guides) possono aiutarvi con le fasi di presentazione.
+A seconda della tua giurisdizione, potresti dover seguire istruzioni di presentazione specifiche o utilizzare moduli specifici per il tuo paese con i dati esportati. Le [guide di Divly per paese](https://divly.com/en/guides) possono aiutarti con i passaggi di presentazione, se necessario.

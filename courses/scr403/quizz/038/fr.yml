@@ -1,0 +1,17 @@
+question: "Un jet half-agg-verify enregistre un ensemble de tuples comme effet Writer. Selon le test commutatif/idempotent/unitaire, qu'accomplit la conception par ensemble, et que manque-t-il encore ?"
+answer: "Commutatif et idempotent (comme Simplicity l'exige), mais pas unitaire : abandonner un appel supprimerait son tuple et sauterait une signature."
+wrong_answers:
+  - Idempotent et unitaire, mais pas commutatif, puisque l'agrégat doit combiner les composantes r dans l'ordre de signature.
+  - Les trois à la fois, si bien qu'un optimiseur peut librement dupliquer, réordonner ou abandonner les appels sans aucun risque.
+  - Commutatif mais pas idempotent, puisque enregistrer deux fois le même tuple exigerait deux composantes s d'agrégat.
+explanation: >-
+  Traiter le journal du writer comme un ensemble rend l'effet idempotent et
+  commutatif, car l'insertion dans un ensemble possède elle-même ces deux
+  propriétés — exactement les deux que Simplicity exige de chaque effet.
+  L'unitarité reste hors de portée : comme Failure, l'écriture influence la
+  validité de la transaction, puisque la transaction n'est valide que
+  lorsqu'une composante s d'agrégat couvre chaque tuple enregistré. Une
+  expression effectuant l'écriture ne peut donc pas être abandonnée
+  simplement parce que sa sortie unit est inutilisée, car son tuple
+  disparaîtrait silencieusement de la vérification par demi-agrégation.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Care este rolul jet-urilor (jets) în Simplicity?
+answer: Jet-urile sunt implementări native care înlocuiesc anumite expresii Simplicity pentru viteză.
+wrong_answers:
+  - Jet-urile sunt un pas de compilare care convertește Simplicity în Bitcoin Script.
+  - Jet-urile sunt mesaje de rețea care difuzează programele Simplicity către toate nodurile.
+  - Jet-urile sunt instrumente de depanare pentru testarea și urmărirea expresiilor Simplicity.
+explanation: >-
+  Un jet este o implementare nativă pe care rețeaua este de acord să o
+  substituie pentru o anumită expresie Simplicity (identificată prin
+  rădăcina sa Merkle). Expresia Simplicity servește drept specificație
+  formală a ceea ce calculează jet-ul, în timp ce codul nativ oferă viteza
+  de execuție practică. Jet-urile comune gestionează operații aritmetice
+  și criptografice precum SHA-256.
+reviewed: false

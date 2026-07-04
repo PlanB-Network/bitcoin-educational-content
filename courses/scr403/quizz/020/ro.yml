@@ -1,0 +1,12 @@
+question: "Care sunt cele două efecte secundare folosite în Simplicity pentru aplicațiile Bitcoin și Liquid?"
+answer: "Efectul Failure (o excepție de tip 1) și efectul Reader (acces la datele mediului tranzacției)."
+wrong_answers:
+  - "Efectul State (variabile mutabile) și efectul Writer (înregistrare într-un jurnal de tranzacție)."
+  - "Efectul IO (comunicare în rețea) și efectul Memory (alocare dinamică de memorie)."
+  - "Efectul Continuation (callback-uri) și efectul Nondeterminism (căi de execuție multiple)."
+explanation: >-
+  Simplicity folosește exact două efecte secundare pentru aplicațiile blockchain. Efectul Failure permite
+  computațiilor să se întrerupă (de exemplu, când verificarea unei semnături eșuează), iar efectul Reader permite
+  expresiilor să citească date din mediul tranzacției. Combinatorii de bază rămân puri —
+  efectele secundare sunt introduse prin jets.
+reviewed: true

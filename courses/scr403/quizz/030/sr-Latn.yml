@@ -1,0 +1,15 @@
+question: "Koji izraz jezgarnih kombinatora implementira funkciju distribucije dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Unutar svake grane case-a, okruženje je već upareno sa neoznačenom
+  vrednošću, pa f = injl iden i g = injr iden daju ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a,
+  c⟩ i ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — upravo dist. take/drop varijanta prolazi
+  proveru tipova ali odbacuje uparivanje, označavajući umesto toga
+  funkciju tipa (A + B) × C ⊢ A + C. pair proizvodi proizvod umesto
+  zbira, a copair uopšte nije Simplicity kombinator — dist je upravo
+  ono što copair sam ne može izraziti.
+reviewed: false

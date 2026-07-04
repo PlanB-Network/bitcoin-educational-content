@@ -1,0 +1,15 @@
+question: "push-<n hat den Typ Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Warum muss seine Ausgabe eine Summe sein, die den vollen Vektortyp Aⁿ einschließt?"
+answer: Ein Puffer Aᑉⁿ enthält höchstens n−1 Elemente, sodass das Einfügen in einen vollen Puffer n Elemente ergibt — nur Aⁿ kann das darstellen.
+wrong_answers:
+  - Die Summe erlaubt es Aufrufern, die günstigere Kodierung zu wählen, da Vektoren kompakter serialisieren als Optionsprodukte.
+  - Push kann bei einem leeren Puffer fehlschlagen, und der Aⁿ-Zweig ist der Fehlerfall, der den alten Inhalt trägt.
+  - case verlangt, dass jede Funktion, die einen Puffer mit Summentyp konsumiert, auch eine Ausgabe mit Summentyp erzeugt.
+explanation: >-
+  Aᑉⁿ ist genau der Typ der Listen, deren Länge strikt kleiner als n ist,
+  sodass ein Puffer bei maximaler Kapazität n−1 Elemente enthält. Ein
+  weiteres Element hinzuzufügen ergibt genau n Elemente, was Aᑉⁿ nicht
+  darstellen kann; der Aⁿ-Summand liefert dieses übergelaufene Ergebnis
+  als vollen Vektor zurück. Das Kodieren des Überlaufs im Ausgabetyp hält
+  push-<n als totale statt partielle Funktion — der Fehlerfall des leeren
+  Puffers gehört zu pop-<n, nicht zu push-<n.
+reviewed: false

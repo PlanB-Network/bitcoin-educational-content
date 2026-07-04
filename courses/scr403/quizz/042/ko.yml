@@ -1,0 +1,15 @@
+question: spending time에 case branch 하나가 pruned away됩니다. verifier는 어떻게 revealed program을 committed CMR과 여전히 match할 수 있나요?
+answer: CMR은 머클 루트이므로, spender는 pruned branch의 CMR만 제공하고 verifier가 이를 fold in하여 root를 recompute합니다.
+wrong_answers:
+  - verifier는 executed branch만 사용합니다. unexecuted case branches는 CMR에 포함된 적이 없기 때문입니다.
+  - Pruned branches는 root를 recompute할 때 대신 들어가는 fixed CMR을 가진 canonical placeholder가 됩니다.
+  - pruned branch의 full code는 witness에 남아 있으며, verifier는 그것을 hash하지만 execute하지는 않습니다.
+explanation: >-
+  case f g의 CMR은 두 children의 CMRs 모두에 대한 tagged hash이므로, 모든
+  branch는 — executed되었든 아니든 — address time에 commit됩니다. 이
+  construction은 머클 트리이기 때문에, pruned branch는 그
+  32-byte CMR만으로 summarize될 수 있습니다. verifier는 그 hash를 recursive
+  computation에 plug in하고, pruned code를 전혀 보지 않고도 root가 UTXO의 commitment와 match하는지
+  check합니다. 이것이 바로 commitment에 머클 루트를 사용하는 이유이며, pruned branch 안의 어떤 witness expressions도
+  on-chain에 나타나지 않는 이유입니다.
+reviewed: false

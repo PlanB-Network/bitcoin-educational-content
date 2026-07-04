@@ -1,0 +1,12 @@
+question: Half-adder iharura iki?
+answer: Carry (AND) na sum (XOR) vy'intibice zibiri zinjijwe.
+wrong_answers:
+  - Igiteranyo c'imibare ibiri y'intibice nyinshi hamwe n'ukwimura carry.
+  - Impuzandengo y'intibice zibiri, ikurikiye hasi.
+  - OR na AND vy'intibice ku ntibice zibiri zinjijwe.
+explanation: >-
+  Half-adder ifata intibice zibiri zonyene igatanga imisuro ibiri ikoresheje
+  uguteranya bibangikanye: intibice ya carry (AND y'ivyinjizwa) n'intibice ya sum
+  (XOR y'ivyinjizwa). Muri Simplicity isigurwa nka and ▵ xor, igakoresha
+  ibikorwa vyompi ku mugwi umwe w'ivyinjizwa.
+reviewed: false

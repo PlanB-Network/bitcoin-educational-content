@@ -1,0 +1,15 @@
+question: "Które wyrażenie z kombinatorów rdzenia realizuje funkcję dystrybucji dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Wewnątrz każdej gałęzi case środowisko jest już sparowane z nieoznakowaną
+  wartością, więc f = injl iden oraz g = injr iden dają ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ i ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — dokładnie dist. Wariant take/drop
+  przechodzi kontrolę typów, ale odrzuca sparowanie, oznaczając zamiast tego
+  funkcję typu (A + B) × C ⊢ A + C. pair produkuje produkt zamiast sumy, a
+  copair w ogóle nie jest kombinatorem Simplicity — dist jest dokładnie tym,
+  czego samo copair nie potrafi wyrazić.
+reviewed: false

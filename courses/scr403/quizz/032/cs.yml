@@ -1,0 +1,16 @@
+question: Důkaz úplnosti sestaví libovolnou funkci vnořováním case k rozkladu vstupu a scribe pro každý výstup. Proč je to pouze teoretický nástroj?
+answer: Výsledný výraz je obrovská vyhledávací tabulka, jejíž velikost roste exponenciálně — 256bitový vstup by potřeboval přibližně 2²⁵⁶ položek.
+wrong_answers:
+  - scribe je makro, nikoli kombinátor jádra, takže výraz spadá mimo formálně ověřený jazyk.
+  - Bit Machine jej vyhodnocuje v exponenciálním čase, přestože samotný výraz zůstává kompaktní díky sdílení.
+  - Vnořený case dokáže rozložit pouze součtové typy, takže konstrukce selže na jakémkoli vstupu součinového typu.
+explanation: >-
+  Konstrukce vyjmenuje každý možný vstup pomocí vnořeného rozkladu case a
+  natvrdo zakóduje každý výstup pomocí scribe, takže velikost výrazu
+  exponenciálně exploduje — astronomicky u realistických typů, jako jsou
+  256bitová slova. Nárůst je ve velikosti výrazu, nikoli v době běhu jinak
+  kompaktního výrazu. scribe se rozvine do skutečných kombinátorů jádra
+  (unit, injl, injr, pair), takže výsledek zůstává uvnitř jazyka jádra,
+  jehož věta o úplnosti je formálně ověřena v Rocq; a rozklad zvládá
+  vstupy libovolného typu, včetně součinů.
+reviewed: false

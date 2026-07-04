@@ -11,7 +11,7 @@ L'idée de la plateforme Voltz est née d'un groupe de bitcoineurs qui souhaitai
 
 Au-delà d'être un portefeuille custodial Lightning qui vous permet d'envoyer, de recevoir et de payer quotidiennement, Voltz est une plateforme complète qui fournit des nombreuses extensions pour intégrer bitcoin comme point de vente ou place de marché dans votre commerce.
 
-Rendez-vous sur la plateforme [Voltz](https://www.voltz.com/en) puis créez en compte en cliquant sur le bouton "Essayer maintenant".
+Rendez-vous sur la plateforme [Voltz](https://www.lnvoltz.xyz/en) puis créez en compte en cliquant sur le bouton "Essayer maintenant".
 
 ![voltz](assets/fr/01.webp)
 

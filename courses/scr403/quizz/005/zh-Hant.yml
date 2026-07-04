@@ -1,0 +1,9 @@
+question: "'take' 組合子的作用是什麼？"
+answer: 它取出一個積的左組成部分，並捨棄右邊。
+wrong_answers:
+  - 它從和型別中移除一個元素，並捨棄標籤位元。
+  - 它將兩個分開的運算首尾循序組合。
+  - 它為一個值加上左標籤，以建構出新的和型別。
+explanation: >-
+  take 組合子是積型別的取出器。將 take f 套用於配對 ⟨a, b⟩ 時，它捨棄 b 並對 a 套用 f。與 iden 結合時，take iden 會取出任何配對的第一個元素。
+reviewed: false

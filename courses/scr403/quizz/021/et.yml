@@ -1,0 +1,12 @@
+question: "Miks on Failure effect Simplicitys kommutatiivne, kuigi erandid üldiselt ei ole kommutatiivsed?"
+answer: Sest erandi tüüp on ühiktüüp (1), millel on ainult üks väärtus, nii et viskamise järjekord ei loe.
+wrong_answers:
+  - Sest Simplicity täidab kõiki avaldisi deterministlikus järjekorras, mille määrab kombinaatoripuu.
+  - Sest case-kombinaator püüab Failure effecti alati kinni ja viskab selle siis uuesti.
+  - Sest Simplicity kasutab hulgakontrolli, mis muudab kõik visatud erandid samaväärseks.
+explanation: >-
+  Üldiselt ei ole erandid kommutatiivsed, sest eri avaldised võivad visata eri
+  erandiväärtusi. Simplicity piirab aga erandid ühiktüübiga (ainult üks võimalik väärtus),
+  nii et kahe potentsiaalselt ebaõnnestuva avaldise järjekorra vahetamine annab sama erandi sõltumata
+  sellest, kumb tegelikult ebaõnnestub. See kommutatiivsuse omadus võimaldab olulisi programmide optimeerimisi.
+reviewed: true

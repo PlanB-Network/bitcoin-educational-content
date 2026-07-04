@@ -1,0 +1,12 @@
+question: Czym jest typ sumy (A + B) w Simplicity?
+answer: "Unią tagowaną: wartość jest albo lewostronnie oznaczonym A, albo prawostronnie oznaczonym B."
+wrong_answers:
+  - Typem zawierającym jednocześnie wszystkie wartości zarówno z A, jak i z B.
+  - Arytmetycznym dodaniem rozmiarów bitowych obu typów składowych.
+  - Typem funkcji, który odwzorowuje każde wejście z A na wyjście w B.
+explanation: >-
+  Typ sumy A + B jest unią tagowaną. Każda wartość niesie jednobitowy tag
+  wskazujący, czy jest wariantem lewym (typu A), czy wariantem prawym
+  (typu B). Nawet gdy A i B są tym samym typem, wartości oznaczone
+  lewostronnie i prawostronnie pozostają różne.
+reviewed: false

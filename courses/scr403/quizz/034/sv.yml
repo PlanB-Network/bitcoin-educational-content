@@ -1,0 +1,14 @@
+question: Full-addraren OR:ar carry-bitarna från sina två half-adders istället för att XOR:a dem. Varför är OR korrekt?
+answer: Högst en half-adder kan ge carry för given indata, så OR slår samman två ömsesidigt uteslutande fall exakt.
+wrong_answers:
+  - De två carry-bitarna måste adderas, och OR är hur enbitars binär addition görs i Simplicity.
+  - Efter förgreningen är OR den enda booleska operatorn vars typ fortfarande matchar miljön.
+  - OR överapproximerar carry; eventuella falska carry-värden tas bort av den slutliga projektionen efteråt.
+explanation: >-
+  Om den första half-addern ger carry var båda dess indatabitar 1, så är
+  dess summabit 0 — och en half-adder som matas med 0 kan aldrig ge
+  carry. De två carry-bitarna är därför aldrig samtidigt 1, och OR slår
+  samman dem exakt (på de nåbara indata sammanfaller det till och med med
+  XOR). Denna ömsesidiga uteslutning är precis det som gör
+  tvåhalvadderar-dekomponeringen av en full-adder korrekt.
+reviewed: false

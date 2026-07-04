@@ -1,0 +1,16 @@
+question: Simplicity exclut la récursion non bornée. Quel est son substitut prévu pour l'itération non bornée ?
+answer: Les covenants récursifs qui répartissent le calcul sur plusieurs transactions, gardant le coût de chaque transaction prévisible.
+wrong_answers:
+  - La fonctionnalité de délégation, conçue spécifiquement pour offrir une forme mesurée de récursion non bornée au sein d'une seule transaction.
+  - Les neuf combinateurs de base, dont la complétude permet à une construction de point fixe d'encoder n'importe quelle fonction récursive.
+  - Le déroulement de boucle à la compilation, où l'analyse statique déduit le nombre maximal d'itérations et duplique le corps de la boucle.
+explanation: >-
+  La thèse de l'article est que l'itération non bornée est mieux
+  implémentée sous forme de covenants récursifs calculant sur plusieurs
+  transactions, ce qui évite les contraintes d'espace de bloc et de
+  standardité et rend les coûts de transaction prévisibles. La délégation
+  ne peut être détournée que pour produire quelque chose ressemblant à de
+  la récursion non bornée — ce n'est pas le mécanisme prévu — et les neuf
+  combinateurs de base ne sont complets que pour les calculs finis, donc
+  aucune construction de point fixe n'existe au sein d'un seul programme.
+reviewed: false

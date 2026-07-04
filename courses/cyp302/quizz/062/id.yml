@@ -6,4 +6,4 @@ wrong_answers:
   - Hashing pesan
 explanation: |
   Enkripsi aliran sangat cocok untuk komunikasi berkelanjutan karena ia mengenkripsi data secara berkelanjutan, tidak seperti enkripsi blok, yang membagi data menjadi blok-blok.
-  direview: false
+reviewed: true

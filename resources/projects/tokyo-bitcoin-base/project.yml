@@ -1,0 +1,28 @@
+id: 9d1d28c0-6205-493e-9a0e-f7f5a90f8ef3
+name: Tokyo Bitcoin Base
+category: communities
+address_city_country: "Tokyo, Japan"
+address_line_2: ''
+address_line_3: ''
+language:
+  - ja
+  - en
+links:
+  website: https://luma.com/user/TBB_JP
+  twitter: https://x.com/TBB_EN
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - good-practice
+original_language: ja
+proofreading:
+  - language: ja
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

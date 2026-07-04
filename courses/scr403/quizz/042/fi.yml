@@ -1,0 +1,16 @@
+question: Kulutushetkellä case-haara karsitaan pois. Miten varmentaja voi silti täsmätä paljastetun ohjelman sidottuun CMR:ään?
+answer: CMR on Merkle-juuri, joten kuluttaja toimittaa vain karsitun haaran CMR:n ja varmentaja laskee sen mukaan juuren uudelleen.
+wrong_answers:
+  - Varmentaja käyttää vain suoritettua haaraa, koska suorittamattomat case-haarat eivät koskaan olleet CMR:ssä.
+  - Karsituista haaroista tulee kanoninen paikanpitäjä, jonka kiinteä CMR toimii sijaisena juurta uudelleenlaskettaessa.
+  - Karsitun haaran koko koodi jää witnessiin, jossa varmentaja tiivistää sen mutta ei suorita sitä.
+explanation: >-
+  case f g:n CMR on tunnisteellinen tiiviste molempien lasten CMR:istä, joten
+  jokainen haara — suoritettu tai ei — sidotaan osoiteaikana. Koska
+  konstruktio on Merkle-puu, karsittu haara voidaan tiivistää pelkällä
+  32-tavuisella CMR:llään: varmentaja liittää tuon tiivisteen rekursiiviseen
+  laskentaan ja tarkistaa, että juuri täsmää UTXO:n sitoumukseen, näkemättä
+  koskaan karsittua koodia. Juuri tästä syystä sitoumukseen käytetään
+  Merkle-juurta ja miksi mitkään karsitun haaran sisällä olevat
+  witness-lausekkeet eivät koskaan ilmesty lohkoketjuun.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Koju bazu podataka Bitcoin čvor lokalno čuva za praćenje neutrošenog izlaza?
-answer: UTXO set
+answer: UTXO skup
 wrong_answers:
   - Mempool
-  - Blockchain
-  - Istorija Wallet
+  - Blokčejn
+  - Istoriju novčanika
 explanation: |
   Čvor čuva UTXO skup, koji je skup neutrošenih izlaza dostupnih za buduće transakcije.
 reviewed: true

@@ -1,0 +1,13 @@
+question: Hvordan representeres bufre med variabel lengde i Simplicitys typesystem?
+answer: Som nøstede produkter av opsjonstyper, der hvert lag flagger en blokk med potens av to.
+wrong_answers:
+  - Ved bruk av en spesiell dynamisk array-type bygget direkte inn i språket.
+  - Gjennom rekursive sumtyper som blir større for hvert funksjonskall.
+  - Som vektorer med fast størrelse som fylles ut med etterfølgende nullverdier.
+explanation: >-
+  Buffere bruker nøstede opsjonstyper. For eksempel utvider Xᑉ⁸ seg til
+  (1 + X⁴) × ((1 + X²) × (1 + X)), som som et polynom gir
+  1 + X + X² + ... + X⁷ — som representerer samlinger av 0 til 7 elementer.
+  Hvert opsjonslag angir om en blokk med potens av to er til stede,
+  som effektivt koder lengden i binær form.
+reviewed: false

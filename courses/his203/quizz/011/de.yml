@@ -1,5 +1,5 @@
 question: Was war die Ursache dafür, dass Mt. Gox am 19. Juni gehackt wurde?
-answer: Zugriff auf die Passwort-Datenbank, die mit MD5 gehasht, aber nicht gesalzen wurde
+answer: Zugriff auf die Passwort-Datenbank, die mit MD5 gehasht, aber nicht mit einem Salt versehen wurde
 wrong_answers:
   - Jed McCaleb verriet das Passwort für sein persönliches Konto auf der Plattform
   - Ein Blitzeinschlag, der es dem Piraten ermöglichte, mehr Bitcoins abzuheben, als er hatte

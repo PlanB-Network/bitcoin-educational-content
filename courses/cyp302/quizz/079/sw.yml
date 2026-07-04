@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa sababu hutumia nambari za nasibu
 explanation: |
   Usimbaji fiche wa Shift huathirika kwa urahisi na mashambulizi ya nguvu ya kinyama kwa sababu ina funguo 26 tu, kutoka 0 hadi 25, kutokana na matumizi ya modulo 26 ambayo yenyewe inategemea ukubwa wa alfabeti. Huwezi kutumia funguo kubwa halali, kwani kwa hali yoyote zingekuwa sawa na ufunguo kati ya 0 na 25. Kwa hiyo, inatosha kupima kila mmoja wao ili kupata ujumbe.
-reviewed: false
+reviewed: true

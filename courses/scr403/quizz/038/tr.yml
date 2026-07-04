@@ -1,0 +1,15 @@
+question: SHA-256 sıkıştırması bir jet olur, ama fold ve map kombinatörleri olamaz. Bu asimetriyi ne açıklar?
+answer: Bir jet tek bir sabit ifadenin yerini alır; fold ve map tek ifadeler değil şemalardır, iç fonksiyon f başına farklı bir ifade üretirler.
+wrong_answers:
+  - Jetler yalnızca düz çizgisel kodu hızlandırır; bu yüzden yineleyen kombinatörler önce açılmalı ve sonra hiçbir jet ile eşleşmemelidir.
+  - Yalnızca makine-denetimli Rocq ispatı olan ifadeler uygun olur; bu ispat SHA-256 için vardır ama fold işlemleri için yoktur.
+  - Kısa vektörler üzerindeki fold işlemleri fayda sağlayamayacak kadar ucuzdur; bu yüzden jetler maliyetli kripto işlemlerine ayrılır.
+explanation: >-
+  Bir jet, düğümlerin tam semantiğini koruyarak ikame edebileceği belirli,
+  tamamen oluşmuş tek bir Simplicity ifadesinin yerel ikamesidir.
+  fold-right-n, map, zip ve varyantları tek ifadeler değil inşa şemalarıdır:
+  iç fonksiyon f için yapılan her seçim yapısal olarak farklı bir ifade üretir; bu
+  yüzden tek bir jet bütün ailenin yerine geçemez. Bu yüzden bu yineleme
+  örüntüleri gerçek programlarda, genellikle SimplicityHL gibi üst düzey
+  diller tarafından üretilen gerçek kombinatör kodu olarak görünür.
+reviewed: false

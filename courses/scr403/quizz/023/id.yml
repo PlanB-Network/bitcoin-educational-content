@@ -1,0 +1,14 @@
+question: "Mengapa sig-all-hash menggunakan efek Reader alih-alih mengambil data transaksi sebagai input bertipe?"
+answer: Agar jet dapat menggunakan PrecomputedTransactionData dan berjalan dalam waktu konstan pada lingkungan yang tetap.
+wrong_answers:
+  - Karena sistem tipe Simplicity secara fundamental tidak dapat merepresentasikan data transaksi sebagai suatu tipe.
+  - Karena efek Reader lebih cepat daripada meneruskan data tersebut melalui pohon kombinator.
+  - Karena data transaksi terlalu besar untuk masuk ke dalam sistem tipe berukuran tetap milik Simplicity.
+explanation: >-
+  Jika sig-all-hash mengambil tipe input TxEnv, program dapat meneruskan salinan data transaksi
+  yang telah dimodifikasi ke jet, sehingga mencegahnya menggunakan hash yang telah dihitung
+  sebelumnya. Dengan efek Reader, jet hanya mengakses lingkungan transaksi yang tetap dan
+  immutable, sehingga implementasinya dapat dengan aman menggunakan PrecomputedTransactionData
+  dan berjalan dalam waktu konstan per pemeriksaan tanda tangan, menghindari masalah hashing
+  kuadratik yang pernah menjadi momok Bitcoin Script versi awal.
+reviewed: true

@@ -1,0 +1,14 @@
+question: Simplicity ตัด unbounded recursion ออก แล้วสิ่งทดแทนที่ตั้งใจไว้สำหรับการวนซ้ำแบบไม่จำกัด (unbounded iteration) คืออะไร?
+answer: recursive covenants ที่กระจายการคำนวณข้ามหลายธุรกรรม ทำให้ต้นทุนของแต่ละธุรกรรมคาดการณ์ได้
+wrong_answers:
+  - ฟีเจอร์ delegation ซึ่งถูกสร้างขึ้นมาโดยเฉพาะเพื่อให้ unbounded recursion ในรูปแบบ metered ภายในธุรกรรมเดียว
+  - combinator แกนหลักเก้าตัว ซึ่งความสมบูรณ์ของมันทำให้การสร้างแบบ fixed-point สามารถ encode ฟังก์ชัน recursive ใด ๆ ได้
+  - การ unroll loop ตอน compile-time ซึ่ง static analysis อนุมานจำนวน iteration สูงสุดแล้ว duplicate body ของมัน
+explanation: >-
+  วิทยานิพนธ์ของบทความคือการวนซ้ำแบบไม่จำกัดควร implement เป็น recursive covenants
+  ที่คำนวณข้ามหลายธุรกรรมมากกว่า ซึ่งหลีกเลี่ยงข้อจำกัดด้านพื้นที่บล็อกและ standardness
+  และทำให้ต้นทุนธุรกรรมคาดการณ์ได้ delegation ทำได้เพียงถูก abuse เพื่อสร้างสิ่งที่คล้ายกับ
+  unbounded recursion เท่านั้น — มันไม่ใช่กลไกที่ตั้งใจไว้ — และ combinator แกนหลักเก้าตัว
+  สมบูรณ์เฉพาะสำหรับการคำนวณจำกัด (finite computations) เท่านั้น ดังนั้นจึงไม่มีการสร้างแบบ
+  fixed-point อยู่ภายในโปรแกรมเดียว
+reviewed: false

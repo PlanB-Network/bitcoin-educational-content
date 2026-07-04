@@ -1,0 +1,13 @@
+question: Hvorfor serialiseres Simplicity-uttrykk som DAG-er i stedet for trær?
+answer: For å forhindre eksponentiell vekst, siden delte deluttrykk lagres bare én gang.
+wrong_answers:
+  - Fordi vanlige trestrukturer overhodet ikke kan representere betinget forgrening.
+  - For å muliggjøre parallell kjøring på tvers av mange separate flerkjerne-prosessorer.
+  - Fordi Liquid Network-protokollen strengt påbyr DAG-formatet her.
+explanation: >-
+  Simplicity-uttrykk danner naturlig trær som kan vokse eksponentielt
+  etter hvert som kompleksiteten øker. Ved å serialisere som rettede
+  asykliske grafer (DAG-er) lagres deluttrykk som forekommer flere ganger
+  bare én gang og refereres av flere foreldre. Dette holder faktisk
+  programstørrelse voksende lineært i stedet for eksponentielt.
+reviewed: false

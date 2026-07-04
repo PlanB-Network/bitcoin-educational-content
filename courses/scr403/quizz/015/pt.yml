@@ -1,0 +1,13 @@
+question: Por que motivo o combinador 'case' inclui um tipo de ambiente partilhado C na sua assinatura?
+answer: Para que ambos os ramos possam ler dados de contexto partilhados juntamente com o input etiquetado.
+wrong_answers:
+  - Para limitar o tamanho do input de forma a evitar estouros de pilha (stack overflows).
+  - Para permitir chamadas recursivas de ida e volta entre os dois ramos.
+  - Para armazenar o output do combinador anterior mais cedo na cadeia.
+explanation: >-
+  O combinador case tem a assinatura (A + B) × C ⊢ D. O tipo extra C
+  atua como um ambiente partilhado ao qual tanto o ramo esquerdo (f : A × C ⊢ D)
+  como o ramo direito (g : B × C ⊢ D) podem aceder. Isto é mais poderoso
+  do que um simples if-then-else, porque os ramos recebem tanto os seus
+  dados específicos como a informação contextual necessária para o cálculo.
+reviewed: false

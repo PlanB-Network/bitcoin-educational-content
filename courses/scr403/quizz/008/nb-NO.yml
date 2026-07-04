@@ -1,0 +1,13 @@
+question: Hvordan fungerer den logiske OG-operasjonen i Simplicity?
+answer: Den forgrener seg på den første biten — hvis usann returneres usann, ellers den andre biten.
+wrong_answers:
+  - Den multipliserer de to boolske verdiene sammen ved hjelp av produkttypen.
+  - Den bruker en oppslagstabell med alle fire mulige inndatakombinasjoner.
+  - Den anvender XOR-kombinatoren og deretter NOT-kombinatoren på resultatet.
+explanation: >-
+  OG er definert som case (injl unit) (drop iden). Kombinatoren case
+  forgrener seg på den første biten. Hvis den er usann (venstre-merket),
+  returnerer injl unit usann uansett den andre biten. Hvis den er sann
+  (høyre-merket), returnerer drop iden den andre biten uendret. Dette
+  samsvarer med sannhetstabellen for OG.
+reviewed: false

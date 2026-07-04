@@ -1,0 +1,16 @@
+question: completeness proof는 input을 분해하기 위해 case를 중첩하고 각 output에는 scribe를 사용하여 임의의 function을 구성합니다. 왜 이것은 theoretical tool에 불과한가요?
+answer: 결과 expression은 크기가 exponentially 증가하는 거대한 lookup table입니다 — 256-bit input에는 약 2²⁵⁶ entries가 필요합니다.
+wrong_answers:
+  - scribe는 core combinator가 아니라 macro이므로, expression이 formally verified language 밖으로 벗어납니다.
+  - Bit Machine은 이를 exponential time에 evaluate하지만, expression 자체는 sharing 덕분에 compact하게 유지됩니다.
+  - Nested case는 sum types만 decompose할 수 있으므로, product-typed input에서는 construction이 실패합니다.
+explanation: >-
+  이 construction은 nested case decomposition을 통해 가능한 모든 input을 enumerate하고
+  scribe로 각 output을 hard-code하므로, expression size가
+  exponentially 폭증합니다 — 256-bit words 같은 realistic types에서는 천문학적입니다.
+  blowup은 expression의 size에 있는 것이지, otherwise-
+  compact한 expression의 runtime에 있는 것이 아닙니다. scribe는 genuine core
+  combinators(unit, injl, injr, pair)로 expand되므로, 결과는
+  core language 안에 남습니다. 그 completeness theorem은 Rocq에서 formally verified되었으며,
+  decomposition은 products를 포함한 모든 type의 inputs를 처리합니다.
+reviewed: false

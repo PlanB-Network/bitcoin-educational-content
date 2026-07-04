@@ -1,0 +1,17 @@
+question: Der Vollständigkeitsbeweis konstruiert jede Funktion, indem case verschachtelt wird, um die Eingabe zu zerlegen, und scribe für jede Ausgabe verwendet wird. Warum ist das nur ein theoretisches Hilfsmittel?
+answer: Der resultierende Ausdruck ist eine riesige Nachschlagetabelle, deren Größe exponentiell wächst — eine 256-Bit-Eingabe würde etwa 2²⁵⁶ Einträge benötigen.
+wrong_answers:
+  - scribe ist ein Makro und kein Kern-Kombinator, sodass der Ausdruck außerhalb der formal verifizierten Sprache liegt.
+  - Die Bit Machine wertet ihn in exponentieller Zeit aus, obwohl der Ausdruck selbst durch Sharing kompakt bleibt.
+  - Verschachteltes case kann nur Summentypen zerlegen, sodass die Konstruktion bei jeder Eingabe mit Produkttyp scheitert.
+explanation: >-
+  Die Konstruktion zählt über verschachtelte case-Zerlegung jede mögliche
+  Eingabe auf und kodiert jede Ausgabe fest mit scribe, sodass die
+  Ausdrucksgröße exponentiell explodiert — astronomisch für realistische
+  Typen wie 256-Bit-Wörter. Die Explosion betrifft die Größe des
+  Ausdrucks, nicht die Laufzeit eines ansonsten kompakten Ausdrucks.
+  scribe expandiert zu echten Kern-Kombinatoren (unit, injl, injr, pair),
+  sodass das Ergebnis innerhalb der Kernsprache bleibt, deren
+  Vollständigkeitssatz formal in Rocq verifiziert ist; und die Zerlegung
+  funktioniert für Eingaben jedes Typs, einschließlich Produkte.
+reviewed: false

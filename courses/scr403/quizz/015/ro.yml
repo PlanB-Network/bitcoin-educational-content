@@ -1,0 +1,13 @@
+question: De ce include semnătura combinatorului 'case' un tip de mediu comun C?
+answer: Pentru ca ambele ramuri să poată citi date de context comune alături de input-ul etichetat.
+wrong_answers:
+  - Pentru a limita dimensiunea input-ului în scopul prevenirii depășirilor de stivă.
+  - Pentru a permite apeluri recursive între cele două ramuri.
+  - Pentru a stoca output-ul combinatorului anterior din lanț.
+explanation: >-
+  Combinatorul case are semnătura (A + B) × C ⊢ D. Tipul suplimentar C
+  acționează ca un mediu comun la care pot accesa atât ramura stângă
+  (f : A × C ⊢ D), cât și ramura dreaptă (g : B × C ⊢ D). Acest lucru este
+  mai puternic decât un simplu if-then-else, deoarece ramurile primesc atât
+  datele lor specifice, cât și informațiile contextuale necesare pentru computație.
+reviewed: false

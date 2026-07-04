@@ -1,0 +1,12 @@
+question: "Simplicity 在 Bitcoin 和 Liquid 应用中使用的两种副作用是什么？"
+answer: "Failure 效应（类型 1 的异常）和 Reader 效应（访问交易环境数据）。"
+wrong_answers:
+  - "State 效应（可变变量）和 Writer 效应（写入交易日志）。"
+  - "IO 效应（网络通信）和 Memory 效应（动态内存分配）。"
+  - "Continuation 效应（回调）和 Nondeterminism 效应（多条执行路径）。"
+explanation: >-
+  Simplicity 在区块链应用中只使用两种副作用。Failure 效应允许
+  计算中止（例如，当签名检查失败时），Reader 效应允许
+  表达式从交易环境读取数据。核心组合子保持纯粹——
+  副作用通过 jets 引入。
+reviewed: true

@@ -1,0 +1,15 @@
+question: "哪个核心组合子表达式实现了分配函数 dist : (A + B) × C ⊢ A × C + B × C？"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  在 case 的每个分支内部，环境已经与未带标签的值配对，
+  因此 f = injl iden 和 g = injr iden 给出 ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ 以及 ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ —— 这正是 dist。take/drop 变体
+  能通过类型检查，但会丢弃这个配对，表示的是类型 (A +
+  B) × C ⊢ A + C 的函数。pair 产生的是积而不是和，
+  而 copair 根本不是 Simplicity 组合子 —— dist 正是单靠
+  copair 无法表达的东西。
+reviewed: false

@@ -1,0 +1,16 @@
+question: En el momento de gastar se poda una rama de case. ¿Cómo puede el verificador seguir haciendo coincidir el programa revelado con el CMR comprometido?
+answer: El CMR es una raíz de Merkle, así que quien gasta solo aporta el CMR de la rama podada y el verificador lo incorpora para recalcular la raíz.
+wrong_answers:
+  - El verificador usa solo la rama ejecutada, ya que las ramas de case no ejecutadas nunca estuvieron en el CMR.
+  - Las ramas podadas se convierten en un marcador de posición canónico cuyo CMR fijo se usa al recalcular la raíz.
+  - El código completo de la rama podada permanece en el testigo (witness), donde el verificador lo hashea pero no lo ejecuta.
+explanation: >-
+  El CMR de case f g es un hash etiquetado sobre los CMR de ambos hijos, así que cada
+  rama — ejecutada o no — queda comprometida en el momento de calcular la dirección. Como la
+  construcción es un árbol de Merkle, una rama podada puede resumirse solo con su
+  CMR de 32 bytes: el verificador introduce ese hash en el cálculo
+  recursivo y comprueba que la raíz coincide con el compromiso de la UTXO,
+  sin llegar nunca a ver el código podado. Esto es precisamente por lo que se usa una raíz de
+  Merkle para el compromiso, y por lo que las expresiones testigo dentro de la
+  rama podada nunca aparecen en la cadena.
+reviewed: false

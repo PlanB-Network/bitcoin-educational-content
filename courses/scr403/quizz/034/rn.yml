@@ -1,0 +1,14 @@
+question: Kurikirana full-adder kuri ⟨⟨1,1⟩,1⟩ (1+1+1). Ni akahe gaciro stage two, O O H ▵ (O I H ▵ I H ⨾ half-adder), iha final stage?
+answer: ⟨1, ⟨0, 1⟩⟩ — carry ya half-adder ya mbere, hanyuma carry na sum vya half-adder ya kabiri.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — carry ya half-adder ya mbere, hanyuma sum na carry vya half-adder ya kabiri.
+  - ⟨0, ⟨0, 1⟩⟩ — sum bit ya half-adder ya mbere, hanyuma carry na sum vya half-adder ya kabiri.
+  - ⟨1, ⟨1, 1⟩⟩ — carry ya half-adder ya mbere, hanyuma bits za OR na XOR za half-adder ya kabiri.
+explanation: >-
+  Stage one iharura half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) kandi ikazigama
+  carry-in, bigatanga ⟨⟨1,0⟩, 1⟩. Muri stage two, O O H ikura carry ya mbere
+  (1), mu gihe O I H ▵ I H iha ⟨0, 1⟩ — sum ya mbere na carry-in — half-adder
+  ya kabiri, igatanga ⟨0, 1⟩ kuko and(0,1)=0 na xor(0,1)=1. Final stage ica
+  ikoresha OR ku ma carries abiri kandi ikagumya sum, igatanga ⟨1, 1⟩: binary
+  3, nk'uko vyari vyitezwe.
+reviewed: false

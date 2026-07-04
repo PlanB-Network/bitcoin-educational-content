@@ -1,0 +1,14 @@
+question: SimplicityHL ni nini na kwa nini inahitajika?
+answer: Lugha ya kiwango cha juu zaidi inayocompile kwenda Simplicity na kusimamia majina na scope.
+wrong_answers:
+  - Lugha ya maelezo ya hardware kwa ajili ya kuchimba ASICs zinazoendesha Simplicity.
+  - IDE ya picha ya drag-and-drop ya kuunganisha combinators za Simplicity.
+  - Mfumo wa majaribio wa kuendesha programu za Simplicity ndani ya sandbox salama.
+explanation: >-
+  Simplicity ghafi huwa vigumu kueleweka katika viwango vya utata wa uzalishaji kwa sababu
+  ufikiaji wote wa data lazima ufanywe kupitia combinators za take/drop zilizowekwa ndani kwa ndani. SimplicityHL
+  hutoa miundo ya upangaji programu iliyozoeleka — named variables, scoping, library
+  imports, na control flow — ambayo hucompile kwenda kwenye expressions za combinator za Simplicity.
+  Watumiaji wa mwisho huandika SimplicityHL huku Simplicity ikitumika kama
+  lengo la compilation lililothibitishwa rasmi.
+reviewed: false

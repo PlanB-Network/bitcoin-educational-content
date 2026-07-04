@@ -1,0 +1,11 @@
+question: Hva gjør kombinatoren «take»?
+answer: Den henter ut venstrekomponenten av et produkt, og forkaster høyrekomponenten.
+wrong_answers:
+  - Den fjerner et element fra en sumtype, og forkaster merkebiten.
+  - Den komponerer sekvensielt to separate operasjoner ende til ende.
+  - Den pakker inn en verdi med en venstre-merking for å bygge en ny sumtype.
+explanation: >-
+  Kombinatoren take er en uthenter for produkttyper. Gitt take f
+  anvendt på et par ⟨a, b⟩, forkastes b og f anvendes på a. Kombinert
+  med iden henter take iden ut det første elementet av et vilkårlig par.
+reviewed: false

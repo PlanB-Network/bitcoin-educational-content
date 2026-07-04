@@ -6,4 +6,4 @@ wrong_answers:
   - Adresse Lightning active
 explanation: |
   LND repose sur un nœud Bitcoin synchronisé à 100%, condition indispensable à son fonctionnement.
-reviewed: false
+reviewed: true 

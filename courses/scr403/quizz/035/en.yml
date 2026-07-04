@@ -1,0 +1,14 @@
+question: Trace the full-adder on ⟨⟨1,1⟩,1⟩ (1+1+1). What value does stage two, O O H ▵ (O I H ▵ I H ⨾ half-adder), hand to the final stage?
+answer: ⟨1, ⟨0, 1⟩⟩ — the first half-adder's carry, then the second's carry and sum.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — the first half-adder's carry, then the second's sum and carry.
+  - ⟨0, ⟨0, 1⟩⟩ — the first half-adder's sum bit, then the second's carry and sum.
+  - ⟨1, ⟨1, 1⟩⟩ — the first half-adder's carry, then the second's OR and XOR bits.
+explanation: >-
+  Stage one computes half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) and saves
+  the carry-in, giving ⟨⟨1,0⟩, 1⟩. In stage two, O O H extracts the first
+  carry (1), while O I H ▵ I H feeds ⟨0, 1⟩ — the first sum and the carry-
+  in — into the second half-adder, yielding ⟨0, 1⟩ since and(0,1)=0 and
+  xor(0,1)=1. The final stage then ORs the two carries and keeps the sum,
+  producing ⟨1, 1⟩: binary 3, as expected.
+reviewed: false

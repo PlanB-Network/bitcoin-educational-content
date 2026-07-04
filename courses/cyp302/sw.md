@@ -7,9 +7,9 @@ objectives:
 - Soma msimbo wa mtiririko wa RC4 na AES kwa ufunguo wa 128-bit ili kupata maelezo kuhusu algoriti za kriptografia linganifu.
 - Chunguza mfumo wa kificho wa RSA, usambazaji wa ufunguo, na vitendaji vya Hash ili kugundua usimbaji fiche usiolinganishwa.
 ---
-# Uchunguzi wa Kina wa Kriptografia ya Kisasa
+# Uchunguzi wa Kina wa kriptografia ya Kisasa
 
-Katika kozi hii, tutafunika mambo muhimu ya kriptografia ya kisasa kwa njia wazi na inayoeleweka, hakuna haja ya msingi mkubwa wa hisabati. Katika sura zote, utajifunza wazo kuu kama vile usimbaji fiche wa simetri na ufunguo wa umma, kazi za hash, saini za kidijitali, ubadilishanaji wa funguo, na itifaki za ulimwengu halisi. Njiani, tutaunganisha nukta kwa matumizi ya vitendo kama vile kutuma ujumbe salama, TLS, uhifadhi wa nenosiri, na uthibitishaji.
+Katika kozi hii, tutashughulikia mambo muhimu ya kriptografia ya kisasa kwa njia wazi na inayoeleweka, hakuna haja ya msingi mkubwa wa hisabati. Katika sura mbalimbali, utajifunza dhana kuu kama vile usimbaji fiche wa simetri na ufunguo wa umma, funsi za hash, saini za kidijitali, ubadilishanaji wa funguo, na itifaki za ulimwengu halisi. Njiani, tutaunganisha nukta kwa matumizi ya vitendo kama vile kutuma ujumbe salama, TLS, uhifadhi wa nenosiri, na uthibitishaji.
 
 Nyenzo zimeundwa kwa wanafunzi wa viwango vyote na zinasawazisha ufahamu na kina cha kiufundi cha kutosha kukidhi udadisi. Tarajia safari iliyolengwa na ya kuvutia. Mwishoni, utaelewa jinsi na kwa nini kriptografia ya kisasa inafanya kazi na jinsi ya kuitumia kwa uwajibikaji.
 +++
@@ -25,23 +25,23 @@ Maudhui haya ya kielimu yametokolezwa kutoka kitabu na repo [JWBurgers](https://
 
 ### Motisha na malengo
 
-Ni vigumu kupata nyenzo nyingi ambazo hutoa msingi mzuri wa kati katika elimu ya cryptography.
+Ni vigumu kupata nyenzo nyingi ambazo hutoa msingi mzuri wa kati katika elimu ya kriptografia.
 
-Kwa upande mmoja, kuna risala ndefu, rasmi, zinazoweza kufikiwa tu na wale walio na usuli dhabiti katika hisabati, mantiki, au taaluma nyingine rasmi. Kwa upande mwingine, kuna utangulizi wa hali ya juu sana ambao huficha maelezo mengi sana kwa mtu yeyote ambaye angalau ana hamu ya kujua.
+Kwa upande mmoja, kuna risala ndefu, rasmi, zinazoweza kufikiwa tu na wale walio na mantiki dhabiti katika hisabati, mantiki, au taaluma nyingine rasmi. Kwa upande mwingine, kuna utangulizi wa hali ya juu sana ambao huficha maelezo mengi sana kwa mtu yeyote ambaye angalau ana hamu ya kujua.
 
-Utangulizi huu wa kriptografia unatafuta kunasa hali ya kati. Ingawa inapaswa kuwa na changamoto na maelezo ya kina kwa mtu yeyote mpya kwa cryptography, sio shimo la sungura la risala ya kawaida ya msingi.
+Utangulizi huu wa kriptografia unalenga kunasa msimamo wa kati. Ingawa inaweza kuwa na changamoto na maelezo ya kina kwa mtu yeyote aliye mpya kwa kriptografia, sio shimo la sungura la risala ya kawaida ya msingi.
 
 ### Watazamaji walengwa
 
-Kuanzia kwa wasanidi programu hadi kwa walio na udadisi wa kiakili, kitabu hiki ni muhimu kwa mtu yeyote ambaye anataka zaidi ya ufahamu wa juu juu wa cryptography. Ikiwa lengo lako ni kusimamia uga wa cryptography, basi kitabu hiki pia ni mahali pazuri pa kuanzia.
+Kuanzia kwa wasanidi programu hadi kwa walio na udadisi wa kiakili, kitabu hiki ni muhimu kwa mtu yeyote ambaye anataka zaidi ya ufahamu wa juu juu wa kriptografia. Ikiwa lengo lako ni kumudu uga wa kriptografia, basi kitabu hiki pia ni mahali pazuri pa kuanzia.
 
 ### Miongozo ya kusoma
 
-Kitabu kwa sasa kina sura saba: "Cryptography ni nini?" (Sura ya 1), "Misingi ya Hisabati ya Cryptography I" (Sura ya 2), "Misingi ya Hisabati ya Cryptography II" (Sura ya 3), "Symmetric Cryptography" (Sura ya 4), "RC4 na AES" (Sura ya 5), ​​"Cryptography Asymmetric" (Sura ya 6), na "Mfumo wa RSA wa 7)" (Sura ya 7). Sura ya mwisho, "Cryptography in Practice," bado itaongezwa. Inaangazia programu mbali mbali za kriptografia, ikijumuisha usalama wa Layer wa usafirishaji, uelekezaji wa vitunguu, na mfumo wa thamani wa Bitcoin wa Exchange.
+Kitabu kwa sasa kina sura saba: "Cryptography ni nini?" (Sura ya 1), "Misingi ya Hisabati ya Cryptography I" (Sura ya 2), "Misingi ya Hisabati ya Cryptography II" (Sura ya 3), "Symmetric Cryptography" (Sura ya 4), "RC4 na AES" (Sura ya 5), ​​"Asymmetric Cryptography"  (Sura ya 6), na "Mfumo wa RSA wa 7)" (Sura ya 7). Sura ya mwisho, "Cryptography in Practice," bado itaongezwa. Inaangazia programu mbali mbali za kriptografia, ikijumuisha usalama wa Layer wa usafirishaji, uelekezaji wa vitunguu, na mfumo wa thamani wa Bitcoin wa Exchange.
 
 Isipokuwa una usuli dhabiti katika hisabati, nadharia ya nambari pengine ndiyo mada ngumu zaidi katika kitabu hiki. Ninatoa muhtasari wake katika Sura ya 3, na pia inaonekana katika ufafanuzi wa AES katika Sura ya 5 na mfumo wa siri wa RSA katika Sura ya 7.
 
-Ikiwa unatatizika sana na maelezo rasmi katika sehemu hizi za kitabu, ninapendekeza utatue kwa usomaji wa hali ya juu mara ya kwanza.
+Ikiwa unatatizika sana na maelezo rasmi katika sehemu hizi za kitabu, ninapendekeza ujitosheleze na usomaji wa hali ya juu mara ya kwanza.
 
 ### Shukrani
 
@@ -51,7 +51,7 @@ Vyanzo vikuu vya ziada ambavyo vimesaidia katika kuunda muhtasari katika kitabu 
 
 Nitataja tu habari mahususi na matokeo ninayochukua kutoka kwa vyanzo hivi, lakini nataka kukiri deni langu la jumla kwao hapa.
 
-Kwa wale wasomaji ambao wanataka kutafuta ujuzi wa juu zaidi juu ya cryptography baada ya utangulizi huu, ninapendekeza sana kitabu cha Katz na Lindell. Kozi ya Katz kwenye Coursera inapatikana zaidi kuliko kitabu.
+Kwa wale wasomaji ambao wanataka kutafuta ujuzi wa juu zaidi juu ya kriptografia baada ya utangulizi huu, ninapendekeza sana kitabu cha Katz na Lindell. Kozi ya Katz kwenye Coursera inapatikana zaidi kuliko kitabu.
 
 ### Michango
 
@@ -61,7 +61,7 @@ Tafadhali angalia [faili ya michango katika hazina](https://github.com/JWBurgers
 
 **Masharti muhimu:**
 
-Maneno muhimu katika primers huletwa kwa kuwafanya ujasiri. Kwa mfano, utangulizi wa msimbo wa Rijndael kama neno muhimu utaonekana kama ifuatavyo: **Rijndael cipher**.
+Maneno muhimu katika primers huwasilishwa kwa kuyaandika kwa herufi nzito. Kwa mfano, utangulizi wa msimbo wa Rijndael kama neno muhimu utaonekana kama ifuatavyo: **Rijndael cipher**.
 
 Istilahi muhimu zimefafanuliwa kwa uwazi, isipokuwa kama ni majina sahihi au maana yake ni dhahiri kutokana na mjadala.
 
@@ -80,7 +80,7 @@ Nukuu rasmi inahusu vigeu, vigeu vya nasibu, na seti.
 - Vigezo vya nasibu: Hizi huonyeshwa kila mara kwa herufi kubwa (k.m., "X" au "Y").
 - Seti: Hizi huonyeshwa kila mara kwa herufi kubwa, kubwa (k.m., **S**)
 
-# Cryptography ni nini?
+# kriptografia ni nini?
 
 <partId>48e4d6d5-cd00-5c00-8adb-ae8477ff47c4</partId>
 
@@ -88,33 +88,33 @@ Nukuu rasmi inahusu vigeu, vigeu vya nasibu, na seti.
 
 <chapterId>ae674346-4789-5ab1-9b6f-c8989d83be89</chapterId>
 
-Wacha tuanze uchunguzi wetu katika uwanja wa [cryptography](https://planb.academy/resources/glossary/cryptography) na moja ya vipindi vya kupendeza na vya kuburudisha katika historia yake: ile ya maandishi ya Beale. [1]
+Wacha tuanze uchunguzi wetu katika uwanja wa [kriptografia](https://planb.academy/resources/glossary/cryptography) na moja ya vipindi vya kupendeza na vya kuburudisha katika historia yake: ile ya maandishi ya Beale. [1]
 
-Hadithi ya maandishi ya Beale, kwa maoni yangu, ina uwezekano mkubwa wa kuwa hadithi kuliko ukweli. Lakini inadaiwa ilitokea kama ifuatavyo.
+Hadithi ya misimbo ya Beale, kwa maoni yangu, ina uwezekano mkubwa wa kuwa hadithi kuliko ukweli. Lakini inadaiwa ilitokea kama ifuatavyo.
 
-Katika Majira ya baridi ya 1820 na 1822, mtu mmoja aitwaye Thomas J. Beale alikaa katika nyumba ya wageni inayomilikiwa na Robert Morriss huko Lynchburg (Virginia). Mwishoni mwa kukaa kwa pili kwa Beale, alimpa Morriss sanduku la chuma na karatasi za thamani kwa ajili ya kuhifadhi.
+Katika Majira ya baridi ya 1820 na 1822, mtu aliyeitwa Thomas J. Beale alikaa katika nyumba ya wageni inayomilikiwa na Robert Morriss huko Lynchburg (Virginia). Mwishoni mwa kukaa kwa pili kwa Beale, alimpa Morriss sanduku la chuma na karatasi za thamani kwa ajili ya kuhifadhi.
 
-Miezi michache baadaye, Morriss alipokea barua kutoka kwa Beale ya Mei 9, 1822. Ilisisitiza thamani kubwa ya yaliyomo ya sanduku la chuma na ilihusiana na maagizo fulani kwa Morriss: ikiwa hakuna Beale au washirika wake yeyote aliyekuja kudai sanduku, anapaswa kuifungua kwa usahihi miaka kumi tangu tarehe ya barua (yaani, Mei 9, 1832). Baadhi ya karatasi za ndani zingeandikwa kwa maandishi ya kawaida. Wengine kadhaa, hata hivyo, "hawangeeleweka bila usaidizi wa ufunguo." "Ufunguo" huu, basi, ungewasilishwa kwa Morriss na rafiki asiyejulikana wa Beale mnamo Juni 1832.
+Miezi michache baadaye, Morriss alipokea barua kutoka kwa Beale tarehe 9 Mei 1822. Ilisisitiza thamani kubwa ya yaliyomo kwenye sanduku la chuma na ilihusiana na maagizo fulani kwa Morriss: ikiwa hakuna Beale au washirika wake yeyote aliyekuja kudai sanduku, anapaswa kuifungua kwa usahihi miaka kumi tangu tarehe ya barua (yaani, Mei 9, 1832). Baadhi ya karatasi za ndani zingeandikwa kwa maandishi ya kawaida. Mengine kadhaa, hata hivyo, "hayangeeleweka bila usaidizi wa ufunguo." "Ufunguo" huu, basi, ungewasilishwa kwa Morriss na rafiki wa Beale asiyejulikana mnamo Juni 1832.
 
-Licha ya maagizo ya wazi, Morriss hakufungua sanduku mnamo Mei 1832 na rafiki wa ajabu wa Beale hakuwahi kutokea mnamo Juni mwaka huo. Haikuwa hadi 1845 kwamba mwenye nyumba ya wageni hatimaye aliamua kufungua sanduku. Ndani yake, Morriss alipata barua inayoelezea jinsi Beale na washirika wake waligundua dhahabu na fedha huko Magharibi na kuzika, pamoja na vito kadhaa, kwa usalama. Kwa kuongeza, kisanduku kilikuwa na **matini tatu**: yaani, maandishi yaliyoandikwa kwa msimbo ambayo yanahitaji **ufunguo wa kriptografia**, au siri, na algoriti inayoambatana ili kufungua. Mchakato huu wa kufungua maandishi ya siri hujulikana kama **decryption**, huku mchakato wa kufunga unajulikana kama **[usimbaji fiche](https://planb.academy/resources/glossary/encryption-encrypt)**. (Kama ilivyofafanuliwa katika Sura ya 3, neno cipher linaweza kuchukua maana mbalimbali. Katika jina "Beale ciphers", ni kifupi cha matini kisifa.)
+Licha ya maagizo ya wazi, Morriss hakufungua sanduku mnamo Mei 1832 na rafiki wa siri wa Beale hakuwahi kutokea mnamo Juni mwaka huo. Haikuwa hadi 1845 kwamba mwenye nyumba ya wageni hatimaye aliamua kufungua sanduku. Ndani yake, Morriss alipata barua iliyoelezea jinsi Beale na washirika wake waligundua dhahabu na fedha huko Magharibi na kuizika, pamoja na vito kadhaa, kwa usalama. Kwa kuongeza, kisanduku kilikuwa na **misimbo** mitatu: yaani, maandishi yaliyoandikwa kwa msimbo ambayo yanahitaji **ufunguo wa kriptografia**, au siri, pamoja na algoriti inayoambatana ili kufungua. Mchakato huu wa kufungua misimbo ya siri hujulikana kama **decryption**, huku mchakato wa kufunga unajulikana kama **[usimbaji fiche](https://planb.academy/resources/glossary/encryption-encrypt)**. (Kama ilivyofafanuliwa katika Sura ya 3, neno cipher linaweza kuchukua maana mbalimbali. Katika jina "Beale ciphers", ni kifupi cha misimbo.)
 
 Nakala tatu za msimbo ambazo Morriss alipata katika kisanduku cha chuma kila moja ina msururu wa nambari zilizotenganishwa na koma. Kwa mujibu wa maelezo ya Beale, maandishi haya tofauti hutoa eneo la hazina, yaliyomo ya hazina, na orodha ya majina yenye warithi halali wa hazina na hisa zao (habari za mwisho zinafaa ikiwa Beale na washirika wake hawakuja kudai sanduku).
 
-Morris alijaribu kufuta maandishi hayo matatu kwa miaka ishirini. Hii ingekuwa rahisi na ufunguo. Lakini Morriss hakuwa na ufunguo na hakufanikiwa katika majaribio yake ya kurejesha maandishi asilia, au **maandishi wazi** kama yanavyoitwa kwa kawaida katika cryptography.
+Morris alijaribu kusimbua maandishi hayo matatu kwa miaka ishirini. Hii ingekuwa rahisi na ufunguo. Lakini Morriss hakuwa na ufunguo na hakufanikiwa katika majaribio yake ya kurejesha maandishi asilia, au **maandishi wazi** kama yanavyoitwa kwa kawaida katika kriptografia.
 
-Akikaribia mwisho wa maisha yake, Morriss alipitisha kisanduku kwa rafiki yake mwaka wa 1862. Rafiki huyu baadaye alichapisha kijitabu mwaka wa 1885, chini ya jina bandia la J.B. Ward. Ilijumuisha maelezo ya historia (inayodaiwa) ya kisanduku, maandishi matatu, na suluhisho ambalo alikuwa amepata kwa maandishi ya pili. (Inavyoonekana, kuna ufunguo mmoja kwa kila maandishi, na sio ufunguo mmoja unaofanya kazi kwenye maandishi yote matatu kama vile Beale anavyoonekana kuwa alipendekeza katika barua yake kwa Morriss.)
+Akikaribia mwisho wa maisha yake, Morriss alipitisha kisanduku hicho kwa rafiki yake mwaka wa 1862. Rafiki huyu baadaye alichapisha kijitabu mwaka wa 1885, chini ya jina bandia la J.B. Ward. Ilijumuisha maelezo ya historia (inayodaiwa) ya kisanduku hicho, maandishi matatu ya siri, na suluhisho ambalo alikuwa amepata kwa maandishi ya pili. (Inavyoonekana, kuna ufunguo mmoja kwa kila maandishi, na sio ufunguo mmoja unaofanya kazi kwenye maandishi yote matatu ya siri kama vile Beale anavyoonekana kuwa alipendekeza katika barua yake kwa Morriss.)
 
-Unaweza kuona maandishi ya pili katika *Kielelezo 2* hapa chini. [2] Ufunguo wa maandishi haya ni Azimio la Uhuru la Marekani. Utaratibu wa kusimbua unakuja kwa kutumia sheria mbili zifuatazo:
+Unaweza kuona maandishi ya siri ya pili katika *Kielelezo 2* hapa chini. [2] Ufunguo wa maandishi haya ya siri ni United States Declaration of Independence. Utaratibu wa kusimbua unahusisha kutumia sheria mbili zifuatazo:
 
 
-- Kwa nambari yoyote n katika maandishi ya siri, tafuta neno la nth katika Azimio la Uhuru la Marekani
+- Kwa nambari yoyote n katika maandishi ya siri, tafuta neno la nth katika United States Declaration of Independence
 - Badilisha nambari n na herufi ya kwanza ya neno ulilopata
 
 *Kielelezo 1: Beale cipher no. 2*
 
 ![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
-Kwa mfano, nambari ya kwanza ya kifungu cha pili ni 115. Neno la 115 la Azimio la Uhuru “limeanzishwa,” kwa hiyo herufi ya kwanza ya andiko la msingi ni “i.” Nakala ya siri haionyeshi moja kwa moja nafasi ya maneno na herufi kubwa. Lakini baada ya kuchambua maneno machache ya kwanza, unaweza kuhitimisha kimantiki kwamba neno la kwanza la maandishi wazi lilikuwa tu "mimi." (Mafungu ya madai yanaanza na kishazi “Nimeweka katika kaunti ya Bedford.”)
+Kwa mfano, nambari ya kwanza ya kifungu cha pili ni 115. Neno la 115 la Azimio la Uhuru “instituted,” kwa hiyo herufi ya kwanza ya maandishi wazi ni “i.” Nakala ya siri haionyeshi moja kwa moja nafasi ya maneno na herufi kubwa. Lakini baada ya kuchambua maneno machache ya kwanza, unaweza kuhitimisha kimantiki kwamba neno la kwanza la maandishi wazi lilikuwa tu "I." (Mafungu ya madai yanaanza na kishazi “Nimeweka katika kaunti ya Bedford.”)
 
 Baada ya kusimbua, ujumbe wa pili unatoa maelezo ya kina ya hazina hiyo (dhahabu, fedha, na vito), na unapendekeza kwamba ilizikwa katika vyungu vya chuma na kufunikwa na mawe katika Kaunti ya Bedford (Virginia). Watu wanapenda fumbo zuri, kwa hivyo juhudi kubwa zimetumika katika kusimbua misimbo mingine miwili ya Beale, hasa ile inayoelezea eneo la hazina. Hata waandishi mbalimbali maarufu wa maandishi wamejaribu mikono yao juu yao. Walakini, kufikia sasa, hakuna mtu ambaye ameweza kusimbua maandishi mengine mawili ya siri.
 
@@ -124,15 +124,15 @@ Baada ya kusimbua, ujumbe wa pili unatoa maelezo ya kina ya hazina hiyo (dhahabu
 
 [2] Picha hii inapatikana kwenye ukurasa wa Wikipedia kwa maandishi ya Beale.
 
-## cryptography ya kisasa
+## kriptografia ya kisasa
 
 <chapterId>d07d576f-8a4b-5890-b182-2e5763f550f4</chapterId>
 
 Hadithi za kupendeza kama vile misimbo ya Beale ndizo ambazo wengi wetu tunahusisha na kriptografia. Hata hivyo, kriptografia ya kisasa inatofautiana kwa angalau njia nne muhimu kutoka kwa aina hizi za mifano ya kihistoria.
 
-Kwanza, usimbaji fiche wa kihistoria umehusika tu na **privacy** (au usiri). [3] Maandishi ya siri yangeundwa ili kuhakikisha kuwa wahusika fulani pekee ndio wangeweza kujua habari iliyo katika maandishi ya wazi, kama ilivyokuwa kwa maandishi ya Beale. Ili mpango wa usimbaji fiche utekeleze madhumuni haya vyema, usimbaji fiche wa maandishi ya siri lazima ufanyike ikiwa una ufunguo.
+Kwanza, usimbaji fiche wa kihistoria umehusika tu na **usiri** (au confidentiality). [3] Maandishi ya siri yangeundwa ili kuhakikisha kuwa wahusika fulani pekee ndio wangeweza kujua habari iliyo katika maandishi ya wazi, kama ilivyokuwa kwa maandishi ya siri ya Beale. Ili mpango wa usimbaji fiche utekeleze madhumuni haya vyema, usimbaji fiche wa maandishi ya siri lazima ufanyike ikiwa una ufunguo.
 
-Fiche za kisasa zinahusika na anuwai ya mada kuliko usiri tu. Mandhari haya yanajumuisha kimsingi (1) **uadilifu wa ujumbe**—yaani, kuhakikisha kwamba ujumbe haujabadilishwa; (2) **uhalisi wa ujumbe**—yaani, kuhakikishia kwamba ujumbe umetoka kwa mtumaji fulani; na (3) **kutokataa**—yaani, kuhakikisha kwamba mtumaji hawezi kukataa kwa uwongo baadaye kwamba alituma ujumbe. [4]
+kriptografia ya kisasa inahusikana na maswala mengi kuliko usiri tu. Mandhari haya yanajumuisha kimsingi (1) **uadilifu wa ujumbe**—yaani, kuhakikisha kwamba ujumbe haujabadilishwa; (2) **uhalisi wa ujumbe**—yaani, kuhakikishia kwamba ujumbe umetoka kwa mtumaji fulani; na (3) **kutokataa**—yaani, kuhakikisha kwamba mtumaji hawezi kukataa kwa uwongo baadaye kwamba alituma ujumbe. [4]
 
 Tofauti muhimu ya kukumbuka ni, kwa hivyo, kati ya **mpango wa usimbaji fiche** na **mpango wa kriptografia**. Mpango wa usimbuaji unahusika tu na usiri. Ingawa mpango wa usimbaji fiche ni mpango wa kriptografia, kinyume chake si kweli. Mpango wa kriptografia unaweza pia kutumikia mada zingine kuu za usimbaji fiche, ikijumuisha uadilifu, uhalisi, na kutokataa.
 
@@ -140,11 +140,11 @@ Mandhari ya uadilifu na uhalisi ni muhimu kama usiri. Mifumo yetu ya kisasa ya m
 
 Pili, mifumo ya usimbaji fiche ya kitambo kama vile misimbo ya Beale kila mara inahusisha ufunguo mmoja ambao ulishirikiwa kati ya wahusika wote husika. Hata hivyo, mipango mingi ya kisasa ya kriptografia inahusisha si moja tu, lakini funguo mbili: **[Funguo ya faragha](https://planb.academy/resources/glossary/private-key)** na **[Funguo ya hadharani](https://planb.academy/resources/glossary/public-key)**. Ingawa ya kwanza inapaswa kubaki ya faragha katika maombi yoyote, ya pili kwa kawaida ni maarifa ya umma (kwa hivyo, majina yao husika). Katika nyanja ya usimbaji fiche, ufunguo wa umma unaweza kutumika kusimba ujumbe, huku ufunguo wa faragha unaweza kutumika kusimbua.
 
-Tawi la kriptografia linaloshughulika na mipango ambapo wahusika wote hushiriki ufunguo mmoja hujulikana kama **symmetric cryptography**. Kitufe kimoja katika mpango kama huo kawaida huitwa **private key** (au ufunguo wa siri). Tawi la kriptografia ambalo linashughulika na mipango inayohitaji jozi ya ufunguo wa faragha-umma inajulikana kama **asymmetric cryptography**. Matawi haya wakati mwingine pia hujulikana kama **Kriptografia ya funguo ya faragha** na **usimbuaji wa ufunguo wa umma**, mtawalia (ingawa hii inaweza kuibua mkanganyiko, kwani mifumo ya ufunguo wa siri ya ufunguo wa umma pia ina funguo za faragha).
+Tawi la kriptografia linaloshughulika na mipango ambapo wahusika wote hushiriki ufunguo mmoja hujulikana kama **symmetric cryptography**. Kitufe kimoja katika mpango kama huo kawaida huitwa **private key** (au ufunguo wa siri). Tawi la kriptografia ambalo linashughulika na mipango inayohitaji jozi ya ufunguo wa faragha-umma inajulikana kama **asymmetric cryptography**. Matawi haya wakati mwingine pia hujulikana kama **kriptografia ya funguo ya faragha** na **usimbuaji wa ufunguo wa umma**, mtawalia (ingawa hii inaweza kuibua mkanganyiko, kwani mifumo ya ufunguo wa siri ya ufunguo wa umma pia ina funguo za faragha).
 
-Ujio wa cryptography asymmetric mwishoni mwa miaka ya 1970 imekuwa moja ya matukio muhimu zaidi katika historia ya cryptography. Bila hivyo, mifumo yetu mingi ya kisasa ya mawasiliano, ikijumuisha Bitcoin, isingewezekana, au angalau isingewezekana sana.
+Ujio wa kriptografia isiyolinganishwa mwishoni mwa miaka ya 1970 imekuwa moja ya matukio muhimu zaidi katika historia ya kriptografia. Bila hivyo, mifumo yetu mingi ya kisasa ya mawasiliano, ikijumuisha Bitcoin, isingewezekana, au angalau isingewezekana sana.
 
-Muhimu zaidi, usimbaji fiche wa kisasa si somo la kipekee la miundo ya kriptografia ya ulinganifu na assymetric (ingawa hiyo inashughulikia sehemu kubwa). Kriptografia pia inahusiana na [kazi za hash](https://planb.academy/resources/glossary/hash-function) (hash functions) na vizalishaji vya namba zisizotabirika, na unaweza kuunda programu kwenye viasili hivi ambavyo havihusiani na ulinganifu wa ufunguo wa assymetric.
+Muhimu zaidi, usimbaji fiche wa kisasa si somo la kipekee la miundo ya kriptografia linganifu na isiyolinganishwa (ingawa hiyo inashughulikia sehemu kubwa). Kriptografia pia inahusiana na [funsi za hash](https://planb.academy/resources/glossary/hash-function) (hash functions) na vizalishaji vya namba zisizotabirika, na unaweza kuunda programu kwenye viasili hivi ambavyo havihusiani na ulinganifu wa ufunguo wa kriptografia isiyolinganishwa.
 
 Tatu, mbinu za usimbaji fiche za kitambo, kama zile zinazotumiwa katika maandishi ya Beale, zilikuwa za sanaa zaidi kuliko sayansi. Usalama wao unaotambulika uliegemezwa sana na mawazo kuhusu ugumu wao. Kwa kawaida wangetiwa viraka wakati shambulio jipya kwao lilipojulikana, au kuachwa kabisa ikiwa shambulio hilo lilikuwa kali sana. Hata hivyo, kriptografia ya kisasa ni sayansi makini inayotumia mbinu rasmi za kihisabati katika kubuni na kuchambua mbinu za usimbaji fiche
 
@@ -158,9 +158,9 @@ Hasa, vituo vya kisasa vya usimbaji fiche huzingatia **uthibitisho rasmi wa usal
 
 Jambo la nne, ingawa awali kriptografia ilitumiwa hasa katika mazingira ya kijeshi, sasa imejikita katika shughuli zetu za kila siku katika zama za kidijitali. Iwe unafanya benki mtandaoni, unapochapisha kwenye mitandao ya kijamii, kununua bidhaa kutoka Amazon kwa kadi yako ya mkopo, au kumlipa rafiki yako kwa bitcoin, kriptografia ni kipengele muhimu katika zama zetu za kidijitali..
 
-Kwa kuzingatia vipengele hivi vinne vya usimbaji fiche wa kisasa, tunaweza kubainisha **cryptography** ya kisasa kama sayansi inayohusika na ukuzaji na uchanganuzi rasmi wa mifumo ya kriptografia ili kupata taarifa za kidijitali dhidi ya mashambulizi ya wapinzani. [6] Usalama hapa unapaswa kueleweka kwa mapana kama kuzuia mashambulizi ambayo yanaharibu usiri, uadilifu, uthibitishaji, na/au kutokataliwa katika mawasiliano.
+Kwa kuzingatia vipengele hivi vinne vya usimbaji fiche wa kisasa, tunaweza kubainisha **kriptografia** ya kisasa kama sayansi inayohusika na ukuzaji na uchanganuzi rasmi wa mifumo ya kriptografia ili kupata taarifa za kidijitali dhidi ya mashambulizi ya wapinzani. [6] Usalama hapa unapaswa kueleweka kwa mapana kama kuzuia mashambulizi ambayo yanaharibu usiri, uadilifu, uthibitishaji, na/au kutokataliwa katika mawasiliano.
 
-Siri za siri zinaonekana vyema kama taaluma ndogo ya **security**, ambayo inahusika na kuzuia wizi, uharibifu na matumizi mabaya ya mifumo ya kompyuta. Kumbuka kwamba maswala mengi ya usalama wa mtandao yana muunganisho mdogo au sehemu tu kwa cryptography.
+Siri za siri zinaonekana vyema kama taaluma ndogo ya **security**, ambayo inahusika na kuzuia wizi, uharibifu na matumizi mabaya ya mifumo ya kompyuta. Kumbuka kwamba maswala mengi ya usalama wa mtandao yana muunganisho mdogo au sehemu tu kwa kriptografia.
 
 Kwa mfano, ikiwa kampuni ina seva za bei ghali ndani ya nchi, inaweza kuwa na wasiwasi wa kulinda maunzi haya dhidi ya wizi na uharibifu. Ingawa hili ni suala la usalama wa mtandao, halihusiani kidogo na usimbaji fiche.
 
@@ -170,33 +170,33 @@ Kwa mfano mwingine, **mashambulizi ya hadaa** ni tatizo la kawaida katika enzi y
 
 [3] Kwa hakika, utumizi muhimu wa mifumo ya kriptografia imehusika na usiri. Watoto, kwa mfano, mara nyingi hutumia mifumo rahisi ya kriptografia kwa "kufurahisha". Usiri sio wasiwasi sana katika kesi hizo.
 
-[4] Bruce Schneier, *Cryptography Iliyotumika*, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons), uk. 2.
+[4] Bruce Schneier, *kriptografia Iliyotumika*, 2nd edn, 2015 (Indianapolis, IN: John Wiley & Sons), uk. 2.
 
 [5] Tazama Jonathan Katz na Yehuda Lindell, *Utangulizi wa Siri ya Kisasa*, CRC Press (Boca Raton, FL: 2015), esp. uk. 16–23, kwa maelezo mazuri.
 
 [6] Taz. Katz na Lindell, ibid., p. 3. Nadhani sifa zao zina masuala fulani, kwa hivyo wasilisha toleo tofauti kidogo la taarifa yao hapa.
 
-## Fungua mawasiliano
+## Mawasiliano wazi
 
 <chapterId>cb23d0a6-ba9a-5dc6-a55a-258405ae4117</chapterId>
 
-Usimbaji fiche wa kisasa umeundwa ili kutoa uhakikisho wa usalama katika **mazingira huria**. Ikiwa chaneli yetu ya mawasiliano imelindwa vyema hivi kwamba wasikilizaji hawana nafasi ya kudanganya au hata kutazama tu ujumbe wetu, basi kriptografia ni ya kupita kiasi. Njia zetu nyingi za mawasiliano, hata hivyo, hazina ulinzi wa kutosha hivi.
+Usimbaji fiche wa kisasa umeundwa ili kutoa uhakikisho wa usalama katika mazingira ya mawasiliano wazi. Ikiwa chaneli yetu ya mawasiliano imelindwa vyema hivi kwamba wasikilizaji hawana nafasi ya kudanganya au hata kutazama tu ujumbe wetu, basi kriptografia ni ya kupita kiasi. Njia zetu nyingi za mawasiliano, hata hivyo, hazina ulinzi wa kutosha hivi.
 
-Msingi wa mawasiliano katika ulimwengu wa kisasa ni mtandao mkubwa wa nyaya za fiber optic. Kupiga simu, kutazama televisheni, na kuvinjari wavuti katika kaya ya kisasa kwa ujumla hutegemea mtandao huu wa nyaya za nyuzi macho (asilimia ndogo inaweza kutegemea satelaiti pekee). Ni kweli kwamba unaweza kuwa na miunganisho tofauti ya data nyumbani kwako, kama vile kebo ya coaxial, laini ya kidijitali ya wanaojisajili (asymmetric), na kebo ya fiber optic. Lakini, angalau katika ulimwengu uliostawi, viunzi hivi tofauti vya data hujiunga haraka nje ya nyumba yako hadi kwenye nodi katika mtandao mkubwa wa nyaya za fiber optic ambazo huunganisha ulimwengu mzima. Vighairi ni baadhi ya maeneo ya mbali ya ulimwengu ulioendelea, kama vile Marekani na Australia, ambapo trafiki ya data bado inaweza kusafiri umbali mkubwa kupitia nyaya za kawaida za simu.
+Msingi wa mawasiliano katika ulimwengu wa kisasa ni mtandao mkubwa wa nyaya za nyuzi za macho. Kupiga simu, kutazama televisheni, na kuvinjari wavuti katika nyumba ya kisasa kwa ujumla hutegemea mtandao huu wa nyaya za nyuzi macho (asilimia ndogo inaweza kutegemea satelaiti pekee). Ni kweli kwamba unaweza kuwa na miunganisho tofauti ya data nyumbani kwako, kama vile kebo ya coaxial, laini ya kidijitali ya wanaojisajili (asymmetric), na kebo ya fiber optic. Lakini, angalau katika ulimwengu uliostawi, viunzi hivi tofauti vya data hujiunga haraka nje ya nyumba yako hadi kwenye nodi katika mtandao mkubwa wa nyaya za fiber optic ambazo huunganisha ulimwengu mzima. Vighairi ni baadhi ya maeneo ya mbali ya ulimwengu ulioendelea, kama vile Marekani na Australia, ambapo trafiki ya data bado inaweza kusafiri umbali mkubwa kupitia nyaya za kawaida za simu.
 
 Haiwezekani kuzuia washambuliaji watarajiwa kutoka kufikia mtandao huu wa nyaya na miundomsingi inayotumika. Kwa hakika, tayari tunajua kwamba data zetu nyingi hunaswa na mashirika mbalimbali ya kitaifa ya kijasusi katika makutano muhimu ya Mtandao. [7] Hii inajumuisha kila kitu kuanzia jumbe za Facebook hadi anwani za tovuti unazotembelea.
 
-Ingawa data ya uchunguzi kwa kiwango kikubwa inahitaji adui mwenye nguvu, kama vile wakala wa kitaifa wa ujasusi, washambuliaji walio na rasilimali chache wanaweza kujaribu kwa urahisi kuchungulia kwa kiwango cha karibu zaidi. Ingawa hii inaweza kutokea katika kiwango cha kugonga nyaya, ni rahisi sana kukatiza mawasiliano yasiyotumia waya.
+Ingawa data ya uchunguzi kwa kiwango kikubwa inahitaji adui mwenye nguvu, kama vile wakala wa kitaifa wa ujasusi, washambuliaji walio na rasilimali chache wanaweza kujaribu kwa urahisi kupeleleza kwa kiwango cha karibu zaidi. Ingawa hili linaweza kutokea katika kiwango cha kugonga nyaya, ni rahisi sana kukatiza mawasiliano yasiyotumia waya.
 
-Data nyingi za mtandao wetu wa karibu—iwe ni nyumbani kwetu, ofisini, au kwenye mkahawa—sasa husafiri kupitia mawimbi ya redio hadi kwenye sehemu za ufikiaji zisizo na waya kwenye vipanga njia vya moja kwa moja, badala ya kupitia nyaya halisi. Kwa hivyo mshambulizi anahitaji rasilimali kidogo ili kuzuia trafiki yoyote ya karibu nawe. Hii inahusu hasa kwa vile watu wengi hufanya kidogo sana kulinda data inayosafirishwa kwenye mitandao yao ya ndani. Zaidi ya hayo, washambuliaji watarajiwa wanaweza pia kulenga miunganisho yetu ya mtandao wa simu, kama vile 3G, 4G, na 5G. Mawasiliano haya yote yasiyotumia waya ni shabaha rahisi kwa washambuliaji.
+Data nyingi ya mtandao wetu wa ndani—iwe ni nyumbani kwetu, ofisini, au kwenye mkahawa—sasa husafiri kupitia mawimbi ya redio hadi kwenye sehemu za ufikiaji zisizo na waya kwenye vipanga njia vya moja kwa moja, badala ya kupitia nyaya halisi. Kwa hivyo mshambulizi anahitaji rasilimali kidogo ili kuzuia trafiki yoyote ya karibu nawe. Hii inahusu hasa kwa vile watu wengi hufanya kidogo sana kulinda data inayosafirishwa kwenye mitandao yao ya ndani. Zaidi ya hayo, washambuliaji watarajiwa wanaweza pia kulenga miunganisho yetu ya mtandao wa simu, kama vile 3G, 4G, na 5G. Mawasiliano haya yote yasiyotumia waya ni shabaha rahisi kwa washambuliaji.
 
-Kwa hivyo, wazo la kuweka mawasiliano siri kwa kulinda njia ya mawasiliano ni matarajio ya udanganyifu kwa sehemu kubwa ya ulimwengu wa kisasa. Kila kitu tunachojua kinahitaji ubishi mkali: unapaswa kudhani kila wakati kuwa mtu anasikiliza. Na kriptografia ndio zana kuu tunayopaswa kupata usalama wa aina yoyote katika mazingira haya ya kisasa.
+Kwa hivyo, wazo la kuweka mawasiliano siri kwa kulinda njia ya mawasiliano ni matarajio ya udanganyifu kwa sehemu kubwa ya ulimwengu wa kisasa. Kila kitu tunachokijua kinahitaji ubishi mkali: unapaswa kudhani kila wakati kuwa mtu anasikiliza. Na kriptografia ndio zana kuu tunayopaswa kupata usalama wa aina yoyote katika mazingira haya ya kisasa.
 
 **Maelezo:**
 
-[7] Angalia, kwa mfano, Olga Khazan, "Mazoezi ya kutisha, ya muda mrefu ya kugonga nyaya chini ya bahari", *The Atlantic*, Julai 16, 2013 (inapatikana katika [The Atlantic] Atlantiki](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
+[7] Angalia, kwa mfano, Olga Khazan, "Mazoezi ya kutisha, ya muda mrefu ya kugonga nyaya chini ya bahari", *The Atlantic*, Julai 16, 2013 (inapatikana katika [The Atlantic](https://www.theatlantic.com/international/archive/2013/07/the-creepy-long-standing-practice-of-undersea-cable-tapping/277855/)).
 
-# Misingi ya Hisabati ya Crystalgraphy 1
+# Misingi ya Hisabati ya kriptografia 1
 
 <partId>1bf9f0aa-0f68-5493-83fb-2167238ff9de</partId>
 
@@ -204,21 +204,21 @@ Kwa hivyo, wazo la kuweka mawasiliano siri kwa kulinda njia ya mawasiliano ni ma
 
 <chapterId>b623a7d0-3dff-5803-bd4e-8257ff73dd69</chapterId>
 
-Cryptography inategemea hisabati. Na ikiwa unataka kujenga zaidi ya uelewa wa juu juu wa cryptography, unahitaji kuridhika na hisabati hiyo.
+Kriptografia inategemea hisabati. Na ikiwa unataka kujenga uelewa zaidi wa juu juu wa kriptografia, unahitaji kuwa na unarisi na hisabati hiyo.
 
-Sura hii inatanguliza hisabati nyingi za kimsingi utakazokutana nazo katika kujifunza kriptografia. Mada hizo ni pamoja na viambajengo vya nasibu, utendakazi wa modulo, utendakazi wa XOR, na uwongo. Unapaswa kufahamu nyenzo katika sehemu hizi kwa uelewa wowote usio wa juu juu wa kriptografia.
+Sura hii inatanguliza hisabati nyingi za kimsingi utakazokutana nazo katika kujifunza kriptografia. Mada hizo ni pamoja na vigeu vya nasibu, operesheni ya modulo, operesheni ya XOR, na ujumuishaji wa nasibu. Unapaswa kufahamu nyenzo katika sehemu hizi kwa uelewa wowote usio wa juu juu wa kriptografia.
 
 Sehemu inayofuata inahusika na nadharia ya nambari, ambayo ni ngumu zaidi.
 
 ### Vigezo bila mpangilio
 
-Tofauti nasibu kawaida huonyeshwa kwa herufi kubwa isiyokolea. Kwa hivyo, kwa mfano, tunaweza kuzungumza kuhusu kigezo cha nasibu $X$, kigezo cha nasibu $Y$, au kigezo cha nasibu $Z$. Hii ndio nukuu nitakayotumia pia kutoka hapa kuendelea.
+Kigeu cha nasibu kawaida huonyeshwa kwa herufi kubwa isiyo nzito. Kwa hivyo, kwa mfano, tunaweza kuzungumza kuhusu kigezo cha nasibu $X$, kigezo cha nasibu $Y$, au kigezo cha nasibu $Z$. Hii ndio nukuu nitakayotumia pia kutoka hapa kuendelea.
 
-**Tofauti nasibu** inaweza kuchukua thamani mbili au zaidi zinazowezekana, kila moja ikiwa na uwezekano fulani chanya. Thamani zinazowezekana zimeorodheshwa katika **seti ya matokeo**.
+**Kigeu cha nasibu** kinaweza kuchukua thamani mbili au zaidi zinazowezekana, kila moja ikiwa na uwezekano fulani chanya. Thamani zinazowezekana zimeorodheshwa katika **seti ya matokeo**.
 
 Kila wakati **sampuli** ya kutofautisha bila mpangilio, unachora thamani fulani kutoka kwa matokeo yake yaliyowekwa kulingana na uwezekano uliobainishwa.
 
-Wacha tugeuke kwa mfano rahisi. Tuseme mabadiliko ya X ambayo yanafafanuliwa kama ifuatavyo:
+Wacha tuangalie mfano rahisi. Tuseme mabadiliko ya X ambayo yanafafanuliwa kama ifuatavyo:
 
 
 - X ina matokeo yaliyowekwa $\{1,2\}$
@@ -243,11 +243,11 @@ Kwa kweli, jaribio lolote la asili ambalo lingekuwezesha kufafanua uwezekano wa 
 
 Mara kwa mara, hata hivyo, vigeu vya nasibu havitambuliwi tu kidhahiri. Badala yake, seti ya maadili yanayowezekana ya matokeo ina maana dhahiri ya ulimwengu halisi (badala ya nambari tu). Kwa kuongeza, thamani hizi za matokeo zinaweza kubainishwa dhidi ya aina fulani ya majaribio (badala ya majaribio yoyote ya asili na maadili hayo).
 
-Hebu sasa tuchunguze mfano wa kutofautiana $X$ ambayo haijafafanuliwa kidhahiri. X inafafanuliwa kama ifuatavyo ili kubainisha ni timu gani kati ya mbili itaanzisha mchezo wa soka:
+Hebu sasa tuchukue mfano wa kigeu $X$ ambayo haijafafanuliwa kidhahiri. X inafafanuliwa kama ifuatavyo ili kubainisha ni timu gani kati ya mbili itaanzisha mchezo wa soka:
 
 
-- $X$ ina matokeo {nyekundu inaanza, blue inaanza}
-- Geuza sarafu fulani $C $: tails = "nyekundu huanza"; vichwa = "bluu inaanza"
+- $X$ ina matokeo {red inaanza, blue inaanza}
+- Geuza sarafu fulani $C $: tails = "red huanza"; vichwa = "blue inaanza"
 
 $$
 Pr [X = \text{red kicks off}] = 0.5
@@ -399,11 +399,11 @@ Sasa tuseme umetoa sampuli ya $Y$ na uone $y_1$. Taarifa iliyo hapo juu inatuamb
 
 Wacha tumalizie mjadala wetu juu ya hoja ya kifalsafa zaidi. Katika hali yoyote ya ulimwengu halisi, uwezekano wa tukio fulani daima hutathminiwa dhidi ya seti fulani ya habari. Hakuna "uwezekano usio na masharti" kwa maana yoyote kali sana ya neno.
 
-Kwa mfano, tuseme nimekuuliza uwezekano kwamba nguruwe wataruka ifikapo 2030. Ingawa sikupi habari zaidi, unajua mengi kuhusu ulimwengu ambayo yanaweza kuathiri uamuzi wako. Hujawahi kuona nguruwe wakiruka. Unajua kwamba watu wengi hawatarajii kuruka. Unajua kwamba hawajajengwa kwa kweli kuruka. Na kadhalika.
+Kwa mfano, tuseme nimekuuliza uwezekano kwamba nguruwe wataruka kufikia 2030. Ingawa sikupi habari zaidi, unajua mengi kuhusu ulimwengu ambayo yanaweza kuathiri uamuzi wako. Hujawahi kuona nguruwe wakiruka. Unajua kwamba watu wengi hawatarajii kuruka. Unajua kwamba hawajajengwa kwa kweli kuruka. Na kadhalika.
 
 Kwa hivyo, tunapozungumza kuhusu "uwezekano usio na masharti" wa tukio fulani katika muktadha wa ulimwengu halisi, neno hilo linaweza kuwa na maana tu ikiwa tunalichukulia kumaanisha kitu kama "uwezekano bila maelezo yoyote ya wazi". Uelewa wowote wa "uwezekano wa masharti" unapaswa, basi, kueleweka kila wakati dhidi ya kipande fulani cha habari.
 
-Kwa mfano, naweza kukuuliza uwezekano kwamba nguruwe wataruka ifikapo 2030, baada ya kukupa ushahidi kwamba baadhi ya mbuzi nchini New Zealand wamejifunza kuruka baada ya miaka michache ya mafunzo. Katika kesi hii, labda utarekebisha uamuzi wako wa uwezekano kwamba nguruwe wataruka ifikapo 2030. Kwa hivyo uwezekano kwamba nguruwe wataruka ifikapo 2030 ni masharti juu ya ushahidi huu kuhusu mbuzi huko New Zealand.
+Kwa mfano, naweza kukuuliza uwezekano kwamba nguruwe wataruka ifikapo 2030, baada ya kukupa ushahidi kwamba baadhi ya mbuzi nchini New Zealand wamejifunza kuruka baada ya miaka michache ya mafunzo. Katika kesi hii, labda utarekebisha uamuzi wako wa uwezekano kwamba nguruwe wataruka kufikia 2030. Kwa hivyo uwezekano kwamba nguruwe wataruka kufikia 2030 ni masharti juu ya ushahidi huu kuhusu mbuzi huko New Zealand.
 
 ## Operesheni ya moduli
 
@@ -423,9 +423,9 @@ Kwa mfano, zingatia usemi $25 \mod 4$. Nambari 4 inaingia kwenye nambari 25 juml
 - $12 \mod 5 = 2$ (kama 5 inaingia 12 jumla ya mara 2 na salio ni 2)
 - $20 \mod 8 = 4$ (na 8 inaingia katika 20 jumla ya mara 2 na salio ni 4)
 
-Wakati mgao wa faida au kigawanyo ni hasi, utendakazi wa modulo unaweza kushughulikiwa tofauti na lugha za programu.
+Wakati mgao wa faida au kigawanyo ni hasi, operesheni ya modulo unaweza kushughulikiwa tofauti na lugha za programu.
 
-Hakika utakutana na kesi zilizo na gawio hasi katika cryptography. Katika kesi hii, mbinu ya kawaida ni kama ifuatavyo.
+Hakika utakutana na kesi zilizo na gawio hasi katika kriptografia. Katika kesi hii, mbinu ya kawaida ni kama ifuatavyo.
 
 
 - Kwanza tambua thamani ya karibu zaidi *ya chini kuliko au sawa na* mgao ambao kigawanyaji hugawanya na salio la sifuri. Piga thamani hiyo $p$.
@@ -440,19 +440,19 @@ Kwa mfano, tuseme kwamba mgao wa faida ni $–20$ na kigawanyaji 3. Thamani ya k
 
 Kuhusu nukuu, kwa kawaida utaona aina zifuatazo za misemo: $x = [y \mod z]$. Kwa sababu ya mabano, operesheni ya modulo katika kesi hii inatumika tu kwa upande wa kulia wa usemi. Ikiwa $y$ ni sawa na 25 na $z$ ni sawa na 4, kwa mfano, basi $x$ inatathmini hadi 1.
 
-Bila mabano, utendakazi wa modulo hufanya kazi kwa *pande zote mbili* za usemi. Tuseme, kwa mfano, usemi ufuatao: $x = y \mod z$. Ikiwa $y$ ni sawa na 25 na $z$ ni sawa na 4, basi tunachojua ni kwamba $x \mod 4$ inatathmini hadi 1. Hii inalingana na thamani yoyote ya $x$ kutoka kwa seti $\{\ldets,–7, -3, 1, 5, 9,\ldots\}$.
+Bila mabano, utendakkazi za operesheni ya modulo hufanya kazi kwa *pande zote mbili* za usemi. Tuseme, kwa mfano, usemi ufuatao: $x = y \mod z$. Ikiwa $y$ ni sawa na 25 na $z$ ni sawa na 4, basi tunachojua ni kwamba $x \mod 4$ inatathmini hadi 1. Hii inalingana na thamani yoyote ya $x$ kutoka kwa seti $\{\ldots,–7, -3, 1, 5, 9,\ldots\}$.
 
-Tawi la hisabati ambalo linahusisha utendakazi wa modulo kwenye nambari na misemo hurejelewa kwa **hesabu ya moduli**. Unaweza kufikiria tawi hili kama hesabu kwa kesi ambazo mstari wa nambari sio mrefu sana. Ingawa kwa kawaida tunakutana na utendakazi wa modulo kwa nambari kamili (chanya) ndani ya usimbaji fiche, unaweza pia kufanya shughuli za modulo kwa kutumia nambari zozote halisi.
+Tawi la hisabati ambalo linahusisha operesheni ya modulo kwenye nambari na misemo hurejelewa kwa **hesabu ya moduli**. Unaweza kufikiria tawi hili kama hesabu kwa kesi ambazo mstari wa nambari sio mrefu sana. Ingawa kwa kawaida tunakutana na operesheni ya modulo kwa nambari kamili (chanya) ndani ya usimbaji fiche, unaweza pia kufanya shughuli za modulo kwa kutumia nambari zozote halisi.
 
-### Sifa ya kuhama
+### Usimbaji fiche wa kuhamisha
 
-Uendeshaji wa modulo mara nyingi hupatikana ndani ya cryptography. Kwa mfano, hebu tuchunguze mojawapo ya mipango maarufu ya usimbaji wa kihistoria: msimbo wa kuhama.
+Uendeshaji wa modulo mara nyingi hupatikana ndani ya kriptografia. Kwa mfano, hebu tuchunguze mojawapo ya mipango maarufu ya usimbaji wa kihistoria: msimbo wa kuhama.
 
-Hebu kwanza tufafanue. Tuseme kamusi *D* inayosawazisha herufi zote za alfabeti ya Kiingereza, kwa mpangilio, na seti ya nambari $\{0, 1, 2, \ldets, 25\}$. Chukua nafasi ya ujumbe **M**. **shift cipher** basi, ni mpango wa usimbaji fiche unaofafanuliwa kama ifuatavyo:
+Hebu kwanza tufafanue. Tuseme kamusi *D* inayosawazisha herufi zote za alfabeti ya Kiingereza, kwa mpangilio, na seti ya nambari $\{0, 1, 2, \ldots, 25\}$. Chukua nafasi ya ujumbe **M**. **shift cipher** basi, ni mpango wa usimbaji fiche unaofafanuliwa kama ifuatavyo:
 
 
-- Chagua kwa usawa ufunguo $k$ kati ya nafasi muhimu **K**, ambapo **K** = $\{0, 1, 2, \ldets, 25\}$ [1]
-- Simba ujumbe kwa njia fiche $m \katika \mathbf{M}$, kama ifuatavyo:
+- Chagua kwa usawa ufunguo $k$ kati ya nafasi muhimu **K**, ambapo **K** = $\{0, 1, 2, \ldots, 25\}$ [1]
+- Simba ujumbe kwa njia fiche $m \in \mathbf{M}$, kama ifuatavyo:
     - Tenganisha $m$ kwa herufi zake binafsi $m_0, m_1, \ldots, m_i, \lddots, m_l$
     - Badilisha kila $m_i$ kuwa nambari kulingana na *D*
     - Kwa kila $m_i$, $c_i = [(m_i + k) \mod 26]$
@@ -468,7 +468,7 @@ Opereta wa modulo katika shifti ya kisifa huhakikisha kwamba herufi zinazunguka,
 
 Tuchukulie kwamba ulichagua ufunguo kwa usawa wenye thamani ya $17$. Herufi “O” ni sawa na $14$. Bila operesheni ya modulo, kujumlisha nambari hii ya maandishi wazi na ufunguo kungeleta nambari ya maandishi fiche ya $31$. Hata hivyo, nambari hiyo haiwezi kubadilishwa kuwa herufi fiche, kwa kuwa alfabeti ya Kiingereza ina herufi $26$ pekee. Operesheni ya modulo inahakikisha kwamba nambari fiche ni $5$ (matokeo ya $31 \mod 26$), ambayo ni sawa na herufi fiche “F”.
 
-Usimbuaji wote wa neno "MBWA" na thamani kuu ya 17 ni kama ifuatavyo.
+Usimbuaji wote wa neno "DOG" na thamani kuu ya 17 ni kama ifuatavyo.
 
 
 **Ujumbe = DOG = D,O,G = 3,14,6**
@@ -477,7 +477,7 @@ $c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
 *c = UFX*
 
-Kila mtu anaweza kuelewa kwa njia angavu jinsi kiashiria cha shift kinavyofanya kazi na pengine kuitumia wenyewe. Ili kuendeleza ujuzi wako wa cryptography, hata hivyo, ni muhimu kuanza kuwa na urahisi zaidi na urasimishaji, kwani mipango itakuwa ngumu zaidi. Kwa hivyo, kwa nini hatua za msimbo wa mabadiliko zilirasimishwa.
+Kila mtu anaweza kuelewa kwa njia angavu jinsi usimbaji fiche wa kuhamisha unavyofanya kazi na pengine kuitumia wenyewe. Ili kuendeleza ujuzi wako wa kriptografia, hata hivyo, ni muhimu kuanza kuwa na urahisi zaidi na urasimishaji, kwani mipango itakuwa ngumu zaidi. Kwa hivyo, kwa nini hatua za msimbo wa mabadiliko zilirasimishwa.
 
 **Maelezo:**
 
@@ -501,7 +501,7 @@ Data yote ya kompyuta inachakatwa, kuhifadhiwa na kutumwa kwenye mitandao kwa ki
 
 Kwa mfano, tuseme umeandika barua-pepe kwenye ombi lako la barua-pepe. Usimbaji fiche wowote unaotuma hautokei kwenye herufi za ASCII za barua pepe yako moja kwa moja. Badala yake, inatumika kwa uwakilishi kidogo wa barua na alama nyingine katika barua pepe yako.
 
-Operesheni muhimu ya kihisabati ya kuelewa kwa usimbaji fiche wa kisasa, kando na utendakazi wa modulo, ni utendakazi wa **XOR**, au "operesheni ya kipekee au". Operesheni hii inachukua kama pembejeo biti mbili na kutoa kama pato kidogo nyingine. Operesheni ya XOR itaashiriwa tu kama "XOR". Inatoa 0 ikiwa biti mbili ni sawa na 1 ikiwa biti mbili ni tofauti. Unaweza kuona uwezekano nne hapa chini. Alama $\oplus$ inawakilisha "XOR" :
+Operesheni muhimu ya kihisabati ya kuelewa kwa usimbaji fiche wa kisasa, kando na operesheni ya modulo, ni operesheni ya **XOR**, au "operesheni ya kipekee au". Operesheni hii inachukua kama pembejeo biti mbili na kutoa kama pato kidogo nyingine. Operesheni ya XOR itaashiriwa tu kama "XOR". Inatoa 0 ikiwa biti mbili ni sawa na 1 ikiwa biti mbili ni tofauti. Unaweza kuona uwezekano nne hapa chini. Alama $\oplus$ inawakilisha "XOR" :
 
 
 - $0 \plus 0 = 0$
@@ -516,7 +516,7 @@ Ili kutoa mfano, tuseme kuwa una ujumbe $m_1$ (01111001) na ujumbe $m_2$ (010110
 
 Mchakato ni moja kwa moja. Wewe kwanza XOR bits kushoto zaidi ya $m_1$ na $m_2$. Katika kesi hii hiyo ni $0 \plus 0 = 0$. Wewe kisha XOR jozi ya pili ya bits kutoka kushoto. Katika kesi hii hiyo ni $1 \plus 1 = 0$. Unaendelea na mchakato huu hadi utakapofanya operesheni ya XOR kwenye sehemu za kulia zaidi.
 
-Ni rahisi kuona kwamba utendakazi wa XOR ni wa kubadilika, yaani $m_1 \oplus m_2 = m_2 \oplus m_1$. Kwa kuongeza, operesheni ya XOR pia ni ya ushirika. Hiyo ni, $(m_1 \plus m_2) \plus m_3 = m_1 \plus (m_2 \plus m_3)$.
+Ni rahisi kuona kwamba operesheni ya XOR ni wa kubadilika, yaani $m_1 \oplus m_2 = m_2 \oplus m_1$. Kwa kuongeza, operesheni ya XOR pia ni ya ushirika. Hiyo ni, $(m_1 \plus m_2) \plus m_3 = m_1 \plus (m_2 \plus m_3)$.
 
 Operesheni ya XOR kwenye safu mbili za urefu mbadala inaweza kuwa na tafsiri tofauti, kulingana na muktadha. Hatutajishughulisha hapa na shughuli zozote za XOR kwenye nyuzi za urefu tofauti.
 
@@ -528,17 +528,17 @@ Operesheni ya XOR ni sawa na kesi maalum ya kufanya operesheni ya modulo kwenye 
 - $(0 + 1) \mod 2 = 0 \plus 1 = 1$
 - $(1 + 1) \mod 2 = 1 \plus 1 = 0$
 
-## Udanganyifu
+## Unasibu bandia
 
 <chapterId>20463fc5-3e92-581f-a1b7-3151279bd95e</chapterId>
 
 Katika mjadala wetu wa vigezo vya nasibu na sare, tulichora tofauti maalum kati ya "nasibu" na "sare". Tofauti hiyo kwa kawaida hudumishwa katika mazoezi wakati wa kuelezea vigeu vya nasibu. Hata hivyo, katika muktadha wetu wa sasa, tofauti hii inahitaji kupunguzwa na "nasibu" na "sare" hutumiwa sawa. Nitaelezea kwa nini mwishoni mwa sehemu.
 
-Kuanza, tunaweza kuita mfuatano wa jozi wa urefu $n$ **nasibu** (au **uniform**), ikiwa ilikuwa ni matokeo ya kuchukua sampuli ya kigezo kimoja $S$ ambacho kinapa kila mfuatano wa binary wa urefu kama $n$ uwezekano sawa wa uteuzi.
+Kuanza, tunaweza kuita mfuatano wa biti wa urefu $n$ **nasibu** (au **sare**), ikiwa ilikuwa ni matokeo ya kuchukua sampuli ya kigezo kimoja $S$ ambacho kinapa kila mfuatano wa binary wa urefu kama $n$ uwezekano sawa wa uteuzi.
 
-Tuseme, kwa mfano, seti ya mifuatano yote miwili yenye urefu wa 8: $\{0000\ 0000, 0000\ 0001, \ldets, 1111\ 1111\}$. (Ni kawaida kuandika mfuatano wa biti 8 katika robo mbili, kila moja inaitwa **nibble**.) Hebu tuite seti hii ya mifuatano **$S_8$**.
+Tuseme, kwa mfano, seti ya mifuatano yote miwili yenye urefu wa 8: $\{0000\ 0000, 0000\ 0001, \ldots, 1111\ 1111\}$. (Ni kawaida kuandika mfuatano wa biti 8 katika robo mbili, kila moja inaitwa **nibble**.) Hebu tuite seti hii ya mifuatano **$S_8$**.
 
-Kwa ufafanuzi ulio hapo juu, tunaweza, basi, kuita mfuatano wa binary wa urefu wa 8 bila mpangilio (au sare), ikiwa ilikuwa ni matokeo ya kuchukua sampuli ya tofauti inayofanana $S$ ambayo inatoa kila mfuatano katika **$S_8$** uwezekano sawa wa uteuzi. Ikizingatiwa kuwa seti **$S_8$** inajumuisha $2^8$ Elements, uwezekano wa uteuzi baada ya sampuli utalazimika kuwa $1/2^8$ kwa kila mfuatano kwenye seti.
+Kwa ufafanuzi ulio hapo juu, tunaweza, basi, kuita mfuatano wa biti wa urefu wa 8 bila mpangilio (au sare), ikiwa ilikuwa ni matokeo ya kuchukua sampuli ya tofauti inayofanana $S$ ambayo inatoa kila mfuatano katika **$S_8$** uwezekano sawa wa uteuzi. Ikizingatiwa kuwa seti **$S_8$** inajumuisha vipengele $2^8$, uwezekano wa uteuzi baada ya sampuli utalazimika kuwa $1/2^8$ kwa kila mfuatano kwenye seti.
 
 Kipengele muhimu cha kubahatisha kwa kamba ya binary ni kwamba inafafanuliwa kwa kurejelea mchakato ambao ilichaguliwa. Umbo la mfuatano wowote wa binary peke yake, kwa hivyo, hauonyeshi chochote kuhusu kubahatisha kwake katika uteuzi.
 
@@ -552,7 +552,7 @@ Kwa kawaida usemi "kamba nasibu", bila sifa, hurejelea mfuatano uliochaguliwa na
 
  "Dhana kuu katika usimbaji fiche ni ile ya nasibu-bandia (pseudorandomness). **Mfuatano wa nasibu-bandia** wa urefu wa $n$ unaonekana *kana kwamba* ni tokeo la sampuli ya kigezo kimoja $S$ ambacho kinatoa kila mfuatano katika **$S_n$** uwezekano sawa wa uteuzi. Kwa kweli, hata hivyo, mfuatano huo ni matokeo ya kuchukua sampuli ya kigezo kimoja cha $S'$ ambacho hufafanua tu usambazaji wa uwezekano—sio lazima uwe na uwezekano sawa wa matokeo yote yanayowezekana—kwenye kikundi kidogo cha **$S_n$**. Jambo muhimu hapa ni kwamba hakuna mtu anayeweza kutofautisha kati ya sampuli kutoka $S$ na $S'$, hata ukichukua nyingi kati yao.
 
-Tuseme, kwa mfano, tofauti ya nasibu $S$. Seti yake ya matokeo ni **$S_{256}$**, hii ni seti ya nyuzi jozi zote za urefu wa 256. Seti hii ina $2^{256}$ Elements. Kila kipengele kina uwezekano sawa wa uteuzi, $1/2^{256}$, baada ya sampuli.
+Tuseme, kwa mfano, tofauti ya nasibu $S$. Seti yake ya matokeo ni **$S_{256}$**, hii ni seti ya nyuzi jozi zote za urefu wa 256. Seti hii ina vipengele $2^{256}$. Kila kipengele kina uwezekano sawa wa uteuzi, $1/2^{256}$, baada ya sampuli.
 
 Kwa kuongeza, tuseme kigezo cha nasibu $S'$. Seti yake ya matokeo inajumuisha tu $2^{128}$ mifuatano ya jozi ya urefu wa 256. Ina usambazaji wa uwezekano juu ya mifuatano hiyo, lakini usambazaji huu si lazima ufanane.
 
@@ -560,11 +560,11 @@ Tuseme kwamba sasa nilichukua 1000 za sampuli kutoka $S$ na 1000 za sampuli kuto
 
 Kwa kawaida, Mfuatano wa nasibu-bandia wa urefu wa $n$ unatolewa kwa kuchagua bila mpangilio mfuatano wa ukubwa $n - x$, ambapo $x$ ni nambari kamili chanya, na kuitumia kama kiingizio cha algoriti ya upanuzi. Mfuatano huu wa nasibu wa ukubwa $n – x$ unajulikana kama **seed**.
 
-Mfuatano wa nasibu-bandia ni dhana kuu ya kufanya  fiche kuwa wa vitendo. Fikiria, kwa mfano, misimbo ya mtiririko. Kwa msimbo wa mtiririko, ufunguo uliochaguliwa kwa nasibu huchomekwa kwenye algoriti ya upanuzi ili kutoa mfuatano mkubwa zaidi wa uwongo. Mfuatano huu wa uwongo kisha unaunganishwa na maandishi wazi kupitia utendakazi wa XOR ili kutoa maandishi ya siri.
+Mfuatano wa nasibu-bandia ni dhana kuu ya kufanya  fiche kuwa wa vitendo. Fikiria, kwa mfano, misimbo ya mtiririko. Kwa msimbo wa mtiririko, ufunguo uliochaguliwa kwa nasibu huchomekwa kwenye algoriti ya upanuzi ili kutoa mfuatano mkubwa zaidi wa uwongo. Mfuatano huu wa uwongo kisha unaunganishwa na maandishi wazi kupitia operesheni ya XOR ili kutoa maandishi ya siri.
 
 Iwapo hatukuweza kutoa aina hii ya Mfuatano wa nasibu-bandia kwa msimbo wa mtiririko, basi tungehitaji ufunguo ambao ni mrefu kama ujumbe kwa usalama wake. Hii sio chaguo la vitendo sana katika hali nyingi.
 
-Dhana ya nasibu-bandia inayojadiliwa katika sehemu hii inaweza kufafanuliwa kwa njia rasmi zaidi. Pia inaenea kwa miktadha mingine. Lakini hatuhitaji kuingia kwenye mjadala huo hapa. Unachohitaji kuelewa kwa angavu kwa sehemu kubwa ya kriptografia ni tofauti kati ya kamba ya nasibu na pseudorandom. [2]
+Dhana ya unasibu-bandia inayojadiliwa katika sehemu hii inaweza kufafanuliwa kwa njia rasmi zaidi. Pia inaenea kwa miktadha mingine. Lakini hatuhitaji kuingia kwenye mjadala huo hapa. Unachohitaji kuelewa kwa angavu kwa sehemu kubwa ya kriptografia ni tofauti kati ya kamba ya nasibu na kamba ya unasibu bandia. [2]
 
 Sababu ya kuacha tofauti kati ya "nasibu" na "sare" katika mjadala wetu inapaswa pia kuwa wazi. Kwa mazoezi, kila mtu hutumia neno pseudorandom kuashiria mfuatano unaoonekana **kana kwamba** ni matokeo ya kuchukua sampuli ya kigezo kimoja $S$. Kwa kusema kweli, tunapaswa kuita mfuatano kama huo "sare ya uwongo," tukitumia lugha yetu kutoka hapo awali. Kwa vile neno "pseudo-uniform" ni fujo na halitumiwi na mtu yeyote, hatutalitambulisha hapa kwa uwazi. Badala yake, tunaacha tu tofauti kati ya "nasibu" na "sare" katika muktadha wa sasa.
 
@@ -572,7 +572,7 @@ Sababu ya kuacha tofauti kati ya "nasibu" na "sare" katika mjadala wetu inapaswa
 
 [2] Iwapo ungependa kupata maelezo rasmi zaidi kuhusu masuala haya, unaweza kushauriana na Katz na Lindell *Introduction to Modern Cryptography*, esp. sura ya 3.
 
-# Misingi ya Hisabati ya Crystalgraphy 2
+# Misingi ya Hisabati ya Kriptografia 2
 
 <partId>d7245cc9-bb6d-5403-b3d5-9c703d9a2f81</partId>
 
@@ -590,35 +590,35 @@ Unaweza kubainisha **nadharia ya nambari** kama somo la sifa za nambari kamili n
 
 Fikiria, kwa mfano, kwamba nambari zozote mbili $a$ na $N$ ni **coprimes** (au **relative primes**) ikiwa kigawanyo chao kikubwa zaidi ni sawa na 1. Tuseme sasa nambari kamili $N$. Je, ni tarakimu ngapi ndogo zaidi ya $N$ ambazo ni nakala zilizo na $N$? Je, tunaweza kutoa kauli za jumla kuhusu majibu ya swali hili? Hizi ni aina za kawaida za maswali ambayo nadharia ya nambari hutafuta kujibu.
 
-Nadharia ya kisasa ya nambari inategemea zana za algebra ya kufikirika. Sehemu ya **aljebra abstract** ni taaluma ndogo ya hisabati ambapo vitu vikuu vya uchanganuzi ni vitu dhahania vinavyojulikana kama miundo ya aljebra. **muundo wa aljebra** ni seti ya Elements iliyounganishwa na operesheni moja au zaidi, ambayo hukutana na axioms fulani. Kupitia miundo ya aljebra, wanahisabati wanaweza kupata maarifa kuhusu matatizo mahususi ya hisabati, kwa kujiondoa kutoka kwa maelezo yao.
+Nadharia ya kisasa ya nambari inategemea zana za aljebra ya kudhania. Sehemu ya **aljebra dhahania** ni taaluma ndogo ya hisabati ambapo vitu vikuu vya uchanganuzi ni vitu dhahania vinavyojulikana kama miundo ya aljebra. **muundo wa aljebra** ni seti ya vipengele viliyounganishwa na operesheni moja au zaidi, ambayo hukutana na axioms fulani. Kupitia miundo ya aljebra, wanahisabati wanaweza kupata maarifa kuhusu matatizo mahususi ya hisabati, kwa kujiondoa kutoka kwa maelezo yao.
 
-Uga wa aljebra abstract wakati mwingine pia huitwa algebra ya kisasa. Unaweza pia kukutana na dhana ya **hisabati ya kufikirika** (au **hisabati safi**). Neno hili la mwisho si marejeleo ya aljebra ya kufikirika, bali ina maana ya utafiti wa hisabati kwa ajili yake binafsi, na si kwa kuangalia tu matumizi yanayowezekana.
+Uga wa aljebra dhahania wakati mwingine pia huitwa algebra ya kisasa. Unaweza pia kukutana na dhana ya **hisabati ya kudhania** (au **hisabati safi**). Neno hili la mwisho si marejeleo ya aljebra ya kufikirika, bali ina maana ya utafiti wa hisabati kwa ajili yake binafsi, na si kwa kuangalia tu matumizi yanayowezekana.
 
-Seti kutoka aljebra dhahania zinaweza kushughulika na aina nyingi za vitu, kutoka kwa mabadiliko ya kuhifadhi umbo kwenye pembetatu ya usawa hadi muundo wa mandhari. Kwa nadharia ya nambari, tunazingatia tu seti za Elements ambazo zina nambari kamili au vitendakazi vinavyofanya kazi na nambari kamili.
+Seti kutoka aljebra dhahania zinaweza kushughulika na aina nyingi za vitu, kutoka kwa mabadiliko ya kuhifadhi umbo kwenye pembetatu ya usawa hadi muundo wa mandhari. Kwa nadharia ya nambari, tunazingatia tu seti za vipengele ambavyo vina nambari kamili au vitendakazi vinavyofanya kazi na nambari kamili.
 
 ## Vikundi
 
 <chapterId>3209b270-f9cd-5224-803e-0ed19fbf7826</chapterId>
 
-Dhana ya msingi katika hisabati ni ile ya seti ya Elements. Seti kawaida huonyeshwa kwa ishara za sifa na Elements ikitenganishwa na koma.
+Dhana ya msingi katika hisabati ni ile ya seti ya vipengele. Seti kawaida huonyeshwa kwa ishara za sifa na vipengele ikitenganishwa na koma.
 
 Kwa mfano, seti ya nambari zote ni $\{…, -2, -1, 0, 1, 2, …\}$. Miduara hapa inamaanisha kuwa muundo fulani unaendelea katika mwelekeo fulani. Kwa hivyo seti ya nambari zote pia inajumuisha $3, 4, 5, 6$ na kadhalika, na vile vile $-3, -4, -5, -6$ na kadhalika. Seti hii ya nambari zote kwa kawaida huashiriwa na $\mathbb{Z}$.
 
-Mfano mwingine wa seti ni $\mathbb{Z} \mod 11$, au seti ya nambari zote modulo 11. Tofauti na seti nzima ya $\mathbb{Z}$, seti hii ina nambari maalum ya Elements, yaani $\{0, 1, \ldets, 9, 10\}$.
+Mfano mwingine wa seti ni $\mathbb{Z} \mod 11$, au seti ya nambari zote modulo 11. Tofauti na seti nzima ya $\mathbb{Z}$, seti hii ina nambari maalum ya vipengele, yaani $\{0, 1, \ldots, 9, 10\}$.
 
-Kosa la kawaida ni kufikiria kuwa seti ya $\mathbb{Z} \mod 11$ ni $\{-10, -9, \ldets, 0, \ldets, 9, 10\}$. Lakini hii sivyo, kwa kuzingatia jinsi tulivyofafanua operesheni ya modulo hapo awali. Nambari kamili hasi zilizopunguzwa na modulo ya 11 kwenye $\{0, 1, \ldets, 9, 10\}$. Kwa mfano, usemi $-2 \mod 11$ unakaribia kufikia $9$, huku usemi $-27 \mod 11$ ukikaribia $5$.
+Kosa la kawaida ni kufikiria kuwa seti ya $\mathbb{Z} \mod 11$ ni $\{-10, -9, \ldots, 0, \ldots, 9, 10\}$. Lakini hii sivyo, kwa kuzingatia jinsi tulivyofafanua operesheni ya modulo hapo awali. Nambari kamili hasi zilizopunguzwa na modulo ya 11 kwenye $\{0, 1, \ldots, 9, 10\}$. Kwa mfano, usemi $-2 \mod 11$ unakaribia kufikia $9$, huku usemi $-27 \mod 11$ ukikaribia $5$.
 
-Dhana nyingine ya msingi katika hisabati ni ile ya operesheni ya binary. Hii ni operesheni yoyote ambayo inachukua  Elements mbili kutoa ya tatu. Kwa mfano, kutoka kwa hesabu za kimsingi na aljebra, ungefahamu shughuli nne za kimsingi za mfumo wa jozi: kujumlisha, kutoa, kuzidisha na kugawanya.
+Dhana nyingine ya msingi katika hisabati ni ile ya operesheni ya binary. Hii ni operesheni yoyote ambayo inachukua  vipengele viwili kutoa ya tatu. Kwa mfano, kutoka kwa hesabu za kimsingi na aljebra, ungefahamu shughuli nne za kimsingi za mfumo wa jozi: kujumlisha, kutoa, kuzidisha na kugawanya.
 
 Dhana hizi mbili za msingi za hisabati, seti na uendeshaji wa mfumo wa jozi, hutumiwa kufafanua dhana ya kikundi, muundo muhimu zaidi katika aljebra ya kufikirika.
 
-Hasa, tuseme operesheni ya binary $\circ$. Kwa kuongeza, tuseme seti fulani ya Elements **S** iliyo na utendakazi huo. Yote "vifaa" inamaanisha hapa ni kwamba operesheni $\circ$ inaweza kufanywa kati ya Elements zozote mbili kwenye seti **S**.
+Hasa, tuseme operesheni ya binary $\circ$. Kwa kuongeza, tuseme seti fulani ya vipengele **S** iliyo na operesheni hiyo. Yote "vifaa" inamaanisha hapa ni kwamba operesheni $\circ$ inaweza kufanywa kati ya vipengele vyovyote viwili kwenye seti **S**.
 
 Mchanganyiko $\langle \mathbf{S}, \circ \rangle$, basi, ni **kundi** ikiwa inakidhi masharti manne maalum, yanayojulikana kama axioms za kikundi.
 
-1. Kwa $a$ na $b$ zozote ambazo ni Elements ya $\mathbf{S}$, $a \circ b$ pia ni kipengele cha $\mathbf{S}$. Hii inajulikana kama **hali ya kufungwa**.
+1. Kwa $a$ na $b$ zozote ambazo ni vipengele vya $\mathbf{S}$, $a \circ b$ pia ni kipengele cha $\mathbf{S}$. Hii inajulikana kama **hali ya kufungwa**.
 
-2. Kwa $a$, $b$, na $c$ zozote ambazo ni Elements ya $\mathbf{S}$, ni hali ambayo $(a \circ b) \circ c = a \circ (b \circ c)$. Hii inajulikana kama **hali ya ushirika**.
+2. Kwa $a$, $b$, na $c$ zozote ambazo ni vipengele vya $\mathbf{S}$, ni hali ambayo $(a \circ b) \circ c = a \circ (b \circ c)$. Hii inajulikana kama **hali ya ushirika**.
 
 3. Kuna kipengele cha kipekee $e$ katika $\mathbf{S}$, hivi kwamba kwa kila kipengele $a$ katika $\mathbf{S}$, mlinganyo ufuatao unashikilia: $e \circ a = a \circ e = a$. Kwa vile kuna kipengele kimoja tu kama $e$, kinaitwa **kipengele cha utambulisho**. Hali hii inajulikana kama **hali ya utambulisho**.
 
@@ -626,9 +626,9 @@ Mchanganyiko $\langle \mathbf{S}, \circ \rangle$, basi, ni **kundi** ikiwa inaki
 
 Hebu tuchunguze vikundi mbele kidogo. Onyesha seti ya nambari zote kwa $\mathbb{Z}$. Seti hii ikiunganishwa na nyongeza ya kawaida, au $\langle \mathbb{Z}, + \rangle$, inafaa kwa uwazi ufafanuzi wa kikundi, kwani hukutana na viambishi vinne vilivyo hapo juu.
 
-1. Kwa $x$ na $y$ zozote ambazo ni Elements ya $\mathbb{Z}$, $x + y$ pia ni kipengele cha $\mathbb{Z}$. Kwa hivyo $\langle \mathbb{Z}, + \rangle$ inakidhi hali ya kufungwa.
+1. Kwa $x$ na $y$ zozote ambazo ni vipengele vya $\mathbb{Z}$, $x + y$ pia ni kipengele cha $\mathbb{Z}$. Kwa hivyo $\langle \mathbb{Z}, + \rangle$ inakidhi hali ya kufungwa.
 
-2. Kwa $x$, $y$, na $z$ zozote ambazo ni Elements ya $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Kwa hivyo $\langle \mathbb{Z}, + \rangle$ hukutana na hali ya ushirika.
+2. Kwa $x$, $y$, na $z$ zozote ambazo ni vipengele vya $\mathbb{Z}$, $(x + y) + z = x + (y + z)$. Kwa hivyo $\langle \mathbb{Z}, + \rangle$ hukutana na hali ya ushirika.
 
 3. Kuna kipengele cha utambulisho katika $\langle \mathbb{Z}, + \rangle$, yaani 0. Kwa $x$ yoyote katika $\mathbb{Z}$, inashikilia kwamba: $0 + x = x + 0 = x$. Kwa hivyo $\langle \mathbb{Z}, + \rangle$ inakidhi hali ya utambulisho.
 
@@ -645,19 +645,19 @@ Ikiwa tuliruhusu nambari halisi kwa seti yetu, basi shida zetu hupotea kwa kiasi
 Baadhi ya vikundi hutimiza masharti ya tano ya jumla, inayojulikana kama **hali ya mawasiliano**. Hali hii ni kama ifuatavyo:
 
 
-- Tuseme kikundi $G$ na seti **S** na opereta binary $\circ$. Tuseme kuwa $a$ na $b$ ni Elements kati ya **S**. Ikiwa ni kwamba $a \circ b = b \circ a$ kwa Elements $a$ na $b$ zozote mbili katika **S**, basi $G$ inakidhi hali ya mawasiliano.
+- Tuseme kikundi $G$ na seti **S** na opereta binary $\circ$. Tuseme kuwa $a$ na $b$ ni vipengele kati ya **S**. Ikiwa ni kwamba $a \circ b = b \circ a$ kwa vipengele $a$ na $b$ vyovyote viwili katika **S**, basi $G$ inakidhi hali ya mawasiliano.
 
 Kikundi chochote kinachotimiza masharti ya mawasiliano kinajulikana kama **kikundi chenye mabadiliko**, au **kikundi cha Abelian** (baada ya Niels Henrik Abel). Ni rahisi kuthibitisha kuwa seti ya nambari halisi juu ya kujumlisha na seti ya nambari kamili juu ya kuongeza ni vikundi vya Abelian. Seti ya nambari kamili juu ya kuzidisha sio kikundi hata kidogo, kwa hivyo ipso facto haiwezi kuwa kikundi cha Abelian. Seti ya nambari zisizo sifuri halisi juu ya kuzidisha, kwa kulinganisha, pia ni kikundi cha Abelian.
 
-Unapaswa kuzingatia mikataba miwili muhimu juu ya nukuu. Kwanza, ishara "+" au "×" mara nyingi zitatumika kuashiria shughuli za kikundi, hata wakati Elements sio, kwa kweli, nambari. Katika hali hizi, hupaswi kufasiri ishara hizi kama nyongeza ya kawaida ya hesabu au kuzidisha. Badala yake, ni shughuli zilizo na mfanano wa dhahania tu na shughuli hizi za hesabu.
+Unapaswa kuzingatia mikataba miwili muhimu juu ya nukuu. Kwanza, ishara "+" au "×" mara nyingi zitatumika kuashiria shughuli za kikundi, hata wakati vipengele sio, kwa kweli, nambari. Katika hali hizi, hupaswi kufasiri ishara hizi kama nyongeza ya kawaida ya hesabu au kuzidisha. Badala yake, ni shughuli zilizo na mfanano wa dhahania tu na shughuli hizi za hesabu.
 
 Isipokuwa unarejelea mahsusi kujumlisha au kuzidisha hesabu, ni rahisi zaidi kutumia alama kama vile $\circ$ na $\diamond$ kwa shughuli za kikundi, kwani hizi hazina miunganisho iliyokita mizizi sana kiutamaduni.
 
-Pili, kwa sababu hiyo hiyo ambayo "+" na "×" hutumiwa mara nyingi kwa kuonyesha shughuli zisizo za hesabu, utambulisho wa Elements wa vikundi mara nyingi huonyeshwa na "0" na "1", hata wakati Elements katika vikundi hivi sio nambari. Isipokuwa unarejelea kipengele cha utambulisho cha kikundi kilicho na nambari, ni rahisi zaidi kutumia alama isiyoegemea upande wowote kama vile “$e$” ili kuonyesha kipengele cha utambulisho.
+Pili, kwa sababu hiyo hiyo ambayo "+" na "×" hutumiwa mara nyingi kwa kuonyesha shughuli zisizo za hesabu, utambulisho wa vipengele vya vikundi mara nyingi huonyeshwa na "0" na "1", hata wakati vipengele katika vikundi hivi sio nambari. Isipokuwa unarejelea kipengele cha utambulisho cha kikundi kilicho na nambari, ni rahisi zaidi kutumia alama isiyoegemea upande wowote kama vile “$e$” ili kuonyesha kipengele cha utambulisho.
 
-Seti nyingi tofauti na muhimu sana za maadili katika hisabati zilizo na shughuli fulani za binary ni vikundi. Programu za kriptografia, hata hivyo, hufanya kazi tu na seti za nambari kamili au angalau Elements ambazo zinafafanuliwa na nambari kamili, ambayo ni, ndani ya kikoa cha nadharia ya nambari. Kwa hivyo, seti zilizo na nambari halisi isipokuwa nambari kamili hazitumiki katika programu za kriptografia.
+Seti nyingi tofauti na muhimu sana za maadili katika hisabati zilizo na shughuli fulani za binary ni vikundi. Programu za kriptografia, hata hivyo, hufanya kazi tu na seti za nambari kamili au angalau vipengele ambavyo vinafafanuliwa na nambari kamili, ambayo ni, ndani ya kikoa cha nadharia ya nambari. Kwa hivyo, seti zilizo na nambari halisi isipokuwa nambari kamili hazitumiki katika programu za kriptografia.
 
-Wacha tumalizie kwa kutoa mfano wa Elements ambao unaweza "kuelezewa na nambari kamili", ingawa sio nambari kamili. Mfano mzuri ni pointi za curves elliptic. Ingawa sehemu yoyote kwenye kiwiko cha duaradufu ni dhahiri si nambari kamili, uhakika kama huo kwa hakika unafafanuliwa na nambari mbili kamili.
+Wacha tumalizie kwa kutoa mfano wa vipengele ambavyo unaweza "kuelezewa na nambari kamili", ingawa sio nambari kamili. Mfano mzuri ni pointi za curves elliptic. Ingawa sehemu yoyote kwenye kiwiko cha duaradufu ni dhahiri si nambari kamili, uhakika kama huo kwa hakika unafafanuliwa na nambari mbili kamili.
 
 Mikondo ya mviringo, kwa mfano, ni muhimu kwa Bitcoin. Jozi yoyote ya kawaida ya Bitcoin ya ufunguo wa kibinafsi na wa umma huchaguliwa kutoka kwa seti ya pointi ambazo zinafafanuliwa na curve ifuatayo ya mviringo:
 
@@ -669,11 +669,11 @@ $$
 
 Shughuli katika Bitcoin kwa kawaida huhusisha kufunga matokeo kwa funguo moja au zaidi za umma kwa njia fulani. Thamani kutoka kwa miamala hii inaweza, basi, kufunguliwa kutengeneza saini za kidijitali kwa funguo za faragha zinazolingana.
 
-## Vikundi vya baiskeli
+## Vikundi vinavyozunguka
 
 <chapterId>bfa5c714-7952-5fef-88b1-ca5b07edd886</chapterId>
 
-Tofauti kuu tunayoweza kuchora ni kati ya **kikomo** na **kikundi kisicho na kikomo**. Ya kwanza ina nambari ya mwisho ya Elements, wakati ya mwisho ina idadi isiyo na kipimo ya Elements. Nambari ya Elements katika kikundi chochote chenye kikomo inajulikana kama **mpangilio wa kikundi**. Fiche zote za kimatendo zinazohusisha matumizi ya vikundi hutegemea vikundi vyenye ukomo (nambari-kinadharia).
+Tofauti kuu tunayoweza kuchora ni kati ya **kikomo** na **kikundi kisicho na kikomo**. Ya kwanza ina nambari ya mwisho ya vipengele, wakati ya mwisho ina idadi isiyo na kipimo ch vipengele. Nambari ya vipengele katika kikundi chochote chenye kikomo inajulikana kama **mpangilio wa kikundi**. Fiche zote za kimatendo zinazohusisha matumizi ya vikundi hutegemea vikundi vyenye ukomo (nambari-kinadharia).
 
 Ndani ya usimbaji fiche wa ufunguo wa umma, aina fulani ya vikundi vya Kiabeli vilivyo na kikomo vinavyojulikana kama vikundi vya mzunguko ni muhimu sana. Ili kuelewa vikundi vya mzunguko, kwanza tunahitaji kuelewa dhana ya udhihirisho wa kipengele cha kikundi.
 
@@ -681,11 +681,11 @@ Tuseme kikundi $G$ chenye operesheni ya kikundi $\circ$, na hiyo $a$ ni kipengel
 
 Hebu tugeukie mfano. Tuseme kwamba $G = \langle \mathbb{Z} \mod 7, + \rangle$, na kwamba thamani yetu ya $a$ ni sawa na 4. Katika kesi hii, $a^2 = [4 + 4 \mod 7] = [8 \mod 7] = 1 \mod 7$. Vinginevyo, $a^4$ ingewakilisha $[4 + 4 + 4 + 4 \mod 7] = [16 \mod 7] = 2 \mod 7$.
 
-Baadhi ya vikundi vya Abelian vina Elements moja au zaidi, ambayo inaweza kutoa kundi lingine la Elements kupitia upanuzi unaoendelea. Elements hizi huitwa **jenereta** au **primitive Elements**.
+Baadhi ya vikundi vya Abelian vina kipengele kimoja au zaidi, ambacho kinaweza kuzalisha vipengele vyote vya kindi kupitia mazao yanayorudiwa. Vipengele hivi huitwa **jenereta** au **vipengele vya kimsingi**.
 
-Darasa muhimu la vikundi kama hivyo ni $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, ambapo $N$ ni nambari kuu. Alama $\mathbb{Z}^*$ hapa inamaanisha kuwa kikundi kina nambari kamili zisizo sifuri na chanya chini ya $N$. Kundi kama hilo, kwa hiyo, daima lina $ N - 1 $ Elements.
+Darasa muhimu la vikundi kama hivyo ni $\langle \mathbb{Z}^* \mod N, \cdot \rangle$, ambapo $N$ ni nambari kuu. Alama $\mathbb{Z}^*$ hapa inamaanisha kuwa kikundi kina nambari kamili zisizo sifuri na chanya chini ya $N$. Kundi kama hilo, kwa hiyo, daima lina vipengele $ N - 1 $.
 
-Fikiria, kwa mfano, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Kikundi hiki kina Elements zifuatazo: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Mpangilio wa kundi hili ni 10 (ambayo kwa hakika ni sawa na $11 - 1$).
+Fikiria, kwa mfano, $G = \langle \mathbb{Z}^* \mod 11, \cdot \rangle$. Kikundi hiki kina vipengele zifuatazo: $\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$. Mpangilio wa kundi hili ni 10 (ambayo kwa hakika ni sawa na $11 - 1$).
 
 Hebu tuchunguze kufafanua kipengele cha 2 kutoka kwa kikundi hiki. Hesabu za hadi $2^{12}$ zimeonyeshwa hapa chini. Kumbuka kuwa katika upande wa kushoto wa mlingano, kipeo kinarejelea upanuzi wa kipengele cha kikundi. Katika mfano wetu mahususi, hii kwa kweli inahusisha ufafanuzi wa hesabu kwenye upande wa kulia wa equation (lakini inaweza pia kuhusisha, kwa mfano, nyongeza). Ili kufafanua, nimeandika operesheni inayorudiwa, badala ya fomu ya kielelezo upande wa kulia.
 
@@ -703,9 +703,9 @@ Hebu tuchunguze kufafanua kipengele cha 2 kutoka kwa kikundi hiki. Hesabu za had
 - $2^{11} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 2048 \mod 11 = 2 \mod 11 $
 - $2^{12} = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \mod 11 = 4096 \mod 11 = 1$ 1$
 
-Ukiangalia kwa makini, unaweza kuona kwamba kufanya ufafanuzi kwenye kipengele cha 2 kwa mizunguko kupitia Elements yote ya $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ kwa mpangilio ufuatao: 2, 4, 8, 5, 10, 9, 7, 3, 6, eleza $2, {1} iliendelea baada ya $2 $. hupitia Elements zote tena na kwa mpangilio sawa. Kwa hivyo, kipengele cha 2 ni jenereta katika $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
+Ukiangalia kwa makini, unaweza kuona kwamba kufanya ufafanuzi kwenye kipengele cha 2 kwa mizunguko kupitia vipengele vyote ya $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ kwa mpangilio ufuatao: 2, 4, 8, 5, 10, 9, 7, 3, 6, eleza $2, {1} iliendelea baada ya $2 $. Hupitia vipengele vyote tena na kwa mpangilio sawa. Kwa hivyo, kipengele cha 2 ni jenereta katika $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$.
 
-Ingawa $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ina jenereta nyingi, sio Elements zote za kikundi hiki ni jenereta. Fikiria, kwa mfano, kipengele cha 3. Kupitia maelezo 10 ya kwanza, bila kuonyesha mahesabu magumu, hutoa matokeo yafuatayo:
+Ingawa $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ina jenereta nyingi, sio vipengele vyote vya kikundi hiki ni jenereta. Fikiria, kwa mfano, kipengele cha 3. Kupitia maelezo 10 ya kwanza, bila kuonyesha mahesabu magumu, hutoa matokeo yafuatayo:
 
 
 - $3^1 = 3 \mod 11$
@@ -719,9 +719,9 @@ Ingawa $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ ina jenereta nyingi, sio El
 - $3^9 = 4 \mod 11$
 - $3^{10} = 1 \mod 11$
 
-Badala ya kuendesha baiskeli kupitia thamani zote katika $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, upanuzi wa kipengele cha 3 husababisha tu sehemu ndogo ya maadili hayo: 3, 9, 5, 4, na 1. Baada ya ufafanuzi wa tano, maadili haya huanza kujirudia.
+Badala ya kuzungusha kupitia thamani zote katika $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, upanuzi wa kipengele cha 3 husababisha tu sehemu ndogo ya maadili hayo: 3, 9, 5, 4, na 1. Baada ya ufafanuzi wa tano, dhamani hizi huanza kujirudia.
 
-Sasa tunaweza kufafanua **kikundi cha mzunguko** kama kikundi chochote kilicho na angalau jenereta moja. Hiyo ni, kuna angalau kipengele kimoja cha kikundi ambacho unaweza kuzalisha kikundi kingine cha Elements kwa njia ya ufafanuzi.
+Sasa tunaweza kufafanua **kikundi cha mzunguko** kama kikundi chochote kilicho na angalau jenereta moja. Hiyo ni, kuna angalau kipengele kimoja cha kikundi ambacho unaweza kuzalisha kikundi kingine cha vipengele kwa njia ya ufafanuzi.
 
 Huenda umeona katika mfano wetu hapo juu kwamba $2^{10}$ na $3^{10}$ ni sawa na $1 \mod 11$. Kwa kweli, ingawa hatutafanya hesabu, ubainishaji kwa 10 wa kipengele chochote katika kikundi $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$ itatoa $1 \mod 11$. Kwa nini hali iko hivi?
 
@@ -735,50 +735,50 @@ Kwa mfano, tuseme $N$ ni 10. Nambari kamili 1, 3, 7, na 9 pekee ndizo zilizo na 
 
 Katika hali ambapo $N$ yenyewe ni ya kwanza, nambari zote kamili kutoka 1 hadi $N - 1$ ni nakala zilizo na $N$. Kundi kama hilo, kwa hivyo, lina agizo la $ N - 1 $. Kwa kutumia nukuu yetu ya awali, $\mathbb{Z}^c \mod N$ ni sawa na $\mathbb{Z}^* \mod N$ wakati $N$ ni ya kwanza. Kikundi tulichochagua kwa mfano wetu wa awali, $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, ni mfano mahususi wa aina hii ya vikundi.
 
-Kisha, chaguo za kukokotoa $\phi(N)$ hukokotoa nambari ya malipo hadi nambari $N$, na inajulikana kama **kitendakazi cha Euler's Phi**. [1] Kulingana na **Nadharia ya Euler**, wakati wowote nambari kamili $a$ na $N$ ni coprimes, zifuatazo hushikilia:
+Kisha, operesheni $\phi(N)$ hukokotoa nambari ya malipo hadi nambari $N$, na inajulikana kama **operesheni ya Euler's Phi**. [1] Kulingana na **Nadharia ya Euler**, wakati wowote nambari kamili $a$ na $N$ ni coprimes, zifuatazo hushikilia:
 
 
 - $a^{\phi(N)} \mod N = 1 \mod N$
 
-Hii ina maana muhimu kwa darasa la vikundi $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ ambapo $N$ ndio msingi. Kwa vikundi hivi, upanuzi wa kipengele cha kikundi huwakilisha ufafanuzi wa hesabu. Hiyo ni, $a^{\phi(N)} \mod N$ inawakilisha utendakazi wa hesabu $a^{\phi(N)} \mod N$. Kwa vile kipengele chochote $a$ katika vikundi hivi vya kuzidisha ni coprime na $N$, inamaanisha kuwa $a^{\phi(N)} \mod N = a^{N – 1} \mod N = 1 \mod N$.
+Hii ina maana muhimu kwa darasa la vikundi $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ ambapo $N$ ndio msingi. Kwa vikundi hivi, upanuzi wa kipengele cha kikundi huwakilisha ufafanuzi wa hesabu. Hiyo ni, $a^{\phi(N)} \mod N$ inawakilisha operesheni ya hesabu $a^{\phi(N)} \mod N$. Kwa vile kipengele chochote $a$ katika vikundi hivi vya kuzidisha ni coprime na $N$, inamaanisha kuwa $a^{\phi(N)} \mod N = a^{N – 1} \mod N = 1 \mod N$.
 
-Nadharia ya Euler ni matokeo muhimu sana. Kuanza, inadokeza kwamba Elements zote katika $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ zinaweza tu kuzunguka kupitia idadi ya thamani kwa ubainishi unaogawanyika katika $N - 1$. Kwa upande wa $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, hii ina maana kwamba kila kipengele kinaweza tu kuzunguka kupitia 2, 5, au 10 Elements. Kikundi huthamini ambacho kipengele chochote hupitia baada ya upanuzi hujulikana kama **mpangilio wa kipengele**. Kipengele kilicho na utaratibu sawa na utaratibu wa kikundi ni jenereta.
+Nadharia ya Euler ni matokeo muhimu sana. Kuanza, inadokeza kwamba vipengele vyote katika $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ zinaweza tu kuzunguka kupitia idadi ya thamani kwa ubainishi unaogawanyika katika $N - 1$. Kwa upande wa $\langle \mathbb{Z}^* \mod 11, \cdot \rangle$, hii ina maana kwamba kila kipengele kinaweza tu kuzunguka kupitia 2, 5, au vipengele 10. Kikundi huthamini ambacho kipengele chochote hupitia baada ya upanuzi hujulikana kama **mpangilio wa kipengele**. Kipengele kilicho na utaratibu sawa na utaratibu wa kikundi ni jenereta.
 
 Zaidi ya hayo, nadharia ya Euler inadokeza kwamba tunaweza kujua kila wakati matokeo ya $a^{N - 1} \mod N$ kwa kikundi chochote $\langle \mathbb{Z}^* \mod N, \cdot \rangle$ ambapo $N$ ni bora. Hii ni hivyo bila kujali jinsi mahesabu halisi yanaweza kuwa magumu.
 
-Kwa mfano, tuseme kikundi chetu ni $\mathbb{Z}^* \mod 160,481,182$ (ambapo 160,481,182 hakika ni nambari kuu). Tunajua kwamba nambari zote 1 hadi 160,481,181 lazima ziwe Elements za kikundi hiki, na kwamba $\phi(n) = 160,481,181$. Ingawa hatuwezi kufanya hatua zote katika hesabu, tunajua kwamba misemo kama vile $514^{160,481,181}$, $2,005^{160,481,181}$, na $256,212^{160,481,181}$ lazima zote zitathminiwe hadi $1,2,8.
+Kwa mfano, tuseme kikundi chetu ni $\mathbb{Z}^* \mod 160,481,182$ (ambapo 160,481,182 hakika ni nambari kuu). Tunajua kwamba nambari zote 1 hadi 160,481,181 lazima ziwe vipengele vya kikundi hiki, na kwamba $\phi(n) = 160,481,181$. Ingawa hatuwezi kufanya hatua zote katika hesabu, tunajua kwamba misemo kama vile $514^{160,481,181}$, $2,005^{160,481,181}$, na $256,212^{160,481,181}$ lazima zote zitathminiwe hadi $1,2,8.
 
 **Maelezo:**
 
-[1] Chaguo za kukokotoa hufanya kazi kama ifuatavyo. Nambari kamili $N$ inaweza kujumuishwa katika bidhaa ya msingi. Tuseme kwamba $N$ fulani imeainishwa kama ifuatavyo: $p_1^{e1} \cdot p_2^{e2} \cdot \ldets \cdot p_m^{em}$ ambapo $p$ zote ni nambari kuu na $e$ zote ni nambari kamili zaidi kuliko au sawa na 1. Kisha:
+[1] Operesheni hii hufanya kazi kama ifuatavyo. Nambari kamili $N$ inaweza kujumuishwa katika bidhaa ya msingi. Tuseme kwamba $N$ fulani imeainishwa kama ifuatavyo: $p_1^{e1} \cdot p_2^{e2} \cdot \ldots \cdot p_m^{em}$ ambapo $p$ zote ni nambari kuu na $e$ zote ni nambari kamili zaidi kuliko au sawa na 1. Kisha:
 
 $$
 \phi(N) = \sum_{i=1}^m \left[p_i^{e_i} - p_i^{e_i - 1}\right]
 $$
 
-Fomula ya utendakazi ya Euler ya Phi ya uwekaji alama mkuu wa $N$.
+Fomula ya operesheni ya Euler ya Phi ya uwekaji alama mkuu wa $N$.
 
 ## Viwanja
 
 <chapterId>fad52d86-3a22-5c9f-979e-3bec9eaa008e</chapterId>
 
-Kundi ni muundo msingi wa aljebra katika aljebra abstract, lakini kuna mengi zaidi. Muundo mwingine pekee wa aljebra unaohitaji kuufahamu ni ule wa **uwanja**, haswa ule wa **uga wenye kikomo**. Aina hii ya muundo wa aljebra hutumiwa mara kwa mara katika usimbaji fiche, kama vile Kiwango cha Juu cha Usimbaji fiche. Mwisho ni mpango mkuu wa usimbuaji wa ulinganifu ambao utakutana nao katika mazoezi.
+Kundi ni muundo msingi wa aljebra katika aljebra ya dhahania, lakini kuna mengi zaidi. Muundo mwingine pekee wa aljebra unaohitaji kuufahamu ni ule wa **uwanja**, haswa ule wa **uga wenye kikomo**. Aina hii ya muundo wa aljebra hutumiwa mara kwa mara katika usimbaji fiche, kama vile Kiwango cha Juu cha Usimbaji fiche. Mwisho ni mpango mkuu wa usimbuaji wa ulinganifu ambao utakutana nao katika mazoezi.
 
-Sehemu inatokana na dhana ya kikundi. Hasa, **sehemu** ni seti ya Elements **S** iliyo na waendeshaji binary wawili $\circ$ na $\diamond$, ambayo inatimiza masharti yafuatayo:
+Sehemu inatokana na dhana ya kikundi. Hasa, **sehemu** ni seti ya vipengele **S** iliyo na waendeshaji binary wawili $\circ$ na $\diamond$, ambayo inatimiza masharti yafuatayo:
 
 1. Seti **S** iliyo na $\circ$ ni kikundi cha Abelian.
 
-2. Seti **S** iliyo na $\diamond$ ni kikundi cha Abelian kwa "isiyo ya sifuri" Elements.
+2. Seti **S** iliyo na $\diamond$ ni kikundi cha Abelian kwa  vipengele "isiyo ya sifuri".
 
-3. Seti **S** iliyo na waendeshaji wawili inakidhi kile kinachojulikana kama hali ya usambazaji: Tuseme $a$, $b$, na $c$ ni Elements ya **S**. Kisha **S** iliyo na waendeshaji wawili hukutana na mali ya ugawaji wakati $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
+3. Seti **S** iliyo na waendeshaji wawili inakidhi kile kinachojulikana kama hali ya usambazaji: Tuseme $a$, $b$, na $c$ ni vipengele vya **S**. Kisha **S** iliyo na waendeshaji wawili hukutana na mali ya ugawaji wakati $a \circ (b \diamond c) = (a \circ b) \diamond (a \circ c)$.
 
-Kumbuka kuwa, kama ilivyo kwa vikundi, ufafanuzi wa uwanja ni wa kufikirika sana. Haifanyi madai yoyote kuhusu aina za Elements katika **S**, au kuhusu utendakazi $\circ$ na $\diamond$. Inasema tu kwamba uga ni seti yoyote ya Elements yenye shughuli mbili ambazo masharti matatu hapo juu yanashikilia. (Kipengele cha "sifuri" katika kundi la pili la Abelian kinaweza kufasiriwa kidhahiri.)
+Kumbuka kuwa, kama ilivyo kwa vikundi, ufafanuzi wa uwanja ni wa kufikirika sana. Haifanyi madai yoyote kuhusu aina za vipengele katika **S**, au kuhusu operesheni $\circ$ na $\diamond$. Inasema tu kwamba uga ni seti yoyote ya vipengele vyenye shughuli mbili ambazo masharti matatu hapo juu yanashikilia. (Kipengele cha "sifuri" katika kundi la pili la Abelian kinaweza kufasiriwa kidhahiri.)
 
 Kwa hivyo ni nini kinachoweza kuwa mfano wa shamba? Mfano mzuri ni seti ya $\mathbb{Z} \mod 7$, au $\{0, 1, \lddots, 7\}$ iliyofafanuliwa juu ya nyongeza ya kawaida (badala ya $\circ$ hapo juu) na kuzidisha kawaida (badala ya $\diamond$ hapo juu).
 
-Kwanza, $\mathbb{Z} \mod 7$ inatimiza masharti ya kuwa kikundi cha Abelian baada ya kuongezwa, na inatimiza masharti ya kuwa kikundi cha Abelian juu ya kuzidisha ikiwa utazingatia tu Elements isiyo ya sufuri. Pili, mchanganyiko wa kuweka na waendeshaji wawili hukutana na hali ya kusambaza.
+Kwanza, $\mathbb{Z} \mod 7$ inatimiza masharti ya kuwa kikundi cha Abelian baada ya kuongezwa, na inatimiza masharti ya kuwa kikundi cha Abelian juu ya kuzidisha ikiwa utazingatia tu vipengele visivyo ya sufuri. Pili, mchanganyiko wa kuweka na waendeshaji wawili hukutana na hali ya kusambaza.
 
-Inafaa sana kuchunguza madai haya kwa kutumia thamani fulani. Hebu tuchukue thamani za majaribio 5, 2, na 3, baadhi ya Elements iliyochaguliwa bila mpangilio kutoka kwa seti $\mathbb{Z} \mod 7$, ili kukagua uga $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Tutatumia maadili haya matatu kwa mpangilio, inavyohitajika ili kuchunguza hali fulani.
+Inafaa sana kuchunguza madai haya kwa kutumia thamani fulani. Hebu tuchukue thamani za majaribio 5, 2, na 3, baadhi ya vipengele viliyochaguliwa bila mpangilio kutoka kwa seti $\mathbb{Z} \mod 7$, ili kukagua uga $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$. Tutatumia maadili haya matatu kwa mpangilio, inavyohitajika ili kuchunguza hali fulani.
 
 Hebu tuchunguze kwanza ikiwa $\mathbb{Z} \mod 7$ iliyo na nyongeza ni kikundi cha Abelian.
 
@@ -792,7 +792,7 @@ Hebu tuchunguze kwanza ikiwa $\mathbb{Z} \mod 7$ iliyo na nyongeza ni kikundi ch
 
 5. **Hali ya mawasiliano**: Hebu tuchukue 5 na 3 kama maadili yetu. Katika hali hiyo, $[5 + 3] \mod 7 = [3 + 5] \mod 7 = 1$. Hii inalingana na hali ya mawasiliano.
 
-Seti ya $\mathbb{Z} \mod 7$ iliyo na nyongeza inaonekana wazi kuwa ni kikundi cha Abelian. Hebu sasa tuchunguze ikiwa $\mathbb{Z} \mod 7$ iliyo na kuzidisha ni kikundi cha Abelian kwa Elements zote zisizo na sufuri.
+Seti ya $\mathbb{Z} \mod 7$ iliyo na nyongeza inaonekana wazi kuwa ni kikundi cha Abelian. Hebu sasa tuchunguze ikiwa $\mathbb{Z} \mod 7$ iliyo na kuzidisha ni kikundi cha Abelian kwa vipengele vyote visivyo na sufuri.
 
 1. **Hali ya kufungwa**: Hebu tuchukue 5 na 2 kama maadili yetu. Katika hali hiyo, $[5 \cdot 2] \mod 7 = 10 \mod 7 = 3$. Hiki pia ni kipengele cha $\mathbb{Z} \mod 7$, kwa hivyo matokeo yanaendana na hali ya kufungwa.
 
@@ -804,7 +804,7 @@ Seti ya $\mathbb{Z} \mod 7$ iliyo na nyongeza inaonekana wazi kuwa ni kikundi ch
 
 5. **Hali ya mawasiliano**: Hebu tuchukue 5 na 3 kama maadili yetu. Katika hali hiyo, $[5 \cdot 3] \mod 7 = [3 \cdot 5] \mod 7 = 15 \mod 7 = 1$. Hii inalingana na hali ya mawasiliano.
 
-Seti ya $\mathbb{Z} \mod 7$ inaonekana kukidhi sheria za kuwa kikundi cha Abelian inapounganishwa na ama kuongeza au kuzidisha juu ya Elements isiyo ya sufuri.
+Seti ya $\mathbb{Z} \mod 7$ inaonekana kukidhi sheria za kuwa kikundi cha Abelian inapounganishwa na ama kuongeza au kuzidisha juu ya vipengele visivyo vya sufuri.
 
 Hatimaye, seti hii pamoja na waendeshaji wote inaonekana kukidhi hali ya usambazaji. Wacha tuchukue 5, 2, na 3 kama maadili yetu. Tunaweza kuona kwamba $[5 \cdot (2 + 3)] \mod 7 = [5 \cdot 2 + 5 \cdot 3] \mod 7 = 25 \mod 7 = 4$.
 
@@ -814,20 +814,20 @@ Tofauti kuu ni kati ya aina mbili za nyanja: nyuga zenye mwisho na zisizo na kik
 
 **sehemu isiyo na kikomo** inajumuisha sehemu ambayo seti **S** ni kubwa sana. Seti ya nambari halisi $\mathbb{R}$ iliyo na nyongeza na kuzidisha ni mfano wa uga usio na kikomo. **Sehemu yenye kikomo**, inayojulikana pia kama **uga wa Galois**, ni sehemu ambayo seti **S** ina kikomo. Mfano wetu hapo juu wa $\langle \mathbb{Z} \mod 7, +, \cdot \rangle$ ni sehemu yenye kikomo.
 
-Katika kriptografia, tunavutiwa kimsingi na sehemu zenye ukomo. Kwa ujumla, inaweza kuonyeshwa kuwa sehemu yenye kikomo ipo kwa baadhi ya seti ya Elements **S** ikiwa na tu ikiwa ina $p^m$ Elements, ambapo $p$ ni nambari kuu na $m$ nambari chanya kubwa kuliko au sawa na moja. Kwa maneno mengine, ikiwa mpangilio wa seti fulani **S** ni nambari kuu ($p^m$ ambapo $m = 1$) au nguvu fulani kuu ($p^m$ ambapo $m > 1$), basi unaweza kupata waendeshaji wawili $\circ$ na $\diamond$ kiasi kwamba masharti ya uga yatimizwe.
+Katika kriptografia, tunavutiwa kimsingi na sehemu zenye ukomo. Kwa ujumla, inaweza kuonyeshwa kuwa sehemu yenye kikomo ipo kwa baadhi ya seti ya vipengele **S** ikiwa na tu ikiwa ina vipengele $p^m$, ambapo $p$ ni nambari kuu na $m$ nambari chanya kubwa kuliko au sawa na moja. Kwa maneno mengine, ikiwa mpangilio wa seti fulani **S** ni nambari kuu ($p^m$ ambapo $m = 1$) au nguvu fulani kuu ($p^m$ ambapo $m > 1$), basi unaweza kupata waendeshaji wawili $\circ$ na $\diamond$ kiasi kwamba masharti ya uga yatimizwe.
 
-Ikiwa sehemu fulani ya kikomo ina nambari kuu ya Elements, basi inaitwa **uga kuu**. Ikiwa nambari ya Elements katika uwanja wa mwisho ni nguvu kuu, basi shamba linaitwa **uga wa upanuzi**. Katika kriptografia, tunavutiwa na sehemu kuu na ugani. [2]
+Ikiwa sehemu fulani ya kikomo ina nambari kuu ya vipengele, basi inaitwa **uga kuu**. Ikiwa nambari ya vipengele katika uwanja wa mwisho ni nguvu kuu, basi shamba linaitwa **uga wa upanuzi**. Katika kriptografia, tunavutiwa na sehemu kuu na ugani. [2]
 
-Sehemu kuu kuu za kupendeza katika kriptografia ni zile ambapo seti ya nambari zote hubadilishwa kwa nambari kuu, na waendeshaji ni kuongeza na kuzidisha kawaida. Darasa hili la sehemu zenye ukomo zitajumuisha $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z}\mod na kadhalika. Kwa sehemu yoyote kuu $\mathbb{Z} \mod p$, seti ya nambari kamili za sehemu hii ni kama ifuatavyo: $\{0, 1, \ldets, p – 2, p – 1\}$.
+Sehemu kuu kuu za kupendeza katika kriptografia ni zile ambapo seti ya nambari zote hubadilishwa kwa nambari kuu, na waendeshaji ni kuongeza na kuzidisha kawaida. Darasa hili la sehemu zenye ukomo zitajumuisha $\mathbb{Z} \mod 2$, $\mathbb{Z} \mod 3$, $\mathbb{Z} \mod 5$, $\mathbb{Z} \mod 7$, $\mathbb{Z} \mod 11$, $\mathbb{Z}\mod na kadhalika. Kwa sehemu yoyote kuu $\mathbb{Z} \mod p$, seti ya nambari kamili za sehemu hii ni kama ifuatavyo: $\{0, 1, \ldots, p – 2, p – 1\}$.
 
-Katika cryptography, tunavutiwa pia na sehemu za upanuzi, haswa sehemu zozote zilizo na $2^m$ Elements ambapo $m > 1$. Sehemu kama hizo zenye ukomo, kwa mfano, hutumiwa katika Sifa ya Rijndael, ambayo ni msingi wa Kiwango cha Juu cha Usimbaji Fiche. Ingawa sehemu kuu ni angavu kiasi, sehemu hizi za kiendelezi za msingi 2 pengine si za mtu yeyote asiyefahamu aljebra ya kufikirika.
+Katika kriptografia, tunavutiwa pia na sehemu za upanuzi, haswa sehemu zozote zilizo na vipengele $2^m$ ambapo $m > 1$. Sehemu kama hizo zenye ukomo, kwa mfano, hutumiwa katika Sifa ya Rijndael, ambayo ni msingi wa Kiwango cha Juu cha Usimbaji Fiche. Ingawa sehemu kuu ni angavu kiasi, sehemu hizi za kiendelezi za msingi 2 pengine si za mtu yeyote asiyefahamu aljebra ya kufikirika.
 
-Kuanza, ni kweli kwamba seti yoyote ya nambari kamili iliyo na $2^m$ Elements inaweza kupewa waendeshaji wawili ambao wangefanya mchanganyiko wao kuwa sehemu (ilimradi $m$ ni nambari kamili chanya). Walakini, kwa sababu uwanja upo haimaanishi kuwa ni rahisi kugundua au ni rahisi sana kwa matumizi fulani.
+Kuanza, ni kweli kwamba seti yoyote ya nambari kamili iliyo na vipengele $2^m$ inaweza kupewa waendeshaji wawili ambao wangefanya mchanganyiko wao kuwa sehemu (ilimradi $m$ ni nambari kamili chanya). Walakini, kwa sababu uwanja upo haimaanishi kuwa ni rahisi kugundua au ni rahisi sana kwa matumizi fulani.
 
 
 Inavyodhihirika, viwanja vilivyopanuliwa vya $2^m$ vinavyotumika zaidi katika usimbaji fiche ni vile vinavyofafanuliwa juu ya seti maalum za misemo ya polinomiali, badala ya seti fulani ya nambari kamili
 
-Kwa mfano, tuseme kwamba tulitaka sehemu ya kiendelezi yenye $2^3$ (yaani, 8) Elements katika seti. Ingawa kunaweza kuwa na seti nyingi tofauti zinazoweza kutumika kwa sehemu za ukubwa huo, seti moja kama hiyo inajumuisha polynomia zote za kipekee za fomu $a_2x^2 + a_1x + a_0$, ambapo kila mgawo $a_i$ ni 0 au 1. Kwa hivyo, seti hii **S** inajumuisha Elements ifuatayo:
+Kwa mfano, tuseme kwamba tulitaka sehemu ya kiendelezi yenye vipengele $2^3$ (yaani, 8) katika seti. Ingawa kunaweza kuwa na seti nyingi tofauti zinazoweza kutumika kwa sehemu za ukubwa huo, seti moja kama hiyo inajumuisha polynomia zote za kipekee za fomu $a_2x^2 + a_1x + a_0$, ambapo kila mgawo $a_i$ ni 0 au 1. Kwa hivyo, seti hii **S** inajumuisha vipengele vifuatavyo:
 
 1. $0$: Kesi ambapo $a_2 = 0$, $a_1 = 0$, na $a_0 = 0$.
 
@@ -845,7 +845,7 @@ Kwa mfano, tuseme kwamba tulitaka sehemu ya kiendelezi yenye $2^3$ (yaani, 8) El
 
 8. $x^2 + x + 1$: Kesi ambapo $a_2 = 1$, $a_1 = 1$, na $a_0 = 1$.
 
-Kwa hivyo **S** itakuwa seti $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Ni shughuli gani mbili zinazoweza kufafanuliwa juu ya seti hii ya Elements ili kuhakikisha mchanganyiko wao ni uwanja?
+Kwa hivyo **S** itakuwa seti $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$. Ni shughuli gani mbili zinazoweza kufafanuliwa juu ya seti hii ya vipengele ili kuhakikisha mchanganyiko wao ni uwanja?
 
 Operesheni ya kwanza kwenye seti **S** ($\circ$) inaweza kufafanuliwa kama modulo ya kawaida ya polinomia ya kuongeza polinomia. Unachohitajika kufanya ni kuongeza polima kama kawaida, na kisha weka modulo ya 2 kwa kila mgawo wa polimanomia inayotokana. Hapa kuna baadhi ya mifano:
 
@@ -874,9 +874,9 @@ Kwa vile vekta zote katika seti ni za digrii 2 au chini, polimanomia isiyoweza k
 
 Inabadilika kuwa kuna polynomia nyingi zisizoweza kurekebishwa za digrii 3 ambazo tunaweza kutumia kama kigawanyiko chetu. Kila moja ya polima hizi hufafanua sehemu tofauti kwa kushirikiana na seti yetu **S** na modulo ya nyongeza ya 2. Hii inamaanisha kuwa una chaguo nyingi unapotumia sehemu za kiendelezi $2^m$ katika kriptografia.
 
-Kwa mfano wetu, tuseme kwamba tutachagua polynomial $x^3 + x + 1$. Kwa kweli hii haiwezi kupunguzwa, kwa sababu huwezi kuihesabu kwa kutumia nambari kamili. Kwa kuongeza, itahakikisha kwamba kuzidisha yoyote ya Elements mbili kutatoa polynomial ya digrii 2 au chini.
+Kwa mfano wetu, tuseme kwamba tutachagua polynomial $x^3 + x + 1$. Kwa kweli hii haiwezi kupunguzwa, kwa sababu huwezi kuihesabu kwa kutumia nambari kamili. Kwa kuongeza, itahakikisha kwamba kuzidisha yoyote ya vipengele viwili kutatoa polynomial ya digrii 2 au chini.
 
-Wacha tuchunguze mfano wa operesheni ya pili kwa kutumia polynomial $x^3 + x + 1$ kama kigawanyo ili kuonyesha jinsi inavyofanya kazi. Tuseme kwamba unazidisha Elements $x^2 + 1$ na $x^2 + x$ katika seti yetu **S**. Basi, tunahitaji kuhesabu usemi $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Hii inaweza kurahisishwa kama ifuatavyo:
+Wacha tuchunguze mfano wa operesheni ya pili kwa kutumia polynomial $x^3 + x + 1$ kama kigawanyo ili kuonyesha jinsi inavyofanya kazi. Tuseme kwamba unazidisha vipengele $x^2 + 1$ na $x^2 + x$ katika seti yetu **S**. Basi, tunahitaji kuhesabu usemi $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1$. Hii inaweza kurahisishwa kama ifuatavyo:
 
 
 - $[(x^2 + 1) \cdot (x^2 + x)] \mod x^3 + x + 1 =$
@@ -904,31 +904,31 @@ Huenda unashangaa kwa nini $(x^3) - (x^3 + x + 1)$ inatathmini hadi $x + 1$ na s
 
 Ili kujumlisha kuzidisha kwa $x^2 + 1$ na $x^2 + x$: Unapozidisha maneno hayo mawili, unapata digrii 4 polynomial, $x^4 + x^3 + x^2 + x$, ambayo inahitaji kupunguzwa modulo $x^3 + x + 1$. Digrii ya 4 ya polynomial inaweza kugawanywa kwa $x^3 + x + 1$ haswa $x + 1$ mara. Salio baada ya kugawanya $x^4 + x^3 + x^2 + x$ na $x^3 + x + 1$ haswa $x + 1$ mara ni $x + 1$. Hakika hiki ni kipengele katika seti yetu $\{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}$.
 
-Kwa nini sehemu za upanuzi zilizo na msingi 2 juu ya seti za polynomia, kama ilivyo kwenye mfano hapo juu, zinaweza kuwa muhimu kwa usimbaji fiche? Sababu ni kwamba unaweza kuona coefficients katika polynomia za seti kama hizo, ama 0 au 1, kama Elements ya nyuzi za binary zenye urefu fulani. Seti **S** katika mfano wetu hapo juu, kwa mfano, inaweza kutazamwa badala yake kama seti **S** inayojumuisha mifuatano yote ya urefu wa 3 (000 hadi 111). Operesheni kwenye **S**, basi, inaweza pia kutumika kutekeleza shughuli kwenye mifuatano ya binary na kutoa mfuatano wa binary wenye urefu sawa.
+Kwa nini sehemu za upanuzi zilizo na msingi 2 juu ya seti za polynomia, kama ilivyo kwenye mfano hapo juu, zinaweza kuwa muhimu kwa usimbaji fiche? Sababu ni kwamba unaweza kuona coefficients katika polynomia za seti kama hizo, ama 0 au 1, kama vipengele vya nyuzi za binary zenye urefu fulani. Seti **S** katika mfano wetu hapo juu, kwa mfano, inaweza kutazamwa badala yake kama seti **S** inayojumuisha mifuatano yote ya urefu wa 3 (000 hadi 111). Operesheni kwenye **S**, basi, inaweza pia kutumika kutekeleza shughuli kwenye mifuatano ya binary na kutoa mfuatano wa binary wenye urefu sawa.
 
 **Maelezo:**
 
-[2] Sehemu za upanuzi zinakuwa kinyume sana. Badala ya kuwa na Elements ya nambari kamili, wana seti za polynomials. Kwa kuongeza, shughuli zozote zinafanywa modulo baadhi ya polynomial irreducible.
+[2] Sehemu za upanuzi zinakuwa kinyume sana. Badala ya kuwa na vipengele vya nambari kamili, wana seti za polynomials. Kwa kuongeza, shughuli zozote zinafanywa modulo baadhi ya polynomial irreducible.
 
-## Kikemikali algebra katika mazoezi
+## Aljebra dhahania katika mazoezi
 
 <chapterId>ed35b98d-18b4-5790-9911-1078e0f84f92</chapterId>
 
-Licha ya lugha rasmi na mukhtasari wa majadiliano, dhana ya kikundi haipaswi kuwa ngumu kueleweka. Ni seti tu ya Elements pamoja na operesheni ya binary, ambapo utendaji wa operesheni hiyo ya binary kwenye Elements hizo hukutana na masharti manne ya jumla. Kikundi cha Abelian kina hali ya ziada tu inayojulikana kama mawasiliano. Kikundi cha mzunguko, kwa upande wake, ni aina maalum ya kikundi cha Abelian, ambacho kina jenereta. Sehemu ni muundo changamano zaidi kutoka kwa dhana ya msingi ya kikundi.
+Licha ya lugha rasmi na mukhtasari wa majadiliano, dhana ya kikundi haipaswi kuwa ngumu kueleweka. Ni seti tu ya vipengele pamoja na operesheni ya binary, ambapo utendaji wa operesheni hiyo ya binary kwenye vipengele hivyo hukutana na masharti manne ya jumla. Kikundi cha Abelian kina hali ya ziada tu inayojulikana kama mawasiliano. Kikundi cha mzunguko, kwa upande wake, ni aina maalum ya kikundi cha Abelian, ambacho kina jenereta. Sehemu ni muundo changamano zaidi kutoka kwa dhana ya msingi ya kikundi.
 
-Lakini ikiwa wewe ni mtu mwenye mwelekeo kivitendo, unaweza kujiuliza katika hatua hii: Ni nani anayejali? Je, kujua baadhi ya seti ya Elements na opereta ni kikundi, au hata Kiabeli au kikundi cha mzunguko, kuna umuhimu wowote wa ulimwengu? Je, kujua kitu ni shamba?
+Lakini ikiwa wewe ni mtu mwenye mwelekeo kivitendo, unaweza kujiuliza katika hatua hii: Ni nani anayejali? Je, kujua baadhi ya seti ya vipengele na opereta ni kikundi, au hata Kiabeli au kikundi cha mzunguko, kuna umuhimu wowote wa ulimwengu? Je, kujua kitu ni shamba?
 
 Bila kujitosa kwa undani zaidi, jibu ni "ndiyo". Vikundi viliundwa kwa mara ya kwanza katika karne ya 19 na mwanahisabati wa Kifaransa Evariste Galois. Alizitumia kufikia hitimisho kuhusu kusuluhisha milinganyo ya polinomia ya shahada ya juu kuliko tano.
 
 Tangu wakati huo dhana ya kikundi imesaidia kutoa mwanga juu ya matatizo kadhaa katika hisabati na kwingineko. Kwa msingi wao, kwa mfano, mwanafizikia Murray-Gellman aliweza kutabiri kuwepo kwa chembe kabla ya kuzingatiwa katika majaribio. [3] Kwa mfano mwingine, wanakemia hutumia nadharia ya kikundi kuainisha maumbo ya molekuli. Wanahisabati hata wametumia dhana ya kikundi kufanya hitimisho kuhusu kitu halisi kama karatasi ya ukutani!
 
-Kuonyesha kimsingi kuwa seti ya Elements iliyo na opereta fulani ni kikundi, inamaanisha kuwa kile unachokielezea kina ulinganifu fulani. Sio ulinganifu katika maana ya kawaida ya neno, lakini kwa fomu ya kufikirika zaidi. Na hii inaweza kutoa ufahamu mkubwa katika mifumo na matatizo fulani. Mawazo changamano zaidi kutoka kwa aljebra ya kufikirika hutupa tu maelezo ya ziada.
+Kuonyesha kimsingi kuwa seti ya vipengele iliyo na opereta fulani ni kikundi, inamaanisha kuwa kile unachokielezea kina ulinganifu fulani. Sio ulinganifu katika maana ya kawaida ya neno, lakini kwa fomu ya kufikirika zaidi. Na hii inaweza kutoa ufahamu mkubwa katika mifumo na matatizo fulani. Mawazo changamano zaidi kutoka kwa aljebra ya kufikirika hutupa tu maelezo ya ziada.
 
 Muhimu zaidi, utaona umuhimu wa vikundi na sehemu za nadharia ya nambari katika mazoezi kupitia matumizi yao katika kriptografia, haswa ufunguo wa ufunguo wa umma. Tayari tumeona katika mjadala wetu wa nyanja, kwa mfano, jinsi nyanja za ugani zinavyotumika katika Rijndael Cipher. Tutafanyia mfano huo katika *Sura ya 5*.
 
-Kwa majadiliano zaidi kuhusu aljebra ya kufikirika, ningependekeza mfululizo bora wa video kuhusu aljebra ya kufikirika na Socratica. [4] Ningependekeza hasa video zifuatazo: "Abstract algebra ni nini?", "Ufafanuzi wa kikundi (umepanuliwa)", "Ufafanuzi wa pete (umepanuliwa)", na "Ufafanuzi wa shamba (umepanuliwa)." Video hizi nne zitakupa ufahamu wa ziada katika mengi ya majadiliano hapo juu. (Hatukujadili pete, lakini uwanja ni aina maalum ya pete.)
+Kwa majadiliano zaidi kuhusu aljebra ya kufikirika, ningependekeza mfululizo bora wa video kuhusu aljebra ya kufikirika na Socratica. [4] Ningependekeza hasa video zifuatazo: "Aljebra dhahania ni nini?", "Ufafanuzi wa kikundi (umepanuliwa)", "Ufafanuzi wa pete (umepanuliwa)", na "Ufafanuzi wa shamba (umepanuliwa)." Video hizi nne zitakupa ufahamu wa ziada katika mengi ya majadiliano hapo juu. (Hatukujadili pete, lakini uwanja ni aina maalum ya pete.)
 
-Kwa majadiliano zaidi juu ya nadharia ya kisasa ya nambari, unaweza kushauriana na majadiliano mengi ya juu juu ya cryptography. Ningetoa kama mapendekezo Utangulizi wa Jonathan Katz na Yehuda Lindell kwa Uandishi wa Kisasa au Christof Paar na Uelewa wa Cryptography wa Jan Pelzl kwa majadiliano zaidi. [5]
+Kwa majadiliano zaidi juu ya nadharia ya kisasa ya nambari, unaweza kushauriana na majadiliano mengi ya juu juu ya kriptografia. Ningetoa kama mapendekezo Utangulizi wa Jonathan Katz na Yehuda Lindell kwa Uandishi wa Kisasa au Christof Paar na Uelewa wa kriptografia wa Jan Pelzl kwa majadiliano zaidi. [5]
 
 **Maelezo:**
 
@@ -936,9 +936,9 @@ Kwa majadiliano zaidi juu ya nadharia ya kisasa ya nambari, unaweza kushauriana 
 
 [4] Socratica, [Abstract Algebra](https://www.socratica.com/subject/abstract-algebra)
 
-[5] Katz na Lindell, *Utangulizi wa Siri za Kisasa*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar na Pelzl, *Kuelewa Cryptography*, 2010 (Springer-Verlag: Berlin).
+[5] Katz na Lindell, *Utangulizi wa Siri za Kisasa*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar na Pelzl, *Kuelewa kriptografia*, 2010 (Springer-Verlag: Berlin).
 
-# Ulinganifu wa Crystalgraphy
+# Usimbaji fiche wa ulinganifu
 
 <partId>ef768d0e-fe7b-510c-87d6-6febb3de1039</partId>
 
@@ -950,7 +950,7 @@ Mojawapo ya matawi makuu mawili ya kriptografia ni kriptografia linganifu. Inaju
 
 Mjadala mkuu unaanza kwa kuangalia mifumo ya usimbaji fiche linganifu na kufanya tofauti muhimu kati ya siphra za mtiririko na herufi za kuzuia. Basi, tunageukia misimbo ya uthibitishaji wa ujumbe, ambayo ni mipango ya kuhakikisha uadilifu na uhalisi wa ujumbe. Hatimaye, tunachunguza jinsi mifumo linganifu ya usimbaji fiche na misimbo ya uthibitishaji wa ujumbe inaweza kuunganishwa ili kuhakikisha mawasiliano salama.
 
-Sura hii inajadili mifumo mbalimbali ya kriptografia linganifu kutoka kwa mazoezi katika kupita. Sura inayofuata inatoa ufafanuzi wa kina wa usimbaji fiche kwa kutumia msimbo wa mtiririko na msimbo wa kuzuia kutoka kwa mazoezi, yaani RC4 na AES mtawalia.
+Sura hii inajadili mifumo mbalimbali ya kriptografia linganifu kutoka kwa mazoezi katika kupita. Sura inayofuata inatoa ufafanuzi wa kina wa usimbaji fiche kwa kutumia msimbo wa mtiririko na msimbo wa kizuizi kutoka kwa mazoezi, yaani RC4 na AES mtawalia.
 
 Kabla ya kuanza mjadala wetu juu ya ulinganifu wa kriptografia, ninataka kutoa maoni kwa ufupi juu ya vielelezo vya Alice na Bob katika sura hii na inayofuata.
 
@@ -1030,13 +1030,13 @@ Tuseme kamusi *D* inayosawazisha herufi zote za alfabeti ya Kiingereza, kwa mpan
     - Badilisha kila $m_i$ kuwa herufi kulingana na *D*
     - Kisha unganisha $m_0, m_1,\dots, m_l$ ili kutoa ujumbe asili $m$
 
-Kinachofanya shift cipher kuwa mpango wa usimbaji fiche linganifu ni kwamba ufunguo sawa hutumiwa kwa usimbaji fiche na mchakato wa kusimbua. Kwa mfano, tuseme kwamba unataka kusimba ujumbe "MBWA" kwa njia fiche kwa kutumia shift cipher, na kwamba umechagua "24" kama ufunguo bila mpangilio. Kusimba ujumbe kwa ufunguo huu kunaweza kutoa "BME". Njia pekee ya kurejesha ujumbe asili ni kwa kutumia ufunguo sawa, "24", kwa mchakato wa usimbuaji.
+Kinachofanya shift cipher kuwa mpango wa usimbaji fiche wa ulinganifu ni kwamba ufunguo uleule hutumiwa kwa usimbaji fiche na mchakato wa kusimbua. Kwa mfano, tuseme kwamba unataka kusimba ujumbe "MBWA" kwa njia fiche kwa kutumia shift cipher, na kwamba umechagua "24" kama ufunguo bila mpangilio. Kusimba ujumbe kwa ufunguo huu kunaweza kutoa "BME". Njia pekee ya kurejesha ujumbe asili ni kwa kutumia ufunguo sawa, "24", kwa mchakato wa usimbuaji.
 
-Hii Shift cipher ni mfano wa **cipher monoalfabeti badala ya cipher**: mpango wa usimbaji fiche ambapo alfabeti ya maandishi ya sifumbo imerekebishwa (yaani, alfabeti moja pekee inatumiwa). Kwa kuchukulia kwamba algoriti ya usimbaji fiche ni ya kubainisha, kila kirai katika matini mbadala inaweza kuhusisha zaidi ishara moja katika maandishi wazi.
+Shift cipher ni mfano wa **cipher ya ubadilishanaji wa monoalfabeti**: mpango wa usimbaji fiche ambapo alfabeti ya maandishi ya sifumbo imerekebishwa (yaani, alfabeti moja pekee inatumiwa). Kwa kuchukulia kwamba algoriti ya usimbaji fiche ni ya kubainisha, kila kirai katika matini mbadala inaweza kuhusisha zaidi ishara moja katika maandishi wazi.
 
 Hadi miaka ya 1700, utumizi mwingi wa usimbaji fiche uliegemea pakubwa sipheri mbadala za alfabeti, ingawa mara nyingi hizi zilikuwa ngumu zaidi kuliko Shift cipher. Unaweza, kwa mfano, kuchagua herufi kwa nasibu kutoka kwa alfabeti kwa kila herufi asilia chini ya kikwazo kwamba kila herufi hutokea mara moja tu katika alfabeti ya maandishi ya siri. Hiyo inamaanisha kuwa utakuwa na funguo 26 za kibinafsi zinazowezekana, ambazo zilikuwa kubwa katika enzi ya kompyuta ya awali.
 
-Kumbuka kuwa utakutana na neno **cipher** sana katika usimbaji fiche. Fahamu kuwa neno hili lina maana mbalimbali. Kwa kweli, ninajua angalau maana tano tofauti za neno hilo ndani ya cryptography.
+Kumbuka kuwa utakutana na neno **cipher** sana katika usimbaji fiche. Fahamu kuwa neno hili lina maana mbalimbali. Kwa kweli, ninajua angalau maana tano tofauti za neno hilo ndani ya kriptografia.
 
 Katika baadhi ya matukio inarejelea mpango wa usimbaji fiche, kama inavyofanya bitcipher na monoalfabeti badala ya cipher. Hata hivyo, neno hili pia linaweza kurejelea mahususi algoriti ya usimbaji, ufunguo wa faragha, au maandishi ya siri ya mpango wowote kama huo wa usimbaji.
 
@@ -1056,7 +1056,7 @@ Ili kuhisi ukubwa wa nafasi muhimu katika mifumo ya kisasa ya usimbaji fiche, tu
 
 Tuseme tunadhania kwamba mshambulizi anaweza kujaribu vitufe vya $10^{16}$ kwa sekunde (yaani, funguo za quadrillion 10 kwa sekunde). Ili kujaribu 0.78% ya funguo zote katika nafasi muhimu, shambulio lake lingedumu $2.65 \mara 10^{20}$ sekunde. Hii ni takriban miaka trilioni 8.4. Kwa hivyo hata shambulio la nguvu la kikatili na adui mwenye nguvu isiyo na maana sio kweli na mpango wa kisasa wa usimbuaji wa 128-bit. Hii ndiyo kanuni ya kutosha ya nafasi muhimu inayotumika.
 
-Je, msimbo wa kuhama ni salama zaidi ikiwa mshambuliaji hajui algoriti ya usimbaji fiche? Labda, lakini sio sana.
+Je, msimbo wa kuhamisha ni salama zaidi ikiwa mshambuliaji hajui algoriti ya usimbaji fiche? Labda, lakini sio sana.
 
 Kwa hali yoyote, kriptografia ya kisasa, daima inadhani kuwa usalama wa mpango wowote wa usimbaji fiche unategemea tu kuweka siri ya ufunguo wa kibinafsi. Mshambulizi daima huchukuliwa kuwa anajua maelezo mengine yote, ikiwa ni pamoja na nafasi ya ujumbe, nafasi muhimu, nafasi ya maandishi ya siri, algoriti ya uteuzi muhimu, algoriti ya usimbaji fiche, na algoriti ya usimbuaji.
 
@@ -1064,7 +1064,7 @@ Wazo kwamba usalama wa mpango wa usimbaji fiche linganifu unaweza tu kutegemea u
 
 Kama ilivyokusudiwa awali na Kerckhoffs, kanuni hiyo inatumika tu kwa mipango ya usimbaji linganifu. Toleo la jumla zaidi la kanuni hiyo, hata hivyo, linatumika pia kwa aina nyingine zote za kisasa za mifumo ya kriptografia: Muundo wowote wa mpango wa kriptografia haufai kuhitajika kuwa siri ili uwe salama; usiri unaweza kuenea tu kwa baadhi ya mifuatano ya habari, kwa kawaida ufunguo wa faragha.
 
-Kanuni ya Kerckhoffs ni muhimu kwa cryptography ya kisasa kwa sababu nne. [2] Kwanza, kuna idadi ndogo tu ya mipango ya kriptografia kwa aina fulani za programu. Kwa mfano, programu nyingi za kisasa za usimbaji linganifu hutumia misimbo ya Rijndael. Kwa hivyo usiri wako kuhusu muundo wa mpango ni mdogo sana. Kuna, hata hivyo, kubadilika zaidi katika kutunza ufunguo fulani wa faragha kwa siri ya siri ya Rijndael.
+Kanuni ya Kerckhoffs ni muhimu kwa kriptografia ya kisasa kwa sababu nne. [2] Kwanza, kuna idadi ndogo tu ya mipango ya kriptografia kwa aina fulani za programu. Kwa mfano, programu nyingi za kisasa za usimbaji linganifu hutumia misimbo ya Rijndael. Kwa hivyo usiri wako kuhusu muundo wa mpango ni mdogo sana. Kuna, hata hivyo, kubadilika zaidi katika kutunza ufunguo fulani wa faragha kwa siri ya siri ya Rijndael.
 
 Pili, ni rahisi kuchukua nafasi ya safu fulani ya habari kuliko mpango mzima wa kriptografia. Tuseme kwamba wafanyakazi wa kampuni wote wana programu sawa ya usimbaji fiche, na kwamba kila wafanyakazi wawili wana ufunguo wa faragha wa kuwasiliana kwa siri. Maelewano muhimu ni shida katika hali hii, lakini angalau kampuni inaweza kuweka programu na ukiukaji kama huo wa usalama. Ikiwa kampuni ilikuwa inategemea usiri wa mpango huo, basi uvunjaji wowote wa usiri huo ungehitaji kuchukua nafasi ya programu zote.
 
@@ -1090,9 +1090,9 @@ Ingawa hatutachunguza maelezo yote ya dhana mbalimbali za usalama wa kriptografi
 
 [2] Jonathan Katz na Yehuda Lindell, _Utangulizi wa Siri ya Kisasa_, CRC Press (Boca Raton, FL: 2015), p. 7f.
 
-[3] Eric Raymond, "The Cathedral and the Bazaar," karatasi iliwasilishwa katika Linux Kongress, Würzburg, Ujerumani (Mei 27, 1997). Kuna idadi ya matoleo yanayofuata yanayopatikana pamoja na kitabu. Manukuu yangu yametoka ukurasa wa 30 katika kitabu: Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux na Open Source by an Accident Revolution_, iliyorekebishwa edn. (2001), O'Reilly: Sebastopol, CA.
+[3] Eric Raymond, "The Cathedral and the Bazaar," karatasi iliwasilishwa katika Linux Kongress, Würzburg, Ujerumani (Mei 27, 1997). Kuna idadi ya matoleo yanayofuata yanayopatikana pamoja na kitabu. Manukuu yangu yametoka ukurasa wa 30 katika kitabu: Eric Raymond, _The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accident Revolution_, iliyorekebishwa edn. (2001), O'Reilly: Sebastopol, CA.
 
-## Tiririsha misimbo
+## Cipher ya mtiririko
 
 <chapterId>479aa6f4-45c4-59ca-8616-8cf8e61fc871</chapterId>
 
@@ -1102,9 +1102,9 @@ Hebu tugeukie kwanza kwa mtiririko wa ciphers. **cipher ya mtiririko** ni mpango
 
 Kwanza, mfuatano wa urefu wa maandishi wazi hutolewa kupitia ufunguo wa kibinafsi. Kamba hii inaitwa ** keystream **.
 
-Ifuatayo, mkondo wa ufunguo huunganishwa kihisabati na maandishi wazi ili kutoa maandishi ya siri. Mchanganyiko huu kawaida ni operesheni ya XOR. Kwa usimbuaji, unaweza tu kubadili operesheni. (Kumbuka kwamba $A \oplus B = B \plus A$, katika kesi $A$ na $B$ ni mifuatano midogo. Kwa hivyo mpangilio wa utendakazi wa XOR katika msimbo wa mtiririko haujalishi kwa matokeo. Sifa hii inajulikana kama **commutativity**.)
+Ifuatayo, mkondo wa ufunguo huunganishwa kihisabati na maandishi wazi ili kutoa maandishi ya siri. Mchanganyiko huu kawaida ni operesheni ya XOR. Kwa usimbuaji, unaweza tu kubadili operesheni. (Kumbuka kwamba $A \oplus B = B \plus A$, katika kesi $A$ na $B$ ni mifuatano midogo. Kwa hivyo mpangilio wa operesheni ya XOR katika msimbo wa mtiririko haujalishi kwa matokeo. Sifa hii inajulikana kama **commutativity**.)
 
-Sifa ya kawaida ya mtiririko wa XOR inaonyeshwa kwenye *Mchoro 3*. Kwanza unachukua ufunguo wa faragha $K$ na kuutumia kwa generate mkondo wa ufunguo. Mtiririko wa ufunguo, basi, umejumuishwa na maandishi wazi kupitia operesheni ya XOR kutoa maandishi ya siri. Wakala yeyote anayepokea maandishi ya siri anaweza kusimbua kwa urahisi ikiwa ana ufunguo $K$. Anachohitaji kufanya ni kuunda mkondo wa ufunguo mradi tu maandishi ya siri kulingana na utaratibu uliobainishwa wa mpango na XOR kwa maandishi ya siri.
+Sifa ya kawaida ya cipher ya mtiririko wa XOR inaonyeshwa kwenye *Mchoro 3*. Kwanza unachukua ufunguo wa faragha $K$ na kuutumia kwa generate mkondo wa ufunguo. Mtiririko wa ufunguo, basi, umejumuishwa na maandishi wazi kupitia operesheni ya XOR kutoa maandishi ya siri. Wakala yeyote anayepokea maandishi ya siri anaweza kusimbua kwa urahisi ikiwa ana ufunguo $K$. Anachohitaji kufanya ni kuunda mkondo wa ufunguo mradi tu maandishi ya siri kulingana na utaratibu uliobainishwa wa mpango na XOR kwa maandishi ya siri.
 
 *Kielelezo cha 3: Sifa ya mkondo wa XOR*
 
@@ -1144,9 +1144,9 @@ Ili kutoa mfano, tuseme ufunguo wako wa faragha ni "DHAHABU" na unataka kusimba 
 - $c_{10} = [(7 + 11) \mod 26] = 18 = S$
 - $c_{11} = [(24 + 3) \mod 26] = 1 = B$
 
-Kwa hivyo, maandishi ya maandishi $c$ = "IFJSZCRUGDSB".
+Kwa hivyo, maandishi ya $c$ = "IFJSZCRUGDSB".
 
-Mfano mwingine maarufu wa msimbo wa mtiririko ni **pedi ya wakati mmoja**. Ukiwa na pedi ya wakati mmoja, unaunda tu mfuatano wa biti nasibu mradi tu ujumbe wa maandishi wazi na utoe maandishi ya siri kupitia utendakazi wa XOR. Kwa hivyo, ufunguo wa faragha na mkondo wa ufunguo ni sawa na pedi ya wakati mmoja.
+Mfano mwingine maarufu wa msimbo wa mtiririko ni **pedi ya wakati mmoja**. Ukiwa na pedi ya wakati mmoja, unaunda tu mfuatano wa biti nasibu mradi tu ujumbe wa maandishi wazi na utoe maandishi ya siri kupitia operesheni ya XOR. Kwa hivyo, ufunguo wa faragha na mkondo wa ufunguo ni sawa na pedi ya wakati mmoja.
 
 Wakati sipheri za Shift na Vigenere cipher hazina usalama sana katika enzi ya kisasa, pedi ya wakati mmoja ni salama sana ikiwa inatumiwa kwa usahihi. Pengine matumizi maarufu zaidi ya pedi ya wakati mmoja ilikuwa, angalau hadi miaka ya 1980, kwa simu ya simu ya **Washington-Moscow **. [4]
 
@@ -1156,7 +1156,7 @@ Kwa asili, mpango wa pedi wa wakati mmoja ulifanya kazi kama ifuatavyo. Washingt
 
 Washington na Moscow, basi, ziliweza kuwasiliana kwa siri kwa kutumia nambari hizi za nasibu kwa kuunda pedi za wakati mmoja. Kila wakati ulipohitaji kuwasiliana, ungetumia sehemu inayofuata ya nambari nasibu kwa ujumbe wako.
 
-Ingawa ni salama sana, pedi ya mara moja inakabiliwa na vikwazo muhimu vya kiutendaji: ufunguo unahitaji kuwa mrefu kama ujumbe na hakuna sehemu ya pedi ya wakati mmoja inayoweza kutumika tena. Hii ina maana kwamba unahitaji kufuatilia ulipo kwenye pedi ya wakati mmoja, kuhifadhi idadi kubwa ya biti, na bits za Exchange nasibu na wenzako mara kwa mara. Kwa hivyo, pedi ya wakati mmoja haitumiwi mara kwa mara katika mazoezi.
+Ingawa ni salama sana, one-time pad inakabiliwa na vikwazo vikubwa vya kiutendaji: ufunguo unahitaji kuwa mrefu kama ujumbe na hakuna sehemu ya pedi ya wakati mmoja inayoweza kutumika tena. Hii ina maana kwamba unahitaji kufuatilia ulipo kwenye pedi ya wakati mmoja, kuhifadhi idadi kubwa ya biti, na bits za Exchange nasibu na wenzako mara kwa mara. Kwa hivyo, pedi ya wakati mmoja haitumiwi mara kwa mara katika mazoezi.
 
 Badala yake, misimbo kuu ya mtiririko inayotumiwa katika mazoezi ni **cipheri za mtiririko bandia**. Salsa20 na lahaja inayohusiana kwa karibu inayoitwa ChaCha ni mifano ya misimbo ya mkondo ya uwongo inayotumika sana.
 
@@ -1170,7 +1170,7 @@ Kwa vile ufunguo wetu wa faragha ni mfupi kuliko mkondo muhimu na kanuni zetu za
 
 Tuseme, kwa mfano, kwamba ufunguo wetu wa faragha una urefu wa biti 128 na kwamba tunaweza kuuingiza kwenye algoriti ya upanuzi ili kuunda mkondo wa ufunguo mrefu zaidi, tuseme biti 2,500. Kwa vile algoriti yetu ya upanuzi inahitaji kubainishwa, algoriti yetu inaweza angalau kuchagua $1/2^{128}$ masharti yenye urefu wa biti 2,500. Kwa hivyo mtiririko wa ufunguo kama huo haungeweza kuchaguliwa kwa nasibu kabisa kutoka kwa kamba zote za urefu sawa.
 
-Ufafanuzi wetu wa msimbo wa mtiririko una vipengele viwili: (1) mkondo muhimu mradi tu maandishi wazi yanatolewa kwa usaidizi wa ufunguo wa faragha; na (2) mkondo huu muhimu umeunganishwa na maandishi wazi, kwa kawaida kupitia utendakazi wa XOR, ili kutoa maandishi ya siri.
+Ufafanuzi wetu wa msimbo wa mtiririko una vipengele viwili: (1) mkondo muhimu mradi tu maandishi wazi yanatolewa kwa usaidizi wa ufunguo wa faragha; na (2) mkondo huu muhimu umeunganishwa na maandishi wazi, kwa kawaida kupitia operesheni ya XOR, ili kutoa maandishi ya siri.
 
 Wakati mwingine watu hufafanua sharti (1) kwa ukali zaidi, kwa kudai kwamba mkondo wa ufunguo lazima hasa uwe uwongo. Hii ina maana kwamba si siphero ya shift, wala pedi ya wakati mmoja haitachukuliwa kuwa misimbo ya mtiririko.
 
@@ -1180,21 +1180,21 @@ Kwa maoni yangu, kufafanua hali (1) kwa upana zaidi hutoa njia rahisi ya kupanga
 
 [4] Crypto Museum, "Washington-Moscow hotline," 2013, inapatikana katika [https://www.cryptomuseum.com/crypto/hotline/index.htm](https://www.cryptomuseum.com/crypto/hotline/index.htm).
 
-## Zuia misimbo
+## Cipher za kizuizi
 
 <chapterId>2df52d51-943d-5df7-9d49-333e4c5d97b7</chapterId>
 
-Njia ya kwanza ambayo **block cipher** inaeleweka kwa kawaida ni kama kitu cha awali zaidi kuliko cipher mtiririko: Kanuni ya msingi ambayo hufanya mabadiliko ya kuhifadhi urefu kwenye mfuatano wa urefu unaofaa kwa usaidizi wa ufunguo. Algorithm hii inaweza kutumika kuunda mifumo ya usimbaji fiche na labda aina zingine za mifumo ya kriptografia.
+Njia ya kwanza ambayo **block cipher** inaeleweka kwa kawaida ni kama kitu cha awali zaidi kuliko cipher ya mtiririko: Kanuni ya msingi ambayo hufanya mabadiliko ya kuhifadhi urefu kwenye mfuatano wa urefu unaofaa kwa usaidizi wa ufunguo. Algorithm hii inaweza kutumika kuunda mifumo ya usimbaji fiche na labda aina zingine za mifumo ya kriptografia.
 
 Mara kwa mara, block cipher inaweza kuchukua mifuatano ya ingizo ya urefu tofauti kama vile biti 64, 128, au 256, pamoja na vitufe vya urefu tofauti kama vile biti 128, 192 au 256. Ingawa baadhi ya maelezo ya algorithm yanaweza kubadilika kulingana na vigezo hivi, kanuni ya msingi haibadiliki. Ikiwa ilifanya hivyo, tungezungumza juu ya herufi mbili tofauti za block. Kumbuka kuwa matumizi ya istilahi ya msingi ya algorithm hapa ni sawa na ya mifumo ya usimbaji fiche.
 
 Taswira ya jinsi block cipher inavyofanya kazi inaweza kuonekana kwenye *Mchoro 4* hapa chini. Ujumbe $M$ wa urefu wa $L$ na ufunguo $K$ hutumika kama maingizo kwenye Cipher ya Block. Inatoa ujumbe $M'$ wa urefu $L$. Ufunguo hauhitaji kuwa na urefu sawa na $M$ na $M'$ kwa misimbo mingi ya kuzuia.
 
-*Kielelezo 4: Sifa ya block*
+*Kielelezo 4: Cipher ya kizuizi*
 
 ![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
-Cipher block peke yake sio mpango wa usimbaji fiche. Lakini block cipher inaweza kutumika pamoja na **njia mbalimbali za utendakazi** ili kutoa mifumo tofauti ya usimbaji fiche. Njia ya utendakazi huongeza tu shughuli zingine za ziada nje ya msimbo wa kuzuia.
+Cipher block peke yake sio mpango wa usimbaji fiche. Lakini block cipher inaweza kutumika pamoja na **njia mbalimbali za operesheni** ili kutoa mifumo tofauti ya usimbaji fiche. Njia ya operesheni huongeza tu shughuli zingine za ziada nje ya msimbo wa kuzuia.
 
 Ili kuonyesha jinsi hii inavyofanya kazi, tuseme block cipher (BC) ambayo inahitaji mfuatano wa 128-bit na ufunguo wa faragha wa 128-bit. Kielelezo cha 5 hapa chini kinaonyesha jinsi msimbo huo wa kuzuia unaweza kutumika na **modi ya kitabu cha msimbo wa kielektroniki** (**Modi ya ECB**) ili kuunda mpango wa usimbaji fiche. (Duaradufu upande wa kulia zinaonyesha kuwa unaweza kurudia muundo huu mradi tu inahitajika).
 
@@ -1260,7 +1260,7 @@ Sifa ya block ya AES itaelezwa kwa kina katika *Sura ya 5*.
 
 <chapterId>121c1858-27e3-5862-b0ce-4ff2f70f9f0f</chapterId>
 
-Mkanganyiko kuhusu tofauti kati ya herufi block na cipher mtiririko hutokea kwa sababu wakati mwingine watu wataelewa neno block cipher kama likirejelea haswa *block cipher yenye njia ya block ya usimbaji fiche*.
+Mkanganyiko kuhusu tofauti kati ya block cipher na cipher mtiririko hutokea kwa sababu wakati mwingine watu huelewa neno block cipher kama likirejelea haswa *block cipher yenye njia ya block ya usimbaji fiche*.
 
 Zingatia aina za ECB na CBC katika sehemu iliyotangulia. Hizi zinahitaji haswa data ili usimbaji fiche iweze kugawanywa na saizi ya kizuizi (ikimaanisha unaweza kutumia pedi kwa ujumbe asili). Kwa kuongeza, data katika njia hizi pia inaendeshwa na block cipher moja kwa moja (na sio tu kuunganishwa na matokeo ya operesheni ya kuzuia cipher kama katika hali ya OFB).
 
@@ -1276,7 +1276,7 @@ Ingawa unaweza kuunda msimbo wa mtiririko kwa urahisi kutoka kwa block cipher, k
 
 Kutokana na mjadala huu, sasa unapaswa kuelewa *Kielelezo 8*. Inatoa muhtasari wa mipango ya usimbaji fiche linganifu. Tunatumia aina tatu za mbinu za usimbaji fiche: herufi za mtiririko wa awali, misimbo ya nyuma ya mtiririko wa misimbo, na kuzuia misimbo katika hali ya kuzuia (pia huitwa "block ciphers" kwenye mchoro).
 
-*Kielelezo cha 8: Muhtasari wa mifumo ya usimbaji linganifu*
+*Kielelezo cha 8: Muhtasari wa mifumo ya usimbaji fiche wa ulinganifu*
 
 ![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
@@ -1284,7 +1284,7 @@ Kutokana na mjadala huu, sasa unapaswa kuelewa *Kielelezo 8*. Inatoa muhtasari w
 
 <chapterId>19fa7c00-db59-56a0-9654-5350a137939d</chapterId>
 
-Usimbaji fiche unahusika na usiri. Lakini cryptography pia inahusika na mada pana, kama vile uadilifu wa ujumbe, uhalisi, na kutokataa. Inayoitwa **misimbo ya uthibitishaji wa ujumbe** (MACs) ni miundo muhimu ya kriptografia linganifu ambayo inasaidia uhalali na uadilifu katika mawasiliano.
+Usimbaji fiche unahusika na usiri. Lakini kriptografia pia inahusika na mada pana, kama vile uadilifu wa ujumbe, uhalisi, na kutokataa. Inayoitwa **misimbo ya uthibitishaji wa ujumbe** (MACs) ni miundo muhimu ya kriptografia linganifu ambayo inasaidia uhalali na uadilifu katika mawasiliano.
 
 Kwa nini ni kitu chochote, lakini usiri unahitajika katika mawasiliano? Tuseme kwamba Bob anamtumia Alice ujumbe kwa kutumia usimbaji fiche usioweza kuvunjika. Mshambulizi yeyote anayekatiza ujumbe huu hataweza kujua maarifa yoyote muhimu kuhusu yaliyomo. Walakini, mshambuliaji bado ana angalau vekta zingine mbili za uvamizi zinazopatikana kwake:
 
@@ -1300,11 +1300,11 @@ Bob na Alice wanaweza kukabiliana na upotoshaji wa ujumbe fulani kwa kutumia MAC
 
 Mchakato umeonyeshwa kwenye *Kielelezo 9*. Ili kutumia **MAC** (Msimbo wa Uthibitishaji wa Ujumbe), wangetumia kwanza generate ufunguo wa faragha $K$ ambao unashirikiwa kati yao wawili. Bob huunda lebo $T$ kwa ujumbe kwa kutumia ufunguo wa faragha $K$. Kisha anatuma ujumbe huo pamoja na tag ya ujumbe kwa Alice. Kisha anaweza kuthibitisha kwamba Bob ndiye aliyetengeneza lebo hiyo, kwa kutumia ufunguo wa faragha, ujumbe, na lebo kupitia kanuni ya uthibitishaji.
 
-*Kielelezo cha 9: Muhtasari wa mifumo ya usimbaji linganifu*
+*Kielelezo cha 9: Muhtasari wa mifumo ya usimbaji fiche wa ulinganifu*
 
 ![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
-Kwa sababu ya **kutoweza kusamehewa**, mshambuliaji hawezi kubadilisha ujumbe $M$ kwa njia yoyote au kuunda ujumbe wake mwenyewe kwa kutumia lebo halali. Hii ni hivyo, hata kama mshambuliaji atatazama lebo za jumbe nyingi kati ya Bob na Alice zinazotumia ufunguo sawa wa faragha. Mara nyingi, mshambuliaji anaweza kumzuia Alice kupokea ujumbe $M$ (tatizo ambalo kriptografia haiwezi Address).
+Kwa sababu ya **kutoweza kusamehewa**, mshambuliaji hawezi kubadilisha ujumbe $M$ kwa njia yoyote au kuunda ujumbe wake mwenyewe kwa kutumia lebo halali. Hii ni hivyo, hata kama mshambuliaji atatazama lebo za jumbe nyingi kati ya Bob na Alice zinazotumia ufunguo sawa wa faragha. Mara nyingi, mshambuliaji anaweza kumzuia Alice kupokea ujumbe $M$ (tatizo ambalo kriptografia haiwezi shughulikia).
 
 MAC inahakikisha kwamba ujumbe uliundwa na Bob. Uhalisi huu, moja kwa moja unamaanisha uadilifu wa ujumbe-yaani, ikiwa Bob ameunda baadhi ya ujumbe, basi, ipso facto, haukubadilishwa kwa njia yoyote na mshambuliaji. Kwa hivyo kuanzia hapa na kuendelea, wasiwasi wowote wa uthibitishaji unapaswa kueleweka kiotomatiki kuashiria wasiwasi wa uadilifu.
 
@@ -1332,7 +1332,7 @@ Mpango wa usimbaji ulioidhinishwa umeonyeshwa kwenye *Mchoro 10*. Bob kwanza huu
 
 Sasa Alice anakagua kwanza ikiwa lebo hiyo ni halali kwa kuzingatia maandishi ya siri $C$ na ufunguo $K_T$. Ikiwa ni halali, basi anaweza kusimbua ujumbe kwa kutumia kitufe cha $K_C$. Sio tu kwamba anahakikishiwa dhana kali sana ya usiri katika mawasiliano yao, lakini pia anajua ujumbe uliundwa na Bob.
 
-*Kielelezo 10: Mpango wa usimbaji uliothibitishwa*
+*Kielelezo 10: Mpango wa usimbaji fiche uliothibitishwa*
 
 ![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
@@ -1342,7 +1342,7 @@ Tutaanzisha vitendaji vya kriptografia Hash kwa kina zaidi katika *Sura ya 6*. K
 
 Aina ya kawaida ya lebo inayozalishwa kwa njia ya kriptografia ya Hash ni msimbo wa uthibitishaji wa ujumbe unaotegemea **Hash** (HMAC). Mchakato umeonyeshwa kwenye *Mchoro 11*. Sherehe hutoa vitufe viwili tofauti kutoka kwa ufunguo wa faragha $K$, ufunguo wa ndani $K_1$ na ufunguo wa nje $K_2$. Maandishi ya wazi $M$ au maandishi ya siri $C$ basi huharakishwa pamoja na ufunguo wa ndani. Matokeo $T'$ basi huharakishwa kwa ufunguo wa nje ili kutoa lebo ya ujumbe $T$.
 
-Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kukokotoa za Hash zinazotumika zaidi ni SHA-256.
+Kuna palette ya funsi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kukokotoa za Hash zinazotumika zaidi ni SHA-256.
 
 *Kielelezo 11: HMAC*
 
@@ -1354,7 +1354,7 @@ Kuna palette ya kazi za Hash ambazo zinaweza kutumika kuunda HMAC. Chaguo za kuk
 
 [8] Kitaalamu, ufafanuzi wa mashambulio yaliyochaguliwa ya maandishi ya misimbo ni tofauti na dhana ya kutoweza kuharibika. Lakini unaweza kuonyesha kwamba dhana hizo mbili za usalama ni sawa.
 
-## Salama vikao vya mawasiliano
+## Vikao salama vya mawasiliano
 
 <chapterId>c7f7dcd3-bbed-53ed-a43d-039da0f180c5</chapterId>
 
@@ -1514,7 +1514,7 @@ Mfano ambao tumeujadili hivi punde ni toleo lisilo na maji la **RC4 mkondo wa ci
 
 Cipher ya mtiririko ambayo mtiririko muhimu husasisha bila kutegemea ujumbe wa maandishi wazi au maandishi ya siri ni **cipher ya mtiririko inayosawazishwa**. Mkondo wa ufunguo unategemea tu ufunguo. Ni wazi kwamba RC4 ni mfano wa msimbo wa mtiririko unaosawazisha, kwa kuwa mkondo wa ufunguo hauna uhusiano na maandishi wazi au maandishi ya siri. Sifa zetu zote za mtiririko za awali zilizotajwa katika sura iliyotangulia, ikijumuisha sipher ya shift, sifa ya Vigenère, na pedi ya wakati mmoja, pia zilikuwa za aina zinazolingana.
 
-Kinyume chake, **cipher ya mkondo isiyolingana** ina mkondo wa ufunguo ambao unatolewa na ufunguo na awali wa Elements wa maandishi ya siri. Aina hii ya cipher pia inaitwa **sifa inayojisawazisha**.
+Kinyume chake, **cipher ya mkondo isiyolingana** ina mkondo wa ufunguo ambao unatolewa na ufunguo na awali wa vipengele vya maandishi ya siri. Aina hii ya cipher pia inaitwa **sifa inayojisawazisha**.
 
 Muhimu, mkondo wa ufunguo unaozalishwa na RC4 unapaswa kushughulikiwa kama pedi ya mara moja, na huwezi kutoa mtiririko wa vitufe kwa njia sawa kabisa wakati ujao. Badala ya kubadilisha ufunguo kila wakati, suluhu ya vitendo ni kuchanganya ufunguo na **Nonce** ili kutoa mkondo wa kati.
 
@@ -1620,7 +1620,7 @@ Pili, operesheni ya **Byte badala** inafanywa kwa hali ya sasa ya $S$. Inafanya 
 
 | F0 | 8C | A1 | 89 | 0D | BF | E6 | 42 | 68 | 41 | 99 | 2D | 0F | B0 | 54 | BB | 16 |
 
-S-Box hii ni sehemu moja ambapo aljebra dhahania inatumika katika misimbo ya Rijndael, haswa **Nga za Galois**.
+S-Box hii ni sehemu moja ambapo aljebra dhahania inatumika katika misimbo ya Rijndael, haswa **uwanja wa Galois**.
 
 Kuanza, unafafanua kila kipengele cha baiti 00 kupitia FF kama vekta 8-bit. Kila vekta kama hii ni kipengele cha **uga wa Galois GF(2^8)** ambapo polimanomia isiyoweza kurekebishwa kwa uendeshaji wa modulo ni $x^8 + x^4 + x^3 + x + 1$. Sehemu ya Galois iliyo na maelezo haya pia inaitwa **Uga wa Rijndael Finite**.
 
@@ -1702,7 +1702,7 @@ Raundi ya 2 hadi 9 ni marudio tu ya raundi ya 1, *mutatis mutandis*. Raundi ya m
 
 Hali $S_{10}$ sasa imewekwa kuwa $C_1$, biti 128 za kwanza za maandishi ya siri. Kuendelea kupitia vizuizi vya maandishi 128-bit vilivyosalia kunatoa maandishi kamili ya siri **C**.
 
-### Shughuli za msimbo wa Rijndael
+### Operesheni za msimbo wa Rijndael
 
 Je, ni hoja gani nyuma ya shughuli tofauti zinazoonekana katika misimbo ya Rijndael?
 
@@ -1720,7 +1720,7 @@ Sababu ya utendakazi nyuma ya misimbo ya Rijndael ni kwamba hutoa kiwango cha ju
 
 Kama ilivyo kwa kriptografia linganifu, mifumo isiyolinganishwa inaweza kutumika ili kuhakikisha usiri na uthibitishaji. Kwa kulinganisha, hata hivyo, mipango hii hutumia funguo mbili badala ya moja: ufunguo wa kibinafsi na wa umma.
 
-Tunaanza uchunguzi wetu kwa ugunduzi wa kriptografia isiyolinganishwa, haswa matatizo ambayo yalichochea. Ifuatayo, tunajadili jinsi mipango ya asymmetric ya usimbaji fiche na uthibitishaji inavyofanya kazi kwa kiwango cha juu. Basi, tunatanguliza utendakazi wa Hash, ambazo ni muhimu katika kuelewa mipango ya uthibitishaji linganifu, na pia zina umuhimu katika miktadha mingine ya kriptografia, kama vile misimbo ya uthibitishaji ya ujumbe unaotegemea Hash tuliyojadili katika Sura ya 4.
+Tunaanza uchunguzi wetu kwa ugunduzi wa kriptografia isiyolinganishwa, haswa matatizo ambayo yalichochea. Ifuatayo, tunajadili jinsi mipango ya kriptografia isiyolinganishwa ya usimbaji fiche na uthibitishaji inavyofanya kazi kwa kiwango cha juu. Basi, tunatanguliza operesheni ya Hash, ambayo ni muhimu katika kuelewa mipango ya uthibitishaji linganifu, na pia zina umuhimu katika miktadha mingine ya kriptografia, kama vile misimbo ya uthibitishaji ya ujumbe unaotegemea Hash tuliyojadili katika Sura ya 4.
 
 ___
 
@@ -1740,9 +1740,9 @@ Vinginevyo, Bidhaa za Michezo za Jim zinaweza kumtumia Bob jozi ya funguo na mju
 
 Kisha, mpango wa ulinganifu wa usimbaji fiche ulioidhinishwa pia hulazimisha Bidhaa za Michezo za Jim kuhifadhi seti tofauti za funguo kwa wateja wao wote. Hii itakuwa changamoto kubwa ya vitendo kwa maelfu ya wateja, achilia mbali mamilioni.
 
-Ili kuelewa hatua hii ya mwisho, tuseme Bidhaa za Michezo za Jim humpa kila mteja jozi sawa ya funguo. Hii ingemruhusu kila mteja—au mtu mwingine yeyote anayeweza kupata jozi hii ya funguo—kusoma na hata kudhibiti mawasiliano yote kati ya Bidhaa za Michezo za Jim na wateja wake. Unaweza, basi, vile vile usitumie cryptography hata kidogo katika mawasiliano yako.
+Ili kuelewa hatua hii ya mwisho, tuseme Bidhaa za Michezo za Jim humpa kila mteja jozi sawa ya funguo. Hii ingemruhusu kila mteja—au mtu mwingine yeyote anayeweza kupata jozi hii ya funguo—kusoma na hata kudhibiti mawasiliano yote kati ya Bidhaa za Michezo za Jim na wateja wake. Unaweza, basi, vile vile usitumie kriptografia hata kidogo katika mawasiliano yako.
 
-Hata kurudia seti ya funguo kwa wateja wengine tu ni mazoezi mabaya ya usalama. Mshambulizi yeyote anayetarajiwa anaweza kujaribu kutumia kipengele hicho cha mpango (kumbuka kwamba washambuliaji wanadhaniwa kujua kila kitu kuhusu mpango lakini funguo, kwa mujibu wa kanuni ya Kerckhoffs.)
+Hata kurudia seti ya funguo kwa wateja wengine tu ni mazoezi mabaya ya usalama. Mshambulizi yeyote anayetarajiwa anaweza kujaribu kutumia kipengele hicho cha mpango (kumbuka kwamba washambuliaji wanadhaniwa kujua kila kitu kuhusu mpango lakini funguo, kwa mujibu wa kanuni ya Kerckhoff.)
 
 Kwa hivyo, Bidhaa za Michezo za Jim zingelazimika kuhifadhi jozi ya funguo kwa kila mteja, bila kujali jinsi jozi hizi muhimu zinasambazwa. Hii inatoa wazi matatizo kadhaa ya vitendo.
 
@@ -1770,7 +1770,7 @@ Angalau motisha moja ya msingi kwa mradi wao ilikuwa mtazamo kwamba mawasiliano 
 > Ukuzaji wa mitandao ya mawasiliano inayodhibitiwa na kompyuta huahidi mawasiliano rahisi na ya bei nafuu kati ya watu au kompyuta za pande tofauti za ulimwengu, ikichukua nafasi ya barua na safari nyingi na mawasiliano ya simu. Kwa programu nyingi anwani hizi lazima ziwe salama dhidi ya usikilizaji na udungaji wa ujumbe haramu. Kwa sasa, hata hivyo, ufumbuzi wa matatizo ya usalama uko nyuma ya maeneo mengine ya teknolojia ya mawasiliano. *Kificho cha kisasa hakiwezi kukidhi mahitaji, kwa kuwa matumizi yake yataleta usumbufu mkubwa kwa watumiaji wa mfumo, na hivyo kuondoa faida nyingi za usindikaji wa simu.* [1]
 Uimara wa Diffie, Hellman, na Merkle ulizaa matunda. Uchapishaji wa kwanza wa matokeo yao ulikuwa karatasi ya Diffie na Helmann mnamo 1976 yenye kichwa "Maelekezo Mapya katika Uandikaji wa siri." Ndani yake, waliwasilisha njia mbili za asili kwa Address usambazaji muhimu na shida kuu za usimamizi.
 
-Suluhisho la kwanza walilotoa lilikuwa *itifaki ya ufunguo-Exchange* ya mbali, yaani, seti ya sheria za Exchange za funguo moja au zaidi za ulinganifu juu ya njia isiyo salama ya mawasiliano. Itifaki hii sasa inajulikana kama *funguo ya [Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman) Exchange* au *funguo ya Diffie-Helmann-Merkle Exchange*. [2]
+Suluhisho la kwanza walilotoa lilikuwa *itifaki ya ufunguo-Exchange* ya mbali, yaani, seti ya sheria za Exchange za funguo moja au zaidi za ulinganifu juu ya njia isiyo salama ya mawasiliano. Itifaki hii sasa inajulikana kama *[Diffie-Helmann](https://planb.academy/resources/glossary/diffiehellman) key Exchange* au *Diffie-Helmann-Merkle key Exchange*. [2]
 
 Kwa ufunguo wa Diffie-Helmann Exchange, pande mbili kwanza Exchange baadhi ya taarifa hadharani kwenye chaneli isiyo salama kama vile Mtandao. Kwa msingi wa habari hiyo wao, basi, kwa kujitegemea huunda ufunguo wa ulinganifu (au jozi ya funguo za ulinganifu) kwa mawasiliano salama. Ingawa pande zote mbili huunda funguo zao kwa kujitegemea, maelezo waliyoshiriki hadharani huhakikisha kwamba mchakato huu muhimu wa uundaji hutoa matokeo sawa kwa wote wawili.
 
@@ -1780,7 +1780,7 @@ Hii, bila shaka, inaonekana kinyume kabisa. Vyama viwili vya Exchange vinawezaje
 
 Inategemea hisabati nzuri bila shaka. Kitufe cha Diffie-Helmann Exchange hufanya kazi kupitia njia moja ya kukokotoa na mlango wa kukamata. Wacha tujadili maana ya maneno haya mawili kwa zamu.
 
-Tuseme kwamba umepewa baadhi ya chaguo za kukokotoa $f(x)$ na matokeo $f(a) = y$, ambapo $a$ ni thamani fulani ya $x$. Tunasema kwamba $f(x)$ ni **kitendakazi cha njia moja** ikiwa ni rahisi kukokotoa thamani $y$ inapopewa $a$ na $f(x)$, lakini haiwezekani kimahesabu kukokotoa thamani $a$ inapotolewa $y$ na $f(x)$. Jina ** kazi ya njia moja **, bila shaka, inatokana na ukweli kwamba kazi hiyo ni ya vitendo tu kuhesabu katika mwelekeo mmoja.
+Tuseme kwamba umepewa baadhi ya chaguo za kukokotoa $f(x)$ na matokeo $f(a) = y$, ambapo $a$ ni thamani fulani ya $x$. Tunasema kwamba $f(x)$ ni **operesheni ya njia moja** ikiwa ni rahisi kukokotoa thamani $y$ inapopewa $a$ na $f(x)$, lakini haiwezekani kimahesabu kukokotoa thamani $a$ inapotolewa $y$ na $f(x)$. Jina ** kazi ya njia moja **, bila shaka, inatokana na ukweli kwamba kazi hiyo ni ya vitendo tu kuhesabu katika mwelekeo mmoja.
 
 Baadhi ya vitendaji vya njia moja vina kile kinachojulikana kama **trapdoor**. Ingawa haiwezekani kukokotoa $a$ kutokana na $y$ na $f(x)$ pekee, kuna taarifa fulani $Z$ ambayo hufanya kukokotoa $a$ kutoka $y$ kuwezekana kwa njia ya hesabu. Sehemu hii ya habari $Z$ inajulikana kama **trapdoor**. Vitendaji vya njia moja ambavyo vina mlango wa trap vinajulikana kama **vitendaji vya trapdoor**.
 
@@ -1794,7 +1794,7 @@ Muhimu, ufunguo wa Diffie-Helmann Exchange sio mpango wa ulinganifu. Kwa kusema 
 
 Njia ya pili ambayo Diffie na Helmann walitoa kwa Address shida kuu ya usambazaji na usimamizi katika karatasi yao ya 1976, bila shaka, kupitia kriptografia isiyolinganishwa.
 
-Kinyume na uwasilishaji wao wa ufunguo wa Diffie-Hellman Exchange, walitoa tu mtaro wa jumla wa jinsi mipango ya kriptografia isiyolinganishwa inavyoweza kutengenezwa kwa njia dhahiri. Hawakutoa kazi yoyote ya njia moja ambayo inaweza kutimiza haswa masharti yanayohitajika kwa usalama wa kuridhisha katika mipango kama hiyo.
+Kinyume na uwasilishaji wao wa Diffie-Hellman key Exchange, walitoa tu mtaro wa jumla wa jinsi mipango ya kriptografia isiyolinganishwa inavyoweza kutengenezwa kwa njia dhahiri. Hawakutoa kazi yoyote ya njia moja ambayo inaweza kutimiza haswa masharti yanayohitajika kwa usalama wa kuridhisha katika mipango kama hiyo.
 
 Utekelezaji wa vitendo wa mpango usiolinganishwa, hata hivyo, ulipatikana mwaka mmoja baadaye na waandishi watatu tofauti wa kitaaluma wa kuandika fiche na wanahisabati: Ronald Rivest, Adi Shamir, na Leonard Adleman. [3] Mfumo wa siri walioanzisha ulijulikana kama **RSA cryptosystem** (baada ya majina yao ya mwisho).
 
@@ -1804,9 +1804,9 @@ Vitendo vya kukokotoa vya mlango wa mtego vinavyotumika katika usimbaji fiche us
 
 **tatizo la logarithm tofauti** ni tatizo linalotokea katika vikundi vya mzunguko. Kwa kuzingatia jenereta katika kikundi fulani cha mzunguko, inahitaji hesabu ya kipeo cha kipekee kinachohitajika ili kutoa kipengele kingine katika kikundi kutoka kwa jenereta.
 
-Miradi mahususi ya msingi wa logariti hutegemea aina mbili kuu za vikundi vya mzunguko: vikundi zidishi vya nambari kamili na vikundi ambavyo vinajumuisha vidokezo kwenye [mikondo ya duaradufu](https://planb.academy/resources/glossary/elliptic-curve). Kitufe cha asili cha Diffie Helmann Exchange kama inavyowasilishwa katika "Maelekezo Mapya katika Crystalgraphy" hufanya kazi na kikundi cha kuzidisha cha mzunguko cha nambari kamili. Kanuni za [saini za kidijitali](https://planb.academy/resources/glossary/digital-signature) za Bitcoin na mpango wa sahihi wa [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) ulioletwa hivi majuzi (2021) zote zinatokana na tatizo la logarithm maalum kwa kikundi fulani cha mzunguko wa curve elliptic.
+Miradi mahususi ya msingi wa logariti hutegemea aina mbili kuu za vikundi vya mzunguko: vikundi zidishi vya nambari kamili na vikundi ambavyo vinajumuisha vidokezo kwenye [mikondo ya duaradufu](https://planb.academy/resources/glossary/elliptic-curve). Kitufe cha asili cha Diffie Helmann Exchange kama inavyowasilishwa katika "Maelekezo Mapya katika kriptografia" hufanya kazi na kikundi cha kuzidisha cha mzunguko cha nambari kamili. Kanuni za [saini za kidijitali](https://planb.academy/resources/glossary/digital-signature) za Bitcoin na mpango wa sahihi wa [Schnorr](https://planb.academy/resources/glossary/schnorr-protocol) ulioletwa hivi majuzi (2021) zote zinatokana na tatizo la logarithm maalum kwa kikundi fulani cha mzunguko wa curve elliptic.
 
-Ifuatayo, tutageuka kwa muhtasari wa hali ya juu wa usiri na uthibitishaji katika mpangilio wa asymmetric. Kabla ya kufanya hivyo, hata hivyo, tunahitaji kufanya maelezo mafupi ya kihistoria.
+Ifuatayo, tutageuka kwa muhtasari wa hali ya juu wa usiri na uthibitishaji katika mpangilio wa kriptografia isiyolinganishwa. Kabla ya kufanya hivyo, hata hivyo, tunahitaji kufanya maelezo mafupi ya kihistoria.
 
 Sasa inaonekana kuwa ni sawa kwamba kikundi cha waandishi wa maandishi wa Uingereza na wanahisabati wanaofanya kazi katika Makao Makuu ya Mawasiliano ya Serikali (GCHQ) walikuwa wamegundua kwa kujitegemea ugunduzi uliotajwa hapo juu miaka michache mapema. Kundi hili lilikuwa na James Ellis, Clifford Cocks, na Malcolm Williamson.
 
@@ -1818,11 +1818,11 @@ Kulingana na akaunti zao wenyewe na ile ya GCHQ, ni James Ellis ambaye alibuni k
 
 [2] Ralph Merkle pia anajadili itifaki kuu ya Exchange katika "Mawasiliano salama juu ya njia zisizo salama", _Mawasiliano ya Chama cha Mashine za Kompyuta_, 21 (1978), 294-99. Ingawa Merkle aliwasilisha karatasi hii mbele ya karatasi na Diffie na Hellman, ilichapishwa baadaye. Suluhisho la Merkle si salama kwa kiasi kikubwa, tofauti na la Diffie-Hellman.
 
-[3] Ron Rivest, Adi Shamir, na Leonard Adleman, "Mbinu ya kupata sahihi za kidijitali na mifumo ya siri ya ufunguo wa umma", _Mawasiliano ya Chama cha Mashine ya Kompyuta_, 21 (1978), uk. 120–26.
+[3] Ron Rivest, Adi Shamir, na Leonard Adleman, "Mbinu ya kupata sahihi za kidijitali na mifumo ya siri ya ufunguo wa umma", _Communications of the Association for Computing Machinery_, 21 (1978), uk. 120–26.
 
 [4] Historia nzuri ya uvumbuzi huu imetolewa na Simon Singh, _The Code Book_, Fourth Estate (London, 1999), Sura ya 6.
 
-## Usimbaji fiche usio na usawa na uthibitishaji
+## Usimbaji fiche usio wa ulinganifu na uthibitishaji
 
 <chapterId>2f6f0f03-3c3d-5025-90f0-5211139bc0cc</chapterId>
 
@@ -1900,21 +1900,21 @@ Usambazaji muhimu sasa umekuwa rahisi zaidi kwa Bidhaa za Michezo za Jim. Sio Ha
 
 [5] Miradi yoyote inayojaribu kufikia kutokataa, mada nyingine tuliyojadili katika Sura ya 1, kwa msingi wake itahitajika kuhusisha sahihi za kidijitali.
 
-## Kazi za Hash
+## Funsi za Hash
 
 <chapterId>ea8327ab-b0e3-5635-941c-4b51f396a648</chapterId>
 
 Vitendaji vya Hash vinapatikana kila mahali katika usimbaji fiche. Sio mipango ya ulinganifu au ulinganifu, lakini huanguka katika kategoria ya kriptografia kwa njia yao wenyewe.
 
-Tayari tulikutana na vipengele vya Hash katika Sura ya 4 kwa kuunda ujumbe wa uthibitishaji unaotegemea Hash. Pia ni muhimu katika muktadha wa sahihi za kidijitali, ingawa kwa sababu tofauti kidogo: Sahihi za dijiti kwa kawaida hutengenezwa kwa thamani ya Hash ya baadhi ya ujumbe (uliosimbwa kwa njia fiche), badala ya ujumbe halisi (uliosimbwa). Katika sehemu hii, nitatoa utangulizi wa kina zaidi wa kazi za Hash.
+Tayari tulikutana na vipengele vya Hash katika Sura ya 4 kwa kuunda ujumbe wa uthibitishaji unaotegemea Hash. Pia ni muhimu katika muktadha wa sahihi za kidijitali, ingawa kwa sababu tofauti kidogo: Sahihi za dijiti kwa kawaida hutengenezwa kwa thamani ya Hash ya baadhi ya ujumbe (uliosimbwa kwa njia fiche), badala ya ujumbe halisi (uliosimbwa). Katika sehemu hii, nitatoa utangulizi wa kina zaidi wa funsi za Hash.
 
-Hebu tuanze na kufafanua kazi ya Hash. ** Chaguo za kukokotoa za Hash** ni chaguo za kukokotoa zinazoweza kutengenezeka kwa ufanisi ambazo huchukua ingizo za ukubwa usiobadilika na kutoa matokeo ya urefu usiobadilika.
+Hebu tuanze na kufafanua funsi ya Hash. ** Chaguo za kukokotoa za Hash** ni chaguo za kukokotoa zinazoweza kutengenezeka kwa ufanisi ambazo huchukua ingizo za ukubwa usiobadilika na kutoa matokeo ya urefu usiobadilika.
 
-**Kitendakazi cha kriptografia cha Hash** ni chaguo za kukokotoa za Hash tu ambacho ni muhimu kwa programu katika usimbaji fiche. Toleo la kitendakazi cha siptografia Hash kwa kawaida huitwa **Hash**, **Hash-thamani**, au **muhtasari wa ujumbe**.
+**Operesheni ya funsi ya kriptografia** ni chaguo za kukokotoa za Hash tu ambacho ni muhimu kwa programu katika usimbaji fiche. Toleo la operesheni cha siptografia Hash kwa kawaida huitwa **Hash**, **Hash-thamani**, au **muhtasari wa ujumbe**.
 
-Katika muktadha wa uandishi wa maandishi, "kitendaji cha Hash" kwa kawaida kinarejelea kazi ya kriptografia ya Hash. Nitapitisha mazoezi hayo kuanzia hapa na kuendelea.
+Katika muktadha wa uandishi wa maandishi, "kitendaji cha Hash" kwa kawaida kinarejelea operesheni ya funsi ya kriptografia. Nitapitisha mazoezi hayo kuanzia hapa na kuendelea.
 
-Mfano wa kazi maarufu ya Hash ni **[SHA-256](https://planb.academy/resources/glossary/sha256)** (salama Hash algorithm 256). Bila kujali ukubwa wa ingizo (k.m., biti 15, biti 100, au biti 10,000), chaguo hili la kukokotoa litatoa thamani ya 256-bit Hash. Hapo chini unaweza kuona mifano michache ya matokeo ya kazi ya SHA-256.
+Mfano wa funsi maarufu ya Hash ni **[SHA-256](https://planb.academy/resources/glossary/sha256)** (salama Hash algorithm 256). Bila kujali ukubwa wa ingizo (k.m., biti 15, biti 100, au biti 10,000), chaguo hili la kukokotoa litatoa thamani ya 256-bit Hash. Hapo chini unaweza kuona mifano michache ya matokeo ya funsi ya SHA-256.
 
 “Hujambo”: `185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969`
 
@@ -1924,7 +1924,7 @@ Mfano wa kazi maarufu ya Hash ni **[SHA-256](https://planb.academy/resources/glo
 
 Matokeo yote ni biti 256 zilizoandikwa katika umbizo la heksadesimali (kila tarakimu ya heksi inaweza kuwakilishwa na tarakimu nne za binary). Kwa hivyo hata kama ungeingiza kitabu cha Tolkien cha *The Lord of the Rings* kwenye chaguo za kukokotoa za SHA-256, matokeo yangeendelea kuwa biti 256.
 
-Chaguo za kukokotoa za Hash kama vile SHA-256 hutumika katika nyanja mbalimbali katika usimbaji fiche. Ni mali gani zinazohitajika kutoka kwa kazi ya Hash inategemea muktadha wa programu fulani. Kuna sifa mbili kuu zinazohitajika kwa ujumla za vitendaji vya Hash katika kriptografia: [6]
+Chaguo za kukokotoa za Hash kama vile SHA-256 hutumika katika nyanja mbalimbali katika usimbaji fiche. Ni mali gani zinazohitajika kutoka kwa funsi ya Hash inategemea muktadha wa programu fulani. Kuna sifa mbili kuu zinazohitajika kwa ujumla za vitendaji vya Hash katika kriptografia: [6]
 
 1. Mgongano-upinzani
 
@@ -1954,7 +1954,7 @@ Iwapo ulithibitisha kwa bidii funguo za umma ulizoingiza, basi unaweza kuwa na u
 
 Tuseme saini kwenye faili ya toleo uliyopakua angalia. Sasa unaweza kulinganisha thamani ya Hash uliyokokotoa ndani ya nchi kwa Windows inayoweza kutekelezeka uliyopakua na ile iliyojumuishwa kwenye faili ya toleo iliyotiwa saini ipasavyo. Kama unavyojua chaguo la kukokotoa la SHA-256 Hash haliwezi kustahimili msururu wa tani, ulinganishaji unamaanisha kuwa utekelezaji wako ni sawa kabisa na utekelezo rasmi.
 
-Hebu sasa tugeuke kwenye mali ya pili ya kawaida ya kazi za Hash: ** kujificha **. Chaguo lolote la kukokotoa la Hash $H$ linasemekana kuwa na sifa ya kufichwa ikiwa, kwa $x$ yoyote iliyochaguliwa nasibu kutoka kwa safu kubwa sana, haiwezekani kupata $x$ ukipewa $H(x)$ pekee.
+Hebu sasa tugeuke kwenye mali ya pili ya kawaida ya funsi za Hash: ** kujificha **. Chaguo lolote la kukokotoa la Hash $H$ linasemekana kuwa na sifa ya kufichwa ikiwa, kwa $x$ yoyote iliyochaguliwa nasibu kutoka kwa safu kubwa sana, haiwezekani kupata $x$ ukipewa $H(x)$ pekee.
 
 Hapo chini, unaweza kuona matokeo ya SHA-256 ya ujumbe nilioandika. Ili kuhakikisha unasibu wa kutosha, ujumbe ulijumuisha mfuatano wa wahusika uliozalishwa bila mpangilio mwishoni. Ikizingatiwa kuwa SHA-256 ina mali ya kuficha, hakuna mtu ambaye angeweza kufafanua ujumbe huu.
 
@@ -1966,11 +1966,11 @@ Lakini sitakuacha ukiwa na mashaka hadi SHA-256 iwe dhaifu. Ujumbe wa asili nili
 
 - "Huu ni ujumbe wa nasibu sana, au aina fulani ya nasibu. Sehemu hii ya mwanzo sivyo, lakini nitamalizia na baadhi ya wahusika nasibu ili kuhakikisha ujumbe usiotabirika sana. XLWz4dVG3BxUWm7zQ9qS".
 
-Njia ya kawaida ambayo utendakazi wa Hash na sifa ya kuficha hutumiwa ni katika usimamizi wa nenosiri (upinzani wa mgongano pia ni muhimu kwa programu hii). Huduma yoyote nzuri ya mtandaoni inayotegemea akaunti kama vile Facebook au Google haitahifadhi manenosiri yako moja kwa moja ili kudhibiti ufikiaji wa akaunti yako. Badala yake, watahifadhi tu Hash ya nenosiri hilo. Kila wakati unapojaza nenosiri lako kwenye kivinjari, Hash huhesabiwa kwanza. Hash pekee ndiyo inatumwa kwa seva ya mtoa huduma na ikilinganishwa na Hash iliyohifadhiwa kwenye hifadhidata ya nyuma. Sifa iliyofichwa inaweza kusaidia kuhakikisha kuwa wavamizi hawawezi kuirejesha kutoka kwa thamani ya Hash.
+Njia ya kawaida ambayo operesheni ya Hash na sifa ya kuficha hutumiwa ni katika usimamizi wa nenosiri (upinzani wa mgongano pia ni muhimu kwa programu hii). Huduma yoyote nzuri ya mtandaoni inayotegemea akaunti kama vile Facebook au Google haitahifadhi manenosiri yako moja kwa moja ili kudhibiti ufikiaji wa akaunti yako. Badala yake, watahifadhi tu Hash ya nenosiri hilo. Kila wakati unapojaza nenosiri lako kwenye kivinjari, Hash huhesabiwa kwanza. Hash pekee ndiyo inatumwa kwa seva ya mtoa huduma na ikilinganishwa na Hash iliyohifadhiwa kwenye hifadhidata ya nyuma. Sifa iliyofichwa inaweza kusaidia kuhakikisha kuwa wavamizi hawawezi kuirejesha kutoka kwa thamani ya Hash.
 
 Udhibiti wa nenosiri kupitia heshi, bila shaka, hufanya kazi tu ikiwa watumiaji watachagua manenosiri magumu. Sifa ya kuficha huchukulia kuwa x huchaguliwa nasibu kutoka kwa safu kubwa sana. Kuchagua manenosiri kama vile "1234", "mypassword", au tarehe yako ya kuzaliwa hakutatoa usalama wowote wa kweli. Orodha ndefu za manenosiri ya kawaida na heshi zao zipo ambazo washambulizi wanaweza kutumia ikiwa watapata Hash ya nenosiri lako. Aina hizi za mashambulizi hujulikana kama **mashambulizi ya kamusi**. Iwapo washambuliaji wanajua baadhi ya maelezo yako ya kibinafsi, wanaweza pia kujaribu kukisia kwa ufahamu. Kwa hivyo, daima unahitaji manenosiri marefu, salama (ikiwezekana mifuatano mirefu, isiyo na mpangilio kutoka kwa kidhibiti nenosiri).
 
-Wakati mwingine programu inaweza kuhitaji chaguo za kukokotoa za Hash ambazo zina ukinzani wa mgongano na kujificha. Lakini hakika si mara zote. Mchakato wa uthibitishaji wa programu tuliojadili, kwa mfano, unahitaji tu kwamba kazi ya Hash ionyeshe upinzani wa mgongano, kujificha sio muhimu.
+Wakati mwingine programu inaweza kuhitaji chaguo za kukokotoa za Hash ambazo zina ukinzani wa mgongano na kujificha. Lakini hakika si mara zote. Mchakato wa uthibitishaji wa programu tuliojadili, kwa mfano, unahitaji tu kwamba funsi ya Hash ionyeshe upinzani wa mgongano, kujificha sio muhimu.
 
 Ingawa upinzani wa mgongano na kujificha ni sifa kuu zinazotafutwa za vitendaji vya Hash katika usimbaji fiche, katika programu fulani aina nyingine za sifa zinaweza pia kuhitajika.
 
@@ -1978,11 +1978,11 @@ Ingawa upinzani wa mgongano na kujificha ni sifa kuu zinazotafutwa za vitendaji 
 
 [6] Istilahi ya "kujificha" si lugha ya kawaida, lakini imechukuliwa hasa kutoka kwa Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, na Steven Goldfeder, *Bitcoin na Cryptocurrency Technologies*, Princeton University Press (Princeton, 2016), Sura ya 1.
 
-# Mfumo wa siri wa RSA
+# Mfumo wa usimbaji fiche wa RSA
 
 <partId>864dca42-2a8d-530f-bb94-2e1f68b3f411</partId>
 
-## Tatizo la uainishaji
+## Tatizo la ufasiri nambari
 
 <chapterId>a31a66e4-52ea-539c-9953-4769ad565d7e</chapterId>
 
@@ -1992,13 +1992,13 @@ Katika sura hii, nitaondoa baadhi ya fumbo linalozunguka kriptografia isiyolinga
 
 Kuongeza kina hiki kwenye mjadala wetu sio kazi rahisi. Inahitaji kutambulisha nadharia na mapendekezo kadhaa ya nadharia ya nambari. Lakini usiruhusu hisabati ikukatishe tamaa. Kushughulikia mjadala huu kutaboresha kwa kiasi kikubwa uelewa wako wa ni nini msingi wa kriptografia isiyolinganishwa na ni uwekezaji unaofaa.
 
-Wacha sasa tugeukie kwanza shida ya uainishaji.
+Wacha sasa tugeukie kwanza shida ya ufasiri nambari.
 
 ___
 
 Wakati wowote unapozidisha nambari mbili, sema $a$ na $b$, tunarejelea nambari $a$ na $b$ kama **vigezo**, na matokeo kama **bidhaa**. Kujaribu kuandika nambari $N$ katika kuzidisha vipengele viwili au zaidi kunaitwa **factorization** au **factoring**. [1] Unaweza kuita tatizo lolote linalohitaji hili kuwa **tatizo la uanzishaji**.
 
-Takriban miaka 2,500 iliyopita, mwanahisabati wa Uigiriki Euclid wa Alexandria aligundua nadharia kuu kuhusu uainishaji wa nambari kamili. Inajulikana kama **nadharia ya kipekee ya uanzishaji ** na inasema yafuatayo:
+Takriban miaka 2,500 iliyopita, mwanahisabati wa Uigiriki Euclid wa Alexandria aligundua nadharia kuu kuhusu upanuzi wa nambari kamili kuwa vipengele vyake vya msingi. Nadharia hii inajulikana kama nadharia ya upanuzi wa kipekee na inasema yafuatayo:
 
 **Nadharia 1**. Kila nambari kamili $N$ ambayo ni kubwa kuliko 1 inaweza kuwa nambari kuu, au inaweza kuonyeshwa kama bidhaa ya sababu kuu.
 
@@ -2059,9 +2059,9 @@ Hata ukichukua kompyuta zote kwenye sayari na kuzifanya zijaribu kutafuta na kuj
 
 Sasa katika mazoezi kompyuta inaweza kufanya vizuri zaidi kuliko utaratibu mbaya ulioelezwa hapo juu. Kuna algoriti kadhaa ambazo kompyuta inaweza kutumia ili kuainishwa haraka zaidi. Hoja, hata hivyo, ni kwamba hata kwa kutumia algorithms hizi bora zaidi, kazi ya kompyuta bado haiwezi kutekelezeka. [3]
 
-Muhimu zaidi, ugumu wa uainishaji chini ya masharti yaliyoelezwa hapo juu unategemea dhana kwamba hakuna algoriti zinazofaa kwa kukokotoa mambo makuu. Kwa kweli hatuwezi kuthibitisha kwamba kanuni bora haipo. Hata hivyo, dhana hii inakubalika sana: licha ya juhudi kubwa zilizochukua mamia ya miaka, bado hatujapata algoriti yenye ufanisi wa kimahesabu.
+Muhimu zaidi, ugumu wa upanuzi wa nambari kuwa vipengele vyake vya msingi chini ya masharti yaliyoelezwa hapo juu unategemea dhana kwamba hakuna algoriti zinazofaa kwa kukokotoa mambo makuu. Kwa kweli hatuwezi kuthibitisha kwamba kanuni bora haipo. Hata hivyo, dhana hii inakubalika sana: licha ya juhudi kubwa zilizochukua mamia ya miaka, bado hatujapata algoriti yenye ufanisi wa kimahesabu.
 
-Kwa hivyo, shida ya uanzishaji, chini ya hali fulani, inaweza kudhaniwa kuwa shida ya Hard. Hasa, wakati $p$ na $q$ ni nambari kuu kubwa sana, bidhaa zao $N$ si vigumu kuhesabu; lakini uainishaji uliopewa tu $N$ hauwezekani.
+Kwa hivyo, shida ya upanuzi wa nambari kuwa vipengele vyake vya msingi, chini ya hali fulani, inaweza kudhaniwa kuwa tatizo gumu. Hasa, wakati $p$ na $q$ ni nambari kuu kubwa sana, bidhaa zao $N$ si vigumu kuhesabu; lakini upanuzi uliopewa tu $N$ hauwezekani.
 
 **Maelezo:**
 
@@ -2073,13 +2073,13 @@ $$ \frac{2^{1024}}{\LN(2^{1024})} - \frac{2^{1023}}{\LN(2^{1023})} $$
 
 ...ambayo ni sawa na takriban $1.265 \mara 10^{305}$.
 
-[3] Vile vile ni kweli kwa matatizo tofauti ya logarithm. Kwa hivyo, kwa nini ujenzi wa asymmetric hufanya kazi na funguo kubwa zaidi kuliko miundo ya kriptografia linganifu.
+[3] Vile vile ni kweli kwa matatizo tofauti ya logarithm. Kwa hivyo, kwa nini ujenzi wa kriptografia isiyolinganishwa hufanya kazi na funguo kubwa zaidi kuliko miundo ya kriptografia linganifu.
 
 ## Idadi ya matokeo ya kinadharia
 
 <chapterId>23cd2186-8d97-5709-a4a7-b984f1eb9999</chapterId>
 
-Kwa bahati mbaya, tatizo la uainishaji haliwezi kutumika moja kwa moja kwa mifumo ya kriptografia isiyolinganishwa. Hata hivyo, tunaweza kutumia tatizo ngumu zaidi lakini linalohusiana na athari hii: tatizo la RSA.
+Kwa bahati mbaya, tatizo la upanuzi wa nambari kuwa vipengele vyake vya msingi haliwezi kutumika moja kwa moja kwa mifumo ya kriptografia isiyolinganishwa. Hata hivyo, tunaweza kutumia tatizo ngumu zaidi lakini linalohusiana na athari hii: tatizo la RSA.
 
 Ili kuelewa tatizo la RSA, tutahitaji kuelewa idadi ya nadharia na mapendekezo kutoka kwa nadharia ya nambari. Haya yamewasilishwa katika sehemu hii katika vifungu vitatu: (1) mpangilio wa N, (2) modulo isiyobadilika ya N, na (3) nadharia ya Euler.
 
@@ -2095,15 +2095,15 @@ Sasa tunaweza kufafanua mpangilio wa $N$ kama ifuatavyo. Tuseme $N$ ni nambari k
 
 Kwa mfano, ikiwa $N = 12$, basi 1, 5, 7, na 11 ndizo malipo pekee ambayo yanakidhi mahitaji yaliyo hapo juu. Kwa hivyo, mpangilio wa 12 ni sawa na 4.
 
-Tuseme kwamba $N$ ni nambari kuu. Kisha nambari yoyote ndogo kuliko $N$ lakini kubwa au sawa na 1 ni coprime nayo. Hii inajumuisha Elements zote katika seti ifuatayo: $\{1,2,3,....,N - 1\}$. Kwa hivyo, wakati $N$ ni ya kwanza, mpangilio wa $N$ ni $N - 1$. Hii imeelezwa katika pendekezo la 1, ambapo $\phi(N)$ inaashiria mpangilio wa $N$.
+Tuseme kwamba $N$ ni nambari kuu. Kisha nambari yoyote ndogo kuliko $N$ lakini kubwa au sawa na 1 ni coprime nayo. Hii inajumuisha vipengele vyote katika seti ifuatayo: $\{1,2,3,....,N - 1\}$. Kwa hivyo, wakati $N$ ni ya kwanza, mpangilio wa $N$ ni $N - 1$. Hii imeelezwa katika pendekezo la 1, ambapo $\phi(N)$ inaashiria mpangilio wa $N$.
 
 **Pendekezo 1**. $\phi(N) = N - 1$ wakati $N$ ni ya kwanza
 
-Tuseme hiyo $N$ si ya msingi. Unaweza, basi, kuhesabu mpangilio wake kwa kutumia **Kitendakazi cha Phi cha Euler**. Ingawa kukokotoa mpangilio wa nambari kamili ni moja kwa moja, utendaji wa Euler wa Phi huwa muhimu haswa kwa nambari kubwa zaidi. Pendekezo la kazi ya Phi ya Euler imeelezwa hapa chini.
+Tuseme hiyo $N$ si ya msingi. Unaweza, basi, kuhesabu mpangilio wake kwa kutumia **opereshei ya Phi ya Euler**. Ingawa kukokotoa mpangilio wa nambari kamili ni moja kwa moja, utendaji wa Euler wa Phi huwa muhimu haswa kwa nambari kubwa zaidi. Pendekezo la kazi ya Phi ya Euler imeelezwa hapa chini.
 
 **Nadharia 2**. Acha $N$ iwe sawa na $p_1^{e_1} \cdot p_2^{e_2} \cdot \lddots \cdot p_i^{e_i} \cdot \lddots \cdot p_n^{e_n}$, ambapo seti $\{p_i\}$ hujumuisha mara ngapi sababu kuu na sababu kuu za $e N$ kila moja. $p_i$ hutokea kwa $N$. Kisha,
 
-$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldets \cdot p_n^{e_n - 1} \cdot (p_$n - 1)$
+$$\phi(N) = p_1^{e_1 - 1} \cdot (p_1 - 1) \cdot p_2^{e_2 - 1} \cdot (p_2 - 1) \cdot \ldots \cdot p_n^{e_n - 1} \cdot (p_$n - 1)$
 
 **Nadharia ya 2** inaonyesha kuwa ukishagawanya $N$ yoyote isiyo ya msingi katika vipengele vyake kuu mahususi, ni rahisi kukokotoa mpangilio wa $N$.
 
@@ -2119,13 +2119,13 @@ Hili ni tokeo kuu la tatizo la RSA hasa, na limeelezwa katika **Pendekezo la 2**
 
 **Pendekezo la 2**. Ikiwa $N$ ni bidhaa ya matoleo mawili ya awali, $p$ na $q$, mpangilio wa $N$ ni bidhaa $(p - 1) \cdot (q - 1)$.
 
-Kwa mfano, tuseme $N = 119$. Nambari hii kamili inaweza kujumuishwa katika nambari kuu mbili, ambazo ni 7 na 17. Kwa hivyo, utendakazi wa Euler wa Phi unapendekeza kwamba mpangilio wa 119 ni kama ifuatavyo:
+Kwa mfano, tuseme $N = 119$. Nambari hii kamili inaweza kujumuishwa katika nambari kuu mbili, ambazo ni 7 na 17. Kwa hivyo, operesheni ya Euler ya Phi inapendekeza kwamba mpangilio wa 119 ni kama ifuatavyo:
 
 $$\phi(119) = (7 - 1) \cdot (17 - 1) = 6 \cdot 16 = 96$$
 
 Kwa maneno mengine, nambari kamili 119 ina coprime 96 katika safu kutoka 1 hadi 119. Kwa kweli, seti hii inajumuisha nambari zote kuanzia 1 hadi 119, ambazo si zidishi za 7 au 17.
 
-Kuanzia hapa na kuendelea, hebu tuashiria seti ya coprimes ambayo huamua mpangilio wa $N$ kama $C_N$. Kwa mfano wetu ambapo $N = 119$, seti $C_{119}$ ni kubwa mno kuorodheshwa kabisa. Lakini baadhi ya Elements ni kama ifuatavyo:
+Kuanzia hapa na kuendelea, hebu tuashiria seti ya coprimes ambayo huamua mpangilio wa $N$ kama $C_N$. Kwa mfano wetu ambapo $N = 119$, seti $C_{119}$ ni kubwa mno kuorodheshwa kabisa. Lakini baadhi ya vipengele ni kama ifuatavyo:
 
 $$C_{119} = \{1, 2, \dots 6, 8 \dots 13, 15, 16, 18, \dots 33, 35 \dots 96\}$$
 
@@ -2191,7 +2191,7 @@ Kwa hivyo, mchanganyiko wa nadharia ya Euler na **Pendekezo la 5** huturuhusu ku
 
 Sasa tunapaswa kuweka kila kitu pamoja katika hatua ngumu ya mwisho.
 
-Kama vile $N$ ilivyo na agizo $\phi(N)$ ambalo linajumuisha Elements ya seti ya $C_N$, tunajua kwamba nambari kamili $\phi(N)$ lazima pia iwe na agizo na seti ya coprimes. Wacha tuweke $\phi(N) = R$. Kisha tunajua kwamba pia kuna thamani ya $\phi(R)$ na seti ya coprimes $C_R$.
+Kama vile $N$ ilivyo na agizo $\phi(N)$ ambalo linajumuisha vipengele vya seti ya $C_N$, tunajua kwamba nambari kamili $\phi(N)$ lazima pia iwe na agizo na seti ya coprimes. Wacha tuweke $\phi(N) = R$. Kisha tunajua kwamba pia kuna thamani ya $\phi(R)$ na seti ya coprimes $C_R$.
 
 Tuseme kwamba sasa tutachagua nambari kamili $e$ kutoka kwa seti $C_R$. Tunajua kutoka **Pendekezo la 3** kwamba nambari hii kamili $e$ ina kinyume kimoja cha kipekee cha kinyume chini ya $R$. Hiyo ni, $e$ ina kinyume kimoja cha kipekee kutoka kwa seti $C_R$. Hebu tuite hii kinyume $d$. Kwa kuzingatia ufafanuzi wa kinyume, hii inamaanisha kuwa $e \cdot d = 1 \mod R$.
 
@@ -2229,7 +2229,7 @@ Tunaweza, hata hivyo, kukokotoa $d$ kwa njia isiyo ya moja kwa moja kutoka kwa m
 
 Hatimaye, agizo linaweza kuhesabiwa kwa njia isiyo ya moja kwa moja kwa kutumia vipengele vikuu $p$ na $q$, ili hatimaye tuweze kukokotoa $d$. Lakini kwa kudhaniwa, thamani $p$ na $q$ pia hazijatolewa kwetu.
 
-Kusema kweli, hata kama tatizo la uainishaji ndani ya tatizo la RSA ni Hard, hatuwezi kuthibitisha kwamba tatizo la RSA pia ni Hard. Kunaweza kuwa na njia zingine za kutatua shida ya RSA kuliko kupitia uainishaji. Walakini, inakubaliwa kwa ujumla na kudhaniwa kuwa ikiwa shida ya uainishaji ndani ya shida ya RSA ni Hard, kwamba shida ya RSA yenyewe pia ni Hard.
+Kusema kweli, hata kama tatizo la upanuzi wa nambari kuwa vipengele vyake vya msingi ndani ya tatizo la RSA ni Hard, hatuwezi kuthibitisha kwamba tatizo la RSA pia ni Hard. Kunaweza kuwa na njia zingine za kutatua shida ya RSA kuliko kupitia uainishaji. Walakini, inakubaliwa kwa ujumla na kudhaniwa kuwa ikiwa shida ya uainishaji ndani ya shida ya RSA ni Hard, kwamba shida ya RSA yenyewe pia ni Hard.
 
 Ikiwa tatizo la RSA ni kweli Hard, basi hutoa kazi ya njia moja na trapdoor. Chaguo za kukokotoa hapa ni $f(g) = g^e \mod N$. Kwa ujuzi wa $f(g)$, mtu yeyote angeweza kukokotoa thamani $y$ kwa $g = x$ fulani. Walakini, haiwezekani kukokotoa thamani fulani $x$ kutokana tu na kujua thamani $y$ na chaguo za kukokotoa $f(g)$. Isipokuwa ni wakati unapewa kipande cha habari $d$, mlango wa trap. Katika hali hiyo, unaweza kuhesabu tu $y^d$ kutoa $x$.
 
@@ -2262,7 +2262,7 @@ Ingekuwa rahisi (angalau kwa kompyuta) kukokotoa $x$ ikiwa tungejua kwamba $d = 
 
 Shida ni kwamba haujapewa habari ambayo $d = 7$. Unaweza, bila shaka, kuhesabu $d$ kutokana na ukweli kwamba $103 \cdot d = 1 \mod 360$. Shida ni kwamba pia haupewi habari kwamba agizo la $N = 360$. Hatimaye, unaweza pia kukokotoa mpangilio wa 403 kwa kukokotoa bidhaa ifuatayo: $(p - 1) \cdot (q - 1)$. Lakini pia hukuambiwa kuwa $p = 13$ na $q = 31$.
 
-Bila shaka, kompyuta bado inaweza kutatua tatizo la RSA kwa mfano huu kwa urahisi, kwa sababu nambari kuu zinazohusika si kubwa. Lakini wakati primes inakuwa kubwa sana, inakabiliwa na kazi isiyowezekana.
+Bila shaka, kompyuta bado inaweza tatua tatizo la RSA kwa mfano huu kwa urahisi, kwa sababu nambari kuu zinazohusika si kubwa. Lakini wakati primes inakuwa kubwa sana, inakabiliwa na kazi isiyowezekana.
 
 Sasa tumewasilisha tatizo la RSA, seti ya masharti ambayo ni Hard, na hisabati ya msingi. Je, yoyote kati ya haya inasaidia vipi na kriptografia isiyolinganishwa? Hasa, tunawezaje kugeuza ugumu wa tatizo la RSA chini ya hali fulani kuwa mpango wa usimbaji fiche au mpango wa sahihi wa dijitali?
 

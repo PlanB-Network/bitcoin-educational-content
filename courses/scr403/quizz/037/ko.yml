@@ -1,0 +1,16 @@
+question: Simplicity output은 고정된 BIP-0341 NUMS point를 internal key로 사용합니다. 왜 key-spend가 증명 가능하게 불가능하며, NUMS point를 randomize하면 무엇이 추가되나요?
+answer: 아무도 NUMS point의 이산로그를 모르므로 key-path signature는 존재할 수 없습니다. randomizing은 privacy만 추가합니다.
+wrong_answers:
+  - NUMS point가 curve 위에 있지 않아 key-path signatures가 실패합니다. randomizing은 그것을 다시 on-curve로 만듭니다.
+  - NUMS point의 private key는 zero이고, consensus가 이를 reject합니다. randomizing은 side channels로부터 tweak을 보호합니다.
+  - NUMS point를 tweaking하면 out-of-range key가 되어 key-spend가 non-standard가 됩니다. randomizing은 address reuse를 피합니다.
+explanation: >-
+  NUMS('Nothing-Up-My-Sleeve') point는 완전히 valid한 curve point로,
+  대응하는 private key를 아무도 알지 못하도록 구성됩니다 — 그
+  이산로그가 알려져 있지 않습니다. key-path spend에는 internal key 아래의 슈노르
+  signature가 필요하고, private key 없이는 그런 signature를 생성할 수 없으므로,
+  key-spend path는 증명 가능하게 사용할 수 없고 funds는 committed script path를 통해서만
+  이동할 수 있습니다. NUMS point를 randomize해도 이 점은 전혀 변하지 않습니다. 이는 단지 key-spend가
+  disabled되어 있다는 사실을 숨겨 output이 다른 Taproot output처럼 보이게 할 뿐입니다 —
+  privacy benefit입니다.
+reviewed: false

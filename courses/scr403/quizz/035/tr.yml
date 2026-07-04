@@ -1,0 +1,16 @@
+question: Tamlık ispatı, girdiyi ayrıştırmak için case ifadelerini iç içe yerleştirerek ve her çıktı için scribe kullanarak herhangi bir fonksiyonu kurar. Neden yalnızca teorik bir araçtır?
+answer: Ortaya çıkan ifade, boyutu üstel büyüyen dev bir arama tablosudur — 256 bitlik bir girdi yaklaşık 2²⁵⁶ giriş gerektirir.
+wrong_answers:
+  - scribe bir makrodur, çekirdek kombinatör değildir; bu yüzden ifade biçimsel olarak doğrulanmış dilin dışında kalır.
+  - İfadenin kendisi paylaşım sayesinde kompakt kalsa da Bit Machine onu üstel zamanda değerlendirir.
+  - İç içe case yalnızca toplam tiplerini ayrıştırabilir; bu yüzden inşa herhangi bir çarpım tipli girdide başarısız olur.
+explanation: >-
+  İnşa, iç içe case ayrıştırmasıyla olası her girdiyi numaralandırır ve
+  scribe ile her çıktıyı sabitler; bu yüzden ifade boyutu üstel olarak
+  patlar — 256 bitlik sözcükler gibi gerçekçi tiplerde astronomiktir.
+  Patlama, aksi halde kompakt olan bir ifadenin çalışma zamanında değil,
+  ifadenin boyutundadır. scribe gerçek çekirdek kombinatörlere (unit, injl,
+  injr, pair) açılır; bu yüzden sonuç, tamlık teoremi Rocq içinde biçimsel
+  olarak doğrulanmış olan çekirdek dilin içinde kalır. Ayrıca ayrıştırma,
+  çarpımlar dahil her tipten girdiyi işler.
+reviewed: false

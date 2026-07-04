@@ -399,7 +399,7 @@ https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 
 
-วิธีแก้ปัญหาแรกคือไม่ใช้ Lightning โดยตรง แต่ใช้ Bitcoin หรือ [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet ที่ฝัง [atomic swaps](https://planb.academy/resources/glossary/atomic-swap) ตัวอย่างเช่น แอปพลิเคชัน Aqua หรือ Bull Bitcoin Wallet ใช้วิธีนี้ โดยช่วยให้คุณชำระเงิน[ใบแจ้งหนี้ Lightning](https://planb.academy/resources/glossary/invoice-lightning) ได้โดยไม่ต้องดำเนินการโหนด Lightning ด้วยตัวเอง ในขณะที่ยังคงควบคุมการดูแลด้วยตนเอง
+วิธีแก้ปัญหาแรกคือไม่ใช้ Lightning โดยตรง แต่ใช้ Bitcoin หรือ [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet ที่ฝัง [atomic swaps](https://planb.academy/resources/glossary/atomic-swap) ตัวอย่างเช่น แอปพลิเคชัน Aqua หรือ BULL Wallet ใช้วิธีนี้ โดยช่วยให้คุณชำระเงิน[ใบแจ้งหนี้ Lightning](https://planb.academy/resources/glossary/invoice-lightning) ได้โดยไม่ต้องดำเนินการโหนด Lightning ด้วยตัวเอง ในขณะที่ยังคงควบคุมการดูแลด้วยตนเอง
 
 
 

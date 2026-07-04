@@ -1,0 +1,15 @@
+question: "어떤 core-combinator 표현식이 distribution 함수 dist : (A + B) × C ⊢ A × C + B × C를 구현하나요?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case의 각 branch 내부에서 환경은 이미 태그가 제거된 값과 쌍을 이루고 있으므로,
+  f = injl iden 및 g = injr iden은 ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ 및 ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩를 제공합니다 — 정확히 dist입니다. take/drop 변형은
+  타입 검사에는 통과하지만 pairing을 버리므로, 대신 (A +
+  B) × C ⊢ A + C 타입의 함수를 나타냅니다. pair는 sum이 아니라 product를 만들고,
+  copair는 Simplicity combinator가 전혀 아닙니다 — dist는 바로
+  copair만으로는 표현할 수 없는 것입니다.
+reviewed: false

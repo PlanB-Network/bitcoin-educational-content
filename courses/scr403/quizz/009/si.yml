@@ -1,0 +1,12 @@
+question: Simplicity හි type system තුළ fixed-length vectors ගොඩනගන්නේ කෙසේද?
+answer: power-of-two දිගක nested product types හරහා (උදා. A⁴ = A² × A²).
+wrong_answers:
+  - භාෂාව තුළ ගොඩනගා ඇති special array type constructor එකක් භාවිතයෙන්.
+  - elements list එකක් ලෙස එකිනෙකට chain කරන recursive sum types හරහා.
+  - fixed maximum size එකක් ඇති variable-length buffers භාවිතයෙන්.
+explanation: >-
+  Simplicity vectors ගොඩනගන්නේ nested product types වලින්ය. A² යනු A × A,
+  A⁴ යනු A² × A², A⁸ යනු A⁴ × A⁴, එසේ දිගටම යයි. මෙය power-of-two
+  ප්‍රමාණයේ collections ලබා දෙයි. උදාහරණයක් ලෙස, 𝟚²⁵⁶ (256-bit hash එකක්)
+  boolean type වෙතින් levels 8ක් ගැඹුරට products nest කිරීමෙන් ගොඩනගයි.
+reviewed: false

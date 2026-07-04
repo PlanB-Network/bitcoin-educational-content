@@ -1,0 +1,16 @@
+question: Compresia SHA-256 devine un jet, dar combinatorii fold și map nu pot. Ce explică această asimetrie?
+answer: Un jet înlocuiește o singură expresie fixă; fold și map nu sunt expresii unice, ci scheme, care produc o expresie diferită pentru fiecare funcție interioară f.
+wrong_answers:
+  - Jeturile accelerează doar codul liniar (straight-line), așa că iterarea combinatorilor trebuie mai întâi desfășurată (unrolled) și apoi nu se potrivește niciunui jet.
+  - Doar expresiile cu o demonstrație verificată de mașină în Rocq se califică, ceea ce există pentru SHA-256, dar nu pentru fold-uri.
+  - Fold-urile pe vectori scurți sunt prea ieftine ca să merite, așa că jeturile sunt rezervate operațiilor criptografice costisitoare.
+explanation: >-
+  Un jet este un înlocuitor nativ pentru o expresie Simplicity specifică,
+  complet formată, pe care nodurile o pot substitui păstrându-i sensul
+  exact. fold-right-n, map, zip și variantele lor nu sunt expresii unice,
+  ci scheme de construcție: fiecare alegere a funcției interioare f
+  produce o expresie structural diferită, așa că niciun jet unic nu poate
+  reprezenta întreaga familie. De aceea aceste tipare de iterare apar ca
+  cod de combinatori autentic în programe reale, generat de obicei de
+  limbaje de nivel superior precum SimplicityHL.
+reviewed: false

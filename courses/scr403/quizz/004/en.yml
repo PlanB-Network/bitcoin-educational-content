@@ -1,0 +1,12 @@
+question: How many core combinators does Simplicity have?
+answer: Nine (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Three (sequential composition, parallel composition, conditional).
+  - Five (comp, pair, case, take, and drop combinators only).
+  - Twelve (the nine core plus three extra extension combinators).
+explanation: >-
+  Simplicity has exactly nine core combinators. Two basic operations (iden
+  and unit), three composition methods (comp, pair, case), and four
+  accessors (take, drop for products, injl and injr for sums). These nine
+  are sufficient to express any function between Simplicity types.
+reviewed: false

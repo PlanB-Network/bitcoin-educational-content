@@ -1,0 +1,12 @@
+question: "Hai hiệu ứng phụ được dùng trong Simplicity cho các ứng dụng Bitcoin và Liquid là gì?"
+answer: "Hiệu ứng Failure (một ngoại lệ kiểu 1) và hiệu ứng Reader (quyền truy cập vào dữ liệu môi trường giao dịch)."
+wrong_answers:
+  - "Hiệu ứng State (các biến khả biến) và hiệu ứng Writer (ghi nhật ký vào nhật ký giao dịch)."
+  - "Hiệu ứng IO (giao tiếp mạng) và hiệu ứng Memory (cấp phát bộ nhớ động)."
+  - "Hiệu ứng Continuation (callback) và hiệu ứng Nondeterminism (nhiều đường thực thi)."
+explanation: >-
+  Simplicity dùng đúng hai hiệu ứng phụ cho các ứng dụng blockchain. Hiệu ứng Failure cho phép
+  các tính toán hủy bỏ (ví dụ, khi kiểm tra chữ ký thất bại), và hiệu ứng Reader cho phép
+  các biểu thức đọc dữ liệu từ môi trường giao dịch. Các tổ hợp tử cốt lõi vẫn thuần khiết —
+  hiệu ứng phụ được đưa vào thông qua các jet.
+reviewed: true

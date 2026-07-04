@@ -1,0 +1,12 @@
+question: Parallel composition में input का क्या होता है?
+answer: दोनों operations को वही same input मिलता है, और उनके outputs एक product (pair) बनाते हैं।
+wrong_answers:
+  - input आधे में split होता है, और प्रत्येक operation को एक separate part मिलता है।
+  - एक operation पहले input को process करता है, और दूसरा modified result प्राप्त करता है।
+  - input को tag करके process करने के लिए दो operations में से सिर्फ एक तक route किया जाता है।
+explanation: >-
+  Parallel composition दोनों operations को वही same unmodified input
+  simultaneously देती है। Results को product type (pair) में bundle किया
+  जाता है। Simplicity में यह pair combinator का उपयोग करता है, जिसे f ▵ g
+  लिखा जाता है, जो input a के लिए ⟨f(a), g(a)⟩ produce करता है।
+reviewed: false

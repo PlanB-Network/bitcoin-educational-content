@@ -1,0 +1,13 @@
+question: Simplicity තුළ jets වල භූමිකාව කුමක්ද?
+answer: Jets යනු වේගය සඳහා දෙන ලද Simplicity expressions වෙනුවට භාවිතා කරන native implementations වේ.
+wrong_answers:
+  - Jets යනු Simplicity Bitcoin Script බවට පරිවර්තනය කරන compilation step එකකි.
+  - Jets යනු Simplicity programs සියලු nodes වෙත broadcast කරන network messages වේ.
+  - Jets යනු Simplicity expressions test කිරීම සහ trace කිරීම සඳහා debugging tools වේ.
+explanation: >-
+  jet එකක් යනු විශේෂිත Simplicity expression එකක් (එහි Merkle root මඟින් හඳුනාගත්)
+  වෙනුවට ආදේශ කිරීමට network එක එකඟ වන native implementation එකකි.
+  Simplicity expression එක jet එක compute කරන දෙය සඳහා formal specification ලෙස
+  සේවය කරන අතර, native code ප්‍රායෝගික execution speed සපයයි.
+  පොදු jets SHA-256 වැනි arithmetic සහ cryptographic operations හසුරුවයි.
+reviewed: false

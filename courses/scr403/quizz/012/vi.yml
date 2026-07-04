@@ -1,0 +1,13 @@
+question: Vai trò của jet trong Simplicity là gì?
+answer: Jet là các triển khai native thay thế các biểu thức Simplicity nhất định để tăng tốc độ.
+wrong_answers:
+  - Jet là một bước biên dịch chuyển Simplicity thành Bitcoin Script.
+  - Jet là các thông điệp mạng phát tán chương trình Simplicity đến mọi node.
+  - Jet là các công cụ gỡ lỗi để kiểm thử và truy vết biểu thức Simplicity.
+explanation: >-
+  Một jet là một triển khai native mà mạng lưới đồng ý dùng để thay thế
+  cho một biểu thức Simplicity cụ thể (được nhận diện bằng Merkle root của nó).
+  Biểu thức Simplicity đóng vai trò đặc tả hình thức cho điều jet tính toán,
+  trong khi mã native cung cấp tốc độ thực thi thực tiễn. Các jet phổ biến xử lý
+  những thao tác số học và mật mã như SHA-256.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "De ce este efectul Failure comutativ în Simplicity, deși excepțiile nu sunt de obicei comutative?"
+answer: Deoarece tipul excepției este unit (1), cu o singură valoare posibilă, astfel încât ordinea aruncării nu contează.
+wrong_answers:
+  - Deoarece Simplicity execută toate expresiile într-o ordine deterministă definită de arborele de combinatori.
+  - Deoarece efectul Failure este mereu prins și apoi retransmis de combinatorul case.
+  - Deoarece Simplicity folosește verificare în lot (batch), ceea ce face echivalente toate excepțiile aruncate.
+explanation: >-
+  În general, excepțiile nu sunt comutative deoarece expresii diferite pot arunca valori de excepție
+  diferite. Totuși, Simplicity restricționează excepțiile la tipul unit (o singură valoare posibilă),
+  astfel încât interschimbarea ordinii a două expresii care ar putea eșua produce aceeași excepție, indiferent
+  care dintre ele eșuează efectiv. Această proprietate de comutativitate permite optimizări importante ale programului.
+reviewed: true

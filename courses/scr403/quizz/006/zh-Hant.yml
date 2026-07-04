@@ -1,0 +1,9 @@
+question: 完備性定理保證了關於 Simplicity 的什麼？
+answer: 任何介於兩個 Simplicity 型別之間的函式都能由這九個組合子建構出來。
+wrong_answers:
+  - Simplicity 程式保證總是在常數時間內終止。
+  - Simplicity 是圖靈完備的，且能模擬任何圖靈機。
+  - 每個有效的 Simplicity 程式都有唯一單一的表示。
+explanation: >-
+  完備性定理證明，對於任何介於有限 Simplicity 型別之間的函式，都存在一個能計算它的 Simplicity 運算式。這個構造性證明使用巢狀的 case 與 scribe 運算式建立一個查找表。此結果已在 Rocq 證明輔助器中經過形式化驗證。
+reviewed: false

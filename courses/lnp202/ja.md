@@ -399,7 +399,7 @@ Bitcoinの2つの主な価値提案は、通貨主権（もはや発行と保有
 
 
 
-最初の解決策は、単純にLightningをネイティブに使用せず、[アトミックスワップ](https://planb.academy/resources/glossary/atomic-swap)を組み込んだBitcoinまたは[Liquid](https://planb.academy/resources/glossary/liquid-network) walletを使用することです。例えば、AquaやBull Bitcoin Walletのアプリケーションはこの方法を採用しており、Lightningノードを自分で操作することなく、セルフカストディのままで[Lightningの請求書](https://planb.academy/resources/glossary/invoice-lightning)を支払うことができます。
+最初の解決策は、単純にLightningをネイティブに使用せず、[アトミックスワップ](https://planb.academy/resources/glossary/atomic-swap)を組み込んだBitcoinまたは[Liquid](https://planb.academy/resources/glossary/liquid-network) walletを使用することです。例えば、AquaやBULL Walletのアプリケーションはこの方法を採用しており、Lightningノードを自分で操作することなく、セルフカストディのままで[Lightningの請求書](https://planb.academy/resources/glossary/invoice-lightning)を支払うことができます。
 
 
 

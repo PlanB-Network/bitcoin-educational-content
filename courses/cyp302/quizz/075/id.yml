@@ -6,3 +6,4 @@ wrong_answers:
   - Ini memastikan penggunaan kunci yang unik
 explanation: |
   Prinsip Kerckhoff memungkinkan verifikasi publik terhadap cacat keamanan, seperti dalam sistem sumber terbuka, yang membuat sistem lebih dapat diandalkan melalui transparansi. Keamanan dijamin hanya oleh kunci, bukan oleh proses enkripsi itu sendiri.
+reviewed: true

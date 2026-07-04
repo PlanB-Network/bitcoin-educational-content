@@ -1,0 +1,18 @@
+question: "Het berekenen van #ᶜ(comp f g) hasht 128 bytes: tweemaal de comp-tag, gevolgd door beide onderliggende CMR's. Waarom is dat toch hoogstens één SHA-256-compressieaanroep?"
+answer: Het eerste blok van 64 bytes is de constante tag∥tag, waarvan de midstate eenmalig vooraf wordt berekend; alleen het blok met de onderliggende CMR's wordt gecomprimeerd.
+wrong_answers:
+  - Het enkel weglaten van het laatste lengte-opvulblok van SHA-256 laat de volledige 128 bytes al in één aanroep passen.
+  - De twee onderliggende CMR's worden ge-XOR-d tot één digest van 32 bytes, waardoor de invoer krimpt tot één enkel blok.
+  - SHA-256-midstate is een brede-blokvariant die berichtblokken van 128 bytes in één keer verwerkt.
+explanation: >-
+  De compressiefunctie van SHA-256 verwerkt vaste blokken van 64 bytes,
+  dus een invoer van 128 bytes vereist normaal gesproken twee aanroepen
+  (plus nog een voor de lengte-opvulling in volledige SHA-256). Omdat
+  het eerste blok van elke combinator de constante tag∥tag is, kan de
+  midstate ervan eenmalig vooraf worden berekend en gecachet; elke
+  expressie hoeft dan alleen nog het blok met de CMR's van zijn
+  onderliggende expressies vers te comprimeren. Midstates laten ook het
+  laatste opvulblok weg, maar dat alleen zou nog steeds twee
+  compressies overlaten — het vooraf berekende tag-midstate is wat het
+  terugbrengt tot hoogstens één.
+reviewed: false

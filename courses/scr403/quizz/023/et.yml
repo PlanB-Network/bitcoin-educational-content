@@ -1,0 +1,13 @@
+question: "Miks kasutab sig-all-hash Reader effecti, mitte ei võta tehinguandmeid tüübitud sisendina?"
+answer: Et jet saaks kasutada PrecomputedTransactionData't ja töötada fikseeritud keskkonnas konstantses ajas.
+wrong_answers:
+  - Sest Simplicity tüübisüsteem ei suuda põhimõtteliselt esitada tehinguandmeid tüübina.
+  - Sest Reader effect on kiirem kui nende andmete läbiviimine kombinaatoripuu kaudu.
+  - Sest tehinguandmed on Simplicity fikseeritud suurusega tüübisüsteemi mahtumiseks liiga suured.
+explanation: >-
+  Kui sig-all-hash võtaks TxEnv sisendtüübi, saaksid programmid anda jetile tehinguandmete muudetud koopiaid,
+  takistades sellel eelarvutatud räside kasutamist. Reader effecti korral pääseb jet ligi ainult
+  fikseeritud, muutumatule tehingukeskkonnale, nii et selle teostus saab turvaliselt kasutada
+  PrecomputedTransactionData't ja töötada konstantses ajas iga allkirjakontrolli kohta, vältides ruutkeerukusega
+  räsimisprobleemi, mis vaevas varajast Bitcoin Scripti.
+reviewed: true

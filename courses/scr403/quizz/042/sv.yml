@@ -1,0 +1,17 @@
+question: Vid spenderingstillfället beskärs en case-gren bort. Hur kan verifieraren ändå matcha det avslöjade programmet mot den committade CMR:en?
+answer: CMR:en är en Merkle-rot, så spenderaren tillhandahåller bara den beskurna grenens CMR, och verifieraren vecklar in den för att räkna om roten.
+wrong_answers:
+  - Verifieraren använder bara den exekverade grenen, eftersom icke-exekverade case-grenar aldrig fanns med i CMR:en.
+  - Beskurna grenar blir en kanonisk platshållare vars fasta CMR fungerar som ersättning vid omräkning av roten.
+  - Den beskurna grenens fullständiga kod finns kvar i vittnesdatan, där verifieraren hashar men inte exekverar den.
+explanation: >-
+  CMR:en för case f g är en taggad hash över båda barnens CMR:er, så
+  varje gren — exekverad eller inte — committas vid adresseringstillfäl-
+  let. Eftersom konstruktionen är ett Merkle-träd kan en beskuren gren
+  sammanfattas med enbart sin 32-byte CMR: verifieraren matar in den
+  hashen i den rekursiva beräkningen och kontrollerar att roten matchar
+  UTXO:ns commitment, utan att någonsin se den beskurna koden. Det är
+  precis därför en Merkle-rot används för commitmentet, och varför
+  eventuella witness-uttryck inuti den beskurna grenen aldrig visas
+  on-chain.
+reviewed: false

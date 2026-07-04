@@ -1,0 +1,27 @@
+id: 24bb10d6-61a2-4d5e-b861-d4e9afffd060
+name: Bitcoin Victoria Falls
+category: communities
+address_city_country: "Victoria Falls, Zimbabwe"
+address_line_2: ''
+address_line_3: ''
+language:
+  - en
+links:
+  website: 
+  twitter: https://x.com/BitcoinVicFalls
+  github: 
+  youtube: 
+tags:
+  - adoption
+  - use-case
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-13
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

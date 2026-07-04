@@ -6,4 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   Dengan XOR, 0 XOR 1 menghasilkan 1 karena bitnya berbeda.
-reviewed: false
+reviewed: true

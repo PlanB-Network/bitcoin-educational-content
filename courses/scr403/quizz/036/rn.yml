@@ -1,0 +1,15 @@
+question: push-<n ifise ubwoko Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Kubera iki output yayo itegerezwa kuba sum irimwo ubwoko bwose bwa vector Aⁿ?
+answer: Buffer Aᑉⁿ ibika ibintu bitarenga n−1, rero gusunikira ku buffer yuzuye bitanga ibintu n — Aⁿ yonyene ni yo ishobora kubiserura.
+wrong_answers:
+  - Iyo sum iha callers guhitamwo encoding ihendutse kuruta, kuko vectors ziserializa mu buryo bugufi kuruta option products.
+  - Push ishobora kunanirwa ku buffer iri ubusa, kandi ishami Aⁿ ni error case itwaye ibirimo vya kera.
+  - case isaba ko function iyo ari yo yose irya buffer ifise ubwoko bwa sum nayo itanga output ifise ubwoko bwa sum.
+explanation: >-
+  Aᑉⁿ ni ubwoko nyene bw'ama lists uburebure bwayo buri munsi ya n
+  ata kunganya, rero buffer iri ku rwego rwo hejuru rw'ubushobozi ibika
+  elements n−1. Gusunikamwo ikindi kimwe bitanga elements n neza na neza,
+  ivyo Aᑉⁿ idashobora guserura; summand Aⁿ isubiza ico gisubizo carenze
+  nk'ivector yuzuye. Gushira overflow mu bwoko bwa output bituma push-<n
+  iba function yuzuye aho kuba partial — ikibazo co kunanirwa kwa buffer iri
+  ubusa ni ica pop-<n, si ica push.
+reviewed: false

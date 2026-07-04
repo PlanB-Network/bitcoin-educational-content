@@ -1,0 +1,12 @@
+question: Simplicity có bao nhiêu combinator lõi?
+answer: Chín (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Ba (hợp thành tuần tự, hợp thành song song, điều kiện).
+  - Năm (chỉ các combinator comp, pair, case, take và drop).
+  - Mười hai (chín combinator lõi cộng thêm ba combinator mở rộng).
+explanation: >-
+  Simplicity có đúng chín combinator lõi. Hai thao tác cơ bản (iden
+  và unit), ba phương pháp hợp thành (comp, pair, case), và bốn
+  bộ truy cập (take, drop cho kiểu tích, injl và injr cho kiểu tổng). Chín
+  combinator này đủ để biểu diễn bất kỳ hàm nào giữa các kiểu Simplicity.
+reviewed: false

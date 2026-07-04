@@ -6,4 +6,4 @@ wrong_answers:
   - Mua bán một lần với số lượng lớn (Lump-Sum)
 explanation: |
   DCA (Chiến lược mua trung bình giá) liên quan đến việc đầu tư một số tiền cố định thường xuyên để giảm tác động của biến động thị trường lên danh mục đầu tư.
-reviewed: false
+reviewed: true

@@ -1,0 +1,13 @@
+question: Mikä on jetien rooli Simplicityssä?
+answer: Jetit ovat natiivitoteutuksia, jotka korvaavat tietyt Simplicity-lausekkeet nopeuden vuoksi.
+wrong_answers:
+  - Jetit ovat käännösvaihe, joka muuntaa Simplicityn Bitcoin Scriptiksi.
+  - Jetit ovat verkkoviestejä, jotka lähettävät Simplicity-ohjelmat kaikille solmuille.
+  - Jetit ovat vianetsintätyökaluja Simplicity-lausekkeiden testaamiseen ja jäljittämiseen.
+explanation: >-
+  Jet on natiivitoteutus, jonka verkko sopii korvaavan tietyn
+  Simplicity-lausekkeen (tunnistettuna sen Merkle-juurella). Simplicity-lauseke
+  toimii formaalina spesifikaationa siitä, mitä jet laskee, kun taas natiivikoodi
+  tarjoaa käytännöllisen suoritusnopeuden. Yleiset jetit hoitavat aritmeettisia
+  ja kryptografisia operaatioita, kuten SHA-256.
+reviewed: false

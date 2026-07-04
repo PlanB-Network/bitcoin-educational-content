@@ -1,0 +1,12 @@
+question: Kuinka monta ydinkombinaattoria Simplicityssä on?
+answer: Yhdeksän (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Kolme (peräkkäinen kompositio, rinnakkainen kompositio, ehtolause).
+  - Viisi (vain kombinaattorit comp, pair, case, take ja drop).
+  - Kaksitoista (yhdeksän ydin- plus kolme ylimääräistä laajennuskombinaattoria).
+explanation: >-
+  Simplicityssä on täsmälleen yhdeksän ydinkombinaattoria. Kaksi
+  perusoperaatiota (iden ja unit), kolme kompositiomenetelmää (comp, pair, case)
+  ja neljä poimijaa (take, drop tuloille, injl ja injr summille). Nämä yhdeksän
+  riittävät ilmaisemaan minkä tahansa funktion Simplicity-tyyppien välillä.
+reviewed: false

@@ -1,0 +1,16 @@
+question: Dowód zupełności buduje dowolną funkcję poprzez zagnieżdżanie case w celu dekompozycji wejścia i scribe dla każdego wyjścia. Dlaczego jest to jedynie narzędzie teoretyczne?
+answer: Powstałe wyrażenie to gigantyczna tablica przeglądowa, której rozmiar rośnie wykładniczo — wejście 256-bitowe wymagałoby około 2²⁵⁶ wpisów.
+wrong_answers:
+  - scribe jest makrem, a nie kombinatorem rdzenia, więc wyrażenie znajduje się poza formalnie zweryfikowanym językiem.
+  - Bit Machine oblicza to w czasie wykładniczym, mimo że samo wyrażenie pozostaje zwięzłe dzięki współdzieleniu.
+  - Zagnieżdżony case może dekomponować tylko typy sumowe, więc konstrukcja zawodzi na dowolnym wejściu typu produktowego.
+explanation: >-
+  Konstrukcja wylicza każde możliwe wejście poprzez zagnieżdżoną dekompozycję
+  case i zapisuje na sztywno każde wyjście za pomocą scribe, więc rozmiar
+  wyrażenia rośnie wykładniczo — astronomicznie dla realistycznych typów,
+  takich jak słowa 256-bitowe. Eksplozja dotyczy rozmiaru wyrażenia, a nie
+  czasu wykonania skądinąd zwięzłego wyrażenia. scribe rozwija się w prawdziwe
+  kombinatory rdzenia (unit, injl, injr, pair), więc wynik pozostaje wewnątrz
+  języka rdzenia, którego twierdzenie o zupełności jest formalnie zweryfikowane
+  w Rocq; a dekompozycja obsługuje wejścia dowolnego typu, w tym produkty.
+reviewed: false

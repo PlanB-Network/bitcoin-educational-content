@@ -6,4 +6,4 @@ wrong_answers:
   - Gagner de l'argent en publiant des états obsolètes de ses canaux
 explanation: |
   Le routeur cherche à acheminer les paiements des autres en percevant des frais de routage.
-reviewed: false
+reviewed: true 

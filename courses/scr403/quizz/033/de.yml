@@ -1,0 +1,15 @@
+question: Welche Kern-Kombinatoren bewegen bei der Ausführung angesichts der 'kleinere Typen in den Prämissen'-Typregeln tatsächlich Daten?
+answer: Nur iden und comp; die anderen sieben werden mit nichts als Buchführung implementiert.
+wrong_answers:
+  - Nur take und drop; das Extrahieren einer Komponente zwingt die Maschine, sie aus dem Produkt herauszukopieren.
+  - Nur pair und case; das Duplizieren der Eingabe für zwei Zweige und das Verzweigen anhand eines Tags verschieben Daten.
+  - Nur injl und injr; das Hinzufügen eines Tags schreibt den Wert in eine größere Summentyp-Darstellung um.
+explanation: >-
+  Kontraintuitiv benötigen die Kombinatoren, die wie Datenzugriff aussehen
+  (take, drop, pair, case, injl, injr), kein Kopieren: Da die Prämissen in
+  den Typregeln kleinere Typen als ihre Konklusionen betreffen, kann die
+  Bit Machine sie allein mit Buchführung implementieren. Nur iden, das
+  seine gesamte Eingabe auf die Ausgabe kopiert, und comp, das einen
+  Zwischenwert materialisiert, der von f an g übergeben wird, bewegen
+  tatsächlich Daten.
+reviewed: false

@@ -1,0 +1,15 @@
+question: "นิพจน์ core-combinator ใดใช้งานฟังก์ชันการแจกแจง dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  ภายในแต่ละสาขาของ case สภาพแวดล้อมถูกจับคู่กับค่าที่ถอดแท็กแล้วอยู่แล้ว
+  ดังนั้น f = injl iden และ g = injr iden จึงให้ ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ และ ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — ซึ่งก็คือ dist อย่างพอดี
+  เวอร์ชัน take/drop ผ่านการตรวจชนิด แต่ทิ้งการจับคู่นั้นไป โดยหมายถึงฟังก์ชันชนิด (A +
+  B) × C ⊢ A + C แทน pair สร้าง product แทน sum และ
+  copair ไม่ใช่คอมบิเนเตอร์ของ Simplicity เลย — dist คือสิ่งที่
+  copair เพียงอย่างเดียวไม่สามารถแสดงได้อย่างแม่นยำ
+reviewed: false

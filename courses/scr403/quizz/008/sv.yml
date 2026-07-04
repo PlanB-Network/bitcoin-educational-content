@@ -1,0 +1,13 @@
+question: Hur fungerar den logiska AND-operationen i Simplicity?
+answer: Den förgrenar sig på den första biten — om false returneras false, annars den andra biten.
+wrong_answers:
+  - Den multiplicerar de två booleska värdena med varandra med hjälp av produkttypen.
+  - Den använder en uppslagstabell med alla fyra möjliga indatakombinationer.
+  - Den tillämpar XOR-kombinatorn och sedan NOT-kombinatorn på resultatet.
+explanation: >-
+  AND definieras som case (injl unit) (drop iden). Kombinatorn case
+  förgrenar sig på den första biten. Om den är false (vänstertaggad)
+  returnerar injl unit false oavsett den andra biten. Om den är true
+  (högertaggad) returnerar drop iden den andra biten oförändrad.
+  Detta matchar sanningstabellen för AND.
+reviewed: false

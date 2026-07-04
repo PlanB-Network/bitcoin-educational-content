@@ -1,0 +1,12 @@
+question: parallel composition හි input එකට සිදුවන්නේ කුමක්ද?
+answer: operations දෙකම එකම input එක ලබා ගනී, සහ ඒවායේ outputs product එකක් (pair) සාදයි.
+wrong_answers:
+  - input එක අඩක් ලෙස බෙදී, එක් එක් operation එක වෙනම කොටසක් ලබා ගනී.
+  - එක් operation එකක් input එක පළමුව process කරයි, අනෙක් එකට වෙනස් කළ result එක ලැබේ.
+  - input එක tag කර, process කිරීමට operations දෙකෙන් එකකට පමණක් route කරයි.
+explanation: >-
+  parallel composition එකම වෙනස් නොකළ input එක operations දෙකටම එකවර ලබා දෙයි.
+  ප්‍රතිඵල product type එකක් (pair) ලෙස එකට bundle කරයි. Simplicity තුළ
+  මෙය pair combinator භාවිතා කරයි, f ▵ g ලෙස ලියයි, එය input a සඳහා
+  ⟨f(a), g(a)⟩ නිපදවයි.
+reviewed: false

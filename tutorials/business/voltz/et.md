@@ -19,7 +19,7 @@ Lisaks sellele, et Voltz on eestkostetav Lightning wallet, mis võimaldab teil i
 
 
 
-Mine [Voltz] platvormile (https://www.voltz.com/en) ja loo konto, klõpsates nupule "Proovi nüüd".
+Mine [Voltz] platvormile (https://www.lnvoltz.xyz/en) ja loo konto, klõpsates nupule "Proovi nüüd".
 
 
 

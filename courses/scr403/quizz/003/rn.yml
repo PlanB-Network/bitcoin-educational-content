@@ -1,0 +1,13 @@
+question: Ubwoko bwa boolean (𝟚) busigurwa gute muri Simplicity?
+answer: Nk'ubwoko bw'igiteranyo 𝟙 + 𝟙, bufise neza na neza agaciro kabiri (false na true).
+wrong_answers:
+  - Nk'ubwoko bw'igikubo 𝟙 × 𝟙 bwoca bugira agaciro kamwe gusa.
+  - Nk'ubwoko bwa primitive budasanzwe bwubatswe mu rurimi ubwaro.
+  - Nk'ubwoko bw'umubare w'intibice 32 bugarukira gusa ku gaciro 0 na 1.
+explanation: >-
+  Ubwoko bwa boolean 𝟚 busigurwa nka 𝟙 + 𝟙, igiteranyo c'ubwoko bubiri bwa unit. Agaciro
+  gafise ikimenyetso c'ibubamfu σᴸ⟨⟩ kagereranya false (0), agaciro gafise ikimenyetso
+  c'iburyo σᴿ⟨⟩ na ko kagereranya true (1). Ubu ni ubwoko bw'amakuru bw'intibice imwe
+  bwubatswe gusa buvuye ku bwoko bwa unit no ku mwubatsi w'ubwoko bw'igiteranyo —
+  umwubatsi w'igikubo ntukenewe.
+reviewed: false

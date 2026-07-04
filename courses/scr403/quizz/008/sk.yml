@@ -1,0 +1,12 @@
+question: Ako funguje logická operácia AND v Simplicity?
+answer: Vetví sa podľa prvého bitu — ak je false, vráti false, inak druhý bit.
+wrong_answers:
+  - Vynásobí dve logické hodnoty pomocou súčinového typu.
+  - Používa vyhľadávaciu tabuľku so všetkými štyrmi možnými kombináciami vstupov.
+  - Aplikuje kombinátor XOR a potom kombinátor NOT na výsledok.
+explanation: >-
+  AND je definovaný ako case (injl unit) (drop iden). Kombinátor case sa
+  vetví podľa prvého bitu. Ak je false (ľavo označený), injl unit vráti
+  false bez ohľadu na druhý bit. Ak je true (pravo označený), drop iden
+  vráti druhý bit nezmenený. To zodpovedá pravdivostnej tabuľke AND.
+reviewed: false

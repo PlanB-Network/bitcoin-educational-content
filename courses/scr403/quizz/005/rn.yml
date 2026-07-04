@@ -1,0 +1,12 @@
+question: Simplicity ifise abateranyi nyamukuru bangahe?
+answer: Icenda (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Batatu (uguteranya ku murongo, uguteranya bibangikanye, ihitamwo).
+  - Batanu (abateranyi comp, pair, case, take, na drop gusa).
+  - Cumi na babiri (icenda nyamukuru wongeyeko abateranyi batatu b'ukwagura).
+explanation: >-
+  Simplicity ifise neza na neza abateranyi nyamukuru icenda. Ibikorwa bibiri vy'ishimikiro (iden
+  na unit), uburyo butatu bwo guteranya (comp, pair, case), n'abakuramwo bane
+  (take, drop ku bikubo, injl na injr ku bigiteranyo). Abo icenda
+  barahagije kugira ngo baserure igikorwa cose hagati y'ubwoko bwa Simplicity.
+reviewed: false

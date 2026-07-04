@@ -1,0 +1,12 @@
+question: "Czym jest Commitment Merkle Root (CMR) w Simplicity?"
+answer: 256-bitowym hashem zobowiązującym się do struktury programu Simplicity za pomocą otagowanego SHA-256.
+wrong_answers:
+  - Drzewem binarnym zawierającym wszystkie możliwe ścieżki wykonania programu Simplicity.
+  - Hashem typów programu i wartości witness używanym do weryfikacji adresu.
+  - Korzeniem Merkle danych transakcji, do których program ma uprawniony dostęp.
+explanation: >-
+  Każdy kombinator Simplicity ma unikalny tag SHA-256 (np. Simplicity␟Commitment␟iden), a
+  CMR jest obliczany przez rekurencyjne haszowanie drzewa kombinatorów programu przy użyciu tych otagowanych stanów pośrednich.
+  Co ważne, CMR nie zobowiązuje się do typów wyrażeń, opierając się na wnioskowaniu o typach
+  podczas realizacji. CMR-y są używane do zapisywania programów w adresach Taproot.
+reviewed: true

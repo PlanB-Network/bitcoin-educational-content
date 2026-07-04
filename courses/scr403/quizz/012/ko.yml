@@ -1,0 +1,12 @@
+question: Simplicity의 타입 시스템에서 고정 길이 vector는 어떻게 만들어지나요?
+answer: 2의 거듭제곱 길이를 가진 중첩 곱 타입을 통해 만들어집니다(예를 들어 A⁴ = A² × A²).
+wrong_answers:
+  - 언어에 내장된 특별한 array 타입 생성자를 사용합니다.
+  - 원소들을 list로 연결하는 재귀 합 타입을 통해 만듭니다.
+  - 고정된 최대 크기를 가진 가변 길이 buffer를 사용합니다.
+explanation: >-
+  Simplicity는 중첩 곱 타입으로 vector를 만듭니다. A²는 A × A이고,
+  A⁴는 A² × A²이며, A⁸은 A⁴ × A⁴인 식입니다. 이는 2의 거듭제곱 크기의
+  collection을 제공합니다. 예를 들어 𝟚²⁵⁶(256비트 hash)는 불리언 타입에서
+  시작해 곱을 8단계 깊이로 중첩하여 만들어집니다.
+reviewed: false

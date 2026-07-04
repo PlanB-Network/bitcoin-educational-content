@@ -1,0 +1,11 @@
+question: half-adder는 무엇을 계산하나요?
+answer: 두 입력 비트의 캐리(AND)와 합(XOR)입니다.
+wrong_answers:
+  - 캐리 전파를 포함한 두 multi-bit 정수의 합입니다.
+  - 내림한 두 비트의 평균입니다.
+  - 두 입력 비트의 bitwise OR와 AND입니다.
+explanation: >-
+  half-adder는 두 개의 단일 비트를 받아 병렬 합성을 사용해 두 출력을 생성합니다.
+  캐리 비트(입력들의 AND)와 합 비트(입력들의 XOR)입니다. Simplicity에서는
+  and ▵ xor로 정의되어, 같은 입력 쌍에 두 연산을 모두 실행합니다.
+reviewed: false

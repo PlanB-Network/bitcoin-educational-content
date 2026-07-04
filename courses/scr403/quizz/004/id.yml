@@ -1,0 +1,13 @@
+question: Berapa banyak kombinator inti yang dimiliki Simplicity?
+answer: Sembilan (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tiga (komposisi sekuensial, komposisi paralel, kondisional).
+  - Lima (hanya kombinator comp, pair, case, take, dan drop).
+  - Dua belas (sembilan inti ditambah tiga kombinator ekstensi tambahan).
+explanation: >-
+  Simplicity memiliki tepat sembilan kombinator inti. Dua operasi dasar
+  (iden dan unit), tiga metode komposisi (comp, pair, case), dan empat
+  pengakses (take, drop untuk produk, injl dan injr untuk jumlah). Kesembilan
+  kombinator ini cukup untuk mengekspresikan fungsi apa pun antar tipe
+  Simplicity.
+reviewed: false

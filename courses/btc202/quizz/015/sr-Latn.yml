@@ -1,9 +1,9 @@
-question: Koja je glavna alternativna implementacija Bitcoin core?
+question: Koja je glavna alternativna implementacija Bitcoin Core-a?
 answer: Bitcoin Knots
 wrong_answers:
   - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |
-  Bitcoin Knots, razvijen od strane Luke Dashjr, je Fork od Core, nudeći dodatne opcije i konzervativniju viziju.
+  Bitcoin Knots, razvijen od strane Luke Dashjr, je fork od Core-a, nudeći dodatne opcije i konzervativniju viziju.
 reviewed: true

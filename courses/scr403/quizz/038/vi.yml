@@ -1,0 +1,16 @@
+question: Một jet half-agg-verify ghi một tập các tuple như một hiệu ứng Writer. Theo phép kiểm tra giao hoán/lũy đẳng/đơn vị, thiết kế dùng tập đạt được điều gì, và còn thiếu gì?
+answer: "Giao hoán và lũy đẳng (như Simplicity yêu cầu), nhưng không đơn vị: loại bỏ một lời gọi sẽ làm mất tuple của nó và bỏ qua một chữ ký."
+wrong_answers:
+  - Lũy đẳng và đơn vị, nhưng không giao hoán, vì aggregate phải kết hợp các thành phần r theo thứ tự ký.
+  - Cả ba, nên optimizer có thể tự do nhân đôi, sắp xếp lại hoặc loại bỏ các lời gọi mà không có rủi ro.
+  - Giao hoán nhưng không lũy đẳng, vì ghi cùng một tuple hai lần sẽ đòi hỏi hai thành phần s aggregate.
+explanation: >-
+  Xem writer log như một tập khiến hiệu ứng trở nên lũy đẳng và giao hoán,
+  vì chính phép chèn vào tập có cả hai thuộc tính — đúng hai thuộc tính mà
+  Simplicity đòi hỏi ở mọi hiệu ứng. Tính đơn vị vẫn ngoài tầm với: giống
+  như Failure, thao tác ghi ảnh hưởng đến tính hợp lệ của giao dịch, vì
+  giao dịch chỉ hợp lệ khi một thành phần s aggregate bao phủ mọi tuple đã
+  ghi. Vì vậy một biểu thức thực hiện thao tác ghi không thể bị loại bỏ chỉ
+  vì đầu ra kiểu đơn vị của nó không được dùng, bởi tuple của nó sẽ âm thầm
+  biến mất khỏi quy trình xác minh half-aggregation.
+reviewed: false

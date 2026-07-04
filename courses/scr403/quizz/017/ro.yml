@@ -1,0 +1,14 @@
+question: Cum funcționează notația de acces (O, I, H) în Simplicity?
+answer: O înseamnă „take” (stânga), I înseamnă „drop” (dreapta), iar H înseamnă „iden” (întreaga valoare).
+wrong_answers:
+  - O înseamnă output, I înseamnă input, iar H înseamnă halt (oprirea execuției programului).
+  - Sunt nume de variabile pe care compilatorul le atribuie automat valorilor.
+  - O selectează elementele cu index impar, I selectează elementele cu index par, H selectează capul (head).
+explanation: >-
+  Prescurtarea O/I/H oferă o modalitate compactă de a naviga prin perechi
+  imbricate. O f este take f (extrage stânga), I f este drop f (extrage
+  dreapta), iar H este iden (întreaga valoare). Secvențe precum I O H
+  înseamnă drop(take(iden)), extrăgând primul element din al doilea element.
+  Acest lucru seamănă cu indicii De Bruijn, folosind cifre binare drept
+  poziții în arbore.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Simplicity ifadeleri neden ağaçlar yerine DAG olarak serileştirilir?
+answer: Üstel büyümeyi önlemek için, çünkü paylaşılan alt ifadeler yalnızca bir kez depolanır.
+wrong_answers:
+  - Çünkü düz ağaç yapıları koşullu dallanmayı hiçbir şekilde temsil edemez.
+  - Çok sayıda ayrı çok çekirdekli işlemcide paralel yürütmeyi mümkün kılmak için.
+  - Çünkü Liquid Network protokolü burada DAG formatını katı şekilde zorunlu kılar.
+explanation: >-
+  Simplicity ifadeleri doğal olarak, karmaşıklık arttıkça üstel olarak
+  büyüyebilecek ağaçlar oluşturur. Yönlendirilmiş çevrimsiz grafikler (DAG'ler)
+  olarak serileştirildiklerinde, birden çok kez görünen alt ifadeler bir kez
+  depolanır ve birden çok ebeveyn tarafından referans verilir. Bu, gerçek
+  program boyutlarının üstel değil doğrusal büyümesini sağlar.
+reviewed: false

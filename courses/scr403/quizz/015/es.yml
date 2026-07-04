@@ -1,0 +1,14 @@
+question: ¿Por qué el combinador 'case' incluye un tipo de entorno compartido C en su firma?
+answer: Para que ambas ramas puedan leer datos de contexto compartidos junto con la entrada etiquetada.
+wrong_answers:
+  - Para limitar el tamaño de la entrada y evitar desbordamientos de pila.
+  - Para permitir llamadas recursivas de ida y vuelta entre las dos ramas.
+  - Para almacenar la salida del combinador anterior en la cadena.
+explanation: >-
+  El combinador case tiene la firma (A + B) × C ⊢ D. El tipo adicional C
+  actúa como un entorno compartido al que pueden acceder tanto la rama
+  izquierda (f : A × C ⊢ D) como la rama derecha (g : B × C ⊢ D). Esto es
+  más potente que un simple if-then-else, ya que las ramas reciben tanto
+  sus datos específicos como la información contextual necesaria para el
+  cálculo.
+reviewed: false

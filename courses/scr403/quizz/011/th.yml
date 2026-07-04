@@ -1,0 +1,13 @@
+question: บทบาทของ jets ใน Simplicity คืออะไร?
+answer: Jets คือ native implementations ที่แทนที่นิพจน์ Simplicity ที่กำหนดไว้เพื่อเพิ่มความเร็ว.
+wrong_answers:
+  - Jets คือขั้นตอน compilation ที่แปลง Simplicity เป็น Bitcoin Script.
+  - Jets คือข้อความเครือข่ายที่ broadcast โปรแกรม Simplicity ไปยัง node ทั้งหมด.
+  - Jets คือเครื่องมือ debugging สำหรับทดสอบและ trace นิพจน์ Simplicity.
+explanation: >-
+  jet คือ native implementation ที่เครือข่ายตกลงให้ใช้แทนนิพจน์ Simplicity
+  เฉพาะตัวหนึ่ง (ระบุด้วย Merkle root ของมัน) นิพจน์ Simplicity ทำหน้าที่เป็น
+  formal specification ว่า jet นั้นคำนวณอะไร ขณะที่ native code ให้ความเร็ว
+  ในการ execution ที่ใช้งานได้จริง jets ทั่วไปจัดการปฏิบัติการเลขคณิตและ
+  เข้ารหัสลับ เช่น SHA-256.
+reviewed: false

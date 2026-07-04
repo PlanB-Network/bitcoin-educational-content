@@ -1,0 +1,11 @@
+question: "Bir Simplicity programının türü nedir?"
+answer: 1 ⊢ 1 (birimden birime) — anlamlı girdi veya çıktı yoktur; I/O'yu yan etkiler yapar.
+wrong_answers:
+  - TxEnv ⊢ Bool — işlem verilerini alır ve bir geçerlilik Boole değeri döndürür.
+  - 2^256 ⊢ 2^256 — bir hash girdisi alır ve yeni bir hash çıktı değeri döndürür.
+  - Herhangi bir A ⊢ B türü — programlar tamamen keyfi girdi ve çıktı türlerine sahip olabilir.
+explanation: >-
+  Bir Simplicity programı, 1 ⊢ 1 türünde bir ifade olarak tanımlanır. Reader etkisi
+  işlem ortamı girdisini yakalarken, Failure etkisi başarıyı veya başarısızlığı belirler.
+  Tüm I/O'yu Simplicity türlerinin kendisi yerine bu yan etkiler yönetir.
+reviewed: true

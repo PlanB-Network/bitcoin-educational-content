@@ -1,0 +1,18 @@
+question: Simplicitys Effekte sind kommutativ und idempotent, aber nicht unitär. Welche Optimierer-Transformation muss deshalb im Allgemeinen verweigert werden?
+answer: Das Ersetzen eines scheinbar toten Ausdrucks durch unit — Failure ist nicht unitär, sodass dabei eine fehlschlagende Prüfung verborgen werden könnte, die eigentlich abbrechen muss.
+wrong_answers:
+  - Das Vertauschen zweier unabhängiger Teilausdrücke, da ein sig-all-hash einen anderen Umgebungszustand beobachten könnte.
+  - Das Zusammenführen zweier identischer verify-Aufrufe, da ein duplizierter Failure zweimal auslösen und fälschlich abbrechen würde.
+  - Das Umordnen von Ausdrücken, die auslösen können, da die propagierte Ausnahme davon abhängt, welche Seite zuerst ausgeführt wird.
+explanation: >-
+  Da Simplicitys Effekte garantiert kommutativ und idempotent sind, sind
+  das Vertauschen unabhängiger Teilausdrücke sowie das Duplizieren oder
+  Zusammenführen identischer Teilausdrücke stets sicher; die
+  Reader-Umgebung ist fest, und Failures unit-typisierte Ausnahme ist
+  identisch, egal welche Seite zuerst auslöst oder wie oft. Die
+  Verwerfungs-Transformation `f ⨾ unit = unit` erfordert jedoch
+  Unitarität, die Failure fehlt: Enthält f eine `bip0340-verify`-Prüfung
+  einer ungültigen Signatur, würde das Wegoptimieren des 'toten' Codes den
+  Abbruch entfernen und eine Transaktion validieren, die eigentlich
+  fehlschlagen sollte.
+reviewed: false

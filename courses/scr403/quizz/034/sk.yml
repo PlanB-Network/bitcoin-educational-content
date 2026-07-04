@@ -1,0 +1,14 @@
+question: Úplná sčítačka vykoná OR na prenosových bitoch svojich dvoch polovičných sčítačiek namiesto XOR. Prečo je OR správne?
+answer: Nanajvýš jedna polovičná sčítačka môže pre akýkoľvek vstup generovať prenos, takže OR presne zlúči dva vzájomne sa vylučujúce prípady.
+wrong_answers:
+  - Oba prenosové bity treba sčítať a OR je spôsob, akým sa v Simplicity vykonáva jednobitové binárne sčítanie.
+  - Po vetvení je OR jediný booleovský operátor, ktorého typ stále zodpovedá prostrediu.
+  - OR prenos nadhodnocuje; akékoľvek falošné prenosy sú následne zahodené záverečnou projekciou.
+explanation: >-
+  Ak prvá polovičná sčítačka generuje prenos, oba jej vstupné bity boli 1,
+  takže jej súčtový bit je 0 — a polovičná sčítačka, ktorej je odovzdaná 0,
+  nikdy nemôže generovať prenos. Oba prenosové bity teda nikdy nie sú
+  súčasne 1 a OR ich presne zlúči (na dosiahnuteľných vstupoch sa dokonca
+  zhoduje s XOR). Práve táto vzájomná výlučnosť je to, čo robí rozklad
+  úplnej sčítačky na dve polovičné sčítačky správnym.
+reviewed: false

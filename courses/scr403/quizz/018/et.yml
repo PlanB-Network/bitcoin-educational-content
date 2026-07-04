@@ -1,0 +1,13 @@
+question: Kuidas esitatakse muutuva pikkusega puhvreid Simplicity tüübisüsteemis?
+answer: Pesastatud option-tüübi korrutistena, kus iga kiht märgib kahe astme suuruse ploki olemasolu.
+wrong_answers:
+  - Kasutades spetsiaalset dünaamilise massiivi tüüpi, mis on otse keelde sisse ehitatud.
+  - Rekursiivsete summatüüpide kaudu, mis kasvavad iga funktsiooniväljakutsega suuremaks.
+  - Fikseeritud suurusega vektoritena, mis täidetakse lõpus nullväärtustega.
+explanation: >-
+  Puhvrid kasutavad pesastatud option-tüüpe. Näiteks Xᑉ⁸ laieneb kujule
+  (1 + X⁴) × ((1 + X²) × (1 + X)), mis polünoomina annab
+  1 + X + X² + ... + X⁷ — esindades 0 kuni 7 elemendiga kogumeid.
+  Iga option-kiht näitab, kas kahe astme suurune plokk on olemas,
+  kodeerides pikkuse tõhusalt binaarselt.
+reviewed: false

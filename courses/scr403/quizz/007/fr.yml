@@ -1,0 +1,13 @@
+question: Comment le type booléen (𝟚) est-il défini en Simplicity ?
+answer: Comme le type somme 𝟙 + 𝟙, contenant exactement deux valeurs (faux et vrai).
+wrong_answers:
+  - Comme un type produit 𝟙 × 𝟙 qui ne contiendrait alors qu'une seule valeur.
+  - Comme un type primitif spécial intégré directement au langage.
+  - Comme un type entier 32 bits restreint aux seules valeurs 0 et 1.
+explanation: >-
+  Le type booléen 𝟚 est défini comme 𝟙 + 𝟙, une somme de deux types unité. La
+  valeur étiquetée à gauche σᴸ⟨⟩ représente faux (0) et la valeur étiquetée
+  à droite σᴿ⟨⟩ représente vrai (1). C'est un type de données d'un bit construit
+  uniquement à partir du type unité et du formateur de type somme — le formateur
+  de type produit n'est pas nécessaire.
+reviewed: false

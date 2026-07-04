@@ -1,0 +1,16 @@
+question: Täydellisyystodistus rakentaa minkä tahansa funktion sisäkkäistämällä case-lausekkeita syötteen hajottamiseksi ja käyttämällä scribea kullekin tulosteelle. Miksi se on vain teoreettinen työkalu?
+answer: Tuloksena oleva lauseke on jättimäinen hakutaulu, jonka koko kasvaa eksponentiaalisesti — 256-bittinen syöte tarvitsisi noin 2²⁵⁶ merkintää.
+wrong_answers:
+  - scribe on makro, ei ydinkombinaattori, joten lauseke jää formaalisti verifioidun kielen ulkopuolelle.
+  - Bit Machine evaluoi sen eksponentiaalisessa ajassa, vaikka lauseke itsessään pysyy kompaktina jakamisen ansiosta.
+  - Sisäkkäinen case voi hajottaa vain summatyyppejä, joten konstruktio epäonnistuu millä tahansa tulotyyppisellä syötteellä.
+explanation: >-
+  Konstruktio luettelee jokaisen mahdollisen syötteen sisäkkäisellä
+  case-hajotelmalla ja kovakoodaa kunkin tulosteen scribella, joten lausekkeen
+  koko räjähtää eksponentiaalisesti — tähtitieteellisen suureksi realistisilla
+  tyypeillä kuten 256-bittisillä sanoilla. Paisuminen on lausekkeen koossa, ei
+  muuten kompaktin lausekkeen suoritusajassa. scribe laajenee aidoiksi
+  ydinkombinaattoreiksi (unit, injl, injr, pair), joten tulos pysyy ydinkielen
+  sisällä, jonka täydellisyyslause on formaalisti verifioitu Rocqissa; ja
+  hajotelma käsittelee minkä tahansa tyypin syötteitä, tulot mukaan lukien.
+reviewed: false

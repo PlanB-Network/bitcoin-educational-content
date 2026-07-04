@@ -1,0 +1,14 @@
+question: Full-adderen bruker OR på mentebitene fra sine to halv-addere i stedet for XOR. Hvorfor er OR korrekt?
+answer: Høyst én halv-adder kan gi mente for en gitt inndata, så OR slår sammen to gjensidig utelukkende tilfeller nøyaktig.
+wrong_answers:
+  - De to mentebitene må adderes, og OR er slik enbits binær addisjon gjøres i Simplicity.
+  - Etter forgreningen er OR den eneste boolske operatoren hvis type fortsatt matcher miljøet.
+  - OR overestimerer menten; eventuelle falske menter fjernes av den siste projeksjonen etterpå.
+explanation: >-
+  Hvis den første halv-adderen gir mente, var begge dens inndatabiter 1, så
+  dens sumbit er 0 — og en halv-adder som mates med 0 kan aldri gi mente.
+  De to mentebitene er derfor aldri samtidig 1, og OR slår dem sammen
+  nøyaktig (på de nåbare inndataene sammenfaller den til og med med XOR).
+  Denne gjensidige utelukkelsen er nettopp det som gjør dekomponeringen av
+  en full-adder til to halv-addere korrekt.
+reviewed: false

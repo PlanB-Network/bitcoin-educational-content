@@ -1,0 +1,17 @@
+question: Het volledigheidsbewijs bouwt elke functie op door case genest toe te passen om de invoer te ontleden en scribe voor elke uitvoer. Waarom is het slechts een theoretisch hulpmiddel?
+answer: De resulterende expressie is een gigantische opzoektabel waarvan de grootte exponentieel groeit — een 256-bits invoer zou ongeveer 2²⁵⁶ items nodig hebben.
+wrong_answers:
+  - scribe is een macro, geen kerncombinator, dus valt de expressie buiten de formeel geverifieerde taal.
+  - De Bit Machine evalueert het in exponentiële tijd, ook al blijft de expressie zelf compact dankzij sharing.
+  - Geneste case kan alleen somtypen ontleden, dus faalt de constructie bij elke invoer van een producttype.
+explanation: >-
+  De constructie somt elke mogelijke invoer op via geneste case-
+  ontleding en hardcodeert elke uitvoer met scribe, waardoor de grootte
+  van de expressie exponentieel explodeert — astronomisch voor
+  realistische typen zoals 256-bits woorden. De explosie zit in de
+  grootte van de expressie, niet in de looptijd van een verder compacte
+  expressie. scribe wordt uitgevouwen tot echte kerncombinators (unit,
+  injl, injr, pair), zodat het resultaat binnen de kerntaal blijft,
+  waarvan de volledigheidsstelling formeel geverifieerd is in Rocq; en
+  de ontleding verwerkt invoer van elk type, inclusief producten.
+reviewed: false

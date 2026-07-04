@@ -6,4 +6,4 @@ wrong_answers:
   - Nó thay thế nhu cầu sử dụng phần mềm diệt vi-rút
 explanation: |
   Ứng dụng quản lý mật khẩu tạo ra các mật khẩu mạnh và lưu trữ chúng một cách an toàn, cho phép dễ dàng truy xuất mà không cần phải ghi nhớ chúng.
-reviewed: false
+reviewed: true

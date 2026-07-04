@@ -1,0 +1,17 @@
+question: Au moment de la dépense, une branche de case est élaguée. Comment le vérificateur peut-il quand même faire correspondre le programme révélé au CMR engagé ?
+answer: Le CMR est une racine de Merkle, donc le dépensier fournit seulement le CMR de la branche élaguée et le vérificateur l'intègre pour recalculer la racine.
+wrong_answers:
+  - Le vérificateur n'utilise que la branche exécutée, puisque les branches de case non exécutées n'ont jamais figuré dans le CMR.
+  - Les branches élaguées deviennent un espace réservé canonique dont le CMR fixe remplace celui-ci lors du recalcul de la racine.
+  - Le code complet de la branche élaguée reste dans le témoin, où le vérificateur le hache mais ne l'exécute pas.
+explanation: >-
+  Le CMR de case f g est un hachage étiqueté sur les CMR des deux enfants,
+  donc chaque branche — exécutée ou non — est engagée au moment de
+  l'adressage. Comme la construction est un arbre de Merkle, une branche
+  élaguée peut être résumée par son seul CMR de 32 octets : le vérificateur
+  insère ce hachage dans le calcul récursif et vérifie que la racine
+  correspond à l'engagement de l'UTXO, sans jamais voir le code élagué.
+  C'est précisément pourquoi une racine de Merkle est utilisée pour
+  l'engagement, et pourquoi toute expression témoin à l'intérieur de la
+  branche élaguée n'apparaît jamais sur la chaîne.
+reviewed: false

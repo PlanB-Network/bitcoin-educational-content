@@ -1,0 +1,12 @@
+question: Kolik základních kombinátorů má Simplicity?
+answer: Devět (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tři (sekvenční kompozice, paralelní kompozice, podmínka).
+  - Pět (pouze kombinátory comp, pair, case, take a drop).
+  - Dvanáct (devět základních plus tři dodatečné rozšiřující kombinátory).
+explanation: >-
+  Simplicity má přesně devět základních kombinátorů. Dvě základní operace
+  (iden a unit), tři metody kompozice (comp, pair, case) a čtyři přístupové
+  (take, drop pro součiny, injl a injr pro součty). Těchto devět postačuje
+  k vyjádření libovolné funkce mezi typy v Simplicity.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Mu guteranya bibangikanye, bigenda gute ku vyinjizwa?
+answer: Ibikorwa vyompi bironka ivyinjizwa bimwe, kandi imisuro yavyo ikora igikubo (umugwi w'ibibiri).
+wrong_answers:
+  - Ivyinjizwa biragaburwa mo kubiri, igikorwa cose kikaronswa igice caco gitandukanye.
+  - Igikorwa kimwe kibanza gutunganya ivyinjizwa, ikindi na co kikaronka ivyavuyemwo vyahinduwe.
+  - Ivyinjizwa birashirwako ikimenyetso bikarungikwa ku gikorwa kimwe gusa muri ivyo bibiri ngo kibitunganye.
+explanation: >-
+  Uguteranya bibangikanye guha ibikorwa vyompi ivyinjizwa bimwe bitahinduwe
+  icarimwe. Ivyavuyemwo bishirwa hamwe mu bwoko bw'igikubo (umugwi w'ibibiri). Muri
+  Simplicity, ivyo bikoresha umuteranyi pair, wandikwa f ▵ g, utanga
+  ⟨f(a), g(a)⟩ ku cinjizwa a.
+reviewed: false

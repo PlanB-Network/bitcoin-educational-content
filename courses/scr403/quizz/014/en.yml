@@ -1,0 +1,13 @@
+question: What is the unit type (𝟙) and why is it useful despite carrying no information?
+answer: It holds one value (the empty tuple) and is the base for all other types.
+wrong_answers:
+  - It represents the number 1 and is used directly for arithmetic operations.
+  - It is a special debugging type that logs execution traces out to a file.
+  - It stores exactly a single bit of data used for boolean operations.
+explanation: >-
+  The unit type 𝟙 has exactly one value — the empty tuple ⟨⟩. While
+  it carries zero bits of information, it is essential as the seed
+  from which sum and product types build up all useful data types.
+  For example, the boolean type 𝟚 is 𝟙 + 𝟙, constructed entirely
+  from unit types.
+reviewed: false

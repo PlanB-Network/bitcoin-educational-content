@@ -1,0 +1,13 @@
+question: Simplicity 中的访问记法 (O, I, H) 是如何工作的？
+answer: O 表示 'take'（左侧），I 表示 'drop'（右侧），H 表示 'iden'（整个值）。
+wrong_answers:
+  - O 表示输出，I 表示输入，H 表示停止程序执行。
+  - 它们是编译器自动分配给值的变量名。
+  - O 选择奇数索引元素，I 选择偶数索引元素，H 选择头部。
+explanation: >-
+  O/I/H 简写提供了一种紧凑方式来遍历嵌套对。
+  O f 是 take f（提取左侧），I f 是 drop f（提取右侧），H 是
+  iden（整个值）。像 I O H 这样的序列表示 drop(take(iden))，
+  提取第二个元素中的第一个元素。这类似于
+  使用二进制数字表示树位置的 De Bruijn 索引。
+reviewed: false

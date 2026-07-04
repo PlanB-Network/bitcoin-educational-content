@@ -6,4 +6,4 @@ wrong_answers:
   - Stream cipher selalu memerlukan padding.
 explanation: |
   Kebingungan muncul dari fakta bahwa beberapa orang menganggap block cipher hanya sebagai algoritma yang menggunakan mode pemblokiran tertentu, sedangkan pada kenyataannya, mereka dapat mencakup skema enkripsi seperti mode OFB.
-reviewed: false
+reviewed: true

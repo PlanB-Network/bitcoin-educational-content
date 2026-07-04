@@ -399,7 +399,7 @@ Nykyään on mahdollista saada käyttökokemus, joka on hyvin lähellä Lightnin
 
 
 
-Ensimmäinen ratkaisu on yksinkertaisesti olla käyttämättä Lightningia natiivisti, mutta käyttää Bitcoin:tä tai [Liquid](https://planb.academy/resources/glossary/liquid-network):ta wallet:a, johon on upotettu [atomiset swapit](https://planb.academy/resources/glossary/atomic-swap). Esimerkiksi Aqua- tai Bull Bitcoin Wallet-sovellukset käyttävät tätä menetelmää mahdollistamalla [Lightning-laskujen](https://planb.academy/resources/glossary/invoice-lightning) maksamisen käyttämättä itse Lightning-solmua ja pysyen samalla omavalvonnassa.
+Ensimmäinen ratkaisu on yksinkertaisesti olla käyttämättä Lightningia natiivisti, mutta käyttää Bitcoin:tä tai [Liquid](https://planb.academy/resources/glossary/liquid-network):ta wallet:a, johon on upotettu [atomiset swapit](https://planb.academy/resources/glossary/atomic-swap). Esimerkiksi Aqua- tai BULL Wallet-sovellukset käyttävät tätä menetelmää mahdollistamalla [Lightning-laskujen](https://planb.academy/resources/glossary/invoice-lightning) maksamisen käyttämättä itse Lightning-solmua ja pysyen samalla omavalvonnassa.
 
 
 

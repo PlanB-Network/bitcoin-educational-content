@@ -1,0 +1,14 @@
+question: Prati izvršavanje punog sabirača na ⟨⟨1,1⟩,1⟩ (1+1+1). Koju vrednost druga faza, O O H ▵ (O I H ▵ I H ⨾ half-adder), prosleđuje završnoj fazi?
+answer: ⟨1, ⟨0, 1⟩⟩ — prenos prvog polusabirača, zatim prenos i zbir drugog.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — prenos prvog polusabirača, zatim zbir i prenos drugog.
+  - ⟨0, ⟨0, 1⟩⟩ — bit zbira prvog polusabirača, zatim prenos i zbir drugog.
+  - ⟨1, ⟨1, 1⟩⟩ — prenos prvog polusabirača, zatim OR i XOR bitovi drugog.
+explanation: >-
+  Prva faza računa half-adder⟨1,1⟩ = ⟨1, 0⟩ (prenos 1, zbir 0) i čuva
+  ulazni prenos, dajući ⟨⟨1,0⟩, 1⟩. U drugoj fazi, O O H izdvaja prvi
+  prenos (1), dok O I H ▵ I H prosleđuje ⟨0, 1⟩ — prvi zbir i ulazni
+  prenos — u drugi polusabirač, dajući ⟨0, 1⟩ pošto and(0,1)=0 i
+  xor(0,1)=1. Završna faza zatim primenjuje OR na dva prenosa i
+  zadržava zbir, proizvodeći ⟨1, 1⟩: binarno 3, kao što se očekuje.
+reviewed: false

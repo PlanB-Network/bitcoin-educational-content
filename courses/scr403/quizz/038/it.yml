@@ -1,0 +1,18 @@
+question: Un jet half-agg-verify registra un insieme di tuple come effetto Writer. Secondo il test commutativo/idempotente/unitario, cosa ottiene il design a insieme, e cosa manca ancora?
+answer: "Commutativo e idempotente (come richiesto da Simplicity), ma non unitario: scartare una chiamata eliminerebbe la sua tupla e salterebbe una firma."
+wrong_answers:
+  - Idempotente e unitario, ma non commutativo, poiché l'aggregato deve combinare le componenti r in ordine di firma.
+  - Tutti e tre, quindi un ottimizzatore può liberamente duplicare, riordinare o scartare le chiamate senza alcun rischio.
+  - Commutativo ma non idempotente, poiché registrare la stessa tupla due volte richiederebbe due componenti s aggregate.
+explanation: >-
+  Trattare il log del writer come un insieme lo rende idempotente e
+  commutativo, perché l'inserimento in un insieme possiede entrambe
+  queste proprietà — esattamente le due che Simplicity richiede a ogni
+  effetto. L'unitarietà resta invece fuori portata: come per Failure, la
+  scrittura influenza la validità della transazione, poiché la
+  transazione è valida solo quando una componente s aggregata copre ogni
+  tupla registrata. Un'espressione che esegue la scrittura non può quindi
+  essere scartata solo perché il suo output di tipo unit è inutilizzato,
+  poiché la sua tupla svanirebbe silenziosamente dalla verifica di
+  half-aggregation.
+reviewed: false

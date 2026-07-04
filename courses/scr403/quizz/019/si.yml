@@ -1,0 +1,14 @@
+question: SimplicityHL යනු කුමක්ද, සහ එය අවශ්‍ය වන්නේ ඇයි?
+answer: naming සහ scope කළමනාකරණය කරන, Simplicity වෙත compile වන higher-level language එකක්.
+wrong_answers:
+  - Simplicity run කරන ASICs mining කිරීම සඳහා වන hardware description language එකක්.
+  - Simplicity combinators එකට සම්බන්ධ කිරීම සඳහා වන graphical drag-and-drop IDE එකක්.
+  - safe sandbox එකක් තුළ Simplicity programs run කිරීම සඳහා වන testing framework එකක්.
+explanation: >-
+  Raw Simplicity, production complexity levels වලදී තේරුම්ගත නොහැකි බවට පත් වේ,
+  මන්ද සියලුම data access, nested take/drop combinators හරහා සිදු කළ යුතු වේ. SimplicityHL
+  හුරුපුරුදු programming constructs — named variables, scoping, library
+  imports, සහ control flow — සපයයි, ඒවා Simplicity combinator
+  expressions දක්වා compile වේ. End users SimplicityHL ලියන අතර, Simplicity
+  formally verified compilation target එක ලෙස ක්‍රියා කරයි.
+reviewed: false

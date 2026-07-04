@@ -1,0 +1,14 @@
+question: "'Öncüllerde daha küçük tipler' tip kuralları verildiğinde, hangi çekirdek kombinatörler yürütme sırasında gerçekten veri taşır?"
+answer: Yalnızca iden ve comp; diğer yedisi kayıt tutmadan fazlası olmadan uygulanır.
+wrong_answers:
+  - Yalnızca take ve drop; bir bileşeni çıkarmak makinenin onu çarpımdan dışarı kopyalamasını zorlar.
+  - Yalnızca pair ve case; girdiyi iki dal için çoğaltmak ve bir etikete göre yönlendirmek veriyi karıştırır.
+  - Yalnızca injl ve injr; etiket eklemek değeri daha büyük bir toplam-tipi gösterimine yeniden yazar.
+explanation: >-
+  Sezgilere aykırı biçimde, veri erişimi gibi görünen kombinatörler (take,
+  drop, pair, case, injl, injr) kopyalama gerektirmez: tip kurallarındaki
+  öncüller sonuçlarından daha küçük tipler içerdiği için Bit Machine bunları
+  yalnızca kayıt tutmayla uygulayabilir. Yalnızca tüm girdisini çıktısına
+  kopyalayan iden ve f sonucundan g girdisine geçirilen ara değeri somutlaştıran comp
+  gerçekten veri taşır.
+reviewed: false

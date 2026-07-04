@@ -1,4 +1,4 @@
-question: Según Hayek, ¿qué diferencia al liberalismo del socialismo?
+question: Según Hayek, ¿Qué diferencia al liberalismo del socialismo?
 answer: Los medios utilizados para alcanzar estos fines.
 wrong_answers:
   - Los fines perseguidos.
@@ -6,4 +6,4 @@ wrong_answers:
   - Todas las anteriores.
 explanation: |
   Para Hayek, la diferencia fundamental entre el liberalismo y el socialismo radica en los medios: el liberalismo promueve la libertad individual y el mercado libre, mientras que el socialismo implica intervenciones estatales y planificación.
-reviewed: false
+reviewed: true

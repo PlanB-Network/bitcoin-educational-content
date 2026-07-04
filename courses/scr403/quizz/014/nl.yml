@@ -1,0 +1,13 @@
+question: Wat is het eenheidstype (𝟙) en waarom is het nuttig ondanks dat het geen informatie draagt?
+answer: Het bevat één waarde (de lege tuple) en vormt de basis voor alle andere types.
+wrong_answers:
+  - Het vertegenwoordigt het getal 1 en wordt rechtstreeks gebruikt voor rekenkundige bewerkingen.
+  - Het is een speciaal debugtype dat uitvoeringstraces naar een bestand logt.
+  - Het slaat precies één bit aan data op, gebruikt voor booleaanse bewerkingen.
+explanation: >-
+  Het eenheidstype 𝟙 heeft precies één waarde — de lege tuple ⟨⟩. Hoewel
+  het nul bits aan informatie draagt, is het essentieel als het beginpunt
+  van waaruit som- en producttypes alle bruikbare datatypes opbouwen.
+  Zo is het booleaanse type 𝟚 bijvoorbeeld 𝟙 + 𝟙, volledig opgebouwd uit
+  eenheidstypes.
+reviewed: false

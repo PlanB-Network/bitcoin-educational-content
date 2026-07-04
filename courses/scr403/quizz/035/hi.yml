@@ -1,0 +1,13 @@
+question: Full-adder अपने दो half-adders के carry bits को XOR करने के बजाय OR करता है। OR सही क्यों है?
+answer: किसी भी input के लिए अधिकतम एक half-adder carry कर सकता है, इसलिए OR दो mutually exclusive cases को ठीक-ठीक merge करता है।
+wrong_answers:
+  - दोनों carry bits को add करना जरूरी है, और Simplicity में single-bit binary addition इसी तरह OR से किया जाता है।
+  - Branching के बाद, OR ही एकमात्र Boolean operator है जिसका type अभी भी environment से match करता है।
+  - OR carry को over-approximate करता है; कोई भी spurious carries अंत में final projection द्वारा drop हो जाते हैं।
+explanation: >-
+  यदि पहला half-adder carry करता है, तो उसके दोनों input bits 1 थे, इसलिए उसका
+  sum bit 0 है — और 0 fed half-adder कभी carry नहीं कर सकता। इसलिए दोनों carry
+  bits कभी simultaneously 1 नहीं होते, और OR उन्हें ठीक-ठीक merge करता है
+  (reachable inputs पर यह XOR से भी coincide करता है)। यही mutual exclusivity
+  full-adder के two-half-adder decomposition को correct बनाती है।
+reviewed: false

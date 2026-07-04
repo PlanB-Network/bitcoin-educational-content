@@ -1,0 +1,12 @@
+question: Kubera iki Simplicity ikumira ugutanga ububiko guhindagurika mu gihe c'ishirwa mu ngiro?
+answer: Kugira isesengura ridahinduka rishoboke no gukumira imigwi yose y'amakosa n'ibitero.
+wrong_answers:
+  - Kubera ko Liquid Network idashigikira ibikorwa vyo ku rwego rwo hasi ku bubiko.
+  - Kugira bigabanye urugero rw'ukwiga porogarama ku bategura smart-contract bashasha.
+  - Kubera ko Bitcoin Script na yo nyene idafise ugutanga ububiko guhindagurika.
+explanation: >-
+  Simplicity iririnda ugutanga ububiko guhindagurika kugira ngo ikoreshwa ry'ibikoresho ryose
+  rishobore kumenyekana biciye mu isesengura ridahinduka imbere y'ishirwa mu ngiro. Ivyo bituma
+  imbibe z'ibikoresho ziba izitegekanywa kandi bigakuraho intege nke zijanye n'ugucunga ububiko,
+  ivyo bikaba bihambaye cane mu bijanye n'ukwemeza blockchain.
+reviewed: false

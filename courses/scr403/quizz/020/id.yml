@@ -1,0 +1,12 @@
+question: "Apa dua side effect yang digunakan dalam Simplicity untuk aplikasi Bitcoin dan Liquid?"
+answer: "Efek Failure (exception bertipe 1) dan efek Reader (akses ke data lingkungan transaksi)."
+wrong_answers:
+  - "Efek State (variabel mutable) dan efek Writer (mencatat ke log transaksi)."
+  - "Efek IO (komunikasi jaringan) dan efek Memory (alokasi memori dinamis)."
+  - "Efek Continuation (callback) dan efek Nondeterminism (banyak jalur eksekusi)."
+explanation: >-
+  Simplicity menggunakan tepat dua side effect untuk aplikasi blockchain. Efek Failure memungkinkan
+  komputasi untuk membatalkan diri (misalnya, saat pemeriksaan tanda tangan gagal), dan efek Reader
+  memungkinkan ekspresi membaca data dari lingkungan transaksi. Kombinator inti tetap pure —
+  side effect diperkenalkan melalui jet.
+reviewed: true

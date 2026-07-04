@@ -1,0 +1,12 @@
+question: "Kwa nini bip0340-verify hutumia athari ya Failure badala ya kurudisha boolean (true/false)?"
+answer: Ili kuwezesha batch verification ya signatures za Schnorr, ambapo ukaguzi mmoja ulioshindwa hushindisha batch nzima.
+wrong_answers:
+  - Kwa sababu boolean types ni ghali sana kwa upande wa block space ikilinganishwa na unit type.
+  - Kwa sababu mfumo wa types wa Simplicity hauwezi kuwakilisha thamani za kurudisha za boolean zinazotoka kwenye jets.
+  - Kwa sababu kurudisha thamani ya kawaida ya boolean kungekiuka moja kwa moja completeness theorem.
+explanation: >-
+  Ikiwa bip0340-verify ingerudisha boolean, ukaguzi wa signature ulioshindwa bado ungeweza kupelekea branch ambapo
+  script inafaulu. Katika hali hiyo, verifier angehitaji kujua signature mahususi
+  iliyoshindwa, jambo linalozuia batch verification. Kwa kutumia athari ya Failure, ukaguzi ulioshindwa daima hukatisha
+  computation nzima, na kuwezesha batch verification yenye ufanisi ambapo signatures nyingi hukusanywa pamoja.
+reviewed: true

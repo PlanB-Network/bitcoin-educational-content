@@ -1,0 +1,14 @@
+question: SHA-256 compression 会成为一个 jet，但 fold 和 map 组合子不能。这个不对称性如何解释？
+answer: 一个 jet 替换一个固定表达式；fold 和 map 不是单个表达式，而是模式，会针对每个内部函数 f 产生不同表达式。
+wrong_answers:
+  - Jets 只加速直线代码，因此迭代组合子必须先展开，之后就匹配不到任何 jet。
+  - 只有带有机器检查 Rocq 证明的表达式才有资格，SHA-256 有这样的证明，而 folds 没有。
+  - 短向量上的 folds 太便宜，收益不大，因此 jets 只保留给昂贵的密码学操作。
+explanation: >-
+  jet 是对一个具体、完整形成的 Simplicity 表达式的原生替换，
+  节点可以在保持其精确语义的同时替换它。fold-right-n、map、zip
+  及其变体不是单个表达式，而是构造方案：内部函数
+  f 的每一种选择都会产生结构上不同的表达式，因此没有单个 jet 能够代表
+  整个族。这就是为什么这些迭代模式在真实程序中会表现为
+  真正的组合子代码，通常由 SimplicityHL 这样的更高层语言生成。
+reviewed: false

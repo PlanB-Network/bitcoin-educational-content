@@ -1,0 +1,14 @@
+question: Puni sabirač primenjuje OR na bitove prenosa svoja dva polusabirača umesto da primeni XOR. Zašto je OR ispravan?
+answer: Najviše jedan polusabirač može imati prenos za bilo koji ulaz, pa OR tačno spaja dva međusobno isključiva slučaja.
+wrong_answers:
+  - Dva bita prenosa se moraju sabrati, a OR je način na koji se jednobitno binarno sabiranje radi u Simplicity-ju.
+  - Nakon grananja, OR je jedini Bulov operator čiji tip i dalje odgovara okruženju.
+  - OR prekomerno aproksimira prenos; svi lažni prenosi se naknadno odbacuju završnom projekcijom.
+explanation: >-
+  Ako prvi polusabirač ima prenos, oba njegova ulazna bita su bila 1,
+  pa je njegov bit zbira 0 — a polusabirač kojem je dat 0 nikada ne može
+  imati prenos. Dva bita prenosa stoga nikada nisu istovremeno 1, i OR
+  ih tačno spaja (na dostižnim ulazima se čak poklapa sa XOR-om). Upravo
+  ta međusobna isključivost čini dekompoziciju punog sabirača na dva
+  polusabirača ispravnom.
+reviewed: false

@@ -1,0 +1,17 @@
+question: ¿En qué sentido la composición condicional es la dual de la composición paralela?
+answer: La composición paralela alimenta ambas operaciones con una misma entrada y empareja sus salidas (un producto); la condicional toma una suma de entradas y ambas ramas comparten un mismo tipo de salida.
+wrong_answers:
+  - La composición paralela debe ejecutar sus dos operaciones simultáneamente; la condicional las ejecuta en secuencia y devuelve solo la rama que selecciona la etiqueta.
+  - Ambas se ejecutan sobre una misma entrada compartida; la paralela conserva el par de salida, mientras que la condicional ejecuta ambas ramas y descarta la no seleccionada.
+  - La paralela duplica su entrada de antemano, mientras que la condicional duplica su salida después, invirtiendo dónde ocurre la copia.
+explanation: >-
+  La dualidad es un intercambio producto/suma en el que el tipo compartido
+  cambia de lado: la composición paralela da a ambas operaciones el mismo
+  tipo de entrada y empareja sus salidas en un producto, mientras que la
+  composición condicional toma una suma (unión etiquetada) de los dos
+  tipos de entrada y ambas ramas deben producir el mismo tipo de salida.
+  La simultaneidad es irrelevante — el artículo recalca que la composición
+  paralela puede implementarse de forma secuencial — y la composición
+  condicional ejecuta exactamente una rama, elegida por la etiqueta, en
+  lugar de ejecutar ambas y descartar una.
+reviewed: false

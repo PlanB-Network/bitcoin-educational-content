@@ -1,0 +1,13 @@
+question: Hur representeras buffertar med variabel längd i Simplicitys typsystem?
+answer: Som nästlade produkter av optionstyper, där varje lager flaggar ett block av storlek en tvåpotens.
+wrong_answers:
+  - Med hjälp av en särskild dynamisk arraytyp inbyggd direkt i språket.
+  - Genom rekursiva summatyper som växer sig större för varje funktionsanrop.
+  - Som fasta vektorer som fylls ut med avslutande nollvärden.
+explanation: >-
+  Buffertar använder nästlade optionstyper. Till exempel expanderar Xᑉ⁸ till
+  (1 + X⁴) × ((1 + X²) × (1 + X)), vilket som polynom ger
+  1 + X + X² + ... + X⁷ — vilket representerar samlingar på 0 till 7 element.
+  Varje optionslager anger om ett block med storlek en tvåpotens finns,
+  vilket i praktiken kodar längden i binär form.
+reviewed: false

@@ -6,7 +6,7 @@ objectives:
 
   - Memahami bagaimana gelembung spekulatif tahun 2011 membentuk Bitcoin pada saat itu
   - Pelajari tentang berbagai layanan keuangan dan komersial yang muncul selama periode tersebut
-  - Memahami pengembangan awal Bitcoin wallet, mining pool, dan perangkat lunak oleh komunitas
+  - Memahami pengembangan awal dompet Bitcoin, mining pool, dan perangkat lunak oleh komunitas
   - Membedakan kasus penggunaan kontroversial yang berlaku pada saat itu
 
 
@@ -20,7 +20,6 @@ Selamat datang di kursus yang membahas sejarah Bitcoin antara musim semi 2011 da
 
 
 Secara khusus, periode dari musim semi 2011 hingga musim panas 2012 ditandai dengan sikap ketidakpercayaan di antara para pelaku yang terlibat dan hampir tidak adanya regulasi keuangan, sampai-sampai kami menyebutnya di sini sebagai "Wild West of finance". Itu adalah periode kebebasan dan keragaman, di mana banyak proyek yang terkadang aneh bermunculan, yang kurang lebih berhasil, tetapi secara umum bertujuan untuk meningkatkan penggunaan Bitcoin. Meskipun singkat (hampir satu setengah tahun), ini adalah fase pembelajaran dan konstruksi, penuh dengan "yang pertama" dan eksperimen yang kemudian menjadi elemen fundamental dari struktur teknis, ekonomi, dan budaya Bitcoin.
-
 
 
 +++
@@ -38,7 +37,6 @@ Secara khusus, periode dari musim semi 2011 hingga musim panas 2012 ditandai den
 <chapterId>ce630c81-dd1d-59a0-afea-8e6d3313e8ad</chapterId>
 
 
-
 Kursus ini bertujuan untuk membahas bagian pertama dari fase kedua sejarah Bitcoin (2011-2014). Ini mengikuti fase pertama (2008-2011), yang dikenal sebagai fase "pembuktian konsep", yang ditandai dengan kehadiran Satoshi dan kebijaksanaan relatif proyek, dan mendahului fase ketiga (2014-2018), yang secara khusus ditandai oleh *perang ukuran* - konflik internal yang memecah belah komunitas selama beberapa tahun. Kami akan mencoba untuk menangkap keaslian dari periode ini, dan bagaimana periode ini merupakan langkah penting dalam pembangunan Bitcoin.
 
 
@@ -50,13 +48,10 @@ Kursus ini bertujuan untuk membahas bagian pertama dari fase kedua sejarah Bitco
 Kisah yang kami ceritakan di sini berfokus pada periode sejak peluncuran Satoshi Nakamoto pada musim semi 2011 hingga pendirian Bitcoin Foundation pada September 2012. Bagian dari sejarah Bitcoin ini sesuai dengan era yang dikenal sebagai "Wild West of finance", yang ditandai dengan tidak adanya regulasi karena sifat inovasi yang belum pernah ada sebelumnya, yaitu mata uang kripto. Pada saat itu, Bitcoin telah terbukti layak dan mendapatkan liputan media yang semakin meningkat. Selama periode ini, penggunaan Bitcoin menyebar ke orang-orang yang awalnya tidak tertarik dengan mata uang kripto. Kasus penggunaan ilegal berlipat ganda, memberikan "fase berdosa" (meminjam istilah [yang digunakan] (https://theses.fr/2024EHES0127) oleh sosiolog Prancis Maël Rolland) karakter yang khas.
 
 
-
 Istilah "Wild West" digunakan berulang kali oleh para pelaku industri dan jurnalis pada masa itu. Pada awal November 2010, Gavin Andresen [menyebut] (https://bitcointalk.org/index.php?topic=1647.msg20650#msg20650) sebagai "masa-masa Wild West mata uang sumber terbuka" dan mengatakan bahwa ia memperkirakan "orang-orang akan dibakar oleh penipuan, peniru, skema piramida Ponzi, dan gelembung harga". Dalam sebuah artikel yang diterbitkan di Reuters pada tanggal 2 April 2012, jurnalis Naomi O'Leary [menulis] (https://www.reuters.com/article/2012/04/01/traders-bitcoin-idUSL6E8ET5K620120401/) bahwa "Bitcoin telah menjadi Wild West dari keuangan, dengan menjamurnya situs web yang menawarkan replika yang diatur secara longgar dari layanan yang akrab dengan mereka yang berkecimpung di industri keuangan." Dari tahun 2013 dan seterusnya, referensi ke Wild West ini menyebar ke seluruh komunitas, muncul dalam bentuk positif di mulut Erik Voorhees dan [Charlie Shrem] (https://calvinayre.com/2013/07/03/conference/bitcoin-london-recap-bl-video), dua perwakilan utama perusahaan pertukaran BitInstant, atau dibangkitkan dengan cara yang lebih merendahkan oleh orang-orang seperti [Brian Armstrong] (https://a16z.com/bringing-bitcoin-to-everyone/), salah satu pendiri platform Coinbase. Hal ini juga telah diambil oleh para pengkritik Bitcoin, seperti Benjamin Lawsky, Inspektur Departemen Keuangan Negara Bagian New York, yang pada bulan Agustus 2013 [menyebut] (https://www.cbsnews.com/news/ny-regulator-may-crack-down-on-bitcoin/) mata uang kripto sebagai "Wild West virtual untuk pengedar narkotika dan penjahat lainnya".
 
 
-
 Far West memiliki citra yang kuat dalam imajinasi Amerika, dan juga di seluruh Barat yang telah di-Amerika-kan, khususnya berkat Western, sebuah genre film yang sangat populer pada pertengahan abad ke-20. Film ini mewakili cita-cita kemerdekaan, baik untuk atribut positifnya (kebebasan) maupun atribut negatifnya (bahaya). Ini adalah fondasi asli dari "impian Amerika": untuk dapat menetap di negeri yang tidak dikenal dan berjuang untuk sukses, membangun kekayaan dari yang sangat sedikit. Wajar jika Bitcoin dibandingkan dengan ruang kebebasan ini, melalui kemandiriannya dari sistem politik yang ada: Bitcoin memungkinkan segalanya, yang terbaik dan terburuk. Perbandingan ini sangat menginspirasi Erik Voorhees, yang, dalam sebuah wawancara tahun 2013, [berpendapat] (https://bitcoinmagazine.com/culture/erik-voorhees-new-frontier-1374794545) bahwa Bitcoin adalah perbatasan baru, perantara antara peradaban yang sudah mapan dan tanah yang belum dijelajahi. Dia berkata:
-
 
 
 > "Tentu saja, Bitcoin adalah Wild West-nya dunia keuangan, dan syukurlah untuk itu. Ini mewakili seluruh legiun petualang dan wirausahawan, pengambil risiko, penemu, dan pemecah masalah. Ini adalah perbatasan. Kekayaan dalam jumlah besar akan tercipta dan dihancurkan saat lanskap baru ini dipetakan. Saya yakin dampak dari petualangan ini akan sangat besar, karena meskipun 'Wild West' adalah fenomena unik Amerika, Bitcoin adalah fenomena global."
@@ -66,42 +61,31 @@ Far West memiliki citra yang kuat dalam imajinasi Amerika, dan juga di seluruh B
 Bukan tanpa alasan bahwa blogger Jimbobway [menyebut] (https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html) pengembangan Bitcoin mining pada tahun 2010 sebagai "demam emas digital", sebuah analogi yang telah diulangi oleh orang lain di tahun-tahun berikutnya. Pada tahun 2013, jurnalis Alec Liu juga [menyebutnya] (https://web.archive.org/web/20130328041052/http://motherboard.vice.com/blog/engineering-the-bitcoin-gold-rush-an-interview-with-yifu-guo-creator-of-the-first-asic-based-miner) dalam sebuah artikel untuk Motherload tentang Yifu Guo, penemu salah satu ASIC yang pertama kali berfungsi. Dalam sebuah gerakan yang berlanjut hingga setidaknya tahun 2014, individu dapat menambang bitcoin sendiri berkat peralatan yang semakin canggih, hingga peralatan khusus tersebar luas dan peternakan skala industri pertama dikembangkan.
 
 
-
 "Wild West of cryptocurrency" adalah sebuah periode di mana, seperti yang dijelaskan oleh [Michael del Castillo] (https://www.forbes.com/sites/michaeldelcastillo/2019/01/03/bitcoins-last-gunslinger/), "bitcoin dianggap tidak diatur dan tidak dapat diatur". Karakteristik ini berarti bahwa penggunaan yang biasanya tidak disukai oleh masyarakat umum - ilegal, tidak bermoral, atau kemungkinan besar akan menjadi ilegal - adalah yang pertama kali berkembang.
-
 
 
 Kami melihat perdagangan narkoba menjadi pusat perhatian dengan platform Silk Road, yang menikmati masa kejayaannya selama periode ini, memonopoli hingga 20% dari bisnis rantai pada tahun 2012. Didirikan oleh seorang pemuda Texas bernama Ross Ulbricht, Silk Road merupakan pasar online pertama yang menggunakan Tor dan Bitcoin. Ini memungkinkan pengguna untuk membeli semua jenis produk, termasuk obat-obatan, oleh karena itu dijuluki Amazon-nya obat-obatan. Ross Ulbricht sendiri [menganggap] (https://antilop.cc/sr/users/dpr/threads/20110622-0106-Keep_your_guard_up.html) bahwa Silk Road bukanlah "Wal-Mart, atau bahkan Amazon.com", tetapi itu adalah "Far West" dan ada "banyak penjahat seperti halnya pengusaha dan wanita yang jujur". Platform ini mulai mendapatkan daya tarik pada bulan Juni 2011, setelah sebuah artikel yang diterbitkan di Gawker, sampai-sampai menarik perhatian pihak berwenang.
 
 
-
 Selain Silk Road, Bitcoin menjadi mata uang untuk kejahatan dan kejahatan secara umum, memperoleh reputasi yang nantinya akan sangat sulit untuk dibatalkan. Perjudian online berkembang pesat, dengan terciptanya berbagai platform poker, taruhan, dan kasino. Banyak peretasan terjadi, yang menyebabkan kerugian yang sangat besar dan kebangkrutan perusahaan-perusahaan besar dalam ekosistem seperti Bitcoinica. Berbagai penipuan dilakukan, mengikuti contoh skema piramida Bitcoin Savings & Trust, yang runtuh pada Agustus 2012.
-
 
 
 Di sisi keuangan, platform pertukaran tumbuh sangat pesat, awalnya beroperasi tanpa lisensi perbankan atau prosedur mengenal nasabah (KYC). Mereka menjembatani kesenjangan antara mata uang negara dan bitcoin, terkadang melalui sistem alternatif seperti Liberty Reserve. Spekulasi dengan leverage muncul pada titik ini. Pertukaran online seperti GLBSE memungkinkan proyek-proyek berkembang dengan menerbitkan saham tanpa registrasi dengan pihak berwenang. Akhirnya, kebebasan moneter yang dibawa oleh Bitcoin memungkinkan banyak orang untuk meluncurkan mata uang kripto mereka sendiri, dengan niat yang kurang lebih baik tergantung pada proyeknya.
 
 
-
 Bitcoin menarik semua jenis profil yang tidak lazim dan non-konformis. Bagi Naomi O'Leary, pengguna Bitcoin adalah "kumpulan aneh dari para uber-geek, anarkis, libertarian, penipu, dan pedagang valas". Pada tahun 2017, dalam sebuah artikel nostalgia yang didedikasikan untuk "Hari-hari Terakhir Bitcoin's Wild West", libertarian Bruce Fenton [disebut] (https://www.coindesk.com/markets/2017/04/18/miami-2014-the-last-days-of-bitcoins-wild-west) komunitas Bitcoin sebagai "kelompok geek, jenius, dan pemberontak yang paling menarik dan eklektik yang pernah saya lihat".
-
 
 
 Tema yang berhubungan dengan Wild West yang digunakan pada saat itu adalah pembajakan. Memang, pembajakan itu sendiri menempati tempat penting dalam sejarah Amerika (bajak laut abad ke-17 di Karibia muncul di benak kita). Ide tentang seorang pria mandiri yang mengarungi lautan sangat menarik bagi para penggemar mata uang kripto awal, sehingga beberapa dari mereka menggunakan citra ini, baik atau buruk. Pada awal tahun 2012, Ross Ulbricht menyebut dirinya sebagai Dread Pirate Roberts, yang terinspirasi oleh bajak laut berwarna-warni dari film *The Princess Bride*. Demikian pula, manajer Bitcoin Savings & Trust, Trendon Shavers, menggunakan nama samaran PirateAt40, mengacu pada lagu Jimmy Buffett, "*A Pirate Looks At Forty*".
 
 
-
 Fitur terakhir yang mencolok dari periode ini mungkin adalah usia para promotor utama Bitcoin: sebagian besar dari mereka memang masih muda, bahkan sangat muda. Banyak dari mereka adalah *millenials*, anggota Generasi Y: lahir antara tahun 1981 dan 1996, mereka berusia antara 16 dan 31 tahun pada tahun 2011 ketika Satoshi menghilang untuk selamanya. Usia mereka yang relatif muda membuat mereka sangat antusias, sehingga mereka adalah bahan bakar yang membuat Bitcoin dapat lepas landas. Namun demikian, mereka juga sangat tidak dewasa dan sembrono, terutama dalam hal respons terhadap peraturan. Meskipun mereka diawasi oleh anggota generasi sebelumnya (yang sering kali lebih berhati-hati), mereka melakukan sejumlah besar kesalahan, yang menyebabkan beberapa dari mereka mengalami penindasan dari pihak berwenang atau berakhir di balik jeruji besi.
-
 
 
 ### Garis besar mata kuliah
 
 
-
 Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada konstruksi ekonomi Bitcoin selama gelembung besar tahun 2011 (4 bab), pengembangan teknisnya (3 bab) dan ekses yang mengalir dari sifatnya yang bebas dan tidak dapat dikontrol (4 bab). Secara keseluruhan, buku ini terdiri dari 11 bab, yang tercantum di bawah ini (periode yang relevan ditunjukkan dalam tanda kurung):
-
-
 
 
 
@@ -114,17 +98,14 @@ Kursus ini dibagi menjadi empat bagian, yang masing-masing berfokus pada konstru
 - Pertarungan untuk Pay to Script Hash (Agustus 2011-April 2012)
 - Munculnya mata uang kripto alternatif (April 2011-Agustus 2012)
 - Perdagangan legal dan ilegal (Januari-September 2012)
-- Mata uang kejahatan: perjudian dan pekerja seks (Agustus 2011-Agustus 2012)
-- Mata uang kejahatan: pembajakan dan penipuan (Maret-September 2012)
-
+- Mata uang kejahatan: perjudian dan pekerja seks (Agustus 2011–Agustus 2012)
+- Mata uang kejahatan: pembajakan dan penipuan (Maret–September 2012)
 
 
 ### Detail
 
 
-
 Membaca kursus pertama tentang sejarah Bitcoin (berjudul *Sejarah penciptaan Bitcoin*) merupakan prasyarat, terutama jika Anda benar-benar baru mengenal subjek ini. Walaupun narasinya tidak sepenuhnya kronologis, kursus kedua ini melanjutkan dari kursus sebelumnya, sekitar musim semi 2011. Anda dapat mengklik tautan berikut untuk mengikuti kursus pertama:
-
 
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
@@ -133,8 +114,6 @@ Semua tanggal dan waktu diberikan dalam zona waktu UTC (sesuai dengan meridian G
 
 
 Selain sumber-sumber yang diberikan secara langsung dalam teks yang ditautkan, kami juga menggunakan karya-karya referensi berikut ini:
-
-
 
 
 
@@ -149,7 +128,6 @@ Kami juga mendapatkan inspirasi dari film dokumenter yang meliput bagian sejarah
 
 
 
-
 - [*The Bitcoin Phenomenon*] (https://www.youtube.com/watch?v=6pWblf8COH4), disutradarai oleh Bhu Srinivasan dan dirilis pada tanggal 12 April 2014;
 - [*The Rise and Rise of Bitcoin*] (https://www.youtube.com/watch?v=Yh1dOmQJoWQ), disutradarai oleh Nicholas Mross dan dirilis pada tanggal 10 Oktober 2014;
 - [*Deep Web*] (https://www.youtube.com/watch?v=L7emWKAMEvI), disutradarai oleh Alex Winter, akan dirilis pada tanggal 31 Mei 2015.
@@ -157,8 +135,6 @@ Kami juga mendapatkan inspirasi dari film dokumenter yang meliput bagian sejarah
 
 
 Terakhir, kami memanfaatkan sejumlah arsip dan konten yang tersedia di Internet, termasuk:
-
-
 
 
 
@@ -172,9 +148,7 @@ Terakhir, kami memanfaatkan sejumlah arsip dan konten yang tersedia di Internet,
 ### Terima kasih
 
 
-
 Terima kasih banyak kepada Loïc Morel atas pengoreksiannya yang cermat!
-
 
 
 # Gelembung besar tahun 2011
@@ -183,40 +157,31 @@ Terima kasih banyak kepada Loïc Morel atas pengoreksiannya yang cermat!
 <partId>eb634403-627b-5b21-a0b7-11a4ca8aa2d1</partId>
 
 
-
 ## Jalur Sutra, Amazon-nya obat-obatan terlarang
 
 
 <chapterId>23e6297e-75b3-5c7f-bc29-ce1f6c1b56a4</chapterId>
 
 
-
 Pertanyaan mengenai hubungan antara [mata uang kripto](https://planb.academy/resources/glossary/cryptocurrency) dan otoritas muncul dengan cepat dalam sejarah Bitcoin. Pada bulan Desember 2010, Satoshi Nakamoto menarik diri dari perhatian publik setelah publikasi artikel PC World yang mendorong WikiLeaks untuk menggunakan Bitcoin. Seolah-olah mengkonfirmasi intuisinya, artikel tersebut menarik perhatian besar pada Bitcoin, yang harganya melonjak dari $0,20 menjadi $32 hanya dalam beberapa bulan. Satoshi terus berkomunikasi secara pribadi dengan kolaborator terdekatnya dan akhirnya menghilang pada musim semi 2011. Secara simbolis, pesan terakhir dari Gavin Andresen, pengembang yang telah mengambil alih proyek ini, memberitahukan kepada pencipta Bitcoin bahwa dia telah dihubungi oleh In-Q-Tel, sebuah dana investasi yang dikelola oleh CIA. Kotak Pandora benar-benar terbuka.
-
 
 
 Satoshi Nakamoto memang tepat untuk menyingkir pada saat itu, karena tahun-tahun berikutnya ditandai dengan maraknya penggunaan Bitcoin secara ilegal. Secara logis, para penjahat memiliki kepentingan untuk menggunakan resistensi Bitcoin terhadap sensor untuk melarikan diri dari kontrol negara. Kasus penggunaan yang paling populer mungkin adalah perdagangan narkoba online, yang terjadi melalui pasar yang inovatif: Silk Road.
 
 
-
 Platform ini, yang dengan cepat dijuluki Amazon-nya narkoba, diciptakan oleh seorang pria berusia 26 tahun asal Texas bernama Ross Ulbricht. Cita-cita libertariannya yang kuat mengilhami ide untuk proyek ini. Silk Road sukses besar, dan akhirnya memainkan peran penting dalam ekonomi Bitcoin sehingga kami telah mencurahkan seluruh bab untuk itu di sini. Pertama-tama kami akan memperkenalkan Ross Ulbricht, dalang di balik Silk Road, kemudian membahas tentang masa-masa awal pasar, sebelum melihat kembali kesuksesan awalnya pada tahun 2011.
-
 
 
 ### Ross Ulbricht, libertarianisme dan agorisme
 
 
-
 Lahir pada tahun 1984, Ross William Ulbricht dibesarkan di Austin, Texas, di mana ia menghabiskan masa mudanya yang menyenangkan dengan dikelilingi oleh keluarga yang penuh kasih. Dia adalah seorang anggota pramuka selama bertahun-tahun, yang memberinya rasa suka akan aktivitas luar ruangan seperti hiking dan berkemah, serta olahraga. Sebagai siswa yang cemerlang, ia dianugerahi beasiswa penuh untuk kuliah di universitas, di mana ia memperoleh gelar sarjana fisika dan gelar master di bidang ilmu pengetahuan dan teknik material, dengan spesialisasi di bidang kristalografi.
-
 
 
 ![Ross Ulbricht](assets/en/001.webp)
 
 
-
 *Ross Ulbricht, pada tanggal yang belum ditentukan (sumber: FreeRoss.org)*
-
 
 
 Selama masa kuliahnya, Ross bereksperimen dengan berbagai macam obat, terutama psikedelik. Namun yang terpenting, pada periode inilah ia menjadi sangat tertarik dengan ide-ide libertarian dan mazhab ekonomi Austria, khususnya membaca Ludwig von Mises dan Murray Rothbard, serta Joseph Salerno dan Lew Rockwell. Melalui klub *College Libertarians*, ia [berpartisipasi] (http://web.archive.org/web/20171024194209/http://www.collegian.psu.edu:80/archives/article_1cb3e5e4-6ed2-5bb8-b980-1df989c663f9.html) dalam debat yang mengadvokasi liberalisasi sistem perawatan kesehatan dan legalisasi obat-obatan. In 2008, he [supported](https://web.archive.org/web/20170804183125/http://www.collegian.psu.edu:80/archives/article_239513a3-a577-5732-bab0-9cc27c5d4610.html) Kampanye Libertarian Ron Paul untuk pemilihan pendahuluan Partai Republik.
@@ -231,9 +196,8 @@ Penemuan Ross akan filosofi agoris adalah sebuah wahyu. Ide-ide libertarian memb
 
 
 
-
-> "Saya membaca semua yang saya bisa untuk memperdalam pemahaman saya tentang ekonomi dan kebebasan, tetapi semuanya bersifat intelektual, tidak ada ajakan untuk bertindak kecuali untuk memberi tahu orang-orang di sekitar saya tentang apa yang telah saya pelajari dan mudah-mudahan membuat mereka melihat cahaya.  Sampai akhirnya saya membaca 'Alongside Night' dan karya-karya Samuel Edward Konkin III.
-Akhirnya potongan puzzle yang hilang!  Tiba-tiba saja semuanya menjadi sangat jelas: setiap tindakan yang Anda lakukan di luar lingkup kendali pemerintah akan memperkuat pasar dan melemahkan negara.  Saya melihat bagaimana negara hidup secara parasit dari orang-orang produktif di dunia, dan betapa cepatnya negara akan runtuh jika tidak memiliki pendapatan pajak.  Tidak ada tentara jika Anda tidak bisa membayar mereka.  Tidak ada perang narkoba tanpa miliaran dolar yang disedot dari orang-orang yang Anda tindas."
+> "Saya membaca semua yang saya bisa untuk memperdalam pemahaman saya tentang ekonomi dan kebebasan, tetapi semuanya bersifat intelektual, tidak ada ajakan untuk bertindak kecuali untuk memberi tahu orang-orang di sekitar saya tentang apa yang telah saya pelajari dan mudah-mudahan membuat mereka melihat cahaya. Sampai akhirnya saya membaca 'Alongside Night' dan karya-karya Samuel Edward Konkin III.
+Akhirnya potongan puzzle yang hilang!  Tiba-tiba saja semuanya menjadi sangat jelas: setiap tindakan yang Anda lakukan di luar lingkup kendali pemerintah akan memperkuat pasar dan melemahkan negara. Saya melihat bagaimana negara hidup secara parasit dari orang-orang produktif di dunia, dan betapa cepatnya negara akan runtuh jika tidak memiliki pendapatan pajak. Tidak ada tentara jika Anda tidak bisa membayar mereka. Tidak ada perang narkoba tanpa miliaran dolar yang disedot dari orang-orang yang Anda tindas."
 
 
 ### Asal mula Jalur Sutra
@@ -406,7 +370,7 @@ Lebih jauh lagi, dalam sebuah konferensi pers, Senator Schumer [menuduh] (https:
 
 
 
-Dengan perhatian dari pers, Silk Road melejit dan akhirnya menjadi menguntungkan. Pada akhir musim panas, aktivitas situs ini telah berkembang menjadi [mewakili] (https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/) hampir 10% dari volume yang diperdagangkan pada rantai Bitcoin. Situs tersebut, yang didanai oleh komisi penjualan, kemudian [menghasilkan pendapatan] (https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) dalam puluhan ribu dolar per bulan, dengan biaya operasional yang jauh lebih rendah. Ross sekarang mampu membayar dirinya sendiri dengan gaji yang besar dan mengakhiri pekerjaan resminya.
+Dengan perhatian dari pers, Silk Road melejit dan akhirnya menjadi menguntungkan. Pada akhir musim panas, aktivitas situs ini telah berkembang menjadi [mewakili](https://www.chainalysis.com/blog/silk-road-doj-seizure-november-2020/) hampir 10% dari volume yang diperdagangkan pada rantai Bitcoin. Situs tersebut, yang didanai oleh komisi penjualan, kemudian [menghasilkan pendapatan](https://antilop.cc/sr/exhibits/253456480-Silk-Road-exhibits-GX-250.pdf) dalam puluhan ribu dolar per bulan, dengan biaya operasional yang jauh lebih rendah. Ross sekarang mampu membayar dirinya sendiri dengan gaji yang besar dan mengakhiri pekerjaan resminya.
 
 
 
@@ -445,7 +409,7 @@ Jadi, lebih dari setahun setelah penjualan pizza Laszlo, Silk Road menjadi lamba
 
 
 
-Periode yang dimulai pada musim semi 2011 ditandai dengan perkembangan aktivitas pertukaran antara bitcoin dan mata uang tradisional, seperti dolar dan euro. Jenis layanan ini memainkan peran penting dalam ekonomi Bitcoin, yang terlalu kecil untuk beroperasi dalam loop tertutup. Miner perlu menjual reward mereka untuk membayar tagihan listrik. Para pedagang, termasuk para pedagang di Jalur Sutra, perlu mengumpulkan dolar untuk membayar pemasok mereka. Pelanggan mereka, yang umumnya tidak memiliki bitcoin, perlu mendapatkannya terlebih dahulu. Ada juga permintaan spekulatif yang kuat, dari orang-orang yang melihat mata uang kripto sebagai sebuah investasi.
+Periode yang dimulai pada musim semi 2011 ditandai dengan perkembangan aktivitas pertukaran antara bitcoin dan mata uang tradisional, seperti dolar dan euro. Jenis layanan ini memainkan peran penting dalam ekonomi Bitcoin, yang terlalu kecil untuk beroperasi dalam sistem tertutup. Miner perlu menjual reward mereka untuk membayar tagihan listrik. Para pedagang, termasuk para pedagang di Jalur Sutra, perlu mengumpulkan dolar untuk membayar pemasok mereka. Pelanggan mereka, yang umumnya tidak memiliki bitcoin, perlu mendapatkannya terlebih dahulu. Ada juga permintaan spekulatif yang kuat, dari orang-orang yang melihat mata uang kripto sebagai sebuah investasi.
 
 
 
@@ -476,9 +440,9 @@ Mark Karpelès lahir di Prancis pada tahun 1985. Sebagai anak tunggal, ia dibesa
 Ia mengetahui tentang Bitcoin pada musim gugur 2010 dari seorang pelanggan Prancis yang berbasis di Peru (William Waisse [alias] (https://bitcointalk.org/index.php?topic=1719.msg21107#msg21107) Neofutur), yang bertanya kepadanya apakah ia dapat membayar faktur dalam bitcoin. Mark terbuka terhadap kemungkinan tersebut, dan dengan cepat mengembangkan hasratnya terhadap sistem ini. Tidak seperti Martti Malmi, Ross Ulbricht atau Roger Ver, pemuda Prancis ini bukanlah seorang libertarian yang termotivasi secara ideologis; dia juga bukan spekulan yang haus akan keuntungan. Sebaliknya, ketertarikannya pada Bitcoin berakar pada keingintahuan teknis. Seperti yang dikatakannya (https://web.archive.org/web/20140918220234/http://www.thedailybeast.com/articles/2014/09/17/mt-gox-s-karpeles-on-losing-a-half-billion-bucks-in-bitcoins.html) pada tahun 2014:
 
 
-> "Yang membuat saya tertarik dengan bitcoin adalah aspek teknologinya. Dengan kata lain, fakta mempertahankan basis data global dengan cara yang aman. Fakta bahwa setiap klien memiliki wallet pribadi yang aman. Memiliki sistem yang sepenuhnya terdesentralisasi. Selain itu, bitcoin memungkinkan Anda untuk memiliki basis data yang bersifat publik."
+> "Yang membuat saya tertarik dengan bitcoin adalah aspek teknologinya. Dengan kata lain, fakta mempertahankan basis data global dengan cara yang aman. Fakta bahwa setiap klien memiliki dompet pribadi yang aman. Memiliki sistem yang sepenuhnya terdesentralisasi. Selain itu, bitcoin memungkinkan Anda untuk memiliki basis data yang bersifat publik."
 
-Segera setelah ia menemukannya, ia membenamkan diri dalam cara kerja Bitcoin dan mulai menulis program untuk memanfaatkannya. Pada bulan November, dia [mulai] (https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) menerima pembayaran bitcoin dengan KalyHost (Ross Ulbricht [akan menggunakan] (https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) layanan ini untuk meng-host halaman web Silkroadmarket.org). Pada bulan Desember 2010, dia [membuat](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) sebuah wiki baru, Bitcoin.it, yang akan segera menjadi wiki utama Bitcoin. Dia juga mulai mengembangkan implementasi perangkat lunak, yang dijuluki [QBitcoin] (https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin), tetapi tidak ditindaklanjuti.
+Segera setelah ia menemukannya, ia langsung mempelajari cara kerja Bitcoin dan mulai menulis program untuk memanfaatkannya. Pada bulan November, dia [mulai] (https://bitcointalk.org/index.php?topic=30.msg20699#msg20699) menerima pembayaran bitcoin dengan KalyHost (Ross Ulbricht [akan menggunakan] (https://cdn.arstechnica.net/wp-content/uploads/2015/01/Govt.motion.1.19.pdf) layanan ini untuk meng-host halaman web Silkroadmarket.org). Pada bulan Desember 2010, dia [membuat](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) sebuah wiki baru, Bitcoin.it, yang akan segera menjadi wiki utama Bitcoin. Dia juga mulai mengembangkan implementasi perangkat lunak, yang dijuluki [QBitcoin] (https://web.archive.org/web/20110326023018/http://bitcoinweekly.com/articles/interview-with-magicaltux-on-qbitcoin), tetapi tidak ditindaklanjuti.
 
 
 
@@ -628,7 +592,7 @@ Akhirnya, pasar terakhir yang muncul selama periode ini adalah TradeHill, sebuah
 
 
 
-Kesuksesan finansial dari bitcoin tak pelak lagi menarik perhatian para peretas. Kurangnya perantara dan anonimitas Bitcoin merupakan fitur yang sempurna bagi para pencuri, yang dapat merampas bitcoin milik orang lain tanpa mengambil risiko hasil curian mereka dibekukan. Pada tanggal 13 Juni, peretasan berskala besar pertama terjadi: seorang anggota aktif komunitas yang menggunakan nama samaran Allinvain [dirampok] (https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) sebanyak 25.000 bitcoin, yang secara pribadi ia miliki, setara dengan hampir $500.000! Dia [berbagi](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) pengalamannya di forum Bitcoin, dan ceritanya [disampaikan](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) di media online. Tampaknya] (https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/) dia telah menjadi korban Trojan (malware) yang disebut Coinbit, yang mengambil file `wallet.dat` dari mesin yang menjalankan Windows. Hal ini [mengembalikan pertanyaan](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) tentang enkripsi wallet ke meja, sebuah fitur yang akan [diimplementasikan](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) beberapa bulan kemudian dalam perangkat lunak.
+Kesuksesan finansial dari bitcoin tak pelak lagi menarik perhatian para peretas. Kurangnya perantara dan anonimitas Bitcoin merupakan fitur yang sempurna bagi para pencuri, yang dapat merampas bitcoin milik orang lain tanpa mengambil risiko hasil curian mereka dibekukan. Pada tanggal 13 Juni, peretasan berskala besar pertama terjadi: seorang anggota aktif komunitas yang menggunakan nama samaran Allinvain [dirampok] (https://mempool.space/tx/4885ddf124a0f97b5a3775a12de0274d342d12842ebe59520359f976721ac8c3) sebanyak 25.000 bitcoin, yang secara pribadi ia miliki, setara dengan hampir $500.000! Dia [berbagi](https://bitcointalk.org/index.php?topic=16457.msg214423#msg214423) pengalamannya di forum Bitcoin, dan ceritanya [disampaikan](https://www.forbes.com/sites/timworstall/2011/06/17/bitcoin-the-first-500000-theft/) di media online. Tampaknya] (https://web.archive.org/web/20110618151605/https://www.wired.com/threatlevel/2011/06/bitcoin-malware/) dia telah menjadi korban Trojan (malware) yang disebut Coinbit, yang mengambil file `wallet.dat` dari mesin yang menjalankan Windows. Hal ini [mengembalikan pertanyaan](https://gavinthink.blogspot.com/2011/06/why-arent-bitcoin-wallets-encrypted.html) tentang enkripsi dompet ke meja, sebuah fitur yang akan [diimplementasikan](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446) beberapa bulan kemudian dalam perangkat lunak.
 
 
 
@@ -711,7 +675,7 @@ Pada hari-hari setelah tanggal 19 Juni, MyBitcoin menderita akibat kebocoran dat
 
 
 
-Namun, kemunduran aplikasi tidak berhenti sampai di situ. Pada tanggal 29 Juli, MyBitcoin tiba-tiba ditutup. Hampir 78.740 bitcoin hilang dari wallet aplikasi, jumlah yang setara dengan lebih dari satu juta dolar pada saat itu dan setara dengan 51% dari dana di akun pelanggan, memaksa layanan untuk mengembalikan sisanya dan menghilang. Meskipun MyBitcoin [mengklaim] (https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) peretasan (belum lagi!), ada bukti [yang menunjukkan] (https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) bahwa manajernya, Tom Williams, berada di balik pencurian tersebut.
+Namun, kemunduran aplikasi tidak berhenti sampai di situ. Pada tanggal 29 Juli, MyBitcoin tiba-tiba ditutup. Hampir 78.740 bitcoin hilang dari dompet aplikasi, jumlah yang setara dengan lebih dari satu juta dolar pada saat itu dan setara dengan 51% dari dana di akun pelanggan, memaksa layanan untuk mengembalikan sisanya dan menghilang. Meskipun MyBitcoin [mengklaim] (https://web.archive.org/web/20111018173154/https://www.mybitcoin.com/) peretasan (belum lagi!), ada bukti [yang menunjukkan] (https://observer.com/2011/08/search-for-owners-of-mybitcoin-loses-steam/) bahwa manajernya, Tom Williams, berada di balik pencurian tersebut.
 
 
 
@@ -727,7 +691,7 @@ Beberapa kerugian individu [tinggi] (https://bitcointalk.org/index.php?topic=333
 
 
 
-Terlepas dari penurunan kepercayaan ini, kustodian wallet terus mendapatkan popularitas. Demikian pula halnya dengan Instawallet, yang [telah ada] (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) sejak April. Sebagai tanggapan, Bitcoin Consultancy [meluncurkan] (https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) layanannya sendiri, Vibanko, pada bulan Agustus.
+Terlepas dari penurunan kepercayaan ini, kustodian dompet terus mendapatkan popularitas. Demikian pula halnya dengan Instawallet, yang [telah ada] (https://bitcointalk.org/index.php?topic=6785.msg99378#msg99378) sejak April. Sebagai tanggapan, Bitcoin Consultancy [meluncurkan] (https://bitcointalk.org/index.php?topic=35599.msg439954#msg439954) layanannya sendiri, Vibanko, pada bulan Agustus.
 
 
 
@@ -735,7 +699,7 @@ Terlepas dari penurunan kepercayaan ini, kustodian wallet terus mendapatkan popu
 
 
 
-Bersamaan dengan kejadian ini, platform Bitomat Polandia mengalami masalah besar. Pada tanggal 26 Juli, administrator [melanjutkan] (https://www.reddit.com/r/Bitcoin/comments/j4t58/3rd_largest_bitcoin_exchange_has_lost_its/c2957nt/) untuk meningkatkan sumber daya server, dengan efek (yang tidak biasa) memulai ulang mesin virtual dan menghapus data yang ada, termasuk kunci wallet pribadi sistem. Kerugiannya mencapai 17.000 bitcoin, atau sekitar $235.000 pada saat itu. Meskipun volume perdagangannya tidak besar, ini adalah platform bursa terbesar ketiga setelah TradeHill dan Mt. Gox, yang membuat insiden ini menjadi signifikan.
+Bersamaan dengan kejadian ini, platform Bitomat Polandia mengalami masalah besar. Pada tanggal 26 Juli, administrator [melanjutkan] (https://www.reddit.com/r/Bitcoin/comments/j4t58/3rd_largest_bitcoin_exchange_has_lost_its/c2957nt/) untuk meningkatkan sumber daya server, dengan efek (yang tidak biasa) memulai ulang mesin virtual dan menghapus data yang ada, termasuk kunci dompet pribadi sistem. Kerugiannya mencapai 17.000 bitcoin, atau sekitar $235.000 pada saat itu. Meskipun volume perdagangannya tidak besar, ini adalah platform bursa terbesar ketiga setelah TradeHill dan Mt. Gox, yang membuat insiden ini menjadi signifikan.
 
 
 
@@ -812,7 +776,8 @@ Penganut libertarian lainnya, seperti blogger [Michael Suede] (https://web.archi
 
 
 
-### Acara radio Siaran Langsung Bicara Gratis
+### Acara radio Free Talk Live
+
 
 
 
@@ -1083,7 +1048,7 @@ Secara bertahap, harga kembali naik hingga melebihi $4 lagi pada akhir Desember,
 
 
 
-### BitInstant, pusat pusat untuk pertukaran bitcoin
+### BitInstant, pusat pertukaran bitcoin
 
 
 
@@ -1202,7 +1167,7 @@ Dia [mendengar] (https://bitcointalk.org/index.php?topic=67521.msg785510#msg7855
 
 
 
-Dia mempresentasikan Bitcoinica sebagai "Platform Perdagangan Bitcoin Tingkat Lanjut", yang "Elegan. Profesional. Revolusioner". Platform ini pada awalnya tidak mengelola wallet, bitcoin disimpan dalam akun khusus di akun Mt. Gox. Deposit dan penarikan dilakukan dalam bitcoin, dengan menukarkan kode Mt. Gox atau melalui transfer bank internasional.
+Dia mempresentasikan Bitcoinica sebagai "Platform Perdagangan Bitcoin Tingkat Lanjut", yang "Elegan. Profesional. Revolusioner". Platform ini pada awalnya tidak mengelola dompet, bitcoin disimpan dalam akun khusus di akun Mt. Gox. Deposit dan penarikan dilakukan dalam bitcoin, dengan menukarkan kode Mt. Gox atau melalui transfer bank internasional.
 
 
 
@@ -1258,7 +1223,7 @@ Pada bulan April 2011, James [meluncurkan] (https://bitcointalk.org/index.php?to
 
 
 
-"IPO" (*Penawaran Umum Perdana*) pertama [dilakukan] (https://bitcointalk.org/index.php?topic=6838.msg100170#msg100170) pada tanggal 30 April oleh sebuah proyek yang disebut Ubitex, sebuah platform valuta asing langsung yang menghubungkan pembeli dan penjual yang ada di wilayah yang sama. Operasi ini melibatkan penjualan sejumlah saham (dalam hal ini 1.000) untuk bitcoin, sebagai gantinya para pemegang saham akan mendapatkan keuntungan dari keuntungan perusahaan. Pengembang tunggal proyek ini, Nathaniel Theis alias Cuddlefish di forum, berhasil mengumpulkan 1.100 BTC dengan cara ini, yang berjumlah sekitar $10.000. Namun, dia [baru berusia 14 tahun] (https://bitcointalk.org/index.php?topic=6584.msg707259#msg707259) dan kurang matang: dia sempat membuat dan menjalankan layanan ini, tetapi akhirnya tiba-tiba menghilang ketika komputernya [rusak] (https://bitcointalk.org/index.php?topic=6584.msg414585#msg414585) pada bulan Juli, tidak memberikan tanda-tanda kehidupan dan gagal membayar investor.
+"IPO" (*Initial Public Offering*) pertama [dilakukan] (https://bitcointalk.org/index.php?topic=6838.msg100170#msg100170) pada tanggal 30 April oleh sebuah proyek yang disebut Ubitex, sebuah platform valuta asing langsung yang menghubungkan pembeli dan penjual yang ada di wilayah yang sama. Operasi ini melibatkan penjualan sejumlah saham (dalam hal ini 1.000) untuk bitcoin, sebagai gantinya para pemegang saham akan mendapatkan keuntungan dari keuntungan perusahaan. Pengembang tunggal proyek ini, Nathaniel Theis alias Cuddlefish di forum, berhasil mengumpulkan 1.100 BTC dengan cara ini, yang berjumlah sekitar $10.000. Namun, dia [baru berusia 14 tahun] (https://bitcointalk.org/index.php?topic=6584.msg707259#msg707259) dan kurang matang: dia sempat membuat dan menjalankan layanan ini, tetapi akhirnya tiba-tiba menghilang ketika komputernya [rusak] (https://bitcointalk.org/index.php?topic=6584.msg414585#msg414585) pada bulan Juli, tidak memberikan tanda-tanda kehidupan dan gagal membayar investor.
 
 
 
@@ -1314,7 +1279,7 @@ Meskipun semangat kerja rendah, ini adalah waktu yang tepat untuk membangun. Sej
 
 
 
-Selain itu, kemajuan ekonomi ini juga diiringi dengan perkembangan teknis yang didukung oleh para programmer. Selain evolusi perangkat lunak utama (subjek yang akan kita bahas nanti), periode ini juga ditandai dengan peningkatan penggunaan Bitcoin karena pengembangan wallet. Ini adalah subjek bab berikutnya.
+Selain itu, kemajuan ekonomi ini juga diiringi dengan perkembangan teknis yang didukung oleh para programmer. Selain evolusi perangkat lunak utama (subjek yang akan kita bahas nanti), periode ini juga ditandai dengan peningkatan penggunaan Bitcoin karena pengembangan dompet. Ini adalah subjek bab berikutnya.
 
 
 
@@ -1332,18 +1297,18 @@ Selain itu, kemajuan ekonomi ini juga diiringi dengan perkembangan teknis yang d
 
 
 
-Dunia keuangan Wild West adalah waktu untuk mengembangkan Bitcoin ke audiens yang lebih luas, yang kurang melek komputer dan tidak mau menjalankan program yang berat di komputer tetap. Untuk alasan ini, ini adalah waktu untuk meningkatkan pengalaman pengguna, sebagaimana dibuktikan dengan kemunculan wallet yang ringan dan penggandaan cara untuk menyimpan bitcoin.
+Dunia keuangan Wild West adalah waktu untuk mengembangkan Bitcoin ke audiens yang lebih luas, yang kurang melek komputer dan tidak mau menjalankan program yang berat di komputer tetap. Untuk alasan ini, ini adalah waktu untuk meningkatkan pengalaman pengguna, sebagaimana dibuktikan dengan kemunculan dompet yang ringan dan penggandaan cara untuk menyimpan bitcoin.
 
 
 
-Ketika Satoshi pensiun pada bulan Desember 2010, para pendatang baru hanya dapat memilih antara perangkat lunak utama dan aplikasi kustodian seperti MyBitcoin. Namun sejak tahun 2011 dan seterusnya, solusi alternatif muncul. Perangkat lunak ringan wallet, seperti *Bitcoin Wallet untuk Android* dan Electrum, menerapkan verifikasi pembayaran yang disederhanakan. Web wallet, seperti Blockchain.info, memungkinkan dana dikelola dari browser. wallet kertas menawarkan kemungkinan untuk menyimpan dana secara offline. Beberapa penggemar, seperti Casascius yang merupakan lambang, mengembangkan pembawa fisik, yang merupakan semacam perwujudan unit virtual di dunia nyata.
+Ketika Satoshi pensiun pada bulan Desember 2010, para pendatang baru hanya dapat memilih antara perangkat lunak utama dan aplikasi kustodian seperti MyBitcoin. Namun sejak tahun 2011 dan seterusnya, solusi alternatif muncul. Perangkat lunak dompet ringan, seperti *Bitcoin Wallet untuk Android* dan Electrum, menerapkan verifikasi pembayaran yang disederhanakan. Dompet web, seperti Blockchain.info, memungkinkan dana dikelola dari browser. dompet kertas menawarkan kemungkinan untuk menyimpan dana secara offline. Beberapa penggemar, seperti Casascius yang merupakan lambang, mengembangkan pembawa fisik, yang merupakan semacam perwujudan unit virtual di dunia nyata.
 
 
 
-Penyimpanan bitcoin secara pribadi merupakan sebuah masalah yang rumit, yang tunduk pada dilema antara kehilangan dan pencurian. Untuk menyimpan bitcoin seseorang, perlu untuk menjaga akses ke kunci pribadi dan mencegah orang lain mengaksesnya - dua kondisi yang tidak akan pernah bisa dicapai secara bersamaan. Dengan demikian, akses yang terlalu mudah membuat wallet terlalu rentan terhadap pencurian, seperti yang terlihat pada peretasan 25.000 BTC milik Allinvain pada bulan Juni 2011. Sebaliknya, akses yang terlalu sulit membuat bitcoin lebih mungkin untuk hilang, seperti yang terlihat pada 7.000 atau lebih BTC milik Stefan Thomas (https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) karena enkripsi yang terlalu rumit. Kendala-kendala inilah yang ingin diatasi oleh para perancang wallet.
+Penyimpanan bitcoin secara pribadi merupakan sebuah masalah yang rumit, yang tunduk pada dilema antara kehilangan dan pencurian. Untuk menyimpan bitcoin seseorang, perlu untuk menjaga akses ke kunci pribadi dan mencegah orang lain mengaksesnya - dua kondisi yang tidak akan pernah bisa dicapai secara bersamaan. Dengan demikian, akses yang terlalu mudah membuat dompet terlalu rentan terhadap pencurian, seperti yang terlihat pada peretasan 25.000 BTC milik Allinvain pada bulan Juni 2011. Sebaliknya, akses yang terlalu sulit membuat bitcoin lebih mungkin untuk hilang, seperti yang terlihat pada 7.000 atau lebih BTC milik Stefan Thomas (https://bitcointalk.org/index.php?topic=5400.msg259238#msg259238) karena enkripsi yang terlalu rumit. Kendala-kendala inilah yang ingin diatasi oleh para perancang dompet.
 
 
-Dalam bab ini, kita akan mempelajari berbagai cara penggunaan Bitcoin yang muncul selama periode yang disebutkan. Pertama-tama, kita akan membahas aplikasi kustodian dan implementasi perangkat lunak alternatif. Kemudian, kita akan membahas lebih detail mengenai kasus wallet yang ringan, yang antara lain mengarah pada pengembangan struktur deterministik untuk menyimpan private key. Kami akan menyajikan kertas wallet dan bentuk fisik dari representasi private key yang merupakan sarana untuk menjaga keamanan mata uang digital dari peretasan. Kita akan mengakhiri dengan membahas munculnya layanan pencampuran bitcoin pertama, yang memungkinkan peningkatan privasi pengguna.
+Dalam bab ini, kita akan mempelajari berbagai cara penggunaan Bitcoin yang muncul selama periode yang disebutkan. Pertama-tama, kita akan membahas aplikasi kustodian dan implementasi perangkat lunak alternatif. Kemudian, kita akan membahas lebih detail mengenai kasus dompet yang ringan, yang antara lain mengarah pada pengembangan struktur deterministik untuk menyimpan private key. Kami akan menyajikan dompet kertas dan bentuk fisik dari representasi private key yang merupakan sarana untuk menjaga keamanan mata uang digital dari peretasan. Kita akan mengakhiri dengan membahas munculnya layanan pencampuran bitcoin pertama, yang memungkinkan peningkatan privasi pengguna.
 
 
 
@@ -1420,15 +1385,15 @@ Pada bulan Oktober, perangkat lunak ini [berhasil](https://bitcointalk.org/index
 
 
 
-### wallet yang ringan
+### dompet yang ringan
 
 
 
-Masalah dengan implementasi penuh adalah bahwa mereka intensif sumber daya dan tidak praktis untuk digunakan oleh banyak orang. Terlebih lagi, mereka tidak dapat digunakan pada perangkat seluler. Itulah mengapa pengguna baru dan sesekali beralih ke jalan keluar yang mudah: aplikasi kustodian. Pada bulan November 2010, seorang anggota forum (Kiba) membuat [bounty] kolektif (https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) untuk pengembangan klien seluler Bitcoin. Pada tanggal 29 Juli 2011, penutupan MyBitcoin mengkonfirmasi kebutuhan akan solusi perantara. Ini adalah katalisator untuk pengembangan * wallet yang ringan*.
+Masalah dengan implementasi penuh adalah bahwa mereka intensif sumber daya dan tidak praktis untuk digunakan oleh banyak orang. Terlebih lagi, mereka tidak dapat digunakan pada perangkat seluler. Itulah mengapa pengguna baru dan sesekali beralih ke jalan keluar yang mudah: aplikasi kustodian. Pada bulan November 2010, seorang anggota forum (Kiba) membuat [bounty] kolektif (https://bitcointalk.org/index.php?topic=1812.msg22319#msg22319) untuk pengembangan klien seluler Bitcoin. Pada tanggal 29 Juli 2011, penutupan MyBitcoin mengkonfirmasi kebutuhan akan solusi perantara. Ini adalah katalisator untuk pengembangan * dompet yang ringan*.
 
 
 
-Ide pertama adalah menggunakan [node](https://planb.academy/resources/glossary/node) sebagai server jarak jauh, di mana pengguna memiliki kepercayaan penuh. Pada bulan Februari 2011, Amir Taaki [meluncurkan] (https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) klien perangkat lunak untuk mengelola wallet secara lokal dengan menghubungkan ke node yang sudah ada yang disebut Spesmilo. Klien ini awalnya berjalan di Linux, tetapi segera dipindahkan ke Windows. Nama ini merujuk pada spesmilo, unit mata uang internasional kuno yang diusulkan oleh matematikawan Swiss René de Saussure (saudara laki-laki dari ahli bahasa Ferdinand) pada tahun 1907, sebagai bagian dari proyek Esperanto.
+Ide pertama adalah menggunakan [node](https://planb.academy/resources/glossary/node) sebagai server jarak jauh, di mana pengguna memiliki kepercayaan penuh. Pada bulan Februari 2011, Amir Taaki [meluncurkan] (https://bitcointalk.org/index.php?topic=3451.msg48538#msg48538) klien perangkat lunak untuk mengelola dompet secara lokal dengan menghubungkan ke node yang sudah ada yang disebut Spesmilo. Klien ini awalnya berjalan di Linux, tetapi segera dipindahkan ke Windows. Nama ini merujuk pada spesmilo, unit mata uang internasional kuno yang diusulkan oleh matematikawan Swiss René de Saussure (saudara laki-laki dari ahli bahasa Ferdinand) pada tahun 1907, sebagai bagian dari proyek Esperanto.
 
 
 
@@ -1452,7 +1417,7 @@ Amir [adalah](https://bitcointalk.org/index.php?topic=1568.msg19443#msg19443) se
 
 
 
-Ide lainnya yang lebih nyaman adalah dengan menggunakan verifikasi pembayaran yang disederhanakan (SPV), yang memungkinkan transaksi diverifikasi sebagai bagian dari blockchain tanpa harus mengunduh seluruh kumpulan data. Pada tanggal 11 Maret 2011, beberapa hari setelah peluncuran BitCoinJ, seorang pengembang yang berbasis di Berlin dengan nama Andreas Schildbach, alias Goonie di forum, [meluncurkan] (https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) prototipe wallet untuk ponsel yang menjalankan Android, berdasarkan implementasi Mike Hearn. Dengan nama sederhana *Bitcoin Wallet untuk Android*, ini menjadi model kerja pertama dari wallet yang ringan pada ponsel.
+Ide lainnya yang lebih nyaman adalah dengan menggunakan verifikasi pembayaran yang disederhanakan (SPV), yang memungkinkan transaksi diverifikasi sebagai bagian dari blockchain tanpa harus mengunduh seluruh kumpulan data. Pada tanggal 11 Maret 2011, beberapa hari setelah peluncuran BitCoinJ, seorang pengembang yang berbasis di Berlin dengan nama Andreas Schildbach, alias Goonie di forum, [meluncurkan] (https://bitcointalk.org/index.php?topic=4384.msg64142#msg64142) prototipe dompet untuk ponsel yang menjalankan Android, berdasarkan implementasi Mike Hearn. Dengan nama sederhana *Bitcoin Wallet untuk Android*, ini menjadi model kerja pertama dari dompet yang ringan pada ponsel.
 
 
 
@@ -1464,19 +1429,19 @@ Ide lainnya yang lebih nyaman adalah dengan menggunakan verifikasi pembayaran ya
 
 
 
-wallet berbasis BitCoinJ lainnya yang tersedia di PC adalah MultiBit, yang dibuat (https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542) pada bulan September 2011 oleh pengembang Inggris, Jim Burton. Fitur yang membedakannya adalah kemampuan untuk mengelola beberapa akun dalam antarmuka.
+Dompet berbasis BitCoinJ lainnya yang tersedia di PC adalah MultiBit, yang dibuat (https://bitcointalk.org/index.php?topic=43616.msg520542#msg520542) pada bulan September 2011 oleh pengembang Inggris, Jim Burton. Fitur yang membedakannya adalah kemampuan untuk mengelola beberapa akun dalam antarmuka.
 
 
 
-### Deterministik wallets
+### Dompet deterministik
 
 
 
-Upaya untuk meningkatkan kegunaan Bitcoin juga menyebabkan munculnya *deterministik wallet*. Ini adalah wallet yang menerapkan penurunan kunci: alih-alih menjadi generated secara individual secara acak, seperti yang dilakukan pada perangkat lunak utama, kunci pribadi diturunkan secara deterministik dari informasi (disebut seed) menggunakan fungsi [kriptografi](https://planb.academy/resources/glossary/cryptography). Dengan mengetahui informasi ini, pengguna dapat memulihkan semua dananya, yang sangat menyederhanakan pencadangan wallet. Tidak perlu menyimpan file `wallet.dat` berulang kali!
+Upaya untuk meningkatkan kegunaan Bitcoin juga menyebabkan munculnya *dompet deterministik*. Ini adalah dompet yang menerapkan penurunan kunci: alih-alih menjadi generated secara individual secara acak, seperti yang dilakukan pada perangkat lunak utama, kunci pribadi diturunkan secara deterministik dari informasi (disebut seed) menggunakan fungsi [kriptografi](https://planb.academy/resources/glossary/cryptography). Dengan mengetahui informasi ini, pengguna dapat memulihkan semua dananya, yang sangat menyederhanakan pencadangan dompet. Tidak perlu menyimpan file `wallet.dat` berulang kali!
 
 
 
-wallet yang deterministik sebagian besar merupakan gagasan dari pengembang Amerika, Gregory Maxwell. Sebagai pendukung perangkat lunak bebas, dia telah menjadi [kontributor] (https://commons.wikimedia.org/wiki/User:Gmaxwell) untuk Wikipedia sejak tahun 2004 dan bekerja untuk yayasan Xiph.org, di mana dia terlibat dalam pengembangan codec audio Opus. Pada bulan Mei 2011, dia mulai terlibat dengan Bitcoin, dan [mencoba tangannya] (https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) di mining. Dia juga banyak menulis dan dengan cepat menjadi sangat aktif di forum dan di saluran IRC \#bitcoin-dev, di mana dia menggunakan nama samaran Gmaxwell.
+dompet yang deterministik sebagian besar merupakan gagasan dari pengembang Amerika, Gregory Maxwell. Sebagai pendukung perangkat lunak bebas, dia telah menjadi [kontributor] (https://commons.wikimedia.org/wiki/User:Gmaxwell) untuk Wikipedia sejak tahun 2004 dan bekerja untuk yayasan Xiph.org, di mana dia terlibat dalam pengembangan codec audio Opus. Pada bulan Mei 2011, dia mulai terlibat dengan Bitcoin, dan [mencoba tangannya] (https://bitcointalk.org/index.php?topic=7171.msg119591#msg119591) di mining. Dia juga banyak menulis dan dengan cepat menjadi sangat aktif di forum dan di saluran IRC \#bitcoin-dev, di mana dia menggunakan nama samaran Gmaxwell.
 
 
 
@@ -1492,13 +1457,13 @@ Gregory Maxwell memiliki banyak ide tentang cara meningkatkan penggunaan Bitcoin
 
 
 
-> "Bitcoin benar-benar harus menawarkan dan secara default menggunakan wallet yang deterministik.   Keamanan tambahan dari pra-generated saat ini cukup kecil mengingat bagaimana kebanyakan orang menggunakan bitcoin dan tanggung jawab bahaya karena cadangan yang tidak mencukupi dan peningkatan tekanan untuk menjaga satu wallet online sangat besar."
+> "Bitcoin benar-benar harus menawarkan dan secara default menggunakan dompet yang deterministik. Keamanan tambahan dari pra-generated saat ini cukup kecil mengingat bagaimana kebanyakan orang menggunakan bitcoin dan tanggung jawab bahaya karena cadangan yang tidak mencukupi dan peningkatan tekanan untuk menjaga satu dompet online sangat besar."
 
 Ada dua jenis derivasi yang dipertimbangkan. Satu tipe (tipe 1) sangat mudah, menghasilkan kunci privat secara langsung dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari [kunci publik](https://planb.academy/resources/glossary/public-key) utama yang diperoleh dari seed. Tipe lainnya (tipe 2) lebih kompleks, tetapi memungkinkan alamat diturunkan dari kunci publik utama yang diperoleh dari seed, tanpa mengakses seed itu sendiri. Hal ini memungkinkan perangkat lunak pemrosesan pembayaran untuk memberikan alamat kepada generate untuk setiap transaksi, tanpa mengekspos kunci privat.
 
 
 
-Kemudian, pada bulan Februari 2012, standarisasi dilakukan dengan [publikasi] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. Publikasi ini menggambarkan struktur umum *Hierarchical Deterministic Wallet*, HD Wallet, di mana turunan digunakan secara metodis untuk mendapatkan kunci dan alamat seed. Ini telah diadopsi secara bertahap oleh sebagian besar wallet selama bertahun-tahun.
+Kemudian, pada bulan Februari 2012, standarisasi dilakukan dengan [publikasi] (https://en.bitcoin.it/w/index.php?title=BIP_0032&oldid=26198) [BIP](https://planb.academy/resources/glossary/bip) 32. Publikasi ini menggambarkan struktur umum *Hierarchical Deterministic Wallet*, HD Wallet, di mana turunan digunakan secara metodis untuk mendapatkan kunci dan alamat seed. Ini telah diadopsi secara bertahap oleh sebagian besar dompet selama bertahun-tahun.
 
 
 
@@ -1508,11 +1473,11 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-Perangkat lunak lain wallet muncul selama tahun 2011. Selama musim panas, seorang pengembang Denmark bernama Jan Møller mengembangkan antarmuka Java yang disebut BCCAPI (untuk *BitCoin Client API*). Ini [diumumkan] (https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652) pada tanggal 23 Agustus. Ini adalah antarmuka perangkat lunak untuk menghubungkan klien yang berjalan di ponsel Android ke server. Di sisi klien, ini menerapkan pembuatan kunci pribadi secara deterministik, tanpa perlu backup reguler.
+Perangkat lunak dompet lainnya muncul selama tahun 2011. Selama musim panas, seorang pengembang Denmark bernama Jan Møller mengembangkan antarmuka Java yang disebut BCCAPI (untuk *BitCoin Client API*). Ini [diumumkan] (https://bitcointalk.org/index.php?topic=36892.msg453652#msg453652) pada tanggal 23 Agustus. Ini adalah antarmuka perangkat lunak untuk menghubungkan klien yang berjalan di ponsel Android ke server. Di sisi klien, ini menerapkan pembuatan kunci pribadi secara deterministik, tanpa perlu backup reguler.
 
 
 
-Beberapa bulan kemudian, antarmuka ini digunakan untuk membuat wallet ringan yang disebut BitcoinSpinner, tersedia di Google Play. Hal ini [diumumkan] (https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) oleh Jan pada tanggal 23 November. Secara resmi dikelola oleh perusahaan Denmark, Miracle A/S, yang mana Jan [bergabung] (https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264) pada akhir Desember.
+Beberapa bulan kemudian, antarmuka ini digunakan untuk membuat dompet ringan yang disebut BitcoinSpinner, tersedia di Google Play. Hal ini [diumumkan] (https://bitcointalk.org/index.php?topic=52674.msg628527#msg628527) oleh Jan pada tanggal 23 November. Secara resmi dikelola oleh perusahaan Denmark, Miracle A/S, yang mana Jan [bergabung] (https://bitcointalk.org/index.php?topic=53353.msg672264#msg672264) pada akhir Desember.
 
 
 
@@ -1524,7 +1489,7 @@ Beberapa bulan kemudian, antarmuka ini digunakan untuk membuat wallet ringan yan
 
 
 
-Namun, BCCAPI [menderita] (https://bitcointalk.org/index.php?topic=46493.msg571018#msg571018) dari beberapa kekurangan, yang berarti tidak sesuai dengan selera semua orang. Di satu sisi, infrastruktur perangkat lunak server, yang didasarkan pada BitCoinJ, tidak bersifat publik, yang melarang penyebaran server tambahan. Di sisi lain, sistem menyimpan transaksi yang terkait dengan alamat yang dikelola oleh wallet untuk memberikan saldo total, yang mengurangi bandwidth tetapi menimbulkan masalah kerahasiaan.
+Namun, BCCAPI [menderita] (https://bitcointalk.org/index.php?topic=46493.msg571018#msg571018) dari beberapa kekurangan, yang berarti tidak sesuai dengan selera semua orang. Di satu sisi, infrastruktur perangkat lunak server, yang didasarkan pada BitCoinJ, tidak bersifat publik, yang melarang penyebaran server tambahan. Di sisi lain, sistem menyimpan transaksi yang terkait dengan alamat yang dikelola oleh dompet untuk memberikan saldo total, yang mengurangi bandwidth tetapi menimbulkan masalah kerahasiaan.
 
 
 
@@ -1544,7 +1509,7 @@ Hasilnya adalah Electrum, yang [dirilis] (https://bitcointalk.org/index.php?topi
 
 
 
-Klien terhubung ke jaringan server khusus untuk mengambil transaksi. Server menjalankan perangkat lunak (bitcoind) dan mengindeks semua transaksi menggunakan kode penjelajah blok ABE. Dalam wallet ini, seed berbentuk string karakter heksadesimal. Pada 10 November, itu [adalah] (https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) juga direpresentasikan sebagai frasa mnemonik 12 kata. Setiap kata dipilih dari daftar yang telah ditentukan sebelumnya, sehingga memungkinkan bit informasi dapat diwakili. Jenis kalimat ini akan distandardisasi oleh BIP 39, yang [disusun] (https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) pada tahun 2013.
+Klien terhubung ke jaringan server khusus untuk mengambil transaksi. Server menjalankan perangkat lunak (bitcoind) dan mengindeks semua transaksi menggunakan kode penjelajah blok ABE. Dalam dompet ini, seed berbentuk string karakter heksadesimal. Pada 10 November, itu [adalah] (https://bitcointalk.org/index.php?topic=51397.msg612674#msg612674) juga direpresentasikan sebagai frasa mnemonik 12 kata. Setiap kata dipilih dari daftar yang telah ditentukan sebelumnya, sehingga memungkinkan bit informasi dapat diwakili. Jenis kalimat ini akan distandardisasi oleh BIP 39, yang [disusun] (https://github.com/trezor/python-mnemonic/blob/217999150812f7d356169661e4ac0b2e09fecd1d/BIP_0039.txt) pada tahun 2013.
 
 
 
@@ -1556,11 +1521,11 @@ Klien terhubung ke jaringan server khusus untuk mengambil transaksi. Server menj
 
 
 
-Pada tanggal 16 Desember, Electrum [terintegrasi](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) turunan tipe 2, sehingga alamatnya menjadi generated, tanpa akses ke seed. Pada bulan Oktober 2012, Thomas Voegtlin [akan menambahkan] (https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) juga menyederhanakan verifikasi pembayaran ke Electrum, menjadikannya salah satu wallet ringan terbaik di ekosistem.
+Pada tanggal 16 Desember, Electrum [terintegrasi](https://bitcointalk.org/index.php?topic=50936.msg652435#msg652435) turunan tipe 2, sehingga alamatnya menjadi generated, tanpa akses ke seed. Pada bulan Oktober 2012, Thomas Voegtlin [akan menambahkan] (https://bitcointalk.org/index.php?topic=50936.msg1302941#msg1302941) juga menyederhanakan verifikasi pembayaran ke Electrum, menjadikannya salah satu dompet ringan terbaik di ekosistem.
 
 
 
-wallet canggih ketiga [keluar] (https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650) pada awal 2012: Gudang Senjata. Perangkat lunak ini dikembangkan sejak Juli 2011 oleh insinyur Amerika Alan Reiner, yang menggunakan nama forum Etotheipi (mengacu pada identitas matematika Euler). Ini [awalnya] (https://github.com/etotheipi/BitcoinArmory/blob/d68259dcf4116473d82458770e5ad73b95238797/README) berbentuk sebuah pustaka perangkat lunak Python yang disebut PyBtcEngine, sebelum menjadi klien penuh pada bulan November.
+dompet canggih ketiga [keluar] (https://bitcointalk.org/index.php?topic=56424.msg671650#msg671650) pada awal 2012: Gudang Senjata. Perangkat lunak ini dikembangkan sejak Juli 2011 oleh insinyur Amerika Alan Reiner, yang menggunakan nama forum Etotheipi (mengacu pada identitas matematika Euler). Ini [awalnya] (https://github.com/etotheipi/BitcoinArmory/blob/d68259dcf4116473d82458770e5ad73b95238797/README) berbentuk sebuah pustaka perangkat lunak Python yang disebut PyBtcEngine, sebelum menjadi klien penuh pada bulan November.
 
 
 
@@ -1568,7 +1533,7 @@ wallet canggih ketiga [keluar] (https://bitcointalk.org/index.php?topic=56424.ms
 
 
 
-*Interface dari Gudang Senjata wallet pada bulan Januari 2012 (sumber: [arsip](https://web.archive.org/web/20120225130943/http://bitcoinarmory.com/) dari situs web Armory)*
+*Interface dari dompet Gudang Senjata pada bulan Januari 2012 (sumber: [arsip](https://web.archive.org/web/20120225130943/http://bitcoinarmory.com/) dari situs web Armory)*
 
 
 
@@ -1576,11 +1541,12 @@ Pada tanggal 3 Januari 2012, Armory dipresentasikan sebagai "Klien Bitcoin terca
 
 
 
-### Web wallets
+### Dompet web
 
 
 
-Sebuah bentuk hibrida dari wallet muncul: *web wallet*, yang memungkinkan untuk mengakses dana dari sebuah browser dengan menghubungkannya ke sebuah layanan yang menyimpan sebuah salinan terenkripsi dari kunci pribadi.
+
+Muncul bentuk dompet hibrida: *dompet web*, yang memungkinkan untuk mengakses dana dari sebuah browser dengan menghubungkannya ke sebuah layanan yang menyimpan sebuah salinan terenkripsi dari kunci pribadi.
 
 
 
@@ -1596,7 +1562,7 @@ Sejak bulan Maret 2011, Stefan Thomas (justmoon), produser Jerman dari video "*A
 
 
 
-Pengembang pertama yang menggunakan pustaka ini adalah anggota forum yang menyebut dirinya DogIsland, yang [mempresentasikan] (https://bitcointalk.org/index.php?topic=36169.msg445796#msg445796) konsep web wallet yang disebut StrongCoin pada bulan Agustus. Antarmuka memungkinkan pengguna untuk membuat akun dan masuk dengan nama pengguna dan kata sandi. Ini menetapkan bahwa kunci pribadi dienkripsi menggunakan AES sebelum dikirim ke server, sehingga hanya pengguna yang memiliki akses ke dana. Layanan ini [secara resmi dibuka] (https://twitter.com/strongcoin/status/122263762035146753) pada tanggal 7 Oktober, tetapi [memiliki kelemahan] (https://web.archive.org/web/20111113070337/http://www.thebitcointrader.com/2011/11/bitcoins-killer-app-is-here.html) dengan mengenakan biaya 1% (hingga BTC) untuk setiap jumlah yang dikirim.
+Pengembang pertama yang menggunakan pustaka ini adalah anggota forum yang menyebut dirinya DogIsland, yang [mempresentasikan] (https://bitcointalk.org/index.php?topic=36169.msg445796#msg445796) konsep dompet web yang disebut StrongCoin pada bulan Agustus. Antarmuka memungkinkan pengguna untuk membuat akun dan masuk dengan nama pengguna dan kata sandi. Ini menetapkan bahwa kunci pribadi dienkripsi menggunakan AES sebelum dikirim ke server, sehingga hanya pengguna yang memiliki akses ke dana. Layanan ini [secara resmi dibuka] (https://twitter.com/strongcoin/status/122263762035146753) pada tanggal 7 Oktober, tetapi [memiliki kelemahan] (https://web.archive.org/web/20111113070337/http://www.thebitcointrader.com/2011/11/bitcoins-killer-app-is-here.html) dengan mengenakan biaya 1% (hingga BTC) untuk setiap jumlah yang dikirim.
 
 
 
@@ -1612,7 +1578,7 @@ Perpustakaan BitcoinJS juga [digunakan] (https://web.archive.org/web/20180611012
 
 
 
-Pada tanggal 1 Desember, Ben Reeves [mengintegrasikan] (http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) fungsionalitas wallet ke dalam platform. Fitur ini, yang diberi nama "My Wallet", mirip dengan StrongCoin: pengguna mengakses wallet mereka dengan login dan kata sandi; kunci pribadi mereka dienkripsi dan disimpan di server. Akan tetapi, tidak ada komisi yang dibebankan. Terlebih lagi, layanan ini diuntungkan oleh kejelasan penjelajah blok, yang menunjukkan detail transaksi yang dieksekusi.
+Pada tanggal 1 Desember, Ben Reeves [mengintegrasikan] (http://bitcointalk.org/index.php?topic=40264.msg636996#msg636996) fungsionalitas dompet ke dalam platform. Fitur ini, yang diberi nama "My Wallet", mirip dengan StrongCoin: pengguna mengakses dompet mereka dengan login dan kata sandi; kunci pribadi mereka dienkripsi dan disimpan di server. Akan tetapi, tidak ada komisi yang dibebankan. Terlebih lagi, layanan ini diuntungkan oleh kejelasan penjelajah blok, yang menunjukkan detail transaksi yang dieksekusi.
 
 
 
@@ -1624,7 +1590,7 @@ Pada tanggal 1 Desember, Ben Reeves [mengintegrasikan] (http://bitcointalk.org/i
 
 
 
-Kepraktisan wallet membuatnya sangat populer. Layanan ini dengan cepat menarik ribuan pengguna, mencapai [5.000] (https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) akun terbuka pada bulan Maret 2012. Volume harian pada blockchain, yang menghitung bitcoin yang dipindahkan oleh transaksi yang dikeluarkan dari Blockchain.info (My Wallet dan API) dan transfer yang melebihi jumlah yang sebenarnya, terus meningkat. Pada awal bulan Mei, volume ini meledak berkat aktivitas generated oleh permainan dadu online SatoshiDICE, melebihi 18.000 bitcoin, atau $90.000 pada saat itu! Pada bulan Juli, total volume yang dipindahkan oleh Blockchain.info akan [diperkirakan] (https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/) mencapai $ 13,6 juta.
+Kepraktisan dompet membuatnya sangat populer. Layanan ini dengan cepat menarik ribuan pengguna, mencapai [5.000] (https://bitcointalk.org/index.php?topic=40264.msg790252#msg790252) akun terbuka pada bulan Maret 2012. Volume harian pada blockchain, yang menghitung bitcoin yang dipindahkan oleh transaksi yang dikeluarkan dari Blockchain.info (My Wallet dan API) dan transfer yang melebihi jumlah yang sebenarnya, terus meningkat. Pada awal bulan Mei, volume ini meledak berkat aktivitas generated oleh permainan dadu online SatoshiDICE, melebihi 18.000 bitcoin, atau $90.000 pada saat itu! Pada bulan Juli, total volume yang dipindahkan oleh Blockchain.info akan [diperkirakan] (https://web.archive.org/web/20120720035456/https://blockchain.info/wallet/) mencapai $ 13,6 juta.
 
 
 
@@ -1636,19 +1602,19 @@ Kepraktisan wallet membuatnya sangat populer. Layanan ini dengan cepat menarik r
 
 
 
-### Penyimpanan Cold dan kertas wallet
+### Penyimpanan dingin (cold storage) dan dompet kertas (paper wallets)
 
 
 
-tahun 2011 juga melihat kemunculan kertas wallet, sebuah aplikasi dari konsep cold storage. Menyimpan bitcoin berarti menyimpan informasi tertentu yang terlindungi dari risiko, baik dari kehilangan yang tidak disengaja maupun keingintahuan orang lain (pencurian). Informasi ini - kunci pribadi - dapat disimpan [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) oleh perangkat yang tidak pernah terhubung ke Internet. Hal ini telah dikenal sebagai cold storage [pada tahun 2011] (https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
+Tahun 2011 juga melihat kemunculan dompet kertas, sebuah aplikasi dari konsep cold storage. Menyimpan bitcoin berarti menyimpan informasi tertentu yang terlindungi dari risiko, baik dari kehilangan yang tidak disengaja maupun keingintahuan orang lain (pencurian). Informasi ini - kunci pribadi - dapat disimpan [generated](https://bitcointalk.org/index.php?topic=1610.msg19131#msg19131) oleh perangkat yang tidak pernah terhubung ke Internet. Hal ini telah dikenal sebagai cold storage [pada tahun 2011] (https://en.bitcoin.it/w/index.php?title=Cold_storage&oldid=16769).
 
 
 
-Penyimpanan Cold dapat dilakukan dengan menyimpan kunci pribadi Anda pada media cadangan digital, seperti stik USB. Tetapi metode yang jauh lebih praktis adalah dengan menggunakan kertas wallet, yang hanya berupa selembar kertas yang berisi kunci privat dan alamat publik. Kunci tersebut dapat di generated oleh perangkat lunak wallet apa pun, asalkan perangkat tempat kuncinya berada tetap offline.
+Penyimpanan dingin dapat dilakukan dengan menyimpan kunci pribadi Anda pada media cadangan digital, seperti stik USB. Tetapi metode yang jauh lebih praktis adalah dengan menggunakan dompet kertas, yang hanya berupa selembar kertas yang berisi kunci privat dan alamat publik. Kunci tersebut dapat di generated oleh perangkat lunak dompet apa pun, asalkan perangkat tempat kuncinya berada tetap offline.
 
 
 
-Kertas wallet juga bisa menjadi generated dengan menggunakan alat khusus. Alat jenis ini diluncurkan pada musim panas 2011. Yang utama adalah BitAddress, yang dikembangkan oleh Pointbiz tertentu, yang [diluncurkan] (https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) pada bulan September. Ini adalah alat berbasis peramban dengan kode Javascript. Antarmuka mengundang pengguna untuk membuat entropi untuk mengoptimalkan pembuatan bilangan acak semu. Kunci privat dan alamat yang dihasilkan kemudian dapat dicetak untuk disimpan. Tentu saja dapat (dan disarankan!) digunakan tanpa koneksi Internet, dengan menyimpan halaman HTML.
+Dompet kertas juga bisa menjadi generated dengan menggunakan alat khusus. Alat jenis ini diluncurkan pada musim panas 2011. Yang utama adalah BitAddress, yang dikembangkan oleh Pointbiz tertentu, yang [diluncurkan] (https://web.archive.org/web/20111102021042/https://bitcointalk.org/index.php?topic=43496.0) pada bulan September. Ini adalah alat berbasis peramban dengan kode Javascript. Antarmuka mengundang pengguna untuk membuat entropi untuk mengoptimalkan pembuatan bilangan acak semu. Kunci privat dan alamat yang dihasilkan kemudian dapat dicetak untuk disimpan. Tentu saja dapat (dan disarankan!) digunakan tanpa koneksi Internet, dengan menyimpan halaman HTML.
 
 
 
@@ -1656,7 +1622,7 @@ Kertas wallet juga bisa menjadi generated dengan menggunakan alat khusus. Alat j
 
 
 
-*Kertas wallet generated dengan BitAddress pada bulan September 2011 (sumber: [capture] (https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) dari BitAddress.org)*
+*Dompet kertas generated dengan BitAddress pada bulan September 2011 (sumber: [capture] (https://web.archive.org/web/20120519160806/https://bitcointalk.org/index.php?topic=40264.140) dari BitAddress.org)*
 
 
 
@@ -1664,7 +1630,7 @@ Alat lain yang muncul pada saat ini adalah VanityGen, [dibuat] (https://web.arch
 
 
 
-Terakhir, metode perlindungan yang paling efektif terhadap pencurian adalah "otak wallet", yang melibatkan penghafalan sebuah frasa rahasia yang memberikan akses ke bitcoin yang disimpan pada alamat yang sesuai. Sebagai contoh, frasa rahasia dapat di-hash dengan SHA-256 untuk mendapatkan kunci pribadi yang memungkinkan dana untuk dibelanjakan. Metode ini [diusulkan] (https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) oleh Casascius pada bulan Agustus 2011 dan [disorot] (https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) di Forbes oleh Jon Matonis pada bulan Maret 2012. Namun, metode ini sangat tidak aman jika entropi tidak mencukupi. Dan tentu saja, hal ini tunduk pada keterbatasan ingatan manusia; ini lebih merupakan demonstrasi praktis dari kekuatan Bitcoin daripada aplikasi yang berkelanjutan.
+Terakhir, metode perlindungan yang paling efektif terhadap pencurian adalah "dompet otak", yang melibatkan penghafalan sebuah frasa rahasia yang memberikan akses ke bitcoin yang disimpan pada alamat yang sesuai. Sebagai contoh, frasa rahasia dapat di-hash dengan SHA-256 untuk mendapatkan kunci pribadi yang memungkinkan dana untuk dibelanjakan. Metode ini [diusulkan] (https://bitcointalk.org/index.php?topic=35082.msg436289#msg436289) oleh Casascius pada bulan Agustus 2011 dan [disorot] (https://www.forbes.com/sites/jonmatonis/2012/03/12/brainwallet-the-ultimate-in-mobile-money/) di Forbes oleh Jon Matonis pada bulan Maret 2012. Namun, metode ini sangat tidak aman jika entropi tidak mencukupi. Dan tentu saja, hal ini tunduk pada keterbatasan ingatan manusia; ini lebih merupakan demonstrasi praktis dari kekuatan Bitcoin daripada aplikasi yang berkelanjutan.
 
 
 
@@ -1712,7 +1678,7 @@ Mike Caldwell adalah seorang pengembang Amerika berusia 33 tahun yang tinggal di
 
 
 
-Casascius sangat tertarik dengan penyimpanan bitcoin, dan oleh karena itu wallet. Dia mengembangkan [utilitas] (https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) untuk mengubah kunci privat menjadi alamat Bitcoin, kunci khusus generate dan membuat turunan seed. Namun yang terpenting, ia menetapkan, seperti yang ia [jelaskan] (https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), untuk "membuat bitcoin nyata yang benar-benar menyampaikan BTC". Beginilah cara dia mulai [menjual] (https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) kertas wallet dari bulan Juni di situs web pribadinya.
+Casascius sangat tertarik dengan penyimpanan bitcoin, dan oleh karena itu dompet. Dia mengembangkan [utilitas] (https://bitcointalk.org/index.php?topic=25141.msg312005#msg312005) untuk mengubah kunci privat menjadi alamat Bitcoin, kunci khusus generate dan membuat turunan seed. Namun yang terpenting, ia menetapkan, seperti yang ia [jelaskan] (https://bitcointalk.org/index.php?topic=2657.msg36011#msg36011), untuk "membuat bitcoin nyata yang benar-benar menyampaikan BTC". Beginilah cara dia mulai [menjual] (https://bitcointalk.org/index.php?topic=21878.msg275000#msg275000) dompet kertas dari bulan Juni di situs web pribadinya.
 
 
 
@@ -1765,7 +1731,7 @@ Blender kedua adalah Bitcoin Fog ("pengacak bitcoin"), [dibuat] (https://web.arc
 
 
 
-Yang ketiga adalah jenis yang istimewa, karena ini adalah mixer yang dibangun ke dalam Blockchain.info wallet milik Ben Reeves. Layanan ini [diimplementasikan] (https://bitcointalk.org/index.php?topic=40264.msg1015499#msg1015499) pada bulan Juli 2012 sebagai fitur yang disebut "Send Anonymously". Komisi yang dibebankan adalah 1,5%.
+Yang ketiga adalah jenis yang istimewa, karena ini adalah mixer yang dibangun ke dalam dompet Blockchain.info milik Ben Reeves. Layanan ini [diimplementasikan] (https://bitcointalk.org/index.php?topic=40264.msg1015499#msg1015499) pada bulan Juli 2012 sebagai fitur yang disebut "Send Anonymously". Komisi yang dibebankan adalah 1,5%.
 
 
 
@@ -1773,7 +1739,7 @@ Yang ketiga adalah jenis yang istimewa, karena ini adalah mixer yang dibangun ke
 
 
 
-*Ilustrasi fungsi "Kirim Secara Anonim" dari Blockchain.info wallet (sumber: [arsip](https://web.archive.org/web/20120708011906/https://blockchain.info/wallet/send-anonymously))*
+*Ilustrasi fungsi "Kirim Secara Anonim" dari dompet Blockchain.info (sumber: [arsip](https://web.archive.org/web/20120708011906/https://blockchain.info/wallet/send-anonymously))*
 
 
 
@@ -1781,19 +1747,19 @@ Proliferasi mixer terpusat memiliki efek mengkatalisasi pemikiran seputar pencam
 
 
 
-### Periode kemajuan untuk wallet
+### Periode kemajuan untuk dompet
 
 
 
-Periode 2011-2012 merupakan periode yang sibuk untuk pengembangan berbagai solusi penggunaan Bitcoin. Selain aplikasi kustodian, kami melihat kemunculan perangkat lunak wallet seperti *Bitcoin Wallet untuk Android* dan Electrum, wallet web seperti Blockchain.info, generator wallet kertas seperti BitAddress, dan representasi fisik bitcoin seperti Bitbills dan Casascius Coin. Beberapa layanan pencampuran telah dikembangkan untuk menawarkan kerahasiaan yang lebih besar kepada pengguna.
+Periode 2011-2012 merupakan periode yang sibuk untuk pengembangan berbagai solusi penggunaan Bitcoin. Selain aplikasi kustodian, kami melihat kemunculan perangkat lunak dompet seperti *Bitcoin Wallet untuk Android* dan Electrum, dompet web seperti Blockchain.info, generator dompet kertas seperti BitAddress, dan representasi fisik bitcoin seperti Bitbills dan Casascius Coin. Beberapa layanan pencampuran telah dikembangkan untuk menawarkan kerahasiaan yang lebih besar kepada pengguna.
 
 
 
-Selain itu, periode ini juga melihat pengembangan wallet deterministik, berdasarkan derivasi kunci dari satu bagian data yang disebut seed. Model ini disempurnakan dan distandardisasi dalam BIP 32 pada awal tahun 2012, untuk menambahkan hirarki pada turunan ini. Tetapi gerakan ini tidak berhenti sampai di situ, karena proposal-proposal lain kemudian diterbitkan. BIP 39, yang diterbitkan pada bulan September 2013, membakukan penggunaan frasa mnemonik, dengan nada yang sama dengan Electrum. BIP 43 dan 44, yang disusun pada bulan April 2014, menstandarkan struktur wallet yang menyimpan beberapa mata uang kripto dan beberapa akun. Proposal ini dibuat oleh Marek Palatinus (Slush) dan Pavol Rusnak (Stick), yang bekerja membuat perangkat keras wallet pertama, Bitcoin Trezor.
+Selain itu, periode ini juga melihat pengembangan dompet deterministik, berdasarkan derivasi kunci dari satu bagian data yang disebut seed. Model ini disempurnakan dan distandardisasi dalam BIP 32 pada awal tahun 2012, untuk menambahkan hirarki pada turunan ini. Tetapi gerakan ini tidak berhenti sampai di situ, karena proposal-proposal lain kemudian diterbitkan. BIP 39, yang diterbitkan pada bulan September 2013, membakukan penggunaan frasa mnemonik, dengan nada yang sama dengan Electrum. BIP 43 dan 44, yang disusun pada bulan April 2014, menstandarkan struktur dompet yang menyimpan beberapa mata uang kripto dan beberapa akun. Proposal ini dibuat oleh Marek Palatinus (Slush) dan Pavol Rusnak (Stick), yang bekerja membuat dompet perangkat keras pertama, Bitcoin Trezor.
 
 
 
-Namun, wallet bukan satu-satunya area yang mengalami kemajuan yang signifikan; begitu juga dengan kelompok mining. Memang, hal ini menyebar sepanjang tahun 2011, seiring dengan meningkatnya kesulitan mining, yang pada akhirnya menghasilkan generalisasi pendekatan mining ini. Pada bab berikutnya, kita akan fokus pada aspek sentral dari sejarah Bitcoin ini.
+Namun, dompet bukan satu-satunya area yang mengalami kemajuan yang signifikan; begitu juga dengan kelompok mining. Memang, hal ini menyebar sepanjang tahun 2011, seiring dengan meningkatnya kesulitan mining, yang pada akhirnya menghasilkan generalisasi pendekatan mining ini. Pada bab berikutnya, kita akan fokus pada aspek sentral dari sejarah Bitcoin ini.
 
 
 
@@ -2122,7 +2088,7 @@ Gavin masih menjadi pemimpin proyek, tetapi dia dibantu oleh beberapa orang. Pad
 
 
 
-Pada saat yang sama, sistem proposal perbaikan Bitcoin, [diperkenalkan] (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) oleh Amir Taaki pada bulan September 2011, mulai membuahkan hasil. BIPs pertama ditulis pada akhir tahun. Ini adalah kasus, misalnya, BIP 10, yang [diterbitkan] (https://gist.github.com/etotheipi/1321518) pada tanggal 28 Oktober oleh Alan Reiner, pengembang Armory wallet.
+Pada saat yang sama, sistem proposal perbaikan Bitcoin, [diperkenalkan] (https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) oleh Amir Taaki pada bulan September 2011, mulai membuahkan hasil. BIPs pertama ditulis pada akhir tahun. Ini adalah kasus, misalnya, BIP 10, yang [diterbitkan] (https://gist.github.com/etotheipi/1321518) pada tanggal 28 Oktober oleh Alan Reiner, pengembang dompet Armory.
 
 
 
@@ -2167,7 +2133,7 @@ Yang menarik, implementasi `OP_CHECKMULTISIG` mengandung bug. Bug ini [ditemukan
 
 
 
-Pada tanggal 23 Agustus 2011, beberapa hari setelah konferensi di New York, Gavin Andresen [memprakarsai] (https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) diskusi mengenai multisignature di forum BitcoinTalk dan di daftar `bitcoin-development`. Dia ingin menstandarkan transaksi yang melibatkan banyak penandatangan, yang dia gambarkan sebagai "jalur tercepat menuju bitcoin wallet yang sangat aman dan sangat sulit hilang". Sejak Desember 2010, hanya dua skema yang dianggap standar (https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744): P2PK dan P2PKH. Idenya adalah untuk menambahkan skema multisignature mentah, di mana jumlah partisipan dapat mencapai maksimum 3 orang.
+Pada tanggal 23 Agustus 2011, beberapa hari setelah konferensi di New York, Gavin Andresen [memprakarsai] (https://gnusha.org/pi/bitcoindev/CABsx9T1uw43JuvhEmJP0KCyojsDi1r7v6BaLBHz7wWazduE5iw@mail.gmail.com/) diskusi mengenai multisignature di forum BitcoinTalk dan di daftar `bitcoin-development`. Dia ingin menstandarkan transaksi yang melibatkan banyak penandatangan, yang dia gambarkan sebagai "jalur tercepat menuju dompet bitcoin yang sangat aman dan sangat sulit hilang". Sejak Desember 2010, hanya dua skema yang dianggap standar (https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744): P2PK dan P2PKH. Idenya adalah untuk menambahkan skema multisignature mentah, di mana jumlah partisipan dapat mencapai maksimum 3 orang.
 
 
 
@@ -2282,7 +2248,7 @@ Gavin ingin bergerak cepat, sangat cepat, yang tak pelak menciptakan ketegangan.
 
 
 
-Katapel ini dipimpin oleh pengembang Luke-Jr. Selama pertemuan IRC pada tanggal 3 Januari 2012, dia [menentang] (https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) P2SH, dengan pertimbangan bahwa "OP_EVAL jauh lebih baik daripada benda jelek ini". Pada tanggal 13, dia [membuat](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) sebuah thread di BitcoinTalk, di mana dia menyerukan tindakan terhadap BIP 16. Dia menganggap P2SH "jauh lebih buruk" daripada `OP_EVAL` karena "pada dasarnya menggantikan sistem skrip di mana Bitcoin dibangun dengan satu model khusus". Lebih lanjut, dia menunjukkan bahwa "Gavin memaksa semua orang yang menggunakan kode Bitcoin terbaru untuk memilih BIP 16", dan [dibuat] (https://github.com/bitcoin/bitcoin/pull/755) sebagai konsekuensinya, sebuah *permintaan tarik* untuk membuat penandaan ini opsional, yang akan diterima. Akhirnya, dia mengusulkan pemungutan suara komunitas, langsung di forum, yang dimenangkan oleh P2SH.
+Gerakan ini dipimpin oleh pengembang Luke-Jr. Selama pertemuan IRC pada tanggal 3 Januari 2012, dia [menentang] (https://en.bitcoin.it/wiki/User:Genjix/Meetings/3_Jan_2012) P2SH, dengan pertimbangan bahwa "OP_EVAL jauh lebih baik daripada benda jelek ini". Pada tanggal 13, dia [membuat](https://web.archive.org/web/20130307042411/https://bitcointalk.org/index.php?topic=58579.0) sebuah thread di BitcoinTalk, di mana dia menyerukan tindakan terhadap BIP 16. Dia menganggap P2SH "jauh lebih buruk" daripada `OP_EVAL` karena "pada dasarnya menggantikan sistem skrip di mana Bitcoin dibangun dengan satu model khusus". Lebih lanjut, dia menunjukkan bahwa "Gavin memaksa semua orang yang menggunakan kode Bitcoin terbaru untuk memilih BIP 16", dan [dibuat] (https://github.com/bitcoin/bitcoin/pull/755) sebagai konsekuensinya, sebuah *permintaan tarik* untuk membuat penandaan ini opsional, yang akan diterima. Akhirnya, dia mengusulkan pemungutan suara komunitas, langsung di forum, yang dimenangkan oleh P2SH.
 
 
 
@@ -2344,7 +2310,7 @@ Beberapa hari kemudian, Gavin [akan menjelaskan] (https://bitcointalk.org/index.
 
 > Saya menggunakan fitur Phone-a-Friend dan Ask the Audience, dan saya mengunci BIP 16 sebagai Jawaban Akhir saya
 
-### Pensinyalan Miner
+### Sinyal penambang
 
 
 
@@ -2364,7 +2330,7 @@ Pada saat itu, daya komputasi dibagi di antara beberapa [lima puluh](https://en.
 
 
 
-Pada tanggal 25 Januari, saat evaluasi pensinyalan dimulai, beberapa pool kecil [memberikan suara mendukung] (https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) P2SH. Eligius, kelompok Luke-Jr, memberikan suara menentang. Namun, tampaknya operator Deepbit, Tycho, menolak untuk menggunakan P2SH di dalam co-op-nya, seperti yang dia jelaskan di IRC. Sebagai tanggapan, Gavin [menulis] (https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) sebuah pesan panjang di forum, di mana dia menjelaskan situasi "dalam istilah awam", dengan mencatat secara khusus:
+Pada tanggal 25 Januari, ketika evaluasi sinyal dimulai, beberapa pool kecil [memberikan suara mendukung] (https://web.archive.org/web/20120125091902/http://blockchain.info/P2SH) P2SH. Eligius, kelompok Luke-Jr, memberikan suara menentang. Namun, tampaknya operator Deepbit, Tycho, menolak untuk menggunakan P2SH di dalam co-op-nya, seperti yang dia jelaskan di IRC. Sebagai tanggapan, Gavin [menulis] (https://bitcointalk.org/index.php?topic=61125.msg712822#msg712822) sebuah pesan panjang di forum, di mana dia menjelaskan situasi "dalam istilah awam", dengan mencatat secara khusus:
 
 
 
@@ -2412,7 +2378,7 @@ Akan tetapi, pada tanggal 4 Februari 2012, Russell O'Connor [menemukan] (https:/
 
 
 
-Setelah jeda yang disebabkan oleh penerapan BIP 30 (yang membutuhkan banyak upaya dari para penambang), pensinyalan untuk P2SH kembali ke jalurnya. Pada tanggal 10 Maret, Tycho melakukan tes pertama untuk mengimplementasikan pensinyalan di dalam Deepbit. Pada tanggal 15 Maret, dia [menyatakan] (https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) bahwa dia telah "mencoba untuk menunda P2SH sebanyak mungkin", tetapi "ini sudah tidak produktif". Akibatnya, ia menyerah dan menerapkan perubahan dalam kelompoknya.
+Setelah jeda yang disebabkan oleh penerapan BIP 30 (yang membutuhkan banyak upaya dari para penambang), pemberian sinyal untuk P2SH kembali berjalan sesuai rencana. Pada tanggal 10 Maret, Tycho melakukan uji coba pertama untuk menerapkan pemberian sinyal di Deepbit. Pada tanggal 15 Maret, dia [menyatakan] (https://bitcointalk.org/index.php?topic=3889.msg803685#msg803685) bahwa dia telah "mencoba untuk menunda P2SH sebanyak mungkin", tetapi "ini sudah tidak produktif". Akibatnya, ia menyerah dan menerapkan perubahan dalam kelompoknya.
 
 
 
@@ -2742,7 +2708,7 @@ Keputusan ini ditentang oleh beberapa pihak, dan administrator Jalur Sutra ditud
 
 
 
-> Suka atau tidak suka, saya adalah kapten kapal ini.  Anda berada di sini secara sukarela dan jika Anda tidak menyukai aturan mainnya, atau tidak mempercayai kapten Anda, Anda bisa turun dari kapal.  Bagi mereka yang bertahan, kami di Silk Road akan terus melakukan segala upaya untuk menjaga agar pasar ini tetap berjalan dengan lancar dan aman, dan sekali lagi terima kasih atas dukungan Anda!
+> Suka atau tidak suka, saya adalah kapten kapal ini. Anda berada di sini secara sukarela dan jika Anda tidak menyukai aturan mainnya, atau tidak mempercayai kapten Anda, Anda bisa turun dari kapal. Bagi mereka yang bertahan, kami di Silk Road akan terus melakukan segala upaya untuk menjaga agar pasar ini tetap berjalan dengan lancar dan aman, dan sekali lagi terima kasih atas dukungan Anda!
 
 Analogi sang kapten menarik perhatian para anggota forum Silk Road, yang dengan cepat menggunakannya baik secara positif maupun negatif dalam pesan-pesan mereka, sedemikian rupa sehingga Ross menggunakannya untuk membentuk citra yang unik untuk dirinya sendiri. Sebulan kemudian, ia memutuskan untuk mengubah namanya di forum dan dalam komunikasi resminya. Hingga saat itu, Ross menampilkan dirinya dengan nama samaran "Silk Road". Nama barunya, yang diresmikan pada tanggal 5 Februari, adalah Dread Pirate Roberts (sering disingkat DPR). Ini adalah referensi untuk film *The Princess Bride*, sebuah parodi komedi tahun 1987 tentang dongeng abad pertengahan, di mana karakter yang diperankan oleh Roberts digambarkan sebagai bajak laut yang kejam. Pengungkapan dalam film tersebut (https://www.youtube.com/watch?v=aHZGqBVBCRw) bahwa nama "Dread Pirate Roberts" hanyalah sebuah gelar, dan bahwa bajak laut yang sebenarnya mewarisi gelar tersebut dari orang yang menangkapnya, yang juga mewarisi gelar tersebut dari pendahulunya, dan lain-lain, nama tersebut seharusnya "mengilhami rasa takut yang diperlukan" pada musuh-musuhnya.
 
@@ -2764,7 +2730,7 @@ Perubahan nama tersebut menegaskan status Ross sebagai pemimpin gerakan Silk Roa
 
 
 
-Keputusan pertama Ross sebagai DPR adalah melarang penjualan senjata api di Silk Road, karena hal ini membuat beberapa penjual Silk Road tidak nyaman, dan [membuat](https://antilop.cc/sr/users/dpr/threads/20120226-0702-A_brand_new_annonymous_market.html) platform terpisah yang didedikasikan untuk jenis produk ini. Platform saudara, bernama *The Armory* ([jangan disamakan] (https://bitcointalk.org/index.php?topic=64449.msg774427#msg774427) dengan wallet milik Alan Reiner), dibuka pada tanggal 26 Februari 2012. Namun, percobaan ini hanya berumur pendek, karena [ditutup] (https://bitcointalk.org/index.php?topic=66587.msg1079466#msg1079466) pada bulan Agustus karena kurangnya volume yang memadai.
+Keputusan pertama Ross sebagai DPR adalah melarang penjualan senjata api di Silk Road, karena hal ini membuat beberapa penjual Silk Road tidak nyaman, dan [membuat](https://antilop.cc/sr/users/dpr/threads/20120226-0702-A_brand_new_annonymous_market.html) platform terpisah yang didedikasikan untuk jenis produk ini. Platform saudara, bernama *The Armory* ([jangan disamakan] (https://bitcointalk.org/index.php?topic=64449.msg774427#msg774427) dengan dompet milik Alan Reiner), dibuka pada tanggal 26 Februari 2012. Namun, percobaan ini hanya berumur pendek, karena [ditutup] (https://bitcointalk.org/index.php?topic=66587.msg1079466#msg1079466) pada bulan Agustus karena kurangnya volume yang memadai.
 
 
 
@@ -2922,7 +2888,7 @@ Toko-toko online besar menjadi makmur sepanjang tahun ini. Seperti halnya Coinab
 
 
 
-Pertumbuhan dalam perdagangan ini membuat proses pembayaran perlu distandarisasi, sehingga semua wallet dapat kompatibel satu sama lain. Dengan menggunakan smartphone dan membaca kode QR melalui kameranya, pembayaran menjadi tidak merepotkan. Namun demikian, data yang akan dimasukkan ke dalam kode QR harus disepakati: inilah alasan mengapa skema URI dikembangkan untuk memformalkan permintaan pembayaran. Menurut skema ini, sebuah permintaan, misalnya, akan berbentuk `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`, dan dengan demikian berisi alamat penerima (175tWp...), jumlah yang harus dibayarkan (20,3 bitcoin) dan deskripsi transaksi (Luke-Jr).
+Pertumbuhan dalam perdagangan ini membuat proses pembayaran perlu distandarisasi, sehingga semua dompet dapat kompatibel satu sama lain. Dengan menggunakan smartphone dan membaca kode QR melalui kameranya, pembayaran menjadi tidak merepotkan. Namun demikian, data yang akan dimasukkan ke dalam kode QR harus disepakati: inilah alasan mengapa skema URI dikembangkan untuk memformalkan permintaan pembayaran. Menurut skema ini, sebuah permintaan, misalnya, akan berbentuk `bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W?amount=20.3&label=Luke-Jr`, dan dengan demikian berisi alamat penerima (175tWp...), jumlah yang harus dibayarkan (20,3 bitcoin) dan deskripsi transaksi (Luke-Jr).
 
 
 
@@ -2982,7 +2948,7 @@ Stephen Pair dan Tony Gallippi [meluncurkan](https://bitcointalk.org/index.php?t
 
 
 
-Pada bulan Januari 2012, mereka [berpartisipasi] (https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) dalam *Consumer Electronics Show* di Las Vegas, pameran dagang terbesar yang didedikasikan untuk inovasi teknologi di bidang elektronik konsumen, dan menempati stan di sana bersama Roger Ver. Mereka juga meluncurkan produk baru, seperti [kartu deposit] (https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) yang "memungkinkan siapa pun *menerima* bitcoin tanpa wallet atau tanpa harus mengetahui apa pun tentang bitcoin"; atau [Limocoin] (https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), "sistem pembayaran bitcoin yang dirancang untuk limusin, pengemudi taksi, dan bisnis".
+Pada bulan Januari 2012, mereka [berpartisipasi] (https://bitcointalk.org/index.php?topic=56706.msg675586#msg675586) dalam *Consumer Electronics Show* di Las Vegas, pameran dagang terbesar yang didedikasikan untuk inovasi teknologi di bidang elektronik konsumen, dan menempati stan di sana bersama Roger Ver. Mereka juga meluncurkan produk baru, seperti [kartu deposit] (https://bitcointalk.org/index.php?topic=57303.msg682576#msg682576) yang "memungkinkan siapa pun *menerima* bitcoin tanpa dompet atau tanpa harus mengetahui apa pun tentang bitcoin"; atau [Limocoin] (https://bitcointalk.org/index.php?topic=63370.msg741514#msg741514), "sistem pembayaran bitcoin yang dirancang untuk limusin, pengemudi taksi, dan bisnis".
 
 
 
@@ -3161,7 +3127,7 @@ Proses ini transparan dan memastikan bahwa pengguna dapat memverifikasi bahwa ka
 
 
 
-Pengoperasiannya sederhana (yang Anda perlukan hanya wallet untuk bermain), instan (untuk taruhan kecil) dan mudah diverifikasi. Fitur-fitur ini memastikan bahwa permainan ini menarik banyak pemain sejak awal. Hanya dalam 10 hari, kasino online (https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) menghasilkan hampir 5.000 BTC taruhan, setara dengan lebih dari $24.000. Namun kesuksesan yang tiba-tiba ini membuat Fireduck takut, yang takut akan konsekuensi hukum, jadi dia ingin menjual situs tersebut kepada seseorang yang akan menanggung risiko hukum, dan yang dapat membayarnya gaji bulanan untuk bekerja di sisi teknis. Dalam pengumuman yang diposting di subreddit Bitcoin pada 17 April, dia [menulis] (https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/) bahwa dia telah "menjalankan kasino bitcoin selama lebih dari seminggu. Ia telah menghasilkan 146 BTC dengan investasi sekitar 45 BTC untuk memulainya" dan dia sedang mencari pembeli.
+Pengoperasiannya sederhana (yang Anda perlukan hanya dompet untuk bermain), instan (untuk taruhan kecil) dan mudah diverifikasi. Fitur-fitur ini memastikan bahwa permainan ini menarik banyak pemain sejak awal. Hanya dalam 10 hari, kasino online (https://web.archive.org/web/20120419202743/http://1209k.com/bitcasino/report.php) menghasilkan hampir 5.000 BTC taruhan, setara dengan lebih dari $24.000. Namun kesuksesan yang tiba-tiba ini membuat Fireduck takut, yang takut akan konsekuensi hukum, jadi dia ingin menjual situs tersebut kepada seseorang yang akan menanggung risiko hukum, dan yang dapat membayarnya gaji bulanan untuk bekerja di sisi teknis. Dalam pengumuman yang diposting di subreddit Bitcoin pada 17 April, dia [menulis] (https://www.reddit.com/r/Bitcoin/comments/segz0/anyone_want_to_run_my_bitcoin_casino/) bahwa dia telah "menjalankan kasino bitcoin selama lebih dari seminggu. Ia telah menghasilkan 146 BTC dengan investasi sekitar 45 BTC untuk memulainya" dan dia sedang mencari pembeli.
 
 
 
@@ -3185,7 +3151,7 @@ Peningkatan ini telah mendorong reaksi dari komunitas teknis, yang khawatir deng
 
 
 
-> Selama ~24 jam terakhir, jumlah transaksi satoshidice telah meningkat pesat, yang menyebabkan kumpulan memori transaksi (saat ini) mencapai sekitar 9000 transaksi.  Spam Satoshidice sudah menjadi bagian yang sangat besar dari transaksi saat ini, tetapi sekarang sudah sangat konyol.  Apakah ini saatnya untuk mulai mendeprioritaskan transaksi yang menggunakan alamat yang sangat umum?
+> Selama ~24 jam terakhir, jumlah transaksi satoshidice telah meningkat pesat, yang menyebabkan kumpulan memori transaksi (saat ini) mencapai sekitar 9000 transaksi.  Spam Satoshidice sudah menjadi bagian yang sangat besar dari transaksi saat ini, tetapi sekarang sudah sangat konyol. Apakah ini saatnya untuk mulai mendeprioritaskan transaksi yang menggunakan alamat yang sangat umum?
 
 Pengembang Luke-Jr [berbicara] (https://bitcointalk.org/index.php?topic=23768.msg968819#msg968819) tentang "SatoshiDice menyalahgunakan blockchain".
 
@@ -3262,7 +3228,7 @@ Karena ketahanannya terhadap sensor dan anonimitas relatif, Bitcoin cocok untuk 
 
 
 
-Bitcoin sangat cocok untuk kejahatan dunia maya, yang merajalela di Internet dan sebelumnya tidak memiliki mata uang yang digital dan sulit dipahami. Sejak tahun 2011 dan seterusnya, sejumlah pencurian dan penipuan terjadi yang melibatkan mata uang kripto. Pada bulan Mei 2012, kejadian-kejadian dramatis ini telah berlipat ganda sedemikian rupa sehingga "Daftar Pencurian, Pencurian, Peretasan, Penipuan, dan Kerugian Besar Bitcoin" (https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) diposting di forum. Daftar ini, yang diperbarui secara teratur, akan menjadi sangat besar selama bertahun-tahun sehingga [utas kedua] (https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) harus dibuka pada tahun 2014 untuk mencatat semua insiden.
+Bitcoin sangat cocok untuk kejahatan dunia maya, yang merajalela di Internet dan sebelumnya tidak memiliki mata uang yang digital dan sulit dipahami. Sejak tahun 2011 dan seterusnya, sejumlah pencurian dan penipuan terjadi yang melibatkan mata uang kripto. Pada bulan Mei 2012, kejadian-kejadian dramatis ini telah berlipat ganda sedemikian rupa sehingga "Daftar Perampokan, Pencurian, Peretasan, Penipuan, dan Kerugian Bitcoin Utama" (https://bitcointalk.org/index.php?topic=83794.msg923918#msg923918) diposting di forum. Daftar ini, yang diperbarui secara teratur, akan menjadi sangat besar selama bertahun-tahun sehingga [utas kedua] (https://bitcointalk.org/index.php?topic=576337.msg6289796#msg6289796) harus dibuka pada tahun 2014 untuk mencatat semua insiden.
 
 
 
@@ -3282,7 +3248,7 @@ Kejahatan dunia maya yang berhubungan dengan Bitcoin telah meningkat sejak mata 
 
 
 
-Pada tahun 2012, "kriptokriminalitas" mengambil dimensi yang sama sekali baru, dan pencurian dalam berbagai bentuk pun terjadi. Peristiwa pertama adalah peretasan layanan hosting Linode pada tanggal 1 Maret. Pada hari itu, seorang peretas [mengakses] (https://web.archive.org/web/20120302143922/http://status.linode.com/2012/03/manager-security-incident.html) portal layanan pelanggan perusahaan dan mengambil alih kendali atas delapan akun, yang semuanya terhubung ke Bitcoin. Dengan mengakses wallet aktif yang dihosting di server Linode, dia dapat mengambil bitcoin dari pelanggan yang bersangkutan.
+Pada tahun 2012, "kriptokriminalitas" mengambil dimensi yang sama sekali baru, dan pencurian dalam berbagai bentuk pun terjadi. Peristiwa pertama adalah peretasan layanan hosting Linode pada tanggal 1 Maret. Pada hari itu, seorang peretas [mengakses] (https://web.archive.org/web/20120302143922/http://status.linode.com/2012/03/manager-security-incident.html) portal layanan pelanggan perusahaan dan mengambil alih kendali atas delapan akun, yang semuanya terhubung ke Bitcoin. Dengan mengakses dompet aktif yang dihosting di server Linode, dia dapat mengambil bitcoin dari pelanggan yang bersangkutan.
 
 
 
@@ -3290,7 +3256,7 @@ Di antara para pelanggan ini adalah platform perdagangan Bitcoinica, yang dijala
 
 
 
-Peretas juga [berhasil] mendapatkan 3.094 bitcoin milik BitcoinCZ Mining, pool mining milik Slush. Bitcoin-bitcoin ini, yang bernilai lebih dari $15.000 pada saat itu, disimpan di mining hot pool wallet untuk pembayaran kepada para anggotanya. Slush secara pribadi menanggung kerugian tersebut.
+Peretas juga [berhasil] mendapatkan 3.094 bitcoin milik BitcoinCZ Mining, pool mining milik Slush. Bitcoin-bitcoin ini, yang bernilai lebih dari $15.000 pada saat itu, disimpan di dompet hot pool mining untuk pembayaran kepada para anggotanya. Slush secara pribadi menanggung kerugian tersebut.
 
 
 
@@ -3506,7 +3472,7 @@ Pada akhir musim panas 2012, BitFloor merupakan platform yang sedang naik daun: 
 
 
 
-Dia tidak bisa lebih benar lagi. Pada malam hari tanggal 3 hingga 4 September 2012, seorang peretas [mengakses] (https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) beberapa server Bitfloor dan mendapatkan cadangan kunci wallet yang tidak terenkripsi. Sebagian besar bitcoin platform tersebut ditarik: lebih dari 24.000 BTC, atau sekitar $250.000 pada saat itu. Aktivitas Exchange ditangguhkan sebagai akibatnya.
+Dia tidak bisa lebih benar lagi. Pada malam hari tanggal 3 hingga 4 September 2012, seorang peretas [mengakses] (https://bitcointalk.org/index.php?topic=105818.msg1159510#msg1159510) beberapa server Bitfloor dan mendapatkan cadangan kunci dompet yang tidak terenkripsi. Sebagian besar bitcoin platform tersebut ditarik: lebih dari 24.000 BTC, atau sekitar $250.000 pada saat itu. Aktivitas Exchange ditangguhkan sebagai akibatnya.
 
 
 
@@ -3552,7 +3518,7 @@ Pada akhir tahun 2012, dunia keuangan Wild West sudah mengalami penurunan. Pangs
 
 
 
-Peningkatan ini disertai dengan munculnya cara baru dalam berurusan dengan bitcoin, terlebih lagi karena *halving* pertama baru saja terjadi: alih-alih menjadi mata uang pertukaran yang memfasilitasi aktivitas terlarang, bitcoin secara bertahap dilihat sebagai sarana investasi, seperti emas digital yang disimpan di lemari besi. Pergeseran wacana ini secara alami menciptakan ketegangan tersendiri.
+Kebangkitan ini disertai dengan munculnya cara baru dalam menangani bitcoin, terlebih lagi karena *halving* pertama baru saja terjadi: alih-alih sebagai mata uang pertukaran yang memfasilitasi aktivitas ilegal, bitcoin secara bertahap dipandang sebagai instrumen investasi, seperti emas digital yang disimpan di brankas. Pergeseran wacana ini secara alami menciptakan serangkaian ketegangan tersendiri.
 
 
 

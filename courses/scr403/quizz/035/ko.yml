@@ -1,0 +1,16 @@
+question: SHA-256 compression은 jet이 되지만 fold와 map combinators는 될 수 없습니다. 이 비대칭을 설명하는 것은 무엇인가요?
+answer: jet은 하나의 고정된 expression을 대체합니다. fold와 map은 단일 expression이 아니라 schema여서, 내부 함수 f마다 서로 다른 expression을 생성합니다.
+wrong_answers:
+  - Jets는 straight-line code만 accelerate하므로, iterating combinators는 먼저 unroll되어야 하며 그러면 어떤 jet과도 match하지 않습니다.
+  - machine-checked Rocq proof가 있는 expression만 자격이 있는데, SHA-256에는 있지만 folds에는 없기 때문입니다.
+  - 짧은 vector에 대한 folds는 benefit을 얻기에는 너무 cheap하므로, jets는 costly crypto operations에만 reserved됩니다.
+explanation: >-
+  jet은 하나의 특정하고 완전히 형성된 Simplicity
+  expression에 대한 native replacement이며, node들이 그 정확한 semantics를 보존하면서 대체할 수 있습니다.
+  fold-right-n, map, zip 및 그 variants는 단일
+  expression이 아니라 construction schemes입니다. 내부 함수
+  f의 각 선택은 구조적으로 다른 expression을 산출하므로, 하나의 jet이
+  전체 family를 대신할 수 없습니다. 그래서 이러한 iteration patterns는
+  실제 프로그램에서 genuine combinator code로 나타나며, 보통 SimplicityHL 같은 higher-
+  level languages가 생성합니다.
+reviewed: false

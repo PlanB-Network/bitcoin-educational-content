@@ -1,0 +1,16 @@
+question: Các hiệu ứng của Simplicity là giao hoán và lũy đẳng nhưng không đơn vị. Vì vậy, phép biến đổi tối ưu hóa nào nhìn chung phải bị từ chối?
+answer: Thay một biểu thức có vẻ đã chết bằng unit — Failure không đơn vị, nên nó có thể che giấu một kiểm tra thất bại vốn phải abort.
+wrong_answers:
+  - Hoán đổi hai biểu thức con độc lập, vì sig-all-hash có thể quan sát một trạng thái môi trường khác.
+  - Gộp hai lời gọi verify giống hệt nhau, vì một Failure bị nhân đôi sẽ throw hai lần và abort sai.
+  - Sắp xếp lại các biểu thức có thể throw, vì ngoại lệ được lan truyền phụ thuộc vào phía nào chạy trước.
+explanation: >-
+  Vì các hiệu ứng của Simplicity được bảo đảm là giao hoán và lũy đẳng,
+  việc hoán đổi các biểu thức con độc lập và nhân đôi hoặc gộp các biểu
+  thức giống hệt nhau luôn an toàn; môi trường Reader là cố định, và ngoại
+  lệ kiểu đơn vị của Failure là giống hệt nhau bất kể phía nào throw trước
+  hay throw bao nhiêu lần. Tuy nhiên, phép biến đổi loại bỏ `f ⨾ unit = unit`
+  đòi hỏi tính đơn vị, điều mà Failure không có: nếu `f` chứa một
+  `bip0340-verify` trên chữ ký không hợp lệ, việc loại bỏ mã 'đã chết' sẽ
+  tối ưu hóa mất lệnh abort và xác thực một giao dịch lẽ ra phải thất bại.
+reviewed: false

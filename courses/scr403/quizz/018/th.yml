@@ -1,0 +1,13 @@
+question: สัญกรณ์ access (O, I, H) ทำงานอย่างไรใน Simplicity?
+answer: O หมายถึง 'take' (ซ้าย), I หมายถึง 'drop' (ขวา), และ H หมายถึง 'iden' (ค่าทั้งหมด)
+wrong_answers:
+  - O หมายถึง output, I หมายถึง input, และ H หมายถึง halt การทำงานของโปรแกรม
+  - เป็นชื่อตัวแปรที่ compiler กำหนดให้ค่าต่าง ๆ โดยอัตโนมัติ
+  - O เลือก element ที่มี index คี่, I เลือก element ที่มี index คู่, H เลือก head
+explanation: >-
+  shorthand O/I/H ให้ทางลัดที่กะทัดรัดสำหรับนำทาง nested pairs
+  O f คือ take f (ดึงด้านซ้าย), I f คือ drop f (ดึงด้านขวา), และ H คือ
+  iden (ค่าทั้งหมด) ลำดับอย่าง I O H หมายถึง drop(take(iden))
+  ซึ่งดึง element แรกของ element ที่สอง สิ่งนี้คล้ายกับ De Bruijn indices
+  โดยมีเลขฐานสองเป็นตำแหน่งในต้นไม้
+reviewed: false

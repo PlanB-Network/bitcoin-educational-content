@@ -1,0 +1,13 @@
+question: Hvordan fungerer tilgangsnotasjonen (O, I, H) i Simplicity?
+answer: O betyr «ta» (venstre), I betyr «slipp» (høyre), og H betyr «iden» (hele verdien).
+wrong_answers:
+  - O betyr output, I betyr input, og H betyr å avslutte (halt) programmets kjøring.
+  - De er variabelnavn som kompilatoren tildeler verdier automatisk.
+  - O velger elementer med odde indeks, I velger elementer med partall indeks, H velger hodet.
+explanation: >-
+  O/I/H-forkortelsen gir en kompakt måte å navigere i nøstede par på.
+  O f er take f (hent ut venstre), I f er drop f (hent ut høyre), og H er
+  iden (hele verdien). Sekvenser som I O H betyr drop(take(iden)),
+  som henter ut det første elementet av det andre elementet. Dette minner
+  om De Bruijn-indekser med binærsifre som posisjoner i et tre.
+reviewed: false

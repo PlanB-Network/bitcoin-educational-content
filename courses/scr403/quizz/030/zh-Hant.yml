@@ -1,0 +1,9 @@
+question: "哪一個核心組合子運算式實作了分配函數 dist : (A + B) × C ⊢ A × C + B × C？"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  在 case 的每個分支中，環境已經與未標記的值配成一對，因此 f = injl iden 與 g = injr iden 會給出 ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩ 以及 ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ —— 這正是 dist。take/drop 的變體雖然通過型別檢查，卻捨棄了配對，因而表示的是一個型別為 (A + B) × C ⊢ A + C 的函數。pair 產生的是積而非和，而 copair 根本不是一個 Simplicity 組合子 —— dist 正是單憑 copair 所無法表達的東西。
+reviewed: false

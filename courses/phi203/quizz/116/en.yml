@@ -1,0 +1,8 @@
+question: According to the text, how do prices guide production coordination both across space and across time in a free economy?
+answer: Prices signal what to produce, where to produce it, and when — guiding geographic distribution between countries and indicating when a technology becomes sufficiently valued to be profitable
+wrong_answers:
+  - Prices primarily serve to allocate existing wealth between rich and poor regions, with no role in guiding decisions about what or when to produce
+  - Prices signal only the current state of supply and demand and cannot convey information about future needs or distant markets
+  - Prices coordinate production in politically defined territories but cannot function across national borders without government trade agreements
+explanation: |
+  The text explains that in a vast market, economic agents need a compass to guide production: what to produce, when to produce it, where to produce it, and how. Price provides precisely this information, assigning value to productive combinations and guiding self-interest toward actions that meet society's real needs. This spontaneous coordination operates over space (geographical distribution between countries) and over time (the price signal indicates when a technology becomes sufficiently valued to be profitable). No central authority is required to perform this function.

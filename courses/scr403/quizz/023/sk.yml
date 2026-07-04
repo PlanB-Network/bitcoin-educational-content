@@ -1,0 +1,13 @@
+question: "Prečo sig-all-hash používa efekt Reader namiesto toho, aby prijímal dáta transakcie ako typovaný vstup?"
+answer: Aby jet mohol použiť PrecomputedTransactionData a bežať v konštantnom čase na pevnom prostredí.
+wrong_answers:
+  - Pretože typový systém jazyka Simplicity zásadne nedokáže reprezentovať dáta transakcie ako typ.
+  - Pretože efekt Reader je rýchlejší než odovzdávanie týchto dát cez strom kombinátorov.
+  - Pretože dáta transakcie sú príliš veľké na to, aby sa zmestili do typového systému Simplicity s pevnou veľkosťou.
+explanation: >-
+  Keby sig-all-hash prijímal vstupný typ TxEnv, programy by mohli jetu odovzdávať upravené kópie dát transakcie,
+  čím by mu zabránili používať predpočítané haše. Pri efekte Reader jet
+  pristupuje iba k pevnému, nemennému prostrediu transakcie, takže jeho implementácia môže bezpečne používať
+  PrecomputedTransactionData a bežať v konštantnom čase na jednu kontrolu podpisu, čím sa vyhýba problému kvadratického
+  hašovania, ktorý sužoval raný Bitcoin Script.
+reviewed: true

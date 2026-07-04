@@ -1,0 +1,13 @@
+question: Kubera iki imvugo za Simplicity ziserialized nka DAGs aho kuba nk'ibiti?
+answer: Kugira bikingire ikura ry'ubunini rikurikira exponential, kuko uduce tw'imvugo dusangiwe tubikwa rimwe gusa.
+wrong_answers:
+  - Kubera ko imiterere y'ibiti isanzwe idashobora na gato guserukira amashami y'ihitamwo.
+  - Kugira ishobozwe ishira mu ngiro ribangikanye ku ma processor menshi atandukanye afise core nyinshi.
+  - Kubera ko protocol ya Liquid Network isaba bidasubirwamwo format ya DAG hano.
+explanation: >-
+  Imvugo za Simplicity zisanzwe zikora ibiti vyoshobora gukura ku buryo bwa exponential
+  uko ubusobangane bwiyongera. Mu kuziserializing nk'ibishushanyo biyobowe bidafise inzingu (DAGs),
+  uduce tw'imvugo tuboneka incuro nyinshi tubikwa rimwe maze tukerekanwa
+  n'abavyeyi benshi. Ivyo bituma ubunini nyakuri bwa porogarama bukura ku murongo
+  aho gukura ku buryo bwa exponential.
+reviewed: false

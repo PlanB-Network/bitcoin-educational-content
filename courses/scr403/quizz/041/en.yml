@@ -1,0 +1,17 @@
+question: A Simplicity output uses the fixed BIP-0341 NUMS point as its internal key. Why is key-spend provably impossible, and what does randomizing the NUMS point add?
+answer: Nobody knows the NUMS point's discrete log, so no key-path signature can exist; randomizing only adds privacy.
+wrong_answers:
+  - The NUMS point lies off the curve so key-path signatures fail; randomizing brings it back on-curve.
+  - The NUMS point's private key is zero, which consensus rejects; randomizing guards the tweak against side channels.
+  - Tweaking a NUMS point yields an out-of-range key, making key-spend non-standard; randomizing avoids address reuse.
+explanation: >-
+  A NUMS ('Nothing-Up-My-Sleeve') point is a perfectly valid curve point
+  constructed so that no one knows a corresponding private key — its
+  discrete logarithm is unknown. Since a key-path spend requires a Schnorr
+  signature under the internal key, and no such signature can be produced
+  without the private key, the key-spend path is provably unusable and
+  funds can only move through the committed script path. Randomizing the
+  NUMS point changes none of this; it merely hides the fact that key-spend
+  is disabled, so the output looks like any other Taproot output — a
+  privacy benefit.
+reviewed: false

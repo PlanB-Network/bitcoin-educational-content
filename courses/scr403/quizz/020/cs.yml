@@ -1,0 +1,12 @@
+question: "Jaké dva vedlejší efekty se v Simplicity používají pro aplikace na Bitcoinu a Liquidu?"
+answer: "Efekt Failure (výjimka typu 1) a efekt Reader (přístup k datům prostředí transakce)."
+wrong_answers:
+  - "Efekt State (proměnlivé proměnné) a efekt Writer (zápis do transakčního logu)."
+  - "Efekt IO (síťová komunikace) a efekt Memory (dynamická alokace paměti)."
+  - "Efekt Continuation (callbacky) a efekt Nondeterminism (více cest vykonávání)."
+explanation: >-
+  Simplicity používá pro blockchainové aplikace přesně dva vedlejší efekty. Efekt Failure umožňuje
+  výpočtům přerušit se (např. když selže ověření podpisu) a efekt Reader umožňuje
+  výrazům číst data z prostředí transakce. Základní kombinátory zůstávají čisté —
+  vedlejší efekty jsou zaváděny prostřednictvím jetů.
+reviewed: true

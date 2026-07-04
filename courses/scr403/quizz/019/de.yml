@@ -1,0 +1,15 @@
+question: Was ist SimplicityHL und warum wird es benötigt?
+answer: Eine höhere Sprache, die zu Simplicity kompiliert und Benennung sowie Gültigkeitsbereich verwaltet.
+wrong_answers:
+  - Eine Hardwarebeschreibungssprache zum Mining der ASICs, die Simplicity ausführen.
+  - Eine grafische Drag-and-Drop-IDE zum Verbinden von Simplicity-Kombinatoren.
+  - Ein Test-Framework zum Ausführen von Simplicity-Programmen in einer sicheren Sandbox.
+explanation: >-
+  Rohes Simplicity wird bei produktionsreifer Komplexität unverständlich,
+  da jeder Datenzugriff über verschachtelte take/drop-Kombinatoren erfolgen
+  muss. SimplicityHL bietet vertraute Programmierkonstrukte — benannte
+  Variablen, Gültigkeitsbereiche, Bibliotheksimporte und Kontrollfluss —
+  die zu Simplicity-Kombinatorausdrücken kompiliert werden. Endnutzer
+  schreiben SimplicityHL, während Simplicity als formal verifiziertes
+  Kompilierungsziel dient.
+reviewed: false

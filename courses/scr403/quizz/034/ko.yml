@@ -1,0 +1,13 @@
+question: full-adder는 두 half-adder의 캐리 비트를 XOR하는 대신 OR합니다. 왜 OR이 올바른가요?
+answer: 어떤 input에서도 최대 하나의 half-adder만 carry할 수 있으므로, OR은 상호 배타적인 두 경우를 정확히 병합합니다.
+wrong_answers:
+  - 두 캐리 비트를 더해야 하며, OR은 Simplicity에서 single-bit binary addition을 수행하는 방식이기 때문입니다.
+  - branching 이후에는 OR이 environment와 타입이 여전히 맞는 유일한 Boolean operator이기 때문입니다.
+  - OR은 carry를 over-approximate하며, spurious carry는 나중에 final projection에서 drop되기 때문입니다.
+explanation: >-
+  첫 번째 half-adder가 carry한다면 그 두 입력 비트가 모두 1이었다는 뜻이므로,
+  그 합 비트는 0입니다 — 그리고 0을 입력받은 half-adder는 결코 carry할 수 없습니다.
+  따라서 두 캐리 비트가 동시에 1이 되는 일은 없고, OR은 이를 정확히 병합합니다
+  (도달 가능한 input들에서는 XOR과도 일치합니다). 이 상호 배타성이 바로
+  full-adder의 두-half-adder decomposition을 올바르게 만드는 이유입니다.
+reviewed: false

@@ -1,0 +1,16 @@
+question: At spending time a case branch is pruned away. How can the verifier still match the revealed program to the committed CMR?
+answer: The CMR is a Merkle root, so the spender supplies just the pruned branch's CMR and the verifier folds it in to recompute the root.
+wrong_answers:
+  - The verifier uses only the executed branch, since unexecuted case branches were never in the CMR.
+  - Pruned branches become a canonical placeholder whose fixed CMR stands in when recomputing the root.
+  - The pruned branch's full code stays in the witness, where the verifier hashes but does not execute it.
+explanation: >-
+  The CMR of case f g is a tagged hash over both children's CMRs, so every
+  branch — executed or not — is committed at address time. Because the
+  construction is a Merkle tree, a pruned branch can be summarized by its
+  32-byte CMR alone: the verifier plugs that hash into the recursive
+  computation and checks that the root matches the UTXO's commitment,
+  without ever seeing the pruned code. This is exactly why a Merkle root
+  is used for the commitment, and why any witness expressions inside the
+  pruned branch never appear on-chain.
+reviewed: false

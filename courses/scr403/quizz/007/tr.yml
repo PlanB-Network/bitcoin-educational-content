@@ -1,0 +1,12 @@
+question: Bir yarı toplayıcı ne hesaplar?
+answer: İki girdi bitinin elde bitini (AND) ve toplam bitini (XOR).
+wrong_answers:
+  - Elde yayılımıyla iki çok bitli tam sayının toplamını.
+  - Aşağı yuvarlanmış iki bitin ortalamasını.
+  - İki girdi bitinin bit düzeyinde OR ve AND sonuçlarını.
+explanation: >-
+  Bir yarı toplayıcı iki tekil bit alır ve paralel bileşim kullanarak iki çıktı
+  üretir: elde biti (girdilerin AND'i) ve toplam biti (girdilerin XOR'u).
+  Simplicity'de and ▵ xor olarak tanımlanır ve her iki işlemi aynı girdi
+  çifti üzerinde çalıştırır.
+reviewed: false

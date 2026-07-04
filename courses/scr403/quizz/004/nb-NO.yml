@@ -1,0 +1,12 @@
+question: Hvor mange kjernekombinatorer har Simplicity?
+answer: Ni (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tre (sekvensiell komposisjon, parallell komposisjon, betingelse).
+  - Fem (kun comp-, pair-, case-, take- og drop-kombinatorene).
+  - Tolv (de ni kjernekombinatorene pluss tre ekstra utvidelseskombinatorer).
+explanation: >-
+  Simplicity har nøyaktig ni kjernekombinatorer. To grunnleggende operasjoner
+  (iden og unit), tre komposisjonsmetoder (comp, pair, case), og fire
+  aksessorer (take, drop for produkter, injl og injr for summer). Disse
+  ni er tilstrekkelige til å uttrykke enhver funksjon mellom Simplicity-typer.
+reviewed: false

@@ -1,0 +1,13 @@
+question: "Kubera iki sig-all-hash ikoresha ingaruka ya Reader aho gufata amakuru ya transaction nk'input ifise type?"
+answer: Kugira ngo jet ishobore gukoresha PrecomputedTransactionData kandi ikore mu gihe constant kuri environment idahinduka.
+wrong_answers:
+  - Kubera ko sisitemu y'ubwoko ya Simplicity idashobora na gato guserukira amakuru ya transaction nk'ubwoko.
+  - Kubera ko ingaruka ya Reader yihuta kuruta guca ayo makuru mu tree ya combinator.
+  - Kubera ko amakuru ya transaction ari manini cane ku buryo atokwirwa muri sisitemu y'ubwoko ifise ubunini budahinduka ya Simplicity.
+explanation: >-
+  Iyo sig-all-hash ifata ubwoko bwa input TxEnv, porogarama zoshoboye guha jet amakopi yahinduwe
+  y'amakuru ya transaction, bikayibuza gukoresha hashes zabanje guharurwa. Hakoreshejwe ingaruka ya Reader, jet ishikira gusa
+  environment ya transaction idahinduka, rero ishirwa mu ngiro ryayo rishobora gukoresha mu mutekano
+  PrecomputedTransactionData kandi rigakora mu gihe constant kuri buri suzuma ry'umukono, rikazibukira ingorane ya hashing
+  quadratic yari yarababaje Bitcoin Script yo hambere.
+reviewed: true

@@ -1,0 +1,12 @@
+question: "Simplicity, BIP-0341 Taproot altında taahhüt edildiğinde hangi TapLeaf sürümünü kullanır?"
+answer: Ondalıkta 190 byte değeri olan 0xbe sürümü.
+wrong_answers:
+  - Bitcoin Script Tapscript ile aynı olan 0xc0 sürümü.
+  - Varsayılan Taproot yaprak sürümü olan 0x00 sürümü.
+  - Deneysel betikler için ayrılmış bir sürüm olan 0xff sürümü.
+explanation: >-
+  Simplicity programları, 0xbe TapLeaf sürümü kullanılarak Taproot adreslerine taahhüt edilir.
+  Bu, Simplicity betiklerini Bitcoin Tapscript'ten (0xc0 sürümünü kullanır) ayırır ve
+  ağın zincir üzerinde göründüklerinde Simplicity programlarını doğru şekilde tanımlayıp
+  doğrulamasına olanak tanır.
+reviewed: true

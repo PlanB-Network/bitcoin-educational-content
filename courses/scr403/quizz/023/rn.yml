@@ -1,0 +1,12 @@
+question: "Kubera iki bip0340-verify ikoresha ingaruka ya Failure aho gusubiza boolean (true/false)?"
+answer: Kugira ngo ishoboze batch verification y'imikono ya Schnorr, aho isuzuma rimwe ryananiwe rinaniza batch yose.
+wrong_answers:
+  - Kubera ko boolean types zihenda cane mu kibanza ca block ugereranije n'ubwoko unit.
+  - Kubera ko sisitemu y'ubwoko ya Simplicity idashobora guserukira boolean return values ziva muri jets.
+  - Kubera ko gusubiza value ya boolean yoroshe vyoca bihonyanga ata guca hirya teoreme y'ukwuzura.
+explanation: >-
+  Iyo bip0340-verify isubiza boolean, isuzuma ry'umukono ryananiwe ryari kugishobora gushikana kw'ishami aho
+  script iroranirwa. Muri ico gihe, verifier yokeneye kumenya umukono wihariye
+  wananiwe, ivyo bigaca bibuza batch verification. Mu gukoresha ingaruka ya Failure, isuzuma ryananiwe ryama rihagarika
+  ubuharuro bwose, rigashoboza batch verification ikora neza aho imikono myinshi ishirwa hamwe.
+reviewed: true

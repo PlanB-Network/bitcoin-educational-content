@@ -1,0 +1,12 @@
+question: jets 在 Simplicity 中的作用是什么？
+answer: jets 是原生实现，用于替换给定的 Simplicity 表达式以提高速度。
+wrong_answers:
+  - jets 是把 Simplicity 转换为 Bitcoin Script 的编译步骤。
+  - jets 是把 Simplicity 程序广播给所有节点的网络消息。
+  - jets 是用于测试和追踪 Simplicity 表达式的调试工具。
+explanation: >-
+  一个 jet 是一种原生实现，网络同意用它来替代某个特定的 Simplicity
+  表达式（由其 Merkle 根识别）。Simplicity 表达式充当 jet 所计算内容的
+  形式化规范，而原生代码提供实际执行速度。常见 jets 处理算术和 SHA-256
+  等密码学操作。
+reviewed: false

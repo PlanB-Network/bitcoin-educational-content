@@ -1,0 +1,12 @@
+question: Simplicity چند ترکیب‌گر هسته‌ای دارد؟
+answer: نه (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - سه (ترکیب ترتیبی، ترکیب موازی، شرطی).
+  - پنج (فقط ترکیب‌گرهای comp، pair، case، take و drop).
+  - دوازده (نه ترکیب‌گر هسته‌ای به‌علاوه سه ترکیب‌گر افزونه اضافی).
+explanation: >-
+  Simplicity دقیقاً نه ترکیب‌گر هسته‌ای دارد. دو عملیات پایه (iden و unit)،
+  سه روش ترکیب (comp، pair، case)، و چهار دسترسی‌گیر (take و drop برای
+  حاصل‌ضرب‌ها، injl و injr برای جمع‌ها). همین نه مورد برای بیان هر تابعی
+  بین نوع‌های Simplicity کافی هستند.
+reviewed: false

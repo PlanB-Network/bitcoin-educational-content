@@ -1,0 +1,12 @@
+question: ทำไมนิพจน์ Simplicity จึงถูก serialize เป็น DAGs แทนที่จะเป็นต้นไม้?
+answer: เพื่อป้องกันการเติบโตแบบ exponential เพราะ sub-expressions ที่แชร์กันถูกเก็บไว้เพียงครั้งเดียว.
+wrong_answers:
+  - เพราะโครงสร้างต้นไม้ธรรมดาไม่สามารถแทน conditional branching ได้เลย.
+  - เพื่อเปิดให้ execution แบบขนานบนโปรเซสเซอร์ multi-core แยกกันจำนวนมาก.
+  - เพราะโปรโตคอล Liquid Network บังคับใช้รูปแบบ DAG ที่นี่อย่างเข้มงวด.
+explanation: >-
+  นิพจน์ Simplicity โดยธรรมชาติจะก่อเป็นต้นไม้ที่อาจเติบโตแบบ exponential
+  เมื่อ complexity เพิ่มขึ้น เมื่อ serialize เป็น directed acyclic graphs (DAGs),
+  sub-expressions ที่ปรากฏหลายครั้งจะถูกเก็บครั้งเดียวและถูกอ้างอิงโดย parent
+  หลายตัว สิ่งนี้ทำให้ขนาดโปรแกรมจริงเติบโตเชิงเส้นแทนที่จะเติบโตแบบ exponential.
+reviewed: false

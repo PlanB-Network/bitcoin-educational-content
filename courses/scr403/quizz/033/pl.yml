@@ -1,0 +1,15 @@
+question: Biorąc pod uwagę reguły typowania z „mniejszymi typami w przesłankach”, które kombinatory rdzenia faktycznie przenoszą dane podczas wykonania?
+answer: Tylko iden i comp; pozostałych siedem jest zaimplementowanych wyłącznie za pomocą operacji porządkowych.
+wrong_answers:
+  - Tylko take i drop; wyodrębnienie jednego składnika zmusza maszynę do skopiowania go z produktu.
+  - Tylko pair i case; duplikowanie wejścia dla dwóch gałęzi i rozgałęzianie według znacznika przetasowuje dane.
+  - Tylko injl i injr; dodanie znacznika przepisuje wartość do większej reprezentacji typu sumowego.
+explanation: >-
+  Wbrew intuicji kombinatory, które wyglądają jak dostęp do danych (take,
+  drop, pair, case, injl, injr), nie wymagają kopiowania: ponieważ przesłanki
+  w regułach typowania dotyczą mniejszych typów niż ich konkluzje, Bit Machine
+  może je zaimplementować wyłącznie za pomocą operacji porządkowych. Tylko
+  iden, który kopiuje całe swoje wejście na wyjście, oraz comp, który
+  materializuje wartość pośrednią przekazywaną z f do g, faktycznie przenoszą
+  dane.
+reviewed: false

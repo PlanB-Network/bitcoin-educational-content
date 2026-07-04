@@ -1,0 +1,16 @@
+question: "#ᶜ(comp f g)를 계산하면 128 bytes를 hash합니다: comp tag 두 번, 그리고 두 child CMRs입니다. 그런데도 왜 여전히 최대 한 번의 SHA-256 compression call이면 되나요?"
+answer: 첫 64-byte block은 constant tag∥tag이며, 그 midstate는 한 번 precompute됩니다. child CMRs를 담은 block만 compress됩니다.
+wrong_answers:
+  - SHA-256의 final length-padding block만 drop하면 전체 128 bytes가 한 call에 들어갑니다.
+  - 두 child CMRs가 하나의 32-byte digest로 XOR되어 input이 single block으로 shrink됩니다.
+  - SHA-256-midstate는 128-byte message blocks를 one pass로 absorb하는 wide-block variant입니다.
+explanation: >-
+  SHA-256의 compression function은 고정된 64-byte blocks를 process하므로,
+  128-byte input은 보통 두 번의 call이 필요합니다(그리고 full SHA-256에서는 length
+  padding을 위한 call이 하나 더 필요합니다). 모든 combinator의 첫 block은
+  constant tag∥tag이므로, 그 midstate를 한 번 precompute하여 cache할 수 있습니다. 그러면 각
+  expression은 children의 CMRs를 담은 block에 대한 fresh compression 하나만 필요합니다.
+  Midstates는 final padding block도 drop하지만,
+  그것만으로는 여전히 두 번의 compressions가 남습니다 — 이를 최대 한 번으로 줄이는 것은 precomputed tag
+  midstate입니다.
+reviewed: false

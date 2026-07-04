@@ -1,0 +1,16 @@
+question: V době utrácení je jedna větev case prořezána. Jak může ověřovatel stále porovnat odhalený program se zavázaným CMR?
+answer: CMR je Merkleho kořen, takže utrácející dodá pouze CMR prořezané větve a ověřovatel jej zapojí do přepočtu kořene.
+wrong_answers:
+  - Ověřovatel používá pouze provedenou větev, protože neprovedené větve case nikdy nebyly v CMR.
+  - Prořezané větve se stanou kanonickým zástupným prvkem, jehož pevný CMR je zastoupí při přepočtu kořene.
+  - Úplný kód prořezané větve zůstává ve witnessu, kde jej ověřovatel hashuje, ale neprovádí.
+explanation: >-
+  CMR výrazu case f g je tagovaný hash přes CMR obou potomků, takže každá
+  větev — provedená či nikoli — je zavázána v době vytvoření adresy.
+  Protože konstrukce je Merkleho strom, prořezanou větev lze shrnout pouze
+  jejím 32bajtovým CMR: ověřovatel tento hash zapojí do rekurzivního
+  výpočtu a zkontroluje, že kořen odpovídá závazku UTXO, aniž by kdy viděl
+  prořezaný kód. Přesně proto se pro závazek používá Merkleho kořen a proto
+  se jakékoli výrazy witnessu uvnitř prořezané větve nikdy neobjeví
+  on-chain.
+reviewed: false

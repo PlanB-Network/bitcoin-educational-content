@@ -1,0 +1,11 @@
+question: "'take' combinator क्या करता है?"
+answer: यह product का बायाँ component extract करता है, और दायाँ discard कर देता है।
+wrong_answers:
+  - यह sum type से एक element हटाता है, और tag bit discard कर देता है।
+  - यह दो अलग operations को end-to-end sequentially compose करता है।
+  - यह एक value को left tag के साथ wrap करके नया sum type बनाता है।
+explanation: >-
+  take combinator product types के लिए एक extractor है। जब take f को किसी pair ⟨a, b⟩
+  पर apply किया जाता है, तो यह b को discard कर देता है और f को a पर apply करता है।
+  iden के साथ मिलकर, take iden किसी भी pair का पहला element extract करता है।
+reviewed: false

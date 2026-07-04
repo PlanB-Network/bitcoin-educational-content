@@ -1,0 +1,16 @@
+question: Inwiefern ist die bedingte Komposition das Duale der parallelen Komposition?
+answer: Parallel gibt beiden Operationen dieselbe Eingabe und paart ihre Ausgaben (ein Produkt); bedingt nimmt eine Summe von Eingaben entgegen, und beide Zweige teilen sich einen Ausgabetyp.
+wrong_answers:
+  - Parallel muss seine beiden Operationen gleichzeitig ausführen; bedingt führt sie sequenziell aus und liefert nur den vom Tag ausgewählten Zweig zurück.
+  - Beide laufen auf einer gemeinsamen Eingabe; parallel behält das Ausgabepaar bei, während bedingt beide Zweige ausführt und den nicht ausgewählten verwirft.
+  - Parallel dupliziert vorab seine Eingabe, während bedingt anschließend seine Ausgabe dupliziert, wodurch nur der Ort der Kopie vertauscht wird.
+explanation: >-
+  Die Dualität ist ein Produkt/Summe-Austausch, bei dem der gemeinsame Typ die Seite
+  wechselt: Die parallele Komposition gibt beiden Operationen denselben Eingabetyp
+  und paart ihre Ausgaben zu einem Produkt, während die bedingte Komposition eine
+  Summe (getaggte Vereinigung) der beiden Eingabetypen entgegennimmt und beide Zweige
+  denselben Ausgabetyp liefern müssen. Gleichzeitigkeit ist irrelevant — der Artikel
+  betont, dass die parallele Komposition auch sequenziell implementiert werden kann —
+  und die bedingte Komposition führt genau einen, durch das Tag gewählten Zweig aus,
+  statt beide auszuführen und einen zu verwerfen.
+reviewed: false

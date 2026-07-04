@@ -1,0 +1,12 @@
+question: "Simplicity における Commitment Merkle Root（CMR）とは何ですか？"
+answer: タグ付き SHA-256 によって Simplicity プログラムの構造へコミットする 256-bit ハッシュです。
+wrong_answers:
+  - Simplicity プログラムのすべての可能な実行経路を含む二分木。
+  - アドレス検証に使われる、プログラムの型と witness 値のハッシュ。
+  - プログラムがアクセスを許可されているトランザクションデータのマークルルート。
+explanation: >-
+  各 Simplicity コンビネータには一意の SHA-256 タグ（例：Simplicity␟Commitment␟iden）があり、
+  CMR は、これらのタグ付き midstate を使ってプログラムのコンビネータツリーを再帰的にハッシュすることで計算されます。
+  重要なのは、CMR が式の型にはコミットせず、償還時の型推論に依存していることです。
+  CMR は、Taproot アドレスへプログラムをコミットするために使われます。
+reviewed: true

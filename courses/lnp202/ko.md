@@ -399,7 +399,7 @@ Bitcoin의 두 가지 주요 가치 제안은 통화 주권(발행과 보유를 
 
 
 
-첫 번째 해결책은 Lightning을 기본적으로 사용하지 않고 [아토믹 스왑](https://planb.academy/resources/glossary/atomic-swap)을 내장한 Bitcoin 또는 [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet을 사용하는 것입니다. 예를 들어, Aqua 또는 Bull Bitcoin Wallet 애플리케이션은 이 방법을 사용하여 라이트닝 노드를 직접 운영하지 않고도 자체 보관 상태를 유지하면서 라이트닝 인보이스를 결제할 수 있습니다.
+첫 번째 해결책은 Lightning을 기본적으로 사용하지 않고 [아토믹 스왑](https://planb.academy/resources/glossary/atomic-swap)을 내장한 Bitcoin 또는 [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet을 사용하는 것입니다. 예를 들어, Aqua 또는 BULL Wallet 애플리케이션은 이 방법을 사용하여 라이트닝 노드를 직접 운영하지 않고도 자체 보관 상태를 유지하면서 라이트닝 인보이스를 결제할 수 있습니다.
 
 
 

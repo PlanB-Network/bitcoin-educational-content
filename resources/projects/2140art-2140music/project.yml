@@ -1,0 +1,26 @@
+id: 53c6b331-e5f0-475d-82cb-a874ff983136
+name: 2140Art/2140Music
+category: communities
+
+links:
+  website: https://music.2140art.com
+  twitter: https://x.com/2140art_
+  youtube: https://www.youtube.com/@2140Art
+  nostr: https://nosta.me/npub1hqxvtu58ayh8fn6q6zy3l0gvf9vqm4gcg0glmk88lr2s99ntsdfskajsch
+
+tags:
+  - education
+  - culture
+  - use-case
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-01-05
+    urgency: 1
+    contributor_names:
+      - G1ne
+    reward: 0
+
+contributor_names:
+  - G1ne

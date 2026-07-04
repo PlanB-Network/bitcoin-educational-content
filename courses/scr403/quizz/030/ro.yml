@@ -1,0 +1,15 @@
+question: "Care expresie de combinator de bază implementează funcția de distribuție dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  În interiorul fiecărei ramuri a lui case, mediul este deja asociat (pair) cu
+  valoarea netichetată, astfel încât f = injl iden și g = injr iden dau ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ și ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — exact dist. Varianta cu take/drop
+  se tipează corect, dar elimină asocierea, denotând o funcție de tipul (A +
+  B) × C ⊢ A + C. pair produce un produs, nu o sumă, iar
+  copair nu este deloc un combinator Simplicity — dist este exact ceea ce
+  copair singur nu poate exprima.
+reviewed: false

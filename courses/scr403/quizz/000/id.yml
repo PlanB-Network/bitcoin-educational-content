@@ -1,0 +1,13 @@
+question: Mengapa Simplicity mengecualikan alokasi memori dinamis selama eksekusi?
+answer: Untuk memungkinkan analisis statis dan menyingkirkan seluruh kelas bug dan serangan.
+wrong_answers:
+  - Karena Liquid Network tidak mendukung operasi memori tingkat rendah.
+  - Untuk mengurangi kurva belajar pemrograman bagi pengembang smart contract baru.
+  - Karena Bitcoin Script sendiri juga tidak memiliki alokasi memori dinamis apa pun.
+explanation: >-
+  Simplicity menghindari alokasi memori dinamis agar seluruh penggunaan
+  sumber daya dapat ditentukan secara statis sebelum eksekusi. Hal ini
+  memungkinkan batas sumber daya yang dapat diprediksi dan menghilangkan
+  kerentanan terkait manajemen memori, yang sangat penting dalam konteks
+  validasi blockchain.
+reviewed: false

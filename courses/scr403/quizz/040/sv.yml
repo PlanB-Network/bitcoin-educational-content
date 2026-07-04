@@ -1,0 +1,17 @@
+question: "Att beräkna #ᶜ(comp f g) hashar 128 byte: comp-taggen två gånger, sedan båda barnens CMR:er. Varför är det ändå högst ett SHA-256-komprimeringsanrop?"
+answer: Det första 64-byte-blocket är den konstanta tag∥tag, vars mellantillstånd (midstate) förberäknas en gång; endast blocket som innehåller barnens CMR:er komprimeras.
+wrong_answers:
+  - Att bara utelämna SHA-256:s avslutande längdutfyllnadsblock gör att alla 128 byte ryms i ett enda anrop.
+  - De två barn-CMR:erna XOR:as till en 32-byte digest, vilket krymper indata till ett enda block.
+  - SHA-256-midstate är en bredblocksvariant som absorberar 128-byte meddelandeblock i en enda pass.
+explanation: >-
+  SHA-256:s komprimeringsfunktion behandlar fasta 64-byte-block, så 128
+  byte indata behöver normalt två anrop (plus ett till för
+  längdutfyllnaden i fullständig SHA-256). Eftersom varje kombinators
+  första block är konstanten tag∥tag kan dess mellantillstånd
+  förberäknas en gång och cachas; varje uttryck behöver då bara en färsk
+  komprimering av blocket som innehåller dess barns CMR:er. Mellantill-
+  stånd hoppar också över det sista utfyllnadsblocket, men det ensamt
+  skulle fortfarande lämna två komprimeringar — det förberäknade
+  tag-mellantillståndet är det som tar ner det till högst ett.
+reviewed: false

@@ -1,0 +1,16 @@
+question: Efekty Simplicity sú komutatívne a idempotentné, ale nie unitárne. Ktorá transformácia optimalizátora preto musí byť vo všeobecnosti odmietnutá?
+answer: Nahradenie zdanlivo mŕtveho výrazu za unit — Failure nie je unitárny, takže by mohol skryť zlyhávajúcu kontrolu, ktorá musí prerušiť vykonávanie.
+wrong_answers:
+  - Prehodenie dvoch nezávislých podvýrazov, keďže sig-all-hash by mohol pozorovať iný stav prostredia.
+  - Zlúčenie dvoch identických volaní verify, keďže duplikované Failure by vyhodilo výnimku dvakrát a nesprávne prerušilo.
+  - Preusporiadanie výrazov, ktoré môžu vyhodiť výnimku, keďže propagovaná výnimka závisí od toho, ktorá strana beží ako prvá.
+explanation: >-
+  Keďže efekty Simplicity sú zaručene komutatívne a idempotentné, prehodenie
+  nezávislých podvýrazov a duplikovanie alebo zlúčenie identických sú vždy
+  bezpečné; prostredie Reader je pevné a výnimka typu unit efektu Failure je
+  identická bez ohľadu na to, ktorá strana vyhodí výnimku ako prvá alebo
+  koľkokrát. Transformácia zahodenia `f ⨾ unit = unit` však vyžaduje
+  unitárnosť, ktorá Failure chýba: ak `f` obsahuje `bip0340-verify` na
+  neplatnom podpise, odstránenie 'mŕtveho' kódu by zoptimalizovalo preč
+  prerušenie a validovalo transakciu, ktorá by mala zlyhať.
+reviewed: false

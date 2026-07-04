@@ -1,0 +1,13 @@
+question: "Warum werden Witness-Werte von der Commitment Merkle Root (CMR) ausgeschlossen?"
+answer: Damit Adressen entstehen können, bevor Witnesses bekannt sind, und ungenutzte Zweige privat gekürzt werden können.
+wrong_answers:
+  - Weil Witness-Werte schlicht viel zu groß sind, um in einen 256-Bit-Hash aufgenommen zu werden.
+  - Weil Witness-Werte vollständig getrennt durch den Failure-Effekt validiert werden.
+  - Weil das Einbeziehen der Witness-Werte die CMR nicht-deterministisch machen würde.
+explanation: >-
+  Witness-Ausdrücke (wie Signaturen) werden zum Zeitpunkt der Ausgabe bereitgestellt, nicht
+  zum Zeitpunkt der Adresserstellung. Ihr Ausschluss aus der CMR ermöglicht zwei wichtige
+  Eigenschaften: Adressen können generiert werden, bevor die ausgebende Transaktion existiert,
+  und nicht ausgeführte bedingte Zweige können aus den On-Chain-Daten entfernt werden, ohne
+  ihre zugehörigen Witness-Werte preiszugeben.
+reviewed: true

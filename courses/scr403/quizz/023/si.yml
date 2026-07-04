@@ -1,0 +1,13 @@
+question: "transaction data එක typed input එකක් ලෙස ගැනීම වෙනුවට sig-all-hash, Reader effect එක භාවිත කරන්නේ ඇයි?"
+answer: jet එකට PrecomputedTransactionData භාවිත කර, fixed environment එකක් මත constant time තුළ run කළ හැකි වන පරිදි.
+wrong_answers:
+  - Simplicity හි type system එකට transaction data එක type එකක් ලෙස මූලිකවම නිරූපණය කළ නොහැකි නිසා.
+  - Reader effect එක, එම data combinator tree එක හරහා pass කිරීමට වඩා වේගවත් නිසා.
+  - transaction data එක Simplicity හි fixed-size type system එකට ගැළපීමට තරම් අතිශය විශාල නිසා.
+explanation: >-
+  sig-all-hash TxEnv input type එකක් ගත්තේ නම්, programs ට transaction data එකෙහි
+  modified copies jet එකට pass කළ හැකි වන අතර, එය precomputed hashes භාවිත කිරීමෙන් වළක්වයි. Reader effect එක සමඟ, jet එක
+  fixed, immutable transaction environment එකකට පමණක් access කරයි, එබැවින් එහි implementation එකට
+  PrecomputedTransactionData ආරක්ෂිතව භාවිත කර, signature check එකකට constant time තුළ run කළ හැක, මෙය
+  මුල් කාලීන Bitcoin Script එක පීඩාවට පත් කළ quadratic hashing problem එක වළක්වයි.
+reviewed: true

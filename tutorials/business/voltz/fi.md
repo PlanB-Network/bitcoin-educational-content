@@ -19,7 +19,7 @@ Sen lisäksi, että Voltz on Lightning wallet, jonka avulla voit lähettää, va
 
 
 
-Mene [Voltz]-alustalle (https://www.voltz.com/en) ja luo tili klikkaamalla "Kokeile nyt" -painiketta.
+Mene [Voltz]-alustalle (https://www.lnvoltz.xyz/en) ja luo tili klikkaamalla "Kokeile nyt" -painiketta.
 
 
 

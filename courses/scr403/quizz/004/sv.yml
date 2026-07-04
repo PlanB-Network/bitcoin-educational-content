@@ -1,0 +1,13 @@
+question: Hur många grundläggande kombinatorer har Simplicity?
+answer: Nio (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tre (sekventiell komposition, parallell komposition, villkor).
+  - Fem (endast kombinatorerna comp, pair, case, take och drop).
+  - Tolv (de nio grundläggande plus tre extra utökningskombinatorer).
+explanation: >-
+  Simplicity har exakt nio grundläggande kombinatorer. Två
+  grundoperationer (iden och unit), tre kompositionsmetoder (comp,
+  pair, case) och fyra accessorer (take, drop för produkter, injl
+  och injr för summor). Dessa nio räcker för att uttrycka vilken
+  funktion som helst mellan Simplicity-typer.
+reviewed: false

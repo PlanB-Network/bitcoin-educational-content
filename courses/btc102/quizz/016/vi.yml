@@ -6,4 +6,4 @@ wrong_answers:
   - Bảy
 explanation: |
   Bitcoin có thể được chia nhỏ đến chữ số thập phân thứ tám, với một đơn vị được gọi là Satoshi hoặc sat.
-reviewed: false
+reviewed: true

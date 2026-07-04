@@ -1,0 +1,12 @@
+question: En la composición paralela, ¿qué ocurre con la entrada?
+answer: Ambas operaciones reciben la misma entrada, y sus salidas forman un producto (par).
+wrong_answers:
+  - La entrada se divide por la mitad, y cada operación recibe una parte separada.
+  - Una operación procesa primero la entrada, y la otra recibe el resultado modificado.
+  - La entrada se etiqueta y se enruta solo a una de las dos operaciones para que la procese.
+explanation: >-
+  La composición paralela entrega la misma entrada sin modificar a ambas
+  operaciones simultáneamente. Los resultados se agrupan en un tipo producto
+  (par). En Simplicity, esto usa el combinador pair, escrito f ▵ g, que
+  produce ⟨f(a), g(a)⟩ para la entrada a.
+reviewed: false

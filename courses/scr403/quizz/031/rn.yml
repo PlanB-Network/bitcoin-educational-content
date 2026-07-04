@@ -1,0 +1,13 @@
+question: Ubwoko bwa pair (drop iden) (take iden) ni ubuhe, kandi iserura function iyihe?
+answer: A × B ⊢ B × A — ihinduranya ibice bibiri vy'ipare.
+wrong_answers:
+  - A × B ⊢ A × B — irengana ivyo bice vyompi ata gihindutse (identity).
+  - "Ntibuhuye n'ubwoko: take iden na drop iden bifise ubwoko bwa output butandukanye, pair idashobora gufatanya."
+  - (A × B) × (A × B) ⊢ B × A — pair ifatanya ubwoko bwa input bw'imvugo zayo zibiri nto.
+explanation: >-
+  drop iden : A × B ⊢ B ikura igice ca kabiri, na take iden : A ×
+  B ⊢ A ikura igice ca mbere. Combinator pair isaba gusa ko imvugo zayo
+  zibiri nto zisangiye ubwoko bwa input bumwe (ngaha A × B); outputs zazo
+  zishobora gutandukana, kandi zisubizwa nk'ipare. Ku input ⟨a, b⟩ iyo
+  mvugo rero itanga ⟨b, a⟩: function yo guhinduranya, y'ubwoko A × B ⊢ B × A.
+reviewed: false

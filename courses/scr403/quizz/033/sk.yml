@@ -1,0 +1,14 @@
+question: Vzhľadom na typovacie pravidlá s 'menšími typmi v premisách', ktoré kombinátory jadra počas vykonávania skutočne presúvajú dáta?
+answer: Iba iden a comp; zvyšných sedem je implementované výhradne pomocou evidencie.
+wrong_answers:
+  - Iba take a drop; extrakcia jednej zložky núti stroj skopírovať ju von zo súčinu.
+  - Iba pair a case; duplikovanie vstupu pre dve vetvy a rozdeľovanie podľa tagu presúvajú dáta.
+  - Iba injl a injr; pridanie tagu prepíše hodnotu do väčšej reprezentácie súčtového typu.
+explanation: >-
+  Paradoxne, kombinátory, ktoré vyzerajú ako prístup k dátam (take, drop,
+  pair, case, injl, injr), nepotrebujú žiadne kopírovanie: keďže premisy v
+  typovacích pravidlách zahŕňajú menšie typy než ich závery, Bit Machine ich
+  dokáže implementovať iba pomocou evidencie. Iba iden, ktorý kopíruje celý
+  svoj vstup na svoj výstup, a comp, ktorý materializuje medzihodnotu
+  odovzdávanú z f do g, skutočne presúvajú dáta.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Vad beräknar en halvadderare?
+answer: Minnessiffran (AND) och summan (XOR) av två indatabitar.
+wrong_answers:
+  - Summan av två fleriffriga heltal med minnessiffra-propagering.
+  - Medelvärdet av två bitar avrundat nedåt.
+  - Den bitvisa OR och AND av två indatabitar.
+explanation: >-
+  En halvadderare tar två enstaka bitar och producerar två utdata
+  med hjälp av parallell komposition: minnessiffra-biten (AND av
+  indata) och summabiten (XOR av indata). I Simplicity definieras
+  den som and ▵ xor, och kör båda operationerna på samma indatapar.
+reviewed: false

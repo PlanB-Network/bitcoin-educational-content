@@ -1,0 +1,14 @@
+question: Mis on SimplicityHL ja miks seda vaja on?
+answer: Kõrgema taseme keel, mis kompileerub Simplicityks ning haldab nimetamist ja skoopi.
+wrong_answers:
+  - Riistvarakirjelduskeel Simplicityt käitavate kaevandamise ASICute jaoks.
+  - Graafiline lohista-ja-aseta IDE Simplicity kombinaatorite ühendamiseks.
+  - Testimisraamistik Simplicity programmide käitamiseks turvalises liivakastis.
+explanation: >-
+  Toores Simplicity muutub tootmistaseme keerukuse juures arusaamatuks, sest
+  kogu andmetele juurdepääs peab toimuma pesastatud take/drop-kombinaatorite kaudu. SimplicityHL
+  pakub tuttavaid programmeerimiskonstruktsioone — nimetatud muutujaid, skoope,
+  teekide importimist ja juhtvoogu — mis kompileeruvad Simplicity kombinaatori-
+  avaldisteks. Lõppkasutajad kirjutavad SimplicityHL-i, samal ajal kui Simplicity on
+  formaalselt kontrollitud kompileerimissiht.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Hồ sơ Essential sử dụng những gì để giúp nhân viên xử lý thanh toán tại PoS?
-answer: Tạo menu với giá sản phẩm trên ứng dụng PoS
+question: Đối với nhóm thiết yếu (Hồ sơ 2) doanh nghiệp nên sử dụng những gì để giúp nhân viên xử lý thanh toán tại PoS?
+answer: Tạo danh mục với giá sản phẩm trên ứng dụng PoS
 wrong_answers:
-  - Sổ cái thủ công dùng để ghi chép doanh số bán hàng
+  - Sổ cái dùng để ghi chép một cách thủ công các doanh số bán hàng
   - Hệ thống hóa đơn giấy cho mỗi giao dịch
   - Hệ thống ghi chép kế toán tự động cho các giao dịch từ PoS
 explanation: |
-  Ứng dụng PoS trong hồ sơ Essential cho phép nhân viên chọn các mục từ menu được thiết lập sẵn, giúp đơn giản hóa quy trình thanh toán.
+  Ứng dụng PoS trong nhóm thiết yếu (Hồ sơ 2) cho phép nhân viên chọn các mục từ danh mục được thiết lập sẵn, giúp đơn giản hóa quy trình thanh toán.
 reviewed: true

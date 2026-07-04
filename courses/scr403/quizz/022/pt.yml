@@ -1,0 +1,13 @@
+question: "Por que motivo o bip0340-verify usa o efeito Failure em vez de devolver um booleano (true/false)?"
+answer: Para permitir a verificação em lote (batch verification) de assinaturas Schnorr, em que uma verificação falhada reprova o lote inteiro.
+wrong_answers:
+  - Porque os tipos booleanos são demasiado caros em termos de espaço de bloco comparados com o tipo unit.
+  - Porque o sistema de tipos da Simplicity não consegue representar valores booleanos de retorno provenientes de jets.
+  - Porque devolver um valor booleano simples violaria diretamente o teorema da completude.
+explanation: >-
+  Se o bip0340-verify devolvesse um booleano, uma verificação de assinatura falhada poderia ainda
+  assim levar a um ramo em que o script tem sucesso. Nesse caso, o verificador precisaria de saber
+  qual assinatura específica falhou, o que impediria a verificação em lote. Usando o efeito Failure,
+  uma verificação falhada aborta sempre todo o cálculo, permitindo uma verificação em lote eficiente
+  em que muitas assinaturas são agrupadas.
+reviewed: true

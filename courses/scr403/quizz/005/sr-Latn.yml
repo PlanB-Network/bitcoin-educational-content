@@ -1,0 +1,11 @@
+question: Šta radi kombinator 'take'?
+answer: Izvlači levu komponentu proizvoda, odbacujući desnu.
+wrong_answers:
+  - Uklanja element iz zbirnog tipa, odbacujući bit oznake.
+  - Sekvencijalno komponuje dve odvojene operacije od početka do kraja.
+  - Obavija vrednost levom oznakom da bi izgradio novi zbirni tip.
+explanation: >-
+  Kombinator take je ekstraktor za proizvodne tipove. Kada se take f
+  primeni na par ⟨a, b⟩, odbacuje b i primenjuje f na a. U kombinaciji
+  sa iden, take iden izvlači prvi element bilo kog para.
+reviewed: false

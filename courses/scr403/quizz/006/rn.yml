@@ -1,0 +1,12 @@
+question: Ubwoko bw'igiteranyo (A + B) ni iki muri Simplicity?
+answer: "Ubumwe bushizweko ikimenyetso: agaciro kaba ari A ifise ikimenyetso c'ibubamfu canke B ifise ikimenyetso c'iburyo."
+wrong_answers:
+  - Ubwoko burimwo agaciro kose kavuye muri A na B icarimwe.
+  - Ukwongeranya kw'imibare kw'ingero z'intibice z'ubwo bwoko bubiri bugize ikintu.
+  - Ubwoko bw'igikorwa buhuza icinjizwa cose co muri A n'umusaruro wo muri B.
+explanation: >-
+  Ubwoko bw'igiteranyo A + B ni ubumwe bushizweko ikimenyetso. Agaciro kose gatwara ikimenyetso
+  c'intibice imwe kigaragaza nimba ari ubwoko bw'ibubamfu (bw'ubwoko A) canke ubwoko bw'iburyo
+  (bw'ubwoko B). N'igihe A na B ari ubwoko bumwe, agaciro gafise ikimenyetso c'ibubamfu n'agaciro
+  gafise ikimenyetso c'iburyo biguma bitandukanye.
+reviewed: false

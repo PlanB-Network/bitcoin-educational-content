@@ -1,0 +1,16 @@
+question: half-agg-verify jet 将一组元组记录为 Writer 效应。在可交换/幂等/幺元性测试下，这种集合设计实现了什么，又还缺少什么？
+answer: "可交换且幂等（如 Simplicity 所要求），但不是幺元的：丢弃一次调用会丢掉它的元组，并跳过一个签名。"
+wrong_answers:
+  - 幂等且幺元，但不可交换，因为聚合必须按签名顺序组合 r-components。
+  - 三者都具备，因此优化器可以自由复制、重排或丢弃这些调用而没有风险。
+  - 可交换但不幂等，因为两次记录同一个元组会要求两个聚合 s-components。
+explanation: >-
+  将 writer log 视为一个集合，会使该效应幂等且
+  可交换，因为集合插入本身具有这两个性质 —— 这正是
+  Simplicity 对每个效应的两项要求。幺元性仍然
+  达不到：和 Failure 一样，写入会影响交易有效性，因为
+  只有当聚合 s-component 覆盖每个已记录元组时，
+  交易才有效。因此，执行该写入的表达式不能仅仅因为其 unit 输出
+  未被使用就被丢弃，因为它的元组会从 half-aggregation verification 中
+  悄然消失。
+reviewed: false

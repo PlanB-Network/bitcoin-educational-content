@@ -1,0 +1,16 @@
+question: Tại thời điểm chi tiêu, một nhánh case bị prune đi. Làm sao verifier vẫn khớp chương trình được tiết lộ với CMR đã cam kết?
+answer: CMR là một Merkle root, nên spender chỉ cung cấp CMR của nhánh bị prune và verifier fold nó vào để tính lại root.
+wrong_answers:
+  - Verifier chỉ dùng nhánh được thực thi, vì các nhánh case không được thực thi chưa từng nằm trong CMR.
+  - Các nhánh bị prune trở thành một placeholder chuẩn tắc có CMR cố định thay thế khi tính lại root.
+  - Toàn bộ mã của nhánh bị prune vẫn ở trong witness, nơi verifier băm nhưng không thực thi nó.
+explanation: >-
+  CMR của case f g là một tagged hash trên CMR của cả hai con, nên mọi
+  nhánh — được thực thi hay không — đều được cam kết tại thời điểm tạo địa
+  chỉ. Vì phép xây dựng là một cây Merkle, một nhánh bị prune có thể được
+  tóm tắt chỉ bằng CMR 32 byte của nó: verifier cắm hash đó vào phép tính
+  đệ quy và kiểm tra root có khớp với cam kết của UTXO hay không, mà không
+  bao giờ thấy mã đã bị prune. Đây chính xác là lý do Merkle root được dùng
+  cho cam kết, và vì sao mọi biểu thức witness bên trong nhánh bị prune
+  không bao giờ xuất hiện on-chain.
+reviewed: false

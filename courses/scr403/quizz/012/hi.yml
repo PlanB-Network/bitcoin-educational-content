@@ -1,0 +1,12 @@
+question: Completeness theorem Simplicity के बारे में क्या guarantee करता है?
+answer: कि दो Simplicity types के बीच कोई भी function नौ combinators से बनाया जा सकता है।
+wrong_answers:
+  - कि Simplicity programs हमेशा constant time में terminate होने की guaranteed हैं।
+  - कि Simplicity Turing-complete है और किसी भी Turing machine को simulate कर सकती है।
+  - कि हर valid Simplicity program का एक single unique representation होता है।
+explanation: >-
+  Completeness theorem साबित करता है कि finite Simplicity types के बीच किसी
+  भी function के लिए, उसे compute करने वाली Simplicity expression मौजूद है।
+  Constructive proof nested case और scribe expressions का उपयोग करके lookup
+  table बनाता है। इसे Rocq proof assistant में formally verify किया गया है।
+reviewed: false

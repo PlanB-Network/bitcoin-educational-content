@@ -1,0 +1,11 @@
+question: "Mikä on Simplicity-ohjelman tyyppi?"
+answer: 1 ⊢ 1 (yksikkö yksiköksi) — ei merkityksellistä syötettä tai tulostetta; sivuvaikutukset hoitavat I/O:n.
+wrong_answers:
+  - TxEnv ⊢ Bool — se ottaa transaktiodatan ja palauttaa kelvollisuustotuusarvon.
+  - 2^256 ⊢ 2^256 — se ottaa tiivistesyötteen ja palauttaa uuden tiivistetulosteen.
+  - Mikä tahansa tyyppi A ⊢ B — ohjelmilla voi olla täysin mielivaltaiset syöte- ja tulostetyypit.
+explanation: >-
+  Simplicity-ohjelma määritellään tyypin 1 ⊢ 1 lausekkeeksi. Reader-efekti kaappaa
+  transaktioympäristön syötteen, kun taas Failure-efekti määrittää onnistumisen tai epäonnistumisen.
+  Nämä sivuvaikutukset hoitavat kaiken I/O:n Simplicity-tyyppien itsensä sijaan.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Mitä peräkkäinen kompositio tuottaa, kun operaatio f (A → B) ketjutetaan operaation g (B → C) kanssa?
+answer: Yhden yhdistetyn operaation A:sta C:hen, jossa f:n tuloste syötetään g:hen.
+wrong_answers:
+  - Pariarvon, joka sisältää molemmat välitulosteet, tyyppiä B ja C.
+  - Ehtolauseen, joka valitsee f:n ja g:n väliltä syötteen perusteella.
+  - Kaksi erillistä operaatiota, jotka suoritetaan itsenäisesti jakamatta dataa.
+explanation: >-
+  Peräkkäinen kompositio ketjuttaa kaksi operaatiota päästä päähän. Ensimmäisen
+  operaation tuloste tulee toisen syötteeksi. Simplicityssä tämä ilmaistaan
+  comp-kombinaattorilla: comp f g soveltaa ensin f:ää, sitten g:tä
+  tulokseen.
+reviewed: false

@@ -1,0 +1,16 @@
+question: "การคำนวณ #ᶜ(comp f g) แฮช 128 ไบต์: tag ของ comp สองครั้ง จากนั้น CMR ของลูกทั้งสอง ทำไมสิ่งนั้นจึงยังเป็นการเรียก SHA-256 compression ได้มากที่สุดหนึ่งครั้ง?"
+answer: block 64 ไบต์แรกคือค่าคงที่ tag∥tag ซึ่ง midstate ของมันถูก precompute ไว้ครั้งเดียว; มีเพียง block ที่ถือ CMR ของลูกเท่านั้นที่ถูก compressed
+wrong_answers:
+  - การทิ้ง block padding ความยาวสุดท้ายของ SHA-256 เพียงอย่างเดียวทำให้ 128 ไบต์ทั้งหมดพอดีใน call เดียว
+  - CMR ของลูกสองตัวถูก XOR รวมเป็น digest 32 ไบต์เดียว ทำให้อินพุตหดเหลือ block เดียว
+  - SHA-256-midstate เป็น variant แบบ wide-block ที่ดูดซับ message blocks ขนาด 128 ไบต์ได้ใน pass เดียว
+explanation: >-
+  ฟังก์ชัน compression ของ SHA-256 ประมวลผล blocks ขนาดคงที่ 64 ไบต์ ดังนั้น
+  อินพุต 128 ไบต์ตามปกติต้องใช้สอง calls (บวกอีกหนึ่งสำหรับ length
+  padding ใน SHA-256 แบบเต็ม) เพราะ block แรกของคอมบิเนเตอร์ทุกตัวคือ
+  ค่าคงที่ tag∥tag, midstate ของมันจึงสามารถ precompute และ cache ไว้ครั้งเดียว;
+  จากนั้นแต่ละนิพจน์ต้องการเพียง compression สดใหม่หนึ่งครั้งของ block ที่ถือ
+  CMR ของลูก ๆ ของมัน Midstates ยังทิ้ง block padding สุดท้ายด้วย แต่
+  เพียงเท่านั้นยังคงเหลือการ compression สองครั้ง — precomputed tag
+  midstate ต่างหากที่ทำให้เหลือได้มากที่สุดหนึ่งครั้ง
+reviewed: false

@@ -1,0 +1,15 @@
+question: 一个 Simplicity 输出使用固定的 BIP-0341 NUMS point 作为其 internal key。为什么 key-spend 被证明不可能，而随机化 NUMS point 又增加了什么？
+answer: 没有人知道 NUMS point 的离散对数，因此不可能存在 key-path signature；随机化只增加隐私性。
+wrong_answers:
+  - NUMS point 不在曲线上，所以 key-path signatures 会失败；随机化会把它带回曲线上。
+  - NUMS point 的私钥是零，而共识会拒绝这一点；随机化保护 tweak 免受侧信道影响。
+  - 对 NUMS point 进行 tweak 会产生越界密钥，使 key-spend 变成非标准；随机化避免地址复用。
+explanation: >-
+  NUMS（'Nothing-Up-My-Sleeve'）point 是一个完全有效的曲线点，
+  其构造方式使得没有人知道对应私钥 —— 它的离散对数是未知的。
+  由于 key-path spend 需要 internal key 下的 Schnorr
+  签名，而没有私钥就无法产生这样的签名，因此 key-spend 路径
+  被证明不可用，资金只能通过已承诺的 script path 移动。随机化
+  NUMS point 不会改变这一点；它只是隐藏 key-spend 已被禁用这一事实，
+  让该输出看起来像任何其他 Taproot 输出 —— 这是隐私收益。
+reviewed: false

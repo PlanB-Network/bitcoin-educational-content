@@ -19,7 +19,7 @@ Voltz ist nicht nur ein verwahrender Lightning wallet, mit dem Sie täglich send
 
 
 
-Gehen Sie zur [Voltz]-Plattform (https://www.voltz.com/en) und erstellen Sie ein Konto, indem Sie auf die Schaltfläche "Jetzt ausprobieren" klicken.
+Gehen Sie zur [Voltz]-Plattform (https://www.lnvoltz.xyz/en) und erstellen Sie ein Konto, indem Sie auf die Schaltfläche "Jetzt ausprobieren" klicken.
 
 
 

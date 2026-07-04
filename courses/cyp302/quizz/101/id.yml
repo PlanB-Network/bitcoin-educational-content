@@ -6,4 +6,4 @@ wrong_answers:
   - Kode otentikasi pesan berbasis Diffie-Hellman
 explanation: |
   HMAC adalah kode otentikasi pesan yang menggunakan fungsi hash, seperti SHA-256, untuk membuat tag yang memverifikasi integritas dan keaslian sebuah pesan.
-reviewed: false
+reviewed: true

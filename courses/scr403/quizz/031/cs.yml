@@ -1,0 +1,13 @@
+question: Jaký je typ výrazu pair (drop iden) (take iden) a jakou funkci označuje?
+answer: A × B ⊢ B × A — prohodí dvě složky páru.
+wrong_answers:
+  - A × B ⊢ A × B — obě složky propustí beze změny (identita).
+  - "Špatně typováno: take iden a drop iden mají různé výstupní typy, které pair nedokáže sloučit."
+  - (A × B) × (A × B) ⊢ B × A — pair sloučí vstupní typy svých dvou podvýrazů.
+explanation: >-
+  drop iden : A × B ⊢ B extrahuje druhou složku a take iden : A × B ⊢ A
+  extrahuje první. Kombinátor pair vyžaduje pouze to, aby jeho dva
+  podvýrazy sdílely stejný vstupní typ (zde A × B); jejich výstupy se
+  mohou lišit a vracejí se jako pár. Na vstupu ⟨a, b⟩ tedy výraz produkuje
+  ⟨b, a⟩: funkci prohození, typu A × B ⊢ B × A.
+reviewed: false

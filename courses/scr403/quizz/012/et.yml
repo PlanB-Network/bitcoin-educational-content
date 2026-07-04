@@ -1,0 +1,13 @@
+question: Miks serialiseeritakse Simplicity avaldised DAG-idena, mitte puudena?
+answer: Et vältida eksponentsiaalset kasvu, kuna jagatud alamavaldised salvestatakse ainult üks kord.
+wrong_answers:
+  - Sest tavalised puustruktuurid ei suuda üldse esindada tingimuslikku hargnemist.
+  - Et võimaldada paralleelset täitmist paljude eraldi mitmetuumaliste protsessorite vahel.
+  - Sest Liquidi võrgu protokoll nõuab siin rangelt DAG-vormingut.
+explanation: >-
+  Simplicity avaldised moodustavad loomulikult puid, mis võiksid keerukuse
+  suurenedes eksponentsiaalselt kasvada. Serialiseerides need suunatud
+  atsükliliste graafidena (DAG-idena), salvestatakse mitu korda esinevad
+  alamavaldised üks kord ja neile viitavad mitu vanemat. See hoiab tegelikud
+  programmisuurused kasvamas lineaarselt, mitte eksponentsiaalselt.
+reviewed: false

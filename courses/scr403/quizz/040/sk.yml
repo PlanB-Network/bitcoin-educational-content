@@ -1,0 +1,16 @@
+question: "Výpočet #ᶜ(comp f g) hashuje 128 bajtov: dvakrát tag comp, potom oba CMR potomkov. Prečo je to stále nanajvýš jedno volanie kompresie SHA-256?"
+answer: Prvý 64-bajtový blok je konštanta tag∥tag, ktorej midstate sa predpočíta raz; komprimuje sa iba blok obsahujúci CMR potomkov.
+wrong_answers:
+  - Vynechanie samotného záverečného dĺžkového výplňového bloku SHA-256 umožní, aby sa celých 128 bajtov zmestilo do jedného volania.
+  - Oba CMR potomkov sú spojené operáciou XOR do jedného 32-bajtového digestu, čím sa vstup zmenší na jediný blok.
+  - SHA-256-midstate je variant so širokým blokom, ktorý pohltí 128-bajtové bloky správy v jednom prechode.
+explanation: >-
+  Kompresná funkcia SHA-256 spracúva pevné 64-bajtové bloky, takže
+  128-bajtový vstup zvyčajne potrebuje dve volania (plus jedno ďalšie pre
+  dĺžkovú výplň v úplnej SHA-256). Keďže prvým blokom každého kombinátora je
+  konštanta tag∥tag, jeho midstate možno predpočítať raz a uložiť do
+  vyrovnávacej pamäte; každý výraz potom potrebuje iba jednu novú kompresiu
+  bloku obsahujúceho CMR svojich potomkov. Midstate rovnako vynechávajú
+  záverečný výplňový blok, ale to samo osebe by stále ponechalo dve
+  kompresie — až predpočítaný midstate tagu ho zníži na nanajvýš jednu.
+reviewed: false

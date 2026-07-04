@@ -1,0 +1,13 @@
+question: ความสัมพันธ์ระหว่าง Simplicity กับ sequent calculus ของ Gentzen คืออะไร?
+answer: combinator ทั้งเก้าตัวของมันสะท้อน fragment แบบ conjunctive-disjunctive ของ sequent calculus
+wrong_answers:
+  - Simplicity ถูกแปลโดยตรงจาก proof ของ sequent calculus ให้เป็นโค้ดที่ทำงานได้
+  - sequent calculus ของ Gentzen ถูกใช้ตอน runtime เพื่อตรวจชนิดของโปรแกรม Simplicity
+  - ทั้งสองไม่เกี่ยวข้องกันเลย และความคล้ายบนผิวเผินเป็นเพียงเรื่องบังเอิญ
+explanation: >-
+  กฎแกนหลักทั้งเก้าของ Simplicity คล้ายกับกฎใน sequent calculus ของ Gentzen อย่างมาก
+  ในลักษณะที่คล้ายกับ Curry-Howard correspondence ระหว่าง lambda calculus กับ
+  natural deduction ความเชื่อมโยงนี้รับประกันว่า type ใน premises มีขนาดเล็กกว่า
+  ใน conclusions ซึ่ง Bit Machine ใช้ประโยชน์เพื่อให้ execute ได้อย่างมีประสิทธิภาพ
+  โดยคัดลอกข้อมูลน้อยที่สุด
+reviewed: false

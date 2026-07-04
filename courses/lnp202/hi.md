@@ -399,7 +399,7 @@ Bitcoin के दो मुख्य लाभ हैं मौद्रिक 
 
 
 
-पहला समाधान यह है कि लाइटनिंग का सीधे उपयोग न किया जाए, बल्कि Bitcoin, [Liquid](https://planb.academy/resources/glossary/liquid-network) या wallet जैसे किसी ऐसे एप्लिकेशन का उपयोग किया जाए जिसमें [एटॉमिक स्वैप](https://planb.academy/resources/glossary/atomic-swap) की सुविधा हो। उदाहरण के लिए, Aqua या Bull Bitcoin Wallet एप्लिकेशन इसी विधि का उपयोग करते हैं, जिससे आप स्वयं लाइटनिंग नोड संचालित किए बिना ही लाइटनिंग बिलों का भुगतान कर सकते हैं और नियंत्रण अपने हाथ में रख सकते हैं।
+पहला समाधान यह है कि लाइटनिंग का सीधे उपयोग न किया जाए, बल्कि Bitcoin, [Liquid](https://planb.academy/resources/glossary/liquid-network) या wallet जैसे किसी ऐसे एप्लिकेशन का उपयोग किया जाए जिसमें [एटॉमिक स्वैप](https://planb.academy/resources/glossary/atomic-swap) की सुविधा हो। उदाहरण के लिए, Aqua या BULL Wallet एप्लिकेशन इसी विधि का उपयोग करते हैं, जिससे आप स्वयं लाइटनिंग नोड संचालित किए बिना ही लाइटनिंग बिलों का भुगतान कर सकते हैं और नियंत्रण अपने हाथ में रख सकते हैं।
 
 
 

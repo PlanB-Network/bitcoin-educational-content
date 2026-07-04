@@ -1,0 +1,12 @@
+question: Half-adder क्या compute करता है?
+answer: दो input bits का carry (AND) और sum (XOR)।
+wrong_answers:
+  - carry propagation के साथ दो multi-bit integers का sum।
+  - दो bits का average, नीचे की ओर round किया हुआ।
+  - दो input bits का bitwise OR और AND।
+explanation: >-
+  Half-adder दो single bits लेता है और parallel composition का उपयोग करके
+  दो outputs produce करता है: carry bit (inputs का AND) और sum bit (inputs
+  का XOR)। Simplicity में इसे and ▵ xor के रूप में define किया जाता है, जो
+  same input pair पर दोनों operations चलाता है।
+reviewed: false

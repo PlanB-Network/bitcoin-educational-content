@@ -1,0 +1,17 @@
+question: "Sebuah jet half-agg-verify mencatat sekumpulan tuple sebagai efek Writer. Berdasarkan uji komutatif/idempoten/uniter, apa yang dicapai oleh desain set ini, dan apa yang masih kurang?"
+answer: "Komutatif dan idempoten (seperti yang disyaratkan Simplicity), tetapi tidak uniter: membuang sebuah panggilan akan menghilangkan tuple-nya dan melewatkan sebuah signature."
+wrong_answers:
+  - Idempoten dan uniter, tetapi tidak komutatif, karena agregat harus menggabungkan komponen-r dalam urutan penandatanganan.
+  - Ketiganya, sehingga optimizer bebas menduplikasi, mengubah urutan, atau membuang panggilan tanpa risiko apa pun.
+  - Komutatif tetapi tidak idempoten, karena mencatat tuple yang sama dua kali akan membutuhkan dua komponen-s agregat.
+explanation: >-
+  Memperlakukan log writer sebagai sebuah set membuat efeknya idempoten
+  dan komutatif, karena penyisipan set itu sendiri memiliki kedua sifat
+  tersebut — persis dua hal yang disyaratkan Simplicity dari setiap efek.
+  Uniteritas masih di luar jangkauan: seperti Failure, penulisan ini
+  memengaruhi validitas transaksi, karena transaksi hanya valid ketika
+  sebuah komponen-s agregat mencakup setiap tuple yang tercatat. Ekspresi
+  yang melakukan penulisan tersebut karenanya tidak dapat dibuang hanya
+  karena keluaran unit-nya tidak digunakan, sebab tuple-nya akan lenyap
+  begitu saja dari verifikasi half-agregasi.
+reviewed: false

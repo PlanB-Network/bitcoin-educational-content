@@ -5,5 +5,5 @@ wrong_answers:
   - Fermeture avec triche
   - Fermeture par watchtower
 explanation: |
-  La fermeture coopérative est plus rapide et permet de choisir les frais onchain.
-reviewed: false
+  La fermeture coopérative est plus rapide et permet de choisir les frais on-chain.
+reviewed: true 

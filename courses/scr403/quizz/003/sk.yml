@@ -1,0 +1,12 @@
+question: Čo je súčtový typ (A + B) v Simplicity?
+answer: "Označkované zjednotenie: hodnota je buď ľavo označené A, alebo pravo označené B."
+wrong_answers:
+  - Typ, ktorý obsahuje všetky hodnoty z A aj B súčasne.
+  - Aritmetický súčet bitových veľkostí oboch komponentných typov.
+  - Funkčný typ, ktorý mapuje každý vstup z A na výstup v B.
+explanation: >-
+  Súčtový typ A + B je označkované zjednotenie. Každá hodnota nesie
+  jednobitovú značku, ktorá udáva, či ide o ľavý variant (typu A) alebo
+  pravý variant (typu B). Aj keď sú A a B rovnaký typ, ľavo označené a
+  pravo označené hodnoty zostávajú odlišné.
+reviewed: false

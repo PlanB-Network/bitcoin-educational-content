@@ -1,0 +1,13 @@
+question: Kwa nini Simplicity hutumia uchambuzi tuli badala ya mfano wa gas unaobadilika kama Ethereum?
+answer: Ili kubainisha mipaka ya rasilimali kabla ya utekelezaji kuanza, ikitoa gharama zinazotabirika.
+wrong_answers:
+  - Kwa sababu uchambuzi tuli ni haraka zaidi tu kutekelezwa na waendelezaji.
+  - Kwa sababu mfano wa gas wa Ethereum wenyewe ulikuwa na hati miliki na hivyo haukupatikana.
+  - Kwa sababu programu za Simplicity ni fupi mno kiasi kwamba hazihitaji kabisa upimaji.
+explanation: >-
+  Uchambuzi tuli wa Simplicity huruhusu mtandao kujua kwa usahihi kiasi
+  cha computation ambacho programu inahitaji kabla haijaendeshwa. Hili
+  huondoa kutotabirika kwa upimaji unaobadilika, huzuia denial-of-service
+  kupitia kumaliza rasilimali, na huwezesha nodi kukataa programu
+  zinazozidi mipaka bila kupoteza computation.
+reviewed: false

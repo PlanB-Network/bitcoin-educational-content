@@ -1,0 +1,12 @@
+question: Hvordan bygges vektorer med fast lengde i Simplicitys typesystem?
+answer: Gjennom nøstede produkttyper med lengde som er en toerpotens (f.eks. A⁴ = A² × A²).
+wrong_answers:
+  - Ved hjelp av en spesiell array-type-konstruktør innebygd i språket.
+  - Gjennom rekursive sumtyper som kjeder sammen elementene i en liste.
+  - Ved hjelp av buffere med variabel lengde som har en fast maksstørrelse.
+explanation: >-
+  Simplicity bygger vektorer fra nøstede produkttyper. A² er A × A,
+  A⁴ er A² × A², A⁸ er A⁴ × A⁴, og så videre. Dette gir samlinger
+  med størrelser som er toerpotenser. For eksempel bygges 𝟚²⁵⁶ (en
+  256-bits hash) ved å nøste produkter 8 nivåer dypt fra den boolske typen.
+reviewed: false

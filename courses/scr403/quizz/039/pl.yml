@@ -1,0 +1,17 @@
+question: Efekty Simplicity są przemienne i idempotentne, ale nie unitarne. Której transformacji optymalizatora należy zatem generalnie odmówić?
+answer: Zastąpienie pozornie martwego wyrażenia przez unit — Failure nie jest unitarny, więc mógłby ukryć zawodzące sprawdzenie, które musi przerwać walidację.
+wrong_answers:
+  - Zamiana dwóch niezależnych podwyrażeń, ponieważ sig-all-hash mógłby zaobserwować inny stan środowiska.
+  - Scalenie dwóch identycznych wywołań verify, ponieważ zduplikowany Failure zgłosiłby wyjątek dwukrotnie i błędnie przerwał.
+  - Zmiana kolejności wyrażeń, które mogą zgłosić wyjątek, ponieważ propagowany wyjątek zależy od tego, która strona wykona się jako pierwsza.
+explanation: >-
+  Ponieważ efekty Simplicity mają gwarantowaną przemienność i idempotentność,
+  zamiana niezależnych podwyrażeń oraz duplikowanie lub scalanie identycznych
+  są zawsze bezpieczne; środowisko Reader jest ustalone, a wyjątek Failure
+  typu unit jest identyczny bez względu na to, która strona zgłosi go jako
+  pierwsza i ile razy. Transformacja odrzucenia `f ⨾ unit = unit` wymaga jednak
+  unitarności, której Failure nie posiada: jeśli `f` zawiera `bip0340-verify`
+  na nieprawidłowym podpisie, wyeliminowanie „martwego” kodu zoptymalizowałoby
+  (usunęło) przerwanie i zatwierdziło transakcję, która powinna zostać
+  odrzucona.
+reviewed: false

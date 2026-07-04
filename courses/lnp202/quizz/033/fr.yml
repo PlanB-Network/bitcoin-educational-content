@@ -6,4 +6,4 @@ wrong_answers:
   - 1ML
 explanation: |
   Electrum n’est pas un explorateur Lightning permettant d’obtenir des informations sur les nœuds du réseau. Les trois autres outils, en revanche, remplissent bien cette fonction.
-reviewed: false
+reviewed: true 

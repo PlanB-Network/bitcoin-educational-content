@@ -1,0 +1,12 @@
+question: Co oblicza półsumator?
+answer: Przeniesienie (AND) i sumę (XOR) dwóch bitów wejściowych.
+wrong_answers:
+  - Sumę dwóch wielobitowych liczb całkowitych z propagacją przeniesienia.
+  - Średnią dwóch bitów zaokrągloną w dół.
+  - Bitowe OR i AND dwóch bitów wejściowych.
+explanation: >-
+  Półsumator przyjmuje dwa pojedyncze bity i wytwarza dwa wyjścia za pomocą
+  kompozycji równoległej: bit przeniesienia (AND wejść) oraz bit sumy
+  (XOR wejść). W Simplicity jest zdefiniowany jako and ▵ xor, wykonując
+  obie operacje na tej samej parze wejściowej.
+reviewed: false

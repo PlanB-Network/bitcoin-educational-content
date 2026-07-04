@@ -1,9 +1,9 @@
-question: Mục tiêu chính của các công cụ kế toán chuyên dụng Bitcoin là gì?
+question: Mục tiêu chính của các công cụ kế toán chuyên dụng về Bitcoin là gì?
 answer: Để đơn giản hóa việc thu thập và xử lý tự động dữ liệu liên quan đến Bitcoin
 wrong_answers:
-  - Để tăng cường tính bảo mật của khóa riêng tư Bitcoin
-  - Để tạo điều kiện thuận lợi cho việc giao dịch trực tiếp Bitcoin trên các sàn giao dịch phi tập trung dành cho doanh nghiệp
-  - Thiết lập hệ thống PoS để chấp nhận thanh toán Bitcoin
+  - Để tăng cường tính bảo mật cho các khóa riêng Bitcoin
+  - Để tạo điều kiện thuận lợi cho việc giao dịch Bitcoin trực tiếp trên các sàn giao dịch phi tập trung dành cho doanh nghiệp
+  - Thiết lập hệ thống PoS để chấp nhận thanh toán với Bitcoin
 explanation: |
   Các công cụ này được thiết kế để tự động hóa việc thu thập dữ liệu, chuyển đổi định dạng, tính thuế và phân loại giao dịch.
 reviewed: true

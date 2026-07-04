@@ -1,0 +1,16 @@
+question: På hvilken måte er betinget komposisjon dualen til parallell komposisjon?
+answer: Parallell komposisjon mater begge operasjonene med én inndata og parer sammen utdataene deres (et produkt); betinget komposisjon tar imot en sum av inndata, og begge grenene deler én utdatatype.
+wrong_answers:
+  - Parallell komposisjon må kjøre sine to operasjoner samtidig; betinget komposisjon kjører dem i sekvens og returnerer bare grenen som taggen velger.
+  - Begge kjører på én delt inndata; parallell komposisjon beholder utdataparet, mens betinget komposisjon kjører begge grenene og forkaster den som ikke velges.
+  - Parallell komposisjon dupliserer sin inndata på forhånd, mens betinget komposisjon dupliserer sin utdata i etterkant, og bytter dermed om på hvor kopieringen skjer.
+explanation: >-
+  Dualiteten er en produkt/sum-utveksling der den delte typen bytter
+  side: parallell komposisjon gir begge operasjonene samme inndatatype
+  og parer sammen utdataene deres til et produkt, mens betinget
+  komposisjon tar imot en sum (tagget union) av de to inndatatypene, og
+  begge grenene må gi samme utdatatype. Samtidighet er irrelevant —
+  artikkelen understreker at parallell komposisjon kan implementeres
+  sekvensielt — og betinget komposisjon utfører nøyaktig én gren, valgt
+  av taggen, i stedet for å kjøre begge og forkaste den ene.
+reviewed: false

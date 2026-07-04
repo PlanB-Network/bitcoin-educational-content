@@ -6,3 +6,4 @@ wrong_answers:
   - Karena hanya mengenkripsi pesan-pesan kecil
 explanation: |
   One-time pad dianggap aman karena setiap bit dari kunci adalah acak dan tidak pernah digunakan kembali, memastikan bahwa tidak meninggalkan jejak yang dapat dimanfaatkan oleh penyerang.
+reviewed: true

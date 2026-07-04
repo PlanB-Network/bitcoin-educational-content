@@ -1,0 +1,17 @@
+question: En Simplicity-utdata bruker det faste BIP-0341 NUMS-punktet som sin interne nøkkel. Hvorfor er key-spend beviselig umulig, og hva tilfører randomisering av NUMS-punktet?
+answer: Ingen kjenner NUMS-punktets diskrete logaritme, så ingen key-path-signatur kan eksistere; randomisering tilfører bare personvern.
+wrong_answers:
+  - NUMS-punktet ligger utenfor kurven så key-path-signaturer feiler; randomisering bringer det tilbake på kurven.
+  - NUMS-punktets private nøkkel er null, noe konsensus avviser; randomisering beskytter tweaken mot sidekanaler.
+  - Å tweake et NUMS-punkt gir en nøkkel utenfor gyldig område, noe som gjør key-spend ikke-standard; randomisering unngår adressegjenbruk.
+explanation: >-
+  Et NUMS-punkt ('Nothing-Up-My-Sleeve') er et fullt gyldig kurvepunkt
+  konstruert slik at ingen kjenner en tilhørende privat nøkkel — dets
+  diskrete logaritme er ukjent. Siden en key-path-utbetaling krever en
+  Schnorr-signatur under den interne nøkkelen, og ingen slik signatur kan
+  produseres uten den private nøkkelen, er key-spend-stien beviselig
+  ubrukelig, og midler kan bare bevege seg gjennom den forpliktede
+  skriptstien. Randomisering av NUMS-punktet endrer ingenting av dette;
+  det skjuler bare det faktum at key-spend er deaktivert, slik at
+  utdataen ser ut som enhver annen Taproot-utdata — en personvernfordel.
+reviewed: false

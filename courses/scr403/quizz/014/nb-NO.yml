@@ -1,0 +1,13 @@
+question: Hva er enhetstypen (𝟙), og hvorfor er den nyttig til tross for at den ikke bærer noen informasjon?
+answer: Den inneholder én verdi (den tomme tuppelen) og er grunnlaget for alle andre typer.
+wrong_answers:
+  - Den representerer tallet 1 og brukes direkte til aritmetiske operasjoner.
+  - Den er en spesiell feilsøkingstype som logger kjøringssporing til en fil.
+  - Den lagrer nøyaktig én bit med data brukt til boolske operasjoner.
+explanation: >-
+  Enhetstypen 𝟙 har nøyaktig én verdi — den tomme tuppelen ⟨⟩. Selv om
+  den bærer null bits med informasjon, er den essensiell som frøet
+  som sum- og produkttyper bygger opp alle nyttige datatyper fra.
+  For eksempel er den boolske typen 𝟚 lik 𝟙 + 𝟙, konstruert
+  utelukkende fra enhetstyper.
+reviewed: false

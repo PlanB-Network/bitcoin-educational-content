@@ -6,4 +6,4 @@ wrong_answers:
   - FPGA
 explanation: |
   Au lancement, le logiciel tournait sur un ordinateur personnel et utilisait principalement le processeur.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,16 @@
+question: V akom zmysle je podmienená kompozícia duálom paralelnej kompozície?
+answer: Paralelná kompozícia posiela obom operáciám jeden vstup a spája ich výstupy do dvojice (súčin); podmienená prijíma súčet vstupov a obe vetvy zdieľajú jeden výstupný typ.
+wrong_answers:
+  - Paralelná musí spúšťať svoje dve operácie súčasne; podmienená ich spúšťa postupne a vracia iba vetvu, ktorú vyberie značka.
+  - Obe bežia na jednom zdieľanom vstupe; paralelná zachová dvojicu výstupov, zatiaľ čo podmienená spustí obe vetvy a zahodí tú nevybranú.
+  - Paralelná duplikuje svoj vstup vopred, zatiaľ čo podmienená duplikuje svoj výstup dodatočne, čím sa vymieňa miesto, kde dochádza ku kopírovaniu.
+explanation: >-
+  Dualita je výmena súčin/súčet, pri ktorej zdieľaný typ prechádza na
+  opačnú stranu: paralelná kompozícia dáva obom operáciám rovnaký vstupný typ
+  a spája ich výstupy do súčinu, kým podmienená kompozícia
+  prijíma súčet (označené zjednotenie) dvoch vstupných typov a obe vetvy musia
+  poskytnúť rovnaký výstupný typ. Súčasnosť je irelevantná — článok
+  zdôrazňuje, že paralelná kompozícia sa môže implementovať sekvenčne — a
+  podmienená kompozícia vykoná presne jednu vetvu, vybranú značkou,
+  namiesto spustenia oboch a zahodenia jednej.
+reviewed: false

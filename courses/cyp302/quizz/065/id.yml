@@ -6,3 +6,4 @@ wrong_answers:
   - Algoritma enkripsi, kunci publik, dan kunci privat
 explanation: |
   Skema enkripsi simetris terdiri dari tiga elemen: algoritma pembangkit kunci, algoritma enkripsi, dan algoritma dekripsi. Ketiganya menggunakan kunci yang sama.
+reviewed: true

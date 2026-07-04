@@ -1,0 +1,13 @@
+question: Full-adder hufanya OR ya bit za carry za half-adders zake mbili badala ya kuzifanyia XOR. Kwa nini OR ni sahihi?
+answer: Kwa ingizo lolote, si zaidi ya half-adder moja inaweza kutoa carry, hivyo OR huunganisha kesi mbili zinazotengana kikamilifu.
+wrong_answers:
+  - Bit mbili za carry lazima zijumlishwe, na OR ndiyo jinsi uongezaji wa binary wa bit moja hufanywa katika Simplicity.
+  - Baada ya branching, OR ndiyo operator pekee ya Boolean ambayo aina yake bado inalingana na mazingira.
+  - OR hukadiria carry kupita kiasi; carry zozote zisizo halisi hutupwa na projection ya mwisho baadaye.
+explanation: >-
+  Ikiwa half-adder ya kwanza inatoa carry, bit zake zote mbili za ingizo zilikuwa 1, hivyo
+  bit yake ya sum ni 0 — na half-adder inayolishwa 0 haiwezi kamwe kutoa carry. Kwa hiyo bit mbili za carry
+  haziwi 1 kwa wakati mmoja, na OR huziunganisha kikamilifu
+  (kwenye maingizo yanayoweza kufikiwa hata hulingana na XOR). Kutengana huku
+  ndiko hasa kunakofanya uvunjaji wa full-adder kuwa half-adder mbili uwe sahihi.
+reviewed: false

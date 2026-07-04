@@ -1,0 +1,13 @@
+question: Ubwoko bwa unit (𝟙) ni iki, kandi ni kubera iki bufise akamaro naho butatwara amakuru?
+answer: Bufise agaciro kamwe (empty tuple) kandi ni bwo shingiro ry'ubundi bwoko bwose.
+wrong_answers:
+  - Buserukira umubare 1 kandi bukoreshwa ataco bucishijemwo mu bikorwa vy'imibare.
+  - Ni ubwoko budasanzwe bwo gukosora amakosa bwandika ibisigarira vy'ishirwa mu ngiro muri dosiye.
+  - Bubika neza na neza intibice imwe y'amakuru ikoreshwa mu bikorwa vya boolean.
+explanation: >-
+  Ubwoko bwa unit 𝟙 bufise neza na neza agaciro kamwe — empty tuple ⟨⟩. Naho
+  butwara intibice zero z'amakuru, burahambaye nk'imbuto
+  ivamwo ubwoko bw'igiteranyo n'ubwoko bw'igikubo bikubaka ubwoko bw'amakuru bwose ngirakamaro.
+  Nk'akarorero, ubwoko bwa boolean 𝟚 ni 𝟙 + 𝟙, bwubatswe rwose
+  buvuye ku bwoko bwa unit.
+reviewed: false

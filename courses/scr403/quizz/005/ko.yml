@@ -1,0 +1,12 @@
+question: Simplicity에는 핵심 컴비네이터가 몇 개 있나요?
+answer: 아홉 개입니다(iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - 세 개입니다(순차 합성, 병렬 합성, 조건부).
+  - 다섯 개입니다(comp, pair, case, take, drop 컴비네이터만).
+  - 열두 개입니다(아홉 개의 핵심 컴비네이터와 세 개의 추가 확장 컴비네이터).
+explanation: >-
+  Simplicity에는 정확히 아홉 개의 핵심 컴비네이터가 있습니다. 두 가지 기본
+  연산(iden과 unit), 세 가지 합성 방식(comp, pair, case), 네 가지 접근자
+  (곱에 대한 take와 drop, 합에 대한 injl과 injr)입니다. 이 아홉 개만으로도
+  Simplicity 타입들 사이의 어떤 함수든 표현하기에 충분합니다.
+reviewed: false

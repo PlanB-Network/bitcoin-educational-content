@@ -1,0 +1,12 @@
+question: "Simplicity में Failure इफेक्ट commutative क्यों है, जबकि exceptions सामान्यतः commutative नहीं होते?"
+answer: क्योंकि exception type unit (1) है जिसमें केवल एक value होती है, इसलिए throwing order मायने नहीं रखता।
+wrong_answers:
+  - क्योंकि Simplicity सभी expressions को combinator tree द्वारा defined deterministic order में execute करता है।
+  - क्योंकि Failure इफेक्ट हमेशा पकड़ा जाता है और फिर case combinator द्वारा re-thrown किया जाता है।
+  - क्योंकि Simplicity batch verification का उपयोग करता है, जिससे सभी thrown exceptions equivalent हो जाते हैं।
+explanation: >-
+  सामान्यतः, exceptions commutative नहीं होते क्योंकि अलग-अलग expressions अलग-अलग
+  exception values throw कर सकते हैं। हालांकि, Simplicity exceptions को unit type (केवल एक possible value) तक सीमित करता है,
+  इसलिए दो potentially-failing expressions का order बदलने पर वही exception मिलता है, चाहे
+  वास्तव में कौन सा fail हो। यह commutativity property महत्वपूर्ण program optimizations सक्षम करती है।
+reviewed: true

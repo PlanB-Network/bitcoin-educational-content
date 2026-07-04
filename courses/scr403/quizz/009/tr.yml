@@ -1,0 +1,13 @@
+question: Simplicity'de Boole türü (𝟚) nasıl tanımlanır?
+answer: Tam olarak iki değer (false ve true) tutan 𝟙 + 𝟙 toplam türü olarak.
+wrong_answers:
+  - Daha sonra yalnızca bir değer tutacak olan 𝟙 × 𝟙 çarpım türü olarak.
+  - Doğrudan dile yerleşik özel bir ilkel tür olarak.
+  - Yalnızca 0 ve 1 değerleriyle sınırlandırılmış 32 bitlik bir tam sayı türü olarak.
+explanation: >-
+  Boole türü 𝟚, iki birim türünün toplamı olan 𝟙 + 𝟙 olarak tanımlanır.
+  Sol etiketli değer σᴸ⟨⟩ false'u (0), sağ etiketli değer σᴿ⟨⟩ ise
+  true'yu (1) temsil eder. Bu, yalnızca birim türünden ve toplam türü
+  oluşturucusundan inşa edilmiş tek bitlik bir veri türüdür — çarpım
+  oluşturucusuna gerek yoktur.
+reviewed: false

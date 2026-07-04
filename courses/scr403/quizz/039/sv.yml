@@ -1,0 +1,18 @@
+question: Simplicitys effekter är kommutativa och idempotenta men inte unitära. Vilken optimeringstransformation måste därför i allmänhet avvisas?
+answer: Att ersätta ett skenbart dött uttryck med unit — Failure är inte unitär, så det kan dölja en misslyckad kontroll som måste avbryta.
+wrong_answers:
+  - Att byta plats på två oberoende deluttryck, eftersom en sig-all-hash skulle kunna observera ett annat miljötillstånd.
+  - Att slå samman två identiska verify-anrop, eftersom en duplicerad Failure skulle kasta två gånger och avbryta felaktigt.
+  - Att ordna om uttryck som kan kasta, eftersom det spridda undantaget beror på vilken sida som körs först.
+explanation: >-
+  Eftersom Simplicitys effekter garanterat är kommutativa och
+  idempotenta är det alltid säkert att byta plats på oberoende
+  deluttryck och att duplicera eller slå samman identiska sådana;
+  Reader-miljön är fast, och Failures unit-typade undantag är
+  identiskt oavsett vilken sida som kastar först eller hur många gånger.
+  Bortkastningstransformationen `f ⨾ unit = unit` kräver dock
+  unitäritet, vilket Failure saknar: om `f` innehåller en
+  `bip0340-verify` på en ogiltig signatur skulle det att eliminera den
+  'döda' koden optimera bort avbrottet och validera en transaktion som
+  borde misslyckas.
+reviewed: false

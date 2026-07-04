@@ -1,0 +1,12 @@
+question: Mida tagab täielikkuse teoreem Simplicity kohta?
+answer: Et mis tahes funktsiooni kahe Simplicity tüübi vahel saab ehitada üheksast kombinaatorist.
+wrong_answers:
+  - Et Simplicity programmid lõpetavad töö garanteeritult alati konstantse ajaga.
+  - Et Simplicity on Turingi-täielik ja suudab simuleerida ükskõik millist Turingi masinat.
+  - Et igal kehtival Simplicity programmil on üksainus unikaalne esitus.
+explanation: >-
+  Täielikkuse teoreem tõestab, et mis tahes funktsiooni jaoks lõplike
+  Simplicity tüüpide vahel eksisteerib Simplicity avaldis, mis selle arvutab.
+  Konstruktiivne tõestus ehitab otsingutabeli, kasutades pesastatud case- ja
+  scribe-avaldisi. See on formaalselt verifitseeritud Rocqi tõestusassistendis.
+reviewed: false

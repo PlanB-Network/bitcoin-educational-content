@@ -19,7 +19,7 @@ Uretse kuba Lightning wallet y’ububiko ishobora kugufasha kohereza, kwakira no
 
 
 
-Genda ku rubuga rwa [Voltz](https://www.voltz.com/ru) maze ukore konti ukanda kuri buto ya "Gerageza ubu".
+Genda ku rubuga rwa [Voltz](https://www.lnvoltz.xyz/en) maze ukore konti ukanda kuri buto ya "Gerageza ubu".
 
 
 

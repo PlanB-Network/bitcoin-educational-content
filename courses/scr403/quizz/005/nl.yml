@@ -1,0 +1,11 @@
+question: Wat doet de 'take'-combinator?
+answer: Hij haalt de linkse component van een product op, en verwerpt de rechtse.
+wrong_answers:
+  - Hij verwijdert een element uit een somtype en verwerpt daarbij de tagbit.
+  - Hij voegt twee afzonderlijke bewerkingen sequentieel end-to-end samen.
+  - Hij wikkelt een waarde in een linkse tag om een nieuw somtype op te bouwen.
+explanation: >-
+  De take-combinator is een extractor voor producttypes. Gegeven take f
+  toegepast op een paar ⟨a, b⟩, verwerpt het b en past het f toe op a. In
+  combinatie met iden haalt take iden het eerste element van elk paar op.
+reviewed: false

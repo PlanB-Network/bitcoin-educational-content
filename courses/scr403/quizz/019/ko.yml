@@ -1,0 +1,14 @@
+question: SimplicityHL이란 무엇이며 왜 필요한가?
+answer: 네이밍과 스코프를 관리하며 Simplicity로 컴파일되는 고수준 언어.
+wrong_answers:
+  - Simplicity를 실행하는 ASIC를 채굴하기 위한 하드웨어 기술 언어.
+  - Simplicity 컴비네이터를 서로 연결하기 위한 그래픽 드래그 앤 드롭 IDE.
+  - 안전한 샌드박스 내에서 Simplicity 프로그램을 실행하기 위한 테스트 프레임워크.
+explanation: >-
+  원시(raw) Simplicity는 모든 데이터 접근을 중첩된 take/drop 컴비네이터를
+  통해 해야 하기 때문에 프로덕션 수준의 복잡도에서는 이해하기 어려워진다. SimplicityHL은
+  익숙한 프로그래밍 구성 요소 — 명명된 변수, 스코핑, 라이브러리
+  임포트, 제어 흐름 — 를 제공하며, 이는 Simplicity 컴비네이터
+  표현식으로 컴파일된다. 최종 사용자는 SimplicityHL을 작성하고, Simplicity는
+  형식적으로 검증된 컴파일 대상 역할을 한다.
+reviewed: false

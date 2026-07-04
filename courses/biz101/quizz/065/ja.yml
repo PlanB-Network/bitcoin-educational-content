@@ -1,9 +1,9 @@
-question: エッセンシャル・プロファイル・ビジネスに推奨される主な決済ソリューションは何ですか？
-answer: スイス・ビットコイン・ペイ
+question: エッセンシャル・プロファイルのビジネスに推奨される主な決済ソリューションは何ですか？
+answer: Swiss Bitcoin Pay
 wrong_answers:
-  - オープンノード
-  - BTCPayサーバー
-  - ビットコイン化PoS
+  - OpenNode
+  - BTCPay Server
+  - Bitcoinize PoS
 explanation: |
-  スイス・ビットコイン・ペイは、シンプルさと安全性のバランスが取れた、エッセンシャル・プロファイルにお勧めのソリューションです。
+  Swiss Bitcoin Payは、シンプルさと安全性のバランスが取れた、エッセンシャル・プロファイルにお勧めのソリューションです。
 reviewed: false

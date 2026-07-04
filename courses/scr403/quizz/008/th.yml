@@ -1,0 +1,12 @@
+question: ปฏิบัติการ logical AND ทำงานอย่างไรใน Simplicity?
+answer: มัน branch ตามบิตแรก — ถ้าเป็น false จะคืน false ไม่เช่นนั้นจะคืนบิตที่สอง.
+wrong_answers:
+  - มันคูณค่า boolean ทั้งสองเข้าด้วยกันโดยใช้ product type.
+  - มันใช้ lookup table ที่มีชุดอินพุตที่เป็นไปได้ทั้งสี่แบบ.
+  - มันใช้ XOR combinator แล้วจึงใช้ NOT combinator กับผลลัพธ์.
+explanation: >-
+  AND นิยามเป็น case (injl unit) (drop iden) case combinator จะ branch
+  ตามบิตแรก หากเป็น false (ติด tag ซ้าย) injl unit จะคืน false โดยไม่สนใจ
+  บิตที่สอง หากเป็น true (ติด tag ขวา) drop iden จะคืนบิตที่สองโดยไม่เปลี่ยนแปลง
+  สิ่งนี้ตรงกับ truth table ของ AND.
+reviewed: false

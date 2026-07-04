@@ -1,0 +1,12 @@
+question: Cos'è un tipo somma (A + B) in Simplicity?
+answer: "Un'unione taggata: un valore è o un A taggato a sinistra o un B taggato a destra."
+wrong_answers:
+  - Un tipo che contiene tutti i valori di entrambi A e B simultaneamente.
+  - Una somma aritmetica delle dimensioni in bit dei due tipi componenti.
+  - Un tipo funzione che mappa ogni input di A in un output di B.
+explanation: >-
+  Un tipo somma A + B è un'unione taggata. Ogni valore porta un tag di un
+  bit che indica se si tratta di una variante sinistra (di tipo A) o di una
+  variante destra (di tipo B). Anche quando A e B sono lo stesso tipo, i
+  valori taggati a sinistra e quelli taggati a destra rimangono distinti.
+reviewed: false

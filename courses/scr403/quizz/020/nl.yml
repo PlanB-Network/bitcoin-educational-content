@@ -1,0 +1,12 @@
+question: "Wat zijn de twee neveneffecten die in Simplicity worden gebruikt voor Bitcoin- en Liquid-toepassingen?"
+answer: "Het Failure-effect (een exception van type 1) en het Reader-effect (toegang tot transactieomgevingsdata)."
+wrong_answers:
+  - "Het State-effect (mutabele variabelen) en het Writer-effect (loggen naar een transactielog)."
+  - "Het IO-effect (netwerkcommunicatie) en het Memory-effect (dynamische geheugentoewijzing)."
+  - "Het Continuation-effect (callbacks) en het Nondeterminism-effect (meerdere uitvoeringspaden)."
+explanation: >-
+  Simplicity gebruikt precies twee neveneffecten voor blockchaintoepassingen. Het Failure-effect
+  laat berekeningen afbreken (bijvoorbeeld wanneer een handtekeningcontrole faalt), en het
+  Reader-effect laat expressies data lezen uit de transactieomgeving. De kerncombinators blijven
+  puur — neveneffecten worden geïntroduceerd via jets.
+reviewed: true

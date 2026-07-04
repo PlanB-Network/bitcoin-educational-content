@@ -1,0 +1,12 @@
+question: Wat levert sequentiële compositie op bij het aan elkaar koppelen van bewerking f (A → B) met bewerking g (B → C)?
+answer: Eén enkele samengestelde bewerking van A naar C, waarbij de uitvoer van f de invoer van g wordt.
+wrong_answers:
+  - Een paarwaarde die zowel de tussenliggende uitvoer van type B als C bevat.
+  - Een voorwaarde die op basis van de invoer kiest tussen f en g.
+  - Twee afzonderlijke bewerkingen die onafhankelijk draaien, zonder gedeelde data.
+explanation: >-
+  Sequentiële compositie koppelt twee bewerkingen end-to-end. De uitvoer van de
+  eerste bewerking wordt de invoer van de tweede. In Simplicity wordt dit
+  uitgedrukt met de comp-combinator: comp f g past eerst f toe, en dan g op
+  het resultaat.
+reviewed: false

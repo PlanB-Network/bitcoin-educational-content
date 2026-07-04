@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden) හි type එක කුමක්ද, සහ එය denoting කරන function එක කුමක්ද?
+answer: A × B ⊢ B × A — එය pair එකක components දෙක මාරු කරයි.
+wrong_answers:
+  - A × B ⊢ A × B — එය components දෙකම වෙනස් නොකර pass through කරයි (identity).
+  - "Ill-typed: take iden සහ drop iden ට වෙනස් output types ඇත, pair ට ඒවා merge කළ නොහැක."
+  - (A × B) × (A × B) ⊢ B × A — pair එහි subexpressions දෙකේ input types merge කරයි.
+explanation: >-
+  drop iden : A × B ⊢ B දෙවන component එක extract කරයි, සහ take iden : A ×
+  B ⊢ A පළමු component එක extract කරයි. pair combinator එකට අවශ්‍ය වන්නේ එහි subexpressions දෙක
+  එකම input type එක share කිරීම පමණි (මෙහි A × B); ඒවායේ outputs වෙනස් විය හැකි අතර,
+  pair එකක් ලෙස return වේ. ⟨a, b⟩ input එකේදී expression එක
+  එබැවින් ⟨b, a⟩ ලබා දෙයි: swap function එක, type A × B ⊢ B × A.
+reviewed: false

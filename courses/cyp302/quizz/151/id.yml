@@ -6,3 +6,4 @@ wrong_answers:
   - Harus sama dengan φ(N)
 explanation: |
   Dalam RSA, eksponen e dipilih sedemikian rupa sehingga lebih besar dari 2 dan koprima dengan φ(N), yang menjamin keamanan operasi.
+reviewed: true

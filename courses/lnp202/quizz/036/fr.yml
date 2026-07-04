@@ -5,5 +5,5 @@ wrong_answers:
   - Absence de demande
   - Manque de liquidité globale
 explanation: |
-  Les frais onchain, la concurrence et l’exigence opérationnelle rendent la rentabilité de l'activité de routage incertaine.
-reviewed: false
+  Les frais on-chain, la concurrence et l’exigence opérationnelle rendent la rentabilité de l'activité de routage incertaine.
+reviewed: true 

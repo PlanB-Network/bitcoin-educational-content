@@ -1,0 +1,11 @@
+question: "Jaký je typ programu Simplicity?"
+answer: 1 ⊢ 1 (unit na unit) — žádný smysluplný vstup ani výstup; I/O obstarávají vedlejší efekty.
+wrong_answers:
+  - TxEnv ⊢ Bool — přijímá data transakce a vrací boolean platnosti.
+  - 2^256 ⊢ 2^256 — přijímá vstupní hash a vrací novou výstupní hodnotu hashe.
+  - Libovolný typ A ⊢ B — programy mohou mít zcela libovolné vstupní a výstupní typy.
+explanation: >-
+  Program Simplicity je definován jako výraz typu 1 ⊢ 1. Efekt Reader zachycuje
+  vstup prostředí transakce, zatímco efekt Failure určuje úspěch nebo neúspěch.
+  Veškeré I/O obstarávají tyto vedlejší efekty, nikoli samotné typy Simplicity.
+reviewed: true

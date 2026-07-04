@@ -1,0 +1,16 @@
+question: Half-agg-verify jet logib korteežide hulga Writer-kõrvalefektina. Mida hulga disain kommutatiivsuse/idempotentsuse/unitaarsuse testi järgi saavutab ja mis on endiselt puudu?
+answer: "Kommutatiivne ja idempotentne (nagu Simplicity nõuab), kuid mitte unitaarne: kutse kõrvale jätmine eemaldaks selle korteeži ja jätaks ühe allkirja vahele."
+wrong_answers:
+  - Idempotentne ja unitaarne, kuid mitte kommutatiivne, sest agregaat peab r-komponente allkirjastamisjärjekorras ühendama.
+  - Kõik kolm, seega võib optimeerija kutseid riskita vabalt dubleerida, ümber järjestada või kõrvale jätta.
+  - Kommutatiivne, kuid mitte idempotentne, sest sama korteeži kaks korda logimine nõuaks kaht agregaatset s-komponenti.
+explanation: >-
+  Writeri logi käsitlemine hulgana teeb efekti idempotentseks ja
+  kommutatiivseks, sest hulka lisamisel endal on mõlemad omadused — täpselt
+  need kaks, mida Simplicity igalt efektilt nõuab. Unitaarsus jääb endiselt
+  kättesaamatuks: nagu Failure, mõjutab kirjutamine tehingu kehtivust, sest
+  tehing kehtib ainult siis, kui agregaatne s-komponent katab iga logitud
+  korteeži. Kirjutust sooritavat avaldist ei saa seega kõrvale jätta pelgalt
+  seetõttu, et selle ühikväljundit ei kasutata, kuna selle korteež kaoks
+  poolagregeerimise verifitseerimisest vaikselt.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Simplicity unbounded recursion බැහැර කරයි. unbounded iteration සඳහා එහි අභිප්‍රේත ආදේශකය කුමක්ද?
+answer: සෑම transaction එකකම cost එක පුරෝකථනය කළ හැකි ලෙස තබා ගනිමින්, computation එක multiple transactions හරහා විහිදුවන recursive covenants.
+wrong_answers:
+  - single transaction එකක් තුළ unbounded recursion හි metered ආකාරයක් ලබා දීමට විශේෂයෙන් නිර්මාණය කළ delegation feature එක.
+  - core combinators නවය, ඒවායේ completeness මඟින් fixed-point construction එකකට ඕනෑම recursive function එකක් encode කිරීමට ඉඩ දෙයි.
+  - compile-time loop unrolling, එහිදී static analysis මඟින් maximum iteration count එක අනුමාන කර body එක duplicate කරයි.
+explanation: >-
+  unbounded iteration, multiple transactions හරහා ගණනය කරන recursive covenants
+  ලෙස implement කිරීම වඩා හොඳ බව article එකෙහි thesis එකයි, එය
+  block-space සහ standardness constraints වළක්වා transaction
+  costs පුරෝකථනය කළ හැකි කරයි. Delegation, unbounded recursion එකකට සමාන
+  යමක් නිපදවීමට අනිසි ලෙස පමණක් භාවිත කළ හැක — එය අභිප්‍රේත යාන්ත්‍රණය නොවේ — සහ
+  core combinators නවය finite computations සඳහා පමණක් complete වන නිසා,
+  single program එකක් තුළ fixed-point construction එකක් නොපවතී.
+reviewed: false

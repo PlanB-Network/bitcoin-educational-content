@@ -1,0 +1,16 @@
+question: Bir half-agg-verify jet, bir demet kümesini Writer etkisi olarak kaydeder. Değişmeli/idempotent/birimsel testi altında, küme tasarımı neyi başarır ve hâlâ ne eksiktir?
+answer: "Değişmeli ve idempotent (Simplicity tarafından gerektirildiği gibi), ama birimsel değil: bir çağrıyı atmak onun demetini düşürür ve bir imza denetimini atlar."
+wrong_answers:
+  - İdempotent ve birimsel, ama değişmeli değil; çünkü aggregate, r-bileşenlerini imzalama sırasına göre birleştirmelidir.
+  - Üçü de geçerlidir; bu yüzden bir optimizer çağrıları risk olmadan serbestçe çoğaltabilir, yeniden sıralayabilir veya atabilir.
+  - Değişmeli ama idempotent değil; çünkü aynı demeti iki kez kaydetmek iki aggregate s-bileşeni gerektirir.
+explanation: >-
+  Writer günlüğünü bir küme olarak ele almak etkiyi idempotent ve değişmeli
+  yapar; çünkü kümeye eklemenin kendisi bu iki özelliğe sahiptir — tam da
+  Simplicity tarafından her etkiden talep edilen iki özellik. Birimsellik ise hâlâ
+  ulaşılamazdır: Failure gibi, yazma işlemi işlem geçerliliğini etkiler;
+  çünkü işlem ancak bir aggregate s-bileşeni kaydedilen her demeti kapsarsa
+  geçerlidir. Bu nedenle yazmayı yapan bir ifade, unit çıktısı
+  kullanılmıyor diye atılamaz; çünkü demeti sessizce half-aggregation
+  doğrulamasından kaybolurdu.
+reviewed: false

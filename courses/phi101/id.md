@@ -25,7 +25,7 @@ Dari Zaman Kuno hingga Pencerahan, kebebasan meningkat seiring masyarakat merang
 
 Selamat datang di kursus PHI101!
 
-Pelatihan ini mengundang Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
+Kursus ini mengajak Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
 
 **Bagian 1: Kebebasan atau Kekuasaan**  
 Kami akan memulai dengan tinjauan tentang dua filosofi politik utama yang telah menandai sejarah: kebebasan dan kekuasaan. Bagian ini akan mengkaji pandangan para pemikir seperti Frédéric Bastiat tentang produksi versus perampasan, Lord Acton yang melihat kebebasan sebagai penggerak sejarah, Karl Marx dengan teori perjuangan kelasnya, dan Murray Rothbard yang menentang negara terhadap masyarakat. Pengantar konseptual ini akan memberikan kerangka analisis untuk periode-periode sejarah.
@@ -65,6 +65,7 @@ Mengapa memberi judul kursus ini: sejarah kebebasan? Karena kita perlu memahami 
 
 Pada saat yang sama, Auguste Comte berkata: "Seseorang tidak sepenuhnya mengenal sebuah ilmu sampai seseorang mengenal sejarahnya." Kebenaran ini dapat diterapkan pada ide kebebasan.
 Memang, kebebasan bukanlah ide baru. Ini adalah warisan yang diturunkan dari generasi ke generasi. Seluruh sejarah peradaban menjadi saksi perjuangan tanpa henti untuk kebebasan.
+
 ![image](assets/id/002.webp)
 
 Namun, tujuan dari kursus ini bukan hanya untuk menerangi sejarah kebebasan, tetapi juga, dan yang lebih penting, untuk mengembangkan penilaian kritis. Memang, sejarah saja tidak cukup untuk menilai masa kini dan masa depan. Ini perlu disertai dengan refleksi kritis dan penilaian terhadap kesalahan masa lalu. Inilah kontribusi filsafat. Itulah mengapa saya memberi judul kursus ini: sejarah filsafat tentang kebebasan. Memang tentang mengeksplorasi bagaimana filsuf telah memahami kebebasan sepanjang zaman.
@@ -76,6 +77,7 @@ Dari asal-usulnya, memiliki tujuan ganda:
 - Pertama, adalah untuk memberikan makna pada konsep yang samar dan bingung. Apa yang baik, benar, adil, indah? Sama seperti fungsi sejarah adalah untuk menerangi masa lalu, demikian pula filsafat adalah seni mendefinisikan konsep dengan benar. Itulah mengapa kita perlu memulai kursus ini dengan memahami apa itu kebebasan.
 
 ![image](assets/id/003.webp)
+
 Kebebasan adalah konsep yang mencakup berbagai varian, yang semuanya merupakan kemungkinan deklinasi dari realitas yang sama: kebebasan politik, kebebasan ekonomi, kebebasan hati nurani, kebebasan berbicara, kebebasan beragama, kebebasan berserikat, dan lain-lain. Realitas apa yang kita bicarakan?
 
 Kebebasan dapat didefinisikan secara sederhana sebagai kekuatan untuk memilih, dengan apa yang dimiliki oleh diri sendiri. Ini adalah kemampuan bawaan dari manusia. Ini adalah realitas yang pada dasarnya individual. Hanya individu yang dapat berpikir dan bertindak, yaitu, membuat pilihan. Ini tidak berarti bahwa individu itu sendirian, bahwa dia tidak berhutang apa-apa kepada orang lain. Sebaliknya, dia hidup dalam masyarakat dan harus bekerja sama dengan orang lain demi kebaikannya sendiri. Namun, setiap orang tetap bebas untuk bekerja sama atau tidak dan harus menanggung tanggung jawab atas pilihannya.
@@ -100,6 +102,7 @@ Mereka yang membela filsafat pertama di Prancis adalah Fisiokrat, dengan Franço
 > Bukan karena ada hukum yang ada properti, tetapi karena ada properti yang ada hukum. (_Property and Law_).
 
 ![image](assets/id/005.webp)
+
 Untuk Turgot dan Say, murid-murid Quesnay, terdapat hukum alam yang independen dari keinginan para legislator, yang berlaku untuk semua orang dan mendahului setiap masyarakat. Filsafat ini langsung berasal dari skolastisisme abad pertengahan, Stoik, Aristoteles, dan Sophocles. Hukum yang tidak tertulis baik sebelum maupun lebih unggul dari hukum tertulis karena mereka berasal dari sifat manusia dan akal.
 
 ![image](assets/id/006.webp)
@@ -149,7 +152,8 @@ Bastiat memberi tahu kita masih ada dua bentuk perampasan legal:
 > Perampasan eksternal disebut perang, penaklukan, koloni. Perampasan internal disebut pajak, posisi, monopoli. ([_Cobden and the League_](http://bastiat.org/fr/introduction_cobden_ligue.html), Pendahuluan).
 
 Dalam [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html), dia menjelaskan lebih lanjut:
-Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Ini secara formal dikecam oleh Dekalog: Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
+
+Hukum yang benar dan adil bagi manusia adalah: Pertukaran layanan secara bebas yang diperdebatkan. Perampasan terdiri dari pelarangan dengan kekerasan atau penipuan kebebasan berdebat untuk menerima layanan tanpa memberikan satu pun. Perampasan dengan kekerasan dilakukan sebagai berikut: Seseorang menunggu orang lain menghasilkan sesuatu, kemudian merebutnya dari dia, dengan senjata di tangan. Sepuluh Perintah Allah secara resmi mengutuknya: Jangan mencuri. Ketika itu terjadi dari individu ke individu, itu disebut pencurian dan mengarah ke penjara; ketika itu dari bangsa ke bangsa, itu disebut penaklukan dan mengarah ke kemuliaan.
 
 ### Sejarah Perampasan
 
@@ -250,6 +254,7 @@ Mises menambahkan bahwa peningkatan kondisi manusia dengan demikian dimungkinkan
 > Mengenai historiografi Marxis, kita juga bisa merujuk ke Friedrich Hayek dalam _Kapitalisme dan Para Sejarawan_ (University of Chicago Press, 1954) dan babnya yang berjudul "Sejarah dan Politik". Menurut Hayek, bukan industrialisasi yang membuat pekerja menderita, seperti legenda gelap kapitalisme yang dipropagandakan oleh Marxisme mengklaim. Dia mencatat:
 > Sejarah nyata hubungan antara kapitalisme dan munculnya proletariat hampir kebalikan dari apa yang teori-teori ekspropriasi massa ini sarankan.
 > Sebelum Revolusi Industri, sebagian besar orang hidup di masyarakat pedesaan dan bergantung pada pertanian untuk kelangsungan hidup mereka. Mereka memiliki sedikit untuk dijual di pasar, yang membatasi peluang mereka dan standar hidup mereka. Semua orang mengharapkan untuk hidup dalam kemiskinan absolut dan membayangkan nasib serupa untuk keturunannya. Tidak ada yang merasa marah oleh situasi yang tampaknya tidak terhindarkan.
+
 > ![image](assets/id/015.webp)
 
 Dengan munculnya industrialisasi, peluang baru muncul, menciptakan permintaan yang meningkat untuk tenaga kerja. Untuk pertama kalinya, orang-orang tanpa tanah atau sumber daya signifikan dapat menjual tenaga kerja mereka ke pabrik dan perusahaan manufaktur sebagai imbalan untuk upah, memastikan keamanan untuk masa depan.
@@ -316,6 +321,7 @@ Dari abad ke-17 hingga abad ke-19, di banyak negara Barat, terdapat periode perc
 
 > Selama abad ini, umat manusia menghadapi, sekali lagi, pemerintahan yang ganas dari Negara; Negara kini bersenjatakan kekuatan kreatif manusia, yang disita dan dipergunakan untuk tujuan-tujuannya sendiri.
 > Apa itu masyarakat bebas, setelah semua? Ini adalah masyarakat tanpa monopoli. Dalam karyanya tentang filsafat politik, _Ethics of Liberty_ (1982), Rothbard menjawab: "masyarakat di mana tidak ada kemungkinan hukum agresi paksa terhadap pribadi atau properti seseorang." Inilah sebabnya, menurutnya, filsafat politik, yang harus mendefinisikan prinsip-prinsip masyarakat yang adil, pada dasarnya bermuara pada satu pertanyaan: "Siapa yang secara sah memiliki apa?"
+
 > ![image](assets/id/019.webp)
 
 Bagi Rothbard, tatanan sosial dapat bertahan jika itu adalah produk dari generalisasi prosedur kontraktual untuk pertukaran bebas hak milik, dengan memprivatisasi semua aktivitas ekonomi dan bahkan fungsi kedaulatan (bank sentral, pengadilan) dan dengan mengadopsi persaingan di antara agen-agen perlindungan.
@@ -337,6 +343,7 @@ Dan dia menambahkan:
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
 Pengalaman demokrasi Athena telah meninggalkan bekas yang abadi dalam sejarah pemikiran politik dan terus menginspirasi ideal-ideal demokrasi dan partisipasi warga di dunia saat ini.
+
 ![image](assets/id/020.webp)
 
 Demokrasi Athena ditandai dengan debat publik yang hidup mengenai urusan kota, yang terutama berlangsung di agora, pasar. Mode operasi ini, yang berdasarkan pada alasan dan diskusi kritis, sangat bertentangan dengan praktik sebelumnya di mana hukum dan adat dianggap sakral dan tidak dapat diubah, diturunkan oleh leluhur dan dilindungi oleh dewa-dewa.
@@ -344,6 +351,7 @@ Demokrasi Athena ditandai dengan debat publik yang hidup mengenai urusan kota, y
 ### Kelahiran politik bersama kota
 
 Demokrasi Athena mewakili sebuah pemisahan besar dari tradisi masa lalu. Memang, dalam masyarakat sebelumnya, tidak bisa ada "politik" dalam arti diskusi tentang aturan sosial, karena ini diberlakukan secara transenden oleh mitos.
+
 ![image](assets/id/021.webp)
 
 Sejarawan Jean-Pierre Vernant menulis:
@@ -410,9 +418,10 @@ Menjauh dari pemikiran mitologis, Thales, Anaximander, Anaximenes, dan kemudian 
 Prinsip dasar yang diajukan oleh para filsuf Pra-Sokratik awal ini adalah bahwa elemen-elemen dari kosmos (alam semesta) bertahan karena mereka semua sama-sama tunduk pada "hukum alam" (phusis) yang sama yang dapat dinyatakan secara universal dan perlu. Alam semesta adalah rasional, ia merupakan keseluruhan yang terstruktur, yang dapat ditemukan manusia dengan akalnya (logos sebagai lawan dari mutos, mitos).
 
 Menurut Karl Popper, kita berhutang kepada para filsuf Yunani kuno, khususnya Pra-Sokratik, penemuan rasionalisme kritis, yaitu, tradisi Barat diskusi kritis, sumber pemikiran ilmiah dan pluralisme. Dia menjelaskan ini dalam sebuah bab dari _Conjectures and Refutations_ berjudul "Kembali ke Pra-Sokratik":
-Mengenai tanda-tanda pertama dari keberadaan sikap kritis, kebebasan berpikir yang baru, mereka muncul dalam kritik Anaximander terhadap Thales. Ini adalah fenomena yang cukup unik, pemikir yang dikritik Anaximander adalah gurunya, senegaranya, salah satu dari Tujuh Bijak, orang yang mendirikan Sekolah Ionia. Menurut tradisi, Anaximander hanya empat belas tahun lebih muda dari Thales, dan dia kemungkinan merumuskan kritiknya dan menyajikan konsep-konsep baru selama masa hidup gurunya (mereka meninggal, tampaknya, beberapa tahun terpisah). Namun, tidak ada bukti perselisihan, pertengkaran, atau skisma yang ditemukan dalam sumber-sumber.
+Mengenai tanda-tanda pertama dari keberadaan sikap kritis, kebebasan berpikir yang baru, mereka muncul dalam kritik Anaximander terhadap Thales. Ini adalah fenomena yang cukup unik, pemikir yang dikritik Anaximander adalah gurunya, senegaranya, salah satu dari Tujuh Bijak, orang yang mendirikan Sekolah Ionia. Menurut tradisi, Anaximander hanya empat belas tahun lebih muda dari Thales, dan dia kemungkinan merumuskan kritiknya dan menyajikan konsep-konsep baru selama masa hidup gurunya (mereka meninggal, tampaknya, beberapa tahun terpisah). Namun, tidak ada bukti perselisihan, pertengkaran, atau perpecahan yang ditemukan dalam sumber-sumber.
 
 ![image](assets/id/027.webp)
+
 Elemen-elemen ini menunjukkan, menurutnya, bahwa Thales adalah orang yang memulai tradisi kebebasan baru ini, berdasarkan hubungan asli antara guru dan murid. Thales mampu mentolerir kritik dan, lebih dari itu, ia menetapkan tradisi untuk mengakui kritik tersebut. Popper mengidentifikasi di sini sebuah pergeseran dari tradisi dogmatis, yang hanya memperbolehkan satu doktrin sekolah, untuk digantikan dengan pluralisme dan fallibilisme.
 
 > Upaya kita untuk memahami dan menemukan kebenaran tidak definitif tetapi mampu diperbaiki, pengetahuan kita, badan doktrin kita bersifat konjektural, terbuat dari asumsi, hipotesis, dan bukan dari kebenaran yang pasti dan final.
@@ -453,7 +462,9 @@ Akhirnya, hukum Romawi memberikan perhatian besar pada hak dan kebebasan individ
 Hukum ini secara mengejutkan sesuai dengan hak-hak alamiah fundamental sebagaimana diteorikan oleh John Locke dua ribu tahun kemudian. Ini memungkinkan perlindungan hak individu terhadap sewenang-wenang dan penyalahgunaan kekuasaan.
 
 Tentu saja, wanita, budak, dan orang asing masih dikecualikan dari perlindungan hukum penuh. Namun demikian, Hukum Dua Belas Tabel mewakili kemajuan yang signifikan dan dasar untuk pengembangan lebih lanjut dari hak-hak individu yang diperluas untuk semua.
+
 ![image](assets/id/030.webp)
+
 Hukum Dua Belas Tabel secara khusus menempatkan pentingnya hak atas properti:
 
 - Ini mendefinisikan berbagai jenis properti (tanah, bergerak, dll.)
@@ -478,7 +489,7 @@ Treatise on the Happy Life (_De Vita Beata_) adalah pembelaan untuk moralitas St
 
 ![image](assets/id/031.webp)
 
-Namun, kesenangan tidak tidak sesuai dengan kebajikan:
+Namun, kesenangan tidak bertentangan dengan kebajikan:
 
 > Para leluhur menyarankan hidup terbaik, bukan yang paling menyenangkan, dengan cara sehingga kesenangan bukanlah panduan dari kehendak yang benar, tetapi temannya di jalan.
 
@@ -508,6 +519,7 @@ Ketika Antigone mendurhakai Creon, ia menentang hukum positif untuk mematuhi hat
 Cicero hidup pada abad ke-1 SM dan dianggap sebagai orator terbesar bahasa Latin di bawah Kekaisaran Romawi. Ia juga seorang filsuf moral dan politik yang dekat dengan para Stoik. Esainya telah dibaca oleh orang Eropa terpelajar selama berabad-abad.
 
 ![image](assets/id/033.webp)
+
 Dalam risalahnya _Tentang Hukum_ (_De Legibus_), ia merenungkan tentang dasar hukum. Menurutnya, hukum positif, kumpulan konvensi atau hukum tertulis yang diadopsi oleh suatu masyarakat, tidak dapat menetapkan keadilan yang layak disebut demikian. Ada keadilan alami, tertulis dalam akal manusia: "hukum memiliki dasar dalam alam itu sendiri." Mengatakan bahwa adil dan tidak adil adalah hasil dari konvensi adalah mengatakan bahwa kebenaran didekretkan. Namun, kebenaran tidak dapat didekretkan, bahkan oleh mayoritas, itu memandu penilaian kita.
 Cicero juga menolak utilitas sebagai dasar hukum. Memang, ia menulis:
 
@@ -518,7 +530,7 @@ Hukum yang sejati adalah akal budi yang sejalan dengan alam; ia berlaku secara u
 Hukum ini lebih unggul dari perundang-undangan yang berlaku, oleh karena itu, "ia tidak dapat dibatalkan oleh undang-undang lain, tidak ada satu pun dari ajarannya yang dapat dikurangi, dan tidak dapat sepenuhnya dihapuskan," tambah Cicero. Kekuatan politik tidak memiliki pegangan atasnya.
 
 Baik kebenaran maupun keadilan tidak dapat didekretkan, bahkan oleh mayoritas, karena jika tidak, mereka menjadi objek dari semua manipulasi. Oleh karena itu, meskipun penguasanya adalah rakyat, tidak benar untuk melanggar prinsip-prinsip hukum alam.
-Dengan menyatakan bahwa hukum tidak dapat direduksi menjadi hanya statuta yang diberlakukan oleh legislatif, Cicero bertujuan untuk melawan sewenang-wenang legislatif dan mengusulkan moralitas politik. Ide ini telah memiliki pengaruh yang berlangsung lama pada pemikiran Barat.
+Dengan menyatakan bahwa hukum tidak dapat direduksi hanya pada undang-undang yang disahkan oleh badan legislatif, Cicero bertujuan untuk melawan sewenang-wenang legislatif dan mengusulkan moralitas politik. Ide ini telah memiliki pengaruh yang berlangsung lama pada pemikiran Barat.
 
 ## Kebangkrutan Roma
 
@@ -554,14 +566,14 @@ Kemudian, ketidakstabilan politik ditambahkan ke dalam ketidakstabilan ekonomi, 
 
 ### Kontrol Harga
 
-Sebuah contoh klasik dari intervensionisme muncul di Roma ketika Kaisar Diokletian ingin menetapkan batas harga. Intervensionisme didefinisikan sebagai tindakan kekuatan yang melampaui perannya dalam menjaga ketertiban dan melindungi warga negara. Ini adalah upaya untuk mengontrol pasar, dengan tujuan untuk memodifikasi harga, upah, suku bunga, dan keuntungan.
+Sebuah contoh klasik dari intervensionisme muncul di Roma ketika Kaisar Diocletianus ingin menetapkan batas harga. Intervensionisme didefinisikan sebagai tindakan kekuatan yang melampaui perannya dalam menjaga ketertiban dan melindungi warga negara. Ini adalah upaya untuk mengontrol pasar, dengan tujuan untuk memodifikasi harga, upah, suku bunga, dan keuntungan.
 
 ![image](assets/id/035.webp)
 
-Emisi moneter berulang oleh kaisar-kaisar berikutnya untuk mengatasi peningkatan pengeluaran militer telah menyebabkan lonjakan harga. Pada tahun 301, Diokletian mengumumkan Edik Maksimum dalam upaya untuk menetapkannya. Itu adalah kegagalan.
+Emisi moneter berulang oleh kaisar-kaisar berikutnya untuk mengatasi peningkatan pengeluaran militer telah menyebabkan lonjakan harga. Pada tahun 301, Diocletianus mengeluarkan Edict of Maximum sebagai upaya untuk membatasinya. Namun, kebijakan itu gagal.
 
 Ludwig von Mises menggambarkan episode ini, yang dengan baik mengilustrasikan efek buruk dari intervensionisme:
-Kaisar Romawi Diokletian terkenal karena telah menjadi kaisar Romawi terakhir yang mempersekusi orang Kristen. Kaisar-kaisar Romawi, pada bagian akhir abad ketiga, hanya memiliki satu metode keuangan, yaitu merusak mata uang. Pada masa primitif ini, sebelum penemuan mesin cetak, inflasi itu sendiri bersifat primitif, bisa dikatakan. Ini melibatkan penipuan dalam pencetakan koin, terutama perak, sampai warna paduan berubah dan beratnya secara signifikan berkurang. Hasil dari penurunan nilai mata uang ini, dikombinasikan dengan peningkatan yang sesuai dalam peredaran, adalah kenaikan harga, diikuti oleh sebuah edik kontrol harga. Dan kaisar-kaisar Romawi tidak menahan diri dalam menegakkan hukum; mereka tidak menganggap kematian sebagai hukuman yang terlalu berat bagi seorang pria yang telah meminta harga terlalu tinggi. Mereka menegakkan kontrol harga, tetapi sebagai konsekuensinya, mereka menurunkan masyarakat. Ini pada akhirnya menyebabkan disintegrasi Kekaisaran Romawi, dan juga kepada keruntuhan pembagian kerja.
+Kaisar Romawi Diocletianus terkenal karena telah menjadi kaisar Romawi terakhir yang mempersekusi orang Kristen. Kaisar-kaisar Romawi, pada bagian akhir abad ketiga, hanya memiliki satu metode keuangan, yaitu merusak mata uang. Pada masa primitif ini, sebelum penemuan mesin cetak, inflasi itu sendiri bersifat primitif, bisa dikatakan. Ini melibatkan penipuan dalam pencetakan koin, terutama perak, sampai warna paduan berubah dan beratnya secara signifikan berkurang. Hasil dari penurunan nilai mata uang ini, dikombinasikan dengan peningkatan yang sesuai dalam peredaran, adalah kenaikan harga, diikuti oleh sebuah edik kontrol harga. Dan kaisar-kaisar Romawi tidak menahan diri dalam menegakkan hukum; mereka tidak menganggap kematian sebagai hukuman yang terlalu berat bagi seorang pria yang telah meminta harga terlalu tinggi. Mereka menegakkan kontrol harga, tetapi sebagai konsekuensinya, mereka menurunkan masyarakat. Ini pada akhirnya menyebabkan disintegrasi Kekaisaran Romawi, dan juga kepada keruntuhan pembagian kerja.
 ([Economic Policy, Reflections for Today and Tomorrow](http://herve.dequengo.free.fr/Mises/PE/PE_3.htm))
 
 ### Dari Liberalisme ke Sosialisme
@@ -622,6 +634,7 @@ Singkatnya, kebebasan adalah suatu kebaikan karena memungkinkan seseorang untuk 
 ### Tuhan tidak melakukan kebaikan di tempat kita
 
 Dalam teologi abad pertengahan, providensi bukanlah intervensi konstan dari Tuhan dalam kehidupan manusia, seolah-olah Tuhan bertindak di tempat kita dan tanpa persetujuan kita. Sebaliknya, Tuhan memberikan kepada setiap makhluk, sesuai dengan sifatnya, kemampuan yang memungkinkannya untuk menyediakan bagi dirinya sendiri dan dengan demikian mencapai pengembangan penuhnya. Tuhan tidak melakukan kebaikan untuk makhluknya sebagai gantinya.
+
 ![image](assets/id/038.webp)
 
 Dan semakin tinggi kita naik dalam skala makhluk, dari mineral hingga manusia, semakin banyak Tuhan mendelegasikan kepada makhluk-Nya kekuatan untuk bertindak sendiri. Dia mempercayakan manusia dengan kebebasan untuk mengatur dirinya sendiri dan mengatur dunia dengan akalnya, sesuai dengan kebajikan kehati-hatian.
@@ -699,7 +712,7 @@ Pertanyaan tentang hubungan antara politik dan agama terbentuk dengan karya Sant
 Dua cinta telah membuat dua kota: cinta diri sendiri dengan menghina Tuhan, kota duniawi; cinta kepada Tuhan, dengan menghina diri sendiri, kota surgawi.
 ![image](assets/id/042.webp)
 
-Kita memiliki, oleh karena itu:
+Oleh karena itu, kita memiliki:
 
 - Sebuah kekuatan spiritual yang berasal dari Tuhan diwujudkan oleh Paus dan dilaksanakan atas seluruh Kekristenan (ini adalah Kota Allah).
 - Kota manusia, yang bersifat duniawi dan terdiri dari kekuatan lokal dan temporal. Ini berasal dari dosa asal, dari Kejahatan.
@@ -873,6 +886,7 @@ Dalam _Surat Kesepuluh_, "Tentang Perdagangan", Voltaire menggambarkan pola piki
 Namun, Prancis tidak kekurangan pikiran besar. Ini sedikit diketahui tetapi Anne Robert Jacques Turgot, Baron de Laulne pertama-tama adalah pemikir terkemuka sebelum menjadi Pengawas Umum Keuangan di bawah Louis XVI. Dia adalah penulis sebuah risalah cemerlang tentang ekonomi politik, _Refleksi tentang Pembentukan dan Distribusi Kekayaan_ (1766), mendahului _Kekayaan Bangsa_ oleh Adam Smith (1776).
 
 ![image](assets/id/052.webp)
+
 Tulisan-tulisan awalnya mencerminkan komitmennya pada filosofi Pencerahan. Pada tahun 1754, dia menerbitkan _Surat-surat tentang Toleransi Sipil_ dan pada tahun 1757, beberapa artikel yang ditulis untuk _The Encyclopédie_ oleh Diderot dan d'Alembert.
 Dalam surat-suratnya, Turgot menyajikan definisi toleransi. Toleransi berarti menolak untuk menggunakan kekerasan terhadap kesalahan. Dengan kata lain, toleransi bukanlah penerimaan kesalahan. Seseorang dapat melawan itu tetapi dengan senjata keyakinan dan alasan, bukan dengan kekerasan.
 
@@ -1010,7 +1024,7 @@ Penulis berhati-hati membedakan antara masyarakat sipil dan Negara:
 
 > Masyarakat adalah hasil dari kebutuhan kita, pemerintahan adalah hasil dari kejahatan kita. \[…\] Keadaan sosial adalah kebaikan di bawah semua hipotesis. Pemerintahan, bahkan dalam kesempurnaannya, hanyalah sebuah kejahatan yang diperlukan; dalam ketidaksempurnaannya, itu adalah kejahatan yang tidak tertahankan.
 
-Sukses buku ini sangat besar. Terjual sekitar 100.000 eksemplar dalam beberapa bulan, di negara dengan tiga juta penduduk dan ini berkontribusi dalam menggalang sentimen kemerdekaan Amerika.
+Sukses buku ini sangat besar. Terjual sekitar 100.000 kopi dalam beberapa bulan, di negara dengan tiga juta penduduk dan ini berkontribusi dalam menggalang sentimen kemerdekaan Amerika.
 
 Thomas Paine, melalui pamfletnya, memainkan peran penting dalam Revolusi Amerika dan dalam menginspirasi ide-ide kebebasan dan demokrasi. Dia secara langsung mempengaruhi Deklarasi Kemerdekaan Amerika yang diadopsi beberapa bulan kemudian.
 
@@ -1065,9 +1079,10 @@ Hingga abad ke-18, masalah politik utama bagi para filsuf ini adalah kedaulatan.
 ### Kedaulatan Rakyat
 
 Ide ini terinspirasi oleh Locke pada abad ke-17 dan kemudian diambil oleh Rousseau. Kekuasaan berdaulat tidak hanya harus berasal dari kehendak bebas rakyat, tetapi juga harus berada di dalamnya. Ini adalah teori Rousseau tentang kedaulatan kehendak umum, yang kita sebut hari ini sebagai demokrasi.
+
 ![image](assets/id/063.webp)
 
-Rousseau memahami rakyat sebagai individu otonom yang mampu menundukkan diri mereka pada hukum yang mereka tetapkan. Kehendak bebas rakyat merupakan satu-satunya dasar kedaulatan yang adil. Rousseau akan mengembangkan humanisme hukum ini, yang khas dari Modernitas, hingga konsekuensinya yang paling jauh dengan memahami rakyat sebagai individu yang mampu menentukan diri secara bebas atau sebagai kehendak umum. Dengan demikian, kontrak melibatkan penyerahan kepada hukum yang manusia sebagai kehendak umum berikan kepada dirinya sendiri sebagai kehendak khusus. Teori kehendak umum atau kedaulatan rakyat ini memungkinkan rekonsiliasi antara kebebasan dan penyerahan diri. Institusi diri dari hukum atau otonomi politik memang telah menjadi komponen esensial dari demokrasi sejak Rousseau.
+Rousseau memahami rakyat sebagai individu otonom yang mampu menundukkan diri mereka pada hukum yang mereka tetapkan. Kehendak bebas rakyat merupakan satu-satunya dasar kedaulatan yang adil. Rousseau akan mengembangkan humanisme hukum ini, yang khas dari Modernitas, hingga konsekuensinya yang paling jauh dengan memahami rakyat sebagai individu yang mampu menentukan diri secara bebas atau sebagai kehendak umum. Dengan demikian, kontrak melibatkan kepatuhan terhadap hukum yang diberikan manusia, sebagai kehendak umum, kepada dirinya sendiri sebagai kehendak partikular. Teori kehendak umum atau kedaulatan rakyat ini memungkinkan rekonsiliasi antara kebebasan dan penyerahan diri. Institusi diri dari hukum atau otonomi politik memang telah menjadi komponen esensial dari demokrasi sejak Rousseau.
 
 Namun, pertanyaan tentang asal-usul kedaulatan bukanlah satu-satunya. Refleksi dapat mengambil arah baru, yaitu mode pelaksanaan kedaulatan. Apakah kehendak umum selalu adil? Dan yang terpenting, apakah ia berwenang untuk campur tangan dalam masyarakat sipil dan dalam batas apa?
 
@@ -1165,7 +1180,7 @@ Kebebasan modern adalah kebebasan sipil, yang mencakup kebebasan ekonomi dan did
 
 Definisi kebebasan ini ditemukan dalam John Stuart Mill:
 
-> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan mendapat lebih banyak dengan membiarkan setiap orang hidup sesuai yang mereka lihat cocok daripada dengan memaksa mereka untuk hidup seperti yang tampak baik bagi orang lain. (_On Liberty_, 1859)
+> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan memperoleh lebih banyak keuntungan dengan membiarkan setiap orang hidup sesuai keinginannya daripada memaksa mereka untuk hidup sesuai dengan apa yang dianggap baik oleh orang lain. (_On Liberty_, 1859)
 
 ![image](assets/id/072.webp)
 
@@ -1183,7 +1198,8 @@ Tetapi ini tidak berarti mengorbankan kebebasan politik, partisipasi dalam kekua
 
 Memang, dalam _Principles of Politics_, Benjamin Constant menegaskan:
 
-> Kedaulatan rakyat tidak tidak terbatas, itu dibatasi dalam batas-batas yang ditelusuri oleh keadilan dan hak-hak individu. Kehendak seluruh rakyat tidak dapat membuat apa yang tidak adil menjadi adil.
+> Kedaulatan rakyat tidaklah tanpa batas, ia dibatasi dalam batas-batas yang ditelusuri oleh keadilan dan hak-hak individu. Kehendak seluruh rakyat tidak dapat membuat apa yang tidak adil menjadi adil.
+
 > Ini adalah kritik baru terhadap Rousseau dan _Kontrak Sosial_: bahkan kehendak umum pun memiliki batasan, dan tidak dapat mengubah apa yang berada di bawah hukum alam. Ada hak yang lebih dahulu dan lebih tinggi dari otoritas politik: itu adalah hukum alam. Hak ini menetapkan batas kekuasaan politik dan membatasi kebebasan individu.
 > Mengatakan bahwa semua kekuasaan yang sah harus didasarkan pada kehendak umum tidak berarti bahwa segala sesuatu yang diputuskan oleh kehendak umum adalah sah. Constant dengan demikian menyelaraskan dirinya dengan Deklarasi Hak Asasi Manusia tahun 1789, Pasal II, yang menetapkan bahwa Negara didirikan hanya untuk melestarikan hak alam, yaitu, kebebasan, tanggung jawab, dan properti. Oleh karena itu, ada bidang di mana kekuasaan politik tidak memiliki pengaruh: moral dan agama, tetapi juga ilmu pengetahuan yang berada di bawah otoritas pengetahuan dan akhirnya industri, tambah Constant.
 
@@ -1257,9 +1273,10 @@ Negara kemudian menjadi, menurut kata-kata Bastiat,
 
 > fiksi besar melalui mana setiap orang berusaha untuk hidup atas biaya orang lain. ([_The State_](http://bastiat.org/fr/l_etat.html))
 > Bastiat juga mengembangkan gagasan bahwa konflik muncul ketika hukum menyimpang dari peran yang seharusnya. Dalam pamflet terkenalnya [_The Law_](http://bastiat.org/fr/la_loi.html), ia menunjukkan mengapa dan bagaimana hukum telah menjadi "medan pertempuran semua keserakahan," yang berarti sumber dari hak istimewa, sewa situasional, dan perpajakan yang sewenang-wenang. Sejak saat diakui secara prinsip bahwa hukum dapat dialihkan dari misi sejatinya, bahwa ia dapat melanggar properti alih-alih menjaminnya, perjuangan kelas secara alami mengikuti, baik untuk melawan penjarahan atau untuk mengorganisirkannya demi keuntungan sendiri.
+
 > ![image](assets/id/077.webp)
 
-Dalam kasus di mana hukum hanya menegakkan hak setiap individu dan menjamin _"organisasi kolektif dari hak individu untuk pertahanan yang sah,"_ tidak ada yang dalam posisi untuk mengeksploitasinya demi keuntungan mereka sendiri atas kerugian semua, hingga tingkat bahwa bentuk pemerintahan menjadi pertanyaan sekunder.
+Dalam kasus di mana hukum hanya menegakkan hak setiap individu dan menjamin _"organisasi kolektif dari hak individu untuk pertahanan yang sah,"_ tidak seorang pun berada dalam posisi untuk mengeksploitasinya demi keuntungan mereka sendiri atas kerugian semua, hingga tingkat bahwa bentuk pemerintahan menjadi pertanyaan sekunder.
 
 Hanya ketika hukum melebihi batas yang seharusnya, legislator menjadi dapat dikorupsi. Ini kemudian mengarah pada perjuangan sengit antara berbagai kepentingan kategoris, semua bersemangat untuk menangkap aparatus legislatif agar dapat memperoleh hak istimewa yang secara definisi bersifat merampas.
 
@@ -1268,7 +1285,7 @@ Menurut Bastiat, demokrasi sosialis mengarah pada defisit permanen dalam anggara
 > Tetapi jika pemerintah mengambil tugas untuk menaikkan dan mengatur upah dan tidak dapat melakukannya; jika ia mengambil tugas untuk membantu semua kesulitan dan tidak dapat melakukannya; jika ia mengambil tugas untuk menyediakan pensiun untuk semua pekerja dan tidak dapat melakukannya... apakah kita tidak melihat bahwa di akhir setiap kekecewaan, sayangnya! lebih mungkin, ada revolusi yang sama-sama tak terhindarkan? ([_The Law_](http://bastiat.org/fr/la_loi.html))
 
 Kesimpulan Bastiat:
-Lihatlah dunia. Mana yang paling bahagia, paling bermoral, dan paling damai? Mereka di mana Hukum paling sedikit campur tangan dalam aktivitas pribadi; di mana pemerintah paling sedikit dirasakan; di mana individualitas memiliki ketahanan paling banyak dan opini publik paling berpengaruh; di mana mekanisme administratif paling sedikit dan paling tidak rumit; pajak paling tidak memberatkan dan paling tidak tidak setara; ketidakpuasan populer paling sedikit diprovokasi dan paling tidak dapat dibenarkan; di mana tanggung jawab individu dan kelas paling aktif, dan di mana, akibatnya, jika moral tidak sempurna, mereka cenderung tanpa henti untuk memperbaiki diri mereka sendiri; di mana transaksi, perjanjian, asosiasi paling sedikit terhambat; di mana tenaga kerja, modal, dan populasi paling sedikit mengalami perpindahan buatan ([_The Law_](http://bastiat.org/fr/la_loi.html))
+Lihatlah dunia. Mana yang paling bahagia, paling bermoral, dan paling damai? Mereka di mana Hukum paling sedikit campur tangan dalam aktivitas pribadi; yang paling sedikit campur tangan pemerintah; di mana individualitas memiliki ketahanan paling banyak dan opini publik paling berpengaruh; di mana mekanisme administratif paling sedikit dan paling tidak rumit; pajaknya paling ringan dan paling tidak tidak adil; ketidakpuasan populer paling sedikit diprovokasi dan paling tidak dapat dibenarkan; di mana tanggung jawab individu dan kelas paling aktif, dan di mana, akibatnya, jika moral tidak sempurna, mereka cenderung tanpa henti untuk memperbaiki diri mereka sendiri; di mana transaksi, perjanjian, asosiasi paling sedikit terhambat; di mana tenaga kerja, modal, dan populasi paling sedikit mengalami perpindahan buatan ([_The Law_](http://bastiat.org/fr/la_loi.html))
 
 ## Kritik Marxisme terhadap Kapitalisme
 
@@ -1352,6 +1369,7 @@ Itulah mengapa Georges Sorel, pengimpor Marxisme ke Prancis, akan mengatakan bah
 Para Austrians menegaskan bahwa teori nilai kerja Marx, menurut mana nilai suatu komoditas ditentukan oleh jumlah tenaga kerja yang diperlukan untuk produksinya, adalah keliru. Mereka berargumen bahwa nilai adalah subjektif dan ditentukan oleh preferensi konsumen, bukan oleh biaya produksi.
 
 ![image](assets/id/084.webp)
+
 Eugen von Böhm-Bawerk, salah satu ekonom Austria awal, mengkritik teori nilai tenaga kerja Marx dalam karyanya _Wert, Kapital und Zins_ (1886). Böhm-Bawerk berargumen bahwa teori Marx didasarkan pada kesalahan fundamental, yaitu bahwa semua unit tenaga kerja identik. Dalam kenyataannya, ia berargumen, beberapa tenaga kerja lebih berat atau lebih produktif daripada yang lain, dan inilah yang menentukan nilai suatu komoditas. Mengenai teori keuntungan, Marx berargumen bahwa keuntungan adalah bentuk pencurian. Ini adalah konsep eksploitasi, menurut mana kapitalis mengekstrak nilai surplus yang tidak adil dari tenaga kerja pekerja. Para ekonom Austria menolak ide ini dengan berargumen bahwa upah ditentukan oleh nilai yang dibawa pekerja ke perusahaan, dan bahwa keuntungan adalah hadiah bagi pengusaha yang mengambil risiko dan berinvestasi secara efisien. Keuntungan dengan demikian adalah hadiah bagi pengusaha yang mengambil risiko dan berinvestasi dalam produk dan proses baru.
 Friedrich Hayek mengembangkan teori keuntungan berdasarkan konsep ketidakpastian, yang secara khusus berakar pada karya Jean-Baptiste Say. Menurut Hayek, pengusaha memperoleh keuntungan karena mereka mampu memprediksi kebutuhan masa depan konsumen dengan lebih baik daripada aktor ekonomi lainnya.
 
@@ -1369,7 +1387,7 @@ Sejak awal tahun 1922, dalam bukunya _Socialism,_ Ludwig von Mises menunjukkan b
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta eksemplar, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
+Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta kopi, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
 
 ![image](assets/id/086.webp)
 
@@ -1496,6 +1514,7 @@ Inilah mengapa, dalam _Human Action_, Ludwig von Mises menulis:
 Sistem Bretton Woods, yang dirancang pada tahun 1944 dan sepenuhnya diterapkan pada tahun 1959, didasarkan pada emas dan dolar, satu-satunya mata uang yang dapat dikonversi menjadi emas. Oleh karena itu, perlu untuk mengumpulkan dolar agar dapat memperoleh emas.
 
 ![image](assets/id/097.webp)
+
 Pada masa itu, khususnya selama Perang Vietnam, peningkatan defisit pemerintah AS menyebabkan banyak negara asing, termasuk Prancis, ingin menukarkan dolar mereka menjadi emas di FED. Pada 15 Agustus 1971, Presiden Nixon memutuskan untuk membatalkan janji konversi dolar menjadi emas, sehingga menciptakan mata uang kertas sepenuhnya pertama dalam sejarah Amerika Serikat. Dari hari ini dapat ditetapkan momen ketika uang sepenuhnya berada di bawah kontrol bank sentral. Dalam sebuah wawancara, dikatakan Richard Nixon menyatakan:
 
 > Kita semua adalah Keynesian hari ini.

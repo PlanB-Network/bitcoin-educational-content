@@ -1,0 +1,12 @@
+question: Hva beregner en halvaddérer?
+answer: Mente (AND) og summen (XOR) av to inndatabiter.
+wrong_answers:
+  - Summen av to flerbits heltall med mente-propagering.
+  - Gjennomsnittet av to biter avrundet nedover.
+  - Bitvis ELLER og OG av to inndatabiter.
+explanation: >-
+  En halvaddérer tar to enkeltbiter og produserer to utdata ved hjelp av
+  parallell komposisjon: mentebiten (OG av inndataene) og summebiten
+  (XOR av inndataene). I Simplicity er den definert som and ▵ xor, som
+  kjører begge operasjonene på samme inndatapar.
+reviewed: false

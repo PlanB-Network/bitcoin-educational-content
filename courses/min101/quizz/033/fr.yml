@@ -6,4 +6,4 @@ wrong_answers:
   - 21 000 000
 explanation: |
   Le protocole applique un halving à chaque multiple de 210 000 en hauteur de bloc.
-reviewed: false
+reviewed: true 

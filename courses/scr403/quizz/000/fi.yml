@@ -1,0 +1,12 @@
+question: Miksi Simplicity sulkee pois dynaamisen muistinvarauksen suorituksen aikana?
+answer: Jotta staattinen analyysi on mahdollista ja kokonaiset bugi- ja hyökkäysluokat voidaan sulkea pois.
+wrong_answers:
+  - Koska Liquid Network ei tue matalan tason muistioperaatioita.
+  - Jotta ohjelmoinnin oppimiskäyrä olisi loivempi uusille älysopimuskehittäjille.
+  - Koska myös Bitcoin Scriptistä itsestään puuttuu dynaaminen muistinvaraus.
+explanation: >-
+  Simplicity välttää dynaamista muistinvarausta, jotta kaikki resurssien käyttö
+  voidaan määrittää staattisesti ennen suoritusta. Tämä mahdollistaa ennustettavat
+  resurssirajat ja poistaa muistinhallintaan liittyvät haavoittuvuudet,
+  mikä on kriittistä lohkoketjun validointikontekstissa.
+reviewed: false

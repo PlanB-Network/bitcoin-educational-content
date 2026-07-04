@@ -1,0 +1,19 @@
+question: Sebuah keluaran Simplicity menggunakan titik NUMS BIP-0341 tetap sebagai internal key-nya. Mengapa key-spend terbukti mustahil, dan apa yang ditambahkan oleh pengacakan titik NUMS?
+answer: Tidak ada yang tahu discrete log dari titik NUMS tersebut, sehingga tidak ada signature key-path yang bisa ada; pengacakan hanya menambah privasi.
+wrong_answers:
+  - Titik NUMS berada di luar kurva sehingga signature key-path gagal; pengacakan mengembalikannya ke atas kurva.
+  - Private key titik NUMS bernilai nol, yang ditolak oleh konsensus; pengacakan melindungi tweak dari side channel.
+  - Meng-tweak titik NUMS menghasilkan key di luar rentang, membuat key-spend non-standard; pengacakan menghindari penggunaan ulang alamat.
+explanation: >-
+  Sebuah titik NUMS ('Nothing-Up-My-Sleeve') adalah titik kurva yang
+  sepenuhnya valid, dikonstruksi sedemikian rupa sehingga tidak seorang
+  pun tahu private key yang bersesuaian — discrete logarithm-nya tidak
+  diketahui. Karena key-path spend membutuhkan signature Schnorr di bawah
+  internal key, dan signature semacam itu tidak dapat dihasilkan tanpa
+  private key-nya, jalur key-spend terbukti tidak dapat digunakan dan
+  dana hanya bisa dipindahkan melalui script path yang dikomit.
+  Pengacakan titik NUMS tidak mengubah apa pun dari hal ini; ia hanya
+  menyembunyikan fakta bahwa key-spend dinonaktifkan, sehingga keluaran
+  tersebut terlihat seperti keluaran Taproot lainnya — sebuah manfaat
+  privasi.
+reviewed: false

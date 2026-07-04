@@ -1,0 +1,13 @@
+question: Miten vaihtelevanpituiset puskurit esitetään Simplicityn tyyppijärjestelmässä?
+answer: Sisäkkäisinä option-tyyppien tuloina, joissa kukin kerros merkitsee kahden potenssin kokoisen lohkon.
+wrong_answers:
+  - Käyttämällä erityistä dynaamista taulukkotyyppiä, joka on rakennettu suoraan kieleen.
+  - Rekursiivisten summatyyppien kautta, jotka kasvavat suuremmiksi jokaisella funktiokutsulla.
+  - Kiinteän kokoisina vektoreina, jotka täytetään perässä olevilla nolla-arvoilla.
+explanation: >-
+  Puskurit käyttävät sisäkkäisiä option-tyyppejä. Esimerkiksi Xᑉ⁸ laajenee
+  muotoon (1 + X⁴) × ((1 + X²) × (1 + X)), joka polynomina tuottaa
+  1 + X + X² + ... + X⁷ — edustaen 0–7 alkion kokoelmia.
+  Kukin option-kerros ilmaisee, onko kahden potenssin kokoinen lohko läsnä,
+  koodaten näin pituuden binäärimuodossa.
+reviewed: false

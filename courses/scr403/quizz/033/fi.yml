@@ -1,0 +1,14 @@
+question: Kun otetaan huomioon 'premisseissä pienemmät tyypit' -tyyppisäännöt, mitkä ydinkombinaattorit todella siirtävät dataa suorituksen aikana?
+answer: Vain iden ja comp; muut seitsemän toteutetaan pelkällä kirjanpidolla.
+wrong_answers:
+  - Vain take ja drop; yhden komponentin erottaminen pakottaa koneen kopioimaan sen ulos tulosta.
+  - Vain pair ja case; syötteen monistaminen kahdelle haaralle ja tunnisteen perusteella haarauttaminen siirtelevät dataa.
+  - Vain injl ja injr; tunnisteen lisääminen kirjoittaa arvon uudelleen suuremmaksi summatyyppiesitykseksi.
+explanation: >-
+  Vastoin intuitiota kombinaattorit, jotka näyttävät datan noudolta (take,
+  drop, pair, case, injl, injr), eivät tarvitse kopiointia: koska
+  tyyppisääntöjen premisseissä on pienempiä tyyppejä kuin niiden
+  johtopäätöksissä, Bit Machine voi toteuttaa ne pelkällä kirjanpidolla. Vain
+  iden, joka kopioi koko syötteensä tulosteeseensa, ja comp, joka materialisoi
+  f:ltä g:lle välitettävän väliarvon, todella siirtävät dataa.
+reviewed: false

@@ -1,0 +1,15 @@
+question: Sumatorul complet (full-adder) face OR între biții de transport (carry) ai celor două semi-sumatoare (half-adder) în loc să facă XOR. De ce este OR corect?
+answer: Cel mult unul dintre semi-sumatoare poate genera transport pentru orice intrare, așa că OR combină exact două cazuri reciproc exclusive.
+wrong_answers:
+  - Cei doi biți de transport trebuie adunați, iar OR este modul în care se face adunarea binară pe un bit în Simplicity.
+  - După ramificare, OR este singurul operator boolean al cărui tip mai corespunde încă mediului.
+  - OR supraaproximează transportul; orice transport fals este eliminat ulterior prin proiecția finală.
+explanation: >-
+  Dacă primul semi-sumator generează transport, ambii biți de intrare ai
+  săi au fost 1, deci bitul său de sumă este 0 — iar un semi-sumator
+  alimentat cu 0 nu poate genera niciodată transport. Cei doi biți de
+  transport nu sunt deci niciodată simultan 1, iar OR îi combină exact (pe
+  intrările accesibile chiar coincide cu XOR). Această excludere reciprocă
+  este exact ceea ce face corectă descompunerea unui sumator complet în
+  două semi-sumatoare.
+reviewed: false

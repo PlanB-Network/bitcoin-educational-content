@@ -1,0 +1,12 @@
+question: Zašto Simplicity isključuje dinamičku alokaciju memorije tokom izvršavanja?
+answer: Da bi se omogućila statička analiza i isključile čitave klase grešaka i napada.
+wrong_answers:
+  - Zato što Liquid Network ne podržava niskonivovske memorijske operacije.
+  - Da bi se smanjila kriva učenja programiranja za nove programere pametnih ugovora.
+  - Zato što ni sam Bitcoin Script nema nikakvu dinamičku alokaciju memorije.
+explanation: >-
+  Simplicity izbegava dinamičku alokaciju memorije kako bi se sva upotreba
+  resursa mogla odrediti statički pre izvršavanja. Ovo omogućava predvidive
+  granice resursa i eliminiše ranjivosti povezane sa upravljanjem memorijom,
+  što je kritično u kontekstu validacije blokčejna.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Hva er typen til pair (drop iden) (take iden), og hvilken funksjon angir den?
+answer: A × B ⊢ B × A — den bytter om de to komponentene i et par.
+wrong_answers:
+  - A × B ⊢ A × B — den lar begge komponentene passere uendret gjennom (identiteten).
+  - "Feiltypet: take iden og drop iden har forskjellige utdatatyper, som pair ikke kan slå sammen."
+  - (A × B) × (A × B) ⊢ B × A — pair slår sammen inndatatypene til sine to deluttrykk.
+explanation: >-
+  drop iden : A × B ⊢ B trekker ut den andre komponenten, og take iden : A ×
+  B ⊢ A trekker ut den første. Kombinatoren pair krever bare at de to
+  deluttrykkene har samme inndatatype (her A × B); utdataene deres kan
+  være forskjellige, og returneres som et par. For inndata ⟨a, b⟩ gir
+  uttrykket derfor ⟨b, a⟩: byttefunksjonen, av typen A × B ⊢ B × A.
+reviewed: false

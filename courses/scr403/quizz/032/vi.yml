@@ -1,0 +1,16 @@
+question: Chứng minh tính đầy đủ xây dựng bất kỳ hàm nào bằng cách lồng case để phân rã đầu vào và dùng scribe cho từng đầu ra. Vì sao nó chỉ là một công cụ lý thuyết?
+answer: Biểu thức thu được là một bảng tra cứu khổng lồ có kích thước tăng theo cấp số nhân — một đầu vào 256 bit sẽ cần khoảng 2²⁵⁶ mục.
+wrong_answers:
+  - scribe là macro, không phải combinator lõi, nên biểu thức nằm ngoài ngôn ngữ đã được xác minh hình thức.
+  - Bit Machine đánh giá nó trong thời gian cấp số nhân, dù bản thân biểu thức vẫn gọn nhờ chia sẻ.
+  - case lồng nhau chỉ có thể phân rã kiểu tổng, nên phép xây dựng thất bại với bất kỳ đầu vào kiểu tích nào.
+explanation: >-
+  Phép xây dựng liệt kê mọi đầu vào khả dĩ thông qua phân rã case lồng
+  nhau và mã hóa cứng từng đầu ra bằng scribe, nên kích thước biểu thức
+  bùng nổ theo cấp số nhân — khổng lồ về mặt thiên văn đối với các kiểu
+  thực tế như từ 256 bit. Sự bùng nổ nằm ở kích thước biểu thức, không
+  phải ở runtime của một biểu thức vốn vẫn gọn. scribe mở rộng thành các
+  combinator lõi thật sự (unit, injl, injr, pair), nên kết quả vẫn nằm
+  trong ngôn ngữ lõi, nơi định lý đầy đủ đã được xác minh hình thức trong
+  Rocq; và phép phân rã xử lý đầu vào thuộc mọi kiểu, bao gồm cả kiểu tích.
+reviewed: false

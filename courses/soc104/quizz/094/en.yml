@@ -1,9 +1,9 @@
-question: According to Satoshi Nakamoto's fundamental critique, what is the core problem with conventional fiat currency systems?
-answer: They require excessive trust in centralized institutions that historically have violated that trust through currency debasement
+question: "Why is monetary inflation described as a hidden tax imposed without the consent of citizens?"
+answer: "Because government money creation devalues the currency so people can buy less with the same amount, but most do not realize that rising prices reflect government policy rather than natural market forces"
 wrong_answers:
-  - They lack of sufficient technological infrastructure to handle modern digital transactions efficiently and securely
-  - They create too much volatility in exchange rates making international commerce unpredictable and costly
-  - They generate excessive transaction fees that make micropayments economically unviable for everyday users
-explanation: |
-  Satoshi Nakamoto explicitly stated that 'the root problem with conventional currency is all the trust that's required to make it work' and that 'the history of fiat currencies is full of breaches of that trust.' 
-  His critique focused on the fundamental reliance on central banks not to debase currency, which they have repeatedly failed to uphold. The other options, while potentially valid concerns about traditional systems, miss Nakamoto's core philosophical objection to trust-based monetary systems and his motivation for creating a trustless alternative.
+  - "Because central banks secretly charge fees on every transaction processed through the banking system without disclosing them to account holders"
+  - "Because governments print money and distribute it only to wealthy individuals while taxing the poor through higher sales taxes on essential goods"
+  - "Because inflation is caused by private corporations raising prices to increase profits, which functions as an unofficial tax on consumers"
+explanation: >-
+  The injection of money into the system translates into currency devaluation where the same amount buys less because the new money does not reflect genuine economic growth. Most people do not see that government policy led to rising prices, which are simply the reflection of currency devaluation. This amounts to legal theft and institutionalized spoliation, impoverishing the middle class while the wealthy capture new money through speculative assets.
+reviewed: false

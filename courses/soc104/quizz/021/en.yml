@@ -1,9 +1,9 @@
-question: What is the main characteristic that distinguishes cultural conservatism from political conservatism?
-answer: Cultural conservatism is a personal adherence to traditional values and is not a political philosophy
+question: "What is cultural conservatism?"
+answer: "A personal adherence to family, moral, aesthetic, and metaphysical values inherited from the past, not a political philosophy"
 wrong_answers:
-  - Cultural conservatism requires government enforcement of traditional values while political conservatism does not
-  - Cultural conservatism focuses on economic policies while political conservatism focuses on social issues
-  - Cultural conservatism opposes all forms of change while political conservatism accepts gradual reform
-explanation: |
-  The chapter clearly states that cultural conservatism is a personal adherence to traditional moral values, anthropology, aesthetics, and metaphysics 
-  inherited from the past, and explicitly notes that 'it is not a political philosophy.' In contrast, political conservatism is described as a way of organizing society according to a fixed order. This distinction is crucial because it shows that one can hold traditional values personally without necessarily wanting to impose them through political means or government force.
+  - "A political ideology that uses state power to impose traditional values on all of society through legislation"
+  - "A movement that rejects all forms of modernity and seeks to return society to a pre-industrial way of life"
+  - "An economic doctrine that protects national industries and opposes free trade with foreign countries"
+explanation: >-
+  Cultural conservatism is defined as a wisdom of life: the personal adherence to family, moral, aesthetic, and metaphysical values inherited from the past, whether Greco-Roman or Judeo-Christian. It is explicitly not a political philosophy. It differs from political conservatism, which aims to preserve political institutions and social order through state power. It is also not about rejecting modernity or economic protectionism.
+reviewed: false

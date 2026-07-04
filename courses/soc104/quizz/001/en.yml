@@ -1,10 +1,9 @@
-question: According to the text, why is it difficult to classify Bitcoin on the traditional right-left political axis?
-answer: Because Bitcoin transcends traditional divides and attracts supporters from diverse political backgrounds
+question: "Where does the left-right political divide originate?"
+answer: "From the seating arrangement during the French Revolution debates of 1789"
 wrong_answers:
-  - Because Bitcoin is exclusively supported by right-wing personalities in favour of economic liberalism.
-  - Because Bitcoin is mainly championed by the left because of its potential for financial inclusion.
-  - Because Bitcoin is a neutral technology with no political dimension.
-explanation: |
-  The text explains that Bitcoin is difficult to classify on the right-left axis, as this decentralized technology attracts supporters from diverse political
-  backgrounds, including the right, the left, anarchists and even apolitical individuals. Unlike other options, Bitcoin is not limited to a single political camp,
-  but crosses traditional divides, making the right-left dichotomy inadequate to situate it correctly.
+  - "From the writings of Karl Marx and Adam Smith in the nineteenth century"
+  - "From the American Civil War between Northern and Southern states"
+  - "From the Enlightenment philosophers who separated reason from tradition"
+explanation: >-
+  The left-right divide dates back to 1789, when deputies in the French National Assembly who favored maintaining the king's power sat to the right of the president, while those who wanted to limit his powers sat to the left. It did not originate from Marx and Smith, the American Civil War, or Enlightenment philosophy.
+reviewed: false

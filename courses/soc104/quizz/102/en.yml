@@ -1,9 +1,9 @@
-question: According to libertarian philosophy, what is the primary criterion for determining whether a social organization system is legitimate?
-answer: Whether it emerges from voluntary interactions and individual consent rather than imposed coercion
+question: "What do libertarians believe about individuals' capacity to make decisions?"
+answer: "Individuals have both the right and the responsibility to make their own decisions about their lives"
 wrong_answers:
-  - Whether it maximizes economic efficiency and reduces transaction costs for all participants
-  - Whether it represents the democratic will of the majority while protecting minority rights
-  - Whether it balances individual freedoms with collective social responsibilities and duties
-explanation: |
-  The text emphasizes that the fundamental political divide is between freedom and coercion, voluntary consent and constraint. 
-  Libertarians believe social organization should emerge spontaneously from voluntary interactions rather than being deliberately planned and imposed by political authorities. This principle of voluntary emergence versus coercive imposition is what distinguishes libertarian philosophy from traditional left-right politics, which all assume some degree of state intervention and control over individual choices.
+  - "Individuals should make decisions only after consulting with elected representatives who understand policy implications"
+  - "Individuals are generally incapable of making good decisions and need expert guidance from government institutions"
+  - "Individuals should make economic decisions freely but defer to the state on all social and cultural matters"
+explanation: >-
+  From a libertarian point of view, individuals have both the right and the responsibility to make their own decisions. This contrasts with conventional political families from left to right, which believe that government should make some or many of the important decisions in an individual's life and in economic life in general.
+reviewed: false

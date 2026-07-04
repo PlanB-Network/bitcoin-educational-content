@@ -20,6 +20,12 @@ Ce cours vous révélera aussi pourquoi Bitcoin est plus qu'une simple monnaie :
 
 <partId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</partId>
 
+## Présentation du cours
+
+<chapterId>2209cf28-29ab-4092-88bd-9ffdc7942972</chapterId>
+
+Bienvenue dans ce cours sur les grandes familles politiques.
+
 ## Le piège du clivage droite-gauche
 
 <chapterId>8aef3eca-aa4c-405a-8b32-7fd7993b3e04</chapterId>
@@ -474,7 +480,7 @@ Il est important de noter ici que le terme totalitarisme fait référence à un 
 
 - Staline (Communisme/Stalinisme) : le stalinisme est l'exemple du contrôle total de l'État sur l'économie. Toute propriété privée des moyens de production était abolie, l'économie était entièrement planifiée (plans quinquennaux), et l'État contrôlait absolument tous les aspects de la production et de la distribution.
 
-# Les questions sociétales
+# Les questions sociétales et économiques
 <partId>ab160ddd-5c3a-436b-a77a-76d7089f1611</partId>
 
 ## Les questions sociétales
@@ -543,9 +549,6 @@ Les questions sociétales ne concernent pas l'argent, mais les choix relatifs à
 - **Libertariens :** Non. Un principe fondamental du libertarianisme est qu'il est injuste de protéger les gens d'eux-mêmes. Les citoyens sont des adultes, pas des enfants. Les tentatives d'imposer de meilleures habitudes de santé par des moyens coercitifs sont considérées comme coûteuses, inefficaces et finalement contre-productives. Le problème de l'obésité doit être traité par l'initiative privée.
 
 - **Centristes :** Oui. Ils seraient ouverts à l'idée d'une taxe si elle est prouvée efficace et si ses inconvénients sociaux et économiques peuvent être atténués. Ils la  verraient comme une partie d'une solution plus large et intégrée, plutôt qu'une mesure isolée.
-
-# Les questions économiques
-<partId>465e0e6b-17e9-4f07-9a41-b3e88af0e83f</partId>
 
 ## Les questions économiques
 <chapterId>f1d6c5de-fa05-4fb7-9d2e-73cc9791ea23</chapterId>

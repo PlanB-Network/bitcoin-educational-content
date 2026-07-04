@@ -1,9 +1,9 @@
-question: According to Eric Hughes' Cypherpunk Manifesto, what is the primary method cypherpunks should use to achieve their goals of privacy and freedom?
-answer: Writing code to build cryptographic systems that make political divisions irrelevant
+question: "Who launched the first Cypherpunk mailing list in 1992?"
+answer: "Tim May and Eric Hughes, who created a platform that became the movement's nerve center"
 wrong_answers:
-  - Lobbying governments to pass stronger privacy protection laws and regulations
-  - Organizing mass protests and civil disobedience campaigns against surveillance
-  - Creating educational programs to raise public awareness about digital privacy rights
-explanation: |
-  Eric Hughes explicitly stated 'Cypherpunks write code' as their fundamental approach. The manifesto emphasizes that cypherpunks don't find comfort in hopes and wishes, but actively intervene by building anonymous systems through cryptography. 
-  This transforms abstract ideas of freedom into concrete economic and societal reality, making political divisions arbitrary and unnecessary. The other options represent traditional political activism, which contradicts the cypherpunk philosophy of technological solutions over institutional reform.
+  - "Satoshi Nakamoto and Hal Finney, who later went on to create Bitcoin together in 2008"
+  - "Julian Assange and Edward Snowden, who used the list to coordinate government whistleblowing activities"
+  - "Phil Zimmermann and Bruce Schneier, who designed the list as a tool for distributing encryption software"
+explanation: >-
+  In 1992, Tim May and Eric Hughes launched the first Cypherpunk mailing list. This platform quickly became the movement's nerve center, bringing together developers, cryptographers, and advocates of digital freedom. It was on this same list that Satoshi Nakamoto would later share the Bitcoin White Paper for the first time in 2008.
+reviewed: false

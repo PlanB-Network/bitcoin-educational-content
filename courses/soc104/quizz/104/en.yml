@@ -1,9 +1,9 @@
-question: According to libertarian philosophy, what is the fundamental difference between state money (fiat) and market money like Bitcoin?
-answer: State money is coercive and centralized while market money emerges voluntarily and maintains long-term value
+question: "Why does the course describe Bitcoin as a market currency opposed to state money rather than a right-wing or left-wing project?"
+answer: "Because Bitcoin is a voluntarily adopted, hard-to-produce, decentralized currency that retains value, contrasting with coercive, centralized fiat money that loses value, making the divide about market versus state rather than political ideology"
 wrong_answers:
-  - State money is more stable and regulated while market money is volatile and unpredictable
-  - State money serves social welfare goals while market money only benefits wealthy investors
-  - State money is democratic and accountable while market money is controlled by anonymous developers
-explanation: |
-  The chapter clearly distinguishes between state money (fiat) as a coercive, centralized system that tends to lose value, versus market money like Bitcoin which emerges voluntarily, spontaneously, and preserves value long-term. 
-  This reflects the broader libertarian principle of voluntary versus coercive systems. The wrong answers misrepresent the libertarian critique by focusing on conventional economic arguments rather than the philosophical distinction between voluntary and coercive monetary systems.
+  - "Because Bitcoin was created by an anonymous developer who deliberately avoided making any political statements about its intended purpose or philosophy"
+  - "Because Bitcoin's mining algorithm ensures equal distribution of new coins to all political parties, preventing any ideological bias in the monetary system"
+  - "Because Bitcoin functions identically to existing fiat currencies but operates on a faster payment network, making political distinctions irrelevant"
+explanation: >-
+  Bitcoin is described as a peaceful revolt against the politicization of money. State or fiat money is a coercive, centralized system that tends to lose value. Market money, historically gold and currently Bitcoin, is healthy, hard-to-produce currency that emerges voluntarily and retains its value over the long term. The real opposition is not left versus right but market versus state, making Bitcoin a political rupture that transcends traditional ideological camps.
+reviewed: false

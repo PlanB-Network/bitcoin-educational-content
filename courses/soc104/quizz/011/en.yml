@@ -1,8 +1,9 @@
-question: According to the political diagram, what does the y-axis represent?
-answer: Personal and social freedoms
+question: "What does the economic freedom category include?"
+answer: "What you do as a producer and consumer: buying, selling, producing, working, hiring, and managing your money"
 wrong_answers:
-  - Economic and commercial freedoms
-  - The level of government intervention in the economy
-  - Tax and regulatory preferences
-explanation: |
-  The y-axis (vertical) represents personal and societal freedoms, which include freedom of movement, opinion and self-determination. These freedoms concern what you do in your private relationships, with your opinions and beliefs, as well as everything you do with your own body and mind. The x-axis (horizontal) represents economic freedoms. This distinction enables us to classify the majority of political issues into two fundamental categories.
+  - "Your religious beliefs, personal relationships, and freedom of expression"
+  - "Your right to vote, participate in elections, and join political parties"
+  - "Your ability to travel freely, choose your residence, and cross national borders"
+explanation: >-
+  Economic freedom covers what you do as a producer and consumer: what you can buy, sell, or produce; where you work; who you hire; and what you do with your money. Personal relationships, religious beliefs, and freedom of movement fall under the personal freedom category, not the economic one.
+reviewed: false

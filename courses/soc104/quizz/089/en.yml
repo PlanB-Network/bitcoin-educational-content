@@ -1,8 +1,9 @@
-question: According to the Austrian economist Ludwig von Mises' perspective on methodological individualism, what is the fundamental limitation of attributing actions to collective entities?
-answer: Only individuals possess the capacity to think, reason, and act, making collective entities mere abstractions without independent existence or reality
+question: "Why does Mises emphasize that individualism should not be confused with self-sufficiency or misanthropy?"
+answer: "Because individualism promotes cooperation and association, provided they rest on the free consent of participants, recognizing that humans develop their full potential through voluntary relationships with others"
 wrong_answers:
-  - Collective entities can think and act but their decisions are always inferior to individual choices due to democratic inefficiencies
-  - Collective entities possess emergent properties that transcend individual capabilities but lack the moral authority to override personal autonomy
-  - Collective entities can make rational decisions through aggregated wisdom but should be limited by constitutional constraints protecting individual rights
-explanation: |
-  Mises' methodological individualism holds that 'only the individual thinks, only the individual reasons, only the individual acts.' This means collective entities have no existence or reality beyond the actions of their individual members. Society has no will or thought of its own - all collective actions must be explained through their individual components. The other options incorrectly assume that collective entities possess some form of independent thinking or decision-making capacity, which contradicts Mises' fundamental premise that only individuals can truly think and act.
+  - "Because individualism requires people to join mandatory civic organizations to ensure they contribute to the common good"
+  - "Because individualism means each person must rely entirely on the state for services they cannot provide themselves"
+  - "Because individualism demands that people compete against each other in all domains to prove their personal superiority"
+explanation: >-
+  Mises emphasizes that the human being is a social creature. Individualism does not mean isolation. It promotes cooperation and association on the condition that they rest on the free consent of the participants. The human being can only develop his full potential in relationship with others, but this cooperation must be voluntary rather than imposed by collective authority.
+reviewed: false

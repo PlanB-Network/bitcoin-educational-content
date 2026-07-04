@@ -1,9 +1,9 @@
-question: According to Hannah Arendt's analysis, what is the primary goal of totalitarian education systems?
-answer: To destroy people's capacity to form independent convictions rather than to instill specific beliefs
+question: "How did all totalitarian regimes come to power?"
+answer: "Through violent revolution that justified making a clean slate of the previous system"
 wrong_answers:
-  - To indoctrinate citizens with the regime's ideology and ensure absolute loyalty to the state
-  - To create a highly educated workforce capable of advancing the nation's economic objectives
-  - To eliminate class distinctions and create a unified society based on shared revolutionary principles
-explanation: |
-  Hannah Arendt argued that totalitarian education's purpose was not to instill convictions but to destroy the faculty of forming any independent ones. 
-  This distinguishes totalitarianism from mere authoritarianism - it doesn't just want compliance, but seeks to eliminate the very capacity for independent thought. The other options represent more conventional forms of political control or social engineering, missing Arendt's crucial insight about totalitarianism's unique assault on human agency itself.
+  - "Through gradual legislative reform within existing democratic institutions"
+  - "Through military coups organized by foreign powers seeking regional control"
+  - "Through peaceful mass movements that won popular elections by wide margins"
+explanation: >-
+  All totalitarian regimes came to power through violent revolution. This revolution serves a dual purpose: it physically destroys the old order and ideologically justifies the use of violence as necessary for building the new society. This distinguishes totalitarian takeovers from democratic transitions, foreign-backed coups, or peaceful electoral victories.
+reviewed: false

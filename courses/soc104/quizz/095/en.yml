@@ -1,9 +1,9 @@
-question: According to Satoshi Nakamoto's philosophy, what is the fundamental problem with conventional currencies that Bitcoin was designed to solve?
-answer: The excessive trust required in centralized institutions that have historically violated that trust through currency debasement
+question: "How does Bitcoin function as a moral project with political consequences rather than a political project with moral claims?"
+answer: "Bitcoin was designed to make people free rather than rich, enabling effective property, protecting the value of work, and preserving privacy, which are moral achievements that produce political effects without claiming any political camp"
 wrong_answers:
-  - The lack of digital infrastructure and slow transaction processing speeds in traditional banking systems
-  - The high transaction fees and limited accessibility of international money transfers through banks
-  - The environmental impact and energy consumption of traditional banking and payment processing systems
-explanation: |
-  Satoshi Nakamoto explicitly stated that 'the root problem with conventional currency is all the trust that's required to make it work' and that central banks must be trusted not to debase currency, but 'the history of fiat currencies is full of breaches of that trust'.
-  This quote reveals Bitcoin's core purpose: eliminating the need for trust in centralized institutions. The other options, while potentially valid concerns about traditional finance, do not address the fundamental philosophical problem Satoshi identified - that fiat systems require blind faith in institutions that have repeatedly proven untrustworthy through monetary manipulation and debasement.
+  - "Bitcoin is a moral project because its code enforces ethical rules that prevent fraud, and its political consequence is replacing democratic governance with algorithmic decision-making"
+  - "Bitcoin functions as a moral project because it redistributes wealth from the rich to early adopters, creating a fairer society with political implications for tax policy"
+  - "Bitcoin is moral because Satoshi Nakamoto embedded ethical commandments in the protocol, and its political consequence is uniting all political families under a shared monetary system"
+explanation: >-
+  Bitcoin was not designed to make people rich but to make them free. It achieves three moral outcomes: enabling effective property (incentivizing responsibility), protecting the value created by work (encouraging productive effort), and preserving privacy (allowing people to live without fear). These are moral achievements that carry political consequences without belonging to any political camp, making it a moral project first and political second.
+reviewed: false

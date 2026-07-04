@@ -1,9 +1,9 @@
-question: According to Hayek's theory of dispersed knowledge, why do centrally planned economies struggle with price setting compared to free markets?
-answer: Central planners cannot access the subjective, localized knowledge of individual costs, benefits, and preferences that only market participants possess
+question: "How do the three essential functions of the free market, as described by libertarians, together constitute both an efficient and ethical system of social organization?"
+answer: "Prices provide a compass for decisions, the market reveals authentic preferences through supply and demand, and free exchange enables individuals to determine their own affairs according to personal values, combining informational efficiency with moral autonomy"
 wrong_answers:
-  - Central planners lack sufficient computational power and advanced algorithms to process all the economic data available to them
-  - Central planners are inherently corrupt and set prices to benefit themselves rather than society, unlike market participants who are altruistic
-  - Central planners focus too much on long-term economic stability rather than responding to immediate supply and demand fluctuations
-explanation: |
-  Hayek's key insight is that knowledge exists only as 'fragments dispersed of incomplete and frequently contradictory knowledge possessed by all distinct individuals.' This knowledge is subjective and localized - only individuals know their own costs, benefits, and preferences. Free markets through voluntary exchange and price negotiation allow this dispersed knowledge to emerge and coordinate economic activity. 
-  Central planners, regardless of their intentions or capabilities, cannot access this subjective, scattered information that exists in the minds of millions of individuals, making effective price setting impossible.
+  - "The market maximizes total wealth, prevents monopolies through natural competition, and ensures equal distribution of resources, combining productivity with social justice"
+  - "Free markets reduce government spending, stimulate technological innovation, and create employment opportunities, combining fiscal responsibility with economic growth"
+  - "Markets lower consumer prices, increase product quality through competition, and expand international trade, combining domestic prosperity with global cooperation"
+explanation: >-
+  The libertarian case for the free market rests on three interconnected functions. First, prices serve as reliable indicators guiding economic and social decisions (the compass). Second, the market reveals authentic individual preferences through supply and demand. Third, free exchange enables actors to determine their own affairs according to personal values. Hayek showed that free markets coordinate dispersed information better than central planning (efficiency), while mutual consent respects human dignity more than coercion (justice).
+reviewed: false

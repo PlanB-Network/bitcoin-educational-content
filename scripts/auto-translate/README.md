@@ -1,3 +1,10 @@
+> [!WARNING]
+> **Deprecated.** This machine-translation stack (per-string DeepL/Google/OpenAI +
+> the MD/YAML↔JSON parser + the 902-token glossary shield) is superseded by the
+> agent-driven pipeline in [`../agent-translate/`](../agent-translate/README.md),
+> which translates whole files in place with a headless agent. Kept for reference
+> until the agent pipeline is piloted and cut over. Do not extend this code.
+
 # Auto-translation script for PBN content
 
 When runned this script will

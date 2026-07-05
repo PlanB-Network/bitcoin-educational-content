@@ -115,14 +115,35 @@ def run_pr_agent(worktree: Path, branch: str, base: str, summary_text: str,
 
 # ---------------- main ----------------
 
+PROVIDER_FALLBACK = {"anthropic": "sonnet", "openai": "gpt-5.5"}
+
+
+def filter_route_by_provider(route: list[dict], provider: str | None, config: dict) -> list[dict]:
+    """Keep only steps whose model belongs to `provider` (anthropic|openai).
+    `both`/None -> unchanged. If the chain has no model for the provider (e.g. the
+    `default` chain under --provider openai), fall back to the provider's default
+    model (config `models.provider_fallback`), preserving the primary step's effort."""
+    if not provider or provider == "both":
+        return route
+    kept = [s for s in route if usage.provider_of(s["model"]) == provider]
+    if kept:
+        return kept
+    fallback = config["models"].get("provider_fallback", PROVIDER_FALLBACK).get(provider)
+    if not fallback:
+        return route
+    return [{"model": fallback, "thinking": route[0].get("thinking", "medium")}]
+
+
 def route_for(config: dict, lang: str, override_model: str | None = None,
-              override_thinking: str | None = None) -> list[dict]:
+              override_thinking: str | None = None, provider: str | None = None) -> list[dict]:
     """Ordered list of {model, thinking} for a language: [#1 primary, #2, #3 …].
-    Retry walks down this chain, so a fallback model is tried on FAIL."""
+    Retry walks down this chain, so a fallback model is tried on FAIL. `provider`
+    (anthropic|openai) restricts the chain to that provider's models; both/None = full chain."""
     if override_model:
         return [{"model": override_model, "thinking": override_thinking or "medium"}]
     r = config["models"].get("routes", {}).get(lang) or config["models"]["default"]
-    return [r] if isinstance(r, dict) else r
+    route = [r] if isinstance(r, dict) else r
+    return filter_route_by_provider(route, provider, config)
 
 
 def pick(route: list[dict], attempt: int) -> tuple[str, str]:
@@ -169,6 +190,11 @@ def interactive_menu(args, config: dict) -> None:
         args.langs = input("Langues csv (vide=toutes) : ").strip() or None
         args.content = input("Content csv (vide=tous) : ").strip() or None
         args.subtype = input("Subtype csv (vide=tous) : ").strip() or None
+    print("\nProvider :")
+    print("  1) both — chaîne de routage complète (défaut)")
+    print("  2) anthropic — sonnet/opus")
+    print("  3) openai — gpt-5.5")
+    args.provider = {"2": "anthropic", "3": "openai"}.get(input("Choix [1-3] : ").strip(), "both")
     if input("Ouvrir une PR à la fin ? [O/n] : ").strip().lower() == "n":
         args.no_pr = True
 
@@ -183,6 +209,8 @@ def main() -> None:
     p.add_argument("--concurrency", type=int, help="max parallel workers (default: config)")
     p.add_argument("--model", help="force one model for every worker (overrides routing)")
     p.add_argument("--thinking", help="thinking effort when --model is set (default: medium)")
+    p.add_argument("--provider", choices=["anthropic", "openai", "both"], default="both",
+                   help="restrict routing to one provider's models (anthropic=sonnet/opus, openai=gpt-5.5; default: both)")
     p.add_argument("--timeout", type=int, default=1200, help="per-worker timeout seconds")
     p.add_argument("--retries", type=int, default=2, help="retry passes over FAILs (walks the fallback chain)")
     p.add_argument("--base", default="dev", help="base branch for the worktree/PR")
@@ -203,6 +231,8 @@ def main() -> None:
     config = find_missing.load_config()
     repo_root = args.repo_root.resolve()
     concurrency = args.concurrency or int(config.get("concurrency", 8))
+    if args.model and args.provider != "both" and usage.provider_of(args.model) != args.provider:
+        print(f"Note: --model {args.model} ({usage.provider_of(args.model)}) overrides --provider {args.provider}.")
     if args.interactive:
         interactive_menu(args, config)
 
@@ -223,7 +253,7 @@ def main() -> None:
 
     if args.dry_run:
         for it in items[:20]:
-            m, th = pick(route_for(config, it["lang"], args.model, args.thinking), 0)
+            m, th = pick(route_for(config, it["lang"], args.model, args.thinking, args.provider), 0)
             print(f"  · {it['dst']}  [{m} · {th}]")
         if len(items) > 20:
             print(f"  … +{len(items)-20} more")
@@ -239,7 +269,7 @@ def main() -> None:
     # Subscription-usage governor (freezes the batch near the 5h window cap).
     in_use = set()
     for it in items:
-        for step in route_for(config, it["lang"], args.model, args.thinking):
+        for step in route_for(config, it["lang"], args.model, args.thinking, args.provider):
             in_use.add(usage.provider_of(step["model"]))
     in_use.discard("unknown")
     governor = usage.Governor(in_use, threshold=args.usage_threshold, hard=args.usage_hard,
@@ -287,7 +317,7 @@ def main() -> None:
                     if job is None:
                         break
                     governor.gate()  # blocks new launches while in-use subs are capped
-                    m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking), attempt)
+                    m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking, args.provider), attempt)
                     fut = pool.submit(
                         worker.translate_job, job, worktree=worktree, model=m, thinking=th,
                         system_prompt=system_prompt, knowledge_dir=knowledge_dir,
@@ -390,7 +420,7 @@ def main() -> None:
 
     print("\nHanding off to release agent …")
     rc = run_pr_agent(worktree, branch, args.base, summary_text, report_path,
-                      model=route_for(config, "__default__")[0]["model"], timeout=args.timeout)
+                      model=route_for(config, "__default__", provider=args.provider)[0]["model"], timeout=args.timeout)
     if rc != 0:
         print(f"Release agent exited {rc}; worktree kept at {worktree} on {branch}.")
         return

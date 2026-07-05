@@ -89,6 +89,13 @@ models:
   default:
     - {model: sonnet, thinking: medium}
 
+  # When --provider restricts routing to a single provider and a language's chain
+  # has no model for it (e.g. the `default` chain has only anthropic), fall back to
+  # this model, keeping the primary step's thinking effort.
+  provider_fallback:
+    anthropic: sonnet
+    openai: gpt-5.5
+
   routes:
     # ── Tier A · high-resource European (naturalness > capability) ──
     fr:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]

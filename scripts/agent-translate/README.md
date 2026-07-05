@@ -58,6 +58,9 @@ python3 translate.py --langs zh-Hans --subtype quizz --concurrency 8 --batch-siz
 # Preview only (shows per-language model · thinking)
 python3 translate.py --dry-run --path courses/scr403 --langs fr,ja,et
 
+# Restrict routing to one provider's models (e.g. anthropic window exhausted)
+python3 translate.py --path courses/scr403 --langs fr,ja --provider openai
+
 # Local, no worktree, no PR (dev / smoke test)
 python3 translate.py --in-place --no-pr --langs fr --subtype quizz --limit 4 --batch-size 4
 ```
@@ -66,6 +69,7 @@ Scoping flags combine freely: `--langs`, `--content`, `--subtype`
 (course/quizz/tutorial/resource/professor/event), `--path` (subtree or one
 `en.md`/`en.yml`), `--limit`. Run flags: `--concurrency N` (default 8),
 `--batch-size N` (small-file packet, default 15), `--model X` + `--thinking`,
+`--provider {anthropic|openai|both}` (default both — restrict routing to one provider's models),
 `--retries N` (default 2, walks the fallback chain), `--base dev`, `--in-place`,
 `--no-pr`, `--keep-worktree`, `--max-items`/`--force`.
 
@@ -76,7 +80,7 @@ python3 translate.py --interactive          # menu: pick course/lang/scope, live
 python3 translate.py --path courses/scr403 --force   # non-interactive (logs); coordinator-friendly
 ```
 `--interactive` prompts for the batch (a course × all langs, a course × chosen langs, a
-language × all content, or custom), shows the file/session/provider/PR summary, and asks to
+language × all content, or custom) and the **provider** (both/anthropic/openai), shows the file/session/provider/PR summary, and asks to
 confirm. Progress lines carry live usage (`· usage ●anth 5h 2% wk 32% · ●open 5h 0%`);
 non-interactive runs log the same — redirect to a file and leave it running.
 
@@ -97,6 +101,10 @@ python3 scripts/agent-translate/translate.py --interactive
 asi0's decision, from `knowledge/model-matrix.html`. Each language maps to an ordered
 chain `[#1, #2, #3]` of `{model, thinking}`; the retry pass walks DOWN the chain, so a
 FAIL is retried on the next-ranked model. `--model` overrides the whole chain.
+
+`--provider {anthropic|openai|both}` narrows every chain to that provider's models (openai=`gpt-5.5`,
+anthropic=`sonnet`/`opus`); a chain with no such model falls back to `config.yml → models.provider_fallback`.
+It also scopes the usage governor to only the chosen provider's window.
 
 - `sonnet` (Claude Sonnet 5) — European naturalness, value; **present in every chain**,
   so if `opus`/`gpt-5.5` are unauthenticated the chain still lands on a working model.

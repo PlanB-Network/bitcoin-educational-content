@@ -1,0 +1,9 @@
+question: "Considerando o argumento completo deste curso, como o Bitcoin incorpora simultaneamente a crítica libertária ao construtivismo, o compromisso cypherpunk com a ação e a defesa individualista da autonomia moral?"
+answer: "O Bitcoin substitui o dinheiro planejado centralmente por uma ordem espontânea de mercado (anticonstrutivismo), transforma o ideal abstrato de liberdade financeira em código funcional (ação cypherpunk) e restaura a propriedade soberana e a privacidade ao indivíduo (autonomia moral)"
+wrong_answers:
+  - "O Bitcoin usa governança democrática para definir a política monetária (anticonstrutivismo), publica conteúdo educativo sobre liberdade financeira (ação cypherpunk) e permite que indivíduos votem em mudanças de protocolo (autonomia moral)"
+  - "O Bitcoin elimina toda regulação financeira (anticonstrutivismo), cria uma comunidade de desenvolvedores que fazem lobby por desregulamentação (ação cypherpunk) e dá a indivíduos ricos mais controle sobre a política monetária (autonomia moral)"
+  - "O Bitcoin descentraliza a infraestrutura de servidores em vários países (anticonstrutivismo), usa licenciamento open-source para compartilhar tecnologia livremente (ação cypherpunk) e fornece plataformas de mídia social anônimas para dissidência política (autonomia moral)"
+explanation: >-
+  O Bitcoin está na interseção de três tradições intelectuais exploradas no curso. Ele incorpora o argumento anticonstrutivista ao substituir o dinheiro fiat planejado centralmente por uma ordem monetária espontânea e descentralizada que nenhum planejador central pode controlar. Ele cumpre o imperativo cypherpunk de escrever código ao transformar ideais abstratos de liberdade financeira e privacidade em tecnologia funcional. E serve à defesa individualista da autonomia moral ao possibilitar propriedade soberana, proteger os frutos do trabalho e preservar a privacidade, permitindo que cada pessoa seja dona da própria vida.
+reviewed: false

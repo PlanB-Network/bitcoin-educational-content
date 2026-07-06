@@ -1,0 +1,9 @@
+question: "Kuidas toimib Bitcoin pigem moraalse projektina, millel on poliitilised tagajärjed, kui poliitilise projektina, millel on moraalsed väited?"
+answer: "Bitcoin loodi selleks, et teha inimesed vabaks, mitte rikkaks, võimaldades tõhusat omandit, kaitstes töö väärtust ja säilitades privaatsust; need on moraalsed saavutused, mis tekitavad poliitilisi mõjusid, kuulutamata kuuluvust ühelegi poliitilisele leerile"
+wrong_answers:
+  - "Bitcoin on moraalne projekt, sest selle kood jõustab eetilisi reegleid, mis takistavad pettust, ja selle poliitiline tagajärg on demokraatliku valitsemise asendamine algoritmilise otsustamisega"
+  - "Bitcoin toimib moraalse projektina, sest see jaotab rikkust ümber rikastelt varajastele kasutajatele, luues õiglasema ühiskonna, millel on poliitilised tagajärjed maksupoliitikale"
+  - "Bitcoin on moraalne, sest Satoshi Nakamoto põimis protokolli eetilised käsud, ja selle poliitiline tagajärg on kõigi poliitiliste perekondade ühendamine ühise rahasüsteemi alla"
+explanation: >-
+  Bitcoin ei loodud selleks, et teha inimesi rikkaks, vaid selleks, et teha nad vabaks. See saavutab kolm moraalset tulemust: võimaldab tõhusat omandit (ergutades vastutust), kaitseb tööga loodud väärtust (julgustades produktiivset pingutust) ja säilitab privaatsuse (võimaldades inimestel elada hirmuta). Need on moraalsed saavutused, millel on poliitilised tagajärjed, kuulumata ühelegi poliitilisele leerile, mistõttu on see esmalt moraalne ja alles seejärel poliitiline projekt.
+reviewed: false

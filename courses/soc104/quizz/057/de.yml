@@ -1,0 +1,9 @@
+question: "Was sind John Rawls' zwei Gerechtigkeitsprinzipien?"
+answer: "Gleiche Freiheit für alle und das Differenzprinzip, das Ungleichheiten nur erlaubt, wenn sie den am stärksten Benachteiligten zugutekommen"
+wrong_answers:
+  - "Allgemeines Wahlrecht für alle Bürger und progressive Besteuerung zur Finanzierung öffentlicher Dienstleistungen"
+  - "Uneingeschränkte Meinungsfreiheit und verpflichtende Vermögensumverteilung, um Gleichheit zu erreichen"
+  - "Schutz privater Eigentumsrechte und das auf alle staatlichen Handlungen angewandte Nichtaggressionsprinzip"
+explanation: >-
+  Rawls schlägt zwei Prinzipien vor: erstens gleiche Freiheit für alle (die Grundlage der Demokratie) und zweitens das Differenzprinzip, das Ungleichheiten nur erlaubt, wenn sie den am stärksten benachteiligten Mitgliedern der Gesellschaft zugutekommen. Das bedeutet, man hat das Recht, reich zu werden, sofern Umverteilung auch den am wenigsten Begünstigten zugutekommt. Die anderen Optionen vermischen Elemente aus verschiedenen politischen Philosophien.
+reviewed: false

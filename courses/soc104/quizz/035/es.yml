@@ -1,0 +1,9 @@
+question: "¿Qué advertencia hizo Milton Friedman sobre juzgar las políticas públicas?"
+answer: "Las políticas deben juzgarse por sus resultados y no por sus intenciones"
+wrong_answers:
+  - "Las políticas deben juzgarse por el carácter moral de los políticos que las proponen"
+  - "Las políticas deben juzgarse por cuán populares son entre el público votante general"
+  - "Las políticas deben juzgarse por si se ajustan a la constitución original del país"
+explanation: >-
+  Friedman escribió que uno de los mayores errores es juzgar las políticas por sus intenciones en lugar de por sus resultados, señalando que los programas etiquetados como destinados a ayudar a los pobres casi siempre producen efectos opuestos a los que pretendían sus promotores. Esto hace eco de la enseñanza de Bastiat de que un buen economista considera tanto los efectos a corto plazo como los efectos a largo plazo sobre toda la población.
+reviewed: false

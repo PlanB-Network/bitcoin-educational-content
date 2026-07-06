@@ -1,0 +1,9 @@
+question: "Biorąc pod uwagę pełny argument tego kursu, jak Bitcoin jednocześnie ucieleśnia libertariańską krytykę konstruktywizmu, zaangażowanie cypherpunk w działanie oraz indywidualistyczną obronę autonomii moralnej?"
+answer: "Bitcoin zastępuje centralnie planowany pieniądz spontanicznym porządkiem rynkowym (antykonstruktywizm), przekształca abstrakcyjny ideał wolności finansowej w działający kod (działanie cypherpunk) oraz przywraca jednostce suwerenną własność i prywatność (autonomia moralna)"
+wrong_answers:
+  - "Bitcoin używa demokratycznego zarządzania do ustalania polityki monetarnej (antykonstruktywizm), publikuje treści edukacyjne o wolności finansowej (działanie cypherpunk) i pozwala jednostkom głosować nad zmianami protokołu (autonomia moralna)"
+  - "Bitcoin eliminuje wszystkie regulacje finansowe (antykonstruktywizm), tworzy społeczność deweloperów lobbujących za deregulacją (działanie cypherpunk) i daje zamożnym jednostkom większą kontrolę nad polityką monetarną (autonomia moralna)"
+  - "Bitcoin decentralizuje infrastrukturę serwerową w wielu krajach (antykonstruktywizm), używa licencji open-source do swobodnego dzielenia się technologią (działanie cypherpunk) i zapewnia anonimowe platformy mediów społecznościowych dla sprzeciwu politycznego (autonomia moralna)"
+explanation: >-
+  Bitcoin znajduje się na przecięciu trzech tradycji intelektualnych omawianych w kursie. Ucieleśnia argument antykonstruktywistyczny, zastępując centralnie planowany pieniądz fiat spontanicznym, zdecentralizowanym porządkiem monetarnym, którego żaden centralny planista nie może kontrolować. Spełnia imperatyw cypherpunk pisania kodu, zamieniając abstrakcyjne ideały wolności finansowej i prywatności w działającą technologię. I służy indywidualistycznej obronie autonomii moralnej, umożliwiając suwerenną własność, chroniąc owoce pracy i zachowując prywatność, pozwalając każdej osobie być panem własnego życia.
+reviewed: false

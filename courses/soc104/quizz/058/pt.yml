@@ -1,0 +1,9 @@
+question: "Quais são os dois princípios de justiça de John Rawls?"
+answer: "Liberdade igual para todos, e o princípio da diferença, que permite desigualdades apenas se elas beneficiarem os mais desfavorecidos"
+wrong_answers:
+  - "Sufrágio universal para todos os cidadãos, e tributação progressiva para financiar serviços públicos"
+  - "Liberdade de expressão sem restrição, e redistribuição obrigatória de riqueza para alcançar a igualdade"
+  - "Proteção dos direitos de propriedade privada, e o princípio de não agressão aplicado a todas as ações do Estado"
+explanation: >-
+  Rawls propõe dois princípios: primeiro, liberdade igual para todos (o fundamento da democracia), e segundo, o princípio da diferença, que permite desigualdades apenas se elas beneficiarem os membros mais desfavorecidos da sociedade. Isso significa que alguém tem o direito de enriquecer, desde que a redistribuição permita que os menos favorecidos também se beneficiem. As outras opções misturam elementos de diferentes filosofias políticas.
+reviewed: false

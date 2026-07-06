@@ -1,0 +1,9 @@
+question: "Który z poniższych przykładów jest przykładem spontanicznego porządku opisanego przez Hayeka?"
+answer: "Język, który rozwinął się organicznie przez historyczne interakcje, zamiast zostać zaprojektowany przez intelektualistów w biurze"
+wrong_answers:
+  - "Konstytucja narodowa, która została starannie opracowana przez wybranych przedstawicieli w celu ustanowienia reguł społecznych"
+  - "Rządowy plan stymulacyjny, który został zaprojektowany przez ekonomistów w celu koordynowania aktywności gospodarczej"
+  - "Publiczny system edukacji, który został stworzony przez ustawodawców w celu zapewnienia powszechnego dostępu do wiedzy"
+explanation: >-
+  Hayek opisuje porządek spontaniczny jako produkt swobodnych interakcji w społeczeństwie, wynikający z ludzkiego działania, ale nie z celowego ludzkiego projektu. Język jest głównym przykładem: francuski, angielski i niemiecki nie zostały skonstruowane przez intelektualistów decydujących o zasadach gramatyki, lecz wyłoniły się jako owoc powolnej, organicznej organizacji zbudowanej przez historyczne interakcje.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Qual è la distinzione fondamentale di Hannah Arendt tra dispotismo classico e totalitarismo?"
+answer: "Il totalitarismo non si limita a sottomettere le persone a regole tiranniche, ma rende gli esseri umani incapaci di agire in modo indipendente, negando la politica stessa"
+wrong_answers:
+  - "Il dispotismo classico controlla l'economia, mentre il totalitarismo controlla solo le istituzioni politiche e militari"
+  - "Il totalitarismo è semplicemente una versione più estrema del dispotismo, diversa solo per la scala della repressione"
+  - "Il dispotismo classico usa l'ideologia per giustificare il proprio dominio, mentre il totalitarismo si basa esclusivamente sulla forza militare"
+explanation: >-
+  Arendt sostiene che il totalitarismo è fondamentalmente diverso dal dispotismo classico. Non è semplicemente una tirannia più estrema, ma un sistema che rende gli esseri umani superflui, distruggendo la loro capacità di agire in modo indipendente. Per Arendt, la politica è la capacità di un popolo di prendere in mano il proprio destino, e il totalitarismo è la negazione stessa di questa capacità, il che lo rende qualitativamente diverso dal dispotismo.
+reviewed: false

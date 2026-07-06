@@ -1,0 +1,9 @@
+question: "Mitkä ovat John Rawlsin kaksi oikeudenmukaisuuden periaatetta?"
+answer: "Yhtäläinen vapaus kaikille sekä eroperiaate, joka sallii eriarvoisuudet vain, jos ne hyödyttävät kaikkein heikoimmassa asemassa olevia"
+wrong_answers:
+  - "Yleinen äänioikeus kaikille kansalaisille sekä progressiivinen verotus julkisten palvelujen rahoittamiseksi"
+  - "Rajoittamaton sananvapaus sekä pakollinen varallisuuden uudelleenjako tasa-arvon saavuttamiseksi"
+  - "Yksityisomistuksen oikeuksien suoja sekä hyökkäämättömyysperiaate sovellettuna kaikkiin valtion toimiin"
+explanation: >-
+  Rawls esittää kaksi periaatetta: ensinnäkin yhtäläinen vapaus kaikille (demokratian perusta) ja toiseksi eroperiaate, joka sallii eriarvoisuudet vain, jos ne hyödyttävät yhteiskunnan kaikkein heikoimmassa asemassa olevia jäseniä. Tämä tarkoittaa, että ihmisellä on oikeus rikastua, kunhan uudelleenjako antaa myös huono-osaisimmille mahdollisuuden hyötyä. Muut vaihtoehdot sekoittavat eri poliittisten filosofioiden elementtejä.
+reviewed: false

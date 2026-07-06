@@ -1,0 +1,9 @@
+question: "Čo cypherpunkový princíp „Cypherpunkovia píšu kód“ odhaľuje o prístupe hnutia k dosahovaniu slobody?"
+answer: "Že cesta k slobode vedie cez aktívne budovanie anonymných systémov, pričom kód je základným nástrojom na premenu abstraktných predstáv slobody na realitu"
+wrong_answers:
+  - "Že cypherpunkovia sú predovšetkým softvéroví vývojári, ktorí píšu komerčné aplikácie na financovanie svojich kampaní politického aktivizmu"
+  - "Že hnutie verí vo vzdelávanie verejnosti prostredníctvom písaných manifestov a akademických publikácií namiesto priamej akcie"
+  - "Že cypherpunkovia sa zameriavajú na hackovanie existujúcich vládnych systémov, aby odhalili programy sledovania a vynútili legislatívnu reformu"
+explanation: >-
+  Formula „Cypherpunkovia píšu kód“ odráža záväzok hnutia k aktívnemu zásahu namiesto obyčajnej nádeje. Pre Erica Hughesa vedie cesta k slobode cez aktívne budovanie anonymných systémov, ktoré robia svojvoľné politické delenia irelevantnými. Kód sa stáva základným nástrojom na premenu abstraktných predstáv slobody na realitu, a preto Satoshi Nakamoto napísal celý kód Bitcoinu ešte predtým, ako vôbec napísal white paper.
+reviewed: false

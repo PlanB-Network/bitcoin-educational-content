@@ -1,0 +1,9 @@
+question: "Apa yang diungkapkan prinsip cypherpunk 'Cypherpunks write code' tentang pendekatan gerakan tersebut untuk mencapai kebebasan?"
+answer: "Bahwa jalan menuju kebebasan melewati pembangunan aktif sistem anonim dengan menggunakan code sebagai alat fundamental untuk mengubah gagasan abstrak tentang kebebasan menjadi kenyataan"
+wrong_answers:
+  - "Bahwa cypherpunk terutama adalah pengembang software yang menulis aplikasi komersial untuk mendanai kampanye aktivisme politik mereka"
+  - "Bahwa gerakan tersebut percaya pada edukasi publik melalui manifesto tertulis dan publikasi akademik, bukan aksi langsung"
+  - "Bahwa cypherpunk berfokus pada hacking sistem pemerintah yang ada untuk mengungkap program pengawasan dan memaksa reformasi legislatif"
+explanation: >-
+  Formula "Cypherpunks write code" mencerminkan komitmen gerakan tersebut pada intervensi aktif, bukan sekadar harapan. Bagi Eric Hughes, jalan menuju kebebasan melewati konstruksi aktif sistem anonim yang membuat pembagian politik arbitrer menjadi tidak relevan. Code menjadi alat fundamental untuk mengubah gagasan abstrak tentang kebebasan menjadi kenyataan, itulah sebabnya Satoshi Nakamoto menulis seluruh code Bitcoin bahkan sebelum menulis white paper.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Šta je Ludwig von Mises mislio kada je napisao da samo pojedinac misli, rasuđuje i deluje?"
+answer: "Da kolektiviteti poput države ili nacije nemaju sopstveno postojanje izvan delovanja svojih pojedinačnih članova"
+wrong_answers:
+  - "Da pojedinci treba da izbegavaju formiranje grupa ili udruženja zato što je kolektivno delovanje uvek štetno"
+  - "Da su samo određeni daroviti pojedinci sposobni za racionalno mišljenje, dok većina ljudi sledi instinkt"
+  - "Da su mišljenje i rasuđivanje privatne aktivnosti koje nikada ne treba deliti niti raspravljati o njima u javnosti"
+explanation: >-
+  Mises je razjasnio da se individualizam suprotstavlja predstavi da društveni entiteti poput društva ili nacije mogu postojati nezavisno od pojedinaca koji ih čine. Kolektivitet nema sopstveno postojanje izvan delovanja svojih pojedinačnih članova. Ne možemo smisleno govoriti o delovanju države ili kompanije zato što ti entiteti nemaju sopstvenu volju ili misao i deluju samo kroz pojedince.
+reviewed: false

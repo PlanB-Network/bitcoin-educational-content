@@ -1,0 +1,9 @@
+question: "Que ponto em comum os partidos políticos de esquerda e de direita compartilham apesar de sua aparente oposição?"
+answer: "Ambos defendem o direito do Estado de governar a vida das pessoas por meio de regulações e impostos"
+wrong_answers:
+  - "Ambos defendem a abolição completa da intervenção estatal em questões econômicas"
+  - "Ambos priorizam a liberdade individual acima da organização coletiva da sociedade"
+  - "Ambos rejeitam o uso da política monetária como ferramenta para os gastos do governo"
+explanation: >-
+  Apesar de parecerem opostas, esquerda e direita compartilham uma preferência pela intervenção estatal. Ambas criticam o livre mercado e defendem o direito do Estado de governar a vida das pessoas por meio de regulações e impostos. A esquerda critica os mercados como fonte de desigualdade, enquanto a direita os vê como uma ameaça à soberania, mas ambas recorrem ao Estado em busca de soluções.
+reviewed: false

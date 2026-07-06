@@ -1,0 +1,9 @@
+question: "Akú správu vložil Satoshi Nakamoto do prvého bloku Bitcoinu, ktorý bol kedy vyťažený?"
+answer: "Titulok z londýnskych Times o ministrovi financií na pokraji druhej záchrany bánk"
+wrong_answers:
+  - "Citát Friedricha Hayeka o nebezpečenstvách centrálneho plánovania a vládnej kontroly nad peniazmi"
+  - "Vyhlásenie nezávislosti od všetkých foriem vlády a finančnej regulácie na celom svete"
+  - "Matematický dôkaz preukazujúci, že decentralizovaná mena je efektívnejšia než fiat peniaze"
+explanation: >-
+  V genesis bloku Satoshi Nakamoto vložil symbolický titulok z londýnskych Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Bol to priamy odkaz na finančnú krízu z roku 2008 a menový intervencionizmus, ktorý po nej nasledoval, čím sa zámer Bitcoinu ako alternatívy k centralizovaným bankovým systémom stal nezameniteľným.
+reviewed: false

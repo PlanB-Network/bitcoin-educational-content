@@ -1,0 +1,9 @@
+question: "Jakie są dwie zasady sprawiedliwości Johna Rawlsa?"
+answer: "Równa wolność dla wszystkich oraz zasada różnicy, dopuszczająca nierówności tylko wtedy, gdy przynoszą korzyść najmniej uprzywilejowanym"
+wrong_answers:
+  - "Powszechne prawo wyborcze dla wszystkich obywateli oraz progresywne opodatkowanie finansujące usługi publiczne"
+  - "Wolność słowa bez ograniczeń oraz obowiązkowa redystrybucja bogactwa w celu osiągnięcia równości"
+  - "Ochrona praw własności prywatnej oraz zasada nieagresji stosowana do wszystkich działań państwa"
+explanation: >-
+  Rawls proponuje dwie zasady: po pierwsze, równą wolność dla wszystkich (fundament demokracji), a po drugie, zasadę różnicy, która dopuszcza nierówności tylko wtedy, gdy przynoszą korzyść najmniej uprzywilejowanym członkom społeczeństwa. Oznacza to, że można mieć prawo do wzbogacenia się, pod warunkiem że redystrybucja pozwala korzystać również najmniej uprzywilejowanym. Pozostałe opcje mieszają elementy różnych filozofii politycznych.
+reviewed: false

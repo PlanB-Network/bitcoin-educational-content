@@ -1,0 +1,9 @@
+question: "Millise eristuse tegi Karl Marx utoopilise sotsialismi ja teadusliku sotsialismi vahel?"
+answer: "Ta süüdistas varaseid prantsuse sotsialiste kujuteldavate lahenduste pakkumises, samas kui tema teaduslik sotsialism tugines ajaloolisele materialismile ja klassivõitlusele"
+wrong_answers:
+  - "Ta väitis, et utoopiline sotsialism keskendus liiga palju majandusele, samas kui teaduslik sotsialism eelistas kultuurilist ja kunstilist ümberkujundamist"
+  - "Ta kiitis utoopilisi sotsialiste nende praktiliste katsete eest ja kritiseeris teaduslikku sotsialismi selle liigse abstraktsuse ja teoreetilisuse pärast"
+  - "Ta väitis, et utoopiline sotsialism oli vägivaldne ja revolutsiooniline, samas kui teaduslik sotsialism eelistas rahumeelset demokraatlikku reformi"
+explanation: >-
+  Marx süüdistas varaseid prantsuse sotsialiste, nagu Proudhon, Saint-Simon ja Fourier, selles, et nad olid utopistid, kes pakkusid puhtalt kujuteldavaid lahendusi. Tema teaduslik sotsialism põhines ajaloolisel materialismil: ideel, et ajalugu areneb klassivõitluse ja tootmisvahendite omastamise kaudu ning kõik kultuurilised representatsioonid on tingitud tootmisjõududest ja tootmissuhetest.
+reviewed: false

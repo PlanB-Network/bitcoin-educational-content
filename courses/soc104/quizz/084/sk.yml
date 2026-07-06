@@ -1,0 +1,9 @@
+question: "Aký je Hayekov základný argument o tom, prečo centrálne plánovanie zlyháva?"
+answer: "Poznanie existuje iba ako rozptýlené úlomky vlastnené odlišnými jednotlivcami a nemôže byť sústredené ani integrované centrálnou autoritou"
+wrong_answers:
+  - "Centrálni plánovači sú morálne skorumpovaní a vždy konajú vo vlastnom záujme namiesto verejného dobra"
+  - "Demokratické inštitúcie reagujú na ekonomické zmeny príliš pomaly, takže centralizované rozhodnutia sú vždy zastarané"
+  - "Centrálne plánovanie zlyháva, pretože občania úmyselne odporujú vládnym príkazom a odmietajú dodržiavať regulácie"
+explanation: >-
+  Hayekov základný argument spočíva v povahe informácií. Ukázal, že poznanie nikdy neexistuje v sústredenej alebo integrovanej podobe, ale iba ako rozptýlené úlomky vlastnené všetkými odlišnými jednotlivcami. Hodnota je subjektívna a známa iba miestne a neúplne. Centrálny plánovač sediaci v kancelárii nemá nijaké poznanie skutočnej ceny vecí, pretože sa nezúčastňuje na interakcii a výmene.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Was ist das grundlegende Problem von Fiatwährungen, das Satoshi Nakamoto identifizierte?"
+answer: "Sie erfordern Vertrauen in die Zentralbank, die Währung nicht zu entwerten, doch die Geschichte der Fiatwährungen ist voller Verletzungen dieses Vertrauens"
+wrong_answers:
+  - "Sie sind für alltägliche Transaktionen zu schwierig zu verwenden, weil physisches Bargeld schnell verschleißt und teuer herzustellen ist"
+  - "Sie können nicht international übertragen werden, weil jedes Land inkompatible monetäre Standards und Vorschriften hat"
+  - "Sie sind durch Goldreserven gedeckt, die nicht ausreichen, um die gesamte umlaufende Geldmenge zu decken"
+explanation: >-
+  Satoshi Nakamoto erklärte, dass das grundlegende Problem konventioneller Währungen das Vertrauen ist, das für ihr Funktionieren erforderlich ist. Fiatwährungen sind nicht durch eine Ware gedeckt, sondern ruhen vollständig auf institutioneller Autorität. Wenn eine Institution die totale Kontrolle über Geld besitzt, ist die Versuchung zum Missbrauch zu stark, und die Geschichte hat dies wiederholt durch Währungsentwertung gezeigt.
+reviewed: false

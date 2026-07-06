@@ -1,0 +1,9 @@
+question: "Jaký je Hayekův základní argument, proč centrální plánování selhává?"
+answer: "Znalosti existují pouze jako rozptýlené fragmenty vlastněné různými jednotlivci a centrální autorita je nemůže soustředit ani integrovat"
+wrong_answers:
+  - "Centrální plánovači jsou morálně zkažení a vždy jednají ve vlastním zájmu, nikoli ve veřejném dobru"
+  - "Demokratické instituce reagují na ekonomické změny příliš pomalu, takže centralizovaná rozhodnutí jsou vždy zastaralá"
+  - "Centrální plánování selhává, protože občané záměrně odporují vládním nařízením a odmítají dodržovat regulace"
+explanation: >-
+  Hayekův základní argument spočívá v povaze informací. Ukázal, že znalost nikdy neexistuje v koncentrované nebo integrované podobě, ale pouze jako rozptýlené fragmenty vlastněné všemi jednotlivými lidmi. Hodnota je subjektivní a známa jen lokálně a neúplně. Centrální plánovač sedící v kanceláři nezná skutečnou cenu věcí, protože se neúčastní interakce a směny.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mistä vasemmisto–oikeisto-poliittinen jako on peräisin?"
+answer: "Istumajärjestyksestä Ranskan vallankumouksen väittelyissä vuonna 1789"
+wrong_answers:
+  - "Karl Marxin ja Adam Smithin kirjoituksista 1800-luvulla"
+  - "Yhdysvaltain sisällissodasta pohjoisten ja eteläisten osavaltioiden välillä"
+  - "Valistusfilosofeista, jotka erottivat järjen perinteestä"
+explanation: >-
+  Vasemmisto–oikeisto-jako juontaa vuoteen 1789, jolloin Ranskan kansalliskokouksen edustajat, jotka kannattivat kuninkaan vallan säilyttämistä, istuivat puhemiehen oikealla puolella, kun taas ne, jotka halusivat rajoittaa hänen valtaansa, istuivat vasemmalla. Se ei saanut alkuaan Marxista ja Smithistä, Yhdysvaltain sisällissodasta eikä valistusfilosofiasta.
+reviewed: false

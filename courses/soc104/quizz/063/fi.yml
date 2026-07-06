@@ -1,0 +1,9 @@
+question: "Miksi libertaariseen kantaan huumeiden laillistamisesta liittyy ehto, että valtion roolia yhteiskunnassa on kavennettava?"
+answer: "Koska valtion haltuun ottama vapauttaminen korvaisi yksilöllisen vastuun valtion hallinnoimalla hoidolla, kun taas libertaarit haluavat kansalaisten kantavan valintojensa seuraukset yksityisten yhdistysten tuella"
+wrong_answers:
+  - "Koska valtion kontrolloima laillistaminen tuottaisi liikaa verotuloja ja tekisi hallituksesta liian voimakkaan ja korruptoituneen"
+  - "Koska valtio asettaisi laatustandardeja, jotka nostaisivat hintoja ja loisivat mustat markkinat uudelleen"
+  - "Koska valtion huumesääntely rikkoisi kansainvälisiä kauppasopimuksia ja diplomaattisia suhteita"
+explanation: >-
+  Libertaarit tukevat huumeiden vapauttamista, mutta vaativat valtion roolin kaventamista, koska heidän tavoitteensa on palauttaa yksilöllinen vastuu, ei laajentaa valtion hallinnointia. Jos joku tulee riippuvaiseksi, hänen on kannettava vastuu sen sijaan, että pyytäisi valtiota tarjoamaan hoitoa. Ratkaisu riippuvuuteen löytyy yksityisestä aloitteellisuudesta: yksilöiden, perheiden ja hyväntekeväisyysyhdistysten vapaaehtoisesta tuesta. Valtion hallinnoima laillistaminen olisi ristiriidassa henkilökohtaisen vastuun perustavan libertaarisen periaatteen kanssa.
+reviewed: false

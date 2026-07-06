@@ -1,0 +1,9 @@
+question: "Ce dezvăluie principiul cypherpunk 'Cypherpunks write code' despre abordarea mișcării pentru obținerea libertății?"
+answer: "Că drumul către libertate trece prin construirea activă de sisteme anonime, folosind codul ca instrument fundamental pentru transformarea ideilor abstracte de libertate în realitate"
+wrong_answers:
+  - "Că cypherpunks sunt în primul rând dezvoltatori software care scriu aplicații comerciale pentru a finanța campaniile lor de activism politic"
+  - "Că mișcarea crede în educarea publicului prin manifeste scrise și publicații academice, mai degrabă decât prin acțiune directă"
+  - "Că cypherpunks se concentrează pe hacking-ul sistemelor guvernamentale existente pentru a expune programele de supraveghere și a forța reforma legislativă"
+explanation: >-
+  Formula "Cypherpunks write code" reflectă angajamentul mișcării față de intervenția activă, nu simpla speranță. Pentru Eric Hughes, drumul către libertate trece prin construirea activă a unor sisteme anonime care fac diviziunile politice arbitrare irelevante. Codul devine instrumentul fundamental pentru transformarea ideilor abstracte de libertate în realitate, motiv pentru care Satoshi Nakamoto a scris întregul cod Bitcoin înainte chiar de a scrie white paper-ul.
+reviewed: false

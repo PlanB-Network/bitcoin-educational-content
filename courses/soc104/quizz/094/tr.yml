@@ -1,0 +1,9 @@
+question: "Bitcoin refah devletinin hangi üç sütununa meydan okur?"
+answer: "Mali sistem, harcamaları borç yoluyla finanse etmeye yarayan parasal tekel ve alternatif para birimlerinin kullanımını engellemek için işlemlerin gözetimi"
+wrong_answers:
+  - "Askerî bütçe, kamu eğitim sistemi ve devlet kontrolündeki sağlık altyapısı"
+  - "Yargı sistemi, yasama süreci ve işletmelere yönelik düzenlemelerin yürütme tarafından uygulanması"
+  - "Sosyal güvenlik sistemi, asgari ücret mevzuatı ve artan oranlı gelir vergisi yapısı"
+explanation: >-
+  Bitcoin, refah devletinin dayandığı üç sütuna meydan okur. Birincisi, harcamaları karşılamaya yetmeyen mali sistemdir. İkincisi, harcamaları borç yoluyla finanse etmek için para çıkarma kapasitesi anlamına gelen parasal tekeldir. Üçüncüsü, işlemlerin gözetimidir; yani insanların devlet tarafından dayatılan fiat paradan başka herhangi bir para birimi kullanmasını engelleme yeteneğidir. Bitcoin üçünü de aynı anda zayıflatır.
+reviewed: false

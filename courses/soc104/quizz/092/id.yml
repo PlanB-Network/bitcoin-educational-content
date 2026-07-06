@@ -1,0 +1,9 @@
+question: "Pesan apa yang disisipkan Satoshi Nakamoto ke dalam blok Bitcoin pertama yang pernah ditambang?"
+answer: "Sebuah headline dari London Times tentang Chancellor yang berada di ambang bailout bank kedua"
+wrong_answers:
+  - "Sebuah kutipan dari Friedrich Hayek tentang bahaya perencanaan terpusat dan kendali pemerintah atas uang"
+  - "Sebuah deklarasi kemerdekaan dari semua bentuk pemerintahan dan regulasi keuangan di seluruh dunia"
+  - "Sebuah pembuktian matematis yang menunjukkan bahwa mata uang terdesentralisasi lebih efisien daripada uang fiat"
+explanation: >-
+  Dalam genesis block, Satoshi Nakamoto menyisipkan sebuah headline simbolis dari London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Ini adalah rujukan langsung pada krisis keuangan 2008 dan intervensionisme moneter yang mengikutinya, sehingga niat Bitcoin menjadi tidak keliru dipahami sebagai alternatif bagi sistem perbankan tersentralisasi.
+reviewed: false

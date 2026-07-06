@@ -1,0 +1,9 @@
+question: "Kdo v roce 1992 spustil první mailing list Cypherpunks?"
+answer: "Tim May a Eric Hughes, kteří vytvořili platformu, jež se stala nervovým centrem hnutí"
+wrong_answers:
+  - "Satoshi Nakamoto a Hal Finney, kteří později společně v roce 2008 vytvořili Bitcoin"
+  - "Julian Assange a Edward Snowden, kteří seznam používali ke koordinaci vládních whistleblowingových aktivit"
+  - "Phil Zimmermann a Bruce Schneier, kteří seznam navrhli jako nástroj pro distribuci šifrovacího softwaru"
+explanation: >-
+  V roce 1992 spustili Tim May a Eric Hughes první mailing list Cypherpunks. Tato platforma se rychle stala nervovým centrem hnutí a spojovala vývojáře, kryptografy a zastánce digitální svobody. Právě na tomto seznamu později Satoshi Nakamoto poprvé sdílel Bitcoin White Paper v roce 2008.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Miten cypherpunkien filosofia keskittämisestä kytkeytyy libertaariseen periaatteeseen suostumuksesta oikeudenmukaisuuden perustavana normina?"
+answer: "Cypherpunkit näkevät kaiken keskittämisen perustuvan pakkoon eikä suostumukseen, mikä heijastaa libertaarista kantaa, jonka mukaan mikään ei voi olla oikeudenmukaista, jos keskitetty auktoriteetti määrää sen voimalla"
+wrong_answers:
+  - "Cypherpunkit uskovat keskittämisen olevan hyväksyttävää, kun demokraattinen enemmistöäänestys hyväksyy sen, mikä on linjassa libertaarisen perustuslaillisen hallinnon kunnioituksen kanssa"
+  - "Cypherpunkit tukevat väliaikaista keskittämistä hätätilanteissa, mikä heijastaa libertaarista näkemystä siitä, että yksilön oikeudet voidaan keskeyttää, kun kollektiivi on uhattuna"
+  - "Cypherpunkit vastustavat keskittämistä vain teknologiajärjestelmissä, mutta hyväksyvät poliittisen keskittämisen välttämättömänä omistusoikeuksien ja sopimusten toimeenpanolle"
+explanation: >-
+  Cypherpunkit asettavat luottamuksensa hajautettuihin kryptografisiin järjestelmiin keskitettyjen instituutioiden sijaan. Kaikki keskittäminen nähdään pakkoon eikä suostumukseen perustuvana. Tämä heijastaa suoraan libertaarista filosofiaa, jonka mukaan suostumus on oikeudenmukaisuuden perustava normi. Mikään ei voi olla oikeudenmukaista, jos keskitetty auktoriteetti määrää sen voimalla, minkä vuoksi he pyrkivät rakentamaan hajautettuja verkkoja, joissa mikään yksittäinen toimija ei voisi pakottaa tahtoaan muille.
+reviewed: false

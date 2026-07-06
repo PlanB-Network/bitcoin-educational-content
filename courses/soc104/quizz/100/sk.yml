@@ -1,0 +1,9 @@
+question: "Ako sa cypherpunková filozofia centralizácie spája s libertariánskym princípom súhlasu ako základnou normou spravodlivosti?"
+answer: "Cypherpunkovia vnímajú každú centralizáciu ako založenú na nátlaku, nie na súhlase, čím odzrkadľujú libertariánsky postoj, že nič nemôže byť spravodlivé, ak je to silou vnucované centralizovanou autoritou"
+wrong_answers:
+  - "Cypherpunkovia veria, že centralizácia je prijateľná, keď ju schváli demokratická väčšina hlasovaním, čo je v súlade s libertariánskym rešpektom ku konštitučnému vládnutiu"
+  - "Cypherpunkovia podporujú dočasnú centralizáciu počas núdzových situácií, čo odráža libertariánsky názor, že individuálne práva možno pozastaviť, keď je ohrozený kolektív"
+  - "Cypherpunkovia odmietajú centralizáciu iba v technologických systémoch, zatiaľ čo politickú centralizáciu prijímajú ako nevyhnutnú na presadzovanie vlastníckych práv a zmlúv"
+explanation: >-
+  Cypherpunkovia vkladajú dôveru do decentralizovaných kryptografických systémov namiesto centralizovaných inštitúcií. Každá centralizácia je vnímaná ako založená na nátlaku, nie na súhlase. To priamo odzrkadľuje libertariánsku filozofiu, podľa ktorej je súhlas základnou normou spravodlivosti. Nič nemôže byť spravodlivé, ak je to silou vnucované centralizovanou autoritou, a preto sa snažili budovať decentralizované siete, v ktorých žiadny jediný subjekt nemohol vnucovať svoju vôľu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Zašto Ron Paul tvrdi da su Federalne rezerve štetne i kako se Bitcoin odnosi prema njegovom stavu?"
+answer: "Federalne rezerve izazivaju inflaciju i ekonomske cikluse manipulacijom fiat novcem, a Bitcoin predstavlja oblik zdravog novca koji bi mogao da zameni zlatni standard"
+wrong_answers:
+  - "Federalne rezerve ograničavaju konkurenciju među bankama, a Bitcoin decentralizuje bankarske usluge radi poboljšanja finansijske inkluzije"
+  - "Federalne rezerve sprečavaju slobodnu trgovinu među državama, a Bitcoin omogućava transakcije bez granica i bez odobrenja države"
+  - "Federalne rezerve stvaraju prekomerni državni dug, a Bitcoin nudi deflatornu valutu koja eliminiše nacionalni dug"
+explanation: >-
+  Ron Paul, minarhista, tvrdi da su Federalne rezerve odgovorne za inflaciju i ekonomske cikluse zato što manipulišu fiat novcem. On zagovara denacionalizaciju novca, ideju koju je zastupao Friedrich Hayek, i vidi Bitcoin kao oblik zdravog novca koji bi mogao da zameni zlatni standard. Njegova kritika ukorenjena je u libertarijanskoj monetarnoj teoriji, a ne prvenstveno u bankarskoj konkurenciji, trgovinskim barijerama ili državnom dugu.
+reviewed: false

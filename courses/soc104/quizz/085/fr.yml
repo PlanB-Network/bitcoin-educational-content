@@ -1,0 +1,9 @@
+question: "Lequel des exemples suivants illustre un ordre spontané tel que décrit par Hayek ?"
+answer: "Le langage, qui s'est développé organiquement par des interactions historiques plutôt que d'être conçu par des intellectuels dans un bureau"
+wrong_answers:
+  - "Une constitution nationale, qui a été soigneusement rédigée par des représentants élus pour établir des règles sociales"
+  - "Un plan de relance gouvernemental, qui a été conçu par des économistes pour coordonner l'activité économique"
+  - "Un système d'éducation publique, qui a été créé par des législateurs pour assurer l'accès universel au savoir"
+explanation: >-
+  Hayek décrit l'ordre spontané comme le produit des interactions libres dans la société, résultant de l'action humaine mais non d'un dessein humain délibéré. Le langage en est un exemple majeur : le français, l'anglais et l'allemand n'ont pas été construits par des intellectuels décidant des règles de grammaire, mais ont émergé comme le fruit d'une organisation lente et organique construite par des interactions historiques.
+reviewed: false

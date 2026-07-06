@@ -1,0 +1,9 @@
+question: "Kuka käynnisti ensimmäisen Cypherpunk-sähköpostilistan vuonna 1992?"
+answer: "Tim May ja Eric Hughes, jotka loivat alustan, josta tuli liikkeen hermokeskus"
+wrong_answers:
+  - "Satoshi Nakamoto ja Hal Finney, jotka myöhemmin loivat Bitcoinin yhdessä vuonna 2008"
+  - "Julian Assange ja Edward Snowden, jotka käyttivät listaa valtiollisten väärinkäytösten paljastamistoimien koordinointiin"
+  - "Phil Zimmermann ja Bruce Schneier, jotka suunnittelivat listan salausohjelmistojen jakelutyökaluksi"
+explanation: >-
+  Vuonna 1992 Tim May ja Eric Hughes käynnistivät ensimmäisen Cypherpunk-sähköpostilistan. Tästä alustasta tuli nopeasti liikkeen hermokeskus, joka kokosi yhteen kehittäjiä, kryptografeja ja digitaalisen vapauden puolustajia. Samalla listalla Satoshi Nakamoto jakoi myöhemmin Bitcoinin White Paperin ensimmäistä kertaa vuonna 2008.
+reviewed: false

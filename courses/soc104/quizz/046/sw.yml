@@ -1,0 +1,9 @@
+question: "Uhafidhina hushughulikiaje uhuru katika nyanja za kiuchumi na kijamii?"
+answer: "Uhuru imara katika nyanja ya kiuchumi lakini uhuru dhaifu katika nyanja ya kijamii"
+wrong_answers:
+  - "Uhuru dhaifu katika nyanja zote za kiuchumi na kijamii ili kudumisha mpangilio wa kijamii wa jadi"
+  - "Uhuru imara katika nyanja ya kijamii lakini uhuru dhaifu katika nyanja ya kiuchumi"
+  - "Uhuru sawa na usio na kikomo katika nyanja zote mbili huku serikali ikiingilia kwa kiwango kidogo sana cha aina yoyote"
+explanation: >-
+  Uhafidhina unaonyesha mgawanyiko ulio kama picha ya kioo ya ujamaa. Katika eneo la kiuchumi, wahafidhina hutetea soko huria, ujasiriamali, na mali binafsi. Katika eneo la kijamii, vizuizi huhalalishwa kwa kuhifadhi kanuni za kimaadili za jadi na uthabiti wa kijamii. Jibu la tatu lisilo sahihi linaeleza muundo wa ujamaa, ambao ni kinyume chake.
+reviewed: false

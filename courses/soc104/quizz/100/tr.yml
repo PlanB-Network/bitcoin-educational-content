@@ -1,0 +1,9 @@
+question: "Liberteryenler bireylerin karar verme kapasitesi hakkında neye inanır?"
+answer: "Bireyler kendi hayatları hakkında kendi kararlarını verme hakkına da sorumluluğuna da sahiptir"
+wrong_answers:
+  - "Bireyler kararlarını yalnızca politika sonuçlarını anlayan seçilmiş temsilcilere danıştıktan sonra vermelidir"
+  - "Bireyler genellikle iyi kararlar verme konusunda yetersizdir ve hükümet kurumlarından uzman rehberliğine ihtiyaç duyar"
+  - "Bireyler ekonomik kararları özgürce almalı, fakat tüm toplumsal ve kültürel konularda devlete tabi olmalıdır"
+explanation: >-
+  Liberteryen bakış açısına göre bireyler kendi kararlarını verme hakkına da sorumluluğuna da sahiptir. Bu, soldan sağa geleneksel siyasi ailelerle zıtlık içindedir; çünkü onlar hükümetin bir bireyin hayatındaki ve genel olarak ekonomik hayattaki önemli kararların bazısını ya da çoğunu vermesi gerektiğine inanır.
+reviewed: false

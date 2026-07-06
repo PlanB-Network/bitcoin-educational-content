@@ -1,0 +1,9 @@
+question: "Quels sont les trois piliers de l'État-providence que Bitcoin remet en cause ?"
+answer: "Le système fiscal, le monopole monétaire permettant de financer les dépenses par la dette, et la surveillance des transactions pour empêcher l'utilisation de monnaies alternatives"
+wrong_answers:
+  - "Le budget militaire, le système d'éducation publique et l'infrastructure de santé contrôlée par le gouvernement"
+  - "Le système judiciaire, le processus législatif et l'application exécutive des réglementations sur les entreprises"
+  - "Le système de sécurité sociale, la législation sur le salaire minimum et la structure progressive de l'impôt sur le revenu"
+explanation: >-
+  Bitcoin remet en cause les trois piliers sur lesquels repose l'État-providence. Premièrement, le système fiscal, qui est insuffisant pour couvrir les dépenses. Deuxièmement, le monopole monétaire, c'est-à-dire la capacité d'émettre de la monnaie pour financer les dépenses par la dette. Troisièmement, la surveillance des transactions, la capacité d'empêcher les personnes d'utiliser toute monnaie autre que la monnaie fiat imposée par l'État. Bitcoin sape les trois simultanément.
+reviewed: false

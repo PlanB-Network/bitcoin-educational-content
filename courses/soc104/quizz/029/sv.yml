@@ -1,0 +1,9 @@
+question: "Vad är begreppet 'spontaneous order' enligt Friedrich Hayek?"
+answer: "Sociala regler och normer bör växa fram ur fria individuella interaktioner snarare än påtvingas genom auktoritär planering"
+wrong_answers:
+  - "Marknader tenderar naturligt mot monopol om inte staten ingriper för att upprätthålla konkurrensbalans"
+  - "Demokratiska val är den enda legitima mekanismen för att fastställa de lagar som styr samhället"
+  - "Ekonomiska kriser uppstår spontant och kräver omedelbar statlig intervention för att återställa stabilitet"
+explanation: >-
+  Hayeks begrepp spontaneous order innebär att de regler som styr samhället inte bör påtvingas uppifrån genom central planering utan bör växa fram ur det fria spelet mellan individuella viljor, kontrakt och frivilliga relationer. Detta är en grundläggande axel i libertarianskt tänkande. Det antyder inte att marknader tenderar mot monopol eller att kriser kräver statlig intervention.
+reviewed: false

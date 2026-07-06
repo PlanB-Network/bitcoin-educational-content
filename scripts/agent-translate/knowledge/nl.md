@@ -19,3 +19,19 @@
 - "jet" (Simplicity native implementation) stays untranslated as a term of art in Dutch, same as "gas model"/"gasmodel" for Ethereum's metering (translated as "gasmodel").
 - "denial-of-service" stays in English (common Dutch technical usage); "resource" left in English too, matches established Dutch dev register (e.g. "resourcelimieten", "resourcegebruik").
 - "Rocq proof assistant" → "Rocq-bewijsassistent" (translate "proof assistant" as compound, keep "Rocq" verbatim).
+
+## 2026-07-06
+- SOC political terminology: render `libertarian(s)` as `libertariër(s)` and adjectival `libertarian` as `libertarisch`; `spontaneous order` → `spontane orde`, `constructivism` → `constructivisme`, `central planning` → `centrale planning`.
+- For the `pro-business` / `pro-market` distinction, keep `pro-business` as the English label and translate `pro-market` as `pro-markt` to preserve the conceptual contrast while sounding natural in Dutch.
+- For SOC104 political terminology in Dutch: use `libertariër/libertarisch/libertarianisme` for `libertarian/libertarianism`; keep quoted historical English labels such as `libertarian`/`liberalism` when the sentence discusses US terminology itself.
+- Keep `sound money` as English in Dutch when used as Austrian/libertarian monetary jargon; translate surrounding explanation normally.
+- For the centrism distinction, keep `pro-business` as English and render `pro-market` as `pro-markt` to preserve the contrast used in the source.
+- Political-spectrum terms in SOC quizzes: use "links-rechtsas" for "left-right axis", "links-rechtsverdeling" for "left-right divide", "Nolan-diagram"/"Nolan-diamant" for "Nolan diagram/diamond", and "statisme" for "statism".
+- "Fiat money system" renders naturally as "fiatgeldsysteem" and "fiat currency" as "fiatgeld" in Dutch educational prose.
+- For libertarian taxonomy, use "libertarisme"/"libertair", "anarcho-kapitalisten", and "minarchisten"; keep the informal "je" register in explanatory quiz prose.
+- Political-philosophy distinction in SOC courses: keep French `libertaire(s)` as `libertaire(s)`, but translate English `libertarian(s)`/`libertarianism` as `libertariër(s)`/`libertarisme`; use adjective `libertarisch` for `libertarian position/ideal`.
+- In SOC104 political terminology, keep the US labels `liberal`/`libertarian` in English when the quiz explicitly contrasts American and European usage; translate the ideology around them as "liberaal", "libertair", "libertariër" only when not naming the US label itself.
+- Use "statisme" and "statisten" for `statism`/`statists` in the Nolan-diagram political-philosophy context; avoid "statisch", which means static rather than statist.
+- SOC/Bitcoin political-philosophy quizzes: render "welfare state" as "verzorgingsstaat", "libertarian" as "libertair/libertariër", and "consent" as "instemming" when used as the justice principle.
+- Keep named cypherpunk texts and embedded source quotations/headlines in English when they function as titles or historical artifacts (e.g. "Cypherpunk Manifesto", "Cypherpunks write code", genesis-block Times headline); translate only the surrounding prose.
+- For SOC104 political/economic quizzes: render political families consistently as "libertariërs/libertarisch", "conservatieven/conservatief", "socialisten/socialistisch", and "centristen/centristisch"; use "moreel risico" for "moral hazard" in subsidy/bailout contexts.

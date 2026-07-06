@@ -1,0 +1,9 @@
+question: "Ni ujumbe gani wa msingi wa Manifesto ya Cypherpunk ya Eric Hughes ya mwaka 1993 kuhusu faragha?"
+answer: "Faragha ni muhimu kwa jamii iliyo wazi katika zama za kielektroniki, na watu binafsi lazima waijenge wenyewe badala ya kutarajia serikali au makampuni kuihakikisha"
+wrong_answers:
+  - "Faragha ni anasa inayopaswa kutolewa kafara kwa usalama wa taifa na ulinzi wa taasisi za kidemokrasia"
+  - "Faragha inapaswa kudhibitiwa na mikataba ya kimataifa inayoweka viwango vinavyofanana vya ulinzi wa data katika nchi zote"
+  - "Faragha ni muhimu tu kwa wahalifu na wapinzani wa kisiasa, ilhali raia wanaotii sheria hunufaika na mifumo ya ufuatiliaji iliyo wazi"
+explanation: >-
+  Manifesto ya Eric Hughes ya mwaka 1993 inasema kwamba faragha ni muhimu kwa jamii iliyo wazi katika zama za kielektroniki na kwamba hatuwezi kutarajia serikali, makampuni, au mashirika mengine makubwa kuihakikisha. Msukumo wa msingi ni kwamba usiri ni kipengele muhimu cha uhuru na lazima ujengwe na watu binafsi wenyewe, si kusubiriwa kama zawadi kutoka kwa taasisi.
+reviewed: false

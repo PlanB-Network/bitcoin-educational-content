@@ -1,0 +1,9 @@
+question: "Mussolini'nin 1920 tarihli 'Devlet içinde her şey, Devlet dışında hiçbir şey, Devlete karşı hiçbir şey' beyanı totalitarizm hakkında neyi ortaya koyar?"
+answer: "Kamu alanı ile özel alan arasında artık hiçbir ayrım yoktur, çünkü devlet toplumu bütünüyle soğurur"
+wrong_answers:
+  - "Devlet yalnızca askerî güce odaklanırken ekonomiyi özel teşebbüse bırakır"
+  - "Yurttaşlar hükümeti açıkça eleştirmedikleri sürece özel olarak örgütlenmekte özgürdür"
+  - "Hükümet yalnızca siyasi faaliyeti denetlerken kültürel ve dinî yaşam özerk kalır"
+explanation: >-
+  Mussolini'nin beyanı totalitarizmin özünü yakalar: bütünlük. Her şey devlet tarafından soğurulur; bu da kamu alanı ile özel alan arasında hiçbir ayrım kalmadığı anlamına gelir. Toplum, bir spor kulübü açmak gibi en sıradan faaliyetlere kadar tüm özerklik biçimlerini kaybeder. Bu, yalnızca askerî, siyasi veya ekonomik alanları denetlemenin çok ötesine geçer.
+reviewed: false

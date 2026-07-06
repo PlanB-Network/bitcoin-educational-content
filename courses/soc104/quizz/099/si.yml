@@ -1,0 +1,9 @@
+question: "cypherpunk principle එක වන 'Cypherpunks write code' freedom ලබා ගැනීමට movement එකේ approach ගැන කුමක් හෙළි කරයිද?"
+answer: "freedom වෙත යන මාර්ගය, freedom පිළිබඳ abstract ideas reality බවට පරිවර්තනය කිරීමට fundamental tool එක ලෙස code භාවිත කරමින් anonymous systems actively build කිරීම හරහා යන බව"
+wrong_answers:
+  - "cypherpunks ප්‍රධාන වශයෙන් තම political activism campaigns fund කිරීමට commercial applications ලියන software developers බව"
+  - "movement එක direct action වෙනුවට written manifestos සහ academic publications හරහා public educate කිරීම විශ්වාස කරන බව"
+  - "cypherpunks surveillance programs expose කර legislative reform බලකර ගැනීමට existing government systems hacking කිරීම කෙරෙහි focus කරන බව"
+explanation: >-
+  "Cypherpunks write code" යන formula එක mere hope වෙනුවට active intervention සඳහා movement එකේ commitment එක reflect කරයි. Eric Hughes සඳහා, freedom වෙත යන මාර්ගය arbitrary political divisions irrelevant කරන anonymous systems active construction හරහා යයි. Freedom පිළිබඳ abstract ideas reality බවට පරිවර්තනය කිරීමට code fundamental tool එක බවට පත් වේ; ඒ නිසාම Satoshi Nakamoto white paper ලිවීමට පෙරම සම්පූර්ණ Bitcoin code එක ලිව්වේය.
+reviewed: false

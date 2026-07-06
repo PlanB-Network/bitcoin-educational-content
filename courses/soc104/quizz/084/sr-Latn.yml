@@ -1,0 +1,9 @@
+question: "Šta je od sledećeg primer spontanog poretka kako ga opisuje Hayek?"
+answer: "Jezik, koji se organski razvio kroz istorijske interakcije umesto da su ga osmislili intelektualci u birou"
+wrong_answers:
+  - "Nacionalni ustav, koji su pažljivo sastavili izabrani predstavnici da bi uspostavili društvena pravila"
+  - "Državni stimulativni plan, koji su osmislili ekonomisti da bi koordinisali ekonomsku aktivnost"
+  - "Sistem javnog obrazovanja, koji su stvorili zakonodavci da bi obezbedili univerzalan pristup znanju"
+explanation: >-
+  Hayek opisuje spontani poredak kao proizvod slobodnih interakcija u društvu, koji proizlazi iz ljudskog delovanja, ali ne iz namernog ljudskog dizajna. Jezik je glavni primer: francuski, engleski i nemački nisu konstruisali intelektualci odlučujući o gramatičkim pravilima, već su nastali kao plod spore, organske organizacije izgrađene kroz istorijske interakcije.
+reviewed: false

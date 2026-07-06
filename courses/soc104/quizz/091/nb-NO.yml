@@ -1,0 +1,9 @@
+question: "Hvilket budskap la Satoshi Nakamoto inn i den aller første Bitcoin-blokken som ble minet?"
+answer: "En overskrift fra London Times om at finansministeren sto på randen av en ny bankredning"
+wrong_answers:
+  - "Et sitat fra Friedrich Hayek om farene ved sentralplanlegging og statlig kontroll over penger"
+  - "En uavhengighetserklæring fra alle former for myndigheter og finansiell regulering over hele verden"
+  - "Et matematisk bevis som viser at desentralisert valuta er mer effektiv enn fiatpenger"
+explanation: >-
+  I genesisblokken la Satoshi Nakamoto inn en symbolsk overskrift fra London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Dette var en direkte referanse til finanskrisen i 2008 og den monetære intervensjonismen som fulgte, og gjorde Bitcoins intensjon umiskjennelig som et alternativ til sentraliserte banksystemer.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Hva er kjernebudskapet i Eric Hughes' Cypherpunk Manifesto fra 1993 om personvern?"
+answer: "Personvern er essensielt for et åpent samfunn i den elektroniske tidsalderen, og enkeltpersoner må bygge det selv i stedet for å forvente at myndigheter eller selskaper garanterer det"
+wrong_answers:
+  - "Personvern er en luksus som må ofres i bytte mot nasjonal sikkerhet og beskyttelse av demokratiske institusjoner"
+  - "Personvern bør reguleres av internasjonale traktater som etablerer ensartede standarder for databeskyttelse på tvers av alle land"
+  - "Personvern er bare viktig for kriminelle og dissidenter, mens lovlydige borgere drar nytte av transparente overvåkingssystemer"
+explanation: >-
+  Eric Hughes' manifest fra 1993 sier at personvern er essensielt for et åpent samfunn i den elektroniske tidsalderen, og at vi ikke kan forvente at myndigheter, selskaper eller andre store organisasjoner garanterer det. Den grunnleggende motivasjonen er at konfidensialitet er et nøkkelledd i frihet og må bygges av enkeltpersoner selv, ikke ventes på som en gave fra institusjoner.
+reviewed: false

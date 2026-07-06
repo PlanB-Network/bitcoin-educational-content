@@ -1,0 +1,9 @@
+question: "Solcu ve sağcı devletçilerin ortak siyasi hedefi nedir?"
+answer: "Toplumu kendi dünya görüşlerine göre düzenlemek ve bunu herkese dayatmak için iktidarı kazanmak"
+wrong_answers:
+  - "Hükümetin boyutunu küçültmek ve karar alma gücünü bireysel vatandaşlara geri vermek"
+  - "Her vatandaşın her yasama kararında oy kullandığı doğrudan demokrasi kurmak"
+  - "Siyasi partileri ortadan kaldırıp onların yerine bağımsız teknokratik yönetim getirmek"
+explanation: >-
+  Hem sol hem de sağ devletçiler aynı siyasi hedefi paylaşır: toplumu kendi dünya görüşlerine göre düzenlemek ve bunu mevzuat yoluyla herkese dayatmak için iktidarı kazanmak. Fark yalnızca değerlerindedir: sağ medeniyeti savunmayı öne sürerken, sol işçi sınıfını veya ezilenleri savunmayı öne sürer. Hiçbiri hükümeti küçültmeyi ya da partileri ortadan kaldırmayı amaçlamaz.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mida hõlmab majandusliku vabaduse kategooria?"
+answer: "Seda, mida teete tootja ja tarbijana: ostmine, müümine, tootmine, töötamine, palkamine ja oma raha haldamine"
+wrong_answers:
+  - "Teie usulisi veendumusi, isiklikke suhteid ja väljendusvabadust"
+  - "Teie õigust hääletada, osaleda valimistel ja liituda poliitiliste parteidega"
+  - "Teie võimet vabalt reisida, valida elukohta ja ületada riigipiire"
+explanation: >-
+  Majanduslik vabadus hõlmab seda, mida teete tootja ja tarbijana: mida saate osta, müüa või toota; kus töötate; keda palkate; ja mida oma rahaga teete. Isiklikud suhted, usulised veendumused ja liikumisvabadus kuuluvad isikliku vabaduse kategooriasse, mitte majanduslikku kategooriasse.
+reviewed: false

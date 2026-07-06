@@ -1,0 +1,9 @@
+question: "Cum se leagă filosofia cypherpunk despre centralizare de principiul libertarian al consimțământului ca normă fundamentală a dreptății?"
+answer: "Cypherpunks văd orice centralizare ca fiind întemeiată pe coerciție, nu pe consimțământ, reflectând poziția libertariană că nimic nu poate fi drept dacă este impus prin forță de o autoritate centralizată"
+wrong_answers:
+  - "Cypherpunks cred că centralizarea este acceptabilă când este aprobată prin vot majoritar democratic, aliniindu-se cu respectul libertarian pentru guvernarea constituțională"
+  - "Cypherpunks susțin centralizarea temporară în timpul urgențelor, reflectând viziunea libertariană că drepturile individuale pot fi suspendate când colectivul este amenințat"
+  - "Cypherpunks se opun centralizării doar în sistemele tehnologice, acceptând în același timp centralizarea politică drept necesară pentru aplicarea drepturilor de proprietate și a contractelor"
+explanation: >-
+  Cypherpunks își pun încrederea în sisteme criptografice descentralizate, mai degrabă decât în instituții centralizate. Orice centralizare este percepută ca fiind întemeiată pe coerciție, nu pe consimțământ. Acest lucru reflectă direct filosofia libertariană potrivit căreia consimțământul este norma fundamentală a dreptății. Nimic nu poate fi drept dacă este impus prin forță de o autoritate centralizată, motiv pentru care au căutat să construiască rețele descentralizate în care nicio entitate unică nu își poate impune voința.
+reviewed: false

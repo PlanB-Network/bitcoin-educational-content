@@ -1,0 +1,9 @@
+question: "Varför beskriver kursen Bitcoin som en marknadsvaluta i motsats till statliga pengar snarare än ett höger- eller vänsterprojekt?"
+answer: "Eftersom Bitcoin är en frivilligt antagen, svårproducerad, decentraliserad valuta som behåller värde, i kontrast till tvångsbaserade, centraliserade fiatpengar som förlorar värde, vilket gör skiljelinjen till marknad kontra stat snarare än politisk ideologi"
+wrong_answers:
+  - "Eftersom Bitcoin skapades av en anonym utvecklare som medvetet undvek att göra några politiska uttalanden om dess avsedda syfte eller filosofi"
+  - "Eftersom Bitcoins miningalgoritm säkerställer lika fördelning av nya coins till alla politiska partier, vilket förhindrar ideologisk partiskhet i det monetära systemet"
+  - "Eftersom Bitcoin fungerar identiskt med befintliga fiatvalutor men körs på ett snabbare betalningsnätverk, vilket gör politiska distinktioner irrelevanta"
+explanation: >-
+  Bitcoin beskrivs som en fredlig revolt mot politiseringen av pengar. Statliga pengar eller fiatpengar är ett tvångsbaserat, centraliserat system som tenderar att förlora värde. Marknadspengar, historiskt guld och i dag Bitcoin, är en sund, svårproducerad valuta som uppstår frivilligt och behåller sitt värde över lång tid. Den verkliga motsättningen är inte vänster mot höger utan marknad mot stat, vilket gör Bitcoin till ett politiskt brott som överskrider traditionella ideologiska läger.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mengapa kursus ini menggambarkan Bitcoin sebagai mata uang pasar yang berlawanan dengan uang negara, bukan sebagai proyek sayap kanan atau sayap kiri?"
+answer: "Karena Bitcoin adalah mata uang yang diadopsi secara sukarela, sulit diproduksi, terdesentralisasi, dan mempertahankan nilai, berlawanan dengan uang fiat yang koersif, tersentralisasi, dan kehilangan nilai, sehingga pembelahannya adalah pasar versus negara, bukan ideologi politik"
+wrong_answers:
+  - "Karena Bitcoin diciptakan oleh developer anonim yang sengaja menghindari pernyataan politik apa pun tentang tujuan atau filosofinya"
+  - "Karena algoritma mining Bitcoin memastikan distribusi koin baru yang setara kepada semua partai politik, mencegah bias ideologis apa pun dalam sistem moneter"
+  - "Karena Bitcoin berfungsi identik dengan mata uang fiat yang ada tetapi beroperasi pada jaringan pembayaran yang lebih cepat, sehingga pembedaan politik menjadi tidak relevan"
+explanation: >-
+  Bitcoin digambarkan sebagai pemberontakan damai terhadap politisasi uang. Uang negara atau uang fiat adalah sistem koersif dan tersentralisasi yang cenderung kehilangan nilai. Uang pasar, secara historis emas dan saat ini Bitcoin, adalah mata uang yang sehat, sulit diproduksi, muncul secara sukarela, dan mempertahankan nilainya dalam jangka panjang. Oposisi yang sesungguhnya bukan kiri versus kanan, melainkan pasar versus negara, menjadikan Bitcoin sebagai pemutusan politik yang melampaui kubu ideologis tradisional.
+reviewed: false

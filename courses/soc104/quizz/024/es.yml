@@ -1,0 +1,9 @@
+question: "¿Qué es el conservadurismo cultural?"
+answer: "Una adhesión personal a valores familiares, morales, estéticos y metafísicos heredados del pasado, no una filosofía política"
+wrong_answers:
+  - "Una ideología política que usa el poder del Estado para imponer valores tradicionales a toda la sociedad mediante la legislación"
+  - "Un movimiento que rechaza todas las formas de modernidad y busca devolver la sociedad a un modo de vida preindustrial"
+  - "Una doctrina económica que protege las industrias nacionales y se opone al libre comercio con países extranjeros"
+explanation: >-
+  El conservadurismo cultural se define como una sabiduría de vida: la adhesión personal a valores familiares, morales, estéticos y metafísicos heredados del pasado, ya sean grecorromanos o judeocristianos. Explícitamente no es una filosofía política. Difiere del conservadurismo político, que busca preservar las instituciones políticas y el orden social mediante el poder del Estado. Tampoco se trata de rechazar la modernidad ni de proteccionismo económico.
+reviewed: false

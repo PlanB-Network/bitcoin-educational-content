@@ -1,0 +1,9 @@
+question: "Apa dua sumbu dalam diagram Nolan?"
+answer: "Sumbu vertikal yang mengukur kebebasan pribadi dan sumbu horizontal yang mengukur kebebasan ekonomi"
+wrong_answers:
+  - "Sumbu horizontal dari kiri ke kanan dan sumbu vertikal dari otoriter ke demokratis"
+  - "Sumbu vertikal yang mengukur kekayaan dan sumbu horizontal yang mengukur tingkat pendidikan"
+  - "Sumbu horizontal dari sosialisme ke kapitalisme dan sumbu vertikal dari tradisi ke kemajuan"
+explanation: >-
+  David Nolan merancang diagramnya dengan dua sumbu spesifik: kebebasan pribadi (vertikal) dan kebebasan ekonomi (horizontal). Pendekatan dua dimensi ini menggantikan garis kiri-kanan yang terlalu disederhanakan dan lebih baik menangkap kompleksitas ideologi politik dengan memisahkan dua kategori utama kebebasan.
+reviewed: false

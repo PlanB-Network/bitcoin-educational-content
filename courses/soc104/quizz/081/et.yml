@@ -1,0 +1,9 @@
+question: "Mis on konservatiivses poliitilises filosoofias vabadusest tähtsam?"
+answer: "Kord ja traditsioon, mis tuleb kindlalt kehtestada enne, kui vabadust saab väärtustada"
+wrong_answers:
+  - "Sotsiaalne õiglus ja võrdsus, mis tuleb tagada enne, kui indiviidid saavad olla tõeliselt vabad"
+  - "Majanduslik tõhusus ja pragmaatilised tulemused, mis määravad, millal vabadus on sobiv"
+  - "Individuaalsed omandiõigused, mida tuleb kaitsta enne, kui antakse mis tahes muu vabadus"
+explanation: >-
+  Konservatiivide jaoks on kord ja traditsioon vabadusest tähtsamad. Nad väidavad, et liiga palju vabadust tekitab kaost ja sotsiaalset korratust, mistõttu vabadust saab väärtustada alles siis, kui kord on kindlalt kehtestatud. See vastandub sotsialistlikule vaatele, mis seab esikohale õigluse, või tsentristlikule keskendumisele tõhususele.
+reviewed: false

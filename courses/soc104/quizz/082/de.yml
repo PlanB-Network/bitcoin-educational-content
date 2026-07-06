@@ -1,0 +1,9 @@
+question: "Welche der folgenden Optionen ist ein Beispiel für spontane Ordnung, wie Hayek sie beschreibt?"
+answer: "Sprache, die sich organisch durch historische Interaktionen entwickelte, statt von Intellektuellen in einem Büro entworfen zu werden"
+wrong_answers:
+  - "Eine nationale Verfassung, die sorgfältig von gewählten Vertretern ausgearbeitet wurde, um soziale Regeln festzulegen"
+  - "Ein staatliches Konjunkturprogramm, das von Ökonomen entworfen wurde, um wirtschaftliche Aktivität zu koordinieren"
+  - "Ein öffentliches Bildungssystem, das von Gesetzgebern geschaffen wurde, um universellen Zugang zu Wissen sicherzustellen"
+explanation: >-
+  Hayek beschreibt spontane Ordnung als das Produkt freier Interaktionen in der Gesellschaft, das aus menschlichem Handeln, aber nicht aus bewusstem menschlichem Entwurf hervorgeht. Sprache ist ein Hauptbeispiel: Französisch, Englisch und Deutsch wurden nicht von Intellektuellen konstruiert, die Grammatikregeln festlegten, sondern entstanden als Frucht einer langsamen, organischen Organisation, die durch historische Interaktionen aufgebaut wurde.
+reviewed: false

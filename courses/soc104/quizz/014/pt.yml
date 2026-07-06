@@ -1,0 +1,9 @@
+question: "Por que o modelo bidimensional argumenta que a maioria das questões políticas pode ser dividida em categorias econômicas e pessoais?"
+answer: "Porque questões econômicas dizem respeito ao que você faz como produtor e consumidor, enquanto questões pessoais dizem respeito às suas relações privadas, crenças e autonomia corporal"
+wrong_answers:
+  - "Porque todos os debates políticos acabam se reduzindo a discordâncias sobre níveis de tributação e práticas religiosas"
+  - "Porque historicamente os governos regulam apenas duas coisas: o mercado e as forças armadas"
+  - "Porque os filósofos políticos sempre separaram preocupações materiais de preocupações espirituais desde a Antiguidade"
+explanation: >-
+  O modelo bidimensional baseia-se na ideia de que as questões políticas se dividem em duas categorias amplas. As liberdades econômicas abrangem produção, consumo, comércio, emprego e gestão do dinheiro. As liberdades pessoais abrangem relações privadas, opiniões, crenças e escolhas sobre seu próprio corpo e mente. Essa separação permite um mapeamento muito mais nuançado das posições políticas do que um único eixo esquerda-direita.
+reviewed: false

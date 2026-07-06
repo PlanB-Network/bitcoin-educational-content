@@ -1,0 +1,9 @@
+question: "Apa konsep 'moral hazard' dalam konteks perdebatan subsidi, dan keluarga politik mana yang mengangkat kekhawatiran ini?"
+answer: "Moral hazard adalah insentif menuju ketidakbertanggungjawaban ketika perusahaan dicegah dari kegagalan melalui subsidi, karena pembayar pajak pada akhirnya yang membayar; kekhawatiran ini diangkat oleh libertarian"
+wrong_answers:
+  - "Moral hazard adalah risiko bahwa perusahaan bersubsidi akan pindah ke negara dengan pajak lebih rendah, membawa pekerjaan bersama mereka; kekhawatiran ini diangkat oleh konservatif"
+  - "Moral hazard adalah bahaya bahwa pejabat pemerintah akan menjadi korup dengan memilih perusahaan mana yang menerima subsidi; kekhawatiran ini diangkat oleh sentris"
+  - "Moral hazard adalah problem etis perusahaan yang mengeksploitasi pekerja setelah menerima dana publik; kekhawatiran ini diangkat oleh sosialis"
+explanation: >-
+  Libertarian berargumen bahwa subsidi dan bailout menciptakan moral hazard: ketika perusahaan dicegah dari kegagalan, hal itu memberi insentif pada ketidakbertanggungjawaban dan kecerobohan karena tidak ada konsekuensi atas keputusan buruk. Pada akhirnya, pembayar pajaklah yang membayar, yang dianggap libertarian sangat tidak adil. Konsep ini berbeda dari kekhawatiran tentang relokasi korporasi, korupsi pejabat, atau eksploitasi pekerja yang diangkat oleh keluarga politik lain.
+reviewed: false

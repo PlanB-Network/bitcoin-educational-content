@@ -1,0 +1,9 @@
+question: "Mikä on Eric Hughesin vuoden 1993 Cypherpunk Manifeston keskeinen viesti yksityisyydestä?"
+answer: "Yksityisyys on välttämätöntä avoimelle yhteiskunnalle sähköisellä aikakaudella, ja yksilöiden on rakennettava se itse sen sijaan, että he odottaisivat valtioiden tai yritysten takaavan sen"
+wrong_answers:
+  - "Yksityisyys on ylellisyys, joka on uhrattava kansallisen turvallisuuden ja demokraattisten instituutioiden suojelun vastineeksi"
+  - "Yksityisyyttä tulisi säännellä kansainvälisillä sopimuksilla, jotka luovat yhtenäiset tietosuojastandardit kaikkiin maihin"
+  - "Yksityisyys on tärkeää vain rikollisille ja toisinajattelijoille, kun taas lainkuuliaiset kansalaiset hyötyvät läpinäkyvistä valvontajärjestelmistä"
+explanation: >-
+  Eric Hughesin vuoden 1993 manifesti toteaa, että yksityisyys on välttämätöntä avoimelle yhteiskunnalle sähköisellä aikakaudella ja että emme voi odottaa valtioiden, yritysten tai muiden suurten organisaatioiden takaavan sitä. Perusmotivaatio on, että luottamuksellisuus on vapauden keskeinen osa ja yksilöiden on rakennettava se itse, ei odotettava sitä lahjana instituutioilta.
+reviewed: false

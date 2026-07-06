@@ -1,0 +1,9 @@
+question: "Kust pärineb vasak-parem poliitiline jaotus?"
+answer: "Istumiskorraldusest Prantsuse revolutsiooni 1789. aasta arutelude ajal"
+wrong_answers:
+  - "Karl Marxi ja Adam Smithi kirjutistest üheksateistkümnendal sajandil"
+  - "Ameerika kodusõjast põhja- ja lõunaosariikide vahel"
+  - "Valgustusajastu filosoofidest, kes eraldasid mõistuse traditsioonist"
+explanation: >-
+  Vasak-parem jaotus ulatub tagasi 1789. aastasse, kui Prantsuse Rahvusassamblee saadikud, kes pooldasid kuninga võimu säilitamist, istusid presidendist paremal, samal ajal kui need, kes tahtsid tema võimu piirata, istusid vasakul. See ei pärinenud Marxilt ja Smithilt, Ameerika kodusõjast ega valgustusfilosoofiast.
+reviewed: false

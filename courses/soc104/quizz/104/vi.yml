@@ -1,0 +1,9 @@
+question: "Nguyên tắc cypherpunk 'Cypherpunks write code' cho thấy điều gì về cách tiếp cận của phong trào nhằm đạt được tự do?"
+answer: "Rằng con đường đến tự do đi qua việc chủ động xây dựng các hệ thống ẩn danh, sử dụng mã như công cụ căn bản để biến các ý tưởng trừu tượng về tự do thành hiện thực"
+wrong_answers:
+  - "Rằng cypherpunks chủ yếu là các nhà phát triển phần mềm viết ứng dụng thương mại để tài trợ cho các chiến dịch hoạt động chính trị của họ"
+  - "Rằng phong trào tin vào việc giáo dục công chúng thông qua các tuyên ngôn viết và ấn phẩm học thuật thay vì hành động trực tiếp"
+  - "Rằng cypherpunks tập trung vào việc hack các hệ thống chính phủ hiện có để phơi bày các chương trình giám sát và buộc cải cách lập pháp"
+explanation: >-
+  Công thức "Cypherpunks write code" phản ánh cam kết của phong trào đối với can thiệp chủ động thay vì chỉ hy vọng. Đối với Eric Hughes, con đường đến tự do đi qua việc chủ động xây dựng các hệ thống ẩn danh khiến các phân chia chính trị tùy tiện trở nên không liên quan. Mã trở thành công cụ căn bản để biến các ý tưởng trừu tượng về tự do thành hiện thực, đó là lý do Satoshi Nakamoto đã viết toàn bộ mã Bitcoin trước cả khi viết white paper.
+reviewed: false

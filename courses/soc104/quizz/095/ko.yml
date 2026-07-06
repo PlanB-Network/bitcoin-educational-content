@@ -1,0 +1,9 @@
+question: "1992년에 첫 Cypherpunk 메일링 리스트를 시작한 사람은 누구인가요?"
+answer: "운동의 신경중추가 된 플랫폼을 만든 Tim May와 Eric Hughes입니다"
+wrong_answers:
+  - "나중에 2008년에 함께 Bitcoin을 만들게 된 Satoshi Nakamoto와 Hal Finney입니다"
+  - "그 리스트를 정부 내부고발 활동 조율에 사용한 Julian Assange와 Edward Snowden입니다"
+  - "암호화 소프트웨어를 배포하는 도구로 그 리스트를 설계한 Phil Zimmermann과 Bruce Schneier입니다"
+explanation: >-
+  1992년 Tim May와 Eric Hughes는 첫 Cypherpunk 메일링 리스트를 시작했습니다. 이 플랫폼은 빠르게 운동의 신경중추가 되어 개발자, 암호학자, 디지털 자유 옹호자들을 한데 모았습니다. 바로 이 리스트에서 Satoshi Nakamoto는 나중에 2008년에 Bitcoin 백서를 처음 공유하게 됩니다.
+reviewed: false

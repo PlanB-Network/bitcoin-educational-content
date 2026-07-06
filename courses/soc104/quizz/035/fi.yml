@@ -1,0 +1,9 @@
+question: "Miksi Rothbard arvosteli libertairejen näkemystä ihmisluonnosta, ja mitä vaihtoehtoa hän ehdotti?"
+answer: "Hän syytti heitä naiivista 'jalon villin' näkemyksestä ja väitti, että yhteiskunnan on käytettävä yksityisomaisuutta ja hyviä kannustimia ohjaamaan omaa etua tavoittelevaa käyttäytymistä"
+wrong_answers:
+  - "Hän kiitti heidän ymmärrystään ihmisten yhteistyöstä mutta väitti, että sopimusten täytäntöönpanoon tarvittiin silti minimaalinen valtio"
+  - "Hän oli samaa mieltä siitä, että ihmiset ovat luonnostaan hyviä, mutta painotti, että vain vapaat markkinat voisivat kanavoida tämän hyvyyden tuottavaksi toiminnaksi"
+  - "Hän hylkäsi heidän painotuksensa yksilön oikeuksiin ja väitti sen sijaan, että yhteisöjen tulisi määritellä moraalinormit kollektiivisesti"
+explanation: >-
+  Rothbard arvosteli libertaireja siitä, että nämä omaksuivat naiivin, Rousseau'n kaltaisen näkemyksen ihmisluonnosta luonnostaan hyvänä. Hän väitti sen sijaan, että ihmisiä ohjaa oma etu ja että yhteiskunta on järjestettävä niin, että hyvät kannustimet ohjaavat käyttäytymistä. Tämä edellyttää yksityisomaisuuden tunnustamista ja takaamista. Valtion lakkauttaminen ei tarkoita sen toimintojen lakkauttamista; poliisi ja oikeuslaitos tulisi järjestää vapailla markkinoilla kilpailun kautta.
+reviewed: false

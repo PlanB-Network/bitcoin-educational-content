@@ -1,0 +1,9 @@
+question: "Sol-sağ siyasi ayrımının kökeni nereye dayanır?"
+answer: "1789 Fransız Devrimi tartışmaları sırasındaki oturma düzenine"
+wrong_answers:
+  - "Karl Marx ve Adam Smith'in on dokuzuncu yüzyıldaki yazılarına"
+  - "Kuzey ve Güney eyaletleri arasındaki Amerikan İç Savaşı'na"
+  - "Aklı gelenekten ayıran Aydınlanma filozoflarına"
+explanation: >-
+  Sol-sağ ayrımı 1789'a dayanır; Fransız Ulusal Meclisi'nde kralın gücünü korumaktan yana olan milletvekilleri başkanın sağında, yetkilerini sınırlamak isteyenler ise solunda oturuyordu. Kökeni Marx ve Smith'e, Amerikan İç Savaşı'na ya da Aydınlanma felsefesine dayanmaz.
+reviewed: false

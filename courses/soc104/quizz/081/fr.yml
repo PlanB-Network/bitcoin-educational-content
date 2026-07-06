@@ -1,0 +1,9 @@
+question: "Quel est l'argument fondamental de Hayek sur les raisons de l'échec de la planification centrale ?"
+answer: "La connaissance n'existe que sous forme de fragments dispersés détenus par des individus distincts et ne peut pas être concentrée ni intégrée par une autorité centrale"
+wrong_answers:
+  - "Les planificateurs centraux sont moralement corrompus et agissent toujours dans leur propre intérêt plutôt que pour le bien public"
+  - "Les institutions démocratiques sont trop lentes pour répondre aux changements économiques, ce qui rend les décisions centralisées toujours obsolètes"
+  - "La planification centrale échoue parce que les citoyens résistent délibérément aux mandats gouvernementaux et refusent de se conformer aux réglementations"
+explanation: >-
+  L'argument fondamental de Hayek repose sur la nature de l'information. Il a démontré que la connaissance n'existe jamais sous une forme concentrée ou intégrée mais seulement sous forme de fragments dispersés détenus par tous les individus distincts. La valeur est subjective et connue seulement localement et de manière incomplète. Le planificateur central, assis dans un bureau, n'a aucune connaissance du vrai prix des choses parce qu'il n'est pas engagé dans l'interaction et l'échange.
+reviewed: false

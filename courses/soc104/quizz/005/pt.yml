@@ -1,0 +1,9 @@
+question: "Como o sistema de moeda fiduciária reforça a divisão entre governantes e governados?"
+answer: "Ele permite que os governos financiem gastos ilimitados por meio da criação de dinheiro, o que desvaloriza a poupança pela inflação"
+wrong_answers:
+  - "Ele dá aos cidadãos controle direto sobre a política monetária por meio de eleições democráticas e referendos"
+  - "Ele impede os governos de tomar empréstimos, forçando-os a depender exclusivamente da tributação para obter receita"
+  - "Ele distribui o dinheiro recém-criado igualmente entre todos os cidadãos para estimular o crescimento econômico"
+explanation: >-
+  A moeda fiduciária é descrita como a pedra angular da expansão do poder do Estado porque permite que os governos tomem empréstimos e pressionem os bancos a imprimir novo dinheiro. A inflação resultante desvaloriza a poupança das pessoas, beneficiando as entidades mais ricas e poderosas. Ela não dá controle monetário aos cidadãos, nem impede empréstimos ou distribui dinheiro igualmente.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Jak Bitcoin funguje jako morální projekt s politickými důsledky, a nikoli jako politický projekt s morálními nároky?"
+answer: "Bitcoin byl navržen tak, aby lidem přinesl svobodu, nikoli bohatství, umožňoval účinné vlastnictví, chránil hodnotu práce a zachovával soukromí, což jsou morální úspěchy, které vyvolávají politické účinky, aniž by se hlásily k jakémukoli politickému táboru"
+wrong_answers:
+  - "Bitcoin je morální projekt, protože jeho kód vynucuje etická pravidla bránící podvodům, a jeho politickým důsledkem je nahrazení demokratické správy algoritmickým rozhodováním"
+  - "Bitcoin funguje jako morální projekt, protože přerozděluje bohatství od bohatých k raným osvojitelům, čímž vytváří spravedlivější společnost s politickými důsledky pro daňovou politiku"
+  - "Bitcoin je morální, protože Satoshi Nakamoto vložil do protokolu etická přikázání, a jeho politickým důsledkem je sjednocení všech politických rodin pod společným měnovým systémem"
+explanation: >-
+  Bitcoin nebyl navržen tak, aby z lidí udělal boháče, ale aby je učinil svobodnými. Dosahuje tří morálních výsledků: umožňuje účinné vlastnictví (motivuje k odpovědnosti), chrání hodnotu vytvořenou prací (podporuje produktivní úsilí) a zachovává soukromí (umožňuje lidem žít beze strachu). Jde o morální úspěchy, které nesou politické důsledky, aniž by patřily k jakémukoli politickému táboru, a proto je Bitcoin nejprve morálním a až poté politickým projektem.
+reviewed: false

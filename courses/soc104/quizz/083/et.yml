@@ -1,0 +1,9 @@
+question: "Kuidas moodustavad vaba turu kolm olemuslikku funktsiooni, nagu libertaarid neid kirjeldavad, üheskoos nii tõhusa kui ka eetilise ühiskonnakorralduse süsteemi?"
+answer: "Hinnad annavad otsustele kompassi, turg paljastab pakkumise ja nõudluse kaudu autentsed eelistused ning vaba vahetus võimaldab indiviididel korraldada oma asju isiklike väärtuste järgi, ühendades informatsioonilise tõhususe moraalse autonoomiaga"
+wrong_answers:
+  - "Turg maksimeerib kogurikkuse, hoiab loomuliku konkurentsi kaudu ära monopolid ja tagab ressursside võrdse jaotuse, ühendades tootlikkuse sotsiaalse õiglusega"
+  - "Vabad turud vähendavad valitsuse kulutusi, ergutavad tehnoloogilist innovatsiooni ja loovad töövõimalusi, ühendades eelarvelise vastutuse majanduskasvuga"
+  - "Turud langetavad tarbijahindu, suurendavad konkurentsi kaudu toodete kvaliteeti ja laiendavad rahvusvahelist kaubandust, ühendades kodumaise jõukuse globaalse koostööga"
+explanation: >-
+  Libertaarne argument vaba turu kasuks tugineb kolmele omavahel seotud funktsioonile. Esiteks toimivad hinnad usaldusväärsete näitajatena, mis suunavad majanduslikke ja sotsiaalseid otsuseid (kompass). Teiseks paljastab turg pakkumise ja nõudluse kaudu autentsed individuaalsed eelistused. Kolmandaks võimaldab vaba vahetus tegutsejatel korraldada oma asju isiklike väärtuste järgi. Hayek näitas, et vabad turud koordineerivad hajutatud informatsiooni paremini kui keskne planeerimine (tõhusus), samas kui vastastikune nõusolek austab inimväärikust rohkem kui sund (õiglus).
+reviewed: false

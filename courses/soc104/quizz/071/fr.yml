@@ -1,0 +1,9 @@
+question: "Pourquoi les libertariens s'opposent-ils à l'impôt ?"
+answer: "Parce qu'il s'agit d'une violation morale des droits de propriété, une forme de vol étatique qui saisit la propriété d'autrui sans consentement"
+wrong_answers:
+  - "Parce que les impôts sont économiquement inefficaces et entraînent toujours des taux de chômage plus élevés"
+  - "Parce que l'impôt décourage l'investissement étranger et affaiblit la position concurrentielle d'un pays"
+  - "Parce que les systèmes fiscaux progressifs ciblent injustement les individus fortunés qui créent le plus d'emplois"
+explanation: >-
+  L'objection libertarienne à l'impôt est morale avant d'être économique. Les libertariens considèrent l'impôt comme une forme de vol étatique et un obstacle à la propriété privée, parce qu'il consiste à saisir la propriété d'autrui sans consentement. Même s'il peut exister des arguments économiques contre l'impôt, l'argument libertarien fondamental repose sur le principe qu'il viole les droits de propriété, et non sur des calculs d'efficacité ou de compétitivité.
+reviewed: false

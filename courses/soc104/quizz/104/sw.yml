@@ -1,0 +1,9 @@
+question: "Kwa nini kozi inaeleza Bitcoin kama sarafu ya soko inayopingana na pesa ya dola badala ya mradi wa mrengo wa kulia au wa kushoto?"
+answer: "Kwa sababu Bitcoin ni sarafu inayokubaliwa kwa hiari, ngumu kuzalisha, iliyogatuliwa, na inayohifadhi thamani, tofauti na pesa ya Fiat yenye ulazimishaji na mamlaka ya kati ambayo hupoteza thamani, na hivyo kuufanya mgawanyiko kuwa kuhusu soko dhidi ya dola badala ya itikadi ya kisiasa"
+wrong_answers:
+  - "Kwa sababu Bitcoin iliundwa na mtengenezaji asiyejulikana ambaye aliepuka kwa makusudi kutoa kauli zozote za kisiasa kuhusu kusudi au falsafa yake iliyokusudiwa"
+  - "Kwa sababu algorithm ya mining ya Bitcoin huhakikisha usambazaji sawa wa sarafu mpya kwa vyama vyote vya kisiasa, na kuzuia upendeleo wowote wa kiitikadi katika mfumo wa fedha"
+  - "Kwa sababu Bitcoin hufanya kazi sawasawa na sarafu zilizopo za Fiat lakini huendeshwa kwenye mtandao wa malipo wa haraka zaidi, na kufanya tofauti za kisiasa zisiwe na maana"
+explanation: >-
+  Bitcoin inaelezwa kama uasi wa amani dhidi ya kufanywa kwa pesa kuwa jambo la kisiasa. Pesa ya dola au Fiat ni mfumo wenye ulazimishaji na mamlaka ya kati unaoelekea kupoteza thamani. Pesa ya soko, kihistoria dhahabu na kwa sasa Bitcoin, ni sarafu yenye afya, ngumu kuzalisha, inayojitokeza kwa hiari na kuhifadhi thamani yake kwa muda mrefu. Upinzani halisi si kushoto dhidi ya kulia bali soko dhidi ya dola, na kuifanya Bitcoin kuwa mpasuko wa kisiasa unaovuka kambi za jadi za kiitikadi.
+reviewed: false

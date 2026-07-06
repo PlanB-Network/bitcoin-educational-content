@@ -1,0 +1,9 @@
+question: "¿En qué diferían los enfoques económicos de la Alemania de Hitler y la Unión Soviética de Stalin, pese a sus métodos totalitarios compartidos?"
+answer: "La Alemania nazi mantenía una apariencia de propiedad privada mientras subordinaba el sector privado a los objetivos del Estado, mientras que el estalinismo abolió toda propiedad privada y planificó plenamente la economía"
+wrong_answers:
+  - "La Alemania nazi nacionalizó por completo todas las industrias, mientras que el régimen de Stalin permitió una empresa privada limitada en la agricultura"
+  - "La Alemania nazi promovió el libre comercio internacional para financiar el rearme, mientras que el estalinismo impuso un aislamiento económico completo"
+  - "La Alemania nazi se basó en la cooperación corporativa voluntaria con el Estado, mientras que el estalinismo usó únicamente trabajo forzoso"
+explanation: >-
+  Aunque ambos regímenes usaron métodos políticos idénticos (culto a la personalidad, vigilancia total, eliminación sistemática de la oposición), sus modelos económicos diferían en la forma. La Alemania nazi no abolió formalmente la propiedad privada, pero subordinó por completo el sector privado a objetivos estatales como la guerra y el rearme, imponiendo la autarquía económica. El estalinismo fue más lejos al abolir toda propiedad privada, implementar planes quinquenales y controlar directamente toda la producción y distribución.
+reviewed: false

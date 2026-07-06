@@ -1,0 +1,9 @@
+question: "Skąd wywodzi się podział polityczny na lewicę i prawicę?"
+answer: "Z rozmieszczenia miejsc podczas debat rewolucji francuskiej w 1789 roku"
+wrong_answers:
+  - "Z pism Karola Marksa i Adama Smitha z XIX wieku"
+  - "Z amerykańskiej wojny secesyjnej między stanami północnymi i południowymi"
+  - "Od filozofów oświecenia, którzy oddzielili rozum od tradycji"
+explanation: >-
+  Podział na lewicę i prawicę sięga 1789 roku, kiedy deputowani we francuskim Zgromadzeniu Narodowym, którzy opowiadali się za utrzymaniem władzy króla, siedzieli po prawej stronie przewodniczącego, podczas gdy ci, którzy chcieli ograniczyć jego uprawnienia, siedzieli po lewej. Nie wywodzi się on od Marksa i Smitha, amerykańskiej wojny secesyjnej ani filozofii oświecenia.
+reviewed: false

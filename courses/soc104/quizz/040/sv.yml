@@ -1,0 +1,9 @@
+question: "Varför anses intentionella definitioner av politiska system vara problematiska för analytiska syften?"
+answer: "De skapar begreppslig förvirring eftersom alla system påstår sig eftersträva liknande mål som rättvisa, jämlikhet och frihet"
+wrong_answers:
+  - "De är alltför precisa och rigida, vilket inte lämnar något utrymme för politiska rörelsers naturliga utveckling över tid"
+  - "De fokuserar alltför mycket på ekonomiska utfall och ignorerar det politiska livets kulturella och sociala dimensioner"
+  - "De bygger på sekretessbelagda regeringsdokument som sällan är tillgängliga för oberoende forskare"
+explanation: >-
+  Intentionella definitioner bygger på uttalade motiv och mål, men varje politiskt system påstår sig eftersträva rättvisa, jämlikhet och frihet. Detta gör systemen omöjliga att skilja från varandra. Strukturell analys utvärderar däremot system utifrån deras empiriska, mätbara konsekvenser och de medel de använder, vilket avslöjar deras sanna natur bortom retoriken.
+reviewed: false

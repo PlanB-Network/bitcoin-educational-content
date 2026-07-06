@@ -1,0 +1,9 @@
+question: "Miks väidab kahemõõtmeline mudel, et enamik poliitilisi küsimusi saab jagada majanduslikeks ja isiklikeks kategooriateks?"
+answer: "Sest majandusküsimused puudutavad seda, mida teete tootja ja tarbijana, samas kui isiklikud küsimused puudutavad teie erasuhteid, veendumusi ja kehalist autonoomiat"
+wrong_answers:
+  - "Sest kõik poliitilised arutelud taanduvad lõpuks erimeelsustele maksutasemete ja usuliste praktikate üle"
+  - "Sest valitsused on ajalooliselt reguleerinud ainult kahte asja: turgu ja sõjaväge"
+  - "Sest poliitilised filosoofid on antiikajast saati alati eraldanud materiaalsed mured vaimsetest muredest"
+explanation: >-
+  Kahemõõtmeline mudel põhineb ideel, et poliitilised küsimused jagunevad kaheks laiaks kategooriaks. Majanduslikud vabadused hõlmavad tootmist, tarbimist, kaubandust, tööhõivet ja rahahaldust. Isiklikud vabadused hõlmavad erasuhteid, arvamusi, veendumusi ning valikuid oma keha ja meele kohta. See eristus võimaldab poliitilisi positsioone kaardistada palju nüansirikkamalt kui üksainus vasak-parem telg.
+reviewed: false

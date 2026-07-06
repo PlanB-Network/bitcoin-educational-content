@@ -1,0 +1,9 @@
+question: "¿Cuál es el concepto de 'orden espontáneo' tal como lo describe Friedrich Hayek?"
+answer: "Las reglas y normas sociales deben surgir de interacciones individuales libres, en lugar de ser impuestas por una planificación autoritaria"
+wrong_answers:
+  - "Los mercados tienden naturalmente al monopolio a menos que el Estado intervenga para mantener el equilibrio competitivo"
+  - "Las elecciones democráticas son el único mecanismo legítimo para establecer las leyes que gobiernan la sociedad"
+  - "Las crisis económicas surgen espontáneamente y requieren una intervención gubernamental inmediata para restaurar la estabilidad"
+explanation: >-
+  El concepto de orden espontáneo de Hayek sostiene que las reglas que gobiernan la sociedad no deben imponerse desde arriba mediante una planificación central, sino que deben surgir del libre juego de voluntades individuales, contratos y relaciones voluntarias. Este es un eje fundamental del pensamiento libertario. No implica que los mercados tiendan al monopolio ni que las crisis requieran intervención gubernamental.
+reviewed: false

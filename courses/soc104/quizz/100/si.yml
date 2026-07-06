@@ -1,0 +1,9 @@
+question: "centralization පිළිබඳ cypherpunk philosophy එක justice හි fundamental norm ලෙස consent පිළිබඳ libertarian principle එක සමඟ සම්බන්ධ වන්නේ කෙසේද?"
+answer: "Cypherpunks සියලු centralization consent වෙනුවට coercion මත පදනම් වූවක් ලෙස දකින අතර, centralized authority එකක් force හරහා impose කරන කිසිවක් just විය නොහැකි බව කියන libertarian ස්ථාවරය echo කරයි"
+wrong_answers:
+  - "Cypherpunks democratic majority vote එකකින් approve කරන විට centralization acceptable බව විශ්වාස කරයි, constitutional governance සඳහා libertarian respect සමඟ align වෙමින්"
+  - "Cypherpunks emergencies අතර temporary centralization support කරයි, collective තර්ජනයට ලක්වන විට individual rights suspend කළ හැකි බව කියන libertarian view එක reflect කරමින්"
+  - "Cypherpunks technology systems තුළ පමණක් centralizationට විරුද්ධ වන අතර, property rights සහ contracts enforce කිරීමට political centralization අවශ්‍ය බව පිළිගනී"
+explanation: >-
+  cypherpunks centralized institutions වෙනුවට decentralized cryptographic systems කෙරෙහි trust තබයි. සියලු centralization consent වෙනුවට coercion මත පදනම් වූවක් ලෙස perceive කරයි. මෙය consent justice හි fundamental norm බව කියන libertarian philosophy සමඟ සෘජුව echo කරයි. centralized authority එකක් force හරහා impose කරන විට කිසිවක් just විය නොහැක; ඒ නිසාම ඔවුන් single entity කිසිවකට තම will impose කළ නොහැකි decentralized networks build කිරීමට උත්සාහ කළහ.
+reviewed: false

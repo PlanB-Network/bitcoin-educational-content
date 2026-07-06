@@ -1,0 +1,9 @@
+question: "Care sunt cele două axe ale diagramei Nolan?"
+answer: "O axă verticală care măsoară libertățile personale și o axă orizontală care măsoară libertățile economice"
+wrong_answers:
+  - "O axă orizontală de la stânga la dreapta și o axă verticală de la autoritar la democratic"
+  - "O axă verticală care măsoară averea și o axă orizontală care măsoară nivelurile de educație"
+  - "O axă orizontală de la socialism la capitalism și o axă verticală de la tradiție la progres"
+explanation: >-
+  David Nolan și-a conceput diagrama cu două axe specifice: libertățile personale (verticală) și libertățile economice (orizontală). Această abordare bidimensională înlocuiește linia stânga-dreapta suprasimplificată și surprinde mai bine complexitatea ideologiilor politice prin separarea celor două categorii principale de libertate.
+reviewed: false

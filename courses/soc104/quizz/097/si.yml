@@ -1,0 +1,9 @@
+question: "privacy සම්බන්ධයෙන් Eric Hughesගේ 1993 Cypherpunk Manifesto හි core message එක කුමක්ද?"
+answer: "electronic age එකේ open society එකකට privacy අත්‍යවශ්‍ය වන අතර, governments හෝ corporations එය guarantee කරනු ඇතැයි බලාපොරොත්තු නොවී individuals තමන්ම එය build කළ යුතුය"
+wrong_answers:
+  - "privacy යනු national security සහ democratic institutions ආරක්ෂාව වෙනුවෙන් sacrifice කළ යුතු luxury එකකි"
+  - "සියලු රටවල් හරහා data protection සඳහා uniform standards පිහිටුවන international treaties මඟින් privacy regulate කළ යුතුය"
+  - "privacy වැදගත් වන්නේ criminals සහ dissidents සඳහා පමණක් වන අතර, law-abiding citizens transparent surveillance systems වලින් ප්‍රයෝජන ලබයි"
+explanation: >-
+  Eric Hughesගේ 1993 manifesto එක සඳහන් කරන්නේ electronic age එකේ open society එකකට privacy අත්‍යවශ්‍ය වන බවත්, governments, corporations, හෝ වෙනත් large organizations එය guarantee කරනු ඇතැයි අපට බලාපොරොත්තු විය නොහැකි බවත්ය. මූලික motivation එක වන්නේ confidentiality freedom හි key element එකක් වන අතර, institutions වෙතින් gift එකක් ලෙස බලා නොසිට individuals තමන්ම එය build කළ යුතු බවයි.
+reviewed: false

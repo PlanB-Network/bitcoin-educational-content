@@ -1,0 +1,9 @@
+question: "Miks väitsid cypherpunks'id, et anonüümsete omadustega digitaalne valuuta on vajalik?"
+answer: "Sest sularaha, peamine anonüümsete tehingute süsteem, on digitaalses ühiskonnas kadumas ning tuleb leiutada digitaalne asendus, millel on samad privaatsusomadused"
+wrong_answers:
+  - "Sest olemasolevad digitaalsed maksesüsteemid olid liiga aeglased ja kallid, nõudes veebikaubanduse jaoks kiiremat ja odavamat alternatiivi"
+  - "Sest valitsused olid juba keelanud kõik anonüümsete tehingute vormid ja ainult uus tehnoloogia suutis neist seadustest mööda minna"
+  - "Sest traditsioonilised pangad keeldusid teatud elanikkonnarühmi teenindamast, muutes universaalselt ligipääsetava digitaalse maksesüsteemi majanduslikuks vajaduseks"
+explanation: >-
+  Cypherpunki manifest ütleb, et konfidentsiaalsus avatud ühiskonnas nõuab anonüümsete tehingute süsteeme. Kuni digiajastuni oli sularaha seda tüüpi peamine süsteem. Kuid digitaalses ühiskonnas, kus sularaha on kadumas, tuleb leiutada digitaalne valuuta, millel on samad anonüümsuse omadused. See visioon nägi otseselt ette seda, mida Bitcoin hiljem saavutaks.
+reviewed: false

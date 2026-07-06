@@ -1,0 +1,9 @@
+question: "Odkiaľ pochádza ľavicovo-pravicové politické delenie?"
+answer: "Z usporiadania miest počas debát Francúzskej revolúcie v roku 1789"
+wrong_answers:
+  - "Zo spisov Karla Marxa a Adama Smitha v devätnástom storočí"
+  - "Z Americkej občianskej vojny medzi severnými a južnými štátmi"
+  - "Od osvietenských filozofov, ktorí oddelili rozum od tradície"
+explanation: >-
+  Ľavicovo-pravicové delenie siaha do roku 1789, keď poslanci vo francúzskom Národnom zhromaždení, ktorí podporovali zachovanie kráľovej moci, sedeli napravo od predsedu, zatiaľ čo tí, ktorí chceli jeho právomoci obmedziť, sedeli naľavo. Nevzniklo z Marxa a Smitha, Americkej občianskej vojny ani osvietenskej filozofie.
+reviewed: false

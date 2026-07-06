@@ -1,0 +1,9 @@
+question: "Ce mesaj a inclus Satoshi Nakamoto în primul bloc Bitcoin minat vreodată?"
+answer: "Un titlu din London Times despre Cancelar aflat în pragul unui al doilea bailout bancar"
+wrong_answers:
+  - "Un citat din Friedrich Hayek despre pericolele planificării centrale și ale controlului guvernamental asupra banilor"
+  - "O declarație de independență față de toate formele de guvernare și reglementare financiară din întreaga lume"
+  - "O demonstrație matematică ce arată că moneda descentralizată este mai eficientă decât banii fiat"
+explanation: >-
+  În blocul genesis, Satoshi Nakamoto a inserat un titlu simbolic din London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Aceasta a fost o referință directă la criza financiară din 2008 și la intervenționismul monetar care a urmat, făcând intenția Bitcoin inconfundabilă ca alternativă la sistemele bancare centralizate.
+reviewed: false

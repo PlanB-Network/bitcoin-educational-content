@@ -1,0 +1,9 @@
+question: "Hvorfor hevdet cypherpunkerne at en digital valuta med anonyme egenskaper var nødvendig?"
+answer: "Fordi kontanter, det primære anonyme transaksjonssystemet, er i ferd med å forsvinne i det digitale samfunnet, og en digital erstatning med de samme personvernegenskapene må oppfinnes"
+wrong_answers:
+  - "Fordi eksisterende digitale betalingssystemer var for langsomme og dyre, og krevde et raskere og billigere alternativ for netthandel"
+  - "Fordi myndighetene allerede hadde forbudt alle former for anonyme transaksjoner, og bare en ny teknologi kunne omgå disse lovene"
+  - "Fordi tradisjonelle banker nektet å betjene visse befolkningsgrupper, noe som gjorde et universelt tilgjengelig digitalt betalingssystem til en økonomisk nødvendighet"
+explanation: >-
+  Cypherpunk-manifestet sier at konfidensialitet i et åpent samfunn krever anonyme transaksjonssystemer. Frem til den digitale tidsalderen fungerte kontanter som det primære systemet av denne typen. Men i et digitalt samfunn der kontanter forsvinner, må en digital valuta med de samme anonymitetsegenskapene oppfinnes. Denne visjonen foregrep direkte det Bitcoin skulle oppnå.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mida ütleb mitteagressiivsuse põhimõte?"
+answer: "Inimene on vaba tegutsema nii, nagu ta soovib, seni kuni ei panda toime vägivalda teise inimese elu, vabaduse või omandi vastu"
+wrong_answers:
+  - "Riigil on ainuõigus kasutada jõudu ühiskondliku korra säilitamiseks"
+  - "Kodanikud peavad alluma enamuse tahtele isegi siis, kui see piirab individuaalseid vabadusi"
+  - "Tegevusvabadus on lubatud ainult siis, kui see teenib ühiskonna kollektiivset hüve"
+explanation: >-
+  Mitteagressiivsuse põhimõte on libertaarse poliitika nurgakivi, öeldes, et üksikisikud võivad tegutseda vabalt tingimusel, et nad ei pane toime vägivalda teiste elu, vabaduse või omandi vastu. See meenutab kuldreeglit, mida leidub eri tsivilisatsioonides. Erinevalt teistest valikutest ei anna see riigile erilist moraalset autoriteeti ega alluta individuaalseid õigusi kollektiivsele kasule.
+reviewed: false

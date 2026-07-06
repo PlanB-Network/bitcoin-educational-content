@@ -1,0 +1,9 @@
+question: "Kanuni ya cypherpunk 'Cypherpunks write code' inaonyesha nini kuhusu mbinu ya harakati hiyo ya kufikia uhuru?"
+answer: "Kwamba njia ya kuelekea uhuru hupitia ujenzi hai wa mifumo isiyotambulisha wahusika kwa kutumia code kama chombo cha msingi cha kubadilisha mawazo dhahania ya uhuru kuwa uhalisia"
+wrong_answers:
+  - "Kwamba cypherpunks kimsingi ni watengenezaji programu wanaoandika programu za kibiashara ili kufadhili kampeni zao za uanaharakati wa kisiasa"
+  - "Kwamba harakati hiyo inaamini katika kuelimisha umma kupitia manifesto zilizoandikwa na machapisho ya kitaaluma badala ya hatua za moja kwa moja"
+  - "Kwamba cypherpunks hujikita katika kudukua mifumo iliyopo ya serikali ili kufichua programu za ufuatiliaji na kulazimisha mageuzi ya kisheria"
+explanation: >-
+  Kauli "Cypherpunks write code" inaakisi kujitolea kwa harakati hiyo kwa uingiliaji hai badala ya tumaini tu. Kwa Eric Hughes, njia ya kuelekea uhuru hupitia ujenzi hai wa mifumo isiyotambulisha wahusika inayofanya migawanyiko ya kisiasa ya kiholela isiwe na maana. Code huwa chombo cha msingi cha kubadilisha mawazo dhahania ya uhuru kuwa uhalisia, ndiyo maana Satoshi Nakamoto aliandika code yote ya Bitcoin kabla hata ya kuandika white paper.
+reviewed: false

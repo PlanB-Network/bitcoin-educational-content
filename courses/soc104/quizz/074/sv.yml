@@ -1,0 +1,9 @@
+question: "Vad är begreppet 'moral hazard' i sammanhanget med debatten om subventioner, och vilken politisk familj lyfter denna oro?"
+answer: "Moral hazard är incitamentet till ansvarslöshet när företag hindras från att gå omkull genom subventioner, eftersom skattebetalaren i slutändan betalar; denna oro lyfts av libertarianer"
+wrong_answers:
+  - "Moral hazard är risken att subventionerade företag flyttar till länder med lägre skatter och tar jobben med sig; denna oro lyfts av konservativa"
+  - "Moral hazard är faran att statstjänstemän blir korrupta genom att välja vilka företag som får subventioner; denna oro lyfts av centrister"
+  - "Moral hazard är det etiska problemet med att företag exploaterar arbetare efter att ha fått offentliga medel; denna oro lyfts av socialister"
+explanation: >-
+  Libertarianer hävdar att subventioner och räddningspaket skapar moral hazard: när företag hindras från att gå omkull uppmuntrar det ansvarslöshet och vårdslöshet eftersom det inte finns några konsekvenser för dåliga beslut. I slutändan är det skattebetalaren som betalar, vilket libertarianer anser vara djupt orättvist. Detta begrepp skiljer sig från farhågor om företagsflytt, offentlig korruption eller exploatering av arbetare som lyfts av andra politiska familjer.
+reviewed: false

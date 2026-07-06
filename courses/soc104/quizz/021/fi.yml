@@ -1,0 +1,9 @@
+question: "Mikä yhteinen poliittinen tavoite vasemmistolaisilla ja oikeistolaisilla etatisteilla on?"
+answer: "Voittaa valta, jotta he voivat järjestää yhteiskunnan oman maailmankuvansa mukaisesti ja pakottaa sen kaikille"
+wrong_answers:
+  - "Pienentää valtion kokoa ja palauttaa päätösvalta yksittäisille kansalaisille"
+  - "Perustaa suora demokratia, jossa jokainen kansalainen äänestää jokaisesta lainsäädäntöpäätöksestä"
+  - "Poistaa poliittiset puolueet ja korvata ne riippumattomalla teknokraattisella hallinnolla"
+explanation: >-
+  Sekä vasemmiston että oikeiston etatisteilla on sama poliittinen tavoite: vallan voittaminen, jotta he voivat järjestää yhteiskunnan oman maailmankuvansa mukaisesti ja pakottaa sen kaikille lainsäädännön avulla. Ero on vain heidän arvoissaan: oikeisto vetoaa sivilisaation puolustamiseen, kun taas vasemmisto vetoaa työväenluokan tai sorrettujen puolustamiseen. Kumpikaan ei pyri vähentämään valtiota tai poistamaan puolueita.
+reviewed: false

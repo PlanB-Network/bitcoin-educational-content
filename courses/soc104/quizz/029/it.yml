@@ -1,0 +1,9 @@
+question: "Che cos'è il concetto di 'ordine spontaneo' descritto da Friedrich Hayek?"
+answer: "Le regole e le norme sociali dovrebbero emergere dalle libere interazioni individuali invece di essere imposte da una pianificazione autoritaria"
+wrong_answers:
+  - "I mercati tendono naturalmente al monopolio a meno che lo stato non intervenga per mantenere l'equilibrio competitivo"
+  - "Le elezioni democratiche sono l'unico meccanismo legittimo per stabilire le leggi che governano la società"
+  - "Le crisi economiche sorgono spontaneamente e richiedono un intervento immediato del governo per ristabilire la stabilità"
+explanation: >-
+  Il concetto hayekiano di ordine spontaneo sostiene che le regole che governano la società non dovrebbero essere imposte dall'alto tramite pianificazione centrale, ma dovrebbero emergere dal libero gioco delle volontà individuali, dei contratti e delle relazioni volontarie. Questo è un asse fondamentale del pensiero libertario. Non implica che i mercati tendano al monopolio o che le crisi richiedano l'intervento del governo.
+reviewed: false

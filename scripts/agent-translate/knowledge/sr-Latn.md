@@ -20,3 +20,26 @@
 - Foreign nouns take hyphenated case endings: `jet-ovi`, `jet-u`, `CMR-om`, `CMR-ove`, `Rocq-u`, `Failure-ov`, `fold-ove`, `Simplicity-jevi/Simplicity-ju`.
 - `commit`/`committed`/`commitment` → `obavezati`/`obavezan`/`obavezivanje` (+ `obaveza UTXO-a`); `pruned`/`prune` → `potkresan`/`potkresivanje`; effect-algebra `commutative/idempotent/unitary` → `komutativan/idempotentan/unitaran` (`unitarnost`).
 - Taproot spend paths: `key-spend`/`key-path` → `trošenje putem ključa`, `script path` → `putanja skripte`; keep the English acronym gloss `NUMS ('Nothing-Up-My-Sleeve')` untranslated.
+
+## 2026-07-06
+- soc104 politička filozofija: `sound money` prevoditi kao `zdrav novac`; `fiat money` kao `fiat novac`; `Federal Reserve` kao `Federalne rezerve`, u skladu sa postojećim sr-Latn Bitcoin sadržajem.
+- Za kontrast `pro-business` / `pro-market` zadržati engleske etikete u tekstu i objašnjenje prevesti oko njih, jer je poenta kviza terminološka razlika između te dve oznake.
+- `self-ownership` u libertarijanskom kontekstu može biti `samovlasništvo`, što se već koristi u postojećim sr-Latn filozofskim kvizovima.
+- In SOC/libertarian political philosophy quizzes, keep `pro-business` and `pro-market` in English when used as labels, attaching Serbian nouns/adjectival framing: `pro-business stav`, `zagovornici pro-market stava`.
+- For Kant's `minority` in the Enlightenment formula, use the established philosophical rendering `maloletnost`; render `superior authority` as `nadređeni autoritet` rather than a literal `viša vlast`.
+- Za soc104/sajferpank kontekst koristiti glossary oblik `Sajferpankovi` za `Cypherpunks`, ali istorijske slogane poput `Cypherpunks write code` i tačan genesis-blok naslov ostaviti na engleskom kada funkcionišu kao citirani artefakti.
+- soc104 political-spectrum terminology: render `libertarianism` as `libertarijanizam`, `libertarian(s)` as `libertarijanac/libertarijanski`, and `statism` as `etatizam`.
+- For Nolan model vocabulary, use `Nolanov dijagram` and `Nolanov dijamant`; translate `left-right axis/divide` as `osa/podela levo-desno`.
+- Follow Serbian glossary capitalization for fiat: keep `Fiat` as the term in `Fiat valuta` / `sistem Fiat novca`.
+- soc104 political-family terms: `statism` → `etatizam`, `statist` → `etatista`; `libertarianism` → `libertarijanizam`, `libertarian` → `libertarijanac`/`libertarijanski`.
+- For US political labels, keep proper institutional/program names verbatim and add Serbian case endings by hyphen where needed: `Cato Institute-a`, `Mises Institute-a`, `Libertarian Party-ja`, `Big Government-a`; use `savezne države` for US states when contrasted with the federal government.
+- `paleo-libertarianism`/`neo-libertarianism` → `paleo-libertarijanizam`/`neo-libertarijanizam`; `communitarian principles` → `komunitaristički principi`.
+- U političko-filozofskim kursevima `statism` prevoditi kao `etatizam`, a `statist` kao `etatista`; izbegavati opisno `državizam` osim ako kontekst traži objašnjenje.
+- `libertarian` prevoditi kao `libertarijanac` / `libertarijanski` / `libertarijanizam`; francusko `libertaire` ostavljati kao `libertaire` u kurzivu kada se kontrastira sa libertarijancima.
+- `cypherpunk` u Bitcoin istorijskom kontekstu ostavljati kao tehnički naziv i deklinirati srpskim sufiksom: `cypherpunk pokret`, `cypherpunk-ovi`, `cypherpunk-a`.
+- `pro-business` i `pro-market` ostavljati kao engleske stručne etikete kada se porede kao par, jer prevodi `za biznis`/`za tržište` gube kontrast.
+- soc104 political-theory terms: use `totalitarizam`, `klasični despotizam`, `negacija politike`, `ukidanje sloboda`, `jednopartijska vlast`, `usmeravana ekonomija`.
+- For societal-debate vocabulary in this course, follow existing sr-Latn prose: `gej brak` for the question label, `istopolni brak` where contrasting with traditional marriage, `dominantni/potčinjeni`, `ugnjetač/ugnjeteni`.
+- For subsidies/economics, use `moralni hazard`, `spasavanja` for bailouts, `poreski obveznik`, and `procena stručnjaka`/`tehnokratski` for the centrist method.
+- soc104 political terminology: use `libertarijanac`/`libertarijanizam` for English `libertarian`/`libertarianism`, but keep French `libertaire`/`libertaires` unlocalized as the contrast term.
+- In the socialism/libertarianism quizzes, render `private property` as `privatna svojina`, `self-ownership` as `samovlasništvo`, and Friedman's `spoliation` as `otimačina`, matching the existing sr-Latn course text.

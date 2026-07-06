@@ -1,0 +1,9 @@
+question: "Wie verbindet sich die Cypherpunk-Philosophie über Zentralisierung mit dem libertären Prinzip der Zustimmung als grundlegender Norm der Gerechtigkeit?"
+answer: "Cypherpunks betrachten jede Zentralisierung als auf Zwang statt auf Zustimmung gegründet und spiegeln damit die libertäre Position wider, dass nichts gerecht sein kann, wenn es von einer zentralisierten Autorität durch Gewalt auferlegt wird"
+wrong_answers:
+  - "Cypherpunks halten Zentralisierung für akzeptabel, wenn sie durch demokratische Mehrheitsabstimmung gebilligt wird, was mit dem libertären Respekt vor verfassungsmäßiger Regierungsführung übereinstimmt"
+  - "Cypherpunks unterstützen vorübergehende Zentralisierung in Notfällen, was die libertäre Ansicht widerspiegelt, dass individuelle Rechte ausgesetzt werden können, wenn das Kollektiv bedroht ist"
+  - "Cypherpunks lehnen Zentralisierung nur in Technologiesystemen ab, während sie politische Zentralisierung als notwendig akzeptieren, um Eigentumsrechte und Verträge durchzusetzen"
+explanation: >-
+  Die Cypherpunks setzen ihr Vertrauen in dezentrale kryptographische Systeme statt in zentralisierte Institutionen. Jede Zentralisierung wird als auf Zwang statt auf Zustimmung gegründet wahrgenommen. Dies entspricht direkt der libertären Philosophie, dass Zustimmung die grundlegende Norm der Gerechtigkeit ist. Nichts kann gerecht sein, wenn es von einer zentralisierten Autorität durch Gewalt auferlegt wird; deshalb wollten sie dezentrale Netzwerke bauen, in denen keine einzelne Entität ihren Willen aufzwingen konnte.
+reviewed: false

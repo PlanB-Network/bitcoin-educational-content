@@ -1,0 +1,9 @@
+question: "Vad avslöjar cypherpunk-principen 'Cypherpunks write code' om rörelsens sätt att uppnå frihet?"
+answer: "Att vägen till frihet går genom att aktivt bygga anonyma system med kod som det grundläggande verktyget för att omvandla abstrakta frihetsidéer till verklighet"
+wrong_answers:
+  - "Att cypherpunks främst är mjukvaruutvecklare som skriver kommersiella applikationer för att finansiera sina politiska aktivismkampanjer"
+  - "Att rörelsen tror på att utbilda allmänheten genom skrivna manifest och akademiska publikationer snarare än genom direkt handling"
+  - "Att cypherpunks fokuserar på att hacka befintliga regeringssystem för att avslöja övervakningsprogram och tvinga fram lagstiftningsreformer"
+explanation: >-
+  Formeln "Cypherpunks write code" återspeglar rörelsens engagemang för aktiv intervention snarare än blott hopp. För Eric Hughes går vägen till frihet genom det aktiva byggandet av anonyma system som gör godtyckliga politiska skiljelinjer irrelevanta. Kod blir det grundläggande verktyget för att omvandla abstrakta frihetsidéer till verklighet, vilket är anledningen till att Satoshi Nakamoto skrev hela Bitcoin-koden innan han ens skrev white paper.
+reviewed: false

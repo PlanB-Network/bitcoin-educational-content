@@ -1,0 +1,9 @@
+question: "Mida pidas Ludwig von Mises silmas, kui ta kirjutas, et ainult indiviid mõtleb, arutleb ja tegutseb?"
+answer: "Et kollektiivsetel üksustel nagu riik või rahvas ei ole omaette olemasolu väljaspool nende üksikute liikmete tegusid"
+wrong_answers:
+  - "Et indiviidid peaksid vältima rühmade või ühenduste moodustamist, sest kollektiivne tegevus on alati kahjulik"
+  - "Et ainult teatud andekad indiviidid on võimelised ratsionaalselt mõtlema, samas kui enamik inimesi järgib instinkti"
+  - "Et mõtlemine ja arutlemine on privaatsed tegevused, mida ei tohiks kunagi avalikult jagada ega arutada"
+explanation: >-
+  Mises selgitas, et individualism vastandub arusaamale, nagu võiksid sotsiaalsed üksused nagu ühiskond või rahvas eksisteerida sõltumatult indiviididest, kellest nad koosnevad. Kollektiivsel üksusel ei ole omaette olemasolu väljaspool selle üksikute liikmete tegusid. Me ei saa tähenduslikult rääkida riigi või ettevõtte tegevusest, sest neil üksustel ei ole oma tahet ega mõtet ning nad tegutsevad ainult indiviidide kaudu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Kes käivitasid 1992. aastal esimese Cypherpunki meililisti?"
+answer: "Tim May ja Eric Hughes, kes lõid platvormi, millest sai liikumise närvikeskus"
+wrong_answers:
+  - "Satoshi Nakamoto ja Hal Finney, kes hiljem lõid 2008. aastal koos Bitcoini"
+  - "Julian Assange ja Edward Snowden, kes kasutasid nimekirja valitsuse vilepuhumistegevuste koordineerimiseks"
+  - "Phil Zimmermann ja Bruce Schneier, kes kujundasid nimekirja krüpteerimistarkvara levitamise vahendiks"
+explanation: >-
+  1992. aastal käivitasid Tim May ja Eric Hughes esimese Cypherpunki meililisti. Sellest platvormist sai kiiresti liikumise närvikeskus, mis tõi kokku arendajad, krüptograafid ja digitaalse vabaduse eestkõnelejad. Just selles samas nimekirjas jagas Satoshi Nakamoto hiljem 2008. aastal esimest korda Bitcoini White Paperit.
+reviewed: false

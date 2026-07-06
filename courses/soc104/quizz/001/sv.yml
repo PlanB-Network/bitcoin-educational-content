@@ -1,0 +1,9 @@
+question: "Varifrån kommer den politiska vänster-höger-uppdelningen?"
+answer: "Från sittordningen under debatterna vid franska revolutionen 1789"
+wrong_answers:
+  - "Från Karl Marx och Adam Smiths skrifter under artonhundratalet"
+  - "Från det amerikanska inbördeskriget mellan nordstater och sydstater"
+  - "Från upplysningsfilosoferna som skilde förnuft från tradition"
+explanation: >-
+  Vänster-höger-uppdelningen går tillbaka till 1789, när deputerade i den franska nationalförsamlingen som ville bevara kungens makt satt till höger om presidenten, medan de som ville begränsa hans befogenheter satt till vänster. Den har inte sitt ursprung hos Marx och Smith, i det amerikanska inbördeskriget eller i upplysningsfilosofin.
+reviewed: false

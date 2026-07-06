@@ -1,0 +1,9 @@
+question: "Eric Hughes'un 1993 Cypherpunk Manifestosu'nun mahremiyete ilişkin temel mesajı nedir?"
+answer: "Mahremiyet elektronik çağda açık toplum için zorunludur ve bireyler, hükümetlerin ya da şirketlerin bunu garanti etmesini beklemek yerine onu kendileri inşa etmelidir"
+wrong_answers:
+  - "Mahremiyet, ulusal güvenlik ve demokratik kurumların korunması karşılığında feda edilmesi gereken bir lükstür"
+  - "Mahremiyet, tüm ülkelerde veri koruması için yeknesak standartlar belirleyen uluslararası antlaşmalarla düzenlenmelidir"
+  - "Mahremiyet yalnızca suçlular ve muhalifler için önemlidir; yasalara uyan vatandaşlar ise şeffaf gözetim sistemlerinden yararlanır"
+explanation: >-
+  Eric Hughes'un 1993 manifestosu, mahremiyetin elektronik çağda açık toplum için zorunlu olduğunu ve bunu garanti etmek için hükümetlerden, şirketlerden ya da diğer büyük örgütlerden medet umamayacağımızı belirtir. Temel motivasyon, gizliliğin özgürlüğün kilit bir unsuru olması ve kurumlardan bir armağan olarak beklenmek yerine bireylerin kendileri tarafından inşa edilmesi gerektiğidir.
+reviewed: false

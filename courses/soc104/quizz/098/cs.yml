@@ -1,0 +1,9 @@
+question: "Co princip 'Cypherpunks write code' odhaluje o přístupu hnutí Cypherpunks k dosahování svobody?"
+answer: "Že cesta ke svobodě vede přes aktivní budování anonymních systémů s použitím kódu jako základního nástroje pro proměnu abstraktních představ o svobodě ve skutečnost"
+wrong_answers:
+  - "Že Cypherpunks jsou především softwaroví vývojáři, kteří píší komerční aplikace, aby financovali své kampaně politického aktivismu"
+  - "Že hnutí věří ve vzdělávání veřejnosti prostřednictvím psaných manifestů a akademických publikací spíše než v přímou akci"
+  - "Že Cypherpunks se zaměřují na hackování existujících vládních systémů, aby odhalili programy dohledu a vynutili si legislativní reformu"
+explanation: >-
+  Formule "Cypherpunks write code" odráží závazek hnutí k aktivnímu zásahu, nikoli k pouhé naději. Pro Erica Hughese vede cesta ke svobodě přes aktivní budování anonymních systémů, které činí svévolná politická dělení irelevantními. Kód se stává základním nástrojem proměny abstraktních představ o svobodě ve skutečnost, a proto Satoshi Nakamoto napsal celý kód Bitcoinu ještě předtím, než vůbec napsal White paper.
+reviewed: false

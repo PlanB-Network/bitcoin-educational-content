@@ -1,0 +1,9 @@
+question: "Mikä seuraavista on esimerkki Hayekin kuvaamasta spontaanista järjestyksestä?"
+answer: "Kieli, joka kehittyi orgaanisesti historiallisten vuorovaikutusten kautta sen sijaan, että intellektuellit olisivat suunnitelleet sen virastossa"
+wrong_answers:
+  - "Kansallinen perustuslaki, jonka vaaleilla valitut edustajat laativat huolellisesti yhteiskunnallisten sääntöjen luomiseksi"
+  - "Hallituksen elvytyssuunnitelma, jonka taloustieteilijät suunnittelivat taloudellisen toiminnan koordinoimiseksi"
+  - "Julkinen koulutusjärjestelmä, jonka lainsäätäjät loivat varmistaakseen yleisen pääsyn tietoon"
+explanation: >-
+  Hayek kuvaa spontaania järjestystä yhteiskunnan vapaiden vuorovaikutusten tuotteena, joka syntyy ihmisen toiminnasta mutta ei tarkoituksellisesta ihmisen suunnittelusta. Kieli on ensisijainen esimerkki: ranskaa, englantia ja saksaa eivät rakentaneet intellektuellit, jotka päättivät kielioppisäännöistä, vaan ne nousivat hitaasta, orgaanisesta järjestäytymisestä, joka rakentui historiallisten vuorovaikutusten kautta.
+reviewed: false

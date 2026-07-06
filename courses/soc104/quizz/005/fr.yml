@@ -1,0 +1,9 @@
+question: "Comment le système de monnaie fiat renforce-t-il le clivage entre gouvernants et gouvernés ?"
+answer: "Il permet aux gouvernements de financer des dépenses illimitées par la création monétaire, ce qui dévalorise l'épargne par l'inflation"
+wrong_answers:
+  - "Il donne aux citoyens un contrôle direct sur la politique monétaire par des élections démocratiques et des référendums"
+  - "Il empêche les gouvernements d'emprunter, les forçant à dépendre uniquement de l'impôt pour leurs recettes"
+  - "Il distribue la monnaie nouvellement créée de manière égale entre tous les citoyens afin de stimuler la croissance économique"
+explanation: >-
+  La monnaie fiat est décrite comme la pierre angulaire de l'expansion du pouvoir de l'État, parce qu'elle permet aux gouvernements d'emprunter et de pousser les banques à imprimer de la nouvelle monnaie. L'inflation qui en résulte dévalorise l'épargne des gens, au bénéfice des entités les plus riches et les plus puissantes. Elle ne donne pas aux citoyens le contrôle monétaire, pas plus qu'elle n'empêche l'emprunt ou ne distribue la monnaie de manière égale.
+reviewed: false

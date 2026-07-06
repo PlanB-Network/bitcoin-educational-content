@@ -1,0 +1,9 @@
+question: "Vilket är Hayeks grundläggande argument om varför central planering misslyckas?"
+answer: "Kunskap existerar endast som spridda fragment som innehas av skilda individer och kan inte koncentreras eller integreras av en central auktoritet"
+wrong_answers:
+  - "Centrala planerare är moraliskt korrupta och agerar alltid i sitt eget egenintresse snarare än för det allmänna bästa"
+  - "Demokratiska institutioner är för långsamma för att reagera på ekonomiska förändringar, vilket gör centraliserade beslut alltid föråldrade"
+  - "Central planering misslyckas eftersom medborgare avsiktligt motsätter sig statliga mandat och vägrar följa regleringar"
+explanation: >-
+  Hayeks grundläggande argument vilar på informationens natur. Han visade att kunskap aldrig existerar i koncentrerad eller integrerad form utan endast som spridda fragment som innehas av alla skilda individer. Värde är subjektivt och känt endast lokalt och ofullständigt. Den centrala planeraren, sittande på ett kontor, har ingen kunskap om sakernas verkliga pris eftersom han inte deltar i interaktion och utbyte.
+reviewed: false

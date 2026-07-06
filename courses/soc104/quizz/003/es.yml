@@ -1,0 +1,9 @@
+question: "¿Qué punto común comparten los partidos políticos de izquierda y de derecha pese a su aparente oposición?"
+answer: "Ambos defienden el derecho del Estado a gobernar la vida de las personas mediante regulaciones e impuestos"
+wrong_answers:
+  - "Ambos defienden la abolición completa de la intervención estatal en asuntos económicos"
+  - "Ambos priorizan la libertad individual por encima de la organización colectiva de la sociedad"
+  - "Ambos rechazan el uso de la política monetaria como herramienta para el gasto gubernamental"
+explanation: >-
+  A pesar de parecer opuestas, izquierda y derecha comparten una preferencia por la intervención estatal. Ambas critican el libre mercado y defienden el derecho del Estado a gobernar la vida de las personas mediante regulaciones e impuestos. La izquierda critica los mercados como fuente de desigualdad, mientras que la derecha los ve como una amenaza a la soberanía, pero ambas recurren al Estado para obtener soluciones.
+reviewed: false

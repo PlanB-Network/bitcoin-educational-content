@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto ने mined किए गए सबसे पहले Bitcoin block में कौन-सा message embed किया?"
+answer: "London Times की एक headline, जिसमें Chancellor के second bank bailout के brink पर होने की बात थी"
+wrong_answers:
+  - "Friedrich Hayek का एक quote, central planning और money पर government control के dangers के बारे में"
+  - "दुनिया भर में government और financial regulation के सभी forms से independence की declaration"
+  - "एक mathematical proof जो demonstrate करता है कि decentralized currency fiat money से अधिक efficient है"
+explanation: >-
+  Genesis block में, Satoshi Nakamoto ने London Times की एक symbolic headline insert की: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." यह 2008 financial crisis और उसके बाद आए monetary interventionism का direct reference था, जिसने Bitcoin की intention को centralized banking systems के alternative के रूप में unmistakable बना दिया।
+reviewed: false

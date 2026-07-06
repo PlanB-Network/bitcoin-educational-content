@@ -1,0 +1,9 @@
+question: "Mitkä ovat Nolanin kaavion kaksi akselia?"
+answer: "Pystyakseli, joka mittaa henkilökohtaisia vapauksia, ja vaaka-akseli, joka mittaa taloudellisia vapauksia"
+wrong_answers:
+  - "Vaaka-akseli vasemmalta oikealle ja pystyakseli autoritaarisesta demokraattiseen"
+  - "Pystyakseli, joka mittaa varallisuutta, ja vaaka-akseli, joka mittaa koulutustasoa"
+  - "Vaaka-akseli sosialismista kapitalismiin ja pystyakseli perinteestä edistykseen"
+explanation: >-
+  David Nolan suunnitteli kaavionsa kahden erityisen akselin varaan: henkilökohtaiset vapaudet (pystyakseli) ja taloudelliset vapaudet (vaaka-akseli). Tämä kaksiulotteinen lähestymistapa korvaa liiallisesti yksinkertaistetun vasemmisto–oikeisto-linjan ja kuvaa poliittisten ideologioiden monimutkaisuutta paremmin erottamalla vapauden kaksi pääkategoriaa toisistaan.
+reviewed: false

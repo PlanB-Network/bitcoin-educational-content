@@ -1,0 +1,9 @@
+question: "Co je princip neagrese, jak jej teoretizoval Murray Rothbard?"
+answer: "Je nelegitimní iniciovat fyzickou sílu proti jinému jednotlivci nebo jeho majetku, ačkoli obranné násilí je dovoleno"
+wrong_answers:
+  - "Všechny formy násilí jsou vždy špatné, včetně sebeobrany a odporu proti útlaku"
+  - "Násilí je přijatelné, když směřuje proti utlačujícím institucím, ale nikdy proti jiným jednotlivcům"
+  - "Pouze stát má legitimní právo používat sílu a jednotlivci se nikdy nesmí uchýlit k násilí"
+explanation: >-
+  Rothbardův princip neagrese tvrdí, že iniciovat fyzickou sílu proti jinému člověku nebo jeho majetku je nelegitimní. Jde o filozofický překlad zlatého pravidla. Nezakazuje však veškeré násilí: obranné násilí, včetně sebeobrany a odporu proti útlaku, se považuje za legitimní. Tím se liší od čistého pacifismu i od státem nárokovaného monopolu na sílu.
+reviewed: false

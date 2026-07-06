@@ -1,0 +1,9 @@
+question: "'Cypherpunklar kod yazar' ilkesi, hareketin özgürlüğe ulaşma yaklaşımı hakkında neyi ortaya koyar?"
+answer: "Özgürlüğe giden yolun, soyut özgürlük fikirlerini gerçekliğe dönüştürmek için temel araç olarak kodu kullanarak anonim sistemleri aktif biçimde inşa etmekten geçtiğini"
+wrong_answers:
+  - "Cypherpunkların öncelikle siyasi aktivizm kampanyalarını finanse etmek için ticari uygulamalar yazan yazılım geliştiricileri olduğunu"
+  - "Hareketin doğrudan eylem yerine yazılı manifestolar ve akademik yayınlar yoluyla kamuoyunu eğitmeye inandığını"
+  - "Cypherpunkların gözetim programlarını ifşa etmek ve yasama reformunu zorlamak için mevcut hükümet sistemlerini hacklemeye odaklandığını"
+explanation: >-
+  "Cypherpunklar kod yazar" formülü, hareketin salt umut yerine aktif müdahaleye bağlılığını yansıtır. Eric Hughes'a göre özgürlüğe giden yol, keyfî siyasi ayrımları ilgisiz hâle getiren anonim sistemlerin aktif inşasından geçer. Kod, soyut özgürlük fikirlerini gerçekliğe dönüştürmenin temel aracı olur; Satoshi Nakamoto'nun White Paper'ı bile yazmadan önce Bitcoin kodunun tamamını yazmasının nedeni budur.
+reviewed: false

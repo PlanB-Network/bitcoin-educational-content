@@ -1,0 +1,9 @@
+question: "Wat is het fundamentele probleem met fiatvaluta's dat Satoshi Nakamoto identificeerde?"
+answer: "Ze vereisen vertrouwen dat de centrale bank de valuta niet zal devalueren, maar de geschiedenis van fiatvaluta's zit vol schendingen van dit vertrouwen"
+wrong_answers:
+  - "Ze zijn te moeilijk te gebruiken voor alledaagse transacties omdat fysiek contant geld snel slijt en duur is om te produceren"
+  - "Ze kunnen niet internationaal worden overgedragen omdat elk land incompatibele monetaire standaarden en regels heeft"
+  - "Ze worden gedekt door goudreserves die onvoldoende zijn om de totale geldhoeveelheid in omloop te dekken"
+explanation: >-
+  Satoshi Nakamoto stelde dat het fundamentele probleem met conventionele valuta's het vertrouwen is dat nodig is om ze te laten werken. Fiatvaluta's worden niet gedekt door een grondstof, maar rusten volledig op institutioneel gezag. Wanneer een instelling volledige controle over geld heeft, is de verleiding tot misbruik te sterk, en de geschiedenis heeft dit herhaaldelijk laten zien via valutadevaluatie.
+reviewed: false

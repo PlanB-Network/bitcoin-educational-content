@@ -1,0 +1,9 @@
+question: "Hvordan henger cypherpunk-filosofien om sentralisering sammen med det libertarianske prinsippet om samtykke som rettferdighetens grunnleggende norm?"
+answer: "Cypherpunkere ser all sentralisering som grunnlagt på tvang snarere enn samtykke, noe som gjenspeiler den libertarianske posisjonen om at ingenting kan være rettferdig hvis det påtvinges av en sentralisert autoritet gjennom makt"
+wrong_answers:
+  - "Cypherpunkere mener sentralisering er akseptabel når den godkjennes ved demokratisk flertallsavstemning, i tråd med libertariansk respekt for konstitusjonell styring"
+  - "Cypherpunkere støtter midlertidig sentralisering under kriser, noe som gjenspeiler det libertarianske synet på at individuelle rettigheter kan suspenderes når kollektivet er truet"
+  - "Cypherpunkere motsetter seg sentralisering bare i teknologisystemer, mens de aksepterer politisk sentralisering som nødvendig for å håndheve eiendomsrett og kontrakter"
+explanation: >-
+  Cypherpunkerne setter sin lit til desentraliserte kryptografiske systemer snarere enn sentraliserte institusjoner. All sentralisering oppfattes som grunnlagt på tvang snarere enn samtykke. Dette gjenspeiler direkte den libertarianske filosofien om at samtykke er rettferdighetens grunnleggende norm. Ingenting kan være rettferdig hvis det påtvinges av en sentralisert autoritet gjennom makt, og derfor søkte de å bygge desentraliserte nettverk der ingen enkelt enhet kunne påtvinge sin vilje.
+reviewed: false

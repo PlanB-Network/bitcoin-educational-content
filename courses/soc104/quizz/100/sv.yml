@@ -1,0 +1,9 @@
+question: "Hur hänger cypherpunk-filosofin om centralisering samman med den libertarianska principen om samtycke som rättvisans grundläggande norm?"
+answer: "Cypherpunks ser all centralisering som grundad på tvång snarare än samtycke, vilket återspeglar den libertarianska ståndpunkten att ingenting kan vara rättvist om det påtvingas av en centraliserad auktoritet genom våld"
+wrong_answers:
+  - "Cypherpunks anser att centralisering är acceptabel när den godkänns genom demokratisk majoritetsomröstning, i linje med libertariansk respekt för konstitutionellt styre"
+  - "Cypherpunks stöder tillfällig centralisering under nödsituationer, vilket återspeglar den libertarianska synen att individuella rättigheter kan upphävas när kollektivet hotas"
+  - "Cypherpunks motsätter sig centralisering endast i tekniska system, samtidigt som de accepterar politisk centralisering som nödvändig för att upprätthålla äganderätt och kontrakt"
+explanation: >-
+  Cypherpunks sätter sin tillit till decentraliserade kryptografiska system snarare än centraliserade institutioner. All centralisering uppfattas som grundad på tvång snarare än samtycke. Detta återspeglar direkt den libertarianska filosofin att samtycke är rättvisans grundläggande norm. Ingenting kan vara rättvist om det påtvingas av en centraliserad auktoritet genom våld, vilket är anledningen till att de försökte bygga decentraliserade nätverk där ingen enskild aktör kunde påtvinga sin vilja.
+reviewed: false

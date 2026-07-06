@@ -1,0 +1,9 @@
+question: "Odakle potiče politička podela levo-desno?"
+answer: "Iz rasporeda sedenja tokom rasprava u Francuskoj revoluciji 1789. godine"
+wrong_answers:
+  - "Iz spisa Karla Marksa i Adama Smitha u devetnaestom veku"
+  - "Iz Američkog građanskog rata između severnih i južnih država"
+  - "Od filozofa prosvetiteljstva koji su odvojili razum od tradicije"
+explanation: >-
+  Podela levo-desno datira iz 1789. godine, kada su poslanici u francuskoj Nacionalnoj skupštini koji su podržavali očuvanje kraljeve moći sedeli desno od predsednika, dok su oni koji su želeli da ograniče njegova ovlašćenja sedeli levo. Ona nije potekla od Marksa i Smitha, Američkog građanskog rata ili filozofije prosvetiteljstva.
+reviewed: false

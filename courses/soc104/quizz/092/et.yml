@@ -1,0 +1,9 @@
+question: "Mis on Eric Hughesi 1993. aasta Cypherpunki manifesti põhisõnum privaatsuse kohta?"
+answer: "Privaatsus on elektroonilisel ajastul avatud ühiskonnale hädavajalik ning üksikisikud peavad selle ise üles ehitama, selle asemel et oodata valitsustelt või ettevõtetelt selle tagamist"
+wrong_answers:
+  - "Privaatsus on luksus, mis tuleb ohverdada riikliku julgeoleku ja demokraatlike institutsioonide kaitse nimel"
+  - "Privaatsust peaksid reguleerima rahvusvahelised lepingud, mis kehtestavad kõigis riikides ühtsed andmekaitsestandardid"
+  - "Privaatsus on oluline ainult kurjategijatele ja dissidentidele, samal ajal kui seaduskuulekad kodanikud saavad läbipaistvatest järelevalvesüsteemidest kasu"
+explanation: >-
+  Eric Hughesi 1993. aasta manifest ütleb, et privaatsus on elektroonilisel ajastul avatud ühiskonnale hädavajalik ning et me ei saa oodata, et valitsused, ettevõtted või teised suured organisatsioonid seda tagaksid. Põhimotivatsioon seisneb selles, et konfidentsiaalsus on vabaduse põhielement ja selle peavad üles ehitama üksikisikud ise, mitte ootama seda institutsioonidelt kingitusena.
+reviewed: false

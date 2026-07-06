@@ -1,0 +1,9 @@
+question: "Jak filozofia cypherpunk dotycząca centralizacji łączy się z libertariańską zasadą zgody jako fundamentalną normą sprawiedliwości?"
+answer: "Cypherpunks postrzegają każdą centralizację jako opartą na przymusie, a nie zgodzie, odzwierciedlając libertariańskie stanowisko, że nic nie może być sprawiedliwe, jeśli jest narzucone siłą przez scentralizowaną władzę"
+wrong_answers:
+  - "Cypherpunks wierzą, że centralizacja jest akceptowalna, gdy zostanie zatwierdzona demokratyczną większością głosów, zgodnie z libertariańskim szacunkiem dla rządów konstytucyjnych"
+  - "Cypherpunks popierają tymczasową centralizację w sytuacjach nadzwyczajnych, odzwierciedlając libertariański pogląd, że prawa jednostki mogą zostać zawieszone, gdy zagrożony jest kolektyw"
+  - "Cypherpunks sprzeciwiają się centralizacji tylko w systemach technologicznych, akceptując centralizację polityczną jako konieczną do egzekwowania praw własności i kontraktów"
+explanation: >-
+  Cypherpunks pokładają zaufanie w zdecentralizowanych systemach kryptograficznych, a nie w scentralizowanych instytucjach. Każda centralizacja jest postrzegana jako oparta na przymusie, a nie zgodzie. Bezpośrednio odzwierciedla to filozofię libertariańską, według której zgoda jest fundamentalną normą sprawiedliwości. Nic nie może być sprawiedliwe, jeśli jest narzucone przez scentralizowaną władzę przy użyciu siły, dlatego dążyli do budowania zdecentralizowanych sieci, w których żaden pojedynczy podmiot nie mógłby narzucić swojej woli.
+reviewed: false

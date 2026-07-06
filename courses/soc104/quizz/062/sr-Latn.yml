@@ -1,0 +1,9 @@
+question: "Koja je ključna razlika koju Hannah Arendt pravi između klasičnog despotizma i totalitarizma?"
+answer: "Totalitarizam ljude ne podvrgava samo tiranskim pravilima, već ljudska bića čini nesposobnim za nezavisno delanje, negirajući samu politiku"
+wrong_answers:
+  - "Klasični despotizam kontroliše ekonomiju, dok totalitarizam kontroliše samo političke i vojne institucije"
+  - "Totalitarizam je jednostavno ekstremnija verzija despotizma, koja se razlikuje samo po razmerama represije"
+  - "Klasični despotizam koristi ideologiju da opravda svoju vlast, dok se totalitarizam oslanja isključivo na vojnu silu"
+explanation: >-
+  Arendt tvrdi da se totalitarizam fundamentalno razlikuje od klasičnog despotizma. On nije jednostavno ekstremnija tiranija, već sistem koji ljudska bića čini suvišnim, uništavajući njihovu sposobnost za nezavisno delanje. Za Arendt, politika je sposobnost naroda da uzme svoju sudbinu u svoje ruke, a totalitarizam je sama negacija te sposobnosti, što ga kvalitativno razlikuje od despotizma.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "O que o princípio cypherpunk 'Cypherpunks write code' revela sobre a abordagem do movimento para alcançar a liberdade?"
+answer: "Que o caminho para a liberdade passa pela construção ativa de sistemas anônimos, usando o código como ferramenta fundamental para transformar ideias abstratas de liberdade em realidade"
+wrong_answers:
+  - "Que os cypherpunks são principalmente desenvolvedores de software que escrevem aplicações comerciais para financiar suas campanhas de ativismo político"
+  - "Que o movimento acredita em educar o público por meio de manifestos escritos e publicações acadêmicas, em vez de ação direta"
+  - "Que os cypherpunks se concentram em invadir sistemas governamentais existentes para expor programas de vigilância e forçar reformas legislativas"
+explanation: >-
+  A fórmula "Cypherpunks write code" reflete o compromisso do movimento com a intervenção ativa, e não com mera esperança. Para Eric Hughes, o caminho para a liberdade passa pela construção ativa de sistemas anônimos que tornam divisões políticas arbitrárias irrelevantes. O código se torna a ferramenta fundamental para transformar ideias abstratas de liberdade em realidade, razão pela qual Satoshi Nakamoto escreveu todo o código do Bitcoin antes mesmo de escrever o white paper.
+reviewed: false

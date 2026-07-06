@@ -1,0 +1,9 @@
+question: "John Rawls ගේ justice පිළිබඳ principles දෙක කුමක්ද?"
+answer: "සියලු දෙනාට equal liberty, සහ inequalities ඉඩ දෙන්නේ ඒවා most disadvantaged අයට benefit කරන්නේ නම් පමණක් බව කියන difference principle"
+wrong_answers:
+  - "සියලු citizens සඳහා universal suffrage, සහ public services සඳහා මුදල් සැපයීමට progressive taxation"
+  - "restriction නැති freedom of speech, සහ equality ලබා ගැනීමට mandatory wealth redistribution"
+  - "private property rights ආරක්ෂා කිරීම, සහ සියලු state actions සඳහා non-aggression principle යෙදීම"
+explanation: >-
+  Rawls principles දෙකක් ඉදිරිපත් කරයි: පළමුව, සියලු දෙනාට equal liberty (democracy හි foundation එක), සහ දෙවනුව, inequalities ඉඩ දෙන්නේ ඒවා සමාජයේ most disadvantaged members අයට benefit කරන්නේ නම් පමණක් වන difference principle. මෙයින් අදහස් වන්නේ, redistribution මගින් least favored අයටද benefit වීමට ඉඩ සලසන්නේ නම්, කෙනෙකුට ධනවත් වීමට අයිතිය ඇති බවයි. අනෙකුත් options විවිධ political philosophies වල elements මිශ්‍ර කරයි.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Care este mesajul central al Manifestului Cypherpunk din 1993 al lui Eric Hughes privind confidențialitatea?"
+answer: "Confidențialitatea este esențială pentru o societate deschisă în era electronică, iar indivizii trebuie să o construiască singuri, în loc să se aștepte ca guvernele sau corporațiile să o garanteze"
+wrong_answers:
+  - "Confidențialitatea este un lux care trebuie sacrificat în schimbul securității naționale și al protecției instituțiilor democratice"
+  - "Confidențialitatea ar trebui reglementată prin tratate internaționale care stabilesc standarde uniforme pentru protecția datelor în toate țările"
+  - "Confidențialitatea este importantă doar pentru infractori și disidenți, în timp ce cetățenii care respectă legea beneficiază de sisteme transparente de supraveghere"
+explanation: >-
+  Manifestul din 1993 al lui Eric Hughes afirmă că confidențialitatea este esențială pentru o societate deschisă în era electronică și că nu ne putem aștepta ca guvernele, corporațiile sau alte organizații mari să o garanteze. Motivația fundamentală este că confidențialitatea este un element-cheie al libertății și trebuie construită de indivizi înșiși, nu așteptată ca un dar din partea instituțiilor.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Ak vezmeme do úvahy celý argument tohto kurzu, ako Bitcoin súčasne stelesňuje libertariánsku kritiku konštruktivizmu, cypherpunkový záväzok konať a individualistickú obranu morálnej autonómie?"
+answer: "Bitcoin nahrádza centrálne plánované peniaze spontánnym trhovým poriadkom (anti-konštruktivizmus), premieňa abstraktný ideál finančnej slobody na fungujúci kód (cypherpunková akcia) a vracia jednotlivcovi suverénne vlastníctvo a súkromie (morálna autonómia)"
+wrong_answers:
+  - "Bitcoin používa demokratické riadenie na stanovovanie menovej politiky (anti-konštruktivizmus), publikuje vzdelávací obsah o finančnej slobode (cypherpunková akcia) a umožňuje jednotlivcom hlasovať o zmenách protokolu (morálna autonómia)"
+  - "Bitcoin odstraňuje všetku finančnú reguláciu (anti-konštruktivizmus), vytvára komunitu vývojárov, ktorí lobujú za dereguláciu (cypherpunková akcia), a dáva bohatým jednotlivcom väčšiu kontrolu nad menovou politikou (morálna autonómia)"
+  - "Bitcoin decentralizuje serverovú infraštruktúru naprieč viacerými krajinami (anti-konštruktivizmus), používa open-source licencovanie na slobodné zdieľanie technológie (cypherpunková akcia) a poskytuje anonymné platformy sociálnych médií pre politický disent (morálna autonómia)"
+explanation: >-
+  Bitcoin stojí na priesečníku troch intelektuálnych tradícií skúmaných v kurze. Stelesňuje antikonštruktivistický argument tým, že nahrádza centrálne plánované fiat peniaze spontánnym, decentralizovaným menovým poriadkom, ktorý nemôže kontrolovať žiadny centrálny plánovač. Napĺňa cypherpunkový imperatív písať kód tým, že mení abstraktné ideály finančnej slobody a súkromia na fungujúcu technológiu. A slúži individualistickej obrane morálnej autonómie tým, že umožňuje suverénne vlastníctvo, chráni plody práce a zachováva súkromie, takže každému človeku umožňuje byť pánom vlastného života.
+reviewed: false

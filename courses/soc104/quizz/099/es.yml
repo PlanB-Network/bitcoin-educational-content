@@ -1,0 +1,9 @@
+question: "¿Cómo se conecta la filosofía cypherpunk sobre la centralización con el principio libertario del consentimiento como norma fundamental de justicia?"
+answer: "Los cypherpunks ven toda centralización como fundada en la coerción y no en el consentimiento, haciendo eco de la postura libertaria de que nada puede ser justo si una autoridad centralizada lo impone por la fuerza"
+wrong_answers:
+  - "Los cypherpunks creen que la centralización es aceptable cuando la aprueba el voto de la mayoría democrática, alineándose con el respeto libertario por la gobernanza constitucional"
+  - "Los cypherpunks apoyan la centralización temporal durante emergencias, reflejando la visión libertaria de que los derechos individuales pueden suspenderse cuando el colectivo está amenazado"
+  - "Los cypherpunks se oponen a la centralización solo en los sistemas tecnológicos, mientras aceptan la centralización política como necesaria para hacer cumplir los derechos de propiedad y los contratos"
+explanation: >-
+  Los cypherpunks depositan la confianza en sistemas criptográficos descentralizados en lugar de en instituciones centralizadas. Toda centralización se percibe como fundada en la coerción y no en el consentimiento. Esto hace eco directamente de la filosofía libertaria de que el consentimiento es la norma fundamental de la justicia. Nada puede ser justo si es impuesto por la fuerza por una autoridad centralizada, por eso buscaron construir redes descentralizadas donde ninguna entidad única pudiera imponer su voluntad.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Maadili makuu ya msimamo wa kati ni yapi?"
+answer: "Kiasi, maelewano, kubadilika, na manufaa ya umma"
+wrong_answers:
+  - "Mila, utaratibu, mamlaka, na utambulisho wa kitaifa"
+  - "Uhuru, mali binafsi, ridhaa, na wajibu wa mtu binafsi"
+  - "Usawa, haki ya kijamii, mshikamano, na umiliki wa pamoja"
+explanation: >-
+  Maadili makuu ya msimamo wa kati ni kiasi, maelewano, kubadilika, na manufaa ya umma. Haya yanaakisi msisitizo wa msimamo wa kati kwenye usawazishaji wa kipragmatiki badala ya kujifunga kwa itikadi. Chaguo nyingine zinaeleza maadili makuu ya uhafidhina, ulibertaria, na ujamaa mtawalia.
+reviewed: false

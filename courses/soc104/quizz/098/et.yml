@@ -1,0 +1,9 @@
+question: "Mida näitab cypherpunki põhimõte 'Cypherpunks write code' liikumise lähenemise kohta vabaduse saavutamisele?"
+answer: "Et tee vabaduseni kulgeb anonüümsete süsteemide aktiivse ehitamise kaudu, kasutades koodi põhilise vahendina vabaduse abstraktsete ideede tegelikkuseks muutmiseks"
+wrong_answers:
+  - "Et cypherpunks'id on peamiselt tarkvaraarendajad, kes kirjutavad kommertsrakendusi oma poliitilise aktivismi kampaaniate rahastamiseks"
+  - "Et liikumine usub avalikkuse harimisse kirjalike manifestide ja akadeemiliste publikatsioonide kaudu, mitte otsesesse tegevusse"
+  - "Et cypherpunks'id keskenduvad olemasolevate valitsussüsteemide häkkimisele, et paljastada järelevalveprogramme ja sundida seadusandlikku reformi"
+explanation: >-
+  Vormel "Cypherpunks write code" peegeldab liikumise pühendumust aktiivsele sekkumisele, mitte pelgale lootusele. Eric Hughesi jaoks kulgeb tee vabaduseni anonüümsete süsteemide aktiivse ehitamise kaudu, mis muudavad meelevaldsed poliitilised jaotused ebaoluliseks. Koodist saab põhiline vahend vabaduse abstraktsete ideede tegelikkuseks muutmiseks, mistõttu kirjutas Satoshi Nakamoto kogu Bitcoini koodi enne, kui ta üldse white paperi kirjutas.
+reviewed: false

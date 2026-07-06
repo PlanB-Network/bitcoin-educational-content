@@ -1,0 +1,9 @@
+question: "Miks kirjeldab kursus Bitcoini turuvaluutana, mis vastandub riigi rahale, mitte parempoolse või vasakpoolse projektina?"
+answer: "Sest Bitcoin on vabatahtlikult omaks võetud, raskesti toodetav, detsentraliseeritud valuuta, mis säilitab väärtust, vastandudes sunnipõhisele tsentraliseeritud Fiat-rahale, mis kaotab väärtust; seetõttu puudutab lõhe turgu versus riiki, mitte poliitilist ideoloogiat"
+wrong_answers:
+  - "Sest Bitcoini lõi anonüümne arendaja, kes vältis teadlikult igasuguste poliitiliste avalduste tegemist selle kavandatud eesmärgi või filosoofia kohta"
+  - "Sest Bitcoini kaevandamisalgoritm tagab uute müntide võrdse jaotuse kõigile poliitilistele parteidele, vältides rahasüsteemis igasugust ideoloogilist kallutatust"
+  - "Sest Bitcoin toimib täpselt samamoodi nagu olemasolevad Fiat-valuutad, kuid töötab kiiremas maksevõrgus, muutes poliitilised eristused ebaoluliseks"
+explanation: >-
+  Bitcoini kirjeldatakse kui rahumeelset mässu raha politiseerimise vastu. Riigi ehk Fiat-raha on sunnipõhine tsentraliseeritud süsteem, mis kipub väärtust kaotama. Tururaha, ajalooliselt kuld ja praegu Bitcoin, on terve, raskesti toodetav valuuta, mis tekib vabatahtlikult ja säilitab oma väärtuse pika aja jooksul. Tegelik vastandus ei ole vasak versus parem, vaid turg versus riik, muutes Bitcoini poliitiliseks katkestuseks, mis ületab traditsioonilisi ideoloogilisi leere.
+reviewed: false

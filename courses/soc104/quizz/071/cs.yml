@@ -1,0 +1,9 @@
+question: "Proč libertariáni odmítají zdanění?"
+answer: "Protože je morálním porušením vlastnických práv, formou státní krádeže, která bez souhlasu zabavuje majetek druhého"
+wrong_answers:
+  - "Protože daně jsou ekonomicky neefektivní a vždy vedou k vyšší míře nezaměstnanosti"
+  - "Protože zdanění odrazuje zahraniční investice a oslabuje konkurenční postavení země"
+  - "Protože progresivní daňové systémy nespravedlivě cílí na bohaté jednotlivce, kteří vytvářejí nejvíce pracovních míst"
+explanation: >-
+  Libertariánská námitka proti zdanění je morální dříve než ekonomická. Libertariáni považují zdanění za formu státní krádeže a překážku soukromého vlastnictví, protože spočívá v zabavení majetku druhého bez souhlasu. Proti zdanění mohou existovat ekonomické argumenty, ale základní libertariánský argument stojí na principu, že porušuje vlastnická práva, nikoli na výpočtech efektivity nebo konkurenceschopnosti.
+reviewed: false

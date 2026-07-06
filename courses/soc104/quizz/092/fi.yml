@@ -1,0 +1,9 @@
+question: "Miksi rahainflaatiota kuvataan piiloverona, joka määrätään ilman kansalaisten suostumusta?"
+answer: "Koska valtion rahanluonti devalvoi valuuttaa niin, että ihmiset voivat ostaa samalla määrällä vähemmän, mutta useimmat eivät ymmärrä hintojen nousun heijastavan valtion politiikkaa eikä luonnollisia markkinavoimia"
+wrong_answers:
+  - "Koska keskuspankit veloittavat salaa maksuja jokaisesta pankkijärjestelmän kautta käsitellystä maksutapahtumasta paljastamatta niitä tilinomistajille"
+  - "Koska valtiot painavat rahaa ja jakavat sitä vain varakkaille yksilöille samalla kun ne verottavat köyhiä korkeammilla myyntiveroilla välttämättömyyshyödykkeistä"
+  - "Koska inflaation aiheuttavat yksityiset yritykset, jotka nostavat hintoja kasvattaakseen voittoja, mikä toimii epävirallisena verona kuluttajille"
+explanation: >-
+  Rahan syöttäminen järjestelmään näkyy valuutan devalvoitumisena, jossa samalla määrällä saa vähemmän, koska uusi raha ei heijasta aitoa talouskasvua. Useimmat ihmiset eivät näe, että valtion politiikka johti hintojen nousuun, joka on yksinkertaisesti valuutan devalvoitumisen heijastuma. Tämä merkitsee laillista varkautta ja institutionaalistettua riistoa, joka köyhdyttää keskiluokkaa samalla kun varakkaat saavat uutta rahaa haltuunsa spekulatiivisten varojen kautta.
+reviewed: false

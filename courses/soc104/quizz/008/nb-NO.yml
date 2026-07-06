@@ -1,0 +1,9 @@
+question: "Hva er de to aksene i Nolan-diagrammet?"
+answer: "En vertikal akse som måler personlige friheter, og en horisontal akse som måler økonomiske friheter"
+wrong_answers:
+  - "En horisontal akse fra venstre til høyre og en vertikal akse fra autoritær til demokratisk"
+  - "En vertikal akse som måler rikdom, og en horisontal akse som måler utdanningsnivåer"
+  - "En horisontal akse fra sosialisme til kapitalisme og en vertikal akse fra tradisjon til fremskritt"
+explanation: >-
+  David Nolan utformet diagrammet sitt med to spesifikke akser: personlige friheter (vertikal) og økonomiske friheter (horisontal). Denne todimensjonale tilnærmingen erstatter den overforenklede venstre-høyre-linjen og fanger bedre kompleksiteten i politiske ideologier ved å skille de to hovedkategoriene av frihet.
+reviewed: false

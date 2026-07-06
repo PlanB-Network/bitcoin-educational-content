@@ -1,0 +1,9 @@
+question: "Ai đã ra mắt mailing list Cypherpunk đầu tiên vào năm 1992?"
+answer: "Tim May và Eric Hughes, những người đã tạo ra một nền tảng trở thành trung tâm thần kinh của phong trào"
+wrong_answers:
+  - "Satoshi Nakamoto và Hal Finney, những người sau đó cùng nhau tạo ra Bitcoin vào năm 2008"
+  - "Julian Assange và Edward Snowden, những người đã sử dụng danh sách này để phối hợp các hoạt động tố giác chính phủ"
+  - "Phil Zimmermann và Bruce Schneier, những người đã thiết kế danh sách này như một công cụ để phân phối phần mềm mã hóa"
+explanation: >-
+  Năm 1992, Tim May và Eric Hughes đã ra mắt mailing list Cypherpunk đầu tiên. Nền tảng này nhanh chóng trở thành trung tâm thần kinh của phong trào, quy tụ các nhà phát triển, nhà mật mã học và những người ủng hộ tự do kỹ thuật số. Chính trên cùng danh sách này, Satoshi Nakamoto sau đó đã chia sẻ Bitcoin White Paper lần đầu tiên vào năm 2008.
+reviewed: false

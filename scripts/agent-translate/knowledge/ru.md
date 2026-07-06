@@ -24,3 +24,25 @@
 - "witness" (Bitcoin tx witness / Simplicity witness expressions) → "свидетель", matching `resources/glossary/transaction-witness/ru.md`; "Merkle root/tree" → "корень Меркла"/"дерево Меркла" per `resources/glossary/merkle-root/`, `merkle-tree/`.
 - "bookkeeping" (Bit Machine implementing combinators without copying data) → "учёт"/"за счёт учёта, без копирования данных".
 - "key-path spend" / "script path" → "трата по пути ключа" / "путь скрипта"; "internal key" → "внутренний ключ".
+
+## 2026-07-06
+- `welfare state` → «государство всеобщего благосостояния» in SOC/political-economy context, not a literal «социальное государство» when the course stresses fiscal/monetary pillars.
+- `cypherpunk(s)` → «шифропанк(и)»; keep the slogan `Cypherpunks write code` in English when quoted as the movement’s formula, translating only surrounding prose.
+- The genesis-block headline `The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout` is a historical embedded message; keep the quoted headline byte-identical in explanations while translating the paraphrased answer.
+- `statism` in political-philosophy prose → «этатизм»; `statist` → «этатистский» / «этатист», not «государственничество».
+- In this course context, `libertarian` → «либертарианец» / «либертарианство», while French `libertaire` is kept as `libertaire` to preserve the explicit contrast with Anglo-Saxon libertarianism.
+- `cypherpunk(s)` follows the glossary canonical term «шифропанк(и)»; names of manifestos, institutes, book titles, and slogans such as `Cypherpunks write code` can remain in English when they function as proper titles/quoted formulas.
+- In SOC/political-economy quiz context, "moral hazard" → «моральный риск»; keep it as the established economics term, not «моральная опасность».
+- For social policy quizzes, "gay marriage" → «однополый брак» rather than colloquial «гей-брак».
+- In SOC104 political-philosophy quizzes, render French `libertaires` as «либертеры» to distinguish them from libertarians («либертарианцы»/«либертарианство»), while preserving the left-anarchist sense.
+- `Green New Deal` → «Зелёный новый курс» in Russian prose.
+- In Bastiat/Friedman-style political economy context, `spoliation` can be rendered as «грабёж»/«форма грабежа» rather than a neutral «экспроприация».
+- SOC104 political-spectrum terms: `Nolan diagram` → «диаграмма Нолана», `Nolan diamond` → «ромб Нолана», `statism` → «этатизм», `libertarianism` → «либертарианство».
+- SOC104 libertarian-family terms: `anarcho-capitalists` → «анархо-капиталисты», `minarchists` → «минархисты».
+- In this Russian SOC104 context, `left-right axis/divide` is rendered as «ось/деление левые–правые» with an en dash, while `top-bottom` is «верх–низ».
+- In Russian political-economy prose, keep `pro-business` and `pro-market` in Latin script when they are contrasted as labels; translate only the surrounding explanation.
+- `sound money` in libertarian/Bitcoin monetary context → «твёрдые деньги».
+- In SOC/political philosophy quizzes, keep `pro-business` and `pro-market` as Latin-script policy labels; translate the surrounding explanation (e.g. «сторонники pro-market»), rather than forcing them into Russian paraphrases.
+- Kant's "state of minority" in the Enlightenment context → «состояние несовершеннолетия»/«несовершеннолетие», the standard Russian philosophical rendering.
+- Hayek's "spontaneous order" → «спонтанный порядок»; "central planning" → «центральное планирование».
+- In `soc104`, keep American political labels/institution names in English where the Russian course text does: `liberals`, `Big Government`, `New Deal`, `Great Society`, `Cato Institute`, `Mises Institute`, `Libertarian Party`.

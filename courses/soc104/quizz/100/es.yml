@@ -1,0 +1,9 @@
+question: "¿Por qué argumentaban los cypherpunks que era necesaria una moneda digital con propiedades anónimas?"
+answer: "Porque el efectivo, el principal sistema de transacciones anónimas, está desapareciendo en la sociedad digital, y debe inventarse un sustituto digital con las mismas propiedades de privacidad"
+wrong_answers:
+  - "Porque los sistemas de pago digitales existentes eran demasiado lentos y caros, lo que requería una alternativa más rápida y barata para el comercio en línea"
+  - "Porque los gobiernos ya habían prohibido todas las formas de transacciones anónimas y solo una nueva tecnología podía eludir esas leyes"
+  - "Porque los bancos tradicionales se negaban a atender a ciertas poblaciones, haciendo que un sistema de pago digital universalmente accesible fuera una necesidad económica"
+explanation: >-
+  El manifiesto cypherpunk afirma que la confidencialidad en una sociedad abierta requiere sistemas de transacciones anónimas. Hasta la era digital, el efectivo servía como el principal sistema de este tipo. Pero en una sociedad digital donde el efectivo está desapareciendo, debe inventarse una moneda digital con las mismas propiedades de anonimato. Esta visión anticipó directamente lo que Bitcoin lograría.
+reviewed: false

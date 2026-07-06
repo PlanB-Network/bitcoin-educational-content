@@ -1,0 +1,9 @@
+question: "Mikä yhteinen piirre vasemmistolaisilla ja oikeistolaisilla poliittisilla puolueilla on niiden näennäisestä vastakkainasettelusta huolimatta?"
+answer: "Molemmat puolustavat valtion oikeutta hallita ihmisten elämää sääntelyn ja verojen kautta"
+wrong_answers:
+  - "Molemmat kannattavat valtion puuttumisen täydellistä poistamista taloudellisissa asioissa"
+  - "Molemmat asettavat yksilönvapauden etusijalle yhteiskunnan kollektiiviseen järjestämiseen nähden"
+  - "Molemmat hylkäävät rahapolitiikan käytön valtion kulutuksen työkaluna"
+explanation: >-
+  Vaikka vasemmisto ja oikeisto näyttävät olevan vastakkain, niillä on yhteinen mieltymys valtion puuttumiseen. Molemmat arvostelevat vapaita markkinoita ja puolustavat valtion oikeutta hallita ihmisten elämää sääntelyn ja verojen kautta. Vasemmisto arvostelee markkinoita eriarvoisuuden lähteenä, kun taas oikeisto näkee ne uhkana suvereniteetille, mutta molemmat kääntyvät valtion puoleen ratkaisujen saamiseksi.
+reviewed: false

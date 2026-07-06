@@ -1,0 +1,9 @@
+question: "Umugwi w'umwidegemvyo w'umuntu ku giti ciwe urimwo iki?"
+answer: "Ivyo ukora mu migenderanire yawe y'ubuzima bwite, n'ivyiyumviro vyawe, ukwemera kwawe, n'ikintu cose kijanye n'umubiri wawe n'ubwenge bwawe"
+wrong_answers:
+  - "Ivyo ukora nk'umuhinguzi, harimwo gutanguza ubucuruzi, guha akazi abakozi, no kudandaza ibidandazwa"
+  - "Ingene amakori uriha angana, ishoramari ukora, n'ingene ucunga amatungo yawe y'amahera"
+  - "Ubushobozi bwawe bwo guhiganwa mw'isoko, gushinga ibiciro vy'ibicuruzwa vyawe, no guhitamwo abaguhereza ivyo ukoresha"
+explanation: >-
+  Umwidegemvyo w'umuntu ku giti ciwe ukwirikira ivyo ukora mu migenderanire yawe y'ubuzima bwite, n'ivyiyumviro vyawe n'ukwemera kwawe, hamwe n'ikintu cose kijanye n'umubiri wawe n'ubwenge bwawe. Ivyo birimwo ubugeni, amahitamwo y'ivyo usoma, ibikorwa vy'idini, amahitamwo y'ibifungurwa n'imiti, n'abo wifatanya na bo. Ibikorwa vy'ubucuruzi, amakori, n'ingingo zo mw'isoko biri mu mwidegemvyo w'ubutunzi.
+reviewed: false

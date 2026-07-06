@@ -1,0 +1,9 @@
+question: "Que comprend la catégorie de la liberté personnelle ?"
+answer: "Ce que vous faites dans vos relations privées, avec vos opinions, vos croyances, et tout ce qui concerne votre propre corps et votre esprit"
+wrong_answers:
+  - "Ce que vous faites en tant que producteur, y compris créer une entreprise, embaucher des salariés et échanger des biens"
+  - "Le montant d'impôts que vous payez, les investissements que vous faites et la manière dont vous gérez vos actifs financiers"
+  - "Votre capacité à concurrencer sur le marché, à fixer les prix de vos produits et à choisir vos fournisseurs"
+explanation: >-
+  La liberté personnelle englobe ce que vous faites dans vos relations privées, avec vos opinions et vos croyances, et tout ce qui concerne votre propre corps et votre esprit. Cela inclut le mariage, les choix de lecture, les pratiques religieuses, les choix alimentaires et médicaux, et les personnes que vous fréquentez. Les activités commerciales, les impôts et les décisions de marché relèvent de la liberté économique.
+reviewed: false

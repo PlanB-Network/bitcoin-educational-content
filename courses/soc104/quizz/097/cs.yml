@@ -1,0 +1,9 @@
+question: "Proč Cypherpunks tvrdili, že je nutná digitální měna s anonymními vlastnostmi?"
+answer: "Protože hotovost, hlavní anonymní transakční systém, v digitální společnosti mizí a je třeba vynalézt digitální náhradu se stejnými vlastnostmi soukromí"
+wrong_answers:
+  - "Protože existující digitální platební systémy byly příliš pomalé a drahé, což vyžadovalo rychlejší a levnější alternativu pro online obchod"
+  - "Protože vlády již zakázaly všechny formy anonymních transakcí a pouze nová technologie mohla tyto zákony obejít"
+  - "Protože tradiční banky odmítaly obsluhovat určité populace, což z univerzálně dostupného digitálního platebního systému činilo ekonomickou nutnost"
+explanation: >-
+  Manifest šifrantů uvádí, že důvěrnost v otevřené společnosti vyžaduje anonymní transakční systémy. Až do digitálního věku sloužila jako hlavní systém tohoto typu hotovost. V digitální společnosti, kde hotovost mizí, však musí být vynalezena digitální měna se stejnými vlastnostmi anonymity. Tato vize přímo předjímala to, čeho měl Bitcoin dosáhnout.
+reviewed: false

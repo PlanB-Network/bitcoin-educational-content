@@ -1,0 +1,9 @@
+question: "Miks peetakse vertikaaltelge (üleval-all) Nolani diagrammil horisontaalteljest (vasak-parem) fundamentaalsemaks?"
+answer: "Sest see paljastab tõelise jaotuse nende vahel, kes kaitsevad maksimaalseid individuaalseid vabadusi, ja nende vahel, kes eelistavad maksimaalset riiklikku kontrolli"
+wrong_answers:
+  - "Sest see mõõdab majandustoodangut täpsemalt kui horisontaaltelg mõõdab sotsiaalpoliitikaid"
+  - "Sest enamik poliitilisi konflikte läbi ajaloo on puudutanud pigem kultuurilist identiteeti kui valitsemist"
+  - "Sest horisontaaltelg kehtib ainult kaasaegsete demokraatiate kohta, samas kui vertikaaltelg on universaalne"
+explanation: >-
+  Fundamentaalne telg on vertikaalne, sest see tabab keskset poliitilist küsimust: mil määral peaks riik kontrollima inimtegevust? Vasak-parem telg peegeldab pelgalt erinevaid tundlikkusi (sotsiaalne õiglus vs. traditsioon), kuid mõlemad pooled võivad riigikesksetena hõivata vertikaalteljel sama positsiooni. Vertikaaltelg näitab, kas keegi tahab oma nägemust jõuga peale suruda või austab üksikisiku vabadust.
+reviewed: false

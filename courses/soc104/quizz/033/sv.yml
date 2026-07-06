@@ -1,0 +1,9 @@
+question: "Vad är icke-aggressionsprincipen såsom den teoretiserades av Murray Rothbard?"
+answer: "Det är illegitimt att initiera fysiskt våld mot en annan individ eller dennes egendom, även om defensivt våld är tillåtet"
+wrong_answers:
+  - "Alla former av våld är alltid fel, inklusive självförsvar och motstånd mot förtryck"
+  - "Våld är acceptabelt när det riktas mot förtryckande institutioner men aldrig mot andra individer"
+  - "Endast staten har den legitima rätten att använda våld, och individer får aldrig ta till våld"
+explanation: >-
+  Rothbards icke-aggressionsprincip innebär att det är illegitimt att initiera fysiskt våld mot en annan person eller dennes egendom. Den är en filosofisk översättning av den gyllene regeln. Den förbjuder dock inte allt våld: defensivt våld, inklusive självförsvar och motstånd mot förtryck, betraktas som legitimt. Detta skiljer den från ren pacifism och från statens påstådda våldsmonopol.
+reviewed: false

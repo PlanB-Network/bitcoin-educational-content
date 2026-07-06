@@ -1,0 +1,9 @@
+question: "Varför anses den vertikala axeln (upp–ned) vara mer grundläggande än den horisontella axeln (vänster–höger) i Nolan-diagrammet?"
+answer: "Eftersom den visar den verkliga skiljelinjen mellan dem som försvarar maximala individuella friheter och dem som föredrar maximal statlig kontroll"
+wrong_answers:
+  - "Eftersom den mäter ekonomisk produktion mer exakt än den horisontella axeln mäter socialpolitik"
+  - "Eftersom de flesta politiska konflikter genom historien har handlat om kulturell identitet snarare än styrelseskick"
+  - "Eftersom den horisontella axeln bara gäller moderna demokratier medan den vertikala axeln är universell"
+explanation: >-
+  Den grundläggande axeln är den vertikala eftersom den fångar den väsentliga politiska frågan: i vilken grad bör staten kontrollera mänskligt handlande? Vänster-höger-axeln återspeglar bara olika sensibiliteter (social rättvisa kontra tradition), men båda sidor kan inta samma position på den vertikala axeln som etatister. Den vertikala axeln visar om någon vill påtvinga sin vision med våld eller respekterar individuell frihet.
+reviewed: false

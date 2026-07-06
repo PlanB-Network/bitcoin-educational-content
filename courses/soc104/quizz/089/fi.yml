@@ -1,0 +1,9 @@
+question: "Miksi Popperin mukaan avoin yhteiskunta pysyy eduistaan huolimatta luonnostaan hauraana?"
+answer: "Koska individualismin edellyttämä vastuu voi tuntua pelottavalta, mikä luo houkutuksen hakea turvaa yhteisöllisestä suojelusta, auktoriteetista tai idealisoidun menneisyyden nostalgiasta"
+wrong_answers:
+  - "Koska avoimilta yhteiskunnilta puuttuu sotilaallinen voima, eivätkä ne voi puolustautua suljettujen yhteiskuntien hyökkäyksiä vastaan"
+  - "Koska demokraattiset instituutiot ovat luontaisesti tehottomia ja lopulta romahtavat byrokraattisen monimutkaisuuden painon alla"
+  - "Koska avoimet yhteiskunnat sallivat liian suuren taloudellisen eriarvoisuuden, mikä johtaa väistämättä vallankumoukseen ja autoritaaristen hallintojen perustamiseen"
+explanation: >-
+  Popper korostaa, että avoimen yhteiskunnan hauraus johtuu psykologisesta haavoittuvuudesta. Individualismin edellyttämä vastuu voi tuntua pelottavalta ja riskialttiilta, koska ihmisen on tehtävä omat valintansa ja hän voi epäonnistua. Tämä luo houkutuksen hakea turvaa yhteisöllisestä suojelusta tai nostalgisista taipumuksista kohti idealisoitua menneisyyttä. Avoin yhteiskunta kohtaa jatkuvia haasteita kommunitaristisista impulsseista ja toistuvasta väkivallan houkutuksesta.
+reviewed: false

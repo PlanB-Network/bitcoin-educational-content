@@ -1,0 +1,9 @@
+question: "Vilken varning gav Milton Friedman om hur man bedömer politiska åtgärder?"
+answer: "Politiska åtgärder bör bedömas utifrån sina resultat snarare än utifrån sina intentioner"
+wrong_answers:
+  - "Politiska åtgärder bör bedömas utifrån den moraliska karaktären hos de politiker som föreslår dem"
+  - "Politiska åtgärder bör bedömas utifrån hur populära de är bland den breda väljarkåren"
+  - "Politiska åtgärder bör bedömas utifrån huruvida de överensstämmer med landets ursprungliga konstitution"
+explanation: >-
+  Friedman skrev att ett av de största misstagen är att bedöma politiska åtgärder efter deras intentioner snarare än efter deras resultat, och noterade att program som sägs vara till för de fattiga nästan alltid ger effekter motsatta dem som deras upphovsmän avsåg. Detta ekar Bastiats lära att en god ekonom beaktar både kortsiktiga och långsiktiga effekter på hela befolkningen.
+reviewed: false

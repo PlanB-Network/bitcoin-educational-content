@@ -1,0 +1,9 @@
+question: "Když vezmeme v úvahu celý argument tohoto kurzu, jak Bitcoin současně ztělesňuje libertariánskou kritiku konstruktivismu, závazek Cypherpunks k akci a individualistickou obranu morální autonomie?"
+answer: "Bitcoin nahrazuje centrálně plánované peníze spontánním tržním řádem (antikonstruktivismus), proměňuje abstraktní ideál finanční svobody ve fungující kód (akce Cypherpunks) a obnovuje suverénní vlastnictví a soukromí jednotlivce (morální autonomie)"
+wrong_answers:
+  - "Bitcoin používá demokratickou správu k určování měnové politiky (antikonstruktivismus), publikuje vzdělávací obsah o finanční svobodě (akce Cypherpunks) a umožňuje jednotlivcům hlasovat o změnách protokolu (morální autonomie)"
+  - "Bitcoin odstraňuje veškerou finanční regulaci (antikonstruktivismus), vytváří komunitu vývojářů, kteří lobbují za deregulaci (akce Cypherpunks), a dává bohatým jednotlivcům větší kontrolu nad měnovou politikou (morální autonomie)"
+  - "Bitcoin decentralizuje serverovou infrastrukturu napříč více zeměmi (antikonstruktivismus), používá open-source licenci ke svobodnému sdílení technologie (akce Cypherpunks) a poskytuje anonymní platformy sociálních médií pro politický disent (morální autonomie)"
+explanation: >-
+  Bitcoin leží na průsečíku tří intelektuálních tradic zkoumaných v kurzu. Ztělesňuje antikonstruktivistický argument tím, že nahrazuje centrálně plánované fiat peníze spontánním, decentralizovaným měnovým řádem, který žádný centrální plánovač nemůže ovládat. Naplňuje imperativ Cypherpunks psát kód tím, že převádí abstraktní ideály finanční svobody a soukromí do fungující technologie. A slouží individualistické obraně morální autonomie tím, že umožňuje suverénní vlastnictví, chrání plody práce a zachovává soukromí, takže každý člověk může být pánem svého vlastního života.
+reviewed: false

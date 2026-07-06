@@ -1,0 +1,9 @@
+question: "Bitcoin thách thức ba trụ cột nào của nhà nước phúc lợi?"
+answer: "Hệ thống tài khóa, độc quyền tiền tệ để tài trợ chi tiêu thông qua nợ, và việc giám sát giao dịch nhằm ngăn việc sử dụng các đồng tiền thay thế"
+wrong_answers:
+  - "Ngân sách quân sự, hệ thống giáo dục công, và hạ tầng y tế do chính phủ kiểm soát"
+  - "Hệ thống tư pháp, quy trình lập pháp, và việc hành pháp cưỡng chế các quy định đối với doanh nghiệp"
+  - "Hệ thống an sinh xã hội, luật lương tối thiểu, và cấu trúc thuế thu nhập lũy tiến"
+explanation: >-
+  Bitcoin thách thức ba trụ cột mà nhà nước phúc lợi dựa vào. Thứ nhất, hệ thống tài khóa vốn không đủ để trang trải chi tiêu. Thứ hai, độc quyền tiền tệ, tức năng lực phát hành tiền để tài trợ chi tiêu thông qua nợ. Thứ ba, việc giám sát giao dịch, tức khả năng ngăn người dân sử dụng bất kỳ đồng tiền nào ngoài tiền pháp định do nhà nước áp đặt. Bitcoin đồng thời làm suy yếu cả ba trụ cột này.
+reviewed: false

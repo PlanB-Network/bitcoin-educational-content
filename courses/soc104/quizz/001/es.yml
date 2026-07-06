@@ -1,0 +1,9 @@
+question: "¿Dónde se origina la división política izquierda-derecha?"
+answer: "En la distribución de los asientos durante los debates de la Revolución Francesa de 1789"
+wrong_answers:
+  - "En los escritos de Karl Marx y Adam Smith en el siglo XIX"
+  - "En la Guerra Civil estadounidense entre los estados del Norte y del Sur"
+  - "En los filósofos de la Ilustración que separaron la razón de la tradición"
+explanation: >-
+  La división izquierda-derecha se remonta a 1789, cuando los diputados de la Asamblea Nacional francesa que favorecían mantener el poder del rey se sentaban a la derecha del presidente, mientras que quienes querían limitar sus poderes se sentaban a la izquierda. No se originó en Marx y Smith, la Guerra Civil estadounidense ni la filosofía de la Ilustración.
+reviewed: false

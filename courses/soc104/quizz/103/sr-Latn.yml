@@ -1,0 +1,9 @@
+question: "Ko je pokrenuo prvu sajferpank mejling listu 1992. godine?"
+answer: "Tim May i Eric Hughes, koji su stvorili platformu koja je postala nervni centar pokreta"
+wrong_answers:
+  - "Satoshi Nakamoto i Hal Finney, koji su kasnije zajedno stvorili Bitcoin 2008. godine"
+  - "Julian Assange i Edward Snowden, koji su koristili listu za koordinaciju aktivnosti uzbunjivanja protiv vlade"
+  - "Phil Zimmermann i Bruce Schneier, koji su dizajnirali listu kao alat za distribuciju softvera za enkripciju"
+explanation: >-
+  Godine 1992, Tim May i Eric Hughes pokrenuli su prvu sajferpank mejling listu. Ova platforma je brzo postala nervni centar pokreta, okupljajući programere, kriptografe i zagovornike digitalne slobode. Upravo na toj istoj listi Satoshi Nakamoto će kasnije prvi put podeliti Belu knjigu Bitcoin-a 2008. godine.
+reviewed: false

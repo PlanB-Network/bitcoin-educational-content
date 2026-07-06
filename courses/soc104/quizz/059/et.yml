@@ -1,0 +1,9 @@
+question: "Millised on John Rawlsi kaks õigluse põhimõtet?"
+answer: "Võrdne vabadus kõigile ja erinevuse printsiip, mis lubab ebavõrdsusi ainult siis, kui need toovad kasu kõige ebasoodsamas olukorras olevatele"
+wrong_answers:
+  - "Üldine valimisõigus kõigile kodanikele ja progressiivne maksustamine avalike teenuste rahastamiseks"
+  - "Piiranguteta sõnavabadus ja kohustuslik rikkuse ümberjaotamine võrdsuse saavutamiseks"
+  - "Eraomandi õiguste kaitse ja mitteagressiivsuse põhimõte, mida rakendatakse kõigile riigi tegevustele"
+explanation: >-
+  Rawls pakub välja kaks põhimõtet: esiteks võrdne vabadus kõigile (demokraatia alus) ja teiseks erinevuse printsiip, mis lubab ebavõrdsusi ainult siis, kui need toovad kasu ühiskonna kõige ebasoodsamas olukorras olevatele liikmetele. See tähendab, et inimesel on õigus rikkaks saada tingimusel, et ümberjaotamine võimaldab kasu saada ka kõige vähem soositutel. Teised valikud segavad eri poliitiliste filosoofiate elemente.
+reviewed: false

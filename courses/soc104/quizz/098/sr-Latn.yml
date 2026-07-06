@@ -1,0 +1,9 @@
+question: "Koja tri stuba države blagostanja Bitcoin dovodi u pitanje?"
+answer: "Fiskalni sistem, monetarni monopol za finansiranje potrošnje kroz dug i nadzor transakcija radi sprečavanja upotrebe alternativnih valuta"
+wrong_answers:
+  - "Vojni budžet, sistem javnog obrazovanja i zdravstvena infrastruktura pod državnom kontrolom"
+  - "Pravosudni sistem, zakonodavni proces i izvršno sprovođenje regulacija nad preduzećima"
+  - "Sistem socijalnog osiguranja, zakonodavstvo o minimalnoj zaradi i progresivnu strukturu poreza na dohodak"
+explanation: >-
+  Bitcoin dovodi u pitanje tri stuba na kojima počiva država blagostanja. Prvo, fiskalni sistem koji nije dovoljan da pokrije rashode. Drugo, monetarni monopol, što znači sposobnost izdavanja novca radi finansiranja potrošnje kroz dug. Treće, nadzor transakcija, sposobnost sprečavanja ljudi da koriste bilo koju valutu osim fiata nametnutog od države. Bitcoin potkopava sva tri istovremeno.
+reviewed: false

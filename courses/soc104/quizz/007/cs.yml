@@ -1,0 +1,9 @@
+question: "Která pozice v Nolanově kosočtverci leží nahoře a představuje maximální svobodu?"
+answer: "Libertarianismus, podporující největší ekonomickou i osobní svobodu"
+wrong_answers:
+  - "Konzervatismus, podporující tradiční hodnoty a ekonomickou svobodu"
+  - "Centrismus, pragmaticky vyvažující všechny politické pozice"
+  - "Socialismus, podporující osobní svobodu a sociální rovnost"
+explanation: >-
+  Libertarianismus zaujímá vrchol Nolanova kosočtverce jako opak etatismu. Představuje ty, kdo podporují nejvyšší míru ekonomické i osobní svobody. Konzervatismus leží vpravo (vysoká ekonomická, nízká osobní svoboda), socialismus vlevo (vysoká osobní, nízká ekonomická svoboda) a centrismus uprostřed.
+reviewed: false

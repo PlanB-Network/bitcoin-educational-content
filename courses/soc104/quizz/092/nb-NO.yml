@@ -1,0 +1,9 @@
+question: "Hva er det grunnleggende problemet med fiatvalutaer som Satoshi Nakamoto identifiserte?"
+answer: "De krever tillit til at sentralbanken ikke devaluerer valutaen, men fiatvalutaenes historie er full av brudd på denne tilliten"
+wrong_answers:
+  - "De er for vanskelige å bruke i daglige transaksjoner fordi fysiske kontanter slites raskt ut og er dyre å produsere"
+  - "De kan ikke overføres internasjonalt fordi hvert land har inkompatible monetære standarder og reguleringer"
+  - "De er støttet av gullreserver som ikke er tilstrekkelige til å dekke den totale pengemengden i omløp"
+explanation: >-
+  Satoshi Nakamoto uttalte at det grunnleggende problemet med konvensjonelle valutaer er tilliten som kreves for at de skal fungere. Fiatvalutaer er ikke støttet av en råvare, men hviler utelukkende på institusjonell autoritet. Når en institusjon har total kontroll over penger, blir fristelsen til misbruk for sterk, og historien har vist dette gjentatte ganger gjennom valutadevaluering.
+reviewed: false

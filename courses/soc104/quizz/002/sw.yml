@@ -1,0 +1,9 @@
+question: "Ni kanuni gani elekezi iliyoongoza kura za Frederic Bastiat katika Bunge la Kitaifa?"
+answer: "Kukuza uhuru wa mtu binafsi na uhuru wa kiuchumi, na kupunguza uingiliaji wa serikali"
+wrong_answers:
+  - "Kutetea mamlaka ya kifalme na kuhifadhi mapokeo ya kifalme"
+  - "Kuendeleza sera za kijamaa ili kugawa upya utajiri kwa usawa zaidi"
+  - "Mkakati wa kisentrista wa maelewano kati ya makundi ya kushoto na kulia"
+explanation: >-
+  Bastiat alipiga kura kwa msingi wa kanuni kuu: kukuza uhuru wa mtu binafsi na uhuru wa kiuchumi huku akipunguza uingiliaji wa serikali. Hakuwa msaka nafasi wa kisentrista, wala mwanamfalme au mwanasoshalisti. Alipiga kura na upande wowote uliopendekeza hatua zilizoendana na uhuru na serikali yenye mipaka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Šta sajferpank princip 'Cypherpunks write code' otkriva o pristupu pokreta ostvarivanju slobode?"
+answer: "Da put ka slobodi prolazi kroz aktivnu izgradnju anonimnih sistema koristeći kod kao fundamentalni alat za pretvaranje apstraktnih ideja slobode u stvarnost"
+wrong_answers:
+  - "Da su Sajferpankovi prvenstveno programeri softvera koji pišu komercijalne aplikacije da bi finansirali kampanje svog političkog aktivizma"
+  - "Da pokret veruje u obrazovanje javnosti kroz pisane manifeste i akademske publikacije, a ne kroz direktnu akciju"
+  - "Da se Sajferpankovi fokusiraju na hakovanje postojećih državnih sistema kako bi razotkrili programe nadzora i iznudili zakonodavne reforme"
+explanation: >-
+  Formula "Cypherpunks write code" odražava posvećenost pokreta aktivnoj intervenciji, a ne pukoj nadi. Za Erica Hughesa, put ka slobodi prolazi kroz aktivnu izgradnju anonimnih sistema koji proizvoljne političke podele čine irelevantnim. Kod postaje fundamentalni alat za pretvaranje apstraktnih ideja slobode u stvarnost, zbog čega je Satoshi Nakamoto napisao ceo Bitcoin kod pre nego što je uopšte napisao Belu knjigu.
+reviewed: false

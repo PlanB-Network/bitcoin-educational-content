@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto පළමුව mined කළ Bitcoin block එක තුළ ඇතුළත් කළ පණිවිඩය කුමක්ද?"
+answer: "Chancellor දෙවන bank bailout එකක අද්දර සිටින බව කියන London Times පුවත් ශීර්ෂයක්"
+wrong_answers:
+  - "central planning සහ money මත government control හි අවදානම් ගැන Friedrich Hayek උපුටනයක්"
+  - "ලොව පුරා ඇති government සහ financial regulation සියලු ආකාරවලින් නිදහස පිළිබඳ ප්‍රකාශනයක්"
+  - "decentralized currency fiat moneyට වඩා කාර්යක්ෂම බව පෙන්වන ගණිතමය සාධනයක්"
+explanation: >-
+  genesis block එක තුළ, Satoshi Nakamoto London Times වෙතින් සංකේතාත්මක පුවත් ශීර්ෂයක් ඇතුළත් කළේය: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." මෙය 2008 financial crisis සහ එයට පසුව ඇති වූ monetary interventionism වෙත සෘජු සඳහනක් වූ අතර, centralized banking systems සඳහා විකල්පයක් ලෙස Bitcoin හි අරමුණ අවිවාදිත කළේය.
+reviewed: false

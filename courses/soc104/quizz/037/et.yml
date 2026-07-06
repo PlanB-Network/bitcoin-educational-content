@@ -1,0 +1,9 @@
+question: "Millele keskendub poliitilise süsteemi struktuurne määratlus?"
+answer: "Sellele, kuidas süsteem tegelikult toimib, ja selle vaadeldavatele tunnustele, näiteks riikliku kontrolli määrale"
+wrong_answers:
+  - "Süsteemi rajajate ja juhtide deklareeritud eesmärkidele ja õilsatele kavatsustele"
+  - "Poliitilise liikumise ajaloolisele päritolule ja selle võtmemõtlejate elulugudele"
+  - "Lubatud erakondade arvule ja toimuvate demokraatlike valimiste sagedusele"
+explanation: >-
+  Struktuursed määratlused keskenduvad sellele, kuidas poliitilised süsteemid tegelikult toimivad, ja nende vaadeldavatele tunnustele. Näiteks iseloomustab sotsialismi struktuurselt riigi kõikjalolek. See lähenemine vastandub kavatsuslikele määratlustele, mis tuginevad deklareeritud motiividele ja eesmärkidele. Struktuurne lähenemine võimaldab mõõdetavatel tulemustel põhinevat objektiivsemat hindamist.
+reviewed: false

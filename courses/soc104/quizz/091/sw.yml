@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto aliingiza ujumbe gani katika block ya kwanza ya Bitcoin iliyowahi kuchimbwa?"
+answer: "Kichwa cha habari kutoka London Times kuhusu Chancellor kuwa ukingoni mwa uokoaji wa pili wa benki"
+wrong_answers:
+  - "Nukuu kutoka kwa Friedrich Hayek kuhusu hatari za upangaji wa kati na udhibiti wa serikali juu ya pesa"
+  - "Tamko la uhuru kutoka kwa aina zote za serikali na udhibiti wa kifedha duniani kote"
+  - "Uthibitisho wa kihisabati unaoonyesha kwamba sarafu iliyogatuliwa ni fanisi zaidi kuliko pesa ya Fiat"
+explanation: >-
+  Katika block ya genesis, Satoshi Nakamoto aliingiza kichwa cha habari cha kiishara kutoka London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Hii ilikuwa rejea ya moja kwa moja kwa mgogoro wa kifedha wa 2008 na uingiliaji wa kifedha uliofuata, ikiifanya dhamira ya Bitcoin kuwa wazi kabisa kama mbadala kwa mifumo ya benki yenye mamlaka ya kati.
+reviewed: false

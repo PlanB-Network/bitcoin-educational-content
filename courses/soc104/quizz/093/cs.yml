@@ -1,0 +1,9 @@
+question: "Jaké tři pilíře sociálního státu Bitcoin zpochybňuje?"
+answer: "Fiskální systém, měnový monopol na financování výdajů prostřednictvím dluhu a dohled nad transakcemi, který má bránit používání alternativních měn"
+wrong_answers:
+  - "Vojenský rozpočet, veřejný vzdělávací systém a vládou kontrolovanou zdravotnickou infrastrukturu"
+  - "Soudní systém, legislativní proces a výkonný dohled nad regulacemi podniků"
+  - "Systém sociálního zabezpečení, zákony o minimální mzdě a progresivní strukturu daně z příjmu"
+explanation: >-
+  Bitcoin zpochybňuje tři pilíře, na nichž sociální stát spočívá. Zaprvé fiskální systém, který nestačí k pokrytí výdajů. Zadruhé měnový monopol, tedy schopnost vydávat peníze k financování výdajů prostřednictvím dluhu. Zatřetí dohled nad transakcemi, schopnost bránit lidem v používání jakékoli jiné měny než státem vnucené fiat měny. Bitcoin podkopává všechny tři současně.
+reviewed: false

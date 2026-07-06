@@ -1,0 +1,11 @@
+question: "1992 年に最初の Cypherpunk メーリングリストを立ち上げたのは誰か？"
+answer: "Tim May と Eric Hughes。彼らは運動の中枢となるプラットフォームを作った"
+wrong_answers:
+  - "Satoshi Nakamoto と Hal Finney。彼らは後に 2008 年に共同で Bitcoin を作った"
+  - "Julian Assange と Edward Snowden。彼らは政府内部告発活動を調整するためにそのリストを使った"
+  - "Phil Zimmermann と Bruce Schneier。彼らは暗号化ソフトウェアを配布する道具としてそのリストを設計した"
+explanation: >-
+  1992 年、Tim May と Eric Hughes は最初の Cypherpunk メーリングリストを立ち上げた。
+  このプラットフォームはすぐに運動の中枢となり、開発者、暗号学者、デジタル自由の擁護者を結びつけた。
+  Satoshi Nakamoto が 2008 年に Bitcoin White Paper を初めて共有することになるのも、この同じリスト上だった。
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Koju je razliku Karl Marx povukao između utopijskog socijalizma i naučnog socijalizma?"
+answer: "Optužio je rane francuske socijaliste da predlažu imaginarna rešenja, dok je njegov naučni socijalizam bio utemeljen u istorijskom materijalizmu i klasnoj borbi"
+wrong_answers:
+  - "Tvrdio je da je utopijski socijalizam previše usredsređen na ekonomiju, dok naučni socijalizam daje prioritet kulturnoj i umetničkoj transformaciji"
+  - "Hvalio je utopijske socijaliste zbog njihovih praktičnih eksperimenata i kritikovao naučni socijalizam kao previše apstraktan i teorijski"
+  - "Tvrdio je da je utopijski socijalizam nasilan i revolucionaran, dok naučni socijalizam favorizuje mirnu demokratsku reformu"
+explanation: >-
+  Marx je optužio rane francuske socijaliste poput Proudhona, Saint-Simona i Fouriera da su utopisti koji predlažu čisto imaginarna rešenja. Njegov naučni socijalizam počivao je na istorijskom materijalizmu: ideji da istorija napreduje kroz klasnu borbu i prisvajanje sredstava za proizvodnju, gde su sve kulturne predstave uslovljene proizvodnim snagama i proizvodnim odnosima.
+reviewed: false

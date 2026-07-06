@@ -1,0 +1,9 @@
+question: "Minkä eron Karl Marx teki utopistisen sosialismin ja tieteellisen sosialismin välille?"
+answer: "Hän syytti varhaisia ranskalaisia sosialisteja kuvitteellisten ratkaisujen ehdottamisesta, kun taas hänen tieteellinen sosialisminsa perustui historialliseen materialismiin ja luokkataisteluun"
+wrong_answers:
+  - "Hän väitti, että utopistinen sosialismi keskittyi liikaa talouteen, kun taas tieteellinen sosialismi asetti etusijalle kulttuurisen ja taiteellisen muutoksen"
+  - "Hän kiitti utopistisia sosialisteja heidän käytännön kokeiluistaan ja arvosteli tieteellistä sosialismia liian abstraktiksi ja teoreettiseksi"
+  - "Hän väitti, että utopistinen sosialismi oli väkivaltaista ja vallankumouksellista, kun taas tieteellinen sosialismi suosi rauhanomaista demokraattista reformia"
+explanation: >-
+  Marx syytti varhaisia ranskalaisia sosialisteja, kuten Proudhonia, Saint-Simonia ja Fourier'ta, utopisteiksi, jotka ehdottivat puhtaasti kuvitteellisia ratkaisuja. Hänen tieteellinen sosialisminsa perustui historialliseen materialismiin: ajatukseen, että historia etenee luokkataistelun ja tuotantovälineiden haltuunoton kautta, jolloin kaikki kulttuuriset representaatiot määräytyvät tuotantovoimien ja tuotantosuhteiden mukaan.
+reviewed: false

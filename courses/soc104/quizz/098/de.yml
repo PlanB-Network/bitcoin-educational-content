@@ -1,0 +1,9 @@
+question: "Warum argumentierten die Cypherpunks, dass eine digitale Währung mit anonymen Eigenschaften notwendig sei?"
+answer: "Weil Bargeld, das wichtigste anonyme Transaktionssystem, in der digitalen Gesellschaft verschwindet und ein digitaler Ersatz mit denselben Privatsphäre-Eigenschaften erfunden werden muss"
+wrong_answers:
+  - "Weil bestehende digitale Zahlungssysteme zu langsam und teuer waren und eine schnellere und günstigere Alternative für den Online-Handel erforderten"
+  - "Weil Regierungen bereits alle Formen anonymer Transaktionen verboten hatten und nur eine neue Technologie diese Gesetze umgehen konnte"
+  - "Weil traditionelle Banken sich weigerten, bestimmte Bevölkerungsgruppen zu bedienen, wodurch ein universell zugängliches digitales Zahlungssystem zu einer wirtschaftlichen Notwendigkeit wurde"
+explanation: >-
+  Das Cypherpunk-Manifest erklärt, dass Vertraulichkeit in einer offenen Gesellschaft anonyme Transaktionssysteme erfordert. Bis zum digitalen Zeitalter diente Bargeld als primäres System dieser Art. Doch in einer digitalen Gesellschaft, in der Bargeld verschwindet, muss eine digitale Währung mit denselben Eigenschaften der Anonymität erfunden werden. Diese Vision nahm direkt vorweg, was Bitcoin erreichen würde.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Millise hoiatuse andis Milton Friedman poliitiliste meetmete hindamise kohta?"
+answer: "Meetmeid tuleks hinnata nende tulemuste, mitte kavatsuste järgi"
+wrong_answers:
+  - "Meetmeid tuleks hinnata neid ette panevate poliitikute moraalse iseloomu järgi"
+  - "Meetmeid tuleks hinnata selle järgi, kui populaarsed need on üldise valijaskonna seas"
+  - "Meetmeid tuleks hinnata selle järgi, kas need on kooskõlas riigi algse põhiseadusega"
+explanation: >-
+  Friedman kirjutas, et üks suurimaid vigu on hinnata meetmeid nende kavatsuste, mitte tulemuste järgi, märkides, et programmid, mida esitletakse vaeste heaks mõeldutena, annavad peaaegu alati nende toetajate kavatsustele vastupidiseid tulemusi. See kajab kokku Bastiat' õpetusega, et hea majandusteadlane arvestab nii lühi- kui ka pikaajalisi mõjusid kogu elanikkonnale.
+reviewed: false

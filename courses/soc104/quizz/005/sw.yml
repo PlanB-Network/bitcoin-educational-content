@@ -1,0 +1,9 @@
+question: "Ni jambo gani la pamoja ambalo vyama vya kisiasa vya mrengo wa kushoto na mrengo wa kulia vinashiriki licha ya upinzani wao unaoonekana?"
+answer: "Vyote vinatetea haki ya dola kutawala maisha ya watu kupitia kanuni na kodi"
+wrong_answers:
+  - "Vyote vinatetea kufutwa kabisa kwa uingiliaji wa dola katika masuala ya kiuchumi"
+  - "Vyote vinatanguliza uhuru wa mtu binafsi kuliko mpangilio wa pamoja wa jamii"
+  - "Vyote vinakataa matumizi ya sera ya fedha kama chombo cha matumizi ya serikali"
+explanation: >-
+  Licha ya kuonekana kupingana, kushoto na kulia hushiriki upendeleo wa uingiliaji wa dola. Vyote hukosoa soko huru na kutetea haki ya dola kutawala maisha ya watu kupitia kanuni na kodi. Kushoto hukosoa masoko kama chanzo cha ukosefu wa usawa, huku kulia kuyaona kama tishio kwa mamlaka ya kujitawala, lakini pande zote mbili hugeukia dola kwa suluhisho.
+reviewed: false

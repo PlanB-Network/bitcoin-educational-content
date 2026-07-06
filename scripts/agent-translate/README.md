@@ -63,6 +63,12 @@ python3 translate.py --path courses/scr403 --langs fr,ja --provider openai
 
 # Local, no worktree, no PR (dev / smoke test)
 python3 translate.py --in-place --no-pr --langs fr --subtype quizz --limit 4 --batch-size 4
+
+# Resume a published batch: retry what's still missing (e.g. dropped FAILs) and
+# UPDATE its existing PR instead of opening a new one — accepts a PR #, PR URL, or branch.
+python3 translate.py --resume 4553                        # retry all still-missing files on that PR
+python3 translate.py --resume 4553 --path courses/soc104 --provider both
+python3 translate.py --list-batches                       # published branches + their PRs/worktrees
 ```
 
 Scoping flags combine freely: `--langs`, `--content`, `--subtype`
@@ -71,7 +77,8 @@ Scoping flags combine freely: `--langs`, `--content`, `--subtype`
 `--batch-size N` (small-file packet, default 15), `--model X` + `--thinking`,
 `--provider {anthropic|openai|both}` (default both — restrict routing to one provider's models),
 `--retries N` (default 2, walks the fallback chain), `--base dev`, `--in-place`,
-`--no-pr`, `--keep-worktree`, `--max-items`/`--force`.
+`--no-pr`, `--keep-worktree`, `--max-items`/`--force`. Resume flags: `--resume BRANCH|PR`
+(update an existing published batch in place), `--list-batches` (list + exit).
 
 ## Interactive launcher & usage governor
 `translate.py` runs two ways — a coordinator agent passes CLI flags, a human uses the menu:
@@ -96,6 +103,24 @@ cd <checkout-with-pipeline>
 python3 scripts/agent-translate/translate.py --interactive
 #  → 1) un cours · scr403 · (toutes langues) · PR: O   → ~1320 files, ~120 omp sessions
 ```
+## Resuming / updating a published PR
+A batch normally branches fresh from `dev` and opens ONE PR, then drops FAIL files
+(they never reach the PR). `--resume <branch|PR#|PR-url>` reopens that same batch:
+it re-attaches the branch in a worktree (reusing the local one if still present, else
+re-creating it from `origin`), scans **that branch** for what it still lacks — exactly
+the previously-dropped FAILs — re-translates them (honouring `--provider`/`--langs`/
+`--path`), then pushes to the **same branch** so the existing PR updates (the release
+agent comments the delta instead of opening a new PR).
+
+In the interactive menu, option **5) Gérer / relancer un batch publié** lists published
+branches + their PRs and offers two actions per batch: **retry** (→ update the PR) or
+**remove** the local worktree (housekeeping). `--list-batches` is the non-interactive view.
+
+```bash
+# The soc104 example: PR #4553 dropped 6 FAILs — retry them with the full chain, update #4553
+python3 translate.py --resume 4553 --provider both
+```
+
 
 ## Model routing (`config.yml → models`)
 asi0's decision, from `knowledge/model-matrix.html`. Each language maps to an ordered

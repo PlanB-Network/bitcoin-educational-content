@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -53,6 +54,96 @@ def create_worktree(repo_root: Path, base: str, worktree_base: str, branch_prefi
         cwd=str(repo_root), check=True, capture_output=True, text=True,
     )
     return path, branch
+
+
+def remove_worktree(repo_root: Path, worktree: Path) -> None:
+    subprocess.run(["git", "worktree", "remove", "--force", str(worktree)],
+                   cwd=str(repo_root), capture_output=True, text=True)
+
+
+def _worktree_for_branch(repo_root: Path, branch: str) -> Path | None:
+    """Path of an existing worktree that has `branch` checked out, or None."""
+    out = subprocess.run(["git", "worktree", "list", "--porcelain"],
+                         cwd=str(repo_root), capture_output=True, text=True).stdout
+    cur: str | None = None
+    for line in out.splitlines():
+        if line.startswith("worktree "):
+            cur = line[len("worktree "):].strip()
+        elif line.strip() == f"branch refs/heads/{branch}":
+            return Path(cur) if cur else None
+    return None
+
+
+def attach_worktree(repo_root: Path, branch: str, worktree_base: str) -> tuple[Path, bool]:
+    """Check out an existing (published) branch in a worktree so we can update it.
+    Reuses a worktree that already has the branch checked out; otherwise fetches
+    origin and creates one (fast-forwarding a stale local branch to the PR head).
+    Returns (path, reused)."""
+    subprocess.run(["git", "fetch", "origin", branch], cwd=str(repo_root),
+                   capture_output=True, text=True)  # best-effort; branch may be local-only
+    existing = _worktree_for_branch(repo_root, branch)
+    if existing and existing.exists():
+        return existing.resolve(), True
+    ts = datetime.now().strftime("%Y%m%d-%H%M%S")
+    path = (repo_root / worktree_base.format(ts=ts)).resolve()
+    local = subprocess.run(["git", "rev-parse", "--verify", "--quiet", f"refs/heads/{branch}"],
+                           cwd=str(repo_root), capture_output=True, text=True).returncode == 0
+    if local:
+        subprocess.run(["git", "worktree", "add", str(path), branch],
+                       cwd=str(repo_root), check=True, capture_output=True, text=True)
+        subprocess.run(["git", "merge", "--ff-only", f"origin/{branch}"],
+                       cwd=str(path), capture_output=True, text=True)  # sync to PR head if possible
+    else:
+        subprocess.run(["git", "worktree", "add", "--track", "-b", branch, str(path), f"origin/{branch}"],
+                       cwd=str(repo_root), check=True, capture_output=True, text=True)
+    return path, False
+
+
+def find_pr_for_branch(repo_root: Path, branch: str) -> dict | None:
+    """Open PR whose head is `branch` (via gh), or None."""
+    r = subprocess.run(["gh", "pr", "list", "--head", branch, "--state", "open",
+                        "--json", "number,url,title", "--limit", "1"],
+                       cwd=str(repo_root), capture_output=True, text=True)
+    if r.returncode != 0 or not r.stdout.strip():
+        return None
+    try:
+        arr = json.loads(r.stdout)
+    except json.JSONDecodeError:
+        return None
+    return arr[0] if arr else None
+
+
+def resolve_resume_target(repo_root: Path, target: str, branch_prefix: str) -> tuple[str, dict | None]:
+    """Map a --resume value (branch name | PR number | PR URL) to (branch, open_pr|None)."""
+    t = target.strip()
+    m = re.search(r"/pull/(\d+)", t)
+    pr_num = t if t.isdigit() else (m.group(1) if m else None)
+    if pr_num:
+        r = subprocess.run(["gh", "pr", "view", pr_num, "--json", "number,url,title,headRefName"],
+                           cwd=str(repo_root), capture_output=True, text=True)
+        if r.returncode != 0:
+            sys.exit(f"Cannot resolve PR {pr_num}: {r.stderr.strip()}")
+        pr = json.loads(r.stdout)
+        return pr["headRefName"], {"number": pr["number"], "url": pr["url"], "title": pr["title"]}
+    return t, find_pr_for_branch(repo_root, t)
+
+
+def list_batches(repo_root: Path, branch_prefix: str) -> list[dict]:
+    """Published auto-translate branches (local + remote) with open PR + local worktree."""
+    branches: set[str] = set()
+    for cmd in (["git", "branch", "--list", f"{branch_prefix}/*", "--format=%(refname:short)"],
+                ["git", "branch", "-r", "--list", f"origin/{branch_prefix}/*", "--format=%(refname:short)"]):
+        out = subprocess.run(cmd, cwd=str(repo_root), capture_output=True, text=True).stdout
+        for ln in out.splitlines():
+            b = ln.strip().removeprefix("origin/")
+            if b:
+                branches.add(b)
+    rows: list[dict] = []
+    for b in sorted(branches):
+        wt = _worktree_for_branch(repo_root, b)
+        rows.append({"branch": b, "pr": find_pr_for_branch(repo_root, b),
+                     "worktree": str(wt) if wt else None})
+    return rows
 
 
 # ---------------- lessons consolidation ----------------
@@ -94,14 +185,24 @@ def consolidate_lessons(lessons_root: Path, knowledge_dir: Path) -> dict[str, in
 # ---------------- release agent ----------------
 
 def run_pr_agent(worktree: Path, branch: str, base: str, summary_text: str,
-                 report_path: Path, model: str, timeout: int) -> int:
+                 report_path: Path, model: str, timeout: int,
+                 existing_pr: dict | None = None) -> int:
     prompt = (PROMPTS_DIR / "pr_agent.md").read_text(encoding="utf-8")
+    if existing_pr:
+        pr_line = (
+            f"A PR ALREADY EXISTS for this branch: #{existing_pr['number']} ({existing_pr['url']}). "
+            f"Do NOT open a new PR. After committing and pushing, add a concise comment to PR "
+            f"#{existing_pr['number']} summarising what changed (files added/retried, updated verify "
+            f"tally) with `gh pr comment {existing_pr['number']} --body ...`."
+        )
+    else:
+        pr_line = f"Validate the batch, drop FAIL files, commit, push, and open ONE PR against {base}."
     message = (
         f"Batch summary:\n{summary_text}\n\n"
         f"Verify report (JSON) is at this absolute path (read it, it is OUTSIDE the "
         f"worktree — do not commit it): {report_path}\n"
         f"Branch '{branch}' is already checked out here. Base branch: '{base}'.\n"
-        f"Validate the batch, drop FAIL files, commit, push, and open ONE PR against {base}."
+        f"{pr_line}"
     )
     cmd = [
         "omp", "-p", "--no-session", "--auto-approve", "--no-lsp", "--no-title",
@@ -168,6 +269,44 @@ def make_jobs(items: list[dict], batch_size: int) -> list[list[dict]]:
     return jobs
 
 
+def _prompt_provider(args) -> None:
+    print("\nProvider :")
+    print("  1) both — chaîne de routage complète (défaut)")
+    print("  2) anthropic — sonnet/opus")
+    print("  3) openai — gpt-5.5")
+    args.provider = {"2": "anthropic", "3": "openai"}.get(input("Choix [1-3] : ").strip(), "both")
+
+
+def _manage_menu(args, config: dict) -> None:
+    """List published batches; retry (update the PR) or remove a local worktree."""
+    repo_root = args.repo_root.resolve()
+    rows = list_batches(repo_root, config["branch_prefix"])
+    if not rows:
+        sys.exit("Aucun batch auto-translate publié trouvé.")
+    print("\nBatchs publiés :")
+    for i, row in enumerate(rows, 1):
+        pr = row["pr"]
+        pr_s = f"PR #{pr['number']} {pr['title']}" if pr else "aucune PR ouverte"
+        wt_s = "  · worktree local" if row["worktree"] else ""
+        print(f"  {i}) {row['branch']}  ({pr_s}){wt_s}")
+    sel = input(f"Batch [1-{len(rows)}] : ").strip()
+    if not sel.isdigit() or not (1 <= int(sel) <= len(rows)):
+        sys.exit("Sélection invalide.")
+    row = rows[int(sel) - 1]
+    print("\nAction :")
+    print("  1) Relancer les fichiers manquants (retry) → met à jour la PR")
+    print("  2) Supprimer le worktree local (cleanup)")
+    if input("Choix [1-2] : ").strip() == "2":
+        if not row["worktree"]:
+            sys.exit("Pas de worktree local à supprimer pour ce batch.")
+        remove_worktree(repo_root, Path(row["worktree"]))
+        sys.exit(f"Worktree supprimé : {row['worktree']}")
+    args.resume = row["branch"]
+    args.langs = input("Langues csv (vide=toutes les manquantes) : ").strip() or None
+    args.path = input("Path (vide=tout le contenu manquant) : ").strip() or None
+    _prompt_provider(args)
+
+
 def interactive_menu(args, config: dict) -> None:
     """Prompt for a batch scope and mutate `args` in place."""
     print("\n=== agent-translate — lancement interactif ===")
@@ -176,7 +315,11 @@ def interactive_menu(args, config: dict) -> None:
     print("  2) Un cours — langues au choix")
     print("  3) Une langue — tout le contenu manquant")
     print("  4) Scope personnalisé")
-    c = input("Choix [1-4] : ").strip()
+    print("  5) Gérer / relancer un batch publié (PR existante)")
+    c = input("Choix [1-5] : ").strip()
+    if c == "5":
+        _manage_menu(args, config)
+        return
     if c == "1":
         args.path = "courses/" + input("Cours (ex. scr403) : ").strip()
     elif c == "2":
@@ -190,11 +333,7 @@ def interactive_menu(args, config: dict) -> None:
         args.langs = input("Langues csv (vide=toutes) : ").strip() or None
         args.content = input("Content csv (vide=tous) : ").strip() or None
         args.subtype = input("Subtype csv (vide=tous) : ").strip() or None
-    print("\nProvider :")
-    print("  1) both — chaîne de routage complète (défaut)")
-    print("  2) anthropic — sonnet/opus")
-    print("  3) openai — gpt-5.5")
-    args.provider = {"2": "anthropic", "3": "openai"}.get(input("Choix [1-3] : ").strip(), "both")
+    _prompt_provider(args)
     if input("Ouvrir une PR à la fin ? [O/n] : ").strip().lower() == "n":
         args.no_pr = True
 
@@ -214,6 +353,12 @@ def main() -> None:
     p.add_argument("--timeout", type=int, default=1200, help="per-worker timeout seconds")
     p.add_argument("--retries", type=int, default=2, help="retry passes over FAILs (walks the fallback chain)")
     p.add_argument("--base", default="dev", help="base branch for the worktree/PR")
+    p.add_argument("--resume", metavar="BRANCH|PR",
+                   help="update an existing published batch: attach its branch, translate what is "
+                        "still missing, push to the SAME branch and update its PR (accepts a branch "
+                        "name, a PR number, or a PR URL)")
+    p.add_argument("--list-batches", action="store_true",
+                   help="list published auto-translate branches + their PRs and worktrees, then exit")
     p.add_argument("--dry-run", action="store_true", help="show the work list and exit")
     p.add_argument("--in-place", action="store_true", help="translate in the current checkout (no worktree)")
     p.add_argument("--no-pr", action="store_true", help="skip the release agent / PR step")
@@ -236,9 +381,36 @@ def main() -> None:
     if args.interactive:
         interactive_menu(args, config)
 
+    if args.list_batches:
+        for row in list_batches(repo_root, config["branch_prefix"]):
+            pr = row["pr"]
+            pr_s = f"PR #{pr['number']} {pr['title']}" if pr else "no open PR"
+            wt_s = f" · worktree {row['worktree']}" if row["worktree"] else ""
+            print(f"  {row['branch']:<28} {pr_s}{wt_s}")
+        return
+
+    # Resume: reattach to an existing published batch (branch + PR) instead of
+    # branching fresh from base. Scan the WORKTREE so we see what that branch still
+    # lacks (e.g. the FAIL files the release agent dropped), and update the PR in place.
+    resume = bool(args.resume)
+    existing_pr: dict | None = None
+    worktree: Path | None = None
+    branch: str | None = None
+    reused_worktree = False
+    scan_root = repo_root
+    if resume:
+        if args.in_place:
+            sys.exit("--resume and --in-place are mutually exclusive.")
+        branch, existing_pr = resolve_resume_target(repo_root, args.resume, config["branch_prefix"])
+        worktree, reused_worktree = attach_worktree(repo_root, branch, config["worktree_base"])
+        scan_root = worktree
+        pr_desc = (f"PR #{existing_pr['number']} ({existing_pr['url']})" if existing_pr
+                   else "no open PR — a new one will be opened")
+        print(f"Resuming branch {branch} · {pr_desc}\n"
+              f"Worktree {'reused' if reused_worktree else 'created'}: {worktree}")
 
     items = [asdict(w) for w in find_missing.scan(
-        config, repo_root=repo_root,
+        config, repo_root=scan_root,
         langs=find_missing._parse_csv(args.langs),
         content=find_missing._parse_csv(args.content),
         subtype=find_missing._parse_csv(args.subtype),
@@ -257,10 +429,14 @@ def main() -> None:
             print(f"  · {it['dst']}  [{m} · {th}]")
         if len(items) > 20:
             print(f"  … +{len(items)-20} more")
+        if resume and not reused_worktree:
+            remove_worktree(repo_root, worktree)
         return
 
     if not items:
         print("Nothing to translate. \u2705")
+        if resume and not reused_worktree:
+            remove_worktree(repo_root, worktree)
         return
 
     if len(items) > args.max_items and not args.force and not args.interactive:
@@ -278,16 +454,23 @@ def main() -> None:
 
     if args.interactive:
         n_sessions = len(make_jobs(items, args.batch_size or int(config.get("batch_size", 15))))
-        pr_note = "no PR" if args.no_pr else f"1 PR -> {args.base}"
+        if resume:
+            pr_note = f"update PR #{existing_pr['number']}" if existing_pr else "open new PR"
+        else:
+            pr_note = "no PR" if args.no_pr else f"1 PR -> {args.base}"
         print(f"\n{len(items)} fichiers · {n_sessions} sessions omp · concurrence {concurrency} · "
               f"providers {sorted(in_use) or ['?']} · {pr_note}")
         if input("Lancer ? [o/N] : ").strip().lower() not in ("o", "y", "oui"):
             print("Annulé.")
+            if resume and not reused_worktree:
+                remove_worktree(repo_root, worktree)
             return
 
 
     # Workspace
-    if args.in_place:
+    if resume:
+        print(f"Translating on branch {branch} in {worktree}.")
+    elif args.in_place:
         worktree, branch = repo_root, None
         print(f"Translating in place at {worktree} (no worktree).")
     else:
@@ -420,15 +603,19 @@ def main() -> None:
 
     print("\nHanding off to release agent …")
     rc = run_pr_agent(worktree, branch, args.base, summary_text, report_path,
-                      model=route_for(config, "__default__", provider=args.provider)[0]["model"], timeout=args.timeout)
+                      model=route_for(config, "__default__", provider=args.provider)[0]["model"],
+                      timeout=args.timeout, existing_pr=existing_pr)
     if rc != 0:
         print(f"Release agent exited {rc}; worktree kept at {worktree} on {branch}.")
         return
 
-    if not args.keep_worktree:
-        subprocess.run(["git", "worktree", "remove", "--force", str(worktree)],
-                       cwd=str(repo_root), capture_output=True, text=True)
-        print(f"Worktree {worktree} removed. Branch {branch} pushed with PR.")
+    if not args.keep_worktree and not reused_worktree:
+        remove_worktree(repo_root, worktree)
+        action = f"updated PR #{existing_pr['number']}" if existing_pr else "PR"
+        print(f"Worktree {worktree} removed. Branch {branch} pushed with {action}.")
+    else:
+        why = "reused pre-existing" if reused_worktree else "kept (--keep-worktree)"
+        print(f"Worktree {why}: {worktree} on {branch}.")
 
 
 if __name__ == "__main__":

@@ -18,3 +18,15 @@
 - No `ro.md` glossary entries exist yet for Taproot/witness/script family terms in this repo — kept "Taproot", "witness", "jet(s)", "NUMS", "TapLeaf", "TapTweak", "Bech32m" verbatim (standard practice for untranslated Bitcoin protocol terms in ro content).
 - "tweak"/"tweaking" (BIP-341 key tweaking) rendered as "twist-ui/'twist-uire' (tweaking)" with the English term parenthesized on first use per occurrence, since no established Romanian equivalent exists.
 - "sequent calculus" → "calculul secvenților"; "sum type"/"product type" → "tip sumă"/"tip produs"; kept mathematical notation (⟦⟧, σᴸ, σᴿ, ⊢, ▵, ⨾) untouched as required.
+
+## 2026-07-06
+- "rabbit hole" (Bitcoin meme idiom) kept verbatim as an embedded English phrase in the Romanian sentence (e.g. "în călătoria ta prin rabbit hole", "am căzut în rabbit hole") — no established RO gloss found in glossary or other professor bios; other languages (e.g. si) also embed it verbatim.
+- Job/role descriptors in prose bios (e.g. "Infrastructure Tech Developer") are translated naturally into Romanian rather than left verbatim, since they're plain prose, not the `author`/metadata field.
+- Institution and product proper nouns (University of Nicosia, Radboud University Nijmegen, University of Waterloo, Kedge Bordeaux, Bitcoin Institute, ENS, ENC Blomet, Actu-Philosophia, Revue Conflits, Looking Glass, Bittr, Specter Wallet, Specter DIY, Blockstream, Simplicity, Liquid Network, Taproot, Tether) left untranslated verbatim.
+- "signal" in "Bitcoin lessons, guides and other signal" (meaning valuable/relevant content) rendered as "conținut relevant", not a literal "semnal".
+- Some "en.yml" professor bios/short_bios contain source text already in French or Spanish (e.g. `gloirekw/en.yml` short_bio "Cofondateur...", `jona-ramos/en.yml` short_bio "Me encanta Bitcoin..."). Treat these as prose to translate into Romanian like any other value — the "en.yml" filename doesn't guarantee English content.
+- "sound money" left untranslated (verbatim English loanword) in `jimmy-song` bio — no established Romanian equivalent and no glossary entry found under `resources/glossary/`.
+- "shitcoin(s)" kept verbatim — no `ro.md` exists yet under `resources/glossary/shitcoin/`.
+- Avoid the colloquial "ca și consultant/antreprenor" construction (common but non-standard Romanian); use "ca consultant"/"ca antreprenor" without "și" before the noun.
+- "Developer Advocate" (job title) kept in English, only preposition translated ("Developer Advocate la Lightning Labs") — consistent with keeping established English tech job titles verbatim.
+- Typos/inconsistencies in source proper nouns (e.g. `jim/en.yml`: "Attakai" in bio vs "Attakaï" in short_bio) reproduced verbatim per field, not normalized.

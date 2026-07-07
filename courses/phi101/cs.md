@@ -23,6 +23,8 @@ Od antiky přes osvícenství svoboda vzkvétala, jak společnosti přijímaly t
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Úvod do kurzu
+
 Vítejte v kurzu PHI101!
 
 Tento kurz vás zve k prozkoumání vývoje svobody v dějinách prostřednictvím analýzy hlavních myšlenkových proudů, které ji formovaly. Zjistíte, jak se pojem svobody utvářel během staletí, ať už ve spolupráci či v opozici vůči moci, při historickém putování od antiky po současné debaty.
@@ -57,9 +59,11 @@ Připraveny ponořit se do tohoto jedinečného filozofického putování za hle
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Proč studovat historii svobody?
+
 Proč tento kurz nazvat historií svobody? Protože potřebujeme pochopit vztah mezi idejemi a událostmi, abychom lépe posoudili naši éru a jednali s rozlišením. V minulosti nacházíme prvky pro lepší pochopení toho, co svoboda je a důvody, proč si ji musíme vážit.
 
-> Když minulost již neosvětluje budoucnost, duch kráčí ve tmě (Alexis de Tocqueville - _Demokracie v Americe_.)
+> Když minulost již neosvětluje budoucnost, duch kráčí ve tmě (Alexis de Tocqueville - _[Demokracie v Americe](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/cs/001.webp)
 
@@ -104,7 +108,7 @@ Pro Turgota a Saya, učedníky Quesnaye, existuje přirozený zákon, nezávisl�
 Druhá filozofie se nachází u autorů jako Rousseau, Robespierre nebo Kant, kteří reprezentují republikánskou tradici, pro kterou je suverenita všeobecné vůle skutečným zdrojem práva. Rousseau, současník Quesnaye, je anti-fyziokrat. Pro něj musí zákonodárce organizovat společnost, jako mechanik, který vynalezne stroj z neživé hmoty.
 ![image](assets/cs/007.webp)
 
-> "Ten, kdo se odváží založit lid," říká Rousseau, "musí cítit schopnost změnit, takřka mluvě, lidskou přirozenost, proměnit každého jednotlivce, který sám o sobě je dokonalým a samostatným celkem, na část většího celku, od kterého tento jednotlivec dostává, jakoby, svůj život a bytí." (_Společenská smlouva_)
+> "Ten, kdo se odváží založit lid," říká Rousseau, "musí cítit schopnost změnit, takřka mluvě, lidskou přirozenost, proměnit každého jednotlivce, který sám o sobě je dokonalým a samostatným celkem, na část většího celku, od kterého tento jednotlivec dostává, jakoby, svůj život a bytí." (_[Společenská smlouva](https://planb.academy/resources/books/the-social-contract)_)
 
 Z této perspektivy je mise zákonodárce organizovat, měnit, dokonce zrušit vlastnictví, pokud to považuje za dobré. Pro Rousseaua není vlastnictví přirozené, ale konvenční, jako společnost sama. Robespierre naopak stanovuje princip, že "Vlastnictví je právo každého občana užívat a nakládat s částí statků zaručených mu zákonem." Neexistuje přirozené právo na vlastnictví; existuje pouze nekonečný počet možných a kontingentních uspořádání.
 
@@ -113,6 +117,8 @@ Z této perspektivy je mise zákonodárce organizovat, měnit, dokonce zrušit v
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### Mýtus prozřetelnostního zákonodárce
 
 Když člověk otevře učebnice, Bastiat poznamenal, dozví se, že lidstvo by bylo odsouzeno k ničemu bez zásahu moci:
 
@@ -171,6 +177,8 @@ Několik dní před svou smrtí v Římě v roce 1850 se Bastiat svěřil svému
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Historii píší vítězové
+
 Je známo, že historie je psána vítězi. Pozornost je často zaměřena na dobytí moci, na životy vůdců u moci a na konflikty, které je staví proti těm, kteří si přejí jejich místo zaujmout.
 
 ![obrázek](assets/cs/010.webp)
@@ -213,6 +221,8 @@ Tato teze je také nalezena v monumentálním díle datovaném do roku 1983: _Pr
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Socialistický pohled na historii
+
 Existuje však i jiný pohled na historii. Tento pohled byl velmi úspěšný a dlouho si užíval podpory západních intelektuálů a zástupců z Globálního Jihu. Jedná se o socialistický a marxistický pohled na historii.
 ![obrázek](assets/cs/013.webp)
 
@@ -231,7 +241,7 @@ Tato analýza odráží nepochopení přebytkové hodnoty a kooperativní a dyna
 
 ### Průmyslová revoluce v otázce
 
-Ve skutečnosti marxistická analýza zkresluje historickou realitu průmyslové revoluce. Ludwig von Mises tuto otázku objasnil ve svém ekonomickém traktátu [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (viz zejména kapitolu s názvem [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) stejně jako v sérii přednášek publikovaných pod názvem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Také stojí za přečtení, The Anti-Capitalistic Mentality [zde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) a [zde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Ve skutečnosti marxistická analýza zkresluje historickou realitu průmyslové revoluce. Ludwig von Mises tuto otázku objasnil ve svém ekonomickém traktátu [_Human Action_](https://planb.academy/resources/books/human-action) (viz zejména kapitolu s názvem [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) stejně jako v sérii přednášek publikovaných pod názvem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Také stojí za přečtení, The Anti-Capitalistic Mentality [zde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) a [zde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![obrázek](assets/cs/014.webp)
 
 Mises vysvětluje, že práce v továrnách, ačkoli byly podle našich standardů bídné, představovaly pro pracovníky té doby nejlepší možnou příležitost.
@@ -277,7 +287,9 @@ Je to právě tato radikálně decentralizovaná Evropa, která dala vzniknout p
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-V poslední kapitole _Anatomie státu_ (přeloženo do francouzštiny jako _L’anatomie de l’Etat_, vydavatelství Résurgence), Murray Rothbard předkládá teorii dějin. Tato velmi krátká kapitola má název: Dějiny, závod mezi mocí státu a mocí společnosti. Podle Rothbarda lze dějiny chápat jako věčný konflikt mezi dvěma základními principy:
+### Moc státu versus sociální moc
+
+V poslední kapitole _[Anatomie státu](https://planb.academy/resources/books/anatomy-of-the-state)_ (přeloženo do francouzštiny jako _L’anatomie de l’Etat_, vydavatelství Résurgence), Murray Rothbard předkládá teorii dějin. Tato velmi krátká kapitola má název: Dějiny, závod mezi mocí státu a mocí společnosti. Podle Rothbarda lze dějiny chápat jako věčný konflikt mezi dvěma základními principy:
 
 ![obrázek](assets/cs/017.webp)
 
@@ -312,7 +324,7 @@ Podle Rothbarda historie není lineární proces, ale spíše oscilace mezi post
 Od 17. století do 19. století, v mnoha západních zemích, byla období zrychlení sociální moci a odpovídajícího nárůstu svobody, míru a materiálního blahobytu. Ale Rothbard nás připomíná, že 20. století bylo poznamenáno znovuobjevením moci státu, s hroznými důsledky: nárůstem otroctví, války a destrukce:
 
 > Během tohoto století čelí lidský rod, znovu, zhoubné vládě státu; státu nyní ozbrojenému tvůrčí silou člověka, zabavené a zneužité pro jeho vlastní cíle.
-> Co je vlastně svobodná společnost? Je to společnost bez monopolu. Ve svém díle politické filozofie, _Etika svobody_ (1982), Rothbard odpovídá: "společnost, ve které neexistuje právní možnost nucené agresivity proti osobě nebo majetku jednotlivce." To je důvod, proč podle něj politická filozofie, která musí definovat principy spravedlivé společnosti, se redukuje na jedinou otázku: "Kdo legitimně vlastní co?"
+> Co je vlastně svobodná společnost? Je to společnost bez monopolu. Ve svém díle politické filozofie, _[Etika svobody](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard odpovídá: "společnost, ve které neexistuje právní možnost nucené agresivity proti osobě nebo majetku jednotlivce." To je důvod, proč podle něj politická filozofie, která musí definovat principy spravedlivé společnosti, se redukuje na jedinou otázku: "Kdo legitimně vlastní co?"
 > ![obrázek](assets/cs/019.webp)
 
 Pro Rothbarda může sociální řád převládnout, pokud je produktem zobecnění smluvních postupů pro volnou výměnu majetkových práv, privatizací všech ekonomických aktivit a dokonce i suverénních funkcí (centrální banka, soudy) a využitím konkurence mezi ochrannými agenturami.
@@ -332,6 +344,8 @@ A dodává:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### Odkaz athénské demokracie
 
 Zkušenost s athénskou demokracií zanechala trvalou stopu v historii politického myšlení a dodnes inspiruje ideály demokracie a účasti občanů na veřejném životě.
 ![image](assets/cs/020.webp)
@@ -423,6 +437,8 @@ Jediným prostředkem, jak se přiblížit pravdě, je kritika a diskuse. Z anti
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### Kosmopolitní říše
 
 Římská říše byla rozsáhlá kosmopolitní entita. Ve svém vrcholu, kolem roku 117 n. l., to byl obrovský multi-etnický a vícejazyčný stát:
 
@@ -522,6 +538,8 @@ Cicero tvrdil, že zákon nemůže být redukován pouze na zákony přijaté z�
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Úpadek a zhroucení
+
 Proč Řím upadal a nakonec padl? Mnozí si rádi myslí, že Římská říše se zhroutila náhle, pod vlivem invazí barbarů. Avšak příčiny pádu Římské říše jsou k nalezení mnohem dříve, v imperialismu a ekonomickém a měnovém dirigismu.
 
 
@@ -595,6 +613,8 @@ A dodává:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Křesťanské kořeny individuální svobody
+
 Křesťanská idea svobody se vyvinula ve středověké teologii svatého Augustina ve 4. století, až po svatého Tomáše Akvinského ve 13. století. Co je to za myšlenku?
 
 ![image](assets/cs/037.webp)
@@ -646,6 +666,8 @@ Podle svatého Tomáše:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Autonomie rozumu
+
 Ve středověku soutěží rozum a víra o přístup k pravdě. Následující Abélarda a Alberta Velikého, Tomáš Akvinský ve 13. století obhajoval práva rozumu a jeho autonomii ve vztahu k víře.
 
 ![image](assets/cs/040.webp)
@@ -683,6 +705,8 @@ Od té doby by náboženský racionalismus definitivně převážil nad mysticis
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
+### Teologicko-politický systém
 
 Ve středověku církev a křesťanské monarchie zdědily politický model od Římské říše, který historikové nazývají teologicko-politický systém, což znamená systém, kde je moc posvátná, tj. kde je politický vůdce také náboženským vůdcem.
 To je důvod, proč jsou středověké společnosti charakterizovány politicko-náboženským unanimismem. Politická moc zakládá svou legitimitu, autoritu a jednotu na křesťanské (nebo muslimské) víře. Považuje se za strážce kulturní a náboženské ortodoxie a ty, kteří se od této jednoty odchylují, považuje za vyvrhele. V tomto kontextu, i když určitá tolerance mohla být udělena těm, kteří se odtrhnou od společné kulturní vize (jako Židé), nebylo jim uznáno právo na pluralismus. Až do konce středověku, s dobýváním Ameriky, se problém občanských svobod stal pro církev klíčovým a objevila se první filozofie práva, která potvrdila a chránila individuální svobody, legitimovala pluralismus a odsoudila státní nátlak.
@@ -722,6 +746,8 @@ Teokratické pokušení církve se také střetává s teorií "božského práv
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### Člověk stvořený k obrazu Božímu
+
 Starověké myšlení podřizovalo člověka božskému kosmu, tedy dokonalému vesmíru, jehož byl pouze součástí. Monoteismus naopak tvrdí, že člověk má nekonečně vyšší hodnotu než příroda, jelikož je stvořen k obrazu Božímu. Tento klíčový bod je na počátku pravé etické revoluce. Bible potvrzuje posvátnou a nekonečnou hodnotu každého lidského bytí.
 To je důvod, proč biblická etika mění náš vztah ke zlu. Přináší ostrou a bezprecedentní citlivost k lidskému utrpení. Proto nás povzbuzuje považovat za abnormální a nesnesitelné zlo, které lidstvo do té doby považovalo za zcela snesitelné, zejména zlo páchané na druhých, na slabých, na nevinných.
 
@@ -759,6 +785,8 @@ Idea humanity postupuje. Skutečně se začalo uvažovat, že existuje pouze jed
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### Křesťanství a svobodná ekonomika
 
 Viděli jsme, že křesťanství klade na lidi morální povinnost pracovat na zlepšení světa. Bůh chce, aby člověk byl šťastný, ale nechce dosáhnout jeho dobra místo něj. Je tedy na křesťanovi, aby bojoval proti morálnímu zlu, miloval svého bližního, pomáhal obětem, zkrátka pracoval na spravedlivějším a humánnějším světě. Je kapitalismus, tedy svobodná ekonomika založená na soukromém vlastnictví a svobodě smluv, slučitelný s křesťanskou povinností?
 
@@ -825,6 +853,8 @@ Navíc, pokud dvě různé měny těží z právního uznání, agenti budou hro
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Náboženské války a osvícenství
+
 Od renesance byla Evropa sužována válkami náboženskými. Tolerance se tedy stala jednou z velkých bitev osvícenství.
 ![image](assets/cs/050.webp)
 
@@ -861,7 +891,7 @@ Ve _Desátém dopise_, "O obchodu", Voltaire popisuje francouzské myšlení tak
 
 ### Pravda vyžaduje svobodu
 
-Přesto ve Francii nechyběli velké mysli. Je málo známo, ale Anne Robert Jacques Turgot, baron de Laulne byl především předním myslitelem, než se stal generálním kontrolérem financí za Ludvíka XVI. Byl autorem mistrovského pojednání o politické ekonomii, _Úvahy o vzniku a rozdělení bohatství_ (1766), které předcházelo _Bohatství národů_ od Adama Smithe (1776).
+Přesto ve Francii nechyběli velké mysli. Je málo známo, ale Anne Robert Jacques Turgot, baron de Laulne byl především předním myslitelem, než se stal generálním kontrolérem financí za Ludvíka XVI. Byl autorem mistrovského pojednání o politické ekonomii, _Úvahy o vzniku a rozdělení bohatství_ (1766), které předcházelo _[Bohatství národů](https://planb.academy/resources/books/the-wealth-of-nations)_ od Adama Smithe (1776).
 
 ![obrázek](assets/cs/052.webp)
 Jeho rané spisy odrážejí jeho závazek k filozofii osvícenství. V roce 1754 publikoval své _Dopisy o občanské toleranci_ a v roce 1757 několik článků napsaných pro _Encyklopedii_ od Diderota a d'Alemberta.
@@ -879,6 +909,8 @@ Jinými slovy, být tolerantní neznamená být nepřátelský k náboženství.
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Původ ekonomického liberalismu
 
 Ekonomický liberalismus je často spojován s anglosaskou tradicí, která vychází z Adama Smithe, v kontrastu s "politickým liberalismem", o kterém se říká, že pochází z kontinentálního osvícenství, zejména ve Francii. Tento pohled je nesprávný.
 
@@ -941,6 +973,8 @@ Stručně řečeno, pokud každý může svobodně sledovat svůj soukromý záj
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Tři události, které změnily historii
+
 1776 je rok, který často zůstává v učebnicích dějepisu nepovšimnut. Ale ve třech zemích, Francii, Skotsku a Severní Americe, několik událostí zanechá nezamazatelnou stopu v historii svobody.
 
 ### Hanba Turgota
@@ -980,7 +1014,7 @@ Je to také pojednání o filozofii, protože ukazuje, jak volný a dobrovolný 
 
 ### Manifest za svobodu v Americe
 
-V roce 1776 angličan jménem Thomas Paine publikoval v Americe ostrý pamflet kritizující anglickou monarchii a obhajující nezávislost amerických kolonistů: _Common Sense_.
+V roce 1776 angličan jménem Thomas Paine publikoval v Americe ostrý pamflet kritizující anglickou monarchii a obhajující nezávislost amerických kolonistů: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 ![image](assets/cs/059.webp)
 
@@ -1039,6 +1073,8 @@ Tato myšlenka spontánního řádu se stane klíčovým konceptem v díle Fried
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### Sekularizace a moderní společnost
 
 Velkou novinkou tohoto moderního období v západní historii je vznik společnosti, která se organizuje mimo náboženskou závislost. To neznamená zmizení náboženské víry nebo smrt Boha. Ale Bůh se stává soukromou záležitostí, již není smíchán s politickými záležitostmi. Nedochází k zmizení náboženství, ale k sesazení jeho vedoucí role. Stává se systémem individuálních věr.
 
@@ -1122,7 +1158,7 @@ V Americe neexistovalo ekonomické dirigismus, ani monetární bankrot jako u As
 
 S Rousseauem a Robespierrem chtěli Francouzi věřit, že Národ nebo všeobecná vůle měla neomezenou moc a ospravedlňovala vše. Z faktu, že lidé vládli, bylo usuzováno, že mají všechna práva. Byl zde jasný rozpor mezi velkými principy Revoluce a prostředky použitými k jejich prosazení.
 
-To je mimochodem smyslem poznámky Friedricha Hayeka ve své knize _The Constitution of Liberty_:
+To je mimochodem smyslem poznámky Friedricha Hayeka ve své knize _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > Rozhodujícím faktorem, který zmařil úsilí Revoluce ve prospěch podpory individuální svobody, bylo to, že vytvořila iluzi, že pokud byla veškerá moc předána lidu, staly se všechny opatření proti zneužití této moci zbytečnými.
 
@@ -1136,6 +1172,8 @@ To je mimochodem smyslem poznámky Friedricha Hayeka ve své knize _The Constitu
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antická versus moderní svoboda
+
 Podle Benjamina Constanta, svoboda v našich moderních společnostech již nemůže být chápána jako přímá účast na záležitostech města, jak tomu bylo ve společnostech antiky.
 
 ![image](assets/cs/070.webp)
@@ -1143,14 +1181,14 @@ Podle Benjamina Constanta, svoboda v našich moderních společnostech již nem�
 ### Svoboda v soukromém životě
 
 Ve starověku byl jedinec suverénem ve veřejných záležitostech, ale zotročen ve všech svých soukromých vztazích. Oběť individuální svobody byla kompenzována používáním politických práv: právo přímo vykonávat různé části suverenity, diskutovat na veřejném náměstí, hlasovat o zákonech, vynášet rozsudky, hodnotit a soudit magistráty. Jedná se o politickou a kolektivní svobodu:
-Svoboda starověkých spočívala v aktivní a stálé účasti na kolektivní moci. Naše svoboda, na druhou stranu, musí spočívat v mírumilovném užívání soukromé nezávislosti; z toho vyplývá, že musíme být k naší individuální nezávislosti mnohem více připoutáni než starověcí. (_O svobodě starověkých ve srovnání se svobodou moderních_ (1819))
+Svoboda starověkých spočívala v aktivní a stálé účasti na kolektivní moci. Naše svoboda, na druhou stranu, musí spočívat v mírumilovném užívání soukromé nezávislosti; z toho vyplývá, že musíme být k naší individuální nezávislosti mnohem více připoutáni než starověcí. (_[O svobodě starověkých ve srovnání se svobodou moderních](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 ![image](assets/cs/071.webp)
 
 Moderní svoboda je občanská svoboda, která zahrnuje ekonomickou svobodu a je založena na právu na soukromí. Je to právo nebýt vystaven libovolnému zásahu, právo na vyjádření, shromáždění, pohyb, náboženské vyznání a podnikání. Svoboda neexistuje bez možnosti volby životního stylu a hodnot, tudíž neexistuje svoboda bez možnosti odstoupit od společnosti a tedy neexistuje svoboda bez omezení státu, aby umožnil existenci tohoto soukromého prostoru. Je to svoboda, která odpovídá tomu, co Američané nazývají občanská práva.
 
 Tuto definici svobody najdeme u Johna Stuarta Milla:
 
-> Jediná svoboda, která si zaslouží toto jméno, je svoboda usilovat o naše vlastní dobro vlastním způsobem, pokud se nepokoušíme odepřít ostatním jejich svobodu nebo bránit jejich snahám ji získat. (...) Lidstvo získá více tím, že nechá každého žít, jak uzná za vhodné, než tím, že ho nutí žít podle toho, co se zdá být dobré ostatním. (_O svobodě_, 1859)
+> Jediná svoboda, která si zaslouží toto jméno, je svoboda usilovat o naše vlastní dobro vlastním způsobem, pokud se nepokoušíme odepřít ostatním jejich svobodu nebo bránit jejich snahám ji získat. (...) Lidstvo získá více tím, že nechá každého žít, jak uzná za vhodné, než tím, že ho nutí žít podle toho, co se zdá být dobré ostatním. (_[O svobodě](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/cs/072.webp)
 
@@ -1185,6 +1223,8 @@ Jinými slovy, ve svobodné společnosti je nutné stanovit přísnou hranici me
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### Tocqueville a demokratický individualismus
 
 Alexis de Tocqueville byl pozorným pozorovatelem demokracie a kritikem demokratického individualismu.
 
@@ -1260,6 +1300,8 @@ Podívejte se na zeměkouli. Které jsou nejšťastnější, nejmorálnější a
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### Kritika 19. století
+
 Během 19. století se objevila kritika kapitalismu, a zejména marxistická kritika.
 
 ![image](assets/cs/078.webp)
@@ -1289,6 +1331,8 @@ Politická revoluce je proto podle něj iluzí, dokud není doprovázena ekonomi
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### Odpověď rakouské školy
 
 Rakouská škola ekonomie, založená Carlem Mengerem na konci 19. století, od počátku odmítala teorie Karla Marxe.
 
@@ -1343,7 +1387,7 @@ Marxisté věří, že socialismus, ekonomický systém, ve kterém jsou prostř
 
 ![image](assets/cs/085.webp)
 
-Už v roce 1922 ve své knize _Socialismus_ Ludwig von Mises ukázal, že socialismus by vedl k rozsáhlým nedostatkům, protože centrální plánovači by nebyli schopni provádět přesné ekonomické výpočty bez cenového systému poskytovaného trhem.
+Už v roce 1922 ve své knize _[Socialismus](https://planb.academy/resources/books/socialism-mises)_ Ludwig von Mises ukázal, že socialismus by vedl k rozsáhlým nedostatkům, protože centrální plánovači by nebyli schopni provádět přesné ekonomické výpočty bez cenového systému poskytovaného trhem.
 
 ## Cesta ke nevolnictví
 
@@ -1351,7 +1395,9 @@ Už v roce 1922 ve své knize _Socialismus_ Ludwig von Mises ukázal, že social
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Alarmován vzestupem vládního intervencionismu v ekonomikách západních demokracií, Hayek napsal _Cestu ke nevolnictví_ jako filozofickou kritiku kolektivismu, ať už z pravice nebo z levice. Díky _Reader’s Digest_ byla tato kniha vydána v několika milionech kopií a výrazně přispěla k Hayekově slávě ve Spojených státech.
+### Hayekovo varování před kolektivismem
+
+Alarmován vzestupem vládního intervencionismu v ekonomikách západních demokracií, Hayek napsal _[Cestu ke nevolnictví](https://planb.academy/resources/books/the-road-to-serfdom)_ jako filozofickou kritiku kolektivismu, ať už z pravice nebo z levice. Díky _Reader’s Digest_ byla tato kniha vydána v několika milionech kopií a výrazně přispěla k Hayekově slávě ve Spojených státech.
 
 ![image](assets/cs/086.webp)
 
@@ -1394,13 +1440,15 @@ Na závěr Hayek vyzývá své současníky, aby se odvrátili od "šílenství"
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Keynesiánská revoluce
+
 Kapitalismus je často obviňován, že je zdrojem výzvy: "musíme vždy produkovat více," nebo formule: "spotřeba je dobrá pro růst." Tyto myšlenky však nevycházejí z tradičního kapitalismu, ale z keynesiánství, které od 30. let 20. století dominovalo oblasti ekonomické vědy a politické třídě.
 
 ![image](assets/cs/088.webp)
 
 ### Analýza krize z roku 1929
 
-Publikace z roku 1936, kniha od Johna Maynarda Keynese: _Obecná teorie zaměstnanosti, úroku a peněz_, změnila vše ve své cestě. Při zkoumání příčin Velké deprese a prostředků k jejímu překonání popisuje nový ekonomický paradigma, které přesvědčilo generace ekonomů a politiků.
+Publikace z roku 1936, kniha od Johna Maynarda Keynese: _[Obecná teorie zaměstnanosti, úroku a peněz](https://planb.academy/resources/books/the-general-theory)_, změnila vše ve své cestě. Při zkoumání příčin Velké deprese a prostředků k jejímu překonání popisuje nový ekonomický paradigma, které přesvědčilo generace ekonomů a politiků.
 
 ![image](assets/cs/089.webp)
 
@@ -1438,7 +1486,7 @@ Od roku 1958 bude pod autoritou generála de Gaulla prováděna politika na náp
 
 ![image](assets/cs/094.webp)
 
-V _Monetárním hříchu Západu_ v roce 1971 Rueff píše:
+V _[Monetárním hříchu Západu](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_ v roce 1971 Rueff píše:
 
 > Je to prostřednictvím rozpočtového deficitu, že lidé ztrácejí svou svobodu.
 
@@ -1454,6 +1502,8 @@ V roce 1976 napadl keynesiánství naposledy v článku pro noviny _Le Monde_.
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### Peníze a civilizace
 
 Peníze jsou nástrojem, který umožnil lidem překonat barter, šetřit a koordinovat na velké škále prostřednictvím trhu. Umožnily specializaci práce, komparativní výhody, zisky z obchodu, ekonomické kalkulace. Bez peněz neexistuje moderní civilizace.
 
@@ -1498,7 +1548,7 @@ V únoru 1965, během televizní tiskové konference, generál de Gaulle, přím
 
 ### Měnový trh bez státního monopolu je možný
 
-V roce 1976 Hayek navrhl alternativu k monopolu státu na tvorbu měny: konkurenci mezi měnami. Ve své knize, _Pour une vraie concurrence des monnaies_ (_Denacionalizace peněz_), představil měnový trh bez státního monopolu, ve kterém by existovalo několik soukromých měn. Tvorba a správa různých měn soukromými subjekty by umožnila jednotlivcům vybrat si nejstabilnější a nejspolehlivější měnu, čímž by podpořila konkurenci a disciplínu mezi vydavateli.
+V roce 1976 Hayek navrhl alternativu k monopolu státu na tvorbu měny: konkurenci mezi měnami. Ve své knize, _Pour une vraie concurrence des monnaies_ (_[Denacionalizace peněz](https://planb.academy/resources/books/the-denationalization-of-money)_), představil měnový trh bez státního monopolu, ve kterém by existovalo několik soukromých měn. Tvorba a správa různých měn soukromými subjekty by umožnila jednotlivcům vybrat si nejstabilnější a nejspolehlivější měnu, čímž by podpořila konkurenci a disciplínu mezi vydavateli.
 
 ![image](assets/cs/100.webp)
 

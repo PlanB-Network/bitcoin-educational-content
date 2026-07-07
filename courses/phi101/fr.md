@@ -24,6 +24,8 @@ De l'Antiquité aux Lumières, la liberté s'est élevée à mesure que les soci
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Introduction au cours
+
 Bienvenue dans le cours PHI101 !
 
 Cette formation vous invite à explorer l’évolution de la liberté à travers l’histoire en analysant les grands courants de pensée qui l’ont façonnée. Vous découvrirez comment la notion de liberté s’est construite au fil des siècles, en opposition ou en collaboration avec le pouvoir, à travers un parcours historique allant de l’Antiquité aux débats contemporains.
@@ -57,6 +59,8 @@ Prêt à plonger dans ce parcours philosophique unique sur la quête de la liber
 <chapterId>ffa60c0d-ee2b-575d-a4ac-4e9ccdad396f</chapterId>
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
+
+### Pourquoi étudier l’histoire de la liberté ?
 
 Pourquoi intituler ce cours : une histoire de la liberté ? Parce que nous avons besoin de comprendre la relation entre les idées et les événements, pour mieux juger notre époque et agir avec discernement. C’est dans le passé que nous trouvons les éléments d'une meilleure compréhension de ce qu’est la liberté et des raisons pour lesquelles nous devons la chérir.
 
@@ -115,7 +119,7 @@ La seconde philosophie se retrouve chez des auteurs comme Rousseau, Robespierre 
 
 > Celui qui ose entreprendre d’instituer un peuple, dit Rousseau, doit se sentir en état de changer, pour ainsi dire, la nature humaine, de transformer chaque individu qui, par lui-même, est un tout parfait et solitaire, en partie d’un plus grand tout dont cet individu reçoive en quelque sorte sa vie et son être.
 >
-> (_Contrat social_, Jean-Jacques Rousseau)
+> (_[Contrat social](https://planb.academy/resources/books/the-social-contract)_, Jean-Jacques Rousseau)
 
 Dans cette perspective, le législateur a pour mission d’organiser, modifier, supprimer même la propriété, s’il le trouve bon. Pour Rousseau, la propriété n’est pas naturelle mais conventionnelle, comme la société elle-même. À son tour, Robespierre pose le principe que : « La propriété est le droit qu’a chaque citoyen de jouir et de disposer de la portion de biens qui lui est garantie par la loi ». Il n’y a pas de droit naturel de propriété, il n’y a qu’un nombre indéfini d’arrangements possibles et contingents.
 
@@ -125,6 +129,7 @@ Dans cette perspective, le législateur a pour mission d’organiser, modifier, 
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
+### Le mythe du législateur providentiel
 
 Quand on ouvre les manuels scolaires, remarquait Bastiat, on apprend que l’humanité serait vouée au néant sans l’intervention du pouvoir :
 
@@ -214,6 +219,7 @@ Quelques jours avant sa mort à Rome en 1850, Bastiat confiait à son ami Prospe
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### L’histoire écrite par les vainqueurs
 
 On le sait, l’histoire est écrite par les vainqueurs. L'attention est souvent portée sur la conquête du pouvoir, sur la vie des dirigeants au pouvoir et sur les conflits qui les opposent à ceux qui souhaitent prendre leur place.
 
@@ -265,6 +271,7 @@ On retrouve également cette thèse dans un ouvrage monumental datant de 1983 : 
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### La vision socialiste de l’histoire
 
 Une autre vision de l’histoire existe néanmoins. Elle a connu un certain succès et a longtemps bénéficié du soutien des intellectuels occidentaux et des représentants des pays du Sud. C’est la vision socialiste et marxiste de l’histoire.
 
@@ -286,7 +293,7 @@ Cette analyse reflète une compréhension erronée de la plus-value et du caract
 
 ### La révolution industrielle en question
 
-En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (voir en particulier le chapitre intitulé "[Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))", ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (À lire également, *La mentalité anticapitaliste* [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+En fait, l’analyse marxiste déforme la réalité historique de la révolution industrielle. Ludwig von Mises a clarifié cette question dans son traité d’économie [_L’Action humaine_](https://planb.academy/resources/books/human-action) (voir en particulier le chapitre intitulé "[Interprétation populaire de la révolution industrielle](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))", ainsi que dans une série de conférences publiées sous le titre : [_Politique économique. Réflexions pour aujourd'hui et pour demain_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (À lire également, *La mentalité anticapitaliste* [ici](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) et [ici](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/fr/014.webp)
 
@@ -342,8 +349,9 @@ En conclusion de ce chapitre, l’Europe ne doit pas son décollage économique 
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
+### Le pouvoir étatique contre le pouvoir social
 
-Dans le dernier chapitre de _Anatomy of the State_ (traduit en français _L’Anatomie de l’État_, aux éditions Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
+Dans le dernier chapitre de _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (traduit en français _L’Anatomie de l’État_, aux éditions Résurgence), Murray Rothbard propose une théorie de l’histoire. Ce chapitre très court est intitulé : L’histoire, course entre pouvoir étatique et pouvoir social. Selon Rothbard, l'histoire peut être comprise comme un conflit permanent entre deux principes fondamentaux :
 
 ![image](assets/fr/017.webp)
 
@@ -382,7 +390,7 @@ Du XVIIᵉ siècle au XIXᵉ siècle, dans de nombreux pays occidentaux, il y eu
 
 > Durant ce siècle, la race humaine fait face, une fois encore, au règne virulent de l’État ; l’État désormais armé du pouvoir créateur de l’homme, confisqué et perverti à ses propres fins.
 
-Qu’est-ce qu’une société libre finalement ? C’est une société sans monopole. Dans son ouvrage de philosophie politique, _L'Éthique de la liberté_ (1982), Rothbard répond : « une société dans laquelle il n’existe aucune possibilité légale d’agression coercitive contre la personne ou la propriété d’un individu ». C’est pourquoi, selon lui, la philosophie politique, qui doit définir les principes d’une société juste, se réduit à une et une seule question : « Qui est légitimement propriétaire de quoi ? »
+Qu’est-ce qu’une société libre finalement ? C’est une société sans monopole. Dans son ouvrage de philosophie politique, _[L'Éthique de la liberté](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard répond : « une société dans laquelle il n’existe aucune possibilité légale d’agression coercitive contre la personne ou la propriété d’un individu ». C’est pourquoi, selon lui, la philosophie politique, qui doit définir les principes d’une société juste, se réduit à une et une seule question : « Qui est légitimement propriétaire de quoi ? »
 
 ![image](assets/fr/019.webp)
 
@@ -403,6 +411,8 @@ Et il ajoute :
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### L’héritage de la démocratie athénienne
 
 L'expérience de la démocratie athénienne a marqué durablement l'histoire de la pensée politique et continue d'inspirer les idéaux de démocratie et de participation citoyenne dans le monde d'aujourd'hui.
 
@@ -505,6 +515,7 @@ Les seuls moyens dont nous disposons pour approcher la vérité sont la critique
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
+### Un empire cosmopolite
 
 L’Empire romain était une vaste entité cosmopolite. À son apogée, vers 117 après J.-C., il était un immense État pluriethnique et plurilingue :
 
@@ -615,6 +626,7 @@ En affirmant que le droit ne peut se réduire aux seules lois édictées par le 
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Déclin et effondrement
 
 Pourquoi Rome a-t-elle décliné puis finalement chuté ? Beaucoup aiment à penser que l’Empire romain s’est effondré subitement, sous le coup des invasions barbares. Mais les causes de l’effondrement de l’Empire romain sont à chercher bien plus en amont, dans l’impérialisme et le dirigisme économique et monétaire.
 
@@ -700,6 +712,7 @@ Et il ajoute :
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Les racines chrétiennes de la liberté individuelle
 
 L’idée chrétienne de la liberté s’est développée dans la théologie médiévale de Saint Augustin au IVᵉ siècle, à Saint Thomas d’Aquin au XIIIᵉ siècle. Quelle est cette idée ?
 
@@ -761,6 +774,7 @@ Il existe donc un droit antérieur à la formation de l'État, un ensemble de pr
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### L’autonomie de la raison
 
 Au Moyen Âge, la raison et la foi sont en concurrence pour l'accès à la vérité. À la suite d’Abélard et d’Albert Le Grand, Thomas d’Aquin, au XIIIᵉ siècle, choisit de défendre les droits de la raison et son autonomie par rapport à la foi.
 
@@ -807,6 +821,7 @@ Dès lors, c’est le rationalisme religieux qui va l’emporter définitivement
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### Le système théologico-politique
 
 Au Moyen Âge, l’Église et les monarchies chrétiennes ont hérité d’un modèle politique qui est celui de l’Empire romain et que les historiens appellent le système théologico-politique, c’est-à-dire un système où le pouvoir est sacral, c’est-à-dire où le chef politique est en même temps un chef religieux.
 
@@ -849,6 +864,7 @@ La tentation théocratique de l’Église se heurte aussi à la théorie du « d
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### L’homme créé à l’image de Dieu
 
 La pensée antique subordonne l’homme à un cosmos divin, c’est-à-dire à un univers parfait dont il n’est qu’une parcelle. Le monothéisme, au contraire, affirme la valeur infiniment supérieure de l’homme sur la nature, dans la mesure où l’homme est créé à l’image de Dieu. Ce point capital est à l’origine d’une véritable révolution éthique. Dans la Bible est affirmée la valeur sacrée et infinie de chaque être humain.
 
@@ -890,6 +906,7 @@ L’idée d'humanité progresse. On en vient effectivement à considérer qu'il 
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
+### Le christianisme et l’économie libre
 
 Nous avons vu que le christianisme fait aux hommes un devoir moral impérieux d’œuvrer à l’amélioration du monde. Dieu veut que l’homme soit heureux mais il ne veut pas réaliser son bien à sa place. C’est donc au chrétien de combattre le mal moral, d’aimer son prochain, de secourir les victimes, bref d’œuvrer pour un monde plus juste et plus humain. Le capitalisme, c'est-à-dire l'économie libre fondée sur la propriété privée et la liberté des contrats, est-il compatible avec le devoir du chrétien ?
 
@@ -960,6 +977,7 @@ De plus, si deux monnaies différentes bénéficient du cours légal, les agents
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Les guerres de religion et les Lumières
 
 À partir de la Renaissance, l'Europe allait être ravagée par des guerres de religion. La tolérance fut donc un des grands combats des Lumières.
 
@@ -1001,7 +1019,7 @@ Dans la _Dixième Lettre_, « Sur le commerce », Voltaire décrit ainsi l’ét
 
 ### La vérité exige la liberté
 
-Pourtant, la France ne manquait pas de grands esprits. On le sait peu mais Anne Robert Jacques Turgot, baron de l'Aulne, fut d’abord un penseur de premier plan, avant de devenir contrôleur général des finances de Louis XVI. Il fut l’auteur d’un magistral traité d’économie politique, _Réflexions la formation et la distribution des richesses_ (1766), antérieur à _La Richesse des nations_ d’Adam Smith (1776).
+Pourtant, la France ne manquait pas de grands esprits. On le sait peu mais Anne Robert Jacques Turgot, baron de l'Aulne, fut d’abord un penseur de premier plan, avant de devenir contrôleur général des finances de Louis XVI. Il fut l’auteur d’un magistral traité d’économie politique, _Réflexions la formation et la distribution des richesses_ (1766), antérieur à _[La Richesse des nations](https://planb.academy/resources/books/the-wealth-of-nations)_ d’Adam Smith (1776).
 
 ![image](assets/fr/052.webp)
 
@@ -1023,6 +1041,7 @@ En d’autres mots, être tolérant ce n’est pas être hostile à la religion.
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
 
+### Les origines du libéralisme économique
 
 On associe souvent le « libéralisme économique » à une tradition anglo-saxonne issue d’Adam Smith, pour l’opposer au « libéralisme politique » qui serait issu des Lumières continentales, en particulier de la France. Ce schéma est faux.
 
@@ -1091,6 +1110,7 @@ En bref, si chacun peut poursuivre librement son intérêt privé dans le respec
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Trois événements qui ont changé l’histoire
 
 1776 est une année qui passe souvent inaperçue dans les manuels d’histoire. Mais dans trois pays, France, Écosse et Amérique du Nord, plusieurs évènements vont marquer l’histoire de la liberté d’une empreinte indélébile.
 
@@ -1138,7 +1158,7 @@ C’est également un traité de philosophie en ce qu’il démontre comment l�
 
 ### Un manifeste pour la liberté en Amérique
 
-En 1776, un anglais nommé Thomas Paine publie en Amérique un pamphlet virulent qui critique la monarchie anglaise et plaide pour l'indépendance des colons américains : _Le Sens commun_ (en anglais _Common Sense)_.
+En 1776, un anglais nommé Thomas Paine publie en Amérique un pamphlet virulent qui critique la monarchie anglaise et plaide pour l'indépendance des colons américains : _[Le Sens commun](https://planb.academy/resources/books/common-sense)_ (en anglais _Common Sense)_.
 
 ![image](assets/fr/059.webp)
 
@@ -1204,6 +1224,7 @@ Cette idée d’ordre spontané deviendra un concept-clé dans l’œuvre de Fri
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
+### La sécularisation et la société moderne
 
 La grande nouveauté de cette période moderne de l’histoire occidentale, c’est l’apparition d’une société qui s'organise en dehors de la dépendance religieuse. Cela ne signifie pas la disparition de la croyance religieuse ou la mort de Dieu. Mais Dieu devient une affaire privée, il n’est plus mêlé aux affaires politiques. Il n’y a pas disparition de la religion mais destitution de son rôle directeur. Elle devient un système de croyances individuelles.
 
@@ -1295,7 +1316,7 @@ En Amérique, il n'y eut pas de dirigisme économique, ni de faillite monétaire
 
 Avec Rousseau et Robespierre, les Français ont voulu croire que la Nation ou la volonté générale avait un pouvoir illimité et justifiait tout. De ce que le peuple gouvernait, on a conclu qu’il avait tous les droits. Il y avait manifestement une contradiction entre les grands principes de la Révolution, et les moyens employés pour les faire triompher.
 
-C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _La Constitution de la Liberté_ :
+C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _[La Constitution de la Liberté](https://planb.academy/resources/books/the-constitution-of-liberty)_ :
 
 > Le facteur décisif qui a rendu vains les efforts de la Révolution en faveur de la promotion de la liberté individuelle, fut qu’elle créa l’illusion que, dans la mesure où tout le pouvoir avait été remis aux mains du peuple, toutes les précautions contre l’abus de ce pouvoir étaient devenues sans objet.
 
@@ -1309,6 +1330,7 @@ C’est d’ailleurs le sens de la remarque de Friedrich Hayek dans son livre _L
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### La liberté des Anciens et celle des Modernes
 
 Selon Benjamin Constant, la liberté, dans nos sociétés modernes, ne peut plus se comprendre à la manière des sociétés de l’Antiquité comme participation directe aux affaires de la cité.
 
@@ -1320,7 +1342,7 @@ Chez les Anciens, l’individu est souverain dans les affaires publiques, mais e
 
 > La liberté des Anciens se composait de la participation active et constante au pouvoir collectif. Notre liberté, à nous, doit se composer de la jouissance paisible de l’indépendance privée ; il s’ensuit que nous devons être bien plus attachés que les anciens à notre indépendance individuelle.
 >
-> (_De la liberté des Anciens comparée à celle des Modernes_, 1819)
+> (_[De la liberté des Anciens comparée à celle des Modernes](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_, 1819)
 
 ![image](assets/fr/071.webp)
 
@@ -1330,7 +1352,7 @@ On retrouve cette définition de la liberté chez John Stuart Mill :
 
 > La seule liberté digne de ce nom, est celle de travailler à notre propre bien de la manière qui nous est propre, pour autant que nous ne cherchions pas à en priver les autres ou à leur faire obstacle dans leurs efforts pour l’obtenir. (…) L’humanité gagnera davantage à laisser chaque homme vivre comme bon lui semble qu’à le contraindre à vivre comme bon semble aux autres.
 >
-> (_De la liberté_, 1859)
+> (_[De la liberté](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/fr/072.webp)
 
@@ -1372,6 +1394,7 @@ Autrement dit, dans une société libre, il est nécessaire d'établir une front
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
+### Tocqueville et l’individualisme démocratique
 
 Alexis de Tocqueville fut un observateur attentif de la démocratie et un critique de l’individualisme démocratique.
 
@@ -1463,6 +1486,7 @@ Conclusion de Bastiat :
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### La critique du XIXᵉ siècle
 
 C’est au cours du XIXᵉ siècle qu’émerge la critique du capitalisme, et en particulier la critique marxiste.
 
@@ -1496,6 +1520,7 @@ La révolution politique est donc une illusion, selon lui, tant qu’elle ne s�
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
+### La réponse de l’École autrichienne
 
 L'École autrichienne d'économie, fondée par Carl Menger à la fin du XIXᵉ siècle, s'est opposée dès le départ aux théories de Karl Marx.
 
@@ -1557,7 +1582,7 @@ Les marxistes croient que le socialisme, un système économique dans lequel les
 
 ![image](assets/fr/085.webp)
 
-Dès 1922, dans son livre _Le Socialisme,_ Ludwig von Mises démontre que le socialisme conduirait à une pénurie généralisée, car les planificateurs centraux ne seraient pas en mesure de faire des calculs économiques précis sans le système de prix fourni par le marché.
+Dès 1922, dans son livre _[Le Socialisme](https://planb.academy/resources/books/socialism-mises),_ Ludwig von Mises démontre que le socialisme conduirait à une pénurie généralisée, car les planificateurs centraux ne seraient pas en mesure de faire des calculs économiques précis sans le système de prix fourni par le marché.
 
 ## La route de la servitude
 
@@ -1565,8 +1590,9 @@ Dès 1922, dans son livre _Le Socialisme,_ Ludwig von Mises démontre que le soc
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
+### L’avertissement de Hayek contre le collectivisme
 
-Alarmé par la montée de l'interventionnisme des gouvernements dans les économies des démocraties occidentales, Hayek écrit _La Route de la Servitude_ (_The Road to Serfdom)_, comme une critique philosophique des collectivismes, qu’ils soient de droite ou de gauche. Tiré à plusieurs millions d’exemplaires, grâce au _Reader’s Digest_, ce livre a largement contribué à la notoriété de Hayek aux États-Unis.
+Alarmé par la montée de l'interventionnisme des gouvernements dans les économies des démocraties occidentales, Hayek écrit _[La Route de la Servitude](https://planb.academy/resources/books/the-road-to-serfdom)_ (_The Road to Serfdom)_, comme une critique philosophique des collectivismes, qu’ils soient de droite ou de gauche. Tiré à plusieurs millions d’exemplaires, grâce au _Reader’s Digest_, ce livre a largement contribué à la notoriété de Hayek aux États-Unis.
 
 ![image](assets/fr/086.webp)
 
@@ -1614,6 +1640,7 @@ Hayek appelle en conclusion ses contemporains à tourner le dos aux « folies »
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### La révolution keynésienne
 
 On accuse souvent le capitalisme d’être à l’origine de l’injonction : « Il faut produire toujours plus », ou bien de la formule : « Consommer est bon pour la croissance ». Pourtant, ces idées ne proviennent pas du capitalisme traditionnel, mais du keynésianisme qui règne depuis les années trente, dans la science économique et dans la classe politique.
 
@@ -1621,7 +1648,7 @@ On accuse souvent le capitalisme d’être à l’origine de l’injonction : «
 
 ### L’analyse de la crise de 29
 
-Paru en 1936, le livre de John Maynard Keynes, _Théorie générale de l'emploi, de l'intérêt et de la monnaie_, a tout balayé sur son passage. S’interrogeant sur les causes de la Grande Dépression et les moyens d’en sortir, il décrit un nouveau paradigme économique, qui va convertir des générations d’économistes et d’hommes politiques.
+Paru en 1936, le livre de John Maynard Keynes, _[Théorie générale de l'emploi, de l'intérêt et de la monnaie](https://planb.academy/resources/books/the-general-theory)_, a tout balayé sur son passage. S’interrogeant sur les causes de la Grande Dépression et les moyens d’en sortir, il décrit un nouveau paradigme économique, qui va convertir des générations d’économistes et d’hommes politiques.
 
 ![image](assets/fr/089.webp)
 
@@ -1665,7 +1692,7 @@ En 1947, soit cinq ans après la traduction en français de _La théorie génér
 
 ![image](assets/fr/094.webp)
 
-Dans _Le péché monétaire de l’Occident_, en 1971, Rueff écrit :
+Dans _[Le péché monétaire de l’Occident](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, en 1971, Rueff écrit :
 
 > C’est par le déficit budgétaire que les hommes perdent leur liberté.
 
@@ -1685,6 +1712,7 @@ En 1976, il s’attaque une dernière une fois au keynésianisme dans un article
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
+### La monnaie et la civilisation
 
 La monnaie est un outil qui a permis aux humains de sortir du troc, d’épargner et de se coordonner à grande échelle par le marché. Elle a rendu possible la spécialisation du travail, les avantages comparatifs, les gains à l’échange et le calcul économique. Sans monnaie, il n’y a pas de civilisation moderne.
 
@@ -1738,7 +1766,7 @@ En février 1965, lors d’une conférence de presse télévisée, le général 
 
 ### Un marché monétaire sans monopole de l'État est possible
 
-En 1976, Hayek a proposé une alternative au monopole de la création monétaire par l’État : la concurrence entre les monnaies. Dans son livre, _Pour une vraie concurrence des monnaies_ (_The Denationalization of money_), il envisage un marché monétaire sans monopole de l'État dans lequel il existerait plusieurs monnaies privées. La création et la gestion de différentes monnaies par des entités privées permettraient aux individus de choisir la monnaie la plus stable et la plus fiable, encourageant ainsi la concurrence et la discipline des émetteurs.
+En 1976, Hayek a proposé une alternative au monopole de la création monétaire par l’État : la concurrence entre les monnaies. Dans son livre, _Pour une vraie concurrence des monnaies_ (_[The Denationalization of money](https://planb.academy/resources/books/the-denationalization-of-money)_), il envisage un marché monétaire sans monopole de l'État dans lequel il existerait plusieurs monnaies privées. La création et la gestion de différentes monnaies par des entités privées permettraient aux individus de choisir la monnaie la plus stable et la plus fiable, encourageant ainsi la concurrence et la discipline des émetteurs.
 
 ![image](assets/fr/100.webp)
 

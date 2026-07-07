@@ -1,0 +1,15 @@
+question: Koşullu bileşim hangi anlamda paralel bileşimin dualidir?
+answer: Paralel, iki işleme tek bir girdi verir ve çıktılarını bir çift hâline getirir (bir çarpım); koşullu ise girdilerin bir toplamını alır ve iki dal tek bir çıktı türünü paylaşır.
+wrong_answers:
+  - Paralel iki işlemini aynı anda çalıştırmak zorundadır; koşullu onları sırayla çalıştırır ve yalnızca etiketin seçtiği dalı döndürür.
+  - İkisi de tek bir ortak girdi üzerinde çalışır; paralel çıktı çiftini korurken koşullu iki dalı da çalıştırır ve seçilmeyeni atar.
+  - Paralel girdisini önceden çoğaltırken koşullu çıktısını sonradan çoğaltır; kopyalamanın olduğu yeri değiştirir.
+explanation: >-
+  Dualite, paylaşılan türün taraf değiştirdiği bir çarpım/toplam değişimidir:
+  paralel bileşim iki işleme de aynı girdi türünü verir ve çıktılarını bir çarpımda
+  çift hâline getirir; buna karşılık koşullu bileşim iki girdi türünün bir toplamını (etiketli birleşim)
+  alır ve iki dalın da aynı çıktı türünü üretmesi gerekir. Eşzamanlılık ilgisizdir —
+  makale paralel bileşimin sıralı olarak uygulanabileceğini vurgular — ve koşullu
+  bileşim iki dalı da çalıştırıp birini atmak yerine, etiket tarafından seçilen tam
+  olarak bir dalı yürütür.
+reviewed: false

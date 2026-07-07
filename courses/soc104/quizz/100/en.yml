@@ -1,9 +1,9 @@
-question: According to Eric Hughes' Cypherpunk Manifesto, what is the primary responsibility for defending privacy in an open electronic society?
-answer: Individuals must actively defend their own privacy rather than relying on governments or corporations to provide it
+question: "How does the cypherpunk philosophy about centralization connect to the libertarian principle of consent as the fundamental norm of justice?"
+answer: "Cypherpunks view all centralization as founded on coercion rather than consent, echoing the libertarian position that nothing can be just if imposed by a centralized authority through force"
 wrong_answers:
-  - Governments should establish comprehensive privacy regulations to protect citizens from corporate surveillance
-  - Corporations must implement voluntary privacy standards and self-regulate their data collection practices
-  - International organizations should create binding treaties that mandate privacy protections across all nations
-explanation: |
-  Eric Hughes explicitly stated in the Cypherpunk Manifesto that 'We cannot expect governments, corporations, or other large anonymous organizations to guarantee us confidentiality... My main objective for Cypherpunks is to make people defend their confidentiality, rather than relying on someone else to provide it.' 
-  This philosophy emphasizes individual responsibility and self-reliance through cryptographic tools, rejecting dependence on external institutions for privacy protection, which is why the cypherpunks developed decentralized cryptographic systems.
+  - "Cypherpunks believe centralization is acceptable when approved by democratic majority vote, aligning with the libertarian respect for constitutional governance"
+  - "Cypherpunks support temporary centralization during emergencies, reflecting the libertarian view that individual rights can be suspended when the collective is threatened"
+  - "Cypherpunks oppose centralization only in technology systems, while accepting political centralization as necessary for enforcing property rights and contracts"
+explanation: >-
+  The cypherpunks place trust in decentralized cryptographic systems rather than centralized institutions. All centralization is perceived as founded on coercion rather than consent. This directly echoes the libertarian philosophy that consent is the fundamental norm of justice. Nothing can be just if it is imposed by a centralized authority through force, which is why they sought to build decentralized networks where no single entity could impose its will.
+reviewed: false

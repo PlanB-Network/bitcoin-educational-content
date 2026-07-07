@@ -1,0 +1,11 @@
+question: 半加器计算什么？
+answer: 两个输入位的进位（AND）和和位（XOR）。
+wrong_answers:
+  - 带进位传播的两个多位整数之和。
+  - 两个位向下取整后的平均值。
+  - 两个输入位的按位 OR 和 AND。
+explanation: >-
+  半加器接收两个单个位，并通过并行组合产生两个输出：
+  进位位（输入的 AND）和和位（输入的 XOR）。在 Simplicity 中，
+  它被定义为 and ▵ xor，在同一个输入对上运行两个操作。
+reviewed: false

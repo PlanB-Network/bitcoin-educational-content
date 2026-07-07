@@ -1,0 +1,16 @@
+question: Jet half-agg-verify yandika set y'ama tuples nka effect ya Writer. Mu kigeragezo ca commutative/idempotent/unitary, iyo design ya set ishikako iki, kandi ni iki kigihara?
+answer: "Commutative na idempotent (nk'uko Simplicity ibisaba), ariko si unitary: guta call vyokuraho tuple yayo kandi bigasimbuka umukono."
+wrong_answers:
+  - Idempotent na unitary, ariko si commutative, kuko aggregate itegerezwa gufatanya r-components mu rutonde rwo gusinya.
+  - Vyose uko ari bitatu, rero optimizer ishobora gusubiramwo, gutondeka ukundi, canke guta izo calls ata ngaruka.
+  - Commutative ariko si idempotent, kuko kwandika tuple imwe kabiri vyosaba aggregate s-components zibiri.
+explanation: >-
+  Gufata writer log nk'iset bituma effect iba idempotent na commutative,
+  kuko kwinjiza muri set ubwavyo bifise ivyo bintu vyompi — neza na neza
+  ibintu bibiri Simplicity isaba kuri effect yose. Unitarity iracari kure:
+  nka Failure, ukwandika kugira ingaruka ku kwemerwa kwa transaction, kuko
+  transaction yemerwa gusa iyo aggregate s-component ipfutse tuple yose yanditswe.
+  Imvugo ikora ukwo kwandika rero ntishobora gutabwa gusa kubera ko output yayo
+  ya unit idakoreshwa, kuko tuple yayo yoca ibura mu gacerere muri verification
+  ya half-aggregation.
+reviewed: false

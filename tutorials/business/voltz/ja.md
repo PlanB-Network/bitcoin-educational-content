@@ -19,7 +19,7 @@ Voltzは、カストディアル・ライトニングwalletとして毎日送金
 
 
 
-Voltz]プラットフォーム（https://www.voltz.com/en）にアクセスし、"Try now "ボタンをクリックしてアカウントを作成する。
+Voltz]プラットフォーム（https://www.lnvoltz.xyz/en）にアクセスし、"Try now "ボタンをクリックしてアカウントを作成する。
 
 
 

@@ -6,4 +6,4 @@ wrong_answers:
   - Le gossip du réseau
 explanation: |
   Les clés de révocation permettent de pénaliser un nœud qui tenterait de publier un ancien état du canal.
-reviewed: false
+reviewed: true 

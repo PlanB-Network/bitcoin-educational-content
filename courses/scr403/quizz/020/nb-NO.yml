@@ -1,0 +1,12 @@
+question: "Hva er de to sideeffektene som brukes i Simplicity for Bitcoin- og Liquid-applikasjoner?"
+answer: "Failure-effekten (et unntak av type 1) og Reader-effekten (tilgang til transaksjonsmiljødata)."
+wrong_answers:
+  - "State-effekten (muterbare variabler) og Writer-effekten (logging til en transaksjonslogg)."
+  - "IO-effekten (nettverkskommunikasjon) og Memory-effekten (dynamisk minneallokering)."
+  - "Continuation-effekten (tilbakekall) og Nondeterminism-effekten (flere kjørebaner)."
+explanation: >-
+  Simplicity bruker nøyaktig to sideeffekter for blokkjede-applikasjoner. Failure-effekten lar
+  beregninger avbrytes (f.eks. når en signatursjekk feiler), og Reader-effekten lar
+  uttrykk lese data fra transaksjonsmiljøet. Kjernekombinatorene forblir rene —
+  sideeffekter introduseres gjennom jets.
+reviewed: true

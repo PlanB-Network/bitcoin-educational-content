@@ -1,0 +1,13 @@
+question: Come funziona l'operazione logica AND in Simplicity?
+answer: Si dirama sul primo bit — se è falso restituisce falso, altrimenti il secondo bit.
+wrong_answers:
+  - Moltiplica i due valori booleani usando il tipo prodotto.
+  - Utilizza una tabella di lookup con tutte e quattro le combinazioni di input possibili.
+  - Applica il combinatore XOR e poi il combinatore NOT al risultato.
+explanation: >-
+  AND è definito come case (injl unit) (drop iden). Il combinatore case si
+  dirama sul primo bit. Se è falso (taggato a sinistra), injl unit
+  restituisce falso indipendentemente dal secondo bit. Se è vero (taggato a
+  destra), drop iden restituisce il secondo bit inalterato. Questo
+  corrisponde alla tabella di verità dell'AND.
+reviewed: false

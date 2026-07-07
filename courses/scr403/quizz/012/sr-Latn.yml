@@ -1,0 +1,13 @@
+question: Zašto se Simplicity izrazi serijalizuju kao DAG-ovi umesto kao stabla?
+answer: Da bi se sprečio eksponencijalni rast, jer se deljeni podizrazi čuvaju samo jednom.
+wrong_answers:
+  - Zato što obična stablasta struktura uopšte ne može predstaviti uslovno grananje.
+  - Da bi se omogućilo paralelno izvršavanje na mnogo odvojenih višejezgarnih procesora.
+  - Zato što protokol Liquid Network-a striktno nalaže DAG format ovde.
+explanation: >-
+  Simplicity izrazi prirodno formiraju stabla koja bi mogla eksponencijalno
+  rasti kako složenost raste. Serijalizacijom kao usmereni aciklični grafovi (DAG-ovi),
+  podizrazi koji se pojavljuju više puta čuvaju se jednom i referenciraju
+  od strane više roditelja. Ovo održava stvarne veličine programa da rastu linearno
+  umesto eksponencijalno.
+reviewed: false

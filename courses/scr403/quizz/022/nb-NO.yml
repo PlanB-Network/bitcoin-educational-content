@@ -1,0 +1,13 @@
+question: "Hvorfor bruker bip0340-verify Failure-effekten i stedet for å returnere en boolsk verdi (sann/usann)?"
+answer: For å muliggjøre batch-verifisering av Schnorr-signaturer, der én mislykket sjekk feiler hele batchen.
+wrong_answers:
+  - Fordi boolske typer er for kostbare med tanke på blokkplass sammenlignet med enhetstypen.
+  - Fordi Simplicitys typesystem ikke kan representere boolske returverdier fra jets.
+  - Fordi det å returnere en ren boolsk verdi direkte ville bryte med kompletthetsteoremet.
+explanation: >-
+  Hvis bip0340-verify returnerte en boolsk verdi, kunne en mislykket signatursjekk likevel føre til
+  en gren der scriptet lykkes. I så fall måtte verifisereren vite hvilken spesifikk signatur
+  som feilet, noe som ville hindre batch-verifisering. Ved å bruke Failure-effekten vil en
+  mislykket sjekk alltid avbryte hele beregningen, noe som muliggjør effektiv batch-verifisering
+  der mange signaturer samles sammen.
+reviewed: true

@@ -1,0 +1,139 @@
+# Agent-driven translation pipeline — configuration
+# The source of truth is always the English file (en.md / en.yml) inside each
+# content folder. A translation is the sibling {lang}.{ext} in the same folder.
+
+source_lang: en
+
+# Target languages. `name` is injected into the translation prompt.
+languages:
+  - { code: bg,      name: Bulgarian }
+  - { code: cs,      name: Czech }
+  - { code: de,      name: German }
+  - { code: es,      name: Spanish }
+  - { code: et,      name: Estonian }
+  - { code: fa,      name: Farsi }
+  - { code: fi,      name: Finnish }
+  - { code: fr,      name: French }
+  - { code: hi,      name: Hindi }
+  - { code: id,      name: Indonesian }
+  - { code: it,      name: Italian }
+  - { code: ja,      name: Japanese }
+  - { code: ko,      name: Korean }
+  - { code: nb-NO,   name: Norwegian }
+  - { code: nl,      name: Dutch }
+  - { code: pl,      name: Polish }
+  - { code: pt,      name: Portuguese }
+  - { code: rn,      name: Rundi }
+  - { code: ro,      name: Romanian }
+  - { code: ru,      name: Russian }
+  - { code: si,      name: Sinhala }
+  - { code: sk,      name: Slovak }
+  - { code: sr-Latn, name: Serbian }
+  - { code: sv,      name: Swedish }
+  - { code: sw,      name: Swahili }
+  - { code: th,      name: Thai }
+  - { code: tr,      name: Turkish }
+  - { code: vi,      name: Vietnamese }
+  - { code: zh-Hans, name: Chinese (Simplified) }
+  - { code: zh-Hant, name: Chinese (Traditional) }
+
+# Content roots scanned for en.md / en.yml (relative to repo root).
+content_roots:
+  - courses
+  - tutorials
+  - resources
+  - professors
+  - events
+
+# Path fragments to skip entirely (drafts / incomplete / intentionally EN-only).
+# Ported from the legacy pipeline's excluded_subfolders.
+exclude_paths:
+  - courses/biz221
+  - courses/biz205
+  - courses/csv404
+  - courses/ene101
+  - courses/lnp206
+  - courses/btc208
+  - courses/lnp404
+  - courses/eco208
+  - courses/sid402
+  - courses/sid406
+  - courses/eco205
+  - courses/dev301
+
+# Default worker concurrency (overridable with --concurrency).
+concurrency: 8
+
+# Small files (quizz / resource / professor / event YAML) are packed into one omp
+# session per language, this many files per session (a4 feedback: 10-20). Long-form
+# markdown (courses) is always one file per session. Overridable with --batch-size.
+batch_size: 15
+
+# A markdown file larger than this (bytes) gets explicit chapter-chunking
+# instructions in the worker prompt.
+long_form_threshold_bytes: 40000
+
+# Model routing — asi0's decision, from knowledge/model-matrix.html.
+# Each language maps to an ORDERED chain [#1 primary, #2, #3]; every entry is
+# {model, thinking}. The retry pass walks DOWN the chain, so a FAIL is retried on the
+# next-ranked model. `--model` on the CLI overrides the whole chain.
+#
+# Model patterns use omp fuzzy match and MUST resolve in omp (asi0 verifies auth):
+#   sonnet  = Claude Sonnet 5  · European naturalness, value pick
+#   opus    = Claude Opus 4.8  · self-verification, terminology consistency, hardest targets
+#   gpt-5.5 = GPT-5.5          · raw CJK / Indic / RTL accuracy
+# thinking: medium | high | xhigh  (higher = better quality, higher token cost).
+# sonnet is present in every chain, so if opus/gpt-5.5 are unauthenticated the chain
+# still lands on a working model.
+models:
+  default:
+    - {model: sonnet, thinking: medium}
+
+  # When --provider restricts routing to a single provider and a language's chain
+  # has no model for it (e.g. the `default` chain has only anthropic), fall back to
+  # this model, keeping the primary step's thinking effort.
+  provider_fallback:
+    anthropic: sonnet
+    openai: gpt-5.5
+
+  routes:
+    # ── Tier A · high-resource European (naturalness > capability) ──
+    fr:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    de:      [{model: sonnet, thinking: medium}, {model: opus, thinking: high},    {model: gpt-5.5, thinking: medium}]
+    es:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    it:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    pt:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    nl:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    sv:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+
+    # ── Tier B · major world / CJK (register, script complexity) ──
+    nb-NO:   [{model: sonnet, thinking: medium}, {model: opus, thinking: high},    {model: gpt-5.5, thinking: medium}]
+    ru:      [{model: sonnet, thinking: high},   {model: opus, thinking: high},    {model: gpt-5.5, thinking: high}]
+    tr:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    id:      [{model: sonnet, thinking: medium}, {model: opus, thinking: medium},  {model: gpt-5.5, thinking: medium}]
+    vi:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    ja:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    ko:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    zh-Hans: [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: medium}]
+    zh-Hant: [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+
+    # ── Tier C · complex morphology / non-Latin (high → xhigh, self-verify) ──
+    fi:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    et:      [{model: opus, thinking: xhigh},    {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    pl:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    cs:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    sk:      [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    bg:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: high},    {model: sonnet, thinking: high}]
+    sr-Latn: [{model: opus, thinking: high},     {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]
+    hi:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    fa:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    th:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+
+    # ── Tier D · low-resource (pair with glossary + human review; NLLB-200 draft optional) ──
+    si:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    sw:      [{model: gpt-5.5, thinking: high},  {model: opus, thinking: xhigh},   {model: sonnet, thinking: high}]
+    rn:      [{model: opus, thinking: xhigh},    {model: gpt-5.5, thinking: high}, {model: sonnet, thinking: high}]   # Kirundi: MANDATORY human review
+
+# Runtime worktree location (sibling of the repo). {ts} is replaced with a timestamp.
+worktree_base: "../bec-autotranslate-{ts}"
+branch_prefix: "auto-translate"

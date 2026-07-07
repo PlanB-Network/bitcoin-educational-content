@@ -1,12 +1,9 @@
-question: According to the text, what is the main problem with the traditional left-right political spectrum?
-answer: It leaves no place for classical liberal thought, which fits neither with left-wing egalitarianism nor right-wing nationalism
+question: "Why is the left-right axis considered inadequate for placing classical liberal thinkers like Bastiat or Ron Paul?"
+answer: "Because classical liberalism values both economic and personal freedoms, which neither the left nor the right fully embrace"
 wrong_answers:
-  - It oversimplifies politics by only having two extreme positions without any moderate or centrist options
-  - It incorrectly assumes that the left is always reformist while the right is always conservative in modern times
-  - It fails to account for the fact that most people change their political positions frequently over time
-explanation: |
-  The text specifically states that 'The problem with the left-right axis is that it leaves no room for classical liberal thought, which can be 
-  lumped neither with the egalitarianism of the left nor with the nationalism of the right.' This is illustrated through examples like Frédéric Bastiat, 
-  who voted sometimes with the left and sometimes with the right depending on the specific issue, and Bitcoin, which attracts supporters from various 
-  political backgrounds. The classical liberal tradition, which favors maximum economic and personal freedoms with minimal state intervention, simply 
-  doesn't fit into the traditional left-right categorization system.
+  - "Because classical liberals always align with right-wing economic policies and reject all left-wing positions"
+  - "Because classical liberals are centrists who adopt moderate versions of both left and right ideologies"
+  - "Because classical liberals oppose all forms of government, making them anarchists rather than political thinkers"
+explanation: >-
+  The left-right axis fails classical liberals because it cannot accommodate a position that simultaneously defends economic freedom (typically right) and personal freedom (typically left). Classical liberals are not centrists seeking compromise, nor are they anarchists or purely right-wing. They simply do not fit on a one-dimensional spectrum.
+reviewed: false

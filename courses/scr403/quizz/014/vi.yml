@@ -1,0 +1,12 @@
+question: Kiểu đơn vị (𝟙) là gì và vì sao nó hữu ích dù không mang thông tin?
+answer: Nó chứa một giá trị (tuple rỗng) và là nền tảng cho mọi kiểu khác.
+wrong_answers:
+  - Nó biểu diễn số 1 và được dùng trực tiếp cho các phép toán số học.
+  - Nó là một kiểu gỡ lỗi đặc biệt ghi log vết thực thi ra một tệp.
+  - Nó lưu trữ đúng một bit dữ liệu duy nhất dùng cho các phép toán Boolean.
+explanation: >-
+  Kiểu đơn vị 𝟙 có đúng một giá trị — tuple rỗng ⟨⟩. Dù nó mang không bit
+  thông tin nào, nó thiết yếu như hạt giống để từ đó các kiểu tổng và kiểu tích
+  xây dựng nên mọi kiểu dữ liệu hữu ích. Ví dụ, kiểu Boolean 𝟚 là 𝟙 + 𝟙,
+  được xây dựng hoàn toàn từ các kiểu đơn vị.
+reviewed: false

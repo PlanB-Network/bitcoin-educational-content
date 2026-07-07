@@ -1,5 +1,5 @@
 ---
-name: Contabilizzare bitcoin come un negozio
+name: Contabilizzare i pagamenti in bitcoin come attività commerciale
 
 description: Impariamo a contabilizzare pagamenti in bitcoin in modo semplice e veloce all'interno di una piccola impresa
 ---
@@ -16,15 +16,15 @@ In alcune aree del mondo sono nate comunità che potremmo definire _circolari_, 
 
 ## Accettare Bitcoin
 
-Il prossimo passo è accettare bitcoin direttamente nella propria impresa; il modo più semplice per fare ciò è installare e configurare un wallet Lightning Network (di seguito: "LN") per ricevere pagamenti instantanei, permettendo al tempo stesso al cliente di pagare ridotte commissioni di transazione.
+Il prossimo passo è accettare Bitcoin direttamente nella propria impresa; il modo più semplice per fare ciò è installare e configurare un wallet Lightning Network (di seguito: "LN") per ricevere pagamenti instantanei, permettendo al tempo stesso al cliente di pagare ridotte commissioni di transazione.
 
 Per semplicità in questo tutorial prendiamo l'esempio di Wallet of Satoshi, segui questa guida per installarlo e configurarlo:
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Dopo aver seguito la guida sarai pronto per accettare bitcoin come metodo di pagamento: davanti al cliente ti basterà aprire l'app da mobile e, dopo aver cliccato sul bottone `Ricevi`, inserire la quantità (generalmente nella tua valuta locale) per generare una fattura pagabile dall'utente.
+Dopo aver seguito la guida sarai pronto per accettare Bitcoin come metodo di pagamento: davanti al cliente ti basterà aprire l'app da mobile e, dopo aver cliccato sul bottone `Ricevi`, inserire la quantità (generalmente nella tua valuta locale) per generare un'invoice (fattura) pagabile dall'utente.
 
-**Pro Tip**: aggiungere una nota alla fattura prima di crearla permette di aggiungere al pagamento un'informazione utile nel futuro per associare il pagamento ad un certo evento (per esempio la vendita di 1 kg di mele per 900 sats). Le note inserite manualmente non sono visibili alla controparte, saranno dunque confinate al proprio uso interno.
+**Pro Tip**: aggiungere una nota all'invoice prima di crearla permette di aggiungere al pagamento un'informazione utile nel futuro per associare il pagamento ad un certo evento (per esempio la vendita di 1 kg di mele per 900 sats). Le note inserite manualmente non sono visibili alla controparte, saranno dunque confinate al proprio uso interno.
 
 ### Configurazione avanzata
 
@@ -32,10 +32,10 @@ Una configurazione leggermente più avanzata è usare la funzione Point of Sale 
 
 ![image](assets/en/01.webp)
 
-clicca poi sul bottone `Point of Sale` indicato dalla freccia, nell'immagine di destra.
+Clicca poi sul bottone `Point of Sale` indicato dalla freccia, nell'immagine di destra.
 
 Questo è uno dei due modi per accedere alla funzione Point of Sale di Wallet of Satoshi, il secondo metodo è tramite l'app dedicata [Wallet of Satoshi PoS](https://www.walletofsatoshi.com/pos). I vantaggi della funzione Point of Sale sono tre:
-- la funzionalità di sola ricezione: perfetta per lasciare i propri dipendenti collezionare i pagamenti dei clienti, evitando che possano spendere quei fondi;
+- la funzionalità di sola ricezione: perfetta per lasciare collezionare ai propri dipendenti i pagamenti dei clienti, evitando che possano spendere quei fondi;
 - permettere di creare un elenco di prezzi e prodotti per il proprio negozio, così da creare invoice Lightning selezionando i prodotti comprati;
 - scaricare i report di vendita in formato CSV.
 
@@ -65,13 +65,13 @@ Non sarà quindi necessario investire ulteriori tempo e denaro con il tuo consul
 
 All'aumentare del volume d'affari in bitcoin, inserire i contanti in cassa potrebbe diventare impossibile, per esempio i contanti a disposizione potrebbero non bastare a coprire tutti gli introiti in bitcoin. Tuttavia lo scopo del tutorial non affronta questo avvenimento, non è un problema che ragionevolmente si presenterà immediatamente al commerciante che inizia ad accettare bitcoin, anzi è un avvenimento molto raro.
 
-Un altro problema che potrebbe affliggervi - ad esempio presente in alcuni paesi europei - è che la tipologia della vostra impresa potrebbe impedirvi di accettare il contante come metodo di pagamento per i beni e servizi erogati ai vostri clienti. In tal caso il metodo esposto non sarà più sufficiente, servirà adottare un'alternativa più complessa.
+Un altro problema che potrebbe affliggerti - ad esempio presente in alcuni paesi europei - è che la tipologia della tua impresa potrebbe impedirti di accettare il contante come metodo di pagamento per i beni e servizi erogati ai tuoi clienti. In tal caso il metodo esposto non sarà più sufficiente, servirà adottare un'alternativa più complessa.
 
-## Report Bitcoin 
+## Report dei bitcoin 
 
 Come abbiamo visto si può facilmente accettare bitcoin senza sostenere nuove procedure contabili dannose per la propria privacy; tuttavia non finisce qui: sarebbe comunque opportuno conservare una contabilità parallela per tenere traccia del proprio flusso di bitcoin. Non temere, può essere semplice quanto si vuole, fintanto che si riesce a comprendere quanti bitcoin siano entrati e usciti dal proprio wallet. 
 
-**Attenzione**: compilare il campo `Note` quando si crea la fattura LN per il cliente facilita di molto l'aggiornamento della contabilità in bitcoin, stesso discorso per quando si effettua un pagamento LN verso i propri fornitori. Idealmente, ad ogni transazione è associata una nota di pagamento. Questa nota sarà solo visibile all'interno del wallet.
+**Attenzione**: compilare il campo `Note` quando si crea l'invoice LN per il cliente facilita di molto l'aggiornamento della contabilità in bitcoin, stesso discorso per quando si effettua un pagamento LN verso i propri fornitori. Idealmente, ad ogni transazione è associata una nota di pagamento. Questa nota sarà solo visibile all'interno del wallet.
 
 ## Conclusione
 

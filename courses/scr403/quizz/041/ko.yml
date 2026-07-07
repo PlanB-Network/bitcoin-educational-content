@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden)의 type은 무엇이며, 어떤 function을 나타내나요?
+answer: A × B ⊢ B × A — pair의 두 components를 swap합니다.
+wrong_answers:
+  - A × B ⊢ A × B — 두 components를 unchanged로 pass through합니다(identity).
+  - "Ill-typed: take iden과 drop iden은 output types가 서로 달라 pair가 merge할 수 없습니다."
+  - (A × B) × (A × B) ⊢ B × A — pair는 두 subexpressions의 input types를 merge합니다.
+explanation: >-
+  drop iden : A × B ⊢ B는 두 번째 component를 추출하고, take iden : A ×
+  B ⊢ A는 첫 번째 component를 추출합니다. pair combinator는 두
+  subexpressions가 같은 input type(여기서는 A × B)을 share할 것만 요구합니다. output들은
+  서로 달라도 되며, pair로 반환됩니다. input ⟨a, b⟩에서 이 expression은
+  따라서 ⟨b, a⟩를 산출합니다. 즉 A × B ⊢ B × A 타입의 swap function입니다.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Hur byggs fastlängdsvektorer i Simplicitys typsystem?
+answer: Genom nästlade produkttyper med längd som är en tvåpotens (t.ex. A⁴ = A² × A²).
+wrong_answers:
+  - Med en särskild array-typkonstruktor inbyggd i språket.
+  - Genom rekursiva summatyper som kedjar samman elementen i en lista.
+  - Med buffertar av variabel längd som har en fast maxstorlek.
+explanation: >-
+  Simplicity bygger vektorer från nästlade produkttyper. A² är A × A,
+  A⁴ är A² × A², A⁸ är A⁴ × A⁴, och så vidare. Detta ger samlingar
+  med storlek i tvåpotenser. Till exempel byggs 𝟚²⁵⁶ (en 256-bitars
+  hash) genom att nästla produkter 8 nivåer djupt från den booleska
+  typen.
+reviewed: false

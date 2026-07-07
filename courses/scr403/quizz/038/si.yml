@@ -1,0 +1,16 @@
+question: "#ᶜ(comp f g) ගණනය කිරීම bytes 128 hash කරයි: comp tag එක දෙවරක්, ඉන්පසු child CMRs දෙකම. එය තවමත් උපරිම එක SHA-256 compression call එකක් වන්නේ ඇයි?"
+answer: පළමු 64-byte block එක constant tag∥tag ය, එහි midstate එක වරක් precompute කර ඇත; child CMRs තබා ඇති block එක පමණක් compress කරයි.
+wrong_answers:
+  - SHA-256 හි final length-padding block එක drop කිරීම පමණක්, සම්පූර්ණ bytes 128 එක call එකකට fit වීමට ඉඩ දෙයි.
+  - child CMRs දෙක 32-byte digest එකකට XOR කර, input එක single block එකකට shrink කරයි.
+  - SHA-256-midstate යනු 128-byte message blocks එක pass එකක absorb කරන wide-block variant එකකි.
+explanation: >-
+  SHA-256 හි compression function එක fixed 64-byte blocks process කරන නිසා,
+  128-byte input එකකට සාමාන්‍යයෙන් calls දෙකක් අවශ්‍ය වේ (full SHA-256 හි length
+  padding සඳහා තවත් එකක්ද ඇතුළුව). සෑම combinator එකක පළමු block එක
+  constant tag∥tag වන නිසා, එහි midstate එක වරක් precompute කර cache කළ හැක; එක් එක්
+  expression එකට එවිට අවශ්‍ය වන්නේ එහි children හි CMRs තබා ඇති block එකේ
+  fresh compression එකක් පමණි. Midstates final padding block එකද drop කරයි, නමුත්
+  එය පමණක් නම් තවමත් compressions දෙකක් ඉතිරි කරයි — precomputed tag
+  midstate එකයි එය උපරිම එකකට අඩු කරන්නේ.
+reviewed: false

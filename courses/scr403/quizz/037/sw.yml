@@ -1,0 +1,17 @@
+question: Athari za Simplicity ni commutative na idempotent lakini si unitary. Ni transformation ipi ya optimizer kwa hiyo lazima ikataliwe kwa ujumla?
+answer: Kubadilisha usemi unaoonekana kuwa dead kwa unit — Failure si unitary, hivyo inaweza kuficha ukaguzi unaoshindwa ambao lazima u-abort.
+wrong_answers:
+  - Kubadilisha nafasi za subexpressions mbili huru, kwa kuwa sig-all-hash inaweza kuona hali tofauti ya mazingira.
+  - Kuunganisha verify calls mbili zinazofanana, kwa kuwa Failure iliyorudufiwa ingerusha mara mbili na ku-abort kimakosa.
+  - Kupanga upya expressions zinazoweza throw, kwa kuwa exception inayosambazwa hutegemea upande gani unaendeshwa kwanza.
+explanation: >-
+  Kwa kuwa athari za Simplicity zimehakikishwa kuwa commutative na idempotent,
+  kubadilisha nafasi za subexpressions huru na kurudufu au kuunganisha zile zinazofanana
+  daima ni salama; mazingira ya Reader yamefungwa, na exception ya Failure yenye aina ya unit
+  ni ileile bila kujali upande gani unatupa kwanza au
+  mara ngapi. Transformation ya kutupa `f ⨾ unit = unit`, hata hivyo,
+  huhitaji unitarity, ambayo Failure haina: ikiwa `f` ina
+  `bip0340-verify` kwenye saini batili, kuondoa code 'dead'
+  kunge-optimize away abort na kuthibitisha muamala ambao unapaswa
+  kushindwa.
+reviewed: false

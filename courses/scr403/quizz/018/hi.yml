@@ -1,0 +1,13 @@
+question: Simplicity के type system में variable-length buffers कैसे represent किए जाते हैं?
+answer: nested option-type products के रूप में, जहाँ प्रत्येक layer एक power-of-two block को flag करती है।
+wrong_answers:
+  - भाषा में सीधे built एक special dynamic array type का उपयोग करके।
+  - recursive sum types के माध्यम से, जो हर function call पर बड़े होते जाते हैं।
+  - fixed-size vectors के रूप में जिन्हें trailing zero values से pad किया जाता है।
+explanation: >-
+  Buffers nested option types का उपयोग करते हैं। उदाहरण के लिए, Xᑉ⁸ expand होकर
+  (1 + X⁴) × ((1 + X²) × (1 + X)) बनता है, जो एक polynomial के रूप में
+  1 + X + X² + ... + X⁷ देता है — यानी 0 से 7 elements तक के collections को
+  represent करता है। प्रत्येक option layer यह दर्शाती है कि कोई power-of-two block
+  मौजूद है या नहीं, जिससे प्रभावी रूप से length को binary में encode किया जाता है।
+reviewed: false

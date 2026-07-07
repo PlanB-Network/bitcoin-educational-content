@@ -1,0 +1,13 @@
+question: Aina ya boolean (𝟚) inafafanuliwaje katika Simplicity?
+answer: Kama aina ya sum 𝟙 + 𝟙, inayoshikilia thamani mbili hasa (uongo na kweli).
+wrong_answers:
+  - Kama aina ya product 𝟙 × 𝟙 ambayo basi ingeshikilia thamani moja tu.
+  - Kama aina maalum primitive iliyojengwa moja kwa moja ndani ya lugha.
+  - Kama aina ya integer ya biti 32 iliyozuiliwa kwa thamani 0 na 1 pekee.
+explanation: >-
+  Aina ya boolean 𝟚 inafafanuliwa kama 𝟙 + 𝟙, sum ya aina mbili za unit.
+  Thamani yenye tagi ya kushoto σᴸ⟨⟩ huwakilisha uongo (0) na thamani
+  yenye tagi ya kulia σᴿ⟨⟩ huwakilisha kweli (1). Hii ni aina ya data ya
+  biti moja iliyojengwa kutoka aina ya unit na kiundaji cha aina ya sum
+  pekee — kiundaji cha product hakihitajiki.
+reviewed: false

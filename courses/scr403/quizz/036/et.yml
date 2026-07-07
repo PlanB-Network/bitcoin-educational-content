@@ -1,0 +1,15 @@
+question: "Milline põhikombinaatorite avaldis rakendab jaotusfunktsiooni dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case'i igas harus on keskkond juba paaris märgendita väärtusega, seega
+  f = injl iden ja g = injr iden annavad ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ ja ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — täpselt dist. take/drop-variant läbib
+  tüübikontrolli, kuid viskab paaristamise ära, tähistades selle asemel
+  funktsiooni tüübiga (A + B) × C ⊢ A + C. pair toodab summa asemel korrutise
+  ja copair ei ole üldse Simplicity kombinaator — dist on täpselt see, mida
+  copair üksi väljendada ei saa.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Simplicity'nin tür sisteminde sabit uzunluklu vektörler nasıl inşa edilir?
+answer: İkinin kuvveti uzunluğundaki iç içe çarpım türleriyle (örn. A⁴ = A² × A²).
+wrong_answers:
+  - Dile yerleşik özel bir dizi türü oluşturucusu kullanılarak.
+  - Öğeleri bir liste halinde zincirleyen özyinelemeli toplam türleriyle.
+  - Sabit bir maksimum boyuta sahip değişken uzunluklu tamponlar kullanılarak.
+explanation: >-
+  Simplicity vektörleri iç içe çarpım türlerinden inşa eder. A², A × A'dır;
+  A⁴, A² × A²'dir; A⁸, A⁴ × A⁴'tür ve böyle devam eder. Bu, ikinin kuvveti
+  boyutunda koleksiyonlar verir. Örneğin, 𝟚²⁵⁶ (256 bitlik bir hash),
+  Boole türünden başlayarak çarpım türlerini 8 seviye derinlikte iç içe
+  geçirerek inşa edilir.
+reviewed: false

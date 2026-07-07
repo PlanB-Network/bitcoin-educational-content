@@ -1,9 +1,9 @@
-question: According to Eric Hughes' Cypherpunk Manifesto, what is the primary responsibility for protecting privacy in an open electronic society?
-answer: Individuals must actively defend their own privacy rather than relying on governments or corporations to provide it
+question: "What is the core message of Eric Hughes's 1993 Cypherpunk Manifesto regarding privacy?"
+answer: "Privacy is essential to an open society in the electronic age, and individuals must build it themselves rather than expecting governments or corporations to guarantee it"
 wrong_answers:
-  - Governments should establish comprehensive privacy regulations to protect citizens from corporate surveillance
-  - Large organizations must voluntarily implement privacy protections as part of their corporate social responsibility
-  - International treaties should be negotiated to create universal privacy standards enforced by supranational bodies
-explanation: |
-  Hughes explicitly stated that 'We cannot expect governments, corporations, or other large anonymous organizations to guarantee us confidentiality' and that the main objective for Cypherpunks is 'to make people defend their confidentiality, rather than relying on someone else to provide it'.
-  This reflects the core cypherpunk philosophy of individual responsibility and distrust of centralized institutions. The movement believed that cryptographic tools should empower individuals to protect themselves rather than depending on the very institutions they viewed as potential threats to privacy and freedom.
+  - "Privacy is a luxury that must be sacrificed in exchange for national security and the protection of democratic institutions"
+  - "Privacy should be regulated by international treaties that establish uniform standards for data protection across all countries"
+  - "Privacy is only important for criminals and dissidents, while law-abiding citizens benefit from transparent surveillance systems"
+explanation: >-
+  Eric Hughes's 1993 manifesto states that privacy is essential to an open society in the electronic age and that we cannot expect governments, corporations, or other large organizations to guarantee it. The fundamental motivation is that confidentiality is a key element of freedom and must be built by individuals themselves, not awaited as a gift from institutions.
+reviewed: false

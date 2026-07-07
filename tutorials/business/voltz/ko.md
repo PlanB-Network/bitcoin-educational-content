@@ -19,7 +19,7 @@ description: 비즈니스를 위한 올인원 Lightning wallet.
 
 
 
-볼츠] 플랫폼(https://www.voltz.com/en)으로 이동하여 '지금 시도하기' 버튼을 클릭하여 계정을 생성합니다.
+볼츠] 플랫폼(https://www.lnvoltz.xyz/en)으로 이동하여 '지금 시도하기' 버튼을 클릭하여 계정을 생성합니다.
 
 
 

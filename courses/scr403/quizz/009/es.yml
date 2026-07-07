@@ -1,0 +1,12 @@
+question: ¿Qué calcula un semisumador (half-adder)?
+answer: El acarreo (AND) y la suma (XOR) de dos bits de entrada.
+wrong_answers:
+  - La suma de dos enteros de varios bits con propagación de acarreo.
+  - El promedio de dos bits redondeado hacia abajo.
+  - El OR y AND bit a bit de dos bits de entrada.
+explanation: >-
+  Un semisumador toma dos bits individuales y produce dos salidas usando
+  composición paralela: el bit de acarreo (AND de las entradas) y el bit de
+  suma (XOR de las entradas). En Simplicity se define como and ▵ xor,
+  ejecutando ambas operaciones sobre el mismo par de entrada.
+reviewed: false

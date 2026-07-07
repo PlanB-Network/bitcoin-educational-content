@@ -1,0 +1,15 @@
+question: "Biểu thức combinator lõi nào triển khai hàm phân phối dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Bên trong mỗi nhánh của case, môi trường đã được ghép cặp với giá trị
+  đã bỏ tag, nên f = injl iden và g = injr iden cho ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ và ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — đúng chính xác là dist. Biến thể
+  take/drop type-check được nhưng loại bỏ phần ghép cặp, biểu thị một hàm
+  có kiểu (A + B) × C ⊢ A + C thay vào đó. pair tạo ra một tích thay vì
+  một tổng, còn copair hoàn toàn không phải là combinator của Simplicity —
+  dist chính xác là thứ mà chỉ riêng copair không thể biểu diễn.
+reviewed: false

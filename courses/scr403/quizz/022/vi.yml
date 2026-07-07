@@ -1,0 +1,12 @@
+question: "Tại sao bip0340-verify dùng hiệu ứng Failure thay vì trả về một boolean (true/false)?"
+answer: Để cho phép xác minh theo lô chữ ký Schnorr, trong đó một kiểm tra thất bại làm thất bại cả lô.
+wrong_answers:
+  - Vì các kiểu boolean quá tốn kém về không gian khối so với kiểu đơn vị.
+  - Vì hệ thống kiểu của Simplicity không thể biểu diễn các giá trị trả về boolean đến từ các jet.
+  - Vì việc trả về một giá trị boolean thuần túy sẽ trực tiếp vi phạm định lý đầy đủ.
+explanation: >-
+  Nếu bip0340-verify trả về một boolean, một lần kiểm tra chữ ký thất bại vẫn có thể dẫn đến một nhánh mà
+  script thành công. Trong trường hợp đó, trình xác minh sẽ cần biết cụ thể chữ ký nào
+  đã thất bại, ngăn cản xác minh theo lô. Bằng cách dùng hiệu ứng Failure, một lần kiểm tra thất bại luôn hủy bỏ
+  toàn bộ tính toán, cho phép xác minh theo lô hiệu quả khi nhiều chữ ký được gom lại với nhau.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Simplicity ina combinator ngapi za msingi?
+answer: Tisa (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tatu (utungaji wa mfuatano, utungaji sambamba, sharti).
+  - Tano (combinator za comp, pair, case, take, na drop pekee).
+  - Kumi na mbili (zile tisa za msingi pamoja na combinator tatu za ziada za upanuzi).
+explanation: >-
+  Simplicity ina combinator tisa hasa za msingi. Operesheni mbili za
+  msingi (iden na unit), mbinu tatu za utungaji (comp, pair, case), na
+  vifikiaji vinne (take, drop kwa products, injl na injr kwa sums). Hizi
+  tisa zinatosha kueleza function yoyote kati ya aina za Simplicity.
+reviewed: false

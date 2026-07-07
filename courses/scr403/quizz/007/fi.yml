@@ -1,0 +1,13 @@
+question: Miten totuusarvotyyppi (𝟚) määritellään Simplicityssä?
+answer: Summatyyppinä 𝟙 + 𝟙, joka pitää sisällään täsmälleen kaksi arvoa (epätosi ja tosi).
+wrong_answers:
+  - Tulotyyppinä 𝟙 × 𝟙, joka pitäisi sisällään tällöin vain yhden arvon.
+  - Erityisenä primitiivityyppinä, joka on rakennettu suoraan kieleen.
+  - 32-bittisenä kokonaislukutyyppinä, joka on rajoitettu vain arvoihin 0 ja 1.
+explanation: >-
+  Totuusarvotyyppi 𝟚 määritellään muodossa 𝟙 + 𝟙, kahden yksikkötyypin summana.
+  Vasemmalle merkitty arvo σᴸ⟨⟩ edustaa epätotta (0) ja oikealle merkitty arvo
+  σᴿ⟨⟩ edustaa totta (1). Tämä on yhden bitin tietotyyppi, joka on rakennettu
+  pelkästä yksikkötyypistä ja summatyypin muodostimesta — tulon muodostinta ei
+  tarvita.
+reviewed: false

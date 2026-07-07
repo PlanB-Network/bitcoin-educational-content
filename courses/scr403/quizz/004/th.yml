@@ -1,0 +1,12 @@
+question: Simplicity มี combinator แกนหลักกี่ตัว?
+answer: เก้าตัว (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - สามตัว (การประกอบแบบตามลำดับ, การประกอบแบบขนาน, แบบมีเงื่อนไข).
+  - ห้าตัว (เฉพาะ combinator comp, pair, case, take และ drop).
+  - สิบสองตัว (เก้าตัวแกนหลักรวมกับ combinator ส่วนขยายเพิ่มอีกสามตัว).
+explanation: >-
+  Simplicity มี combinator แกนหลักเท่ากับเก้าตัวพอดี ได้แก่ ปฏิบัติการพื้นฐาน
+  สองตัว (iden และ unit), วิธีประกอบสามแบบ (comp, pair, case) และ accessor
+  สี่ตัว (take, drop สำหรับ products, injl และ injr สำหรับ sums) ทั้งเก้าตัวนี้
+  เพียงพอสำหรับแสดงฟังก์ชันใด ๆ ระหว่างชนิดข้อมูล Simplicity.
+reviewed: false

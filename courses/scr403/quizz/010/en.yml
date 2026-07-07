@@ -1,0 +1,12 @@
+question: How are fixed-length vectors built in Simplicity's type system?
+answer: Through nested product types of power-of-two length (e.g. A⁴ = A² × A²).
+wrong_answers:
+  - Using a special array type constructor built into the language.
+  - Through recursive sum types that chain the elements together in a list.
+  - Using variable-length buffers that have a fixed maximum size.
+explanation: >-
+  Simplicity builds vectors from nested product types. A² is A × A,
+  A⁴ is A² × A², A⁸ is A⁴ × A⁴, and so on. This gives power-of-two
+  sized collections. For example, 𝟚²⁵⁶ (a 256-bit hash) is built by
+  nesting products 8 levels deep from the boolean type.
+reviewed: false

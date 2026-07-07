@@ -1,0 +1,14 @@
+question: push-<n ifadesinin tipi Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ şeklindedir. Çıktısının neden tam vektör tipi Aⁿ içeren bir toplam olması gerekir?
+answer: Bir Aᑉⁿ arabelleği en fazla n−1 öğe tutar; dolu bir arabelleğe push yapmak n öğe üretir — bunu yalnızca Aⁿ temsil edebilir.
+wrong_answers:
+  - Toplam, vektörler option çarpımlarından daha kompakt serileştirildiği için çağıranların daha ucuz kodlamayı seçmesini sağlar.
+  - Push boş bir arabellekte başarısız olabilir ve Aⁿ dalı eski içerikleri taşıyan hata durumudur.
+  - case, toplam tipli bir arabelleği tüketen herhangi bir fonksiyonun aynı zamanda toplam tipli bir çıktı üretmesini gerektirir.
+explanation: >-
+  Aᑉⁿ, uzunluğu n değerinden kesinlikle küçük olan listelerin tam olarak tipidir;
+  bu yüzden maksimum kapasitedeki bir arabellek n−1 öğe tutar. Bir öğe daha
+  push etmek tam olarak n öğe üretir; Aᑉⁿ bunu temsil edemez. Aⁿ terimi bu
+  taşmış sonucu tam vektör olarak döndürür. Taşmayı çıktı tipinde kodlamak,
+  push-<n fonksiyonunu kısmi bir fonksiyon yerine total bir fonksiyon olarak tutar —
+  boş arabellek hata durumu push fonksiyonuna değil pop-<n fonksiyonuna aittir.
+reviewed: false

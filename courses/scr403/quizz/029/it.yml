@@ -1,0 +1,16 @@
+question: Simplicity esclude la ricorsione illimitata. Qual è il suo sostituto previsto per l'iterazione illimitata?
+answer: I covenant ricorsivi che distribuiscono il calcolo su più transazioni, mantenendo prevedibile il costo di ciascuna transazione.
+wrong_answers:
+  - La funzione di delega, costruita appositamente per fornire una forma misurata di ricorsione illimitata all'interno di una singola transazione.
+  - I nove combinatori fondamentali, la cui completezza permette a una costruzione a punto fisso di codificare qualsiasi funzione ricorsiva.
+  - Lo srotolamento dei cicli a tempo di compilazione, dove l'analisi statica deduce il numero massimo di iterazioni e duplica il corpo.
+explanation: >-
+  La tesi dell'articolo è che l'iterazione illimitata sia meglio implementata
+  come covenant ricorsivi che calcolano su più transazioni, il che evita
+  i vincoli di spazio nel blocco e di standardness e rende prevedibili i
+  costi delle transazioni. La delega può solo essere abusata per produrre
+  qualcosa che assomiglia alla ricorsione illimitata — non è il meccanismo
+  previsto — e i nove combinatori fondamentali sono completi solo per
+  calcoli finiti, quindi non esiste alcuna costruzione a punto fisso
+  all'interno di un singolo programma.
+reviewed: false

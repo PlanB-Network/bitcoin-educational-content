@@ -1,0 +1,12 @@
+question: "Kwa nini athari ya Failure ni commutative katika Simplicity, ingawa exceptions kwa ujumla si commutative?"
+answer: Kwa sababu aina ya exception ni unit (1) yenye thamani moja tu, hivyo mpangilio wa kutupa haujalishi.
+wrong_answers:
+  - Kwa sababu Simplicity hutekeleza expressions zote kwa mpangilio deterministic unaofafanuliwa na mti wa combinator.
+  - Kwa sababu athari ya Failure daima hukamatwa na kisha hutupwa tena na combinator ya case.
+  - Kwa sababu Simplicity hutumia batch verification, jambo linalofanya exceptions zote zilizotupwa kuwa sawa.
+explanation: >-
+  Kwa ujumla, exceptions si commutative kwa sababu expressions tofauti zinaweza kutupa thamani tofauti za
+  exception. Hata hivyo, Simplicity huweka exceptions kuwa unit type (thamani moja tu inayowezekana),
+  hivyo kubadilisha mpangilio wa expressions mbili zinazoweza kushindwa huzalisha exception ileile bila kujali
+  ni ipi hasa inashindwa. Sifa hii ya commutativity huwezesha optimizations muhimu za programu.
+reviewed: true

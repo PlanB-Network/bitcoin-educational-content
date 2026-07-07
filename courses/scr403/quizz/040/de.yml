@@ -1,0 +1,18 @@
+question: "Die Berechnung von #ᶜ(comp f g) hasht 128 Byte: zweimal den comp-Tag, dann beide Kind-CMRs. Warum ist das dennoch höchstens ein SHA-256-Kompressionsaufruf?"
+answer: Der erste 64-Byte-Block ist die Konstante tag∥tag, deren Midstate einmal vorab berechnet wird; nur der Block mit den Kind-CMRs wird komprimiert.
+wrong_answers:
+  - Allein das Weglassen des abschließenden Längen-Padding-Blocks von SHA-256 lässt die gesamten 128 Byte in einem Aufruf Platz finden.
+  - Die beiden Kind-CMRs werden per XOR zu einem 32-Byte-Digest verknüpft, wodurch die Eingabe auf einen einzigen Block schrumpft.
+  - SHA-256-Midstate ist eine Breitblock-Variante, die 128-Byte-Nachrichtenblöcke in einem Durchgang aufnimmt.
+explanation: >-
+  Die Kompressionsfunktion von SHA-256 verarbeitet feste 64-Byte-Blöcke,
+  sodass eine 128-Byte-Eingabe normalerweise zwei Aufrufe benötigt (plus
+  einen weiteren für das Längen-Padding bei vollständigem SHA-256). Da
+  der erste Block jedes Kombinators die Konstante tag∥tag ist, kann sein
+  Midstate einmal vorab berechnet und zwischengespeichert werden; jeder
+  Ausdruck benötigt dann nur eine frische Kompression des Blocks mit den
+  CMRs seiner Kinder. Midstates lassen auch den abschließenden
+  Padding-Block weg, aber das allein würde noch immer zwei Kompressionen
+  bedeuten — erst der vorab berechnete Tag-Midstate senkt es auf
+  höchstens einen.
+reviewed: false

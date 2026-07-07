@@ -1,9 +1,9 @@
-question: Koja je razlika između pravila konsenzusa i pravila prenosa?
-answer: Konsenzus definiše validnost, prenosi difuziju transakcija
+question: Koja je razlika između pravila konsenzusa i pravila prosleđivanja (relej)?
+answer: Konsenzus pravila definiše validnost, pravila prosleđivanja određuju difuziju transakcija
 wrong_answers:
   - Konsenzus definiše naknade, relej definiše adrese
-  - Konsenzus upravlja Blockchain, relej upravlja privatnim ključevima
+  - Konsenzus upravlja Blockchain-om, relej upravlja privatnim ključevima
   - Konsenzus bira rudare, relej bira trgovce
 explanation: |
-  Konsenzus pravila određuju šta je validno u Bitcoin, dok pravila prenosa upravljaju transakcijama između čvorova.
+  Pravila konsenzusa određuju šta je validno u Bitcoinu, dok pravila releja regulišu kako se transakcije prosleđuju između čvorova.
 reviewed: true

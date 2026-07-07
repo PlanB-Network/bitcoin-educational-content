@@ -1,0 +1,12 @@
+question: Simplicity'de mantıksal AND işlemi nasıl çalışır?
+answer: İlk bite göre dallanır — false ise false döndürür, aksi halde ikinci biti döndürür.
+wrong_answers:
+  - İki Boole değerini çarpım türünü kullanarak birbirleriyle çarpar.
+  - Dört olası girdi kombinasyonunun tamamını içeren bir arama tablosu kullanır.
+  - XOR kombinatörünü uygular ve ardından sonuca NOT kombinatörünü uygular.
+explanation: >-
+  AND, case (injl unit) (drop iden) olarak tanımlanır. case kombinatörü
+  ilk bite göre dallanır. false ise (sol etiketli), injl unit ikinci bitten
+  bağımsız olarak false döndürür. true ise (sağ etiketli), drop iden ikinci
+  biti değiştirmeden döndürür. Bu, AND doğruluk tablosuyla eşleşir.
+reviewed: false

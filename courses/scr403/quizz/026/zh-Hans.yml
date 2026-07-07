@@ -1,0 +1,13 @@
+question: "为什么 sig-all-hash 使用 Reader 效应，而不是把交易数据作为类型化输入？"
+answer: 这样 jet 可以使用 PrecomputedTransactionData，并在固定环境上以常数时间运行。
+wrong_answers:
+  - 因为 Simplicity 的类型系统从根本上无法将交易数据表示为类型。
+  - 因为 Reader 效应比通过组合子树传递该数据更快。
+  - 因为交易数据太大，无法放入 Simplicity 的固定大小类型系统。
+explanation: >-
+  如果 sig-all-hash 接收 TxEnv 输入类型，程序就可能把交易数据的修改副本
+  传给 jet，使其无法使用预计算哈希。借助 Reader 效应，jet 只
+  访问固定且不可变的交易环境，因此其实现可以安全地使用
+  PrecomputedTransactionData，并按每次签名检查以常数时间运行，避免了
+  曾困扰早期 Bitcoin Script 的二次哈希问题。
+reviewed: true

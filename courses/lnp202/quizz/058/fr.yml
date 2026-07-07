@@ -6,4 +6,4 @@ wrong_answers:
   - Requêtes DNS chiffrées
 explanation: |
   La requête est chiffrée puis publiée sous forme d’événement sur un relais Nostr, que le nœud lit pour exécuter l’action.
-reviewed: false
+reviewed: true 

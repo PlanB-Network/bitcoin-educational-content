@@ -1,0 +1,26 @@
+id: 5f8765c4-3231-4bd7-9971-c69df70e957e
+start_date: 2026-06-05 09:00:00
+end_date: 2026-06-07 18:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+address_line_2:
+address_line_3:
+name: "Paris BIP21 - BCE #2"
+type: conference
+book_online: false
+book_in_person: false
+description: |
+  Nos conférences ne se limitent pas à Bitcoin en tant qu'actif, mais visent à en comprendre l'ensemble de l'écosystème et ses implications. Nous abordons ainsi les dimensions économiques et politiques, l'histoire et l'évolution de Bitcoin, les mécanismes du minage, les aspects comptables, les enjeux de sécurité, l'utilisation des portefeuilles, ainsi que les fondements technologiques.
+  L'ensemble de ces thématiques est regroupé lors de la première journée, conçue pour offrir une vision globale, accessible et structurée. La seconde journée propose une approche plus technique, destinée à approfondir certains sujets pour ceux qui souhaitent aller plus loin.
+  Nos conférences s'adressent à tous les niveaux : elles permettent à chacun de faire ses premiers pas dans l'univers de Bitcoin ou de consolider et approfondir ses connaissances.
+language:
+  - fr
+links:
+  website: https://bce-bip21.fr/
+  replay_url:
+  live_url:
+project_id: c1071dd4-99f8-431c-8bdf-c11b5d4af93c
+tags:
+  - Bitcoiner
+  - General
+  - France

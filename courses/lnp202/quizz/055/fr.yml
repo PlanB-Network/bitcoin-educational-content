@@ -6,4 +6,4 @@ wrong_answers:
   - Jamais
 explanation: |
   L’application sérialise la requête, la chiffre, puis la publie sous forme d’événement sur un relais Nostr.
-reviewed: false
+reviewed: true 

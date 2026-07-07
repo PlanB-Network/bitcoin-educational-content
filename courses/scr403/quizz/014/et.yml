@@ -1,0 +1,12 @@
+question: Mis on ühiktüüp (𝟙) ja miks on see kasulik, hoolimata sellest, et see ei kanna infot?
+answer: See sisaldab üht väärtust (tühja korteeži) ja on alus kõigile teistele tüüpidele.
+wrong_answers:
+  - See esindab arvu 1 ja seda kasutatakse otse aritmeetiliste operatsioonide jaoks.
+  - See on spetsiaalne silumistüüp, mis logib täitmisjäljed faili.
+  - See salvestab täpselt ühe biti andmeid, mida kasutatakse tõeväärtusoperatsioonideks.
+explanation: >-
+  Ühiktüübil 𝟙 on täpselt üks väärtus — tühi korteež ⟨⟩. Kuigi see kannab null
+  bitti infot, on see hädavajalik lähtepunktina, millest summa- ja
+  korrutistüübid ehitavad üles kõik kasulikud andmetüübid. Näiteks
+  tõeväärtustüüp 𝟚 on 𝟙 + 𝟙, mis on ehitatud täielikult ühiktüüpidest.
+reviewed: false

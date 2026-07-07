@@ -1,0 +1,14 @@
+question: 在花费时，一个 case 分支会被剪枝掉。验证者如何仍然把披露的程序与已承诺的 CMR 匹配起来？
+answer: CMR 是一个 Merkle root，因此花费者只提供被剪枝分支的 CMR，验证者将其折叠进去以重新计算根。
+wrong_answers:
+  - 验证者只使用已执行分支，因为未执行的 case 分支从未包含在 CMR 中。
+  - 被剪枝分支会变成一个规范占位符，在重新计算根时用其固定 CMR 代替。
+  - 被剪枝分支的完整代码仍保留在 witness 中，验证者会对其哈希但不执行它。
+explanation: >-
+  case f g 的 CMR 是覆盖两个子 CMR 的带标签哈希，因此每个
+  分支——无论是否执行——都在地址时被承诺。因为该构造是一棵 Merkle tree，
+  被剪枝分支可以仅由其 32-byte CMR 概括：验证者将该哈希插入递归
+  计算，并检查根是否匹配 UTXO 的 commitment，
+  而无需看到被剪枝的代码。这正是使用 Merkle root 作为 commitment 的原因，
+  也是为什么被剪枝分支内部的任何 witness expressions 都不会出现在链上的原因。
+reviewed: false

@@ -1,0 +1,17 @@
+question: Simplicity excluye la recursión no acotada. ¿Cuál es su sustituto previsto para la iteración no acotada?
+answer: Los covenants recursivos que distribuyen el cálculo entre múltiples transacciones, manteniendo predecible el coste de cada transacción.
+wrong_answers:
+  - La función de delegación, diseñada específicamente para dar una forma medida de recursión no acotada dentro de una sola transacción.
+  - Los nueve combinadores centrales, cuya completitud permite que una construcción de punto fijo codifique cualquier función recursiva.
+  - El desenrollado de bucles en tiempo de compilación, donde el análisis estático infiere el número máximo de iteraciones y duplica el cuerpo.
+explanation: >-
+  La tesis del artículo es que la iteración no acotada se implementa mejor
+  como covenants recursivos que calculan a través de múltiples
+  transacciones, lo que evita las restricciones de espacio de bloque y de
+  estandarización y hace que los costes de transacción sean predecibles.
+  La delegación solo puede usarse indebidamente para producir algo
+  parecido a la recursión no acotada — no es el mecanismo previsto — y los
+  nueve combinadores centrales son completos únicamente para cálculos
+  finitos, por lo que no existe ninguna construcción de punto fijo dentro
+  de un único programa.
+reviewed: false

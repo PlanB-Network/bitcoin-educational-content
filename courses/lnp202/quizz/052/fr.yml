@@ -6,4 +6,4 @@ wrong_answers:
   - Nécessite un root du téléphone
 explanation: |
   Android ne permet pas d’utiliser deux VPN simultanément, ce qui impose de désactiver tout autre VPN actif avant d'utiliser Tailscale.
-reviewed: false
+reviewed: true 

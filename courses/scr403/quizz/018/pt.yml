@@ -1,0 +1,13 @@
+question: Como são representados os buffers de comprimento variável no sistema de tipos da Simplicity?
+answer: Como produtos de tipos-opção aninhados, cada camada assinalando um bloco potência-de-dois.
+wrong_answers:
+  - Usando um tipo de array dinâmico especial incorporado diretamente na linguagem.
+  - Através de tipos-soma recursivos que crescem a cada chamada de função.
+  - Como vetores de tamanho fixo preenchidos com valores zero à direita.
+explanation: >-
+  Os buffers usam tipos-opção aninhados. Por exemplo, Xᑉ⁸ expande-se para
+  (1 + X⁴) × ((1 + X²) × (1 + X)), o que, como polinómio, resulta em
+  1 + X + X² + ... + X⁷ — representando coleções de 0 a 7 elementos.
+  Cada camada de opção indica se um bloco potência-de-dois está presente,
+  codificando efetivamente o comprimento em binário.
+reviewed: false

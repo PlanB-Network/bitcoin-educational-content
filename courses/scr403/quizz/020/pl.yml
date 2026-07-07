@@ -1,0 +1,12 @@
+question: "Jakie są dwa efekty uboczne używane w Simplicity w aplikacjach dla Bitcoina i Liquid?"
+answer: "Efekt Failure (wyjątek typu 1) oraz efekt Reader (dostęp do danych środowiska transakcji)."
+wrong_answers:
+  - "Efekt State (zmienne modyfikowalne) oraz efekt Writer (zapisywanie do dziennika transakcji)."
+  - "Efekt IO (komunikacja sieciowa) oraz efekt Memory (dynamiczna alokacja pamięci)."
+  - "Efekt Continuation (wywołania zwrotne) oraz efekt Nondeterminism (wiele ścieżek wykonania)."
+explanation: >-
+  Simplicity używa dokładnie dwóch efektów ubocznych w aplikacjach blockchain. Efekt Failure pozwala
+  obliczeniom przerwać działanie (np. gdy weryfikacja podpisu się nie powiedzie), a efekt Reader pozwala
+  wyrażeniom odczytywać dane ze środowiska transakcji. Podstawowe kombinatory pozostają czyste —
+  efekty uboczne są wprowadzane poprzez jets.
+reviewed: true

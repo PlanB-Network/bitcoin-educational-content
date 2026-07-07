@@ -399,7 +399,7 @@ Saat ini, Anda dapat memiliki pengalaman pengguna yang sangat mirip dengan penga
 
 
 
-Solusi pertama adalah dengan tidak menggunakan Lightning secara native, tetapi menggunakan Bitcoin atau [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet yang menyematkan [pertukaran atom](https://planb.academy/resources/glossary/atomic-swap). Sebagai contoh, aplikasi Aqua atau Bull Bitcoin Wallet menggunakan metode ini, dengan memungkinkan Anda untuk membayar [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) tanpa mengoperasikan node Lightning sendiri, namun tetap berada di dalam tahanan sendiri.
+Solusi pertama adalah dengan tidak menggunakan Lightning secara native, tetapi menggunakan Bitcoin atau [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet yang menyematkan [pertukaran atom](https://planb.academy/resources/glossary/atomic-swap). Sebagai contoh, aplikasi Aqua atau BULL Wallet menggunakan metode ini, dengan memungkinkan Anda untuk membayar [faktur Lightning](https://planb.academy/resources/glossary/invoice-lightning) tanpa mengoperasikan node Lightning sendiri, namun tetap berada di dalam tahanan sendiri.
 
 
 

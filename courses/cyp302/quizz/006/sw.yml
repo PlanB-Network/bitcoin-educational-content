@@ -1,4 +1,4 @@
-question: Ni dhana gani ambayo haihusiani pekee na mifumo ya kriptografia linganifu au asymmetric?
+question: Ni dhana ipi ambayo haihusiani pekee na mifumo ya kriptografia linganifu au isiyolinganifu?
 answer: Kazi za Hash
 wrong_answers:
   - Jozi za funguo za umma na za kibinafsi
@@ -6,4 +6,4 @@ wrong_answers:
   - Siri linganifu
 explanation: |
   Chaguo za kukokotoa za Hash ni sehemu kuu ya usimbaji fiche wa kisasa, lakini hazihusiani mahususi na mipango ya ulinganifu au isiyolingana, tofauti na funguo za umma na za kibinafsi.
-reviewed: false
+reviewed: true

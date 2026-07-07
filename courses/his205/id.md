@@ -55,7 +55,7 @@ Jadi, kita berbicara tentang kemunculan: kemunculan mata uang itu sendiri, siste
 
 
 
-Kita akan memulai perjalanan kita ke dalam proto-mata uang dengan kemunculan uang utang dan unit-unit akun di Mesopotamia, serta sistem lain seperti mas kawin dan uang darah di masyarakat primitif. Kita juga akan melihat bagaimana sistem moneter yang sebenarnya sudah ada di Mesir kuno, jauh sebelum Kerajaan Pertengahan.
+Kita akan memulai perjalanan kita ke dalam mata uang dengan kemunculan uang utang dan unit-unit akun di Mesopotamia, serta sistem lain seperti mas kawin dan uang darah di masyarakat primitif. Kita juga akan melihat bagaimana sistem moneter yang sebenarnya sudah ada di Mesir kuno, jauh sebelum Kerajaan Pertengahan.
 
 
 
@@ -171,7 +171,6 @@ Gambaran umum evolusi manusia dari Australopithecus hingga manusia modern, mengi
 
 
 
-
 - 3 juta tahun yang lalu** - Kemunculan *Australopithecus*.
 - 2 juta tahun yang lalu** - Hominin mulai meninggalkan Afrika.
 - 1.6 juta tahun yang lalu** - Hominin mencapai Eropa selatan dan Asia.
@@ -264,7 +263,7 @@ Dengan semua kerugian ini, siapa yang akan memilih untuk menjadi petani saat itu
 
 
 
-Dalam budaya Natoufian, hingga seratus orang tinggal bersama di desa-desa yang terdiri dari rumah-rumah bundar. Sebuah teori populer yang menjelaskan awal mula pertanian adalah bahwa perubahan ini didorong oleh perubahan iklim. Sekitar 11.000 tahun yang lalu, iklim di Timur Dekat menjadi lebih dingin dan lebih kering dari sebelumnya. Tumbuhan dan hewan yang sebelumnya berlimpah menjadi lebih langka. Masyarakat kemudian mulai membudidayakan tanaman yang menjadi tumpuan hidup mereka, atau memelihara hewan-hewan muda untuk dibesarkan dan diambil manfaatnya, seperti domba, kambing, dan sapi, yang cocok untuk pengembangbiakan seperti itu. Ini merupakan proses yang sangat bertahap. Jadi, tidak ada saat yang tepat ketika mereka semua menjadi petani yang memelihara hewan.
+Dalam budaya Natoufian, hingga seratus orang tinggal bersama di desa-desa yang terdiri dari rumah-rumah bundar. Sebuah teori populer yang menjelaskan awal mula pertanian adalah bahwa perubahan ini dipicu oleh perubahan iklim. Sekitar 11.000 tahun yang lalu, iklim di Timur Dekat menjadi lebih dingin dan lebih kering dari sebelumnya. Tumbuhan dan hewan yang sebelumnya berlimpah menjadi lebih langka. Masyarakat kemudian mulai membudidayakan tanaman yang menjadi tumpuan hidup mereka, atau memelihara hewan-hewan muda untuk dibesarkan dan diambil manfaatnya, seperti domba, kambing, dan sapi, yang cocok untuk pengembangbiakan seperti itu. Ini merupakan proses yang sangat bertahap. Jadi, tidak ada saat yang tepat ketika mereka semua menjadi petani yang memelihara hewan.
 
 
 
@@ -301,7 +300,7 @@ Sedentarisasi bertahap ini menyebabkan transformasi sosial yang mendalam. **Pert
 
 
 
-Tembikar adalah ilustrasi sempurna dari evolusi ini: awalnya dikembangkan untuk menyimpan sereal dan biji-bijian, tembikar menjadi saksi dari kemampuan baru untuk memproyeksikan kebutuhan dari waktu ke waktu. Beberapa ahli prasejarah bahkan menganggap bahwa Neolitikum tidak akan mungkin terjadi tanpa sistem penyimpanan ini.
+Gerabah (tembikar) dengan sempurna menggambarkan perkembangan ini: awalnya dikembangkan untuk menyimpan sereal dan biji-bijian, gerabah menjadi saksi dari kemampuan baru untuk memproyeksikan kebutuhan dari waktu ke waktu. Beberapa ahli prasejarah bahkan menganggap bahwa Neolitikum tidak akan mungkin terjadi tanpa sistem penyimpanan ini.
 
 
 
@@ -348,7 +347,7 @@ Ada beberapa jenis barter:
 
 
 
-**Di antara komunitas yang berbeda, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk proto-mata uang.
+**Di antara komunitas yang berbeda**, tidak adanya ikatan kepercayaan pribadi mendukung munculnya pertukaran yang lebih formal. Barang-barang tertentu secara bertahap memperoleh status khusus melalui kemampuan mereka untuk diminta oleh kelompok-kelompok asing, yang menjadi awal dari bentuk-bentuk mata uang.
 
 
 
@@ -441,25 +440,23 @@ Selama abad-abad pertama keberadaannya, aksara ini masih terbatas, yang pada das
 
 
 
-Awalnya, nama tidak dapat diekspresikan dalam aksara paku karena aksara ini terutama mewakili objek dan elemen realitas, seperti lembu atau gandum, yang digambarkan sebagai gambar kecil. Seiring berjalannya waktu, gambar-gambar ini berevolusi menjadi bentuk aksara yang lebih berkembang, yang memungkinkan untuk merepresentasikan nama dan konsep yang kompleks.
+Awalnya, nama tidak dapat diekspresikan dalam aksara paku karena aksara ini terutama mewakili objek dan elemen realitas, seperti sapi atau gandum, yang digambarkan sebagai gambar kecil. Seiring berjalannya waktu, gambar-gambar ini berevolusi menjadi bentuk aksara yang lebih berkembang, yang memungkinkan untuk merepresentasikan nama dan konsep yang kompleks.
 
 
-Jika nama orang tersebut adalah Laura, misalnya, kita dapat mengambil sebuah kata, sebuah akronim yang terdengar seperti "air" dan kata kedua seperti "ras", dan membentuk nama Laura dengannya. Begitulah bentuk pertama dari bahasa tertulis berkembang.
+Hal ini dicapai melalui prinsip rebus: sebuah tanda untuk suatu objek (misalnya, gambar air) dapat digunakan berdasarkan nilai fonetiknya untuk menulis sebuah kata yang bunyinya mirip (misalnya, sebuah nama), sehingga memungkinkan para juru tulis untuk menyusun kata-kata secara fonetik.
 
 
-Sebagai catatan, untuk merepresentasikan akronim pada awalnya, jika Anda ingin menggambar kepala lembu, Anda bisa melihat bentuk kepala lembu. Sedikit demi sedikit, gambar disederhanakan menjadi tidak lebih dari sekadar garis. Para ahli percaya bahwa hal ini terjadi karena orang memegang tablet tanah liat basah dengan satu tangan, sehingga lebih mudah untuk menggambar ulang inisial dengan memutarnya. Hal ini juga diperkirakan karena cara para juru tulis memegang tablet.
+Pada saat yang sama, piktogram itu sendiri mengalami proses penyederhanaan dan stilisasi. Gambar kepala sapi, misalnya, secara bertahap disederhanakan menjadi serangkaian tanda abstrak berbentuk paku (wedge-shaped). Para ahli percaya bahwa abstraksi ini merupakan penyesuaian praktis terhadap media penulisan; memegang tablet tanah liat basah dengan satu tangan dan menulis menggunakan stylus membuat goresan bersudut dan terukir jauh lebih efisien dibandingkan menggambar bentuk lengkung.
+
+Bahkan dalam bentuk abstraknya, asal-usul piktografis dari banyak tanda tetap dapat dikenali, dan tanda-tanda tersebut memiliki ciri khas yang dipengaruhi oleh teknik penulisan.
 
 
-Anda masih bisa melihat hubungan dengan, misalnya, gandum atau kepala sapi dalam akronim paku, dan selalu condong ke satu sisi.
+Sepanjang tiga milenium penggunaannya, tulisan paku (cuneiform) terutama digunakan untuk mencatat urusan ekonomi dan administrasi. Namun, penduduk Mesopotamia segera mengembangkan keinginan yang kuat untuk mengabadikan segala sesuatu yang layak bertahan melintasi waktu dalam bentuk tulisan. Maka, kisah, legenda, dan lagu-lagu yang sebelumnya disampaikan secara lisan oleh para musisi keliling, diabadikan dalam tulisan, sering kali disalin oleh para juru tulis yang sedang menjalani pelatihan. Mereka menyalin teks-teks yang sudah ada, terutama legenda atau tulisan yang memiliki nilai budaya tertentu.
 
 
-Selama tiga milenium penggunaannya, tulisan paku terutama berfungsi untuk menyimpan catatan ekonomi dan administrasi. Namun, penduduk Mesopotamia segera mengembangkan keinginan mendalam untuk melestarikan segala sesuatu yang layak untuk bertahan dalam ujian waktu dalam bentuk tertulis. Dengan demikian, cerita, legenda, dan lagu-lagu, yang sampai sekarang disampaikan secara lisan oleh para musisi keliling, diabadikan dalam bentuk tulisan, yang sering kali disalin oleh para juru tulis dalam pelatihan. Mereka menyalin teks-teks yang telah ada, terutama legenda atau teks yang memiliki nilai budaya tertentu.
+Salah satu contoh penting adalah Epos Gilgamesh, yang menceritakan kisah seorang raja historis dari negara-kota Sumeria, Uruk, yang kemungkinan memerintah sekitar tahun 2900–2350 SM.
 
-
-Contoh penting adalah **Epos Gilgamesh**, yang mungkin merupakan **raja bersejarah dari negara kota Uruk di Sumeria** sekitar tahun 2900-2350 SM.
-
-
-Bentuk tulisan ini, yang merupakan alat manajemen ekonomi dan vektor budaya, bertahan hingga abad ke-1 Masehi, sebelum menghilang untuk selamanya, meninggalkan kesaksian berharga bagi peradaban yang menjadi saksi kelahirannya.
+Bentuk tulisan ini, yang sekaligus menjadi alat pengelolaan ekonomi dan sarana penyebaran budaya, bertahan hingga abad ke-1 Masehi, sebelum akhirnya menghilang untuk selamanya, meninggalkan kesaksian berharga tentang peradaban yang melahirkannya.
 
 
 
@@ -585,7 +582,7 @@ Ekonomi populer ini, meskipun kurang terdokumentasi dalam arsip resmi, mungkin l
 
 
 
-Syikal perak, yang sering disebut dalam tablet sebagai referensi nilai, mungkin berfungsi sebagai jembatan antara dua sistem ekonomi paralel ini, yang memungkinkan konversi antara utang tertulis dan pembayaran fisik.
+Shekel perak, yang sering disebut dalam tablet sebagai referensi nilai, mungkin berfungsi sebagai jembatan antara dua sistem ekonomi paralel ini, yang memungkinkan konversi antara utang tertulis dan pembayaran fisik.
 
 
 
@@ -597,7 +594,7 @@ Koeksistensi ini menggambarkan perdebatan mendasar dalam sejarah ekonomi: **pert
 
 
 
-Kuil-kuil Sumeria melambangkan ketegangan ini: mereka menggunakan inovasi moneter yang populer (referensi ke syikal) sambil mengembangkan instrumen kontrol mereka sendiri (tablet berhuruf paku). Strategi ini memungkinkan mereka untuk memetik manfaat dari kedua sistem: legitimasi populer dari mata uang tradisional dan kontrol administratif atas utang yang diformalkan.
+Kuil-kuil Sumeria melambangkan ketegangan ini: mereka menggunakan inovasi moneter yang populer (referensi ke shekel) sambil mengembangkan instrumen kontrol mereka sendiri (tablet berhuruf paku). Strategi ini memungkinkan mereka untuk memetik manfaat dari kedua sistem: legitimasi populer dari mata uang tradisional dan kontrol administratif atas utang yang diformalkan.
 
 
 
@@ -746,11 +743,11 @@ Dalam pertukaran ini, ada logam, dan itu adalah logam mulia dan belum tentu, mis
 
 
 
-Upeti dan pajak sebagian besar dibayarkan dalam bentuk barang (jelai atau perak yang ditimbang). Kuil dan istana adalah pusat ekonomi, administrasi, politik dan agama utama, dan juga menjalankan fungsi perbankan pertama melalui penyimpanan barang yang aman, pertama biji-bijian, kemudian produk pertanian lainnya, dan akhirnya logam mulia. Dengan cara ini, operasi kredit dan pinjaman pertama dikembangkan, jauh sebelum kemunculan koin.
+Upeti dan pajak sebagian besar dibayarkan dalam bentuk barang (jelai atau perak yang ditimbang). Kuil dan istana merupakan pusat ekonomi, administrasi, politik, dan keagamaan utama, dan juga menjalankan fungsi perbankan pertama melalui penyimpanan barang yang aman, pertama-tama biji-bijian, kemudian produk pertanian lainnya, dan akhirnya logam mulia. Dengan cara ini, operasi kredit dan pinjaman pertama dikembangkan, jauh sebelum munculnya koin.
 
 
 
-Perekonomian Mesopotamia terutama menggunakan jelai dan perak sebagai standar nilai. Perak ditimbang dalam unit standar, seperti sìqlum (syikal) sekitar 8,33 gram. Pada awal periode Babilonia kuno (di bawah Hammurabi), perak digunakan sebagai alat pembayaran yang umum, dengan gagasan awal tentang nilai nominal ("nūbum") yang bertentangan dengan berat nyata ("šuqulum"), **mengantisipasi konsep mata uang fiat modern**.
+Perekonomian Mesopotamia terutama menggunakan jelai dan perak sebagai standar nilai. Perak ditimbang dalam unit standar, seperti sìqlum (shekel) sekitar 8,33 gram. Pada awal periode Babilonia kuno (di bawah Hammurabi), perak digunakan sebagai alat pembayaran yang umum, dengan gagasan awal tentang nilai nominal ("nūbum") yang bertentangan dengan berat nyata ("šuqulum"), **mengantisipasi konsep mata uang fiat modern**.
 
 
 
@@ -1090,7 +1087,7 @@ Kontras antara organisasi kuno dan abad pertengahan menjelaskan masalah ini. **Z
 
 
 
-Runtuhnya Kekaisaran Romawi menyebabkan fragmentasi radikal: **Era feodal menggantikan organisasi terpusat ini dengan sistem desentralisasi perkebunan swasembada**. Vila-vila Romawi kuno rusticae menjadi matriks seigneuries abad pertengahan, menciptakan mosaik pulau-pulau ekonomi yang hampir swasembada yang dikelola oleh para pendeta atau bangsawan.
+Runtuhnya Kekaisaran Romawi menyebabkan fragmentasi radikal: **Era feodal menggantikan organisasi terpusat ini dengan sistem desentralisasi berupa wilayah-wilayah yang mandiri**. Villa-vila pedesaan Romawi kuno menjadi matriks bagi wilayah-wilayah kekuasaan abad pertengahan, menciptakan mosaik pulau-pulau ekonomi yang hampir mandiri yang dikelola oleh pendeta atau bangsawan.
 
 
 
@@ -1130,7 +1127,7 @@ Untuk mencegah penggunaan uang, Sparta menggunakan batang logam yang berat dan t
 
 
 
-Organisasi Sparta menggambarkan kendala **jumlah Dunbar** yang diterapkan pada skala masyarakat. **Dengan menolak uang sebagai alat tukar yang netral, Sparta mengutuk dirinya sendiri karena membatasi masyarakat sipilnya pada sejumlah kecil warga negara yang mampu mempertahankan hubungan kepercayaan langsung**. Kaum homoioi (warga negara Sparta) hanya mewakili 1% dari total populasi, dikelilingi oleh ribuan hilote (budak).
+Organisasi Sparta menggambarkan keterbatasan **angka Dunbar** yang diterapkan pada skala masyarakat. **Dengan menolak uang sebagai alat tukar yang netral, Sparta mengutuk dirinya sendiri untuk membatasi masyarakat sipilnya pada sejumlah warga negara yang mampu menjaga hubungan kepercayaan langsung.** Kaum homoioi (warga Sparta) hanya mewakili 1% dari total populasi, dikelilingi oleh ribuan helot (budak).
 
 
 
@@ -1423,7 +1420,7 @@ Teknologi pencetakan koin dengan tangan secara individual kemungkinan besar berp
 Pada Abad Pertengahan, ada juga tren penyebaran koin, membuatnya lebih lebar dan tipis. Salah satu alasannya adalah agar lebih mudah untuk menguji suaranya, yang sering digunakan sebagai indikator keasliannya. Dengan menyebarkan perak, frekuensi yang berbeda dihasilkan, sehingga orang dapat memvalidasi kemurnian koin hanya dengan mendengarkannya. Praktik ini melahirkan istilah "uang suara". Dalam konteks uang suara, berat standar ditentukan dengan menggunakan timbangan atau "trebuchet" untuk menimbang. Dengan demikian, evolusi berlanjut dari koin kecil dan bulat menjadi koin yang sedikit lebih tipis dan lebih lebar.
 
 
-### Pemogokan pendulum
+### Pemukulan pendulum
 
 
 Teknologi terakhir yang muncul di akhir Abad Pertengahan, di awal era modern, adalah gagasan tentang pemukul pendulum. Ini adalah semacam sekrup yang dikencangkan untuk memukul koin, sehingga menghasilkan koin dengan bentuk pemukulan yang baru ini. Yang menarik dari perkembangan ini adalah kemampuan untuk mengukir pola pada permukaan koin untuk mengatasi masalah pemotongan. Pemotongan melibatkan pemindahan sebagian koin untuk mendapatkan kembali perak yang berharga, yang kemudian dapat digunakan untuk mencetak koin lain atau disimpan sebagai sumber daya.
@@ -1663,7 +1660,7 @@ Ketiadaan bukti bukanlah bukti ketiadaan, dan para ekonom Austria mengakui bahwa
 
 
 
-Perdebatan yang terjadi adalah mengenai asal usul syikal perak Mesopotamia. Ada dua interpretasi yang berlawanan. Pandangan institusional menyatakan bahwa kuil-kuil - pusat ekonomi dan spiritual yang sebenarnya - menggunakan perak sebagai mata uang untuk menyusun ekonomi. Tablet-tablet berhuruf paku, yang terkonsentrasi di antara para pendeta dan elit pedagang, menjadi saksi dari kontrol terpusat ini.
+Perdebatan yang terjadi adalah mengenai asal usul shekel perak Mesopotamia. Ada dua interpretasi yang berlawanan. Pandangan institusional menyatakan bahwa kuil-kuil - pusat ekonomi dan spiritual yang sebenarnya - menggunakan perak sebagai mata uang untuk menyusun ekonomi. Tablet-tablet berhuruf paku, yang terkonsentrasi di antara para pendeta dan elit pedagang, menjadi saksi dari kontrol terpusat ini.
 
 
 
@@ -1747,7 +1744,7 @@ Ini adalah analisis yang sangat menarik tentang batu Yap. Saifedean Ammous juga 
 
 
 
-Para ahli etnografi di seluruh dunia telah mengamati masyarakat yang menggunakan "proto-mata uang" atau "mata uang primitif", seperti kerang, kain, hewan ternak, garam, dan batu, yang memenuhi fungsi-fungsi yang biasanya dikaitkan dengan uang, seperti alat pembayaran dan penyimpan nilai, tanpa secara teratur bertindak sebagai perantara dalam pertukaran barang sehari-hari.
+Para ahli etnografi di seluruh dunia telah mengamati masyarakat yang menggunakan "mata uang" atau "mata uang primitif", seperti kerang, kain, hewan ternak, garam, dan batu, yang memenuhi fungsi-fungsi yang biasanya dikaitkan dengan uang, seperti alat pembayaran dan penyimpan nilai, tanpa secara teratur bertindak sebagai perantara dalam pertukaran barang sehari-hari.
 
 
 
@@ -1755,7 +1752,7 @@ Jadi, di sini kami menjelaskan sistem moneter yang tidak selalu digunakan untuk 
 
 
 
-Dan saya ingin mengingatkan Anda bahwa ini semua adalah mata uang sebelum munculnya koin, dan saya tidak tahu seberapa besar kekeliruan untuk mengatakan mata uang. Saya lebih suka menyebutnya mata uang. Saya dapat menyebutkan bahwa dalam literatur, kita sering berbicara tentang proto-mata uang untuk merujuk pada uang sebelum koin. Namun seperti yang kita lihat di bagian pertama, **Saya percaya bahwa ada sistem moneter jauh sebelum kemunculan koin**.
+Dan saya ingin mengingatkan Anda bahwa ini semua adalah mata uang sebelum munculnya koin, dan saya tidak tahu seberapa besar kekeliruan untuk mengatakan mata uang. Saya lebih suka menyebutnya mata uang. Saya dapat menyebutkan bahwa dalam literatur, kita sering berbicara tentang mata uang untuk merujuk pada uang sebelum koin. Namun seperti yang kita lihat di bagian pertama, **Saya percaya bahwa ada sistem moneter jauh sebelum kemunculan koin**.
 
 
 
@@ -1763,7 +1760,7 @@ Mata uang primitif ini terutama digunakan untuk mengatur kewajiban sosial mendas
 
 
 
-Oleh karena itu, uang primitif memiliki satu karakteristik penting: uang adalah alat pembayaran, tetapi sangat jarang menjadi alat pertukaran langsung untuk barang-barang material. Yang kami maksudkan di sini adalah bahwa uang adalah alat pembayaran untuk kewajiban sosial tertentu, untuk suku-suku, untuk pertukaran antara kepala suku, wergeld yang terkenal, uang darah. Sebelum munculnya sistem peradilan, jika seseorang melakukan pembunuhan, ada ganti rugi bagi keluarga yang menderita akibat pembunuhan orang yang mereka cintai. Ada harga yang harus dibayar untuk hal ini, yang disebut uang darah dan merupakan bentuk pembayaran. Ada juga mas kawin, yang juga merupakan bentuk pembayaran. Dalam penggunaan awal uang sebagai bentuk pembayaran, uang lebih terkait dengan kewajiban manusia dan sosial daripada pembayaran untuk pembelian sehari-hari. Menurut teori ini, pertukaran sehari-hari yang lebih umum ini lebih terkait dengan kredit, kredit yang ditangguhkan, hadiah untuk hadiah, dan redistribusi jatah. Ada bentuk lain dari organisasi sosial untuk mengelola pertukaran ini. Penting juga untuk diingat bahwa, dalam masyarakat di mana setiap orang mandiri, melakukan pertanian sendiri, tidak ada spesialisasi, dan hanya ada sedikit kebutuhan akan sistem moneter untuk pertukaran sehari-hari. Dan itulah mengapa bentuk pertama uang adalah apa yang baru saja kita jelaskan, mas kawin, uang darah, hanya karena ini adalah pertukaran pertama di mana kita membutuhkan alat pembayaran, jauh sebelum kita perlu berdagang, untuk menukar roti dengan uang setiap hari, karena dalam masyarakat primitif, tidak bekerja seperti itu. Setiap orang memenuhi kebutuhannya sendiri, dan belum ada spesialisasi. Saya rasa saya telah membahas hal ini secara panjang lebar di semua kuliah sebelumnya dalam kursus ini.
+Uang primitif karena itu memiliki satu ciri utama: ia berfungsi sebagai alat pembayaran, tetapi sangat jarang digunakan sebagai alat tukar langsung untuk barang-barang material. Ini berarti uang digunakan sebagai sarana pembayaran untuk kewajiban sosial tertentu, seperti wergeld (kompensasi konflik) atau mahar. Dalam masyarakat yang belum memiliki sistem peradilan formal, pembayaran seperti “uang darah” merupakan bentuk ganti rugi atas pembunuhan, sementara mahar berfungsi mengatur aliansi pernikahan. Fungsi-fungsi moneter ini terkait dengan kewajiban sosial, bukan transaksi komersial. Pertukaran sehari-hari yang umum dikelola melalui sistem utang-piutang, ekonomi hadiah, dan redistribusi sosial. Spesialisasi yang masih sangat terbatas dalam masyarakat yang mandiri ini membuat kebutuhan akan alat tukar moneter untuk perdagangan harian menjadi sangat kecil. Kebutuhan akan alat pembayaran pertama-tama muncul untuk fungsi-fungsi sosial yang krusial ini, jauh sebelum diperlukan untuk pertukaran komersial.
 
 
 
@@ -1775,7 +1772,7 @@ Para antropolog seperti Quiggin dan Einzig bersikeras pada keunggulan kredit: **
 
 
 
-Jadi, orang menukar barang, dapat membuat kredit yang ditangguhkan, tetapi dalam beberapa kasus, Anda tidak dapat menangguhkan pembayaran, sehingga mata uang atau proto-mata uang dapat berguna pada saat ini untuk mendapatkan finalitas langsung pada pertukaran.
+Jadi, orang menukar barang, dapat membuat kredit yang ditangguhkan, tetapi dalam beberapa kasus, Anda tidak dapat menangguhkan pembayaran, sehingga mata uang dapat berguna pada saat ini untuk mendapatkan finalitas langsung pada pertukaran.
 
 
 
@@ -1870,11 +1867,11 @@ Jadi, hal ini sekali lagi dijelaskan dengan sangat baik dalam Standar Bitcoin di
 
 
 
-Itu adalah poin yang sangat menarik, dan salah satu yang telah saya dan Ulrich diskusikan. Bahkan jika bait suci di Mesopotamia adalah semacam otoritas yang dapat mengatur gagasan kredit ini, unit perhitungannya adalah syikal. Tidak ada yang bisa memastikan bahwa syikal ditetapkan secara otoritatif oleh bait suci. Syikal bisa saja muncul secara alamiah, melalui kebutuhan para pedagang untuk mengimpor dan mengekspor dengan orang-orang lain di sekitarnya. Kita memiliki bukti akan hal ini, dalam bentuk seorang pedagang di Kanesh (saya telah menyebutkan hal ini di Bagian 1) yang melakukan hal tersebut, mengimpor logam mulia yang tidak digunakan untuk nilai komoditas fisiknya, melainkan sebagai penyimpan nilai. Satu-satunya masalah adalah kita tidak tahu apakah kita dapat berasumsi bahwa pilihan perak ini, yaitu syikal perak, dibuat oleh para pedagang, atau apakah itu dibuat oleh bait suci. Namun Ulrich memiliki argumen yang sangat bagus yang membuat kita berpikir bahwa kemungkinan besar hal itu dibuat oleh para pedagang.
+Itu adalah poin yang sangat menarik, dan salah satu yang telah saya dan Ulrich diskusikan. Bahkan jika bait suci di Mesopotamia adalah semacam otoritas yang dapat mengatur gagasan kredit ini, unit perhitungannya adalah shekel. Tidak ada yang bisa memastikan bahwa shekel ditetapkan secara otoritatif oleh bait suci. Shekel bisa saja muncul secara alamiah, melalui kebutuhan para pedagang untuk mengimpor dan mengekspor dengan orang-orang lain di sekitarnya. Kita memiliki bukti akan hal ini, dalam bentuk seorang pedagang di Kanesh (saya telah menyebutkan hal ini di Bagian 1) yang melakukan hal tersebut, mengimpor logam mulia yang tidak digunakan untuk nilai komoditas fisiknya, melainkan sebagai penyimpan nilai. Satu-satunya masalah adalah kita tidak tahu apakah kita dapat berasumsi bahwa pilihan perak ini, yaitu shekel perak, dibuat oleh para pedagang, atau apakah itu dibuat oleh bait suci. Namun Ulrich memiliki argumen yang sangat bagus yang membuat kita berpikir bahwa kemungkinan besar hal itu dibuat oleh para pedagang.
 
 
 
-*"Dengan demikian, penyatuan kedua teori tersebut dapat digambarkan sebagai "teori akuntansi uang" ("teori buku besar uang") karena teori ini menggambarkan logika dasar yang sama untuk kedua teori tersebut. Baik kredit sosial yang fleksibel maupun proto-mata uang yang dapat ditagih sudah ada sejak awal mula manusia. Dalam kedua kasus tersebut, kelompok manusia dengan berbagai ukuran menyimpan buku besar akuntansi di antara mereka sendiri untuk menghindari keharusan memenuhi keinginan yang bertubi-tubi, mengurangi gesekan dalam pertukaran, dan berfungsi sebagai bentuk tabungan likuid. Perbedaan mendasar terletak pada otoritas yang dipercayakan untuk menyimpan catatan tersebut. "*
+*"Dengan demikian, penyatuan kedua teori tersebut dapat digambarkan sebagai "teori akuntansi uang" ("teori buku besar uang") karena teori ini menggambarkan logika dasar yang sama untuk kedua teori tersebut. Baik kredit sosial yang fleksibel maupun mata uang yang dapat ditagih sudah ada sejak awal mula manusia. Dalam kedua kasus tersebut, kelompok manusia dengan berbagai ukuran menyimpan buku besar akuntansi di antara mereka sendiri untuk menghindari keharusan memenuhi keinginan yang bertubi-tubi, mengurangi gesekan dalam pertukaran, dan berfungsi sebagai bentuk tabungan likuid. Perbedaan mendasar terletak pada otoritas yang dipercayakan untuk menyimpan catatan tersebut. "*
 
 
 
@@ -2151,7 +2148,7 @@ Alasan ini bertentangan dengan gagasan klasik tentang uang sebagai "komoditas pe
 
 
 
-Yang mengganggu saya tentang teori ini adalah bahwa teori ini menyatakan bahwa uang selalu merupakan utang, ketika kita memiliki contoh pertukaran antara dua suku yang berbeda yang, misalnya, menukar emas, di mana transaksi tersebut bersifat final dan tidak ada utang laten yang tersisa. Para pendukung teori ini akan sering mengatakan bahwa pertukaran ini bukanlah pertukaran uang, melainkan barter. Seperti yang telah disebutkan, saya tidak setuju. Ini adalah pertukaran moneter, karena emas tidak akan dikonsumsi; emas akan digunakan sebagai uang.
+Salah satu titik perdebatan dalam teori ini adalah pernyataannya bahwa uang selalu merupakan bentuk utang, terutama jika kita melihat contoh pertukaran emas antar suku yang berbeda, di mana transaksi tersebut bersifat final dan tidak meninggalkan utang tersisa. Para pendukung teori ini akan sering mengatakan bahwa pertukaran ini bukanlah pertukaran uang, melainkan barter. Seperti yang telah disebutkan, saya tidak setuju. Ini adalah pertukaran moneter, karena emas tidak akan dikonsumsi; emas akan digunakan sebagai uang.
 
 
 
@@ -2603,7 +2600,7 @@ Kekaisaran Athena, terlepas dari namanya yang megah, secara geografis tetap sede
 
 
 
-Mempertahankan armada adalah inti dari kebutuhan moneter ini. Satu kapal trireme Athena berharga antara satu hingga dua talenta perak - jumlah yang cukup besar. Dengan beberapa ratus kapal yang harus dipelihara, Athena membutuhkan sistem pajak yang efisien. Mata uang menjadi alat yang sangat diperlukan untuk mengumpulkan upeti dari kota-kota bawahan dan membiayai kekuatan proyeksi angkatan laut yang menjamin kohesi kekaisaran.
+Memelihara armada laut merupakan inti dari kebutuhan moneter ini. Satu kapal perang Athena (trireme) berharga antara satu hingga dua talenta perak — jumlah yang sangat besar. Dengan ratusan kapal yang harus dipelihara, Athena membutuhkan sistem pajak yang efisien. Mata uang pun menjadi alat yang tak tergantikan untuk mengumpulkan upeti dari kota-kota taklukan dan membiayai kekuatan laut yang menjamin kesatuan kekaisaran.
 
 
 
@@ -2859,10 +2856,10 @@ Periode yang ditandai dengan ketidakstabilan politik, dengan banyak kaisar yang 
 
 
 
-**301 MASEHI: Dekrit Harga Diokletianus**
+**301 MASEHI: Dekrit Harga Diocletian**
 
 
-Kaisar Diocletianus mencoba menghentikan inflasi yang merajalela dengan memberlakukan kontrol harga dan upah yang ketat di seluruh kekaisaran.
+Kaisar Diocletian mencoba menghentikan inflasi yang merajalela dengan memberlakukan kontrol harga dan upah yang ketat di seluruh kekaisaran.
 
 
 
@@ -2928,19 +2925,16 @@ Pada bagian ini, saya akan memperkenalkan bagian terakhir dari bagian ini: Anton
 
 
 
-Menghadapi situasi ini, Kaisar Aurelian (270-275 M) berusaha untuk menstabilkan sistem dengan melakukan revaluasi mata uang secara nominal, tetapi reformasi ini sebenarnya memperkenalkan mekanisme inflasi dengan menetapkan nilai mata uang yang ada secara artifisial pada tingkat yang lebih tinggi.
+Menghadapi situasi ini, Kaisar Aurelian (270-275 M) berupaya menstabilkan sistem dengan melakukan revaluasi nominal mata uang, **tetapi reformasi ini sebenarnya memperkenalkan mekanisme inflasi dengan menetapkan nilai mata uang yang ada secara artifisial pada tingkat yang lebih tinggi.**
 
 
-Saya akan memperkenalkan sebuah penyimpangan pada subjek ini. Selama abad ke-3, inflasi mengalami peningkatan eksponensial yang cepat. Sebelumnya, meskipun koin didevaluasi, proses pencetakan koin secara manual satu per satu memberikan kontrol terhadap inflasi. Statistik menunjukkan bahwa selama 300 tahun devaluasi, inflasi rata-rata sekitar 4% per tahun. Tepat sebelum reformasi Aurelian, inflasi sekitar 3% per tahun.
+
+Reformasi Aurelian menandai perubahan signifikan dari metode devaluasi sebelumnya. Alih-alih secara bertahap mengurangi kandungan logam mulia pada koin yang baru dicetak, ia menarik kembali koin yang ada dengan kemurnian lebih rendah dan mencapnya dengan tanda baru (XXI), yang menunjukkan nilai nominal yang lebih tinggi. Revaluasi ini memicu peningkatan inflasi secara eksponensial, dengan tingkat inflasi mencapai sekitar 20% per tahun, sangat kontras dengan rata-rata sebelum reformasi sekitar 3-4%.
 
 
-Aurelian memperkenalkan pengukuran kemurnian pada koin tanda XXI, yang menunjukkan komposisi 20 bagian perunggu dan 1 bagian perak, atau kemurnian 5%. Dia memasarkan koin perak 5% ini dan mencap tanda XXI pada koin tersebut. Namun, dia juga menarik semua koin lainnya yang lebih rendah nilainya dan memberi cap XXI yang sama pada koin-koin tersebut. Hal ini secara efektif merevaluasi nilai nominal semua koin. Hasilnya adalah tingkat inflasi yang mengejutkan sebesar 20% per tahun, jauh melebihi tingkat inflasi sebelumnya yang hanya 3% sebelum teknik ini diterapkan.
 
+Devaluasi ekstrem ini diilustrasikan secara visual oleh tetradrachm Mesir. Di bawah pendudukan Romawi pada abad ke-3, koin ini, yang setara dengan denarius, direndahkan menjadi komposisi billon atau perunggu. Ini sangat kontras dengan tetradrachm Yunani dengan kemurnian tinggi dari abad-abad sebelumnya. Kerusakan fisik koin tersebut mencerminkan kemerosotan ekonomi, dengan harga biji-bijian di Mesir meningkat satu juta kali lipat selama periode 300 tahun ini.
 
-Aurelian-lah yang menemukan bentuk devaluasi ini, yang jauh lebih cepat daripada devaluasi logam secara bertahap, yang masih memaksa kita untuk mencetak koin satu per satu. Apa yang dia lakukan adalah mengambil semua koin yang ada, menariknya kembali dan mencapnya dengan pukulan untuk mengubah nilai nominalnya. Ini adalah titik balik yang nyata. Saat itulah inflasi menjadi eksponensial.
-
-
-Untuk mengilustrasikan secara visual devaluasi yang ekstrem ini, saya telah menemukan beberapa statistik menarik tentang harga biji-bijian di Mesir dari tahun 40 SM hingga abad ke-3, yang mencakup lebih dari 300 tahun. Di bawah ini, Anda bisa melihat tetradrachma Yunani dari koleksi saya. Pada saat itu, di Mesir di bawah pendudukan Romawi pada abad ke-3, padanannya adalah tetradrachma Mesir. Denominasi drachma masih digunakan, dan setara dengan satu dinar.
 
 
 ![image](assets/id/022.webp)
@@ -2951,46 +2945,46 @@ Untuk mengilustrasikan secara visual devaluasi yang ekstrem ini, saya telah mene
 
 
 
-Jadi tetradrachm Mesir yang saya miliki setara dengan satu dinar. Anda bisa melihat bahwa koin ini terbuat dari billon (atau perunggu), jadi tidak mengandung logam mulia. Anda bisa membandingkannya dengan tetradrachm Yunani asli untuk melihat devaluasi fisik selama 300 tahun ini. Ini adalah kenaikan jutaan kali lipat dalam harga biji-bijian di Mesir.
-
-
-Ini adalah ekspresi fisik dari reformasi Aurelian. Perlu dicatat bahwa mayoritas, rata-rata inflasi selama 300 tahun ini adalah sekitar 4%. Baru pada akhirnya, ketika Aurelian melakukan reformasi, inflasi ini menjadi agak eksponensial dan kita sampai pada ukuran 1 juta. Harga-harga sejuta kali lebih tinggi pada akhir abad ke-3 dibandingkan pada abad ke-1 SM.
-
-
-Penggantinya, Diocletianus (284-305 M), mencoba melakukan reformasi yang lebih radikal: ia mengeluarkan mata uang baru (terutama argenteus, yang lebih murni namun jumlahnya sangat terbatas), memberlakukan kontrol harga yang drastis (Dekrit Harga 301 M), dan menerapkan sistem pajak yang didasarkan pada pembayaran barang dan jasa. Terlepas dari upaya-upaya ini, reformasi Diocletianus gagal mengekang inflasi yang merajalela.
+Penerusnya, **Diocletian** (284-305 M), mencoba reformasi yang lebih radikal: ia mengeluarkan mata uang baru (terutama argenteus, lebih murni tetapi jumlahnya terlalu terbatas), memberlakukan kontrol harga yang drastis (Dekrit Harga tahun 301 M) dan **menetapkan sistem pajak berdasarkan pembayaran dalam bentuk barang**. Terlepas dari upaya-upaya ini, reformasi Diocletian gagal mengekang inflasi yang merajalela.
 
 
 
-Menghadapi penolakan untuk memasok barang dan jasa dengan imbalan mata uang yang didevaluasi, Diocletianus melembagakan **sistem kasta turun-temurun** untuk mengikat para petani dan keturunan mereka ke tanah mereka.
+Menghadapi penolakan rakyat untuk menyediakan barang dan jasa sebagai imbalan atas mata uang yang terdevaluasi, Diocletian melembagakan **sistem kasta turun-temurun** untuk mengikat petani dan keturunan mereka pada tanah mereka.
 
 
 
-Apa yang benar-benar perlu dipahami di sini adalah bahwa apa yang terjadi adalah bahwa para petani menolak untuk menyerahkan hasil panen mereka dengan imbalan mata uang yang didevaluasi, dan tanggapan Diocletianus yang terkasih adalah menciptakan **kasta-kasta turun-temurun** dengan mengatakan "Anda, Anda tidak dapat meninggalkan tanah Anda, anak-anak Anda tidak dapat meninggalkan tanah mereka, hal yang sama untuk para prajurit, Anda adalah prajurit, Anda setuju untuk dibayar dengan mata uang saya". Sebagai solusi transisi, mereka dibayar dalam bentuk barang (daging, makanan, biji-bijian) karena dia menolak memberi mereka uang. Jadi dia memberlakukan sistem kasta turun-temurun ini untuk memaksa orang terikat pada perdagangan mereka, sehingga mereka tidak bisa begitu saja berganti pekerjaan jika mereka tidak mau menerima mata uang yang terdevaluasi.
-
-
-Untuk mengilustrasikan contoh ini, berikut ini saya memiliki sebuah teks, sebuah kutipan dari buku "*Regime Moneter dan Inflasi*":
+Inti dari krisis tersebut adalah rusaknya kepercayaan: petani menolak untuk menyerahkan hasil panen mereka dengan uang yang mereka tahu tidak berharga. Tanggapan Diocletian bersifat radikal dan memaksa. Ia secara efektif menciptakan **kasta turun-temurun**, menetapkan bahwa seorang petani tidak dapat meninggalkan tanahnya, begitu pula anak-anaknya. Logika yang sama diterapkan pada tentara, yang sekarang diwajibkan untuk menerima pembayaran dalam mata uang negara yang terdevaluasi. Untuk membuat hal ini lebih mudah diterima, negara sering kali menggunakan pembayaran dalam bentuk barang—daging, makanan, dan biji-bijian—daripada uang tunai. Sistem ini dirancang untuk mengikat orang agar tetap pada profesi mereka, mencegah mereka meninggalkan pekerjaan sebagai protes terhadap uang yang tidak berharga.
 
 
 
-> Karena orang tidak mau bekerja dan mengirimkan barang dengan mata uang yang didevaluasi, yang nilai nominalnya lebih tinggi daripada nilai intrinsik atau nilai pasarnya, mereka harus dipaksa untuk bekerja dengan membebankan pajak dalam bentuk barang. [...] Menjadi ilegal bagi para petani untuk meninggalkan rumah mereka yang terdaftar. Dengan demikian, penduduk petani secara turun-temurun terikat pada tanah.
+Kebijakan ini dijelaskan dalam buku "*Rezim Moneter dan Inflasi*":
+
+
+
+> Karena orang-orang tidak mau bekerja dan mengirimkan barang dengan imbalan mata uang yang terdevaluasi, yang nilai nominalnya lebih tinggi daripada nilai intrinsik atau nilai pasarnya, mereka harus dipaksa untuk bekerja dengan mengenakan pajak dalam bentuk barang. [...] Menjadi ilegal bagi petani untuk meninggalkan rumah terdaftar mereka. Dengan demikian, penduduk pertanian menjadi terikat secara turun-temurun pada tanah.
+
+
+
 >
 
-
-> Sistem kasta turun-temurun ini berangsur-angsur menyebar: Diokletianus memaksa anak laki-laki tentara untuk mengabdi di ketentaraan, sementara para pekerja di bengkel-bengkel uang, serta di pabrik-pabrik tenun dan pencelupan yang didirikan Diokletianus, menjadi budak negara, dengan layanan turun-temurun. Para penambang emas juga kemudian menjadi kasta turun-temurun. Kelas-kelas turun-temurun lainnya mungkin sudah ada pada masa Diocletianus, terutama serikat tukang roti dan tukang daging [...] di Roma, serta serikat-serikat keuskupan para kapten kapal yang mengangkut biji-bijian dan kargo publik lainnya ke Roma.
-
-Konstantinus (306-337 M) yang akhirnya berhasil menstabilkan sistem moneter dengan memperkenalkan solidus pada tahun 312, sebuah koin emas murni yang kualitas dan beratnya sangat terjamin. Ada sistem yang memverifikasi kemurnian dan berat solidus. **Namun, stabilitas ini hanya memengaruhi kalangan elit kaya dan pemerintahan kekaisaran, sementara **mayoritas penduduk terus menderita akibat mata uang berkualitas rendah dan inflasi yang terus-menerus**. Solidus tetap stabil di Kekaisaran Timur (Bizantium), di mana ia bertahan selama lebih dari satu milenium, sementara di Barat, mata uang terfragmentasi menjadi koin-koin kecil bernilai rendah, menyertai disintegrasi ekonomi dan politik akhir Kekaisaran Romawi, yang jatuh secara definitif pada tahun 476 Masehi.
+> Sistem kasta turun-temurun ini secara bertahap menyebar: Diocletian memaksa putra-putra tentara untuk bertugas di angkatan darat, sementara pekerja di bengkel uang, serta di pabrik tenun dan pewarnaan yang didirikan Diocletian, menjadi budak negara, dengan layanan turun-temurun. Penambang emas juga kemudian menjadi kasta turun-temurun. Kelas-kelas turun-temurun lainnya mungkin sudah ada pada masa Diocletian, terutama serikat tukang roti dan tukang daging [...] di Roma, serta serikat keuskupan kapten kapal yang mengangkut gandum dan barang-barang umum lainnya ke Roma.
 
 
 
-Sebagai penutup, saya ingin berbagi dengan Anda kutipan dari *A History of Money* oleh Glyn Davies, yang merangkum sejarah uang: Dari Zaman Kuno hingga Hari Ini* oleh Glyn Davies, yang dengan sangat baik merangkum apa yang mungkin menyebabkan kejatuhan Roma:
+Konstantinus (306-337 M) akhirnya berhasil menstabilkan sistem moneter dengan memperkenalkan solidus pada tahun 312, koin emas murni yang kualitas dan beratnya dijamin secara ketat. Sebuah sistem lengkap untuk memverifikasi kemurnian dan berat solidus pun didirikan. **Namun, stabilitas ini hanya memengaruhi elit kaya dan administrasi kekaisaran**, sementara **mayoritas penduduk terus menderita akibat mata uang berkualitas rendah dan inflasi yang terus-menerus**. Solidus tetap stabil di Kekaisaran Romawi Timur (Bizantium), di mana ia bertahan selama lebih dari satu milenium, sementara di Barat, mata uang terpecah menjadi koin-koin kecil bernilai rendah, seiring dengan disintegrasi ekonomi dan politik terakhir Kekaisaran Romawi, yang akhirnya runtuh pada tahun 476 M.
 
 
 
-*"Pajak secara konsisten tidak memadai, dan kesulitan yang terkait dengan pajak yang semakin tidak memadai, terlambat disesuaikan, dan sangat terlihat ini mendorong Roma untuk lebih mengandalkan bentuk perpajakan yang mudah, langsung, dan tersembunyi: devaluasi mata uang. Reformasi ad hoc yang berumur pendek gagal membalikkan tren kemunduran yang sudah berlangsung lama ini. Tekanan keuangan yang disebabkan oleh keausan koin, karamnya kapal, kebocoran uang karena pembelian barang-barang mewah dari Timur, hadiah yang ditawarkan kepada orang-orang barbar Jermanik, pertumbuhan populasi perkotaan, penurunan produksi pertanian, kelelahan bertahap dari tambang-tambang terkaya, dan di atas semua itu, kebijakan "roti dan sirkus" yang dianggap penting untuk menjaga ketertiban minimum dalam kehidupan perkotaan - semua tekanan kumulatif ini membawa Roma pada devaluasi moneter yang terus-menerus, diselingi dengan reformasi sesekali yang pasti gagal. "*
+
+Sebagai kesimpulan, kutipan dari buku Glyn Davies *A History of Money: From Ancient Times to the Present Day* ini dengan piawai merangkum faktor-faktor yang menyebabkan kejatuhan Roma:
 
 
 
-*Selain roti dan anggur gratis atau murah, liberalitas kekaisaran ("congiaria") dalam bentuk alokasi moneter didistribusikan dari waktu ke waktu, terutama di bawah Trajan (98-117 M) dan bahkan lebih lagi di bawah Hadrian (117-138 M) dan para penerusnya. Apa yang pada awalnya dianggap kaisar dan warga negara sebagai hak istimewa yang luar biasa, pada awal abad ke-2, telah menjadi harapan yang lazim. Pembagian-pembagian ini "menjadi beban berat bagi perbendaharaan publik dan dengan sendirinya berkontribusi pada kebangkrutan negara. "*
+*"Pajak secara konsisten tidak memadai, dan kesulitan yang terkait dengan pajak yang semakin tidak memadai, terlambat disesuaikan, dan sangat terlihat ini mendorong Roma untuk lebih mengandalkan bentuk pajak yang mudah, langsung, dan tersembunyi: devaluasi mata uang. Reformasi ad hoc yang berumur pendek gagal membalikkan tren penurunan yang sudah berlangsung lama ini. Tekanan keuangan yang disebabkan oleh keausan koin, kapal karam, kebocoran uang karena pembelian barang mewah dari Timur, hadiah yang diberikan kepada orang barbar Jermanik, pertumbuhan populasi perkotaan, penurunan produksi pertanian, penipisan bertahap tambang terkaya, dan di atas segalanya kebijakan "roti dan sirkus" yang dianggap penting untuk menjaga ketertiban minimum dalam kehidupan perkotaan - semua tekanan kumulatif ini menyebabkan Roma melakukan devaluasi moneter secara terus-menerus, diselingi dengan reformasi sesekali yang ditakdirkan untuk gagal."*
+
+
+
+*Selain gratis atau murah* Roti dan anggur, serta kemurahan hati kekaisaran ("congiaria") dalam bentuk alokasi uang, didistribusikan dari waktu ke waktu, khususnya pada masa pemerintahan Trajan (98-117 M) dan terlebih lagi pada masa pemerintahan Hadrian (117-138 M) dan para penerusnya. Apa yang awalnya dianggap kaisar dan warga negara sebagai hak istimewa yang luar biasa, pada awal abad ke-2 telah menjadi harapan yang lazim. Distribusi ini "menjadi beban berat bagi kas negara dan dengan caranya sendiri berkontribusi pada kebangkrutan negara".*
 
 
 
@@ -3064,7 +3058,7 @@ Sebuah contoh yang mencolok dari efek reformasi oleh Aurelian ini diilustrasikan
 
 
 
-*"Sejak tanggal ini dan seterusnya, inflasi perlahan-lahan meningkat, karena **uang yang baik pertama kali dikeluarkan dari peredaran**, sehingga jumlah uang beredar hampir tidak meningkat sama sekali pada awalnya. Selanjutnya, inflasi mencapai tingkat rata-rata tahunan sebesar **3,65% antara tahun 250 dan 293**, meningkat menjadi **22,28% antara tahun 293 dan 301** (Wassink 1991, hlm. 466), yaitu sampai dengan **reformasi moneter yang digagalkan oleh Kaisar Diocletianus**. Fenomena ini **sangat mengesankan untuk inflasi dalam rezim moneter berbasis logam**. "*
+*"Sejak tanggal ini dan seterusnya, inflasi perlahan-lahan meningkat, karena **uang yang baik pertama kali dikeluarkan dari peredaran**, sehingga jumlah uang beredar hampir tidak meningkat sama sekali pada awalnya. Selanjutnya, inflasi mencapai tingkat rata-rata tahunan sebesar **3,65% antara tahun 250 dan 293**, meningkat menjadi **22,28% antara tahun 293 dan 301** (Wassink 1991, hlm. 466), yaitu sampai dengan **reformasi moneter yang digagalkan oleh Kaisar Diocletian**. Fenomena ini **sangat mengesankan untuk inflasi dalam rezim moneter berbasis logam**. "*
 
 
 
@@ -3125,7 +3119,7 @@ Konstantinus (310-337) berusaha menstabilkan kekaisaran melalui reformasi radika
 
 
 
-Pada saat yang sama, orang-orang menggunakan nummus perunggu, yang secara konstan mengalami penurunan nilai. Pada tahun 445, sebuah solidus bernilai 7.000 nummi; pada tahun 498, 16.800 nummi. Sistem ganda ini melembagakan efek Kanton: mereka yang memiliki akses ke solidus - pemerintah, pemilik tanah - dilindungi dari inflasi. Rakyat jelata, yang terbatas pada nummus, menjadi semakin miskin.
+Pada saat yang sama, rakyat menggunakan nummus perunggu, yang nilainya terus-menerus terdevaluasi. Pada tahun 445, satu solidus bernilai 7.000 nummus; pada tahun 498, nilainya menjadi 16.800. Sistem ganda ini melembagakan efek Cantillon: mereka yang memiliki akses ke solidus - pemerintah, pemilik tanah - terlindungi dari inflasi. Rakyat jelata, yang terikat pada nummus, menjadi semakin miskin.
 
 
 
@@ -3145,7 +3139,7 @@ Menghadapi disintegrasi ini, penduduk kota melarikan diri ke pedesaan - sebuah e
 
 
 
-Dalam keputusasaan, Diocletianus bahkan menuntut pajak dalam bentuk barang - sebuah pengakuan akhir dari kegagalan moneter. Dekritnya yang maksimum (301) berusaha mengendalikan harga, mempercepat kembalinya barter. Kompleksitas ekonomi mengalami kemunduran ke bentuk-bentuk pra-peradaban.
+Dalam keputusasaan, Diocletian bahkan menuntut pajak dalam bentuk barang - sebuah pengakuan akhir dari kegagalan moneter. Dekritnya yang maksimum (301) berusaha mengendalikan harga, mempercepat kembalinya barter. Kompleksitas ekonomi mengalami kemunduran ke bentuk-bentuk pra-peradaban.
 
 
 
@@ -3781,7 +3775,7 @@ Mari kita bahas tentang Perang Saudara di Amerika sekarang. Pihak Konfederasi me
 
 
 
-Lawan mereka di utara juga memiliki dolar. Tepat di atas, Anda dapat melihat dolar Konfederasi, sementara di bawah Anda dapat mengamati dolar Utara. Uang ini disebut "greenback" karena bagian belakangnya berwarna hijau.
+Pihak oposisi dari Utara mengeluarkan mata uang mereka sendiri, yang dikenal sebagai "greenback" karena warna di bagian belakang uang kertas tersebut seperti yang ditunjukkan di bawah ini.
 
 
 
@@ -4024,7 +4018,7 @@ Selama Revolusi Perancis, mereka menyita semua aset Gereja. Mereka melihat koin-
 
 
 
-Jika kita kembali lebih jauh lagi, salah satu gagasan yang paling eksplisit tentang kekerasan ekonomi dan kebebasan, tentang hukum yang membebaskan, adalah **Diokletianus dengan kasta turun-temurunnya yang secara langsung berkaitan dengan fakta bahwa para petani tidak lagi mau menerima mata uang yang terdevaluasi**. Mereka ingin meninggalkan pekerjaan mereka sebagai petani, dan Diocletianus bereaksi dengan mengatakan kepada mereka, "Anda tidak bisa meninggalkan tanah Anda, dan begitu juga dengan anak-anak Anda". Hal yang sama juga berlaku untuk para prajurit.
+Jika kita kembali lebih jauh lagi, salah satu gagasan yang paling eksplisit tentang kekerasan ekonomi dan kebebasan, tentang hukum yang membebaskan, adalah **Diocletian dengan kasta turun-temurunnya yang secara langsung berkaitan dengan fakta bahwa para petani tidak lagi mau menerima mata uang yang terdevaluasi**. Mereka ingin meninggalkan pekerjaan mereka sebagai petani, dan Diocletian bereaksi dengan mengatakan kepada mereka, "Anda tidak bisa meninggalkan tanah Anda, dan begitu juga dengan anak-anak Anda". Hal yang sama juga berlaku untuk para prajurit.
 
 
 

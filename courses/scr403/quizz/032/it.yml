@@ -1,0 +1,17 @@
+question: La dimostrazione di completezza costruisce qualsiasi funzione annidando case per decomporre l'input e scribe per ogni output. Perché è solo uno strumento teorico?
+answer: L'espressione risultante è una gigantesca tabella di lookup la cui dimensione cresce esponenzialmente — un input a 256 bit richiederebbe circa 2²⁵⁶ voci.
+wrong_answers:
+  - scribe è una macro, non un combinatore core, quindi l'espressione esce dal linguaggio formalmente verificato.
+  - La Bit Machine la valuta in tempo esponenziale, anche se l'espressione stessa resta compatta grazie alla condivisione (sharing).
+  - case annidato può decomporre solo tipi somma, quindi la costruzione fallisce su qualsiasi input di tipo prodotto.
+explanation: >-
+  La costruzione enumera ogni possibile input tramite decomposizione
+  annidata con case e codifica ogni output con scribe, quindi la
+  dimensione dell'espressione esplode esponenzialmente — astronomica per
+  tipi realistici come parole a 256 bit. L'esplosione riguarda la
+  dimensione dell'espressione, non il runtime di un'espressione altrimenti
+  compatta. scribe si espande in autentici combinatori core (unit, injl,
+  injr, pair), quindi il risultato resta all'interno del linguaggio core,
+  il cui teorema di completezza è formalmente verificato in Rocq; e la
+  decomposizione gestisce input di qualsiasi tipo, prodotti inclusi.
+reviewed: false

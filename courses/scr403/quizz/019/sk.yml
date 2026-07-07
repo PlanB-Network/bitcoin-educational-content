@@ -1,0 +1,14 @@
+question: Čo je SimplicityHL a prečo je potrebný?
+answer: Jazyk vyššej úrovne kompilujúci sa do Simplicity, ktorý spravuje pomenovanie a rozsah platnosti.
+wrong_answers:
+  - Jazyk na opis hardvéru na ťaženie ASIC čipov, ktoré spúšťajú Simplicity.
+  - Grafické IDE typu drag-and-drop na prepájanie kombinátorov Simplicity.
+  - Testovací framework na spúšťanie programov Simplicity v bezpečnom sandboxe.
+explanation: >-
+  Surové Simplicity sa pri produkčnej úrovni zložitosti stáva nezrozumiteľným, pretože
+  každý prístup k dátam sa musí realizovať cez vnorené kombinátory take/drop. SimplicityHL
+  poskytuje známe programovacie konštrukcie — pomenované premenné, rozsahy platnosti, importy
+  knižníc a riadenie toku — ktoré sa kompilujú do kombinátorových
+  výrazov jazyka Simplicity. Koncoví používatelia píšu v SimplicityHL, zatiaľ čo Simplicity slúži ako
+  formálne overený cieľ kompilácie.
+reviewed: false

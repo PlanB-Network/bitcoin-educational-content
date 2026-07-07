@@ -1,0 +1,13 @@
+question: Ce garantează teorema completitudinii despre Simplicity?
+answer: Că orice funcție între două tipuri Simplicity poate fi construită din cei nouă combinatori.
+wrong_answers:
+  - Că programele Simplicity se termină întotdeauna garantat în timp constant.
+  - Că Simplicity este Turing-completă și poate simula orice mașină Turing.
+  - Că orice program Simplicity valid are o singură reprezentare unică.
+explanation: >-
+  Teorema completitudinii demonstrează că pentru orice funcție între tipuri
+  Simplicity finite, există o expresie Simplicity care o calculează. Demonstrația
+  constructivă construiește un tabel de căutare folosind expresii case și
+  scribe imbricate. Acest lucru a fost verificat formal în asistentul de
+  demonstrații Rocq.
+reviewed: false

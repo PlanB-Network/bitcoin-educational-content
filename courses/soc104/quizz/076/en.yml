@@ -1,8 +1,9 @@
-question: According to Gustave Molinari's analysis in 'Les Soirées de la rue Saint Lazare' (eng. Evenings on Saint Lazarus Street), what fundamental similarity exists between conservatives and socialists that distinguishes them from libertarians?
-answer: Both conservatives and socialists seek to impose their vision of society through state intervention, despite having different visions
+question: "In Gustave de Molinari's 1849 dialogues, which character defends freedom as a fundamental principle rather than subordinating it to other goals?"
+answer: "The economist, who treats freedom as a principle that is not subordinated to any other objective"
 wrong_answers:
-  - Both conservatives and socialists view freedom as an absolute principle rather than a matter of opportunity or pragmatism
-  - Both conservatives and socialists reject the concept of private property and advocate for collective ownership of resources
-  - Both conservatives and socialists support minimal government intervention and prefer market-based solutions to social problems
-explanation: |
-  Molinari's key insight was that despite their apparent ideological differences, conservatives and socialists share a common approach: they both use state power to impose their respective visions of how society should be organized. Conservatives want to preserve traditional structures through state enforcement, while socialists want to reshape society according to their ideals, also through state action. This contrasts sharply with libertarians, who oppose using state power to impose any particular social vision and instead advocate for maximizing individual freedom and minimizing state intervention.
+  - "The socialist, who defends freedom through progressive reforms aimed at social equality"
+  - "The conservative, who upholds freedom by preserving traditional social order and stability"
+  - "All three characters defend freedom equally but disagree on how to implement it"
+explanation: >-
+  In Molinari's dialogues from Les Soirees de la rue Saint-Lazare, the economist stands in permanent disagreement with both the socialist and the conservative. He is the only one who defends freedom as a fundamental principle. The socialist subordinates freedom to progressive ideals, and the conservative subordinates it to preserving order, making the economist unique in his unconditional defense of freedom.
+reviewed: false

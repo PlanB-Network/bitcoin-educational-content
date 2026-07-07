@@ -1,0 +1,13 @@
+question: Jakou roli hrají jety v Simplicity?
+answer: Jety jsou nativní implementace nahrazující dané výrazy v Simplicity kvůli rychlosti.
+wrong_answers:
+  - Jety jsou krok kompilace, který převádí Simplicity na Bitcoin Script.
+  - Jety jsou síťové zprávy, které rozesílají programy v Simplicity všem uzlům.
+  - Jety jsou ladicí nástroje pro testování a trasování výrazů v Simplicity.
+explanation: >-
+  Jet je nativní implementace, kterou se síť dohodne nahradit za konkrétní
+  výraz v Simplicity (identifikovaný jeho Merkle kořenem). Výraz v Simplicity
+  slouží jako formální specifikace toho, co jet počítá, zatímco nativní kód
+  poskytuje praktickou rychlost vykonávání. Běžné jety zpracovávají aritmetické
+  a kryptografické operace jako SHA-256.
+reviewed: false

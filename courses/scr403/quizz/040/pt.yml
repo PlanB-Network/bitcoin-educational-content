@@ -1,0 +1,18 @@
+question: "Calcular #ᶜ(comp f g) faz hash de 128 bytes: a tag comp duas vezes, depois ambos os CMRs filhos. Por que isso ainda é no máximo uma chamada de compressão SHA-256?"
+answer: O primeiro bloco de 64 bytes é a constante tag∥tag, cujo estado intermediário é pré-computado uma vez; apenas o bloco que contém os CMRs filhos é comprimido.
+wrong_answers:
+  - Descartar sozinho o bloco final de preenchimento de comprimento do SHA-256 faz com que os 128 bytes inteiros caibam em uma chamada.
+  - Os dois CMRs filhos passam por XOR em um único digest de 32 bytes, reduzindo a entrada a um único bloco.
+  - SHA-256-midstate é uma variante de bloco largo que absorve blocos de mensagem de 128 bytes em uma única passagem.
+explanation: >-
+  A função de compressão do SHA-256 processa blocos fixos de 64 bytes,
+  então uma entrada de 128 bytes normalmente precisaria de duas chamadas
+  (mais uma para o preenchimento de comprimento no SHA-256 completo).
+  Como o primeiro bloco de todo combinador é a constante tag∥tag, seu
+  estado intermediário pode ser pré-computado uma vez e armazenado em
+  cache; cada expressão então só precisa de uma nova compressão do bloco
+  que contém os CMRs de seus filhos. Os estados intermediários também
+  eliminam o bloco final de preenchimento, mas isso sozinho ainda deixaria
+  duas compressões — é o estado intermediário pré-computado da tag que
+  reduz para no máximo uma.
+reviewed: false

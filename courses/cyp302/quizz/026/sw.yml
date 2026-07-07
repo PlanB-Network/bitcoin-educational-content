@@ -6,4 +6,4 @@ wrong_answers:
   - XOR ni kinyume cha nyongeza
 explanation: |
   Operesheni ya XOR inaweza kuonekana kama nyongeza ya bits na modulo 2, na kufanya matokeo kufanana.
-reviewed: false
+reviewed: true

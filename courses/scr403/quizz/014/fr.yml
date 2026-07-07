@@ -1,0 +1,13 @@
+question: Qu'est-ce que le type unité (𝟙) et pourquoi est-il utile bien qu'il ne porte aucune information ?
+answer: Il contient une seule valeur (le tuple vide) et constitue la base de tous les autres types.
+wrong_answers:
+  - Il représente le nombre 1 et est utilisé directement pour les opérations arithmétiques.
+  - C'est un type de débogage spécial qui enregistre des traces d'exécution dans un fichier.
+  - Il stocke exactement un seul bit de données utilisé pour les opérations booléennes.
+explanation: >-
+  Le type unité 𝟙 possède exactement une valeur — le tuple vide ⟨⟩. Bien
+  qu'il ne porte aucun bit d'information, il est essentiel comme graine à
+  partir de laquelle les types somme et produit construisent tous les types
+  de données utiles. Par exemple, le type booléen 𝟚 est 𝟙 + 𝟙, entièrement
+  construit à partir de types unité.
+reviewed: false

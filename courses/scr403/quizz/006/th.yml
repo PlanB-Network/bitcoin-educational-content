@@ -1,0 +1,12 @@
+question: ทฤษฎีบทความสมบูรณ์รับประกันอะไรเกี่ยวกับ Simplicity?
+answer: ฟังก์ชันใด ๆ ระหว่างชนิดข้อมูล Simplicity สองชนิดสามารถสร้างได้จาก combinator ทั้งเก้าตัว.
+wrong_answers:
+  - โปรแกรม Simplicity ได้รับการรับประกันว่าจะ terminate ในเวลา constant time เสมอ.
+  - Simplicity เป็น Turing-complete และสามารถจำลอง Turing machine ใด ๆ ก็ได้.
+  - โปรแกรม Simplicity ที่ถูกต้องทุกโปรแกรมมี representation ที่เป็นเอกลักษณ์เพียงหนึ่งเดียว.
+explanation: >-
+  ทฤษฎีบทความสมบูรณ์พิสูจน์ว่า สำหรับฟังก์ชันใด ๆ ระหว่างชนิดข้อมูล
+  Simplicity ที่จำกัด จะมีนิพจน์ Simplicity ที่คำนวณฟังก์ชันนั้นได้
+  การพิสูจน์เชิงสร้างสรรค์สร้าง lookup table โดยใช้นิพจน์ case และ scribe
+  ซ้อนกัน สิ่งนี้ได้รับการ formal verified ใน proof assistant Rocq แล้ว.
+reviewed: false

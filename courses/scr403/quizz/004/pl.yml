@@ -1,0 +1,12 @@
+question: Ile podstawowych kombinatorów ma Simplicity?
+answer: Dziewięć (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Trzy (kompozycja sekwencyjna, kompozycja równoległa, warunek).
+  - Pięć (tylko kombinatory comp, pair, case, take i drop).
+  - Dwanaście (dziewięć podstawowych plus trzy dodatkowe kombinatory rozszerzające).
+explanation: >-
+  Simplicity ma dokładnie dziewięć podstawowych kombinatorów. Dwie podstawowe
+  operacje (iden i unit), trzy metody kompozycji (comp, pair, case) oraz cztery
+  akcesory (take, drop dla iloczynów, injl i injr dla sum). Te dziewięć
+  wystarcza do wyrażenia dowolnej funkcji między typami Simplicity.
+reviewed: false

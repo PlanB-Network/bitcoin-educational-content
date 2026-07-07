@@ -1,0 +1,12 @@
+question: ¿Qué es un tipo suma (A + B) en Simplicity?
+answer: "Una unión etiquetada: un valor es o bien un A etiquetado como izquierdo, o un B etiquetado como derecho."
+wrong_answers:
+  - Un tipo que contiene todos los valores de A y B simultáneamente.
+  - Una suma aritmética de los tamaños en bits de los dos tipos componentes.
+  - Un tipo de función que mapea cada entrada de A a una salida en B.
+explanation: >-
+  Un tipo suma A + B es una unión etiquetada. Cada valor lleva una etiqueta
+  de un bit que indica si es una variante izquierda (de tipo A) o una
+  variante derecha (de tipo B). Incluso cuando A y B son el mismo tipo, los
+  valores etiquetados como izquierdo y como derecho siguen siendo distintos.
+reviewed: false

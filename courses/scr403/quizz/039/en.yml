@@ -1,0 +1,17 @@
+question: Simplicity's effects are commutative and idempotent but not unitary. Which optimizer transformation must therefore be refused in general?
+answer: Replacing a seemingly-dead expression with unit — Failure isn't unitary, so it could hide a failing check that must abort.
+wrong_answers:
+  - Swapping two independent subexpressions, since a sig-all-hash could observe a different environment state.
+  - Merging two identical verify calls, since a duplicated Failure would throw twice and abort wrongly.
+  - Reordering expressions that may throw, since the propagated exception depends on which side runs first.
+explanation: >-
+  Because Simplicity's effects are guaranteed commutative and idempotent,
+  swapping independent subexpressions and duplicating or merging identical
+  ones are always safe; the Reader environment is fixed, and Failure's
+  unit-typed exception is identical no matter which side throws first or
+  how many times. The discard transformation `f ⨾ unit = unit`, however,
+  requires unitarity, which Failure lacks: if `f` contains a
+  `bip0340-verify` on an invalid signature, eliminating the 'dead' code
+  would optimize away the abort and validate a transaction that should
+  fail.
+reviewed: false

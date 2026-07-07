@@ -1,9 +1,9 @@
-question: What is the fundamental difference between libertarians and libertaires regarding the organization of society and economy?
-answer: Libertarians defend private property and free markets while libertaires oppose capitalism and promote collective ownership
+question: "How do libertarians view the relationship between private property and freedom?"
+answer: "Private property is a natural right that precedes the law and the state, and is the very foundation of freedom"
 wrong_answers:
-  - Libertarians support state intervention in the economy while libertaires advocate for complete economic deregulation
-  - Libertarians promote violent revolution against the state while libertaires seek peaceful coexistence with government
-  - Libertarians reject all forms of individual property while libertaires strongly defend personal ownership rights
-explanation: |
-  The core distinction lies in their opposing views on property and economic systems. Libertarians believe private property is essential for 
-  individual freedom and support market capitalism, while libertaires (anarchists) view private property as theft and capitalism as oppressive, instead favoring collective ownership, cooperatives, and alternative economic models like mutualism or libertarian communism. This fundamental disagreement on property rights shapes all other aspects of their respective philosophies.
+  - "Private property is a social convention created by the state that can be revoked when it causes inequality"
+  - "Private property is useful for economic efficiency but has no inherent moral or philosophical significance"
+  - "Private property should exist only for personal possessions, not for productive assets or land"
+explanation: >-
+  Libertarians defend private property as a natural right that precedes law and the state. They argue that if an individual owns their own body, they also own their labor and its fruits. Ownership of material goods is an extension of self-ownership. This contrasts sharply with the libertaire view that property is a social convention or a source of oppression.
+reviewed: false

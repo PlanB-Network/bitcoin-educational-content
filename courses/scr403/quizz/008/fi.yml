@@ -1,0 +1,13 @@
+question: Miten looginen AND-operaatio toimii Simplicityssä?
+answer: Se haarautuu ensimmäisen bitin perusteella — jos epätosi, se palauttaa epätoden, muutoin toisen bitin.
+wrong_answers:
+  - Se kertoo kaksi totuusarvoa keskenään käyttäen tulotyyppiä.
+  - Se käyttää hakutaulua, jossa on kaikki neljä mahdollista syötekombinaatiota.
+  - Se soveltaa XOR-kombinaattoria ja sitten NOT-kombinaattoria tulokseen.
+explanation: >-
+  AND määritellään muodossa case (injl unit) (drop iden). case-kombinaattori
+  haarautuu ensimmäisen bitin perusteella. Jos se on epätosi (vasemmalle
+  merkitty), injl unit palauttaa epätoden riippumatta toisesta bitistä. Jos se
+  on tosi (oikealle merkitty), drop iden palauttaa toisen bitin muuttumattomana.
+  Tämä vastaa AND-totuustaulua.
+reviewed: false

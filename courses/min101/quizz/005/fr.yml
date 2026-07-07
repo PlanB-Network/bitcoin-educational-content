@@ -6,4 +6,4 @@ wrong_answers:
   - L'horodatage du bloc
 explanation: |
   Le champ nbits encode la cible de difficulté active.
-reviewed: false
+reviewed: true 

@@ -1,0 +1,13 @@
+question: Hoe wordt het booleaanse type (𝟚) in Simplicity gedefinieerd?
+answer: Als het somtype 𝟙 + 𝟙, dat precies twee waarden bevat (false en true).
+wrong_answers:
+  - Als een producttype 𝟙 × 𝟙, dat dan slechts één waarde zou bevatten.
+  - Als een speciaal primitief type dat rechtstreeks in de taal is ingebouwd.
+  - Als een 32-bits geheel getal dat beperkt is tot alleen de waarden 0 en 1.
+explanation: >-
+  Het booleaanse type 𝟚 wordt gedefinieerd als 𝟙 + 𝟙, een som van twee
+  eenheidstypes. De links-getagde waarde σᴸ⟨⟩ vertegenwoordigt false (0) en
+  de rechts-getagde waarde σᴿ⟨⟩ vertegenwoordigt true (1). Dit is een
+  één-bits datatype, opgebouwd uit alleen het eenheidstype en de
+  somtype-vormer — de producttype-vormer is niet nodig.
+reviewed: false

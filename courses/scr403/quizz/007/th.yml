@@ -1,0 +1,12 @@
+question: boolean type (𝟚) ถูกนิยามอย่างไรใน Simplicity?
+answer: เป็น sum type 𝟙 + 𝟙 ซึ่งถือค่าได้พอดีสองค่า (false และ true).
+wrong_answers:
+  - เป็น product type 𝟙 × 𝟙 ซึ่งจะถือค่าได้เพียงหนึ่งค่า.
+  - เป็น primitive type พิเศษที่ built directly into ภาษา.
+  - เป็นชนิดจำนวนเต็ม 32-bit ที่จำกัดไว้แค่ค่า 0 และ 1.
+explanation: >-
+  boolean type 𝟚 ถูกนิยามเป็น 𝟙 + 𝟙 ซึ่งเป็น sum ของ unit type สองตัว
+  ค่าที่ติด tag ซ้าย σᴸ⟨⟩ แทน false (0) และค่าที่ติด tag ขวา σᴿ⟨⟩
+  แทน true (1) นี่คือชนิดข้อมูลหนึ่งบิตที่สร้างจากเพียง unit type และ
+  sum type former — ไม่จำเป็นต้องใช้ product former.
+reviewed: false

@@ -5,5 +5,5 @@ wrong_answers:
   - Le wallet
   - Le hashrate
 explanation: |
-  Le cahier public partagé qui contient toutes les transactions, c'est la blockchain.
-reviewed: false
+  Le registre public partagé qui contient toutes les transactions s'appelle la blockchain.
+reviewed: true 

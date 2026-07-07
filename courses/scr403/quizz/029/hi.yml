@@ -1,0 +1,15 @@
+question: Simplicity unbounded recursion को शामिल नहीं करती। unbounded iteration के लिए इसका intended substitute क्या है?
+answer: Recursive covenants, जो computation को कई transactions में फैला देते हैं, जिससे हर transaction की cost predictable बनी रहती है।
+wrong_answers:
+  - delegation feature, जो एक ही transaction के भीतर unbounded recursion का एक metered रूप देने के लिए विशेष रूप से बनाया गया है।
+  - नौ core combinators, जिनकी completeness एक fixed-point construction को किसी भी recursive function को encode करने देती है।
+  - Compile-time loop unrolling, जहाँ static analysis अधिकतम iteration count का अनुमान लगाता है और body की duplicate बना देता है।
+explanation: >-
+  article का thesis यह है कि unbounded iteration को recursive covenants के रूप में
+  लागू करना बेहतर है जो कई transactions में computation करते हैं, जिससे block-space
+  और standardness constraints से बचा जाता है और transaction costs predictable बनती
+  हैं। Delegation का केवल दुरुपयोग करके ही unbounded recursion जैसा कुछ बनाया जा सकता
+  है — यह intended mechanism नहीं है — और नौ core combinators केवल finite computations
+  के लिए complete हैं, इसलिए किसी single program के भीतर कोई fixed-point construction
+  मौजूद नहीं होता।
+reviewed: false

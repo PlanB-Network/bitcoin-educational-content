@@ -1,0 +1,17 @@
+question: A prova de completude constrói qualquer função aninhando case para decompor a entrada e scribe para cada saída. Por que ela é apenas uma ferramenta teórica?
+answer: A expressão resultante é uma tabela de consulta gigante cujo tamanho cresce exponencialmente — uma entrada de 256 bits precisaria de cerca de 2²⁵⁶ entradas.
+wrong_answers:
+  - scribe é uma macro, não um combinador central, então a expressão fica fora da linguagem formalmente verificada.
+  - A Bit Machine avalia isso em tempo exponencial, mesmo que a expressão em si permaneça compacta via compartilhamento.
+  - case aninhado só consegue decompor tipos soma, então a construção falha em qualquer entrada de tipo produto.
+explanation: >-
+  A construção enumera cada entrada possível via decomposição aninhada com
+  case e codifica cada saída com scribe, de modo que o tamanho da expressão
+  explode exponencialmente — astronômico para tipos realistas como palavras
+  de 256 bits. A explosão está no tamanho da expressão, não no tempo de
+  execução de uma expressão que de outra forma seria compacta. scribe se
+  expande em combinadores centrais genuínos (unit, injl, injr, pair), então
+  o resultado permanece dentro da linguagem central, cujo teorema de
+  completude é formalmente verificado em Rocq; e a decomposição lida com
+  entradas de qualquer tipo, incluindo produtos.
+reviewed: false

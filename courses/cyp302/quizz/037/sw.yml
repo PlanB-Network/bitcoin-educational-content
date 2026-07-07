@@ -1,4 +1,4 @@
-question: Muundo wa aljebra katika aljebra abstract ni nini?
+question: Muundo wa aljebra katika aljebra ya dhahania ni nini?
 answer: Seti ya Elements yenye oparesheni moja au zaidi zinazoambatana na misemo fulani
 wrong_answers:
   - Seti ya nambari kuu zilizopangwa kwa safu zinazoambatana na axioms fulani
@@ -6,4 +6,4 @@ wrong_answers:
   - Kundi la mabadiliko ya kijiometri nasibu yaliyopangwa kwa kuzingatia axioms fulani
 explanation: |
   Muundo wa aljebra ni seti ya Elements iliyofafanuliwa na operesheni moja au zaidi, kama vile kuongeza au kuzidisha, kuambatana na axioms fulani, na ni muhimu kwa kuunda dhana katika nadharia ya nambari.
-reviewed: false
+reviewed: true

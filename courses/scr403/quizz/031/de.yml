@@ -1,0 +1,14 @@
+question: Welchen Typ hat pair (drop iden) (take iden), und welche Funktion bezeichnet er?
+answer: A × B ⊢ B × A — er vertauscht die beiden Komponenten eines Paares.
+wrong_answers:
+  - A × B ⊢ A × B — er lässt beide Komponenten unverändert durch (die Identität).
+  - "Nicht typkorrekt: take iden und drop iden haben unterschiedliche Ausgabetypen, die pair nicht zusammenführen kann."
+  - (A × B) × (A × B) ⊢ B × A — pair führt die Eingabetypen seiner beiden Teilausdrücke zusammen.
+explanation: >-
+  drop iden : A × B ⊢ B extrahiert die zweite Komponente, und take iden :
+  A × B ⊢ A extrahiert die erste. Der pair-Kombinator verlangt nur, dass
+  seine beiden Teilausdrücke denselben Eingabetyp teilen (hier A × B);
+  ihre Ausgaben dürfen sich unterscheiden und werden als Paar
+  zurückgegeben. Bei der Eingabe ⟨a, b⟩ liefert der Ausdruck daher ⟨b,
+  a⟩: die Vertauschungsfunktion vom Typ A × B ⊢ B × A.
+reviewed: false

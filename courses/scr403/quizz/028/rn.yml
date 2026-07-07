@@ -1,0 +1,16 @@
+question: Ni mu buryo ubuhe conditional composition ari dual ya parallel composition?
+answer: Parallel iha ibikorwa vyompi input imwe igapanga outputs zavyo (product); conditional ifata sum y'inputs kandi amashami yompi agasangira ubwoko bumwe bwa output.
+wrong_answers:
+  - Parallel itegerezwa gukoresha ibikorwa vyayo bibiri icarimwe; conditional ibikoresha bikurikirana igasubiza gusa ishami ryatowe na tag.
+  - Vyompi bikorera kuri input imwe isangiwe; parallel igumana output pair, mu gihe conditional ikoresha amashami yompi igata iritatowe.
+  - Parallel ibanza gukopa input yayo mu gihe conditional ikopa output yayo mu nyuma, bigahindura aho copying ibera.
+explanation: >-
+  Ubwo duality ni uguhinduranya product/sum aho ubwoko busangiwe buhindura
+  uruhande: parallel composition iha ibikorwa vyompi ubwoko bumwe bwa input
+  ikapanga outputs zavyo zikaba product, mu gihe conditional composition
+  ifata sum (tagged union) y'ubwoko bubiri bwa input kandi amashami yompi ategerezwa
+  gutanga ubwoko bumwe bwa output. Gukorera icarimwe ntaco bivuze — ikiganiro
+  gishimika ko parallel composition ishobora gushirwa mu ngiro mu buryo bukurikirana — kandi
+  conditional composition ikora ishami rimwe gusa, ryatoranyijwe na tag,
+  aho gukoresha yompi hanyuma igata rimwe.
+reviewed: false

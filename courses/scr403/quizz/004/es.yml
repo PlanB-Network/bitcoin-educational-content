@@ -1,0 +1,13 @@
+question: ¿Cuántos combinadores núcleo tiene Simplicity?
+answer: Nueve (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Tres (composición secuencial, composición paralela, condicional).
+  - Cinco (solo los combinadores comp, pair, case, take y drop).
+  - Doce (los nueve núcleo más tres combinadores de extensión adicionales).
+explanation: >-
+  Simplicity tiene exactamente nueve combinadores núcleo. Dos operaciones
+  básicas (iden y unit), tres métodos de composición (comp, pair, case) y
+  cuatro accesores (take, drop para productos, injl e injr para sumas).
+  Estos nueve son suficientes para expresar cualquier función entre tipos
+  de Simplicity.
+reviewed: false

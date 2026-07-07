@@ -1,0 +1,16 @@
+question: W jakim sensie kompozycja warunkowa jest dualna do kompozycji równoległej?
+answer: Kompozycja równoległa podaje obu operacjom jedno wejście i łączy ich wyjścia w parę (produkt); kompozycja warunkowa przyjmuje sumę wejść, a obie gałęzie dzielą jeden typ wyjścia.
+wrong_answers:
+  - Kompozycja równoległa musi wykonywać swoje dwie operacje jednocześnie; kompozycja warunkowa wykonuje je sekwencyjnie i zwraca tylko gałąź wybraną przez tag.
+  - Obie działają na jednym wspólnym wejściu; kompozycja równoległa zachowuje parę wyjść, podczas gdy kompozycja warunkowa wykonuje obie gałęzie i odrzuca niewybraną.
+  - Kompozycja równoległa duplikuje swoje wejście wcześniej, a kompozycja warunkowa duplikuje swoje wyjście później, zamieniając miejscami, gdzie zachodzi kopiowanie.
+explanation: >-
+  Dualność polega na wymianie produkt/suma, przy czym wspólny typ zmienia
+  stronę: kompozycja równoległa daje obu operacjom ten sam typ wejścia
+  i łączy ich wyjścia w produkt, podczas gdy kompozycja warunkowa
+  przyjmuje sumę (unię oznaczoną) dwóch typów wejścia, a obie gałęzie muszą
+  dawać ten sam typ wyjścia. Jednoczesność jest bez znaczenia — artykuł
+  podkreśla, że kompozycja równoległa może być zaimplementowana sekwencyjnie — a
+  kompozycja warunkowa wykonuje dokładnie jedną gałąź, wybraną przez tag,
+  zamiast wykonywać obie i odrzucać jedną.
+reviewed: false

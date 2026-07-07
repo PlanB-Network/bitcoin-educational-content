@@ -1,0 +1,13 @@
+question: Wat is de relatie tussen Simplicity en Gentzens sequentenkalkul?
+answer: Zijn negen combinators weerspiegelen het conjunctief-disjunctieve fragment van het sequentenkalkul.
+wrong_answers:
+  - Simplicity werd rechtstreeks vertaald van bewijzen in het sequentenkalkul naar werkende code.
+  - Gentzens sequentenkalkul wordt tijdens runtime gebruikt om Simplicity-programma's te typecheken.
+  - Ze staan volledig los van elkaar, en de oppervlakkige gelijkenis is puur toeval.
+explanation: >-
+  De negen kernregels van Simplicity lijken sterk op regels in Gentzens
+  sequentenkalkul, analoog aan de Curry-Howard-correspondentie tussen
+  lambdacalculus en natuurlijke deductie. Deze verbinding zorgt ervoor dat
+  types in de premissen kleiner zijn dan in de conclusies, wat de Bit
+  Machine benut voor efficiënte uitvoering met minimaal kopiëren van data.
+reviewed: false

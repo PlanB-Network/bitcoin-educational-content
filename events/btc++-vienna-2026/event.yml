@@ -3,14 +3,16 @@ start_date: 2026-05-26 22:00:00
 end_date: 2026-05-28 21:59:59
 timezone: Europe/Vienna
 address_city_country: Vienna, Austria
-address_line_2:
+address_line_2: Weitsicht Cobenzl
 address_line_3:
 name: bitcoin++ Vienna 2026
 type: conference
 book_online: false
 book_in_person: false
 description: |
-  Developer-focused Bitcoin conference exploring the economic aspects of Bitcoin with expert educators and builders.
+  bitcoin++ comes to Vienna for its first ever Economics Edition, exploring the intersection of free markets and protocols at the heart of Bitcoin's incentive design.
+  Hosted at Weitsicht Cobenzl in the hills north of Vienna on May 27-28, 2026, this edition digs into the ecosystem of protocols for incentives and open marketplaces being built with and on top of Bitcoin: protocols for exchange, free markets, auction mechanisms, and open source.
+  For the first time, bitcoin++ introduces a non-technical stage focused on economic research and academic intuitions, bringing together economists, academics, builders, and developers to talk about free markets, free trade, and the protocols enabling them.
 language:
   - en
 links:

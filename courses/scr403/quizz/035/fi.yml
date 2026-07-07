@@ -1,0 +1,15 @@
+question: Jäljitä full-adder syötteellä ⟨⟨1,1⟩,1⟩ (1+1+1). Minkä arvon vaihe kaksi, O O H ▵ (O I H ▵ I H ⨾ half-adder), antaa viimeiselle vaiheelle?
+answer: ⟨1, ⟨0, 1⟩⟩ — ensimmäisen half-adderin muistibitti, sitten toisen muistibitti ja summa.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — ensimmäisen half-adderin muistibitti, sitten toisen summa ja muistibitti.
+  - ⟨0, ⟨0, 1⟩⟩ — ensimmäisen half-adderin summabitti, sitten toisen muistibitti ja summa.
+  - ⟨1, ⟨1, 1⟩⟩ — ensimmäisen half-adderin muistibitti, sitten toisen OR- ja XOR-bitit.
+explanation: >-
+  Vaihe yksi laskee half-adder⟨1,1⟩ = ⟨1, 0⟩ (muistibitti 1, summa 0) ja
+  tallentaa sisääntulevan muistibitin, jolloin saadaan ⟨⟨1,0⟩, 1⟩. Vaiheessa
+  kaksi O O H erottaa ensimmäisen muistibitin (1), kun taas O I H ▵ I H syöttää
+  ⟨0, 1⟩ — ensimmäisen summan ja sisääntulevan muistibitin — toiseen
+  half-adderiin, tuottaen ⟨0, 1⟩, koska and(0,1)=0 ja xor(0,1)=1. Viimeinen
+  vaihe ottaa sitten kahden muistibitin OR:n ja säilyttää summan, tuottaen
+  ⟨1, 1⟩: binääriluku 3, kuten odotettiin.
+reviewed: false

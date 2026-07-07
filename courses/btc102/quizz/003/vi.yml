@@ -1,9 +1,9 @@
-question: Pump and Dump (Bơm giá và Xả hàng) trong lĩnh vực tài sản mã hóa là gì?
-answer: Thao túng tài sản thông qua chiến dịch bán ở mức cao nhất
+question: Trong không gian tiền điện tử, "bơm và xả" (Pump and Dump) bao gồm những gì?
+answer: Thao túng giá trị tài sản thông qua một chiến dịch bán ra ở mức giá cao nhất.
 wrong_answers:
-  - Mua một lượng lớn tài sản để hỗ trợ giá của nó mà không bao giờ bán
-  - Ổn định thị trường trong dài hạn thông qua các giao dịch đối lập
+  - Mua ồ ạt một tài sản để hỗ trợ giá mà không bao giờ bán ra
+  - Ổn định thị trường trong dài hạn thông qua các giao dịch ngược chiều
   - Thực hiện các giao dịch mua định kỳ để có được sự tiếp xúc lâu dài với tài sản
 explanation: |
-  Kỹ thuật gian lận này liên quan đến việc tăng giá một cách giả tạo để bán vào thời điểm quan trọng và khiến giá trị sụp đổ.
-reviewed: false
+  Kỹ thuật gian lận này liên quan đến việc thổi phồng giá một cách giả tạo để bán ra vào thời điểm quan trọng và khiến giá trị sụp đổ.
+reviewed: true

@@ -1,0 +1,12 @@
+question: "Prečo sú witness hodnoty vylúčené z Commitment Merkle Root (CMR)?"
+answer: Aby sa adresy vytvorili skôr, než sú witnessy známe, a nepoužité vetvy sa dali súkromne orezať.
+wrong_answers:
+  - Pretože witness hodnoty sú jednoducho príliš veľké na to, aby sa zahrnuli do 256-bitového hašu.
+  - Pretože witness hodnoty sú validované úplne samostatne efektom Failure.
+  - Pretože zahrnutie witness hodnôt by urobilo CMR nedeterministickým.
+explanation: >-
+  Witness výrazy (ako podpisy) sa poskytujú v čase míňania, nie v čase vytvorenia adresy.
+  Ich vylúčenie z CMR umožňuje dve dôležité vlastnosti: adresy sa dajú vygenerovať skôr, než
+  existuje míňacia transakcia, a nevykonané podmienené vetvy sa dajú orezať z
+  on-chain dát bez odhalenia príslušných witness hodnôt.
+reviewed: true

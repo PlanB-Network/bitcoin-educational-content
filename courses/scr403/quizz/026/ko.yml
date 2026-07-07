@@ -1,0 +1,12 @@
+question: "Simplicity에서 Commitment Merkle Root(CMR)란 무엇인가요?"
+answer: 태그가 붙은 SHA-256으로 Simplicity 프로그램의 구조에 커밋하는 256비트 해시입니다.
+wrong_answers:
+  - Simplicity 프로그램의 가능한 모든 실행 경로를 담는 binary tree입니다.
+  - 주소 검증에 사용되는 프로그램의 타입과 witness 값의 해시입니다.
+  - 프로그램이 접근하도록 허가된 트랜잭션 데이터의 Merkle root입니다.
+explanation: >-
+  각 Simplicity 컴비네이터에는 고유한 SHA-256 태그(예: Simplicity␟Commitment␟iden)가 있으며,
+  CMR은 이러한 태그가 붙은 midstate를 사용해 프로그램의 컴비네이터 tree를 재귀적으로 해싱하여 계산됩니다.
+  중요한 점은 CMR이 표현식의 타입에 커밋하지 않고, 상환 중 타입 추론에 의존한다는 것입니다.
+  CMR은 프로그램을 Taproot 주소에 커밋하는 데 사용됩니다.
+reviewed: true

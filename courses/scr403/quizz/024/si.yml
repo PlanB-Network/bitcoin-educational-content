@@ -1,0 +1,11 @@
+question: "BIP-0341 Taproot යටතේ committed වන විට Simplicity භාවිත කරන TapLeaf version එක කුමක්ද?"
+answer: Version 0xbe, එය decimal තුළ byte value 190 වේ.
+wrong_answers:
+  - Version 0xc0, Bitcoin Script Tapscript සමඟ සමාන එක.
+  - Version 0x00, default Taproot leaf version එක.
+  - Version 0xff, experimental scripts සඳහා reserved version එකක්.
+explanation: >-
+  Simplicity programs TapLeaf version 0xbe භාවිත කරමින් Taproot addresses තුළ commit කරනු ලැබේ. මෙය
+  Simplicity scripts, Bitcoin Tapscript (version 0xc0 භාවිත කරයි) වලින් වෙනස් කර දක්වයි, සහ
+  ඒවා on-chain පෙනෙන විට Simplicity programs නිවැරදිව identify කර validate කිරීමට network එකට ඉඩ දෙයි.
+reviewed: true

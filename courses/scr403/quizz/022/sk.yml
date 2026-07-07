@@ -1,0 +1,12 @@
+question: "Prečo bip0340-verify používa efekt Failure namiesto vrátenia boolovskej hodnoty (true/false)?"
+answer: Aby umožnil dávkovú verifikáciu Schnorrových podpisov, pri ktorej jedna zlyhaná kontrola spôsobí zlyhanie celej dávky.
+wrong_answers:
+  - Pretože boolovské typy sú v porovnaní s typom unit príliš nákladné z hľadiska priestoru v bloku.
+  - Pretože typový systém jazyka Simplicity nedokáže reprezentovať boolovské návratové hodnoty prichádzajúce z jetov.
+  - Pretože vrátenie obyčajnej boolovskej hodnoty by priamo porušilo vetu o úplnosti.
+explanation: >-
+  Keby bip0340-verify vracalo boolovskú hodnotu, zlyhaná kontrola podpisu by stále mohla viesť k vetve, kde
+  skript uspeje. V takom prípade by overovateľ potreboval vedieť, ktorý konkrétny podpis
+  zlyhal, čo by znemožnilo dávkovú verifikáciu. Použitím efektu Failure zlyhaná kontrola vždy preruší
+  celý výpočet, čím umožňuje efektívnu dávkovú verifikáciu, kde je mnoho podpisov zoskupených dohromady.
+reviewed: true

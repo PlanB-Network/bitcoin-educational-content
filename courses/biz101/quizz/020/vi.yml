@@ -1,9 +1,9 @@
-question: “Lạm phát tiềm ẩn” là gì trong bối cảnh hệ thống tiền tệ dựa trên nợ?
-answer: Chính sự gia tăng nguồn cung tiền (khoảng 7% mỗi năm) làm giảm giá trị tổng thể của bạn nếu bạn không đầu tư hoặc tăng trưởng tài sản theo đó.
+question: “Tiềm ẩn lạm phát” là gì trong bối cảnh hệ thống tiền tệ dựa trên nợ?
+answer: Là sự gia tăng nguồn cung tiền (khoảng 7% trung bình mỗi năm tại Mỹ) làm giảm giá trị tổng thể sức mua của bạn nếu bạn không đầu tư hoặc có tài sản tăng trưởng theo mức đó.
 wrong_answers:
   - Đây là thuật ngữ kinh tế chính thức để chỉ lãi suất cố định.
   - Nó đề cập đến số liệu lạm phát không được các ngân hàng trung ương công bố.
   - Điều này có nghĩa là giá cả không bao giờ tăng, ngay cả khi nguồn cung tiền tăng.
 explanation: |
-  Lạm phát ẩn xảy ra khi cung tiền tăng, làm giảm sức mua của tiền tiết kiệm. Nếu một doanh nghiệp không chủ động đầu tư hoặc bảo vệ tài sản của mình, doanh nghiệp có nguy cơ mất giá do hình thức pha loãng tiền tệ âm thầm này.
+  Lạm phát tiềm ẩn xảy ra khi nguồn cung tiền tăng, làm giảm sức mua của tiền tiết kiệm trong dân. Nếu một doanh nghiệp không chủ động đầu tư hoặc bảo vệ tài sản của mình, vốn tích luỹ tại doanh nghiệp có nguy cơ mất giá do hiện tượng pha loãng tiền tệ âm thầm này.
 reviewed: true

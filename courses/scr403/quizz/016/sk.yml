@@ -1,0 +1,13 @@
+question: Aký je vzťah medzi jazykom Simplicity a Gentzenovým sekventovým kalkulom?
+answer: Jeho deväť kombinátorov zrkadlí konjunktívno-disjunktívny fragment sekventového kalkulu.
+wrong_answers:
+  - Simplicity bol priamo preložený z dôkazov sekventového kalkulu do funkčného kódu.
+  - Gentzenov sekventový kalkul sa používa počas behu na typovú kontrolu programov Simplicity.
+  - Sú úplne nesúvisiace a povrchová podobnosť je čisto náhodná.
+explanation: >-
+  Deväť základných pravidiel jazyka Simplicity sa výrazne podobá pravidlám v Gentzenovom
+  sekventovom kalkule, analogicky ku Curryho-Howardovej korešpondencii medzi
+  lambda kalkulom a prirodzenou dedukciou. Toto prepojenie zaručuje, že
+  typy v premisách sú menšie než v záveroch, čo Bit
+  Machine využíva na efektívne vykonávanie s minimálnym kopírovaním dát.
+reviewed: false

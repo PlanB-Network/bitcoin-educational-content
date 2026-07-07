@@ -1,0 +1,14 @@
+question: Qual è il ruolo dei jet in Simplicity?
+answer: I jet sono implementazioni native che sostituiscono determinate espressioni Simplicity per velocità.
+wrong_answers:
+  - I jet sono un passaggio di compilazione che converte Simplicity in Bitcoin Script.
+  - I jet sono messaggi di rete che trasmettono programmi Simplicity a tutti i nodi.
+  - I jet sono strumenti di debug per testare e tracciare espressioni Simplicity.
+explanation: >-
+  Un jet è un'implementazione nativa che la rete concorda di sostituire a
+  una particolare espressione Simplicity (identificata dalla sua radice di
+  Merkle). L'espressione Simplicity funge da specifica formale di ciò che il
+  jet calcola, mentre il codice nativo fornisce la velocità di esecuzione
+  pratica. I jet più comuni gestiscono operazioni aritmetiche e
+  crittografiche come SHA-256.
+reviewed: false

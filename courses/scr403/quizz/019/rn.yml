@@ -1,0 +1,13 @@
+question: Access notation (O, I, H) ikora gute muri Simplicity?
+answer: O isobanura 'take' (left), I isobanura 'drop' (right), H na yo isobanura 'iden' (value yose).
+wrong_answers:
+  - O isobanura output, I isobanura input, H na yo isobanura guhagarika ikorwa rya porogarama.
+  - Ni amazina ya variables compiler iha values mu buryo bwikora.
+  - O ihitamwo elements zifise indices z'ibiharuro bitagabanyika na kabiri, I igahitamwo elements zifise indices z'ibiharuro bigabanyika na kabiri, H igahitamwo head.
+explanation: >-
+  Inyandiko ngufi O/I/H itanga uburyo bugufi bwo kunyura mu nested pairs.
+  O f ni take f (ikura left), I f ni drop f (ikura right), H na yo ni
+  iden (value yose). Urukurikirane nka I O H rusobanura drop(take(iden)),
+  rugakura element ya mbere y'element ya kabiri. Ivyo bisa na
+  De Bruijn indices zifise digits za binary nk'ibibanza vyo mu tree.
+reviewed: false

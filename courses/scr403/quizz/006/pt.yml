@@ -1,0 +1,13 @@
+question: O que o teorema da completude garante sobre a Simplicity?
+answer: Que qualquer função entre dois tipos da Simplicity pode ser construída a partir dos nove combinadores.
+wrong_answers:
+  - Que os programas Simplicity têm garantia de sempre terminar em tempo constante.
+  - Que a Simplicity é Turing-completa e pode simular qualquer máquina de Turing.
+  - Que todo programa Simplicity válido tem uma única representação exclusiva.
+explanation: >-
+  O teorema da completude prova que, para qualquer função entre tipos
+  finitos da Simplicity, existe uma expressão Simplicity que a computa.
+  A prova construtiva constrói uma tabela de consulta usando expressões
+  case e scribe aninhadas. Isso foi formalmente verificado no assistente
+  de provas Rocq.
+reviewed: false

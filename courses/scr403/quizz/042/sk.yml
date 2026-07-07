@@ -1,0 +1,16 @@
+question: V čase míňania je vetva case prerezaná. Ako môže overovateľ stále porovnať odhalený program so zaviazaným CMR?
+answer: CMR je Merkleho koreň, takže míňajúci dodá iba CMR prerezanej vetvy a overovateľ ho zapojí do prepočtu koreňa.
+wrong_answers:
+  - Overovateľ používa iba vykonanú vetvu, keďže nevykonané vetvy case nikdy neboli v CMR.
+  - Prerezané vetvy sa stanú kanonickým zástupným prvkom, ktorého pevný CMR ich zastúpi pri prepočte koreňa.
+  - Úplný kód prerezanej vetvy zostáva vo witnesse, kde ho overovateľ hashuje, ale nevykonáva.
+explanation: >-
+  CMR výrazu case f g je tagovaný hash cez CMR oboch potomkov, takže každá
+  vetva — vykonaná či nie — je zaviazaná v čase vytvorenia adresy. Keďže
+  konštrukcia je Merkleho strom, prerezanú vetvu možno zhrnúť iba jej
+  32-bajtovým CMR: overovateľ tento hash zapojí do rekurzívneho výpočtu a
+  skontroluje, že koreň zodpovedá záväzku UTXO, bez toho, aby kedy videl
+  prerezaný kód. Presne preto sa pre záväzok používa Merkleho koreň a preto
+  sa akékoľvek výrazy witness vnútri prerezanej vetvy nikdy neobjavia
+  on-chain.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Wat garandeert de volledigheidsstelling (completeness theorem) over Simplicity?
+answer: Dat elke functie tussen twee Simplicity-types kan worden opgebouwd uit de negen combinators.
+wrong_answers:
+  - Dat Simplicity-programma's altijd gegarandeerd in constante tijd eindigen.
+  - Dat Simplicity Turing-compleet is en elke Turing-machine kan simuleren.
+  - Dat elk geldig Simplicity-programma één enkele unieke representatie heeft.
+explanation: >-
+  De volledigheidsstelling bewijst dat er voor elke functie tussen eindige
+  Simplicity-types een Simplicity-expressie bestaat die deze berekent. Het
+  constructieve bewijs bouwt een opzoektabel met geneste case- en
+  scribe-expressies. Dit is formeel geverifieerd in de Rocq-bewijsassistent.
+reviewed: false

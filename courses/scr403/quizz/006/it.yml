@@ -1,0 +1,13 @@
+question: Cosa garantisce il teorema di completezza riguardo a Simplicity?
+answer: Che qualsiasi funzione tra due tipi di Simplicity può essere costruita a partire dai nove combinatori.
+wrong_answers:
+  - Che i programmi Simplicity terminano sempre garantiti in tempo costante.
+  - Che Simplicity è Turing-completo e può simulare qualsiasi macchina di Turing.
+  - Che ogni programma Simplicity valido ha un'unica rappresentazione univoca.
+explanation: >-
+  Il teorema di completezza dimostra che per qualsiasi funzione tra tipi
+  finiti di Simplicity esiste un'espressione Simplicity che la calcola. La
+  dimostrazione costruttiva costruisce una tabella di lookup usando
+  espressioni case e scribe annidate. Questo è stato formalmente verificato
+  nell'assistente di dimostrazione Rocq.
+reviewed: false

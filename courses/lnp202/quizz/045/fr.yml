@@ -3,7 +3,7 @@ answer: Flux majoritairement entrants
 wrong_answers:
   - Flux majoritairement sortants
   - Canaux trop petits
-  - Frais onchain élevés
+  - Frais on-chain élevés
 explanation: |
   En encaissant sans dépenser, le commerçant ne déplace pas naturellement la liquidité vers l’extérieur de ses canaux.
-reviewed: false
+reviewed: true 

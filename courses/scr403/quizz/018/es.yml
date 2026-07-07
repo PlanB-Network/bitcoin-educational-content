@@ -1,0 +1,13 @@
+question: ¿Cómo se representan los búfers de longitud variable en el sistema de tipos de Simplicity?
+answer: Como productos anidados de tipos opción, cada capa marcando un bloque de potencia de dos.
+wrong_answers:
+  - Mediante un tipo de array dinámico especial integrado directamente en el lenguaje.
+  - A través de tipos suma recursivos que crecen más con cada llamada a función.
+  - Como vectores de tamaño fijo rellenados con valores cero al final.
+explanation: >-
+  Los búfers usan tipos opción anidados. Por ejemplo, Xᑉ⁸ se expande a
+  (1 + X⁴) × ((1 + X²) × (1 + X)), lo que como polinomio da
+  1 + X + X² + ... + X⁷ — representando colecciones de 0 a 7 elementos.
+  Cada capa de opción indica si un bloque de potencia de dos está
+  presente, codificando así la longitud en binario.
+reviewed: false

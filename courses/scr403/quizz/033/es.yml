@@ -1,0 +1,14 @@
+question: Dadas las reglas de tipado de 'tipos más pequeños en las premisas', ¿qué combinadores núcleo realmente mueven datos durante la ejecución?
+answer: Solo iden y comp; los otros siete se implementan sin nada más que contabilidad (bookkeeping).
+wrong_answers:
+  - Solo take y drop; extraer un componente obliga a la máquina a copiarlo fuera del producto.
+  - Solo pair y case; duplicar la entrada para dos ramas y despachar según una etiqueta mueve datos.
+  - Solo injl y injr; añadir una etiqueta reescribe el valor en una representación de tipo suma más grande.
+explanation: >-
+  Contraintuitivamente, los combinadores que parecen de acceso a datos (take,
+  drop, pair, case, injl, injr) no necesitan copiar: como las premisas en las
+  reglas de tipado involucran tipos más pequeños que sus conclusiones, la Máquina de
+  Bits puede implementarlos solo con contabilidad. Solo iden, que
+  copia toda su entrada a su salida, y comp, que materializa un
+  valor intermedio pasado de f a g, mueven datos de verdad.
+reviewed: false

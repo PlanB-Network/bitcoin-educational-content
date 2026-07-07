@@ -1,0 +1,17 @@
+question: Một output Simplicity dùng điểm NUMS cố định của BIP-0341 làm internal key. Vì sao key-spend được chứng minh là bất khả thi, và việc randomize điểm NUMS bổ sung điều gì?
+answer: Không ai biết discrete log của điểm NUMS, nên không thể tồn tại chữ ký key-path; randomize chỉ bổ sung tính riêng tư.
+wrong_answers:
+  - Điểm NUMS nằm ngoài đường cong nên chữ ký key-path thất bại; randomize đưa nó trở lại on-curve.
+  - Private key của điểm NUMS là zero, điều mà consensus từ chối; randomize bảo vệ tweak khỏi side channel.
+  - Tweak một điểm NUMS tạo ra key ngoài phạm vi, khiến key-spend không standard; randomize tránh tái sử dụng địa chỉ.
+explanation: >-
+  Một điểm NUMS ('Nothing-Up-My-Sleeve') là một điểm đường cong hoàn toàn
+  hợp lệ được xây dựng sao cho không ai biết private key tương ứng —
+  logarithm rời rạc của nó là không biết. Vì một key-path spend yêu cầu
+  chữ ký Schnorr dưới internal key, và không thể tạo chữ ký như vậy nếu
+  không có private key, đường key-spend được chứng minh là không thể sử
+  dụng và funds chỉ có thể di chuyển qua script path đã cam kết. Randomize
+  điểm NUMS không thay đổi điều này; nó chỉ che giấu việc key-spend bị vô
+  hiệu hóa, để output trông giống mọi output Taproot khác — một lợi ích về
+  riêng tư.
+reviewed: false

@@ -1,0 +1,15 @@
+question: push-<n har typen Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Varför måste dess utdata vara en summa som inkluderar hela vektortypen Aⁿ?
+answer: En buffert Aᑉⁿ rymmer högst n−1 objekt, så att pusha till en full buffert ger n objekt — endast Aⁿ kan representera det.
+wrong_answers:
+  - Summan låter anroparen välja den billigare kodningen, eftersom vektorer serialiseras mer kompakt än optionsprodukter.
+  - Push kan misslyckas på en tom buffert, och Aⁿ-grenen är felfallet som bär det gamla innehållet.
+  - case kräver att alla funktioner som konsumerar en summatypad buffert även producerar summatypad utdata.
+explanation: >-
+  Aᑉⁿ är precis typen för listor vars längd är strikt mindre än n, så en
+  buffert vid maximal kapacitet innehåller n−1 element. Att pusha ett
+  till ger exakt n element, vilket Aᑉⁿ inte kan representera; Aⁿ-termen
+  returnerar det överflödade resultatet som en full vektor. Att koda
+  overflow i utdatatypen håller push-<n som en total funktion snarare
+  än en partiell — felfallet för tom buffert tillhör pop-<n, inte
+  push-<n.
+reviewed: false

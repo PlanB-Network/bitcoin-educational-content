@@ -1,8 +1,9 @@
-question: According to Hannah Arendt's analysis, what distinguishes totalitarian education from traditional authoritarian indoctrination?
-answer: It aims to destroy the capacity to form any independent convictions rather than instill specific beliefs
+question: "How did the economic approaches of Hitler's Germany and Stalin's Soviet Union differ, despite their shared totalitarian methods?"
+answer: "Nazi Germany maintained an appearance of private property while subordinating the private sector to state objectives, whereas Stalinism abolished all private ownership and fully planned the economy"
 wrong_answers:
-  - It focuses on promoting extreme nationalism and racial superiority through systematic propaganda campaigns
-  - It emphasizes complete obedience to state authority while preserving individuals' ability to think critically
-  - It seeks to replace religious beliefs with secular ideologies through intensive political education programs
-explanation: |
-  Hannah Arendt's crucial insight reveals that totalitarian education operates fundamentally differently from traditional indoctrination. Rather than simply replacing one set of beliefs with another, totalitarian systems systematically destroy the human capacity for independent thought itself. This creates individuals incapable of forming any autonomous convictions, making them completely malleable to state control. The other options represent conventional authoritarian tactics but miss Arendt's deeper analysis of how totalitarianism negates the very possibility of political action and independent judgment.
+  - "Nazi Germany fully nationalized all industries, whereas Stalin's regime allowed limited private enterprise in agriculture"
+  - "Nazi Germany promoted free international trade to fund rearmament, whereas Stalinism imposed complete economic isolation"
+  - "Nazi Germany relied on voluntary corporate cooperation with the state, whereas Stalinism used only forced labor"
+explanation: >-
+  Although both regimes used identical political methods (cult of personality, total surveillance, systematic elimination of opposition), their economic models differed in form. Nazi Germany did not formally abolish private property but completely subordinated the private sector to state goals like war and rearmament, imposing economic autarky. Stalinism went further by abolishing all private ownership, implementing five-year plans, and controlling all production and distribution directly.
+reviewed: false

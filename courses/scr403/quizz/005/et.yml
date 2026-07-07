@@ -1,0 +1,11 @@
+question: Mida teeb 'take'-kombinaator?
+answer: See eraldab korrutise vasaku komponendi, hüljates parema.
+wrong_answers:
+  - See eemaldab elemendi summatüübist, hüljates sildibiti.
+  - See komponeerib järjestikku kaks eraldi operatsiooni otsast otsani.
+  - See mähib väärtuse vasaku sildiga, et ehitada uus summatüüp.
+explanation: >-
+  take-kombinaator on korrutistüüpide eraldaja. Kui take f rakendatakse paarile
+  ⟨a, b⟩, hülgab see b ja rakendab f-i a-le. Koos iden-iga eraldab take iden
+  mis tahes paari esimese elemendi.
+reviewed: false

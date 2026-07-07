@@ -1,0 +1,18 @@
+question: O ieșire Simplicity folosește punctul NUMS fix din BIP-0341 ca cheie internă. De ce este cheltuirea prin cheie (key-spend) dovedit imposibilă, și ce adaugă randomizarea punctului NUMS?
+answer: Nimeni nu cunoaște logaritmul discret al punctului NUMS, așa că nu poate exista nicio semnătură pe calea cheii; randomizarea adaugă doar confidențialitate.
+wrong_answers:
+  - Punctul NUMS se află în afara curbei, așa că semnăturile pe calea cheii eșuează; randomizarea îl readuce pe curbă.
+  - Cheia privată a punctului NUMS este zero, ceea ce consensul respinge; randomizarea protejează ajustarea (tweak) împotriva canalelor laterale.
+  - Ajustarea unui punct NUMS produce o cheie în afara intervalului, făcând cheltuirea prin cheie non-standard; randomizarea evită reutilizarea adresei.
+explanation: >-
+  Un punct NUMS ('Nothing-Up-My-Sleeve') este un punct de curbă perfect
+  valid, construit astfel încât nimeni să nu cunoască o cheie privată
+  corespunzătoare — logaritmul său discret este necunoscut. Deoarece o
+  cheltuire pe calea cheii necesită o semnătură Schnorr sub cheia internă,
+  și nicio astfel de semnătură nu poate fi produsă fără cheia privată,
+  calea de cheltuire prin cheie este dovedit inutilizabilă, iar fondurile
+  pot circula doar prin calea de script angajată. Randomizarea punctului
+  NUMS nu schimbă nimic din toate acestea; ea doar ascunde faptul că
+  cheltuirea prin cheie este dezactivată, astfel încât ieșirea arată ca
+  orice altă ieșire Taproot — un beneficiu de confidențialitate.
+reviewed: false

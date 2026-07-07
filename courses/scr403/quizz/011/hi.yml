@@ -1,0 +1,13 @@
+question: Simplicity Ethereum जैसे dynamic gas model के बजाय static analysis का उपयोग क्यों करती है?
+answer: Execution शुरू होने से पहले resource bounds निर्धारित करने के लिए, जिससे predictable costs मिलती हैं।
+wrong_answers:
+  - क्योंकि static analysis developers के लिए implement करना बस बहुत तेज़ है।
+  - क्योंकि Ethereum का अपना gas model patented था और इसलिए उपलब्ध नहीं था।
+  - क्योंकि Simplicity programs इतने छोटे होते हैं कि उन्हें वास्तव में कभी metering की जरूरत नहीं पड़ती।
+explanation: >-
+  Simplicity की static analysis network को यह जानने देती है कि किसी program
+  को run होने से पहले ठीक कितना computation चाहिए। इससे dynamic metering की
+  unpredictability खत्म होती है, resource exhaustion के जरिए denial-of-service
+  रोका जाता है, और nodes computation waste किए बिना limits exceed करने वाले
+  programs reject कर सकते हैं।
+reviewed: false

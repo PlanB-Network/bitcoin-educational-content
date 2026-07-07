@@ -1,0 +1,11 @@
+question: "What is the type of a Simplicity program?"
+answer: 1 ⊢ 1 (unit to unit) — no meaningful input or output; side effects do the I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — it takes transaction data and returns a validity boolean.
+  - 2^256 ⊢ 2^256 — it takes a hash input and returns a new hash output value.
+  - Any type A ⊢ B — programs may have completely arbitrary input and output types.
+explanation: >-
+  A Simplicity program is defined as an expression of type 1 ⊢ 1. The Reader effect captures
+  the transaction environment input, while the Failure effect determines success or failure.
+  These side effects handle all the I/O rather than the Simplicity types themselves.
+reviewed: true

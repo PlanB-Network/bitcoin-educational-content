@@ -5,7 +5,6 @@ description: Complete guide to the Arkade wallet and Ark Protocol
 
 ![cover](assets/cover.webp)
 
-
 The Bitcoin network faces a major challenge: scalability. While the main layer (layer 1) offers unrivalled security and decentralization, it can only handle a limited number of transactions per second. Lightning Network has emerged as a promising second-layer (layer 2) solution, enabling fast, low-cost payments. However, Lightning imposes its own constraints: channel management, the need for incoming liquidity and a technical complexity that may put off new users.
 
 
@@ -14,6 +13,7 @@ This is the background to **Ark**, a new layer 2 protocol designed to offer a si
 
 This tutorial will guide you through the world of Arkade. We'll explore how the Ark protocol works, how to install and configure the Arkade wallet, and how to use it to send and receive bitcoins instantly, confidentially and without the usual Lightning Network frictions.
 
+![video](https://www.youtube.com/watch?v=HdKeXV_vZZM)
 
 ## Understanding the Ark protocol
 

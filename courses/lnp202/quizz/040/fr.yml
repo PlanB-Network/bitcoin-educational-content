@@ -6,4 +6,4 @@ wrong_answers:
   - Modifier le protocole Lightning
 explanation: |
   Les gestionnaires avancés offrent des fonctionnalités absentes de l’interface de base, tout en restant de simples interfaces.
-reviewed: false
+reviewed: true 

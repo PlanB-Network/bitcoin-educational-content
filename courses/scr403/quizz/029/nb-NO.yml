@@ -1,0 +1,16 @@
+question: Simplicity utelukker ubegrenset rekursjon. Hva er den tiltenkte erstatningen for ubegrenset iterasjon?
+answer: Rekursive covenants som sprer beregningen over flere transaksjoner, slik at kostnaden for hver transaksjon forblir forutsigbar.
+wrong_answers:
+  - Delegasjonsfunksjonen, spesialbygget for å gi en avmålt form for ubegrenset rekursjon innenfor én enkelt transaksjon.
+  - De ni kjernekombinatorene, hvis kompletthet lar en fikspunktkonstruksjon kode enhver rekursiv funksjon.
+  - Kompileringstids-løkkeutrulling, der statisk analyse utleder det maksimale antallet iterasjoner og dupliserer kroppen.
+explanation: >-
+  Artikkelens hovedpoeng er at ubegrenset iterasjon er bedre implementert
+  som rekursive covenants som beregner over flere transaksjoner, noe som
+  unngår begrensninger på blokkplass og standardness, og gjør
+  transaksjonskostnadene forutsigbare. Delegasjon kan bare misbrukes til
+  å produsere noe som ligner ubegrenset rekursjon — det er ikke den
+  tiltenkte mekanismen — og de ni kjernekombinatorene er kun komplette
+  for endelige beregninger, så ingen fikspunktkonstruksjon eksisterer
+  innenfor ett enkelt program.
+reviewed: false

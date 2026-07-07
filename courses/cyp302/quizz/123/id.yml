@@ -6,3 +6,4 @@ wrong_answers:
   - Pelanggan harus mengganti kunci setiap kali melakukan pembelian
 explanation: |
   Dengan menggunakan kunci yang sama untuk semua orang, Jim's Sporting Goods akan mengompromikan kerahasiaan dan integritas, karena setiap pelanggan berpotensi dapat mengakses data pelanggan lain.
+reviewed: true

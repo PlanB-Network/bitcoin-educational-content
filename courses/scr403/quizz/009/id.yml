@@ -1,0 +1,12 @@
+question: Apa yang dihitung oleh half-adder?
+answer: Carry (AND) dan sum (XOR) dari dua bit masukan.
+wrong_answers:
+  - Jumlah dari dua bilangan bulat multi-bit dengan propagasi carry.
+  - Rata-rata dari dua bit yang dibulatkan ke bawah.
+  - OR dan AND bitwise dari dua bit masukan.
+explanation: >-
+  Half-adder mengambil dua bit tunggal dan menghasilkan dua keluaran
+  menggunakan komposisi paralel: bit carry (AND dari masukan) dan bit sum
+  (XOR dari masukan). Dalam Simplicity ini didefinisikan sebagai and ▵ xor,
+  menjalankan kedua operasi pada pasangan masukan yang sama.
+reviewed: false

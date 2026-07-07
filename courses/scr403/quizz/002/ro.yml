@@ -1,0 +1,12 @@
+question: În compoziția paralelă, ce se întâmplă cu intrarea?
+answer: Ambele operații primesc aceeași intrare, iar ieșirile lor formează un produs (pereche).
+wrong_answers:
+  - Intrarea este împărțită în jumătate, fiecare operație primind o parte separată.
+  - O operație procesează mai întâi intrarea, iar cealaltă primește rezultatul modificat.
+  - Intrarea este etichetată și direcționată către doar una dintre cele două operații.
+explanation: >-
+  Compoziția paralelă oferă aceeași intrare nemodificată ambelor operații
+  simultan. Rezultatele sunt combinate într-un tip produs (pereche). În
+  Simplicity, aceasta folosește combinatorul pair, scris f ▵ g, care produce
+  ⟨f(a), g(a)⟩ pentru intrarea a.
+reviewed: false

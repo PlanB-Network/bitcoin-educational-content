@@ -1,0 +1,12 @@
+question: Kiểu tổng (A + B) trong Simplicity là gì?
+answer: "Một union gắn tag: một giá trị hoặc là A gắn tag trái hoặc là B gắn tag phải."
+wrong_answers:
+  - Một kiểu chứa đồng thời tất cả các giá trị từ cả A và B.
+  - Một phép cộng số học của kích thước bit của hai kiểu thành phần.
+  - Một kiểu hàm ánh xạ mọi đầu vào từ A thành một đầu ra trong B.
+explanation: >-
+  Kiểu tổng A + B là một union gắn tag. Mỗi giá trị mang một tag một bit
+  cho biết nó là biến thể trái (thuộc kiểu A) hay biến thể phải (thuộc kiểu B).
+  Ngay cả khi A và B là cùng một kiểu, các giá trị gắn tag trái và gắn tag phải
+  vẫn khác biệt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "為什麼 sig-all-hash 使用 Reader 副作用，而不是把交易資料當作具型別的輸入來接收？"
+answer: 為了讓 jet 能夠使用 PrecomputedTransactionData，並在一個固定的環境上以常數時間運行。
+wrong_answers:
+  - 因為 Simplicity 的型別系統從根本上無法將交易資料表示為一種型別。
+  - 因為 Reader 副作用比讓那些資料穿過組合子樹來傳遞更快。
+  - 因為交易資料實在太大，無法放進 Simplicity 的固定大小型別系統。
+explanation: >-
+  如果 sig-all-hash 接收一個 TxEnv 輸入型別，程式就能把經過修改的交易資料副本傳給 jet，使它無法使用預先計算好的雜湊。有了 Reader 副作用，jet 只會存取一個固定、不可變的交易環境，因此它的實作可以安全地使用 PrecomputedTransactionData，並在每次簽章檢查時以常數時間運行，避開了困擾早期 Bitcoin Script 的二次方雜湊問題。
+reviewed: true

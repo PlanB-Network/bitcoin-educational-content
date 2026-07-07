@@ -1,0 +1,17 @@
+question: Kompresi SHA-256 menjadi sebuah jet, tetapi kombinator fold dan map tidak bisa. Apa yang menjelaskan asimetri ini?
+answer: Sebuah jet menggantikan satu ekspresi tetap; fold dan map bukan ekspresi tunggal melainkan skema, menghasilkan ekspresi berbeda untuk setiap fungsi dalam f.
+wrong_answers:
+  - Jet hanya mempercepat kode straight-line, sehingga kombinator iteratif harus di-unroll terlebih dahulu dan kemudian tidak cocok dengan jet mana pun.
+  - Hanya ekspresi dengan bukti Rocq yang diperiksa mesin yang memenuhi syarat, yang ada untuk SHA-256 tetapi tidak untuk fold.
+  - Fold atas vektor pendek terlalu murah untuk mendapat manfaat, sehingga jet dicadangkan untuk operasi kripto yang mahal.
+explanation: >-
+  Sebuah jet adalah pengganti native untuk satu ekspresi Simplicity
+  spesifik yang sudah terbentuk penuh, yang dapat disubstitusi oleh node
+  sambil mempertahankan semantik persisnya. fold-right-n, map, zip dan
+  variannya bukan ekspresi tunggal melainkan skema konstruksi: setiap
+  pilihan fungsi dalam f menghasilkan ekspresi yang secara struktural
+  berbeda, sehingga tidak ada satu jet pun yang dapat mewakili seluruh
+  keluarga tersebut. Itulah sebabnya pola iterasi ini muncul sebagai kode
+  kombinator sejati dalam program nyata, biasanya dihasilkan oleh bahasa
+  tingkat-tinggi seperti SimplicityHL.
+reviewed: false

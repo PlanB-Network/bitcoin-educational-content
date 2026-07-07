@@ -1,0 +1,12 @@
+question: "Miksi todistaja-arvot suljetaan pois Commitment Merkle Rootista (CMR)?"
+answer: Jotta osoitteet muodostuvat ennen kuin todistajat tunnetaan, ja käyttämättömät haarat karsiutuvat yksityisesti.
+wrong_answers:
+  - Koska todistaja-arvot ovat yksinkertaisesti aivan liian suuria sisällytettäväksi 256-bittiseen tiivisteeseen.
+  - Koska todistaja-arvot validoidaan täysin erikseen Failure-efektin toimesta.
+  - Koska todistaja-arvojen sisällyttäminen tekisi CMR:stä epädeterministisen.
+explanation: >-
+  Todistaja-lausekkeet (kuten allekirjoitukset) toimitetaan kulutushetkellä, ei osoitteen luontihetkellä.
+  Niiden poissulkeminen CMR:stä mahdollistaa kaksi tärkeää ominaisuutta: osoitteet voidaan luoda ennen
+  kulutustransaktion olemassaoloa, ja suorittamattomat ehdolliset haarat voidaan karsia
+  ketjussa olevasta datasta paljastamatta niihin liittyviä todistaja-arvoja.
+reviewed: true

@@ -1,0 +1,13 @@
+question: Jak reprezentowane są bufory o zmiennej długości w systemie typów Simplicity?
+answer: Jako zagnieżdżone produkty typów opcji, gdzie każda warstwa flaguje blok będący potęgą dwójki.
+wrong_answers:
+  - Za pomocą specjalnego typu tablicy dynamicznej wbudowanego bezpośrednio w język.
+  - Poprzez rekurencyjne typy sumy, które rosną przy każdym wywołaniu funkcji.
+  - Jako wektory o stałym rozmiarze uzupełniane końcowymi wartościami zerowymi.
+explanation: >-
+  Bufory wykorzystują zagnieżdżone typy opcji. Na przykład Xᑉ⁸ rozwija się do
+  (1 + X⁴) × ((1 + X²) × (1 + X)), co jako wielomian daje
+  1 + X + X² + ... + X⁷ — reprezentując kolekcje od 0 do 7 elementów.
+  Każda warstwa opcji wskazuje, czy obecny jest blok będący potęgą dwójki,
+  skutecznie kodując długość w postaci binarnej.
+reviewed: false

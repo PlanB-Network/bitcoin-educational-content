@@ -1,0 +1,16 @@
+question: Completeness proof input को decompose करने के लिए case को nest करके और प्रत्येक output के लिए scribe का उपयोग करके कोई भी function बनाता है। यह केवल theoretical tool क्यों है?
+answer: परिणामी expression एक विशाल lookup table है जिसका आकार exponentially बढ़ता है — 256-bit input के लिए लगभग 2²⁵⁶ entries चाहिए होंगी।
+wrong_answers:
+  - scribe एक macro है, core combinator नहीं, इसलिए expression formally verified language से बाहर हो जाता है।
+  - Bit Machine इसे exponential time में evaluate करती है, भले ही expression स्वयं sharing के कारण compact रहता हो।
+  - Nested case केवल sum types को decompose कर सकता है, इसलिए construction किसी भी product-typed input पर fail हो जाती है।
+explanation: >-
+  यह construction nested case decomposition के माध्यम से हर possible input को
+  enumerate करती है और scribe से प्रत्येक output को hard-code करती है, इसलिए
+  expression size exponentially explode होता है — 256-bit words जैसे realistic
+  types के लिए astronomical. Blowup expression के size में है, किसी otherwise-
+  compact expression के runtime में नहीं। scribe genuine core combinators (unit,
+  injl, injr, pair) में expand होता है, इसलिए result core language के भीतर रहता
+  है, जिसका completeness theorem Rocq में formally verified है; और decomposition
+  किसी भी type के inputs को handle करता है, products सहित।
+reviewed: false

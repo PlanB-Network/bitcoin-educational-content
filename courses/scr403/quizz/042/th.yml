@@ -1,0 +1,16 @@
+question: เอาต์พุต Simplicity ใช้ fixed BIP-0341 NUMS point เป็น internal key ของมัน ทำไม key-spend จึงเป็นไปไม่ได้อย่างพิสูจน์ได้ และการ randomize NUMS point เพิ่มอะไร?
+answer: ไม่มีใครรู้ discrete log ของ NUMS point ดังนั้น key-path signature จึงมีไม่ได้; การ randomize เพิ่มเพียง privacy เท่านั้น
+wrong_answers:
+  - NUMS point อยู่นอก curve ดังนั้น key-path signatures จึงล้มเหลว; การ randomize ทำให้มันกลับมาอยู่บน curve
+  - private key ของ NUMS point เป็นศูนย์ ซึ่ง consensus ปฏิเสธ; การ randomize ป้องกัน tweak จาก side channels
+  - การ tweak NUMS point ให้ key ที่อยู่นอกช่วง ทำให้ key-spend ไม่เป็นมาตรฐาน; การ randomize หลีกเลี่ยง address reuse
+explanation: >-
+  NUMS ('Nothing-Up-My-Sleeve') point คือจุดบน curve ที่ถูกต้องสมบูรณ์
+  ซึ่งถูกสร้างขึ้นเพื่อให้ไม่มีใครรู้ private key ที่สอดคล้องกัน — discrete logarithm
+  ของมันไม่เป็นที่รู้จัก เนื่องจากการใช้จ่ายผ่าน key-path ต้องมี Schnorr
+  signature ภายใต้ internal key และไม่สามารถสร้าง signature เช่นนั้นได้หากไม่มี private key,
+  เส้นทาง key-spend จึงใช้งานไม่ได้อย่างพิสูจน์ได้ และเงินสามารถเคลื่อนย้ายได้เฉพาะผ่าน
+  script path ที่ commit ไว้เท่านั้น การ randomize NUMS point ไม่ได้เปลี่ยนสิ่งนี้เลย;
+  มันเพียงซ่อนข้อเท็จจริงว่า key-spend ถูกปิดใช้งาน ทำให้เอาต์พุตดูเหมือนเอาต์พุต Taproot
+  อื่น ๆ — เป็นประโยชน์ด้าน privacy
+reviewed: false

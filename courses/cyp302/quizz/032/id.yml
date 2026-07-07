@@ -6,3 +6,4 @@ wrong_answers:
   - Karena dihasilkan hanya dari peristiwa alam
 explanation: |
   Sebuah string pseudorandom dirancang untuk sangat mirip dengan string acak sejati, membuat perbedaan menjadi mustahil tanpa akses ke seed atau algoritma yang digunakan.
+reviewed: true

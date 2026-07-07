@@ -1,0 +1,16 @@
+question: Un jet half-agg-verify registra un conjunto de tuplas como un efecto Writer. Bajo la prueba de conmutatividad/idempotencia/unitariedad, ¿qué logra el diseño con conjunto, y qué falta todavía?
+answer: "Conmutativo e idempotente (como exige Simplicity), pero no unitario: descartar una llamada eliminaría su tupla y se saltaría una firma."
+wrong_answers:
+  - Idempotente y unitario, pero no conmutativo, ya que el agregado debe combinar los componentes r en el orden de firma.
+  - Las tres propiedades, así que un optimizador puede duplicar, reordenar o descartar libremente las llamadas sin riesgo.
+  - Conmutativo pero no idempotente, ya que registrar la misma tupla dos veces exigiría dos componentes s agregados.
+explanation: >-
+  Tratar el registro del writer como un conjunto hace que el efecto sea idempotente y
+  conmutativo, porque la propia inserción en un conjunto tiene ambas propiedades — exactamente
+  las dos que Simplicity exige a todo efecto. La unitariedad sigue fuera de
+  alcance: como Failure, la escritura influye en la validez de la transacción, ya que
+  la transacción solo es válida cuando un componente s agregado cubre cada
+  tupla registrada. Una expresión que realiza la escritura por tanto no puede
+  descartarse solo porque su salida de tipo unit no se use, ya que su tupla
+  desaparecería silenciosamente de la verificación de semi-agregación.
+reviewed: false

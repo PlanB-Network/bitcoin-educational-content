@@ -6,4 +6,4 @@ wrong_answers:
   - Ví lưu ký bởi bên thứ ba
 explanation: |
   Ví lạnh/cứng (Hardware Wallet) lưu trữ khóa riêng ngoại tuyến, cung cấp khả năng bảo mật nâng cao cho số lượng lớn dữ liệu trong thời gian dài.
-reviewed: false
+reviewed: true

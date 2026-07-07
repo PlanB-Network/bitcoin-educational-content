@@ -1,0 +1,13 @@
+question: Jaki jest związek między Simplicity a rachunkiem sekwentów Gentzena?
+answer: Jego dziewięć kombinatorów odzwierciedla koniunkcyjno-dysjunkcyjny fragment rachunku sekwentów.
+wrong_answers:
+  - Simplicity zostało bezpośrednio przełożone z dowodów rachunku sekwentów na działający kod.
+  - Rachunek sekwentów Gentzena jest używany w czasie wykonania do sprawdzania typów programów Simplicity.
+  - Są całkowicie niepowiązane, a powierzchowne podobieństwo jest czysto przypadkowe.
+explanation: >-
+  Dziewięć podstawowych reguł Simplicity ściśle przypomina reguły rachunku
+  sekwentów Gentzena, analogicznie do odpowiedniości Curry-Howard między
+  rachunkiem lambda a dedukcją naturalną. To powiązanie zapewnia, że
+  typy w przesłankach są mniejsze niż we wnioskach, co Bit
+  Machine wykorzystuje do wydajnego wykonania przy minimalnym kopiowaniu danych.
+reviewed: false

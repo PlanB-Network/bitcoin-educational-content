@@ -1,0 +1,12 @@
+question: "Athari mbili za pembeni zinazotumika katika Simplicity kwa programu-tumizi za Bitcoin na Liquid ni zipi?"
+answer: "Athari ya Failure (exception ya type 1) na athari ya Reader (ufikiaji wa data ya mazingira ya muamala)."
+wrong_answers:
+  - "Athari ya State (variables zinazobadilika) na athari ya Writer (kuandika log kwenye transaction log)."
+  - "Athari ya IO (mawasiliano ya mtandao) na athari ya Memory (ugawaji wa memory unaobadilika)."
+  - "Athari ya Continuation (callbacks) na athari ya Nondeterminism (njia nyingi za utekelezaji)."
+explanation: >-
+  Simplicity hutumia athari mbili tu za pembeni kwa programu-tumizi za blockchain. Athari ya Failure huruhusu
+  computations kukatishwa (mfano, wakati ukaguzi wa signature unashindwa), na athari ya Reader huruhusu
+  expressions kusoma data kutoka mazingira ya muamala. Combinators za msingi hubaki pure —
+  athari za pembeni huletwa kupitia jets.
+reviewed: true

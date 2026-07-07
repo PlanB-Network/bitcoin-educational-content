@@ -1,0 +1,14 @@
+question: The full-adder ORs the carry bits of its two half-adders instead of XORing them. Why is OR correct?
+answer: At most one half-adder can carry for any input, so OR merges two mutually exclusive cases exactly.
+wrong_answers:
+  - The two carry bits must be added, and OR is how single-bit binary addition is done in Simplicity.
+  - After the branching, OR is the only Boolean operator whose type still matches the environment.
+  - OR over-approximates the carry; any spurious carries are dropped by the final projection afterwards.
+explanation: >-
+  If the first half-adder carries, both of its input bits were 1, so its
+  sum bit is 0 — and a half-adder fed a 0 can never carry. The two carry
+  bits are therefore never simultaneously 1, and OR merges them exactly
+  (on the reachable inputs it even coincides with XOR). This mutual
+  exclusivity is precisely what makes the two-half-adder decomposition of
+  a full-adder correct.
+reviewed: false

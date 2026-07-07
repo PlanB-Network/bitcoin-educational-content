@@ -1,0 +1,16 @@
+question: conditional composition යනු කුමන අර්ථයකින් parallel composition එකෙහි dual එකද?
+answer: Parallel operations දෙකටම එක් input එකක් ලබා දී ඒවායේ outputs pair කරයි (product එකක්); conditional inputs වල sum එකක් ගන්නා අතර branches දෙකම එක් output type එකක් බෙදා ගනී.
+wrong_answers:
+  - Parallel එහි operations දෙක එකවර run කළ යුතුය; conditional ඒවා අනුක්‍රමිකව run කර tag එක තෝරන branch එක පමණක් return කරයි.
+  - දෙකම එක් shared input එකක් මත run වේ; parallel output pair එක තබා ගන්නා අතර, conditional branches දෙකම run කර තෝරා නොගත් එක discard කරයි.
+  - Parallel එහි input එක කලින්ම duplicate කරන අතර conditional එහි output එක පසුව duplicate කරයි, copying සිදුවන ස්ථානය මාරු කරමින්.
+explanation: >-
+  duality එක යනු shared type එක පැති මාරු කරන product/sum හුවමාරුවකි:
+  parallel composition operations දෙකටම එකම input type එක ලබා දී
+  ඒවායේ outputs product එකකට pair කරයි, එහෙත් conditional composition
+  input types දෙකෙහි sum එකක් (tagged union) ගන්නා අතර branches දෙකම
+  එකම output type එක yield කළ යුතුය. Simultaneity අදාළ නොවේ — parallel composition
+  අනුක්‍රමිකව implement කළ හැකි බව article එක අවධාරණය කරයි — සහ
+  conditional composition, දෙකම run කර එකක් discard කරනවා වෙනුවට,
+  tag එකෙන් තෝරන ලද හරියටම එක් branch එකක් execute කරයි.
+reviewed: false

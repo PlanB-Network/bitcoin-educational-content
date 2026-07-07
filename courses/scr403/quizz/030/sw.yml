@@ -1,0 +1,15 @@
+question: "Ni usemi upi wa core-combinator unaotekeleza kazi ya usambazaji dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Ndani ya kila tawi la case, mazingira tayari yameunganishwa kama jozi na
+  thamani isiyo na tag, hivyo f = injl iden na g = injr iden hutoa ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ na ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — dist hasa. Toleo la take/drop
+  hukaguliwa aina kwa usahihi lakini hutupa uundaji wa jozi, likimaanisha kazi ya aina (A +
+  B) × C ⊢ A + C badala yake. pair huzalisha zao badala ya jumla, na
+  copair si combinator ya Simplicity kabisa — dist ndiyo hasa kile ambacho
+  copair peke yake haiwezi kueleza.
+reviewed: false

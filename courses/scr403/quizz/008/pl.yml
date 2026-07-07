@@ -1,0 +1,13 @@
+question: Jak działa operacja logiczna AND w Simplicity?
+answer: Rozgałęzia się na pierwszym bicie — jeśli fałsz, zwraca fałsz, w przeciwnym razie drugi bit.
+wrong_answers:
+  - Mnoży dwie wartości logiczne przez siebie za pomocą typu iloczynu.
+  - Używa tablicy przeglądowej ze wszystkimi czterema możliwymi kombinacjami wejść.
+  - Stosuje kombinator XOR, a następnie kombinator NOT do wyniku.
+explanation: >-
+  AND jest zdefiniowany jako case (injl unit) (drop iden). Kombinator case
+  rozgałęzia się na pierwszym bicie. Jeśli jest fałszem (oznaczony lewostronnie),
+  injl unit zwraca fałsz niezależnie od drugiego bitu. Jeśli jest prawdą
+  (oznaczony prawostronnie), drop iden zwraca drugi bit bez zmian. Odpowiada to
+  tabeli prawdy AND.
+reviewed: false

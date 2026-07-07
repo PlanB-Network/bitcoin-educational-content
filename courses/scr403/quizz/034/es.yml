@@ -1,0 +1,14 @@
+question: El sumador completo (full-adder) hace OR de los bits de acarreo de sus dos semisumadores (half-adders) en lugar de hacer XOR. ¿Por qué es correcto usar OR?
+answer: Como mucho un semisumador puede acarrear para cualquier entrada dada, así que OR combina dos casos mutuamente excluyentes exactamente.
+wrong_answers:
+  - Los dos bits de acarreo deben sumarse, y OR es cómo se hace la suma binaria de un bit en Simplicity.
+  - Después de la ramificación, OR es el único operador booleano cuyo tipo sigue coincidiendo con el entorno.
+  - OR sobreestima el acarreo; cualquier acarreo espurio se descarta después mediante la proyección final.
+explanation: >-
+  Si el primer semisumador acarrea, sus dos bits de entrada eran 1, así que
+  su bit de suma es 0 — y un semisumador alimentado con un 0 nunca puede acarrear. Los dos bits de
+  acarreo por tanto nunca valen 1 simultáneamente, y OR los combina exactamente
+  (en las entradas alcanzables incluso coincide con XOR). Esta exclusión mutua
+  es precisamente lo que hace correcta la descomposición de un sumador completo en dos
+  semisumadores.
+reviewed: false

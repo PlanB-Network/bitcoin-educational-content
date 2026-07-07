@@ -1,10 +1,9 @@
-question: According to the Nolan Chart, what are the two axes used to represent political ideologies?
-answer: Economic freedom and personal freedom
+question: "In the Nolan diamond, which position sits at the top and represents maximum freedom?"
+answer: "Libertarianism, supporting the greatest economic and personal freedom"
 wrong_answers:
-  - Left-wing politics and right-wing politics
-  - Socialism and capitalism
-  - Democracy and authoritarianism
-explanation: |
-  The Nolan Chart uses two dimensions: economic freedom and personal freedom, creating a more nuanced political spectrum than the traditional left-right axis.
-  This two-dimensional approach allows for better positioning of different ideologies like libertarianism (high economic and personal freedom), socialism 
-  (low economic, high personal freedom), and conservatism (high economic, low personal freedom). The traditional left-right axis is considered insufficient by Nolan because it fails to capture the complexity of political positions, particularly where classical liberalism fits in the political landscape.
+  - "Conservatism, supporting traditional values and economic liberty"
+  - "Centrism, balancing all political positions in a pragmatic way"
+  - "Socialism, supporting personal liberty and social equality"
+explanation: >-
+  Libertarianism occupies the top of the Nolan diamond as the opposite of statism. It represents those who support the greatest degree of both economic and personal freedom. Conservatism sits to the right (high economic, low personal freedom), socialism to the left (high personal, low economic freedom), and centrism in the middle.
+reviewed: false

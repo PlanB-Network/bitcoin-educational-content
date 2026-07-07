@@ -1,8 +1,8 @@
-question: Was war der Hauptvorteil der vereinfachten Zahlungsverifizierung (SPV), die in BitCoinJ implementiert ist und von leichtgewichtigen wallet wie Bitcoin Wallet für Android verwendet wird?
+question: Was war der Hauptvorteil der vereinfachten Zahlungsverifizierung (SPV), die in BitCoinJ implementiert ist und von leichtgewichtigen Wallets wie Bitcoin Wallet für Android verwendet wird?
 answer: Es ermöglichte die Überprüfung von Transaktionen, ohne die gesamte Blockchain herunterladen zu müssen
 wrong_answers:
   - Es mischte automatisch Bitcoins nach Erhalt einer Zahlung, um die Vertraulichkeit zu verbessern
-  - Es verschlüsselte wallet-Daten mit dem AES-256-Algorithmus, um den Diebstahl durch Trojaner zu verhindern
+  - Es verschlüsselte Wallet-Daten mit dem AES-256-Algorithmus, um den Diebstahl durch Trojaner zu verhindern
   - Sie ermöglichte es, die Verbindung zu einem bestehenden Knotenpunkt zu sichern, um Angriffe zu verhindern, die die Fehleranfälligkeit von Transaktionen ausnutzen
 explanation: |
  Die vereinfachte Zahlungsüberprüfung (Simplified Payment Verification, SPV) war eine entscheidende Innovation, die im Bitcoin-Whitepaper beschrieben wurde und es Thin Clients ermöglichte, zu überprüfen, ob ihre Transaktionen

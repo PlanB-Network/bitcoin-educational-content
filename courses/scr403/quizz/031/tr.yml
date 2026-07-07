@@ -1,0 +1,13 @@
+question: pair (drop iden) (take iden) ifadesinin tipi nedir ve hangi fonksiyonu gösterir?
+answer: A × B ⊢ B × A — bir çiftin iki bileşenini yer değiştirir.
+wrong_answers:
+  - A × B ⊢ A × B — her iki bileşeni de değiştirmeden geçirir (identity).
+  - "Yanlış tipli: take iden ve drop iden farklı çıktı tiplerine sahiptir; pair bunları birleştiremez."
+  - (A × B) × (A × B) ⊢ B × A — pair, iki alt ifadesinin girdi tiplerini birleştirir.
+explanation: >-
+  drop iden : A × B ⊢ B ikinci bileşeni, take iden : A × B ⊢ A ise birinci
+  bileşeni çıkarır. pair kombinatörü yalnızca iki alt ifadesinin aynı girdi
+  tipini paylaşmasını gerektirir (burada A × B); çıktıları farklı olabilir
+  ve bir çift olarak döndürülür. ⟨a, b⟩ girdisinde ifade bu yüzden ⟨b, a⟩
+  üretir: swap fonksiyonu A × B ⊢ B × A tipindedir.
+reviewed: false

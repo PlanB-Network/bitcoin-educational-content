@@ -6,4 +6,4 @@ wrong_answers:
   - Kewajiban untuk mengganti kunci pada setiap komunikasi
 explanation: |
   Masalah distribusi kunci berkaitan dengan tantangan dalam mengirimkan kunci secara aman, sebuah kebutuhan yang telah menjadi sangat penting dalam komunikasi digital di mana pertukaran fisik tidak praktis.
-reviewed: false
+reviewed: true

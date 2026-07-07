@@ -1,0 +1,2 @@
+description: |
+  Spark is a Bitcoin Layer 2 infrastructure that enables instant, low-cost payments and stablecoins natively on Bitcoin. It provides SDKs for wallet integration, stablecoin issuance, and instant zero-confirmation deposits without requiring bridges or custodians. Spark is natively interoperable with the Lightning Network and supports Bitcoin-native assets including USDB and USDC.

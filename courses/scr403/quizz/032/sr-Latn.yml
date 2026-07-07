@@ -1,0 +1,17 @@
+question: Dokaz potpunosti gradi bilo koju funkciju ugnežđivanjem case-a za dekompoziciju ulaza i scribe-a za svaki izlaz. Zašto je to samo teorijski alat?
+answer: Rezultujući izraz je ogromna tabela pretraživanja čija veličina raste eksponencijalno — 256-bitni ulaz bi zahtevao oko 2²⁵⁶ unosa.
+wrong_answers:
+  - scribe je makro, a ne jezgarni kombinator, pa izraz pada van formalno verifikovanog jezika.
+  - Bit mašina ga evaluira u eksponencijalnom vremenu, iako sam izraz ostaje kompaktan putem deljenja.
+  - Ugnežđeni case može dekomponovati samo zbirne tipove, pa konstrukcija ne uspeva na bilo kom ulazu proizvodnog tipa.
+explanation: >-
+  Konstrukcija nabraja svaki mogući ulaz putem ugnežđene case
+  dekompozicije i čvrsto kodira svaki izlaz sa scribe, pa veličina
+  izraza eksponencijalno eksplodira — astronomska za realistične tipove
+  poput 256-bitnih reči. Eksplozija je u veličini izraza, a ne u vremenu
+  izvršavanja inače kompaktnog izraza. scribe se razvija u prave
+  jezgarne kombinatore (unit, injl, injr, pair), pa rezultat ostaje
+  unutar jezgarnog jezika, čija je teorema potpunosti formalno
+  verifikovana u Rocq-u; a dekompozicija obrađuje ulaze bilo kog tipa,
+  uključujući proizvode.
+reviewed: false

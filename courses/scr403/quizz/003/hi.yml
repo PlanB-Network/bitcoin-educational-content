@@ -1,0 +1,12 @@
+question: Simplicity में कितने core combinators होते हैं?
+answer: नौ (iden, unit, comp, pair, case, take, drop, injl, injr)।
+wrong_answers:
+  - तीन (sequential composition, parallel composition, conditional)।
+  - पाँच (केवल comp, pair, case, take, और drop combinators)।
+  - बारह (नौ core के साथ तीन extra extension combinators)।
+explanation: >-
+  Simplicity में ठीक नौ core combinators होते हैं। दो basic operations (iden
+  और unit), तीन composition methods (comp, pair, case), और चार accessors
+  (products के लिए take, drop, sums के लिए injl और injr)। ये नौ
+  Simplicity types के बीच किसी भी function को express करने के लिए पर्याप्त हैं।
+reviewed: false

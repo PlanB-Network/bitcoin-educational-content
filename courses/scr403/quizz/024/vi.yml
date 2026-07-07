@@ -1,0 +1,13 @@
+question: "Tại sao sig-all-hash dùng hiệu ứng Reader thay vì nhận dữ liệu giao dịch làm đầu vào có kiểu?"
+answer: Để jet có thể dùng PrecomputedTransactionData và chạy trong thời gian hằng trên một môi trường cố định.
+wrong_answers:
+  - Vì hệ thống kiểu của Simplicity về cơ bản không thể biểu diễn dữ liệu giao dịch dưới dạng một kiểu.
+  - Vì hiệu ứng Reader nhanh hơn việc truyền dữ liệu đó qua cây tổ hợp tử.
+  - Vì dữ liệu giao dịch quá lớn để vừa trong hệ thống kiểu kích thước cố định của Simplicity.
+explanation: >-
+  Nếu sig-all-hash nhận một kiểu đầu vào TxEnv, các chương trình có thể truyền các bản sao đã sửa đổi của dữ liệu giao dịch
+  vào jet, khiến nó không thể dùng các hash đã tính trước. Với hiệu ứng Reader, jet chỉ
+  truy cập một môi trường giao dịch cố định, bất biến, nên phần triển khai của nó có thể dùng an toàn
+  PrecomputedTransactionData và chạy trong thời gian hằng cho mỗi lần kiểm tra chữ ký, tránh vấn đề băm bậc hai
+  từng gây khó khăn cho Bitcoin Script thời kỳ đầu.
+reviewed: true

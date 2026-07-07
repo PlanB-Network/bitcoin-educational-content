@@ -1,4 +1,4 @@
-question: Which Bitcoin.conf parameter limits the size of Mempool in MB?
+question: Which Bitcoin.conf parameter limits the size of mempool in MB?
 answer: maxmempool
 wrong_answers:
   - totalmempool

@@ -1,0 +1,11 @@
+question: O que o combinador 'take' faz?
+answer: Ele extrai o componente esquerdo de um produto, descartando o direito.
+wrong_answers:
+  - Ele remove um elemento de um tipo soma, descartando o bit de marca.
+  - Ele compõe sequencialmente duas operações separadas de ponta a ponta.
+  - Ele envolve um valor com uma marca esquerda para construir um novo tipo soma.
+explanation: >-
+  O combinador take é um extrator para tipos produto. Dado take f aplicado
+  a um par ⟨a, b⟩, ele descarta b e aplica f a a. Combinado com iden,
+  take iden extrai o primeiro elemento de qualquer par.
+reviewed: false

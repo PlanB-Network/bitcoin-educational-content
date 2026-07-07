@@ -6,4 +6,4 @@ wrong_answers:
   - Tidak kompatibel dengan protokol komunikasi modern
 explanation: |
   Kriptografi asimetris, meskipun kuat untuk otentikasi dan enkripsi awal, membutuhkan lebih banyak sumber daya, membuat penggunaannya tidak efisien untuk transfer data yang besar.
-reviewed: false
+reviewed: true

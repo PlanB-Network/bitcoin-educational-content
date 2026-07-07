@@ -399,7 +399,7 @@ Heutzutage ist es möglich, eine Benutzererfahrung zu haben, die der eines walle
 
 
 
-Die erste Lösung besteht einfach darin, Lightning nicht nativ zu nutzen, sondern einen Bitcoin oder [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet zu verwenden, der [Atomic Swaps](https://planb.academy/resources/glossary/atomic-swap) einbindet. Beispielsweise nutzen Aqua- oder Bull Bitcoin Wallet-Anwendungen diese Methode, indem sie es Ihnen ermöglichen, [Lightning-Rechnungen](https://planb.academy/resources/glossary/invoice-lightning) zu bezahlen, ohne selbst einen Lightning-Knoten zu betreiben, und dabei in Eigenverantwortung zu bleiben.
+Die erste Lösung besteht einfach darin, Lightning nicht nativ zu nutzen, sondern einen Bitcoin oder [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet zu verwenden, der [Atomic Swaps](https://planb.academy/resources/glossary/atomic-swap) einbindet. Beispielsweise nutzen Aqua- oder BULL Wallet-Anwendungen diese Methode, indem sie es Ihnen ermöglichen, [Lightning-Rechnungen](https://planb.academy/resources/glossary/invoice-lightning) zu bezahlen, ohne selbst einen Lightning-Knoten zu betreiben, und dabei in Eigenverantwortung zu bleiben.
 
 
 

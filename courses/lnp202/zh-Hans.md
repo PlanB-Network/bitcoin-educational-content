@@ -399,7 +399,7 @@ Bitcoin 的两大价值主张是货币主权（不再依赖中央机构发行和
 
 
 
-第一种解决方案是不直接使用Lightning，而是使用嵌入[原子交换](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 Bull Bitcoin Wallet 应用程序就使用了这种方法，使您无需亲自操作 Lightning 节点即可支付 [Lightning 发票](https://planb.academy/resources/glossary/invoice-lightning)，同时保持自我监管。
+第一种解决方案是不直接使用Lightning，而是使用嵌入[原子交换](https://planb.academy/resources/glossary/atomic-swap)的Bitcoin或[Liquid](https://planb.academy/resources/glossary/liquid-network) wallet。例如，Aqua 或 BULL Wallet 应用程序就使用了这种方法，使您无需亲自操作 Lightning 节点即可支付 [Lightning 发票](https://planb.academy/resources/glossary/invoice-lightning)，同时保持自我监管。
 
 
 

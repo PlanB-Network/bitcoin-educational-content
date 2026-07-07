@@ -399,7 +399,7 @@ Danas je moguće imati korisničko iskustvo vrlo blisko onom kod Lightning custo
 
 
 
-Prvo rešenje je jednostavno da se Lightning ne koristi nativno, već da se koristi Bitcoin ili [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet koji ugrađuju [atomske zamene](https://planb.academy/resources/glossary/atomic-swap). Na primer, Aqua ili Bull Bitcoin Wallet aplikacije koriste ovu metodu, omogućavajući vam da plaćate [Lightning fakture](https://planb.academy/resources/glossary/invoice-lightning) bez upravljanja Lightning čvorom sami, dok ostajete u samostalnom staranju.
+Prvo rešenje je jednostavno da se Lightning ne koristi nativno, već da se koristi Bitcoin ili [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet koji ugrađuju [atomske zamene](https://planb.academy/resources/glossary/atomic-swap). Na primer, Aqua ili BULL Wallet aplikacije koriste ovu metodu, omogućavajući vam da plaćate [Lightning fakture](https://planb.academy/resources/glossary/invoice-lightning) bez upravljanja Lightning čvorom sami, dok ostajete u samostalnom staranju.
 
 
 

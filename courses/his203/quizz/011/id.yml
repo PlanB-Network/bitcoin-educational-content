@@ -5,6 +5,6 @@ wrong_answers:
   - Sebuah sambaran petir, yang memungkinkan perompak menarik lebih banyak bitcoin daripada yang dimilikinya
   - Injeksi XML dalam permintaan penarikan untuk menyedot akun
 explanation: |
- Kebocoran ini memungkinkan peretas untuk mengakses akun dengan kata sandi yang lemah (pendek atau mudah ditebak). Secara khusus, dia mengakses akun Jed McCaleb dengan cara ini. Dia
- menjual bitcoin untuk menurunkan harga, sehingga dapat menarik bitcoin dalam jumlah yang banyak (batas penarikan harian adalah $1.000).
+ Kebocoran ini memungkinkan peretas untuk mengakses akun dengan kata sandi yang lemah (pendek atau mudah ditebak). Secara khusus, dia mengakses akun 
+ Jed McCaleb dengan cara ini. Dia menjual bitcoin untuk menurunkan harga, sehingga dapat menarik bitcoin dalam jumlah yang banyak (batas penarikan harian adalah $1.000).
 reviewed: true

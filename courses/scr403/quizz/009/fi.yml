@@ -1,0 +1,12 @@
+question: Mitä puolisummain laskee?
+answer: Kahden syötebitin muistibitin (AND) ja summan (XOR).
+wrong_answers:
+  - Kahden monibittisen kokonaisluvun summan muistibitin etenemisen kanssa.
+  - Kahden bitin keskiarvon alaspäin pyöristettynä.
+  - Kahden syötebitin bittikohtaisen OR:n ja AND:n.
+explanation: >-
+  Puolisummain ottaa kaksi yksittäistä bittiä ja tuottaa kaksi tulostetta
+  rinnakkaisen komposition avulla: muistibitin (syötteiden AND) ja summabitin
+  (syötteiden XOR). Simplicityssä se määritellään muodossa and ▵ xor, suorittaen
+  molemmat operaatiot samalle syöteparille.
+reviewed: false

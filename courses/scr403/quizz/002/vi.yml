@@ -1,0 +1,12 @@
+question: Trong hợp thành song song, điều gì xảy ra với đầu vào?
+answer: Cả hai thao tác nhận cùng một đầu vào, và các đầu ra của chúng tạo thành một kiểu tích (cặp).
+wrong_answers:
+  - Đầu vào được chia đôi, mỗi thao tác nhận một phần riêng biệt.
+  - Một thao tác xử lý đầu vào trước, và thao tác còn lại nhận kết quả đã được sửa đổi.
+  - Đầu vào được gắn tag và định tuyến chỉ đến một trong hai thao tác để xử lý.
+explanation: >-
+  Hợp thành song song đưa cùng một đầu vào không bị sửa đổi cho cả hai thao tác
+  đồng thời. Các kết quả được gộp lại thành một kiểu tích (cặp). Trong
+  Simplicity, điều này dùng combinator pair, được viết là f ▵ g, tạo ra
+  ⟨f(a), g(a)⟩ cho đầu vào a.
+reviewed: false

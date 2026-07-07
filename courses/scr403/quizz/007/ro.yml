@@ -1,0 +1,13 @@
+question: Cum este definit tipul boolean (𝟚) în Simplicity?
+answer: Ca tip sumă 𝟙 + 𝟙, care conține exact două valori (false și true).
+wrong_answers:
+  - Ca tip produs 𝟙 × 𝟙, care ar conține atunci doar o singură valoare.
+  - Ca tip primitiv special, integrat direct în limbaj.
+  - Ca tip întreg pe 32 de biți, restricționat doar la valorile 0 și 1.
+explanation: >-
+  Tipul boolean 𝟚 este definit ca 𝟙 + 𝟙, o sumă a două tipuri unitate.
+  Valoarea etichetată stânga σᴸ⟨⟩ reprezintă false (0), iar valoarea
+  etichetată dreapta σᴿ⟨⟩ reprezintă true (1). Acesta este un tip de date
+  de un bit, construit doar din tipul unitate și formatorul de tip sumă —
+  formatorul de tip produs nu este necesar.
+reviewed: false

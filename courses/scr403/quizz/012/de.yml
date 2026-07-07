@@ -1,0 +1,13 @@
+question: Warum werden Simplicity-Ausdrücke als DAGs statt als Bäume serialisiert?
+answer: Um exponentielles Wachstum zu verhindern, da gemeinsam genutzte Teilausdrücke nur einmal gespeichert werden.
+wrong_answers:
+  - Weil reine Baumstrukturen bedingte Verzweigungen überhaupt nicht darstellen können.
+  - Um parallele Ausführung auf vielen separaten Mehrkernprozessoren zu ermöglichen.
+  - Weil das Liquid-Network-Protokoll das DAG-Format hier zwingend vorschreibt.
+explanation: >-
+  Simplicity-Ausdrücke bilden von Natur aus Bäume, die mit zunehmender
+  Komplexität exponentiell wachsen könnten. Durch die Serialisierung als
+  gerichtete azyklische Graphen (DAGs) werden Teilausdrücke, die mehrfach
+  vorkommen, nur einmal gespeichert und von mehreren Eltern referenziert.
+  Dadurch wächst die tatsächliche Programmgröße linear statt exponentiell.
+reviewed: false

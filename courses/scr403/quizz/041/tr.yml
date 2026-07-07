@@ -1,0 +1,18 @@
+question: Bir Simplicity çıktısı iç anahtarı olarak sabit BIP-0341 NUMS noktasını kullanır. Anahtar harcamasının kanıtlanabilir biçimde imkânsız olmasının nedeni nedir ve NUMS noktasını rastgeleleştirmek ne ekler?
+answer: NUMS noktasının ayrık logaritmasını kimse bilmez; bu yüzden hiçbir anahtar-yolu imzası var olamaz. Rastgeleleştirme yalnızca gizlilik ekler.
+wrong_answers:
+  - NUMS noktası eğrinin dışındadır, bu yüzden anahtar-yolu imzaları başarısız olur; rastgeleleştirme onu yeniden eğri üzerine getirir.
+  - NUMS noktasının özel anahtarı sıfırdır ve konsensüs bunu reddeder; rastgeleleştirme tweak değerini yan kanallara karşı korur.
+  - Bir NUMS noktasına tweak uygulamak aralık-dışı bir anahtar üretir ve anahtar harcamasını standart dışı yapar; rastgeleleştirme adres yeniden kullanımını önler.
+explanation: >-
+  Bir NUMS ('Nothing-Up-My-Sleeve') noktası, karşılık gelen özel anahtarı
+  kimsenin bilmeyeceği şekilde inşa edilmiş tamamen geçerli bir eğri
+  noktasıdır — ayrık logaritması bilinmez. Anahtar-yolu harcaması iç anahtar
+  altında bir Schnorr imzası gerektirdiği ve özel anahtar olmadan böyle bir
+  imza üretilemediği için, anahtar harcama yolu kanıtlanabilir biçimde
+  kullanılamazdır ve fonlar yalnızca taahhüt edilmiş script yolu üzerinden
+  hareket edebilir. NUMS noktasını rastgeleleştirmek bunların hiçbirini
+  değiştirmez; yalnızca anahtar harcamasının devre dışı olduğunu gizler, bu
+  yüzden çıktı başka herhangi bir Taproot çıktısı gibi görünür — bir gizlilik
+  faydası.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Comment les vecteurs de longueur fixe sont-ils construits dans le système de types de Simplicity ?
+answer: Par des types produit imbriqués de longueur puissance de deux (par ex. A⁴ = A² × A²).
+wrong_answers:
+  - En utilisant un constructeur de type tableau spécial intégré au langage.
+  - Par des types somme récursifs qui enchaînent les éléments dans une liste.
+  - En utilisant des tampons de longueur variable ayant une taille maximale fixe.
+explanation: >-
+  Simplicity construit les vecteurs à partir de types produit imbriqués. A²
+  est A × A, A⁴ est A² × A², A⁸ est A⁴ × A⁴, et ainsi de suite. Cela donne
+  des collections de taille puissance de deux. Par exemple, 𝟚²⁵⁶ (un hash de
+  256 bits) est construit en imbriquant des produits sur 8 niveaux à partir
+  du type booléen.
+reviewed: false

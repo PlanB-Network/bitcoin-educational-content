@@ -137,10 +137,7 @@ The **Chapter ID** is a unique identifier for each chapter. This ID is a simply 
 
 ## Assets course folder
 
-The `/assets` subfolder contains all the images used in the course. In order to facilitate the maintenance and the potential translation of the images you will use 2 types of folders:
-
-1. a folder for images without any text, called `no-txt/`
-2. a folder per language for images with overlay. This folder will be named by the language code assigned to the corresponding language (eg. `en` or `es` for English or Spanish respectively)
+The `/assets` subfolder contains all the images used in the course. To facilitate maintenance and potential translation, use a folder per language for images with overlay. This folder is named by the language code assigned to the corresponding language (eg. `en` or `es` for English or Spanish respectively)
    - Although you are free to structure language-specific folders, the structure MUST remain the same between two different language. This rule makes it easier to automatically update the image path in the corresponding markdown file.
    - If you create a course, you can simply create image with text in English and later on start the [image translation process](how-to-translate-image.md)
 

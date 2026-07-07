@@ -1,0 +1,18 @@
+question: Efek Simplicity bersifat komutatif dan idempoten tetapi tidak uniter. Transformasi optimizer mana yang karenanya harus ditolak secara umum?
+answer: Mengganti ekspresi yang tampak mati dengan unit — Failure tidak uniter, sehingga bisa menyembunyikan pengecekan gagal yang seharusnya membatalkan (abort).
+wrong_answers:
+  - Menukar dua subekspresi independen, karena sig-all-hash bisa mengamati state environment yang berbeda.
+  - Menggabungkan dua panggilan verify yang identik, karena Failure yang terduplikasi akan melempar dua kali dan membatalkan secara keliru.
+  - Mengubah urutan ekspresi yang mungkin melempar, karena exception yang dipropagasikan bergantung pada sisi mana yang berjalan lebih dulu.
+explanation: >-
+  Karena efek Simplicity dijamin komutatif dan idempoten, menukar
+  subekspresi independen serta menduplikasi atau menggabungkan
+  subekspresi yang identik selalu aman; environment Reader bersifat
+  tetap, dan exception bertipe unit dari Failure identik terlepas dari
+  sisi mana yang melempar lebih dulu atau berapa kali. Transformasi
+  pembuangan `f ⨾ unit = unit`, bagaimanapun, membutuhkan uniteritas, yang
+  tidak dimiliki Failure: jika `f` mengandung sebuah `bip0340-verify`
+  pada signature yang tidak valid, menghilangkan kode 'mati' tersebut
+  akan mengoptimalkan hilangnya abort dan memvalidasi transaksi yang
+  seharusnya gagal.
+reviewed: false

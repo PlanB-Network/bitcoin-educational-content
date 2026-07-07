@@ -1,5 +1,5 @@
-question: Lightning mang lại lợi thế gì cho các thương gia về tính xác thực của thanh toán?
-answer: Thanh toán trên Lightning được hoàn tất gần như ngay lập tức, giúp giảm thiểu nguy cơ đảo ngược hoặc gian lận.
+question: Lightning mang lại lợi thế về tính xác thực thanh toán cho các bên giao thương như thế nào?
+answer: Thanh toán trên Lightning được hoàn tất gần như ngay lập tức, giúp giảm thiểu nguy cơ từ chối hoặc gian lận.
 wrong_answers:
   - Phải chờ 24 giờ trước khi có thể chi tiêu tiền.
   - Cho phép khách hàng đòi lại khoản thanh toán của mình bất cứ lúc nào.

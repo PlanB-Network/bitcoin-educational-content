@@ -1,0 +1,12 @@
+question: Co počítá poloviční sčítačka?
+answer: Přenos (AND) a součet (XOR) dvou vstupních bitů.
+wrong_answers:
+  - Součet dvou vícebitových celých čísel s šířením přenosu.
+  - Průměr dvou bitů zaokrouhlený dolů.
+  - Bitový OR a AND dvou vstupních bitů.
+explanation: >-
+  Poloviční sčítačka bere dva jednotlivé bity a produkuje dva výstupy pomocí
+  paralelní kompozice: bit přenosu (AND vstupů) a bit součtu (XOR vstupů).
+  V Simplicity je definována jako and ▵ xor, přičemž obě operace běží na
+  stejném páru vstupů.
+reviewed: false

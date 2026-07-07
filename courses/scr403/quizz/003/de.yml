@@ -1,0 +1,12 @@
+question: Was ist ein Summentyp (A + B) in Simplicity?
+answer: "Eine getaggte Vereinigung: ein Wert ist entweder ein links-getaggtes A oder ein rechts-getaggtes B."
+wrong_answers:
+  - Ein Typ, der alle Werte von A und B gleichzeitig enthält.
+  - Eine arithmetische Addition der Bitgrößen der beiden Komponententypen.
+  - Ein Funktionstyp, der jede Eingabe aus A auf eine Ausgabe in B abbildet.
+explanation: >-
+  Ein Summentyp A + B ist eine getaggte Vereinigung. Jeder Wert trägt ein
+  Ein-Bit-Tag, das angibt, ob es sich um eine linke Variante (vom Typ A)
+  oder eine rechte Variante (vom Typ B) handelt. Selbst wenn A und B derselbe
+  Typ sind, bleiben links-getaggte und rechts-getaggte Werte unterscheidbar.
+reviewed: false

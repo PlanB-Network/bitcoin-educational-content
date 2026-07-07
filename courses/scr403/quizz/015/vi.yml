@@ -1,0 +1,13 @@
+question: Tại sao tổ hợp tử 'case' lại bao gồm một kiểu môi trường dùng chung C trong chữ ký của nó?
+answer: Để cả hai nhánh có thể đọc dữ liệu ngữ cảnh dùng chung bên cạnh đầu vào có gắn thẻ.
+wrong_answers:
+  - Để giới hạn kích thước của đầu vào nhằm ngăn tràn ngăn xếp.
+  - Để cho phép các lời gọi đệ quy qua lại giữa hai nhánh.
+  - Để lưu trữ đầu ra của tổ hợp tử trước đó ở phần trước trong chuỗi.
+explanation: >-
+  Tổ hợp tử case có chữ ký (A + B) × C ⊢ D. Kiểu C bổ sung
+  đóng vai trò như một môi trường dùng chung mà cả nhánh trái (f : A × C ⊢ D)
+  và nhánh phải (g : B × C ⊢ D) đều có thể truy cập. Điều này mạnh hơn
+  một if-then-else đơn giản vì các nhánh nhận được cả dữ liệu cụ thể của chúng
+  lẫn thông tin ngữ cảnh cần thiết cho tính toán.
+reviewed: false

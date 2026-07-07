@@ -1,0 +1,15 @@
+question: Gegeven de typeregels met 'kleinere typen in de premissen', welke kerncombinators verplaatsen daadwerkelijk gegevens tijdens de uitvoering?
+answer: Alleen iden en comp; de andere zeven worden geïmplementeerd met niets meer dan boekhouding.
+wrong_answers:
+  - Alleen take en drop; het extraheren van één component dwingt de machine om het uit het product te kopiëren.
+  - Alleen pair en case; het dupliceren van de invoer voor twee takken en het routeren op basis van een tag verplaatsen gegevens.
+  - Alleen injl en injr; het toevoegen van een tag herschrijft de waarde naar een grotere representatie van het somtype.
+explanation: >-
+  Verrassend genoeg hebben de combinators die op gegevenstoegang lijken
+  (take, drop, pair, case, injl, injr) geen kopiëren nodig: omdat de
+  premissen in de typeregels kleinere typen betreffen dan hun
+  conclusies, kan de Bit Machine ze puur met boekhouding implementeren.
+  Alleen iden, dat zijn volledige invoer naar zijn uitvoer kopieert, en
+  comp, dat een tussenwaarde materialiseert die van f naar g wordt
+  doorgegeven, verplaatsen daadwerkelijk gegevens.
+reviewed: false

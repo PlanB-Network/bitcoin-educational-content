@@ -1,0 +1,17 @@
+question: Al momento della spesa un ramo case viene eliminato (pruned). Come può il verificatore far comunque corrispondere il programma rivelato al CMR impegnato?
+answer: Il CMR è una radice di Merkle, quindi lo spender fornisce solo il CMR del ramo eliminato e il verificatore lo integra per ricalcolare la radice.
+wrong_answers:
+  - Il verificatore usa solo il ramo eseguito, poiché i rami case non eseguiti non erano mai stati inclusi nel CMR.
+  - I rami eliminati diventano un segnaposto canonico il cui CMR fisso viene usato al posto loro nel ricalcolo della radice.
+  - Il codice completo del ramo eliminato resta nella witness, dove il verificatore lo esegue l'hash ma non lo esegue.
+explanation: >-
+  Il CMR di case f g è un hash taggato calcolato sui CMR di entrambi i
+  figli, quindi ogni ramo — eseguito o no — è impegnato al momento
+  dell'indirizzamento. Poiché la costruzione è un albero di Merkle, un
+  ramo eliminato può essere riassunto dal suo solo CMR a 32 byte: il
+  verificatore inserisce quell'hash nel calcolo ricorsivo e verifica che
+  la radice corrisponda all'impegno dell'UTXO, senza mai vedere il
+  codice eliminato. Questo è esattamente il motivo per cui si usa una
+  radice di Merkle per l'impegno, e perché qualsiasi espressione witness
+  all'interno del ramo eliminato non compare mai on-chain.
+reviewed: false

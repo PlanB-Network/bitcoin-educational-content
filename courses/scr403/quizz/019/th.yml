@@ -1,0 +1,13 @@
+question: buffer ความยาวแปรผันถูกแทนในระบบชนิดข้อมูลของ Simplicity อย่างไร?
+answer: เป็น products ของ option-type ที่ซ้อนกัน โดยแต่ละ layer ทำเครื่องหมาย block ที่มีขนาดเป็นกำลังของสอง
+wrong_answers:
+  - ใช้ชนิด dynamic array พิเศษที่สร้างไว้ในภาษาโดยตรง
+  - ผ่าน recursive sum types ที่โตขึ้นในแต่ละ function call
+  - เป็น fixed-size vectors ที่เติมค่าศูนย์ต่อท้ายให้เต็ม
+explanation: >-
+  buffers ใช้ option types ที่ซ้อนกัน ตัวอย่างเช่น Xᑉ⁸ ขยายเป็น
+  (1 + X⁴) × ((1 + X²) × (1 + X)) ซึ่งในรูป polynomial ให้
+  1 + X + X² + ... + X⁷ — แทน collection ที่มี element ตั้งแต่ 0 ถึง 7 ตัว
+  แต่ละ option layer บอกว่ามี block ที่มีขนาดเป็นกำลังของสองนั้นอยู่หรือไม่
+  ซึ่งเท่ากับ encode ความยาวเป็นฐานสองอย่างมีประสิทธิผล
+reviewed: false

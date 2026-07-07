@@ -1,0 +1,14 @@
+question: Wie hängen Simplicity und Gentzens Sequenzenkalkül zusammen?
+answer: Seine neun Kombinatoren spiegeln das konjunktiv-disjunktive Fragment des Sequenzenkalküls wider.
+wrong_answers:
+  - Simplicity wurde direkt aus Beweisen des Sequenzenkalküls in funktionierenden Code übersetzt.
+  - Gentzens Sequenzenkalkül wird zur Laufzeit verwendet, um Simplicity-Programme typzuprüfen.
+  - Sie stehen in keinerlei Zusammenhang, und die oberflächliche Ähnlichkeit ist reiner Zufall.
+explanation: >-
+  Die neun Kernregeln von Simplicity ähneln stark den Regeln in Gentzens
+  Sequenzenkalkül, analog zur Curry-Howard-Korrespondenz zwischen
+  Lambda-Kalkül und natürlicher Deduktion. Diese Verbindung stellt sicher,
+  dass die Typen in den Prämissen kleiner sind als in den Konklusionen,
+  was die Bit Machine für eine effiziente Ausführung mit minimalem
+  Datenkopieren ausnutzt.
+reviewed: false

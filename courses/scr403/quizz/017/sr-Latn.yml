@@ -1,0 +1,13 @@
+question: Kako funkcioniše notacija za pristup (O, I, H) u Simplicity-ju?
+answer: O znači 'take' (levo), I znači 'drop' (desno), a H znači 'iden' (cela vrednost).
+wrong_answers:
+  - O znači izlaz, I znači ulaz, a H znači zaustavljanje izvršavanja programa.
+  - To su imena promenljivih koja kompajler automatski dodeljuje vrednostima.
+  - O bira elemente na neparnim indeksima, I bira elemente na parnim indeksima, H bira glavu.
+explanation: >-
+  O/I/H skraćenica pruža kompaktan način za navigaciju kroz ugnežđene parove.
+  O f je take f (izvlači levo), I f je drop f (izvlači desno), a H je
+  iden (cela vrednost). Sekvence poput I O H znače drop(take(iden)),
+  izvlačeći prvi element drugog elementa. Ovo podseća na
+  De Bruijn indekse sa binarnim ciframa kao pozicijama u stablu.
+reviewed: false

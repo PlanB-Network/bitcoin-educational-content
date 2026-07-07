@@ -1,0 +1,13 @@
+question: Combien de combinateurs de base Simplicity possède-t-elle ?
+answer: Neuf (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - Trois (composition séquentielle, composition parallèle, conditionnelle).
+  - Cinq (uniquement les combinateurs comp, pair, case, take et drop).
+  - Douze (les neuf de base plus trois combinateurs d'extension supplémentaires).
+explanation: >-
+  Simplicity possède exactement neuf combinateurs de base. Deux opérations
+  élémentaires (iden et unit), trois méthodes de composition (comp, pair, case),
+  et quatre accesseurs (take, drop pour les produits, injl et injr pour les
+  sommes). Ces neuf combinateurs suffisent à exprimer toute fonction entre types
+  Simplicity.
+reviewed: false

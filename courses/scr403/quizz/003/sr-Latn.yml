@@ -1,0 +1,12 @@
+question: Šta je zbirni tip (A + B) u Simplicity-ju?
+answer: "Označena unija: vrednost je ili levo označen A ili desno označen B."
+wrong_answers:
+  - Tip koji istovremeno sadrži sve vrednosti i iz A i iz B.
+  - Aritmetički zbir bitskih veličina dve komponente tipova.
+  - Funkcijski tip koji preslikava svaki ulaz iz A u izlaz u B.
+explanation: >-
+  Zbirni tip A + B je označena unija. Svaka vrednost nosi jednobitnu oznaku
+  koja pokazuje da li je leva varijanta (tipa A) ili desna varijanta
+  (tipa B). Čak i kada su A i B isti tip, levo označene i
+  desno označene vrednosti ostaju različite.
+reviewed: false

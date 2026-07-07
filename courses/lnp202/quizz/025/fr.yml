@@ -6,4 +6,4 @@ wrong_answers:
   - Détection après la fin du timelock
 explanation: |
   La transaction de justice doit être diffusée avant l’expiration du timelock pour sanctionner la triche. Elle ne peut pas l'être avant le début du timelock ou de la publication de la TX, car cela voudrait dire que la triche n'a tout simplement pas eu lieu.
-reviewed: false
+reviewed: true 

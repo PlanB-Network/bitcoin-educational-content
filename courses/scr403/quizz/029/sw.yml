@@ -1,0 +1,15 @@
+question: Simplicity huondoa recursion isiyo na kikomo. Mbadala wake uliokusudiwa kwa iteration isiyo na kikomo ni upi?
+answer: Maagano ya kujirudia yanayosambaza computation katika miamala mingi, yakiweka gharama ya kila muamala kuwa ya kutabirika.
+wrong_answers:
+  - Kipengele cha delegation, kilichoundwa mahsusi kutoa aina iliyopimwa ya recursion isiyo na kikomo ndani ya muamala mmoja.
+  - Combinators tisa za msingi, ambazo completeness yake huruhusu fixed-point construction kusimba recursive function yoyote.
+  - Loop unrolling wakati wa compile-time, ambapo static analysis hutambua idadi ya juu ya iterations na kurudia body.
+explanation: >-
+  Thesis ya makala ni kwamba iteration isiyo na kikomo hutekelezwa vizuri zaidi
+  kama maagano ya kujirudia yanayokokotoa juu ya miamala mingi, jambo ambalo
+  huepuka vikwazo vya block-space na standardness na kufanya gharama za miamala
+  zitabirike. Delegation inaweza kutumiwa vibaya tu kuzalisha kitu
+  kinachofanana na recursion isiyo na kikomo — si utaratibu uliokusudiwa — na
+  combinators tisa za msingi ni complete tu kwa computations finyu, hivyo
+  hakuna fixed-point construction iliyopo ndani ya programu moja.
+reviewed: false

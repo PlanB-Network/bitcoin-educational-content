@@ -1,0 +1,14 @@
+question: ¿Por qué las expresiones de Simplicity se serializan como DAG en lugar de árboles?
+answer: Para evitar un crecimiento exponencial, ya que las subexpresiones compartidas se almacenan una sola vez.
+wrong_answers:
+  - Porque las estructuras de árbol simples no pueden representar en absoluto la ramificación condicional.
+  - Para permitir la ejecución paralela en muchos procesadores multinúcleo separados.
+  - Porque el protocolo de la red Liquid exige estrictamente el formato DAG aquí.
+explanation: >-
+  Las expresiones de Simplicity forman naturalmente árboles que podrían
+  crecer exponencialmente a medida que aumenta la complejidad. Al
+  serializarse como grafos acíclicos dirigidos (DAG), las subexpresiones
+  que aparecen varias veces se almacenan una sola vez y son referenciadas
+  por múltiples padres. Esto mantiene el crecimiento del tamaño real de los
+  programas en forma lineal en lugar de exponencial.
+reviewed: false

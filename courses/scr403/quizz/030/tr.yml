@@ -1,0 +1,15 @@
+question: "Hangi çekirdek-kombinatör ifadesi dist : (A + B) × C ⊢ A × C + B × C dağıtım fonksiyonunu uygular?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  case dalının her birinde ortam zaten etiketsiz değerle eşlenmiştir; bu yüzden
+  f = injl iden ve g = injr iden, ⟨σᴸ(a), c⟩ ↦ σᴸ⟨a, c⟩ ve ⟨σᴿ(b), c⟩ ↦
+  σᴿ⟨b, c⟩ verir — tam olarak dist. take/drop varyantı tip denetiminden
+  geçer ama eşlemeyi atar ve bunun yerine (A + B) × C ⊢ A + C tipinde bir
+  fonksiyonu gösterir. pair bir toplam yerine bir çarpım üretir ve copair
+  zaten bir Simplicity kombinatörü değildir — dist, copair tek başına
+  ifade edemediği şeyin ta kendisidir.
+reviewed: false

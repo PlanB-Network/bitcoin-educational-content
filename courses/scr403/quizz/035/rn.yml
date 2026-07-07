@@ -1,0 +1,14 @@
+question: Full-adder ikoresha OR ku bits za carry ziva muri half-adders zayo zibiri aho gukoresha XOR. Kubera iki OR ibereye?
+answer: Kuri input iyo ari yo yose, half-adder imwe gusa ni yo ishobora gutanga carry, rero OR ifatanya neza cases zibiri zitigera zihurirana.
+wrong_answers:
+  - Bits za carry zibwirizwa kwongerwa, kandi OR ni bwo buryo single-bit binary addition ikorwa muri Simplicity.
+  - Inyuma y'ukwo gushamika, OR ni yo operator ya Boolean yonyene ubwoko bwayo bugihuye na environment.
+  - OR igereranya carry hejuru cane; carries zose z'inyongera zidakenewe zirakurwa na final projection mu nyuma.
+explanation: >-
+  Iyo half-adder ya mbere itanze carry, bits zayo zibiri za input zari 1,
+  rero sum bit yayo iba 0 — kandi half-adder ihabwa 0 ntishobora na rimwe
+  gutanga carry. Bits za carry zibiri rero ntizishobora na rimwe kuba 1
+  zombi icarimwe, kandi OR irazifatanya neza (ku inputs zishobora gushikwako,
+  mbere ihura na XOR). Uku kudahurirana ni co gituma gusambura full-adder
+  mu ma half-adders abiri kuba kubereye.
+reviewed: false

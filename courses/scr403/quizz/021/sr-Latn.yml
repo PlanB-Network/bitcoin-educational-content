@@ -1,0 +1,12 @@
+question: "Zašto je Failure efekat komutativan u Simplicity-ju, iako izuzeci uopšteno nisu komutativni?"
+answer: Zato što je tip izuzetka jedinični (1) sa samo jednom vrednošću, pa redosled bacanja nije bitan.
+wrong_answers:
+  - Zato što Simplicity izvršava sve izraze determinističkim redosledom definisanim stablom kombinatora.
+  - Zato što case kombinator uvek uhvati Failure efekat i potom ga ponovo baci.
+  - Zato što Simplicity koristi grupnu verifikaciju, koja čini sve bačene izuzetke ekvivalentnim.
+explanation: >-
+  Uopšteno, izuzeci nisu komutativni jer različiti izrazi mogu baciti različite
+  vrednosti izuzetaka. Međutim, Simplicity ograničava izuzetke na jedinični tip (samo jedna moguća vrednost),
+  pa zamena redosleda dva izraza koja potencijalno mogu da otkažu proizvodi isti izuzetak bez obzira na to
+  koji od njih zaista otkaže. Ovo svojstvo komutativnosti omogućava važne optimizacije programa.
+reviewed: true

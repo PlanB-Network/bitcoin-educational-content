@@ -1,0 +1,14 @@
+question: Bagaimana notasi akses (O, I, H) bekerja dalam Simplicity?
+answer: O berarti 'take' (kiri), I berarti 'drop' (kanan), dan H berarti 'iden' (seluruh nilai).
+wrong_answers:
+  - O berarti output, I berarti input, dan H berarti halt eksekusi program.
+  - Ini adalah nama variabel yang ditetapkan compiler secara otomatis pada nilai.
+  - O memilih elemen berindeks ganjil, I memilih elemen berindeks genap, H memilih head.
+explanation: >-
+  Notasi singkat O/I/H menyediakan cara ringkas untuk menavigasi pair
+  bersarang. O f adalah take f (mengambil kiri), I f adalah drop f
+  (mengambil kanan), dan H adalah iden (seluruh nilai). Urutan seperti
+  I O H berarti drop(take(iden)), mengambil elemen pertama dari elemen
+  kedua. Ini menyerupai indeks De Bruijn dengan digit biner sebagai
+  posisi pohon.
+reviewed: false

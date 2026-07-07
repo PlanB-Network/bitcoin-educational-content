@@ -1,0 +1,13 @@
+question: Simplicity සහ Gentzenගේ sequent calculus අතර සම්බන්ධය කුමක්ද?
+answer: එහි සංයෝජක නවය sequent calculusහි conjunctive-disjunctive fragment එකට සමාන වේ.
+wrong_answers:
+  - Simplicity sequent calculus proofs වලින් සෘජුවම ක්‍රියාත්මක code බවට පරිවර්තනය කරන ලදී.
+  - Gentzenගේ sequent calculus runtime අවස්ථාවේ Simplicity programs type-check කිරීමට භාවිත කරයි.
+  - ඒවා සම්පූර්ණයෙන්ම අසම්බන්ධ වන අතර, මතුපිට සමානකම පිරිසිදු අහඹුවකි.
+explanation: >-
+  Simplicityහි core rules නවය Gentzenගේ sequent calculusහි නීතිවලට ඉතා සමීපව
+  සමාන වේ, lambda calculus සහ natural deduction අතර Curry-Howard correspondence එකට
+  සමාන ආකාරයකිනි. මෙම සම්බන්ධය premises තුළ ඇති types, conclusions තුළට වඩා කුඩා බව
+  සහතික කරයි; Bit Machine එය අවම data copying සමඟ කාර්යක්ෂම ක්‍රියාත්මක කිරීම සඳහා
+  ප්‍රයෝජනයට ගනී.
+reviewed: false

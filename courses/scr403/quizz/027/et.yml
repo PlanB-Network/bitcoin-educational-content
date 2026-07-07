@@ -1,0 +1,12 @@
+question: "Miks jäetakse witness-väärtused Commitment Merkle Rootist (CMR) välja?"
+answer: Et aadressid saaksid moodustuda enne witness'ite teadaolekut ja kasutamata harusid saaks privaatselt kärpida.
+wrong_answers:
+  - Sest witness-väärtused on lihtsalt liiga suured, et neid 256-bitisesse räsi lisada.
+  - Sest witness-väärtusi valideerib Failure effect täiesti eraldi.
+  - Sest witness-väärtuste lisamine muudaks CMR-i mittedeterministlikuks.
+explanation: >-
+  Witness-avaldised (nagu allkirjad) esitatakse kulutamise ajal, mitte aadressi loomise ajal.
+  Nende CMR-ist väljajätmine võimaldab kahte olulist omadust: aadresse saab genereerida enne,
+  kui kulutustehing on olemas, ja täitmata tingimuslikke harusid saab kärpida
+  ahelas olevatest andmetest ilma nendega seotud witness-väärtusi avaldamata.
+reviewed: true

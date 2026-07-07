@@ -6,4 +6,4 @@ wrong_answers:
   - Fungsi Gauss
 explanation: |
   Fungsi Phi Euler (atau fungsi totient) digunakan untuk menghitung jumlah coprime dari sebuah bilangan bulat N, terutama untuk bilangan bulat non-prima.
-reviewed: false
+reviewed: true

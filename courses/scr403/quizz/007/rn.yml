@@ -1,0 +1,11 @@
+question: Umuteranyi 'take' ukora iki?
+answer: Ukuramwo igice c'ibubamfu c'igikubo, ukata igice c'iburyo.
+wrong_answers:
+  - Ukura ikintu mu bwoko bw'igiteranyo, ugata intibice y'ikimenyetso.
+  - Uteranya ku murongo ibikorwa bibiri bitandukanye kuva ku ntango gushika ku mpera.
+  - Upfunyika agaciro n'ikimenyetso c'ibubamfu kugira wubake ubwoko bushasha bw'igiteranyo.
+explanation: >-
+  Umuteranyi take ni igikuramwo ku bwoko bw'igikubo. Uhawe take f
+  ikoreshwa ku mugwi w'ibibiri ⟨a, b⟩, uta b maze ugakoresha f kuri a. Ufatanijwe
+  na iden, take iden ikuramwo ikintu ca mbere c'umugwi uwo ari wo wose w'ibibiri.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Šta teorema kompletnosti garantuje o Simplicity-ju?
+answer: Da se bilo koja funkcija između dva Simplicity tipa može izgraditi od devet kombinatora.
+wrong_answers:
+  - Da se za Simplicity programe garantuje da se uvek završavaju u konstantnom vremenu.
+  - Da je Simplicity Tjuring-kompletan i da može simulirati bilo koju Tjuringovu mašinu.
+  - Da svaki važeći Simplicity program ima jednu jedinstvenu reprezentaciju.
+explanation: >-
+  Teorema kompletnosti dokazuje da za bilo koju funkciju između konačnih
+  Simplicity tipova postoji Simplicity izraz koji je izračunava.
+  Konstruktivan dokaz gradi tabelu za pretraživanje koristeći ugnežđene case i scribe
+  izraze. Ovo je formalno verifikovano u Rocq asistentu za dokazivanje.
+reviewed: false

@@ -1,0 +1,14 @@
+question: Arvestades tüübireegleid, mille eeldustes on väiksemad tüübid, millised põhikombinaatorid täitmise ajal tegelikult andmeid liigutavad?
+answer: Ainult iden ja comp; ülejäänud seitse rakendatakse üksnes arvestuse pidamisega.
+wrong_answers:
+  - Ainult take ja drop; ühe komponendi väljavõtmine sunnib masinat selle korrutisest välja kopeerima.
+  - Ainult pair ja case; sisendi dubleerimine kahe haru jaoks ja märgendi järgi suunamine segavad andmeid.
+  - Ainult injl ja injr; märgendi lisamine kirjutab väärtuse ümber suuremaks summatüübi esituseks.
+explanation: >-
+  Vastuintuitiivselt ei vaja andmepöördusena näivad kombinaatorid (take,
+  drop, pair, case, injl, injr) kopeerimist: kuna tüübireeglite eeldustes on
+  väiksemad tüübid kui nende järeldustes, saab Bit Machine neid rakendada
+  üksnes arvestuse pidamisega. Ainult iden, mis kopeerib kogu sisendi oma
+  väljundisse, ja comp, mis materialiseerib f-ist g-le antava vaheväärtuse,
+  liigutavad andmeid päriselt.
+reviewed: false

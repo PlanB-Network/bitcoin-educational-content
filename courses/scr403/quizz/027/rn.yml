@@ -1,0 +1,12 @@
+question: "Commitment Merkle Root (CMR) muri Simplicity ni iki?"
+answer: Hash ya 256-bit ishiramwo commitment ku structure ya porogarama ya Simplicity hakoreshejwe tagged SHA-256.
+wrong_answers:
+  - Tree ya binary irimwo inzira zose z'ikora zishoboka za porogarama ya Simplicity.
+  - Hash ya types za porogarama na witness values ikoreshwa mu kwemeza aderesi.
+  - Merkle root y'amakuru ya transaction porogarama yemerewe gushikira.
+explanation: >-
+  Buri combinator ya Simplicity ifise tag idasanzwe ya SHA-256 (nk'akarorero, Simplicity␟Commitment␟iden), kandi
+  CMR iharurwa mu guhasha mu buryo recursive tree ya combinator ya porogarama hakoreshejwe izo midstates zifise tags.
+  Ikihambaye, CMR ntiyiyemeza ku bwoko bwa expressions, ahubwo yizigira type inference
+  mu gihe co redemption. CMRs zikoreshwa mu gushira programs muri commitments mu maderesi ya Taproot.
+reviewed: true

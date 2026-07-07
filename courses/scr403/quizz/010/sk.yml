@@ -1,0 +1,12 @@
+question: Ako sa v typovom systéme Simplicity vytvárajú vektory s pevnou dĺžkou?
+answer: Pomocou vnorených súčinových typov s dĺžkou mocniny dvojky (napr. A⁴ = A² × A²).
+wrong_answers:
+  - Pomocou špeciálneho konštruktora poľového typu zabudovaného do jazyka.
+  - Pomocou rekurzívnych súčtových typov, ktoré reťazia prvky do zoznamu.
+  - Pomocou vyrovnávacích pamätí s premenlivou dĺžkou, ktoré majú pevnú maximálnu veľkosť.
+explanation: >-
+  Simplicity vytvára vektory z vnorených súčinových typov. A² je A × A,
+  A⁴ je A² × A², A⁸ je A⁴ × A⁴ a tak ďalej. To poskytuje kolekcie s veľkosťou
+  mocniny dvojky. Napríklad 𝟚²⁵⁶ (256-bitový hash) sa vytvára vnorením
+  súčinov do hĺbky 8 úrovní z logického typu.
+reviewed: false

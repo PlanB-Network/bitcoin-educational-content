@@ -1,9 +1,9 @@
-question: Je! ni sababu gani kuu kwa nini herufi zingine za Beale hazijafafanuliwa?
+question: Je! ni sababu gani kuu kwa nini maandishi mengine ya Beale hayajasimbuliwa?
 answer: Ufunguo wa maandishi haya bado haujulikani
 wrong_answers:
   - Maandishi yaliyosimbwa ni ya zamani sana
   - Sanduku lilipotea kabla halijaweza kufafanuliwa
   - Watafiti hawana hati za kihistoria za kuaminika
 explanation: |
-  Nakala zingine za Beale hazijawahi kufutwa kwa sababu ufunguo muhimu wa kuzisoma bado haujulikani, licha ya majaribio mengi.
-reviewed: false
+  Maandishi mingine ya Beale hayajawahi kusimbiliwa kwa sababu ufunguo muhimu wa kuyasoma bado haujulikani, licha ya majaribio mengi.
+reviewed: true

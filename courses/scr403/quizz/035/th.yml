@@ -1,0 +1,14 @@
+question: Trace full-adder บน ⟨⟨1,1⟩,1⟩ (1+1+1) ค่าใดที่ stage two, O O H ▵ (O I H ▵ I H ⨾ half-adder), ส่งต่อให้ final stage?
+answer: ⟨1, ⟨0, 1⟩⟩ — carry ของ half-adder ตัวแรก จากนั้นเป็น carry และ sum ของตัวที่สอง
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — carry ของ half-adder ตัวแรก จากนั้นเป็น sum และ carry ของตัวที่สอง
+  - ⟨0, ⟨0, 1⟩⟩ — บิต sum ของ half-adder ตัวแรก จากนั้นเป็น carry และ sum ของตัวที่สอง
+  - ⟨1, ⟨1, 1⟩⟩ — carry ของ half-adder ตัวแรก จากนั้นเป็นบิต OR และ XOR ของตัวที่สอง
+explanation: >-
+  Stage one คำนวณ half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) และบันทึก
+  carry-in ไว้ จึงได้ ⟨⟨1,0⟩, 1⟩ ใน stage two, O O H ดึง carry แรก
+  (1) ในขณะที่ O I H ▵ I H ป้อน ⟨0, 1⟩ — sum แรกและ carry-
+  in — เข้า half-adder ตัวที่สอง ได้ ⟨0, 1⟩ เพราะ and(0,1)=0 และ
+  xor(0,1)=1 จากนั้น final stage ทำ OR กับ carry ทั้งสองและเก็บ sum ไว้
+  สร้างผลลัพธ์ ⟨1, 1⟩: เลขฐานสอง 3 ตามที่คาดไว้
+reviewed: false

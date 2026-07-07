@@ -1,0 +1,16 @@
+question: SHA-256 compression icika jet, ariko combinators fold na map ntizishobora. Ni iki gisigura iryo tandukaniro?
+answer: Jet isubirira imvugo imwe idahinduka; fold na map si imvugo imwe, ahubwo ni schemas, zitanga imvugo itandukanye kuri buri function y'imbere f.
+wrong_answers:
+  - Jets zihutisha gusa code itagira amashami, rero combinators zisubiramwo zibwirizwa kubanza gufungurwa, hanyuma ntizibe zigihura na jet n'imwe.
+  - Imvugo zifise gusa igihinyuza ca Rocq kigenzuwe na machine ni zo zemerewe, ico gihinyuza kikaba kiri kuri SHA-256 ariko kitari ku folds.
+  - Folds ku vectors ngufi zirahendutse cane ku buryo ata nyungu zironka, rero jets zigenewe ibikorwa vya crypto bizimvye.
+explanation: >-
+  Jet ni umusubirizi native w'imvugo imwe ya Simplicity yihariye kandi
+  yuzuye, nodes zishobora gusubirizamwo mu gihe zigumya semantics yayo neza
+  na neza. fold-right-n, map, zip n'ama variants yavyo si imvugo imwe, ahubwo
+  ni schemes zo kwubaka: buri guhitamwo function y'imbere f gutanga imvugo
+  itandukanye mu structure, rero nta jet imwe ishobora guhagararira uwo
+  muryango wose. Ni co gituma izo patterns z'iteration ziboneka nka code
+  nyakuri ya combinator muri porogarama nyakuri, akenshi zikaba zakozwe
+  n'indimi zo ku rwego rwo hejuru nka SimplicityHL.
+reviewed: false

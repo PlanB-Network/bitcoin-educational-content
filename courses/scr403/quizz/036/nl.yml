@@ -1,0 +1,16 @@
+question: push-<n heeft type Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Waarom moet de uitvoer een som zijn die het volledige vectortype Aⁿ bevat?
+answer: Een buffer Aᑉⁿ bevat hoogstens n−1 items, dus levert het pushen op een volle buffer n items op — alleen Aⁿ kan dat representeren.
+wrong_answers:
+  - De som stelt aanroepers in staat de goedkopere codering te kiezen, aangezien vectoren compacter serialiseren dan optieproducten.
+  - Push kan mislukken op een lege buffer, en de Aⁿ-tak is het foutgeval dat de oude inhoud bevat.
+  - case vereist dat elke functie die een buffer van een somtype verbruikt, ook een uitvoer van een somtype produceert.
+explanation: >-
+  Aᑉⁿ is precies het type van lijsten waarvan de lengte strikt kleiner
+  is dan n, dus een buffer op maximale capaciteit bevat n−1 elementen.
+  Nog één pushen levert precies n elementen op, wat Aᑉⁿ niet kan
+  representeren; de Aⁿ-optelterm geeft dat overgelopen resultaat terug
+  als een volledige vector. Door de overloop in het uitvoertype te
+  coderen blijft push-<n een totale functie in plaats van een partiële
+  — het geval van de lege buffer die faalt hoort bij pop-<n, niet bij
+  push.
+reviewed: false

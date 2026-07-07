@@ -1,0 +1,12 @@
+question: Igikorwa ca AND co mu vy'ubwenge gikora gute muri Simplicity?
+answer: Gishamika ku ntibice ya mbere — iyo ari false gisubiza false, ahandi ho gisubiza intibice ya kabiri.
+wrong_answers:
+  - Kigwiza agaciro kabiri ka boolean gikoresheje ubwoko bw'igikubo.
+  - Gikoresha imeza yo kurondereramwo irimwo ibishoboka vyose bine vy'ivyinjizwa.
+  - Gikoresha umuteranyi XOR hanyuma kigakoresha umuteranyi NOT ku vyavuyemwo.
+explanation: >-
+  AND isigurwa nka case (injl unit) (drop iden). Umuteranyi case
+  ushamika ku ntibice ya mbere. Nimba ari false (ifise ikimenyetso c'ibubamfu), injl unit
+  isubiza false itaravye intibice ya kabiri. Nimba ari true (ifise ikimenyetso c'iburyo),
+  drop iden isubiza intibice ya kabiri idahindutse. Ivyo birahuye n'imeza y'ukuri ya AND.
+reviewed: false

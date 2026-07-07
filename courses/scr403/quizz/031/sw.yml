@@ -1,0 +1,14 @@
+question: Fuatilia full-adder kwenye ⟨⟨1,1⟩,1⟩ (1+1+1). Stage two, O O H ▵ (O I H ▵ I H ⨾ half-adder), hukabidhi thamani gani kwa hatua ya mwisho?
+answer: ⟨1, ⟨0, 1⟩⟩ — carry ya half-adder ya kwanza, kisha carry na sum ya ya pili.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — carry ya half-adder ya kwanza, kisha sum na carry ya ya pili.
+  - ⟨0, ⟨0, 1⟩⟩ — bit ya sum ya half-adder ya kwanza, kisha carry na sum ya ya pili.
+  - ⟨1, ⟨1, 1⟩⟩ — carry ya half-adder ya kwanza, kisha bit za OR na XOR za ya pili.
+explanation: >-
+  Stage one hukokotoa half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, sum 0) na kuhifadhi
+  carry-in, ikitoa ⟨⟨1,0⟩, 1⟩. Katika stage two, O O H huchomoa carry ya kwanza
+  (1), ilhali O I H ▵ I H hulisha ⟨0, 1⟩ — sum ya kwanza na carry-
+  in — kwenye half-adder ya pili, ikitoa ⟨0, 1⟩ kwa kuwa and(0,1)=0 na
+  xor(0,1)=1. Hatua ya mwisho kisha hufanya OR ya carry hizo mbili na kuhifadhi sum,
+  ikizalisha ⟨1, 1⟩: binary 3, kama inavyotarajiwa.
+reviewed: false

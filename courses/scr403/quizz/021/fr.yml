@@ -1,0 +1,15 @@
+question: "Pourquoi l'effet Failure est-il commutatif dans Simplicity, alors que les exceptions ne sont généralement pas commutatives ?"
+answer: Parce que le type d'exception est l'unité (1), qui n'a qu'une seule valeur, donc l'ordre des échecs n'a pas d'importance.
+wrong_answers:
+  - Parce que Simplicity exécute toutes les expressions dans un ordre déterministe défini par l'arbre de combinateurs.
+  - Parce que l'effet Failure est toujours capturé puis relancé par le combinateur case.
+  - Parce que Simplicity utilise la vérification par lots, ce qui rend toutes les exceptions levées équivalentes.
+explanation: >-
+  En général, les exceptions ne sont pas commutatives car différentes
+  expressions peuvent lever des valeurs d'exception différentes.
+  Cependant, Simplicity restreint les exceptions au type unité (une seule
+  valeur possible), de sorte qu'échanger l'ordre de deux expressions
+  pouvant échouer produit la même exception, quelle que soit celle qui
+  échoue réellement. Cette propriété de commutativité permet d'importantes
+  optimisations de programme.
+reviewed: true

@@ -1,0 +1,16 @@
+question: Missä mielessä ehdollinen kompositio on rinnakkaisen komposition duaali?
+answer: Rinnakkainen syöttää molemmille operaatioille yhden syötteen ja parittaa niiden tulosteet (tulo); ehdollinen ottaa syötteiden summan ja molemmat haarat jakavat yhden tulostetyypin.
+wrong_answers:
+  - Rinnakkaisen täytyy ajaa kaksi operaatiotaan samanaikaisesti; ehdollinen ajaa ne peräkkäin ja palauttaa vain tunnisteen valitseman haaran.
+  - Molemmat ajetaan yhdellä jaetulla syötteellä; rinnakkainen säilyttää tulosteparin, kun taas ehdollinen ajaa molemmat haarat ja hylkää valitsemattoman.
+  - Rinnakkainen monistaa syötteensä etukäteen ja ehdollinen monistaa tulosteensa jälkikäteen, vaihtaen sen, missä kopiointi tapahtuu.
+explanation: >-
+  Duaalisuus on tulon/summan vaihto, jossa jaettu tyyppi vaihtaa
+  puolta: rinnakkainen kompositio antaa molemmille operaatioille saman syötetyypin
+  ja parittaa niiden tulosteet tuloksi, kun taas ehdollinen kompositio
+  ottaa kahden syötetyypin summan (tunnisteellisen unionin) ja molempien haarojen täytyy
+  tuottaa sama tulostetyyppi. Samanaikaisuus on merkityksetöntä — artikkeli
+  korostaa, että rinnakkainen kompositio voidaan toteuttaa peräkkäisesti — ja
+  ehdollinen kompositio suorittaa täsmälleen yhden haaran, jonka tunniste valitsee,
+  sen sijaan että ajaisi molemmat ja hylkäisi yhden.
+reviewed: false

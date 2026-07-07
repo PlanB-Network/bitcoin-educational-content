@@ -1,0 +1,17 @@
+question: En quel sens la composition conditionnelle est-elle le dual de la composition parallèle ?
+answer: La composition parallèle fournit la même entrée aux deux opérations et associe leurs sorties (un produit) ; la conditionnelle prend une somme d'entrées et les deux branches partagent un même type de sortie.
+wrong_answers:
+  - La composition parallèle doit exécuter ses deux opérations simultanément ; la conditionnelle les exécute séquentiellement et ne renvoie que la branche sélectionnée par l'étiquette.
+  - Les deux s'exécutent sur une entrée partagée ; la parallèle conserve la paire de sorties, tandis que la conditionnelle exécute les deux branches et rejette celle qui n'est pas sélectionnée.
+  - La parallèle duplique son entrée au préalable tandis que la conditionnelle duplique sa sortie après coup, inversant simplement le moment où la copie a lieu.
+explanation: >-
+  La dualité est un échange produit/somme où le type partagé change de
+  côté : la composition parallèle donne aux deux opérations le même type
+  d'entrée et associe leurs sorties en un produit, tandis que la
+  composition conditionnelle prend une somme (union étiquetée) des deux
+  types d'entrée, et les deux branches doivent produire le même type de
+  sortie. La simultanéité n'a pas d'importance — l'article souligne que la
+  composition parallèle peut être implémentée séquentiellement — et la
+  composition conditionnelle exécute exactement une branche, choisie par
+  l'étiquette, plutôt que d'exécuter les deux et d'en rejeter une.
+reviewed: false

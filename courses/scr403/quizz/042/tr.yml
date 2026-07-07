@@ -1,0 +1,16 @@
+question: Harcama zamanında bir case dalı budanır. Doğrulayıcı açığa çıkarılan programı taahhüt edilmiş CMR ile hâlâ nasıl eşleştirebilir?
+answer: CMR bir Merkle köküdür; bu yüzden harcayan yalnızca budanan dalın CMR değerini sağlar ve doğrulayıcı kökü yeniden hesaplamak için onu içe katar.
+wrong_answers:
+  - Doğrulayıcı yalnızca yürütülen dalı kullanır; çünkü yürütülmeyen case dalları zaten CMR içinde hiç yoktu.
+  - Budanan dallar, kök yeniden hesaplanırken yerlerini alan sabit CMR değeri olan kanonik bir yer tutucuya dönüşür.
+  - Budanan dalın tam kodu witness içinde kalır; doğrulayıcı onun için hash hesaplar ama onu yürütmez.
+explanation: >-
+  case f g ifadesinin CMR değeri iki çocuğun CMR değerleri üzerinde etiketli bir hash değeridir;
+  bu yüzden yürütülsün ya da yürütülmesin her dal adres oluşturma zamanında
+  taahhüt edilir. İnşa bir Merkle ağacı olduğu için budanan bir dal yalnızca
+  32 baytlık CMR değeriyle özetlenebilir: doğrulayıcı bu hash değerini özyinelemeli
+  hesaba yerleştirir ve budanan kodu hiç görmeden kökün UTXO taahhüdüyle
+  eşleştiğini denetler. Taahhüt için Merkle kökü kullanılmasının ve budanan
+  daldaki herhangi bir witness ifadesinin zincir üstünde hiç görünmemesinin
+  nedeni tam olarak budur.
+reviewed: false

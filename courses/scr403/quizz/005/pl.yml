@@ -1,0 +1,11 @@
+question: Co robi kombinator 'take'?
+answer: Wyodrębnia lewy składnik iloczynu, odrzucając prawy.
+wrong_answers:
+  - Usuwa element z typu sumy, odrzucając bit tagu.
+  - Składa sekwencyjnie dwie oddzielne operacje jedna po drugiej.
+  - Opakowuje wartość lewym tagiem, aby zbudować nowy typ sumy.
+explanation: >-
+  Kombinator take jest ekstraktorem dla typów iloczynu. Gdy take f
+  zostanie zastosowany do pary ⟨a, b⟩, odrzuca b i stosuje f do a. W połączeniu
+  z iden, take iden wyodrębnia pierwszy element dowolnej pary.
+reviewed: false

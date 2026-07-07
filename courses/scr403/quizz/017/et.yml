@@ -1,0 +1,13 @@
+question: Kuidas töötab juurdepääsunotatsioon (O, I, H) Simplicitys?
+answer: O tähendab 'take' (vasak), I tähendab 'drop' (parem) ja H tähendab 'iden' (kogu väärtus).
+wrong_answers:
+  - O tähendab väljundit, I tähendab sisendit ja H tähendab programmi täitmise peatamist.
+  - Need on muutujanimed, mille kompilaator väärtustele automaatselt määrab.
+  - O valib paaritu indeksiga elemendid, I valib paaris indeksiga elemendid, H valib pea.
+explanation: >-
+  O/I/H lühikirjaviis annab kompaktse viisi pesastatud paarides liikumiseks.
+  O f on take f (eraldab vasaku), I f on drop f (eraldab parema) ja H on
+  iden (kogu väärtus). Jadad nagu I O H tähendavad drop(take(iden)),
+  eraldades teise elemendi esimese elemendi. See meenutab De Bruijni
+  indekseid, kus binaarnumbrid on puu positsioonid.
+reviewed: false

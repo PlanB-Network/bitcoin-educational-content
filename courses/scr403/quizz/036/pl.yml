@@ -1,0 +1,15 @@
+question: push-<n ma typ Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Dlaczego jego wyjście musi być sumą obejmującą pełny typ wektora Aⁿ?
+answer: Bufor Aᑉⁿ przechowuje co najwyżej n−1 elementów, więc wepchnięcie do pełnego bufora daje n elementów — tylko Aⁿ może to reprezentować.
+wrong_answers:
+  - Suma pozwala wywołującym wybrać tańsze kodowanie, ponieważ wektory serializują się bardziej zwięźle niż produkty opcjonalne.
+  - Push może zawieść na pustym buforze, a gałąź Aⁿ jest przypadkiem błędu przenoszącym starą zawartość.
+  - case wymaga, aby każda funkcja przyjmująca bufor typu sumowego również produkowała wyjście typu sumowego.
+explanation: >-
+  Aᑉⁿ jest dokładnie typem list, których długość jest ściśle mniejsza niż n,
+  więc bufor o maksymalnej pojemności przechowuje n−1 elementów. Wepchnięcie
+  jeszcze jednego daje dokładnie n elementów, których Aᑉⁿ nie może
+  reprezentować; składnik sumy Aⁿ zwraca ten przepełniony wynik jako pełny
+  wektor. Zakodowanie przepełnienia w typie wyjściowym sprawia, że push-<n
+  pozostaje funkcją całkowitą, a nie częściową — przypadek błędu pustego
+  bufora należy do pop-<n, a nie do push.
+reviewed: false

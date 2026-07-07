@@ -1,0 +1,14 @@
+question: "bip0340-verify neden bir Boole (true/false) döndürmek yerine Failure etkisini kullanır?"
+answer: Bir başarısız kontrolün tüm toplu doğrulamayı başarısız kıldığı Schnorr imzalarının toplu doğrulamasını mümkün kılmak için.
+wrong_answers:
+  - Çünkü Boole türleri, birim türüne kıyasla blok alanı açısından çok pahalıdır.
+  - Çünkü Simplicity'nin tür sistemi jet'lerden gelen Boole dönüş değerlerini temsil edemez.
+  - Çünkü düz bir Boole değeri döndürmek tamlık teoremini doğrudan ihlal ederdi.
+explanation: >-
+  bip0340-verify bir Boole döndürseydi, başarısız bir imza kontrolü yine de
+  betiğin başarılı olduğu bir dala yol açabilirdi. Bu durumda doğrulayıcının hangi
+  belirli imzanın başarısız olduğunu bilmesi gerekir ve bu da toplu doğrulamayı
+  engellerdi. Failure etkisi kullanıldığında, başarısız bir kontrol her zaman tüm
+  hesaplamayı sonlandırır; böylece birçok imzanın birlikte havuzlandığı verimli
+  toplu doğrulama mümkün olur.
+reviewed: true

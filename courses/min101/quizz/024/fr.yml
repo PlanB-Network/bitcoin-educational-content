@@ -6,4 +6,4 @@ wrong_answers:
   - Le caractère périodique du hachage
 explanation: |
   Chaque hachage est un essai indépendant, ce qui rend les temps de découverte aléatoires même à hashrate constant.
-reviewed: false
+reviewed: true 

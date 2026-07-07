@@ -1,0 +1,13 @@
+question: ¿Qué es el tipo unidad (𝟙) y por qué es útil a pesar de no aportar información?
+answer: Contiene un único valor (la tupla vacía) y es la base de todos los demás tipos.
+wrong_answers:
+  - Representa el número 1 y se usa directamente para operaciones aritméticas.
+  - Es un tipo especial de depuración que registra trazas de ejecución en un archivo.
+  - Almacena exactamente un bit de datos usado para operaciones booleanas.
+explanation: >-
+  El tipo unidad 𝟙 tiene exactamente un valor — la tupla vacía ⟨⟩. Aunque
+  no aporta ningún bit de información, es esencial como semilla a partir de
+  la cual los tipos suma y producto construyen todos los tipos de datos
+  útiles. Por ejemplo, el tipo booleano 𝟚 es 𝟙 + 𝟙, construido enteramente
+  a partir de tipos unidad.
+reviewed: false

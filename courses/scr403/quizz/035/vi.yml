@@ -1,0 +1,14 @@
+question: Lần theo full-adder trên ⟨⟨1,1⟩,1⟩ (1+1+1). Giai đoạn hai, O O H ▵ (O I H ▵ I H ⨾ half-adder), chuyển giá trị nào cho giai đoạn cuối?
+answer: ⟨1, ⟨0, 1⟩⟩ — bit nhớ của half-adder thứ nhất, rồi bit nhớ và bit tổng của half-adder thứ hai.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — bit nhớ của half-adder thứ nhất, rồi bit tổng và bit nhớ của half-adder thứ hai.
+  - ⟨0, ⟨0, 1⟩⟩ — bit tổng của half-adder thứ nhất, rồi bit nhớ và bit tổng của half-adder thứ hai.
+  - ⟨1, ⟨1, 1⟩⟩ — bit nhớ của half-adder thứ nhất, rồi các bit OR và XOR của half-adder thứ hai.
+explanation: >-
+  Giai đoạn một tính half-adder⟨1,1⟩ = ⟨1, 0⟩ (bit nhớ 1, bit tổng 0) và lưu
+  carry-in, cho ra ⟨⟨1,0⟩, 1⟩. Trong giai đoạn hai, O O H trích xuất bit nhớ
+  thứ nhất (1), còn O I H ▵ I H đưa ⟨0, 1⟩ — bit tổng thứ nhất và carry-in —
+  vào half-adder thứ hai, cho ra ⟨0, 1⟩ vì and(0,1)=0 và xor(0,1)=1. Giai
+  đoạn cuối sau đó lấy OR của hai bit nhớ và giữ lại bit tổng, tạo ra
+  ⟨1, 1⟩: số nhị phân 3, đúng như kỳ vọng.
+reviewed: false

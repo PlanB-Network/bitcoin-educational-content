@@ -1,0 +1,16 @@
+question: SHA-256 compression एक jet बन जाता है, लेकिन fold और map combinators ऐसा नहीं कर सकते। इस asymmetry की वजह क्या है?
+answer: Jet एक fixed expression को replace करता है; fold और map single expressions नहीं बल्कि schemas हैं, जो हर inner function f के लिए अलग expression देते हैं।
+wrong_answers:
+  - Jets केवल straight-line code को accelerate करते हैं, इसलिए iterating combinators को पहले unroll करना पड़ता है और फिर वे किसी jet से match नहीं करते।
+  - केवल machine-checked Rocq proof वाले expressions qualify करते हैं, जो SHA-256 के लिए मौजूद है लेकिन folds के लिए नहीं।
+  - Short vectors पर folds इतने cheap हैं कि benefit नहीं मिलता, इसलिए jets costly crypto operations के लिए reserved हैं।
+explanation: >-
+  Jet एक specific, fully-formed Simplicity expression का native replacement है,
+  जिसे nodes उसकी exact semantics preserve करते हुए substitute कर सकते हैं।
+  fold-right-n, map, zip और उनके variants single expressions नहीं बल्कि
+  construction schemes हैं: inner function f की हर choice structurally different
+  expression देती है, इसलिए कोई single jet पूरी family की जगह नहीं ले सकता। यही
+  वजह है कि ये iteration patterns real programs में genuine combinator code के रूप
+  में appear होते हैं, आम तौर पर SimplicityHL जैसी higher-level languages द्वारा
+  generated।
+reviewed: false

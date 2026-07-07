@@ -1,0 +1,13 @@
+question: How does the logical AND operation work in Simplicity?
+answer: It branches on the first bit — if false it returns false, else the second bit.
+wrong_answers:
+  - It multiplies the two boolean values together using the product type.
+  - It uses a lookup table with all four possible input combinations.
+  - It applies the XOR combinator and then the NOT combinator to the result.
+explanation: >-
+  AND is defined as case (injl unit) (drop iden). The case combinator
+  branches on the first bit. If it's false (left-tagged), injl unit
+  returns false regardless of the second bit. If it's true (right-tagged),
+  drop iden returns the second bit unchanged. This matches the AND truth
+  table.
+reviewed: false

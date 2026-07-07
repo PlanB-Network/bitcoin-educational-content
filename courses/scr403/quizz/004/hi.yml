@@ -1,0 +1,12 @@
+question: Simplicity में sum type (A + B) क्या है?
+answer: "एक tagged union: कोई value या तो left-tagged A होती है या right-tagged B।"
+wrong_answers:
+  - ऐसा type जिसमें A और B दोनों की सभी values simultaneously होती हैं।
+  - दोनों component types के bit sizes का arithmetic addition।
+  - ऐसा function type जो A से हर input को B में किसी output पर map करता है।
+explanation: >-
+  Sum type A + B एक tagged union है। प्रत्येक value एक one-bit tag carry
+  करती है, जो बताता है कि वह left variant (type A की) है या right variant
+  (type B की)। जब A और B same type हों, तब भी left-tagged और right-tagged
+  values distinct रहती हैं।
+reviewed: false

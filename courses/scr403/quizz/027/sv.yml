@@ -1,0 +1,12 @@
+question: "Varför utesluts vittnesvärden från Commitment Merkle Root (CMR)?"
+answer: Så att adresser kan skapas innan vittnen är kända, och oanvända grenar kan beskäras privat.
+wrong_answers:
+  - Eftersom vittnesvärden helt enkelt är alldeles för stora för att inkluderas i en 256-bitars hash.
+  - Eftersom vittnesvärden valideras helt separat av Failure-effekten.
+  - Eftersom det skulle göra CMR:en icke-deterministisk att inkludera vittnesvärdena.
+explanation: >-
+  Vittnesuttryck (som signaturer) tillhandahålls vid tidpunkten för spendering, inte vid
+  adressskapandet. Genom att utesluta dem från CMR:en möjliggörs två viktiga egenskaper: adresser
+  kan genereras innan spenderingstransaktionen existerar, och oexekverade villkorsgrenar kan
+  beskäras från on-chain-data utan att avslöja deras tillhörande vittnesvärden.
+reviewed: true

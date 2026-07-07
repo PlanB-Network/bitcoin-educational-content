@@ -1,0 +1,16 @@
+question: Mis mõttes on tingimuslik kompositsioon paralleelse kompositsiooni duaal?
+answer: Paralleelne annab mõlemale operatsioonile ühe sisendi ja paaristab nende väljundid (korrutis); tingimuslik võtab sisendite summa ning mõlemal harul on üks ühine väljunditüüp.
+wrong_answers:
+  - Paralleelne peab käitama oma kahte operatsiooni samaaegselt; tingimuslik käitab neid järjest ja tagastab ainult sildi valitud haru.
+  - Mõlemad töötavad ühe jagatud sisendiga; paralleelne jätab väljundipaari alles, samas kui tingimuslik käitab mõlemad harud ja viskab valimata haru ära.
+  - Paralleelne dubleerib enne oma sisendi, samas kui tingimuslik dubleerib pärast oma väljundi, vahetades ära koha, kus kopeerimine toimub.
+explanation: >-
+  Duaalsus on korrutise/summa vahetus, kus jagatud tüüp vahetab
+  pooli: paralleelne kompositsioon annab mõlemale operatsioonile sama sisendtüübi
+  ja paaristab nende väljundid korrutiseks, samas kui tingimuslik kompositsioon
+  võtab kahe sisendtüübi summa (sildistatud ühendi) ja mõlemad harud peavad
+  andma sama väljunditüübi. Samaaegsus ei ole asjakohane — artikkel
+  rõhutab, et paralleelset kompositsiooni võib teostada järjestikku — ja
+  tingimuslik kompositsioon täidab täpselt ühe haru, mille valib silt,
+  mitte ei käita mõlemat ega viska üht ära.
+reviewed: false

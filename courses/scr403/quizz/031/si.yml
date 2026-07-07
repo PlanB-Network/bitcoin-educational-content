@@ -1,0 +1,14 @@
+question: "\"premises තුළ කුඩා types\" යන typing rules අනුව, execution අතරතුර ඇත්තටම data ගෙනයන්නේ කුමන core combinators ද?"
+answer: iden සහ comp පමණි; අනෙක් හත bookkeeping හැර වෙන කිසිවකින් තොරව ක්‍රියාත්මක වේ.
+wrong_answers:
+  - take සහ drop පමණි; එක් component එකක් extract කිරීම machine එකට එය product එකෙන් copy out කිරීමට බල කරයි.
+  - pair සහ case පමණි; branch දෙකට input එක duplicate කිරීම සහ tag එකක් මත dispatch කිරීම data shuffle කරයි.
+  - injl සහ injr පමණි; tag එකක් එකතු කිරීම value එක විශාල sum-type representation එකකට නැවත ලියයි.
+explanation: >-
+  ප්‍රතිවිරුද්ධ ලෙස පෙනුණත්, data access මෙන් පෙනෙන combinators (take,
+  drop, pair, case, injl, injr) ට copying අවශ්‍ය නැත: typing rules හි
+  premises ඒවායේ conclusions ට වඩා කුඩා types සම්බන්ධ කරන නිසා, Bit
+  Machine එකට ඒවා bookkeeping පමණින් ක්‍රියාත්මක කළ හැක. තම සම්පූර්ණ input එක
+  output එකට copy කරන iden සහ f වෙතින් g වෙත යවන intermediate value එකක් materialize කරන comp පමණක්
+  ඇත්තටම data ගෙනයයි.
+reviewed: false

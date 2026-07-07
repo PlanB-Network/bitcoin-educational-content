@@ -1,0 +1,13 @@
+question: Simplicity और Gentzen के sequent calculus के बीच क्या संबंध है?
+answer: इसके नौ कॉम्बिनेटर sequent calculus के conjunctive-disjunctive खंड को प्रतिबिंबित करते हैं।
+wrong_answers:
+  - Simplicity को sequent calculus प्रमाणों से सीधे काम करने वाले कोड में अनुवादित किया गया था।
+  - Gentzen का sequent calculus रनटाइम पर Simplicity प्रोग्रामों की टाइप-जाँच के लिए उपयोग किया जाता है।
+  - वे पूरी तरह असंबंधित हैं, और सतही समानता केवल संयोग है।
+explanation: >-
+  Simplicity के नौ मुख्य नियम Gentzen के sequent calculus के नियमों से
+  काफ़ी मिलते-जुलते हैं, जैसे lambda calculus और natural deduction के बीच
+  Curry-Howard correspondence। यह संबंध सुनिश्चित करता है कि premises में
+  मौजूद types conclusions की तुलना में छोटे हों, जिसका Bit Machine
+  डेटा की न्यूनतम प्रतिलिपि बनाकर कुशल निष्पादन के लिए लाभ उठाती है।
+reviewed: false

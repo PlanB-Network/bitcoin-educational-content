@@ -1,0 +1,12 @@
+question: ¿Qué produce la composición secuencial al encadenar la operación f (A → B) con la operación g (B → C)?
+answer: Una única operación compuesta de A a C, donde la salida de f alimenta a g.
+wrong_answers:
+  - Un valor par que contiene ambas salidas intermedias de tipo B y C.
+  - Un condicional que elige entre f y g según la entrada.
+  - Dos operaciones separadas que se ejecutan de forma independiente, sin compartir datos.
+explanation: >-
+  La composición secuencial encadena dos operaciones de principio a fin. La
+  salida de la primera operación se convierte en la entrada de la segunda.
+  En Simplicity, esto se expresa con el combinador comp: comp f g aplica
+  primero f y luego g al resultado.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Kubera iki Simplicity ikoresha isesengura ridahinduka aho gukoresha uburyo bwa gas buhindagurika nka Ethereum?
+answer: Kugira hamenyekane imbibe z'ibikoresho imbere y'uko ishira mu ngiro ritangura, bigatanga ibiciro bitegekanywa.
+wrong_answers:
+  - Kubera ko isesengura ridahinduka ryihuta cane gusa kurishira mu ngiro ku bategura.
+  - Kubera ko uburyo bwa gas bwa Ethereum bwari bufise patent rero ntibwari buboneka.
+  - Kubera ko porogarama za Simplicity ari ngufi cane ku buryo zitokwigera zikenera vy'ukuri gupimwa.
+explanation: >-
+  Isesengura ridahinduka rya Simplicity rituma urubuga rumenya neza
+  ingene ikomputa porogarama ikeneye imbere y'uko ikora. Ivyo bikuraho
+  ukudategekanywa kw'ugupima guhindagurika, bikarinda denial-of-service
+  biciye mu guhera kw'ibikoresho, kandi bigatuma ama node ashobora kwanka porogarama
+  zirenza imbibe ata gukoresha ikomputa gupfa ubusa.
+reviewed: false

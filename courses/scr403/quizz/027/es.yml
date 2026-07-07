@@ -1,0 +1,13 @@
+question: "¿Por qué se excluyen los valores testigo de la Raíz de Merkle de Compromiso (CMR)?"
+answer: Para que las direcciones se formen antes de conocerse los valores testigo, y las ramas no usadas se puedan podar en privado.
+wrong_answers:
+  - Porque los valores testigo son sencillamente demasiado grandes para incluirlos en un hash de 256 bits.
+  - Porque los valores testigo se validan de forma totalmente independiente mediante el efecto Failure.
+  - Porque incluir los valores testigo haría que la CMR fuera no determinista.
+explanation: >-
+  Las expresiones testigo (como las firmas) se proporcionan en el momento del gasto, no en el
+  momento de la creación de la dirección. Excluirlas de la CMR permite dos propiedades
+  importantes: las direcciones pueden generarse antes de que exista la transacción de gasto, y las
+  ramas condicionales no ejecutadas pueden podarse de los datos on-chain sin revelar sus valores
+  testigo asociados.
+reviewed: true

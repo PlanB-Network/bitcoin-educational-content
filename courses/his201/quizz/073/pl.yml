@@ -1,4 +1,4 @@
-question: Która amerykańska federalna służba wywiadowcza zaprosiła Gavina Andresena w kwietniu 2011 roku, by kilka miesięcy później zaprezentować Bitcoin?
+question: Która amerykańska federalna służba wywiadowcza zaprosiła Gavina Andresena w kwietniu 2011 roku, by kilka miesięcy później zaprezentował Bitcoina?
 answer: CIA
 wrong_answers:
   - FBI
@@ -6,4 +6,4 @@ wrong_answers:
   - DEA
 explanation: |
   Mówiąc dokładniej, był to In-Q-Tel, amerykański fundusz venture capital zarządzany przez CIA, ale wizyta rzeczywiście miała miejsce w siedzibie CIA.
-reviewed: false
+reviewed: true

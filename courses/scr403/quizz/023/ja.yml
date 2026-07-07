@@ -1,0 +1,13 @@
+question: "sig-all-hash が、トランザクションデータを型付き入力として受け取るのではなく Reader エフェクトを使うのはなぜですか？"
+answer: jet が PrecomputedTransactionData を使い、固定された環境上で定数時間で実行できるようにするためです。
+wrong_answers:
+  - Simplicity の型システムは、根本的にトランザクションデータを型として表現できないから。
+  - Reader エフェクトは、そのデータをコンビネータツリーを通して渡すより高速だから。
+  - トランザクションデータは大きすぎて、Simplicity の固定サイズ型システムには収まらないから。
+explanation: >-
+  sig-all-hash が TxEnv 入力型を受け取る場合、プログラムはトランザクションデータの変更されたコピーを
+  jet に渡せてしまい、事前計算されたハッシュを使えなくします。Reader エフェクトでは、jet は固定された
+  不変のトランザクション環境だけにアクセスするため、その実装は安全に
+  PrecomputedTransactionData を使い、署名検査ごとに定数時間で実行でき、初期の Bitcoin Script を苦しめた
+  二次のハッシュ問題を避けられます。
+reviewed: true

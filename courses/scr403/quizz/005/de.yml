@@ -1,0 +1,12 @@
+question: Was macht der 'take'-Kombinator?
+answer: Er extrahiert die linke Komponente eines Produkts und verwirft die rechte.
+wrong_answers:
+  - Er entfernt ein Element aus einem Summentyp und verwirft das Tag-Bit.
+  - Er komponiert zwei separate Operationen sequentiell von Anfang bis Ende.
+  - Er verpackt einen Wert mit einem linken Tag, um einen neuen Summentyp zu erzeugen.
+explanation: >-
+  Der take-Kombinator ist ein Extraktor für Produkttypen. Wenn take f auf
+  ein Paar ⟨a, b⟩ angewendet wird, verwirft er b und wendet f auf a an.
+  Kombiniert mit iden extrahiert take iden das erste Element eines beliebigen
+  Paares.
+reviewed: false

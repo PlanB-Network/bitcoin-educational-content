@@ -1,0 +1,12 @@
+question: Aina ya sum (A + B) ni nini katika Simplicity?
+answer: "Union yenye tagi: thamani huwa ama A yenye tagi ya kushoto au B yenye tagi ya kulia."
+wrong_answers:
+  - Aina iliyo na thamani zote kutoka A na B kwa wakati mmoja.
+  - Kujumlisha kwa kihisabati kwa ukubwa wa biti wa aina mbili zinazoiunda.
+  - Aina ya function inayochora kila ingizo kutoka A hadi matokeo katika B.
+explanation: >-
+  Aina ya sum A + B ni union yenye tagi. Kila thamani hubeba tagi ya biti
+  moja inayoonyesha kama ni variant ya kushoto (ya aina A) au variant ya
+  kulia (ya aina B). Hata wakati A na B ni aina ileile, thamani zenye tagi
+  ya kushoto na zenye tagi ya kulia hubaki tofauti.
+reviewed: false

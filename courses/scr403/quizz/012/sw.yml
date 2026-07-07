@@ -1,0 +1,14 @@
+question: Jukumu la jets katika Simplicity ni lipi?
+answer: Jets ni utekelezaji native unaochukua nafasi ya expressions fulani za Simplicity kwa ajili ya kasi.
+wrong_answers:
+  - Jets ni hatua ya compilation inayobadilisha Simplicity kuwa Bitcoin Script.
+  - Jets ni ujumbe wa mtandao unaotangaza programu za Simplicity kwa nodi zote.
+  - Jets ni zana za debugging kwa ajili ya kujaribu na kufuatilia expressions za Simplicity.
+explanation: >-
+  Jet ni utekelezaji native ambao mtandao hukubaliana kuutumia badala ya
+  expression fulani ya Simplicity (inayotambuliwa kwa Merkle root yake).
+  Expression ya Simplicity hutumika kama specifikation rasmi ya kile
+  ambacho jet hukihesabu, huku msimbo native ukitoa kasi ya utekelezaji
+  inayofaa kwa vitendo. Jets za kawaida hushughulikia operesheni za
+  arithmetic na cryptographic kama SHA-256.
+reviewed: false

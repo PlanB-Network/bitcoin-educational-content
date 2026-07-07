@@ -1,0 +1,15 @@
+question: "Ni iyihe mvugo ya core-combinator ishira mu ngiro function yo gukwiragiza dist : (A + B) × C ⊢ A × C + B × C?"
+answer: case (injl iden) (injr iden)
+wrong_answers:
+  - case (injl (take iden)) (injr (drop iden))
+  - pair (injl iden) (injr iden)
+  - copair (injl iden) (injr iden)
+explanation: >-
+  Muri buri shami rya case, environment iba isanzwe iparanye n'agaciro
+  katagifise tag, rero f = injl iden na g = injr iden bitanga ⟨σᴸ(a), c⟩ ↦
+  σᴸ⟨a, c⟩ na ⟨σᴿ(b), c⟩ ↦ σᴿ⟨b, c⟩ — ni yo dist neza na neza.
+  Variant ya take/drop iraca mu kugenzura ubwoko, ariko irata iyo paring,
+  igaserura function y'ubwoko (A + B) × C ⊢ A + C aho kuba dist. pair
+  itanga product aho gutanga sum, kandi copair si combinator ya Simplicity
+  na gato — dist ni co kintu copair yonyene idashobora guserura.
+reviewed: false

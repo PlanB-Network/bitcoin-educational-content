@@ -1,0 +1,13 @@
+question: "Warum ist der Failure-Effekt in Simplicity kommutativ, obwohl Ausnahmen im Allgemeinen nicht kommutativ sind?"
+answer: Weil der Ausnahmetyp Unit (1) ist und nur einen Wert hat, sodass die Reihenfolge des Auslösens keine Rolle spielt.
+wrong_answers:
+  - Weil Simplicity alle Ausdrücke in einer deterministischen, durch den Kombinatorbaum festgelegten Reihenfolge ausführt.
+  - Weil der Failure-Effekt vom case-Kombinator immer abgefangen und erneut ausgelöst wird.
+  - Weil Simplicity Batch-Verifikation verwendet, wodurch alle ausgelösten Ausnahmen äquivalent werden.
+explanation: >-
+  Im Allgemeinen sind Ausnahmen nicht kommutativ, da verschiedene Ausdrücke unterschiedliche
+  Ausnahmewerte auslösen können. Simplicity beschränkt Ausnahmen jedoch auf den Unit-Typ (nur
+  ein möglicher Wert), sodass das Vertauschen der Reihenfolge zweier potenziell fehlschlagender
+  Ausdrücke unabhängig davon, welcher tatsächlich fehlschlägt, dieselbe Ausnahme erzeugt. Diese
+  Kommutativitätseigenschaft ermöglicht wichtige Programmoptimierungen.
+reviewed: true

@@ -1,0 +1,11 @@
+question: "Mis on Simplicity programmi tüüp?"
+answer: 1 ⊢ 1 (ühikust ühikusse) — tähenduslikku sisendit ega väljundit pole; kõrvalmõjud teevad I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — see võtab tehinguandmed ja tagastab kehtivuse tõeväärtuse.
+  - 2^256 ⊢ 2^256 — see võtab räsisisendi ja tagastab uue räsiväljundi väärtuse.
+  - Mis tahes tüüp A ⊢ B — programmidel võivad olla täiesti suvalised sisend- ja väljundtüübid.
+explanation: >-
+  Simplicity programm on defineeritud avaldisena tüübiga 1 ⊢ 1. Reader effect hõlmab
+  tehingukeskkonna sisendi, samas kui Failure effect määrab õnnestumise või ebaõnnestumise.
+  Need kõrvalmõjud käsitlevad kogu I/O-d, mitte Simplicity tüübid ise.
+reviewed: true

@@ -1,9 +1,9 @@
-question: According to the libertarian perspective on societal issues, what is the fundamental principle that should guide government involvement in personal matters like marriage, immigration, and drug use?
-answer: The government should withdraw from regulating personal choices and allow private institutions and market mechanisms to handle these matters instead
+question: "On the question of firearms regulation, what is the crucial difference between the conservative and libertarian positions?"
+answer: "Both accept some regulation, but conservatives want rules from a legitimate public authority while libertarians want rules to emerge from those directly concerned, such as citizens' associations and market competition"
 wrong_answers:
-  - The government should actively protect individual rights by enforcing equal access to all institutions and services for every citizen
-  - The government should balance individual freedoms with collective security through carefully crafted regulations that protect society
-  - The government should preserve traditional institutions while gradually adapting to social changes through democratic consensus-building
-explanation: |
-  The libertarian approach consistently advocates for removing government involvement rather than reforming it. On marriage, they propose privatization through religious and private organizations. 
-  On immigration, they support market-based solutions while opposing state-subsidized immigration. On drugs, they favor legalization but only within a de-statized society. This differs from other ideologies that seek to use government power to either enforce equality (socialists), preserve order (conservatives), or find balanced regulations (centrists).
+  - "Conservatives oppose all firearm regulation while libertarians accept strict government control for public safety"
+  - "Conservatives want to ban firearms entirely while libertarians support unrestricted access to all weapons"
+  - "Conservatives base their position on individual rights while libertarians base theirs on collective responsibility"
+explanation: >-
+  Both conservatives and libertarians agree that some form of regulation for carrying weapons is necessary. The crucial difference is in who establishes those rules. Conservatives insist that regulations must come from a public authority charged with safeguarding the common good (top-down). Libertarians argue that regulation should emerge from those directly concerned: security professionals, citizens' associations, and market competition (bottom-up).
+reviewed: false

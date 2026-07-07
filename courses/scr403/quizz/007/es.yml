@@ -1,0 +1,13 @@
+question: ¿Cómo se define el tipo booleano (𝟚) en Simplicity?
+answer: Como el tipo suma 𝟙 + 𝟙, que contiene exactamente dos valores (false y true).
+wrong_answers:
+  - Como un tipo producto 𝟙 × 𝟙, que entonces solo contendría un valor.
+  - Como un tipo primitivo especial incorporado directamente en el lenguaje.
+  - Como un tipo entero de 32 bits restringido únicamente a los valores 0 y 1.
+explanation: >-
+  El tipo booleano 𝟚 se define como 𝟙 + 𝟙, una suma de dos tipos unidad. El
+  valor etiquetado como izquierdo σᴸ⟨⟩ representa false (0) y el valor
+  etiquetado como derecho σᴿ⟨⟩ representa true (1). Este es un tipo de dato
+  de un bit construido únicamente a partir del tipo unidad y del
+  constructor de tipo suma — el constructor de producto no es necesario.
+reviewed: false

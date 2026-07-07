@@ -1,0 +1,13 @@
+question: Kwa nini combinator ya 'case' inajumuisha aina ya mazingira ya pamoja C katika signature yake?
+answer: Ili matawi yote mawili yaweze kusoma data ya muktadha wa pamoja pamoja na ingizo lenye tag.
+wrong_answers:
+  - Ili kupunguza ukubwa wa ingizo kwa lengo la kuzuia stack overflows.
+  - Ili kuwezesha miito ya kujirudia kwenda na kurudi kati ya matawi mawili.
+  - Ili kuhifadhi pato la combinator iliyotangulia mapema katika mnyororo.
+explanation: >-
+  Combinator ya case ina signature (A + B) × C ⊢ D. Aina ya ziada C
+  hufanya kazi kama mazingira ya pamoja ambayo tawi la kushoto (f : A × C ⊢ D)
+  na tawi la kulia (g : B × C ⊢ D) yanaweza kuyafikia. Hii ina nguvu zaidi
+  kuliko if-then-else rahisi kwa sababu matawi hupokea data yao mahususi
+  na taarifa ya muktadha inayohitajika kwa ukokotoaji.
+reviewed: false

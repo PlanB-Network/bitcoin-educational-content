@@ -1,9 +1,9 @@
-question: What is the fundamental difference between libertarians and libertaires regarding economic organization?
-answer: Libertarians defend private property and free markets, while libertaires oppose capitalism and support collective economic forms
+question: "What do the French libertaires (socialist anarchists) believe about private property?"
+answer: "Private property and capitalism must be abolished because they are sources of oppression"
 wrong_answers:
-  - Libertarians support state intervention in markets, while libertaires prefer complete economic deregulation and privatization
-  - Libertarians advocate for communist economic systems, while libertaires defend traditional capitalist market structures
-  - Libertarians oppose all forms of property ownership, while libertaires strongly defend individual property rights
-explanation: |
-  The chapter clearly establishes that libertarians view private property as essential for individual freedom and support contractual liberty, 
-  while libertaires consider 'property as theft' and are anticapitalist, favoring mutualism, collectivism, or libertarian communism. This represents the core economic divide between these two political philosophies, despite their similar names and shared opposition to state authority.
+  - "Private property is a natural right that precedes the state and must be protected at all costs"
+  - "Private property should be regulated by the state but never completely eliminated from society"
+  - "Private property is acceptable only when distributed equally among all members of a commune"
+explanation: >-
+  The French libertaires, heirs of socialist anarchism through thinkers like Proudhon and Bakunin, hold that both the state and private property must be abolished as twin sources of oppression. This is captured in Proudhon's famous formula "Property is theft." The first wrong answer describes the libertarian position, which is fundamentally opposed to the libertaire view.
+reviewed: false

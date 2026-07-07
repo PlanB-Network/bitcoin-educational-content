@@ -1,0 +1,15 @@
+question: Volg de full-adder op ⟨⟨1,1⟩,1⟩ (1+1+1). Welke waarde geeft fase twee, O O H ▵ (O I H ▵ I H ⨾ half-adder), door aan de laatste fase?
+answer: ⟨1, ⟨0, 1⟩⟩ — de carry van de eerste half-adder, gevolgd door de carry en som van de tweede.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — de carry van de eerste half-adder, gevolgd door de som en carry van de tweede.
+  - ⟨0, ⟨0, 1⟩⟩ — de sombit van de eerste half-adder, gevolgd door de carry en som van de tweede.
+  - ⟨1, ⟨1, 1⟩⟩ — de carry van de eerste half-adder, gevolgd door de OR- en XOR-bits van de tweede.
+explanation: >-
+  Fase één berekent half-adder⟨1,1⟩ = ⟨1, 0⟩ (carry 1, som 0) en bewaart
+  de inkomende carry, wat ⟨⟨1,0⟩, 1⟩ oplevert. In fase twee extraheert
+  O O H de eerste carry (1), terwijl O I H ▵ I H ⟨0, 1⟩ — de eerste som
+  en de inkomende carry — invoert in de tweede half-adder, wat ⟨0, 1⟩
+  oplevert aangezien and(0,1)=0 en xor(0,1)=1. De laatste fase past
+  vervolgens OR toe op de twee carries en behoudt de som, wat ⟨1, 1⟩
+  oplevert: binair 3, zoals verwacht.
+reviewed: false

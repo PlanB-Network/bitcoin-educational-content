@@ -1,0 +1,14 @@
+question: "Spor full-adderen på ⟨⟨1,1⟩,1⟩ (1+1+1). Hvilken verdi gir trinn to, O O H ▵ (O I H ▵ I H ⨾ half-adder), videre til det siste trinnet?"
+answer: ⟨1, ⟨0, 1⟩⟩ — den første halv-adderens mente, deretter den andres mente og sum.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — den første halv-adderens mente, deretter den andres sum og mente.
+  - ⟨0, ⟨0, 1⟩⟩ — den første halv-adderens sumbit, deretter den andres mente og sum.
+  - ⟨1, ⟨1, 1⟩⟩ — den første halv-adderens mente, deretter den andres OR- og XOR-bit.
+explanation: >-
+  Trinn én beregner half-adder⟨1,1⟩ = ⟨1, 0⟩ (mente 1, sum 0) og lagrer
+  inngående mente, som gir ⟨⟨1,0⟩, 1⟩. I trinn to trekker O O H ut den
+  første menten (1), mens O I H ▵ I H mater ⟨0, 1⟩ — den første summen og
+  inngående mente — inn i den andre halv-adderen, som gir ⟨0, 1⟩ siden
+  and(0,1)=0 og xor(0,1)=1. Det siste trinnet ORer så de to mentene og
+  beholder summen, som gir ⟨1, 1⟩: binært 3, som forventet.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Čo počíta polsčítačka?
+answer: Prenos (AND) a súčet (XOR) dvoch vstupných bitov.
+wrong_answers:
+  - Súčet dvoch viacbitových celých čísel so šírením prenosu.
+  - Priemer dvoch bitov zaokrúhlený nadol.
+  - Bitový OR a AND dvoch vstupných bitov.
+explanation: >-
+  Polsčítačka berie dva jednotlivé bity a produkuje dva výstupy pomocou
+  paralelnej kompozície: bit prenosu (AND vstupov) a bit súčtu (XOR vstupov).
+  V Simplicity je definovaná ako and ▵ xor, čím sa obe operácie spustia na
+  tom istom páre vstupov.
+reviewed: false

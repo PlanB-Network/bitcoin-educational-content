@@ -1,0 +1,13 @@
+question: Wie werden Vektoren fester Länge im Typsystem von Simplicity aufgebaut?
+answer: Durch verschachtelte Produkttypen mit einer Länge in Zweierpotenzen (z. B. A⁴ = A² × A²).
+wrong_answers:
+  - Mithilfe eines speziellen, in die Sprache eingebauten Array-Typkonstruktors.
+  - Durch rekursive Summentypen, die die Elemente zu einer Liste verketten.
+  - Mithilfe von Puffern variabler Länge mit einer festen Maximalgröße.
+explanation: >-
+  Simplicity baut Vektoren aus verschachtelten Produkttypen auf. A² ist
+  A × A, A⁴ ist A² × A², A⁸ ist A⁴ × A⁴ und so weiter. Dies ergibt
+  Sammlungen mit einer Größe in Zweierpotenzen. Zum Beispiel wird 𝟚²⁵⁶
+  (ein 256-Bit-Hash) durch 8-fach verschachtelte Produkte aus dem
+  booleschen Typ aufgebaut.
+reviewed: false

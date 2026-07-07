@@ -1,0 +1,15 @@
+question: V jakém smyslu je podmíněná kompozice duálem paralelní kompozice?
+answer: Paralelní kompozice předává oběma operacím jeden vstup a spojuje jejich výstupy do dvojice (součin); podmíněná kompozice přijímá součet vstupů a obě větve sdílejí jeden výstupní typ.
+wrong_answers:
+  - Paralelní kompozice musí své dvě operace provádět současně; podmíněná je provádí postupně a vrací pouze větev, kterou vybere tag.
+  - Obě běží na jednom sdíleném vstupu; paralelní kompozice zachovává dvojici výstupů, zatímco podmíněná spustí obě větve a nevybranou zahodí.
+  - Paralelní kompozice předem duplikuje svůj vstup, zatímco podmíněná duplikuje svůj výstup poté, čímž se prohodí, kde ke kopírování dochází.
+explanation: >-
+  Dualita spočívá ve výměně součin/součet, přičemž sdílený typ mění strany:
+  paralelní kompozice dává oběma operacím stejný vstupní typ a spojuje jejich
+  výstupy do součinu, zatímco podmíněná kompozice přijímá součet (označené
+  sjednocení) obou vstupních typů a obě větve musí dávat stejný výstupní typ.
+  Současnost je nepodstatná — článek zdůrazňuje, že paralelní kompozice může
+  být implementována postupně — a podmíněná kompozice vykoná přesně jednu větev
+  vybranou tagem, místo aby spouštěla obě a jednu zahodila.
+reviewed: false

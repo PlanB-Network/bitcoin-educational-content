@@ -1,8 +1,9 @@
-question: According to Gustave Molinari's analysis in 'Les Soirées de la rue Saint Lazare' (eng. Evenings on Saint Lazarus Street), what fundamental similarity exists between conservatives and socialists that distinguishes them from libertarians?
-answer: Both conservatives and socialists seek to impose their vision of society through state intervention, despite having different visions
+question: "What is the key disagreement between libertarians and other political families when they share the same objectives?"
+answer: "The disagreement is about means: libertarians reject coercive solutions and favor voluntary exchange through the market process"
 wrong_answers:
-  - Both conservatives and socialists view freedom as an absolute principle rather than a practical consideration
-  - Both conservatives and socialists oppose private property rights and favor collective ownership of resources
-  - Both conservatives and socialists support minimal government intervention and maximum individual autonomy
-explanation: |
-  Molinari's key insight was that despite their ideological differences, conservatives and socialists share a common approach: they both want to use state power to impose their particular vision of how society should be organized. Conservatives want to force people to maintain traditional structures, while socialists want to force people into new social arrangements. Libertarians, represented by the 'economist' character, oppose both because they reject using state coercion to impose any social vision, preferring voluntary arrangements and individual choice.
+  - "The disagreement is about ends: libertarians pursue different goals such as individual wealth rather than social welfare"
+  - "The disagreement is about timing: libertarians want to achieve the same goals more slowly through gradual reform"
+  - "The disagreement is about scope: libertarians want to apply the same policies only at local rather than national levels"
+explanation: >-
+  Libertarians can agree with socialists, conservatives, and centrists on certain objectives like defending the oppressed or promoting social cohesion. The disagreement lies not in ends but in means. Libertarians reject all coercive solutions that seek to uniformize practices and regulations, instead defending the power of choice and responsible freedom through free, decentralized exchange founded on voluntary contracts.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Simplicity 与 Gentzen 的相继式演算之间有什么关系？
+answer: 它的九个组合子映射了相继式演算的合取-析取片段。
+wrong_answers:
+  - Simplicity 是直接从相继式演算证明翻译成可运行代码的。
+  - Gentzen 的相继式演算在运行时用于对 Simplicity 程序进行类型检查。
+  - 它们完全无关，表面的相似性纯属巧合。
+explanation: >-
+  Simplicity 的九条核心规则与 Gentzen 的相继式演算中的规则非常相似，
+  类似于 lambda 演算与自然演绎之间的 Curry-Howard 对应。
+  这种联系确保前提中的类型小于结论中的类型，Bit
+  Machine 正是利用这一点，以最少的数据复制实现高效执行。
+reviewed: false

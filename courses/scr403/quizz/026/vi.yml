@@ -1,0 +1,11 @@
+question: "Simplicity sử dụng phiên bản TapLeaf nào khi được commit theo Taproot BIP-0341?"
+answer: Phiên bản 0xbe, tương ứng với giá trị byte 190 ở hệ thập phân.
+wrong_answers:
+  - Phiên bản 0xc0, giống với Tapscript của Bitcoin Script.
+  - Phiên bản 0x00, phiên bản leaf Taproot mặc định.
+  - Phiên bản 0xff, một phiên bản được dành riêng cho các script thử nghiệm.
+explanation: >-
+  Các chương trình Simplicity được commit vào các địa chỉ Taproot bằng phiên bản TapLeaf 0xbe. Điều này
+  phân biệt các script Simplicity với Bitcoin Tapscript (vốn sử dụng phiên bản 0xc0) và cho phép
+  mạng lưới nhận diện cũng như xác thực chính xác các chương trình Simplicity khi chúng xuất hiện trên chuỗi.
+reviewed: true

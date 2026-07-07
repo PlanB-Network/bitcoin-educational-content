@@ -1,0 +1,18 @@
+question: Fullständighetsbeviset bygger vilken funktion som helst genom att nästla case för att dekomponera indata och scribe för varje utdata. Varför är det bara ett teoretiskt verktyg?
+answer: Det resulterande uttrycket är en jättelik uppslagstabell vars storlek växer exponentiellt — en 256-bitars indata skulle behöva ungefär 2²⁵⁶ poster.
+wrong_answers:
+  - scribe är ett makro, inte en core-kombinator, så uttrycket hamnar utanför det formellt verifierade språket.
+  - Bit Machine utvärderar det i exponentiell tid, även om själva uttrycket förblir kompakt tack vare delning.
+  - Nästlad case kan bara dekomponera summatyper, så konstruktionen misslyckas för all indata av produkttyp.
+explanation: >-
+  Konstruktionen räknar upp all möjlig indata via nästlad
+  case-dekomponering och hårdkodar varje utdata med scribe, så
+  uttryckets storlek exploderar exponentiellt — astronomiskt för
+  realistiska typer som 256-bitars ord. Uppsvällningen finns i
+  uttryckets storlek, inte i körtiden för ett i övrigt kompakt uttryck.
+  scribe expanderas till äkta core-kombinatorer (unit, injl, injr,
+  pair), så resultatet stannar inom kärnspråket, vars
+  fullständighetssats är formellt verifierad i Rocq; och
+  dekomponeringen hanterar indata av vilken typ som helst, produkter
+  inkluderade.
+reviewed: false

@@ -399,7 +399,7 @@ Bugün, Yıldırım gözetimindeki bir wallet'unkine çok yakın bir kullanıcı
 
 
 
-İlk çözüm, Lightning'i yerel olarak kullanmak değil, atomik takasları içeren bir Bitcoin veya Liquid wallet kullanmaktır. Örneğin, Aqua veya Bull Bitcoin Wallet uygulamaları bu yöntemi kullanarak, Lightning faturalarını bir Lightning düğümünü kendiniz çalıştırmadan, kendi gözetiminizde kalarak ödemenizi sağlar.
+İlk çözüm, Lightning'i yerel olarak kullanmak değil, atomik takasları içeren bir Bitcoin veya Liquid wallet kullanmaktır. Örneğin, Aqua veya BULL Wallet uygulamaları bu yöntemi kullanarak, Lightning faturalarını bir Lightning düğümünü kendiniz çalıştırmadan, kendi gözetiminizde kalarak ödemenizi sağlar.
 
 
 

@@ -1,0 +1,14 @@
+question: SimplicityHL คืออะไร และทำไมจึงจำเป็น?
+answer: ภาษา higher-level ที่ compile เป็น Simplicity ซึ่งจัดการ naming และ scope
+wrong_answers:
+  - ภาษาอธิบาย hardware สำหรับขุด ASICs ที่รัน Simplicity
+  - IDE แบบ graphical drag-and-drop สำหรับ wiring combinator ของ Simplicity เข้าด้วยกัน
+  - testing framework สำหรับรันโปรแกรม Simplicity ภายใน sandbox ที่ปลอดภัย
+explanation: >-
+  Simplicity ดิบจะอ่านยากมากเมื่อถึงระดับความซับซ้อนของ production เพราะ
+  การเข้าถึงข้อมูลทั้งหมดต้องทำผ่าน combinator take/drop ที่ซ้อนกัน SimplicityHL
+  ให้ programming constructs ที่คุ้นเคย — named variables, scoping, library
+  imports และ control flow — ซึ่ง compile ลงเป็นนิพจน์ combinator ของ Simplicity
+  ผู้ใช้ปลายทางเขียน SimplicityHL ขณะที่ Simplicity ทำหน้าที่เป็น
+  compilation target ที่ผ่าน formal verification
+reviewed: false

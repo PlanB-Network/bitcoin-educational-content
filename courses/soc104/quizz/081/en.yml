@@ -1,9 +1,9 @@
-question: According to Hayek's theory of dispersed knowledge, why do centrally planned economies fail to efficiently allocate resources compared to free market systems?
-answer: Central planners cannot access the fragmented, localized knowledge that individuals possess about their specific needs, preferences, and circumstances, making efficient resource allocation impossible.
+question: "What is constructivism as a shared political conviction?"
+answer: "The belief that a central government can create, by force of law, a social order that is good for the greatest number"
 wrong_answers:
-  - Central planners lack the computational power and advanced algorithms necessary to process all economic data and make optimal allocation decisions for society.
-  - Central planners are inherently corrupt and self-interested, prioritizing their own welfare over efficient resource allocation for the broader population.
-  - Central planners focus too heavily on short-term political gains rather than long-term economic efficiency, leading to suboptimal resource allocation decisions.
-explanation: |
-  Hayek's concept of dispersed knowledge emphasizes that crucial economic information exists only as scattered fragments among individuals who know their local circumstances, subjective preferences, and opportunity costs. 
-  This knowledge cannot be centrally collected or aggregated because it's contextual and constantly changing. Free markets coordinate this dispersed knowledge through the price system, where voluntary exchanges reveal preferences and relative scarcities. Central planners, regardless of their intentions or capabilities, cannot replicate this spontaneous coordination process because the necessary knowledge doesn't exist in concentrated form.
+  - "The belief that society should be organized through voluntary cooperation between individuals without state interference"
+  - "The belief that only free markets can determine the optimal distribution of resources in society"
+  - "The belief that political authority should be distributed equally among all citizens through direct democracy"
+explanation: >-
+  Constructivism unites centrists, conservatives, and socialists around a shared conviction: the superiority of the political process over the market process. It is the belief that a central government can create, by force of law, a social order good for the greatest number. This stands in direct opposition to the libertarian defense of spontaneous order emerging from voluntary interactions.
+reviewed: false

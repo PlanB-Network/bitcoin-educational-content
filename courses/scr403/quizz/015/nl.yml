@@ -1,0 +1,13 @@
+question: Waarom bevat de 'case'-combinator een gedeeld omgevingstype C in zijn signatuur?
+answer: Zodat beide takken gedeelde contextdata kunnen lezen naast de getagde input.
+wrong_answers:
+  - Om de grootte van de input te beperken en zo stack-overflows te voorkomen.
+  - Om recursieve aanroepen heen en weer tussen de twee takken mogelijk te maken.
+  - Om de output van de vorige combinator eerder in de keten op te slaan.
+explanation: >-
+  De case-combinator heeft signatuur (A + B) × C ⊢ D. Het extra type C
+  fungeert als een gedeelde omgeving waartoe zowel de linkertak (f : A × C ⊢ D)
+  als de rechtertak (g : B × C ⊢ D) toegang hebben. Dit is krachtiger
+  dan een eenvoudige if-then-else, omdat de takken zowel hun specifieke
+  data als de contextuele informatie ontvangen die nodig is voor de berekening.
+reviewed: false

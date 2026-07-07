@@ -1,0 +1,15 @@
+question: push-<n are tipul Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. De ce ieșirea sa trebuie să fie o sumă care include tipul de vector complet Aⁿ?
+answer: Un buffer Aᑉⁿ conține cel mult n−1 elemente, așa că împingerea (push) într-un buffer plin produce n elemente — doar Aⁿ poate reprezenta asta.
+wrong_answers:
+  - Suma permite apelanților să aleagă codificarea mai ieftină, deoarece vectorii se serializează mai compact decât produsele opționale.
+  - Push poate eșua pe un buffer gol, iar ramura Aⁿ este cazul de eroare care păstrează conținutul vechi.
+  - case impune ca orice funcție care consumă un buffer de tip sumă să producă și ea o ieșire de tip sumă.
+explanation: >-
+  Aᑉⁿ este exact tipul listelor a căror lungime este strict mai mică decât
+  n, așa că un buffer la capacitate maximă conține n−1 elemente. Adăugarea
+  încă unuia produce exact n elemente, pe care Aᑉⁿ nu le poate reprezenta;
+  sumandul Aⁿ returnează acel rezultat depășit ca vector complet.
+  Codificarea depășirii în tipul de ieșire păstrează push-<n ca funcție
+  totală, nu parțială — cazul de eșec pe buffer gol aparține lui pop-<n,
+  nu lui push-<n.
+reviewed: false

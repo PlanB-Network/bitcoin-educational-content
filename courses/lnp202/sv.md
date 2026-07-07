@@ -399,7 +399,7 @@ Idag är det möjligt att ha en användarupplevelse som ligger mycket nära den 
 
 
 
-Den första lösningen är helt enkelt att inte använda Lightning nativt, utan att använda en Bitcoin eller [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet som innehåller [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). Till exempel använder Aqua- eller Bull Bitcoin Wallet-applikationer den här metoden genom att göra det möjligt för dig att betala [Lightning-fakturor](https://planb.academy/resources/glossary/invoice-lightning) utan att själv driva en Lightning-nod, samtidigt som du förblir i självförvar.
+Den första lösningen är helt enkelt att inte använda Lightning nativt, utan att använda en Bitcoin eller [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet som innehåller [atomic swaps](https://planb.academy/resources/glossary/atomic-swap). Till exempel använder Aqua- eller BULL Wallet-applikationer den här metoden genom att göra det möjligt för dig att betala [Lightning-fakturor](https://planb.academy/resources/glossary/invoice-lightning) utan att själv driva en Lightning-nod, samtidigt som du förblir i självförvar.
 
 
 

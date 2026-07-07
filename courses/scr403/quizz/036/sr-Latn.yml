@@ -1,0 +1,14 @@
+question: push-<n ima tip Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Zašto njegov izlaz mora biti zbir koji uključuje pun vektorski tip Aⁿ?
+answer: Bafer Aᑉⁿ drži najviše n−1 stavki, pa dodavanje u pun bafer daje n stavki — samo Aⁿ to može predstaviti.
+wrong_answers:
+  - Zbir omogućava pozivaocima da izaberu jeftinije kodiranje, jer se vektori serijalizuju kompaktnije od opcionih proizvoda.
+  - Push može da ne uspe na praznom baferu, a grana Aⁿ je slučaj greške koji nosi stari sadržaj.
+  - case zahteva da svaka funkcija koja troši bafer zbirnog tipa takođe proizvede izlaz zbirnog tipa.
+explanation: >-
+  Aᑉⁿ je tačno tip listi čija je dužina strogo manja od n, pa bafer na
+  maksimalnom kapacitetu drži n−1 elemenata. Dodavanje još jednog
+  proizvodi tačno n elemenata, koje Aᑉⁿ ne može predstaviti; sabirak Aⁿ
+  vraća taj prekoračeni rezultat kao pun vektor. Kodiranje prekoračenja
+  u izlaznom tipu čini push-<n totalnom funkcijom umesto parcijalnom —
+  slučaj greške praznog bafera pripada pop-<n, a ne push-u.
+reviewed: false

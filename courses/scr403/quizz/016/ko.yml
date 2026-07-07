@@ -1,0 +1,12 @@
+question: Simplicity와 Gentzen의 시퀀트 계산은 어떤 관계인가요?
+answer: 그 아홉 개의 컴비네이터는 시퀀트 계산의 논리곱-논리합 조각을 반영합니다.
+wrong_answers:
+  - Simplicity는 시퀀트 계산 증명에서 동작하는 코드로 직접 번역되었습니다.
+  - Gentzen의 시퀀트 계산은 실행 시점에 Simplicity 프로그램의 타입을 검사하는 데 사용됩니다.
+  - 둘은 전혀 관련이 없으며, 표면상의 유사성은 순전히 우연입니다.
+explanation: >-
+  Simplicity의 아홉 핵심 규칙은 Gentzen의 시퀀트 계산 규칙과 매우 닮아 있으며,
+  이는 람다 계산과 자연 연역 사이의 Curry-Howard 대응과 유사합니다. 이 연결은
+  전제의 타입이 결론의 타입보다 더 작음을 보장하며, Bit Machine은 이를 활용해
+  최소한의 데이터 복사로 효율적으로 실행합니다.
+reviewed: false

@@ -1,0 +1,17 @@
+question: Output ya Simplicity hutumia pointi ya NUMS ya BIP-0341 isiyobadilika kama internal key yake. Kwa nini key-spend imethibitishwa kuwa haiwezekani, na randomizing pointi ya NUMS huongeza nini?
+answer: Hakuna anayejua discrete log ya pointi ya NUMS, hivyo hakuna saini ya key-path inayoweza kuwepo; randomizing huongeza faragha tu.
+wrong_answers:
+  - Pointi ya NUMS iko nje ya curve hivyo saini za key-path hushindwa; randomizing huirudisha on-curve.
+  - Private key ya pointi ya NUMS ni sifuri, jambo ambalo consensus hukataa; randomizing hulinda tweak dhidi ya side channels.
+  - Tweaking pointi ya NUMS hutoa key iliyo nje ya masafa, na kufanya key-spend isiwe standard; randomizing huepuka address reuse.
+explanation: >-
+  Pointi ya NUMS ('Nothing-Up-My-Sleeve') ni pointi halali kabisa ya curve
+  iliyojengwa ili hakuna anayejua private key inayolingana nayo —
+  discrete logarithm yake haijulikani. Kwa kuwa matumizi ya key-path yanahitaji saini ya Schnorr
+  chini ya internal key, na saini kama hiyo haiwezi kuzalishwa
+  bila private key, njia ya key-spend imethibitishwa kuwa haiwezi kutumika na
+  fedha zinaweza kusogea tu kupitia script path iliyocommitiwa. Randomizing pointi ya
+  NUMS haibadilishi chochote katika hili; huficha tu ukweli kwamba key-spend
+  imezimwa, hivyo output huonekana kama output nyingine yoyote ya Taproot — faida ya
+  faragha.
+reviewed: false

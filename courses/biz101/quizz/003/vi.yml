@@ -1,9 +1,9 @@
-question: Một nhược điểm của hệ thống tiền tệ tập trung hiện đại là gì?
-answer: Họ thường thiếu sự minh bạch và khả năng kiểm toán trong việc quản lý nguồn cung tiền.
+question: Một nhược điểm của cơ chế tập trung của hệ thống tiền tệ hiện đại là gì?
+answer: Cơ chế thường thiếu sự minh bạch và khả năng kiểm toán thấp trong việc quản lý nguồn cung tiền.
 wrong_answers:
-  - Chúng cung cấp giá trị ổn định, không thay đổi cho mọi đơn vị tiền tệ.
-  - Họ loại bỏ mọi trung gian và tăng tốc độ thanh toán lên đến mili giây.
-  - Họ đảm bảo rằng việc phát hành tiền được phân cấp hoàn toàn và không bị lạm phát.
+  - Cơ chế cung cấp giá trị ổn định, không thay đổi cho mọi đơn vị tiền tệ.
+  - Cơ chế loại bỏ mọi trung gian và tăng tốc độ thanh toán lên đến mili giây.
+  - Cơ chế đảm bảo rằng việc phát hành tiền được phân cấp hoàn toàn và không bị xói mòn giá trị.
 explanation: |
   Các hệ thống tập trung có thể phát hành tiền tùy ý, thường không có sự giám sát minh bạch. Điều này có thể làm xói mòn niềm tin do lạm phát, các giao dịch liên ngân hàng phức tạp và khả năng quản lý yếu kém.
 reviewed: true

@@ -1,0 +1,15 @@
+question: Wat is SimplicityHL en waarom is het nodig?
+answer: Een taal op hoger niveau die naar Simplicity compileert en naamgeving en scope beheert.
+wrong_answers:
+  - Een hardwarebeschrijvingstaal voor het minen van de ASIC's die Simplicity draaien.
+  - Een grafische drag-and-drop-IDE voor het aan elkaar koppelen van Simplicity-combinators.
+  - Een testframework voor het uitvoeren van Simplicity-programma's in een veilige sandbox.
+explanation: >-
+  Ruwe Simplicity wordt onbegrijpelijk bij productiecomplexiteit, omdat
+  alle datatoegang moet gebeuren via geneste take/drop-combinators.
+  SimplicityHL biedt vertrouwde programmeerconstructies — benoemde
+  variabelen, scoping, bibliotheekimports en controlestroom — die
+  compileren naar Simplicity-combinatoruitdrukkingen. Eindgebruikers
+  schrijven SimplicityHL, terwijl Simplicity dient als het formeel
+  geverifieerde compilatiedoel.
+reviewed: false

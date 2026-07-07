@@ -1,0 +1,12 @@
+question: Simplicity yürütme sırasında dinamik bellek ayırmayı neden dışlar?
+answer: Statik analizi mümkün kılmak ve tüm hata ve saldırı sınıflarını baştan elemek için.
+wrong_answers:
+  - Çünkü Liquid Network düşük seviyeli bellek işlemlerini desteklemez.
+  - Yeni akıllı sözleşme geliştiricileri için programlama öğrenme eğrisini azaltmak için.
+  - Çünkü Bitcoin Script'in kendisinde de dinamik bellek ayırma yoktur.
+explanation: >-
+  Simplicity, tüm kaynak kullanımının yürütmeden önce statik olarak
+  belirlenebilmesi için dinamik bellek ayırmadan kaçınır. Bu, öngörülebilir
+  kaynak sınırlarını mümkün kılar ve bellek yönetimiyle ilgili güvenlik
+  açıklarını ortadan kaldırır; bu da blockchain doğrulama bağlamında kritiktir.
+reviewed: false

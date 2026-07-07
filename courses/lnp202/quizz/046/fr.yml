@@ -6,4 +6,4 @@ wrong_answers:
   - Réduction des frais de routage
 explanation: |
   Un paiement sortant déplace les sats vers le pair, ce qui crée de la liquidité entrante de ce côté du canal.
-reviewed: false
+reviewed: true 

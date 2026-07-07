@@ -1,0 +1,12 @@
+question: "Dlaczego bip0340-verify używa efektu Failure zamiast zwracać wartość logiczną (true/false)?"
+answer: Aby umożliwić weryfikację wsadową podpisów Schnorra, gdzie jedna nieudana weryfikacja unieważnia całą partię.
+wrong_answers:
+  - Ponieważ typy logiczne są zbyt kosztowne pod względem miejsca w bloku w porównaniu z typem jednostkowym.
+  - Ponieważ system typów Simplicity nie potrafi reprezentować logicznych wartości zwracanych przez jets.
+  - Ponieważ zwracanie zwykłej wartości logicznej bezpośrednio naruszałoby twierdzenie o zupełności.
+explanation: >-
+  Gdyby bip0340-verify zwracało wartość logiczną, nieudana weryfikacja podpisu mogłaby mimo to prowadzić do gałęzi, w której
+  skrypt się powodzi. W takim przypadku weryfikator musiałby wiedzieć, który konkretnie podpis
+  zawiódł, co uniemożliwiłoby weryfikację wsadową. Dzięki użyciu efektu Failure nieudana weryfikacja zawsze przerywa
+  całe obliczenie, umożliwiając wydajną weryfikację wsadową, w której wiele podpisów jest łączonych razem.
+reviewed: true

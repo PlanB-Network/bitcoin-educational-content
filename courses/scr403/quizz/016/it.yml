@@ -1,0 +1,14 @@
+question: Qual è la relazione tra Simplicity e il calcolo dei sequenti di Gentzen?
+answer: I suoi nove combinatori rispecchiano il frammento congiuntivo-disgiuntivo del calcolo dei sequenti.
+wrong_answers:
+  - Simplicity è stata tradotta direttamente dalle dimostrazioni del calcolo dei sequenti in codice funzionante.
+  - Il calcolo dei sequenti di Gentzen viene usato a runtime per il type-checking dei programmi Simplicity.
+  - Sono del tutto scorrelati, e la somiglianza superficiale è puramente casuale.
+explanation: >-
+  Le nove regole fondamentali di Simplicity assomigliano molto alle regole del
+  calcolo dei sequenti di Gentzen, in analogia con la corrispondenza di
+  Curry-Howard tra il lambda calcolo e la deduzione naturale. Questa connessione
+  garantisce che i tipi nelle premesse siano più piccoli di quelli nelle
+  conclusioni, cosa che la Bit Machine sfrutta per un'esecuzione efficiente
+  con una copia minima dei dati.
+reviewed: false

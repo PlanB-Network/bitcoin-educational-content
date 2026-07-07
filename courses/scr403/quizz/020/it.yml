@@ -1,0 +1,12 @@
+question: "Quali sono i due effetti collaterali usati in Simplicity per le applicazioni Bitcoin e Liquid?"
+answer: "L'effetto Failure (un'eccezione di tipo 1) e l'effetto Reader (accesso ai dati dell'ambiente della transazione)."
+wrong_answers:
+  - "L'effetto State (variabili mutabili) e l'effetto Writer (logging su un registro di transazione)."
+  - "L'effetto IO (comunicazione di rete) e l'effetto Memory (allocazione di memoria dinamica)."
+  - "L'effetto Continuation (callback) e l'effetto Nondeterminism (percorsi di esecuzione multipli)."
+explanation: >-
+  Simplicity usa esattamente due effetti collaterali per le applicazioni blockchain. L'effetto Failure
+  permette ai calcoli di interrompersi (ad esempio, quando fallisce un controllo di firma), e l'effetto
+  Reader permette alle espressioni di leggere dati dall'ambiente della transazione. I combinatori
+  fondamentali restano puri — gli effetti collaterali vengono introdotti tramite i jet.
+reviewed: true

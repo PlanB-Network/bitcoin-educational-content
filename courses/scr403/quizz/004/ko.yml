@@ -1,0 +1,12 @@
+question: 완전성 정리는 Simplicity에 대해 무엇을 보장하나요?
+answer: 두 Simplicity 타입 사이의 어떤 함수든 아홉 개의 컴비네이터로 만들 수 있다는 것입니다.
+wrong_answers:
+  - Simplicity 프로그램이 항상 상수 시간 안에 종료된다고 보장된다는 것입니다.
+  - Simplicity가 튜링 완전하여 어떤 튜링 머신도 모두 시뮬레이션할 수 있다는 것입니다.
+  - 모든 유효한 Simplicity 프로그램에는 단 하나의 고유한 표현만 있다는 것입니다.
+explanation: >-
+  완전성 정리는 유한한 Simplicity 타입들 사이의 어떤 함수에 대해서도,
+  그것을 계산하는 Simplicity 표현식이 존재함을 증명합니다. 구성적 증명은
+  중첩된 case와 scribe 표현식을 사용해 lookup table을 만듭니다. 이는 Rocq
+  증명 보조기에서 형식적으로 검증되었습니다.
+reviewed: false

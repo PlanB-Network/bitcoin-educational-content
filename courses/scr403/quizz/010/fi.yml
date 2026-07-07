@@ -1,0 +1,12 @@
+question: Miten kiinteäpituiset vektorit rakennetaan Simplicityn tyyppijärjestelmässä?
+answer: Sisäkkäisten, kahden potenssin pituisten tulotyyppien avulla (esim. A⁴ = A² × A²).
+wrong_answers:
+  - Käyttäen erityistä taulukkotyyppikonstruktoria, joka on rakennettu kieleen.
+  - Rekursiivisten summatyyppien avulla, jotka ketjuttavat elementit yhteen listaksi.
+  - Käyttäen vaihtelevanpituisia puskureita, joilla on kiinteä enimmäiskoko.
+explanation: >-
+  Simplicity rakentaa vektorit sisäkkäisistä tulotyypeistä. A² on A × A, A⁴ on
+  A² × A², A⁸ on A⁴ × A⁴, ja niin edelleen. Tämä antaa kahden potenssin kokoisia
+  kokoelmia. Esimerkiksi 𝟚²⁵⁶ (256-bittinen tiiviste) rakennetaan
+  sisäkkäistämällä tuloja 8 tasoa syvälle totuusarvotyypistä.
+reviewed: false

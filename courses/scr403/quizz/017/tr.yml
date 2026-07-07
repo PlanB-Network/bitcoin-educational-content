@@ -1,0 +1,13 @@
+question: Simplicity ile Gentzen'in sequent calculus'u arasındaki ilişki nedir?
+answer: Dokuz kombinatörü, sequent calculus'un konjonktif-disjonktif fragmanını yansıtır.
+wrong_answers:
+  - Simplicity, sequent calculus kanıtlarından doğrudan çalışan koda çevrilmiştir.
+  - Gentzen'in sequent calculus'u, Simplicity programlarını çalışma zamanında tür denetlemek için kullanılır.
+  - Tamamen ilişkisizdirler ve yüzeydeki benzerlik bütünüyle tesadüfidir.
+explanation: >-
+  Simplicity'nin dokuz çekirdek kuralı, Gentzen'in sequent calculus'undaki
+  kurallara yakından benzer; bu, lambda calculus ile doğal çıkarım arasındaki
+  Curry-Howard karşılıklılığına analojiktir. Bu bağlantı, öncüllerdeki türlerin
+  sonuçlardakinden daha küçük olmasını sağlar; Bit Machine de bunu en az veri
+  kopyalamayla verimli yürütme için kullanır.
+reviewed: false

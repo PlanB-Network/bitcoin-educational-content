@@ -399,7 +399,7 @@ Tänapäeval on võimalik saada kasutajakogemus, mis on väga lähedane välklam
 
 
 
-Esimene lahendus on lihtsalt mitte kasutada Lightningut algupäraselt, vaid kasutada Bitcoin või [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, mis sisaldab [aatomivahetusi](https://planb.academy/resources/glossary/atomic-swap). Näiteks Aqua või Bull Bitcoin Wallet rakendused kasutavad seda meetodit, võimaldades teil tasuda [Lightningi arveid](https://planb.academy/resources/glossary/invoice-lightning) ilma Lightningi sõlme ise käitamata, jäädes samas ise haldusse.
+Esimene lahendus on lihtsalt mitte kasutada Lightningut algupäraselt, vaid kasutada Bitcoin või [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, mis sisaldab [aatomivahetusi](https://planb.academy/resources/glossary/atomic-swap). Näiteks Aqua või BULL Wallet rakendused kasutavad seda meetodit, võimaldades teil tasuda [Lightningi arveid](https://planb.academy/resources/glossary/invoice-lightning) ilma Lightningi sõlme ise käitamata, jäädes samas ise haldusse.
 
 
 

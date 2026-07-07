@@ -1,0 +1,12 @@
+question: "Prečo je efekt Failure v jazyku Simplicity komutatívny, hoci výnimky vo všeobecnosti komutatívne nie sú?"
+answer: Pretože typom výnimky je unit (1) s jedinou hodnotou, takže na poradí vyhadzovania nezáleží.
+wrong_answers:
+  - Pretože Simplicity vykonáva všetky výrazy v deterministickom poradí definovanom stromom kombinátorov.
+  - Pretože efekt Failure je vždy zachytený a následne znovu vyhodený kombinátorom case.
+  - Pretože Simplicity používa dávkovú verifikáciu, ktorá robí všetky vyhodené výnimky ekvivalentnými.
+explanation: >-
+  Vo všeobecnosti výnimky nie sú komutatívne, pretože rôzne výrazy môžu vyhadzovať rôzne
+  hodnoty výnimiek. Simplicity však obmedzuje výnimky na typ unit (jediná možná hodnota),
+  takže prehodenie poradia dvoch potenciálne zlyhávajúcich výrazov vyprodukuje rovnakú výnimku bez ohľadu na to,
+  ktorý z nich skutočne zlyhá. Táto vlastnosť komutativity umožňuje dôležité optimalizácie programu.
+reviewed: true

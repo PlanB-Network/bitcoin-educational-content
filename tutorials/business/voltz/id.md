@@ -19,7 +19,7 @@ Selain sebagai kustodian Lightning wallet yang memungkinkan Anda mengirim, mener
 
 
 
-Buka platform [Voltz](https://www.voltz.com/en) dan buat akun dengan mengeklik tombol "Coba sekarang".
+Buka platform [Voltz](https://www.lnvoltz.xyz/en) dan buat akun dengan mengeklik tombol "Coba sekarang".
 
 
 

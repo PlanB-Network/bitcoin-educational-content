@@ -1,0 +1,18 @@
+question: Simplicity izlaz koristi fiksnu BIP-0341 NUMS tačku kao svoj interni ključ. Zašto je trošenje putem ključa dokazivo nemoguće, i šta dodaje nasumičnost NUMS tačke?
+answer: Niko ne zna diskretni logaritam NUMS tačke, pa nijedan potpis putem ključa ne može postojati; nasumičnost samo dodaje privatnost.
+wrong_answers:
+  - NUMS tačka leži van krive pa potpisi putem ključa ne uspevaju; nasumičnost je vraća na krivu.
+  - Privatni ključ NUMS tačke je nula, što konsenzus odbija; nasumičnost štiti tweak od bočnih kanala.
+  - Tweak-ovanje NUMS tačke daje ključ van opsega, čineći trošenje putem ključa nestandardnim; nasumičnost izbegava ponovnu upotrebu adrese.
+explanation: >-
+  NUMS ('Nothing-Up-My-Sleeve') tačka je savršeno validna tačka na
+  krivi konstruisana tako da niko ne zna odgovarajući privatni ključ —
+  njen diskretni logaritam je nepoznat. Pošto trošenje putem ključa
+  zahteva Schnorr potpis pod internim ključem, a nijedan takav potpis se
+  ne može proizvesti bez privatnog ključa, putanja trošenja putem ključa
+  je dokazivo neupotrebljiva i sredstva se mogu pomerati samo kroz
+  obavezanu putanju skripte. Nasumičnost NUMS tačke ne menja ništa od
+  ovoga; ona samo skriva činjenicu da je trošenje putem ključa
+  onemogućeno, pa izlaz izgleda kao bilo koji drugi Taproot izlaz —
+  korist za privatnost.
+reviewed: false

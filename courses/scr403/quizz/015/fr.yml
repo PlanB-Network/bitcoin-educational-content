@@ -1,0 +1,14 @@
+question: Pourquoi le combinateur 'case' inclut-il un type d'environnement partagé C dans sa signature ?
+answer: Pour que les deux branches puissent lire des données de contexte partagées en plus de l'entrée étiquetée.
+wrong_answers:
+  - Pour limiter la taille de l'entrée afin d'éviter les débordements de pile.
+  - Pour permettre des appels récursifs allant et venant entre les deux branches.
+  - Pour stocker la sortie du combinateur précédent plus tôt dans la chaîne.
+explanation: >-
+  Le combinateur case a pour signature (A + B) × C ⊢ D. Le type
+  supplémentaire C agit comme un environnement partagé auquel la branche
+  gauche (f : A × C ⊢ D) et la branche droite (g : B × C ⊢ D) peuvent
+  toutes deux accéder. C'est plus puissant qu'un simple if-then-else car
+  les branches reçoivent à la fois leurs données spécifiques et les
+  informations contextuelles nécessaires au calcul.
+reviewed: false

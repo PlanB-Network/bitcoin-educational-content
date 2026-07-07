@@ -1,0 +1,12 @@
+question: "Miks kasutab bip0340-verify Failure effecti, mitte ei tagasta tõeväärtust (true/false)?"
+answer: Et võimaldada Schnorri allkirjade hulgakontrolli, kus üks ebaõnnestunud kontroll paneb kogu hulga ebaõnnestuma.
+wrong_answers:
+  - Sest tõeväärtustüübid on plokiruumi mõttes ühiktüübiga võrreldes liiga kulukad.
+  - Sest Simplicity tüübisüsteem ei suuda esitada jetidest tulevaid tõeväärtuselisi tagastusväärtusi.
+  - Sest lihtsa tõeväärtuse tagastamine rikuks otseselt täielikkuse teoreemi.
+explanation: >-
+  Kui bip0340-verify tagastaks tõeväärtuse, võiks ebaõnnestunud allkirjakontroll ikkagi viia haruni, kus
+  skript õnnestub. Sellisel juhul peaks kontrollija teadma, milline konkreetne allkiri
+  ebaõnnestus, mis takistaks hulgakontrolli. Failure effecti kasutades katkestab ebaõnnestunud kontroll alati
+  kogu arvutuse, võimaldades tõhusat hulgakontrolli, kus palju allkirju ühendatakse kokku.
+reviewed: true

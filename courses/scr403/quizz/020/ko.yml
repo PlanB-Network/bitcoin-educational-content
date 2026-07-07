@@ -1,0 +1,12 @@
+question: "Bitcoin 및 Liquid 애플리케이션을 위해 Simplicity에서 사용되는 두 가지 부수 효과는 무엇인가?"
+answer: "Failure 효과(타입 1의 예외)와 Reader 효과(트랜잭션 환경 데이터에 대한 접근)."
+wrong_answers:
+  - "State 효과(가변 변수)와 Writer 효과(트랜잭션 로그에 기록)."
+  - "IO 효과(네트워크 통신)와 Memory 효과(동적 메모리 할당)."
+  - "Continuation 효과(콜백)와 Nondeterminism 효과(다중 실행 경로)."
+explanation: >-
+  Simplicity는 블록체인 애플리케이션을 위해 정확히 두 가지 부수 효과를 사용한다. Failure 효과는
+  계산을 중단할 수 있게 하며(예: 서명 검증이 실패할 때), Reader 효과는
+  표현식이 트랜잭션 환경에서 데이터를 읽을 수 있게 한다. 핵심 컴비네이터는 순수하게 유지되며 —
+  부수 효과는 jet을 통해 도입된다.
+reviewed: true

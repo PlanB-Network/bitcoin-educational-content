@@ -1,0 +1,11 @@
+question: "Simplicity program का type क्या है?"
+answer: 1 ⊢ 1 (unit to unit) — कोई meaningful input या output नहीं; side effects I/O करते हैं।
+wrong_answers:
+  - TxEnv ⊢ Bool — यह transaction data लेता है और validity boolean लौटाता है।
+  - 2^256 ⊢ 2^256 — यह hash input लेता है और नया hash output value लौटाता है।
+  - Any type A ⊢ B — programs के input और output types पूरी तरह arbitrary हो सकते हैं।
+explanation: >-
+  Simplicity program को type 1 ⊢ 1 की expression के रूप में define किया जाता है। Reader इफेक्ट
+  transaction environment input को capture करता है, जबकि Failure इफेक्ट success या failure निर्धारित करता है।
+  ये side effects I/O को handle करते हैं, न कि Simplicity types स्वयं।
+reviewed: true

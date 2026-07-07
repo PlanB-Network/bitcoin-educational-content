@@ -1,0 +1,13 @@
+question: "Bitcoin और Liquid applications के लिए Simplicity में उपयोग किए जाने वाले दो side effects कौन-से हैं?"
+answer: "Failure इफेक्ट (type 1 का एक exception) और Reader इफेक्ट (transaction environment data तक access)।"
+wrong_answers:
+  - "State इफेक्ट (mutable variables) और Writer इफेक्ट (transaction log में logging)।"
+  - "IO इफेक्ट (network communication) और Memory इफेक्ट (dynamic memory allocation)।"
+  - "Continuation इफेक्ट (callbacks) और Nondeterminism इफेक्ट (multiple execution paths)।"
+explanation: >-
+  Simplicity blockchain applications के लिए ठीक दो side effects का उपयोग करती है।
+  Failure इफेक्ट computations को abort करने देता है (उदाहरण के लिए, जब कोई signature
+  check fail होता है), और Reader इफेक्ट expressions को transaction environment से
+  data read करने देता है। core combinators pure बने रहते हैं — side effects jets के
+  माध्यम से introduce किए जाते हैं।
+reviewed: true

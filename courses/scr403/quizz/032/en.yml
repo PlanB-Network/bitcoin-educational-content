@@ -1,0 +1,16 @@
+question: The completeness proof builds any function by nesting case to decompose the input and scribe for each output. Why is it only a theoretical tool?
+answer: The resulting expression is a giant lookup table whose size grows exponentially — a 256-bit input would need about 2²⁵⁶ entries.
+wrong_answers:
+  - scribe is a macro, not a core combinator, so the expression falls outside the formally verified language.
+  - The Bit Machine evaluates it in exponential time, even though the expression itself stays compact via sharing.
+  - Nested case can only decompose sum types, so the construction fails on any product-typed input.
+explanation: >-
+  The construction enumerates every possible input via nested case
+  decomposition and hard-codes each output with scribe, so expression size
+  explodes exponentially — astronomical for realistic types like 256-bit
+  words. The blowup is in the expression's size, not in an otherwise-
+  compact expression's runtime. scribe expands into genuine core
+  combinators (unit, injl, injr, pair), so the result stays inside the
+  core language, whose completeness theorem is formally verified in Rocq;
+  and the decomposition handles inputs of any type, products included.
+reviewed: false

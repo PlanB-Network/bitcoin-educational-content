@@ -1,0 +1,12 @@
+question: Dans la composition parallèle, que se passe-t-il pour l'entrée ?
+answer: Les deux opérations reçoivent la même entrée, et leurs sorties forment un produit (paire).
+wrong_answers:
+  - L'entrée est divisée en deux, chaque opération recevant une partie distincte.
+  - Une opération traite d'abord l'entrée, et l'autre reçoit le résultat modifié.
+  - L'entrée est étiquetée et acheminée vers une seule des deux opérations pour traitement.
+explanation: >-
+  La composition parallèle fournit la même entrée non modifiée aux deux opérations
+  simultanément. Les résultats sont regroupés dans un type produit (paire). En
+  Simplicity, cela utilise le combinateur pair, noté f ▵ g, qui produit
+  ⟨f(a), g(a)⟩ pour une entrée a.
+reviewed: false

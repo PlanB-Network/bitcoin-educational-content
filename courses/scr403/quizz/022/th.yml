@@ -1,0 +1,12 @@
+question: "side effects สองแบบที่ใช้ใน Simplicity สำหรับแอปพลิเคชัน Bitcoin และ Liquid คืออะไร?"
+answer: "Failure effect (exception ชนิด 1) และ Reader effect (การเข้าถึงข้อมูล transaction environment)"
+wrong_answers:
+  - "State effect (ตัวแปร mutable) และ Writer effect (การ logging ลง transaction log)"
+  - "IO effect (การสื่อสาร network) และ Memory effect (การจัดสรร memory แบบ dynamic)"
+  - "Continuation effect (callbacks) และ Nondeterminism effect (execution paths หลายทาง)"
+explanation: >-
+  Simplicity ใช้ side effects พอดีสองแบบสำหรับแอปพลิเคชัน blockchain Failure effect อนุญาตให้
+  computations abort ได้ (เช่น เมื่อการตรวจลายเซ็นล้มเหลว) และ Reader effect อนุญาตให้
+  expressions อ่านข้อมูลจาก transaction environment combinator แกนหลักยังคง pure —
+  side effects ถูกนำเข้ามาผ่าน jets
+reviewed: true

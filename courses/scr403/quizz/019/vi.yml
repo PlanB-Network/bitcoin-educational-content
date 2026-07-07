@@ -1,0 +1,14 @@
+question: SimplicityHL là gì và tại sao cần có nó?
+answer: Một ngôn ngữ cấp cao hơn biên dịch xuống Simplicity, quản lý việc đặt tên và phạm vi.
+wrong_answers:
+  - Một ngôn ngữ mô tả phần cứng để khai thác các ASIC chạy Simplicity.
+  - Một IDE kéo-thả đồ họa để nối các tổ hợp tử Simplicity với nhau.
+  - Một framework kiểm thử để chạy các chương trình Simplicity bên trong một sandbox an toàn.
+explanation: >-
+  Simplicity thô trở nên khó hiểu ở các mức độ phức tạp sản xuất vì
+  mọi truy cập dữ liệu đều phải được thực hiện thông qua các tổ hợp tử take/drop lồng nhau. SimplicityHL
+  cung cấp các cấu trúc lập trình quen thuộc — biến có tên, phạm vi, nhập thư viện,
+  và luồng điều khiển — được biên dịch xuống các biểu thức tổ hợp tử Simplicity.
+  Người dùng cuối viết SimplicityHL, trong khi Simplicity đóng vai trò là
+  mục tiêu biên dịch đã được xác minh hình thức.
+reviewed: false

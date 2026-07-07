@@ -1,0 +1,11 @@
+question: "Hva er typen til et Simplicity-program?"
+answer: 1 ⊢ 1 (enhet til enhet) — ingen meningsfull inndata eller utdata; sideeffektene håndterer I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — det tar imot transaksjonsdata og returnerer en gyldighets-boolsk verdi.
+  - 2^256 ⊢ 2^256 — det tar imot en hash-inndata og returnerer en ny hash-utdataverdi.
+  - Enhver type A ⊢ B — programmer kan ha helt vilkårlige inndata- og utdatatyper.
+explanation: >-
+  Et Simplicity-program er definert som et uttrykk av typen 1 ⊢ 1. Reader-effekten fanger opp
+  transaksjonsmiljøet som inndata, mens Failure-effekten avgjør suksess eller feil.
+  Disse sideeffektene håndterer all I/O i stedet for Simplicity-typene selv.
+reviewed: true

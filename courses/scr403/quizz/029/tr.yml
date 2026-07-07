@@ -1,0 +1,15 @@
+question: Simplicity sınırsız özyinelemeyi dışlar. Sınırsız yinelemenin amaçlanan ikamesi nedir?
+answer: Hesaplamayı birden çok işleme yayan ve her işlemin maliyetini öngörülebilir tutan özyinelemeli covenant'lar.
+wrong_answers:
+  - Tek bir işlem içinde ölçümlenmiş bir sınırsız özyineleme biçimi vermek için özel olarak tasarlanmış delegation özelliği.
+  - Tamlığı bir sabit nokta yapısının herhangi bir özyinelemeli fonksiyonu kodlamasına izin veren dokuz çekirdek kombinatör.
+  - Statik analizin maksimum yineleme sayısını çıkarıp gövdeyi çoğalttığı derleme zamanında döngü açma.
+explanation: >-
+  Makalenin tezi, sınırsız yinelemenin birden çok işlem üzerinde hesaplama yapan
+  özyinelemeli covenant'lar olarak daha iyi uygulanacağıdır; bu, blok alanı ve
+  standartlık kısıtlarından kaçınır ve işlem maliyetlerini öngörülebilir kılar.
+  Delegation yalnızca sınırsız özyinelemeye benzeyen bir şey üretmek için kötüye
+  kullanılabilir — amaçlanan mekanizma değildir — ve dokuz çekirdek kombinatör
+  yalnızca sonlu hesaplamalar için tamdır; bu yüzden tek bir program içinde
+  sabit nokta yapısı yoktur.
+reviewed: false

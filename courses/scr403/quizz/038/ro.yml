@@ -1,0 +1,17 @@
+question: "Un jet half-agg-verify înregistrează un set de tupluri ca efect Writer. Conform testului comutativ/idempotent/unitar, ce realizează design-ul bazat pe set, și ce mai lipsește?"
+answer: "Comutativ și idempotent (așa cum cere Simplicity), dar nu unitar: renunțarea la un apel ar elimina tuplul său și ar omite o semnătură."
+wrong_answers:
+  - Idempotent și unitar, dar nu comutativ, deoarece agregatul trebuie să combine componentele r în ordinea semnării.
+  - Toate cele trei, așa că un optimizator poate duplica, reordona sau elimina liber apelurile fără niciun risc.
+  - Comutativ, dar nu idempotent, deoarece înregistrarea aceluiași tuplu de două ori ar necesita două componente s de agregat.
+explanation: >-
+  Tratarea jurnalului writer ca un set face efectul idempotent și
+  comutativ, deoarece inserția într-un set are ea însăși ambele proprietăți
+  — exact cele două cerute de Simplicity pentru orice efect. Unitatea
+  rămâne inaccesibilă: la fel ca Failure, scrierea influențează
+  validitatea tranzacției, deoarece tranzacția este validă doar atunci
+  când o componentă s de agregat acoperă fiecare tuplu înregistrat. O
+  expresie care efectuează scrierea nu poate fi deci eliminată doar
+  pentru că ieșirea sa de tip unit nu este folosită, deoarece tuplul său
+  ar dispărea silențios din verificarea de semi-agregare.
+reviewed: false

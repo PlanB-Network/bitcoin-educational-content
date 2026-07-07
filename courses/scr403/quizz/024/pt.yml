@@ -1,0 +1,11 @@
+question: "Qual é o tipo de um programa Simplicity?"
+answer: 1 ⊢ 1 (unit para unit) — sem input ou output com significado; os efeitos secundários fazem a I/O.
+wrong_answers:
+  - TxEnv ⊢ Bool — recebe dados de transação e devolve um booleano de validade.
+  - 2^256 ⊢ 2^256 — recebe um hash como input e devolve um novo valor de hash como output.
+  - Qualquer tipo A ⊢ B — os programas podem ter tipos de input e output completamente arbitrários.
+explanation: >-
+  Um programa Simplicity é definido como uma expressão do tipo 1 ⊢ 1. O efeito Reader capta
+  o input do ambiente da transação, enquanto o efeito Failure determina o sucesso ou a falha.
+  Estes efeitos secundários tratam de toda a I/O, em vez de serem os próprios tipos da Simplicity a fazê-lo.
+reviewed: true

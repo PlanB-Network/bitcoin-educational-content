@@ -1,0 +1,12 @@
+question: Cosa produce la composizione sequenziale quando concatena l'operazione f (A → B) con l'operazione g (B → C)?
+answer: Un'unica operazione composita da A a C, in cui l'output di f alimenta g.
+wrong_answers:
+  - Un valore coppia contenente entrambi gli output intermedi di tipo B e C.
+  - Un condizionale che sceglie tra f e g in base all'input.
+  - Due operazioni separate che vengono eseguite in modo indipendente, senza condividere dati.
+explanation: >-
+  La composizione sequenziale concatena due operazioni da un capo all'altro.
+  L'output della prima operazione diventa l'input della seconda. In
+  Simplicity, questo si esprime con il combinatore comp: comp f g applica
+  prima f, poi g al risultato.
+reviewed: false

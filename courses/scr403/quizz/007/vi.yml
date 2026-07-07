@@ -1,0 +1,12 @@
+question: Kiểu Boolean (𝟚) được định nghĩa trong Simplicity như thế nào?
+answer: Là kiểu tổng 𝟙 + 𝟙, chứa đúng hai giá trị (false và true).
+wrong_answers:
+  - Là kiểu tích 𝟙 × 𝟙, khi đó sẽ chỉ chứa một giá trị.
+  - Là một kiểu primitive đặc biệt được tích hợp trực tiếp vào ngôn ngữ.
+  - Là một kiểu số nguyên 32 bit bị giới hạn chỉ ở các giá trị 0 và 1.
+explanation: >-
+  Kiểu Boolean 𝟚 được định nghĩa là 𝟙 + 𝟙, một tổng của hai kiểu đơn vị. Giá trị
+  gắn tag trái σᴸ⟨⟩ biểu diễn false (0) và giá trị gắn tag phải σᴿ⟨⟩ biểu diễn
+  true (1). Đây là kiểu dữ liệu một bit được xây dựng chỉ từ kiểu đơn vị và
+  bộ tạo kiểu tổng — không cần bộ tạo kiểu tích.
+reviewed: false

@@ -1,0 +1,13 @@
+question: "Wat is een Commitment Merkle Root (CMR) in Simplicity?"
+answer: Een 256-bit hash die de structuur van een Simplicity-programma vastlegt met getagde SHA-256.
+wrong_answers:
+  - Een binaire boom die alle mogelijke uitvoeringspaden van een Simplicity-programma bevat.
+  - Een hash van de types en witness-waarden van het programma, gebruikt voor adresverificatie.
+  - Een Merkle-root van de transactiedata waartoe het programma toegang mag hebben.
+explanation: >-
+  Elke Simplicity-combinator heeft een unieke SHA-256-tag (bijvoorbeeld Simplicity␟Commitment␟iden),
+  en de CMR wordt berekend door de combinatorboom van het programma recursief te hashen met behulp
+  van deze getagde midstates. Belangrijk is dat de CMR niet de types van expressies vastlegt, maar
+  vertrouwt op typeinferentie tijdens het inlossen. CMR's worden gebruikt om programma's vast te
+  leggen in Taproot-adressen.
+reviewed: true

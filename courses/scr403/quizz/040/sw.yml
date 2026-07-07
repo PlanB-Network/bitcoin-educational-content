@@ -1,0 +1,16 @@
+question: SHA-256 compression huwa jet, lakini combinators za fold na map haziwezi. Nini kinaeleza asymmetry hii?
+answer: Jet hubadilisha usemi mmoja usiobadilika; fold na map si expressions moja moja bali schemas, zikizalisha expression tofauti kwa kila inner function f.
+wrong_answers:
+  - Jets huharakisha code ya straight-line pekee, hivyo combinators za iteration lazima kwanza zifunguliwe na kisha hazilingani na jet yoyote.
+  - Ni expressions zenye uthibitisho wa Rocq uliokaguliwa na mashine pekee ndizo zinastahili, ambao upo kwa SHA-256 lakini si folds.
+  - Folds juu ya vectors fupi ni nafuu sana kunufaika, hivyo jets huhifadhiwa kwa operesheni za crypto zenye gharama kubwa.
+explanation: >-
+  Jet ni mbadala native wa usemi mmoja mahsusi, ulioundwa kikamilifu wa Simplicity,
+  ambao nodes zinaweza kubadilisha huku zikihifadhi semantics yake halisi.
+  fold-right-n, map, zip na variants zake si expressions moja moja
+  bali schemes za ujenzi: kila chaguo la inner function
+  f hutoa usemi tofauti kimuundo, hivyo hakuna jet moja inayoweza kusimama
+  kwa familia nzima. Ndiyo maana patterns hizi za iteration huonekana kama
+  code halisi ya combinator katika programu za kweli, kwa kawaida ikizalishwa na lugha za kiwango cha juu
+  kama SimplicityHL.
+reviewed: false

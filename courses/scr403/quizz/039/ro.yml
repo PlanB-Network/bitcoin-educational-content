@@ -1,0 +1,17 @@
+question: Efectele Simplicity sunt comutative și idempotente, dar nu unitare. Ce transformare a optimizatorului trebuie deci refuzată în general?
+answer: Înlocuirea unei expresii aparent moarte cu unit — Failure nu este unitar, așa că ar putea ascunde o verificare eșuată care trebuie să întrerupă execuția.
+wrong_answers:
+  - Interschimbarea a două subexpresii independente, deoarece un sig-all-hash ar putea observa o stare diferită a mediului.
+  - Fuzionarea a două apeluri verify identice, deoarece un Failure duplicat ar arunca de două ori și ar întrerupe execuția greșit.
+  - Reordonarea expresiilor care pot arunca excepții, deoarece excepția propagată depinde de care parte se execută prima.
+explanation: >-
+  Deoarece efectele Simplicity sunt garantat comutative și idempotente,
+  interschimbarea subexpresiilor independente și duplicarea sau fuzionarea
+  celor identice sunt întotdeauna sigure; mediul Reader este fix, iar
+  excepția de tip unit a lui Failure este identică indiferent de care
+  parte aruncă prima sau de câte ori. Transformarea de eliminare
+  `f ⨾ unit = unit` necesită însă unitate, pe care Failure nu o are: dacă
+  `f` conține un `bip0340-verify` pe o semnătură invalidă, eliminarea
+  codului „mort" ar optimiza înlăturarea întreruperii și ar valida o
+  tranzacție care ar trebui să eșueze.
+reviewed: false

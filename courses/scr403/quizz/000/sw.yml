@@ -1,0 +1,13 @@
+question: Kwa nini Simplicity huondoa ugawaji wa kumbukumbu unaobadilika wakati wa utekelezaji?
+answer: Ili kuwezesha uchambuzi tuli na kuondoa kabisa makundi yote ya hitilafu na mashambulizi.
+wrong_answers:
+  - Kwa sababu Liquid Network haiungi mkono operesheni za kiwango cha chini za kumbukumbu.
+  - Ili kupunguza mkondo wa kujifunza programu kwa waendelezaji wapya wa Contrat intelligent.
+  - Kwa sababu Bitcoin Script yenyewe pia haina ugawaji wowote wa kumbukumbu unaobadilika.
+explanation: >-
+  Simplicity huepuka ugawaji wa kumbukumbu unaobadilika ili matumizi
+  yote ya rasilimali yaweze kubainishwa kwa njia tuli kabla ya utekelezaji.
+  Hili huwezesha mipaka ya rasilimali inayotabirika na huondoa udhaifu
+  unaohusiana na usimamizi wa kumbukumbu, jambo ambalo ni muhimu katika
+  muktadha wa uthibitishaji wa blockchain.
+reviewed: false

@@ -1,0 +1,13 @@
+question: Mikä on lausekkeen pair (drop iden) (take iden) tyyppi, ja mitä funktiota se merkitsee?
+answer: A × B ⊢ B × A — se vaihtaa parin kaksi komponenttia keskenään.
+wrong_answers:
+  - A × B ⊢ A × B — se välittää molemmat komponentit muuttumattomina läpi (identiteetti).
+  - "Väärintyypitetty: take iden ja drop iden tuottavat eri tulostetyypit, joita pair ei voi yhdistää."
+  - (A × B) × (A × B) ⊢ B × A — pair yhdistää kahden alilausekkeensa syötetyypit.
+explanation: >-
+  drop iden : A × B ⊢ B erottaa toisen komponentin ja take iden : A × B ⊢ A
+  erottaa ensimmäisen. pair-kombinaattori vaatii vain, että sen kaksi
+  alilauseketta jakavat saman syötetyypin (tässä A × B); niiden tulosteet
+  voivat erota, ja ne palautetaan parina. Syötteellä ⟨a, b⟩ lauseke tuottaa
+  siis ⟨b, a⟩: vaihtofunktion, jonka tyyppi on A × B ⊢ B × A.
+reviewed: false

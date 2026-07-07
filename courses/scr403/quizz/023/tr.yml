@@ -1,0 +1,14 @@
+question: "sig-all-hash neden işlem verilerini tipli bir girdi olarak almak yerine Reader etkisini kullanır?"
+answer: Böylece jet, PrecomputedTransactionData kullanabilir ve sabit bir ortamda sabit zamanda çalışabilir.
+wrong_answers:
+  - Çünkü Simplicity'nin tür sistemi işlem verilerini bir tür olarak temsil etmeyi temelden başaramaz.
+  - Çünkü Reader etkisi, bu veriyi kombinatör ağacından geçirmekten daha hızlıdır.
+  - Çünkü işlem verileri Simplicity'nin sabit boyutlu tür sistemine sığamayacak kadar büyüktür.
+explanation: >-
+  sig-all-hash bir TxEnv girdi türü alsaydı, programlar işlem verilerinin değiştirilmiş
+  kopyalarını jet'e geçirebilir ve bu da önceden hesaplanmış hash'leri kullanmasını
+  engellerdi. Reader etkisiyle jet yalnızca sabit, değişmez bir işlem ortamına erişir;
+  bu yüzden uygulaması PrecomputedTransactionData'yı güvenle kullanabilir ve imza kontrolü
+  başına sabit zamanda çalışarak erken Bitcoin Script'i zorlayan karesel hashleme
+  probleminden kaçınır.
+reviewed: true

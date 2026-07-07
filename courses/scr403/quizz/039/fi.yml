@@ -1,0 +1,17 @@
+question: Simplicityn sivuvaikutukset ovat kommutatiivisia ja idempotentteja mutta eivät unitaarisia. Mikä optimoijamuunnos on siksi yleisesti hylättävä?
+answer: Näennäisesti kuolleen lausekkeen korvaaminen unitilla — Failure ei ole unitaarinen, joten se voisi kätkeä epäonnistuvan tarkistuksen, jonka on keskeytettävä suoritus.
+wrong_answers:
+  - Kahden riippumattoman alilausekkeen vaihtaminen keskenään, koska sig-all-hash voisi havaita eri ympäristötilan.
+  - Kahden identtisen verify-kutsun yhdistäminen, koska monistettu Failure heittäisi kahdesti ja keskeyttäisi virheellisesti.
+  - Poikkeuksen mahdollisesti heittävien lausekkeiden uudelleenjärjestäminen, koska levitetty poikkeus riippuu siitä, kumpi puoli suoritetaan ensin.
+explanation: >-
+  Koska Simplicityn sivuvaikutukset ovat taatusti kommutatiivisia ja
+  idempotentteja, riippumattomien alilausekkeiden vaihtaminen sekä identtisten
+  monistaminen tai yhdistäminen ovat aina turvallisia; Reader-ympäristö on
+  kiinteä, ja Failuren yksikkötyyppinen poikkeus on identtinen riippumatta
+  siitä, kumpi puoli heittää ensin tai kuinka monta kertaa. Hylkäysmuunnos `f ⨾
+  unit = unit` vaatii kuitenkin unitaarisuutta, jota Failurelta puuttuu: jos
+  `f` sisältää `bip0340-verify`-kutsun virheellisellä allekirjoituksella,
+  'kuolleen' koodin poistaminen optimoisi keskeytyksen pois ja validoisi
+  transaktion, jonka pitäisi epäonnistua.
+reviewed: false

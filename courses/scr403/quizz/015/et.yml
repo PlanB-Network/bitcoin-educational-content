@@ -1,0 +1,13 @@
+question: Miks sisaldab 'case'-kombinaator oma signatuuris jagatud keskkonnatüüpi C?
+answer: Et mõlemad harud saaksid sildistatud sisendi kõrval lugeda jagatud kontekstiandmeid.
+wrong_answers:
+  - Sisendi suuruse piiramiseks, et vältida pinu ületäitumist.
+  - Rekursiivsete väljakutsete võimaldamiseks edasi-tagasi kahe haru vahel.
+  - Eelmise kombinaatori väljundi salvestamiseks ahelas varasemalt.
+explanation: >-
+  case-kombinaatori signatuur on (A + B) × C ⊢ D. Lisatüüp C
+  toimib jagatud keskkonnana, millele pääsevad ligi nii vasak haru
+  (f : A × C ⊢ D) kui ka parem haru (g : B × C ⊢ D). See on võimsam
+  kui lihtne if-then-else, sest harud saavad nii oma spetsiifilised
+  andmed kui ka arvutuseks vajaliku kontekstiinfo.
+reviewed: false

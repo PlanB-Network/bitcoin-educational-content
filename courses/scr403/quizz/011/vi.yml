@@ -1,0 +1,13 @@
+question: Vì sao các biểu thức Simplicity được serialization dưới dạng DAG thay vì cây?
+answer: Để ngăn tăng trưởng theo cấp số nhân, vì các biểu thức con dùng chung chỉ được lưu một lần.
+wrong_answers:
+  - Vì các cấu trúc cây thuần túy hoàn toàn không thể biểu diễn rẽ nhánh điều kiện.
+  - Để cho phép thực thi song song trên nhiều bộ xử lý đa lõi riêng biệt.
+  - Vì giao thức Liquid Network bắt buộc nghiêm ngặt định dạng DAG ở đây.
+explanation: >-
+  Các biểu thức Simplicity tự nhiên tạo thành các cây có thể tăng trưởng theo
+  cấp số nhân khi độ phức tạp tăng. Bằng cách serialization thành đồ thị có
+  hướng không chu trình (DAG), các biểu thức con xuất hiện nhiều lần được lưu
+  một lần và được nhiều nút cha tham chiếu. Điều này giữ cho kích thước chương
+  trình thực tế tăng tuyến tính thay vì theo cấp số nhân.
+reviewed: false

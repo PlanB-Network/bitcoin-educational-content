@@ -1,8 +1,9 @@
-question: According to Gustave Molinari's analysis in 'Les Soirées de la rue Saint Lazare' (eng. Evenings on Saint Lazarus Street), what fundamental similarity exists between conservatives and socialists despite their apparent ideological differences?
-answer: Both seek to impose their vision of society through state intervention, despite having different social objectives
+question: "How does the libertarian conception of freedom differ from the centrist conception?"
+answer: "Libertarians treat freedom as an unconditional axiom, while centrists defend freedoms opportunistically depending on context and efficiency"
 wrong_answers:
-  - Both reject individual property rights in favor of collective ownership managed by different institutions
-  - Both view freedom as an absolute principle that should never be limited regardless of social consequences
-  - Both oppose any form of government regulation while supporting different types of private market solutions
-explanation: |
-  Molinari's key insight was that conservatives and socialists, despite their opposing social visions, share a common methodological approach: both rely on state power to impose their preferred social order. Conservatives use the state to maintain traditional structures, while socialists use it to create new egalitarian ones. This distinguishes them from libertarians, who oppose state-imposed social engineering regardless of its ideological direction. The other options misrepresent these ideologies' actual positions on property, freedom, and government.
+  - "Libertarians allow the state to protect freedom selectively, while centrists reject any state involvement in protecting individual rights"
+  - "Libertarians focus freedom on economic matters only, while centrists apply freedom broadly across social and cultural domains"
+  - "Libertarians and centrists share the same view of freedom but disagree on the size of government needed to enforce it"
+explanation: >-
+  Libertarians define freedom as a general, unconditional principle that functions as an axiom. Centrists, by contrast, defend certain freedoms in an opportunistic and contextual manner without applying any general principle. The centrist approach reveals an instrumental conception of freedom, always subordinated to pragmatic goals like efficiency, which libertarians fundamentally reject.
+reviewed: false

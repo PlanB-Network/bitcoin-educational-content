@@ -1,0 +1,13 @@
+question: Notation ya ufikiaji (O, I, H) hufanya kazi vipi katika Simplicity?
+answer: O humaanisha 'take' (kushoto), I humaanisha 'drop' (kulia), na H humaanisha 'iden' (thamani nzima).
+wrong_answers:
+  - O humaanisha output, I humaanisha input, na H humaanisha kusimamisha utekelezaji wa programu.
+  - Haya ni majina ya variables ambayo compiler huyakabidhi kwa thamani kiotomatiki.
+  - O huchagua elementi zenye indexes zisizogawanyika kwa 2, I huchagua elementi zenye indexes zinazogawanyika kwa 2, H huchagua head.
+explanation: >-
+  Mkato wa O/I/H hutoa njia fupi ya kuvinjari pairs zilizowekwa ndani kwa ndani.
+  O f ni take f (toa ya kushoto), I f ni drop f (toa ya kulia), na H ni
+  iden (thamani nzima). Mfululizo kama I O H humaanisha drop(take(iden)),
+  ukitoa elementi ya kwanza ya elementi ya pili. Hii hufanana na
+  De Bruijn indices zenye digits za binary kama nafasi za tree.
+reviewed: false

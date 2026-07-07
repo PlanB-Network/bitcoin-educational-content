@@ -1,0 +1,12 @@
+question: Co wytwarza kompozycja sekwencyjna przy łączeniu operacji f (A → B) z operacją g (B → C)?
+answer: Pojedynczą złożoną operację z A do C, w której wyjście f zasila g.
+wrong_answers:
+  - Wartość pary zawierającą oba pośrednie wyjścia typu B i C.
+  - Instrukcję warunkową, która wybiera między f a g na podstawie wejścia.
+  - Dwie oddzielne operacje, które działają niezależnie i nie współdzielą żadnych danych.
+explanation: >-
+  Kompozycja sekwencyjna łączy dwie operacje jedna po drugiej. Wyjście
+  pierwszej operacji staje się wejściem drugiej. W Simplicity wyraża się to
+  za pomocą kombinatora comp: comp f g stosuje najpierw f, a następnie g do
+  wyniku.
+reviewed: false

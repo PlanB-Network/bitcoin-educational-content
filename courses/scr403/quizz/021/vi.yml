@@ -1,0 +1,12 @@
+question: "Tại sao hiệu ứng Failure có tính giao hoán trong Simplicity, dù các ngoại lệ nói chung không có tính giao hoán?"
+answer: Vì kiểu ngoại lệ là đơn vị (1) chỉ có một giá trị, nên thứ tự ném không quan trọng.
+wrong_answers:
+  - Vì Simplicity thực thi mọi biểu thức theo một thứ tự xác định do cây tổ hợp tử định nghĩa.
+  - Vì hiệu ứng Failure luôn được tổ hợp tử case bắt rồi ném lại.
+  - Vì Simplicity dùng xác minh theo lô, khiến mọi ngoại lệ được ném ra trở nên tương đương.
+explanation: >-
+  Nói chung, ngoại lệ không có tính giao hoán vì các biểu thức khác nhau có thể ném ra các
+  giá trị ngoại lệ khác nhau. Tuy nhiên, Simplicity giới hạn ngoại lệ ở kiểu đơn vị (chỉ một giá trị khả dĩ),
+  nên hoán đổi thứ tự của hai biểu thức có khả năng thất bại tạo ra cùng một ngoại lệ bất kể
+  biểu thức nào thực sự thất bại. Tính chất giao hoán này cho phép các tối ưu hóa chương trình quan trọng.
+reviewed: true

@@ -1,0 +1,15 @@
+question: Prześledź działanie full-addera na ⟨⟨1,1⟩,1⟩ (1+1+1). Jaką wartość etap drugi, O O H ▵ (O I H ▵ I H ⨾ half-adder), przekazuje do etapu końcowego?
+answer: ⟨1, ⟨0, 1⟩⟩ — przeniesienie pierwszego half-addera, następnie przeniesienie i suma drugiego.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — przeniesienie pierwszego half-addera, następnie suma i przeniesienie drugiego.
+  - ⟨0, ⟨0, 1⟩⟩ — bit sumy pierwszego half-addera, następnie przeniesienie i suma drugiego.
+  - ⟨1, ⟨1, 1⟩⟩ — przeniesienie pierwszego half-addera, następnie bity OR i XOR drugiego.
+explanation: >-
+  Etap pierwszy oblicza half-adder⟨1,1⟩ = ⟨1, 0⟩ (przeniesienie 1, suma 0) i
+  zapisuje przeniesienie wejściowe, dając ⟨⟨1,0⟩, 1⟩. Na etapie drugim O O H
+  wyodrębnia pierwsze przeniesienie (1), natomiast O I H ▵ I H podaje ⟨0, 1⟩ —
+  pierwszą sumę i przeniesienie wejściowe — do drugiego half-addera, dając
+  ⟨0, 1⟩, ponieważ and(0,1)=0 oraz xor(0,1)=1. Etap końcowy wykonuje następnie
+  OR na dwóch przeniesieniach i zachowuje sumę, dając ⟨1, 1⟩: binarnie 3,
+  zgodnie z oczekiwaniami.
+reviewed: false

@@ -1,9 +1,9 @@
-question: According to socialist economic philosophy, what is the primary justification for strong state control over the economy?
-answer: To ensure equity by allowing everyone to meet their basic needs through wealth redistribution
+question: "What distinction did Karl Marx draw between utopian socialism and scientific socialism?"
+answer: "He accused early French socialists of proposing imaginary solutions, while his scientific socialism was grounded in historical materialism and class struggle"
 wrong_answers:
-  - To maximize individual economic freedoms and promote competitive market dynamics
-  - To eliminate all forms of government intervention and create spontaneous market order
-  - To concentrate wealth among the most productive members of society for efficiency
-explanation: |
-  Socialist economic philosophy prioritizes equity over efficiency, viewing strong state control as necessary to redistribute wealth and ensure everyone 
-  can meet their basic needs. Socialists distrust free markets, seeing them as systems that allow the strong to exploit the vulnerable. This contrasts sharply with liberal economic philosophy, which favors minimal state intervention and spontaneous market order. The wrong answers reflect liberal or capitalist approaches that socialists explicitly reject, as they believe these systems perpetuate inequality rather than addressing it.
+  - "He argued that utopian socialism was too focused on economics, while scientific socialism prioritized cultural and artistic transformation"
+  - "He praised utopian socialists for their practical experiments and criticized scientific socialism for being too abstract and theoretical"
+  - "He claimed utopian socialism was violent and revolutionary, while scientific socialism favored peaceful democratic reform"
+explanation: >-
+  Marx accused early French socialists like Proudhon, Saint-Simon, and Fourier of being utopians who proposed purely imaginary solutions. His scientific socialism rested on historical materialism: the idea that history progresses through class struggle and the appropriation of the means of production, where all cultural representations are conditioned by productive forces and relations of production.
+reviewed: false

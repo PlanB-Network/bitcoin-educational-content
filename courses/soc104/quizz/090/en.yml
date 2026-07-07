@@ -1,9 +1,9 @@
-question: According to Mises' analysis, what fundamental characteristic distinguishes right-wing collectivism (fascism/nazism) from left-wing collectivism (socialism/communism)?
-answer: Both share hatred of individual freedom and justification of violence despite different motivations
+question: "Why does Popper argue that the open society remains inherently fragile despite its advantages?"
+answer: "Because the responsibility that individualism implies can seem frightening, creating a temptation to seek refuge in communal protection, authority, or nostalgia for an idealized past"
 wrong_answers:
-  - Right-wing collectivism preserves private property while left-wing collectivism abolishes it entirely
-  - Right-wing collectivism is based on rational planning while left-wing collectivism relies on emotional appeals
-  - Right-wing collectivism allows limited individual autonomy while left-wing collectivism permits none
-explanation: |
-  Mises argues there is no fundamental difference between Hitler's nazism and Stalin's communism in their essential nature. Both represent collectivist ideologies that hate individual freedom and justify violence, even though their stated motivations differ. The key insight is that despite appearing opposed, both fascism and communism subordinate the individual to a collective entity and use force to achieve their goals. 
-  This challenges the common assumption that these ideologies are fundamentally different - Mises sees them as variations of the same anti-individualist theme.
+  - "Because open societies lack military strength and cannot defend themselves against invasion by closed societies"
+  - "Because democratic institutions are inherently inefficient and eventually collapse under the weight of bureaucratic complexity"
+  - "Because open societies allow too much economic inequality, which inevitably leads to revolution and the installation of authoritarian regimes"
+explanation: >-
+  Popper emphasizes that the open society's fragility stems from a psychological vulnerability. The responsibility that individualism implies can seem frightening and risky because one must make one's own choices and can fail. This creates temptation to seek refuge in communal protection or nostalgic tendencies toward an idealized past. The open society faces ongoing challenges from communitarian impulses and the recurring temptation of violence.
+reviewed: false

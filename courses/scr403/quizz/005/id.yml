@@ -1,0 +1,12 @@
+question: Apa yang dilakukan oleh kombinator 'take'?
+answer: Kombinator ini mengekstrak komponen kiri dari sebuah produk, membuang komponen kanan.
+wrong_answers:
+  - Kombinator ini menghapus elemen dari tipe jumlah, membuang bit tanda.
+  - Kombinator ini menggabungkan dua operasi terpisah secara sekuensial ujung-ke-ujung.
+  - Kombinator ini membungkus sebuah nilai dengan tanda kiri untuk membangun tipe jumlah baru.
+explanation: >-
+  Kombinator take adalah pengekstrak untuk tipe produk. Diberikan take f
+  yang diterapkan pada pasangan ⟨a, b⟩, kombinator ini membuang b dan
+  menerapkan f pada a. Dikombinasikan dengan iden, take iden mengekstrak
+  elemen pertama dari pasangan apa pun.
+reviewed: false

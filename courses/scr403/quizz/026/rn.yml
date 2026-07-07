@@ -1,0 +1,12 @@
+question: "Kubera iki witness values zitashizwe muri Commitment Merkle Root (CMR)?"
+answer: Kugira ngo amaderesi akorwe imbere y'uko witnesses zimenyekana, kandi amashami adakoreshejwe acibwe mu buryo bw'ibanga.
+wrong_answers:
+  - Kubera ko witness values ari nini cane ku buryo zitokwinjizwa muri hash ya 256-bit.
+  - Kubera ko witness values zemezwa ukwazo rwose n'ingaruka ya Failure.
+  - Kubera ko gushiramwo witness values vyotuma CMR idaba deterministic.
+explanation: >-
+  Witness expressions (nk'imikono) zitangwa mu gihe co gukoresha amahera, si mu gihe co kurema aderesi.
+  Kuzikura muri CMR bituma habaho ibintu bibiri bihambaye: amaderesi ashobora kuremwa imbere y'uko
+  transaction yo gukoresha amahera ibaho, kandi amashami ya conditional atakozwe ashobora gucibwa mu makuru
+  ya on-chain ata guhishura witness values bijanye na yo.
+reviewed: true

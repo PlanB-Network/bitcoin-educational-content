@@ -1,0 +1,15 @@
+question: "Urmăriți sumatorul complet pe ⟨⟨1,1⟩,1⟩ (1+1+1). Ce valoare transmite etapa a doua, O O H ▵ (O I H ▵ I H ⨾ half-adder), etapei finale?"
+answer: ⟨1, ⟨0, 1⟩⟩ — transportul primului semi-sumator, apoi transportul și suma celui de-al doilea.
+wrong_answers:
+  - ⟨1, ⟨1, 0⟩⟩ — transportul primului semi-sumator, apoi suma și transportul celui de-al doilea.
+  - ⟨0, ⟨0, 1⟩⟩ — bitul de sumă al primului semi-sumator, apoi transportul și suma celui de-al doilea.
+  - ⟨1, ⟨1, 1⟩⟩ — transportul primului semi-sumator, apoi biții OR și XOR ai celui de-al doilea.
+explanation: >-
+  Etapa unu calculează half-adder⟨1,1⟩ = ⟨1, 0⟩ (transport 1, sumă 0) și
+  păstrează transportul de intrare, dând ⟨⟨1,0⟩, 1⟩. În etapa a doua, O O H
+  extrage primul transport (1), în timp ce O I H ▵ I H alimentează ⟨0, 1⟩ —
+  prima sumă și transportul de intrare — în cel de-al doilea semi-sumator,
+  producând ⟨0, 1⟩ deoarece and(0,1)=0 și xor(0,1)=1. Etapa finală face apoi
+  OR între cele două transporturi și păstrează suma, producând ⟨1, 1⟩:
+  binar 3, așa cum era de așteptat.
+reviewed: false

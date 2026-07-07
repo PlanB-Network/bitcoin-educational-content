@@ -1,0 +1,12 @@
+question: Simplicity සතුව core combinators කීයක් තිබේද?
+answer: නවයක් (iden, unit, comp, pair, case, take, drop, injl, injr).
+wrong_answers:
+  - තුනක් (sequential composition, parallel composition, conditional).
+  - පහක් (comp, pair, case, take, සහ drop combinators පමණි).
+  - දොළහක් (core නවය සහ අතිරේක extension combinators තුනක්).
+explanation: >-
+  Simplicity සතුව හරියටම core combinators නවයක් ඇත. මූලික operations දෙකක් (iden
+  සහ unit), composition methods තුනක් (comp, pair, case), සහ accessors හතරක්
+  (products සඳහා take, drop; sums සඳහා injl සහ injr). මෙම නවය
+  Simplicity types අතර ඕනෑම function එකක් ප්‍රකාශ කිරීමට ප්‍රමාණවත් වේ.
+reviewed: false

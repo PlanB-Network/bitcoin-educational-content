@@ -6,4 +6,4 @@ wrong_answers:
   - Indiquer la cible de difficulté
 explanation: |
   Modifier le nonce change l’entrée du hachage et produit une empreinte totalement différente. Cela permet donc de retenter de trouver un hash valide.
-reviewed: false
+reviewed: true 

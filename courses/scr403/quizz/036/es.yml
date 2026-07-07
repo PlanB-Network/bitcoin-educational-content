@@ -1,0 +1,14 @@
+question: push-<n tiene tipo Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. ¿Por qué su salida debe ser una suma que incluya el tipo vector completo Aⁿ?
+answer: Un búfer Aᑉⁿ contiene como máximo n−1 elementos, así que empujar sobre un búfer lleno produce n elementos — solo Aⁿ puede representar eso.
+wrong_answers:
+  - La suma permite a quien llama elegir la codificación más barata, ya que los vectores se serializan de forma más compacta que los productos opcionales.
+  - push puede fallar en un búfer vacío, y la rama Aⁿ es el caso de error que lleva el contenido anterior.
+  - case exige que cualquier función que consuma un búfer de tipo suma también produzca una salida de tipo suma.
+explanation: >-
+  Aᑉⁿ es exactamente el tipo de las listas cuya longitud es estrictamente menor que n,
+  así que un búfer a capacidad máxima contiene n−1 elementos. Empujar uno más
+  produce exactamente n elementos, que Aᑉⁿ no puede representar; el sumando
+  Aⁿ devuelve ese resultado desbordado como un vector completo. Codificar el desbordamiento en
+  el tipo de salida mantiene a push-<n como una función total en lugar de parcial
+  — el caso de fallo por búfer vacío pertenece a pop-<n, no a push-<n.
+reviewed: false

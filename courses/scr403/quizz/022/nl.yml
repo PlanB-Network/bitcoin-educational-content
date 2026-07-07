@@ -1,0 +1,13 @@
+question: "Waarom gebruikt bip0340-verify het Failure-effect in plaats van een booleaanse waarde (true/false) terug te geven?"
+answer: Om batchverificatie van Schnorr-handtekeningen mogelijk te maken, waarbij één mislukte controle de hele batch laat falen.
+wrong_answers:
+  - Omdat booleaanse types te duur zijn in termen van blockruimte vergeleken met het unit-type.
+  - Omdat Simplicity's typesysteem booleaanse returnwaarden afkomstig van jets niet kan representeren.
+  - Omdat het teruggeven van een gewone booleaanse waarde direct in strijd zou zijn met de volledigheidsstelling.
+explanation: >-
+  Als bip0340-verify een booleaanse waarde zou teruggeven, zou een mislukte handtekeningcontrole
+  toch kunnen leiden tot een tak waarin het script slaagt. In dat geval zou de verifiëerder moeten
+  weten welke specifieke handtekening faalde, wat batchverificatie zou verhinderen. Door het
+  Failure-effect te gebruiken, breekt een mislukte controle altijd de volledige berekening af,
+  wat efficiënte batchverificatie mogelijk maakt waarbij veel handtekeningen samen worden verwerkt.
+reviewed: true

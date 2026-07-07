@@ -399,7 +399,7 @@ Dnes je možné mít uživatelský zážitek velmi podobný tomu, který poskytu
 
 
 
-Prvním řešením je jednoduše nepoužívat nativně Lightning, ale použít Bitcoin nebo [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, které obsahují [atomické výměny](https://planb.academy/resources/glossary/atomic-swap). Tuto metodu využívají například aplikace Aqua nebo Bull Bitcoin Wallet, které umožňují platit [faktury Lightning](https://planb.academy/resources/glossary/invoice-lightning), aniž byste sami provozovali uzel Lightning, a přitom zůstávají v režimu self-custody.
+Prvním řešením je jednoduše nepoužívat nativně Lightning, ale použít Bitcoin nebo [Liquid](https://planb.academy/resources/glossary/liquid-network) wallet, které obsahují [atomické výměny](https://planb.academy/resources/glossary/atomic-swap). Tuto metodu využívají například aplikace Aqua nebo BULL Wallet, které umožňují platit [faktury Lightning](https://planb.academy/resources/glossary/invoice-lightning), aniž byste sami provozovali uzel Lightning, a přitom zůstávají v režimu self-custody.
 
 
 

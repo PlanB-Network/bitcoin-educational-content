@@ -1,0 +1,18 @@
+question: Een half-agg-verify-jet logt een verzameling tuples als een Writer-effect. Wat bereikt het verzamelingsontwerp onder de commutatief/idempotent/unitair-test, en wat ontbreekt er nog?
+answer: "Commutatief en idempotent (zoals Simplicity vereist), maar niet unitair: het verwijderen van een aanroep zou de bijbehorende tuple laten vallen en een handtekening overslaan."
+wrong_answers:
+  - Idempotent en unitair, maar niet commutatief, aangezien het aggregaat de r-componenten in ondertekeningsvolgorde moet combineren.
+  - Alle drie, dus een optimizer mag de aanroepen vrij dupliceren, herordenen of verwijderen zonder risico.
+  - Commutatief maar niet idempotent, aangezien het tweemaal loggen van dezelfde tuple twee aggregaat-s-componenten zou vereisen.
+explanation: >-
+  Door het writer-logboek als een verzameling te behandelen wordt het
+  effect idempotent en commutatief, omdat het invoegen in een
+  verzameling zelf beide eigenschappen heeft — precies de twee die
+  Simplicity van elk effect eist. Unitariteit blijft buiten bereik: net
+  als bij Failure beïnvloedt het schrijven de geldigheid van de
+  transactie, aangezien de transactie alleen geldig is wanneer een
+  aggregaat-s-component elke gelogde tuple dekt. Een expressie die de
+  schrijfbewerking uitvoert kan daarom niet worden verwijderd enkel
+  omdat de uitvoer van het type unit ongebruikt is, aangezien de tuple
+  dan stilzwijgend zou verdwijnen uit de half-aggregatieverificatie.
+reviewed: false

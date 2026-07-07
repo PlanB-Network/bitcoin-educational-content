@@ -1,0 +1,17 @@
+question: SHA-256-pakkauksesta tulee jetti, mutta fold- ja map-kombinaattoreista ei voi. Mikä selittää epäsymmetrian?
+answer: Jetti korvaa yhden kiinteän lausekkeen; fold ja map eivät ole yksittäisiä lausekkeita vaan skeemoja, jotka tuottavat eri lausekkeen kutakin sisäfunktiota f kohti.
+wrong_answers:
+  - Jetit kiihdyttävät vain suoraviivaista koodia, joten iteroivat kombinaattorit on ensin avattava, eivätkä ne sitten täsmää mihinkään jettiin.
+  - Vain lausekkeet, joilla on koneellisesti tarkistettu Rocq-todistus, kelpaavat, ja sellainen on olemassa SHA-256:lle mutta ei foldeille.
+  - Lyhyiden vektorien yli tehtävät foldit ovat liian halpoja hyötyäkseen, joten jetit varataan kalliille kryptografisille operaatioille.
+explanation: >-
+  Jetti on natiivi korvaaja yhdelle tietylle, täysin muodostetulle
+  Simplicity-lausekkeelle, jonka solmut voivat korvata säilyttäen sen tarkat
+  semantiikat. fold-right-n, map, zip ja niiden variantit eivät ole
+  yksittäisiä lausekkeita vaan konstruktioskeemoja: jokainen sisäfunktion f
+  valinta tuottaa rakenteellisesti erilaisen lausekkeen, joten mikään
+  yksittäinen jetti ei voi korvata koko perhettä. Tästä syystä nämä
+  iteraatiokuviot esiintyvät aitona kombinaattorikoodina todellisissa
+  ohjelmissa, tyypillisesti korkeamman tason kielten kuten SimplicityHL:n
+  generoimina.
+reviewed: false

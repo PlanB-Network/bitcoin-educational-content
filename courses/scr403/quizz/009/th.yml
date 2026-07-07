@@ -1,0 +1,11 @@
+question: half-adder คำนวณอะไร?
+answer: carry (AND) และ sum (XOR) ของบิตอินพุตสองบิต.
+wrong_answers:
+  - ผลบวกของจำนวนเต็ม multi-bit สองจำนวนพร้อมการ propagate carry.
+  - ค่าเฉลี่ยของสองบิตที่ปัดลง.
+  - bitwise OR และ AND ของบิตอินพุตสองบิต.
+explanation: >-
+  half-adder รับบิตเดี่ยวสองบิตและสร้างเอาต์พุตสองค่าโดยใช้การประกอบแบบขนาน:
+  บิต carry (AND ของอินพุต) และบิต sum (XOR ของอินพุต) ใน Simplicity มันนิยามเป็น
+  and ▵ xor โดยเรียกใช้ปฏิบัติการทั้งสองบนคู่อินพุตเดียวกัน.
+reviewed: false

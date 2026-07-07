@@ -1,0 +1,14 @@
+question: Full-adder ottaa kahden half-adderinsa muistibittien OR:n eikä niiden XOR:ää. Miksi OR on oikein?
+answer: Korkeintaan yksi half-adder voi tuottaa muistibitin millä tahansa syötteellä, joten OR yhdistää kaksi toisensa poissulkevaa tapausta täsmälleen.
+wrong_answers:
+  - Kaksi muistibittiä täytyy laskea yhteen, ja OR on tapa, jolla yksibittinen binäärinen yhteenlasku tehdään Simplicityssä.
+  - Haarautumisen jälkeen OR on ainoa Boolen operaattori, jonka tyyppi vielä täsmää ympäristöön.
+  - OR yliapproksimoi muistibitin; mahdolliset virheelliset muistibitit pudotetaan jälkeenpäin lopullisella projektiolla.
+explanation: >-
+  Jos ensimmäinen half-adder tuottaa muistibitin, molemmat sen syötebitit
+  olivat 1, joten sen summabitti on 0 — ja half-adder, jolle syötetään 0, ei
+  voi koskaan tuottaa muistibittiä. Kaksi muistibittiä eivät siis koskaan ole
+  samanaikaisesti 1, ja OR yhdistää ne täsmälleen (saavutettavilla syötteillä
+  se jopa yhtenee XOR:n kanssa). Juuri tämä toisensa poissulkevuus tekee
+  full-adderin kahden half-adderin hajotelmasta oikean.
+reviewed: false

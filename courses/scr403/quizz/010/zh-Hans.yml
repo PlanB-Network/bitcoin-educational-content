@@ -1,0 +1,11 @@
+question: 完备性定理对 Simplicity 保证了什么？
+answer: 任意两个 Simplicity 类型之间的任何函数都可以由这九个组合子构建出来。
+wrong_answers:
+  - Simplicity 程序被保证始终在常数时间内终止。
+  - Simplicity 是图灵完备的，并且完全可以模拟任何图灵机。
+  - 每个有效的 Simplicity 程序都有一个单一且唯一的表示。
+explanation: >-
+  完备性定理证明，对于有限 Simplicity 类型之间的任意函数，
+  都存在一个能够计算它的 Simplicity 表达式。该构造性证明使用嵌套的 case
+  和 scribe 表达式来构建查找表。这已在 Rocq 证明助手中得到形式化验证。
+reviewed: false

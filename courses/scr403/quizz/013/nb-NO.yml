@@ -1,0 +1,13 @@
+question: Hvorfor bruker Simplicity statisk analyse i stedet for en dynamisk gassmodell som Ethereum?
+answer: For å fastslå ressursgrenser før kjøring starter, noe som gir forutsigbare kostnader.
+wrong_answers:
+  - Fordi statisk analyse rett og slett er mye raskere å implementere for utviklere.
+  - Fordi Ethereums egen gassmodell var patentert og derfor utilgjengelig.
+  - Fordi Simplicity-programmer er altfor korte til å noensinne trenge måling.
+explanation: >-
+  Simplicitys statiske analyse gjør at nettverket kan vite nøyaktig hvor
+  mye beregning et program krever før det kjøres. Dette eliminerer
+  uforutsigbarheten ved dynamisk måling, forhindrer tjenestenektangrep
+  gjennom ressursuttømming, og gjør det mulig for noder å avvise programmer
+  som overskrider grenser, uten å sløse bort beregningskraft.
+reviewed: false

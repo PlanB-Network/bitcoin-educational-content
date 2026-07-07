@@ -1,0 +1,12 @@
+question: O que a composição sequencial produz ao encadear a operação f (A → B) com a operação g (B → C)?
+answer: Uma única operação composta de A para C, com a saída de f alimentando g.
+wrong_answers:
+  - Um valor de par contendo ambas as saídas intermediárias dos tipos B e C.
+  - Um condicional que escolhe entre f e g com base na entrada.
+  - Duas operações separadas que executam independentemente, sem compartilhar dados.
+explanation: >-
+  A composição sequencial encadeia duas operações de ponta a ponta. A saída
+  da primeira operação torna-se a entrada da segunda. Na Simplicity, isso é
+  expresso com o combinador comp: comp f g aplica f primeiro, depois g ao
+  resultado.
+reviewed: false

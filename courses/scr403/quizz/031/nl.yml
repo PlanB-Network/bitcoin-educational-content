@@ -1,0 +1,14 @@
+question: Wat is het type van pair (drop iden) (take iden), en welke functie duidt het aan?
+answer: A × B ⊢ B × A — het verwisselt de twee componenten van een paar.
+wrong_answers:
+  - A × B ⊢ A × B — het geeft beide componenten ongewijzigd door (de identiteit).
+  - "Onjuist getypeerd: take iden en drop iden hebben verschillende uitvoertypen, die pair niet kan samenvoegen."
+  - (A × B) × (A × B) ⊢ B × A — pair voegt de invoertypen van zijn twee subexpressies samen.
+explanation: >-
+  drop iden : A × B ⊢ B extraheert het tweede component en take iden : A ×
+  B ⊢ A extraheert het eerste. De pair-combinator vereist alleen dat zijn
+  twee subexpressies hetzelfde invoertype delen (hier A × B); hun
+  uitvoertypen mogen verschillen en worden als paar teruggegeven. Bij
+  invoer ⟨a, b⟩ levert de expressie dus ⟨b, a⟩ op: de swap-functie, van
+  het type A × B ⊢ B × A.
+reviewed: false

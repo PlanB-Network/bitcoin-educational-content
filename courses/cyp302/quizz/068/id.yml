@@ -6,3 +6,4 @@ wrong_answers:
   - Dibagikan secara publik untuk menghasilkan kunci lain
 explanation: |
   Dalam skema enkripsi simetris, kunci privat yang sama digunakan baik untuk mengenkripsi pesan saat mengirim maupun untuk mendekripsinya saat diterima.
+reviewed: true

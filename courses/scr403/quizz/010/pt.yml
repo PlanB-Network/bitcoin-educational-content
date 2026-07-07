@@ -1,0 +1,12 @@
+question: Como os vetores de comprimento fixo são construídos no sistema de tipos do Simplicity?
+answer: Através de tipos de produto aninhados de comprimento potência de dois (por exemplo, A⁴ = A² × A²).
+wrong_answers:
+  - Usando um construtor de tipo de array especial embutido na linguagem.
+  - Através de tipos de soma recursivos que encadeiam os elementos em uma lista.
+  - Usando buffers de comprimento variável que têm um tamanho máximo fixo.
+explanation: >-
+  O Simplicity constrói vetores a partir de tipos de produto aninhados. A² é A × A,
+  A⁴ é A² × A², A⁸ é A⁴ × A⁴, e assim por diante. Isso resulta em coleções
+  de tamanho potência de dois. Por exemplo, 𝟚²⁵⁶ (um hash de 256 bits) é construído
+  aninhando produtos 8 níveis de profundidade a partir do tipo booleano.
+reviewed: false

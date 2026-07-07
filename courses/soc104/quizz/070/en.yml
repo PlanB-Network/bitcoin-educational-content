@@ -1,9 +1,9 @@
-question: According to the libertarian perspective on societal issues, what is the most consistent approach to resolving conflicts between individual freedom and government regulation?
-answer: Privatize institutions and let voluntary associations handle regulation rather than having the state impose uniform rules on everyone
+question: "Across the five societal debates (marriage, immigration, firearms, drugs, sugary drinks), what recurring analytical framework shapes the socialist position on each issue?"
+answer: "A conflict framework between dominants and dominated, where society is structured by oppression and the state must intervene to protect the vulnerable group"
 wrong_answers:
-  - Create comprehensive government regulations that balance competing interests while protecting minority rights from majority oppression
-  - Establish democratic processes where majority vote determines social policies while maintaining constitutional protections for basic rights
-  - Develop evidence-based policies that prioritize public safety and social cohesion over individual preferences in controversial areas
-explanation: |
-  The libertarian approach consistently advocates for removing state control and allowing private institutions to handle regulation. This is evident in their stance on marriage (privatize it and let churches/private organizations decide), immigration (destatize society and let citizens decide), and drugs (yes to freedom but only if society is destatized). 
-  The other options represent socialist, centrist, or conservative approaches that maintain varying degrees of state involvement rather than the libertarian principle of minimizing government power through privatization.
+  - "A utilitarian framework focused on maximizing overall happiness and economic productivity for the greatest number of citizens"
+  - "A natural rights framework where individual freedoms must be protected from both state and corporate interference"
+  - "A traditionalist framework where established social institutions must be preserved against disruptive modern changes"
+explanation: >-
+  The socialist position across societal debates is consistently shaped by a dominant/dominated conflict framework. On marriage, it is heterosexual majority oppressing a homosexual minority. On immigration, nationality-based restrictions are forms of oppression. On firearms, only the state should hold force to protect the vulnerable. On sugary drinks, industrialists profit from the vulnerability of the least protected. This oppressor/oppressed lens is reproduced across numerous domains including gender, race, and even the relationship between humanity and nature.
+reviewed: false

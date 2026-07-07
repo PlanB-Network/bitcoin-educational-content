@@ -1,0 +1,16 @@
+question: Simplicity के effects commutative और idempotent हैं, लेकिन unitary नहीं। इसलिए optimizer को सामान्यतः कौन-सा transformation refuse करना चाहिए?
+answer: दिखने में dead expression को unit से replace करना — Failure unitary नहीं है, इसलिए यह failing check को hide कर सकता है जिसे abort करना चाहिए।
+wrong_answers:
+  - दो independent subexpressions को swap करना, क्योंकि sig-all-hash अलग environment state observe कर सकता है।
+  - दो identical verify calls को merge करना, क्योंकि duplicated Failure दो बार throw करेगी और wrongly abort करेगी।
+  - ऐसे expressions को reorder करना जो throw कर सकते हैं, क्योंकि propagated exception इस पर निर्भर करता है कि कौन-सी side पहले run होती है।
+explanation: >-
+  क्योंकि Simplicity के effects guaranteed commutative और idempotent हैं,
+  independent subexpressions को swap करना और identical ones को duplicate या merge
+  करना हमेशा safe है; Reader environment fixed है, और Failure की unit-typed
+  exception identical है चाहे कौन-सी side पहले throw करे या कितनी बार करे।
+  Discard transformation `f ⨾ unit = unit`, however, unitarity मांगता है, जो
+  Failure में नहीं है: यदि `f` में invalid signature पर `bip0340-verify` है, तो
+  'dead' code को eliminate करना abort को optimize away कर देगा और ऐसी transaction
+  validate कर देगा जिसे fail होना चाहिए।
+reviewed: false

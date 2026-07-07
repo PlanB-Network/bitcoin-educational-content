@@ -1,0 +1,14 @@
+question: Mengapa ekspresi Simplicity diserialisasi sebagai DAG, bukan sebagai pohon (tree)?
+answer: Untuk mencegah pertumbuhan eksponensial, karena sub-ekspresi yang dibagikan hanya disimpan satu kali.
+wrong_answers:
+  - Karena struktur pohon biasa sama sekali tidak dapat merepresentasikan percabangan kondisional.
+  - Untuk memungkinkan eksekusi paralel di banyak prosesor multi-core yang terpisah.
+  - Karena protokol Liquid Network secara ketat mewajibkan format DAG ini.
+explanation: >-
+  Ekspresi Simplicity secara alami membentuk pohon yang dapat tumbuh
+  secara eksponensial seiring bertambahnya kompleksitas. Dengan
+  diserialisasi sebagai directed acyclic graph (DAG), sub-ekspresi yang
+  muncul beberapa kali disimpan satu kali dan dirujuk oleh beberapa induk.
+  Ini membuat ukuran program aktual tumbuh secara linear, bukan
+  eksponensial.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Fungsi Beta Dirichlet
 explanation: |
   Fungsi Phi Euler menentukan jumlah bilangan bulat kurang dari N yang koprima dengan N, sebuah konsep sentral dalam teorema kriptografi yang berbasis pada bilangan prima.
+reviewed: true

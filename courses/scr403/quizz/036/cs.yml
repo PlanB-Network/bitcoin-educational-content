@@ -1,0 +1,14 @@
+question: push-<n má typ Aᑉⁿ × A ⊢ Aⁿ + Aᑉⁿ. Proč musí být jeho výstup součtem, který zahrnuje úplný vektorový typ Aⁿ?
+answer: Buffer Aᑉⁿ pojme nanejvýš n−1 položek, takže vložení do plného bufferu dá n položek — jen Aⁿ to dokáže reprezentovat.
+wrong_answers:
+  - Součet umožňuje volajícím zvolit levnější kódování, protože vektory se serializují kompaktněji než součiny typu option.
+  - Push může na prázdném bufferu selhat a větev Aⁿ je chybový případ nesoucí starý obsah.
+  - case vyžaduje, aby každá funkce konzumující buffer součtového typu produkovala rovněž výstup součtového typu.
+explanation: >-
+  Aᑉⁿ je přesně typ seznamů, jejichž délka je striktně menší než n, takže
+  buffer o maximální kapacitě pojme n−1 prvků. Vložení dalšího produkuje
+  přesně n prvků, které Aᑉⁿ nedokáže reprezentovat; sčítanec Aⁿ vrací
+  tento přetečený výsledek jako úplný vektor. Zakódování přetečení do
+  výstupního typu udržuje push-<n totální funkcí, nikoli parciální —
+  případ selhání s prázdným bufferem patří k pop-<n, nikoli k push.
+reviewed: false

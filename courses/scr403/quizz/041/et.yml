@@ -1,0 +1,16 @@
+question: "#ᶜ(comp f g) arvutamine räsib 128 baiti: comp-märgend kaks korda, seejärel mõlemad laste CMR-id. Miks on see siiski kõige rohkem üks SHA-256 kompressioonikutse?"
+answer: Esimene 64-baidine plokk on konstantne tag∥tag, mille vaheolek eelarvutatakse üks kord; kompressitakse ainult laste CMR-e sisaldav plokk.
+wrong_answers:
+  - Ainuüksi SHA-256 lõpliku pikkusetäite ploki eemaldamine laseb kogu 128 baidil mahtuda ühte kutsesse.
+  - Kaks laste CMR-i XOR-itakse üheks 32-baidiseks digestiks, kahandades sisendi üheks plokiks.
+  - SHA-256-midstate on laia ploki variant, mis neelab 128-baidiseid sõnumiplokke ühe läbimisega.
+explanation: >-
+  SHA-256 kompressioonifunktsioon töötleb fikseeritud 64-baidiseid plokke,
+  seega vajab 128-baidine sisend tavaliselt kaht kutset (lisaks veel üht
+  pikkusetäite jaoks täis-SHA-256-s). Kuna iga kombinaatori esimene plokk on
+  konstantne tag∥tag, saab selle vaheoleku üks kord eelarvutada ja vahemällu
+  salvestada; iga avaldis vajab siis ainult üht uut kompressiooni plokile, mis
+  sisaldab selle laste CMR-e. Vaheolekud eemaldavad ka lõpliku täiteploki, kuid
+  ainult sellest jääks ikkagi alles kaks kompressiooni — eelarvutatud märgendi
+  vaheolek on see, mis vähendab selle kõige rohkem üheni.
+reviewed: false

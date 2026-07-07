@@ -1,0 +1,23 @@
+id: 52100a5c-6c17-4c98-9d81-f3d3d5b0aba9
+name: Tropic Square
+category: service
+links:
+  website: https://tropicsquare.com/
+  twitter: https://x.com/tropicsquare
+  github: https://github.com/tropicsquare/tropic01
+  youtube: 
+tags:
+  - hardware
+  - personal-security
+  - innovation
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-03-11
+    urgency: 1
+    contributor_names:
+      - Rogzy-DB
+    reward: 0
+contributor_names:
+  - Rogzy-DB
+license: CC-BY-SA-V4

@@ -1,0 +1,17 @@
+question: half-agg-verify jet beleži skup torki kao Writer efekat. Prema testu komutativnosti/idempotentnosti/unitarnosti, šta se postiže korišćenjem skupa, a šta i dalje nedostaje?
+answer: "Komutativan i idempotentan (kao što Simplicity zahteva), ali ne i unitaran: odbacivanje poziva bi izostavilo njegovu torku i preskočilo potpis."
+wrong_answers:
+  - Idempotentan i unitaran, ali ne i komutativan, jer agregat mora kombinovati r-komponente u redosledu potpisivanja.
+  - Sva tri, pa optimizator može slobodno duplirati, preuređivati ili odbacivati pozive bez rizika.
+  - Komutativan ali ne i idempotentan, jer bi beleženje iste torke dvaput zahtevalo dve agregatne s-komponente.
+explanation: >-
+  Tretiranje writer loga kao skupa čini efekat idempotentnim i
+  komutativnim, jer umetanje u skup samo po sebi ima oba svojstva —
+  upravo dva zahteva koje Simplicity postavlja svakom efektu. Unitarnost
+  je i dalje van domašaja: kao i Failure, upisivanje utiče na validnost
+  transakcije, jer je transakcija validna samo kada agregatna
+  s-komponenta pokriva svaku zabeleženu torku. Izraz koji vrši
+  upisivanje stoga se ne može odbaciti samo zato što njegov jedinični
+  izlaz nije iskorišćen, jer bi njegova torka tiho nestala iz
+  verifikacije polu-agregacije.
+reviewed: false

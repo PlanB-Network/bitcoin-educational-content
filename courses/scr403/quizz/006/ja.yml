@@ -1,0 +1,12 @@
+question: 完全性定理はSimplicityについて何を保証しますか？
+answer: 2つのSimplicity型の間の任意の関数を、9つのコンビネータから構築できることです。
+wrong_answers:
+  - Simplicityプログラムが常に一定時間で終了することが保証されるということです。
+  - Simplicityがチューリング完全であり、あらゆるチューリングマシンを完全にシミュレートできるということです。
+  - すべての有効なSimplicityプログラムが、ただ1つの一意な表現を持つということです。
+explanation: >-
+  完全性定理は、有限なSimplicity型の間の任意の関数について、
+  それを計算するSimplicity式が存在することを証明する。
+  構成的証明は、ネストしたcase式とscribe式を使ってルックアップテーブルを構築する。
+  これはRocq証明支援系で形式的に検証されている。
+reviewed: false

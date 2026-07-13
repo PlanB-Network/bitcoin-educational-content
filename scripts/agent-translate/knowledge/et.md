@@ -15,3 +15,28 @@
 - Simplicity efektinimed `Failure`, `Reader` ja `Writer` jäta ingliskeelseks ning kääna sidekriipsuga: `Failure-efekt`, `Reader-efekt`, `Writer-efekt`.
 - Simplicity `jets` renderda eesti tekstis kui `jetid`/`jette`; koodis ja kombinaatorinimedes jäta algkuju muutmata.
 - Tüübinimed: `unit type` → `ühiktüüp`, `sum type` → `summatüüp`, `product type` → `korrutistüüp`, `tuple` → `ennik`.
+
+## 2026-07-06
+- Political-family terms in SOC104: use `libertaarne`/`libertaarid` for libertarian, `tsentristlik`/`tsentristid` for centrist, `sotsialistlik`/`sotsialistid` for socialist, and `konservatiivne`/`konservatiivid` for conservative.
+- In economic-policy contexts, render `moral hazard` as `moraalirisk`.
+- For SOC104 totalitarianism vocabulary, use `totalitarism`, `totalitaarne režiim`, `klassikaline despotism`, `isiksusekultus`, and `majanduslik autarkia`.
+- In SOC104 political-family quizzes, render `libertarianism` as `libertarism`, `libertarians` as `libertaarid`, and use `libertaarne` as the adjective.
+- Render `non-aggression principle` as `mitteagressiivsuse põhimõte`; use `mitteagressioon` for the value in short lists.
+- Render `minarchist/minarchism` as `minarhist/minarhism` and `anarcho-capitalist/anarcho-capitalism` as `anarhokapitalist/anarhokapitalism`.
+- For Austrian/libertarian monetary prose, keep `Federal Reserve` and `Fiat` invariant; render `sound money` as `usaldusväärne raha` unless a glossary entry says otherwise.
+- For Nolan-diagram political vocabulary, render `statism/statist` as `etatism`/`etatist`, while translating the explanatory phrase as state use of legislation to control or shape society.
+- For libertarian political terms in SOC104, use the glossary-aligned `libertarism`, adjective `libertaarne`, and person `libertaarlane`; derive `paleolibertarism`/`paleolibertaarlane` and `neolibertarism` analogously.
+- In US political context, keep proper program/party/institute names such as `New Deal`, `Great Society`, `Cato Institute`, `Mises Institute`, and `Libertarian Party` in English; translate only surrounding prose.
+- Political-philosophy quizzes: render `statism` as `riigikesksus`; use `riiklik kontroll` for descriptive “state control” axis wording.
+- Render `Nolan diamond` as `Nolani romb` and `Nolan diagram` as `Nolani diagramm`.
+- Use `libertarism` for `libertarianism`, `libertaar` for `libertarian`, and the established forms `minarhist` / `anarhokapitalist`.
+- For SOC104’s contrast between French `libertaires` and Anglophone `libertarians`, render `libertaires` as `libertäärid` and `libertarians` as `libertariaanid`; use `libertarism` for `libertarianism`.
+- Keep `Green New Deal` as the untranslated proper name in Estonian prose.
+- Render Bastiat/Friedman `spoliation` as `riisumine` in this political-economy context.
+- Keep the genesis-block embedded newspaper headline byte-exact (`The Times 03/Jan/2009...`) and translate only the surrounding explanation, because it is the historical message committed in the block.
+- Use glossary-canonical `Cypherpunks` for the community/name; in running Estonian prose, hyphenate or apostrophize case endings as needed (`Cypherpunks'id`, `Cypherpunki manifest`).
+- Use glossary-canonical capitalized `Fiat` as the term, including compounds such as `Fiat-raha` and `Fiat-valuuta`.
+- For SOC104 political philosophy, render `libertarian(s)` as `libertaarne` / `libertaarid`, matching existing Estonian Bitcoin-course usage.
+- In Hayek/Popper context, use `spontaanne kord` for `spontaneous order`, `konstruktivism` for `constructivism`, and `avatud ühiskond` / `suletud ühiskond` for `open society` / `closed society`.
+- For the pro-business vs. pro-market contrast, use `ettevõtlusmeelne` vs. `turumeelne`; keep the distinction between protecting incumbent firms and defending the market process.
+- For Kant's `Sapere aude`, keep the Latin motto verbatim and render the explanatory phrase as `Julge ise mõelda`; translate Kantian `minority` as `alaealisus`.

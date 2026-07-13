@@ -1,0 +1,9 @@
+question: "Bitcoin vận hành như một dự án đạo đức có hệ quả chính trị, chứ không phải một dự án chính trị có các tuyên bố đạo đức, như thế nào?"
+answer: "Bitcoin được thiết kế để khiến con người tự do chứ không phải giàu có, bằng cách cho phép quyền sở hữu hữu hiệu, bảo vệ giá trị của lao động và bảo tồn quyền riêng tư; đó là những thành tựu đạo đức tạo ra các hiệu ứng chính trị mà không tuyên bố thuộc về bất kỳ phe chính trị nào"
+wrong_answers:
+  - "Bitcoin là một dự án đạo đức vì mã của nó cưỡng chế các quy tắc đạo đức ngăn gian lận, và hệ quả chính trị của nó là thay thế quản trị dân chủ bằng việc ra quyết định bằng thuật toán"
+  - "Bitcoin vận hành như một dự án đạo đức vì nó tái phân phối của cải từ người giàu sang những người tham gia sớm, tạo ra một xã hội công bằng hơn với các hàm ý chính trị cho chính sách thuế"
+  - "Bitcoin có tính đạo đức vì Satoshi Nakamoto đã nhúng các điều răn đạo đức vào giao thức, và hệ quả chính trị của nó là thống nhất mọi họ chính trị dưới một hệ thống tiền tệ chung"
+explanation: >-
+  Bitcoin không được thiết kế để khiến con người giàu có mà để khiến họ tự do. Nó đạt được ba kết quả đạo đức: cho phép quyền sở hữu hữu hiệu (khuyến khích trách nhiệm), bảo vệ giá trị do lao động tạo ra (khuyến khích nỗ lực sản xuất), và bảo tồn quyền riêng tư (cho phép con người sống mà không sợ hãi). Đây là những thành tựu đạo đức mang theo các hệ quả chính trị mà không thuộc về bất kỳ phe chính trị nào, khiến Bitcoin trước hết là một dự án đạo đức và chỉ sau đó mới là chính trị.
+reviewed: false

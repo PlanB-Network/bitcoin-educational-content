@@ -1,0 +1,9 @@
+question: "Prečo sa menová inflácia opisuje ako skrytá daň uložená bez súhlasu občanov?"
+answer: "Pretože vládna tvorba peňazí znehodnocuje menu, takže ľudia si za rovnakú sumu kúpia menej, no väčšina si neuvedomuje, že rast cien odráža vládnu politiku, nie prirodzené trhové sily"
+wrong_answers:
+  - "Pretože centrálne banky tajne účtujú poplatky za každú transakciu spracovanú cez bankový systém bez toho, aby ich zverejnili majiteľom účtov"
+  - "Pretože vlády tlačia peniaze a rozdeľujú ich iba bohatým jednotlivcom, zatiaľ čo chudobných zdaňujú vyššími daňami z predaja základných tovarov"
+  - "Pretože infláciu spôsobujú súkromné korporácie zvyšovaním cien s cieľom zvýšiť zisky, čo funguje ako neoficiálna daň na spotrebiteľov"
+explanation: >-
+  Vstrekovanie peňazí do systému sa premieta do znehodnotenia meny, pri ktorom rovnaká suma kúpi menej, pretože nové peniaze neodrážajú skutočný ekonomický rast. Väčšina ľudí nevidí, že k rastu cien viedla vládna politika a že ceny sú iba odrazom znehodnotenia meny. To sa rovná legálnej krádeži a inštitucionalizovanému olupovaniu, ktoré ochudobňuje strednú triedu, zatiaľ čo bohatí zachytávajú nové peniaze cez špekulatívne aktíva.
+reviewed: false

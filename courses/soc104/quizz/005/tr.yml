@@ -1,0 +1,9 @@
+question: "İtibari para sistemi yönetenler ile yönetilenler arasındaki ayrımı nasıl güçlendirir?"
+answer: "Hükümetlerin para yaratımı yoluyla sınırsız harcamayı finanse etmesine olanak tanır; bu da tasarrufları enflasyon yoluyla değersizleştirir"
+wrong_answers:
+  - "Vatandaşlara demokratik seçimler ve referandumlar yoluyla para politikası üzerinde doğrudan denetim verir"
+  - "Hükümetlerin borçlanmasını engeller ve onları gelir için yalnızca vergilendirmeye dayanmaya zorlar"
+  - "Ekonomik büyümeyi teşvik etmek için yeni yaratılan parayı tüm vatandaşlar arasında eşit biçimde dağıtır"
+explanation: >-
+  İtibari para, hükümetlerin borçlanmasına ve bankaları yeni para basmaya itmesine olanak tanıdığı için devlet gücünün genişlemesinin temel taşı olarak tanımlanır. Ortaya çıkan enflasyon insanların tasarruflarını değersizleştirir ve en varlıklı, en güçlü yapılara fayda sağlar. Vatandaşlara parasal denetim vermez; borçlanmayı engellemez ya da parayı eşit dağıtmaz.
+reviewed: false

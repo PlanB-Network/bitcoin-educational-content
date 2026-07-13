@@ -19,3 +19,16 @@
 - A YAML scalar `answer` starting with a colon-containing phrase (e.g. "A tagged union: ...") must be double-quoted in French too when the translated string itself contains a `: ` — otherwise YAML parses it as a mapping.
 - "half-adder" → "demi-additionneur"; kept English term in parentheses on first use for clarity, consistent with the course's technical register.
 - "gas model" (Ethereum) → kept "gas" untranslated ("modèle de gas"), standard usage in French crypto technical writing.
+
+## 2026-07-06
+- In SOC104 political terminology, preserve the French distinction: English `libertaires` → `libertaires` (socialist-anarchist current), English `libertarians` → `libertariens`, and `libertarianism` → `libertarianisme`, matching existing `courses/soc104/fr.md` usage.
+- In SOC political-family quizzes, render “libertarian” as “libertarien” (not “libéral”) to preserve the ideology distinct from French liberalism.
+- In economic-policy context, “moral hazard” → “aléa moral”, the standard French economics term.
+- For healthcare policy questions, prefer “santé” for the policy sector and “soins de santé” for actual access/care delivery.
+- In political-economy quiz prose, keep `pro-business` and `pro-market` in English when used as named ideological labels; translate only the surrounding syntax (e.g. "position pro-business", "partisans pro-market").
+- In SOC political-economy quizzes, keep `pro-business` and `pro-market` in English when they are contrasted as labels; translate only the explanatory prose around them.
+- For the Nolan diagram / political-spectrum context: render "libertarianism" as "libertarianisme", "libertarian" as "libertarien", and "statism" as "étatisme" to avoid confusion with French "libéralisme".
+- For SOC/political Bitcoin quiz material, keep the embedded genesis-block headline byte-identical when quoted as the historical message; translate only the surrounding prose/description.
+- Keep the cypherpunk slogan “Cypherpunks write code” in English when referenced as a named formula; translate only the surrounding explanation.
+- In French SOC/political quizzes, render “libertarian” as “libertarien” and “libertarianism” as “libertarianisme”; keep U.S. labels like `liberal`, `libertarian`, `Big Government`, `New Deal`, `Great Society`, and party/institute names in English when the question is explicitly about the American term.
+- “statism/statist” → “étatisme/étatiste”; “spontaneous order” → “ordre spontané”; “federal states” in the U.S. context → “États fédérés”.

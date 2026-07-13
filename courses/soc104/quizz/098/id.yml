@@ -1,0 +1,9 @@
+question: "Mengapa cypherpunk berargumen bahwa mata uang digital dengan sifat anonim diperlukan?"
+answer: "Karena uang tunai, sistem transaksi anonim utama, sedang menghilang dalam masyarakat digital, dan pengganti digital dengan sifat privacy yang sama harus diciptakan"
+wrong_answers:
+  - "Karena sistem pembayaran digital yang ada terlalu lambat dan mahal, sehingga membutuhkan alternatif yang lebih cepat dan lebih murah untuk perdagangan online"
+  - "Karena pemerintah telah melarang semua bentuk transaksi anonim dan hanya teknologi baru yang dapat menghindari hukum-hukum ini"
+  - "Karena bank tradisional menolak melayani populasi tertentu, sehingga sistem pembayaran digital yang dapat diakses secara universal menjadi kebutuhan ekonomi"
+explanation: >-
+  Manifesto cypherpunk menyatakan bahwa kerahasiaan dalam masyarakat terbuka membutuhkan sistem transaksi anonim. Hingga era digital, uang tunai berfungsi sebagai sistem utama jenis ini. Namun dalam masyarakat digital tempat uang tunai menghilang, mata uang digital dengan sifat anonimitas yang sama harus diciptakan. Visi ini secara langsung mengantisipasi apa yang akan dicapai Bitcoin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mida usuvad libertaarid üksikisikute otsustusvõime kohta?"
+answer: "Üksikisikutel on nii õigus kui ka vastutus teha ise otsuseid oma elu kohta"
+wrong_answers:
+  - "Üksikisikud peaksid otsuseid tegema alles pärast konsulteerimist valitud esindajatega, kes mõistavad poliitikamõjusid"
+  - "Üksikisikud ei ole üldiselt võimelised häid otsuseid tegema ja vajavad valitsusasutuste ekspertjuhendamist"
+  - "Üksikisikud peaksid tegema majandusotsuseid vabalt, kuid alluma riigile kõigis sotsiaalsetes ja kultuurilistes küsimustes"
+explanation: >-
+  Libertaarse vaatepunkti järgi on üksikisikutel nii õigus kui ka vastutus teha ise oma otsuseid. See vastandub tavapärastele poliitilistele perekondadele vasakult paremale, mis usuvad, et valitsus peaks tegema mõned või paljud olulised otsused üksikisiku elus ja majanduselus üldiselt.
+reviewed: false

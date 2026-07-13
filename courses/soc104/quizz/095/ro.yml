@@ -1,0 +1,9 @@
+question: "Cum funcționează Bitcoin ca proiect moral cu consecințe politice, mai degrabă decât ca proiect politic cu pretenții morale?"
+answer: "Bitcoin a fost conceput pentru a-i face pe oameni liberi, nu bogați, permițând proprietatea efectivă, protejând valoarea muncii și păstrând confidențialitatea, care sunt realizări morale ce produc efecte politice fără a revendica vreo tabără politică"
+wrong_answers:
+  - "Bitcoin este un proiect moral deoarece codul său impune reguli etice care previn frauda, iar consecința sa politică este înlocuirea guvernării democratice cu luarea deciziilor algoritmică"
+  - "Bitcoin funcționează ca proiect moral deoarece redistribuie averea de la bogați către early adopters, creând o societate mai echitabilă cu implicații politice pentru politica fiscală"
+  - "Bitcoin este moral deoarece Satoshi Nakamoto a inclus porunci etice în protocol, iar consecința sa politică este unirea tuturor familiilor politice sub un sistem monetar comun"
+explanation: >-
+  Bitcoin nu a fost conceput pentru a-i face pe oameni bogați, ci pentru a-i face liberi. El obține trei rezultate morale: permite proprietatea efectivă (stimulând responsabilitatea), protejează valoarea creată prin muncă (încurajând efortul productiv) și păstrează confidențialitatea (permițând oamenilor să trăiască fără teamă). Acestea sunt realizări morale care poartă consecințe politice fără să aparțină vreunei tabere politice, făcându-l mai întâi un proiect moral și abia apoi unul politic.
+reviewed: false

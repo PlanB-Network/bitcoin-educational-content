@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto හඳුනාගත් fiat currencies වල මූලික ගැටලුව කුමක්ද?"
+answer: "ඒවා currency එක devalue නොකරනු ඇතැයි central bank කෙරෙහි විශ්වාසය අවශ්‍ය කරයි, නමුත් fiat currencies ඉතිහාසය මෙම විශ්වාසය කඩවීම් වලින් පිරී ඇත"
+wrong_answers:
+  - "physical cash ඉක්මනින් ගෙවී යන අතර නිෂ්පාදනය කිරීමට මිල අධික බැවින්, දෛනික transactions සඳහා ඒවා භාවිත කිරීම අතිශයින් දුෂ්කරය"
+  - "සෑම රටකටම නොගැලපෙන monetary standards සහ regulations ඇති බැවින්, ඒවා international ලෙස transfer කළ නොහැක"
+  - "circulation තුළ ඇති මුළු money supply එක ආවරණය කිරීමට ප්‍රමාණවත් නොවන gold reserves වලින් ඒවා backing කර ඇත"
+explanation: >-
+  Satoshi Nakamoto සඳහන් කළේ conventional currencies වල මූලික ගැටලුව ඒවා ක්‍රියා කිරීමට අවශ්‍ය විශ්වාසය බවයි. Fiat currencies commodity එකකින් backing කර නොමැති අතර සම්පූර්ණයෙන්ම institutional authority මත රඳා පවතී. ආයතනයක් money මත සම්පූර්ණ control දරන විට, abuse කිරීමට ඇති ආකර්ෂණය ඉතා ශක්තිමත් වන අතර, currency devaluation හරහා මෙය නැවත නැවත සිදුවී ඇති බව ඉතිහාසය පෙන්වා ඇත.
+reviewed: false

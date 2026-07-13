@@ -1,0 +1,9 @@
+question: "Hoe sluit de cypherpunk-filosofie over centralisatie aan bij het libertaire principe van instemming als fundamentele norm van rechtvaardigheid?"
+answer: "Cypherpunks zien alle centralisatie als gebaseerd op dwang in plaats van instemming, wat de libertaire positie weerspiegelt dat niets rechtvaardig kan zijn als het door een gecentraliseerde autoriteit met geweld wordt opgelegd"
+wrong_answers:
+  - "Cypherpunks geloven dat centralisatie aanvaardbaar is wanneer die door een democratische meerderheid wordt goedgekeurd, in lijn met het libertaire respect voor constitutioneel bestuur"
+  - "Cypherpunks steunen tijdelijke centralisatie tijdens noodsituaties, wat de libertaire opvatting weerspiegelt dat individuele rechten kunnen worden opgeschort wanneer het collectief wordt bedreigd"
+  - "Cypherpunks verzetten zich alleen tegen centralisatie in technologische systemen, terwijl ze politieke centralisatie aanvaarden als noodzakelijk voor het afdwingen van eigendomsrechten en contracten"
+explanation: >-
+  De cypherpunks stellen vertrouwen in gedecentraliseerde cryptografische systemen in plaats van in gecentraliseerde instellingen. Alle centralisatie wordt gezien als gebaseerd op dwang in plaats van instemming. Dit weerspiegelt rechtstreeks de libertaire filosofie dat instemming de fundamentele norm van rechtvaardigheid is. Niets kan rechtvaardig zijn als het door een gecentraliseerde autoriteit met geweld wordt opgelegd, en daarom probeerden ze gedecentraliseerde netwerken te bouwen waarin geen enkele entiteit haar wil kan opleggen.
+reviewed: false

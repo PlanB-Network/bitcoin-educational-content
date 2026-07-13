@@ -1,0 +1,9 @@
+question: "Miksi Mises korostaa, ettei individualismia pidä sekoittaa omavaraisuuteen tai ihmisvihaan?"
+answer: "Koska individualismi edistää yhteistyötä ja yhteenliittymistä, kunhan ne perustuvat osallistujien vapaaseen suostumukseen, ja tunnustaa, että ihmiset kehittävät täyden potentiaalinsa vapaaehtoisten suhteiden kautta toisiin"
+wrong_answers:
+  - "Koska individualismi vaatii ihmisiä liittymään pakollisiin kansalaisjärjestöihin varmistaakseen, että he edistävät yhteistä hyvää"
+  - "Koska individualismi tarkoittaa, että jokaisen ihmisen on turvauduttava täysin valtioon palveluissa, joita hän ei voi itse tuottaa"
+  - "Koska individualismi vaatii ihmisiä kilpailemaan toisiaan vastaan kaikilla alueilla todistaakseen henkilökohtaisen paremmuutensa"
+explanation: >-
+  Mises korostaa, että ihminen on sosiaalinen olento. Individualismi ei tarkoita eristäytymistä. Se edistää yhteistyötä ja yhteenliittymistä sillä ehdolla, että ne perustuvat osallistujien vapaaseen suostumukseen. Ihminen voi kehittää täyden potentiaalinsa vain suhteessa toisiin, mutta tämän yhteistyön on oltava vapaaehtoista eikä kollektiivisen auktoriteetin määräämää.
+reviewed: false

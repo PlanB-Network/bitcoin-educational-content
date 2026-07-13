@@ -1,0 +1,9 @@
+question: "Mitä taloudellisen vapauden kategoria sisältää?"
+answer: "Sen, mitä teet tuottajana ja kuluttajana: ostamisen, myymisen, tuottamisen, työskentelyn, palkkaamisen ja rahojesi hallinnan"
+wrong_answers:
+  - "Uskonnolliset uskomuksesi, henkilökohtaiset ihmissuhteesi ja sananvapautesi"
+  - "Oikeutesi äänestää, osallistua vaaleihin ja liittyä poliittisiin puolueisiin"
+  - "Kykysi matkustaa vapaasti, valita asuinpaikkasi ja ylittää valtakunnanrajoja"
+explanation: >-
+  Taloudellinen vapaus kattaa sen, mitä teet tuottajana ja kuluttajana: mitä voit ostaa, myydä tai tuottaa; missä työskentelet; kenet palkkaat; ja mitä teet rahoillasi. Henkilökohtaiset ihmissuhteet, uskonnolliset uskomukset ja liikkumisvapaus kuuluvat henkilökohtaisen vapauden kategoriaan, eivät taloudelliseen.
+reviewed: false

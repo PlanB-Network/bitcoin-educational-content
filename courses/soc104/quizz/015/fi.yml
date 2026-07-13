@@ -1,0 +1,9 @@
+question: "Miksi pystyakselia (ylhäältä alas) pidetään Nolanin kaaviossa perustavampana kuin vaaka-akselia (vasemmalta oikealle)?"
+answer: "Koska se paljastaa todellisen jaon niiden välillä, jotka puolustavat suurimpia yksilönvapauksia, ja niiden välillä, jotka suosivat valtion maksimaalista kontrollia"
+wrong_answers:
+  - "Koska se mittaa taloudellista tuotosta tarkemmin kuin vaaka-akseli mittaa sosiaalipolitiikkoja"
+  - "Koska useimmat poliittiset konfliktit historian aikana ovat koskeneet kulttuurista identiteettiä eivätkä hallintoa"
+  - "Koska vaaka-akseli koskee vain moderneja demokratioita, kun taas pystyakseli on universaali"
+explanation: >-
+  Perustava akseli on pystyakseli, koska se tavoittaa olennaisen poliittisen kysymyksen: missä määrin valtion tulisi kontrolloida ihmisten toimintaa? Vasemmisto–oikeisto-akseli heijastaa vain erilaisia painotuksia (sosiaalinen oikeudenmukaisuus vs. perinne), mutta molemmat puolet voivat olla samalla kohdalla pystyakselilla etatisteina. Pystyakseli paljastaa, haluaako joku pakottaa oman visionsa voimalla vai kunnioittaako hän yksilönvapautta.
+reviewed: false

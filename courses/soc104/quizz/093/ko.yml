@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto는 최초로 채굴된 Bitcoin 블록에 어떤 메시지를 삽입했나요?"
+answer: "재무장관이 두 번째 은행 구제금융 직전에 있다는 London Times의 헤드라인입니다"
+wrong_answers:
+  - "중앙계획과 정부의 돈 통제의 위험에 대한 Friedrich Hayek의 인용문입니다"
+  - "전 세계의 모든 형태의 정부와 금융 규제로부터 독립하겠다는 선언입니다"
+  - "탈중앙화된 통화가 법정화폐보다 더 효율적임을 보여 주는 수학적 증명입니다"
+explanation: >-
+  Genesis block에서 Satoshi Nakamoto는 London Times의 상징적 헤드라인인 "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout."를 삽입했습니다. 이는 2008년 금융위기와 그 뒤따른 통화 개입주의에 대한 직접적 언급이었으며, 중앙집중적 은행 시스템의 대안이라는 Bitcoin의 의도를 명백하게 만들었습니다.
+reviewed: false

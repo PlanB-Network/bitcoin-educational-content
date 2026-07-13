@@ -1,0 +1,9 @@
+question: "Jakie ostrzeżenie Milton Friedman sformułował w sprawie oceniania polityk publicznych?"
+answer: "Polityki powinny być oceniane według rezultatów, a nie według intencji"
+wrong_answers:
+  - "Polityki powinny być oceniane według charakteru moralnego polityków, którzy je proponują"
+  - "Polityki powinny być oceniane według tego, jak popularne są wśród ogółu wyborców"
+  - "Polityki powinny być oceniane według tego, czy są zgodne z pierwotną konstytucją kraju"
+explanation: >-
+  Friedman napisał, że jednym z największych błędów jest ocenianie polityk według ich intencji, a nie rezultatów, zauważając, że programy określane jako przeznaczone dla ubogich niemal zawsze wywołują skutki odwrotne do tych, które zamierzali ich sponsorzy. To przypomina naukę Bastiata, że dobry ekonomista bierze pod uwagę zarówno krótkoterminowe, jak i długoterminowe skutki dla całej populacji.
+reviewed: false

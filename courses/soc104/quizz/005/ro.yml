@@ -1,0 +1,9 @@
+question: "Ce punct comun au partidele politice de stânga și de dreapta în ciuda opoziției lor aparente?"
+answer: "Ambele apără dreptul statului de a guverna viețile oamenilor prin reglementări și taxe"
+wrong_answers:
+  - "Ambele pledează pentru abolirea completă a intervenției statului în chestiuni economice"
+  - "Ambele prioritizează libertatea individuală în fața organizării colective a societății"
+  - "Ambele resping utilizarea politicii monetare ca instrument pentru cheltuielile guvernamentale"
+explanation: >-
+  Deși par opuse, stânga și dreapta împărtășesc o preferință pentru intervenția statului. Ambele critică piața liberă și apără dreptul statului de a guverna viețile oamenilor prin reglementări și taxe. Stânga critică piețele ca sursă a inegalității, în timp ce dreapta le vede ca pe o amenințare la adresa suveranității, dar ambele se întorc către stat pentru soluții.
+reviewed: false

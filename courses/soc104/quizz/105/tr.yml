@@ -1,0 +1,9 @@
+question: "Ders, Bitcoin'i neden sağ kanat ya da sol kanat bir proje olmaktan ziyade devlet parasına karşıt bir piyasa parası olarak tanımlar?"
+answer: "Çünkü Bitcoin gönüllü olarak benimsenen, üretilmesi zor, merkeziyetsiz ve değerini koruyan bir para birimidir; değer kaybeden zorlayıcı, merkezi fiat parayla karşıtlık oluşturur; bu da ayrımı siyasi ideolojiden ziyade piyasa ile devlet arasında yapar"
+wrong_answers:
+  - "Çünkü Bitcoin, amaçlanan amacı veya felsefesi hakkında herhangi bir siyasi açıklama yapmaktan kasıtlı olarak kaçınan anonim bir geliştirici tarafından yaratılmıştır"
+  - "Çünkü Bitcoin'in madencilik algoritması yeni coin'lerin tüm siyasi partilere eşit dağıtılmasını sağlayarak parasal sistemde herhangi bir ideolojik önyargıyı önler"
+  - "Çünkü Bitcoin mevcut fiat para birimleriyle aynı şekilde işlev görür, fakat daha hızlı bir ödeme ağı üzerinde çalışır; bu da siyasi ayrımları ilgisiz kılar"
+explanation: >-
+  Bitcoin, paranın siyasallaştırılmasına karşı barışçıl bir isyan olarak tanımlanır. Devlet parası ya da fiat para, değer kaybetme eğiliminde olan zorlayıcı, merkezi bir sistemdir. Tarihsel olarak altın ve günümüzde Bitcoin olan piyasa parası ise gönüllü olarak ortaya çıkan ve uzun vadede değerini koruyan sağlıklı, üretilmesi zor bir para birimidir. Gerçek karşıtlık sol ile sağ arasında değil, piyasa ile devlet arasındadır; bu da Bitcoin'i geleneksel ideolojik kampları aşan siyasi bir kopuş hâline getirir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mis on Fiat-valuutade põhiprobleem, mille Satoshi Nakamoto tuvastas?"
+answer: "Need nõuavad usaldust keskpanga vastu, et see valuutat ei devalveeriks, kuid Fiat-valuutade ajalugu on täis selle usalduse rikkumisi"
+wrong_answers:
+  - "Neid on igapäevastes tehingutes liiga raske kasutada, sest füüsiline sularaha kulub kiiresti ja selle tootmine on kallis"
+  - "Neid ei saa rahvusvaheliselt üle kanda, sest igal riigil on ühildumatud rahastandardid ja regulatsioonid"
+  - "Need on tagatud kullareservidega, millest ei piisa kogu ringluses oleva rahapakkumise katmiseks"
+explanation: >-
+  Satoshi Nakamoto väitis, et tavapäraste valuutade põhiprobleem on usaldus, mida nende toimimiseks nõutakse. Fiat-valuutad ei ole tagatud kaubaga, vaid toetuvad täielikult institutsionaalsele autoriteedile. Kui institutsioonil on raha üle täielik kontroll, on kuritarvitamise kiusatus liiga tugev ning ajalugu on seda korduvalt valuuta devalveerimise kaudu näidanud.
+reviewed: false

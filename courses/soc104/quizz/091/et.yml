@@ -1,0 +1,9 @@
+question: "Millise sõnumi põimis Satoshi Nakamoto esimesse kunagi kaevandatud Bitcoini plokki?"
+answer: "London Timesi pealkirja kantsleri kohta, kes oli teise pankade päästepaketi äärel"
+wrong_answers:
+  - "Friedrich Hayeki tsitaadi keskse planeerimise ja riikliku rahakontrolli ohtude kohta"
+  - "Iseseisvusdeklaratsiooni kõigist valitsemisvormidest ja finantsregulatsioonist kogu maailmas"
+  - "Matemaatilise tõestuse, mis näitab, et detsentraliseeritud valuuta on Fiat-rahast tõhusam"
+explanation: >-
+  Genezis plokki sisestas Satoshi Nakamoto sümboolse pealkirja London Timesist: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." See oli otsene viide 2008. aasta finantskriisile ja sellele järgnenud rahalisele interventsionismile, muutes Bitcoini kavatsuse tsentraliseeritud pangandussüsteemide alternatiivina eksimatuks.
+reviewed: false

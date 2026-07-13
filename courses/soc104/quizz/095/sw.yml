@@ -1,0 +1,9 @@
+question: "Bitcoin hufanyaje kazi kama mradi wa kimaadili wenye matokeo ya kisiasa badala ya mradi wa kisiasa wenye madai ya kimaadili?"
+answer: "Bitcoin iliundwa kuwafanya watu wawe huru badala ya matajiri, kwa kuwezesha umiliki halisi, kulinda thamani ya kazi, na kuhifadhi faragha, ambayo ni mafanikio ya kimaadili yanayozalisha athari za kisiasa bila kudai kambi yoyote ya kisiasa"
+wrong_answers:
+  - "Bitcoin ni mradi wa kimaadili kwa sababu code yake hutekeleza kanuni za kimaadili zinazozuia udanganyifu, na matokeo yake ya kisiasa ni kubadilisha utawala wa kidemokrasia kwa ufanyaji maamuzi wa kialgorithmu"
+  - "Bitcoin hufanya kazi kama mradi wa kimaadili kwa sababu hugawa upya utajiri kutoka kwa matajiri kwenda kwa waanzilishi wa mapema, na kuunda jamii ya haki zaidi yenye athari za kisiasa kwa sera ya kodi"
+  - "Bitcoin ni ya kimaadili kwa sababu Satoshi Nakamoto aliingiza amri za kimaadili katika itifaki, na matokeo yake ya kisiasa ni kuunganisha familia zote za kisiasa chini ya mfumo mmoja wa fedha"
+explanation: >-
+  Bitcoin haikuundwa kuwafanya watu wawe matajiri bali kuwafanya wawe huru. Hufanikisha matokeo matatu ya kimaadili: kuwezesha umiliki halisi (kwa kuhamasisha uwajibikaji), kulinda thamani inayoundwa na kazi (kwa kuhimiza juhudi za uzalishaji), na kuhifadhi faragha (kwa kuruhusu watu kuishi bila hofu). Haya ni mafanikio ya kimaadili yanayobeba matokeo ya kisiasa bila kuwa ya kambi yoyote ya kisiasa, na hivyo kuifanya kwanza kuwa mradi wa kimaadili na pili kuwa wa kisiasa.
+reviewed: false

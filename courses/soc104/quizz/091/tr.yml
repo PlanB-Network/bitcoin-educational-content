@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto, şimdiye kadar çıkarılan ilk Bitcoin bloğuna hangi mesajı gömdü?"
+answer: "Maliye Bakanı'nın ikinci bir banka kurtarma paketinin eşiğinde olduğuna dair London Times gazetesinden bir manşet"
+wrong_answers:
+  - "Friedrich Hayek'ten merkezi planlamanın ve paranın devlet kontrolünde olmasının tehlikelerine dair bir alıntı"
+  - "Dünya çapında tüm hükümet biçimlerinden ve finansal düzenlemelerden bağımsızlık ilanı"
+  - "Merkeziyetsiz para biriminin fiat paradan daha verimli olduğunu gösteren matematiksel bir kanıt"
+explanation: >-
+  Yaratılış bloğunda Satoshi Nakamoto, London Times'tan sembolik bir manşet ekledi: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Bu, 2008 finansal krizine ve onu izleyen parasal müdahaleciliğe doğrudan bir göndermeydi; Bitcoin'in merkezi bankacılık sistemlerine bir alternatif olma niyetini açıkça ortaya koyuyordu.
+reviewed: false

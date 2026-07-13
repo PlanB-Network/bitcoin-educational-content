@@ -1,0 +1,9 @@
+question: "Qual è il problema fondamentale delle valute fiat individuato da Satoshi Nakamoto?"
+answer: "Richiedono fiducia nel fatto che la banca centrale non svaluti la valuta, ma la storia delle valute fiat è piena di violazioni di questa fiducia"
+wrong_answers:
+  - "Sono troppo difficili da usare per le transazioni quotidiane perché il contante fisico si deteriora rapidamente ed è costoso da produrre"
+  - "Non possono essere trasferite a livello internazionale perché ogni paese ha standard monetari e regolamenti incompatibili"
+  - "Sono sostenute da riserve auree insufficienti a coprire l'offerta totale di moneta in circolazione"
+explanation: >-
+  Satoshi Nakamoto affermò che il problema fondamentale delle valute convenzionali è la fiducia necessaria perché funzionino. Le valute fiat non sono sostenute da una merce, ma poggiano interamente sull'autorità istituzionale. Quando un'istituzione detiene il controllo totale sul denaro, la tentazione di abusarne è troppo forte, e la storia lo ha mostrato ripetutamente attraverso la svalutazione della valuta.
+reviewed: false

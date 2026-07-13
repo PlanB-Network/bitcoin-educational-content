@@ -1,0 +1,9 @@
+question: "Varför hävdade cypherpunks att en digital valuta med anonyma egenskaper var nödvändig?"
+answer: "Eftersom kontanter, det primära anonyma transaktionssystemet, håller på att försvinna i det digitala samhället, och en digital ersättning med samma integritetsegenskaper måste uppfinnas"
+wrong_answers:
+  - "Eftersom befintliga digitala betalningssystem var för långsamma och dyra, vilket krävde ett snabbare och billigare alternativ för näthandel"
+  - "Eftersom regeringar redan hade förbjudit alla former av anonyma transaktioner och endast en ny teknik kunde kringgå dessa lagar"
+  - "Eftersom traditionella banker vägrade betjäna vissa befolkningsgrupper, vilket gjorde ett universellt tillgängligt digitalt betalningssystem till en ekonomisk nödvändighet"
+explanation: >-
+  Cypherpunk-manifestet säger att konfidentialitet i ett öppet samhälle kräver anonyma transaktionssystem. Fram till den digitala tidsåldern fungerade kontanter som det primära systemet av detta slag. Men i ett digitalt samhälle där kontanter håller på att försvinna måste en digital valuta med samma anonymitetsegenskaper uppfinnas. Denna vision föregrep direkt vad Bitcoin skulle uppnå.
+reviewed: false

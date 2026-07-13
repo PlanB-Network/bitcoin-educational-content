@@ -1,0 +1,9 @@
+question: "Aké sú dva princípy spravodlivosti Johna Rawlsa?"
+answer: "Rovnaká sloboda pre všetkých a princíp rozdielu, ktorý pripúšťa nerovnosti iba vtedy, ak prospievajú najviac znevýhodneným"
+wrong_answers:
+  - "Všeobecné volebné právo pre všetkých občanov a progresívne zdanenie na financovanie verejných služieb"
+  - "Sloboda prejavu bez obmedzenia a povinné prerozdeľovanie bohatstva na dosiahnutie rovnosti"
+  - "Ochrana práv súkromného vlastníctva a princíp neagresie uplatňovaný na všetky kroky štátu"
+explanation: >-
+  Rawls navrhuje dva princípy: po prvé, rovnakú slobodu pre všetkých (základ demokracie), a po druhé, princíp rozdielu, ktorý pripúšťa nerovnosti iba vtedy, ak prospievajú najviac znevýhodneným členom spoločnosti. To znamená, že človek má právo zbohatnúť, za predpokladu, že prerozdeľovanie umožňuje mať prospech aj najmenej zvýhodneným. Ostatné možnosti miešajú prvky z rôznych politických filozofií.
+reviewed: false

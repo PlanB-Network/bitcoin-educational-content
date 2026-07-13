@@ -1,0 +1,9 @@
+question: "Millist ühist joont jagavad vasak- ja parempoolsed poliitilised parteid vaatamata oma näilisele vastandumisele?"
+answer: "Mõlemad kaitsevad riigi õigust juhtida inimeste elu regulatsioonide ja maksude kaudu"
+wrong_answers:
+  - "Mõlemad pooldavad riigi sekkumise täielikku kaotamist majandusküsimustes"
+  - "Mõlemad seavad üksikisiku vabaduse ühiskonna kollektiivsest korraldusest ettepoole"
+  - "Mõlemad lükkavad tagasi rahapoliitika kasutamise valitsuse kulutuste tööriistana"
+explanation: >-
+  Kuigi vasak ja parem näivad vastanduvat, jagavad nad eelistust riiklikule sekkumisele. Mõlemad kritiseerivad vaba turgu ja kaitsevad riigi õigust juhtida inimeste elu regulatsioonide ja maksude kaudu. Vasak kritiseerib turge kui ebavõrdsuse allikat, samas kui parem näeb neis ohtu suveräänsusele, kuid mõlemad pöörduvad lahenduste saamiseks riigi poole.
+reviewed: false

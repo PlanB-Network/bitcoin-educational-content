@@ -1,0 +1,9 @@
+question: "Jaké jsou dvě osy Nolanova diagramu?"
+answer: "Svislá osa měřící osobní svobody a vodorovná osa měřící ekonomické svobody"
+wrong_answers:
+  - "Vodorovná osa od levice k pravici a svislá osa od autoritářství k demokracii"
+  - "Svislá osa měřící bohatství a vodorovná osa měřící úroveň vzdělání"
+  - "Vodorovná osa od socialismu ke kapitalismu a svislá osa od tradice k pokroku"
+explanation: >-
+  David Nolan navrhl svůj diagram se dvěma konkrétními osami: osobními svobodami (svisle) a ekonomickými svobodami (vodorovně). Tento dvourozměrný přístup nahrazuje příliš zjednodušenou čáru levice–pravice a lépe zachycuje komplexnost politických ideologií tím, že odděluje dvě hlavní kategorie svobody.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Koje su dve ose Nolanovog dijagrama?"
+answer: "Vertikalna osa koja meri lične slobode i horizontalna osa koja meri ekonomske slobode"
+wrong_answers:
+  - "Horizontalna osa od levice ka desnici i vertikalna osa od autoritarnog ka demokratskom"
+  - "Vertikalna osa koja meri bogatstvo i horizontalna osa koja meri nivoe obrazovanja"
+  - "Horizontalna osa od socijalizma ka kapitalizmu i vertikalna osa od tradicije ka napretku"
+explanation: >-
+  David Nolan je osmislio svoj dijagram sa dve konkretne ose: ličnim slobodama (vertikalno) i ekonomskim slobodama (horizontalno). Ovaj dvodimenzionalni pristup zamenjuje previše pojednostavljenu liniju levo-desno i bolje obuhvata složenost političkih ideologija razdvajanjem dve glavne kategorije slobode.
+reviewed: false

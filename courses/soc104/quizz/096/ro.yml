@@ -1,0 +1,9 @@
+question: "Cine a lansat prima listă de corespondență Cypherpunk în 1992?"
+answer: "Tim May și Eric Hughes, care au creat o platformă ce a devenit centrul nervos al mișcării"
+wrong_answers:
+  - "Satoshi Nakamoto și Hal Finney, care mai târziu au ajuns să creeze împreună Bitcoin în 2008"
+  - "Julian Assange și Edward Snowden, care au folosit lista pentru a coordona activități de whistleblowing guvernamental"
+  - "Phil Zimmermann și Bruce Schneier, care au conceput lista ca instrument pentru distribuirea software-ului de criptare"
+explanation: >-
+  În 1992, Tim May și Eric Hughes au lansat prima listă de corespondență Cypherpunk. Această platformă a devenit rapid centrul nervos al mișcării, aducând laolaltă dezvoltatori, criptografi și susținători ai libertății digitale. Pe aceeași listă avea să distribuie mai târziu Satoshi Nakamoto Bitcoin White Paper pentru prima dată, în 2008.
+reviewed: false

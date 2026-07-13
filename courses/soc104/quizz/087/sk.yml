@@ -1,0 +1,9 @@
+question: "K čomu Kantovo heslo 'Sapere aude' povzbudzuje ľudí?"
+answer: "Aby sa odvážili myslieť sami za seba a vystúpili zo stavu nedospelosti, v ktorom závisia od vedenia vyššej autority"
+wrong_answers:
+  - "Aby sa usilovali o akademické poznanie zápisom do formálnych vzdelávacích inštitúcií a získavaním diplomov"
+  - "Aby spochybňovali všetky formy morálky a vytvárali úplne nové etické systémy založené na osobnej túžbe"
+  - "Aby hľadali múdrosť prostredníctvom náboženskej oddanosti a podriadenia sa učeniu cirkvi"
+explanation: >-
+  Sapere aude, čo znamená „Odváž sa myslieť sám za seba“, prevzal Kant od básnika Horatia a urobil z neho heslo osvietenstva. Symbolizuje vystúpenie z nedospelosti, stavu, v ktorom ľudia nie sú schopní používať svoj rozum bez vedenia vyššej triedy alebo autority. Kant povzbudzuje k emancipácii a plnej zodpovednosti za vlastné myslenie.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "¿Por qué el curso describe Bitcoin como una moneda de mercado opuesta al dinero estatal, en lugar de como un proyecto de derecha o de izquierda?"
+answer: "Porque Bitcoin es una moneda descentralizada, difícil de producir y adoptada voluntariamente que conserva valor, en contraste con el dinero fiat coercitivo y centralizado que pierde valor, lo que hace que la división sea entre mercado y Estado y no entre ideologías políticas"
+wrong_answers:
+  - "Porque Bitcoin fue creado por un desarrollador anónimo que evitó deliberadamente hacer cualquier declaración política sobre su propósito o filosofía previstos"
+  - "Porque el algoritmo de minería de Bitcoin garantiza una distribución igualitaria de nuevas monedas a todos los partidos políticos, impidiendo cualquier sesgo ideológico en el sistema monetario"
+  - "Porque Bitcoin funciona de manera idéntica a las monedas fiat existentes, pero opera sobre una red de pagos más rápida, haciendo irrelevantes las distinciones políticas"
+explanation: >-
+  Bitcoin se describe como una revuelta pacífica contra la politización del dinero. El dinero estatal o fiat es un sistema coercitivo y centralizado que tiende a perder valor. El dinero de mercado, históricamente el oro y actualmente Bitcoin, es una moneda sana, difícil de producir, que surge voluntariamente y conserva su valor a largo plazo. La oposición real no es izquierda contra derecha, sino mercado contra Estado, lo que convierte a Bitcoin en una ruptura política que trasciende los campos ideológicos tradicionales.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Zašto dvodimenzionalni model tvrdi da se većina političkih pitanja može podeliti na ekonomske i lične kategorije?"
+answer: "Zato što se ekonomska pitanja tiču onoga što radite kao proizvođač i potrošač, dok se lična pitanja tiču vaših privatnih odnosa, uverenja i telesne autonomije"
+wrong_answers:
+  - "Zato što se sve političke rasprave na kraju svode na neslaganja o nivoima oporezivanja i verskim praksama"
+  - "Zato što su vlade istorijski regulisale samo dve stvari: tržište i vojsku"
+  - "Zato što su politički filozofi od antike uvek razdvajali materijalne brige od duhovnih briga"
+explanation: >-
+  Dvodimenzionalni model zasniva se na ideji da se politička pitanja dele u dve široke kategorije. Ekonomske slobode obuhvataju proizvodnju, potrošnju, trgovinu, zaposlenje i upravljanje novcem. Lične slobode obuhvataju privatne odnose, mišljenja, uverenja i izbore o sopstvenom telu i umu. Ovo razdvajanje omogućava daleko nijansiranije mapiranje političkih pozicija nego jedna osa levo-desno.
+reviewed: false

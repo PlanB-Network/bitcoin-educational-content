@@ -1,0 +1,9 @@
+question: "Ateşli silah düzenlemesi konusunda muhafazakâr ve liberteryen tutumlar arasındaki kritik fark nedir?"
+answer: "Her ikisi de bir miktar düzenlemeyi kabul eder, ancak muhafazakârlar kuralların meşru bir kamu otoritesinden gelmesini isterken liberteryenler kuralların yurttaş dernekleri ve piyasa rekabeti gibi doğrudan ilgili olanlardan doğmasını ister"
+wrong_answers:
+  - "Muhafazakârlar tüm ateşli silah düzenlemelerine karşı çıkarken liberteryenler kamu güvenliği için sıkı devlet kontrolünü kabul eder"
+  - "Muhafazakârlar ateşli silahları tamamen yasaklamak isterken liberteryenler tüm silahlara sınırsız erişimi destekler"
+  - "Muhafazakârlar tutumlarını bireysel haklara dayandırırken liberteryenler kolektif sorumluluğa dayandırır"
+explanation: >-
+  Hem muhafazakârlar hem de liberteryenler, silah taşımak için bir tür düzenlemenin gerekli olduğu konusunda hemfikirdir. Kritik fark, bu kuralları kimin koyduğundadır. Muhafazakârlar, düzenlemelerin ortak yararı korumakla görevli bir kamu otoritesinden gelmesi gerektiğinde ısrar eder (yukarıdan aşağıya). Liberteryenler ise düzenlemenin doğrudan ilgili olanlardan doğması gerektiğini savunur: güvenlik profesyonelleri, yurttaş dernekleri ve piyasa rekabeti (aşağıdan yukarıya).
+reviewed: false

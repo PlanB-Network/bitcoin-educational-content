@@ -1,0 +1,9 @@
+question: "Wozu ermutigt Kants Motto 'Sapere aude' die Menschen?"
+answer: "Dazu, es zu wagen, selbst zu denken und den Zustand der Unmündigkeit zu verlassen, in dem sie von der Leitung einer übergeordneten Autorität abhängen"
+wrong_answers:
+  - "Dazu, akademisches Wissen anzustreben, indem sie sich an formalen Bildungseinrichtungen einschreiben und Abschlüsse erwerben"
+  - "Dazu, alle Formen der Moral herauszufordern und völlig neue ethische Systeme auf Grundlage persönlichen Begehrens zu schaffen"
+  - "Dazu, Weisheit durch religiöse Hingabe und Unterwerfung unter die Lehren der Kirche zu suchen"
+explanation: >-
+  Sapere aude, was "Wage es, selbst zu denken" bedeutet, wurde von Kant dem Dichter Horaz entnommen und zum Motto der Aufklärung gemacht. Es symbolisiert den Ausgang aus der Unmündigkeit, einem Zustand, in dem Menschen unfähig sind, sich ihres Verstandes ohne die Leitung einer übergeordneten Klasse oder Autorität zu bedienen. Kant ermutigt zur Emanzipation und zur vollen Verantwortung für das eigene Denken.
+reviewed: false

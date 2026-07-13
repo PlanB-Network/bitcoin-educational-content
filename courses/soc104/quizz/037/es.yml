@@ -1,0 +1,9 @@
+question: "¿Por qué se consideran problemáticas para fines analíticos las definiciones intencionales de los sistemas políticos?"
+answer: "Crean confusión conceptual porque todos los sistemas afirman perseguir objetivos similares como la justicia, la equidad y la libertad"
+wrong_answers:
+  - "Son demasiado precisas y rígidas, sin dejar espacio para la evolución natural de los movimientos políticos con el tiempo"
+  - "Se centran demasiado en los resultados económicos e ignoran las dimensiones culturales y sociales de la vida política"
+  - "Se basan en documentos gubernamentales clasificados que rara vez están disponibles para investigadores independientes"
+explanation: >-
+  Las definiciones intencionales se apoyan en motivaciones y objetivos declarados, pero todo sistema político afirma perseguir la justicia, la equidad y la libertad. Esto hace imposible distinguir unos sistemas de otros. El análisis estructural, en cambio, evalúa los sistemas por sus consecuencias empíricas y medibles y por los medios que emplean, revelando su verdadera naturaleza más allá de la retórica.
+reviewed: false

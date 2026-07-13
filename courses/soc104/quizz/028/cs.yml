@@ -1,0 +1,9 @@
+question: "Co je pojem 'spontánní řád' podle Friedricha Hayeka?"
+answer: "Společenská pravidla a normy by měly vznikat ze svobodných interakcí jednotlivců, nikoli být vnucovány autoritářským plánováním"
+wrong_answers:
+  - "Trhy přirozeně směřují k monopolu, pokud stát nezasáhne, aby udržel konkurenční rovnováhu"
+  - "Demokratické volby jsou jediným legitimním mechanismem pro vytváření zákonů, které řídí společnost"
+  - "Ekonomické krize vznikají spontánně a vyžadují okamžitý vládní zásah k obnovení stability"
+explanation: >-
+  Hayekův pojem spontánního řádu říká, že pravidla řídící společnost by neměla být vnucována shora centrálním plánováním, ale měla by vznikat ze svobodné hry individuálních vůlí, smluv a dobrovolných vztahů. Jde o základní osu libertariánského myšlení. Neznamená to, že trhy směřují k monopolu, ani že krize vyžadují vládní zásah.
+reviewed: false

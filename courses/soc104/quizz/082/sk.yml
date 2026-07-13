@@ -1,0 +1,9 @@
+question: "Ktorá z nasledujúcich možností je príkladom spontánneho poriadku, ako ho opisuje Hayek?"
+answer: "Jazyk, ktorý sa vyvinul organicky prostredníctvom historických interakcií, namiesto toho, aby bol navrhnutý intelektuálmi v kancelárii"
+wrong_answers:
+  - "Národná ústava, ktorú starostlivo vypracovali volení zástupcovia na ustanovenie spoločenských pravidiel"
+  - "Vládny stimulačný plán, ktorý navrhli ekonómovia na koordináciu ekonomickej aktivity"
+  - "Verejný vzdelávací systém, ktorý vytvorili zákonodarcovia na zabezpečenie univerzálneho prístupu k poznaniu"
+explanation: >-
+  Hayek opisuje spontánny poriadok ako produkt slobodných interakcií v spoločnosti, ktorý je výsledkom ľudského konania, ale nie zámerného ľudského návrhu. Jazyk je hlavným príkladom: francúzština, angličtina a nemčina neboli skonštruované intelektuálmi rozhodujúcimi o gramatických pravidlách, ale vznikli ako plod pomalej, organickej organizácie budovanej prostredníctvom historických interakcií.
+reviewed: false

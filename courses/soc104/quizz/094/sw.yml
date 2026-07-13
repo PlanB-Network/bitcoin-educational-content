@@ -1,0 +1,9 @@
+question: "Kwa nini mfumuko wa bei wa kifedha unaelezwa kama kodi iliyofichwa inayotozwa bila ridhaa ya raia?"
+answer: "Kwa sababu uundaji wa pesa na serikali hushusha thamani ya sarafu ili watu waweze kununua kidogo zaidi kwa kiasi kilekile, lakini wengi hawatambui kwamba kupanda kwa bei kunaakisi sera ya serikali badala ya nguvu za asili za soko"
+wrong_answers:
+  - "Kwa sababu benki kuu hutoza ada kwa siri kwenye kila muamala unaochakatwa kupitia mfumo wa benki bila kuzifichua kwa wamiliki wa akaunti"
+  - "Kwa sababu serikali huchapisha pesa na kuzigawa tu kwa watu matajiri huku zikiwatoza maskini kodi kupitia kodi za juu za mauzo kwenye bidhaa muhimu"
+  - "Kwa sababu mfumuko wa bei husababishwa na makampuni binafsi yanayopandisha bei ili kuongeza faida, jambo linalofanya kazi kama kodi isiyo rasmi kwa watumiaji"
+explanation: >-
+  Kuingiza pesa kwenye mfumo hutafsiriwa kuwa kushushwa kwa thamani ya sarafu, ambapo kiasi kilekile hununua kidogo zaidi kwa sababu pesa mpya haiakisi ukuaji halisi wa uchumi. Watu wengi hawaoni kwamba sera ya serikali ilisababisha kupanda kwa bei, ambazo ni kielelezo tu cha kushushwa kwa thamani ya sarafu. Hili ni wizi wa kisheria na uporaji uliowekwa kitaasisi, likilitia umaskini tabaka la kati huku matajiri wakinasa pesa mpya kupitia mali za kispekulesheni.
+reviewed: false

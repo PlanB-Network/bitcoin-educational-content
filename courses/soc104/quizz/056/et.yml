@@ -1,0 +1,9 @@
+question: "Miks väidab Ron Paul, et Federal Reserve on kahjulik, ja kuidas seostub Bitcoin tema seisukohaga?"
+answer: "Federal Reserve põhjustab inflatsiooni ja majandustsükleid Fiat-raha manipuleerimise kaudu ning Bitcoin esindab usaldusväärse raha vormi, mis võiks asendada kullastandardi"
+wrong_answers:
+  - "Federal Reserve piirab pankade konkurentsi ja Bitcoin detsentraliseerib pangateenuseid, et parandada finantsilist kaasatust"
+  - "Federal Reserve takistab riikidevahelist vabakaubandust ja Bitcoin võimaldab piiriüleseid tehinguid ilma valitsuse heakskiiduta"
+  - "Federal Reserve tekitab liigset valitsusvõlga ja Bitcoin pakub deflatsioonilist valuutat, mis kõrvaldab riigivõla"
+explanation: >-
+  Minarhist Ron Paul väidab, et Federal Reserve vastutab inflatsiooni ja majandustsüklite eest, sest see manipuleerib Fiat-rahaga. Ta toetab raha denatsionaliseerimist, ideed, mida pooldas Friedrich Hayek, ning näeb Bitcoinis usaldusväärse raha vormi, mis võiks asendada kullastandardi. Tema kriitika juured on libertaarses rahateoorias, mitte peamiselt panganduskonkurentsis, kaubandustõketes või valitsusvõlas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Čo je koncept 'spontánneho poriadku', ako ho opísal Friedrich Hayek?"
+answer: "Spoločenské pravidlá a normy by mali vznikať zo slobodných individuálnych interakcií, nie byť vnucované autoritatívnym plánovaním"
+wrong_answers:
+  - "Trhy prirodzene smerujú k monopolu, pokiaľ štát nezasiahne na udržanie konkurenčnej rovnováhy"
+  - "Demokratické voľby sú jediným legitímnym mechanizmom na ustanovenie zákonov, ktorými sa riadi spoločnosť"
+  - "Ekonomické krízy vznikajú spontánne a vyžadujú okamžitý vládny zásah na obnovenie stability"
+explanation: >-
+  Hayekov koncept spontánneho poriadku tvrdí, že pravidlá riadiace spoločnosť by nemali byť vnucované zhora centrálnym plánovaním, ale mali by vznikať zo slobodnej hry individuálnych vôlí, zmlúv a dobrovoľných vzťahov. Ide o základnú os libertariánskeho myslenia. Neznamená to, že trhy smerujú k monopolu alebo že krízy vyžadujú vládny zásah.
+reviewed: false

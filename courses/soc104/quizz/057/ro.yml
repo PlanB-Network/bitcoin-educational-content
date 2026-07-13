@@ -1,0 +1,9 @@
+question: "Care sunt cele două principii ale dreptății ale lui John Rawls?"
+answer: "Libertate egală pentru toți și principiul diferenței, care permite inegalități numai dacă acestea îi avantajează pe cei mai defavorizați"
+wrong_answers:
+  - "Sufragiu universal pentru toți cetățenii și impozitare progresivă pentru finanțarea serviciilor publice"
+  - "Libertate de exprimare fără restricții și redistribuire obligatorie a bogăției pentru a atinge egalitatea"
+  - "Protecția drepturilor de proprietate privată și principiul non-agresiunii aplicat tuturor acțiunilor statului"
+explanation: >-
+  Rawls propune două principii: în primul rând, libertate egală pentru toți (fundamentul democrației) și, în al doilea rând, principiul diferenței, care permite inegalități numai dacă acestea îi avantajează pe cei mai defavorizați membri ai societății. Aceasta înseamnă că cineva are dreptul să se îmbogățească, cu condiția ca redistribuirea să le permită și celor mai puțin favorizați să beneficieze. Celelalte opțiuni amestecă elemente din filosofii politice diferite.
+reviewed: false

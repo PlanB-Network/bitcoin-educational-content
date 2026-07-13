@@ -1,0 +1,9 @@
+question: "Qu'est-ce qui caractérise le bas de l'axe de la liberté personnelle sur le diagramme de Nolan ?"
+answer: "Une préférence pour l'ordre, la sécurité, les valeurs traditionnelles, et pour un État qui réglemente les mœurs et maintient l'ordre public"
+wrong_answers:
+  - "Une préférence pour l'autonomie individuelle, la tolérance et une ingérence minimale de l'État dans les choix de vie personnels"
+  - "Une préférence pour la déréglementation économique, le libre-échange et l'abolition des droits de douane et des subventions"
+  - "Une préférence pour la redistribution des richesses, des impôts élevés et la nationalisation des industries clés"
+explanation: >-
+  Le bas de l'axe de la liberté personnelle représente le contrôle étatique maximal sur la vie personnelle, caractérisé par une préférence pour l'ordre, la sécurité et les valeurs traditionnelles. L'État réglemente les mœurs, maintient l'ordre public et peut défendre une vision spécifique de la morale ou de la tradition. Le haut de l'axe représente l'opposé : la liberté individuelle et la tolérance. Les politiques économiques sont mesurées sur l'axe horizontal distinct.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mikä on keskeinen ero yritysmyönteisyyden ja markkinamyönteisyyden välillä?"
+answer: "Yritysmyönteiset ajavat valtion väliintuloa suojellakseen tiettyjä yrityksiä epäonnistumiselta, kun taas markkinamyönteiset kannattavat sääntelyn purkamista ja sallivat yritysten epäonnistua, jotta markkina voi järjestäytyä luonnollisesti uudelleen"
+wrong_answers:
+  - "Yritysmyönteiset keskittyvät suuryrityksiin, kun taas markkinamyönteiset keskittyvät yksinomaan pienyritysten ja startupien tukemiseen"
+  - "Yritysmyönteisyys on vasemmistolainen kanta, joka suosii työntekijäosuuskuntia, kun taas markkinamyönteisyys on oikeistolainen kanta, joka suosii yksityisomistusta"
+  - "Yritysmyönteiset torjuvat kaiken kilpailun, kun taas markkinamyönteiset kannattavat hallituksen säätelemää kilpailua hyväksyttyjen yritysten välillä"
+explanation: >-
+  Yritysmyönteinen kanta näkee kilpailun sääntelyn kautta saavutettuna hallinnan välineenä ja oikeuttaa tuet ja pelastuspaketit työpaikkojen menetysten estämiseksi. Yritysmyönteisessä näkemyksessä markkina on hauras ja tarvitsee valtion pelastusta. Markkinamyönteiset näkevät kilpailun vapaan yrittäjyyden luonnollisena tuloksena, mikä merkitsee sääntelyn purkamista ja yritysten epäonnistumisen sallimista, koska epäonnistuminen antaa markkinan järjestäytyä luonnollisesti uudelleen ja avaa kentän kyvykkäämmille toimijoille.
+reviewed: false

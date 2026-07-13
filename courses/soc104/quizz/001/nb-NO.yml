@@ -1,0 +1,9 @@
+question: "Hvor oppstod det politiske venstre-høyre-skillet?"
+answer: "Fra sitteordningen under debattene i den franske revolusjonen i 1789"
+wrong_answers:
+  - "Fra skriftene til Karl Marx og Adam Smith på 1800-tallet"
+  - "Fra den amerikanske borgerkrigen mellom nordstatene og sørstatene"
+  - "Fra opplysningsfilosofene som skilte fornuft fra tradisjon"
+explanation: >-
+  Venstre-høyre-skillet går tilbake til 1789, da representanter i den franske nasjonalforsamlingen som ønsket å opprettholde kongens makt, satt til høyre for presidenten, mens de som ville begrense hans makt, satt til venstre. Det oppstod ikke fra Marx og Smith, den amerikanske borgerkrigen eller opplysningsfilosofien.
+reviewed: false

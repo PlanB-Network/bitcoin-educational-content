@@ -1,0 +1,9 @@
+question: "Ce este conservatorismul cultural?"
+answer: "O adeziune personală la valorile familiale, morale, estetice și metafizice moștenite din trecut, nu o filosofie politică"
+wrong_answers:
+  - "O ideologie politică ce folosește puterea statului pentru a impune valorile tradiționale întregii societăți prin legislație"
+  - "O mișcare care respinge toate formele de modernitate și urmărește întoarcerea societății la un mod de viață preindustrial"
+  - "O doctrină economică ce protejează industriile naționale și se opune comerțului liber cu țările străine"
+explanation: >-
+  Conservatorismul cultural este definit ca o înțelepciune a vieții: adeziunea personală la valorile familiale, morale, estetice și metafizice moștenite din trecut, fie greco-romane, fie iudeo-creștine. În mod explicit, nu este o filosofie politică. El diferă de conservatorismul politic, care urmărește păstrarea instituțiilor politice și a ordinii sociale prin puterea statului. De asemenea, nu este vorba despre respingerea modernității sau despre protecționism economic.
+reviewed: false

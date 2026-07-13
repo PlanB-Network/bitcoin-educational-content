@@ -1,0 +1,9 @@
+question: "D'où provient le clivage politique gauche-droite ?"
+answer: "De la disposition des sièges lors des débats de la Révolution française de 1789"
+wrong_answers:
+  - "Des écrits de Karl Marx et d'Adam Smith au XIXe siècle"
+  - "De la guerre de Sécession américaine entre les États du Nord et du Sud"
+  - "Des philosophes des Lumières qui ont séparé la raison de la tradition"
+explanation: >-
+  Le clivage gauche-droite remonte à 1789, lorsque les députés de l'Assemblée nationale française favorables au maintien du pouvoir du roi siégeaient à la droite du président, tandis que ceux qui voulaient limiter ses pouvoirs siégeaient à gauche. Il ne provient pas de Marx et Smith, de la guerre de Sécession américaine ni de la philosophie des Lumières.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Quais são os dois eixos do diagrama de Nolan?"
+answer: "Um eixo vertical que mede as liberdades pessoais e um eixo horizontal que mede as liberdades econômicas"
+wrong_answers:
+  - "Um eixo horizontal da esquerda para a direita e um eixo vertical de autoritário a democrático"
+  - "Um eixo vertical que mede riqueza e um eixo horizontal que mede níveis de educação"
+  - "Um eixo horizontal do socialismo ao capitalismo e um eixo vertical da tradição ao progresso"
+explanation: >-
+  David Nolan projetou seu diagrama com dois eixos específicos: liberdades pessoais (vertical) e liberdades econômicas (horizontal). Essa abordagem bidimensional substitui a linha esquerda-direita simplificada demais e capta melhor a complexidade das ideologias políticas ao separar as duas principais categorias de liberdade.
+reviewed: false

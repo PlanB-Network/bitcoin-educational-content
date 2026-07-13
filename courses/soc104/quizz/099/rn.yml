@@ -1,0 +1,9 @@
+question: "Itegeko rya cypherpunk 'Cypherpunks write code' ryerekana iki ku buryo uwo muhari ubona gushikira umwidegemvyo?"
+answer: "Ko inzira igana umwidegemvyo ica mu kwubaka n'inguvu uburyo butamenyekanisha abazikoresha, hakoreshejwe code nk'igikoresho c'ishimikiro co guhindura ivyiyumviro vy'umwidegemvyo bitaboneka bigacika ukuri"
+wrong_answers:
+  - "Ko aba cypherpunks ari cane cane abahinguzi ba porogarama bandika porogarama z'ubudandaji kugira ngo bafashe ibikorwa vyabo vya politike"
+  - "Ko uwo muhari wemera kwigisha abantu biciye mu nyandiko za manifesto n'ibisohokayandikiro vy'ubushakashatsi aho gukora ibikorwa bitaziguye"
+  - "Ko aba cypherpunks bashira inguvu mu kwinjira mu buryo bwa leta busanzwe kugira ngo bashire ahabona porogarama zo gucungera abantu no guhatira ihinduka ry'amategeko"
+explanation: >-
+  Imvugo "Cypherpunks write code" yerekana ukwiyemeza kw'uwo muhari gukora ibikorwa bitaziguye aho kwishimikiza icizere gusa. Kuri Eric Hughes, inzira igana umwidegemvyo ica mu kwubaka n'inguvu uburyo butamenyekanisha abazikoresha, bugatuma amacakubiri ya politike y'ubwigenge ataba agihambaye. Code iba igikoresho c'ishimikiro co guhindura ivyiyumviro vy'umwidegemvyo bitaboneka bigacika ukuri, ni co gituma Satoshi Nakamoto yanditse code yose ya Bitcoin imbere mbere yo kwandika white paper.
+reviewed: false

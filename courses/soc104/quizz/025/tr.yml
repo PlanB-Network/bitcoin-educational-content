@@ -1,0 +1,9 @@
+question: "Sağ ne konuda yasa yapmak ister?"
+answer: "Geleneksel kurumları ve toplumsal hiyerarşileri koruma arzusundan hareketle ahlak ve din konusunda"
+wrong_answers:
+  - "Eşitsizliği azaltma ve serveti yeniden dağıtma arzusundan hareketle ekonomi ve finans piyasaları konusunda"
+  - "Devlet okullarında ne öğretildiğini kontrol etme arzusundan hareketle bilim ve eğitim konusunda"
+  - "Ulusal etkiyi yurt dışında genişletme arzusundan hareketle uluslararası ticaret ve diplomasi konusunda"
+explanation: >-
+  Sağ, kişisel ahlaka ve geleneksel değerlere öncelik verir. Medeniyetin korunması gereken belirli geleneksel kurumlar ve toplumsal hiyerarşiler üzerine inşa edildiğini düşünür ve ahlak ile din konusunda yasa yapmak ister. Ekonomi konusunda yasa yapmaya odaklanan sağ değil, soldur. Bilim, eğitim ve ticaret politikası sağ için burada tanımlanan birincil odak değildir.
+reviewed: false

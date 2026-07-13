@@ -1,0 +1,9 @@
+question: "Comment tous les régimes totalitaires sont-ils arrivés au pouvoir ?"
+answer: "Par une révolution violente qui justifiait de faire table rase du système précédent"
+wrong_answers:
+  - "Par une réforme législative progressive au sein des institutions démocratiques existantes"
+  - "Par des coups d'État militaires organisés par des puissances étrangères cherchant le contrôle régional"
+  - "Par des mouvements de masse pacifiques ayant remporté des élections populaires avec de larges majorités"
+explanation: >-
+  Tous les régimes totalitaires sont arrivés au pouvoir par une révolution violente. Cette révolution remplit un double objectif : elle détruit physiquement l'ancien ordre et justifie idéologiquement l'usage de la violence comme nécessaire à la construction de la nouvelle société. Cela distingue les prises de pouvoir totalitaires des transitions démocratiques, des coups d'État soutenus par l'étranger ou des victoires électorales pacifiques.
+reviewed: false

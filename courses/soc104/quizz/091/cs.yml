@@ -1,0 +1,9 @@
+question: "Jaké poselství vložil Satoshi Nakamoto do vůbec prvního vytěženého bitcoinového bloku?"
+answer: "Titulek z londýnských Times o tom, že kancléř je na pokraji druhé záchrany bank"
+wrong_answers:
+  - "Citát Friedricha Hayeka o nebezpečích centrálního plánování a vládní kontroly nad penězi"
+  - "Prohlášení nezávislosti na všech formách vlády a finanční regulace na celém světě"
+  - "Matematický důkaz ukazující, že decentralizovaná měna je efektivnější než fiat peníze"
+explanation: >-
+  V Genesis blocku vložil Satoshi Nakamoto symbolický titulek z londýnských Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Šlo o přímý odkaz na finanční krizi roku 2008 a následný měnový intervencionismus, čímž byl záměr Bitcoinu jako alternativy k centralizovaným bankovním systémům nezaměnitelný.
+reviewed: false

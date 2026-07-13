@@ -1,0 +1,9 @@
+question: "Koji je fundamentalni problem fiat valuta koji je Satoshi Nakamoto identifikovao?"
+answer: "One zahtevaju poverenje u centralnu banku da neće obezvrediti valutu, ali istorija fiat valuta puna je kršenja tog poverenja"
+wrong_answers:
+  - "Previše ih je teško koristiti za svakodnevne transakcije zato što se fizička gotovina brzo troši i skupa je za proizvodnju"
+  - "Ne mogu se prenositi međunarodno zato što svaka zemlja ima nekompatibilne monetarne standarde i regulacije"
+  - "Pokrivene su zlatnim rezervama koje nisu dovoljne da pokriju ukupnu novčanu masu u opticaju"
+explanation: >-
+  Satoshi Nakamoto je izjavio da je fundamentalni problem konvencionalnih valuta poverenje potrebno da bi one funkcionisale. Fiat valute nisu pokrivene robom, već u potpunosti počivaju na institucionalnom autoritetu. Kada institucija ima potpunu kontrolu nad novcem, iskušenje za zloupotrebu je previše snažno, a istorija je to pokazala iznova kroz obezvređivanje valuta.
+reviewed: false

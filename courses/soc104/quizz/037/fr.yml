@@ -1,0 +1,9 @@
+question: "Quel avertissement Milton Friedman a-t-il donné sur la façon de juger les politiques publiques ?"
+answer: "Les politiques devraient être jugées à leurs résultats plutôt qu'à leurs intentions"
+wrong_answers:
+  - "Les politiques devraient être jugées au caractère moral des responsables politiques qui les proposent"
+  - "Les politiques devraient être jugées à leur popularité auprès de l'ensemble des électeurs"
+  - "Les politiques devraient être jugées selon qu'elles s'alignent ou non sur la constitution originelle du pays"
+explanation: >-
+  Friedman a écrit que l'une des plus grandes erreurs consiste à juger les politiques selon leurs intentions plutôt que selon leurs résultats, en notant que les programmes présentés comme étant en faveur des pauvres produisent presque toujours des effets opposés à ceux que leurs promoteurs avaient prévus. Cela fait écho à l'enseignement de Bastiat selon lequel un bon économiste considère à la fois les effets à court terme et à long terme sur l'ensemble de la population.
+reviewed: false

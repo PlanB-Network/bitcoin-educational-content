@@ -1,0 +1,9 @@
+question: "Care este distincția-cheie făcută de Hannah Arendt între despotismul clasic și totalitarism?"
+answer: "Totalitarismul nu doar supune oamenii unor reguli tiranice, ci face ființele umane incapabile de acțiune independentă, negând politica însăși"
+wrong_answers:
+  - "Despotismul clasic controlează economia, în timp ce totalitarismul controlează doar instituțiile politice și militare"
+  - "Totalitarismul este pur și simplu o versiune mai extremă a despotismului, diferind doar prin amploarea represiunii"
+  - "Despotismul clasic folosește ideologia pentru a-și justifica dominația, în timp ce totalitarismul se bazează exclusiv pe forța militară"
+explanation: >-
+  Arendt susține că totalitarismul este fundamental diferit de despotismul clasic. Nu este pur și simplu o tiranie mai extremă, ci un sistem care face ființele umane superflue, distrugându-le capacitatea de acțiune independentă. Pentru Arendt, politica este capacitatea unui popor de a-și lua destinul în propriile mâini, iar totalitarismul este însăși negarea acestei capacități, ceea ce îl face calitativ diferit de despotism.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Proč jsou intencionální definice politických systémů považovány za problematické pro analytické účely?"
+answer: "Vytvářejí pojmový zmatek, protože všechny systémy tvrdí, že sledují podobné cíle, jako jsou spravedlnost, rovnost a svoboda"
+wrong_answers:
+  - "Jsou příliš přesné a rigidní, takže neponechávají žádný prostor pro přirozený vývoj politických hnutí v čase"
+  - "Příliš silně se zaměřují na ekonomické výsledky a ignorují kulturní a společenské rozměry politického života"
+  - "Opírají se o utajované vládní dokumenty, které jsou nezávislým výzkumníkům zřídka dostupné"
+explanation: >-
+  Intencionální definice se opírají o deklarované motivace a cíle, ale každý politický systém tvrdí, že usiluje o spravedlnost, rovnost a svobodu. Tím se systémy stávají navzájem nerozlišitelnými. Strukturální analýza naproti tomu hodnotí systémy podle jejich empirických, měřitelných důsledků a prostředků, které používají, čímž odhaluje jejich skutečnou povahu za rétorikou.
+reviewed: false

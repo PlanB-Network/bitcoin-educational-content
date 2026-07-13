@@ -1,0 +1,9 @@
+question: "Šta vertikalna osa Nolanovog dijagrama otkriva o pravom političkom pitanju?"
+answer: "Otkriva da li želite da preko države nametnete sopstvene senzibilitete drugima, ili više volite da svaka osoba bude slobodna da odlučuje za sebe"
+wrong_answers:
+  - "Otkriva da li podržavate demokratsku vladavinu ili preferirate autoritarnu vlast jednog vođe"
+  - "Otkriva da li se identifikujete sa progresivnim društvenim pokretima ili sa tradicionalnim verskim institucijama"
+  - "Otkriva da li je vaša primarna briga nacionalna bezbednost ili ekonomski prosperitet"
+explanation: >-
+  Vertikalna osa izlaže pravo političko pitanje: ne da li ste levo ili desno, već u kojoj meri želite da država interveniše u oblikovanju društva prema vašim vrednostima. Želite li da nametnete svoje senzibilitete drugima, ili više volite da svaka osoba bude slobodna da odlučuje za sebe? Ovaj okvir prevazilazi podelu levo-desno i pokazuje da oba tabora mogu biti jednako etatistička.
+reviewed: false

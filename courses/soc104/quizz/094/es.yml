@@ -1,0 +1,9 @@
+question: "¿Qué tres pilares del Estado de bienestar desafía Bitcoin?"
+answer: "El sistema fiscal, el monopolio monetario para financiar el gasto mediante deuda y la vigilancia de las transacciones para impedir el uso de monedas alternativas"
+wrong_answers:
+  - "El presupuesto militar, el sistema de educación pública y la infraestructura sanitaria controlada por el gobierno"
+  - "El sistema judicial, el proceso legislativo y la aplicación ejecutiva de regulaciones sobre las empresas"
+  - "El sistema de seguridad social, la legislación sobre salario mínimo y la estructura progresiva del impuesto sobre la renta"
+explanation: >-
+  Bitcoin desafía los tres pilares sobre los que descansa el Estado de bienestar. Primero, el sistema fiscal, que es insuficiente para cubrir los gastos. Segundo, el monopolio monetario, es decir, la capacidad de emitir dinero para financiar el gasto mediante deuda. Tercero, la vigilancia de las transacciones, la capacidad de impedir que las personas usen cualquier moneda distinta del fiat impuesto por el Estado. Bitcoin socava los tres simultáneamente.
+reviewed: false

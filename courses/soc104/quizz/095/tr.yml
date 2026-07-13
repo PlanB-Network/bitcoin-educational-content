@@ -1,0 +1,9 @@
+question: "Bitcoin ahlaki iddiaları olan siyasi bir proje olmaktan ziyade siyasi sonuçları olan ahlaki bir proje olarak nasıl işlev görür?"
+answer: "Bitcoin insanları zengin etmekten ziyade özgür kılmak için tasarlanmıştır; etkin mülkiyeti mümkün kılar, emeğin değerini korur ve mahremiyeti muhafaza eder; bunlar herhangi bir siyasi kampa aitlik iddia etmeden siyasi etkiler üreten ahlaki başarılardır"
+wrong_answers:
+  - "Bitcoin ahlaki bir projedir çünkü kodu dolandırıcılığı önleyen etik kuralları uygular; siyasi sonucu ise demokratik yönetişimi algoritmik karar alma ile değiştirmektir"
+  - "Bitcoin ahlaki bir proje olarak işlev görür çünkü serveti zenginlerden erken benimseyenlere yeniden dağıtır; vergi politikası açısından siyasi sonuçları olan daha adil bir toplum yaratır"
+  - "Bitcoin ahlakidir çünkü Satoshi Nakamoto protokole etik buyruklar gömmüştür; siyasi sonucu ise tüm siyasi aileleri ortak bir parasal sistem altında birleştirmektir"
+explanation: >-
+  Bitcoin insanları zengin etmek için değil, özgür kılmak için tasarlanmıştır. Üç ahlaki sonuç üretir: etkin mülkiyeti mümkün kılmak (sorumluluğu teşvik etmek), çalışmayla yaratılan değeri korumak (üretken çabayı teşvik etmek) ve mahremiyeti muhafaza etmek (insanların korkusuzca yaşamasına izin vermek). Bunlar, herhangi bir siyasi kampa ait olmadan siyasi sonuçlar taşıyan ahlaki başarılardır; bu da Bitcoin'i önce ahlaki, sonra siyasi bir proje yapar.
+reviewed: false

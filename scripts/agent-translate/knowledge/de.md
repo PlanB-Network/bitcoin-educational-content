@@ -18,3 +18,17 @@
 - Kept "Taproot", "Bitcoin Script", "key-spend path"→"Key-Spend-Pfad", "script path"→"Skriptpfad" consistent with existing glossary/taproot/de.md style (compound nouns with hyphens for English-German mashups, e.g. "Kombinator-Vollständigkeit", "Commitment-Merkle-Root").
 - Kept all math/pseudocode blocks, tables headers (English column names like "Combinator | Purpose"), and identifiers fully verbatim — these are inside fenced code or table syntax, not prose.
 - Rendered inline math prose terms consistently throughout: "principal type"→"principal-Typ" (kept English adjective, common in German type-theory writing) since no established German rendering found.
+
+## 2026-07-06
+- Political-spectrum terminology in SOC104: "Nolan diagram" → "Nolan-Diagramm", "Nolan diamond" → "Nolan-Rhombus", "statism" → "Etatismus", "left-right axis/divide" → "Links-rechts-Achse/-Spaltung".
+- In Nolan-diagram quizzes, use "wirtschaftliche Freiheit/Freiheiten" for economic freedom(s) and "persönliche Freiheit/Freiheiten" for personal freedom(s); keep the register explanatory and non-partisan.
+- In SOC political-philosophy quizzes, keep English labels like `pro-business`, `pro-market`, `Liberalism`, `libertarian`, and `Rebranding` when the source contrasts Anglo-American political terminology; translate the surrounding explanation.
+- Render "sound money" as "solides Geld" in Bitcoin/libertarian monetary contexts; keep "Fiatgeld" for fiat money.
+- In the Genesis-block headline context, translate prose references to the UK “Chancellor” as “Schatzkanzler”, but keep the embedded newspaper headline quote byte-identical in English.
+- For this SOC104 register, keep “Cypherpunk(s)” as the movement name; use German compounds where needed, e.g. “Cypherpunk-Mailingliste”, “Cypherpunk-Handeln”, “cypherpunkhaft”.
+- In SOC104 political-economy quizzes, render "libertarian" as "libertär"/"Libertäre" and "centrist" as "zentristisch"/"Zentristen"; use "Konstruktivismus" and "spontane Ordnung" for Hayek/Molinari context.
+- Keep "pro-business" and "pro-market" untranslated as course-position labels, forming German compounds like "Pro-business-Befürworter" and "pro-market-Position" when needed.
+- In politischen/ökonomischen SOC104-Quizzes: "moral hazard" bleibt als etablierter Fachbegriff "Moral Hazard"; "libertarian" → "libertär/Libertäre", "centrist" → "zentristisch/Zentristen".
+- For SOC104 political-philosophy quizzes, keep French `libertaires` as `Libertaires` when contrasting socialist anarchists with `Libertäre`/`Libertarismus`; this preserves the course's distinction between the French anarchist current and libertarianism.
+- In US federalism contexts, render "states"/"federal states" as "Einzelstaaten" rather than "Bundesstaaten" to avoid ambiguity with the federal government.
+- In political-philosophy context, render Anglo-Saxon “libertarian/libertarianism” as “libertär/Libertarismus” in German; keep French *libertaire* untranslated when the text explicitly contrasts it with Anglo-Saxon libertarianism, and use “Libertin” for libertine.

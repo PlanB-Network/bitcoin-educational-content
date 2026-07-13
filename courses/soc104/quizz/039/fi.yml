@@ -1,0 +1,9 @@
+question: "Miten valtion rahoittamat sosiaalitukiohjelmat voivat tuottaa perverssejä vaikutuksia ja havainnollistaa vaaraa, joka liittyy pelkkiin aikomuksiin nojaamiseen?"
+answer: "Ne voivat luoda riippuvuutta, poistaa kannustimet työntekoon ja muodostaa ryöstön, koska rahat on ensin otettava niiltä, jotka tuottivat vaurauden"
+wrong_answers:
+  - "Ne kannustavat liialliseen henkilökohtaiseen säästämiseen, vähentävät kulutusta ja aiheuttavat deflaatiota laajemmassa taloudessa"
+  - "Ne vahvistavat yksityistä yritystoimintaa siirtämällä työvoimakustannuksia hallitukselle ja vähentämällä kilpailukykyisten palkkojen tarvetta"
+  - "Ne poistavat luokkaerot niin perusteellisesti, että sosiaalinen liikkuvuus käy tarpeettomaksi ja innovaatio pysähtyy"
+explanation: >-
+  Friedman varoittaa, että anteliaat aikomukset voivat tuottaa haitallisia seurauksia, kun ne laiminlyövät ihmisten kannustimien tiukan analyysin. Valtion rahoittamat tukiohjelmat voivat luoda riippuvuutta, olla luomatta kannustinta työntekoon ja muodostaa eräänlaisen ryöstön, koska varat on ensin otettava vaurauden tuottajilta. Mitattavien tulosten, kuten köyhyyden vähentämisen ja tehokkuuden, on mentävä jalojen aikomusten edelle.
+reviewed: false

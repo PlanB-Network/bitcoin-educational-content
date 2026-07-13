@@ -19,3 +19,18 @@
 - "batch verification" → "verificación por lotes".
 - "Commitment Merkle Root (CMR)" → "Raíz de Merkle de Compromiso (CMR)".
 - Type notation (`A + B`, `A × C ⊢ D`, `1 ⊢ 1`, etc.) and math symbols left byte-identical; only surrounding prose translated.
+
+## 2026-07-06
+- In SOC political-economy quizzes, render "pro-business" as "proempresarial" and "pro-market" as "promercado" to preserve the contrast between state-backed firms and free-market process.
+- Render Popper's "open society" / "closed society" as "sociedad abierta" / "sociedad cerrada"; keep the terms lowercase unless the source treats them as titles.
+- In SOC political-philosophy quizzes, render "libertarian/libertarianism" as "libertario/libertarismo"; use "liberalismo clásico" only for classical liberalism.
+- "Welfare state" → "Estado del bienestar"; "sound money" → "dinero sólido" in Spanish monetary/political context.
+- Keep "laissez-faire" untranslated; render "pro-business"/"pro-market" as "pro-empresa"/"pro-mercado" for contrastive political-economy questions.
+- For SOC104 political terminology, follow existing `courses/soc104/es.md`: `statism` → `estatismo`, `libertarianism` → `libertarismo`, `libertarian` → `libertario`, `paleo-libertarianism` → `paleo-libertarismo`.
+- Preserve US institution names in English when the Spanish course does so: `Cato Institute`, `Mises Institute`, `Libertarian Party`; translate only surrounding role descriptions.
+- In political-philosophy course content, render English “libertarian/libertarianism” as “libertario/libertarismo”; keep the French left-anarchist term as italicized *libertaire(s)* to avoid Spanish ambiguity.
+- Render “pro-business” as “proempresa” and “pro-market” as “promercado” when the text contrasts corporate-state alliance with free-market principles.
+- Keep “fiat” as the loanword in monetary contexts: “dinero fiat” / “moneda fiat”, rather than “fiduciario”, when contrasting state money with Bitcoin.
+- Historical quoted artifacts embedded in Bitcoin (e.g. the genesis-block Times headline) stay verbatim in English inside quotes; translate only the surrounding explanatory prose.
+- In SOC104 political-theory quizzes, keep French socialist-anarchist `libertaires` as "libertaires" to preserve the source's contrast with right-libertarian `libertarians`, rendered as "libertarianos" / "libertarianismo".
+- In political-economy quiz context, "moral hazard" → "riesgo moral" (standard Spanish term); keep it in quotes only when the English source puts the term in quotes.

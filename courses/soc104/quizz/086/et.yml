@@ -1,0 +1,9 @@
+question: "Milline tegelaskuju kaitseb Gustave de Molinari 1849. aasta dialoogides vabadust aluspõhimõttena, selle asemel et allutada see teistele eesmärkidele?"
+answer: "Majandusteadlane, kes käsitleb vabadust põhimõttena, mida ei allutata ühelegi teisele eesmärgile"
+wrong_answers:
+  - "Sotsialist, kes kaitseb vabadust sotsiaalsele võrdsusele suunatud progressiivsete reformide kaudu"
+  - "Konservatiiv, kes hoiab vabadust alal traditsioonilise ühiskondliku korra ja stabiilsuse säilitamisega"
+  - "Kõik kolm tegelaskuju kaitsevad vabadust võrdselt, kuid ei nõustu selles, kuidas seda rakendada"
+explanation: >-
+  Molinari dialoogides teosest Les Soirees de la rue Saint-Lazare on majandusteadlane püsivas eriarvamuses nii sotsialisti kui ka konservatiiviga. Ta on ainus, kes kaitseb vabadust aluspõhimõttena. Sotsialist allutab vabaduse progressiivsetele ideaalidele ja konservatiiv allutab selle korra säilitamisele, muutes majandusteadlase ainulaadseks oma tingimusteta vabaduse kaitses.
+reviewed: false

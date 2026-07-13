@@ -1,0 +1,9 @@
+question: "¿Cuál de los siguientes es un ejemplo de orden espontáneo según lo descrito por Hayek?"
+answer: "El lenguaje, que se desarrolló orgánicamente mediante interacciones históricas en lugar de ser diseñado por intelectuales en una oficina"
+wrong_answers:
+  - "Una constitución nacional, que fue redactada cuidadosamente por representantes elegidos para establecer reglas sociales"
+  - "Un programa gubernamental de estímulo, diseñado por economistas para coordinar la actividad económica"
+  - "Un sistema de educación pública, creado por legisladores para garantizar el acceso universal al conocimiento"
+explanation: >-
+  Hayek describe el orden espontáneo como el producto de interacciones libres en la sociedad, resultante de la acción humana pero no de un diseño deliberado. El lenguaje es un ejemplo principal: el francés, el inglés y el alemán no fueron construidos por intelectuales que decidieran reglas gramaticales, sino que emergieron como fruto de una organización lenta y orgánica construida mediante interacciones históricas.
+reviewed: false

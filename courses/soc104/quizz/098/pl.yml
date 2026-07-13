@@ -1,0 +1,9 @@
+question: "Jakie jest główne przesłanie Cypherpunk Manifesto Erica Hughesa z 1993 roku dotyczące prywatności?"
+answer: "Prywatność jest niezbędna dla społeczeństwa otwartego w epoce elektronicznej, a jednostki muszą budować ją same, zamiast oczekiwać, że zagwarantują ją rządy lub korporacje"
+wrong_answers:
+  - "Prywatność jest luksusem, który trzeba poświęcić w zamian za bezpieczeństwo narodowe i ochronę instytucji demokratycznych"
+  - "Prywatność powinna być regulowana przez traktaty międzynarodowe ustanawiające jednolite standardy ochrony danych we wszystkich krajach"
+  - "Prywatność jest ważna tylko dla przestępców i dysydentów, podczas gdy praworządni obywatele korzystają z przejrzystych systemów nadzoru"
+explanation: >-
+  Manifest Erica Hughesa z 1993 roku stwierdza, że prywatność jest niezbędna dla społeczeństwa otwartego w epoce elektronicznej oraz że nie możemy oczekiwać, iż rządy, korporacje albo inne duże organizacje ją zagwarantują. Fundamentalna motywacja jest taka, że poufność jest kluczowym elementem wolności i musi być budowana przez same jednostki, a nie oczekiwana jako dar od instytucji.
+reviewed: false

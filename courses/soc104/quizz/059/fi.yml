@@ -1,0 +1,9 @@
+question: "Mikä piilevä paradoksi sisältyy keskustalaiseen pragmatismiin?"
+answer: "Pragmatismi itse lepää erään dogmatismin muodon varassa, nimittäin julkilausumattoman vakaumuksen, että vain asiantuntijat ovat päteviä ohjaamaan yhteiskuntaa"
+wrong_answers:
+  - "Keskustalaiset väittävät olevansa maltillisia mutta liittoutuvat koalitiohallituksissa johdonmukaisesti vasemmistopuolueiden kanssa"
+  - "Keskustalainen politiikka näyttää tasapainoiselta mutta suosii aina talouskasvua ympäristönsuojelun kustannuksella"
+  - "Keskustalaiset torjuvat ideologian mutta omaksuvat jäykät vapaiden markkinoiden periaatteet tehdessään taloudellisia päätöksiä"
+explanation: >-
+  Keskustalaisen pragmatismin paradoksi on, että se väittää torjuvansa ideologian rationaalisen asiantuntemuksen hyväksi, mutta juuri tämä väite lepää näkymättömän ja julkilausumattoman dogmin varassa: että vain teknokraatit kykenevät tekemään oikeat päätökset. Tämä vakaumus, jonka mukaan vain asiantuntijoiden tulisi ohjata yhteiskuntaa, on itsessään ideologinen sitoumus, vaikka keskustalaiset eivät tunnista sitä sellaiseksi.
+reviewed: false

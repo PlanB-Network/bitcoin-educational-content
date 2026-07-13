@@ -1,0 +1,9 @@
+question: "central planning අසාර්ථක වන්නේ ඇයි යන්න පිළිබඳ Hayekගේ fundamental argument එක කුමක්ද?"
+answer: "Knowledge පවතින්නේ distinct individuals සතුව ඇති dispersed fragments ලෙස පමණක් වන අතර එය central authority එකක් විසින් concentrate හෝ integrate කළ නොහැක"
+wrong_answers:
+  - "Central planners සදාචාරිකව දූෂිත වන අතර public good වෙනුවට සෑමවිටම තමන්ගේම self-interest අනුව ක්‍රියා කරයි"
+  - "Democratic institutions economic changes වලට ප්‍රතිචාර දැක්වීමට අතිශය සෙමින් ක්‍රියා කරන බැවින් centralized decisions සෑමවිටම outdated වේ"
+  - "Central planning අසාර්ථක වන්නේ citizens හිතාමතාම government mandates ප්‍රතිරෝධය දක්වා regulations පිළිපැදීම ප්‍රතික්ෂේප කරන නිසාය"
+explanation: >-
+  Hayekගේ fundamental argument එක information හි nature මත රඳා පවතී. knowledge කිසිදා concentrated හෝ integrated form එකක නොපවතින අතර, සියලු distinct individuals සතුව ඇති dispersed fragments ලෙස පමණක් පවතින බව ඔහු පෙන්වා දුන්නේය. Value subjective වන අතර locally සහ incompletely පමණක් දැනගත හැක. office එකක වාඩි වී සිටින central planner කෙනෙකුට දේවල්වල true price ගැන knowledge නැත, මන්ද ඔහු interaction සහ exchange තුළ නිරත වී නොමැති නිසාය.
+reviewed: false

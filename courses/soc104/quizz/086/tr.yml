@@ -1,0 +1,9 @@
+question: "Ludwig von Mises, yalnızca bireyin düşündüğünü, akıl yürüttüğünü ve eylemde bulunduğunu yazarken ne demek istemiştir?"
+answer: "Devlet ya da ulus gibi kolektivitelerin, bireysel üyelerinin eylemlerinin ötesinde kendilerine ait bir varlığı olmadığı"
+wrong_answers:
+  - "Bireylerin grup ya da birlik oluşturmaktan kaçınması gerektiği, çünkü kolektif eylemin her zaman zararlı olduğu"
+  - "Yalnızca belirli yetenekli bireylerin rasyonel düşünceye muktedir olduğu, çoğu insanın ise içgüdüyü takip ettiği"
+  - "Düşünme ve akıl yürütmenin kamusal alanda asla paylaşılmaması ya da tartışılmaması gereken özel faaliyetler olduğu"
+explanation: >-
+  Mises, bireyciliğin toplum ya da ulus gibi toplumsal varlıkların onları oluşturan bireylerden bağımsız olarak var olabileceği fikrine karşı çıktığını açıklığa kavuşturmuştur. Bir kolektivitenin, bireysel üyelerinin eylemlerinin ötesinde kendine ait bir varlığı yoktur. Devletin ya da bir şirketin eyleminden anlamlı biçimde söz edemeyiz; çünkü bu varlıkların kendilerine ait bir iradesi ya da düşüncesi yoktur ve yalnızca bireyler aracılığıyla eylemde bulunurlar.
+reviewed: false

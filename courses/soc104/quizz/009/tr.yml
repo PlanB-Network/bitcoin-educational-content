@@ -1,0 +1,9 @@
+question: "Nolan diyagramının iki ekseni nedir?"
+answer: "Kişisel özgürlükleri ölçen dikey eksen ve ekonomik özgürlükleri ölçen yatay eksen"
+wrong_answers:
+  - "Soldan sağa uzanan yatay eksen ve otoriterlikten demokrasiye uzanan dikey eksen"
+  - "Serveti ölçen dikey eksen ve eğitim düzeylerini ölçen yatay eksen"
+  - "Sosyalizmden kapitalizme uzanan yatay eksen ve gelenekten ilerlemeye uzanan dikey eksen"
+explanation: >-
+  David Nolan diyagramını iki belirli eksenle tasarladı: kişisel özgürlükler (dikey) ve ekonomik özgürlükler (yatay). Bu iki boyutlu yaklaşım, aşırı basitleştirilmiş sol-sağ çizgisinin yerini alır ve iki ana özgürlük kategorisini ayırarak siyasi ideolojilerin karmaşıklığını daha iyi yakalar.
+reviewed: false

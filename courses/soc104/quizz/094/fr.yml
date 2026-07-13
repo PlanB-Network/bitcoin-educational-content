@@ -1,0 +1,9 @@
+question: "Pourquoi les cypherpunks soutenaient-ils qu'une monnaie numérique dotée de propriétés anonymes était nécessaire ?"
+answer: "Parce que les espèces, le principal système de transaction anonyme, disparaissent dans la société numérique, et qu'il faut inventer un remplacement numérique doté des mêmes propriétés de confidentialité"
+wrong_answers:
+  - "Parce que les systèmes de paiement numériques existants étaient trop lents et coûteux, ce qui nécessitait une alternative plus rapide et moins chère pour le commerce en ligne"
+  - "Parce que les gouvernements avaient déjà interdit toutes les formes de transactions anonymes et que seule une nouvelle technologie pouvait contourner ces lois"
+  - "Parce que les banques traditionnelles refusaient de servir certaines populations, faisant d'un système de paiement numérique universellement accessible une nécessité économique"
+explanation: >-
+  Le manifeste cypherpunk affirme que la confidentialité dans une société ouverte nécessite des systèmes de transaction anonymes. Jusqu'à l'ère numérique, les espèces servaient de principal système de ce type. Mais dans une société numérique où les espèces disparaissent, il faut inventer une monnaie numérique dotée des mêmes propriétés d'anonymat. Cette vision anticipait directement ce que Bitcoin accomplirait.
+reviewed: false

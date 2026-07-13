@@ -1,0 +1,9 @@
+question: "Mikä on Hayekin perustava argumentti siitä, miksi keskussuunnittelu epäonnistuu?"
+answer: "Tieto on olemassa vain hajanaisina sirpaleina, joita erillisillä yksilöillä on hallussaan, eikä keskusauktoriteetti voi keskittää tai integroida sitä"
+wrong_answers:
+  - "Keskussuunnittelijat ovat moraalisesti korruptoituneita ja toimivat aina oman etunsa eivätkä yhteisen hyvän mukaisesti"
+  - "Demokraattiset instituutiot ovat liian hitaita vastaamaan taloudellisiin muutoksiin, minkä vuoksi keskitetyt päätökset ovat aina vanhentuneita"
+  - "Keskussuunnittelu epäonnistuu, koska kansalaiset vastustavat tahallaan hallituksen määräyksiä ja kieltäytyvät noudattamasta sääntelyä"
+explanation: >-
+  Hayekin perustava argumentti nojaa informaation luonteeseen. Hän osoitti, ettei tieto koskaan ole olemassa keskitettynä tai integroituna muotona, vaan vain hajanaisina sirpaleina, joita kaikilla erillisillä yksilöillä on hallussaan. Arvo on subjektiivinen ja tunnetaan vain paikallisesti ja epätäydellisesti. Toimistossa istuvalla keskussuunnittelijalla ei ole tietoa asioiden todellisesta hinnasta, koska hän ei osallistu vuorovaikutukseen ja vaihtoon.
+reviewed: false

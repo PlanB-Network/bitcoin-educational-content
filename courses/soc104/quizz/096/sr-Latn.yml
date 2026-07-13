@@ -1,0 +1,9 @@
+question: "Koja je osnovna poruka Sajferpank manifesta Erica Hughesa iz 1993. o privatnosti?"
+answer: "Privatnost je neophodna za otvoreno društvo u elektronskom dobu, a pojedinci je moraju izgraditi sami umesto da očekuju od vlada ili korporacija da je garantuju"
+wrong_answers:
+  - "Privatnost je luksuz koji mora biti žrtvovan u zamenu za nacionalnu bezbednost i zaštitu demokratskih institucija"
+  - "Privatnost treba regulisati međunarodnim ugovorima koji uspostavljaju jedinstvene standarde zaštite podataka u svim zemljama"
+  - "Privatnost je važna samo za kriminalce i disidente, dok građani koji poštuju zakon imaju koristi od transparentnih sistema nadzora"
+explanation: >-
+  Manifest Erica Hughesa iz 1993. navodi da je privatnost neophodna za otvoreno društvo u elektronskom dobu i da ne možemo očekivati od vlada, korporacija ili drugih velikih organizacija da je garantuju. Fundamentalna motivacija je da je poverljivost ključni element slobode i da je moraju izgraditi sami pojedinci, a ne čekati je kao poklon od institucija.
+reviewed: false

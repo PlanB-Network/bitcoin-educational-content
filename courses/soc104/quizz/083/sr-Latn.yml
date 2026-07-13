@@ -1,0 +1,9 @@
+question: "Koji je Hayekov fundamentalni argument o tome zašto centralno planiranje propada?"
+answer: "Znanje postoji samo kao raspršeni fragmenti koje poseduju različiti pojedinci i ne može ga koncentrisati niti integrisati centralna vlast"
+wrong_answers:
+  - "Centralni planeri su moralno korumpirani i uvek deluju u sopstvenom interesu umesto u interesu javnog dobra"
+  - "Demokratske institucije su prespore da odgovore na ekonomske promene, zbog čega su centralizovane odluke uvek zastarele"
+  - "Centralno planiranje propada zato što građani namerno pružaju otpor državnim nalozima i odbijaju da se povinuju propisima"
+explanation: >-
+  Hayekov fundamentalni argument počiva na prirodi informacija. Pokazao je da znanje nikada ne postoji u koncentrisanom ili integrisanom obliku, već samo kao raspršeni fragmenti koje poseduju svi različiti pojedinci. Vrednost je subjektivna i poznata samo lokalno i nepotpuno. Centralni planer, sedeći u kancelariji, nema znanje o pravoj ceni stvari zato što nije uključen u interakciju i razmenu.
+reviewed: false

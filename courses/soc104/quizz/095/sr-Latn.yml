@@ -1,0 +1,9 @@
+question: "Zašto se monetarna inflacija opisuje kao skriveni porez nametnut bez pristanka građana?"
+answer: "Zato što državno stvaranje novca obezvređuje valutu, pa ljudi mogu da kupe manje istim iznosom, ali većina ne shvata da rast cena odražava državnu politiku, a ne prirodne tržišne sile"
+wrong_answers:
+  - "Zato što centralne banke tajno naplaćuju naknade na svaku transakciju obrađenu kroz bankarski sistem, a da ih ne otkrivaju vlasnicima računa"
+  - "Zato što vlade štampaju novac i distribuiraju ga samo bogatim pojedincima, dok siromašne oporezuju višim porezima na promet osnovnih dobara"
+  - "Zato što inflaciju izazivaju privatne korporacije podizanjem cena radi povećanja profita, što funkcioniše kao nezvanični porez na potrošače"
+explanation: >-
+  Ubrizgavanje novca u sistem prevodi se u obezvređivanje valute, gde isti iznos kupuje manje zato što novi novac ne odražava stvaran ekonomski rast. Većina ljudi ne vidi da je državna politika dovela do rasta cena, koje su jednostavno odraz obezvređivanja valute. To predstavlja legalnu krađu i institucionalizovanu pljačku, osiromašujući srednju klasu dok bogati hvataju novi novac kroz spekulativnu imovinu.
+reviewed: false

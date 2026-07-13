@@ -1,0 +1,9 @@
+question: "Ron Paul Federal Reserve'ün neden zararlı olduğunu savunur ve Bitcoin onun konumuyla nasıl ilişkilidir?"
+answer: "Federal Reserve, itibari parayı manipüle ederek enflasyona ve ekonomik döngülere neden olur; Bitcoin ise altın standardının yerini alabilecek bir sağlam para biçimini temsil eder"
+wrong_answers:
+  - "Federal Reserve banka rekabetini sınırlar ve Bitcoin finansal kapsayıcılığı iyileştirmek için bankacılık hizmetlerini merkeziyetsizleştirir"
+  - "Federal Reserve uluslar arasında serbest ticareti engeller ve Bitcoin devlet onayı olmadan sınırsız işlemleri mümkün kılar"
+  - "Federal Reserve aşırı kamu borcu yaratır ve Bitcoin ulusal borcu ortadan kaldıran deflasyonist bir para birimi sunar"
+explanation: >-
+  Bir minarşist olan Ron Paul, Federal Reserve'ün itibari parayı manipüle ettiği için enflasyondan ve ekonomik döngülerden sorumlu olduğunu savunur. Friedrich Hayek'in savunduğu bir fikir olan paranın milliyetsizleştirilmesini destekler ve Bitcoin'i altın standardının yerini alabilecek bir sağlam para biçimi olarak görür. Eleştirisi öncelikle banka rekabetine, ticaret engellerine veya kamu borcuna değil, liberteryen para teorisine dayanır.
+reviewed: false

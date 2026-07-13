@@ -1,0 +1,9 @@
+question: "Před čím Milton Friedman varoval při posuzování politických opatření?"
+answer: "Politiky by měly být posuzovány podle svých výsledků, nikoli podle svých záměrů"
+wrong_answers:
+  - "Politiky by měly být posuzovány podle morálního charakteru politiků, kteří je navrhují"
+  - "Politiky by měly být posuzovány podle toho, jak jsou populární u široké voličské veřejnosti"
+  - "Politiky by měly být posuzovány podle toho, zda jsou v souladu s původní ústavou země"
+explanation: >-
+  Friedman napsal, že jednou z největších chyb je posuzovat politiky podle jejich záměrů, nikoli podle jejich výsledků, a poznamenal, že programy označované jako programy pro chudé téměř vždy vytvářejí účinky opačné k tomu, co jejich sponzoři zamýšleli. To odráží Bastiatovo učení, že dobrý ekonom zvažuje krátkodobé i dlouhodobé účinky na celou populaci.
+reviewed: false

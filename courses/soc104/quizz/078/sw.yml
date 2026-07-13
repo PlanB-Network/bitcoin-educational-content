@@ -1,0 +1,9 @@
+question: "Ni nini kinachotangulia uhuru katika falsafa ya kisiasa ya kihafidhina?"
+answer: "Utaratibu na mapokeo, ambayo lazima yawekwe imara kabla uhuru haujathaminiwa"
+wrong_answers:
+  - "Haki ya kijamii na usawa, ambavyo lazima vihakikishwe kabla watu binafsi hawajawa huru kweli"
+  - "Ufanisi wa kiuchumi na matokeo ya kiutendaji, ambayo huamua wakati uhuru unafaa"
+  - "Haki za mali za mtu binafsi, ambazo lazima zilindwe kabla uhuru mwingine wowote haujatolewa"
+explanation: >-
+  Kwa wahafidhina, utaratibu na mapokeo hutangulia uhuru. Wanasema kuwa uhuru mwingi kupita kiasi huzalisha machafuko na vurugu za kijamii, hivyo uhuru unaweza kuthaminiwa tu baada ya utaratibu kuwekwa imara. Hili linatofautiana na mtazamo wa kisoshalisti unaotanguliza haki, au mkazo wa watu wa msimamo wa kati juu ya ufanisi.
+reviewed: false

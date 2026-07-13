@@ -1,0 +1,9 @@
+question: "De ce susține Ron Paul că Federal Reserve este dăunătoare și cum se leagă Bitcoin de poziția sa?"
+answer: "Federal Reserve provoacă inflație și cicluri economice prin manipularea banilor fiat, iar Bitcoin reprezintă o formă de bani solizi care ar putea înlocui etalonul aur"
+wrong_answers:
+  - "Federal Reserve limitează concurența bancară, iar Bitcoin descentralizează serviciile bancare pentru a îmbunătăți incluziunea financiară"
+  - "Federal Reserve împiedică liberul schimb între națiuni, iar Bitcoin permite tranzacții fără frontiere, fără aprobare guvernamentală"
+  - "Federal Reserve creează datorie guvernamentală excesivă, iar Bitcoin oferă o monedă deflaționistă care elimină datoria națională"
+explanation: >-
+  Ron Paul, un minarhist, susține că Federal Reserve este responsabilă pentru inflație și ciclurile economice deoarece manipulează banii fiat. El promovează denaționalizarea banilor, o idee susținută de Friedrich Hayek, și vede Bitcoin ca pe o formă de bani solizi care ar putea înlocui etalonul aur. Critica sa este înrădăcinată în teoria monetară libertariană, nu în principal în concurența bancară, barierele comerciale sau datoria guvernamentală.
+reviewed: false

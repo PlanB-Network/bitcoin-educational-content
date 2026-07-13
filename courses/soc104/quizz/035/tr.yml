@@ -1,0 +1,9 @@
+question: "Bir siyasi sistemin yapısal tanımı neye odaklanır?"
+answer: "Sistemin fiilen nasıl işlediğine ve devlet denetiminin derecesi gibi gözlemlenebilir özelliklerine"
+wrong_answers:
+  - "Sistemin kurucuları ve liderleri tarafından ilan edilen beyan edilmiş hedeflere ve yüce niyetlere"
+  - "Siyasi hareketin tarihsel kökenlerine ve kilit düşünürlerinin biyografilerine"
+  - "İzin verilen siyasi parti sayısına ve yapılan demokratik seçimlerin sıklığına"
+explanation: >-
+  Yapısal tanımlar, siyasi sistemlerin fiilen nasıl işlediğine ve gözlemlenebilir özelliklerine odaklanır. Örneğin sosyalizm, yapısal olarak devletin her yerde hazır bulunmasıyla karakterize edilir. Bu yaklaşım, beyan edilmiş motivasyonlara ve hedeflere dayanan niyete dayalı tanımlarla karşıtlık oluşturur. Yapısal yaklaşım, ölçülebilir sonuçlara dayalı daha nesnel bir değerlendirmeye olanak tanır.
+reviewed: false

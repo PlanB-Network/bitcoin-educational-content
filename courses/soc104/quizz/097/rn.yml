@@ -1,0 +1,9 @@
+question: "Ni ubuhe butumwa nyamukuru bwa Cypherpunk Manifesto ya Eric Hughes yo mu 1993 ku bijanye n'ubuzima bwite?"
+answer: "Ubuzima bwite ni ngombwa ku kibano cuguruye mu gihe ca electronique, kandi abantu bategerezwa kubwubaka ubwabo aho kurindira ko leta canke amashirahamwe bibubashingira"
+wrong_answers:
+  - "Ubuzima bwite ni ikintu c'akanyamuneza gitegerezwa gutangwa kugira ngo haboneke umutekano w'igihugu n'ugukingira inzego za demokarasi"
+  - "Ubuzima bwite bukwiye kugengwa n'amasezerano mpuzamakungu ashinga ingingo zimwe zo gukingira amakuru mu bihugu vyose"
+  - "Ubuzima bwite buhambaye gusa ku bagizi ba nabi n'abatavuga rumwe n'ubutegetsi, mu gihe abanyagihugu bubahiriza amategeko bungukira ku buryo bwo gucungera buboneka"
+explanation: >-
+  Manifesto ya Eric Hughes yo mu 1993 ivuga ko ubuzima bwite ari ngombwa ku kibano cuguruye mu gihe ca electronique, kandi ko tudashobora kwitega ko leta, amashirahamwe, canke ayandi mashirahamwe manini bibubashingira. Imvo y'ishimikiro ni uko ibanga ari ikintu nyamukuru c'umwidegemvyo kandi ritegerezwa kwubakwa n'abantu ubwabo, ntiririndirwe nk'ingabire iva mu bigo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Milton Friedman đã đưa ra cảnh báo gì về việc đánh giá các chính sách chính trị?"
+answer: "Các chính sách nên được đánh giá bằng kết quả của chúng hơn là bằng ý định của chúng"
+wrong_answers:
+  - "Các chính sách nên được đánh giá bằng phẩm chất đạo đức của các chính trị gia đề xuất chúng"
+  - "Các chính sách nên được đánh giá bằng mức độ phổ biến của chúng trong công chúng đi bầu nói chung"
+  - "Các chính sách nên được đánh giá bằng việc liệu chúng có phù hợp với hiến pháp ban đầu của quốc gia hay không"
+explanation: >-
+  Friedman viết rằng một trong những sai lầm lớn nhất là đánh giá chính sách dựa trên ý định thay vì kết quả, đồng thời lưu ý rằng các chương trình được gắn nhãn là vì người nghèo hầu như luôn tạo ra những tác động ngược với điều mà những người bảo trợ chúng dự định. Điều này vọng lại lời dạy của Bastiat rằng một nhà kinh tế giỏi xem xét cả tác động ngắn hạn lẫn dài hạn đối với toàn bộ dân chúng.
+reviewed: false

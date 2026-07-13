@@ -1,0 +1,9 @@
+question: "Vì sao các cypherpunks lập luận rằng cần có một đồng tiền kỹ thuật số với các thuộc tính ẩn danh?"
+answer: "Vì tiền mặt, hệ thống giao dịch ẩn danh chủ yếu, đang biến mất trong xã hội kỹ thuật số, và cần phát minh một sự thay thế kỹ thuật số có cùng các thuộc tính quyền riêng tư"
+wrong_answers:
+  - "Vì các hệ thống thanh toán kỹ thuật số hiện có quá chậm và đắt đỏ, đòi hỏi một phương án nhanh hơn và rẻ hơn cho thương mại trực tuyến"
+  - "Vì các chính phủ đã cấm mọi hình thức giao dịch ẩn danh và chỉ một công nghệ mới mới có thể vòng qua các luật này"
+  - "Vì các ngân hàng truyền thống từ chối phục vụ một số nhóm dân cư nhất định, khiến một hệ thống thanh toán kỹ thuật số có thể tiếp cận phổ quát trở thành một nhu cầu kinh tế"
+explanation: >-
+  Tuyên ngôn cypherpunk nói rằng tính bảo mật trong một xã hội mở đòi hỏi các hệ thống giao dịch ẩn danh. Cho đến thời đại kỹ thuật số, tiền mặt từng là hệ thống chính thuộc loại này. Nhưng trong một xã hội kỹ thuật số nơi tiền mặt đang biến mất, cần phát minh một đồng tiền kỹ thuật số có cùng các thuộc tính ẩn danh. Tầm nhìn này trực tiếp dự báo điều Bitcoin sẽ đạt được.
+reviewed: false

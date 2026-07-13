@@ -1,0 +1,9 @@
+question: "Kuidas tugevdab fiat-rahasüsteem jaotust valitsejate ja valitsetavate vahel?"
+answer: "See võimaldab valitsustel rahaloome kaudu rahastada piiramatut kulutamist, mis devalveerib sääste inflatsiooni kaudu"
+wrong_answers:
+  - "See annab kodanikele demokraatlike valimiste ja referendumite kaudu otsese kontrolli rahapoliitika üle"
+  - "See takistab valitsustel laenu võtmast, sundides neid tulude saamiseks tuginema üksnes maksustamisele"
+  - "See jagab äsja loodud raha majanduskasvu stimuleerimiseks kõigi kodanike vahel võrdselt"
+explanation: >-
+  Fiat-valuutat kirjeldatakse riigivõimu laienemise nurgakivina, sest see võimaldab valitsustel laenu võtta ja survestada panku uut raha looma. Sellest tulenev inflatsioon devalveerib inimeste sääste, tuues kasu kõige jõukamatele ja võimsamatele üksustele. See ei anna kodanikele rahapoliitilist kontrolli, samuti ei takista see laenamist ega jaga raha võrdselt.
+reviewed: false

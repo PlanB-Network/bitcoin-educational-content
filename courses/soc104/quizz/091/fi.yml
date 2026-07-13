@@ -1,0 +1,9 @@
+question: "Minkä perustavanlaatuisen ongelman Satoshi Nakamoto tunnisti fiat-valuutoissa?"
+answer: "Ne edellyttävät luottamusta siihen, ettei keskuspankki devalvoi valuuttaa, mutta fiat-valuuttojen historia on täynnä tämän luottamuksen rikkomuksia"
+wrong_answers:
+  - "Niitä on liian vaikea käyttää arjen maksutapahtumissa, koska fyysinen käteinen kuluu nopeasti ja sen tuottaminen on kallista"
+  - "Niitä ei voida siirtää kansainvälisesti, koska jokaisella maalla on yhteensopimattomat rahastandardit ja sääntelyt"
+  - "Niiden vakuutena ovat kultavarannot, jotka eivät riitä kattamaan koko liikkeessä olevaa rahamäärää"
+explanation: >-
+  Satoshi Nakamoto totesi, että tavanomaisten valuuttojen perustavanlaatuinen ongelma on luottamus, jota niiden toiminta edellyttää. Fiat-valuuttojen vakuutena ei ole hyödykettä, vaan ne nojaavat kokonaan institutionaaliseen auktoriteettiin. Kun instituutiolla on täysi määräysvalta rahaan, houkutus väärinkäyttöön on liian suuri, ja historia on osoittanut tämän toistuvasti valuutan devalvoitumisen kautta.
+reviewed: false

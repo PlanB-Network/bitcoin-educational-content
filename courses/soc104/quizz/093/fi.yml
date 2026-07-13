@@ -1,0 +1,9 @@
+question: "Minkä viestin Satoshi Nakamoto sisällytti kaikkien aikojen ensimmäiseen louhittuun Bitcoin-lohkoon?"
+answer: "London Times -lehden otsikon siitä, että valtiovarainministeri oli toisen pankkien pelastuspaketin partaalla"
+wrong_answers:
+  - "Friedrich Hayekin sitaatin keskussuunnittelun ja valtion rahakontrollin vaaroista"
+  - "Itsenäisyysjulistuksen kaikista hallinnon ja taloudellisen sääntelyn muodoista maailmanlaajuisesti"
+  - "Matemaattisen todistuksen siitä, että hajautettu valuutta on tehokkaampi kuin fiat-raha"
+explanation: >-
+  Genesis-lohkossa Satoshi Nakamoto lisäsi symbolisen otsikon London Timesista: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Tämä oli suora viittaus vuoden 2008 finanssikriisiin ja sitä seuranneeseen rahapoliittiseen interventionismiin, mikä teki Bitcoinin tarkoituksen erehtymättömän selväksi vaihtoehtona keskitetyille pankkijärjestelmille.
+reviewed: false

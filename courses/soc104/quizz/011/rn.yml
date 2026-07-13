@@ -1,0 +1,9 @@
+question: "Ni abantu b'ibimenyetso bahe bafitaniwe isano n'umwidegemvyo munini w'ubutunzi ku gishushanyo ca Nolan?"
+answer: "Margaret Thatcher, Ronald Reagan, na Javier Milei"
+wrong_answers:
+  - "Franklin D. Roosevelt, Jean Jaures, na Bernie Sanders"
+  - "Nelson Mandela, Simone Veil, na Noam Chomsky"
+  - "Vladimir Putin, Xi Jinping, na Joseph de Maistre"
+explanation: >-
+  Thatcher, Reagan, na Milei bavugwa nk'abantu b'ibimenyetso vy'umwidegemvyo munini w'ubutunzi, bashigikira ukwivanga gutoyi kwa leta, amategeko ngenderwako make, n'amakori make. Roosevelt, Jaures, na Sanders baserukira uruhande rutandukanye rushigikira igenzura rya leta ku butunzi. Mandela, Veil, na Chomsky baserukira umwidegemvyo munini w'umuntu ku giti ciwe. Putin, Xi Jinping, na de Maistre baserukira igenzura rinini rya leta ku buzima bw'umuntu ku giti ciwe.
+reviewed: false

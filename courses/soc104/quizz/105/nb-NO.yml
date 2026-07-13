@@ -1,0 +1,9 @@
+question: "Hvorfor beskriver kurset Bitcoin som en markedsvaluta i opposisjon til statlige penger snarere enn et høyreorientert eller venstreorientert prosjekt?"
+answer: "Fordi Bitcoin er en frivillig adoptert, vanskelig å produsere, desentralisert valuta som bevarer verdi, i kontrast til tvangspreget, sentralisert fiatpenger som taper verdi, noe som gjør skillet til et spørsmål om marked versus stat snarere enn politisk ideologi"
+wrong_answers:
+  - "Fordi Bitcoin ble skapt av en anonym utvikler som bevisst unngikk å komme med politiske uttalelser om dets tiltenkte formål eller filosofi"
+  - "Fordi Bitcoins mining-algoritme sikrer lik fordeling av nye mynter til alle politiske partier, noe som forhindrer ideologisk slagside i det monetære systemet"
+  - "Fordi Bitcoin fungerer identisk med eksisterende fiatvalutaer, men opererer på et raskere betalingsnettverk, noe som gjør politiske skiller irrelevante"
+explanation: >-
+  Bitcoin beskrives som et fredelig opprør mot politiseringen av penger. Statlige penger eller fiatpenger er et tvangspreget, sentralisert system som har en tendens til å tape verdi. Markedspenger, historisk gull og i dag Bitcoin, er sunn, vanskelig å produsere valuta som oppstår frivillig og bevarer verdien sin over lang tid. Den egentlige motsetningen er ikke venstre mot høyre, men marked mot stat, noe som gjør Bitcoin til et politisk brudd som overskrider tradisjonelle ideologiske leirer.
+reviewed: false

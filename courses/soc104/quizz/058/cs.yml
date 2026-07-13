@@ -1,0 +1,9 @@
+question: "Jaké jsou dva principy spravedlnosti Johna Rawlse?"
+answer: "Rovná svoboda pro všechny a princip rozdílu, který připouští nerovnosti pouze tehdy, pokud prospívají nejvíce znevýhodněným"
+wrong_answers:
+  - "Všeobecné volební právo pro všechny občany a progresivní zdanění k financování veřejných služeb"
+  - "Svoboda projevu bez omezení a povinné přerozdělování bohatství za účelem dosažení rovnosti"
+  - "Ochrana práv soukromého vlastnictví a princip neagrese uplatněný na všechny státní kroky"
+explanation: >-
+  Rawls navrhuje dva principy: za prvé rovnou svobodu pro všechny (základ demokracie) a za druhé princip rozdílu, který připouští nerovnosti pouze tehdy, pokud prospívají nejvíce znevýhodněným členům společnosti. To znamená, že člověk má právo zbohatnout za předpokladu, že přerozdělování umožní prospěch i těm nejméně zvýhodněným. Ostatní možnosti míchají prvky z různých politických filozofií.
+reviewed: false

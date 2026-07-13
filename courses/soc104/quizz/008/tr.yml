@@ -1,0 +1,9 @@
+question: "Nolan diyagramında dikey eksen (üst-alt) neden yatay eksenden (sol-sağ) daha temel kabul edilir?"
+answer: "Çünkü azami bireysel özgürlükleri savunanlar ile azami devlet denetimini tercih edenler arasındaki gerçek ayrımı ortaya koyar"
+wrong_answers:
+  - "Çünkü ekonomik çıktıyı, yatay eksenin sosyal politikaları ölçmesinden daha doğru ölçer"
+  - "Çünkü tarih boyunca siyasi çatışmaların çoğu yönetişimden ziyade kültürel kimlik hakkında olmuştur"
+  - "Çünkü yatay eksen yalnızca modern demokrasiler için geçerliyken dikey eksen evrenseldir"
+explanation: >-
+  Temel eksen dikey olandır; çünkü esas siyasi soruyu yakalar: devlet insan eylemini hangi dereceye kadar denetlemelidir? Sol-sağ ekseni yalnızca farklı hassasiyetleri (sosyal adalet ve gelenek) yansıtır; fakat iki taraf da dikey eksende devletçi olarak aynı konumda bulunabilir. Dikey eksen, birinin vizyonunu güç kullanarak dayatmak mı istediğini yoksa bireysel özgürlüğe saygı mı duyduğunu ortaya koyar.
+reviewed: false

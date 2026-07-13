@@ -1,0 +1,9 @@
+question: "Perché i cypherpunk sostenevano che fosse necessaria una valuta digitale con proprietà anonime?"
+answer: "Perché il contante, il principale sistema di transazione anonima, sta scomparendo nella società digitale, e bisogna inventare un sostituto digitale con le stesse proprietà di privacy"
+wrong_answers:
+  - "Perché i sistemi di pagamento digitali esistenti erano troppo lenti e costosi, richiedendo un'alternativa più veloce ed economica per il commercio online"
+  - "Perché i governi avevano già vietato tutte le forme di transazioni anonime e solo una nuova tecnologia poteva aggirare queste leggi"
+  - "Perché le banche tradizionali si rifiutavano di servire certe popolazioni, rendendo un sistema di pagamento digitale universalmente accessibile una necessità economica"
+explanation: >-
+  Il manifesto cypherpunk afferma che la riservatezza in una società aperta richiede sistemi di transazione anonimi. Fino all'era digitale, il contante serviva come principale sistema di questo tipo. Ma in una società digitale in cui il contante sta scomparendo, bisogna inventare una valuta digitale con le stesse proprietà di anonimato. Questa visione anticipò direttamente ciò che Bitcoin avrebbe realizzato.
+reviewed: false

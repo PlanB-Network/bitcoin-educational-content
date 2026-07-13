@@ -1,0 +1,9 @@
+question: "Was sind die zwei Achsen des Nolan-Diagramms?"
+answer: "Eine vertikale Achse, die persönliche Freiheiten misst, und eine horizontale Achse, die wirtschaftliche Freiheiten misst"
+wrong_answers:
+  - "Eine horizontale Achse von links nach rechts und eine vertikale Achse von autoritär zu demokratisch"
+  - "Eine vertikale Achse, die Wohlstand misst, und eine horizontale Achse, die Bildungsniveaus misst"
+  - "Eine horizontale Achse von Sozialismus zu Kapitalismus und eine vertikale Achse von Tradition zu Fortschritt"
+explanation: >-
+  David Nolan entwarf sein Diagramm mit zwei spezifischen Achsen: persönlichen Freiheiten (vertikal) und wirtschaftlichen Freiheiten (horizontal). Dieser zweidimensionale Ansatz ersetzt die übermäßig vereinfachte Links-rechts-Linie und erfasst die Komplexität politischer Ideologien besser, indem er die zwei Hauptkategorien der Freiheit trennt.
+reviewed: false

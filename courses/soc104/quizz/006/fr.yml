@@ -1,0 +1,9 @@
+question: "Quels sont les deux axes du diagramme de Nolan ?"
+answer: "Un axe vertical mesurant les libertés personnelles et un axe horizontal mesurant les libertés économiques"
+wrong_answers:
+  - "Un axe horizontal allant de la gauche à la droite et un axe vertical allant de l'autoritaire au démocratique"
+  - "Un axe vertical mesurant la richesse et un axe horizontal mesurant les niveaux d'éducation"
+  - "Un axe horizontal allant du socialisme au capitalisme et un axe vertical allant de la tradition au progrès"
+explanation: >-
+  David Nolan a conçu son diagramme avec deux axes spécifiques : les libertés personnelles (vertical) et les libertés économiques (horizontal). Cette approche bidimensionnelle remplace la ligne gauche-droite trop simplifiée et rend mieux compte de la complexité des idéologies politiques en séparant les deux grandes catégories de liberté.
+reviewed: false

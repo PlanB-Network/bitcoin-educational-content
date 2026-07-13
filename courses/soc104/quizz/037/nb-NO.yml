@@ -1,0 +1,9 @@
+question: "Hvilken advarsel ga Milton Friedman om å bedømme politiske tiltak?"
+answer: "Tiltak bør bedømmes etter resultatene sine heller enn etter intensjonene sine"
+wrong_answers:
+  - "Tiltak bør bedømmes etter den moralske karakteren til politikerne som foreslår dem"
+  - "Tiltak bør bedømmes etter hvor populære de er blant den brede stemmeberettigede offentligheten"
+  - "Tiltak bør bedømmes etter om de er i tråd med landets opprinnelige grunnlov"
+explanation: >-
+  Friedman skrev at en av de største feilene er å bedømme tiltak etter intensjonene deres heller enn resultatene deres, og bemerket at programmer som merkes som å være for de fattige, nesten alltid produserer virkninger som er motsatt av det sponsorene deres hadde til hensikt. Dette gir gjenklang av Bastiats lære om at en god økonom vurderer både kortsiktige og langsiktige virkninger på hele befolkningen.
+reviewed: false

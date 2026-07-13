@@ -1,0 +1,9 @@
+question: "Miks kritiseeris Rothbard libertääride arusaama inimloomusest ja millise alternatiivi ta pakkus?"
+answer: "Ta süüdistas neid naiivses 'õilsa metslase' käsitluses ning väitis, et ühiskond peab kasutama eraomandit ja häid stiimuleid, et suunata omakasupüüdlikku käitumist"
+wrong_answers:
+  - "Ta kiitis nende arusaama inimkoostööst, kuid väitis, et lepingute jõustamiseks on siiski vajalik minimaalne riik"
+  - "Ta nõustus, et inimesed on loomult head, kuid rõhutas, et ainult vabad turud suudavad selle headuse tootlikuks tegevuseks suunata"
+  - "Ta lükkas tagasi nende rõhuasetuse individuaalsetele õigustele ja väitis selle asemel, et kogukonnad peaksid moraalistandardid kollektiivselt määratlema"
+explanation: >-
+  Rothbard kritiseeris libertääre selle eest, et nad võtsid omaks naiivse, Rousseau'likku inimloomuse käsitluse, mille järgi inimene on loomult hea. Tema väitel juhib inimesi hoopis omakasu ning ühiskond tuleb korraldada nii, et head stiimulid suunaksid käitumist. See nõuab eraomandi tunnustamist ja tagamist. Riigi kaotamine ei tähenda selle funktsioonide kaotamist; politseid ja õigusemõistmist peaks vabal turul korraldama konkurents.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "John Rawls के justice के दो principles क्या हैं?"
+answer: "सभी के लिए equal liberty, और difference principle जो inequalities को केवल तब allow करता है जब वे सबसे disadvantaged को benefit करें"
+wrong_answers:
+  - "सभी citizens के लिए universal suffrage, और public services fund करने के लिए progressive taxation"
+  - "बिना restriction speech की freedom, और equality achieve करने के लिए mandatory wealth redistribution"
+  - "Private property rights की protection, और सभी state actions पर applied non-aggression principle"
+explanation: >-
+  Rawls दो principles propose करते हैं: पहला, सभी के लिए equal liberty (democracy की foundation), और दूसरा, difference principle, जो inequalities को केवल तब allow करता है जब वे society के सबसे disadvantaged members को benefit करें। इसका अर्थ है कि किसी को rich बनने का right है, provided कि redistribution least favored को भी benefit करने दे। Other options अलग-अलग political philosophies के elements mix करते हैं।
+reviewed: false

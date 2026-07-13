@@ -1,0 +1,9 @@
+question: "Ron Paul はなぜ Federal Reserve が有害だと論じ、Bitcoin は彼の立場とどのように関係しているか？"
+answer: "Federal Reserve は法定通貨の操作を通じてインフレと景気循環を引き起こし、Bitcoin は金本位制に代わり得る健全な貨幣の一形態を表している"
+wrong_answers:
+  - "Federal Reserve は銀行間競争を制限し、Bitcoin は金融包摂を改善するために銀行サービスを分散化する"
+  - "Federal Reserve は国家間の自由貿易を妨げ、Bitcoin は政府の承認なしに国境を越えた取引を可能にする"
+  - "Federal Reserve は過剰な政府債務を生み出し、Bitcoin は国債をなくすデフレ通貨を提供する"
+explanation: >-
+  ミナキストである Ron Paul は、Federal Reserve が法定通貨を操作するため、インフレと景気循環に責任があると論じる。彼は Friedrich Hayek が唱えた貨幣の非国有化を擁護し、Bitcoin を金本位制に代わり得る健全な貨幣の一形態と見ている。彼の批判はリバタリアンの貨幣理論に根ざしており、銀行間競争、貿易障壁、政府債務を主たる根拠とするものではない。
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Minkä varoituksen Milton Friedman antoi poliittisten toimien arvioimisesta?"
+answer: "Toimia tulisi arvioida niiden tulosten eikä niiden aikomusten perusteella"
+wrong_answers:
+  - "Toimia tulisi arvioida niitä ehdottavien poliitikkojen moraalisen luonteen perusteella"
+  - "Toimia tulisi arvioida sen perusteella, kuinka suosittuja ne ovat yleisen äänestäjäkunnan keskuudessa"
+  - "Toimia tulisi arvioida sen perusteella, ovatko ne linjassa maan alkuperäisen perustuslain kanssa"
+explanation: >-
+  Friedman kirjoitti, että yksi suurimmista virheistä on arvioida toimia niiden aikomusten eikä niiden tulosten perusteella, ja huomautti, että köyhien hyväksi tarkoitetuiksi nimetyt ohjelmat tuottavat lähes aina päinvastaisia vaikutuksia kuin niiden tukijat tarkoittivat. Tämä toistaa Bastiat'n opetuksen, jonka mukaan hyvä taloustieteilijä ottaa huomioon sekä lyhyen että pitkän aikavälin vaikutukset koko väestöön.
+reviewed: false

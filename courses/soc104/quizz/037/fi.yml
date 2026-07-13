@@ -1,0 +1,9 @@
+question: "Miksi poliittisten järjestelmien intentionaalisia määritelmiä pidetään ongelmallisina analyyttisiin tarkoituksiin?"
+answer: "Ne luovat käsitteellistä sekaannusta, koska kaikki järjestelmät väittävät tavoittelevansa samankaltaisia päämääriä, kuten oikeudenmukaisuutta, tasa-arvoa ja vapautta"
+wrong_answers:
+  - "Ne ovat liian täsmällisiä ja jäykkiä eivätkä jätä tilaa poliittisten liikkeiden luonnolliselle kehitykselle ajan myötä"
+  - "Ne keskittyvät liian voimakkaasti taloudellisiin tuloksiin ja sivuuttavat poliittisen elämän kulttuuriset ja sosiaaliset ulottuvuudet"
+  - "Ne perustuvat salaisiin hallitusasiakirjoihin, joita riippumattomilla tutkijoilla on harvoin käytettävissään"
+explanation: >-
+  Intentionaaliset määritelmät perustuvat ilmoitettuihin motiiveihin ja tavoitteisiin, mutta jokainen poliittinen järjestelmä väittää tavoittelevansa oikeudenmukaisuutta, tasa-arvoa ja vapautta. Tämä tekee järjestelmistä mahdottomia erottaa toisistaan. Rakenteellinen analyysi sen sijaan arvioi järjestelmiä niiden empiiristen, mitattavien seurausten ja niiden käyttämien keinojen perusteella, paljastaen niiden todellisen luonteen retoriikan tuolta puolen.
+reviewed: false

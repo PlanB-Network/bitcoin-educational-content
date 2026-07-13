@@ -1,0 +1,9 @@
+question: "anonymous properties සහිත digital currency එකක් අවශ්‍ය බව cypherpunks තර්ක කළේ ඇයි?"
+answer: "primary anonymous transaction system වන cash digital society තුළ අතුරුදහන් වෙමින් තිබෙන නිසා, ඒ සමඟ සමාන privacy properties සහිත digital replacement එකක් invent කළ යුතු බැවින්"
+wrong_answers:
+  - "existing digital payment systems ඉතා මන්දගාමී සහ මිල අධික වූ නිසා, online commerce සඳහා වේගවත් සහ ලාභදායී alternative එකක් අවශ්‍ය වූ බැවින්"
+  - "governments anonymous transactions සියලු ආකාර දැනටමත් ban කර තිබූ නිසා, මෙම laws circumvent කිරීමට නව technology එකක් පමණක් හැකි වූ බැවින්"
+  - "traditional banks සමහර populationsට serve කිරීම ප්‍රතික්ෂේප කළ නිසා, universally accessible digital payment system එකක් economic necessity එකක් වූ බැවින්"
+explanation: >-
+  cypherpunk manifesto එක සඳහන් කරන්නේ open society එකක confidentiality සඳහා anonymous transaction systems අවශ්‍ය බවයි. digital age දක්වා, cash මෙම වර්ගයේ primary system ලෙස සේවය කළේය. නමුත් cash අතුරුදහන් වෙමින් පවතින digital society එකක, anonymity හි එම properties සහිත digital currency එකක් invent කළ යුතුය. මෙම vision එක Bitcoin ලබා දෙන දෙය සෘජුවම anticipate කළේය.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mitä Ludwig von Mises tarkoitti kirjoittaessaan, että vain yksilö ajattelee, päättelee ja toimii?"
+answer: "Että kollektiiveilla, kuten valtiolla tai kansakunnalla, ei ole omaa olemassaoloa yksittäisten jäsentensä toimien ulkopuolella"
+wrong_answers:
+  - "Että yksilöiden pitäisi välttää ryhmien tai yhdistysten muodostamista, koska kollektiivinen toiminta on aina haitallista"
+  - "Että vain tietyt lahjakkaat yksilöt kykenevät rationaaliseen ajatteluun, kun taas useimmat ihmiset seuraavat vaistoa"
+  - "Että ajattelu ja päättely ovat yksityisiä toimintoja, joita ei pitäisi koskaan jakaa tai käsitellä julkisesti"
+explanation: >-
+  Mises selvensi, että individualismi vastustaa käsitystä, jonka mukaan yhteiskunnan tai kansakunnan kaltaiset sosiaaliset entiteetit voisivat olla olemassa riippumatta niitä muodostavista yksilöistä. Kollektiivilla ei ole omaa olemassaoloa yksittäisten jäsentensä toimien ulkopuolella. Emme voi mielekkäästi puhua valtion tai yrityksen toiminnasta, koska näillä entiteeteillä ei ole omaa tahtoa tai ajattelua ja ne toimivat vain yksilöiden kautta.
+reviewed: false

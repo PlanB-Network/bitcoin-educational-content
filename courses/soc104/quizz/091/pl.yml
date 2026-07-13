@@ -1,0 +1,9 @@
+question: "Jaką wiadomość Satoshi Nakamoto umieścił w pierwszym kiedykolwiek wydobytym bloku Bitcoin?"
+answer: "Nagłówek z londyńskiego Timesa o kanclerzu będącym na krawędzi drugiego planu ratunkowego dla banków"
+wrong_answers:
+  - "Cytat Friedricha Hayeka o zagrożeniach centralnego planowania i kontroli rządu nad pieniądzem"
+  - "Deklarację niezależności od wszystkich form rządu i regulacji finansowych na całym świecie"
+  - "Matematyczny dowód pokazujący, że zdecentralizowana waluta jest bardziej efektywna niż pieniądz fiat"
+explanation: >-
+  W bloku genezy Satoshi Nakamoto umieścił symboliczny nagłówek z londyńskiego Timesa: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Było to bezpośrednie odniesienie do kryzysu finansowego 2008 roku i następującego po nim interwencjonizmu monetarnego, czyniąc intencję Bitcoin jednoznaczną jako alternatywę dla scentralizowanych systemów bankowych.
+reviewed: false

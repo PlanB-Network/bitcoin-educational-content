@@ -1,0 +1,9 @@
+question: "Ni nguzo gani tatu za dola ya ustawi ambazo Bitcoin huzipa changamoto?"
+answer: "Mfumo wa fedha za umma, ukiritimba wa fedha wa kufadhili matumizi kupitia deni, na ufuatiliaji wa miamala ili kuzuia matumizi ya sarafu mbadala"
+wrong_answers:
+  - "Bajeti ya kijeshi, mfumo wa elimu ya umma, na miundombinu ya afya inayodhibitiwa na serikali"
+  - "Mfumo wa mahakama, mchakato wa kutunga sheria, na utekelezaji wa kanuni za biashara na mamlaka ya utendaji"
+  - "Mfumo wa hifadhi ya jamii, sheria ya kima cha chini cha mshahara, na muundo wa kodi ya mapato unaopanda kadiri mapato yanavyoongezeka"
+explanation: >-
+  Bitcoin huzipa changamoto nguzo tatu ambazo dola ya ustawi hutegemea. Kwanza, mfumo wa fedha za umma ambao hautoshi kufunika matumizi. Pili, ukiritimba wa fedha, yaani uwezo wa kutoa pesa ili kufadhili matumizi kupitia deni. Tatu, ufuatiliaji wa miamala, uwezo wa kuwazuia watu kutumia sarafu yoyote isipokuwa Fiat iliyolazimishwa na dola. Bitcoin hudhoofisha nguzo zote tatu kwa wakati mmoja.
+reviewed: false

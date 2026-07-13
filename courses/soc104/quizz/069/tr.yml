@@ -1,0 +1,9 @@
+question: "Hannah Arendt'in klasik despotizm ile totalitarizm arasındaki temel ayrımı nedir?"
+answer: "Totalitarizm insanları yalnızca tiranca kurallara tabi kılmakla kalmaz, insanları bağımsız eylemden aciz hâle getirerek siyasetin kendisini olumsuzlar"
+wrong_answers:
+  - "Klasik despotizm ekonomiyi kontrol ederken totalitarizm yalnızca siyasi ve askerî kurumları kontrol eder"
+  - "Totalitarizm, despotizmin yalnızca daha aşırı bir versiyonudur ve ondan sadece baskının ölçeği bakımından ayrılır"
+  - "Klasik despotizm yönetimini meşrulaştırmak için ideolojiyi kullanırken totalitarizm tamamen askerî güce dayanır"
+explanation: >-
+  Arendt, totalitarizmin klasik despotizmden temelden farklı olduğunu savunur. Bu, yalnızca daha aşırı bir tiranlık değil, insanları gereksiz hâle getiren ve bağımsız eylem kapasitelerini yok eden bir sistemdir. Arendt'e göre siyaset, bir halkın kendi kaderini eline alma kapasitesidir; totalitarizm ise bu kapasitenin bizzat olumsuzlanmasıdır ve bu da onu despotizmden niteliksel olarak farklı kılar.
+reviewed: false

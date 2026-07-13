@@ -1,0 +1,9 @@
+question: "Miksi kurssi kuvaa Bitcoinia markkinavaluuttana, joka vastustaa valtion rahaa, eikä oikeistolaisena tai vasemmistolaisena hankkeena?"
+answer: "Koska Bitcoin on vapaaehtoisesti omaksuttu, vaikeasti tuotettava, hajautettu valuutta, joka säilyttää arvonsa, vastakohtana pakottavalle, keskitetylle fiat-rahalle, joka menettää arvoaan, minkä vuoksi jakolinja on markkinat vastaan valtio eikä poliittinen ideologia"
+wrong_answers:
+  - "Koska Bitcoinin loi anonyymi kehittäjä, joka tarkoituksella vältti poliittisia lausuntoja sen tarkoitetusta tarkoituksesta tai filosofiasta"
+  - "Koska Bitcoinin louhinta-algoritmi varmistaa uusien kolikoiden tasaisen jakautumisen kaikille poliittisille puolueille, estäen ideologisen vinouman rahajärjestelmässä"
+  - "Koska Bitcoin toimii identtisesti olemassa olevien fiat-valuuttojen kanssa mutta nopeammassa maksuverkossa, mikä tekee poliittisista erotteluista merkityksettömiä"
+explanation: >-
+  Bitcoin kuvataan rauhanomaisena kapinana rahan politisoitumista vastaan. Valtion raha eli fiat-raha on pakottava, keskitetty järjestelmä, jolla on taipumus menettää arvoaan. Markkinaraha, historiallisesti kulta ja nykyisin Bitcoin, on tervettä, vaikeasti tuotettavaa valuuttaa, joka syntyy vapaaehtoisesti ja säilyttää arvonsa pitkällä aikavälillä. Todellinen vastakkainasettelu ei ole vasemmisto vastaan oikeisto vaan markkinat vastaan valtio, mikä tekee Bitcoinista poliittisen murtuman, joka ylittää perinteiset ideologiset leirit.
+reviewed: false

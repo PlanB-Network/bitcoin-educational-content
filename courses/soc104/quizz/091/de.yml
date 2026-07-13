@@ -1,0 +1,9 @@
+question: "Welche Botschaft fügte Satoshi Nakamoto in den ersten jemals geminten Bitcoin-Block ein?"
+answer: "Eine Schlagzeile der London Times darüber, dass der Schatzkanzler am Rande eines zweiten Bankenrettungspakets stand"
+wrong_answers:
+  - "Ein Zitat von Friedrich Hayek über die Gefahren zentraler Planung und staatlicher Kontrolle über Geld"
+  - "Eine Unabhängigkeitserklärung von allen Formen von Regierung und Finanzregulierung weltweit"
+  - "Ein mathematischer Beweis, der zeigt, dass dezentrale Währung effizienter ist als Fiatgeld"
+explanation: >-
+  Im Genesis-Block fügte Satoshi Nakamoto eine symbolische Schlagzeile der London Times ein: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Dies war ein direkter Verweis auf die Finanzkrise von 2008 und den darauf folgenden monetären Interventionismus und machte Bitcoins Absicht als Alternative zu zentralisierten Bankensystemen unmissverständlich.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Was ist das von Friedrich Hayek beschriebene Konzept der 'spontanen Ordnung'?"
+answer: "Soziale Regeln und Normen sollten aus freien individuellen Interaktionen hervorgehen, statt durch autoritäre Planung aufgezwungen zu werden"
+wrong_answers:
+  - "Märkte neigen von Natur aus zum Monopol, sofern der Staat nicht eingreift, um ein wettbewerbliches Gleichgewicht zu erhalten"
+  - "Demokratische Wahlen sind der einzige legitime Mechanismus zur Festlegung der Gesetze, die die Gesellschaft regieren"
+  - "Wirtschaftskrisen entstehen spontan und erfordern sofortige staatliche Intervention, um Stabilität wiederherzustellen"
+explanation: >-
+  Hayeks Konzept der spontanen Ordnung besagt, dass die Regeln, die die Gesellschaft bestimmen, nicht von oben durch zentrale Planung aufgezwungen werden sollten, sondern aus dem freien Spiel individueller Willen, Verträge und freiwilliger Beziehungen hervorgehen sollten. Dies ist eine grundlegende Achse libertären Denkens. Es impliziert nicht, dass Märkte zum Monopol neigen oder dass Krisen staatliche Intervention erfordern.
+reviewed: false

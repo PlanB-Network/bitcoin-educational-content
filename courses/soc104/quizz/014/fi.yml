@@ -1,0 +1,9 @@
+question: "Miksi kaksiulotteinen malli väittää, että useimmat poliittiset kysymykset voidaan jakaa taloudellisiin ja henkilökohtaisiin kategorioihin?"
+answer: "Koska taloudelliset kysymykset koskevat sitä, mitä teet tuottajana ja kuluttajana, kun taas henkilökohtaiset kysymykset koskevat yksityisiä ihmissuhteitasi, uskomuksiasi ja kehollista itsemääräämistäsi"
+wrong_answers:
+  - "Koska kaikki poliittiset väittelyt palautuvat lopulta erimielisyyksiin verotuksen tasosta ja uskonnollisista käytännöistä"
+  - "Koska hallitukset ovat historiallisesti säännelleet vain kahta asiaa: markkinoita ja armeijaa"
+  - "Koska poliittiset filosofit ovat antiikista lähtien aina erottaneet aineelliset huolet hengellisistä huolista"
+explanation: >-
+  Kaksiulotteinen malli perustuu ajatukseen, että poliittiset kysymykset jakautuvat kahteen laajaan kategoriaan. Taloudelliset vapaudet kattavat tuotannon, kulutuksen, kaupankäynnin, työllisyyden ja rahanhallinnan. Henkilökohtaiset vapaudet kattavat yksityiset ihmissuhteet, mielipiteet, uskomukset sekä omaa kehoa ja mieltä koskevat valinnat. Tämä erottelu mahdollistaa poliittisten kantojen paljon vivahteikkaamman kartoituksen kuin yksi ainoa vasemmisto–oikeisto-akseli.
+reviewed: false

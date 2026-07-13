@@ -1,0 +1,9 @@
+question: "Bagaimana filosofi cypherpunk tentang sentralisasi terhubung dengan prinsip libertarian tentang persetujuan sebagai norma fundamental keadilan?"
+answer: "Cypherpunk memandang semua sentralisasi sebagai didasarkan pada koersi, bukan persetujuan, menggemakan posisi libertarian bahwa tidak ada yang dapat dianggap adil jika dipaksakan oleh otoritas tersentralisasi melalui kekuatan"
+wrong_answers:
+  - "Cypherpunk percaya bahwa sentralisasi dapat diterima ketika disetujui oleh suara mayoritas demokratis, selaras dengan penghormatan libertarian terhadap tata kelola konstitusional"
+  - "Cypherpunk mendukung sentralisasi sementara selama keadaan darurat, mencerminkan pandangan libertarian bahwa hak individu dapat ditangguhkan ketika kolektif terancam"
+  - "Cypherpunk menentang sentralisasi hanya dalam sistem teknologi, sementara menerima sentralisasi politik sebagai hal yang perlu untuk menegakkan hak milik dan kontrak"
+explanation: >-
+  Cypherpunk menaruh kepercayaan pada sistem kriptografis terdesentralisasi, bukan pada institusi tersentralisasi. Semua sentralisasi dipersepsikan sebagai didasarkan pada koersi, bukan persetujuan. Ini secara langsung menggemakan filosofi libertarian bahwa persetujuan adalah norma fundamental keadilan. Tidak ada yang dapat dianggap adil jika dipaksakan oleh otoritas tersentralisasi melalui kekuatan, itulah sebabnya mereka berupaya membangun jaringan terdesentralisasi tempat tidak ada satu entitas pun yang dapat memaksakan kehendaknya.
+reviewed: false

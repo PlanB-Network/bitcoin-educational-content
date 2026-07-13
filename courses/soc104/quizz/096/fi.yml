@@ -1,0 +1,9 @@
+question: "Miten Bitcoin toimii moraalisena hankkeena, jolla on poliittisia seurauksia, eikä poliittisena hankkeena, jolla on moraalisia väitteitä?"
+answer: "Bitcoin suunniteltiin tekemään ihmisistä vapaita eikä rikkaita: se mahdollistaa toimivan omistusoikeuden, suojaa työn arvoa ja säilyttää yksityisyyden, ja nämä ovat moraalisia saavutuksia, jotka tuottavat poliittisia vaikutuksia vaatimatta paikkaa missään poliittisessa leirissä"
+wrong_answers:
+  - "Bitcoin on moraalinen hanke, koska sen koodi panee täytäntöön eettisiä sääntöjä, jotka estävät petoksia, ja sen poliittinen seuraus on demokraattisen hallinnan korvaaminen algoritmisella päätöksenteolla"
+  - "Bitcoin toimii moraalisena hankkeena, koska se jakaa varallisuutta uudelleen rikkailta varhaisille omaksujille, luoden oikeudenmukaisemman yhteiskunnan, jolla on poliittisia vaikutuksia veropolitiikkaan"
+  - "Bitcoin on moraalinen, koska Satoshi Nakamoto sisällytti protokollaan eettisiä käskyjä, ja sen poliittinen seuraus on kaikkien poliittisten perheiden yhdistäminen yhteisen rahajärjestelmän alle"
+explanation: >-
+  Bitcoinia ei suunniteltu tekemään ihmisistä rikkaita vaan tekemään heistä vapaita. Se saavuttaa kolme moraalista lopputulosta: se mahdollistaa toimivan omistusoikeuden (kannustaen vastuullisuuteen), suojaa työn luomaa arvoa (rohkaisten tuottavaan ponnisteluun) ja säilyttää yksityisyyden (antaen ihmisten elää ilman pelkoa). Nämä ovat moraalisia saavutuksia, joilla on poliittisia seurauksia kuulumatta mihinkään poliittiseen leiriin, mikä tekee siitä ensisijaisesti moraalisen hankkeen ja vasta toissijaisesti poliittisen.
+reviewed: false

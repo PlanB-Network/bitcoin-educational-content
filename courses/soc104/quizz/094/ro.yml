@@ -1,0 +1,9 @@
+question: "De ce este inflația monetară descrisă ca un impozit ascuns impus fără consimțământul cetățenilor?"
+answer: "Pentru că crearea de bani de către guvern devalorizează moneda, astfel încât oamenii pot cumpăra mai puțin cu aceeași sumă, dar cei mai mulți nu realizează că prețurile în creștere reflectă politica guvernamentală, nu forțe naturale ale pieței"
+wrong_answers:
+  - "Pentru că băncile centrale percep în secret comisioane pentru fiecare tranzacție procesată prin sistemul bancar fără a le dezvălui titularilor de cont"
+  - "Pentru că guvernele tipăresc bani și îi distribuie doar persoanelor bogate, taxându-i pe cei săraci prin taxe de vânzare mai mari asupra bunurilor esențiale"
+  - "Pentru că inflația este cauzată de corporații private care cresc prețurile pentru a-și mări profiturile, ceea ce funcționează ca un impozit neoficial asupra consumatorilor"
+explanation: >-
+  Injectarea de bani în sistem se traduce prin devalorizarea monedei, în care aceeași sumă cumpără mai puțin deoarece banii noi nu reflectă o creștere economică autentică. Cei mai mulți oameni nu văd că politica guvernamentală a dus la creșterea prețurilor, care sunt pur și simplu reflectarea devalorizării monedei. Aceasta echivalează cu furt legal și spoliere instituționalizată, sărăcind clasa de mijloc în timp ce cei bogați captează banii noi prin active speculative.
+reviewed: false

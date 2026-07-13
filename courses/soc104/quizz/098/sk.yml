@@ -1,0 +1,9 @@
+question: "Prečo cypherpunkovia tvrdili, že digitálna mena s anonymnými vlastnosťami je nevyhnutná?"
+answer: "Pretože hotovosť, hlavný anonymný transakčný systém, v digitálnej spoločnosti mizne a treba vymyslieť digitálnu náhradu s rovnakými vlastnosťami súkromia"
+wrong_answers:
+  - "Pretože existujúce digitálne platobné systémy boli príliš pomalé a drahé, čo si vyžadovalo rýchlejšiu a lacnejšiu alternatívu pre online obchod"
+  - "Pretože vlády už zakázali všetky formy anonymných transakcií a iba nová technológia mohla tieto zákony obísť"
+  - "Pretože tradičné banky odmietali obsluhovať určité skupiny obyvateľstva, čím sa univerzálne dostupný digitálny platobný systém stal ekonomickou nevyhnutnosťou"
+explanation: >-
+  Cypherpunkový manifest uvádza, že dôvernosť v otvorenej spoločnosti vyžaduje anonymné transakčné systémy. Až do digitálneho veku slúžila hotovosť ako hlavný systém tohto typu. No v digitálnej spoločnosti, v ktorej hotovosť mizne, treba vymyslieť digitálnu menu s rovnakými vlastnosťami anonymity. Táto vízia priamo predjímala to, čo mal dosiahnuť Bitcoin.
+reviewed: false

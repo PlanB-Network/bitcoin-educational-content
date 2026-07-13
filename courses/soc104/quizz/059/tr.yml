@@ -1,0 +1,9 @@
+question: "John Rawls'un iki adalet ilkesi nedir?"
+answer: "Herkes için eşit özgürlük ve eşitsizliklere yalnızca en dezavantajlılara fayda sağladıkları takdirde izin veren fark ilkesi"
+wrong_answers:
+  - "Tüm vatandaşlar için genel oy hakkı ve kamu hizmetlerini finanse etmek için artan oranlı vergilendirme"
+  - "Kısıtlama olmaksızın ifade özgürlüğü ve eşitliği sağlamak için zorunlu servet yeniden dağıtımı"
+  - "Özel mülkiyet haklarının korunması ve tüm devlet eylemlerine uygulanan saldırmazlık ilkesi"
+explanation: >-
+  Rawls iki ilke önerir: birincisi herkes için eşit özgürlük (demokrasinin temeli), ikincisi ise eşitsizliklere yalnızca toplumun en dezavantajlı üyelerine fayda sağladıkları takdirde izin veren fark ilkesidir. Bu, yeniden dağıtım en az avantajlıların da faydalanmasını sağladığı sürece kişinin zenginleşme hakkına sahip olduğu anlamına gelir. Diğer seçenekler farklı siyaset felsefelerinden unsurları karıştırır.
+reviewed: false

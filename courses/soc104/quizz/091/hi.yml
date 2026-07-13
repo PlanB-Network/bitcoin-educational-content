@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto ने fiat currencies के साथ कौन-सी fundamental problem identify की?"
+answer: "वे central bank पर trust require करती हैं कि वह currency को devalue न करे, लेकिन fiat currencies का इतिहास इस trust के violations से भरा है"
+wrong_answers:
+  - "वे everyday transactions के लिए use करना बहुत difficult हैं क्योंकि physical cash जल्दी घिस जाता है और produce करना expensive है"
+  - "उन्हें internationally transfer नहीं किया जा सकता क्योंकि हर country के monetary standards और regulations incompatible हैं"
+  - "वे gold reserves से backed हैं जो circulation में total money supply को cover करने के लिए insufficient हैं"
+explanation: >-
+  Satoshi Nakamoto ने कहा कि conventional currencies के साथ fundamental problem वह trust है जो उनके काम करने के लिए required है। Fiat currencies किसी commodity से backed नहीं होतीं, बल्कि पूरी तरह institutional authority पर rest करती हैं। जब कोई institution money पर total control रखती है, तो abuse करने का temptation बहुत strong हो जाता है, और इतिहास ने currency devaluation के through इसे बार-बार दिखाया है।
+reviewed: false

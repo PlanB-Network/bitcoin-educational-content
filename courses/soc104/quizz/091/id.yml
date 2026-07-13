@@ -1,0 +1,9 @@
+question: "Apa masalah mendasar dengan mata uang fiat yang diidentifikasi Satoshi Nakamoto?"
+answer: "Mata uang tersebut memerlukan kepercayaan kepada bank sentral agar tidak mendevaluasi mata uang, tetapi sejarah mata uang fiat penuh dengan pelanggaran terhadap kepercayaan ini"
+wrong_answers:
+  - "Mata uang tersebut terlalu sulit digunakan untuk transaksi sehari-hari karena uang tunai fisik cepat aus dan mahal untuk diproduksi"
+  - "Mata uang tersebut tidak dapat ditransfer secara internasional karena setiap negara memiliki standar moneter dan regulasi yang tidak kompatibel"
+  - "Mata uang tersebut didukung oleh cadangan emas yang tidak cukup untuk menutupi total pasokan uang yang beredar"
+explanation: >-
+  Satoshi Nakamoto menyatakan bahwa masalah mendasar dengan mata uang konvensional adalah kepercayaan yang dibutuhkan agar mata uang tersebut bekerja. Mata uang fiat tidak didukung oleh komoditas, tetapi sepenuhnya bertumpu pada otoritas institusional. Ketika sebuah institusi memegang kendali total atas uang, godaan untuk menyalahgunakannya terlalu kuat, dan sejarah telah menunjukkan hal ini berulang kali melalui devaluasi mata uang.
+reviewed: false

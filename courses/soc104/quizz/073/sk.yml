@@ -1,0 +1,9 @@
+question: "Čo je pojem „morálny hazard“ v kontexte debaty o dotáciách a ktorá politická rodina túto obavu vznáša?"
+answer: "Morálny hazard je motivácia k nezodpovednosti, keď sa firmám prostredníctvom dotácií zabraňuje zlyhať, pretože napokon platí daňovník; túto obavu vznášajú libertariáni"
+wrong_answers:
+  - "Morálny hazard je riziko, že dotované firmy sa presťahujú do krajín s nižšími daňami a vezmú so sebou pracovné miesta; túto obavu vznášajú konzervatívci"
+  - "Morálny hazard je nebezpečenstvo, že vládni úradníci sa skorumpujú tým, že budú vyberať, ktoré firmy dostanú dotácie; túto obavu vznášajú centristi"
+  - "Morálny hazard je etický problém firiem vykorisťujúcich pracovníkov po prijatí verejných prostriedkov; túto obavu vznášajú socialisti"
+explanation: >-
+  Libertariáni tvrdia, že dotácie a záchranné balíky vytvárajú morálny hazard: keď sa firmám zabraňuje zlyhať, motivuje to k nezodpovednosti a bezohľadnosti, pretože za zlé rozhodnutia neexistujú dôsledky. Nakoniec platí daňovník, čo libertariáni považujú za hlboko nespravodlivé. Tento pojem sa líši od obáv z presunu firiem, úradnej korupcie alebo vykorisťovania pracovníkov, ktoré vznášajú iné politické rodiny.
+reviewed: false

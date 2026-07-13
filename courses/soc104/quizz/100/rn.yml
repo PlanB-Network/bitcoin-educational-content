@@ -1,0 +1,9 @@
+question: "Filozofiya ya cypherpunk ku bijanye n'ugushira ububasha hagati ihura gute n'ingingo y'abaharanira umwidegemvyo ivuga ko ukwemera ari ryo hame ry'ishimikiro ry'ubutungane?"
+answer: "Aba cypherpunks babona ugushira ububasha hagati kwose nk'ukwubakiye ku gahato aho kwubakira ku kwemera, bigasubiramwo iciyumviro c'abaharanira umwidegemvyo kivuga ko ata kintu gishobora kuba kibereye iyo gishizweho n'ubutegetsi bushizwe hamwe biciye ku nguvu"
+wrong_answers:
+  - "Aba cypherpunks bemera ko ugushira ububasha hagati kwemewe iyo kwemejwe n'amajwi menshi ya demokarasi, bigahuza n'icubahiro c'abaharanira umwidegemvyo ku butegetsi bugendera kw'ibwirizwa nshingiro"
+  - "Aba cypherpunks bashigikira ugushira ububasha hagati kw'igihe gito mu bihe vy'ingorane, bikerekana iciyumviro c'abaharanira umwidegemvyo kivuga ko uburenganzira bw'umuntu bushobora guhagarikwa igihe umugwi wose ubangamiwe"
+  - "Aba cypherpunks barwanya ugushira ububasha hagati gusa mu buryo bw'ubuhinga, ariko bakemera ko ugushira ubutegetsi bwa politike hagati gukenewe kugira ngo hashirwe mu ngiro uburenganzira bw'itunga n'amasezerano"
+explanation: >-
+  Aba cypherpunks bashira icizere mu buryo bwa cryptography butagizwe n'ikigo kimwe aho kugishira mu bigo bishizwe hamwe. Ugushira ububasha hagati kwose kubonwa nk'ukwubakiye ku gahato aho kwubakira ku kwemera. Ivyo bihuye ata guca ku ruhande na filozofiya y'abaharanira umwidegemvyo ivuga ko ukwemera ari ryo hame ry'ishimikiro ry'ubutungane. Ata kintu gishobora kuba kibereye iyo gishizweho n'ubutegetsi bushizwe hamwe biciye ku nguvu; ni co catumye barondera kwubaka networks zitagizwe n'ikigo kimwe aho ata rwego rumwe rushobora gushira ku bandi ugushaka kwarwo.
+reviewed: false

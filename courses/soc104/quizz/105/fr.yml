@@ -1,0 +1,9 @@
+question: "Qui a lancé la première liste de diffusion cypherpunk en 1992 ?"
+answer: "Tim May et Eric Hughes, qui ont créé une plateforme devenue le centre névralgique du mouvement"
+wrong_answers:
+  - "Satoshi Nakamoto et Hal Finney, qui allaient plus tard créer Bitcoin ensemble en 2008"
+  - "Julian Assange et Edward Snowden, qui ont utilisé la liste pour coordonner des activités de lanceurs d'alerte contre le gouvernement"
+  - "Phil Zimmermann et Bruce Schneier, qui ont conçu la liste comme un outil de distribution de logiciels de chiffrement"
+explanation: >-
+  En 1992, Tim May et Eric Hughes ont lancé la première liste de diffusion cypherpunk. Cette plateforme est rapidement devenue le centre névralgique du mouvement, rassemblant développeurs, cryptographes et défenseurs de la liberté numérique. C'est sur cette même liste que Satoshi Nakamoto partagerait plus tard le livre blanc de Bitcoin pour la première fois en 2008.
+reviewed: false

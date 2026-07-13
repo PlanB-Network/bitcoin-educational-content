@@ -1,0 +1,9 @@
+question: "Arvestades selle kursuse kogu argumenti, kuidas kehastab Bitcoin samaaegselt libertaarset konstruktivismi kriitikat, cypherpunki pühendumust tegevusele ja individualistlikku moraalse autonoomia kaitset?"
+answer: "Bitcoin asendab keskselt planeeritud raha spontaanse turukorraga (antikonstruktivism), muudab finantsvabaduse abstraktse ideaali toimivaks koodiks (cypherpunki tegevus) ning taastab üksikisikule suveräänse omandi ja privaatsuse (moraalne autonoomia)"
+wrong_answers:
+  - "Bitcoin kasutab demokraatlikku valitsemist rahapoliitika kehtestamiseks (antikonstruktivism), avaldab hariduslikku sisu finantsvabaduse kohta (cypherpunki tegevus) ja lubab üksikisikutel hääletada protokollimuudatuste üle (moraalne autonoomia)"
+  - "Bitcoin kõrvaldab kogu finantsregulatsiooni (antikonstruktivism), loob arendajate kogukonna, kes lobistab dereguleerimise eest (cypherpunki tegevus), ja annab jõukatele üksikisikutele suurema kontrolli rahapoliitika üle (moraalne autonoomia)"
+  - "Bitcoin detsentraliseerib serveritaristu mitme riigi vahel (antikonstruktivism), kasutab avatud lähtekoodiga litsentsimist tehnoloogia vabaks jagamiseks (cypherpunki tegevus) ja pakub anonüümseid sotsiaalmeediaplatvorme poliitiliseks dissidentluseks (moraalne autonoomia)"
+explanation: >-
+  Bitcoin asub kolme kursusel käsitletud intellektuaalse traditsiooni ristumiskohas. See kehastab antikonstruktivistlikku argumenti, asendades keskselt planeeritud Fiat-raha spontaanse, detsentraliseeritud rahakorraga, mida ükski keskne planeerija ei saa kontrollida. See täidab cypherpunki imperatiivi kirjutada koodi, muutes finantsvabaduse ja privaatsuse abstraktsed ideaalid toimivaks tehnoloogiaks. Ning see teenib individualistlikku moraalse autonoomia kaitset, võimaldades suveräänset omandit, kaitstes töö vilju ja säilitades privaatsust, lastes igal inimesel olla omaenda elu peremees.
+reviewed: false

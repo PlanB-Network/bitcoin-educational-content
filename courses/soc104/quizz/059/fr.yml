@@ -1,0 +1,9 @@
+question: "Quel paradoxe caché se trouve au sein du pragmatisme centriste ?"
+answer: "Le pragmatisme lui-même repose sur une forme de dogmatisme, à savoir la conviction inexprimée que seuls les experts sont compétents pour orienter la société"
+wrong_answers:
+  - "Les centristes prétendent être modérés mais s'alignent systématiquement sur les partis de gauche dans les gouvernements de coalition"
+  - "Les politiques centristes paraissent équilibrées mais favorisent toujours la croissance économique au détriment de la protection de l'environnement"
+  - "Les centristes rejettent l'idéologie mais adoptent des principes rigides de marché libre lorsqu'ils prennent des décisions économiques"
+explanation: >-
+  Le paradoxe du pragmatisme centriste est qu'il prétend rejeter l'idéologie au profit de l'expertise rationnelle, alors même que cette prétention repose sur un dogme invisible et inexprimé : seuls les technocrates seraient capables de prendre les bonnes décisions. Cette conviction selon laquelle les experts seuls devraient orienter la société est elle-même un engagement idéologique, même si les centristes ne la reconnaissent pas comme telle.
+reviewed: false

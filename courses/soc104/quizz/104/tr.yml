@@ -1,0 +1,9 @@
+question: "Bu dersin tüm argümanı dikkate alındığında, Bitcoin liberteryen inşacılık eleştirisini, Cypherpunk eylem bağlılığını ve ahlaki özerkliğin bireyci savunusunu aynı anda nasıl somutlaştırır?"
+answer: "Bitcoin merkezi planlanmış parayı kendiliğinden bir piyasa düzeniyle değiştirir (inşacılık karşıtlığı), finansal özgürlüğün soyut idealini çalışan koda dönüştürür (Cypherpunk eylemi) ve egemen mülkiyeti ve mahremiyeti bireye geri verir (ahlaki özerklik)"
+wrong_answers:
+  - "Bitcoin para politikasını belirlemek için demokratik yönetişim kullanır (inşacılık karşıtlığı), finansal özgürlük hakkında eğitim içeriği yayımlar (Cypherpunk eylemi) ve bireylerin protokol değişiklikleri üzerinde oy kullanmasına izin verir (ahlaki özerklik)"
+  - "Bitcoin tüm finansal düzenlemeleri ortadan kaldırır (inşacılık karşıtlığı), düzenlemeden arındırma için lobi yapan bir geliştirici topluluğu yaratır (Cypherpunk eylemi) ve varlıklı bireylere para politikası üzerinde daha fazla kontrol verir (ahlaki özerklik)"
+  - "Bitcoin sunucu altyapısını birden çok ülkeye dağıtarak merkeziyetsizleştirir (inşacılık karşıtlığı), teknolojiyi özgürce paylaşmak için açık kaynak lisanslama kullanır (Cypherpunk eylemi) ve siyasi muhalefet için anonim sosyal medya platformları sağlar (ahlaki özerklik)"
+explanation: >-
+  Bitcoin, derste incelenen üç entelektüel geleneğin kesişiminde yer alır. Merkezi planlanmış fiat parayı hiçbir merkezi planlayıcının kontrol edemeyeceği kendiliğinden, merkeziyetsiz bir parasal düzenle değiştirerek inşacılık karşıtı argümanı somutlaştırır. Finansal özgürlük ve mahremiyetin soyut ideallerini çalışan teknolojiye dönüştürerek Cypherpunkların kod yazma buyruğunu yerine getirir. Ayrıca egemen mülkiyeti mümkün kılarak, emeğin meyvelerini koruyarak ve mahremiyeti muhafaza ederek ahlaki özerkliğin bireyci savunusuna hizmet eder; her kişinin kendi hayatının efendisi olmasını sağlar.
+reviewed: false

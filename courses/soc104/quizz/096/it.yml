@@ -1,0 +1,9 @@
+question: "Qual è il messaggio centrale del Manifesto Cypherpunk di Eric Hughes del 1993 riguardo alla privacy?"
+answer: "La privacy è essenziale per una società aperta nell'era elettronica, e gli individui devono costruirla da sé invece di aspettarsi che governi o aziende la garantiscano"
+wrong_answers:
+  - "La privacy è un lusso che deve essere sacrificato in cambio della sicurezza nazionale e della protezione delle istituzioni democratiche"
+  - "La privacy dovrebbe essere regolata da trattati internazionali che stabiliscano standard uniformi per la protezione dei dati in tutti i paesi"
+  - "La privacy è importante solo per criminali e dissidenti, mentre i cittadini rispettosi della legge traggono beneficio da sistemi di sorveglianza trasparenti"
+explanation: >-
+  Il manifesto di Eric Hughes del 1993 afferma che la privacy è essenziale per una società aperta nell'era elettronica e che non possiamo aspettarci che governi, aziende o altre grandi organizzazioni la garantiscano. La motivazione fondamentale è che la riservatezza è un elemento chiave della libertà e deve essere costruita dagli individui stessi, non attesa come un dono dalle istituzioni.
+reviewed: false

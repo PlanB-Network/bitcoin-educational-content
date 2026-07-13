@@ -1,0 +1,9 @@
+question: "Care dintre următoarele este un exemplu de ordine spontană, așa cum este descrisă de Hayek?"
+answer: "Limba, care s-a dezvoltat organic prin interacțiuni istorice, nu fiind proiectată de intelectuali într-un birou"
+wrong_answers:
+  - "O constituție națională, care a fost redactată cu grijă de reprezentanți aleși pentru a stabili reguli sociale"
+  - "Un plan guvernamental de stimulare, care a fost conceput de economiști pentru a coordona activitatea economică"
+  - "Un sistem public de educație, care a fost creat de legislatori pentru a asigura accesul universal la cunoaștere"
+explanation: >-
+  Hayek descrie ordinea spontană ca produsul interacțiunilor libere din societate, rezultat din acțiunea umană, dar nu din proiectarea deliberată a omului. Limba este un exemplu principal: franceza, engleza și germana nu au fost construite de intelectuali care să decidă regulile gramaticale, ci au apărut ca rod al unei organizări lente, organice, construite prin interacțiuni istorice.
+reviewed: false

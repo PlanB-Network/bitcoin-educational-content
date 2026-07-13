@@ -1,0 +1,9 @@
+question: "Siyasi sistemlerin niyete dayalı tanımları analitik amaçlar için neden sorunlu kabul edilir?"
+answer: "Kavramsal karışıklık yaratırlar çünkü tüm sistemler adalet, eşitlik ve özgürlük gibi benzer hedefleri izlediğini iddia eder"
+wrong_answers:
+  - "Fazla kesin ve katıdırlar; siyasi hareketlerin zaman içinde doğal evrimine yer bırakmazlar"
+  - "Ekonomik sonuçlara aşırı odaklanır ve siyasi yaşamın kültürel ve toplumsal boyutlarını görmezden gelirler"
+  - "Bağımsız araştırmacıların nadiren erişebildiği gizli devlet belgelerine dayanırlar"
+explanation: >-
+  Niyete dayalı tanımlar beyan edilmiş motivasyonlara ve hedeflere dayanır, ancak her siyasi sistem adalet, eşitlik ve özgürlüğü izlediğini iddia eder. Bu da sistemleri birbirinden ayırt etmeyi imkânsız hale getirir. Buna karşılık yapısal analiz, sistemleri ampirik, ölçülebilir sonuçlarına ve kullandıkları araçlara göre değerlendirir; retoriğin ötesindeki gerçek doğalarını ortaya koyar.
+reviewed: false

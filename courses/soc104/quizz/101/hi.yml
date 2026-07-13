@@ -1,0 +1,9 @@
+question: "Cypherpunks ने क्यों argue किया कि anonymous properties वाली digital currency necessary थी?"
+answer: "क्योंकि cash, primary anonymous transaction system, digital society में disappear हो रहा है, और same privacy properties वाला digital replacement invent किया जाना चाहिए"
+wrong_answers:
+  - "क्योंकि existing digital payment systems बहुत slow और expensive थे, online commerce के लिए faster और cheaper alternative require करते थे"
+  - "क्योंकि governments ने पहले ही anonymous transactions के सभी forms ban कर दिए थे और केवल new technology ही इन laws को circumvent कर सकती थी"
+  - "क्योंकि traditional banks कुछ populations को serve करने से refuse करते थे, जिससे universally accessible digital payment system economic necessity बन गया"
+explanation: >-
+  Cypherpunk manifesto कहता है कि open society में confidentiality anonymous transaction systems require करती है। Digital age तक, cash इस type का primary system था। लेकिन digital society में जहाँ cash disappear हो रहा है, anonymity की same properties वाली digital currency invent की जानी चाहिए। यह vision सीधे anticipate करती थी कि Bitcoin क्या achieve करेगा।
+reviewed: false

@@ -1,0 +1,9 @@
+question: "K čemu Kantovo motto 'Sapere aude' lidi povzbuzuje?"
+answer: "Aby se odvážili myslet sami za sebe a opustili stav nezletilosti, v němž závisejí na vedení nadřazené autority"
+wrong_answers:
+  - "Aby usilovali o akademické poznání zápisem do formálních vzdělávacích institucí a získáváním kvalifikací"
+  - "Aby zpochybnili všechny formy morálky a vytvořili zcela nové etické systémy založené na osobní touze"
+  - "Aby hledali moudrost prostřednictvím náboženské oddanosti a podřízení se učení církve"
+explanation: >-
+  Sapere aude, znamenající "Odvaž se myslet sám za sebe", převzal Kant od básníka Horatia a učinil z něj motto osvícenství. Symbolizuje odchod z nezletilosti, stavu, v němž lidé nejsou schopni používat vlastní rozum bez vedení nadřazené třídy nebo autority. Kant povzbuzuje k emancipaci a plné odpovědnosti za vlastní myšlení.
+reviewed: false

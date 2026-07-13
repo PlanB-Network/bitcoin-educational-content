@@ -1,0 +1,9 @@
+question: "Jaki fundamentalny problem z walutami fiat zidentyfikował Satoshi Nakamoto?"
+answer: "Wymagają zaufania do banku centralnego, że nie zdewaluuje waluty, ale historia walut fiat jest pełna naruszeń tego zaufania"
+wrong_answers:
+  - "Są zbyt trudne w użyciu do codziennych transakcji, ponieważ fizyczna gotówka szybko się zużywa i jest droga w produkcji"
+  - "Nie można ich przekazywać międzynarodowo, ponieważ każdy kraj ma niekompatybilne standardy monetarne i regulacje"
+  - "Są zabezpieczone rezerwami złota, które są niewystarczające, aby pokryć całkowitą podaż pieniądza w obiegu"
+explanation: >-
+  Satoshi Nakamoto stwierdził, że fundamentalnym problemem walut konwencjonalnych jest zaufanie wymagane, aby działały. Waluty fiat nie są zabezpieczone towarem, lecz opierają się całkowicie na autorytecie instytucjonalnym. Gdy instytucja posiada całkowitą kontrolę nad pieniądzem, pokusa nadużycia jest zbyt silna, a historia wielokrotnie pokazała to przez dewaluację walut.
+reviewed: false

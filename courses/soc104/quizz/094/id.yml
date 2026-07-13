@@ -1,0 +1,9 @@
+question: "Apa pesan inti Cypherpunk Manifesto karya Eric Hughes tahun 1993 terkait privacy?"
+answer: "Privacy sangat penting bagi masyarakat terbuka di era elektronik, dan individu harus membangunnya sendiri alih-alih mengharapkan pemerintah atau korporasi untuk menjaminnya"
+wrong_answers:
+  - "Privacy adalah kemewahan yang harus dikorbankan demi keamanan nasional dan perlindungan institusi demokratis"
+  - "Privacy seharusnya diatur oleh perjanjian internasional yang menetapkan standar seragam untuk perlindungan data di semua negara"
+  - "Privacy hanya penting bagi penjahat dan pembangkang, sementara warga yang taat hukum memperoleh manfaat dari sistem pengawasan yang transparan"
+explanation: >-
+  Manifesto Eric Hughes tahun 1993 menyatakan bahwa privacy sangat penting bagi masyarakat terbuka di era elektronik dan bahwa kita tidak dapat mengharapkan pemerintah, korporasi, atau organisasi besar lain untuk menjaminnya. Motivasi mendasarnya adalah bahwa kerahasiaan merupakan elemen kunci kebebasan dan harus dibangun oleh individu itu sendiri, bukan ditunggu sebagai hadiah dari institusi.
+reviewed: false

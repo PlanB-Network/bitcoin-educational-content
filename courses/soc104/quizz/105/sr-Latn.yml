@@ -1,0 +1,9 @@
+question: "Zašto kurs opisuje Bitcoin kao tržišnu valutu suprotstavljenu državnom novcu, a ne kao desničarski ili levičarski projekat?"
+answer: "Zato što je Bitcoin dobrovoljno usvojena, teško proizvediva, decentralizovana valuta koja zadržava vrednost, nasuprot prinudnom, centralizovanom fiat novcu koji gubi vrednost, čineći podelu pitanjem tržišta naspram države, a ne političke ideologije"
+wrong_answers:
+  - "Zato što je Bitcoin stvorio anonimni programer koji je namerno izbegavao da daje bilo kakve političke izjave o njegovoj nameni ili filozofiji"
+  - "Zato što Bitcoin-ov rudarski algoritam obezbeđuje jednaku raspodelu novih novčića svim političkim partijama, sprečavajući bilo kakvu ideološku pristrasnost u monetarnom sistemu"
+  - "Zato što Bitcoin funkcioniše identično postojećim fiat valutama, ali radi na bržoj platnoj mreži, čineći političke razlike irelevantnim"
+explanation: >-
+  Bitcoin je opisan kao mirna pobuna protiv politizacije novca. Državni ili fiat novac je prinudni, centralizovani sistem koji ima tendenciju da gubi vrednost. Tržišni novac, istorijski predstavljen zlatom, a trenutno Bitcoin-om, jeste zdrava, teško proizvediva valuta koja nastaje dobrovoljno i zadržava svoju vrednost dugoročno. Stvarna suprotnost nije levo naspram desno, već tržište naspram države, čineći Bitcoin političkim raskidom koji nadilazi tradicionalne ideološke tabore.
+reviewed: false

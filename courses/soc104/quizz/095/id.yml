@@ -1,0 +1,9 @@
+question: "Bagaimana Bitcoin berfungsi sebagai proyek moral dengan konsekuensi politik, bukan proyek politik dengan klaim moral?"
+answer: "Bitcoin dirancang untuk membuat orang bebas, bukan kaya, dengan memungkinkan properti yang efektif, melindungi nilai kerja, dan menjaga privacy, yang merupakan pencapaian moral yang menghasilkan efek politik tanpa mengklaim kubu politik mana pun"
+wrong_answers:
+  - "Bitcoin adalah proyek moral karena kodenya menegakkan aturan etis yang mencegah penipuan, dan konsekuensi politiknya adalah menggantikan tata kelola demokratis dengan pengambilan keputusan algoritmik"
+  - "Bitcoin berfungsi sebagai proyek moral karena mendistribusikan ulang kekayaan dari orang kaya kepada early adopter, menciptakan masyarakat yang lebih adil dengan implikasi politik bagi kebijakan pajak"
+  - "Bitcoin itu moral karena Satoshi Nakamoto menyisipkan perintah-perintah etis ke dalam protokol, dan konsekuensi politiknya adalah menyatukan semua keluarga politik di bawah sistem moneter bersama"
+explanation: >-
+  Bitcoin tidak dirancang untuk membuat orang kaya, tetapi untuk membuat mereka bebas. Bitcoin mencapai tiga hasil moral: memungkinkan properti yang efektif (memberi insentif pada tanggung jawab), melindungi nilai yang diciptakan oleh kerja (mendorong upaya produktif), dan menjaga privacy (memungkinkan orang hidup tanpa rasa takut). Ini adalah pencapaian moral yang membawa konsekuensi politik tanpa menjadi milik kubu politik mana pun, sehingga Bitcoin pertama-tama adalah proyek moral dan baru kemudian politik.
+reviewed: false

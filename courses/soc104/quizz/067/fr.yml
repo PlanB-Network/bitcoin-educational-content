@@ -1,0 +1,9 @@
+question: "Quelle est la position conservatrice sur l'immigration ?"
+answer: "L'État a le droit souverain de contrôler ses frontières afin de protéger la sécurité nationale et l'identité culturelle"
+wrong_answers:
+  - "Les frontières devraient être ouvertes sans condition, car les restrictions discriminatoires violent les droits humains"
+  - "L'immigration devrait être déterminée par la demande du marché, les citoyens décidant contractuellement de leurs relations avec les étrangers"
+  - "La politique d'immigration devrait équilibrer les besoins économiques et une intégration réussie sur la base d'une évaluation par des experts"
+explanation: >-
+  Les conservateurs considèrent que l'ordre, l'identité et la souveraineté nationale doivent primer sur l'accueil sans restriction des étrangers ou des réfugiés. Les frontières et une population bien définie font partie des valeurs civilisées. Les mauvaises réponses représentent la position socialiste (frontières ouvertes au nom des droits humains), la position libertarienne (immigration fondée sur le marché) et la position centriste (approche équilibrée pilotée par des experts).
+reviewed: false

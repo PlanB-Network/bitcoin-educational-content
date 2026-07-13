@@ -1,0 +1,9 @@
+question: "Kwa nini cypherpunks walidai kwamba sarafu ya kidijitali yenye sifa za kutokutambulisha wahusika ilikuwa muhimu?"
+answer: "Kwa sababu pesa taslimu, mfumo mkuu wa miamala isiyotambulisha wahusika, zinatoweka katika jamii ya kidijitali, na mbadala wa kidijitali wenye sifa zilezile za faragha lazima ubuniwe"
+wrong_answers:
+  - "Kwa sababu mifumo iliyopo ya malipo ya kidijitali ilikuwa polepole mno na ghali, hivyo ikahitaji mbadala wa haraka na nafuu zaidi kwa biashara ya mtandaoni"
+  - "Kwa sababu serikali tayari zilikuwa zimepiga marufuku aina zote za miamala isiyotambulisha wahusika na ni teknolojia mpya tu ingeweza kuzikwepa sheria hizi"
+  - "Kwa sababu benki za jadi zilikataa kuwahudumia watu fulani, na kuufanya mfumo wa malipo wa kidijitali unaofikiwa na wote kuwa hitaji la kiuchumi"
+explanation: >-
+  Manifesto ya cypherpunk inasema kwamba usiri katika jamii iliyo wazi huhitaji mifumo ya miamala isiyotambulisha wahusika. Hadi zama za kidijitali, pesa taslimu zilitumika kama mfumo mkuu wa aina hii. Lakini katika jamii ya kidijitali ambako pesa taslimu zinatoweka, sarafu ya kidijitali yenye sifa zilezile za kutokutambulisha wahusika lazima ibuniwe. Maono haya yalitangulia moja kwa moja kile ambacho Bitcoin ingefanikisha.
+reviewed: false

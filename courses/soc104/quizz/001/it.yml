@@ -1,0 +1,9 @@
+question: "Da dove nasce la divisione politica sinistra-destra?"
+answer: "Dalla disposizione dei posti durante i dibattiti della Rivoluzione francese del 1789"
+wrong_answers:
+  - "Dagli scritti di Karl Marx e Adam Smith nel XIX secolo"
+  - "Dalla Guerra civile americana tra gli stati del Nord e del Sud"
+  - "Dai filosofi dell'Illuminismo che separarono la ragione dalla tradizione"
+explanation: >-
+  La divisione sinistra-destra risale al 1789, quando i deputati dell'Assemblea nazionale francese favorevoli a mantenere il potere del re sedevano alla destra del presidente, mentre quelli che volevano limitarne i poteri sedevano a sinistra. Non ebbe origine da Marx e Smith, dalla Guerra civile americana o dalla filosofia dell'Illuminismo.
+reviewed: false

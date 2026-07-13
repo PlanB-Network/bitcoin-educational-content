@@ -1,0 +1,9 @@
+question: "Vad omfattar kategorin personlig frihet?"
+answer: "Det du gör i dina privata relationer, med dina åsikter, övertygelser och allt som rör din egen kropp och ditt eget sinne"
+wrong_answers:
+  - "Det du gör som producent, inklusive att starta ett företag, anställa medarbetare och handla med varor"
+  - "Hur mycket skatt du betalar, vilka investeringar du gör och hur du förvaltar dina finansiella tillgångar"
+  - "Din förmåga att konkurrera på marknaden, sätta priser för dina produkter och välja dina leverantörer"
+explanation: >-
+  Personlig frihet omfattar det du gör i dina privata relationer, med dina åsikter och övertygelser, och allt som rör din egen kropp och ditt eget sinne. Detta inkluderar äktenskap, läsval, religiösa praktiker, val av mat och medicin samt vilka du umgås med. Affärsverksamhet, skatter och marknadsbeslut faller under ekonomisk frihet.
+reviewed: false

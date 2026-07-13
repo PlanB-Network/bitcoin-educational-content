@@ -1,0 +1,9 @@
+question: "Kuidas seostub cypherpunki filosoofia tsentraliseerimise kohta libertaarse põhimõttega, et nõusolek on õigluse põhinorm?"
+answer: "Cypherpunks'id näevad kogu tsentraliseerimist rajatuna pigem sunnile kui nõusolekule, kajastades libertaarset seisukohta, et miski ei saa olla õiglane, kui see kehtestatakse tsentraliseeritud võimu poolt jõu abil"
+wrong_answers:
+  - "Cypherpunks'id usuvad, et tsentraliseerimine on vastuvõetav, kui selle kiidab heaks demokraatlik enamus, mis sobitub libertaarse austusega põhiseadusliku valitsemise vastu"
+  - "Cypherpunks'id toetavad hädaolukordades ajutist tsentraliseerimist, peegeldades libertaarset vaadet, et üksikisiku õigused võib peatada, kui kollektiiv on ohus"
+  - "Cypherpunks'id vastustavad tsentraliseerimist ainult tehnoloogiasüsteemides, aktsepteerides samal ajal poliitilist tsentraliseerimist kui vajalikku omandiõiguste ja lepingute jõustamiseks"
+explanation: >-
+  Cypherpunks'id usaldavad tsentraliseeritud institutsioonide asemel detsentraliseeritud krüptograafilisi süsteeme. Kogu tsentraliseerimist tajutakse rajatuna pigem sunnile kui nõusolekule. See kajastab otseselt libertaarset filosoofiat, mille järgi nõusolek on õigluse põhinorm. Miski ei saa olla õiglane, kui seda kehtestab tsentraliseeritud võim jõu abil, mistõttu nad püüdsid ehitada detsentraliseeritud võrke, kus ükski üksik üksus ei saaks oma tahet peale suruda.
+reviewed: false

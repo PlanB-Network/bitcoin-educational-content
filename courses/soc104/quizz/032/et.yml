@@ -1,0 +1,9 @@
+question: "Kuidas näevad libertariaanid eraomandi ja vabaduse suhet?"
+answer: "Eraomand on loomulik õigus, mis eelneb seadusele ja riigile ning on vabaduse tegelik alus"
+wrong_answers:
+  - "Eraomand on riigi loodud ühiskondlik kokkulepe, mille võib tühistada, kui see põhjustab ebavõrdsust"
+  - "Eraomand on kasulik majandusliku tõhususe jaoks, kuid sellel puudub olemuslik moraalne või filosoofiline tähendus"
+  - "Eraomand peaks kehtima ainult isiklike asjade, mitte tootmisvarade ega maa puhul"
+explanation: >-
+  Libertariaanid kaitsevad eraomandit loomuliku õigusena, mis eelneb seadusele ja riigile. Nad väidavad, et kui üksikisikule kuulub tema enda keha, siis kuuluvad talle ka tema töö ja selle viljad. Materiaalsete hüvede omamine on eneseomandi laiendus. See vastandub teravalt libertääride vaatele, mille järgi omand on ühiskondlik kokkulepe või rõhumise allikas.
+reviewed: false

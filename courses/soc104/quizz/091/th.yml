@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto ฝังข้อความใดไว้ในบล็อก Bitcoin แรกสุดที่เคย mined?"
+answer: "พาดหัวข่าวจาก London Times เกี่ยวกับ Chancellor ที่กำลังอยู่ปากเหวของการ bailout ธนาคารเป็นครั้งที่สอง"
+wrong_answers:
+  - "คำพูดจาก Friedrich Hayek เกี่ยวกับอันตรายของการวางแผนจากศูนย์กลางและการควบคุมเงินโดยรัฐบาล"
+  - "คำประกาศอิสรภาพจากรัฐบาลและกฎระเบียบทางการเงินทุกรูปแบบทั่วโลก"
+  - "ข้อพิสูจน์ทางคณิตศาสตร์ที่แสดงให้เห็นว่าสกุลเงินแบบกระจายศูนย์มีประสิทธิภาพมากกว่าเงิน fiat"
+explanation: >-
+  ใน genesis block, Satoshi Nakamoto ใส่พาดหัวข่าวเชิงสัญลักษณ์จาก London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." นี่เป็นการอ้างอิงโดยตรงถึงวิกฤตการเงินปี 2008 และ interventionism ทางการเงินที่ตามมา ทำให้เจตนาของ Bitcoin ชัดเจนอย่างไม่ผิดพลาดว่าเป็นทางเลือกต่อระบบธนาคารรวมศูนย์
+reviewed: false

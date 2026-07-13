@@ -1,0 +1,9 @@
+question: "Que mensagem Satoshi Nakamoto inseriu no primeiro bloco de Bitcoin já minerado?"
+answer: "Uma manchete do London Times sobre o Chanceler estar à beira de um segundo resgate bancário"
+wrong_answers:
+  - "Uma citação de Friedrich Hayek sobre os perigos do planejamento central e do controle governamental sobre o dinheiro"
+  - "Uma declaração de independência de todas as formas de governo e regulação financeira no mundo inteiro"
+  - "Uma prova matemática demonstrando que a moeda descentralizada é mais eficiente do que o dinheiro fiat"
+explanation: >-
+  No bloco gênese, Satoshi Nakamoto inseriu uma manchete simbólica do London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Isso foi uma referência direta à crise financeira de 2008 e ao intervencionismo monetário que se seguiu, tornando inequívoca a intenção do Bitcoin como alternativa aos sistemas bancários centralizados.
+reviewed: false

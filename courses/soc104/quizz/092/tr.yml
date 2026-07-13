@@ -1,0 +1,9 @@
+question: "Parasal enflasyon neden vatandaşların rızası olmadan dayatılan gizli bir vergi olarak tanımlanır?"
+answer: "Çünkü devletin para yaratması para biriminin değerini düşürür; insanlar aynı miktarla daha az satın alabilir, fakat çoğu kişi yükselen fiyatların doğal piyasa güçlerinden değil devlet politikasından kaynaklandığını fark etmez"
+wrong_answers:
+  - "Çünkü merkez bankaları, hesap sahiplerine açıklamadan bankacılık sistemi üzerinden işlenen her işlemden gizlice ücret alır"
+  - "Çünkü hükümetler para basar ve bunu yalnızca varlıklı kişilere dağıtırken yoksulları temel mallar üzerindeki daha yüksek satış vergileriyle vergilendirir"
+  - "Çünkü enflasyon, özel şirketlerin kârlarını artırmak için fiyatları yükseltmesinden kaynaklanır; bu da tüketiciler üzerinde gayriresmî bir vergi işlevi görür"
+explanation: >-
+  Sisteme para enjekte edilmesi, aynı miktarın daha az satın alması anlamına gelen para birimi değer kaybına dönüşür; çünkü yeni para gerçek ekonomik büyümeyi yansıtmaz. Çoğu insan, yükselen fiyatlara devlet politikasının yol açtığını ve bunların yalnızca para birimi değer kaybının yansıması olduğunu görmez. Bu, orta sınıfı yoksullaştırırken varlıklıların yeni parayı spekülatif varlıklar yoluyla ele geçirmesine imkân veren yasal hırsızlık ve kurumsallaşmış yağma anlamına gelir.
+reviewed: false

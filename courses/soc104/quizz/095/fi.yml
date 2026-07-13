@@ -1,0 +1,9 @@
+question: "Mitkä kolme hyvinvointivaltion pilaria Bitcoin haastaa?"
+answer: "Verotusjärjestelmän, rahamonopolin, jolla menoja rahoitetaan velalla, ja maksutapahtumien valvonnan, jolla estetään vaihtoehtoisten valuuttojen käyttö"
+wrong_answers:
+  - "Sotilasbudjetin, julkisen koulutusjärjestelmän ja valtion kontrolloiman terveydenhuoltoinfrastruktuurin"
+  - "Oikeusjärjestelmän, lainsäädäntöprosessin ja yrityksiä koskevien sääntelyjen toimeenpanon"
+  - "Eläkejärjestelmän, vähimmäispalkkalainsäädännön ja progressiivisen tuloverorakenteen"
+explanation: >-
+  Bitcoin haastaa kolme pilaria, joilla hyvinvointivaltio lepää. Ensinnäkin verotusjärjestelmän, joka ei riitä kattamaan menoja. Toiseksi rahamonopolin, eli kyvyn laskea liikkeeseen rahaa menojen rahoittamiseksi velan kautta. Kolmanneksi maksutapahtumien valvonnan, kyvyn estää ihmisiä käyttämästä mitään muuta valuuttaa kuin valtion määräämää fiat-valuuttaa. Bitcoin horjuttaa kaikkia kolmea samanaikaisesti.
+reviewed: false

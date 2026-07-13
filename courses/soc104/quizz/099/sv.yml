@@ -1,0 +1,9 @@
+question: "Vilka tre pelare i välfärdsstaten utmanar Bitcoin?"
+answer: "Skattesystemet, det monetära monopolet för att finansiera utgifter genom skuld, och övervakningen av transaktioner för att förhindra användning av alternativa valutor"
+wrong_answers:
+  - "Militärbudgeten, det offentliga utbildningssystemet och den statligt kontrollerade sjukvårdsinfrastrukturen"
+  - "Rättssystemet, lagstiftningsprocessen och den verkställande tillsynen av regleringar för företag"
+  - "Socialförsäkringssystemet, minimilönelagstiftningen och den progressiva inkomstskattestrukturen"
+explanation: >-
+  Bitcoin utmanar de tre pelare som välfärdsstaten vilar på. För det första skattesystemet, som är otillräckligt för att täcka utgifterna. För det andra det monetära monopolet, det vill säga förmågan att ge ut pengar för att finansiera utgifter genom skuld. För det tredje övervakningen av transaktioner, förmågan att hindra människor från att använda någon annan valuta än den statligt påtvingade fiatvalutan. Bitcoin undergräver alla tre samtidigt.
+reviewed: false

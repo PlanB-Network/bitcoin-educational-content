@@ -1,0 +1,9 @@
+question: "Ni ubuhe butumwa Satoshi Nakamoto yashize muri block ya mbere ya Bitcoin yigeze gucukurwa?"
+answer: "Umutwe w'inkuru wo muri London Times uvuga ko Chancellor yari ku nkengera yo gutabara amabanki ku ncuro ya kabiri"
+wrong_answers:
+  - "Amagambo ya Friedrich Hayek avuga ku kaga k'ugutegura ibintu vyose hagati hamwe no kugenzura amahera na leta"
+  - "Itangazo ry'ukwikukira ku buryo bwose bwa leta n'amategeko agenga ivy'imari kw'isi yose"
+  - "Icemezo c'imibare cerekana ko ifaranga ritagengwa n'ikigo kimwe rikora neza kuruta amafaranga ya Fiat"
+explanation: >-
+  Muri genesis block, Satoshi Nakamoto yashizemwo umutwe w'inkuru w'ikimenyetso wo muri London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Ivyo vyari vyerekeza ata guca ku ruhande ku ngorane y'ivy'imari yo mu 2008 no ku kwivanga mu vy'amahera kwakurikiye, bituma intumbero ya Bitcoin igaragara neza nk'ubundi buryo busubirira uburyo bw'amabanki bushizwe hamwe.
+reviewed: false

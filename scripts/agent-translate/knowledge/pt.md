@@ -21,3 +21,19 @@
 - "smart-contract" → "contrato inteligente" (per resources/glossary/smart-contract/pt.md).
 - "gas model" (Ethereum) → "modelo de gas" (kept "gas" untranslated, standard PT-BR/PT crypto usage).
 - "half-adder" → "meio-somador (half-adder)" — gloss with English term in parentheses on first mention since no glossary entry exists.
+
+## 2026-07-06
+- In political-philosophy SOC content, render English “libertarian/libertarians” as “libertário/libertários” in Portuguese, but keep French-specific *libertaire/libertaires* untranslated when the text contrasts the Anglo-Saxon and French traditions.
+- Political-theory terms in SOC104 quizzes: "Nolan diagram" → "diagrama de Nolan"; "Nolan diamond" → "losango de Nolan" to preserve the geometric distinction.
+- Libertarian subtypes: "anarcho-capitalists" → "anarcocapitalistas"; "minarchists" → "minarquistas"; "statism/statists" → "estatismo/estatistas".
+- In SOC/libertarianism context, keep French socialist-anarchist `libertaires` as `libertaires` to avoid collision with PT `libertários` for English `libertarians`; gloss once as `libertaires franceses (anarquistas socialistas)` when the source does.
+- Quoted cypherpunk slogan "Cypherpunks write code" kept in English/verbatim as a movement motto; translate only the surrounding explanation.
+- SOC/libertarian political terms: "libertarian" → "libertário"; "constructivism" → "construtivismo"; "spontaneous order" → "ordem espontânea"; "open/closed society" → "sociedade aberta/fechada".
+- "pro-business" vs. "pro-market" rendered as "pró-empresas" vs. "pró-mercado" to preserve the contrast between protecting incumbent firms and defending market processes.
+- In SOC/political-economy quizzes, "moral hazard" → "risco moral"; "bailouts" → "resgates" when referring to state/company financial rescues.
+- "Libertarian(s)" in political-family labels → "libertário(s)"; keep distinct from "liberal" in Portuguese.
+- "sound money" → "moeda sólida" in libertarian/Austrian monetary context; no repo glossary entry found, and it pairs naturally with "moeda fiat" and "padrão-ouro" in pt-BR.
+- "pro-business" → "pró-empresas" and "pro-market" → "pró-mercado" to preserve the policy distinction between state-favored firms and free competition.
+- In SOC104 political-axis context, render "societal freedoms/sphere" as "liberdades/esfera social" rather than the more literal "societal", matching existing course wording around personal/social freedoms.
+- SOC104 political-philosophy terms: "statism" → "estatismo", "spontaneous order" → "ordem espontânea", "laissez-faire" kept as-is, matching existing pt quiz usage.
+- In US/Europe liberalism contrast, keep the English labels `liberal`, `libertarian`, and `liberals americanos` when the text is explicitly about the English political labels; translate the philosophy/identity elsewhere as "liberalismo", "liberais clássicos", "libertário(s)".

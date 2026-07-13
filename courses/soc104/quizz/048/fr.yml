@@ -1,0 +1,9 @@
+question: "Qui est souvent cité comme la figure fondatrice du conservatisme moderne ?"
+answer: "Edmund Burke, qui préconisait de préserver les institutions et les traditions face aux changements radicaux de la Révolution française"
+wrong_answers:
+  - "Karl Marx, qui a développé la théorie de la lutte des classes et du matérialisme historique au dix-neuvième siècle"
+  - "John Locke, qui a formulé la théorie des droits naturels et du contrat social au dix-septième siècle"
+  - "Adam Smith, qui a écrit La Richesse des nations et fondé la discipline de l'économie classique"
+explanation: >-
+  Edmund Burke est souvent cité comme la figure fondatrice du conservatisme pour son opposition à la Révolution française. Ses Réflexions sur la Révolution de France (1790) défendaient la prudence et la réforme graduelle plutôt que le changement radical. Il croyait que la société devait progresser non pas en faisant table rase, mais par des réformes incrémentales qui préservent les institutions et les traditions éprouvées.
+reviewed: false

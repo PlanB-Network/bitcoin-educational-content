@@ -1,0 +1,9 @@
+question: "Quale delle seguenti è un esempio di ordine spontaneo come descritto da Hayek?"
+answer: "La lingua, che si è sviluppata organicamente attraverso interazioni storiche invece di essere progettata da intellettuali in un ufficio"
+wrong_answers:
+  - "Una costituzione nazionale, che fu redatta con cura da rappresentanti eletti per stabilire regole sociali"
+  - "Un piano di stimolo governativo, che fu progettato da economisti per coordinare l'attività economica"
+  - "Un sistema di istruzione pubblica, che fu creato dai legislatori per garantire l'accesso universale alla conoscenza"
+explanation: >-
+  Hayek descrive l'ordine spontaneo come il prodotto delle libere interazioni nella società, risultato dell'azione umana ma non di un disegno umano deliberato. La lingua è un esempio primario: francese, inglese e tedesco non furono costruiti da intellettuali che decidevano regole grammaticali, ma emersero come frutto di una lenta organizzazione organica costruita attraverso interazioni storiche.
+reviewed: false

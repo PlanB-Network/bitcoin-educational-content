@@ -1,0 +1,9 @@
+question: "Falsafa ya cypherpunk kuhusu uwekaji madaraka katikati inaunganishwaje na kanuni ya libertarian ya ridhaa kama kipimo cha msingi cha haki?"
+answer: "Cypherpunks huona uwekaji wote wa madaraka katikati kuwa umejengwa juu ya ulazimishaji badala ya ridhaa, jambo linalorudia msimamo wa libertarian kwamba hakuna kitu kinachoweza kuwa cha haki ikiwa kinalazimishwa kwa nguvu na mamlaka ya kati"
+wrong_answers:
+  - "Cypherpunks huamini kwamba uwekaji madaraka katikati unakubalika unapothibitishwa na kura ya wengi ya kidemokrasia, sambamba na heshima ya libertarian kwa utawala wa kikatiba"
+  - "Cypherpunks huunga mkono uwekaji wa muda wa madaraka katikati wakati wa dharura, ikiakisi mtazamo wa libertarian kwamba haki za mtu binafsi zinaweza kusitishwa wakati jumuiya inapotishiwa"
+  - "Cypherpunks hupinga uwekaji madaraka katikati katika mifumo ya teknolojia pekee, huku wakikubali uwekaji wa madaraka ya kisiasa katikati kama muhimu kwa kutekeleza haki za umiliki na mikataba"
+explanation: >-
+  Cypherpunks huweka imani yao katika mifumo ya kriptografia iliyogatuliwa badala ya taasisi zenye mamlaka ya kati. Uwekaji wote wa madaraka katikati huonekana kuwa umejengwa juu ya ulazimishaji badala ya ridhaa. Hili linarudia moja kwa moja falsafa ya libertarian kwamba ridhaa ndiyo kipimo cha msingi cha haki. Hakuna kitu kinachoweza kuwa cha haki ikiwa kinalazimishwa kwa nguvu na mamlaka ya kati, ndiyo maana walitafuta kujenga mitandao iliyogatuliwa ambapo hakuna huluki moja inayoweza kulazimisha matakwa yake.
+reviewed: false

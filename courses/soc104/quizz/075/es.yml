@@ -1,0 +1,9 @@
+question: "En los cinco debates económicos (impuestos, salario mínimo, atención sanitaria, medio ambiente, subvenciones), ¿qué patrón constante distingue el método centrista de las posturas de otras familias políticas?"
+answer: "Los centristas se niegan a comprometerse con un principio fijo y, en cambio, exigen análisis empírico y evaluación de expertos para determinar la política caso por caso, lo que hace que su enfoque sea inherentemente tecnocrático"
+wrong_answers:
+  - "Los centristas siempre adoptan una posición intermedia entre las posturas socialista y conservadora, dividiendo la diferencia en cada cuestión por igual"
+  - "Los centristas priorizan de forma consistente el crecimiento económico sobre el bienestar social, alineándose con los libertarios en política fiscal mientras coinciden con los socialistas en regulación"
+  - "Los centristas delegan todas las decisiones económicas a organizaciones internacionales y acuerdos comerciales en lugar de elaborar una política nacional independiente"
+explanation: >-
+  En los cinco debates económicos, el enfoque centrista sigue el mismo patrón: en lugar de comprometerse con un principio ideológico fijo, los centristas exigen evidencia empírica y evaluación de expertos antes de tomar decisiones. En impuestos, el nivel adecuado debe determinarse mediante análisis. En salario mínimo, el nivel debe ajustarse pragmáticamente. En atención sanitaria, lo ideal es una combinación calibrada por expertos. En medio ambiente, la política debe equilibrar la competitividad. En subvenciones, cada caso debe evaluarse por sus propios méritos. Esto hace que el centrismo sea inherentemente tecnocrático, lo cual es diferente de simplemente dividir la diferencia o delegar en organismos internacionales.
+reviewed: false

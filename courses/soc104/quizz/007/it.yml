@@ -1,0 +1,9 @@
+question: "Quale punto in comune condividono i partiti politici di sinistra e di destra nonostante la loro apparente opposizione?"
+answer: "Entrambi difendono il diritto dello stato di governare la vita delle persone tramite regolamenti e tasse"
+wrong_answers:
+  - "Entrambi sostengono l'abolizione completa dell'intervento statale in materia economica"
+  - "Entrambi danno priorità alla libertà individuale rispetto all'organizzazione collettiva della società"
+  - "Entrambi rifiutano l'uso della politica monetaria come strumento per la spesa pubblica"
+explanation: >-
+  Pur sembrando opposte, sinistra e destra condividono una preferenza per l'intervento statale. Entrambe criticano il libero mercato e difendono il diritto dello stato di governare la vita delle persone tramite regolamenti e tasse. La sinistra critica i mercati come fonte di disuguaglianza, mentre la destra li vede come una minaccia alla sovranità, ma entrambe si rivolgono allo stato per le soluzioni.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Qu'est-ce que le principe de non-agression tel que théorisé par Murray Rothbard ?"
+answer: "Il est illégitime d'initier la force physique contre un autre individu ou sa propriété, bien que la violence défensive soit permise"
+wrong_answers:
+  - "Toutes les formes de violence sont toujours mauvaises, y compris la légitime défense et la résistance à l'oppression"
+  - "La violence est acceptable lorsqu'elle est dirigée contre des institutions oppressives mais jamais contre d'autres individus"
+  - "Seul l'État a le droit légitime d'utiliser la force, et les individus ne doivent jamais recourir à la violence"
+explanation: >-
+  Le principe de non-agression de Rothbard soutient qu'initier la force physique contre une autre personne ou sa propriété est illégitime. C'est une traduction philosophique de la règle d'or. Cependant, il n'interdit pas toute violence : la violence défensive, y compris la légitime défense et la résistance à l'oppression, est considérée comme légitime. Cela le distingue du pacifisme pur et du monopole de la force revendiqué par l'État.
+reviewed: false

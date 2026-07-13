@@ -1,0 +1,9 @@
+question: "Prečo kurz opisuje Bitcoin ako trhovú menu stojacu proti štátnym peniazom, a nie ako pravicový alebo ľavicový projekt?"
+answer: "Pretože Bitcoin je dobrovoľne prijatá, ťažko vyrobiteľná, decentralizovaná mena, ktorá si uchováva hodnotu, na rozdiel od donucovacích, centralizovaných fiat peňazí, ktoré hodnotu strácajú, takže delenie sa týka trhu verzus štátu, nie politickej ideológie"
+wrong_answers:
+  - "Pretože Bitcoin vytvoril anonymný vývojár, ktorý sa zámerne vyhýbal akýmkoľvek politickým vyhláseniam o jeho zamýšľanom účele alebo filozofii"
+  - "Pretože ťažobný algoritmus Bitcoinu zabezpečuje rovnomerné rozdelenie nových mincí všetkým politickým stranám, čím bráni akejkoľvek ideologickej zaujatosti menového systému"
+  - "Pretože Bitcoin funguje identicky ako existujúce fiat meny, no beží na rýchlejšej platobnej sieti, takže politické rozlíšenia sú irelevantné"
+explanation: >-
+  Bitcoin je opísaný ako pokojná vzbura proti politizácii peňazí. Štátne alebo fiat peniaze sú donucovací, centralizovaný systém, ktorý má sklon strácať hodnotu. Trhové peniaze, historicky zlato a v súčasnosti Bitcoin, sú zdravou, ťažko vyrobiteľnou menou, ktorá vzniká dobrovoľne a dlhodobo si uchováva hodnotu. Skutočný protiklad nie je ľavica verzus pravica, ale trh verzus štát, vďaka čomu je Bitcoin politickým zlomom, ktorý presahuje tradičné ideologické tábory.
+reviewed: false

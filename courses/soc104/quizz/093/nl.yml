@@ -1,0 +1,9 @@
+question: "Welke boodschap verwerkte Satoshi Nakamoto in het eerste Bitcoin-blok dat ooit werd gemined?"
+answer: "Een kop uit de London Times over de Chancellor die op de rand stond van een tweede reddingsoperatie voor banken"
+wrong_answers:
+  - "Een citaat van Friedrich Hayek over de gevaren van centrale planning en overheidscontrole over geld"
+  - "Een onafhankelijkheidsverklaring van alle vormen van overheid en financiële regulering wereldwijd"
+  - "Een wiskundig bewijs dat aantoont dat gedecentraliseerde valuta efficiënter is dan fiatgeld"
+explanation: >-
+  In het genesis block plaatste Satoshi Nakamoto een symbolische kop uit de London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Dit was een directe verwijzing naar de financiële crisis van 2008 en het monetaire interventionisme dat daarop volgde, waardoor Bitcoins bedoeling als alternatief voor gecentraliseerde banksystemen onmiskenbaar werd.
+reviewed: false

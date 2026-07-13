@@ -1,0 +1,9 @@
+question: "Mida tähendab Friedrich Hayeki kirjeldatud 'spontaanse korra' mõiste?"
+answer: "Sotsiaalsed reeglid ja normid peaksid kujunema vabade individuaalsete interaktsioonide tulemusena, mitte olema autoritaarse planeerimisega peale surutud"
+wrong_answers:
+  - "Turud kalduvad loomupäraselt monopoli poole, kui riik ei sekku konkurentsitasakaalu säilitamiseks"
+  - "Demokraatlikud valimised on ainus legitiimne mehhanism ühiskonda valitsevate seaduste kehtestamiseks"
+  - "Majanduskriisid tekivad spontaanselt ja nõuavad stabiilsuse taastamiseks viivitamatut valitsuse sekkumist"
+explanation: >-
+  Hayeki spontaanse korra mõiste järgi ei tohiks ühiskonda valitsevaid reegleid ülevalt keskse planeerimisega peale suruda, vaid need peaksid kujunema üksikisikute vabade tahete, lepingute ja vabatahtlike suhete vabast mängust. See on libertaarse mõtte üks põhitelgi. See ei tähenda, et turud kalduksid monopoli poole või et kriisid nõuaksid valitsuse sekkumist.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Jakie są dwie osie diagramu Nolana?"
+answer: "Oś pionowa mierząca wolności osobiste oraz oś pozioma mierząca wolności gospodarcze"
+wrong_answers:
+  - "Oś pozioma od lewicy do prawicy oraz oś pionowa od autorytaryzmu do demokracji"
+  - "Oś pionowa mierząca bogactwo oraz oś pozioma mierząca poziomy wykształcenia"
+  - "Oś pozioma od socjalizmu do kapitalizmu oraz oś pionowa od tradycji do postępu"
+explanation: >-
+  David Nolan zaprojektował swój diagram z dwiema konkretnymi osiami: wolności osobiste (pionowa) i wolności gospodarcze (pozioma). To dwuwymiarowe podejście zastępuje nadmiernie uproszczoną linię lewica-prawica i lepiej oddaje złożoność ideologii politycznych poprzez rozdzielenie dwóch głównych kategorii wolności.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Kuidas käsitleb konservatism vabadusi majanduslikus ja ühiskondlikus sfääris?"
+answer: "Tugevad vabadused majanduslikus sfääris, kuid nõrgad vabadused ühiskondlikus sfääris"
+wrong_answers:
+  - "Nõrgad vabadused nii majanduslikus kui ka ühiskondlikus sfääris, et säilitada traditsiooniline ühiskondlik kord"
+  - "Tugevad vabadused ühiskondlikus sfääris, kuid nõrgad vabadused majanduslikus sfääris"
+  - "Võrdsed ja piiramatud vabadused mõlemas sfääris koos minimaalse igasuguse valitsuse sekkumisega"
+explanation: >-
+  Konservatismis ilmneb dihhotoomia, mis on sotsialismi peegelpilt. Majandusvaldkonnas kaitsevad konservatiivid vabaturgu, ettevõtlust ja eraomandit. Ühiskondlikus valdkonnas õigustatakse piiranguid traditsiooniliste moraalinormide ja ühiskondliku stabiilsuse säilitamisega. Kolmas vale vastus kirjeldab sotsialistlikku mustrit, mis on vastupidine.
+reviewed: false

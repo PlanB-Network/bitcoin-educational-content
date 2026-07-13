@@ -1,0 +1,9 @@
+question: "Dlaczego cypherpunks argumentowali, że waluta cyfrowa o właściwościach anonimowości jest konieczna?"
+answer: "Ponieważ gotówka, podstawowy anonimowy system transakcyjny, zanika w społeczeństwie cyfrowym i trzeba wynaleźć cyfrowy zamiennik o tych samych właściwościach prywatności"
+wrong_answers:
+  - "Ponieważ istniejące cyfrowe systemy płatności były zbyt wolne i drogie, wymagając szybszej i tańszej alternatywy dla handlu internetowego"
+  - "Ponieważ rządy już zakazały wszystkich form anonimowych transakcji i tylko nowa technologia mogła obejść te prawa"
+  - "Ponieważ tradycyjne banki odmawiały obsługi niektórych populacji, czyniąc powszechnie dostępny cyfrowy system płatności koniecznością gospodarczą"
+explanation: >-
+  Manifest cypherpunk stwierdza, że poufność w społeczeństwie otwartym wymaga anonimowych systemów transakcyjnych. Do epoki cyfrowej gotówka służyła jako podstawowy system tego typu. Ale w społeczeństwie cyfrowym, w którym gotówka zanika, trzeba wynaleźć walutę cyfrową o tych samych właściwościach anonimowości. Ta wizja bezpośrednio zapowiadała to, co Bitcoin miał osiągnąć.
+reviewed: false

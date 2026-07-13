@@ -1,0 +1,9 @@
+question: "Jakie trzy filary państwa opiekuńczego podważa Bitcoin?"
+answer: "System fiskalny, monopol monetarny służący finansowaniu wydatków przez dług oraz nadzór nad transakcjami, aby uniemożliwić używanie alternatywnych walut"
+wrong_answers:
+  - "Budżet wojskowy, system edukacji publicznej oraz kontrolowaną przez rząd infrastrukturę opieki zdrowotnej"
+  - "System sądowniczy, proces legislacyjny oraz wykonawcze egzekwowanie regulacji wobec przedsiębiorstw"
+  - "System zabezpieczenia społecznego, ustawodawstwo dotyczące płacy minimalnej oraz progresywną strukturę podatku dochodowego"
+explanation: >-
+  Bitcoin podważa trzy filary, na których opiera się państwo opiekuńcze. Po pierwsze, system fiskalny, który jest niewystarczający do pokrycia wydatków. Po drugie, monopol monetarny, czyli zdolność emitowania pieniądza w celu finansowania wydatków przez dług. Po trzecie, nadzór nad transakcjami, zdolność powstrzymywania ludzi od używania jakiejkolwiek waluty innej niż narzucone przez państwo fiat. Bitcoin podważa wszystkie trzy jednocześnie.
+reviewed: false

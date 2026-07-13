@@ -1,0 +1,9 @@
+question: "Mitä termi 'liberaali' tarkoittaa eurooppalaisessa poliittisessa perinteessä?"
+answer: "Laissez-faire-talouden, vähennetyn valtion puuttumisen ja yksilönvapauksien kannattajaa"
+wrong_answers:
+  - "Valtion puuttumisen, julkisen sairausvakuutuksen ja köyhyydenvastaisten ohjelmien puolestapuhujaa"
+  - "Radikaalia anarkistia, joka tavoittelee hallituksen ja yksityisomaisuuden täydellistä lakkauttamista"
+  - "Keskustalaista, joka tasapainottaa sosialistisia ja konservatiivisia kantoja yhtäläisesti kaikilla politiikan aloilla"
+explanation: >-
+  Euroopassa liberalismi on pysynyt yhteydessä laissez-faire-talouspolitiikkaan, vähennettyyn valtion puuttumiseen ja yksilönvapauksien puolustamiseen. Ensimmäinen väärä vastaus kuvaa amerikkalaisia liberaaleja, joiden käytössä termin merkitys on siirtynyt kohti interventionismia. Eurooppalainen liberalismi ei ole anarkismia eikä keskustalaisuutta.
+reviewed: false

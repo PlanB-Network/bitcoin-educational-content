@@ -1,0 +1,9 @@
+question: "Qual das opções a seguir é um exemplo de ordem espontânea conforme descrita por Hayek?"
+answer: "A linguagem, que se desenvolveu organicamente por meio de interações históricas, em vez de ser projetada por intelectuais em um gabinete"
+wrong_answers:
+  - "Uma constituição nacional, que foi cuidadosamente redigida por representantes eleitos para estabelecer regras sociais"
+  - "Um plano governamental de estímulo, que foi projetado por economistas para coordenar a atividade econômica"
+  - "Um sistema público de educação, que foi criado por legisladores para garantir acesso universal ao conhecimento"
+explanation: >-
+  Hayek descreve a ordem espontânea como o produto de interações livres na sociedade, resultante da ação humana, mas não de um desenho humano deliberado. A linguagem é um exemplo central: francês, inglês e alemão não foram construídos por intelectuais que decidiram regras gramaticais, mas emergiram como fruto de uma organização lenta e orgânica construída por meio de interações históricas.
+reviewed: false

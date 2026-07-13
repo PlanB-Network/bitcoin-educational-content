@@ -1,0 +1,9 @@
+question: "Jak se filozofie Cypherpunks o centralizaci pojí s libertariánským principem souhlasu jako základní normy spravedlnosti?"
+answer: "Cypherpunks vnímají veškerou centralizaci jako založenou na donucení, nikoli na souhlasu, čímž odrážejí libertariánský postoj, že nic nemůže být spravedlivé, pokud je to vnuceno centralizovanou autoritou silou"
+wrong_answers:
+  - "Cypherpunks věří, že centralizace je přijatelná, pokud ji schválí demokratická většina, což odpovídá libertariánskému respektu k ústavní správě"
+  - "Cypherpunks podporují dočasnou centralizaci během mimořádných situací, což odráží libertariánský názor, že individuální práva lze pozastavit, když je kolektiv ohrožen"
+  - "Cypherpunks odmítají centralizaci pouze v technologických systémech, zatímco politickou centralizaci přijímají jako nezbytnou pro vynucování vlastnických práv a smluv"
+explanation: >-
+  Cypherpunks vkládají důvěru do decentralizovaných kryptografických systémů spíše než do centralizovaných institucí. Veškerá centralizace je vnímána jako založená na donucení, nikoli na souhlasu. To přímo odráží libertariánskou filozofii, podle níž je souhlas základní normou spravedlnosti. Nic nemůže být spravedlivé, pokud je to vnuceno centralizovanou autoritou silou, a proto se snažili budovat decentralizované sítě, v nichž žádný jediný subjekt nemůže vnutit svou vůli.
+reviewed: false

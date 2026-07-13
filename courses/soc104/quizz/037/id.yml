@@ -1,0 +1,9 @@
+question: "Peringatan apa yang diberikan Milton Friedman tentang menilai kebijakan politik?"
+answer: "Kebijakan seharusnya dinilai berdasarkan hasilnya, bukan berdasarkan niatnya"
+wrong_answers:
+  - "Kebijakan seharusnya dinilai berdasarkan karakter moral politisi yang mengusulkannya"
+  - "Kebijakan seharusnya dinilai berdasarkan seberapa populer kebijakan itu di kalangan masyarakat pemilih umum"
+  - "Kebijakan seharusnya dinilai berdasarkan apakah kebijakan itu selaras dengan konstitusi asli negara tersebut"
+explanation: >-
+  Friedman menulis bahwa salah satu kesalahan terbesar adalah menilai kebijakan berdasarkan niatnya, bukan hasilnya, seraya mencatat bahwa program-program yang dilabeli sebagai untuk kaum miskin hampir selalu menghasilkan dampak yang berlawanan dengan apa yang dimaksudkan oleh para sponsornya. Ini menggemakan ajaran Bastiat bahwa ekonom yang baik mempertimbangkan baik dampak jangka pendek maupun jangka panjang terhadap seluruh populasi.
+reviewed: false

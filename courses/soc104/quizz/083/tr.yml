@@ -1,0 +1,9 @@
+question: "Hayek'in merkezi planlamanın neden başarısız olduğuna dair temel argümanı nedir?"
+answer: "Bilgi yalnızca ayrı bireylerin sahip olduğu dağınık parçalar hâlinde var olur ve merkezi bir otorite tarafından yoğunlaştırılamaz ya da bütünleştirilemez"
+wrong_answers:
+  - "Merkezi planlamacıların ahlaken yozlaşmış olması ve her zaman kamu yararı yerine kendi çıkarları doğrultusunda hareket etmesi"
+  - "Demokratik kurumların ekonomik değişimlere yanıt vermekte çok yavaş kalması ve merkezi kararları her zaman eski kılması"
+  - "Merkezi planlamanın, vatandaşların hükümet emirlerine bilinçli olarak direnmesi ve düzenlemelere uymayı reddetmesi nedeniyle başarısız olması"
+explanation: >-
+  Hayek'in temel argümanı bilginin doğasına dayanır. Bilginin hiçbir zaman yoğunlaşmış ya da bütünleşmiş biçimde var olmadığını, yalnızca tüm ayrı bireylerin sahip olduğu dağınık parçalar hâlinde var olduğunu göstermiştir. Değer özneldir ve yalnızca yerel ve eksik biçimde bilinir. Bir ofiste oturan merkezi planlamacı, etkileşim ve mübadele içinde olmadığı için şeylerin gerçek fiyatını bilemez.
+reviewed: false

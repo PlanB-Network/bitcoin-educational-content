@@ -1,0 +1,9 @@
+question: "Waarom betoogt Ron Paul dat de Federal Reserve schadelijk is, en hoe verhoudt Bitcoin zich tot zijn standpunt?"
+answer: "De Federal Reserve veroorzaakt inflatie en economische cycli door manipulatie van fiatgeld, en Bitcoin vertegenwoordigt een vorm van sound money die de goudstandaard zou kunnen vervangen"
+wrong_answers:
+  - "De Federal Reserve beperkt bankconcurrentie, en Bitcoin decentraliseert bankdiensten om financiële inclusie te verbeteren"
+  - "De Federal Reserve verhindert vrije handel tussen landen, en Bitcoin maakt grensloze transacties mogelijk zonder goedkeuring van de overheid"
+  - "De Federal Reserve creëert buitensporige staatsschuld, en Bitcoin biedt een deflatoire valuta die de staatsschuld elimineert"
+explanation: >-
+  Ron Paul, een minarchist, betoogt dat de Federal Reserve verantwoordelijk is voor inflatie en economische cycli omdat zij fiatgeld manipuleert. Hij verdedigt de denationalisatie van geld, een idee dat door Friedrich Hayek werd bepleit, en ziet Bitcoin als een vorm van sound money die de goudstandaard zou kunnen vervangen. Zijn kritiek is geworteld in libertarische monetaire theorie, niet primair in bankconcurrentie, handelsbarrières of staatsschuld.
+reviewed: false

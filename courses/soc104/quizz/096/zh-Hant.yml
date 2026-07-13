@@ -1,0 +1,9 @@
+question: "誰在 1992 年創立了第一個 Cypherpunk 郵件列表？"
+answer: "Tim May 和 Eric Hughes，他們創建了一個成為該運動神經中樞的平台"
+wrong_answers:
+  - "Satoshi Nakamoto 和 Hal Finney，他們後來在 2008 年共同創造了 Bitcoin"
+  - "Julian Assange 和 Edward Snowden，他們使用該列表協調政府吹哨活動"
+  - "Phil Zimmermann 和 Bruce Schneier，他們將該列表設計為散布加密軟體的工具"
+explanation: >-
+  1992 年，Tim May 和 Eric Hughes 創立了第一個 Cypherpunk 郵件列表。這個平台很快成為該運動的神經中樞，匯聚了開發者、密碼學家，以及數位自由的倡議者。後來，Satoshi Nakamoto 正是在同一個列表上首次分享了 Bitcoin 白皮書。
+reviewed: false

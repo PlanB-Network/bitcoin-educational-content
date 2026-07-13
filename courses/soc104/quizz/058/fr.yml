@@ -1,0 +1,9 @@
+question: "Quels sont les deux principes de justice de John Rawls ?"
+answer: "Une liberté égale pour tous, et le principe de différence qui n'autorise les inégalités que si elles bénéficient aux plus défavorisés"
+wrong_answers:
+  - "Le suffrage universel pour tous les citoyens, et une fiscalité progressive pour financer les services publics"
+  - "La liberté d'expression sans restriction, et une redistribution obligatoire des richesses pour atteindre l'égalité"
+  - "La protection des droits de propriété privée, et le principe de non-agression appliqué à toutes les actions de l'État"
+explanation: >-
+  Rawls propose deux principes : d'abord, une liberté égale pour tous (le fondement de la démocratie), et ensuite le principe de différence, qui n'autorise les inégalités que si elles bénéficient aux membres les plus défavorisés de la société. Cela signifie que l'on a le droit de s'enrichir, à condition que la redistribution permette aussi aux moins favorisés d'en bénéficier. Les autres options mélangent des éléments issus de différentes philosophies politiques.
+reviewed: false

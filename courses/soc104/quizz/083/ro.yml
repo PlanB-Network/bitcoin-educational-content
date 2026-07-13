@@ -1,0 +1,9 @@
+question: "Care este argumentul fundamental al lui Hayek despre motivul pentru care planificarea centrală eșuează?"
+answer: "Cunoașterea există doar ca fragmente dispersate deținute de indivizi distincți și nu poate fi concentrată sau integrată de o autoritate centrală"
+wrong_answers:
+  - "Planificatorii centrali sunt corupți moral și acționează întotdeauna în propriul interes, nu în binele public"
+  - "Instituțiile democratice sunt prea lente pentru a răspunde schimbărilor economice, ceea ce face ca deciziile centralizate să fie întotdeauna depășite"
+  - "Planificarea centrală eșuează deoarece cetățenii se opun deliberat mandatelor guvernamentale și refuză să respecte reglementările"
+explanation: >-
+  Argumentul fundamental al lui Hayek se sprijină pe natura informației. El a demonstrat că cunoașterea nu există niciodată în formă concentrată sau integrată, ci doar ca fragmente dispersate deținute de toți indivizii distincți. Valoarea este subiectivă și cunoscută doar local și incomplet. Planificatorul central, stând într-un birou, nu are cunoaștere despre adevăratul preț al lucrurilor, deoarece nu este angajat în interacțiune și schimb.
+reviewed: false

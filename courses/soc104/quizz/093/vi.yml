@@ -1,0 +1,9 @@
+question: "Vấn đề căn bản của các đồng tiền pháp định mà Satoshi Nakamoto đã nhận diện là gì?"
+answer: "Chúng đòi hỏi phải tin rằng ngân hàng trung ương sẽ không làm mất giá đồng tiền, nhưng lịch sử các đồng tiền pháp định đầy rẫy những lần niềm tin này bị vi phạm"
+wrong_answers:
+  - "Chúng quá khó sử dụng cho các giao dịch hằng ngày vì tiền mặt vật lý nhanh hỏng và tốn kém để sản xuất"
+  - "Chúng không thể được chuyển ra quốc tế vì mỗi quốc gia có các tiêu chuẩn và quy định tiền tệ không tương thích"
+  - "Chúng được bảo chứng bằng dự trữ vàng không đủ để trang trải tổng cung tiền đang lưu thông"
+explanation: >-
+  Satoshi Nakamoto đã tuyên bố rằng vấn đề căn bản của các đồng tiền thông thường là niềm tin cần thiết để chúng vận hành. Tiền pháp định không được bảo chứng bằng một hàng hóa mà hoàn toàn dựa trên thẩm quyền định chế. Khi một định chế nắm quyền kiểm soát toàn bộ đối với tiền, cám dỗ lạm dụng là quá mạnh, và lịch sử đã nhiều lần cho thấy điều này thông qua việc làm mất giá tiền tệ.
+reviewed: false

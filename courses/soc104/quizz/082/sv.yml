@@ -1,0 +1,9 @@
+question: "Vilket av följande är ett exempel på spontan ordning som Hayek beskriver den?"
+answer: "Språk, som utvecklades organiskt genom historiska interaktioner snarare än att utformas av intellektuella på ett kontor"
+wrong_answers:
+  - "En nationell konstitution, som noggrant utarbetades av valda representanter för att fastställa samhällsregler"
+  - "Ett statligt stimulansprogram, som utformades av ekonomer för att samordna ekonomisk verksamhet"
+  - "Ett offentligt utbildningssystem, som skapades av lagstiftare för att säkerställa allmän tillgång till kunskap"
+explanation: >-
+  Hayek beskriver spontan ordning som produkten av fria interaktioner i samhället, ett resultat av mänskligt handlande men inte av avsiktlig mänsklig design. Språk är ett tydligt exempel: franska, engelska och tyska konstruerades inte av intellektuella som beslutade grammatikregler, utan uppstod som frukten av långsam, organisk organisering byggd genom historiska interaktioner.
+reviewed: false

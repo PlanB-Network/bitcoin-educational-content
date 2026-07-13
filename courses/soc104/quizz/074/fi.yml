@@ -1,0 +1,9 @@
+question: "Mikä on 'moraalikadon' käsite tukikeskustelun yhteydessä, ja mikä poliittinen suuntaus nostaa tämän huolen esiin?"
+answer: "Moraalikato on kannustin vastuuttomuuteen, kun yrityksiä estetään kaatumasta tukien avulla, koska lopulta veronmaksaja maksaa; tämän huolen nostavat esiin libertaarit"
+wrong_answers:
+  - "Moraalikato on riski, että tukea saavat yritykset siirtyvät alemman verotuksen maihin ja vievät työpaikat mukanaan; tämän huolen nostavat esiin konservatiivit"
+  - "Moraalikato on vaara, että valtion virkamiehistä tulee korruptoituneita, kun he valitsevat, mitkä yritykset saavat tukia; tämän huolen nostavat esiin keskustalaiset"
+  - "Moraalikato on eettinen ongelma, jossa yritykset käyttävät työntekijöitä hyväksi saatuaan julkisia varoja; tämän huolen nostavat esiin sosialistit"
+explanation: >-
+  Libertaarit väittävät, että tuet ja pelastuspaketit luovat moraalikatoa: kun yrityksiä estetään kaatumasta, se kannustaa vastuuttomuuteen ja holtittomuuteen, koska huonoista päätöksistä ei koidu seurauksia. Lopulta maksajana on veronmaksaja, mitä libertaarit pitävät syvästi epäoikeudenmukaisena. Tämä käsite eroaa yritysten siirtymistä, virkamiesten korruptiota tai työntekijöiden hyväksikäyttöä koskevista huolista, joita muut poliittiset suuntaukset nostavat esiin.
+reviewed: false

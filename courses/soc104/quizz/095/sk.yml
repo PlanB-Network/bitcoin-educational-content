@@ -1,0 +1,9 @@
+question: "Aké je základné posolstvo Eric Hughesovho Cypherpunk Manifesto z roku 1993 týkajúce sa súkromia?"
+answer: "Súkromie je v elektronickom veku nevyhnutné pre otvorenú spoločnosť a jednotlivci ho musia budovať sami, namiesto toho, aby očakávali, že ho zaručia vlády alebo korporácie"
+wrong_answers:
+  - "Súkromie je luxus, ktorý treba obetovať výmenou za národnú bezpečnosť a ochranu demokratických inštitúcií"
+  - "Súkromie by malo byť regulované medzinárodnými zmluvami, ktoré ustanovia jednotné štandardy ochrany údajov vo všetkých krajinách"
+  - "Súkromie je dôležité iba pre zločincov a disidentov, zatiaľ čo občania dodržiavajúci zákony profitujú z transparentných systémov sledovania"
+explanation: >-
+  Manifest Erica Hughesa z roku 1993 uvádza, že súkromie je v elektronickom veku nevyhnutné pre otvorenú spoločnosť a že nemôžeme očakávať, že ho zaručia vlády, korporácie alebo iné veľké organizácie. Základnou motiváciou je, že dôvernosť je kľúčovým prvkom slobody a musia ju budovať samotní jednotlivci, nie ju očakávať ako dar od inštitúcií.
+reviewed: false

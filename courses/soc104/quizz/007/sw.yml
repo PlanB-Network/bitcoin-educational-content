@@ -1,0 +1,9 @@
+question: "Katika almasi ya Nolan, ni msimamo gani uko juu na kuwakilisha uhuru wa juu zaidi?"
+answer: "Ulibertaria, unaounga mkono uhuru mkubwa zaidi wa kiuchumi na wa binafsi"
+wrong_answers:
+  - "Uhafidhina, unaounga mkono maadili ya kimapokeo na uhuru wa kiuchumi"
+  - "Usentrista, unaosawazisha misimamo yote ya kisiasa kwa namna ya kivitendo"
+  - "Ujamaa, unaounga mkono uhuru wa binafsi na usawa wa kijamii"
+explanation: >-
+  Ulibertaria unachukua sehemu ya juu ya almasi ya Nolan kama kinyume cha udola. Unawakilisha wale wanaounga mkono kiwango kikubwa zaidi cha uhuru wa kiuchumi na wa binafsi. Uhafidhina uko upande wa kulia (uhuru mkubwa wa kiuchumi, uhuru mdogo wa binafsi), ujamaa upande wa kushoto (uhuru mkubwa wa binafsi, uhuru mdogo wa kiuchumi), na usentrista katikati.
+reviewed: false

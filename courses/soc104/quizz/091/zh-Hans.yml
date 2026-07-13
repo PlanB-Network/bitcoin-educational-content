@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto 在有史以来第一个被挖出的 Bitcoin 区块中嵌入了什么信息？"
+answer: "London Times 的一个标题，内容是英国财政大臣正处于第二次银行救助的边缘"
+wrong_answers:
+  - "Friedrich Hayek 关于中央计划和政府控制货币危险性的引文"
+  - "一份摆脱全球所有形式政府和金融监管的独立宣言"
+  - "一个数学证明，说明去中心化货币比法定货币更高效"
+explanation: >-
+  在创世区块中，Satoshi Nakamoto 插入了 London Times 的一个象征性标题："The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." 这是对 2008 年金融危机以及随后货币干预主义的直接引用，使 Bitcoin 作为中心化银行体系替代方案的意图变得明确无误。
+reviewed: false

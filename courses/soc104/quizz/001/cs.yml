@@ -1,0 +1,9 @@
+question: "Odkud pochází politické dělení na levici a pravici?"
+answer: "Ze zasedacího pořádku během debat Francouzské revoluce v roce 1789"
+wrong_answers:
+  - "Ze spisů Karla Marxe a Adama Smitha v devatenáctém století"
+  - "Z americké občanské války mezi severními a jižními státy"
+  - "Od osvícenských filozofů, kteří oddělili rozum od tradice"
+explanation: >-
+  Dělení na levici a pravici sahá do roku 1789, kdy poslanci ve francouzském Národním shromáždění, kteří podporovali zachování královy moci, seděli napravo od předsedy, zatímco ti, kteří chtěli jeho pravomoci omezit, seděli nalevo. Nevzniklo od Marxe a Smitha, z americké občanské války ani z osvícenské filozofie.
+reviewed: false

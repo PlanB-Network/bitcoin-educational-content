@@ -1,0 +1,9 @@
+question: "Quel point commun les partis politiques de gauche et de droite partagent-ils malgré leur opposition apparente ?"
+answer: "Tous deux défendent le droit de l'État à gouverner la vie des gens par les réglementations et les impôts"
+wrong_answers:
+  - "Tous deux prônent l'abolition complète de l'intervention de l'État dans les affaires économiques"
+  - "Tous deux donnent la priorité à la liberté individuelle sur l'organisation collective de la société"
+  - "Tous deux rejettent l'usage de la politique monétaire comme outil de dépense publique"
+explanation: >-
+  Bien qu'elles semblent opposées, la gauche et la droite partagent une préférence pour l'intervention de l'État. Toutes deux critiquent le marché libre et défendent le droit de l'État à gouverner la vie des gens par les réglementations et les impôts. La gauche critique les marchés comme source d'inégalités, tandis que la droite les voit comme une menace pour la souveraineté, mais toutes deux se tournent vers l'État pour trouver des solutions.
+reviewed: false

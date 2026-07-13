@@ -1,0 +1,9 @@
+question: "Friedrich Hayek'in tanımladığı şekliyle 'kendiliğinden düzen' kavramı nedir?"
+answer: "Toplumsal kurallar ve normlar, otoriter planlama tarafından dayatılmak yerine özgür bireysel etkileşimlerden doğmalıdır"
+wrong_answers:
+  - "Devlet rekabetçi dengeyi korumak için müdahale etmediği sürece piyasalar doğal olarak tekele yönelir"
+  - "Demokratik seçimler, toplumu yöneten yasaları oluşturmanın tek meşru mekanizmasıdır"
+  - "Ekonomik krizler kendiliğinden ortaya çıkar ve istikrarı yeniden sağlamak için derhal hükümet müdahalesi gerektirir"
+explanation: >-
+  Hayek'in kendiliğinden düzen kavramı, toplumu yöneten kuralların merkezi planlama yoluyla yukarıdan dayatılmaması, bireysel iradelerin, sözleşmelerin ve gönüllü ilişkilerin serbest işleyişinden doğması gerektiğini savunur. Bu, liberteryen düşüncenin temel bir eksenidir. Piyasaların tekele yöneldiğini ya da krizlerin hükümet müdahalesi gerektirdiğini ima etmez.
+reviewed: false

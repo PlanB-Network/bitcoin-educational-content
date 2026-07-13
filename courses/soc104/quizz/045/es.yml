@@ -1,0 +1,9 @@
+question: "¿Qué distinción trazó Karl Marx entre el socialismo utópico y el socialismo científico?"
+answer: "Acusó a los primeros socialistas franceses de proponer soluciones imaginarias, mientras que su socialismo científico se basaba en el materialismo histórico y la lucha de clases"
+wrong_answers:
+  - "Argumentó que el socialismo utópico estaba demasiado centrado en la economía, mientras que el socialismo científico priorizaba la transformación cultural y artística"
+  - "Elogió a los socialistas utópicos por sus experimentos prácticos y criticó al socialismo científico por ser demasiado abstracto y teórico"
+  - "Afirmó que el socialismo utópico era violento y revolucionario, mientras que el socialismo científico favorecía la reforma democrática pacífica"
+explanation: >-
+  Marx acusó a los primeros socialistas franceses como Proudhon, Saint-Simon y Fourier de ser utópicos que proponían soluciones puramente imaginarias. Su socialismo científico descansaba en el materialismo histórico: la idea de que la historia progresa mediante la lucha de clases y la apropiación de los medios de producción, donde todas las representaciones culturales están condicionadas por las fuerzas productivas y las relaciones de producción.
+reviewed: false

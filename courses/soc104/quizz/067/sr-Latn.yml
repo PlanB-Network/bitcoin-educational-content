@@ -1,0 +1,9 @@
+question: "Koja je konzervativna pozicija o imigraciji?"
+answer: "Država ima suvereno pravo da kontroliše svoje granice radi zaštite nacionalne bezbednosti i kulturnog identiteta"
+wrong_answers:
+  - "Granice treba bezuslovno otvoriti jer diskriminatorna ograničenja krše ljudska prava"
+  - "Imigraciju treba određivati tržišna potražnja, pri čemu građani ugovorno odlučuju o svojim odnosima sa strancima"
+  - "Imigraciona politika treba da uravnoteži ekonomske potrebe sa uspešnom integracijom na osnovu procene stručnjaka"
+explanation: >-
+  Konzervativci smatraju da poredak, identitet i nacionalni suverenitet moraju imati prednost nad neograničenim prihvatom stranaca ili izbeglica. Granice i jasno definisano stanovništvo deo su civilizovanih vrednosti. Pogrešni odgovori predstavljaju socijalističku poziciju (otvorene granice kao ljudska prava), libertarijansku poziciju (tržišno zasnovana imigracija) i centrističku poziciju (uravnotežen pristup vođen stručnjacima).
+reviewed: false

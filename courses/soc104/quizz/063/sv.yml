@@ -1,0 +1,9 @@
+question: "Vilken är Hannah Arendts centrala distinktion mellan klassisk despotism och totalitarism?"
+answer: "Totalitarism underkastar inte bara människor tyranniska regler utan gör människor oförmögna till självständigt handlande, vilket förnekar politiken själv"
+wrong_answers:
+  - "Klassisk despotism kontrollerar ekonomin medan totalitarism endast kontrollerar politiska och militära institutioner"
+  - "Totalitarism är helt enkelt en mer extrem version av despotism, som endast skiljer sig i repressionens omfattning"
+  - "Klassisk despotism använder ideologi för att rättfärdiga sitt styre medan totalitarism enbart förlitar sig på militär styrka"
+explanation: >-
+  Arendt hävdar att totalitarism är fundamentalt annorlunda än klassisk despotism. Den är inte bara ett mer extremt tyranni utan ett system som gör människor överflödiga och förstör deras förmåga till självständigt handlande. För Arendt är politik ett folks förmåga att ta sitt öde i egna händer, och totalitarism är själva negationen av denna förmåga, vilket gör den kvalitativt annorlunda än despotism.
+reviewed: false

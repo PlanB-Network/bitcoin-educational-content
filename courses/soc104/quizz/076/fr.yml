@@ -1,0 +1,9 @@
+question: "Dans les dialogues de Gustave de Molinari de 1849, quel personnage défend la liberté comme un principe fondamental plutôt que de la subordonner à d'autres objectifs ?"
+answer: "L'économiste, qui traite la liberté comme un principe qui n'est subordonné à aucun autre objectif"
+wrong_answers:
+  - "Le socialiste, qui défend la liberté par des réformes progressistes visant l'égalité sociale"
+  - "Le conservateur, qui soutient la liberté en préservant l'ordre social traditionnel et la stabilité"
+  - "Les trois personnages défendent également la liberté mais sont en désaccord sur la manière de la mettre en œuvre"
+explanation: >-
+  Dans les dialogues de Molinari issus des Soirées de la rue Saint-Lazare, l'économiste est en désaccord permanent avec le socialiste comme avec le conservateur. Il est le seul à défendre la liberté comme un principe fondamental. Le socialiste subordonne la liberté à des idéaux progressistes, et le conservateur la subordonne à la préservation de l'ordre, ce qui rend l'économiste unique dans sa défense inconditionnelle de la liberté.
+reviewed: false

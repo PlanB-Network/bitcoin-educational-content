@@ -1,0 +1,9 @@
+question: "Aké varovanie dal Milton Friedman o posudzovaní politík?"
+answer: "Politiky by sa mali posudzovať podľa ich výsledkov, nie podľa ich zámerov"
+wrong_answers:
+  - "Politiky by sa mali posudzovať podľa morálneho charakteru politikov, ktorí ich navrhujú"
+  - "Politiky by sa mali posudzovať podľa toho, aké populárne sú u širokej voličskej verejnosti"
+  - "Politiky by sa mali posudzovať podľa toho, či sú v súlade s pôvodnou ústavou krajiny"
+explanation: >-
+  Friedman napísal, že jednou z najväčších chýb je posudzovať politiky podľa ich zámerov, nie podľa ich výsledkov, pričom poznamenal, že programy označované ako programy pre chudobných takmer vždy vytvárajú účinky opačné tým, ktoré ich sponzori zamýšľali. To odráža Bastiatovo učenie, že dobrý ekonóm zvažuje krátkodobé aj dlhodobé účinky na celú populáciu.
+reviewed: false

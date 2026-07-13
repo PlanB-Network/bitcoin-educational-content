@@ -1,0 +1,9 @@
+question: "Ce avertisment a dat Milton Friedman despre judecarea politicilor publice?"
+answer: "Politicile ar trebui judecate după rezultatele lor, nu după intențiile lor"
+wrong_answers:
+  - "Politicile ar trebui judecate după caracterul moral al politicienilor care le propun"
+  - "Politicile ar trebui judecate după cât de populare sunt în rândul publicului larg cu drept de vot"
+  - "Politicile ar trebui judecate după măsura în care se aliniază cu constituția originală a țării"
+explanation: >-
+  Friedman a scris că una dintre cele mai mari greșeli este să judeci politicile după intențiile lor, nu după rezultatele lor, observând că programele etichetate ca fiind pentru cei săraci produc aproape întotdeauna efecte opuse celor intenționate de sponsorii lor. Aceasta reia învățătura lui Bastiat potrivit căreia un economist bun ia în considerare atât efectele pe termen scurt, cât și pe cele pe termen lung asupra întregii populații.
+reviewed: false

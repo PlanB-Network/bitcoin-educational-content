@@ -1,0 +1,9 @@
+question: "İki boyutlu model, çoğu siyasi meselenin ekonomik ve kişisel kategorilere ayrılabileceğini neden savunur?"
+answer: "Çünkü ekonomik meseleler üretici ve tüketici olarak yaptıklarınızla, kişisel meseleler ise özel ilişkileriniz, inançlarınız ve bedensel özerkliğinizle ilgilidir"
+wrong_answers:
+  - "Çünkü tüm siyasi tartışmalar nihayetinde vergi düzeyleri ve dini uygulamalar hakkındaki anlaşmazlıklara indirgenir"
+  - "Çünkü hükümetler tarihsel olarak yalnızca iki şeyi düzenlemiştir: piyasa ve ordu"
+  - "Çünkü siyasi filozoflar antik çağdan beri maddi meseleleri manevi meselelerden her zaman ayırmıştır"
+explanation: >-
+  İki boyutlu model, siyasi meselelerin iki geniş kategoriye ayrıldığı fikrine dayanır. Ekonomik özgürlükler üretim, tüketim, ticaret, istihdam ve para yönetimini kapsar. Kişisel özgürlükler özel ilişkileri, görüşleri, inançları ve kişinin kendi bedeni ile zihni hakkındaki tercihleri kapsar. Bu ayrım, siyasi konumların tek bir sol-sağ eksenine göre çok daha nüanslı şekilde haritalandırılmasını sağlar.
+reviewed: false

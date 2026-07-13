@@ -1,0 +1,9 @@
+question: "Mida kutsub Kanti moto 'Sapere aude' inimesi tegema?"
+answer: "Julgeda ise mõelda ja väljuda alaealisuse seisundist, kus nad sõltuvad kõrgema võimu suunamisest"
+wrong_answers:
+  - "Taotlema akadeemilisi teadmisi formaalsetesse haridusasutustesse astumise ja kvalifikatsioonide omandamise kaudu"
+  - "Väljakutset esitama kõigile moraalivormidele ja looma täiesti uusi eetilisi süsteeme isikliku iha põhjal"
+  - "Otsima tarkust religioosse pühendumuse ja kiriku õpetustele allumise kaudu"
+explanation: >-
+  Sapere aude, tähendusega "Julge ise mõelda", võttis Kant luuletaja Horatiuselt ja tegi sellest valgustusajastu moto. See sümboliseerib väljumist alaealisusest, seisundist, milles inimesed ei suuda kasutada oma mõistust ilma kõrgema klassi või võimu suunamiseta. Kant julgustab emantsipatsiooni ja täielikku vastutust omaenda mõtlemise eest.
+reviewed: false

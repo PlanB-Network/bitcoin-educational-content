@@ -1,0 +1,9 @@
+question: "¿Cuál es el argumento fundamental de Hayek sobre por qué fracasa la planificación central?"
+answer: "El conocimiento existe solo como fragmentos dispersos poseídos por individuos distintos y no puede concentrarse ni integrarse por una autoridad central"
+wrong_answers:
+  - "Los planificadores centrales son moralmente corruptos y siempre actúan por interés propio en lugar del bien público"
+  - "Las instituciones democráticas son demasiado lentas para responder a los cambios económicos, lo que hace que las decisiones centralizadas estén siempre desactualizadas"
+  - "La planificación central fracasa porque los ciudadanos resisten deliberadamente los mandatos gubernamentales y se niegan a cumplir las regulaciones"
+explanation: >-
+  El argumento fundamental de Hayek descansa en la naturaleza de la información. Demostró que el conocimiento nunca existe de forma concentrada o integrada, sino solo como fragmentos dispersos poseídos por todos los individuos distintos. El valor es subjetivo y solo se conoce local e incompletamente. El planificador central, sentado en una oficina, no tiene conocimiento del verdadero precio de las cosas porque no participa en la interacción y el intercambio.
+reviewed: false

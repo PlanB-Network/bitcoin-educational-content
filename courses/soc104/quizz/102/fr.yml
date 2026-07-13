@@ -1,0 +1,9 @@
+question: "Pourquoi le cours décrit-il Bitcoin comme une monnaie de marché opposée à la monnaie d'État plutôt que comme un projet de droite ou de gauche ?"
+answer: "Parce que Bitcoin est une monnaie adoptée volontairement, difficile à produire et décentralisée, qui conserve sa valeur, contrairement à la monnaie fiat coercitive et centralisée qui perd de la valeur, ce qui fait de la fracture une question de marché contre État plutôt que d'idéologie politique"
+wrong_answers:
+  - "Parce que Bitcoin a été créé par un développeur anonyme qui a délibérément évité toute déclaration politique sur son objectif ou sa philosophie"
+  - "Parce que l'algorithme de minage de Bitcoin garantit une distribution égale des nouvelles pièces à tous les partis politiques, empêchant tout biais idéologique dans le système monétaire"
+  - "Parce que Bitcoin fonctionne de manière identique aux monnaies fiat existantes, mais opère sur un réseau de paiement plus rapide, rendant les distinctions politiques sans pertinence"
+explanation: >-
+  Bitcoin est décrit comme une révolte pacifique contre la politisation de la monnaie. La monnaie d'État ou fiat est un système coercitif et centralisé qui tend à perdre de la valeur. La monnaie de marché, historiquement l'or et actuellement Bitcoin, est une monnaie saine, difficile à produire, qui émerge volontairement et conserve sa valeur sur le long terme. L'opposition réelle n'est pas la gauche contre la droite, mais le marché contre l'État, ce qui fait de Bitcoin une rupture politique qui transcende les camps idéologiques traditionnels.
+reviewed: false

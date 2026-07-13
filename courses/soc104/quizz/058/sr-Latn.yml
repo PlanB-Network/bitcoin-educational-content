@@ -1,0 +1,9 @@
+question: "Koji skriveni paradoks leži u centrističkom pragmatizmu?"
+answer: "Sam pragmatizam počiva na obliku dogmatizma, naime na neizrečenom uverenju da su samo stručnjaci kompetentni da usmeravaju društvo"
+wrong_answers:
+  - "Centristi tvrde da su umereni, ali se dosledno svrstavaju uz levičarske partije u koalicionim vladama"
+  - "Centrističke politike deluju uravnoteženo, ali uvek daju prednost ekonomskom rastu nad zaštitom životne sredine"
+  - "Centristi odbacuju ideologiju, ali usvajaju krute principe slobodnog tržišta kada donose ekonomske odluke"
+explanation: >-
+  Paradoks centrističkog pragmatizma je u tome što tvrdi da odbacuje ideologiju u korist racionalne ekspertize, a ipak upravo ta tvrdnja počiva na nevidljivoj i neizrečenoj dogmi: da su samo tehnokrate sposobne da donose ispravne odluke. Ovo uverenje da samo stručnjaci treba da usmeravaju društvo samo je po sebi ideološko opredeljenje, iako ga centristi ne prepoznaju kao takvo.
+reviewed: false

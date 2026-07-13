@@ -1,0 +1,9 @@
+question: "Ce este principiul non-agresiunii așa cum a fost teoretizat de Murray Rothbard?"
+answer: "Este ilegitim să inițiezi forța fizică împotriva unui alt individ sau a proprietății sale, deși violența defensivă este permisă"
+wrong_answers:
+  - "Toate formele de violență sunt întotdeauna greșite, inclusiv autoapărarea și rezistența la opresiune"
+  - "Violența este acceptabilă când este îndreptată împotriva instituțiilor opresive, dar niciodată împotriva altor indivizi"
+  - "Doar statul are dreptul legitim de a folosi forța, iar indivizii nu trebuie să recurgă niciodată la violență"
+explanation: >-
+  Principiul non-agresiunii al lui Rothbard susține că inițierea forței fizice împotriva unei alte persoane sau a proprietății acesteia este ilegitimă. Este o transpunere filosofică a regulii de aur. Totuși, nu interzice orice violență: violența defensivă, inclusiv autoapărarea și rezistența la opresiune, este considerată legitimă. Acest lucru o distinge de pacifismul pur și de monopolul asupra forței revendicat de stat.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Koju poruku je Satoshi Nakamoto ugradio u prvi Bitcoin blok ikada iskopan?"
+answer: "Naslov iz londonskog Times-a o kancelaru koji je na ivici drugog spasavanja banaka"
+wrong_answers:
+  - "Citat Friedricha Hayeka o opasnostima centralnog planiranja i državne kontrole nad novcem"
+  - "Deklaraciju nezavisnosti od svih oblika vlasti i finansijske regulacije širom sveta"
+  - "Matematički dokaz koji pokazuje da je decentralizovana valuta efikasnija od fiat novca"
+explanation: >-
+  U genesis bloku, Satoshi Nakamoto je ubacio simboličan naslov iz londonskog Times-a: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." To je bila direktna referenca na finansijsku krizu iz 2008. i monetarni intervencionizam koji je usledio, čineći nameru Bitcoin-a nepogrešivom kao alternativu centralizovanim bankarskim sistemima.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mitä cypherpunk-periaate 'Cypherpunks write code' paljastaa liikkeen tavasta saavuttaa vapaus?"
+answer: "Että tie vapauteen kulkee anonyymien järjestelmien aktiivisen rakentamisen kautta, käyttäen koodia perustyökaluna vapauden abstraktien ideoiden muuttamiseksi todellisuudeksi"
+wrong_answers:
+  - "Että cypherpunkit ovat ensisijaisesti ohjelmistokehittäjiä, jotka kirjoittavat kaupallisia sovelluksia rahoittaakseen poliittisen aktivismin kampanjoitaan"
+  - "Että liike uskoo yleisön kouluttamiseen kirjallisten manifestien ja akateemisten julkaisujen kautta suoran toiminnan sijaan"
+  - "Että cypherpunkit keskittyvät olemassa olevien valtion järjestelmien hakkerointiin paljastaakseen valvontaohjelmia ja pakottaakseen lainsäädäntöuudistuksia"
+explanation: >-
+  Kaava "Cypherpunks write code" heijastaa liikkeen sitoutumista aktiiviseen interventioon pelkän toivomisen sijaan. Eric Hughesille tie vapauteen kulkee anonyymien järjestelmien aktiivisen rakentamisen kautta, järjestelmien jotka tekevät mielivaltaisista poliittisista jaoista merkityksettömiä. Koodista tulee perustyökalu vapauden abstraktien ideoiden muuttamiseksi todellisuudeksi, minkä vuoksi Satoshi Nakamoto kirjoitti koko Bitcoin-koodin ennen kuin edes kirjoitti white paperin.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Cypherpunk 原則「Cypherpunks write code」揭示了這場運動實現自由的方法是什麼？"
+answer: "通往自由的道路，是透過積極建構匿名系統，並以程式碼作為把抽象自由理念轉化為現實的基本工具"
+wrong_answers:
+  - "Cypherpunk 主要是軟體開發者，他們撰寫商業應用程式以資助自己的政治行動運動"
+  - "這場運動相信透過書面宣言與學術出版物教育公眾，而不是直接行動"
+  - "Cypherpunk 專注於駭入現有政府系統，以揭露監控計畫並迫使立法改革"
+explanation: >-
+  「Cypherpunks write code」這個公式反映了該運動對積極介入的承諾，而不只是抱持希望。對 Eric Hughes 而言，通往自由的道路要透過積極建構匿名系統，使任意的政治分界變得無關緊要。程式碼成為把抽象自由理念轉化為現實的基本工具，這也是為什麼 Satoshi Nakamoto 甚至在撰寫白皮書之前，就已經寫好了整個 Bitcoin 程式碼。
+reviewed: false

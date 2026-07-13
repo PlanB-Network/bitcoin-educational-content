@@ -1,0 +1,9 @@
+question: "Miten konservatismi käsittelee vapauksia talouden ja yhteiskunnan alueilla?"
+answer: "Vahvat vapaudet talouden alueella mutta heikot vapaudet yhteiskunnan alueella"
+wrong_answers:
+  - "Heikot vapaudet sekä talouden että yhteiskunnan alueilla perinteisen yhteiskuntajärjestyksen ylläpitämiseksi"
+  - "Vahvat vapaudet yhteiskunnan alueella mutta heikot vapaudet talouden alueella"
+  - "Yhtäläiset ja rajoittamattomat vapaudet molemmilla alueilla, kaikenlaisen valtion puuttumisen ollessa minimaalista"
+explanation: >-
+  Konservatismissa näkyy dikotomia, joka on sosialismin peilikuva. Talouden alueella konservatiivit puolustavat vapaita markkinoita, yrittäjyyttä ja yksityisomistusta. Yhteiskunnan alueella rajoituksia perustellaan perinteisten moraalinormien ja yhteiskunnallisen vakauden säilyttämisellä. Kolmas väärä vastaus kuvaa sosialistista kaavaa, joka on päinvastainen.
+reviewed: false

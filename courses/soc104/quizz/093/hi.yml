@@ -1,0 +1,9 @@
+question: "Centralization के बारे में cypherpunk philosophy, consent को justice का fundamental norm मानने वाले libertarian principle से कैसे connect होती है?"
+answer: "Cypherpunks सभी centralization को consent के बजाय coercion पर founded मानते हैं, जो libertarian position को echo करता है कि force के through centralized authority द्वारा impose की गई कोई भी चीज just नहीं हो सकती"
+wrong_answers:
+  - "Cypherpunks मानते हैं कि centralization acceptable है जब democratic majority vote से approve हो, जो constitutional governance के लिए libertarian respect से align करता है"
+  - "Cypherpunks emergencies के दौरान temporary centralization support करते हैं, जो libertarian view को reflect करता है कि collective threatened होने पर individual rights suspend किए जा सकते हैं"
+  - "Cypherpunks केवल technology systems में centralization oppose करते हैं, जबकि property rights और contracts enforce करने के लिए political centralization को necessary मानते हैं"
+explanation: >-
+  Cypherpunks centralized institutions के बजाय decentralized cryptographic systems में trust रखते हैं। सभी centralization को consent के बजाय coercion पर founded माना जाता है। यह सीधे libertarian philosophy को echo करता है कि consent justice का fundamental norm है। अगर कोई चीज force के through centralized authority द्वारा impose की जाती है, तो वह just नहीं हो सकती, इसलिए वे ऐसे decentralized networks build करना चाहते थे जहाँ कोई single entity अपनी will impose न कर सके।
+reviewed: false

@@ -1,0 +1,9 @@
+question: "誰常被引用為現代保守主義的奠基人物？"
+answer: "Edmund Burke，他主張保存制度與傳統，以對抗法國大革命的激進變革"
+wrong_answers:
+  - "Karl Marx，他在十九世紀發展了階級鬥爭與歷史唯物主義的理論"
+  - "John Locke，他在十七世紀闡述了自然權利與社會契約理論"
+  - "Adam Smith，他撰寫《The Wealth of Nations》並奠定了古典經濟學這門學科"
+explanation: >-
+  Edmund Burke 常被引用為保守主義的奠基人物，因為他反對法國大革命。他的《Reflections on the Revolution in France》（1790）推崇審慎與漸進改革，而非激進變革。他相信，社會不應透過清除一切重新開始來前進，而應透過保存經受考驗的制度與傳統的漸進改革來前進。
+reviewed: false

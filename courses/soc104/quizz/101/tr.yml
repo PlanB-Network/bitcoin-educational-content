@@ -1,0 +1,9 @@
+question: "Cypherpunklar neden anonim özelliklere sahip bir dijital para biriminin gerekli olduğunu savundu?"
+answer: "Çünkü başlıca anonim işlem sistemi olan nakit, dijital toplumda ortadan kaybolmaktadır ve aynı mahremiyet özelliklerine sahip bir dijital ikame icat edilmelidir"
+wrong_answers:
+  - "Çünkü mevcut dijital ödeme sistemleri çok yavaş ve pahalıydı; çevrimiçi ticaret için daha hızlı ve daha ucuz bir alternatif gerekiyordu"
+  - "Çünkü hükümetler anonim işlemlerin tüm biçimlerini çoktan yasaklamıştı ve bu yasaları yalnızca yeni bir teknoloji aşabilirdi"
+  - "Çünkü geleneksel bankalar belirli nüfuslara hizmet vermeyi reddediyordu; bu da evrensel olarak erişilebilir bir dijital ödeme sistemini ekonomik bir zorunluluk hâline getiriyordu"
+explanation: >-
+  Cypherpunk manifestosu, açık toplumda gizliliğin anonim işlem sistemleri gerektirdiğini belirtir. Dijital çağa kadar nakit bu türün başlıca sistemi olarak hizmet etti. Fakat nakdin ortadan kaybolduğu dijital bir toplumda, aynı anonimlik özelliklerine sahip bir dijital para birimi icat edilmelidir. Bu vizyon Bitcoin'in başaracağı şeyi doğrudan öngörmüştür.
+reviewed: false

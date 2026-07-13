@@ -1,0 +1,9 @@
+question: "Hvilket av følgende er et eksempel på spontan orden slik Hayek beskrev det?"
+answer: "Språk, som utviklet seg organisk gjennom historiske samhandlinger i stedet for å bli utformet av intellektuelle i et byrå"
+wrong_answers:
+  - "En nasjonal grunnlov, som ble nøye utarbeidet av valgte representanter for å etablere sosiale regler"
+  - "En statlig stimuleringsplan, som ble utformet av økonomer for å koordinere økonomisk aktivitet"
+  - "Et offentlig utdanningssystem, som ble opprettet av lovgivere for å sikre universell tilgang til kunnskap"
+explanation: >-
+  Hayek beskriver spontan orden som produktet av frie samhandlinger i samfunnet, et resultat av menneskelig handling, men ikke av bevisst menneskelig utforming. Språk er et fremragende eksempel: Fransk, engelsk og tysk ble ikke konstruert av intellektuelle som bestemte grammatikkregler, men oppsto som frukten av langsom, organisk organisering bygget gjennom historiske samhandlinger.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "En quoi la conception libertarienne de la liberté diffère-t-elle de la conception centriste ?"
+answer: "Les libertariens traitent la liberté comme un axiome inconditionnel, tandis que les centristes défendent les libertés de manière opportuniste selon le contexte et l'efficacité"
+wrong_answers:
+  - "Les libertariens autorisent l'État à protéger la liberté de manière sélective, tandis que les centristes rejettent toute intervention de l'État dans la protection des droits individuels"
+  - "Les libertariens concentrent la liberté uniquement sur les questions économiques, tandis que les centristes appliquent largement la liberté aux domaines sociaux et culturels"
+  - "Les libertariens et les centristes partagent la même vision de la liberté mais sont en désaccord sur la taille du gouvernement nécessaire pour la faire respecter"
+explanation: >-
+  Les libertariens définissent la liberté comme un principe général et inconditionnel qui fonctionne comme un axiome. Les centristes, au contraire, défendent certaines libertés de manière opportuniste et contextuelle sans appliquer de principe général. L'approche centriste révèle une conception instrumentale de la liberté, toujours subordonnée à des objectifs pragmatiques comme l'efficacité, ce que les libertariens rejettent fondamentalement.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Ako systém fiat peňazí posilňuje delenie medzi vládnucimi a ovládanými?"
+answer: "Umožňuje vládam financovať neobmedzené výdavky tvorbou peňazí, ktorá znehodnocuje úspory infláciou"
+wrong_answers:
+  - "Dáva občanom priamu kontrolu nad menovou politikou prostredníctvom demokratických volieb a referend"
+  - "Bráni vládam požičiavať si a núti ich spoliehať sa pri príjmoch výlučne na zdanenie"
+  - "Rozdeľuje novovytvorené peniaze rovnomerne medzi všetkých občanov s cieľom stimulovať hospodársky rast"
+explanation: >-
+  Fiat mena je opísaná ako základný kameň rozširovania štátnej moci, pretože umožňuje vládam požičiavať si a tlačiť banky k tomu, aby vytvárali nové peniaze. Výsledná inflácia znehodnocuje úspory ľudí a prospieva najbohatším a najmocnejším subjektom. Nedáva občanom menovú kontrolu, ani nebráni požičiavaniu či nerozdeľuje peniaze rovnomerne.
+reviewed: false

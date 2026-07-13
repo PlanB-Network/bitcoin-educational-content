@@ -1,0 +1,9 @@
+question: "Waarom betoogden de cypherpunks dat een digitale valuta met anonieme eigenschappen noodzakelijk was?"
+answer: "Omdat contant geld, het primaire anonieme transactiesysteem, in de digitale samenleving verdwijnt, en er een digitale vervanger met dezelfde privacy-eigenschappen moet worden uitgevonden"
+wrong_answers:
+  - "Omdat bestaande digitale betaalsystemen te traag en duur waren, waardoor een sneller en goedkoper alternatief voor online handel nodig was"
+  - "Omdat overheden alle vormen van anonieme transacties al hadden verboden en alleen een nieuwe technologie deze wetten kon omzeilen"
+  - "Omdat traditionele banken weigerden bepaalde bevolkingsgroepen te bedienen, waardoor een universeel toegankelijk digitaal betaalsysteem een economische noodzaak werd"
+explanation: >-
+  Het cypherpunk-manifest stelt dat vertrouwelijkheid in een open samenleving anonieme transactiesystemen vereist. Tot aan het digitale tijdperk diende contant geld als het primaire systeem van dit type. Maar in een digitale samenleving waar contant geld verdwijnt, moet een digitale valuta met dezelfde eigenschappen van anonimiteit worden uitgevonden. Deze visie liep rechtstreeks vooruit op wat Bitcoin zou bereiken.
+reviewed: false

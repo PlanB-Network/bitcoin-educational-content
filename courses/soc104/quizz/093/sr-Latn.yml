@@ -1,0 +1,9 @@
+question: "Kako Bitcoin funkcioniše kao moralni projekat s političkim posledicama, a ne kao politički projekat s moralnim tvrdnjama?"
+answer: "Bitcoin je dizajniran da ljude učini slobodnima, a ne bogatima, omogućavajući efektivnu svojinu, štiteći vrednost rada i čuvajući privatnost, što su moralna dostignuća koja proizvode političke efekte bez svrstavanja u bilo koji politički tabor"
+wrong_answers:
+  - "Bitcoin je moralni projekat zato što njegov kod sprovodi etička pravila koja sprečavaju prevaru, a njegova politička posledica je zamena demokratskog upravljanja algoritamskim odlučivanjem"
+  - "Bitcoin funkcioniše kao moralni projekat zato što redistribuira bogatstvo od bogatih ka ranim usvajačima, stvarajući pravednije društvo s političkim implikacijama za poresku politiku"
+  - "Bitcoin je moralan zato što je Satoshi Nakamoto ugradio etičke zapovesti u protokol, a njegova politička posledica je ujedinjenje svih političkih porodica pod zajedničkim monetarnim sistemom"
+explanation: >-
+  Bitcoin nije dizajniran da ljude učini bogatima, već da ih učini slobodnima. On postiže tri moralna ishoda: omogućava efektivnu svojinu (podstičući odgovornost), štiti vrednost stvorenu radom (ohrabrujući produktivan napor) i čuva privatnost (omogućavajući ljudima da žive bez straha). To su moralna dostignuća koja nose političke posledice, a da ne pripadaju nijednom političkom taboru, čineći ga najpre moralnim, a tek zatim političkim projektom.
+reviewed: false

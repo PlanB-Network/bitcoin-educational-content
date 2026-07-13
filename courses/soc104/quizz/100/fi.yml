@@ -1,0 +1,9 @@
+question: "Miksi cypherpunkit väittivät, että anonyymeillä ominaisuuksilla varustettu digitaalinen valuutta oli välttämätön?"
+answer: "Koska käteinen, ensisijainen anonyymi maksutapahtumajärjestelmä, on katoamassa digitaalisessa yhteiskunnassa, ja on keksittävä digitaalinen korvaaja, jolla on samat yksityisyysominaisuudet"
+wrong_answers:
+  - "Koska olemassa olevat digitaaliset maksujärjestelmät olivat liian hitaita ja kalliita, mikä edellytti nopeampaa ja halvempaa vaihtoehtoa verkkokaupalle"
+  - "Koska valtiot olivat jo kieltäneet kaikki anonyymien maksutapahtumien muodot ja vain uusi teknologia voisi kiertää nämä lait"
+  - "Koska perinteiset pankit kieltäytyivät palvelemasta tiettyjä väestöryhmiä, mikä teki yleisesti saavutettavasta digitaalisesta maksujärjestelmästä taloudellisen välttämättömyyden"
+explanation: >-
+  Cypherpunk-manifesti toteaa, että luottamuksellisuus avoimessa yhteiskunnassa edellyttää anonyymejä maksutapahtumajärjestelmiä. Digitaaliseen aikaan asti käteinen toimi ensisijaisena tämän tyyppisenä järjestelmänä. Mutta digitaalisessa yhteiskunnassa, jossa käteinen katoaa, on keksittävä digitaalinen valuutta, jolla on samat anonymiteetin ominaisuudet. Tämä visio ennakoi suoraan sitä, mitä Bitcoin saavuttaisi.
+reviewed: false

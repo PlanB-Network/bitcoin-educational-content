@@ -1,0 +1,9 @@
+question: "Proč Ron Paul tvrdí, že Federal Reserve škodí, a jak Bitcoin souvisí s jeho postojem?"
+answer: "Federal Reserve způsobuje inflaci a ekonomické cykly manipulací s fiat penězi a Bitcoin představuje formu zdravých peněz, která by mohla nahradit zlatý standard"
+wrong_answers:
+  - "Federal Reserve omezuje konkurenci bank a Bitcoin decentralizuje bankovní služby, aby zlepšil finanční začlenění"
+  - "Federal Reserve brání volnému obchodu mezi národy a Bitcoin umožňuje bezhraniční transakce bez vládního souhlasu"
+  - "Federal Reserve vytváří nadměrný vládní dluh a Bitcoin nabízí deflační měnu, která odstraňuje státní dluh"
+explanation: >-
+  Ron Paul, minarchista, tvrdí, že Federal Reserve je odpovědná za inflaci a ekonomické cykly, protože manipuluje fiat penězi. Prosazuje denacionalizaci peněz, myšlenku obhajovanou Friedrichem Hayekem, a vidí Bitcoin jako formu zdravých peněz, která by mohla nahradit zlatý standard. Jeho kritika je zakořeněna v libertariánské monetární teorii, nikoli primárně v konkurenci bank, obchodních bariérách nebo vládním dluhu.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Hvorfor anses intensjonelle definisjoner av politiske systemer som problematiske for analytiske formål?"
+answer: "De skaper begrepsforvirring fordi alle systemer hevder å forfølge lignende mål som rettferdighet, likhet og frihet"
+wrong_answers:
+  - "De er for presise og rigide, og gir ikke rom for politiske bevegelsers naturlige utvikling over tid"
+  - "De fokuserer for tungt på økonomiske utfall og ignorerer de kulturelle og sosiale dimensjonene ved politisk liv"
+  - "De bygger på klassifiserte regjeringsdokumenter som sjelden er tilgjengelige for uavhengige forskere"
+explanation: >-
+  Intensjonelle definisjoner bygger på uttalte motivasjoner og mål, men hvert politisk system hevder å forfølge rettferdighet, likhet og frihet. Dette gjør systemer umulige å skille fra hverandre. Strukturell analyse vurderer derimot systemer etter deres empiriske, målbare konsekvenser og midlene de bruker, og avdekker deres sanne natur bortenfor retorikken.
+reviewed: false

@@ -1,0 +1,10 @@
+question: "Satoshi Nakamoto は、これまでに採掘された最初の Bitcoin ブロックにどのようなメッセージを埋め込んだか？"
+answer: "財務大臣が 2 度目の銀行救済の瀬戸際にあるという London Times の見出し"
+wrong_answers:
+  - "中央計画と政府による貨幣統制の危険性についての Friedrich Hayek の引用"
+  - "世界中のあらゆる形態の政府と金融規制からの独立宣言"
+  - "分散型通貨が法定通貨よりも効率的であることを示す数学的証明"
+explanation: >-
+  ジェネシスブロックで、Satoshi Nakamoto は London Times の象徴的な見出し「The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout」を挿入した。
+  これは 2008 年の金融危機とそれに続いた金融介入主義への直接の言及であり、中央集権的な銀行システムに対する代替案としての Bitcoin の意図を明白にするものだった。
+reviewed: false

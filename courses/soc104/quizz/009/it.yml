@@ -1,0 +1,9 @@
+question: "Quali sono i due assi del diagramma di Nolan?"
+answer: "Un asse verticale che misura le libertà personali e un asse orizzontale che misura le libertà economiche"
+wrong_answers:
+  - "Un asse orizzontale da sinistra a destra e un asse verticale da autoritario a democratico"
+  - "Un asse verticale che misura la ricchezza e un asse orizzontale che misura i livelli di istruzione"
+  - "Un asse orizzontale dal socialismo al capitalismo e un asse verticale dalla tradizione al progresso"
+explanation: >-
+  David Nolan progettò il suo diagramma con due assi specifici: libertà personali (verticale) e libertà economiche (orizzontale). Questo approccio bidimensionale sostituisce la linea sinistra-destra eccessivamente semplificata e cattura meglio la complessità delle ideologie politiche separando le due principali categorie di libertà.
+reviewed: false

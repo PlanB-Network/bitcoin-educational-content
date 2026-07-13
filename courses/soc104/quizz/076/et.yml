@@ -1,0 +1,9 @@
+question: "Milles seisneb Hayeki põhiargument selle kohta, miks keskne planeerimine läbi kukub?"
+answer: "Teadmised eksisteerivad ainult hajutatud fragmentidena, mida omavad eri indiviidid, ning neid ei saa koondada ega integreerida keskse võimu poolt"
+wrong_answers:
+  - "Kesksed planeerijad on moraalselt korrumpeerunud ja tegutsevad alati omaenda huvides, mitte avaliku hüve nimel"
+  - "Demokraatlikud institutsioonid on majanduslikele muutustele reageerimiseks liiga aeglased, mistõttu tsentraliseeritud otsused on alati aegunud"
+  - "Keskne planeerimine kukub läbi, sest kodanikud seisavad valitsuse ettekirjutustele tahtlikult vastu ja keelduvad regulatsioone järgimast"
+explanation: >-
+  Hayeki põhiargument tugineb informatsiooni olemusele. Ta näitas, et teadmised ei eksisteeri kunagi koondatud ega integreeritud kujul, vaid ainult hajutatud fragmentidena, mida omavad kõik eri indiviidid. Väärtus on subjektiivne ning tuntud ainult lokaalselt ja ebatäielikult. Kontoris istuval kesksel planeerijal ei ole teadmisi asjade tegelikust hinnast, sest ta ei osale vastastikuses suhtluses ega vahetuses.
+reviewed: false

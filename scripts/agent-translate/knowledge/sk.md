@@ -18,3 +18,26 @@
 - Standard renderings used: `sekventový kalkul`, `lambda kalkul`, `prirodzená dedukcia`, `Curryho-Howardova korešpondencia`, `De Bruijnove indexy`, `dávková verifikácia` (batch verification), `typ unit`, `typ option`, `súčin/súčet` (product/sum), `orezať` (prune), `štandardnosť` (standardness), `on-chain` (kept).
 - `in Simplicity` → `v jazyku Simplicity` (adding the `jazyk` classifier reads naturally since the name is indeclinable); `a Simplicity program` → `program Simplicity` / `program v jazyku Simplicity`.
 - Quizz values that stay unquoted may safely contain `;`, `—`, `(` — YAML plain scalars only break on `: ` or ` #`; keep those out of unquoted answers. Preserve the source's per-field quoting style.
+
+## 2026-07-06
+- In SOC104 political-economy quizzes, keep `pro-business` and `pro-market` verbatim as labels; use `zástancovia pro-business/pro-market` for advocates.
+- Render Hayek's `spontaneous order` as `spontánny poriadok`, `central planning` as `centrálne plánovanie`, and `market process` as `trhový proces`.
+- Render Popper's `open society` / `closed society` as `otvorená spoločnosť` / `uzavretá spoločnosť`.
+- For political-spectrum SOC material, render `statism` as `etatizmus`, `libertarianism` as `libertarianizmus`, `centrism` as `centrizmus`, and `conservatism` as `konzervativizmus`.
+- Use `Nolanov diagram` for `Nolan diagram` and `Nolanov diamant` for `Nolan diamond`; render the top-bottom axis as `os hore-dole` and the left-right axis as `os ľavica-pravica` when naming them explicitly.
+- Translate `the Greens` as `Zelení` in political-party context.
+- In SOC104 political-economy quizzes, keep `pro-business` and `pro-market` as English course labels in Slovak, framed as `postoj pro-business/pro-market`, then explain them in Slovak.
+- Render Austrian/libertarian money terms as `fiat peniaze`, `zdravé peniaze` for `sound money`, `zlatý štandard`, and `odštátnenie peňazí`.
+- In SOC104 political-economy quizzes, render `moral hazard` as `morálny hazard`; use `dotácie` for subsidies and `záchranné balíky` for bailouts.
+- Render the socialist `dominant/dominated` conflict lens as `dominantní a ovládaní`; `oppressor/oppressed lens` as `optika utláčateľa a utláčaného`.
+- For totalitarianism material, use `totalitarizmus`, `totalitné režimy`, `sekulárne náboženstvá`, and `riadená ekonomika` for directed economy.
+- In SOC104 political terminology, keep Anglo-American labels like `liberal`, `liberals`, and `libertarians` in English when the point is the transatlantic meaning shift; use Slovak forms (`liberáli`, `libertariáni`, `libertarianizmus`) when referring to the political family outside that label contrast.
+- In SOC104 political terminology, keep the French label `libertaires` verbatim for socialist anarchists; use Slovak `libertariáni` / `libertarianizmus` for Anglo-American libertarians.
+- Keep `Green New Deal` verbatim in Slovak; render its “collective planetary health” framing as `kolektívny záujem definovaný zdravím planéty` to match the existing course translation.
+- For this course, render `equity` in political slogan lists as `rovnosť`, following the existing Slovak `sk.md` wording.
+- In political-theory Slovak, render `statism` as `etatizmus` and `statist` as `etatista`; keep this distinct from generic `štátny intervencionizmus`.
+- Use `libertarián/libertariánsky` for Anglo-American `libertarian`; keep French `libertaire` as italic `*libertaire*`/`*libertaires*` when the text explicitly contrasts it with libertarianism, and use `libertín` for `libertine`.
+- For cypherpunk material in Slovak, keep `Cypherpunks`/`cypherpunk` largely as the movement name, naturalising adjectives as `cypherpunkový` when needed; preserve slogans like `Cypherpunks write code` verbatim.
+- In cypherpunk/SOC104 quiz material, render the slogan `Cypherpunks write code` as `Cypherpunkovia píšu kód`; use `cypherpunkový` for adjectival forms and `Cypherpunkovia` for the movement members.
+- Keep `Bitcoin White Paper` in English as a title-like Bitcoin term; `white paper` can be lowercased when used generically in prose.
+- For SOC104 political philosophy, use `sociálny štát` for `welfare state`, `nátlak` for `coercion`, `donútenie` for `compulsion`, and `konštruktivizmus`/`antikonštruktivistický` for constructivism terminology.

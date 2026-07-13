@@ -1,0 +1,9 @@
+question: "Wer startete 1992 die erste Cypherpunk-Mailingliste?"
+answer: "Tim May und Eric Hughes, die eine Plattform schufen, die zum Nervenzentrum der Bewegung wurde"
+wrong_answers:
+  - "Satoshi Nakamoto und Hal Finney, die später 2008 gemeinsam Bitcoin erschufen"
+  - "Julian Assange und Edward Snowden, die die Liste nutzten, um Whistleblowing-Aktivitäten gegen Regierungen zu koordinieren"
+  - "Phil Zimmermann und Bruce Schneier, die die Liste als Werkzeug zur Verteilung von Verschlüsselungssoftware entwarfen"
+explanation: >-
+  1992 starteten Tim May und Eric Hughes die erste Cypherpunk-Mailingliste. Diese Plattform wurde schnell zum Nervenzentrum der Bewegung und brachte Entwickler, Kryptographen und Verteidiger digitaler Freiheit zusammen. Auf derselben Liste teilte Satoshi Nakamoto später 2008 erstmals das Bitcoin White Paper.
+reviewed: false

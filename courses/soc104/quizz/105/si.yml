@@ -1,0 +1,9 @@
+question: "මෙම course එකේ සම්පූර්ණ argument එක සලකා බලන විට, Bitcoin libertarian critique of constructivism, cypherpunk commitment to action, සහ individualist defense of moral autonomy එකවර embody කරන්නේ කෙසේද?"
+answer: "Bitcoin centrally planned money වෙනුවට spontaneous market order එකක් දමයි (anti-constructivism), financial freedom පිළිබඳ abstract ideal working code බවට පරිවර්තනය කරයි (cypherpunk action), සහ sovereign property සහ privacy individual වෙත restore කරයි (moral autonomy)"
+wrong_answers:
+  - "Bitcoin monetary policy set කිරීමට democratic governance භාවිත කරයි (anti-constructivism), financial freedom පිළිබඳ educational content publish කරයි (cypherpunk action), සහ protocol changes මත individualsට vote කිරීමට ඉඩ දෙයි (moral autonomy)"
+  - "Bitcoin financial regulation සියල්ල eliminate කරයි (anti-constructivism), deregulation සඳහා lobby කරන developers community එකක් නිර්මාණය කරයි (cypherpunk action), සහ wealthy individualsට monetary policy මත වැඩි control ලබා දෙයි (moral autonomy)"
+  - "Bitcoin server infrastructure රටවල් කිහිපයක decentralize කරයි (anti-constructivism), technology freely share කිරීමට open-source licensing භාවිත කරයි (cypherpunk action), සහ political dissent සඳහා anonymous social media platforms සපයයි (moral autonomy)"
+explanation: >-
+  course එක තුළ explore කරන intellectual traditions තුනක intersection එකේ Bitcoin පිහිටා ඇත. central planner කිසිවෙකුට control කළ නොහැකි spontaneous, decentralized monetary order එකකින් centrally planned fiat money replace කිරීම හරහා එය anti-constructivist argument embody කරයි. financial freedom සහ privacy පිළිබඳ abstract ideals working technology බවට turning කරමින්, code ලිවීමට ඇති cypherpunk imperative එක fulfill කරයි. மேலும் sovereign property සක්‍රීය කිරීම, labor හි fruits ආරක්ෂා කිරීම, සහ privacy preserve කිරීම හරහා moral autonomy සඳහා individualist defense එකට සේවය කරයි; එමඟින් සෑම පුද්ගලයෙකුටම තමන්ගේම life හි master වීමට ඉඩ දෙයි.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto'nun tespit ettiği fiat para birimlerinin temel sorunu nedir?"
+answer: "Para birimini değer kaybına uğratmaması için merkez bankasına güvenmeyi gerektirirler; fakat fiat para birimlerinin tarihi bu güvenin ihlalleriyle doludur"
+wrong_answers:
+  - "Fiziksel nakit hızla yıprandığı ve üretimi pahalı olduğu için günlük işlemlerde kullanılmaları çok zordur"
+  - "Her ülkenin uyumsuz parasal standartları ve düzenlemeleri olduğu için uluslararası olarak transfer edilemezler"
+  - "Dolaşımdaki toplam para arzını karşılamaya yetmeyen altın rezervleriyle desteklenirler"
+explanation: >-
+  Satoshi Nakamoto, geleneksel para birimlerinin temel sorununun işlemeleri için gereken güven olduğunu belirtmiştir. Fiat para birimleri bir emtia tarafından desteklenmez; tamamen kurumsal otoriteye dayanır. Bir kurum para üzerinde tam kontrole sahip olduğunda, kötüye kullanma ayartısı çok güçlüdür ve tarih bunu para birimi değer kaybı yoluyla defalarca göstermiştir.
+reviewed: false

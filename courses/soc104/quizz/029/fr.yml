@@ -1,0 +1,9 @@
+question: "Quel est le concept d'ordre spontané tel que le décrit Friedrich Hayek ?"
+answer: "Les règles et les normes sociales doivent émerger des interactions individuelles libres plutôt qu'être imposées par une planification autoritaire"
+wrong_answers:
+  - "Les marchés tendent naturellement vers le monopole à moins que l'État n'intervienne pour maintenir l'équilibre concurrentiel"
+  - "Les élections démocratiques sont le seul mécanisme légitime pour établir les lois qui gouvernent la société"
+  - "Les crises économiques surgissent spontanément et nécessitent une intervention immédiate du gouvernement pour rétablir la stabilité"
+explanation: >-
+  Le concept d'ordre spontané de Hayek affirme que les règles qui gouvernent la société ne doivent pas être imposées d'en haut par la planification centrale, mais doivent émerger du libre jeu des volontés individuelles, des contrats et des relations volontaires. C'est un axe fondamental de la pensée libertarienne. Cela n'implique pas que les marchés tendent vers le monopole ni que les crises nécessitent une intervention gouvernementale.
+reviewed: false

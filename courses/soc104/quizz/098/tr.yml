@@ -1,0 +1,9 @@
+question: "Cypherpunkların merkezîleşme felsefesi, adaletin temel normu olarak rızaya dair liberteryen ilkeyle nasıl bağlantılıdır?"
+answer: "Cypherpunklar tüm merkezîleşmeyi rızadan ziyade zorlama üzerine kurulmuş görür; bu da merkezî bir otorite tarafından zor kullanarak dayatılan hiçbir şeyin adil olamayacağı yönündeki liberteryen konumu yansıtır"
+wrong_answers:
+  - "Cypherpunklar merkezîleşmenin demokratik çoğunluk oyu ile onaylandığında kabul edilebilir olduğuna inanır; bu da anayasal yönetişime yönelik liberteryen saygıyla uyumludur"
+  - "Cypherpunklar acil durumlarda geçici merkezîleşmeyi destekler; bu da kolektif tehdit altındayken bireysel hakların askıya alınabileceği yönündeki liberteryen görüşü yansıtır"
+  - "Cypherpunklar yalnızca teknoloji sistemlerinde merkezîleşmeye karşı çıkar; mülkiyet haklarını ve sözleşmeleri uygulamak için siyasi merkezîleşmeyi gerekli kabul eder"
+explanation: >-
+  Cypherpunklar güveni merkezî kurumlara değil, merkeziyetsiz kriptografik sistemlere yerleştirir. Tüm merkezîleşme rızadan ziyade zorlama üzerine kurulmuş olarak algılanır. Bu, rızanın adaletin temel normu olduğunu savunan liberteryen felsefeyi doğrudan yansıtır. Merkezî bir otorite tarafından zor kullanarak dayatılan hiçbir şey adil olamaz; bu nedenle onlar tek bir varlığın iradesini dayatamayacağı merkeziyetsiz ağlar inşa etmeye çalıştılar.
+reviewed: false

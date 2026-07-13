@@ -1,0 +1,9 @@
+question: "Mis on oluline erinevus ettevõtlusmeelsuse ja turumeelsuse vahel?"
+answer: "Ettevõtlusmeelsus tähendab suurte ettevõtete ja riigi liidu soosimist, samas kui turumeelsus tähendab vaba konkurentsi toetamist ilma riikliku soosimiseta"
+wrong_answers:
+  - "Ettevõtlusmeelsus tähendab väikeettevõtete toetamist, samas kui turumeelsus tähendab hargmaiste korporatsioonide toetamist"
+  - "Ettevõtlusmeelsus tähendab igasugusele regulatsioonile täielikku vastuseisu, samas kui turumeelsus tähendab mõõduka regulatsiooni aktsepteerimist"
+  - "Ettevõtlusmeelsus keskendub kodumaisele tööstusele, samas kui turumeelsus keskendub rahvusvahelisele kaubandusele"
+explanation: >-
+  Tsentristid kalduvad olema ettevõtlusmeelsed, mis tähendab, et nad soosivad omamoodi liitu suurte ettevõtete ja riigi vahel, mis erineb turumeelsusest. Turumeelsus toetab vaba konkurentsi ilma riikliku soosimise või korporatiivse protektsionismita. See eristus on ülioluline, sest ettevõtlusmeelsed poliitikad võivad luua monopole ja regulatiivseid kaitseid, mis tegelikult õõnestavad vabaturukonkurentsi.
+reviewed: false

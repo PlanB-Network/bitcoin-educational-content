@@ -1,0 +1,9 @@
+question: "Hva er John Rawls' to rettferdighetsprinsipper?"
+answer: "Lik frihet for alle, og forskjellsprinsippet som tillater ulikheter bare hvis de gagner de mest vanskeligstilte"
+wrong_answers:
+  - "Allmenn stemmerett for alle borgere, og progressiv beskatning for å finansiere offentlige tjenester"
+  - "Ytringsfrihet uten begrensning, og obligatorisk omfordeling av rikdom for å oppnå likhet"
+  - "Beskyttelse av private eiendomsrettigheter, og ikke-aggresjonsprinsippet anvendt på alle statlige handlinger"
+explanation: >-
+  Rawls foreslår to prinsipper: for det første lik frihet for alle (demokratiets grunnlag), og for det andre forskjellsprinsippet, som tillater ulikheter bare hvis de gagner de mest vanskeligstilte medlemmene av samfunnet. Dette betyr at man har rett til å bli rik, forutsatt at omfordeling gjør at de minst begunstigede også får nytte. De andre alternativene blander elementer fra ulike politiske filosofier.
+reviewed: false

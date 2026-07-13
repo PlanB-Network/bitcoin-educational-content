@@ -1,0 +1,9 @@
+question: "En quoi les positions conservatrice et libertarienne sur le salaire minimum diffèrent-elles dans leur raisonnement, bien que toutes deux soient favorables à son abolition ?"
+answer: "Les conservateurs acceptent une certaine implication de l'État dans la fixation des salaires si elle ne nuit pas à la compétitivité, tandis que les libertariens voient le salaire minimum comme une imposition morale à la liberté d'embaucher et de faire des affaires"
+wrong_answers:
+  - "Les conservateurs s'opposent au salaire minimum parce qu'il crée de l'inflation, tandis que les libertariens s'y opposent parce qu'il donne trop de pouvoir aux syndicats"
+  - "Les conservateurs veulent que les salaires soient fixés par les institutions religieuses et communautaires, tandis que les libertariens veulent des salaires déterminés par des études de marché approuvées par le gouvernement"
+  - "Les conservateurs pensent que les salaires minimums devraient varier selon les régions, tandis que les libertariens pensent qu'un salaire unique et uniforme devrait s'appliquer au niveau national"
+explanation: >-
+  Tous deux sont favorables à la réduction ou à l'abolition du salaire minimum, mais leur raisonnement diffère fondamentalement. Les conservateurs acceptent une certaine implication de l'État dans la fixation des salaires tout en insistant pour qu'elle reste minimale et dépendante du contexte, en se concentrant sur la compétitivité. Les libertariens adoptent une position morale plus forte : un salaire minimum est une imposition à la liberté d'embaucher et de faire des affaires. Lorsque les libertariens parlent du « marché », ils entendent le contrat, librement négocié entre deux parties sans ingérence de l'État.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Mida määratleb kursus tegeliku poliitilise lõhena väljaspool traditsioonilist vasak-parem-kesk-spektrit?"
+answer: "Lõhet fundamentaalsete filosoofiliste põhimõtete vahel: vabadus või sund, vabatahtlik nõusolek või kohustuslik allumine, vastutav üksikisik või kollektiiv"
+wrong_answers:
+  - "Lõhet rikaste ja vaeste riikide vahel kontrolli üle rahvusvaheliste kaubanduslepingute ja ülemaailmsete finantsinstitutsioonide üle"
+  - "Lõhet linnade ja maapiirkondade elanikkonna vahel valitsuse kulutuste prioriteetide ja taristuinvesteeringute üle"
+  - "Lõhet progressiivsete ja traditsiooniliste kultuuride vahel sotsiaalsete normide, perekondlike väärtuste ja usuõpetuse üle"
+explanation: >-
+  Kursus väidab, et tegelik poliitiline lõhe ei seisne traditsioonilistes vasak-parem-kesk-siltides, vaid fundamentaalsetes filosoofilistes põhimõtetes: vabadus või sund, vabatahtlik nõusolek või kohustuslik allumine, vastutav üksikisik või kollektiiv. Õige viis poliitikast mõelda on alustada eetilistest põhimõtetest, mitte siltidest.
+reviewed: false

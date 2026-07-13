@@ -1,0 +1,9 @@
+question: "Koje je upozorenje Milton Friedman dao o procenjivanju javnih politika?"
+answer: "Politike treba prosuđivati prema njihovim rezultatima, a ne prema njihovim namerama"
+wrong_answers:
+  - "Politike treba prosuđivati prema moralnom karakteru političara koji ih predlažu"
+  - "Politike treba prosuđivati prema tome koliko su popularne kod opšte biračke javnosti"
+  - "Politike treba prosuđivati prema tome da li se usklađuju s izvornim ustavom zemlje"
+explanation: >-
+  Friedman je napisao da je jedna od najvećih grešaka prosuđivati politike prema njihovim namerama, a ne prema njihovim rezultatima, primećujući da programi označeni kao namenjeni siromašnima gotovo uvek proizvode efekte suprotne onome što su njihovi pokrovitelji nameravali. To odjekuje Bastiatovim učenjem da dobar ekonomista razmatra i kratkoročne i dugoročne efekte na celo stanovništvo.
+reviewed: false

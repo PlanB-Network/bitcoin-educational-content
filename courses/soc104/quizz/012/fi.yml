@@ -1,0 +1,9 @@
+question: "Mikä luonnehtii henkilökohtaisen vapauden akselin alaosaa Nolanin kaaviossa?"
+answer: "Mieltymys järjestykseen, turvallisuuteen, perinteisiin arvoihin sekä siihen, että valtio säätelee moraalia ja ylläpitää yleistä järjestystä"
+wrong_answers:
+  - "Mieltymys yksilölliseen autonomiaan, suvaitsevaisuuteen ja valtion vähäiseen puuttumiseen henkilökohtaisissa elämänvalinnoissa"
+  - "Mieltymys taloudelliseen sääntelyn purkamiseen, vapaakauppaan sekä tullien ja tukien poistamiseen"
+  - "Mieltymys varallisuuden uudelleenjakoon, korkeisiin veroihin ja keskeisten teollisuudenalojen kansallistamiseen"
+explanation: >-
+  Henkilökohtaisen vapauden akselin alaosa edustaa valtion maksimaalista kontrollia henkilökohtaiseen elämään, ja sitä luonnehtii mieltymys järjestykseen, turvallisuuteen ja perinteisiin arvoihin. Valtio säätelee moraalia, ylläpitää yleistä järjestystä ja saattaa puolustaa tiettyä näkemystä moraalista tai perinteestä. Akselin yläosa edustaa vastakohtaa: yksilönvapautta ja suvaitsevaisuutta. Talouspolitiikkoja mitataan erillisellä vaaka-akselilla.
+reviewed: false

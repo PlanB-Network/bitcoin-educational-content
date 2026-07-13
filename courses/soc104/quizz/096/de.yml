@@ -1,0 +1,9 @@
+question: "Was ist die Kernbotschaft von Eric Hughes' Cypherpunk-Manifest von 1993 in Bezug auf Privatsphäre?"
+answer: "Privatsphäre ist für eine offene Gesellschaft im elektronischen Zeitalter wesentlich, und Individuen müssen sie selbst aufbauen, statt zu erwarten, dass Regierungen oder Unternehmen sie garantieren"
+wrong_answers:
+  - "Privatsphäre ist ein Luxus, der im Austausch für nationale Sicherheit und den Schutz demokratischer Institutionen geopfert werden muss"
+  - "Privatsphäre sollte durch internationale Verträge reguliert werden, die einheitliche Standards für Datenschutz in allen Ländern festlegen"
+  - "Privatsphäre ist nur für Kriminelle und Dissidenten wichtig, während gesetzestreue Bürger von transparenten Überwachungssystemen profitieren"
+explanation: >-
+  Eric Hughes' Manifest von 1993 erklärt, dass Privatsphäre für eine offene Gesellschaft im elektronischen Zeitalter wesentlich ist und dass wir nicht erwarten können, dass Regierungen, Unternehmen oder andere große Organisationen sie garantieren. Die grundlegende Motivation ist, dass Vertraulichkeit ein Schlüsselelement der Freiheit ist und von Individuen selbst aufgebaut werden muss, nicht als Geschenk von Institutionen erwartet werden darf.
+reviewed: false

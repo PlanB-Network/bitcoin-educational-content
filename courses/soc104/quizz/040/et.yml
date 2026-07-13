@@ -1,0 +1,9 @@
+question: "Miks peetakse poliitiliste süsteemide kavatsuslikke määratlusi analüütilistel eesmärkidel problemaatiliseks?"
+answer: "Need tekitavad mõistelist segadust, sest kõik süsteemid väidavad end taotlevat sarnaseid eesmärke, nagu õiglus, võrdsus ja vabadus"
+wrong_answers:
+  - "Need on liiga täpsed ja jäigad, jättes poliitiliste liikumiste loomulikule arengule ajas liiga vähe ruumi"
+  - "Need keskenduvad liigselt majanduslikele tulemustele ning eiravad poliitilise elu kultuurilisi ja sotsiaalseid mõõtmeid"
+  - "Need tuginevad salastatud valitsusdokumentidele, mis on sõltumatutele uurijatele harva kättesaadavad"
+explanation: >-
+  Kavatsuslikud määratlused tuginevad deklareeritud motiividele ja eesmärkidele, kuid iga poliitiline süsteem väidab end taotlevat õiglust, võrdsust ja vabadust. See muudab süsteemide üksteisest eristamise võimatuks. Struktuurne analüüs hindab süsteeme seevastu nende empiiriliste, mõõdetavate tagajärgede ja kasutatavate vahendite järgi, paljastades nende tegeliku olemuse retoorikast kaugemal.
+reviewed: false

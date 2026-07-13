@@ -1,0 +1,9 @@
+question: "Šta je koncept 'spontanog poretka' kako ga opisuje Friedrich Hayek?"
+answer: "Društvena pravila i norme treba da nastaju iz slobodnih individualnih interakcija, a ne da budu nametnute autoritarnim planiranjem"
+wrong_answers:
+  - "Tržišta prirodno teže monopolu osim ako država ne interveniše da održi konkurentsku ravnotežu"
+  - "Demokratski izbori su jedini legitiman mehanizam za uspostavljanje zakona koji upravljaju društvom"
+  - "Ekonomske krize nastaju spontano i zahtevaju neposrednu intervenciju vlade kako bi se obnovila stabilnost"
+explanation: >-
+  Hayekov koncept spontanog poretka drži da pravila koja upravljaju društvom ne treba da budu nametnuta odozgo centralnim planiranjem, već treba da nastaju iz slobodne igre individualnih volja, ugovora i dobrovoljnih odnosa. To je temeljna osa libertarijanske misli. On ne podrazumeva da tržišta teže monopolu niti da krize zahtevaju intervenciju vlade.
+reviewed: false

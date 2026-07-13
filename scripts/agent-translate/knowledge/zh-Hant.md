@@ -18,3 +18,21 @@
 - Simplicity technical primitives are best kept in English when they are identifiers or named constructs (`iden`, `unit`, `case`, `witness`, jets, CMR), while explanatory type-theory prose can use 繁中 terms such as 組合子、和型別、積型別、單位型別、序列演算。
 - For Simplicity effects, keep the effect names in English and translate the category word: Failure 效應、Reader 效應、Writer 效應; translate the properties as 可交換、冪等、單位.
 - Keep named Bitcoin/Taproot path terms in English inside technical prose when they are part of protocol vocabulary (`key-spend path`, `script path`, `internal key`, `tweak`, `tagged hash`) unless the sentence is purely explanatory.
+
+## 2026-07-06
+- In SOC104 political-theory quizzes, keep French `libertaires` verbatim to preserve the contrast with English `libertarians`, rendered as `自由意志主義者`; gloss `French libertaires (socialist anarchists)` as `法國 libertaires（社會主義無政府主義者）`.
+- Render `holism` as `Holism`/`holism` when naming the term, with the explanatory Chinese phrase `整體` or `整體論` only in prose if needed.
+- Political taxonomy terms in soc104: translate `libertarian` as `自由至上主義者` in explanatory prose, but keep contrast terms `liberal`、`libertarian`、`libertaire`、`libertine` verbatim when the lesson is about transatlantic/French terminology ambiguity.
+- For this political-philosophy course, keep named doctrines/movements often used as labels in the source in English when they are being compared as technical categories (`liberalism`, `libertarianism`, `constructivism`, `welfare state`, `fiat money`, `fiat currency`, `cypherpunk/Cypherpunks`) unless a glossary canonical link supplies a Chinese term.
+- Preserve country/party/institution names in English when they function as proper nouns or comparative labels (`United Kingdom`, `Republican Party`, `Democrats`, `Federal Reserve`, `New Deal`, `Green New Deal`) to avoid over-localizing political examples.
+- For SOC104 political terminology, keep `paleo-libertarianism`, `neo-libertarianism`, `paleo-libertarian`, `liberal`, `liberals`, and institution names such as `Cato Institute`, `Mises Institute`, `Libertarian Party` in English when the lesson discusses term labels or specific organizations.
+- SOC104 zh-Hant uses 國家主義/statist, 自由意志主義/libertarianism, 中間主義/centrism, 政治保守主義/political conservatism, 文化保守主義/cultural conservatism, 自發秩序/spontaneous order, 強制平等主義/forced egalitarianism.
+- For SOC104 political terminology, mirror the course file: libertarian=自由至上主義者, minarchist=最小國家主義者, anarcho-capitalist=無政府資本主義者, technocracy=技術官僚制, pro-business/pro-market=親商/親市場.
+- Keep course-specific English political labels when the zh-Hant course keeps them English, especially neoconservatives, paleoconservatives, liberalism, libertarian, laissez-faire, welfare state, Federal Reserve, fiat money, corporatism.
+- soc104 政治術語已由 `courses/soc104/zh-Hant.md` 錨定：libertarian=自由至上主義者, conservative=保守主義者, socialist=社會主義者, centrist=中間派, totalitarianism=極權主義, despotism=專制。
+- soc104 保留政治思想/政權名稱的英文形式與既有混寫風格：Nazism, communism, Stalinism, Nazi 德國, Hitler, Stalin, Mussolini, Hannah Arendt, Raymond Aron。
+- In SOC104 zh-Hant, keep `constructivism`/`Constructivism` in English to match `courses/soc104/zh-Hant.md`, rather than translating it as 建構主義.
+- soc104 political-axis terminology: render `left-right axis` as `左右軸`, `top-bottom/vertical axis` as `縱軸（上—下）`, `horizontal axis` as `橫軸`, and keep `Nolan diagram` / `Nolan diamond` in English when used as named model labels.
+- For political theory in soc104, use `國家` for `state` (as an institution/sovereign power) and `政府` for `government`; `statism` is `國家主義`, `libertarianism` is `自由意志主義`, `minarchists` is `最小國家主義者`, and `anarcho-capitalists` is `無政府資本主義者`.
+- soc104 political terminology: keep `Cypherpunk`/`Cypherpunks write code` as English movement/slogan terms; render libertarian/libertarianism as `自由意志主義`/`自由意志主義者`, fiat money/currency as `法定貨幣`, welfare state as `福利國家`.
+- For exact historical embedded text such as the genesis-block headline `The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout.`, keep the quoted headline verbatim and translate only the surrounding explanation.

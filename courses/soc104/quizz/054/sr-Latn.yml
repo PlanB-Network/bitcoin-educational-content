@@ -1,0 +1,9 @@
+question: "Koja su dva principa pravde Johna Rawls-a?"
+answer: "Jednaka sloboda za sve i princip razlike, koji dopušta nejednakosti samo ako koriste najugroženijima"
+wrong_answers:
+  - "Opšte pravo glasa za sve građane i progresivno oporezivanje za finansiranje javnih usluga"
+  - "Sloboda govora bez ograničenja i obavezna preraspodela bogatstva radi postizanja jednakosti"
+  - "Zaštita prava privatne svojine i princip nenapadanja primenjen na sve postupke države"
+explanation: >-
+  Rawls predlaže dva principa: prvo, jednaku slobodu za sve (temelj demokratije), i drugo, princip razlike, koji dopušta nejednakosti samo ako koriste najugroženijim članovima društva. To znači da neko ima pravo da se obogati, pod uslovom da preraspodela omogućava da i najmanje povlašćeni imaju koristi. Druge opcije mešaju elemente iz različitih političkih filozofija.
+reviewed: false

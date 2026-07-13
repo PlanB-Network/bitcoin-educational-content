@@ -1,0 +1,9 @@
+question: "Thông điệp cốt lõi của Cypherpunk Manifesto năm 1993 của Eric Hughes về quyền riêng tư là gì?"
+answer: "Quyền riêng tư là thiết yếu đối với một xã hội mở trong thời đại điện tử, và các cá nhân phải tự xây dựng nó thay vì kỳ vọng chính phủ hoặc các tập đoàn bảo đảm nó"
+wrong_answers:
+  - "Quyền riêng tư là một xa xỉ phẩm phải được hy sinh để đổi lấy an ninh quốc gia và sự bảo vệ các định chế dân chủ"
+  - "Quyền riêng tư nên được điều tiết bằng các hiệp ước quốc tế thiết lập các tiêu chuẩn thống nhất về bảo vệ dữ liệu trên mọi quốc gia"
+  - "Quyền riêng tư chỉ quan trọng đối với tội phạm và người bất đồng chính kiến, trong khi công dân tuân thủ pháp luật hưởng lợi từ các hệ thống giám sát minh bạch"
+explanation: >-
+  Tuyên ngôn năm 1993 của Eric Hughes nói rằng quyền riêng tư là thiết yếu đối với một xã hội mở trong thời đại điện tử và chúng ta không thể kỳ vọng chính phủ, các tập đoàn hay những tổ chức lớn khác bảo đảm nó. Động lực căn bản là tính bảo mật là một yếu tố then chốt của tự do và phải được chính các cá nhân xây dựng, chứ không được chờ đợi như một món quà từ các định chế.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Vilka är John Rawls två rättviseprinciper?"
+answer: "Lika frihet för alla, och differensprincipen som tillåter ojämlikheter endast om de gynnar de mest missgynnade"
+wrong_answers:
+  - "Allmän rösträtt för alla medborgare, och progressiv beskattning för att finansiera offentliga tjänster"
+  - "Yttrandefrihet utan begränsning, och obligatorisk omfördelning av välstånd för att uppnå jämlikhet"
+  - "Skydd av privat äganderätt, och icke-aggressionsprincipen tillämpad på alla statliga åtgärder"
+explanation: >-
+  Rawls föreslår två principer: för det första lika frihet för alla (demokratins grund), och för det andra differensprincipen, som tillåter ojämlikheter endast om de gynnar samhällets mest missgynnade medlemmar. Det innebär att man har rätt att bli rik, förutsatt att omfördelning låter de minst gynnade också dra nytta av det. De andra alternativen blandar element från olika politiska filosofier.
+reviewed: false

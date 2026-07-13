@@ -1,0 +1,9 @@
+question: "Vem lanserade den första Cypherpunk-sändlistan 1992?"
+answer: "Tim May och Eric Hughes, som skapade en plattform som blev rörelsens nervcentrum"
+wrong_answers:
+  - "Satoshi Nakamoto och Hal Finney, som senare skapade Bitcoin tillsammans 2008"
+  - "Julian Assange och Edward Snowden, som använde listan för att samordna visselblåsning mot regeringar"
+  - "Phil Zimmermann och Bruce Schneier, som utformade listan som ett verktyg för att distribuera krypteringsprogramvara"
+explanation: >-
+  År 1992 lanserade Tim May och Eric Hughes den första Cypherpunk-sändlistan. Denna plattform blev snabbt rörelsens nervcentrum och samlade utvecklare, kryptografer och förespråkare för digital frihet. Det var på just denna lista som Satoshi Nakamoto senare skulle dela Bitcoins White Paper för första gången 2008.
+reviewed: false

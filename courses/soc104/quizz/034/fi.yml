@@ -1,0 +1,9 @@
+question: "Mikä on Murray Rothbardin teoretisoima aggressiokielto?"
+answer: "Fyysisen voiman aloittaminen toista yksilöä tai hänen omaisuuttaan vastaan on epälegitiimiä, vaikka puolustuksellinen väkivalta on sallittua"
+wrong_answers:
+  - "Kaikki väkivallan muodot ovat aina väärin, mukaan lukien itsepuolustus ja sorron vastustaminen"
+  - "Väkivalta on hyväksyttävää, kun se kohdistuu sortaviin instituutioihin, mutta ei koskaan toisiin yksilöihin"
+  - "Vain valtiolla on legitiimi oikeus käyttää voimaa, eivätkä yksilöt saa koskaan turvautua väkivaltaan"
+explanation: >-
+  Rothbardin aggressiokiellon mukaan fyysisen voiman aloittaminen toista henkilöä tai hänen omaisuuttaan vastaan on epälegitiimiä. Se on kultaisen säännön filosofinen käännös. Se ei kuitenkaan kiellä kaikkea väkivaltaa: puolustuksellista väkivaltaa, mukaan lukien itsepuolustus ja sorron vastustaminen, pidetään legitiiminä. Tämä erottaa sen puhtaasta pasifismista ja valtion väittämästä voimankäytön monopolista.
+reviewed: false

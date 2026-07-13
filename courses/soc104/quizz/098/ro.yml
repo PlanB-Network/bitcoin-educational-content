@@ -1,0 +1,9 @@
+question: "De ce au susținut cypherpunks că era necesară o monedă digitală cu proprietăți anonime?"
+answer: "Pentru că numerarul, principalul sistem de tranzacții anonime, dispare în societatea digitală, iar un înlocuitor digital cu aceleași proprietăți de confidențialitate trebuie inventat"
+wrong_answers:
+  - "Pentru că sistemele existente de plată digitală erau prea lente și costisitoare, necesitând o alternativă mai rapidă și mai ieftină pentru comerțul online"
+  - "Pentru că guvernele interziseseră deja toate formele de tranzacții anonime și doar o tehnologie nouă putea ocoli aceste legi"
+  - "Pentru că băncile tradiționale refuzau să deservească anumite populații, făcând dintr-un sistem de plată digital accesibil universal o necesitate economică"
+explanation: >-
+  Manifestul cypherpunk afirmă că, într-o societate deschisă, confidențialitatea necesită sisteme de tranzacții anonime. Până în era digitală, numerarul a servit drept principalul sistem de acest tip. Însă într-o societate digitală în care numerarul dispare, trebuie inventată o monedă digitală cu aceleași proprietăți de anonimat. Această viziune a anticipat direct ceea ce avea să realizeze Bitcoin.
+reviewed: false

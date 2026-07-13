@@ -1,0 +1,9 @@
+question: "¿Qué tensión interna existe entre los libertarios en el diagrama de Nolan?"
+answer: "Algunos quieren abolir por completo el Estado (anarcocapitalistas), mientras que otros prefieren un Estado mínimo que conserve funciones soberanas esenciales (minarquistas)"
+wrong_answers:
+  - "Algunos quieren una fuerte regulación económica, mientras que otros prefieren la desregulación completa de todas las industrias"
+  - "Algunos apoyan elecciones democráticas, mientras que otros favorecen un sistema hereditario de gobierno"
+  - "Algunos defienden políticas sociales progresistas, mientras que otros defienden valores morales estrictamente tradicionales"
+explanation: >-
+  Dentro de la familia libertaria hay un desacuerdo fundamental sobre el papel del Estado. Los anarcocapitalistas quieren sustituir todas las funciones estatales por servicios privados, mientras que los minarquistas aceptan un Estado mínimo que conserve funciones soberanas esenciales como la defensa y los tribunales. Ambos grupos comparten la cima libertaria, pero difieren sobre si debe existir algún Estado en absoluto.
+reviewed: false

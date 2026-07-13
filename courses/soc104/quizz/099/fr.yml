@@ -1,0 +1,9 @@
+question: "Quel est le message central du Manifeste cypherpunk de 1993 d'Eric Hughes concernant la vie privée ?"
+answer: "La vie privée est essentielle à une société ouverte à l'ère électronique, et les individus doivent la construire eux-mêmes plutôt que d'attendre des gouvernements ou des entreprises qu'ils la garantissent"
+wrong_answers:
+  - "La vie privée est un luxe qui doit être sacrifié en échange de la sécurité nationale et de la protection des institutions démocratiques"
+  - "La vie privée devrait être réglementée par des traités internationaux établissant des normes uniformes de protection des données dans tous les pays"
+  - "La vie privée n'est importante que pour les criminels et les dissidents, tandis que les citoyens respectueux de la loi bénéficient de systèmes de surveillance transparents"
+explanation: >-
+  Le manifeste de 1993 d'Eric Hughes affirme que la vie privée est essentielle à une société ouverte à l'ère électronique et que nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations qu'ils la garantissent. La motivation fondamentale est que la confidentialité est un élément clé de la liberté et qu'elle doit être construite par les individus eux-mêmes, et non attendue comme un cadeau des institutions.
+reviewed: false

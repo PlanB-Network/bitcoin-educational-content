@@ -1,0 +1,9 @@
+question: "Comment Bitcoin fonctionne-t-il comme un projet moral aux conséquences politiques plutôt que comme un projet politique aux revendications morales ?"
+answer: "Bitcoin a été conçu pour rendre les gens libres plutôt que riches, en permettant une propriété effective, en protégeant la valeur du travail et en préservant la vie privée, qui sont des accomplissements moraux produisant des effets politiques sans revendiquer aucun camp politique"
+wrong_answers:
+  - "Bitcoin est un projet moral parce que son code impose des règles éthiques qui empêchent la fraude, et sa conséquence politique est le remplacement de la gouvernance démocratique par une prise de décision algorithmique"
+  - "Bitcoin fonctionne comme un projet moral parce qu'il redistribue la richesse des riches vers les premiers adoptants, créant une société plus juste avec des implications politiques pour la fiscalité"
+  - "Bitcoin est moral parce que Satoshi Nakamoto a intégré des commandements éthiques dans le protocole, et sa conséquence politique est d'unir toutes les familles politiques sous un système monétaire partagé"
+explanation: >-
+  Bitcoin n'a pas été conçu pour rendre les gens riches, mais pour les rendre libres. Il atteint trois résultats moraux : permettre une propriété effective (en incitant à la responsabilité), protéger la valeur créée par le travail (en encourageant l'effort productif) et préserver la vie privée (en permettant aux personnes de vivre sans peur). Ce sont des accomplissements moraux qui entraînent des conséquences politiques sans appartenir à aucun camp politique, ce qui en fait d'abord un projet moral et ensuite politique.
+reviewed: false

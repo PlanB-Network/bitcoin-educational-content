@@ -1,0 +1,9 @@
+question: "Ni inkingi zitatu izihe za leta y'imibereho myiza Bitcoin ihiganira?"
+answer: "Uburyo bw'imisoro n'amafaranga ya leta, ubwiharire bw'amafaranga bwo gufasha gukoresha amahera biciye mu madeni, n'ugucungera transactions kugira ngo habuzwe ikoreshwa ry'andi mafaranga"
+wrong_answers:
+  - "Ingengo y'imari y'igisirikare, uburyo bw'indero rusangi, n'inyubakwa z'ubuvuzi bugenzurwa na leta"
+  - "Ubutungane, inzira yo gushinga amategeko, n'ishirwa mu ngiro ry'amategeko agenga amashirahamwe n'ubutegetsi nshingwabikorwa"
+  - "Uburyo bw'ubwiteganyirize, amategeko y'umushahara mutoyi, n'uburyo bw'imisoro ku nyungu yinjira yiyongera uko umuntu aronka menshi"
+explanation: >-
+  Bitcoin ihiganira inkingi zitatu leta y'imibereho myiza ishingiyeko. Iya mbere ni uburyo bw'imisoro n'amafaranga ya leta, budakwiye gukingira amafaranga asohoka. Iya kabiri ni ubwiharire bw'amafaranga, ni ukuvuga ubushobozi bwo gusohora amahera kugira ngo hasahirizwe amafaranga akoreshwa biciye mu madeni. Iya gatatu ni ugucungera transactions, ubushobozi bwo kubuza abantu gukoresha irindi faranga iryo ari ryo ryose atari Fiat yashizweho na leta. Bitcoin irazigabanya zose uko ari zitatu icarimwe.
+reviewed: false

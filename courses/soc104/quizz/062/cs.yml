@@ -1,0 +1,9 @@
+question: "Jaké klíčové rozlišení dělá Hannah Arendt mezi klasickým despotismem a totalitarismem?"
+answer: "Totalitarismus lidi nejen podřizuje tyranským pravidlům, ale činí lidské bytosti neschopnými nezávislého jednání, čímž neguje samotnou politiku"
+wrong_answers:
+  - "Klasický despotismus kontroluje ekonomiku, zatímco totalitarismus kontroluje pouze politické a vojenské instituce"
+  - "Totalitarismus je prostě extrémnější verze despotismu, která se liší jen rozsahem represe"
+  - "Klasický despotismus používá ideologii k ospravedlnění své vlády, zatímco totalitarismus spoléhá čistě na vojenskou sílu"
+explanation: >-
+  Arendt tvrdí, že totalitarismus se zásadně liší od klasického despotismu. Není to prostě extrémnější tyranie, ale systém, který činí lidské bytosti nadbytečnými a ničí jejich schopnost nezávislého jednání. Pro Arendtovou je politika schopností lidu vzít svůj osud do rukou a totalitarismus je samotnou negací této schopnosti, což jej kvalitativně odlišuje od despotismu.
+reviewed: false

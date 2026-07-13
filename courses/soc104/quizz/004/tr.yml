@@ -1,0 +1,9 @@
+question: "Görünürdeki karşıtlıklarına rağmen sol ve sağ siyasi partiler hangi ortak noktayı paylaşır?"
+answer: "Her ikisi de devletin insanların hayatlarını düzenlemeler ve vergiler yoluyla yönetme hakkını savunur"
+wrong_answers:
+  - "Her ikisi de ekonomik meselelerde devlet müdahalesinin tamamen kaldırılmasını savunur"
+  - "Her ikisi de toplumun kolektif örgütlenmesi yerine bireysel özgürlüğe öncelik verir"
+  - "Her ikisi de para politikasının hükümet harcamaları için bir araç olarak kullanılmasını reddeder"
+explanation: >-
+  Görünürde karşıt olsalar da sol ve sağ devlet müdahalesi tercihini paylaşır. Her ikisi de serbest piyasayı eleştirir ve devletin insanların hayatlarını düzenlemeler ve vergiler yoluyla yönetme hakkını savunur. Sol piyasaları eşitsizlik kaynağı olarak eleştirirken sağ onları egemenliğe tehdit olarak görür; fakat her ikisi de çözüm için devlete yönelir.
+reviewed: false

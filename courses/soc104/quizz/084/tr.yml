@@ -1,0 +1,9 @@
+question: "İş dünyası yanlısı olmak ile piyasa yanlısı olmak arasındaki temel ayrım nedir?"
+answer: "İş dünyası yanlıları belirli şirketleri başarısızlıktan korumak için devlet müdahalesi ararken, piyasa yanlıları deregülasyonu destekler ve piyasanın doğal biçimde yeniden örgütlenebilmesi için işletmelerin başarısız olmasına izin verir"
+wrong_answers:
+  - "İş dünyası yanlıları büyük şirketlere odaklanırken, piyasa yanlıları yalnızca küçük işletmeleri ve startup'ları desteklemeye odaklanır"
+  - "İş dünyası yanlılığı işçi kooperatiflerini tercih eden sol kanat bir konumken, piyasa yanlılığı özel mülkiyeti tercih eden sağ kanat bir konumdur"
+  - "İş dünyası yanlıları tüm rekabeti reddederken, piyasa yanlıları onaylanmış işletmeler arasında hükümetçe düzenlenen rekabeti destekler"
+explanation: >-
+  İş dünyası yanlısı konum, rekabeti düzenlemeler yoluyla elde edilen bir yönetim aracı olarak görür ve iş kayıplarını önlemek için sübvansiyonları ve kurtarmaları meşrulaştırır. İş dünyası yanlısı görüşte piyasa kırılgandır ve devlet tarafından kurtarılmaya ihtiyaç duyar. Piyasa yanlıları ise rekabeti serbest girişimin doğal sonucu olarak görür; bu da deregülasyonu ve işletmelerin başarısız olmasına izin vermeyi ima eder, çünkü başarısızlık piyasanın doğal biçimde yeniden örgütlenmesine izin verir ve alanı daha yetkin aktörlere açar.
+reviewed: false

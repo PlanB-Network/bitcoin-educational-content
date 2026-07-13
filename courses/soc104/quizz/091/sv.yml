@@ -1,0 +1,9 @@
+question: "Vilket budskap bäddade Satoshi Nakamoto in i det allra första Bitcoin-blocket som bröts?"
+answer: "En rubrik från London Times om att finansministern stod på randen till en andra bankräddning"
+wrong_answers:
+  - "Ett citat från Friedrich Hayek om farorna med central planering och statlig kontroll över pengar"
+  - "En självständighetsförklaring från alla former av regering och finansiell reglering i hela världen"
+  - "Ett matematiskt bevis som visar att decentraliserad valuta är mer effektiv än fiatpengar"
+explanation: >-
+  I genesis-blocket infogade Satoshi Nakamoto en symbolisk rubrik från London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Detta var en direkt hänvisning till finanskrisen 2008 och den monetära interventionism som följde, vilket gjorde Bitcoins avsikt omisskännlig som ett alternativ till centraliserade banksystem.
+reviewed: false

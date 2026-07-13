@@ -1,0 +1,9 @@
+question: "Quel message Satoshi Nakamoto a-t-il inséré dans le tout premier bloc Bitcoin miné ?"
+answer: "Un titre du London Times à propos du Chancelier au bord d'un second renflouement bancaire"
+wrong_answers:
+  - "Une citation de Friedrich Hayek sur les dangers de la planification centrale et du contrôle gouvernemental de la monnaie"
+  - "Une déclaration d'indépendance vis-à-vis de toutes les formes de gouvernement et de réglementation financière dans le monde"
+  - "Une preuve mathématique démontrant qu'une monnaie décentralisée est plus efficace que la monnaie fiat"
+explanation: >-
+  Dans le bloc de genèse, Satoshi Nakamoto a inséré un titre symbolique du London Times : "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." C'était une référence directe à la crise financière de 2008 et à l'interventionnisme monétaire qui a suivi, rendant l'intention de Bitcoin évidente en tant qu'alternative aux systèmes bancaires centralisés.
+reviewed: false

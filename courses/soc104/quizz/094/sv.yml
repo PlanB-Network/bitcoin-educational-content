@@ -1,0 +1,9 @@
+question: "Hur fungerar Bitcoin som ett moraliskt projekt med politiska konsekvenser snarare än ett politiskt projekt med moraliska anspråk?"
+answer: "Bitcoin utformades för att göra människor fria snarare än rika, genom att möjliggöra effektiv egendom, skydda arbetets värde och bevara privatlivet, vilket är moraliska framsteg som ger politiska effekter utan att göra anspråk på något politiskt läger"
+wrong_answers:
+  - "Bitcoin är ett moraliskt projekt eftersom dess kod upprätthåller etiska regler som förhindrar bedrägeri, och dess politiska konsekvens är att ersätta demokratisk styrning med algoritmiskt beslutsfattande"
+  - "Bitcoin fungerar som ett moraliskt projekt eftersom det omfördelar rikedom från de rika till tidiga användare, vilket skapar ett rättvisare samhälle med politiska följder för skattepolitiken"
+  - "Bitcoin är moraliskt eftersom Satoshi Nakamoto bäddade in etiska bud i protokollet, och dess politiska konsekvens är att ena alla politiska familjer under ett gemensamt monetärt system"
+explanation: >-
+  Bitcoin utformades inte för att göra människor rika utan för att göra dem fria. Det uppnår tre moraliska resultat: att möjliggöra effektiv egendom (vilket uppmuntrar ansvar), att skydda det värde som skapas genom arbete (vilket uppmuntrar produktiv ansträngning) och att bevara privatlivet (vilket låter människor leva utan rädsla). Dessa är moraliska framsteg som bär politiska konsekvenser utan att tillhöra något politiskt läger, vilket gör det till ett moraliskt projekt först och ett politiskt i andra hand.
+reviewed: false

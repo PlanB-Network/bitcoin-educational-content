@@ -1,0 +1,9 @@
+question: "Co měl Ludwig von Mises na mysli, když napsal, že pouze jednotlivec myslí, uvažuje a jedná?"
+answer: "Že kolektivity jako stát nebo národ nemají vlastní existenci mimo jednání svých jednotlivých členů"
+wrong_answers:
+  - "Že jednotlivci by se měli vyhýbat vytváření skupin nebo sdružení, protože kolektivní jednání je vždy škodlivé"
+  - "Že pouze určití nadaní jednotlivci jsou schopni racionálního myšlení, zatímco většina lidí následuje instinkt"
+  - "Že myšlení a uvažování jsou soukromé činnosti, které by nikdy neměly být sdíleny ani veřejně diskutovány"
+explanation: >-
+  Mises vyjasnil, že individualismus odporuje představě, že společenské entity, jako je společnost nebo národ, by mohly existovat nezávisle na jednotlivcích, kteří je tvoří. Kolektiv nemá vlastní existenci mimo jednání svých jednotlivých členů. Nemůžeme smysluplně mluvit o jednání státu nebo firmy, protože tyto entity nemají vlastní vůli ani myšlení a jednají pouze prostřednictvím jednotlivců.
+reviewed: false

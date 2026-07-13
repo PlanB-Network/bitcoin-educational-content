@@ -1,0 +1,9 @@
+question: "¿Qué anima a hacer el lema de Kant 'Sapere aude'?"
+answer: "A atreverse a pensar por sí mismos y salir del estado de minoría en el que dependen de la dirección de una autoridad superior"
+wrong_answers:
+  - "A perseguir el conocimiento académico matriculándose en instituciones educativas formales y obteniendo credenciales"
+  - "A desafiar todas las formas de moralidad y crear sistemas éticos completamente nuevos basados en el deseo personal"
+  - "A buscar la sabiduría mediante la devoción religiosa y la sumisión a las enseñanzas de la iglesia"
+explanation: >-
+  Sapere aude, que significa "Atrévete a pensar por ti mismo", fue tomado por Kant del poeta Horacio y convertido en el lema de la Ilustración. Simboliza la salida de la minoría de edad, un estado en el que las personas son incapaces de usar su entendimiento sin la dirección de una clase o autoridad superior. Kant anima a la emancipación y a la plena responsabilidad sobre el propio pensamiento.
+reviewed: false

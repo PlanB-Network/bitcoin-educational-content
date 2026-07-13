@@ -1,0 +1,9 @@
+question: "Kubera iki aba cypherpunks bavuze ko ifaranga ry'ubuhinga bwa none rifise ibiranga ubutamenyekana ryari rikenewe?"
+answer: "Kuko amafaranga akoreshwa mu ntoke, ari bwo buryo nyamukuru bwa transaction zidakenera kumenyekana, ariko arazimangana mu kibano c'ubuhinga bwa none, kandi hakwiye kuremwa ikiyisubirira c'ubuhinga bwa none gifise ibiranga ubuzima bwite bimwe"
+wrong_answers:
+  - "Kuko uburyo bwo kwishura bwo mu buhinga bwa none bwari busanzwe bwari buteba cane kandi buzimvye, hakaba hakenewe ubundi buryo bwihuta kandi buhendutse ku rudandaza rwo kuri internet"
+  - "Kuko leta zari zamaze kubuza ubwoko bwose bwa transactions zidakenera kumenyekana, kandi ubuhinga bushasha bwonyene ari bwo bwashobora kurenga ayo mategeko"
+  - "Kuko amabanki asanzwe yanka gukorera imigwi imwimwe y'abantu, bigatuma uburyo bwo kwishura bwo mu buhinga bwa none bushikirwa na bose buba nkenerwa mu vy'ubutunzi"
+explanation: >-
+  Manifesto ya cypherpunk ivuga ko ibanga mu kibano cuguruye risaba uburyo bwa transactions zidakenera kumenyekanisha abazikora. Gushika mu gihe c'ubuhinga bwa none, amafaranga akoreshwa mu ntoke yari uburyo nyamukuru bw'ubwo bwoko. Ariko mu kibano c'ubuhinga bwa none aho amafaranga akoreshwa mu ntoke ariko arazimangana, hategerezwa kuremwa ifaranga ry'ubuhinga bwa none rifise ibiranga ubutamenyekana bimwe. Iyo ntumbero yari yarabonye imbere y'igihe ico Bitcoin yohavuye ishikako.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "De unde provine clivajul politic stânga-dreapta?"
+answer: "Din aranjamentul locurilor în timpul dezbaterilor Revoluției Franceze din 1789"
+wrong_answers:
+  - "Din scrierile lui Karl Marx și Adam Smith din secolul al XIX-lea"
+  - "Din Războiul Civil American dintre statele din Nord și cele din Sud"
+  - "De la filosofii Iluminismului care au separat rațiunea de tradiție"
+explanation: >-
+  Clivajul stânga-dreapta datează din 1789, când deputații din Adunarea Națională Franceză care susțineau menținerea puterii regelui s-au așezat la dreapta președintelui, în timp ce cei care voiau să-i limiteze puterile s-au așezat la stânga. El nu provine de la Marx și Smith, din Războiul Civil American sau din filosofia Iluminismului.
+reviewed: false

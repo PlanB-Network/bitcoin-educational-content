@@ -1,0 +1,9 @@
+question: "Mitä Nolanin kaavion pystyakseli paljastaa todellisesta poliittisesta kysymyksestä?"
+answer: "Se paljastaa, haluatko pakottaa oman arvomaailmasi muille valtion kautta vai pidätkö parempana, että jokainen ihminen saa vapaasti päättää itse"
+wrong_answers:
+  - "Se paljastaa, kannatatko demokraattista hallintoa vai pidätkö parempana yhden johtajan autoritaarista valtaa"
+  - "Se paljastaa, samaistutko edistyksellisiin yhteiskunnallisiin liikkeisiin vai perinteisiin uskonnollisiin instituutioihin"
+  - "Se paljastaa, onko ensisijainen huolesi kansallinen turvallisuus vai taloudellinen vauraus"
+explanation: >-
+  Pystyakseli paljastaa todellisen poliittisen kysymyksen: ei sitä, oletko vasemmalla vai oikealla, vaan sen, missä määrin haluat valtion puuttuvan yhteiskunnan muovaamiseen arvojesi mukaisesti. Haluatko pakottaa arvomaailmasi muille, vai pidätkö parempana, että jokainen ihminen saa vapaasti päättää itse? Tämä kehystys ylittää vasemmisto-oikeisto-jaon ja osoittaa, että molemmat leirit voivat olla yhtä etatistisia.
+reviewed: false

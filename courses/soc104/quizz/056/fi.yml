@@ -1,0 +1,9 @@
+question: "Mikä on tärkeä ero yritysmyönteisyyden ja markkinamyönteisyyden välillä?"
+answer: "Yritysmyönteisyys tarkoittaa suuryritysten ja valtion liiton suosimista, kun taas markkinamyönteisyys tarkoittaa vapaan kilpailun tukemista ilman valtion suosintaa"
+wrong_answers:
+  - "Yritysmyönteisyys tarkoittaa pienyritysten tukemista, kun taas markkinamyönteisyys tarkoittaa monikansallisten yhtiöiden tukemista"
+  - "Yritysmyönteisyys tarkoittaa kaiken sääntelyn vastustamista, kun taas markkinamyönteisyys tarkoittaa maltillisen sääntelyn hyväksymistä"
+  - "Yritysmyönteisyys keskittyy kotimaiseen teollisuuteen, kun taas markkinamyönteisyys keskittyy kansainväliseen kauppaan"
+explanation: >-
+  Keskustalaiset ovat yleensä yritysmyönteisiä, mikä tarkoittaa, että he suosivat eräänlaista suuryritysten ja valtion liittoa; tämä eroaa markkinamyönteisyydestä. Markkinamyönteisyys tukee vapaata kilpailua ilman valtion suosintaa tai yritysten protektionismia. Tämä ero on ratkaiseva, koska yritysmyönteinen politiikka voi luoda monopoleja ja sääntelyyn perustuvia suojauksia, jotka tosiasiassa heikentävät vapaiden markkinoiden kilpailua.
+reviewed: false

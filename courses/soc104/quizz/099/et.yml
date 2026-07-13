@@ -1,0 +1,9 @@
+question: "Millised kolm heaoluriigi sammast Bitcoin proovile paneb?"
+answer: "Fiskaalsüsteemi, rahalise monopoli kulutuste rahastamiseks võla kaudu ja tehingute järelevalve alternatiivsete valuutade kasutamise takistamiseks"
+wrong_answers:
+  - "Sõjaväeeelarve, avaliku haridussüsteemi ja valitsuse kontrollitud tervishoiutaristu"
+  - "Kohtusüsteemi, seadusandliku protsessi ja täitevvõimu poolse regulatsioonide jõustamise ettevõtetele"
+  - "Sotsiaalkindlustussüsteemi, miinimumpalga seadusandluse ja progressiivse tulumaksustruktuuri"
+explanation: >-
+  Bitcoin paneb proovile kolm sammast, millel heaoluriik toetub. Esiteks fiskaalsüsteemi, mis ei ole kulutuste katmiseks piisav. Teiseks rahalise monopoli, mis tähendab võimet emiteerida raha kulutuste rahastamiseks võla kaudu. Kolmandaks tehingute järelevalve, võime takistada inimestel kasutamast mis tahes valuutat peale riigi pealesurutud Fiati. Bitcoin õõnestab kõiki kolme samaaegselt.
+reviewed: false

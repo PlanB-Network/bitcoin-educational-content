@@ -1,0 +1,9 @@
+question: "Ni nani waliozindua orodha ya kwanza ya barua pepe ya Cypherpunk mwaka 1992?"
+answer: "Tim May na Eric Hughes, waliounda jukwaa lililokuwa kitovu cha harakati"
+wrong_answers:
+  - "Satoshi Nakamoto na Hal Finney, ambao baadaye waliunda Bitcoin pamoja mwaka 2008"
+  - "Julian Assange na Edward Snowden, waliotumia orodha hiyo kuratibu shughuli za kufichua maovu ya serikali"
+  - "Phil Zimmermann na Bruce Schneier, waliounda orodha hiyo kama chombo cha kusambaza programu za usimbaji fiche"
+explanation: >-
+  Mwaka 1992, Tim May na Eric Hughes walizindua orodha ya kwanza ya barua pepe ya Cypherpunk. Jukwaa hili haraka likawa kitovu cha harakati, likiwaleta pamoja watengenezaji programu, wanakriptografia, na watetezi wa uhuru wa kidijitali. Ni kwenye orodha hiihii ndipo Satoshi Nakamoto baadaye angeshiriki Bitcoin White Paper kwa mara ya kwanza mwaka 2008.
+reviewed: false

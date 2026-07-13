@@ -1,0 +1,9 @@
+question: "Jaký základní problém fiat měn identifikoval Satoshi Nakamoto?"
+answer: "Vyžadují důvěru v centrální banku, že měnu neznehodnotí, ale historie fiat měn je plná porušení této důvěry"
+wrong_answers:
+  - "Jsou příliš obtížně použitelné pro každodenní transakce, protože fyzická hotovost se rychle opotřebovává a její výroba je drahá"
+  - "Nelze je převádět mezinárodně, protože každá země má neslučitelné měnové standardy a regulace"
+  - "Jsou kryty zlatými rezervami, které nestačí k pokrytí celkové peněžní zásoby v oběhu"
+explanation: >-
+  Satoshi Nakamoto uvedl, že základním problémem konvenčních měn je důvěra nutná k tomu, aby fungovaly. Fiat měny nejsou kryty komoditou, ale stojí výhradně na institucionální autoritě. Když má instituce nad penězi úplnou kontrolu, pokušení ke zneužití je příliš silné a historie to opakovaně ukázala prostřednictvím znehodnocování měny.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Vilka är de två axlarna i Nolan-diagrammet?"
+answer: "En vertikal axel som mäter personliga friheter och en horisontell axel som mäter ekonomiska friheter"
+wrong_answers:
+  - "En horisontell axel från vänster till höger och en vertikal axel från auktoritär till demokratisk"
+  - "En vertikal axel som mäter välstånd och en horisontell axel som mäter utbildningsnivåer"
+  - "En horisontell axel från socialism till kapitalism och en vertikal axel från tradition till framsteg"
+explanation: >-
+  David Nolan utformade sitt diagram med två specifika axlar: personliga friheter (vertikal) och ekonomiska friheter (horisontell). Detta tvådimensionella angreppssätt ersätter den överförenklade vänster-höger-linjen och fångar bättre de politiska ideologiernas komplexitet genom att skilja mellan de två huvudkategorierna av frihet.
+reviewed: false

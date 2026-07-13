@@ -1,0 +1,9 @@
+question: "Ni nde yatanguje urutonde rwa mbere rwa Cypherpunk mailing list mu 1992?"
+answer: "Tim May na Eric Hughes, bakoze urubuga rwahavuye ruba ikigo nyamukuru c'uwo muhari"
+wrong_answers:
+  - "Satoshi Nakamoto na Hal Finney, bahavuye barema Bitcoin bari kumwe mu 2008"
+  - "Julian Assange na Edward Snowden, bakoresheje urwo rutonde mu gutunganya ibikorwa vyo gushira ahabona amabanga ya leta"
+  - "Phil Zimmermann na Bruce Schneier, bategekanije urwo rutonde nk'igikoresho co gukwiragiza porogarama zo gupfuka amakuru"
+explanation: >-
+  Mu 1992, Tim May na Eric Hughes batangije urutonde rwa mbere rwa Cypherpunk mailing list. Urwo rubuga rwaciye ruhinduka ningoga ikigo nyamukuru c'uwo muhari, ruhuriza hamwe abahinguzi ba porogarama, abahinga mu vya cryptography, n'abavugira umwidegemvyo wo mu buhinga bwa none. Kuri urwo rutonde nyene ni ho Satoshi Nakamoto yahavuye asangiza ubwa mbere Bitcoin White Paper mu 2008.
+reviewed: false

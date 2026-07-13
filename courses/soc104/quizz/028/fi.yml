@@ -1,0 +1,9 @@
+question: "Mikä on Friedrich Hayekin kuvaama 'spontaanin järjestyksen' käsite?"
+answer: "Yhteiskunnallisten sääntöjen ja normien tulisi syntyä vapaasta yksilöiden välisestä vuorovaikutuksesta eikä autoritaarisen suunnittelun pakottamina"
+wrong_answers:
+  - "Markkinat pyrkivät luonnostaan kohti monopolia, ellei valtio puutu asiaan kilpailullisen tasapainon ylläpitämiseksi"
+  - "Demokraattiset vaalit ovat ainoa legitiimi mekanismi yhteiskuntaa hallitsevien lakien luomiseksi"
+  - "Talouskriisit syntyvät spontaanisti ja vaativat välitöntä valtion puuttumista vakauden palauttamiseksi"
+explanation: >-
+  Hayekin spontaanin järjestyksen käsitteen mukaan yhteiskuntaa hallitsevia sääntöjä ei tulisi pakottaa ylhäältä keskussuunnittelun kautta, vaan niiden tulisi syntyä yksilöllisten tahtojen, sopimusten ja vapaaehtoisten suhteiden vapaasta leikistä. Tämä on libertaristisen ajattelun perustava akseli. Se ei tarkoita, että markkinat pyrkisivät kohti monopolia tai että kriisit vaatisivat valtion puuttumista.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Apa yang termasuk dalam kategori kebebasan pribadi?"
+answer: "Apa yang Anda lakukan dalam hubungan pribadi Anda, dengan opini, keyakinan, dan segala hal yang melibatkan tubuh serta pikiran Anda sendiri"
+wrong_answers:
+  - "Apa yang Anda lakukan sebagai produsen, termasuk memulai bisnis, merekrut karyawan, dan memperdagangkan barang"
+  - "Berapa banyak pajak yang Anda bayar, investasi apa yang Anda lakukan, dan bagaimana Anda mengelola aset keuangan Anda"
+  - "Kemampuan Anda untuk bersaing di pasar, menetapkan harga produk Anda, dan memilih pemasok Anda"
+explanation: >-
+  Kebebasan pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi Anda, dengan opini dan keyakinan Anda, serta segala hal yang melibatkan tubuh dan pikiran Anda sendiri. Ini mencakup pernikahan, pilihan bacaan, praktik keagamaan, pilihan makanan dan obat, serta dengan siapa Anda bergaul. Aktivitas bisnis, pajak, dan keputusan pasar termasuk dalam kebebasan ekonomi.
+reviewed: false

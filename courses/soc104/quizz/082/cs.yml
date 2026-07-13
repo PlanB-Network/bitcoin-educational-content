@@ -1,0 +1,9 @@
+question: "Která z následujících možností je příkladem spontánního řádu, jak jej popisuje Hayek?"
+answer: "Jazyk, který se vyvinul organicky prostřednictvím historických interakcí, místo aby byl navržen intelektuály v kanceláři"
+wrong_answers:
+  - "Národní ústava, která byla pečlivě sepsána zvolenými zástupci, aby stanovila společenská pravidla"
+  - "Vládní stimulační plán, který byl navržen ekonomy ke koordinaci ekonomické aktivity"
+  - "Veřejný vzdělávací systém, který byl vytvořen zákonodárci, aby zajistil všeobecný přístup ke znalostem"
+explanation: >-
+  Hayek popisuje spontánní řád jako produkt svobodných interakcí ve společnosti, vyplývající z lidského jednání, ale nikoli ze záměrného lidského plánu. Jazyk je hlavním příkladem: francouzština, angličtina a němčina nebyly konstruovány intelektuály rozhodujícími o gramatických pravidlech, ale vznikly jako plod pomalé, organické organizace vybudované historickými interakcemi.
+reviewed: false

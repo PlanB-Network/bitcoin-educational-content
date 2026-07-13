@@ -1,0 +1,9 @@
+question: "Kako sistem Fiat novca pojačava podelu između onih koji vladaju i onih kojima se vlada?"
+answer: "Omogućava vladama da finansiraju neograničenu potrošnju stvaranjem novca, što inflacijom obezvređuje štednju"
+wrong_answers:
+  - "Daje građanima direktnu kontrolu nad monetarnom politikom putem demokratskih izbora i referenduma"
+  - "Sprečava vlade da se zadužuju, primoravajući ih da se za prihode oslanjaju isključivo na oporezivanje"
+  - "Raspodeljuje novostvoreni novac jednako među svim građanima kako bi se podstakao ekonomski rast"
+explanation: >-
+  Fiat valuta je opisana kao kamen temeljac širenja državne moći zato što omogućava vladama da se zadužuju i podstiču banke da štampaju novi novac. Nastala inflacija obezvređuje štednju ljudi, koristeći najbogatijim i najmoćnijim entitetima. Ona građanima ne daje monetarnu kontrolu, niti sprečava zaduživanje ili jednako raspodeljuje novac.
+reviewed: false

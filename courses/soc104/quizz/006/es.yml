@@ -1,0 +1,9 @@
+question: "¿Cuáles son los dos ejes del diagrama de Nolan?"
+answer: "Un eje vertical que mide las libertades personales y un eje horizontal que mide las libertades económicas"
+wrong_answers:
+  - "Un eje horizontal de izquierda a derecha y un eje vertical de autoritario a democrático"
+  - "Un eje vertical que mide la riqueza y un eje horizontal que mide los niveles educativos"
+  - "Un eje horizontal del socialismo al capitalismo y un eje vertical de la tradición al progreso"
+explanation: >-
+  David Nolan diseñó su diagrama con dos ejes específicos: libertades personales (vertical) y libertades económicas (horizontal). Este enfoque bidimensional sustituye la línea izquierda-derecha, simplificada en exceso, y capta mejor la complejidad de las ideologías políticas al separar las dos categorías principales de libertad.
+reviewed: false

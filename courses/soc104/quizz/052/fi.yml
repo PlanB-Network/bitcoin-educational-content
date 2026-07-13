@@ -1,0 +1,9 @@
+question: "Minkä libertaarit asettavat poliittisen filosofiansa keskukseen?"
+answer: "Etiikan ja lain"
+wrong_answers:
+  - "Taloudellisen kasvun ja vaurauden luomisen"
+  - "Yhteiskunnallisen tasa-arvon ja kollektiivisen hyvinvoinnin"
+  - "Kansallisen identiteetin ja kulttuurin säilyttämisen"
+explanation: >-
+  Libertaarit erottuvat kaikista muista poliittisista perheistä asettamalla filosofiansa keskukseen etiikan ja lain, eivät taloutta. Kun he puolustavat markkinataloutta, syy on vähemmän sen kyvyssä tuottaa vaurautta kuin siinä, että se edistää yksilönvapautta ja vastuuta. Taloudellinen kasvu on toissijainen hyöty, ei perustava periaate.
+reviewed: false

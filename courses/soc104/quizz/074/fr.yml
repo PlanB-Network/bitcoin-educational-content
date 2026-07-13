@@ -1,0 +1,9 @@
+question: "Qu'est-ce que le concept d'« aléa moral » dans le contexte du débat sur les subventions, et quelle famille politique soulève cette préoccupation ?"
+answer: "L'aléa moral est l'incitation à l'irresponsabilité lorsque les entreprises sont empêchées de faire faillite par des subventions, parce que c'est finalement le contribuable qui paie ; cette préoccupation est soulevée par les libertariens"
+wrong_answers:
+  - "L'aléa moral est le risque que les entreprises subventionnées se délocalisent vers des pays où les impôts sont plus faibles, emportant les emplois avec elles ; cette préoccupation est soulevée par les conservateurs"
+  - "L'aléa moral est le danger que les responsables gouvernementaux deviennent corrompus en choisissant quelles entreprises reçoivent des subventions ; cette préoccupation est soulevée par les centristes"
+  - "L'aléa moral est le problème éthique des entreprises qui exploitent les travailleurs après avoir reçu des fonds publics ; cette préoccupation est soulevée par les socialistes"
+explanation: >-
+  Les libertariens soutiennent que les subventions et les renflouements créent un aléa moral : lorsque les entreprises sont empêchées de faire faillite, cela incite à l'irresponsabilité et à l'imprudence parce qu'il n'y a pas de conséquences aux mauvaises décisions. Au bout du compte, c'est le contribuable qui paie, ce que les libertariens considèrent comme profondément injuste. Ce concept se distingue des préoccupations concernant la délocalisation des entreprises, la corruption des responsables publics ou l'exploitation des travailleurs soulevées par d'autres familles politiques.
+reviewed: false

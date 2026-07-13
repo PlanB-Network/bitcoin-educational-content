@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto 在第一個被挖出的 Bitcoin 區塊中嵌入了什麼訊息？"
+answer: "一則來自《倫敦泰晤士報》、關於財政大臣瀕臨第二次銀行紓困的標題"
+wrong_answers:
+  - "Friedrich Hayek 關於中央計畫與政府控制貨幣危險性的引言"
+  - "一份宣布脫離全球所有形式政府與金融監管的獨立宣言"
+  - "一個證明去中心化貨幣比法定貨幣更有效率的數學證明"
+explanation: >-
+  在創世區塊中，Satoshi Nakamoto 插入了一則具有象徵意義的《倫敦泰晤士報》標題："The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." 這直接指向 2008 年金融危機及其後的貨幣干預主義，使 Bitcoin 作為中心化銀行體系替代方案的意圖明確無誤。
+reviewed: false

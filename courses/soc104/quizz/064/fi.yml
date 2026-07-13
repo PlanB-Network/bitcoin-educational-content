@@ -1,0 +1,9 @@
+question: "Mikä on Hannah Arendtin keskeinen ero klassisen despotismin ja totalitarismin välillä?"
+answer: "Totalitarismi ei pelkästään alista ihmisiä tyrannimaisille säännöille, vaan tekee ihmisistä kyvyttömiä itsenäiseen toimintaan ja kieltää itse politiikan"
+wrong_answers:
+  - "Klassinen despotismi kontrolloi taloutta, kun taas totalitarismi kontrolloi vain poliittisia ja sotilaallisia instituutioita"
+  - "Totalitarismi on vain despotismin äärimmäisempi versio, joka eroaa siitä vain repression mittakaavassa"
+  - "Klassinen despotismi käyttää ideologiaa valtansa oikeuttamiseen, kun taas totalitarismi nojaa puhtaasti sotilaalliseen voimaan"
+explanation: >-
+  Arendt väittää, että totalitarismi eroaa perustavasti klassisesta despotismista. Se ei ole vain äärimmäisempi tyrannia, vaan järjestelmä, joka tekee ihmisistä tarpeettomia ja tuhoaa heidän kykynsä itsenäiseen toimintaan. Arendtille politiikka on kansan kykyä ottaa kohtalonsa omiin käsiinsä, ja totalitarismi on tämän kyvyn varsinainen negaatio, mikä tekee siitä laadullisesti erilaisen kuin despotismi.
+reviewed: false

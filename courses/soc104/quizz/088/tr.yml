@@ -1,0 +1,9 @@
+question: "Karl Popper'ın açık ve kapalı toplumlar arasındaki ayrımı, bireycilik ile kolektivizm tartışmasıyla nasıl ilişkilidir?"
+answer: "Açık toplum, bireyin kişisel kararlar yoluyla kendi başına yargıda bulunma hakkını tanırken, kapalı toplum kolektivisttir; kabile zihniyetine ve eleştirel özgürlüğün reddine dayanır"
+wrong_answers:
+  - "Açık toplum ulusal sınırlar boyunca serbest ticarete izin veren toplumken, kapalı toplum gümrük tarifeleri ve korumacı ekonomi politikaları dayatır"
+  - "Açık toplum her vatandaşın oy kullandığı doğrudan demokrasiyle yönetilirken, kapalı toplum tek bir kalıtsal hükümdar tarafından yönetilir"
+  - "Açık toplum tüm hükümet belgelerini şeffaf biçimde yayımlarken, kapalı toplum bilgileri devlet sırrı olarak sınıflandırır"
+explanation: >-
+  Popper kapalı toplumu büyülü ya da kabile toplumu, açık toplumu ise bireylerin kişisel kararlarla karşı karşıya kaldığı toplum olarak tanımlamıştır. Kapalı toplum kolektivisttir; kabile zihniyetine, eleştirel özgürlüğün reddine ve statik bir düzenin idealize edilmesine dayanır. Açık toplum değerlerin, inançların ve ilişkilerin özgür seçimine öncelik verir ve bireyci ilkeleri doğrudan somutlaştırır.
+reviewed: false

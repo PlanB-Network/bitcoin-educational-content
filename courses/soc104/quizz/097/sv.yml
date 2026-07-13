@@ -1,0 +1,9 @@
+question: "Vilket är kärnbudskapet i Eric Hughes Cypherpunk Manifesto från 1993 om privatliv?"
+answer: "Privatliv är avgörande för ett öppet samhälle i den elektroniska tidsåldern, och individer måste bygga det själva i stället för att förvänta sig att regeringar eller företag ska garantera det"
+wrong_answers:
+  - "Privatliv är en lyx som måste offras i utbyte mot nationell säkerhet och skyddet av demokratiska institutioner"
+  - "Privatliv bör regleras genom internationella fördrag som fastställer enhetliga standarder för dataskydd i alla länder"
+  - "Privatliv är bara viktigt för brottslingar och dissidenter, medan laglydiga medborgare gynnas av transparenta övervakningssystem"
+explanation: >-
+  Eric Hughes manifest från 1993 slår fast att privatliv är avgörande för ett öppet samhälle i den elektroniska tidsåldern och att vi inte kan förvänta oss att regeringar, företag eller andra stora organisationer ska garantera det. Den grundläggande motivationen är att konfidentialitet är en nyckelkomponent i frihet och måste byggas av individerna själva, inte inväntas som en gåva från institutioner.
+reviewed: false

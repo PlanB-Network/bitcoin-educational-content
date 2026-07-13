@@ -1,0 +1,9 @@
+question: "Ekonomik özgürlük kategorisi neleri içerir?"
+answer: "Üretici ve tüketici olarak yaptıklarınızı: satın alma, satma, üretme, çalışma, işe alma ve paranızı yönetme"
+wrong_answers:
+  - "Dini inançlarınızı, kişisel ilişkilerinizi ve ifade özgürlüğünüzü"
+  - "Oy kullanma, seçimlere katılma ve siyasi partilere üye olma hakkınızı"
+  - "Serbestçe seyahat etme, ikamet yerinizi seçme ve ulusal sınırları geçme yeteneğinizi"
+explanation: >-
+  Ekonomik özgürlük, üretici ve tüketici olarak yaptıklarınızı kapsar: ne satın alabileceğiniz, satabileceğiniz ya da üretebileceğiniz; nerede çalıştığınız; kimi işe aldığınız; ve paranızla ne yaptığınız. Kişisel ilişkiler, dini inançlar ve hareket özgürlüğü ekonomik kategoriye değil, kişisel özgürlük kategorisine girer.
+reviewed: false

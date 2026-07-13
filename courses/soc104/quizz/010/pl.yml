@@ -1,0 +1,9 @@
+question: "Jak system pieniądza fiat wzmacnia podział między rządzącymi a rządzonymi?"
+answer: "Pozwala rządom finansować nieograniczone wydatki poprzez kreację pieniądza, która obniża wartość oszczędności przez inflację"
+wrong_answers:
+  - "Daje obywatelom bezpośrednią kontrolę nad polityką monetarną poprzez demokratyczne wybory i referenda"
+  - "Uniemożliwia rządom zaciąganie pożyczek, zmuszając je do polegania wyłącznie na opodatkowaniu jako źródle dochodów"
+  - "Rozdziela nowo utworzony pieniądz równo między wszystkich obywateli, aby stymulować wzrost gospodarczy"
+explanation: >-
+  Waluta fiat jest opisana jako kamień węgielny ekspansji władzy państwa, ponieważ pozwala rządom pożyczać i skłaniać banki do drukowania nowego pieniądza. Wynikająca z tego inflacja obniża wartość oszczędności ludzi, przynosząc korzyść najbogatszym i najpotężniejszym podmiotom. Nie daje obywatelom kontroli monetarnej, nie zapobiega zaciąganiu pożyczek ani nie rozdziela pieniędzy równo.
+reviewed: false

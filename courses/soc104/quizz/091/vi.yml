@@ -1,0 +1,9 @@
+question: "Satoshi Nakamoto đã nhúng thông điệp nào vào khối Bitcoin đầu tiên từng được đào?"
+answer: "Một tiêu đề từ tờ London Times về việc Bộ trưởng Tài chính đang bên bờ vực phải cứu trợ ngân hàng lần thứ hai"
+wrong_answers:
+  - "Một trích dẫn của Friedrich Hayek về các nguy cơ của kế hoạch hóa tập trung và sự kiểm soát của chính phủ đối với tiền"
+  - "Một tuyên ngôn độc lập khỏi mọi hình thức chính phủ và điều tiết tài chính trên toàn thế giới"
+  - "Một chứng minh toán học cho thấy tiền tệ phi tập trung hiệu quả hơn tiền pháp định"
+explanation: >-
+  Trong khối Genesis, Satoshi Nakamoto đã chèn một tiêu đề mang tính biểu tượng từ tờ London Times: "The Times 03/Jan/2009 Chancellor on the brink of a second bank bailout." Đây là một tham chiếu trực tiếp đến cuộc khủng hoảng tài chính năm 2008 và chủ nghĩa can thiệp tiền tệ diễn ra sau đó, khiến ý định của Bitcoin trở nên không thể nhầm lẫn: một phương án thay thế cho các hệ thống ngân hàng tập trung.
+reviewed: false

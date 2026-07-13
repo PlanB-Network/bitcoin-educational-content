@@ -1,0 +1,9 @@
+question: "Mis on Murray Rothbardi teoretiseeritud mitteagressiooni printsiip?"
+answer: "Teise üksikisiku või tema omandi vastu füüsilise jõu algatamine on ebaseaduspärane, kuigi kaitsev vägivald on lubatud"
+wrong_answers:
+  - "Kõik vägivalla vormid on alati väärad, sealhulgas enesekaitse ja vastupanu rõhumisele"
+  - "Vägivald on vastuvõetav, kui see on suunatud rõhuvate institutsioonide vastu, kuid mitte kunagi teiste üksikisikute vastu"
+  - "Ainult riigil on õiguspärane õigus kasutada jõudu ning üksikisikud ei tohi kunagi vägivalla poole pöörduda"
+explanation: >-
+  Rothbardi mitteagressiooni printsiip väidab, et füüsilise jõu algatamine teise inimese või tema omandi vastu on ebaseaduspärane. See on kuldreegli filosoofiline tõlge. Kuid see ei keela kogu vägivalda: kaitsvat vägivalda, sealhulgas enesekaitset ja vastupanu rõhumisele, peetakse õiguspäraseks. See eristab seda puhtast patsifismist ja riigi väidetavast jõumonopolist.
+reviewed: false

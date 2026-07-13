@@ -1,0 +1,9 @@
+question: "Miten fiat-rahajärjestelmä vahvistaa jakoa hallitsijoiden ja hallittujen välillä?"
+answer: "Se antaa valtioille mahdollisuuden rahoittaa rajatonta kulutusta rahanluonnilla, joka heikentää säästöjen arvoa inflaation kautta"
+wrong_answers:
+  - "Se antaa kansalaisille suoran määräysvallan rahapolitiikkaan demokraattisten vaalien ja kansanäänestysten kautta"
+  - "Se estää valtioita ottamasta lainaa ja pakottaa ne turvautumaan tuloissaan yksinomaan verotukseen"
+  - "Se jakaa vastaluodun rahan tasaisesti kaikille kansalaisille talouskasvun elvyttämiseksi"
+explanation: >-
+  Fiat-valuuttaa kuvataan valtiovallan laajentumisen kulmakiveksi, koska se antaa valtioille mahdollisuuden lainata ja painostaa pankkeja painamaan uutta rahaa. Tästä seuraava inflaatio heikentää ihmisten säästöjen arvoa ja hyödyttää varakkaimpia ja vaikutusvaltaisimpia toimijoita. Se ei anna kansalaisille rahapoliittista määräysvaltaa, eikä se estä lainanottoa tai jaa rahaa tasaisesti.
+reviewed: false

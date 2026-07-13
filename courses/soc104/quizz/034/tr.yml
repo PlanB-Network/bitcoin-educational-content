@@ -1,0 +1,9 @@
+question: "Murray Rothbard tarafından teorileştirilen saldırmazlık ilkesi nedir?"
+answer: "Başka bir bireye veya onun mülküne karşı fiziksel güç başlatmak gayrimeşrudur; ancak savunma amaçlı şiddete izin verilir"
+wrong_answers:
+  - "Meşru müdafaa ve baskıya direnme dahil olmak üzere her türlü şiddet her zaman yanlıştır"
+  - "Şiddet, baskıcı kurumlara yöneltildiğinde kabul edilebilir, ancak diğer bireylere karşı asla kabul edilemez"
+  - "Güç kullanma konusunda meşru hak yalnızca devlete aittir ve bireyler hiçbir zaman şiddete başvurmamalıdır"
+explanation: >-
+  Rothbard'ın saldırmazlık ilkesi, başka bir kişiye veya onun mülküne karşı fiziksel güç başlatmanın gayrimeşru olduğunu savunur. Bu, altın kuralın felsefi bir tercümesidir. Ancak her türlü şiddeti yasaklamaz: meşru müdafaa ve baskıya direnme dahil olmak üzere savunma amaçlı şiddet meşru kabul edilir. Bu, onu saf pasifizmden ve devletin güç üzerindeki iddia ettiği tekelinden ayırır.
+reviewed: false

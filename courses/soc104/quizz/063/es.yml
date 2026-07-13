@@ -1,0 +1,9 @@
+question: "¿Cuál es la distinción clave de Hannah Arendt entre el despotismo clásico y el totalitarismo?"
+answer: "El totalitarismo no se limita a someter a las personas a reglas tiránicas, sino que vuelve a los seres humanos incapaces de actuar de forma independiente, negando la política misma"
+wrong_answers:
+  - "El despotismo clásico controla la economía, mientras que el totalitarismo controla solo las instituciones políticas y militares"
+  - "El totalitarismo es simplemente una versión más extrema del despotismo, que difiere solo en la escala de la represión"
+  - "El despotismo clásico utiliza la ideología para justificar su dominio, mientras que el totalitarismo se basa puramente en la fuerza militar"
+explanation: >-
+  Arendt sostiene que el totalitarismo es fundamentalmente distinto del despotismo clásico. No es simplemente una tiranía más extrema, sino un sistema que vuelve superfluos a los seres humanos, destruyendo su capacidad de actuar de forma independiente. Para Arendt, la política es la capacidad de un pueblo de tomar su destino en sus manos, y el totalitarismo es la negación misma de esta capacidad, lo que lo hace cualitativamente distinto del despotismo.
+reviewed: false

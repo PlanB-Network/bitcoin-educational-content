@@ -1,0 +1,9 @@
+question: "Wat is de kernboodschap van Eric Hughes' Cypherpunk Manifesto uit 1993 over privacy?"
+answer: "Privacy is essentieel voor een open samenleving in het elektronische tijdperk, en individuen moeten die zelf opbouwen in plaats van te verwachten dat overheden of bedrijven die garanderen"
+wrong_answers:
+  - "Privacy is een luxe die moet worden opgeofferd in ruil voor nationale veiligheid en de bescherming van democratische instellingen"
+  - "Privacy moet worden gereguleerd door internationale verdragen die uniforme standaarden voor gegevensbescherming in alle landen vastleggen"
+  - "Privacy is alleen belangrijk voor criminelen en dissidenten, terwijl gezagsgetrouwe burgers profiteren van transparante surveillancesystemen"
+explanation: >-
+  Eric Hughes' manifest uit 1993 stelt dat privacy essentieel is voor een open samenleving in het elektronische tijdperk en dat we niet kunnen verwachten dat overheden, bedrijven of andere grote organisaties die garanderen. De fundamentele motivatie is dat vertrouwelijkheid een sleutelelement van vrijheid is en door individuen zelf moet worden opgebouwd, niet als geschenk van instellingen moet worden afgewacht.
+reviewed: false

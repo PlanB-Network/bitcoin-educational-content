@@ -1,0 +1,9 @@
+question: "Was ist das Nichtangriffsprinzip, wie es von Murray Rothbard theoretisiert wurde?"
+answer: "Es ist illegitim, physische Gewalt gegen ein anderes Individuum oder dessen Eigentum zu initiieren, obwohl defensive Gewalt erlaubt ist"
+wrong_answers:
+  - "Alle Formen von Gewalt sind immer falsch, einschließlich Selbstverteidigung und Widerstand gegen Unterdrückung"
+  - "Gewalt ist akzeptabel, wenn sie gegen unterdrückerische Institutionen gerichtet ist, aber niemals gegen andere Individuen"
+  - "Allein der Staat hat das legitime Recht, Gewalt anzuwenden, und Individuen dürfen niemals zu Gewalt greifen"
+explanation: >-
+  Rothbards Nichtangriffsprinzip besagt, dass die Initiierung physischer Gewalt gegen eine andere Person oder deren Eigentum illegitim ist. Es ist eine philosophische Übersetzung der goldenen Regel. Es verbietet jedoch nicht jede Gewalt: Defensive Gewalt, einschließlich Selbstverteidigung und Widerstand gegen Unterdrückung, gilt als legitim. Dies unterscheidet es vom reinen Pazifismus und vom vom Staat beanspruchten Gewaltmonopol.
+reviewed: false

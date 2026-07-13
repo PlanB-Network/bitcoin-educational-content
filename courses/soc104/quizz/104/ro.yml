@@ -1,0 +1,9 @@
+question: "De ce descrie cursul Bitcoin ca pe o monedă de piață opusă banilor de stat, mai degrabă decât ca pe un proiect de dreapta sau de stânga?"
+answer: "Pentru că Bitcoin este o monedă adoptată voluntar, greu de produs și descentralizată, care își păstrează valoarea, în contrast cu banii fiat coercitivi, centralizați, care își pierd valoarea, ceea ce face ca diviziunea să fie despre piață versus stat, nu despre ideologie politică"
+wrong_answers:
+  - "Pentru că Bitcoin a fost creat de un dezvoltator anonim care a evitat deliberat să facă orice declarații politice despre scopul sau filosofia sa intenționată"
+  - "Pentru că algoritmul de mining al Bitcoin asigură distribuția egală a noilor monede către toate partidele politice, prevenind orice părtinire ideologică în sistemul monetar"
+  - "Pentru că Bitcoin funcționează identic cu monedele fiat existente, dar operează pe o rețea de plăți mai rapidă, făcând distincțiile politice irelevante"
+explanation: >-
+  Bitcoin este descris ca o revoltă pașnică împotriva politizării banilor. Banii de stat sau fiat sunt un sistem coercitiv, centralizat, care tinde să-și piardă valoarea. Banii de piață, istoric aurul și în prezent Bitcoin, sunt o monedă sănătoasă, greu de produs, care apare voluntar și își păstrează valoarea pe termen lung. Opoziția reală nu este stânga versus dreapta, ci piață versus stat, făcând din Bitcoin o ruptură politică ce transcende taberele ideologice tradiționale.
+reviewed: false

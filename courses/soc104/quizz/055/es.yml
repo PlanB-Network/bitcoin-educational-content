@@ -1,0 +1,9 @@
+question: "¿Por qué sostiene Ron Paul que la Reserva Federal es perjudicial, y cómo se relaciona Bitcoin con su postura?"
+answer: "La Reserva Federal causa inflación y ciclos económicos mediante la manipulación del dinero fiat, y Bitcoin representa una forma de dinero sólido que podría reemplazar al patrón oro"
+wrong_answers:
+  - "La Reserva Federal limita la competencia bancaria, y Bitcoin descentraliza los servicios bancarios para mejorar la inclusión financiera"
+  - "La Reserva Federal impide el libre comercio entre naciones, y Bitcoin permite transacciones sin fronteras sin aprobación gubernamental"
+  - "La Reserva Federal crea deuda pública excesiva, y Bitcoin ofrece una moneda deflacionaria que elimina la deuda nacional"
+explanation: >-
+  Ron Paul, un minarquista, sostiene que la Reserva Federal es responsable de la inflación y los ciclos económicos porque manipula el dinero fiat. Defiende la desnacionalización del dinero, una idea promovida por Friedrich Hayek, y ve Bitcoin como una forma de dinero sólido que podría reemplazar al patrón oro. Su crítica está arraigada en la teoría monetaria libertaria, no principalmente en la competencia bancaria, las barreras comerciales o la deuda pública.
+reviewed: false

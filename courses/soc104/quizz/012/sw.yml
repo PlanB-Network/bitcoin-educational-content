@@ -1,0 +1,9 @@
+question: "Ni watu gani mashuhuri wanaohusishwa na uhuru mkubwa zaidi wa kiuchumi kwenye mchoro wa Nolan?"
+answer: "Margaret Thatcher, Ronald Reagan, na Javier Milei"
+wrong_answers:
+  - "Franklin D. Roosevelt, Jean Jaures, na Bernie Sanders"
+  - "Nelson Mandela, Simone Veil, na Noam Chomsky"
+  - "Vladimir Putin, Xi Jinping, na Joseph de Maistre"
+explanation: >-
+  Thatcher, Reagan, na Milei wanatajwa kama watu mashuhuri wa uhuru mkubwa zaidi wa kiuchumi, wakipendelea uingiliaji mdogo wa dola, kanuni chache zaidi, na kodi za chini zaidi. Roosevelt, Jaures, na Sanders wanawakilisha ncha iliyo kinyume inayopendelea udhibiti wa dola juu ya uchumi. Mandela, Veil, na Chomsky wanawakilisha uhuru mkubwa zaidi wa binafsi. Putin, Xi Jinping, na de Maistre wanawakilisha udhibiti mkubwa zaidi wa dola juu ya maisha ya binafsi.
+reviewed: false

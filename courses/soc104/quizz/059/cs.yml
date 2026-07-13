@@ -1,0 +1,9 @@
+question: "Jaký skrytý paradox leží uvnitř centristického pragmatismu?"
+answer: "Pragmatismus sám spočívá na určité formě dogmatismu, totiž na nevysloveném přesvědčení, že řídit společnost jsou kompetentní pouze experti"
+wrong_answers:
+  - "Centristé tvrdí, že jsou umírnění, ale v koaličních vládách se důsledně spojují s levicovými stranami"
+  - "Centristické politiky vypadají vyváženě, ale vždy upřednostňují ekonomický růst před ochranou životního prostředí"
+  - "Centristé odmítají ideologii, ale při ekonomickém rozhodování přijímají rigidní principy volného trhu"
+explanation: >-
+  Paradox centristického pragmatismu spočívá v tom, že tvrdí, že odmítá ideologii ve prospěch racionální expertizy, přesto však toto samotné tvrzení stojí na neviditelném a nevysloveném dogmatu: že pouze technokraté jsou schopni činit správná rozhodnutí. Toto přesvědčení, že společnost mají řídit pouze experti, je samo ideologickým závazkem, i když ho centristé jako takový nerozpoznávají.
+reviewed: false

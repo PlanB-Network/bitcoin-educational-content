@@ -1,0 +1,9 @@
+question: "Do czego motto Kanta 'Sapere aude' zachęca ludzi?"
+answer: "Do odwagi samodzielnego myślenia i wyjścia ze stanu niedojrzałości, w którym zależą od kierownictwa wyższego autorytetu"
+wrong_answers:
+  - "Do zdobywania wiedzy akademickiej przez zapisywanie się do formalnych instytucji edukacyjnych i uzyskiwanie dyplomów"
+  - "Do kwestionowania wszelkich form moralności i tworzenia całkowicie nowych systemów etycznych opartych na osobistym pragnieniu"
+  - "Do poszukiwania mądrości przez religijną pobożność i podporządkowanie się naukom kościoła"
+explanation: >-
+  Sapere aude, znaczące „Odważ się myśleć samodzielnie”, zostało zaczerpnięte przez Kanta od poety Horacego i uczynione mottem oświecenia. Symbolizuje wyjście z niedojrzałości, stanu, w którym ludzie nie są zdolni używać własnego rozumu bez kierownictwa wyższej klasy albo autorytetu. Kant zachęca do emancypacji i wzięcia pełnej odpowiedzialności za własne myślenie.
+reviewed: false

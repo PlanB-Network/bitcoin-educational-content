@@ -1,0 +1,9 @@
+question: "Comment les trois fonctions essentielles du marché libre, telles que décrites par les libertariens, constituent-elles ensemble un système d'organisation sociale à la fois efficace et éthique ?"
+answer: "Les prix fournissent une boussole pour les décisions, le marché révèle les préférences authentiques par l'offre et la demande, et l'échange libre permet aux individus de déterminer leurs propres affaires selon leurs valeurs personnelles, combinant l'efficacité informationnelle avec l'autonomie morale"
+wrong_answers:
+  - "Le marché maximise la richesse totale, empêche les monopoles par la concurrence naturelle et assure une distribution égale des ressources, combinant productivité et justice sociale"
+  - "Les marchés libres réduisent les dépenses publiques, stimulent l'innovation technologique et créent des opportunités d'emploi, combinant responsabilité budgétaire et croissance économique"
+  - "Les marchés abaissent les prix pour les consommateurs, augmentent la qualité des produits par la concurrence et élargissent le commerce international, combinant prospérité intérieure et coopération mondiale"
+explanation: >-
+  L'argument libertarien en faveur du marché libre repose sur trois fonctions interconnectées. Premièrement, les prix servent d'indicateurs fiables guidant les décisions économiques et sociales (la boussole). Deuxièmement, le marché révèle les préférences individuelles authentiques par l'offre et la demande. Troisièmement, l'échange libre permet aux acteurs de déterminer leurs propres affaires selon leurs valeurs personnelles. Hayek a montré que les marchés libres coordonnent l'information dispersée mieux que la planification centrale (efficacité), tandis que le consentement mutuel respecte la dignité humaine davantage que la coercition (justice).
+reviewed: false

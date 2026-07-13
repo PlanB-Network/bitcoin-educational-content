@@ -1,0 +1,9 @@
+question: "Waar komt de politieke links-rechtsverdeling vandaan?"
+answer: "Uit de zitplaatsenindeling tijdens de debatten van de Franse Revolutie van 1789"
+wrong_answers:
+  - "Uit de geschriften van Karl Marx en Adam Smith in de negentiende eeuw"
+  - "Uit de Amerikaanse Burgeroorlog tussen de noordelijke en zuidelijke staten"
+  - "Uit de verlichtingsfilosofen die rede van traditie scheidden"
+explanation: >-
+  De links-rechtsverdeling gaat terug tot 1789, toen afgevaardigden in de Franse Nationale Vergadering die het behoud van de macht van de koning steunden rechts van de voorzitter zaten, terwijl degenen die zijn macht wilden beperken links zaten. Ze is niet ontstaan uit Marx en Smith, de Amerikaanse Burgeroorlog of de filosofie van de Verlichting.
+reviewed: false

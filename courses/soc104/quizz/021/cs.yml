@@ -1,0 +1,9 @@
+question: "Co je kulturní konzervatismus?"
+answer: "Osobní přilnutí k rodinným, morálním, estetickým a metafyzickým hodnotám zděděným z minulosti, nikoli politická filozofie"
+wrong_answers:
+  - "Politická ideologie, která používá státní moc k vnucení tradičních hodnot celé společnosti prostřednictvím zákonodárství"
+  - "Hnutí, které odmítá všechny formy modernity a snaží se vrátit společnost k předindustriálnímu způsobu života"
+  - "Ekonomická doktrína, která chrání národní průmysl a staví se proti volnému obchodu se zahraničními zeměmi"
+explanation: >-
+  Kulturní konzervatismus je definován jako životní moudrost: osobní přilnutí k rodinným, morálním, estetickým a metafyzickým hodnotám zděděným z minulosti, ať řecko-římským, nebo židovsko-křesťanským. Výslovně nejde o politickou filozofii. Liší se od politického konzervatismu, který usiluje o zachování politických institucí a společenského řádu prostřednictvím státní moci. Nejde ani o odmítání modernity nebo ekonomický protekcionismus.
+reviewed: false

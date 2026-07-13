@@ -1,0 +1,9 @@
+question: "Triết lý cypherpunk về tập trung hóa kết nối với nguyên tắc libertarian về đồng thuận như chuẩn mực căn bản của công lý như thế nào?"
+answer: "Cypherpunks xem mọi sự tập trung hóa đều đặt nền trên cưỡng chế thay vì đồng thuận, vọng lại lập trường libertarian rằng không điều gì có thể công bằng nếu bị áp đặt bằng vũ lực bởi một quyền lực tập trung"
+wrong_answers:
+  - "Cypherpunks tin rằng tập trung hóa là chấp nhận được khi được đa số dân chủ phê chuẩn bằng bỏ phiếu, phù hợp với sự tôn trọng libertarian đối với quản trị hiến định"
+  - "Cypherpunks ủng hộ tập trung hóa tạm thời trong tình trạng khẩn cấp, phản ánh quan điểm libertarian rằng các quyền cá nhân có thể bị đình chỉ khi tập thể bị đe dọa"
+  - "Cypherpunks chỉ phản đối tập trung hóa trong các hệ thống công nghệ, trong khi chấp nhận tập trung hóa chính trị là cần thiết để thực thi quyền tài sản và hợp đồng"
+explanation: >-
+  Các cypherpunks đặt niềm tin vào các hệ thống mật mã phi tập trung thay vì các định chế tập trung. Mọi sự tập trung hóa đều được nhìn nhận là đặt nền trên cưỡng chế thay vì đồng thuận. Điều này trực tiếp vọng lại triết lý libertarian rằng đồng thuận là chuẩn mực căn bản của công lý. Không điều gì có thể công bằng nếu nó bị áp đặt bằng vũ lực bởi một quyền lực tập trung, đó là lý do họ tìm cách xây dựng các mạng lưới phi tập trung nơi không một thực thể đơn lẻ nào có thể áp đặt ý chí của mình.
+reviewed: false

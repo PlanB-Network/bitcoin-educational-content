@@ -1,0 +1,9 @@
+question: "Care este problema fundamentală a monedelor fiat pe care a identificat-o Satoshi Nakamoto?"
+answer: "Ele necesită încredere în banca centrală că nu va devaloriza moneda, însă istoria monedelor fiat este plină de încălcări ale acestei încrederi"
+wrong_answers:
+  - "Sunt prea dificil de folosit pentru tranzacțiile de zi cu zi deoarece numerarul fizic se uzează rapid și este costisitor de produs"
+  - "Nu pot fi transferate internațional deoarece fiecare țară are standarde și reglementări monetare incompatibile"
+  - "Sunt susținute de rezerve de aur insuficiente pentru a acoperi masa monetară totală aflată în circulație"
+explanation: >-
+  Satoshi Nakamoto a afirmat că problema fundamentală a monedelor convenționale este încrederea necesară pentru ca ele să funcționeze. Monedele fiat nu sunt susținute de o marfă, ci se sprijină în întregime pe autoritatea instituțională. Când o instituție deține control total asupra banilor, tentația de abuz este prea puternică, iar istoria a arătat acest lucru în mod repetat prin devalorizarea monedelor.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Šta je princip neagresije kako ga je teoretisao Murray Rothbard?"
+answer: "Nelegitimno je inicirati fizičku silu protiv drugog pojedinca ili njegove imovine, mada je odbrambeno nasilje dozvoljeno"
+wrong_answers:
+  - "Svi oblici nasilja su uvek pogrešni, uključujući samoodbranu i otpor ugnjetavanju"
+  - "Nasilje je prihvatljivo kada je usmereno protiv opresivnih institucija, ali nikada protiv drugih pojedinaca"
+  - "Samo država ima legitimno pravo da koristi silu, a pojedinci nikada ne smeju pribegavati nasilju"
+explanation: >-
+  Rothbardov princip neagresije tvrdi da je nelegitimno inicirati fizičku silu protiv druge osobe ili njene imovine. To je filozofski prevod zlatnog pravila. Međutim, on ne zabranjuje svako nasilje: odbrambeno nasilje, uključujući samoodbranu i otpor ugnjetavanju, smatra se legitimnim. To ga razlikuje od čistog pacifizma i od navodnog državnog monopola na silu.
+reviewed: false

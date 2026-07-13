@@ -1,0 +1,9 @@
+question: "Med tanke på kursens hela argument, hur förkroppsligar Bitcoin samtidigt den libertarianska kritiken av konstruktivism, cypherpunk-åtagandet att handla och det individualistiska försvaret av moralisk autonomi?"
+answer: "Bitcoin ersätter centralt planerade pengar med en spontan marknadsordning (anti-konstruktivism), omvandlar det abstrakta idealet om finansiell frihet till fungerande kod (cypherpunk-handling), och återställer suverän egendom och privatliv till individen (moralisk autonomi)"
+wrong_answers:
+  - "Bitcoin använder demokratisk styrning för att fastställa penningpolitik (anti-konstruktivism), publicerar utbildningsinnehåll om finansiell frihet (cypherpunk-handling), och låter individer rösta om protokolländringar (moralisk autonomi)"
+  - "Bitcoin avskaffar all finansiell reglering (anti-konstruktivism), skapar en gemenskap av utvecklare som lobbyar för avreglering (cypherpunk-handling), och ger förmögna individer mer kontroll över penningpolitiken (moralisk autonomi)"
+  - "Bitcoin decentraliserar serverinfrastruktur över flera länder (anti-konstruktivism), använder öppen källkodslicensiering för att dela teknik fritt (cypherpunk-handling), och tillhandahåller anonyma sociala medieplattformar för politiskt oliktänkande (moralisk autonomi)"
+explanation: >-
+  Bitcoin befinner sig i skärningspunkten mellan tre intellektuella traditioner som utforskas i kursen. Det förkroppsligar det anti-konstruktivistiska argumentet genom att ersätta centralt planerade fiatpengar med en spontan, decentraliserad monetär ordning som ingen central planerare kan kontrollera. Det uppfyller cypherpunk-imperativet att skriva kod genom att omvandla abstrakta ideal om finansiell frihet och privatliv till fungerande teknik. Och det tjänar det individualistiska försvaret av moralisk autonomi genom att möjliggöra suverän egendom, skydda arbetets frukter och bevara privatlivet, så att varje person kan vara herre över sitt eget liv.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Millised on Nolani diagrammi kaks telge?"
+answer: "Vertikaaltelg, mis mõõdab isiklikke vabadusi, ja horisontaaltelg, mis mõõdab majanduslikke vabadusi"
+wrong_answers:
+  - "Horisontaaltelg vasakult paremale ja vertikaaltelg autoritaarsusest demokraatiani"
+  - "Vertikaaltelg, mis mõõdab jõukust, ja horisontaaltelg, mis mõõdab haridustaset"
+  - "Horisontaaltelg sotsialismist kapitalismini ja vertikaaltelg traditsioonist progressini"
+explanation: >-
+  David Nolan kujundas oma diagrammi kahe konkreetse teljega: isiklikud vabadused (vertikaalne) ja majanduslikud vabadused (horisontaalne). See kahemõõtmeline lähenemine asendab ülelihtsustatud vasak-parem joone ja tabab paremini poliitiliste ideoloogiate keerukust, eraldades kaks peamist vabaduse kategooriat.
+reviewed: false

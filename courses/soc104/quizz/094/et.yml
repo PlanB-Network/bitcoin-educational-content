@@ -1,0 +1,9 @@
+question: "Miks kirjeldatakse rahalist inflatsiooni varjatud maksuna, mis kehtestatakse kodanike nõusolekuta?"
+answer: "Sest valitsuse raha loomine devalveerib valuutat, nii et inimesed saavad sama summa eest vähem osta, kuid enamik ei mõista, et hinnatõus peegeldab valitsuse poliitikat, mitte loomulikke turujõude"
+wrong_answers:
+  - "Sest keskpangad võtavad salaja tasusid igalt pangandussüsteemi kaudu töödeldud tehingult, avaldamata neid kontoomanikele"
+  - "Sest valitsused trükivad raha ja jagavad seda ainult jõukatele inimestele, maksustades samal ajal vaeseid kõrgemate müügimaksudega esmatarbekaupadelt"
+  - "Sest inflatsiooni põhjustavad eraettevõtted, kes tõstavad hindu kasumi suurendamiseks, mis toimib tarbijatele mitteametliku maksuna"
+explanation: >-
+  Raha süstimine süsteemi väljendub valuuta devalveerumises, kus sama summa eest saab vähem osta, sest uus raha ei kajasta tegelikku majanduskasvu. Enamik inimesi ei näe, et hinnatõusuni viis valitsuse poliitika, mis on lihtsalt valuuta devalveerumise peegeldus. See võrdub seadusliku varguse ja institutsionaliseeritud riisumisega, vaesestades keskklassi, samal ajal kui jõukad haaravad uut raha spekulatiivsete varade kaudu.
+reviewed: false

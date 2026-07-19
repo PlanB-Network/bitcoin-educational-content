@@ -1,5 +1,5 @@
 question: Which two approaches does the Stage 2 script offer for installing Bitcoin Core?
-answer: Compilation from source for maximum transparency, or binary download with signature verification for faster deployment
+answer: Compiling from source for maximum transparency, or downloading a signed binary for faster deployment
 wrong_answers:
   - Installation via the system package manager, or downloading a pre-built Docker image from Docker Hub
   - Cloning the Bitcoin Core GitHub repository via Git, or using a snap package from the Ubuntu store

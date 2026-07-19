@@ -1,5 +1,5 @@
 question: "What does the '--new_grouped_asset' flag accomplish during minting?"
-answer: "It creates an asset group with a group key, allowing future minting operations to add new units to the same asset"
+answer: "It creates an asset group with a group key, letting future minting add new units to that asset"
 wrong_answers:
   - "It assigns the asset to a predefined category for organization within the local universe store"
   - "It bundles the asset with other assets in the current batch so they share a single asset ID"

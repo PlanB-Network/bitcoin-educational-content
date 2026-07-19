@@ -1,9 +1,9 @@
 question: "How does the source installation update procedure differ from the binary installation procedure in stopping the TAPD daemon?"
-answer: "Source installation uses both `tapcli stop` for a graceful shutdown and `systemctl stop tapd`, while binary installation only uses systemctl"
+answer: "Source install uses `tapcli stop` for graceful shutdown, then `systemctl stop tapd`; binary install only uses systemctl"
 wrong_answers:
   - "Source installation requires sending a SIGTERM signal directly to the process, while binary installation uses systemctl"
   - "Source installation stops TAPD by killing the Go process from the build directory, while binary installation uses systemctl"
-  - "Both procedures are identical and use only systemctl to stop the TAPD service"
+  - "Both installation procedures are identical, relying solely on `systemctl stop tapd` to halt the service"
 explanation: >-
   The source installation update procedure first issues `tapcli stop` for a graceful daemon shutdown, then follows with `sudo systemctl stop tapd` to ensure the service is fully stopped. The binary installation procedure only uses `sudo systemctl stop tapd`. The graceful `tapcli stop` allows the daemon to cleanly finalize any pending operations before the service manager takes over.
 reviewed: false

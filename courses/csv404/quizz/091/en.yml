@@ -1,5 +1,5 @@
 question: "What is the purpose of the batch system in the Taproot Assets minting workflow?"
-answer: "It queues multiple asset creations to be finalized together in a single on-chain transaction, saving on mining fees"
+answer: "It queues multiple asset creations to be finalized together in one on-chain transaction"
 wrong_answers:
   - "It splits a large minting operation across multiple transactions to avoid exceeding block size limits"
   - "It groups assets by type so that fungible and collectible assets are minted on separate chains"

@@ -1,8 +1,8 @@
 question: What happens to an asset's supply when it is minted with emission disabled (the default setting)?
-answer: The supply is permanently capped at the initial mint amount
+answer: The supply is permanently and cryptographically capped at the initial mint amount
 wrong_answers:
-  - The supply can be increased later by the original issuer through a governance vote
-  - The supply is initially capped but can be unlocked through a special protocol upgrade
+  - The supply can be increased later by the issuer through a governance vote
+  - The supply is initially capped but can be unlocked through a protocol upgrade
   - The supply is set to zero until the issuer manually activates distribution
 explanation: >-
   When emission is disabled, which is the default behavior in Taproot Assets

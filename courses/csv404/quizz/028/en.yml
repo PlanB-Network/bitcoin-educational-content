@@ -1,9 +1,9 @@
 question: "What does a Taproot output containing embedded Taproot assets look like to an outside observer examining the blockchain?"
 answer: "An ordinary Bitcoin Taproot transaction, indistinguishable from any other Taproot output"
 wrong_answers:
-  - "A multisignature transaction with an unusually large witness size"
+  - "A multisignature transaction that stands out due to an unusually large witness data size"
   - "A transaction with OP_RETURN data clearly identifying it as a Taproot Asset commitment"
-  - "A specially formatted transaction with a unique version byte indicating asset content"
+  - "A specially formatted transaction with a unique version byte indicating embedded asset content"
 explanation: >-
   The TAPTweak mechanism produces a standard-looking Bitcoin Taproot output. To anyone examining the blockchain, it appears as an ordinary transaction. Only parties who possess the asset proofs (the paths through the Merkle forest) can verify that assets are embedded within it. This privacy property is inherited directly from Taproot's design.
 reviewed: false

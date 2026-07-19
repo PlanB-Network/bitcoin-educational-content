@@ -1,8 +1,8 @@
 question: "What is the concept of 'segmented custody' in the TAPD architecture?"
-answer: "LND holds the private keys while TAPD handles the Taproot Asset logic, with neither component overstepping its role"
+answer: "LND holds the private keys while TAPD handles the Taproot Asset logic, neither overstepping its role"
 wrong_answers:
-  - "Private keys are split into multiple shares distributed across different hardware security modules"
-  - "Each asset type is stored in a separate custody vault with independent access controls"
+  - "Private keys are split into shares distributed across independent hardware security modules"
+  - "Each asset type is stored in its own separate custody vault with independent access controls"
   - "Bitcoin Core manages on-chain custody while TAPD manages off-chain Lightning channel custody"
 explanation: >-
   Segmented custody refers to the deliberate separation of concerns between LND and TAPD. LND is responsible for holding private keys and managing channels, while TAPD handles the Taproot Asset logic including tweak computation, asset tracking, and proof management. Neither component oversteps its role, creating a clean security boundary between key management and asset protocol operations.

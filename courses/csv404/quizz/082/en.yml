@@ -1,5 +1,5 @@
 question: "Which command reveals all assets your universe has discovered through its federation connections?"
-answer: "tapcli universe roots"
+answer: "The `tapcli universe roots` command"
 wrong_answers:
   - "tapcli universe sync"
   - "tapcli assets list"

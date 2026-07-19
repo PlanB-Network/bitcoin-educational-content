@@ -1,5 +1,5 @@
 question: What role do scaling factors play in the price oracle's exchange rate calculations?
-answer: They provide additional internal precision during calculations to prevent floating-point rounding errors
+answer: They provide additional internal precision during calculations to help prevent cumulative floating-point rounding errors
 wrong_answers:
   - They adjust the exchange rate based on network congestion to account for higher on-chain fee costs
   - They multiply the quoted price by a configurable margin percentage to ensure the edge node earns a profit

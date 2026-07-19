@@ -1,9 +1,9 @@
 question: Why does the systemd service file for TAPD include both the After and Requires directives referencing lnd.service?
-answer: To ensure TAPD waits for LND to initialize first and to declare that LND must be running for TAPD to function
+answer: To make TAPD wait for LND to start first and to declare LND a required dependency for TAPD
 wrong_answers:
-  - To allow TAPD to share the same process space as LND and reduce memory usage
-  - To enable TAPD to automatically restart LND whenever LND crashes unexpectedly
-  - To merge the log outputs of both services into a single systemd journal entry
+  - To allow TAPD to share the same process space and memory pages as LND, reducing overhead
+  - To enable TAPD to automatically restart LND whenever LND crashes unexpectedly during runtime
+  - To merge the log outputs of both services into a single systemd journal entry for auditing
 explanation: >-
   The After=lnd.service directive ensures TAPD starts only after LND has finished
   initializing, preventing race conditions at boot. The Requires=lnd.service directive

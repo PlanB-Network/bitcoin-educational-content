@@ -1,7 +1,7 @@
 question: "What are the three fundamental lifecycle operations in the Taproot Assets protocol, and what role does burning play as the final operation?"
 answer: "Minting creates assets, sending transfers them between parties, and burning permanently destroys them to remove supply from circulation"
 wrong_answers:
-  - "Minting creates assets, staking locks them for yield generation, and burning recycles them into new asset types"
+  - "Minting creates assets, staking locks them permanently for passive yield generation, and burning recycles them into entirely new asset types"
   - "Issuance registers assets on-chain, routing delivers them through payment channels, and burning archives them in cold storage"
   - "Anchoring commits assets to Bitcoin, swapping exchanges them for Lightning payments, and burning converts them to on-chain satoshis"
 explanation: >-

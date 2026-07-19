@@ -1,5 +1,5 @@
 question: How is automatic wallet unlocking configured for a production LitD deployment?
-answer: Write the wallet password to a file with restricted permissions (chmod 600) and reference it in lit.conf via the lnd.wallet-unlock-password-file directive
+answer: Write the wallet password to a chmod-600 file and reference it in lit.conf via lnd.wallet-unlock-password-file
 wrong_answers:
   - Store the wallet password in an environment variable and pass it to the systemd service file via the Environment directive
   - Use lncli unlock --auto to enable the built-in keyring integration with the operating system's credential manager

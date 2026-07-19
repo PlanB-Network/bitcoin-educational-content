@@ -1,9 +1,9 @@
 question: "What is a universe in the Taproot Assets ecosystem?"
-answer: "A data store that holds asset proofs and metadata, functioning like a specialized block explorer for Taproot Assets"
+answer: "A data store holding asset proofs and metadata, acting like a specialized block explorer for Taproot Assets"
 wrong_answers:
-  - "A consensus mechanism that validates Taproot Asset transactions across the Lightning Network"
-  - "A smart contract runtime environment that executes asset transfer logic on Bitcoin"
-  - "A peer-to-peer network protocol that replaces the need for Lightning channels in asset transfers"
+  - "A consensus mechanism that validates Taproot Asset transactions across the Lightning Network's routing nodes"
+  - "A smart contract runtime environment that executes asset transfer logic directly on the Bitcoin blockchain layer"
+  - "A peer-to-peer network protocol that replaces the need for Lightning channels in asset transfer settlement"
 explanation: >-
   A universe is a data store that holds asset proofs and metadata. It functions like a block explorer but specialized for Taproot Assets, storing the off-chain proof data that TAP clients need to discover, verify, and transfer assets. It can be compared to a Git repository, but for asset proofs rather than code.
 reviewed: false

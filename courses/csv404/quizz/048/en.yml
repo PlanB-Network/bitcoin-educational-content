@@ -1,9 +1,9 @@
 question: How does Taproot Assets v0.2 reduce on-chain footprint when handling multiple assets?
-answer: It embeds multiple asset transfers within the same Bitcoin transaction outputs rather than requiring separate transactions for each
+answer: It embeds multiple different asset transfers together within the same Bitcoin transaction's outputs
 wrong_answers:
-  - It compresses all asset data into a single OP_RETURN output that stores a hash of all transfers
-  - It batches asset operations off-chain and only settles a net summary transaction once per day
-  - It uses a sidechain to process asset transfers and periodically anchors the sidechain state to Bitcoin
+  - It compresses all asset data into a single OP_RETURN output storing a hash of all transfers
+  - It batches asset operations off-chain and settles one net summary transaction per day
+  - It uses a sidechain to process transfers and periodically anchors state to Bitcoin
 explanation: >-
   Taproot Assets v0.2 allows multiple asset types to be included within a single
   Bitcoin transaction. Instead of requiring a separate on-chain transaction for each

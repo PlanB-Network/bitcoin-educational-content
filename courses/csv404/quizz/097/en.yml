@@ -1,5 +1,5 @@
 question: "What are the two phases of the Taproot Assets minting workflow when using the batch system?"
-answer: "Batch creation, where asset definitions are added to a pending queue, followed by batch finalization, where TAPD constructs and broadcasts the anchoring Bitcoin transaction"
+answer: "Batch creation, where asset definitions are queued, followed by batch finalization, where TAPD broadcasts the anchoring transaction"
 wrong_answers:
   - "Asset registration, where the asset name is reserved in the universe, followed by asset confirmation, where the mining fee is paid"
   - "Proof generation, where off-chain proofs are created locally, followed by proof distribution, where proofs are pushed to all federation universes"

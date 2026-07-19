@@ -1,5 +1,5 @@
 question: "What must both the sender and receiver be part of before a Taproot Asset transfer can take place?"
-answer: "A common universe federation"
+answer: "Membership in a common universe federation"
 wrong_answers:
   - "The same Lightning Network payment channel"
   - "A shared Bitcoin multisig wallet"

@@ -1,9 +1,9 @@
 question: "Why are assets minted within the same group considered fungible with one another?"
-answer: "Because they share a common group identifier, making them interchangeable despite being created in separate minting events"
+answer: "Because they share a common group identifier, making them fully interchangeable despite separate minting events"
 wrong_answers:
   - "Because they are all stored in the same Bitcoin UTXO, making them inseparable at the protocol level"
   - "Because the protocol merges their genesis outpoints into a single combined proof after minting"
-  - "Because they inherit the same asset ID from the original mint, erasing any distinction between batches"
+  - "Because they inherit the same asset ID from the original mint, erasing distinction between batches"
 explanation: >-
   Assets minted within the same group share a common group identifier established by the group key created during the initial mint with '--new_grouped_asset'. This shared group identity is what makes them fungible with one another, even though each minting event produces assets with different genesis outpoints and occurs in a separate on-chain transaction. They do not share the same asset ID; rather, the group key establishes their mutual fungibility.
 reviewed: false

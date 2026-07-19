@@ -1,8 +1,8 @@
 question: "According to the best practices, why should release candidates be avoided for production TAPD nodes?"
-answer: "Release candidates are for testing only and may contain unresolved bugs or breaking changes that could affect asset proofs or channel stability"
+answer: "Release candidates are intended for testing only and may contain unresolved bugs that affect asset proofs or channel stability"
 wrong_answers:
   - "Release candidates lack digital signatures from Lightning Labs and cannot be verified for authenticity"
-  - "Release candidates automatically expire after 30 days and force a node restart that disrupts channel operations"
+  - "Release candidates automatically expire after 30 days and force a node restart that disrupts channel operations entirely"
   - "Release candidates use a separate network protocol version that is incompatible with stable release nodes"
 explanation: >-
   The chapter advises using stable releases for production environments because release candidates are designated for testing only. Since each TAPD release can patch security vulnerabilities, fix bugs affecting asset proofs or channel stability, and introduce protocol changes, running unfinished release candidates in production risks exposing your node to issues that have not been fully vetted by the development and testing process.

@@ -1,8 +1,8 @@
 question: What is the minimum network topology required for a functional TAPD development environment in Polar?
 answer: At least 1 Bitcoin Core backend, at least 2 LND nodes, and 1 TAPD node paired to each LND node
 wrong_answers:
-  - At least 2 Bitcoin Core backends, 1 LND node, and 1 TAPD node connected to both backends
-  - At least 1 Bitcoin Core backend, 1 LND node, and 2 TAPD nodes sharing the same LND instance
+  - At least 2 Bitcoin Core backends, 1 LND node, and 1 TAPD node connected to both backends simultaneously
+  - At least 1 Bitcoin Core backend, 1 LND node, and 2 TAPD nodes sharing the same LND instance and macaroon
   - At least 3 Bitcoin Core backends, 3 LND nodes, and 1 shared TAPD node for all Lightning nodes
 explanation: >-
   A functional TAPD development environment requires at least 1 Bitcoin Core backend

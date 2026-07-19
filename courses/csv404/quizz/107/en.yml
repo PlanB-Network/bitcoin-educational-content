@@ -1,9 +1,9 @@
 question: "What HTTP method and endpoint are used to verify that minted assets exist after on-chain confirmation?"
-answer: "A GET request to /v1/taproot-assets/assets"
+answer: "A GET request to /v1/taproot-assets/assets, listing all assets"
 wrong_answers:
-  - "A POST request to /v1/taproot-assets/assets/verify"
-  - "A GET request to /v1/taproot-assets/assets/mint/status"
-  - "A POST request to /v1/taproot-assets/assets/list"
+  - "A POST request to /v1/taproot-assets/assets/verify endpoint call"
+  - "A GET request to /v1/taproot-assets/assets/mint/status check"
+  - "A POST request to /v1/taproot-assets/assets/list, returns all"
 explanation: >-
   After on-chain confirmation, a GET request to /v1/taproot-assets/assets retrieves the full list of assets held by the node, allowing verification that the newly minted asset appears with the correct name and amount. This is a standard read operation, so it uses GET rather than POST. There is no separate verification or status endpoint for minted assets.
 reviewed: false

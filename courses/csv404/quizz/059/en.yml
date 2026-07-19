@@ -1,5 +1,5 @@
 question: Where does TAPD look for its configuration file by default?
-answer: In the .tapd directory under the user's home folder (e.g., ~/.tapd/tapd.conf)
+answer: In the .tapd directory located under the current user's home folder (e.g., ~/.tapd/tapd.conf)
 wrong_answers:
   - In the /etc/tapd/ system-wide configuration directory (e.g., /etc/tapd/tapd.conf)
   - In the same directory as the tapd binary (e.g., $HOME/go/bin/tapd.conf)

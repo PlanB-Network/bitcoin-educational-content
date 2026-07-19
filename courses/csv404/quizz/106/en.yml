@@ -1,9 +1,9 @@
 question: "In the Python code example, why is the verify parameter set to cert_path in each API request?"
 answer: "To validate the server's TLS certificate and ensure encrypted communication with the TAPD node"
 wrong_answers:
-  - "To sign the request payload with the client's private key for non-repudiation"
-  - "To attach the macaroon file path so the server can verify the client's identity"
-  - "To enable HTTP/2 multiplexing required by the gRPC-REST gateway"
+  - "To sign the request payload with the client's private key for non-repudiation purposes"
+  - "To attach the macaroon file path so the server can verify the requesting client's identity"
+  - "To enable HTTP/2 multiplexing which is strictly required by the gRPC-REST gateway proxy"
 explanation: >-
   The verify parameter in the Python requests library specifies the path to a CA certificate or a server certificate used to validate the TLS connection. This ensures the client communicates with the authentic TAPD node over an encrypted channel. It does not sign payloads or handle macaroon authentication, which is done separately through the headers.
 reviewed: false

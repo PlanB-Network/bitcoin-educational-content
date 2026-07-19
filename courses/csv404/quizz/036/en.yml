@@ -1,5 +1,5 @@
 question: "What minimum Go version is required to install TAPD from source?"
-answer: "Go version 1.18 or greater"
+answer: "Go 1.18 or newer is required"
 wrong_answers:
   - "Go version 1.16 or greater"
   - "Go version 1.21 or greater"

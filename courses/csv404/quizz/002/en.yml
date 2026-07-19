@@ -1,8 +1,8 @@
 question: What data structure does TAPD use to organize and commit asset information?
-answer: Merkle Sum Sparse Merkle Trees (MS-SMT)
+answer: Merkle Sum Sparse Merkle Trees (MS-SMT) for committing asset data
 wrong_answers:
   - Patricia Merkle Tries adapted from Ethereum's state model
-  - Standard binary Merkle trees identical to those used in Bitcoin blocks
+  - Standard binary Merkle trees identical to Bitcoin's block structure
   - Directed acyclic graphs stored in the transaction witness
 explanation: >-
   TAPD constructs Merkle Sum Sparse Merkle Trees (MS-SMT) to store all asset

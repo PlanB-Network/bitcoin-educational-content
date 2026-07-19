@@ -1,9 +1,9 @@
 question: "Which programming languages are covered in TAPD's official API documentation alongside the REST implementation?"
 answer: "Python and JavaScript"
 wrong_answers:
-  - "Go and Rust"
-  - "Java and C++"
-  - "Ruby and TypeScript"
+  - "Go and Rust exclusively"
+  - "Java and C++ exclusively"
+  - "Ruby and TypeScript only"
 explanation: >-
   The TAPD API documentation at lightning.engineering covers both gRPC and REST implementations and provides examples in Python and JavaScript. While Go is the language TAPD itself is written in, the official API documentation examples specifically target Python and JavaScript for client-side integration.
 reviewed: false

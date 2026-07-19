@@ -2,8 +2,8 @@ question: "What role do proof files play in Taproot Asset transfers?"
 answer: "They form the verifiable chain of custody tracing ownership back to the genesis output"
 wrong_answers:
   - "They encrypt the asset data so only the receiver can decrypt and claim the tokens"
-  - "They record the transfer in a separate proof-of-stake sidechain for faster confirmation"
-  - "They serve as backup copies of the on-chain transaction in case of blockchain reorganization"
+  - "They record the transfer in a proof-of-stake sidechain for faster confirmation"
+  - "They serve as backup copies of the transaction in case of blockchain reorganization"
 explanation: >-
   Proof files are cryptographic documents that establish a verifiable chain of custody from the current owner all the way back to the asset's genesis output. They are exchanged off-chain between sender and receiver during a transfer. Without valid proofs, a receiver cannot verify that the sender legitimately owns the assets being transferred.
 reviewed: false

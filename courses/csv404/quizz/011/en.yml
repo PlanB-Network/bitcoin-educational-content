@@ -3,7 +3,7 @@ answer: "A single on-chain Taproot transaction, with no theoretical limit on the
 wrong_answers:
   - "One transaction per asset, each requiring a separate on-chain confirmation"
   - "A minimum of two transactions: one for the asset metadata and one for the asset itself"
-  - "Multiple transactions batched together in a single Bitcoin block"
+  - "Multiple transactions batched together for confirmation within a single Bitcoin block"
 explanation: >-
   Creating one or many Taproot assets requires only a single on-chain Taproot transaction. There is no theoretical limit to the number of assets that can be produced within that one transaction. This efficiency is a key advantage of the protocol, as asset data is embedded within a regular Taproot transaction.
 reviewed: false

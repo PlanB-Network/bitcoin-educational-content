@@ -1,9 +1,9 @@
 question: How does the federation model in Taproot Assets handle trust and data sourcing?
 answer: Each client defines its own federation of trusted universe servers from which it accepts asset data and proofs
 wrong_answers:
-  - A central authority designates official federation members that all clients must connect to
-  - Federation membership is determined by a proof-of-stake mechanism among universe operators
-  - All universe servers automatically join a single global federation with mandatory synchronization
+  - A central authority designates official federation members that all clients must connect to and trust implicitly
+  - Federation membership is determined by a proof-of-stake mechanism among competing universe operators globally
+  - All universe servers automatically join a single global federation with mandatory synchronization of every proof
 explanation: >-
   The federation model is client-defined rather than centrally imposed. Each client
   chooses its own set of trusted universe servers, creating a personalized federation.

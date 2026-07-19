@@ -1,9 +1,9 @@
 question: In the dual PSBT architecture, what is the role of the virtual PSBT (vPSBT)?
-answer: It carries asset-specific data such as Merkle tree updates and proof information for coordination between TAPD nodes
+answer: It carries asset-specific data such as Merkle tree updates and proof info for coordination between TAPD nodes
 wrong_answers:
-  - It creates the final on-chain Bitcoin transaction containing the new asset commitments
-  - It handles the signing of Bitcoin inputs and outputs for the base layer transaction
-  - It broadcasts the finalized transaction to the Bitcoin network for miner inclusion
+  - It creates the final on-chain Bitcoin transaction that contains the new asset commitments and all change outputs
+  - It handles the signing of Bitcoin inputs and outputs for the underlying base layer transaction directly
+  - It broadcasts the finalized transaction to the Bitcoin network for miner inclusion and confirmation checks
 explanation: >-
   The dual PSBT architecture separates concerns into two layers. The virtual PSBT
   (vPSBT) extends the standard PSBT format with custom fields for asset-level

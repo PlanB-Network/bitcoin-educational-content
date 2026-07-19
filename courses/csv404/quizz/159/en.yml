@@ -1,9 +1,9 @@
 question: "What four reasons does the chapter give for why keeping TAPD up to date is essential?"
 answer: "Patching security vulnerabilities, introducing required protocol features, fixing bugs in asset proofs or channel stability, and improving performance"
 wrong_answers:
-  - "Maintaining API backward compatibility, reducing disk usage, enabling new consensus rules, and supporting additional asset types"
-  - "Complying with Lightning Network governance requirements, reducing memory consumption, adding new RPC endpoints, and enabling multi-sig support"
-  - "Meeting minimum version requirements for universe federation, enabling atomic swaps, patching DNS vulnerabilities, and adding REST API versioning"
+  - "Maintaining strict API backward compatibility, reducing overall disk usage, enabling entirely new consensus rules, and supporting additional legacy asset types"
+  - "Complying with Lightning Network governance requirements, reducing memory consumption, adding new RPC endpoints, and enabling multi-sig support across nodes"
+  - "Meeting minimum version requirements for universe federation, enabling atomic swaps, patching DNS vulnerabilities, and adding REST API versioning support"
 explanation: >-
   The chapter explicitly lists four reasons to keep TAPD updated: each new release can patch security vulnerabilities, introduce protocol features required by the broader network, fix bugs that affect asset proofs or channel stability, and improve performance. These cover security, compatibility, reliability, and efficiency, making updates essential rather than optional.
 reviewed: false

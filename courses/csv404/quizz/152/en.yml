@@ -1,5 +1,5 @@
 question: "What verification step should be performed after downloading new TAPD binaries for a binary installation update?"
-answer: "Verify the SHA256 checksum of the downloaded archive against the release notes"
+answer: "Verify the SHA256 checksum of the downloaded archive against the official release notes"
 wrong_answers:
   - "Run the binary with a --self-test flag to validate its internal integrity checks"
   - "Compare the file size of the new binary against the previous version's binary exactly"

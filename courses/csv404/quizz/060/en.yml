@@ -1,5 +1,5 @@
 question: What is Polar in the context of Taproot Assets development?
-answer: A Docker-based desktop application that lets you spin up complete Bitcoin and Lightning Network topologies locally for testing
+answer: A Docker-based desktop app for spinning up local Bitcoin and Lightning Network topologies for testing
 wrong_answers:
   - A cloud-hosted testnet service that provides shared Bitcoin and Lightning nodes for remote development
   - A command-line tool that simulates Bitcoin transactions without running actual node software

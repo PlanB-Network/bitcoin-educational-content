@@ -1,9 +1,9 @@
 question: "If you mint 100 beefbucks and send 50 to Bob, what happens if you try to claim you still have 100?"
-answer: "The Merkle proofs become inconsistent, effectively burning the assets because the supply cannot be inflated without invalidating your own proofs"
+answer: "The Merkle proofs turn inconsistent, effectively burning the coins since supply can't inflate without breaking your own proofs"
 wrong_answers:
-  - "The network rejects the transaction at the consensus level and reverts the transfer to Bob"
-  - "The protocol automatically reduces your balance to 50 and issues a warning to connected peers"
-  - "Bob's node detects the discrepancy and broadcasts a fraud proof to invalidate your claim"
+  - "The network rejects the transaction outright at the base consensus level and reverts the entire transfer back to Bob"
+  - "The protocol automatically reduces your local balance to 50 and issues a broadcast warning to all connected peers"
+  - "Bob's node independently detects the balance discrepancy and broadcasts a fraud proof to invalidate your claim"
 explanation: >-
   The sum component of the MS-SMT prevents inflation by propagating values up the tree. If you sent 50 beefbucks to Bob, your leaf should change from 100 to 50 and the sums propagate to the root. Claiming you still have 100 while also having sent 50 would make the Merkle proofs inconsistent, as the root sum would not match. This means you cannot inflate the supply without invalidating your own proofs, effectively burning your assets.
 reviewed: false

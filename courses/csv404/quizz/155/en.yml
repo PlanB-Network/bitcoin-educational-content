@@ -1,9 +1,9 @@
 question: "When updating TAPD from source, what git commands are used to obtain the desired version?"
-answer: "`git fetch --all` followed by `git checkout` of the specific version tag"
+answer: "`git fetch --all` followed by `git checkout` of the specific desired version tag"
 wrong_answers:
   - "`git pull origin main` followed by `git merge` of the release branch"
-  - "`git clone` of the repository into a new directory followed by `git switch` to the tag"
-  - "`git submodule update --remote` followed by `git rebase` onto the latest tag"
+  - "`git clone` of the repo into a new directory, then `git switch` to the tag"
+  - "`git submodule update --remote` followed by `git rebase` onto the tag"
 explanation: >-
   The source update procedure uses `git fetch --all` to download all remote references without merging, then `git checkout v0.5.0` (or the desired version tag) to switch to the specific release. This approach ensures you get the exact tagged release rather than potentially unstable code from a branch tip. After checkout, `make install` compiles and installs the new version.
 reviewed: false

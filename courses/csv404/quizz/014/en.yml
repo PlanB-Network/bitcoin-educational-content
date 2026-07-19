@@ -1,9 +1,9 @@
 question: "In the tap tweak formula Q = P + H(P || c) * G, what does the variable c represent?"
-answer: "The MS-SMT commitment (the Merkle Sum Sparse Merkle Tree root)"
+answer: "The MS-SMT commitment, i.e. the root hash of the Merkle Sum Sparse Merkle Tree structure"
 wrong_answers:
-  - "The cryptographic challenge value derived from the transaction signature"
-  - "The coin amount locked in the Taproot output"
-  - "The compressed public key of the asset recipient"
+  - "The cryptographic challenge value derived from the transaction signature and nonce"
+  - "The coin amount, in satoshis, locked within the Taproot output script itself"
+  - "The compressed public key belonging to the intended asset recipient's wallet"
 explanation: >-
   In the formula Q = P + H(P || c) * G, P is the internal public key, c is the MS-SMT commitment (the root of the Merkle Sum Sparse Merkle Tree), H is a hash function, and G is the generator point. This tap tweak creates an unbreakable cryptographic link between the on-chain Bitcoin transaction and the off-chain asset data stored in the MS-SMT.
 reviewed: false

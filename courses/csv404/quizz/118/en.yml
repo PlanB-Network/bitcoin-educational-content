@@ -1,9 +1,9 @@
 question: "In the Alice-to-Bob transfer example, if Alice starts with 100 tokens and sends 10 to Bob, what balances do both nodes show after on-chain confirmation?"
-answer: "Alice shows 90 tokens and Bob shows 10 tokens"
+answer: Alice shows 90 tokens and Bob shows 10 tokens, updated automatically once confirmed on-chain
 wrong_answers:
-  - "Alice shows 100 tokens and Bob shows 10 tokens, because Alice's original UTXO is unchanged"
-  - "Alice shows 89 tokens and Bob shows 10 tokens, with 1 token consumed as a protocol fee"
-  - "Alice shows 90 tokens and Bob shows 0 tokens until he manually claims them"
+  - Alice shows 100 tokens and Bob shows 10 tokens, because Alice's original UTXO stays fully unchanged
+  - Alice shows 89 tokens and Bob shows 10 tokens, with 1 token consumed as a protocol routing fee
+  - Alice shows 90 tokens and Bob shows 0 tokens until he manually claims them from the mempool
 explanation: >-
   After the Bitcoin transaction is confirmed on-chain, both nodes update their balances automatically. Alice's balance decreases from 100 to 90, and Bob's balance shows 10. There is no protocol-level fee deducted from the asset amount, and Bob does not need to manually claim the tokens. Balance reconciliation happens automatically upon on-chain confirmation.
 reviewed: false

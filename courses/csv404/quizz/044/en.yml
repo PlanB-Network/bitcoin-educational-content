@@ -1,9 +1,9 @@
 question: Why is the dual PSBT architecture advantageous for developers integrating Taproot Assets?
-answer: Existing Bitcoin transaction libraries can handle the anchor PSBT without modification while asset logic is layered on top via the virtual PSBT
+answer: Existing Bitcoin libraries handle the anchor PSBT unmodified while asset logic layers on top via the virtual PSBT
 wrong_answers:
-  - It eliminates the need for any on-chain transactions by handling everything through virtual transactions
-  - It allows developers to bypass LND entirely and interact directly with Bitcoin Core for asset operations
-  - It reduces the number of cryptographic signatures required per transaction to a single signature
+  - It eliminates the need for any on-chain transactions entirely by handling everything through virtual transactions alone
+  - It allows developers to bypass LND entirely and interact directly with Bitcoin Core for all asset operations
+  - It reduces the number of cryptographic signatures required per transaction down to a single aggregated signature
 explanation: >-
   The key developer advantage of the dual PSBT architecture is backward compatibility.
   The anchor PSBT is a standard Bitcoin PSBT that any existing Bitcoin library can

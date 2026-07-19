@@ -1,5 +1,5 @@
 question: What does the Stage 2 Bitcoin Core script generate for communication between Bitcoin Core and LND?
-answer: A secure RPC credential string that LND uses to authenticate with Bitcoin Core
+answer: A secure RPC credential string that LND uses to authenticate with Bitcoin Core's interface
 wrong_answers:
   - A TLS certificate pair that encrypts all traffic between the two services over a local socket
   - A shared macaroon file that grants LND read-only access to Bitcoin Core wallet functions

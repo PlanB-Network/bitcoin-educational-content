@@ -1,9 +1,9 @@
 question: "What two parameters does the tapcli burn command require?"
-answer: "The asset ID and the amount to burn"
+answer: "The asset ID to identify the asset, and the amount of units to destroy"
 wrong_answers:
-  - "The asset ID and the destination address for the burn transaction"
-  - "The amount to burn and the transaction fee rate in satoshis per byte"
-  - "The asset name and the percentage of total supply to destroy"
+  - "The asset ID and the destination burn address for the transaction"
+  - "The amount to burn and the current transaction fee rate in satoshis per byte"
+  - "The asset name and the exact percentage of total supply to destroy"
 explanation: >-
   The burn command syntax is `tapcli assets burn --asset_id <ASSET_ID> --amount 10`, requiring exactly two parameters: the asset ID identifying which asset to burn and the amount specifying how many units to destroy. There is no destination address because burned assets are destroyed, and the fee rate is handled separately from the burn parameters.
 reviewed: false

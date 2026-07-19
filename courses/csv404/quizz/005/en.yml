@@ -1,8 +1,8 @@
 question: What is the function of an edge node in the Taproot Assets Lightning architecture?
-answer: It operates at the boundary between asset channels and satoshi channels, converting between them to enable cross-asset routing
+answer: It sits at the boundary between asset channels and satoshi channels, converting between the two
 wrong_answers:
-  - It validates all asset transactions across the entire network before they are confirmed
-  - It stores the complete history of all Taproot Assets ever issued for network-wide verification
+  - It validates all asset transactions across the entire Lightning Network before they are confirmed on-chain
+  - It stores the complete issuance history of every Taproot Asset for network-wide verification purposes
   - It relays asset metadata between Lightning nodes that do not support the Taproot Assets Protocol
 explanation: >-
   An edge node sits at the boundary of the Lightning Network where asset

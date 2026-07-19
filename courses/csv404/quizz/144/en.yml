@@ -1,5 +1,5 @@
 question: "What is the recommended practice for production systems after executing a burn through the API?"
-answer: "Log every burn response in its entirety as an audit record"
+answer: "Log every burn response in its entirety as a permanent audit record"
 wrong_answers:
   - "Send an automated notification to all asset holders about the supply change"
   - "Immediately re-mint the same number of assets to maintain a constant supply"

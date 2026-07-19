@@ -1,9 +1,9 @@
 question: "What HTTP header name is used to pass the macaroon in TAPD API requests?"
 answer: "Grpc-Metadata-macaroon"
 wrong_answers:
-  - "Authorization"
-  - "X-Macaroon-Token"
-  - "Grpc-Auth-Macaroon"
+  - "Macaroon-Authorization"
+  - "X-Grpc-Macaroon-Token"
+  - "Grpc-Metadata-Auth-Token"
 explanation: >-
   The macaroon is passed via the Grpc-Metadata-macaroon header. This naming convention comes from gRPC metadata being tunneled through HTTP headers in the REST gateway. Using a standard Authorization header or an arbitrary custom header would not be recognized by the TAPD REST interface.
 reviewed: false

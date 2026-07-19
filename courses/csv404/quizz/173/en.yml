@@ -1,5 +1,5 @@
 question: What does a decimal display value of 6 mean for a USD stablecoin in the price oracle's configuration?
-answer: One dollar equals 1,000,000 base units, enabling sub-cent precision in asset calculations
+answer: One dollar equals exactly 1,000,000 base units, which enables sub-cent precision in cross-asset calculations
 wrong_answers:
   - The oracle rounds all exchange rate calculations to six decimal places before returning a quote
   - The stablecoin supports a maximum of six digits in its total supply, limiting issuance to 999,999 tokens

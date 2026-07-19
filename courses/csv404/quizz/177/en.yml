@@ -1,9 +1,9 @@
 question: Which parameters are required when creating an invoice for a cross-asset payment using litcli?
-answer: The amount in millisatoshis, the asset group key, and the RFQ peer public key of the edge node
+answer: The amount in millisatoshis, the asset group key, and the RFQ peer's public key for the edge node
 wrong_answers:
-  - The amount in the destination asset, the sender's channel ID, and the oracle's gRPC endpoint address
-  - The asset ID, the recipient's node public key, and the desired exchange rate ceiling for the conversion
-  - The payment hash, the asset decimal display value, and the number of routing hops to the edge node
+  - The amount in the destination asset, the sender's channel ID, and the oracle's gRPC endpoint
+  - The asset ID, the recipient's node public key, and the desired exchange rate ceiling
+  - The payment hash, the asset decimal display value, and the routing hop count to the edge node
 explanation: >-
   The chapter shows the exact command: litcli invoices addholdinvoice --amt_msat --asset_group_key
   --rfq_peer_pubkey. The amount is specified in millisatoshis, the asset group key identifies which

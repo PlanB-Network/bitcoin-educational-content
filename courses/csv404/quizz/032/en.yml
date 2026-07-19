@@ -1,9 +1,9 @@
 question: "What two binaries does TAPD ship with?"
 answer: "tapd (the daemon listening on gRPC and REST) and tapcli (the command-line interface)"
 wrong_answers:
-  - "tapd (the daemon) and tapwallet (a graphical wallet application)"
+  - "tapd (the daemon) and tapwallet (a separate graphical wallet application for end users)"
   - "tapcli (the command-line tool) and tapserver (the web-based management interface)"
-  - "tapd (the daemon) and tapproof (the proof verification engine)"
+  - "tapd (the core daemon) and tapproof (a dedicated proof verification engine)"
 explanation: >-
   TAPD ships as two separate binaries. The first is tapd, which is the daemon itself that listens on gRPC (port 10029) and REST (port 8089) for incoming requests. The second is tapcli, the command-line interface used to interact with the daemon. Together they provide the full interface for managing Taproot assets.
 reviewed: false

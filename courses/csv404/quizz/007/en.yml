@@ -1,9 +1,9 @@
 question: Why can a Taproot Assets minting transaction remain indistinguishable from a regular Taproot transaction on the blockchain?
-answer: The asset data is committed via the taptweak and is only visible to those possessing the cryptographic proofs
+answer: The asset data is committed via taptweak, visible only to holders of the cryptographic proofs
 wrong_answers:
-  - The asset data is encrypted with the minter's public key and stored in the witness
-  - Taproot Assets use a separate mempool that is not visible to standard Bitcoin nodes
-  - The minting data is stored entirely off-chain and never touches the Bitcoin blockchain
+  - The asset data is encrypted with the minter's public key and stored in the witness field permanently
+  - Taproot Assets use a dedicated mempool relay layer that standard Bitcoin nodes cannot see or access
+  - The minting data is stored entirely off-chain on a federated server and never touches the Bitcoin blockchain
 explanation: >-
   Because asset data is embedded via TAPTweak into the Taproot script tree,
   the on-chain transaction carries no visible indication of asset activity.

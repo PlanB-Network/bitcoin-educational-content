@@ -1,9 +1,9 @@
 question: "Which three inputs are hashed together using SHA-256 to compute a Taproot Asset ID?"
-answer: "The genesis outpoint, the asset tag, and the asset metadata"
+answer: "The genesis outpoint, the asset tag, and the raw asset metadata"
 wrong_answers:
   - "The internal public key, the Merkle root, and the asset tag"
   - "The transaction ID, the block hash, and the asset supply"
-  - "The genesis outpoint, the asset supply, and the issuer's public key"
+  - "The genesis outpoint, the asset supply, and the issuer's key"
 explanation: >-
   The Asset ID is computed as sha256(genesis_outpoint || asset_tag || asset_meta). The genesis outpoint anchors the asset to its specific creation point on the Bitcoin blockchain, the asset tag provides the asset's name, and the asset meta contains any associated metadata. This formula ensures each asset has a deterministic and unique identifier tied to its on-chain origin.
 reviewed: false

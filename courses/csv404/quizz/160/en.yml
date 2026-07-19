@@ -1,5 +1,5 @@
 question: What is Lightning Terminal Daemon (LitD)?
-answer: A single binary that bundles LND, TAPD, Loop, Pool, and Faraday into one service
+answer: A single binary that bundles LND, TAPD, Loop, Pool, and Faraday into one unified service
 wrong_answers:
   - A graphical desktop application for managing Lightning channels and Taproot Assets
   - A lightweight alternative to Bitcoin Core that only validates Taproot transactions

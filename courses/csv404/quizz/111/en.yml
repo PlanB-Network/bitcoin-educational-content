@@ -1,9 +1,9 @@
 question: "What information does a TAP address encode?"
-answer: "The asset ID, the requested amount, the destination key, and cryptographic data for the sender"
+answer: "The asset ID, requested amount, destination key, and sender's crypto data"
 wrong_answers:
-  - "Only the receiver's public key and a checksum for error detection"
-  - "The asset name, the sender's node ID, and a routing hint"
-  - "The Bitcoin address, the asset type, and a fee estimation parameter"
+  - "Only the receiver's public key together with a checksum used for error detection"
+  - "The asset name, the sender's Lightning node ID, and a payment routing hint"
+  - "The Bitcoin address, the asset type, and a fee estimation parameter value"
 explanation: >-
   A TAP address is a long encoded string that contains the asset ID, the requested amount, the receiver's destination key, and cryptographic data needed for the sender to construct a valid transfer. Unlike standard Bitcoin addresses, TAP addresses are unique to each specific asset and amount combination.
 reviewed: false

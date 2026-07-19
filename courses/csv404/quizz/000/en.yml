@@ -1,9 +1,9 @@
 question: What role do intermediate Lightning nodes play when routing a Taproot Assets payment?
-answer: They route ordinary satoshi payments without any awareness of the assets being transferred
+answer: They forward standard satoshi payments with no built-in awareness that assets are involved
 wrong_answers:
-  - They convert assets between different types at each hop along the route
-  - They validate the asset proofs before forwarding the payment to the next node
-  - They store asset metadata on behalf of the network for future verification
+  - They convert assets between different denominations at each hop along the routing path
+  - They validate the asset proofs before forwarding the payment to the next node in line
+  - They store asset metadata on behalf of the network nodes for later dispute verification purposes
 explanation: >-
   In the Taproot Assets Lightning architecture, only the edge nodes at the
   endpoints of a payment deal with assets. All intermediate nodes along the

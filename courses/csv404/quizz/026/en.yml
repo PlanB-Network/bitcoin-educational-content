@@ -1,7 +1,7 @@
 question: "What feature does the group level of the Merkle forest enable for Taproot assets?"
-answer: "Multi-tranche minting, allowing assets minted across different rounds to be interchangeable within the same group"
+answer: "Multi-tranche minting: assets minted across separate rounds stay fully interchangeable within one group"
 wrong_answers:
-  - "Atomic swaps between different asset types without requiring an on-chain transaction"
+  - "Atomic swaps between different asset types without an on-chain confirmation transaction at all"
   - "Parallel proof verification across multiple independent Merkle trees for faster validation"
   - "Cross-chain bridging by linking the group commitment to external blockchain state roots"
 explanation: >-

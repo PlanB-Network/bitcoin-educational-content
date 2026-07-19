@@ -1,7 +1,7 @@
 question: "What is the RFQ mechanism in the context of Taproot Assets on Lightning?"
-answer: "A Request for Quote system that enables automatic asset exchange, allowing a Bitcoin-denominated invoice to be paid with a Taproot asset or vice versa"
+answer: "A Request for Quote system enabling automatic exchange between Bitcoin invoices and Taproot assets"
 wrong_answers:
-  - "A Request for Finality Queue that batches multiple Taproot asset transfers into a single Lightning commitment"
+  - "A Request for Finality Queue that batches Taproot asset transfers into a Lightning commitment"
   - "A Relay Forwarding Queue that prioritizes Taproot asset HTLCs over regular Lightning payments"
   - "A Rebalancing Fee Quotient that calculates optimal channel liquidity for Taproot asset transfers"
 explanation: >-

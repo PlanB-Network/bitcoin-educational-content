@@ -1,5 +1,5 @@
 question: How can you verify that a successful mint occurred in Polar after batch finalization and block confirmation?
-answer: Query the node's asset list and confirm it shows a populated result after previously showing an empty result before minting
+answer: Query the node's asset list and confirm it shows a populated result where it was empty before minting
 wrong_answers:
   - Check the Bitcoin Core debug log for a special TAPD_MINT_SUCCESS flag appended to the coinbase transaction
   - Inspect the LND channel database for a new virtual channel entry corresponding to the minted asset

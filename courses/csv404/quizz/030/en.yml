@@ -1,5 +1,5 @@
 question: "What are the three layers of the TAPD software architecture stack, from bottom to top?"
-answer: "Bitcoin Core (base layer), LND (Lightning layer), and TAPD (asset layer)"
+answer: "Bitcoin Core (base layer), LND (Lightning layer), and TAPD (topmost asset layer)"
 wrong_answers:
   - "Bitcoin Core (base layer), TAPD (asset layer), and LND (Lightning layer)"
   - "LND (Lightning layer), Bitcoin Core (base layer), and TAPD (asset layer)"

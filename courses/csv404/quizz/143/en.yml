@@ -1,9 +1,9 @@
 question: "What are the three fields required in the burn payload when using the Taproot Assets REST API?"
 answer: "asset_id, amount, and confirmation_str"
 wrong_answers:
-  - "asset_id, amount, and fee_rate"
+  - "asset_id, amount, and fee_rate_override"
   - "asset_name, amount, and confirmation_str"
-  - "asset_id, confirmation_str, and destination_address"
+  - "asset_id, confirmation_str, and dest_address"
 explanation: >-
   The burn payload requires three fields: `asset_id` (the hex-encoded identifier of the asset to burn), `amount` (the number of units to destroy), and `confirmation_str` (set to "assets will be destroyed"). The asset_id is a hex string, not a name, and there is no destination address since burned assets are destroyed rather than sent somewhere.
 reviewed: false

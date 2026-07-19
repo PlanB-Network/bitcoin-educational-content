@@ -1,9 +1,9 @@
 question: "A stablecoin issuer holds 90 units of a Taproot Asset and burns 10. What is the expected balance after on-chain confirmation, and why might the result differ from simply subtracting the burned amount from the initial mint?"
-answer: "The balance is 80 because this asset was already partially spent before the burn, and verification requires checking the actual current balance rather than assuming the minted total"
+answer: "The balance is 80, since the asset was already partly spent before the burn, so actual balance must be verified"
 wrong_answers:
-  - "The balance is 90 because the burn only takes effect after two additional on-chain confirmations beyond the initial one"
-  - "The balance is 80 because the burned amount is temporarily held in escrow until the next Bitcoin block is confirmed"
-  - "The balance is 10 because the burn operation inverts the remaining supply by destroying the larger portion"
+  - "The balance is 90 because the burn only takes effect after two additional confirmations beyond the mint"
+  - "The balance is 80 because the burned amount is held in escrow until the next block confirms it finally"
+  - "The balance is 10 because the burn operation inverts the remaining supply, destroying the larger portion"
 explanation: >-
   The chapter shows that after burning 10 units, the balance reflects 80, noting this is 90 minus 10. The key insight is that the pre-burn balance was 90, not necessarily the original minted amount, because prior sends may have already reduced the balance. This is why verifying your actual current holdings before and after a burn is essential rather than relying on assumptions about total supply.
 reviewed: false

@@ -1,9 +1,9 @@
 question: What distinguishes an internal Taproot Assets transaction from a standard on-chain transfer?
-answer: Assets move between leaves within the same set of Merkle trees rather than being split across separate transaction outputs
+answer: Assets move between leaves within the same set of Merkle trees, without splitting value across separate outputs
 wrong_answers:
-  - Internal transactions do not require an on-chain Bitcoin transaction to commit the state change
-  - Internal transactions bypass the proof verification system and rely solely on node trust
-  - Internal transactions can only move assets within a single Lightning channel
+  - Internal transactions skip the on-chain Bitcoin transaction needed to commit the state change entirely
+  - Internal transactions bypass proof verification and rely solely on node trust and local disk caches
+  - Internal transactions can only move assets within a single Lightning payment channel between two peers
 explanation: >-
   In an internal transaction, assets are reorganized between leaves within the
   same set of Merkle trees, rather than being split into separate trees

@@ -29,3 +29,5 @@ scripts/auto-translate/translation_logic/argon-edge-450706-b7-d2831a252186.json
 
 # /teach generated lesson workspaces (ephemeral, never committed)
 .teach/
+.translation-lessons
+scripts/agent-translate/knowledge

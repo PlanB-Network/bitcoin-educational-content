@@ -45,7 +45,7 @@ def _window(data: dict, sub: str, key: str = FIVE_H) -> tuple[float, float, bool
     s = data.get(sub) or {}
     w = s.get(key) or {}
     avail = bool(s.get("available")) and bool(w.get("available", True))
-    return float(w.get("used_percent", 0)), float(w.get("seconds_until_reset", 0)), avail
+    return float(w.get("used_percent") or 0), float(w.get("seconds_until_reset") or 0), avail
 
 
 class Governor:

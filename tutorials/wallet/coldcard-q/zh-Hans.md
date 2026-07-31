@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: 设置和使用 COLDCARD Q
 ---
+
+> **⚠️ 紧急安全披露（2026年7月）— Coldcard 钱包正在被持续盗空。** Coldcard 设备种子生成过程中的一个固件漏洞，使攻击者无需您采取任何操作即可找出您的助记词。**所有 Coldcard 型号均受影响：Mk3、Mk4、Mk5 和 Q。** 2026年7月30日，约500个钱包中约594 BTC被盗，且攻击仍在持续。只有使用掷骰子方法生成的钱包才被视为安全，且前提是您至少掷了50次骰子。如果您不知道、不记得或不确定您的种子是如何生成的，请将其视为已泄露，并**立即将资金转移**到种子并非在 Coldcard 上生成的钱包。请关注 Coinkite 的官方公告。请参阅我们的专门迁移教程：
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 硬件钱包是一种专用于管理和保护比特币钱包私钥的电子设备。与安装在通常连接到互联网的通用机器上的软件钱包（或热钱包）不同，硬件钱包可以实现私钥的物理隔离，降低盗版和盗窃的风险。

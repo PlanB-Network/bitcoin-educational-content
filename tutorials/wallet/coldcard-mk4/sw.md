@@ -3,6 +3,10 @@ name: COLDCARD Mk4
 description: Mwongozo wa kuanzisha na kutumia COLDCARD Mk4 yenye Sparrow Wallet
 ---
 
+> **⚠️ TAARIFA YA DHARURA YA USALAMA (Julai 2026) — Pochi za Coldcard zinaibiwa kikamilifu sasa hivi.** Hitilafu ya firmware katika utengenezaji wa seed kwenye vifaa vya Coldcard inawawezesha washambuliaji kupata seed phrase yako bila wewe kufanya chochote. **Miundo yote ya Coldcard imeathirika: Mk3, Mk4, Mk5 na Q.** Tarehe 30 Julai 2026, takriban BTC 594 ziliibwa kutoka pochi zipatazo 500, na shambulio bado linaendelea. Pochi zilizotengenezwa kwa njia ya kurusha kete pekee ndizo zinazochukuliwa kuwa salama, na tu ikiwa ulirusha angalau kete 50. Ikiwa hujui, hukumbuki, au huna uhakika jinsi seed yako ilivyotengenezwa, ichukulie kuwa imevujishwa na **hamisha fedha zako mara moja** kwenda kwenye pochi ambayo seed yake haikutengenezwa kwenye Coldcard. Fuata matangazo rasmi ya Coinkite. Tazama mafunzo yetu maalum ya uhamishaji:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover-mk4](assets/cover.webp)
 
 

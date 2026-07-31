@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: COLDCARDi seadistamine ja kasutamine Q
 ---
+
+> **⚠️ KIIRELOOMULINE TURVATEADE (juuli 2026) — Coldcardi rahakotte tühjendatakse aktiivselt.** Coldcardi seadmete seemne genereerimise püsivaraviga võimaldab ründajatel leida sinu seemnefraasi ilma sinu poolse tegevuseta. **Mõjutatud on kõik Coldcardi mudelid: Mk3, Mk4, Mk5 ja Q.** 30. juulil 2026 varastati umbes 594 BTC ligikaudu 500 rahakotist ja rünnak kestab endiselt. Turvaliseks peetakse ainult täringuviske meetodil loodud rahakotte, ja sedagi ainult juhul, kui veeretasid vähemalt 50 täringut. Kui sa ei tea, ei mäleta või pole kindel, kuidas sinu seeme genereeriti, käsitle seda kompromiteerituna ja **vii oma vahendid kohe** rahakotti, mille seeme ei ole genereeritud Coldcardil. Jälgi Coinkite'i ametlikke teadaandeid. Vaata meie spetsiaalset migratsiooniõpetust:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Riistvaraline rahakott on elektrooniline seade, mis on mõeldud Bitcoini rahakoti privaatvõtmete haldamiseks ja kaitsmiseks. Erinevalt tarkvaralistest rahakottidest (või kuumadest rahakottidest), mis on paigaldatud üldkasutatavatesse masinatesse, mis on sageli ühendatud internetti, võimaldavad riistvaralised rahakotid füüsiliselt isoleerida privaatseid võtmeid, vähendades piraatluse ja varguse ohtu.

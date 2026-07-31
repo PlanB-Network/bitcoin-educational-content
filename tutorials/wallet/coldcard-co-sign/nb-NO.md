@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Oppdag Co-Sign-funksjonen og bruk den på COLDCARD
 ---
 
+> **⚠️ HASTER — SIKKERHETSVARSEL (juli 2026) — Coldcard-lommebøker tømmes aktivt.** En firmwarefeil i seedgenereringen på Coldcard-enheter gjør det mulig for angripere å finne seedfrasen din uten noen handling fra din side. **Alle Coldcard-modeller er berørt: Mk3, Mk4, Mk5 og Q.** Den 30. juli 2026 ble omtrent 594 BTC stjålet fra rundt 500 lommebøker, og angrepet pågår fortsatt. Bare lommebøker generert med terningkastmetoden regnes som trygge, og kun hvis du kastet minst 50 terninger. Hvis du ikke vet, ikke husker eller ikke er sikker på hvordan seeden din ble generert, behandle den som kompromittert og **flytt midlene dine umiddelbart** til en lommebok hvis seed ikke ble generert på en Coldcard. Følg Coinkites offisielle kunngjøringer. Se vår egen migreringsveiledning:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

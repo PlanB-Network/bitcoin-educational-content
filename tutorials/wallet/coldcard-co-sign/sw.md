@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Gundua kipengele cha Co-Sign na ukitumie kwenye COLDCARD yako
 ---
 
+> **⚠️ TANGAZO LA DHARURA LA USALAMA (Julai 2026) — Pochi za Coldcard zinaibiwa kikamilifu.** Hitilafu ya firmware katika utengenezaji wa seed kwenye vifaa vya Coldcard inawawezesha washambuliaji kupata seed phrase yako bila hatua yoyote kutoka kwako. **Miundo yote ya Coldcard imeathirika: Mk3, Mk4, Mk5 na Q.** Tarehe 30 Julai 2026, takriban BTC 594 ziliibwa kutoka kwenye pochi zipatazo 500, na shambulio bado linaendelea. Ni pochi zilizotengenezwa kwa njia ya kurusha kete pekee ndizo zinazochukuliwa kuwa salama, na hilo tu ikiwa ulirusha angalau kete 50. Ikiwa hujui, hukumbuki, au huna uhakika jinsi seed yako ilivyotengenezwa, ichukulie kuwa imeathiriwa na **hamisha fedha zako mara moja** kwenye pochi ambayo seed yake haikutengenezwa kwenye Coldcard. Fuata matangazo rasmi ya Coinkite. Tazama mafunzo yetu maalum ya uhamishaji:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

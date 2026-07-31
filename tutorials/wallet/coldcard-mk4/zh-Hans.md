@@ -3,6 +3,10 @@ name: COLDCARD Mk4
 description: 使用 Sparrow Wallet 安装和使用 COLDCARD Mk4 的指南
 ---
 
+> **⚠️ 紧急安全公告（2026年7月）— Coldcard 钱包正在被持续盗取。** Coldcard 设备种子生成过程中的一个固件漏洞，使攻击者无需你进行任何操作即可找出你的种子短语。**所有 Coldcard 型号均受影响：Mk3、Mk4、Mk5 和 Q。** 2026年7月30日，约 500 个钱包中被盗走大约 594 BTC，且攻击仍在持续。只有使用掷骰子方法生成的钱包才被认为是安全的，并且前提是你至少掷了 50 次骰子。如果你不知道、不记得或不确定你的种子是如何生成的，请将其视为已泄露，并**立即将资金转移**到种子并非在 Coldcard 上生成的钱包。请关注 Coinkite 的官方公告。请参阅我们的专门迁移教程：
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover-mk4](assets/cover.webp)
 
 

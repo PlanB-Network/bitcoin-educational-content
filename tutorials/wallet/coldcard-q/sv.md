@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Konfigurera och använda ett COLDCARD Q
 ---
+
+> **⚠️ BRÅDSKANDE SÄKERHETSMEDDELANDE (juli 2026) — Coldcard-plånböcker töms aktivt.** En firmwarebugg i seedgenereringen på Coldcard-enheter gör det möjligt för angripare att hitta din seedfras utan någon åtgärd från din sida. **Alla Coldcard-modeller är drabbade: Mk3, Mk4, Mk5 och Q.** Den 30 juli 2026 stals cirka 594 BTC från omkring 500 plånböcker, och attacken pågår fortfarande. Endast plånböcker som genererats med tärningsmetoden anses säkra, och endast om du kastade minst 50 tärningar. Om du inte vet, inte minns eller är osäker på hur din seed genererades, betrakta den som komprometterad och **flytta dina medel omedelbart** till en plånbok vars seed inte genererats på en Coldcard. Följ Coinkites officiella meddelanden. Se vår särskilda migrationsguide:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

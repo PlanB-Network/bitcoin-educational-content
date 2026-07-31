@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Einrichten und Verwenden einer COLDCARD Q
 ---
+
+> **⚠️ DRINGENDER SICHERHEITSHINWEIS (Juli 2026) — Coldcard-Wallets werden aktiv leergeräumt.** Ein Firmware-Fehler bei der Seed-Erzeugung von Coldcard-Geräten ermöglicht es Angreifern, deine Seed-Phrase ohne jegliches Zutun deinerseits zu finden. **Alle Coldcard-Modelle sind betroffen: Mk3, Mk4, Mk5 und Q.** Am 30. Juli 2026 wurden rund 594 BTC aus etwa 500 Wallets gestohlen, und der Angriff dauert noch an. Nur Wallets, die mit der Würfelmethode erzeugt wurden, gelten als sicher — und nur, wenn du mindestens 50 Würfe gemacht hast. Wenn du nicht weißt, dich nicht erinnerst oder nicht sicher bist, wie dein Seed erzeugt wurde, behandle ihn als kompromittiert und **verschiebe deine Gelder sofort** in eine Wallet, deren Seed nicht auf einer Coldcard erzeugt wurde. Verfolge die offiziellen Ankündigungen von Coinkite. Siehe unser spezielles Migrations-Tutorial:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Eine Hardware-Wallet ist ein elektronisches Gerät zur Verwaltung und Sicherung der privaten Schlüssel einer Bitcoin-Wallet. Im Gegensatz zu Software-Wallets (oder Hot Wallets), die auf Universalmaschinen installiert sind, die oft mit dem Internet verbunden sind, ermöglichen Hardware-Wallets eine physische Isolierung der privaten Schlüssel, was das Risiko von Piraterie und Diebstahl verringert.

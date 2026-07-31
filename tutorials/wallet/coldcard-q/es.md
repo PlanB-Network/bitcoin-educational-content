@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Configuración y utilización de una COLDCARD Q
 ---
+
+> **⚠️ AVISO DE SEGURIDAD URGENTE (julio de 2026) — Las carteras Coldcard están siendo vaciadas activamente.** Un error de firmware en la generación de seeds de los dispositivos Coldcard permite a los atacantes encontrar tu frase semilla sin ninguna acción por tu parte. **Todos los modelos de Coldcard están afectados: Mk3, Mk4, Mk5 y Q.** El 30 de julio de 2026, se robaron aproximadamente 594 BTC de unas 500 carteras, y el ataque sigue en curso. Solo las carteras generadas con el método de tiradas de dados se consideran seguras, y únicamente si lanzaste al menos 50 dados. Si no sabes, no recuerdas o no estás seguro de cómo se generó tu seed, trátala como comprometida y **mueve tus fondos inmediatamente** a una cartera cuya seed no haya sido generada en una Coldcard. Sigue los anuncios oficiales de Coinkite. Consulta nuestro tutorial de migración dedicado:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Un monedero hardware es un dispositivo electrónico dedicado a gestionar y asegurar las claves privadas de un monedero Bitcoin. A diferencia de los monederos de software (o monederos calientes) instalados en máquinas de uso general a menudo conectadas a Internet, los monederos de hardware permiten aislar físicamente las claves privadas, lo que reduce el riesgo de piratería y robo.

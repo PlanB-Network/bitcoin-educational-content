@@ -2,6 +2,11 @@
 name: COLDCARD Q - Inararibonye
 description: Gukoresha amahitamwo ateye imbere ya COLDCARD Q
 ---
+
+> **⚠️ ITANGAZO RY'UMUTEKANO RIHUTIRWA (Mukakaro 2026) — Amapoche ya Coldcard ariko arasahurwa ubu nyene.** Ikosa ryo muri firmware mu gukora seed ku bikoresho vya Coldcard rituma abagizi ba nabi baronka seed phrase yawe utagize ico ukoze. **Ubwoko bwose bwa Coldcard bwarafashwe: Mk3, Mk4, Mk5 na Q.** Ku wa 30 Mukakaro 2026, hafi BTC 594 zarivywe mu mapoche nka 500, kandi igitero kiracabandanya. Amapoche yakozwe hakoreshejwe uburyo bwo guterera udupira tw'imizi (dice roll) ni yo yonyene afatwa nk'ayafise umutekano, kandi gusa iyo watereye n'imiburiburi udupira 50. Nimba utazi, utibuka canke udafise ukuri ku kuntu seed yawe yakozwe, yifate nk'iyahawe akaga kandi **wimure amahera yawe ubu nyene** uyashire mu ipoche seed yayo itakozwe kuri Coldcard. Kurikirana amatangazo yemewe ya Coinkite. Raba inyigisho yacu yihariye yo kwimuka:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

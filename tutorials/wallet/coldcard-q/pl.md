@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Konfigurowanie i używanie karty COLDCARD Q
 ---
+
+> **⚠️ PILNE OSTRZEŻENIE BEZPIECZEŃSTWA (lipiec 2026) — Portfele Coldcard są aktywnie opróżniane.** Błąd firmware'u w generowaniu seedów urządzeń Coldcard pozwala atakującym odnaleźć twoją frazę seed bez żadnego działania z twojej strony. **Dotyczy to wszystkich modeli Coldcard: Mk3, Mk4, Mk5 i Q.** 30 lipca 2026 r. skradziono około 594 BTC z około 500 portfeli, a atak wciąż trwa. Za bezpieczne uznaje się jedynie portfele wygenerowane metodą rzutów kośćmi, i tylko jeśli wykonano co najmniej 50 rzutów. Jeśli nie wiesz, nie pamiętasz lub nie masz pewności, jak został wygenerowany twój seed, traktuj go jako skompromitowany i **natychmiast przenieś środki** do portfela, którego seed nie został wygenerowany na Coldcard. Śledź oficjalne komunikaty Coinkite. Zobacz nasz dedykowany samouczek migracji:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

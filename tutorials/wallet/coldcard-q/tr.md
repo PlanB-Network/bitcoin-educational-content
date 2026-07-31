@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: COLDCARD Q'nun ayarlanması ve kullanılması
 ---
+
+> **⚠️ ACİL GÜVENLİK BİLDİRİMİ (Temmuz 2026) — Coldcard cüzdanları aktif olarak boşaltılıyor.** Coldcard cihazlarının seed üretimindeki bir donanım yazılımı hatası, saldırganların sizin hiçbir işlem yapmanıza gerek kalmadan seed ifadenizi bulmasına olanak tanıyor. **Tüm Coldcard modelleri etkileniyor: Mk3, Mk4, Mk5 ve Q.** 30 Temmuz 2026'da yaklaşık 500 cüzdandan yaklaşık 594 BTC çalındı ve saldırı hâlâ devam ediyor. Yalnızca zar atma yöntemiyle oluşturulan cüzdanlar güvenli kabul ediliyor, o da yalnızca en az 50 zar attıysanız. Seed'inizin nasıl oluşturulduğunu bilmiyorsanız, hatırlamıyorsanız veya emin değilseniz, onu ele geçirilmiş kabul edin ve **fonlarınızı derhal** seed'i bir Coldcard üzerinde oluşturulmamış bir cüzdana taşıyın. Coinkite'ın resmi duyurularını takip edin. Özel taşıma eğitimimize bakın:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

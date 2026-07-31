@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: 콜드카드 Q 설정 및 사용
 ---
+
+> **⚠️ 긴급 보안 공지 (2026년 7월) — Coldcard 지갑이 현재 활발히 탈취되고 있습니다.** Coldcard 기기의 시드 생성 펌웨어 버그로 인해 공격자가 사용자의 아무런 행동 없이도 시드 문구를 알아낼 수 있습니다. **모든 Coldcard 모델이 영향을 받습니다: Mk3, Mk4, Mk5, Q.** 2026년 7월 30일, 약 500개의 지갑에서 약 594 BTC가 도난당했으며 공격은 여전히 진행 중입니다. 주사위 굴리기 방식으로 생성된 지갑만 안전한 것으로 간주되며, 그것도 최소 50번 이상 주사위를 굴린 경우에만 해당됩니다. 시드가 어떻게 생성되었는지 모르거나, 기억나지 않거나, 확신할 수 없다면 유출된 것으로 간주하고 시드가 Coldcard에서 생성되지 않은 지갑으로 **즉시 자금을 이동하십시오**. Coinkite의 공식 발표를 따르십시오. 전용 이전 튜토리얼을 참조하세요:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

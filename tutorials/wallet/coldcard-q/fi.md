@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: COLDCARD-kortin asettaminen ja käyttö Q
 ---
+
+> **⚠️ KIIREELLINEN TURVALLISUUSTIEDOTE (heinäkuu 2026) — Coldcard-lompakoita tyhjennetään aktiivisesti.** Coldcard-laitteiden seedin luonnissa oleva laiteohjelmistovirhe antaa hyökkääjille mahdollisuuden löytää seed-lauseesi ilman mitään toimia sinun puoleltasi. **Kaikki Coldcard-mallit ovat alttiita: Mk3, Mk4, Mk5 ja Q.** 30. heinäkuuta 2026 varastettiin noin 594 BTC noin 500 lompakosta, ja hyökkäys jatkuu edelleen. Vain nopanheittomenetelmällä luotuja lompakoita pidetään turvallisina, ja vain jos heitit vähintään 50 noppaa. Jos et tiedä, et muista tai et ole varma, miten seedisi luotiin, pidä sitä vaarantuneena ja **siirrä varasi välittömästi** lompakkoon, jonka seediä ei ole luotu Coldcardilla. Seuraa Coinkiten virallisia tiedotteita. Katso erillinen siirto-oppaamme:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Laitelompakko on elektroninen laite, joka on tarkoitettu Bitcoin-lompakon yksityisten avainten hallintaan ja suojaamiseen. Toisin kuin ohjelmistolompakot (tai hot walletit), jotka on asennettu yleiskäyttöisiin koneisiin, jotka ovat usein yhteydessä Internetiin, laitteistolompakot mahdollistavat yksityisten avainten fyysisen eristämisen, mikä vähentää piratismin ja varkauksien riskiä.

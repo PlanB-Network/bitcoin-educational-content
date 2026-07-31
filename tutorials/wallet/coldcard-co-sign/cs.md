@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Objevte funkci Co-Sign a použijte ji na své kartě COLDCARD
 ---
 
+> **⚠️ NALÉHAVÉ BEZPEČNOSTNÍ UPOZORNĚNÍ (červenec 2026) — Peněženky Coldcard jsou aktivně vykrádány.** Chyba firmwaru při generování seedu na zařízeních Coldcard umožňuje útočníkům zjistit vaši seed frázi bez jakékoli akce z vaší strany. **Dotčeny jsou všechny modely Coldcard: Mk3, Mk4, Mk5 a Q.** Dne 30. července 2026 bylo ukradeno zhruba 594 BTC z přibližně 500 peněženek a útok stále pokračuje. Za bezpečné se považují pouze peněženky vytvořené metodou házení kostkami, a to jen pokud jste házeli alespoň 50 kostkami. Pokud nevíte, nepamatujete si nebo si nejste jisti, jak byl váš seed vygenerován, považujte jej za kompromitovaný a **okamžitě přesuňte své prostředky** do peněženky, jejíž seed nebyl vygenerován na Coldcardu. Sledujte oficiální oznámení Coinkite. Podívejte se na náš tutoriál věnovaný migraci:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

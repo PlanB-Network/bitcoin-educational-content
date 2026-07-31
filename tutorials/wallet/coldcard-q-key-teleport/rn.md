@@ -3,6 +3,10 @@ name: COLDCARD Q - Key Teleport
 description: Key Teleport ni iki kandi noyikoresha gute?
 ---
 
+> **⚠️ ITANGAZO RIHUTIRWA RY'UMUTEKANO (Mukakaro 2026) — Amakofero ya Coldcard ariko arasahurwa ubu nyene.** Ikosa rya firmware mu gukora seed ku bikoresho vya Coldcard rituma abagizi ba nabi bashobora kuronka seed phrase yawe ata kintu na kimwe ukoze. **Ubwoko bwose bwa Coldcard bwarakozweko: Mk3, Mk4, Mk5 na Q.** Ku wa 30 Mukakaro 2026, hafi 594 BTC yibwe mu makofero nka 500, kandi igitero kiracabandanya. Amakofero yakozwe hakoreshejwe uburyo bwo guterera udupfundo (dice roll) ni yo yonyene afatwa nk'ayizewe, kandi gusa iyo wateye udupfundo n'imiburiburi incuro 50. Niba utazi, utibuka, canke udafise ukuri ku kuntu seed yawe yakozwe, yifate nk'iyamaze guhungabanywa kandi **wimure amahera yawe ubu nyene** uyashire mu gakofero seed yako itakozwe kuri Coldcard. Kurikirana amatangazo ya Coinkite yemewe. Raba inyigisho yacu yihariye yo kwimura:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

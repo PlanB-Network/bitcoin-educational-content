@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Menyiapkan dan menggunakan COLDCARD Q
 ---
+
+> **⚠️ PENGUNGKAPAN KEAMANAN MENDESAK (Juli 2026) — Dompet Coldcard sedang aktif dikuras.** Sebuah bug firmware dalam pembuatan seed perangkat Coldcard memungkinkan penyerang menemukan frasa seed Anda tanpa tindakan apa pun dari pihak Anda. **Semua model Coldcard terdampak: Mk3, Mk4, Mk5, dan Q.** Pada 30 Juli 2026, sekitar 594 BTC dicuri dari sekitar 500 dompet, dan serangan masih berlangsung. Hanya dompet yang dibuat dengan metode lempar dadu yang dianggap aman, dan hanya jika Anda melempar setidaknya 50 dadu. Jika Anda tidak tahu, tidak ingat, atau tidak yakin bagaimana seed Anda dibuat, anggaplah telah dibobol dan **segera pindahkan dana Anda** ke dompet yang seed-nya tidak dibuat di Coldcard. Ikuti pengumuman resmi Coinkite. Lihat tutorial migrasi khusus kami:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Dompet perangkat keras adalah sebuah perangkat elektronik yang didedikasikan untuk mengelola dan mengamankan kunci pribadi dompet Bitcoin. Tidak seperti dompet perangkat lunak (atau hot wallet) yang dipasang pada mesin-mesin umum yang sering kali terhubung ke Internet, dompet perangkat keras memungkinkan kunci pribadi diisolasi secara fisik, sehingga mengurangi risiko pembajakan dan pencurian.

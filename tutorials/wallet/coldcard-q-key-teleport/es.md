@@ -3,6 +3,10 @@ name: COLDCARD Q - Key Teleport
 description: ¿Qué es el teletransporte de llaves y cómo se utiliza?
 ---
 
+> **⚠️ AVISO DE SEGURIDAD URGENTE (julio de 2026) — Las carteras Coldcard están siendo vaciadas activamente.** Un bug del firmware en la generación de semillas de los dispositivos Coldcard permite a los atacantes encontrar tu frase semilla sin ninguna acción por tu parte. **Todos los modelos Coldcard están afectados: Mk3, Mk4, Mk5 y Q.** El 30 de julio de 2026, se robaron aproximadamente 594 BTC de unas 500 carteras, y el ataque sigue en curso. Solo se consideran seguras las carteras generadas con el método de tiradas de dados, y únicamente si lanzaste al menos 50 dados. Si no sabes, no recuerdas o no estás seguro de cómo se generó tu semilla, trátala como comprometida y **mueve tus fondos de inmediato** a una cartera cuya semilla no haya sido generada en una Coldcard. Sigue los anuncios oficiales de Coinkite. Consulta nuestro tutorial de migración dedicado:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

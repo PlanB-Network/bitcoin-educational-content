@@ -2,6 +2,11 @@
 name: COLDCARD Q - Especialista
 description: Utilizar as opções avançadas do COLDCARD Q
 ---
+
+> **⚠️ AVISO DE SEGURANÇA URGENTE (julho de 2026) — Carteiras Coldcard estão sendo ativamente esvaziadas.** Um bug de firmware na geração de seeds dos dispositivos Coldcard permite que atacantes descubram sua frase-semente sem qualquer ação da sua parte. **Todos os modelos Coldcard são afetados: Mk3, Mk4, Mk5 e Q.** Em 30 de julho de 2026, cerca de 594 BTC foram roubados de aproximadamente 500 carteiras, e o ataque ainda está em andamento. Apenas carteiras geradas com o método de lançamento de dados são consideradas seguras, e somente se você lançou pelo menos 50 dados. Se você não sabe, não lembra ou não tem certeza de como sua seed foi gerada, trate-a como comprometida e **mova seus fundos imediatamente** para uma carteira cuja seed não tenha sido gerada em uma Coldcard. Acompanhe os anúncios oficiais da Coinkite. Veja nosso tutorial de migração dedicado:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Num tutorial anterior, abordámos a configuração inicial do COLDCARD Q e as suas funções básicas para principiantes. Se acabou de receber o seu COLDCARD Q e ainda não o configurou, recomendo que comece por esse tutorial antes de continuar aqui:

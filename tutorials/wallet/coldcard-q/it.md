@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Impostazione e utilizzo di una COLDCARD Q
 ---
+
+> **⚠️ AVVISO DI SICUREZZA URGENTE (luglio 2026) — I portafogli Coldcard vengono attivamente svuotati.** Un bug del firmware nella generazione delle seed dei dispositivi Coldcard consente agli aggressori di trovare la tua seed phrase senza alcuna azione da parte tua. **Tutti i modelli Coldcard sono interessati: Mk3, Mk4, Mk5 e Q.** Il 30 luglio 2026 sono stati rubati circa 594 BTC da circa 500 portafogli, e l'attacco è ancora in corso. Solo i portafogli generati con il metodo dei lanci di dadi sono considerati sicuri, e solo se hai effettuato almeno 50 lanci. Se non sai, non ricordi o non sei sicuro di come sia stata generata la tua seed, trattala come compromessa e **sposta immediatamente i tuoi fondi** in un portafoglio la cui seed non sia stata generata su una Coldcard. Segui gli annunci ufficiali di Coinkite. Consulta il nostro tutorial di migrazione dedicato:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Un portafoglio hardware è un dispositivo elettronico dedicato alla gestione e alla protezione delle chiavi private di un portafoglio Bitcoin. A differenza dei portafogli software (o hot wallet) installati su macchine generiche spesso connesse a Internet, i portafogli hardware consentono di isolare fisicamente le chiavi private, riducendo il rischio di pirateria e furto.

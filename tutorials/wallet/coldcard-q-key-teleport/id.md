@@ -3,6 +3,10 @@ name: COLDCARD Q - Key Teleport
 description: Apa itu Key Teleport dan bagaimana cara menggunakannya?
 ---
 
+> **⚠️ PENGUMUMAN KEAMANAN MENDESAK (Juli 2026) — Dompet Coldcard sedang aktif dikuras.** Bug firmware pada pembuatan seed di perangkat Coldcard memungkinkan penyerang menemukan seed phrase Anda tanpa tindakan apa pun dari pihak Anda. **Semua model Coldcard terdampak: Mk3, Mk4, Mk5, dan Q.** Pada 30 Juli 2026, sekitar 594 BTC dicuri dari sekitar 500 dompet, dan serangan masih berlangsung. Hanya dompet yang dibuat dengan metode lempar dadu yang dianggap aman, dan hanya jika Anda melempar setidaknya 50 dadu. Jika Anda tidak tahu, tidak ingat, atau tidak yakin bagaimana seed Anda dibuat, anggaplah seed itu telah dibobol dan **segera pindahkan dana Anda** ke dompet yang seed-nya tidak dibuat di Coldcard. Ikuti pengumuman resmi Coinkite. Lihat tutorial migrasi khusus kami:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

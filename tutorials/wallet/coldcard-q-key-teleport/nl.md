@@ -3,6 +3,10 @@ name: COLDCARD Q - Key Teleport
 description: Wat is Key Teleport en hoe gebruik ik het?
 ---
 
+> **⚠️ DRINGENDE VEILIGHEIDSWAARSCHUWING (juli 2026) — Coldcard-wallets worden actief leeggehaald.** Een firmwarebug in de seedgeneratie van Coldcard-apparaten stelt aanvallers in staat je seed phrase te vinden zonder enige actie van jouw kant. **Alle Coldcard-modellen zijn getroffen: Mk3, Mk4, Mk5 en Q.** Op 30 juli 2026 werd ongeveer 594 BTC gestolen uit zo'n 500 wallets, en de aanval is nog steeds gaande. Alleen wallets die met de dobbelsteenmethode zijn gegenereerd worden als veilig beschouwd, en alleen als je minstens 50 keer hebt geworpen. Als je niet weet, je niet herinnert of niet zeker bent hoe je seed is gegenereerd, beschouw hem dan als gecompromitteerd en **verplaats je geld onmiddellijk** naar een wallet waarvan de seed niet op een Coldcard is gegenereerd. Volg de officiële aankondigingen van Coinkite. Zie onze speciale migratietutorial:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

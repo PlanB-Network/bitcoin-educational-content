@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Avastage kaasallkirja funktsioon ja kasutage seda oma COLDCARDi puhul
 ---
 
+> **⚠️ KIIRELOOMULINE TURVATEADE (juuli 2026) — Coldcardi rahakotte tühjendatakse aktiivselt.** Coldcardi seadmete seemne genereerimise püsivara viga võimaldab ründajatel leida sinu seemnefraasi ilma sinu poolt midagi tegemata. **Mõjutatud on kõik Coldcardi mudelid: Mk3, Mk4, Mk5 ja Q.** 30. juulil 2026 varastati umbes 594 BTC ligikaudu 500 rahakotist ja rünnak kestab endiselt. Turvaliseks peetakse ainult täringuviske meetodil loodud rahakotte, ja sedagi vaid juhul, kui viskasid vähemalt 50 täringut. Kui sa ei tea, ei mäleta või pole kindel, kuidas sinu seeme genereeriti, käsitle seda kui ohustatut ja **vii oma vahendid kohe üle** rahakotti, mille seemet ei genereeritud Coldcardil. Jälgi Coinkite'i ametlikke teadaandeid. Vaata meie eraldi migreerimisõpetust:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

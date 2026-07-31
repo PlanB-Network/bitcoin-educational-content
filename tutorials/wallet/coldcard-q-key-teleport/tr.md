@@ -3,6 +3,10 @@ name: COLDCARD Q - Key Teleport
 description: Key Teleport nedir ve nasıl kullanırım?
 ---
 
+> **⚠️ ACİL GÜVENLİK BİLDİRİMİ (Temmuz 2026) — Coldcard cüzdanları aktif olarak boşaltılıyor.** Coldcard cihazlarının seed üretimindeki bir firmware hatası, saldırganların sizin hiçbir işlem yapmanıza gerek kalmadan seed ifadenizi bulmasına olanak tanıyor. **Tüm Coldcard modelleri etkilenmiştir: Mk3, Mk4, Mk5 ve Q.** 30 Temmuz 2026'da yaklaşık 500 cüzdandan kabaca 594 BTC çalındı ve saldırı hâlâ devam ediyor. Yalnızca zar atma yöntemiyle oluşturulan cüzdanlar güvenli kabul edilir, o da en az 50 zar attıysanız. Seed'inizin nasıl oluşturulduğunu bilmiyorsanız, hatırlamıyorsanız veya emin değilseniz, onu ele geçirilmiş sayın ve **fonlarınızı derhal** seed'i bir Coldcard üzerinde oluşturulmamış bir cüzdana taşıyın. Coinkite'ın resmî duyurularını takip edin. Özel taşınma rehberimize bakın:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

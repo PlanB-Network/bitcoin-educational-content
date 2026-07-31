@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Postavljanje i korišćenje COLDCARD Q
 ---
+
+> **⚠️ HITNO BEZBEDNOSNO OBAVEŠTENJE (jul 2026) — Coldcard novčanici se aktivno prazne.** Greška u firmveru pri generisanju seed-a na Coldcard uređajima omogućava napadačima da pronađu vašu seed frazu bez ikakve akcije s vaše strane. **Pogođeni su svi Coldcard modeli: Mk3, Mk4, Mk5 i Q.** Dana 30. jula 2026. ukradeno je oko 594 BTC iz oko 500 novčanika, a napad još uvek traje. Samo novčanici generisani metodom bacanja kockica smatraju se bezbednim, i to samo ako ste bacili najmanje 50 kockica. Ako ne znate, ne sećate se ili niste sigurni kako je vaš seed generisan, smatrajte ga kompromitovanim i **odmah prebacite sredstva** u novčanik čiji seed nije generisan na Coldcard-u. Pratite zvanična obaveštenja Coinkite-a. Pogledajte naš poseban tutorijal za migraciju:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

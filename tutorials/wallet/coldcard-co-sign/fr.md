@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Découvrir la fonctionnalité Co-Sign et l’utiliser sur votre COLDCARD
 ---
 
+> **⚠️ AVIS DE SÉCURITÉ URGENT (juillet 2026) — Les portefeuilles Coldcard sont activement vidés.** Un bug du firmware dans la génération de seed des appareils Coldcard permet à des attaquants de retrouver votre phrase de récupération sans aucune action de votre part. **Tous les modèles Coldcard sont concernés : Mk3, Mk4, Mk5 et Q.** Le 30 juillet 2026, environ 594 BTC ont été dérobés sur près de 500 portefeuilles, et l'attaque est toujours en cours. Seuls les portefeuilles générés avec la méthode des lancers de dés sont considérés comme sûrs, et uniquement si vous avez lancé au moins 50 dés. Si vous ne savez pas, ne vous souvenez pas ou n'êtes pas certain de la manière dont votre seed a été générée, considérez-la comme compromise et **déplacez immédiatement vos fonds** vers un portefeuille dont la seed n'a pas été générée sur une Coldcard. Suivez les annonces officielles de Coinkite. Consultez notre tutoriel de migration dédié :
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 *NB: Ce tutoriel s'adresse à des personnes ayant déjà un peu d'expérience avec les wallets multisignatures, les appareils Coinkite, et des logiciels comme Sparrow Wallet ou Nunchuk.*
 

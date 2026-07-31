@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Nastavení a používání karty COLDCARD Q
 ---
+
+> **⚠️ NALÉHAVÉ BEZPEČNOSTNÍ UPOZORNĚNÍ (červenec 2026) — Peněženky Coldcard jsou aktivně vykrádány.** Chyba firmwaru při generování seedu na zařízeních Coldcard umožňuje útočníkům zjistit vaši seed frázi bez jakékoli akce z vaší strany. **Postiženy jsou všechny modely Coldcard: Mk3, Mk4, Mk5 a Q.** Dne 30. července 2026 bylo ukradeno zhruba 594 BTC z přibližně 500 peněženek a útok stále pokračuje. Za bezpečné se považují pouze peněženky vygenerované metodou hodů kostkou, a to pouze pokud jste hodili alespoň 50 kostek. Pokud nevíte, nepamatujete si nebo si nejste jisti, jak byl váš seed vygenerován, považujte jej za kompromitovaný a **okamžitě přesuňte své prostředky** do peněženky, jejíž seed nebyl vygenerován na Coldcardu. Sledujte oficiální oznámení Coinkite. Viz náš věnovaný migrační tutoriál:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 Hardwarová peněženka je elektronické zařízení určené ke správě a zabezpečení soukromých klíčů peněženky Bitcoin. Na rozdíl od softwarových peněženek (neboli horkých peněženek) instalovaných na univerzálních počítačích často připojených k internetu umožňují hardwarové peněženky fyzickou izolaci soukromých klíčů, což snižuje riziko pirátství a krádeže.

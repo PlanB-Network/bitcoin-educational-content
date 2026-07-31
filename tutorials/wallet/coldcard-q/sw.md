@@ -2,6 +2,11 @@
 name: COLDCARD Q
 description: Kuweka na kutumia COLDCARD Q
 ---
+
+> **⚠️ TAARIFA YA DHARURA YA USALAMA (Julai 2026) — Pochi za Coldcard zinaibiwa kwa sasa.** Hitilafu ya firmware katika utengenezaji wa seed kwenye vifaa vya Coldcard inawawezesha washambulizi kupata msemo wako wa seed bila wewe kufanya chochote. **Miundo yote ya Coldcard imeathirika: Mk3, Mk4, Mk5 na Q.** Tarehe 30 Julai 2026, takriban BTC 594 ziliibwa kutoka kwenye pochi takriban 500, na shambulio bado linaendelea. Pochi zilizotengenezwa kwa njia ya kurusha dadu pekee ndizo zinazochukuliwa kuwa salama, na hilo ni ikiwa tu ulirusha angalau dadu 50. Ikiwa hujui, hukumbuki, au huna uhakika jinsi seed yako ilivyotengenezwa, ichukulie kuwa imeathiriwa na **hamisha fedha zako mara moja** kwenda kwenye pochi ambayo seed yake haikutengenezwa kwenye Coldcard. Fuata matangazo rasmi ya Coinkite. Tazama somo letu maalum la uhamishaji:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

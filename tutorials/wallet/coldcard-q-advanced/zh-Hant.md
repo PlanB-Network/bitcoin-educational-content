@@ -2,6 +2,11 @@
 name: COLDCARD Q - 專家
 description: 使用 COLDCARD Q 的進階選項
 ---
+
+> **⚠️ 緊急安全公告（2026年7月）— Coldcard 錢包正持續遭到盜取。** Coldcard 裝置種子產生過程中的一個韌體漏洞，使攻擊者無需你進行任何操作即可找出你的種子助記詞。**所有 Coldcard 型號均受影響：Mk3、Mk4、Mk5 和 Q。** 2026年7月30日，約 500 個錢包中被盜走大約 594 BTC，且攻擊仍在持續。只有使用擲骰子方法產生的錢包才被視為安全，且前提是你至少擲了 50 次骰子。如果你不知道、不記得或不確定你的種子是如何產生的，請將其視為已外洩，並**立即將資金轉移**到種子並非在 Coldcard 上產生的錢包。請關注 Coinkite 的官方公告。請參閱我們的專門遷移教學：
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

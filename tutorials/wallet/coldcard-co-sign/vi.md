@@ -3,6 +3,10 @@ name: COLDCARD - Co-Sign
 description: Khám phá tính năng Đồng ký và sử dụng trên COLDCARD của bạn
 ---
 
+> **⚠️ THÔNG BÁO BẢO MẬT KHẨN CẤP (tháng 7 năm 2026) — Các ví Coldcard đang bị rút cạn.** Một lỗi firmware trong quá trình tạo seed trên các thiết bị Coldcard cho phép kẻ tấn công tìm ra cụm từ seed của bạn mà bạn không cần làm gì cả. **Tất cả các mẫu Coldcard đều bị ảnh hưởng: Mk3, Mk4, Mk5 và Q.** Ngày 30 tháng 7 năm 2026, khoảng 594 BTC đã bị đánh cắp từ khoảng 500 ví, và cuộc tấn công vẫn đang tiếp diễn. Chỉ những ví được tạo bằng phương pháp gieo xúc xắc mới được coi là an toàn, và chỉ khi bạn đã gieo ít nhất 50 lần. Nếu bạn không biết, không nhớ hoặc không chắc seed của mình được tạo như thế nào, hãy coi nó đã bị xâm phạm và **chuyển tiền của bạn ngay lập tức** sang một ví có seed không được tạo trên Coldcard. Hãy theo dõi các thông báo chính thức của Coinkite. Xem hướng dẫn di chuyển chuyên biệt của chúng tôi:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover](assets/cover.webp)
 
 

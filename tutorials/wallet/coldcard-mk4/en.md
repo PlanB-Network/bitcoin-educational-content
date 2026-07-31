@@ -3,6 +3,10 @@ name: COLDCARD Mk4
 description: A guide to set up and use a COLDCARD Mk4 with Sparrow Wallet
 ---
 
+> **⚠️ URGENT SECURITY DISCLOSURE (July 2026) — Coldcard wallets are actively being drained.** A firmware bug in the seed generation of Coldcard devices allows attackers to find your seed phrase without any action on your part. **All Coldcard models are affected: Mk3, Mk4, Mk5, and Q.** On July 30, 2026, roughly 594 BTC were stolen from about 500 wallets, and the attack is still ongoing. Only wallets generated with the dice roll method are considered safe, and only if you rolled at least 50 dice. If you don't know, don't remember, or aren't sure how your seed was generated, treat it as compromised and **move your funds immediately** to a wallet whose seed was not generated on a Coldcard. Follow Coinkite's official announcements. See our dedicated migration tutorial:
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
+
 ![cover-mk4](assets/cover.webp)
 
 **Hardware wallets** are physical devices made just for storing Bitcoin's private key securely. They store the private keys offline, which means hackers cannot reach them through the internet. Whereas **software wallets** are mainly used for everyday transactions, **hardware wallets** are often used to store larger amounts of bitcoins securely for a long time. When making a Bitcoin transaction using **hardware wallets**, the wallet can sign the transactions inside the device, so the private key is never exposed to internet-connected environments.

@@ -1,6 +1,6 @@
 ---
 name: Slipstream
-description: Sending a signed transaction directly to a miner with Slipstream, without broadcasting it to the Bitcoin network
+description: Envoyer une transaction signée directement à un mineur avec Slipstream, sans la diffuser sur le réseau Bitcoin
 ---
 
 ![cover](assets/cover.webp)
@@ -11,7 +11,11 @@ Or, tant qu'elle n'est pas dans un bloc, un attaquant ayant obtenu votre clé pr
 
 L'outil Slipstream de l'entreprise de minage MARA permet ainsi de contourner la diffusion de la transaction au réseau : celle-ci est directement (et uniquement) envoyée à un mineur, permettant de ne pas la rendre publique et de ne pas l'exposer sur le réseau. Cette transaction sera alors probablement plus lente à être minée, mais elle sera protégée d'une attaque par remplacement.
 
-Ci-dessous, nous vous proposons un tutoriel permettant aux utilisateurs de [Liana](https://planb.academy/fr/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04), ainsi qu'à ceux utilisant le portefeuille [Sparrow](https://planb.academy/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d), d'utiliser l'outil Slipstream du mineur MARA en passant par la page [outofband.wizardsardine.com](https://outofband.wizardsardine.com/).
+Ci-dessous, nous vous proposons un tutoriel permettant aux utilisateurs de [Liana](https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04), ainsi qu'à ceux utilisant le portefeuille [Sparrow](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d), d'utiliser l'outil Slipstream du mineur MARA en passant par la page [outofband.wizardsardine.com](https://outofband.wizardsardine.com/).
+
+⚠️ **Attention** : cet outil ne s'adresse qu'à certains profils, principalement les portefeuilles Liana, miniscript et certains types de multisig. Wizardsardine le **déconseille explicitement** aux portefeuilles dont les fonds sont déjà à risque critique de vol, par exemple ceux dont la phrase de récupération a été générée sur un appareil ColdCard affecté par la vulnérabilité du générateur d'aléa. Dans ce cas, la course contre l'attaquant se joue à la seconde, et une transaction envoyée à un seul mineur met bien plus longtemps à être confirmée qu'une transaction diffusée normalement. Si vous êtes concerné, lisez d'abord notre tutoriel dédié :
+
+https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348b153-89db-429c-80af-b5d3d8506b9a
 
 ## Pour les utilisateurs de Liana
 
@@ -82,13 +86,13 @@ Il ne vous reste plus qu'à copier l'identifiant de la transaction (TXID), puis 
 
 ## Pour les utilisateurs d'autres portefeuilles
 
-Dans le cas où vous n'utilisez pas [Liana](https://planb.academy/fr/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04) mais que vous souhaitez tout de même utiliser l'outil, voici un tutoriel proposé avec un portefeuille multi-signature 2-sur-2. Nous utiliserons pour ce faire le portefeuille logiciel [Sparrow](https://planb.academy/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Dans le cas où vous n'utilisez pas [Liana](https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04) mais que vous souhaitez tout de même utiliser l'outil, voici un tutoriel proposé avec un portefeuille multi-signature 2-sur-2. Nous utiliserons pour ce faire le portefeuille logiciel [Sparrow](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
 *Prérequis : disposer de fonds sur votre portefeuille Sparrow.*
 
 ### Étape 1 : Créez votre transaction
 
-Avec [Sparrow](https://planb.academy/fr/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d), créez la transaction sur votre portefeuille multi-signature. Pensez à mettre des frais bien plus élevés que le taux proposé, comme décrit sur cette page : [outofband.wizardsardine.com](https://outofband.wizardsardine.com/).
+Avec [Sparrow](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d), créez la transaction sur votre portefeuille multi-signature. Pensez à mettre des frais bien plus élevés que le taux proposé, comme décrit sur cette page : [outofband.wizardsardine.com](https://outofband.wizardsardine.com/).
 
 Une fois créée, cliquez sur « Create Transaction ».
 

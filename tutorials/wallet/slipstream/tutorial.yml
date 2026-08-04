@@ -1,0 +1,29 @@
+id: 3d024596-70b8-4161-96c8-eb5bea8f3228
+
+last_update_date: 2026-08-04
+
+project_id: aa91f010-ea13-44f1-ac91-d3f02aea8f21
+
+category: desktop
+
+level: intermediate
+
+professor_id: dd20089b-7df9-4980-811a-e0dba0f70ea7
+
+license: CC-BY-SA-V4
+
+tags:
+  - wallets
+  - personal-security
+  - onchain
+  - good-practice
+  - guides
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-08-04
+    urgency: 1
+    contributor_names:
+    reward: 0

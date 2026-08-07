@@ -3,6 +3,10 @@ name: BTCPay Server
 description: Прием платежей BTC без посредников
 ---
 
+⚠️ **Критическое предупреждение о безопасности (7 августа 2026 г.):** критическая уязвимость, затрагивающая BTCPay Server, активно эксплуатируется и может привести к потере средств. Немедленно обновите свой экземпляр до **версии 2.4.2** через `Admin Dashboard > Server > Maintenance > Update`, затем убедитесь, что в нижнем колонтитуле отображается `2.4.2`. Если вы не можете обновиться сразу, выключите свой BTCPay Server. После обновления вам также необходимо полностью обновить свои macaroons и `macaroons.db`, полностью обновить строки аутентификации любого другого бэкенда Lightning, а если вы создавали «горячий» on-chain кошелёк внутри BTCPay Server — перевести эти средства и создать кошелёк заново. Интеграторам также следует обновить NBXplorer до версии 2.6.10. Источник: [примечания к выпуску BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 ![cover](assets/cover.webp)
 
 

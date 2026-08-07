@@ -24,6 +24,10 @@ objectives:
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **هشدار امنیتی حیاتی (۷ اوت ۲۰۲۶):** یک آسیب‌پذیری حیاتی در BTCPay Server هم‌اکنون به‌طور فعال مورد سوءاستفاده قرار می‌گیرد و می‌تواند به از دست رفتن وجوه منجر شود. بی‌درنگ نمونه (instance) خود را از مسیر `Admin Dashboard > Server > Maintenance > Update` به **version 2.4.2** به‌روزرسانی کنید و سپس بررسی کنید که در پاورقی صفحه `2.4.2` نمایش داده شود. اگر امکان به‌روزرسانی فوری ندارید، BTCPay Server خود را خاموش کنید. پس از به‌روزرسانی، باید macaroons و `macaroons.db` خود را نیز به‌طور کامل بازسازی کنید، رشته‌های احراز هویت هر بک‌اند Lightning دیگری را کاملاً از نو بسازید، و اگر یک کیف‌پول داغ on-chain درون BTCPay Server ایجاد کرده‌اید، آن وجوه را منتقل کرده و کیف‌پول را از نو بسازید. یکپارچه‌سازان (Integrators) باید NBXplorer را نیز به version 2.6.10 به‌روزرسانی کنند. منبع: [یادداشت‌های انتشار BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 
 به دوره POS 305 در مورد BTCPay Server خوش آمدید!
 

@@ -3,6 +3,10 @@ name: BTCPay Server - Umbrel
 description: 在 Umbrel 上安装和使用 BTCPay 服务器以接受 Bitcoin 和 Lightning
 ---
 
+⚠️ **重大安全警告（2026年8月7日）：** 一个影响 BTCPay Server 的严重漏洞正在被积极利用，可能导致资金损失。请立即通过 `Admin Dashboard > Server > Maintenance > Update` 将您的实例更新至 **version 2.4.2**，然后确认页脚显示为 `2.4.2`。如果您无法立即更新，请关闭您的 BTCPay Server。完成更新后，您还必须彻底更换您的 macaroons 和 `macaroons.db`，彻底更换任何其他 Lightning 后端的认证字符串；如果您曾在 BTCPay Server 内生成过 on-chain 热钱包，请转移其中的资金并重新创建钱包。集成方还应将 NBXplorer 更新至 version 2.6.10。来源：[BTCPay Server 2.4.2 版本发布说明](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2)。
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 ![cover](assets/cover.webp)
 
 

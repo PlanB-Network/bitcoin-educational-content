@@ -21,6 +21,10 @@ Iliyoundwa na Alekos na Bas, na kurekebishwa na melontwist na asi0, kozi hii ina
 
 <chapterId>785ed2bc-94ae-4962-a26a-edf5742a3c72</chapterId>
 
+⚠️ **Tahadhari muhimu ya usalama (7 Agosti 2026):** udhaifu mkubwa unaoathiri BTCPay Server unatumiwa vibaya kwa sasa na unaweza kusababisha upotevu wa fedha. Sasisha mfumo wako hadi **version 2.4.2** mara moja kupitia `Admin Dashboard > Server > Maintenance > Update`, kisha hakiki kuwa sehemu ya chini ya ukurasa inaonyesha `2.4.2`. Ikiwa huwezi kusasisha papo hapo, zima BTCPay Server yako. Baada ya kusasisha, ni lazima pia uhuishe kabisa macaroons zako na `macaroons.db` yako, uhuishe kabisa nyuzi za uthibitishaji za mfumo wowote mwingine wa Lightning, na, ikiwa ulitengeneza pochi ya moto ya on-chain ndani ya BTCPay Server, hamisha fedha hizo na uunde upya pochi hiyo. Waunganishaji wanapaswa pia kusasisha NBXplorer hadi version 2.6.10. Chanzo: [Maelezo ya toleo la BTCPay Server 2.4.2](https://github.com/btcpayserver/btcpayserver/releases/tag/v2.4.2).
+
+https://planb.academy/tutorials/business/point-of-sale/btcpay-server-update-7033a305-8404-4cba-8324-4c7eb679016b
+
 Karibu kwenye kozi ya POS 305 kuhusu BTCPay Server!
 
 Lengo la mafunzo haya ni kukufundisha jinsi ya kusakinisha, kusanidi, na kutumia BTCPay Server katika biashara au shirika lako. BTCPay Server ni suluhisho huria linalokuwezesha kushughulikia malipo ya bitcoin kwa uhuru, usalama, na gharama nafuu. Kozi hii imelenga zaidi watumiaji wa hali ya juu wanaotaka kujifunza jinsi ya kuiweka BTCPay Server kwenye server zao kwa ajili ya matumizi ya kila siku.

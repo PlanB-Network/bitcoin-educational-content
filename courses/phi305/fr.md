@@ -16,6 +16,67 @@ Apprenez des outils pratiques issus de l'éthique de Spinoza pour comprendre les
 # Introduction 
 <partId>80b76189-afab-5295-a8d3-ba8f6fe7a5e8</partId>
 
+## Vue d'ensemble du cours
+<chapterId>29f66fc6-ddce-45be-94ca-605e6cd858ea</chapterId>
+
+### Bienvenue
+
+Qu'ont en commun un philosophe néerlandais du XVIIe siècle et l'inventeur pseudonyme d'une monnaie numérique ? Tous deux ont utilisé la rigueur mathématique pour défier les institutions les plus puissantes de leur époque. Tous deux ont offert à l'humanité un outil d'émancipation. Et tous deux ont été, comme on pouvait s'y attendre, incompris.
+
+Ce cours explore les liens philosophiques profonds entre Baruch de Spinoza (1632-1677) et Bitcoin. À travers le prisme de la philosophie pratique de Spinoza, de sa critique des illusions et de sa théorie des affects, vous découvrirez que la révolution amorcée par Satoshi Nakamoto en 2009 plonge ses racines au cœur des Lumières, de la tradition libérale et du mouvement cypherpunk. Ce n'est pas un cours sur le code ou le trading ; c'est un cours sur la liberté, et sur la filiation intellectuelle qui relie deux des plus grands instruments d'émancipation humaine de l'histoire.
+
+Le cours est enseigné par Pierre Ginet, auteur et philosophe français dont le travail porte sur l'intersection entre la philosophie des Lumières et la technologie Bitcoin.
+
+### Ce que vous allez apprendre
+
+- **Comprendre la philosophie pratique de la liberté chez Spinoza.** Non pas une métaphysique abstraite, mais une méthode concrète pour reconnaître les servitudes qui nous enferment, et les moyens rationnels d'y échapper.
+- **Identifier les trois illusions fondamentales dénoncées par Spinoza.** Le libre arbitre, les causes finales et l'illusion théologique : trois pièges cognitifs qui façonnent encore aujourd'hui notre manière de penser la politique, l'économie et la religion.
+- **Appliquer la théorie des affects aux décisions du quotidien.** La classification spinoziste des affects actifs et passifs offre un cadre pratique pour comprendre la haine, l'amour, la peur et l'espoir, et pour orienter votre existence vers ce qui augmente votre puissance d'agir.
+- **Retracer la filiation intellectuelle de Spinoza à Bitcoin.** Des Lumières à l'école autrichienne d'économie jusqu'aux manifestes cypherpunks, voyez comment la même quête de liberté face à l'autorité centralisée traverse quatre siècles de pensée.
+- **Reconnaître le raisonnement finaliste dans les débats économiques et politiques.** L'illusion que Spinoza a disséquée dans la théologie réapparaît dans la politique monétaire moderne, dans la critique médiatique de Bitcoin et dans le discours politique.
+
+### Programme
+
+Le cours est organisé en quatre parties :
+
+**Partie 1, Introduction.** Nous faisons connaissance avec Spinoza : ses origines juives séfarades, son excommunication à 24 ans, son métier de polisseur de lentilles astronomiques, et l'extraordinaire contexte intellectuel des Provinces-Unies du XVIIe siècle, pays le plus libre et le plus prospère du monde.
+
+**Partie 2, Les œuvres majeures.** Nous explorons les deux chefs-d'œuvre de Spinoza. L'*Éthique* (1677), démonstration géométrique de la liberté atteinte par la compréhension du déterminisme et le rejet des illusions. Et le *Traité théologico-politique* (1670), défense de la liberté de penser et de la séparation de la religion et de l'État, avec sa résonance frappante dans le débat entre Voltaire et Rousseau autour du tremblement de terre de Lisbonne.
+
+**Partie 3, La révolution spinoziste.** Nous examinons les trois illusions fondamentales : le libre arbitre, les causes finales et l'illusion théologique. Chacune est disséquée à travers des exemples historiques et reliée à des parallèles contemporains, de la théorie keynésienne de l'inflation au scepticisme envers Bitcoin.
+
+**Partie 4, De la théorie des affects à Bitcoin.** Nous concluons avec la question du mal chez Spinoza, sa théorie des affects comme méthode pratique de libération, et le pont intellectuel qui relie les Lumières à l'école autrichienne, au mouvement cypherpunk, et enfin à l'invention de Satoshi Nakamoto.
+
+Commençons.
+
+## À propos de l'auteur et références
+<chapterId>b7fe8305-6f0f-42be-b997-05ed949d2be5</chapterId>
+
+### À propos de l'auteur du cours
+
+Ce cours est enseigné par **[Pierre Ginet](https://planb.academy/professors/pierre-ginet)**, auteur et philosophe français passionné par l'intersection entre la philosophie des Lumières et la technologie Bitcoin. Il est l'auteur de *Bitcoin, l'évangile de la liberté : Spinoza, les Lumières et la philosophie des Cypherpunks*, dans lequel il explore les liens profonds entre la pensée de Spinoza, les idéaux des Lumières et la révolution technologique incarnée par Bitcoin.
+
+Son approche singulière démontre que la philosophie politique des cypherpunks, bien qu'influencée par l'école autrichienne d'économie, trouve ses véritables racines dans la philosophie des Lumières. Son travail offre une perspective philosophique et humaniste sur Bitcoin, au-delà des seuls aspects techniques ou financiers, pour en explorer les implications pour la liberté humaine.
+
+### Ouvrages de référence
+
+Le cours s'appuie sur les deux essais de Pierre Ginet :
+
+- *La vraie religion de Spinoza*
+- *Bitcoin, l'évangile de la liberté : Spinoza, les Lumières et la philosophie des Cypherpunks*
+
+Tous deux sont disponibles en version papier et au format numérique sur Amazon Kindle.
+
+### Cours associés
+
+Si vous souhaitez un panorama plus large de l'histoire philosophique de la liberté, de l'Antiquité à l'époque moderne :
+
+https://planb.academy/courses/phi101
+
+Pour une exploration plus approfondie des penseurs économiques qui font le pont entre la philosophie de Spinoza et Bitcoin, en particulier Frédéric Bastiat et l'école autrichienne :
+
+https://planb.academy/courses/eco203
+
 ## Introduction du cours
 <chapterId>99af4992-fd6c-5142-b168-d927b251574b</chapterId>
 

@@ -831,7 +831,7 @@ En 1770, bien avant Bentham, Turgot compose un mémoire réclamant la liberté d
 
 On trouve dans un écrit oublié de 1773, une lettre à l’Abbé Terray sur la marque des fers, un résumé remarquable de la doctrine du laissez-faire telle que l’entendait Turgot:
 
-> Ce que doit faire la politique est de s’abandonner au cours de la nature et au cours du commerce, non moins nécessaire, non moins irrésistible que le cours de la nature, sans prétendre le diriger ; parce que, pour le diriger sans le déranger et sans se nuire à soi-même, il faudrait pouvoir suivre toutes les variations des besoins, des intérêts, de l’industrie des hommes ; il faudrait les connaître dans un détail qu’il est physiquement impossible de se procurer, et sur lequel le gouvernement le plus habile, le plus actif, le plus détailleur, risquera toujours de se tromper au moins de la moitié."
+> Ce que doit faire la politique est de s’abandonner au cours de la nature et au cours du commerce, non moins nécessaire, non moins irrésistible que le cours de la nature, sans prétendre le diriger ; parce que, pour le diriger sans le déranger et sans se nuire à soi-même, il faudrait pouvoir suivre toutes les variations des besoins, des intérêts, de l’industrie des hommes ; il faudrait les connaître dans un détail qu’il est physiquement impossible de se procurer, et sur lequel le gouvernement le plus habile, le plus actif, le plus détailleur, risquera toujours de se tromper au moins de la moitié.
 
 On trouve là un énoncé très clair de la doctrine du laissez-faire ainsi qu’une préfiguration des analyses de Friedrich Hayek sur la prétention du savoir, c’est-à-dire l’impossibilité qu’a un Etat de connaître les forces économiques afin de les piloter. 
 
@@ -1002,7 +1002,7 @@ Dès novembre 1789, quand il fut question de donner un monopole à la Caisse d�
 
 Il vaudrait mieux, dit-il, abandonner l’entreprise des banques aux lois de la liberté du commerce.  Et il ajoute : 
 
-> Je n’ai pas compris ce que le ministre a voulu dire en vous parlant d’un privilège pour la Caisse d’Escompte. Si ce privilège renferme quelque chose d’exclusif, vous devez le refuser : vous êtes venus ici pour détruire les privilèges exclusifs, et non pour en créer de nouveaux."
+> Je n’ai pas compris ce que le ministre a voulu dire en vous parlant d’un privilège pour la Caisse d’Escompte. Si ce privilège renferme quelque chose d’exclusif, vous devez le refuser : vous êtes venus ici pour détruire les privilèges exclusifs, et non pour en créer de nouveaux.
 
 Cependant l’Assemblée passa outre ses critiques et fit un pas de plus dans la direction de l’établissement d’une banque centrale et dans l’instauration du monopole bancaire.
 

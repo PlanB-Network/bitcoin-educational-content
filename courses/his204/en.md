@@ -95,7 +95,7 @@ Anyone wishing to practice a trade had to first spend several years as an appren
 
 These countries' products, therefore, had to be banned or heavily taxed, without scruples, because trade is a war in which we can only wish for the ruin of our enemies.
 
-> "The French can only increase their commerce by crushing the Dutch".
+> The French can only increase their commerce by crushing the Dutch.
 > *Colbert*
 
 (3) **When the State is short of money, Raise More Taxes**. Colbert and his disciples were far from believing that taxpayers' wealth was a limited resource. In their view, public spending could never be a problem, as long as enough was collected. And if the people revolted, it was merely because the ministers had gone about it poorly, for, as Colbert cynically remarked, "the art of taxation consists in plucking the geese without making them scream too much".
@@ -107,7 +107,7 @@ These countries' products, therefore, had to be banned or heavily taxed, without
 ![Uncle Scrooge](assets/en/007.webp)
 
 
-> "Only the abundance of money within the state makes the difference to its greatness and power".
+> Only the abundance of money within the state makes the difference to its greatness and power.
 > *Colbert*
 
 The consequence of this idea is to favor exports at all costs, which brought in foreign gold and silver, and to limit imports to a minimum, to avoid sending them abroad.
@@ -155,7 +155,7 @@ Across his various political and economic writings, Vauban's overarching ambitio
 
 He understood that oppressive and disincentivizing taxation was overwhelming peasants, a concept he expressed with clear-sightedness, something that we can still observe perfectly in our time:
 
-> "The farmer lets the little land he has wither away, working it only half-heartedly, for fear that if it produced what it could with proper manure and cultivation, it would be taxed even more heavily".
+> The farmer lets the little land he has wither away, working it only half-heartedly, for fear that if it produced what it could with proper manure and cultivation, it would be taxed even more heavily.
 
 Vauban saw the truth: taxation under the Ancien Régime was not only irrational but also cruelly strict. It was this tax system, unjust in its distribution, that he sought to overcome.
 
@@ -165,7 +165,7 @@ His proposed solution, a flat, proportional tax on all incomes, would have allow
 
 In The Royal Tithe, the only one of his economic works printed in his lifetime, Vauban stated clearly:
 
-> "Since everyone in a State needs its protection to survive, it is only right that all contribute, according to their income, to its upkeep and expenses [...]. Nothing is more unjust than exempting those most able to pay, and shifting the burden onto those least able, who collapse beneath the weight; weight that would be quite light if borne proportionally by all according to their own strength. Therefore, every exemption from taxation is a disorder that must be corrected."
+> Since everyone in a State needs its protection to survive, it is only right that all contribute, according to their income, to its upkeep and expenses [...]. Nothing is more unjust than exempting those most able to pay, and shifting the burden onto those least able, who collapse beneath the weight; weight that would be quite light if borne proportionally by all according to their own strength. Therefore, every exemption from taxation is a disorder that must be corrected.
 
 Shortly before his death, Vauban's idea was adopted by Louis XIV's ministers. However, Vauban had called for a proportional tax to replace all, or nearly all, existing taxes. Instead, as so often happens, his tax was implemented, but all the others were kept as well.
 
@@ -194,7 +194,7 @@ And this is the basis of Boisguilbert's books: French poverty and its causes.
 
 This misery of the French people at the end of the 17th century, Boisguilbert describes in detail, as did Vauban. He writes:
 
-> "The barren or poorly cultivated lands, visible to all, are the corpse of France".
+> The barren or poorly cultivated lands, visible to all, are the corpse of France.
 
 He described uprooted vineyards, peasants who abandoned fields, and recurring famines. 
 
@@ -311,7 +311,7 @@ In terms of economic thinking, he consistently applied the principle of utility,
 
 Still, the Abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
 
-> "When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither the seller would sell at such and such a price, nor the buyer, for his part, would buy at such a price".
+> When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither the seller would sell at such and such a price, nor the buyer, for his part, would buy at such a price.
 
 ![18th-century French pamphlet proposing reforms to commerce and finance, reflecting early debates on trade and economic policy.](assets/en/023.webp)
 
@@ -340,7 +340,7 @@ René-Louis Voyer, Marquis d'Argenson, was born in 1694. He began his political 
 
 He strongly criticized regulations that, as he saw it, tried to change the natural preferences of different regions. For instance, he was baffled that the government wanted to produce fabrics and velvets in Tours, a poor city at the time, to match the quality of those made in prosperous Genoa, which was famed for its luxury goods. He concluded:
 
-> "Each place must be allowed to choose its own factories. Freedom! Freedom!"
+> Each place must be allowed to choose its own factories. Freedom! Freedom!
 
 ### Spontaneous order and the invisible hand
 
@@ -595,7 +595,7 @@ Censorship soon struck. Mirabeau was imprisoned, and Quesnay was reprimanded. Af
 
 He quickly found them: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivière, and others. These were the men who would spread and popularize the thought of Quesnay. However, Quesnay, who needed disciples, was not entirely satisfied with the sectarian aspect of his group. Witness his letters to Mirabeau, in which he tells him:
 
-> "Think for yourselves. I've realized that my miserable drafts make you lazy. Now it's your turn to think. You know as much as I do".
+> Think for yourselves. I've realized that my miserable drafts make you lazy. Now it's your turn to think. You know as much as I do.
 
 Still, his disciples were deeply devoted and contributed greatly to Quesnay's popularity. Upon his death, Mirabeau gave his eulogy, saying, "We have lost our father, for we owed him everything". In truth, it was Quesnay who owed them everything, for without them, he would have remained stuck at Versailles, where his thinking, though it had much to seduce or worry, interested few.
 
@@ -907,7 +907,7 @@ Diderot's path in economic theory is a curious one. In the Encyclopédie, he was
 
 This book would become the fiercest attack ever made against Physiocratic ideas, delivering a major blow to the movement. Later, Diderot defended Galiani against Abbot Morellet, a close ally of the Physiocrats, in his *Apology of Galiani*. A few years later, during Turgot's ministry, Diderot was seen applauding the establishment of freedom of labor through the abolition of guilds. At this point, Diderot, an artisan's son, found himself in agreement with the liberal economists and wrote a scathing letter to Galiani, who claimed that freedom of labor would ruin French industry within twenty or thirty years. In light of the Industrial Revolution, history suggests otherwise. Having returned to the liberal economists' side, Diderot no longer enjoyed their trust and remained isolated. A very telling moment is a letter he sent to Dupont de Nemours in 1774, where he writes:
 
-> "You once had friendship for me; now you no longer do, because you are so busy that you no longer have time to love anyone".
+> You once had friendship for me; now you no longer do, because you are so busy that you no longer have time to love anyone.
 
 ![Voltaire](assets/en/072.webp)
 
@@ -1187,7 +1187,7 @@ As early as November 1789, when there was talk of granting a monopoly to the Cai
 
 "It would be better", he says, "to leave the banking business to the laws of free trade". And he adds:
 
-> "I do not understand what the minister meant when he spoke of granting a privilege to the Caisse d'Escompte. If this privilege includes exclusivity, you must reject it, for you have come here to destroy exclusive privileges, not to create new ones."
+> I do not understand what the minister meant when he spoke of granting a privilege to the Caisse d'Escompte. If this privilege includes exclusivity, you must reject it, for you have come here to destroy exclusive privileges, not to create new ones.
 
 Despite his warnings, the Assembly ignored his objections and took another step toward establishing a central bank and a banking monopoly.
 In 1790, at the Constituent Assembly, Dupont de Nemours followed the pacifist tradition of his Physiocrat friends and proposed a law forbidding offensive wars. The first article read: "The French Nation shall not permit itself to engage in any offensive war to seize the territory of others or to infringe upon the rights or liberty of any Nation". 
@@ -1216,7 +1216,7 @@ A few years later, the Assembly turned its attention to the idea of creating an 
 Dupont de Nemours, still firmly opposed to the idea of a public bank, seeing it as nothing more than a monopoly, reminded the Assembly of the assignats' disastrous experience. He told them:
 
 
-> "Do not prepare yourselves for regrets like those that tormented my colleagues in the Constituent Assembly. At the time, my proposal to limit assignats only to the payment for national goods and not to make them a circulating currency was rejected. Today, they say: 'Ah, if only we had listened to Dupont de Nemours!'"
+> Do not prepare yourselves for regrets like those that tormented my colleagues in the Constituent Assembly. At the time, my proposal to limit assignats only to the payment for national goods and not to make them a circulating currency was rejected. Today, they say: 'Ah, if only we had listened to Dupont de Nemours!'
 
 But once again, no one listened to him.
 

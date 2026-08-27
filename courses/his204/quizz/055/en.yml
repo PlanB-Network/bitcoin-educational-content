@@ -1,8 +1,8 @@
 question: In which countries were economic reforms inspired by Physiocracy applied?
-answer: France, Italy, Germany
+answer: France, Germany, Italy, and Sweden
 wrong_answers:
-  - England, France, Germany
-  - Holland, Italy, Sweden
-  - Spain, Portugal, Russia
+  - England, Spain, and Holland
+  - Portugal, England, and Spain
+  - Holland, Spain, and Portugal
 explanation: |
-  Physiocratic reforms were attempted in France, Italy and Germany, but were often short-lived due to opposition from established interests.
+  Physiocratic reforms were applied in France (under Turgot), Germany (Margrave of Baden, with Schlettwein's experiment in Dietlingen), Italy (Leopold of Tuscany), and Sweden (Gustav III). Russia's Catherine II also invited Mercier de la Riviere, but was disappointed with him.

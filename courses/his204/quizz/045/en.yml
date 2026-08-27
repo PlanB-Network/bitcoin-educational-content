@@ -1,8 +1,8 @@
-question: What's not to find in L'Ami des hommes?
-answer: Manufacturing languishes as agriculture takes over from manufacturing
+question: Which idea is NOT found in L'Ami des Hommes?
+answer: Manufacturing languishes because agriculture takes over from it
 wrong_answers:
   - Nations have harmonious interests
   - Trade should be free between all peoples
-  - The need for a strong, centralized government
+  - Population is the true source of a nation's wealth
 explanation: |
-  L'Ami des Hommes focuses on agriculture and does not criticize the neglect of manufacturing. On the contrary, he sees agriculture as the only source of real wealth.
+  L'Ami des Hommes praises agriculture, defends free trade, and argues that population makes the wealth of a nation. However, it does not claim that agriculture displaces manufacturing. Mirabeau sees agriculture as the source of real wealth, not as a rival to industry.

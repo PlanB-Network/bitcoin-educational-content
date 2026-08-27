@@ -1,8 +1,8 @@
 question: Which author does Mirabeau draw on in L'Ami des Hommes?
-answer: François Quesnay
+answer: Richard Cantillon
 wrong_answers:
   - Vincent de Gournay
-  - Richard Cantillon
+  - François Quesnay
   - Adam Smith
 explanation: |
-  Mirabeau was inspired by the ideas of François Quesnay and physiocracy, which emphasized the importance of agriculture and economic freedom.
+  Mirabeau had owned a manuscript of Cantillon's Essay on the Nature of Commerce in General for 15 years and had patiently analyzed it. L'Ami des Hommes was originally conceived as a simple commentary on Cantillon's Essay. His conversion to Quesnay's Physiocracy came later, after the book was already published.

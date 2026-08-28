@@ -1,0 +1,8 @@
+question: Aký druh dane obhajoval Vauban vo svojich spisoch?
+answer: Proporcionálnu daň – každý musí štátu odovzdať rovnaké percento svojho príjmu
+wrong_answers:
+  - Progresívne zdanenie – daňová sadzba pre bohatých musí byť vyššia ako pre chudobných
+  - Paušálnu daň – bez ohľadu na svoj príjem platíte vláde každý rok rovnakú sumu
+  - Regresívne zdanenie – daňové sadzby pre chudobných musia byť vyššie ako pre bohatých
+explanation: |
+  Vauban obhajoval proporcionálnu daň, "kráľovský desiatok", ktorá spočívala vo vyberaní desatiny (10 %) z príjmu všetkých Francúzov bez ohľadu na ich spoločenské postavenie. Veril, že táto daň bude spravodlivejšia a účinnejšia než existujúci daňový systém.

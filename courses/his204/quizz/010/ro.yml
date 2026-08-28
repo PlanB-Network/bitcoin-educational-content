@@ -1,0 +1,8 @@
+question: De ce, potrivit lui Vauban, este drept și firesc ca toată lumea să plătească impozite?
+answer: Pentru că statul oferă servicii tuturor, este doar firesc ca toată lumea să contribuie la plata acestora
+wrong_answers:
+  - Pentru că statul poate strânge mai mult impozitând toată populația deodată
+  - Pentru că fiecare este uneori bogat, alteori sărac de-a lungul vieții, așa că e mai bine ca toată lumea să fie impozitată uniform
+  - Pentru că ajută la finanțarea războaielor și la asigurarea măreției regatului
+explanation: |
+  Vauban credea că impozitarea trebuie să fie universală, întrucât toți cetățenii beneficiau de serviciile statului, precum securitatea, justiția și infrastructura. El considera, așadar, corect ca toată lumea să contribuie la finanțarea acestora, în funcție de mijloacele proprii.

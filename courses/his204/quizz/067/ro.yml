@@ -1,0 +1,8 @@
+question: De ce a fost numit Dupont de Nemours, deși s-a născut Pierre-Samuel Du Pont?
+answer: Pentru a-l deosebi de ceilalți Dupont din Adunarea din 1789
+wrong_answers:
+  - Este de origine nobilă
+  - S-a căsătorit cu Contesa de Nemours
+  - Era un pseudonim
+explanation: |
+  „de Nemours” a fost adăugat la numele lui Pierre-Samuel Dupont pentru a-l deosebi de ceilalți Dupont care aveau un loc în Adunarea Constituantă din 1789.

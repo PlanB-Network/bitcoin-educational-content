@@ -1,0 +1,8 @@
+question: De ce, potrivit discipolilor lui Colbert, comerțul este un război permanent?
+answer: Națiunile se pot îmbogăți doar pe seama unele altora
+wrong_answers:
+  - Sunt necesare nave de război pentru a sprijini comerțul
+  - Comerțul înflorește cel mai mult în vreme de război
+  - Comerțul este o competiție constantă pentru resurse
+explanation: |
+  În viziunea mercantilistă, bogăția lumii este considerată o cantitate fixă. Prin urmare, îmbogățirea unei națiuni se face în mod necesar în detrimentul celorlalte, de unde ideea unui „război economic” permanent.

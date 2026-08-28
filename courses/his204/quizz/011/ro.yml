@@ -1,0 +1,8 @@
+question: Ce au în comun Boisguilbert și Vauban?
+answer: Faptul că au descris pe larg mizeria oamenilor de la sate și au propus un impozit proporțional pentru toți
+wrong_answers:
+  - Faptul că au descris pe larg mizeria oamenilor de la sate și că și-au început cariera ca scriitori
+  - Faptul că au propus un impozit proporțional pentru toți și că au fost miniștri de finanțe
+  - Faptul că au fost miniștri de finanțe și că au început printr-o carieră literară
+explanation: |
+  Pierre Le Pesant, sieur de Boisguilbert, ca și Vauban, a fost un observator atent al mizeriei țărănești și a propus o reformă fiscală bazată pe un impozit proporțional. Totuși, spre deosebire de Colbert, nici Boisguilbert, nici Vauban nu au fost miniștri de finanțe.

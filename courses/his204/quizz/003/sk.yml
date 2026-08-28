@@ -1,0 +1,8 @@
+question: Čo odporúča merkantilistická politika?
+answer: vývoz, aby sa hromadilo zlato a striebro prijaté ako platba
+wrong_answers:
+  - dovoz, aby sa nazhromaždil zahraničný tovar
+  - ani jedno, keďže obchod je neplodný a bezvýznamný
+  - rovnováhu medzi dovozom a vývozom
+explanation: |
+  Merkantilizmus je ekonomická doktrína, ktorá obhajuje zasahovanie štátu na podporu bohatnutia národa. Hlavným cieľom je hromadiť drahé kovy (zlato a striebro) prostredníctvom prebytku obchodnej bilancie, teda vyvážať viac, než sa dováža.

@@ -1,0 +1,8 @@
+question: Ktorý z týchto autorov nekritizoval fyziokratov?
+answer: Condorcet
+wrong_answers:
+  - Voltaire
+  - Condillac
+  - Adam Smith
+explanation: |
+  Condorcet bol myšlienkam fyziokratov skôr naklonený a na niektorých projektoch s nimi dokonca spolupracoval.

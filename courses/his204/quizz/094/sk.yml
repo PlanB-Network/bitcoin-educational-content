@@ -1,0 +1,8 @@
+question: Prečo sa podľa Condorceta ľud bojí slobody?
+answer: Pretože je príliš zvyknutý nechávať vládu zasahovať do všetkých záležitostí
+wrong_answers:
+  - Pretože sa vo Francúzsku nikdy nevyskúšala
+  - Pretože si vyžaduje násilnú revolúciu
+  - Pretože je synonymom chaosu
+explanation: |
+  Condorcet veril, že ľudia sú zvyknutí na zasahovanie štátu a boja sa slobody, pretože ju nevedia používať.

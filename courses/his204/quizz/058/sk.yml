@@ -1,0 +1,8 @@
+question: Ako je podľa názvu jednej Le Trosnovej knihy opísaná sloboda obchodu?
+answer: Vždy užitočná, nikdy škodlivá
+wrong_answers:
+  - Vždy zisková a vždy užitočná
+  - Často zisková, vždy morálna
+  - Niekedy zisková, niekedy škodlivá
+explanation: |
+  Le Trosne napísal "De l'intérêt social, par rapport à la valeur, à la circulation, à l'industrie et au commerce intérieur et extérieur", v ktorej obhajuje voľný obchod ako vždy užitočný a nikdy neškodlivý pre spoločnosť.

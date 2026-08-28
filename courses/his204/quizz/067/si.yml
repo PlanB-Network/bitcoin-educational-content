@@ -1,0 +1,8 @@
+question: ඔහු Pierre-Samuel Du Pont ලෙස උපන් නමුත් Dupont de Nemours ලෙස හැඳින්වූයේ ඇයි?
+answer: 1789 සභාවේ අනෙක් Dupontවරුන්ගෙන් ඔහු වෙනස් කිරීමට
+wrong_answers:
+  - ඔහු උපතින් වංශවත්ය
+  - ඔහු Countess de Nemours සමඟ විවාහ විය
+  - එය පෑන නමක් විය
+explanation: |
+  1789දී Assemblée Constitanteහි සිටි අනෙක් Dupontවරුන්ගෙන් ඔහු වෙන් කර හඳුනාගැනීමට Pierre-Samuel Dupontගේ නමට "de Nemours" එකතු කරන ලදී.

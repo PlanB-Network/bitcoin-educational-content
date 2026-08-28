@@ -1,0 +1,8 @@
+question: Pentru ce carte a fost întemnițat Mirabeau?
+answer: Teoria impozitării
+wrong_answers:
+  - L'Ami des Hommes
+  - Eseu asupra naturii comerțului în general
+  - Contractul social
+explanation: |
+  Mirabeau a fost întemnițat pentru „La Théorie de l'Impôt”, o lucrare în care critica sistemul fiscal francez.

@@ -1,0 +1,8 @@
+question: Za ktorú knihu bol Mirabeau uväznený?
+answer: Teória dane
+wrong_answers:
+  - L'Ami des Hommes
+  - Esej o povahe obchodu vo všeobecnosti
+  - Spoločenská zmluva
+explanation: |
+  Mirabeau bol uväznený za "La Théorie de l'Impôt", dielo, v ktorom kritizoval francúzsky daňový systém.

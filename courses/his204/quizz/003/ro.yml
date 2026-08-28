@@ -1,0 +1,8 @@
+question: Ce recomandă politica mercantilistă?
+answer: exporturile, pentru a aduna aurul și argintul primite ca plată
+wrong_answers:
+  - importurile, pentru a acumula bunuri străine
+  - niciuna dintre ele, comerțul fiind steril și lipsit de sens
+  - echilibrul între importuri și exporturi
+explanation: |
+  Mercantilismul este o doctrină economică ce susține intervenția statului pentru a promova îmbogățirea națională. Obiectivul principal este acumularea de metale prețioase (aur și argint) printr-o balanță comercială excedentară, adică prin exporturi mai mari decât importurile.

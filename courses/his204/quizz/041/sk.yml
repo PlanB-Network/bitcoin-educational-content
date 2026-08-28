@@ -1,0 +1,8 @@
+question: L'Ami des Hommes vyšlo anonymne a urobilo taký dojem, že ho spočiatku pripisovali komu?
+answer: Montesquieuovi
+wrong_answers:
+  - Voltairovi
+  - Diderotovi
+  - Rousseauovi
+explanation: |
+  L'Ami des Hommes najprv pripisovali Montesquieuovi pre jeho štýl a významnosť, kým sa nezistilo, že autorom je v skutočnosti markíz de Mirabeau.

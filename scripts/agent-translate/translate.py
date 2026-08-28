@@ -269,6 +269,11 @@ def make_jobs(items: list[dict], batch_size: int) -> list[list[dict]]:
     return jobs
 
 
+def timeout_for_job(job: list[dict], default_timeout: int, long_form_timeout: int) -> int:
+    """Give chapter-sized Markdown translations their own, longer deadline."""
+    return long_form_timeout if any(item.get("long_form") for item in job) else default_timeout
+
+
 def _prompt_provider(args) -> None:
     print("\nProvider :")
     print("  1) both — chaîne de routage complète (défaut)")
@@ -350,7 +355,10 @@ def main() -> None:
     p.add_argument("--thinking", help="thinking effort when --model is set (default: medium)")
     p.add_argument("--provider", choices=["anthropic", "openai", "both"], default="both",
                    help="restrict routing to one provider's models (anthropic=sonnet/opus, openai=gpt-5.5; default: both)")
-    p.add_argument("--timeout", type=int, default=1200, help="per-worker timeout seconds")
+    p.add_argument("--timeout", type=int, default=1200,
+                   help="timeout for standard worker jobs in seconds (default: 1200)")
+    p.add_argument("--long-form-timeout", type=int, default=3600,
+                   help="timeout for long-form Markdown jobs in seconds (default: 3600)")
     p.add_argument("--retries", type=int, default=2, help="retry passes over FAILs (walks the fallback chain)")
     p.add_argument("--base", default="dev", help="base branch for the worktree/PR")
     p.add_argument("--resume", metavar="BRANCH|PR",
@@ -501,10 +509,11 @@ def main() -> None:
                         break
                     governor.gate()  # blocks new launches while in-use subs are capped
                     m, th = pick(route_for(config, job[0]["lang"], args.model, args.thinking, args.provider), attempt)
+                    timeout = timeout_for_job(job, args.timeout, args.long_form_timeout)
                     fut = pool.submit(
                         worker.translate_job, job, worktree=worktree, model=m, thinking=th,
                         system_prompt=system_prompt, knowledge_dir=knowledge_dir,
-                        lessons_root=lessons_root, session_dir=sessions_dir, timeout=args.timeout)
+                        lessons_root=lessons_root, session_dir=sessions_dir, timeout=timeout)
                     pending.add(fut)
                     job_of[fut] = job
 

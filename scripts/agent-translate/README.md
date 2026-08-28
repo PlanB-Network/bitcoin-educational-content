@@ -80,6 +80,10 @@ Scoping flags combine freely: `--langs`, `--content`, `--subtype`
 `--no-pr`, `--keep-worktree`, `--max-items`/`--force`. Resume flags: `--resume BRANCH|PR`
 (update an existing published batch in place), `--list-batches` (list + exit).
 
+Worker deadlines are intentionally split: ordinary jobs use `--timeout` (20 minutes by
+default), while chapter-sized Markdown jobs automatically use `--long-form-timeout`
+(60 minutes by default). Override either flag for an exceptional batch.
+
 ## Interactive launcher & usage governor
 `translate.py` runs two ways — a coordinator agent passes CLI flags, a human uses the menu:
 ```bash

@@ -1,0 +1,8 @@
+question: නිදහස් වෙළඳාම ආරක්ෂා කිරීමේදී Condorcet විරුද්ධ වූ ඇමති කවුද?
+answer: Necker
+wrong_answers:
+  - Calonne
+  - Trudaine
+  - Choiseul
+explanation: |
+  නිදහස් වෙළඳාම පිළිබඳ ප්‍රශ්නයේදී Condorcet Neckerට විරුද්ධ වූ අතර, ආර්ථික ලිබරල්වාදයේ මූලධර්ම ආරක්ෂා කළේය.

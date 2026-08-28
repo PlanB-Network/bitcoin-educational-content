@@ -1,0 +1,8 @@
+question: Ce tip de impozit susținea Vauban în scrierile sale?
+answer: Impozitul proporțional fiecare trebuie să dea statului același procent din venitul său
+wrong_answers:
+  - Impozitarea progresivă rata de impozitare pentru bogați trebuie să fie mai mare decât cea pentru săraci
+  - Impozitul forfetar indiferent de venit, plătești guvernului aceeași sumă în fiecare an
+  - Impozitarea regresivă ratele de impozitare pentru săraci trebuie să fie mai mari decât cele pentru bogați
+explanation: |
+  Vauban susținea un impozit proporțional, „dijma regală”, care consta în perceperea unei zecimi (10%) din venitul tuturor francezilor, indiferent de statutul lor social. El credea că acest impozit ar fi mai just și mai eficient decât sistemul fiscal existent.

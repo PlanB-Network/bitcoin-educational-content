@@ -1,0 +1,8 @@
+question: Ce sunt efectele Cantillon?
+answer: Creșterea cantității de monedă dintr-o țară afectează distribuția veniturilor
+wrong_answers:
+  - Creșterea cantității de monedă are un impact asupra comportamentului oamenilor
+  - Creșterea cantității de monedă are un impact asupra volumului datoriei publice
+  - Creșterea cantității de monedă nu are niciun efect semnificativ
+explanation: |
+  Efectele Cantillon descriu modul în care o creștere a masei monetare afectează diferit prețurile și veniturile în diferite sectoare ale economiei. Injecția de monedă nouă nu se răspândește uniform, creând distorsiuni și inegalități.

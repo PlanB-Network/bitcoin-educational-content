@@ -1,0 +1,8 @@
+question: Potrivit lui Condorcet, de ce sperie libertatea oamenii?
+answer: Pentru că e prea obișnuit ca guvernul să intervină în toate problemele
+wrong_answers:
+  - Pentru că nu a fost niciodată încercată în Franța
+  - Pentru că necesită o revoluție violentă
+  - Pentru că e sinonimă cu haosul
+explanation: |
+  Condorcet credea că oamenii erau obișnuiți cu intervenția statului și se temeau de libertate, pentru că nu știau cum să o folosească.

@@ -1,0 +1,8 @@
+question: De ce este schimbul întotdeauna și în mod necesar un joc cu sumă pozitivă, potrivit abatelui de Saint-Pierre?
+answer: Dacă doi oameni aleg liber să încheie un contract, este pentru că fiecare vede un avantaj în a face acest lucru
+wrong_answers:
+  - Cu cât bunurile își schimbă mai des proprietarul, cu atât națiunea devine mai bogată
+  - O națiune care face comerț este întotdeauna mai bogată decât una care trăiește în autarhie
+  - Pentru că așa vrea Dumnezeu
+explanation: |
+  Abatele de Saint-Pierre, ca și alți gânditori liberali, credea că schimbul voluntar este benefic pentru ambele părți. Dacă doi oameni convin să facă un schimb, este pentru că amândoi simt că au de câștigat, altfel nu ar face-o.

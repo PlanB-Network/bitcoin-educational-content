@@ -1,0 +1,8 @@
+question: Prečo sa hovorí, že pri výmene vždy dávame menej, aby sme dostali viac?
+answer: Pretože sa vždy vzdávame niečoho, čo si ceníme menej, za niečo, čo si ceníme viac
+wrong_answers:
+  - Pretože je to hra pre hlupákov, v ktorej predávame svoje produkty za viac, než sú hodné
+  - Pretože peniaze majú hodnotu, každý predaj je obohatením
+  - Pretože predávajúci sú vždy chytrejší ako kupujúci
+explanation: |
+  Dávame to, čo si ceníme menej, aby sme získali to, čo si ceníme viac, čím sa výmena stáva vzájomne prospešnou.

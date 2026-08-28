@@ -1,0 +1,8 @@
+question: Ktorá banková inštitúcia je konečným dôsledkom rozhodnutí prijatých v roku 1789, proti ktorým sa Dupont de Nemours ozval?
+answer: Banque de France
+wrong_answers:
+  - Sporiteľňa
+  - Crédit Agricole
+  - Európska centrálna banka
+explanation: |
+  Banque de France je dôsledkom rozhodnutí prijatých v roku 1789, ktoré Dupont de Nemours kritizoval za to, že vedú k nadmernej centralizácii finančnej moci a k nadmernému zasahovaniu štátu do hospodárstva.

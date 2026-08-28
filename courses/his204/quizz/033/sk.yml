@@ -1,0 +1,8 @@
+question: Prečo si myslí, že pašovanie je vo Francúzsku také rozšírené?
+answer: Pretože predpisy znemožňujú legálny obchod s určitými tovarmi, čím sa otvára paralelný trh
+wrong_answers:
+  - Pretože Francúzsko má toľko chudobných ľudí, že ich jediným zdrojom je pašovanie
+  - Pretože emigrácia protestantov je živnou pôdou pre kontraband
+  - Pretože colníci sú skorumpovaní
+explanation: |
+  Gournay bol presvedčený, že nadmerná regulácia podporuje pašovanie, pretože vytvára paralelné trhy s tovarmi, ktorých obchod je zakázaný alebo vysoko zdanený.

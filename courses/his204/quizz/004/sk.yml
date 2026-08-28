@@ -1,0 +1,8 @@
+question: Prečo je podľa Colbertových žiakov obchod ustavičnou vojnou?
+answer: Národy môžu bohatnúť len na účet iných
+wrong_answers:
+  - Na podporu obchodu sú potrebné vojnové lode
+  - Obchod prekvitá najviac v čase vojny
+  - Obchod je neustálym súperením o zdroje
+explanation: |
+  V merkantilistickom videní sa svetové bohatstvo považuje za pevne danú veličinu. Bohatnutie jedného národa preto nevyhnutne prebieha na účet ostatných, odtiaľ myšlienka trvalej "hospodárskej vojny".

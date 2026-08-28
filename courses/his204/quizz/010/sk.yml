@@ -1,0 +1,8 @@
+question: Prečo je podľa Vaubana správne a prirodzené, aby dane platil každý?
+answer: Pretože štát poskytuje svoje služby všetkým, je len spravodlivé, aby na ich úhradu prispieval každý
+wrong_answers:
+  - Pretože štát získa viac, keď zdaní celé obyvateľstvo naraz
+  - Pretože každý je v priebehu života raz bohatý a raz chudobný, je lepšie zdaňovať všetkých rovnako
+  - Pretože to pomáha financovať vojny a zabezpečiť veľkosť kráľovstva
+explanation: |
+  Vauban veril, že zdaňovanie má byť univerzálne, pretože zo služieb štátu, ako sú bezpečnosť, súdnictvo a infraštruktúra, majú prospech všetci občania. Považoval preto za spravodlivé, aby každý prispieval na ich financovanie podľa svojich možností.

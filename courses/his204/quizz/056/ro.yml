@@ -1,0 +1,8 @@
+question: Pentru fiziocrați, care este diferența dintre producție și profit?
+answer: Industriașul și comerciantul pot câștiga, dar numai fermierul produce, deoarece producția este crearea de materie utilă
+wrong_answers:
+  - Producătorii și comercianții pot să nu obțină profit. Doar agricultura aduce în mod necesar profituri.
+  - Fermierul poate câștiga, dar numai industriașul și comerciantul produc, deoarece a produce înseamnă a oferi un serviciu
+  - Producția și profitul sunt același lucru
+explanation: |
+  Fiziocrații credeau că numai agricultura era productivă, deoarece crea materie nouă. Industria și comerțul erau considerate activități sterile, întrucât acestea nu făceau decât să transforme sau să deplaseze bogăția deja existentă.

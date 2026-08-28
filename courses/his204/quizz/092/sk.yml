@@ -1,0 +1,8 @@
+question: O ktorej téme Condorcet nepísal?
+answer: Banky
+wrong_answers:
+  - Sloboda obchodu s obilím
+  - Poddanská robota
+  - Otroctvo
+explanation: |
+  Condorcet písal o slobode obchodu s obilím, o poddanskej robote a o otroctve, ale o bankách nepísal.

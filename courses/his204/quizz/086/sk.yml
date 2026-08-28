@@ -1,0 +1,8 @@
+question: Ktorá myšlienka sa nazýva Montaigneov sofizmus?
+answer: Výmena je hra s nulovým súčtom
+wrong_answers:
+  - Výmena je hra s pozitívnym súčtom
+  - Podľa času a miesta je výmena niekedy hrou s nulovým súčtom, inokedy hrou s pozitívnym súčtom
+  - Výmena je vždy nevýhodná pre slabšiu stranu
+explanation: |
+  Montaigneov sofizmus je myšlienka, že výmena je hra s nulovým súčtom, teda že to, čo jeden získa, druhý stratí. Táto myšlienka je nesprávna, pretože dobrovoľná výmena je vzájomne prospešná.

@@ -1,0 +1,8 @@
+question: Ce idee a fost numită sofismul lui Montaigne?
+answer: Schimbul este un joc cu sumă nulă
+wrong_answers:
+  - Schimbul este un joc cu sumă pozitivă
+  - În funcție de timp și loc, schimbul este uneori un joc cu sumă nulă, alteori un joc cu sumă pozitivă
+  - Schimbul este întotdeauna nefavorabil părții mai slabe
+explanation: |
+  Sofismul lui Montaigne este ideea că schimbul este un joc cu sumă nulă, adică ceea ce câștigă unul, pierde celălalt. Această idee este falsă, deoarece schimbul voluntar este reciproc avantajos.

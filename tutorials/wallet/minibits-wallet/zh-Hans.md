@@ -1,176 +1,142 @@
 ---
 name: Minibits Wallet
-description: Minibits Wallet 指南
+description: 一个 Minibits Wallet 的指南
 ---
 
 ![cover](assets/cover.webp)
 
+在本教程中，我将引导您设置 Minibits 钱包以使用 ecash。ecash 是一种功能强大的、注重隐私的支付技术，可与比特币协同工作。Minibits 是一款 ecash 和闪电钱包，支持即时、低成本且私密的价值转移，非常适合注重隐私的日常交易。
 
-在本教程中，我将指导您设置 Minibits Wallet 以使用 ecash。这是一种功能强大、注重隐私的支付技术，可与 Bitcoin 同时使用。Minibits 是一种 ecash 和 Lightning Wallet，可实现即时、廉价和私密的价值转移，是注重隐私的日常交易的理想选择。
+在深入了解 Minibits 之前，让我们先明确一下 ecash 的概念。许多人会将 ecash 与比特币或区块链技术混淆，但它们本质上是不同的概念。
 
+ecash（电子现金）不是比特币。它不会取代您自行托管的比特币钱包，而是对其进行补充。ecash 不是区块链，也不存在于任何公共账本上。有趣的是，电子现金并非一项新技术——它实际上早于万维网，其概念早在 20 世纪 80 年代和 90 年代就已出现。
 
-在我们深入研究 Minibits 之前，让我们先清楚地了解什么是 ecash，什么不是 ecash。很多人把 ecash 与 Bitcoin 或 Blockchain 技术混为一谈，但它们是根本不同的概念。
-
-
-Ecash 不是 Bitcoin。它不会取代您自行保管的 Bitcoin Wallet，而是对它的补充。电子现金不是 Blockchain，也不存在于任何公共 Ledger。有趣的是，Ecash 并不是一项新技术--它实际上早于全球网络，其概念在 20 世纪 80 年代和 90 年代就已提出。
-
-
-ecash的特点：难以置信的私密性（交易不会留下可追踪的历史）、点对点（直接转账，无需中间人），并具有数字无记名工具的功能（如果你拥有它，你就控制了它）。ecash的一个主要优势是可以离线使用--在交易过程中，发送方或接收方都可以断开与互联网的连接。ecash可以由单方或可信实体联盟铸造，是Bitcoin的完美补充技术，可以处理小额、频繁的交易，而Bitcoin则充当结算Layer。
+何为 ecash？极高的私密性（交易不留任何可追踪的历史记录）、点对点（无需中介即可直接转账），并且作为一种数字记名工具（拥有它，就拥有控制权）。一个关键优势是电子现金可以离线使用——在交易过程中，发送方或接收方都可以断开网络连接。电子现金可以由单个机构或可信实体联盟铸造，它是比特币的完美补充技术，负责处理小额、频繁的交易，而比特币则作为结算层。
 
 
-请注意，Minibits 设置是一种 "托管解决方案"，这意味着您信任 Mint 运营商来管理您的资金。这将带来特定风险，您必须在继续操作前了解清楚。
+请注意，Minibits 设置是一种 "托管解决方案"，这意味着您信任铸币厂来管理您的资金。这将带来特定风险，您必须在继续操作前了解清楚。
 
 
-该项目显示了这一重要的免责声明：
+该项目包含以下重要免责声明：
+
+- 此钱包仅供研究用途。
+- 此钱包为测试版，功能尚不完善，存在已知和未知错误。
+- 请勿在此钱包中存储大量电子现金。
+- 钱包中存储的电子现金由铸币厂发行。
+- 您信任铸币厂会以比特币作为其后盾，直到您将持有的电子现金转移到其他比特币闪电钱包。
+- 此钱包使用的 Cashu 协议尚未经过全面审查或测试。
+
+请将 Minibits 视为日常钱包，而非储蓄账户，切勿在此存储大量资金。
+
+## 1️⃣ 设置您的钱包
 
 
-- 本 Wallet 仅用于研究目的。
-- Wallet 是一个测试版，功能不完整，存在已知和未知的错误。
-- 请勿与大额现金一起使用。
-- 存储在 Wallet 中的现金由造币厂发行
-- 您相信造币厂会用 Bitcoin 支持它，直到您将持有的 Bitcoin 转到另一个 Bitcoin 闪电 Wallet。
-- Wallet 所执行的卡舒协议尚未经过广泛的审查或测试。
+首先，请访问 [Minibits 网站](https://www.minibits.cash/)，您可以在这里找到所有主流平台的下载选项。iOS 用户可以从 [App Store](https://testflight.apple.com/join/defJQgTD) 下载，而欧盟 iOS 用户还可以选择从 [Freedom Store](https://freedomstore.io/) 安装。 Android 用户可以从 [Google Play 商店](https://play.google.com/store/apps/details?id=com.minibits_wallet) 获取该应用，或直接从 [GitHub 发布](https://github.com/minibits-cash/minibits_wallet/releases) 页面下载 APK 文件。
 
 
-将 Minibits 视为日常 Wallet，而不是储蓄账户，切勿在此存储大量价值。
+安装 Minibits 时，您会看到一些介绍基本概念的界面——您可以阅读这些界面，也可以如果您已经熟悉这项技术，则可以跳过它们。完成这些初始步骤后，系统会提示您选择：
 
 
-## 1️⃣设置您的 Wallet
-
-
-首先，请访问[Minibits 网站](https://www.minibits.cash/)，在那里你可以找到所有主要平台的下载选项。iOS 用户可以从[App Store](https://testflight.apple.com/join/defJQgTD)下载，而欧盟 iOS 用户还可以从[Freedom Store](https://freedomstore.io/)安装。安卓用户可以从[Google Play Store](https://play.google.com/store/apps/details?id=com.minibits_wallet)获取应用程序，或直接从[GitHub Releases](https://github.com/minibits-cash/minibits_wallet/releases)页面下载 APK 文件。
-
-
-安装 Minibits 时，您将看到解释基本概念的介绍性屏幕--如果您已经熟悉该技术，可以通读或跳过这些屏幕。完成这些初始步骤后，系统会提示您在以下两个选项中进行选择：
-
-
-- 为新用户提供 "找到了，带我去 Wallet "或
-- 恢复丢失的 Wallet`（如果从备份恢复）。
+- `Got it, take me to the wallet`（新用户），或
+- `Recover lost wallet`（如果从备份恢复）。
 
 
 ![image](assets/en/01.webp)
 
-完成初始设置后，您将进入主屏幕，其中有几个重要的 Elements 注意事项。顶角的 "个人资料 "图标将带您进入个人资料页面，您可以在此访问您的 Minibits Wallet Address 并选择 "批量接收 "选项。② 在屏幕中间，您将看到可以使用的薄荷糖，默认选择 Minibits 薄荷糖。下面的操作行提供了发送 ecash 或闪电付款、扫描二维码和接收付款的选项。最后，底部导航栏包含主屏幕、交易历史、联系人和设置的快捷方式。
-
+完成初始设置后，您将进入主页，其中包含几个需要注意的重要元素。 ① 点击右上角的个人资料图标即可进入您的个人资料页面，您可以在此访问您的 Minibits 钱包地址并选择 `batch receive` 选项。② 屏幕中间会显示您可以使用的 Mints，默认情况下已选择 Minibits Mint。③ 下方的操作栏提供发送 ecash 或闪电支付、扫描二维码和接收付款的选项。④ 最后，底部导航栏包含主屏幕、交易记录、联系人和设置的快捷方式。
 
 ![image](assets/en/02.webp)
 
 
-## 2️⃣管理薄荷糖
+## 2️⃣ 管理铸币厂
 
 
-默认情况下，启动应用程序时会启用 Minibits 造币厂。然而，ecash 的优势之一是能够使用多个铸币厂，以提高分散性和安全性。要添加另一个铸币厂，请导航到 "设置"，然后选择 "管理铸币厂"，最后点击 "添加铸币厂"。
+默认情况下，启动应用程序时会启用 Minibits 铸币厂。然而，ecash 的优势之一是能够使用多个铸币厂，以提高分散性和安全性。为了添加另一个铸币厂，请前往 `Settings`，然后选择 `Manage mints`，最后点击 `Add mint`。
 
 
-[Bitcoinmints.com]（Bitcoinmints.com）提供了一份全面的可用铸币厂列表，并附有用户评级，帮助您选择信誉良好的铸币厂。使用多个铸币厂可以降低风险。如果一个造币厂出现问题，您在其他造币厂的资金仍然可以使用。
+[Bitcoinmints.com](Bitcoinmints.com) 提供了一份全面的可用铸币厂列表，并附有用户评级，帮助您选择信誉良好的铸币厂。使用多个铸币厂可以降低风险。如果一个造币厂出现问题，您在其他造币厂的资金仍然可以使用。
 
 
 ![image](assets/en/04.webp)
 
 
-## 3️⃣创建备份
+## 3️⃣ 创建备份
+
+备份可以说是整个设置过程中最关键的一步。要访问备份选项，请导航至 `Settings`-> `Backup`。在这里，您会看到两个重要选项：
+
+1. `Your seed phrase`，即包含 12 个单词的助记词，可在设备丢失时恢复您的 ecash 余额。此助记词是您访问所有已添加 ecash 的主密钥。请将其写在纸上或金属上，并安全地保存在多个位置。切勿以数字方式存储助记词，以免泄露。您可以访问此[教程](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270)，了解保护钱包的最佳实践。
+2. `Wallet backup`，其中包含一个长备份字符串。
 
 
-备份可以说是整个设置过程中最关键的一步。要访问 "备份 "选项，请导航至 "设置"->"备份"，您会在这里找到两个重要选项：
-
-1.您的 seed 短语 "包含 "12 个单词"，允许您在设备丢失时恢复您的现金余额。此 seed 短语是您在所有已添加的造币厂中使用所有 ecash 的万能钥匙。将其写在物理介质（纸张或金属）上，并安全地存储在多个位置。切勿将您的 seed 短语以数字形式存储，以免泄露。考虑访问此 [教程](https://planb.academy/en/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270) 以了解保护您的 Wallet 的最佳做法。
-
-2.Wallet backup"，其中包含一个长备份字符串。
-
-
-**注意**：使用此备份恢复 Wallet 时，您仍然需要 seed 的短语。
+**注意**：使用此备份恢复钱包时，您仍然需要助记词。
 
 
 ![image](assets/en/05.webp)
 
 
-## 4️⃣ 创建 Minibits Wallet Address
+## 4️⃣ 创建 Minibits 钱包地址
 
 
-下一步导航至底部的 "联系人"，然后点击 "更改"->"更改 Wallet Address"，自定义您的专用 "Minibits Wallet Address"。输入您喜欢的 Address 并检查可用性。
-
+接下来，前往到底部的 `Contacts`，然后点击 `Change` -> `Change wallet address` 来自定义您的专属 Minibits 钱包地址。输入您偏好的地址并检查其可用性。
 
 ![image](assets/en/07.webp)
 
-
-设置完 Address 后，系统会提示您支付小额 "捐款 "以支持该项目。虽然这是可选项，但我强烈建议如果您计划经常使用该服务，可以考虑捐款。像 Minibits 这样的开源项目依赖社区支持来继续开发和维护。即使是微薄的捐款也有助于确保项目的长久性。
-
+设置地址后，系统会提示您进行小额 `Donation` 以支持项目。虽然这是可选的，但如果您计划经常使用此服务，我强烈建议您考虑捐赠。像 Minibits 这样的开源项目依靠社区支持才能持续开发和维护。即使是小额捐赠也能帮助确保项目的长期发展。
 
 ![image](assets/en/08.webp)
 
-
 ## 5️⃣ Nostr 设置
 
+如果您想给 Nostr 上关注的人打赏，可以通过选择 `Contacts` 和 `Public` 来 `Add your npub key`。这会将您的 Minibits 钱包连接到 Nostr 社交网络，从而实现无缝打赏。
 
-如果您想给您在 Nostr 上关注的人支付小费，您可以通过选择 "联系人"，然后选择 "公开 "来 "添加您的 npub 密钥"。这将把您的 Minibits Wallet 连接到 Nostr 社交网络，实现无缝小费支付。
-
-
-您也可以选择 "使用自己的配置文件"，进入 "设置"，然后进入 "隐私"，导入自己的 Nostr Address 和密钥。但请注意，这样做将会阻止您的 Wallet 与 minibits.cash Nostr 和 LNURL Address 服务器通信，从而禁用闪电 Address 功能以接收 ZAP 和付款。
-
+您还可以选择 `Use your own profile`，方法是转到 `Settings` 和 `Privacy` 来导入您自己的 Nostr 地址和密钥。但是请注意，这样做会阻止您的钱包与 minibits.cash Nostr 和 LNURL 地址服务器通信，从而禁用用于接收 Zap 和付款的闪电网络地址功能。
 
 ![image](assets/en/09.webp)
 
+## 6️⃣ 接收资金
 
-## 6️⃣接收资金
-
-
-要初始接收资金，您需要通过闪电 Invoice 为 Wallet 充值。这个过程很简单：点击 "充值"，输入要充值的 "金额"，选择添加 "备忘录"，然后点击 "创建 Invoice"。然后，您需要使用另一个闪电 Wallet 支付这个 Invoice，这样就可以将 Bitcoin 闪电支付转换成 Minibits Wallet 中的 ecash 代币。
-
+为了首次接收资金，您需要通过闪电网络发票为您的钱包充值。这个过程很简单：点击 `Topup`，输入您要充值的 `Amount`，可以添加 `Memo`（可选），然后点击 `Create invoice`。之后，您需要使用另一个闪电网络钱包支付此发票，这样可以将比特币闪电网络支付转换为您 Minibits 钱包中的 ecash 代币。
 
 ![image](assets/en/10.webp)
 
 
-## 7️⃣发送资金
+## 7️⃣ 发送资金
 
+钱包充值完成后，您可以通过两种方式发送资金。
 
-现在您已经为 Wallet 注资，您可以通过两种不同的方式发送资金。
+### 发送 ecash
 
-
-### 发送现金
-
-
-第一个选项是直接发送 ecash。点按 "发送"，然后选择 "发送 ecash"，输入 "金额"，然后点按 "创建 token. "这将 generate 一个二维码，您可以与收件人共享或让他们直接用设备扫描。收件人几乎可以立即看到代币出现在他们的 Wallet 中，没有 Blockchain 费用或确认延迟。
-
+第一种方式是直接发送 ecash。点击 `Send`，然后选择 `Send ecash`，输入 `Amount`，然后点击 `Create token.`。系统将生成一个二维码，您可以将其分享给接收者，或者让接收者直接使用他们的设备扫描。接收者几乎可以立即在其钱包中看到代币，无需支付区块链手续费或等待确认。
 
 ![image](assets/en/11.webp)
 
+### 通过闪电网络支付
 
-### 使用闪电支付
-
-
-第二个选项是通过闪电支付。点击 "发送"，然后选择 "使用闪电支付"。你可以从 Nostr 的 "联系人 "中选择（如果你已经连接了 npub），或者使用 "粘贴 "或 "扫描 "选项输入/粘贴闪电 Address、Invoice 或 LNURL 付款代码。确认收件人后，系统会提示你输入 "要支付的金额"，可选择添加备注，然后点击 "确认"，再点击 "立即支付 "完成闪电交易。
-
+第二种方式是通过闪电网络支付。点击 `Send`，然后选择 `Pay with Lightning`。您可以从 Nostr 的 `contacts` 中选择（如果您已连接 npub），或者使用 `Paste` 或 `scan` 选项输入/粘贴闪电网络地址、发票或 LNURL 支付代码。确认接收者后，系统会提示您输入 `Amount to Pay`，您还可以选择添加备注，然后点击 `Confirm`，再点击 `Pay now` 完成闪电网络交易。
 
 ![image](assets/en/12.webp)
 
 
 ## 8️⃣ 创建 NWC 连接
 
+Minibits 的另一项强大功能是能够创建 `Nostr Wallet Connect (NWC)` 连接，该连接允许其他应用程序在不泄露您的私钥的情况下从您的钱包请求付款。
 
-Minibits 的另一个强大功能是创建 "Nostr Wallet Connect (NWC) "连接，允许其他应用程序从您的 Wallet 请求付款，而无需暴露您的私钥。
+为了进行设置，请前往 `Settings`，然后选择 `Nostr Wallet Connect`，并点击 `Add connection`。为您的连接命名一个描述性的名称，以便识别应用程序和关联的用户帐户。设置一个合理的每日最高限额，以控制通过此连接可以花费的金额，然后点击 `Save` 完成设置。
 
-
-要进行设置，请进入 "设置"，然后选择 "Nostr Wallet Connect"，再点击 "添加连接"。给连接起一个描述性的名字，以识别应用程序和相关用户账户。设置合理的每日最大限额，以控制通过此连接的消费金额，然后点击`保存`完成设置。
-
-
-这项功能对 Nostr Clients 等服务特别有用，因为在这些服务中，您可以启用自动小费功能，而无需手动批准每笔交易。
-
+此功能对于像 Nostr Clients 这样的服务尤其有用，您可以启用自动打赏功能，而无需手动批准每笔交易。
 
 ![image](assets/en/12.webp)
 
 
 ## 🎯 结论
 
+Minibits 为用户提供了一个便捷的电子现金入门途径，提供注重隐私的支付方式，可与您的比特币资产完美互补。请务必妥善备份，考虑使用多个币种以实现冗余，并仅在托管解决方案中存储适量的资金。
 
-Minibits 是进入电子现金世界的一个便捷入口，提供注重隐私的支付方式，与您持有的 Bitcoin 相得益彰。请记住始终保持适当的备份，考虑使用多个铸币厂以实现冗余，并只在此托管解决方案中存储适当的金额。
-
-
-有关其他资源，请查看 Minibits GitHub 存储库、官方网站和 Telegram 频道，社区成员会在该频道积极讨论开发工作并排除故障。
-
+如需更多资源，请访问 Minibits 的 GitHub 代码库、官方网站以及 Telegram 频道，社区成员会在那里积极讨论最新进展并解决问题。
 
 - [Github](https://github.com/minibits-cash/minibits_wallet)
-- [Website](https://www.minibits.cash/)
+- [官方网站](https://www.minibits.cash/)
 - [Telegram](https://t.me/MinibitsWallet)
 
 
-ecash生态系统仍在不断发展，但Minibits等工具正使越来越多的普通用户可以使用这一强大的隐私技术。
+ecash 生态系统仍在不断发展，但 Minibits 等工具正使越来越多的普通用户可以使用这一强大的隐私技术。

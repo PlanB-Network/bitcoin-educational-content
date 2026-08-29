@@ -1,6 +1,6 @@
 ---
 name: Frostsnap
-description: 使用 FROST 协议的高级多重签名安全系统
+description: 采用 FROST 协议的高级多签名安全系统
 ---
 
 ![cover](assets/cover.webp)

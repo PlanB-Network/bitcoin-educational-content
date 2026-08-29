@@ -1,7 +1,7 @@
 ---
 name: Wasabi Wallet
 
-description: 学习如何重新获得您的隐私
+description: 学习如何重获隐私
 ---
 
 ![wasabi](assets/cover.webp)

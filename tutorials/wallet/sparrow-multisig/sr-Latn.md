@@ -1,622 +1,370 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Kreirajte portfelj sa više potpisa na Sparrow
+description: Kreirajte novčanik sa više potpisa u Sparrow-u
 ---
 ![cover](assets/cover.webp)
 
 
-
-Višestruki potpis Wallet (često nazivan "*Multisig*") je Bitcoin Wallet struktura koja zahteva nekoliko kriptografskih potpisa, sa različitih ključeva, da bi se odobrila potrošnja. Za razliku od konvencionalnog ("*singlesig*") Wallet, gde je jedan privatni ključ dovoljan za otključavanje UTXO, Multisig se zasniva na **m-of-n** modelu: od _n_ ključeva povezanih sa Wallet, _m_ mora imperativno supotpisati svaku transakciju.
-
+Novčanik sa više potpisa (često nazvan "*Multisig*") je struktura Bitcoin novčanika koja zahteva nekoliko kriptografskih potpisa, sa različitih ključeva, da bi se odobrilo trošenje. Za razliku od konvencionalnog ("*singlesig*") novčanika, gde je jedan privatni ključ dovoljan da otključa UTXO, Multisig se zasniva na modelu **m-od-n**: od _n_ ključeva povezanih sa novčanikom, _m_ njih mora obavezno da ko-potpiše svaku transakciju.
 
 
-Ovaj mehanizam omogućava da kontrolu nad portfoliom dele više entiteta ili uređaja. Na primer, u konfiguraciji 2-od-3, generišu se tri nezavisna seta ključeva, ali su potrebna samo dva da bi se oslobodila sredstva. Ova arhitektura drastično smanjuje rizike povezane sa kompromitovanjem ili gubitkom ključa: lopov sa pristupom samo jednom ključu ne može isprazniti Wallet, a korisnik koji izgubi jedan i dalje može pristupiti svojim sredstvima sa preostala dva.
-
+Ovaj mehanizam omogućava da kontrola nad novčanikom bude podeljena između nekoliko subjekata ili uređaja. Na primer, u konfiguraciji 2-od-3 generišu se tri nezavisna skupa ključeva, ali su samo dva potrebna da se sredstva oslobode. Ova arhitektura drastično smanjuje rizike povezane sa kompromitovanjem ili gubitkom ključa: lopov koji ima pristup samo jednom ključu ne može da isprazni novčanik, a korisnik koji jedan izgubi i dalje može da pristupi svojim sredstvima pomoću preostala dva.
 
 
 ![Image](assets/fr/01.webp)
 
 
-
-Međutim, ova veća sigurnost dolazi sa većom složenošću. Postavljanje Multisig Wallet zahteva obezbeđivanje nekoliko Mnemonic fraza (po jedna za svaki faktor potpisa) i proširenih javnih ključeva ("*xpub*"). Zaista, ako koristite Multisig 2-od-3 Wallet, da biste preuzeli Wallet morate imati ili sve tri Mnemonic fraze, ili bar dve od tri fraze. Ali ako imate samo dve od tri fraze, takođe vam je potreban pristup trima *xpubs*, bez kojih će biti nemoguće preuzeti javne ključeve potrebne za pristup bitcoinima koje štite.
-
+Međutim, ova veća bezbednost dolazi sa većom složenošću. Podešavanje Multisig novčanika zahteva da obezbedite nekoliko mnemoničkih fraza (jednu po faktoru potpisivanja) i proširene javne ključeve ("*xpub*"). Naime, ako koristite Multisig novčanik 2-od-3, da biste povratili novčanik morate imati ili sve tri mnemoničke fraze, ili najmanje dve od tri fraze. Ali ako imate samo dve od tri fraze, potreban vam je i pristup trima *xpub*-ovima, bez kojih će biti nemoguće povratiti javne ključeve potrebne za pristup bitkoinima koje oni štite.
 
 
-Da rezimiramo, da biste povratili Multisig portfolio, morate:
+Da rezimiramo, da biste povratili Multisig novčanik, morate:
 
 
-
-
-- Ili pristupite svim Mnemonic frazama povezanim sa svakim faktorom potpisa;
-- Imajte minimalan broj Mnemonic fraza potreban prema pragu da biste mogli potpisati, i takođe imajte pristup xpub-ovima svih faktora kako biste preuzeli potrebne javne ključeve.
-
+- Ili pristupiti svim mnemoničkim frazama povezanim sa svakim faktorom potpisivanja;
+- Ili imati minimalan broj mnemoničkih fraza koji prag zahteva da biste mogli da potpišete, a takođe imati pristup xpub-ovima svih faktora kako biste povratili potrebne javne ključeve.
 
 
 ![Image](assets/fr/02.webp)
 
 
-
-Ovo upravljanje rezervnim kopijama portfolija Multisig olakšano je pomoću *Output Script Descriptors*, koji grupišu sve javne podatke potrebne za pristup sredstvima. Međutim, ova funkcionalnost još nije implementirana u sav softver za upravljanje portfolijem.
-
+Ovo upravljanje rezervnim kopijama Multisig novčanika olakšavaju *Output Script Descriptors*, koji na jednom mestu grupišu sve javne podatke potrebne za pristup sredstvima. Međutim, ova funkcionalnost još nije implementirana u svim softverima za upravljanje novčanicima.
 
 
-Multisig je posebno pogodan za bitkoinere koji traže poboljšanu sigurnost ili kolektivno upravljanje sredstvima: kompanije, udruženja, porodice ili individualne korisnike koji poseduju značajnu količinu bitkoina. Može se koristiti za kreiranje decentralizovanih šema upravljanja, na primer, za raspodelu ovlašćenja potpisivanja među nekoliko menadžera ili članova tima.
+Multisig je posebno prikladan za bitkoinere koji traže povećanu bezbednost ili kolektivno upravljanje sredstvima: kompanije, udruženja, porodice ili pojedinačne korisnike koji drže značajnu količinu bitkoina. Može se koristiti za kreiranje decentralizovanih šema upravljanja, na primer da se ovlašćenje za potpisivanje raspodeli između nekoliko rukovodilaca ili članova tima.
 
 
-
-U ovom vodiču ćemo naučiti kako kreirati i koristiti klasični multisignature Wallet sa **Sparrow Wallet**. Ako želite kreirati prilagođeni multisignature portfelj sa vremenskim zaključavanjima, preporučujem korišćenje Liana umesto toga:
-
+U ovom vodiču naučićemo kako da kreiramo i koristimo klasičan novčanik sa više potpisa pomoću **Sparrow Wallet**-a. Ako želite da kreirate prilagođen novčanik sa više potpisa sa timelock-ovima, preporučujem da umesto toga koristite Lianu:
 
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-## Preduslovi
+## Prethodni uslovi
 
 
-
-Za ovaj vodič, pokazaću vam kako da napravite Multisig sa [Sparrow Wallet softverom za upravljanje portfoliom](https://sparrowwallet.com/download/). Ako još niste instalirali ovaj softver, molimo vas da to učinite sada. Ako vam je potrebna pomoć, imamo i detaljan vodič o konfigurisanju Sparrow Wallet :
-
+Za ovaj vodič pokazaću vam kako da napravite Multisig pomoću [softvera za upravljanje novčanikom Sparrow Wallet](https://sparrowwallet.com/download/). Ako još niste instalirali ovaj softver, učinite to sada. Ako vam je potrebna pomoć, imamo i detaljan vodič o konfigurisanju Sparrow Wallet-a:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-Da biste postavili višepotpisni Wallet, biće vam potrebni različiti hardverski novčanici. Za Multisig 2-de-3, na primer, možete koristiti :
-
-
+Da biste podesili novčanik sa više potpisa, biće vam potrebni različiti hardverski novčanici. Za Multisig 2-od-3, na primer, mogli biste koristiti:
 
 
 - Trezor Model One;
 - Ledger Flex;
-- Coldcard MK3.
-
+- Passport Core.
 
 
 ![Image](assets/fr/03.webp)
 
 
-
-Dobra je ideja koristiti različite marke Hardware Wallet u vašoj Multisig konfiguraciji. Ovo osigurava da, ako određeni model naiđe na ozbiljan problem, to neće uticati na ukupnu sigurnost vašeg Multisig. Štaviše, omogućava vam da iskoristite specifične prednosti svakog uređaja. Na primer, u mojoj konfiguraciji :
-
+Dobra je ideja da u svojoj Multisig konfiguraciji koristite hardverske novčanike različitih proizvođača. Time se osigurava da, ako određeni model naiđe na ozbiljan problem, to ne utiče na ukupnu bezbednost vašeg Multisig-a. Osim toga, tako iskorišćavate specifične prednosti svakog uređaja. Na primer, u mojoj konfiguraciji:
 
 
 
-
-- Trezor Model One je potpuno open-source, što omogućava verifikaciju seed generacije. Međutim, kako nije opremljen Secure Element-om, ostaje ranjiv na fizičke napade;
-
+- Trezor Model One je potpuno otvorenog koda, što omogućava verifikaciju generisanja seed-a. Međutim, pošto nije opremljen Secure Element-om, ostaje ranjiv na fizičke napade;
 
 
 
-
-- S druge strane, Ledger Flex koristi neverifikabilni vlasnički firmware, ali uključuje Secure Element koji nudi odličnu fizičku zaštitu;
-
+- Ledger Flex, sa druge strane, koristi zatvoreni firmver koji se ne može verifikovati, ali sadrži Secure Element koji nudi odličnu fizičku zaštitu;
 
 
 
-
-- Coldcard je opremljen Secure Element-om i njegov kod je pretraživ. To je zanimljiv izbor za našu konfiguraciju, jer nudi verifikacione funkcije koje nisu dostupne na drugim modelima.
-
+- Passport Core kombinuje potpuno open-source firmver, Secure Element i air-gapped razmenu podataka putem QR kodova. To je nezavisni treći potpisnik koji može da verifikuje adrese i potpisuje PSBT-ove bez USB veze za prenos podataka.
 
 
-Pre nego što konfigurišete svoj Multisig Wallet, uverite se da je svaki Hardware Wallet pravilno konfigurisan (generisanje i čuvanje Mnemonic, definisanje PIN-a). Za detaljna uputstva, možete konsultovati naše tutorijale za svaki Hardware Wallet, na primer :
-
+Pre nego što konfigurišete svoj Multisig novčanik, proverite da je svaki hardverski novčanik pravilno konfigurisan (generisanje i čuvanje mnemonika, definisanje PIN-a). Za detaljna uputstva možete pogledati naše vodiče za svaki hardverski novčanik, na primer:
 
 
 https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-Kao što ćemo videti kasnije u ovom vodiču, takođe je moguće integrisati u vašu Multisig konfiguraciju faktor koji nije povezan sa Hardware Wallet, ali čiji su privatni ključevi sačuvani na vašem računaru. Ovaj metod je očigledno manje siguran od isključive upotrebe hardverskih novčanika, ali može biti relevantan u određenim slučajevima. Na primer, za Multisig 2-de-3, mogli biste se odlučiti za dva hardverska novčanika i jedan Software Wallet.
+Kao što ćemo videti kasnije u ovom vodiču, u svoju Multisig konfiguraciju možete uključiti i faktor koji nije povezan sa hardverskim novčanikom, već čiji su privatni ključevi sačuvani na vašem računaru. Ova metoda je očigledno manje bezbedna od isključive upotrebe hardverskih novčanika, ali u pojedinim slučajevima može biti relevantna. Na primer, za Multisig 2-od-3 mogli biste se odlučiti za dva hardverska novčanika i jedan softverski novčanik.
+
+> ⚠️ **Bezbednosno obaveštenje za Coldcard MK3:** ne kreirajte novi seed na MK3 uređaju sa firmverom starijim od 4.2.0. Seed-ovi generisani na starijem firmveru moraju biti zamenjeni, a sredstva premeštena. Ovaj vodič zato koristi Passport Core kao svoj air-gapped referentni potpisnik.
 
 
-
-## Kreiranje Multisig portfolija
-
+## Kreiranje Multisig novčanika
 
 
 Otvorite Sparrow Wallet, kliknite na karticu "*File*", zatim izaberite "*New Wallet*".
 
 
-
 ![Image](assets/fr/04.webp)
 
 
-
-Dodelite ime svom multisignature portfoliju, zatim kliknite na "*Create Wallet*" da potvrdite.
-
+Dodelite ime svom novčaniku sa više potpisa, zatim kliknite na "*Create Wallet*" da potvrdite.
 
 
 ![Image](assets/fr/05.webp)
 
 
-
-U padajućem meniju "*Policy Type*", izaberite opciju "*Multi Signature*".
-
+U padajućem meniju "*Policy Type*" izaberite opciju "*Multi Signature*".
 
 
 ![Image](assets/fr/06.webp)
 
 
-
-U gornjem desnom uglu sada možete definisati ukupan broj ključeva u vašem Multisig, kao i broj sa-potpisnika potrebnih za odobravanje troška. U mom primeru, ovo je šema 2-od-3.
-
+U gornjem desnom uglu sada možete da definišete ukupan broj ključeva u svom Multisig-u, kao i broj ko-potpisnika potrebnih da odobre trošenje. U mom primeru to je šema 2-od-3.
 
 
 ![Image](assets/fr/07.webp)
 
 
-
-Na dnu prozora, Sparrow Wallet prikazuje tri "*Keystore*". Svaki predstavlja skup ključeva. Ovde koristim tri hardverska portfolija, tako da svaki "*Keystore*" odgovara jednom od njih. Sada ćemo ih konfigurisati.
-
+Na dnu prozora Sparrow Wallet prikazuje tri "*Keystore*". Svaki predstavlja jedan skup ključeva. Ovde koristim tri hardverska novčanika, tako da svaki "*Keystore*" odgovara jednom od njih. Sada ćemo ih konfigurisati.
 
 
-Počinjem sa Coldcard. Na kartici "*Keystore 1*" biram opciju "*Airgapped Hardware Wallet*".
-
+Počinjem sa Passport Core-om. U kartici "*Keystore 1*" biram opciju "*Airgapped Hardware Wallet*".
 
 
 ![Image](assets/fr/08.webp)
 
 
+Na Passport-u otvorite nalog koji želite da koristite, zatim izaberite "*Connect Wallet*" > "*Sparrow*" > "*Connect as Multisig*". Passport prikazuje animirani QR kod koji sadrži informacije o njegovom javnom ključu.
 
-Na Coldcard-u, kada je uređaj otključan, idem na meni "*Settings*", zatim na "*Multisig Wallets*".
+U Sparrow-u izaberite "*Scan...*" pored "*Passport*" i skenirajte taj animirani QR kod veb-kamerom svog računara. Uporedite otisak master ključa koji prikazuje Sparrow sa onim koji prikazuje Passport, zatim uvezite keystore.
 
-
-
-![Image](assets/fr/09.webp)
-
+Vaš Passport xpub je sada uvezen. Ponovite odgovarajuću proceduru za Ledger Flex i Trezor Model One.
 
 
-Ovaj meni vam omogućava upravljanje Multisig portfolijima u kojima Coldcard učestvuje. Želim da kreiram novi, pa biram "*Export XPUB*".
-
-
-
-![Image](assets/fr/10.webp)
-
-
-
-Za polje "*Broj računa*", ako upravljate samo jednim računom, možete ga ostaviti praznim i direktno potvrditi pritiskom na dugme za potvrdu.
-
-
-
-![Image](assets/fr/11.webp)
-
-
-
-Coldcard će zatim generate datoteku koja sadrži vaš xpub, sačuvanu na Micro SD kartici.
-
-
-
-![Image](assets/fr/12.webp)
-
-
-
-Umetnite ovu Micro SD karticu u vaš računar. U Sparrow Wallet, kliknite na dugme "*Import File...*" pored "*Coldcard Multisig*", zatim izaberite fajl kreiran od strane Coldcard-a na kartici.
-
-
-
-![Image](assets/fr/13.webp)
-
-
-
-Vaš xpub je uspešno uvezen. Sada ćemo ponoviti proceduru sa druga dva hardverska novčanika.
-
-
-
-![Image](assets/fr/14.webp)
-
-
-
-Za Ledger Flex, biram "*Keystore 2*", zatim kliknem na "*Connected Hardware Wallet*". Uverite se da je Ledger povezan sa računarom, otključan, i da je aplikacija Bitcoin otvorena.
-
+Za Ledger Flex biram "*Keystore 2*", zatim kliknem na "*Connected Hardware Wallet*". Proverite da je Ledger povezan sa računarom, otključan i da je Bitcoin aplikacija otvorena.
 
 
 ![Image](assets/fr/15.webp)
 
 
-
-Zatim kliknite na dugme "*Skeniraj...*".
-
+Zatim kliknite na dugme "*Scan...*".
 
 
 ![Image](assets/fr/16.webp)
 
 
-
-Pored imena vašeg portfolija hardvera, kliknite na "*Import Keystore*".
-
+Pored imena svog hardverskog novčanika kliknite na "*Import Keystore*".
 
 
 ![Image](assets/fr/17.webp)
 
 
-
-Drugi potpisnik je sada ispravno registrovan u Sparrow Wallet.
-
+Drugi potpisnik je sada pravilno registrovan u Sparrow Wallet-u.
 
 
 ![Image](assets/fr/18.webp)
 
 
-
-Ponavljam potpuno isti postupak sa Trezor One da završim konfiguraciju Multisig.
-
+Ponavljam potpuno istu proceduru sa Trezor One-om da bih finalizovao Multisig konfiguraciju.
 
 
 ![Image](assets/fr/19.webp)
 
 
-
-U mojoj konfiguraciji ne pokrivamo ovaj slučaj, ali ako želite da uključite potpis putem Software Wallet u Sparrow (Hot Wallet) unutar vašeg Multisig, jednostavno kliknite na dugme "*Novi ili Uvezeni Software Wallet*".
-
+U mojoj konfiguraciji ne obrađujemo ovaj slučaj, ali ako u svoj Multisig želite da uključite potpis putem softverskog novčanika u Sparrow-u (hot wallet), dovoljno je da kliknete na dugme "*New or Imported Software Wallet*".
 
 
-Sada kada su svi vaši potpisni uređaji uvezeni u Sparrow Wallet, možete finalizirati kreiranje Multisig klikom na "*Apply*".
-
+Sada kada su svi vaši uređaji za potpisivanje uvezeni u Sparrow Wallet, možete finalizovati kreiranje Multisig-a klikom na "*Apply*".
 
 
 ![Image](assets/fr/20.webp)
 
 
-
-Izaberite jaku lozinku kako biste osigurali pristup vašem Sparrow Wallet Wallet. Ova lozinka štiti vaše javne ključeve, adrese, oznake i istoriju transakcija od neovlašćenog pristupa.
-
+Izaberite jaku lozinku da zaštitite pristup svom Sparrow Wallet novčaniku. Ova lozinka štiti vaše javne ključeve, adrese, oznake i istoriju transakcija od neovlašćenog pristupa.
 
 
-Zapamti da sačuvaš ovu lozinku na sigurnom mestu, kao što je menadžer lozinki, kako bi izbegao/la njen gubitak.
-
+Ne zaboravite da ovu lozinku sačuvate na bezbednom mestu, na primer u menadžeru lozinki, da je ne izgubite.
 
 
 ![Image](assets/fr/21.webp)
 
 
-
-## Pravljenje rezervne kopije portfolija Multisig
-
+## Izrada rezervne kopije Multisig novčanika
 
 
-Sada ćemo sačuvati naš *Output Script Descriptor* na Coldcard-u (ovo se odnosi samo na korisnike sa Coldcard-om u njihovom Multisig), i iznad svega, napravićemo rezervnu kopiju na nezavisnom medijumu.
+Sada ćemo sačuvati *Output Script Descriptor* na nezavisnom medijumu i držati nekoliko njegovih kopija.
 
 
-
-*Descriptor* sadrži sve xpub-ove u vašem Multisig portfoliju, kao i putanje derivacije korišćene za generate ključeve. Setite se šta smo videli u Prvom delu: da biste obnovili Multisig portfolijo, morate imati **sve** Mnemonic fraze, ili samo minimalni broj potreban da dostignete prag potpisa. Međutim, u ovom drugom slučaju, takođe je neophodno imati **xpub-ove** nedostajućih potpisnika. *Descriptor* sadrži sve xpub-ove vašeg Multisig.
-
+*Deskriptor* sadrži sve xpub-ove vašeg Multisig novčanika, kao i putanje derivacije koje se koriste za generisanje ključeva. Setite se onoga što smo videli u 1. delu: da biste obnovili Multisig novčanik, morate imati ili **sve** mnemoničke fraze, ili samo minimalan broj potreban da se dostigne prag potpisivanja. Međutim, u ovom drugom slučaju neophodno je imati i **xpub-ove** potpisnika koji nedostaju. *Deskriptor* sadrži sve xpub-ove vašeg Multisig-a.
 
 
-Ako ovo nije jasno, samo zapamtite sledeće: da biste preuzeli Multisig, potrebno je minimalan broj Mnemonic fraza za svaki korišćeni Hardware Wallet, u zavisnosti od praga (u mom slučaju: 2 fraze), kao i *Descriptor*.
+Ako ovo nije jasno, samo zapamtite ovo: da biste povratili Multisig, potreban vam je minimalan broj mnemoničkih fraza za svaki upotrebljeni hardverski novčanik, u zavisnosti od praga (u mom slučaju: 2 fraze), kao i *Deskriptor*.
 
 
-
-Ovaj *Descriptor* ne sadrži privatne ključeve, već samo javne. To znači da ne omogućava pristup sredstvima. Stoga nije toliko kritičan kao Mnemonic fraze, koje omogućavaju potpuni pristup vašim bitcoinima. Rizik sa *Descriptor*-om je isključivo povezan sa poverljivošću: u slučaju kompromitovanja, treća strana bi mogla da posmatra sve vaše transakcije, ali ne bi mogla da troši vaša sredstva.
-
+Ovaj *Deskriptor* ne sadrži privatne ključeve, samo javne. To znači da ne daje pristup sredstvima. Zato nije toliko kritičan kao mnemoničke fraze, koje daju pun pristup vašim bitkoinima. Rizik kod *Deskriptora* odnosi se isključivo na privatnost: u slučaju kompromitovanja, treća strana bi mogla da posmatra sve vaše transakcije, ali ne bi mogla da potroši vaša sredstva.
 
 
-Toplo preporučujem da napravite nekoliko kopija ovog *Descriptor*-a i držite ih uz svaki uređaj za potpisivanje na vašem Multisig. Na primer, u mom slučaju, štampam *Descriptor* na papiru i držim jednu kopiju uz Coldcard, drugu uz Trezor, i jednu uz Ledger. Takođe čuvam ovaj *Descriptor* kao PDF fajl na tri USB memorije, svaka pohranjena uz jedan od hardverskih portfolija. Na ovaj način, maksimiziram svoje šanse da nikada ne izgubim ovaj *Descriptor*, i siguran sam da imam dve kopije (jednu fizičku i jednu digitalnu) uz svaki uređaj.
+Toplo preporučujem da napravite nekoliko kopija ovog *Deskriptora* i da svaku držite zajedno sa jednim uređajem za potpisivanje u svom Multisig-u. Na primer, u mom slučaju štampam *Deskriptor* na papiru i držim jednu kopiju sa Passport-om, drugu sa Trezor-om, a jednu sa Ledger-om. Ovaj *Deskriptor* takođe čuvam kao PDF datoteku na tri USB stika, od kojih je svaki uskladišten sa jednim od hardverskih novčanika. Na ovaj način maksimalno povećavam šanse da nikada ne izgubim ovaj *Deskriptor* i siguran sam da imam dve kopije (jednu fizičku i jednu digitalnu) sa svakim uređajem.
 
 
-
-Jednom kada vaš Multisig portfolio bude kreiran, Sparrow vam automatski pruža ovaj *Descriptor*. Kliknite na dugme "*Save PDF...*" da biste ga sačuvali i kao tekst i kao QR kod.
-
+Kada je vaš Multisig novčanik kreiran, Sparrow vam automatski daje ovaj *Deskriptor*. Kliknite na dugme "*Save PDF...*" da ga sačuvate i kao tekst i kao QR kod.
 
 
 ![Image](assets/fr/22.webp)
 
 
-
-Možete zatim odštampati ovaj PDF i kopirati ga na vaše USB stikove.
-
+Zatim možete odštampati ovaj PDF i kopirati ga na svoje USB stikove.
 
 
 ![Image](assets/fr/23.webp)
 
 
-
-Takođe ćemo registrovati ovaj *Descriptor* u Coldcard (ako ga koristite u vašoj konfiguraciji). Ovo će omogućiti Coldcard-u da verifikuje da svaka kasnije potpisana transakcija odgovara originalnom Wallet: ispravni xpubs, ispravan Address format, ispravna putanja derivacije... Bez ovog uvezenog *Descriptor*-a, Coldcard ne može potvrditi da Exchange adrese nisu otete ili da PSBT nije izmenjen.
-
+Passport koristi multisig konfiguraciju uvezenu iz Sparrow-a da prikaže i verifikuje relevantne informacije o ključevima tokom QR uparivanja i potpisivanja. *Deskriptor* čuvajte nezavisno: on ostaje neophodan za obnavljanje novčanika ako jedan potpisnik nije dostupan.
 
 
-Ovo je ono što čini Coldcard tako zanimljivim u Multisig: nudi dodatne provere protiv određenih sofisticiranih napada, što drugi hardverski novčanici ne dozvoljavaju (pod uslovom, naravno, da ga koristite za potpisivanje).
-
-
-
-U Sparrow-u, pristupite meniju "*Settings*", zatim kliknite na "*Export...*".
-
-
-
-![Image](assets/fr/24.webp)
-
-
-
-Pored opcije "*Coldcard Multisig*", kliknite na "*Export File...*" i sačuvajte tekstualni fajl na Micro SD karticu.
-
-
-
-![Image](assets/fr/25.webp)
-
-
-
-Zatim umetnite karticu u Coldcard. Idite na meni "*Settings*", zatim "*Multisig Wallets*", i izaberite "*Import from SD*".
-
-
-
-![Image](assets/fr/26.webp)
-
-
-
-Odaberite odgovarajuću datoteku i potvrdite uvoz.
-
-
-
-![Image](assets/fr/27.webp)
-
-
-
-Kliknite na ime vašeg novouvezenog Multisig.
-
-
-
-![Image](assets/fr/28.webp)
-
-
-
-Proveri parametre konfiguracije Multisig, zatim potvrdi registraciju.
-
-
-
-![Image](assets/fr/29.webp)
-
-
-
-Vaš Multisig je sada ispravno sačuvan u vašem Coldcard-u. Ako imate nekoliko Coldcard-a u istom Multisig, ponovite ovaj postupak za svaki od njih.
-
-
-
-Pored čuvanja *Descriptor*-a, ne zaboravite da obratite posebnu pažnju na čuvanje Mnemonic fraza za svaki od vaših potpisnih uređaja. Ako tek počinjete, toplo preporučujem da se posavetujete sa ovim drugim vodičem kako biste naučili kako ih pravilno sačuvati i upravljati njima:
-
+Osim čuvanja *Deskriptora*, ne zaboravite da posvetite posebnu pažnju čuvanju mnemoničkih fraza za svaki od svojih uređaja za potpisivanje. Ako tek počinjete, toplo preporučujem da pogledate ovaj drugi vodič da naučite kako da ih pravilno sačuvate i njima upravljate:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Pre nego što primite svoje prve bitkoine na vaš Multisig, **snažno vam savetujem da izvršite test praznog oporavka**. Zabeležite neke referentne informacije, kao što je prvi prijemni Address, zatim resetujte svoje hardverske novčanike dok je Wallet još uvek prazan. Zatim pokušajte da obnovite svoj Multisig Wallet na Hardverskim Novčanicima koristeći svoje Mnemonic fraze sa papirnih rezervnih kopija, a zatim na Sparrow koristeći *Descriptor*. Proverite da li prvi Address generisan nakon obnove odgovara onom koji ste prvobitno zapisali. Ako odgovara, možete biti sigurni da su vaše papirne rezervne kopije pouzdane.
+Pre nego što primite prve bitkoine na svoj Multisig, **toplo vam savetujem da izvedete test obnavljanja na praznom novčaniku**. Zapišite neke referentne informacije, kao što je prva adresa za primanje, zatim resetujte svoje hardverske novčanike dok je novčanik još prazan. Nakon toga probajte da obnovite svoj Multisig novčanik na hardverskim novčanicima koristeći papirne rezervne kopije mnemoničkih fraza, a zatim u Sparrow-u pomoću *Deskriptora*. Proverite da prva adresa generisana nakon obnavljanja odgovara onoj koju ste prvobitno zapisali. Ako odgovara, možete biti mirni da su vaše papirne rezervne kopije pouzdane.
 
 
-
-Da biste saznali više o tome kako izvesti test oporavka, predlažem da pogledate ovaj drugi vodič:
-
+Da naučite više o tome kako se izvodi test obnavljanja, predlažem da pogledate ovaj drugi vodič:
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Primajte bitkoine na vašem Multisig
+## Primanje bitkoina na vaš Multisig
 
 
-
-Vaš Wallet je sada spreman da prima bitkoine. U Sparrow-u, kliknite na karticu "*Receive*".
-
+Vaš novčanik je sada spreman da prima bitkoine. U Sparrow-u kliknite na karticu "*Receive*".
 
 
 ![Image](assets/fr/30.webp)
 
 
-
-Pre nego što upotrebite Address generisan od strane Sparrow Wallet, odvojite vreme da ga proverite direktno na ekranu vaših hardverskih novčanika. Ovo će osigurati da Address nije izmenjen i da vaši uređaji poseduju privatne ključeve potrebne za trošenje povezanih sredstava. Ovo pomaže u zaštiti od brojnih vektora napada.
-
+Pre nego što upotrebite adresu koju je generisao Sparrow Wallet, odvojite vreme da je proverite direktno na ekranu svojih hardverskih novčanika. Time ćete se uveriti da adresa nije izmenjena i da vaši uređaji drže privatne ključeve potrebne za trošenje povezanih sredstava. Ovo vam pomaže da se zaštitite od većeg broja vektora napada.
 
 
-Da biste to uradili, kliknite na "*Display Address*" da prikažete Address na vašem Trezoru ili Ledger, kada je povezan kablom.
-
+Da to učinite, kliknite na "*Display Address*" da prikažete adresu na svom Trezor-u ili Ledger-u, kada su povezani kablom.
 
 
 ![Image](assets/fr/31.webp)
 
 
-
-Sa Coldcard, ova verifikacija se može izvršiti bez ikakve interakcije sa Sparrow. Jednostavno otvorite meni "*Address Explorer*", zatim izaberite vaš Multisig na samom dnu.
-
+Sa Passport-om izaberite multisig nalog i izaberite "*Verify Address*". Skenirajte QR kod adrese za primanje koju prikazuje Sparrow. Passport na svom ekranu potvrđuje da li adresa pripada multisig novčaniku.
 
 
-![Image](assets/fr/32.webp)
+Proverite da adresa prikazana na svakom hardverskom novčaniku tačno odgovara onoj u Sparrow Wallet-u. Preporučljivo je to učiniti neposredno pre nego što adresu podelite sa platiocem, da biste bili sigurni u njen integritet.
 
 
-
-Videćete adrese prijema koje generiše Multisig.
-
-
-
-![Image](assets/fr/33.webp)
-
-
-
-Proverite da Address prikazan na svakom Hardware Wallet tačno odgovara onom u Sparrow Wallet. Preporučljivo je to uraditi neposredno pre deljenja Address sa platiocem, kako biste bili sigurni u njegov integritet.
-
-
-
-Zatim možete dodeliti "*Label*" ovom Address, kako biste označili poreklo primljenih bitkoina. Ovo je dobar način organizovanja upravljanja vašim UTXO-ima.
-
+Zatim ovoj adresi možete dodeliti "*Label*", da označite poreklo primljenih bitkoina. To je dobar način da organizujete upravljanje svojim UTXO-ima.
 
 
 ![Image](assets/fr/34.webp)
 
 
-
-Kada se ovo verifikuje, možete koristiti Address za primanje bitkoina.
-
+Kada je ovo provereno, možete koristiti adresu za primanje bitkoina.
 
 
 ![Image](assets/fr/35.webp)
 
 
-
-## Slanje bitkoina sa vašim Multisig
-
+## Slanje bitkoina pomoću vašeg Multisig-a
 
 
-Sada kada ste primili svoje prve Satss na vašem Multisig Wallet, možete ih i potrošiti! U Sparrow-u, idite na karticu "*Send*" da napravite novu transakciju.
-
+Sada kada ste primili prve satoshije na svoj Multisig novčanik, možete ih i potrošiti! U Sparrow-u idite na karticu "*Send*" da izgradite novu transakciju.
 
 
 ![Image](assets/fr/36.webp)
 
 
-
-Ako želite da koristite *Coin Control*, tj. ručno odaberete UTXO-e koje želite da potrošite, idite na karticu "*UTXOs*". Izaberite UTXO-e koje želite da potrošite, zatim kliknite na "*Send Selected*". Bićete automatski preusmereni na karticu "*Send*", sa već popunjenim UTXO-ima.
-
+Ako želite da koristite *Coin Control*, tj. da ručno izaberete UTXO-e koje želite da potrošite, idite na karticu "*UTXOs*". Izaberite UTXO-e koje želite da potrošite, zatim kliknite na "*Send Selected*". Bićete automatski preusmereni na karticu "*Send*", sa već unapred popunjenim UTXO-ima.
 
 
 ![Image](assets/fr/37.webp)
 
 
-
-Unesite odredište Address. Više adresa može se dodati klikom na "*+ Dodaj*".
-
+Unesite adresu primaoca. Više adresa se može dodati klikom na "*+ Add*".
 
 
 ![Image](assets/fr/38.webp)
 
 
-
-Dodajte "*Oznaku*" da opišete svrhu ovog troška, kako biste lakše pratili svoje transakcije.
-
+Dodajte "*Label*" da opišete svrhu ovog trošenja, kako biste lakše pratili svoje transakcije.
 
 
 ![Image](assets/fr/39.webp)
 
 
-
-Unesite iznos koji treba poslati na odabrani Address.
-
+Unesite iznos koji treba poslati na izabranu adresu.
 
 
 ![Image](assets/fr/40.webp)
 
 
-
-Podesite stopu punjenja u skladu sa trenutnim uslovima mreže. Na primer, konsultujte [Mempool.space](https://Mempool.space/) da biste odabrali odgovarajući nivo punjenja.
-
+Prilagodite visinu naknade prema trenutnim uslovima na mreži. Na primer, pogledajte [Mempool.space](https://Mempool.space/) da izaberete odgovarajući nivo naknade.
 
 
 Nakon što proverite sve parametre transakcije, kliknite na "*Create Transaction*".
 
 
-
 ![Image](assets/fr/41.webp)
 
 
-
-Ako ste zadovoljni svime, kliknite na "*Finalize Transaction for Signing*".
-
+Ako ste svime zadovoljni, kliknite na "*Finalize Transaction for Signing*".
 
 
 ![Image](assets/fr/42.webp)
 
 
-
-Na dnu ekrana, videćete da Sparrow čeka 2 potpisa. Ovo je normalno: Wallet korišćen ovde je Multisig 2-de-3.
-
+Na dnu ekrana videćete da Sparrow čeka 2 potpisa. To je normalno: novčanik koji se ovde koristi je Multisig 2-od-3.
 
 
 ![Image](assets/fr/43.webp)
 
 
-
-Počinjem sa potpisivanjem koristeći svoj Coldcard. Da bih to uradio, ubacujem Micro SD karticu u računar, zatim kliknem na "*Save Transaction*".
-
+Počinjem potpisivanje svojim Passport-om. U Sparrow-u kliknite na "*Show QR*" da prikažete PSBT (*Partially Signed Bitcoin Transaction*) kao animirane QR kodove. Na Passport-u izaberite multisig nalog i izaberite "*Sign with QR Code*", zatim skenirajte QR kod koji prikazuje Sparrow.
 
 
-![Image](assets/fr/44.webp)
+Na ekranu svog hardverskog novčanika pažljivo proverite parametre transakcije: adresu primaoca, poslati iznos i naknade. Kada je transakcija potvrđena, validirajte da nastavite na potpisivanje.
 
 
-
-Postoje 3 načina prenosa transakcije koja treba da se potpiše na vaš Hardware Wallet, a zatim da se preuzme iz Sparrow-a. Prvi je korišćenje Micro SD kartice, kao što ćemo ovde uraditi za Coldcard. Drugi je putem kablovske veze, koju ćemo koristiti za drugi potpis (Ledger i Trezor). Na kraju, moguće je koristiti komunikaciju putem QR koda, za uređaje opremljene kamerom kao što su Coldcard Q, Jade Plus ili Passport V2.
-
-
-
-Jednom kada je PSBT (*Partially Signed Bitcoin Transaction*) sačuvan na Micro SD, ubacujem ga u Coldcard MK3, zatim biram meni "*Ready to Sign*".
-
-
-
-![Image](assets/fr/45.webp)
-
-
-
-Na vašem Hardware Wallet ekranu, pažljivo proverite parametre transakcije: primaoca Address, poslatu sumu i naknade. Kada transakcija bude potvrđena, validirajte da biste nastavili sa potpisivanjem.
-
-
-
-![Image](assets/fr/46.webp)
-
-
-
-Zatim vratite Micro SD u računar i kliknite na "*Load Transaction*" u Sparrow. Izaberite PSBT potpisan od strane Coldcard iz vaših fajlova.
-
-
-
-![Image](assets/fr/47.webp)
-
-
-
-Možete videti da je Coldcard potpis dodat. Sada ću koristiti drugi uređaj, u ovom slučaju Ledger, da izvršim drugi potrebni potpis. Povezujem ga, otključavam, zatim kliknem na "*Sign*" na Sparrow.
-
+Nakon što odobrite transakciju, Passport prikazuje potpisani PSBT kao animirane QR kodove. U Sparrow-u kliknite na "*Scan QR*" i skenirajte te kodove svojom veb-kamerom. Passport potpis se tada dodaje. Sada koristim Ledger za drugi potreban potpis: povezujem ga i otključavam, zatim kliknem na "*Sign*" u Sparrow-u.
 
 
 ![Image](assets/fr/48.webp)
 
 
-
-Kliknite na "*Sign*" pored imena vašeg Hardware Wallet.
-
+Kliknite na "*Sign*" pored imena svog hardverskog novčanika.
 
 
 ![Image](assets/fr/49.webp)
 
 
-
-Prvi put kada koristite svoj Ledger sa ovim Multisig, Sparrow će vas zamoliti da verifikujete proširene javne ključeve (xpubs) ko-potpisnika. Kao i kod Coldcard-a, ovaj korak sprečava da kasnije potpisujete naslepo. Da biste potvrdili ove informacije, uporedite xpub prikazan na ekranu Ledger sa onima koje direktno pružaju vaši drugi hardverski novčanici.
-
+Prvi put kada svoj Ledger koristite sa ovim Multisig-om, Sparrow će vas zamoliti da verifikujete proširene javne ključeve (xpub-ove) ko-potpisnika. Kao i sa Passport-om, ovaj korak vas sprečava da kasnije potpisujete naslepo. Da potvrdite te informacije, uporedite xpub prikazan na ekranu Ledger-a sa onima koje direktno daju vaši drugi hardverski novčanici.
 
 
 ![Image](assets/fr/50.webp)
 
 
-
-Proverite primalac Address, iznos prenosa i naknadu za transakciju, zatim potpišite transakciju.
-
+Proverite adresu primaoca, prenesen iznos i naknadu za transakciju, zatim potpišite transakciju.
 
 
 ![Image](assets/fr/51.webp)
 
 
-
 Pritisnite ekran da potpišete.
-
 
 
 ![Image](assets/fr/52.webp)
 
 
-
-Sparrow sada ima dva potpisa potrebna za oslobađanje sredstava iz portfolija Multisig. Proveri transakciju još jednom, i ako sve bude u redu, klikni na "*Broadcast Transaction*" da je emituješ preko mreže.
-
+Sparrow sada ima dva potpisa potrebna da se sredstva oslobode iz Multisig novčanika. Proverite transakciju poslednji put i, ako je sve u redu, kliknite na "*Broadcast Transaction*" da je emitujete na mrežu.
 
 
 ![Image](assets/fr/53.webp)
 
 
-
-Pronaći ćete ovu transakciju u kartici "*Transakcije*" u Sparrow Wallet.
-
+Ovu transakciju ćete naći u kartici "*Transactions*" u Sparrow Wallet-u.
 
 
 ![Image](assets/fr/54.webp)
 
 
-
-Čestitamo, sada znate kako da postavite i koristite multisignature Wallet na Sparrow. Ako ste smatrali da je ovaj vodič koristan, bio bih zahvalan ako biste ostavili Green palac ispod. Slobodno podelite ovaj članak na svojim društvenim mrežama. Hvala što delite!
-
+Čestitamo, sada znate kako da podesite i koristite novčanik sa više potpisa u Sparrow-u. Ako vam je ovaj vodič bio koristan, bio bih vam zahvalan ako ispod ostavite zeleni palac. Slobodno podelite ovaj članak na svojim društvenim mrežama. Hvala na deljenju!
 
 
-Da biste nastavili dalje, preporučujem da pogledate ovaj vodič o drugoj metodi za povećanje sigurnosti vašeg Bitcoin Wallet, passphrase BIP39 :
-
+Da idete dalje, preporučujem da pogledate ovaj vodič o drugoj metodi za povećanje bezbednosti vašeg Bitcoin novčanika, BIP39 lozinci:
 
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

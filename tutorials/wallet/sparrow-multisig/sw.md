@@ -1,622 +1,370 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Unda jalada la multiple-sign kwenye Sparrow
+description: Unda pochi yenye saini nyingi kwenye Sparrow
 ---
-![cover](assets/cover.webp)
+![jalada](assets/cover.webp)
 
 
-
-Wallet ya saini nyingi (mara nyingi huitwa "*Multisig*") ni muundo wa Bitcoin Wallet ambao unahitaji saini kadhaa za kriptografia, kutoka kwa funguo tofauti, ili kuidhinisha matumizi. Tofauti na Wallet ya kawaida ("*singlesig*"), ambapo ufunguo mmoja wa faragha unatosha kufungua UTXO, Multisig inategemea mtindo wa **m-of-n**: kati ya vitufe _n_ vinavyohusishwa na Wallet, _m_ lazima itie saini kwa kila muamala kwa lazima.
-
+Pochi yenye saini nyingi (mara nyingi huitwa "*Multisig*") ni muundo wa pochi ya Bitcoin unaohitaji saini kadhaa za kriptografia, kutoka funguo tofauti, ili kuidhinisha matumizi. Tofauti na pochi ya kawaida ("*singlesig*"), ambapo ufunguo mmoja wa faragha unatosha kufungua UTXO, Multisig inategemea muundo wa **m-of-n**: kati ya funguo _n_ zinazohusishwa na pochi, _m_ lazima zitie saini pamoja kila muamala.
 
 
-Utaratibu huu huwezesha udhibiti wa kwingineko kushirikiwa kati ya vyombo au vifaa kadhaa. Kwa mfano, katika usanidi wa 2-ya-3, seti tatu za kujitegemea za funguo huzalishwa, lakini mbili tu zinahitajika ili kutoa fedha. Usanifu huu hupunguza kwa kiasi kikubwa hatari zinazohusiana na kuathirika au kupoteza ufunguo: mwizi aliye na ufikiaji wa ufunguo mmoja pekee hawezi kufuta wallet, na mtumiaji anayepoteza ufunguo mmoja bado anaweza kufikia fedha zake kwa kutumia funguo mbili zilizobaki.
+Utaratibu huu huwezesha udhibiti wa pochi kugawiwa kati ya vyombo au vifaa kadhaa. Kwa mfano, katika usanidi wa 2 kati ya 3, seti tatu huru za funguo huzalishwa, lakini mbili tu zinahitajika ili kutoa fedha. Muundo huu hupunguza kwa kiasi kikubwa hatari zinazohusiana na kufichuliwa au kupotea kwa ufunguo: mwizi mwenye ufikiaji wa ufunguo mmoja tu hawezi kufilisi pochi, na mtumiaji anayepoteza mmoja bado anaweza kufikia fedha zake kwa kutumia mbili zilizobaki.
 
 
-
-![Image](assets/fr/01.webp)
-
+![Picha](assets/fr/01.webp)
 
 
-Hata hivyo, usalama huu wa juu unakuja na ugumu zaidi. Kuweka multisig wallet kunahitaji kupata vifungu kadhaa vya mnemonic (kimoja kwa kila kipengele cha sahihi) pamoja na funguo za umma zilizopanuliwa (xpub). Kwa mfano, ikiwa unatumia multisig 2-of-3 wallet, ili kuipata tena lazima uwe na ama vifungu vyote vitatu vya mnemonic, au angalau viwili kati ya vitatu. Lakini ikiwa una maneno mawili pekee kati ya matatu, utahitaji pia kuwa na xpubs zote tatu; bila hizo, haitawezekana kurejesha funguo za umma zinazohitajika kufikia bitcoins wanazolinda.
+Hata hivyo, usalama huu mkubwa huja na uchangamano mkubwa zaidi. Kuweka pochi ya Multisig kunahitaji kulinda vifungu kadhaa vya mnemonic (kimoja kwa kila kipengele cha saini) na funguo za umma zilizopanuliwa ("*xpub*"). Kwa kweli, ikiwa unatumia pochi ya Multisig 2 kati ya 3, ili kurejesha pochi lazima uwe na vifungu vyote vitatu vya mnemonic, au angalau vifungu viwili kati ya vitatu. Lakini ikiwa una vifungu viwili tu kati ya vitatu, pia unahitaji ufikiaji wa *xpubs* zote tatu, bila ambazo haitawezekana kurejesha funguo za umma zinazohitajika ili kufikia bitcoins ambazo zinalinda.
 
 
-
-Kwa muhtasari, ili kurejesha jalada la Multisig, lazima:
-
+Kwa muhtasari, ili kurejesha pochi ya Multisig, lazima uwe na:
 
 
-
-- Au fikia vifungu vyote vya Mnemonic vinavyohusishwa na kila kipengele cha sahihi;
-- Aidha uwe na idadi ya chini ya vifungu vya Mnemonic vinavyohitajika na kiwango cha juu ili uweze kutia sahihi, na pia uwe na ufikiaji wa xpub za vipengele vyote ili kupata funguo zinazohitajika za umma.
-
+- Au ufikiaji wa vifungu vyote vya mnemonic vinavyohusishwa na kila kipengele cha saini;
+- Au uwe na idadi ya chini ya vifungu vya mnemonic inayohitajika na kizingiti ili uweze kutia saini, na pia uwe na ufikiaji wa xpubs za vipengele vyote ili kurejesha funguo muhimu za umma.
 
 
-![Image](assets/fr/02.webp)
+![Picha](assets/fr/02.webp)
 
 
-
-Usimamizi huu wa hifadhi rudufu za kwingineko za Multisig unawezeshwa na *Vifafanuzi vya Hati ya Machapisho*, ambayo hukusanya pamoja data yote ya umma inayohitajika ili kufikia fedha hizo. Hata hivyo, utendakazi huu bado haujatekelezwa katika programu zote za usimamizi wa kwingineko.
-
+Usimamizi huu wa nakala za akiba za pochi ya Multisig hurahisishwa na *Output Script Descriptors*, ambazo hukusanya data yote ya umma inayohitajika kufikia fedha. Hata hivyo, utendakazi huu bado haujatekelezwa katika programu zote za usimamizi wa pochi.
 
 
-Multisig inafaa haswa kwa wababeti wanaotafuta usalama ulioimarishwa au usimamizi wa pamoja wa fedha: makampuni, vyama, familia, au watumiaji binafsi wanaoshikilia kiasi kikubwa cha bitcoins. Inaweza kutumika kuunda mipango ya utawala iliyogatuliwa, kwa mfano, kusambaza mamlaka ya kutia saini kati ya wasimamizi kadhaa au wanachama wa timu.
+Multisig inafaa hasa kwa bitcoiners wanaotafuta usalama ulioimarishwa au usimamizi wa pamoja wa fedha: kampuni, vyama, familia, au watumiaji binafsi wanaoshikilia kiasi kikubwa cha bitcoins. Inaweza kutumiwa kuunda mifumo ya utawala uliogatuliwa, kwa mfano, kugawa mamlaka ya kutia saini kati ya wasimamizi au wanachama kadhaa wa timu.
 
 
-
-Katika somo hili, tutajifunza jinsi ya kuunda na kutumia Wallet ya aina nyingi ya asili iliyo na **Sparrow Wallet**. Ikiwa ungependa kuunda kwingineko iliyobinafsishwa ya saini nyingi zilizo na vifunga saa, ninapendekeza kutumia Liana badala yake:
-
+Katika mafunzo haya, tutajifunza jinsi ya kuunda na kutumia pochi ya kawaida yenye saini nyingi kwa kutumia **Sparrow Wallet**. Ikiwa ungependa kuunda pochi maalum yenye saini nyingi na timelocks, ninapendekeza utumie Liana badala yake:
 
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-## Masharti
+## Mahitaji ya awali
 
 
-
-Kwa mafunzo haya, nitakuonyesha jinsi ya kutengeneza Multisig kwa [Programu ya usimamizi wa jalada la Sparrow Wallet](https://sparrowwallet.com/download/). Ikiwa bado haujasakinisha programu hii, tafadhali fanya hivyo sasa. Ikiwa unahitaji usaidizi, pia tunayo mafunzo ya kina kuhusu kusanidi Sparrow Wallet :
-
+Kwa mafunzo haya, nitakuonyesha jinsi ya kutengeneza Multisig kwa kutumia [programu ya usimamizi wa pochi ya Sparrow Wallet](https://sparrowwallet.com/download/). Ikiwa bado hujasakinisha programu hii, tafadhali fanya hivyo sasa. Ikiwa unahitaji msaada, pia tuna mafunzo ya kina kuhusu kusanidi Sparrow Wallet:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-Ili kusanidi Wallet yenye saini nyingi, utahitaji Wallet tofauti za maunzi. Kwa Multisig 2-de-3, kwa mfano, unaweza kutumia :
+Ili kuweka pochi yenye saini nyingi, utahitaji mikoba tofauti ya maunzi. Kwa Multisig 2 kati ya 3, kwa mfano, unaweza kutumia:
 
 
-
-
-- Mfano wa Trezor One;
+- Trezor Model One;
 - Ledger Flex;
-- Coldcard MK3.
+- Passport Core.
+
+
+![Picha](assets/fr/03.webp)
+
+
+Ni wazo zuri kutumia chapa tofauti za Hardware Wallet katika usanidi wako wa Multisig. Hii huhakikisha kwamba ikiwa modeli fulani inakumbwa na tatizo kubwa, haitaathiri usalama wa jumla wa Multisig yako. Zaidi ya hayo, hukuruhusu kunufaika na faida maalum za kila kifaa. Kwa mfano, katika usanidi wangu:
 
 
 
-![Image](assets/fr/03.webp)
+- Trezor Model One ni open-source kabisa, jambo linalowezesha kuthibitisha uzalishaji wa seed. Hata hivyo, kwa kuwa haina Secure Element, bado iko hatarini kwa mashambulizi ya kimwili;
 
 
 
-Ni wazo nzuri kutumia aina tofauti za Hardware Wallet katika usanidi wako wa Multisig. Hii inahakikisha kwamba ikiwa muundo mahususi utakumbana na tatizo kubwa, halitaathiri usalama wa jumla wa Multisig yako. Zaidi ya hayo, hukuruhusu kufaidika na faida mahususi za kila kifaa. Kwa mfano, katika usanidi wangu:
+- Ledger Flex, kwa upande mwingine, inanufaika na firmware miliki isiyoweza kuthibitishwa, lakini inajumuisha Secure Element inayotoa ulinzi bora wa kimwili;
 
 
 
+- Passport Core inaunganisha firmware iliyo open-source kikamilifu, Secure Element, na mabadilishano ya misimbo ya QR yaliyo air-gapped. Ni mtiaji saini huru wa tatu anayeweza kuthibitisha anwani na kutia saini PSBTs bila muunganisho wa data wa USB.
 
 
-- Trezor Model One ni chanzo wazi kabisa, ambayo inafanya uwezekano wa kuthibitisha kizazi cha seed. Hata hivyo, kwa kuwa haijawa na Kipengele Salama, inabakia kuwa katika hatari ya mashambulizi ya kimwili;
-
-
-
-
-
-- Ledger Flex, kwa upande mwingine, inafaidika na firmware ya umiliki isiyoweza kuthibitishwa, lakini inajumuisha Kipengele Salama ambacho hutoa ulinzi bora wa kimwili;
-
-
-
-
-
-- Coldcard ina Kipengele Salama na msimbo wake unaweza kutafutwa. Ni chaguo la kuvutia kwa usanidi wetu, kwani hutoa vipengele vya uthibitishaji ambavyo havipatikani kwenye miundo mingine.
-
-
-
-Kabla ya kusanidi Multisig Wallet yako, hakikisha kwamba kila Hardware Wallet imesanidiwa ipasavyo (kizalishaji cha Mnemonic na kuokoa, ufafanuzi wa PIN). Kwa maagizo ya kina, unaweza kushauriana na mafunzo yetu kwa kila Hardware Wallet, kwa mfano:
-
+Kabla ya kusanidi pochi yako ya Multisig, hakikisha kwamba kila Hardware Wallet imesanidiwa ipasavyo (uzalishaji na uhifadhi wa mnemonic, ufafanuzi wa PIN). Kwa maagizo ya kina, unaweza kushauriana na mafunzo yetu kwa kila Hardware Wallet, kwa mfano:
 
 
 https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-Kama tutakavyoona baadaye katika somo hili, inawezekana pia kujumuisha kwenye usanidi wako wa multisig kipengele ambacho hakihusishwi na hardware wallet, lakini ambacho funguo zake za faragha zimehifadhiwa kwenye kompyuta yako. Njia hii bila shaka si salama kama matumizi ya pekee ya hardware wallet, lakini inaweza kuwa na manufaa katika hali fulani. Kwa mfano, kwa multisig 2-of-3, unaweza kuchagua hardware Wallet mbili za vifaa na software wallet moja.
+Kama tutakavyoona baadaye katika mafunzo haya, inawezekana pia kujumuisha katika usanidi wako wa Multisig kipengele ambacho hakihusiani na Hardware Wallet, lakini funguo zake za faragha zimehifadhiwa kwenye PC yako. Njia hii ni dhahiri si salama kama kutumia hardware wallets pekee, lakini inaweza kuwa muhimu katika hali fulani. Kwa mfano, kwa Multisig 2 kati ya 3, unaweza kuchagua hardware wallets mbili na Software Wallet moja.
 
+> ⚠️ **Taarifa ya usalama ya Coldcard MK3:** usiunde seed mpya kwenye MK3 inayotumia firmware ya kabla ya 4.2.0. Seeds zilizozalishwa kwenye firmware ya awali lazima zibadilishwe na fedha zihamishwe. Kwa hivyo mafunzo haya hutumia Passport Core kama mtiaji saini wa marejeo aliye air-gapped.
 
 
-## Kuunda kwingineko ya Multisig
+## Kuunda pochi ya Multisig
 
 
+Fungua Sparrow Wallet, bofya kichupo cha "*File*", kisha chagua "*New Wallet*".
 
-Fungua Sparrow Wallet, bofya kwenye kichupo cha "*Faili*", kisha uchague "*Mpya Wallet*".
 
+![Picha](assets/fr/04.webp)
 
 
-![Image](assets/fr/04.webp)
+Ipe pochi yako yenye saini nyingi jina, kisha bofya "*Create Wallet*" ili kuthibitisha.
 
 
+![Picha](assets/fr/05.webp)
 
-Peana jina kwenye jalada lako la sahihi nyingi, kisha ubofye "*Unda Wallet*" ili kuthibitisha.
 
+Katika menyu kunjuzi ya "*Policy Type*", chagua chaguo la "*Multi Signature*".
 
 
-![Image](assets/fr/05.webp)
+![Picha](assets/fr/06.webp)
 
 
+Katika kona ya juu kulia, sasa unaweza kufafanua jumla ya idadi ya funguo katika Multisig yako, pamoja na idadi ya watiaji saini pamoja wanaohitajika kuidhinisha matumizi. Katika mfano wangu, huu ni mpango wa 2 kati ya 3.
 
-Katika menyu kunjuzi ya "*Aina ya Sera*", chagua chaguo la "*Sahihi nyingi*".
 
+![Picha](assets/fr/07.webp)
 
 
-![Image](assets/fr/06.webp)
+Chini ya dirisha, Sparrow Wallet inaonyesha "*Keystore*" tatu. Kila moja inawakilisha seti ya funguo. Hapa, ninatumia hardware wallets tatu, kwa hivyo kila "*Keystore*" inalingana na mojawapo. Sasa tutazisanidi.
 
 
+Ninaanza na Passport Core. Katika kichupo cha "*Keystore 1*", ninachagua chaguo la "*Airgapped Hardware Wallet*".
 
-Katika kona ya juu kulia, sasa unaweza kufafanua jumla ya idadi ya funguo katika Multisig yako, pamoja na idadi ya watia saini wenza wanaohitajika ili kuidhinisha gharama. Katika mfano wangu, hii ni mpango wa 2-ya-3.
 
+![Picha](assets/fr/08.webp)
 
 
-![Image](assets/fr/07.webp)
+Kwenye Passport, fungua akaunti unayotaka kutumia, kisha chagua "*Connect Wallet*" > "*Sparrow*" > "*Connect as Multisig*". Passport inaonyesha msimbo wa QR unaohuishwa ulio na taarifa za ufunguo wake wa umma.
 
+Katika Sparrow, chagua "*Scan...*" karibu na "*Passport*" na uchanganue msimbo huo wa QR unaohuishwa kwa webcam ya kompyuta yako. Linganisha alama ya kidole ya ufunguo mkuu inayoonyeshwa na Sparrow na ile inayoonyeshwa na Passport, kisha leta keystore.
 
+xpub ya Passport yako sasa imeletwa. Rudia utaratibu unaofaa kwa Ledger Flex na Trezor Model One.
 
-Chini ya dirisha, Sparrow Wallet inaonyesha tatu "*Keystore*". Kila moja inawakilisha seti ya funguo. Hapa, ninatumia portfolios tatu za maunzi, kwa hivyo kila "*Keystore*" inalingana na mojawapo. Sasa tutazisanidi.
 
+Kwa Ledger Flex, ninachagua "*Keystore 2*", kisha ninabofya "*Connected Hardware Wallet*". Hakikisha Ledger imeunganishwa kwenye kompyuta, imefunguliwa, na kwamba programu ya Bitcoin imefunguliwa.
 
 
-Ninaanza na Coldcard. Katika kichupo cha "*Keystore 1*", ninachagua chaguo la "* Airgapped Hardware Wallet*".
-
-
-
-![Image](assets/fr/08.webp)
-
-
-
-Kwenye Coldcard, mara kifaa kinapofunguliwa, nenda kwenye menyu ya "*Mipangilio*", kisha kwenye "*Multisig Wallet*".
-
-
-
-![Image](assets/fr/09.webp)
-
-
-
-Menyu hii hukuruhusu kudhibiti jalada la Multisig ambalo Coldcard inashiriki. Ninataka kuunda mpya, kwa hivyo ninachagua "*Hamisha XPUB*".
-
-
-
-![Image](assets/fr/10.webp)
-
-
-
-Kwa uga wa "*Nambari ya Akaunti*", ikiwa unasimamia akaunti moja tu, unaweza kuiacha tupu na kuithibitisha moja kwa moja kwa kubofya kitufe cha uthibitishaji.
-
-
-
-![Image](assets/fr/11.webp)
-
-
-
-Kisha Coldcard itakuwa generate faili iliyo na xpub yako, iliyohifadhiwa kwenye kadi ya Micro SD.
-
-
-
-![Image](assets/fr/12.webp)
-
-
-
-Ingiza Micro SD hii kwenye kompyuta yako. Katika Sparrow Wallet, bofya kitufe cha "*Leta Faili...*" karibu na "*Coldcard Multisig*", kisha uchague faili iliyoundwa na Coldcard kwenye kadi.
-
-
-
-![Image](assets/fr/13.webp)
-
-
-
-Xpub yako imeingizwa kwa ufanisi. Sasa tutarudia utaratibu na pochi zingine mbili za vifaa.
-
-
-
-![Image](assets/fr/14.webp)
-
-
-
-Kwa Ledger Flex, ninachagua "* Keystore 2 *", kisha bonyeza "* Imeunganishwa Hardware Wallet *". Hakikisha Ledger imeunganishwa kwenye kompyuta, imefunguliwa, na kwamba programu ya Bitcoin imefunguliwa.
-
-
-
-![Image](assets/fr/15.webp)
-
+![Picha](assets/fr/15.webp)
 
 
 Kisha bofya kitufe cha "*Scan...*".
 
 
-
-![Image](assets/fr/16.webp)
-
+![Picha](assets/fr/16.webp)
 
 
-Karibu na jina la jalada lako la maunzi, bofya "*Leta Duka la Vitufe*".
+Karibu na jina la hardware wallet yako, bofya "*Import Keystore*".
 
 
-
-![Image](assets/fr/17.webp)
-
+![Picha](assets/fr/17.webp)
 
 
-Mtia saini wa pili sasa amesajiliwa kwa usahihi katika Sparrow Wallet.
+Mtiaji saini wa pili sasa amesajiliwa ipasavyo katika Sparrow Wallet.
 
 
-
-![Image](assets/fr/18.webp)
-
+![Picha](assets/fr/18.webp)
 
 
-Ninarudia utaratibu sawa na Trezor One ili kukamilisha usanidi wa Multisig.
+Ninarudia utaratibu huo huo na Trezor One ili kukamilisha usanidi wa Multisig.
 
 
-
-![Image](assets/fr/19.webp)
-
+![Picha](assets/fr/19.webp)
 
 
-Katika usanidi wangu hatuzingatii kesi hii, lakini ikiwa unataka kujumuisha saini kupitia Software Wallet katika Sparrow (Hot Wallet) ndani ya Multisig yako, bofya kwa urahisi kitufe cha "*Mpya au Iliyoingizwa Software Wallet*".
+Katika usanidi wangu hatuhusishi hali hii, lakini ikiwa unataka kujumuisha saini kupitia software wallet katika Sparrow (hot wallet) ndani ya Multisig yako, bofya tu kitufe cha "*New or Imported Software Wallet*".
 
 
-
-Kwa kuwa sasa vifaa vyako vyote vilivyo na sahihi vimeingizwa kwenye Sparrow Wallet, unaweza kukamilisha uundaji wa Multisig kwa kubofya "*Tumia*".
-
+Sasa kwa kuwa vifaa vyako vyote vya saini vimeletwa katika Sparrow Wallet, unaweza kukamilisha uundaji wa Multisig kwa kubofya "*Apply*".
 
 
-![Image](assets/fr/20.webp)
+![Picha](assets/fr/20.webp)
 
 
-
-Chagua nenosiri dhabiti ili kupata ufikiaji wa Sparrow yako Wallet Wallet. Nenosiri hili hulinda funguo zako za umma, anwani, lebo na historia ya muamala dhidi ya ufikiaji ambao haujaidhinishwa.
-
+Chagua nenosiri dhabiti ili kulinda ufikiaji wa pochi yako ya Sparrow Wallet. Nenosiri hili hulinda funguo zako za umma, anwani, lebo na historia ya miamala dhidi ya ufikiaji usioidhinishwa.
 
 
-Kumbuka kuhifadhi nenosiri hili mahali salama, kama vile kidhibiti nenosiri, ili kuepuka kulipoteza.
+Kumbuka kuhifadhi nenosiri hili mahali salama, kama vile kidhibiti cha nenosiri, ili kuepuka kulipoteza.
 
 
-
-![Image](assets/fr/21.webp)
-
+![Picha](assets/fr/21.webp)
 
 
-## Inahifadhi nakala ya Multisig
+## Kuhifadhi nakala ya akiba ya pochi ya Multisig
 
 
-
-Sasa tutahifadhi *Kifafanuzi cha Hati ya Kutoka* kwenye Coldcard (hii inatumika tu kwa watumiaji walio na Coldcard katika Multisig yao), na zaidi ya yote, tutahifadhi nakala yake kwenye chombo huru.
-
+Sasa tutahifadhi *Output Script Descriptor* kwenye kifaa huru na kuweka nakala kadhaa zake.
 
 
-*Descriptor* ina xpub zote katika kwingineko yako ya Multisig, pamoja na njia za utokezi zinazotumiwa kwa funguo za generate. Kumbuka tulichoona katika Sehemu ya 1: ili kurejesha kwingineko ya Multisig, lazima uwe na **zote** vifungu vya maneno ya Mnemonic, au nambari ya chini tu inayohitajika ili kufikia kiwango cha juu cha sahihi. Walakini, katika kesi ya mwisho, ni muhimu pia kuwa na **xpubs** za watia saini waliokosekana. *Descriptor* ina xpub zako zote za Multisig.
+*Descriptor* ina xpubs zote katika pochi yako ya Multisig, pamoja na njia za derivation zinazotumiwa kuzalisha funguo. Kumbuka tulichoona katika Sehemu ya 1: ili kurejesha pochi ya Multisig, lazima uwe na vifungu vya mnemonic **vyote**, au idadi ya chini tu inayohitajika kufikia kizingiti cha saini. Hata hivyo, katika hali hii ya pili, ni muhimu pia kuwa na **xpubs** za watiaji saini wanaokosekana. *Descriptor* ina xpubs zote za Multisig yako.
 
 
-
-Ikiwa hii si wazi, kumbuka hili tu: ili kurejesha Multisig, unahitaji idadi ya chini ya misemo ya Mnemonic kwa kila Hardware Wallet inayotumiwa, kulingana na kizingiti (kwa upande wangu: misemo 2), pamoja na *Descriptor*.
-
+Ikiwa hili haliko wazi, kumbuka tu hili: ili kurejesha Multisig, unahitaji idadi ya chini ya vifungu vya mnemonic kwa kila Hardware Wallet iliyotumiwa, kulingana na kizingiti (kwa upande wangu: vifungu 2), pamoja na *Descriptor*.
 
 
-*Descriptor* hii haina funguo za faragha, za umma pekee. Hii ina maana kwamba haitoi upatikanaji wa fedha. Kwa hivyo sio muhimu kama misemo ya Mnemonic, ambayo hutoa ufikiaji kamili kwa bitcoins zako. Hatari iliyo na *Descriptor* inahusiana pekee na usiri: katika tukio la maelewano, mtu mwingine anaweza kuchunguza miamala yako yote, lakini hakuweza kutumia pesa zako.
+*Descriptor* hii haina funguo za faragha, ina za umma tu. Hii inamaanisha kwamba haitoi ufikiaji wa fedha. Kwa hivyo si muhimu sana kama vifungu vya mnemonic, ambavyo hutoa ufikiaji kamili wa bitcoins zako. Hatari ya *Descriptor* inahusiana tu na usiri: ikiwa itafichuliwa, mtu wa tatu anaweza kuona miamala yako yote, lakini hawezi kutumia fedha zako.
 
 
-
-Ninapendekeza kwa dhati uunde nakala kadhaa za *Descriptor* hii, na uziweke pamoja na kila kifaa cha kutia sahihi kwenye Multisig yako. Kwa mfano, katika kesi yangu, ninachapisha *Descriptor* kwenye karatasi na kuweka nakala moja kwa Coldcard, nyingine na Trezor, na moja kwa Ledger. Pia ninahifadhi *Descriptor* hii kama faili ya PDF kwenye vijiti vitatu vya USB, kila moja ikihifadhiwa na mojawapo ya jalada la maunzi. Kwa njia hii, ninaongeza uwezekano wangu wa kutowahi kupoteza *Descriptor* hii, na nina uhakika wa kuwa na nakala mbili (moja halisi na moja ya dijiti) kwa kila kifaa.
-
+Ninakushauri sana uunde nakala kadhaa za *Descriptor* hii, na uziweke pamoja na kila kifaa cha kutia saini kwenye Multisig yako. Kwa mfano, katika hali yangu, ninachapisha *Descriptor* kwenye karatasi na kuweka nakala moja pamoja na Passport, nyingine pamoja na Trezor, na moja pamoja na Ledger. Pia ninahifadhi *Descriptor* hii kama faili ya PDF kwenye vijiti vitatu vya USB, kila kimoja kikihifadhiwa pamoja na mojawapo ya hardware wallets. Kwa njia hii, ninaongeza uwezekano wangu wa kutowahi kupoteza *Descriptor* hii, na nina uhakika wa kuwa na nakala mbili (moja ya kimwili na moja ya kidijitali) pamoja na kila kifaa.
 
 
-Mara tu jalada lako la Multisig litakapoundwa, Sparrow hukupa kiotomatiki *Descriptor* hii. Bofya kitufe cha "*Hifadhi PDF...*" ili kuihifadhi kama maandishi na kama msimbo wa QR.
+Mara tu pochi yako ya Multisig imeundwa, Sparrow hukupa *Descriptor* hii kiotomatiki. Bofya kitufe cha "*Save PDF...*" ili kuihifadhi kama maandishi na kama msimbo wa QR.
 
 
-
-![Image](assets/fr/22.webp)
-
+![Picha](assets/fr/22.webp)
 
 
 Kisha unaweza kuchapisha PDF hii na kuinakili kwenye vijiti vyako vya USB.
 
 
-
-![Image](assets/fr/23.webp)
-
+![Picha](assets/fr/23.webp)
 
 
-Pia tutasajili *Descriptor* hii kwenye Coldcard (ikiwa utatumia moja katika usanidi wako). Hii itaruhusu Coldcard kuthibitisha kwamba kila shughuli iliyotiwa saini baadaye inalingana na Wallet ya awali: xpub sahihi, umbizo sahihi la Address, njia sahihi ya utokaji... Bila *Descriptor* hii iliyoingizwa, Coldcard haiwezi kuthibitisha kuwa anwani za Exchange hazijatekwa nyara au kwamba PSBT haijachezewa.
+Passport hutumia usanidi wa multisig ulioletwa na Sparrow ili kuonyesha na kuthibitisha taarifa muhimu za ufunguo wakati wa mtiririko wa kuoanisha QR na kutia saini. Weka *Descriptor* kwa kujitegemea: bado ni muhimu kurejesha pochi ikiwa mtiaji saini mmoja hapatikani.
 
 
-
-Hii ndiyo inafanya Coldcard kuvutia sana katika Multisig: inatoa hundi ya ziada dhidi ya mashambulizi fulani ya kisasa, ambayo wallet nyingine za vifaa haziruhusu (mradi, bila shaka, kwamba unaitumia kusaini).
-
-
-
-Katika Sparrow, fikia menyu ya "*Mipangilio*", kisha ubofye "*Hamisha....*".
-
-
-
-![Image](assets/fr/24.webp)
-
-
-
-Karibu na chaguo la "*Coldcard Multisig*", bofya "*Hamisha Faili...*" na uhifadhi faili ya maandishi kwenye kadi ya Micro SD.
-
-
-
-![Image](assets/fr/25.webp)
-
-
-
-Kisha ingiza kadi kwenye Coldcard. Nenda kwenye menyu ya "*Mipangilio*", kisha "*Multisig Wallet*", na uchague "*Leta kutoka SD*".
-
-
-
-![Image](assets/fr/26.webp)
-
-
-
-Chagua faili inayofaa na uthibitishe uingizaji.
-
-
-
-![Image](assets/fr/27.webp)
-
-
-
-Bofya kwenye jina la Multisig yako mpya iliyoingizwa.
-
-
-
-![Image](assets/fr/28.webp)
-
-
-
-Angalia vigezo vya usanidi wa Multisig, kisha uthibitishe usajili.
-
-
-
-![Image](assets/fr/29.webp)
-
-
-
-Multisig yako sasa imehifadhiwa kwa njia sahihi katika Coldcard yako. Ikiwa una Coldcards kadhaa katika Multisig sawa, rudia utaratibu huu kwa kila moja.
-
-
-
-Kando na kuhifadhi *Descriptor*, usisahau kuzingatia mahususi kuhifadhi vifungu vya maneno vya Mnemonic kwa kila kifaa chako kilicho sahihi. Iwapo ndio kwanza unaanza, ninapendekeza sana usome mafunzo haya mengine ili kujifunza jinsi ya kuyahifadhi na kuyadhibiti kwa usahihi:
-
+Pamoja na kuhifadhi *Descriptor*, usisahau kuzingatia hasa kuhifadhi vifungu vya mnemonic kwa kila kifaa chako cha saini. Ikiwa ndio unaanza, ninapendekeza sana ushauriane na mafunzo haya mengine ili kujifunza jinsi ya kuvihifadhi na kuvisimamia ipasavyo:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Kabla ya kupokea bitcoins zako za kwanza kwenye multisig yako, nakushauri sana kufanya jaribio tupu la urejeshaji. Andika maelezo fulani ya marejeleo, kama vile anwani ya kwanza ya kupokea, kisha weka upya pochi zako za vifaa huku wallet ikiwa bado tupu. Baadaye, jaribu kurejesha multisig wallet yako kwenye pochi za vifaa ukitumia nakala zako za karatasi za maneno ya mnemonic, kisha kwenye Sparrow ukitumia descriptor. Hakikisha kuwa anwani ya kwanza iliyotolewa baada ya urejeshaji inalingana na uliyoandika hapo awali. Ikiwa inalingana, unaweza kuwa na uhakika kwamba nakala zako za karatasi ni za kuaminikac.
+Kabla ya kupokea bitcoins zako za kwanza kwenye Multisig yako, **ninakushauri sana ufanye jaribio tupu la urejeshaji**. Andika taarifa fulani za marejeo, kama vile anwani ya kwanza ya kupokea, kisha weka upya hardware wallets zako wakati pochi bado ni tupu. Kisha, jaribu kurejesha pochi yako ya Multisig kwenye Hardware Wallets kwa kutumia nakala zako za karatasi za vifungu vya mnemonic, kisha kwenye Sparrow kwa kutumia *Descriptor*. Hakikisha anwani ya kwanza inayozalishwa baada ya urejeshaji inalingana na ile uliyoandika awali. Ikiwa inalingana, unaweza kuwa na uhakika kwamba nakala zako za karatasi zinaaminika.
 
 
-
-Ili kupata maelezo zaidi kuhusu jinsi ya kufanya jaribio la urejeshi, ninapendekeza upate mafunzo haya mengine:
-
+Ili kujifunza zaidi kuhusu jinsi ya kufanya jaribio la urejeshaji, ninapendekeza ushauriane na mafunzo haya mengine:
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Pokea bitcoins kwenye Multisig yako
+## Kupokea bitcoins kwenye Multisig yako
 
 
+Pochi yako sasa iko tayari kupokea bitcoins. Katika Sparrow, bofya kichupo cha "*Receive*".
 
-Wallet yako sasa iko tayari kupokea bitcoins. Katika Sparrow, bofya kwenye kichupo cha "*Pokea*".
 
+![Picha](assets/fr/30.webp)
 
 
-![Image](assets/fr/30.webp)
+Kabla ya kutumia anwani iliyozalishwa na Sparrow Wallet, chukua muda kuiangalia moja kwa moja kwenye skrini ya hardware wallets zako. Hii itahakikisha kwamba anwani haijabadilishwa, na kwamba vifaa vyako vinashikilia funguo za faragha zinazohitajika kutumia fedha zinazohusiana nayo. Hii hukusaidia kujilinda dhidi ya aina kadhaa za mashambulizi.
 
 
+Ili kufanya hivyo, bofya "*Display Address*" ili kuonyesha anwani kwenye Trezor au Ledger yako, inapounganishwa kwa kebo.
 
-Kabla ya kutumia Address inayozalishwa na Sparrow Wallet, chukua muda kukiangalia moja kwa moja kwenye skrini ya pochi zako za maunzi. Hii itahakikisha kuwa Address haijabadilishwa, na kwamba vifaa vyako vina funguo za faragha zinazohitajika ili kutumia pesa zinazohusiana. Hii husaidia kukulinda dhidi ya idadi ya vekta za mashambulizi.
 
+![Picha](assets/fr/31.webp)
 
 
-Ili kufanya hivyo, bofya "*Onyesha Address*" ili kuonyesha Address kwenye Trezor au Ledger yako, wakati imeunganishwa kwa kebo.
+Ukiwa na Passport, chagua akaunti ya multisig na uchague "*Verify Address*". Changanua msimbo wa QR wa anwani ya kupokea inayoonyeshwa na Sparrow. Passport huthibitisha kwenye skrini yake kama anwani hiyo ni ya pochi ya multisig.
 
 
+Hakikisha anwani inayoonyeshwa kwenye kila hardware wallet inalingana kabisa na ile iliyo katika Sparrow Wallet. Inashauriwa kufanya hili kabla tu ya kushiriki anwani na mlipaji, ili uwe na uhakika wa uadilifu wake.
 
-![Image](assets/fr/31.webp)
 
+Kisha unaweza kuipa anwani hii "*Label*", ili kuonyesha asili ya bitcoins zilizopokelewa. Hii ni njia nzuri ya kupanga usimamizi wa UTXOs zako.
 
 
-Ukiwa na Coldcard, uthibitishaji huu unaweza kutekelezwa bila mwingiliano wowote na Sparrow. Fungua menyu ya "*Address Explorer*", kisha uchague Multisig yako chini kabisa.
+![Picha](assets/fr/34.webp)
 
 
+Mara hii imethibitishwa, unaweza kutumia anwani kupokea bitcoins.
 
-![Image](assets/fr/32.webp)
 
+![Picha](assets/fr/35.webp)
 
 
-Kisha utaona anwani za mapokezi zinazozalishwa na Multisig.
+## Kutuma bitcoins kwa kutumia Multisig yako
 
 
+Sasa kwa kuwa umepokea Satss zako za kwanza kwenye pochi yako ya Multisig, unaweza pia kuzitumia! Katika Sparrow, nenda kwenye kichupo cha "*Send*" ili kuunda muamala mpya.
 
-![Image](assets/fr/33.webp)
 
+![Picha](assets/fr/36.webp)
 
 
-Hakikisha kuwa Address inayoonyeshwa kwenye kila Hardware Wallet inalingana kabisa na ile iliyo kwenye Sparrow Wallet. Inashauriwa kufanya hivi kabla tu ya kushiriki Address na mlipaji, ili kuwa na uhakika wa uadilifu wake.
+Ikiwa unataka kutumia *Coin Control*, yaani kuchagua mwenyewe UTXOs unazotaka kutumia, nenda kwenye kichupo cha "*UTXOs*". Chagua UTXOs unazotaka kutumia, kisha bofya "*Send Selected*". Utaelekezwa kiotomatiki kwenye kichupo cha "*Send*", huku UTXOs zikiwa tayari zimejazwa.
 
 
+![Picha](assets/fr/37.webp)
 
-Kisha unaweza kukabidhi "*Lebo*" kwa Address hii, ili kuonyesha asili ya bitcoins zilizopokelewa. Hii ni njia nzuri ya kupanga usimamizi wa UTXO zako.
 
+Ingiza anwani ya marudio. Anwani nyingi zinaweza kuongezwa kwa kubofya "*+ Add*".
 
 
-![Image](assets/fr/34.webp)
+![Picha](assets/fr/38.webp)
 
 
+Ongeza "*Label*" ili kuelezea kusudi la matumizi haya, ili iwe rahisi kufuatilia miamala yako.
 
-Mara hii imethibitishwa, unaweza kutumia Address kupokea bitcoins.
 
+![Picha](assets/fr/39.webp)
 
 
-![Image](assets/fr/35.webp)
+Ingiza kiasi kitakachotumwa kwa anwani iliyochaguliwa.
 
 
+![Picha](assets/fr/40.webp)
 
-## Inatuma bitcoins na Multisig yako
 
+Rekebisha kiwango cha ada kulingana na hali za sasa za mtandao. Kwa mfano, tazama [Mempool.space](https://Mempool.space/) ili kuchagua kiwango cha ada kinachofaa.
 
 
-Kwa kuwa sasa umepokea Satss yako ya kwanza kwenye Multisig Wallet yako, unaweza kuzitumia pia! Katika Sparrow, nenda kwenye kichupo cha "*Tuma*" ili kuunda muamala mpya.
+Baada ya kuangalia vigezo vyote vya muamala, bofya "*Create Transaction*".
 
 
+![Picha](assets/fr/41.webp)
 
-![Image](assets/fr/36.webp)
 
+Ikiwa umeridhika na kila kitu, bofya "*Finalize Transaction for Signing*".
 
 
-Ikiwa ungependa kutumia *Udhibiti wa Sarafu*, yaani, chagua mwenyewe UTXO unazotaka kutumia, nenda kwenye kichupo cha "*UTXOs*". Chagua UTXO unazotaka kutumia, kisha ubofye "*Tuma Zilizochaguliwa*". Utaelekezwa upya kiotomatiki kwenye kichupo cha "*Tuma*", UTXO zikiwa tayari zimejazwa awali.
+![Picha](assets/fr/42.webp)
 
 
+Chini ya skrini, utaona kwamba Sparrow inasubiri saini 2. Hii ni kawaida: pochi inayotumiwa hapa ni Multisig 2 kati ya 3.
 
-![Image](assets/fr/37.webp)
 
+![Picha](assets/fr/43.webp)
 
 
-Ingiza unakoenda Address. Anwani nyingi zinaweza kuongezwa kwa kubofya **"+ Ongeza"**.
+Ninaanza kutia saini kwa Passport yangu. Katika Sparrow, bofya "*Show QR*" ili kuonyesha PSBT (*Partially Signed Bitcoin Transaction*) kama misimbo ya QR iliyohuishwa. Kwenye Passport, chagua akaunti ya multisig na uchague "*Sign with QR Code*", kisha uchanganue msimbo wa QR unaoonyeshwa na Sparrow.
 
 
+Kwenye skrini ya Hardware Wallet yako, angalia kwa makini vigezo vya muamala: anwani ya mpokeaji, kiasi kilichotumwa, na ada. Mara muamala umethibitishwa, thibitisha ili kuendelea na saini.
 
-![Image](assets/fr/38.webp)
 
+Baada ya kuidhinisha muamala, Passport inaonyesha PSBT iliyotiwa saini kama misimbo ya QR iliyohuishwa. Katika Sparrow, bofya "*Scan QR*" na uchanganue misimbo hiyo kwa webcam yako. Saini ya Passport kisha inaongezwa. Sasa ninatumia Ledger kwa saini ya pili inayohitajika: ninaiunganisha na kuifungua, kisha ninabofya "*Sign*" katika Sparrow.
 
 
-Ongeza "*Lebo*" ili kuelezea madhumuni ya gharama hii, ili iwe rahisi kufuatilia malipo yako.
+![Picha](assets/fr/48.webp)
 
 
+Bofya "*Sign*" karibu na jina la Hardware Wallet yako.
 
-![Image](assets/fr/39.webp)
 
+![Picha](assets/fr/49.webp)
 
 
-Weka kiasi kitakachotumwa kwa Address iliyochaguliwa.
+Mara ya kwanza unapotumia Ledger yako na Multisig hii, Sparrow itakuomba uthibitishe funguo za umma zilizopanuliwa (xpubs) za watiaji saini pamoja. Kama ilivyo kwa Passport, hatua hii hukuzuia kutia saini kwa upofu baadaye. Ili kuthibitisha taarifa hizi, linganisha xpub inayoonyeshwa kwenye skrini ya Ledger na zile zinazotolewa moja kwa moja na hardware wallets zako nyingine.
 
 
+![Picha](assets/fr/50.webp)
 
-![Image](assets/fr/40.webp)
 
+Angalia anwani ya mpokeaji, kiasi kilichohamishwa na ada ya muamala, kisha tia saini muamala.
 
 
-Rekebisha kiwango cha malipo kulingana na hali ya sasa ya mtandao. Kwa mfano, wasiliana na [Mempool.space](https://Mempool.space/) ili kuchagua kiwango kinachofaa cha malipo.
+![Picha](assets/fr/51.webp)
 
 
+Bonyeza skrini ili kutia saini.
 
-Baada ya kuangalia vigezo vyote vya muamala, bofya "*Unda Muamala*".
 
+![Picha](assets/fr/52.webp)
 
 
-![Image](assets/fr/41.webp)
+Sparrow sasa ina saini mbili zinazohitajika kutoa fedha kutoka kwenye pochi ya Multisig. Angalia muamala mara ya mwisho, na ikiwa kila kitu kiko sawa, bofya "*Broadcast Transaction*" ili kuutangaza kwenye mtandao.
 
 
+![Picha](assets/fr/53.webp)
 
-Iwapo umefurahishwa na kila kitu, bofya "*Kamilisha Muamala kwa Kutia Sahihi*".
 
+Utapata muamala huu katika kichupo cha "*Transactions*" cha Sparrow Wallet.
 
 
-![Image](assets/fr/42.webp)
+![Picha](assets/fr/54.webp)
 
 
+Hongera, sasa unajua jinsi ya kusanidi na kutumia pochi yenye saini nyingi kwenye Sparrow. Ikiwa umepata mafunzo haya kuwa na manufaa, ningeshukuru ukiacha kidole gumba cha kijani hapa chini. Tafadhali jisikie huru kushiriki makala hii kwenye mitandao yako ya kijamii. Asante kwa kushiriki!
 
-Katika sehemu ya chini ya skrini, utaona kwamba Sparrow anasubiri saini 2. Hii ni kawaida: Wallet inayotumika hapa ni Multisig 2-de-3.
 
-
-
-![Image](assets/fr/43.webp)
-
-
-
-Ninaanza kusaini na Coldcard yangu. Ili kufanya hivyo, mimi huingiza kadi ya Micro SD kwenye kompyuta, kisha bofya kwenye "* Hifadhi Muamala *".
-
-
-
-![Image](assets/fr/44.webp)
-
-
-
-Kuna njia tatu za kusambaza muamala utakaotiwa saini kwa hardware wallet yako, kisha kuurudisha kwenye Sparrow. Ya kwanza ni kutumia kadi ndogo ya SD, kama tutakavyofanya hapa kwa Coldcard. Ya pili ni kupitia muunganisho wa kebo, ambao tutatumia kwa sahihi ya pili (Ledger na Trezor). Hatimaye, inawezekana kutumia mawasiliano ya msimbo wa QR, kwa vifaa vilivyo na kamera kama vile Coldcard Q, Jade Plus au Passport V2.
-
-
-
-Mara tu PSBT (*Partially Signed Bitcoin Transaction*) imehifadhiwa kwenye Micro SD, ninaiingiza kwenye Coldcard MK3, kisha chagua menyu ya "*Tayari Kusaini*".
-
-
-
-![Image](assets/fr/45.webp)
-
-
-
-Kwenye skrini yako ya Hardware Wallet, angalia kwa uangalifu vigezo vya muamala: Address ya mpokeaji, kiasi kilichotumwa na gharama. Baada ya muamala kuthibitishwa, thibitisha ili kuendelea kutia saini.
-
-
-
-![Image](assets/fr/46.webp)
-
-
-
-Kisha rudisha Micro SD kwenye kompyuta yako, na ubofye kwenye "*Pakia Muamala*" kwenye Sparrow. Chagua PSBT iliyotiwa saini na Coldcard kutoka kwa faili zako.
-
-
-
-![Image](assets/fr/47.webp)
-
-
-
-Unaweza kuona kwamba saini ya Coldcard imeongezwa. Sasa nitatumia kifaa cha pili, katika kesi hii Ledger, kutekeleza saini ya pili inayohitajika. Ninaiunganisha, kuifungua, kisha bonyeza kwenye "*Sign*" kwenye Sparrow.
-
-
-
-![Image](assets/fr/48.webp)
-
-
-
-Bofya kwenye "*Saini*" karibu na jina la Hardware Wallet yako.
-
-
-
-![Image](assets/fr/49.webp)
-
-
-
-Mara ya kwanza unapotumia Ledger yako na multisig hii, Sparrow itakuuliza uthibitishe funguo zilizopanuliwa za umma (xpub) za watia saini wenza. Kama ilivyo kwa Coldcard, hatua hii hukuzuia kusaini bila kujua baadaye. Ili kuthibitisha maelezo haya, linganisha xpub inayoonyeshwa kwenye skrini ya Ledger na zile zinazotolewa moja kwa moja na pochi zako zingine za vifaa.
-
-
-
-![Image](assets/fr/50.webp)
-
-
-
-Angalia Address ya mpokeaji, kiasi kilichohamishwa na ada ya muamala, kisha utie sahihi muamala.
-
-
-
-![Image](assets/fr/51.webp)
-
-
-
-Bonyeza skrini ili kusaini.
-
-
-
-![Image](assets/fr/52.webp)
-
-
-
-Sparrow sasa ina saini mbili zinazohitajika ili kutoa pesa kutoka kwa kwingineko ya Multisig. Angalia muamala mara ya mwisho, na ikiwa kila kitu kitaenda sawa, bofya "*Tangaza Muamala*" ili kuitangaza kwenye mtandao.
-
-
-
-![Image](assets/fr/53.webp)
-
-
-
-Utapata muamala huu kwenye kichupo cha "*Miamala*" cha Sparrow Wallet.
-
-
-
-![Image](assets/fr/54.webp)
-
-
-
-Hongera, sasa unajua jinsi ya kusanidi na kutumia Wallet yenye saini nyingi kwenye Sparrow. Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru ikiwa utaacha kidole gumba cha Green hapa chini. Tafadhali jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante kwa kushiriki!
-
-
-
-Ili kwenda mbali zaidi, ninapendekeza kwamba usome mafunzo haya kuhusu mbinu nyingine ya kuongeza usalama wa Bitcoin Wallet yako, passphrase BIP39 :
-
+Ili kwenda mbali zaidi, ninapendekeza ushauriane na mafunzo haya kuhusu njia nyingine ya kuongeza usalama wa pochi yako ya Bitcoin, passphrase ya BIP39:
 
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

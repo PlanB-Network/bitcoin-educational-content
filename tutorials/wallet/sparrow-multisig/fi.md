@@ -1,51 +1,39 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Luo monen allekirjoituksen salkku Sparrow'ssa
+description: Luo usean allekirjoituksen lompakko Sparrow'ssa
 ---
 ![cover](assets/cover.webp)
 
 
-
-Usean allekirjoituksen Wallet (usein **Multisig**) on Bitcoin Wallet-rakenne, joka vaatii useita kryptografisia allekirjoituksia eri avaimilla menon hyväksymiseksi. Toisin kuin tavanomaisessa (**singlesig**) Wallet:ssä, jossa yksi yksityinen avain riittää UTXO:n avaamiseen, Multisig perustuu **m-of-n**-malliin: Wallet:ään liittyvistä *n* avaimesta *m*:n on ehdottomasti allekirjoitettava jokainen tapahtuma.
-
+Usean allekirjoituksen lompakko (josta käytetään usein nimitystä "*Multisig*") on Bitcoin-lompakon rakenne, joka vaatii useita kryptografisia allekirjoituksia eri avaimilta varojen käytön valtuuttamiseksi. Toisin kuin tavallisessa ("*singlesig*") lompakossa, jossa yksi yksityinen avain riittää UTXO:n lukituksen avaamiseen, Multisig perustuu **m-of-n**-malliin: lompakkoon liitetyistä _n_ avaimesta _m_ avaimen on ehdottomasti allekirjoitettava jokainen transaktio.
 
 
-Tämän mekanismin avulla salkun hallinta voidaan jakaa useiden yksiköiden tai laitteiden kesken. Esimerkiksi 2-of-3-kokoonpanossa luodaan kolme erillistä avainsarjaa, mutta varojen vapauttamiseen tarvitaan vain kaksi. Tämä arkkitehtuuri vähentää huomattavasti avaimen vaarantumiseen tai katoamiseen liittyviä riskejä: varas, jolla on pääsy vain yhteen avaimeen, ei voi tyhjentää Wallet:ta, ja käyttäjä, joka menettää yhden avaimen, pääsee silti käsiksi varoihinsa kahdella muulla avaimella.
-
+Tämän mekanismin avulla lompakon hallinta voidaan jakaa useiden osapuolten tai laitteiden kesken. Esimerkiksi 2-of-3-kokoonpanossa luodaan kolme itsenäistä avainjoukkoa, mutta varojen vapauttamiseen tarvitaan vain kaksi. Tämä arkkitehtuuri pienentää huomattavasti avaimen vaarantumiseen tai katoamiseen liittyviä riskejä: varas, jolla on pääsy vain yhteen avaimeen, ei voi tyhjentää lompakkoa, ja käyttäjä, joka menettää yhden avaimen, pääsee edelleen varoihinsa kahdella jäljellä olevalla.
 
 
 ![Image](assets/fr/01.webp)
 
 
-
-Suurempi turvallisuus merkitsee kuitenkin myös suurempaa monimutkaisuutta. Multisig Wallet:n perustaminen edellyttää useiden Mnemonic-lauseiden (yksi kutakin allekirjoitustekijää kohti) ja laajennettujen julkisten avainten ("*xpub*") varmistamista. Jos käytät Multisig 2-of-3 Wallet:ää, Wallet:n hakeminen edellyttää, että sinulla on joko kaikki kolme Mnemonic-lausetta tai vähintään kaksi näistä kolmesta lausekkeesta. Mutta jos sinulla on vain kaksi kolmesta lausekkeesta, tarvitset myös pääsyn kolmeen *xpubiin*, joita ilman on mahdotonta hakea julkisia avaimia, joita tarvitaan niiden suojaamien bitcoinien käyttämiseen.
-
+Tämä parempi turvallisuus tuo kuitenkin mukanaan enemmän monimutkaisuutta. Multisig-lompakon pystyttäminen edellyttää useiden muistilauseiden (yksi kutakin allekirjoitustekijää kohti) ja laajennettujen julkisten avainten ("*xpub*") turvaamista. Jos käytät 2-of-3-Multisig-lompakkoa, sen palauttamiseen tarvitset joko kaikki kolme muistilausetta tai vähintään kaksi kolmesta lauseesta. Mutta jos sinulla on vain kaksi kolmesta lauseesta, tarvitset lisäksi pääsyn kaikkiin kolmeen *xpub*-avaimeen, joita ilman on mahdotonta palauttaa julkiset avaimet, joita tarvitaan niiden suojaamiin bitcoineihin pääsemiseksi.
 
 
-Yhteenvetona voidaan todeta, että Multisig-salkun palauttamiseksi sinun on :
+Yhteenvetona: Multisig-lompakon palauttamiseksi sinulla on oltava:
 
 
-
-
-- Tai tutustu kaikkiin Mnemonic-lauseisiin, jotka liittyvät kuhunkin allekirjoitustekijään;
-- Joko sinulla on kynnysarvon edellyttämä vähimmäismäärä Mnemonic-lauseita, jotta voit allekirjoittaa, ja sinulla on myös pääsy kaikkien tekijöiden xpubeihin, jotta voit hakea tarvittavat julkiset avaimet.
-
+- Joko pääsy kaikkiin kunkin allekirjoitustekijän muistilauseisiin;
+- Tai kynnyksen edellyttämä vähimmäismäärä muistilauseita allekirjoittamista varten, sekä pääsy kaikkien tekijöiden xpub-avaimiin tarvittavien julkisten avainten palauttamiseksi.
 
 
 ![Image](assets/fr/02.webp)
 
 
-
-Multisig-salkun varmuuskopioiden hallintaa helpottavat *Output Script Descriptors*, jotka kokoavat yhteen kaikki julkiset tiedot, joita tarvitaan rahastojen käyttöön. Tätä toimintoa ei kuitenkaan ole vielä toteutettu kaikissa salkunhallintaohjelmistoissa.
-
+Multisig-lompakon varmuuskopioiden hallintaa helpottavat *Output Script Descriptor* -kuvaajat, jotka kokoavat yhteen kaikki varoihin pääsyyn tarvittavat julkiset tiedot. Tätä toiminnallisuutta ei kuitenkaan ole vielä toteutettu kaikissa lompakonhallintaohjelmistoissa.
 
 
-Multisig soveltuu erityisesti bitcoin-käyttäjille, jotka haluavat parantaa turvallisuutta tai hallinnoida varoja kollektiivisesti: yrityksille, yhdistyksille, perheille tai yksittäisille käyttäjille, joilla on hallussaan merkittävä määrä bitcoineja. Sitä voidaan käyttää hajautettujen hallintojärjestelmien luomiseen, esimerkiksi allekirjoitusvaltuuksien jakamiseen useiden johtajien tai tiimin jäsenten kesken.
+Multisig sopii erityisen hyvin bitcoinereille, jotka etsivät parempaa turvallisuutta tai varojen yhteishallintaa: yrityksille, yhdistyksille, perheille tai yksittäisille käyttäjille, joilla on merkittävä määrä bitcoineja. Sen avulla voi rakentaa hajautettuja hallintomalleja, esimerkiksi jakaa allekirjoitusvaltaa useiden johtajien tai tiimin jäsenten kesken.
 
 
-
-Tässä opetusohjelmassa opimme luomaan ja käyttämään klassista Wallet-monimerkkistä Wallet:tä **Sparrow Wallet**:llä. Jos haluat luoda räätälöidyn monimerkkisen salkun, jossa on aikamerkkejä, suosittelen sen sijaan Liana:n käyttöä:
-
+Tässä oppaassa opettelemme luomaan ja käyttämään klassista usean allekirjoituksen lompakkoa **Sparrow Walletilla**. Jos haluat luoda räätälöidyn usean allekirjoituksen lompakon aikalukoilla, suosittelen sen sijaan Lianaa:
 
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
@@ -53,570 +41,330 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 ## Edellytykset
 
 
-
-Tässä opetusohjelmassa näytän, miten Multisig tehdään [Sparrow Wallet -salkunhallintaohjelmistolla](https://sparrowwallet.com/download/). Jos et ole vielä asentanut tätä ohjelmistoa, tee se nyt. Jos tarvitset apua, meillä on myös yksityiskohtainen ohje Sparrow Wallet -ohjelmiston konfiguroinnista :
-
+Tässä oppaassa näytän sinulle, miten teet Multisigin [Sparrow Wallet -lompakonhallintaohjelmistolla](https://sparrowwallet.com/download/). Jos et ole vielä asentanut tätä ohjelmistoa, tee se nyt. Jos tarvitset apua, meillä on myös yksityiskohtainen opas Sparrow Walletin määrittämiseen:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-Usean allekirjoituksen Wallet:n perustamiseen tarvitset eri laitteistolompakoita. Esimerkiksi Multisig 2-de-3:ssa voit käyttää :
-
-
+Usean allekirjoituksen lompakon pystyttämiseen tarvitset useita eri laitteistolompakoita. Esimerkiksi 2-of-3-Multisigiin voisit käyttää:
 
 
 - Trezor Model One;
 - Ledger Flex;
-- Coldcard MK3.
-
+- Passport Core.
 
 
 ![Image](assets/fr/03.webp)
 
 
-
-Multisig-kokoonpanossa kannattaa käyttää eri Hardware Wallet-merkkisiä laitteita. Näin varmistetaan, että jos tietyssä mallissa ilmenee vakava ongelma, se ei vaikuta Multisig:n kokonaisturvallisuuteen. Lisäksi voit hyödyntää kunkin laitteen erityiset edut. Esimerkiksi minun kokoonpanossani :
-
+Multisig-kokoonpanossa on hyvä käyttää eri valmistajien laitteistolompakoita. Näin varmistat, että jos jossakin tietyssä mallissa ilmenee vakava ongelma, se ei vaaranna Multisigisi kokonaisturvallisuutta. Lisäksi näin hyödyt kunkin laitteen omista vahvuuksista. Esimerkiksi minun kokoonpanossani:
 
 
 
-
-- Trezor Model One on täysin avoimen lähdekoodin malli, mikä mahdollistaa seed-sukupolven tarkistamisen. Koska sitä ei kuitenkaan ole varustettu Secure Elementillä, se on edelleen altis fyysisille hyökkäyksille;
-
+- Trezor Model One on täysin avoimen lähdekoodin laite, mikä tekee seedin luonnin todentamisen mahdolliseksi. Koska siinä ei kuitenkaan ole Secure Element -sirua, se on edelleen altis fyysisille hyökkäyksille;
 
 
 
-
-- Ledger Flex -laitteessa taas on tarkistamaton oma laiteohjelmisto, mutta siinä on Secure Element -järjestelmä, joka tarjoaa erinomaisen fyysisen suojan;
-
+- Ledger Flexissä on puolestaan suljettu, ei-todennettavissa oleva laiteohjelmisto, mutta siihen on integroitu Secure Element, joka tarjoaa erinomaisen fyysisen suojan;
 
 
 
-
-- Coldcard on varustettu Secure Elementillä, ja sen koodi on haettavissa. Se on mielenkiintoinen valinta kokoonpanoomme, sillä se tarjoaa todentamisominaisuuksia, joita muissa malleissa ei ole.
-
+- Passport Core yhdistää täysin avoimen lähdekoodin laiteohjelmiston, Secure Element -sirun ja Air-Gap-tilassa tapahtuvan QR-koodinvaihdon. Se on itsenäinen kolmas allekirjoittaja, joka voi varmistaa osoitteita ja allekirjoittaa PSBT:itä ilman USB-datayhteyttä.
 
 
-Varmista ennen Multisig Wallet:n konfigurointia, että jokainen Hardware Wallet on konfiguroitu oikein (Mnemonic:n luominen ja tallentaminen, PIN-koodin määrittely). Yksityiskohtaiset ohjeet saat kunkin Hardware Wallet:n ohjeista, esimerkiksi :
-
+Ennen kuin määrität Multisig-lompakkosi, varmista, että jokainen laitteistolompakko on oikein konfiguroitu (muistilauseen luonti ja tallennus, PIN-koodin määritys). Yksityiskohtaiset ohjeet löydät kutakin laitteistolompakkoa koskevista oppaistamme, esimerkiksi:
 
 
 https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-Kuten näemme myöhemmin tässä oppaassa, Multisig-konfiguraatioon on mahdollista liittää myös tekijä, joka ei ole yhteydessä Hardware Wallet:een, mutta jonka yksityiset avaimet on tallennettu tietokoneellesi. Tämä menetelmä on selvästi vähemmän turvallinen kuin laitteistolompakoiden yksinomainen käyttö, mutta se voi olla tarkoituksenmukainen tietyissä tapauksissa. Esimerkiksi Multisig 2-de-3 -järjestelmässä voit valita kaksi laitteistolompakkoa ja yhden Software Wallet:n.
+Kuten näemme myöhemmin tässä oppaassa, Multisig-kokoonpanoosi on myös mahdollista sisällyttää tekijä, jota ei ole liitetty laitteistolompakkoon vaan jonka yksityiset avaimet on tallennettu tietokoneellesi. Tämä menetelmä on tietenkin vähemmän turvallinen kuin pelkkien laitteistolompakoiden käyttö, mutta se voi olla perusteltua joissakin tapauksissa. Esimerkiksi 2-of-3-Multisigissa voisit valita kaksi laitteistolompakkoa ja yhden ohjelmistolompakon.
+
+> ⚠️ **Coldcard MK3 -turvallisuusilmoitus:** älä luo uutta seediä MK3:lla, jossa on vanhempi laiteohjelmisto kuin 4.2.0. Vanhemmalla laiteohjelmistolla luodut seedit on vaihdettava ja varat siirrettävä. Siksi tässä oppaassa käytetään Air-Gap-viiteallekirjoittajana Passport Corea.
 
 
-
-## Multisig-salkun luominen
-
+## Multisig-lompakon luominen
 
 
 Avaa Sparrow Wallet, napsauta välilehteä "*File*" ja valitse sitten "*New Wallet*".
 
 
-
 ![Image](assets/fr/04.webp)
 
 
-
-Määritä nimi monialakirjoitussalkullesi ja vahvista se napsauttamalla "*Luo Wallet*".
-
+Anna usean allekirjoituksen lompakollesi nimi ja vahvista napsauttamalla "*Create Wallet*".
 
 
 ![Image](assets/fr/05.webp)
 
 
-
 Valitse pudotusvalikosta "*Policy Type*" vaihtoehto "*Multi Signature*".
-
 
 
 ![Image](assets/fr/06.webp)
 
 
-
-Oikeassa yläkulmassa voit nyt määritellä Multisig:n avainten kokonaismäärän sekä kulujen hyväksymiseen vaadittavien kanssakirjoittajien määrän. Esimerkissäni tämä on 2:sta 3:een -järjestelmä.
-
+Oikeassa yläkulmassa voit nyt määrittää Multisigisi avainten kokonaismäärän sekä sen, montako yhteisallekirjoittajaa varojen käytön valtuuttamiseen tarvitaan. Esimerkissäni kyseessä on 2-of-3-malli.
 
 
 ![Image](assets/fr/07.webp)
 
 
-
-Ikkunan alareunassa Sparrow Wallet näyttää kolme "*Keystore*". Kukin edustaa avainsarjaa. Tässä käytän kolmea laitteistosalkkua, joten jokainen "*Keystore*" vastaa yhtä niistä. Määritämme nyt ne.
-
+Ikkunan alaosassa Sparrow Wallet näyttää kolme "*Keystore*"-kohtaa. Kukin niistä edustaa yhtä avainjoukkoa. Käytän tässä kolmea laitteistolompakkoa, joten kukin "*Keystore*" vastaa yhtä niistä. Määritämme ne nyt.
 
 
-Aloitan Coldcardilla. "*Keystore 1*" -välilehdeltä valitsen vaihtoehdon "*Airgapped Hardware Wallet*".
-
+Aloitan Passport Coresta. Valitsen välilehdessä "*Keystore 1*" vaihtoehdon "*Airgapped Hardware Wallet*".
 
 
 ![Image](assets/fr/08.webp)
 
 
+Avaa Passportissa tili, jota haluat käyttää, ja valitse sitten "*Connect Wallet*" > "*Sparrow*" > "*Connect as Multisig*". Passport näyttää animoidun QR-koodin, joka sisältää sen julkisen avaimen tiedot.
 
-Coldcardissa, kun laitteen lukitus on avattu, menen "*Settings*"-valikkoon ja sitten "*Multisig Wallets*" -valikkoon.
+Valitse Sparrow'ssa "*Scan...*" kohdan "*Passport*" vierestä ja lue tuo animoitu QR-koodi tietokoneesi web-kameralla. Vertaa Sparrow'n näyttämää pääavaimen sormenjälkeä Passportin näyttämään sormenjälkeen ja tuo sitten keystore.
 
-
-
-![Image](assets/fr/09.webp)
-
+Passportin xpub on nyt tuotu. Toista vastaava menettely Ledger Flexille ja Trezor Model Onelle.
 
 
-Tässä valikossa voit hallita Multisig-salkkuja, joihin Coldcard osallistuu. Haluan luoda uuden, joten valitsen "*Export XPUB*".
-
-
-
-![Image](assets/fr/10.webp)
-
-
-
-Jos hallinnoit vain yhtä tiliä, voit jättää kentän "*Tilin numero*" tyhjäksi ja vahvistaa sen suoraan painamalla vahvistuspainiketta.
-
-
-
-![Image](assets/fr/11.webp)
-
-
-
-Tämän jälkeen Coldcard generate tallentaa Micro SD-kortille tiedoston, joka sisältää xpubin.
-
-
-
-![Image](assets/fr/12.webp)
-
-
-
-Aseta tämä Micro SD tietokoneeseen. Napsauta Sparrow Wallet:ssa "*Import File...*"-painiketta "*Coldcard Multisig*" vieressä ja valitse sitten Coldcard-kortilla kortilla luotu tiedosto.
-
-
-
-![Image](assets/fr/13.webp)
-
-
-
-Xpub on onnistuneesti tuotu. Toistamme nyt menettelyn kahdella muulla laitteistolompakolla.
-
-
-
-![Image](assets/fr/14.webp)
-
-
-
-Ledger Flexin osalta valitsen "*Keystore 2*" ja napsautan sitten "*Connected Hardware Wallet*". Varmista, että Ledger on kytketty tietokoneeseen, lukitus on avattu ja että Bitcoin-sovellus on auki.
-
+Ledger Flexin osalta valitsen "*Keystore 2*" ja napsautan sitten "*Connected Hardware Wallet*". Varmista, että Ledger on liitetty tietokoneeseen, sen lukitus on avattu ja Bitcoin-sovellus on auki.
 
 
 ![Image](assets/fr/15.webp)
 
 
-
-Napsauta sitten "*Scan...*"-painiketta.
-
+Napsauta sitten painiketta "*Scan...*".
 
 
 ![Image](assets/fr/16.webp)
 
 
-
-Klikkaa laitteistosalkun nimen vieressä "*Import Keystore*".
-
+Napsauta laitteistolompakkosi nimen vierestä "*Import Keystore*".
 
 
 ![Image](assets/fr/17.webp)
 
 
-
-Toinen allekirjoittaja on nyt rekisteröity oikein Sparrow Wallet:ään.
-
+Toinen allekirjoittaja on nyt rekisteröity oikein Sparrow Walletiin.
 
 
 ![Image](assets/fr/18.webp)
 
 
-
-Toistan täsmälleen saman menettelyn Trezor One -laitteen kanssa viimeistelläkseni Multisig-konfiguraation.
-
+Toistan täsmälleen saman menettelyn Trezor Onella viimeistelläkseni Multisig-kokoonpanon.
 
 
 ![Image](assets/fr/19.webp)
 
 
-
-Kokoonpanossani emme käsittele tätä tapausta, mutta jos haluat sisällyttää allekirjoituksen Software Wallet:n kautta Sparrow'ssa (Hot Wallet) Multisig:een, napsauta yksinkertaisesti "*Uusi tai tuotu Software Wallet*" -painiketta.
-
+Omassa kokoonpanossani en käsittele tätä tapausta, mutta jos haluat sisällyttää Multisigiisi Sparrow'n ohjelmistolompakolla (kuumalompakolla) tehtävän allekirjoituksen, napsauta vain painiketta "*New or Imported Software Wallet*".
 
 
-Nyt kun kaikki allekirjoituslaitteesi on tuotu Sparrow Wallet:een, voit viimeistellä Multisig:n luomisen napsauttamalla "*Apply*".
-
+Nyt kun kaikki allekirjoituslaitteesi on tuotu Sparrow Walletiin, voit viimeistellä Multisigin luomisen napsauttamalla "*Apply*".
 
 
 ![Image](assets/fr/20.webp)
 
 
-
-Valitse vahva salasana, jolla varmistat pääsyn Sparrow Wallet Wallet -laitteeseen. Tämä salasana suojaa julkisia avaimia, osoitteita, tarroja ja tapahtumahistoriaa luvattomalta käytöltä.
-
+Valitse vahva salasana suojaamaan pääsyä Sparrow Wallet -lompakkoosi. Tämä salasana suojaa julkiset avaimesi, osoitteesi, merkintäsi ja tapahtumahistoriasi luvattomalta käytöltä.
 
 
-Muista tallentaa salasana turvalliseen paikkaan, esimerkiksi salasanahallintaan, jotta se ei katoa.
-
+Muista tallentaa tämä salasana turvalliseen paikkaan, esimerkiksi salasanahallintaan, jotta et menetä sitä.
 
 
 ![Image](assets/fr/21.webp)
 
 
-
-## Multisig-salkun varmuuskopiointi
-
+## Multisig-lompakon varmuuskopiointi
 
 
-Tallennamme nyt *Output Script Descriptor* -komentosarjan Coldcard-kortille (tämä koskee vain käyttäjiä, joilla on Coldcard Multisig:ssä), ja ennen kaikkea pidämme siitä varmuuskopion riippumattomalla tietovälineellä.
+Tallennamme nyt *Output Script Descriptor* -kuvaajan erilliselle tietovälineelle ja säilytämme siitä useita kopioita.
 
 
-
-*Descriptor* sisältää kaikki Multisig-portfoliosi xpubit sekä avainten generate-alkuisiin johdannaispolut. Muista, mitä näimme osassa 1: Multisig-salkun palauttamiseksi sinulla on oltava joko **kaikki** Mnemonic-lausekkeet tai vain vähimmäismäärä, joka tarvitaan allekirjoituksen kynnysarvon saavuttamiseen. Jälkimmäisessä tapauksessa on kuitenkin välttämätöntä saada myös **puuttuvien allekirjoittajien xpubs**. *Descriptor* sisältää kaikki Multisig:n xpubit.
-
+*Descriptor* sisältää kaikki Multisig-lompakkosi xpub-avaimet sekä avainten luontiin käytetyt johdannaispolut. Muista, mitä näimme osassa 1: Multisig-lompakon palauttamiseksi sinulla on oltava joko **kaikki** muistilauseet tai vain allekirjoituskynnyksen saavuttamiseen vaadittava vähimmäismäärä. Jälkimmäisessä tapauksessa on kuitenkin välttämätöntä, että sinulla on myös puuttuvien allekirjoittajien **xpub-avaimet**. *Descriptor* sisältää kaikki Multisigisi xpub-avaimet.
 
 
-Jos tämä ei ole selvää, muista vain tämä: Multisig:n hakemiseen tarvitaan vähimmäismäärä Mnemonic-lauseita kutakin käytettyä Hardware Wallet:tä kohti, riippuen kynnysarvosta (minun tapauksessani: 2 lausetta), sekä *Descriptor*.
+Jos tämä ei ole selvää, muista vain tämä: Multisigin palauttamiseen tarvitset kynnyksen mukaisen vähimmäismäärän muistilauseita kullekin käytetylle laitteistolompakolle (minun tapauksessani: 2 lausetta) sekä *Descriptor*-kuvaajan.
 
 
-
-Tämä *Descriptor* ei sisällä yksityisiä avaimia, vain julkisia. Tämä tarkoittaa, että se ei anna pääsyä varoihin. Se ei siis ole yhtä kriittinen kuin Mnemonic-lauseet, jotka antavat täyden pääsyn bitcoineihisi. *Descriptor*:n riski liittyy ainoastaan luottamuksellisuuteen: vaarantuessaan kolmas osapuoli voisi nähdä kaikki tapahtumasi, mutta ei voisi käyttää varojasi.
-
+Tämä *Descriptor* ei sisällä yksityisiä avaimia, vain julkisia. Se ei siis anna pääsyä varoihin. Se ei siksi ole yhtä kriittinen kuin muistilauseet, jotka antavat täyden pääsyn bitcoineihisi. *Descriptor*-kuvaajaan liittyvä riski koskee ainoastaan luottamuksellisuutta: jos se vaarantuu, kolmas osapuoli voisi tarkkailla kaikkia tapahtumiasi, mutta ei voisi käyttää varojasi.
 
 
-Suosittelen vahvasti, että luot useita kopioita tästä *Descriptorista* ja säilytät niitä Multisig:n jokaisessa allekirjoittavassa laitteessa. Esimerkiksi omassa tapauksessani tulostan *Descriptorin* paperille ja säilytän yhden kopion Coldcardin, toisen Trezorin ja yhden Ledger:n kanssa. Tallennan tämän *Descriptor*:n myös PDF-tiedostona kolmelle USB-tikulle, joita kutakin säilytetään yhdessä laitteistosalkussa. Näin maksimoin mahdollisuuteni, etten koskaan hukkaa *Descriptor*:ia, ja olen varma, että minulla on kaksi kopiota (yksi fyysinen ja yksi digitaalinen) jokaisessa laitteessa.
+Suosittelen vahvasti, että teet tästä *Descriptor*-kuvaajasta useita kopioita ja säilytät niitä Multisigisi jokaisen allekirjoituslaitteen yhteydessä. Esimerkiksi minä tulostan *Descriptor*-kuvaajan paperille ja säilytän yhden kopion Passportin, toisen Trezorin ja yhden Ledgerin kanssa. Tallennan tämän *Descriptor*-kuvaajan myös PDF-tiedostona kolmelle USB-muistitikulle, joista jokainen säilytetään yhden laitteistolompakon kanssa. Näin maksimoin mahdollisuuteni olla koskaan menettämättä tätä *Descriptor*-kuvaajaa, ja voin olla varma, että jokaisen laitteen kanssa on kaksi kopiota (yksi fyysinen ja yksi digitaalinen).
 
 
-
-Kun Multisig-salkkusi on luotu, Sparrow antaa sinulle automaattisesti tämän *Descriptorin*. Klikkaa "*Save PDF...*"-painiketta tallentaaksesi sen sekä tekstinä että QR-koodina.
-
+Kun Multisig-lompakkosi on luotu, Sparrow antaa tämän *Descriptor*-kuvaajan automaattisesti. Napsauta painiketta "*Save PDF...*" tallentaaksesi sen sekä tekstinä että QR-koodina.
 
 
 ![Image](assets/fr/22.webp)
 
 
-
-Voit sitten tulostaa tämän PDF-tiedoston ja kopioida sen USB-tikkuun.
-
+Voit sitten tulostaa tämän PDF-tiedoston ja kopioida sen USB-muistitikuillesi.
 
 
 ![Image](assets/fr/23.webp)
 
 
-
-Rekisteröimme tämän *Descriptorin* myös Coldcardiin (jos käytät sellaista kokoonpanossasi). Tämän avulla Coldcard voi tarkistaa, että jokainen myöhemmin allekirjoitettu tapahtuma vastaa alkuperäistä Wallet:ää: oikeat xpubs, oikea Address-muoto, oikea johdannaispolku.... Ilman tätä tuotua *Descriptoria* Coldcard ei voi vahvistaa, että Exchange-osoitteita ei ole kaapattu tai että PSBT:tä ei ole peukaloitu.
-
+Passport käyttää Sparrow'n tuomaa multisig-kokoonpanoa näyttääkseen ja varmistaakseen olennaiset avaintiedot QR-parituksen ja allekirjoituksen aikana. Säilytä *Descriptor* erikseen: se on edelleen välttämätön lompakon palauttamiseksi, jos yksi allekirjoittaja ei ole käytettävissä.
 
 
-Tämä tekee Coldcardista niin mielenkiintoisen Multisig:ssa: se tarjoaa lisätarkistuksia tiettyjä kehittyneitä hyökkäyksiä vastaan, joita muut laitteistolompakot eivät salli (edellyttäen tietysti, että käytät sitä allekirjoittamiseen).
-
-
-
-Siirry Sparrow'ssa "*Asetukset*"-valikkoon ja napsauta sitten "*Vie...*".
-
-
-
-![Image](assets/fr/24.webp)
-
-
-
-Napsauta "*Coldcard Multisig*" -vaihtoehdon vieressä "*Export File...*" ja tallenna tekstitiedosto Micro SD-kortille.
-
-
-
-![Image](assets/fr/25.webp)
-
-
-
-Aseta sitten kortti Coldcardiin. Mene "*Settings*"-valikkoon, sitten "*Multisig Wallets*" ja valitse "*Import from SD*".
-
-
-
-![Image](assets/fr/26.webp)
-
-
-
-Valitse sopiva tiedosto ja vahvista tuonti.
-
-
-
-![Image](assets/fr/27.webp)
-
-
-
-Napsauta juuri tuodun Multisig:n nimeä.
-
-
-
-![Image](assets/fr/28.webp)
-
-
-
-Tarkista Multisig:n konfigurointiparametrit ja vahvista rekisteröinti.
-
-
-
-![Image](assets/fr/29.webp)
-
-
-
-Multisig on nyt tallennettu oikein Coldcardiin. Jos sinulla on useita Coldcard-kortteja samassa Multisig:ssä, toista tämä toimenpide jokaisen kortin kohdalla.
-
-
-
-*Descriptor*:n tallentamisen lisäksi älä unohda kiinnittää erityistä huomiota Mnemonic-lausekkeiden tallentamiseen kutakin allekirjoituslaitettasi varten. Jos olet vasta aloittamassa, suosittelen lämpimästi tutustumaan tähän toiseen opetusohjelmaan, jotta opit, miten niitä tallennetaan ja hallitaan oikein:
-
+*Descriptor*-kuvaajan tallentamisen lisäksi muista kiinnittää erityistä huomiota kunkin allekirjoituslaitteen muistilauseen tallentamiseen. Jos olet vasta aloittelija, suosittelen lämpimästi tutustumaan tähän toiseen oppaaseen, jossa opit tallentamaan ja hallitsemaan niitä oikein:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ennen kuin saat ensimmäiset bitcoinit Multisig:lläsi, **suositan sinua tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten ensimmäinen vastaanottava Address, ja nollaa sitten laitteistosi lompakot, kun Wallet on vielä tyhjä. Kokeile seuraavaksi palauttaa Multisig Wallet laitteistokukkaroihin käyttämällä Mnemonic-lauseen paperitallennuksia ja sitten Sparrow'ssa *Descriptor*:n avulla. Tarkista, että palautuksen jälkeen luotu ensimmäinen Address vastaa alun perin kirjoittamaasi. Jos se täsmää, voit olla varma, että paperiset varmuuskopiot ovat luotettavia.
+Ennen kuin vastaanotat ensimmäiset bitcoinisi Multisigiisi, **suosittelen vahvasti tekemään tyhjän palautustestin**. Merkitse muistiin joitakin viitetietoja, kuten ensimmäinen vastaanotto-osoite, ja palauta sitten laitteistolompakkosi tehdasasetuksiin lompakon ollessa vielä tyhjä. Yritä seuraavaksi palauttaa Multisig-lompakkosi laitteistolompakoihin muistilauseiden paperisista varmuuskopioista ja sen jälkeen Sparrow'hun *Descriptor*-kuvaajan avulla. Tarkista, että palautuksen jälkeen luotu ensimmäinen osoite vastaa sitä, jonka kirjasit alun perin muistiin. Jos se vastaa, voit olla rauhallisin mielin siitä, että paperiset varmuuskopiosi ovat luotettavia.
 
 
-
-Jos haluat lisätietoja palautustestin suorittamisesta, suosittelen, että tutustut tähän toiseen opetusohjelmaan:
-
+Jos haluat oppia lisää palautustestin tekemisestä, suosittelen tutustumaan tähän toiseen oppaaseen:
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
-## Vastaanota bitcoineja Multisig:lla
+## Bitcoinien vastaanottaminen Multisigiin
 
 
-
-Wallet on nyt valmis vastaanottamaan bitcoineja. Napsauta Sparrow'ssa välilehteä "*Vastaanottaa*".
-
+Lompakkosi on nyt valmis vastaanottamaan bitcoineja. Napsauta Sparrow'ssa välilehteä "*Receive*".
 
 
 ![Image](assets/fr/30.webp)
 
 
-
-Ennen kuin käytät Sparrow Wallet:n tuottamaa Address:tä, ota aikaa tarkistaa se suoraan laitteiston lompakoiden näytöltä. Näin varmistat, että Address:tä ei ole muutettu ja että laitteissasi on yksityiset avaimet, joita tarvitaan siihen liittyvien varojen käyttämiseen. Tämä auttaa suojautumaan useilta hyökkäysvektoreilta.
-
+Ennen kuin käytät Sparrow Walletin luomaa osoitetta, tarkista se rauhassa suoraan laitteistolompakoidesi näytöltä. Näin varmistat, ettei osoitetta ole muutettu ja että laitteesi hallitsevat yksityisiä avaimia, joita tarvitaan siihen liittyvien varojen käyttämiseen. Tämä auttaa suojaamaan sinua useilta hyökkäysvektoreilta.
 
 
-Napsauta tätä varten "*Näytä Address*" näyttääksesi Address:n Trezorissa tai Ledger:ssa, kun se on kytketty kaapelilla.
-
+Napsauta tätä varten "*Display Address*" näyttääksesi osoitteen Trezorissa tai Ledgerissä, kun se on liitetty kaapelilla.
 
 
 ![Image](assets/fr/31.webp)
 
 
-
-Coldcardin avulla tämä todentaminen voidaan suorittaa ilman minkäänlaista vuorovaikutusta Sparrow'n kanssa. Avaa vain "*Address Explorer*"-valikko ja valitse sitten Multisig aivan alareunasta.
-
+Passportissa valitse multisig-tili ja valitse "*Verify Address*". Lue Sparrow'n näyttämän vastaanotto-osoitteen QR-koodi. Passport vahvistaa näytöllään, kuuluuko osoite multisig-lompakkoon.
 
 
-![Image](assets/fr/32.webp)
+Tarkista, että jokaisen laitteistolompakon näyttämä osoite vastaa täsmälleen Sparrow Walletissa olevaa osoitetta. Tämä on hyvä tehdä juuri ennen osoitteen jakamista maksajalle, jotta olet varma sen eheydestä.
 
 
-
-Tämän jälkeen näet Multisig:n luomat vastaanotto-osoitteet.
-
-
-
-![Image](assets/fr/33.webp)
-
-
-
-Tarkista, että kussakin Hardware Wallet:ssa näkyvä Address vastaa täsmälleen Sparrow Wallet:ssä olevaa Address:a. Tämä on suositeltavaa tehdä juuri ennen Address:n jakamista maksajan kanssa, jotta voidaan olla varmoja sen eheydestä.
-
-
-
-Tämän jälkeen voit määrittää Address:lle "*Label*", jolla osoitat vastaanotettujen bitcoinien alkuperän. Tämä on hyvä tapa organisoida UTXO:iden hallinta.
-
+Voit sitten antaa tälle osoitteelle "*Label*"-merkinnän, joka kertoo vastaanotettujen bitcoinien alkuperän. Tämä on hyvä tapa järjestää UTXO:idesi hallintaa.
 
 
 ![Image](assets/fr/34.webp)
 
 
-
-Kun tämä on vahvistettu, voit käyttää Address:ta bitcoinien vastaanottamiseen.
-
+Kun tämä on tarkistettu, voit käyttää osoitetta bitcoinien vastaanottamiseen.
 
 
 ![Image](assets/fr/35.webp)
 
 
-
-## Bitcoinien lähettäminen Multisig:lläsi
-
+## Bitcoinien lähettäminen Multisigilla
 
 
-Nyt kun olet saanut ensimmäiset Satssit Multisig Wallet -laitteellasi, voit myös käyttää ne! Mene Sparrow'ssa "*lähettää*"-välilehdelle luodaksesi uuden tapahtuman.
-
+Nyt kun olet vastaanottanut ensimmäiset satsit Multisig-lompakkoosi, voit myös käyttää niitä! Siirry Sparrow'ssa välilehteen "*Send*" rakentaaksesi uuden transaktion.
 
 
 ![Image](assets/fr/36.webp)
 
 
-
-Jos haluat käyttää *Coin Control*:a eli valita manuaalisesti UTXO:t, jotka haluat käyttää, siirry välilehdelle "*UTXO:t*". Valitse UTXO:t, jotka haluat käyttää, ja napsauta sitten "*Send Selected*". Sinut ohjataan automaattisesti välilehdelle "*Lähettää*", jossa UTXO:t on jo valmiiksi täytetty.
-
+Jos haluat käyttää *Coin Control* -toimintoa eli valita käytettävät UTXO:t käsin, siirry välilehteen "*UTXOs*". Valitse UTXO:t, jotka haluat käyttää, ja napsauta sitten "*Send Selected*". Sinut ohjataan automaattisesti välilehteen "*Send*", jossa UTXO:t on jo täytetty valmiiksi.
 
 
 ![Image](assets/fr/37.webp)
 
 
-
-Syötä määränpää Address. Useita osoitteita voidaan lisätä napsauttamalla "*+ Lisää*".
-
+Syötä kohdeosoite. Useita osoitteita voi lisätä napsauttamalla "*+ Add*".
 
 
 ![Image](assets/fr/38.webp)
 
 
-
-Lisää "*Label*" kuvaamaan tämän kulun tarkoitusta, jotta tapahtumia on helpompi seurata.
-
+Lisää "*Label*"-merkintä, joka kuvaa tämän rahansiirron tarkoitusta, jotta transaktioidesi seuraaminen on helpompaa.
 
 
 ![Image](assets/fr/39.webp)
 
 
-
-Syötä valitulle Address:lle lähetettävä summa.
-
+Syötä valittuun osoitteeseen lähetettävä summa.
 
 
 ![Image](assets/fr/40.webp)
 
 
-
-Säädä latausnopeus nykyisten verkko-olosuhteiden mukaan. Katso esimerkiksi [Mempool.space](https://Mempool.space/) sopivan lataustason valitsemiseksi.
-
+Säädä siirtomaksutasoa verkon senhetkisen tilanteen mukaan. Voit esimerkiksi tarkistaa sopivan maksutason osoitteesta [Mempool.space](https://Mempool.space/).
 
 
-Kun olet tarkistanut kaikki tapahtumaparametrit, napsauta "*Create Transaction*".
-
+Kun olet tarkistanut kaikki transaktion parametrit, napsauta "*Create Transaction*".
 
 
 ![Image](assets/fr/41.webp)
 
 
-
-Jos olet tyytyväinen kaikkeen, napsauta "*Viimeistele tapahtuma allekirjoittamista varten*".
-
+Jos kaikki on kunnossa, napsauta "*Finalize Transaction for Signing*".
 
 
 ![Image](assets/fr/42.webp)
 
 
-
-Näytön alareunassa näet, että Sparrow odottaa kahta allekirjoitusta. Tämä on normaalia: tässä käytetty Wallet on Multisig 2-de-3.
-
+Näytön alaosassa näet, että Sparrow odottaa 2 allekirjoitusta. Tämä on normaalia: tässä käytetty lompakko on 2-of-3-Multisig.
 
 
 ![Image](assets/fr/43.webp)
 
 
-
-Aloitan allekirjoittamisen Coldcardilla. Tätä varten asetan Micro SD-kortin tietokoneeseen ja napsautan sitten "*Tallenna tapahtuma*".
-
+Aloitan allekirjoittamisen Passportilla. Napsauta Sparrow'ssa "*Show QR*" näyttääksesi PSBT:n (*Partially Signed Bitcoin Transaction*) animoituina QR-koodeina. Valitse Passportissa multisig-tili ja valitse "*Sign with QR Code*", ja lue sitten Sparrow'n näyttämä QR-koodi.
 
 
-![Image](assets/fr/44.webp)
+Tarkista laitteistolompakkosi näytöltä huolellisesti transaktion parametrit: vastaanottajan osoite, lähetetty summa ja siirtomaksut. Kun olet vahvistanut transaktion, hyväksy se siirtyäksesi allekirjoitukseen.
 
 
-
-Voit lähettää allekirjoitettavan tapahtuman Hardware Wallet:een kolmella eri tavalla ja hakea sen sitten Sparrow'sta. Ensimmäinen on käyttää Micro SD-korttia, kuten tässä Coldcardin tapauksessa. Toinen on kaapeliyhteys, jota käytämme toisen allekirjoituksen yhteydessä (Ledger ja Trezor). Lopuksi on mahdollista käyttää QR-koodin välittämistä kameralla varustetuissa laitteissa, kuten Coldcard Q, Jade Plus tai Passport V2.
-
-
-
-Kun PSBT (*Partially Signed Bitcoin Transaction*) on tallennettu Micro SD -muistitikulle, asetan sen Coldcard MK3 -korttiin ja valitsen "*Ready to Sign*" -valikon.
-
-
-
-![Image](assets/fr/45.webp)
-
-
-
-Tarkista Hardware Wallet-näytöltä huolellisesti tapahtuman parametrit: vastaanottajan Address, lähetetty summa ja maksut. Kun maksutapahtuma on vahvistettu, vahvista ja siirry allekirjoitukseen.
-
-
-
-![Image](assets/fr/46.webp)
-
-
-
-Palauta sitten Micro SD -kortti tietokoneeseen ja napsauta Sparrow'ssa "*Load Transaction*". Valitse tiedostoistasi Coldcardin allekirjoittama PSBT.
-
-
-
-![Image](assets/fr/47.webp)
-
-
-
-Näet, että Coldcardin allekirjoitus on lisätty. Käytän nyt toista laitetta, tässä tapauksessa Ledger:ta, suorittamaan toisen vaaditun allekirjoituksen. Yhdistän sen, avaan lukituksen ja napsautan sitten Sparrow'ssa "*Sign*".
-
+Kun olet hyväksynyt transaktion, Passport näyttää allekirjoitetun PSBT:n animoituina QR-koodeina. Napsauta Sparrow'ssa "*Scan QR*" ja lue nämä koodit web-kameralla. Passportin allekirjoitus lisätään tämän jälkeen. Käytän nyt Ledgeriä toiseen vaadittuun allekirjoitukseen: liitän sen ja avaan lukituksen, ja napsautan sitten Sparrow'ssa "*Sign*".
 
 
 ![Image](assets/fr/48.webp)
 
 
-
-Napsauta Hardware Wallet:n nimen vieressä olevaa "*Sign*"-painiketta.
-
+Napsauta "*Sign*" laitteistolompakkosi nimen vierestä.
 
 
 ![Image](assets/fr/49.webp)
 
 
-
-Kun käytät Ledger:tä ensimmäistä kertaa tämän Multisig:n kanssa, Sparrow pyytää sinua vahvistamaan allekirjoittajien laajennetut julkiset avaimet (xpubs). Kuten Coldcardin kohdalla, tämä vaihe estää sinua allekirjoittamasta sokeasti myöhemmin. Varmistaaksesi nämä tiedot vertaa Ledger:n näytöllä näkyviä xpubeja suoraan muiden laitteistojen lompakoiden antamiin xpubeihin.
-
+Kun käytät Ledgeriä tässä Multisigissa ensimmäisen kerran, Sparrow pyytää sinua varmistamaan yhteisallekirjoittajien laajennetut julkiset avaimet (xpub). Kuten Passportin kohdalla, tämä vaihe estää sinua allekirjoittamasta myöhemmin sokkona. Vahvista nämä tiedot vertaamalla Ledgerin näytöllä näkyvää xpub-avainta niihin, jotka muut laitteistolompakkosi antavat suoraan.
 
 
 ![Image](assets/fr/50.webp)
 
 
-
-Tarkista vastaanottajan Address, siirretty summa ja transaktiomaksu ja allekirjoita transaktio.
-
+Tarkista vastaanottajan osoite, siirretty summa ja transaktion siirtomaksu, ja allekirjoita sitten transaktio.
 
 
 ![Image](assets/fr/51.webp)
 
 
-
-Allekirjoita painamalla näyttöä.
-
+Paina näyttöä allekirjoittaaksesi.
 
 
 ![Image](assets/fr/52.webp)
 
 
-
-Sparrow'lla on nyt kaksi allekirjoitusta, jotka tarvitaan varojen vapauttamiseksi Multisig-salkusta. Tarkista tapahtuma vielä kerran, ja jos kaikki sujuu hyvin, klikkaa "*Broadcast Transaction*" lähettääksesi sen verkon kautta.
-
+Sparrow'lla on nyt kaksi allekirjoitusta, jotka tarvitaan varojen vapauttamiseen Multisig-lompakosta. Tarkista transaktio viimeisen kerran, ja jos kaikki on kunnossa, napsauta "*Broadcast Transaction*" lähettääksesi sen verkkoon.
 
 
 ![Image](assets/fr/53.webp)
 
 
-
-Löydät tämän tapahtuman Sparrow Wallet:n "*Transaktiot*"-välilehdeltä.
-
+Löydät tämän transaktion Sparrow Walletin välilehdestä "*Transactions*".
 
 
 ![Image](assets/fr/54.webp)
 
 
-
-Onneksi olkoon, tiedät nyt, miten moniääninen Wallet voidaan asentaa ja käyttää Sparrow'ssa. Jos pidit tätä ohjetta hyödyllisenä, olisin kiitollinen, jos jättäisit Green-peukalon alle. Voit vapaasti jakaa tätä artikkelia sosiaalisissa verkostoissa. Kiitos jakamisesta!
-
+Onnittelut, osaat nyt pystyttää ja käyttää usean allekirjoituksen lompakkoa Sparrow'ssa. Jos tämä opas oli sinulle hyödyllinen, olisin kiitollinen, jos jättäisit alle vihreän peukun. Jaa artikkeli vapaasti sosiaalisessa mediassa. Kiitos jakamisesta!
 
 
-Jos haluat mennä pidemmälle, suosittelen, että tutustut tähän oppaaseen, jossa käsitellään toista menetelmää Bitcoin Wallet:n turvallisuuden lisäämiseksi, passphrase BIP39 :
-
+Jos haluat mennä pidemmälle, suosittelen tutustumaan tähän oppaaseen, joka käsittelee toista tapaa parantaa Bitcoin-lompakkosi turvallisuutta, BIP39-salalausetta:
 
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

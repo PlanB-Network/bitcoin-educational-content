@@ -1,388 +1,224 @@
 ---
 name: Sparrow Wallet - Multisig
-description: Skapa en multi-signatur Wallet på Sparrow
+description: Skapa en Multisig Wallet på Sparrow
 ---
 ![cover](assets/cover.webp)
 
 
-
-En Wallet med flera signaturer (ofta kallad "*Multisig*") är en Bitcoin Wallet-struktur som kräver flera kryptografiska signaturer, från olika nycklar, för att godkänna en utgift. Till skillnad från en konventionell ("*singlesig*") Wallet, där en enda privat nyckel är tillräcklig för att låsa upp en UTXO, baseras Multisig på en **m-av-n**-modell: av de _n_ nycklar som är associerade med Wallet måste _m_ absolut samsignera varje transaktion.
-
+En Multisig Wallet (ofta kallad "*Multisig*") är en Bitcoin Wallet-struktur som kräver flera kryptografiska signaturer, från olika nycklar, för att auktorisera en utgift. Till skillnad från en konventionell ("*singlesig*") Wallet, där en enda privat nyckel räcker för att låsa upp en UTXO, bygger Multisig på en **m-av-n**-modell: av de _n_ nycklar som är kopplade till Wallet måste _m_ ovillkorligen samsignera varje transaktion.
 
 
-Denna mekanism gör att kontrollen av en Wallet kan delas mellan flera enheter eller anordningar. I en 2-av-3-konfiguration genereras till exempel tre oberoende uppsättningar nycklar, men endast två behövs för att frigöra medel. Denna arkitektur minskar drastiskt de risker som är förknippade med att en nyckel äventyras eller förloras: en tjuv med tillgång till bara en nyckel kan inte tömma Wallet, och en användare som förlorar en kan fortfarande komma åt sina pengar med de återstående två.
-
+Denna mekanism gör det möjligt att dela kontrollen över en Wallet mellan flera enheter eller enheter. I en 2-av-3-konfiguration genereras till exempel tre oberoende nyckeluppsättningar, men bara två behövs för att frigöra medel. Denna arkitektur minskar drastiskt riskerna kopplade till att en nyckel äventyras eller går förlorad: en tjuv med tillgång till bara en nyckel kan inte tömma Wallet, och en användare som förlorar en kan fortfarande komma åt sina medel med de återstående två.
 
 
 ![Image](assets/fr/01.webp)
 
 
-
-Denna högre säkerhet medför dock en högre komplexitet. För att konfigurera en Multisig Wallet krävs flera Mnemonic-fraser (en per signaturfaktor) och utökade publika nycklar ("*xpub*"). Om du använder en Multisig 2-av-3 Wallet måste du för att hämta Wallet antingen ha alla tre Mnemonic-fraserna eller minst två av de tre fraserna. Men om du bara har två av de tre fraserna behöver du också tillgång till de tre *xpubs*, utan vilka det kommer att vara omöjligt att hämta de offentliga nycklar som behövs för att komma åt de bitcoins de skyddar.
-
+Denna ökade säkerhet kommer dock med större komplexitet. Att konfigurera en Multisig Wallet kräver att man säkrar flera återställningsfraser (en per signaturfaktor) och utökade publika nycklar ("*xpub*"). Om du använder en Multisig 2-av-3-Wallet måste du, för att återfå Wallet, antingen ha alla tre återställningsfraserna eller åtminstone två av de tre. Men om du bara har två av de tre fraserna behöver du också tillgång till de tre *xpub*:erna, utan vilka det blir omöjligt att återfå de publika nycklar som krävs för att komma åt de bitcoins de skyddar.
 
 
-Sammanfattningsvis, för att återställa en Multisig Wallet, måste du :
+Sammanfattningsvis, för att återställa en Multisig Wallet måste du :
 
 
-
-
-- Eller få tillgång till alla Mnemonic-fraser som är associerade med varje signaturfaktor;
-- Antingen har du det minsta antal Mnemonic-fraser som krävs enligt tröskelvärdet för att kunna signera, och du har också tillgång till xpubarna för alla faktorer för att kunna hämta de nödvändiga publika nycklarna.
-
+- Antingen ha tillgång till alla återställningsfraser som hör till varje signaturfaktor;
+- Eller ha det minsta antal återställningsfraser som krävs enligt tröskelvärdet för att kunna signera, och dessutom ha tillgång till xpub:erna för samtliga faktorer för att kunna återfå de nödvändiga publika nycklarna.
 
 
 ![Image](assets/fr/02.webp)
 
 
-
-Denna hantering av Multisig Wallet säkerhetskopior underlättas av *Output Script Descriptors*, som grupperar alla offentliga data som krävs för att komma åt fonderna. Denna funktionalitet är dock ännu inte implementerad i all programvara för Wallet-hantering.
-
+Denna hantering av säkerhetskopior för Multisig Wallet underlättas av *Output Script Descriptors*, som samlar all publik data som krävs för att komma åt medlen. Denna funktionalitet är dock ännu inte implementerad i alla Wallet-hanteringsprogram.
 
 
-Multisig är särskilt lämpad för bitcoinanvändare som vill ha ökad säkerhet eller kollektiv förvaltning av medel: företag, föreningar, familjer eller enskilda användare som innehar en betydande mängd bitcoins. Den kan användas för att skapa decentraliserade styrsystem, t.ex. för att fördela signeringsbehörighet mellan flera chefer eller teammedlemmar.
+Multisig passar särskilt bra för bitcoiners som söker ökad säkerhet eller kollektiv förvaltning av medel: företag, föreningar, familjer eller enskilda användare som innehar en betydande mängd bitcoins. Den kan användas för att skapa decentraliserade styrningsmodeller, till exempel för att fördela signaturbehörighet mellan flera förvaltare eller teammedlemmar.
 
 
-
-I den här handledningen lär vi oss hur man skapar och använder en klassisk multisignatur Wallet med **Sparrow wallet**. Om du vill skapa en anpassad multisignatur Wallet med tidslås rekommenderar jag att du använder Liana istället:
-
+I den här handledningen lär vi oss hur man skapar och använder en klassisk Multisig Wallet med **Sparrow Wallet**. Om du vill skapa en anpassad Multisig Wallet med timelocks rekommenderar jag att du använder Liana istället:
 
 
 https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
 
-## Förkunskapskrav
+## Förutsättningar
 
 
-
-För denna handledning ska jag visa dig hur du gör en Multisig med [Sparrow wallet Wallet management software](https://sparrowwallet.com/download/). Om du ännu inte har installerat den här programvaran ska du göra det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow wallet :
-
+I den här handledningen visar jag hur man skapar en Multisig med [Wallet-hanteringsprogramvaran Sparrow Wallet](https://sparrowwallet.com/download/). Om du inte redan har installerat den här programvaran, gör det nu. Om du behöver hjälp har vi också en detaljerad handledning om hur du konfigurerar Sparrow Wallet :
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d)
 
-För att sätta upp en Wallet med flera signaturer behöver du olika hårdvaruplånböcker. För en Multisig 2-de-3 kan du till exempel använda :
+För att skapa en Multisig behöver du olika Hardware Wallets. För en Multisig 2-av-3 skulle du till exempel kunna använda :
 
 
-
-
-- En Trezor modell ett;
+- En Trezor Model One;
 - Ledger Flex;
-- En Coldcard MK3.
-
+- En Passport Core.
 
 
 ![Image](assets/fr/03.webp)
 
 
-
-Det är en bra idé att använda olika fabrikat av Hardware Wallet i din Multisig-konfiguration. Detta säkerställer att om en specifik modell stöter på ett allvarligt problem kommer det inte att påverka den övergripande säkerheten för din Multisig. Dessutom kan du dra nytta av de specifika fördelarna med varje enhet. Till exempel, i min konfiguration :
-
+Det är en bra idé att använda olika märken av Hardware Wallet i din Multisig-konfiguration. Detta säkerställer att om en specifik modell drabbas av ett allvarligt problem, påverkar det inte den övergripande säkerheten för din Multisig. Dessutom kan du dra nytta av de specifika fördelarna hos varje enhet. I min konfiguration, till exempel :
 
 
 
-
-- Trezor Model One är helt öppen källkod, vilket gör det möjligt att verifiera seed-generationen. Men eftersom den inte är utrustad med ett Secure Element är den fortfarande sårbar för fysiska attacker;
-
+- Trezor Model One är helt öppen källkod, vilket gör det möjligt att verifiera seed-genereringen. Eftersom den dock inte har ett Secure Element är den fortfarande sårbar för fysiska attacker;
 
 
 
-
-- Ledger Flex, å andra sidan, drar nytta av okontrollerbar proprietär firmware, men innehåller ett Secure Element som erbjuder utmärkt fysiskt skydd;
-
+- Ledger Flex å andra sidan drar nytta av overifierbar proprietär firmware, men innehåller ett Secure Element som ger utmärkt fysiskt skydd;
 
 
 
-
-- Coldcard är utrustat med ett Secure Element och dess kod är sökbar. Det är ett intressant val för vår konfiguration, eftersom det erbjuder verifieringsfunktioner som inte finns på andra modeller.
-
+- Passport Core kombinerar helt öppen källkodsfirmware, ett Secure Element och air-gapped QR-kodutbyten. Det är en oberoende tredje signerare som kan verifiera adresser och signera PSBT:er utan en USB-dataanslutning.
 
 
-Innan du konfigurerar din Multisig Wallet, se till att varje Hardware Wallet är korrekt konfigurerad (generering och sparande av Mnemonic, PIN-definition). För detaljerade instruktioner kan du konsultera våra handledningar för varje Hardware Wallet, till exempel :
-
+Innan du konfigurerar din Multisig Wallet, se till att varje Hardware Wallet är korrekt konfigurerad (generering och sparande av återställningsfras, PIN-definition). För detaljerade instruktioner kan du läsa våra handledningar för varje Hardware Wallet, till exempel :
 
 
 https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
-Som vi kommer att se senare i den här handledningen är det också möjligt att integrera en faktor i din Multisig-konfiguration som inte är kopplad till en Hardware Wallet, men vars privata nycklar lagras på din dator. Den här metoden är naturligtvis mindre säker än den exklusiva användningen av hårdvaruplånböcker, men den kan vara relevant i vissa fall. För en Multisig 2-de-3 kan du till exempel välja två hårdvaruplånböcker och en Software Wallet.
+Som vi kommer att se längre fram i den här handledningen är det också möjligt att i din Multisig-konfiguration integrera en faktor som inte är kopplad till en Hardware Wallet, men vars privata nycklar lagras på din dator. Denna metod är uppenbarligen mindre säker än att uteslutande använda Hardware Wallets, men den kan vara relevant i vissa fall. För en Multisig 2-av-3 skulle du till exempel kunna välja två Hardware Wallets och en Software Wallet.
 
+> ⚠️ **Säkerhetsmeddelande för Coldcard MK3:** skapa inte en ny seed på en MK3 som kör firmware äldre än 4.2.0. Seeds som genererats på äldre firmware måste bytas ut och medlen flyttas. Den här handledningen använder därför Passport Core som sin air-gapped referenssignerare.
 
 
 ## Skapa en Multisig Wallet
 
 
-
-Öppna Sparrow wallet, klicka på fliken "*File*" och välj sedan "*New Wallet*".
-
+Öppna Sparrow Wallet, klicka på fliken "*File*" och välj sedan "*New Wallet*".
 
 
 ![Image](assets/fr/04.webp)
 
 
-
-Tilldela ett namn till din multisignatur Wallet och klicka sedan på "*Create Wallet*" för att bekräfta.
-
+Tilldela ett namn till din Multisig Wallet och klicka sedan på "*Create Wallet*" för att bekräfta.
 
 
 ![Image](assets/fr/05.webp)
 
 
-
 I rullgardinsmenyn "*Policy Type*" väljer du alternativet "*Multi Signature*".
-
 
 
 ![Image](assets/fr/06.webp)
 
 
-
-I det övre högra hörnet kan du nu definiera det totala antalet nycklar i din Multisig, samt antalet medundertecknare som krävs för att godkänna en utgift. I mitt exempel är detta ett 2-av-3-system.
-
+I det övre högra hörnet kan du nu definiera det totala antalet nycklar i din Multisig, samt antalet medsignerare som krävs för att auktorisera en utgift. I mitt exempel är detta ett 2-av-3-schema.
 
 
 ![Image](assets/fr/07.webp)
 
 
-
-Längst ner i fönstret visar Sparrow wallet tre "*Keystore*". Var och en representerar en uppsättning nycklar. Här använder jag tre hårdvaruplånböcker, så varje "*Keystore*" motsvarar en av dem. Vi ska nu konfigurera dem.
-
+Längst ner i fönstret visar Sparrow Wallet tre "*Keystore*". Var och en representerar en nyckeluppsättning. Här använder jag tre Hardware Wallets, så varje "*Keystore*" motsvarar en av dem. Vi ska nu konfigurera dem.
 
 
-Jag börjar med Coldcard. På fliken "*Keystore 1*" väljer jag alternativet "*Airgapped Hardware Wallet*".
-
+Jag börjar med Passport Core. I fliken "*Keystore 1*" väljer jag alternativet "*Airgapped Hardware Wallet*".
 
 
 ![Image](assets/fr/08.webp)
 
 
+På Passport öppnar du det konto du vill använda och väljer sedan "*Connect Wallet*" > "*Sparrow*" > "*Connect as Multisig*". Passport visar en animerad QR-kod som innehåller dess publika nyckelinformation.
 
-På Coldcard, när enheten är upplåst, går jag till menyn "* Inställningar *" och sedan till "* Multisig plånböcker *".
+I Sparrow väljer du "*Scan...*" bredvid "*Passport*" och skannar den animerade QR-koden med datorns webbkamera. Kontrollera fingeravtrycket för huvudnyckeln som visas av Sparrow mot det som visas av Passport, och importera sedan Keystore.
 
-
-
-![Image](assets/fr/09.webp)
-
+Din Passport-xpub har nu importerats. Upprepa motsvarande procedur för Ledger Flex och Trezor Model One.
 
 
-I den här menyn kan du hantera de Multisig-plånböcker som Coldcard deltar i. Jag vill skapa en ny, så jag väljer "*Export XPUB*".
-
-
-
-![Image](assets/fr/10.webp)
-
-
-
-För fältet "*Kontonummer*" kan du, om du bara hanterar ett konto, lämna det tomt och validera direkt genom att trycka på bekräftelseknappen.
-
-
-
-![Image](assets/fr/11.webp)
-
-
-
-Coldcard kommer då att generate en fil som innehåller din xpub, sparad på Micro SD-kortet.
-
-
-
-![Image](assets/fr/12.webp)
-
-
-
-Sätt i detta Micro SD-kort i din dator. I Sparrow wallet klickar du på knappen "*Import File...*" bredvid "*Coldcard Multisig*" och väljer sedan den fil som skapats av Coldcard på kortet.
-
-
-
-![Image](assets/fr/13.webp)
-
-
-
-Din xpub har importerats framgångsrikt. Vi ska nu upprepa proceduren med de andra två hårdvaruplånböckerna.
-
-
-
-![Image](assets/fr/14.webp)
-
-
-
-För Ledger Flex väljer jag "*Keystore 2*" och klickar sedan på "*Connected Hardware Wallet*". Se till att Ledger är ansluten till datorn, olåst och att Bitcoin-applikationen är öppen.
-
+För Ledger Flex väljer jag "*Keystore 2*" och klickar sedan på "*Connected Hardware Wallet*". Se till att Ledger är ansluten till datorn, upplåst, och att Bitcoin-applikationen är öppen.
 
 
 ![Image](assets/fr/15.webp)
 
 
-
 Klicka sedan på knappen "*Scan...*".
-
 
 
 ![Image](assets/fr/16.webp)
 
 
-
 Bredvid namnet på din Hardware Wallet klickar du på "*Import Keystore*".
-
 
 
 ![Image](assets/fr/17.webp)
 
 
-
-Den andra firmatecknaren är nu korrekt registrerad i Sparrow wallet.
-
+Den andra undertecknaren är nu korrekt registrerad i Sparrow Wallet.
 
 
 ![Image](assets/fr/18.webp)
 
 
-
 Jag upprepar exakt samma procedur med Trezor One för att slutföra Multisig-konfigurationen.
-
 
 
 ![Image](assets/fr/19.webp)
 
 
-
-I min konfiguration täcker vi inte detta fall, men om du vill inkludera en signatur via en Software Wallet i Sparrow (Hot Wallet) i din Multisig, klickar du bara på knappen "*Ny eller importerad Software Wallet*".
-
+I min konfiguration täcker vi inte det här fallet, men om du vill inkludera en signatur via en Software Wallet i Sparrow (Hot Wallet) i din Multisig klickar du bara på knappen "*New or Imported Software Wallet*".
 
 
-Nu när alla dina signaturenheter har importerats till Sparrow wallet kan du slutföra skapandet av Multisig genom att klicka på "*Apply*".
-
+Nu när alla dina signaturenheter är importerade till Sparrow Wallet kan du slutföra skapandet av Multisig genom att klicka på "*Apply*".
 
 
 ![Image](assets/fr/20.webp)
 
 
-
-Välj ett starkt lösenord för att säkra åtkomsten till din Sparrow wallet Wallet. Detta lösenord skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
-
+Välj ett starkt lösenord för att säkra åtkomsten till din Sparrow Wallet-Wallet. Detta lösenord skyddar dina publika nycklar, adresser, etiketter och transaktionshistorik från obehörig åtkomst.
 
 
-Kom ihåg att spara lösenordet på ett säkert ställe, t.ex. i en lösenordshanterare, så att du inte tappar bort det.
-
+Kom ihåg att spara det här lösenordet på ett säkert ställe, till exempel i en lösenordshanterare, för att undvika att förlora det.
 
 
 ![Image](assets/fr/21.webp)
 
 
-
-## Säkerhetskopiering av en Multisig Wallet
-
+## Säkerhetskopiera en Multisig Wallet
 
 
-Vi kommer nu att spara vår *Output Script Descriptor* på Coldcard (detta gäller endast användare med ett Coldcard i sin Multisig), och framför allt kommer vi att hålla en säkerhetskopia av den på ett oberoende medium.
+Vi ska nu spara *Output Script Descriptor* på ett oberoende medium och behålla flera kopior av den.
 
 
-
-*Descriptor* innehåller alla xpubar i din Multisig Wallet, samt de härledningsvägar som använts för att generate nycklarna. Kom ihåg vad vi såg i del 1: för att återställa en Multisig Wallet måste du antingen ha **alla** Mnemonic-fraserna, eller bara det minsta antal som krävs för att nå signaturtröskeln. I det senare fallet är det dock också viktigt att ha **expubarna** för de saknade undertecknarna. *Descriptor* innehåller alla dina Multisig:s xpubar.
-
+*Descriptor* innehåller alla xpub:er i din Multisig Wallet, samt de härledningsvägar som används för att generera nycklarna. Kom ihåg vad vi såg i del 1: för att återställa en Multisig Wallet måste du antingen ha **alla** återställningsfraser, eller bara det minsta antal som krävs för att nå signaturtröskeln. I det senare fallet är det dock också avgörande att ha **xpub:erna** för de saknade undertecknarna. *Descriptor* innehåller alla din Multisigs xpub:er.
 
 
-Om detta inte är tydligt, kom ihåg detta: för att hämta en Multisig behöver du det minsta antalet Mnemonic-fraser för varje Hardware Wallet som används, beroende på tröskelvärdet (i mitt fall: 2 fraser), samt *Descriptor*.
+Om detta inte är klart, kom bara ihåg detta: för att återfå en Multisig behöver du det minsta antalet återställningsfraser för varje använd Hardware Wallet, beroende på tröskelvärdet (i mitt fall: 2 fraser), samt *Descriptor*.
 
 
-
-Denna *Deskriptor* innehåller inga privata nycklar, endast offentliga. Det innebär att den inte ger tillgång till pengarna. Den är därför inte lika kritisk som Mnemonic-fraser, som ger full tillgång till dina bitcoins. Risken med *Descriptor* är enbart relaterad till konfidentialitet: i händelse av kompromisser kan en tredje part observera alla dina transaktioner, men kan inte spendera dina pengar.
-
+Denna *Descriptor* innehåller inga privata nycklar, endast publika. Det innebär att den inte ger tillgång till medlen. Den är därför inte lika kritisk som återställningsfraserna, som ger fullständig tillgång till dina bitcoins. Risken med *Descriptor* handlar uteslutande om sekretess: om den äventyras skulle en tredje part kunna observera alla dina transaktioner, men inte kunna spendera dina medel.
 
 
-Jag rekommenderar starkt att du skapar flera kopior av denna *Descriptor* och förvarar dem med varje signeringsenhet på din Multisig. I mitt fall skriver jag till exempel ut *Descriptor* på papper och förvarar en kopia med Coldcard, en annan med Trezor och en med Ledger. Jag sparar också *Descriptor* som en PDF-fil på tre USB-minnen, vart och ett med en av hårdvaruplånböckerna. På så sätt maximerar jag mina chanser att aldrig förlora denna *Descriptor*, och jag är säker på att ha två kopior (en fysisk och en digital) med varje enhet.
+Jag rekommenderar starkt att du skapar flera kopior av denna *Descriptor* och förvarar dem tillsammans med varje signaturenhet i din Multisig. I mitt fall skriver jag till exempel ut *Descriptor* på papper och förvarar en kopia med Passport, en annan med Trezor och en med Ledger. Jag sparar också denna *Descriptor* som en PDF-fil på tre USB-minnen, var och en förvarad tillsammans med en av Hardware Wallets. På så sätt maximerar jag mina chanser att aldrig förlora denna *Descriptor*, och jag är säker på att ha två kopior (en fysisk och en digital) med varje enhet.
 
 
-
-När din Multisig Wallet har skapats förser Sparrow dig automatiskt med denna *Descriptor*. Klicka på knappen "*Spara PDF...*" för att spara den både som text och som QR-kod.
-
+När din Multisig Wallet har skapats tillhandahåller Sparrow automatiskt denna *Descriptor* till dig. Klicka på knappen "*Save PDF...*" för att spara den både som text och som QR-kod.
 
 
 ![Image](assets/fr/22.webp)
 
 
-
-Du kan sedan skriva ut den här PDF-filen och kopiera den till dina USB-minnen.
-
+Du kan sedan skriva ut denna PDF och kopiera den till dina USB-minnen.
 
 
 ![Image](assets/fr/23.webp)
 
 
-
-Vi kommer också att registrera denna *Descriptor* i Coldcard (om du använder ett sådant i din konfiguration). Detta kommer att göra det möjligt för Coldcard att verifiera att varje transaktion som signeras senare motsvarar den ursprungliga Wallet: korrekta xpubar, korrekt Address-format, korrekt härledningsväg ... Utan denna importerade *Descriptor* kan Coldcard inte bekräfta att Exchange-adresser inte har kapats eller att PSBT inte har manipulerats.
-
+Passport använder Multisig-konfigurationen som importerats av Sparrow för att visa och verifiera relevant nyckelinformation under QR-parkopplingen och signeringsflödet. Förvara *Descriptor* separat: den förblir avgörande för att återställa Wallet om en undertecknare inte är tillgänglig.
 
 
-Det är detta som gör Coldcard så intressant i en Multisig: den erbjuder ytterligare kontroller mot vissa sofistikerade attacker, vilket andra hårdvaruplånböcker inte tillåter (förutsatt, naturligtvis, att du använder den för att signera).
-
-
-
-I Sparrow öppnar du menyn "*Settings*" och klickar sedan på "*Export...*".
-
-
-
-![Image](assets/fr/24.webp)
-
-
-
-Bredvid alternativet "*Coldcard Multisig*" klickar du på "*Export File...*" och sparar textfilen på Micro SD-kortet.
-
-
-
-![Image](assets/fr/25.webp)
-
-
-
-Sätt sedan in kortet i Coldcard. Gå till menyn "*Inställningar*", sedan "*Multisig plånböcker*" och välj "*Importera från SD*".
-
-
-
-![Image](assets/fr/26.webp)
-
-
-
-Välj lämplig fil och bekräfta importen.
-
-
-
-![Image](assets/fr/27.webp)
-
-
-
-Klicka på namnet på din nyligen importerade Multisig.
-
-
-
-![Image](assets/fr/28.webp)
-
-
-
-Kontrollera Multisig:s konfigurationsparametrar och bekräfta sedan registreringen.
-
-
-
-![Image](assets/fr/29.webp)
-
-
-
-Din Multisig är nu korrekt sparad i ditt Coldcard. Om du har flera Coldcards i samma Multisig upprepar du denna procedur för varje Coldcard.
-
-
-
-Förutom att spara *Descriptor*, glöm inte att ägna särskild uppmärksamhet åt att spara Mnemonic-fraserna för var och en av dina signaturenheter. Om du precis har börjat rekommenderar jag starkt att du läser den här andra handledningen för att lära dig hur du sparar och hanterar dem på rätt sätt:
-
+Utöver att spara *Descriptor*, glöm inte att ägna särskild uppmärksamhet åt att spara återställningsfraserna för var och en av dina signaturenheter. Om du precis har börjat rekommenderar jag starkt att du läser den här andra handledningen för att lära dig hur du sparar och hanterar dem korrekt:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Innan du tar emot dina första bitcoins på din Multisig, **råder jag dig starkt att utföra ett tomt återställningstest**. Anteckna viss referensinformation, till exempel den första mottagande Address, och återställ sedan dina hårdvaruplånböcker medan Wallet fortfarande är tom. Försök sedan återställa dina Multisig Wallet på hårdvaruplånböckerna med hjälp av dina Mnemonic fraspapperskopior, sedan på Sparrow med hjälp av *Descriptor*. Kontrollera att den första Address som genereras efter återställningen matchar den som du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbackuper är tillförlitliga.
+Innan du tar emot dina första bitcoins på din Multisig **rekommenderar jag starkt att du utför ett återställningstest med en tom Wallet**. Anteckna viss referensinformation, till exempel den första mottagningsadressen, och återställ sedan dina Hardware Wallets till fabriksinställningarna medan Wallet fortfarande är tom. Försök sedan återställa din Multisig Wallet på Hardware Wallets med hjälp av dina återställningsfraser i pappersform, och sedan på Sparrow med hjälp av *Descriptor*. Kontrollera att den första adress som genereras efter återställningen matchar den du ursprungligen skrev ner. Om den gör det kan du vara säker på att dina pappersbaserade säkerhetskopior är tillförlitliga.
 
 
-
-Om du vill veta mer om hur du utför ett återställningstest föreslår jag att du läser den här andra handledningen:
-
+För att lära dig mer om hur du utför ett återställningstest föreslår jag att du läser den här andra handledningen:
 
 
 https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
@@ -390,233 +226,145 @@ https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a
 ## Ta emot bitcoins på din Multisig
 
 
-
 Din Wallet är nu redo att ta emot bitcoins. I Sparrow klickar du på fliken "*Receive*".
-
 
 
 ![Image](assets/fr/30.webp)
 
 
-
-Innan du använder Address som genererats av Sparrow wallet, ta dig tid att kontrollera den direkt på skärmen på dina hårdvaruplånböcker. Detta kommer att säkerställa att Address inte har ändrats och att dina enheter har de privata nycklar som behövs för att spendera de tillhörande pengarna. Detta hjälper till att skydda dig mot ett antal attackvektorer.
-
+Innan du använder den adress som genereras av Sparrow Wallet, ta dig tid att kontrollera den direkt på skärmen på dina Hardware Wallets. Detta säkerställer att adressen inte har ändrats, och att dina enheter har de privata nycklar som krävs för att spendera de tillhörande medlen. Detta hjälper till att skydda dig mot ett antal attackvektorer.
 
 
-För att göra detta klickar du på "*Display Address*" för att visa Address på din Trezor eller Ledger, när den är ansluten via kabel.
-
+För att göra detta, klicka på "*Display Address*" för att visa adressen på din Trezor eller Ledger, när den är ansluten med kabel.
 
 
 ![Image](assets/fr/31.webp)
 
 
-
-Med Coldcard kan denna verifiering utföras utan någon interaktion med Sparrow. Öppna helt enkelt menyn "*Address Explorer*" och välj sedan din Multisig längst ner.
-
+Med Passport väljer du Multisig-kontot och väljer "*Verify Address*". Skanna QR-koden för den mottagningsadress som visas av Sparrow. Passport bekräftar på sin skärm om adressen tillhör Multisig Wallet.
 
 
-![Image](assets/fr/32.webp)
+Kontrollera att adressen som visas på varje Hardware Wallet exakt motsvarar den i Sparrow Wallet. Det är lämpligt att göra detta precis innan du delar adressen med betalaren, för att vara säker på dess integritet.
 
 
-
-Du kommer då att se de mottagningsadresser som genereras av Multisig.
-
-
-
-![Image](assets/fr/33.webp)
-
-
-
-Kontrollera att den Address som visas på varje Hardware Wallet exakt motsvarar den i Sparrow wallet. Det är lämpligt att göra detta precis innan du delar Address med betalaren för att vara säker på dess integritet.
-
-
-
-Du kan sedan tilldela en "*Label*" till denna Address för att ange ursprunget för de mottagna bitcoins. Detta är ett bra sätt att organisera hanteringen av dina UTXO:er.
-
+Du kan sedan tilldela en "*Label*" till denna adress för att ange ursprunget för de mottagna bitcoinsen. Detta är ett bra sätt att organisera hanteringen av dina UTXO:er.
 
 
 ![Image](assets/fr/34.webp)
 
 
-
-När detta har verifierats kan du använda Address för att ta emot bitcoins.
-
+När detta har verifierats kan du använda adressen för att ta emot bitcoins.
 
 
 ![Image](assets/fr/35.webp)
 
 
-
 ## Skicka bitcoins med din Multisig
 
 
-
-Nu när du har fått dina första Satss på din Multisig Wallet kan du spendera dem också! I Sparrow går du till fliken "*Sänd*" för att skapa en ny transaktion.
-
+Nu när du har tagit emot dina första sats på din Multisig Wallet kan du också spendera dem! I Sparrow går du till fliken "*Send*" för att bygga en ny transaktion.
 
 
 ![Image](assets/fr/36.webp)
 
 
-
-Om du vill använda *Coin Control*, dvs. manuellt välja de UTXO du vill spendera, går du till fliken "*UTXO*". Välj de UTXO:er du vill använda och klicka sedan på "*Send Selected*". Du kommer automatiskt att omdirigeras till fliken "*Send*", där UTXO:erna redan är förifyllda.
-
+Om du vill använda *Coin Control*, dvs. manuellt välja de UTXO:er du vill spendera, går du till fliken "*UTXOs*". Välj de UTXO:er du vill spendera och klicka sedan på "*Send Selected*". Du omdirigeras automatiskt till fliken "*Send*", med UTXO:erna redan förifyllda.
 
 
 ![Image](assets/fr/37.webp)
 
 
-
-Ange destinationen Address. Flera adresser kan läggas till genom att klicka på "*+ Add*".
-
+Ange destinationsadressen. Flera adresser kan läggas till genom att klicka på "*+ Add*".
 
 
 ![Image](assets/fr/38.webp)
 
 
-
-Lägg till en "*Label*" för att beskriva syftet med denna kostnad, så att det blir lättare att spåra dina transaktioner.
-
+Lägg till en "*Label*" för att beskriva syftet med denna utgift, för att göra det lättare att spåra dina transaktioner.
 
 
 ![Image](assets/fr/39.webp)
 
 
-
-Ange det belopp som ska skickas till den valda Address.
-
+Ange det belopp som ska skickas till den valda adressen.
 
 
 ![Image](assets/fr/40.webp)
 
 
-
-Justera laddningsgraden efter aktuella nätverksförhållanden. Se till exempel [Mempool.space](https://Mempool.space/) för att välja en lämplig laddningsnivå.
-
+Justera avgiftsnivån utifrån aktuella nätverksförhållanden. Kontrollera till exempel [Mempool.space](https://Mempool.space/) för att välja en lämplig avgiftsnivå.
 
 
-När du har kontrollerat alla transaktionsparametrar klickar du på "*Create Transaction*".
-
+Efter att ha kontrollerat alla transaktionsparametrar klickar du på "*Create Transaction*".
 
 
 ![Image](assets/fr/41.webp)
 
 
-
 Om du är nöjd med allt klickar du på "*Finalize Transaction for Signing*".
-
 
 
 ![Image](assets/fr/42.webp)
 
 
-
-Längst ner på skärmen ser du att Sparrow väntar på 2 signaturer. Detta är normalt: den Wallet som används här är en Multisig 2-de-3.
-
+Längst ner på skärmen ser du att Sparrow väntar på 2 signaturer. Detta är normalt: Wallet som används här är en Multisig 2-av-3.
 
 
 ![Image](assets/fr/43.webp)
 
 
-
-Jag börjar med att signera med mitt Coldcard. För att göra detta sätter jag in ett Micro SD-kort i datorn och klickar sedan på "*Save Transaction*".
-
+Jag börjar signera med min Passport. I Sparrow klickar du på "*Show QR*" för att visa PSBT:n (*Partially Signed Bitcoin Transaction*) som animerade QR-koder. På Passport väljer du Multisig-kontot och väljer "*Sign with QR Code*", och skannar sedan QR-koden som visas av Sparrow.
 
 
-![Image](assets/fr/44.webp)
+På skärmen på din Hardware Wallet, kontrollera noggrant transaktionsparametrarna: mottagarens adress, det skickade beloppet och avgifterna. När transaktionen har bekräftats validerar du för att fortsätta till signeringen.
 
 
-
-Det finns tre sätt att överföra transaktionen som ska signeras till din Hardware Wallet och sedan hämta den från Sparrow. Det första är att använda ett Micro SD-kort, som vi kommer att göra här för Coldcard. Den andra är via en kabelanslutning, som vi kommer att använda för den andra signaturen (Ledger och Trezor). Slutligen är det möjligt att använda QR-kodkommunikation för kamerautrustade enheter som Coldcard Q, Jade Plus eller Passport V2.
-
-
-
-När PSBT (*Partially Signed Bitcoin Transaction*) har sparats på Micro SD-kortet sätter jag in det i Coldcard MK3 och väljer sedan menyn "*Ready to Sign*".
-
-
-
-![Image](assets/fr/45.webp)
-
-
-
-På din Hardware Wallet-skärm kontrollerar du noggrant transaktionsparametrarna: mottagarens Address, det skickade beloppet och avgifterna. När transaktionen har bekräftats validerar du för att gå vidare till underskrift.
-
-
-
-![Image](assets/fr/46.webp)
-
-
-
-Återlämna sedan Micro SD till din dator och klicka på "*Load Transaction*" i Sparrow. Välj PSBT signerad av Coldcard från dina filer.
-
-
-
-![Image](assets/fr/47.webp)
-
-
-
-Du kan se att Coldcard-signaturen har lagts till. Jag kommer nu att använda en andra enhet, i det här fallet Ledger, för att utföra den andra signaturen som krävs. Jag ansluter den, låser upp den och klickar sedan på "*Sign*" på Sparrow.
-
+Efter att du godkänt transaktionen visar Passport den signerade PSBT:n som animerade QR-koder. I Sparrow klickar du på "*Scan QR*" och skannar dessa koder med din webbkamera. Passports signatur läggs sedan till. Jag använder nu Ledger för den andra nödvändiga signaturen: jag ansluter och låser upp den, och klickar sedan på "*Sign*" i Sparrow.
 
 
 ![Image](assets/fr/48.webp)
 
 
-
 Klicka på "*Sign*" bredvid namnet på din Hardware Wallet.
-
 
 
 ![Image](assets/fr/49.webp)
 
 
-
-Första gången du använder din Ledger med denna Multisig kommer Sparrow att be dig att verifiera medsignaturernas utökade publika nycklar (xpubs). Precis som med Coldcard förhindrar detta steg att du signerar i blindo senare. För att validera denna information jämför du den xpub som visas på Ledger-skärmen med de som tillhandahålls direkt av dina andra hårdvaruplånböcker.
-
+Första gången du använder din Ledger med denna Multisig kommer Sparrow att be dig verifiera de utökade publika nycklarna (xpub:erna) för medsignerarna. Precis som med Passport förhindrar detta steg dig från att signera blint senare. För att validera denna information jämför du xpub:en som visas på Ledger-skärmen med dem som tillhandahålls direkt av dina andra Hardware Wallets.
 
 
 ![Image](assets/fr/50.webp)
 
 
-
-Kontrollera mottagarens Address, det överförda beloppet och transaktionsavgiften, och underteckna sedan transaktionen.
-
+Kontrollera mottagarens adress, det överförda beloppet och transaktionsavgiften, och signera sedan transaktionen.
 
 
 ![Image](assets/fr/51.webp)
 
 
-
 Tryck på skärmen för att signera.
-
 
 
 ![Image](assets/fr/52.webp)
 
 
-
-Sparrow har nu de två signaturer som behövs för att frigöra medlen från Multisig Wallet. Kontrollera transaktionen en sista gång och om allt går bra klickar du på "*Broadcast Transaction*" för att sända den över nätverket.
-
+Sparrow har nu de två signaturer som krävs för att frigöra medlen från Multisig Wallet. Kontrollera transaktionen en sista gång, och om allt ser bra ut klickar du på "*Broadcast Transaction*" för att sända ut den i nätverket.
 
 
 ![Image](assets/fr/53.webp)
 
 
-
-Du hittar den här transaktionen i Sparrow wallet:s flik "*Transaktioner*".
-
+Du hittar denna transaktion i fliken "*Transactions*" i Sparrow Wallet.
 
 
 ![Image](assets/fr/54.webp)
 
 
-
-Grattis, du vet nu hur man ställer in och använder en multisignatur Wallet på Sparrow. Om du tyckte att den här handledningen var användbar skulle jag vara tacksam om du lämnar en Green-tumme nedan. Du får gärna dela den här artikeln på dina sociala nätverk. Tack för att du delar med dig!
-
+Grattis, nu vet du hur man konfigurerar och använder en Multisig Wallet på Sparrow. Om du fann den här handledningen användbar skulle jag uppskatta om du lämnade en grön tumme nedan. Dela gärna den här artikeln på dina sociala nätverk. Tack för att du delar!
 
 
-För att gå vidare rekommenderar jag att du läser den här handledningen om en annan metod för att öka säkerheten för din Bitcoin Wallet, passphrase BIP39 :
-
+För att gå vidare rekommenderar jag att du läser den här handledningen om en annan metod för att öka säkerheten för din Bitcoin Wallet, BIP39-lösenfrasen :
 
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7

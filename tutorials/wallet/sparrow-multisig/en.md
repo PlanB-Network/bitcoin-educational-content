@@ -51,7 +51,7 @@ To set up a multi-signature wallet, you'll need different hardware wallets. For 
 
 - A Trezor Model One;
 - Ledger Flex;
-- A Coldcard MK3.
+- A Passport Core.
 
 
 ![Image](assets/fr/03.webp)
@@ -69,7 +69,7 @@ It's a good idea to use different makes of Hardware Wallet in your Multisig conf
 
 
 
-- The Coldcard is equipped with a Secure Element and its code is searchable. It's an interesting choice for our configuration, as it offers verification features not available on other models.
+- The Passport Core combines fully open-source firmware, a Secure Element, and air-gapped QR-code exchanges. It is an independent third signer that can verify addresses and sign PSBTs without a USB data connection.
 
 
 Before configuring your Multisig wallet, make sure that each Hardware Wallet is correctly configured (mnemonic generation and saving, PIN definition). For detailed instructions, you can consult our tutorials for each Hardware Wallet, for example :
@@ -79,9 +79,11 @@ https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4
 
 https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 As we'll see later in this tutorial, it's also possible to integrate into your Multisig configuration a factor which is not associated with a Hardware Wallet, but whose private keys are stored on your PC. This method is obviously less secure than the exclusive use of hardware wallets, but it may be relevant in certain cases. For example, for a Multisig 2-de-3, you could opt for two hardware wallets and one Software Wallet.
+
+> ⚠️ **Coldcard MK3 security notice:** do not create a new seed on an MK3 running firmware earlier than 4.2.0. Seeds generated on earlier firmware must be replaced and the funds moved. This tutorial therefore uses Passport Core as its air-gapped reference signer.
 
 
 ## Creating a Multisig wallet
@@ -114,46 +116,17 @@ In the top right-hand corner, you can now define the total number of keys in you
 At the bottom of the window, Sparrow Wallet displays three "*Keystore*". Each represents a set of keys. Here, I'm using three hardware wallets, so each "*Keystore*" corresponds to one of them. We'll now configure them.
 
 
-I start with the Coldcard. In the "*Keystore 1*" tab, I choose the "*Airgapped Hardware Wallet*" option.
+I start with the Passport Core. In the "*Keystore 1*" tab, I choose the "*Airgapped Hardware Wallet*" option.
 
 
 ![Image](assets/fr/08.webp)
 
 
-On the Coldcard, once the device is unlocked, I go to the "*Settings*" menu, then to "*Multisig Wallets*".
+On the Passport, open the account you want to use, then select "*Connect Wallet*" > "*Sparrow*" > "*Connect as Multisig*". The Passport displays an animated QR code containing its public key information.
 
+In Sparrow, select "*Scan...*" next to "*Passport*" and scan that animated QR code with your computer's webcam. Check the master-key fingerprint shown by Sparrow against the one displayed by the Passport, then import the keystore.
 
-![Image](assets/fr/09.webp)
-
-
-This menu lets you manage the multisig wallets in which the Coldcard participates. I want to create a new one, so I select "*Export XPUB*".
-
-
-![Image](assets/fr/10.webp)
-
-
-For the "*Account number*" field, if you only manage one account, you can leave it blank and validate directly by pressing the confirmation button.
-
-
-![Image](assets/fr/11.webp)
-
-
-The Coldcard will then generate a file containing your xpub, saved on the Micro SD card.
-
-
-![Image](assets/fr/12.webp)
-
-
-Insert this Micro SD into your computer. In Sparrow Wallet, click on the "*Import File...*" button next to "*Coldcard Multisig*", then select the file created by the Coldcard on the card.
-
-
-![Image](assets/fr/13.webp)
-
-
-Your xpub has been successfully imported. We'll now repeat the procedure with the other two hardware wallets.
-
-
-![Image](assets/fr/14.webp)
+Your Passport xpub has now been imported. Repeat the appropriate procedure for the Ledger Flex and Trezor Model One.
 
 
 For the Ledger Flex, I select "*Keystore 2*", then click on "*Connected Hardware Wallet*". Make sure the Ledger is connected to the computer, unlocked, and that the Bitcoin application is open.
@@ -207,7 +180,7 @@ Remember to save this password in a safe place, such as a password manager, to a
 ## Backing up a Multisig wallet
 
 
-We're now going to save our *Output Script Descriptor* on the Coldcard (this only applies to users with a Coldcard in their Multisig), and above all, we're going to keep a backup of it on an independent medium.
+We will now save the *Output Script Descriptor* on an independent medium and keep several copies of it.
 
 
 The *Descriptor* contains all the xpubs in your Multisig wallet, as well as the derivation paths used to generate the keys. Remember what we saw in Part 1: to restore a Multisig wallet, you must either have **all** the mnemonic phrases, or only the minimum number required to reach the signature threshold. However, in the latter case, it is also essential to have **the xpubs** of the missing signatories. The *Descriptor* contains all your Multisig's xpubs.
@@ -219,7 +192,7 @@ If this isn't clear, just remember this: to retrieve a Multisig, you need the mi
 This *Descriptor* contains no private keys, only public ones. This means that it does not give access to the funds. It is therefore not as critical as mnemonic phrases, which give full access to your bitcoins. The risk with the *Descriptor* is solely related to confidentiality: in the event of compromise, a third party could observe all your transactions, but could not spend your funds.
 
 
-I strongly recommend that you create several copies of this *Descriptor*, and keep them with each signing device on your Multisig. For example, in my case, I print the *Descriptor* on paper and keep one copy with the Coldcard, another with the Trezor, and one with the Ledger. I also save this *Descriptor* as a PDF file on three USB sticks, each stored with one of the hardware wallets. In this way, I maximize my chances of never losing this *Descriptor*, and I'm sure of having two copies (one physical and one digital) with each device.
+I strongly recommend that you create several copies of this *Descriptor*, and keep them with each signing device on your Multisig. For example, in my case, I print the *Descriptor* on paper and keep one copy with the Passport, another with the Trezor, and one with the Ledger. I also save this *Descriptor* as a PDF file on three USB sticks, each stored with one of the hardware wallets. In this way, I maximize my chances of never losing this *Descriptor*, and I'm sure of having two copies (one physical and one digital) with each device.
 
 
 Once your Multisig wallet has been created, Sparrow automatically provides you with this *Descriptor*. Click on the "*Save PDF...*" button to save it both as text and as a QR code.
@@ -234,49 +207,7 @@ You can then print this PDF and copy it to your USB sticks.
 ![Image](assets/fr/23.webp)
 
 
-We'll also register this *Descriptor* in the Coldcard (if you use one in your configuration). This will allow the Coldcard to verify that each transaction signed later corresponds to the original wallet: correct xpubs, correct address format, correct derivation path... Without this imported *Descriptor*, Coldcard cannot confirm that exchange addresses have not been hijacked or that PSBT has not been tampered with.
-
-
-This is what makes the Coldcard so interesting in a Multisig: it offers additional checks against certain sophisticated attacks, which other hardware wallets don't allow (provided, of course, that you use it to sign).
-
-
-In Sparrow, access the "*Settings*" menu, then click on "*Export...*".
-
-
-![Image](assets/fr/24.webp)
-
-
-Next to the "*Coldcard Multisig*" option, click on "*Export File...*" and save the text file to the Micro SD card.
-
-
-![Image](assets/fr/25.webp)
-
-
-Then insert the card into the Coldcard. Go to the "*Settings*" menu, then "*Multisig Wallets*", and select "*Import from SD*".
-
-
-![Image](assets/fr/26.webp)
-
-
-Select the appropriate file and confirm the import.
-
-
-![Image](assets/fr/27.webp)
-
-
-Click on the name of your newly imported Multisig.
-
-
-![Image](assets/fr/28.webp)
-
-
-Check the Multisig configuration parameters, then confirm registration.
-
-
-![Image](assets/fr/29.webp)
-
-
-Your Multisig is now correctly saved in your Coldcard. If you have several Coldcards in the same Multisig, repeat this procedure for each one.
+The Passport uses the multisig configuration imported by Sparrow to display and verify the relevant key information during the QR pairing and signing flow. Keep the *Descriptor* independently: it remains essential to recover the wallet if one signer is unavailable.
 
 
 In addition to saving the *Descriptor*, don't forget to pay particular attention to saving the mnemonic phrases for each of your signature devices. If you're just starting out, I highly recommend that you consult this other tutorial to learn how to save and manage them correctly:
@@ -310,16 +241,7 @@ To do this, click on "*Display Address*" to display the address on your Trezor o
 ![Image](assets/fr/31.webp)
 
 
-With Coldcard, this verification can be carried out without any interaction with Sparrow. Simply open the "*Address Explorer*" menu, then select your Multisig at the very bottom.
-
-
-![Image](assets/fr/32.webp)
-
-
-You will then see the reception addresses generated by the Multisig.
-
-
-![Image](assets/fr/33.webp)
+With the Passport, select the multisig account and choose "*Verify Address*". Scan the QR code of the receive address displayed by Sparrow. The Passport confirms on its screen whether the address belongs to the multisig wallet.
 
 
 Check that the address displayed on each hardware wallet corresponds exactly to the one in Sparrow Wallet. It's advisable to do this just before sharing the address with the payer, to be sure of its integrity.
@@ -391,34 +313,13 @@ At the bottom of the screen, you'll see that Sparrow is waiting for 2 signatures
 ![Image](assets/fr/43.webp)
 
 
-I start signing with my Coldcard. To do this, I insert a Micro SD card into the computer, then click on "*Save Transaction*".
-
-
-![Image](assets/fr/44.webp)
-
-
-There are 3 ways of transmitting the transaction to be signed to your Hardware Wallet, then retrieving it from Sparrow. The first is to use a Micro SD card, as we'll do here for the Coldcard. The second is via a cable connection, which we'll use for the second signature (Ledger and Trezor). Finally, it's possible to use QR code communication, for camera-equipped devices such as the Coldcard Q, Jade Plus or Passport V2.
-
-
-Once the PSBT (*Partially Signed Bitcoin Transaction*) has been saved on the Micro SD, I insert it into the Coldcard MK3, then select the "*Ready to Sign*" menu.
-
-
-![Image](assets/fr/45.webp)
+I start signing with my Passport. In Sparrow, click "*Show QR*" to display the PSBT (*Partially Signed Bitcoin Transaction*) as animated QR codes. On the Passport, select the multisig account and choose "*Sign with QR Code*", then scan the QR code displayed by Sparrow.
 
 
 On your Hardware Wallet screen, carefully check the transaction parameters: the recipient's address, the amount sent, and the charges. Once the transaction has been confirmed, validate to proceed to signature.
 
 
-![Image](assets/fr/46.webp)
-
-
-Then return the Micro SD to your computer, and click on "*Load Transaction*" in Sparrow. Select the PSBT signed by Coldcard from your files.
-
-
-![Image](assets/fr/47.webp)
-
-
-You can see that the Coldcard signature has been added. I'm now going to use a second device, in this case the Ledger, to perform the second signature required. I connect it, unlock it, then click on "*Sign*" on Sparrow.
+After you approve the transaction, the Passport displays the signed PSBT as animated QR codes. In Sparrow, click "*Scan QR*" and scan those codes with your webcam. The Passport signature is then added. I now use the Ledger for the second required signature: I connect and unlock it, then click "*Sign*" in Sparrow.
 
 
 ![Image](assets/fr/48.webp)
@@ -430,7 +331,7 @@ Click on "*Sign*" next to the name of your Hardware Wallet.
 ![Image](assets/fr/49.webp)
 
 
-The first time you use your Ledger with this Multisig, Sparrow will ask you to verify the extended public keys (xpubs) of the co-signers. As with the Coldcard, this step prevents you from signing blindly later on. To validate this information, compare the xpub displayed on the Ledger screen with those provided directly by your other hardware wallets.
+The first time you use your Ledger with this Multisig, Sparrow will ask you to verify the extended public keys (xpubs) of the co-signers. As with the Passport, this step prevents you from signing blindly later on. To validate this information, compare the xpub displayed on the Ledger screen with those provided directly by your other hardware wallets.
 
 
 ![Image](assets/fr/50.webp)

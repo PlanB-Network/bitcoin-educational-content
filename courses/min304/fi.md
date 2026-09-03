@@ -29,7 +29,7 @@ Vaiheittaiset oppaat ohjaavat sinut läpi koko prosessin, jotta voit rakentaa At
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tervetuloa MIN 304 -kurssille, joka käsittelee Attakai-projektia. Ajelex, Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
+Tervetuloa MIN 304 -kurssille, joka käsittelee Attakai-projektia. Jim ja Rogzy opastavat sinut Bitcoin-louhinnan olennaisiin elementteihin ja ohjaavat sitten askel askeleelta Attakai-laitteesi rakentamisessa, joka on käytetystä S9:stä valmistettu DIY-kotikäyttöinen lämmitysjärjestelmä. Toivomme, että nautit kurssista ja lähdet mukaan kotilouhinnan seikkailuun!
 
 Tämä koulutus vie sinut Bitcoin-louhinnan maailmaan tarjoten sekä teoreettista että käytännön tietoa. Olitpa sitten aloittelija tai jo asiasta tietoinen, tämä kurssi auttaa sinua ymmärtämään louhintaan liittyvät taloudelliset ja tekniset haasteet samalla, kun toteutat käytännön projektin ASIC-laitteen uudelleenkäytöstä kotilämmitykseen.
 
@@ -300,7 +300,7 @@ Yhteenvetona, huolimatta sääntelyriskistä ja louhinnan kiellon mahdollisuudes
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, joka japaniksi tarkoittaa "ihannetta lämpötilaa", on nimenä aloitteelle, jonka tavoitteena on tutustuttaa ihmisiä bitcoinien louhintaan lämmön uudelleenkäytön kautta, jonka ovat käynnistäneet @ajelexBTC ja @jimzap21 yhdessä Découvre Bitcoinin kanssa.
+Attakai, joka japaniksi tarkoittaa "ihannetta lämpötilaa", on nimenä aloitteelle, jonka tavoitteena on tutustuttaa ihmisiä bitcoinien louhintaan lämmön uudelleenkäytön kautta, jonka ovat käynnistäneet @jimzap21 yhdessä Découvre Bitcoinin kanssa.
 Tämä ASIC-muunnosopas toimii perustana oppimiselle lisää louhinnasta, sen toiminnasta ja taustalla olevasta taloudesta osoittamalla mahdollisuuden mukauttaa Bitcoin-louhintalaite toimimaan lämpöpattereina kodeissa. Tämä tarjoaa lisää mukavuutta ja säästöjä, mahdollistaen osallistujille saada ei-KYC BTC käteispalautusta sähkölämmityslaskustaan.
 
 Bitcoin säätää automaattisesti louhintavaikeutta ja palkitsee louhijoita heidän osallistumisestaan. Kuitenkin hashraten keskittyminen voi aiheuttaa riskejä verkon neutraaliudelle. Bitcoinin laskentatehon käyttäminen lämmitysratkaisuihin hyödyttää suoraan verkkoa itseään lisäämällä laskentatehon jakautumista.

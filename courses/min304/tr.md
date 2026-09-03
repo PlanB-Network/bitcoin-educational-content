@@ -41,7 +41,7 @@ Adım adım kılavuzlar, evinizde Attakai'yi inşa edebilmeniz ve alanınızı �
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-MIN 304'ye, Attakai projesi hakkındaki kursa hoş geldiniz. Ajelex, Jim ve Rogzy sizi Bitcoin madenciliğinin temel unsurları konusunda yönlendirecek, ardından kullanılmış bir S9'dan yapılmış kendin yap ev ısıtma sistemi olan Attakai'nizi inşa etmede adım adım size eşlik edecektir. Kurstan keyif almanızı ve ev madenciliği macerasına atılmanızı umuyoruz!
+MIN 304'ye, Attakai projesi hakkındaki kursa hoş geldiniz. Jim ve Rogzy sizi Bitcoin madenciliğinin temel unsurları konusunda yönlendirecek, ardından kullanılmış bir S9'dan yapılmış kendin yap ev ısıtma sistemi olan Attakai'nizi inşa etmede adım adım size eşlik edecektir. Kurstan keyif almanızı ve ev madenciliği macerasına atılmanızı umuyoruz!
 
 
 Bu eğitim sizi Bitcoin Mining endüstrisinin kalbine götürerek hem teorik hem de pratik bilgiler sağlar. İster yeni başlıyor olun ister konuya zaten aşina olun, bu eğitim Mining'ün ekonomik ve teknik yönlerini anlamanıza yardımcı olurken, bir ASIC'ün ev ısıtması için yeniden kullanılmasına yönelik pratik bir projeyi tamamlayacaktır.
@@ -462,7 +462,7 @@ Sonuç olarak, mevzuat riskine ve Avrupa'da bir Mining yasağı olasılığına 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Japonca'da "ideal sıcaklık" anlamına gelen Attakai, @ajelexBTC ve @jimzap21 tarafından Découvre Bitcoin ile başlatılan ısının yeniden kullanımı yoluyla Bitcoin Mining'ü keşfetmeyi amaçlayan girişimin adıdır.
+Japonca'da "ideal sıcaklık" anlamına gelen Attakai, @jimzap21 tarafından Découvre Bitcoin ile başlatılan ısının yeniden kullanımı yoluyla Bitcoin Mining'ü keşfetmeyi amaçlayan girişimin adıdır.
 
 Bu ASIC güçlendirme kılavuzu, bir Bitcoin Miner'nin evlerde radyatör olarak kullanılmak üzere uyarlanabileceğini göstererek Mining, çalışması ve altında yatan ekonomi hakkında daha fazla bilgi edinmek için bir temel oluşturacaktır. Bu, daha fazla konfor ve tasarruf sunarak katılımcıların elektrikli ısıtma faturalarında KYC olmayan BTC nakit iadesi almalarına olanak tanır.
 

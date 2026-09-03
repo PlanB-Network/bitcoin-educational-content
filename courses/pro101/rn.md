@@ -1445,7 +1445,7 @@ Mu gusozera, kazoza ka Bitcoin n’ihinduka ryayo bigenwa n’ubushake rusangi b
 #### Imenyekanisha
 
 
-Ajelex yibanda ku ruhande rw’ubudandaji rwa Bitcoin Mining, isuzuma ingamba zo kuguma ufise inyungu mw’isoko ry’amahiganwa. Ico kiganiro kirimwo ugusuzuma ibiciro vy’ibikorwa, ingero z’ubushobozi, n’ubutunzi bujana inganda ya Mining.
+Umwigisha yibanda ku ruhande rw’ubudandaji rwa Bitcoin Mining, isuzuma ingamba zo kuguma ufise inyungu mw’isoko ry’amahiganwa. Ico kiganiro kirimwo ugusuzuma ibiciro vy’ibikorwa, ingero z’ubushobozi, n’ubutunzi bujana inganda ya Mining.
 
 
 ### 1. Mining igoranye n'ibintu bituma umuntu aronka inyungu

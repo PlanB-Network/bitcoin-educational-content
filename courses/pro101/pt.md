@@ -1437,7 +1437,6 @@ Em conclusão, o futuro e as mudanças do Bitcoin são determinados pela vontade
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Em conclusão, o futuro e as mudanças do Bitcoin são determinados pela vontade
 #### Introdução
 
 
-A Ajelex centra-se no aspeto comercial do Bitcoin Mining, examinando estratégias para manter a rentabilidade num mercado competitivo. A discussão inclui uma análise dos custos operacionais, medidas de eficiência e a economia que impulsiona a indústria do Mining.
+A O palestrante centra-se no aspeto comercial do Bitcoin Mining, examinando estratégias para manter a rentabilidade num mercado competitivo. A discussão inclui uma análise dos custos operacionais, medidas de eficiência e a economia que impulsiona a indústria do Mining.
 
 
 ### 1. Factores de complexidade e rentabilidade do Mining

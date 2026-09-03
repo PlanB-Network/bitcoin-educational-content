@@ -1437,7 +1437,6 @@ Yhteenvetona voidaan todeta, että Bitcoin:n tulevaisuus ja muutokset määräyt
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Yhteenvetona voidaan todeta, että Bitcoin:n tulevaisuus ja muutokset määräyt
 #### Johdanto
 
 
-Ajelex keskittyy Bitcoin Mining:n liiketoiminnallisiin näkökohtiin ja tarkastelee strategioita kannattavuuden säilyttämiseksi kilpailluilla markkinoilla. Keskusteluun sisältyy analyysi toimintakustannuksista, tehostamistoimenpiteistä ja Mining-teollisuutta ohjaavista taloudellisista tekijöistä.
+Puhuja keskittyy Bitcoin Mining:n liiketoiminnallisiin näkökohtiin ja tarkastelee strategioita kannattavuuden säilyttämiseksi kilpailluilla markkinoilla. Keskusteluun sisältyy analyysi toimintakustannuksista, tehostamistoimenpiteistä ja Mining-teollisuutta ohjaavista taloudellisista tekijöistä.
 
 
 ### 1. Mining monimutkaisuus ja kannattavuustekijät

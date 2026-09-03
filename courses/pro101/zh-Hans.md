@@ -1437,7 +1437,6 @@ Bitcoin 的共识机制使其具有固有的政治性，需要获得广泛同意
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Bitcoin 的共识机制使其具有固有的政治性，需要获得广泛同意
 #### 导言
 
 
-Ajelex 重点关注 Bitcoin Mining 的业务方面，研究在竞争激烈的市场中保持盈利能力的策略。讨论包括对运营成本、效率措施和推动 Mining 行业发展的经济因素的分析。
+演讲者 重点关注 Bitcoin Mining 的业务方面，研究在竞争激烈的市场中保持盈利能力的策略。讨论包括对运营成本、效率措施和推动 Mining 行业发展的经济因素的分析。
 
 
 ### 1.Mining 的复杂性和盈利因素

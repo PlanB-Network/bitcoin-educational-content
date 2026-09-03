@@ -1437,7 +1437,6 @@ Kesimpulannya, masa depan dan perubahan Bitcoin ditentukan oleh kehendak kolekti
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Kesimpulannya, masa depan dan perubahan Bitcoin ditentukan oleh kehendak kolekti
 #### Pendahuluan
 
 
-Ajelex berfokus pada aspek bisnis Bitcoin Mining, memeriksa strategi untuk mempertahankan profitabilitas di pasar yang kompetitif. Pembahasannya meliputi analisis biaya operasional, langkah-langkah efisiensi, dan ekonomi yang mendorong industri Mining.
+Pembicara berfokus pada aspek bisnis Bitcoin Mining, memeriksa strategi untuk mempertahankan profitabilitas di pasar yang kompetitif. Pembahasannya meliputi analisis biaya operasional, langkah-langkah efisiensi, dan ekonomi yang mendorong industri Mining.
 
 
 ### 1. Faktor kompleksitas dan profitabilitas Mining

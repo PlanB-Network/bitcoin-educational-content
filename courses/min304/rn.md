@@ -32,7 +32,7 @@ Inzira z'intambwe ku ntambwe zikuyobora mu nzira yose kugira ngo ushobore kubaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Murakaza neza kuri MIN 304, isomo ku mushinga wa Attakai. Ajelex, Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
+Murakaza neza kuri MIN 304, isomo ku mushinga wa Attakai. Jim na Rogzy bazakuyobora mu bintu by'ibanze by'ubucukuzi bwa Bitcoin, hanyuma bakuyobore intambwe ku ntambwe mu kubaka Attakai yawe, sisitemu yo gushyushya mu rugo wakora wenyine yakozwe muri S9 yakoreshejwe. Twizera ko isomo rizakwishimisha kandi ko uzatangira ibihe by'ubucukuzi mu rugo!
 
 
 Iri menyerezwa rigutwara mu mutima w’uruganda rwa Bitcoin mining, riguha ubumenyi bw’ivyiyumviro n’ubumenyi bw’ibikorwa. Waba uri uwutangura canke uri uwumaze kumenya neza ibi turiko turavuga, iki cigwa kizogufasha gutahura ibijanye n'ubutunzi be n’ubuhinga bwa mining, mu gihe uriko urakora umugambi ngirakamaro wo gusubira guha ubushobozi bundi ASIC wifashisha mu gutuma muhira hashuha.
@@ -450,7 +450,7 @@ Mu gusozera, naho hariho ingorane zijanye n’amategeko be n’ivyago vyo kuzobu
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Attakai, bisobanura "ubushuhe bwo" mu kiyapani, ni izina ry'umugambi ugamije kuvumbura Bitcoin mining biciye mu gusubira gukoresha ubushuhe watangujwe na @ajelexBTC na @jimzap21 hamwe na Découvre Bitcoin.
+Attakai, bisobanura "ubushuhe bwo" mu kiyapani, ni izina ry'umugambi ugamije kuvumbura Bitcoin mining biciye mu gusubira gukoresha ubushuhe watangujwe na @jimzap21 hamwe na Découvre Bitcoin.
 
 Iyi nzira izogufasha gusubiramwo ASIC izokora nk’ishimikiro ryo kwiga vyinshi ku bijanye na mining, ingene ikora, n’ubutunzi bishingiyeko mu kwerekana ubushobozi bwo guhindura Bitcoin Miner kugira ngo ikoreshwe nk’igikoresho co gushira ubushuhe mu ngo. Ivyo bituma umuntu agira umunezero mwinshi kandi akazigama, bikaba bituma abakora mining bashobora kuronka amafaranga ya  BTC atari KYC kuri mafaranga yabo yo gushusha hakoreshejwe umuyagankuba.
 

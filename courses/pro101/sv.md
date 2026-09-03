@@ -1437,7 +1437,6 @@ Sammanfattningsvis bestäms Bitcoin:s framtid och förändringar av dess använd
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Sammanfattningsvis bestäms Bitcoin:s framtid och förändringar av dess använd
 #### Inledning
 
 
-Ajelex fokuserar på affärsaspekten av Bitcoin Mining och undersöker strategier för att upprätthålla lönsamheten på en konkurrensutsatt marknad. Diskussionen omfattar en analys av driftskostnader, effektivitetsåtgärder och de ekonomiska faktorer som driver Mining-industrin.
+Talaren fokuserar på affärsaspekten av Bitcoin Mining och undersöker strategier för att upprätthålla lönsamheten på en konkurrensutsatt marknad. Diskussionen omfattar en analys av driftskostnader, effektivitetsåtgärder och de ekonomiska faktorer som driver Mining-industrin.
 
 
 ### 1. Mining komplexitets- och lönsamhetsfaktorer

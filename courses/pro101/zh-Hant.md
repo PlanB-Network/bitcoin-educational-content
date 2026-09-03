@@ -1437,7 +1437,6 @@ Bitcoin 的共識機制使其具有固有的政治性，需要廣泛的同意才
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Bitcoin 的共識機制使其具有固有的政治性，需要廣泛的同意才
 #### 簡介
 
 
-Ajelex 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
+講者 著重於 Bitcoin Mining 的商業層面，研究在競爭激烈的市場中維持獲利能力的策略。討論內容包括營運成本分析、效率措施以及推動 Mining 產業的經濟因素。
 
 
 ### 1.Mining 複雜性與獲利因素

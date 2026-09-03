@@ -1437,7 +1437,6 @@ Podsumowując, przyszłość i zmiany Bitcoin zależą od zbiorowej woli jego u�
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Podsumowując, przyszłość i zmiany Bitcoin zależą od zbiorowej woli jego u�
 #### Wprowadzenie
 
 
-Ajelex koncentruje się na biznesowym aspekcie Bitcoin Mining, badając strategie utrzymania rentowności na konkurencyjnym rynku. Dyskusja obejmuje analizę kosztów operacyjnych, środków efektywności i ekonomii napędzających branżę Mining.
+Prelegent koncentruje się na biznesowym aspekcie Bitcoin Mining, badając strategie utrzymania rentowności na konkurencyjnym rynku. Dyskusja obejmuje analizę kosztów operacyjnych, środków efektywności i ekonomii napędzających branżę Mining.
 
 
 ### 1. Czynniki złożoności i rentowności Mining

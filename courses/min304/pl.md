@@ -41,7 +41,7 @@ Przewodniki krok po kroku przeprowadzą cię przez cały proces, abyś mógł zb
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Witamy w MIN 304, kursie o projekcie Attakai. Ajelex, Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
+Witamy w MIN 304, kursie o projekcie Attakai. Jim i Rogzy poprowadzą Cię przez kluczowe elementy wydobywania Bitcoinów, a następnie będą Ci towarzyszyć krok po kroku w budowie Twojego Attakai, systemu ogrzewania domu DIY wykonanego z używanego S9. Mamy nadzieję, że kurs Ci się spodoba i wyruszysz w przygodę z domowym wydobyciem!
 
 
 Szkolenie to przenosi w samo serce branży Bitcoin Mining, zapewniając zarówno wiedzę teoretyczną, jak i praktyczną. Niezależnie od tego, czy jesteś początkującym, czy już zaznajomionym z tematem, ten kurs pomoże Ci zrozumieć ekonomiczne i techniczne aspekty Mining, jednocześnie realizując praktyczny projekt zmiany przeznaczenia ASIC do ogrzewania domu.
@@ -462,7 +462,7 @@ Podsumowując, pomimo ryzyka regulacyjnego i możliwości wprowadzenia zakazu st
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Attakai, co po japońsku oznacza "idealną temperaturę", to nazwa inicjatywy mającej na celu odkrycie Bitcoin Mining poprzez ponowne wykorzystanie ciepła, uruchomionej przez @ajelexBTC i @jimzap21 z Découvre Bitcoin.
+Attakai, co po japońsku oznacza "idealną temperaturę", to nazwa inicjatywy mającej na celu odkrycie Bitcoin Mining poprzez ponowne wykorzystanie ciepła, uruchomionej przez @jimzap21 z Découvre Bitcoin.
 
 Niniejszy przewodnik dotyczący modernizacji ASIC posłuży jako podstawa do zapoznania się z Mining, jego działaniem i podstawową ekonomią poprzez zademonstrowanie możliwości dostosowania Bitcoin Miner do użytku jako grzejniki w domach. Zapewnia to większy komfort i oszczędności, umożliwiając uczestnikom otrzymanie zwrotu gotówki za ogrzewanie elektryczne.
 

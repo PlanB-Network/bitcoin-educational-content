@@ -30,7 +30,7 @@ Jika Anda memerlukan bantuan dengan pengaturan Anda, sebuah grup Telegram telah 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Selamat datang di MIN 304, kursus tentang proyek Attakai. Ajelex, Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian menemani Anda langkah demi langkah dalam membangun Attakai Anda, sebuah pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap kursus ini akan menyenangkan bagi Anda dan Anda akan memulai petualangan home mining!
+Selamat datang di MIN 304, kursus tentang proyek Attakai. Jim dan Rogzy akan memandu Anda melalui elemen-elemen penting penambangan Bitcoin, kemudian menemani Anda langkah demi langkah dalam membangun Attakai Anda, sebuah pemanas rumah DIY yang dibuat dari S9 bekas. Kami berharap kursus ini akan menyenangkan bagi Anda dan Anda akan memulai petualangan home mining!
 
 Pelatihan ini membenamkan Anda ke dalam jantung industri penambangan Bitcoin dengan menawarkan pemahaman tentang aspek teoritis dan praktisnya. Baik Anda pemula atau sudah familiar dengan topik ini, perjalanan ini akan memungkinkan Anda memahami isu-isu ekonomi dan teknis yang terkait dengan penambangan, sambil mewujudkan proyek praktis penggunaan ulang ASIC untuk pemanas rumah.
 
@@ -303,7 +303,7 @@ Kesimpulannya, meskipun ada risiko regulasi dan kemungkinan larangan penambangan
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, yang berarti "suhu ideal" dalam bahasa Jepang, adalah nama inisiatif yang bertujuan untuk menemukan penambangan bitcoin melalui pemanfaatan ulang panas yang diluncurkan oleh @ajelexBTC dan @jimzap21 dengan Découvre Bitcoin.
+Attakai, yang berarti "suhu ideal" dalam bahasa Jepang, adalah nama inisiatif yang bertujuan untuk menemukan penambangan bitcoin melalui pemanfaatan ulang panas yang diluncurkan oleh @jimzap21 dengan Découvre Bitcoin.
 Panduan retrofit ASIC ini akan dijadikan dasar untuk mempelajari lebih lanjut tentang penambangan, cara kerjanya, dan ekonomi yang mendasarinya dengan menunjukkan kemungkinan menyesuaikan penambang Bitcoin untuk digunakan sebagai radiator di rumah. Ini menawarkan lebih banyak kenyamanan dan penghematan, memungkinkan peserta untuk menerima cash back BTC non-KYC pada tagihan pemanas listrik mereka.
 
 Bitcoin secara otomatis menyesuaikan kesulitan penambangan dan memberi hadiah kepada penambang atas partisipasi mereka. Namun, konsentrasi hashrate dapat menimbulkan risiko terhadap netralitas jaringan. Menggunakan kekuatan komputasi Bitcoin untuk solusi pemanasan secara langsung menguntungkan jaringan itu sendiri dengan meningkatkan distribusi kekuatan komputasi.

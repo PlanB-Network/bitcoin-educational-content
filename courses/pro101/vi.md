@@ -1437,7 +1437,6 @@ Tóm lại, tương lai và những thay đổi của Bitcoin được quyết �
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Tóm lại, tương lai và những thay đổi của Bitcoin được quyết �
 #### Giới thiệu
 
 
-Ajelex tập trung vào khía cạnh kinh doanh của Bitcoin và Mining, xem xét các chiến lược duy trì lợi nhuận trong một thị trường cạnh tranh. Nội dung thảo luận bao gồm phân tích chi phí vận hành, các biện pháp hiệu quả và các yếu tố kinh tế thúc đẩy ngành công nghiệp Mining.
+Diễn giả tập trung vào khía cạnh kinh doanh của Bitcoin và Mining, xem xét các chiến lược duy trì lợi nhuận trong một thị trường cạnh tranh. Nội dung thảo luận bao gồm phân tích chi phí vận hành, các biện pháp hiệu quả và các yếu tố kinh tế thúc đẩy ngành công nghiệp Mining.
 
 
 ### 1. Các yếu tố phức tạp và lợi nhuận của Mining

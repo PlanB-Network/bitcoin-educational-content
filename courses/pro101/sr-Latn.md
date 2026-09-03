@@ -1457,7 +1457,6 @@ Zaključno, budućnost i promene Bitcoin određene su kolektivnom voljom njegovi
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1465,7 +1464,7 @@ Zaključno, budućnost i promene Bitcoin određene su kolektivnom voljom njegovi
 #### Uvod
 
 
-Ajelex se fokusira na poslovni aspekt Bitcoin Mining, ispitujući strategije za održavanje profitabilnosti na konkurentnom tržištu. Diskusija uključuje analizu operativnih troškova, mere efikasnosti i ekonomiju koja pokreće industriju Mining.
+Predavač se fokusira na poslovni aspekt Bitcoin Mining, ispitujući strategije za održavanje profitabilnosti na konkurentnom tržištu. Diskusija uključuje analizu operativnih troškova, mere efikasnosti i ekonomiju koja pokreće industriju Mining.
 
 
 ### 1. Faktori složenosti i profitabilnosti Mining

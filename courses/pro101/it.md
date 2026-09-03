@@ -1437,7 +1437,6 @@ In conclusione, il futuro e i cambiamenti di Bitcoin sono determinati dalla volo
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ In conclusione, il futuro e i cambiamenti di Bitcoin sono determinati dalla volo
 #### Introduzione
 
 
-Ajelex si concentra sull'aspetto commerciale del Bitcoin mining, esaminando le strategie per mantenere la redditività in un mercato competitivo. La discussione comprende un'analisi dei costi operativi, delle misure di efficienza e dei fattori economici che guidano l'industria del mining.
+Il relatore si concentra sull'aspetto commerciale del Bitcoin mining, esaminando le strategie per mantenere la redditività in un mercato competitivo. La discussione comprende un'analisi dei costi operativi, delle misure di efficienza e dei fattori economici che guidano l'industria del mining.
 
 
 ### 1. fattori di complessità e redditività del mining

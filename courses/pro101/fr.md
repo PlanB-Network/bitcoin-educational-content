@@ -1410,7 +1410,6 @@ En conclusion, l'avenir et les changements de Bitcoin sont déterminés par la v
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1418,7 +1417,7 @@ En conclusion, l'avenir et les changements de Bitcoin sont déterminés par la v
 #### Introduction
 
 
-Ajelex se concentre sur l'aspect commercial du minage de Bitcoin, en examinant les stratégies pour maintenir une rentabilité dans un marché concurrentiel. La discussion comprend une analyse des coûts opérationnels, des mesures d'efficacité et de l'économie qui sous-tend l'industrie du minage.
+Le conférencier se concentre sur l'aspect commercial du minage de Bitcoin, en examinant les stratégies pour maintenir une rentabilité dans un marché concurrentiel. La discussion comprend une analyse des coûts opérationnels, des mesures d'efficacité et de l'économie qui sous-tend l'industrie du minage.
 
 
 ### 1. Facteurs de complexité et de rentabilité du minage

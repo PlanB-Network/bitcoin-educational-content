@@ -41,7 +41,7 @@ Steg-för-steg-guider leder dig genom hela processen så att du kan bygga Attaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Välkommen till MIN 304, kursen om Attakai-projektet. Ajelex, Jim och Rogzy guidar dig genom de väsentliga elementen i Bitcoin-mining och följer sedan med dig steg för steg i att bygga din Attakai, ett DIY-hemuppvärmningssystem gjort av en begagnad S9. Vi hoppas att du gillar kursen och ger dig ut på hemma-mining-äventyret!
+Välkommen till MIN 304, kursen om Attakai-projektet. Jim och Rogzy guidar dig genom de väsentliga elementen i Bitcoin-mining och följer sedan med dig steg för steg i att bygga din Attakai, ett DIY-hemuppvärmningssystem gjort av en begagnad S9. Vi hoppas att du gillar kursen och ger dig ut på hemma-mining-äventyret!
 
 
 Den här utbildningen tar dig till hjärtat av Bitcoin Mining-industrin och ger dig både teoretisk och praktisk kunskap. Oavsett om du är nybörjare eller redan är bekant med ämnet kommer den här kursen att hjälpa dig att förstå de ekonomiska och tekniska aspekterna av Mining, samtidigt som du slutför ett praktiskt projekt för att återanvända en ASIC för uppvärmning av hemmet.
@@ -462,7 +462,7 @@ Sammanfattningsvis, trots den regulatoriska risken och möjligheten till ett fö
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Attakai, som betyder "den idealiska temperaturen" på japanska, är namnet på initiativet som syftar till att upptäcka Bitcoin Mining genom värmeåteranvändning som lanserades av @ajelexBTC och @jimzap21 med Découvre Bitcoin.
+Attakai, som betyder "den idealiska temperaturen" på japanska, är namnet på initiativet som syftar till att upptäcka Bitcoin Mining genom värmeåteranvändning som lanserades av @jimzap21 med Découvre Bitcoin.
 
 Denna eftermonteringsguide för ASIC kommer att fungera som en grund för att lära sig mer om Mining, dess drift och den underliggande ekonomin genom att visa möjligheten att anpassa en Bitcoin Miner för användning som radiatorer i hem. Detta ger mer komfort och besparingar, vilket gör att deltagarna kan få tillbaka icke-KYC BTC-kontanter på sin elvärmeräkning.
 

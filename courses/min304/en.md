@@ -26,7 +26,7 @@ Step-by-step guides walk you through the entire process so you can build Attakai
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Welcome to MIN 304, the course on the Attakai project. Ajelex, Jim and Rogzy will guide you through the essential elements of Bitcoin mining, then accompany you step by step in building your Attakai, a DIY home heating system made from a used S9. We hope you enjoy the course and embark on the home mining adventure!
+Welcome to MIN 304, the course on the Attakai project. Jim and Rogzy will guide you through the essential elements of Bitcoin mining, then accompany you step by step in building your Attakai, a DIY home heating system made from a used S9. We hope you enjoy the course and embark on the home mining adventure!
 
 This training takes you to the heart of the Bitcoin mining industry, providing both theoretical and practical knowledge. Whether you are a beginner or already familiar with the topic, this course will help you understand the economic and technical aspects of mining while completing a practical project of repurposing an ASIC for home heating.
 
@@ -300,7 +300,7 @@ In conclusion, despite the regulatory risks and the possibility of a mining ban 
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, which means "the ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through heat reuse launched by @ajelexBTC and @jimzap21 with Découvre Bitcoin.
+Attakai, which means "the ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through heat reuse launched by @jimzap21 with Découvre Bitcoin.
 This ASIC retrofitting guide will serve as a basis for learning more about mining, its operation, and the underlying economy by demonstrating the possibility of adapting a Bitcoin miner for use as a radiator in homes. This offers more comfort and savings, allowing participants to receive non-KYC BTC cash back on their electric heating bill.
 
 Bitcoin automatically adjusts the mining difficulty and rewards miners for their participation. However, the concentration of hashrate can pose risks to the network's neutrality. Using Bitcoin's computing power for heating solutions directly benefits the network itself by increasing the distribution of computing power.

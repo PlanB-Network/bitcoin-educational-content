@@ -41,7 +41,7 @@ Vodiči korak po korak vode vas kroz ceo proces tako da možete izgraditi Attaka
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Dobrodošli u MIN 304, kurs o projektu Attakai. Ajelex, Jim i Rogzy će vas voditi kroz osnovne elemente Bitcoin rudarenja, a zatim će vas pratiti korak po korak u izgradnji vašeg Attakai-a, DIY sistema kućnog grejanja napravljenog od korišćenog S9. Nadamo se da ćete uživati u kursu i krenuti u avanturu kućnog rudarenja!
+Dobrodošli u MIN 304, kurs o projektu Attakai. Jim i Rogzy će vas voditi kroz osnovne elemente Bitcoin rudarenja, a zatim će vas pratiti korak po korak u izgradnji vašeg Attakai-a, DIY sistema kućnog grejanja napravljenog od korišćenog S9. Nadamo se da ćete uživati u kursu i krenuti u avanturu kućnog rudarenja!
 
 
 Ova obuka vas vodi u srce industrije Bitcoin rudarenja, pružajući i teorijsko i praktično znanje. Bilo da ste početnik ili već upoznati sa temom, ovaj kurs će vam pomoći da razumete ekonomske i tehničke aspekte rudarenja, dok završavate praktični projekat prenamene ASIC-a za grejanje doma.
@@ -459,7 +459,7 @@ U zaključku, uprkos regulatornom riziku i mogućnosti zabrane rudarenja u Evrop
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Attakai, što znači "idealna temperatura" na japanskom, naziv je inicijative usmerene na otkrivanje Bitcoin rudarenja kroz ponovnu upotrebu toplote koju su pokrenuli @ajelexBTC i @jimzap21 sa Découvre Bitcoin.
+Attakai, što znači "idealna temperatura" na japanskom, naziv je inicijative usmerene na otkrivanje Bitcoin rudarenja kroz ponovnu upotrebu toplote koju su pokrenuli @jimzap21 sa Découvre Bitcoin.
 
 Ovaj vodič za prepravku ASIC uređaja poslužiće kao osnova za dublje razumevanje rudarenja, njegovog funkcionisanja i prateće ekonomije, prikazujući mogućnost prilagođavanja Bitcoin mašina za rudarenje za upotrebu kao radijatora u domaćinstvima. Ovo nudi više komfora i uštede, omogućavajući učesnicima da dobiju povrat BTC-a bez KYC-a na svom računu za električno grejanje.
 

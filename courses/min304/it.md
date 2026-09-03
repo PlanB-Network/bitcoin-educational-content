@@ -29,7 +29,7 @@ Le guide passo dopo passo ti accompagnano attraverso l'intero processo in modo d
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Benvenuto a MIN 304, il corso sul progetto Attakai. Ajelex, Jim e Rogzy ti guideranno attraverso gli elementi essenziali del mining di Bitcoin, poi ti accompagneranno passo dopo passo nella costruzione del tuo Attakai, un sistema di riscaldamento domestico fai-da-te realizzato da un S9 usato. Speriamo che il corso ti piaccia e che ti imbarchi nell'avventura del mining domestico!
+Benvenuto a MIN 304, il corso sul progetto Attakai. Jim e Rogzy ti guideranno attraverso gli elementi essenziali del mining di Bitcoin, poi ti accompagneranno passo dopo passo nella costruzione del tuo Attakai, un sistema di riscaldamento domestico fai-da-te realizzato da un S9 usato. Speriamo che il corso ti piaccia e che ti imbarchi nell'avventura del mining domestico!
 
 Questo corso ti porta nel cuore dell'industria del mining di Bitcoin offrendoti una comprensione degli aspetti teorici e pratici. Che tu sia un principiante o abbia già familiarità con l'argomento, questo percorso ti permetterà di comprendere le sfide economiche e tecniche legate al mining, realizzando al contempo un progetto pratico di riutilizzo di un ASIC per il riscaldamento domestico.
 
@@ -307,7 +307,7 @@ In conclusione, nonostante il rischio normativo e la possibilità di un divieto 
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, che significa "la temperatura ideale" in giapponese, è il nome dell'iniziativa volta a scoprire il mining di bitcoin attraverso il riutilizzo del calore, lanciata da @ajelexBTC e @jimzap21 con Découvre Bitcoin.
+Attakai, che significa "la temperatura ideale" in giapponese, è il nome dell'iniziativa volta a scoprire il mining di bitcoin attraverso il riutilizzo del calore, lanciata da @jimzap21 con Découvre Bitcoin.
 
 Questa guida per il retrofitting di un ASIC servirà come base per imparare di più sul mining, il suo funzionamento e l'economia sottostante, dimostrando la possibilità di adattare un minatore di Bitcoin per l'uso come radiatori nelle abitazioni. Ciò offre maggiore comfort ed efficienza energetica, consentendo ai partecipanti di ottenere cash back in BTC non KYC sulla loro bolletta di riscaldamento elettrico.
 

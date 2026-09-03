@@ -1437,7 +1437,6 @@ Bitcoins fremtid og endringer avgjøres av brukernes kollektive vilje. Viktige e
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Bitcoins fremtid og endringer avgjøres av brukernes kollektive vilje. Viktige e
 #### Innledning
 
 
-Ajelex fokuserer på forretningsaspektet ved Bitcoin Mining, og undersøker strategier for å opprettholde lønnsomheten i et konkurranseutsatt marked. Diskusjonen inkluderer en analyse av driftskostnader, effektivitetstiltak og de økonomiske drivkreftene i Mining-bransjen.
+Foredragsholderen fokuserer på forretningsaspektet ved Bitcoin Mining, og undersøker strategier for å opprettholde lønnsomheten i et konkurranseutsatt marked. Diskusjonen inkluderer en analyse av driftskostnader, effektivitetstiltak og de økonomiske drivkreftene i Mining-bransjen.
 
 
 ### 1. Mining kompleksitet og lønnsomhetsfaktorer

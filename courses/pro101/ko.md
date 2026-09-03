@@ -1437,7 +1437,6 @@ Bitcoin에서는 다수결 원칙이 중요한 역할을 합니다. 채굴자의
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Bitcoin에서는 다수결 원칙이 중요한 역할을 합니다. 채굴자의
 #### 소개
 
 
-Ajelex는 경쟁이 치열한 시장에서 수익성을 유지하기 위한 전략을 검토하면서 Bitcoin Mining의 비즈니스 측면에 초점을 맞춥니다. 이 논의에는 운영 비용, 효율성 측정 및 Mining 산업을 이끄는 경제성 분석이 포함됩니다.
+발표자는 경쟁이 치열한 시장에서 수익성을 유지하기 위한 전략을 검토하면서 Bitcoin Mining의 비즈니스 측면에 초점을 맞춥니다. 이 논의에는 운영 비용, 효율성 측정 및 Mining 산업을 이끄는 경제성 분석이 포함됩니다.
 
 
 ### 1. Mining 복잡성 및 수익성 요인

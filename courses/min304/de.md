@@ -29,7 +29,7 @@ Schritt-für-Schritt-Anleitungen führen Sie durch den gesamten Prozess, sodass 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Willkommen bei MIN 304, dem Kurs über das Attakai-Projekt. Ajelex, Jim und Rogzy führen Sie durch die wesentlichen Elemente des Bitcoin-Minings und begleiten Sie dann Schritt für Schritt beim Bau Ihres Attakai, einer DIY-Hausheizung, die aus einem gebrauchten S9 hergestellt wird. Wir hoffen, dass Ihnen der Kurs gefällt und dass Sie sich auf das Abenteuer des Home-Minings einlassen!
+Willkommen bei MIN 304, dem Kurs über das Attakai-Projekt. Jim und Rogzy führen Sie durch die wesentlichen Elemente des Bitcoin-Minings und begleiten Sie dann Schritt für Schritt beim Bau Ihres Attakai, einer DIY-Hausheizung, die aus einem gebrauchten S9 hergestellt wird. Wir hoffen, dass Ihnen der Kurs gefällt und dass Sie sich auf das Abenteuer des Home-Minings einlassen!
 
 Dieser Kurs führt Sie in die Welt des Bitcoin-Minings ein, indem er Ihnen theoretische und praktische Aspekte vermittelt. Ob Sie Anfänger sind oder bereits mit dem Thema vertraut sind, dieser Kurs wird Ihnen helfen, die wirtschaftlichen und technischen Herausforderungen des Minings zu verstehen und ein praktisches Projekt zur Wiederverwendung eines ASICs für die Heimheizung durchzuführen.
 
@@ -297,7 +297,7 @@ Zusammenfassend lässt sich sagen, dass trotz des regulatorischen Risikos und de
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, was auf Japanisch "ideale Temperatur" bedeutet, ist der Name der Initiative, die das Bitcoin-Mining durch Wärmerückgewinnung entdecken möchte, ins Leben gerufen von @ajelexBTC und @jimzap21 mit Découvre Bitcoin.
+Attakai, was auf Japanisch "ideale Temperatur" bedeutet, ist der Name der Initiative, die das Bitcoin-Mining durch Wärmerückgewinnung entdecken möchte, ins Leben gerufen von @jimzap21 mit Découvre Bitcoin.
 Dieser Leitfaden zur Umrüstung eines ASIC dient als Grundlage, um mehr über das Mining, seine Funktionsweise und die zugrunde liegende Wirtschaft zu erfahren, indem gezeigt wird, wie ein Bitcoin-Miner als Heizkörper in Wohnungen verwendet werden kann. Dies bietet mehr Komfort und Einsparungen und ermöglicht es den Teilnehmern, BTC-Cashback auf ihrer Stromrechnung ohne KYC zu erhalten.
 
 Bitcoin passt automatisch die Mining-Schwierigkeit an und belohnt die Miner für ihre Teilnahme. Die Konzentration der Hashrate kann jedoch Risiken für die Neutralität des Netzwerks darstellen. Die Verwendung der Rechenleistung von Bitcoin für Heizungslösungen kommt dem Netzwerk selbst direkt zugute, indem die Verteilung der Rechenleistung erhöht wird.

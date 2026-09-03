@@ -26,9 +26,9 @@ Las guías paso a paso te llevan a través de todo el proceso para que puedas co
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-¡Bienvenido al curso MIN201: Una introducción al minado! Ajelex, Jim y Rogzy están encantados de guiarte en tus primeros pasos en esta industria. Esperamos que disfrutes del curso y que te aventures en la emocionante experiencia de la minería en casa.
+¡Bienvenido al curso MIN201: Una introducción al minado! Jim y Rogzy están encantados de guiarte en tus primeros pasos en esta industria. Esperamos que disfrutes del curso y que te aventures en la emocionante experiencia de la minería en casa.
 
-Bienvenido a MIN 304, el curso sobre el proyecto Attakai. Ajelex, Jim y Rogzy te guiarán a través de los elementos esenciales de la minería de Bitcoin, luego te acompañarán paso a paso en la construcción de tu Attakai, un sistema de calefacción doméstica DIY fabricado a partir de un S9 de segunda mano. ¡Esperamos que disfrutes del curso y te embarques en la aventura de la minería doméstica!
+Bienvenido a MIN 304, el curso sobre el proyecto Attakai. Jim y Rogzy te guiarán a través de los elementos esenciales de la minería de Bitcoin, luego te acompañarán paso a paso en la construcción de tu Attakai, un sistema de calefacción doméstica DIY fabricado a partir de un S9 de segunda mano. ¡Esperamos que disfrutes del curso y te embarques en la aventura de la minería doméstica!
 
 **Sección 2: La minería, su funcionamiento, su industria y sus desafíos**
 En esta sección, proporcionaremos un conocimiento profundo sobre el minado de Bitcoin. Abordaremos el funcionamiento técnico del minado, su rol en el protocolo de Bitcoin, así como sus implicaciones económicas y geopolíticas. También descubrirás la compleja relación entre el precio del bitcoin y el hashrate, así como los desafíos relacionados con la soberanía y la regulación de esta industria.
@@ -310,7 +310,7 @@ En conclusión, a pesar de los riesgos regulatorios y la posibilidad de una proh
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, que significa "la temperatura ideal" en japonés, es el nombre de la iniciativa para descubrir la minería de bitcoins a través de la reutilización del calor lanzada por @ajelexBTC y @jimzap21 con Découvre Bitcoin.
+Attakai, que significa "la temperatura ideal" en japonés, es el nombre de la iniciativa para descubrir la minería de bitcoins a través de la reutilización del calor lanzada por @jimzap21 con Découvre Bitcoin.
 
 Esta guía para modernizar un ASIC servirá como base para aprender más sobre la minería, su funcionamiento y la economía subyacente, demostrando la posibilidad de adaptar un minero de Bitcoin para su uso como radiadores en los hogares. Esto ofrece mayor comodidad y eficiencia energética, lo que permite a los participantes obtener reembolsos en efectivo de BTC que no sean KYC en la factura de calefacción eléctrica.
 

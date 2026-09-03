@@ -29,7 +29,7 @@ Podrobné návody vás provedou celým procesem, abyste mohli postavit Attakai d
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Vítejte v MIN 304, kurzu o projektu Attakai. Ajelex, Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
+Vítejte v MIN 304, kurzu o projektu Attakai. Jim a Rogzy vás provedou základními prvky těžby Bitcoinu a poté vás krok za krokem doprovodí při výstavbě vašeho Attakai, DIY domácího topení vyrobeného z použitého S9. Doufáme, že se vám kurz bude líbit a že se pustíte do dobrodružství domácí těžby!
 
 Tento kurz vás zavede do světa těžby Bitcoinu, kde se seznámíte s teoretickými i praktickými aspekty. Ať už jste nováček nebo máte s těžbou již nějaké zkušenosti, tento kurz vám pomůže pochopit ekonomické a technické výzvy spojené s těžbou, a zároveň se naučíte, jak přeměnit ASIC na zařízení pro domácí vytápění.
 
@@ -299,7 +299,7 @@ Závěrem, navzdory regulačnímu riziku a možnosti zákazu těžby v Evropě, 
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím opětovného využití tepla, kterou spustili @ajelexBTC a @jimzap21 s Découvre Bitcoin.
+Attakai, což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím opětovného využití tepla, kterou spustili @jimzap21 s Découvre Bitcoin.
 Tento průvodce úpravou ASIC poslouží jako základ pro další poznání o těžbě, jejím fungování a podkladové ekonomice tím, že ukáže možnost přizpůsobení těžaře bitcoinů pro použití jako radiátory v domácnostech. To nabízí větší pohodlí a úspory, umožňuje účastníkům dostávat ne-KYC BTC cashback na jejich účet za elektrické vytápění.
 
 Bitcoin automaticky upravuje obtížnost těžby a odměňuje těžaře za jejich účast. Koncentrace hashrate však může představovat rizika pro neutralitu sítě. Využití výpočetního výkonu Bitcoinu pro řešení vytápění přímo prospívá samotné síti tím, že zvyšuje distribuci výpočetního výkonu.

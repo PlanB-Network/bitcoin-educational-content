@@ -1038,13 +1038,12 @@ Kwa kumalizia, mustakabali na mabadiliko ya Bitcoin yanaamuliwa na mapenzi ya pa
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
 
 #### Utangulizi
 
-Ajelex inaangazia kipengele cha biashara cha mining wa Bitcoin, ikichunguza mikakati ya kudumisha faida katika soko shindani. Majadiliano hayo yanajumuisha uchanganuzi wa gharama za uendeshaji, hatua za ufanisi, na uchumi unaoendesha tasnia ya mining.
+Mzungumzaji inaangazia kipengele cha biashara cha mining wa Bitcoin, ikichunguza mikakati ya kudumisha faida katika soko shindani. Majadiliano hayo yanajumuisha uchanganuzi wa gharama za uendeshaji, hatua za ufanisi, na uchumi unaoendesha tasnia ya mining.
 
 ### 1. Utata wa mining na Mambo ya Faida
 

@@ -1437,7 +1437,6 @@ Závěrem lze říci, že o budoucnosti a změnách Bitcoin rozhoduje společná
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Závěrem lze říci, že o budoucnosti a změnách Bitcoin rozhoduje společná
 #### Úvod
 
 
-Ajelex se zaměřuje na obchodní aspekt Bitcoin Mining a zkoumá strategie pro udržení ziskovosti na konkurenčním trhu. Součástí diskuse je analýza provozních nákladů, opatření na zvýšení efektivity a ekonomické aspekty, které jsou hnací silou odvětví Mining.
+Řečník se zaměřuje na obchodní aspekt Bitcoin Mining a zkoumá strategie pro udržení ziskovosti na konkurenčním trhu. Součástí diskuse je analýza provozních nákladů, opatření na zvýšení efektivity a ekonomické aspekty, které jsou hnací silou odvětví Mining.
 
 
 ### 1. Mining faktory složitosti a ziskovosti

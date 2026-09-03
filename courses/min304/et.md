@@ -29,7 +29,7 @@ Samm-sammulised juhendid viivad teid läbi kogu protsessi, et saaksite ehitada A
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Tere tulemast MIN 304-sse, Attakai projekti kursusele. Ajelex, Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
+Tere tulemast MIN 304-sse, Attakai projekti kursusele. Jim ja Rogzy juhendavad teid Bitcoin'i kaevandamise oluliste elementide kaudu, seejärel saadavad teid samm-sammult teie Attakai ehitamisel, mis on kasutatud S9-st valmistatud DIY kodune küttesüsteem. Loodame, et naudit kursust ja alustad koduse kaevandamise seiklust!
 
 See koolitus viib teid Bitcoini kaevandamise tööstuse südamesse, pakkudes teoreetilisi ja praktilisi teadmisi. Olenemata sellest, kas olete algaja või juba teema kohta teadlik, aitab see kursus teil mõista kaevandamise majanduslikke ja tehnilisi aspekte ning viia ellu praktiline projekt ASIC-seadme taaskasutamiseks kodukütteks.
 
@@ -298,7 +298,7 @@ Järelduseks, hoolimata regulatiivsest riskist ja kaevandamiskeelu võimalusest 
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, mis jaapani keeles tähendab "ideaalset temperatuuri", on algatuse nimi, mille eesmärk on avastada bitcoini kaevandamist soojuse taaskasutuse kaudu, mille käivitasid @ajelexBTC ja @jimzap21 koos Découvre Bitcoiniga.
+Attakai, mis jaapani keeles tähendab "ideaalset temperatuuri", on algatuse nimi, mille eesmärk on avastada bitcoini kaevandamist soojuse taaskasutuse kaudu, mille käivitasid @jimzap21 koos Découvre Bitcoiniga.
 See ASIC-i ümberehitusjuhend toimib alusena kaevandamise, selle toimimise ja aluseks oleva majanduse kohta rohkem teada saamiseks, demonstreerides bitcoini kaevuri kohandamise võimalust kodudes radiaatoritena kasutamiseks. See pakub rohkem mugavust ja säästu, võimaldades osalejatel saada oma elektriküttearvelt mitte-KYC BTC tagasimakseid.
 
 Bitcoin kohandab automaatselt kaevandamise raskust ja premeerib kaevureid nende osaluse eest. Siiski võib hashrate'i kontsentratsioon kujutada endast ohtu võrgu neutraalsusele. Bitcoini arvutusvõimsuse kasutamine küttesüsteemides toob võrgule otseselt kasu, suurendades arvutusvõimsuse jaotust.

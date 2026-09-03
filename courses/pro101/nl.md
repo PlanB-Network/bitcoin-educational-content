@@ -1437,7 +1437,6 @@ Concluderend, de toekomst en veranderingen van Bitcoin worden bepaald door de co
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Concluderend, de toekomst en veranderingen van Bitcoin worden bepaald door de co
 #### Inleiding
 
 
-Ajelex richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
+De spreker richt zich op het zakelijke aspect van Bitcoin Mining en onderzoekt strategieën om winstgevend te blijven in een concurrerende markt. De discussie omvat een analyse van operationele kosten, efficiëntiemaatregelen en de economische drijfveren van de Mining industrie.
 
 
 ### 1. Mining complexiteit en rentabiliteitsfactoren

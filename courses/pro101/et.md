@@ -1437,7 +1437,6 @@ Kokkuvõttes määrab Bitcoin tuleviku ja muutused kasutajate ühine tahe. Oluli
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ Kokkuvõttes määrab Bitcoin tuleviku ja muutused kasutajate ühine tahe. Oluli
 #### Sissejuhatus
 
 
-Ajelex keskendub Bitcoin Mining ärilisele aspektile, uurides strateegiaid kasumlikkuse säilitamiseks konkurentsivõimelisel turul. Arutelu hõlmab tegevuskulude analüüsi, tõhususmeetmeid ja Mining tööstust mõjutavaid majanduslikke aspekte.
+Esineja keskendub Bitcoin Mining ärilisele aspektile, uurides strateegiaid kasumlikkuse säilitamiseks konkurentsivõimelisel turul. Arutelu hõlmab tegevuskulude analüüsi, tõhususmeetmeid ja Mining tööstust mõjutavaid majanduslikke aspekte.
 
 
 ### 1. Mining keerukuse ja kasumlikkuse tegurid

@@ -41,7 +41,7 @@ Stapsgewijze handleidingen leiden je door het hele proces zodat je Attakai thuis
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
 
-Welkom bij MIN 304, de cursus over het Attakai-project. Ajelex, Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
+Welkom bij MIN 304, de cursus over het Attakai-project. Jim en Rogzy begeleiden je door de essentiële elementen van Bitcoin-mining en begeleiden je vervolgens stap voor stap bij het bouwen van je Attakai, een doe-het-zelf thuisverwarmingssysteem gemaakt van een gebruikte S9. We hopen dat je van de cursus geniet en aan het thuismining-avontuur begint!
 
 
 Deze training neemt je mee naar het hart van de Bitcoin Mining industrie en biedt zowel theoretische als praktische kennis. Of je nu een beginner bent of al bekend met het onderwerp, deze cursus helpt je de economische en technische aspecten van Mining te begrijpen, terwijl je een praktisch project uitvoert om een ASIC te hergebruiken voor thuisverwarming.
@@ -462,7 +462,7 @@ Concluderend, ondanks het regelgevingsrisico en de mogelijkheid van een Mining v
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
 
-Attakai, wat 'de ideale temperatuur' betekent in het Japans, is de naam van het initiatief dat gericht is op het ontdekken van Bitcoin Mining door hergebruik van warmte, gelanceerd door @ajelexBTC en @jimzap21 met Découvre Bitcoin.
+Attakai, wat 'de ideale temperatuur' betekent in het Japans, is de naam van het initiatief dat gericht is op het ontdekken van Bitcoin Mining door hergebruik van warmte, gelanceerd door @jimzap21 met Découvre Bitcoin.
 
 Deze ASIC retrofitting gids zal dienen als basis om meer te leren over Mining, de werking en de onderliggende economie door de mogelijkheid te demonstreren om een Bitcoin Miner aan te passen voor gebruik als radiatoren in woningen. Dit biedt meer comfort en besparingen, waardoor deelnemers niet-KYC BTC cashback kunnen krijgen op hun elektrische verwarmingsrekening.
 

@@ -29,7 +29,7 @@ Os guias passo a passo orientam você por todo o processo para que possa constru
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Bem-vindo ao MIN 304, o curso sobre o projeto Attakai. Ajelex, Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
+Bem-vindo ao MIN 304, o curso sobre o projeto Attakai. Jim e Rogzy irão guiá-lo através dos elementos essenciais da mineração de Bitcoin, depois acompanhá-lo passo a passo na construção do seu Attakai, um sistema de aquecimento doméstico DIY feito a partir de um S9 usado. Esperamos que você aproveite o curso e embarque na aventura da mineração doméstica!
 
 Este treinamento leva você ao coração da indústria de mineração de Bitcoin, oferecendo uma compreensão dos aspectos teóricos e práticos. Seja você um iniciante ou alguém já familiarizado com o assunto, este curso o ajudará a entender os desafios econômicos e técnicos relacionados à mineração, enquanto realiza um projeto prático de reutilização de um ASIC para aquecimento doméstico.
 
@@ -297,7 +297,7 @@ Em conclusão, apesar do risco regulatório e da possibilidade de uma proibiçã
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, que significa "temperatura ideal" em japonês, é o nome da iniciativa para descobrir a mineração de bitcoins por meio da reutilização de calor lançada por @ajelexBTC e @jimzap21 com o Découvre Bitcoin.
+Attakai, que significa "temperatura ideal" em japonês, é o nome da iniciativa para descobrir a mineração de bitcoins por meio da reutilização de calor lançada por @jimzap21 com o Découvre Bitcoin.
 Este guia de retrofitting de um ASIC servirá como base para aprender mais sobre mineração, seu funcionamento e a economia subjacente, demonstrando a possibilidade de adaptar um minerador de Bitcoin para uso como radiadores em residências. Isso oferece mais conforto e economia, permitindo que os participantes recebam cash back em BTC não KYC em sua conta de energia elétrica.
 
 O Bitcoin ajusta automaticamente a dificuldade de mineração e recompensa os mineradores por sua participação, no entanto, a concentração da taxa de hash pode representar riscos para a neutralidade da rede. Utilizar o poder de computação do Bitcoin para soluções de aquecimento beneficia diretamente a própria rede, aumentando a distribuição do poder de computação.

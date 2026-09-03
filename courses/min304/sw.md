@@ -30,7 +30,7 @@ Miongozo ya hatua kwa hatua inakuongoza katika mchakato mzima ili uweze kujenga 
 
 <chapterId>7ad1abeb-a190-5c85-8bff-44df71331e4d</chapterId>
 
-Karibu kwenye MIN 304, kozi kuhusu mradi wa Attakai. Ajelex, Jim na Rogzy watawaongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha watawaandamana hatua kwa hatua katika ujenzi wa Attakai yako, kifaa cha joto cha nyumbani cha DIY kilichotengenezwa kutoka kwa S9 iliyotumika. Tunatumaini kozi itakuwa ya kufurahisha kwako na utaanza safari ya uchimbaji wa nyumbani!
+Karibu kwenye MIN 304, kozi kuhusu mradi wa Attakai. Jim na Rogzy watawaongoza kupitia vipengele muhimu vya uchimbaji wa Bitcoin, kisha watawaandamana hatua kwa hatua katika ujenzi wa Attakai yako, kifaa cha joto cha nyumbani cha DIY kilichotengenezwa kutoka kwa S9 iliyotumika. Tunatumaini kozi itakuwa ya kufurahisha kwako na utaanza safari ya uchimbaji wa nyumbani!
 
 Mafunzo haya yanakuzamisha katika moyo wa tasnia ya uchimbaji wa Bitcoin kwa kukupatia uelewa wa vipengele vyake vya kinadharia na vitendo. Iwe wewe ni mwanafunzi mpya au tayari umejifunza kuhusu mada hii, safari hii itakuruhusu kuelewa masuala ya kiuchumi na kiufundi yanayohusiana na uchimbaji, huku ukitekeleza mradi wa vitendo wa kutumia tena ASIC kwa ajili ya joto la nyumbani.
 
@@ -313,7 +313,7 @@ Kwa kumalizia, licha ya hatari ya udhibiti na uwezekano wa kupiga marufuku Minin
 
 <chapterId>1f5d1b74-2f99-5f31-a088-a73d36491ebf</chapterId>
 
-Attakai, linalomaanisha "joto linalofaa" kwa Kijapani, ndilo jina la mpango unaolenga kugundua Bitcoin Mining kupitia utumiaji tena wa joto uliozinduliwa na @ajelexBTC na @jimzap21 na Découvre Bitcoin.
+Attakai, linalomaanisha "joto linalofaa" kwa Kijapani, ndilo jina la mpango unaolenga kugundua Bitcoin Mining kupitia utumiaji tena wa joto uliozinduliwa na @jimzap21 na Découvre Bitcoin.
 
 Mwongozo huu wa urekebishaji wa ASIC utatumika kama msingi wa kujifunza zaidi kuhusu Mining, uendeshaji wake, na uchumi wa msingi kwa kuonyesha uwezekano wa kurekebisha Bitcoin Miner kwa matumizi kama radiators nyumbani. Hii inatoa faraja na uokoaji zaidi, ikiruhusu washiriki kupokea pesa taslimu za BTC zisizo za KYC kwenye bili yao ya kuongeza joto.
 

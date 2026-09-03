@@ -1437,7 +1437,6 @@ En conclusión, el futuro y los cambios de Bitcoin vienen determinados por la vo
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
 
-<professorId>e320ccda-be59-492b-a81b-243d9acb592f</professorId>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1445,7 +1444,7 @@ En conclusión, el futuro y los cambios de Bitcoin vienen determinados por la vo
 #### Introducción
 
 
-Ajelex se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
+El ponente se centra en el aspecto empresarial de la Bitcoin Mining, examinando las estrategias para mantener la rentabilidad en un mercado competitivo. El debate incluye un análisis de los costes operativos, las medidas de eficiencia y los aspectos económicos que impulsan la industria del Mining.
 
 
 ### 1. Mining factores de complejidad y rentabilidad

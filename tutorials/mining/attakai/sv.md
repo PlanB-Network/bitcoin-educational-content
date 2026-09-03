@@ -16,7 +16,7 @@ Initiativet "Attakaï" utforskar Bitcoin Mining med hjälp av den genererade vä
 ## Inledning
 
 
-"Attakaï", som betyder "idealisk temperatur" på japanska, är namnet på det initiativ som syftar till att upptäcka Bitcoin Mining genom återanvändning av värme som lanserades av @ajelexBTC och @BlobOnChain med Découvre Bitcoin. Denna eftermonteringsguide för ASIC kommer att fungera som en grund för att lära sig mer om Mining, dess drift, senaste historia och den underliggande ekonomin.
+"Attakaï", som betyder "idealisk temperatur" på japanska, är namnet på det initiativ som syftar till att upptäcka Bitcoin Mining genom återanvändning av värme som lanserades av @BlobOnChain med Découvre Bitcoin. Denna eftermonteringsguide för ASIC kommer att fungera som en grund för att lära sig mer om Mining, dess drift, senaste historia och den underliggande ekonomin.
 
 
 ### Varför återanvända värmen från en ASIC?
@@ -412,7 +412,7 @@ Och där har du det, grattis! Du har just bytt ut hela den mekaniska delen av di
 ## Kapitel 4 - Modifiering av programvara - Återställning av Antminer S9
 
 
-**Artikelserie föreslagen av BlobOnChain & Ajelex - 15/02/2023**
+**Artikelserie föreslagen av BlobOnChain - 15/02/2023**
 
 
 ### Återställ via knappen "Återställ"
@@ -712,4 +712,4 @@ Detta sätter en övre gräns för den Hash-frekvens som en maskin kan ha. Autot
 Slutresultatet blir ett högre Hash-pris per watt elektricitet, vilket innebär större vinstmarginaler för gruvbrytarna. Anledningen till att maskiner inte distribueras med denna typ av programvara är att maskinvarians inte är önskvärt, eftersom kunderna vill veta exakt vad de får och det därför är en dålig idé för tillverkare att sälja en produkt som inte har konsekvent och förutsägbar prestanda från en maskin till en annan. Dessutom kräver autotuning på chipnivå avsevärda utvecklingsresurser, eftersom det är komplicerat att implementera. Tillverkarna lägger redan mycket resurser på att utveckla sina egna firmware. Det finns mjukvarulösningar som möjliggör autotuning, t.ex. Braiins OS+. Förutom att förbättra ASIC-prestandan med upp till 20%.
 
 
-Denna guide har skapats av DecouvreBitcoin, mer information om MIN201 - kredit Jim och Ajelex
+Denna guide har skapats av DecouvreBitcoin, mer information om MIN201 - kredit Jim

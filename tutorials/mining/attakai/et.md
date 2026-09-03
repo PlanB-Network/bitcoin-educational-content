@@ -12,7 +12,7 @@ description: S9 muutmine koduseks kütteseadmeks
 
 ## Sissejuhatus
 
-"Attakaï", mis tähendab jaapani keeles "ideaalset temperatuuri", on algatuse nimi, mille eesmärk on avastada bitcoini kaevandamist läbi tekitatud soojuse taaskasutamise, mille käivitasid @ajelexBTC ja @BlobOnChain koos Découvre Bitcoiniga. See ASIC-i ümberehitamise juhend toimib alusena, et õppida rohkem kaevandamise, selle toimimise, hiljutise ajaloo ja aluseks oleva majanduse kohta.
+"Attakaï", mis tähendab jaapani keeles "ideaalset temperatuuri", on algatuse nimi, mille eesmärk on avastada bitcoini kaevandamist läbi tekitatud soojuse taaskasutamise, mille käivitasid @BlobOnChain koos Découvre Bitcoiniga. See ASIC-i ümberehitamise juhend toimib alusena, et õppida rohkem kaevandamise, selle toimimise, hiljutise ajaloo ja aluseks oleva majanduse kohta.
 
 ### Miks taaskasutada ASIC-ist tulevat soojust?
 
@@ -255,7 +255,7 @@ Ja ongi valmis, palju õnne! Olete just vahetanud oma kaevuri kogu mehaanilise o
 
 ## 4. peatükk - Tarkvara muutmine - Antminer S9 lähtestamine
 
-**Artikliseeria pakutud BlobOnChain & Ajelex poolt - 15/02/2023**
+**Artikliseeria pakutud BlobOnChain poolt - 15/02/2023**
 
 ### Lähtestamine "Reset" nupu kaudu
 
@@ -446,6 +446,6 @@ See seab masina hashimiskiirusele ülemise piiri. Autotuning on protsess, milles
 
 Lõpptulemuseks on suurem hashimiskiirus vati elektri kohta, mis tähendab kaevuritele suuremaid kasumimarginaale. Põhjus, miks masinaid ei jaotata sellise tarkvaraga, on see, et masinate varieeruvus on ebasoovitav, kuna kliendid soovivad täpselt teada, mida nad saavad, ja seetõttu on tootjate jaoks halb mõte müüa toodet, millel ei ole ühelt masinalt teisele järjepidevat ja etteaimatavat jõudlust. Lisaks nõuab kiibi tasemel autotuning märkimisväärseid arendusressursse, kuna selle rakendamine on keeruline. Tootjad kulutavad juba palju ressursse oma püsivara arendamisele. On olemas tarkvaralahendusi, mis võimaldavad autotuningut, nagu näiteks Braiins OS+. Lisaks ASIC-i jõudluse parandamisele kuni 20%.
 
-> Juhendi koostas DecouvreBitcoin, lisainfo MINAGE 201 kohta - autorid Jim ja Ajelex
+> Juhendi koostas DecouvreBitcoin, lisainfo MINAGE 201 kohta - autorid Jim
 
 

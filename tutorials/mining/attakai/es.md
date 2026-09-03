@@ -12,7 +12,7 @@ La iniciativa "Attakaï" explora la minería de Bitcoin utilizando el calor gene
 
 ## Introducción
 
-"Attakaï", que significa "la temperatura ideal" en japonés, es el nombre de la iniciativa que busca descubrir la minería de bitcoin a través de la reutilización del calor lanzada por @ajelexBTC y @BlobOnChain con Découvre Bitcoin. Esta guía de adaptación de un ASIC servirá como base para aprender más sobre la minería, su funcionamiento, su historia reciente y la economía subyacente.
+"Attakaï", que significa "la temperatura ideal" en japonés, es el nombre de la iniciativa que busca descubrir la minería de bitcoin a través de la reutilización del calor lanzada por @BlobOnChain con Découvre Bitcoin. Esta guía de adaptación de un ASIC servirá como base para aprender más sobre la minería, su funcionamiento, su historia reciente y la economía subyacente.
 
 ### ¿Por qué reutilizar el calor de un ASIC?
 
@@ -271,7 +271,7 @@ Y para el toque final, conecta el puente Vonet al puerto Ethernet a su fuente de
 
 ## Capítulo 4 - Modificación del software - Restablecer un Antminer S9
 
-**Serie de artículos propuesta por BlobOnChain & Ajelex - 15/02/2023**
+**Serie de artículos propuesta por BlobOnChain - 15/02/2023**
 
 ### Restablecer mediante el botón "Reset"
 
@@ -473,6 +473,6 @@ Esto pone un límite superior a la tasa de hashing que una máquina puede tener.
 
 El resultado final es una tasa de hashing más alta por vatio de electricidad, lo que significa márgenes de beneficio más grandes para los mineros. La razón por la cual las máquinas no se distribuyen con este tipo de software es que la variabilidad por máquina no es deseable, ya que los clientes quieren saber exactamente lo que están obteniendo y, por lo tanto, es una mala idea para los fabricantes vender un producto que no tiene un rendimiento constante y predecible de una máquina a otra. Además, la autorregulación por chip requiere considerables recursos de desarrollo, ya que es compleja de implementar. Los fabricantes ya gastan muchos recursos en desarrollar sus propios firmwares. Existen soluciones de software que permiten implementar el autotuning, como Braiins OS+. Además de mejorar el rendimiento del ASIC hasta en un 20%.
 
-> Guía creada por DecouvreBitcoin, más información sobre MINAGE 201 - crédito a Jim y Ajelex.
+> Guía creada por DecouvreBitcoin, más información sobre MINAGE 201 - crédito a Jim.
 
 

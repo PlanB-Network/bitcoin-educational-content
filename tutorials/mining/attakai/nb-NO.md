@@ -12,7 +12,7 @@ Initiativet "Attakaï" utforsker Bitcoin-mining ved bruk av generert varme. Guid
 
 ## Introduksjon
 
-"Attakaï", som betyr "ideell temperatur" på japansk, er navnet på initiativet rettet mot å oppdage bitcoin-mining gjennom gjenbruk av varme lansert av @ajelexBTC og @BlobOnChain med Découvre Bitcoin. Denne ASIC-retrofitting-guiden vil tjene som et grunnlag for å lære mer om mining, dens drift, nylig historie og den underliggende økonomien.
+"Attakaï", som betyr "ideell temperatur" på japansk, er navnet på initiativet rettet mot å oppdage bitcoin-mining gjennom gjenbruk av varme lansert av @BlobOnChain med Découvre Bitcoin. Denne ASIC-retrofitting-guiden vil tjene som et grunnlag for å lære mer om mining, dens drift, nylig historie og den underliggende økonomien.
 
 ### Hvorfor gjenbruke varmen fra en ASIC?
 
@@ -232,7 +232,7 @@ Og der har du det, gratulerer! Du har nettopp byttet ut hele den mekaniske delen
 
 ## Kapittel 4 - Programvaremodifikasjon - Tilbakestilling av en Antminer S9
 
-**Artikkelserie foreslått av BlobOnChain & Ajelex - 15/02/2023**
+**Artikkelserie foreslått av BlobOnChain - 15/02/2023**
 
 ### Tilbakestilling via "Reset"-knappen
 
@@ -423,6 +423,6 @@ Dette setter en øvre grense for hash-raten som en maskin kan ha. Autotuning er 
 
 Sluttresultatet er en høyere hash-rate per watt med elektrisitet, noe som betyr større fortjenestemarginer for gruvearbeidere. Grunnen til at maskiner ikke distribueres med denne typen programvare er at maskinvarians er uønsket, ettersom kunder ønsker å vite nøyaktig hva de får, og det er derfor en dårlig idé for produsenter å selge et produkt som ikke har konsekvent og forutsigbar ytelse fra en maskin til en annen. I tillegg krever autotuning på chip-nivå betydelige utviklingsressurser, ettersom det er komplekst å implementere. Produsenter bruker allerede mye ressurser på å utvikle sine egne firmware. Det finnes programvareløsninger som tillater autotuning, slik som Braiins OS+. I tillegg til å forbedre ASIC-ytelsen med opptil 20%.
 
-> Guide laget av DecouvreBitcoin, mer info om MINAGE 201 - kreditt Jim og Ajelex'
+> Guide laget av DecouvreBitcoin, mer info om MINAGE 201 - kreditt Jim'
 
 

@@ -216,7 +216,7 @@ An overview of building self-custodial lightning wallet and products; challenges
 
 ![video](https://www.youtube.com/watch?v=KO2fFoJ64gs&list=PLN2-dhqIYoj8UhC2BNE-t5p2bgDabtqp4&index=7)
 
-Speaker: Ajelex, Rodrigo, Quezada, Villalobos 
+Speaker: Rodrigo, Quezada, Villalobos 
 
 To accelerate Bitcoin adoption in El Salvador, the Bitcoin Office and Fulgur Ventures collaborated to create Cubo+, a program designed to educate both young and experienced Salvadoran developers. The aim is to equip them with the knowledge and skills required to actively contribute to the Bitcoin ecosystem.
 Cubo+ brings together educators from around the world to mentor and train a new wave of Salvadoran Bitcoin developers. After an extensive selection process, 21 students were chosen from hundreds of applicants to embark on their journey in Bitcoin development. Their initiation began with online classes to ensure a strong foundation, culminating in an intensive one-month Bootcamp in July in El Salvador. During this Bootcamp, international teachers flew in to provide in-person instruction, resulting in the successful graduation of students equipped with the essential skills to actively engage in Bitcoin ecosystem projects.

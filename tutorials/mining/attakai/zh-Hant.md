@@ -16,7 +16,7 @@ Attakaï "倡議利用產生的熱量探索 Bitcoin Mining。本指南提供解�
 ## 簡介
 
 
-"Attakaï 「在日語中的意思是 」理想溫度"，這是 @ajelexBTC 和 @BlobOnChain 與 Découvre Bitcoin 發起的旨在通過熱能再利用發掘 Bitcoin Mining 的倡議的名稱。這份 ASIC 改造指南將作為了解 Mining 的基礎，包括其運作、近代歷史以及底層經濟。
+"Attakaï 「在日語中的意思是 」理想溫度"，這是 @BlobOnChain 與 Découvre Bitcoin 發起的旨在通過熱能再利用發掘 Bitcoin Mining 的倡議的名稱。這份 ASIC 改造指南將作為了解 Mining 的基礎，包括其運作、近代歷史以及底層經濟。
 
 
 ### 為何要重複使用 ASIC 的熱能？
@@ -412,7 +412,7 @@ Antminer S9 原有的風扇聲音太大，無法用作加熱器。解決方案�
 ## 第 4 章 - 軟體修改 - 重設 Antminer S9
 
 
-**BlobOnChain 和 Ajelex 提出的文章系列 - 15/02/2023**
+**BlobOnChain 提出的文章系列 - 15/02/2023**
 
 
 ### 透過「重設」按鈕重設
@@ -712,4 +712,4 @@ Braiins OS+ 支援 ASIC 的超頻、低頻和自動調整。它允許用戶根�
 最終的結果是每瓦電力的 Hash 率更高，也就是礦工的利潤空間更大。機器不搭配此類軟體的原因是，機器的差異是不可取的，因為客戶想要確切知道他們得到的是什麼，因此製造商銷售的產品在機器與機器之間沒有一致且可預測的效能是個壞主意。此外，晶片層級的自動調整需要相當多的開發資源，因為其實作過程相當複雜。製造商已經花了很多資源來開發他們自己的韌體。有一些軟體解決方案可實現自動調校，例如 Braiins OS+。除了可將 ASIC 的效能提升高達 20%。
 
 
-本指南由 DecouvreBitcoin 創建，更多資訊請參閱 MIN201 - 貸款人 Jim 和 Ajelex
+本指南由 DecouvreBitcoin 創建，更多資訊請參閱 MIN201 - 貸款人 Jim

@@ -12,7 +12,7 @@ Inisiatif "Attakaï" mengeksplorasi penambangan Bitcoin dengan memanfaatkan pana
 
 ## Pendahuluan
 
-"Attakaï", yang berarti "suhu ideal" dalam bahasa Jepang, adalah nama sebuah inisiatif yang bertujuan mengenalkan penambangan Bitcoin melalui pemanfaatan ulang panas yang dihasilkan, yang diluncurkan oleh @ajelexBTC dan @BlobOnChain bersama Découvre Bitcoin. Panduan retrofit ASIC ini akan menjadi dasar untuk mempelajari lebih jauh tentang penambangan, cara kerjanya, perkembangan sejarah terkini, serta ekonomi yang melandasinya.
+"Attakaï", yang berarti "suhu ideal" dalam bahasa Jepang, adalah nama sebuah inisiatif yang bertujuan mengenalkan penambangan Bitcoin melalui pemanfaatan ulang panas yang dihasilkan, yang diluncurkan oleh @BlobOnChain bersama Découvre Bitcoin. Panduan retrofit ASIC ini akan menjadi dasar untuk mempelajari lebih jauh tentang penambangan, cara kerjanya, perkembangan sejarah terkini, serta ekonomi yang melandasinya.
 
 ### Mengapa menggunakan kembali panas dari ASIC?
 
@@ -237,7 +237,7 @@ Dan sekarang, selamat! kamu baru saja mengganti seluruh bagian mekanis penambang
 
 ## Bab 4 - Modifikasi Perangkat Lunak - Mereset Antminer S9
 
-**Seri artikel yang diusulkan oleh BlobOnChain & Ajelex - 15/02/2023**
+**Seri artikel yang diusulkan oleh BlobOnChain - 15/02/2023**
 
 ### Reset melalui tombol "Reset"
 
@@ -436,6 +436,6 @@ Pendekatan ini menetapkan batas atas pada hashrate yang bisa dicapai oleh sebuah
 
 Hasil akhirnya adalah hashrate yang lebih tinggi per watt listrik, yang berarti margin keuntungan yang lebih besar bagi penambang. Alasan mengapa mesin tidak dikirimkan langsung dengan jenis perangkat lunak ini adalah karena variasi antar mesin dianggap tidak diinginkan. Pelanggan ingin tahu secara pasti apa yang mereka dapatkan, sehingga menjual produk dengan kinerja yang tidak konsisten dan sulit diprediksi dari satu mesin ke mesin lain merupakan hal yang berisiko bagi produsen. Selain itu, autotuning tingkat chip membutuhkan sumber daya pengembangan yang besar karena implementasinya cukup kompleks. Produsen sendiri sudah menghabiskan banyak sumber daya untuk mengembangkan firmware bawaan mereka. Meski begitu, ada solusi perangkat lunak yang memungkinkan autotuning, seperti Braiins OS+, yang dapat meningkatkan kinerja ASIC hingga sekitar 20%.
 
-> Panduan dibuat oleh DecouvreBitcoin, info lebih lanjut tentang MINAGE 201 - kredit untuk Jim dan Ajelex'
+> Panduan dibuat oleh DecouvreBitcoin, info lebih lanjut tentang MINAGE 201 - kredit untuk Jim'
 
 

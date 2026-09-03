@@ -11,7 +11,7 @@ L'initiative "Attakaï" explore le minage de Bitcoin grâce à l'utilisation de 
 
 ## Introduction
 
-“Attakaï », qui signifie « température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur, qui a été lancée par @ajelexBTC et @BlobOnChain avec Découvre Bitcoin. Ce guide de modernisation ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
+“Attakaï », qui signifie « température idéal » en japonais, est le nom de l’initiative visant à découvrir le minage de bitcoin à travers la réutilisation de la chaleur, qui a été lancée par @BlobOnChain avec Découvre Bitcoin. Ce guide de modernisation ASIC servira de base pour en apprendre plus sur le minage, son fonctionnement, son histoire récente et l’économie sous-jacente.
 
 ### Pourquoi réutiliser la chaleur d’un ASIC ?
 
@@ -479,6 +479,6 @@ Et pour la touche finale, branchez le bridge Vonet sur le port Ethernet à son a
 
 Bravo ! Vous venez de remplacer l’ensemble de la partie mécanique de votre mineur. Vous devriez maintenant entendre beaucoup moins de bruit.
 
-Guide crée par DecouvreBitcoin, plus d'info sur MINAGE 201 - crédit Jim et Ajelex
+Guide crée par DecouvreBitcoin, plus d'info sur MINAGE 201 - crédit Jim
 
 

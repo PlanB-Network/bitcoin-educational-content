@@ -12,7 +12,7 @@ Iniciativa "Attakaï" zkoumá těžbu Bitcoinu s využitím generovaného tepla.
 
 ## Úvod
 
-"Attakaï", což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím znovu použití tepla, které spustili @ajelexBTC a @BlobOnChain s Découvre Bitcoin. Tento průvodce úpravou ASIC poslouží jako základ pro další poznání o těžbě, jejím fungování, nedávné historii a podkladové ekonomice.
+"Attakaï", což v japonštině znamená "ideální teplota", je název iniciativy zaměřené na objevování těžby bitcoinů prostřednictvím znovu použití tepla, které spustili @BlobOnChain s Découvre Bitcoin. Tento průvodce úpravou ASIC poslouží jako základ pro další poznání o těžbě, jejím fungování, nedávné historii a podkladové ekonomice.
 
 ### Proč znovu použít teplo z ASIC?
 
@@ -251,7 +251,7 @@ A máte to, gratulujeme! Právě jste vyměnili celou mechanickou část vašeho
 
 ## Kapitola 4 - Modifikace softwaru - Resetování Antmineru S9
 
-**Série článků navržená BlobOnChain & Ajelex - 15/02/2023**
+**Série článků navržená BlobOnChain - 15/02/2023**
 
 ### Reset přes tlačítko "Reset"
 
@@ -444,6 +444,6 @@ Toto stanovuje horní limit pro hash rate, který stroj může mít. Autotuning 
 
 Výsledkem je vyšší hash rate na watt elektřiny, což znamená větší ziskové marže pro těžaře. Důvod, proč stroje nejsou distribuovány s tímto typem softwaru, spočívá v tom, že variabilita strojů je nežádoucí, protože zákazníci chtějí přesně vědět, co kupují, a proto je pro výrobce špatný nápad prodávat produkt, který nemá konzistentní a předvídatelný výkon z jednoho stroje na druhý. Kromě toho vyžaduje autotuning na úrovni čipů značné vývojové zdroje, jelikož je složité jej implementovat. Výrobci již vynakládají spoustu zdrojů na vývoj vlastních firmware. Existují softwarová řešení, která umožňují autotuning, jako je například Braiins OS+. Kromě toho zlepšují výkon ASIC až o 20 %.
 
-> Průvodce vytvořený DecouvreBitcoin, více informací o MINAGE 201 - poděkování Jimovi a Ajelex'ovi
+> Průvodce vytvořený DecouvreBitcoin, více informací o MINAGE 201 - poděkování Jim'ovi
 
 

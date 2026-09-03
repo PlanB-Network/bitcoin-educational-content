@@ -12,7 +12,7 @@ description: S9:n muuttaminen kotilämmittimeksi
 
 ## Johdanto
 
-"Attakaï", joka japaniksi tarkoittaa "ihanteellista lämpötilaa", on aloitteen nimi, joka pyrkii tutkimaan bitcoin-louhintaa lämmön uudelleenkäytön kautta, jonka ovat käynnistäneet @ajelexBTC ja @BlobOnChain yhdessä Découvre Bitcoinin kanssa. Tämä ASIC-laitteiden muokkausopas toimii perustana oppia lisää louhinnasta, sen toiminnasta, viimeaikaisesta historiasta ja taustalla olevasta taloudesta.
+"Attakaï", joka japaniksi tarkoittaa "ihanteellista lämpötilaa", on aloitteen nimi, joka pyrkii tutkimaan bitcoin-louhintaa lämmön uudelleenkäytön kautta, jonka ovat käynnistäneet @BlobOnChain yhdessä Découvre Bitcoinin kanssa. Tämä ASIC-laitteiden muokkausopas toimii perustana oppia lisää louhinnasta, sen toiminnasta, viimeaikaisesta historiasta ja taustalla olevasta taloudesta.
 
 ### Miksi hyödyntää ASIC:sta tulevaa lämpöä?
 
@@ -255,7 +255,7 @@ Ja siinä se, onnittelut! Olet juuri vaihtanut louhijasi koko mekaanisen osan. N
 
 ## Luku 4 - Ohjelmiston muokkaus - Antminer S9:n nollaus
 
-**Artikkelisarjan tarjoavat BlobOnChain & Ajelex - 15.02.2023**
+**Artikkelisarjan tarjoavat BlobOnChain - 15.02.2023**
 
 ### Nollaus "Reset"-painikkeella
 
@@ -446,6 +446,6 @@ Tämä asettaa ylärajan sille, kuinka suuren hashraten kone voi saavuttaa. Auto
 
 Lopputuloksena on korkeampi hashrate wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, ja siksi on huono idea valmistajille myydä tuotetta, joka ei tarjoa johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi, piiritason autotuning vaatii huomattavia kehitysresursseja, koska sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC:n suorituskykyä voidaan parantaa jopa 20%.
 
-> Opas luotu DecouvreBitcoinin toimesta, lisätietoja MINAGE 201 - luotto Jim ja Ajelex'
+> Opas luotu DecouvreBitcoinin toimesta, lisätietoja MINAGE 201 - luotto Jim'
 
 

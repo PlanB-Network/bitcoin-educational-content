@@ -12,7 +12,7 @@ Sáng kiến "Attakaï" khám phá việc đào Bitcoin sử dụng nhiệt lư�
 
 ## Giới thiệu
 
-"Attakaï," có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến nhằm khám phá việc đào bitcoin thông qua việc tái sử dụng nhiệt lượng phát ra, được khởi xướng bởi @ajelexBTC và @BlobOnChain cùng với Découvre Bitcoin. Hướng dẫn nâng cấp ASIC này sẽ là cơ sở để tìm hiểu thêm về việc đào, cách hoạt động, lịch sử gần đây, và nền kinh tế cơ bản.
+"Attakaï," có nghĩa là "nhiệt độ lý tưởng" trong tiếng Nhật, là tên của sáng kiến nhằm khám phá việc đào bitcoin thông qua việc tái sử dụng nhiệt lượng phát ra, được khởi xướng bởi @BlobOnChain cùng với Découvre Bitcoin. Hướng dẫn nâng cấp ASIC này sẽ là cơ sở để tìm hiểu thêm về việc đào, cách hoạt động, lịch sử gần đây, và nền kinh tế cơ bản.
 
 ### Tại sao tái sử dụng nhiệt từ một ASIC?
 
@@ -255,7 +255,7 @@ Và đó là, xin chúc mừng! Bạn vừa thay thế toàn bộ phần cơ kh�
 
 ## Chương 4 - Sửa đổi Phần mềm - Đặt lại Antminer S9
 
-**Loạt bài viết được đề xuất bởi BlobOnChain & Ajelex - 15/02/2023**
+**Loạt bài viết được đề xuất bởi BlobOnChain - 15/02/2023**
 
 ### Đặt lại qua nút "Reset"
 
@@ -448,6 +448,6 @@ Ngày nay, có một tiến bộ mới trong lĩnh vực phần mềm và firmwa
 
 Kết quả cuối cùng là tốc độ hash cao hơn mỗi watt điện năng, điều này có nghĩa là lợi nhuận lớn hơn cho các thợ mỏ. Lý do tại sao các máy không được phân phối với loại phần mềm này là vì sự biến động của máy là không mong muốn, vì khách hàng muốn biết chính xác họ đang nhận được cái gì, và do đó, việc bán một sản phẩm không có hiệu suất nhất quán và dự đoán được từ máy này sang máy khác là một ý tưởng tồi cho các nhà sản xuất. Ngoài ra, autotuning ở cấp độ chip đòi hỏi nguồn lực phát triển đáng kể, vì nó phức tạp để triển khai. Các nhà sản xuất đã chi rất nhiều nguồn lực để phát triển firmware của riêng họ. Có các giải pháp phần mềm cho phép autotuning, như Braiins OS+. Ngoài ra còn cải thiện hiệu suất ASIC lên đến 20%.
 
-> Hướng dẫn được tạo bởi DecouvreBitcoin, thêm thông tin về MINAGE 201 - tín dụng Jim và Ajelex'
+> Hướng dẫn được tạo bởi DecouvreBitcoin, thêm thông tin về MINAGE 201 - tín dụng Jim'
 
 

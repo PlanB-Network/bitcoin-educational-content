@@ -16,7 +16,7 @@ Inicijativa "Attakaï" istražuje Bitcoin Mining koristeći generisanu toplotu. 
 ## Uvod
 
 
-"Attakaï," što znači "idealna temperatura" na japanskom, naziv je inicijative usmerene na otkrivanje Bitcoin Mining kroz ponovnu upotrebu toplote koju su pokrenuli @ajelexBTC i @BlobOnChain sa Découvre Bitcoin. Ovaj vodič za retrofitting ASIC poslužiće kao osnova za bolje razumevanje Mining, njegovog rada, nedavne istorije i osnovne ekonomije.
+"Attakaï," što znači "idealna temperatura" na japanskom, naziv je inicijative usmerene na otkrivanje Bitcoin Mining kroz ponovnu upotrebu toplote koju su pokrenuli @BlobOnChain sa Découvre Bitcoin. Ovaj vodič za retrofitting ASIC poslužiće kao osnova za bolje razumevanje Mining, njegovog rada, nedavne istorije i osnovne ekonomije.
 
 
 ### Zašto ponovo koristiti toplotu iz ASIC?
@@ -412,7 +412,7 @@ I eto ga, čestitamo! Upravo ste zamenili ceo mehanički deo vašeg Miner. Sada 
 ## Poglavlje 4 - Modifikacija softvera - Resetovanje Antminer S9
 
 
-**Serija članaka koju predlažu BlobOnChain & Ajelex - 15/02/2023**
+**Serija članaka koju predlažu BlobOnChain - 15/02/2023**
 
 
 ### Resetujte putem dugmeta "Reset"
@@ -712,6 +712,6 @@ Ovo postavlja gornju granicu na stopu Hash koju mašina može imati. Autotuning 
 Krajnji rezultat je veća stopa Hash po vatu električne energije, što znači veće profitne marže za rudare. Razlog zašto mašine nisu distribuirane sa ovom vrstom softvera je taj što je varijansa mašina nepoželjna, jer kupci žele da znaju tačno šta dobijaju, i stoga je loša ideja za proizvođače da prodaju proizvod koji nema dosledne i predvidljive performanse od jedne mašine do druge. Pored toga, autotuning na nivou čipa zahteva značajne razvojne resurse, jer je složen za implementaciju. Proizvođači već troše mnogo resursa na razvoj sopstvenih firmvera. Postoje softverska rešenja koja omogućavaju autotuning, kao što je Braiins OS+. Pored poboljšanja performansi ASIC do 20%.
 
 
-Ovaj vodič je kreirao DecouvreBitcoin, više informacija na MIN201 - zasluge Jim i Ajelex
+Ovaj vodič je kreirao DecouvreBitcoin, više informacija na MIN201 - zasluge Jim
 
 

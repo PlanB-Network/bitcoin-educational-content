@@ -12,7 +12,7 @@ The "Attakaï" initiative explores Bitcoin mining using the generated heat. The 
 
 ## Introduction
 
-"Attakaï," which means "ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through the reuse of heat launched by @ajelexBTC and @BlobOnChain with Découvre Bitcoin. This ASIC retrofitting guide will serve as a basis for learning more about mining, its operation, recent history, and the underlying economy.
+"Attakaï," which means "ideal temperature" in Japanese, is the name of the initiative aimed at discovering bitcoin mining through the reuse of heat launched by @BlobOnChain with Découvre Bitcoin. This ASIC retrofitting guide will serve as a basis for learning more about mining, its operation, recent history, and the underlying economy.
 
 ### Why reuse the heat from an ASIC?
 
@@ -268,7 +268,7 @@ And there you have it, congratulations! You have just replaced the entire mechan
 
 ## Chapter 4 - Software Modification - Resetting an Antminer S9
 
-**Article series proposed by BlobOnChain & Ajelex - 15/02/2023**
+**Article series proposed by BlobOnChain - 15/02/2023**
 
 ### Reset via the "Reset" button
 
@@ -456,6 +456,6 @@ This puts an upper limit on the hash rate that a machine can have. Autotuning is
 
 The end result is a higher hash rate per watt of electricity, which means larger profit margins for miners. The reason why machines are not distributed with this type of software is that machine variance is undesirable, as customers want to know exactly what they are getting, and it is therefore a bad idea for manufacturers to sell a product that does not have consistent and predictable performance from one machine to another. Additionally, chip-level autotuning requires considerable development resources, as it is complex to implement. Manufacturers already spend a lot of resources developing their own firmwares. There are software solutions that allow for autotuning, such as Braiins OS+. In addition to improving ASIC performance by up to 20%.
 
-This guide has been created by DecouvreBitcoin, more info on MIN201 - credit Jim and Ajelex
+This guide has been created by DecouvreBitcoin, more info on MIN201 - credit Jim
 
 

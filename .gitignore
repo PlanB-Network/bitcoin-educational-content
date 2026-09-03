@@ -32,3 +32,4 @@ scripts/auto-translate/translation_logic/argon-edge-450706-b7-d2831a252186.json
 .translation-lessons
 .translation-report.json
 scripts/agent-translate/knowledge
+scripts/auto-translate/batch-translate/initial_report.txt

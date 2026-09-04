@@ -6,3 +6,4 @@ wrong_answers:
   - SmokeTooMuch
 explanation: |
   Dịch vụ này còn sơ khai: các giao dịch được thương lượng qua email, và thanh toán được thực hiện qua PayPal. Tỷ giá hối đoái dựa trên chi phí khai thác của chính NewLibertyStandard.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - getcredit
 explanation: |
   Nó được công bố vào ngày 1 tháng 10. Satoshi đã bao gồm một phiên bản chỉnh sửa của hàm này trong phần mềm chính vào ngày 23 tháng 11.
-reviewed: false
+reviewed: true

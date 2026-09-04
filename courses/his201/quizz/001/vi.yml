@@ -6,4 +6,4 @@ wrong_answers:
   - Alfred Menezes, Minghua Qu, và Scott Vanstone
 explanation: |
   Rivest, Shamir, và Adleman đã đặt tên cho thuật toán RSA bằng cách sử dụng ba chữ cái đầu tiên của tên họ.
-reviewed: false
+reviewed: true

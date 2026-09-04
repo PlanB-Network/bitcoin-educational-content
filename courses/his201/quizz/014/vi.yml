@@ -6,4 +6,4 @@ wrong_answers:
   - Satoshi Nakamoto
 explanation: |
   Họ đã mô tả khái niệm này vào năm 1992. Markus Jakobsson và Ari Juels đã đặt ra thuật ngữ proof of work. Sau đó, Adam Back đã áp dụng khái niệm này cho Hashcash.
-reviewed: false
+reviewed: true

@@ -1,9 +1,9 @@
-question: What is scholastic philosophy?
-answer: A Christian philosophy of the Middle Ages.
+question: What did scholastic cosmology seek to do?
+answer: Harmonize reason and faith to explain a hierarchical universe.
 wrong_answers:
-  - A political movement.
-  - An anarchist philosophy.
-  - A rational philosophy.
+  - Replace religious belief with scientific observation.
+  - Prove the heliocentric model of Copernicus.
+  - Demonstrate that humans are finite modes of nature.
 explanation: |
-  Scholastic philosophy was a Christian philosophy of the Middle Ages that dominated European universities. It sought to harmonize the Christian faith with Aristotelian philosophy.
+  Scholastic cosmology, which developed from the 12th century onwards, evolved beyond Greek philosophy to better harmonize reason and faith within a hierarchical universe compatible with Christian philosophy. It was later overturned by the Copernican revolution.
 reviewed: false

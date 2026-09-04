@@ -25,7 +25,7 @@ Apa saja fitur **Key Teleport** yang ditawarkan oleh Coinkite dengan perangkat C
 
 
 
-**Key Teleport** memungkinkan Anda mentransfer data rahasia dengan aman di antara 2 ColdCardQ. Saluran transmisi bahkan tidak perlu dienkripsi, dan dapat bersifat publik.
+**Key Teleport** memungkinkanmu mentransfer data rahasia dengan aman di antara 2 ColdCardQ. Saluran transmisi bahkan tidak perlu dienkripsi, dan dapat bersifat publik.
 
 
 
@@ -37,12 +37,12 @@ Ini dapat digunakan untuk mentransfer:
 
 - gW-0 **frasa** (Master seed ColdCard Q atau rahasia yang disimpan dalam [seed Vault] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
 - **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia](https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
-- **cadangan seluruh ColdCardQ Anda**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
+- **cadangan seluruh ColdCardQ kamu**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
 - gW-3 (**Transaksi Bitcoin yang Ditandatangani Sebagian**) sebagai bagian dari skema multi-tanda tangan.
 
 
 
-Hal ini mengharuskan Anda untuk meng-upgrade [firmware perangkat ke versi v1.3.2Q](https://coldcard.com/docs/upgrade/) atau lebih tinggi.
+Hal ini mengharuskanmu untuk meng-upgrade [firmware perangkat ke versi v1.3.2Q](https://coldcard.com/docs/upgrade/) atau lebih tinggi.
 
 
 
@@ -65,11 +65,11 @@ Di sini, kita akan melihat transfer seed kalimat, catatan, kata sandi, atau selu
 Pada menu **"Advanced / Tools**" pada ColdCardQ Anda, pilih **"Key Teleport (start) "**.
 
 
-Pada layar berikutnya, kata sandi 8 digit diusulkan, di sini "20420219". Anda harus menyampaikan kata sandi ini kepada pengirim. Gunakan sms, misalnya, untuk mengirim kata sandi ini, atau sistem perpesanan aman favorit Anda, atau bahkan panggilan suara.
+Pada layar berikutnya, kata sandi 8 digit diusulkan, di sini "20420219". Kamu harus menyampaikan kata sandi ini kepada pengirim. Gunakan sms, misalnya, untuk mengirim kata sandi ini, atau sistem perpesanan aman favorit kamu, atau bahkan panggilan suara.
 
 
 
-Kemudian klik tombol **"Enter**" pada ColdCardQ Anda untuk melanjutkan ke langkah berikutnya.
+Kemudian klik tombol **"Enter**" pada ColdCardQ kamu untuk melanjutkan ke langkah berikutnya.
 
 
 
@@ -79,7 +79,7 @@ Kemudian klik tombol **"Enter**" pada ColdCardQ Anda untuk melanjutkan ke langka
 
 
 
-Kode QR dihasilkan di layar. Sekali lagi, Anda harus mengomunikasikan kode QR ini ke "pengirim" ColdCardQ. Cara termudah untuk melakukannya adalah melalui panggilan video.
+Kode QR dihasilkan di layar. Sekali lagi, kamu harus mengomunikasikan kode QR ini ke "pengirim" ColdCardQ. Cara termudah untuk melakukannya adalah melalui panggilan video.
 
 
 
@@ -91,7 +91,7 @@ Kode QR dihasilkan di layar. Sekali lagi, Anda harus mengomunikasikan kode QR in
 
 
 
-*Bagi Anda yang tertarik, mari kita coba memahami mekanisme yang mendasari yang memungkinkan rahasia ditransfer melalui saluran yang tidak aman*
+*Bagi kamu yang tertarik, mari kita coba memahami mekanisme yang mendasari yang memungkinkan rahasia ditransfer melalui saluran yang tidak aman*
 
 
 
@@ -116,11 +116,12 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Dari perangkat pengirim, klik tombol **"QR"** untuk memindai kode QR yang dikirimkan kepada Anda oleh perangkat penerima, lalu masukkan kata sandi 8 digit yang dikomunikasikan kepada Anda pada langkah sebelumnya melalui saluran terpisah. Kami sekarang siap untuk mulai mengirim data dari perangkat **"pengirim"**.
+Dari perangkat pengirim, klik tombol **"QR"** untuk memindai kode QR yang dikirimkan kepadamu oleh perangkat penerima, lalu masukkan kata sandi 8 digit yang sudah dikomunikasikan kepadamu pada langkah sebelumnya melalui saluran terpisah. Kita sekarang siap untuk mulai mengirim data dari perangkat **"pengirim"**.
 
 
 
-**Harap jangan salah memasukkan kata sandi 8 digit, karena tidak ada pesan kesalahan yang akan ditampilkan dan proses akan dilanjutkan. Namun, transfer data terakhir akan gagal dan Anda harus memulai lagi**.
+**Harap jangan salah memasukkan kata sandi 8 digit, karena tidak akan ada pesan kesalahan yang ditampilkan dan proses tetap akan dilanjutkan. Namun, transfer data terakhir akan gagal dan kamu harus memulai ulang dari awal**.
+
 
 
 
@@ -128,20 +129,19 @@ Dari perangkat pengirim, klik tombol **"QR"** untuk memindai kode QR yang dikiri
 
 
 
-*Bagi Anda yang penasaran, mari kita lihat lagi apa yang kami lakukan dalam hal kriptografi dan transfer rahasia:*
+*Bagi kamu yang penasaran, mari kita lihat lagi apa yang kita lakukan dalam hal kriptografi dan transfer rahasia:*
 
 
 
 
-- kami mengimpor data terenkripsi dengan memindai kode QR pada perangkat penerima.
-- kemudian kami mendekripsi mereka menggunakan kata sandi 8 digit yang dikirimkan kepada kami melalui saluran sekunder.
-- oleh karena itu, kami memiliki kunci publik (Ka) yang dihasilkan oleh penerima pada awalnya
-- Kami kemudian generate pasangan kunci sementara baru (Kb/kb, dengan Kb = G.kb) pada perangkat pengirim, yang kami gunakan untuk menerapkan ECDH ke Ka. Oleh karena itu, kita melakukan operasi kb.Ka = Ks , di mana Ks disebut **"Kunci Sesi"**.
+- kita mengimpor data terenkripsi dengan memindai kode QR pada perangkat penerima.
+- kemudian kita mendekripsinya menggunakan kata sandi 8 digit yang dikirimkan kepada kita melalui saluran sekunder.
+- oleh karena itu, kita memiliki kunci publik (Ka) yang dihasilkan oleh penerima pada awalnya.
+- kita kemudian generate pasangan kunci sementara baru (Kb/kb, dengan Kb = G.kb) pada perangkat pengirim, yang kita gunakan untuk menerapkan ECDH ke Ka. Oleh karena itu, kita melakukan operasi kb.Ka = Ks, di mana Ks disebut **"Kunci Sesi"**.
 
 
 
-
-Anda sekarang diminta untuk memilih sifat rahasia yang akan dikirimkan antara 2 ColdCardQ (catatan rahasia, kata sandi, cadangan penuh, benih yang ada di brankas Anda, master perangkat seed).
+Kamu sekarang diminta untuk memilih sifat rahasia yang akan dikirimkan antara 2 COLDCARD Q (catatan rahasia, kata sandi, cadangan penuh, seedphrase yang ada di brankas kamu, master seed perangkat).
 
 
 
@@ -149,7 +149,7 @@ Anda sekarang diminta untuk memilih sifat rahasia yang akan dikirimkan antara 2 
 
 
 
-Di sini rahasia kami adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan Anda (untuk kami "Plan ₿ Academy rocks") lalu tekan **"ENTER "**.
+Di sini rahasia kita adalah pesan singkat dengan memilih **"Pesan Teks Cepat "**. Ketik pesan kamu (untuk kita "Plan ₿ Academy rocks") lalu tekan **"ENTER "**.
 
 
 Perangkat kemudian menghasilkan kata sandi acak baru yang disebut **"Kata Sandi Teleportasi "**, dalam contoh "NE XG BT SK".
@@ -160,7 +160,7 @@ Perangkat kemudian menghasilkan kata sandi acak baru yang disebut **"Kata Sandi 
 
 
 
-Tekan **"MASUK "** dan Anda akan mendapatkan kode QR baru. Pindai kode tersebut oleh perangkat penerima. Dan pada saluran komunikasi yang berbeda, kirimkan **"Teleport Password "** ke perangkat penerima.
+Tekan **"MASUK "** dan kamu akan mendapatkan kode QR baru. Pindai kode tersebut oleh perangkat penerima. Dan pada saluran komunikasi yang berbeda, kirimkan **"Teleport Password "** ke perangkat penerima.
 
 
 
@@ -168,15 +168,14 @@ Tekan **"MASUK "** dan Anda akan mendapatkan kode QR baru. Pindai kode tersebut 
 
 
 
-*Sekali lagi, bagi yang penasaran, selama tahap ini:*
+*Sekali lagi, bagi kamu yang penasaran, selama tahap ini:*
 
 
 
 
-- setelah memilih rahasia yang akan dikirimkan, kami membuat kata sandi acak baru yang disebut **"Kata Sandi Teleportasi"**.
-- kami kemudian mengenkripsi rahasia melalui AES-256-CTR menggunakan **"Kunci Sesi"**, "Ks", yang dihasilkan pada langkah sebelumnya.
-- kami mengawali paket yang sudah dienkripsi dengan **"Kunci Sesi "** dengan kunci publik Kb kami, kemudian menambahkan Layer enkripsi AES-256-CTR lebih lanjut dengan **"Kata Sandi Teleportasi "**. Semuanya kemudian dikodekan sebagai kode QR
-
+- setelah memilih rahasia yang akan dikirimkan, kita membuat kata sandi acak baru yang disebut **"Kata Sandi Teleportasi"**.
+- kita kemudian mengenkripsi rahasia tersebut menggunakan AES-256-CTR dengan **"Kunci Sesi"**, "Ks", yang dihasilkan pada langkah sebelumnya.
+- kita mengawali paket yang sudah dienkripsi dengan **"Kunci Sesi "** menggunakan kunci publik Kb milik kita, lalu menambahkan lapisan enkripsi AES-256-CTR tambahan dengan **"Kata Sandi Teleportasi "**. Seluruhnya kemudian dikodekan sebagai kode QR.
 
 
 
@@ -184,7 +183,7 @@ Tekan **"MASUK "** dan Anda akan mendapatkan kode QR baru. Pindai kode tersebut 
 
 
 
-Tekan tombol **"QR "** untuk memindai kode QR yang disajikan oleh perangkat pengirim melalui saluran visio. Anda akan diminta untuk memasukkan **"Kata Sandi Teleportasi "** untuk kami "NE XG BT SK".
+Tekan tombol **"QR "** untuk memindai kode QR yang ditampilkan oleh perangkat pengirim melalui saluran visual. Kamu akan diminta untuk memasukkan **"Kata Sandi Teleportasi "**, untuk kita contohnya "NE XG BT SK".
 
 
 
@@ -207,10 +206,10 @@ Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pe
 
 
 
-- kami telah mendekripsi data yang dikirimkan oleh pengirim menggunakan **"Kata Sandi Teleportasi"**.
-- oleh karena itu, kita memiliki kunci publik Kb dan pesan rahasia kita dienkripsi oleh **"Kunci Sesi "**, "Ks". Tetapi bagaimana kita dapat melakukan ini karena, sebagai penerima, kita tidak mengetahui Ks, yang dibuat oleh pengirim?
-- Kita perlu menerapkan kunci privat "ka" kita dari langkah awal **"Siapkan perangkat yang akan menerima data"** ke kunci publik Kb.
-- Faktanya, dengan menghitung ka.Kb = ka.kb.G = kb.ka.G = kb.Ka = Ks, kita menemukan Ks. Yang akhirnya digunakan untuk menguraikan pesan rahasia tersebut.
+- kita telah mendekripsi data yang dikirimkan oleh pengirim menggunakan **"Kata Sandi Teleportasi"**.
+- oleh karena itu, kita memiliki kunci publik Kb dan pesan rahasia kita masih dienkripsi dengan **"Kunci Sesi "**, "Ks". Namun, bagaimana kita bisa melakukannya karena sebagai penerima kita tidak mengetahui Ks, yang dibuat oleh pengirim?
+- kita perlu menerapkan kunci privat "ka" dari langkah awal **"Siapkan perangkat yang akan menerima data"** ke kunci publik Kb.
+- faktanya, dengan menghitung ka.Kb = ka.kb.G = kb.ka.G = kb.Ka = Ks, kita menemukan Ks, yang pada akhirnya digunakan untuk menguraikan pesan rahasia tersebut.
 
 
 
@@ -218,26 +217,26 @@ Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pe
 
 
 
-Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ Anda telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini](https://coldcard.com/docs/Multisig/) di situs web Coinkite.
+Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ kamu telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini](https://coldcard.com/docs/Multisig/) di situs web Coinkite.
 
 
 
-Pengingat singkat mengenai apa itu Wallet (Multisig) multi-tanda tangan.
+Pengingat singkat tentang apa itu Wallet multi-tanda tangan (Multisig).
 
 
 
-Biasanya, untuk membelanjakan dana Wallet Anda, hanya dibutuhkan satu private key untuk membuka kunci UTXO yang terkait dengan alamat Anda.
-
-
-Dalam kasus Wallet Multisig, hingga 15 private key dan oleh karena itu 15 tanda tangan mungkin diperlukan untuk membelanjakan dana. Hal ini dikenal sebagai portofolio "M dari N", dengan N antara 1 dan 15 dan M adalah jumlah tanda tangan yang dibutuhkan agar dana dapat dibelanjakan. Sebagai contoh, Wallet Multisig 3 dari 5 akan membutuhkan setidaknya 3 tanda tangan dari kemungkinan 5 tanda tangan.
+Biasanya, untuk membelanjakan dana di Wallet kamu, hanya dibutuhkan satu private key untuk membuka kunci UTXO yang terkait dengan alamat kamu.
 
 
 
-Tantangannya kemudian adalah berkoordinasi antara penandatangan untuk menandatangani "PSBT" untuk "Partially Signed Bitcoin Transaction" secara bergantian. Dalam konteks ini, "**Key Teleport**" dapat digunakan untuk mengirimkan PSBT di antara para penandatangan bersama dengan cara yang sederhana dan rahasia. Panggilan video sederhana antara penandatangan bersama akan berhasil.
+Dalam kasus Wallet Multisig, hingga 15 private key dan dengan demikian 15 tanda tangan dapat diperlukan untuk membelanjakan dana. Ini dikenal sebagai skema "M dari N", dengan N berada di antara 1 dan 15, dan M adalah jumlah tanda tangan yang dibutuhkan agar dana dapat dibelanjakan. Sebagai contoh, Wallet Multisig 3 dari 5 akan membutuhkan setidaknya 3 tanda tangan dari total 5 kemungkinan tanda tangan.
 
 
 
-Berikut ini cara melakukannya pada Multisig 3 dari 4.
+Tantangannya kemudian adalah bagaimana cara berkoordinasi antar penandatangan untuk menandatangani "PSBT" atau "Partially Signed Bitcoin Transaction" secara bergantian. Dalam konteks ini, **"Key Teleport"** dapat digunakan untuk mengirimkan PSBT di antara para penandatangan dengan cara yang sederhana dan rahasia. Panggilan video sederhana antar penandatangan sudah cukup untuk melakukannya.
+
+Berikut ini cara melakukannya pada skema Multisig 3 dari 4.
+
 
 
 
@@ -312,7 +311,7 @@ Penandatangan 3 menandatangani transaksi dan kali ini, karena 3 dari 4 tanda tan
 
 
 
-Jika fitur "Push Tx" ColdCardQ Anda diaktifkan, cukup tempelkan ColdCardQ Anda di bagian belakang perangkat yang terhubung ke Internet (smartphone/tablet) yang mendukung NFC untuk menyiarkan transaksi melalui jaringan Bitcoin.
+Jika fitur "Push Tx" di COLDCARD Q kamu diaktifkan, cukup tempelkan COLDCARD Q di bagian belakang perangkat yang terhubung ke Internet (smartphone atau tablet) yang mendukung NFC untuk menyiarkan transaksi melalui jaringan Bitcoin.
 
 
 
@@ -320,7 +319,7 @@ Jika fitur "Push Tx" ColdCardQ Anda diaktifkan, cukup tempelkan ColdCardQ Anda d
 
 
 
-*Untuk transfer PSBT dari satu penandatangan ke penandatangan lainnya, "Key Teleport" hanya digunakan melalui "Teleport Password" pada setiap tahap, yang mengenkripsi PSBT ketika ditransfer dari satu penandatangan ke penandatangan lainnya. Karena data yang ditransmisikan tidak dapat digunakan untuk mencuri dana, maka tidak diperlukan Diffie-Hellman seperti halnya ketika mengirimkan rahasia yang sangat rahasia (seed, kata sandi, dll...)*.
+*Untuk transfer PSBT dari satu penandatangan ke penandatangan lainnya, "Key Teleport" hanya digunakan melalui "Teleport Password" pada setiap tahap, yang mengenkripsi PSBT saat ditransfer dari satu penandatangan ke penandatangan lainnya. Karena data yang ditransmisikan tidak dapat digunakan untuk mencuri dana, maka Diffie-Hellman tidak diperlukan, berbeda dengan saat mengirimkan rahasia yang sangat sensitif (seed, kata sandi, dan lain-lain).*
 
 
 

@@ -11,19 +11,19 @@ panduan ini diambil dari pelajaran [Lokakarya Bitcoin](https://officinebitcoin.i
 
 
 
-Tutorial ini dibuat dengan Jade Classic, tetapi pengoperasiannya juga berlaku bagi mereka yang memiliki Jade Plus.
+Tutorial ini dibuat dengan Jade Classic, tetapi pengoperasiannya juga berlaku bagi kamu yang memiliki Jade Plus.
 
 
 
-Setelah menginisialisasi Jade, Anda bisa mulai menggunakannya dan-untuk melakukannya-pilih tampilan wallet.
+Setelah menginisialisasi Jade, kamu bisa mulai menggunakannya dan untuk melakukannya pilih tampilan wallet.
 
 
 
-Jade adalah perangkat yang dapat digunakan dengan beberapa wallet, atau aplikasi pendamping seperti yang ditentukan Blockstream di situsnya.
+Jade adalah perangkat yang dapat digunakan dengan beberapa wallet, atau aplikasi pendamping seperti yang dijelaskan Blockstream di situsnya.
 
 
 
-Dalam tutorial ini, Anda akan melihat langkah-langkah untuk menggunakan Electrum Wallet, melalui koneksi kabel USB.
+Dalam tutorial ini, kamu akan melihat langkah-langkah untuk menggunakan Electrum Wallet melalui koneksi kabel USB.
 
 
 
@@ -31,7 +31,7 @@ Dalam tutorial ini, Anda akan melihat langkah-langkah untuk menggunakan Electrum
 
 
 
-Ambil dan nyalakan Jade yang sudah Anda inisialisasi. Segera setelah Anda menyalakannya, tampilannya akan terlihat seperti ini:
+Ambil dan nyalakan Jade yang sudah kamu inisialisasi. Segera setelah kamu menyalakannya, tampilannya akan terlihat seperti ini:
 
 
 
@@ -40,20 +40,19 @@ Ambil dan nyalakan Jade yang sudah Anda inisialisasi. Segera setelah Anda menyal
 
 
 
-Jika Anda memilih _Unlock Jade_, Anda akan mendapatkan menu di mana Anda harus memilih cara menghubungkan perangkat Anda ke aplikasi pendamping.
+Jika kamu memilih _Unlock Jade_, kamu akan masuk ke menu di mana kamu harus memilih cara menghubungkan perangkat kamu ke aplikasi pendamping.
 
 
 
-Dengan Electrum, Anda hanya dapat menghubungkan Jade melalui USB, jadi pilihlah metode ini.
+Dengan Electrum, kamu hanya bisa menghubungkan Jade melalui USB, jadi pilih metode ini.
 
 
 
-Luncurkan Electrum, yang akan membuka usulan sebagai opsi default untuk membuka wallet yang terakhir digunakan.
+Luncurkan Electrum, yang akan menampilkan opsi default untuk membuka wallet yang terakhir digunakan.
 
 
 
-Jika ini adalah pertama kalinya Anda menghubungkan Jade ke Electrum, pilih _Buat Dompet Baru_ lalu _Selesai_.
-
+Jika ini pertama kalinya kamu menghubungkan Jade ke Electrum, pilih _Buat Dompet Baru_ lalu _Selesai_.
 
 
 ![img](assets/en/34.webp)
@@ -92,7 +91,7 @@ Electrum mulai memindai perangkat keras.
 
 
 
-Dengan menghubungkan USB ke komputer (sudah terhubung pada sisi USB C ke Jade), perangkat keras wallet akan muncul di hadapan Anda dalam mode kunci. Jade membuka kunci dengan memasukkan enam digit PIN yang ditetapkan selama penyiapan.
+Dengan menghubungkan USB ke komputer (sudah terhubung pada sisi USB C ke Jade), hardware wallet akan muncul di hadapan kamu dalam mode terkunci. Buka kunci Jade dengan memasukkan enam digit PIN yang ditetapkan selama penyiapan.
 
 
 
@@ -101,7 +100,7 @@ Dengan menghubungkan USB ke komputer (sudah terhubung pada sisi USB C ke Jade), 
 
 
 
-Perangkat keras yang tidak terkunci, Electrum mendeteksi Giok. Lanjutkan dengan mengklik _Next_.
+Perangkat keras yang tidak terkunci, Electrum mendeteksi Jade. Lanjutkan dengan mengklik _Next_.
 
 
 
@@ -109,7 +108,7 @@ Perangkat keras yang tidak terkunci, Electrum mendeteksi Giok. Lanjutkan dengan 
 
 
 
-Pada titik ini Electrum meminta Anda untuk mengatur skrip kebijakan: pilih _Native Segwit_.
+Pada titik ini Electrum memintamu untuk mengatur skrip kebijakan: pilih _Native Segwit_.
 
 
 
@@ -133,7 +132,7 @@ Watch-only sudah siap dan Electrum memperingatkan penyelesaian dengan layar beri
 
 
 
-wallet benar-benar dibuat dan Anda dapat mulai menjelajahinya: Anda dapat melihat _addresses_, _wallet information_, dan-yang paling penting-Anda dapat melihat di pojok kanan bawah indikasi bahwa ini adalah perangkat Blockstream. Titik hijau di sebelah logo Blockstream menunjukkan bahwa perangkat telah dihidupkan dan terhubung dengan benar ke jaringan lokal.
+Wallet benar-benar dibuat dan kamu bisa mulai menjelajahinya: kamu dapat melihat _addresses_, _wallet information_, dan yang paling penting kamu dapat melihat di pojok kanan bawah indikasi bahwa ini adalah perangkat Blockstream. Titik hijau di sebelah logo Blockstream menunjukkan bahwa perangkat telah dihidupkan dan terhubung dengan benar ke jaringan lokal.
 
 
 
@@ -145,7 +144,7 @@ wallet benar-benar dibuat dan Anda dapat mulai menjelajahinya: Anda dapat meliha
 
 
 
-Dari menu _Receive_ pada Electrum, generate, tuliskan sebuah `scriptPubKey` (alamat) untuk menerima dana. Selalu mulai dengan jumlah yang kecil dan lakukan uji coba penerimaan+pengeluaran.
+Dari menu _Receive_ pada Electrum, generate lalu catat sebuah `scriptPubKey` (alamat) untuk menerima dana. Selalu mulai dengan jumlah kecil dan lakukan uji coba penerimaan+pengeluaran.
 
 
 
@@ -153,7 +152,7 @@ Dari menu _Receive_ pada Electrum, generate, tuliskan sebuah `scriptPubKey` (ala
 
 
 
-Setelah menerima satss, Anda dapat memeriksa kedatangannya di menu _History_.
+Setelah menerima sats, Kamu dapat memeriksa kedatangannya di menu _History_.
 
 
 
@@ -165,11 +164,11 @@ Setelah menerima satss, Anda dapat memeriksa kedatangannya di menu _History_.
 
 
 
-Setelah transaksi dikonfirmasi, Anda dapat membelanjakan UTXO ini dan menyelesaikan tes.
+Setelah transaksi dikonfirmasi, kamu dapat membelanjakan UTXO ini dan menyelesaikan tes.
 
 
 
-Biaya yang dikeluarkan adalah dengan menggunakan Jade untuk penandatanganan.
+Biaya yang dikeluarkan dilakukan dengan menggunakan Jade untuk penandatanganan.
 
 
 
@@ -185,7 +184,7 @@ Setelah selesai, tekan _Bayar_.
 
 
 
-Jendela transaksi akan terbuka, di mana penting untuk menetapkan biaya transaksi yang benar. Setelah Anda menyelesaikan semua pengaturan, klik _Preview_ di sudut kanan bawah.
+Jendela transaksi akan terbuka, di mana penting untuk menetapkan biaya transaksi yang benar. Setelah kamu menyelesaikan semua pengaturan, klik _Preview_ di sudut kanan bawah.
 
 
 
@@ -197,7 +196,7 @@ Jendela transaksi menunjukkan beberapa detail penting, pertama dan terutama stat
 
 
 
-Pada tahap ini Anda juga dapat melihat perintah _Sign_, yang harus Anda klik untuk membubuhkan tanda tangan dengan Jade.
+Pada tahap ini kamu juga dapat melihat perintah _Sign_, yang harus kamu klik untuk membubuhkan tanda tangan dengan Jade.
 
 
 
@@ -205,7 +204,7 @@ Pada tahap ini Anda juga dapat melihat perintah _Sign_, yang harus Anda klik unt
 
 
 
-Sekarang, dimulailah fase komunikasi antara layar wallet dan perangkat keras, di mana Electrum memperingatkan Anda untuk mengikuti petunjuk pada perangkat keras, dihidupkan dan siap untuk menandatangani.
+Sekarang, dimulailah fase komunikasi antara layar wallet dan hardware wallet, di mana Electrum memperingatkan kamu untuk mengikuti petunjuk pada hardware wallet yang sudah dinyalakan dan siap untuk menandatangani.
 
 
 
@@ -213,7 +212,7 @@ Sekarang, dimulailah fase komunikasi antara layar wallet dan perangkat keras, di
 
 
 
-**Namun, pertama-tama, Anda sebaiknya memverifikasi apa yang Anda tandatangani: semua parameter transaksi yang baru saja Anda siapkan, juga muncul di Jade** dan Anda dapat memverifikasi semuanya.
+**Namun, pertama-tama, kamu sebaiknya memverifikasi apa yang kamu tandatangani: semua parameter transaksi yang baru saja kamu siapkan juga muncul di Jade dan kamu dapat memverifikasi semuanya.**
 
 
 
@@ -221,12 +220,11 @@ Sekarang, dimulailah fase komunikasi antara layar wallet dan perangkat keras, di
 
 
 
-Untuk melanjutkan, pastikan Anda selalu menempatkan kursor pada tanda panah `→` yang mengarah ke langkah berikutnya dan jangan pernah pada tanda `X` kecuali jika Anda ingin mengakhiri operasi tanpa menyelesaikannya.
+Untuk melanjutkan, pastikan kamu selalu menempatkan kursor pada tanda panah `→` yang mengarah ke langkah berikutnya dan jangan pernah pada tanda `X` kecuali jika kamu ingin mengakhiri operasi tanpa menyelesaikannya.
 
 
 
-Bagian verifikasi diakhiri dengan tampilan biaya. Pada tahap ini, konfirmasi sama dengan membubuhkan tanda tangan Anda.
-
+Bagian verifikasi diakhiri dengan tampilan biaya. Pada tahap ini, konfirmasi sama dengan membubuhkan tanda tangan kamu.
 
 
 ![img](assets/en/52.webp)
@@ -241,7 +239,7 @@ Untuk sesaat, Jade memproses operasi, setelah selesai, Jade kembali ke menu bera
 
 
 
-Pada Electrum, Anda dapat melihat status transaksi, yang telah berubah dari `Tidak Ditandatangani` menjadi `Tanda Tangan` dan sekarang Anda dapat menyebarkannya dengan mengeklik _Broadcast_.
+Pada Electrum, kamu dapat melihat status transaksi, yang telah berubah dari `Tidak Ditandatangani` menjadi `Tanda Tangan` dan sekarang kamu dapat menyebarkannya dengan mengeklik _Broadcast_.
 
 
 
@@ -257,4 +255,4 @@ wallet, dengan demikian diuji, dapat digunakan untuk menerima UTXO yang dimaksud
 
 
 
-Panduan ini adalah contoh cara menggunakan Jade Anda, yang terhubung melalui USB, ke jam tangan khusus wallet. Electrum adalah contoh klasik, tetapi Anda mungkin lebih memilih perangkat lunak wallet lainnya. Jade mengekspor kunci publik ke banyak dompet lain: temukan fungsi serupa yang Anda baca dalam tutorial ini, untuk memandu Anda dan menemukan cara menggunakannya di aplikasi pendamping favorit Anda.
+Panduan ini adalah contoh cara menggunakan Jade kamu, yang terhubung melalui USB, ke wallet khusus. Electrum adalah contoh klasik, tetapi kamu mungkin lebih memilih perangkat lunak wallet lainnya. Jade mengekspor kunci publik ke banyak wallet lain: temukan fungsi serupa yang kamu baca dalam tutorial ini untuk memandu kamu dan menemukan cara menggunakannya di aplikasi pendamping favorit kamu.

@@ -9,35 +9,37 @@ description: Ketahui cara menggunakan Wallet Bull Bitcoin
 ![video](https://www.youtube.com/watch?v=6b0xTB2sE8E)
 
 
-*Video tutorial dari BTC Sessions ini memandu Anda melalui proses pengaturan dan penggunaan Bull Bitcoin Wallet!
+*Video tutorial dari BTC Sessions ini memandumu melalui proses pengaturan dan penggunaan Bull Bitcoin Wallet!
 
 
-Panduan ini memandu Anda melalui instalasi, konfigurasi, dan penggunaan Bull Bitcoin Wallet. Anda akan belajar mengirim dan menerima dana pada jaringan Bitcoin On-Chain, Liquid, dan Lightning, serta cara memindahkan Bitcoin di antara jaringan-jaringan tersebut. Fitur wallet yang luas menjadikannya alat yang kuat dan lengkap untuk mengelola Bitcoin Anda. Mari kita mulai.
+Panduan ini akan memandu kamu melalui instalasi, konfigurasi, dan penggunaan Bull Bitcoin Wallet. Kamu akan belajar cara mengirim dan menerima dana di jaringan Bitcoin On-Chain, Liquid, dan Lightning, serta cara memindahkan Bitcoin di antara jaringan-jaringan tersebut. Fitur wallet yang lengkap menjadikannya alat yang kuat dan menyeluruh untuk mengelola Bitcoin kamu. Mari kita mulai.
 
 
 ## Pendahuluan
 
 
-Bull Bitcoin Wallet, yang dikembangkan oleh [Bull Bitcoin](https://www.bullbitcoin.com/), merupakan sebuah **self-custodial** Bitcoin wallet, yang berarti Anda memiliki kontrol penuh atas kunci pribadi Anda dan juga dana Anda, tanpa bergantung pada pihak ketiga. Bersifat open-source dan berakar pada filosofi Cypherpunk, Wallet ini menggabungkan kesederhanaan, kerahasiaan, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan Anda untuk mengelola bitcoin Anda di tiga jaringan: **Bitcoin onchain**, **Liquid** dan **Lightning**, masing-masing disesuaikan dengan penggunaan tertentu. Di [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), Anda dapat melihat topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", Anda juga dapat mengirimkan saran dan bug yang Anda temui. Meskipun beberapa dompet sekarang mendukung beberapa jaringan, Bull Bitcoin Wallet menonjol dengan mengintegrasikan fitur privasi secara mendalam di semua jaringan, menjadikannya alat yang ampuh untuk mengelola Bitcoin Anda di semua jaringan utama
+Bull Bitcoin Wallet, yang dikembangkan oleh [Bull Bitcoin](https://www.bullbitcoin.com/), adalah sebuah **self-custodial** Bitcoin wallet, yang berarti kamu memiliki kontrol penuh atas private key kamu dan juga dana kamu, tanpa bergantung pada pihak ketiga. Wallet ini bersifat open-source dan berakar pada filosofi Cypherpunk, serta menggabungkan kesederhanaan, privasi, dan fitur-fitur canggih seperti pertukaran lintas jaringan dan dukungan PayJoin. Ini memungkinkan kamu mengelola bitcoin kamu di tiga jaringan: **Bitcoin onchain**, **Liquid**, dan **Lightning**, masing-masing disesuaikan untuk penggunaan tertentu. Di [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), Kamu dapat melihat topik terkini dan perkembangan yang akan datang. Karena proyek ini 100% open-source dan "dibangun untuk umum", kamu juga bisa mengirimkan saran serta bug yang kamu temui. Meskipun beberapa wallet saat ini sudah mendukung banyak jaringan, Bull Bitcoin Wallet menonjol dengan integrasi fitur privasi yang mendalam di semua jaringan, menjadikannya alat yang ampuh untuk mengelola bitcoin kamu di seluruh jaringan utama.
+
 
 
 ## 1️⃣ Prasyarat
 
 
-Sebelum Anda mulai menggunakan **Bull Bitcoin Wallet**, pastikan Anda memiliki item berikut ini:
+Sebelum kamu mulai menggunakan **Bull Bitcoin Wallet**, pastikan kamu memiliki item berikut ini:
 
 
 
-- Smartphone yang Kompatibel**: Perangkat **iOS** (iPhone atau iPad) atau **Android**
+- **Smartphone yang kompatibel**: Perangkat **iOS** (iPhone atau iPad) atau **Android**
 - Koneksi internet
-- Media cadangan yang aman**: Tuliskan **frase pemulihan** (12 kata) di atas kertas atau logam dan simpan di tempat yang aman.
-- Pengetahuan dasar**: Pemahaman minimum mengenai konsep Bitcoin (alamat, transaksi, biaya) sangat berguna, meskipun tutorial ini menjelaskan setiap langkah untuk pemula.
+- **Media cadangan yang aman**: Tuliskan **seedphrase** (12 kata) di atas kertas atau logam dan simpan di tempat yang aman.
+- **Pengetahuan dasar**: Pemahaman minimum tentang konsep Bitcoin (alamat, transaksi, biaya) akan sangat membantu, meskipun tutorial ini menjelaskan setiap langkah untuk pemula.
+
 
 
 ## 2️⃣ Instalasi
 
 
-Anda dapat menginstal aplikasi melalui:
+Kamu dapat menginstal aplikasi melalui:
 
 
 
@@ -53,13 +55,13 @@ Pengguna Android juga memiliki opsi alternatif:
 - Instal melalui [Zapstore] yang kompatibel dengan Nostr (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
-Setelah menginstal aplikasi, ikuti layar selamat datang untuk mengonfigurasi akun Anda.
+Setelah menginstal aplikasi, ikuti layar selamat datang untuk mengonfigurasi akun kamu.
 
 
 ## 3️⃣ Konfigurasi awal
 
 
-Pada saat membuka, Anda akan diminta untuk memilih opsi berikut ini:
+Pada saat membuka, kamu akan diminta untuk memilih opsi berikut ini:
 
 
 
@@ -85,7 +87,7 @@ Di sini, kita dapat mengonfigurasi pengaturan lanjutan sebelum membuat atau memu
 3. Sesuaikan pengaturan `Pulihkan Banteng`. Kita akan mempelajari lebih lanjut mengenai [Recover Bull](https://recoverbull.com/) nanti.
 
 
-Setelah melakukan semua penyesuaian opsional, ketuk `Selesai`. Jika Anda ingin menggunakan kembali Wallet yang sudah ada, klik `Pulihkan Wallet` dan isi 12 kata frasa pemulihan Anda.
+Setelah melakukan semua penyesuaian opsional, ketuk `Selesai`. Jika Anda ingin menggunakan kembali Wallet yang sudah ada, klik `Pulihkan Wallet` dan isi 12 kata frasa pemulihan kamu.
 
 
 Jika tidak, klik `Buat Wallet Baru`.
@@ -106,7 +108,7 @@ Sebelum kita menyelam lebih dalam, mari kita lihat `Layar Utama` untuk mendapatk
 - Akses `Bitcoin Bull Exchange` untuk `Beli, Jual, atau Bayar` (ini tergantung pada yurisdiksi dan mungkin memerlukan KYC).
 - 'Transfer' dana antar dompet
 - `Secure Bitcoin` sama dengan Onchain Bitcoin Wallet
-- pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid](https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui [*pertukaran Boltz](https://boltz.exchange/). Hal ini memberikan Anda kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
+- Pembayaran instan melalui Lightning- / Liquid Network *(Catatan: Bull Bitcoin Wallet memungkinkan pembayaran dilakukan dan diterima melalui Lightning. Dana yang diterima melalui Lightning disimpan di jaringan [*Liquid](https://liquid.net/) (dalam Pembayaran Instan Wallet) berkat pertukaran otomatis melalui [*pertukaran Boltz](https://boltz.exchange/). Hal ini memberikan kamu kemampuan untuk berinteraksi dengan Lightning tanpa harus mengelola saluran likuiditas, namun tetap berada dalam penyimpanan sendiri)
 - `Kirim` dan `Terima` dana
 
 
@@ -119,7 +121,7 @@ Pertama, mari kita buat beberapa konfigurasi penting dan mulai dengan `Backup`.
 ## 5️⃣ Cadangan
 
 
-Untuk memulai proses pencadangan, ketuk `ikon roda gigi (⚙)` di sudut kanan atas aplikasi dan pilih `Cadangan Wallet`. Anda akan dihadapkan pada dua metode untuk mengamankan wallet Anda: `Bankur Terenkripsi` dan `Cadangan Fisik`. Mari kita jelajahi masing-masing.
+Untuk memulai proses pencadangan, ketuk `ikon roda gigi (⚙)` di sudut kanan atas aplikasi dan pilih `Cadangan Wallet`. kamu akan dihadapkan pada dua metode untuk mengamankan wallet: `Bankur Terenkripsi` dan `Cadangan Fisik`. Mari kita jelajahi masing-masing.
 
 
 ![image](assets/en/03.webp)
@@ -132,17 +134,18 @@ Sentuh `Cadangan Fisik` untuk melihat daftar 12 kata yang mewakili pemulihan ata
 
 
 
-- Tuliskan 'frasa pemulihan' Anda dengan sangat hati-hati. Tuliskan di atas kertas atau logam dan simpan di tempat yang aman (brankas, lokasi offline). Frasa ini merupakan satu-satunya cara untuk mengakses bitcoin Anda jika perangkat Anda hilang atau aplikasi dihapus.
-- Penting juga untuk diperhatikan bahwa siapa pun yang memiliki frasa ini dapat mencuri semua bitcoin Anda. Jangan pernah menyimpannya secara digital:
-- Tidak ada tangkapan layar
-- Tidak ada cadangan awan, email, atau pesan
-- Tidak ada salin/tempel (risiko menyimpan ke clipboard)
+- Tuliskan **seedphrase** kamu dengan sangat hati-hati. Tulis di atas kertas atau logam dan simpan di tempat yang aman (brankas, lokasi offline). Seedphrase ini adalah satu-satunya cara untuk mengakses bitcoin kamu jika perangkat hilang atau aplikasi dihapus.
+- Penting juga untuk dipahami bahwa siapa pun yang memiliki seedphrase ini dapat mencuri seluruh bitcoin kamu. Jangan pernah menyimpannya secara digital:
+  - Tidak ada tangkapan layar
+  - Tidak ada cadangan cloud, email, atau pesan
+  - Tidak ada salin/tempel (berisiko tersimpan di clipboard)
+
 
 
 ![image](assets/en/25.webp)
 
 
-Layar berikutnya akan meminta Anda untuk meletakkan kata dalam urutan yang benar untuk memastikan bahwa Anda mendapatkan frasa seed yang benar. Anda akan mendapatkan konfirmasi ketika tes selesai dan berhasil.
+Layar berikutnya akan meminta kamu menyusun kata-kata dalam urutan yang benar untuk memastikan bahwa kamu mencatat seedphrase dengan tepat. Kamu akan mendapatkan konfirmasi setelah tes ini selesai dan berhasil.
 
 
 ! **Poin ini sangat penting**. Untuk bantuan lebih lanjut:
@@ -155,13 +158,12 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ### Brankas terenkripsi
 
 
-Ada juga opsi pencadangan terenkripsi dan anonim di awan. Tapi bukankah kami telah menyebutkan di paragraf terakhir bahwa cadangan awan berisiko dan harus dihindari? Namun, tim Bull Bitcoin telah mengembangkan cara yang cerdas untuk membuat prosesnya aman. Inilah cara kerjanya:
+Ada juga opsi pencadangan awan yang terenkripsi dan anonim. Tapi bukankah di paragraf sebelumnya sudah disebutkan bahwa cadangan awan berisiko dan sebaiknya dihindari? Tim Bull Bitcoin menyadari hal ini dan telah mengembangkan pendekatan yang cerdas untuk membuat proses tersebut tetap aman. Berikut cara kerjanya:
 
+`Recoverbull` adalah protokol pencadangan yang menyederhanakan pengamanan Bitcoin wallet kamu dengan membagi cadangan menjadi dua bagian. Pertama, file cadangan wallet kamu dienkripsi langsung di perangkat menggunakan kunci enkripsi yang kuat. File terenkripsi ini bisa kamu simpan di mana saja, seperti Google Drive atau di perangkat kamu sendiri. Kedua, kunci enkripsi yang diperlukan untuk membuka file tersebut disimpan oleh Server Kunci Recoverbull. Untuk memulihkan wallet, kamu memerlukan file cadangan terenkripsi dan kunci, yang diakses menggunakan PIN atau kata sandi kamu. Desain ini memastikan bahwa cadangan awan saja tidak berguna, dan server kunci saja juga tidak berguna tanpa file cadangan khusus milik kamu. Dengan cara ini, dana kamu tetap aman meskipun salah satu bagiannya terganggu.
 
-`Recoverbull` adalah protokol pencadangan yang menyederhanakan pengamanan Bitcoin wallet Anda dengan membagi pencadangan menjadi dua bagian. Pertama, file cadangan wallet Anda dienkripsi di perangkat Anda menggunakan kunci enkripsi yang kuat. Anda dapat menyimpan file terenkripsi ini di mana pun Anda inginkan, seperti Google Drive atau perangkat Anda. Kedua, kunci enkripsi yang diperlukan untuk membuka kunci file disimpan oleh Server Kunci Recoverbull. Untuk memulihkan wallet Anda, Anda memerlukan file cadangan terenkripsi dan kunci, yang Anda akses dengan PIN atau kata sandi Anda. Desain ini memastikan bahwa cadangan awan Anda saja tidak berguna dan server kunci saja tidak berguna tanpa file cadangan khusus Anda. Hal ini membuat dana Anda tetap aman meskipun salah satu bagiannya terganggu.
+Anggap saja ini seperti brankas. File cadangan terenkripsi adalah *kotak*, yang bisa kamu simpan di mana saja (misalnya Google Drive). PIN Pemulihan kamu adalah *kunci*, yang disimpan secara terpisah oleh Server Kunci Recoverbull. Seorang pencuri harus mendapatkan kotak khusus kamu dan kunci khusus kamu untuk bisa membukanya. Desain ini memastikan bahwa meskipun seseorang mendapatkan file cadangan kamu, file tersebut tidak ada gunanya tanpa kunci dari server, dan kunci server juga tidak berguna tanpa file cadangan unik milik ka
 
-
-Anggap saja ini seperti brankas. File cadangan terenkripsi adalah *boks*, yang bisa Anda simpan di mana saja (seperti Google Drive). PIN Pemulihan Anda adalah *kunci*, yang disimpan secara terpisah oleh Server Kunci Recoverbull. Seorang pencuri perlu mendapatkan kotak khusus Anda dan kunci khusus Anda untuk membukanya. Desain ini memastikan bahwa meskipun seseorang mendapatkan file cadangan Anda, tidak ada gunanya tanpa kunci dari server, dan kunci server tidak berguna tanpa file cadangan unik Anda.
 
 
 Pelajari lebih lanjut tentang protokol cadangan `Recoverbull` wallet [di sini](https://recoverbull.com/).
@@ -170,22 +172,22 @@ Pelajari lebih lanjut tentang protokol cadangan `Recoverbull` wallet [di sini](h
 Ketuk `Bank terenkripsi` lalu `Lanjutkan` untuk mengonfirmasi penggunaan Server Default. Sambungan akan dialihkan melalui Jaringan `Tor` untuk memastikan privasi dan anonimitas.
 
 
-**Memahami PIN Anda**
+**Memahami PIN**
 
 
 
-- pIN Buka Kunci Aplikasi`**:** PIN opsional yang ditetapkan di `Pengaturan > PIN Keamanan` untuk mengunci aplikasi pada ponsel Anda.
+- pIN Buka Kunci Aplikasi`**:** PIN opsional yang ditetapkan di `Pengaturan > PIN Keamanan` untuk mengunci aplikasi pada ponsel kamu.
 - pIN Pemulihan: ** PIN wajib yang dibuat selama proses pencadangan `Encrypted Vault`, yang digunakan untuk mendekripsi file cadangan selama pemulihan.
 
 
-Ini adalah dua PIN yang terpisah. Jangan lupa PIN Pemulihan Anda, karena PIN ini sangat penting untuk memulihkan wallet Anda."
+Ini adalah dua PIN yang terpisah. Jangan lupa PIN Pemulihan kamu, karena PIN ini sangat penting untuk memulihkan wallet."
 
 
 **Pengaturan PIN Pemulihan:**
 
 
 
-- Anda harus membuat PIN atau Kata Sandi untuk memulihkan akses ke wallet.
+- Kamu harus membuat PIN atau Kata Sandi untuk memulihkan akses ke wallet.
 - PIN / Kata Sandi harus terdiri dari minimal 6 digit (misalnya, hindari urutan sederhana seperti 123456, yang tidak diterima).
 - Tanpa PIN ini, pemulihan wallet tidak mungkin dilakukan.
 
@@ -207,7 +209,8 @@ Sekarang, simpan `file cadangan`. Selanjutnya, ketuk `Test Recovery`, pilih file
 ### Label Impor / Ekspor
 
 
-Sekarang setelah kita membuat Cadangan, mari kita lihat `Label`.  Bull Bitcoin wallet meningkatkan privasi dan pengaturan dengan memungkinkan pengguna untuk membuat label khusus untuk alamat penerima dan transaksi mereka. Label-label ini membantu Anda mengkategorikan dana Anda, karena transaksi yang dikirim ke alamat berlabel akan mewarisi label tersebut, dan Anda juga dapat memberi label pada transaksi keluar untuk melacak perubahannya. wallet sepenuhnya mendukung standar [BIP-329](https://bip329.org/), yang berarti Anda dapat mengekspor semua label ke file dan mengimpornya ke wallet lainnya. Fitur ini memastikan Anda dapat mencadangkan riwayat transaksi dan kategorisasi dengan lancar, atau memigrasikannya di antara berbagai contoh wallet, tanpa kehilangan organisasi yang telah disesuaikan.
+Sekarang setelah kita membuat cadangan, mari kita lihat `Label`. Bull Bitcoin Wallet meningkatkan privasi dan pengaturan dengan memungkinkan kamu membuat label khusus untuk alamat penerima dan transaksi. Label-label ini membantu kamu mengkategorikan dana, karena transaksi yang dikirim ke alamat berlabel akan mewarisi label tersebut, dan kamu juga bisa memberi label pada transaksi keluar untuk melacak perubahannya. Wallet ini sepenuhnya mendukung standar [BIP-329](https://bip329.org/), yang berarti kamu dapat mengekspor semua label ke dalam sebuah file dan mengimpornya ke wallet lain. Fitur ini memastikan kamu dapat mencadangkan riwayat transaksi dan kategorisasi dengan lancar, atau memigrasikannya di antara berbagai instance wallet, tanpa kehilangan struktur organisasi yang sudah kamu sesuaikan.
+
 
 
 ![image](assets/en/05.webp)
@@ -216,25 +219,25 @@ Sekarang setelah kita membuat Cadangan, mari kita lihat `Label`.  Bull Bitcoin w
 ## 6️⃣ Pengaturan
 
 
-Setelah cadangan utama Anda aman, mari jelajahi fitur-fitur lain yang tersedia dalam pengaturan.
+Setelah cadangan utama aman, mari jelajahi fitur-fitur lain yang tersedia dalam pengaturan.
 
 
 ### A - Mengamankan akses
 
 
-Untuk mengamankan aplikasi, buka `Pengaturan` dan pilih `Kode PIN Keamanan` untuk memilih Kode PIN. Buat PIN yang kuat untuk mengunci akses ke wallet Anda. Meskipun langkah ini bersifat opsional, namun sangat disarankan untuk mencegah akses yang tidak sah jika ada orang lain yang menggunakan telepon Anda.
+Untuk mengamankan aplikasi, buka `Pengaturan` dan pilih `Kode PIN Keamanan` untuk memilih Kode PIN. Buat PIN yang kuat untuk mengunci akses ke wallet kamu. Meskipun langkah ini bersifat opsional, namun sangat disarankan untuk mencegah akses yang tidak sah jika ada orang lain yang menggunakan telepon kamu.
 
 
 ![image](assets/en/06.webp)
 
 
-### B - Koneksi ke simpul pribadi (opsional)
+### B - Koneksi ke node pribadi (opsional)
 
 
-Wallet BullBitcoin terhubung ke server Electrum secara default: server pertama dikelola oleh Bull Bitcoin dan server sekunder dari Blockstream, yang keduanya dianggap tidak menyimpan log, sehingga mengurangi risiko pelacakan.
+Bull Bitcoin Wallet terhubung ke server Electrum secara default: server utama dikelola oleh Bull Bitcoin dan server sekunder oleh Blockstream, yang keduanya dianggap tidak menyimpan log, sehingga mengurangi risiko pelacakan.
 
+Untuk privasi yang lebih baik, kamu bisa menyambungkan aplikasi ke node Bitcoin milik kamu sendiri melalui server Electrum. Untuk melakukannya, ketuk `Pengaturan` > `Pengaturan Bitcoin` > `Pengaturan Electrum Server`, lalu ketuk `+ Tambah Server Khusus` untuk memasukkan alamat dan kredensial server kamu.
 
-Untuk kerahasiaan yang lebih baik, Anda dapat menyambungkan aplikasi ke node Bitcoin Anda sendiri melalui server Electrum. Untuk melakukannya, ketuk `Pengaturan` > `Pengaturan Bitcoin` > `Pengaturan Electrum Server`, lalu ketuk `+ Tambah Server Khusus` untuk memasukkan alamat dan kredensial server Anda.
 
 
 ![image](assets/en/07.webp)
@@ -243,7 +246,7 @@ Untuk kerahasiaan yang lebih baik, Anda dapat menyambungkan aplikasi ke node Bit
 ### C - Mata Uang
 
 
-Saldo yang tersedia ditampilkan di layar utama dalam `sats` dan `USD`. Untuk mengubahnya, buka `Pengaturan` > `Mata Uang`. Di sana, Anda dapat beralih antara `sats/BTC` dan memilih `mata uang fiat default`.
+Saldo yang tersedia ditampilkan di layar utama dalam `sats` dan `USD`. Untuk mengubahnya, buka `Pengaturan` > `Mata Uang`. Di sana, kamu dapat beralih antara `sats/BTC` dan memilih `mata uang fiat default`.
 
 
 ![image](assets/en/08.webp)
@@ -252,19 +255,19 @@ Saldo yang tersedia ditampilkan di layar utama dalam `sats` dan `USD`. Untuk men
 ### D - Pengaturan Bitcoin
 
 
-Menu `Pengaturan Bitcoin` menawarkan akses mendalam ke konfigurasi dan data inti wallet Anda. Di sini, Anda dapat memeriksa detail mendasar dari `Secure Bitcoin` dan `Dompet pembayaran instan`, memberikan Anda transparansi dan kontrol penuh. Fitur-fitur utama dalam menu ini meliputi:
+Menu `Pengaturan Bitcoin` menawarkan akses mendalam ke pengaturan dan data inti wallet. Di sini, kamu dapat memeriksa detail mendasar dari `Secure Bitcoin` dan `Dompet pembayaran instan`, memberikanmu transparansi dan kontrol penuh. Fitur-fitur utama dalam menu ini meliputi:
 
 
 
-- Detail Wallet:** Buka Secure Bitcoin atau Pembayaran Instan wallet Anda untuk melihat informasi spesifik.
-- Sidik Jari Wallet:** Pengenal unik untuk wallet Anda.
-- Kunci Publik (Pubkey):** Kunci yang digunakan untuk generate alamat penerima Bitcoin Anda.
-- Descriptor:** Ringkasan teknis struktur wallet Anda.
-- Jalur Turunan:** Jalur khusus yang digunakan untuk generate semua alamat dari kunci privat utama Anda.
-- Address Lihat:** Mengakses daftar alamat penerima yang tidak terpakai dan mengubah alamat (segera hadir)
+- **Detail Wallet:** Buka wallet Secure Bitcoin atau Pembayaran Instan kamu untuk melihat informasi spesifik.
+- **Sidik Jari Wallet:** Pengenal unik untuk wallet kamu.
+- **Kunci Publik (Pubkey):** Kunci yang digunakan untuk menghasilkan alamat penerima Bitcoin kamu.
+- **Descriptor:** Ringkasan teknis dari struktur wallet kamu.
+- **Jalur Turunan:** Jalur khusus yang digunakan untuk menghasilkan semua alamat dari private key utama kamu.
+- **Lihat Alamat:** Mengakses daftar alamat penerima yang belum terpakai dan alamat kembalian (segera hadir)
 
+Selain itu, kamu juga memiliki opsi untuk:
 
-Selain itu, Anda memiliki opsi untuk:
 
 
 
@@ -276,7 +279,7 @@ Selain itu, Anda memiliki opsi untuk:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Langsung dari wallet, Anda memiliki akses ke [Bull Bitcoin exchange](https://www.bullbitcoin.com/), sehingga Anda dapat membeli, menjual, dan membayar Bitcoin tanpa harus meninggalkan aplikasi. Integrasi ini memberikan solusi yang nyaman untuk mengelola kebutuhan Bitcoin Anda. Perlu diketahui bahwa akses ke bursa dan layanannya mungkin dibatasi berdasarkan yurisdiksi Anda, dan menyelesaikan verifikasi Kenali Pelanggan Anda (KYC) mungkin diperlukan untuk mematuhi standar peraturan dan menggunakan fitur lengkap platform.
+Langsung dari wallet, kamu memiliki akses ke [Bull Bitcoin exchange](https://www.bullbitcoin.com/), sehingga kamu dapat membeli, menjual, dan membayar Bitcoin tanpa harus meninggalkan aplikasi. Integrasi ini memberikan solusi yang nyaman untuk mengelola kebutuhan Bitcoin Akamu. Perlu diketahui bahwa akses ke bursa dan layanannya mungkin dibatasi berdasarkan yurisdiksi kamu, dan menyelesaikan verifikasi Kenali Pelanggan kamu (KYC) mungkin diperlukan untuk mematuhi standar peraturan dan menggunakan fitur lengkap platform.
 
 
 Untuk memulai, ketuk `Exchange` di sudut kanan bawah, lalu `Daftar` atau `Masuk` ke akun Anda.
@@ -286,7 +289,7 @@ Pertukaran ini menawarkan [fitur] berikut ini (https://www.bullbitcoin.com/):
 
 
 
-- Beli Bitcoin dengan penitipan mandiri dari rekening bank Anda
+- Beli Bitcoin dengan penitipan mandiri dari rekening bank
 - Non-kustodian
 - Individu atau perusahaan
 - Penarikan instan
@@ -316,13 +319,13 @@ Menerima dana dengan **Bull Bitcoin Wallet** sangat mudah dan fleksibel, menduku
 - Jaringan `Lightning` untuk pembayaran instan dan berbiaya rendah.
 
 
-Aplikasi ini secara otomatis membuat alamat atau faktur yang sesuai berdasarkan jaringan yang Anda pilih. Berikut ini adalah cara melanjutkan untuk setiap jaringan.
+Aplikasi ini secara otomatis membuat alamat atau invoice yang sesuai berdasarkan jaringan yang kamu pilih. Berikut ini adalah cara melanjutkan untuk setiap jaringan.
 
 
 ### Menerima melalui Onchain (jaringan Bitcoin)
 
 
-Untuk menerima dana on-chain, Anda dapat memilih `Secure Bitcoin Wallet` dari layar Utama dan ketuk `Terima`, atau ketuk tombol `Terima` utama lalu pilih `Jaringan Bitcoin`.
+Untuk menerima dana on-chain, kamu dapat memilih `Secure Bitcoin Wallet` dari layar Utama dan ketuk `Terima`, atau ketuk tombol `Terima` utama lalu pilih `Jaringan Bitcoin`.
 
 
 Anda memiliki dua mode utama untuk menghasilkan alamat penerimaan:
@@ -369,7 +372,7 @@ bc1q0vv86t2sj7daduvdc50njms6u6jzh2y54x3g56
 ```
 
 
-Meskipun Anda memasukkan jumlah atau catatan, keduanya tidak akan disertakan dalam kode QR atau alamat yang disalin.
+Meskipun kamu memasukkan jumlah atau catatan, keduanya tidak akan disertakan dalam kode QR atau alamat yang disalin.
 
 
 ![image](assets/en/11.webp)
@@ -378,10 +381,10 @@ Meskipun Anda memasukkan jumlah atau catatan, keduanya tidak akan disertakan dal
 ### Menerima melalui Liquid Network
 
 
-Anda dapat menerima pembayaran pada Liquid Network. Setelah berada di layar `Terima`, Anda memiliki dua opsi yang sama untuk membuat permintaan pembayaran:
+Kamu dapat menerima pembayaran di Liquid Network. Setelah berada di layar `Terima`, kamu memiliki dua opsi yang sama untuk membuat permintaan pembayaran:
 
+**1. Address sederhana:** Salin `alamat Liquid` standar. Ini adalah pengenal unik untuk wallet kamu di jaringan Liquid dan tidak menyertakan jumlah atau pesan tertentu.
 
-**1. Address sederhana:** Salin `alamat Liquid standar. Ini adalah pengenal unik untuk wallet Anda di jaringan Liquid dan tidak menyertakan jumlah atau pesan tertentu.
 
 
 Contoh Address:
@@ -392,12 +395,12 @@ lq1qq05k3vmnvbullbitcoinjujn6h04z9jtw53xuyktqf9mam2zpfz05j2fe2x8xhejgkga3nvmp4yy
 ```
 
 
-**2. Permintaan Pembayaran Terperinci (URI):** Untuk permintaan yang lebih terstruktur, Anda dapat menentukan jumlah dan catatan pribadi. Informasi ini secara otomatis dikodekan ke dalam URI yang dapat dibagikan dan kode QR yang sesuai.
+**2. Permintaan Pembayaran Terperinci (URI):** Untuk permintaan yang lebih terstruktur, kamu bisa menentukan jumlah dan catatan pribadi. Informasi ini akan otomatis dikodekan ke dalam URI yang dapat dibagikan beserta kode QR yang sesuai.
 
 
 
-- Jumlah:** Anda dapat mengatur jumlah dalam Bitcoin (BTC), Satoshi (Sats), atau mata uang fiat.
-- Catatan:** Tambahkan pesan pribadi untuk mengidentifikasi transaksi.
+- **Jumlah:** Kamu dapat mengatur jumlah dalam Bitcoin (BTC), satoshi (sats), atau mata uang fiat.
+- **Catatan:** Tambahkan pesan pribadi untuk membantu mengidentifikasi transaksi.
 
 
 **Contoh URI:**
@@ -408,7 +411,7 @@ liquidnetwork:lq1qqdhgs7w537nun55a5sdy4gxkd08pclk3d7v4qz36sy4xp0cq6gvl52fcfv7kdg
 ```
 
 
-Untuk menyelesaikan transaksi, berikan pengirim `alamat` atau `URI`. Anda dapat melakukan ini dengan menyalinnya ke clipboard Anda atau dengan meminta mereka memindai kode QR langsung dari layar Anda.
+Untuk menyelesaikan transaksi, berikan pengirim `alamat` atau `URI`. Kamu dapat melakukan ini dengan menyalinnya ke clipboard atau dengan meminta mereka memindai kode QR langsung dari layar kamu.
 
 
 ![image](assets/en/12.webp)
@@ -418,7 +421,8 @@ Untuk menyelesaikan transaksi, berikan pengirim `alamat` atau `URI`. Anda dapat 
 
 
 
-Bull Bitcoin Wallet juga memungkinkan Anda untuk mengirim dan menerima pembayaran melalui Lightning Network. Fitur utamanya adalah dana yang diterima melalui Lightning secara otomatis ditukar dan disimpan di `Liquid Network` dalam `Pembayaran Instan Wallet`. Layanan ini didukung oleh `Boltz`. Desain ini memungkinkan Anda untuk menikmati kecepatan dan biaya rendah Lightning tanpa kerumitan dalam mengelola saluran likuiditas, sambil tetap mempertahankan kustodian penuh atas dana Anda. Meskipun pendekatan hibrida ini bersifat kustodian mandiri dan menghindari kerumitan dalam mengelola saluran, pendekatan ini memperkenalkan layanan pihak ketiga (Boltz), biaya swap yang kecil, dan ketergantungan pada federasi fungsionaris Liquid Network sebagai pemegang kunci, yang berbeda dengan Lightning wallet non-kustodian tradisional di mana Anda mengelola saluran Anda sendiri. Anda dapat mempelajari lebih lanjut tentang Liquid dan model tata kelola di sana di sini:
+Bull Bitcoin Wallet juga memungkinkan kamu mengirim dan menerima pembayaran melalui Lightning Network. Fitur utamanya adalah dana yang diterima melalui Lightning akan secara otomatis ditukar dan disimpan di `Liquid Network` dalam `Pembayaran Instan Wallet`. Layanan ini didukung oleh `Boltz`. Desain ini memungkinkan kamu menikmati kecepatan tinggi dan biaya rendah Lightning tanpa kerumitan mengelola saluran likuiditas, sambil tetap mempertahankan kontrol penuh atas dana kamu. Namun, meskipun pendekatan hibrida ini tetap bersifat self-custodial dan menghindari kompleksitas pengelolaan saluran, pendekatan ini memperkenalkan layanan pihak ketiga yaitu Boltz, biaya swap yang kecil, serta ketergantungan pada federasi fungsionaris Liquid Network sebagai pemegang kunci. Hal ini berbeda dengan Lightning wallet non-kustodian tradisional, di mana kamu mengelola saluran Lightning kamu sendiri. Kamu dapat mempelajari lebih lanjut tentang Liquid dan model tata kelolanya di sini:
+
 
 
 https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-of-liquid-architecture-and-governance-model-17650c4b-cd1f-4bc6-b490-708f92dc9306
@@ -426,21 +430,21 @@ https://planb.academy/en/courses/e17ee350-41d4-49fa-b270-29e4d26d22f8/overview-o
 
 - Batasan:** Batas
     - Jumlah Minimum:** Diperlukan jumlah faktur minimum. Silakan periksa aplikasi untuk mengetahui batas saat ini
-    - Biaya:** Anda, sebagai penerima, bertanggung jawab atas biaya penukaran yang kecil. Biaya ini dipotong dari jumlah yang ditransfer pengirim dan dapat berubah sewaktu-waktu
+    - Biaya:** kamu, sebagai penerima, bertanggung jawab atas biaya penukaran yang kecil. Biaya ini dipotong dari jumlah yang ditransfer pengirim dan dapat berubah sewaktu-waktu
 - Manfaat:** Manfaat
-    - Kustodian Mandiri:** Dana Anda selalu berada di bawah kendali Anda, diamankan di jaringan Liquid.
-    - Hindari Biaya On-Chain yang Tinggi:** Dengan menggunakan Lightning dan menyimpan di Liquid, Anda melewati biaya on-chain yang terkait dengan pembukaan saluran Lightning tradisional. Anda dapat memilih untuk memindahkan dana ke saluran on-chain nanti, ketika jumlah yang terakumulasi sesuai dengan biaya.
+    - Kustodian Mandiri:** Dana Anda selalu berada di bawah kendali kamu, diamankan di jaringan Liquid.
+    - Hindari Biaya On-Chain yang Tinggi:** Dengan menggunakan Lightning dan menyimpan di Liquid, Anda melewati biaya on-chain yang terkait dengan pembukaan saluran Lightning tradisional. Kamu dapat memilih untuk memindahkan dana ke saluran on-chain nanti, ketika jumlah yang terakumulasi sesuai dengan biaya.
     - Tip:** Untuk transaksi yang paling hemat biaya antara dua pengguna Bull Bitcoin, gunakan **jaringan Liquid secara langsung** untuk menghindari biaya swap Lightning sepenuhnya.
 
 
 Untuk menerima pembayaran, Anda harus generate sebuah `Faktur Kilat`:
 
 
-1. `Masukkan Jumlah`:** Tentukan jumlah yang ingin Anda terima dalam Bitcoin (BTC), Satoshi (Sats), atau mata uang fiat.
+1. `Masukkan Jumlah`:** Tentukan jumlah yang ingin kamu terima dalam Bitcoin (BTC), Satoshi (Sats), atau mata uang fiat.
 
 2. `Tambahkan Catatan` **(Opsional):** Sertakan memo atau catatan. Catatan ini akan disematkan pada faktur dan ditampilkan dalam riwayat transaksi Anda setelah pembayaran selesai, sehingga lebih mudah diidentifikasi.
 
-3. `Validitas Invoice`:** Faktur Lightning sensitif terhadap waktu dan akan kedaluwarsa setelah **12 jam**. Jika tidak dibayar dalam jangka waktu tersebut, faktur tersebut menjadi tidak berlaku, dan Anda harus membuat generate yang baru.
+3. `Validitas Invoice`:** Faktur Lightning sensitif terhadap waktu dan akan kedaluwarsa setelah **12 jam**. Jika tidak dibayar dalam jangka waktu tersebut, faktur tersebut menjadi tidak berlaku, dan kamu harus membuat generate yang baru.
 
 
 Berikan faktur kepada pengirim dengan menyalinnya ke papan klip Anda atau dengan membiarkan mereka memindai kode QR yang ditampilkan di layar Anda.
@@ -452,49 +456,53 @@ Berikan faktur kepada pengirim dengan menyalinnya ke papan klip Anda atau dengan
 ## 9️⃣ Mengirim dana
 
 
-Anda dapat mengakses layar kirim langsung dari halaman beranda atau dari dalam dompet Anda. Bull Bitcoin Wallet menyederhanakan proses dengan secara otomatis mendeteksi jaringan tujuan-`Bitcoin`, `Liquid`, atau `Lightning`-berdasarkan alamat atau faktur yang Anda masukkan, baik yang ditempelkan atau dipindai melalui kode QR.
+Kamu dapat mengakses layar kirim langsung dari halaman beranda atau dari dalam wallet kamu. Bull Bitcoin Wallet menyederhanakan proses dengan secara otomatis mendeteksi jaringan tujuan `Bitcoin`, `Liquid`, atau `Lightning` berdasarkan alamat atau invoice yang kamu masukkan, baik dengan menempelkan teks maupun memindainya melalui kode QR.
+
 
 
 ### Transmisi On-Chain melalui Jaringan Bitcoin
 
 
-Mengirim dana on-chain berarti transaksi Anda dicatat langsung di blockchain Bitcoin. Metode ini paling baik untuk transfer dalam jumlah besar atau transfer yang tidak sensitif terhadap waktu. Untuk memulai, Anda dapat mengetuk `Tombol Kirim` di sebelah kanan bawah, dan memindai atau memasukkan `alamat standar Bitcoin`.
+Mengirim dana on-chain berarti transaksi kamu dicatat langsung di blockchain Bitcoin. Metode ini paling cocok untuk transfer dalam jumlah besar atau transaksi yang tidak sensitif terhadap waktu. Untuk memulai, kamu bisa mengetuk `Tombol Kirim` di kanan bawah, lalu memindai atau memasukkan `alamat Bitcoin standar`.
 
 
-Jika alamat yang Anda berikan tidak mencantumkan jumlah tertentu, Anda akan diminta untuk mengisi detailnya pada layar kirim. Anda bisa menentukan jumlah dalam unit yang Anda inginkan, seperti BTC, satoshi, atau mata uang fiat yang setara. Anda juga memiliki opsi untuk menambahkan catatan pribadi, yang merupakan memo pribadi untuk referensi Anda sendiri untuk membantu Anda mengidentifikasi transaksi nanti. Catatan ini tidak akan dibagikan dengan penerima.
+Jika alamat yang kamu masukkan tidak menyertakan jumlah tertentu, kamu akan diminta melengkapi detailnya di layar kirim. Kamu dapat menentukan jumlah dalam unit yang diinginkan, seperti BTC, satoshi, atau nilai setara dalam mata uang fiat. Kamu juga bisa menambahkan catatan pribadi, yang berfungsi sebagai memo internal untuk membantu mengidentifikasi transaksi di kemudian hari. Catatan ini tidak akan dibagikan kepada penerima.
 
 
-Sebaliknya, jika permintaan pembayaran yang Anda pindai atau tempelkan sudah berisi semua rincian yang diperlukan, seperti URI BIP21 dengan jumlah yang sudah ditentukan sebelumnya, wallet akan melewati layar entri data dan membawa Anda langsung ke layar konfirmasi untuk mengesahkan pembayaran.
+Sebaliknya, jika permintaan pembayaran yang kamu pindai atau tempelkan sudah berisi semua detail yang diperlukan, seperti URI BIP21 dengan jumlah yang telah ditentukan, wallet akan melewati layar pengisian data dan langsung membawa kamu ke layar konfirmasi untuk menyetujui pembayaran.
+
 
 
 ![image](assets/en/14.webp)
 
 
-Sebelum transaksi Anda disiarkan, Anda akan dihadapkan pada layar konfirmasi. Sangat penting untuk meluangkan waktu sejenak dan meninjau setiap parameter dengan cermat, dengan memperhatikan alamat penerima, jumlah yang dikirim, dan biaya jaringan. Layar ini juga menyediakan alat bantu yang berguna untuk menyesuaikan transaksi Anda.
+Sebelum transaksi kamu disiarkan, kamu akan melihat layar konfirmasi. Sangat penting untuk meluangkan waktu sejenak dan meninjau setiap parameter dengan cermat, terutama alamat penerima, jumlah yang dikirim, dan biaya jaringan. Layar ini juga menyediakan alat bantu yang berguna untuk menyesuaikan transaksi kamu.
 
 
-Anda dapat mengontrol biaya dengan dua cara utama. Metode pertama adalah memilih kecepatan transaksi yang diinginkan, seperti rendah, sedang, atau tinggi, dan wallet akan secara otomatis menghitung biaya yang sesuai untuk Anda. Metode kedua memungkinkan kontrol yang lebih tepat dengan memungkinkan Anda menetapkan biaya tertentu, baik sebagai total absolut dalam satoshi atau sebagai tarif relatif per byte, yang kemudian memberikan estimasi waktu konfirmasi.
+Kamu dapat mengontrol biaya dengan dua cara utama. Metode pertama adalah memilih kecepatan transaksi yang diinginkan, seperti rendah, sedang, atau tinggi, dan wallet akan secara otomatis menghitung biaya yang sesuai. Metode kedua memberikan kontrol yang lebih presisi dengan memungkinkan kamu menetapkan biaya tertentu, baik sebagai total absolut dalam satoshi maupun sebagai tarif relatif per byte, yang kemudian disertai estimasi waktu konfirmasi.
 
 
-Untuk pengguna tingkat lanjut, wallet menawarkan beberapa pengaturan untuk menyempurnakan transaksi. `Replace-by-Fee` (RBF) diaktifkan secara default, yang merupakan fitur berharga yang memungkinkan Anda untuk mempercepat transaksi jika macet di mempool dengan menyiarkan ulang dengan biaya yang lebih tinggi. Anda juga dapat secara manual memilih `Unspent Transaction Outputs` (UTXO) yang mana yang akan dibelanjakan. Ini adalah alat yang ampuh untuk konsolidasi UTXO, sebuah strategi di mana Anda menggabungkan beberapa input kecil menjadi satu input yang lebih besar. Meskipun hal ini mungkin akan membebani biaya lebih besar untuk transaksi saat ini, namun secara signifikan dapat mengurangi biaya untuk transaksi di masa depan, terutama jika biaya jaringan diperkirakan akan meningkat.
+Untuk pengguna tingkat lanjut, wallet ini menawarkan beberapa pengaturan tambahan untuk menyempurnakan transaksi. `Replace-by-Fee` (RBF) diaktifkan secara default, sebuah fitur penting yang memungkinkan kamu mempercepat transaksi yang tertahan di mempool dengan menyiarkannya ulang menggunakan biaya yang lebih tinggi. Kamu juga dapat memilih secara manual `Unspent Transaction Outputs` (UTXO) mana yang akan dibelanjakan. Ini adalah alat yang sangat berguna untuk konsolidasi UTXO, yaitu strategi menggabungkan beberapa input kecil menjadi satu input yang lebih besar. Meskipun langkah ini dapat meningkatkan biaya transaksi saat ini, konsolidasi UTXO dapat secara signifikan menurunkan biaya transaksi di masa depan, terutama jika biaya jaringan diperkirakan akan meningkat.
+
 
 
 ![image](assets/en/15.webp)
 
 
-PayJoin secara otomatis dicoba ketika Anda memindai permintaan pembayaran penerima (URI BIP21) yang menyertakan parameter `pj=`. Jika Anda hanya menempelkan alamat biasa tanpa parameter tambahan, fitur ini tidak akan diaktifkan. Metode kolaboratif ini meningkatkan privasi dengan menggabungkan input dari pengirim dan penerima, mematahkan heuristik kepemilikan-input yang umum dan memungkinkan penskalaan yang lebih baik serta penghematan biaya dalam beberapa situasi.
+PayJoin akan otomatis dicoba saat kamu memindai permintaan pembayaran dari penerima berupa URI BIP21 yang menyertakan parameter `pj=`. Jika kamu hanya menempelkan alamat standar tanpa parameter tambahan, fitur ini tidak akan diaktifkan. Metode kolaboratif ini meningkatkan privasi dengan menggabungkan input dari pengirim dan penerima, sehingga mematahkan heuristik kepemilikan input yang umum digunakan, sekaligus memungkinkan penskalaan yang lebih baik dan penghematan biaya dalam beberapa situasi.
 
 
 ### Mengirim ke Liquid Network
 
 
-Liquid Network dirancang untuk transaksi yang cepat dan rahasia dengan biaya minimal. Ketika Anda mengirim dana melalui Liquid, dana tersebut akan ditarik dari `Pembayaran Instan Wallet`. Prosesnya sangat mudah: Anda cukup memasukkan atau memindai `alamat Liquid` penerima.
+Liquid Network dirancang untuk transaksi yang cepat dan privat dengan biaya yang sangat rendah. Saat kamu mengirim dana melalui Liquid, dana tersebut akan diambil dari `Pembayaran Instan Wallet`. Prosesnya sederhana: kamu cukup memasukkan atau memindai `alamat Liquid` milik penerima.
 
 
-Jika alamat tidak menentukan jumlah, Anda akan diminta untuk memberikannya pada layar kirim. Anda bisa memasukkan jumlah dalam BTC, satoshi, atau fiat. Keuntungan utama Liquid adalah ambang batas minimumnya yang rendah. Seperti halnya transaksi on-chain, Anda dapat menambahkan catatan pribadi opsional untuk catatan Anda sendiri. Jika permintaan pembayaran sudah termasuk jumlah, wallet akan langsung menuju ke layar konfirmasi.
+Jika alamat tidak menyertakan jumlah, kamu akan diminta untuk mengisinya di layar kirim. Kamu bisa memasukkan jumlah dalam BTC, satoshi, atau mata uang fiat. Salah satu keunggulan utama Liquid adalah ambang batas minimum yang rendah. Sama seperti transaksi on-chain, kamu juga bisa menambahkan catatan pribadi opsional untuk referensi kamu sendiri. Jika permintaan pembayaran sudah mencantumkan jumlah, wallet akan langsung membawa kamu ke layar konfirmasi.
 
 
-Pada layar konfirmasi untuk transaksi Liquid, Anda akan meninjau detailnya. Biayanya sangat rendah dan dihitung berdasarkan kompleksitas transaksi. Biasanya sekitar 0,1 sat/vB, yang untuk transaksi sederhana hanya sebesar 20-40 satoshi (misalnya, 26 satoshi pada 21 Desember 2025).
+Di layar konfirmasi transaksi Liquid, kamu akan meninjau detail transaksi. Biayanya sangat rendah dan dihitung berdasarkan kompleksitas transaksi. Biasanya sekitar 0,1 sat/vB, yang untuk transaksi sederhana hanya berkisar 20 hingga 40 satoshi (misalnya 26 satoshi pada 21 Desember 2025).
+
 
 
 ![image](assets/en/16.webp)
@@ -503,28 +511,29 @@ Pada layar konfirmasi untuk transaksi Liquid, Anda akan meninjau detailnya. Biay
 ### Mengirim ke Lightning Network
 
 
-Anda dapat memindai Lightning Address (mis. `runningbitcoin@rizful.com`) yang memungkinkan Anda untuk mengatur jumlah dan catatan opsional untuk penerima, atau memindai faktur dengan jumlah yang telah ditentukan sebelumnya, yang akan membawa Anda langsung ke layar konfirmasi.
+Kamu dapat memindai Lightning Address (misalnya `runningbitcoin@rizful.com`) yang memungkinkan kamu mengatur jumlah dan catatan opsional untuk penerima, atau memindai invoice dengan jumlah yang sudah ditentukan sebelumnya, yang akan langsung membawa kamu ke layar konfirmasi.
 
 
-*Harap diperhatikan bahwa jumlah minimum dan biaya berlaku.*
+*Harap diperhatikan bahwa jumlah minimum dan biaya tetap berlaku.*
 
 
-Bull Bitcoin Wallet mengirimkan pembayaran Lightning dengan menarik dana dari `Pembayaran Instan Wallet` (pada Liquid) dan menukarnya melalui `Boltz`. Pendekatan hibrida ini sepenuhnya bersifat kustodian mandiri dan menghindari biaya on-chain yang tinggi untuk mengelola saluran Lightning khusus, tetapi memerlukan pembayaran `biaya pertukaran`. Untuk biaya terendah, kirim langsung ke alamat Liquid penerima jika mereka juga menggunakan Bull Bitcoin wallet.
+Bull Bitcoin Wallet mengirim pembayaran Lightning dengan menarik dana dari `Pembayaran Instan Wallet` (di Liquid) dan menukarkannya melalui `Boltz`. Pendekatan hibrida ini sepenuhnya bersifat self-custodial dan menghindari biaya on-chain yang tinggi untuk mengelola saluran Lightning khusus, tetapi tetap memerlukan pembayaran `biaya pertukaran`. Untuk biaya paling rendah, kirim langsung ke alamat Liquid penerima jika mereka juga menggunakan Bull Bitcoin Wallet.
+
 
 
 ## 🔟 Mentransfer Dana Antar Dompet Anda
 
 
-Bull Bitcoin memungkinkan Anda untuk memindahkan Bitcoin Anda antara `Bitcoin Aman` wallet dan `Pembayaran Instan Wallet` pada Liquid Network atau ke `Wallet eksternal`. Untuk melakukan transfer, cukup buka bagian `Transfer`, pilih dompet sumber dan tujuan, masukkan jumlah yang ingin Anda pindahkan, dan konfirmasikan transaksi.
+Bull Bitcoin memungkinkan kamu memindahkan bitcoin antara `Bitcoin Aman` wallet dan `Pembayaran Instan Wallet` di Liquid Network, atau ke `Wallet eksternal`. Untuk melakukan transfer, cukup buka bagian `Transfer`, pilih wallet sumber dan tujuan, masukkan jumlah yang ingin kamu pindahkan, lalu konfirmasikan transaksi.
 
 
 ![image](assets/en/17.webp)
 
 
-## 1️⃣1️⃣ Memulihkan Bull Bitcoin Wallet Anda
+## 1️⃣1️⃣ Memulihkan Bull Bitcoin Wallet kamu
 
 
-Bagian ini menjelaskan cara mendapatkan kembali akses ke dana Bull Bitcoin Wallet Anda jika Anda kehilangan perangkat, menghapus aplikasi, atau hanya perlu beralih ke yang baru. Seperti yang telah dijelaskan, ada dua metode utama untuk pemulihan: menggunakan metode `Recoverbull` yang unik dan menggunakan frasa standar `BIP39 seed`.
+Bagian ini menjelaskan cara mendapatkan kembali akses ke dana Bull Bitcoin Wallet kamu jika perangkat hilang, aplikasi terhapus, atau kamu perlu berpindah ke perangkat baru. Seperti yang sudah dijelaskan sebelumnya, ada dua metode utama untuk pemulihan: menggunakan metode unik `Recoverbull` dan menggunakan `BIP39 seedphrase` standar.
 
 
 ### Metode 1: Recoverbull
@@ -533,34 +542,34 @@ Bagian ini menjelaskan cara mendapatkan kembali akses ke dana Bull Bitcoin Walle
 Rekap: Cadangan Wallet dienkripsi secara lokal. File yang dienkripsi dapat disimpan di penyimpanan cloud, atau di perangkat lain. Kunci enkripsi disimpan oleh Server Kunci Recoverbull. Keduanya disimpan terpisah dan harus digabungkan untuk memulihkan wallet.
 
 
-Untuk memulai, saya akan menghapus Wallet dengan semua dana di dalamnya dan menginstal ulang wallet. Kita akan mendarat di `Layar Selamat Datang` lagi. Kali ini, pilih opsi `Pulihkan Wallet`. Kemudian, navigasikan ke metode `Vault Terenkripsi`, konfirmasikan menggunakan `Server Kunci Default`, dan pilih lokasi atau `Penyedia Vault` di mana Anda menyimpan file cadangan.
+Untuk memulai, aku akan menghapus Wallet dengan semua dana di dalamnya dan menginstal ulang wallet. Kita akan mendarat di `Layar Selamat Datang` lagi. Kali ini, pilih opsi `Pulihkan Wallet`. Kemudian, navigasikan ke metode `Vault Terenkripsi`, konfirmasikan menggunakan `Server Kunci Default`, dan pilih lokasi atau `Penyedia Vault` di mana kamu menyimpan file cadangan.
 
 
 ![image](assets/en/18.webp)
 
 
-Ini menyatakan bahwa vault berhasil diimpor. Tekan tombol `Dekripsi Brankas` dan masukkan `PIN`. Layar berikutnya akan menampilkan `saldo` dan `jumlah transaksi` Anda yang telah dipulihkan.
+Ini menyatakan bahwa vault berhasil diimpor. Tekan tombol `Dekripsi Brankas` dan masukkan `PIN`. Layar berikutnya akan menampilkan `saldo` dan `jumlah transaksi` kamu yang telah dipulihkan.
 
 
 ![image](assets/en/19.webp)
 
 
-### Metode 2: Frasa Benih
+### Metode 2: Seed Phrase
 
 
-Metode ini menggunakan frasa pemulihan utama wallet Anda, daftar 12 kata standar yang berfungsi sebagai cadangan utama untuk dana Anda. Ini adalah cara yang paling universal untuk memulihkan Bitcoin wallet, karena tidak terikat pada layanan atau server tertentu. Selama Anda memiliki frasa ini, Anda dapat memulihkan wallet Anda pada perangkat apa pun yang kompatibel, bahkan tanpa akses ke Server Kunci Bull Bitcoin.
+Metode ini menggunakan seedphrase utama wallet kamu, yaitu daftar standar 12 kata yang berfungsi sebagai cadangan utama dana kamu. Ini adalah cara paling universal untuk memulihkan Bitcoin wallet, karena tidak bergantung pada layanan atau server tertentu. Selama kamu memiliki seedphrase ini, kamu dapat memulihkan wallet di perangkat apa pun yang kompatibel, bahkan tanpa akses ke Server Kunci Bull Bitcoin.
 
 
-Dari layar Selamat Datang, pilih `Pulihkan Wallet`. Kali ini, pilih metode `Physical backup`. Aplikasi akan menampilkan kisi-kisi kata. Pilih dengan hati-hati setiap kata dari frasa seed yang terdiri dari 12 kata dalam urutan yang benar. Teliti, karena satu kesalahan saja akan menghasilkan wallet yang salah.
+Dari layar Selamat Datang, pilih `Pulihkan Wallet`. Kali ini, pilih metode `Physical backup`. Aplikasi akan menampilkan kisi kata. Pilih dengan sangat hati-hati setiap kata dari seedphrase 12 kata dalam urutan yang benar. Pastikan semuanya tepat, karena satu kesalahan saja akan menghasilkan wallet yang berbeda.
 
 
 ## 1️⃣2️⃣ Menghubungkan Hardware Wallet
 
 
-Untuk tingkat keamanan tertinggi, banyak pengguna Bitcoin memilih untuk menyimpan dana mereka dalam `penyimpanan dingin`. Ini berarti menyimpan `kunci pribadi` yang mengontrol Bitcoin Anda pada perangkat yang tidak pernah terhubung ke internet. Sebuah `perangkat keras wallet` (atau perangkat Penandatanganan) adalah perangkat fisik khusus yang dirancang untuk tujuan ini. Perangkat ini berfungsi seperti brankas digital untuk kunci Anda, memastikan kunci tersebut tidak pernah terpapar pada potensi ancaman dari komputer atau ponsel pintar online.
+Untuk tingkat keamanan tertinggi, banyak pengguna Bitcoin memilih menyimpan dana mereka dalam `cold storage`. Ini berarti menyimpan `private key` yang mengontrol bitcoin kamu di perangkat yang tidak pernah terhubung ke internet. Sebuah `hardware wallet` (atau perangkat penandatangan) adalah perangkat fisik khusus yang dirancang untuk tujuan ini. Perangkat ini berfungsi seperti brankas digital untuk kunci kamu, memastikan private key tersebut tidak pernah terekspos ke potensi ancaman dari komputer atau ponsel pintar yang terhubung ke internet.
 
 
-Dengan menghubungkan perangkat keras wallet ke aplikasi Bull Bitcoin, Anda mendapatkan yang terbaik dari kedua dunia: keamanan tanpa kompromi dari cold storage untuk private key Anda, dikombinasikan dengan fitur-fitur yang kuat dan antarmuka yang mudah digunakan dari Bull Bitcoin wallet untuk melihat saldo dan mengelola transaksi. Pada bab terakhir ini, kami akan menunjukkan kepada Anda cara menghubungkan perangkat keras wallet, seperti [Coldcard Q](https://coldcard.com/q), ke Bull Bitcoin wallet Anda. Tutorial ini tidak akan membahas pengaturan Coldcard Q secara mendalam; Anda dapat mempelajarinya di sini:
+Dengan menghubungkan hardware wallet ke aplikasi Bull Bitcoin, kamu mendapatkan yang terbaik dari dua dunia: keamanan maksimal dari cold storage untuk private key kamu, dipadukan dengan fitur-fitur yang kuat serta antarmuka Bull Bitcoin Wallet yang mudah digunakan untuk melihat saldo dan mengelola transaksi. Pada bab terakhir ini, kami akan menunjukkan cara menghubungkan hardware wallet, seperti [Coldcard Q](https://coldcard.com/q), ke Bull Bitcoin wallet kamu. Tutorial ini tidak akan membahas pengaturan Coldcard Q secara mendalam; Kamu dapat mempelajarinya di sini:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
@@ -573,13 +582,13 @@ https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-
 ![image](assets/en/26.webp)
 
 
-Pertama, dari menu utama pada Coldcard Q Anda, pilih `Export Wallet`, lalu pilih `Bull Wallet`. Coldcard Anda akan menghasilkan kode QR generate.
+Pertama, dari menu utama pada Coldcard Q kamu, pilih `Export Wallet`, lalu pilih `Bull Wallet`. Coldcard akan menghasilkan kode QR generate.
 
 
 ![image](assets/en/20.webp)
 
 
-Buka Bull Bitcoin Wallet dan navigasikan ke `Pengaturan` > `Pengaturan Bitcoin` > `Import wallet` dan pilih `Coldcard Q` pada ponsel Anda dan ketuk `Buka kamera` untuk memindai kode QR untuk mengimpor kunci publik perangkat keras wallet.
+Buka Bull Bitcoin Wallet dan navigasikan ke `Pengaturan` > `Pengaturan Bitcoin` > `Import wallet` dan pilih `Coldcard Q` pada ponsel dan ketuk `Buka kamera` untuk memindai kode QR untuk mengimpor kunci publik perangkat keras wallet.
 
 
 ![image](assets/en/21.webp)
@@ -588,12 +597,12 @@ Buka Bull Bitcoin Wallet dan navigasikan ke `Pengaturan` > `Pengaturan Bitcoin` 
 ### Menerima dengan Coldcard Q
 
 
-Untuk menerima Bitcoin menggunakan Coldcard Q yang terhubung, Anda tidak perlu menghubungkan perangkat secara fisik ke ponsel Anda. Bull Bitcoin Wallet telah mengimpor kunci publik yang diperlukan, sehingga dapat mengalamatkan generate dengan sendirinya.
+Untuk menerima Bitcoin menggunakan Coldcard Q yang terhubung, kamu tidak perlu menyambungkan perangkat secara fisik ke ponsel. Bull Bitcoin Wallet telah mengimpor kunci publik yang diperlukan, sehingga wallet dapat menghasilkan alamat penerima secara mandiri.
 
 
 1. Ketuk perangkat penandatanganan Coldcard Q yang diimpor dan pilih `Terima`.
 
-2. Aplikasi akan secara otomatis menampilkan alamat Bitcoin yang baru dari wallet Coldcard Anda.
+2. Aplikasi akan secara otomatis menampilkan alamat Bitcoin yang baru dari wallet Coldcard kamu.
 
 3. Gunakan alamat ini untuk menerima dana. Bitcoin akan diamankan secara langsung ke kunci perangkat keras wallet, meskipun perangkat sedang offline selama proses berlangsung.
 
@@ -604,22 +613,21 @@ Untuk menerima Bitcoin menggunakan Coldcard Q yang terhubung, Anda tidak perlu m
 ### Mengirim dengan Coldcard Q
 
 
-Mengirim Bitcoin dengan Coldcard Q Anda memerlukan konfirmasi fisik untuk mengesahkan transaksi apa pun. Meskipun aplikasi Bull Wallet digunakan untuk membuat transaksi, tanda tangan akhir hanya dapat dibuat pada perangkat keras wallet itu sendiri.
+Mengirim Bitcoin dengan Coldcard Q kamu memerlukan konfirmasi fisik untuk mengesahkan setiap transaksi. Meskipun aplikasi Bull Bitcoin Wallet digunakan untuk membuat transaksi, tanda tangan akhir hanya dapat dilakukan langsung di hardware wallet itu sendiri.
 
 
-Untuk memulai, buka `Coldcard Q` wallet Anda dan ketuk `Kirim`. Kemudian, `buka kamera` untuk memindai kode QR alamat penerima. Setelah memindai, masukkan `jumlah` yang ingin Anda kirimkan dan sesuaikan `prioritas biaya` sesuai kebutuhan.
+Untuk memulai, buka wallet `Coldcard Q` kamu dan ketuk `Kirim`. Lalu, `buka kamera` untuk memindai kode QR alamat penerima. Setelah alamat dipindai, masukkan `jumlah` yang ingin kamu kirim dan sesuaikan `prioritas biaya` sesuai kebutuhan.
 
 
-Untuk opsi lainnya, Anda dapat melihat di bawah Pengaturan Lanjutan. Di sini Anda akan menemukan opsi `Ganti dengan Biaya` (RBF), yang diaktifkan secara default dan memungkinkan Anda untuk mempercepat transaksi yang macet nanti. Anda juga memiliki opsi `Coin Control`, yang memungkinkan Anda memilih secara manual UTXO tertentu yang ingin Anda belanjakan.
+Untuk pengaturan tambahan, kamu bisa membuka bagian Pengaturan Lanjutan. Di sini tersedia opsi `Replace-by-Fee` (RBF), yang aktif secara default dan memungkinkan kamu mempercepat transaksi yang tertahan di mempool. Kamu juga dapat menggunakan opsi `Coin Control`, yang memungkinkan kamu memilih secara manual UTXO tertentu yang ingin dibelanjakan.
 
 
-Setelah Anda meninjau semua detail, ketuk `Tampilkan PSBT` untuk menyiapkan transaksi.
-
+Setelah semua detail ditinjau dan sudah sesuai, ketuk `Tampilkan PSBT` untuk menyiapkan transaksi.
 
 ![image](assets/en/23.webp)
 
 
-Tekan tombol `Pindai` pada Coldcard Q Anda dan gunakan kameranya untuk memindai kode QR yang ditampilkan pada ponsel Anda. Layar Coldcard kemudian akan menampilkan semua detail transaksi. Verifikasi jumlah, alamat penerima, dan alamat perubahan Anda dengan cermat. Jika semuanya sudah benar, tekan tombol `Enter` pada Coldcard Q untuk menandatangani transaksi. Selanjutnya, kode QR dari transaksi yang telah ditandatangani akan muncul di layar.
+Tekan tombol `Pindai` pada Coldcard Q kamu dan gunakan kameranya untuk memindai kode QR yang ditampilkan di ponsel. Layar Coldcard kemudian akan menampilkan semua detail transaksi. Verifikasi jumlah, alamat penerima, dan alamat kembalian dengan cermat. Jika semuanya sudah benar, tekan tombol `Enter` pada Coldcard Q untuk menandatangani transaksi. Setelah itu, kode QR berisi transaksi yang sudah ditandatangani akan ditampilkan di layar.
 
 
 ![image](assets/en/24.webp)
@@ -631,7 +639,8 @@ Pada Bull wallet, ketuk `Selesai`, lalu ketuk tombol `Kamera` untuk memindai kod
 ## 🎯 Kesimpulan
 
 
-Sekarang Anda telah menyelesaikan perjalanan Anda melalui Bull Bitcoin Wallet. Aplikasi ini menempatkan alat privasi dan keamanan yang kuat tepat di ujung jari Anda, membuat fitur-fitur canggih mudah digunakan. Aplikasi ini membantu Anda tetap privat dengan fitur-fitur seperti `PayJoin`, yang menyembunyikan transaksi Anda di blockchain, dan `Integrasi Tor`, yang menyembunyikan aktivitas jaringan Anda dari pengintai. Bagi mereka yang menginginkan kontrol penuh, Anda dapat terhubung ke `node Bitcoin pribadi Anda` untuk berhenti bergantung pada server pihak ketiga, dan menggunakan `Hardware wallet` untuk menjaga agar kunci pribadi Anda benar-benar offline dan aman. Dengan opsi pencadangan cerdas dan dukungan tanpa batas untuk Bitcoin, Liquid, dan Lightning, Bull Bitcoin Wallet adalah pilihan yang kuat dan lengkap bagi siapa saja yang serius untuk menjaga dana mereka tetap privat, aman, dan sepenuhnya berada di bawah kendali mereka sendiri.
+Sekarang kamu telah menyelesaikan perjalanan kamu mengenal Bull Bitcoin Wallet. Aplikasi ini menghadirkan alat privasi dan keamanan yang kuat langsung di genggaman kamu, sehingga fitur-fitur tingkat lanjut tetap mudah digunakan. Bull Bitcoin Wallet membantu kamu menjaga privasi dengan fitur seperti `PayJoin`, yang membantu menyamarkan transaksi kamu di blockchain, serta `Integrasi Tor`, yang menyembunyikan aktivitas jaringan kamu dari pihak yang mengintip. Bagi kamu yang menginginkan kontrol penuh, kamu bisa terhubung ke `node Bitcoin pribadi kamu` agar tidak bergantung pada server pihak ketiga, serta menggunakan `hardware wallet` untuk memastikan private key kamu tetap sepenuhnya offline dan aman. Dengan opsi pencadangan yang cerdas serta dukungan penuh untuk Bitcoin, Liquid, dan Lightning, Bull Bitcoin Wallet menjadi pilihan yang kuat dan lengkap bagi siapa pun yang serius menjaga dana mereka tetap privat, aman, dan sepenuhnya berada di bawah kendali mereka sendiri.
+
 
 
 ## 📚 Sumber Daya Bull Wallet

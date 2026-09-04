@@ -4,83 +4,92 @@ description: Bagaimana cara memulihkan bitcoin yang terjebak di Samourai Wallet?
 ---
 ![cover](assets/cover.webp)
 
-Menyusul penangkapan para pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fungsi aplikasi kini tidak beroperasi, dan pengguna yang tidak memiliki Dojo mereka sendiri tidak lagi dapat melakukan transmisi transaksi.
+Menyusul penangkapan para pendiri Samourai Wallet dan penyitaan server mereka pada 24 April, beberapa fungsi aplikasi kini tidak lagi beroperasi, dan pengguna yang tidak memiliki Dojo sendiri tidak lagi bisa menyiarkan transaksi.
 
-Setelah membantu beberapa pengguna dalam memulihkan bitcoin mereka dalam beberapa hari terakhir, saya percaya saya telah menemui sebagian besar masalah yang mungkin muncul selama pemulihan Samourai Wallet. Oleh karena itu, tutorial ini akan dimulai dengan laporan situasi untuk mengidentifikasi fungsi yang masih beroperasi dan yang tidak lagi tersedia dalam ekosistem Samourai Wallet dan perangkat lunak yang terpengaruh oleh insiden ini. Selanjutnya, kita akan melanjutkan langkah demi langkah untuk memulihkan Samourai Wallet menggunakan perangkat lunak Sparrow Wallet. Kita akan memeriksa semua hambatan potensial yang ditemui selama proses ini dan melihat solusi untuk mengatasinya. Akhirnya, di bagian terakhir, Anda akan menemukan potensi risiko terhadap privasi Anda menyusul penyitaan server.
+Setelah membantu beberapa pengguna memulihkan bitcoin mereka dalam beberapa hari terakhir, aku merasa sudah menemukan sebagian besar kendala yang mungkin muncul saat proses pemulihan Samourai Wallet. Karena itu, tutorial ini akan diawali dengan laporan situasi untuk mengidentifikasi fungsi mana yang masih berjalan dan mana yang sudah tidak tersedia lagi dalam ekosistem Samourai Wallet, serta perangkat lunak yang terdampak oleh insiden ini. Selanjutnya, kita akan masuk langkah demi langkah untuk memulihkan Samourai Wallet menggunakan perangkat lunak Sparrow Wallet. Kita akan membahas semua hambatan potensial yang mungkin muncul selama proses tersebut dan melihat cara mengatasinya. Terakhir, di bagian penutup, kamu akan menemukan potensi risiko terhadap privasimu setelah penyitaan server tersebut.
 
-*Terima kasih banyak kepada [@Louferlou](https://twitter.com/Louferlou), yang telah membantu beberapa pengguna dalam pemulihan mereka dan berbagi pengalamannya dengan saya, dan yang juga telah berkontribusi dalam pengujian untuk menentukan apa yang masih berfungsi.*
+*Terima kasih banyak kepada [@Louferlou](https://twitter.com/Louferlou), yang telah membantu beberapa pengguna dalam pemulihan mereka dan berbagi pengalamannya denganku, dan yang juga telah berkontribusi dalam pengujian untuk menentukan apa yang masih berfungsi.*
 
 ## Apakah Samourai Wallet masih berfungsi?
 
-Ya, **aplikasi Samourai Wallet masih berfungsi**, tetapi dengan beberapa kondisi.
+Ya, **aplikasi Samourai Wallet masih berfungsi**, tetapi dengan beberapa syarat.
 
-Pertama, aplikasi tersebut harus telah terpasang sebelumnya di smartphone Anda. Google Play Store telah menghapus aplikasi tersebut, dan APK di-hosting di situs web yang disita. Oleh karena itu, saat ini cukup rumit untuk menginstal Samourai. Anda mungkin menemukan APK secara online, tetapi saya menyarankan agar tidak mengunduhnya kecuali Anda yakin dengan sumbernya.
+Pertama, aplikasinya harus sudah terpasang sebelumnya di smartphone kamu. Google Play Store telah menghapus aplikasi tersebut, dan file APK sebelumnya di-hosting di situs web yang kini disita. Karena itu, saat ini cukup sulit untuk menginstal Samourai. Kamu mungkin menemukan APK beredar secara online, tetapi aku menyarankan untuk tidak mengunduhnya kecuali kamu benar-benar yakin dengan sumbernya.
 
-Mengingat halaman Samourai Wallet tidak lagi tersedia di Google Play Store, tidak mungkin untuk menonaktifkan pembaruan otomatis. Jika aplikasi kembali ke platform unduhan, akan bijaksana untuk **menonaktifkan pembaruan otomatis** sampai informasi lebih lanjut tersedia mengenai pengembangan kasus tersebut.
+Karena halaman Samourai Wallet sudah tidak tersedia lagi di Google Play Store, tidak ada lagi opsi untuk mengelola pembaruan dari sana. Jika suatu saat aplikasi ini kembali ke platform unduhan, akan lebih aman untuk **menonaktifkan pembaruan otomatis** sampai ada kejelasan lebih lanjut mengenai perkembangan kasusnya.
 
-Jika Samourai Wallet sudah terpasang di smartphone Anda, Anda seharusnya masih bisa mengakses aplikasi tersebut. Untuk menggunakan fungsi dompet dari Samourai, sangat penting untuk menghubungkan Dojo. Sebelumnya, pengguna tanpa Dojo pribadi bergantung pada server Samourai untuk mengakses informasi blockchain Bitcoin dan untuk melakukan transmisi transaksi. Dengan penyitaan server ini, aplikasi tidak lagi dapat mengakses data ini.
-Jika Anda tidak memiliki Dojo yang terhubung sebelumnya tetapi memiliki satu sekarang, Anda dapat mengaturnya untuk menggunakan aplikasi Samourai Anda lagi. Ini melibatkan pengecekan cadangan Anda, menghapus dompet (dompet, bukan aplikasi), dan memulihkan dompet dengan menghubungkan Dojo Anda ke aplikasi. Untuk lebih detail tentang langkah-langkah ini, Anda dapat berkonsultasi tutorial ini, di bagian "_Menyiapkan Samourai Wallet Anda_": COINJOIN - DOJO.
-Jika aplikasi Samourai Anda sudah terhubung ke Dojo Anda sendiri, maka bagian dompet bekerja dengan sempurna untuk Anda. Anda masih dapat melihat saldo Anda dan melakukan transmisi transaksi. Meskipun semua yang terjadi, saya pikir Samourai Wallet tetap menjadi perangkat lunak dompet mobile terbaik saat ini. Secara pribadi, saya berencana untuk terus menggunakannya.
-Masalah utama yang mungkin Anda temui adalah ketidakmampuan untuk mengakses akun Whirlpool dari aplikasi. Biasanya, Samourai mencoba untuk membangun koneksi dengan Whirlpool CLI Anda dan memulai siklus coinjoin sebelum memberi Anda akses ke akun-akun ini. Namun, karena koneksi ini tidak lagi mungkin, aplikasi terus mencari tanpa pernah memberi Anda akses ke akun Whirlpool. Dalam kasus ini, Anda dapat memulihkan akun-akun ini di perangkat lunak dompet lain sambil hanya menyimpan akun deposit di Samourai.
+Jika Samourai Wallet sudah terpasang di smartphone kamu, seharusnya kamu masih bisa mengakses aplikasinya. Untuk menggunakan fungsi wallet dari Samourai, sangat penting untuk terhubung ke Dojo. Sebelumnya, pengguna yang tidak memiliki Dojo pribadi bergantung pada server Samourai untuk mengakses data blockchain Bitcoin dan untuk menyiarkan transaksi. Setelah server tersebut disita, aplikasi tidak lagi bisa mengakses data ini.
+
+Jika sebelumnya kamu tidak memiliki Dojo yang terhubung tetapi sekarang sudah punya, kamu tetap bisa mengonfigurasinya agar aplikasi Samourai dapat digunakan kembali. Prosesnya melibatkan verifikasi cadangan kamu, menghapus wallet (wallet-nya, bukan aplikasinya), lalu memulihkannya kembali dengan menghubungkan Dojo ke aplikasi. Untuk detail langkah-langkahnya, kamu bisa melihat tutorial pada bagian "_Menyiapkan Samourai Wallet Kamu_": COINJOIN - DOJO.
+
+Jika aplikasi Samourai kamu sudah terhubung ke Dojo sendiri, maka bagian wallet akan tetap berfungsi normal. Kamu masih bisa melihat saldo dan menyiarkan transaksi. Terlepas dari situasi yang ada, menurutku Samourai Wallet tetap menjadi salah satu perangkat lunak wallet mobile terbaik saat ini. Secara pribadi, aku berencana untuk terus menggunakannya.
+
+Masalah utama yang mungkin kamu hadapi adalah ketidakmampuan mengakses akun Whirlpool dari aplikasi. Biasanya, Samourai mencoba membangun koneksi dengan Whirlpool CLI milikmu dan memulai siklus coinjoin sebelum memberikan akses ke akun-akun tersebut. Namun, karena koneksi ini sudah tidak memungkinkan, aplikasi akan terus mencoba terhubung tanpa pernah benar-benar memberi akses ke akun Whirlpool. Dalam kondisi seperti ini, kamu bisa memulihkan akun-akun tersebut di perangkat lunak wallet lain, sementara akun deposit tetap disimpan di Samourai.
 
 ### Apa saja alat yang masih tersedia di Samourai?
 
-Di sisi lain, beberapa alat terpengaruh oleh penutupan server atau sepenuhnya tidak tersedia.
+Di sisi lain, beberapa alat terdampak oleh penutupan server atau bahkan sepenuhnya tidak tersedia.
 
-Mengenai alat pengeluaran individu, semuanya berfungsi normal asalkan, tentu saja, Anda memiliki Dojo Anda sendiri. Transaksi Stonewall normal (dan bukan Stonewall x2) berfungsi tanpa masalah.
+Untuk alat pengeluaran individu, semuanya tetap berfungsi normal selama kamu memiliki Dojo sendiri. Transaksi Stonewall biasa, bukan Stonewall x2, tetap berjalan tanpa kendala.
 
-Komentar di Twitter telah menyoroti bahwa privasi yang ditawarkan oleh transaksi Stonewall sekarang mungkin berkurang. Nilai tambah dari transaksi Stonewall terletak pada fakta bahwa strukturnya tidak dapat dibedakan dari transaksi Stonewall x2. Ketika seorang analis menemukan pola spesifik ini, mereka tidak dapat menentukan apakah itu Stonewall standar dengan satu pengguna atau Stonewall x2 yang melibatkan dua pengguna. Namun, seperti yang akan kita lihat dalam paragraf berikutnya, melakukan transaksi Stonewall x2 menjadi lebih kompleks karena ketidaktersediaan Soroban. Beberapa oleh karena itu berpikir bahwa seorang analis sekarang mungkin mengasumsikan bahwa setiap transaksi dengan struktur ini adalah Stonewall normal. Secara pribadi, saya tidak berbagi asumsi ini. Meskipun transaksi Stonewall x2 mungkin kurang sering terjadi (dan saya pikir mereka sudah sebelum insiden ini), fakta bahwa mereka masih mungkin dapat membatalkan seluruh analisis berdasarkan asumsi bahwa mereka tidak.
+Beberapa komentar di Twitter menyoroti bahwa tingkat privasi dari transaksi Stonewall sekarang mungkin berkurang. Nilai tambah transaksi Stonewall terletak pada strukturnya yang tidak dapat dibedakan dari Stonewall x2. Ketika seorang analis menemukan pola khusus ini, mereka tidak bisa memastikan apakah itu Stonewall standar dengan satu pengguna atau Stonewall x2 yang melibatkan dua pengguna. Namun, seperti yang akan kita bahas di paragraf berikutnya, melakukan transaksi Stonewall x2 kini menjadi lebih rumit karena Soroban tidak lagi tersedia. Karena itu, sebagian orang berpendapat bahwa analis mungkin akan menganggap setiap transaksi dengan struktur tersebut sebagai Stonewall biasa. Secara pribadi, aku tidak sependapat dengan asumsi ini. Meskipun transaksi Stonewall x2 mungkin menjadi lebih jarang, dan menurutku memang sudah jarang bahkan sebelum insiden ini, fakta bahwa transaksi tersebut masih mungkin dilakukan sudah cukup untuk menggugurkan analisis yang hanya bergantung pada asumsi bahwa Stonewall x2 tidak lagi terjadi.
 
 **[-> Pelajari lebih lanjut tentang transaksi Stonewall.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
-Mengenai Ricochet, saya belum dapat memverifikasi apakah layanan ini masih beroperasi, karena tidak memiliki Dojo di Testnet, dan saya lebih memilih untuk tidak mengambil risiko menghabiskan `100 000 sats` ke dompet yang mungkin dikendalikan oleh otoritas. Jika Anda telah memiliki kesempatan untuk menguji alat ini baru-baru ini, saya mengundang Anda untuk menghubungi saya agar kami dapat memperbarui artikel ini.
+Mengenai Ricochet, aku belum bisa memverifikasi apakah layanan ini masih beroperasi, karena aku tidak memiliki Dojo di Testnet, dan aku lebih memilih untuk tidak mengambil risiko menghabiskan `100 000 sats` ke wallet yang mungkin dikendalikan oleh otoritas. Jika kamu sempat menguji alat ini baru-baru ini, aku mengundangmu untuk menghubungiku agar kita bisa memperbarui artikel ini.
 
-Jika Anda perlu menggunakan Ricochet, perlu diketahui bahwa Anda selalu dapat melakukan operasi ini secara manual dengan perangkat lunak dompet apa pun. Untuk mempelajari cara melakukan berbagai lompatan secara manual dengan benar, saya merekomendasikan untuk berkonsultasi dengan artikel lain ini: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Jika kamu perlu menggunakan Ricochet, perlu diketahui bahwa kamu selalu bisa melakukan operasi ini secara manual dengan perangkat lunak wallet apa pun. Untuk mempelajari cara melakukan beberapa lompatan secara manual dengan benar, aku sarankan membaca artikel berikut ini: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
-Alat JoinBot tidak lagi beroperasi, karena sepenuhnya bergantung pada partisipasi dompet yang dikelola oleh Samourai.
+Alat JoinBot sudah tidak lagi beroperasi, karena sepenuhnya bergantung pada partisipasi wallet yang dikelola oleh Samourai.
 
-Mengenai jenis transaksi kolaboratif lainnya, sering disebut sebagai "cahoots," mereka tetap mungkin, tetapi hanya secara manual. Sebelum penutupan server, Anda memiliki dua opsi untuk melakukan transaksi Stonewall x2 atau Stowaway (PayJoin):
-- Gunakan jaringan Soroban untuk secara otomatis dan jarak jauh bertukar PSBTs;
-- Atau lakukan pertukaran ini secara manual dengan memindai beberapa kode QR.
+Untuk jenis transaksi kolaboratif lainnya, yang sering disebut sebagai "cahoots", transaksi tersebut masih bisa dilakukan, tetapi hanya secara manual. Sebelum penutupan server, kamu punya dua opsi untuk melakukan transaksi Stonewall x2 atau Stowaway (PayJoin):
+- Menggunakan jaringan Soroban untuk secara otomatis dan jarak jauh bertukar PSBT;
+- Atau melakukan pertukaran ini secara manual dengan memindai beberapa kode QR.
 
-Setelah beberapa pengujian, tampaknya Soroban tidak lagi berfungsi. Untuk melakukan transaksi kolaboratif ini, pertukaran data harus dilakukan secara manual. Berikut adalah dua opsi untuk melakukan pertukaran ini:
-- Jika Anda secara fisik dekat dengan kolaborator Anda, Anda dapat memindai kode QR secara berurutan;
-Jika Anda berjarak jauh dari rekan kerja Anda, Anda dapat bertukar PSBT melalui saluran komunikasi eksternal ke aplikasi. Namun, berhati-hatilah, karena data yang terkandung dalam PSBT ini sensitif dalam hal privasi. Saya merekomendasikan menggunakan layanan pesan terenkripsi untuk memastikan kerahasiaan pertukaran.
+Setelah beberapa pengujian, tampaknya Soroban sudah tidak berfungsi. Jadi, untuk melakukan transaksi kolaboratif ini, pertukaran data harus dilakukan secara manual. Berikut dua opsi yang bisa kamu gunakan:
+- Jika kamu berada secara fisik dekat dengan kolaborator, kamu bisa memindai kode QR secara bergantian;
+- Jika kamu berjauhan, kamu bisa bertukar PSBT melalui saluran komunikasi eksternal di luar aplikasi.
+
+Namun, perlu hati-hati karena data yang terdapat dalam PSBT bersifat sensitif dari sisi privasi. Aku menyarankan menggunakan layanan pesan terenkripsi agar pertukaran data tetap rahasia.
 **[-> Pelajari lebih lanjut tentang transaksi Stonewall x2.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 **[-> Pelajari lebih lanjut tentang transaksi Stowaway.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
-Mengenai Whirlpool, protokol ini tampaknya tidak lagi berfungsi, bahkan untuk pengguna yang memiliki Dojo mereka sendiri. Saya telah memantau RoninDojo saya beberapa hari ini dan mencoba beberapa manipulasi dasar, tetapi CLI Whirlpool tidak dapat terhubung sejak server dimatikan.
+Mengenai Whirlpool, protokol ini tampaknya sudah tidak berfungsi lagi, bahkan bagi pengguna yang memiliki Dojo sendiri. Selama beberapa hari terakhir aku memantau RoninDojo milikku dan mencoba beberapa pengujian dasar, tetapi Whirlpool CLI tidak bisa terhubung sejak server dimatikan.
 
-Namun, saya tetap berharap bahwa protokol ini dapat diaktifkan kembali atau mungkin dibayangkan secara berbeda dalam beberapa minggu mendatang, tergantung pada bagaimana situasi berkembang. Jeda ini bisa menjadi kesempatan untuk menjelajahi pendekatan baru atau potensi peningkatan pada sistem ini.
+Meski begitu, aku tetap berharap protokol ini bisa diaktifkan kembali atau mungkin dirancang ulang dalam beberapa minggu ke depan, tergantung bagaimana situasinya berkembang. Jeda ini bisa menjadi kesempatan untuk mengeksplorasi pendekatan baru atau potensi peningkatan pada sistem tersebut.
+
 ### Alat eksternal apa yang masih tersedia?
-Mengenai alat lain yang terkait dengan lingkungan Samourai, beberapa masih tersedia sementara yang lain tidak.
 
-Situs analisis rantai gratis OXT.me sayangnya tidak lagi tersedia untuk saat ini.
+Untuk alat lain yang terkait dengan ekosistem Samourai, sebagian masih tersedia sementara yang lain tidak.
 
-Alat Statistik Whirlpool tidak lagi tersedia untuk diunduh, karena dihosting di GitLab Samourai. Bahkan jika Anda sebelumnya telah mengunduh alat Python ini secara lokal di mesin Anda, atau jika itu diinstal di node RoninDojo Anda, WST tidak akan berfungsi untuk saat ini. Memang, itu bergantung pada data yang disediakan oleh OXT.me untuk operasinya, dan situs ini tidak lagi dapat diakses. Saat ini, WST tidak terlalu berguna karena protokol Whirlpool tidak aktif.
+Situs analisis chain gratis OXT.me untuk sementara sudah tidak dapat diakses.
 
-Situs KYCP.org saat ini tidak lagi dapat diakses.
+Alat Whirlpool Statistics Tool tidak lagi tersedia untuk diunduh karena sebelumnya di-hosting di GitLab Samourai. Bahkan jika kamu sudah mengunduh alat Python ini secara lokal di komputermu, atau jika sudah terpasang di node RoninDojo, WST tetap tidak akan berfungsi saat ini. Alat ini bergantung pada data dari OXT.me, dan karena situs tersebut tidak bisa diakses, WST menjadi tidak berguna, terlebih lagi karena protokol Whirlpool sendiri sedang tidak aktif.
 
-GitLab yang menghosting kode untuk alat Kalkulator Boltzmann Python juga telah disita. Saat ini, oleh karena itu tidak lagi mungkin untuk mengunduh alat ini. Tetapi jika Anda memiliki RoninDojo, Anda dapat terus menggunakan Kalkulator Boltzmann dengan cara yang sama seperti sebelumnya.
+Situs KYCP.org juga saat ini tidak dapat diakses.
 
-Mengenai RoninDojo, perangkat lunak node-in-box ini terus berfungsi dengan benar meskipun ketersediaan beberapa alat spesifik seperti CLI Whirlpool dan WST tidak ada. Ini masih dapat digunakan untuk perangkat lunak dompet lain berkat Fulcrum atau Electrs. Jika Anda ingin mendapatkan informasi lebih lanjut tentang RoninDojo atau jika Anda memiliki pertanyaan spesifik, saya mendorong Anda untuk bergabung dengan [grup Telegram mereka](https://t.me/RoninDojoNode).
+GitLab yang meng-host kode untuk alat Python Boltzmann Calculator juga telah disita. Karena itu, saat ini sudah tidak memungkinkan lagi untuk mengunduh alat tersebut. Namun, jika kamu memiliki RoninDojo, kamu masih bisa menggunakan Boltzmann Calculator seperti sebelumnya.
 
-Namun, kode sumber untuk RoninDojo saat ini tidak lagi dapat diakses, karena dihosting di GitLab Samourai. Oleh karena itu, tidak mungkin untuk menginstalnya secara manual di Raspberry Pi saat ini.
+Untuk RoninDojo sendiri, perangkat lunak node-in-a-box ini tetap berfungsi normal meskipun beberapa alat spesifik seperti Whirlpool CLI dan WST tidak tersedia. RoninDojo masih bisa digunakan bersama perangkat lunak wallet lain melalui Fulcrum atau Electrs. Jika kamu ingin tahu lebih lanjut tentang RoninDojo atau punya pertanyaan spesifik, aku sarankan untuk bergabung dengan [grup Telegram mereka](https://t.me/RoninDojoNode).
 
-Mengenai perangkat lunak dompet hanya-baca Sentinel, situasinya mirip dengan aplikasi Samourai. Jika Anda memiliki Dojo Anda sendiri, Anda dapat terus menggunakan Sentinel tanpa masalah. Namun, jika Anda tidak memiliki Dojo, Anda tidak akan lagi dapat membuat koneksi. Tidak seperti Samourai, situs web Sentinel masih dapat diakses secara online. Tetapi berhati-hatilah dengan situs ini dan APK yang ditawarkan di sana, karena tidak jelas siapa yang saat ini mengontrol sumber daya ini.
+Namun, kode sumber RoninDojo saat ini sudah tidak dapat diakses karena sebelumnya di-hosting di GitLab Samourai. Jadi, untuk saat ini tidak memungkinkan menginstalnya secara manual di Raspberry Pi.
+
+Untuk perangkat lunak wallet watch-only Sentinel, situasinya mirip dengan aplikasi Samourai. Jika kamu memiliki Dojo sendiri, kamu masih bisa menggunakan Sentinel tanpa kendala. Namun, jika kamu tidak memiliki Dojo, kamu tidak akan bisa lagi membuat koneksi. Berbeda dengan Samourai, situs web Sentinel masih bisa diakses secara online. Meski begitu, tetap berhati-hati dengan situs tersebut dan file APK yang ditawarkan, karena tidak jelas siapa yang saat ini mengendalikan sumber daya itu.
 
 ### Apakah Sparrow Wallet terpengaruh?
-Sparrow Wallet terus beroperasi seperti biasa, kecuali alat Samourai yang tidak lagi tersedia. Saat ini, tidak lagi mungkin untuk melakukan coinjoins melalui Sparrow. Demikian pula, alat pengeluaran kolaboratif tidak lagi dapat diakses, karena Sparrow tidak menawarkan opsi pertukaran manual PSBT, tidak seperti Samourai. Untuk semua fungsionalitas lainnya, Sparrow beroperasi tanpa masalah. Anda juga dapat menggunakan perangkat lunak ini untuk memulihkan dompet Samourai jika diperlukan.
 
-## Bagaimana Cara Memulihkan Dompet Samourai?
-Seperti yang telah kita lihat di bagian sebelumnya, jika Anda memiliki Dojo Anda sendiri, tidak selalu diperlukan untuk mengganti perangkat lunak. **Samourai tetap menjadi pilihan yang sangat baik untuk dompet hot** untuk pengeluaran sehari-hari Anda. Namun, jika Anda tidak memiliki Dojo atau jika Anda lebih memilih untuk memilih perangkat lunak lain, saya akan menjelaskan proses pemulihan lengkap, merinci setiap potensi hambatan yang mungkin Anda temui.
+Sparrow Wallet tetap beroperasi seperti biasa, kecuali untuk alat-alat Samourai yang memang sudah tidak tersedia. Saat ini sudah tidak mungkin lagi melakukan coinjoin melalui Sparrow. Begitu juga dengan alat pengeluaran kolaboratif, yang tidak lagi bisa digunakan karena Sparrow tidak menyediakan opsi pertukaran PSBT secara manual seperti Samourai. Untuk fungsi lainnya, Sparrow tetap berjalan normal. Kamu juga bisa menggunakan perangkat lunak ini untuk memulihkan wallet Samourai jika diperlukan.
 
-Dalam setiap kasus, penting untuk meluangkan waktu Anda dan memastikan untuk tidak membuat kesalahan. Ingat, tidak ada terburu-buru, karena Anda memegang kunci pribadi Anda, dan penyitaan server Samourai tidak mempengaruhi ini dengan cara apa pun. Apa pun yang terjadi, mereka jelas tidak dapat mengakses kunci pribadi Anda.
+## Bagaimana Cara Memulihkan Wallet Samourai?
 
-### Verifikasi frasa sandi
+Seperti yang sudah kita bahas sebelumnya, jika kamu memiliki Dojo sendiri, tidak selalu perlu mengganti perangkat lunak. **Samourai tetap menjadi pilihan yang sangat baik sebagai hot wallet** untuk kebutuhan pengeluaran harianmu. Namun, jika kamu tidak memiliki Dojo atau ingin beralih ke perangkat lunak lain, di bagian ini aku akan menjelaskan proses pemulihan secara lengkap, termasuk berbagai kendala yang mungkin kamu temui.
 
-Untuk memulihkan dompet Anda, Anda harus memiliki frasa sandi Anda, bahkan jika Anda memilih pemulihan melalui file cadangan. Mulailah dengan memverifikasi validitas frasa sandi ini. Buka aplikasi Samourai Wallet Anda, klik pada ikon Paynym Anda di kiri atas, lalu pilih `Settings`.
+Dalam semua kasus, luangkan waktu dan pastikan kamu tidak melakukan kesalahan. Tidak ada yang perlu diburu-buru, karena kamu memegang kunci privatmu sendiri, dan penyitaan server Samourai sama sekali tidak memengaruhi hal tersebut. Apa pun yang terjadi, mereka jelas tidak bisa mengakses kunci privatmu.
+
+### Verifikasi seedphrase
+
+Untuk memulihkan wallet, kamu harus memiliki seedphrase, bahkan jika kamu memilih untuk memulihkannya melalui file cadangan. Mulailah dengan memverifikasi bahwa seedphrase tersebut valid. Buka aplikasi Samourai Wallet, ketuk ikon Paynym di kiri atas, lalu pilih `Settings`.
 
 ![samourai](assets/1.webp)
 
@@ -88,57 +97,60 @@ Selanjutnya, klik pada `Troubleshooting` dan kemudian pada `Passphrase/backup te
 
 ![samourai](assets/2.webp)
 
-Masukkan frasa sandi Anda dan klik `Ok`. Jika benar, Samourai akan mengonfirmasinya. Anda juga memiliki opsi untuk memverifikasi file cadangan jika Anda berencana menggunakannya nanti.
+Masukkan frasa sandi dan klik `Ok`. Jika benar, Samourai akan mengonfirmasinya. Kamu juga memiliki opsi untuk memverifikasi file cadangan jika Anda berencana menggunakannya nanti.
 
 ![samourai](assets/3.webp)
 
-Langkah ini opsional tetapi disarankan. Ini mengonfirmasi bahwa frasa sandi benar, menghilangkan sumber potensial masalah nanti. Jika Samourai menunjukkan bahwa frasa sandi salah pada tahap ini, pemulihan tidak akan mungkin dilakukan. Pastikan Anda telah memasukkan frasa sandi dengan benar dan periksa lagi.
+Langkah ini opsional tetapi sangat disarankan. Tujuannya untuk memastikan seedphrase yang kamu simpan memang benar, sehingga menghindari potensi masalah saat proses pemulihan nanti. Jika pada tahap ini Samourai menunjukkan bahwa seedphrase salah, maka pemulihan tidak akan bisa dilakukan. Pastikan kamu memasukkan seedphrase dengan tepat dan periksa kembali dengan teliti.
 
-### Opsi 1: Memulihkan dompet di Sparrow dengan file cadangan
+### Opsi 1: Memulihkan wallet di Sparrow dengan file cadangan
 
-Sejak versi 1.8.6 dari Sparrow Wallet, dimungkinkan untuk langsung mengimpor dompet Samourai Anda menggunakan file teks cadangan bernama `samourai.txt`, yang secara otomatis dihasilkan oleh aplikasi Anda. File ini berisi semua informasi yang diperlukan untuk memulihkan dompet Anda dan dienkripsi dengan frasa sandi Anda untuk keamanan.
+Sejak versi 1.8.6 Sparrow Wallet, kamu bisa langsung mengimpor wallet Samourai menggunakan file cadangan teks bernama `samourai.txt`, yang secara otomatis dibuat oleh aplikasi. File ini berisi semua informasi yang dibutuhkan untuk memulihkan wallet dan dienkripsi menggunakan seedphrase untuk alasan keamanan.
 
-Jika Anda memilih opsi ini, Anda akan memerlukan file `samourai.txt` Anda yang terbaru dan frasa sandi Anda. Untuk menghasilkan file ini di Samourai Wallet, klik pada tiga titik kecil di kanan atas, lalu pilih `Export wallet backup`.
+Jika kamu memilih opsi ini, kamu memerlukan file `samourai.txt` terbaru dan seedphrase milikmu. Untuk menghasilkan file tersebut di Samourai Wallet, ketuk tiga titik di kanan atas, lalu pilih `Export wallet backup`.
 
 ![samourai](assets/4.webp)
-Selanjutnya, pilih `Export to Clipboard`. Setelah itu, Anda perlu mentransfer file ini ke PC Anda secara aman. Karena file dienkripsi, tetapi frasa sandi saja sudah cukup untuk mendekripsinya, penting untuk mengambil tindakan pencegahan selama transmisinya. Jika Anda memilih transfer langsung sebagai teks biasa, Anda perlu membuat file `samourai.txt` di PC Anda dan menempelkan isi clipboard ke dalamnya. Alternatif lainnya adalah langsung mengambil file `samourai.txt` dari file yang tersimpan di ponsel Anda.
-Setelah Anda memiliki akses ke file di PC Anda, buka Sparrow Wallet, klik pada tab `File`, dan pilih `Import Wallet` untuk memulai mengimpor dompet Anda.
+Selanjutnya, pilih `Export to Clipboard`. Setelah itu, kamu perlu memindahkan file ini ke PC secara aman. Meskipun file tersebut dienkripsi, seedphrase saja sudah cukup untuk mendekripsinya, jadi tetap penting mengambil langkah pencegahan selama proses transfer. Jika kamu memilih untuk mentransfernya sebagai teks biasa, buat file `samourai.txt` di PC lalu tempelkan isi clipboard ke dalamnya. Alternatifnya, kamu bisa langsung mengambil file `samourai.txt` dari berkas yang tersimpan di ponselmu.
+
+Setelah file tersebut tersedia di PC, buka Sparrow Wallet, klik tab `File`, lalu pilih `Import Wallet` untuk mulai mengimpor wallet.
 
 ![samourai](assets/5.webp)
 Gulir ke bawah ke `Samourai Backup`, klik pada `Import File`, dan kemudian pilih file `samourai.txt` Anda.
 ![samourai](assets/6.webp)
 
-Sparrow kemudian akan meminta Anda memasukkan kata sandi untuk mendekripsi file tersebut. Kata sandi ini sebenarnya adalah frasa sandi Anda. Masukkan di kolom yang sesuai dan klik pada `Import`.
+Sparrow kemudian akan memintamu memasukkan kata sandi untuk mendekripsi file tersebut. Kata sandi ini sebenarnya adalah passphrase kamu. Masukkan di kolom yang sesuai dan klik pada `Import`.
 
 ![samourai](assets/7.webp)
 
-Jika pada tahap ini, dompet Anda tidak muncul, mungkin Anda membuat kesalahan saat menyalin file `samourai.txt` atau saat memasukkan frasa sandi. Anda dapat mengunjungi bagian pemecahan masalah untuk mendapatkan bantuan lebih lanjut.
+Jika pada tahap ini, dompet kamu tidak muncul, mungkin kamu membuat kesalahan saat menyalin file `samourai.txt` atau saat memasukkan passphrase. Kamu bisa mengunjungi bagian pemecahan masalah untuk mendapatkan bantuan lebih lanjut.
 
 ![samourai](assets/8.webp)
 
-Untuk tipe skrip, jika Anda belum mengonfigurasi skrip lain di Samourai, Anda seharusnya hanya menggunakan SegWit V0 (Native SegWit / P2WPKH). Pertahankan skrip default ini dan klik pada `Import`.
+Untuk tipe skrip, jika kamu belum mengonfigurasi skrip lain di Samourai, kamu seharusnya hanya menggunakan SegWit V0 (Native SegWit / P2WPKH). Pertahankan skrip default ini dan klik pada `Import`.
 
 ![samourai](assets/9.webp)
 
-Namai dompet Anda, misalnya, "Samourai Recovery", dan kemudian klik pada `Create Wallet`.
+Namai dompet kamu, misalnya, "Samourai Recovery", dan kemudian klik pada `Create Wallet`.
 
 ![samourai](assets/10.webp)
 
-Sparrow kemudian akan meminta Anda memilih kata sandi. Kata sandi ini hanya melindungi akses ke dompet Anda di PC ini dan tidak berkaitan dengan derivasi kunci dompet Anda. Pastikan untuk memilih kata sandi yang kuat, catat untuk mengingatnya, dan klik pada `Set Password`.
+Sparrow kemudian akan meminta kamu memilih kata sandi. Kata sandi ini hanya melindungi akses ke dompet kamu di PC ini dan tidak berkaitan dengan derivasi kunci dompet. Pastikan untuk memilih kata sandi yang kuat, catat untuk mengingatnya, dan klik pada `Set Password`.
 
 ![samourai](assets/11.webp)
 
-Sparrow kemudian akan mendapatkan kunci dompet Anda dan mencari transaksi yang sesuai.
+Sparrow kemudian akan mendapatkan kunci dompet kamu dan mencari transaksi yang sesuai.
 
 ![samourai](assets/12.webp)
 
-Untuk saat ini, hanya akun deposito Anda yang dapat diakses. Jika Anda hanya menggunakan Samourai untuk akun ini, Anda seharusnya melihat semua dana Anda. Namun, jika Anda juga menggunakan Whirlpool, Anda perlu mendapatkan akun `premix`, `postmix`, dan `badbank`. Di Sparrow, cukup klik pada tab `Settings`, kemudian pada `Add Accounts...`.
+Untuk saat ini, hanya akun deposit yang bisa kamu akses. Jika kamu memang hanya menggunakan Samourai untuk akun ini, seharusnya seluruh dana sudah terlihat. Namun, jika kamu juga menggunakan Whirlpool, kamu perlu menambahkan akun `premix`, `postmix`, dan `badbank`.  
+
+Di Sparrow, klik tab `Settings`, lalu pilih `Add Accounts...`.
 
 ![samourai](assets/13.webp)
 Di jendela yang terbuka, pilih `Whirlpool Accounts` dari menu dropdown, kemudian klik pada `OK`.
 ![samourai](assets/14.webp)
 
-Anda kemudian akan melihat berbagai akun Whirlpool Anda muncul, dan Sparrow akan mendapatkan kunci yang diperlukan untuk menggunakan bitcoin yang terkait.
+Kemudian kamu akan melihat berbagai akun Whirlpool kamu muncul, dan Sparrow akan mendapatkan kunci yang diperlukan untuk menggunakan bitcoin yang terkait.
 
 ![samourai](assets/15.webp)
 
@@ -148,110 +160,118 @@ Jika Anda menggunakan perangkat lunak lain selain Sparrow, seperti Electrum, unt
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat melihat [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sekarang kamu memiliki akses ke bitcoin Anda di Sparrow. Jika kamu memerlukan bantuan menggunakan Sparrow Wallet, Ankamu juga dapat melihat [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
-Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
+Aku juga menyarankan untuk mengimpor secara manual label yang sebelumnya kamu kaitkan dengan UTXO di Samourai. Dengan begitu, kamu bisa melakukan coin control secara efektif di Sparrow nantinya.
 
-### Opsi 2: Memulihkan dompet di Sparrow dengan frasa pemulihan mnemonik
+### Opsi 2: Memulihkan wallet di Sparrow dengan seedphrase mnemonik
 
-Jika Anda tidak ingin melakukan pemulihan dengan file cadangan, Anda dapat memilih metode yang lebih tradisional dengan hanya menggunakan frasa pemulihan 12 kata dan frasa sandi Anda. Opsi kedua ini seringkali lebih sederhana.
-Untuk memulai, pastikan Anda memiliki frasa pemulihan dan kata sandi Anda di tangan. Kemudian, buka perangkat lunak Sparrow Wallet, klik pada tab `File`, dan pilih `Import Wallet` untuk memulai proses impor dompet Anda.
+Jika kamu tidak ingin menggunakan file cadangan, kamu bisa memilih metode yang lebih klasik dengan hanya memakai seedphrase 12 kata dan passphrase milikmu. Opsi kedua ini sering kali terasa lebih sederhana.
+
+Untuk memulai, pastikan kamu sudah menyiapkan seedphrase dan passphrase. Lalu buka perangkat lunak Sparrow Wallet, klik tab `File`, dan pilih `Import Wallet` untuk memulai proses impor wallet.
 ![samourai](assets/16.webp)
 
 Pilih `Mnemonic Words (BIP39)` dan, di menu dropdown, klik pada `Use 12 Words`.
 
 ![samourai](assets/17.webp)
 
-Masukkan 12 kata dari frasa pemulihan Anda dalam urutan yang benar.
+Masukkan 12 kata dari frasa pemulihan dalam urutan yang benar.
 
 ![samourai](assets/18.webp)
 
-Jika Sparrow menampilkan pesan `Invalid Checksum`, ini menunjukkan bahwa checksum dari frasa pemulihan tidak valid, yang kemungkinan berarti Anda membuat kesalahan saat memasukkan kata-katanya.
+Jika Sparrow menampilkan pesan `Invalid Checksum`, ini menunjukkan bahwa checksum dari frasa pemulihan tidak valid, yang kemungkinan berarti kamu membuat kesalahan saat memasukkan kata-katanya.
 
 ![samourai](assets/19.webp)
 
-Jika frasa Anda benar, centang kotak `Use Passphrase?` dan masukkan kata sandi Anda di kolom yang disediakan. Akhirnya, jika semuanya tampak benar, klik pada tombol `Discover Wallet`.
+Jika frasa benar, centang kotak `Use Passphrase?` dan masukkan kata sandi Anda di kolom yang disediakan. Akhirnya, jika semuanya tampak benar, klik pada tombol `Discover Wallet`.
 
 ![samourai](assets/20.webp)
 
-Namai dompet Anda, misalnya, "Samourai Recovery", kemudian klik pada `Create Wallet`.
+Namai dompet kamu, misalnya, "Samourai Recovery", kemudian klik pada `Create Wallet`.
 
 ![samourai](assets/21.webp)
-Sparrow kemudian akan meminta Anda untuk memilih kata sandi. Kata sandi ini hanya melindungi akses ke dompet Anda di PC ini dan tidak terkait dengan derivasi kunci dompet Anda. Pastikan untuk memilih kata sandi yang kuat, tulis untuk mengingatnya, dan klik pada `Set Password`.
+Sparrow kemudian akan meminta kamu membuat kata sandi. Kata sandi ini hanya berfungsi untuk melindungi akses ke wallet di PC tersebut dan tidak ada kaitannya dengan proses derivasi kunci wallet. Pastikan kamu memilih kata sandi yang kuat, simpan atau catat agar tidak lupa, lalu klik `Set Password`.
 ![samourai](assets/22.webp)
 
-Sparrow kemudian akan mendapatkan kunci untuk dompet Anda dan mencari transaksi yang sesuai.
+Sparrow kemudian akan mendapatkan kunci untuk dompet dan mencari transaksi yang sesuai.
 
 ![samourai](assets/23.webp)
 
-Jika pada tahap ini, dompet Anda tidak muncul, mungkin Anda membuat kesalahan saat memasukkan kata sandi atau frasa pemulihan. Anda dapat mengonsultasikan bagian pemecahan masalah yang khusus untuk bantuan lebih lanjut.
+Jika pada tahap ini wallet kamu tidak muncul, kemungkinan ada kesalahan saat memasukkan passphrase atau seedphrase. Kamu bisa melihat bagian pemecahan masalah untuk mendapatkan bantuan lebih lanjut.
 
-Untuk saat ini, hanya akun deposito Anda yang dapat diakses. Jika Anda hanya menggunakan Samourai untuk akun ini, Anda seharusnya dapat melihat semua dana Anda. Namun, jika Anda juga menggunakan Whirlpool, Anda perlu mendapatkan akun `premix`, `postmix`, dan `badbank`. Di Sparrow, cukup klik pada tab `Settings`, kemudian pada `Add Accounts...`.
-
+Untuk sementara, hanya akun deposit yang bisa kamu akses. Jika kamu memang hanya menggunakan Samourai untuk akun ini, seharusnya seluruh dana sudah terlihat. Namun, jika kamu juga menggunakan Whirlpool, kamu perlu menambahkan akun `premix`, `postmix`, dan `badbank`. Di Sparrow, klik tab `Settings`, lalu pilih `Add Accounts...`.
 ![samourai](assets/24.webp)
 
 Di jendela yang terbuka, pilih `Whirlpool Accounts` dari daftar dropdown, kemudian klik pada `OK`.
 
 ![samourai](assets/25.webp)
 
-Anda kemudian akan melihat berbagai akun Whirlpool Anda muncul, dan Sparrow akan mendapatkan kunci yang diperlukan untuk menggunakan bitcoin yang terkait.
+Kemudian kamu akan melihat berbagai akun Whirlpool kamu muncul, dan Sparrow akan mendapatkan kunci yang diperlukan untuk menggunakan bitcoin yang terkait.
 
 ![samourai](assets/26.webp)
 
-Jika Anda menggunakan perangkat lunak lain seperti Electrum untuk memulihkan dompet Samourai Anda, berikut adalah indeks akun Whirlpool untuk pemulihan manual:
+Jika kamu menggunakan perangkat lunak lain seperti Electrum untuk memulihkan dompet Samourai, berikut adalah indeks akun Whirlpool untuk pemulihan manual:
 - Deposit: `m/84'/0'/0'`
 - Bad Bank: `m/84'/0'/2147483644'`
 - Premix: `m/84'/0'/2147483645'`
 - Postmix: `m/84'/0'/2147483646'`
 
-Anda sekarang memiliki akses ke bitcoin Anda di Sparrow. Jika Anda memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
+Sekarang kamu memiliki akses ke bitcoin Anda di Sparrow. Jika kamu memerlukan bantuan menggunakan Sparrow Wallet, Anda juga dapat mengonsultasikan [tutorial khusus kami](https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d).
 
-Saya juga merekomendasikan untuk secara manual mengimpor label yang Anda asosiasikan dengan UTXO Anda di Samourai. Ini akan memungkinkan Anda untuk melakukan kontrol koin yang efektif di Sparrow selanjutnya.
+Aku juga menyarankan untuk mengimpor secara manual label yang sebelumnya kamu kaitkan dengan UTXO di Samourai. Dengan begitu, kamu bisa melakukan coin control secara efektif di Sparrow nantinya.
 
-### Apa masalah umum yang dihadapi?
-Setelah membantu beberapa orang dalam beberapa hari terakhir, saya percaya saya telah menemui sebagian besar masalah yang dapat mencegah pemulihan dompet Anda. Jika Anda masih tidak dapat mengakses dompet Anda meskipun telah mengikuti tutorial sebelumnya, berikut adalah beberapa rekomendasi tambahan. Pertama dan terutama, untuk pemulihan agar berhasil, sangat penting bahwa frasa pemulihan itu benar. Jika Anda tidak dapat menemukan frasa 12 kata Anda, Anda dapat menggunakan *opsi 1* untuk memulihkan dari file cadangan Samourai. Anda juga dapat mengakses frasa pemulihan Anda langsung di Samourai Wallet dengan menavigasi ke `Settings`, kemudian `Wallet`, dan akhirnya memilih `Show 12-word recovery phrase`.
+### Apa masalah umum yang sering muncul?
 
-Selanjutnya, kesalahan ketik dalam frasa sandi Anda selama pemulihan akan menghasilkan kunci turunan yang salah, yang akan mencegah pemulihan dompet Anda di Sparrow. **Frasa sandi harus benar-benar akurat!**
+Setelah membantu beberapa orang dalam beberapa hari terakhir, aku merasa sudah menemukan sebagian besar kendala yang bisa menghambat pemulihan wallet. Jika kamu masih belum bisa mengakses wallet meskipun sudah mengikuti tutorial sebelumnya, berikut beberapa rekomendasi tambahan.
 
-Untuk mengatasi ini, saya pertama-tama menyarankan Anda untuk memeriksa validitas frasa sandi Anda di aplikasi Samourai seperti yang dijelaskan di bagian "_Verify the passphrase_" dari artikel ini:
-1. **Validasi di Samourai:** Jika Samourai mengonfirmasi bahwa frasa sandi itu benar, coba pemulihan lagi dari awal, pastikan untuk memasukkan frasa sandi di Sparrow dengan akurat tanpa kesalahan;
-2. **Kesalahan Frasa Sandi:** Jika Samourai menunjukkan bahwa frasa sandi itu salah, tidak ada gunanya melanjutkan percobaan di Sparrow. Selama frasa sandi yang benar tidak ditemukan, pemulihan dompet Anda tidak mungkin. Jika Anda telah kehilangan frasa sandi Anda secara permanen, jaga aplikasi Samourai Anda tetap aman. Yang dapat Anda lakukan hanyalah berharap server dihidupkan ulang sehingga Anda dapat melakukan pengeluaran langsung dari aplikasi tanpa memerlukan pemulihan. **Jangan mencoba untuk menghubungkan Dojo dalam kasus ini**, karena ini akan menyiratkan pengaturan ulang dompet Anda di Samourai, yang memerlukan akses ke frasa sandi.
+Pertama dan paling penting, agar pemulihan berhasil, seedphrase harus benar. Jika kamu tidak dapat menemukan 12 kata tersebut, kamu bisa menggunakan *opsi 1* untuk memulihkan melalui file cadangan Samourai. Kamu juga bisa melihat seedphrase langsung di Samourai Wallet dengan masuk ke `Settings`, lalu `Wallet`, kemudian pilih `Show 12-word recovery phrase`.
 
-Di antara kesalahan lain yang ditemui, banyak yang terkait dengan konfigurasi jaringan di Sparrow.
+Selain itu, kesalahan pengetikan pada passphrase saat proses pemulihan akan menghasilkan kunci turunan yang berbeda, sehingga wallet tidak bisa dipulihkan di Sparrow. **Passphrase harus benar-benar akurat!**
 
-Pertama, pastikan bahwa Sparrow dikonfigurasi dengan benar dalam mode `mainnet` daripada dalam mode `testnet`. Memang, jika Sparrow mencari transaksi Anda di Testnet, itu tidak akan menemukan apa-apa, karena dompet Anda berada di Mainnet. Testnet adalah versi alternatif dari Bitcoin, digunakan semata-mata untuk pengujian dan pengembangan, dan beroperasi pada jaringan terpisah dari jaringan utama (Mainnet), dengan blok dan transaksi sendiri. Untuk memeriksa jaringan mana yang Anda gunakan, klik pada tab `Tools`, kemudian pada `Restart In`. Jika opsi `Mainnet` ditampilkan, maka Anda tidak berada di jaringan utama. Pilih itu untuk memulai ulang Sparrow di Mainnet, dan kemudian mulai proses pemulihan Anda lagi.
+Untuk mengatasinya, pertama-tama periksa validitas passphrase di aplikasi Samourai seperti dijelaskan pada bagian "_Verify the passphrase_" dalam artikel ini:
+
+1. **Validasi di Samourai:** Jika Samourai mengonfirmasi bahwa passphrase benar, ulangi proses pemulihan dari awal dan pastikan kamu memasukkan passphrase di Sparrow dengan tepat tanpa kesalahan;
+2. **Passphrase salah:** Jika Samourai menunjukkan bahwa passphrase salah, tidak ada gunanya melanjutkan percobaan di Sparrow. Selama passphrase yang benar belum ditemukan, wallet tidak bisa dipulihkan. Jika kamu benar-benar kehilangan passphrase secara permanen, jaga aplikasi Samourai tetap aman. Satu-satunya harapan adalah server diaktifkan kembali sehingga kamu bisa melakukan pengeluaran langsung dari aplikasi tanpa perlu pemulihan. **Jangan mencoba menghubungkan Dojo dalam kondisi ini**, karena itu akan mengatur ulang wallet di Samourai dan memerlukan akses ke passphrase.
+
+Kesalahan lain yang cukup sering terjadi berkaitan dengan konfigurasi jaringan di Sparrow.
+
+Pastikan Sparrow dikonfigurasi dalam mode `mainnet`, bukan `testnet`. Jika Sparrow mencari transaksi di Testnet, tentu tidak akan menemukan apa pun karena wallet kamu berada di Mainnet. Testnet adalah jaringan alternatif Bitcoin yang digunakan hanya untuk pengujian dan pengembangan, dengan blockchain dan transaksinya sendiri yang terpisah dari jaringan utama. Untuk memeriksa jaringan yang sedang digunakan, klik tab `Tools`, lalu pilih `Restart In`. Jika opsi `Mainnet` tersedia, berarti kamu sedang tidak berada di jaringan utama. Pilih opsi tersebut untuk memulai ulang Sparrow di Mainnet, lalu ulangi proses pemulihan.
 
 ![samourai](assets/27.webp)
-Beberapa juga mengalami kesulitan menghubungkan Sparrow ke node mereka. Di bagian bawah kanan Sparrow, sebuah sakelar berwarna menunjukkan apakah perangkat lunak Anda terhubung dengan benar ke node Bitcoin. Untuk mengambil transaksi Samourai Anda, sangat penting bahwa perangkat lunak terhubung dengan baik. Periksa bahwa sakelar diaktifkan, seperti pada gambar saya di bawah ini (kuning untuk node publik, hijau untuk Bitcoin Core, dan biru untuk server Electrum).
+Beberapa orang juga mengalami kendala saat menghubungkan Sparrow ke node mereka. Di bagian kanan bawah Sparrow, ada indikator berwarna yang menunjukkan apakah perangkat lunak sudah terhubung dengan benar ke node Bitcoin. Agar transaksi Samourai kamu bisa dimuat, Sparrow harus benar-benar terhubung ke node. Pastikan indikator tersebut aktif seperti pada contoh di bawah ini: kuning untuk node publik, hijau untuk Bitcoin Core, dan biru untuk server Electrum.
 ![samourai](assets/28.webp)
 
 Jika sakelar tidak diaktifkan, klik padanya untuk mengaktifkan kembali koneksi.
 
 ![samourai](assets/29.webp)
 
-Jika masalah berlanjut, berikut adalah beberapa solusi yang mungkin:
-- Jika Anda mencoba untuk terhubung ke server Electrum Anda sendiri (biru) atau Bitcoin Core Anda (hijau) dan Sparrow tidak dapat terhubung, periksa informasi koneksi di bawah `File > Preferences... > Server`;
+Jika masalah masih berlanjut, berikut beberapa solusi yang bisa kamu coba:
+
+- Jika kamu mencoba terhubung ke server Electrum sendiri (biru) atau ke Bitcoin Core (hijau) dan Sparrow gagal terhubung, periksa kembali informasi koneksi di `File > Preferences... > Server`;
 
 ![samourai](assets/30.webp)
-- Jika masalah koneksi terus berlanjut, itu bisa disebabkan oleh sinkronisasi node Anda yang tidak lengkap. Pastikan node dan indexer Anda tersinkronisasi 100%. Jika perlu sebagai langkah terakhir, putuskan koneksi node Anda dari Sparrow dan sambungkan ke node publik; - Jika Anda sudah terhubung ke node publik dan koneksi gagal, coba ganti node dengan memilih yang lain dari daftar dropdown.
+- Jika masalah koneksi tetap terjadi, kemungkinan node atau indexer kamu belum tersinkronisasi sepenuhnya. Pastikan keduanya sudah sinkron 100%. Jika perlu sebagai langkah terakhir, putuskan koneksi node tersebut dari Sparrow lalu sambungkan ke node publik;
 
+- Jika kamu memang sudah menggunakan node publik dan koneksi tetap gagal, coba pilih node lain dari daftar dropdown yang tersedia.
 ![samourai](assets/31.webp)
 
-Jika Anda telah berhasil memulihkan dompet Anda, tetapi terasa tidak lengkap, mungkin ada masalah terkait dengan derivasi.
+Jika kamu sudah berhasil memulihkan wallet tetapi isinya terasa tidak lengkap, kemungkinan ada masalah terkait jalur derivasi.
 
-Masalah bisa terjadi jika Anda menggunakan akun deposit Samourai Anda dengan tipe skrip yang berbeda dari `P2WPKH`. Secara default, Samourai menggunakan tipe skrip ini, tetapi jika Anda telah mengubahnya secara manual, Anda juga harus menyesuaikan ini saat memulihkan di Sparrow.
+Masalah ini bisa muncul jika akun deposit Samourai kamu menggunakan tipe skrip yang berbeda dari `P2WPKH`. Secara default, Samourai memang memakai tipe skrip ini. Namun, jika sebelumnya kamu pernah mengubahnya secara manual, maka pengaturan yang sama juga harus dipilih saat melakukan pemulihan di Sparrow.
 
-Untuk mendapatkan cabang untuk tipe skrip lain, Anda perlu mengulangi proses pemulihan untuk setiap tipe skrip yang digunakan. Untuk ini, pergi ke `File > New Wallet` di Sparrow, pilih tipe skrip lain dari daftar dropdown, klik pada `New or Imported Software Wallet`, dan ikuti langkah yang sama seperti dalam tutorial awal.
+Untuk mengakses cabang dengan tipe skrip lain, kamu perlu mengulangi proses pemulihan untuk setiap tipe skrip yang pernah digunakan. Caranya, buka `File > New Wallet` di Sparrow, pilih tipe skrip yang berbeda dari daftar dropdown, klik `New or Imported Software Wallet`, lalu ikuti langkah yang sama seperti pada tutorial sebelumnya.
 
 ![samourai](assets/32.webp)
 
-Masalah derivasi lain yang saya temui terkait dengan nilai Gap Limit. Nilai ini memberitahu Sparrow setelah berapa banyak alamat kosong harus berhenti mendapatkan alamat baru. Jika setelah pemulihan, Anda melihat bahwa beberapa transaksi hilang, ini bisa disebabkan oleh Gap Limit yang terlalu rendah. Untuk menyelesaikannya, pergi ke akun yang bermasalah, misalnya akun postmix (jika beberapa akun terkait, ulangi operasi ini untuk masing-masing).
+Masalah derivasi lain yang pernah aku temui berkaitan dengan nilai Gap Limit. Parameter ini memberi tahu Sparrow setelah berapa banyak alamat kosong ia harus berhenti melakukan pencarian alamat baru. Jika setelah pemulihan kamu merasa ada beberapa transaksi yang tidak muncul, bisa jadi penyebabnya adalah Gap Limit yang terlalu rendah.
+
+Untuk mengatasinya, buka akun yang bermasalah, misalnya akun `postmix`. Jika beberapa akun terdampak, ulangi langkah ini untuk masing-masing akun.
 
 ![samourai](assets/33.webp)
 
 Klik pada tab `Settings` kemudian pada tombol `Advanced...`.
 ![samourai](assets/34.webp)
-Secara bertahap tingkatkan nilai Gap Limit, misalnya, saya menetapkannya menjadi `400` di sini. Kemudian, klik tombol `Close`.
+Secara bertahap tingkatkan nilai Gap Limit, misalnya, aku menetapkannya menjadi `400` di sini. Kemudian, klik tombol `Close`.
 
 ![samourai](assets/35.webp)
 
@@ -259,66 +279,78 @@ Klik pada `Apply` untuk menyelesaikan. Sparrow kemudian akan mendapatkan sejumla
 
 ![samourai](assets/36.webp)
 
-Itu mencakup berbagai masalah pemulihan yang saya temui selama beberapa hari terakhir. Jika, setelah mencoba semua solusi ini, Anda masih mengalami masalah, saya mengundang Anda untuk bergabung dengan [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) untuk meminta bantuan. Saya secara rutin mengunjungi Discord ini dan akan senang membantu jika saya memiliki solusinya. Pengguna bitcoin lainnya juga akan dapat berbagi pengalaman mereka dan menawarkan bantuan. **Dalam hal apapun, sangat penting untuk menjaga kerahasiaan frasa pemulihan, file cadangan, dan passphrase Anda**. Jangan berbagi dengan siapapun, karena ini bisa memungkinkan mereka untuk mencuri bitcoin Anda.
+Itu mencakup berbagai masalah pemulihan yang aku temui dalam beberapa hari terakhir. Jika setelah mencoba semua solusi ini kamu masih mengalami kendala, kamu bisa bergabung ke [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) untuk meminta bantuan. Aku cukup sering aktif di sana dan akan dengan senang hati membantu jika aku tahu solusinya. Pengguna bitcoin lain juga bisa berbagi pengalaman dan membantu. **Dalam kondisi apa pun, sangat penting untuk menjaga kerahasiaan seedphrase, file cadangan, dan passphrase milikmu.** Jangan pernah membagikannya kepada siapa pun, karena itu bisa memungkinkan mereka mencuri bitcoin kamu.
 
-Setelah pemulihan selesai, Anda sekarang memiliki akses ke bitcoin Anda. Itu hal yang baik, tetapi mungkin tidak cukup. Memang, penyitaan server menimbulkan risiko baru yang potensial bagi privasi Anda. Dalam bagian berikut, kami akan memeriksa risiko ini secara detail dan menguraikan langkah-langkah pencegahan yang harus diambil untuk melindungi privasi Anda.
+Setelah proses pemulihan selesai, sekarang kamu sudah kembali memiliki akses ke bitcoin kamu. Itu tentu kabar baik, tetapi mungkin belum cukup. Penyitaan server ini berpotensi menimbulkan risiko baru terhadap privasimu. Di bagian berikut, kita akan membahas risiko tersebut secara rinci dan langkah pencegahan yang bisa kamu ambil untuk melindungi privasi.
 
-## Apa konsekuensi untuk privasi transaksi Anda?
+## Apa konsekuensinya terhadap privasi transaksi kamu?
 
 ### Sebagai pengguna Samourai tanpa Dojo
 
-Jika Anda menggunakan Dompet Samourai tanpa telah menghubungkan Dojo Anda sendiri, xpubs Anda harus dikomunikasikan ke server Samourai agar aplikasi dapat berfungsi. Dengan penyitaan server ini, mungkin saja otoritas sekarang memiliki akses ke xpubs tersebut.
-Skenario ini tetap hipotetis. Kita tidak tahu apakah xpub ini telah direkam, apakah penyimpanan potensial telah dihancurkan, apakah otoritas telah memulihkannya, dan apakah mereka berencana menggunakannya untuk analisis rantai. Namun, dalam situasi seperti itu, bijaksana untuk mempertimbangkan skenario terburuk, di mana otoritas memiliki xpub pengguna yang tidak menghubungkan Dojo mereka sendiri. Sebagai referensi, xpub adalah rangkaian karakter yang berisi semua elemen yang diperlukan untuk menghasilkan kunci publik anak (kunci publik + kode rantai). Ini digunakan dalam dompet deterministik hierarkis untuk menghasilkan alamat penerima dan mengamati transaksi akun tanpa mengungkapkan kunci privat yang terkait. Ini memungkinkan, misalnya, pembuatan dompet "hanya-pantau". Namun, mengungkapkan xpub dapat membahayakan privasi pengguna, karena mereka memungkinkan pihak ketiga untuk melacak transaksi dan melihat saldo akun yang terkait.
-Siapa pun yang mengetahui xpub Anda dapat melihat semua alamat penerima dompet Anda, yang digunakan di masa lalu, dan yang akan dihasilkan di masa depan.
+Jika kamu menggunakan Samourai Wallet tanpa pernah menghubungkannya ke Dojo sendiri, maka xpub kamu harus dikirim ke server Samourai agar aplikasi bisa berfungsi. Dengan penyitaan server tersebut, ada kemungkinan otoritas kini memiliki akses ke xpub tersebut.
 
-Bagi pengguna tanpa Dojo, kebocoran xpub Anda memiliki dua konsekuensi utama:
-- Coinjoins yang mungkin telah Anda lakukan menjadi tidak efektif dari sudut pandang privasi bagi siapa pun yang mengetahui xpub Anda, sehingga koin Anda kehilangan semua anonset;
-- Orang ini juga dapat melacak semua alamat penerima Samourai Wallet Anda.
+Skenario ini masih bersifat hipotesis. Kita tidak tahu apakah xpub tersebut benar-benar disimpan, apakah penyimpanannya telah dihancurkan, apakah berhasil dipulihkan oleh otoritas, atau apakah akan digunakan untuk analisis chain. Namun, dalam situasi seperti ini, lebih bijak untuk mempertimbangkan skenario terburuk, yaitu otoritas memiliki xpub pengguna yang tidak menggunakan Dojo sendiri.
 
-Oleh karena itu, penting untuk mempertimbangkan skenario terburuk dan berpisah dengan dompet ini, yang berpotensi terkompromi dalam hal privasi. Untuk melakukan ini, buat dompet baru dari awal dengan perangkat lunak lain, seperti Sparrow Wallet. Setelah memverifikasi validitas cadangan Anda, transfer semua dana Anda dengan melakukan transaksi. Meskipun operasi ini tidak memutuskan tautan pelacakan koin Anda, ini akan mencegah otoritas mengetahui dengan pasti alamat dompet baru Anda.
+Sebagai pengingat, xpub adalah rangkaian karakter yang berisi semua elemen yang diperlukan untuk menghasilkan kunci publik turunan, yaitu kunci publik dan chain code. Dalam wallet deterministik hierarkis, xpub digunakan untuk menghasilkan alamat penerima dan memantau transaksi tanpa mengungkapkan kunci privat. Inilah yang memungkinkan pembuatan wallet watch-only. Namun, jika xpub bocor, privasi pengguna bisa terganggu karena pihak ketiga dapat melacak transaksi dan melihat saldo akun terkait.
 
-Selama operasi transfer ini, saya menyarankan untuk menghindari konsolidasi koin Anda. Jika kita asumsikan bahwa xpub Anda terkompromi, konsolidasi tidak akan berdampak dari sudut pandang orang yang memiliki akses ke xpub ini, karena privasi Anda sudah terkompromi dengan mereka. Namun, saya menyarankan Anda untuk tidak terlalu banyak mengkonsolidasikan koin Anda terutama untuk melindungi privasi Anda dari orang lain. Dalam kasus terburuk, hanya otoritas yang mungkin memiliki akses ke xpub Anda, tetapi sisanya dunia tidak tahu tentang mereka. Jadi, dari sudut pandang orang lain, mengkonsolidasikan koin Anda dapat secara signifikan membahayakan privasi Anda karena Heuristik Kepemilikan Input Bersama (CIOH).
+Siapa pun yang mengetahui xpub kamu dapat melihat semua alamat penerima wallet kamu, baik yang sudah digunakan maupun yang akan dihasilkan di masa depan.
 
-Akhirnya, untuk secara definitif memutus pelacakan, pertimbangkan juga melakukan coinjoins dari dompet baru ini.
-**Peringatan:** Hanya mengambil kembali dompet Samourai Anda di Sparrow Wallet tidak cukup. Diperlukan untuk membuat dompet baru yang sepenuhnya baru dengan frasa pemulihan baru jika Anda ingin menghindari menggunakan xpub yang mungkin telah bocor. Jika Anda mengimpor benih yang ada ke Sparrow, Anda hanya mengubah perangkat lunak manajemen dompet, tetapi dompet tetap sama.
+Bagi pengguna tanpa Dojo, kebocoran xpub memiliki dua konsekuensi utama:
+- Coinjoin yang mungkin sudah kamu lakukan menjadi tidak efektif dari sisi privasi bagi siapa pun yang mengetahui xpub tersebut, sehingga koin kamu kehilangan anonset;
+- Pihak tersebut juga dapat melacak semua alamat penerima Samourai Wallet kamu.
+
+Karena itu, sebaiknya pertimbangkan skenario terburuk dan berhenti menggunakan wallet ini yang berpotensi sudah terkompromi dari sisi privasi. Buat wallet baru dari awal menggunakan perangkat lunak lain, misalnya Sparrow Wallet. Setelah memastikan cadangan kamu valid, transfer seluruh dana melalui transaksi on-chain. Meskipun langkah ini tidak memutus histori pelacakan koin sebelumnya, setidaknya ini mencegah otoritas mengetahui dengan pasti alamat wallet baru kamu.
+
+Saat melakukan transfer ini, aku menyarankan untuk menghindari konsolidasi koin secara berlebihan. Jika kita berasumsi xpub kamu sudah terkompromi, konsolidasi tidak mengubah apa pun bagi pihak yang memiliki xpub tersebut karena privasi kamu sudah terbuka bagi mereka. Namun, konsolidasi bisa merusak privasi kamu terhadap pihak lain. Dalam skenario terburuk, mungkin hanya otoritas yang memiliki xpub tersebut, sementara pihak lain tidak. Dari sudut pandang pihak lain, konsolidasi dapat merusak privasi karena Heuristik Kepemilikan Input Bersama.
+
+Untuk benar-benar meningkatkan kembali tingkat privasi, kamu juga bisa mempertimbangkan melakukan coinjoin dari wallet baru tersebut.
+
+**Peringatan:** Hanya memulihkan wallet Samourai di Sparrow Wallet tidaklah cukup. Kamu perlu membuat wallet yang benar-benar baru dengan seedphrase baru jika ingin menghindari penggunaan xpub yang mungkin sudah bocor. Jika kamu hanya mengimpor seed yang sama ke Sparrow, kamu memang mengganti perangkat lunak pengelola, tetapi wallet yang digunakan tetap sama.
 
 ### Sebagai pengguna Sparrow atau Samourai dengan Dojo
 
-Jika dompet Anda hanya dikelola di Sparrow Wallet, xpub Anda tidak mungkin telah bocor, apakah Anda menggunakan node publik atau node Bitcoin Anda sendiri. Demikian pula, jika Anda menggunakan aplikasi Samourai dan selalu menghubungkan aplikasi ini ke Dojo Anda sendiri sejak pembuatan dompet Anda, xpub Anda juga aman.
-Namun, jika Anda telah menggunakan dompet yang sama selama periode **tanpa Dojo Anda sendiri** dan kemudian dengan Dojo Anda sendiri, ada kemungkinan server Samourai mungkin telah memiliki akses ke xpubs Anda, dan oleh karena itu otoritas bisa mengetahuinya. Jika Anda berada dalam situasi khusus ini, saya menyarankan Anda untuk mengikuti rekomendasi dari bagian sebelumnya dan menganggap xpubs Anda sebagai yang telah dikompromikan.
-Bagi mereka yang selalu menggunakan Sparrow atau Samourai dengan Dojo mereka sendiri, risiko utamanya adalah anonsets dari koin Anda berpotensi bisa berkurang. Bayangkan, dalam skenario terburuk, bahwa semua pengguna tanpa Dojo memiliki xpubs mereka di tangan otoritas, maka jalur koin mereka melalui siklus coinjoin bisa dilacak oleh otoritas tersebut.
+Jika wallet kamu hanya dikelola di Sparrow Wallet, kecil kemungkinan xpub kamu pernah bocor, baik kamu menggunakan node publik maupun node Bitcoin sendiri. Begitu juga jika kamu menggunakan aplikasi Samourai dan sejak awal selalu menghubungkannya ke Dojo sendiri, maka xpub kamu tetap aman.
 
-Untuk mengilustrasikan ini, mari kita ambil contoh konkret. Bayangkan Anda berpartisipasi dalam siklus coinjoin pertama, diikuti oleh dua siklus coinjoin tambahan di hilir. Jika xpubs dari pengguna tanpa Dojo tidak bocor, maka anonset prospektif dari koin Anda akan menjadi 13.
+Namun, jika kamu pernah menggunakan wallet yang sama dalam periode **tanpa Dojo sendiri**, lalu kemudian menggunakannya dengan Dojo, ada kemungkinan server Samourai pernah menerima xpub kamu, sehingga secara teoritis bisa diakses oleh otoritas. Jika kamu berada dalam situasi ini, sebaiknya ikuti rekomendasi di bagian sebelumnya dan anggap xpub kamu sudah terkompromi.
+
+Bagi mereka yang selalu menggunakan Sparrow atau Samourai dengan Dojo sendiri, risiko utamanya adalah anonset koin kamu berpotensi berkurang. Bayangkan dalam skenario terburuk bahwa semua pengguna tanpa Dojo memiliki xpub mereka di tangan otoritas, maka jalur koin mereka melalui siklus coinjoin bisa dilacak oleh otoritas tersebut.
+
+Sebagai ilustrasi, bayangkan kamu ikut satu siklus coinjoin awal, lalu dua siklus tambahan setelahnya. Jika xpub pengguna tanpa Dojo tidak bocor, maka anonset prospektif koin kamu bisa mencapai 13.
 
 ![samourai](assets/37.webp)
-
-Namun, jika kita menganggap bahwa xpubs telah bocor dan bahwa Anda bertemu dengan pengguna tanpa dojo selama coinjoin awal, dan kemudian 2 selama coinjoin hilir pertama, maka anonset prospektif Anda hanya akan menjadi 10 bukan 13 dari sudut pandang otoritas.
+Namun, jika kita mengasumsikan bahwa xpub memang telah bocor dan kamu bertemu dengan satu pengguna tanpa Dojo pada coinjoin pertama, lalu dua pengguna tanpa Dojo pada coinjoin hilir berikutnya, maka anonset prospektif kamu dari sudut pandang otoritas hanya menjadi 10, bukan 13.
 
 ![samourai](assets/38.webp)
-Penurunan potensial dalam anonset ini kompleks untuk diukur, karena tergantung pada banyak faktor, dan setiap koin terpengaruh secara berbeda. Misalnya, pengguna tanpa Dojo yang ditemui dalam siklus awal mempengaruhi anonset prospektif jauh lebih banyak daripada yang ditemui dalam siklus selanjutnya. Untuk memberi Anda gambaran tentang situasi, yang tetap hipotetis, statistik terbaru yang disediakan oleh Samourai menunjukkan bahwa antara 85% hingga 90% koin yang terlibat dalam coinjoins berasal dari pengguna dengan Dojo, Sparrow, atau Bitcoin Keeper, yaitu, pengguna yang, bahkan dalam skenario terburuk, tidak akan melihat xpubs mereka bocor.
-Meskipun angka-angka ini sulit untuk diverifikasi, mereka tampak konsisten bagi saya karena dua alasan:
-- Sparrow Wallet banyak digunakan;
-- Sebagian besar perangkat lunak node-in-box menawarkan implementasi Dojo, dan perangkat lunak mainstream seperti Umbrel sangat populer saat ini.
+Penurunan potensial dalam anonset ini cukup kompleks untuk diukur, karena bergantung pada banyak faktor dan setiap koin terdampak secara berbeda. Misalnya, pengguna tanpa Dojo yang kamu temui pada siklus awal akan jauh lebih memengaruhi anonset prospektif dibandingkan yang ditemui pada siklus berikutnya. Sebagai gambaran, yang tetap bersifat hipotetis, statistik terakhir yang dibagikan oleh Samourai menunjukkan bahwa antara 85% hingga 90% koin yang ikut coinjoin berasal dari pengguna dengan Dojo, Sparrow, atau Bitcoin Keeper, yaitu pengguna yang bahkan dalam skenario terburuk tidak akan mengalami kebocoran xpub.
 
-Dengan demikian, beberapa aspek perlu dipertimbangkan. Jika privasi koin Anda vis-à-vis otoritas sangat penting bagi Anda, akan bijaksana untuk bersiap untuk skenario terburuk, dan sulit untuk menjamin 100% bahwa siklus coinjoin Whirlpool Anda tidak bisa dilacak karena kebocoran potensial xpubs dari pengguna tanpa Dojo. Meskipun asumsi ini sangat tidak mungkin, itu bukan tidak mungkin.
+Meskipun angka ini sulit diverifikasi secara independen, menurutku angka tersebut cukup masuk akal karena dua alasan:
+- Sparrow Wallet digunakan secara luas;
+- Sebagian besar perangkat lunak node-in-a-box menawarkan implementasi Dojo, dan solusi populer seperti Umbrel banyak digunakan saat ini.
 
-Di sisi lain, jika privasi koin Anda vis-à-vis otoritas yang berpotensi memiliki xpubs ini tidak penting bagi Anda, maka situasinya bisa dipertimbangkan secara berbeda.
+Karena itu, ada beberapa hal yang perlu kamu pertimbangkan. Jika privasi koin kamu terhadap otoritas sangat penting, maka sebaiknya kamu bersiap menghadapi skenario terburuk. Sulit untuk menjamin 100% bahwa siklus coinjoin Whirlpool kamu tidak bisa dilacak jika memang terjadi kebocoran xpub dari pengguna tanpa Dojo. Meskipun kemungkinan ini kecil, tetap saja bukan tidak mungkin.
 
-Saya menyebutkan "vis-à-vis otoritas" karena penting untuk diingat bahwa hanya otoritas yang menyita server yang berpotensi mengetahui xpubs ini. Jika tujuan Anda menggunakan coinjoin adalah untuk mencegah tukang roti Anda dapat mengikuti dana Anda, maka dia tidak lebih tahu daripada sebelum penyitaan server.
-Akhirnya, sangat penting untuk mempertimbangkan anonset awal koin Anda, sebelum penyitaan server. Mari kita ambil contoh sebuah koin yang telah mencapai anonset prospektif sebesar 40.000; penurunan potensial dalam anonset ini kemungkinan kecil. Memang, dengan anonset dasar yang sudah sangat tinggi, tidak mungkin kehadiran beberapa pengguna tanpa Dojo dapat secara radikal mengubah situasi. Namun, jika koin Anda memiliki anonset 40, maka kebocoran potensial ini bisa serius mempengaruhi anonset Anda dan berpotensi memungkinkan pelacakan. Dengan alat WST sekarang tidak berfungsi menyusul penutupan OXT.me, Anda hanya dapat memperkirakan anonset ini. Untuk anonset retrospektif, tidak terlalu banyak yang perlu dikhawatirkan karena model Whirlpool memastikan bahwa itu sangat tinggi dari coinjoin pertama, berkat warisan dari rekan-rekan Anda. Satu-satunya kasus di mana ini bisa menjadi masalah adalah jika koin Anda tidak telah diremix selama beberapa tahun dan itu dicampur di awal peluncuran sebuah kolam. Mengenai anonset prospektif, Anda dapat memeriksa durasi koin Anda telah tersedia untuk coinjoins. Jika sudah beberapa bulan, maka kemungkinan memiliki anonset prospektif yang sangat tinggi. Sebaliknya, jika ditambahkan ke kolam hanya beberapa jam sebelum server disita, maka anonset prospektifnya kemungkinan sangat rendah.
+Sebaliknya, jika privasi terhadap otoritas yang berpotensi memiliki xpub tersebut bukan prioritas utama bagimu, maka situasinya bisa dinilai secara berbeda.
+
+Aku menekankan “terhadap otoritas” karena penting untuk diingat bahwa hanya otoritas yang menyita server yang berpotensi memiliki akses ke xpub tersebut. Jika tujuan kamu melakukan coinjoin adalah agar tukang roti di sekitar rumah tidak bisa melacak dana kamu, maka posisinya tidak berubah dibanding sebelum penyitaan server.
+
+Hal lain yang sangat penting adalah mempertimbangkan anonset awal koin kamu sebelum penyitaan server. Misalnya, jika sebuah koin sudah memiliki anonset prospektif sebesar 40.000, maka penurunan potensialnya kemungkinan tidak signifikan. Dengan anonset dasar yang sangat tinggi, kecil kemungkinan kehadiran beberapa pengguna tanpa Dojo akan mengubah situasi secara drastis. Namun, jika anonset koin kamu hanya 40, maka potensi kebocoran ini bisa berdampak serius dan membuka kemungkinan pelacakan.
+
+Karena WST tidak lagi berfungsi setelah OXT.me ditutup, kamu hanya bisa memperkirakan anonset tersebut. Untuk anonset retrospektif, biasanya tidak terlalu mengkhawatirkan karena model Whirlpool memastikan nilainya sangat tinggi sejak coinjoin pertama, berkat warisan dari peserta lain. Satu-satunya situasi yang mungkin bermasalah adalah jika koin kamu tidak diremix selama beberapa tahun dan hanya dicampur di awal peluncuran pool. Untuk anonset prospektif, kamu bisa melihat sudah berapa lama koin tersedia untuk coinjoin. Jika sudah berbulan-bulan, kemungkinan anonsetnya tinggi. Sebaliknya, jika baru masuk ke pool beberapa jam sebelum server disita, anonset prospektifnya mungkin sangat rendah.
+
 **-> Pelajari lebih lanjut tentang anonset dan metode perhitungannya.**
 
-Aspek lain yang perlu dipertimbangkan adalah dampak konsolidasi pada anonset koin yang telah dicampur. Mengingat akun Whirlpool tidak lagi dapat diakses melalui aplikasi Samourai, kemungkinan banyak pengguna telah mentransfer dompet mereka ke perangkat lunak lain dan mencoba menarik dana mereka dari Whirlpool. Khususnya, akhir pekan lalu, ketika biaya transaksi di jaringan Bitcoin relatif tinggi, ada insentif teknis dan ekonomi yang kuat untuk mengkonsolidasikan koin pasca-campuran. Ini berarti kemungkinan banyak pengguna telah melakukan konsolidasi yang signifikan.
+Aspek lain yang perlu diperhatikan adalah dampak konsolidasi terhadap anonset koin yang sudah dicampur. Karena akun Whirlpool tidak lagi bisa diakses melalui aplikasi Samourai, kemungkinan banyak pengguna memindahkan wallet mereka ke perangkat lunak lain dan mencoba menarik dana dari Whirlpool. Akhir pekan lalu, ketika biaya transaksi di jaringan Bitcoin cukup tinggi, ada insentif teknis dan ekonomi yang kuat untuk melakukan konsolidasi koin postmix. Artinya, kemungkinan besar banyak pengguna melakukan konsolidasi besar-besaran.
 
-Masalah dengan konsolidasi pasca-campuran ini adalah mereka selalu mengurangi anonset, tidak hanya untuk pengguna yang melakukan konsolidasi tetapi juga untuk pengguna yang mereka temui selama siklus coinjoin mereka. Meskipun saya belum dapat memverifikasi atau mengkuantifikasi fenomena ini secara tepat, insentif ekonomi terkait biaya transaksi pada saat itu dapat membuat kita berasumsi bahwa anonset berpotensi lebih rendah.
+Masalahnya, konsolidasi postmix selalu mengurangi anonset, bukan hanya bagi pengguna yang melakukan konsolidasi tetapi juga bagi pengguna lain yang pernah satu siklus coinjoin dengannya. Meskipun aku belum bisa memverifikasi atau mengukur fenomena ini secara akurat, insentif ekonomi akibat biaya transaksi saat itu memberi alasan kuat untuk mengasumsikan bahwa anonset secara umum mungkin menurun.
 
 ### Sebagai Pengguna Sentinel
 
-Operasi jaringan dari aplikasi dompet hanya-pantau Sentinel mirip dengan Samourai. Untuk mengakses informasi dompet Anda, aplikasi harus mentransmisikan xpubs, kunci publik, dan alamat yang telah Anda berikan ke Dojo. Jika Anda selalu menggunakan Dojo Anda sendiri di Sentinel, tidak ada masalah, dan Anda dapat terus menggunakan aplikasi tanpa khawatir. Namun, jika Anda bergantung pada server Samourai untuk Sentinel Anda, kemungkinan xpubs Anda telah terpapar. Dalam kasus ini, disarankan untuk mengikuti proses perubahan dompet yang sama yang direkomendasikan untuk Samourai Wallet ketika terhubung ke server Samourai.
+Cara kerja jaringan aplikasi wallet watch-only Sentinel mirip dengan Samourai. Untuk menampilkan informasi wallet, aplikasi perlu mengirimkan xpub, kunci publik, dan alamat yang kamu gunakan ke Dojo. Jika kamu selalu menggunakan Dojo sendiri di Sentinel, tidak ada masalah dan kamu bisa tetap memakainya dengan tenang. Namun, jika kamu mengandalkan server Samourai untuk Sentinel, ada kemungkinan xpub kamu telah terekspos. Dalam kasus ini, sebaiknya ikuti proses pembuatan wallet baru seperti yang direkomendasikan untuk Samourai Wallet yang sebelumnya terhubung ke server Samourai.
 
-Dalam kejadian yang tidak mungkin bahwa Anda menggunakan Dojo Anda dengan Samourai tetapi tidak dengan Sentinel, akan lebih bijaksana untuk menganggap bahwa xpubs Anda terkompromi.
+Dalam skenario yang jarang terjadi di mana kamu menggunakan Dojo sendiri dengan Samourai tetapi tidak dengan Sentinel, akan lebih aman untuk menganggap bahwa xpub kamu sudah terkompromi.
 
 ## Kesimpulan
-Terima kasih telah membaca artikel ini sampai selesai. Jika Anda merasa ada informasi yang hilang atau jika Anda memiliki saran, jangan ragu untuk menghubungi saya untuk berbagi pikiran Anda. Selain itu, jika Anda memerlukan bantuan lebih lanjut dalam memulihkan Samourai Wallet Anda meskipun telah mengikuti tutorial ini, saya mengundang Anda untuk bergabung dengan [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) untuk meminta bantuan. Saya secara rutin mengunjungi Discord ini dan akan sangat senang membantu Anda jika saya memiliki solusinya. Bitcoiner lainnya juga akan dapat berbagi pengalaman mereka dan menawarkan dukungan mereka. **Dalam setiap kasus, sangat penting untuk menjaga kerahasiaan frasa pemulihan, file cadangan, dan passphrase Anda**. Jangan berbagi dengan siapapun, karena ini dapat memungkinkan mereka untuk mencuri bitcoin Anda.
+
+Terima kasih sudah membaca artikel ini sampai akhir. Jika menurutmu ada informasi yang kurang atau kamu punya saran, jangan ragu untuk menghubungiku dan berbagi pendapat. Jika kamu masih membutuhkan bantuan untuk memulihkan Samourai Wallet meskipun sudah mengikuti tutorial ini, kamu bisa bergabung dengan [Discover Bitcoin Discord](https://discord.gg/xKKm29XGBb) untuk meminta bantuan. Aku cukup sering aktif di sana dan akan dengan senang hati membantu jika aku tahu solusinya. Bitcoiner lain juga bisa berbagi pengalaman dan memberikan dukungan. **Dalam kondisi apa pun, sangat penting untuk menjaga kerahasiaan seedphrase, file cadangan, dan passphrase milikmu.** Jangan pernah membagikannya kepada siapa pun, karena itu bisa memungkinkan mereka mencuri bitcoin kamu.
 
 

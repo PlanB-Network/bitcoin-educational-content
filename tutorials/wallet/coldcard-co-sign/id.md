@@ -1,6 +1,6 @@
 ---
 name: COLDCARD - Co-Sign
-description: Temukan fitur Co-Sign dan gunakan di COLDCARD Anda
+description: Temukan fitur Co-Sign dan gunakan di COLDCARD 
 ---
 
 > **⚠️ PENGUMUMAN KEAMANAN MENDESAK (Juli 2026) — Dompet Coldcard sedang aktif dikuras.** Bug firmware pada pembuatan seed di perangkat Coldcard memungkinkan penyerang menemukan seed phrase Anda tanpa tindakan apa pun dari pihak Anda. **Semua model Coldcard terdampak: Mk3, Mk4, Mk5, dan Q.** Pada 30 Juli 2026, sekitar 594 BTC dicuri dari sekitar 500 dompet, dan serangan masih berlangsung. Hanya dompet yang dibuat dengan metode lempar dadu yang dianggap aman, dan hanya jika Anda melempar setidaknya 50 dadu. Jika Anda tidak tahu, tidak ingat, atau tidak yakin bagaimana seed Anda dibuat, anggaplah seed itu telah dibobol dan **segera pindahkan dana Anda** ke dompet yang seed-nya tidak dibuat di Coldcard. Ikuti pengumuman resmi Coinkite. Lihat tutorial migrasi khusus kami:
@@ -23,7 +23,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-seed-vulnerability-1348
 
 
 
-Fitur ini memungkinkan Anda menambahkan **ketentuan pengeluaran** ke perangkat ColdCard (Q atau Mk4) dengan cara Modul Keamanan Perangkat Keras (HSM), untuk melindungi dana Anda sekaligus mempertahankan fleksibilitas dan kontrol yang cukup besar terhadapnya.
+Fitur ini memungkinkan kamu menambahkan **ketentuan pengeluaran** ke perangkat ColdCard (Q atau Mk4) menggunakan pendekatan Hardware Security Module (HSM), untuk melindungi dana kamu sekaligus tetap mempertahankan fleksibilitas dan tingkat kontrol yang cukup besar atasnya.
 
 
 
@@ -33,39 +33,33 @@ Kondisi pengeluaran dapat berupa, misalnya:
 
 
 
-- Batasan jumlah**: membatasi jumlah bitcoin yang dapat Anda belanjakan dalam satu transaksi.
-- Batas kecepatan:** tentukan berapa banyak transaksi yang dapat Anda lakukan per unit waktu (per jam, hari, minggu, dll.), yang membutuhkan jumlah minimum blok di antaranya.
-- Alamat yang telah disetujui sebelumnya:** Hanya mengizinkan pengiriman bitcoin ke alamat yang telah disetujui sebelumnya.
-- Autentikasi dua faktor:** Memerlukan konfirmasi dari aplikasi seluler 2FA pihak ketiga (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) pada ponsel cerdas/tablet berkemampuan NFC dengan akses internet.
+- **Batasan jumlah**: membatasi jumlah bitcoin yang dapat kamu belanjakan dalam satu transaksi.
+- **Batas kecepatan**: tentukan berapa banyak transaksi yang dapat kamu lakukan per unit waktu (per jam, hari, minggu, dll.), yang memerlukan jumlah minimum blok di antaranya.
+- **Alamat yang telah disetujui sebelumnya**: hanya mengizinkan pengiriman bitcoin ke alamat yang telah disetujui sebelumnya.
+- **Autentikasi dua faktor**: memerlukan konfirmasi dari aplikasi seluler 2FA pihak ketiga (TOTP [RFC 6238](https://www.rfc-editor.org/rfc/rfc6238)) pada ponsel cerdas/tablet berkemampuan NFC dengan akses internet.
 
 
 
-**Bagaimana cara kerjanya
+**Bagaimana cara kerjanya?**
 
 
-
-Dengan menambahkan seed kedua ke perangkat ColdCard Mk4 atau Q Anda, yang disebut "Spending Policy Key", yang akan kita sebut di sepanjang tutorial ini sebagai "C Key".
-
-
-Selain seed tambahan ini, Anda akan diminta untuk Supply setidaknya satu kunci tambahan (XPUB), yang akan kami sebut "Kunci Cadangan", untuk membuat Wallet Multisig 2-on-N.
+Dengan menambahkan seed kedua ke perangkat ColdCard Mk4 atau Q kamu, yang disebut "Spending Policy Key", dan akan kita sebut sepanjang tutorial ini sebagai "C Key".
 
 
-
-Singkatnya, kita akan membuat Wallet Multisig, dan perangkat ColdCard Anda akan berisi 2 kunci privat yang diperlukan untuk membelanjakan dana, master seed perangkat dan "Kunci Kebijakan Pembelanjaan".
-
+Selain seed tambahan ini, kamu juga akan diminta untuk menyediakan setidaknya satu kunci tambahan (XPUB), yang akan kita sebut sebagai "Kunci Cadangan", untuk membuat wallet multisig 2-of-N.
 
 
-Setiap kali "C Key" diminta untuk menandatangani, ketentuan pembelanjaan yang telah ditentukan akan berlaku, dan ColdCard hanya akan menandatangani jika transaksi sesuai dengan ketentuan tersebut.
+Singkatnya, kita akan membuat wallet multisig, di mana perangkat ColdCard kamu akan menyimpan 2 kunci privat yang diperlukan untuk membelanjakan dana, yaitu master seed perangkat dan "Kunci Kebijakan Pengeluaran".
 
 
-
-Jika Anda ingin mengabaikan ketentuan pengeluaran ini, Anda dapat melakukannya:
-
+Setiap kali "C Key" diminta untuk menandatangani, ketentuan pengeluaran yang telah ditentukan sebelumnya akan diterapkan, dan ColdCard hanya akan menandatangani jika transaksi tersebut sesuai dengan ketentuan tersebut.
 
 
+Jika kamu ingin mengabaikan ketentuan pengeluaran ini, kamu dapat melakukannya:
 
-- dengan menandatangani dengan salah satu kunci cadangan dan tangan seed, atau 2 kunci cadangan tergantung pada ukuran Multisig Anda.
-- dengan memasukkan "Kunci Kebijakan Pengeluaran" atau "Kunci C" di menu "Tanda Tangan Bersama". **Kunci ini tidak dapat dikonsultasikan secara langsung pada perangkat, jika tidak, siapa pun dapat membatalkan kondisi pengeluaran yang dikonfigurasi.**
+
+- dengan menandatangani menggunakan master seed dan salah satu kunci cadangan, atau menggunakan 2 kunci cadangan, tergantung pada konfigurasi multisig yang kamu gunakan.
+- dengan memasukkan "Kunci Kebijakan Pengeluaran" atau "C Key" melalui menu "Tanda Tangan Bersama". **Kunci ini tidak dapat ditampilkan secara langsung di perangkat, karena jika tidak, siapa pun dapat membatalkan ketentuan pengeluaran yang telah dikonfigurasi.**
 
 
 
@@ -82,7 +76,7 @@ Jika Anda ingin mengabaikan ketentuan pengeluaran ini, Anda dapat melakukannya:
 
 
 
-Pertama-tama, pastikan perangkat Anda memiliki setidaknya versi firmware terbaru:
+Pertama-tama, pastikan perangkat kamu memiliki setidaknya versi firmware terbaru:
 
 
 
@@ -156,18 +150,17 @@ Kita dapat melihat bahwa kita memiliki beberapa opsi yang terbuka bagi kita:
 
 
 
-Untuk keperluan tutorial ini, kami memutuskan untuk mengimpor seed 12 kata yang sudah ada dengan menekan **"(1) "**. Ini bisa berupa seed BIP39 yang sudah Anda miliki, dan tentunya Anda memiliki cadangannya.
+Untuk keperluan tutorial ini, kita memutuskan untuk mengimpor seedphrase 12 kata yang sudah ada dengan menekan **"(1)"**. Ini bisa berupa seedphrase BIP39 yang sudah kamu miliki, dan tentu saja kamu sudah menyimpan cadangannya.
 
 
-
-Gunakan papan ketik Anda untuk memasukkan 12 kata dari seed Anda. Untuk contoh ini, kita akan memilih frasa valid seed daging sapi x 12. Kemudian tekan **"MEMASUKKAN "**.
-
-
-*NB: jika Anda tidak memiliki cadangan seed ini, Anda tidak dapat lagi mengubah pengaturan "Co-Sign" pada perangkat Anda, untuk mengubah kondisi pengeluaran Anda*
+Gunakan papan ketik untuk memasukkan 12 kata dari seedphrase kamu. Untuk contoh ini, kita akan memilih seedphrase contoh yang valid. Setelah selesai, tekan **"MEMASUKKAN"**.
 
 
+*NB: jika kamu tidak memiliki cadangan seedphrase ini, kamu tidak akan bisa lagi mengubah pengaturan "Co-Sign" pada perangkat kamu untuk memodifikasi kondisi pengeluaran.*
 
-Fitur "Co-Sign" sekarang sudah diaktifkan pada perangkat. Selanjutnya kita harus memilih kondisi pembelanjaan kita, kemudian menyelesaikan pembuatan Wallet multi-tanda tangan.
+
+Fitur "Co-Sign" sekarang sudah diaktifkan di perangkat. Langkah selanjutnya adalah memilih kondisi pengeluaran, lalu menyelesaikan pembuatan wallet multi-tanda tangan.
+
 
 
 
@@ -179,19 +172,16 @@ Fitur "Co-Sign" sekarang sudah diaktifkan pada perangkat. Selanjutnya kita harus
 
 
 
-Di sini kami menentukan kondisi pengeluaran yang harus dipenuhi ketika **"Kunci C "** atau **"Kunci Kebijakan Pengeluaran**" menandatangani transaksi.
+Di sini kita menentukan kondisi pengeluaran yang harus dipenuhi ketika **"Kunci C"** atau **"Kunci Kebijakan Pengeluaran"** menandatangani transaksi.
 
 
-
-Pada menu **"Penandatanganan Bersama "**, klik **"Kebijakan Pembelanjaan**".
-
+Pada menu **"Penandatanganan Bersama"**, klik **"Kebijakan Pembelanjaan"**.
 
 
-Anda kemudian dapat memilih nilai maksimum, yaitu jumlah maksimum satoshi yang dapat dibelanjakan dalam satu transaksi.
+Kamu kemudian dapat memilih nilai maksimum, yaitu jumlah maksimum satoshi yang dapat dibelanjakan dalam satu transaksi.
 
 
-
-Untuk contoh ini, kita akan memilih besaran maksimum **21212** satoshi. Klik **"ENTER "** untuk mengonfirmasi.
+Untuk contoh ini, kita akan memilih batas maksimum **21212** satoshi. Klik **"ENTER"** untuk mengonfirmasi.
 
 
 
@@ -213,21 +203,20 @@ Kita kemudian memilih untuk mengatur kecepatan maksimum, yaitu jumlah transaksi 
 
 
 
-Kita masih harus memilih kunci ketiga untuk Wallet Multisig kita, yaitu **"Kunci Cadangan "** (Kunci B), di samping **master seed** (Kunci A) dan **"Kunci Kebijakan Pengeluaran "** (Kunci C).
+Kita masih perlu memilih kunci ketiga untuk wallet multisig kita, yaitu **"Kunci Cadangan"** (Kunci B), di samping **master seed** (Kunci A) dan **"Kunci Kebijakan Pengeluaran"** (Kunci C).
 
 
-
-"B Key" kami harus diimpor melalui kartu SD, atau melalui kode QR untuk ColdCardQ.
-
-
-Untuk melakukan ini, kita memerlukan perangkat ColdCard Mk4 atau Q kedua, di mana "Key B" kita digunakan.
+"B Key" harus diimpor melalui kartu SD, atau melalui kode QR untuk ColdCard Q.
 
 
+Untuk melakukan ini, kita memerlukan perangkat ColdCard Mk4 atau Q kedua, tempat "Kunci B" digunakan.
 
-Pada perangkat kedua yang berisi **"Backup Key "**, katakanlah ColdCard Mk4 dalam contoh ini, masuklah dari menu utama ke **"Settings "**, kemudian, **"Multisig Wallet"**, dan terakhir **"Export Xpub "**.
+
+Pada perangkat kedua yang berisi **"Kunci Cadangan"**, misalnya ColdCard Mk4 dalam contoh ini, masuk dari menu utama ke **"Settings"**, lalu **"Multisig Wallet"**, dan terakhir **"Export Xpub"**.
 
 
-(Jika perangkat kedua Anda adalah ColdCardQ, Anda akan memiliki opsi untuk mengekspor Xpub Anda melalui kode QR, tentu saja).
+(Jika perangkat kedua kamu adalah ColdCard Q, kamu juga akan memiliki opsi untuk mengekspor XPUB melalui kode QR).
+
 
 
 
@@ -263,7 +252,7 @@ Pada menu "ColdCard Co-Signing", pilih "Build 2-of-N", lalu pada layar berikutny
 
 
 
-Pada layar berikutnya, biarkan "Nomor Rekening" kosong (kecuali jika Anda tahu persis apa yang Anda lakukan) dan klik **"MASUK "** sekali lagi.
+Pada layar berikutnya, biarkan "Nomor Rekening" kosong (kecuali jika kamu tahu persis apa yang kamu lakukan) dan klik **"MASUK "** sekali lagi.
 
 
 
@@ -289,7 +278,7 @@ Kunci C= Kunci Kebijakan Pengeluaran (jika digunakan untuk menandatangani, membe
 
 
 
-Jika perlu, bacalah tutorial di bawah ini untuk membiasakan diri Anda dengan perangkat lunak Sparrow wallet:
+Jika perlu, bacalah tutorial di bawah ini untuk membiasakan diri kamu dengan perangkat lunak Sparrow wallet:
 
 
 
@@ -317,7 +306,7 @@ Kumpulan dompet Multisig yang dikenal dengan ColdCard Anda sekarang ditampilkan,
 
 
 
-Terakhir, pilih metode yang memungkinkan Anda mengekspor Wallet ke Sparrow. Dalam kasus kami, kami akan memilih kartu SD, lalu klik **"(1) "** setelah memasukkan kartu SD ke dalam slot A pada perangkat.
+Terakhir, pilih metode yang memungkinkanmu mengekspor Wallet ke Sparrow. Dalam kasus kami, kami akan memilih kartu SD, lalu klik **"(1) "** setelah memasukkan kartu SD ke dalam slot A pada perangkat.
 
 
 
@@ -333,7 +322,7 @@ Kemudian di Sparrow wallet, pilih "Impor Wallet".
 
 
 
-Kemudian klik **"Impor File "**. Kemudian pilih file **"export-Coldcard_Co-sign.txt "** pada kartu SD Anda.
+Kemudian klik **"Impor File "**. Kemudian pilih file **"export-Coldcard_Co-sign.txt "** pada kartu SD.
 
 
 
@@ -341,7 +330,7 @@ Kemudian klik **"Impor File "**. Kemudian pilih file **"export-Coldcard_Co-sign.
 
 
 
-Berikan nama pada Wallet Anda seperti yang akan muncul pada Sparrow, dan pilih kata sandi untuk mengenkripsi Wallet Anda (atau tidak).
+Berikan nama pada Wallet seperti yang akan muncul pada Sparrow, dan pilih kata sandi untuk mengenkripsi Wallet (atau tidak).
 
 
 
@@ -485,7 +474,7 @@ Kita diminta untuk memasukkan "Kunci Kebijakan Pembelanjaan", untuk mengakses me
 
 
 
-Kami telah memutuskan untuk mempertahankan magnitudo 21212 Sats, dan "Limit Velocity" maksimum untuk alasan praktis yang berkaitan dengan tutorial ini. Di sisi lain, kita akan menggunakan menu **"Alamat Daftar Putih "** untuk menetapkan alamat-alamat di mana dana kita dapat dibelanjakan.
+Kita memutuskan untuk mempertahankan batas **21212 satoshi** dan nilai maksimum untuk **"Limit Velocity"** demi alasan praktis yang berkaitan dengan tutorial ini. Di sisi lain, kita akan menggunakan menu **"Alamat Daftar Putih"** untuk menetapkan alamat-alamat tujuan tempat dana kita dapat dibelanjakan.
 
 
 
@@ -495,7 +484,7 @@ Kami telah memutuskan untuk mempertahankan magnitudo 21212 Sats, dan "Limit Velo
 
 
 
-Pindai kode QR yang terkait dengan alamat (kami akan memilih 2) yang ingin Anda tambahkan ke daftar putih, lalu klik **"MASUK "**. Setelah memvalidasi alamat Anda dengan menekan **"MASUK "** secara berurutan, kami melihat bahwa batasan Magnitude dan alamat penerima telah diterapkan.
+Pindai kode QR yang terkait dengan alamat yang ingin kamu tambahkan ke daftar putih (kita akan memilih 2 alamat), lalu klik **"MASUK"**. Setelah memvalidasi setiap alamat dengan menekan **"MASUK"** secara berurutan, kita bisa melihat bahwa batas Magnitude dan alamat penerima telah berhasil diterapkan.
 
 
 
@@ -506,7 +495,7 @@ Pindai kode QR yang terkait dengan alamat (kami akan memilih 2) yang ingin Anda 
 Terakhir, untuk mendapatkan gambaran lengkap tentang kemungkinan yang ditawarkan oleh "Co-Sign", mari aktifkan opsi "Web 2FA".
 
 
-Fitur ini memungkinkan Anda menggunakan aplikasi yang sesuai dengan TOTP RFC-6238 seperti Google Authenticator / Ente Auth / Proton Authenticator / Authy 2FA / atau Aegis Authenticator, untuk menambahkan keamanan Layer ekstra.
+Fitur ini memungkinkan kamu menggunakan aplikasi yang kompatibel dengan TOTP RFC-6238 seperti Google Authenticator, Ente Auth, Proton Authenticator, Authy 2FA, atau Aegis Authenticator, untuk menambahkan lapisan keamanan ekstra.
 
 
 
@@ -516,7 +505,7 @@ https://planb.academy/tutorials/computer-security/authentication/proton-authenti
 
 https://planb.academy/tutorials/computer-security/authentication/aegis-authenticator-22cc4d35-fb46-4e54-8833-bc4b411518bc
 
-Secara konkretnya, sebelum menandatangani transaksi, Anda harus mendekatkan perangkat yang terhubung dengan NFC dan terhubung dengan internet ke Coldcard. Secara otomatis, Anda akan diarahkan ke halaman web coldcard.com, di mana Anda akan diminta untuk memasukkan kode 6 digit untuk aplikasi Anda. Jika Anda memasukkan kode yang benar, halaman web akan menampilkan kode QR untuk memindai ColdCardQ, atau kode 8 digit untuk dimasukkan ke Mk4 Anda, untuk mengotorisasi perangkat Anda agar dapat ditandatangani.
+Secara praktis, sebelum menandatangani transaksi, kamu harus mendekatkan perangkat yang mendukung NFC dan terhubung ke internet ke ColdCard. Secara otomatis, kamu akan diarahkan ke halaman web coldcard.com, tempat kamu diminta memasukkan kode 6 digit dari aplikasi autentikator kamu. Jika kode yang dimasukkan benar, halaman web tersebut akan menampilkan kode QR untuk dipindai oleh ColdCard Q, atau kode 8 digit yang harus dimasukkan ke ColdCard Mk4, guna mengotorisasi perangkat agar transaksi dapat ditandatangani.
 
 
 
@@ -525,12 +514,10 @@ Secara konkretnya, sebelum menandatangani transaksi, Anda harus mendekatkan pera
 ![Co-Sign](assets/fr/33.webp)
 
 
-
-Setelah memindai kode QR yang ditampilkan di aplikasi autentikasi ganda Anda, dan menambahkan akun ColdCard Co-Sign (CCC) Anda, Anda akan diminta untuk memverifikasi bahwa semuanya sudah sesuai dengan memasukkan kode 2FA Anda.
-
+Setelah memindai kode QR yang ditampilkan di aplikasi autentikasi dua faktor kamu dan menambahkan akun ColdCard Co-Sign (CCC), kamu akan diminta untuk memverifikasi bahwa semuanya sudah benar dengan memasukkan kode 2FA kamu.
 
 
-Ketik ColdCard Anda ke bagian belakang perangkat NFC.
+Tempelkan ColdCard kamu ke bagian belakang perangkat yang mendukung NFC.
 
 
 
@@ -538,7 +525,7 @@ Ketik ColdCard Anda ke bagian belakang perangkat NFC.
 
 
 
-Pada halaman web yang terbuka, masukkan kode 2FA aplikasi favorit Anda. Kemudian pindai kode QR yang ditampilkan dengan ColdCardQ Anda (atau masukkan kode 8 digit yang ditampilkan di Mk4 Anda).
+Pada halaman web yang terbuka, masukkan kode 2FA dari aplikasi favorit kamu. Setelah itu, pindai kode QR yang ditampilkan menggunakan ColdCard Q kamu, atau masukkan kode 8 digit yang ditampilkan ke ColdCard Mk4 kamu.
 
 
 
@@ -578,7 +565,7 @@ Kali ini, pilih opsi NFC untuk ekspor dengan mengeklik tombol ColdcardQ dengan n
 
 
 
-Di Nunchuk, jika Anda membuka aplikasi untuk pertama kalinya, klik **"Pulihkan Wallet yang sudah ada "**.
+Di Nunchuk, jika kamu membuka aplikasi untuk pertama kalinya, klik **"Pulihkan Wallet yang sudah ada "**.
 
 
 
@@ -586,7 +573,7 @@ Di Nunchuk, jika Anda membuka aplikasi untuk pertama kalinya, klik **"Pulihkan W
 
 
 
-Jika Anda sudah memiliki Wallet dalam aplikasi, klik **"+"** di kanan atas, lalu **"Pulihkan Wallet yang ada "**.
+Jika kamu sudah memiliki Wallet dalam aplikasi, klik **"+"** di kanan atas, lalu **"Pulihkan Wallet yang ada "**.
 
 
 
@@ -603,7 +590,7 @@ Kemudian pilih **"Pulihkan Wallet dari COLDCARD "** lalu **"Multisig Wallet"**.
 
 
 
-Terakhir, ketuk bagian belakang ponsel cerdas Anda ke layar ColdCardQ untuk mengimpor Wallet melalui NFC.
+Terakhir, ketuk bagian belakang ponsel cerdas kamu ke layar ColdCardQ untuk mengimpor Wallet melalui NFC.
 
 
 
@@ -623,7 +610,7 @@ Akun kami dan satoshi yang sebelumnya disimpan melalui Sparrow wallet telah kemb
 
 
 
-Sekarang mari kita coba melakukan transaksi yang melanggar 2 kondisi pembelanjaan yang telah kita tetapkan. **Kita akan mencoba membelanjakan lebih dari 21.212 Sats ke Address yang belum disetujui.** Mari kita coba mengirim 22.222 Sats ke Address secara acak.
+Sekarang mari kita coba melakukan transaksi yang melanggar 2 kondisi pengeluaran yang telah kita tetapkan. **Kita akan mencoba membelanjakan lebih dari 21.212 satoshi ke address yang belum disetujui.** Mari kita coba mengirim **22.222 satoshi** ke address acak.
 
 
 
@@ -631,7 +618,7 @@ Sekarang mari kita coba melakukan transaksi yang melanggar 2 kondisi pembelanjaa
 
 
 
-Setelah transaksi dibuat, klik pada 3 titik kecil di sudut kanan atas untuk mengekspornya ke ColdCard Anda.
+Setelah transaksi dibuat, klik pada 3 titik kecil di sudut kanan atas untuk mengekspornya ke ColdCard.
 
 
 
@@ -639,7 +626,7 @@ Setelah transaksi dibuat, klik pada 3 titik kecil di sudut kanan atas untuk meng
 
 
 
-Kemudian pilih **"Ekspor melalui BBQR "**, dan pindai kode QR yang ditampilkan dengan ColdCardQ Anda.
+Kemudian pilih **"Ekspor melalui BBQR "**, dan pindai kode QR yang ditampilkan dengan ColdCardQ.
 
 
 
@@ -647,11 +634,10 @@ Kemudian pilih **"Ekspor melalui BBQR "**, dan pindai kode QR yang ditampilkan d
 
 
 
-ColdcardQ Anda kemudian menampilkan peringatan yang, saat Anda menggulir ke bagian bawah layar, menjelaskan bahwa transaksi tersebut melanggar ketentuan pembelanjaan, seperti yang diharapkan.
+ColdCard Q kamu akan menampilkan peringatan yang, saat kamu menggulir ke bagian bawah layar, menjelaskan bahwa transaksi tersebut melanggar ketentuan pengeluaran, seperti yang memang diharapkan.
 
 
-
-**Perhatikan bahwa perangkat tidak memberi tahu kami kondisi pengeluaran apa saja yang terlibat, untuk mencegah penyerang potensial mencoba menghindari pembatasan.**
+**Perhatikan bahwa perangkat tidak memberi tahu kondisi pengeluaran mana saja yang terlibat, untuk mencegah penyerang potensial mencoba menghindari pembatasan tersebut.**
 
 
 
@@ -660,7 +646,7 @@ ColdcardQ Anda kemudian menampilkan peringatan yang, saat Anda menggulir ke bagi
 
 
 
-Jika Anda masih memvalidasi dengan menekan **"ENTER "**, kode QR yang mewakili transaksi yang ditandatangani akan muncul. Jika Anda mengimpornya di Nunchuk, Anda dapat melihat bahwa hanya satu tanda tangan yang telah diterapkan.
+Jika kamu tetap memvalidasi dengan menekan **"ENTER"**, kode QR yang mewakili transaksi yang telah ditandatangani akan muncul. Jika kamu mengimpornya ke Nunchuk, kamu dapat melihat bahwa hanya satu tanda tangan yang telah diterapkan.
 
 
 
@@ -675,11 +661,10 @@ Jika Anda masih memvalidasi dengan menekan **"ENTER "**, kode QR yang mewakili t
 
 
 
-Mari kita lakukan operasi yang persis sama, tetapi kali ini dengan transaksi yang menghormati batas besaran (21212 Sats), dan membelanjakan satoshi ke salah satu dari 2 alamat yang telah kita konfigurasikan sebelumnya.
+Mari kita lakukan operasi yang sama persis, tetapi kali ini dengan transaksi yang mematuhi batas besaran (21212 satoshi) dan membelanjakan satoshi ke salah satu dari 2 address yang telah kita konfigurasikan sebelumnya.
 
 
-
-Kami mengirim Nunchuk 12121 Sats ke salah satu dari 2 alamat kami. Kemudian kami mengekspor transaksi ke ColdCard kami seperti yang telah dilakukan sebelumnya.
+Kita mengirim **12121 satoshi** menggunakan Nunchuk ke salah satu dari 2 address kita. Setelah itu, kita mengekspor transaksi tersebut ke ColdCard kita, sama seperti yang telah dilakukan sebelumnya.
 
 
 
@@ -688,11 +673,11 @@ Kami mengirim Nunchuk 12121 Sats ke salah satu dari 2 alamat kami. Kemudian kami
 
 
 
-Setelah mengimpor transaksi yang belum ditandatangani ke dalam ColdCardQ, mari kita lihat apa yang akan kita lihat kali ini.
+Setelah mengimpor transaksi yang belum ditandatangani ke ColdCard Q, mari kita lihat apa yang terjadi kali ini.
 
 
+Peringatan masih muncul, tetapi kali ini, saat menggulir ke bagian bawah layar, kita melihat bahwa ini adalah permintaan untuk memvalidasi transaksi melalui 2FA. Perangkat meminta kita mendekatkan ColdCard Q ke terminal NFC yang terhubung ke internet (smartphone atau tablet), dan kita pun melakukannya.
 
-Peringatan selalu ada, tetapi kali ini, dengan menggulir ke bagian bawah layar, kami melihat bahwa ini adalah masalah memvalidasi transaksi melalui 2FA. Perangkat meminta kami mendekatkan ColdcardQ ke terminal NFC yang terhubung ke Internet (smartphone atau tablet), dan kami melakukannya.
 
 
 
@@ -710,14 +695,14 @@ Sebuah halaman web terbuka di ponsel cerdas kami, meminta kami untuk memasukkan 
 
 
 
-Kemudian pindai kode QR yang muncul di halaman web, untuk mengesahkan ColdCard Anda untuk menandatangani transaksi.
+Kemudian pindai kode QR yang muncul di halaman web untuk mengesahkan ColdCard kamu agar dapat menandatangani transaksi.
 
 
-Transaksi sekarang ditandatangani oleh 2 kunci dan oleh karena itu valid.
+Transaksi sekarang telah ditandatangani oleh 2 kunci dan karena itu valid.
 
 
+Jika opsi **"Push Tx"** diaktifkan di ColdCard Q kamu, kamu dapat menyiarkan transaksi tersebut langsung ke jaringan dengan menempelkan bagian belakang smartphone kamu ke perangkat.
 
-Jika "Push Tx" diaktifkan pada ColdCardQ Anda, Anda dapat menyiarkan transaksi secara langsung ke jaringan dengan mengetuk bagian belakang ponsel cerdas Anda.
 
 
 
@@ -726,7 +711,7 @@ Jika "Push Tx" diaktifkan pada ColdCardQ Anda, Anda dapat menyiarkan transaksi s
 
 
 
-Jika Anda tidak mengaktifkan "Push tx", tekan tombol "QR" pada ColdCardQ Anda untuk menampilkan transaksi yang telah ditandatangani sebagai kode QR, dan mengimpornya ke Nunchuk, dengan cara yang sama seperti pada contoh sebelumnya.
+Jika kamu tidak mengaktifkan **"Push Tx"**, tekan tombol **"QR"** di ColdCard Q kamu untuk menampilkan transaksi yang telah ditandatangani dalam bentuk kode QR, lalu impor transaksi tersebut ke Nunchuk dengan cara yang sama seperti pada contoh sebelumnya.
 
 
 
@@ -743,4 +728,4 @@ Kali ini kami melihat bahwa 2 tanda tangan telah diterapkan, sehingga transaksi 
 
 
 
-Kita telah sampai pada akhir tutorial ini, yang akan memberi Anda gambaran umum tentang kemungkinan yang ditawarkan oleh fungsionalitas Co-Sign yang diintegrasikan ke dalam perangkat ColdCardQ dan Mk4 Coinkite, serta penggunaannya melalui dompet seperti Sparrow dan Nunchuk.
+Kita telah sampai di akhir tutorial ini, yang memberi kamu gambaran umum tentang berbagai kemungkinan yang ditawarkan oleh fungsionalitas Co-Sign yang terintegrasi di perangkat ColdCard Q dan Mk4 dari Coinkite, serta penggunaannya melalui wallet seperti Sparrow dan Nunchuk.

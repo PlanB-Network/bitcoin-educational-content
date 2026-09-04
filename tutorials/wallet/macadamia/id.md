@@ -6,12 +6,11 @@ description: Cashu mobile wallet untuk pembayaran BTC secara anonim dan instan
 ![cover](assets/cover.webp)
 
 
-
-Macadamia Wallet adalah wallet mobile iOS yang mengimplementasikan protokol Cashu, sebuah sistem ecash Chaumian yang memungkinkan pembayaran Bitcoin yang sepenuhnya anonim. Berkat tanda tangan buta, tidak ada pengamat yang dapat menghubungkan simpanan Anda dengan pembelanjaan Anda, menawarkan kerahasiaan yang mirip dengan uang tunai fisik.
-
+Macadamia Wallet adalah wallet mobile iOS yang mengimplementasikan protokol Cashu, sebuah sistem ecash Chaumian yang memungkinkan pembayaran Bitcoin yang sepenuhnya anonim. Berkat tanda tangan buta, tidak ada pengamat yang dapat menghubungkan simpanan kamu dengan pembelanjaan kamu, menawarkan kerahasiaan yang mirip dengan uang tunai fisik.
 
 
-Dalam tutorial ini, kita akan melihat cara menginstal dan mengonfigurasi Macadamia, melakukan transaksi Cashu pertama Anda (Mint, Send, Receive, Melt), dan mengelola beberapa mint untuk mengamankan dana Anda.
+
+Dalam tutorial ini, kita akan melihat cara menginstal dan mengonfigurasi Macadamia, melakukan transaksi Cashu pertama kamu (Mint, Send, Receive, Melt), dan mengelola beberapa mint untuk mengamankan dana kamu.
 
 
 
@@ -23,11 +22,11 @@ Dalam tutorial ini, kita akan melihat cara menginstal dan mengonfigurasi Macadam
 
 
 
-Cashu menggunakan tanda tangan buta yang ditemukan oleh David Chaum: Anda menyetorkan bitcoin ke server "mint", yang mengeluarkan token yang setara dengan satoshi. Mint menandatangani token-token ini tanpa melihat isinya, sehingga mustahil untuk menghubungkan token ke pengguna. Pertukarannya bersifat off-chain, peer-to-peer, dan benar-benar tidak jelas - bahkan mint tidak dapat melacak siapa yang membayar siapa.
+Cashu menggunakan tanda tangan buta yang ditemukan oleh David Chaum: kamu menyetorkan bitcoin ke server "mint", yang mengeluarkan token yang setara dengan satoshi. Mint menandatangani token-token ini tanpa melihat isinya, sehingga mustahil untuk menghubungkan token ke pengguna. Pertukarannya bersifat off-chain, peer-to-peer, dan benar-benar tidak jelas - bahkan mint tidak dapat melacak siapa yang membayar siapa.
 
 
 
-Macadamia adalah sumber terbuka wallet iOS yang dikembangkan di Swift/SwiftUI. Ia bekerja tanpa akun atau KYC, token Anda disimpan secara lokal dan dilindungi oleh frasa seed. Kode dapat diaudit di GitHub dan token dapat dioperasikan dengan dompet Cashu lainnya (Minibits, Cashu.me).
+Macadamia adalah sumber terbuka wallet iOS yang dikembangkan di Swift/SwiftUI. Ia bekerja tanpa akun atau KYC, token kamu disimpan secara lokal dan dilindungi oleh *seedphrase*. Kode dapat diaudit di GitHub dan token dapat dioperasikan dengan dompet Cashu lainnya (Minibits, Cashu.me).
 
 
 
@@ -35,11 +34,11 @@ Macadamia adalah sumber terbuka wallet iOS yang dikembangkan di Swift/SwiftUI. I
 
 
 
-**Penting**: Cashu beroperasi dengan model kustodian. Token adalah janji untuk membayar (IOU) yang didukung oleh cadangan Bitcoin milik mint. Jika mint menghilang, token Anda akan kehilangan nilainya. Ini adalah kompromi untuk kerahasiaan maksimum.
+**Penting**: Cashu beroperasi dengan model kustodian. Token adalah janji untuk membayar (IOU) yang didukung oleh cadangan Bitcoin milik mint. Jika mint menghilang, token kamu akan kehilangan nilainya. Ini adalah kompromi untuk kerahasiaan maksimum.
 
 
 
-Gunakan Macadamia sebagai wallet fisik: dalam jumlah kecil saja. Sebarkan dana Anda ke beberapa mint untuk mengurangi risiko.
+Gunakan Macadamia sebagai wallet fisik: dalam jumlah kecil saja. Sebarkan dana kamu ke beberapa mint untuk mengurangi risiko.
 
 
 
@@ -47,11 +46,12 @@ Gunakan Macadamia sebagai wallet fisik: dalam jumlah kecil saja. Sebarkan dana A
 
 
 
-Macadamia mengimplementasikan empat operasi dasar dari protokol Cashu. **Mint** mengubah satoshi Anda menjadi token melalui faktur Lightning. **Send** memungkinkan Anda mengirim token secara gratis melalui kode QR atau tautan, sepenuhnya off-chain. **Receive** memungkinkan Anda menerima token atau faktur Lightning generate. **Melebur** membayar faktur Lightning dengan menghancurkan token Anda.
+Macadamia mengimplementasikan empat operasi dasar dari protokol Cashu. **Mint** mengubah satoshi kamu menjadi token melalui faktur Lightning. **Send** memungkinkan kamu mengirim token secara gratis melalui kode QR atau tautan, sepenuhnya off-chain. **Receive** memungkinkan kamu menerima token atau faktur Lightning generate. **Melt** membayar faktur Lightning dengan menghancurkan token kamu.
 
 
 
-wallet mendukung pengelolaan beberapa mint secara bersamaan. Anda dapat menukar token di antara mint yang berbeda melalui Lightning.
+Wallet mendukung pengelolaan beberapa mint secara bersamaan. Kamu dapat menukar token di antara mint yang berbeda melalui Lightning.
+
 
 
 
@@ -63,7 +63,7 @@ Macadamia hanya tersedia di iOS 17 atau lebih tinggi untuk iPhone dan iPad. Apli
 
 
 
-Protokol Cashu menjamin interoperabilitas antar dompet. Anda bisa mengembalikan frasa seed Anda di aplikasi lain seperti Minibits di Android atau Nutstash di desktop.
+Protokol Cashu menjamin interoperabilitas antar dompet. Kamu bisa mengembalikan *seedphrase* kamu di aplikasi lain seperti Minibits di Android atau Nutstash di desktop.
 
 
 
@@ -87,7 +87,7 @@ Macadamia saat ini tersedia melalui TestFlight, program pengujian beta Apple. Be
 
 
 
-Jika Anda belum memiliki aplikasi TestFlight di perangkat Anda, cari "TestFlight" di App Store dan instal. TestFlight adalah aplikasi resmi Apple untuk menguji versi beta aplikasi iOS.
+Jika kamu belum memiliki aplikasi TestFlight di perangkat kamu, cari "TestFlight" di App Store dan instal. TestFlight adalah aplikasi resmi Apple untuk menguji versi beta aplikasi iOS.
 
 
 
@@ -95,11 +95,11 @@ Jika Anda belum memiliki aplikasi TestFlight di perangkat Anda, cari "TestFlight
 
 
 
-Setelah TestFlight terinstal, ikuti tautan undangan dari iPhone atau iPad Anda: [https://testflight.apple.com/join/RMU6PaRu](https://testflight.apple.com/join/RMU6PaRu)
+Setelah TestFlight terinstal, ikuti tautan undangan dari iPhone atau iPad kamu: [https://testflight.apple.com/join/RMU6PaRu](https://testflight.apple.com/join/RMU6PaRu)
 
 
 
-Tautan akan secara otomatis membuka TestFlight dan menawarkan Anda untuk menginstal Macadamia Wallet. Sentuh "Terima" lalu "Instal" untuk memulai pengunduhan. Aplikasi ini memiliki berat sekitar sepuluh megabyte dan hanya membutuhkan waktu beberapa detik untuk menginstal.
+Tautan akan secara otomatis membuka TestFlight dan menawarkan kamu untuk menginstal Macadamia Wallet. Sentuh "Terima" lalu "Instal" untuk memulai pengunduhan. Aplikasi ini memiliki berat sekitar sepuluh megabyte dan hanya membutuhkan waktu beberapa detik untuk menginstal.
 
 
 
@@ -111,7 +111,7 @@ Tautan akan secara otomatis membuka TestFlight dan menawarkan Anda untuk mengins
 
 
 
-Macadamia masih dalam tahap pengembangan aktif. Versi TestFlight sering diperbarui dan mungkin memperkenalkan fitur baru atau memperbaiki bug. Namun, seperti halnya versi beta lainnya, kegagalan fungsi dapat terjadi. **Kami sangat menyarankan agar Anda hanya menggunakan dalam jumlah kecil**, yang dapat hilang jika terjadi masalah teknis.
+Macadamia masih dalam tahap pengembangan aktif. Versi TestFlight sering diperbarui dan mungkin memperkenalkan fitur baru atau memperbaiki bug. Namun, seperti halnya versi beta lainnya, kegagalan fungsi dapat terjadi. **Kami sangat menyarankan agar kamu hanya menggunakan dalam jumlah kecil**, yang dapat hilang jika terjadi masalah teknis.
 
 
 
@@ -123,7 +123,8 @@ Macadamia tidak mengumpulkan data pengguna apa pun sesuai dengan kebijakan priva
 
 
 
-Saat pertama kali diluncurkan, Macadamia menghasilkan kalimat BIP-39 yang terdiri dari 12 kata. Tulislah di tempat yang aman - jangan pernah dijadikan tangkapan layar. Kata-kata ini memungkinkan Anda untuk membuat ulang wallet dan membelanjakan token Anda.
+Saat pertama kali diluncurkan, Macadamia menghasilkan kalimat BIP-39 yang terdiri dari 12 kata. Tulislah di tempat yang aman - jangan pernah dijadikan tangkapan layar. Kata-kata ini memungkinkan kamu untuk membuat ulang wallet dan membelanjakan token kamu.
+
 
 
 
@@ -139,7 +140,7 @@ Ikuti empat langkah: selamat datang, terima persyaratan, simpan kalimat seed, da
 
 
 
-Setelah konfigurasi selesai, Macadamia menampilkan tiga tab utama. **Wallet** menampilkan saldo dan riwayat transaksi Anda. **Mints** memungkinkan Anda mengelola server Cashu Anda. **Settings** memberikan akses ke pengaturan dan frasa seed Anda.
+Setelah konfigurasi selesai, Macadamia menampilkan tiga tab utama. **Wallet** menampilkan saldo dan riwayat transaksi kamu. **Mints** memungkinkan kamu mengelola server Cashu kamu. **Settings** memberikan akses ke pengaturan dan *seedphrase* kamu.
 
 
 
@@ -147,7 +148,7 @@ Setelah konfigurasi selesai, Macadamia menampilkan tiga tab utama. **Wallet** me
 
 
 
-Sekarang Anda perlu mengonfigurasi mint, yaitu server Cashu yang akan menerbitkan token Anda. Buka tab "Mints", ketuk "Add new Mint URL", dan masukkan alamat mint yang Anda pilih (mis. mint.cubabitcoin.org). Kunjungi bitcoinmints.com atau cashu.space untuk melihat mint publik yang memiliki reputasi baik. Validasi hanya mint yang reputasinya telah Anda periksa, karena mereka akan memiliki hak asuh atas satoshi Anda.
+Sekarang kamu perlu mengonfigurasi mint, yaitu server Cashu yang akan menerbitkan token kamu. Buka tab "Mints", ketuk "Add new Mint URL", dan masukkan alamat mint yang kamu pilih (mis. mint.cubabitcoin.org). Kunjungi bitcoinmints.com atau cashu.space untuk melihat mint publik yang memiliki reputasi baik. Validasi hanya mint yang reputasinya telah kamu periksa, karena mereka akan memiliki hak asuh atas satoshi kamu.
 
 
 
@@ -159,7 +160,7 @@ Sekarang Anda perlu mengonfigurasi mint, yaitu server Cashu yang akan menerbitka
 
 
 
-Untuk memberi makan wallet Macadamia Anda dengan ecash, Anda perlu melakukan operasi "Mint" (untuk membuat token). Sentuh "Terima", lalu pilih opsi "Kilat". Masukkan jumlah yang diinginkan (misalnya 1000 sats), pilih mint yang akan digunakan, lalu generate faktur Lightning.
+Untuk memberi makan wallet Macadamia kamu dengan ecash, kamu perlu melakukan operasi "Mint" (untuk membuat token). Sentuh "Receive", lalu pilih opsi "Kilat". Masukkan jumlah yang diinginkan (misalnya 1000 sats), pilih mint yang akan digunakan, lalu generate faktur Lightning.
 
 
 
@@ -175,7 +176,7 @@ Bayar faktur Lightning yang dihasilkan dengan wallet biasa (Phoenix, Zeus, BlueW
 
 
 
-Token Cashu langsung muncul di saldo Anda setelah pembayaran.
+Token Cashu langsung muncul di saldo kamu setelah pembayaran.
 
 
 
@@ -199,7 +200,7 @@ Bagikan kode QR atau teks yang dihasilkan melalui iMessage, Signal, atau Telegra
 
 
 
-Untuk menerima token Cashu yang dikirim oleh pengguna lain, sentuh "Terima" lalu pilih "Ecash". Pindai kode QR token atau tempelkan tautan token yang Anda terima.
+Untuk menerima token Cashu yang dikirim oleh pengguna lain, sentuh "Terima" lalu pilih "Ecash". Pindai kode QR token atau tempelkan tautan token yang kamu terima.
 
 
 
@@ -215,7 +216,7 @@ Sentuh "Redeem" untuk mengklaim token.
 
 
 
-Untuk membayar faktur Lightning dengan token Cashu Anda, sentuh "Kirim" lalu pilih "Lightning". Tempelkan faktur BOLT11 yang ingin Anda bayar.
+Untuk membayar faktur Lightning dengan token Cashu kamu, sentuh "Kirim" lalu pilih "Lightning". Tempelkan faktur BOLT11 yang ingin Anda bayar.
 
 
 
@@ -223,7 +224,7 @@ Untuk membayar faktur Lightning dengan token Cashu Anda, sentuh "Kirim" lalu pil
 
 
 
-Mint menghancurkan token Anda dan mengeksekusi pembayaran Lightning. Jadi, Anda bisa membayar layanan Lightning apa pun sambil menjaga anonimitas Anda.
+Mint menghancurkan token kamu dan mengeksekusi pembayaran Lightning. Jadi, kamu bisa membayar layanan Lightning apa pun sambil menjaga anonimitas Anda.
 
 
 
@@ -231,7 +232,7 @@ Mint menghancurkan token Anda dan mengeksekusi pembayaran Lightning. Jadi, Anda 
 
 
 
-Ketika Anda menerima token dari mint yang belum Anda konfigurasikan, Macadamia menawarkan beberapa opsi untuk mengelola token ini.
+Ketika kamu menerima token dari mint yang belum kamu konfigurasikan, Macadamia menawarkan beberapa opsi untuk mengelola token ini.
 
 
 
@@ -239,7 +240,7 @@ Ketika Anda menerima token dari mint yang belum Anda konfigurasikan, Macadamia m
 
 
 
-Tambahkan mint baru atau tukar token ke mint yang sudah ada. Swap menggunakan Lightning sebagai jembatan untuk mentransfer dana Anda secara anonim.
+Tambahkan mint baru atau tukar token ke mint yang sudah ada. Swap menggunakan Lightning sebagai jembatan untuk mentransfer dana kamu secara anonim.
 
 
 
@@ -247,7 +248,7 @@ Tambahkan mint baru atau tukar token ke mint yang sudah ada. Swap menggunakan Li
 
 
 
-Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan dan mengalokasikan dana Anda secara strategis.
+Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan dan mengalokasikan dana kamu secara strategis.
 
 
 
@@ -255,7 +256,7 @@ Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan
 
 
 
-"Bagikan Dana" secara otomatis mendistribusikan saldo Anda berdasarkan persentase (misalnya 50/50). "Transfer" memungkinkan transfer manual antar mint untuk mendiversifikasi risiko Anda.
+"Bagikan Dana" secara otomatis mendistribusikan saldo kamu berdasarkan persentase (misalnya 50/50). "Transfer" memungkinkan transfer manual antar mint untuk mendiversifikasi risiko kamu.
 
 
 
@@ -269,10 +270,10 @@ Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan
 
 
 
-- Kerahasiaan maksimum**: Transaksi yang tidak dapat dilacak, bahkan oleh mint. Tidak ada metadata blockchain, pertukaran peer-to-peer tanpa jejak.
-- Cepat dan gratis**: Transfer instan gratis dalam sekejap, ideal untuk pembayaran mikro.
-- Interoperabilitas**: token Cashu yang terstandarisasi untuk digunakan dengan dompet lain yang kompatibel (Minibits, Nutstash).
-- Kesederhanaan**: Interface iOS native dapat diakses oleh pemula namun tetap dapat diaudit (open source).
+- **Kerahasiaan maksimum**: Transaksi yang tidak dapat dilacak, bahkan oleh mint. Tidak ada metadata blockchain, pertukaran peer-to-peer tanpa jejak.  
+- **Cepat dan gratis**: Transfer instan gratis dalam sekejap, ideal untuk pembayaran mikro.  
+- **Interoperabilitas**: *Token* Cashu yang terstandarisasi untuk digunakan dengan dompet lain yang kompatibel (Minibits, Nutstash).  
+- **Kesederhanaan**: Interface iOS native dapat diakses oleh pemula namun tetap dapat diaudit (open source).
 
 
 
@@ -282,11 +283,10 @@ Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan
 
 
 
-- Model kustodian**: diperlukan kepercayaan mint. Jika mint menghilang, token Anda akan kehilangan nilainya.
-- hanya untuk iOS**: Tidak ada versi Android/desktop. Interoperabilitas Cashu memungkinkan akses melalui dompet lain, tetapi pengalaman optimal tetap di iOS.
-- Ketergantungan terhadap Mint**: Mint offline = tidak dapat melakukan transaksi yang membutuhkan intervensinya (Mint, Melt).
-- Teknologi yang sedang berkembang**: Pengembangan aktif, kemungkinan bug, standar yang terus berkembang.
-
+- **Model kustodian**: diperlukan kepercayaan mint. Jika mint menghilang, token kamu akan kehilangan nilainya.  
+- **Hanya untuk iOS**: Tidak ada versi Android/desktop. Interoperabilitas Cashu memungkinkan akses melalui dompet lain, tetapi pengalaman optimal tetap di iOS.  
+- **Ketergantungan terhadap Mint**: Mint offline = tidak dapat melakukan transaksi yang membutuhkan intervensinya (Mint, Melt).  
+- **Teknologi yang sedang berkembang**: Pengembangan aktif, kemungkinan bug, standar yang terus berkembang.
 
 
 ## Praktik terbaik
@@ -295,12 +295,12 @@ Macadamia menawarkan alat canggih untuk mengelola beberapa mint secara bersamaan
 
 
 
-- Diversifikasi koin Anda**: Sebarkan chip Anda di beberapa mint terkemuka untuk mengurangi risiko.
-- Jumlah batas**: Gunakan Macadamia sebagai wallet fisik untuk pembayaran harian, bukan sebagai brankas.
-- Amankan seed** Anda: Simpan frasa 12 kata Anda di atas kertas di tempat yang aman. Lakukan uji coba pemulihan sesekali.
-- Periksa mint**: Konsultasikan dengan cashu.space dan forum komunitas sebelum menambahkan mint. Pilihlah yang memiliki waktu aktif yang baik dan reputasi yang baik.
-- VPN atau Tor**: Sembunyikan IP Anda dengan VPN/Tor untuk memaksimalkan privasi jaringan.
-- Bergabunglah dengan komunitas**: Grup Telegram/Discord Cashu untuk mendapatkan informasi terbaru, rekomendasi mint, dan praktik terbaik.
+- **Diversifikasi koin kamu**: Sebarkan chip kamu di beberapa mint terkemuka untuk mengurangi risiko.  
+- **Jumlah batas**: Gunakan Macadamia sebagai wallet fisik untuk pembayaran harian, bukan sebagai brankas.  
+- **Amankan *seed*** kamu: Simpan frasa 12 kata kamu di atas kertas di tempat yang aman. Lakukan uji coba pemulihan sesekali.  
+- **Periksa mint**: Konsultasikan dengan cashu.space dan forum komunitas sebelum menambahkan mint. Pilihlah yang memiliki waktu aktif yang baik dan reputasi yang baik.  
+- **VPN atau Tor**: Sembunyikan IP kamu dengan VPN/Tor untuk memaksimalkan privasi jaringan.  
+- **Bergabunglah dengan komunitas**: Grup Telegram/Discord Cashu untuk mendapatkan informasi terbaru, rekomendasi mint, dan praktik terbaik.
 
 
 
@@ -313,6 +313,7 @@ Macadamia Wallet membawa sifat-sifat uang tunai fisik ke Bitcoin digital. Dengan
 
 
 Model kustodian menuntut kewaspadaan dan praktik keamanan yang baik. Jika digunakan dengan benar, Macadamia menjadi alat yang sangat berharga untuk pembayaran sehari-hari yang membutuhkan anonimitas, melengkapi dompet non-kustodian untuk tabungan.
+
 
 
 

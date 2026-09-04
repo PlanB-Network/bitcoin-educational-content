@@ -1,16 +1,17 @@
 ---
 name: Bitkit Wallet
 
-description: Menyiapkan penyimpanan mandiri On-Chain dan Lightning Wallet Anda
+description: Menyiapkan penyimpanan mandiri On-Chain dan Lightning Wallet kamu
 ---
 
 ![cover](assets/cover.webp)
 
 
-Bitkit (https://www.bitkit.to) adalah Wallet kustodian mandiri yang sederhana namun kuat. Bayar siapa saja, di mana saja, kapan saja.
+Bitkit (https://www.bitkit.to) adalah wallet kustodian mandiri yang sederhana namun kuat. Bayar siapa saja, di mana saja, kapan saja.
 
 
-Bitkit adalah Wallet seluler kustodian mandiri yang memberdayakan Anda untuk mengambil Ownership yang sebenarnya dari Bitcoin Anda sehingga Anda dapat membelanjakan uang sesuai keinginan Anda. Disempurnakan dengan fitur-fitur yang menonjol dan desain yang ramping, Bitkit membuka pembayaran instan kepada siapa pun, kapan pun, di mana pun. Semua itu sepenuhnya bersifat open-source sehingga dapat diaudit oleh siapa saja.
+Bitkit adalah wallet seluler kustodian mandiri yang memberdayakan kamu untuk mengambil kepemilikan yang sebenarnya atas Bitcoin kamu sehingga kamu dapat membelanjakan uang sesuai keinginan kamu. Disempurnakan dengan fitur-fitur yang menonjol dan desain yang ramping, Bitkit membuka pembayaran instan kepada siapa pun, kapan pun, di mana pun. Semua itu sepenuhnya bersifat open-source sehingga dapat diaudit oleh siapa saja.
+
 
 
 ![video](https://www.youtube.com/watch?v=D5iH1AElHIY)
@@ -25,22 +26,23 @@ video tutorial di atas adalah panduan komprehensif berdurasi 20 menit untuk Domp
 Bitkit sangat mudah digunakan.
 
 
-Sebagai Bitcoin Wallet yang lengkap, Bitkit menyertakan semua fungsi yang Anda harapkan:
+Sebagai bitcoin wallet yang lengkap, Bitkit menyertakan semua fungsi yang kamu harapkan:
 
 
-Pembayaran Instan: Tidak perlu lagi berpindah-pindah dompet untuk transaksi On-Chain dan Lightning. Bitkit memadukan keduanya dengan mulus.
+Pembayaran Instan: Tidak perlu lagi berpindah-pindah wallet untuk transaksi on-chain dan Lightning. Bitkit memadukan keduanya dengan mulus.
 
 
-Manajemen Saldo: Transfer dana dengan mudah antara rekening tabungan dan rekening pengeluaran Anda untuk memastikan Anda selalu memiliki kapasitas yang cukup untuk pembayaran instan.
+Manajemen Saldo: Transfer dana dengan mudah antara rekening tabungan dan rekening pengeluaran kamu untuk memastikan kamu selalu memiliki kapasitas yang cukup untuk pembayaran instan.
 
 
-Frasa Pemulihan: Kembalikan saldo tabungan Anda pada Wallet apa pun yang mendukung BIP 39.
+Seed phrase: Pulihkan saldo tabungan kamu pada wallet apa pun yang mendukung BIP39.
 
 
-Pencadangan Otomatis: Data yang tidak sensitif dari Wallet Anda dicadangkan secara otomatis sehingga Anda selalu dapat memulihkan saldo pengeluaran Anda.
+Pencadangan Otomatis: Data yang tidak sensitif dari wallet kamu dicadangkan secara otomatis sehingga kamu selalu dapat memulihkan saldo pengeluaran kamu.
 
 
-Riwayat Transaksi Terperinci: Tetapkan kontak dan tandai transaksi Anda agar tetap teratur.
+Riwayat Transaksi Terperinci: Tetapkan kontak dan tandai transaksi kamu agar tetap teratur.
+
 
 
 ![image](assets/en/01.webp)
@@ -49,25 +51,26 @@ Riwayat Transaksi Terperinci: Tetapkan kontak dan tandai transaksi Anda agar tet
 Bitkit juga menawarkan kemampuan unik yang membedakannya:
 
 
-Kontak Terhutang: Ucapkan selamat tinggal pada menanyakan alamat atau faktur. Cukup tambahkan teman ke daftar kontak Anda dan bayar mereka.
+Kontak Terhubung: Ucapkan selamat tinggal pada menanyakan alamat atau invoice. Cukup tambahkan teman ke daftar kontak kamu dan bayar mereka.
 
 
-Widget Langsung: Tambahkan sentuhan kesenangan dan kegunaan pada layar beranda Wallet Anda dengan widget yang menarik.
+Widget Langsung: Tambahkan sentuhan kesenangan dan kegunaan pada layar beranda wallet kamu dengan widget yang menarik.
 
 
-Profil Sosial: Kendalikan profil publik dan tautan Anda, sehingga kontak Anda dapat menghubungi dan membayar Anda kapan saja.
+Profil Sosial: Kendalikan profil publik dan tautan kamu, sehingga kontak kamu dapat menghubungi dan membayar kamu kapan saja.
 
 
 Akun Tanpa Kata Sandi: Masuk ke situs web yang mendukung autentikasi Slashtag atau Lightning.
 
 
-QuickPay: Tetapkan batas khusus untuk pembayaran Lightning di bawah $50, dan Invoice di bawahnya akan langsung dibayarkan-tanpa gesek, tanpa penundaan. Sempurna untuk membeli kopi atau membagi tagihan.
+QuickPay: Tetapkan batas khusus untuk pembayaran Lightning di bawah $50, dan invoice di bawahnya akan langsung dibayarkan, tanpa gesek, tanpa penundaan. Sempurna untuk membeli kopi atau membagi tagihan.
 
 
 Berbelanja: Bayar Netflix, Airbnb, bahan makanan, data seluler, dan banyak lagi, dengan Bitcoin, langsung di dalam Bitkit.
 
 
 Tidak ada bank. Tidak ada gesekan.
+
 
 
 ![image](assets/en/02.webp)
@@ -88,7 +91,7 @@ Cari "BitKit" dan pastikan Anda melihat ikon merek resmi berwarna oranye.
 Ketuk Dapatkan atau Instal, lalu Buka setelah pengunduhan selesai.
 
 
-Tip: Jika Anda menemukan aplikasi penipu, periksa kembali penerbitnya. BitKit diterbitkan oleh Synonym Software Ltd.
+Tip: Jika kamu menemukan aplikasi penipu, periksa kembali penerbitnya. BitKit diterbitkan oleh Synonym Software Ltd.
 
 
 
@@ -104,10 +107,10 @@ Ketuk Mulai untuk memulai alur orientasi.
 Abaikan Restore Wallet untuk saat ini; kita akan membuat Wallet baru.
 
 
-### 3. Cadangkan Wallet seed Anda
+### 3. Cadangkan Wallet seed kamu
 
 
-BitKit bersifat self custodial, sehingga frasa seed yang terdiri dari dua belas kata adalah satu-satunya metode pemulihan Anda.
+BitKit bersifat self-custodial, sehingga seed phrase yang terdiri dari dua belas kata adalah satu-satunya metode pemulihan kamu.
 
 
 Ketuk Back Up Now (Cadangkan Sekarang) saat diminta.
@@ -119,7 +122,8 @@ Tuliskan kedua belas kata tersebut di atas kertas dan simpan secara offline di t
 Konfirmasikan kata-kata saat diminta, lalu ketuk Simpan.
 
 
-Peringatan: Kehilangan seed, kehilangan koin Anda. Tidak ada tombol reset.
+Peringatan: Kehilangan seed phrase berarti kehilangan koin kamu. Tidak ada tombol reset.
+
 
 
 ### 4. Rekening Tabungan vs. Rekening Pengeluaran
@@ -128,7 +132,7 @@ Peringatan: Kehilangan seed, kehilangan koin Anda. Tidak ada tombol reset.
 BitKit secara otomatis membuat dua akun:
 
 
-Tabungan: Bitcoin dasar Layer
+Tabungan: Bitcoin layer dasar
 
 
 Transfer yang lebih besar, lebih lambat, dan lebih aman
@@ -170,7 +174,7 @@ Masukkan jumlah (misalnya, 10.000 Sats) dan ketuk Lanjutkan.
 BitKit akan memperkirakan biaya untuk membuka saluran (persyaratan likuiditas).
 
 
-Ketuk Lanjutkan ke generate a Petir Invoice.
+Ketuk Lanjutkan ke generate a Lightning Invoice.
 
 
 Biarkan pengirim memindai atau menempelkan Invoice. Dana masuk dalam hitungan detik.
@@ -180,7 +184,7 @@ Biarkan pengirim memindai atau menempelkan Invoice. Dana masuk dalam hitungan de
 ### 7. Kirim Pembayaran Kilat
 
 
-Ketuk ikon Pindai, pindai Lightning Invoice, atau tempelkan.
+Ketuk ikon Pindai, pindai Lightning invoice, atau tempelkan.
 
 
 Masukkan jumlah jika diperlukan, lalu ketuk Lanjutkan.
@@ -189,10 +193,10 @@ Masukkan jumlah jika diperlukan, lalu ketuk Lanjutkan.
 Tinjau biaya dan tambahkan label opsional untuk pembukuan.
 
 
-Geser ke Bayar, masukkan PIN Anda, dan selesai.
+Geser ke Bayar, masukkan PIN kamu, dan selesai.
 
 
-Rincian transaksi, termasuk biaya dan Timestamp, muncul di feed Aktivitas.
+Rincian transaksi, termasuk biaya dan timestamp, muncul di feed Aktivitas.
 
 
 ### 8. Buat Profil dan Kontak Anda
@@ -204,10 +208,10 @@ Ketuk avatar di kiri atas.
 Masukkan nama tampilan dan pilih gambar profil.
 
 
-BitKit menunjukkan kode QR pribadi Anda. Teman-teman dapat memindainya untuk menambahkan Anda.
+BitKit menunjukkan kode QR pribadi kamu. Teman-teman dapat memindainya untuk menambahkan kamu.
 
 
-Menerima atau menolak permintaan untuk mengizinkan kontak membayar Anda.
+Menerima atau menolak permintaan untuk mengizinkan kontak membayar kamu.
 
 
 Setelah kontak ditambahkan, cukup ketuk namanya di Kontak untuk mengirim atau meminta Sats.
@@ -230,7 +234,8 @@ Fakta Bitcoin - trivia seukuran gigitan untuk pemula.
 Kalkulator - mengonversi antara Sats dan fiat secara instan.
 
 
-Widget Cuaca - menunjukkan "cuaca" biaya jaringan, yang mengindikasikan waktu yang baik untuk transaksi On-Chain (cerah berarti kemacetan rendah).
+Widget Cuaca - menunjukkan "cuaca" biaya jaringan, yang mengindikasikan waktu yang baik untuk transaksi on-chain (cerah berarti kemacetan rendah).
+
 
 
 
@@ -262,7 +267,7 @@ Quick Pay mengonfirmasi secara otomatis faktur Lightning di bawah batas khusus (
 Buka Pengaturan → Umum → Bayar Cepat.
 
 
-Tetapkan ambang batas Anda dan aktifkan sakelar.
+Tetapkan ambang batas kamu dan aktifkan sakelar.
 
 
 Pembelian kecil seperti kopi tidak lagi memerlukan gesekan.
@@ -295,22 +300,22 @@ Apa yang dimaksud dengan Saluran?
 Saluran adalah terowongan dua pihak yang menampung likuiditas, dibagi menjadi:
 
 
-Keluar - Bitcoin Anda, yang digunakan untuk mengirim.
+Keluar - Bitcoin kamu, yang digunakan untuk mengirim.
 
 
-Masuk - rekanan Bitcoin, wajib diterima.
+Masuk - Bitcoin rekanan, wajib diterima.
 
 
-Transfer dari Tabungan ke Pembelanjaan
+Transfer dari Tabungan ke Pengeluaran
 
 
-Buka Tabungan, ketuk Transfer ke Pembelanjaan.
+Buka Tabungan, ketuk Transfer ke Pengeluaran.
 
 
 Masukkan jumlah (misalnya, 25.000 ₿) dan ketuk Lanjutkan.
 
 
-Setujui biaya dan tunggu konfirmasi transaksi On-Chain.
+Setujui biaya dan tunggu konfirmasi transaksi on-chain.
 
 
 Setelah terbuka, saldo pengeluaran dan kapasitas penerimaan akan diperbarui.
@@ -319,13 +324,13 @@ Setelah terbuka, saldo pengeluaran dan kapasitas penerimaan akan diperbarui.
 Melihat atau Menutup Saluran
 
 
-Pengaturan → Tingkat Lanjut → Koneksi Petir
+Pengaturan → Tingkat Lanjut → Koneksi Lightning
 
 
 Ketuk koneksi untuk melihat status, saldo, dan biaya.
 
 
-Gulir ke Tutup Koneksi jika Anda ingin menutupnya dan mengembalikan dana ke Tabungan.
+Gulir ke Tutup Koneksi jika kamu ingin menutupnya dan mengembalikan dana ke Tabungan.
 
 
 Catatan: Untuk alasan regulasi, total likuiditas di BitKit dibatasi sekitar sembilan ratus sembilan puluh euro senilai Bitcoin.
@@ -349,7 +354,7 @@ Mata Uang Lokal - beralih dari USD ke mata uang fiat utama lainnya di Pengaturan
 ## Selamat
 
 
-Anda telah menginstal BitKit, mengamankan seed Anda, menguasai pembayaran Lightning, dan bahkan membeli kartu hadiah pertama Anda. Desain BitKit membuat alat Bitcoin yang kuat terasa intuitif, namun Anda selalu memegang kuncinya. Unduh BitKit hari ini dan masuklah ke dalam Bitcoin Ownership yang sesungguhnya. Pertanyaan atau masukan? Hubungi tim BitKit di media sosial atau melalui tautan dukungan dalam aplikasi.
+Kamu telah menginstal BitKit, mengamankan seed phrase kamu, menguasai pembayaran Lightning, dan bahkan membeli kartu hadiah pertama kamu. Desain BitKit membuat alat Bitcoin yang kuat terasa intuitif, namun kamu selalu memegang kuncinya. Unduh BitKit hari ini dan masuklah ke dalam kepemilikan Bitcoin yang sesungguhnya. Pertanyaan atau masukan? Hubungi tim BitKit di media sosial atau melalui tautan dukungan dalam aplikasi.
 
 
 **Catatan tentang membeli atau menjual Bitcoin**: Bitkit tidak mendukung pembelian dan penjualan Bitcoin. Untuk membeli atau menjual, gunakan bursa seperti Bitfinex, lalu kirim ke atau dari Bitkit.

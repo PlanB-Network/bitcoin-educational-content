@@ -22,15 +22,11 @@ Ginger Wallet adalah perangkat lunak wallet untuk komputer saja (tidak ada aplik
 
 
 
-**coinjoin** adalah struktur transaksi Bitcoin khusus yang menyatukan beberapa peserta dalam satu transaksi kolaboratif. Mekanisme ini menggabungkan entri dari beberapa pengguna yang berbeda ke dalam sebuah transaksi yang sama, sehingga sangat sulit - bahkan tidak mungkin, jika dilakukan dengan benar - untuk melacak dana. Sebagai hasilnya, hampir tidak mungkin bagi pengamat luar untuk mengidentifikasi secara pasti asal dan tujuan bitcoin yang terlibat, tidak seperti pada transaksi Bitcoin konvensional.
+**coinjoin** adalah struktur transaksi Bitcoin khusus yang menyatukan beberapa peserta dalam satu transaksi kolaboratif. Mekanisme ini menggabungkan input dari beberapa pengguna berbeda ke dalam satu transaksi yang sama, sehingga sangat sulit, bahkan nyaris mustahil jika dilakukan dengan benar, untuk melacak aliran dananya. Hasilnya, hampir tidak mungkin bagi pengamat luar untuk mengidentifikasi secara pasti asal dan tujuan bitcoin yang terlibat, tidak seperti pada transaksi Bitcoin konvensional.
 
+Buat kamu sebagai pengguna, coinjoin membantu menjaga privasi. Misalnya, kalau kamu menerima donasi sebesar 10.000 sats di sebuah alamat Bitcoin, pengirim bisa melacak dana tersebut dan, dalam beberapa kasus, menyimpulkan bahwa kamu punya jumlah bitcoin yang lebih besar atau mengamati aktivitasmu. Dengan melakukan coinjoin setelah menerima 10.000 sats ini, kamu memutus kemampuan pelacakan tersebut: pengirim tidak lagi bisa memperoleh informasi apa pun tentang kamu dari pembayaran ini.
 
-
-Bagi Anda, sebagai pengguna, coinjoin membantu menjaga kerahasiaan Anda. Sebagai contoh, jika Anda menerima donasi sebesar 10.000 sats pada alamat Bitcoin, pengirim dapat melacak dana ini dan, dalam beberapa kasus, menyimpulkan bahwa Anda memiliki jumlah bitcoin yang lebih besar, atau mengamati aktivitas Anda. Dengan melakukan coinjoin setelah donasi 10.000 sats ini, Anda mematahkan kemampuan pelacakan: pengirim tidak lagi dapat memperoleh informasi apa pun tentang Anda dari pembayaran ini.
-
-
-
-Coinjoin Chaumian menawarkan tingkat keamanan yang tinggi, karena dana tetap berada di bawah kendali eksklusif pengguna setiap saat. Bahkan operator dari server koordinasi tidak dapat mengalihkan bitcoin peserta dalam keadaan apa pun. Baik pengguna maupun koordinator tidak perlu saling mempercayai: masing-masing tetap memegang kendali atas kunci pribadinya, dan hanya memiliki wewenang untuk memvalidasi transaksi. Oleh karena itu, tidak ada pihak ketiga yang dapat mengambil bitcoin Anda selama coinjoin, atau membuat hubungan langsung antara input dan output Anda.
+Coinjoin Chaumian menawarkan tingkat keamanan yang tinggi, karena dana tetap berada di bawah kendali eksklusif pengguna setiap saat. Bahkan operator server koordinasi pun tidak bisa mengalihkan bitcoin peserta dalam keadaan apa pun. Baik pengguna maupun koordinator tidak perlu saling percaya: masing-masing tetap memegang kendali atas private key mereka, dan hanya punya wewenang untuk memvalidasi transaksi. Jadi, tidak ada pihak ketiga yang bisa mengambil bitcoin kamu selama coinjoin, atau membuat hubungan langsung antara input dan output milikmu.
 
 
 
@@ -48,7 +44,7 @@ Untuk menginstal Ginger Wallet, kunjungi situs web [Ginger Wallet](https://ginge
 
 
 
-Tekan **Unduh** untuk mengunduh versi yang tepat untuk komputer Anda (Windows / MacOs / Linux).
+Tekan **Unduh** untuk mengunduh versi yang tepat untuk komputer kamu (Windows / MacOs / Linux).
 
 
 
@@ -81,7 +77,7 @@ Kemudian jalankan program instalasi.
 
 
 
-Buka Ginger Wallet, pilih bahasa yang Anda inginkan.
+Buka Ginger Wallet, pilih bahasa yang kamu inginkan.
 
 
 
@@ -89,7 +85,7 @@ Buka Ginger Wallet, pilih bahasa yang Anda inginkan.
 
 
 
-Sejak awal, Ginger mengingatkan Anda tentang biaya yang terlibat dalam proses coinjoin.
+Sejak awal, Ginger mengingatkan kamu tentang biaya yang terlibat dalam proses coinjoin.
 
 
 
@@ -105,7 +101,7 @@ Kemudian tekan **Mulai**, lalu **Baru** untuk membuat portofolio baru.
 
 
 
-Selanjutnya, simpan dan konfirmasikan seedphrase Anda.
+Selanjutnya, simpan dan konfirmasikan seedphrase kamu.
 
 
 
@@ -119,7 +115,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-Untuk keamanan tambahan, Ginger Wallet memberi Anda opsi untuk menambahkan passphrase.
+Untuk keamanan tambahan, Ginger Wallet memberi kamu opsi untuk menambahkan passphrase.
 
 
 
@@ -129,7 +125,7 @@ Untuk keamanan tambahan, Ginger Wallet memberi Anda opsi untuk menambahkan passp
 
 https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
-passphrase ini, setelah ditambahkan, akan diminta setiap kali Anda mencoba mengakses portofolio Anda.
+passphrase ini, setelah ditambahkan, akan diminta setiap kali kamu mencoba mengakses portofolio kamu.
 
 
 
@@ -137,7 +133,7 @@ passphrase ini, setelah ditambahkan, akan diminta setiap kali Anda mencoba menga
 
 
 
-Ginger secara otomatis mengaktifkan **Coinjoin** default ketika Anda membuat portofolio. Anda akan diberitahu tentang hal ini dan kemudian dapat menyesuaikan pengaturan agar sesuai dengan kebutuhan Anda.
+Ginger secara otomatis mengaktifkan **Coinjoin** secara default saat kamu membuat portofolio. Kamu akan diberi tahu tentang hal ini dan kemudian bisa menyesuaikan pengaturannya sesuai kebutuhanmu.
 
 
 
@@ -150,7 +146,7 @@ Ginger secara otomatis mengaktifkan **Coinjoin** default ketika Anda membuat por
 
 
 
-Setelah Anda membuat portofolio pertama Anda, Anda akan dibawa ke antarmuka Ginger Wallet.
+Setelah kamu membuat portofolio pertama, kamu akan dibawa ke antarmuka Ginger Wallet.
 
 
 
@@ -158,7 +154,7 @@ Setelah Anda membuat portofolio pertama Anda, Anda akan dibawa ke antarmuka Ging
 
 
 
-Aktifkan **Mode rahasia**, jika Anda ingin menyembunyikan saldo di dompet Anda.
+Aktifkan **Mode rahasia**, jika kamu ingin menyembunyikan saldo di dompet.
 
 
 
@@ -166,7 +162,7 @@ Aktifkan **Mode rahasia**, jika Anda ingin menyembunyikan saldo di dompet Anda.
 
 
 
-Anda dapat membuat beberapa portofolio pada Ginger Wallet. Cukup klik **Tambahkan portofolio**.
+Kamu dapat membuat beberapa portofolio pada Ginger Wallet. Cukup klik **Tambahkan portofolio**.
 
 
 
@@ -184,8 +180,8 @@ Portofolio perangkat keras yang kompatibel termasuk (tetapi tidak terbatas pada)
 
 
 - Blockstream Jade
-- Kartu dingin MK4
-- Kartu dingin Q
+- Coldcard MK4
+- Coldcard Q
 - Ledger Nano S Plus
 - Ledger Nano X
 - Trezor Model T
@@ -202,11 +198,11 @@ Sekarang klik **Pengaturan**.
 
 
 
-Pengaturan ini adalah pengaturan aplikasi secara umum, dan konfigurasi yang Anda buat di sana akan berlaku untuk semua portofolio.
+Pengaturan ini adalah pengaturan aplikasi secara umum, dan konfigurasi yang kamu buat di sana akan berlaku untuk semua portofolio.
 
 
 
-Dalam **Pengaturan**, Anda memiliki tab :
+Dalam **Pengaturan**, kamu memiliki tab :
 
 
 
@@ -226,7 +222,7 @@ Dalam **Pengaturan**, Anda memiliki tab :
 
 
 
-Di tab ini, Anda dapat mengubah bahasa, mata uang, dan unit tampilan biaya (BTC/Satoshi), di antaranya.
+Di tab ini, kamu dapat mengubah bahasa, mata uang, dan unit tampilan biaya (BTC/Satoshi), di antaranya.
 
 
 
@@ -240,7 +236,7 @@ Di tab ini, Anda dapat mengubah bahasa, mata uang, dan unit tampilan biaya (BTC/
 
 
 
-Tab ini memungkinkan Anda mengaktifkan Bitcoin Knots untuk berjalan pada saat aplikasi dijalankan, memilih jaringan Anda (Main/RegTest), dan penyedia tarif pengisian daya Anda (Mempool Space/Blockstream info/Full Node), dll.
+Tab ini memungkinkan kamu mengaktifkan Bitcoin Knots agar berjalan saat aplikasi dijalankan, memilih jaringan yang kamu gunakan (Main/RegTest), serta penyedia fee rate (Mempool Space/Blockstream info/Full Node), dan lain-lain.
 
 
 
@@ -254,7 +250,7 @@ Tab ini memungkinkan Anda mengaktifkan Bitcoin Knots untuk berjalan pada saat ap
 
 
 
-Pada tab Keamanan, Anda bisa mengaktifkan autentikasi dua faktor, mengaktifkan atau menonaktifkan Tor, dan bahkan menonaktifkannya setelah aplikasi Ginger ditutup.
+Di tab Keamanan, kamu bisa mengaktifkan autentikasi dua faktor, mengaktifkan atau menonaktifkan Tor, dan bahkan mengaturnya agar dinonaktifkan setelah aplikasi Ginger ditutup.
 
 
 
@@ -267,26 +263,18 @@ Pada tab Keamanan, Anda bisa mengaktifkan autentikasi dua faktor, mengaktifkan a
 
 
 
-- Untuk autentikasi dua faktor, pastikan aplikasi autentikasi Anda mendukung protokol SHA256 dan kode 8 digit. Ginger Wallet memerlukan kode 2FA 8 digit untuk meningkatkan keamanan. Format yang lebih panjang ini membuat kode lebih sulit ditebak atau dikompromikan, sehingga memberikan perlindungan yang lebih besar terhadap akses yang tidak sah.
-- Secara default, semua lalu lintas jaringan Ginger melewati Tor, sehingga tidak memerlukan konfigurasi manual. Jika Tor sudah aktif di sistem Anda, Ginger akan secara otomatis memberikan prioritas.
+- Untuk autentikasi dua faktor, pastikan aplikasi autentikasi kamu mendukung protokol SHA256 dan kode 8 digit. Ginger Wallet memerlukan kode 2FA 8 digit untuk meningkatkan keamanan. Format yang lebih panjang ini membuat kode lebih sulit ditebak atau dikompromikan, sehingga memberi perlindungan lebih besar terhadap akses yang tidak sah.
+- Secara default, semua lalu lintas jaringan Ginger melewati Tor, jadi tidak perlu konfigurasi manual. Jika Tor sudah aktif di sistem kamu, Ginger akan otomatis memprioritaskannya.
 
+Tetapi setelah kamu menonaktifkan Tor di pengaturan, privasimu secara umum tetap terjaga, kecuali dalam dua situasi:
 
+- selama Coinjoin, koordinator bisa menghubungkan input dan output kamu ke alamat IP kamu;
+- saat menyiarkan transaksi, node berbahaya yang terhubung denganmu bisa mengaitkan transaksi kamu dengan IP kamu.
 
-Tetapi setelah Anda menonaktifkan Tor dalam pengaturan, privasi Anda secara umum tetap terjaga, kecuali dalam dua situasi:
+Jangan lupa tekan **Done** (di sudut kanan bawah) setiap kali untuk menyimpan pengaturan kamu. Beberapa pengaturan mengharuskan Ginger Wallet dihidupkan ulang agar bisa diterapkan.
 
+Selain itu, bilah pencarian di bagian atas portofolio memungkinkan kamu mencari dan mengakses parameter apa pun, dan lain-lain...
 
-
-
-- selama Coinjoin, koordinator dapat menghubungkan input dan output Anda ke alamat IP Anda;
-- ketika menyiarkan transaksi, simpul berbahaya yang terhubung dengan Anda dapat mengaitkan transaksi Anda dengan IP Anda.
-
-
-
-Jangan lupa untuk menekan **Done** (di sudut kanan bawah) setiap kali, untuk menyimpan pengaturan Anda. Beberapa pengaturan mengharuskan Ginger Wallet dihidupkan ulang agar dapat diterapkan.
-
-
-
-Selain itu, bilah pencarian di bagian atas portofolio memungkinkan Anda mencari dan mengakses parameter apa pun, dll...
 
 
 
@@ -299,7 +287,7 @@ Selain itu, bilah pencarian di bagian atas portofolio memungkinkan Anda mencari 
 
 
 
-Beberapa portofolio dapat dibuat dalam aplikasi, sehingga setiap portofolio dapat dikonfigurasikan sesuai dengan kebutuhan Anda. Untuk melakukannya, klik **tiga titik** di depan nama portofolio, lalu **Pengaturan portofolio**.
+Beberapa portofolio dapat dibuat dalam aplikasi, sehingga setiap portofolio dapat dikonfigurasikan sesuai dengan kebutuhan kamu. Untuk melakukannya, klik **tiga titik** di depan nama portofolio, lalu **Pengaturan portofolio**.
 
 
 
@@ -307,11 +295,11 @@ Beberapa portofolio dapat dibuat dalam aplikasi, sehingga setiap portofolio dapa
 
 
 
-Seperti yang dapat Anda lihat, selain parameter wallet, Anda juga dapat melihat UTXO (daftar token yang Anda miliki), statistik, dan informasi wallet (kunci publik yang diperluas, misalnya).
+Seperti yang bisa kamu lihat, selain parameter wallet, kamu juga bisa melihat UTXO (daftar koin yang kamu miliki), statistik, dan informasi wallet (misalnya extended public key).
 
 
 
-Untuk kembali ke konfigurasi portofolio, setelah Anda mengklik parameter portofolio, Anda akan dibawa ke tab berikut:
+Untuk kembali ke konfigurasi portofolio, setelah kamu mengklik parameter portofolio, kamu akan dibawa ke tab berikut:
 
 
 
@@ -326,7 +314,7 @@ Untuk kembali ke konfigurasi portofolio, setelah Anda mengklik parameter portofo
 
 
 
-- Coinjoin** (di mana Anda dapat menyesuaikan pengaturan coinjoin untuk wallet ini);
+- Coinjoin** (di mana kamu dapat menyesuaikan pengaturan coinjoin untuk wallet ini);
 
 
 
@@ -336,7 +324,7 @@ Untuk kembali ke konfigurasi portofolio, setelah Anda mengklik parameter portofo
 
 
 
-- Tools** (di mana Anda dapat memeriksa seedphrase Anda, menyinkronkan portofolio Anda lagi, atau menghapusnya).
+- Tools** (di mana kamu dapat memeriksa seedphrase, menyinkronkan portofolio Anda lagi, atau menghapusnya).
 
 
 
@@ -353,7 +341,7 @@ Untuk kembali ke konfigurasi portofolio, setelah Anda mengklik parameter portofo
 
 
 
-Untuk menerima bitcoin di wallet Anda di Ginger Wallet:
+Untuk menerima bitcoin di wallet kamu di Ginger Wallet:
 
 
 
@@ -368,7 +356,7 @@ Untuk menerima bitcoin di wallet Anda di Ginger Wallet:
 
 
 
-- Masukkan nama sumber yang ingin Anda kaitkan dengan alamat tersebut. Ini adalah pelabelan untuk melacak pembayaran Anda. Ini tidak memiliki implikasi on-chain; ini hanyalah informasi penelusuran yang disimpan secara lokal dalam aplikasi Anda;
+- Masukkan nama sumber yang ingin kamu kaitkan dengan alamat tersebut. Ini adalah label untuk melacak pembayaran kamu. Ini tidak punya implikasi on-chain; ini hanya informasi penelusuran yang disimpan secara lokal di aplikasi kamu;
 
 
 
@@ -380,7 +368,7 @@ https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 
 
-- klik tanda panah kecil di sebelah kiri **Generate** untuk memilih format alamat Anda (**SegWit** / **Taproot**), lalu klik **Generate**, untuk generate alamat dan kode QR.
+- klik tanda panah kecil di sebelah kiri **Generate** untuk memilih format alamat kamu (**SegWit** / **Taproot**), lalu klik **Generate**, untuk generate alamat dan kode QR.
 
 
 
@@ -388,7 +376,7 @@ https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45
 
 
 
-Alamat atau kode QR ini akan digunakan oleh pengirim untuk mengirimkan bitcoin kepada Anda.
+Alamat atau kode QR ini akan digunakan oleh pengirim untuk mengirimkan bitcoin kepada kamu.
 
 
 
@@ -426,7 +414,7 @@ Untuk melakukan ini :
 
 
 
-Sangat mudah untuk membeli dan menjual Bitcoin dengan Ginger Wallet. Hanya dalam beberapa langkah, Anda bisa membelanjakan bitcoin Anda.
+Sangat mudah untuk membeli dan menjual Bitcoin dengan Ginger Wallet. Hanya dalam beberapa langkah, kamu bisa membelanjakan bitcoin.
 
 
 
@@ -454,7 +442,7 @@ Pengguna Ginger Wallet dapat membeli bitcoin.
 
 
 
-- Pilih negara Anda, atau bahkan negara bagian Anda (di beberapa wilayah, seperti Kanada), sebelum melanjutkan pembelian bitcoin. Bahkan, ketika Anda mengklik fungsi **Buy** untuk pertama kalinya, Anda juga harus menentukan wilayah Anda.
+- Pilih negaramu, atau bahkan negara bagianmu (di beberapa wilayah, seperti Kanada), sebelum melanjutkan pembelian bitcoin. Bahkan, saat kamu mengklik fungsi **Buy** untuk pertama kali, kamu juga harus menentukan wilayahmu.
 
 
 
@@ -468,13 +456,24 @@ Tekan **Lanjutkan** untuk melanjutkan proses pembelian.
 
 
 
-- Kemudian masukkan jumlah bitcoin yang ingin Anda beli di kolom khusus. Anda juga bisa memilih mata uang transaksi.
+- Kemudian masukkan jumlah bitcoin yang ingin kamu beli di kolom khusus. Kamu juga bisa memilih mata uang transaksi.
 
 
 
 ![screen](assets/fr/34.webp)
 
 
+Setiap mata uang memiliki batas pembelian minimum dan maksimum. Misalnya, dalam USD, batas maksimumnya adalah $30.000.
+
+Jika kamu sudah melakukan pembelian, kamu bisa melihat riwayat transaksi dengan mengklik tombol **Pesanan sebelumnya**. Daftar transaksi sebelumnya beserta statusnya akan ditampilkan.
+
+- Pilih penawaran yang paling sesuai untuk kamu.
+
+Pada tahap ini, kamu akan melihat daftar semua penawaran yang tersedia. Untuk setiap penawaran, kamu akan melihat:
+
+ - nama pemasok (1);
+ - jumlah bitcoin yang setara dengan nominal yang kamu masukkan sebelumnya, metode pembayaran, serta biaya pembelian (2);
+ - tombol **Terima** (3).
 
 Setiap mata uang memiliki batas pembelian minimum dan maksimum. Misalnya, dalam USD, batas maksimumnya adalah $30.000.
 
@@ -483,14 +482,11 @@ Setiap mata uang memiliki batas pembelian minimum dan maksimum. Misalnya, dalam 
 Jika Anda telah melakukan pembelian, Anda dapat melihat riwayat transaksi Anda dengan mengklik tombol **Pesanan sebelumnya**. Daftar transaksi sebelumnya dan statusnya akan ditampilkan.
 
 
-
-
-
 - Pilih penawaran yang tepat untuk Anda.
 
 
 
-Pada titik ini, Anda akan melihat daftar semua penawaran yang tersedia. Untuk setiap penawaran, Anda memiliki :
+Pada titik ini, kamu akan melihat daftar semua penawaran yang tersedia. Untuk setiap penawaran, kamu memiliki :
 
 
 
@@ -505,11 +501,9 @@ Pada titik ini, Anda akan melihat daftar semua penawaran yang tersedia. Untuk se
 
 
 
-Biaya yang tertera dalam penawaran bukan merupakan biaya tambahan. Biaya-biaya tersebut sudah termasuk dalam jumlah total penawaran.
+Biaya yang tertera dalam penawaran bukan biaya tambahan. Biaya tersebut sudah termasuk dalam jumlah total penawaran.
 
-
-
-Sudut kanan atas layar, berlabel **Semua**, memungkinkan Anda memfilter penawaran berdasarkan metode pembayaran. Metode pembayaran yang Anda pilih akan ditetapkan secara default, tetapi dapat diubah kapan saja.
+Sudut kanan atas layar, berlabel **Semua**, memungkinkan kamu memfilter penawaran berdasarkan metode pembayaran. Metode pembayaran yang kamu pilih akan ditetapkan secara default, tetapi bisa diubah kapan saja.
 
 
 
@@ -517,15 +511,11 @@ Sudut kanan atas layar, berlabel **Semua**, memungkinkan Anda memfilter penawara
 
 
 
-Jika Anda menemukan penawaran yang sesuai, klik tombol **Terima** untuk melanjutkan pembelian. Anda akan diarahkan ke halaman penjual, di mana Anda dapat menyelesaikan transaksi.
-
-
+Jika kamu menemukan penawaran yang sesuai, klik tombol **Terima** untuk melanjutkan pembelian. Kamu akan diarahkan ke halaman penjual, tempat kamu bisa menyelesaikan transaksi.
 
 ### Menjual bitcoin
 
-
-
-Pengguna Ginger Wallet dapat menjual Bitcoin. Tombol **Jual** hanya akan terlihat jika ada dana yang tersedia dalam portofolio.
+Pengguna Ginger Wallet bisa menjual Bitcoin. Tombol **Jual** hanya akan terlihat jika ada dana yang tersedia di portofolio.
 
 
 
@@ -541,36 +531,20 @@ Pengguna Ginger Wallet dapat menjual Bitcoin. Tombol **Jual** hanya akan terliha
 
 
 
-- Seperti halnya opsi **Beli**, ketika Anda menggunakan fungsi Jual untuk pertama kalinya, Anda harus memilih negara Anda sebelum melanjutkan penjualan bitcoin.
+- Sama seperti opsi **Beli**, saat kamu menggunakan fungsi **Jual** untuk pertama kalinya, kamu harus memilih negaramu sebelum melanjutkan penjualan bitcoin.
 
+- Selanjutnya, kamu perlu memasukkan jumlah Bitcoin yang ingin kamu jual. Kamu bisa memasukkan jumlah ini dalam BTC atau mata uang fiat seperti dolar AS (USD).
 
+- Setelah selesai, kamu akan melihat daftar penawaran yang tersedia. Pilih penawaran penjualan yang sesuai untuk kamu, lalu klik **Terima** untuk melanjutkan.
 
+- Sekarang kamu perlu menyelesaikan transaksi:
+ - Setelah menerima penawaran, kamu akan diarahkan ke halaman pemasok;
+ - Ikuti petunjuk di halaman pemasok;
+ - Pada tahap tertentu, kamu akan menerima alamat penerima dan jumlah yang harus dikirim;
+ - Lalu kembali ke Ginger Wallet untuk melanjutkan proses;
+ - Setelah kembali ke Ginger Wallet, kotak dialog akan muncul, memungkinkan kamu melanjutkan dengan mengeklik **Kirim**.
 
-
-- Selanjutnya, Anda perlu memasukkan jumlah Bitcoin yang ingin Anda jual. Anda bisa memasukkan jumlah ini dalam BTC atau mata uang fiat seperti dolar AS (USD).
-
-
-
-
-
-- Setelah Anda selesai melakukannya, Anda akan melihat daftar penawaran yang tersedia. Pilih penawaran penjualan yang sesuai untuk Anda, lalu klik **Terima** untuk melanjutkan.
-
-
-
-
-
-- Sekarang Anda perlu menyelesaikan transaksi:
- - Setelah Anda menerima penawaran, Anda akan diarahkan ke halaman pemasok;
- - Ikuti petunjuk pada halaman pemasok ;
- - Pada titik tertentu, Anda akan menerima alamat penerima dan jumlah yang harus dikirim;
- - Kemudian kembali ke Ginger Wallet untuk melanjutkan proses;
- - Setelah kembali ke Ginger Wallet, kotak dialog akan muncul, memungkinkan Anda untuk melanjutkan dengan mengeklik **Kirim**.
-
-
-
-Ini akan membuka layar **Kirim** dengan alamat penerima dan jumlah yang telah diisi sebelumnya. Anda juga dapat menggunakan tombol **Kirim** pada layar beranda. Meskipun Anda dapat mengirim transaksi secara manual, kami sarankan Anda menyelesaikannya melalui kotak dialog untuk proses yang lebih optimal.
-
-
+Ini akan membuka layar **Kirim** dengan alamat penerima dan jumlah yang sudah terisi otomatis. Kamu juga bisa menggunakan tombol **Kirim** di layar beranda. Meskipun kamu bisa mengirim transaksi secara manual, kami menyarankan untuk menyelesaikannya melalui kotak dialog agar prosesnya lebih optimal.
 
 ## Membuat coinjoin pada Ginger Wallet
 
@@ -580,60 +554,35 @@ Ini akan membuka layar **Kirim** dengan alamat penerima dan jumlah yang telah di
 
 
 
-Lindungi kerahasiaan bitcoin Anda dengan **Coinjoin**, yang terintegrasi langsung ke dalam Ginger Wallet. wallet menggunakan **WabiSabi**, protokol coinjoin Chaumian yang dirancang untuk memfasilitasi coinjoin yang lebih mudah diakses dan efisien.
+Lindungi privasi bitcoin kamu dengan **Coinjoin**, yang terintegrasi langsung ke dalam Ginger Wallet. Wallet ini menggunakan **WabiSabi**, protokol coinjoin Chaumian yang dirancang untuk memfasilitasi coinjoin yang lebih mudah diakses dan efisien.
 
+Kamu bebas memilih strategi coinjoin (otomatis atau manual) yang paling sesuai untukmu.
 
+Ginger Coinjoin siap digunakan segera setelah kamu mengunduhnya, tanpa langkah tambahan. Secara otomatis, Ginger Coinjoin berjalan di latar belakang untuk melindungi privasimu pada setiap transaksi. Dalam praktiknya, pemutar Coinjoin akan muncul setiap kali kamu memiliki saldo yang bisa dianonimkan.
 
-Terserah Anda untuk memilih strategi coinjoin (otomatis atau manual) yang paling sesuai untuk Anda.
+Untuk memulai coinjoin secara manual, prosesnya hanya satu klik. Mulai putaran dan tunggu hingga transaksi coinjoin dibuat dan dikonfirmasi. Kamu akan melihat skor anonimisasi di antarmuka.
 
+Beberapa campuran bisa dilakukan hingga tingkat anonimitas yang kamu inginkan tercapai. Kamu juga bisa mengecualikan bagian tertentu dari campuran.
 
+Secara default, Ginger menggunakan koordinatornya sendiri dengan semua parameter yang sudah dikonfigurasi sebelumnya dan biaya yang dijamin. Coinjoin dengan nilai lebih dari 0,03 BTC dikenakan biaya koordinator sebesar 0,3% selain biaya mining. Input sebesar 0,03 BTC atau kurang, serta remix, dibebaskan dari biaya koordinator, bahkan setelah satu transaksi. Karena itu, pembayaran yang dilakukan dengan dana Coinjoin memungkinkan pengirim dan penerima mencampur koin mereka tanpa dikenakan biaya koordinator.
 
-Ginger Coinjoin siap digunakan segera setelah Anda mengunduhnya (tidak ada langkah tambahan yang diperlukan). Secara otomatis, Ginger Coinjoin berjalan di latar belakang untuk melindungi privasi Anda dengan setiap transaksi. Dalam praktiknya, pemutar Coinjoin akan muncul setiap kali Anda memiliki saldo yang dapat dianonimkan.
-
-
-
-Sedangkan untuk memulai coinjoin secara manual, ini adalah operasi satu klik. Mulai putaran dan tunggu hingga transaksi coinjoin dibuat dan dikonfirmasi. Anda akan melihat skor anonimisasi di antarmuka.
-
-
-
-Beberapa campuran dapat dilakukan sampai tingkat anonimitas yang diinginkan tercapai. Anda juga dapat mengecualikan bagian tertentu dari campuran.
-
-
-
-Secara default, Ginger menggunakan koordinatornya sendiri dengan semua parameter yang telah dikonfigurasi sebelumnya dan biaya yang dijamin. Coinjoin token yang bernilai lebih dari 0,03 BTC dikenakan biaya koordinator 0,3% sebagai tambahan dari biaya mining. Entri 0,03 BTC atau kurang, serta remix, dibebaskan dari biaya koordinator, bahkan setelah satu transaksi. Oleh karena itu, pembayaran yang dilakukan dengan dana Coinjoin memungkinkan pengirim dan penerima untuk mencampur koin mereka tanpa dikenakan biaya koordinator.
-
-
-
-Ginger lebih memilih coinjoin dengan lebih banyak peserta daripada putaran yang lebih kecil dan lebih cepat. Coinjoin yang lebih besar menawarkan lebih banyak anonimitas, biaya yang lebih rendah, dan efisiensi ruang blok yang lebih besar.
-
-
-
+Ginger lebih mengutamakan coinjoin dengan lebih banyak peserta dibanding putaran yang lebih kecil dan cepat. Coinjoin yang lebih besar menawarkan anonimitas lebih tinggi, biaya lebih rendah, dan efisiensi ruang blok yang lebih baik.
 
 ## Keselamatan dan praktik terbaik
 
+Keinginan untuk desentralisasi dan menjaga privasi menuntut penerapan beberapa praktik terbaik:
 
+- Selalu simpan seedphrase kamu di tempat yang aman dan offline;
+- Jika kamu kehilangan komputer atau mencurigai ada akses tidak sah, segera buat wallet baru. Pindahkan dana kamu ke wallet baru tersebut dan hapus wallet lama;
+- Gunakan alamat berbeda untuk setiap penerimaan agar tidak terjadi address reuse;
+- Selalu unduh aplikasi wallet kamu hanya dari akun GitHub resmi atau situs web resmi.
 
-Keinginan untuk desentralisasi dan pelestarian privasi memerlukan adopsi beberapa praktik terbaik:
+Sekarang kamu sudah terbiasa menggunakan aplikasi Ginger Wallet untuk mengirim, menerima, dan membelanjakan bitcoin kamu.
 
+Kalau kamu merasa tutorial ini bermanfaat, silakan tinggalkan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini melalui platform media sosial kamu. Terima kasih banyak!
 
+Aku juga menyarankan kamu untuk melihat tutorial tentang cara menggunakan aplikasi desktop Liana untuk mengirim dan menerima bitcoin, serta mengimplementasikan rencana waris otomatis.
 
-
-- Selalu simpan seedphrase Anda di tempat yang aman di luar jaringan;
-- Jika Anda kehilangan komputer atau mencurigai adanya akses yang tidak sah, segera buat wallet yang baru. Transfer dana Anda ke portofolio baru ini dan hapus portofolio lama;
-- Gunakan alamat yang berbeda untuk setiap resepsi untuk menghindari penggunaan ulang alamat;
-- Selalu unduh aplikasi portofolio Anda secara eksklusif dari akun GitHub resmi atau situs web resmi.
-
-
-
-Sekarang Anda sudah terbiasa menggunakan aplikasi Ginger Wallet untuk mengirim, menerima, dan membelanjakan bitcoin Anda.
-
-
-
-Jika Anda merasa tutorial ini bermanfaat, silakan tinggalkan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini melalui platform media sosial Anda. Terima kasih banyak!
-
-
-
-Saya juga menyarankan Anda untuk melihat tutorial ini tentang cara menggunakan aplikasi komputer Liana untuk mengirim dan menerima bitcoin, serta mengimplementasikan rencana real estat otomatis.
 
 
 

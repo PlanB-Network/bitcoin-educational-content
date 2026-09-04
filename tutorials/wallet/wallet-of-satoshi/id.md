@@ -6,7 +6,7 @@ description: Kustodian Wallet paling sederhana untuk memulai
 
 ---
 
-*Perhatian: sejak awal tahun 2026, Wallet of Satoshi dalam mode kustodian (sebagaimana disajikan dalam tutorial ini) tidak lagi dapat diakses di dalam Uni Eropa. Jika Anda tinggal di wilayah ini dan ingin terus menggunakan alat ini, Anda harus menggunakan VPN yang berlokasi di luar UE. Opsi lain adalah menggunakan Wallet of Satoshi dalam mode self-custodial. Tutorial khusus akan segera diterbitkan di Plan ₿ Academy.*
+*Perhatian: sejak awal tahun 2026, Wallet of Satoshi dalam mode kustodian (sebagaimana disajikan dalam tutorial ini) tidak lagi dapat diakses di dalam Uni Eropa. Jika kamu tinggal di wilayah ini dan ingin terus menggunakan alat ini, kamu harus menggunakan VPN yang berlokasi di luar UE. Opsi lain adalah menggunakan Wallet of Satoshi dalam mode self-custodial. Tutorial khusus akan segera diterbitkan di Plan ₿ Academy.*
 
 ---
 
@@ -21,22 +21,17 @@ Wallet dari Satoshi adalah Lightning Network Wallet, kustodian, dan sangat mudah
 Untuk keperluan kursus [BTC105 - Menemukan Sekarang](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), voucher ini digunakan untuk Redeem Lightning Network.
 
 
-**Selalu ingat**: _bukan kunci Anda, bukan koin Anda_
+**Selalu ingat**: _bukan kunci kamu, bukan koin kamu_
 
-
-Dompet kustodian tidak mengizinkan pengguna untuk mengontrol penuh dana mereka. Dompet ini biasanya tidak direkomendasikan, kecuali untuk pemula. WoS sebaiknya digunakan sebagai Wallet transisi atau untuk menyimpan uang saku, bukan untuk akumulasi dana jangka panjang.
-
+Dompet kustodian tidak mengizinkan pengguna untuk mengontrol penuh dana mereka. Dompet ini biasanya tidak direkomendasikan, kecuali untuk pemula. WoS sebaiknya dipakai sebagai wallet transisi atau untuk menyimpan uang saku, bukan untuk akumulasi dana jangka panjang.
 
 ---
 
-Wallet dari Satoshi (WoS) adalah produk kustodian, tetapi memiliki reputasi tertentu. Kami dapat menggunakan alat seperti WoS, misalnya, untuk meningkatkan kemampuan kami dalam menerima likuiditas. Kita mendelegasikan sementara kepada WoS "pekerjaan kotor" mengelola likuiditas saluran untuk kita. Setelah jumlah tertentu tercapai, kami akan mengosongkan WoS On-Chain ke Wallet non-kustodian kami.
-
+Wallet dari Satoshi (WoS) adalah produk kustodian, tetapi punya reputasi tertentu. Kita bisa pakai alat seperti WoS, misalnya, untuk meningkatkan kemampuan dalam menerima likuiditas. Kita mendelegasikan sementara ke WoS "pekerjaan kotor" mengelola likuiditas saluran untuk kita. Setelah jumlah tertentu tercapai, kita akan mengosongkan WoS on-chain ke wallet non-kustodian kita.
 
 **WARNING⚠️: Dianjurkan untuk membaca tutorial secara keseluruhan sebelum melanjutkan**
 
-
 ### Mengunduh Wallet dari Satoshi
-
 
 Buka Play Store dan unduh WoS
 
@@ -50,7 +45,7 @@ Buka Play Store dan unduh WoS
 ![image](assets/it/02.webp)
 
 
-Wallet dari Satoshi terbuka dengan layar berikut ini, dan Anda perlu mengklik _Start_
+Wallet dari Satoshi terbuka dengan layar berikut ini, dan kamu perlu mengklik _Start_
 
 
 ![image](assets/it/03.webp)
@@ -59,18 +54,17 @@ Wallet dari Satoshi terbuka dengan layar berikut ini, dan Anda perlu mengklik _S
 ### Mendaftarkan Akun untuk WoS
 
 
-Pada titik ini, Wallet sudah beroperasi, tetapi untuk keamanan yang lebih baik, kami melanjutkan untuk menyiapkan login: ini akan diperlukan untuk memulihkan dana jika terjadi kerusakan atau kehilangan perangkat. Oleh karena itu, pilih menu di kiri atas.
+Pada titik ini, Wallet sudah beroperasi, tetapi untuk keamanan yang lebih baik, kami melanjutkan untuk menyiapkan login: ini akan diperlukan untuk memulihkan dana jika terjadi kerusakan atau kehilangan perangkat. Karena itu, pilih menu di kiri atas.
 
 
 ![image](assets/it/04.webp)
 
 
-Seluruh jendela menu akan terbuka, di mana Anda harus secara eksklusif menetapkan mata uang (Wallet pada Satoshi secara default menampilkan dolar AS sebagai mata uang referensi) dan warna tema (terang/gelap), sesuai selera. Jangan gunakan perintah lainnya.
+Seluruh jendela menu akan terbuka, di mana kamu harus secara eksklusif menetapkan mata uang (Wallet di Satoshi secara default menampilkan dolar AS sebagai mata uang referensi) dan warna tema (terang/gelap) sesuai selera. Jangan pakai perintah lainnya.
 
+Karena WoS adalah alat kustodian, kita tidak bisa mencadangkan wallet dengan seedphrase, tetapi kita bisa mengaktifkan WoS untuk memulihkan dana kita jika terjadi kehilangan atau tidak digunakannya perangkat seluler, dengan klik _Login/Daftar_.
 
-Karena WoS adalah alat kustodian, kita tidak dapat mencadangkan Wallet dengan frasa Mnemonic, tetapi kita dapat mengaktifkan WoS untuk memulihkan dana kita, jika terjadi kehilangan atau tidak digunakannya perangkat seluler, dengan mengeklik _Login/Daftar_
-
-Sebuah jendela muncul meminta kita memasukkan email Address. Email ini dapat berupa email Proton (disarankan), tetapi harus berfungsi, karena ini akan memungkinkan kami untuk memulihkan dana di Wallet jika terjadi kehilangan/pencurian atau kerusakan pada ponsel.
+Sebuah jendela muncul yang meminta kita memasukkan email address. Email ini bisa berupa email Proton (disarankan), tetapi harus aktif, karena ini akan memungkinkan kita memulihkan dana di wallet jika terjadi kehilangan, pencurian, atau kerusakan pada ponsel.
 
 
 ![image](assets/it/08.webp)
@@ -161,7 +155,7 @@ untuk kemudian mendapatkan pembayaran Invoice. Pembayaran yang diterima akan mun
 ### Pengambilan dari POS
 
 
-Wallet dari Satoshi memiliki fitur default, yang membuatnya sangat cocok untuk pedagang: POS. Mari kita lihat cara mengaktifkannya.
+Wallet dari Satoshi memiliki fitur default, yang membuatnya sangat cocok untuk pedagang: POS. Yuk kita lihat cara mengaktifkannya.
 
 
 Dari layar utama, pilih menu di kanan atas.
@@ -181,7 +175,7 @@ Dengan rilis terbaru WoS, pastikan untuk memilih _Keypad_.
 
 ![image](assets/it/22.webp)
 
-lalu ketik jumlahnya pada keypad, dalam contoh berikut ini sama dengan 10 sen / 118 Sats. Tambahkan deskripsi untuk koleksi, dalam hal ini "koleksi saya yang kedua dengan POS". Tombol Green yang besar akan menyala, dan harus diklik
+lalu ketik jumlahnya pada keypad, dalam contoh berikut ini sama dengan 10 sen / 118 Sats. Tambahkan deskripsi untuk koleksi, dalam hal ini "koleksi saya yang kedua dengan POS". Tombol Green yang besar akan menyala, dan itu harus diklik
 
 ![image](assets/it/23.webp)
 
@@ -219,8 +213,7 @@ Mulai saat ini, kamera akan aktif
 ![image](assets/it/28.webp)
 
 
-Dengan membingkai Invoice, kami melihat bahwa pembayaran sebesar 210 Sats telah diminta. Deskripsi juga terbaca, jika pemohon telah menetapkannya. Layar ini adalah ringkasan dan juga permintaan konfirmasi: WoS "meminta otorisasi" untuk mengirim pembayaran, yang diberikan dengan mengklik tombol Green _Send_
-
+Dengan memindai invoice, kita bisa melihat bahwa pembayaran sebesar 210 sats telah diminta. Deskripsi juga akan terlihat kalau pembuatnya sudah menetapkannya. Layar ini adalah ringkasan sekaligus permintaan konfirmasi: WoS "meminta otorisasi" untuk mengirim pembayaran, yang bisa kamu setujui dengan klik tombol hijau _Send_.
 
 ![image](assets/it/29.webp)
 
@@ -240,17 +233,14 @@ Dari layar utama, klik _History_ (tepat di bawah saldo), daftar transaksi akan m
 #### Memulihkan akun WoS
 
 
-Sekarang, kita akan melihat bagaimana cara menginstal WoS pada perangkat baru; ini juga akan berguna jika terjadi pencurian, kehilangan, atau ketidakmampuan untuk mengoperasikan ponsel tempat Wallet diinstal sebelumnya. Setelah terinstal ulang, Anda harus mengulangi prosedur pendaftaran akun yang baru saja dijelaskan, dengan satu varian: di akhir permintaan untuk masuk dengan email yang telah ditetapkan sebelumnya, WoS akan muncul seperti ini:
-
+Sekarang, kita akan lihat bagaimana cara menginstal WoS di perangkat baru. Ini juga berguna kalau terjadi pencurian, kehilangan, atau kamu tidak bisa lagi pakai ponsel tempat wallet sebelumnya terpasang. Setelah terinstal ulang, kamu harus mengulang prosedur pendaftaran akun yang baru saja dijelaskan, dengan satu perbedaan: di akhir permintaan untuk masuk dengan email yang sudah kamu tetapkan sebelumnya, WoS akan muncul seperti ini:
 
 ![image](assets/it/33.webp)
 
 
-Sebuah pesan memperingatkan kita bahwa sebuah email telah dikirim dengan prosedur untuk mengaktifkan kembali akun. Anda harus membuka kotak masuk email Anda.
+Sebuah pesan muncul memperingatkan kita bahwa email telah dikirim dengan prosedur untuk mengaktifkan kembali akun. Kamu harus buka kotak masuk email kamu.
 
-
-**PENTING**: buka email dari PC atau, dalam hal apa pun, dari perangkat yang berbeda dari perangkat yang akan Anda gunakan untuk memulihkan akun WoS. Di kotak masuk, kami menemukan pesan yang menunjukkan kepada kami kode QR untuk dibingkai
-
+**PENTING**: buka email dari PC atau, setidaknya dari perangkat yang berbeda dari perangkat yang akan kamu pakai untuk memulihkan akun WoS. Di kotak masuk, kita akan menemukan pesan yang menunjukkan kode QR untuk dipindai.
 
 ![image](assets/it/34.webp)
 

@@ -1,6 +1,6 @@
 ---
 name: Coin Wallet
-description: Tutorial tentang Coin Wallet dan cara-cara untuk meningkatkan privasi dan keamanan
+description: Tutorial tentang Coin Wallet dan berbagai cara untuk meningkatkan privasi dan keamanan
 ---
 
 ![cover](assets/cover.webp)
@@ -77,7 +77,7 @@ wallet dibuat menggunakan passphrase - urutan acak 12 kata yang dipisahkan oleh 
 Coin Wallet mendukung 12, 15, 18, 21, atau 24 kata sandi yang diimpor dari dompet lain.
 
 
-passphrase adalah bentuk yang dapat dibaca oleh manusia dari kunci pribadi utama. Ini harus disimpan dengan aman. passphrase adalah semua yang diperlukan untuk mengakses atau memulihkan wallet. Jika passphrase hilang, maka wallet dan semua dana akan hilang secara permanen. passphrase tidak boleh dibagikan. Coin Wallet tidak menyimpan kunci di server atau database mana pun.
+Passphrase adalah bentuk yang dapat dibaca manusia dari kunci privat utama. Ini harus kamu simpan dengan aman. passphrase adalah satu-satunya hal yang diperlukan untuk mengakses atau memulihkan wallet. Jika passphrase hilang, maka wallet dan semua dana akan hilang secara permanen. passphrase tidak boleh dibagikan ke siapa pun. Coin Wallet tidak menyimpan kunci apa pun di server atau database mana pun.
 
 
 **Apakah 12 kata passphrase aman?
@@ -88,7 +88,7 @@ Dengan 2048 kemungkinan kata per posisi, terdapat 2048¹² ≈ 10³⁹ kombinasi
 ![image](assets/en/02.webp)
 
 
-Setelah passphrase dituliskan dan dikonfirmasi, aplikasi akan meminta Anda untuk menetapkan **4 digit PIN** untuk akses sehari-hari. Untuk menambah kenyamanan, Anda dapat mengaktifkan autentikasi biometrik (sidik jari atau pengenalan wajah) alih-alih menggunakan PIN.
+Setelah passphrase dituliskan dan dikonfirmasi, aplikasi akan memintamu untuk membuat **4 digit PIN** untuk akses sehari-hari. Untuk menambah kenyamanan, Anda dapat mengaktifkan autentikasi biometrik (sidik jari atau pengenalan wajah) alih-alih menggunakan PIN.
 
 
 ![image](assets/en/03.webp)
@@ -124,7 +124,7 @@ Dalam penggunaan sehari-hari, PIN 4 digit sudah cukup untuk membuka kunci wallet
 
 **Kata Sandi + PIN: Cara Kerjanya**
 
-passphrase adalah kunci privat master yang sebenarnya dan berfungsi pada perangkat apa pun.
+Passphrase adalah kunci privat master yang sebenarnya dan berfungsi pada perangkat apa pun.
 
 Karena mengetik 12-24 kata setiap kali akan merepotkan, Coin Wallet menggunakan PIN 4 digit untuk akses cepat sehari-hari pada perangkat saat ini.
 
@@ -150,8 +150,8 @@ Coin Wallet mendukung ketiga format alamat Bitcoin:
 
 
 - Native SegWit (Bech32)** - dimulai dengan **bc1q** - biaya terendah, direkomendasikan
-- SegWit bersarang (P2SH)** - dimulai dengan **3**
-- Warisan (P2PKH)** - dimulai dengan **1**
+- Nested SegWit (P2SH)** - dimulai dengan **3**
+- Legacy (P2PKH)** - dimulai dengan **1**
 
 
 ![image](assets/en/04.webp)
@@ -159,10 +159,10 @@ Coin Wallet mendukung ketiga format alamat Bitcoin:
 
 **Mengapa alamat berubah setelah setiap deposit?
 
-Hal ini disengaja dan melindungi privasi. Setiap kali koin diterima, Coin Wallet secara otomatis membuat alamat baru yang tidak terpakai. Jika alamat yang sama digunakan kembali (misalnya, untuk gaji bulanan), siapa pun dapat dengan mudah menjumlahkan semua transaksi yang masuk pada penjelajah blockchain dan mengetahui total pendapatan.
+Hal ini disengaja dan bertujuan melindungi privasi kamu. Setiap kali koin diterima, Coin Wallet secara otomatis membuat alamat baru yang belum pernah digunakan. Jika alamat yang sama digunakan kembali, misalnya untuk gaji bulanan, siapa pun dapat dengan mudah menjumlahkan semua transaksi masuk di penjelajah blockchain dan mengetahui total pendapatan kamu.
 
+Alamat lama tetap berlaku selamanya, kamu masih bisa menerima pembayaran ke alamat tersebut, tetapi menggunakan alamat baru setiap kali adalah praktik privasi terbaik yang direkomendasikan.
 
-Alamat lama tetap berlaku selamanya - Anda masih bisa menerima email dari alamat tersebut - tetapi menggunakan alamat baru setiap kali adalah praktik terbaik privasi yang direkomendasikan.
 
 
 **Cara menerima Bitcoin:**
@@ -180,17 +180,18 @@ Alamat lama tetap berlaku selamanya - Anda masih bisa menerima email dari alamat
 
 Pada layar Receive yang sama, terdapat tombol `Mecto`.
 
-Saat Anda menyalakannya:
+Saat kamu menyalakannya:
 
 
-- Anda akan diminta untuk memasukkan **nickname** (nama panggilan)
-- Lokasi Anda saat ini + alamat penerimaan untuk sementara dibagikan dengan pengguna Coin Wallet lainnya yang juga mengaktifkan Mecto
-- Mereka dapat menemukan Anda di peta kecil dan mengirim koin tanpa mengetik atau memindai
+- Kamu akan diminta untuk memasukkan **nickname** (nama panggilan)
+- Lokasi kamu saat ini plus alamat penerimaan akan dibagikan sementara dengan pengguna Coin Wallet lain yang juga mengaktifkan Mecto
+- Mereka dapat menemukan kamu di peta kecil dan mengirim koin tanpa perlu mengetik atau memindai
 
 
-Data hanya dapat dilihat oleh pengguna Mecto lainnya dan secara otomatis dihapus setelah 1 jam (atau segera setelah Anda mematikannya).
+Data hanya dapat dilihat oleh sesama pengguna Mecto dan akan dihapus secara otomatis setelah 1 jam, atau segera setelah kamu mematikannya.
 
-Mecto sepenuhnya opsional - tinggalkan saja jika Anda lebih suka privasi maksimum.
+Mecto sepenuhnya opsional, jadi lewati saja jika kamu lebih memilih privasi maksimum.
+
 
 
 ![image](assets/en/05.webp)
@@ -218,13 +219,13 @@ Untuk mengirim Bitcoin:
 | **Default** | ~60 menit               | Sedang
 | **Cepat**    | ~20 menit               | Lebih tinggi
 
-5. Konfirmasi dengan 4 digit PIN Anda → transaksi disiarkan
+5. Konfirmasi dengan 4 digit PIN kamu → transaksi disiarkan
 
 
 ### Cara mempercepat transaksi ₿itcoin yang tertunda (RBF)
 
 
-Jika Anda memilih biaya lambat dan transaksi macet:
+Jika kamu merasa biaya lambat dan transaksi macet:
 
 
 1. Buka tab **History** (Riwayat)
@@ -247,7 +248,7 @@ Lebih lanjut tentang Replace-by-fee (RBF): https://bitcoinops.org/en/topics/repl
 ## 6️⃣ Mengekspor Kunci Pribadi
 
 
-**Kapan Anda benar-benar membutuhkan kunci pribadi?
+**Kapan kamu benar-benar membutuhkan kunci pribadi?
 
 (99% pengguna tidak pernah melakukannya - 12 kata passphrase sudah cukup)
 
@@ -333,7 +334,7 @@ Di dalam setiap jalur:
 - `/1` - rantai internal (mengubah alamat yang digunakan oleh wallet itu sendiri)
 
 
-Karena Coin Wallet mengikuti standar publik ini tanpa perubahan apa pun, dana Anda akan tetap dapat dipulihkan di wallet lain yang kompatibel bahkan dalam 10-20-30 tahun.
+Karena Coin Wallet mengikuti standar publik ini tanpa perubahan apa pun, dana kamu akan tetap dapat dipulihkan di wallet lain yang kompatibel bahkan dalam 10-20-30 tahun.
 
 
 ## 8️⃣ Meningkatkan Anonimitas dengan Tor
@@ -341,7 +342,7 @@ Karena Coin Wallet mengikuti standar publik ini tanpa perubahan apa pun, dana An
 
 **Mengapa menggunakan Tor di Coin Wallet**
 
-Tor menyembunyikan alamat IP asli Anda dari node Bitcoin, pertukaran, dan pengamat.
+Tor menyembunyikan alamat IP asli dari node Bitcoin, pertukaran, dan pengamat.
 
 Semua lalu lintas (saldo, transaksi, swap) melewati jaringan Tor - tidak ada koneksi langsung, tidak ada kebocoran IP.
 
@@ -381,7 +382,7 @@ Ikon **bawang Tor berwarna ungu** muncul di bilah atas → semua lalu lintas sek
 ![image](assets/en/06.webp)
 
 
-Itu saja - ponsel Anda Coin Wallet sepenuhnya anonim.
+Itu saja - ponsel kamu Coin Wallet sepenuhnya anonim.
 
 
 Nikmati manajemen kripto pribadi!
@@ -392,7 +393,7 @@ Nikmati manajemen kripto pribadi!
 
 [Coin Wallet](https://coin.space/) - salah satu pelopor Bitcoin wallet yang sesungguhnya dengan sejarah pengembangan selama 10 tahun.
 
-Ini sengaja dibuat sederhana dan tetap fokus pada misi utamanya: menyimpan mata uang kripto Anda dengan aman.
+Ini sengaja dibuat sederhana dan tetap fokus pada misi utamanya: menyimpan mata uang kripto kamu dengan aman.
 
 Tidak ada iklan, tidak ada umpan berita, tidak ada langganan, tidak ada fitur sosial, tidak ada gangguan - hanya wallet yang bersih, cepat, dan dapat menjaga diri sendiri yang melakukan apa yang seharusnya dilakukan.
 

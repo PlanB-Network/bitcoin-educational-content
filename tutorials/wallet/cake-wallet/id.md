@@ -1,6 +1,6 @@
 ---
 name: Cake Wallet
-description: Tutorial tentang Cake Wallet dan Pembayaran Diam
+description: Tutorial tentang Cake Wallet dan Silent Payment
 ---
 
 ![cover](assets/cover.webp)
@@ -13,31 +13,31 @@ Panduan ini membahas [**Cake Wallet**](https://cakewallet.com/): sebuah sumber t
 
 
 
-- [**Pembayaran Senyap (BIP-352)**](https://bips.dev/352/) meningkatkan kode pembayaran [BIP 47 sebelumnya](https://silentpayments.xyz/docs/comparing-proposals/bip47/) yang juga disebut "PayNyms" dengan alamat siluman yang dapat digunakan kembali. Ketika pengirim menggunakan alamat Silent Payment Anda, wallet mereka akan mendapatkan alamat satu kali yang unik menggunakan kunci yang berbeda yang akan digabungkan ke dalam alamat satu kali Taproot yang unik. Catatan blockchain menunjukkan transaksi yang tidak terkait, mencegah keterkaitan pembayaran yang masuk. Silent Payment menawarkan berbagai manfaat, termasuk:
-    - Alamat yang dapat digunakan kembali: Tidak perlu membuat alamat baru untuk setiap transaksi, memberikan pengalaman pengguna yang lebih baik dan meningkatkan privasi
-    - Tidak ada kenaikan biaya: Pembayaran Senyap tidak meningkatkan ukuran atau biaya transaksi.
-    - Anonimitas yang ditingkatkan: Pengamat dari luar tidak dapat menautkan transaksi ke alamat Pembayaran Senyap.
-    - Tidak diperlukan interaksi pengirim-penerima: Transaksi dapat dilakukan tanpa komunikasi apa pun di antara kedua belah pihak.
-    - Alamat unik untuk setiap pembayaran: Menghilangkan risiko penggunaan ulang alamat yang tidak disengaja.
-    - Tidak memerlukan server: Pembayaran Senyap dapat dilakukan tanpa memerlukan server khusus.
-- PayJoin v2** memitigasi analisis grafik transaksi dengan menggabungkan input dari pengirim dan penerima ke dalam satu transaksi. Cake Wallet mengimplementasikan dua kemajuan penting:
-    - Transaksi Asinkron**: Pengirim dan penerima tidak perlu lagi online secara bersamaan untuk menyelesaikan transaksi pribadi.
-    - Komunikasi Tanpa Server**: Kedua belah pihak tidak perlu menjalankan server Payjoin, sehingga menghilangkan hambatan teknis utama.
-- Kontrol Coin** memungkinkan pemilihan UTXO secara manual selama transaksi. Hal ini mencegah penautan alamat yang tidak disengaja ketika membelanjakan beberapa UTXO dengan asal yang berbeda.
-- Dukungan TOR**, memungkinkan pengguna untuk merutekan lalu lintas jaringan mereka melalui jaringan Tor
-- RBF** (Ganti-Berdasarkan.Biaya) memungkinkan Anda menyesuaikan biaya setelah mengirim transaksi.
+- [**Pembayaran Senyap (BIP-352)**](https://bips.dev/352/) meningkatkan kode pembayaran [BIP 47 sebelumnya](https://silentpayments.xyz/docs/comparing-proposals/bip47/) yang juga disebut "PayNyms" dengan alamat siluman yang dapat digunakan kembali. Ketika pengirim menggunakan alamat Silent Payment kamu, wallet mereka akan mendapatkan alamat satu kali yang unik menggunakan kunci yang berbeda yang akan digabungkan ke dalam alamat satu kali Taproot yang unik. Catatan blockchain menunjukkan transaksi yang tidak terkait, mencegah keterkaitan pembayaran yang masuk. Silent Payment menawarkan berbagai manfaat, termasuk:
+- Alamat yang dapat digunakan kembali: Tidak perlu membuat alamat baru untuk setiap transaksi, memberikan pengalaman pengguna yang lebih baik dan meningkatkan privasi
+- Tidak ada kenaikan biaya: Pembayaran Senyap tidak meningkatkan ukuran atau biaya transaksi
+- Anonimitas yang ditingkatkan: Pengamat dari luar tidak dapat menautkan transaksi ke alamat Silent Payment
+- Tidak diperlukan interaksi pengirim-penerima: Transaksi dapat dilakukan tanpa komunikasi apa pun di antara kedua belah pihak
+- Alamat unik untuk setiap pembayaran: Menghilangkan risiko penggunaan ulang alamat yang tidak disengaja
+- Tidak memerlukan server: Silent Payment dapat dilakukan tanpa memerlukan server khusus
+- **PayJoin v2** memitigasi analisis grafik transaksi dengan menggabungkan input dari pengirim dan penerima ke dalam satu transaksi. Cake Wallet mengimplementasikan dua kemajuan penting:
+  - **Transaksi Asinkron**: Pengirim dan penerima tidak perlu lagi online secara bersamaan untuk menyelesaikan transaksi pribadi
+  - **Komunikasi Tanpa Server**: Kedua belah pihak tidak perlu menjalankan server PayJoin, sehingga menghilangkan hambatan teknis utama
+- **Kontrol Coin** memungkinkan pemilihan UTXO secara manual selama transaksi. Hal ini mencegah penautan alamat yang tidak disengaja ketika membelanjakan beberapa UTXO dengan asal yang berbeda
+- **Dukungan TOR**, memungkinkan pengguna untuk merutekan lalu lintas jaringan mereka melalui jaringan Tor
+- **RBF** (Ganti-Berdasarkan-Biaya) memungkinkan kamu menyesuaikan biaya setelah mengirim transaksi
 
 
 ## 1️⃣ Menyiapkan Wallet Anda
 
 
-Cake Wallet menawarkan berbagai macam dukungan platform. Anda dapat memilih antara `Android`, `iOS / macOS`, `Linux` dan `Windows`.  Untuk memulai, kunjungi https://docs.cakewallet.com/get-started/ dan pilih sistem operasi Anda.
+Cake Wallet menawarkan berbagai macam dukungan platform. Kamu dapat memilih antara `Android`, `iOS / macOS`, `Linux` dan `Windows`.  Untuk memulai, kunjungi https://docs.cakewallet.com/get-started/ dan pilih sistem operasi kamu.
 
 
 ![image](assets/en/01.webp)
 
 
-Setelah pemasangan, tetapkan `PIN` (4 atau 6 digit). Anda kemudian akan melihat:
+Setelah pemasangan, tetapkan `PIN` (4 atau 6 digit). Kamu kemudian akan melihat:
 
 
 1. `Buat Wallet Baru` (untuk pengguna baru)
@@ -48,7 +48,7 @@ Setelah pemasangan, tetapkan `PIN` (4 atau 6 digit). Anda kemudian akan melihat:
 ![image](assets/en/02.webp)
 
 
-Pada layar berikutnya, Anda dapat memilih dari berbagai macam mata uang kripto. Pilih `Bitcoin` dan ketuk `Next` dan berikan `Nama Wallet` untuk mengidentifikasi wallet. Dengan mengetuk `Pengaturan Lanjutan`, akan muncul serangkaian `Pengaturan Privasi`. Lakukan perubahan ini:
+Pada layar berikutnya, Kamu dapat memilih dari berbagai macam mata uang kripto. Pilih `Bitcoin` dan ketuk `Next` dan berikan `Nama Wallet` untuk mengidentifikasi wallet. Dengan mengetuk `Pengaturan Lanjutan`, akan muncul serangkaian `Pengaturan Privasi`. Lakukan perubahan ini:
 
 
 
@@ -64,10 +64,11 @@ Tipe BIP-39 seed dihasilkan secara default, dengan opsi untuk mengubah ke tipe E
 - BIP-39: `m/84'/0'/0`
 
 
-Jika Anda ingin menambahkan lapisan keamanan tambahan, Anda dapat mengatur `passphrase`.  Tujuan utama dari passphrase adalah untuk memberikan perlindungan tambahan terhadap serangan fisik. Bahkan jika penyerang menemukan frasa seed, mereka tidak dapat mengakses wallet Anda tanpa passphrase yang benar. Dengan kata lain, frasa seed sendiri mewakili satu wallet, sedangkan frasa seed ditambah passphrase menciptakan wallet yang sama sekali berbeda tanpa ada hubungannya dengan yang asli. Fitur ini juga memungkinkan `dompet rahasia` yang dilindungi oleh passphrase, dan memberi Anda penyangkalan yang masuk akal. Dalam situasi yang memaksa, Anda dapat mengungkapkan frasa seed sambil menjaga aset yang lebih besar tetap aman dalam wallet yang dilindungi passphrase.
+Jika kamu ingin menambahkan lapisan keamanan tambahan, kamu dapat mengatur `passphrase`. Tujuan utama dari passphrase adalah untuk memberikan perlindungan tambahan terhadap serangan fisik. Bahkan jika penyerang menemukan seedphrase, mereka tidak dapat mengakses wallet kamu tanpa passphrase yang benar. Dengan kata lain, seedphrase sendiri mewakili satu wallet, sedangkan seedphrase ditambah passphrase menciptakan wallet yang sama sekali berbeda tanpa ada hubungannya dengan yang asli. Fitur ini juga memungkinkan `dompet rahasia` yang dilindungi oleh passphrase, dan memberi kamu penyangkalan yang masuk akal. Dalam situasi yang memaksa, kamu dapat mengungkapkan seedphrase sambil menjaga aset yang lebih besar tetap aman dalam wallet yang dilindungi passphrase.
 
 
-Jika Anda sudah menjalankan node Anda sendiri, pilih `Tambahkan Node Kustom Baru` dan berikan `Node Address` untuk memvalidasi transaksi dan blok di dalam infrastruktur Anda. Setelah selesai, tekan `Lanjutkan` dan `Next` untuk membuat wallet Anda.
+Jika kamu sudah menjalankan node kamu sendiri, pilih `Tambahkan Node Kustom Baru` dan berikan `Node Address` untuk memvalidasi transaksi dan blok di dalam infrastruktur kamu. Setelah selesai, tekan `Lanjutkan` dan `Next` untuk membuat wallet kamu.
+
 
 
 ![image](assets/en/03.webp)
@@ -84,12 +85,12 @@ On the next page you will see a series of words. This is your unique and private
 ![image](assets/en/04.webp)
 
 
-Untuk mempelajari praktik terbaik dalam menyimpan frasa mnemonik Anda, silakan baca tutorial ini:
+Untuk mempelajari praktik terbaik dalam menyimpan frasa mnemonik kamu, silakan baca tutorial ini:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-Ketuk `Saya mengerti. Tunjukkan seed saya dan simpan kata-kata ini di tempat yang aman! Kemudian ketuk `Verifikasi seed` dan setelah verifikasi `Buka Wallet`.
+Ketuk `Saya mengerti. Tunjukkan seed saya dan simpan kata-kata ini di tempat yang aman!` Kemudian ketuk `Verifikasi seed` dan setelah verifikasi `Buka Wallet`.
 
 
 ## 2️⃣ Pengaturan
@@ -104,7 +105,7 @@ Pada Layar Awal, kita dapat melihat berbagai item yang ditampilkan:
 
 - `Menu Hamburger` membawa kita ke `pengaturan`
 - Saldo yang tersedia
-- Kartu Pembayaran Senyap untuk Mulai memindai transaksi yang dikirim ke alamat Pembayaran Senyap Anda
+- Kartu Pembayaran Senyap untuk Mulai memindai transaksi yang dikirim ke alamat Pembayaran Senyap kamu
 - Kartu Payjoin untuk `Mengaktifkan` Payjoin sebagai fitur yang menjaga privasi dan menghemat biaya
 - di bagian bawah adalah Pintasan ke `Wallet Ikhtisar`, `Menerima`, `Menukar` antara Bitcoin dan mata uang lainnya, `Mengirim` dan `Membeli`
 
@@ -175,10 +176,10 @@ Pengaturan lainnya memungkinkan kami untuk mengelola prioritas biaya dan menetap
 Ada beberapa pilihan dan jenis alamat yang tersedia untuk menerima Bitcoin. `Segwit (P2WPKH)` *(dimulai dengan bc1q....)* adalah opsi default.  Mari kita pilih `Pembayaran Diam` dalam contoh ini.
 
 
-Untuk menerima Pembayaran Diam, pertama-tama ketuk ikon `Terima` di Cake Wallet. Selanjutnya, masukkan jumlah yang ingin Anda terima. Untuk menentukan jenis alamat, ketuk `Terima` sekali lagi di bagian atas layar, lalu pilih `Pembayaran Senyap` dari pilihan.
+Untuk menerima Pembayaran Diam, pertama-tama ketuk ikon `Terima` di Cake Wallet. Selanjutnya, masukkan jumlah yang ingin kamu terima. Untuk menentukan jenis alamat, ketuk `Terima` sekali lagi di bagian atas layar, lalu pilih `Pembayaran Senyap` dari pilihan.
 
 
-Pada layar utama, kode QR dan alamat Silent Payment Anda yang dapat digunakan kembali akan ditampilkan. Seperti yang diharapkan, alamatnya cukup panjang:
+Pada layar utama, kode QR dan alamat Silent Payment kamu yang dapat digunakan kembali akan ditampilkan. Seperti yang diharapkan, alamatnya cukup panjang:
 
 
 `sp1qq0ryu780uwragyk06prxn29830a9csnl3wvr4as6fwh73rzn28zzcqmc6ve36vadllfztaa403ty9et0rlzup7kt55qh486gxzrde6y27c8s6x5p` .
@@ -187,7 +188,7 @@ Pada layar utama, kode QR dan alamat Silent Payment Anda yang dapat digunakan ke
 ![image](assets/en/12.webp)
 
 
-Sekarang, gunakan wallet yang kompatibel dengan BIP-352 (seperti Wallet Biru) untuk memindai kode QR ini dan mengirim pembayaran. Anda akan melihat bahwa wallet akan mendapatkan alamat tujuan yang unik dari alamat diam Anda.
+Sekarang, gunakan wallet yang kompatibel dengan BIP-352 (seperti Wallet Biru) untuk memindai kode QR ini dan mengirim pembayaran. Kamu akan melihat bahwa wallet akan mendapatkan alamat tujuan yang unik dari alamat diam Anda.
 
 
 ![image](assets/en/13.webp)
@@ -202,7 +203,7 @@ Karena Blue Wallet hanya dapat `Mengirim` Pembayaran Diam, kami akan menggunakan
 
 - Ketuk `Kirim` pada Layar Awal
 - baik dengan menempelkan alamat `sp1qq... ` yang dapat digunakan kembali atau memindai kode QR secara langsung di dalam aplikasi.
-- Pilih jumlah yang ingin Anda belanjakan dari saldo yang tersedia
+- Pilih jumlah yang ingin kamu belanjakan dari saldo yang tersedia
 - Ketuk `Kirim` di bagian bawah layar untuk mengonfirmasi transaksi
 
 
@@ -215,10 +216,10 @@ Secara opsional, kami dapat menulis catatan internal untuk setiap transaksi, men
 ![image](assets/en/14.webp)
 
 
-geser ke kanan untuk mengonfirmasi transaksi.
+Geser ke kanan untuk mengonfirmasi transaksi.
 
 
-Setelah Anda mengirimkan transaksi, Anda akan ditanya apakah Anda ingin menambahkan kontak ini ke buku alamat Anda.
+Setelah kamu mengirimkan transaksi, kamu akan ditanya apakah ingin menambahkan kontak ini ke buku alamat kamu.
 
 
 ![image](assets/en/15.webp)
@@ -230,10 +231,11 @@ Setelah Anda mengirimkan transaksi, Anda akan ditanya apakah Anda ingin menambah
 Mari kita tinjau kembali apa itu PayJoin (https://docs.cakewallet.com/cryptos/bitcoin/#payjoin):
 
 
-_Payjoin v2 adalah fitur yang menjaga privasi dan penghematan biaya di Bitcoin yang memungkinkan pengirim dan penerima transaksi untuk bekerja sama untuk membuat satu transaksi. Transaksi ini memiliki input dari *kedua* pengirim dan penerima, mematahkan teknik pengawasan yang paling umum terhadap Bitcoin dan memungkinkan penskalaan yang lebih baik dan penghematan biaya dalam beberapa situasi
+_PayJoin v2 adalah fitur yang menjaga privasi dan penghematan biaya di Bitcoin yang memungkinkan pengirim dan penerima transaksi untuk bekerja sama membuat satu transaksi. Transaksi ini memiliki input dari *kedua* pengirim dan penerima, mematahkan teknik pengawasan yang paling umum terhadap Bitcoin dan memungkinkan penskalaan yang lebih baik serta penghematan biaya dalam beberapa situasi.
 
 
-Untuk mengetahui lebih lanjut tentang PayJoin, Anda juga dapat mengunjungi tutorial berikut ini.
+Untuk mengetahui lebih lanjut tentang PayJoin, kamu juga dapat mengunjungi tutorial berikut ini.
+
 
 
 https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
@@ -254,7 +256,7 @@ Untuk menggunakan PayJoin, kedua belah pihak memerlukan wallet yang kompatibel d
 ## 6️⃣ Fitur lainnya
 
 
-Ada beberapa fitur lain seperti `Swap` multi mata uang, opsi `Beli dan Jual` dengan koneksi vendor yang berbeda dan program khusus Cake seperti `Cake Pay`, yang memungkinkan Anda membeli kartu prabayar atau kartu hadiah.
+Ada beberapa fitur lain seperti `Swap` multi mata uang, opsi `Beli dan Jual` dengan koneksi vendor yang berbeda dan program khusus Cake seperti `Cake Pay`, yang memungkinkan kamu membeli kartu prabayar atau kartu hadiah.
 
 
 ![image](assets/en/17.webp)
@@ -263,16 +265,16 @@ Ada beberapa fitur lain seperti `Swap` multi mata uang, opsi `Beli dan Jual` den
 ## 🎯 Kesimpulan
 
 
-Ini adalah ulasan kami tentang Cake Wallet, yang menawarkan privasi Bitcoin yang praktis berkat fitur-fitur seperti Pembayaran Senyap (BIP-352) dan Payjoin v2.
+Ini adalah ulasan kami tentang Cake Wallet, yang menawarkan privasi Bitcoin yang praktis berkat fitur-fitur seperti Silent Payments (BIP-352) dan PayJoin v2.
 
 
-Silent Payments menggantikan alamat sekali pakai dengan alamat siluman yang dapat digunakan kembali untuk mencegah hubungan on-chain dari transaksi yang masuk. Meskipun masalah sinkronisasi dari versi sebelumnya telah diperbaiki, ada beberapa peningkatan persyaratan komputasi untuk memindai dan mendeteksi Pembayaran Diam yang diperlukan, yang menuntut lebih banyak sumber daya dan bandwidth.
+Silent Payments menggantikan alamat sekali pakai dengan alamat siluman yang dapat digunakan kembali untuk mencegah keterkaitan on-chain dari transaksi yang masuk. Meskipun masalah sinkronisasi dari versi sebelumnya telah diperbaiki, ada beberapa peningkatan persyaratan komputasi untuk memindai dan mendeteksi Silent Payments, yang menuntut lebih banyak sumber daya dan bandwidth.
 
 
-Payjoin v2 mengganggu analisis rantai dengan menggabungkan input pengirim dan penerima ke dalam satu transaksi tanpa biaya tambahan atau koordinasi pusat. Hal ini mematahkan heuristik kepemilikan input yang umum, yang merupakan keuntungan yang signifikan karena ini berarti Anda tidak dapat mengasumsikan bahwa semua input adalah milik pengirim.
+PayJoin v2 mengganggu analisis rantai dengan menggabungkan input pengirim dan penerima ke dalam satu transaksi tanpa biaya tambahan atau koordinasi pusat. Hal ini mematahkan heuristik kepemilikan input yang umum, yang merupakan keuntungan signifikan karena ini berarti kamu tidak dapat mengasumsikan bahwa semua input adalah milik pengirim.
 
 
-Bagi pengguna yang memprioritaskan anonimitas keuangan, Cake Wallet adalah pilihan yang layak. Ini menggabungkan protokol privasi secara langsung ke dalam fungsionalitas intinya, membuatnya dapat diakses tanpa kerumitan teknis. Seiring dengan meningkatnya pengawasan pada blockchain publik, alat seperti ini membantu menjaga privasi transaksional di tempat yang paling penting. Implementasi yang lebih luas dari standar-standar ini dalam lanskap wallet akan menjadi perkembangan yang disambut baik.
+Bagi pengguna yang memprioritaskan anonimitas keuangan, Cake Wallet adalah pilihan yang layak. Ini menggabungkan protokol privasi langsung ke dalam fungsionalitas intinya, membuatnya dapat diakses tanpa kerumitan teknis. Seiring meningkatnya pengawasan pada blockchain publik, alat seperti ini membantu menjaga privasi transaksional di tempat yang paling penting. Implementasi yang lebih luas dari standar-standar ini dalam lanskap wallet akan menjadi perkembangan yang disambut baik.
 
 
 ## 📚 Sumber Daya

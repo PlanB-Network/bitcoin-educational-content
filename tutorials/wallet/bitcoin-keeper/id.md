@@ -7,15 +7,16 @@ description: Bitcoin mobile wallet untuk keamanan dan multi-sig
 
 
 
-Pengelolaan bitcoin yang aman merupakan tantangan besar bagi setiap pemegang yang sadar akan pertaruhan yang terlibat dalam kedaulatan keuangan. Di antara kesederhanaan wallet seluler dan ketangguhan solusi multi-sig, kesenjangan teknis dapat tampak menakutkan bagi banyak pengguna. Bitcoin Keeper diposisikan tepat di persimpangan ini, menawarkan pendekatan progresif terhadap keamanan yang menyertai pengguna saat mereka berevolusi.
+Pengelolaan Bitcoin yang aman adalah tantangan besar bagi setiap pemegang yang memahami taruhan di balik kedaulatan finansial. Di antara kesederhanaan wallet mobile dan ketangguhan solusi multisig, kesenjangan teknis sering kali terasa menakutkan bagi banyak pengguna. Bitcoin Keeper diposisikan tepat di persimpangan ini, dengan menawarkan pendekatan keamanan yang progresif dan menemani pengguna seiring berkembangnya kebutuhan mereka.
 
 
 
-Bitcoin Keeper adalah aplikasi seluler sumber terbuka, yang secara eksklusif didedikasikan untuk Bitcoin, yang dikembangkan oleh tim BitHyve. Ambisinya adalah untuk membuat manajemen portofolio tingkat lanjut dapat diakses, terutama konfigurasi multisignature, dengan tetap mempertahankan antarmuka yang intuitif untuk pemula. Aplikasi ini mengadopsi slogan "Amankan hari ini, Rencanakan hari esok", yang mencerminkan filosofi dukungan jangka panjang.
+Bitcoin Keeper adalah aplikasi mobile open source yang didedikasikan secara eksklusif untuk Bitcoin, dan dikembangkan oleh tim BitHyve. Ambisinya adalah membuat manajemen portofolio tingkat lanjut, khususnya konfigurasi multisig, menjadi mudah diakses tanpa mengorbankan antarmuka yang intuitif bagi pemula. Aplikasi ini mengusung slogan "Secure today, Plan tomorrow", yang mencerminkan filosofi pendampingan jangka panjang.
 
 
 
-Tidak seperti dompet generalis yang mengelola banyak mata uang kripto, Bitcoin Keeper mempertahankan fokus yang ketat pada Bitcoin. Pendekatan khusus bitcoin ini mengurangi potensi serangan dan sangat menyederhanakan pengalaman pengguna. Aplikasi ini juga menonjol karena integrasi asli dari dompet perangkat keras yang paling luas dan fitur manajemen UTXO yang canggih.
+Berbeda dengan wallet generalis yang mengelola banyak cryptocurrency, Bitcoin Keeper mempertahankan fokus yang ketat pada Bitcoin. Pendekatan Bitcoin-only ini mengurangi permukaan serangan dan sangat menyederhanakan pengalaman pengguna. Aplikasi ini juga menonjol berkat integrasi native dengan berbagai hardware wallet terluas di ekosistem, serta fitur manajemen UTXO yang canggih.
+
 
 
 
@@ -27,11 +28,11 @@ Tidak seperti dompet generalis yang mengelola banyak mata uang kripto, Bitcoin K
 
 
 
-Bitcoin Keeper dirancang untuk memenuhi kebutuhan spesifik para pengguna bitcoin yang ingin mempertahankan kontrol penuh atas kunci pribadi mereka. Proyek ini sepenuhnya merangkul prinsip-prinsip dasar Bitcoin: kode sumber yang terbuka dan dapat diaudit, menghormati privasi, dan kedaulatan pengguna. Tidak ada registrasi atau informasi pribadi yang dibutuhkan untuk menggunakan aplikasi ini, dan bahkan dapat berjalan secara offline untuk operasi penandatanganan.
+Bitcoin Keeper dirancang untuk memenuhi kebutuhan spesifik para bitcoiner yang ingin mempertahankan kontrol penuh atas private key mereka. Proyek ini sepenuhnya merangkul prinsip-prinsip dasar Bitcoin: kode sumber yang open source dan dapat diaudit, penghormatan terhadap privasi, serta kedaulatan pengguna. Tidak ada registrasi atau data pribadi yang diperlukan untuk menggunakan aplikasi ini, dan aplikasi ini bahkan bisa berjalan secara offline untuk operasi penandatanganan.
 
 
 
-Tujuan utamanya adalah untuk menawarkan alat yang fleksibel dan tahan terhadap masa depan untuk menyimpan BTC selama beberapa tahun, dan bahkan beberapa generasi, berkat fungsi pewarisan. Aplikasi ini memungkinkan pengguna untuk memulai dengan mudah dengan wallet seluler, dan kemudian secara bertahap berevolusi menuju solusi multi-tanda tangan yang lebih aman.
+Tujuan utamanya adalah menyediakan alat yang fleksibel dan future-proof untuk menyimpan BTC selama bertahun-tahun, bahkan lintas generasi, berkat fitur perencanaan warisan. Aplikasi ini memungkinkan kamu untuk memulai dengan mudah menggunakan wallet mobile, lalu secara bertahap berevolusi menuju solusi multisig yang lebih aman seiring meningkatnya kebutuhan keamanan kamu.
 
 
 
@@ -39,7 +40,7 @@ Tujuan utamanya adalah untuk menawarkan alat yang fleksibel dan tahan terhadap m
 
 
 
-Bitcoin Keeper mengatur pengelolaan dana dengan dua konsep yang berbeda. Hot Wallet** adalah wallet dengan satu kunci sederhana, disimpan di ponsel, dirancang untuk pengeluaran sehari-hari dan dalam jumlah yang tidak terlalu besar. Vaults** adalah brankas multi-tanda tangan (Multi-Key) yang membutuhkan beberapa kunci untuk mengesahkan pengeluaran, yang dirancang untuk penyimpanan jangka panjang yang aman.
+Bitcoin Keeper mengatur pengelolaan dana dengan dua konsep yang berbeda. Hot Wallet** adalah wallet satu kunci sederhana yang disimpan di ponsel, dirancang untuk pengeluaran sehari-hari dan jumlah yang tidak terlalu besar. Vaults** adalah brankas multisig (multi-key) yang membutuhkan beberapa kunci untuk mengesahkan pengeluaran, dan ditujukan untuk penyimpanan jangka panjang yang aman.
 
 
 
@@ -47,11 +48,12 @@ Bitcoin Keeper mengatur pengelolaan dana dengan dua konsep yang berbeda. Hot Wal
 
 
 
-Bitcoin Keeper mendukung hampir semua dompet perangkat keras yang ada di pasaran: Coldcard, Trezor, Ledger, Keystone, BitBox02, Jade, Seedsigner, Passport, dan Tapsigner dari Coinkite. Integrasi dilakukan melalui berbagai metode yang berbeda, tergantung pada perangkatnya: Pemindaian kode QR, koneksi NFC, atau impor file.
+Bitcoin Keeper mendukung hampir semua hardware wallet yang tersedia di pasaran: Coldcard, Trezor, Ledger, Keystone, BitBox02, Jade, Seedsigner, Passport, dan Tapsigner dari Coinkite. Integrasi dilakukan melalui berbagai metode, tergantung pada perangkatnya, seperti pemindaian QR code, koneksi NFC, atau impor file.
 
 
 
-Aplikasi ini juga menawarkan manajemen UTXO tingkat lanjut dengan pelabelan transaksi, kontrol koin untuk memilih input secara manual saat mengirim, dan dukungan format PSBT untuk transaksi yang ditandatangani sebagian.
+Aplikasi ini juga menawarkan manajemen UTXO tingkat lanjut dengan fitur pelabelan transaksi, coin control untuk memilih input secara manual saat mengirim, serta dukungan format PSBT untuk transaksi yang ditandatangani sebagian.
+
 
 
 
@@ -59,19 +61,18 @@ Aplikasi ini juga menawarkan manajemen UTXO tingkat lanjut dengan pelabelan tran
 
 
 
-Bitcoin Keeper tersedia gratis di Android melalui Google Play Store dan iOS melalui App Store. Penerbit yang terdaftar adalah BitHyve. Sebelum menginstal, pastikan perangkat Anda bebas malware, terbaru, dan tidak di-root atau di-jailbreak.
+Bitcoin Keeper tersedia gratis di Android melalui Google Play Store dan di iOS melalui App Store. Penerbit yang terdaftar adalah BitHyve. Sebelum menginstal, pastikan perangkat kamu bebas dari malware, sudah diperbarui, dan tidak di-root atau di-jailbreak.
 
 
 
-Pada saat pertama kali diluncurkan, aplikasi akan meminta Anda untuk membuat kode PIN keamanan. Kode ini melindungi akses ke wallet Anda dan mengenkripsi data sensitif secara lokal. Pilih kode yang kuat dan hafalkan. Anda kemudian dapat mengaktifkan otentikasi biometrik (sidik jari atau ID Wajah) untuk membuka kunci yang lebih cepat.
-
+Saat pertama kali dijalankan, aplikasi akan meminta kamu untuk membuat kode PIN keamanan. Kode ini melindungi akses ke wallet kamu dan mengenkripsi data sensitif secara lokal. Pilih kode yang kuat dan pastikan kamu menghafalnya. Setelah itu, kamu dapat mengaktifkan autentikasi biometrik seperti sidik jari atau Face ID untuk proses buka kunci yang lebih cepat.
 
 
 ![Installation et configuration du PIN](assets/fr/01.webp)
 
 
 
-Aplikasi ini kemudian menyajikan beberapa layar pengantar yang menjelaskan tiga pilarnya: Pembuatan wallet untuk mengirim dan menerima bitcoin, manajemen kunci dengan kompatibilitas perangkat keras wallet, dan perencanaan warisan untuk mewariskan bitcoin. Tekan "Mulai", lalu pilih "Mulai Baru" untuk membuat konfigurasi baru.
+Aplikasi ini kemudian menampilkan beberapa layar pengantar yang menjelaskan tiga pilar utamanya: pembuatan wallet untuk mengirim dan menerima bitcoin, manajemen kunci dengan kompatibilitas hardware wallet, serta perencanaan warisan untuk mewariskan bitcoin. Tekan "Mulai", lalu pilih "Mulai Baru" untuk membuat konfigurasi baru.
 
 
 
@@ -91,27 +92,28 @@ Antarmuka Bitcoin Keeper diatur di sekitar empat tab utama yang dapat diakses da
 
 
 
-Tab **Dompet** menampilkan dompet Anda dan saldonya. Di sinilah Anda mengakses dompet Anda untuk mengirim dan menerima bitcoin. Tag "Hot Wallet" dan "Single-Key" atau "Multi-Key" memungkinkan Anda untuk dengan cepat mengidentifikasi jenis setiap wallet.
+Tab **Dompet** menampilkan wallet kamu beserta saldonya. Di sinilah kamu mengakses wallet untuk mengirim dan menerima bitcoin. Label "Hot Wallet" serta "Single-Key" atau "Multi-Key" memudahkan kamu untuk dengan cepat mengidentifikasi jenis setiap wallet.
 
 
 
-Tab **Keys** memusatkan pengelolaan kunci tanda tangan Anda. Di sini Anda akan menemukan Kunci Seluler yang dihasilkan oleh aplikasi, serta semua kunci yang diimpor dari dompet perangkat keras. Di sini juga Anda dapat menambahkan perangkat tanda tangan baru.
+Tab **Keys** memusatkan pengelolaan signing key kamu. Di sini kamu akan menemukan Mobile Key yang dihasilkan oleh aplikasi, serta semua key yang diimpor dari hardware wallet. Dari tab ini juga kamu dapat menambahkan perangkat penandatangan baru.
 
 
 
-Tab **Concierge** menawarkan layanan dukungan: kirimkan pertanyaan ke tim dukungan dan terhubung dengan penasihat Bitcoin untuk mendapatkan bantuan yang disesuaikan.
+Tab **Concierge** menawarkan layanan dukungan. Kamu bisa mengirim pertanyaan ke tim support dan terhubung dengan penasihat Bitcoin untuk mendapatkan bantuan yang disesuaikan dengan kebutuhan kamu.
 
 
 
-Tab **Lebih Banyak** (Opsi Lainnya) memberikan akses ke pengaturan seperti koneksi server pribadi, cadangan kunci, dokumen warisan, preferensi tampilan dan manajemen wallet.
+Tab **Lebih Banyak** (Opsi Lainnya) memberikan akses ke berbagai pengaturan, seperti koneksi ke server pribadi, backup key, dokumen warisan, preferensi tampilan, serta manajemen wallet.
 
 
 
-## Koneksi ke server Anda sendiri
+
+## Koneksi ke server sendiri
 
 
 
-Untuk memperkuat kerahasiaan Anda, Bitcoin Keeper memungkinkan Anda menghubungkan aplikasi ke server Electrum Anda sendiri, daripada menggunakan server publik default.
+Untuk meningkatkan privasi kamu, Bitcoin Keeper memungkinkan kamu menghubungkan aplikasi ke server Electrum milik kamu sendiri, alih-alih menggunakan server publik bawaan.
 
 
 
@@ -119,15 +121,16 @@ Untuk memperkuat kerahasiaan Anda, Bitcoin Keeper memungkinkan Anda menghubungka
 
 
 
-Dari tab Lainnya, gulir ke bawah untuk menemukan pengaturan server. Tekan "Add Server" untuk mengonfigurasi koneksi baru. Anda dapat memilih antara "Public Server" (server publik yang telah dikonfigurasi sebelumnya) dan "Private Electrum" (server Anda sendiri).
+Dari tab **Lainnya**, gulir ke bawah untuk menemukan pengaturan server. Tekan "Add Server" untuk mengonfigurasi koneksi baru. Kamu dapat memilih antara "Public Server" (server publik yang sudah dikonfigurasi sebelumnya) dan "Private Electrum" (server milik kamu sendiri).
 
 
 
-Untuk server pribadi, masukkan URL (misalnya umbrel.local untuk node Umbrel) dan nomor port (biasanya 50001). Aktifkan SSL jika server Anda mendukungnya. Anda juga dapat memindai kode QR konfigurasi. Setelah Anda memasukkan parameter, tekan "Hubungkan ke Server".
+Untuk server pribadi, masukkan URL, misalnya umbrel.local untuk node Umbrel, serta nomor port, biasanya 50001. Aktifkan SSL jika server kamu mendukungnya. Kamu juga dapat memindai QR code konfigurasi. Setelah semua parameter dimasukkan, tekan "Hubungkan ke Server".
 
 
 
-Jika Anda belum memiliki simpul Bitcoin Anda sendiri, lihatlah tutorial kami tentang Umbrel, cara sederhana dan terjangkau untuk memintal simpul Anda sendiri:
+Jika kamu belum memiliki node Bitcoin sendiri, lihat tutorial kami tentang Umbrel, solusi yang sederhana dan terjangkau untuk menjalankan node kamu sendiri:
+
 
 
 
@@ -137,7 +140,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-Dari tab Dompet, pilih wallet dari mana Anda ingin menerima dana dengan menekannya. Layar wallet akan menampilkan saldo dan tiga tombol aksi: Kirim Bitcoin, Terima Bitcoin, dan Lihat Semua Koin.
+Dari tab Dompet, pilih wallet tempat kamu ingin menerima dana dengan menekannya. Layar wallet akan menampilkan saldo serta tiga tombol aksi: Kirim Bitcoin, Terima Bitcoin, dan Lihat Semua Koin.
 
 
 
@@ -145,11 +148,11 @@ Dari tab Dompet, pilih wallet dari mana Anda ingin menerima dana dengan menekann
 
 
 
-Tekan "Terima Bitcoin". Bitcoin Keeper menghasilkan alamat penerimaan baru dalam format Bech32 (dimulai dengan bc1...), bersama dengan kode QR-nya. Anda bisa menambahkan label pada alamat ini untuk mengidentifikasi sumber dana. Bagikan alamat dengan pengirim dengan menampilkan kode QR atau menyalin alamat teks.
+Tekan "Terima Bitcoin". Bitcoin Keeper akan menghasilkan alamat penerimaan baru dalam format Bech32, yang dimulai dengan bc1, beserta QR code-nya. Kamu dapat menambahkan label pada alamat ini untuk mengidentifikasi sumber dana. Bagikan alamat tersebut kepada pengirim dengan menampilkan QR code atau menyalin alamat teksnya.
 
 
 
-Aplikasi ini secara otomatis menghasilkan alamat baru untuk setiap penerimaan, menjaga privasi Anda. Gunakan "Dapatkan Address Baru" untuk mendapatkan alamat kosong jika perlu.
+Aplikasi ini secara otomatis membuat alamat baru untuk setiap penerimaan guna menjaga privasi kamu. Gunakan "Dapatkan Address Baru" jika kamu perlu menghasilkan alamat kosong tambahan.
 
 
 
@@ -157,7 +160,7 @@ Aplikasi ini secara otomatis menghasilkan alamat baru untuk setiap penerimaan, m
 
 
 
-Bitcoin Keeper menawarkan visibilitas lengkap dari UTXO (Hasil Transaksi yang Tidak Digunakan) yang membentuk saldo Anda. Dari layar wallet, tekan "Lihat Semua Koin" untuk mengakses manajer sudut.
+Bitcoin Keeper menawarkan visibilitas lengkap dari UTXO (Hasil Transaksi yang Tidak Digunakan) yang membentuk saldo kamu. Dari layar wallet, tekan "Lihat Semua Koin" untuk mengakses manajer sudut.
 
 
 
@@ -165,7 +168,7 @@ Bitcoin Keeper menawarkan visibilitas lengkap dari UTXO (Hasil Transaksi yang Ti
 
 
 
-Layar "Kelola Koin" mencantumkan setiap UTXO satu per satu dengan jumlah dan labelnya. Tampilan ini memungkinkan Anda untuk melacak asal koin dan mengaturnya. Anda bisa memilih UTXO tertentu melalui "Pilih untuk Dikirim" untuk dikirim dengan kontrol koin, sehingga menghindari pencampuran koin dari sumber yang berbeda.
+Layar "Kelola Koin" menampilkan setiap UTXO satu per satu beserta jumlah dan labelnya. Tampilan ini memungkinkan kamu melacak asal-usul koin dan mengelolanya dengan lebih baik. Kamu dapat memilih UTXO tertentu melalui opsi "Pilih untuk Dikirim" untuk menggunakan coin control saat mengirim, sehingga menghindari pencampuran koin dari sumber yang berbeda.
 
 
 
@@ -181,7 +184,7 @@ Untuk mengirim, pilih portofolio sumber dan tekan "Kirim Bitcoin". Masukkan alam
 
 
 
-Layar berikutnya memungkinkan Anda untuk memasukkan jumlah yang akan dikirim. Antarmuka menampilkan saldo yang tersedia dan konversi mata uang fiat. Pilih prioritas biaya: Rendah (ekonomis, ~60 menit), Sedang, atau Tinggi (prioritas). Perkiraan biaya dalam sats/vbyte ditampilkan secara real time. Tekan "Kirim" untuk melanjutkan.
+Layar berikutnya memungkinkan kamu memasukkan jumlah yang akan dikirim. Antarmuka menampilkan saldo yang tersedia serta konversi ke mata uang fiat. Pilih prioritas biaya: Rendah (ekonomis, sekitar 60 menit), Sedang, atau Tinggi (prioritas). Perkiraan biaya dalam sats/vbyte ditampilkan secara real time. Tekan "Kirim" untuk melanjutkan.
 
 
 
@@ -189,7 +192,7 @@ Layar berikutnya memungkinkan Anda untuk memasukkan jumlah yang akan dikirim. An
 
 
 
-Layar ringkasan menampilkan semua rincian: Sumber wallet, alamat tujuan, prioritas transaksi, biaya jaringan, jumlah yang dikirim, dan total. Mohon periksa informasi ini dengan cermat, karena transaksi Bitcoin tidak dapat dibatalkan. Tekan "Konfirmasi & Kirim" untuk mengirim transaksi.
+Layar ringkasan menampilkan semua detail transaksi: wallet sumber, alamat tujuan, prioritas transaksi, biaya jaringan, jumlah yang dikirim, dan totalnya. Pastikan kamu memeriksa semua informasi ini dengan cermat, karena transaksi Bitcoin tidak dapat dibatalkan. Tekan "Konfirmasi & Kirim" untuk mengirim transaksi.
 
 
 
@@ -201,7 +204,7 @@ Konfirmasi "Kirim Berhasil" akan muncul dengan ringkasan lengkap. Transaksi dapa
 
 
 
-Mencadangkan Kunci Pemulihan Anda adalah langkah penting. Dari tab Lainnya, buka bagian "Pencadangan dan Pemulihan" dan klik "Kunci Pemulihan".
+Mencadangkan Kunci Pemulihan adalah langkah penting. Dari tab Lainnya, buka bagian "Pencadangan dan Pemulihan" dan klik "Kunci Pemulihan".
 
 
 
@@ -209,11 +212,13 @@ Mencadangkan Kunci Pemulihan Anda adalah langkah penting. Dari tab Lainnya, buka
 
 
 
-Layar menampilkan status cadangan Anda. Untuk memverifikasi cadangan Anda, aplikasi meminta Anda mengonfirmasi kata tertentu dalam frasa Anda (mis. kata ke-7). Verifikasi ini memastikan bahwa Anda telah menuliskan frasa pemulihan dengan benar.
+Layar ini menampilkan status cadangan kamu. Untuk memverifikasi cadangan tersebut, aplikasi akan meminta kamu mengonfirmasi kata tertentu dalam seedphrase kamu, misalnya kata ke-7. Verifikasi ini memastikan bahwa kamu telah mencatat seedphrase dengan benar.
 
 
 
-Dari "Pengaturan Kunci Pemulihan", Anda dapat melihat frasa lengkap Anda melalui "Lihat Kunci Pemulihan" dan melihat Sidik Jari Penandatangan kunci Anda. Simpan frasa 12 kata Anda di atas kertas, di tempat yang aman, jauh dari kelembapan dan api. Jangan pernah menyimpannya di perangkat yang terhubung.
+Dari menu "Pengaturan Kunci Pemulihan", kamu dapat melihat seedphrase lengkap melalui opsi "Lihat Kunci Pemulihan", serta melihat fingerprint signing key kamu. Simpan seedphrase 12 kata kamu di atas kertas, di tempat yang aman, jauh dari kelembapan dan api. Jangan pernah menyimpannya di perangkat yang terhubung ke internet.
+``
+
 
 
 
@@ -237,7 +242,7 @@ Pilih "Tambahkan kunci dari perangkat keras" untuk menghubungkan perangkat keras
 
 
 
-Tapsigner adalah kartu NFC dari Coinkite yang sangat cocok untuk penggunaan seluler. Jika Anda ingin mempelajari lebih lanjut, kami memiliki tutorial khusus:
+Tapsigner adalah kartu NFC dari Coinkite yang sangat cocok untuk penggunaan seluler. Jika kamu ingin mempelajari lebih lanjut, kami memiliki tutorial khusus:
 
 
 
@@ -251,7 +256,7 @@ Untuk menambahkan Tapsigner, pilih dari daftar dompet perangkat keras.
 
 
 
-Pertama, masukkan kode PIN 6-32 digit yang tercetak di bagian belakang kartu Anda (standar pada kartu baru), atau PIN Anda jika sudah dikonfigurasi. Tekan "Lanjutkan", lalu dekatkan Tapsigner ke bagian belakang ponsel Anda ketika "Siap untuk memindai" ditampilkan. Komunikasi NFC secara otomatis mengimpor kunci publik. Anda kemudian dapat menambahkan deskripsi (misalnya "Kartu Metro") untuk mengidentifikasi kunci ini.
+Pertama, masukkan PIN 6 hingga 32 digit yang tercetak di bagian belakang kartu kamu, ini adalah standar pada kartu baru, atau PIN kamu jika sudah dikonfigurasi sebelumnya. Tekan "Lanjutkan", lalu dekatkan Tapsigner ke bagian belakang ponsel kamu saat pesan "Siap untuk memindai" ditampilkan. Komunikasi NFC akan secara otomatis mengimpor public key. Setelah itu, kamu dapat menambahkan deskripsi, misalnya "Kartu Metro", untuk memudahkan identifikasi kunci ini.
 
 
 
@@ -259,7 +264,7 @@ Pertama, masukkan kode PIN 6-32 digit yang tercetak di bagian belakang kartu And
 
 
 
-Setelah Anda mengatur kunci Anda, Anda bisa membuat wallet multi-tanda tangan yang menggabungkan beberapa perangkat. Dari tab Dompet, klik "Tambahkan Wallet".
+Setelah kamu mengatur key-key yang diperlukan, kamu bisa membuat wallet multisig yang menggabungkan beberapa perangkat. Dari tab **Dompet**, ketuk "Tambahkan Wallet".
 
 
 
@@ -267,7 +272,7 @@ Setelah Anda mengatur kunci Anda, Anda bisa membuat wallet multi-tanda tangan ya
 
 
 
-Anda memiliki tiga opsi: "Buat Wallet" untuk portofolio baru, "Impor Wallet" untuk memulihkan wallet yang sudah ada, atau "Wallet Kolaboratif" untuk brankas bersama. Pilih "Buat Wallet" lalu "Bitcoin Wallet".
+Kamu memiliki tiga opsi: "Buat Wallet" untuk portofolio baru, "Impor Wallet" untuk memulihkan wallet yang sudah ada, atau "Wallet Kolaboratif" untuk brankas bersama. Pilih "Buat Wallet", lalu "Bitcoin Wallet".
 
 
 
@@ -275,11 +280,11 @@ Anda memiliki tiga opsi: "Buat Wallet" untuk portofolio baru, "Impor Wallet" unt
 
 
 
-Layar berikutnya menawarkan konfigurasi yang berbeda-beda: "Tombol tunggal", "2 dari 3 tombol multi", atau "3 dari 5 tombol multi". Untuk multi-sig yang disesuaikan, tekan "Pilih pengaturan khusus". Misalnya, pilih "1 dari 2": satu tanda tangan diperlukan dari dua tombol yang memungkinkan.
+Layar berikutnya menawarkan beberapa konfigurasi: "Single-Key", "2-of-3 Multi-Key", atau "3-of-5 Multi-Key". Untuk multisig yang disesuaikan, tekan "Pilih pengaturan khusus". Sebagai contoh, pilih "1-of-2", artinya satu tanda tangan diperlukan dari dua key yang tersedia.
 
 
 
-Kemudian pilih kunci yang akan membentuk Vault Anda. Dalam contoh kami, kami menggabungkan "Kunci Ponsel" (kunci perangkat lunak telepon) dengan "TAPSIGNER" (Kartu Metro). Konfigurasi ini menawarkan redundansi: jika salah satu kunci tidak dapat diakses, Anda selalu dapat menggunakan dana Anda dengan kunci lainnya.
+Selanjutnya, pilih key yang akan membentuk Vault kamu. Dalam contoh ini, kita menggabungkan "Mobile Key" (software key di ponsel) dengan "TAPSIGNER" (Kartu Metro). Konfigurasi ini memberikan redundansi: jika salah satu key tidak dapat diakses, kamu tetap bisa membelanjakan dana menggunakan key yang lainnya.
 
 
 
@@ -287,11 +292,12 @@ Kemudian pilih kunci yang akan membentuk Vault Anda. Dalam contoh kami, kami men
 
 
 
-Beri nama wallet Anda (misalnya, "Test PlanB"), tambahkan deskripsi opsional, dan centang tombol yang dipilih. Tekan "Buat Wallet Anda". Pesan konfirmasi "Wallet Berhasil Dibuat" akan muncul, mengingatkan Anda untuk menyimpan file pemulihan wallet.
+Beri nama wallet kamu, misalnya "Test PlanB", tambahkan deskripsi jika perlu, lalu centang key yang dipilih. Tekan "Buat Wallet Kamu". Pesan konfirmasi "Wallet Berhasil Dibuat" akan muncul dan mengingatkan kamu untuk menyimpan file pemulihan wallet.
 
 
 
-Multisig wallet baru Anda sekarang muncul di tab Dompet dengan tag "Multi-kunci" dan indikasi "1 dari 2".
+Wallet multisig baru kamu sekarang akan muncul di tab **Dompet** dengan label "Multi-Key" dan indikasi "1-of-2".
+``
 
 
 
@@ -299,7 +305,7 @@ Multisig wallet baru Anda sekarang muncul di tab Dompet dengan tag "Multi-kunci"
 
 
 
-**Tidak seperti wallet sederhana, di mana frasa pemulihan sudah cukup untuk memulihkan akses, multisig wallet juga membutuhkan file konfigurasi yang menjelaskan struktur brankas (kunci mana yang berpartisipasi, berapa banyak tanda tangan yang diperlukan). Tanpa file ini, bahkan dengan semua frasa pemulihan, anda tidak akan dapat membangun kembali wallet anda.
+**Tidak seperti wallet sederhana, di mana seedphrase saja sudah cukup untuk memulihkan akses, wallet multisig juga membutuhkan file konfigurasi yang menjelaskan struktur brankas, seperti key mana saja yang terlibat dan berapa banyak tanda tangan yang diperlukan. Tanpa file ini, bahkan jika kamu memiliki semua seedphrase, kamu tetap tidak akan bisa membangun kembali wallet kamu.
 
 
 
@@ -307,7 +313,7 @@ Multisig wallet baru Anda sekarang muncul di tab Dompet dengan tag "Multi-kunci"
 
 
 
-Untuk mengekspor file ini, pilih multisig wallet Anda pada tab Wallets, lalu tekan ikon Pengaturan (roda gigi) di sudut kanan atas. Dalam "Pengaturan Wallet", klik "File konfigurasi Wallet". Beberapa opsi ekspor tersedia:
+Untuk mengekspor file ini, pilih wallet multisig kamu di tab **Dompet**, lalu tekan ikon Pengaturan berbentuk roda gigi di sudut kanan atas. Di menu "Pengaturan Wallet", ketuk "File Konfigurasi Wallet". Beberapa opsi ekspor tersedia:
 
 
 
@@ -315,12 +321,12 @@ Untuk mengekspor file ini, pilih multisig wallet Anda pada tab Wallets, lalu tek
 
 - Ekspor PDF**: menghasilkan dokumen PDF yang berisi semua informasi wallet
 - Tampilkan QR**: menampilkan kode QR yang dapat dipindai untuk mengimpor konfigurasi ke perangkat lain
-- Airdrop / Ekspor File**: mengekspor file melalui opsi berbagi di ponsel Anda
+- Airdrop / Ekspor File**: mengekspor file melalui opsi berbagi di ponsel kamu
 - NFC**: berbagi melalui NFC dengan perangkat yang kompatibel
 
 
 
-Simpan file konfigurasi ini terpisah dari frasa pemulihan Anda, idealnya pada media yang dienkripsi atau dicetak. Jika Anda kehilangan ponsel Anda, file ini digabungkan dengan frasa pemulihan untuk setiap kunci yang berpartisipasi akan memungkinkan Anda untuk membangun kembali multisig wallet Anda di Bitcoin Keeper atau perangkat lunak lain yang kompatibel.
+Simpan file konfigurasi ini terpisah dari seedphrase kamu, idealnya di media yang terenkripsi atau dalam bentuk cetak. Jika kamu kehilangan ponsel, file ini, jika digabungkan dengan seedphrase dari setiap key yang berpartisipasi, akan memungkinkan kamu membangun kembali wallet multisig kamu di Bitcoin Keeper atau di software lain yang kompatibel.
 
 
 
@@ -332,11 +338,11 @@ Simpan file konfigurasi ini terpisah dari frasa pemulihan Anda, idealnya pada me
 
 
 
-Susunlah bitcoin Anda sesuai dengan penggunaannya: wallet Single-Key untuk pengeluaran saat ini dengan jumlah yang terbatas, dan satu atau beberapa Vaults Multi-Key untuk simpanan jangka panjang. Penandaan UTXO yang sistematis akan membantu Anda melacak dari mana dana Anda berasal, yang sangat berguna untuk mengelola kerahasiaan dan menghindari pencampuran koin dengan sumber yang berbeda.
+Susun bitcoin kamu sesuai dengan peruntukannya: gunakan wallet Single-Key untuk pengeluaran harian dengan jumlah terbatas, dan satu atau beberapa Vault Multi-Key untuk penyimpanan jangka panjang. Pelabelan UTXO yang konsisten akan membantu kamu melacak asal dana, yang sangat berguna untuk menjaga privasi dan menghindari pencampuran koin dari sumber yang berbeda.
 
 
 
-Jaga keamanan ponsel Anda: aktifkan kunci biometrik, lakukan pembaruan sistem secara teratur, dan tetap waspada terhadap aplikasi yang terinstal. Dan terus perbarui Bitcoin Keeper dengan patch keamanan.
+Jaga keamanan ponsel kamu dengan serius: aktifkan kunci biometrik, lakukan pembaruan sistem secara rutin, dan tetap waspada terhadap aplikasi yang terpasang. Pastikan juga Bitcoin Keeper selalu diperbarui dengan patch keamanan terbaru.
 
 
 
@@ -344,11 +350,13 @@ Jaga keamanan ponsel Anda: aktifkan kunci biometrik, lakukan pembaruan sistem se
 
 
 
-Simpan setidaknya dua salinan dari setiap frasa pemulihan di atas kertas, disimpan di lokasi yang terpisah secara geografis. Untuk jumlah yang besar, pertimbangkan untuk mengukirnya dengan logam yang tahan bencana. Jangan pernah menyimpan frasa ini pada perangkat yang terhubung ke Internet, dan jangan pernah memotretnya.
+Simpan setidaknya dua salinan dari setiap seedphrase di atas kertas dan letakkan di lokasi yang terpisah secara geografis. Untuk jumlah yang besar, pertimbangkan untuk mengukirnya pada media logam yang tahan terhadap bencana. Jangan pernah menyimpan seedphrase di perangkat yang terhubung ke internet, dan jangan pernah memotretnya.
 
 
 
-Untuk multi-sig Vault, simpan juga file konfigurasi (Wallet Recovery File), yang berisi kunci publik yang berpartisipasi dan struktur vault. File ini, digabungkan dengan frasa pemulihan kunci, memungkinkan wallet untuk dibangun kembali pada perangkat lunak yang kompatibel seperti Sparrow atau Specter.
+Untuk Vault multisig, simpan juga file konfigurasi, yaitu Wallet Recovery File, yang berisi public key yang berpartisipasi dan struktur vault. File ini, jika digabungkan dengan seedphrase dari setiap key, memungkinkan wallet dibangun kembali di software yang kompatibel seperti Sparrow atau Specter.
+`
+
 
 
 
@@ -367,7 +375,7 @@ Untuk multi-sig Vault, simpan juga file konfigurasi (Wallet Recovery File), yang
 - Dukungan perangkat keras wallet yang diperluas (Tapsigner, Coldcard, Ledger, Jade, dll.)
 - Manajemen lanjutan UTXO dan kontrol koin
 - Dapat dihubungkan ke server Electrum pribadi
-- Kode sumber yang terbuka dan dapat diaudit
+- Kode open-source dan dapat diaudit
 
 
 
@@ -387,19 +395,20 @@ Untuk multi-sig Vault, simpan juga file konfigurasi (Wallet Recovery File), yang
 
 
 
-Bitcoin Keeper menonjol sebagai solusi yang dapat diskalakan untuk mengelola bitcoin Anda. Pendekatannya yang progresif, mulai dari wallet yang sederhana hingga Vault multi-tanda tangan, berarti keamanan dapat ditingkatkan seiring dengan perubahan kebutuhan. Kemampuan untuk mengintegrasikan dompet perangkat keras dengan mudah seperti Tapsigner membuka jalan untuk konfigurasi yang kuat tanpa kerumitan yang berlebihan.
+Bitcoin Keeper menonjol sebagai solusi yang skalabel untuk mengelola bitcoin kamu. Pendekatannya yang progresif, dari wallet sederhana hingga Vault multisig, memungkinkan tingkat keamanan ditingkatkan seiring perubahan kebutuhan. Kemampuan untuk mengintegrasikan hardware wallet dengan mudah, seperti Tapsigner, membuka jalan bagi konfigurasi yang kuat tanpa kompleksitas berlebihan.
 
 
 
-Orientasi khusus bitcoin, kode sumber terbuka, dan penghormatan terhadap privasi menjadikannya pilihan yang selaras dengan nilai-nilai inti ekosistem Bitcoin.
+Fokus khusus pada Bitcoin, kode sumber yang open source, serta penghormatan terhadap privasi menjadikannya pilihan yang selaras dengan nilai-nilai inti ekosistem Bitcoin.
 
 
 
-Tutorial ini mencakup fitur-fitur penting Bitcoin Keeper dalam versi gratisnya. Aplikasi ini juga menawarkan fitur-fitur premium (Cloud Backup, Assisted Server Backup, Canary Wallets) yang akan menjadi subjek dari sebuah tutorial khusus. Dalam panduan yang akan datang, kami juga akan menjelajahi fitur Perencanaan Warisan, yang memungkinkan Anda untuk mempersiapkan pengiriman bitcoin kepada orang yang Anda cintai, berkat Brankas yang Disempurnakan dan dokumen yang menyertainya yang terintegrasi ke dalam aplikasi.
+Tutorial ini mencakup fitur-fitur utama Bitcoin Keeper dalam versi gratisnya. Aplikasi ini juga menawarkan fitur premium seperti Cloud Backup, Assisted Server Backup, dan Canary Wallet, yang akan dibahas dalam tutorial terpisah. Dalam panduan selanjutnya, kita juga akan membahas fitur Perencanaan Warisan, yang memungkinkan kamu mempersiapkan pengalihan bitcoin kepada orang-orang yang kamu cintai melalui Brankas yang Disempurnakan dan dokumen pendukung yang terintegrasi langsung di dalam ap
 
 
 
-## Sumber daya
+
+## Sumber referensi
 
 
 

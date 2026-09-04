@@ -27,14 +27,14 @@ description: Bagaimana cara mengkonfigurasi Watch-only wallet di Aplikasi Blocks
 
 
 
-- **Pemula**: Pengguna yang ingin memantau portofolio Bitcoin (sering dikaitkan dengan Hardware Wallet) melalui aplikasi seluler yang intuitif.
-- **Pengguna tingkat menengah**: Orang yang ingin mengelola portofolio hanya-baca sambil menggunakan opsi privasi seperti Tor atau SPV.
-- **Pemilik Hardware Wallet**: Untuk memeriksa saldo dan alamat generate mereka tanpa menghubungkan perangkat mereka.
-- **Bisnis dan pertokoan** :
- - Lacak transaksi Anda untuk tujuan akuntansi tanpa mengekspos kunci pribadi Anda.
- - Verifikasi transaksi yang diterima tanpa memasukkan kunci pribadi mereka dalam sistem pembayaran online.
- - Memungkinkan karyawan untuk generate alamat penerimaan baru tanpa memiliki akses ke kunci pribadi.
-- **Organisasi dan urun dana**: Menampilkan saldo secara transparan kepada donatur tanpa mengizinkan akses ke dana.
+- **Pemula**: Pengguna yang ingin memantau portofolio Bitcoin, sering dikaitkan dengan Hardware Wallet, melalui aplikasi seluler yang intuitif.
+- **Pengguna tingkat menengah**: Pengguna yang ingin mengelola portofolio hanya-baca sambil memanfaatkan opsi privasi seperti Tor atau SPV.
+- **Pemilik Hardware Wallet**: Untuk memeriksa saldo dan address yang mereka generate tanpa harus menghubungkan perangkat.
+- **Bisnis dan pertokoan**:
+  - Melacak transaksi untuk keperluan akuntansi tanpa mengekspos private key.
+  - Memverifikasi transaksi yang diterima tanpa memasukkan private key ke dalam sistem pembayaran online.
+  - Memungkinkan karyawan untuk generate address penerimaan baru tanpa memiliki akses ke private key.
+- **Organisasi dan urun dana**: Menampilkan saldo secara transparan kepada donatur tanpa memberikan akses ke dana.
 
 
 
@@ -42,7 +42,7 @@ description: Bagaimana cara mengkonfigurasi Watch-only wallet di Aplikasi Blocks
 
 
 
-Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitcoin Wallet tanpa memiliki akses ke private key. Tidak seperti Wallet konvensional, Wallet hanya menyimpan data publik, seperti **kunci publik yang diperluas** (yang memunculkan "**xpub**", kemudian "zpub", "ypub", dll.), yang memungkinkannya untuk mendapatkan alamat penerima dan melacak riwayat transaksi pada Blockchain Bitcoin. Tidak adanya kunci privat membuat tidak mungkin untuk mencairkan dana dari aplikasi, menjamin keamanan yang lebih baik.
+Wallet **Watch-Only** memungkinkan kamu memantau transaksi dan saldo Bitcoin Wallet tanpa memiliki akses ke private key. Berbeda dengan Wallet konvensional, Wallet ini hanya menyimpan data publik seperti **extended public key** (yang menghasilkan "**xpub**", lalu "zpub", "ypub", dan seterusnya), sehingga aplikasi bisa generate address penerimaan dan melacak riwayat transaksi di Blockchain Bitcoin. Karena tidak ada private key yang tersimpan, tidak mungkin mencairkan dana dari aplikasi, sehingga tingkat keamanannya lebih tinggi.
 
 
 
@@ -56,10 +56,11 @@ Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitc
 
 
 
-- **Keamanan**: Ideal untuk memantau portofolio yang diamankan oleh **Hardware Wallet** tanpa mengekspos kunci privat pada perangkat yang terhubung.
-- **Kenyamanan**: Memungkinkan Anda untuk memeriksa saldo dan alamat penerima baru generate tanpa menghubungkan Hardware Wallet.
-- **Kerahasiaan**: Kompatibel dengan opsi seperti **Tor** atau **SPV** untuk membatasi ketergantungan pada server pihak ketiga.
-- **Kasus penggunaan**: Melacak dana saat bepergian, membuat alamat untuk menerima pembayaran, atau memverifikasi transaksi tanpa mempertaruhkan kunci pribadi.
+- **Keamanan**: Cocok untuk memantau portofolio yang diamankan oleh **Hardware Wallet** tanpa mengekspos private key pada perangkat yang terhubung.
+- **Kenyamanan**: Memungkinkan kamu memeriksa saldo dan generate address penerimaan baru tanpa harus menghubungkan Hardware Wallet.
+- **Kerahasiaan**: Kompatibel dengan opsi seperti **Tor** atau **SPV** untuk mengurangi ketergantungan pada server pihak ketiga.
+- **Kasus penggunaan**: Melacak dana saat bepergian, membuat address untuk menerima pembayaran, atau memverifikasi transaksi tanpa mempertaruhkan private key.
+
 
 
 
@@ -71,13 +72,12 @@ Wallet **Watch-Only** memungkinkan Anda untuk memonitor transaksi dan saldo Bitc
 
 
 
-Sebuah **kunci publik yang diperluas** (xpub, ypub, zpub, dll.) adalah sebuah data yang berasal dari Bitcoin Wallet yang menghasilkan semua kunci publik anak dan alamat penerimaan terkait, tanpa memberikan akses ke kunci privat.
+Sebuah **extended public key** (xpub, ypub, zpub, dan seterusnya) adalah data yang berasal dari Bitcoin Wallet yang dapat menghasilkan seluruh child public key dan address penerimaan terkait, tanpa memberikan akses ke private key.
 
 
 
+- Bagaimana cara kerjanya: Extended public key dihasilkan dari seedphrase melalui proses deterministik sesuai **BIP-32**. Proses ini membentuk struktur pohon hierarkis dari child public key, yang masing-masing bisa dikonversi menjadi address penerimaan. Dengan menggunakan jalur derivasi yang sama (contoh: `m/44'/0'/0'`) seperti Wallet yang dipantau, Watch-Only Wallet dapat menghasilkan address yang sama, sehingga dana bisa dilacak dan address penerimaan baru dapat dibuat.
 
-
-- Bagaimana cara kerjanya: Kunci publik yang diperluas dihasilkan dari frasa seed melalui proses deterministik (BIP-32). Proses ini menciptakan sebuah pohon hirarkis dari kunci publik anak, yang masing-masing dapat dikonversi menjadi Address yang diterima. Dengan menggunakan jalur derivasi yang sama (contoh: `m/44'/0'/0'`) dengan Wallet yang ditonton, Watch-only wallet menghasilkan alamat yang sama, sehingga memungkinkan dana untuk dilacak dan alamat penerima baru dapat dibuat.
 
 
 
@@ -97,7 +97,7 @@ Sebuah **kunci publik yang diperluas** (xpub, ypub, zpub, dll.) adalah sebuah da
 
 
 
-- **Perbedaan**: Pilihan antara xpub, ypub, atau zpub bergantung pada tipe Address (legacy, SegWit, Taproot, atau SegWit bersarang) dan standar BIP yang digunakan oleh Wallet. Periksa format yang diperlukan oleh portofolio sumber Anda untuk memastikan kompatibilitas dengan Blockstream App.
+- **Perbedaan**: Pilihan antara xpub, ypub, atau zpub bergantung pada tipe Address (legacy, SegWit, Taproot, atau SegWit bersarang) dan standar BIP yang digunakan oleh Wallet. Periksa format yang diperlukan oleh portofolio sumber kamu untuk memastikan kompatibilitas dengan Blockstream App.
 
 
 
@@ -107,7 +107,7 @@ Sebuah **kunci publik yang diperluas** (xpub, ypub, zpub, dll.) adalah sebuah da
 
 
 
-**Rekomendasi**: Lindungi kunci publik Anda yang diperluas sebagai informasi sensitif.
+**Rekomendasi**: Lindungi kunci publik kamu yang diperluas sebagai informasi sensitif.
 
 
 
@@ -150,7 +150,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - **Transaksi Onchain** pada Blockchain Bitcoin.
     - Transaksi di jaringan **Liquid** (Sidechain untuk pertukaran yang cepat dan rahasia).
 - **Portfolio watch-only** untuk memantau dana tanpa akses ke kunci.
-    - Opsi privasi: koneksi melalui **Tor**, koneksi ke **simpul pribadi** melalui Electrum, atau verifikasi **SPV** untuk mengurangi ketergantungan pada simpul pihak ketiga.
+    - Opsi privasi: koneksi melalui **Tor**, koneksi ke **node pribadi** melalui Electrum, atau verifikasi **SPV** untuk mengurangi ketergantungan pada simpul pihak ketiga.
     - Berfungsi **Replace-by-fee (RBF)** untuk mempercepat transaksi yang belum dikonfirmasi.
 - **Kompatibilitas**: Mengintegrasikan dompet perangkat keras seperti **Blockstream Jade**.
 - **Interface**: Intuitif untuk pemula, dengan opsi tingkat lanjut untuk para ahli.
@@ -194,7 +194,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio Anda.
+- **Menyesuaikan pengaturan**: Klik "Pengaturan aplikasi", sesuaikan opsi di bawah ini, klik "Simpan", mulai ulang aplikasi dan buat portofolio kamu.
 
 
 
@@ -209,7 +209,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Fungsi**: Menonaktifkan tangkapan layar, menyembunyikan pratinjau aplikasi di pengelola tugas, dan mengunci akses saat ponsel terkunci.
-- Mengapa? Melindungi data Anda dari akses fisik yang tidak sah atau malware penangkap layar.
+- Mengapa? Melindungi data kamu dari akses fisik yang tidak sah atau malware penangkap layar.
 
 
 
@@ -220,7 +220,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Fungsi**: Merutekan lalu lintas jaringan melalui **Tor**, sebuah jaringan anonim yang mengenkripsi koneksi Anda.
-- Mengapa? Menyembunyikan IP Anda Address dan melindungi privasi Anda, ideal jika Anda tidak mempercayai jaringan Anda (Wi-Fi publik, misalnya).
+- Mengapa? Menyembunyikan IP Anda Address dan melindungi privasi Anda, ideal jika kamu tidak mempercayai jaringan kamu (Wi-Fi publik, misalnya).
 - **Kerugian**: Dapat memperlambat aplikasi karena enkripsi.
 - **Rekomendasi**: Aktifkan Tor jika kerahasiaan adalah prioritas, tetapi uji kecepatan koneksi.
 
@@ -232,7 +232,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik Anda sendiri melalui **server Electrum**.
+- **Fungsi**: Menghubungkan aplikasi ke **node Bitcoin lengkap** milik kamu sendiri melalui **server Electrum**.
 - Mengapa? Memberikan kontrol penuh atas data Blockchain, menghilangkan ketergantungan pada server Blockstream.
 - **Prasyarat**: Node Bitcoin yang telah dikonfigurasi.
 - **Rekomendasi**: Pengguna tingkat lanjut yang menginginkan kedaulatan maksimum.
@@ -248,7 +248,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 - **Fungsi**: Menggunakan **Verifikasi Pembayaran Sederhana (SPV)** untuk memverifikasi data Blockchain tertentu secara langsung tanpa mengunduh seluruh rantai.
 - Mengapa? Mengurangi ketergantungan pada node default Blockstream, namun tetap ringan untuk perangkat seluler.
 - **Kerugian**: Kurang aman dibandingkan Full node, karena bergantung pada node pihak ketiga untuk beberapa informasi.
-- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan simpul pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
+- **Rekomendasi**: Aktifkan SPV jika Anda tidak dapat menggunakan node pribadi, tetapi lebih memilih Full node untuk keamanan optimal.
 
 
 
@@ -262,7 +262,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci publik yang diperluas (xpub, ypub, zpub, dll.) dari Wallet yang akan dimonitor. Informasi ini umumnya tersedia di bagian pengaturan atau "informasi Wallet" pada perangkat lunak Anda atau Hardware Wallet.
+Untuk menyiapkan Watch-only wallet, kamu harus terlebih dahulu mendapatkan kunci publik yang diperluas (xpub, ypub, zpub, dll.) dari Wallet yang akan dimonitor. Informasi ini umumnya tersedia di bagian pengaturan atau "informasi Wallet" pada perangkat lunak kamu atau Hardware Wallet.
 
 
 
@@ -279,7 +279,7 @@ Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci
 
 
 - Alternatif 1: generate kode QR yang berisi kunci publik yang diperluas untuk pemindaian pada langkah berikutnya.
-- Alternatif 2: Gunakan output descriptor jika Wallet Anda menyediakannya.
+- Alternatif 2: Gunakan output descriptor jika Wallet kamu menyediakannya.
 
 
 
@@ -289,7 +289,7 @@ Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci
 
 
 
-- **Perhatian**: Siapkan portofolio Anda di lingkungan pribadi, tanpa kamera atau pengamat.
+- **Perhatian**: Siapkan portofolio kamu di lingkungan pribadi, tanpa kamera atau pengamat.
 - Dari layar beranda, klik "Siapkan portofolio baru" dan kemudian pada "Memulai" :
 
 
@@ -311,9 +311,10 @@ Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci
 
 
 
-- (1) **"Setup Mobile Wallet"**: Membuat Hot Wallet yang baru. Lihat tutorial "Aplikasi Blockstream - Onchain" di lampiran.
-- (2) **"Pulihkan dari Cadangan "**: Mengimpor portofolio yang sudah ada dengan menggunakan frasa Mnemonic (12 atau 24 kata). Perhatian: Jangan mengimpor frasa dari Cold Wallet, karena frasa tersebut akan terekspos pada perangkat yang terhubung, dan membatalkan keamanannya.
-- (3) **"Hanya-Tonton "**: opsi yang kami minati untuk tutorial ini.
+- (1) **"Setup Mobile Wallet"**: Membuat Hot Wallet baru. Lihat tutorial "Aplikasi Blockstream - Onchain" di lampiran.  
+- (2) **"Pulihkan dari Cadangan"**: Mengimpor portofolio yang sudah ada menggunakan frasa Mnemonic (12 atau 24 kata). Perhatian: Jangan mengimpor frasa dari Cold Wallet, karena frasa tersebut akan terekspos pada perangkat yang terhubung dan mengurangi keamanannya.  
+- (3) **"Hanya-Tonton"**: Opsi yang menjadi fokus tutorial ini.
+
 
 
 
@@ -342,7 +343,7 @@ Untuk menyiapkan Watch-only wallet, Anda harus terlebih dahulu mendapatkan kunci
 
 
 
-Setelah diimpor, Watch-only wallet menampilkan total saldo dan riwayat transaksi dari alamat yang berasal dari public key yang diperluas. Hanya transaksi onchain yang terlihat (transaksi Liquid diabaikan). Untuk memonitor Liquid Wallet, ulangi impor dengan memilih "Liquid" pada langkah sebelumnya.
+Setelah diimpor, Watch-Only Wallet menampilkan total saldo dan riwayat transaksi dari address yang berasal dari extended public key. Hanya transaksi onchain yang terlihat (transaksi Liquid tidak ditampilkan). Untuk memantau Liquid Wallet, ulangi proses impor dengan memilih "Liquid" pada langkah sebelumnya.
 
 
 
@@ -375,7 +376,7 @@ Setelah diimpor, Watch-only wallet menampilkan total saldo dan riwayat transaksi
 
 
 
-Namun, karena Watch-only wallet tidak menyimpan private key, Anda tidak dapat mengirim dana secara langsung. Untuk menandatangani transaksi, hubungkan Hardware Wallet atau Exchange PSBT Anda dengan memindai kode QR (opsi yang tersedia pada Coldcard Q, misalnya).
+Namun, karena Watch-Only Wallet tidak menyimpan private key, kamu tidak bisa mengirim dana langsung dari aplikasi. Untuk menandatangani transaksi, hubungkan Hardware Wallet atau Exchange PSBT dengan memindai kode QR (opsi ini tersedia, misalnya, pada Coldcard Q).
 
 
 
@@ -444,14 +445,14 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 
-Untuk menggunakan **Aplikasi Blockstream** dengan aman dan efisien, ikuti rekomendasi berikut ini. Rekomendasi ini akan membantu Anda melindungi dana, mengoptimalkan transaksi, dan menjaga kerahasiaan Anda di jaringan **Bitcoin (onchain)**, **Liquid**, dan **Lightning**.
+Untuk menggunakan **Aplikasi Blockstream** dengan aman dan efisien, ikuti rekomendasi berikut ini. Rekomendasi ini akan membantumu melindungi dana, mengoptimalkan transaksi, dan menjaga kerahasiaan kamu di jaringan **Bitcoin (onchain)**, **Liquid**, dan **Lightning**.
 
 
 
 
 
-- **Amankan frasa pemulihan Anda** :
- - Tutorial: Menyimpan frasa Mnemonic Anda
+- **Amankan frasa pemulihan kamu** :
+ - Tutorial: Menyimpan frasa Mnemonic kamu
 
 
 
@@ -464,16 +465,16 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 - **Gunakan autentikasi yang aman** :
  - Aktifkan **PIN yang kuat** atau **otentikasi biometrik** (sidik jari atau pengenalan wajah) untuk melindungi akses ke aplikasi.
- - Jangan pernah membagikan PIN atau data biometrik Anda.
+ - Jangan pernah membagikan PIN atau data biometrik kamu.
 
 
 
 
 
-- **Lindungi privasi Anda** :
+- **Lindungi privasi kamu** :
  - generate Address baru untuk setiap penerimaan onchain atau Liquid untuk membatasi penelusuran pada Blockchain.
  - Aktifkan fungsi "Privasi yang Ditingkatkan", "Tor", dan "SPV".
- - Untuk kerahasiaan maksimum, sambungkan Wallet Anda ke node Bitcoin Anda sendiri melalui server Electrum alih-alih menggunakan node publik
+ - Untuk kerahasiaan maksimum, sambungkan Wallet kamu ke node Bitcoin milikmu sendiri melalui server Electrum alih-alih menggunakan node publik
 
 
 
@@ -533,7 +534,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - **Pembelajaran dan tutorial:** [Plan ₿ Academy](https://planb.academy/) :
-  - Mengamankan frasa pemulihan Anda
+  - Mengamankan frasa pemulihan kamu
 
 
 

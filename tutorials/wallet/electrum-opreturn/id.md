@@ -8,7 +8,7 @@ description: Daftarkan pesan pada Blockchain Bitcoin dengan Electrum
 
 
 
-Tutorial langkah demi langkah ini menunjukkan kepada Anda cara menulis pesan pada Blockchain Bitcoin menggunakan Wallet Electrum. Operasi ini menggunakan instruksi OP_RETURN untuk memasukkan teks ke dalam transaksi, yang dapat dilihat oleh publik pada Blockchain. Ikuti langkah-langkah sederhana ini untuk pendaftaran yang sukses.
+Tutorial langkah demi langkah ini menunjukkan cara menulis pesan di Blockchain Bitcoin menggunakan Wallet Electrum. Operasi ini memanfaatkan instruksi OP_RETURN untuk memasukkan teks ke dalam transaksi, yang bisa dilihat publik di Blockchain. Ikuti langkah-langkah sederhana ini untuk pendaftaran yang sukses.
 
 
 
@@ -21,7 +21,7 @@ Tutorial langkah demi langkah ini menunjukkan kepada Anda cara menulis pesan pad
 
 - Komputer (Windows, macOS atau Linux).
 - Koneksi internet.
-- Beberapa satoshi (Sats) atau bitcoin (BTC) di Wallet Anda untuk menutupi jumlah transaksi dan biaya.
+- Beberapa satoshi (Sats) atau bitcoin (BTC) di Wallet kamu untuk menutupi jumlah transaksi dan biaya.
 - Konverter teks-ke-hex (misalnya situs online) atau alat khusus seperti [generator skrip OP_RETURN ini](https://resources.davidcoen.it/opreturnelectrum/).
 
 
@@ -39,7 +39,7 @@ Tutorial langkah demi langkah ini menunjukkan kepada Anda cara menulis pesan pad
 1. Kunjungi situs web resmi Electrum: [electrum.org](https://electrum.org/).
 
 
-2. Unduh versi yang sesuai dengan sistem operasi Anda (Windows, macOS, Linux).
+2. Unduh versi yang sesuai dengan sistem operasi kamu (Windows, macOS, Linux).
 
 
 3. Pasang Electrum sesuai dengan petunjuk pemasang.
@@ -65,19 +65,19 @@ https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 1. Luncurkan Electrum.
 
 
-2. Pilih Buat Wallet baru atau Pulihkan Wallet yang sudah ada jika Anda sudah memiliki frasa seed (frasa pemulihan).
+2. Pilih Buat Wallet baru atau Pulihkan Wallet yang sudah ada jika kamu sudah memiliki seed phrase (frasa pemulihan).
 
 
-3. Ikuti petunjuk untuk mengkonfigurasi Wallet Anda:
+3. Ikuti petunjuk untuk mengkonfigurasi Wallet kamu:
 
 
 
 
- - Untuk Wallet yang baru, catatlah kalimat seed Anda dan simpanlah di tempat yang aman (kertas, brankas, dll.).
- - Untuk Wallet yang sudah ada, masukkan frasa seed Anda untuk memulihkannya.
+ - Untuk Wallet yang baru, catatlah kalimat seed kamu dan simpanlah di tempat yang aman (kertas, brankas, dll.).
+ - Untuk Wallet yang sudah ada, masukkan frasa seed kamu untuk memulihkannya.
 
 
-4. Tetapkan kata sandi untuk mengamankan Wallet Anda.
+4. Tetapkan kata sandi untuk mengamankan Wallet milikmu.
 
 
 
@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-Pastikan Wallet Anda berisi cukup bitcoin (BTC) atau satoshi (Sats) untuk :
+Pastikan Wallet kamu berisi cukup bitcoin (BTC) atau satoshi (Sats) untuk :
 
 
 
@@ -104,7 +104,7 @@ Pastikan Wallet Anda berisi cukup bitcoin (BTC) atau satoshi (Sats) untuk :
 
 
 
-Lihat Saldo di Electrum untuk memeriksa dana Anda.
+Lihat Saldo di Electrum untuk memeriksa dana kamu.
 
 
 
@@ -112,7 +112,7 @@ Lihat Saldo di Electrum untuk memeriksa dana Anda.
 
 
 
-Jika perlu, transfer BTC atau Sats untuk mengisi Wallet Anda. Untuk melakukannya, buka tab 'Terima' dan klik 'Buat Permintaan':
+Jika perlu, transfer BTC atau Sats untuk mengisi Wallet kamu. Untuk melakukannya, buka tab 'Terima' dan klik 'Buat Permintaan':
 
 
 
@@ -141,11 +141,11 @@ https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-Pilih pesan yang ingin Anda masukkan (misalnya, `Terima kasih Satoshi`). Catatan: Pesan OP_RETURN dibatasi hingga 80 byte, yaitu sekitar 80 karakter ASCII.
+Pilih pesan yang ingin kamu masukkan (misalnya, `Terima kasih Satoshi`). Catatan: Pesan OP_RETURN dibatasi hingga 80 byte, yaitu sekitar 80 karakter ASCII.
 
 
 
-*Luangkan waktu sejenak untuk berpikir: apa yang Anda tulis pada Blockchain Bitcoin bersifat abadi dan dapat diakses oleh semua orang, jadi :*
+*Luangkan waktu sejenak untuk berpikir: apa yang kamu tulis pada Blockchain Bitcoin bersifat abadi dan dapat diakses oleh semua orang, jadi :*
 
 
 
@@ -155,7 +155,7 @@ Pilih pesan yang ingin Anda masukkan (misalnya, `Terima kasih Satoshi`). Catatan
 
 
 
-*Ruang Blockchain dan bitcoin Anda sangat berharga, gunakanlah dengan bijak dan dengan niat*
+*Ruang Blockchain dan bitcoin kamu sangat berharga, gunakanlah dengan bijak dan dengan niat*
 
 
 
@@ -164,7 +164,7 @@ Mengonversi pesan Anda ke heksadesimal:
 
 
 
-- Anda dapat menggunakan [alat online](https://www.rapidtables.com/convert/number/ascii-to-hex.html), tetapi berhati-hatilah untuk tidak memproses data sensitif di sana (meskipun, pada prinsipnya, informasi yang dimaksudkan untuk publikasi pada Blockchain Bitcoin melalui OP_RETURN tidak menimbulkan masalah kerahasiaan);
+- Kamu dapat menggunakan [alat online](https://www.rapidtables.com/convert/number/ascii-to-hex.html), tetapi berhati-hatilah untuk tidak memproses data sensitif di sana (meskipun, pada prinsipnya, informasi yang dimaksudkan untuk publikasi pada Blockchain Bitcoin melalui OP_RETURN tidak menimbulkan masalah kerahasiaan);
 - Untuk kerahasiaan yang lebih baik, lakukan konversi secara lokal menggunakan Python kecil:
 
 
@@ -208,13 +208,13 @@ yang terdiri dari :
 
 
 
-- **Tujuan Address**: Bitcoin Address yang valid. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Ini bisa berupa Address Anda sendiri, jika Anda ingin mengembalikan dana yang ditransfer ke Anda sendiri;
+- **Tujuan Address**: Bitcoin Address yang valid. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Ini bisa berupa Address kamu sendiri, jika kamu ingin mengembalikan dana yang ditransfer ke Anda sendiri;
 - **Jumlah yang ditransfer**: jumlah transaksi, di sini `0,00001` BTC. **Harap diperhatikan**: karena unit yang digunakan dalam Electrum adalah BTC, jumlah yang ditunjukkan dalam skrip transaksi juga harus dinyatakan dalam BTC, dan bukan dalam Sats;
 - Skrip **OP_RETURN**: Pesan yang dikonversi ke heksadesimal yang diawali dengan skrip (`OP_RETURN <pesan>`), 0. Di sini, `5468616e6b73205361746f736869` untuk pesan dalam heksadesimal.
 
 
 
-⚠️ **Perhatian**: Sangat penting untuk menunjukkan `0` setelah OP_RETURN, karena opcode ini menandai skrip sebagai tidak valid, membuat output secara permanen tidak dapat digunakan. Node jaringan akan menghapus output ini dari set UTXO mereka. Jika Anda memasukkan nilai selain `0`, maka nilai tersebut akan hilang secara permanen: bitcoin Anda akan dianggap terbakar. Oleh karena itu, Anda harus selalu memasukkan `0` dengan OP_RETURN untuk merekam data yang diinginkan, tetapi tanpa mengasosiasikan dana dengannya, yang akan hilang.
+⚠️ **Perhatian**: Sangat penting untuk menunjukkan `0` setelah OP_RETURN, karena opcode ini menandai skrip sebagai tidak valid, membuat output secara permanen tidak dapat digunakan. Node jaringan akan menghapus output ini dari set UTXO mereka. Jika kamu memasukkan nilai selain `0`, maka nilai tersebut akan hilang secara permanen: bitcoin kamu akan dianggap terbakar. Oleh karena itu, kamu harus selalu memasukkan `0` dengan OP_RETURN untuk merekam data yang diinginkan, tetapi tanpa mengasosiasikan dana dengannya, yang akan hilang.
 
 
 
@@ -265,7 +265,7 @@ Periksa jumlah dan satuannya di bidang Jumlah.
 
 
 
-Klik "Bayar..." dan sesuaikan biaya transaksi Anda sesuai dengan jumlah yang ingin Anda bayarkan dan kecepatan transaksi yang Anda inginkan untuk diproses oleh Miner dan diintegrasikan ke dalam blok.
+Klik "Bayar..." dan sesuaikan biaya transaksi kamu sesuai dengan jumlah yang ingin kamu bayarkan dan kecepatan transaksi yang kamu inginkan untuk diproses oleh Miner dan diintegrasikan ke dalam blok.
 
 
 
@@ -273,7 +273,7 @@ Klik "Bayar..." dan sesuaikan biaya transaksi Anda sesuai dengan jumlah yang ing
 
 
 
-Klik OK dan konfirmasikan transaksi dengan kata sandi Anda. Jendela konfirmasi akan muncul.
+Klik OK dan konfirmasikan transaksi dengan kata sandi. Jendela konfirmasi akan muncul.
 
 
 
@@ -300,7 +300,7 @@ Atau, salin tujuan Address (misalnya, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`
 
 
 
-Cari kolom OP_RETURN di rincian transaksi untuk melihat pesan Anda.
+Cari kolom OP_RETURN di rincian transaksi untuk melihat pesan kamu.
 
 
 
@@ -322,11 +322,11 @@ Cari kolom OP_RETURN di rincian transaksi untuk melihat pesan Anda.
 
 
 
-- Uji coba dengan jumlah kecil: Mulailah dengan transaksi kecil (mis. Sats 1000) untuk menghindari kesalahan yang merugikan.
-- Pastikan output yang berisi OP_RETURN sama dengan nol, jika tidak, bitcoin Anda akan hilang secara permanen.
-- Periksa unit: Pastikan jumlah yang dimasukkan sesuai dengan unit yang ditampilkan di Electrum (BTC, mBTC, atau Sats).
-- Biaya transaksi: Jika jaringan padat, naikkan biaya untuk konfirmasi yang lebih cepat.
-- Pesan singkat: Entri OP_RETURN dibatasi hingga 80 byte. Rencanakan pesan Anda dengan tepat.
+- Uji coba dengan jumlah kecil: Mulailah dengan transaksi kecil (mis. Sats 1000) untuk menghindari kesalahan yang merugikan  
+- Pastikan output yang berisi OP_RETURN sama dengan nol, jika tidak, bitcoin kamu akan hilang secara permanen  
+- Periksa unit: Pastikan jumlah yang dimasukkan sesuai dengan unit yang ditampilkan di Electrum (BTC, mBTC, atau Sats)  
+- Biaya transaksi: Jika jaringan padat, naikkan biaya untuk konfirmasi lebih cepat  
+- Pesan singkat: Entri OP_RETURN dibatasi hingga 80 byte. Rencanakan pesan kamu dengan tepat
 
 
 

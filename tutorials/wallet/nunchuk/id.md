@@ -9,22 +9,15 @@ description: Ponsel Wallet cocok untuk semua orang
 ## Wallet yang kuat
 
 
-Nunchuk hadir pada akhir tahun 2020 dengan filosofi yang jelas: menjadikan multi-signature sebagai standar. Oleh karena itu, Nunchuk dirancang untuk menjalankan fungsi yang sangat canggih, dengan pilihan berharga untuk membangun desain langsung pada Bitcoin Core, perangkat lunak referensi untuk ekosistem Bitcoin.
+Nunchuk hadir pada akhir tahun 2020 dengan filosofi yang jelas: menjadikan multi-signature sebagai standar. Oleh karena itu, Nunchuk dirancang untuk menjalankan fungsi yang sangat canggih, dengan pilihan yang berharga untuk membangun desain langsung pada Bitcoin Core, perangkat lunak referensi untuk ekosistem Bitcoin.
 
-
-
-Setelah lebih dari 4 tahun pengembangan dan penggunaan, Nunchuk siap untuk dicoba dalam skala besar. Jika Anda seorang pemula dan tidak terbiasa dengan Nunchuk, panduan ini akan membantu Anda mengambil langkah pertama dan menemukan perangkat lunak ini, yang fungsi-fungsi lanjutannya dapat Anda pelajari setelah Anda berhasil melewati dampak pertama. Tutorial ini didedikasikan untuk pengguna tingkat menengah yang memiliki keterampilan yang diperlukan untuk mengikuti semua langkah, tetapi dapat menjadi inspirasi bagi semua orang untuk mengetahui cara meningkatkan keterampilan. Kita akan mulai dengan versi seluler, dan hal ini penting, karena Nunchuk memiliki perangkat lunak yang dapat dijalankan di komputer juga.
-
-
+Setelah lebih dari 4 tahun pengembangan dan penggunaan, Nunchuk siap dicoba dalam skala besar. Jika kamu seorang pemula dan belum terbiasa dengan Nunchuk, panduan ini akan membantu kamu mengambil langkah pertama dan menemukan perangkat lunak ini, yang fungsi-fungsi lanjutannya bisa kamu pelajari setelah melewati dampak pertama. Tutorial ini didedikasikan untuk pengguna tingkat menengah yang memiliki keterampilan untuk mengikuti semua langkah, tetapi dapat menjadi inspirasi bagi semua orang untuk mengetahui cara meningkatkan keterampilan. Kita akan mulai dengan versi seluler, dan hal ini penting, karena Nunchuk juga memiliki perangkat lunak yang dapat dijalankan di komputer.
 
 ## Unduh
 
+Langkah pertama tentu saja memutuskan di mana kamu akan mengunduh aplikasi ini. Kunjungi [situs resmi](https://nunchuk.io/) di mana kamu bisa menemukan beberapa dokumentasi (tidak banyak tetapi ini merupakan permulaan), presentasi fitur, serta di bagian akhir halaman, semua tautan unduhan.
 
-Langkah pertama tentu saja memutuskan di mana Anda akan mengunduh aplikasi ini. Kunjungi [situs resmi](https://nunchuk.io/) di mana Anda bisa menemukan beberapa dokumentasi (tidak banyak tetapi ini merupakan permulaan), presentasi fitur serta, di bagian akhir halaman, semua tautan unduhan.
-
-
-
-📌 Untuk tutorial ini, saya memutuskan untuk menunjukkan kepada Anda cara mengunduh Software Wallet dari repositori Github dan cara memverifikasi rilisnya sebelum memasangnya di ponsel Anda. **Prosedur berikut ini hanya dapat dilakukan dari komputer Anda**, jadi saya sarankan Anda melakukan semua langkah ini dari desktop atau laptop Anda dan - setelah semua verifikasi - mentransfer file `.apk` ke ponsel Anda.
+📌 Untuk tutorial ini, aku memutuskan untuk menunjukkan cara mengunduh Software Wallet dari repositori Github dan cara memverifikasi rilisnya sebelum memasangnya di ponsel kamu. **Prosedur berikut ini hanya dapat dilakukan dari komputer**, jadi aku sarankan melakukan semua langkah ini dari desktop atau laptop, dan setelah semua verifikasi, mentransfer file `.apk` ke ponsel.
 
 
 
@@ -32,15 +25,12 @@ Langkah pertama tentu saja memutuskan di mana Anda akan mengunduh aplikasi ini. 
 
 
 
-Jika kemampuan Anda belum terlalu mahir, Anda dapat memutuskan untuk mengunduh `.apk` dari toko resmi dan langsung melompat ke bagian konfigurasi tutorial ini. Sebaliknya, jika Anda ingin mencoba, ikuti terus langkah demi langkah.
+Jika kemampuan kamu belum terlalu mahir, kamu bisa memutuskan untuk mengunduh `.apk` dari toko resmi dan langsung melompat ke bagian konfigurasi tutorial ini. Sebaliknya, jika kamu ingin mencoba, ikuti terus langkah demi langkah.
 
+Jadi, dari komputer desktop kamu, klik _Kunjungi repositori sumber terbuka kami_.
 
+Tautan ini akan membawa kamu ke halaman Github Nunchuk, di mana kamu akan menemukan sejumlah repo. Kita akan fokus pada yang _nunchuk-android_.
 
-Jadi, dari komputer desktop Anda, klik _Kunjungi repositori sumber terbuka kami_
-
-
-
-Tautan ini akan membawa Anda ke halaman Github Nunchuk, di mana Anda akan menemukan sejumlah repo. Kami akan fokus pada yang _nunchuk-android_
 
 
 
@@ -72,9 +62,7 @@ Untuk menemukan kunci GPG pengembang, kembali ke bagian _Releases_ pada reposito
 
 
 
-Kami akan melanjutkan dengan verifikasi melalui alat praktis yang ditawarkan oleh Sparrow wallet, yang memiliki jendela khusus untuk tujuan ini dan mendukung tanda tangan PGP dan Manifes SHA256.
-
-
+Kami akan melanjutkan dengan verifikasi melalui alat praktis yang ditawarkan oleh Sparrow Wallet, yang memiliki jendela khusus untuk tujuan ini dan mendukung tanda tangan PGP serta Manifes SHA256.
 
 Kemudian jalankan Sparrow dan dari menu _Tools_ pilih _Verify Download_.
 
@@ -84,23 +72,20 @@ Kemudian jalankan Sparrow dan dari menu _Tools_ pilih _Verify Download_.
 
 
 
-Pada jendela yang muncul, Anda akan menemukan kolom-kolom untuk "diisi": pilih tombol _Browse_ di sebelah kanan dan pilih, untuk setiap kolom, file yang sesuai yang baru saja Anda unduh dari Github. Ketika Anda telah menyelesaikan semua langkah, jendela akan terlihat sebagai berikut, dengan tanda centang Green dan konfirmasi Hash pada manifes.
+Pada jendela yang muncul, kamu akan menemukan kolom-kolom untuk "diisi": pilih tombol _Browse_ di sebelah kanan dan pilih, untuk setiap kolom, file yang sesuai yang baru saja kamu unduh dari Github. Setelah semua langkah selesai, jendela akan terlihat seperti ini, dengan tanda centang hijau dan konfirmasi Hash pada manifes.
 
 
 
 ![image](assets/en/07.webp)
 
 
-**N.B. tangkapan layar berasal dari PC Windows, praktik yang sama dapat digunakan untuk sistem operasi apa pun di komputer Anda, cukup dengan menginstal Sparrow wallet. Dan terverifikasi!**
+**N.B. tangkapan layar berasal dari PC Windows, praktik yang sama bisa digunakan untuk sistem operasi apa pun di komputer kamu, cukup dengan menginstal Sparrow Wallet. Dan terverifikasi!**
 
-
-
-Anda dapat menemukan panduan untuk Sparrow wallet untuk mengunduh Software Wallet ini
-
+Kamu dapat menemukan panduan untuk Sparrow Wallet untuk mengunduh Software Wallet ini:
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
-Anda kemudian dapat mentransfer file `.apk` dari komputer ke ponsel Anda
+Kamu kemudian dapat mentransfer file `.apk` dari komputer ke ponsel.
 
 
 
@@ -116,7 +101,7 @@ dan menginstal Nunchuk
 
 
 
-Sebelum meluncurkan Nunchuk di ponsel Anda, buka Orbot dan letakkan pendatang baru di daftar aplikasi yang akan dirutekan di bawah Tor.
+Sebelum meluncurkan Nunchuk di ponsel kamu, buka Orbot dan letakkan pendatang baru di daftar aplikasi yang akan dirutekan di bawah Tor.
 
 
 
@@ -124,7 +109,7 @@ Sebelum meluncurkan Nunchuk di ponsel Anda, buka Orbot dan letakkan pendatang ba
 
 
 
-Sekarang jalankan Nunchuk. Untuk fitur-fitur proyek-yang bukan merupakan pokok bahasan dalam tutorial ini-Nunchuk, setelah dibuka, akan mengundang Anda untuk masuk melalui email atau profil Google. Sampai Anda berencana untuk memanfaatkan paket lanjutan Nunchuk Inc, **hindari login** dan lanjutkan dengan memilih opsi _Continue as guest_.
+Sekarang jalankan Nunchuk. Untuk fitur-fitur proyek — yang bukan merupakan pokok bahasan dalam tutorial ini — Nunchuk, setelah dibuka, akan mengundang kamu untuk masuk melalui email atau profil Google. Sampai kamu berencana memanfaatkan paket lanjutan Nunchuk Inc, **hindari login** dan lanjutkan dengan memilih opsi _Continue as guest_.
 
 
 
@@ -134,12 +119,10 @@ Sekarang jalankan Nunchuk. Untuk fitur-fitur proyek-yang bukan merupakan pokok b
 
 ## Pengaturan
 
+Nunchuk menampilkan jendela presentasi _Home_, di mana mudah untuk memahami filosofi pengoperasiannya, yang akan kita uraikan sebentar lagi.
 
-Nunchuk menampilkan jendela presentasi _Home_, di mana mudah untuk memahami filosofi pengoperasiannya dan yang akan kami uraikan sebentar lagi.
+Di bagian bawah, kamu akan menemukan menu, dan sebagai langkah pertama, pilih _Profile_ untuk mengakses pengaturan.
 
-
-
-Di bagian bawah, Anda dapat menemukan menu, dan sebagai langkah pertama, pilih _Profile_ untuk mengakses pengaturan.
 
 
 
@@ -155,7 +138,7 @@ Kemudian pilih _Pengaturan tampilan_, terus abaikan undangan untuk membuat akun.
 
 
 
-Pada layar di bawah ini Anda dapat memeriksa apakah Wallet online dan Anda dapat menghubungkan server Anda, dengan memperhatikan instruksi pada tautan yang ditawarkan dengan mengklik _guide_.
+Pada layar di bawah ini Anda dapat memeriksa apakah Wallet online dan kamu dapat menghubungkan server kamu, dengan memperhatikan instruksi pada tautan yang ditawarkan dengan mengklik _guide_.
 
 
 
@@ -171,7 +154,7 @@ Simpan pengaturan dengan perintah _Save network settings (Simpan pengaturan jari
 
 
 
-Dari menu ini Anda dapat mengatur cara mempertahankan pembukaan aplikasi. Untuk mencegah akses yang tidak diinginkan, Anda dapat melindungi Nunchuk dengan biometrik ponsel, dan/atau menambahkan PIN keamanan.
+Dari menu ini kamu dapat mengatur cara mempertahankan pembukaan aplikasi. Untuk mencegah akses yang tidak diinginkan, kamu dapat melindungi Nunchuk dengan biometrik ponsel, dan/atau menambahkan PIN keamanan.
 
 
 
@@ -179,7 +162,7 @@ Dari menu ini Anda dapat mengatur cara mempertahankan pembukaan aplikasi. Untuk 
 
 
 
-Lihat juga menu _Tentang_, yang akan selalu Anda temukan di jendela _Profil_
+Lihat juga menu _Tentang_, yang akan selalu kamu temukan di jendela _Profil_
 
 
 
@@ -187,7 +170,7 @@ Lihat juga menu _Tentang_, yang akan selalu Anda temukan di jendela _Profil_
 
 
 
-yang memungkinkan Anda memeriksa versi aplikasi, atau menghubungi pengembang jika diperlukan.
+yang memungkinkan kamu memeriksa versi aplikasi, atau menghubungi pengembang jika diperlukan.
 
 
 
@@ -198,15 +181,11 @@ yang memungkinkan Anda memeriksa versi aplikasi, atau menghubungi pengembang jik
 ## Generasi Kunci dan Wallet
 
 
-Seperti yang mudah ditebak dari filosofi Nunchuk, perangkat lunak ini dimaksudkan sebagai alat yang berguna untuk mengelola Dompet multi-tanda tangan. Untuk menjalankan fungsi ini, Nunchuk mengizinkan pembuatan Wallet dengan memisahkannya dari kunci yang diperlukan untuk mengatur tanda tangan digital.
+Seperti yang mudah ditebak dari filosofi Nunchuk, perangkat lunak ini dimaksudkan sebagai alat yang berguna untuk mengelola wallet multi-signature. Untuk menjalankan fungsi ini, Nunchuk mengizinkan pembuatan wallet dengan memisahkannya dari kunci yang diperlukan untuk mengatur tanda tangan digital.
 
+Faktanya, pengoperasian Nunchuk yang ideal melibatkan pembuatan wallet yang hanya dapat ditonton, bergantung pada kunci yang bersifat *air-gapped*.
 
-
-Faktanya, pengoperasian Nunchuk yang ideal melibatkan pembuatan Dompet yang hanya dapat ditonton, bergantung pada kunci yang dapat "masuk angin."
-
-
-
-Pada layar sebelumnya, Anda mungkin telah memperhatikan bahwa ada sebuah menu di bagian bawah yang disebut _Keys_. Jika Anda baru saja mengunduh Nunchuk, di _Home_ dan _Keys_, Anda akan melihat tombol besar yang mengundang Anda untuk menambahkan kunci, _Add Key_.
+Pada layar sebelumnya, kamu mungkin telah memperhatikan menu di bagian bawah yang disebut _Keys_. Jika kamu baru saja mengunduh Nunchuk, di _Home_ dan _Keys_, kamu akan melihat tombol besar yang mengundang untuk menambahkan kunci, _Add Key_.
 
 
 
@@ -217,13 +196,9 @@ Pada layar sebelumnya, Anda mungkin telah memperhatikan bahwa ada sebuah menu di
 
 
 
-**Beginilah cara kerja Nunchuk:** Pertama-tama Anda mengimpor kunci generate dan kemudian Anda membuat Wallet, mengkonfigurasinya untuk memilih kunci mana yang akan mengotorisasi pembukaan kunci dana yang tersimpan di dalamnya.
+**Beginilah cara kerja Nunchuk:** Pertama-tama kamu mengimpor kunci yang digenerate, kemudian membuat wallet, mengkonfigurasinya untuk memilih kunci mana yang akan mengotorisasi pembukaan dana yang tersimpan di dalamnya.
 
-
-
-Bahkan dalam kasus Wallet singlesig, Anda membuat kuncinya terlebih dahulu dan baru kemudian Wallet. Dan itulah yang akan kita lakukan sekarang, dimulai dengan Wallet singlesig untuk mencairkan suasana dan menemukan fungsi-fungsi Nunchuk.
-
-
+Bahkan dalam kasus wallet singlesig, kamu membuat kuncinya terlebih dahulu dan baru kemudian wallet. Dan itulah yang akan kita lakukan sekarang, dimulai dengan wallet singlesig untuk mencairkan suasana dan menemukan fungsi-fungsi Nunchuk.
 
 Klik _Tambahkan Kunci_
 
@@ -241,7 +216,7 @@ Nunchuk menampilkan sejumlah perangkat tanda tangan yang didukung, tetapi untuk 
 
 
 
-Nunchuk akan membuat generate menjadi Mnemonic yang akan disimpan pada perangkat. Anda kemudian perlu menuliskan urutan kata untuk pencadangan, menciptakan kondisi lingkungan terbaik dan memastikan Anda memiliki waktu untuk melakukannya dengan baik dan tenang. Perangkat lunak ini hanya menampilkan Mnemonic satu kali, apakah Anda memilih untuk menampilkannya sekarang atau nanti, jadi pilihlah _Create and backup now_.
+Nunchuk akan meng-generate Mnemonic yang akan disimpan pada perangkat. Kamu kemudian perlu menuliskan urutan kata untuk pencadangan, menciptakan kondisi lingkungan terbaik, dan memastikan kamu memiliki waktu untuk melakukannya dengan baik dan tenang. Perangkat lunak ini hanya menampilkan Mnemonic satu kali, apakah kamu memilih untuk menampilkannya sekarang atau nanti, jadi pilihlah _Create and backup now_.
 
 
 
@@ -257,10 +232,9 @@ Nunchuk menghasilkan kalimat Mnemonic 24 kata, yang langsung muncul di layar ber
 
 
 
-dan kemudian melanjutkan untuk melakukan pemeriksaan cepat, meminta Anda untuk memilih kata yang benar, dari 3 pilihan, sesuai dengan nomor dalam urutan Mnemonic.
+Dan kemudian lanjutkan untuk melakukan pemeriksaan cepat, meminta kamu memilih kata yang benar, dari 3 pilihan, sesuai dengan nomor dalam urutan Mnemonic.
 
-
-Jika Anda telah menulis Mnemonic dengan benar, tombol _Lanjutkan_ akan beroperasi. Tekan untuk melanjutkan.
+Jika kamu telah menulis Mnemonic dengan benar, tombol _Lanjutkan_ akan aktif. Tekan untuk melanjutkan.
 
 
 
@@ -268,7 +242,7 @@ Jika Anda telah menulis Mnemonic dengan benar, tombol _Lanjutkan_ akan beroperas
 
 
 
-Beri nama kunci Anda dan tekan _Lanjutkan_.
+Beri nama kunci kamu dan tekan _Lanjutkan_.
 
 
 
@@ -276,7 +250,7 @@ Beri nama kunci Anda dan tekan _Lanjutkan_.
 
 
 
-Pada akhir langkah ini, Anda akan ditanya apakah akan menambahkan [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) pada frasa Mnemonic Anda. Jika Anda tidak memiliki pengetahuan yang diperlukan tentang cara menggunakan passphrase, mengatur cadangannya, atau bagaimana cara kerjanya, saya sarankan Anda memilih _Saya tidak memerlukan frasa sandi_.
+Pada akhir langkah ini, kamu akan ditanya apakah akan menambahkan [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) pada frasa Mnemonic kamu. Jika kamu tidak memiliki pengetahuan yang diperlukan tentang cara menggunakan passphrase, mengatur cadangannya, atau bagaimana cara kerjanya, aku sarankan memilih _Saya tidak memerlukan frasa sandi_.
 
 
 
@@ -284,19 +258,15 @@ Pada akhir langkah ini, Anda akan ditanya apakah akan menambahkan [passphrase](h
 
 
 
-Kunci akhirnya dibuat dan ditampilkan kepada Anda dalam menu:
-
-
-
+Kunci akhirnya dibuat dan ditampilkan kepada kamu dalam menu:
 
 - Dengan _Key Spec_, sidik jari utama ditunjukkan
-- Anda memiliki pengaturan, tiga titik di kanan atas, di mana Anda dapat menghapus kunci atau menandatangani pesan
-- Di samping nama tuts, Anda akan menemukan ikon pena, dengan mengekliknya Anda dapat mengedit nama tuts, misalnya untuk menertibkan tuts Anda di masa mendatang.
-- Sebagai perintah terakhir, Anda dapat memeriksa status kesehatan kunci: dengan menekan _Run health check_, Anda dapat meminta aplikasi untuk memeriksa apakah ada kunci yang terganggu.
+- Kamu memiliki pengaturan, tiga titik di kanan atas, di mana kamu dapat menghapus kunci atau menandatangani pesan
+- Di samping nama key, kamu akan menemukan ikon pena; dengan mengekliknya kamu dapat mengedit nama key, misalnya untuk menertibkan key di masa mendatang
+- Sebagai langkah terakhir, kamu dapat memeriksa status kesehatan kunci: dengan menekan _Run health check_, kamu dapat meminta aplikasi untuk memeriksa apakah ada kunci yang terganggu
 
+Setelah merasa puas, klik _Selesai_
 
-
-Setelah Anda merasa puas, klik _Selesai_
 
 
 
@@ -304,7 +274,7 @@ Setelah Anda merasa puas, klik _Selesai_
 
 
 
-Pada menu _Keys_, Anda akan melihat tombol pertama Anda muncul.
+Pada menu _Keys_, kamu akan melihat tombol pertama Anda muncul.
 
 
 
@@ -320,12 +290,9 @@ Dengan masuk ke menu _Home_, opsi untuk membuat Wallet akan muncul. Klik _Buat d
 
 
 
-Nunchuk menunjukkan kepada Anda sejumlah kemungkinan yang sebagian besar berkaitan dengan layanan yang ditawarkan perusahaan yang bukan merupakan subjek dari tutorial ini.
+Nunchuk menunjukkan sejumlah kemungkinan yang sebagian besar berkaitan dengan layanan perusahaan yang bukan merupakan subjek tutorial ini.
 
-
-
-Dalam panduan ini kita akan membuat _Hot Wallet dan _Dompet khusus_ dengan merinci detailnya.
-
+Dalam panduan ini kita akan membuat _Hot Wallet_ dan _Dompet khusus_ dengan merinci detailnya.
 
 Mari kita mulai dengan _Custom wallet_.
 
@@ -335,7 +302,7 @@ Mari kita mulai dengan _Custom wallet_.
 
 
 
-Secara sederhana, aplikasi ini akan meminta Anda untuk menamai Wallet yang baru ini dan memilih skrip untuk alamatnya. Untuk tutorial ini, saya memilih untuk membiarkan pengaturan default, _Native segwit_. Setelah Anda selesai, pilih _Lanjutkan_
+Secara sederhana, aplikasi ini akan meminta kamu menamai wallet baru ini dan memilih skrip untuk alamatnya. Untuk tutorial ini, aku memilih membiarkan pengaturan default, _Native segwit_. Setelah selesai, pilih _Lanjutkan_.
 
 
 
@@ -343,7 +310,7 @@ Secara sederhana, aplikasi ini akan meminta Anda untuk menamai Wallet yang baru 
 
 
 
-Konfigurasi Wallet selanjutnya meminta Anda untuk mengatur dengan kunci mana dana Wallet ini akan dibuka. Jika terdapat beberapa kunci, Anda akan diperlihatkan daftar yang dapat dipilih. Untuk saat ini kami hanya membuat satu kunci, jadi kami memilih untuk memberi tanda centang pada kunci tersebut. Pada sudut kanan bawah, anda dapat melihat bagaimana Nunchuk akan meminta anda untuk mengatur multi-signature Wallet yang akan anda buat, dengan menambah jumlah _Kunci yang dibutuhkan_.
+Konfigurasi wallet selanjutnya meminta kamu mengatur kunci mana yang akan membuka dana wallet ini. Jika ada beberapa kunci, kamu akan diperlihatkan daftar yang dapat dipilih. Saat ini kita hanya membuat satu kunci, jadi kita memberi tanda centang pada kunci tersebut. Di sudut kanan bawah, kamu dapat melihat bagaimana Nunchuk akan meminta kamu mengatur multi-signature wallet yang akan dibuat, dengan menambah jumlah _Kunci yang dibutuhkan_.
 
 
 
@@ -355,7 +322,7 @@ Karena kita sedang membuat single, kita tinggalkan `1` dan klik _Continue_.
 
 
 
-Terakhir, layar verifikasi muncul, di mana Anda dapat memeriksa fitur-fitur Wallet:
+Terakhir, layar verifikasi muncul, di mana kamu dapat memeriksa fitur-fitur Wallet:
 
 
 
@@ -375,7 +342,7 @@ Setelah Anda puas, tekan _Buat dompet_
 
 
 
-Wallet telah dibuat dan Anda dapat mengunduh file [.BSMS](https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) sebagai cadangan. Untuk kembali ke menu utama, klik tanda panah di sudut kiri atas.
+Wallet telah dibuat dan kamu dapat mengunduh file [.BSMS](https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) sebagai cadangan. Untuk kembali ke menu utama, klik tanda panah di sudut kiri atas.
 
 
 
@@ -383,7 +350,7 @@ Wallet telah dibuat dan Anda dapat mengunduh file [.BSMS](https://github.com/Bit
 
 
 
-Anda berada di _Home_, di mana Anda diperlihatkan Wallet yang baru saja dibuat yang melaporkan saldo dan status koneksi. Dengan mengklik di ruang biru, Anda dapat mengakses fungsi utama Wallet.
+Kamu berada di _Home_, di mana ditampilkan wallet yang baru saja dibuat beserta saldo dan status koneksinya. Dengan mengklik di ruang biru, kamu dapat mengakses fungsi utama wallet.
 
 
 
@@ -394,7 +361,7 @@ Anda berada di _Home_, di mana Anda diperlihatkan Wallet yang baru saja dibuat y
 
 
 - Ikon lensa di sudut kanan atas memungkinkan Anda melakukan pencarian transaksi;
-- `Lihat konfigurasi Wallet` memberikan akses ke menu konfigurasi, di mana Anda dapat mengedit nama Wallet dan mengaktifkan opsi lanjutan, di kanan atas (di mana Anda tidak dapat mengambil tangkapan layar). Di sini Anda dapat mengekspor konfigurasi Wallet, label, mengganti kunci, mengubah [gap limit](https://planb.academy/en/resources/glossary/gap-limit) dan banyak lagi.
+- `Lihat konfigurasi Wallet` memberikan akses ke menu konfigurasi, di mana kamu dapat mengedit nama Wallet dan mengaktifkan opsi lanjutan, di kanan atas (di mana kamu tidak dapat mengambil tangkapan layar). Di sini kamu dapat mengekspor konfigurasi Wallet, label, mengganti kunci, mengubah [gap limit](https://planb.academy/en/resources/glossary/gap-limit) dan banyak lagi.
 
 
 
@@ -434,7 +401,7 @@ tetapi kita masih mengklik _Receive_ untuk menerima yang lain.
 
 
 
-Tujuannya adalah agar Anda mengetahui bahwa Nunchuk melaporkan Address baru ini kepada Anda sebagai _Alamat yang tidak digunakan_, tetapi juga menunjukkan kepada Anda bahwa Anda memiliki _Alamat yang digunakan_ dan jumlahnya.
+Tujuannya adalah agar kamu mengetahui bahwa Nunchuk melaporkan alamat baru ini sebagai _Alamat yang tidak digunakan_, tetapi juga menunjukkan bahwa kamu memiliki _Alamat yang digunakan_ beserta jumlahnya.
 
 
 
@@ -450,7 +417,7 @@ Ketika UTXO kedua ini juga telah tiba, kembali ke layar utama Wallet untuk memer
 
 
 
-di mana Anda akan diperlihatkan masing-masing UTXO. Di sini Anda dapat memilih untuk melihat satu per satu dengan mengklik panah kecil di sebelah jumlah
+di mana kamu akan diperlihatkan masing-masing UTXO. Di sini kamu dapat memilih untuk melihat satu per satu dengan mengklik panah kecil di sebelah jumlah
 
 
 
@@ -465,12 +432,10 @@ dan periksa kapan tiba, deskripsinya, blokir UTXO agar tidak dibelanjakan, dan l
 ![image](assets/en/44.webp)
 
 
+Tetapi jika kamu kembali ke menu _Coins_ dengan mengklik panah di sudut kanan atas, kamu dapat mengaktifkan "Coin Control" untuk membelanjakan UTXO dengan cara yang lebih terkontrol.
 
-Tetapi jika Anda kembali ke menu _Coins_ dengan mengklik panah di sudut kanan atas, Anda dapat mengaktifkan "Coin Control" untuk membelanjakan UTXO Anda dengan cara yang lebih terkontrol.
+Dalam contoh berikut, aku memilih UTXO sebesar 21.000 Sats, kemudian klik simbol di sudut kiri bawah.
 
-
-
-Dalam contoh berikut ini, saya memilih untuk memilih UTXO dari 21.000 Sats, kemudian klik simbol di sudut kiri bawah.
 
 
 
@@ -478,7 +443,7 @@ Dalam contoh berikut ini, saya memilih untuk memilih UTXO dari 21.000 Sats, kemu
 
 
 
-Nunchuk secara otomatis membuka jendela _New transaction_ untuk membelanjakan UTXO ini. Dalam transaksi pembelanjaan, pertama-tama, Anda harus mengatur jumlahnya secara manual atau dengan memilih _Send all selected_ untuk mengirim semua saldo kontrol koin, tanpa menghasilkan sisa. Setelah jumlahnya ditetapkan, pilih _Lanjutkan_
+Nunchuk secara otomatis membuka jendela _New transaction_ untuk membelanjakan UTXO ini. Dalam transaksi pembelanjaan, pertama-tama kamu harus mengatur jumlahnya secara manual atau dengan memilih _Send all selected_ untuk mengirim semua saldo kontrol koin, tanpa menghasilkan sisa. Setelah jumlahnya ditetapkan, pilih _Lanjutkan_.
 
 
 
@@ -494,7 +459,7 @@ Sekarang Nunchuk menunjukkan ke mana harus menempelkan Address untuk mentransfer
 
 
 
-Memilih _Buat transaksi_ akan mendelegasikan biaya otomatis dan manajemen transaksi ke aplikasi. Saya sarankan untuk memilih _Custom transaction_ untuk kontrol yang lebih besar.
+Memilih _Buat transaksi_ akan mendelegasikan biaya otomatis dan manajemen transaksi ke aplikasi.Aku sarankan untuk memilih _Custom transaction_ untuk kontrol yang lebih besar.
 
 
 
@@ -524,7 +489,7 @@ Layar berikutnya adalah ringkasan lengkap dari transaksi. Jika semuanya baik-bai
 
 
 
-Dengan _Tanda tangan tertunda_, Nunchuk memberi tahu Anda bahwa transaksi sedang menunggu tanda tangan Anda untuk menyetujui pengeluaran, yang Anda lampirkan dengan mengeklik _Tanda tangan_.
+Dengan _Tanda tangan tertunda_, Nunchuk memberi tahu kamu bahwa transaksi sedang menunggu tanda tangan untuk menyetujui pengeluaran, yang kamu lampirkan dengan mengeklik _Tanda tangan_.
 
 
 
@@ -552,11 +517,9 @@ Sementara di halaman utama Wallet kita melihat transaksi keluar dan menunggu kon
 
 
 
-Mengklik _Kirim_, pada kenyataannya, akan memunculkan layar untuk mengirim transaksi, yang sama dengan yang baru saja dilihat tetapi tanpa melalui kontrol koin.
+Mengklik _Kirim_ akan memunculkan layar untuk mengirim transaksi, sama seperti sebelumnya tetapi tanpa melalui kontrol koin.
 
-
-
-Pada contoh kedua ini, saya memutuskan untuk memilih _Transaksi khusus_ dan mengirimkan seluruh jumlah, tetapi saya bisa saja mengaturnya secara manual. Setelah Anda memutuskan jumlah yang akan dikirim, tekan _Continue_.
+Dalam contoh kedua ini, aku memilih _Transaksi khusus_ dan mengirim seluruh jumlah, tetapi kamu bisa mengaturnya secara manual. Setelah menentukan jumlah yang akan dikirim, tekan _Continue_.
 
 
 
@@ -620,7 +583,7 @@ Pada menu _Home_ Nunchuk, di mana daftar Dompet muncul, klik `+` di sudut kanan 
 
 
 
-Pilih _Dompet panas_ dari opsi
+Pilih _hot wallet_ dari opsi
 
 
 
@@ -636,7 +599,7 @@ Nunchuk memberikan beberapa saran untuk menangani Dompet Hot di halaman presenta
 
 
 
-Setelah beberapa saat, Wallet akan dibuat dan muncul dalam daftar dengan warna kecoklatan. Ini adalah warna yang digunakan Nunchuk untuk memperingatkan Anda bahwa Anda belum mencadangkan Wallet.
+Setelah beberapa saat, Wallet akan dibuat dan muncul dalam daftar dengan warna kecoklatan. Ini adalah warna yang digunakan Nunchuk untuk memperingatkan bahwa kamu belum mencadangkan Wallet.
 
 
 
@@ -644,7 +607,7 @@ Setelah beberapa saat, Wallet akan dibuat dan muncul dalam daftar dengan warna k
 
 
 
-Klik pada nama Wallet, untuk mengakses konfigurasinya, dan Anda mungkin akan melihat undangan untuk segera mencadangkan frasa Mnemonic.
+Klik pada nama Wallet, untuk mengakses konfigurasinya, dan kamu mungkin akan melihat undangan untuk segera mencadangkan frasa Mnemonic.
 
 
 
@@ -652,7 +615,7 @@ Klik pada nama Wallet, untuk mengakses konfigurasinya, dan Anda mungkin akan mel
 
 
 
-Prosedurnya sama seperti yang telah kita lihat sebelumnya, jadi kita tidak akan mengulanginya lagi. Setelah selesai, Nunchuk akan membawa Anda ke halaman kunci yang relevan, yang dapat Anda edit seperti yang Anda buat dengan prosedur _Custom_.
+Prosedurnya sama seperti yang telah kita lihat sebelumnya, jadi kita tidak akan mengulanginya lagi. Setelah selesai, Nunchuk akan membawa kamu ke halaman kunci yang relevan, yang dapat kamu edit seperti saat membuat prosedur _Custom_.
 
 
 
@@ -668,7 +631,7 @@ Coba juga _Periksa kesehatan_
 
 
 
-atau untuk melihat cara menampilkan semua Dompet Anda di _Home_ aplikasi.
+atau untuk melihat cara menampilkan semua Dompet kamu di _Home_ aplikasi.
 
 
 
@@ -678,13 +641,8 @@ atau untuk melihat cara menampilkan semua Dompet Anda di _Home_ aplikasi.
 
 ## Agar selalu ingat untuk melanjutkan secara mandiri
 
+Sama seperti urutan pembuatannya, yaitu pertama-tama membuat kunci dan kemudian wallet, kamu harus mempertahankan urutan sebaliknya untuk menghapus item ini dari aplikasi.
 
-Sama seperti urutan pembuatannya, yaitu pertama-tama membuat kunci dan kemudian Wallet, Anda harus mempertahankan urutan sebaliknya untuk menghapus item ini dari aplikasi Anda.
+Jika kamu ingin menghapus salah satu kunci, kamu harus terlebih dahulu menghapus wallet yang menggunakan kunci tersebut untuk transaksi: pertama-tama hapus wallet, baru kemudian kuncinya. Jika tidak mengikuti urutan ini, kamu tidak akan bisa menghapus kunci tersebut.
 
-
-
-Jika Anda ingin menghapus salah satu kunci, Anda harus terlebih dahulu menghapus Wallet, atau Dompet, yang menggunakan salah satu kunci tanda tangan untuk transaksi: pertama-tama Anda harus menghapus Dompet, baru kemudian kuncinya. Jika Anda tidak mengikuti urutan ini, Anda tidak akan dapat menghapus kunci tersebut.
-
-
-
-Sekarang setelah Anda mengetahui cara memulai dengan Nunchuk, Anda dapat terus mempelajari aplikasi ini dan menemukan rahasianya. Dalam tutorial ini, kami hanya mengambil langkah pertama, tetapi ada aplikasi yang lebih canggih dan kebutuhan tingkat lanjut yang dapat Anda penuhi dengan Software Wallet ini.
+Sekarang setelah mengetahui cara memulai dengan Nunchuk, kamu dapat terus mempelajari aplikasi ini dan menemukan rahasianya. Dalam tutorial ini, kita hanya mengambil langkah pertama, tetapi ada aplikasi yang lebih canggih dan kebutuhan tingkat lanjut yang bisa kamu penuhi dengan software wallet ini.

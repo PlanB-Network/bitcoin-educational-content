@@ -1,21 +1,22 @@
 ---
 name: Bitcoin Keeper - Rencana Warisan
-description: Rencanakan pengiriman bitcoin Anda dengan Bitcoin Keeper
+description: Rencanakan pengiriman bitcoin milikmu dengan Bitcoin Keeper
 ---
 
 ![cover](assets/cover.webp)
 
 
 
-Pengalihan aset Bitcoin merupakan salah satu tantangan yang paling diremehkan oleh para pemegangnya. Tidak seperti rekening bank, di mana lembaga keuangan dapat memberikan dana kepada ahli waris yang sah, Bitcoin sepenuhnya bergantung pada kepemilikan kunci pribadi. Ahli waris yang sah secara hukum tidak akan pernah dapat mengakses dana tanpa kunci ini, sementara orang jahat yang memiliki rahasia tersebut dapat membelanjakannya tanpa formalitas.
+Pengalihan aset Bitcoin adalah salah satu tantangan yang paling sering diremehkan oleh para pemegangnya. Tidak seperti rekening bank, di mana lembaga keuangan dapat menyalurkan dana kepada ahli waris yang sah, Bitcoin sepenuhnya bergantung pada kepemilikan private key. Ahli waris yang sah secara hukum tidak akan pernah bisa mengakses dana tanpa kunci ini, sementara pihak jahat yang memegang rahasia tersebut dapat membelanjakannya tanpa formalitas apa pun.
 
 
 
-Dalam tutorial Bitcoin Keeper kedua ini, kita akan menjelajahi fitur-fitur premium yang didedikasikan untuk perencanaan warisan. Aplikasi ini menawarkan alat canggih untuk membuat Brankas yang Disempurnakan, dengan mekanisme perlindungan berjangka waktu berkat Miniscript, serta dokumen yang menyertai untuk memandu orang yang Anda cintai.
+Dalam tutorial Bitcoin Keeper kedua ini, kita akan menjelajahi fitur-fitur premium yang didedikasikan untuk perencanaan warisan. Aplikasi ini menawarkan alat canggih untuk membuat **Enhanced Vault**, dengan mekanisme perlindungan berbasis waktu berkat Miniscript, serta dokumen pendukung untuk memandu orang-orang yang kamu cintai.
 
 
 
-Panduan ini mengasumsikan bahwa Anda telah menguasai dasar-dasar Bitcoin Keeper (pembuatan portofolio, multisig klasik, menambahkan kunci perangkat keras) seperti yang dijelaskan dalam tutorial pertama kami:
+Panduan ini mengasumsikan bahwa kamu telah menguasai dasar-dasar Bitcoin Keeper (pembuatan portofolio, multisig klasik, menambahkan hardware wallet) seperti yang dijelaskan dalam tutorial pertama kami:
+
 
 
 
@@ -29,7 +30,7 @@ https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-
 
 
 
-Bitcoin Keeper beroperasi dengan model freemium dengan tiga tingkat langganan yang menawarkan fungsionalitas progresif. Untuk mengakses paket, buka tab **Lainnya**, lalu ketuk paket Anda saat ini (standarnya adalah "Pleb") untuk membuka layar **Kelola Langganan**.
+Bitcoin Keeper beroperasi dengan model freemium dengan tiga tingkat langganan yang menawarkan fungsionalitas secara bertahap. Untuk mengakses paketnya, buka tab **Lainnya**, lalu ketuk paket kamu saat ini (standarnya adalah "Pleb") untuk membuka layar **Kelola Langganan**.
 
 
 
@@ -37,19 +38,20 @@ Bitcoin Keeper beroperasi dengan model freemium dengan tiga tingkat langganan ya
 
 
 
-Paket **Pleb** (gratis) menyediakan akses ke hal-hal penting: pembuatan dompet satu kunci dan multi-kunci yang tidak terbatas, kompatibilitas dengan semua dompet perangkat keras utama (Coldcard, Trezor, Ledger, Jade, Tapsigner...), kontrol koin, pelabelan, dan koneksi ke server Electrum pribadi. Paket ini cukup untuk penggunaan standar dan bahkan untuk konfigurasi multi-sig klasik.
+Paket **Pleb** (gratis) menyediakan akses ke hal-hal penting: pembuatan dompet satu kunci dan multi-kunci tanpa batas, kompatibilitas dengan semua hardware wallet utama (Coldcard, Trezor, Ledger, Jade, Tapsigner...), coin control, pelabelan, serta koneksi ke server Electrum pribadi. Paket ini sudah cukup untuk penggunaan standar, bahkan untuk konfigurasi multi-sig klasik.
 
 
 
-Paket **Hodler** (€9.99/bulan, dengan gratis 1 bulan jika dibayar tahunan) mencakup semua fitur Pleb dan menambahkan cadangan terenkripsi ke awan (iCloud atau Google Drive) untuk memulihkan brankas Anda di perangkat apa pun, Kunci Server untuk menambahkan kebijakan pengeluaran otomatis dan 2FA di atas ambang batas tertentu, dan Dompet Kenari untuk mendeteksi akses tidak sah ke kunci Anda.
+Paket **Hodler** (€9.99/bulan, dengan gratis 1 bulan jika dibayar tahunan) mencakup semua fitur Pleb dan menambahkan cadangan terenkripsi ke cloud (iCloud atau Google Drive) untuk memulihkan brankas kamu di perangkat apa pun, **Server Key** untuk menambahkan kebijakan pengeluaran otomatis dan 2FA di atas ambang batas tertentu, serta **Canary Wallet** untuk mendeteksi akses tidak sah ke kunci kamu.
 
 
 
-Paket **Diamond Hands** (€29.99/bulan, dengan gratis 1 bulan jika dibayar setiap tahun) adalah paket lengkap untuk perencanaan warisan. Paket ini mencakup seluruh paket Hodler dan membuka Kunci Warisan (aktivasi yang ditangguhkan), Kunci Darurat (kunci darurat untuk pemulihan jika terjadi kehilangan), alat dan dokumen Perencanaan Warisan, dan panggilan dukungan dengan tim Concierge untuk memvalidasi konfigurasi Anda. Ini adalah penawaran bagi para bitcoiners yang ingin mewariskan warisan mereka selama beberapa generasi.
+Paket **Diamond Hands** (€29.99/bulan, dengan gratis 1 bulan jika dibayar tahunan) adalah paket paling lengkap untuk perencanaan warisan. Paket ini mencakup seluruh fitur Hodler dan membuka **Inheritance Key** (aktivasi tertunda), **Emergency Key** (kunci darurat untuk pemulihan jika terjadi kehilangan), alat serta dokumen **Inheritance Planning**, dan panggilan dukungan dengan tim Concierge untuk memvalidasi konfigurasi kamu. Ini adalah penawaran untuk para bitcoiner yang ingin mewariskan aset mereka lintas generasi.
 
 
 
-Poin penting: brankas yang telah Anda buat akan tetap dapat diakses meskipun Anda kembali ke paket gratis. Konfigurasi Anda didasarkan pada standar terbuka (BSMS, Miniscript) dan beroperasi secara independen dari langganan Anda.
+Poin penting: brankas yang sudah kamu buat akan tetap bisa diakses meskipun kamu kembali ke paket gratis. Konfigurasi kamu berbasis standar terbuka (BSMS, Miniscript) dan beroperasi secara independen dari status langganan kamu.
+
 
 
 
@@ -57,7 +59,7 @@ Poin penting: brankas yang telah Anda buat akan tetap dapat diakses meskipun And
 
 
 
-Setelah Anda mengaktifkan langganan Diamond Hands, akses bagian **Dokumen Warisan** dari tab Lainnya. Bitcoin Keeper menyediakan lima contoh dokumen untuk menyusun rencana warisan Anda, serta bagian tips:
+Setelah kamu mengaktifkan langganan Diamond Hands, buka bagian **Dokumen Warisan** dari tab **Lainnya**. Bitcoin Keeper menyediakan lima contoh dokumen untuk membantu menyusun rencana warisan kamu, serta satu bagian berisi tips:
 
 
 
@@ -67,19 +69,20 @@ Setelah Anda mengaktifkan langganan Diamond Hands, akses bagian **Dokumen Warisa
 
 
 
-- Templat Kata Benih**: templat untuk mencatat frasa pemulihan Anda dengan rapi secara terorganisir
-- Kontak Tepercaya**: templat untuk mencantumkan rincian kontak orang-orang tepercaya yang terlibat dalam rencana Anda (notaris, pengacara, ahli waris, pemegang kunci)
-- Kunci Berbagi Tambahan**: dokumen yang merinci informasi teknis untuk setiap kunci: Kode PIN, jalur turunan, lokasi fisik, jenis perangkat, dan informasi lain yang berguna untuk mengidentifikasi dan menggunakan kunci
-- Petunjuk Pemulihan**: petunjuk langkah demi langkah bagi ahli waris atau penerima manfaat untuk memulihkan dana
-- Surat untuk Pengacara**: surat yang telah diisi sebelumnya yang dapat disesuaikan untuk pengacara atau notaris Anda
+- **Template Seedphrase**: template untuk mencatat seedphrase kamu dengan rapi dan terorganisir
+- **Kontak Tepercaya**: template untuk mencantumkan detail kontak orang-orang tepercaya yang terlibat dalam rencana kamu (notaris, pengacara, ahli waris, pemegang kunci)
+- **Kunci Berbagi Tambahan**: dokumen yang merinci informasi teknis untuk setiap kunci, seperti PIN, jalur derivasi, lokasi fisik, jenis perangkat, dan informasi lain yang berguna untuk mengidentifikasi serta menggunakan kunci
+- **Petunjuk Pemulihan**: panduan langkah demi langkah bagi ahli waris atau penerima manfaat untuk memulihkan dana
+- **Surat untuk Pengacara**: surat siap pakai yang dapat disesuaikan untuk pengacara atau notaris kamu
 
 
 
-Bagian **Tips Warisan** menawarkan saran praktis untuk mengamankan kunci bagi ahli waris dan mengoptimalkan rencana warisan Anda.
+
+Bagian **Tips Warisan** menawarkan saran praktis untuk mengamankan kunci bagi ahli waris dan mengoptimalkan rencana warisan.
 
 
 
-Sesuaikan dokumen-dokumen ini agar sesuai dengan situasi Anda, dan simpanlah di tempat yang aman, terpisah dari kunci itu sendiri.
+Sesuaikan dokumen-dokumen ini agar sesuai dengan situasi kamu, dan simpanlah di tempat yang aman, terpisah dari kunci itu sendiri.
 
 
 
@@ -87,7 +90,7 @@ Sesuaikan dokumen-dokumen ini agar sesuai dengan situasi Anda, dan simpanlah di 
 
 
 
-Sebelum membuat brankas lama, aktifkan pencadangan awan untuk melindungi file konfigurasi Anda. Dari tab Lainnya, tekan **Cadangan Cloud Pribadi**.
+Sebelum membuat brankas lama, aktifkan pencadangan awan untuk melindungi file konfigurasi kamu. Dari tab Lainnya, tekan **Cadangan Cloud Pribadi**.
 
 
 
@@ -95,7 +98,7 @@ Sebelum membuat brankas lama, aktifkan pencadangan awan untuk melindungi file ko
 
 
 
-Pilih kata sandi yang kuat untuk mengenkripsi cadangan Anda. Kata sandi ini hanya melindungi file konfigurasi wallet (bukan kunci pribadi Anda). Konfirmasikan kata sandi dan tekan **Konfirmasi**. Cadangan Anda akan disimpan di iCloud atau Google Drive, tergantung pada perangkat Anda. Tekan **Backup Now** untuk meluncurkan pencadangan pertama Anda.
+Pilih kata sandi yang kuat untuk mengenkripsi cadangan kamu. Kata sandi ini hanya melindungi file konfigurasi wallet, bukan private key kamu. Konfirmasikan kata sandi tersebut dan tekan **Konfirmasi**. Cadangan kamu akan disimpan di iCloud atau Google Drive, tergantung pada perangkat yang kamu gunakan. Tekan **Backup Now** untuk memulai pencadangan pertama kamu.
 
 
 
@@ -136,7 +139,7 @@ https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb
 https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 
-Setelah semua kunci Anda diimpor, Anda akan menemukannya di tab Kunci dengan nama khusus.
+Setelah semua kunci kamu diimpor, kamu akan menemukannya di tab Kunci dengan nama khusus.
 
 
 
@@ -170,7 +173,7 @@ Pada popup Opsi Keamanan yang Ditingkatkan, centang :
 
 
 
-Tekan **Simpan Perubahan**. Kemudian pilih 3 kunci yang akan membentuk wallet Anda dari yang diimpor (mis. Kunci Benih, Coldcard MK4SP, dan Tapsigner Metro).
+Tekan **Simpan Perubahan**. Kemudian pilih 3 kunci yang akan membentuk wallet kamu dari yang diimpor (mis. Seedphrase, Coldcard MK4SP, dan Tapsigner Metro).
 
 
 
@@ -178,7 +181,7 @@ Tekan **Simpan Perubahan**. Kemudian pilih 3 kunci yang akan membentuk wallet An
 
 
 
-Layar berikutnya memungkinkan Anda mengonfigurasi Tombol Darurat dan Tombol Warisan. Di sinilah Anda menentukan penundaan yang mengatur aktivasi kunci khusus ini.
+Layar berikutnya memungkinkan kamu mengonfigurasi Tombol Darurat dan Tombol Warisan. Di sinilah kamu menentukan penundaan yang mengatur aktivasi kunci khusus ini.
 
 
 
@@ -186,11 +189,11 @@ Layar berikutnya memungkinkan Anda mengonfigurasi Tombol Darurat dan Tombol Wari
 
 
 
-Untuk **Kunci Darurat**, pilih kunci perangkat keras yang akan berfungsi sebagai cadangan utama (di sini Coldcard MK4) dan pilih penundaan aktivasi (dalam contoh kami: 2 tahun). Tidak seperti Kunci Warisan, Kunci Darurat tidak menambah kuorum: kunci ini memungkinkan Anda untuk **memotong multisig** sepenuhnya, dan memberikan Anda kendali penuh atas dana setelah batas waktu berakhir. Ini adalah solusi terakhir Anda: jika beberapa kunci hilang atau dihancurkan, kunci tunggal ini memungkinkan Anda untuk memulihkan semuanya. Oleh karena itu, kunci ini harus dilindungi dengan sangat ketat.
+Untuk **Kunci Darurat**, pilih hardware wallet yang akan berfungsi sebagai cadangan utama (di sini Coldcard MK4) dan tentukan penundaan aktivasi (dalam contoh ini: 2 tahun). Berbeda dengan Kunci Warisan, Kunci Darurat tidak menambah kuorum. Kunci ini memungkinkan kamu untuk **memotong multisig** sepenuhnya dan memberi kamu kendali penuh atas dana setelah batas waktu berakhir. Ini adalah solusi terakhir kamu: jika beberapa kunci hilang atau dihancurkan, satu kunci ini memungkinkan kamu memulihkan semuanya. Karena itu, kunci ini harus dilindungi dengan sangat ketat.
 
 
 
-Untuk **Kunci Warisan**, pilih kunci yang ditujukan untuk ahli waris (di sini Coldcard MK4SP) dan pilih penundaan (dalam contoh kami: 1 tahun). Setelah satu tahun tanpa pergerakan, kunci ini **akan ditambahkan ke kuorum tanda tangan**. Secara praktis, wallet 2-of-3 Anda akan menjadi wallet 2-of-4 setelah periode ini berlalu, sehingga ahli waris dapat berpartisipasi dalam penandatanganan bersama dengan kunci yang ada.
+Untuk **Kunci Warisan**, pilih kunci yang ditujukan untuk ahli waris (di sini Coldcard MK4SP) dan tentukan penundaan (dalam contoh ini: 1 tahun). Setelah satu tahun tanpa aktivitas, kunci ini **akan ditambahkan ke kuorum tanda tangan**. Secara praktis, wallet 2-of-3 kamu akan menjadi wallet 2-of-4 setelah periode ini berlalu, sehingga ahli waris dapat ikut serta dalam proses penandatanganan bersama kunci-kunci yang sudah a
 
 
 
@@ -198,15 +201,16 @@ Untuk **Kunci Warisan**, pilih kunci yang ditujukan untuk ahli waris (di sini Co
 
 
 
-Bitcoin Keeper menggunakan **pengunci waktu absolut** (CLTV - CheckLockTimeVerify), yang dimungkinkan oleh Miniscript. Tidak seperti penguncian waktu relatif (CSV), yang dimulai ketika setiap UTXO diterima, penguncian waktu absolut bekerja dengan **tanggal kedaluwarsa tetap** yang ditentukan ketika wallet dibuat.
+Bitcoin Keeper menggunakan **absolute timelock** (CLTV - CheckLockTimeVerify), yang dimungkinkan oleh Miniscript. Berbeda dengan relative timelock (CSV), yang mulai berjalan saat setiap UTXO diterima, absolute timelock bekerja dengan **tanggal kedaluwarsa tetap** yang ditentukan ketika wallet dibuat.
 
 
 
-Secara konkret, jika Anda membuat wallet hari ini dengan Inheritance Key 1 tahun, tanggal aktivasi adalah "hari ini + 1 tahun". Semua dana yang disimpan dalam wallet ini, kapan pun tanggal penyetorannya, akan dapat diakses melalui Kunci Warisan pada tanggal yang sama.
+Secara konkret, jika kamu membuat wallet hari ini dengan Inheritance Key selama 1 tahun, maka tanggal aktivasinya adalah "hari ini + 1 tahun". Semua dana yang disimpan di wallet ini, kapan pun tanggal penyetorannya, akan bisa diakses melalui Kunci Warisan pada tanggal yang sama.
 
 
 
-Keuntungan dari timelock absolut adalah memungkinkan waktu tunggu lebih dari 15 bulan (batas timelock CSV relatif), yang menjelaskan mengapa Bitcoin Keeper dapat menawarkan opsi seperti 2 tahun.
+Keuntungan dari absolute timelock adalah memungkinkan waktu tunggu lebih dari 15 bulan (batas pada CSV relative timelock), yang menjelaskan mengapa Bitcoin Keeper dapat menawarkan opsi seperti 2 tahun.
+
 
 
 
@@ -214,11 +218,11 @@ Keuntungan dari timelock absolut adalah memungkinkan waktu tunggu lebih dari 15 
 
 
 
-Untuk mencegah aktivasi kunci khusus selama masa pakai, Anda harus "menyegarkan" wallet Anda secara berkala. Dengan penguncian waktu absolut, hal ini melibatkan **pembuatan ulang wallet dengan tanggal kedaluwarsa baru** yang diundur ke masa depan, kemudian mentransfer dana Anda ke wallet baru ini.
+Untuk mencegah aktivasi kunci khusus selama masa pakai, kamu perlu "menyegarkan" wallet secara berkala. Dengan absolute timelock, proses ini melibatkan **pembuatan ulang wallet dengan tanggal kedaluwarsa baru** yang diundur ke masa depan, lalu mentransfer dana kamu ke wallet baru tersebut.
 
 
 
-Bitcoin Keeper menyederhanakan proses ini dengan fungsi penyegaran yang terintegrasi. Aplikasi ini secara otomatis menangani kerumitan di latar belakang: Anda cukup mengikuti langkah-langkah yang dipandu, tanpa harus membuat wallet baru secara manual atau mentransfer dana sendiri. Rencanakan operasi ini secara teratur, jauh sebelum berakhirnya jangka waktu terpendek yang dikonfigurasi. Misalnya, dengan Inheritance Key 1 tahun, lakukan penyegaran setiap 9-10 bulan untuk menjaga margin keamanan.
+Bitcoin Keeper menyederhanakan proses ini dengan fitur penyegaran terintegrasi. Aplikasi ini secara otomatis menangani kerumitan di latar belakang. Kamu cukup mengikuti langkah-langkah yang dipandu, tanpa perlu membuat wallet baru secara manual atau mentransfer dana sendiri. Jadwalkan proses ini secara rutin, jauh sebelum jangka waktu terpendek yang dikonfigurasi berakhir. Sebagai contoh, dengan Inheritance Key 1 tahun, lakukan penyegaran setiap 9 hingga 10 bulan untuk menjaga margin keamanan.
 
 
 
@@ -226,7 +230,7 @@ Bitcoin Keeper menyederhanakan proses ini dengan fungsi penyegaran yang terinteg
 
 
 
-Setelah wallet dibuat, aplikasi akan mengingatkan Anda untuk menyimpan file konfigurasi. **Langkah ini sangat penting**: tanpa file ini, ahli waris Anda tidak akan dapat menyusun ulang multisig wallet.
+Setelah wallet dibuat, aplikasi akan mengingatkan kamu untuk menyimpan file konfigurasi. **Langkah ini sangat penting**: tanpa file ini, ahli waris kamu tidak akan dapat menyusun ulang multisig wallet.
 
 
 
@@ -246,7 +250,7 @@ Tekan **Backup Wallet Recovery File**. Beberapa opsi ekspor tersedia:
 
 
 
-Gandakan salinannya: satu di notaris Anda, satu di brankas bank, satu lagi versi digital terenkripsi. wallet baru Anda sekarang muncul di tab Dompet dengan label "Multi-kunci", "2 dari 3", "Kunci Warisan", dan "Kunci Darurat".
+Gandakan salinannya: satu di notaris Anda, satu di brankas bank, satu lagi versi digital terenkripsi. wallet baru kamu sekarang muncul di tab Dompet dengan label "Multi-kunci", "2 dari 3", "Kunci Warisan", dan "Kunci Darurat".
 
 
 
@@ -262,7 +266,7 @@ Canary Wallet adalah sistem peringatan dini. Idenya: setiap kunci yang digunakan
 
 
 
-Ada dua cara untuk mengonfigurasi Canary Wallet. Dari tab **Lainnya**, tekan **Dompet Kenari** di bagian "Kunci dan Dompet". Layar akan menjelaskan prinsipnya: jika seseorang mengakses salah satu kunci Anda dan menemukan dana di kunci tunggal wallet yang terkait, mereka akan mencoba menghapusnya, yang akan memperingatkan Anda.
+Ada dua cara untuk mengonfigurasi Canary Wallet. Dari tab **Lainnya**, tekan **Dompet Kenari** di bagian "Kunci dan Dompet". Layar akan menjelaskan prinsipnya: jika seseorang mengakses salah satu kunci kamu dan menemukan dana di kunci tunggal wallet yang terkait, mereka akan mencoba menghapusnya, yang akan memperingatkanmu.
 
 
 
@@ -270,11 +274,11 @@ Ada dua cara untuk mengonfigurasi Canary Wallet. Dari tab **Lainnya**, tekan **D
 
 
 
-Anda juga dapat mengonfigurasi Canary secara langsung dari tombol. Pada tab **Keys**, pilih tombol (mis. Tapsigner Genesis), tekan ikon **Pengaturan** (roda gigi), lalu **Canary Wallet**. Kenari wallet yang terkait akan terbuka, siap untuk menerima beberapa satoshi pengawasan.
+Kamu juga dapat mengonfigurasi Canary secara langsung dari tombol. Pada tab **Keys**, pilih tombol (mis. Tapsigner Genesis), tekan ikon **Pengaturan** (roda gigi), lalu **Canary Wallet**. Kenari wallet yang terkait akan terbuka, siap untuk menerima beberapa satoshi pengawasan.
 
 
 
-Depositkan sejumlah kecil dana (beberapa ribu satoshi) pada setiap Canary Wallet. Jika dana ini berpindah tanpa persetujuan Anda, segera hapus kunci yang disusupi dari brankas multisig Anda.
+Depositkan sejumlah kecil dana (beberapa ribu satoshi) pada setiap Canary Wallet. Jika dana ini berpindah tanpa persetujuanmu, segera hapus kunci yang disusupi dari brankas multisig kamu.
 
 
 
@@ -282,23 +286,24 @@ Depositkan sejumlah kecil dana (beberapa ribu satoshi) pada setiap Canary Wallet
 
 
 
-**Uji coba konfigurasi Anda** dengan sejumlah kecil uang sebelum memasukkan uang dalam jumlah besar. Kirim beberapa ribu satoshi ke brankas, lalu coba pengeluaran keluar untuk memeriksa apakah Anda telah menguasai proses penandatanganan dengan setiap perangkat. Coba juga mengimpor file konfigurasi di ponsel lain untuk memastikan bahwa cadangannya berfungsi.
+**Uji coba konfigurasi kamu** dengan jumlah kecil sebelum memasukkan dana dalam jumlah besar. Kirim beberapa ribu satoshi ke brankas, lalu coba melakukan pengeluaran untuk memastikan kamu sudah memahami proses penandatanganan dengan setiap perangkat. Coba juga mengimpor file konfigurasi di ponsel lain untuk memastikan cadangannya berfungsi dengan baik.
 
 
 
-**Bagikan kunci secara cerdas**. Untuk Tapsigner, serahkan dalam amplop tertutup dengan PIN yang dikomunikasikan secara terpisah (misalnya, dalam surat Instruksi Pemulihan yang disimpan di tempat lain). Untuk dompet perangkat keras klasik, simpan perangkat pada pihak ketiga yang tepercaya dan seed di atas kertas atau logam bersama Anda atau pihak ketiga lainnya. Catat sidik jari setiap tombol dan namanya dalam file konfigurasi untuk menghindari kebingungan.
+**Bagikan kunci secara cerdas**. Untuk Tapsigner, serahkan dalam amplop tertutup dengan PIN yang dikomunikasikan secara terpisah, misalnya melalui Surat Petunjuk Pemulihan yang disimpan di lokasi lain. Untuk hardware wallet klasik, simpan perangkat pada pihak ketiga yang tepercaya dan seedphrase di atas kertas atau logam bersama kamu atau pihak ketiga lainnya. Catat fingerprint setiap key dan namanya di file konfigurasi untuk menghindari kebingungan.
 
 
 
-**Rencanakan uji coba berkala** (latihan kebakaran). Setiap tahun, periksa apakah Anda dapat membangun kembali brankas dari cadangan pada telepon kosong. Uji peringatan Canary dengan memeriksa saldo. Simulasikan skenario kehilangan ("bagaimana jika saya kehilangan Coldcard?") untuk memastikan bahwa kombinasi kunci yang tersisa sudah mencukupi.
+**Rencanakan pengujian berkala** (fire drill). Setiap tahun, periksa apakah kamu dapat membangun kembali brankas dari cadangan di ponsel kosong. Uji peringatan Canary dengan memeriksa saldo. Simulasikan skenario kehilangan, seperti "bagaimana jika aku kehilangan Coldcard", untuk memastikan kombinasi kunci yang tersisa masih mencukupi.
 
 
 
-**Jangan lupa untuk menyegarkan diri Anda. Jika Anda telah mengatur Kunci Warisan Anda menjadi 1 tahun, segarkan diri Anda setiap 9-10 bulan. Ini adalah harga yang Anda bayarkan untuk transmisi otomatis tanpa campur tangan pihak ketiga.
+**Jangan lupa melakukan penyegaran secara berkala**. Jika kamu mengatur Kunci Warisan menjadi 1 tahun, lakukan penyegaran setiap 9 hingga 10 bulan. Ini adalah konsekuensi yang harus diterima untuk transmisi otomatis tanpa campur tangan pihak ketiga.
 
 
 
-**Selalu perbarui rencana tersebut**. Setiap perubahan (penggantian kunci, perubahan ahli waris, perubahan tenggat waktu) harus tercermin dalam semua cadangan dan dokumen. Buat ulang PDF setelah setiap modifikasi dan distribusikan versi baru.
+**Selalu perbarui rencana tersebut**. Setiap perubahan, baik penggantian kunci, perubahan ahli waris, maupun perubahan tenggat waktu, harus tercermin di semua cadangan dan dokumen. Buat ulang PDF setelah setiap modifikasi dan distribusikan versi terbaru.
+
 
 
 
@@ -306,19 +311,19 @@ Depositkan sejumlah kecil dana (beberapa ribu satoshi) pada setiap Canary Wallet
 
 
 
-Terlepas dari kekuatan alat bantu ini, penting untuk mengenali keterbatasannya agar dapat mengelolanya seefektif mungkin.
+Terlepas dari kekuatan alat-alat ini, penting untuk mengenali keterbatasannya agar kamu bisa mengelolanya seefektif mungkin.
 
 
 
-Kerumitan brankas multisig dengan penguncian waktu dapat menjadi risiko tersendiri: kesalahan konfigurasi, kesalahpahaman oleh ahli waris, kehilangan elemen penting di antara banyak komponen. Bitcoin Keeper menyederhanakan pengalaman semaksimal mungkin, tetapi tetap merupakan operasi teknis. Gunakanlah paket ini hanya jika jumlah yang akan dilindungi sesuai dengan kebutuhan. Untuk jumlah yang kecil, rencana yang lebih sederhana mungkin sudah cukup.
+Kerumitan brankas multisig dengan timelock bisa menjadi risiko tersendiri: kesalahan konfigurasi, kesalahpahaman oleh ahli waris, atau hilangnya elemen penting di antara banyak komponen. Bitcoin Keeper menyederhanakan pengalaman semaksimal mungkin, tetapi tetap merupakan operasi teknis. Gunakan paket ini hanya jika jumlah yang ingin dilindungi memang sepadan dengan tingkat kompleksitasnya. Untuk jumlah yang lebih kecil, rencana yang lebih sederhana mungkin sudah cukup.
 
 
 
-Ketergantungan aplikasi **application dependency** perlu dipikirkan. Walaupun kodenya bersifat open source dan berdasarkan standar terbuka (Miniscript, BSMS), beberapa fungsi tertentu bergantung pada ekosistem Keeper. Simpanlah salinan aplikasi (Android APK atau iOS IPA) dan dokumentasikan dalam surat-surat Anda kepada ahli waris mengenai kemungkinan menggunakan dompet yang kompatibel dengan Miniscript (seperti Liana) untuk memulihkan dana.
+Ketergantungan pada aplikasi juga perlu dipertimbangkan. Walaupun kodenya bersifat open source dan berbasis standar terbuka (Miniscript, BSMS), beberapa fungsi tertentu tetap bergantung pada ekosistem Keeper. Simpan salinan aplikasi (Android APK atau iOS IPA) dan dokumentasikan dalam surat kepada ahli waris tentang kemungkinan menggunakan wallet yang kompatibel dengan Miniscript, seperti Liana, untuk memulihkan dana.
 
 
 
-Broker tepercaya** memperkenalkan risiko manusia. Apa yang terjadi jika kerabat yang berniat buruk menggunakan kunci yang dipercayakan kepadanya sebelum tenggat waktu? Atau jika pengacara salah meletakkan dokumen Anda? Pilihlah orang-orang ini dengan hati-hati, jelaskan tanggung jawab mereka dengan jelas, dan miliki rencana B. Dompet Kenari, cadangan yang berlebihan, dan struktur multisig tetap menjadi perlindungan terbaik Anda terhadap bahaya-bahaya ini.
+**Broker tepercaya** memperkenalkan risiko manusia. Apa yang terjadi jika kerabat yang berniat buruk menggunakan kunci yang dipercayakan kepadanya sebelum tenggat waktu? Atau jika pengacara salah menyimpan dokumen kamu? Pilih orang-orang ini dengan sangat hati-hati, jelaskan tanggung jawab mereka secara jelas, dan siapkan rencana cadangan. Dompet Kenari, cadangan berlapis, dan struktur multisig tetap menjadi perlindungan terbaik kamu terhadap risiko-risiko ini.
 
 
 
@@ -326,8 +331,8 @@ Broker tepercaya** memperkenalkan risiko manusia. Apa yang terjadi jika kerabat 
 
 
 
-Bitcoin Keeper, dengan paket Diamond Hands-nya, menawarkan kotak peralatan lengkap untuk perencanaan perkebunan: Brankas yang disempurnakan dengan kunci berjangka waktu, dokumen yang menyertai, Dompet Kenari, dan dukungan yang dipersonalisasi.
+Bitcoin Keeper, melalui paket Diamond Hands, menawarkan kotak peralatan lengkap untuk perencanaan warisan: Brankas yang Disempurnakan dengan kunci berjangka waktu, dokumen pendukung, Dompet Kenari, dan dukungan yang dipersonalisasi.
 
 
 
-Ini lebih dari sekadar masalah teknis: ini adalah pertanyaan tentang merancang arsitektur perkebunan Anda, mendistribusikan kunci dan pengetahuan dengan cerdas, dan secara teratur menguji sistem. Rencana warisan Bitcoin yang dirancang dengan baik akan mengubah satoshi Anda menjadi warisan yang nyata dan dapat dipindahtangankan.
+Ini bukan sekadar persoalan teknis. Ini adalah tentang merancang arsitektur warisan kamu, mendistribusikan kunci dan pengetahuan secara cerdas, serta menguji sistem secara rutin. Rencana warisan Bitcoin yang dirancang dengan baik akan mengubah satoshi kamu menjadi warisan yang nyata dan dapat dipindahtangankan.

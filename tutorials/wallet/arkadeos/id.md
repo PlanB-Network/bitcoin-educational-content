@@ -7,15 +7,12 @@ description: Panduan lengkap untuk portofolio Arkade dan Protokol Ark
 
 
 
-Jaringan Bitcoin menghadapi tantangan besar: skalabilitas. Meskipun lapisan utama (lapisan 1) menawarkan keamanan dan desentralisasi yang tak tertandingi, lapisan ini hanya dapat menangani sejumlah transaksi per detik. Lightning Network telah muncul sebagai solusi lapisan kedua (lapisan 2) yang menjanjikan, memungkinkan pembayaran yang cepat dan murah. Akan tetapi, Lightning memiliki kendala tersendiri: manajemen saluran, kebutuhan likuiditas yang masuk, dan kerumitan teknis yang dapat menunda pengguna baru.
+Jaringan Bitcoin menghadapi tantangan besar: skalabilitas. Meskipun lapisan utama (lapisan 1) menawarkan keamanan dan desentralisasi yang tak tertandingi, lapisan ini hanya mampu menangani sejumlah transaksi per detik. Lightning Network hadir sebagai solusi lapisan kedua (lapisan 2) yang menjanjikan, memungkinkan pembayaran yang cepat dan murah. Namun, Lightning juga memiliki kendala tersendiri: manajemen channel, kebutuhan likuiditas masuk, dan kerumitan teknis yang sering kali menghambat pengguna baru.
 
+Di sinilah **Ark** hadir. Ark adalah protokol layer 2 baru yang dirancang untuk memberikan pengalaman pengguna yang lebih sederhana tanpa mengorbankan kedaulatan. **ArkadeOS** atau Arkade adalah implementasi besar pertama dari protokol ini, yang menawarkan dompet Bitcoin generasi berikutnya.
 
+Tutorial ini akan memandu kamu memasuki dunia Arkade. Kita akan menjelajahi cara kerja protokol Ark, cara menginstal dan mengonfigurasi wallet Arkade, serta cara menggunakannya untuk mengirim dan menerima bitcoin secara instan, privat, dan tanpa gesekan yang biasanya ditemui di Lightning
 
-Ini adalah latar belakang **Ark**, protokol layer 2 baru yang dirancang untuk menawarkan pengalaman pengguna yang disederhanakan tanpa mengorbankan kedaulatan. **ArkadeOS** (atau Arkade) adalah implementasi besar pertama dari protokol ini, yang menawarkan portofolio Bitcoin generasi berikutnya.
-
-
-
-Tutorial ini akan memandu Anda memasuki dunia Arkade. Kita akan menjelajahi cara kerja protokol Ark, cara menginstal dan mengonfigurasi Arkade wallet, dan cara menggunakannya untuk mengirim dan menerima bitcoin secara instan, secara rahasia, dan tanpa gesekan Lightning Network yang biasa terjadi.
 
 
 
@@ -23,18 +20,18 @@ Tutorial ini akan memandu Anda memasuki dunia Arkade. Kita akan menjelajahi cara
 
 
 
-Sebelum mendalami penggunaan Arkade, penting untuk memahami konsep utama protokol Ark yang menggerakkannya. Ark bukanlah sebuah blockchain yang terpisah, tetapi sebuah mekanisme koordinasi yang cerdas di atas Bitcoin.
+Sebelum kita mendalami penggunaan Arkade, penting untuk memahami konsep utama protokol Ark yang menjadi penggeraknya. Ark bukanlah sebuah blockchain terpisah, melainkan sebuah mekanisme koordinasi cerdas yang berjalan di atas Bitcoin.
 
 
 
 ### Konsep VTXO
 
 
-Inti dari Ark adalah **VTXO** (Virtual UTXO). VTXO adalah UTXO yang belum dipublikasikan pada blockchain Bitcoin: ia berada di luar rantai utama (off-chain) tetapi didukung oleh transaksi yang telah ditandatangani sebelumnya pada blockchain.
+Inti dari Ark adalah **VTXO** (Virtual UTXO). VTXO adalah UTXO yang belum dipublikasikan di blockchain Bitcoin: ia berada di luar rantai utama (off-chain), tetapi tetap didukung oleh transaksi yang sudah ditandatangani sebelumnya di blockchain.
 
 
 
-Tidak seperti saldo di bursa terpusat, VTXO benar-benar milik Anda. Anda memiliki bukti kriptografi yang memungkinkan Anda, kapan saja, untuk mengklaim bitcoin asli yang sesuai di blockchain, bahkan jika server Ark menghilang. VTXO memungkinkan Anda untuk mentransfer nilai secara instan antar pengguna tanpa menunggu konfirmasi blok.
+Tidak seperti saldo di bursa terpusat, VTXO benar-benar milik kamu. Kamu memegang bukti kriptografi yang memungkinkan kamu, kapan saja, untuk mengklaim bitcoin asli yang sesuai di blockchain, bahkan jika server Ark menghilang. VTXO memungkinkan kamu mentransfer nilai secara instan antar pengguna tanpa perlu menunggu konfirmasi blok.
 
 
 
@@ -52,23 +49,20 @@ Protokol Ark beroperasi pada model klien-server. Server disebut **ASP** (Penyedi
 
 
 
-Sangat penting untuk dicatat bahwa ASP adalah **non-kustodian**. ASP tidak pernah menyimpan kunci pribadi Anda, dan juga tidak dapat mencuri dana Anda. Perannya murni bersifat teknis dan logistik. Jika ASP menyensor transaksi Anda atau mengalami kegagalan, Anda selalu dapat memulihkan dana Anda melalui prosedur keluar sepihak.
+Sangat penting untuk dicatat bahwa ASP bersifat **non-kustodian**. ASP tidak pernah menyimpan private key kamu dan juga tidak dapat mencuri dana kamu. Perannya murni bersifat teknis dan logistik. Jika ASP menyensor transaksi kamu atau mengalami kegagalan, kamu selalu dapat memulihkan dana kamu melalui prosedur keluar sepihak.
 
 
 
 ### Putaran dan privasi
 
 
-Transaksi di Ark diselesaikan dalam batch yang disebut **Rounds**. Secara berkala (misalnya setiap beberapa detik), ASP mengumpulkan semua transaksi yang tertunda dan menambatkannya di blockchain Bitcoin dalam satu transaksi yang dioptimalkan.
-
+Transaksi di Ark diselesaikan dalam batch yang disebut **Rounds**. Secara berkala, misalnya setiap beberapa detik, ASP mengumpulkan semua transaksi yang tertunda dan menambatkannya ke blockchain Bitcoin dalam satu transaksi yang dioptimalkan.
 
 Mekanisme ini menawarkan dua keuntungan utama:
 
-
-
-
-- Skalabilitas**: Satu transaksi on-chain dapat memvalidasi ribuan pembayaran off-chain, sehingga secara drastis mengurangi biaya bagi pengguna.
-- Kerahasiaan**: Setiap putaran bertindak sebagai **CoinJoin**. Dana dari semua peserta dicampur ke dalam kumpulan umum sebelum didistribusikan kembali dalam bentuk VTXO baru. Hal ini memutus hubungan antara pengirim dan penerima, sehingga sangat sulit, bahkan mustahil, bagi pengamat luar untuk melacak pembayaran.
+- **Skalabilitas**: Satu transaksi on-chain dapat memvalidasi ribuan pembayaran off-chain, sehingga secara drastis mengurangi biaya bagi pengguna.
+- **Kerahasiaan**: Setiap round bertindak sebagai **CoinJoin**. Dana dari semua peserta dicampur ke dalam satu kumpulan umum sebelum didistribusikan kembali dalam bentuk VTXO baru. Hal ini memutus hubungan antara pengirim dan penerima, sehingga sangat sulit, bahkan nyaris mustahil, bagi pengamat luar untuk melacak pembayaran.
+.
 
 
 
@@ -76,11 +70,9 @@ Mekanisme ini menawarkan dua keuntungan utama:
 
 
 
-ArkadeOS adalah aplikasi konkret yang membuat protokol Ark tersedia untuk masyarakat umum. Dikembangkan oleh Ark Labs, ini adalah ekosistem lengkap yang terdiri dari portofolio (Wallet), server (Operator), dan alat pengembang.
+ArkadeOS adalah aplikasi konkret yang membuat protokol Ark tersedia bagi masyarakat umum. Dikembangkan oleh Ark Labs, ini adalah ekosistem lengkap yang terdiri dari wallet, server (operator), dan alat pengembang.
 
-
-
-Untuk pengguna akhir, Arkade mengambil bentuk web yang elegan dan intuitif wallet (PWA - Progressive Web App). Ini menyembunyikan kompleksitas kriptografi VTXO dan putaran di balik antarmuka yang sudah dikenal. Dengan Arkade, Anda memiliki alamat untuk menerima, tombol untuk mengirim, dan riwayat transaksi, seperti halnya wallet klasik, tetapi dengan kekuatan kesegeraan dan kerahasiaan Ark.
+Bagi pengguna akhir, Arkade hadir dalam bentuk web wallet yang elegan dan intuitif (PWA, Progressive Web App). Arkade menyembunyikan kompleksitas kriptografi VTXO dan mekanisme round di balik antarmuka yang sudah familiar. Dengan Arkade, kamu memiliki alamat untuk menerima, tombol untuk mengirim, dan riwayat transaksi, layaknya wallet klasik, tetapi dengan kekuatan kesegeraan dan kerahasiaan dari Ark.
 
 
 
@@ -95,7 +87,7 @@ Karena Arkade adalah Aplikasi Web Progresif, aplikasi ini sangat mudah dipasang,
 ### Akses dan pemasangan
 
 
-Anda dapat mengakses Arkade secara langsung dari peramban web modern apa pun (Chrome, Safari, Brave) di komputer atau ponsel.
+Kamu bisa mengakses Arkade secara langsung dari web browser modern apa pun (Chrome, Safari, Brave) di komputer atau ponsel.
 
 
 
@@ -109,7 +101,7 @@ Anda dapat mengakses Arkade secara langsung dari peramban web modern apa pun (Ch
 
 
 
-Anda akan disambut oleh serangkaian layar pengantar yang memperkenalkan Anda pada konsep-konsep utama Arkade: ekosistem baru untuk Bitcoin, pentingnya penyimpanan sendiri, dan manfaat transaksi batch.
+Kamu akan disambut oleh serangkaian layar pengantar yang memperkenalkan kamu pada konsep utama Arkade: ekosistem baru untuk Bitcoin, pentingnya self-custody, dan manfaat transaksi batch.
 
 
 
@@ -124,14 +116,14 @@ Anda akan disambut oleh serangkaian layar pengantar yang memperkenalkan Anda pad
 
 
 
-Setelah terinstal, Arkade diluncurkan seperti aplikasi asli, layar penuh dan tanpa bilah alamat.
+Setelah terinstal, Arkade akan diluncurkan seperti aplikasi native, tampil layar penuh tanpa bilah alamat.
 
 
 
 ### Pembuatan portofolio
 
 
-Saat pertama kali diluncurkan, Anda akan diminta untuk mengonfigurasi portofolio Anda.
+Saat pertama kali diluncurkan, kamu akan diminta untuk mengonfigurasi portofolio milikmu.
 
 
 
@@ -144,20 +136,12 @@ Saat pertama kali diluncurkan, Anda akan diminta untuk mengonfigurasi portofolio
 ![create wallet](assets/fr/03.webp)
 
 
+- Wallet dibuat secara instan. Tidak seperti wallet Bitcoin tradisional, **Arkade tidak menggunakan seedphrase 12 atau 24 kata**. Sebagai gantinya, Arkade secara otomatis membuat **private key** dalam format Nostr (nsec), yang digunakan untuk mencadangkan dan memulihkan wallet kamu. Pastikan kamu segera menyimpan kunci ini dengan aman (lihat bagian selanjutnya).
 
+- Kamu akan melihat layar "Your new wallet is live!", yang mengonfirmasi bahwa wallet kamu sudah siap digunakan. Klik **"GO TO WALLET"** untuk mengakses antarmuka utama.
 
+Begitu masuk ke wallet, kamu akan langsung dibawa ke antarmuka utama Arkade. Di sini kamu dapat melihat saldo, tombol untuk mengirim dan menerima dana, serta tab "Applications" yang memberi akses ke aplikasi terintegrasi seperti Boltz (exchange Lightning), LendaSat dan LendaSwap (layanan pinjaman), serta Fuji Money (aset sintetis).
 
-- wallet dibuat secara instan. Tidak seperti dompet Bitcoin tradisional, **Arkade tidak menggunakan frasa pemulihan 12 atau 24 kata**. Sebagai gantinya, Arkade secara otomatis membuat **kunci pribadi** dalam format Nostr (nsec), yang akan digunakan untuk mencadangkan dan memulihkan wallet Anda. Ingatlah untuk segera menyimpan kunci ini (lihat bagian selanjutnya).
-
-
-
-
-
-- Anda akan melihat layar "Your new wallet is live!", yang mengonfirmasi bahwa wallet Anda telah siap digunakan. Klik **"GO TO WALLET "** untuk mengakses antarmuka utama.
-
-
-
-Begitu masuk ke wallet, Anda akan dibawa ke antarmuka utama Arkade. Di sini Anda akan menemukan saldo Anda, tombol untuk mengirim dan menerima dana, dan tab "Aplikasi" yang memberikan akses ke aplikasi terintegrasi seperti Boltz (bursa Lightning), LendaSat dan LendaSwap (layanan pinjaman), dan Fuji Money (aset sintetis).
 
 
 
@@ -168,15 +152,13 @@ Begitu masuk ke wallet, Anda akan dibawa ke antarmuka utama Arkade. Di sini Anda
 ### Koneksi ke ASP
 
 
-Secara default, portofolio secara otomatis dikonfigurasikan untuk terhubung ke ASP resmi Arkade Labs. Anda dapat memeriksa server mana yang terhubung dengan membuka **Pengaturan** > **Tentang** di mana Anda akan melihat alamat server (saat ini `https://arkade.computer`).
+Secara default, wallet akan otomatis dikonfigurasikan untuk terhubung ke ASP resmi Arkade Labs. Kamu dapat memeriksa server yang sedang terhubung dengan membuka **Settings** > **About**, di mana kamu akan melihat alamat server yang digunakan (saat ini `https://arkade.computer`).
+
+Pada versi Arkade saat ini (Beta), belum dimungkinkan untuk mengubah server ASP secara manual. Aplikasi ini akan selalu terhubung secara otomatis ke ASP resmi Arkade Labs. Ke depannya, pengguna mungkin dapat memilih di antara beberapa ASP yang berbeda sesuai preferensi masing-masing, tetapi fitur ini masih belum tersedia.
 
 
 
-Pada versi Arkade saat ini (Beta), tidak memungkinkan untuk memodifikasi server ASP secara manual. Aplikasi ini secara otomatis terhubung ke ASP resmi Arkade Labs. Di masa depan, pengguna mungkin dapat memilih di antara ASP yang berbeda sesuai dengan preferensi mereka, tetapi fitur ini belum tersedia.
-
-
-
-### Mencadangkan kunci pribadi Anda
+### Mencadangkan kunci pribadi kamu
 
 
 **Arkade menggunakan kunci pribadi dalam format Nostr (nsec) sebagai metode pencadangan dan pemulihan. Untuk mencadangkan kunci pribadi Anda:
@@ -187,14 +169,14 @@ Pada versi Arkade saat ini (Beta), tidak memungkinkan untuk memodifikasi server 
 
 - Buka **Pengaturan** dari layar utama.
 - Pilih **"Pencadangan dan privasi "**.
-- Anda akan melihat **kunci pribadi** Anda ditampilkan dalam format `nsec...`. Rangkaian karakter yang panjang ini adalah satu-satunya cara untuk memulihkan wallet anda.
-- Tekan **"COPY NSEC TO CLIPBOARD "** untuk menyalin kunci pribadi Anda.
-- Simpan kunci ini di tempat yang aman**: tulis di kertas, simpan di pengelola kata sandi yang aman, atau gunakan metode pencadangan lain yang sesuai untuk Anda.
-- Arkade juga menawarkan opsi **"Aktifkan cadangan Nostr "**. Fitur ini menggunakan protokol Nostr (jaringan terdesentralisasi) untuk secara otomatis mencadangkan data tertentu dari wallet Anda dalam bentuk terenkripsi ke relay Nostr. Hal ini memfasilitasi sinkronisasi antara beberapa perangkat dan menawarkan pemulihan status wallet Anda yang lebih sederhana.
+- Kamu akan melihat **kunci pribadi** ditampilkan dalam format `nsec...`. Rangkaian karakter yang panjang ini adalah satu-satunya cara untuk memulihkan wallet milikmu.
+- Tekan **"COPY NSEC TO CLIPBOARD "** untuk menyalin kunci pribadi kamu.
+- Simpan kunci ini di tempat yang aman**: tulis di kertas, simpan di pengelola kata sandi yang aman, atau gunakan metode pencadangan lain yang sesuai untukmu.
+- Arkade juga menawarkan opsi **"Aktifkan cadangan Nostr "**. Fitur ini menggunakan protokol Nostr (jaringan terdesentralisasi) untuk secara otomatis mencadangkan data tertentu dari wallet kamu dalam bentuk terenkripsi ke relay Nostr. Hal ini memfasilitasi sinkronisasi antara beberapa perangkat dan menawarkan pemulihan status wallet Anda yang lebih sederhana.
 
 
 
-**Penting**: Cadangan nostr adalah fitur **kenyamanan** saja. Mereka tidak menggantikan cadangan kunci nsec Anda. Relai nostr tidak menjamin penyimpanan data secara permanen. Kunci pribadi nsec anda tetap menjadi satu-satunya cara yang dijamin untuk memulihkan dana anda.
+**Penting**: Cadangan nostr adalah fitur **kenyamanan** saja. Relai Nostr tidak menggantikan cadangan kunci nsec kamu. Relai Nostr tidak menjamin penyimpanan data secara permanen. Private key nsec kamu tetap menjadi satu-satunya cara yang benar-benar dijamin untuk memulihkan dana kamu.
 
 
 
@@ -207,7 +189,7 @@ Pada versi Arkade saat ini (Beta), tidak memungkinkan untuk memodifikasi server 
 
 
 
-Setelah Anda menyiapkan wallet Anda, Anda siap untuk menjelajahi kemampuan Arkade. Antarmuka dirancang untuk menyatukan berbagai jenis pembayaran Bitcoin (On-chain, Lightning, Ark) dengan mulus.
+Setelah kamu menyiapkan wallet, kamu siap untuk menjelajahi kemampuan Arkade. Antarmukanya dirancang untuk menyatukan berbagai jenis pembayaran Bitcoin, on-chain, Lightning, dan Ark, secara mulus.
 
 
 
@@ -215,15 +197,16 @@ Setelah Anda menyiapkan wallet Anda, Anda siap untuk menjelajahi kemampuan Arkad
 
 
 
-Untuk mendanai portofolio Anda, tekan **"Terima "**. Arkade menawarkan tiga metode penerimaan:
+Untuk mendanai portofolio kamu, tekan **"Terima "**. Arkade menawarkan tiga metode penerimaan:
 
 
 
 
 
-- Pembayaran Ark**: Jika pengirim juga menggunakan Arkade, bagikan alamat Ark Anda untuk transfer instan, rahasia, dan hampir gratis.
-- Setoran on-chain (Boarding)**: Gunakan alamat Bitcoin (`bc1p...`) untuk menerima dari wallet klasik atau bursa. Tunggu konfirmasi (~10 menit) sebelum dana dikonversi menjadi VTXO.
-- Pertukaran petir**: Buat faktur Lightning dan bayar dari wallet Lightning eksternal. Dana tiba seketika melalui swap otomatis.
+- **Pembayaran Ark**: Jika pengirim juga menggunakan Arkade, bagikan alamat Ark kamu untuk transfer yang instan, privat, dan nyaris gratis.
+- **Setoran on-chain (boarding)**: Gunakan alamat Bitcoin (`bc1p...`) untuk menerima dana dari wallet klasik atau bursa. Tunggu konfirmasi sekitar 10 menit sebelum dana dikonversi menjadi VTXO.
+- **Pertukaran Lightning**: Buat invoice Lightning lalu bayar dari wallet Lightning eksternal. Dana akan tiba seketika melalui mekanisme swap otomatis.
+
 
 
 
@@ -231,7 +214,7 @@ Untuk mendanai portofolio Anda, tekan **"Terima "**. Arkade menawarkan tiga meto
 
 
 
-Layar tanda terima menampilkan semua opsi yang tersedia: Kode QR, alamat Ark, alamat Bitcoin (BIP21), dan faktur Lightning. Untuk pembayaran Lightning, biarkan aplikasi tetap terbuka selama transaksi berlangsung.
+Layar penerimaan menampilkan semua opsi yang tersedia: kode QR, alamat Ark, alamat Bitcoin (BIP21), dan invoice Lightning. Untuk pembayaran Lightning, pastikan aplikasi tetap terbuka selama transaksi berlangsung.
 
 
 
@@ -249,9 +232,10 @@ Untuk mengirim dana, tekan **"Kirim "** dan tempelkan alamat penerima atau pinda
 
 
 
-- Pembayaran Ark**: Ke alamat Ark, transfer bersifat instan, pribadi, dan hampir gratis (0 biaya SATS). Penerima tidak perlu online.
-- Pembayaran Lightning**: Pindai faktur Lightning (`lnbc...`) dan Arkade akan secara otomatis melakukan penukaran. ASP membayar faktur untuk Anda dan mendebit saldo Arkade Anda.
-- Pembayaran on-chain**: Menuju alamat klasik Bitcoin (`bc1q... ` atau `bc1p... `), Arkade memulai "Output Kolaboratif" yang akan disertakan dalam putaran on-chain berikutnya.
+- **Pembayaran Ark**: Ke alamat Ark, transfer bersifat instan, privat, dan nyaris gratis tanpa biaya sats. Penerima tidak perlu online.
+- **Pembayaran Lightning**: Pindai invoice Lightning (`lnbc...`) dan Arkade akan secara otomatis melakukan swap. ASP membayar invoice untuk kamu lalu mendebit saldo Arkade kamu.
+- **Pembayaran on-chain**: Kirim ke alamat Bitcoin klasik (`bc1q...` atau `bc1p...`). Arkade akan memulai mekanisme *Collaborative Output* yang akan disertakan dalam round on-chain berikutnya.
+
 
 
 
@@ -263,7 +247,7 @@ Periksa detail pada layar "Tanda tangani transaksi", lalu konfirmasikan dengan *
 
 
 
-**Batasan saat ini (Beta) **: VTXO yang dibuat kurang dari 24 jam yang lalu tidak dapat digunakan untuk output on-chain. Jika Anda mengalami kesalahan, harap tunggu sampai VTXO Anda "matang".
+**Batasan saat ini (Beta) **: VTXO yang dibuat kurang dari 24 jam yang lalu tidak dapat digunakan untuk output on-chain. Jika kamu mengalami kesalahan, harap tunggu sampai VTXO Anda "matang".
 
 
 
@@ -282,31 +266,32 @@ Periksa detail pada layar "Tanda tangani transaksi", lalu konfirmasikan dengan *
 ### Manajemen kedaluwarsa VTXO
 
 
-Fitur teknis dari protokol Ark adalah bahwa VTXO memiliki masa pakai yang terbatas. Batasan waktu ini melekat pada desain protokol. Waktu kedaluwarsa dapat dikonfigurasi oleh setiap server ASP; pada ASP resmi Arkade Labs, periode ini sekitar **4 minggu (≈30 hari)**.
+Fitur teknis dari protokol Ark adalah bahwa VTXO memiliki masa berlaku terbatas. Batasan waktu ini melekat pada desain protokol. Waktu kedaluwarsa dapat dikonfigurasi oleh setiap server ASP. Pada ASP resmi Arkade Labs, periode ini sekitar **4 minggu (≈30 hari)**.
 
 
 
-**Batasan ini memungkinkan server Ark untuk mengelola likuiditas secara efisien dan membersihkan VTXO dari pengguna yang tidak aktif. Setelah kedaluwarsa, server Ark secara teknis dapat mengklaim dana yang tersisa di pohon VTXO.
+**Batasan ini memungkinkan server Ark mengelola likuiditas secara efisien dan membersihkan VTXO milik pengguna yang tidak aktif. Setelah kedaluwarsa, server Ark secara teknis dapat mengklaim dana yang tersisa di pohon VTXO.**
 
 
 
-**Agar VTXO Anda tetap aktif, VTXO harus "disegarkan" sebelum masa berlakunya habis. Penyegaran terdiri dari berpartisipasi dalam "putaran" baru di mana VTXO Anda yang hampir kedaluwarsa ditukar dengan VTXO baru dengan masa berlaku penuh (≈30 hari di Arkade Labs ASP).
+**Agar VTXO kamu tetap aktif, VTXO harus “disegarkan” sebelum masa berlakunya habis. Penyegaran dilakukan dengan berpartisipasi dalam round baru, di mana VTXO yang hampir kedaluwarsa ditukar dengan VTXO baru dengan masa berlaku penuh (≈30 hari di ASP Arkade Labs).**
 
 
 
-Portofolio Arkade mengelola proses ini secara otomatis: aplikasi secara konstan memantau status VTXO Anda dan secara otomatis menyegarkannya beberapa hari sebelum masa berlakunya habis. Selama Anda membuka aplikasi Anda secara teratur (setidaknya seminggu sekali), VTXO Anda akan secara otomatis tetap aktif.
+Wallet Arkade mengelola proses ini secara otomatis. Aplikasi akan terus memantau status VTXO kamu dan secara otomatis menyegarkannya beberapa hari sebelum masa berlakunya habis. Selama kamu membuka aplikasi secara rutin, setidaknya seminggu sekali, VTXO kamu akan tetap aktif secara otomatis.
 
 
 
-**Jika Anda tidak membuka portofolio Anda selama lebih dari 4 minggu, VTXO Anda akan kedaluwarsa. Namun, Anda tidak kehilangan dana Anda: Anda tetap memiliki opsi untuk memulihkannya melalui **keluar sepihak** (lihat bagian selanjutnya). Prosedur ini lebih mahal dan lebih lambat, tetapi memastikan bahwa dana Anda tetap dapat dipulihkan.
+**Jika kamu tidak membuka wallet selama lebih dari 4 minggu, VTXO kamu akan kedaluwarsa. Namun, kamu tidak kehilangan dana. Kamu tetap memiliki opsi untuk memulihkannya melalui **keluar sepihak** (lihat bagian selanjutnya). Prosedur ini memang lebih mahal dan lebih lambat, tetapi memastikan bahwa dana kamu tetap dapat dipulihkan.**
 
 
 
-Kebutuhan untuk membuka aplikasi secara teratur membuat Arkade menjadi **"Hot Wallet"** yang dirancang untuk penggunaan sehari-hari, bukan brankas untuk penyimpanan jangka panjang. Untuk menyimpan bitcoin tanpa menggunakannya dalam jangka waktu yang lama, pilihlah perangkat keras wallet yang dingin.
+Kebutuhan untuk membuka aplikasi secara rutin menjadikan Arkade sebagai **hot wallet** yang dirancang untuk penggunaan sehari-hari, bukan sebagai brankas penyimpanan jangka panjang. Untuk menyimpan bitcoin tanpa digunakan dalam waktu lama, sebaiknya gunakan hardware wallet yang bersifat cold.
 
 
 
-**Memeriksa status VTXO Anda**: Anda dapat memantau status VTXO Anda di **Pengaturan** > **Tingkat Lanjut**. Lihat "Perpanjangan Berikutnya" untuk melihat kapan perpanjangan otomatis berikutnya akan dilakukan, dan "Koin Virtual" untuk melihat daftar terperinci semua VTXO Anda dengan tanggal kedaluwarsanya.
+**Memeriksa status VTXO kamu**: Kamu dapat memantau status VTXO di **Settings** > **Advanced**. Lihat bagian “Next Extension” untuk mengetahui kapan penyegaran otomatis berikutnya akan dilakukan, dan “Virtual Coins” untuk melihat daftar lengkap semua VTXO kamu beserta tanggal kedaluwarsanya.
+
 
 
 
@@ -318,19 +303,20 @@ Kebutuhan untuk membuka aplikasi secara teratur membuat Arkade menjadi **"Hot Wa
 
 
 
-Keluar secara sepihak adalah **jaminan kriptografi fundamental** protokol Ark yang memastikan Anda mendapatkan dana Anda kembali, bahkan jika ASP menghilang, menyensor transaksi Anda, atau menolak untuk bekerja sama. Secara teknis, VTXO Anda adalah **transaksi Bitcoin yang telah ditandatangani sebelumnya** yang Anda miliki. Dalam keadaan darurat, Anda dapat menyiarkan transaksi ini di blockchain Bitcoin untuk memulihkan dana Anda tanpa izin siapa pun.
+Keluar sepihak adalah **jaminan kriptografi fundamental** dari protokol Ark yang memastikan kamu tetap bisa mendapatkan dana kamu kembali, bahkan jika ASP menghilang, menyensor transaksi kamu, atau menolak untuk bekerja sama. Secara teknis, VTXO kamu adalah **transaksi Bitcoin yang sudah ditandatangani sebelumnya** dan sepenuhnya kamu miliki. Dalam kondisi darurat, kamu dapat menyiarkan transaksi ini langsung ke blockchain Bitcoin untuk memulihkan dana tanpa memerlukan izin siapa pun.
 
 
 
-**Bagaimana cara kerjanya? Prosesnya berlangsung dalam dua tahap. Pertama, **Pembukaan**: Anda secara berurutan menyiarkan transaksi yang sudah ditandatangani sebelumnya yang membentuk VTXO Anda di pohon transaksi. Kemudian **Finalisasi**: setelah penguncian waktu berakhir (biasanya 24 jam), Anda mengumpulkan bitcoin Anda dari alamat standar.
+**Bagaimana cara kerjanya?** Proses ini berlangsung dalam dua tahap. Pertama adalah **pembukaan**: kamu menyiarkan secara berurutan transaksi yang sudah ditandatangani sebelumnya dan membentuk VTXO kamu di dalam pohon transaksi. Kedua adalah **finalisasi**: setelah penguncian waktu berakhir, biasanya sekitar 24 jam, kamu dapat mengklaim bitcoin kamu ke alamat Bitcoin standar.
 
 
 
-**Status saat ini di Arkade**: Pada versi Beta, belum ada tombol atau antarmuka pengguna yang sederhana untuk output satu sisi. Fungsionalitas ini saat ini membutuhkan penggunaan Arkade SDK dan pengetahuan teknis pemrograman TypeScript.
+**Status saat ini di Arkade**: Pada versi Beta, belum tersedia tombol atau antarmuka pengguna yang sederhana untuk melakukan keluar sepihak. Fungsionalitas ini saat ini memerlukan penggunaan Arkade SDK serta pengetahuan teknis dalam pemrograman TypeScript.
 
 
 
-**Meskipun prosedur tidak dapat diakses dengan satu sentuhan tombol, jaminan kriptografi tetap ada. VTXO Anda berisi transaksi yang telah ditandatangani sebelumnya yang secara sah menjadi milik Anda. Jaminan teknis inilah yang membuat Ark menjadi protokol **non-kustodian**: bahkan dalam skenario terburuk sekalipun, dana Anda tetap dapat dipulihkan secara teknis. Antarmuka yang disederhanakan mungkin akan ditambahkan dalam versi Arkade yang akan datang.
+**Meskipun prosedur ini belum dapat diakses dengan satu sentuhan tombol, jaminan kriptografinya tetap ada.** VTXO kamu sudah berisi transaksi yang ditandatangani sebelumnya dan secara sah menjadi milik kamu. Jaminan teknis inilah yang menjadikan Ark sebagai protokol **non-kustodian**. Bahkan dalam skenario terburuk sekalipun, dana kamu tetap dapat dipulihkan secara teknis. Antarmuka yang lebih sederhana kemungkinan akan ditambahkan pada versi Arkade mendatang.
+
 
 
 
@@ -376,7 +362,7 @@ Untuk lebih memahami posisi Arkade, mari kita bandingkan dengan dua solusi skala
 | Kriteria | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
 | **Model** | UTXO bersama dikoordinasikan oleh server (ASP) | Jaringan P2P saluran pembayaran | Token buta yang diterbitkan oleh bank (Mint) |
-| **Kustodi** | **Non-custodial** (Anda memegang kunci) | **Non-custodial** (Anda memegang kunci) | **Custodial** (Mint memegang dana) |
+| **Kustodi** | **Non-custodial** (kamu memegang kunci) | **Non-custodial** (kamu memegang kunci) | **Custodial** (Mint memegang dana) |
 | **Privasi** | **Tinggi** (CoinJoin asli, buta bagi publik) | **Sedang** (Onion routing, tapi saluran terlihat) | **Sangat Tinggi** (Buta bahkan bagi Mint) |
 | **Skalabilitas** | Luar Biasa (Batching masif on-chain) | Luar Biasa (Transaksi tanpa batas off-chain) | Luar Biasa (Tanda tangan server sederhana) |
 | **Pengalaman** | Sederhana (mirip wallet on-chain) | Kompleks (manajemen saluran, likuiditas) | Sangat sederhana (seperti uang tunai digital) |
@@ -390,18 +376,18 @@ Untuk lebih memahami posisi Arkade, mari kita bandingkan dengan dua solusi skala
 
 
 
-Jika Anda mengalami masalah atau memiliki pertanyaan saat menggunakan Arkade, aplikasi ini menawarkan beberapa opsi dukungan:
+Jika kamu mengalami masalah atau memiliki pertanyaan saat menggunakan Arkade, aplikasi ini menawarkan beberapa opsi dukungan:
 
 
 
 
 
 - Buka **Pengaturan** > **Dukungan**.
-- Anda akan menemukan beberapa opsi:
-  - Dukungan pelanggan**: Dapatkan bantuan untuk portofolio Anda, laporkan bug, atau ajukan pertanyaan.
-  - Obrolan Aman**: Percakapan Anda aman dan pribadi, dengan riwayat yang disimpan di antara sesi.
-  - Laporan Bug**: Laporkan masalah yang Anda temui, termasuk langkah-langkah untuk mengatasinya.
-  - Lacak Kemajuan**: Lacak tiket dan percakapan dukungan Anda setiap saat.
+- Kamu akan menemukan beberapa opsi:
+  - **Dukungan pelanggan**: Dapatkan bantuan untuk wallet kamu, laporkan bug, atau ajukan pertanyaan.
+  - **Obrolan aman**: Percakapan kamu bersifat aman dan privat, dengan riwayat yang tetap tersimpan antar sesi.
+  - **Laporan bug**: Laporkan masalah yang kamu temui, termasuk langkah-langkah untuk mereproduksinya.
+  - **Lacak kemajuan**: Pantau tiket dan percakapan dukungan kamu kapan saja.
 
 
 
@@ -426,9 +412,10 @@ Tim Arkade juga aktif di Telegram melalui saluran @arkade_os untuk mendapatkan d
 
 
 
-- Gunakan dalam jumlah kecil**: Hindari menyimpan uang dalam jumlah besar di Arkade. Gunakan wallet ini untuk pengeluaran sehari-hari Anda dan simpan tabungan Anda pada perangkat keras wallet yang dingin.
-- Kemungkinan adanya bug dan keterbatasan**: Seperti halnya aplikasi lain yang sedang dalam pengembangan aktif, Arkade mungkin memiliki bug atau perilaku yang tidak diharapkan. Laporkan masalah apa pun melalui dukungan terintegrasi.
-- Evolusi yang cepat**: Aplikasi dan protokol terus ditingkatkan. Beberapa fitur dapat berubah atau ditambahkan dalam versi mendatang.
+- **Gunakan dalam jumlah kecil**: Hindari menyimpan dana dalam jumlah besar di Arkade. Gunakan wallet ini untuk pengeluaran sehari-hari dan simpan tabungan kamu di hardware wallet yang bersifat cold.
+- **Kemungkinan adanya bug dan keterbatasan**: Seperti aplikasi lain yang masih dalam tahap pengembangan aktif, Arkade mungkin memiliki bug atau perilaku yang tidak terduga. Laporkan setiap masalah melalui fitur dukungan terintegrasi.
+- **Evolusi yang cepat**: Aplikasi dan protokol terus berkembang. Beberapa fitur dapat berubah atau ditambahkan pada versi mendatang.
+
 
 
 
@@ -439,7 +426,7 @@ Tim Arkade juga aktif di Telegram melalui saluran @arkade_os untuk mendapatkan d
 
 - penundaan 24 jam pada VTXO**: VTXO yang baru dibuat tidak dapat langsung digunakan untuk output on-chain.
 - ASP yang unik**: Belum memungkinkan untuk mengubah server ASP dalam aplikasi.
-- Keluaran teknis sepihak**: Belum ada antarmuka yang disederhanakan untuk output unilateral (memerlukan SDK).
+- **Keluar sepihak teknis**: Saat ini belum tersedia antarmuka yang disederhanakan untuk keluar sepihak dan masih memerlukan penggunaan SDK.
 
 
 
@@ -451,19 +438,20 @@ Tim Arkade Labs secara aktif bekerja untuk melonggarkan batasan ini di versi men
 
 
 
-ArkadeOS merupakan terobosan besar dalam ekosistem Bitcoin. Dengan mengimplementasikan protokol Ark, ini membuktikan bahwa kesederhanaan penggunaan dapat direkonsiliasi dengan prinsip-prinsip dasar Bitcoin: jangan percaya, verifikasi.
+ArkadeOS merupakan terobosan besar dalam ekosistem Bitcoin. Dengan mengimplementasikan protokol Ark, Arkade membuktikan bahwa kemudahan penggunaan dapat berjalan selaras dengan prinsip dasar Bitcoin: jangan percaya, verifikasi.
 
 
 
-Meskipun masih dalam tahap awal, Arkade menawarkan sekilas gambaran menarik tentang bagaimana masa depan pembayaran Bitcoin: instan, privat, dan dapat diakses oleh semua orang tanpa prasyarat teknis. Ini adalah alat yang sempurna untuk pengeluaran harian Anda, melengkapi solusi tabungan Anda yang aman (Cold Wallet).
+Meskipun masih berada pada tahap awal, Arkade memberikan gambaran yang menarik tentang masa depan pembayaran Bitcoin yang instan, privat, dan dapat diakses oleh siapa pun tanpa prasyarat teknis. Arkade adalah alat yang ideal untuk pengeluaran harian, sekaligus melengkapi solusi penyimpanan tabungan yang aman menggunakan cold wallet.
 
 
 
-Kami mendorong Anda untuk menguji Arkade dengan jumlah kecil untuk menemukan protokol baru ini untuk diri Anda sendiri. Ekosistem ini berkembang dengan cepat, dan Arkade berada di garis depan dalam inovasi ini.
+Kami mendorong kamu untuk mencoba Arkade dengan jumlah kecil agar bisa merasakan sendiri bagaimana protokol baru ini bekerja. Ekosistemnya berkembang dengan cepat, dan Arkade berada di garis depan inovasi terse
 
 
 
-## Sumber daya
+
+## Sumber 
 
 
 

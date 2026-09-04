@@ -1,0 +1,9 @@
+question: "What is the Cantillon effect?"
+answer: "Newly created money benefits those with first access to it \u2014 banks, the state, the ruling minority \u2014 before prices rise for everyone else."
+wrong_answers:
+  - "The tendency of prices to fall when money is printed."
+  - "The rule that wages always rise faster than prices."
+  - "The equal distribution of new money across society."
+explanation: |
+  Described by Richard Cantillon in the early 18th century. It makes inflation a regressive tax: those furthest from the money spigot pay it, those closest profit from it.
+reviewed: false

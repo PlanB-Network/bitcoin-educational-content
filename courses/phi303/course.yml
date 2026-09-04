@@ -1,0 +1,25 @@
+id: ef49eac9-c57c-439a-b521-fda7ceb293b7
+
+topic: social studies
+subtopic: philosophy
+type: theory
+level: advanced
+hours: 6
+
+professors_id:
+  - f48e047c-d75d-4a4b-a088-94c78d338b82
+
+contributor_names:
+  - Rogzy
+
+published_at: 2026-09-04
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-09-04
+    urgency: 1
+    contributor_names:
+      - Rogzy
+    reward: 0

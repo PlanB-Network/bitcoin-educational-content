@@ -1,0 +1,9 @@
+question: "How does this course define freedom?"
+answer: "The absence of coercion, in particular state coercion."
+wrong_answers:
+  - "The right to vote in free elections."
+  - "A psychological feeling of independence."
+  - "The absence of any natural constraint, such as gravity."
+explanation: |
+  The course uses a political definition: freedom as absence of coercion arising from human organization — above all state coercion. Natural constraints and inner feelings are excluded from this political discussion.
+reviewed: false

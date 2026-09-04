@@ -384,7 +384,7 @@ Gutahura ukuri kw’inguvu za Bitcoin, ibiranga ubuzima bwite, n’uruhara rwayo
 
 <chapterId>5f638ec9-a6c1-5716-b27f-d837ab896eb1</chapterId>
 
-<Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
 ### Gushiramwo Bitcoin core
@@ -1085,7 +1085,7 @@ Mu gusozera, gukomeza gutorera umuti izo ngorane zifunguye no gukora ibintu bish
 
 <chapterId>0b97af0c-015a-54e3-a7f0-0f62ceb96c07</chapterId>
 
-<Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 
 :::video id=08101af2-1ded-4f3a-b1db-d4477c6ab63e:::
@@ -1182,7 +1182,7 @@ Mu gusozera, gutahura no gushiramwo ingingo ngenderwako z’umutekano n’ukwizi
 
 <chapterId>2c59d609-f1ef-53f4-9575-df62e4d066e9</chapterId>
 
-<Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 
 :::video id=4544ef7a-685e-4aaf-98a0-8a10dce06172:::
@@ -1252,7 +1252,7 @@ Mu gusozera, ubutunzi bwa porogarama zifunguye burongorwa n’intererano z’aba
 
 <chapterId>71867dd2-912c-55ad-b59c-9dbca8a39469</chapterId>
 
-<Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 
 :::video id=b482b0f0-4468-4eaf-bcd6-eb4748bdfa3a:::
@@ -1343,7 +1343,7 @@ Mu kumenya neza ivyo vyiyumviro no kwubahiriza ingendo nziza, uzoba ufise ibikor
 
 <chapterId>a30ec3e7-b290-5145-a9a9-042224ab20d2</chapterId>
 
-<Id y'umwigisha>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</Id y'umwigisha>
+<professorId>7dfc5865-a0f6-4c3b-9b05-83e0d807ac59</professorId>
 
 
 :::video id=91a38c17-5801-4a5c-baf2-c9e4cc24fd84:::
@@ -1436,8 +1436,6 @@ Mu gusozera, kazoza ka Bitcoin n’ihinduka ryayo bigenwa n’ubushake rusangi b
 
 
 <chapterId>a4eacfc3-7b37-5fa3-abd1-b1fc48b645f0</chapterId>
-
-<Id y'umwigisha>e320ccda-be59-492b-a81b-243d9acb592f</Id y'umwigisha>
 
 
 :::video id=161d074d-4a81-48da-b2c9-9bde041a0da5:::
@@ -1617,7 +1615,7 @@ Mu gusozera, isi ya Bitcoin Mining ni ikintu gikomeye, gifise imice myinshi gisa
 
 <chapterId>75ea1d88-ee6f-5f98-af90-e4758c55e606</chapterId>
 
-<Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 
 :::video id=6fae79f6-da81-4870-927b-923bd1672176:::
@@ -1769,7 +1767,7 @@ Gukoresha urudodo rwa Bitcoin ni uburyo bukomeye bwo kugira uruhara mu rubuga rw
 
 <chapterId>5ed314b1-8293-567d-bf03-730e8c9c774b</chapterId>
 
-<Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
 :::video id=1790e5fb-33f5-4e0e-982e-41589cd02965:::
@@ -2142,7 +2140,7 @@ Mu gusozera, gusesangura amabuye ya Bitcoin n’ibikorwa vyo muri Rust birimwo g
 
 <chapterId>96d64781-fc27-5209-88d8-2acf00d05ea8</chapterId>
 
-<Id y'umwigisha>0b05838c-24af-43ff-93be-896c907e0bc1</Id y'umwigisha>
+<professorId>0b05838c-24af-43ff-93be-896c907e0bc1</professorId>
 
 
 :::video id=1d148008-9197-446f-afb5-628d4c3a5015:::
@@ -2523,7 +2521,7 @@ Mu gutahura ivyo bihimba, kuva ku nzira za Bitcoin n’amasakoshi gushika ku gik
 
 <chapterId>a0b11c6e-c0ff-5e65-b809-b2ab9a2fc37b</chapterId>
 
-<Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 
 :::video id=b90f19a3-a95e-4cd1-8c55-41016f3339cb:::
@@ -2584,7 +2582,7 @@ Mu gusozera, gutahura ivy’amateka n’ingorane za Bitcoin, n’imiti mishasha 
 
 <chapterId>28be7b31-e6b2-5eea-a5ed-62ce0a154b6e</chapterId>
 
-<Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 
 :::video id=059a714b-4fe9-4266-acb0-6fe5af491662:::
@@ -3220,7 +3218,7 @@ Mu gutorera umuti izo ngorane, Lightning Network izobandanya gukura, ibe umuti u
 
 <chapterId>c06763dd-bb26-5fec-8ac4-3e446e9517cd</chapterId>
 
-<Id y'umwigisha>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</Id y'umwigisha>
+<professorId>880c7fa7-8d4c-4c9b-81b4-bc61ed256516</professorId>
 
 
 :::video id=ab5f65f1-0b0d-4ca9-8ff7-d42764c1e915:::
@@ -3312,7 +3310,7 @@ Mu gutahura no gushima ivyo bintu, turashobora kwemera iterambere ry’imice myi
 
 <chapterId>f4d147bb-f146-5b36-a994-b9b70da83744</chapterId>
 
-<Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
 :::video id=ffee9682-1bfa-4717-9f22-9bc1baff0722:::
@@ -3428,7 +3426,7 @@ Ukwagura no gushiramwo amafaranga y'umuravyo biciye mu mirongo ngenderwako itand
 
 <chapterId>f109f64f-9b73-5fbf-8870-5d34d5b69df8</chapterId>
 
-<Id y'umwigisha>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</Id y'umwigisha>
+<professorId>6cfd206c-53b8-47a0-bbf4-44fd84e6ee1d</professorId>
 
 
 :::video id=b89f2064-f2e1-49c3-97d0-580891eee1dd:::

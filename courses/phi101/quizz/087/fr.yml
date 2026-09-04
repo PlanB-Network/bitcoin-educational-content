@@ -1,9 +1,9 @@
-question: Selon Constant, quels sont les domaines dans lesquels le pouvoir politique n'a aucune influence ?
-answer: Tous les domaines mentionnés ci-dessus (religion, sciences, industrie).
+question: Selon Constant, qu'est-ce qui limite la souveraineté du peuple ?
+answer: La justice et les droits des individus.
 wrong_answers:
-  - La religion
-  - Les sciences
-  - L'industrie
+  - La volonté de la majorité exprimée par les élections.
+  - L'autorité du monarque et de l'aristocratie.
+  - Les traités internationaux et les alliances entre nations.
 explanation: |
-  Constant estime que le pouvoir politique ne doit pas intervenir dans des domaines comme la religion, les sciences et l'industrie, afin de préserver la liberté individuelle et l'autonomie des activités humaines qui relèvent de la sphère privée.
-reviewed: true 
+  Benjamin Constant affirme que la souveraineté du peuple n'est pas illimitée, mais est circonscrite dans les bornes tracées par la justice et les droits des individus. La volonté de tout un peuple ne peut rendre juste ce qui est injuste, car le droit naturel fixe des limites au pouvoir politique.
+reviewed: true

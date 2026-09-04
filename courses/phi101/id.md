@@ -23,6 +23,8 @@ Dari Zaman Kuno hingga Pencerahan, kebebasan meningkat seiring masyarakat merang
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Pengantar Kursus
+
 Selamat datang di kursus PHI101!
 
 Kursus ini mengajak Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
@@ -57,9 +59,11 @@ Siap memulai perjalanan filosofis unik ini dalam pencarian kebebasan? Mari kita 
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Mengapa Mempelajari Sejarah Kebebasan?
+
 Mengapa memberi judul kursus ini: sejarah kebebasan? Karena kita perlu memahami hubungan antara ide dan peristiwa, untuk lebih baik menilai era kita dan bertindak dengan kebijaksanaan. Adalah di masa lalu kita menemukan elemen untuk pemahaman yang lebih baik tentang apa itu kebebasan dan alasan mengapa kita harus menghargainya.
 
-> Ketika masa lalu tidak lagi menerangi masa depan, roh berjalan dalam kegelapan (Alexis de Tocqueville - _Demokrasi di Amerika_.)
+> Ketika masa lalu tidak lagi menerangi masa depan, roh berjalan dalam kegelapan (Alexis de Tocqueville - _[Demokrasi di Amerika](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/id/001.webp)
 
@@ -111,7 +115,7 @@ Filsafat kedua ditemukan di antara penulis seperti Rousseau, Robespierre, atau K
 
 ![image](assets/id/007.webp)
 
-> "Dia yang berani untuk memulai pendirian sebuah rakyat," kata Rousseau, "harus merasa mampu mengubah, seakan-akan, sifat manusia, mengubah setiap individu yang, oleh dirinya sendiri, adalah kesatuan yang sempurna dan terpisah, menjadi bagian dari kesatuan yang lebih besar dari mana individu ini menerima, dalam suatu cara, hidup dan keberadaannya." (_Kontrak Sosial_)
+> "Dia yang berani untuk memulai pendirian sebuah rakyat," kata Rousseau, "harus merasa mampu mengubah, seakan-akan, sifat manusia, mengubah setiap individu yang, oleh dirinya sendiri, adalah kesatuan yang sempurna dan terpisah, menjadi bagian dari kesatuan yang lebih besar dari mana individu ini menerima, dalam suatu cara, hidup dan keberadaannya." (_[Kontrak Sosial](https://planb.academy/resources/books/the-social-contract)_)
 
 Dari perspektif ini, misi legislator adalah untuk mengatur, memodifikasi, bahkan menghapuskan properti jika dia menganggapnya baik. Bagi Rousseau, properti bukanlah alami tetapi konvensional, seperti masyarakat itu sendiri. Sebaliknya, Robespierre menetapkan prinsip bahwa "Properti adalah hak setiap warga negara untuk menikmati dan mendisposisikan bagian dari barang yang dijamin kepadanya oleh hukum." Tidak ada hak alami atas properti; hanya ada sejumlah tak terbatas kemungkinan dan pengaturan yang bersifat kontingensi.
 
@@ -120,6 +124,8 @@ Dari perspektif ini, misi legislator adalah untuk mengatur, memodifikasi, bahkan
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### Mitos Legislator yang Providensial
 
 Ketika seseorang membuka buku teks, Bastiat mencatat, seseorang belajar bahwa umat manusia akan ditakdirkan ke ketiadaan tanpa intervensi kekuasaan:
 
@@ -179,6 +185,8 @@ Beberapa hari sebelum kematiannya di Roma pada tahun 1850, Bastiat berbicara kep
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Sejarah yang Ditulis oleh Para Pemenang
+
 Diketahui, sejarah ditulis oleh pemenang. Perhatian sering kali difokuskan pada penaklukan kekuasaan, pada kehidupan para pemimpin yang berkuasa, dan pada konflik yang menentang mereka kepada mereka yang ingin mengambil tempat mereka.
 
 ![image](assets/id/010.webp)
@@ -221,6 +229,8 @@ Tesis ini juga ditemukan dalam sebuah karya monumental yang berasal dari tahun 1
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Pandangan Sosialis tentang Sejarah
+
 Namun, ada perspektif lain tentang sejarah yang juga ada. Ini telah cukup sukses dan lama menikmati dukungan dari intelektual Barat dan perwakilan dari Selatan Global. Ini adalah pandangan sejarah sosialis dan Marxis.
 ![image](assets/id/013.webp)
 
@@ -239,7 +249,7 @@ Analisis ini mencerminkan kesalahpahaman tentang nilai lebih dan sifat kerjasama
 
 ### Revolusi Industri dalam Pertanyaan
 
-Faktanya, analisis Marxis mendistorsi realitas historis dari Revolusi Industri. Ludwig von Mises menjelaskan masalah ini dalam risalah ekonominya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (lihat khususnya bab yang berjudul [Interpretasi Populer dari Revolusi Industri](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) serta dalam serangkaian kuliah yang diterbitkan dengan judul: [_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Juga layak dibaca, Mentalitas Anti-Kapitalis [di sini](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) dan [di sini](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Faktanya, analisis Marxis mendistorsi realitas historis dari Revolusi Industri. Ludwig von Mises menjelaskan masalah ini dalam risalah ekonominya [_Human Action_](https://planb.academy/resources/books/human-action) (lihat khususnya bab yang berjudul [Interpretasi Populer dari Revolusi Industri](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) serta dalam serangkaian kuliah yang diterbitkan dengan judul: [_Kebijakan Ekonomi: Pemikiran untuk Hari Ini dan Esok_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Juga layak dibaca, Mentalitas Anti-Kapitalis [di sini](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) dan [di sini](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![image](assets/id/014.webp)
 
 Mises menjelaskan bahwa pekerjaan di pabrik, meskipun menyedihkan menurut standar kita, merupakan kesempatan terbaik yang mungkin bagi pekerja pada waktu itu.
@@ -286,7 +296,9 @@ Ini adalah Eropa yang sangat terdesentralisasi yang melahirkan parlemen, diet, d
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-Dalam bab terakhir dari _Anatomy of the State_ (diterjemahkan ke dalam bahasa Prancis sebagai _L’anatomie de l’Etat_, oleh edisi Résurgence), Murray Rothbard mengusulkan teori sejarah. Bab yang sangat singkat ini berjudul: Sejarah, perlombaan antara kekuatan negara dan kekuatan sosial. Menurut Rothbard, sejarah dapat dipahami sebagai konflik abadi antara dua prinsip fundamental:
+### Kekuatan Negara versus Kekuatan Sosial
+
+Dalam bab terakhir dari _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (diterjemahkan ke dalam bahasa Prancis sebagai _L’anatomie de l’Etat_, oleh edisi Résurgence), Murray Rothbard mengusulkan teori sejarah. Bab yang sangat singkat ini berjudul: Sejarah, perlombaan antara kekuatan negara dan kekuatan sosial. Menurut Rothbard, sejarah dapat dipahami sebagai konflik abadi antara dua prinsip fundamental:
 
 ![image](assets/id/017.webp)
 
@@ -320,7 +332,7 @@ Menurut Rothbard, sejarah bukanlah proses linier, melainkan osilasi antara kemaj
 Dari abad ke-17 hingga abad ke-19, di banyak negara Barat, terdapat periode percepatan kekuatan sosial dan peningkatan kebebasan, perdamaian, dan kesejahteraan material yang sesuai. Namun, Rothbard mengingatkan kita bahwa abad ke-20 ditandai dengan kebangkitan kembali kekuatan Negara, dengan konsekuensi yang mengerikan: peningkatan perbudakan, perang, dan kehancuran:
 
 > Selama abad ini, umat manusia menghadapi, sekali lagi, pemerintahan yang ganas dari Negara; Negara kini bersenjatakan kekuatan kreatif manusia, yang disita dan dipergunakan untuk tujuan-tujuannya sendiri.
-> Apa itu masyarakat bebas, setelah semua? Ini adalah masyarakat tanpa monopoli. Dalam karyanya tentang filsafat politik, _Ethics of Liberty_ (1982), Rothbard menjawab: "masyarakat di mana tidak ada kemungkinan hukum agresi paksa terhadap pribadi atau properti seseorang." Inilah sebabnya, menurutnya, filsafat politik, yang harus mendefinisikan prinsip-prinsip masyarakat yang adil, pada dasarnya bermuara pada satu pertanyaan: "Siapa yang secara sah memiliki apa?"
+> Apa itu masyarakat bebas, setelah semua? Ini adalah masyarakat tanpa monopoli. Dalam karyanya tentang filsafat politik, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rothbard menjawab: "masyarakat di mana tidak ada kemungkinan hukum agresi paksa terhadap pribadi atau properti seseorang." Inilah sebabnya, menurutnya, filsafat politik, yang harus mendefinisikan prinsip-prinsip masyarakat yang adil, pada dasarnya bermuara pada satu pertanyaan: "Siapa yang secara sah memiliki apa?"
 
 > ![image](assets/id/019.webp)
 
@@ -341,6 +353,8 @@ Dan dia menambahkan:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### Warisan Demokrasi Athena
 
 Pengalaman demokrasi Athena telah meninggalkan bekas yang abadi dalam sejarah pemikiran politik dan terus menginspirasi ideal-ideal demokrasi dan partisipasi warga di dunia saat ini.
 
@@ -435,6 +449,8 @@ Satu-satunya cara yang kita miliki untuk mendekati kebenaran adalah kritik dan d
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### Sebuah Kekaisaran Kosmopolitan
 
 Kekaisaran Romawi adalah entitas kosmopolitan yang luas. Pada puncaknya, sekitar tahun 117 M, itu adalah negara multi-etnis dan multibahasa yang luas:
 
@@ -538,6 +554,8 @@ Dengan menyatakan bahwa hukum tidak dapat direduksi hanya pada undang-undang yan
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Kemunduran dan Keruntuhan
+
 Mengapa Roma mengalami kemunduran dan akhirnya jatuh? Banyak yang suka berpikir bahwa Kekaisaran Romawi runtuh secara tiba-tiba, di bawah dampak invasi barbar. Namun, penyebab runtuhnya Kekaisaran Romawi dapat ditemukan jauh lebih awal, dalam imperialisme dan dirigisme ekonomi dan moneter.
 
 
@@ -611,6 +629,8 @@ Dan dia menambahkan:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Akar Kristen Kebebasan Individu
+
 Ide kebebasan Kristen berkembang dalam teologi abad pertengahan Santo Agustinus pada abad ke-4, hingga Santo Thomas Aquinas pada abad ke-13. Apa ide ini?
 
 ![image](assets/id/037.webp)
@@ -664,6 +684,8 @@ Menurut Santo Thomas:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Otonomi Akal
+
 Pada Abad Pertengahan, akal dan iman bersaing untuk mengakses kebenaran. Mengikuti Abélard dan Albertus Magnus, Thomas Aquinas, pada abad ke-13, memilih untuk membela hak-hak akal dan otonominya terhadap iman.
 
 ![image](assets/id/040.webp)
@@ -703,6 +725,8 @@ Sejak saat itu, rasionalisme agama akan secara definitif mengungguli mistisisme.
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### Sistem Teologis-Politik
+
 Pada Abad Pertengahan, Gereja dan monarki Kristen mewarisi model politik dari Kekaisaran Romawi, yang oleh sejarawan disebut sistem teologis-politik, yang berarti sistem di mana kekuasaan adalah sakral, yaitu, di mana pemimpin politik juga merupakan pemimpin agama.
 Inilah mengapa masyarakat abad pertengahan dicirikan oleh unanimisme politik-religius. Basis kekuasaan politik mendapatkan legitimasi, otoritas, dan kesatuan dari iman Kristen (atau Muslim). Mereka menganggap diri mereka sebagai penjaga ortodoksi budaya dan agama dan memperlakukan sebagai orang buangan mereka yang menyimpang dari keseragaman ini. Dalam konteks ini, meskipun toleransi tertentu bisa diberikan kepada mereka yang terlepas dari visi budaya bersama (seperti Yahudi), tidak ada hak pluralisme yang bisa diakui untuk mereka. Baru pada akhir Abad Pertengahan, dengan penaklukan Amerika, masalah kebebasan sipil menjadi krusial bagi Gereja dan melihat kemunculan filsafat hukum pertama yang menegaskan dan melindungi kebebasan individu, melegitimasi pluralisme, dan mengutuk paksaan negara.
 
@@ -740,6 +764,8 @@ Godaan teokratis Gereja juga bertentangan dengan teori "hak ilahi." Jika raja-ra
 <chapterId>7a27494d-8481-52ea-a551-e430bdb5315f</chapterId>
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
+
+### Manusia Diciptakan Menurut Gambar Tuhan
 
 Pemikiran kuno menempatkan manusia di bawah kosmos ilahi, yaitu, ke dalam semesta yang sempurna di mana ia hanyalah sebuah bagian. Sebaliknya, monoteisme menegaskan nilai manusia yang tak terhingga lebih tinggi daripada alam, sejauh manusia diciptakan menurut gambar Tuhan. Poin penting ini merupakan asal mula revolusi etika yang sejati. Alkitab menegaskan nilai suci dan tak terhingga dari setiap manusia.
 
@@ -779,6 +805,8 @@ Ide kemanusiaan berkembang. Secara efektif mulai dipertimbangkan bahwa hanya ada
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### Kekristenan dan Ekonomi Bebas
 
 Kita telah melihat bahwa Kekristenan memberikan kewajiban moral kepada orang-orang untuk bekerja menuju perbaikan dunia. Tuhan menginginkan manusia untuk bahagia tetapi tidak ingin mencapai kebaikan-Nya di tempatnya. Oleh karena itu, terserah kepada orang Kristen untuk melawan kejahatan moral, mencintai sesama, membantu korban, singkatnya, bekerja untuk dunia yang lebih adil dan manusiawi. Apakah kapitalisme, yaitu, ekonomi bebas berdasarkan pada kepemilikan pribadi dan kebebasan kontrak, kompatibel dengan kewajiban Kristen?
 
@@ -846,6 +874,8 @@ Lebih lanjut, jika dua mata uang berbeda mendapat manfaat dari tender legal, age
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Perang Agama dan Pencerahan
+
 Sejak zaman Renaissance, Eropa telah dilanda oleh perang agama. Oleh karena itu, toleransi menjadi salah satu pertarungan besar dari Pencerahan.
 
 ![image](assets/id/050.webp)
@@ -883,7 +913,7 @@ Dalam _Surat Kesepuluh_, "Tentang Perdagangan", Voltaire menggambarkan pola piki
 
 ### Kebenaran Membutuhkan Kebebasan
 
-Namun, Prancis tidak kekurangan pikiran besar. Ini sedikit diketahui tetapi Anne Robert Jacques Turgot, Baron de Laulne pertama-tama adalah pemikir terkemuka sebelum menjadi Pengawas Umum Keuangan di bawah Louis XVI. Dia adalah penulis sebuah risalah cemerlang tentang ekonomi politik, _Refleksi tentang Pembentukan dan Distribusi Kekayaan_ (1766), mendahului _Kekayaan Bangsa_ oleh Adam Smith (1776).
+Namun, Prancis tidak kekurangan pikiran besar. Ini sedikit diketahui tetapi Anne Robert Jacques Turgot, Baron de Laulne pertama-tama adalah pemikir terkemuka sebelum menjadi Pengawas Umum Keuangan di bawah Louis XVI. Dia adalah penulis sebuah risalah cemerlang tentang ekonomi politik, _Refleksi tentang Pembentukan dan Distribusi Kekayaan_ (1766), mendahului _[Kekayaan Bangsa](https://planb.academy/resources/books/the-wealth-of-nations)_ oleh Adam Smith (1776).
 
 ![image](assets/id/052.webp)
 
@@ -902,6 +932,8 @@ Dengan kata lain, menjadi toleran tidak berarti menjadi bermusuhan dengan agama.
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Asal-usul Liberalisme Ekonomi
 
 Liberalisme ekonomi sering dikaitkan dengan tradisi Anglo-Saxon yang berasal dari Adam Smith, dibandingkan dengan "liberalisme politik," yang dikatakan berasal dari Pencerahan kontinental, khususnya di Prancis. Pandangan ini tidak benar.
 
@@ -966,6 +998,8 @@ Singkatnya, jika setiap orang dapat dengan bebas mengejar kepentingan pribadi me
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Tiga Peristiwa yang Mengubah Sejarah
+
 1776 adalah tahun yang sering tidak mendapat perhatian dalam buku teks sejarah. Namun, di tiga negara, Prancis, Skotlandia, dan Amerika Utara, beberapa peristiwa akan meninggalkan bekas yang tidak terhapuskan dalam sejarah kebebasan.
 
 ### Kegagalan Turgot
@@ -1008,7 +1042,7 @@ Ini juga merupakan sebuah traktat tentang filosofi karena menunjukkan bagaimana 
 
 ### Sebuah Manifesto untuk Kebebasan di Amerika
 
-Pada tahun 1776, seorang Inggris bernama Thomas Paine menerbitkan di Amerika sebuah pamflet yang keras mengkritik monarki Inggris dan mendukung kemerdekaan kolonis Amerika: _Common Sense_.
+Pada tahun 1776, seorang Inggris bernama Thomas Paine menerbitkan di Amerika sebuah pamflet yang keras mengkritik monarki Inggris dan mendukung kemerdekaan kolonis Amerika: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 ![image](assets/id/059.webp)
 
@@ -1067,6 +1101,8 @@ Ide tentang tatanan spontan ini akan menjadi konsep kunci dalam karya Friedrich 
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### Sekularisasi dan Masyarakat Modern
 
 Novelitas besar dari periode modern ini dalam sejarah Barat adalah munculnya masyarakat yang mengorganisir dirinya di luar ketergantungan agama. Ini tidak berarti hilangnya kepercayaan agama atau kematian Tuhan. Tetapi Tuhan menjadi urusan pribadi, tidak lagi bercampur dengan urusan politik. Tidak ada hilangnya agama tetapi penurunan peran panduannya. Ini menjadi sistem keyakinan individu.
 
@@ -1150,7 +1186,7 @@ Di Amerika, tidak ada dirigisme ekonomi, atau kebangkrutan moneter seperti Assig
 
 Dengan Rousseau dan Robespierre, orang Prancis ingin percaya bahwa Bangsa atau kehendak umum memiliki kekuatan tak terbatas dan membenarkan segalanya. Dari fakta bahwa rakyat memerintah, disimpulkan bahwa mereka memiliki semua hak. Jelas ada kontradiksi antara prinsip-prinsip besar Revolusi dan cara yang digunakan untuk membuat mereka menang.
 
-Ini, terlebih lagi, adalah makna dari komentar oleh Friedrich Hayek dalam bukunya _The Constitution of Liberty_:
+Ini, terlebih lagi, adalah makna dari komentar oleh Friedrich Hayek dalam bukunya _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > Faktor penentu yang membuat sia-sia upaya Revolusi untuk mempromosikan kebebasan individu adalah bahwa itu menciptakan ilusi bahwa, sejauh semua kekuasaan telah diserahkan kepada rakyat, semua tindakan pencegahan terhadap penyalahgunaan kekuasaan ini menjadi tidak perlu.
 
@@ -1164,6 +1200,8 @@ Ini, terlebih lagi, adalah makna dari komentar oleh Friedrich Hayek dalam bukuny
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Kebebasan Kuno versus Kebebasan Modern
+
 Menurut Benjamin Constant, kebebasan, dalam masyarakat modern kita, tidak lagi dapat dipahami seperti masyarakat Antikuitas sebagai partisipasi langsung dalam urusan kota.
 
 ![image](assets/id/070.webp)
@@ -1172,7 +1210,7 @@ Menurut Benjamin Constant, kebebasan, dalam masyarakat modern kita, tidak lagi d
 
 Pada zaman kuno, individu adalah berdaulat dalam urusan publik tetapi diperbudak dalam semua hubungan pribadi mereka. Pengorbanan kebebasan individu dikompensasi dengan penggunaan hak politik: hak untuk langsung menjalankan berbagai bagian kedaulatan, untuk berdeliberasi di alun-alun publik, untuk memilih undang-undang, untuk mengucapkan putusan, untuk mengevaluasi dan mengadili majelis. Ini adalah kebebasan politik dan kolektif:
 
-> Kebebasan para Pendahulu terdiri dari partisipasi aktif dan konstan dalam kekuatan kolektif. Kebebasan kita, di sisi lain, harus terdiri dari kenikmatan damai dari kemandirian pribadi; ini mengikuti bahwa kita harus lebih terikat daripada para pendahulu kepada kemandirian individu kita. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
+> Kebebasan para Pendahulu terdiri dari partisipasi aktif dan konstan dalam kekuatan kolektif. Kebebasan kita, di sisi lain, harus terdiri dari kenikmatan damai dari kemandirian pribadi; ini mengikuti bahwa kita harus lebih terikat daripada para pendahulu kepada kemandirian individu kita. (_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![image](assets/id/071.webp)
 
@@ -1180,7 +1218,7 @@ Kebebasan modern adalah kebebasan sipil, yang mencakup kebebasan ekonomi dan did
 
 Definisi kebebasan ini ditemukan dalam John Stuart Mill:
 
-> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan memperoleh lebih banyak keuntungan dengan membiarkan setiap orang hidup sesuai keinginannya daripada memaksa mereka untuk hidup sesuai dengan apa yang dianggap baik oleh orang lain. (_On Liberty_, 1859)
+> Satu-satunya kebebasan yang layak disebut nama, adalah kebebasan mengejar kebaikan kita sendiri dengan cara kita sendiri, selama kita tidak mencoba untuk merampas kebaikan orang lain atau menghalangi upaya mereka untuk memperolehnya. (...) Kemanusiaan memperoleh lebih banyak keuntungan dengan membiarkan setiap orang hidup sesuai keinginannya daripada memaksa mereka untuk hidup sesuai dengan apa yang dianggap baik oleh orang lain. (_[On Liberty](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/id/072.webp)
 
@@ -1216,6 +1254,8 @@ Dengan kata lain, dalam masyarakat yang bebas, perlu untuk menetapkan batasan ya
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### Tocqueville dan Individualisme Demokratis
 
 Alexis de Tocqueville adalah pengamat demokrasi yang tajam dan kritikus individualisme demokratis.
 
@@ -1293,6 +1333,8 @@ Lihatlah dunia. Mana yang paling bahagia, paling bermoral, dan paling damai? Mer
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### Kritik Abad ke-19
+
 Kritik terhadap kapitalisme, dan khususnya kritik Marxisme, muncul selama abad ke-19.
 
 ![image](assets/id/078.webp)
@@ -1324,6 +1366,8 @@ Revolusi politik oleh karena itu adalah ilusi, menurutnya, selama tidak disertai
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### Tanggapan Mazhab Austria
 
 Sekolah Ekonomi Austria, yang didirikan oleh Carl Menger pada akhir abad ke-19, menentang teori Karl Marx sejak awal.
 
@@ -1379,7 +1423,7 @@ Marxis percaya bahwa sosialisme, sistem ekonomi di mana sarana produksi dimiliki
 
 ![image](assets/id/085.webp)
 
-Sejak awal tahun 1922, dalam bukunya _Socialism,_ Ludwig von Mises menunjukkan bahwa sosialisme akan menyebabkan kekurangan yang luas, karena perencana sentral tidak akan dapat membuat perhitungan ekonomi yang akurat tanpa sistem harga yang disediakan oleh pasar.
+Sejak awal tahun 1922, dalam bukunya _[Socialism](https://planb.academy/resources/books/socialism-mises),_ Ludwig von Mises menunjukkan bahwa sosialisme akan menyebabkan kekurangan yang luas, karena perencana sentral tidak akan dapat membuat perhitungan ekonomi yang akurat tanpa sistem harga yang disediakan oleh pasar.
 
 ## Jalan Menuju Perbudakan
 
@@ -1387,7 +1431,9 @@ Sejak awal tahun 1922, dalam bukunya _Socialism,_ Ludwig von Mises menunjukkan b
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _The Road to Serfdom_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta kopi, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
+### Peringatan Hayek terhadap Kolektivisme
+
+Terkejut oleh meningkatnya intervensi pemerintah dalam ekonomi demokrasi Barat, Hayek menulis _[The Road to Serfdom](https://planb.academy/resources/books/the-road-to-serfdom)_ sebagai kritik filosofis terhadap kolektivisme, baik dari kanan maupun kiri. Diterbitkan dalam beberapa juta kopi, berkat _Reader’s Digest_, buku ini telah sangat berkontribusi pada ketenaran Hayek di Amerika Serikat.
 
 ![image](assets/id/086.webp)
 
@@ -1430,13 +1476,15 @@ Kesimpulannya, Hayek meminta rekan-rekannya untuk berpaling dari "kegilaan" dan 
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Revolusi Keynesian
+
 Kapitalisme sering dituduh sebagai sumber perintah: "kita harus selalu memproduksi lebih banyak," atau dari formula: "konsumsi itu baik untuk pertumbuhan." Namun, ide-ide ini tidak berasal dari kapitalisme tradisional tetapi dari Keynesianisme, yang telah mendominasi bidang ilmu ekonomi dan kelas politik sejak tahun 1930-an.
 
 ![image](assets/id/088.webp)
 
 ### Analisis Krisis 1929
 
-Diterbitkan pada tahun 1936, buku karya John Maynard Keynes: _The General Theory of Employment, Interest, and Money_, menyapu segala yang ada di jalannya. Menanyakan penyebab Depresi Besar dan cara untuk keluar darinya, ia menggambarkan paradigma ekonomi baru, yang akan mengubah generasi ekonom dan politisi.
+Diterbitkan pada tahun 1936, buku karya John Maynard Keynes: _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, menyapu segala yang ada di jalannya. Menanyakan penyebab Depresi Besar dan cara untuk keluar darinya, ia menggambarkan paradigma ekonomi baru, yang akan mengubah generasi ekonom dan politisi.
 
 ![image](assets/id/089.webp)
 
@@ -1474,7 +1522,7 @@ Mulai dari tahun 1958, sebuah kebijakan untuk memperbaiki ekonomi Prancis, terin
 
 ![image](assets/id/094.webp)
 
-Dalam _Dosa Moneter Barat_, pada tahun 1971, Rueff menulis:
+Dalam _[Dosa Moneter Barat](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, pada tahun 1971, Rueff menulis:
 
 > Melalui defisit anggaranlah manusia kehilangan kebebasannya.
 
@@ -1490,6 +1538,8 @@ Tidak ada agama yang menyebar ke seluruh dunia secepat agama pekerjaan. Didorong
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### Uang dan Peradaban
 
 Uang adalah alat yang memungkinkan manusia untuk melampaui barter, untuk menyimpan, dan untuk berkoordinasi dalam skala besar melalui pasar. Ini telah memungkinkan spesialisasi tenaga kerja, keuntungan komparatif, keuntungan dari perdagangan, perhitungan ekonomi. Tanpa uang, tidak ada peradaban modern.
 
@@ -1535,7 +1585,7 @@ Pada Februari 1965, selama konferensi pers yang disiarkan televisi, Jenderal de 
 
 ### Pasar moneter tanpa monopoli Negara adalah mungkin
 
-Pada tahun 1976, Hayek mengusulkan alternatif untuk monopoli Negara atas penciptaan mata uang: persaingan antar mata uang. Dalam bukunya, _Pour une vraie concurrence des monnaies_ (_The Denationalization of Money_), dia membayangkan pasar moneter tanpa monopoli Negara di mana beberapa mata uang swasta akan ada. Penciptaan dan pengelolaan mata uang yang berbeda oleh entitas swasta akan memungkinkan individu untuk memilih mata uang yang paling stabil dan dapat diandalkan, sehingga mendorong persaingan dan disiplin di antara penerbit.
+Pada tahun 1976, Hayek mengusulkan alternatif untuk monopoli Negara atas penciptaan mata uang: persaingan antar mata uang. Dalam bukunya, _Pour une vraie concurrence des monnaies_ (_[The Denationalization of Money](https://planb.academy/resources/books/the-denationalization-of-money)_), dia membayangkan pasar moneter tanpa monopoli Negara di mana beberapa mata uang swasta akan ada. Penciptaan dan pengelolaan mata uang yang berbeda oleh entitas swasta akan memungkinkan individu untuk memilih mata uang yang paling stabil dan dapat diandalkan, sehingga mendorong persaingan dan disiplin di antara penerbit.
 
 ![image](assets/id/100.webp)
 

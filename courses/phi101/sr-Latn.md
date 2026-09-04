@@ -26,6 +26,7 @@ Od antike kroz prosvetiteljstvo, sloboda je napredovala kako su društva prihvat
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Uvod u kurs
 
 Dobrodošli u PHI101!
 
@@ -79,11 +80,12 @@ Spremni da krenete na ovo jedinstveno filozofsko putovanje u potrazi za slobodom
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Zašto proučavati istoriju slobode?
 
 Zašto naslov ovog kursa: istorija slobode? Zato što treba da razumemo odnos između ideja i događaja, kako bismo bolje procenili naše doba i delovali sa razboritošću. U prošlosti nalazimo Elements za bolje razumevanje šta je sloboda i razloge zašto je moramo ceniti.
 
 
-> Kada prošlost više ne osvetljava budućnost, duh hoda u tami (Alexis de Tokvil - _Demokratija u Americi_.)
+> Kada prošlost više ne osvetljava budućnost, duh hoda u tami (Alexis de Tokvil - _[Demokratija u Americi](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/sr-Latn/001.webp)
 
@@ -159,7 +161,7 @@ Druga filozofija se nalazi među autorima kao što su Ruso, Robespjer ili Kant, 
 ![image](assets/sr-Latn/007.webp)
 
 
-> "Onaj ko se usuđuje da preuzme osnivanje naroda," kaže Ruso, "mora se osećati sposobnim da promeni, da tako kažemo, ljudsku prirodu, da transformiše svakog pojedinca koji je, sam po sebi, savršena i usamljena celina, u deo veće celine od koje taj pojedinac, na neki način, prima svoj život i biće." (_Društveni ugovor_)
+> "Onaj ko se usuđuje da preuzme osnivanje naroda," kaže Ruso, "mora se osećati sposobnim da promeni, da tako kažemo, ljudsku prirodu, da transformiše svakog pojedinca koji je, sam po sebi, savršena i usamljena celina, u deo veće celine od koje taj pojedinac, na neki način, prima svoj život i biće." (_[Društveni ugovor](https://planb.academy/resources/books/the-social-contract)_)
 
 Iz ove perspektive, misija zakonodavca je da organizuje, modifikuje, čak i ukine vlasništvo ako to smatra dobrim. Za Rusoa, vlasništvo nije prirodno već konvencionalno, kao i samo društvo. S druge strane, Robespjer postavlja princip da je "Vlasništvo pravo svakog građanina da uživa i raspolaže delom dobara koja su mu zakonom zagarantovana." Ne postoji prirodno pravo na vlasništvo; postoje samo neodređeni broj mogućih i uslovnih aranžmana.
 
@@ -171,6 +173,7 @@ Iz ove perspektive, misija zakonodavca je da organizuje, modifikuje, čak i ukin
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
+### Mit o proviđajnom zakonodavcu
 
 Kada neko otvori udžbenike, primetio je Bastiat, saznaje da bi čovečanstvo bilo osuđeno na ništavilo bez intervencije moći:
 
@@ -253,6 +256,7 @@ Nekoliko dana pre svoje smrti u Rimu 1850. godine, Bastija je poverio svom prija
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Istoriju pišu pobednici
 
 Poznato je, istoriju pišu pobednici. Pažnja je često usmerena na osvajanje moći, na živote lidera na vlasti i na sukobe koji ih suprotstavljaju onima koji žele da zauzmu njihovo mesto.
 
@@ -316,6 +320,8 @@ Ova teza se takođe nalazi u monumentalnom delu iz 1983. godine: _Law and Revolu
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Socijalistički pogled na istoriju
+
 Međutim, postoji još jedna perspektiva o istoriji. Ona je bila prilično uspešna i dugo je uživala podršku zapadnih intelektualaca i predstavnika Globalnog Juga. Ovo je socijalistički i marksistički pogled na istoriju.
 
 ![image](assets/sr-Latn/013.webp)
@@ -344,7 +350,7 @@ Ova analiza odražava nerazumevanje viška vrednosti i kooperativne i dinamičke
 ### Industrijska revolucija u pitanju
 
 
-Zapravo, marksistička analiza iskrivljuje istorijsku stvarnost Industrijske revolucije. Ludwig von Mises je razjasnio ovo pitanje u svom ekonomskom traktatu [_Ljudska akcija_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (pogledajte posebno poglavlje pod nazivom [Popularna interpretacija Industrijske revolucije](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) kao i u seriji predavanja objavljenih pod naslovom: [_Ekonomska politika: Misli za danas i sutra_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Takođe vredi pročitati, Antikapitalistički mentalitet [ovde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) i [ovde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Zapravo, marksistička analiza iskrivljuje istorijsku stvarnost Industrijske revolucije. Ludwig von Mises je razjasnio ovo pitanje u svom ekonomskom traktatu [_Ljudska akcija_](https://planb.academy/resources/books/human-action) (pogledajte posebno poglavlje pod nazivom [Popularna interpretacija Industrijske revolucije](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) kao i u seriji predavanja objavljenih pod naslovom: [_Ekonomska politika: Misli za danas i sutra_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Takođe vredi pročitati, Antikapitalistički mentalitet [ovde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) i [ovde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/sr-Latn/014.webp)
 
@@ -414,8 +420,9 @@ Zaključujući ovo poglavlje, ekonomski i kulturni uzlet Evrope nije bio rezulta
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
+### Državna moć naspram društvene moći
 
-U poslednjem poglavlju _Anatomy of the State_ (prevedeno na francuski kao _L’anatomie de l’Etat_, od strane Résurgence editions), Murray Rothbard predlaže teoriju istorije. Ovo veoma kratko poglavlje nosi naslov: Istorija, trka između državne moći i društvene moći. Prema Rothbardu, istorija se može razumeti kao večiti sukob između dva osnovna principa:
+U poslednjem poglavlju _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (prevedeno na francuski kao _L’anatomie de l’Etat_, od strane Résurgence editions), Murray Rothbard predlaže teoriju istorije. Ovo veoma kratko poglavlje nosi naslov: Istorija, trka između državne moći i društvene moći. Prema Rothbardu, istorija se može razumeti kao večiti sukob između dva osnovna principa:
 
 
 ![image](assets/sr-Latn/017.webp)
@@ -471,7 +478,7 @@ Od 17. do 19. veka, u mnogim zapadnim zemljama, postojali su periodi ubrzanja dr
 
 
 > Tokom ovog veka, ljudska rasa se suočava, još jednom, sa virulentnom vladavinom Države; Država sada naoružana stvaralačkom snagom čoveka, konfiskovanom i izopačenom za sopstvene ciljeve.
-> Šta je, uostalom, slobodno društvo? To je društvo bez monopola. U svom delu političke filozofije, _Etika slobode_ (1982), Rotbard odgovara: "društvo u kojem ne postoji zakonska mogućnost prinudne agresije protiv ličnosti ili imovine pojedinca." Zato se, prema njemu, politička filozofija, koja mora definisati principe pravednog društva, svodi na jedno jedino pitanje: "Ko legitimno poseduje šta?"
+> Šta je, uostalom, slobodno društvo? To je društvo bez monopola. U svom delu političke filozofije, _[Etika slobode](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), Rotbard odgovara: "društvo u kojem ne postoji zakonska mogućnost prinudne agresije protiv ličnosti ili imovine pojedinca." Zato se, prema njemu, politička filozofija, koja mora definisati principe pravednog društva, svodi na jedno jedino pitanje: "Ko legitimno poseduje šta?"
 > ![image](assets/sr-Latn/019.webp)
 
 Za Rothbarda, društveni poredak može prevladati ako je proizvod generalizacije ugovornih procedura za slobodno Exchange vlasničkih prava, privatizacijom svih ekonomskih aktivnosti, pa čak i suverenih funkcija (centralna banka, sudovi) i pribegavanjem konkurenciji među agencijama za zaštitu.
@@ -498,6 +505,7 @@ I dodaje:
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
+### Nasleđe atinske demokratije
 
 Iskustvo atinske demokratije ostavilo je trajan trag u istoriji političke misli i nastavlja da inspiriše ideale demokratije i učešća građana u današnjem svetu.
 
@@ -638,6 +646,7 @@ Jedino sredstvo koje imamo za približavanje istini su kritika i diskusija. Iz d
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
+### Kosmopolitsko carstvo
 
 Rimsko carstvo je bilo ogromna kosmopolitska tvorevina. Na svom vrhuncu, oko 117. godine nove ere, bilo je to ogromna multietnička i višejezična država:
 
@@ -792,6 +801,7 @@ Tvrdeći da se zakon ne može svesti samo na statute koje donosi zakonodavno tel
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Opadanje i propast
 
 Zašto je Rim propao i na kraju pao? Mnogi vole misliti da je Rimsko carstvo iznenada propalo pod uticajem varvarskih invazija. Međutim, uzroci propasti Rimskog carstva mogu se pronaći mnogo ranije, u imperijalizmu i ekonomskom i monetarnom dirigizmu.
 
@@ -904,6 +914,7 @@ I dodaje:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Hrišćanski koreni individualne slobode
 
 Hrišćanska ideja slobode razvijala se u srednjovekovnoj teologiji od Svetog Avgustina u 4. veku, do Svetog Tome Akvinskog u 13. veku. Šta je ta ideja?
 
@@ -981,6 +992,7 @@ Prema Svetom Tomi:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Autonomija razuma
 
 U srednjem veku, razum i vera se takmiče za pristup istini. Nakon Abélarda i Alberta Velikog, Toma Akvinski je u 13. veku odlučio da brani prava razuma i njegovu autonomiju u odnosu na veru.
 
@@ -1042,6 +1054,7 @@ Od tada će religijski racionalizam definitivno prevladati nad misticizmom.
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### Teologiko-politički sistem
 
 U srednjem veku, Crkva i hrišćanske monarhije nasledile su politički model od Rimskog carstva, koji istoričari nazivaju teologiko-politički sistem, što znači sistem gde je moć sveta, tj. gde je politički vođa ujedno i verski vođa.
 
@@ -1100,6 +1113,7 @@ Teokratsko iskušenje Crkve takođe je u sukobu sa teorijom "božanskog prava." 
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### Čovek stvoren po Božijem liku
 
 Drevna misao je podređivala čoveka božanskom kosmosu, to jest, savršenom univerzumu čiji je on bio samo deo. S druge strane, monoteizam tvrdi beskonačno superiornu vrednost čoveka nad prirodom, utoliko što je čovek stvoren po Božijem liku. Ova ključna tačka je na izvoru prave etičke revolucije. Biblija potvrđuje svetu i beskonačnu vrednost svakog ljudskog bića.
 
@@ -1156,6 +1170,7 @@ Ideja o čovečanstvu napreduje. Efektivno se počelo smatrati da postoji samo j
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
+### Hrišćanstvo i slobodna ekonomija
 
 Videli smo da hrišćanstvo nameće moralnu dužnost ljudima da rade na poboljšanju sveta. Bog želi da čovek bude srećan, ali ne želi da postigne njegovo dobro umesto njega. Stoga je na hrišćaninu da se bori protiv moralnog zla, da voli svog bližnjeg, da pomaže žrtvama, ukratko, da radi na pravednijem i humanijem svetu. Da li je kapitalizam, odnosno slobodna ekonomija zasnovana na privatnoj svojini i slobodi ugovora, kompatibilan sa hrišćanskom dužnošću?
 
@@ -1251,6 +1266,7 @@ Oresme naglašava da promene valute nisu samo igra preraspodele u korist vlasti 
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Verski ratovi i prosvetiteljstvo
 
 Od renesanse, Evropu su pustošili verski ratovi. Tolerancija je, stoga, postala jedna od velikih bitaka prosvetiteljstva.
 
@@ -1309,7 +1325,7 @@ U _Desetom pismu_, "O trgovini", Voltaire opisuje francuski način razmišljanja
 ### Istina Zahteva Slobodu
 
 
-Ipak, Francuska nije oskudevala u velikim umovima. Malo je poznato, ali Anne Robert Jacques Turgot, Baron de Laulne, bio je pre svega vodeći mislilac pre nego što je postao generalni kontrolor finansija pod Lujem XVI. Bio je autor majstorskog traktata o političkoj ekonomiji, _Reflections on the Formation and Distribution of Wealth_ (1766), koji je prethodio _The Wealth of Nations_ Adama Smitha (1776).
+Ipak, Francuska nije oskudevala u velikim umovima. Malo je poznato, ali Anne Robert Jacques Turgot, Baron de Laulne, bio je pre svega vodeći mislilac pre nego što je postao generalni kontrolor finansija pod Lujem XVI. Bio je autor majstorskog traktata o političkoj ekonomiji, _Reflections on the Formation and Distribution of Wealth_ (1766), koji je prethodio _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ Adama Smitha (1776).
 
 
 ![image](assets/sr-Latn/052.webp)
@@ -1337,6 +1353,8 @@ Drugim rečima, biti tolerantan ne znači biti neprijateljski nastrojen prema re
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Poreklo ekonomskog liberalizma
 
 Ekonomski liberalizam se često povezuje sa anglosaksonskom tradicijom koja potiče od Adama Smita, u kontrastu sa "političkim liberalizmom," za koji se kaže da potiče iz kontinentalnog prosvetiteljstva, posebno u Francuskoj. Ovaj pogled je netačan.
 
@@ -1434,6 +1452,7 @@ Ukratko, ako svako može slobodno slediti svoj privatni interes u skladu sa prir
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Tri događaja koji su promenili istoriju
 
 1776 je godina koja često prolazi nezapaženo u istorijskim udžbenicima. Ali u tri zemlje, Francuskoj, Škotskoj i Severnoj Americi, nekoliko događaja će ostaviti neizbrisiv trag u istoriji slobode.
 
@@ -1494,7 +1513,7 @@ To je takođe rasprava o filozofiji jer pokazuje kako je slobodan i dobrovoljan 
 ### Manifest za slobodu u Americi
 
 
-Godine 1776, Englez po imenu Tomas Pejn objavio je u Americi žestoku brošuru koja kritikuje englesku monarhiju i zalaže se za nezavisnost američkih kolonista: _Common Sense_.
+Godine 1776, Englez po imenu Tomas Pejn objavio je u Americi žestoku brošuru koja kritikuje englesku monarhiju i zalaže se za nezavisnost američkih kolonista: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 
 ![image](assets/sr-Latn/059.webp)
@@ -1582,6 +1601,7 @@ Ova ideja spontanog poretka postala bi ključni koncept u radu Friedricha Hayeka
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
+### Sekularizacija i moderno društvo
 
 Velika novina ovog modernog perioda u zapadnoj istoriji je pojava društva koje se organizuje izvan religijske zavisnosti. To ne znači nestanak religijskog verovanja ili smrt Boga. Ali Bog postaje privatna stvar, više nije pomešan sa političkim poslovima. Nema nestanka religije, već detronizacija njene vodeće uloge. Ona postaje sistem individualnih verovanja.
 
@@ -1707,7 +1727,7 @@ U Americi nije bilo ekonomskog dirigizma, niti monetarnog bankrota poput onog sa
 Sa Rousseauom i Robespierreom, Francuzi su želeli da veruju da Nacija ili opšta volja ima neograničenu moć i opravdava sve. Iz činjenice da je narod vladao, zaključeno je da su imali sva prava. Jasno je postojala kontradikcija između velikih principa Revolucije i sredstava korišćenih da bi oni trijumfovali.
 
 
-Ovo je, štaviše, značenje primedbe Friedricha Hayeka u njegovoj knjizi _The Constitution of Liberty_:
+Ovo je, štaviše, značenje primedbe Friedricha Hayeka u njegovoj knjizi _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 
 > Odlučujući faktor koji je učinio uzaludnim napore Revolucije u korist promocije individualne slobode bio je taj što je stvorio iluziju da, utoliko što je sva vlast predata narodu, sve mere predostrožnosti protiv zloupotrebe te vlasti postaju nepotrebne.
@@ -1725,6 +1745,7 @@ Ovo je, štaviše, značenje primedbe Friedricha Hayeka u njegovoj knjizi _The C
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antička naspram moderne slobode
 
 Prema Benjamin Constantu, sloboda u našim modernim društvima više se ne može shvatiti na način društava Antike kao direktno učešće u poslovima grada.
 
@@ -1738,7 +1759,7 @@ Prema Benjamin Constantu, sloboda u našim modernim društvima više se ne može
 U drevna vremena, pojedinac je bio suveren u javnim poslovima, ali porobljen u svim svojim privatnim odnosima. Žrtvovanje individualne slobode bilo je kompenzovano korišćenjem političkih prava: pravo na direktno vršenje različitih delova suvereniteta, na deliberaciju na javnom trgu, na glasanje o zakonima, na izricanje presuda, na evaluaciju i sud o magistratima. To je politička i kolektivna sloboda:
 
 
-> Sloboda Starih sastojala se od aktivnog i stalnog učešća u kolektivnoj moći. Naša sloboda, s druge strane, mora se sastojati od mirnog uživanja privatne nezavisnosti; iz toga sledi da moramo biti mnogo više vezani za našu individualnu nezavisnost nego što su to bili stari. (_O slobodi Starih u poređenju sa slobodom Modernih_ (1819))
+> Sloboda Starih sastojala se od aktivnog i stalnog učešća u kolektivnoj moći. Naša sloboda, s druge strane, mora se sastojati od mirnog uživanja privatne nezavisnosti; iz toga sledi da moramo biti mnogo više vezani za našu individualnu nezavisnost nego što su to bili stari. (_[O slobodi Starih u poređenju sa slobodom Modernih](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![image](assets/sr-Latn/071.webp)
 
@@ -1749,7 +1770,7 @@ Moderna sloboda je građanska sloboda, koja uključuje ekonomsku slobodu i zasni
 Ova definicija slobode nalazi se kod Džona Stjuarta Mila:
 
 
-> Jedina sloboda koja zaslužuje to ime je ona koja nam omogućava da sledimo sopstveno dobro na svoj način, sve dok ne pokušavamo da lišimo druge njihovog ili ometamo njihove napore da ga postignu. (...) Čovečanstvo više dobija dopuštajući svakom pojedincu da živi kako mu odgovara nego prisiljavajući ga da živi kako se drugima čini dobrim. (_O slobodi_, 1859)
+> Jedina sloboda koja zaslužuje to ime je ona koja nam omogućava da sledimo sopstveno dobro na svoj način, sve dok ne pokušavamo da lišimo druge njihovog ili ometamo njihove napore da ga postignu. (...) Čovečanstvo više dobija dopuštajući svakom pojedincu da živi kako mu odgovara nego prisiljavajući ga da živi kako se drugima čini dobrim. (_[O slobodi](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/sr-Latn/072.webp)
 
@@ -1799,6 +1820,7 @@ Drugim rečima, u slobodnom društvu, neophodno je uspostaviti strogu granicu iz
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
+### Tokvil i demokratski individualizam
 
 Alexis de Tokvil je bio pažljiv posmatrač demokratije i kritičar demokratskog individualizma.
 
@@ -1910,6 +1932,7 @@ Pogledajte globus. Koji su najsrećniji, najmoralniji i najmirniji narodi? Oni g
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### Kritika u 19. veku
 
 Bilo je to tokom 19. veka kada se pojavila kritika kapitalizma, a posebno marksistička kritika.
 
@@ -1956,6 +1979,7 @@ Politička revolucija je stoga iluzija, prema njemu, sve dok nije praćena ekono
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
+### Odgovor austrijske škole
 
 Austrijska škola ekonomije, koju je osnovao Karl Menger krajem 19. veka, od početka se suprotstavljala teorijama Karla Marksa.
 
@@ -2039,7 +2063,7 @@ Marksisti veruju da je socijalizam, ekonomski sistem u kojem su sredstva za proi
 ![image](assets/sr-Latn/085.webp)
 
 
-Još 1922. godine, u svojoj knjizi _Socijalizam,_ Ludwig von Mises je pokazao da bi socijalizam doveo do široko rasprostranjenih nestašica, jer centralni planeri ne bi mogli da donose tačne ekonomske kalkulacije bez cenovnog sistema koji obezbeđuje tržište.
+Još 1922. godine, u svojoj knjizi _[Socijalizam](https://planb.academy/resources/books/socialism-mises),_ Ludwig von Mises je pokazao da bi socijalizam doveo do široko rasprostranjenih nestašica, jer centralni planeri ne bi mogli da donose tačne ekonomske kalkulacije bez cenovnog sistema koji obezbeđuje tržište.
 
 
 ## Put ka ropstvu
@@ -2049,8 +2073,9 @@ Još 1922. godine, u svojoj knjizi _Socijalizam,_ Ludwig von Mises je pokazao da
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
+### Hajekovo upozorenje protiv kolektivizma
 
-Uznemiren porastom intervencionizma vlade u ekonomijama zapadnih demokratija, Hajek je napisao _Put u ropstvo_ kao filozofsku kritiku kolektivizma, bilo sa desnice ili levice. Objavljena u nekoliko miliona primeraka, zahvaljujući _Reader’s Digest_-u, ova knjiga je u velikoj meri doprinela Hajekovoj slavi u Sjedinjenim Državama.
+Uznemiren porastom intervencionizma vlade u ekonomijama zapadnih demokratija, Hajek je napisao _[Put u ropstvo](https://planb.academy/resources/books/the-road-to-serfdom)_ kao filozofsku kritiku kolektivizma, bilo sa desnice ili levice. Objavljena u nekoliko miliona primeraka, zahvaljujući _Reader’s Digest_-u, ova knjiga je u velikoj meri doprinela Hajekovoj slavi u Sjedinjenim Državama.
 
 
 ![image](assets/sr-Latn/086.webp)
@@ -2112,6 +2137,7 @@ U zaključku, Hayek poziva svoje savremenike da okrenu leđa "ludilu" i "savreme
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Kejnzijanska revolucija
 
 Kapitalizam se često optužuje da je izvor naredbe: "uvek moramo proizvoditi više," ili formule: "konzumiranje je dobro za rast." Međutim, ove ideje ne potiču iz tradicionalnog kapitalizma već iz kejnzijanizma, koji dominira poljem ekonomske nauke i političkom klasom od 1930-ih.
 
@@ -2122,7 +2148,7 @@ Kapitalizam se često optužuje da je izvor naredbe: "uvek moramo proizvoditi vi
 ### Analiza krize iz 1929.
 
 
-Objavljena 1936. godine, knjiga Džona Majnarda Kejnza: _Opšta teorija zaposlenosti, kamate i novca_, pomela je sve pred sobom. Preispitujući uzroke Velike depresije i načine izlaska iz nje, opisuje novu ekonomsku paradigmu, koja će preobratiti generacije ekonomista i političara.
+Objavljena 1936. godine, knjiga Džona Majnarda Kejnza: _[Opšta teorija zaposlenosti, kamate i novca](https://planb.academy/resources/books/the-general-theory)_, pomela je sve pred sobom. Preispitujući uzroke Velike depresije i načine izlaska iz nje, opisuje novu ekonomsku paradigmu, koja će preobratiti generacije ekonomista i političara.
 
 
 ![image](assets/sr-Latn/089.webp)
@@ -2184,7 +2210,7 @@ Počevši od 1958. godine, politika za ispravljanje francuske ekonomije, inspiri
 ![image](assets/sr-Latn/094.webp)
 
 
-U _Monetarnom grehu Zapada_, 1971. godine, Rueff piše:
+U _[Monetarnom grehu Zapada](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, 1971. godine, Rueff piše:
 
 
 > Kroz budžetski deficit ljudi gube svoju slobodu.
@@ -2207,6 +2233,7 @@ Nijedna religija nije se proširila svetom tako brzo kao religija zaposlenja. Po
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
+### Novac i civilizacija
 
 Novac je alat koji je omogućio ljudima da pređu izvan razmene dobara, da štede i da se koordiniraju u velikim razmerama putem tržišta. Omogućio je specijalizaciju rada, komparativne prednosti, dobitke od trgovine, ekonomsku kalkulaciju. Bez novca, ne postoji moderna civilizacija.
 
@@ -2269,7 +2296,7 @@ U februaru 1965. godine, tokom televizijske konferencije za novinare, general de
 ### Monetarna tržišta bez državnog monopola su moguća
 
 
-Godine 1976, Hayek je predložio alternativu državnom monopolu na kreiranje valuta: konkurenciju između valuta. U svojoj knjizi, _Pour une vraie concurrence des monnaies_ (_Denacionalizacija novca_), zamislio je monetarno tržište bez državnog monopola u kojem bi postojale različite privatne valute. Kreiranje i upravljanje različitim valutama od strane privatnih entiteta omogućilo bi pojedincima da izaberu najstabilniju i najpouzdaniju valutu, čime bi se podstakla konkurencija i disciplina među izdavaocima.
+Godine 1976, Hayek je predložio alternativu državnom monopolu na kreiranje valuta: konkurenciju između valuta. U svojoj knjizi, _Pour une vraie concurrence des monnaies_ (_[Denacionalizacija novca](https://planb.academy/resources/books/the-denationalization-of-money)_), zamislio je monetarno tržište bez državnog monopola u kojem bi postojale različite privatne valute. Kreiranje i upravljanje različitim valutama od strane privatnih entiteta omogućilo bi pojedincima da izaberu najstabilniju i najpouzdaniju valutu, čime bi se podstakla konkurencija i disciplina među izdavaocima.
 
 
 ![image](assets/sr-Latn/100.webp)

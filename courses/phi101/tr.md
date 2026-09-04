@@ -26,6 +26,7 @@ Antik Çağ'dan Aydınlanma'ya kadar, toplumlar hoşgörüyü ve ekonomik bağı
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Derse Giriş
 
 PHI101'e hoş geldiniz!
 
@@ -79,11 +80,12 @@ Son olarak, bu bölümde refah devletinin, özellikle Keynes'in zaferi ve altın
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Neden Özgürlüğün Tarihini İncelemeli?
 
 Neden bu dersin başlığı: Özgürlüğün Tarihi? Çünkü çağımızı daha etkili bir şekilde değerlendirmek ve sağduyulu davranmak için fikirler ve olaylar arasındaki ilişkiyi anlamamız gerekiyor. Özgürlüğün ne olduğunu ve ona neden değer vermemiz gerektiğini daha iyi anlamamız için gerekli olan Elements'ı geçmişte bulabiliriz.
 
 
-> Geçmiş artık geleceği aydınlatmadığında, ruh karanlıkta yürür (Alexis de Tocqueville - _Democracy in America_).
+> Geçmiş artık geleceği aydınlatmadığında, ruh karanlıkta yürür (Alexis de Tocqueville - _[Democracy in America](https://planb.academy/resources/books/de-la-democratie-en-amerique)_).
 
 ![image](assets/tr/001.webp)
 
@@ -159,7 +161,7 @@ Quesnay'in öğrencileri Turgot ve Say'e göre, yasa koyucuların kaprislerinden
 ![image](assets/tr/007.webp)
 
 
-> "Bir halkın kuruluşunu üstlenmeye cesaret eden kişi," der Rousseau, "deyim yerindeyse insan doğasını değiştirmeye, kendi başına mükemmel ve yalnız bir bütün olan her bireyi, bu bireyin bir şekilde yaşamını ve varlığını aldığı daha büyük bir bütünün parçası haline getirmeye muktedir olduğunu hissetmelidir." (_Toplumsal Sözleşme_)
+> "Bir halkın kuruluşunu üstlenmeye cesaret eden kişi," der Rousseau, "deyim yerindeyse insan doğasını değiştirmeye, kendi başına mükemmel ve yalnız bir bütün olan her bireyi, bu bireyin bir şekilde yaşamını ve varlığını aldığı daha büyük bir bütünün parçası haline getirmeye muktedir olduğunu hissetmelidir." (_[Toplumsal Sözleşme](https://planb.academy/resources/books/the-social-contract)_)
 
 Bu perspektiften bakıldığında, yasa koyucunun görevi mülkiyeti düzenlemek, değiştirmek ve hatta gerekli görüldüğü takdirde ortadan kaldırmaktır. Rousseau için mülkiyet doğal değil, toplumun kendisi gibi gelenekseldir. Robespierre ise "Mülkiyet, her yurttaşın kendisine yasayla garanti edilen malların bir kısmından yararlanma ve tasarruf etme hakkıdır" ilkesini ortaya koyar Mülkiyete ilişkin doğal bir hak yoktur; yalnızca belirsiz sayıda olası ve olumsal düzenleme vardır.
 
@@ -171,6 +173,7 @@ Bu perspektiften bakıldığında, yasa koyucunun görevi mülkiyeti düzenlemek
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
 
+### Kurtarıcı Yasa Koyucu Miti
 
 Bastiat, ders kitaplarını açtığınızda, insanlığın gücün müdahalesi olmadan hiçliğe mahkum olacağını öğrenirsiniz:
 
@@ -253,6 +256,7 @@ Bastiat, 1850 yılında Roma'da ölmeden birkaç gün önce arkadaşı Prosper P
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Galiplerin Yazdığı Tarih
 
 Tarihi galiplerin yazdığı bilinmektedir. Dikkatler genellikle iktidarın fethine, iktidardaki liderlerin yaşamlarına ve onların yerini almak isteyenlere karşı çıkan çatışmalara odaklanır.
 
@@ -316,6 +320,8 @@ Bu tez 1983 tarihli anıtsal bir eserde de yer almaktadır: _Hukuk ve Devrim: Th
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Tarihe Sosyalist Bakış
+
 Ancak tarihe başka bir bakış açısı da mevcuttur. Bu bakış açısı oldukça başarılı olmuş ve uzun zamandır Batılı entelektüellerin ve Küresel Güney'den temsilcilerin desteğini almıştır. Bu, sosyalist ve Marksist tarih görüşüdür.
 
 ![image](assets/tr/013.webp)
@@ -344,7 +350,7 @@ Bu analiz, artı değerin ve ekonomik hayatın işbirliğine dayalı ve dinamik 
 ### Sanayi Devrimi Sorgulanıyor
 
 
-Aslında Marksist analiz Sanayi Devrimi'nin tarihsel gerçekliğini çarpıtmaktadır. Ludwig von Mises bu konuya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) adlı ekonomi incelemesinde (özellikle [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) başlıklı bölüme bakınız) ve [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) başlığı altında yayınlanan bir dizi derste açıklık getirmiştir. (Ayrıca okumaya değer, The Anti-Capitalistic Mentality [burada](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ve [burada](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Aslında Marksist analiz Sanayi Devrimi'nin tarihsel gerçekliğini çarpıtmaktadır. Ludwig von Mises bu konuya [_Human Action_](https://planb.academy/resources/books/human-action) adlı ekonomi incelemesinde (özellikle [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) başlıklı bölüme bakınız) ve [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) başlığı altında yayınlanan bir dizi derste açıklık getirmiştir. (Ayrıca okumaya değer, The Anti-Capitalistic Mentality [burada](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ve [burada](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/tr/014.webp)
 
@@ -414,8 +420,9 @@ Bu bölümün sonunda, Avrupa'nın ekonomik ve kültürel yükselişi dünyanın
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
+### Devlet Gücüne Karşı Toplumsal Güç
 
-Murray Rothbard, _Anatomy of the State_ (Résurgence editions tarafından Fransızca'ya _L'anatomie de l'Etat_ olarak çevrilmiştir) kitabının son bölümünde bir tarih teorisi önermektedir. Bu çok kısa bölümün başlığı 'Tarih: Devlet Gücü ile Toplumsal Güç Arasında Bir Yarış' başlığını taşımaktadır Rothbard'a göre tarih, iki temel ilke arasındaki sürekli bir çatışma olarak anlaşılabilir:
+Murray Rothbard, _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (Résurgence editions tarafından Fransızca'ya _L'anatomie de l'Etat_ olarak çevrilmiştir) kitabının son bölümünde bir tarih teorisi önermektedir. Bu çok kısa bölümün başlığı 'Tarih: Devlet Gücü ile Toplumsal Güç Arasında Bir Yarış' başlığını taşımaktadır Rothbard'a göre tarih, iki temel ilke arasındaki sürekli bir çatışma olarak anlaşılabilir:
 
 
 ![image](assets/tr/017.webp)
@@ -471,7 +478,7 @@ Rothbard'a göre tarih doğrusal bir süreç değil, daha ziyade toplumsal güc�
 
 
 > Bu yüzyılda, insan ırkı bir kez daha Devletin öldürücü saltanatıyla karşı karşıyadır; Devlet artık insanın yaratıcı gücüyle silahlanmış, el koymuş ve kendi amaçları doğrultusunda saptırmıştır.
-> Sonuçta özgür bir toplum nedir? Tekelin olmadığı bir toplumdur. Rothbard, _Ethics of Liberty_ (1982) adlı siyaset felsefesi eserinde bu soruyu şöyle yanıtlıyor: "Herhangi bir bireyin şahsına veya mülküne karşı zorlayıcı bir saldırının yasal olarak mümkün olmadığı bir toplumdur." Bu nedenle, ona göre, adil bir toplumun ilkelerini tanımlaması gereken siyaset felsefesi tek bir soruya indirgenir: "Kim meşru olarak neye sahiptir?"
+> Sonuçta özgür bir toplum nedir? Tekelin olmadığı bir toplumdur. Rothbard, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982) adlı siyaset felsefesi eserinde bu soruyu şöyle yanıtlıyor: "Herhangi bir bireyin şahsına veya mülküne karşı zorlayıcı bir saldırının yasal olarak mümkün olmadığı bir toplumdur." Bu nedenle, ona göre, adil bir toplumun ilkelerini tanımlaması gereken siyaset felsefesi tek bir soruya indirgenir: "Kim meşru olarak neye sahiptir?"
 
 > ![image](assets/tr/019.webp)
 
@@ -499,6 +506,7 @@ Ve ekliyor:
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
 
+### Atina Demokrasisinin Mirası
 
 Atina demokrasisi deneyimi, siyasi düşünce tarihinde kalıcı bir iz bırakmıştır ve günümüz dünyasında demokrasi ve vatandaş katılımı ideallerine ilham vermeye devam etmektedir.
 
@@ -639,6 +647,7 @@ Gerçeğe yaklaşmak için sahip olduğumuz tek araç eleştiri ve tartışmadı
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
 
+### Kozmopolit Bir İmparatorluk
 
 Roma İmparatorluğu geniş, kozmopolit bir yapıydı. MS 117 civarında zirveye ulaştığında, çok etnikli ve çok dilli muazzam bir devletti:
 
@@ -793,6 +802,7 @@ Hukukun yalnızca yasama organı tarafından çıkarılan tüzüklere indirgenem
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Gerileme ve Çöküş
 
 Roma neden geriledi ve nihayetinde yıkıldı? Birçok kişi Roma İmparatorluğu'nun barbar istilalarının etkisiyle aniden çöktüğünü düşünmekten hoşlanır. Ancak Roma İmparatorluğu'nun çöküşünün nedenleri çok daha eskilere, emperyalizme ve ekonomik ve parasal dirijizme dayanmaktadır.
 
@@ -905,6 +915,7 @@ Ve ekliyor:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Bireysel Özgürlüğün Hıristiyan Kökenleri
 
 Hıristiyan özgürlük kavramı, 4. yüzyılda Aziz Augustine'den 13. yüzyılda Aziz Thomas Aquinas'a kadar Ortaçağ teolojisinde gelişmiştir. Nedir bu fikir?
 
@@ -982,6 +993,7 @@ Aziz Thomas'a göre:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Aklın Özerkliği
 
 Ortaçağ'da akıl ve inanç hakikate erişim için rekabet halindeydi. Abélard ve Büyük Albert'in ardından 13. yüzyılda Thomas Aquinas, inanç karşısında aklın özerkliğini savunmayı seçmiştir.
 
@@ -1043,6 +1055,7 @@ O andan itibaren dini rasyonalizm mistisizme kesin olarak üstün gelecektir.
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
 
+### Teolojik-Politik Sistem
 
 Orta Çağ'da Kilise ve Hıristiyan monarşileri, Roma İmparatorluğu'ndan teolojik-politik sistem olarak bilinen bir siyasi modeli miras almıştır - bu sistemde iktidar kutsal kabul edilir, yani siyasi lider aynı zamanda dini bir liderdir.
 
@@ -1101,6 +1114,7 @@ Kilise'nin teokratik cazibesi "ilahi hak" teorisiyle de çatışmaktadır Fransa
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### Tanrı'nın Suretinde Yaratılan İnsan
 
 Antik düşünce insanı ilahi bir kozmosa, yani yalnızca bir parçası olduğu mükemmel bir evrene tabi kılmıştır. Öte yandan tektanrıcılık, insan Tanrı'nın suretinde yaratıldığı ölçüde, insanın doğa üzerindeki sonsuz üstün değerini ileri sürer. Bu can alıcı nokta, gerçek bir etik devrimin kökeninde yer alır. Kutsal Kitap her bir insanın kutsal ve sonsuz değerini teyit eder.
 
@@ -1157,6 +1171,7 @@ Yerli halklar meselesi, siyasi-dini monolitteki ilk çatlaktı. Siyasi toplumun 
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
 
+### Hıristiyanlık ve Serbest Ekonomi
 
 Hıristiyanlığın insanlara dünyayı iyileştirmek için çalışmaları yönünde ahlaki bir görev yüklediğini gördük. Tanrı insanın mutlu olmasını ister ama onun yerine iyiliğinin sağlanmasını istemez. Bu nedenle ahlaki kötülükle mücadele etmek, komşusunu sevmek, mağdurlara yardım etmek, kısacası daha adil ve insancıl bir dünya için çalışmak Hıristiyanların görevidir. Kapitalizm, yani özel mülkiyete ve sözleşme özgürlüğüne dayalı serbest ekonomi, Hıristiyan göreviyle uyumlu mudur?
 
@@ -1253,6 +1268,7 @@ Dahası, iki farklı para birimi yasal ihaleden faydalanırsa, aracılar daha de
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Din Savaşları ve Aydınlanma
 
 Avrupa, Rönesans'tan itibaren din savaşlarıyla çalkalanacaktı. Bu nedenle hoşgörü, Aydınlanma'nın en büyük savaşlarından biri haline geldi.
 
@@ -1311,7 +1327,7 @@ Voltaire, "Ticaret Üzerine" başlıklı Onuncu Mektup'ta Fransız zihniyetini �
 ### Gerçek Özgürlük Gerektirir
 
 
-Yine de Fransa büyük beyinlerden yoksun değildi. Çok az bilinir ama Baron de Laulne Anne Robert Jacques Turgot, 16. Louis döneminde Maliye Genel Kontrolörü olmadan önce önde gelen bir düşünürdü. Adam Smith'in _The Wealth of Nations_ (1776) adlı eserinden önce yazılmış olan _Reflections on the Formation and Distribution of Wealth_ (1766) adlı politik ekonomi üzerine ustaca bir incelemenin yazarıydı.
+Yine de Fransa büyük beyinlerden yoksun değildi. Çok az bilinir ama Baron de Laulne Anne Robert Jacques Turgot, 16. Louis döneminde Maliye Genel Kontrolörü olmadan önce önde gelen bir düşünürdü. Adam Smith'in _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ (1776) adlı eserinden önce yazılmış olan _Reflections on the Formation and Distribution of Wealth_ (1766) adlı politik ekonomi üzerine ustaca bir incelemenin yazarıydı.
 
 
 ![image](assets/tr/052.webp)
@@ -1339,6 +1355,8 @@ Başka bir deyişle, hoşgörülü olmak dine düşman olmak anlamına gelmez. D
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Ekonomik Liberalizmin Kökenleri
 
 Ekonomik liberalizm genellikle Adam Smith'ten kaynaklanan Anglo-Sakson geleneği ile ilişkilendirilir. Kıta Aydınlanmasından, özellikle de Fransa'dan kaynaklandığı söylenen "siyasi liberalizm" ile karşılaştırılır. Bu görüş yanlıştır.
 
@@ -1437,6 +1455,7 @@ Kısacası, herkes kendi özel çıkarını doğal hukuka uygun olarak özgürce
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Tarihi Değiştiren Üç Olay
 
 1776, tarih ders kitaplarında genellikle fark edilmeyen bir yıldır. Ancak üç ülkede - Fransa, İskoçya ve Kuzey Amerika - yaşanan bazı olaylar özgürlük tarihinde silinmez bir iz bırakacaktır.
 
@@ -1497,7 +1516,7 @@ Aynı zamanda özgür ve gönüllü Exchange'nın eşitlikçi ve anti-hiyerarşi
 ### Amerika'da Özgürlük İçin Bir Manifesto
 
 
-1776 yılında Thomas Paine adlı bir İngiliz, Amerika'da İngiliz monarşisini eleştiren ve Amerikan kolonicilerinin bağımsızlığını savunan _COPYommon Sense_ adlı sert bir broşür yayınladı.
+1776 yılında Thomas Paine adlı bir İngiliz, Amerika'da İngiliz monarşisini eleştiren ve Amerikan kolonicilerinin bağımsızlığını savunan _[COPYommon Sense](https://planb.academy/resources/books/common-sense)_ adlı sert bir broşür yayınladı.
 
 
 ![image](assets/tr/059.webp)
@@ -1585,6 +1604,7 @@ Kendiliğinden düzen kavramı, İskoç Aydınlanmasına, özellikle de Adam Smi
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
 
+### Sekülerleşme ve Modern Toplum
 
 Batı tarihindeki bu modern dönemin en büyük yeniliği, kendisini dini bağımlılığın dışında organize eden bir toplumun ortaya çıkmasıdır. Bu, dini inancın ortadan kalkması ya da Tanrı'nın ölümü anlamına gelmemektedir. Ancak Tanrı artık siyasi meselelerle karıştırılmayan özel bir mesele haline gelir. Dinin ortadan kalkması değil ama yol gösterici rolünün tahttan indirilmesi söz konusudur. Bireysel inançlar sistemi haline gelir.
 
@@ -1710,7 +1730,7 @@ Amerika'da ne ekonomik dirigisme ne de Assignats'ınki gibi bir parasal iflas va
 Rousseau ve Robespierre ile Fransızlar, Ulusun ya da genel iradenin sınırsız güce sahip olduğuna ve tüm eylemleri haklı çıkardığına inanmaya çalıştılar. Halkın yönettiği gerçeğinden, tüm haklara sahip olduğu sonucuna varıldı. Devrimin büyük ilkeleri ile bunları zafere ulaştırmak için kullanılan araçlar arasında açıkça bir çelişki vardı.
 
 
-Dahası, Friedrich Hayek'in _Özgürlüğün Anayasası_ adlı kitabında söylediği sözün anlamı da budur:
+Dahası, Friedrich Hayek'in _[Özgürlüğün Anayasası](https://planb.academy/resources/books/the-constitution-of-liberty)_ adlı kitabında söylediği sözün anlamı da budur:
 
 
 > Devrimin bireysel özgürlüğün geliştirilmesi yönündeki çabalarını boşa çıkaran belirleyici faktör, tüm iktidarın halka devredildiği ölçüde, bu iktidarın kötüye kullanılmasına karşı her türlü önlemin gereksiz hale geldiği yanılsamasını yaratmasıydı.
@@ -1728,6 +1748,7 @@ Dahası, Friedrich Hayek'in _Özgürlüğün Anayasası_ adlı kitabında söyle
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antik Özgürlüğe Karşı Modern Özgürlük
 
 Benjamin Constant'a göre, modern toplumlarda özgürlük artık antik kültürlerdeki gibi, kentin işlerine doğrudan katılım olarak anlaşılamaz.
 
@@ -1741,7 +1762,7 @@ Benjamin Constant'a göre, modern toplumlarda özgürlük artık antik kültürl
 Eski zamanlarda bireyler kamusal işlerde egemen, ancak tüm özel ilişkilerinde köleleştirilmişlerdi. Siyasi hakların kullanımı bireysel özgürlüğün feda edilmesini telafi etti: egemenliğin çeşitli yönlerini doğrudan kullanma, kamusal alanda müzakere etme, yasaları oylama, hüküm verme ve yargıçları değerlendirme ve yargılama hakkı. Bu siyasi ve kolektif bir özgürlüktür:
 
 
-> Eskilerin özgürlüğü kolektif güce aktif ve sürekli katılımdan ibaretti. Öte yandan bizim özgürlüğümüz, özel bağımsızlığın barışçıl bir şekilde kullanılmasından ibaret olmalıdır; bundan da bağımsızlığımıza eskilerden çok daha fazla bağlı olmamız gerektiği sonucu çıkar. (_On the Liberty of the Ancients Compared with that of the Moderns_ (1819))
+> Eskilerin özgürlüğü kolektif güce aktif ve sürekli katılımdan ibaretti. Öte yandan bizim özgürlüğümüz, özel bağımsızlığın barışçıl bir şekilde kullanılmasından ibaret olmalıdır; bundan da bağımsızlığımıza eskilerden çok daha fazla bağlı olmamız gerektiği sonucu çıkar. (_[On the Liberty of the Ancients Compared with that of the Moderns](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 
 ![image](assets/tr/071.webp)
 
@@ -1752,7 +1773,7 @@ Modern özgürlük, ekonomik özgürlüğü de içeren ve özel hayatın gizlili
 Özgürlüğün bu tanımı John Stuart Mill'de bulunmaktadır:
 
 
-> Bu adı hak eden tek özgürlük, başkalarını kendilerininkinden mahrum bırakmaya çalışmadığımız ya da onların iyiyi elde etme çabalarını engellemediğimiz sürece, kendi iyimizin peşinden kendi yolumuzla gitmektir. (...) İnsanlık, başkalarının iyi bulduğu şekilde yaşamaya zorlamaktansa, herkesin uygun gördüğü şekilde yaşamasına izin vererek daha fazla kazanım elde eder. (_On Liberty_, 1859)
+> Bu adı hak eden tek özgürlük, başkalarını kendilerininkinden mahrum bırakmaya çalışmadığımız ya da onların iyiyi elde etme çabalarını engellemediğimiz sürece, kendi iyimizin peşinden kendi yolumuzla gitmektir. (...) İnsanlık, başkalarının iyi bulduğu şekilde yaşamaya zorlamaktansa, herkesin uygun gördüğü şekilde yaşamasına izin vererek daha fazla kazanım elde eder. (_[On Liberty](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![image](assets/tr/072.webp)
 
@@ -1802,6 +1823,7 @@ Başka bir deyişle, özgür bir toplumda kamusal alan ile özel alan arasında 
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
 
+### Tocqueville ve Demokratik Bireycilik
 
 Alexis de Tocqueville, demokrasinin keskin bir gözlemcisi ve demokratik bireyciliğin bir eleştirmeniydi.
 
@@ -1913,6 +1935,7 @@ Dünyaya bir göz atın. En mutlu, en ahlaklı ve en huzurlu insanlar hangileri?
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### 19. Yüzyıl Eleştirisi
 
 Kapitalizm eleştirisi, özellikle de Marksist eleştiri 19. yüzyılda ortaya çıkmıştır.
 
@@ -1959,6 +1982,7 @@ Dolayısıyla ona göre, insanı kapitalist kölelikten kurtaracak ve böylece i
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
 
+### Avusturya Okulu'nun Yanıtı
 
 Carl Menger tarafından 19. yüzyılın sonunda kurulan Avusturya Ekonomi Okulu, Karl Marx'ın teorilerine başından beri karşı çıkmıştır.
 
@@ -2042,7 +2066,7 @@ Marksistler, üretim araçlarının işçiler tarafından sahiplenildiği ve kon
 ![image](assets/tr/085.webp)
 
 
-Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, merkezi planlamacılar piyasanın sağladığı fiyat sistemi olmadan doğru ekonomik hesaplamalar yapamayacağından, sosyalizmin yaygın kıtlıklara yol açacağını göstermiştir.
+Ludwig von Mises, 1922 gibi erken bir tarihte _[Sosyalizm ](https://planb.academy/resources/books/socialism-mises)_ adlı kitabında, merkezi planlamacılar piyasanın sağladığı fiyat sistemi olmadan doğru ekonomik hesaplamalar yapamayacağından, sosyalizmin yaygın kıtlıklara yol açacağını göstermiştir.
 
 
 ## Köleliğe Giden Yol
@@ -2052,8 +2076,9 @@ Ludwig von Mises, 1922 gibi erken bir tarihte _Sosyalizm _ adlı kitabında, mer
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
+### Hayek'in Kolektivizme Karşı Uyarısı
 
-Batı demokrasilerinin ekonomilerinde devlet müdahaleciliğinin yükselişinden endişe duyan Hayek, ister sağdan ister soldan gelsin, kolektivizmin felsefi bir eleştirisi olarak _The Road to Serfdom_ kitabını yazdı. Reader's Digest_ sayesinde birkaç milyon adet basılan bu kitap, Hayek'in Amerika Birleşik Devletleri'ndeki ününe büyük katkıda bulunmuştur.
+Batı demokrasilerinin ekonomilerinde devlet müdahaleciliğinin yükselişinden endişe duyan Hayek, ister sağdan ister soldan gelsin, kolektivizmin felsefi bir eleştirisi olarak _[The Road to Serfdom](https://planb.academy/resources/books/the-road-to-serfdom)_ kitabını yazdı. Reader's Digest_ sayesinde birkaç milyon adet basılan bu kitap, Hayek'in Amerika Birleşik Devletleri'ndeki ününe büyük katkıda bulunmuştur.
 
 
 ![image](assets/tr/086.webp)
@@ -2115,6 +2140,7 @@ Sonuç olarak Hayek, çağdaşlarını, insanlığı "yakın geçmişte hayatım
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Keynesçi Devrim
 
 Kapitalizm sık sık "her zaman daha fazla üretmeliyiz "Her zaman daha fazla üretmeliyiz" ya da şu formülün kaynağı olmakla suçlanır: "Tüketmek büyüme için iyidir." Ancak bu fikirler geleneksel kapitalizmden değil, 1930'lardan bu yana ekonomi bilimi alanına ve siyasi sınıfa hakim olan Keynesçilikten kaynaklanmaktadır.
 
@@ -2125,7 +2151,7 @@ Kapitalizm sık sık "her zaman daha fazla üretmeliyiz "Her zaman daha fazla ü
 ### 1929 Krizinin Analizi
 
 
-John Maynard Keynes'in 1936 yılında yayınlanan kitabı _İstihdam, Faiz ve Paranın Genel Teorisi_ önüne çıkan her şeyi silip süpürdü. Büyük Buhran'ın nedenlerini ve bundan çıkış yollarını sorgulayan Keynes, nesiller boyu ekonomistleri ve politikacıları dönüştürecek yeni bir ekonomik paradigma tanımladı.
+John Maynard Keynes'in 1936 yılında yayınlanan kitabı _[İstihdam, Faiz ve Paranın Genel Teorisi](https://planb.academy/resources/books/the-general-theory)_ önüne çıkan her şeyi silip süpürdü. Büyük Buhran'ın nedenlerini ve bundan çıkış yollarını sorgulayan Keynes, nesiller boyu ekonomistleri ve politikacıları dönüştürecek yeni bir ekonomik paradigma tanımladı.
 
 
 ![image](assets/tr/089.webp)
@@ -2187,7 +2213,7 @@ Bu kitap "Sağlam Para ya da Totaliter Devlet" başlıklı önemli bir bölüm i
 ![image](assets/tr/094.webp)
 
 
-Rueff, 1971 tarihli _The Monetary Sin of the West_ (Batı'nın Parasal Günahı) adlı kitabında şöyle yazmaktadır:
+Rueff, 1971 tarihli _[The Monetary Sin of the West](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_ (Batı'nın Parasal Günahı) adlı kitabında şöyle yazmaktadır:
 
 
 > Bütçe açığı nedeniyle insanlar özgürlüklerini kaybederler.
@@ -2210,6 +2236,7 @@ Hiçbir din, istihdam kadar hızlı bir şekilde dünya çapında yayılmamışt
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
 
+### Para ve Uygarlık
 
 Para, insanların takasın ötesine geçmesini, tasarruf etmesini ve piyasa aracılığıyla büyük ölçekte koordine olmasını sağlayan bir araçtır. Emeğin uzmanlaşmasını, karşılaştırmalı üstünlüğü, ticaretten elde edilen kazançları ve ekonomik hesaplamayı mümkün kılmıştır. Para olmasaydı modern uygarlık da olmazdı.
 
@@ -2272,7 +2299,7 @@ Aksine, Jacques Rueff gibi insanlar için değerli metalden vazgeçmek, yalnızc
 ### Devlet tekelinin olmadığı bir para piyasası mümkündür
 
 
-1976'da Hayek, Devletin para yaratma tekeline bir alternatif önerdi: para birimleri arasında rekabet. Hayek, _Pour une vraie concurrence des monnaies_ (_Paranın Denasyonalizasyonu_) adlı kitabında, Devlet tekelinin olmadığı, çeşitli özel para birimlerinin bir arada var olacağı bir para piyasası öngörmüştür. Farklı para birimlerinin özel kuruluşlar tarafından oluşturulması ve yönetilmesi, bireylerin en istikrarlı ve güvenilir para birimini seçmelerine olanak tanıyacak ve böylece para basanlar arasında rekabet ve disiplini teşvik edecektir.
+1976'da Hayek, Devletin para yaratma tekeline bir alternatif önerdi: para birimleri arasında rekabet. Hayek, _Pour une vraie concurrence des monnaies_ (_[Paranın Denasyonalizasyonu](https://planb.academy/resources/books/the-denationalization-of-money)_) adlı kitabında, Devlet tekelinin olmadığı, çeşitli özel para birimlerinin bir arada var olacağı bir para piyasası öngörmüştür. Farklı para birimlerinin özel kuruluşlar tarafından oluşturulması ve yönetilmesi, bireylerin en istikrarlı ve güvenilir para birimini seçmelerine olanak tanıyacak ve böylece para basanlar arasında rekabet ve disiplini teşvik edecektir.
 
 
 ![image](assets/tr/100.webp)

@@ -23,6 +23,8 @@ Fra antikken gjennom opplysningstiden steg friheten frem ettersom samfunn omfavn
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
+### Introduksjon til kurset
+
 Velkommen til kurset PHI101!
 
 Dette kurset inviterer deg til å utforske frihetens utvikling gjennom historien ved å analysere de store tankeretningene som har formet den. Du vil oppdage hvordan frihetsbegrepet har blitt konstruert gjennom århundrene, enten i opposisjon til eller i samarbeid med makt, gjennom en historisk reise fra antikken til dagens debatter.
@@ -57,9 +59,11 @@ Klar til å begi deg ut på denne unike filosofiske reisen for å utforske frihe
 
 :::video id=d21788a4-3b99-48b7-ac1a-24d5913af893:::
 
+### Hvorfor studere frihetens historie?
+
 Hvorfor gi dette kurset tittelen: en historie om frihet? Fordi vi trenger å forstå forholdet mellom ideer og hendelser, for å bedre bedømme vår tid og handle med skjønn. Det er i fortiden vi finner elementene for en bedre forståelse av hva frihet er og grunnene til at vi må verdsette den.
 
-> Når fortiden ikke lenger opplyser fremtiden, vandrer ånden i mørket (Alexis de Tocqueville - _Demokrati i Amerika_.)
+> Når fortiden ikke lenger opplyser fremtiden, vandrer ånden i mørket (Alexis de Tocqueville - _[Demokrati i Amerika](https://planb.academy/resources/books/de-la-democratie-en-amerique)_.)
 
 ![image](assets/nb-NO/001.webp)
 
@@ -104,7 +108,7 @@ For Turgot og Say, disipler av Quesnay, eksisterer det en naturlig lov, uavhengi
 Den andre filosofien finnes blant forfattere som Rousseau, Robespierre eller Kant, som representerer den republikanske tradisjonen hvor folkets generelle vilje er den sanne kilden til loven. En samtidig av Quesnay, Rousseau er en anti-fysiokrat. For ham må lovgiveren organisere samfunnet, som en mekaniker som oppfinner en maskin fra inert materie.
 ![bilde](assets/nb-NO/007.webp)
 
-> "Den som våger å påta seg etableringen av et folk," sier Rousseau, "må føle seg i stand til å endre, så å si, menneskets natur, til å transformere hver enkelt som, av seg selv, er et perfekt og ensomt hele, til en del av en større helhet fra hvilken denne enkeltpersonen mottar, på en måte, sitt liv og vesen." (_Samfunnskontrakten_)
+> "Den som våger å påta seg etableringen av et folk," sier Rousseau, "må føle seg i stand til å endre, så å si, menneskets natur, til å transformere hver enkelt som, av seg selv, er et perfekt og ensomt hele, til en del av en større helhet fra hvilken denne enkeltpersonen mottar, på en måte, sitt liv og vesen." (_[Samfunnskontrakten](https://planb.academy/resources/books/the-social-contract)_)
 
 Fra dette perspektivet er lovgiverens oppgave å organisere, endre, til og med avskaffe eiendom hvis han anser det for godt. For Rousseau er eiendom ikke naturlig, men konvensjonell, som samfunnet selv. I sin tur etablerer Robespierre prinsippet om at "Eiendom er retten til hver borger til å nyte og disponere over den delen av varer garantert til ham ved lov." Det finnes ingen naturlig rett til eiendom; det finnes bare et uendelig antall mulige og betingede ordninger.
 
@@ -113,6 +117,8 @@ Fra dette perspektivet er lovgiverens oppgave å organisere, endre, til og med a
 <chapterId>5a8a3452-9970-51a0-a5ea-f367b63137bc</chapterId>
 
 :::video id=a18fd72d-34fd-41e5-a7db-770abdde79fa:::
+
+### Myten om den forsynende lovgiveren
 
 Når man åpner lærebøker, bemerket Bastiat, lærer man at menneskeheten ville være dømt til intetheten uten inngripen fra makt:
 
@@ -171,6 +177,8 @@ Noen dager før sin død i Roma i 1850, betrodde Bastiat til sin venn Prosper Pa
 
 :::video id=72ae49f1-30b8-4d9c-ba2c-32f157954c88:::
 
+### Historien skrevet av seierherrene
+
 Det er kjent, historien skrives av seierherrene. Oppmerksomheten er ofte fokusert på erobringen av makt, på livene til ledere i makt, og på konfliktene som motsetter dem til de som ønsker å ta deres plass.
 
 ![bilde](assets/nb-NO/010.webp)
@@ -214,6 +222,8 @@ Denne tesen finnes også i et monumentalt verk fra 1983: _Lov og revolusjon: Dan
 
 :::video id=01b9125f-6693-49ae-b7c9-07bc10a10c3d:::
 
+### Det sosialistiske synet på historien
+
 En annen perspektiv på historien eksisterer imidlertid også. Det har vært ganske vellykket og lenge nytt støtte fra vestlige intellektuelle og representanter fra den globale sør. Dette er det sosialistiske og marxistiske synet på historien.
 ![bilde](assets/nb-NO/013.webp)
 
@@ -232,7 +242,7 @@ Denne analysen reflekterer en misforståelse av merverdi og det kooperative og d
 
 ### Den industrielle revolusjonen i spørsmål
 
-Faktisk forvrenger den marxistiske analysen den historiske virkeligheten av den industrielle revolusjonen. Ludwig von Mises klargjorde dette problemet i sitt økonomiske verk [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (se spesielt kapittelet med tittelen [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie forelesninger publisert under tittelen: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Verdt å lese er også The Anti-Capitalistic Mentality [her](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) og [her](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Faktisk forvrenger den marxistiske analysen den historiske virkeligheten av den industrielle revolusjonen. Ludwig von Mises klargjorde dette problemet i sitt økonomiske verk [_Human Action_](https://planb.academy/resources/books/human-action) (se spesielt kapittelet med tittelen [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie forelesninger publisert under tittelen: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Verdt å lese er også The Anti-Capitalistic Mentality [her](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) og [her](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![bilde](assets/nb-NO/014.webp)
 
 Mises forklarer at jobber i fabrikker, selv om de var elendige etter våre standarder, representerte den beste mulige muligheten for arbeidere på den tiden.
@@ -278,7 +288,9 @@ Det er dette radikalt desentraliserte Europa som produserte parlamenter, dietter
 
 :::video id=5ea889a5-8fc7-43a6-88a4-2404442bf52e:::
 
-I det siste kapittelet av _Anatomy of the State_ (oversatt til fransk som _L’anatomie de l’Etat_, av Résurgence editions), foreslår Murray Rothbard en teori om historie. Dette veldig korte kapittelet har tittelen: Historie, et kappløp mellom statsmakt og sosial makt. Ifølge Rothbard kan historien forstås som en evig konflikt mellom to grunnleggende prinsipper:
+### Statsmakt versus sosial makt
+
+I det siste kapittelet av _[Anatomy of the State](https://planb.academy/resources/books/anatomy-of-the-state)_ (oversatt til fransk som _L’anatomie de l’Etat_, av Résurgence editions), foreslår Murray Rothbard en teori om historie. Dette veldig korte kapittelet har tittelen: Historie, et kappløp mellom statsmakt og sosial makt. Ifølge Rothbard kan historien forstås som en evig konflikt mellom to grunnleggende prinsipper:
 
 ![bilde](assets/nb-NO/017.webp)
 
@@ -313,7 +325,7 @@ Ifølge Rothbard er historien ikke en lineær prosess, men snarere en svingning 
 Fra det 17. århundre til det 19. århundre, i mange vestlige land, var det perioder med akselerasjon av sosial makt og en tilsvarende økning i frihet, fred og materiell velstand. Men Rothbard minner oss om at det 20. århundre var preget av en gjenoppblomstring av statsmakt, med alvorlige konsekvenser: en økning i slaveri, krig og ødeleggelse:
 
 > I løpet av dette århundret står menneskeheten igjen overfor det virulente herredømmet til Staten; Staten nå bevæpnet med menneskets kreative kraft, konfiskert og pervertert for sine egne formål.
-> Hva er tross alt et fritt samfunn? Det er et samfunn uten monopol. I sitt arbeid med politisk filosofi, _Ethics of Liberty_ (1982), svarer Rothbard: "et samfunn der det ikke finnes noen juridisk mulighet for tvangsmessig aggresjon mot en persons person eller eiendom." Dette er grunnen til at han, ifølge ham, politisk filosofi, som må definere prinsippene for et rettferdig samfunn, koker ned til ett enkelt spørsmål: "Hvem eier legitimt hva?"
+> Hva er tross alt et fritt samfunn? Det er et samfunn uten monopol. I sitt arbeid med politisk filosofi, _[Ethics of Liberty](https://planb.academy/resources/books/the-ethics-of-liberty)_ (1982), svarer Rothbard: "et samfunn der det ikke finnes noen juridisk mulighet for tvangsmessig aggresjon mot en persons person eller eiendom." Dette er grunnen til at han, ifølge ham, politisk filosofi, som må definere prinsippene for et rettferdig samfunn, koker ned til ett enkelt spørsmål: "Hvem eier legitimt hva?"
 > ![bilde](assets/nb-NO/019.webp)
 
 For Rothbard kan sosial orden seire hvis den er produktet av generaliseringen av kontraktsprosedyrer for fri utveksling av eiendomsrettigheter, ved å privatisere alle økonomiske aktiviteter og til og med suverene funksjoner (sentralbank, domstoler) og ved å ty til konkurranse blant beskyttelsesbyråer.
@@ -333,6 +345,8 @@ Og han legger til:
 <chapterId>5b5f65e6-f980-5971-b9f6-a37244503325</chapterId>
 
 :::video id=08751358-5a23-48ef-9c30-6a810d165c75:::
+
+### Arven etter det athenske demokratiet
 
 Opplevelsen av athensk demokrati har etterlatt et varig merke på historien om politisk tenkning og fortsetter å inspirere idealer om demokrati og borgerdeltakelse i dagens verden.
 ![image](assets/nb-NO/020.webp)
@@ -424,6 +438,8 @@ Det eneste middelet vi har for å nærme oss sannheten er kritikk og diskusjon. 
 <chapterId>e9337ad6-5a75-5894-a017-9a507939cb51</chapterId>
 
 :::video id=ad8c92c1-5960-4607-b277-ce5e61e80b36:::
+
+### Et kosmopolitisk imperium
 
 Det romerske imperiet var en stor kosmopolitisk enhet. På sitt høydepunkt, rundt 117 e.Kr., var det en enorm multi-etnisk og flerspråklig stat:
 
@@ -528,6 +544,8 @@ Ved å hevde at loven ikke kan reduseres til bare de statuttene som er vedtatt a
 
 :::video id=65ae0d54-7319-4913-b69a-5f5c842e40fa:::
 
+### Nedgang og kollaps
+
 Hvorfor gikk Roma i nedgang og til slutt falt? Mange liker å tenke at Romerriket kollapset plutselig, under påvirkning av barbariske invasjoner. Imidlertid er årsakene til Romerrikets kollaps å finne mye tidligere, i imperialisme og økonomisk og monetær dirigisme.
 
 
@@ -601,6 +619,8 @@ Og han legger til:
 
 :::video id=c0dd7eb3-cacb-4614-9650-088436a352a8:::
 
+### Kristne røtter til individuell frihet
+
 Den kristne ideen om frihet utviklet seg i middelalderens teologi fra Sankt Augustin på 300-tallet, til Sankt Thomas Aquinas på 1200-tallet. Hva er denne ideen?
 
 ![bilde](assets/nb-NO/037.webp)
@@ -653,6 +673,8 @@ Ifølge Thomas Aquinas:
 
 :::video id=49baeb92-3504-45a0-8e51-fab8ddceb1f2:::
 
+### Fornuftens autonomi
+
 I middelalderen konkurrerer fornuft og tro om tilgangen til sannheten. Etter Abélard og Albertus Magnus, valgte Thomas Aquinas, på 1200-tallet, å forsvare fornuftens rettigheter og dens autonomi i forhold til troen.
 
 ![bilde](assets/nb-NO/040.webp)
@@ -691,6 +713,8 @@ Fra da av ville religiøs rasjonalisme definitivt seire over mystisismen.
 <chapterId>a925ea80-9f66-5f0b-8ab0-f428ae5c12dc</chapterId>
 
 :::video id=a0027b3b-a40e-479e-94c8-420d20404966:::
+
+### Det teologisk-politiske systemet
 
 I middelalderen arvet Kirken og de kristne monarkiene en politisk modell fra Romerriket, som historikere kaller det teologisk-politiske systemet, noe som betyr et system der makten er hellig, dvs., der den politiske lederen også er en religiøs leder.
 
@@ -733,6 +757,8 @@ Kirkens teokratiske fristelse kolliderer også med teorien om "guddommelig rett.
 
 :::video id=3d55d74e-195e-48f7-86ef-b4ceeb4ba77e:::
 
+### Mennesket skapt i Guds bilde
+
 Antikkens tankegang underordnet mennesket et guddommelig kosmos, det vil si, til et perfekt univers hvor han bare var en del. Monoteismen, derimot, hevder menneskets uendelig overlegne verdi over naturen, ettersom mennesket er skapt i Guds bilde. Dette avgjørende punktet er ved opprinnelsen til en sann etisk revolusjon. Bibelen bekrefter det hellige og uendelige verdien av hvert menneske.
 
 Dette er grunnen til at bibelsk etikk endrer vårt forhold til ondskap. Den bringer en skarp og enestående følsomhet til menneskelig lidelse. Den oppmuntrer oss derfor til å betrakte som unormalt og uutholdelig ondskap som menneskeheten inntil da hadde funnet helt tålelig, spesielt det onde gjort mot andre, mot de svake, mot de uskyldige.
@@ -772,6 +798,8 @@ Ideén om menneskeheten går fremover. Det ble effektivt ansett at det bare er �
 <chapterId>236bdeeb-7bd3-536a-9df1-8791800bf31e</chapterId>
 
 :::video id=ad63fa9b-569b-460d-b221-5391a4e576d2:::
+
+### Kristendommen og den frie økonomien
 
 Vi har sett at kristendommen pålegger mennesker en moralsk plikt til å arbeide for å forbedre verden. Gud ønsker at mennesket skal være lykkelig, men ønsker ikke å oppnå sitt gode på hans sted. Det er derfor opp til den kristne å bekjempe moralsk ondskap, å elske sin neste, å hjelpe ofrene, kort sagt, å arbeide for en mer rettferdig og human verden. Er kapitalismen, det vil si den frie økonomien basert på privat eiendom og friheten til kontrakter, forenlig med den kristne plikten?
 
@@ -840,6 +868,8 @@ Dessuten, hvis to forskjellige valutaer nyter godt av lovlig betalingsmiddel, vi
 
 :::video id=e6a4005f-e732-48df-961a-d701ef4a777f:::
 
+### Religionskrigene og opplysningstiden
+
 Fra renessansen ble Europa herjet av religionskriger. Toleranse ble derfor en av de store kampene i opplysningstiden.
 ![image](assets/nb-NO/050.webp)
 
@@ -877,7 +907,7 @@ I _Tenth Letter_, "Om Handel", beskriver Voltaire det franske tankesettet som f�
 
 ### Sannhet Krever Frihet
 
-Likevel manglet ikke Frankrike store sinn. Det er lite kjent, men Anne Robert Jacques Turgot, Baron de Laulne var først og fremst en ledende tenker før han ble Controller General of Finances under Louis XVI. Han var forfatteren av et mesterlig avhandling om politisk økonomi, _Reflections on the Formation and Distribution of Wealth_ (1766), som kom før _The Wealth of Nations_ av Adam Smith (1776).
+Likevel manglet ikke Frankrike store sinn. Det er lite kjent, men Anne Robert Jacques Turgot, Baron de Laulne var først og fremst en ledende tenker før han ble Controller General of Finances under Louis XVI. Han var forfatteren av et mesterlig avhandling om politisk økonomi, _Reflections on the Formation and Distribution of Wealth_ (1766), som kom før _[The Wealth of Nations](https://planb.academy/resources/books/the-wealth-of-nations)_ av Adam Smith (1776).
 
 ![bilde](assets/nb-NO/052.webp)
 Hans tidlige skrifter reflekterer hans forpliktelse til opplysningstidens filosofi. I 1754 publiserte han sine _Letters on Civil Tolerance_ og i 1757, flere artikler skrevet for _The Encyclopédie_ av Diderot og d'Alembert.
@@ -894,6 +924,8 @@ Med andre ord, å være tolerant betyr ikke å være fiendtlig innstilt til reli
 <chapterId>23fbb745-4fd1-5322-8fba-3ff2e998c7e2</chapterId>
 
 :::video id=bede59ca-934d-4120-b023-1b7d1d112ad7:::
+
+### Den økonomiske liberalismens opprinnelse
 
 Økonomisk liberalisme er ofte assosiert med en anglo-saksisk tradisjon som stammer fra Adam Smith, i kontrast til "politisk liberalisme," som sies å stamme fra opplysningstiden på kontinentet, spesielt i Frankrike. Dette synet er feil.
 
@@ -960,6 +992,8 @@ Kort sagt, hvis alle fritt kan forfølge sin private interesse i respekt for nat
 
 :::video id=433b758e-648f-4e13-8aba-3ac7d302f8b4:::
 
+### Tre hendelser som endret historien
+
 1776 er et år som ofte går ubemerket i historiebøkene. Men i tre land, Frankrike, Skottland og Nord-Amerika, vil flere hendelser etterlate et uutslettelig merke på frihetens historie.
 
 ### Turgots vanære
@@ -1000,7 +1034,7 @@ Det er også en avhandling om filosofi i den forstand at den demonstrerer hvorda
 
 ### Et manifest for frihet i Amerika
 
-I 1776 publiserte en engelskmann ved navn Thomas Paine i Amerika et brennende pamflett som kritiserte det engelske monarkiet og talsmann for uavhengigheten til de amerikanske kolonistene: _Common Sense_.
+I 1776 publiserte en engelskmann ved navn Thomas Paine i Amerika et brennende pamflett som kritiserte det engelske monarkiet og talsmann for uavhengigheten til de amerikanske kolonistene: _[Common Sense](https://planb.academy/resources/books/common-sense)_.
 
 ![bilde](assets/nb-NO/059.webp)
 
@@ -1059,6 +1093,8 @@ Denne ideen om spontan orden ville bli et nøkkelkonsept i arbeidet til Friedric
 <chapterId>c260e3ab-31a2-5ad7-b775-4bdcdc13b859</chapterId>
 
 :::video id=acf98b8e-b8df-45d5-86d7-f48a05c19995:::
+
+### Sekularisering og det moderne samfunnet
 
 Den store nyheten i denne moderne perioden i vestlig historie er fremveksten av et samfunn som organiserer seg utenfor religiøs avhengighet. Dette betyr ikke forsvinningen av religiøs tro eller Guds død. Men Gud blir en privat sak, ikke lenger blandet med politiske anliggender. Det er ingen forsvinning av religion, men en avtronisering av dens veiledende rolle. Det blir et system av individuelle troer.
 
@@ -1140,7 +1176,7 @@ I Amerika var det ingen økonomisk dirigisme, ei heller en monetær konkurs som 
 
 Med Rousseau og Robespierre ønsket franskmennene å tro at nasjonen eller den generelle viljen hadde ubegrenset makt og rettferdiggjorde alt. Fra det faktum at folket styrte, ble det konkludert med at de hadde alle rettigheter. Det var tydeligvis en motsetning mellom de store prinsippene for revolusjonen og midlene som ble brukt for å få dem til å seire.
 
-Dette er for øvrig meningen med bemerkningen av Friedrich Hayek i hans bok _The Constitution of Liberty_:
+Dette er for øvrig meningen med bemerkningen av Friedrich Hayek i hans bok _[The Constitution of Liberty](https://planb.academy/resources/books/the-constitution-of-liberty)_:
 
 > Den avgjørende faktoren som gjorde revolusjonens anstrengelser til fordel for fremme av individuell frihet forgjeves, var at den skapte illusjonen om at, så lenge all makt hadde blitt overlevert til folket, hadde alle forholdsregler mot misbruk av denne makten blitt unødvendige.
 
@@ -1154,6 +1190,8 @@ Dette er for øvrig meningen med bemerkningen av Friedrich Hayek i hans bok _The
 
 :::video id=1356c0eb-806d-4914-8885-0eada01d9580:::
 
+### Antikkens frihet versus moderne frihet
+
 Ifølge Benjamin Constant kan frihet, i våre moderne samfunn, ikke lenger forstås på måten som i antikkens samfunn som direkte deltakelse i byens anliggender.
 
 ![bilde](assets/nb-NO/070.webp)
@@ -1161,14 +1199,14 @@ Ifølge Benjamin Constant kan frihet, i våre moderne samfunn, ikke lenger forst
 ### Frihet i Privatlivet
 
 I antikken var individet suverent i offentlige saker, men slavet i alle sine private relasjoner. Ofret av individuell frihet ble kompensert av bruken av politiske rettigheter: retten til direkte å utøve ulike deler av suvereniteten, å deliberere på torget, å stemme på lover, å uttale dommer, å evaluere og dømme magistrater. Det er en politisk og kollektiv frihet:
-Friheten til de gamle besto av aktiv og konstant deltakelse i kollektiv makt. Vår frihet, derimot, må bestå av den fredelige nytelsen av privat uavhengighet; det følger at vi må være mye mer knyttet til vår individuelle uavhengighet enn de gamle. (_Om friheten til de gamle sammenlignet med den til de moderne_ (1819))
+Friheten til de gamle besto av aktiv og konstant deltakelse i kollektiv makt. Vår frihet, derimot, må bestå av den fredelige nytelsen av privat uavhengighet; det følger at vi må være mye mer knyttet til vår individuelle uavhengighet enn de gamle. (_[Om friheten til de gamle sammenlignet med den til de moderne](https://planb.academy/resources/books/benjamin-constant-de-la-liberte-des-anciens-compar)_ (1819))
 ![bilde](assets/nb-NO/071.webp)
 
 Moderne frihet er sivil frihet, som inkluderer økonomisk frihet og er basert på retten til privatliv. Det er retten til ikke å bli utsatt for vilkårlighet, retten til ytring, forsamling, bevegelse, tilbedelse og industri. Det finnes ingen frihet uten muligheten til å velge sin egen livsstil og verdier, dermed ingen frihet uten muligheten til å trekke seg tilbake fra samfunnet og følgelig ingen frihet uten en begrensning av Staten for å tillate eksistensen av dette private rommet. Det er en frihet som tilsvarer det amerikanerne kaller borgerrettigheter.
 
 Denne definisjonen av frihet finnes hos John Stuart Mill:
 
-> Den eneste friheten som fortjener navnet, er den å forfølge vårt eget gode på vår egen måte, så lenge vi ikke forsøker å frata andre deres eller hindre deres anstrengelser for å oppnå det. (...) Menneskeheten tjener mer på å la hver person leve som de ser passende enn ved å tvinge dem til å leve som det synes godt for andre. (_Om frihet_, 1859)
+> Den eneste friheten som fortjener navnet, er den å forfølge vårt eget gode på vår egen måte, så lenge vi ikke forsøker å frata andre deres eller hindre deres anstrengelser for å oppnå det. (...) Menneskeheten tjener mer på å la hver person leve som de ser passende enn ved å tvinge dem til å leve som det synes godt for andre. (_[Om frihet](https://planb.academy/resources/books/on-liberty)_, 1859)
 
 ![bilde](assets/nb-NO/072.webp)
 
@@ -1203,6 +1241,8 @@ Med andre ord, i et fritt samfunn, er det nødvendig å etablere en streng grens
 <chapterId>753e065d-dbee-5d61-aa56-b1c074c95499</chapterId>
 
 :::video id=81dba30f-446b-4baa-9dc6-39aa297f741c:::
+
+### Tocqueville og den demokratiske individualismen
 
 Alexis de Tocqueville var en skarp observatør av demokratiet og en kritiker av demokratisk individualisme.
 
@@ -1278,6 +1318,8 @@ Ta en titt på kloden. Hvilke er de lykkeligste, mest moralske og mest fredelige
 
 :::video id=4c62c361-923f-47f0-be3f-3798bbc37e57:::
 
+### 1800-tallets kritikk
+
 Det var i løpet av det 19. århundret at kritikken av kapitalismen, og spesielt den marxistiske kritikken, dukket opp.
 
 ![image](assets/nb-NO/078.webp)
@@ -1309,6 +1351,8 @@ Politisk revolusjon er derfor en illusjon, ifølge ham, så lenge den ikke er le
 <chapterId>f05dae71-c478-5de1-996e-1b7b4255d373</chapterId>
 
 :::video id=0c740114-faff-400a-9359-d4b81766f246:::
+
+### Den østerrikske skolens svar
 
 Den Østerrikske Skolen for Økonomi, grunnlagt av Carl Menger på slutten av det 19. århundre, motsatte seg Karl Marx' teorier fra starten.
 
@@ -1361,7 +1405,7 @@ Marxister tror at sosialisme, et økonomisk system der produksjonsmidlene eies o
 
 ![bilde](assets/nb-NO/085.webp)
 
-Allerede i 1922, i sin bok _Socialism,_ demonstrerte Ludwig von Mises at sosialisme ville føre til utbredte mangler, ettersom sentralplanleggere ikke ville være i stand til å gjøre nøyaktige økonomiske beregninger uten prissystemet som markedet tilbyr.
+Allerede i 1922, i sin bok _[Socialism](https://planb.academy/resources/books/socialism-mises),_ demonstrerte Ludwig von Mises at sosialisme ville føre til utbredte mangler, ettersom sentralplanleggere ikke ville være i stand til å gjøre nøyaktige økonomiske beregninger uten prissystemet som markedet tilbyr.
 
 ## Veien til Trelldom
 
@@ -1369,7 +1413,9 @@ Allerede i 1922, i sin bok _Socialism,_ demonstrerte Ludwig von Mises at sosiali
 
 :::video id=4ba4f2b4-86f4-4ef4-a5f8-ef8d6b1a1770:::
 
-Alarmert av økningen i statlig intervensjonisme i økonomiene til vestlige demokratier, skrev Hayek _Veien til Trelldom_ som en filosofisk kritikk av kollektivisme, enten fra høyre eller venstre. Publisert i flere millioner eksemplarer, takket være _Reader’s Digest_, har denne boken i stor grad bidratt til Hayeks berømmelse i USA.
+### Hayeks advarsel mot kollektivisme
+
+Alarmert av økningen i statlig intervensjonisme i økonomiene til vestlige demokratier, skrev Hayek _[Veien til Trelldom](https://planb.academy/resources/books/the-road-to-serfdom)_ som en filosofisk kritikk av kollektivisme, enten fra høyre eller venstre. Publisert i flere millioner eksemplarer, takket være _Reader’s Digest_, har denne boken i stor grad bidratt til Hayeks berømmelse i USA.
 
 ![bilde](assets/nb-NO/086.webp)
 
@@ -1412,13 +1458,15 @@ Til slutt oppfordrer Hayek sine samtidige til å vende ryggen til "galskapen" og
 
 :::video id=563102d8-ee0c-4c8d-b592-dabb8a395403:::
 
+### Den keynesianske revolusjonen
+
 Kapitalismen blir ofte anklaget for å være kilden til påbudet: "vi må alltid produsere mer," eller formelen: "forbruk er bra for vekst." Imidlertid stammer ikke disse ideene fra tradisjonell kapitalisme, men fra keynesianismen, som har dominert feltet for økonomisk vitenskap og den politiske klassen siden 1930-tallet.
 
 ![bilde](assets/nb-NO/088.webp)
 
 ### Analysen av Krisen i 1929
 
-Publisert i 1936, boken av John Maynard Keynes: _The General Theory of Employment, Interest, and Money_, feide alt på sin vei. Ved å stille spørsmål ved årsakene til den store depresjonen og midlene for å komme ut av den, beskriver han et nytt økonomisk paradigme, som ville konvertere generasjoner av økonomer og politikere.
+Publisert i 1936, boken av John Maynard Keynes: _[The General Theory of Employment, Interest, and Money](https://planb.academy/resources/books/the-general-theory)_, feide alt på sin vei. Ved å stille spørsmål ved årsakene til den store depresjonen og midlene for å komme ut av den, beskriver han et nytt økonomisk paradigme, som ville konvertere generasjoner av økonomer og politikere.
 
 ![bilde](assets/nb-NO/089.webp)
 
@@ -1456,7 +1504,7 @@ Fra 1958 vil en politikk for å rette opp den franske økonomien, inspirert av J
 
 ![image](assets/nb-NO/094.webp)
 
-I _Vestens monetære synd_, i 1971, skriver Rueff:
+I _[Vestens monetære synd](https://planb.academy/resources/books/the-monetary-sin-of-the-west)_, i 1971, skriver Rueff:
 
 > Det er gjennom budsjettunderskudd at menn mister sin frihet.
 
@@ -1472,6 +1520,8 @@ Ingen religion har spredt seg over verden så raskt som arbeidets religion. Drev
 <chapterId>f52da9ae-c4bc-5d1a-8fd0-8fcae5948e34</chapterId>
 
 :::video id=99ab9658-dbc6-4f7e-87b6-a43debfd1969:::
+
+### Penger og sivilisasjon
 
 Penger er et verktøy som har tillatt mennesker å bevege seg bort fra byttehandel, til å spare, og til å koordinere i stor skala gjennom markedet. Det har gjort spesialisering av arbeidskraft, komparative fordeler, gevinster fra handel, økonomisk kalkulasjon mulig. Uten penger er det ingen moderne sivilisasjon.
 
@@ -1518,7 +1568,7 @@ I februar 1965, under en TV-sendt pressekonferanse, hadde General de Gaulle, dir
 
 ### Et penge marked uten statlig monopol er mulig
 
-I 1976 foreslo Hayek et alternativ til statens monopol på valutaskapelse: konkurranse mellom valutaer. I sin bok, _Pour une vraie concurrence des monnaies_ (_The Denationalization of Money_), forestilte han seg et penge marked uten statlig monopol der flere private valutaer ville eksistere. Skapelsen og forvaltningen av forskjellige valutaer av private enheter ville tillate individer å velge den mest stabile og pålitelige valutaen, og dermed oppmuntre til konkurranse og disiplin blant utstedere.
+I 1976 foreslo Hayek et alternativ til statens monopol på valutaskapelse: konkurranse mellom valutaer. I sin bok, _Pour une vraie concurrence des monnaies_ (_[The Denationalization of Money](https://planb.academy/resources/books/the-denationalization-of-money)_), forestilte han seg et penge marked uten statlig monopol der flere private valutaer ville eksistere. Skapelsen og forvaltningen av forskjellige valutaer av private enheter ville tillate individer å velge den mest stabile og pålitelige valutaen, og dermed oppmuntre til konkurranse og disiplin blant utstedere.
 
 ![bilde](assets/nb-NO/100.webp)
 

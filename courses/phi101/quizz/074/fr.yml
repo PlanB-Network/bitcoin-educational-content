@@ -1,9 +1,9 @@
 question: Quelle est la contribution des physiocrates à la pensée libérale ?
-answer: Toutes les réponses ci-dessus sont correctes.
+answer: Ils ont développé la théorie du libre marché.
 wrong_answers:
   - Ils ont défendu la liberté individuelle et la propriété privée.
-  - Ils ont développé la théorie du marché libre.
+  - Ils ont conçu les premiers modèles de planification économique centralisée.
   - Ils ont critiqué le mercantilisme et l'intervention de l'État.
 explanation: |
-  Les physiocrates ont contribué à la pensée libérale en prônant la liberté individuelle, la propriété privée, le marché libre et en rejetant le mercantilisme et l'intervention étatique, posant les bases d'une économie fondée sur des lois naturelles.
-reviewed: true 
+  La contribution centrale des physiocrates à la pensée libérale a été le développement de la théorie du libre marché, soutenant que les lois économiques sont naturelles et ne doivent pas être perturbées par l'intervention de l'État, résumé dans leur devise « Laissez-faire, laissez passer ».
+reviewed: true

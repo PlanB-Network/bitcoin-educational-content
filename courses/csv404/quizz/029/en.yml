@@ -1,0 +1,9 @@
+question: "How does the layered Merkle forest structure support different levels of authorization?"
+answer: "Signatures can be required at different levels: group keys authorize new minting rounds, asset keys control transfers"
+wrong_answers:
+  - "Each layer uses a different hashing algorithm entirely, with SHA-256 at the asset level and SHA-512 at the group level"
+  - "Authorization is handled by a single master key at the root level, which delegates permissions to every child key"
+  - "Each layer maintains its own independent mempool tracking pending transactions awaiting confirmation on-chain"
+explanation: >-
+  The layered structure of the Merkle forest allows requiring private key signatures at different levels, adding both security and flexibility. A group key signature can authorize new minting rounds, enabling multi-tranche issuance, while individual asset keys control the transfer of specific assets. This separation of authorization concerns provides fine-grained control over different asset operations.
+reviewed: false

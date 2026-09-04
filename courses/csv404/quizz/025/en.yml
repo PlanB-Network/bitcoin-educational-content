@@ -1,0 +1,9 @@
+question: "What are the three layers of the Merkle forest in the Taproot Assets data structure, from bottom to top?"
+answer: "Asset level (individual asset data), group level (fungible asset grouping), and Bitcoin Taproot tree (script tree commitment)"
+wrong_answers:
+  - "Transaction level (raw transaction data), channel level (Lightning channel state), and network level (peer-to-peer routing metadata)"
+  - "Leaf level (raw key-value pairs), branch level (intermediate hash nodes), and root level (final Merkle commitment hash value)"
+  - "UTXO level (unspent transaction outputs), block level (confirmed transactions), and chain level (full blockchain state history)"
+explanation: >-
+  The complete MS-SMT data structure consists of three layers. The bottom asset level stores individual asset data including name, metadata, and balances. The middle group level groups fungible assets together, enabling features like multi-tranche minting where assets minted across different rounds share the same group. The top layer is the standard Bitcoin Taproot script tree, into which the entire Merkle forest is committed.
+reviewed: false

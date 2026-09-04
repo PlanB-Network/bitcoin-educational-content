@@ -1,0 +1,9 @@
+question: "What is the structure of the JSON payload sent to the send endpoint to execute a Taproot Asset transfer?"
+answer: "A JSON object with a 'tap_addrs' key containing an array of TAP address strings"
+wrong_answers:
+  - "A JSON object with 'destination' and 'amount' keys specifying the receiver and quantity"
+  - "A JSON object with 'asset_id', 'recipient_key', and 'amt' keys describing the transfer"
+  - "A JSON object with a 'transfers' key containing an array of transfer detail objects"
+explanation: >-
+  The send endpoint expects a JSON payload with a tap_addrs key containing an array of TAP address strings. The TAP address itself already encodes the asset ID, amount, and destination information, so no additional parameters are needed. This design keeps the send request simple since all transfer details are embedded in the address.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What three checks does the chapter recommend to verify a successful TAPD update?"
+answer: "A successful `tapcli version` output, a healthy systemd status, and a quick `tapcli assets list` command"
+wrong_answers:
+  - "A successful `tapd --check` output, a blockchain sync status above 99%, and a channel balance verification"
+  - "A matching SHA256 hash of the installed binary, a successful RPC ping, and a peer connection count above zero"
+  - "A successful `tapd validate` output, a log file review for migration errors, and a universe sync check"
+explanation: >-
+  The chapter specifically lists three post-update verification steps: running `tapcli version` to confirm the new version is installed, checking the systemd service status to ensure TAPD is running healthily, and executing `tapcli assets list` to confirm that assets are accessible and everything is working correctly.
+reviewed: false

@@ -9,13 +9,9 @@ objectives:
   - Build and deploy Taproot Assets applications with advanced features
 ---
 
-# Tapping into Taproot Assets
+The Taproot Assets Protocol (TAP) enables the issuance, transfer, and management of arbitrary digital assets on Bitcoin, routable over the Lightning Network. This expert-level course takes you from the cryptographic data structures that make TAP possible through hands-on deployment and operation, covering everything from MerkleSum Sparse Merkle Trees and client-side validation to minting, sending, burning, and cross-asset Lightning payments via edge nodes and price oracles.
 
-Explore the groundbreaking Taproot Assets Protocol (TAP), enabling native multi-asset functionality on Bitcoin and the Lightning Network. This comprehensive technical course takes you from cryptographic foundations through production deployment, covering everything needed to mint, transfer, and manage digital assets using Bitcoin's security model.
-
-Through hands-on implementation and real-world examples, you'll master the MerkleSum Sparse Merkle Tree structures, understand client-side validation, and learn to leverage Taproot's privacy features for scalable asset management. Deploy production-ready TAP nodes, integrate with Lightning channels for instant asset transfers, and build applications using the comprehensive API ecosystem.
-
-Whether you're building stablecoins, NFTs, or custom financial instruments, this course provides the technical depth and practical skills to leverage Taproot Assets for next-generation Bitcoin applications.
+Through 16 demonstration videos recorded by Hannah Rosenberg, a core contributor to the protocol at Lightning Labs, you will build and operate a complete Taproot Assets stack. Whether you are building stablecoins, collectibles, or custom financial instruments, this course provides the technical depth and practical skills to work with Taproot Assets in development and production environments.
 
 Note: The videos for this course are only available in English.
 
@@ -27,132 +23,293 @@ Note: The videos for this course are only available in English.
 ## Course presentation
 <chapterId>a2e5f8b9-4c3d-41e7-b9f2-6d8a3c5e9f14</chapterId>
 
-Welcome to this advanced technical course on Taproot Assets, designed for experienced developers ready to extend Bitcoin's capabilities into multi-asset protocols. This course provides comprehensive coverage of the Taproot Assets Protocol from theoretical foundations to production deployment.
+### Welcome
 
-**Section 1: Protocol Foundations**
+Bitcoin's base layer was designed to be a robust, minimalist settlement network, and for good reason. Yet the desire to issue and transfer diverse assets on top of this infrastructure has been present almost since Bitcoin's earliest days. With the activation of [Taproot](https://planb.academy/resources/glossary/taproot) (BIP 341) in November 2021, a new design space opened up, one that makes it possible to embed structured asset metadata directly inside Taproot outputs without bloating the blockchain or compromising privacy. **Taproot Assets** (formerly known as Taro) is the protocol that exploits this design space to its fullest, enabling the issuance, transfer, and management of arbitrary assets, from stablecoins to collectibles, anchored in Bitcoin's security model and routable over the [Lightning Network](https://planb.academy/resources/glossary/lightning-network).
 
-The first section explores the cryptographic architecture underlying Taproot Assets. You'll understand how MerkleSum Sparse Merkle Trees enable efficient proof systems, how assets are embedded within Bitcoin transactions, and how the protocol maintains privacy while enabling verification. We cover the integration with Lightning Network for instant transfers and the universe system for proof distribution.
+This course is an expert-level, hands-on exploration of the Taproot Assets Protocol and its reference implementation, `tapd` (the Taproot Assets Daemon). It is built around 16 demonstration videos recorded by Hannah Rosenberg, a developer at Lightning Labs and a core contributor to the protocol itself. We will not remain at the surface of concepts: together, we will walk through the full lifecycle of a Taproot Asset, from the cryptographic data structures that make it possible, through installation and configuration of the tooling, all the way to minting, sending, burning, and routing assets over Lightning channels. If you are comfortable with Bitcoin transactions, have a working understanding of Taproot and the Lightning Network, and are not afraid of a terminal, this course was built for you.
 
-**Section 2: Installation and Configuration**
+### What you will learn
 
-The second section focuses on practical deployment. You'll learn multiple installation methods including source compilation, binary deployment, and integration with Lightning Terminal (LitD). We cover both development environments using Polar and production configurations with proper security and system integration.
+- **Understand the cryptographic foundations** of the Taproot Assets Protocol, including Merkle-Sum Sparse Merkle Trees (MS-SMT), client-side validation, and the proof system that secures asset ownership off-chain.
+- **Install and configure `tapd`** from source, through the Polar development environment, and via the LitD integrated stack, so you can choose the setup that fits your workflow.
+- **Mint new assets** using both the CLI and the gRPC/REST API, mastering the parameters that define an asset's properties at creation time.
+- **Send and receive Taproot Assets** between nodes, generating and verifying the transfer proofs that replace on-chain visibility with cryptographic certainty.
+- **Burn assets permanently**, removing them from circulation in a verifiable way through the protocol's native burn mechanism.
+- **Federate and query universes**, the public repositories that allow nodes to discover assets and verify their provenance without trusting a central authority.
+- **Explore advanced operational topics** including TAPD upgrades, asset routing over Lightning channels, edge node architecture, and price oracle integration.
 
-**Section 3: Operations and Development**
+### Curriculum
 
-The third section covers asset operations from CLI and API perspectives. You'll master minting fungible and non-fungible assets, executing on-chain and Lightning transfers, and managing asset lifecycles including burns. We explore the comprehensive API architecture including REST and gRPC interfaces.
+This course is organized into four technical parts that follow a deliberate progression from theory to practice, and from foundational operations to advanced deployment scenarios.
 
-**Section 4: Advanced Topics**
+**Part 2: The Taproot Asset Protocol** lays the theoretical groundwork. We will examine the Merkle-Sum Sparse Merkle Tree structure, the proof and verification system, the role of universes as asset discovery layers, how Taproot Assets integrate with the Lightning Network, and the API architecture that ties everything together. This is where you build the mental model that makes every subsequent command make sense.
 
-The final section addresses production concerns including running price oracles, managing universe federations, building nodes from scratch, and maintaining TAPD installations. You'll learn to build applications leveraging PSBTs for complex multi-party operations.
+**Part 3: Installation and Configuration** moves us into the terminal. We will compile `tapd` from source, set up a complete development environment using Polar, deploy the LitD integrated stack for a more production-oriented workflow, and configure universe federation so your node can participate in the broader asset network.
 
-This course emphasizes hands-on implementation with real code examples, API interactions, and troubleshooting guidance for production deployments.
+**Part 4: Asset Operations** is the heart of the hands-on work. We will mint assets, send them between nodes, and burn them, executing every operation through both the CLI and the API. By the end of this part, you will have performed the complete asset lifecycle with your own hands.
 
-# The Taproot Asset Protocol 
+**Part 5: Advanced Topics** addresses the concerns that arise once basic operations are mastered. We will cover how to update TAPD safely, how Taproot Assets flow over Lightning payment channels, how edge nodes bridge the gap between on-chain and off-chain routing, and how price oracles provide the exchange rate data that real-world applications require.
+
+Please note that all demonstration videos in this course are in English. Let's begin.
+
+### About the course author and sources
+
+This course is built from two primary sources: Hannah Rosenberg's [Tapping into Taproot Assets video playlist](https://www.youtube.com/playlist?list=PL-3jjRT_28SjD1cBGuJSWhgtyErVlzRmP) published by Lightning Labs, and the [official Taproot Assets documentation](https://docs.lightning.engineering/the-lightning-network/taproot-assets). The written content you are reading has been structured and edited by Plan B Academy to follow our educational format, but the technical substance and all demonstration videos are Hannah's original work.
+
+Hannah Rosenberg is a software developer at Lightning Labs, where she works directly on the Taproot Assets Protocol and its reference daemon, `tapd`. As a core contributor to the protocol's design and implementation, she brings a rare perspective: not the perspective of someone who learned the tool after the fact, but of someone who helped build it and understands the reasoning behind each architectural decision. Her demonstrations move fluidly between high-level protocol concepts and the concrete CLI commands that bring them to life.
+
+All video content remains the intellectual property of Lightning Labs and Hannah Rosenberg. The written course material is licensed under CC-BY-SA-V4 as part of the Plan B Academy open-source educational content.
+
+# The Taproot Asset Protocol
 <partId>d7f9e2c4-3a5b-4f8e-9c1d-2b6a8e5f3d17</partId>
+
+## The Multi-Asset Lightning Network
+<chapterId>84aeb178-895e-4212-aba3-4c7a015d31e2</chapterId>
+
+:::video id=c8788ec8-780c-46ab-ac5c-9eb0dcd20590:::
+
+### A Story of Cross-Asset Payments
+
+Before we dive into protocol mechanics, let's discover together what the Taproot Assets Protocol makes possible through a concrete scenario.
+
+Imagine a [Lightning Network](https://planb.academy/resources/glossary/lightning-network) with thousands of nodes connected via channels full of satoshis. Now imagine the edges of that network: channels that hold not just bitcoin, but various assets, from US dollar stablecoins to euro-denominated tokens. Assets can flow from one side of the network through all the satoshi liquidity in the middle, and out to a node at the other end. The intermediate channels carry ordinary Lightning payments; only the endpoints deal in Taproot Assets.
+
+Let's make this concrete. Alice lives in the United States and holds a **USD stablecoin** on the Lightning Network via Taproot Assets. She is traveling to Berlin for a conference and meets her friend Roberto from Mexico, who holds a **peso-based stablecoin**. After lunch together, Alice pays the bill using her USD stablecoin, but the restaurant, being in Berlin, opts to receive the payment in a **euro-based stablecoin**. Roberto then pays Alice back for his half, sending pesos, while Alice chooses to receive the repayment in satoshis.
+
+All of these cross-asset transactions are routed seamlessly through the satoshi channels in the middle of the Lightning Network. While this exact story is fiction, all of the technology to make it happen is real and running on mainnet today.
+
+### How TAP Makes This Possible
+
+The **Taproot Assets Protocol (TAP)** is opt-in, uses client-side validation, requires no consensus changes to Bitcoin, and is available on mainnet. Assets are embedded in [Taproot](https://planb.academy/resources/glossary/taproot) transactions, so even minting does not require high fees.
+
+When Alice wants to mint a fungible asset (let's call it "beefbucks"), she specifies the supply, sets the asset type to fungible, and adds any metadata she wants to include. The **Taproot Assets Daemon (TAPD)** then constructs a set of specialized Merkle trees called **Merkle Sum Sparse Merkle Trees** to store all of this data. We will explore these data structures in detail in the next chapter.
+
+To commit this data to the Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain), TAPD sums the collection of Merkle trees to a root hash, adds that root hash to the Bitcoin script tree, and embeds everything into a Bitcoin address using **TAPTweak**. To anyone looking at the blockchain, the minting transaction appears to be just a regular Taproot transaction. No one can tell that asset data was embedded unless they possess the cryptographic proofs. This is what we mean by **client-side validation**.
+
+### On-Chain Transfers
+
+When Alice wants to send 100 of her 1,000 beefbucks to Bob, their TAPD nodes take the current Merkle tree (where Alice holds 1,000 beefbucks) and construct two new Merkle trees: one where Alice holds 900 and another where Bob holds 100. Alice uses her asset-bearing [UTXO](https://planb.academy/resources/glossary/utxo) as an input to a transaction with at least two outputs: one for her updated tree and one for Bob's new tree.
+
+The protocol also supports **internal transactions**, where assets move between leaves within the same set of Merkle trees. This still requires an on-chain transaction to commit the updated state, but it opens up interesting use cases.
+
+### Lightning Channels with Assets
+
+If Alice holds a UTXO with assets and wants to open a Lightning channel with Bob, she can use that asset-bearing UTXO as the channel funding input. The resulting channel holds both satoshis and Taproot Assets. Once open, Alice and Bob can send assets back and forth, updating the asset balance in the channel. On-chain, this looks like opening any other Taproot channel.
+
+### The Edge Node
+
+The final piece of the multi-asset Lightning puzzle is the **edge node**. An edge node operates at the boundary between asset channels and satoshi channels.
+
+Let's say Alice runs a wallet service with an edge node. Her customers (Bob, Carol, Diego) all hold USD stablecoin channels with her edge node. The edge node also has regular satoshi channels connecting it to the broader Lightning Network. On the other side of the network, Elena and Frank are connected to a different edge node that supports a euro stablecoin.
+
+When Bob wants to pay Elena, Alice's edge node calculates how many stablecoin units Bob needs to send, then forwards the payment as a regular satoshi-based Lightning payment. That payment routes through the network until it reaches Elena's edge node, which converts the satoshis to euro stablecoins and updates its channel balance with Elena.
+
+In other words, Bob sent USD stablecoins and Elena received euro stablecoins, with the Lightning Network's satoshi liquidity bridging the gap transparently. After the initial coordination between Taproot Assets nodes, the payment routes just like any other Lightning payment, with all the same liquidity, speed, and security guarantees.
+
 ## Taproot Assets: A New Protocol for Multi-Asset Bitcoin and Lightning
 <chapterId>b3c8d5f2-7e4a-4b9c-a6f1-5d9e2c3b8f16</chapterId>
 
 :::video id=f45eeea0-6583-498b-af6a-c148cbe0ed00:::
 
-### Understanding Taproot Asset
+### Understanding Taproot Assets
 
-The [Taproot](https://planb.academy/resources/glossary/taproot) Asset (orginally Taproot Asset Representation Overlay aka Taro) represents a groundbreaking advancement in Bitcoin's capabilities, introducing a new Taproot-powered protocol for issuing assets directly on the Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain). What makes Taproot Asset particularly revolutionary is its ability to enable these assets to be transferred seamlessly over the [Lightning Network](https://planb.academy/resources/glossary/lightning-network), combining the security of Bitcoin's base layer with the speed and efficiency of Lightning payments.
+The **Taproot Assets Protocol (TAP)**, originally known as the Taproot Asset Representation Overlay (Taro), introduces a method for issuing arbitrary assets directly on the Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain) using the capabilities of [Taproot](https://planb.academy/resources/glossary/taproot). What makes TAP especially compelling is that these assets can also be transferred over the [Lightning Network](https://planb.academy/resources/glossary/lightning-network), combining the security of Bitcoin's base layer with the speed and low cost of Lightning payments.
 
-Since Taproot Asset is fundamentally powered by Taproot, understanding this protocol requires a solid foundation in Taproot's mechanics and capabilities. The integration with Taproot is not merely technical convenience but rather the cornerstone that enables Taproot Asset's unique approach to asset representation and transfer. This Taproot foundation allows Taproot Asset to leverage Bitcoin's existing security model while introducing new functionality that was previously impossible.
+Because TAP is fundamentally built on Taproot, understanding the protocol requires a working knowledge of Taproot's mechanics. This is not merely a technical convenience: Taproot is the very foundation that makes TAP's approach to asset representation possible.
 
-Taproot assets can be conceptualized as specialized [UTXOs](https://planb.academy/resources/glossary/utxo) that exist within a Bitcoin Taproot UTXO, creating a nested structure that maintains Bitcoin's security guarantees while enabling new asset types. This architectural approach means that creating Taproot assets requires only a single on-chain Taproot transaction, with no theoretical limit to the number of assets that can be created within that single transaction. The creation process embeds asset information directly into Bitcoin transactions in a way that makes them indistinguishable from regular Taproot transactions to outside observers, maintaining privacy while enabling expanded capabilities.
+Let's examine the core idea. A Taproot asset can be thought of as a specialized [UTXO](https://planb.academy/resources/glossary/utxo) nested inside a standard Bitcoin Taproot UTXO. In other words, asset data is embedded within a regular Taproot transaction in a way that makes it indistinguishable from any other Taproot transaction to outside observers. Creating one or many assets requires only a single on-chain Taproot transaction, with no theoretical limit to the number of assets that can be produced within it.
 
-### MerkleSum as cryptographic foundation
+Every asset created through this protocol receives a unique identifier, the **Asset ID**, computed as follows:
 
-Taproot Asset employs a sophisticated data structure called the MerkleSum Sparse [Merkle Tree](https://planb.academy/resources/glossary/merkle-tree), which combines multiple cryptographic concepts to achieve the protocol's security and efficiency goals. When spending a Taproot asset, users must prove ownership through a Merkle tree inclusion proof, demonstrating that their asset exists within the committed tree structure. However, Taproot Asset's requirements extend beyond simple inclusion proofs—the protocol must also demonstrate that spending transactions properly relinquish ownership of assets, which requires proving the absence of data rather than its presence.
+$$\text{asset\_id} = \text{sha256}(\text{genesis\_outpoint} \| \text{asset\_tag} \| \text{asset\_meta})$$
 
-Sparse Merkle Trees solve the challenge of proving data absence by storing objects at leaf locations defined by the binary expression of the [SHA-256](https://planb.academy/resources/glossary/sha256) digest of that data. This deterministic placement means that any object can produce the exact route to where it would be located in the tree if it were present. When an asset is spent or transferred, the protocol can prove that the asset has been removed from its expected location without revealing the entire tree structure.
+This formula anchors each asset to its creation point on the Bitcoin blockchain: the genesis outpoint (the specific transaction output where the asset was born), the asset tag (its name), and any associated metadata.
 
-The "Sum" aspect introduces additional security guarantees specifically designed for asset protocols. In a Merkle Sum Tree, each leaf contains numeric values representing asset quantities, and each internal node carries the sum of all values in its subtree. The root of the tree therefore contains the total sum of all assets within the entire structure. This summation property provides crucial anti-inflation guarantees—by examining the root sum, validators can efficiently verify that assets stored in the tree haven't been artificially inflated without needing to examine every individual asset.
+### The MerkleSum Sparse Merkle Tree
 
-The complete MerkleSum Sparse Merkle Tree structure integrates seamlessly with Bitcoin's Taproot functionality through a process that embeds the tree root into a Taproot tree leaf. Using the tap tweak mechanism, the protocol commits to the tree root within the transaction itself, creating an unbreakable cryptographic link between the Bitcoin transaction and the Taproot asset data.
+The cryptographic backbone of TAP is a data structure called the **MerkleSum Sparse Merkle Tree (MS-SMT)**. It combines two separate [Merkle tree](https://planb.academy/resources/glossary/merkle-tree) concepts into a single structure. Let's explore each one before seeing how they fit together.
 
-### Lightning Network Integration and Asset Transfers
+The first component is the **Sparse Merkle Tree**. When spending a Taproot asset, the protocol must not only prove that an asset exists in the tree (an inclusion proof), but also prove that assets have been properly removed when spent. In other words, it must demonstrate the *absence* of data, not just its presence. A Sparse Merkle Tree solves this elegantly: each object is stored at a leaf position determined by the [SHA-256](https://planb.academy/resources/glossary/sha256) digest of its data. This deterministic placement means that any object defines its own route through the tree. If the expected leaf is empty, the object is provably absent.
 
-The integration of fungible Taproot assets with the Lightning Network represents one of the protocol's most compelling features. To send a particular Taproot asset over Lightning, both the sending and receiving [nodes](https://planb.academy/resources/glossary/node) must have Taproot Asset-enabled channels that hold the specific asset being transferred. However, all intermediate channels in the payment route do not need to hold or even be aware of the Taproot assets being transferred. This routing capability enables powerful use cases where Alice could route a Lightning USD asset through Bob, Carol, and potentially many other intermediate nodes before reaching Dan, with only the channels at the payment's endpoints needing awareness of the Taproot asset.
+The second component is the **Merkle Sum Tree**. Here, each leaf carries a numeric value representing an asset quantity, and every internal node holds the sum of all values in its subtree. The root therefore contains the total of all assets in the entire structure. This summation property provides a powerful anti-inflation guarantee: by checking the root sum, a validator can confirm that no new units have been created out of thin air, without examining every individual leaf.
 
-Transferring Taproot assets on-chain requires reorganizing the underlying Merkle tree structure and publishing a new on-chain transaction that commits to the updated tree root. However, the protocol supports unlimited internal Taproot Asset transactions within a single on-chain Bitcoin transaction, providing significant scalability benefits. When Taproot assets need to be sent to different Taproot key holders, the protocol employs an asset split mechanism. The sender updates their own MerkleSum Sparse Merkle Tree by adjusting balances and recalculating the [Merkle root](https://planb.academy/resources/glossary/merkle-root) to reflect the outgoing transfer, while simultaneously, a second MerkleSum Sparse Merkle Tree is committed to a new Taproot output controlled by the receiver.
+The complete MS-SMT integrates with Bitcoin's Taproot mechanism through the **tap tweak**. The tree root is committed to a Taproot output using the formula:
 
-Beyond simple asset transfers, the Lightning Network integration supports automatic asset exchange functionality. Lightning invoices can be paid or received using Taproot assets, with automatic conversion to Bitcoin handled by either party in the transaction. This capability opens possibilities for seamless cross-asset payments where users can pay Lightning invoices denominated in Bitcoin using their Taproot asset holdings, or vice versa. The automatic exchange mechanism abstracts away much of the complexity involved in multi-asset Lightning payments, providing user experiences that feel natural while leveraging the underlying technical sophistication of the Taproot Asset protocol.
+$$Q = P + H(P \| c) \cdot G$$
 
-Universe services play a crucial supporting role by providing information about assets and maintaining proofs for asset holders. These services function similarly to Bitcoin block explorers but specialize in showcasing Taproot Asset transaction data, which is stored off-chain with Taproot Asset clients rather than directly on the Bitcoin blockchain. By keeping detailed transaction histories off-chain while maintaining cryptographic commitments on-chain, the protocol achieves scalability benefits without sacrificing security.
+where $P$ is the internal public key, $c$ is the MS-SMT commitment, $H$ is a hash function, and $G$ is the generator point. This creates an unbreakable cryptographic link between the on-chain Bitcoin transaction and the off-chain asset data.
 
+### Client-Side Validation and Proof Chains
+
+TAP relies on **client-side validation**: recipients do not need the complete blockchain history to verify an asset's legitimacy. Instead, the recipient reconstructs a partial MS-SMT, tweaks the issuer's public key using the commitment, and verifies that the corresponding genesis transaction exists on-chain.
+
+Every asset transfer generates a cryptographic proof. These proofs form a **proof chain** that traces the asset's ownership history all the way back to its genesis output. If a UTXO is spent without a valid new MS-SMT commitment, the proof is invalidated. This is why each transaction can be independently audited against the original issuance.
+
+### Lightning Network Integration
+
+The integration of fungible Taproot assets with Lightning represents one of the protocol's most practical features. To send a TAP asset over Lightning, only the sending and receiving [nodes](https://planb.academy/resources/glossary/node) must have Taproot Asset-enabled channels holding that specific asset. All intermediate nodes along the payment route simply forward ordinary satoshis, unaware that the endpoints are dealing in Taproot assets. Alice can route a USD-denominated asset through Bob, Carol, and several other hops before reaching Dan, with none of the intermediate channels needing TAP awareness.
+
+Beyond simple transfers, the Lightning integration supports **automatic asset exchange** through a mechanism called **RFQ (Request for Quote)**. A Lightning invoice denominated in Bitcoin can be paid using a Taproot asset, or vice versa, with the conversion handled seamlessly. This opens the door to cross-asset Lightning payments that feel natural to the user while leveraging the full sophistication of TAP under the hood.
+
+### The Universe System
+
+**Universe** services provide the off-chain infrastructure for asset discovery and proof distribution. They function similarly to Bitcoin block explorers, but for Taproot Asset data, which is stored locally by TAP clients rather than directly on the blockchain. Universes hold no protocol-level privileges: they are data stores that anyone can run. By keeping detailed transaction histories off-chain while anchoring cryptographic commitments on-chain, the protocol achieves scalability without sacrificing security.
+
+## Merkle Sum Sparse Merkle Trees
+<chapterId>6b4ab386-9c4c-4a6c-a260-2cd589e1c9de</chapterId>
+
+:::video id=92add1f7-d1c7-4846-99e1-31d0b43fcc6e:::
+
+### Why This Data Structure?
+
+In the previous chapters, we mentioned that TAPD stores asset data in **Merkle Sum Sparse Merkle Trees**. Let's now explore together what this data structure actually is, why it was designed this way, and how it gets embedded into a Bitcoin transaction. This chapter is more conceptual than practical, but understanding these foundations will make every subsequent operation far more intuitive.
+
+When we mint an asset (let's say "beefbucks"), we need to be able to prove three things:
+
+1. **Ownership**: that we do indeed hold the asset.
+2. **Non-inflation**: that we have not created more units than we declared.
+3. **Transfer**: that when we send assets to Bob, we can prove we no longer own what we sent.
+
+The Merkle Sum Sparse Merkle Tree solves all three problems in a single, elegant structure. Let's break it into its two components.
+
+### The Sparse Part: Proving Inclusion and Exclusion
+
+Imagine a massive [Merkle tree](https://planb.academy/resources/glossary/merkle-tree) with a huge number of possible leaf positions. When TAPD creates an asset, it generates an **Asset ID**. The binary representation of that ID acts as a map: each bit (one or zero) tells you to go right or left as you descend from the root to a leaf. In other words, the Asset ID deterministically defines exactly where in the tree the asset data lives.
+
+This design has a powerful consequence. To prove that an asset exists in the tree, you provide the Merkle inclusion proof following the path defined by the Asset ID. To prove that an asset does *not* exist, you show that the expected leaf position is empty. The "sparse" nature of the tree (most leaves are empty, with null hashes) makes these absence proofs efficient.
+
+This solves problems one and three: we can prove we own an asset (inclusion proof) and we can prove we no longer own it after transfer (exclusion proof at the original position).
+
+![Sparse Merkle tree binary navigation showing root hash branching left and right based on 0 and 1 bits](assets/en/002.webp)
+
+### The Sum Part: Preventing Inflation
+
+The "sum" component adds a numeric value to each leaf. If we mint 100 beefbucks, the leaf holding our asset data carries the value 100. Each internal node in the tree carries the sum of all values in its subtree. This means the root hash of the tree encodes the total quantity of all assets it contains.
+
+When we send 50 beefbucks to Bob, our tree updates: our leaf changes from 100 to 50, and the sums propagate all the way up to the root. If we tried to lie about our balance (claiming we still have 100 while also sending 50 to Bob), the Merkle proofs would be inconsistent. In other words, we cannot inflate the supply without invalidating our own proofs, effectively burning our assets in the process.
+
+### Layers of Trees: A Merkle Forest
+
+The complete data structure is not a single tree but rather a series of layers:
+
+1. **Asset level**: the bottom layer, where individual asset data (name, metadata, balances) is stored in leaves.
+2. **Group level**: above the asset level, this layer groups fungible assets together. All beefbucks minted across different rounds share the same group, making them interchangeable. This layer is what enables features like multi-tranche minting.
+3. **Bitcoin Taproot tree**: the standard Bitcoin script tree, into which the entire Merkle forest is committed.
+
+The layered structure also allows requiring [private key](https://planb.academy/resources/glossary/private-key) signatures at different levels, adding both security and flexibility in use cases. For example, a group key signature can authorize new minting rounds, while individual asset keys control transfers.
+
+![Diagram showing the three layers of the Merkle forest: Taproot tree in white, group level in orange, and asset level in blue](assets/en/003.webp)
+
+![Two-level Asset Tree showing TAP root hash with TAP leaves at top and Asset root hash with Asset leaves at bottom](assets/en/001.webp)
+
+### From Merkle Forest to Bitcoin Transaction
+
+How does all of this data actually end up on the Bitcoin blockchain? The process can be summarized in one word: **TAPTweak**.
+
+TAPD sums the entire Merkle forest up to a single root hash. That root hash is then embedded into a Bitcoin address using the taptweak mechanism we discussed earlier:
+
+$$Q = P + H(P \| c) \cdot G$$
+
+The result is a standard-looking Bitcoin Taproot output. To anyone examining the blockchain, it appears as an ordinary transaction. Only parties who possess the asset proofs (the paths through the Merkle forest) can verify that assets are embedded within it.
+
+You can visualize Taproot Assets as living inside a Bitcoin UTXO. When minting, TAPD communicates with LND (which communicates with Bitcoin Core) to create a transaction whose output contains the entire embedded Merkle forest. The inputs are regular bitcoin UTXOs funding the transaction, and the output is a Taproot address that secretly holds your entire asset tree.
+
+![Bitcoin transaction diagram showing inputs flowing to a Taproot UTXO output that contains the embedded Merkle tree structure](assets/en/004.webp)
 
 ## Taproot Assets Demo
 <chapterId>e6f3a8d1-9c2b-4e7f-b5a8-3d1c6f9e8b27</chapterId>
 
 :::video id=aa81d3c5-27a6-46a2-9f7d-5097c2aa63ec:::
 
-### Introduction to Taproot Asset Client
+### The TAPD Stack
 
-The Taproot Asset client represents a significant advancement in Bitcoin's capability to handle digital assets, and it is now publicly available for developers and enthusiasts to explore. This chapter will guide you through the complete process of downloading, installing, configuring, and operating Taproot Asset, providing you with the foundational knowledge needed to begin working with this innovative technology. As Taproot Asset continues to evolve rapidly, it's essential to approach this new technology with appropriate caution and stay updated with the latest developments and documentation.
+Now that we understand the protocol's theory, let's discover the software that implements it. The **Taproot Assets Protocol Daemon (TAPD)** is the reference implementation developed by Lightning Labs. It operates as a layer that sits between your application and LND, forming a three-tier architecture:
 
-Before diving into the installation process, you must ensure your system meets the necessary prerequisites for running Taproot Asset effectively. The most critical requirement is establishing a connection to a Lightning Network Daemon (LND) node, as Taproot Asset operates as a layer built on top of the Lightning Network infrastructure. While it's technically possible to connect Taproot Asset to a remote LND node, the simplest and most straightforward approach involves connecting it to a node running on the same machine where you plan to install Taproot Asset.
+| Layer | Role |
+|-------|------|
+| **Bitcoin Core** | Base layer: blockchain data and transaction broadcasting |
+| **LND** | Lightning layer: channel management and private key custody |
+| **TAPD** | Asset layer: Taproot tweak computation, asset tracking, proof management |
 
-For installation from source code, which provides the most flexibility and up-to-date features, you'll need Go version 1.18 or greater installed on your system. The installation process will create two primary binaries that form the core of the Taproot Asset system: the Taproot Asset daemon (taro-d) and the command-line interface tool (taro-cli). For initial experimentation and development work, connecting Taproot Asset to a regtest network via Polar provides an excellent sandbox environment where you can safely test operations without using real Bitcoin.
+This separation of concerns is deliberate. LND holds the private keys, while TAPD handles the Taproot Asset logic. Neither component oversteps its role, providing what we might call **segmented custody**.
 
-### Installation and Configuration
+TAPD ships as two binaries:
+- **`tapd`**: the daemon itself, listening on gRPC (port 10029) and REST (port 8089)
+- **`tapcli`**: the command-line interface for interacting with `tapd`
 
-The installation process begins with cloning the Taproot Asset repository from GitHub, which can be found at [github.com/lightninglabs/taro](https://github.com/lightninglabs/taproot-assets). Once you've cloned the repository to your chosen directory, navigate into the project directory and execute the `make install` command. This command handles the entire build process, compiling the Go source code and placing the resulting binaries in your system's Go path. Upon successful completion, you should have two essential binaries available: taro-d (the Taproot Asset daemon) and taro-cli (the command-line interface tool).
+### Prerequisites and Installation
 
-When you first start the Taproot Asset daemon, it automatically creates a `.taro` directory in your home directory to store all Taproot Asset-related data, including configuration files, database files, and other operational data. While the system can operate with default settings, you have the option to create a custom configuration file named `taro.conf` within the `.taro` directory to specify particular settings and preferences. The configuration file is not mandatory for basic operations, as you can provide all necessary configuration parameters directly through command-line arguments when starting the daemon.
+Before installing TAPD, you must have a working LND node connected to a Bitcoin backend. For installation from source, you will also need **Go version 1.18 or greater**. The installation process compiles the Go source and places both binaries in your system's Go path.
 
-Starting the Taproot Asset daemon requires providing several key pieces of information to establish proper communication with your LND node. The startup command must specify the network type (such as testnet), set appropriate debug levels for troubleshooting and monitoring, and provide the network address and port where LND is listening for connections. Additionally, the daemon needs to know the locations of two critical LND files: the admin macaroon, which provides authentication credentials for accessing LND's administrative functions, and the TLS certificate, which ensures secure communication between Taproot Asset and LND.
+For initial experimentation, I propose to use a **regtest network via [Polar](https://lightningpolar.com/)**. Polar provides a Docker-based sandbox environment where you can create local Lightning topologies and test TAP operations without risking real funds. This is the safest way to learn.
 
-Once properly configured and started, the Taproot Asset daemon will begin listening on its default ports, typically 10029 and 8089, for various types of connections and communications. For production environments or continuous operation, you may want to consider setting up a systemd service or configuring a crontab entry to ensure the Taproot Asset daemon starts automatically and remains running even after system restarts.
+When `tapd` starts for the first time, it creates a `.taro` directory (or `.tapd` in newer versions) in your home folder, containing its database and operational data. You can optionally create a configuration file (`tapd.conf`) in this directory, though all settings can also be passed as command-line arguments.
 
-### Asset Operations and Transfers
+Starting the daemon requires specifying the network type, the LND address and port, and the paths to two LND credential files: the admin macaroon (for authentication) and the TLS certificate (for encrypted communication). Once running, `tapd` listens on its default ports and is ready to receive commands.
 
-The process of creating new assets with Taproot Asset begins with the asset minting operation, which represents one of the most fundamental capabilities of the system. Using the taro-cli command-line tool, you can mint assets by specifying several key parameters that define the characteristics and properties of your new digital asset. The minting command requires you to specify the asset type (typically "normal" for standard assets), provide a unique name for your asset, and define the total supply or quantity of the asset you wish to create.
+### Basic Asset Operations
 
-When minting assets, you can choose to use the "skip batch" option, which instructs Taproot Asset to immediately process the minting operation rather than waiting to group multiple asset creation requests together. After successfully minting assets, you can verify the operation's success and review your asset holdings using the `assets list` command, which provides a comprehensive overview of all assets associated with your Taproot Asset instance, including details such as asset names, quantities, and other relevant metadata.
+Let's walk through the fundamental operations you will perform with `tapcli`.
 
-Taproot Asset supports various types of asset transfer operations, with the "split" operation being one of the most common and useful for everyday transactions. A split operation allows you to send a portion of your asset holdings to another party while retaining the remainder in your own wallet. To send assets to another party, you must first obtain a Taproot Asset address from the intended recipient. Unlike traditional Bitcoin addresses, Taproot Asset addresses are specifically generated for particular assets and amounts, making them unique to each transaction.
+**Minting** creates new assets. The command requires an asset type (typically `normal`), a name, and a supply. You can add the `--skip_batch` flag to process the mint immediately rather than batching multiple minting requests together. After minting, run `tapcli assets list` to verify that your new asset appears with its expected name, quantity, and metadata.
 
-The transfer process involves coordination between sender and recipient, where the sender first communicates the genesis bootstrap info key and the intended transfer amount to the recipient. The recipient then uses this information to generate a specific Taproot Asset address for receiving the exact asset and amount being transferred. Once the sender receives this address, they can execute the transfer using the `assets send` command. After completing an asset transfer, you can verify the transaction's success by using the `assets list` command again, which will reflect the updated asset balances.
+![Terminal showing JSON universe data with three assets: DemoBux, tapsouvenir, and BitcoinIsForever with their root hashes](assets/en/005.webp)
 
-For continued learning and more detailed information about Taproot Asset's capabilities, the comprehensive documentation available at [docs.lightning.engineering](https://docs.lightning.engineering/) provides extensive resources, tutorials, and technical specifications. As Taproot Asset continues to evolve and mature, staying connected with the official documentation and community resources will ensure you remain current with the latest developments and best practices in the Taproot Asset ecosystem.
+**Sending** assets requires coordination between sender and recipient. The recipient generates a TAP address by specifying the asset ID and the amount they wish to receive. An important detail: unlike standard Bitcoin addresses, **TAP addresses are unique to each specific asset and amount combination**. The sender then executes the transfer using `tapcli assets send --addr [ADDRESS]`. After on-chain confirmation, both parties can verify updated balances via `assets list`.
+
+For deeper exploration of all available commands and their parameters, the comprehensive documentation at [docs.lightning.engineering](https://docs.lightning.engineering/) remains the definitive reference.
 
 ## Tap into the Universe
 <chapterId>c9b7e4f3-5d8a-4c2e-9f6b-8a3d5e7c2b19</chapterId>
 
 :::video id=939fd065-61ec-42e0-9f19-543d7bb4f3fd:::
 
-### Taproot Assets Version 0.2: Advanced Features and Implementation
+### Version 0.2: Asset Groups and Multi-Asset Transactions
 
-Taproot Assets version 0.2 represents a significant advancement in Bitcoin's asset issuance capabilities, building upon the foundational concepts introduced in earlier versions. This release introduces sophisticated features for asset management, transaction coordination, and proof validation that enable developers to create robust applications on the Bitcoin blockchain. The Lightning Labs implementation, known as Tapd (Taproot Assets daemon), serves as the reference implementation for this protocol while maintaining the commitment to privacy and decentralization.
+Taproot Assets **version 0.2** introduces several important advances. The most notable is **asset group** functionality, which enables more flexible minting strategies.
 
-The version 0.2 release introduces sophisticated asset group functionality that enables more flexible minting strategies. Asset groups allow developers to create fungible assets across multiple minting rounds or tranches, providing greater control over asset supply management. When emission is enabled during the initial minting process, the resulting asset becomes part of an asset group that can accommodate future tranches, with each subsequent minting operation sharing the same group ID. Conversely, when emission is disabled (the default behavior), the minting process creates an asset with a permanently capped supply, ensuring that asset creators can make credible commitments about supply limitations.
+When you mint an asset with **emission enabled**, the asset becomes part of a group that can accommodate future minting rounds (or tranches). Each subsequent mint shares the same group ID, producing fungible units across multiple issuances. Conversely, when emission is **disabled** (the default), the asset's supply is permanently capped at the initial mint. This mechanism allows issuers to make credible, cryptographically enforced commitments about supply limitations.
 
-One of the powerful features of the Taproot Assets protocol is its ability to handle multiple asset types within a single Bitcoin transaction. This capability significantly improves efficiency by allowing users to transfer various assets simultaneously without requiring separate on-chain transactions for each asset type. The protocol achieves this through sophisticated commitment structures that embed multiple asset transfers within the same Bitcoin transaction outputs, reducing on-chain footprint while maintaining the security guarantees of the Bitcoin blockchain.
+Another powerful feature is the ability to include **multiple asset types within a single Bitcoin transaction**. Rather than requiring a separate on-chain transaction for each asset operation, the protocol embeds multiple asset transfers within the same transaction outputs. This significantly reduces the on-chain footprint while preserving all security guarantees.
 
-### API Architecture and PSBT Coordination
+### The Four API Services
 
-The Taproot Assets daemon provides comprehensive API access through multiple interfaces, enabling developers to integrate asset functionality into their applications using familiar tools and patterns. The API structure is organized into four primary services: the AssetWalletService manages wallet operations and asset holdings, the MintService handles all asset creation operations, the TaprootAssetService manages core protocol operations such as transfers and proof validation, and the UniverseService provides functionality for asset discovery, synchronization, and proof distribution.
+TAPD exposes its functionality through four distinct API services, each with a clear responsibility:
 
-Each service within the API architecture is designed to work cohesively while maintaining clear separation of concerns. The API design follows RESTful principles for HTTP endpoints while providing the performance benefits of gRPC for applications requiring high-throughput operations. The comprehensive nature of these APIs enables developers to build complete Taproot Assets applications without requiring direct interaction with the underlying Bitcoin infrastructure.
+| Service | Responsibility |
+|---------|---------------|
+| **AssetWalletService** | Wallet operations and asset holdings |
+| **MintService** | Asset creation and batch management |
+| **TaprootAssetService** | Core protocol operations: transfers, proof validation, address generation |
+| **UniverseService** | Asset discovery, synchronization, and proof distribution |
 
-The Taproot Assets protocol makes sophisticated use of Partially Signed Bitcoin Transactions (PSBTs) to coordinate complex multi-party operations. The implementation extends this concept through two distinct PSBT types: virtual PSBTs and anchor PSBTs. Virtual PSBTs (vPSBTs) represent an innovative extension of the standard PSBT format, specifically designed to coordinate asset-level operations between Taproot Assets daemons. These virtual transactions use the familiar PSBT structure while adding custom fields that communicate asset-specific data such as Merkle tree updates, proof information, and asset commitment details.
+These services are accessible via both gRPC (for high-throughput applications) and REST (for standard HTTP integration). The API documentation includes Python and JavaScript examples that demonstrate common workflows.
 
-Once the asset-level coordination is complete through virtual PSBTs, the parties must create an actual Bitcoin transaction to anchor their asset changes on the blockchain. This process uses standard PSBTs, referred to as anchor PSBTs in the Taproot Assets context. The anchor PSBT coordinates the creation of the Bitcoin transaction that will contain the new asset commitments, ensuring that all parties can contribute their signatures and finalize the on-chain transaction. This dual-PSBT architecture offers significant advantages for application developers by allowing them to reuse existing Bitcoin transaction handling code while providing sophisticated coordination capabilities for complex asset transfers.
+### The Dual PSBT Architecture
 
-### Universe Architecture and Proof Systems
+TAP makes sophisticated use of **Partially Signed Bitcoin Transactions ([PSBTs](https://planb.academy/resources/glossary/psbt))** to coordinate multi-party asset operations, but with an important twist: it introduces two distinct PSBT types.
 
-The Taproot Assets protocol relies heavily on cryptographic proofs to enable secure, private, and verifiable asset operations. Proofs contain comprehensive information about an asset's history, including its creation, all subsequent transfers, and the current ownership state. Each proof includes the necessary cryptographic evidence to validate the asset's authenticity and verify that all previous operations followed the protocol rules. This design enables users to independently verify asset legitimacy without requiring access to the complete blockchain history or trusted external services.
+**Virtual PSBTs (vPSBTs)** extend the standard PSBT format with custom fields for asset-level coordination between TAPD nodes. They carry asset-specific data such as Merkle tree updates, proof information, and commitment details, all wrapped in the familiar PSBT structure.
 
-The Tapd implementation provides comprehensive tools for working with proofs through various API endpoints. The query proof functionality allows applications to retrieve specific proofs from universe servers using asset identifiers or group keys. Proof import functionality allows applications to add new proofs to their local universe instances, facilitating the distribution of asset information across the network. The wallet API includes specialized endpoints for verifying asset ownership using proofs, involving checking cryptographic signatures, validating Merkle tree structures, and ensuring that all referenced Bitcoin transactions exist on the blockchain.
+Once the asset-level coordination is complete, the parties create an **anchor PSBT**: a standard Bitcoin PSBT that produces the on-chain transaction containing the new asset commitments. In other words, the virtual PSBT handles *what happens to the assets*, while the anchor PSBT handles *what happens on the blockchain*.
 
-The universe system represents a crucial infrastructure component that facilitates asset discovery and proof distribution within the Taproot Assets ecosystem. A universe can be conceptualized as serving multiple roles simultaneously: a virtual mempool for pending asset operations, an explorer for asset history, a repository for proof data, and a transaction library for completed operations. Operating a universe server is straightforward, as the functionality is built directly into the Taproot Assets daemon—any Tapd instance can serve as a universe by configuring it to listen on the appropriate RPC port and ensuring network accessibility.
+This dual architecture is a significant advantage for developers, because existing Bitcoin transaction libraries can handle the anchor PSBT without modification, while the virtual PSBT layer adds the asset-specific coordination on top.
 
-The federation concept extends the universe model to enable coordination between multiple universe servers. Each client can define its own federation, which represents a set of trusted universe servers from which it will accept asset information and proof data. Federation members periodically synchronize with each other, exchanging information about newly created assets and completed transfers. This federated approach provides redundancy, improves data availability, and enables users to choose their preferred sources of asset information while balancing decentralization with practical usability concerns.
+### Universe Roles and Federation
 
-The REST API provides practical access to universe functionality through standard HTTP endpoints, with Python and JavaScript examples demonstrating how applications can query asset information, retrieve proof data, and interact with universe servers. The comprehensive nature of the API documentation and example implementations reduces the barrier to entry for developers interested in building Taproot Assets applications, providing them with the resources necessary to create sophisticated asset management applications while leveraging the security and privacy properties of the Bitcoin blockchain.
+We briefly introduced universes in the first chapter. Let's now examine them more concretely. A universe can be understood as serving four simultaneous roles:
 
+1. **Virtual mempool**: tracking pending asset operations
+2. **Explorer**: browsing asset history and metadata
+3. **Proof repository**: storing and serving cryptographic proofs
+4. **Transaction library**: cataloguing completed asset operations
+
+Running a universe requires no special setup. Any TAPD instance can serve as a universe by configuring it to listen on the appropriate RPC port and ensuring network accessibility.
+
+The **federation** concept extends this model to enable coordination between multiple universe servers. Each client defines its own federation, a set of trusted universe servers from which it accepts asset data and proofs. Federation members periodically synchronize, exchanging information about newly created assets and completed transfers. This federated approach provides redundancy and data availability while letting users choose their preferred information sources.
+
+The API provides practical endpoints for interacting with universes: querying proofs by asset identifier or group key, importing proofs into a local universe instance, and verifying asset ownership through the wallet API. These verification operations involve checking cryptographic signatures, validating Merkle tree structures, and confirming that referenced Bitcoin transactions exist on-chain.
 
 # Initial Installation and Configuration
 <partId>f2d8c5e9-6b3a-4e7c-8d9f-1a5c3b7e9f28</partId>
@@ -161,132 +318,366 @@ The REST API provides practical access to universe functionality through standar
 <chapterId>a8e9f3b2-7c5d-4f1e-b6a9-2d8c5e3f7a31</chapterId>
 :::video id=70e894f7-3759-48fc-9fcb-a3a1b33a3214:::
 
-### Installing TAPD: A Complete Setup Guide
+### Prerequisites
 
-The Taproot Assets Protocol Daemon (TAPD) represents a significant advancement in Bitcoin's asset management capabilities, enabling users to mint, transfer, and manage assets on the Bitcoin blockchain through the Lightning Network. This comprehensive installation guide will walk you through the complete process of setting up TAPD on an Ubuntu system, from initial prerequisites to final configuration. TAPD operates as a daemon that works in conjunction with both Bitcoin Core and the Lightning Network Daemon (LND), creating a powerful stack for asset management.
+Before installing the **Taproot Assets Protocol Daemon** (TAPD), we need to ensure that three foundational components are already in place on our system:
 
-Before beginning the TAPD installation process, several critical prerequisites must be in place to ensure a successful setup. Your system must have Bitcoin Core (bitcoind) already installed and synchronized with the blockchain. For this installation, we'll be working on the Bitcoin testnet, which is the recommended approach for initial development and testing. The Lightning Network Daemon (LND) must be version 0.17 or greater to support TAPD version 0.3, as earlier versions lack the necessary features and compatibility for proper operation.
+1. **Bitcoin Core** (`bitcoind`) must be installed and fully synchronized with the blockchain. For initial development and testing, working on testnet is the recommended approach.
+2. **LND** (Lightning Network Daemon) must be version 0.17 or greater to support TAPD v0.3. If you plan to run the latest TAPD releases, LND v0.20+ is required.
+3. **Go** version 1.21 or later must be installed, as earlier versions will cause compilation errors.
 
-Installing TAPD from source requires a properly configured Go development environment with version 1.21 or later installed, as earlier versions may cause compilation errors or compatibility issues. The installation process also requires appropriate system permissions and a non-root user account for security best practices. TAPD offers several installation approaches: source installation provides the most flexibility and ensures you're working with the latest code, while binary installations offer convenience and speed for production deployments.
+These three services form the stack on which TAPD operates: Bitcoin Core provides the base layer, LND provides the Lightning layer, and TAPD manages the Taproot asset logic on top of both. In other words, TAPD never touches private keys directly; it delegates all signing to LND, which itself relies on Bitcoin Core for on-chain data.
 
-### Step-by-Step Installation and Configuration
+### Building from Source
 
-The installation process begins with obtaining the TAPD source code and preparing the build environment. Navigate to your user's home directory and clone the TAPD repository from the official Lightning Labs GitHub. After cloning, it's essential to checkout the specific version you want to install rather than using the development branch, which may contain unstable or experimental features. For this installation, we'll use version 0.3.0, which represents a stable release with full mainnet compatibility.
+Let's now walk through the compilation process step by step.
 
-The compilation process uses Go's built-in build system through the provided Makefile. The `make install` command handles all compilation steps, dependency resolution, and binary installation automatically. During compilation, the build system creates two primary binaries: `tapd` (the main daemon) and `tapcli` (the command-line interface). These binaries are installed in your Go binary directory, typically located at `$HOME/go/bin/`.
+1. Clone the official repository:
 
-Proper configuration is crucial for TAPD operation, as the daemon must communicate with both Bitcoin Core and LND while providing its own API endpoints. While TAPD can be started directly from the command line with all parameters specified as flags, creating a dedicated configuration file provides a more maintainable and error-resistant approach. The configuration file should be placed in the TAPD data directory, which must be created before first startup. Essential configuration parameters include network specification (testnet for development, mainnet for production), debug logging levels, LND connection details, and API endpoint definitions.
+```bash
+git clone https://github.com/lightninglabs/taproot-assets.git
+```
 
-Security configuration involves specifying the correct paths to LND's TLS certificate and macaroon files. These files provide the cryptographic credentials necessary for secure communication between TAPD and LND. The paths must be accurate and accessible to the user account running TAPD, as incorrect paths will prevent daemon startup.
+2. Enter the directory and checkout the stable version you wish to install. Always use a tagged release rather than the development branch:
 
-### System Integration and Verification
+```bash
+cd taproot-assets
+git checkout v0.3.0
+```
 
-Integrating TAPD as a system service ensures reliable operation, automatic startup, and proper dependency management. Creating a systemd service file enables automatic TAPD startup, proper dependency ordering, and integration with system logging and monitoring tools. The service file must specify the correct binary path, user account, and dependency relationships with other services. Most importantly, the service must be configured to start only after LND is fully operational, as TAPD depends on LND's API services.
+3. Compile and install the binaries:
 
-The systemd configuration should include appropriate restart policies to handle temporary failures and ensure service availability. Setting a reasonable startup delay after LND initialization helps prevent race conditions during system boot or service restart scenarios. Once the systemd service is configured and enabled, standard systemd commands provide complete service lifecycle management. Proper service integration also enables automatic startup during system boot, ensuring that your TAPD installation remains operational even after system restarts or power cycles.
+```bash
+make install
+```
 
-After completing the installation and configuration process, thorough verification ensures that all components are working correctly. The first verification step involves confirming that all required services are running correctly—your system should show Bitcoin Core, LND, and TAPD all in active states with no error conditions. Beyond basic service status, verification should include testing TAPD's API responsiveness and network connectivity. The TAPD CLI provides tools for basic functionality testing and can confirm that the daemon is properly connected to both the Bitcoin network and Lightning Network.
+This command handles dependency resolution and compilation automatically. It produces two binaries installed in your Go binary directory (typically `$HOME/go/bin/`):
+- `tapd`, the main daemon;
+- `tapcli`, the command-line interface for interacting with it.
 
-Alternative approaches may be more suitable for specific use cases. Binary installations eliminate the need for development tools and reduce installation time significantly. Lightning Terminal (LitD) provides an integrated approach that combines all Lightning Labs services into a single package, simplifying deployment and management while providing a unified interface for all Lightning Network operations.
+![Terminal showing go version check and git clone of the taproot-assets repository](assets/en/006.webp)
 
-The most frequent installation problems relate to Go version compatibility, incorrect file paths, or permission issues. Comprehensive documentation is available at docs.lightning.engineering, providing detailed information about configuration options, API usage, and troubleshooting procedures. For real-time assistance, the Lightning Labs Slack community provides direct access to developers and experienced users who can offer guidance and support.
+### Configuration
+
+TAPD needs to know how to reach LND and on which network to operate. While you can pass every parameter as a CLI flag at startup, creating a dedicated configuration file is far more maintainable. TAPD looks for its config in the `.tapd` directory under your home folder.
+
+1. Create the data directory:
+
+```bash
+mkdir -p ~/.tapd
+```
+
+2. Create and edit the configuration file `~/.tapd/tapd.conf`. A minimal example for testnet:
+
+```ini
+network=testnet
+debuglevel=debug
+
+lnd.host=localhost:10009
+lnd.macaroonpath=~/.lnd/data/chain/bitcoin/testnet/admin.macaroon
+lnd.tlspath=~/.lnd/tls.cert
+```
+
+The two security-critical paths here are the **TLS certificate** and the **macaroon file**. These provide the cryptographic credentials for authenticated, encrypted communication between TAPD and LND. If either path is incorrect, the daemon will refuse to start.
+
+By default, TAPD listens on two ports:
+- **gRPC**: `10029`
+- **REST**: `8089`
+
+### Systemd Integration for Production
+
+For production deployments, we want TAPD to start automatically, restart on failure, and launch only after LND is ready. A systemd service file achieves all three.
+
+Create `/etc/systemd/system/tapd.service`:
+
+```ini
+[Unit]
+Description=Taproot Assets Daemon
+After=lnd.service
+Requires=lnd.service
+
+[Service]
+User=youruser
+ExecStart=/home/youruser/go/bin/tapd
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Then enable and start the service:
+
+```bash
+sudo systemctl enable tapd
+sudo systemctl start tapd
+```
+
+The `After=lnd.service` directive ensures TAPD waits for LND to initialize first, preventing race conditions at boot.
+
+![Terminal showing tapd startup logs including TLS certificate generation, ChainPlanter, and FederationEnvoy](assets/en/007.webp)
+
+![Terminal showing lsof output with bitcoind, lnd, and tapd all listening on their respective ports](assets/en/008.webp)
+
+### Alternatives
+
+Compiling from source offers full control, but two other installation paths exist. Pre-built binaries are available from the Lightning Labs releases page, eliminating the need for a Go toolchain entirely. For an even more integrated approach, **Lightning Terminal (LitD)** bundles TAPD alongside LND and several other services into a single package. We will explore LitD in detail in chapter 3.3.
 
 ## Prototype with Polar
 <chapterId>d5c7f8e3-9a2b-4e6c-8f1d-3b9e5a7c4d32</chapterId>
 :::video id=30cca1f1-d4c8-4d9b-88d0-d8e9e4f4986b:::
 
-### Setting Up TAPD with Polar Development Environment
+### Why Polar?
 
-The TAP Root Assets Daemon (TAPD) Demo Series provides developers with comprehensive guidance for working with Taproot assets, covering everything from initial installation through asset minting, transferring, and burning operations. This chapter focuses specifically on utilizing Polar as a development environment for TAPD experimentation and testing. Polar represents a powerful solution for Bitcoin and Lightning Network development, offering one-click deployment of complete network environments for local application development and testing.
+Before deploying TAPD on testnet or mainnet, it is wise to experiment in a fully local environment where mistakes cost nothing and block confirmations happen on demand. This is exactly what **Polar** provides.
 
-Polar serves as a comprehensive development environment that supports Mac, Windows, and Linux operating systems. The application functions as a Docker-based solution, requiring Docker to be installed and properly configured on the development machine. The application operates by creating local simulations of Bitcoin and Lightning Network environments, utilizing the same software components that would run on testnet or mainnet deployments. This approach ensures that development work translates directly to production environments while providing the safety and convenience of local testing.
+[Polar](https://lightningpolar.com/) is a Docker-based desktop application for Mac, Windows, and Linux that lets you spin up complete Bitcoin and Lightning Network topologies with a few clicks. It uses the same software that runs on mainnet (Bitcoin Core, LND, TAPD), so everything you learn in Polar translates directly to production. The only prerequisite is having **Docker** installed and running on your machine.
 
-Creating a functional TAPD development environment begins with establishing a basic Lightning Network topology. A typical setup requires at least two Lightning Network Daemon (LND) nodes, as TAPD specifically requires LND as its underlying Lightning implementation. The network topology also necessitates at least one Bitcoin Core backend node, which serves as the foundation for all blockchain operations. This backend provides the essential infrastructure for embedding Taproot asset data into the Bitcoin blockchain, maintaining the security and immutability characteristics that make Taproot assets viable.
+![Polar application landing page showing the Create a Lightning Network button](assets/en/009.webp)
 
-### Configuring Nodes and API Access
+### Setting Up the Network
 
-Once the basic Lightning Network infrastructure is established, TAPD nodes can be integrated into the topology through Polar's intuitive drag-and-drop interface. Each LND node requires a corresponding TAPD node to handle Taproot asset operations. This pairing creates a complete environment where Lightning Network functionality coexists with Taproot asset capabilities, enabling comprehensive testing of asset-related operations within Lightning channels. The initial network startup process may require several minutes on first execution, as Docker downloads the necessary container images for all network components.
+A functional TAPD development environment requires a minimum topology:
 
-Proper environment configuration begins with enabling auto-mining functionality, which eliminates the need for manual block generation during development and testing. This feature proves particularly valuable during asset minting operations, which require blockchain confirmations to complete successfully. Node funding represents another critical configuration step, as asset minting operations require on-chain Bitcoin transactions. Polar simplifies this process by providing built-in funding mechanisms that automatically generate the necessary Bitcoin balances for development purposes.
+1. At least **1 Bitcoin Core** backend node for blockchain operations.
+2. At least **2 LND nodes**, since TAPD requires LND as its Lightning implementation, and testing transfers requires two distinct endpoints.
+3. **1 TAPD node per LND node**, paired through Polar's drag-and-drop interface.
 
-Each node within the Polar environment provides comprehensive connection information, including details for both REST and gRPC API access. This information includes network addresses, port configurations, and authentication credentials necessary for external applications to interact with the nodes. The system automatically generates TLS certificates and macaroon files required for secure API communication. The connection information proves essential for developers building applications that interact with TAPD nodes programmatically, enabling secure and authenticated communication with all network components.
+Once the network is created, the first startup may take several minutes as Docker downloads the container images. After that, subsequent launches are nearly instant.
 
-### Asset Operations and Development Workflow
+![Polar showing the full Tapd Demo network running with alice-tap, bob-tap, alice, bob, and backend1 nodes all connected](assets/en/010.webp)
 
-TAPD provides comprehensive API access through both REST and gRPC interfaces, enabling developers to integrate Taproot asset functionality into applications using their preferred programming languages and frameworks. Initial exploration typically begins with basic asset listing operations, which query nodes for their current asset holdings. Newly created nodes naturally return empty asset lists, providing a clean starting point for experimentation.
+Two configuration steps are essential before you begin experimenting:
 
-Asset minting represents one of the most fundamental TAPD operations, enabling the creation of new Taproot assets with specified quantities and characteristics. The minting process involves two distinct phases: batch creation and batch finalization. During batch creation, the system prepares all necessary data structures and cryptographic commitments required for asset creation, but does not yet commit this information to the blockchain. The batch finalization phase completes the minting process by embedding the prepared asset data into Bitcoin blockchain transactions.
+1. **Enable auto-mining.** TAPD operations (minting, sending, burning) all require on-chain confirmations. Auto-mining ensures blocks are produced automatically so you do not have to trigger them manually each time.
+2. **Fund your nodes.** Asset minting creates on-chain transactions that consume bitcoin. Polar provides built-in funding mechanisms that generate testnet balances for your nodes automatically.
 
-Following successful asset minting and blockchain confirmation, developers can verify their operations by querying node asset lists and examining detailed asset information. This verification process confirms that assets have been properly created and are available for subsequent operations such as transfers or burns. The detailed asset information includes all relevant metadata, ownership details, and transaction history associated with each asset. The verification process also demonstrates the integration between TAPD operations and the underlying Bitcoin blockchain, showing how Taproot asset data is embedded within Bitcoin transactions while maintaining the security characteristics of the base layer.
+### Credentials and API Access
 
-Effective TAPD development using Polar follows a structured workflow that begins with network setup and progresses through increasingly complex operations. Troubleshooting and support resources play a crucial role in the development process, with the Polar project repository serving as a primary resource for resolving common issues and configuration challenges. The Lightning Labs community, accessible through various channels including Slack, provides additional support and collaboration opportunities for developers working with TAPD and related technologies.
+Each node in Polar exposes connection details for both REST and gRPC access, including network addresses, port numbers, and authentication credentials. The system automatically generates the **TLS certificates** and **macaroon files** required for secure API communication. You will find these credentials in each node's detail panel within the Polar interface.
+
+### Testing Your First Mint
+
+With the network running and nodes funded, we can verify the setup by performing a basic mint operation. As we saw in Part 2, minting in TAPD involves two distinct phases:
+
+1. **Batch creation**: TAPD prepares all necessary data structures and cryptographic commitments, but does not yet write anything to the blockchain.
+2. **Batch finalization**: the prepared asset data is embedded into a Bitcoin transaction and confirmed on-chain (handled automatically by auto-mining).
+
+After finalization and block confirmation, query your node's asset list to verify the mint succeeded. An empty result before minting and a populated result afterward confirms that your entire stack, from Bitcoin Core through LND to TAPD, is functioning correctly.
+
+Polar is an excellent sandbox for all the operations we will cover in Part 4 (minting, sending, burning) without risking real funds or waiting for real block times.
+
+![Polar alice-tap node showing Taproot Assets v0.3.0-alpha with zero assets on a fresh node](assets/en/011.webp)
+
+![Polar TAP Asset Info panel showing Alice Coin with Balance 100000 and Type NORMAL](assets/en/012.webp)
 
 ## Launch with Litd
 <chapterId>b7f9a2c5-8e3d-4b7a-9c6f-5d2e8a3b1f43</chapterId>
 
 :::video id=c488fe53-5110-4e43-8b9c-7773d9969078:::
 
-### Installing TAPD via Lightning Terminal from Source
+### What LitD Bundles
 
-Lightning Terminal (LitD) represents a comprehensive solution for running multiple Lightning Labs services in an integrated environment. When installing TAPD through LitD, you gain access to not just the Taproot Assets daemon, but also LND, Loop, Pool, and Faraday all running together seamlessly. This integrated approach eliminates the complexity of managing separate installations and configurations for each service, making it an ideal choice for users who want a complete Lightning Network and Taproot Assets setup.
+**Lightning Terminal** (LitD) is Lightning Labs' integrated daemon that bundles five services into a single binary:
 
-Before beginning the installation process, several prerequisites must be satisfied to ensure a successful build from source. The system requires recent versions of Go, Node.js, and Yarn, as these are essential for compiling the various components that make up the LitD suite. The demonstration environment consists of an Ubuntu server running BitcoinD on the testnet, which provides a realistic testing environment that mirrors production setups while using testnet Bitcoin to avoid any risk to real funds.
+- **LND** for Lightning Network operations;
+- **TAPD** for Taproot Assets;
+- **Loop** for submarine swaps between on-chain and off-chain;
+- **Pool** for Lightning channel liquidity marketplace;
+- **Faraday** for channel analytics and recommendations.
 
-The installation process begins with cloning the Lightning Terminal repository from GitHub at `github.com/lightninglabs/lightning-terminal.git`. After cloning, it's important to check out the latest stable version rather than using the development branch, as this ensures you're working with tested, stable code. The compilation process utilizes the standard Go build system through the `make install` command, compiling not only the LitD daemon itself but also all the integrated services including LND, TAPD, Loop, Pool, and Faraday.
+This integrated approach eliminates the complexity of managing separate installations and configurations for each service. Instead of five config files, five systemd units, and five sets of credentials, you manage one. This is why LitD is often the preferred path for users who want a complete Lightning and Taproot Assets stack without assembling each component individually.
 
-### Configuration and Wallet Setup
+### Prerequisites and Installation
 
-Proper configuration is crucial for LitD operation, beginning with creating a dedicated configuration directory `.lit` in the user's home directory. Within this directory, the `lit.conf` file contains all necessary configuration parameters for the integrated services. Key configuration elements include network selection (testnet or mainnet), backend Bitcoin node configuration, authentication settings, and service-specific parameters. The integrated mode setting is particularly important as it tells LitD to manage all services internally rather than connecting to external instances.
+Building LitD from source requires three tools: **Go**, **Node.js**, and **Yarn**. Ensure all three are installed before proceeding.
 
-The Bitcoin backend configuration represents one of the most critical aspects of the setup. When using BitcoinD as the backend, the configuration must specify the RPC connection details, including the host address, port, username, and password. Alternative backend configurations are possible, such as using Neutrino for a lighter-weight setup, which eliminates the need for a full Bitcoin node by using compact block filters but comes with trade-offs in terms of privacy and verification guarantees.
+1. Clone the Lightning Terminal repository:
 
-Security considerations are paramount when configuring LitD, particularly regarding wallet management. The configuration includes provisions for automatic wallet unlocking, which involves creating a secure password file and enabling the auto-unlock feature. The first startup of LitD requires wallet creation through the `lncli create` command, during which you'll receive a [seed phrase](https://planb.academy/resources/glossary/seed) that serves as the ultimate backup for the wallet. This phrase can restore the wallet and all associated funds, making it essential to record it securely.
+```bash
+git clone https://github.com/lightninglabs/lightning-terminal.git
+```
 
-### Service Integration and Verification
+2. Checkout the latest stable release:
 
-Once LitD is running with a created wallet, verification of proper operation becomes essential. The `litcli status` command provides an overview of all running services and their current state, offering a quick health check for the entire system. Individual service testing involves using their respective CLI tools to perform basic operations—for LND, checking node information and sync status; for TAPD, querying for existing assets and verifying connectivity to universe servers.
+```bash
+cd lightning-terminal
+git checkout v0.13.0
+```
 
-For production deployments, proper system integration through SystemD ensures reliable service management and automatic startup. Creating a SystemD service file for LitD involves defining the service dependencies, startup commands, and restart policies. The service should be configured to start after BitcoinD to ensure the Bitcoin backend is available when LitD initializes. Once the service file is created and enabled, SystemD manages the LitD process lifecycle, including automatic startup on system boot and restart on failure.
+3. Compile everything:
 
-The final verification step involves testing TAPD's connectivity to universe servers, which are essential for asset discovery and verification. Testing universe connectivity confirms that TAPD can properly communicate with external services and participate in the broader Taproot Assets ecosystem. This involves listing connected universes and potentially adding new ones to verify the networking and protocol implementation. The successful completion of these tests indicates that the installation is complete and ready for use in minting, transferring, and managing Taproot Assets.
+```bash
+make install
+```
+
+This single command compiles LitD along with all bundled services (LND, TAPD, Loop, Pool, Faraday). The resulting binaries are placed in your Go path.
+
+### Configuration
+
+LitD reads its configuration from `~/.lit/lit.conf`. Create this directory and file:
+
+```bash
+mkdir -p ~/.lit
+```
+
+A minimal `lit.conf` for testnet with a Bitcoin Core backend:
+
+```ini
+network=testnet
+lnd-mode=integrated
+
+bitcoind.rpchost=127.0.0.1
+bitcoind.rpcuser=yourrpcuser
+bitcoind.rpcpass=yourrpcpassword
+bitcoind.zmqpubrawblock=tcp://127.0.0.1:28332
+bitcoind.zmqpubrawtx=tcp://127.0.0.1:28333
+```
+
+The `lnd-mode=integrated` setting tells LitD to manage LND internally rather than connecting to an external instance.
+
+![Terminal showing lit.conf configuration file in vim with lnd-mode integrated and bitcoin backend settings](assets/en/013.webp)
+
+As a lighter-weight alternative, you can use **Neutrino** instead of Bitcoin Core. Neutrino relies on compact block filters and does not require a full node, but this comes with trade-offs in privacy and verification guarantees.
+
+### Wallet Creation
+
+On first startup, LitD requires you to create a wallet through LND's CLI:
+
+```bash
+lncli create
+```
+
+This command will generate a [seed phrase](https://planb.academy/resources/glossary/seed) that serves as the ultimate backup for your wallet. Record it securely. This phrase can restore the wallet and all associated funds.
+
+For production environments, you can enable automatic wallet unlocking by storing the password in a secure file and referencing it in `lit.conf`:
+
+```ini
+lnd.wallet-unlock-password-file=/path/to/password.txt
+```
+
+### Verification
+
+Once LitD is running, verify that all services are operational:
+
+```bash
+litcli status
+```
+
+This command displays the state of every bundled service. You should see LND, TAPD, Loop, Pool, and Faraday all reporting as active.
+
+![Terminal showing litcli status output with all five services reporting as SERVER_ACTIVE](assets/en/014.webp)
+
+### Systemd for Production
+
+As with standalone TAPD, a systemd service ensures LitD starts at boot and restarts on failure. The key difference is the dependency: LitD depends on `bitcoind`, not on a separate LND service (since LND is bundled inside).
+
+```ini
+[Unit]
+Description=Lightning Terminal Daemon
+After=bitcoind.service
+
+[Service]
+User=youruser
+ExecStart=/home/youruser/go/bin/litd
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ## Join a Universe Federation
 <chapterId>e3d8b6f4-7c9a-4e2b-8f5c-9a1d3e6b7c54</chapterId>
 :::video id=42e7cc5c-18cf-47b0-9d42-879f14733cd5:::
 
-### Dicovering Universe Concepts
+### What Is a Universe?
 
-In the Taproot Assets ecosystem, a universe serves as a fundamental data storage mechanism that enables nodes to share and synchronize asset information across the network. A universe functions like a library storing books with taproot asset data and proofs, operates similarly to a block explorer with searchable records, or resembles a GitHub repository hosting distributed data.
+In the Taproot Assets ecosystem, a **universe** is a data store that holds asset proofs and metadata. It functions like a block explorer, but specialized for Taproot Assets: it stores the off-chain proof data that TAP clients need to discover, verify, and transfer assets. You can think of it as a Git repository, but for asset proofs rather than code.
 
-When you initialize a TAPD (Taproot Assets Daemon) node, it automatically includes its own universe data store. The true power emerges when nodes connect to share data with other universes across the network. Adding another TAPD node's universe and establishing data sharing relationships is called "adding a universe to your federation" - your node's collection of trusted universe connections for accessing and synchronizing asset data from multiple sources.
+Every TAPD node automatically includes its own local universe. When you mint an asset, the proof data is written to this local store. But the real power emerges when nodes connect their universes to share data with each other. This is what we call a **federation**: your node's collection of trusted universe connections for accessing and synchronizing asset data from multiple sources.
 
-### Managing Universe Federations via CLI
+![Terminal showing the full tapd.conf configuration file with network, debug, and LND connection settings](assets/en/016.webp)
 
-The command-line interface provides comprehensive federation management tools. The `tapcli universe federation list` command shows how many universes your node connects with, typically displaying at least one default universe that connects automatically upon startup.
+### Managing Federations via CLI
 
-Adding universes requires specifying the target universe's location using `tapcli universe federation add` followed by the network address. This user-controlled process allows strategic connections to universes serving specific needs. For example, connecting to a trading partner's universe enables access to relevant asset data and proofs for successful transactions.
+Let's discover together how to manage universe federations using the command line.
 
-Periodic synchronization via `tapcli universe sync` ensures your local universe contains the most recent asset data from connected universes - particularly important in active trading scenarios. The `tapcli universe roots` command reveals all assets your universe has discovered through federation connections, providing a comprehensive view of the accessible taproot asset ecosystem. Federation management remains flexible with the ability to remove universes using `tapcli universe federation delete`.
+**List your current federation:**
 
-### API-Based Universe Management
+```bash
+tapcli universe federation list
+```
 
-Working with universes through the API requires proper TAPD node REST interface configuration and security practices. The REST API enables programmatic access to all universe management functions for custom applications and automated workflows. Configuration involves setting the `restlisten` parameter to specify which network interfaces accept API connections.
+A freshly started node typically shows at least one default universe that connects automatically at startup.
 
-Security considerations are paramount, requiring careful implementation of authentication mechanisms using macaroon files for granular permission control. The TLS certificate system ensures encrypted communication, protecting sensitive data from network interception.
+**Add a new universe:**
 
-Python scripts for universe management typically import the requests module, configure connection parameters including REST host address, authentication macaroons, and TLS certificates. Adding universes involves POST requests to the `universe/federation` endpoint with properly formatted target universe location data.
+```bash
+tapcli universe federation add --addr=<universe_network_address>
+```
 
-The API provides rich statistics through endpoints like `universe/stats`, returning comprehensive data about asset awareness and federation status. These metrics help monitor your node's network integration, identify synchronization issues, reveal asset diversity growth, and provide insights into activity patterns influencing trading decisions.
+This is a user-controlled process. You choose which universes to connect to based on your specific needs.
 
-### Practical Applications and Best Practices
+**Synchronize with your federation:**
 
-Universe management serves various purposes from simple asset discovery to complex multi-party trading arrangements. Asset exchanges represent common use cases where parties need access to each other's asset data for verification, validation, and successful transfers. Adding relevant universes ensures access to necessary transaction information.
+```bash
+tapcli universe sync
+```
 
-Best practices include maintaining a curated federation serving specific needs rather than connecting to every available universe, which could overwhelm your node and create security exposure. Regular synchronization schedules ensure data currency without excessive network overhead. Periodic federation review allows removal of inactive or irrelevant connections.
+This pulls the latest asset data from all connected universes into your local store.
 
-The combination of CLI and API access provides operational flexibility - CLI commands for manual administration and testing, API integration for automated workflows and applications. Understanding both approaches ensures choosing the most appropriate method for each universe management task while maintaining consistent operational practices across your taproot asset infrastructure.
+![Terminal showing tapcli universe federation list with two servers and a universe sync command](assets/en/015.webp)
 
-# First Mints and Transactions
+**Discover available assets:**
+
+```bash
+tapcli universe roots
+```
+
+This command reveals all assets your universe has discovered through its federation connections.
+
+**Remove a universe:**
+
+```bash
+tapcli universe federation delete --addr=<universe_network_address>
+```
+
+### API-Based Federation Management
+
+For applications that need to manage federations programmatically, TAPD exposes full universe functionality through its REST API.
+
+**Add a universe via REST:**
+
+```bash
+curl -X POST https://localhost:8089/v1/taproot-assets/universe/federation \
+  --cacert ~/.tapd/tls.cert \
+  --header "Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 ~/.tapd/data/testnet/admin.macaroon)" \
+  -d '{"servers": [{"host": "universe.example.com", "id": 0}]}'
+```
+
+**Query federation statistics:**
+
+```bash
+curl https://localhost:8089/v1/taproot-assets/universe/stats \
+  --cacert ~/.tapd/tls.cert \
+  --header "Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000 ~/.tapd/data/testnet/admin.macaroon)"
+```
+
+The stats endpoint returns data about asset awareness, synchronization status, and federation health.
+
+![Terminal showing universe-stats output: 303 total assets, 26 groups, and 4737 proofs](assets/en/017.webp)
+
+### Best Practices
+
+I propose to close this chapter with a few operational guidelines for universe federation management:
+
+- **Curate rather than collect.** Connect to universes that serve your specific needs. Connecting to every available universe creates unnecessary network overhead.
+- **Synchronize on a regular schedule.** Periodic `universe sync` calls ensure your local data stays current without excessive polling.
+- **Review your federation periodically.** Remove inactive or irrelevant connections.
+- **Use CLI for administration, API for automation.** Manual operations are best done through `tapcli`, while production workflows should use the REST or gRPC APIs.
+
+# Asset Operations
 <partId>c4d0776e-870b-11f0-86c9-8fee09142fba</partId>
 
 ## Mint from the CLI
@@ -294,389 +685,648 @@ The combination of CLI and API access provides operational flexibility - CLI com
 
 :::video id=3bc078b4-183d-4970-b63e-66862a452566:::
 
-### Transferring Taproot Assets via Command Line Interface
+### Understanding the Minting Operation
 
-This guide demonstrates transferring Taproot assets between nodes using the CLI, building on our previous minting operations. We'll use a two-node setup—Alice and Bob—to illustrate the complete transfer workflow within the Taproot Assets Protocol Daemon (TAPD) ecosystem.
+Now that our environment is properly configured, we can begin working with the core operations of the [Taproot](https://planb.academy/resources/glossary/taproot) Assets Protocol. The first of these operations is **minting**, which is the act of creating brand-new assets on the Bitcoin [blockchain](https://planb.academy/resources/glossary/blockchain). Let's discover together how this process works from the command line.
 
-Unlike traditional centralized systems that update databases, Taproot asset transfers leverage Bitcoin's blockchain infrastructure while maintaining efficiency and privacy benefits. This ensures cryptographically secure, verifiable transfers while preserving Bitcoin's decentralized nature.
+Minting a Taproot asset means embedding asset data into a Bitcoin Taproot transaction. When we mint, we define the fundamental properties of our new asset: its name, its total supply, and whether additional units can ever be created in the future. The result is a unique digital asset whose existence is anchored to Bitcoin's [proof-of-work](https://planb.academy/resources/glossary/proof-of-work) security. In other words, minting is the genesis moment of an asset's life, the point where it begins to exist within the protocol.
 
-### Node Configuration and Universe Federation
+Before we can mint, our TAPD node must be running and properly connected to an LND node with confirmed on-chain funds. The minting transaction will consume a Bitcoin [UTXO](https://planb.academy/resources/glossary/utxo) to anchor the new asset data into the blockchain.
 
-Our demonstration uses two distinct nodes: Alice (primary node on Ubuntu) and Bob (older testnet configuration). Both maintain full TAPD functionality and participate in a universe federation—a critical requirement for successful transfers.
+### The Batch System
 
-The universe system enables nodes to share asset metadata and maintain synchronized information about available assets. Without this shared understanding, receiving nodes would lack the necessary information to properly request and validate incoming transfers. This federation approach eliminates manual coordination of asset metadata between parties. Instead of Alice separately communicating asset details to Bob, the universe system ensures Bob's node automatically maintains awareness of available assets, significantly streamlining the transfer process while maintaining security standards.
+An important concept to understand before minting is the **batch system**. By default, `tapcli` does not immediately broadcast a minting transaction when you issue a mint command. Instead, it places your minting request into a **batch**, a queue of pending asset creations that will all be finalized together in a single on-chain transaction.
 
-### Asset Transfer Workflow
+This design has a practical purpose. Since each minting transaction requires an on-chain Bitcoin transaction (and therefore a mining fee), batching allows you to create multiple distinct assets while paying only one transaction fee.
 
-Before initiating transfers, we verify Alice's current holdings: 200 CLI demo tokens and a reduced quantity of API demo tokens (having previously transferred 10 to another party). This existing transfer history demonstrates accurate balance tracking across multiple transactions.
+The minting workflow therefore follows two phases:
 
-The verification process examines both quantity and specific batch information for each asset type. Each asset carries unique identifying information, including an asset ID that serves as the primary reference for all transfer operations—functioning like a unique identifier in traditional databases but within the Taproot protocol's cryptographic framework.
+1. **Batch creation**: you add one or more asset definitions to the pending batch.
+2. **Batch finalization**: you instruct TAPD to construct and broadcast the Bitcoin transaction that anchors all queued assets on-chain.
 
-The transfer begins with Bob generating a specialized address containing all information Alice needs. Bob uses the command: `tapcli address new --asset_id [ASSET_ID] --amt [AMOUNT]`. The asset ID specifies which asset Bob wishes to receive, while the amount indicates the desired quantity. In our demonstration, Bob requests 10 API demo tokens.
+If you prefer to skip batching and mint an asset immediately, you can append the `--skip_batch` flag.
 
-Upon execution, Bob's node produces an encoded TAPD address—a lengthy string containing destination information, cryptographic proofs, and validation data required for secure transfer. The transmission of this address from Bob to Alice occurs outside the TAPD protocol, typically at the application layer. This design maintains flexibility in communication while ensuring standardized, secure cryptographic operations.
+### Minting Your First Asset
 
-With Bob's encoded address, Alice executes: `tapcli assets send --addr [ENCODED_ADDRESS]`. This command instructs Alice's node to construct and broadcast the on-chain transaction transferring the specified assets to Bob. Despite complex behind-the-scenes operations—Bitcoin transaction construction, cryptographic proof generation, and network coordination—the CLI interface presents a simple command structure.
+To create a new asset, we use the `tapcli assets mint` command:
 
-Upon successful execution, Alice's node provides comprehensive transfer information, including cryptographic proofs transmitted to Bob's node. These proofs serve as verifiable evidence, allowing Bob to independently confirm legitimate asset transfer. The system generates an on-chain transaction ID verifiable through standard Bitcoin block explorers.
+```bash
+tapcli assets mint --type normal --name "MyToken" --supply 200 --skip_batch
+```
 
-This proof generation represents a critical security feature. Rather than requiring trust between parties, the system generates mathematical proofs independently verifiable by any participant, maintaining Bitcoin's trustless nature while enabling sophisticated asset transfers.
+Let's examine each parameter:
 
-### Transfer Verification and Technical Considerations
+- `--type normal`: specifies a **fungible** asset (as opposed to a collectible).
+- `--name "MyToken"`: the human-readable name for our asset.
+- `--supply 200`: the number of units to create.
+- `--skip_batch`: finalize and broadcast immediately.
 
-The `tapcli assets transfers` command provides comprehensive data about all node transfers, including status, proof data, and transaction details—invaluable for troubleshooting or monitoring node activity.
+![Terminal showing tapcli assets list returning empty then tapcli assets mint with CLIdemobux and BATCH_STATE_PENDING](assets/en/018.webp)
 
-Transfer verification requires patience as the system awaits on-chain confirmation before updating balances. This ensures proper recording on the Bitcoin blockchain with sufficient security through [proof-of-work](https://planb.academy/resources/glossary/proof-of-work) consensus. The process typically requires one or more blocks after transaction inclusion. During this period, transfers exist in pending state, with final confirmation occurring after required blocks are added.
+To batch multiple assets instead, omit `--skip_batch` and finalize later with:
 
-Following successful confirmation, both nodes update their balances automatically. Alice's API demo tokens reduce from 100 to 90, while Bob receives 10 new tokens. This automatic reconciliation occurs without manual intervention, demonstrating the system's ability to maintain accurate state across distributed nodes.
+```bash
+tapcli assets mint finalize
+```
 
-Successful transfers depend heavily on proper universe federation configuration and synchronization. Nodes must maintain current asset information to facilitate smooth operations. The universe system operates continuously in the background, updating asset information and maintaining synchronization with federated nodes. This ongoing process requires minimal user intervention but represents a critical component of the overall architecture.
+![Terminal showing tapcli assets mint finalize with BATCH_STATE_BROADCAST and batch_txid](assets/en/019.webp)
 
-Users should expect brief delays between transfer execution and balance updates as the system awaits blockchain confirmations. This fundamental security feature prevents various attack vectors while maintaining compatibility with Bitcoin's security model. Ensure nodes maintain proper connectivity to relevant universe federations for seamless operations.
+### Expandable Supply with Grouped Assets
 
-The transfer system exemplifies sophisticated engineering underlying the Taproot Assets Protocol, combining Bitcoin's security with efficient asset management. By abstracting complex cryptographic operations behind simple CLI commands, the system makes advanced functionality accessible while maintaining fundamental security and decentralization principles.
+By default, once an asset is minted, its supply is fixed forever. However, the protocol provides a mechanism for assets that need expandable supply (for example, a stablecoin).
+
+This is achieved with the `--new_grouped_asset` flag (previously `--enable_emission`). When included during the initial mint, TAPD creates an **asset group** with a group key. Future minting operations can reference this group key to add new units:
+
+```bash
+tapcli assets mint --type normal --name "ExpandableToken" --supply 1000 --new_grouped_asset --skip_batch
+```
+
+Assets minted within the same group share a common group identifier, making them fungible with one another even though they were created in separate events.
+
+![Terminal showing mint command with group_key flag to add units to an existing asset group](assets/en/020.webp)
+
+### Verification and the Genesis Outpoint
+
+After on-chain confirmation, verify your newly created assets:
+
+```bash
+tapcli assets list
+```
+
+Each asset is identified by a unique **asset ID** derived from the [SHA-256](https://planb.academy/resources/glossary/sha256) hash of the genesis outpoint, the asset tag, and the asset metadata. The **genesis outpoint** is the Bitcoin transaction output that anchored the asset's creation, the unique fingerprint that allows any node to trace the asset back to its exact moment of birth.
 
 ## Mint from the API
 <chapterId>a9d7e5f8-3c6b-4e9a-8f2d-6b1c3a9e5d87</chapterId>
 
 :::video id=89819d63-3011-4ac6-a1f7-66babd2134b8:::
 
-### Introduction to API-Based Asset Transfers
+### Why Mint through the API?
 
-The Taproot Assets Daemon (TAPD) provides multiple interfaces for interacting with taproot assets, including command-line tools and programmatic APIs. While the CLI offers direct control for manual operations, the REST API enables developers to integrate asset management capabilities into applications and automated systems. This chapter demonstrates how to transfer taproot assets between nodes using TAPD's REST API through Python scripts, building upon the foundational concepts of minting and CLI-based transfers covered in previous sections.
+As we saw in the previous section, the CLI provides a direct and intuitive way to mint assets. However, for production environments or applications that need to create assets programmatically, the REST API offers a more flexible approach. Let's discover together how to perform the same minting operation through TAPD's API.
 
-The REST API approach offers several advantages for production environments and application development. It allows for seamless integration with existing web services, enables automated asset management workflows, and provides a standardized interface that can be consumed by various programming languages and platforms. Understanding both the technical implementation and the underlying asset transfer mechanics is essential for developers building applications on the taproot assets protocol.
+The comprehensive API documentation is available at `lightning.engineering/api-docs/api/taproot-assets`, covering both gRPC and REST implementations with Python and JavaScript examples.
 
-### Prerequisites and Configuration
+### Prerequisites and Authentication
 
-The comprehensive API documentation for TAPD is available at lightning.engineering/api-docs/api/taproot-assets, serving as the definitive reference for all available endpoints and functionality. This documentation provides detailed information for both gRPC and REST implementations, with practical examples in JavaScript and Python for each API call. The documentation structure mirrors the functionality available through the CLI, making it easier for developers to transition between different interaction methods.
+Before making API calls, two security elements must be in place:
 
-Before initiating API-based asset transfers, several prerequisites must be satisfied to ensure successful communication between nodes. The transferring nodes must have proper network connectivity with appropriate firewall configurations to allow REST API communication on the designated ports. Each TAPD instance must be configured to accept incoming connections on its REST API port, which requires specific configuration file modifications.
+1. **The TLS certificate**: ensures encrypted communication between your application and the TAPD node.
+2. **The admin macaroon**: provides authentication and authorization for every API request.
 
-Authentication and authorization are handled through macaroon files and TLS certificates, which must be properly distributed to client applications. The admin macaroon provides full access to node functionality and should be securely stored and transmitted. TLS certificates ensure encrypted communication between clients and TAPD nodes, maintaining security for sensitive asset operations.
+```python
+import requests
 
-A critical prerequisite for asset transfers is ensuring that the receiving node has complete information about the assets being transferred. When Alice mints assets on her TAPD node, her node automatically possesses all necessary asset information, including genesis transaction data and proof information. However, Bob's node must acquire this information through universe synchronization before it can participate in asset transfers.
+macaroon = open("/path/to/admin.macaroon", "rb").read().hex()
+cert_path = "/path/to/tls.cert"
+headers = {"Grpc-Metadata-macaroon": macaroon}
+base_url = "https://your-node-ip:8089"
+```
 
-Universe federation enables nodes to share asset information automatically, ensuring that participating nodes maintain synchronized views of available assets. In the demonstration setup, Alice and Bob's universes are configured in each other's federation, allowing automatic information sharing. Alternative configurations might involve both nodes connecting to a shared public universe server, but the fundamental requirement remains that receiving nodes must have complete asset information before transfers can occur.
+### Two-Phase Minting via the API
 
-### API Operations and Transfer Workflow
+**Phase 1: Add an asset to the batch.**
 
-The Python scripts demonstrate a straightforward approach to connecting with remote TAPD nodes using REST API calls. Connection configuration requires specifying the target node's IP address and REST API port, along with proper authentication credentials. The demonstration setup involves running Python scripts locally while connecting to remote Ubuntu servers hosting the TAPD nodes, illustrating a common deployment pattern for distributed asset management systems.
+```python
+mint_payload = {
+    "asset": {
+        "asset_type": "NORMAL",
+        "name": "APIToken",
+        "amount": 500
+    }
+}
 
-The asset listing functionality provides a foundation for understanding API interaction patterns and serves as a diagnostic tool for verifying node state. The assets endpoint (`/taproot-assets/assets`) accepts GET requests and returns comprehensive information about all assets held by the querying node. This endpoint requires no additional parameters beyond authentication, making it ideal for initial API exploration and system status verification.
+response = requests.post(
+    f"{base_url}/v1/taproot-assets/assets/mint",
+    headers=headers,
+    json=mint_payload,
+    verify=cert_path
+)
+```
 
-Address generation represents a crucial step in the asset transfer process, where the receiving node creates a specialized address containing all information necessary for the sender to construct a valid transfer transaction. The addresses endpoint (`/addresses`) accepts POST requests with required parameters including the asset ID and the desired amount to receive. The generated address contains encoded information that enables the sending node to construct appropriate on-chain transactions for asset transfers.
+**Phase 2: Finalize the batch.**
 
-The asset transfer execution involves the sending node constructing and broadcasting an on-chain Bitcoin transaction that moves the specified taproot assets to the receiving address. This process is initiated through the send endpoint (`/send`), which accepts the previously generated address as its primary parameter. The sending node validates the address, constructs the appropriate transaction, and handles the on-chain broadcast automatically.
+```python
+finalize_response = requests.post(
+    f"{base_url}/v1/taproot-assets/assets/mint/finalize",
+    headers=headers,
+    json={},
+    verify=cert_path
+)
+```
 
-### Best Practices for MINT through API
+### Verification
 
-Asset transfers require on-chain confirmation before receiving nodes update their balance information. This confirmation process ensures that transfers are irreversibly committed to the blockchain before being reflected in node balances. The receiving node monitors the blockchain for transaction confirmation and validates the associated proof data before updating its internal asset records. The confirmation process may take several minutes depending on Bitcoin network conditions and the number of confirmations required.
+After on-chain confirmation, verify with a GET request:
 
-After sufficient on-chain confirmations, the receiving node updates its asset balances to reflect the completed transfer. The asset listing functionality can then be used to verify that the transfer completed successfully and that the receiving node now holds the expected asset quantities. This verification step is essential for confirming end-to-end transfer functionality and diagnosing any potential issues in the transfer process.
+```python
+assets = requests.get(
+    f"{base_url}/v1/taproot-assets/assets",
+    headers=headers,
+    verify=cert_path
+)
+```
 
-When implementing API-based asset transfers in production applications, error handling should account for network failures, authentication issues, and blockchain-related delays. Security considerations include proper macaroon and certificate management, secure communication channels, and appropriate access controls for API endpoints. Production deployments should implement monitoring and logging to track transfer operations and diagnose issues. The API-based approach enables sophisticated asset management workflows, including automated transfers, batch operations, and integration with existing financial systems.
+In other words, while the CLI is ideal for manual exploration and one-off operations, the API is where Taproot Assets become a building block for larger systems. The security model remains identical: every request requires proper TLS and macaroon authentication.
 
 ## Send from the CLI
 <chapterId>d2c8f6b3-7e5a-4b9d-8c3f-9a6e2d5b1c98</chapterId>
 
 :::video id=88cdc6ce-22f6-4ddd-90a3-da345a85eef1:::
 
-### Transferring Taproot Assets via Command Line Interface
+### Understanding Asset Transfers
 
-This guide demonstrates transferring Taproot assets between nodes using the CLI, building on our previous minting operations. We'll use a two-node setup—Alice and Bob—to illustrate the complete transfer workflow within the Taproot Assets Protocol Daemon (TAPD) ecosystem.
+With our assets successfully minted, we can now explore the second fundamental operation: **sending** assets from one node to another. While minting creates new assets, sending transfers ownership of existing ones. Let's discover together how this works using the command line.
 
-Unlike traditional centralized systems that update databases, Taproot asset transfers leverage Bitcoin's blockchain infrastructure while maintaining efficiency and privacy benefits. This ensures cryptographically secure, verifiable transfers while preserving Bitcoin's decentralized nature.
+Transferring a Taproot asset is fundamentally different from a simple Bitcoin payment. When we send bitcoin, the blockchain itself records the change of ownership. With Taproot Assets, the on-chain transaction commits to an updated [Merkle root](https://planb.academy/resources/glossary/merkle-root) that reflects the new ownership structure, but the detailed asset data is managed off-chain through **proof files** exchanged between the sender and receiver.
 
-### Node Configuration and Universe Federation
+### Universe Federation: A Prerequisite
 
-Our demonstration uses two distinct nodes: Alice (primary node on Ubuntu) and Bob (older testnet configuration). Both maintain full TAPD functionality and participate in a universe federation—a critical requirement for successful transfers.
+Before any transfer can take place, both the sender and the receiver must be part of a common **universe federation**. The receiver's node needs to know that the asset exists, what its genesis data looks like, and how to validate the incoming proofs. Without proper federation, the transfer will fail.
 
-The universe system enables nodes to share asset metadata and maintain synchronized information about available assets. Without this shared understanding, receiving nodes would lack the necessary information to properly request and validate incoming transfers. This federation approach eliminates manual coordination of asset metadata between parties. Instead of Alice separately communicating asset details to Bob, the universe system ensures Bob's node automatically maintains awareness of available assets, significantly streamlining the transfer process while maintaining security standards.
+### Step-by-Step Transfer Workflow
 
-### Asset Transfer Workflow
+Let's walk through a concrete example. Alice holds 100 tokens and wants to send 10 of them to Bob.
 
-Before initiating transfers, we verify Alice's current holdings: 200 CLI demo tokens and a reduced quantity of API demo tokens (having previously transferred 10 to another party). This existing transfer history demonstrates accurate balance tracking across multiple transactions.
+**Step 1: Bob generates a receiving address.**
 
-The verification process examines both quantity and specific batch information for each asset type. Each asset carries unique identifying information, including an asset ID that serves as the primary reference for all transfer operations—functioning like a unique identifier in traditional databases but within the Taproot protocol's cryptographic framework.
+```bash
+tapcli addrs new --asset_id <ASSET_ID> --amt 10
+```
 
-The transfer begins with Bob generating a specialized address containing all information Alice needs. Bob uses the command: `tapcli address new --asset_id [ASSET_ID] --amt [AMOUNT]`. The asset ID specifies which asset Bob wishes to receive, while the amount indicates the desired quantity. In our demonstration, Bob requests 10 API demo tokens.
+The command produces an encoded **TAP address**, a long string that encodes the asset ID, the requested amount, Bob's destination key, and cryptographic data needed for the sender to construct a valid transfer. Unlike standard Bitcoin addresses, **TAP addresses are unique to each specific asset and amount combination**.
 
-Upon execution, Bob's node produces an encoded TAPD address—a lengthy string containing destination information, cryptographic proofs, and validation data required for secure transfer. The transmission of this address from Bob to Alice occurs outside the TAPD protocol, typically at the application layer. This design maintains flexibility in communication while ensuring standardized, secure cryptographic operations.
+**Step 2: Bob communicates the address to Alice.**
 
-With Bob's encoded address, Alice executes: `tapcli assets send --addr [ENCODED_ADDRESS]`. This command instructs Alice's node to construct and broadcast the on-chain transaction transferring the specified assets to Bob. Despite complex behind-the-scenes operations—Bitcoin transaction construction, cryptographic proof generation, and network coordination—the CLI interface presents a simple command structure.
+This happens outside the TAPD protocol, through any communication channel the parties choose.
 
-Upon successful execution, Alice's node provides comprehensive transfer information, including cryptographic proofs transmitted to Bob's node. These proofs serve as verifiable evidence, allowing Bob to independently confirm legitimate asset transfer. The system generates an on-chain transaction ID verifiable through standard Bitcoin block explorers.
+**Step 3: Alice executes the send.**
 
-This proof generation represents a critical security feature. Rather than requiring trust between parties, the system generates mathematical proofs independently verifiable by any participant, maintaining Bitcoin's trustless nature while enabling sophisticated asset transfers.
+```bash
+tapcli assets send --addr <BOB_ENCODED_ADDRESS>
+```
 
-### Transfer Verification and Technical Considerations
+Behind the scenes, Alice's node constructs an on-chain Bitcoin transaction that commits to the updated Merkle tree, generates cryptographic **proofs**, and transmits them directly to Bob's node. The command returns an on-chain transaction ID verifiable through any Bitcoin block explorer.
 
-The `tapcli assets transfers` command provides comprehensive data about all node transfers, including status, proof data, and transaction details—invaluable for troubleshooting or monitoring node activity.
+**Step 4: Wait for on-chain confirmation.**
 
-Transfer verification requires patience as the system awaits on-chain confirmation before updating balances. This ensures proper recording on the Bitcoin blockchain with sufficient security through proof-of-work consensus. The process typically requires one or more blocks after transaction inclusion. During this period, transfers exist in pending state, with final confirmation occurring after required blocks are added.
+The transfer is not complete until the Bitcoin transaction is confirmed in a block.
 
-Following successful confirmation, both nodes update their balances automatically. Alice's API demo tokens reduce from 100 to 90, while Bob receives 10 new tokens. This automatic reconciliation occurs without manual intervention, demonstrating the system's ability to maintain accurate state across distributed nodes.
+**Step 5: Balance reconciliation.**
 
-Successful transfers depend heavily on proper universe federation configuration and synchronization. Nodes must maintain current asset information to facilitate smooth operations. The universe system operates continuously in the background, updating asset information and maintaining synchronization with federated nodes. This ongoing process requires minimal user intervention but represents a critical component of the overall architecture.
+After confirmation, both nodes update their balances automatically. Alice shows 90 tokens, Bob shows 10.
 
-Users should expect brief delays between transfer execution and balance updates as the system awaits blockchain confirmations. This fundamental security feature prevents various attack vectors while maintaining compatibility with Bitcoin's security model. Ensure nodes maintain proper connectivity to relevant universe federations for seamless operations.
+![Terminal showing tapcli assets list with CLIdemobux balance of 100 and APIdemobux balance of 90 after transfers](assets/en/021.webp)
 
-The transfer system exemplifies sophisticated engineering underlying the Taproot Assets Protocol, combining Bitcoin's security with efficient asset management. By abstracting complex cryptographic operations behind simple CLI commands, the system makes advanced functionality accessible while maintaining fundamental security and decentralization principles.
+### Reviewing Transfer History
+
+```bash
+tapcli assets transfers
+```
+
+This provides a detailed record of every transfer, including transaction IDs, amounts, timestamps, and confirmation status.
+
+### Key Considerations
+
+- **Confirmation timing**: balance updates happen only after on-chain confirmation.
+- **Proof transmission**: the proofs form the verifiable chain of custody back to the genesis output.
+- **Universe synchronization**: if transfers fail, the most common cause is incomplete universe federation.
 
 ## Send from the API
 <chapterId>b6f3d9a8-5c2e-4d7b-9f8a-1e3c6b8a7d19</chapterId>
 
 :::video id=db1c8655-eb0b-49a1-83e8-dc0b16a35582:::
 
-### Introduction to API-Based Asset Transfers
+### Programmatic Asset Transfers
 
-The Taproot Assets Daemon (TAPD) provides multiple interfaces for interacting with taproot assets, including command-line tools and programmatic APIs. While the CLI offers direct control for manual operations, the REST API enables developers to integrate asset management capabilities into applications and automated systems. This chapter demonstrates how to transfer taproot assets between nodes using TAPD's REST API through Python scripts, building upon the foundational concepts of minting and CLI-based transfers covered in previous sections.
+As we saw in the previous section, sending Taproot Assets via the CLI follows a clear pattern. The REST API replicates this exact workflow through HTTP endpoints. Let's discover together how to implement this.
 
-The REST API approach offers several advantages for production environments and application development. It allows for seamless integration with existing web services, enables automated asset management workflows, and provides a standardized interface that can be consumed by various programming languages and platforms. Understanding both the technical implementation and the underlying asset transfer mechanics is essential for developers building applications on the taproot assets protocol.
+### Three-Endpoint Workflow
 
-### Prerequisites and Configuration
+**Endpoint 1: Verify available assets (GET).**
 
-The comprehensive API documentation for TAPD is available at lightning.engineering/api-docs/api/taproot-assets, serving as the definitive reference for all available endpoints and functionality. This documentation provides detailed information for both gRPC and REST implementations, with practical examples in JavaScript and Python for each API call. The documentation structure mirrors the functionality available through the CLI, making it easier for developers to transition between different interaction methods.
+```python
+assets = requests.get(
+    f"{base_url}/v1/taproot-assets/assets",
+    headers=headers,
+    verify=cert_path
+)
+```
 
-Before initiating API-based asset transfers, several prerequisites must be satisfied to ensure successful communication between nodes. The transferring nodes must have proper network connectivity with appropriate firewall configurations to allow REST API communication on the designated ports. Each TAPD instance must be configured to accept incoming connections on its REST API port, which requires specific configuration file modifications.
+**Endpoint 2: Generate a receiving address (POST).**
 
-Authentication and authorization are handled through macaroon files and TLS certificates, which must be properly distributed to client applications. The admin macaroon provides full access to node functionality and should be securely stored and transmitted. TLS certificates ensure encrypted communication between clients and TAPD nodes, maintaining security for sensitive asset operations.
+```python
+addr_payload = {
+    "asset_id": "<ASSET_ID_HEX>",
+    "amt": 10
+}
 
-A critical prerequisite for asset transfers is ensuring that the receiving node has complete information about the assets being transferred. When Alice mints assets on her TAPD node, her node automatically possesses all necessary asset information, including genesis transaction data and proof information. However, Bob's node must acquire this information through universe synchronization before it can participate in asset transfers.
+addr_response = requests.post(
+    f"{base_url}/v1/taproot-assets/addrs",
+    headers=headers,
+    json=addr_payload,
+    verify=cert_path
+)
+tap_address = addr_response.json()["encoded"]
+```
 
-Universe federation enables nodes to share asset information automatically, ensuring that participating nodes maintain synchronized views of available assets. In the demonstration setup, Alice and Bob's universes are configured in each other's federation, allowing automatic information sharing. Alternative configurations might involve both nodes connecting to a shared public universe server, but the fundamental requirement remains that receiving nodes must have complete asset information before transfers can occur.
+**Endpoint 3: Execute the transfer (POST).**
 
-### API Operations and Transfer Workflow
+```python
+send_payload = {
+    "tap_addrs": [tap_address]
+}
 
-The Python scripts demonstrate a straightforward approach to connecting with remote TAPD nodes using REST API calls. Connection configuration requires specifying the target node's IP address and REST API port, along with proper authentication credentials. The demonstration setup involves running Python scripts locally while connecting to remote Ubuntu servers hosting the TAPD nodes, illustrating a common deployment pattern for distributed asset management systems.
+send_response = requests.post(
+    f"{base_url}/v1/taproot-assets/send",
+    headers=headers,
+    json=send_payload,
+    verify=cert_path
+)
+```
 
-The asset listing functionality provides a foundation for understanding API interaction patterns and serves as a diagnostic tool for verifying node state. The assets endpoint (`/taproot-assets/assets`) accepts GET requests and returns comprehensive information about all assets held by the querying node. This endpoint requires no additional parameters beyond authentication, making it ideal for initial API exploration and system status verification.
+### Confirmation and Verification
 
-Address generation represents a crucial step in the asset transfer process, where the receiving node creates a specialized address containing all information necessary for the sender to construct a valid transfer transaction. The addresses endpoint (`/addresses`) accepts POST requests with required parameters including the asset ID and the desired amount to receive. The generated address contains encoded information that enables the sending node to construct appropriate on-chain transactions for asset transfers.
+After submitting a transfer, the transaction must be confirmed on-chain before balances update. In other words, the API does not provide a push notification when a transfer confirms. Your application is responsible for monitoring the state.
 
-The asset transfer execution involves the sending node constructing and broadcasting an on-chain Bitcoin transaction that moves the specified taproot assets to the receiving address. This process is initiated through the send endpoint (`/send`), which accepts the previously generated address as its primary parameter. The sending node validates the address, constructs the appropriate transaction, and handles the on-chain broadcast automatically.
+### Error Handling for Production
 
+When building transfer functionality into production applications, handle these scenarios:
+
+- **Insufficient balance**: the send endpoint rejects requests if the node does not hold enough of the specified asset.
+- **Invalid address**: malformed or expired TAP addresses produce an error response.
+- **Missing universe data**: if the receiver's node lacks asset metadata, address generation will fail.
 
 ## Burn from the CLI
 <chapterId>e8a9b5c2-4f7d-4e3a-8b6c-7d2f9e1a3b21</chapterId>
+
 :::video id=a9a437a4-1664-4786-a4a8-6e78082abe59:::
 
-### Asset Burning via CLI
+### Understanding Asset Burning
 
-Asset burning represents the final operation in the complete lifecycle of Taproot Assets Protocol Daemon (TAPD) management. This process allows users to permanently destroy digital assets, removing them from circulation in an irreversible on-chain transaction. The burning functionality serves various purposes, including reducing asset supply, removing unwanted tokens, or fulfilling specific protocol requirements that necessitate asset destruction.
+The third and final core operation in the Taproot Assets lifecycle is **burning**, the permanent destruction of assets. While minting brings assets into existence and sending transfers them between parties, burning removes them from circulation forever. Let's discover together how this operation works from the command line.
 
-The CLI-based approach to burning assets provides a straightforward, command-line interface for this operation, making it one of the most direct methods available in the TAPD toolkit. Unlike other asset operations that may require multiple steps or complex configurations, burning assets can be accomplished with a single command execution, though it includes important safety mechanisms to prevent accidental destruction of valuable assets.
+Why burn assets? A stablecoin issuer might burn tokens when users redeem them for fiat. A project might burn test tokens. An organization might reduce supply for governance reasons. In all cases, the key property is **irreversibility**: once burned and confirmed on-chain, assets cannot be recovered by any means.
 
-### Prerequisites and Asset Inventory
+### Checking Your Inventory
 
-Before initiating any burning operations, users must have a properly configured TAPD node with existing assets available for destruction. The demonstration environment utilizes a TAPD demo node that has previously completed the full asset lifecycle, including installation, minting, and transfer operations. This node contains multiple rounds of different asset types, providing a realistic testing environment for burning operations.
+Before any destructive operation, verify your current holdings:
 
-The first step in any burning operation involves examining the current asset inventory to identify which assets are available for destruction. The asset listing command provides a comprehensive overview of all assets currently held on the node, displaying crucial information including asset IDs, quantities, and asset types. This inventory check ensures that users have accurate information about their holdings before proceeding with any destructive operations.
+```bash
+tapcli assets list
+```
 
-Asset selection requires careful consideration of both the asset type and quantity to be destroyed. The selection process involves identifying the specific asset ID of the target asset and determining the appropriate amount to burn. In typical scenarios, users might choose to burn a portion of their holdings rather than the entire balance, allowing for partial destruction while maintaining some quantity for future use. The asset ID serves as the critical identifier that ensures the burning operation targets the correct asset—this alphanumeric string uniquely identifies each asset batch and must be copied precisely to avoid errors.
+Carefully identify the exact asset you intend to burn and note its asset ID. A mistake here could result in burning the wrong asset.
 
-### Executing the Burn Command
+### Executing the Burn
 
-The asset burning command follows a straightforward syntax pattern that requires only two essential parameters: the asset ID and the quantity to burn. The complete command syntax follows the pattern: `tapcli assets burn [asset-id] [amount]`. This structure ensures that users provide both the specific asset identifier and the exact quantity they wish to destroy. The command's simplicity reflects the straightforward nature of the burning operation, though the underlying blockchain transaction involves complex cryptographic processes to ensure permanent asset destruction.
+The burn command requires two parameters:
 
-The TAPD system incorporates a critical safety feature that prevents accidental asset destruction through an interactive confirmation prompt. When users execute a burn command, the system presents a confirmation dialog that explicitly warns about the permanent nature of the operation and requires explicit user consent before proceeding. This safety mechanism serves as the final checkpoint to prevent costly mistakes that could result in unintended asset loss.
+```bash
+tapcli assets burn --asset_id <ASSET_ID> --amount 10
+```
 
-For users operating in automated environments or running scripted operations, the confirmation prompt can present operational challenges. The TAPD CLI provides a flag option that allows users to bypass the interactive confirmation, enabling seamless integration into automated workflows. However, this capability comes with significant responsibility, as it removes the primary safety mechanism designed to prevent accidental asset destruction. The bypass flag should only be used in carefully controlled environments where the burning operation is part of a well-tested automated process.
+TAPD presents an **interactive confirmation prompt** that explicitly warns about the permanent nature of the operation. You must confirm before the burn proceeds.
 
-### Transaction Processing and Verification
+For **automated environments**, the confirmation can be bypassed with a flag, but this should be treated with extreme caution.
 
-Asset burning operations result in on-chain Bitcoin transactions that permanently record the destruction of the specified assets. These transactions follow standard Bitcoin network protocols while incorporating the specific Taproot Assets Protocol mechanisms that handle the asset destruction logic. The on-chain nature of these transactions ensures that the burning operation is permanently recorded and cannot be reversed or undone.
+### Verification
 
-Following the execution of a burn command, the system requires on-chain confirmation before updating local balance information. This confirmation process follows standard Bitcoin network protocols, typically requiring one or more block confirmations before the transaction is considered final. During this confirmation period, the local asset balance may not immediately reflect the burned assets, as the system waits for network validation. Users should expect a brief delay between command execution and balance updates, with the exact timing dependent on current network conditions and confirmation requirements.
+After on-chain confirmation:
 
-After receiving on-chain confirmation, users can verify the success of their burning operation by checking their updated asset balance. The verification process involves re-running the asset listing command to display current holdings and confirming that the burned quantity has been properly deducted from the total balance. In the demonstration example, burning ten units from a balance of ninety results in a new balance of eighty units, clearly showing the successful completion of the operation.
+```bash
+tapcli assets list
+```
 
-Once confirmed on the blockchain, burned assets cannot be recovered or restored through any means. The burning process represents a permanent destruction of digital value, making the verification step crucial for ensuring that the operation achieved its intended purpose. The finality of burning operations underscores the importance of careful planning and verification before executing these commands. Users should always double-check their asset IDs, quantities, and intentions before confirming burn operations, as the permanent nature of these transactions makes them powerful tools for supply management but requires responsible use to avoid unintended consequences.
+The balance should reflect the burned amount (e.g., 90 minus 10 = 80). In other words, treat every burn command as if it were a transaction sending funds to an address with no known private key, because functionally, that is exactly what it is.
 
 ## Burn from the API
 <chapterId>c7d5e8f9-3b6a-4e2c-9f7d-8a1b5c3e6d32</chapterId>
 
 :::video id=03e4464a-7ce8-4fb1-889c-83f8a52ac315:::
 
-### Asset Burning via REST API
+### Programmatic Asset Destruction
 
-This chapter demonstrates how to burn Taproot assets using the TAPD (Taproot Assets Daemon) API, completing the fundamental asset lifecycle operations of install, mint, transfer, and burn. Asset burning permanently destroys digital assets, making it essential to understand both the technical implementation and safety considerations involved in this irreversible process.
+The REST API implements an equivalent safety mechanism through a required confirmation parameter. Let's discover together how to burn assets programmatically.
 
-Unlike transfers or minting operations, burning assets permanently removes them from circulation, requiring careful consideration and appropriate safety measures. The burning operation represents the final stage in our comprehensive exploration of Taproot asset management, where precision and caution are paramount given the irreversible nature of asset destruction.
+### Pre-Burn Inventory Check
 
-The complete API documentation for Taproot assets is available at lightning.engineering/api-docs/api/taproot-assets, providing comprehensive information on all available API calls. The documentation includes both gRPC and REST API options, with extensive examples in JavaScript and Python. For practical implementation, the REST API using Python scripts offers an accessible approach to asset burning operations, with most examples directly adaptable from the provided documentation.
+```python
+assets = requests.get(
+    f"{base_url}/v1/taproot-assets/assets",
+    headers=headers,
+    verify=cert_path
+)
+```
 
-### Node Connection and Pre-Burn Setup
+### Executing the Burn
 
-Establishing proper connection to your Taproot assets node requires several key components for secure communication. The connection setup involves identifying the target node's internet location and port configuration, ensuring the designated port is open and ready for API communication. In this demonstration, we connect to a node designated as the "Bob node," which requires specific network configuration and authentication credentials.
+```python
+burn_payload = {
+    "asset_id": "<ASSET_ID_HEX>",
+    "amount": 5,
+    "confirmation_str": "assets will be destroyed"
+}
 
-Local machine setup requires copies of both the admin macaroon and TLS certificate to enable authenticated communication with the remote node. These security credentials ensure that only authorized users can perform sensitive operations like asset burning—the macaroon provides authentication tokens while the TLS certificate enables encrypted communication between the local script and the remote node.
+burn_response = requests.post(
+    f"{base_url}/v1/taproot-assets/burn",
+    headers=headers,
+    json=burn_payload,
+    verify=cert_path
+)
+```
 
-Before executing any burn operations, it's essential to verify the current asset inventory using the list assets endpoint. The list operation requires a simple GET request to the assets endpoint without additional parameters. This preliminary step ensures accurate information about available assets before proceeding with irreversible burn operations. The list assets response provides comprehensive information about each asset, including asset IDs, quantities, and detailed metadata. In our demonstration, the initial inventory shows 10 API demo books, providing a clear baseline for measuring the burn operation's effects.
+The **confirmation string** is the API equivalent of the CLI's interactive prompt. Without it, the API rejects the burn request entirely. This forces the developer to explicitly acknowledge that assets will be permanently destroyed.
 
-### Implementing the Burn Operation
+### Post-Burn Verification
 
-The asset burning process utilizes the taproot-assets/burn endpoint through a POST request requiring specific parameters. The burn operation demands the asset ID of the target assets (obtained from the previous list operation) along with the quantity to be destroyed. These parameters ensure precise control over which assets are burned and in what quantities.
+After on-chain confirmation, query the assets endpoint again to confirm the reduced balance. For production systems, log every burn response in its entirety as an audit record.
 
-A critical safety feature requires explicit confirmation that you intend to destroy the specified assets. This confirmation parameter acts as a safeguard against accidental asset destruction, requiring developers to consciously acknowledge the operation's irreversible nature. The burn request must include this confirmation flag to proceed, preventing inadvertent execution of destructive operations. Without this confirmation, the API will reject the burn request, providing an additional layer of protection.
+The burn operation completes the three fundamental lifecycle operations: creation through minting, movement through sending, and destruction through burning.
 
-The burn operation returns extensive information about the completed transaction, including confirmation of the burned quantity, transaction details, and metadata valuable for record-keeping and audit purposes. This comprehensive response ensures complete visibility into the burn operation's execution and results, maintaining consistency with other TAPD API operations in how information is presented and organized.
-
-### On-Chain Confirmation and Verification
-
-Asset burning operations require on-chain confirmation before the new balance reflects in subsequent queries. This blockchain confirmation requirement means immediate re-querying may still show pre-burn quantities until the transaction confirms on the blockchain. Understanding this timing consideration is crucial for applications needing to coordinate multiple operations or provide real-time balance updates.
-
-The confirmation process follows standard blockchain timing patterns, with exact duration depending on network conditions and confirmation requirements. During this waiting period, the burn transaction exists in a pending state—broadcast to the network but not yet incorporated into a confirmed block. This temporary delay is normal for blockchain operations and should be accounted for in application logic.
-
-After receiving on-chain confirmation, running the list assets operation again confirms successful burn completion. In our demonstration, the post-burn inventory shows 5 API demo books remaining, confirming exactly 5 assets were successfully burned as requested. This verification step provides definitive proof of correct execution and permanent asset quantity reduction.
-
-The verification process serves multiple purposes: providing a clear audit trail, enabling detection of unexpected results, and offering confidence in API functionality. Regular verification of operation results represents a best practice for maintaining accurate asset management records.
-
-
-
-# Diving deeper into Taproot Assets 
+# Diving deeper into Taproot Assets
 <partId>863d9c88-870c-11f0-a2de-430d32152c27</partId>
 
 ## Update Tapd
 <chapterId>a5b8f9c3-6d7e-4a2b-8c9f-2e3d7b1a5f54</chapterId>
 :::video id=df88fe13-4a2f-4251-82db-89ce07131947:::
 
-### Introduction to TAPD Updates
+Keeping your **TAPD** node up to date is not optional. Each new release can patch security vulnerabilities, introduce protocol features required by the broader network, fix bugs that affect asset proofs or channel stability, and improve performance. The update procedure depends on how you installed TAPD in the first place. Whichever path you follow, one rule is absolute: **never delete your data directories** (`.tapd`, `.lnd`, `.bitcoin`) during an update. These folders contain your wallet, channel state, asset proofs, and blockchain data. The binaries are replaceable; the data is not.
 
-Maintaining an up-to-date TAPD (Taproot Assets Daemon) node is essential for accessing the latest features, security improvements, and bug fixes. The update process varies depending on how you initially installed your TAPD node, and understanding these different approaches ensures you can maintain your node effectively while preserving your valuable data and configurations.
+### Updating a Polar Installation
 
-This chapter covers three primary update methods corresponding to the three installation approaches demonstrated throughout this series: Polar for simplified development environments, pre-compiled binaries for standard deployments, and source code builds for maximum customization. Each method requires specific steps and considerations to ensure a smooth update process.
+If you set up your development environment with **Polar**, updating is handled mostly through the application's graphical interface. Open Polar and check whether new node versions are available in the settings panel.
 
-### Updating Polar Installations
+For major version jumps, Polar itself may need to be replaced:
 
-When you've used Polar to set up your TAPD environment, updating involves both the Polar application itself and the node versions it manages. Polar provides a user-friendly interface for managing Lightning Network development environments, but this convenience comes with specific update procedures that differ from manual installations.
+1. Note down your current network topology so you can recreate it if needed.
+2. Download the latest Polar release from [lightningpolar.com](https://lightningpolar.com).
+3. Be aware that significant updates sometimes require you to **recreate your networks** from scratch.
+4. Verify that TAPD nodes show the expected version in the node details panel.
 
-The update process typically requires attention to two components: the Polar application and the underlying node software. Users should be prepared for the possibility that updating Polar may require recreating existing networks, as newer versions sometimes introduce changes incompatible with previous network configurations.
+### Updating a Binary Installation
 
-To update a Polar-based TAPD installation, begin by opening the Polar application and checking for new node versions through the built-in update mechanism. However, if significant updates are available, you may need to download a completely new version of Polar from lightningpolar.com, where the latest versions are available for Linux, Mac, and Windows platforms. When downloading a new version, be aware that you may need to recreate previously established networks. Plan accordingly by documenting your current network setup before proceeding with major updates.
+1. Stop the running TAPD service:
 
-### Updating Binary Installations
+```bash
+sudo systemctl stop tapd
+```
 
-Before updating binary installations, it's crucial to understand your current system configuration and identify where your binaries are located. Most standard binary installations place executable files in `/usr/local/bin`, while data directories are typically located in your home directory under names like `.bitcoin`, `.lnd`, and `.tapd`.
+2. Remove the old binaries:
 
-The update process requires careful attention to system services and data preservation. If you've configured your TAPD node to run as a systemd service, you'll need to properly stop these services before replacing the binaries. This ensures no processes are accessing the files you're about to replace and prevents potential corruption or conflicts.
+```bash
+sudo rm /usr/local/bin/tapd /usr/local/bin/tapcli
+```
 
-To update binary installations, begin by stopping all related services using systemd or your preferred service management system. Once services are properly stopped, navigate to your binary directory (typically `/usr/local/bin`) and remove the old binary files. This step is crucial because simply overwriting files can sometimes lead to permission issues or incomplete updates.
+3. Download the new release, verify the SHA256 checksum against the release notes:
 
-After removing old binaries, install new versions using the same process as initial installation: downloading the latest release, verifying checksums and signatures, and copying binaries to the appropriate directory with correct permissions. Once new binaries are in place, restart your services and perform verification checks to ensure everything functions correctly.
+```bash
+sha256sum taproot-assets-linux-amd64-v*.tar.gz
+```
 
-A critical aspect of updating binary installations is preserving your data directories. These directories contain blockchain data, channel information, wallet files, and other crucial operational data. Under no circumstances should you modify or delete these directories during an update unless you specifically intend to start fresh. The separation between executable binaries and data directories is fundamental to proper node management—while you replace program files during updates, data directories remain untouched, ensuring continuity of your node's operational history.
+4. Extract and copy the new binaries:
 
-### Updating Source Installations
+```bash
+tar -xzf taproot-assets-linux-amd64-v*.tar.gz
+sudo cp taproot-assets-linux-amd64-v*/tapd /usr/local/bin/
+sudo cp taproot-assets-linux-amd64-v*/tapcli /usr/local/bin/
+```
 
-Updating TAPD installations built from source requires attention to your development environment, particularly your Go programming language version. Before beginning any source update, verify that your Go installation meets requirements for the latest TAPD version. Version compatibility issues can cause compilation failures or runtime problems difficult to diagnose after the fact.
+5. Restart and verify:
 
-Before updating, properly shut down your TAPD service to prevent data corruption. The recommended approach involves using both the TAPD CLI stop command and your system service manager. First, execute `tapcli stop` to gracefully shut down the daemon, allowing it to complete pending operations and properly close database connections. Then stop the systemd service to ensure the process is completely terminated. Verify the service has stopped before proceeding.
+```bash
+sudo systemctl start tapd
+tapcli version
+```
 
-Navigate to your TAPD source directory and use Git to pull the latest changes from the repository. The command `git pull` retrieves recent commits and updates your local repository. After pulling changes, choose to update to the latest stable release or select a specific version, including release candidates for testing purposes. For production nodes, stable releases are recommended, while development or testing nodes can safely use release candidates. Use `git checkout` followed by the desired version tag to switch versions.
+### Updating a Source Installation
 
-Once you've selected the appropriate version, compile and install using `make install`. This process compiles Go source code and installs resulting binaries to your system's binary directory. During compilation, pay attention to error messages or warnings indicating compatibility issues or missing dependencies. Successful compilation should complete without errors and result in updated binary files with current timestamps.
+1. Gracefully stop the daemon:
 
-After compilation, perform thorough verification to ensure success. Check the version using `tapcli version` to confirm you're running the expected version. Restart your TAPD service using systemd, then verify it starts correctly and achieves an active, running state. Use system monitoring tools to confirm TAPD is listening on expected ports and responding to commands. Finally, perform basic functionality tests to ensure the updated version operates correctly with existing data.
+```bash
+tapcli stop
+sudo systemctl stop tapd
+```
 
-### Best Practices and Considerations
+2. Pull the latest changes and checkout the desired version:
 
-When updating TAPD, carefully consider which version to install based on your node's role. Production nodes should use stable releases thoroughly tested for reliability. Development and testing nodes can benefit from release candidates or development branches to help identify issues and test new features. Keep track of release notes to understand changes included in each update, as some may include breaking changes or require specific migration procedures.
+```bash
+cd ~/taproot-assets
+git fetch --all
+git checkout v0.5.0
+```
 
-Before performing any update, ensure current backups of critical data, including wallet files, channel databases, and configuration files. While updates typically preserve existing data, backups provide insurance against unexpected issues. Document your current configuration and custom settings before updating, as some updates might reset configuration files or require reconfiguration of specific features.
+3. Compile and install:
 
-The update process for TAPD nodes varies significantly depending on installation method, but following proper procedures ensures smooth transitions to newer versions while preserving valuable node data and configurations. Regular updates keep your node secure, performant, and compatible with the evolving Lightning Network ecosystem.
+```bash
+make install
+```
+
+4. Restart and verify:
+
+```bash
+sudo systemctl start tapd
+tapcli version
+```
+
+### Best Practices
+
+- **Use stable releases for production.** Release candidates are for testing only.
+- **Back up before updating.** Copy `.tapd`, `.lnd`, and configuration files.
+- **Read the release notes.** Some updates include breaking changes or migration steps.
+- **Verify after every update.** A successful `tapcli version`, a healthy systemd status, and a quick `tapcli assets list` confirm everything is working.
 
 ## Building a Node from Scratch
 <chapterId>992d8650-87f2-11f0-aace-9be7f0fb0b83</chapterId>
 
 :::video id=9b884ff3-fca1-4488-bdd9-bb1d27ed5af4:::
 
-### Introduction to Lightning Terminal Daemon (LITD)
+In the previous chapters, we installed TAPD as a standalone daemon alongside Bitcoin Core and LND. That approach works well, but it requires managing three separate services. In this chapter, we take a different path: building a complete node from scratch using **Lightning Terminal Daemon (LitD)**, a single binary that bundles LND, TAPD, Loop, Pool, and Faraday.
 
-Lightning Terminal Daemon, commonly referred to as LITD, represents a comprehensive solution for running Lightning Network infrastructure. This powerful tool bundles multiple essential components including LND (Lightning Network Daemon), Loop, Pool, Faraday, and Taproot Assets into a single, cohesive package. When setting up a LITD node, users gain access to LND along with an extensive suite of helpful tools that enhance the Lightning Network experience.
+The methodology presented here draws inspiration from Alex Bosworth's **Run LND** repository. The Lightning Labs team maintains a similar project called **Run LITD**, a collection of helper scripts, configuration templates, and systemd service files designed for rapid node deployment.
 
-The approach demonstrated in this chapter draws inspiration from established methodologies, particularly Alex Bosworth's Run LND repository, which provides detailed instructions for specific configurations such as running full archival nodes with external storage for blockchain data. This chapter focuses specifically on the streamlined setup process for LITD nodes using automated scripts and configuration files.
+An important caveat: the Run LITD scripts are built for **developers who need to spin up testing environments fast**. Never blindly execute automated scripts on a production server without reviewing every line.
 
-The Run LITD repository serves as a collection of notes and helper scripts designed to facilitate quick and detailed LITD node setup. The repository includes configuration files and systemd service files that enable professional-grade node deployment. For users requiring granular control, comprehensive checklists outline every step necessary for manual setup, while automated bash scripts enable rapid node deployment with minimal manual intervention.
+### Stage 1: Server Security
 
-Before proceeding with any automated setup process, users must understand the intended use case and limitations. The repository and associated scripts are specifically designed for developers who need to quickly spin up testing environments. While the underlying processes have been tested in production environments, the specific automated scripts should not be blindly trusted for production deployments without thorough review and testing. Production deployments require careful consideration of security implications, proper backup procedures, and thorough understanding of all configuration parameters.
+The first script handles fundamental server hardening from a fresh Ubuntu installation:
 
-### Three-Stage Setup Process
+1. **Creates a non-root user** with `sudo` privileges.
+2. **Configures SSH key-based authentication** (paste one or more public keys, one per line).
+3. **Disables root login** over SSH.
+4. **Disables password authentication.**
 
-The LITD node setup process consists of three distinct stages, each handled by separate scripts that build upon the previous stage's configuration. This modular approach allows for troubleshooting individual components and provides flexibility in deployment scenarios.
+Ensure your SSH keys are properly configured **before** running this script. If the script disables password authentication and your keys are not set up correctly, you will lock yourself out.
 
-The initial stage focuses on basic server security and user configuration. This script creates a new user account with sudo privileges, disables root login and password authentication, and configures SSH key-based authentication. These security measures represent fundamental best practices for any server deployment and create a secure foundation for the Lightning Network node. The server preparation script requires root access for initial execution, as it modifies system-level security settings and user configurations.
+### Stage 2: Bitcoin Core Installation
 
-The second stage installs and configures Bitcoin Core, which serves as the blockchain backend for the Lightning Network node. The repository provides two approaches for Bitcoin daemon installation: compilation from source code and binary download with signature verification. Both methods ensure security through cryptographic verification. The source compilation approach provides maximum transparency and allows for custom compilation flags, while the binary download method offers faster deployment with equivalent security through signature verification.
+The second stage installs and configures **Bitcoin Core** as the blockchain backend. Two installation approaches are available:
 
-The final stage handles LITD installation, configuration file generation, and systemd service setup. This stage also provides options for source compilation or binary installation, with source compilation offering greater transparency and understanding of the installation process. The script generates appropriate configuration files that integrate with the previously installed Bitcoin daemon and establishes the necessary service files for automatic startup and management.
+- **Compilation from source** for maximum transparency.
+- **Binary download with signature verification** for faster deployment.
 
-### Practical Implementation Walkthrough
+The script then generates a secure **RPC credential string** for LND communication, prompts for **network selection** (mainnet, testnet, or signet), writes `bitcoin.conf`, and creates a systemd service. For development, **signet** is an excellent choice: it mimics mainnet behavior but uses worthless test coins.
 
-The implementation process begins with a fresh Ubuntu server installation and proceeds through each setup stage systematically. Initial server access requires root login, which the first script will disable as part of the security hardening process.
+### Stage 3: LitD Installation
 
-After gaining initial server access, the first step involves cloning the Run LITD repository and making the setup scripts executable. The server preparation script requires careful attention to SSH key configuration, as it will disable password authentication. Users must ensure they have properly configured SSH keys before proceeding. The script prompts for a sudo password for the new user account and requests SSH public keys for authentication. Multiple keys can be added by placing each key on a separate line, accommodating teams or users with multiple access devices.
+The final stage installs the required dependencies (**Go**, **Node.js**, **Yarn**), then compiles LitD from source via `make install` (typically 5-10 minutes). After compilation:
 
-The Bitcoin daemon installation script handles dependency installation, binary download, signature verification, and initial configuration. The script generates a secure RPC connection string that enables communication between Bitcoin Core and LITD. This connection string must be carefully preserved, as it will be required during the LITD configuration phase. The script also prompts for network selection, allowing users to choose between mainnet, testnet, and signet. For development and testing purposes, signet provides an ideal environment that closely mimics mainnet behavior while using test coins without real value.
+1. A `lit.conf` is generated using the RPC credentials from Stage 2.
+2. A systemd service file is created, configured to start after Bitcoin Core.
 
-The LITD installation process begins with dependency installation, including Go programming language, Node.js, and Yarn package manager. These dependencies enable compilation from source code and provide the runtime environment for LITD's web interface components. After dependency installation, users should log out and reconnect to ensure proper environment variable configuration. The second LITD script handles the actual compilation and installation process, which typically requires five to ten minutes depending on server specifications.
+After dependency installation, **log out and reconnect** to ensure environment variables are loaded correctly.
 
-### Configuration and Initial Startup
+### Initial Startup and Wallet Creation
 
-After successful installation, LITD requires initial configuration and wallet creation before it can operate normally. This process involves starting LITD manually, creating a wallet, and then configuring automatic startup through systemd services.
+LitD requires a wallet before it can operate:
 
-The initial LITD startup requires manual intervention to create and unlock the wallet. Users start LITD in one terminal session, which will pause waiting for wallet creation. In a separate terminal session, users execute wallet creation commands that establish the Lightning Network wallet and generate the seed phrase for backup. The wallet creation proces
+1. Start LitD manually in one terminal:
+
+```bash
+litd
+```
+
+2. In a separate terminal, create the wallet:
+
+```bash
+lncli create
+```
+
+3. Set a wallet password and record the **24-word seed phrase** securely.
+
+4. Configure automatic unlocking for production:
+
+```bash
+echo "YourWalletPassword" > ~/.lit/wallet-password
+chmod 600 ~/.lit/wallet-password
+```
+
+Add to `lit.conf`:
+
+```ini
+lnd.wallet-unlock-password-file=/home/youruser/.lit/wallet-password
+```
+
+5. Stop the manual process and enable the systemd service:
+
+```bash
+sudo systemctl enable litd
+sudo systemctl start litd
+```
+
+### Verification
+
+Confirm everything is working:
+
+```bash
+litcli status          # All services running
+lncli getinfo          # LND synced to chain
+tapcli assets list     # TAPD responding (empty list expected)
+tapcli universe federation list  # Universe connectivity
+sudo systemctl status litd       # Systemd health
+```
+
+If all five checks pass, your node is fully operational.
 
 ## Running a Taproot Assets Price Oracle
 <chapterId>b3f7d9a5-8c2e-4b6d-9a7f-5e1c3d8b6a76</chapterId>
 :::video id=1694f29f-e009-4f0d-99d7-5cedb540c81a:::
 
-### Setting Up Price Oracles for Edge Networks
+Up to this point, every Taproot Assets operation has stayed within a single asset type. But what happens when a payment needs to cross the boundary between two different assets, for example, when someone holding a stablecoin wants to pay a Lightning invoice denominated in bitcoin?
 
-Edge nodes serve as crucial intermediaries in the Taproot Assets ecosystem, facilitating seamless transactions between different asset types on the Lightning Network. To understand their function, consider a practical scenario where an edge node maintains both a stable coin channel with Alice and a regular Bitcoin channel with Bob. When Bob generates a Lightning invoice and sends it to Alice, she may prefer to pay using her stable coin holdings rather than Bitcoin directly.
+This is where **edge nodes** and **price oracles** enter the picture. Together, they enable cross-asset payments on Lightning without requiring both parties to hold the same asset.
 
-In this situation, Alice approaches the edge node with a specific request: she wants to send stable coins to the edge node, which will then forward the equivalent value in Bitcoin to Bob via the Lightning Network. The critical question becomes determining the exact exchange rate—how many stable coins must Alice send to ensure Bob receives the correct Bitcoin amount? This is where the price oracle becomes essential, serving as the authoritative source for real-time pricing information that enables accurate conversions between different asset types.
+### The Edge Node Concept
 
-The entire process operates through the Request for Quote (RFQ) system. Alice initiates an RFQ to the edge node, which consults its price oracle to calculate the current exchange rate based on Bitcoin's market price and the specific asset's valuation. The edge node then provides Alice with a precise quote, which she can either accept or reject. This mechanism ensures transparent, market-based pricing for cross-asset transactions while maintaining the Lightning Network's speed and efficiency.
+An **edge node** is a Lightning node that maintains channels in at least two different asset types. Consider this scenario:
 
-Price oracles function as sophisticated calculation engines that determine fair exchange rates between different assets in real-time. The demonstration price oracle queries external APIs to obtain current Bitcoin pricing information, maintains a registry of supported assets including their decimal precision and group key associations, and performs the mathematical calculations necessary to provide accurate conversion quotes. The oracle's decision-making process involves multiple considerations beyond simple price lookup, accounting for decimal display characteristics, applying appropriate scaling factors, and potentially differentiating between buy and sell operations.
+- **Alice** has a Taproot Assets channel funded with a US dollar stablecoin.
+- **Bob** has a standard Bitcoin Lightning channel.
+- An **edge node** sits between them, holding both a stablecoin channel (connected to Alice) and a Bitcoin channel (connected to Bob).
 
-### Technical Implementation and Configuration
+When Bob generates a Lightning invoice and sends it to Alice, she does not need to own any bitcoin. Alice sends stablecoins to the edge node, which converts them and forwards the corresponding bitcoin to Bob. In other words, the edge node acts as a bridge: it absorbs one asset on one side and releases another on the other side.
 
-The price oracle implementation begins with essential imports and configuration settings that establish its operational parameters. The code structure includes provisions for making the oracle publicly accessible, allowing multiple nodes across the network to utilize its services rather than requiring each node to maintain its own private oracle. This public accessibility enhances network efficiency and reduces redundant infrastructure requirements.
+### The Request for Quote (RFQ) System
 
-Asset support configuration represents one of the most critical aspects of the oracle implementation. The system requires explicit declaration of which assets the oracle will support, preventing unauthorized or unknown assets from being processed. This is accomplished through asset ID specification for individual assets or group key designation for fungible asset families. Group keys prove particularly valuable for stable coin implementations, where multiple minting rounds create different asset IDs that should be treated as equivalent and interchangeable.
+The critical question is: **how many stablecoin units must Alice send to cover Bob's bitcoin invoice?**
 
-Decimal display configuration addresses the practical need for fractional asset transactions, particularly important for stable coin implementations. When creating a US dollar-based stable coin, the recommended decimal display setting of six provides substantial precision. This means that what appears as one dollar of the stable coin is actually represented internally as one million base units (1,000,000), ensuring users can send precise amounts including fractions of cents while maintaining mathematical precision.
+The **RFQ (Request for Quote)** system answers this:
 
-Scaling factors represent an additional layer of precision management operating at the computational level. While decimal display addresses user-facing precision requirements, scaling factors ensure that underlying mathematical operations maintain accuracy throughout the calculation process. This additional scaling makes internal numbers even larger during processing, preventing precision loss that could occur with floating-point arithmetic operations.
+1. Alice's node receives Bob's invoice and recognizes it needs bitcoin but only holds stablecoins.
+2. Alice's node sends an RFQ request to the edge node.
+3. The edge node consults its **price oracle** for the current exchange rate.
+4. The edge node returns a quote with the exact stablecoin amount required.
+5. Alice's node evaluates the quote and accepts or rejects it.
 
-The build process follows standard Go development practices, utilizing the provided Makefile for compilation. Once built, the resulting binary can be deployed to the appropriate location on the server, typically in the standard Go binary directory. System service management through systemd provides reliable oracle operation with automatic restart capabilities and proper logging integration, ensuring the oracle starts automatically on system boot and maintains consistent operation.
+This negotiation happens in milliseconds, transparently, before the payment is routed.
 
-### Node Configuration and Practical Demonstration
+### How the Price Oracle Works
 
-Integrating a price oracle with a Lightning Network daemon requires minimal configuration changes, accomplished through a single configuration line specifying the oracle's network location. For nodes running their own local price oracle, the configuration simply references localhost with the appropriate port number. Nodes accessing a remote price oracle specify the IP address or hostname of the oracle server instead. This flexibility allows for both centralized oracle services serving multiple nodes and distributed architectures where each node maintains its own oracle instance.
+The **price oracle** calculates fair exchange rates. Key aspects:
 
-The demonstration environment consists of two signet nodes configured to showcase the complete RFQ workflow. The primary node functions as an edge node, running both the Lightning Network daemon and the price oracle service, maintaining channels with various assets and serving as the conversion point between different asset types. The secondary node operates as a client, holding asset balances and initiating transactions requiring price oracle consultation.
+- **External price feeds**: queries cryptocurrency exchanges or aggregators for current Bitcoin prices. For production, use multiple independent sources.
+- **Asset registry**: explicitly lists supported assets by asset ID or group key. Group keys are especially useful for stablecoins with multiple minting rounds.
+- **Decimal display**: defines how the smallest unit relates to the human-readable value. For a USD stablecoin, a decimal display of **6** means 1 dollar = 1,000,000 base units, enabling sub-cent precision.
+- **Scaling factors**: additional internal precision during calculations to prevent floating-point rounding errors.
 
-Invoice creation demonstrates the sophisticated asset handling capabilities of the modern Lightning Network implementation. When creating an invoice for asset payments, the system allows specification of group keys rather than specific asset IDs, providing flexibility for fungible asset families like stable coins. The invoice creation command includes the asset amount requested, the group key for acceptable assets, and the RFQ public key identifying the edge node that will facilitate the conversion.
+### Building and Deploying the Oracle
 
-Payment execution involves automatic consultation of the price oracle to determine the appropriate conversion rate. When the paying node processes the asset invoice, it contacts the specified edge node's price oracle to request a quote for the conversion. The oracle responds with precise calculations based on current market conditions, asset characteristics, and specific amounts involved in the transaction. This automation eliminates manual calculation while ensuring fair market-based pricing for all parties.
+```bash
+cd price-oracle
+make build
+sudo cp price-oracle /usr/local/bin/
+```
 
-### Validation and Best Practices
+Create a systemd service for automatic management, then enable and start it.
 
-Verification of the price oracle's accuracy involves comparing actual transaction results against expected calculations based on the oracle's reported Bitcoin price and asset amounts involved. The demonstration includes a comprehensive spreadsheet tool performing these calculations, allowing users to verify that oracle quotes and resulting transactions produce mathematically correct results.
+![Terminal showing price oracle log output with Bitcoin price at 107570 dollars and QueryAssetRates response](assets/en/022.webp)
 
-The verification process examines several key metrics: the Bitcoin price reported by the oracle during the transaction, the number of asset units transferred, the equivalent Bitcoin value calculated by the oracle, and final channel balance changes on both nodes. When these values align with mathematical expectations based on the oracle's pricing, it confirms the system operates correctly and provides fair, accurate conversions.
+### Connecting the Oracle to Your Node
 
-Log files generated by the price oracle provide additional verification data, showing the exact Bitcoin price used for calculations and the timestamp of the pricing query. This information enables precise reconstruction of the oracle's decision-making process and validates that pricing information was current and accurate at transaction time.
+A single configuration line in `lit.conf`:
 
-Key considerations for production deployments include implementing robust price feeds from multiple sources, carefully configuring asset support policies, and maintaining comprehensive logging for audit and debugging purposes. The decimal display and scaling factor configurations require careful consideration based on specific assets being supported and precision requirements of intended use cases.
+```ini
+taproot-assets.experimental.rfq.priceoracleaddress=localhost:8095
+```
 
-The RFQ system's flexibility in supporting both individual asset IDs and group keys makes it particularly well-suited for stable coin implementations and other scenarios where multiple related assets should be treated as fungible. This capability, combined with automated pricing provided by oracles, creates a powerful foundation for building sophisticated financial applications on the Lightning Network while maintaining the decentralized, trustless characteristics that make Bitcoin-based systems attractive.
+For a remote oracle, replace `localhost` with the server's IP address.
 
+![Terminal showing lit.conf with Taproot Assets experimental RFQ settings and price oracle address configuration](assets/en/023.webp)
+
+### Practical Demonstration
+
+With two **signet** nodes (one edge node with oracle, one client), the full RFQ workflow:
+
+**Creating an invoice with a group key:**
+
+```bash
+litcli invoices addholdinvoice --amt_msat 50000000 --asset_group_key <GROUP_KEY> --rfq_peer_pubkey <EDGE_NODE_PUBKEY>
+```
+
+**Paying the invoice:**
+
+```bash
+litcli payinvoice <INVOICE>
+```
+
+Behind the scenes, the RFQ negotiation happens automatically: quote request, oracle calculation, acceptance, stablecoin transfer, bitcoin forwarding.
+
+![Terminal showing litcli addinvoice command creating an asset invoice with group_key and rfq_peer_pubkey parameters](assets/en/024.webp)
+
+### Verifying Oracle Accuracy
+
+- **Oracle logs**: show the exact Bitcoin price used, timestamps, and calculations.
+- **Spreadsheet verification**: enter the reported price, asset amounts, and decimal display to independently calculate the expected conversion and compare with actual channel balance changes.
+
+### Production Considerations
+
+- **Multiple price feeds**: query at least two or three independent sources.
+- **Asset support policies**: only support assets whose market dynamics you understand.
+- **Comprehensive logging**: every quote, price fetch, and calculation should be logged.
+- **Monitoring and alerting**: set up alerts for oracle downtime or price feed failures.
+
+The combination of edge nodes, the RFQ system, and price oracles creates a powerful infrastructure for multi-asset Lightning payments: Alice pays with stablecoins, Bob receives bitcoin, and the edge node facilitates the conversion at a market-determined rate, all within the speed and privacy guarantees of the Lightning Network.
+
+![Editor showing channel balance data with chan_id, local and remote balances, and asset group information after RFQ payment](assets/en/025.webp)
 
 # Final Section
 <partId>9469342a-870c-11f0-88da-ff4cff486fe3</partId>
@@ -685,11 +1335,10 @@ The RFQ system's flexibility in supporting both individual asset IDs and group k
 <chapterId>20570fc0-87e9-11f0-bdd0-cff9e0b16538</chapterId>
 <isCourseReview>true</isCourseReview>
 
+## Final Exam
+<chapterId>a7f2c891-87e9-11f0-b3d4-2f8e9c4a6b15</chapterId>
+<isCourseExam>true</isCourseExam>
+
 ## Conclusion
 <chapterId>43393838-870d-11f0-b490-cb9bbebd87d5</chapterId>
 <isCourseConclusion>true</isCourseConclusion>
-
-
-
-
-

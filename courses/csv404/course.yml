@@ -155,67 +155,95 @@ tags:
   - technical-analysis
 
 videos:
+  # Part 2: Protocol Theory (5 videos)
+  - id: c8788ec8-780c-46ab-ac5c-9eb0dcd20590
+    youtube:
+      - en: XFqOxxOcRHs
+    peertube: []
   - id: f45eeea0-6583-498b-af6a-c148cbe0ed00
-    youtube: []
+    youtube:
+      - en: -yiTtO_p3Cw
     peertube:
       - en: fhfFF7SZJSdYqL4SdWYA8N
+  - id: 92add1f7-d1c7-4846-99e1-31d0b43fcc6e
+    youtube:
+      - en: a6Lxz1ycddg
+    peertube: []
   - id: aa81d3c5-27a6-46a2-9f7d-5097c2aa63ec
-    youtube: []
+    youtube:
+      - en: xtklaJHfKIY
     peertube:
       - en: rQuTfJjASzq34tsan7VxV2
   - id: 939fd065-61ec-42e0-9f19-543d7bb4f3fd
-    youtube: []
+    youtube:
+      - en: 8Qi7VOvKe5o
     peertube:
       - en: dpLSZpcyGEYk79ejXn2eft
+  # Part 3: Installation (4 videos)
   - id: 70e894f7-3759-48fc-9fcb-a3a1b33a3214
-    youtube: []
+    youtube:
+      - en: Z7KLo-pGBJA
     peertube:
       - en: mA2x1KboohWJmXUDJ9SQZf
   - id: 30cca1f1-d4c8-4d9b-88d0-d8e9e4f4986b
-    youtube: []
+    youtube:
+      - en: pYh-4EfdZaM
     peertube:
       - en: mcPAU6CfXJXLfXEcLxVMaG
   - id: c488fe53-5110-4e43-8b9c-7773d9969078
-    youtube: []
+    youtube:
+      - en: EaPZ3EbTWhE
     peertube:
       - en: eXQFEHkp4hEpdYnYnMvFZd
   - id: 42e7cc5c-18cf-47b0-9d42-879f14733cd5
-    youtube: []
+    youtube:
+      - en: o6U812eSE_Q
     peertube:
       - en: ocXrhEsZQa4oa5sCQsSPbZ
+  # Part 4: Asset Operations (6 videos)
   - id: 3bc078b4-183d-4970-b63e-66862a452566
-    youtube: []
+    youtube:
+      - en: FccI6j0mxuE
     peertube:
       - en: ityAbqrEZfPs93iawuDjoe
   - id: 89819d63-3011-4ac6-a1f7-66babd2134b8
-    youtube: []
+    youtube:
+      - en: IL4ojWyFPSk
     peertube:
       - en: cHgAkdbDVYk48cqXgcuxfj
   - id: 88cdc6ce-22f6-4ddd-90a3-da345a85eef1
-    youtube: []
+    youtube:
+      - en: o30AiqbsYhw
     peertube:
       - en: aTm6QdPxbyppfLeCjfbh85
   - id: db1c8655-eb0b-49a1-83e8-dc0b16a35582
-    youtube: []
+    youtube:
+      - en: UEaNXu8me24
     peertube:
       - en: 5vAeFUtoMWDQX8Qu7byGgh
   - id: a9a437a4-1664-4786-a4a8-6e78082abe59
-    youtube: []
+    youtube:
+      - en: qBTGxSHpyDo
     peertube:
       - en: v7pAUKB85wcMy6D57ueJjc
   - id: 03e4464a-7ce8-4fb1-889c-83f8a52ac315
-    youtube: []
+    youtube:
+      - en: hYUBA-AxrtE
     peertube:
       - en: jFzTjuZN22z35NNhNpcDHi
+  # Part 5: Advanced (3 videos)
   - id: df88fe13-4a2f-4251-82db-89ce07131947
-    youtube: []
+    youtube:
+      - en: 0nvkrWfxW3k
     peertube:
       - en: mQmPyo5Z1S832UWykk2hAm
   - id: 9b884ff3-fca1-4488-bdd9-bb1d27ed5af4
-    youtube: []
+    youtube:
+      - en: lopHP_nF0tE
     peertube:
       - en: mHZmJo6wBXojdbwU8dRnLV
   - id: 1694f29f-e009-4f0d-99d7-5cedb540c81a
-    youtube: []
+    youtube:
+      - en: m0BSUqNZT_U
     peertube:
       - en: vxWLYZxxNTBYAsR5V16Ahz

@@ -1,0 +1,9 @@
+question: "Which CLI command does the receiver use to generate a new TAP address for receiving assets?"
+answer: "tapcli addrs new --asset_id <ASSET_ID> --amt <AMOUNT>"
+wrong_answers:
+  - "tapcli assets receive --asset_id <ID> --amt <AMOUNT>"
+  - "tapcli addrs generate --type TAP --amount <AMOUNT>"
+  - "tapcli wallet newaddr --asset <ID> --value <AMOUNT>"
+explanation: >-
+  The receiver uses the tapcli addrs new command with the --asset_id and --amt flags to generate a new TAP address. This address is specific to the particular asset and amount being requested. The addrs subcommand handles address management, while the new action creates a fresh receiving address.
+reviewed: false

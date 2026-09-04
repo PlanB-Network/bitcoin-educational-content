@@ -1,0 +1,9 @@
+question: "What are the two security elements required before making API calls to TAPD?"
+answer: "The TLS certificate together with the admin macaroon file"
+wrong_answers:
+  - "An API key paired with an OAuth access token"
+  - "A username-password pair and a session cookie"
+  - "An SSH keypair combined with a signed bearer token"
+explanation: >-
+  TAPD's API security model requires two elements: the TLS certificate, which ensures encrypted communication between your application and the TAPD node, and the admin macaroon, which provides authentication and authorization for every API request. These are the same credentials used by the CLI but must be explicitly loaded and passed in API calls.
+reviewed: false

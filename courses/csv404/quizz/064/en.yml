@@ -1,0 +1,13 @@
+question: Why does asset minting in Polar require that nodes be funded with bitcoin before proceeding?
+answer: Because asset minting creates on-chain transactions that consume bitcoin for transaction fees
+wrong_answers:
+  - Because the minted asset's value is derived from the amount of bitcoin locked in the funding transaction
+  - Because TAPD requires a bitcoin collateral deposit that is returned after the asset is successfully created
+  - Because Polar uses a proof-of-stake mechanism where bitcoin holdings determine minting priority
+explanation: >-
+  Asset minting in TAPD produces on-chain Bitcoin transactions that require
+  transaction fees paid in bitcoin. Without funded nodes, these transactions
+  cannot be created. Polar provides built-in funding mechanisms that generate
+  testnet balances automatically, but nodes must be funded before any minting
+  operation can proceed.
+reviewed: false

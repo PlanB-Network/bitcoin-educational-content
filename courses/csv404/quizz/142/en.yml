@@ -1,0 +1,9 @@
+question: "What happens if the confirmation string is omitted from the API burn request payload?"
+answer: "The API rejects the burn request entirely and the operation does not proceed"
+wrong_answers:
+  - "The API queues the burn request and waits for a follow-up confirmation call"
+  - "The API executes the burn but flags it as unconfirmed in the response metadata"
+  - "The API returns a warning but still processes the burn after a ten-second delay"
+explanation: >-
+  Without the required confirmation string, the API rejects the burn request entirely. This is a deliberate safety mechanism that forces the developer to explicitly acknowledge that assets will be permanently destroyed. The confirmation string is mandatory, not optional, and the burn simply will not execute without it.
+reviewed: false

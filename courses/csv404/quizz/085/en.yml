@@ -1,0 +1,9 @@
+question: "According to the best practices for universe federation management, how should CLI and API be used?"
+answer: "Use CLI for manual administration tasks and the REST or gRPC API for production automation workflows"
+wrong_answers:
+  - "Use the CLI exclusively for all operations since the API is experimental and not yet production-ready"
+  - "Use the API for initial setup and configuration, then switch entirely to CLI for ongoing operations"
+  - "Use CLI only for read-only queries and restrict all write operations to the API for audit logging"
+explanation: >-
+  The recommended best practice is to use CLI for administration and API for automation. Manual operations like adding or removing federation members are best done through tapcli, while production workflows that need programmatic control should use the REST or gRPC APIs. This separation keeps manual tasks simple while enabling scalable automation for production systems.
+reviewed: false

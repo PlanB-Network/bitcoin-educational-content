@@ -1,0 +1,9 @@
+question: "How is a unique asset ID derived in the Taproot Assets Protocol?"
+answer: "From the SHA-256 hash of the genesis outpoint, the asset tag, and the asset metadata"
+wrong_answers:
+  - "From a random number generator seeded by the minting node's public key and a timestamp"
+  - "From the SHA-256 hash of the asset name, supply amount, and the minter's LND node ID"
+  - "From the RIPEMD-160 hash of the minting transaction ID and the asset's group key"
+explanation: >-
+  Each Taproot asset is identified by a unique asset ID derived from the SHA-256 hash of three components: the genesis outpoint (the Bitcoin transaction output that anchored the creation), the asset tag, and the asset metadata. This deterministic derivation means any node can independently verify an asset's identity by recomputing the hash from these inputs.
+reviewed: false

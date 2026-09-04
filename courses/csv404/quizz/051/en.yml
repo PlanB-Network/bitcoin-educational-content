@@ -1,0 +1,12 @@
+question: What two binaries does the TAPD compilation process produce?
+answer: tapd (the main daemon) and tapcli (the command-line interface)
+wrong_answers:
+  - tapd (the main daemon) and tapwallet (the built-in wallet manager)
+  - tapcli (the command-line interface) and tapserver (the REST API server)
+  - tapd (the main daemon) and tapproof (the proof verification utility)
+explanation: >-
+  Running make install in the taproot-assets repository compiles two binaries
+  that are installed in the Go binary directory (typically $HOME/go/bin/):
+  tapd, which is the main Taproot Assets daemon, and tapcli, which is the
+  command-line interface for interacting with the daemon.
+reviewed: false

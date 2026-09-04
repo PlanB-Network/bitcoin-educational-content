@@ -1,0 +1,9 @@
+question: "What is the trade-off of using Neutrino instead of Bitcoin Core as LitD's backend?"
+answer: "Neutrino does not require a full node but offers reduced privacy and verification guarantees"
+wrong_answers:
+  - "Neutrino provides stronger privacy but requires significantly more disk space than Bitcoin Core"
+  - "Neutrino offers the same verification guarantees but cannot be used on testnet"
+  - "Neutrino requires a full node but provides faster initial synchronization times"
+explanation: >-
+  Neutrino is a lighter-weight alternative to Bitcoin Core that relies on compact block filters instead of downloading and validating the full blockchain. While this eliminates the need to run a full node, it comes with trade-offs in privacy and verification guarantees because the node depends on third-party servers for block filter data rather than validating everything independently.
+reviewed: false

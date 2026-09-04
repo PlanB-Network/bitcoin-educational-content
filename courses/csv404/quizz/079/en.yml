@@ -1,0 +1,9 @@
+question: "What is the purpose of the 'lncli create' command when first starting LitD?"
+answer: "It creates a new wallet and generates a seed phrase for backup and recovery"
+wrong_answers:
+  - "It initializes the LitD configuration file and creates required directories"
+  - "It creates a new Lightning channel with a default peer for initial connectivity"
+  - "It registers the node with the Lightning Network and assigns a public key"
+explanation: >-
+  On first startup, LitD requires wallet creation through the 'lncli create' command. This generates a seed phrase that serves as the ultimate backup for the wallet, allowing restoration of the wallet and all associated funds. The seed phrase must be recorded securely as it is the only way to recover the wallet if the node is lost.
+reviewed: false

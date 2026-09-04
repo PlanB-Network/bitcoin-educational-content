@@ -1,0 +1,12 @@
+question: Why is enabling auto-mining an essential configuration step in Polar before experimenting with TAPD?
+answer: Because minting, sending, and burning all need on-chain confirmations, and auto-mining generates blocks automatically
+wrong_answers:
+  - Because TAPD cannot establish a connection to LND unless a hundred blocks have already been mined on the network
+  - Because auto-mining generates the cryptographic zero-knowledge proofs that TAPD needs to validate asset ownership
+  - Because Polar's LND nodes require a minimum block height before they are able to open any new Lightning payment channels at all
+explanation: >-
+  TAPD operations such as minting, sending, and burning assets all create on-chain
+  transactions that need block confirmations. Without auto-mining enabled, you would
+  have to manually trigger block creation each time. Auto-mining automates this
+  process so blocks are produced automatically, allowing seamless testing.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What does the '--new_grouped_asset' flag accomplish during minting?"
+answer: "It creates an asset group with a group key, letting future minting add new units to that asset"
+wrong_answers:
+  - "It assigns the asset to a predefined category for organization within the local universe store"
+  - "It bundles the asset with other assets in the current batch so they share a single asset ID"
+  - "It enables the asset to be transferred across multiple Lightning channels simultaneously"
+explanation: >-
+  The '--new_grouped_asset' flag (previously called '--enable_emission') creates an asset group with a group key during the initial mint. This group key can be referenced in future minting operations to add new units to the same asset, enabling expandable supply. Assets within the same group share a common group identifier and are fungible with one another, even if created in separate minting events.
+reviewed: false

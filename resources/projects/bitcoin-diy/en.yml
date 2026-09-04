@@ -1,0 +1,10 @@
+description: |
+  Bitcoin.diy is a Bitcoin-only education and review platform run by a solo founder with 20 years in IT and five years in Bitcoin. It covers self-custody setup, hardware wallet comparisons (Coldcard Mk4, Trezor Safe 5, Ledger Flex), exchange reviews, and beginner-to-intermediate guides. No altcoins. No noise. Written the way a knowledgeable friend explains it, not a finance blog dressing it up.
+# Proofreading metadata
+proofreading:
+  - language: en
+    last_contribution_date: 2026-04-17
+    urgency: 1
+    contributor_names:
+      - MrBitcoinDIY
+    reward: 0

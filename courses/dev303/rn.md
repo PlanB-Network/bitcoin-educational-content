@@ -74,7 +74,7 @@ Ni mwiteguye gukura mu buhinga bwanyu bwa Lightning Network na Rust? Reka tugend
 
 <chapterId>af7108eb-4974-5ac2-9784-d2a5c0d77a45</chapterId>
 
-<Id y'umwigisha>e7e63d59-ea19-4960-9446-61bd4dcc98f0</Id y'umwigisha>
+<professorId>e7e63d59-ea19-4960-9446-61bd4dcc98f0</professorId>
 
 
 :::video id=12a518cf-64be-43f1-b6d4-f6592a1324ea:::

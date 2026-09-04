@@ -1,0 +1,8 @@
+question: At what granularity does the Auto-Fees algorithm apply fee adjustments across a node's channels?
+answer: On a per-peer basis, tailoring adjustments to the specific routing dynamics of each channel relationship
+wrong_answers:
+  - As a blanket policy applied uniformly across all channels on the entire node
+  - Only to the five highest-capacity channels while leaving smaller channels unchanged
+  - Randomly across different channel groups to test which fee levels generate the most revenue
+explanation: |
+  Auto-Fees applies its logic on a per-peer basis rather than enforcing a blanket policy across the entire node. Each channel relationship receives individually tailored fee adjustments based on its specific routing dynamics and traffic patterns. This targeted approach ensures that strategic peers with high traffic aren't mispriced due to conditions on other channels. The operator retains the ability to manually override any specific channel's fees regardless of the algorithm's suggestions.

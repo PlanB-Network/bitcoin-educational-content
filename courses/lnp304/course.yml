@@ -1,8 +1,11 @@
 id: 068234ae-1524-4947-9cb0-ea741b7f7c0f
 topic: protocol
 subtopic: lightning
-level: intermediate
-hours: 16
+type: practice
+level: advanced
+hours: 6
+teaching_format: self_paced
+license: CC-BY-SA-V4
 test_only: true
 
 professors_id:

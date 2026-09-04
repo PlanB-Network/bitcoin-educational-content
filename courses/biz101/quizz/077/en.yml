@@ -1,0 +1,12 @@
+question: "In the bakery example, how are Bitcoin-to-euro conversion fees treated in the accounting records?"
+answer: "As an expense deducted from revenue"
+wrong_answers:
+  - "As a reduction in the sale price charged to the customer"
+  - "As a capital loss on the income statement"
+  - "As a tax-deductible credit applied at year-end"
+explanation: >-
+  Conversion fees are recorded as a separate business expense. The full sale
+  amount (e.g. 25 euros) is recorded as revenue, and the conversion fees
+  (e.g. 0.375 euros) are deducted as an operating expense. This keeps revenue
+  reporting accurate while tracking the cost of accepting Bitcoin payments.
+reviewed: false

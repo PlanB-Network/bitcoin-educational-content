@@ -1,0 +1,13 @@
+question: "When a bakery retains 50% of a Bitcoin payment and converts the other 50% to euros, how is the retained Bitcoin recorded?"
+answer: "As a digital asset on the balance sheet"
+wrong_answers:
+  - "As revenue in the income statement alongside the converted euros"
+  - "As an off-balance-sheet item disclosed only in footnotes"
+  - "As a prepaid expense until it is eventually converted"
+explanation: >-
+  The retained Bitcoin represents a tangible holding that the business owns,
+  so it must appear on the balance sheet as a digital asset. The full sale
+  amount is still recorded as revenue, but the portion kept in Bitcoin is
+  classified as an asset rather than cash. Any change in its value at
+  year-end creates an unrealized gain or loss disclosed in financial notes.
+reviewed: false

@@ -1,0 +1,12 @@
+question: "When a business immediately converts all Bitcoin payments into fiat currency, how does Bitcoin appear on the balance sheet?"
+answer: "It does not appear on the balance sheet at all"
+wrong_answers:
+  - "As a current asset under digital currencies"
+  - "As revenue in the income statement"
+  - "As a long-term investment"
+explanation: >-
+  When a business converts Bitcoin to fiat immediately upon receipt, no Bitcoin
+  holdings remain. The balance sheet only reflects the euros (or other fiat)
+  received after conversion. The Bitcoin served as a transient payment method,
+  not a retained asset.
+reviewed: false

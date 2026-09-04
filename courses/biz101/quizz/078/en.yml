@@ -1,0 +1,13 @@
+question: "A freelance designer receives 0.1 BTC for services when the rate is 30,000 euros per BTC, and holds it until year-end when 1 BTC equals 35,000 euros. How should the 500-euro difference be handled?"
+answer: "Disclosed as an unrealized gain in financial notes, but not included in the profit/loss statement"
+wrong_answers:
+  - "Recorded as additional revenue of 500 euros in the income statement"
+  - "Ignored entirely until the Bitcoin is actually sold"
+  - "Deducted from the original revenue to adjust the service price"
+explanation: >-
+  Unrealized gains on retained Bitcoin are tracked at year-end based on the
+  current market value. In this example, the 0.1 BTC originally worth 3,000
+  euros is now worth 3,500 euros, creating a 500-euro unrealized gain. This
+  gain is disclosed in financial notes for transparency but is not recognized
+  as income until the Bitcoin is actually sold.
+reviewed: false

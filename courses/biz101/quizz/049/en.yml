@@ -1,9 +1,9 @@
-question: What key advantage does paper money have over coins in traditional payment systems?
-answer: Increased portability and efficiency
+question: "What is one limitation of traditional payment systems that reduces financial inclusion?"
+answer: "They require users to have a bank or card account, excluding unbanked populations"
 wrong_answers:
-  - Enhanced intrinsic value through precious metals
-  - Automatic verification of every transaction
-  - Complete elimination of counterfeit risks
+  - "They only work during business hours in the merchant's time zone"
+  - "They charge the same flat fee regardless of transaction size"
+  - "They are limited to domestic transactions within a single country"
 explanation: |
-  Paper money, being lightweight and easier to transport than coins, enabled more efficient long-distance trade and reduced logistical challenges.
-reviewed: true
+  Traditional payment methods like cards, wire transfers, and digital wallets all require a linked bank or card account. This automatically excludes people who do not have access to banking services, limiting financial inclusion. The chapter identifies this as one of several key limitations of the existing payments industry.
+reviewed: false

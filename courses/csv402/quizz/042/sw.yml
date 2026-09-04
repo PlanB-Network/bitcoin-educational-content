@@ -6,4 +6,4 @@ wrong_answers:
   - Zinabadilishwa kuwa Bitcoin UTXO za kawaida
 explanation: |
   Malipo yanapofanywa, RGB State Transition hurekebisha matokeo ya RGB ili kugawa upya vipengee kulingana na salio jipya la kituo.
-reviewed: false
+reviewed: true

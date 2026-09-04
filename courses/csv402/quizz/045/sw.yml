@@ -5,5 +5,5 @@ wrong_answers:
   - RGB22
   - RGB25
 explanation: |
-  RGB20 ni kiwango kinachotumiwa kuunda na kudhibiti tokeni zinazoweza kuvuliwa kupitia itifaki ya RGB.
-reviewed: false
+  RGB20 ni kiwango kinachotumiwa kuunda na kudhibiti tokeni zinazoweza kuvuliwa kupitia protocol ya RGB.
+reviewed: true

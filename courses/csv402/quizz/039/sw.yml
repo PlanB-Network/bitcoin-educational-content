@@ -6,4 +6,4 @@ wrong_answers:
   - Toleo la RGB '<ContractId>' myContractPBN.RGB
 explanation: |
   Amri ya "RGB export" inatumika kutoa Contract kutoka Stash na kuihifadhi kama faili kwa ajili ya kushiriki kwa urahisi.
-reviewed: false
+reviewed: true

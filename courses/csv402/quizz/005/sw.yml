@@ -6,4 +6,4 @@ wrong_answers:
   - Mchanganyiko wa UTXO kadhaa
 explanation: |
   RGB inafafanua Single-Use Seal kama njia maalum, ambayo inaweza kufungwa na matumizi ya sehemu hii (txid + nambari ya pato).
-reviewed: false
+reviewed: true

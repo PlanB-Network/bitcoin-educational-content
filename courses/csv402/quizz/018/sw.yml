@@ -3,7 +3,7 @@ answer: State Transition, Genesis, na State Extension
 wrong_answers:
   - Uumbaji wa Seal, Maadhimisho ya Contract, na Uthibitishaji wa Mwisho
   - Uhamisho wa UTXO, Uzalishaji wa Uthibitisho, na Hash Commitment
-  - Vifurushi vya Mpito, Mihuri ya matumizi Moja, na Uundaji wa Valency
+  - Vifurushi vya Mpito, single use seal, na Uundaji wa Valency
 explanation: |
-  Operesheni hizi huunda au kurekebisha hali ya Contract, huku kikihakikisha uhalali wake kupitia nanga za Bitcoin.
-reviewed: false
+  Operesheni hizi huunda au kurekebisha hali ya Contract, huku kikihakikisha uhalali wake kupitia Anchor za Bitcoin.
+reviewed: true

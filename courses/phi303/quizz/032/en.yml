@@ -1,0 +1,9 @@
+question: "What lesson does the Chinese counterexample teach about stability?"
+answer: "Stability comes from heeding public opinion, not from the democratic form of government."
+wrong_answers:
+  - "Communist systems are inherently more stable than democracies."
+  - "Stability requires a one-party state."
+  - "Public opinion plays no role outside democracies."
+explanation: |
+  A government of any form is stable and popular when it gauges the public's pulse (as La Boétie prescribed) — and unstable when it doesn't (Great Leap Forward, Cultural Revolution, COVID policies). It is never the form; it is the practice.
+reviewed: false

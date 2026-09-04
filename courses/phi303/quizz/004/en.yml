@@ -1,0 +1,9 @@
+question: "What defines the Machiavellian school's approach to politics?"
+answer: "Realism: analyzing society as it is, rejecting idealistic and ideological views."
+wrong_answers:
+  - "Idealism: designing the best possible society from first principles."
+  - "Legalism: studying constitutions to understand how power works."
+  - "Optimism: the belief that political progress is inevitable."
+explanation: |
+  Mosca, Michels, Pareto and Sorel refused to take at face value the words, beliefs and ideals of men, and treated politics as the struggle for social power — regardless of regime.
+reviewed: false

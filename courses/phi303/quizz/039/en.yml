@@ -1,0 +1,9 @@
+question: "What did Mises call the 'democracy of the market'?"
+answer: "Individuals choosing daily through voluntary exchange \u2014 voting continuously with their full revenue."
+wrong_answers:
+  - "Shareholder votes in listed companies."
+  - "State referendums on economic policy."
+  - "The election of central bank governors."
+explanation: |
+  Against the rare, diluted act of voting, the market choice is daily, direct and always effective. 'Capitalism is the consummation of consumers' self-determination.'
+reviewed: false

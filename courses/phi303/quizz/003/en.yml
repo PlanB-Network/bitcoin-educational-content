@@ -1,0 +1,9 @@
+question: "What is the 'iron law of oligarchy'?"
+answer: "As organizations grow, decision-making inevitably shifts to a small minority that diverges from the majority's interests."
+wrong_answers:
+  - "The rule that only the wealthy can hold political office."
+  - "The tendency of democracies to abolish private property."
+  - "The law that all oligarchies eventually become democracies."
+explanation: |
+  Robert Michels demonstrated it by studying the German SPD: even a party formally committed to internal democracy ended up run by a few. The pattern holds for all organizations.
+reviewed: false

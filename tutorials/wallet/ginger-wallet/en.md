@@ -17,13 +17,13 @@ Ginger Wallet is wallet software for computers only (no mobile application).
 ## What is Coinjoin?
 
 
-The **coinjoin** is a special Bitcoin transaction structure which brings together several participants in a single collaborative transaction. This mechanism mixes the entries of different users into a common transaction, making it extremely difficult - if not often impossible, if done properly - to trace funds. As a result, it becomes almost impossible for an outside observer to identify with certainty the origin and destination of the bitcoins involved, unlike in conventional Bitcoin transactions.
+A **coinjoin** improves Bitcoin privacy by combining several participants' inputs and outputs in a single transaction. This makes it harder for someone analyzing the blockchain to determine which resulting coins belong to which participant, and to connect incoming payments with later spending. It helps protect details about your balance, income and spending from people you transact with.
 
 
-For you, as a user, coinjoin helps preserve your confidentiality. For example, if you receive a donation of 10,000 sats on a Bitcoin address, the sender can trace these funds and, in some cases, deduce that you hold a larger quantity of bitcoins, or observe your activities. By making a coinjoin after this 10,000 sats donation, you break the traceability: the sender will no longer be able to derive any information about you from this payment.
+For example, someone who sends you a donation knows the receiving address and can follow its activity on the blockchain. Using coinjoin before spending those funds makes it harder for that sender to identify your later payments or infer your other holdings. This helps you keep the rest of your financial activity private while continuing to use Bitcoin normally.
 
 
-The Chaumian coinjoin offers a high level of security, as the funds remain under the exclusive control of the user at all times. Even the operators of the coordinating servers cannot divert participants' bitcoins under any circumstances. Neither users nor coordinators need to trust each other: each retains control of his or her private keys, and remains solely authorized to validate transactions. No third party can therefore appropriate your bitcoins during a coinjoin, nor establish a direct link between your inputs and outputs.
+Ginger combines this privacy benefit with **self-custody** through the WabiSabi protocol. Its anonymous credentials are designed to hide the link between input and output registrations. The coordinator organizes the round, while your wallet checks the proposed transaction and signs its own inputs. You keep your private keys and control of your funds throughout the process, without first depositing them with a mixing service.
 
 
 To learn more about coinjoin, check out Plan ₿ Academy's BTC 204 course :
@@ -105,7 +105,7 @@ This passphrase, once added, will be requested every time you try to access your
 ![screen](assets/fr/12.webp)
 
 
-Ginger automatically activates the default **Coinjoin** when you create your wallet. You are informed of this and can then customize the setting to suit your needs.
+After creating the wallet, open **Coinjoin Settings** and choose how you want to participate. Enable **Automatically start coinjoin** for background participation with eligible funds, or use the player to start manually.
 
 
 ![screen](assets/fr/13.webp)
@@ -133,7 +133,10 @@ You can create multiple wallets on Ginger Wallet. Just click on **Add a wallet**
 ![screen](assets/fr/16.webp)
 
 
-Ginger supports the use of hardware wallets via the standard Bitcoin Core interface, although direct integration from or to a hardware wallet is not yet available.
+Ginger supports ordinary receiving and sending with compatible hardware wallets through Bitcoin Core's Hardware Wallet Interface (HWI). In v2.0.26, you can also receive coinjoin outputs directly in a loaded hardware wallet, combining coinjoin with hardware-protected storage and saving a separate transfer. The software wallet signs the coinjoin inputs; the hardware wallet serves as the receiving destination.
+
+
+To use this route, verify a receiving address on the hardware device, then pause participation in the software wallet. Open its **Coinjoin Settings** and select the hardware wallet under **Coinjoin to this wallet** before starting again. Outputs arrive after each completed round, so review their privacy score there before later spending. Re-select the destination after restarting Ginger. Keep the hardware wallet's recovery words off the computer. The [cold-storage guide](https://docs.gingerwallet.io/hardware-wallets/exchange-to-cold-storage/) also explains how to complete multiple rounds in software before transferring to hardware.
 
 
 Compatible hardware wallets include (but are not limited to) :
@@ -202,14 +205,10 @@ In the Security tab, you can enable two-factor authentication, activate or deact
 
 
 - For two-factor authentication, make sure your authentication application supports the SHA256 protocol and 8-digit codes. Ginger Wallet requires an 8-digit 2FA code to enhance security. This longer format makes the code much harder to guess or compromise, offering greater protection against unauthorized access.
-- By default, all Ginger network traffic passes through Tor, eliminating the need for manual configuration. If Tor is already active on your system, Ginger will automatically give it priority.
+- Tor complements coinjoin by protecting your network privacy. Keep it enabled to hide your direct IP address from the services and peers reached through it, including the Coinjoin coordinator.
 
 
-But once you deactivate Tor in the settings, your privacy remains generally preserved, except in two situations:
-
-
-- during a Coinjoin, the coordinator could link your inputs and outputs to your IP address;
-- when broadcasting a transaction, a malicious node to which you connect could associate your transaction with your IP.
+When a buy/sell offer opens in an external browser, that browser uses its own network settings. The provider also receives the information you submit for the order. See [how Ginger handles wallet information](https://docs.gingerwallet.io/learn-privacy/information-sharing/) for details.
 
 
 Don't forget to press **Done** (in the bottom right-hand corner) each time, to save your settings. Some settings require Ginger Wallet to be restarted to take effect.
@@ -436,19 +435,19 @@ Protect the confidentiality of your bitcoins with **Coinjoin**, integrated direc
 It's up to you to choose the coinjoin strategy (automatic or manual) that suits you best.
 
 
-Ginger Coinjoin is ready to use as soon as you download it (no additional steps required). Automatically, Ginger Coinjoin runs in the background to protect your privacy with every transaction. In practice, the Coinjoin player will appear whenever you have a balance that can be anonymized.
+Ginger handles coinjoin registration and signing for you, making it practical to improve privacy without managing the protocol manually. Open a backed-up software wallet, let it synchronize, and review the cost preferences and output destination. With automatic participation enabled, Ginger can process eligible confirmed coins in the background while the application remains running.
 
 
-As for manual coinjoin start-up, it's a one-click operation. Start the round and wait for the coinjoin transaction to be built and confirmed. You'll see the anonymization score in the interface.
+For manual participation, press play in the Coinjoin player and follow the progress in its status display. Ginger takes care of joining a suitable round and building the transaction. Use the pause control when you want to stop further participation, allowing any critical transaction phase to finish before exiting. See the [Coinjoin usage guide](https://docs.gingerwallet.io/using-ginger/coinjoin/).
 
 
-Several mixes can be performed until the desired level of anonymity is reached. You can also exclude certain parts from the mix.
+The interface shows an estimated privacy score to help you follow progress toward your selected target. Ginger can continue through several rounds, and you can exclude specific coins from participation in the settings.
 
 
-By default, Ginger uses its own coordinator with all preconfigured parameters and guaranteed fees. Coinjoins of tokens worth more than 0.03 BTC incur a 0.3% coordinator fee in addition to the mining fee. Entries of 0.03 BTC or less, as well as remixes, are exempt from coordinator fees, even after a single transaction. Therefore, a payment made with Coinjoin funds allows both sender and receiver to remix their coins without incurring coordinator fees.
+With Ginger's default coordinator, inputs of 0.03 BTC (3,000,000 sats) or less are free of coordinator fees. Larger inputs normally pay 0.3% of their full value, and qualifying remixes are also exempt. Each successful round also pays mining fees. Review your cost preferences before starting.
 
 
-Ginger prefers coinjoins with more participants to smaller, faster rounds. Larger coinjoins offer more anonymity, lower costs and greater efficiency of block space.
+Larger rounds can give blockchain observers more possible input/output relationships to consider. To preserve the privacy gained from coinjoin, use fresh receiving addresses and avoid unnecessarily combining unrelated coins when you spend.
 
 
 
@@ -458,8 +457,8 @@ Ginger prefers coinjoins with more participants to smaller, faster rounds. Large
 The desire for decentralization and the preservation of privacy require the adoption of several best practices:
 
 
-- Always keep your seedphrase in a safe place off-line;
-- If you lose your computer or suspect unauthorized access, create a new wallet immediately. Transfer your funds to this new wallet and delete the old one;
+- Keep your recovery words and any original passphrase safely backed up off-line; both are needed to recover a passphrase-protected wallet;
+- If you lose access to your computer, recover from your backup on a trusted device. If the signing keys may have been exposed, create a wallet with new recovery words on a trusted device and transfer the remaining funds there;
 - Use a different address for each reception to avoid reusing addresses;
 - Always download your wallet applications exclusively from the official GitHub account or the official website.
 

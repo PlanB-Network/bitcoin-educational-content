@@ -1,0 +1,27 @@
+id: 692166c2-344c-4c25-bcc2-42b21d283b77
+name: SoloLuck
+category: mining
+
+links:
+  website: https://sololuck.io/
+  github: https://github.com/sololuckio
+  nostr: npub1c2y7zrl4fcrze0r6rguelarhcafedz98r9h3kzfs2xxw9ctesn8q2xg9zj
+
+tags:
+  - mining
+  - proof-of-work
+  - self-sovereignty
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-09-18
+    urgency: 1
+    contributor_names:
+      - sololuckio
+    reward: 0
+
+contributor_names:
+  - sololuckio
+
+license: CC-BY-SA-V4

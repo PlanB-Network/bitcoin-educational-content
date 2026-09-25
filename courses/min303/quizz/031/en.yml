@@ -1,0 +1,9 @@
+question: "What is the primary economic benefit of Bitcoin mining for nations?"
+answer: Securing economic sovereignty
+wrong_answers:
+  - Reducing national debt
+  - Generating renewable energy
+  - Attracting international investment
+explanation: |
+  The chapter states that Bitcoin mining allows countries to convert domestic energy into appreciating digital wealth, breaking cycles of debt and dependency on global lenders, which enhances national economic autonomy.
+reviewed: false

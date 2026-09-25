@@ -1,0 +1,9 @@
+question: "What is the main reason for the strategic imperative of decentralized Bitcoin mining in Africa?"
+answer: "Its untapped renewable potential, especially run-of-river hydro, enables mining that supports decentralization while improving local energy access."
+wrong_answers:
+  - "Its weak electricity grids force mining operations to rely on off-grid diesel generation."
+  - Its high power tariffs create incentives for miners to invest in efficiency and innovation.
+  - Its political instability ensures mining operations remain independent from government oversight.
+explanation: |
+  The chapter highlights that Africa's energy poverty and abundance of renewable energy resources, especially hydroelectric, create a strong need and opportunity for decentralized Bitcoin mining to address both global mining concentration and local energy access issues.
+reviewed: false

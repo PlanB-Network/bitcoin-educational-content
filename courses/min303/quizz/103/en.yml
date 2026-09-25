@@ -1,0 +1,9 @@
+question: "Which of the following is a key advantage of Braidpool's DAG-based mining pool design over P2Pool's linear share chain?"
+answer: Eliminates race conditions that can create orphaned shares
+wrong_answers:
+  - Allows for faster block confirmations
+  - Reduces the need for miners to run full nodes
+  - Integrates decentralized futures markets for mining rewards
+explanation: |
+  Braidpool's DAG-based approach allows multiple shares to reference the same parent, avoiding the race conditions that led to orphaned shares in P2Pool's linear chain design.
+reviewed: false

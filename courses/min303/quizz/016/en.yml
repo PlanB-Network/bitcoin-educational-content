@@ -1,0 +1,9 @@
+question: "What is the primary function of mining hardware in the Bitcoin network?"
+answer: To perform repeated hash calculations
+wrong_answers:
+  - To solve complex mathematical problems
+  - To verify transactions
+  - To create new bitcoins
+explanation: |
+  The chapter explains that mining involves no complex math, but rather repetitive hash calculations to find a winning hash value, which is then used to add new blocks to the blockchain.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the primary reason why remote Bitcoin mining operations in Africa require multiple redundant internet connectivity solutions?"
+answer: Interruptions in internet connectivity result in lost revenue through rejected shares
+wrong_answers:
+  - To provide backup power in case of grid outages
+  - To enable remote monitoring and control of mining equipment
+  - To allow for the transportation of mining equipment to remote locations
+explanation: |
+  The chapter emphasizes that reliable internet connectivity is critical for remote Bitcoin mining operations, as any interruptions will lead to lost revenue through rejected shares. Implementing multiple redundant connectivity solutions, such as Starlink satellite and LTE cellular links, is necessary to ensure uninterrupted communication with mining pools.
+reviewed: false

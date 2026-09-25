@@ -1,0 +1,9 @@
+question: "What is the primary advantage of using revenue-sharing agreements in remote Bitcoin mining operations in Africa?"
+answer: Protects miners from downside risk
+wrong_answers:
+  - Reduces maintenance costs
+  - Increases mining profitability
+  - Simplifies electricity procurement
+explanation: |
+  The chapter explains that revenue-sharing agreements align incentives between miners and energy producers, and protect miners from the risk of fixed electricity rates.
+reviewed: false

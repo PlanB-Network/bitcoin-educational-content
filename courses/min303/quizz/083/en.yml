@@ -1,0 +1,9 @@
+question: "What is the primary advantage of Stratum V2's Job Declaration Protocol over Stratum V1?"
+answer: Miners can select their own transactions to include in blocks
+wrong_answers:
+  - Pools have more control over transaction selection
+  - Miners can work on unique block headers
+  - Stratum V2 uses more efficient binary encoding
+explanation: |
+  The Job Declaration Protocol in Stratum V2 allows miners to choose the transactions they want to include in blocks, restoring control over block content that was centralized under Stratum V1.
+reviewed: false

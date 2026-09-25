@@ -1,0 +1,9 @@
+question: "What is the purpose of the 'extranonce' field in the coinbase transaction?"
+answer: To allow miners to modify the block header and work on unique block headers
+wrong_answers:
+  - To store extra transaction data
+  - To increase the block size limit
+  - To enable miner identification
+explanation: |
+  The 'extranonce' field in the coinbase transaction provides flexibility for miners to modify the block header and work on unique block headers, which is necessary for large-scale mining operations to avoid duplicate work.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is one way that Bitcoin mining can contribute to national energy security?"
+answer: "Miners bring predictable, market-driven revenue by committing to purchase power 24/7, making many renewable projects feasible"
+wrong_answers:
+  - Bitcoin mining reduces reliance on domestic power by importing electricity from other countries
+  - Bitcoin mining ensures energy security by storing unused power directly as reserve electricity
+  - Bitcoin miners only care about profit and do not contribute to the community
+explanation: |
+  The chapter explains how Bitcoin miners can support the development of renewable energy projects and strengthen grid stability, making them an important part of a nation's energy infrastructure.
+reviewed: false

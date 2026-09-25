@@ -1,0 +1,9 @@
+question: "What is the primary purpose of the Stratum V2 Job Declaration Protocol?"
+answer: "Enabling miners to select their own transactions rather than accepting pool-dictated choices"
+wrong_answers:
+  - Improving efficiency and reducing computational overhead
+  - Defining communication between Bitcoin nodes and pools/miners
+  - Replacing the functionality of Stratum V1 for work distribution and share submission
+explanation: |
+  The Job Declaration Protocol in Stratum V2 represents its most revolutionary feature, as it allows miners to regain control over transaction selection, rather than having the pool dictate the block contents.
+reviewed: false

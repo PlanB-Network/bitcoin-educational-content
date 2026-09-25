@@ -1,0 +1,9 @@
+question: "What is the main advantage of Ocean Mining's approach to decentralized mining compared to traditional mining pools?"
+answer: Allowing miners to directly influence block contents
+wrong_answers:
+  - Providing consistent payouts regardless of mining luck
+  - Offering higher rewards for miners
+  - Coordinating the sale of mining shares to buyers
+explanation: |
+  Ocean Mining aims to restore transparency and sovereignty by letting miners directly decide on the contents of blocks they mine, rather than relying on pool operators to control block creation.
+reviewed: false

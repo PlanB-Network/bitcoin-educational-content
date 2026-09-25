@@ -1,0 +1,9 @@
+question: "Which feature of Stratum V2 enables miners to select their own transactions, rather than accepting pool-dictated choices?"
+answer: Job Declaration Protocol
+wrong_answers:
+  - Template Distribution Protocol
+  - Mining Protocol
+  - Extranonce Extension Mechanism
+explanation: |
+  The chapter states that the Job Declaration Protocol represents Stratum V2's most revolutionary feature, as it allows miners to select their own transactions instead of relying on pool-controlled transaction selection.
+reviewed: false

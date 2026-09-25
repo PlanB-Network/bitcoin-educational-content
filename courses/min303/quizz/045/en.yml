@@ -1,0 +1,9 @@
+question: "Which of the following is least supported by the chapter as a defining trait that enables Bitcoin mining to mitigate grid challenges globally?"
+answer: Centralized operational structure
+wrong_answers:
+  - Capital recovery through short amortization cycles
+  - Rapid adjustment of electrical load
+  - Ability to monetize otherwise curtailed generation
+explanation: |
+  The chapter states that Bitcoin mining's geographic flexibility, short amortization cycles, and load flexibility are the key traits that make it effective for grid challenges, but it does not mention centralized operations as a characteristic.
+reviewed: false

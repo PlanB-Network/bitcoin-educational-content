@@ -1,0 +1,9 @@
+question: "Which field in the Bitcoin block header is specifically designed to allow miners to modify the header without altering its meaning?"
+answer: Nonce
+wrong_answers:
+  - Version
+  - "Prev-hash"
+  - Merkle root
+explanation: |
+  The nonce field in the Bitcoin block header exists to allow miners to change bits in the header to find a hash value below the target, without modifying the fundamental meaning of the block.
+reviewed: false

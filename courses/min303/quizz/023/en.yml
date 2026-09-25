@@ -1,0 +1,9 @@
+question: "What is the primary reason why quantum computers do not pose a threat to Bitcoin mining?"
+answer: "Bitcoin mining does not rely on advanced computation, only massive brute force through simple, repetitive work"
+wrong_answers:
+  - Quantum computers can perform more complex mathematical operations than traditional computers
+  - Quantum computers can solve the cryptographic hashing function used in Bitcoin mining more efficiently
+  - Quantum computers can generate random numbers more quickly than traditional computers
+explanation: |
+  The chapter explains that Bitcoin mining involves no intelligence or strategy, but rather endless repetition of simple hash calculations. Therefore, the task does not rely on advanced computation, and quantum computers which excel at complex operations do not provide a significant advantage over specialized ASIC miners.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Which of the following is not listed in the chapter as one of the four core functions of Bitcoin mining pools?"
+answer: Validating transactions
+wrong_answers:
+  - Validating miner shares submitted to the pool
+  - Calculating miner rewards with algorithms like PPLNS
+  - Distributing payouts to miners’ Bitcoin addresses
+explanation: |
+  According to the chapter, the four core functions of mining pools are validating shares, storing share data, calculating rewards, and paying miners. Validating transactions is not listed as one of their core functions.
+reviewed: false

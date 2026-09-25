@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the key challenge to Bitcoin mining decentralization beyond just the choice of mining protocols?"
+answer: The willingness of mining participants to prioritize decentralization over convenience and immediate profitability
+wrong_answers:
+  - The technical limitations of the mining protocols themselves
+  - The lack of regulatory oversight in the mining industry
+  - The concentration of mining power in the hands of a few major pools
+explanation: |
+  The chapter emphasizes that the real challenge to mining decentralization lies not in the tools or protocols, but in the commitment of miners to actually implement decentralized solutions, rather than prioritizing their own short-term profits.
+reviewed: false

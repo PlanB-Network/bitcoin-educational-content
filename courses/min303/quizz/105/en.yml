@@ -1,0 +1,9 @@
+question: "According to the chapter, how does Radpool’s design attempt to combine decentralization with predictable miner income?"
+answer: "By introducing Mining Service Providers that use Discreet Log Contracts to offer trustless FPPS-style agreements, absorbing variance while preserving sovereignty"
+wrong_answers:
+  - "By embedding all miner payouts directly in Bitcoin’s coinbase transaction, like P2Pool"
+  - By using Directed Acyclic Graphs of shares to eliminate race conditions in share validation
+  - By requiring all miners to run full nodes and directly broadcast transactions to the mempool
+explanation: |
+  Radpool reimagines peer-to-peer mining with a two-tier structure: Mining Service Providers (MSPs) handle complexity and prevent Sybil attacks while miners contribute hash power via Stratum. Its innovation is integrating Discreet Log Contracts (DLCs).
+reviewed: false

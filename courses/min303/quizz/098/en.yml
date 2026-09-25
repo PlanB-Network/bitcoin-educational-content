@@ -1,0 +1,9 @@
+question: "What problem do Bitcoin mining pools mainly solve for individual miners?"
+answer: They smooth out income by reducing the variance in block rewards
+wrong_answers:
+  - "They lower the difficulty level of Bitcoin’s proof-of-work algorithm"
+  - They guarantee every miner will find a block within a fixed time
+  - They change how many bitcoins are created in each block
+explanation: |
+  Mining pools combine resources so block discoveries happen more often, and payouts are shared proportionally, reducing variance without altering Bitcoin’s difficulty or block rewards.
+reviewed: false

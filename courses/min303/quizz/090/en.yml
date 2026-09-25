@@ -1,0 +1,9 @@
+question: "What is the primary goal of the Datum protocol in the context of Bitcoin mining decentralization?"
+answer: "Empowering miners to run their own nodes, source transactions directly, and construct independent block templates"
+wrong_answers:
+  - Ensuring regular payments to miners through the FPPS model
+  - It allows miners to select from predefined template options
+  - "It provides income stability by smoothing variance through insurance-like payout models"
+explanation: |
+  The Datum protocol aims to give miners complete sovereignty over block creation while still allowing them to benefit from pooled mining rewards, combining autonomy with economic stability.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the main advantage of Braidpool's use of a Directed Acyclic Graph (DAG) for the share chain compared to P2Pool's linear structure?"
+answer: Eliminates race conditions and orphaned shares
+wrong_answers:
+  - Improves scalability by reducing block space usage
+  - Enables threshold signatures for payouts
+  - Allows miners to participate without running full nodes
+explanation: |
+  The chapter states that Braidpool's DAG-based share chain addresses the fatal flaw of P2Pool's linear share chain, which created race conditions where only one share could be the 'next' block, leading to orphaned shares that received no compensation.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What key benefit does Bitcoin mining provide for developing nations with excess energy generation capacity?"
+answer: Monetizing stranded energy assets
+wrong_answers:
+  - "Creating consistent baseline demand that supports long-term grid expansion"
+  - Lowering the effective cost of electricity distribution in rural regions
+  - Driving domestic consumption growth by incentivizing local electrification
+explanation: |
+  The chapter discusses how Bitcoin mining can help developing nations immediately generate revenue from their excess energy generation capacity, which would otherwise go unused while distribution networks are being built out.
+reviewed: false

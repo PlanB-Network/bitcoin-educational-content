@@ -1,0 +1,9 @@
+question: "Which key feature of Stratum V2 allows miners to regain control over transaction selection?"
+answer: Job Declaration Protocol
+wrong_answers:
+  - Template Distribution Protocol
+  - Mining Protocol
+  - Merkle Root Modification
+explanation: |
+  The Job Declaration Protocol in Stratum V2 enables miners to select their own transactions rather than accepting pool-dictated choices, restoring transaction selection control to miners.
+reviewed: false

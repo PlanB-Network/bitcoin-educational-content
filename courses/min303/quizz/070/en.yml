@@ -1,0 +1,9 @@
+question: "Which of the following is NOT a key benefit of the Stratum V2 mining protocol?"
+answer: Reduced computational and bandwidth overhead
+wrong_answers:
+  - Improved efficiency through binary message encoding
+  - Enabling miners to select their own transactions
+  - Defining comprehensive protocols for various mining network relationships
+explanation: |
+  While Stratum V2 does improve efficiency through binary encoding, the chapter specifically highlights this as one of its key benefits, so it cannot be the correct answer. The other options are all accurate benefits described in the chapter content.
+reviewed: false

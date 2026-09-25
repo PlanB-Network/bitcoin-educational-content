@@ -1,0 +1,9 @@
+question: "According to the chapter, which of the following benefits of Bitcoin mining is not mentioned?"
+answer: Improved data security
+wrong_answers:
+  - Grid stability
+  - Waste energy utilization
+  - Economic sovereignty
+explanation: |
+  The chapter discusses several benefits of Bitcoin mining, including grid stability, waste energy utilization, and economic sovereignty, but does not mention improved data security as a benefit.
+reviewed: false

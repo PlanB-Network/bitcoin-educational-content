@@ -1,0 +1,9 @@
+question: "What is the main purpose of the Merkle root field in the Bitcoin block header?"
+answer: It serves as a commitment to all block transactions
+wrong_answers:
+  - It records the Unix timestamp
+  - It encodes the current mining difficulty
+  - It allows miners to modify the block header without altering its meaning
+explanation: |
+  The Merkle root field in the Bitcoin block header acts as a cryptographic commitment to all the transactions included in the block.
+reviewed: false

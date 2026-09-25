@@ -1,0 +1,9 @@
+question: "What is the main advantage of Stratum V2 over the original Stratum V1 protocol?"
+answer: Enables miners to select their own transactions
+wrong_answers:
+  - Improved computational efficiency
+  - Centralizes transaction selection within pools
+  - Defines more actors in the Bitcoin mining ecosystem
+explanation: |
+  Stratum V2's Job Declaration Protocol allows miners to select their own transactions, unlike Stratum V1 which centralized this control within mining pools.
+reviewed: false

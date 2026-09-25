@@ -1,0 +1,9 @@
+question: "What is the primary purpose of the nonce field in the Bitcoin block header?"
+answer: To allow miners to modify the block header without altering its fundamental meaning
+wrong_answers:
+  - To record the Unix timestamp of the block creation
+  - To encode the current mining difficulty
+  - To contain the hash of the previous block header
+explanation: |
+  The nonce field in the Bitcoin block header exists specifically to allow miners to change bits in the header and apply the hash function to find a hash value below the target threshold.
+reviewed: false

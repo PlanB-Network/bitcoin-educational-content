@@ -1,0 +1,9 @@
+question: "What is the primary purpose of the extranonce field in the coinbase transaction?"
+answer: To allow mining devices to work on unique block headers
+wrong_answers:
+  - To store the mining reward amount
+  - To record the time of the block creation
+  - To indicate the version of the mining software
+explanation: |
+  The extranonce field in the coinbase transaction allows mining devices to modify a portion of the block header to create unique work assignments, ensuring efficient utilization of computational resources across a large mining operation.
+reviewed: false

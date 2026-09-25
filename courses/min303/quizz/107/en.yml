@@ -1,0 +1,9 @@
+question: "What is the primary function of Mining Service Providers (MSPs) in the Radpool system?"
+answer: To handle the complexity of distributed systems while miners connect through familiar Stratum interfaces
+wrong_answers:
+  - "To maintain a linear share chain where all miner contributions are recorded, similar to P2Pool"
+  - "To provide decentralized futures contracts (FPPS-style payouts) through Discreet Log Contracts as their main service"
+  - "To use Directed Acyclic Graphs of shares with threshold signatures to eliminate orphaned work, like in Braidpool"
+explanation: |
+  Radpool introduces MSPs so miners don’t need to run full nodes or deal with Byzantine consensus themselves. Instead, MSPs coordinate share databases and distributed consensus while miners connect via Stratum. Features like share chains (P2Pool), DAGs with threshold signatures (Braidpool), or DLC-based payout contracts exist in the ecosystem but are not the MSPs’ core role
+reviewed: false

@@ -1,0 +1,9 @@
+question: "In the context of integrating intermittent renewables, which property of Bitcoin mining operations most directly supports real-time grid stability in advanced economies?"
+answer: Load flexibility
+wrong_answers:
+  - Geographic dispersion of facilities
+  - Rapid hardware depreciation cycles
+  - Economies of scale in industrial mining farms
+explanation: |
+  The chapter states that Bitcoin mining's load flexibility, which allows miners to scale consumption up or down instantly, makes it a powerful tool for grid balancing in developed nations facing challenges from intermittent renewable energy sources.
+reviewed: false

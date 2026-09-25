@@ -1,0 +1,9 @@
+question: "What was the primary reason for Satoshi's decision to stop mining in July 2010?"
+answer: Satoshi wanted to avoid centralizing Bitcoin's hash power
+wrong_answers:
+  - Satoshi ran out of computing resources
+  - Satoshi was preparing for the Slashdot effect
+  - Satoshi was testing Bitcoin's resilience to reorganization attacks
+explanation: |
+  According to the chapter, analysis of the 'Patoshi pattern' in early Bitcoin blocks revealed that Satoshi deliberately limited their mining to avoid centralizing hash power and support Bitcoin's decentralization goals. The chapter states that Satoshi's mining showed unique characteristics, like stopping before reaching maximum efficiency, which suggests a conscious effort to distribute mining. Satoshi's mining ceased abruptly on July 8th, 2010, just three days before Bitcoin gained widespread attention on Slashdot. This timing indicates Satoshi's decision to step back was likely motivated by the desire to maintain Bitcoin's decentralized nature, rather than reasons like running out of resources or testing reorganization attacks. The other answer choices, while plausible, are not supported by the information provided in the chapter.
+reviewed: false

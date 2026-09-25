@@ -1,0 +1,9 @@
+question: "What is the primary advantage of using Application-Specific Integrated Circuits (ASICs) for Bitcoin mining compared to general-purpose computing?"
+answer: "ASICs can perform the SHA-256 hash function, which underlies Bitcoin's proof-of-work algorithm, much more efficiently than CPUs or GPUs"
+wrong_answers:
+  - ASICs can solve complex mathematical problems faster than quantum computers
+  - ASICs require less electricity to operate than traditional mining rigs
+  - ASICs can mine multiple cryptocurrencies simultaneously
+explanation: |
+  The chapter explains that ASICs are specialized chips designed to perform the specific task of computing SHA-256 hashes extremely efficiently, outperforming CPUs and GPUs in both hash rate and energy consumption for Bitcoin mining.
+reviewed: false

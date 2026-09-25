@@ -1,0 +1,9 @@
+question: "What is the primary mechanism by which Bitcoin mining can contribute to national economic sovereignty, according to the chapter?"
+answer: "Converting domestic energy into appreciating digital wealth, independent of global lenders"
+wrong_answers:
+  - Providing censorship resistance through control of hash rate
+  - Funding infrastructure development and economic growth
+  - Enabling the monetization of waste energy streams
+explanation: |
+  The chapter states that Bitcoin mining allows countries to turn domestic energy into digital reserves with long-term value, breaking cycles of debt and dependency on global financial institutions.
+reviewed: false

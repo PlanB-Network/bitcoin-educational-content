@@ -1,0 +1,9 @@
+question: "What is one of the ways Bitcoin mining can contribute to local community development?"
+answer: Providing infrastructure investments that can later serve households and businesses
+wrong_answers:
+  - Reducing reliance on fossil heating systems through heat recovery
+  - Funding conservation efforts and sustainable industries
+  - Enabling nations to secure economic sovereignty through digital reserves
+explanation: |
+  The chapter discusses how setting up Bitcoin mining operations requires infrastructure like power lines, internet, and transport, which can then benefit local communities beyond just the mining activities.
+reviewed: false

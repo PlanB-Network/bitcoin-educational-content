@@ -1,0 +1,9 @@
+question: "Which of the following is least consistent with the design goals of Stratum V2?"
+answer: Maintaining exclusive pool authority over transaction selection
+wrong_answers:
+  - Maintaining exclusive pool authority over transaction selection
+  - "Reducing communication overhead with binary-encoded messages and structured framing"
+  - "Introducing distinct sub-protocols for template distribution, mining work, and job declaration"
+explanation: |
+  Stratum V2 was built to address Stratum V1’s inefficiencies and centralization risks. Its features include binary encoding, distinct protocols (template distribution, mining, job declaration), and restored miner control over transaction selection.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the primary purpose of the self-adjusting difficulty mechanism in Bitcoin mining?"
+answer: "To maintain a predictable 10-minute block production schedule"
+wrong_answers:
+  - To make mining more profitable for individual miners
+  - To prevent miners from gaining a competitive advantage
+  - To reduce the energy consumption of mining operations
+explanation: |
+  The self-adjusting difficulty mechanism automatically adjusts the mining difficulty to ensure that new blocks are produced approximately every 10 minutes, regardless of changes in the number of miners or their computing power.
+reviewed: false

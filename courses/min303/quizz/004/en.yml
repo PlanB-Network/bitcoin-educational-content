@@ -1,0 +1,9 @@
+question: "Which technological advancement enabled a dramatic increase in Bitcoin's hash rate in 2010?"
+answer: The introduction of GPU mining
+wrong_answers:
+  - The creation of the Genesis block
+  - The Patoshi pattern discovery
+  - "The first real-world Bitcoin transaction"
+explanation: |
+  In May 2010, Laszlo Hanyecz published the first open-source GPU mining implementation, fundamentally changing Bitcoin's mining landscape. This allowed for a significant increase in hashing power, as GPUs were much more efficient at mining than the CPUs used previously. The Slashdot effect in July 2010 then drove a massive influx of new miners, causing a 300% increase in Bitcoin's difficulty as the network hash rate spiked dramatically. This transition from CPU to GPU mining was a critical turning point in Bitcoin's early evolution, paving the way for the later ASIC revolution. The other events mentioned, while important milestones, did not directly enable the hash rate increase seen in 2010 in the same way that GPU mining did.
+reviewed: false

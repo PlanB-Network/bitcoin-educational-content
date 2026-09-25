@@ -1,0 +1,9 @@
+question: "What was the primary purpose behind Satoshi Nakamoto's decision to deliberately limit the mining power of their own Bitcoin operations?"
+answer: To support Bitcoin's decentralization goals and avoid centralizing hash power
+wrong_answers:
+  - To secretly accumulate the maximum number of bitcoins for themselves
+  - To slow down the growth of the Bitcoin network in its early days
+  - To test Bitcoin's resilience by attempting a reorganization attack
+explanation: |
+  According to the chapter, analysis of the 'Patoshi pattern' revealed that Satoshi Nakamoto deliberately limited the mining power of their own operations. The unique characteristics of Satoshi's mining behavior, such as linear movements in extra nonce values and consistent patterns of stopping before reaching maximum efficiency, suggest that they deliberately constrained their mining to avoid centralizing hash power. This aligns with Bitcoin's decentralization goals, as Satoshi likely wanted to ensure the network remained distributed and resilient, rather than becoming dominated by a single powerful miner. The chapter notes that this contrasts with the theory that Satoshi was trying to secretly accumulate as many bitcoins as possible for themselves. The evidence points to Satoshi consciously limiting their mining to support the overall health and decentralization of the nascent Bitcoin network.
+reviewed: false

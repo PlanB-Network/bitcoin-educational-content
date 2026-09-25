@@ -1,0 +1,8 @@
+question: "Why do researchers believe Satoshi intentionally mined the Genesis block at a much lower difficulty than required?"
+answer: Because the block’s hash was 20 times lower than necessary, suggesting Satoshi deliberately spent days mining it to mark Bitcoin’s symbolic beginning
+wrong_answers:
+  - "Because the Genesis block contained a hidden backdoor allowing Satoshi to alter future blocks"
+  - "Because Bitcoin’s proof-of-work algorithm was misconfigured in the first release"
+  - "Because Satoshi lacked sufficient computing power to mine it at the required difficulty"
+explanation: |
+  The chapter explains that the Genesis block’s hash was about 20 times lower than needed. Combined with the six-day gap before the next block, this suggests Satoshi purposefully mined it slowly, highlighting Bitcoin’s launch and embedding the Times headline.

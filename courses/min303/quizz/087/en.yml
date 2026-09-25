@@ -1,0 +1,9 @@
+question: "What is the primary purpose of the Datum protocol in Ocean Mining?"
+answer: "To empower miners to run their own nodes, source transactions directly, and construct independent block templates"
+wrong_answers:
+  - To ensure regular payments to miners regardless of block discovery
+  - To create a share marketplace for miners to sell their mining shares
+  - To enforce strict transaction selection policies in block templates
+explanation: |
+  The Datum protocol is designed to give miners complete sovereignty over block creation, allowing them to construct their own independent block templates while still sharing rewards from pooled work.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the primary factor miners must consider when choosing a power source for Bitcoin mining operations?"
+answer: Power source selection directly impacts uptime, costs, and long-term profitability
+wrong_answers:
+  - The power source determines the Bitcoin block reward
+  - The power source changes the network mining difficulty
+  - The power source guarantees miners always find blocks faster
+explanation: |
+  The chapter explains that power source selection is the most critical decision in mining operations. Hydroelectric offers high uptime and low costs, while solar requires costly batteries and presents mismatches between generation and consumption. These choices affect profitability and sustainability but do not change block rewards or network difficulty.
+reviewed: false

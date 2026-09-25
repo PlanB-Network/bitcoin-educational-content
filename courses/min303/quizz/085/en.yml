@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the primary challenge to Bitcoin mining decentralization?"
+answer: Miners' willingness to prioritize decentralization over convenience and immediate profitability
+wrong_answers:
+  - Debate over mining protocols like Stratum v2
+  - Lack of transparent block template construction
+  - Variability in Bitcoin block rewards
+explanation: |
+  The chapter states that the real challenge to mining decentralization lies in miners' priorities, not in the technical tools themselves. It emphasizes that decentralization is more fundamental than the specific protocols used.
+reviewed: false

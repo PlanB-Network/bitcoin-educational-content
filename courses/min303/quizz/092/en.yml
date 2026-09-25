@@ -1,0 +1,9 @@
+question: "According to the chapter, which of the following is NOT a key benefit of the Ocean Mining share marketplace approach?"
+answer: Immediate cash flow for miners
+wrong_answers:
+  - Decentralized block template construction
+  - Regulatory compliance for buyers
+  - Solving liquidity issues for Lightning Network users
+explanation: |
+  The chapter outlines the key benefits of the Ocean Mining share marketplace, including providing immediate cash flow for miners, enabling decentralized block template construction, and allowing regulatory-compliant Bitcoin acquisition for buyers as well as solving liquidity issues for Lightning Network users. The question asks which of these is NOT a key benefit, with the correct answer being 'Immediate cash flow for miners' since this is explicitly listed as a key benefit.
+reviewed: false

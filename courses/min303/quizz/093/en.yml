@@ -1,0 +1,9 @@
+question: "According to the chapter, which of the following is least described as a threat to Bitcoin mining decentralization?"
+answer: "Protocols like Datum, which allow miners to run their own nodes and build independent block templates"
+wrong_answers:
+  - The FPPS payout model
+  - Centralized mining pools
+  - Miners' willingness to prioritize decentralization
+explanation: |
+  The chapter states that the FPPS payout model and centralized mining pools are significant threats to Bitcoin mining decentralization, but it presents the Datum protocol as a solution to restore transparency and sovereignty for miners.
+reviewed: false

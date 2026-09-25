@@ -1,0 +1,9 @@
+question: "What characteristic of Satoshi's early mining behavior suggested an intention to avoid centralizing hash power?"
+answer: Satoshi deliberately limited mining to avoid reaching maximum efficiency.
+wrong_answers:
+  - Satoshi mined the Genesis block in a single day.
+  - Satoshi operated a single powerful CPU for mining.
+  - Satoshi's mining pattern showed no distinctive signature.
+explanation: |
+  Analysis of the Patoshi pattern revealed that Satoshi's mining behavior exhibited unique characteristics, such as linear movements in extra nonce values that differed from other miners. Importantly, Satoshi's mining showed consistent patterns of stopping before reaching maximum efficiency. This suggests that Satoshi deliberately limited mining in order to avoid centralizing hash power, which would have gone against the decentralization goals of Bitcoin. The other options are incorrect - Satoshi spent 5-6 days mining the Genesis block, operated two powerful CPUs in parallel, and left a distinctive signature that allowed researchers to identify Satoshi's mining activity. By limiting mining efficiency, Satoshi demonstrated an intention to support Bitcoin's decentralization, a key principle in the system's design.
+reviewed: false

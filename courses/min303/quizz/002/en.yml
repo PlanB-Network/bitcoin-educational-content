@@ -1,0 +1,9 @@
+question: "What was the approximate difficulty of the Bitcoin Genesis block compared to later blocks?"
+answer: Approximately 20 times lower than necessary
+wrong_answers:
+  - Exactly the same as later blocks
+  - Approximately 50 times higher than necessary
+  - Difficulty was not implemented until later blocks
+explanation: |
+  According to the chapter, recent analysis reveals that the hash of the Bitcoin Genesis block, mined on January 3rd, 2009, was approximately 20 times lower than necessary to meet the difficulty requirements at the time. This suggests that Satoshi, the creator of Bitcoin, spent five to six days mining this specific block before the next block was found on January 9th, when Bitcoin mining became accessible to others. The lower difficulty of the Genesis block indicates that Satoshi deliberately set it this way, likely to ensure the network could get started successfully before the difficulty increased to more normal levels. This stands in contrast to the three wrong answer options, which are incorrect characterizations of the Genesis block's difficulty compared to later blocks.
+reviewed: false

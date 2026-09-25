@@ -1,0 +1,9 @@
+question: "Which feature of Bitcoin mining ensures a consistent block production rate despite changes in the number of miners?"
+answer: "The self-adjusting difficulty mechanism"
+wrong_answers:
+  - Specialized ASIC hardware
+  - Coordination through mining pools
+  - "Computational complexity of the proof-of-work algorithm"
+explanation: |
+  The chapter explains that the Bitcoin network automatically adjusts the mining difficulty to maintain a stable block production time of around 10 minutes, even as the number of miners increases or decreases.
+reviewed: false

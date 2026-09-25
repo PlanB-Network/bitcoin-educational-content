@@ -1,0 +1,9 @@
+question: "What is the main reason why remote Bitcoin mining operations in Africa require innovative technical solutions?"
+answer: Lack of reliable grid infrastructure
+wrong_answers:
+  - High cost of electricity
+  - Extreme weather conditions
+  - Limited access to mining equipment
+explanation: |
+  The chapter explains that remote African locations often lack access to the national grid, necessitating self-sufficient and redundant systems for power and connectivity.
+reviewed: false

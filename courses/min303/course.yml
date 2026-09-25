@@ -1,0 +1,30 @@
+id: e0d23913-653c-4960-a845-d6738cd49f91
+
+topic: mining
+subtopic: mining
+type: theory
+level: advanced
+hours: 16
+
+professors_id:
+  - aa19b8be-5958-4c45-8be8-a1582dd5a90b
+
+contributor_names:
+  - Asi0Flammeus
+
+published_at: 2026-09-25
+
+tags:
+  - mining
+  - decentralization
+  - protocols
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0

@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the key challenge to achieving Bitcoin mining decentralization?"
+answer: Miners' willingness to prioritize decentralization over convenience and immediate profitability
+wrong_answers:
+  - The lack of technical interoperability between competing mining protocols
+  - The increased hardware costs required to operate independent full nodes
+  - The complexity of coordinating block template options across different pools
+explanation: |
+  The chapter suggests that the real challenge to Bitcoin mining decentralization lies not in the technical protocols, but in miners' priorities and commitment to actually implementing decentralized solutions.
+reviewed: false

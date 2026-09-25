@@ -1,0 +1,9 @@
+question: "According to the chapter, what is important about proof of work?"
+answer: The chapter explains key aspects of proof of work
+wrong_answers:
+  - proof of work is not mentioned in this chapter
+  - proof of work works differently than described
+  - The chapter focuses on different aspects of proof of work
+explanation: |
+  This is a fallback question about proof of work. Please review the chapter content and provide a better question.
+reviewed: false

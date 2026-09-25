@@ -1,0 +1,9 @@
+question: "According to the chapter, which of the following is not one of the four core functions performed by Bitcoin mining pools?"
+answer: Broadcasting new Bitcoin transactions to the mempool
+wrong_answers:
+  - Maintaining a database of miner shares
+  - Calculating rewards using algorithms like PPLNS
+  - Distributing payouts to miners’ addresses
+explanation: |
+  The chapter explains that mining pools must handle four key functions: validating shares, storing share data, calculating rewards (often with PPLNS), and paying miners. Broadcasting Bitcoin transactions is done by nodes, not by mining pools
+reviewed: false

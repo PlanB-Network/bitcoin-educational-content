@@ -1,0 +1,9 @@
+question: "According to the chapter, what is one way that Bitcoin mining can contribute to socioeconomic development in local communities?"
+answer: "Heat recovery from mining can warm homes, greenhouses, or support agriculture"
+wrong_answers:
+  - Mining infrastructure and revenue can foster sustainable community growth
+  - Miners can partner with farms to harness methane from livestock waste
+  - Mining enables nations to secure economic sovereignty through digital reserves
+explanation: |
+  The chapter discusses how mining waste heat can be used to directly benefit local communities, such as by heating homes or supporting agriculture, in addition to the broader infrastructure and economic development impacts.
+reviewed: false

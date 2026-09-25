@@ -1,0 +1,9 @@
+question: "What is the main reason why quantum computers do not pose a threat to Bitcoin mining?"
+answer: "The task of mining does not rely on advanced computation, only massive brute force through simple, repetitive work"
+wrong_answers:
+  - Quantum computers can easily break the cryptographic functions used in Bitcoin mining
+  - Quantum computers can calculate hash functions much faster than traditional mining hardware
+  - Quantum computers are not powerful enough to perform the computations required for Bitcoin mining
+explanation: |
+  The chapter explains that Bitcoin mining does not require any complex mathematical reasoning or advanced computation, but rather simple, repetitive hash calculations. Therefore, quantum computers, which excel at certain types of complex computations, do not provide any advantage over traditional mining hardware for the task of Bitcoin mining.
+reviewed: false

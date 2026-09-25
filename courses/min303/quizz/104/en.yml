@@ -1,0 +1,9 @@
+question: "What was one of the main technical problems that limited P2Pool's scalability?"
+answer: All payouts had to be embedded in the Bitcoin coinbase transaction, restricting the number of participants due to block size limits
+wrong_answers:
+  - P2Pool required miners to abandon proof of work and adopt a new consensus algorithm
+  - P2Pool forced miners to mine empty blocks to maintain synchronization
+  - P2Pool prevented miners from verifying their own share history independently
+explanation: |
+  The chapter explains that while P2Pool was innovative in decentralizing payouts by including them directly in the coinbase, this design caused a scalability bottleneck. Because every payout had to fit inside a block, the number of miners who could participate was strictly limited.
+reviewed: false

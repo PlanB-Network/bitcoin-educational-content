@@ -1,0 +1,9 @@
+question: "According to the chapter, which outcome is most directly associated with the Datum protocol in Bitcoin mining?"
+answer: Enabling miners to operate sovereignly by sourcing transactions and constructing their own block templates while still pooling rewards
+wrong_answers:
+  - "Allowing miners to select among multiple pre-built template options provided by pools"
+  - Improving protocol efficiency through binary message encoding and reduced communication overhead
+  - Facilitating liquidity solutions by letting miners sell shares for upfront payments
+explanation: |
+  The chapter states that the Datum protocol is the next step to restore transparency and sovereignty in Bitcoin mining by letting miners have complete control over block creation while still sharing rewards from pooled work.
+reviewed: false

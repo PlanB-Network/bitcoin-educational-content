@@ -1,0 +1,9 @@
+question: "What is the primary purpose of mining pools in the Bitcoin network?"
+answer: To reduce payout variance for miners
+wrong_answers:
+  - To increase the number of Bitcoin transactions
+  - To secure the Bitcoin blockchain
+  - To increase the profitability of mining
+explanation: |
+  Mining pools exist mainly to provide miners with a more reliable and consistent income stream by combining hash power and sharing block rewards proportionally, which reduces the variance in payouts compared to solo mining.
+reviewed: false

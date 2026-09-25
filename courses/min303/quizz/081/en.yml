@@ -1,0 +1,9 @@
+question: "Within Bitcoin mining, why is the extranonce field in the coinbase transaction critical for large-scale operations?"
+answer: "It expands the available search space, ensuring each device works on unique block headers and preventing duplicate hashing across miners"
+wrong_answers:
+  - It encodes payout addresses to direct block rewards to the correct pool participants.
+  - "It provides an additional entropy source to strengthen the cryptographic properties of SHA-256"
+  - "It allows timestamp adjustments beyond the one-second granularity supported by the block header"
+explanation: |
+  The chapter explains that the extranonce provides extra variability within the coinbase transaction, enabling pools to distribute unique work to miners and avoid wasted computation. While payout encoding, entropy for hashing, or timestamp tuning may sound plausible, none of these are its actual purpose
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the primary challenge that remote Bitcoin mining operations in Africa must solve for reliable connectivity?"
+answer: Implementing true connectivity redundancy through multiple independent pathways
+wrong_answers:
+  - Achieving reliable internet connectivity using Starlink satellite internet alone
+  - Relying on LTE cellular connections as the primary means of connectivity
+  - "Establishing point-to-point wireless links as the sole method of connectivity"
+explanation: |
+  The chapter explains that remote Bitcoin mining operations in Africa require implementing multiple redundant connectivity systems, including Starlink satellite internet as the primary connection supplemented by LTE cellular connections and point-to-point wireless links, to ensure reliable communication with mining pools.
+reviewed: false

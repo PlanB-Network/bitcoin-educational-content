@@ -1,0 +1,9 @@
+question: "What was one of the critical flaws that led to the failure of P2Pool as a decentralized mining solution?"
+answer: Its linear share chain created orphaned shares that received no compensation despite valid work
+wrong_answers:
+  - It required miners to abandon proof of work and adopt a new consensus mechanism
+  - It centralized payout authority in a single pool operator
+  - It prevented miners from broadcasting shares through gossip protocols
+explanation: |
+  The chapter explains that P2Pool’s share chain suffered from race conditions: only one share could become the next block, so many valid shares were orphaned and went unpaid.
+reviewed: false

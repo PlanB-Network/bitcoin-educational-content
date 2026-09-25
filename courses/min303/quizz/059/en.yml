@@ -1,0 +1,9 @@
+question: "According to the chapter, which of the following is NOT a key technical challenge for remote Bitcoin mining operations in Africa?"
+answer: Maintaining a stable electricity supply
+wrong_answers:
+  - Achieving reliable internet connectivity
+  - Implementing comprehensive monitoring and control systems
+  - Transporting mining equipment to remote locations
+explanation: |
+  The chapter focuses extensively on the connectivity and logistical challenges of remote mining, but does not mention electricity supply as a major obstacle, as Africa has abundant renewable energy resources that can power these operations.
+reviewed: false

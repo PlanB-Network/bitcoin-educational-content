@@ -1,0 +1,9 @@
+question: "According to the chapter, what is the main problem with the Full Pay Per Share (FPPS) payout model for Bitcoin mining?"
+answer: "The variability in Bitcoin block rewards makes it impossible for FPPS pools to accurately predict short-term mining income, yet they must still guarantee payments to miners."
+wrong_answers:
+  - FPPS pools charge miners excessive fees for their services.
+  - "FPPS pools have become too centralized, with a small number controlling the majority of mining power."
+  - "FPPS consolidates hashrate under a few large providers, increasing systemic risk."
+explanation: |
+  The chapter explains that as Bitcoin's block subsidies have decreased and transaction fees have become more variable, the predictable income that made FPPS feasible has disappeared, yet FPPS pools must still guarantee payments to miners, leading to unsustainable practices.
+reviewed: false

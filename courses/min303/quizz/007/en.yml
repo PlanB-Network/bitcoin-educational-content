@@ -1,0 +1,9 @@
+question: "What was the primary function of the Patoshi pattern discovered in early Bitcoin blockchain analysis?"
+answer: To reveal Satoshi Nakamoto's mining behavior and hardware setup
+wrong_answers:
+  - To identify the first Bitcoin transaction involving pizza delivery
+  - To Track the transition from CPU to GPU Mining according Satoshi Nakamoto's behavior
+  - To determine the total number of bitcoins held by Satoshi Nakamoto
+explanation: |
+  The Patoshi pattern was a distinctive signature discovered in the early Bitcoin blockchain that revealed key insights about Satoshi Nakamoto's mining operations. By examining the extra nonce values in early blocks, researchers were able to identify linear movements and consistent patterns that were unique to Satoshi's mining activity. This suggested Satoshi was deliberately limiting their mining power in order to avoid centralizing hash rate, which supported Bitcoin's decentralization goals. The Patoshi pattern provided valuable information about Satoshi's hardware setup, indicating they were likely operating two powerful CPUs simultaneously. This analysis helped shed light on Satoshi's early mining behavior and approach, which was a crucial part of Bitcoin's formative years.
+reviewed: false

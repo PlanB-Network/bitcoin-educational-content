@@ -1,0 +1,9 @@
+question: "What is the primary advantage of using Application-Specific Integrated Circuits (ASICs) for Bitcoin mining compared to general-purpose computing?"
+answer: Highly specialized performance and efficiency
+wrong_answers:
+  - Increased computational power
+  - Reduced electricity consumption
+  - Improved mining strategy
+explanation: |
+  The chapter explains that ASICs are designed solely for computing SHA-256 hashes, the cryptographic function underlying Bitcoin's proof-of-work algorithm, allowing them to outperform general-purpose computing in both hash rate and energy efficiency.
+reviewed: false

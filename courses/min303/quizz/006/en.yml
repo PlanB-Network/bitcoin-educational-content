@@ -1,0 +1,9 @@
+question: "What evidence suggests that Satoshi Nakamoto deliberately limited the mining power of their own operation?"
+answer: The consistent patterns of stopping before reaching maximum efficiency in Satoshi's mining behavior
+wrong_answers:
+  - "The Genesis block had a much lower hash than required, indicating Satoshi spent a long time mining it"
+  - "Satoshi operated two powerful CPUs, as evidenced by the 'double helix' pattern in extra nonce progression"
+  - "Satoshi's mining ceased abruptly in July 2010, just before Bitcoin gained widespread attention on Slashdot"
+explanation: |
+  According to the chapter, analysis of the 'Patoshi pattern' in early Bitcoin blocks revealed that Satoshi Nakamoto's mining behavior showed unique characteristics, such as linear movements in extra nonce values that differed from other miners, and consistent patterns of stopping before reaching maximum efficiency. This suggests that Satoshi deliberately limited their mining power in order to support the goal of decentralization, rather than centralizing the hash power under their control. The other details mentioned, such as the low hash of the Genesis block and the timing of Satoshi's mining cessation, are interesting facts about Satoshi's early mining activity, but do not directly indicate that they deliberately limited their mining power. The 'double helix' pattern does suggest Satoshi was operating two powerful CPUs in parallel, but this is a separate observation from the evidence that they limited their mining efficiency.
+reviewed: false

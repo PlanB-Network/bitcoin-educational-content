@@ -1,0 +1,9 @@
+question: "What is one of the key advantages of using Bitcoin mining to address grid challenges in developed nations?"
+answer: Load flexibility
+wrong_answers:
+  - Geographic flexibility
+  - Short amortization cycles
+  - Monetizing stranded energy
+explanation: |
+  The chapter states that Bitcoin mining's load flexibility, which allows miners to scale consumption up or down instantly without harming equipment, makes it a powerful tool for grid balancing in developed nations facing challenges from intermittent renewable energy sources.
+reviewed: false

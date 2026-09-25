@@ -1,0 +1,9 @@
+question: "According to the chapter, what is one of the key advantages of Bitcoin mining for grid balancing in developed markets?"
+answer: "Miners can scale consumption up or down instantly without harming equipment, with only minor restart costs."
+wrong_answers:
+  - Mining operations can be easily relocated to other regions with stranded energy.
+  - Bitcoin mining provides a stable and predictable energy demand.
+  - Mining operations can generate foreign currency earnings for developing nations.
+explanation: |
+  The chapter states that Bitcoin mining's load flexibility, where miners can scale consumption up or down instantly, makes it a powerful tool for grid balancing in developed markets with intermittent renewable energy sources.
+reviewed: false

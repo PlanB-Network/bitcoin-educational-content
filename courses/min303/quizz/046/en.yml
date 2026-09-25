@@ -1,0 +1,9 @@
+question: "What is the primary advantage of using Bitcoin mining to monetize stranded energy in developing countries?"
+answer: Generates foreign currency earnings for infrastructure development and debt service
+wrong_answers:
+  - "Stabilizes grid operations by creating predictable base-load demand"
+  - Allows for quick relocation of mining operations as distribution networks develop
+  - Reduces the need for investment in new generation capacity
+explanation: |
+  The chapter highlights that using Bitcoin mining to monetize stranded energy in developing countries provides the key benefit of generating foreign currency earnings, which these nations typically need for infrastructure development and debt service.
+reviewed: false

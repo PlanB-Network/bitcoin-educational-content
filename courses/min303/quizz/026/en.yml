@@ -1,0 +1,9 @@
+question: "What is one of the main ways that Bitcoin mining can benefit the environment?"
+answer: Capturing and utilizing waste methane
+wrong_answers:
+  - Reducing energy consumption
+  - Planting more trees
+  - Recycling mining equipment
+explanation: |
+  The chapter discusses how Bitcoin mining can capture and utilize waste methane from sources like livestock, oil and gas, and landfills, which is a potent greenhouse gas. This provides environmental benefits by reducing emissions.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "Which characteristic of Bitcoin mining makes it especially effective for grid challenges worldwide?"
+answer: Geographic flexibility
+wrong_answers:
+  - Short amortization cycles
+  - Load flexibility
+  - Monetization of stranded energy
+explanation: |
+  The chapter states that Bitcoin mining's geographic flexibility, where mining operations can be deployed almost anywhere with stable internet and skilled staff, is its most distinctive edge for addressing grid challenges globally.
+reviewed: false

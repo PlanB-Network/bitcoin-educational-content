@@ -1,0 +1,9 @@
+question: "What is the main advantage of using multiple redundant connectivity systems in remote Bitcoin mining operations?"
+answer: Ensuring reliable internet connectivity for mining pool communication
+wrong_answers:
+  - Reducing maintenance costs
+  - Increasing energy efficiency
+  - Improving local community integration
+explanation: |
+  The chapter explains that remote mining operations require multiple redundant connectivity systems, including Starlink satellite, LTE cellular, and point-to-point wireless links, in order to maintain reliable communication with mining pools and avoid lost revenue from rejected shares.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "What is the key principle that the dice game analogy demonstrates in Bitcoin mining?"
+answer: Difficulty to do but easy to verify
+wrong_answers:
+  - Predictable probability of success
+  - Automated difficulty adjustment
+  - Specialized hardware optimization
+explanation: |
+  The dice game analogy shows that Bitcoin mining is difficult to do, as miners must repeatedly roll the dice, but the resulting solution is easy for everyone to verify.
+reviewed: false

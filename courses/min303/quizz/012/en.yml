@@ -1,0 +1,9 @@
+question: "What made the introduction of ASICs in 2013 a turning point in Bitcoin mining compared to GPUs?"
+answer: "They provided only modest hash rate improvements but dramatically reduced electricity consumption, fundamentally altering mining economics"
+wrong_answers:
+  - "They completely eliminated the need for specialized mining facilities"
+  - "They allowed small hobbyist miners to outcompete large-scale operations"
+  - "They were initially rejected by the Bitcoin community and banned from use"
+explanation: |
+  According to the chapter, the first Avalon ASIC delivered in 2013 marked the start of industrial-scale mining. Unlike GPUs, which focused on raw hash power, ASICs revolutionized efficiency by lowering electricity costs per hash. This shift made mining capital-intensive and accelerated the rise of industrial farms.
+reviewed: false

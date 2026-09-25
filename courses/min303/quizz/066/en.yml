@@ -1,0 +1,9 @@
+question: "What is the primary function of the Merkle root field in the Bitcoin block header?"
+answer: It serves as a commitment to all block transactions
+wrong_answers:
+  - It maintains blockchain continuity
+  - It encodes the current mining difficulty
+  - It provides a variable that miners can modify
+explanation: |
+  The Merkle root field in the Bitcoin block header represents a commitment to all the transactions included in the block, allowing efficient verification of the block's contents.
+reviewed: false

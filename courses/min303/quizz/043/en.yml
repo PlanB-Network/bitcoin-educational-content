@@ -1,0 +1,9 @@
+question: "What is the primary benefit of locating Bitcoin mining operations near high-voltage generation sources, rather than at the distribution level?"
+answer: Minimizes transmission costs and avoids competition with retail consumers
+wrong_answers:
+  - Increases access to skilled mining staff
+  - Provides greater geographic flexibility
+  - Allows for quicker deployment and relocation
+explanation: |
+  The chapter states that locating mining operations near high-voltage generation sources, rather than at the distribution level, maximizes both grid benefits and mining profitability by minimizing transmission costs and avoiding competition with retail consumers.
+reviewed: false

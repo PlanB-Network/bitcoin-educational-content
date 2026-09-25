@@ -1,0 +1,9 @@
+question: "What is the primary challenge facing Bitcoin mining operations in remote African locations?"
+answer: Achieving reliable internet connectivity
+wrong_answers:
+  - Securing a reliable power source
+  - Transporting mining equipment
+  - Maintaining mining equipment
+explanation: |
+  The chapter highlights that achieving reliable internet connectivity is the most critical technical challenge for remote Bitcoin mining operations in Africa, as it is required for constant communication with mining pools.
+reviewed: false

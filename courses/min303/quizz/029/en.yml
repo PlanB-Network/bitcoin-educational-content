@@ -1,0 +1,9 @@
+question: "Which of the following is NOT a way that Bitcoin mining can contribute to national economic sovereignty?"
+answer: Relying solely on natural resources like oil or metals
+wrong_answers:
+  - Converting domestic energy into appreciating digital wealth
+  - Ensuring inclusion in the global Bitcoin network even under sanctions
+  - Reducing reliance on global financial institutions and debt cycles
+explanation: |
+  The passage states that Bitcoin mining enables nations to secure economic sovereignty by converting domestic energy into digital reserves, maintaining hash rate control, and reducing dependence on global lenders. Relying on natural resources is not presented as a way that Bitcoin mining contributes to national economic sovereignty.
+reviewed: false

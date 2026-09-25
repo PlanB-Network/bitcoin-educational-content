@@ -1,0 +1,9 @@
+question: "According to the chapter, what is important about cryptocurrency?"
+answer: The chapter explains key aspects of cryptocurrency
+wrong_answers:
+  - cryptocurrency is not mentioned in this chapter
+  - cryptocurrency works differently than described
+  - The chapter focuses on different aspects of cryptocurrency
+explanation: |
+  This is a fallback question about cryptocurrency. Please review the chapter content and provide a better question.
+reviewed: false

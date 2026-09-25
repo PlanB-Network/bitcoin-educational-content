@@ -1,0 +1,9 @@
+question: "Why do individual miners often choose to join Bitcoin mining pools instead of mining solo?"
+answer: Because pools provide more frequent and predictable payouts by reducing variance in block rewards
+wrong_answers:
+  - "Because pools reduce Bitcoin’s proof-of-work difficulty for their members"
+  - Because pools allow miners to create new bitcoins faster than the network rules allow
+  - "Because pools guarantee that every miner will earn the same amount, regardless of contributed hash power"
+explanation: |
+  The chapter explains that solo miners can go long periods without finding a block, making income unstable. Mining pools combine hash power so blocks are found more frequently, and rewards are distributed proportionally, smoothing income. Pools don’t lower Bitcoin’s difficulty, change issuance rules, or guarantee equal payouts
+reviewed: false

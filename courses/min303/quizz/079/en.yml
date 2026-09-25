@@ -1,0 +1,9 @@
+question: "Why is the output space of Bitcoin’s hash function (2^256 possibilities) significant for mining?"
+answer: "It ensures miners must rely on probabilistic trial-and-error, making block discovery computationally difficult and unpredictable."
+wrong_answers:
+  - It guarantees each miner will eventually find a block within a fixed number of attempts.
+  - It allows miners to calculate the exact nonce that solves the puzzle in advance.
+  - It ensures the Merkle root never needs modification during mining.
+explanation: |
+  Bitcoin mining depends on the enormous output space of SHA-256: 2^256 possible values, vastly larger than the number of atoms in the universe. This scale makes it impossible to predict winning nonces and forces miners to perform repeated hashing until an output falls below the target threshold.
+reviewed: false

@@ -1,0 +1,9 @@
+question: "which of the following is NOT a way that Bitcoin mining can contribute to socioeconomic development and community benefits?"
+answer: Reducing reliance on fossil heating systems
+wrong_answers:
+  - Driving broader infrastructure development
+  - Funding conservation and supporting local industries
+  - Enhancing food security by enabling agricultural energy use
+explanation: |
+  The chapter discusses how Bitcoin mining can contribute to local development by driving infrastructure investments, funding community initiatives, and enabling renewable energy use in agriculture. However, it does not mention reducing reliance on fossil heating systems as a community benefit of Bitcoin mining.
+reviewed: false

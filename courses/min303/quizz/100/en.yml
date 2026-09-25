@@ -1,0 +1,9 @@
+question: "What was the main innovation of P2Pool compared to traditional centralized mining pools?"
+answer: It allowed miners to receive payouts directly in the block’s coinbase transaction, without needing a separate payout system
+wrong_answers:
+  - "It eliminated the proof-of-work requirement from Bitcoin mining"
+  - "It guaranteed every miner an equal reward regardless of their hash power"
+  - "BIt removed the need for miners to run Bitcoin nodes alongside pool software"
+explanation: |
+  The chapter explains that P2Pool created a decentralized “share chain” and embedded miner payouts directly into Bitcoin’s coinbase transaction.
+reviewed: false

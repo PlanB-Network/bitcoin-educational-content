@@ -1,0 +1,9 @@
+question: "What is one of the key challenges faced in establishing reliable Bitcoin mining operations in remote African locations?"
+answer: Achieving reliable internet connectivity
+wrong_answers:
+  - Transporting mining equipment to remote sites
+  - Maintaining a consistent power supply
+  - Recruiting skilled technical personnel
+explanation: |
+  The chapter discusses how achieving reliable internet connectivity is one of the most critical technical challenges for remote African mining operations, requiring multiple redundant systems like Starlink, LTE cellular, and point-to-point wireless links.
+reviewed: false

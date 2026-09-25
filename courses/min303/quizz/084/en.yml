@@ -1,0 +1,9 @@
+question: "Which feature of Stratum V2 most directly mitigates the centralization risk created by Stratum V1’s transaction selection model?"
+answer: "The Job Declaration Protocol, which gives miners the ability to construct blocks with their own chosen transactions."
+wrong_answers:
+  - "Binary message encoding, which eliminates JSON overhead and reduces latency."
+  - "Template Distribution Protocol, which improves coordination between nodes and pools."
+  - "Extended extranonce handling, which prevents duplicate work assignments among miners."
+explanation: |
+  The chapter explains that Stratum V1 centralized block content control in pools, creating censorship and centralization concerns. Stratum V2’s Job Declaration Protocol addresses this by returning transaction selection power to miners.
+reviewed: false

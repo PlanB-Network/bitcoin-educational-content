@@ -1,0 +1,9 @@
+question: "What does the acronym “V2” in Stratum V2 indicate?"
+answer: That it is the second version of the Stratum mining protocol
+wrong_answers:
+  - That it requires two different mining devices to operate
+  - That it uses version 2 of the SHA-256 hash function
+  - Stratum V2 uses more efficient binary encoding
+explanation: |
+  Stratum V2 is the updated version of the original Stratum protocol used in Bitcoin mining. It improves efficiency, security, and decentralization compared to Stratum V1, but “V2” simply refers to it being the second version of the protocol, not to block versions or hashing algorithms.
+reviewed: false

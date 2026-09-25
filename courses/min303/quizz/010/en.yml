@@ -1,0 +1,9 @@
+question: "What key factor enabled Satoshi to maintain decentralization in the early Bitcoin network?"
+answer: Deliberately limiting mining to avoid centralizing hash power
+wrong_answers:
+  - "Mining the Genesis block over 5-6 days"
+  - Embedding a message in the Genesis block
+  - Ceasing mining operations in July 2010
+explanation: |
+  According to the chapter, analysis of the 'Patoshi pattern' in early Bitcoin blocks revealed that Satoshi's mining behavior exhibited unique characteristics, such as linear movements in extra nonce values that differed from other miners and consistent patterns of stopping before reaching maximum efficiency. This suggests that Satoshi deliberately limited their mining in order to avoid centralizing hash power, which would have undermined the decentralization goals of the Bitcoin network in its early days. By constraining their own mining operations, Satoshi helped ensure that the network remained distributed and resistant to centralized control, a key factor in Bitcoin's initial development and growth.
+reviewed: false

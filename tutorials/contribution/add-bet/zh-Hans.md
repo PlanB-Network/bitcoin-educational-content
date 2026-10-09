@@ -67,7 +67,7 @@ contributors:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - 在我的例子中，我现在会留空链接，因为我将直接在GitHub上添加我的PDF：
 ![event](assets/09.webp)

@@ -77,7 +77,7 @@ Ví dụ, file YAML của bạn có thể trông như thế này:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 ```
 

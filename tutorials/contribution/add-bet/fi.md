@@ -77,7 +77,7 @@ Esimerkiksi YAML-tiedostosi voisi näyttää tältä:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - Esimerkissäni jätän linkit toistaiseksi tyhjiksi, sillä lisään PDF:ni suoraan GitHubiin:
 ![event](assets/09.webp)

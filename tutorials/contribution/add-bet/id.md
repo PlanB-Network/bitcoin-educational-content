@@ -67,7 +67,7 @@ Sebagai contoh, file YAML Anda bisa terlihat seperti ini:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - Dalam contoh saya, saya akan meninggalkan tautan kosong untuk sekarang, karena saya akan menambahkan PDF saya langsung di GitHub:
 ![event](assets/09.webp)

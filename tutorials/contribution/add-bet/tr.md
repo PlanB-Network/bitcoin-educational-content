@@ -121,7 +121,7 @@ Eğer bir proje profiliniz yoksa, bir proje profili oluşturmadan sadece adını
 project: Plan ₿ Academy
 type: Educational Content
 links:
-download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
 view:
 - In my example, I will leave the links empty for now, as I will add my PDF directly on GitHub:
 ![event](assets/09.webp)

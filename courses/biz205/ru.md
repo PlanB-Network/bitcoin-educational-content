@@ -57,7 +57,7 @@ The Plan ₿ Academy initiative, supported by Fulgur Ventures and Tether, is roo
 
 ### Conclusion
 
-This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://workspace.planb.network/s/wqM3XwPMY7pzCd5).
+This lecture sets the stage for a more in-depth exploration of Bitcoin's transformative potential. Stay tuned for upcoming lessons where we’ll cover a range of topics, from technical skills to the broader Bitcoin ecosystem. To download these presentation slides, together with the ones belonging to the following lectures, please [click here](https://drive.planb.academy/s/zdNjjzBPT8HLqaG).
 
 # Why Bitcoin?
 <partId>1b012cbf-94e3-4d12-a522-bbea2f1073d9</partId>

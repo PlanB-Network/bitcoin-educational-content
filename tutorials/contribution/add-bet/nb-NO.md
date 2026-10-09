@@ -78,7 +78,7 @@ For eksempel, din YAML-fil kunne se slik ut:
 project: DecouvreBitcoin
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - I mitt eksempel, vil jeg la lenkene være tomme for nå, ettersom jeg vil legge til min PDF direkte på GitHub:
 ![event](assets/09.webp)

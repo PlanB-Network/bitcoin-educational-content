@@ -70,7 +70,7 @@ Näiteks võiks teie YAML fail välja näha selline:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - Minu näites jätan lingid esialgu tühjaks, kuna lisan oma PDF-i otse GitHub'ile:
 ![event](assets/09.webp)

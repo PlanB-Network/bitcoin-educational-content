@@ -78,7 +78,7 @@ contributors: もし貢献者識別子を持っている場合は、それを記
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - この例では、PDFを直接GitHubに追加するため、リンクは一時的に空のままにします：
 ![event](assets/09.webp)

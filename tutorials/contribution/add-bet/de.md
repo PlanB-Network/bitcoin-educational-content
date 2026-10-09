@@ -75,7 +75,7 @@ Zum Beispiel könnte Ihre YAML-Datei so aussehen:
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - In meinem Beispiel werde ich die Links vorerst leer lassen, da ich mein PDF direkt auf GitHub hinzufügen werde:
 ![event](assets/09.webp)

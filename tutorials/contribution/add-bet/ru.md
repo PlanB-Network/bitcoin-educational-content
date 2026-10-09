@@ -77,7 +77,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 project: Plan ₿ Academy
 type: Educational Content
 links:
-  download: https://workspace.planb.network/s/fojeJa7ZbftQTwo
+  download: https://drive.planb.academy/s/76YJtXd2cezP8Fq
   view:
 - В моем примере я пока оставлю ссылки пустыми, так как добавлю мой PDF непосредственно на GitHub:
 ![event](assets/09.webp)

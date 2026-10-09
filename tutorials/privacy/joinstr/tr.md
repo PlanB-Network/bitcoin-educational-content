@@ -650,7 +650,7 @@ Finansal incelemelerin arttığı bir ortamda, gizliliği korumaya yönelik merk
 
 
 
-- [Joinstr resmi web sitesi](https://joinstr.xyz)
+- [Joinstr resmi web sitesi](https://docs.joinstr.xyz/)
 - [Kullanıcı belgeleri](https://docs.joinstr.xyz/users/using-joinstr)
 - [Teknik dokümantasyon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab kaynak kodu](https://gitlab.com/invincible-privacy/joinstr)

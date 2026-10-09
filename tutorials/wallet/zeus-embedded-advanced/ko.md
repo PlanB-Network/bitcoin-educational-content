@@ -21,7 +21,7 @@ ZEUS는 Bitcoin 라이트닝 Wallet의 모든 기능을 갖춘 모바일 Bitcoin
 BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/), [Alby](https://getalby.com/)(또는 기타 LNDhub 계정)를 사용하는 판매자는 ZEUS에서 자신의 노드/계정에 연결하여 사용하고 관리할 수 있습니다.
 
 
-[0.8 버전부터](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS는 [내장 모바일 라이트닝 노드](https://docs.zeusln.app/category/embedded-node)와 통합 [라이트닝 서비스 공급자(LSP)](https://docs.zeusln.app/lsp/intro)를 통해 모바일 기기에서 빠르고 저렴한 Bitcoin 결제를 원하는 일반 사용자들을 대상으로 서비스를 제공할 예정입니다.
+[0.8 버전부터](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS는 [내장 모바일 라이트닝 노드](https://docs.zeusln.app/category/embedded-lnd)와 통합 [라이트닝 서비스 공급자(LSP)](https://docs.zeusln.app/lsp/intro)를 통해 모바일 기기에서 빠르고 저렴한 Bitcoin 결제를 원하는 일반 사용자들을 대상으로 서비스를 제공할 예정입니다.
 
 
 ### 중요한 제우스 리소스:
@@ -170,7 +170,7 @@ Zeus를 사용하고 라이트닝 채널, 유동성, 수수료 등을 관리하�
 LSP는 노드에 결제 채널을 개방하여 사용자를 Lightning Network에 연결하는 데 도움을 줍니다. [LSP에 대한 자세한 내용은 여기를 참조하세요](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS에는 새로운 임베디드 노드를 사용하는 모든 사용자가 사용할 수 있는 [OLYMPUS by ZEUS](https://Mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)라는 새로운 LSP가 통합되어 있습니다.
 
 
-이 섹션에서는 기본적으로 Olympus LSP(https://0conf.lnolymp.us)를 사용하지만 곧 이 프로토콜을 지원하는 다른 0conf LSP를 설정할 수도 있습니다.
+이 섹션에서는 기본적으로 Olympus LSP(https://flow.zeuslsp.com)를 사용하지만 곧 이 프로토콜을 지원하는 다른 0conf LSP를 설정할 수도 있습니다.
 
 
 유의 사항: _유념하세요
@@ -311,7 +311,7 @@ Zeus 앱 사용 시 법정통화 변환을 표시하는 옵션을 활성화 또�
 Aezeed 키 형식은 다음 모바일 지갑과 호환되어야 합니다: 블릭스트, 블루월렛, 브리즈. 열려 있거나 폐쇄 보류 중인 채널이 있는 경우 seed만으로는 모든 잔액을 복구하기에 충분하지 않습니다!
 
 
-백업 및 복원 프로세스에 대한 자세한 내용은 [제우스 문서 페이지](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery)에서 확인하세요.
+백업 및 복원 프로세스에 대한 자세한 내용은 [제우스 문서 페이지](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery)에서 확인하세요.
 
 
 전원 조언: seed을 저장할 때 노드 공개키도 함께 저장하세요! 복구 확인이 필요할 때를 대비해 seed 및 SCB(정적 채널 백업)와 함께 준비해 두는 것이 좋습니다.
@@ -357,7 +357,7 @@ LND 노드에 대한 더 많은 복구 옵션을 보려면 [이전 가이드](ht
 
 
 
- - 경로 찾기 모드_ - 바이모달 또는 아프리오리, LN 결제를 위해 더 나은 경로를 찾는 방법과 이전 경로 정보를 재설정하는 방법. 경로 찾기에 관한 유용한 가이드를 읽어보세요: [경로 찾기](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 문서 라이트닝 엔지니어링 제공 및 [LN 결제 경로 찾기](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - 전압 제공
+ - 경로 찾기 모드_ - 바이모달 또는 아프리오리, LN 결제를 위해 더 나은 경로를 찾는 방법과 이전 경로 정보를 재설정하는 방법. 경로 찾기에 관한 유용한 가이드를 읽어보세요: [경로 찾기](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 문서 라이트닝 엔지니어링 제공 및 [LN 결제 경로 찾기](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - 전압 제공
  - 지속적 LND_ - LND 서비스를 백그라운드에서 지속적으로 실행하고 노드를 24시간 온라인 상태로 유지하려면 이 모드를 활성화하세요. 이 모드는 소규모 상점에서 Zeus를 PoS로 사용하거나 LN Address을 통해 많은 LN 팁을 수신하는 경우에 매우 유용합니다.
  - 지갑 재검색_ - 이 옵션은 Wallet의 모든 온체인 트랜잭션에 대한 전체 스캔을 재시작할 때 트리거됩니다. Wallet에서 일부 트랜잭션이 누락된 경우에만 활성화하세요. 재검색 작업은 몇 분 정도 시간이 걸리므로 조금만 기다려주시고 항상 로그를 확인하여 진행 상황에 대한 자세한 내용을 확인하세요.
  - 데이터베이스 압축_ - 이 옵션은 제우스 앱이 기기 공간을 많이 차지하는 경우 매우 유용합니다(기기 설정에서 앱 세부 정보 참조). 제우스를 사용하는 활동이 많다면 이 압축을 더 자주 실행하는 것이 좋습니다. 제우스 앱에 1~1.5GB 이상의 데이터가 있는 것으로 확인되면 압축을 실행하세요. 다시 시작하고 시간이 걸리므로 조금만 기다려주세요.
@@ -400,7 +400,7 @@ ZEUS PAY는 사용자가 생성한 프리이미지 해시, HODL 송장, Zaplocke
 "영구 모드"를 활성화하면 LN Address에 대한 모든 결제가 즉시 수신됩니다.
 
 
-제우스페이 수수료](https://docs.zeusln.app/lightning-Address/fees)에 대한 자세한 내용은 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 결제 방식과 [제우스페이 수수료]에 대해 알아보세요.
+제우스페이 수수료](https://docs.zeusln.app/lightning-address/zaplocker)에 대한 자세한 내용은 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 결제 방식과 [제우스페이 수수료]에 대해 알아보세요.
 
 
 **G - 온체인 주소**
@@ -489,7 +489,7 @@ Stash 3단계로 나만의 은행이 되는 방법]에 대한 다른 가이드(h
 제우스에서 Invoice를 생성(금액 입력 후 '요청하기' 버튼 클릭)하면 Sats을 바로 받을 수 있습니다.
 
 
-Invoice는 [래핑]되며(https://docs.zeusln.app/lsp/wrapped-invoices), 서비스 관련 수수료가 지불된 경우 해당 수수료가 표시됩니다. 이 래핑된 Invoice에는 제우스 노드로 향하는 경로 힌트가 포함되어 있으므로 LSP가 새 노드를 찾아서 입금하는 새 자금으로 채널을 열 수 있습니다.
+Invoice는 [래핑]되며(https://docs.zeusln.app/lsp/services/flow), 서비스 관련 수수료가 지불된 경우 해당 수수료가 표시됩니다. 이 래핑된 Invoice에는 제우스 노드로 향하는 경로 힌트가 포함되어 있으므로 LSP가 새 노드를 찾아서 입금하는 새 자금으로 채널을 열 수 있습니다.
 
 
 ![Image](assets/en/06.webp)

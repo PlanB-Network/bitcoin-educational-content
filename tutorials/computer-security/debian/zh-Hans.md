@@ -77,9 +77,9 @@ Debian 映像的选择取决于您的处理器架构：
 
 
 
-- **AMD64**：从[下载]列表中下载 "实时混合 "版 (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/)。
-- **ARM64**：从 [Debian] 官方网站 (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) 获取 DVD 映像。
-- 其他架构：在 [此处](https://debian.obspm.fr/debian-cd/12.11.0/) 查找与您的架构相对应的 ISO。
+- **AMD64**：从[下载]列表中下载 "实时混合 "版 (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/)。
+- **ARM64**：从 [Debian] 官方网站 (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/) 获取 DVD 映像。
+- 其他架构：在 [此处](https://debian.obspm.fr/debian-cd/current/) 查找与您的架构相对应的 ISO。
 
 
 

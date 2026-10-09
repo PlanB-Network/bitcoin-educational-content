@@ -160,7 +160,7 @@ GrapheneOS 開始畫面
 
 
 
-- Auditor 應用程式](https://play.google.com/store/apps/details?id=app.attestation.auditor) 使用以硬體為基礎的安全功能來驗證裝置的身份以及作業系統的真實性和完整性。它會驗證裝置是否在鎖定開機載入程式的情況下執行原廠作業系統，以及作業系統是否被竄改。
+- Auditor 應用程式](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) 使用以硬體為基礎的安全功能來驗證裝置的身份以及作業系統的真實性和完整性。它會驗證裝置是否在鎖定開機載入程式的情況下執行原廠作業系統，以及作業系統是否被竄改。
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) 是 Chromium 網頁瀏覽器的隱私與安全加固變體。
 
 
@@ -435,7 +435,7 @@ Spotube
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) 為您的所有裝置提供免費和 E2EE 跨平台密碼管理解決方案。他們的付費服務可讓您在應用程式中整合 2FA 密碼。Bitwarden 的伺服器端可自行託管，Android 應用程式則可透過 F-Droid 使用。
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) 為您的所有裝置提供免費和 E2EE 跨平台密碼管理解決方案。他們的付費服務可讓您在應用程式中整合 2FA 密碼。Bitwarden 的伺服器端可自行託管，Android 應用程式則可透過 F-Droid 使用。
 - [Proton Pass](https://proton.me/pass/download) 提供類似 Bitwarden 的免費服務，但 [Proton Unlimited](https://proton.me/pricing) 客戶能使用額外的進階功能。Proton Pass 可透過 APK 或 Aurora 使用。
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/)是一款雙因素驗證應用程式，適用於使用一次性密碼通訊協定的系統。可透過掃描 QR 碼輕鬆添加令牌。FreeOTP 可透過 F-Droid 使用。
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)是一款免費、安全且開放原始碼的 Android 應用程式，用來管理您線上服務的 2 步驗證代碼。Aegis 可透過 F-Droid 使用。

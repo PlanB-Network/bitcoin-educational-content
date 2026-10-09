@@ -129,4 +129,4 @@ Dengan mengetahui bahwa total hashrate jaringan sekitar 450 EH/s (atau 4.5 x 10^
 Berikut adalah beberapa tautan jika kamu ingin membaca lebih lanjut tentang subjek ini:
 
 - [Halaman proyek NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Dokumentasi lengkap NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Dokumentasi lengkap NerdMiners](https://bitwater.ch/nerd-miner-v2/)

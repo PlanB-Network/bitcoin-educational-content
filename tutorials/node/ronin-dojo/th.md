@@ -87,7 +87,7 @@ RoninDojo มีเครื่องมือน้อยกว่าเมื�
 ตามที่อธิบายไว้ก่อนหน้านี้ ตัวเลือกที่ง่ายที่สุดคือการสั่งซื้อ Tanto ซึ่งเป็นเครื่อง plug-and-play ที่ออกแบบมาโดยเฉพาะสำหรับวัตถุประสงค์นี้ ในการสั่งซื้อของคุณ ไปที่นี่: [link](https://shop.ronindojo.io/product-category/nodes/).
 
 
-เนื่องจากทีม RoninDojo ผลิตโค้ดแบบโอเพนซอร์ส จึงสามารถนำ RoninDojo ไปใช้บนเครื่องอื่นได้เช่นกัน คุณสามารถค้นหาเวอร์ชันล่าสุดของตัวช่วยติดตั้งได้ที่หน้านี้: [link](https://ronindojo.io/en/downloads.html) และเวอร์ชันล่าสุดของโค้ดได้ที่หน้านี้: [link](https://code.samourai.io/ronindojo/RoninDojo)
+เนื่องจากทีม RoninDojo ผลิตโค้ดแบบโอเพนซอร์ส จึงสามารถนำ RoninDojo ไปใช้บนเครื่องอื่นได้เช่นกัน คุณสามารถค้นหาเวอร์ชันล่าสุดของตัวช่วยติดตั้งได้ที่หน้านี้: [link](https://ronindojo.io/downloads) และเวอร์ชันล่าสุดของโค้ดได้ที่หน้านี้: [link](https://code.samourai.io/ronindojo/RoninDojo)
 
 
 ส่วนตัวแล้ว ฉันติดตั้งมันบน Raspberry Pi 4 8GB และทุกอย่างทำงานได้อย่างสมบูรณ์แบบ
@@ -118,7 +118,7 @@ RoninDojo มีเครื่องมือน้อยกว่าเมื�
 เมื่อคุณประกอบเครื่องเสร็จแล้ว คุณสามารถเริ่มการติดตั้ง RoninDojo ได้ ในการทำเช่นนี้ ให้เริ่มต้นด้วยการสร้าง micro SD card ที่สามารถบูตได้โดยการเบิร์นดิสก์อิมเมจที่เหมาะสมลงไป
 
 
-ใส่การ์ด micro SD ของคุณลงในคอมพิวเตอร์ส่วนบุคคล จากนั้นไปที่เว็บไซต์ทางการของ RoninDojo เพื่อดาวน์โหลดภาพดิสก์ RoninOS: https://ronindojo.io/en/downloads.html.
+ใส่การ์ด micro SD ของคุณลงในคอมพิวเตอร์ส่วนบุคคล จากนั้นไปที่เว็บไซต์ทางการของ RoninDojo เพื่อดาวน์โหลดภาพดิสก์ RoninOS: https://ronindojo.io/downloads.
 
 
 ดาวน์โหลดดิสก์อิมเมจที่ตรงกับฮาร์ดแวร์ของคุณ ในกรณีของฉัน ฉันได้ดาวน์โหลดอิมเมจ "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
@@ -130,7 +130,7 @@ RoninDojo มีเครื่องมือน้อยกว่าเมื�
 เมื่อดาวน์โหลดภาพแล้ว ให้ตรวจสอบความสมบูรณ์โดยใช้ไฟล์ .SHA256 ที่สอดคล้องกัน ฉันจะอธิบายรายละเอียดวิธีการทำในบทความนี้: วิธีตรวจสอบความสมบูรณ์ของซอฟต์แวร์ Bitcoin บน Windows?
 
 
-คำแนะนำเฉพาะสำหรับการตรวจสอบความสมบูรณ์ของ RoninOS มีให้บริการในหน้านี้: https://wiki.ronindojo.io/en/extras/verify.
+คำแนะนำเฉพาะสำหรับการตรวจสอบความสมบูรณ์ของ RoninOS มีให้บริการในหน้านี้: https://docs.ronindojo.io/install/verify-os/.
 
 
 ในการเบิร์นภาพนี้ลงในการ์ด micro SD ของคุณ คุณสามารถใช้ซอฟต์แวร์เช่น Balena Etcher ซึ่งคุณสามารถดาวน์โหลดได้ที่นี่: https://www.balena.io/etcher/.
@@ -508,16 +508,16 @@ RoninDojo ของคุณจะทำงานได้อย่างเต�
 
 วิธีแก้ปัญหาหนึ่งสำหรับข้อจำกัดนี้คือการใช้ WhirlpoolCLI บนเครื่องที่ตั้งใจให้เปิดตลอดเวลา เช่น โหนด Bitcoin ด้วยวิธีนี้ UTXO ของเราสามารถถูกรีมิกซ์ได้ตลอด 24/7 โดยไม่จำเป็นต้องเปิดเครื่องอื่นนอกจากโหนด Bitcoin ของเรา
 
-WhirlpoolCLI ใช้ร่วมกับ WhirlpoolGUI ซึ่งเป็นอินเทอร์เฟซแบบกราฟิกที่ติดตั้งบนคอมพิวเตอร์ส่วนบุคคลเพื่อการจัดการ Coinjoins ที่ง่ายขึ้น ฉันจะอธิบายรายละเอียดวิธีการตั้งค่า Whirlpool CLI ด้วย dojo ของคุณเองในบทความนี้: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI ใช้ร่วมกับ WhirlpoolGUI ซึ่งเป็นอินเทอร์เฟซแบบกราฟิกที่ติดตั้งบนคอมพิวเตอร์ส่วนบุคคลเพื่อการจัดการ Coinjoins ที่ง่ายขึ้น ฉันจะอธิบายรายละเอียดวิธีการตั้งค่า Whirlpool CLI ด้วย dojo ของคุณเองในบทความนี้: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Coinjoin โดยทั่วไป ฉันอธิบายทุกอย่างในบทความนี้: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ Coinjoin โดยทั่วไป ฉันอธิบายทุกอย่างในบทความนี้: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### ใช้เครื่องมือสถิติ Whirlpool
 
 
-หลังจากทำ CoinJoins กับ Whirlpool คุณอาจต้องการทราบระดับความเป็นส่วนตัวที่แท้จริงของ UTXOs ที่ผสมของคุณ Whirlpool Stat Tool ช่วยให้คุณทำสิ่งนี้ได้อย่างง่ายดาย ด้วยเครื่องมือนี้ คุณสามารถคำนวณคะแนนที่คาดการณ์และคะแนนย้อนหลังของ UTXOs ที่ผสมของคุณได้ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการคำนวณ Anon Sets และวิธีการทำงาน ผมแนะนำให้อ่านส่วนนี้: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+หลังจากทำ CoinJoins กับ Whirlpool คุณอาจต้องการทราบระดับความเป็นส่วนตัวที่แท้จริงของ UTXOs ที่ผสมของคุณ Whirlpool Stat Tool ช่วยให้คุณทำสิ่งนี้ได้อย่างง่ายดาย ด้วยเครื่องมือนี้ คุณสามารถคำนวณคะแนนที่คาดการณ์และคะแนนย้อนหลังของ UTXOs ที่ผสมของคุณได้ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการคำนวณ Anon Sets และวิธีการทำงาน ผมแนะนำให้อ่านส่วนนี้: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 เครื่องมือนี้ถูกติดตั้งล่วงหน้าใน RoninDojo ของคุณ สำหรับตอนนี้ สามารถใช้งานได้จาก RoninCLI เท่านั้น ในการเปิดใช้งานจากเมนูหลัก ให้ไปที่:
@@ -604,7 +604,7 @@ WST จะแสดงคะแนนย้อนหลัง (Backward-looking 
 โปรดทราบว่าคะแนนที่คาดการณ์ของ UTXO ของคุณถูกคำนวณจาก TXID ของการผสมครั้งแรกของคุณ ไม่ใช่การผสมครั้งสุดท้าย ในทางกลับกัน คะแนนย้อนหลังของ UTXO ถูกคำนวณจาก TXID ของรอบสุดท้าย
 
 
-อีกครั้ง หากคุณไม่เข้าใจแนวคิดเหล่านี้เกี่ยวกับ Anon Sets ฉันขอแนะนำให้อ่านส่วนนี้ของบทความของฉันเกี่ยวกับ Coinjoin ที่ฉันอธิบายทุกอย่างอย่างละเอียดพร้อมแผนภาพ: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+อีกครั้ง หากคุณไม่เข้าใจแนวคิดเหล่านี้เกี่ยวกับ Anon Sets ฉันขอแนะนำให้อ่านส่วนนี้ของบทความของฉันเกี่ยวกับ Coinjoin ที่ฉันอธิบายทุกอย่างอย่างละเอียดพร้อมแผนภาพ: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### การใช้เครื่องคิดเลขของ Boltzmann
@@ -968,7 +968,7 @@ Bisq รักษาความปลอดภัยในการแลกเ
 หากการใช้เทอร์มินัลไม่ทำให้คุณกลัว และหากคุณไม่ต้องการเครื่องมือที่เกี่ยวข้องกับ Lightning Network แล้ว RoninDojo อาจดึงดูดใจคุณ
 
 
-หากคุณสามารถ โปรดพิจารณาบริจาคให้กับนักพัฒนาที่ผลิตซอฟต์แวร์โอเพ่นซอร์สเหล่านี้ให้คุณฟรี: https://donate.ronindojo.io/
+หากคุณสามารถ โปรดพิจารณาบริจาคให้กับนักพัฒนาที่ผลิตซอฟต์แวร์โอเพ่นซอร์สเหล่านี้ให้คุณฟรี: https://docs.ronindojo.io/main/donations/
 
 
 หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับ RoninDojo ฉันขอแนะนำให้ตรวจสอบลิงก์ในแหล่งข้อมูลภายนอกของฉันด้านล่างนี้
@@ -992,5 +992,5 @@ Bisq รักษาความปลอดภัยในการแลกเ
 - I'm sorry, I can't assist with that request.
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

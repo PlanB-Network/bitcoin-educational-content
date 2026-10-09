@@ -755,7 +755,7 @@ Tidak mungkin untuk mengatakannya, tetapi kami tahu beberapa hal:
 - Dengan subsidi blok nol dan Mempool yang kosong atau hampir kosong, keadaan dapat menjadi goyah karena pemotongan biaya.
 
 
-Karena transisi ke Block reward yang hanya berbayar masih jauh di masa depan, mungkin lebih bijaksana untuk tidak langsung mengambil kesimpulan dan mencoba memperbaiki potensi masalah selagi bisa. Sebagai contoh, Peter Todd berpikir bahwa ada risiko aktual bahwa anggaran keamanan Bitcoin tidak akan cukup di masa depan, dan akibatnya berpendapat bahwa ada inflasi kecil yang terus-menerus di Bitcoin. Namun, dia juga berpikir bahwa bukan ide yang baik untuk membahas masalah seperti itu saat ini, seperti yang dia katakan di podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Karena transisi ke Block reward yang hanya berbayar masih jauh di masa depan, mungkin lebih bijaksana untuk tidak langsung mengambil kesimpulan dan mencoba memperbaiki potensi masalah selagi bisa. Sebagai contoh, Peter Todd berpikir bahwa ada risiko aktual bahwa anggaran keamanan Bitcoin tidak akan cukup di masa depan, dan akibatnya berpendapat bahwa ada inflasi kecil yang terus-menerus di Bitcoin. Namun, dia juga berpikir bahwa bukan ide yang baik untuk membahas masalah seperti itu saat ini, seperti yang dia katakan di podcast What Bitcoin Did](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Namun, itu adalah risiko 10, 20 tahun ke depan. Itu adalah waktu yang sangat lama. Dan, pada saat itu, siapa yang tahu apa risikonya?
@@ -851,7 +851,7 @@ Aaron van Wirdum menggambarkan jalan berliku ini dalam artikel Majalah Bitcoin [
 
 > Shaolinfry mengusulkan sebuah alternatif: pengguna mengaktifkan Soft Fork (UASF). Alih-alih aktivasi daya Hash, pengguna yang mengaktifkan Soft Fork akan memiliki "aktivasi hari bendera" di mana node memulai penegakan pada waktu yang telah ditentukan di masa depan." Selama UASF seperti itu diberlakukan oleh mayoritas ekonomi, hal ini akan memaksa mayoritas penambang untuk mengikuti (atau mengaktifkan) Soft Fork.
 
-Di antaranya, dia mengutip email Shaolinfry ke milis Bitcoin-dev. Pada kesempatan itu Shaolinfry [berargumen menentang garpu Miner yang diaktifkan Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), dengan menyebutkan sejumlah masalah dengan garpu tersebut:
+Di antaranya, dia mengutip email Shaolinfry ke milis Bitcoin-dev. Pada kesempatan itu Shaolinfry [berargumen menentang garpu Miner yang diaktifkan Soft](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/), dengan menyebutkan sejumlah masalah dengan garpu tersebut:
 
 
 > Pertama, diperlukan kepercayaan bahwa daya Hash akan divalidasi setelah aktivasi.  BIP66 Soft Fork adalah kasus di mana 95% dari Hashrate memberi sinyal kesiapan tetapi pada kenyataannya sekitar setengahnya tidak benar-benar memvalidasi aturan yang ditingkatkan dan menambang di blok yang tidak valid secara tidak sengaja.
@@ -884,7 +884,7 @@ Setelah peluncuran SegWit, muncul diskusi tentang mekanisme peluncuran. Seperti 
 
 > Pada suatu saat kami mungkin ingin menambahkan lebih banyak fitur ke protokol Bitcoin. Ini adalah pertanyaan filosofis besar yang kami tanyakan pada diri kami sendiri. Apakah kami akan melakukan UASF untuk yang berikutnya? Bagaimana dengan pendekatan hibrida? Miner yang diaktifkan dengan sendirinya telah dikesampingkan. bip9 tidak akan kami gunakan lagi.
 
-Pada bulan Januari 2020, Matt Corallo [mengirim email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) ke mailing list Bitcoin-dev yang memulai diskusi tentang mekanisme penyebaran Soft Fork di masa depan. Dia mencantumkan lima tujuan yang menurutnya penting dalam peningkatan. David Harding [meringkasnya dalam buletin Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) sebagai:
+Pada bulan Januari 2020, Matt Corallo [mengirim email](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) ke mailing list Bitcoin-dev yang memulai diskusi tentang mekanisme penyebaran Soft Fork di masa depan. Dia mencantumkan lima tujuan yang menurutnya penting dalam peningkatan. David Harding [meringkasnya dalam buletin Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) sebagai:
 
 
 > Kemampuan untuk membatalkan jika ada keberatan serius terhadap perubahan aturan konsensus yang diusulkan. Alokasi waktu yang cukup setelah rilis perangkat lunak yang diperbarui untuk memastikan bahwa sebagian besar simpul ekonomi ditingkatkan untuk menegakkan aturan-aturan tersebut. Harapan bahwa tingkat jaringan Hash akan kurang lebih sama sebelum dan sesudah perubahan, serta selama masa transisi. Pencegahan, sebanyak mungkin, pembuatan blok yang tidak valid di bawah aturan baru, yang dapat menyebabkan konfirmasi palsu pada node yang tidak diupgrade dan klien SPV . Jaminan bahwa mekanisme pembatalan tidak dapat disalahgunakan oleh para dukun atau partisan untuk menahan peningkatan yang diinginkan secara luas tanpa masalah yang diketahui
@@ -956,7 +956,7 @@ Selama tujuh bulan tersebut, diskusi terus berlanjut dan sepertinya tidak ada ca
 
 Pendekatan "mari kita lihat apa yang terjadi" akhirnya tampaknya berhasil di benak banyak orang. Proses ini kemudian dikenal sebagai "Speedy Trial" karena periode pensinyalannya yang singkat. David Harding menjelaskan ide ini kepada komunitas yang lebih luas dalam sebuah
 
-[email ke milis Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[email ke milis Bitcoin-dev](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Versi sebelumnya dari proposal ini didokumentasikan lebih dari 200 hari yang lalu dan kode dasar Taproot telah digabungkan ke dalam Bitcoin Core lebih dari 140 hari yang lalu, jika kami memulai Speedy Trial pada saat Taproot digabungkan (yang mana agak tidak realistis), kami akan kurang dari dua bulan lagi untuk memiliki Taproot atau kami akan beralih ke upaya aktivasi berikutnya lebih dari sebulan yang lalu.
 >
@@ -1380,7 +1380,7 @@ Perusahaan, individu, dan organisasi yang memiliki kepentingan dalam kesuksesan 
 Orang terkadang mendapat kesan bahwa ada banyak pertikaian dan perdebatan sengit yang tak berkesudahan di antara para pengembang Bitcoin, dan bahwa mereka tidak mampu membuat keputusan.
 
 
-Sebagai contoh, mekanisme penyebaran Taproot, mekanisme ini telah didiskusikan dalam jangka waktu yang lama di mana ada dua "kubu" yang terbentuk. Satu kubu ingin "menggagalkan" peningkatan jika para [penambang](https://planb.academy/resources/glossary/miner) tidak memberikan suara mayoritas untuk aturan baru setelah waktu tertentu, sementara kubu lainnya ingin menegakkan aturan setelah waktu tersebut, apa pun yang terjadi. Michael Folkson meringkas argumen dari kedua kubu tersebut dalam sebuah [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) ke milis Bitcoin-dev.
+Sebagai contoh, mekanisme penyebaran Taproot, mekanisme ini telah didiskusikan dalam jangka waktu yang lama di mana ada dua "kubu" yang terbentuk. Satu kubu ingin "menggagalkan" peningkatan jika para [penambang](https://planb.academy/resources/glossary/miner) tidak memberikan suara mayoritas untuk aturan baru setelah waktu tertentu, sementara kubu lainnya ingin menegakkan aturan setelah waktu tersebut, apa pun yang terjadi. Michael Folkson meringkas argumen dari kedua kubu tersebut dalam sebuah [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) ke milis Bitcoin-dev.
 
 
 Perdebatan itu berlangsung selamanya, dan sangat sulit untuk melihat adanya konsensus mengenai hal ini dalam waktu dekat. Hal ini membuat orang frustrasi dan akibatnya panasnya semakin meningkat. Gregory Maxwell (sebagai pengguna nullc) khawatir [di Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) bahwa diskusi yang panjang akan membuat upgrade menjadi kurang aman:
@@ -1482,7 +1482,7 @@ Diskusi mengenai penskalaan mencapai puncak minatnya sekitar tahun 2015-2017, ke
 Pada tahun 2015, sebuah konferensi yang disebut [Scaling Bitcoin](https://scalingbitcoin.org/) diadakan di Montreal, dengan konferensi lanjutan enam bulan kemudian di Hong Kong dan setelah itu di sejumlah lokasi lain di seluruh dunia. Fokusnya adalah pada bagaimana melakukan penskalaan Address. Banyak pengembang Bitcoin dan peminat lainnya berkumpul di konferensi-konferensi ini untuk mendiskusikan berbagai masalah dan proposal penskalaan. Sebagian besar diskusi ini tidak berkisar pada peningkatan ukuran blok tetapi pada solusi yang lebih jangka panjang.
 
 
-Setelah konferensi Hong Kong pada bulan Desember 2015, Gregory Maxwell [meringkas pandangannya](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) tentang banyak masalah yang telah diperdebatkan, dimulai dengan beberapa filosofi penskalaan umum:
+Setelah konferensi Hong Kong pada bulan Desember 2015, Gregory Maxwell [meringkas pandangannya](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) tentang banyak masalah yang telah diperdebatkan, dimulai dengan beberapa filosofi penskalaan umum:
 
 
 > Dengan teknologi yang tersedia, ada pertukaran mendasar antara skala dan desentralisasi. Jika sistem ini terlalu mahal, orang akan dipaksa untuk mempercayai pihak ketiga daripada menegakkan aturan sistem secara independen. Jika penggunaan sumber daya Bitcoin Blockchain, relatif terhadap teknologi yang tersedia, terlalu besar, Bitcoin kehilangan keunggulan kompetitifnya dibandingkan dengan sistem lama karena validasi akan terlalu mahal (membuat banyak pengguna kehilangan kepercayaan), memaksa kepercayaan kembali ke dalam sistem.  Jika kapasitas terlalu rendah dan metode transaksi kami terlalu tidak efisien, akses ke rantai untuk penyelesaian sengketa akan terlalu mahal, sekali lagi mendorong kepercayaan kembali ke dalam sistem.
@@ -1730,7 +1730,7 @@ kerentanan. Para peretas dan ilmuwan keamanan komputer berpendapat bahwa merupak
 Ini berarti bahwa jika Anda menemukan masalah keamanan, Anda harus melaporkannya kepada tim yang bertanggung jawab atas sistem tersebut. Namun, apa artinya hal ini dalam konteks Bitcoin? Tidak ada yang mengontrol Bitcoin, tetapi saat ini ada titik fokus untuk pengembangan Bitcoin, yaitu [Bitcoin Core Github repositori](https://github.com/Bitcoin/Bitcoin). Pengelola repositori tersebut bertanggung jawab atas kode di dalamnya, tetapi mereka tidak bertanggung jawab atas sistem secara keseluruhan - tidak ada yang bertanggung jawab. Namun demikian, praktik terbaik secara umum adalah mengirim email ke security@bitcoincore.org.
 
 
-Dalam sebuah [utas email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) berjudul "Pengungkapan bug yang bertanggung jawab" dari tahun 2017, Anthony Towns mencoba meringkas apa yang dia anggap sebagai praktik terbaik saat ini. Dia telah mengumpulkan masukan dari beberapa sumber dan orang yang berbeda untuk menginformasikan pandangannya tentang masalah ini.
+Dalam sebuah [utas email](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) berjudul "Pengungkapan bug yang bertanggung jawab" dari tahun 2017, Anthony Towns mencoba meringkas apa yang dia anggap sebagai praktik terbaik saat ini. Dia telah mengumpulkan masukan dari beberapa sumber dan orang yang berbeda untuk menginformasikan pandangannya tentang masalah ini.
 
 
 
@@ -1753,12 +1753,12 @@ Dalam sebuah [utas email](https://lists.linuxfoundation.org/pipermail/Bitcoin-de
 Daftar ini menunjukkan betapa kita harus berhati-hati saat menerbitkan patch untuk Bitcoin, karena patch itu sendiri dapat mengungkapkan kerentanannya. Poin keempat sangat menarik karena menjelaskan cara menguji apakah sebuah patch telah disamarkan dengan cukup baik. Memang, jika beberapa pengembang yang sangat berpengalaman tidak dapat menemukan kerentanan meskipun mengetahui bahwa patch tersebut memperbaiki kerentanan tersebut, mungkin akan sangat Hard bagi orang lain untuk menemukannya.
 
 
-Thread yang mengarah ke email ini mendiskusikan apakah, kapan, dan bagaimana cara mengungkapkan kerentanan terhadap altcoin dan implementasi Bitcoin lainnya. Tidak ada jawaban yang jelas di sini. "Membantu orang baik" tampaknya merupakan hal yang masuk akal untuk dilakukan, tetapi siapa yang memutuskan siapa mereka dan di mana kita harus menarik garis batasnya? Bryan Bishop [berpendapat](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) bahwa membantu altcoin dan bahkan scamcoin untuk mempertahankan diri dari eksploitasi keamanan merupakan sebuah kewajiban moral:
+Thread yang mengarah ke email ini mendiskusikan apakah, kapan, dan bagaimana cara mengungkapkan kerentanan terhadap altcoin dan implementasi Bitcoin lainnya. Tidak ada jawaban yang jelas di sini. "Membantu orang baik" tampaknya merupakan hal yang masuk akal untuk dilakukan, tetapi siapa yang memutuskan siapa mereka dan di mana kita harus menarik garis batasnya? Bryan Bishop [berpendapat](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/) bahwa membantu altcoin dan bahkan scamcoin untuk mempertahankan diri dari eksploitasi keamanan merupakan sebuah kewajiban moral:
 
 
 > Tidaklah cukup untuk melindungi Bitcoin dan penggunanya dari ancaman aktif, ada tanggung jawab yang lebih umum untuk melindungi semua jenis pengguna dan perangkat lunak yang berbeda dari berbagai jenis ancaman dalam bentuk apa pun, bahkan jika orang-orang menggunakan perangkat lunak yang bodoh dan tidak aman yang secara pribadi tidak Anda pelihara atau Anda dukung. Menangani pengetahuan tentang kerentanan adalah masalah yang rumit dan Anda mungkin menerima pengetahuan dengan dampak langsung atau tidak langsung yang lebih serius daripada yang dijelaskan pada awalnya.
 
-Yang juga mengarah ke email Town di atas adalah [posting](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) oleh Gregory Maxwell, di mana ia berpendapat bahwa kerentanan keamanan bisa lebih parah daripada yang terlihat:
+Yang juga mengarah ke email Town di atas adalah [posting](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) oleh Gregory Maxwell, di mana ia berpendapat bahwa kerentanan keamanan bisa lebih parah daripada yang terlihat:
 
 
 > Saya telah beberapa kali melihat Hard untuk mengeksploitasi masalah yang ternyata sepele ketika Anda menemukan trik yang tepat, atau masalah kecil berubah menjadi jauh lebih serius.
@@ -2031,7 +2031,7 @@ BIP diaktifkan pada tanggal 4 Juli 2015. Namun, meskipun hal di atas benar, BIP6
 
 Pengungkapan lengkap dari masalah ini diterbitkan pada tanggal 28 Juli 2015 oleh Pieter Wuille dalam sebuah artikel
 
-[email ke milis Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[email ke milis Bitcoin-dev](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Halo semua,
@@ -2066,7 +2066,7 @@ Garis waktu kejadian di sekitar BIP66. Item berwarna hitam telah dijelaskan di a
 Tanpa ada yang tahu tentang masalah ini, masalah ini dapat diselesaikan dengan BIP62 yang sekarang sedang dibahas secara luas, yang merupakan sebuah proposal untuk mengurangi kemungkinan terjadinya [kelenturan transaksi](https://planb.academy/resources/glossary/malleability-transaction). Di antara perubahan yang diusulkan dalam BIP62 adalah pengetatan aturan konsensus untuk pengkodean tanda tangan, atau "pengkodean [DER](https://planb.academy/resources/glossary/der) yang ketat". Pieter Wuille mengusulkan beberapa perubahan pada BIP pada bulan Juli 2014, yang akan menyelesaikan masalah ini:
 
 
-> 2014-Jul-18: Untuk membuat aturan penyandian tanda tangan Bitcoin tidak bergantung pada parser khusus OpenSSL, saya memodifikasi proposal BIP62 untuk membuat persyaratan tanda tangan DER yang ketat juga berlaku untuk transaksi versi 1. Tidak ada tanda tangan non-DER yang ditambang ke dalam blok pada saat itu, sehingga hal ini diasumsikan tidak akan berdampak. Lihat https://github.com/Bitcoin/bips/pull/90 dan http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Tidak diketahui pada saat itu, tetapi jika digunakan, hal ini akan menyelesaikan kerentanan.
+> 2014-Jul-18: Untuk membuat aturan penyandian tanda tangan Bitcoin tidak bergantung pada parser khusus OpenSSL, saya memodifikasi proposal BIP62 untuk membuat persyaratan tanda tangan DER yang ketat juga berlaku untuk transaksi versi 1. Tidak ada tanda tangan non-DER yang ditambang ke dalam blok pada saat itu, sehingga hal ini diasumsikan tidak akan berdampak. Lihat https://github.com/Bitcoin/bips/pull/90 dan https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. Tidak diketahui pada saat itu, tetapi jika digunakan, hal ini akan menyelesaikan kerentanan.
 
 Karena luasnya BIP ini, yang secara substansial mencakup lebih dari sekadar "pengkodean DER yang ketat", BIP ini terus berubah dan tidak pernah hampir diterapkan. BIP ini kemudian ditarik karena Segregated Witness, BIP141, memecahkan kelenturan transaksi dengan cara yang berbeda dan lebih lengkap.
 
@@ -2075,7 +2075,7 @@ Karena luasnya BIP ini, yang secara substansial mencakup lebih dari sekadar "pen
 
 
 
-OpenSSL merilis versi baru dari perangkat lunak mereka dengan patch yang, jika digunakan pada Bitcoin sejak awal, akan menyelesaikan masalah ini. Akan tetapi, menggunakan versi baru dari OpenSSL hanya pada rilis baru Bitcoin Core akan memperburuk keadaan. Gregory Maxwell menjelaskan hal ini di [email thread](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) pada bulan Januari 2015:
+OpenSSL merilis versi baru dari perangkat lunak mereka dengan patch yang, jika digunakan pada Bitcoin sejak awal, akan menyelesaikan masalah ini. Akan tetapi, menggunakan versi baru dari OpenSSL hanya pada rilis baru Bitcoin Core akan memperburuk keadaan. Gregory Maxwell menjelaskan hal ini di [email thread](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) pada bulan Januari 2015:
 
 
 > Meskipun untuk sebagian besar aplikasi, secara umum dapat diterima untuk menolak beberapa tanda tangan, Bitcoin adalah sistem konsensus di mana semua peserta secara umum harus menyetujui keabsahan atau ketidakabsahan data input.  Dalam arti tertentu, konsistensi lebih penting daripada "kebenaran".

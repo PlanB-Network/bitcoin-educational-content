@@ -122,7 +122,7 @@ Pro uživatele mimo Umbrel (např. na osobním serveru, Raspberry Pi s RaspiBlit
 
 
 
-**Předpoklady:** Ujistěte se, že váš systém splňuje minimální požadavky podle [nastavení dokumentace](https://docs.thunderhub.io/setup):
+**Předpoklady:** Ujistěte se, že váš systém splňuje minimální požadavky podle [nastavení dokumentace](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Pro uživatele mimo Umbrel (např. na osobním serveru, Raspberry Pi s RaspiBlit
 
 
 
-**1. Získat kód ThunderHub:** Klonujte úložiště GitHub projektu podle popisu v [instalační dokumentaci](https://docs.thunderhub.io/installation):
+**1. Získat kód ThunderHub:** Klonujte úložiště GitHub projektu podle popisu v [instalační dokumentaci](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Hlavní konfigurační soubor:** Vytvořte soubor `.env.local` v kořenovém adresáři ThunderHubu a přizpůsobte si konfiguraci (zabráníte tak přepsání nastavení při aktualizacích). Hlavní proměnné podle [dokumentace k nastavení](https://docs.thunderhub.io/setup):
+**1. Hlavní konfigurační soubor:** Vytvořte soubor `.env.local` v kořenovém adresáři ThunderHubu a přizpůsobte si konfiguraci (zabráníte tak přepsání nastavení při aktualizacích). Hlavní proměnné podle [dokumentace k nastavení](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Zobrazí se přihlašovací stránka služby ThunderHub. Vyberte nakonfigurovan�
 
 
 
-- **Instalace:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Konfigurace:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Instalace:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Konfigurace:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

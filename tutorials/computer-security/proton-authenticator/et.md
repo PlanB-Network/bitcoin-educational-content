@@ -572,8 +572,8 @@ Proton Authenticator on üks terviklikumaid ja turvalisemaid lahendusi: avatud l
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avatud lähtekood
-- **Turvaauditid**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Sõltumatud auditiaruanded
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Avatud lähtekood
+- **Turvaauditid**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Sõltumatud auditiaruanded
 
 
 

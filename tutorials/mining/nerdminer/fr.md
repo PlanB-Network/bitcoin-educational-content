@@ -133,4 +133,4 @@ Sachant que la puissance de calcul totale est d'environ 450 EH/s (soit 4,5 x 10^
 Voici quelques liens si vous souhaitez en savoir plus sur le sujet :
 
 - [Page du projet NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Documentation complète des NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Documentation complète des NerdMiners](https://bitwater.ch/nerd-miner-v2/)

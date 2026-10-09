@@ -1521,7 +1521,7 @@ Yksi Umbrelin tärkeimmistä eduista kilpailijoihin verrattuna on sen laaja ja e
 
 
 
-Umbrelin koodi on julkisesti saatavilla (voit tarkastella, Fork ja muokata sitä), mutta sillä ei ole todellista avoimen lähdekoodin lisenssiä. Itse asiassa umbrelOS on jaettu [*PolyForm Noncommercial 1.0*]-lisenssin (https://polyformproject.org/licenses/noncommercial/1.0.0/) alla, vaikka jotkin siihen liittyvät kehitystyökalut ovat saatavilla MIT-lisenssin alla.
+Umbrelin koodi on julkisesti saatavilla (voit tarkastella, Fork ja muokata sitä), mutta sillä ei ole todellista avoimen lähdekoodin lisenssiä. Itse asiassa umbrelOS on jaettu [*PolyForm Noncommercial 1.0*]-lisenssin (https://polyformproject.org/licenses/noncommercial/1.0.0) alla, vaikka jotkin siihen liittyvät kehitystyökalut ovat saatavilla MIT-lisenssin alla.
 
 
 

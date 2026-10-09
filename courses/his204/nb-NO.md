@@ -469,7 +469,7 @@ Gournay-kretsens intellektuelle produksjon hadde stor innvirkning på idéhistor
 
 ![Studie av økonomisk utgivelse i Frankrike, 1566–1789.](assets/en/035.webp)
 
-For å spre en smak for økonomiske diskusjoner blant den franske befolkningen arbeidet Gournay og hans venner for å gjøre dem tilgjengelige gjennom romaner. Etter *Memoir on the Trades*, som kritiserte laugene, hjalp Gournay og Cliquot-Blervache Gabriel-François Coyer med å skrive en kort satirisk roman kalt Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+For å spre en smak for økonomiske diskusjoner blant den franske befolkningen arbeidet Gournay og hans venner for å gjøre dem tilgjengelige gjennom romaner. Etter *Memoir on the Trades*, som kritiserte laugene, hjalp Gournay og Cliquot-Blervache Gabriel-François Coyer med å skrive en kort satirisk roman kalt Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbed Gabriel-François Coyer, «Chinki»](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ I sine tidligere siterte *Maksimer* uttaler Quesnay:
 
 Fysiokratene hadde sett skaden forårsaket av statlig innblanding, særlig i kornhandelen. Man må erkjenne, sier de, at myndighetene aldri vil kunne styre handelen like godt som enkeltpersoner gjør, fordi den ville måtte reagere på ethvert behov og enhver endring i etterspørsel eller tilbud. Alt dette ligger langt utenfor evnene til selv den klokeste regjering man kan tenke seg. Derfor er det nødvendig å la ting være, og la dem flyte fritt.
 
-Gunstig av natur må handelen være fullstendig og fullkomment fri. Ett av deres medlemmer, Le Trosne, skrev til og med et pamflett med tittelen [*Kornhandelens frihet: alltid nyttig, aldri skadelig*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Gunstig av natur må handelen være fullstendig og fullkomment fri. Ett av deres medlemmer, Le Trosne, skrev til og med et pamflett med tittelen [*Kornhandelens frihet: alltid nyttig, aldri skadelig*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Femte prinsipp: Alle mennesker er brødre
 

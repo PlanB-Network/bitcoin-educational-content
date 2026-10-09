@@ -650,7 +650,7 @@ På bakgrunn av den økende økonomiske kontrollen blir desentraliserte verktøy
 
 
 
-- [Joinstrs offisielle nettside](https://joinstr.xyz)
+- [Joinstrs offisielle nettside](https://docs.joinstr.xyz/)
 - [Brukerdokumentasjon](https://docs.joinstr.xyz/users/using-joinstr)
 - [Teknisk dokumentasjon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab kildekode](https://gitlab.com/invincible-privacy/joinstr)

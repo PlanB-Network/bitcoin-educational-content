@@ -2307,7 +2307,7 @@ Tất nhiên, tùy thuộc vào ngày bạn tham khảo khóa học này, các g
 
 #### Ví dụ về giao diện
 
-Đoạn mã Rust này hiển thị Giao diện [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (tài sản có thể thay thế). Mã này được lấy từ tệp `rgb20.rs` trong thư viện RGB chuẩn. Chúng ta hãy xem xét nó để hiểu cấu trúc của Giao diện và cách nó cung cấp cầu nối giữa, một mặt, logic kinh doanh (được xác định trong Sơ đồ) và mặt khác, các chức năng được cung cấp cho ví và người dùng.
+Đoạn mã Rust này hiển thị Giao diện [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (tài sản có thể thay thế). Mã này được lấy từ tệp `rgb20.rs` trong thư viện RGB chuẩn. Chúng ta hãy xem xét nó để hiểu cấu trúc của Giao diện và cách nó cung cấp cầu nối giữa, một mặt, logic kinh doanh (được xác định trong Sơ đồ) và mặt khác, các chức năng được cung cấp cho ví và người dùng.
 
 ```rust
 // ...

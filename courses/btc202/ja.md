@@ -1521,7 +1521,7 @@ Umbrelの競合他社に対する主な利点の1つは、その広大で非常�
 
 
 
-umbrelのコードは公開されています（閲覧、フォーク、改変が可能です）が、真のオープンソースライセンスではありません。実際、umbrelOSは[*PolyForm Noncommercial 1.0*]ライセンス(https://polyformproject.org/licenses/noncommercial/1.0.0/)の下で配布されていますが、いくつかの関連開発ツールはMITライセンスの下で利用可能です。
+umbrelのコードは公開されています（閲覧、フォーク、改変が可能です）が、真のオープンソースライセンスではありません。実際、umbrelOSは[*PolyForm Noncommercial 1.0*]ライセンス(https://polyformproject.org/licenses/noncommercial/1.0.0)の下で配布されていますが、いくつかの関連開発ツールはMITライセンスの下で利用可能です。
 
 
 

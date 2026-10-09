@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 - Жилище (по избор, но препоръчително)** (по избор, но препоръчително)** (по избор, но препоръчително)** (по избор, но препоръчително)**)
     - Защитава устройството и го прави лесно за използване.
-    - Най-популярният модел е "*Orange Pill Case*", за който са налични [STL файлове с отворен код за 3D печат](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Най-популярният модел е "*Orange Pill Case*", за който са налични [STL файлове с отворен код за 3D печат](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Кутиите се предлагат и от [независими дистрибутори, свързани с проекта](https://seedsigner.com/hardware/).
 
 

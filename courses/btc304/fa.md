@@ -1500,7 +1500,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 - آوردن یک **Nerdminer**، Bitaxe، FPGA یا حتی ASIC؛
 - داشتن یک **Bitcoin flyer**؛
 - طوفان فکری برای یک تصویر یا لوگوی Bitcoin برای جامعه شما؛
-- بازی کردن یک **[بازی کارتی Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**؛
+- بازی کردن یک **[بازی کارتی Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**؛
 - نمایش نقشه **[btcmap.org](https://btcmap.org/)** از جوامع و بازرگانان؛
 - ارسال یا دریافت Bitcoin با استفاده از **Lightning**.
 
@@ -1871,7 +1871,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 
 - شب رستوران برای **روز پیتزا** در ۲۲ مه
 - یک عصر یا آخر هفته برای جشن گرفتن **Halving** بعدی
-- شب بازی خانوادگی درباره Bitcoin و نحوه کار آن، با استفاده از بازی‌هایی مانند [Le Coin de Table](https://www.Maximalist.ovh/) یا [SHAmory](https://shamory.com/)
+- شب بازی خانوادگی درباره Bitcoin و نحوه کار آن، با استفاده از بازی‌هایی مانند [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) یا [SHAmory](https://shamory.com/)
 - **کارگاه Mining** ارائه انواع مختلف سخت‌افزار (CPU، GPU، FPGA، ASIC، Nerdminer، Bitaxe)
 - یک **بعدازظهر یا عصر برای مبتدیان**، با کارگاه‌های موضوعی
 - یک **گردهمایی مشترک با جوامع همسایه**

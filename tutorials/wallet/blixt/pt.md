@@ -663,7 +663,7 @@ Entretanto, aqui estão todos os links sobre este fantástico Nó Relâmpago Bit
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - vídeo promocional (pode testar a sua 1ª utilização do LN)
 - [Folheto A4 imprimível com os primeiros passos na utilização do Blixt, em várias línguas](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [O Blixt também oferece uma demonstração funcional completa](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) diretamente no seu sítio Web ou numa versão dedicada na Web, para testar a experiência completa antes de começar a utilizar no mundo real.
+- [O Blixt também oferece uma demonstração funcional completa](https://blixtwallet.github.io/) diretamente no seu sítio Web ou numa versão dedicada na Web, para testar a experiência completa antes de começar a utilizar no mundo real.
 
 
 ---

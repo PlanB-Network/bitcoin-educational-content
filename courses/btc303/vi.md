@@ -745,7 +745,7 @@ Không thể nói chắc được, nhưng chúng ta biết một vài điều:
 - Với trợ cấp khối bằng không và Mempool trống hoặc gần trống, mọi thứ có thể trở nên bất ổn do tình trạng chặt chém phí.
 
 
-Vì quá trình chuyển đổi sang Block reward chỉ tính phí vẫn còn rất xa trong tương lai, nên có lẽ khôn ngoan hơn là không nên vội kết luận và cố gắng khắc phục các vấn đề tiềm ẩn trong khi chúng ta có thể. Ví dụ, Peter Todd cho rằng có nguy cơ thực sự là ngân sách an ninh của Bitcoin sẽ không đủ trong tương lai, và do đó lập luận cho một mức lạm phát nhỏ liên tục trong Bitcoin. Tuy nhiên, ông cũng cho rằng không nên thảo luận về vấn đề như vậy vào thời điểm này, như [ông đã nói trên podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Vì quá trình chuyển đổi sang Block reward chỉ tính phí vẫn còn rất xa trong tương lai, nên có lẽ khôn ngoan hơn là không nên vội kết luận và cố gắng khắc phục các vấn đề tiềm ẩn trong khi chúng ta có thể. Ví dụ, Peter Todd cho rằng có nguy cơ thực sự là ngân sách an ninh của Bitcoin sẽ không đủ trong tương lai, và do đó lập luận cho một mức lạm phát nhỏ liên tục trong Bitcoin. Tuy nhiên, ông cũng cho rằng không nên thảo luận về vấn đề như vậy vào thời điểm này, như [ông đã nói trên podcast What Bitcoin Did](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Nhưng, đó là một rủi ro như 10, 20 năm trong tương lai. Đó là một thời gian rất dài. Và, đến lúc đó, ai biết được rủi ro là gì?
@@ -841,7 +841,7 @@ Aaron van Wirdum mô tả con đường quanh co này trong bài viết trên T�
 
 > Shaolinfry đề xuất một giải pháp thay thế: một Soft Fork do người dùng kích hoạt (UASF). Thay vì kích hoạt nguồn Hash, một Soft Fork do người dùng kích hoạt sẽ có “‘kích hoạt ngày cờ’ khi các nút bắt đầu thực thi tại một thời điểm được xác định trước trong tương lai”. Miễn là một UASF như vậy được thực thi bởi đa số kinh tế, điều này sẽ buộc phần lớn thợ đào phải tuân theo (hoặc kích hoạt) Soft Fork.
 
-Trong số những thứ khác, ông trích dẫn email của Shaolinfry gửi đến danh sách gửi thư Bitcoin-dev. Trong dịp đó, Shaolinfry [đã phản đối Miner kích hoạt các nhánh Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), liệt kê một số vấn đề với chúng:
+Trong số những thứ khác, ông trích dẫn email của Shaolinfry gửi đến danh sách gửi thư Bitcoin-dev. Trong dịp đó, Shaolinfry [đã phản đối Miner kích hoạt các nhánh Soft](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/), liệt kê một số vấn đề với chúng:
 
 
 > Đầu tiên, nó đòi hỏi phải tin tưởng vào sức mạnh của Hash sẽ xác thực sau khi kích hoạt. BIP66 Soft Fork là trường hợp mà 95% Hashrate đang báo hiệu sự sẵn sàng nhưng thực tế khoảng một nửa không thực sự xác thực các quy tắc đã nâng cấp và được khai thác trên một khối không hợp lệ do nhầm lẫn.
@@ -874,7 +874,7 @@ Sau khi triển khai SegWit, một cuộc thảo luận về cơ chế triển k
 
 > Vào một thời điểm nào đó, chúng tôi có thể sẽ muốn thêm nhiều tính năng hơn vào giao thức Bitcoin. Đây là một câu hỏi triết học lớn mà chúng tôi tự hỏi. Chúng tôi có thực hiện UASF cho lần tiếp theo không? Còn phương pháp kết hợp thì sao? Miner tự kích hoạt đã bị loại trừ. bip9 chúng tôi sẽ không sử dụng lại.
 
-Vào tháng 1 năm 2020, Matt Corallo [đã gửi một email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) đến danh sách gửi thư Bitcoin-dev để bắt đầu thảo luận về các cơ chế triển khai Soft Fork trong tương lai. Ông đã liệt kê năm mục tiêu mà ông cho là cần thiết trong quá trình nâng cấp. David Harding [tóm tắt chúng trong bản tin Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) như sau:
+Vào tháng 1 năm 2020, Matt Corallo [đã gửi một email](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) đến danh sách gửi thư Bitcoin-dev để bắt đầu thảo luận về các cơ chế triển khai Soft Fork trong tương lai. Ông đã liệt kê năm mục tiêu mà ông cho là cần thiết trong quá trình nâng cấp. David Harding [tóm tắt chúng trong bản tin Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) như sau:
 
 
 > Khả năng hủy bỏ nếu gặp phải sự phản đối nghiêm trọng đối với các thay đổi về quy tắc đồng thuận được đề xuất. Việc phân bổ đủ thời gian sau khi phát hành phần mềm cập nhật để đảm bảo rằng hầu hết các nút kinh tế được nâng cấp để thực thi các quy tắc đó. Kỳ vọng rằng tỷ lệ Hash của mạng sẽ gần như giống nhau trước và sau khi thay đổi, cũng như trong bất kỳ quá trình chuyển đổi nào. Việc ngăn ngừa, càng nhiều càng tốt, việc tạo ra các khối không hợp lệ theo các quy tắc mới, có thể dẫn đến xác nhận sai trong các nút không được nâng cấp và máy khách SPV. Đảm bảo rằng các cơ chế hủy bỏ không thể bị những kẻ phá hoại hoặc những người theo đảng phái lợi dụng để giữ lại một bản nâng cấp mong muốn rộng rãi mà không có vấn đề nào được biết đến
@@ -946,7 +946,7 @@ Trong bảy tháng đó, cuộc thảo luận vẫn tiếp diễn và có vẻ n
 
 Cuối cùng, cách tiếp cận "hãy xem điều gì xảy ra" dường như đã ăn sâu vào tâm trí mọi người. Quá trình này sau đó được gọi là "Thử nghiệm nhanh" do thời gian báo hiệu ngắn. David Harding giải thích ý tưởng này cho cộng đồng rộng lớn hơn trong
 
-[gửi email đến danh sách gửi thư Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[gửi email đến danh sách gửi thư Bitcoin-dev](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Phiên bản trước đó của đề xuất này đã được ghi lại cách đây hơn 200 ngày và mã cơ bản của Taproot đã được hợp nhất vào Bitcoin Core cách đây hơn 140 ngày. Nếu chúng tôi bắt đầu Speedy Trial vào thời điểm Taproot được hợp nhất (điều này hơi không thực tế), thì chúng tôi sẽ phải chờ chưa đầy hai tháng nữa mới có Taproot hoặc chúng tôi sẽ chuyển sang nỗ lực kích hoạt tiếp theo cách đây hơn một tháng.
 >
@@ -1370,7 +1370,7 @@ Các công ty, cá nhân và tổ chức quan tâm đến sự thành công liê
 Mọi người đôi khi có ấn tượng rằng có rất nhiều cuộc đấu đá nội bộ và tranh luận nảy lửa bất tận giữa các nhà phát triển Bitcoin, và rằng họ không có khả năng đưa ra quyết định.
 
 
-Ví dụ, cơ chế triển khai Taproot, đã được thảo luận trong một thời gian dài trong đó hai "phe" đã hình thành. Một phe muốn "làm hỏng" quá trình nâng cấp nếu [thợ đào](https://planb.academy/resources/glossary/miner) không bỏ phiếu áp đảo cho các quy tắc mới sau một thời điểm nhất định, trong khi phe kia muốn thực thi các quy tắc sau thời điểm đó bất kể thế nào. Michael Folkson tóm tắt các lập luận từ hai phe trong một [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) gửi đến danh sách gửi thư Bitcoin-dev.
+Ví dụ, cơ chế triển khai Taproot, đã được thảo luận trong một thời gian dài trong đó hai "phe" đã hình thành. Một phe muốn "làm hỏng" quá trình nâng cấp nếu [thợ đào](https://planb.academy/resources/glossary/miner) không bỏ phiếu áp đảo cho các quy tắc mới sau một thời điểm nhất định, trong khi phe kia muốn thực thi các quy tắc sau thời điểm đó bất kể thế nào. Michael Folkson tóm tắt các lập luận từ hai phe trong một [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) gửi đến danh sách gửi thư Bitcoin-dev.
 
 
 Cuộc tranh luận dường như kéo dài mãi mãi, và thực sự là Hard để thấy bất kỳ sự đồng thuận nào về vấn đề này hình thành trong thời gian sớm. Điều này khiến mọi người thất vọng và kết quả là nhiệt độ tăng cao. Gregory Maxwell (với tư cách là người dùng nullc) lo lắng [trên Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) rằng các cuộc thảo luận dài dòng sẽ khiến việc nâng cấp kém an toàn hơn:
@@ -1472,7 +1472,7 @@ Các cuộc thảo luận về việc mở rộng quy mô đạt đến đỉnh 
 Năm 2015, một hội nghị có tên [Scaling Bitcoin](https://scalingbitcoin.org/) đã được tổ chức tại Montreal, với một hội nghị tiếp theo diễn ra sáu tháng sau đó tại Hồng Kông và sau đó tại một số địa điểm khác trên khắp thế giới. Trọng tâm chính xác là cách mở rộng Address. Nhiều nhà phát triển Bitcoin và những người đam mê khác đã tập trung tại các hội nghị này để thảo luận về các vấn đề và đề xuất mở rộng khác nhau. Hầu hết các cuộc thảo luận này không xoay quanh việc tăng kích thước khối mà là các giải pháp dài hạn hơn.
 
 
-Sau hội nghị Hồng Kông vào tháng 12 năm 2015, Gregory Maxwell [đã tóm tắt quan điểm của mình](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) về nhiều vấn đề đã được tranh luận, bắt đầu với một số triết lý chung về quy mô:
+Sau hội nghị Hồng Kông vào tháng 12 năm 2015, Gregory Maxwell [đã tóm tắt quan điểm của mình](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) về nhiều vấn đề đã được tranh luận, bắt đầu với một số triết lý chung về quy mô:
 
 
 > Với công nghệ hiện có, có những sự đánh đổi cơ bản giữa quy mô và phi tập trung. Nếu hệ thống quá tốn kém, mọi người sẽ buộc phải tin tưởng vào bên thứ ba thay vì tự mình thực thi các quy tắc của hệ thống. Nếu mức sử dụng tài nguyên của Bitcoin Blockchain, so với công nghệ hiện có, quá lớn, Bitcoin sẽ mất đi lợi thế cạnh tranh so với các hệ thống cũ vì việc xác thực sẽ quá tốn kém (làm mất giá nhiều người dùng), buộc phải đưa lòng tin trở lại hệ thống. Nếu năng lực quá thấp và phương pháp giao dịch của chúng ta quá kém hiệu quả, việc tiếp cận chuỗi để giải quyết tranh chấp sẽ quá tốn kém, một lần nữa đẩy lòng tin trở lại hệ thống.
@@ -1720,7 +1720,7 @@ lỗ hổng. Các hacker và nhà khoa học bảo mật máy tính cho rằng t
 Điều này có nghĩa là nếu bạn tìm thấy vấn đề bảo mật, bạn nên báo cáo vấn đề này cho nhóm chịu trách nhiệm về hệ thống. Nhưng điều này có nghĩa gì trong bối cảnh của Bitcoin? Không ai kiểm soát Bitcoin, nhưng hiện tại có một điểm tập trung cho quá trình phát triển Bitcoin, cụ thể là [kho lưu trữ Github Core của Bitcoin](https://github.com/Bitcoin/Bitcoin). Những người bảo trì kho lưu trữ nói trên chịu trách nhiệm về mã trong đó, nhưng họ không chịu trách nhiệm về toàn bộ hệ thống - không ai chịu trách nhiệm cả. Tuy nhiên, cách làm tốt nhất chung là gửi email đến security@bitcoincore.org.
 
 
-Trong [chuỗi email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) có tiêu đề "Tiết lộ lỗi có trách nhiệm" từ năm 2017, Anthony Towns đã cố gắng tóm tắt những gì ông cho là các biện pháp thực hành tốt nhất hiện tại. Ông đã thu thập thông tin đầu vào từ nhiều nguồn và nhiều người khác nhau để đưa ra quan điểm của mình về chủ đề này.
+Trong [chuỗi email](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) có tiêu đề "Tiết lộ lỗi có trách nhiệm" từ năm 2017, Anthony Towns đã cố gắng tóm tắt những gì ông cho là các biện pháp thực hành tốt nhất hiện tại. Ông đã thu thập thông tin đầu vào từ nhiều nguồn và nhiều người khác nhau để đưa ra quan điểm của mình về chủ đề này.
 
 
 
@@ -1743,12 +1743,12 @@ Trong [chuỗi email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/20
 Danh sách này cho thấy mức độ cẩn thận mà người ta phải có khi phát hành bản vá cho Bitcoin, vì bản vá có thể tiết lộ lỗ hổng. Điểm thứ tư đặc biệt thú vị vì nó giải thích cách kiểm tra xem bản vá đã được ngụy trang đủ tốt hay chưa. Thật vậy, nếu một số nhà phát triển thực sự có kinh nghiệm không thể phát hiện ra lỗ hổng ngay cả khi biết rằng bản vá đã sửa một lỗ hổng, thì có lẽ sẽ thực sự là Hard đối với những người khác khi phát hiện ra nó.
 
 
-Chuỗi dẫn đến email này đang thảo luận về việc có nên tiết lộ lỗ hổng cho altcoin và các triển khai khác của Bitcoin hay không, khi nào và làm thế nào. Không có câu trả lời rõ ràng nào ở đây. "Giúp đỡ những người tốt" có vẻ là điều hợp lý, nhưng ai quyết định họ là ai và người ta sẽ vạch ra ranh giới ở đâu? Bryan Bishop [đã tranh luận](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) rằng việc giúp altcoin và thậm chí là scamcoin tự bảo vệ mình trước các khai thác bảo mật là một nghĩa vụ đạo đức:
+Chuỗi dẫn đến email này đang thảo luận về việc có nên tiết lộ lỗ hổng cho altcoin và các triển khai khác của Bitcoin hay không, khi nào và làm thế nào. Không có câu trả lời rõ ràng nào ở đây. "Giúp đỡ những người tốt" có vẻ là điều hợp lý, nhưng ai quyết định họ là ai và người ta sẽ vạch ra ranh giới ở đâu? Bryan Bishop [đã tranh luận](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/) rằng việc giúp altcoin và thậm chí là scamcoin tự bảo vệ mình trước các khai thác bảo mật là một nghĩa vụ đạo đức:
 
 
 > Không đủ để bảo vệ Bitcoin và người dùng khỏi các mối đe dọa đang hoạt động, cần có trách nhiệm chung hơn là bảo vệ mọi loại người dùng và phần mềm khác nhau khỏi nhiều loại mối đe dọa dưới mọi hình thức, ngay cả khi mọi người đang sử dụng phần mềm ngu ngốc và không an toàn mà cá nhân bạn không duy trì hoặc đóng góp hoặc ủng hộ. Xử lý kiến thức về lỗ hổng là vấn đề tế nhị và bạn có thể nhận được kiến thức có tác động trực tiếp hoặc gián tiếp nghiêm trọng hơn so với mô tả ban đầu.
 
-Ngoài ra, dẫn đến email của Town ở trên còn có một [bài đăng](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) của Gregory Maxwell, trong đó ông lập luận rằng các lỗ hổng bảo mật có thể nghiêm trọng hơn vẻ bề ngoài:
+Ngoài ra, dẫn đến email của Town ở trên còn có một [bài đăng](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) của Gregory Maxwell, trong đó ông lập luận rằng các lỗ hổng bảo mật có thể nghiêm trọng hơn vẻ bề ngoài:
 
 
 > Tôi đã nhiều lần chứng kiến sự cố khai thác Hard trở nên đơn giản khi bạn tìm đúng mẹo, hoặc một sự cố nhỏ biến thành sự cố nghiêm trọng hơn nhiều.
@@ -2021,7 +2021,7 @@ BIP được kích hoạt vào ngày 4 tháng 7 năm 2015. Tuy nhiên, mặc dù
 
 Bản tiết lộ đầy đủ về vấn đề này đã được Pieter Wuille công bố vào ngày 28 tháng 7 năm 2015 trong một
 
-[gửi email đến danh sách gửi thư Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[gửi email đến danh sách gửi thư Bitcoin-dev](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Xin chào tất cả mọi người,
@@ -2056,7 +2056,7 @@ Dòng thời gian các sự kiện xung quanh BIP66. Các mục màu đen đã �
 Nếu không ai biết về vấn đề này, nó có thể được giải quyết bằng BIP62 hiện đã được mở rộng, đây là đề xuất nhằm giảm khả năng thay đổi giao dịch. Trong số những thay đổi được đề xuất trong BIP62 có việc thắt chặt các quy tắc đồng thuận để mã hóa chữ ký hoặc "mã hóa [DER](https://planb.academy/resources/glossary/der) nghiêm ngặt". Pieter Wuille đã đề xuất một số điều chỉnh đối với BIP vào tháng 7 năm 2014, điều này sẽ giải quyết được vấn đề:
 
 
-> 2014-07-18: Để các quy tắc mã hóa chữ ký của Bitcoin không phụ thuộc vào trình phân tích cú pháp cụ thể của OpenSSL, tôi đã sửa đổi đề xuất BIP62 để yêu cầu nghiêm ngặt về chữ ký DER của nó cũng áp dụng cho các giao dịch phiên bản 1. Không có chữ ký không phải DER nào được khai thác thành các khối nữa tại thời điểm đó, vì vậy điều này được cho là không có bất kỳ tác động nào. Xem https://github.com/Bitcoin/bips/pull/90 và http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Không rõ tại thời điểm đó, nhưng nếu triển khai thì điều này sẽ giải quyết được lỗ hổng.
+> 2014-07-18: Để các quy tắc mã hóa chữ ký của Bitcoin không phụ thuộc vào trình phân tích cú pháp cụ thể của OpenSSL, tôi đã sửa đổi đề xuất BIP62 để yêu cầu nghiêm ngặt về chữ ký DER của nó cũng áp dụng cho các giao dịch phiên bản 1. Không có chữ ký không phải DER nào được khai thác thành các khối nữa tại thời điểm đó, vì vậy điều này được cho là không có bất kỳ tác động nào. Xem https://github.com/Bitcoin/bips/pull/90 và https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. Không rõ tại thời điểm đó, nhưng nếu triển khai thì điều này sẽ giải quyết được lỗ hổng.
 
 Do phạm vi của BIP này, bao gồm nhiều thứ hơn là chỉ "mã hóa DER nghiêm ngặt", nên nó liên tục thay đổi và không bao giờ được triển khai. BIP sau đó đã bị thu hồi vì Segregated Witness, BIP141, đã giải quyết [tính dễ uốn nắn của giao dịch](https://planb.academy/resources/glossary/malleability-transaction) theo một cách khác và hoàn thiện hơn.
 
@@ -2065,7 +2065,7 @@ Do phạm vi của BIP này, bao gồm nhiều thứ hơn là chỉ "mã hóa DE
 
 
 
-OpenSSL đã phát hành phiên bản mới của phần mềm với các bản vá lỗi, nếu được sử dụng trong Bitcoin ngay từ đầu, sẽ giải quyết được vấn đề. Tuy nhiên, chỉ sử dụng bất kỳ phiên bản mới nào của OpenSSL trong bản phát hành mới của Bitcoin Core sẽ khiến vấn đề trở nên tồi tệ hơn. Gregory Maxwell giải thích điều này trong một [chuỗi email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) khác vào tháng 1 năm 2015:
+OpenSSL đã phát hành phiên bản mới của phần mềm với các bản vá lỗi, nếu được sử dụng trong Bitcoin ngay từ đầu, sẽ giải quyết được vấn đề. Tuy nhiên, chỉ sử dụng bất kỳ phiên bản mới nào của OpenSSL trong bản phát hành mới của Bitcoin Core sẽ khiến vấn đề trở nên tồi tệ hơn. Gregory Maxwell giải thích điều này trong một [chuỗi email](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) khác vào tháng 1 năm 2015:
 
 
 > Trong khi đối với hầu hết các ứng dụng, việc từ chối một số chữ ký là điều có thể chấp nhận được, Bitcoin là một hệ thống đồng thuận trong đó tất cả những người tham gia thường phải đồng ý về tính hợp lệ hoặc không hợp lệ chính xác của dữ liệu đầu vào. Theo một nghĩa nào đó, tính nhất quán quan trọng hơn "tính chính xác".

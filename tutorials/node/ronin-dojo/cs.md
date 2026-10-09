@@ -57,7 +57,7 @@ Pro výběr stroje, který bude hostit a provozovat RoninDojo, máte několik mo
 
 Jak bylo vysvětleno dříve, nejjednodušší volbou je objednat si Tanto, plug-and-play stroj navržený speciálně pro tento účel. Pro objednání vašeho přejděte sem: [odkaz](https://shop.ronindojo.io/product-category/nodes/).
 
-Vzhledem k tomu, že týmy RoninDojo produkují open-source kód, je také možné implementovat RoninDojo na jiných strojích. Nejnovější verze instalačního průvodce najdete na této stránce: [odkaz](https://ronindojo.io/en/downloads.html), a nejnovější verze kódu na této stránce: [odkaz](https://code.samourai.io/ronindojo/RoninDojo).
+Vzhledem k tomu, že týmy RoninDojo produkují open-source kód, je také možné implementovat RoninDojo na jiných strojích. Nejnovější verze instalačního průvodce najdete na této stránce: [odkaz](https://ronindojo.io/downloads), a nejnovější verze kódu na této stránce: [odkaz](https://code.samourai.io/ronindojo/RoninDojo).
 
 Osobně jsem ho nainstaloval na Raspberry Pi 4 8GB a vše funguje perfektně.
 
@@ -79,13 +79,13 @@ Zde je příklad, jak nastavit váš vlastní uzel RoninDojo:
 
 Jakmile máte svůj stroj sestavený, můžete začít s instalací RoninDojo. Začněte vytvořením bootovatelné micro SD karty vypálením příslušného diskového obrazu na ni.
 
-Vložte vaši micro SD kartu do vašeho osobního počítače, poté přejděte na oficiální webové stránky RoninDojo a stáhněte si diskový obraz RoninOS: https://ronindojo.io/en/downloads.html.
+Vložte vaši micro SD kartu do vašeho osobního počítače, poté přejděte na oficiální webové stránky RoninDojo a stáhněte si diskový obraz RoninOS: https://ronindojo.io/downloads.
 Stáhněte si obraz disku, který odpovídá vašemu hardware. V mém případě jsem stáhl obraz "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 ![Stáhnout obraz disku RoninOS](assets/2.webp)
 
 Jakmile je obraz stažen, ověřte jeho integritu pomocí odpovídajícího souboru .SHA256. V tomto článku podrobně popíšu, jak to udělat: Jak ověřit integritu softwaru Bitcoinu na Windows?
 
-Specifické pokyny pro ověření integrity RoninOS jsou také dostupné na této stránce: https://wiki.ronindojo.io/en/extras/verify.
+Specifické pokyny pro ověření integrity RoninOS jsou také dostupné na této stránce: https://docs.ronindojo.io/install/verify-os/.
 
 Pro vypálení tohoto obrazu na vaši micro SD kartu můžete použít software jako je Balena Etcher, který si můžete stáhnout zde: https://www.balena.io/etcher/.
 
@@ -335,13 +335,13 @@ Také k němu můžete přistupovat z vašeho smartphonu instalací prohlížeč
 Váš uzel RoninDojo také zahrnuje WhirlpoolCLI, vzdálené rozhraní příkazové řádky pro automatizaci míchání Whirlpool.
 Když provádíte CoinJoin s implementací Whirlpool, aplikace, kterou používáte, musí zůstat otevřená, aby mohla provádět míchání a opětovné míchání. Tento proces může být pro uživatele, kteří chtějí dosáhnout vysoké úrovně anonymity, zdlouhavý, protože zařízení, na kterém je aplikace s Whirlpool spuštěná, musí zůstat neustále zapnuté. V praxi to znamená, že pokud chcete zapojit vaše UTXO do nepřetržitých remixů 24/7, budete muset neustále nechat zapnutý váš osobní počítač nebo telefon s otevřenou aplikací.
 Jedním řešením tohoto omezení je použití WhirlpoolCLI na stroji, který má být neustále zapnutý, například na Bitcoinovém uzlu. S tím mohou být naše UTXO remixovány 24/7 bez nutnosti nechat běžet jiné zařízení než náš Bitcoinový uzel.
-WhirlpoolCLI se používá s WhirlpoolGUI, grafickým rozhraním, které se instaluje na osobní počítač pro snadnou správu Coinjoinů. V tomto článku podrobně vysvětlím, jak nastavit Whirlpool CLI s vaším vlastním dojo: [odkaz](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI se používá s WhirlpoolGUI, grafickým rozhraním, které se instaluje na osobní počítač pro snadnou správu Coinjoinů. V tomto článku podrobně vysvětlím, jak nastavit Whirlpool CLI s vaším vlastním dojo: [odkaz](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
-Pokud se chcete dozvědět více o Coinjoin obecně, vše vysvětluji v tomto článku: [odkaz](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+Pokud se chcete dozvědět více o Coinjoin obecně, vše vysvětluji v tomto článku: [odkaz](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 ### Použití nástroje Whirlpool Stat Tool.
 
-Po provedení CoinJoinů s Whirlpool možná budete chtít znát skutečnou úroveň soukromí vašich smíchaných UTXO. Nástroj Whirlpool Stat Tool vám to umožní snadno zjistit. S tímto nástrojem můžete vypočítat perspektivní skóre a retrospektivní skóre vašich smíchaných UTXO. Doporučuji přečíst si tuto sekci, abyste se dozvěděli více o výpočtu těchto Anon Sets a jak fungují: [odkaz](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Po provedení CoinJoinů s Whirlpool možná budete chtít znát skutečnou úroveň soukromí vašich smíchaných UTXO. Nástroj Whirlpool Stat Tool vám to umožní snadno zjistit. S tímto nástrojem můžete vypočítat perspektivní skóre a retrospektivní skóre vašich smíchaných UTXO. Doporučuji přečíst si tuto sekci, abyste se dozvěděli více o výpočtu těchto Anon Sets a jak fungují: [odkaz](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 Nástroj je předinstalován na vašem RoninDojo. Zatím je dostupný pouze z RoninCLI. Pro jeho spuštění z hlavního menu přejděte na:
 
@@ -398,7 +398,7 @@ WST poté zobrazí retrospektivní skóre (metriky zpětného pohledu) následov
 
 Vezměte prosím na vědomí, že prospektivní skóre vašeho UTXO je vypočítáno na základě TXID vašeho počátečního míchání, nikoli vašeho posledního míchání. Naopak, retrospektivní skóre UTXO je vypočítáno na základě TXID posledního cyklu.
 
-Pokud znovu nerozumíte těmto konceptům Anon Sets, doporučuji přečíst si tuto část mého článku o Coinjoin, kde vše vysvětluji podrobně s diagramy: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Pokud znovu nerozumíte těmto konceptům Anon Sets, doporučuji přečíst si tuto část mého článku o Coinjoin, kde vše vysvětluji podrobně s diagramy: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Použití kalkulačky Boltzmann.
 
@@ -637,7 +637,7 @@ Viděli jsme, jak nainstalovat a začít používat tento úžasný nástroj, kt
 
 Pokud vás používání terminálu neodrazuje a nepotřebujete nástroje související s Lightning Network, pak by vás RoninDojo mohlo zaujmout.
 
-Pokud můžete, zvažte darování vývojářům, kteří pro vás tyto open-source softwary vytvářejí zdarma: https://donate.ronindojo.io/
+Pokud můžete, zvažte darování vývojářům, kteří pro vás tyto open-source softwary vytvářejí zdarma: https://docs.ronindojo.io/main/donations/
 
 Pro další informace o RoninDojo doporučuji prozkoumat odkazy v mých externích zdrojích níže.
 
@@ -654,5 +654,5 @@ Pro další informace o RoninDojo doporučuji prozkoumat odkazy v mých externí
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/představení-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

@@ -663,7 +663,7 @@ Nel frattempo, ecco tutti i link su questo incredibile nodo Bitcoin Lightning:
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Calendario delle ragazze Blixt](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video promozionale (è possibile testare il primo utilizzo di LN)
 - [Volantino stampabile in formato A4 con i primi passi da compiere con Blixt, in varie lingue](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt offre anche una demo funzionale completa](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) direttamente sul suo sito web o su una versione web dedicata, per avere un'esperienza di prova completa, prima di iniziare a usarla nel mondo reale.
+- [Blixt offre anche una demo funzionale completa](https://blixtwallet.github.io/) direttamente sul suo sito web o su una versione web dedicata, per avere un'esperienza di prova completa, prima di iniziare a usarla nel mondo reale.
 
 
 ---

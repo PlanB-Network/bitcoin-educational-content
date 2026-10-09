@@ -614,7 +614,7 @@ Nakon što pregledate sve ove tačke, možete kupiti svoju mašinu sa visokim st
 Da rezimiramo ovaj vodič u jednoj rečenici: **"Ne veruj, proveri."**
 
 
-[Takođe se možete obratiti profesionalcima za obnavljanje rudarskih mašina, kao što je naš partner 21energy. Oni nude testirane S9 mašine, očišćene i sa već instaliranim BraiiinOS+ softverom. Sa partnerskim kodom "decouvre," dobićete 10% popusta na kupovinu S9 i podržati Attakai projekat.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Takođe se možete obratiti profesionalcima za obnavljanje rudarskih mašina, kao što je naš partner 21energy. Oni nude testirane S9 mašine, očišćene i sa već instaliranim BraiiinOS+ softverom. Sa partnerskim kodom "decouvre," dobićete 10% popusta na kupovinu S9 i podržati Attakai projekat.](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## Vodič za kupovinu hardverskih modifikacija za S9

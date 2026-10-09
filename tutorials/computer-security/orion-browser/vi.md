@@ -643,8 +643,8 @@ Hãy nhớ: bảo vệ quyền riêng tư của bạn không chỉ phụ thuộc
 
 
 - **Trang web chính thức**: [kagi.com/orion](https://kagi.com/orion/)
-- **Câu hỏi thường gặp đầy đủ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Diễn đàn cộng đồng**: [community.kagi.com](https://community.kagi.com)
+- **Câu hỏi thường gặp đầy đủ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Diễn đàn cộng đồng**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Theo dõi lỗi**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Các thành phần nguồn mở
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Tin tức và cập nhật

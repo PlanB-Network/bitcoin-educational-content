@@ -122,7 +122,7 @@ Umbrel sẽ đảm nhiệm việc cung cấp ThunderHub thông tin kết nối L
 
 
 
-**Điều kiện tiên quyết:** Đảm bảo hệ thống của bạn đáp ứng các yêu cầu tối thiểu theo [thiết lập tài liệu](https://docs.thunderhub.io/setup):
+**Điều kiện tiên quyết:** Đảm bảo hệ thống của bạn đáp ứng các yêu cầu tối thiểu theo [thiết lập tài liệu](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Umbrel sẽ đảm nhiệm việc cung cấp ThunderHub thông tin kết nối L
 
 
 
-**1. Truy xuất mã ThunderHub:** Sao chép kho lưu trữ GitHub của dự án như được mô tả trong [tài liệu cài đặt](https://docs.thunderhub.io/installation):
+**1. Truy xuất mã ThunderHub:** Sao chép kho lưu trữ GitHub của dự án như được mô tả trong [tài liệu cài đặt](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Tệp cấu hình chính:** Tạo tệp `.env.local` ở gốc thư mục ThunderHub để tùy chỉnh cấu hình (điều này sẽ ngăn cài đặt của bạn bị ghi đè trong quá trình cập nhật). Các biến chính theo [tài liệu thiết lập](https://docs.thunderhub.io/setup):
+**1. Tệp cấu hình chính:** Tạo tệp `.env.local` ở gốc thư mục ThunderHub để tùy chỉnh cấu hình (điều này sẽ ngăn cài đặt của bạn bị ghi đè trong quá trình cập nhật). Các biến chính theo [tài liệu thiết lập](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Trang đăng nhập ThunderHub xuất hiện. Chọn tài khoản đã cấu hì
 
 
 
-- **Cài đặt:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Cấu hình:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Cài đặt:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Cấu hình:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

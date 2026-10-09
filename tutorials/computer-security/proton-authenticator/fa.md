@@ -572,8 +572,8 @@ https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - کد منبع باز
-- **ممیزی‌های امنیتی**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - گزارش‌های ممیزی مستقل
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - کد منبع باز
+- **ممیزی‌های امنیتی**: [proton.me/community/security-audits](https://proton.me/community/open-source) - گزارش‌های ممیزی مستقل
 
 
 

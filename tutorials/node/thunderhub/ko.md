@@ -122,7 +122,7 @@ Umbrel은 백그라운드에서 LND 연결 정보(TLS 인증서, 관리 마카�
 
 
 
-**전제 조건: ** 시스템이 [문서 설정](https://docs.thunderhub.io/setup)에 따른 최소 요구 사항을 충족하는지 확인하세요:
+**전제 조건: ** 시스템이 [문서 설정](https://docs.thunderhub.io/configure)에 따른 최소 요구 사항을 충족하는지 확인하세요:
 
 
 
@@ -136,7 +136,7 @@ Umbrel은 백그라운드에서 LND 연결 정보(TLS 인증서, 관리 마카�
 
 
 
-**1. ThunderHub 코드 가져오기: ** [설치 설명서](https://docs.thunderhub.io/installation)에 설명된 대로 프로젝트의 GitHub 리포지토리를 복제합니다:
+**1. ThunderHub 코드 가져오기: ** [설치 설명서](https://docs.thunderhub.io/get-started)에 설명된 대로 프로젝트의 GitHub 리포지토리를 복제합니다:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. 기본 구성 파일: ThunderHub 폴더의 루트에 '.env.local' 파일을 생성하여 구성을 사용자 지정합니다(이렇게 하면 업데이트 중에 설정을 덮어쓰는 것을 방지할 수 있습니다). 주요 변수는 [설정 문서](https://docs.thunderhub.io/setup)에 따릅니다:
+**1. 기본 구성 파일: ThunderHub 폴더의 루트에 '.env.local' 파일을 생성하여 구성을 사용자 지정합니다(이렇게 하면 업데이트 중에 설정을 덮어쓰는 것을 방지할 수 있습니다). 주요 변수는 [설정 문서](https://docs.thunderhub.io/configure)에 따릅니다:
 
 
 
@@ -304,8 +304,8 @@ ThunderHub 로그인 페이지가 나타납니다. 구성된 계정을 선택하
 
 
 
-- 설치:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- 구성:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- 설치:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- 구성:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

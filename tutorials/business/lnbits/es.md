@@ -387,7 +387,7 @@ Sustituye f8a43fc363ea428db5c53b3559935f1f por el valor que aparece antes del no
 
 ##### LNURL para una dirección lightning viceversa
 
-Prueba este [codificador](https://lnurl-codec.netlify.app/) de fiatjaf o [este](https://lightningdecoder.com/). Para pagar o comprobar un LNURLp también puedes utilizar [LNurlpay](https://wwww.lnurlpay.com/). Debes indicar HTTPS NO HTTP.
+Prueba este [codificador](https://lnurl-codec.netlify.app/) de fiatjaf o [este](https://lightningdecoder.com/). Para pagar o comprobar un LNURLp también puedes utilizar [LNurlpay](https://www.lnurlpay.com/). Debes indicar HTTPS NO HTTP.
 
 ##### Configurar un comentario que la gente ve cuando paga a mi LNURLp QR
 

@@ -65,7 +65,7 @@ Inserite manualmente l'importo che desiderate scambiare e utilizzate i pulsanti 
 Ricordate che i **tassi di transazione fluttuano**, quindi controllate sempre il prezzo finale prima di confermare.
 
 
-**Non è richiesto un conto corrente con** transazioni giornaliere limitate a 250.000 VND (~ 8 USD). Ulteriori informazioni sono disponibili nelle nostre [politiche di trasferimento bancario](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Non è richiesto un conto corrente con** transazioni giornaliere limitate a 250.000 VND (~ 8 USD). Ulteriori informazioni sono disponibili nelle nostre [politiche di trasferimento bancario](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Attenzione**: la commissione di rete è generalmente più conveniente quando si sceglie il Lightning Network rispetto al metodo di transazione onchain.

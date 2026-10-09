@@ -1168,7 +1168,7 @@ Bitcoin는 개발도상국, 기술에 정통한 개인, 투자자 모두의 관�
 Bitcoin의 Blockchain는 이름에서 알 수 있듯이 블록으로 구성되어 있습니다. 이 블록의 이론적 최대 크기는 4메가바이트입니다. 하지만 이 글을 쓰는 시점의 평균 블록 크기는 약 1.5MB입니다._ 이 제한 때문에 Bitcoin이 처리할 수 있는 초당 트랜잭션 수는 초당 7~10개(tps)로 제한되어 있습니다.
 
 
-따라서 궁금하실 수 있습니다: Bitcoin의 Blockchain이 [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)로 거래하는 비자나 마스터카드와 같은 네트워크와 어떻게 경쟁할 수 있을까요?
+따라서 궁금하실 수 있습니다: Bitcoin의 Blockchain이 [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)로 거래하는 비자나 마스터카드와 같은 네트워크와 어떻게 경쟁할 수 있을까요?
 
 
 답은 간단합니다. 그들과 경쟁하는 것이 아닙니다.
@@ -1665,7 +1665,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 웨스턴 유니온과 같은 송금 서비스를 통해 해외로 송금하는 것은 무료가 아닙니다. 약간의 금액이 아니라 상당한 금액의 비용이 듭니다.
 
 
-미화 100달러를 통가로 송금하면 [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)의 비용과 불리한 Exchange 환율로 인해 \$8.60의 추가 손실이 발생합니다. 즉, 총 송금액의 21% 이상이 다국적 기업인 Western Union에 전달되는 것입니다. 그 결과, 통가 가족들에게 돌아갈 수 있었던 상당한 금액이 송금 서비스 제공업체의 주머니에 들어가게 된 것입니다.
+미화 100달러를 통가로 송금하면 [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)의 비용과 불리한 Exchange 환율로 인해 \$8.60의 추가 손실이 발생합니다. 즉, 총 송금액의 21% 이상이 다국적 기업인 Western Union에 전달되는 것입니다. 그 결과, 통가 가족들에게 돌아갈 수 있었던 상당한 금액이 송금 서비스 제공업체의 주머니에 들어가게 된 것입니다.
 
 수입에 21%가 추가되는 것이 어떤 이점이 있는지 상상할 수 있나요?
 
@@ -1676,7 +1676,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 통가에만 이런 일이 있다고 생각했다면 다시 한 번 생각해 보세요.
 
 
-다음은 다른 주요 국가로 미화 100달러를 송금할 때 Western Union [수수료](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)가 얼마나 부과되는지 보여주는 샘플입니다:
+다음은 다른 주요 국가로 미화 100달러를 송금할 때 Western Union [수수료](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)가 얼마나 부과되는지 보여주는 샘플입니다:
 
 
 
@@ -2021,10 +2021,10 @@ Bitcoin은 확장성보다 탈중앙화와 보안을 우선시하기로 결정�
 수많은 연구에서 잘못된 주장을 반박하고 있음에도 불구하고, Bitcoin은 여전히 불법 활동에 주로 사용된다는 비판을 받고 있습니다. 다시 한 번 말씀드리지만, 이는 사실과 다릅니다.
 
 
-CIA의 전 부국장이 수행한 한 [연구](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)에 따르면 "불법 금융에 Bitcoin이 사용된다는 광범위한 일반화는 상당히 과장된 것"으로 나타났습니다 실제로 2016년 이후 Bitcoin의 총 거래량 중 불법 활동에 사용된 비율은 1% 미만입니다. 이에 비해 "일부에서는 지하경제가 미국 국내총생산의 11%에서 12%에 달하며(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp), 이 중 대부분은 미국 달러를 사용하여 활성화된다"고 주장합니다.
+CIA의 전 부국장이 수행한 한 [연구](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)에 따르면 "불법 금융에 Bitcoin이 사용된다는 광범위한 일반화는 상당히 과장된 것"으로 나타났습니다 실제로 2016년 이후 Bitcoin의 총 거래량 중 불법 활동에 사용된 비율은 1% 미만입니다. 이에 비해 "일부에서는 지하경제가 미국 국내총생산의 11%에서 12%에 달하며(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp), 이 중 대부분은 미국 달러를 사용하여 활성화된다"고 주장합니다.
 
 
-2020년 체인널리시스의 보고서에 따르면 불법 활동은 전체 Bitcoin 거래의 약 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol 스포트라이트 - 암호화폐 - 범죄 자금의 진화 추적.pdf)만을 차지합니다.
+2020년 체인널리시스의 보고서에 따르면 불법 활동은 전체 Bitcoin 거래의 약 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf 스포트라이트 - 암호화폐 - 범죄 자금의 진화 추적.pdf)만을 차지합니다.
 
 
 그러나 이러한 증거가 있음에도 불구하고 재닛 옐런 미국 재무장관이 "암호화폐는 온라인 마약 밀매업자들의 수익 세탁에 사용되어 왔으며, 테러 자금 조달의 도구가 되어 왔다"고 주장하는 등(https://home.treasury.gov/news/press-releases/jy0023) 권력자들이 잘못된 발언을 계속하고 있습니다
@@ -2318,7 +2318,7 @@ USDt를 예로 들어보겠습니다. 많은 사람이 USDt를 뒷받침하는 U
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-오늘날과 같이 글로벌화된 세상에서 금융 서비스에 대한 접근은 경제 참여와 자립에 있어 매우 중요한 요소입니다. 그럼에도 불구하고 여전히 너무 많은 사람들이 전통적인 은행 시스템에서 배제되고 있으며, 특히 여성들이 이러한 배제의 피해를 가장 많이 받고 있습니다. 전 세계 인구의 [4분의 1](https://www.worldbank.org/en/publication/globalfindex)이 은행 서비스를 이용하지 못하고 있으며, 사우디아라비아 같은 국가에서는 [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)의 여성이 기본적인 은행 서비스를 이용하지 못해 자국의 경제와 사회에 완전히 참여하지 못하고 있다는 사실은 충격적인 사실입니다.
+오늘날과 같이 글로벌화된 세상에서 금융 서비스에 대한 접근은 경제 참여와 자립에 있어 매우 중요한 요소입니다. 그럼에도 불구하고 여전히 너무 많은 사람들이 전통적인 은행 시스템에서 배제되고 있으며, 특히 여성들이 이러한 배제의 피해를 가장 많이 받고 있습니다. 전 세계 인구의 [4분의 1](https://www.worldbank.org/en/publication/globalfindex)이 은행 서비스를 이용하지 못하고 있으며, 사우디아라비아 같은 국가에서는 [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)의 여성이 기본적인 은행 서비스를 이용하지 못해 자국의 경제와 사회에 완전히 참여하지 못하고 있다는 사실은 충격적인 사실입니다.
 
 
 다음은 전 세계 여성들이 오늘날에도 여전히 겪고 있는 상황의 몇 가지 예입니다:

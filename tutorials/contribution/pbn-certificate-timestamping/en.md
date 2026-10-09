@@ -29,7 +29,7 @@ The GPG signature is generated using an open-source software called GNU Privacy 
 
 On the other hand, if someone wants to verify the authenticity of a signed file, they can use GPG to import the public key of the issuer and verify it.
 
-For those who are curious and want to learn more about this fantastic software, you can refer to ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+For those who are curious and want to learn more about this fantastic software, you can refer to ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### How does time-stamping work?
 

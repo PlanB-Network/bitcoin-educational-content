@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### 라이트닝-Address의 경우 LNURL, 그 반대도 마찬가지입니다
 
 
-이 [인코더](https://lnurl-codec.netlify.app/) 또는 [이 인코더](https://lightningdecoder.com/)를 사용해 보세요. LNURLp를 결제하거나 확인하려면 [LNurlpay](https://wwww.lnurlpay.com/)를 사용할 수도 있습니다. HTTP가 아닌 HTTPS라고 표시되어야 합니다.
+이 [인코더](https://lnurl-codec.netlify.app/) 또는 [이 인코더](https://lightningdecoder.com/)를 사용해 보세요. LNURLp를 결제하거나 확인하려면 [LNurlpay](https://www.lnurlpay.com/)를 사용할 수도 있습니다. HTTP가 아닌 HTTPS라고 표시되어야 합니다.
 
 
 

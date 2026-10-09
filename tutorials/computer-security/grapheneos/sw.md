@@ -158,7 +158,7 @@ Wawili pekee ambao huenda hujui ni 'Mkaguzi' na 'Vanadium'.
 
 
 
-- [Programu ya Mkaguzi](https://play.google.com/store/apps/details?id=app.attestation.auditor) hutumia vipengele vya usalama vya maunzi ili kuthibitisha utambulisho wa kifaa pamoja na uhalisi na uadilifu wa mfumo wa uendeshaji. Itathibitisha kwamba kifaa kinaendesha mfumo wa uendeshaji wa hisa na bootloader imefungwa na kwamba hakuna uharibifu wa mfumo wa uendeshaji umetokea.
+- [Programu ya Mkaguzi](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) hutumia vipengele vya usalama vya maunzi ili kuthibitisha utambulisho wa kifaa pamoja na uhalisi na uadilifu wa mfumo wa uendeshaji. Itathibitisha kwamba kifaa kinaendesha mfumo wa uendeshaji wa hisa na bootloader imefungwa na kwamba hakuna uharibifu wa mfumo wa uendeshaji umetokea.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) ni lahaja iliyoimarishwa ya faragha na usalama ya kivinjari cha Chromium.
 
 
@@ -433,7 +433,7 @@ Kushoto: Breezy Weather, Kulia: Proton Calendar
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) hutoa suluhisho la kidhibiti nenosiri la mfumo tofauti la E2EE bila malipo kwa vifaa vyako vyote. Huduma yao ya kulipia hukuruhusu kujumuisha misimbo ya 2FA kwenye programu. Upande wa seva ya Bitwarden unaweza kujipangisha mwenyewe na programu ya Android inapatikana kupitia F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) hutoa suluhisho la kidhibiti nenosiri la mfumo tofauti la E2EE bila malipo kwa vifaa vyako vyote. Huduma yao ya kulipia hukuruhusu kujumuisha misimbo ya 2FA kwenye programu. Upande wa seva ya Bitwarden unaweza kujipangisha mwenyewe na programu ya Android inapatikana kupitia F-Droid.
 - [Proton Pass](https://proton.me/pass/download) inatoa huduma sawa bila malipo kwa Bitwarden, lakini wateja wa [Proton Unlimited](https://proton.me/pricing) wanaweza kufikia vipengele vya juu zaidi. Proton Pass inapatikana kupitia APK au Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni programu ya Two-Factor Authentication kwa mifumo inayotumia protocols za nenosiri za wakati mmoja. Tokeni zinaweza kuongezwa kwa urahisi kwa kuchanganua msimbo wa QR. FreeOTP inapatikana kupitia F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) ni programu isiyolipishwa, salama na ya Open Source ya Android ili kudhibiti tokeni zako za 2FA za huduma zako za mtandaoni. Aegis inapatikana kupitia F-Droid.

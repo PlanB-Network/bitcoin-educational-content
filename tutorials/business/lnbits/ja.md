@@ -387,7 +387,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ##### LNURLをライトニングアドレスにする。
 
-fiatjafの[encoder](https://lnurl-codec.netlify.app/)か、[this one](https://lightningdecoder.com/)をお試しください。LNURLpの支払いやチェックには、[LNurlpay](https://wwww.lnurlpay.com/)を使うこともできます。HTTP ではなく HTTPS である必要があります。
+fiatjafの[encoder](https://lnurl-codec.netlify.app/)か、[this one](https://lightningdecoder.com/)をお試しください。LNURLpの支払いやチェックには、[LNurlpay](https://www.lnurlpay.com/)を使うこともできます。HTTP ではなく HTTPS である必要があります。
 
 ##### 私のLNURLp QRに支払いをする際に人々が見るコメントを設定する
 

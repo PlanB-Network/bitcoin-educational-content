@@ -131,4 +131,4 @@ Angesichts der Tatsache, dass die Gesamthashrate etwa 450 EH/s (oder 4,5 x 10^20
 Hier sind einige Links, wenn Sie mehr über das Thema lesen möchten:
 
 - [NerdMiner_v2 Projektseite](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Vollständige Dokumentation der NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Vollständige Dokumentation der NerdMiners](https://bitwater.ch/nerd-miner-v2/)

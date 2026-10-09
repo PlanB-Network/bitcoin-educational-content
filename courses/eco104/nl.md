@@ -1168,7 +1168,7 @@ In dit gedeelte gaan we dieper in op de verschillende lagen van transacties, zow
 Bitcoin's Blockchain bestaat uit blokken, zoals de naam al zegt. Deze blokken hebben een theoretische maximale grootte van 4 megabyte. vanwege deze limiet is er een beperking op het aantal transacties dat Bitcoin per seconde kan verwerken, namelijk tussen de zeven en tien transacties per seconde (tps).
 
 
-Daarom kun je je afvragen: Hoe kan Bitcoin's Blockchain mogelijk concurreren met netwerken zoals Visa of Mastercard die transacties doen met [1.700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Daarom kun je je afvragen: Hoe kan Bitcoin's Blockchain mogelijk concurreren met netwerken zoals Visa of Mastercard die transacties doen met [1.700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Het antwoord is eenvoudig. Het concurreert niet met hen.
@@ -1665,7 +1665,7 @@ Je vraagt je waarschijnlijk af: Wat is hier het probleem?
 Geld terugsturen naar het buitenland via een geldtransferservice zoals Western Union is niet gratis. Het kost geld, en niet zomaar een beetje, een aanzienlijk bedrag.
 
 
-Het terugsturen van 100 US-dollar naar Tonga kost [12,61 US-dollar](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus een extra verlies van 8,60 US-dollar door het ongunstige Exchange tarief. Dit betekent dat meer dan 21% van het totale verstuurde bedrag naar Western Union gaat, een multinational. Als gevolg hiervan belandt een aanzienlijk bedrag dat in handen had kunnen komen van Tongaanse families die het verdienen, in de zakken van de geldtransactiekantoren.
+Het terugsturen van 100 US-dollar naar Tonga kost [12,61 US-dollar](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus een extra verlies van 8,60 US-dollar door het ongunstige Exchange tarief. Dit betekent dat meer dan 21% van het totale verstuurde bedrag naar Western Union gaat, een multinational. Als gevolg hiervan belandt een aanzienlijk bedrag dat in handen had kunnen komen van Tongaanse families die het verdienen, in de zakken van de geldtransactiekantoren.
 
 Kun je je de voordelen voorstellen van 21% extra inkomen?
 
@@ -1676,7 +1676,7 @@ Als je bedenkt dat het BBP van Tonga in 2021 [469](https://tradingeconomics.com/
 En als je dacht dat Tonga hierin alleen stond, dan heb je het mis.
 
 
-Hier is een voorbeeld van hoeveel Western Union [rekent](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) voor het versturen van 100 US dollar naar enkele andere prominente landen:
+Hier is een voorbeeld van hoeveel Western Union [rekent](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) voor het versturen van 100 US dollar naar enkele andere prominente landen:
 
 
 
@@ -2021,10 +2021,10 @@ Maar Bitcoin concurreert ook met Layer twee transactiemethoden, met technologie�
 Ondanks de vele onderzoeken die valse claims ontkrachten, wordt Bitcoin nog steeds vaak bekritiseerd als zijnde voornamelijk gebruikt voor illegale activiteiten. Nogmaals, dit kan niet verder van de waarheid zijn.
 
 
-Een [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), uitgevoerd door de voormalige adjunct-directeur van de CIA, vond dat "brede generalisaties over het gebruik van Bitcoin in illegale financiering aanzienlijk worden overdreven." In feite is sinds 2016 minder dan 1% van het totale transactievolume van Bitcoin gebruikt voor illegale activiteiten. Ter vergelijking: "sommigen schatten de ondergrondse economie op 11% tot 12% van het Amerikaanse bruto binnenlands [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," waarvan het grootste deel wordt gefaciliteerd met behulp van de Amerikaanse dollar.
+Een [studie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), uitgevoerd door de voormalige adjunct-directeur van de CIA, vond dat "brede generalisaties over het gebruik van Bitcoin in illegale financiering aanzienlijk worden overdreven." In feite is sinds 2016 minder dan 1% van het totale transactievolume van Bitcoin gebruikt voor illegale activiteiten. Ter vergelijking: "sommigen schatten de ondergrondse economie op 11% tot 12% van het Amerikaanse bruto binnenlands [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," waarvan het grootste deel wordt gefaciliteerd met behulp van de Amerikaanse dollar.
 
 
-En volgens een rapport van Chainalysis in 2020 zijn illegale activiteiten slechts goed voor ongeveer [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) van alle Bitcoin transacties.
+En volgens een rapport van Chainalysis in 2020 zijn illegale activiteiten slechts goed voor ongeveer [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) van alle Bitcoin transacties.
 
 
 Maar zelfs met dit bewijs blijven de machthebbers misleidende verklaringen afleggen, zoals de Amerikaanse minister van Financiën Janet Yellen [die beweert](https://home.treasury.gov/news/press-releases/jy0023), "Cryptocurrencies zijn gebruikt om de winsten van online drugshandelaren wit te wassen; ze zijn een hulpmiddel geweest om terrorisme te financieren."
@@ -2318,7 +2318,7 @@ Uiteindelijk ligt de toekomst van gedecentraliseerde financiering bij diegenen d
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-In de geglobaliseerde wereld van vandaag is toegang tot financiële diensten een cruciaal onderdeel van economische participatie en onafhankelijkheid. Desondanks zijn nog veel te veel mensen uitgesloten van het traditionele banksysteem, waarbij vrouwen vaak de dupe zijn. Het is schokkend dat, hoewel een onnodige [een kwart](https://www.worldbank.org/en/publication/globalfindex) van de wereldbevolking niet over een bank beschikt, in landen als Saoedi-Arabië [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) van de vrouwen geen toegang heeft tot basisbankdiensten, waardoor ze niet volledig kunnen deelnemen aan de economie en maatschappij van hun land.
+In de geglobaliseerde wereld van vandaag is toegang tot financiële diensten een cruciaal onderdeel van economische participatie en onafhankelijkheid. Desondanks zijn nog veel te veel mensen uitgesloten van het traditionele banksysteem, waarbij vrouwen vaak de dupe zijn. Het is schokkend dat, hoewel een onnodige [een kwart](https://www.worldbank.org/en/publication/globalfindex) van de wereldbevolking niet over een bank beschikt, in landen als Saoedi-Arabië [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) van de vrouwen geen toegang heeft tot basisbankdiensten, waardoor ze niet volledig kunnen deelnemen aan de economie en maatschappij van hun land.
 
 
 Dit zijn slechts een paar voorbeelden van de omstandigheden waaronder vrouwen over de hele wereld nog steeds leven:

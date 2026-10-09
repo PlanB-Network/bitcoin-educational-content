@@ -815,7 +815,7 @@ Bitcoin 在貨幣體系中掀起了一場風暴，吸引了發展中國家、精
 
 Bitcoin 的 Blockchain 顧名思義由區塊組成。這些區塊的理論最大大小為 4 MB。由於這個限制，Bitcoin 每秒可處理的交易次數也受到限制，大約是每秒 7 到 10 次 (tps)。
 
-因此，您可能會問：Bitcoin 的 Blockchain 怎麼可能與 Visa 或 Mastercard 等交易速度為 [1,700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)的網路競爭？
+因此，您可能會問：Bitcoin 的 Blockchain 怎麼可能與 Visa 或 Mastercard 等交易速度為 [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)的網路競爭？
 
 答案很簡單。不是與他們競爭。
 
@@ -1159,7 +1159,7 @@ Adanna 一直對於能夠控制自己的錢感到興趣，但直到最近，這�
 
 透過西聯匯款等匯款服務向海外匯款並非免費。它需要花錢，而且不只是一點點，而是一大筆錢。
 
-向東加發送100美元會產生[\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)的費用，再加上由於不利的Exchange匯率而造成的8.60美元的額外損失。這意味著總發送金額的 21% 以上流向了跨國公司 Western Union。因此，本應交到值得幫助的東加家庭手中的一大筆錢最終落入了匯款服務提供商的口袋。
+向東加發送100美元會產生[\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)的費用，再加上由於不利的Exchange匯率而造成的8.60美元的額外損失。這意味著總發送金額的 21% 以上流向了跨國公司 Western Union。因此，本應交到值得幫助的東加家庭手中的一大筆錢最終落入了匯款服務提供商的口袋。
 
 您能想像收入多出 21% 的好處嗎？
 
@@ -1167,7 +1167,7 @@ Adanna 一直對於能夠控制自己的錢感到興趣，但直到最近，這�
 
 如果您以為只有東加在這樣做，那就再猜猜看。
 
-以下是西聯匯款[收費](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)發送 100 美元到其他一些著名國家的示例：
+以下是西聯匯款[收費](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)發送 100 美元到其他一些著名國家的示例：
 
 
 - **China:** $21.21 fee + $2.60 Exchange rate loss (23.81% loss)
@@ -1415,9 +1415,9 @@ Bitcoin 選擇以分散性和安全性為優先，而非擴充性。儘管如此
 
 儘管有許多研究揭穿不實的說法，Bitcoin 仍然經常被批評為主要用於非法活動。這再一次與事實大相逕庭。
 
-中情局前副局长进行的一项[研究](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，「关于Bitcoin用于非法金融的笼统概括被大大夸大了」。事實上，自 2016 年以來，Bitcoin 總交易量中用於非法活動的不到 1%。相比之下，「有人認為地下經濟佔美國國內生產總值的11%至12%(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)」，其中大部分是使用美元促成的。
+中情局前副局长进行的一项[研究](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf)发现，「关于Bitcoin用于非法金融的笼统概括被大大夸大了」。事實上，自 2016 年以來，Bitcoin 總交易量中用於非法活動的不到 1%。相比之下，「有人認為地下經濟佔美國國內生產總值的11%至12%(https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)」，其中大部分是使用美元促成的。
 
-而根據 Chainalysis 在 2020 年的一份報告，非法活動僅佔所有 Bitcoin 交易的 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)左右。
+而根據 Chainalysis 在 2020 年的一份報告，非法活動僅佔所有 Bitcoin 交易的 [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)左右。
 
 然而，即使有了這些證據，當權者仍繼續發表誤導性的聲明，例如美國財政部長 Janet Yellen [聲稱](https://home.treasury.gov/news/press-releases/jy0023)：「加密貨幣一直被用來洗淨網上毒販的利潤；它們一直是資助恐怖主義的工具」。
 
@@ -1623,7 +1623,7 @@ _**Figure:** Flare [Gas](https://arstechnica.com/science/2022/09/oil-industry-fl
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-在當今全球化的世界中，獲得金融服務是經濟參與和獨立的重要組成部分。儘管如此，仍有太多的人被排除在傳統銀行體系之外，其中婦女往往首當其衝。令人震惊的是，尽管全球人口中不必要的 [四分之一](https://www.worldbank.org/en/publication/globalfindex)仍然没有银行服务，但在沙特阿拉伯等国家，[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift. )的妇女无法获得基本的银行服务，使她们无法充分参与国家的经济和社会。
+在當今全球化的世界中，獲得金融服務是經濟參與和獨立的重要組成部分。儘管如此，仍有太多的人被排除在傳統銀行體系之外，其中婦女往往首當其衝。令人震惊的是，尽管全球人口中不必要的 [四分之一](https://www.worldbank.org/en/publication/globalfindex)仍然没有银行服务，但在沙特阿拉伯等国家，[36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift. )的妇女无法获得基本的银行服务，使她们无法充分参与国家的经济和社会。
 
 以下僅舉幾個例子，說明世界各地的婦女至今仍在忍受的狀況：
 

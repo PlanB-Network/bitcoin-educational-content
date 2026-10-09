@@ -650,7 +650,7 @@ Na pozadí rostoucí finanční kontroly se decentralizované nástroje na ochra
 
 
 
-- [oficiální webové stránky Joinstr](https://joinstr.xyz)
+- [oficiální webové stránky Joinstr](https://docs.joinstr.xyz/)
 - [Uživatelská dokumentace](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technická dokumentace](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [zdrojový kód GitLab](https://gitlab.com/invincible-privacy/joinstr)

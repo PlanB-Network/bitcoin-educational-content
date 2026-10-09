@@ -1332,7 +1332,7 @@ Modern sayı teorisi hakkında daha fazla tartışma için kriptografi üzerine 
 [3] Bkz [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Soyut Cebir](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Soyut Cebir](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz ve Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar ve Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2715,7 +2715,7 @@ Bir Hash fonksiyonu $H$, $x$ ve $y$ olmak üzere $x \neq y$, ancak $H(x) = H(y)$
 Çarpışmaya dayanıklı Hash işlevleri, örneğin yazılımın doğrulanmasında önemlidir. Bitcoin core 0.21.0'ın (Bitcoin ağ trafiğini işlemek için bir sunucu uygulaması) Windows sürümünü indirmek istediğinizi varsayalım. Yazılımın meşruiyetini doğrulamak için atmanız gereken ana adımlar aşağıdaki gibidir:
 
 
-1.	Öncelikle bir veya daha fazla Bitcoin core katılımcısının açık anahtarlarını indirmeniz ve dijital imzaları doğrulayabilen bir yazılıma (örneğin Kleopetra) aktarmanız gerekir. Bu açık anahtarları [burada] bulabilirsiniz (https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Bitcoin core yazılımını birden fazla katılımcının açık anahtarları ile doğrulamanız önerilir.
+1.	Öncelikle bir veya daha fazla Bitcoin core katılımcısının açık anahtarlarını indirmeniz ve dijital imzaları doğrulayabilen bir yazılıma (örneğin Kleopetra) aktarmanız gerekir. Bu açık anahtarları [burada] bulabilirsiniz (https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Bitcoin core yazılımını birden fazla katılımcının açık anahtarları ile doğrulamanız önerilir.
 
 2.	Ardından, içe aktardığınız açık anahtarları doğrulamanız gerekir. Atmanız gereken en az bir adım, bulduğunuz açık anahtarların diğer çeşitli yerlerde yayınlananlarla aynı olduğunu doğrulamaktır. Örneğin, açık anahtarlarını içe aktardığınız kişilerin kişisel web sayfalarına, Twitter sayfalarına veya Github sayfalarına başvurabilirsiniz. Genellikle açık anahtarların bu karşılaştırması, parmak izi olarak bilinen açık anahtarın kısa bir Hash'i karşılaştırılarak yapılır.
 

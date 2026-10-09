@@ -15,7 +15,7 @@ RASPIBLITZ - Comment exécuter un nœud Lightning et Bitcoin Full Node par BTC s
 
 ## Guide d'installation de Raspiblitz de Parman
 
-Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande celui-ci ainsi que le nœud MyNode à la plupart des utilisateurs (idéalement avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un « Free Open Source Software », contrairement à MyNode ou Umbrel. [Pourquoi est-ce important ? Vlad Costa l’explique.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Vous pouvez également exécuter le Raspiblitz avec une connexion WiFi plutôt qu’ethernet – voici un [guide complémentaire](https://armantheparman.com/headless-wifi/) pour cela. (Je n’ai pas trouvé de moyen de le faire avec MyNode).
+Le Raspiblitz est un excellent système pour exécuter un nœud Bitcoin et des applications associées. Je recommande celui-ci ainsi que le nœud MyNode à la plupart des utilisateurs (idéalement avoir deux nœuds pour la redondance). Un avantage majeur est que le nœud Raspiblitz est un « Free Open Source Software », contrairement à MyNode ou Umbrel. [Pourquoi est-ce important ? Vlad Costa l’explique.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Vous pouvez également exécuter le Raspiblitz avec une connexion WiFi plutôt qu’ethernet – voici un [guide complémentaire](https://armantheparman.com/headless-wifi/) pour cela. (Je n’ai pas trouvé de moyen de le faire avec MyNode).
 
 Vous pouvez acheter un nœud préfabriqué avec un écran miniaturisé intégré, ou vous pouvez le construire vous-même (vous n'avez pas besoin d'un écran).
 

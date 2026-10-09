@@ -1521,7 +1521,7 @@ Een van de belangrijkste voordelen van Umbrel ten opzichte van de concurrentie i
 
 
 
-Umbrel's code is openbaar beschikbaar (je kunt het bekijken, forken, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0/), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
+Umbrel's code is openbaar beschikbaar (je kunt het bekijken, forken, en aanpassen), maar het valt niet onder een echte open-source licentie. In feite wordt umbrelOS gedistribueerd onder de [*PolyForm Noncommercial 1.0*] licentie (https://polyformproject.org/licenses/noncommercial/1.0.0), hoewel sommige bijbehorende ontwikkeltools beschikbaar zijn onder de MIT licentie.
 
 
 

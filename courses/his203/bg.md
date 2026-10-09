@@ -523,7 +523,7 @@ Silk Road беше пазар, т.е. действаше като посредн
 На 1 март 2011 г., точно когато прехвърлянето трябваше да бъде официално обявено, 80 000 биткойна [се изпариха](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) във въздуха благодарение на злонамерен достъп до файла wallet.dat на сайта. На 3-ти Джед Маккалеб забелязва изтеглянето и [информира](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Марк по IRC, че "нещо лошо се е случило". Това била голяма загуба (по това време един биткойн се продавал за 0,92 USD), която щяла да става все по-голяма през следващите месеци с безпрецедентното покачване на цената.
 
 
-Този проблем беше [споменат](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) от Джед на 18 април в имейл до Марк, в който той пише:
+Този проблем беше [споменат](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) от Джед на 18 април в имейл до Марк, в който той пише:
 
 
 > "Не мога да преценя колко голям проблем ще бъде липсата на 80 хил. BTC, ако цената им се повиши до 100 долара или нещо подобно. Това е доста малко, за да дължите в този момент, но mtgox трябва да са направили тон BTC (Bitcoin), за да стигнат до там. Все още съществува и фактът, че балансът на BTC (Bitcoin) вероятно никога няма да падне под 80 хил. Така че може би наистина няма нужда да се притеснявате за това"
@@ -608,7 +608,7 @@ Silk Road беше пазар, т.е. действаше като посредн
 
 
 
-В Източна Европа платформата Bitomat, базирана в Полша, беше [стартирана](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) на 4 април. Интерфейсът беше елементарен, но позволяваше на полските потребители да обменят своите злоти за биткойни. Заслужава да се спомене и Cavirtex, [открита](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) на 2 юли, която работеше в Канада.
+В Източна Европа платформата Bitomat, базирана в Полша, беше [стартирана](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) на 4 април. Интерфейсът беше елементарен, но позволяваше на полските потребители да обменят своите злоти за биткойни. Заслужава да се спомене и Cavirtex, [открита](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) на 2 юли, която работеше в Канада.
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica е [изстрелян](https://bitcointalk.org/index.php?topic=81581
 
 
 
-Друг подобен проект, който се появява малко по-късно, е MPEx - творение на една много противоречива личност на име Мирча Попеску. Румънец, родом от Трансилвания, той беше плодовит автор в своя блог [Trilema](http://trilema.com/archives-categories/): пишеше на всякакви теми (философия, политика, сексуалност), в умишлено провокативен стил, първоначално на румънски език. През лятото на 2011 г. се интересува от Bitcoin и започва да [говори](http://trilema.com/2011/ce-este-bitcoin/) за него в блога си.
+Друг подобен проект, който се появява малко по-късно, е MPEx - творение на една много противоречива личност на име Мирча Попеску. Румънец, родом от Трансилвания, той беше плодовит автор в своя блог [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): пишеше на всякакви теми (философия, политика, сексуалност), в умишлено провокативен стил, първоначално на румънски език. През лятото на 2011 г. се интересува от Bitcoin и започва да [говори](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) за него в блога си.
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinica е [изстрелян](https://bitcointalk.org/index.php?topic=81581
 
 
 
-В края на февруари 2012 г. той пристъпва към [набиране на средства](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) чрез издаване на акции и облигации, като набира над 3200 биткойна или около 16 000 долара по това време. На 11 април, след бета-фаза, платформата [най-накрая се превърна](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) платформата най-накрая се превърна в биткойн борса, позволяваща емитирането и търговията с различни акции, и беше преименувана на MPEx(за "Mircea Popescu's Exchange").
+В края на февруари 2012 г. той пристъпва към [набиране на средства](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) чрез издаване на акции и облигации, като набира над 3200 биткойна или около 16 000 долара по това време. На 11 април, след бета-фаза, платформата [най-накрая се превърна](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) платформата най-накрая се превърна в биткойн борса, позволяваща емитирането и търговията с различни акции, и беше преименувана на MPEx(за "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Satoshi Nakamoto по същество се противопостави на п
 
 
 
-*Gregory Maxwell през 2006 г. (източник: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell през 2006 г. (източник: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-*Първите биткойни на Казасиус през 2011 г. (източник: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Първите биткойни на Казасиус през 2011 г. (източник: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Eligius също така въведе иновация с практиката 
 
 
 
-*Визуализация на Sharechain (източник: Gregory Maxwell за [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Визуализация на Sharechain (източник: Gregory Maxwell за [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Eligius също така въведе иновация с практиката 
 
 
 
-*Заснемане на Bitcoin-Qt 0.5.2 през февруари 2012 г. (източник: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) за Wikimedia)*
+*Заснемане на Bitcoin-Qt 0.5.2 през февруари 2012 г. (източник: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) за Wikimedia)*
 
 
 

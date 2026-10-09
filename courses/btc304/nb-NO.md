@@ -1500,7 +1500,7 @@ Hvis du vil forberede deg på roligere stunder, kan du planlegge noen aktivitete
 - med en **Nerdminer**, Bitaxe, FPGA eller til og med ASIC;
 - som har en **Bitcoin flygeblad**;
 - idémyldring om en Bitcoin-visuell eller logo for lokalsamfunnet ditt;
-- spiller et **[Bitcoin-kortspill](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- spiller et **[Bitcoin-kortspill](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - som viser **[btcmap.org](https://btcmap.org/)**-kartet over lokalsamfunn og selgere;
 - sende eller motta Bitcoin ved hjelp av **Lightning**.
 
@@ -1871,7 +1871,7 @@ Avhengig av hvor tilgjengelig du er og hvor engasjert du er i lokalsamfunnet, ka
 
 - En restaurantkveld i anledning **Pizzadagen** 22. mai
 - En kveld eller helg for å feire den neste **Halving**
-- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table](https://www.Maximalist.ovh/) eller [SHAmory](https://shamory.com/)
+- En familie **spillkveld** om Bitcoin og hvordan det fungerer, ved hjelp av spill som [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) eller [SHAmory](https://shamory.com/)
 - En **Mining-workshop** med presentasjon av ulike typer maskinvare (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - En **eftermiddag eller kveld for nybegynnere**, med temaverksteder
 - Et **fellesmøte med nabokommunene**

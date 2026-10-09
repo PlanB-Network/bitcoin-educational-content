@@ -49,7 +49,7 @@ Khi cài đặt hoàn tất, bạn sẽ cần nhập ID tài khoản của mình
 ![IVPN](assets/notext/04.webp)
 ## Cách cài đặt IVPN trên điện thoại thông minh?
 
-Tải IVPN từ cửa hàng ứng dụng của bạn, dù là [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) cho người dùng iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) cho Android, hay [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Nếu bạn sử dụng Android, bạn cũng có tùy chọn tải tệp `.apk` trực tiếp từ [trang web IVPN](https://www.ivpn.net/en/apps-android/).
+Tải IVPN từ cửa hàng ứng dụng của bạn, dù là [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) cho người dùng iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) cho Android, hay [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Nếu bạn sử dụng Android, bạn cũng có tùy chọn tải tệp `.apk` trực tiếp từ [trang web IVPN](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Khi sử dụng ứng dụng lần đầu, bạn sẽ bị đăng xuất. Bạn sẽ cần nhập ID tài khoản của mình để kích hoạt dịch vụ.
 ![IVPN](assets/notext/06.webp)

@@ -60,7 +60,7 @@ Pour les utilisateurs hors Umbrel (par exemple sur un serveur personnel, un Rasp
 
 #### Installation
 
-**Prérequis :** Assurez-vous que votre système répond aux exigences minimales selon la [documentation setup](https://docs.thunderhub.io/setup) :
+**Prérequis :** Assurez-vous que votre système répond aux exigences minimales selon la [documentation setup](https://docs.thunderhub.io/configure) :
 - **Node.js** version 18 ou supérieure
 - **npm** installé
 - Accès aux fichiers d'authentification de LND :
@@ -68,7 +68,7 @@ Pour les utilisateurs hors Umbrel (par exemple sur un serveur personnel, un Rasp
   * Le macaroon d'administration de LND (`admin.macaroon`)
   * L'adresse (hostname:port) du service gRPC de LND (par défaut `127.0.0.1:10009` en local)
 
-**1. Récupérer le code ThunderHub :** Clonez le dépôt GitHub du projet comme indiqué dans la [documentation installation](https://docs.thunderhub.io/installation) :
+**1. Récupérer le code ThunderHub :** Clonez le dépôt GitHub du projet comme indiqué dans la [documentation installation](https://docs.thunderhub.io/get-started) :
 
 ```bash
 git clone https://github.com/apotdevin/thunderhub.git
@@ -98,7 +98,7 @@ npm run build
 
 #### Configuration (Setup)
 
-**1. Fichier de configuration principal :** Créez un fichier `.env.local` à la racine du dossier ThunderHub pour personnaliser la configuration (cela évitera que vos réglages soient écrasés lors de mises à jour). Variables principales selon la [documentation setup](https://docs.thunderhub.io/setup) :
+**1. Fichier de configuration principal :** Créez un fichier `.env.local` à la racine du dossier ThunderHub pour personnaliser la configuration (cela évitera que vos réglages soient écrasés lors de mises à jour). Variables principales selon la [documentation setup](https://docs.thunderhub.io/configure) :
 
 ```bash
 # -----------
@@ -188,8 +188,8 @@ La page de connexion ThunderHub apparaît. Sélectionnez le compte configuré pr
 **Installation sur autres distributions :** Les distributions de nœuds pré-packagées (RaspiBlitz, MyNode, Start9, etc.) proposent généralement une prise en charge native de ThunderHub via leurs interfaces d'administration respectives.
 
 **Pour aller plus loin :** Consultez la documentation officielle complète :
-- **Installation :** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Configuration :** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installation :** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Configuration :** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 Ces ressources approfondissent les foncionnalités avancées comme les comptes SSO, les macaroons chiffrés, la configuration TOR, et bien plus encore.
 

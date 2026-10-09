@@ -20,7 +20,7 @@ ZEUSは、BitcoinライトニングWalletの全機能を備えたモバイルBit
 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) または [Alby](https://getalby.com/)（またはその他のLNDhubアカウント）を使用する加盟店も、ZEUSから自分のノード / アカウントに接続し、利用し、管理することができます。
 
 
-[v0.8から](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)、ZEUSは、モバイルデバイスから簡単に高速で安価なビットコイン支払いを行いたい一般ユーザー向けに、[組み込みモバイルLightningノード](https://docs.zeusln.app/category/embedded-node)と統合された[Lightningサービスプロバイダー（LSP）](https://docs.zeusln.app/lsp/intro)を提供し始めます。
+[v0.8から](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)、ZEUSは、モバイルデバイスから簡単に高速で安価なビットコイン支払いを行いたい一般ユーザー向けに、[組み込みモバイルLightningノード](https://docs.zeusln.app/category/embedded-lnd)と統合された[Lightningサービスプロバイダー（LSP）](https://docs.zeusln.app/lsp/intro)を提供し始めます。
 
 
 ### ゼウスの重要なリソース
@@ -169,7 +169,7 @@ Zeus を使い始める前に、各設定セクションに飛び込み、主な
 LSPは、ユーザーのノードに支払いチャネルを開くことで、ユーザーがLightningネットワークに接続するのを助けます。[LSPについて詳しくはこちら](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUSには[OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581)という新しいLSPが統合されており、新しい組み込みノードを使用するすべてのユーザーが利用できます。
 
 
-このセクションでは、デフォルトでオリンパスLSP（https://0conf.lnolymp.us）が設定されていますが、すぐにこのプロトコルをサポートする別の0conf LSPを設定することもできます。
+このセクションでは、デフォルトでオリンパスLSP（https://flow.zeuslsp.com）が設定されていますが、すぐにこのプロトコルをサポートする別の0conf LSPを設定することもできます。
 
 
 _覚えておくこと
@@ -310,7 +310,7 @@ ZEUSの組み込みノードはLNDをベースにしており、[aezeed seedフ�
 aezeedのキーフォーマットは、以下のモバイルウォレットと互換性があるはずです：Blixt、BlueWallet、Breez。seedだけでは、すべての残高を回復するには不十分です！
 
 
-バックアップと復元プロセスについては、[Zeus Docs ページ](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery) を参照してください。
+バックアップと復元プロセスについては、[Zeus Docs ページ](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery) を参照してください。
 
 
 POWER ADVICE：seedを保存する際、ノードのパブキーも保存してください！seedとSCB(Static Channels Backup)と一緒に手元に置いておくと、リカバリーを確認する際に便利です。
@@ -356,7 +356,7 @@ LNDノードのリカバリーオプションをもっとご覧になりたい�
 
 
 
- - 経路探索モード_ - バイモーダルまたはアプリオリ、LNの支払いにより良い経路を見つける方法、また以前の経路情報をリセットする方法。経路探索については、以下のガイドをお読みください：[経路探索](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering and [LN 支払い経路探索](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage.
+ - 経路探索モード_ - バイモーダルまたはアプリオリ、LNの支払いにより良い経路を見つける方法、また以前の経路情報をリセットする方法。経路探索については、以下のガイドをお読みください：[経路探索](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering and [LN 支払い経路探索](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - by Voltage.
  - 永続的 LND_ - LND サービスをバックグラウンドで継続的に実行し、ノードを 24 時間 365 日オンラインに保ちたい場合は、このモードを有効にします。これは、Zeus を小さなショップの PoS として使用する場合や、LN Address で多くの LN ヒントを受信する場合に非常に便利です。
  - Rescan wallet_ - このオプションは、再起動時にWalletのすべてのオンチェーンTXのフルスキャンをトリガーします。WalletでいくつかのTXが見つからない場合にのみ有効にしてください。再スキャン・タスクには数分かかりますので、気長に待ち、常にログをチェックして進行状況の詳細を確認してください。
  - データベース圧縮 _Compact Database_ - このオプションは Zeus アプリが多くのデバイス領域を占有している場合に非常に便利です ( デバイス設定でアプリの詳細を参照してください )。Zeus を使用するアクティビティが多い場合は、このコンパ クトを頻繁に実行することをお勧めします。Zeus アプリのデータが 1 ～ 1.5GB を超えたら、コンパクションを実行します。再起動がかかり、時間がかかります。
@@ -399,7 +399,7 @@ ZEUS PAYは、ユーザーが生成したプリイメージハッシュ、HODL�
 パーシステント・モード」を有効にすると、LN Address へのすべての支払いが即座に受け取られます。
 
 
-Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works)決済の仕組みと、[ZeusPay手数料はこちら](https://docs.zeusln.app/lightning-Address/fees)の詳細についてはこちらをご覧ください。
+Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works)決済の仕組みと、[ZeusPay手数料はこちら](https://docs.zeusln.app/lightning-address/zaplocker)の詳細についてはこちらをご覧ください。
 
 
 **G-オンチェーンアドレス**
@@ -488,7 +488,7 @@ Stashの3つのレベルを使って自分の銀行になる方法](https://dart
 あなたのゼウスでInvoiceを作成（金額を記入し、"リクエスト "ボタンをクリック）するだけで、Satsをすぐに受け取ることができます。
 
 
-generateのInvoiceは[ラップ](https://docs.zeusln.app/lsp/wrapped-invoices)され、サービスに関連する料金が支払われると表示されます。このラッピングされたInvoiceにはZeusノードへのルートヒントが含まれているので、LSPは新しいノードを見つけ、新しい資金を入金してチャネルを開くことができます。
+generateのInvoiceは[ラップ](https://docs.zeusln.app/lsp/services/flow)され、サービスに関連する料金が支払われると表示されます。このラッピングされたInvoiceにはZeusノードへのルートヒントが含まれているので、LSPは新しいノードを見つけ、新しい資金を入金してチャネルを開くことができます。
 
 
 ![Image](assets/en/06.webp)

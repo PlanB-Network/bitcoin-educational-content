@@ -293,8 +293,8 @@ Proton Authenticator adalah salah satu solusi paling komprehensif dan aman yang 
 
 ### Source code dan transparansi
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Open source code
-- **Audit keamanan**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Laporan audit independen
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Open source code
+- **Audit keamanan**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Laporan audit independen
 
 ### Uji keamanan yang disarankan
 

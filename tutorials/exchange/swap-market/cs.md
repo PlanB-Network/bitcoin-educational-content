@@ -639,7 +639,7 @@ Konkurence mezi poskytovateli zvyšuje sazby a rozšiřuje zdroje likvidity. Pro
 
 - [SwapMarket - webová aplikace](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technická dokumentace](https://docs.boltz.exchange/)
+- [Technická dokumentace](https://github.com/BoltzExchange/boltz-backend)
 - [Průvodce vlastním hostováním](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

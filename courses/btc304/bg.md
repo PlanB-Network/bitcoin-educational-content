@@ -1491,7 +1491,7 @@ Twitter е много лесен за използване, а за да под�
 - да донесете **Nerdminer**, Bitaxe, FPGA или дори ASIC;
 - с **Bitcoin** листовка;
 - разработване на визуален проект или лого за вашата общност;
-- играете **[Bitcoin игра с карти](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- играете **[Bitcoin игра с карти](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - показвате **[btcmap.org](https://btcmap.org/)** картата на общностите и търговците;
 - изпращане или получаване на Bitcoin с помощта на **Lightning Network**.
 
@@ -1861,7 +1861,7 @@ Twitter е много лесен за използване, а за да под�
 
 - Вечер в ресторанта за **Деня на пицата** на 22 май
 - Вечер или уикенд за отбелязване на следващия **Halving**
-- Семейна вечер на **игрите** за Bitcoin и как работи, като се използват игри като [Le Coin de Table](https://www.Maximalist.ovh/) или [SHAmory](https://shamory.com/)
+- Семейна вечер на **игрите** за Bitcoin и как работи, като се използват игри като [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) или [SHAmory](https://shamory.com/)
 - Работилница по **копаене**, представяща различни видове хардуер (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Следобед или вечер за начинаещи** с тематични семинари
 - **съвместна среща със съседни общности**

@@ -337,7 +337,7 @@ Mtindo wa ulezi unadai umakini na mazoea mazuri ya usalama. Ikitumiwa kwa njia i
 
 
 - Hati za kiufundi: [docs.cashu.space](https://docs.cashu.space)
-- Orodha ya minti ya umma: [bitcoinmints.com](https://bitcoinmints.com)
+- Orodha ya minti ya umma: [bitcoinmints.com](https://cashumints.space/)
 - Tovuti rasmi ya itifaki: [cashu.space](https://cashu.space)
 
 

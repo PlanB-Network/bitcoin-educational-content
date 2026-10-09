@@ -213,7 +213,7 @@ Napsauta "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Voit käyttää Jade Plus -laatikon mukana toimitettua QR-koodipohjaa. Valitse sopiva laatikko sen mukaan, oletko valinnut 12- vai 24-sanaisen lauseen. Voit myös [tulostaa mallin Blockstreamin verkkosivustolta](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Voit käyttää Jade Plus -laatikon mukana toimitettua QR-koodipohjaa. Valitse sopiva laatikko sen mukaan, oletko valinnut 12- vai 24-sanaisen lauseen. Voit myös [tulostaa mallin Blockstreamin verkkosivustolta](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Jade Plus näyttää QR-koodin jokaisen alueen.
 

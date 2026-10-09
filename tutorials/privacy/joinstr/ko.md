@@ -650,7 +650,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- [Joinstr 공식 웹사이트](https://joinstr.xyz)
+- [Joinstr 공식 웹사이트](https://docs.joinstr.xyz/)
 - [사용자 설명서](https://docs.joinstr.xyz/users/using-joinstr)
 - [기술 문서](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [깃랩 소스 코드](https://gitlab.com/invincible-privacy/joinstr)

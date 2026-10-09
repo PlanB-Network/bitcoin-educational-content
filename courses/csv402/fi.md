@@ -2313,7 +2313,7 @@ Riippuen siitä, milloin käyt tätä kurssia, nämä käyttöliittymät saattav
 
 #### Esimerkki käyttöliittymästä
 
-Tässä Rust-koodinpätkässä on [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) -rajapinta (korvattava omaisuuserä). Tämä koodi on otettu standardikirjaston `rgb20.rs`-tiedostosta. Katsotaanpa sitä, jotta ymmärretään rajapinnan rakenne ja se, miten se muodostaa sillan toisaalta liiketoimintalogiikan (määritelty skeemassa) ja toisaalta lompakoille ja käyttäjille tarjottavien toiminnallisuuksien välille.
+Tässä Rust-koodinpätkässä on [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) -rajapinta (korvattava omaisuuserä). Tämä koodi on otettu standardikirjaston `rgb20.rs`-tiedostosta. Katsotaanpa sitä, jotta ymmärretään rajapinnan rakenne ja se, miten se muodostaa sillan toisaalta liiketoimintalogiikan (määritelty skeemassa) ja toisaalta lompakoille ja käyttäjille tarjottavien toiminnallisuuksien välille.
 
 ```rust
 // ...

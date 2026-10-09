@@ -650,7 +650,7 @@ Joinstr представлява истински децентрализиран
 
 
 
-- [Официален уебсайт на Joinstr](https://joinstr.xyz)
+- [Официален уебсайт на Joinstr](https://docs.joinstr.xyz/)
 - [Документация за потребителя](https://docs.joinstr.xyz/users/using-joinstr)
 - [Техническа документация](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Изходен код на GitLab](https://gitlab.com/invincible-privacy/joinstr)

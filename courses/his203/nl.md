@@ -523,7 +523,7 @@ Zoals we begin 2011 al zeiden, was het Mt. Gox platform niet veilig. En het was 
 Op 1 maart 2011, net toen de overdracht officieel zou worden gemaakt, [verdampten](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) 80.000 bitcoins in het niets dankzij kwaadwillige toegang tot het [wallet](https://planb.academy/resources/glossary/wallet).dat bestand van de site. Op de 3e merkte Jed McCaleb de terugtrekking op en [informeerde](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark op IRC dat er "iets ergs was gebeurd". Het was een groot verlies (één bitcoin werd verkocht voor $0,92 op dat moment), dat groter en groter zou worden in de daaropvolgende maanden met de ongekende prijsstijging.
 
 
-Dit probleem werd [genoemd] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) door Jed op 18 april in een e-mail aan Mark, waar hij schreef:
+Dit probleem werd [genoemd] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) door Jed op 18 april in een e-mail aan Mark, waar hij schreef:
 
 
 > "Ik kan niet zeggen hoe groot het probleem zal zijn om 80k BTC tekort te komen als de prijs naar $100 of zoiets gaat. Dat is nogal wat schuld op dat moment, maar mtgox zou een ton BTC (Bitcoin) moeten hebben verdiend om daar te komen. Er is ook nog het feit dat de BTC (Bitcoin) balans waarschijnlijk nooit onder de 80k zal komen. Dus misschien hoef je je er niet echt zorgen over te maken."
@@ -608,7 +608,7 @@ Op 6 juni lanceerde Bitcoin Consultancy [https://bitcointalk.org/index.php?topic
 
 
 
-In Oost-Europa werd het Bitomat-platform, gevestigd in Polen, [gelanceerd](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) op 4 april. De interface was rudimentair, maar stelde Poolse gebruikers in staat om hun zloty's om te wisselen voor bitcoins. Ook het vermelden waard is Cavirtex, [geopend](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) op 2 juli, dat actief was in Canada.
+In Oost-Europa werd het Bitomat-platform, gevestigd in Polen, [gelanceerd](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) op 4 april. De interface was rudimentair, maar stelde Poolse gebruikers in staat om hun zloty's om te wisselen voor bitcoins. Ook het vermelden waard is Cavirtex, [geopend](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) op 2 juli, dat actief was in Canada.
 
 
 
@@ -1270,7 +1270,7 @@ Desondanks bleef GLBSE actief. Aan het begin van de herfst waren er ongeveer 30 
 
 
 
-Een ander dergelijk project dat enige tijd later ontstond was MPEx, de creatie van een zeer controversieel figuur met de naam Mircea Popescu. Roemeens, oorspronkelijk uit Transsylvanië, was hij een productief schrijver op zijn blog [Trilema](http://trilema.com/archives-categories/): hij schreef over alle onderwerpen (filosofie, politiek, seksualiteit), in een opzettelijk provocerende stijl, aanvankelijk in het Roemeens. Hij raakte geïnteresseerd in Bitcoin in de zomer van 2011 en begon erover te [praten](http://trilema.com/2011/ce-este-bitcoin/) op zijn blog.
+Een ander dergelijk project dat enige tijd later ontstond was MPEx, de creatie van een zeer controversieel figuur met de naam Mircea Popescu. Roemeens, oorspronkelijk uit Transsylvanië, was hij een productief schrijver op zijn blog [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): hij schreef over alle onderwerpen (filosofie, politiek, seksualiteit), in een opzettelijk provocerende stijl, aanvankelijk in het Roemeens. Hij raakte geïnteresseerd in Bitcoin in de zomer van 2011 en begon erover te [praten](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) op zijn blog.
 
 
 
@@ -1286,7 +1286,7 @@ In augustus [opende](https://bitcointalk.org/index.php?topic=15672.msg444367#msg
 
 
 
-Eind februari 2012 ging hij verder met een [fondsenwerving](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) door aandelen en obligaties uit te geven, waarmee hij meer dan 3.200 bitcoins ophaalde, of ongeveer $16.000 op dat moment. Op 11 april, na een bètafase, werd het platform [eindelijk](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) een bitcoinbeurs die de uitgifte en verhandeling van verschillende aandelen mogelijk maakte, en kreeg het de naam MPEx(voor "Mircea Popescu's Exchange").
+Eind februari 2012 ging hij verder met een [fondsenwerving](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) door aandelen en obligaties uit te geven, waarmee hij meer dan 3.200 bitcoins ophaalde, of ongeveer $16.000 op dat moment. Op 11 april, na een bètafase, werd het platform [eindelijk](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) een bitcoinbeurs die de uitgifte en verhandeling van verschillende aandelen mogelijk maakte, en kreeg het de naam MPEx(voor "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Deterministische wallet's zijn grotendeels het geesteskind van de Amerikaanse on
 
 
 
-*Gregory Maxwell in 2006 (bron: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell in 2006 (bron: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Op 19 augustus [deelde](https://bitcointalk.org/index.php?topic=38048.msg467209#
 
 
 
-*Casascius' eerste bitcoins in 2011 (bron: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius' eerste bitcoins in 2011 (bron: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Het model [vertrouwde](https://im.forre.st/pb/85341005.txt) op een "sharechain, 
 
 
 
-*Sharechain visualisatie (bron: Gregory Maxwell voor [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain visualisatie (bron: Gregory Maxwell voor [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Na de release van versie 0.4 van de software op 23 september, die de overname va
 
 
 
-*Opname van Bitcoin-Qt 0.5.2 in februari 2012 (bron: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) voor Wikimedia)*
+*Opname van Bitcoin-Qt 0.5.2 in februari 2012 (bron: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) voor Wikimedia)*
 
 
 

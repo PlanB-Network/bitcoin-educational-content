@@ -1137,7 +1137,7 @@ One of Umbrel's key advantages over its competitors is its vast and highly activ
 ### UmbrelOS license
 
 
-Umbrel's code is publicly available (you can view, fork, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0/), although some associated development tools are available under the MIT license.
+Umbrel's code is publicly available (you can view, fork, and modify it), but it is not under a true open-source license. In fact, umbrelOS is distributed under the [*PolyForm Noncommercial 1.0*] license (https://polyformproject.org/licenses/noncommercial/1.0.0), although some associated development tools are available under the MIT license.
 
 
 In practical terms, you can do pretty much anything you like with umbrelOS, as long as it's for personal, non-commercial use: modification, redistribution for non-profit purposes, creation of derivatives for yourself or for non-profit organizations, provided you respect the legal notices.

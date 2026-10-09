@@ -160,7 +160,7 @@ De enda två som du kanske inte är bekant med är "Auditor" och "Vanadium".
 
 
 
-- [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) använder maskinvarubaserade säkerhetsfunktioner för att validera en enhets identitet samt operativsystemets äkthet och integritet. Den verifierar att enheten kör standardoperativsystemet med startladdaren låst och att ingen manipulering av operativsystemet har ägt rum.
+- [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) använder maskinvarubaserade säkerhetsfunktioner för att validera en enhets identitet samt operativsystemets äkthet och integritet. Den verifierar att enheten kör standardoperativsystemet med startladdaren låst och att ingen manipulering av operativsystemet har ägt rum.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) är en integritets- och säkerhetshärdad variant av webbläsaren Chromium.
 
 
@@ -435,7 +435,7 @@ Till vänster: Geometriskt väder, till höger: Protonkalender
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) erbjuder en gratis och E2EE cross platform lösenordshanteringslösning för alla dina enheter. Deras betalda tjänst låter dig integrera 2FA-koder i appen. Serversidan av Bitwarden kan vara värd för sig själv och Android-appen är tillgänglig via F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) erbjuder en gratis och E2EE cross platform lösenordshanteringslösning för alla dina enheter. Deras betalda tjänst låter dig integrera 2FA-koder i appen. Serversidan av Bitwarden kan vara värd för sig själv och Android-appen är tillgänglig via F-Droid.
 - [Proton Pass](https://proton.me/pass/download) erbjuder en liknande gratistjänst som Bitwarden, men [Proton Unlimited](https://proton.me/pricing) kunder kan få tillgång till ytterligare avancerade funktioner. Proton Pass är tillgängligt via APK eller Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) är ett program för tvåfaktorsautentisering för system som använder engångslösenordsprotokoll. Tokens kan enkelt läggas till genom att skanna en QR-kod. FreeOTP är tillgängligt via F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) är en gratis, säker och Open Source-app för Android för att hantera dina 2-stegsverifieringstoken för dina onlinetjänster. Aegis är tillgänglig via F-Droid.

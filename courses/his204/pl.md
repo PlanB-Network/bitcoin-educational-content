@@ -309,7 +309,7 @@ Opat de Saint-Pierre dowodził, że panowanie Ludwika XIV, z jego wystawnym dwor
 
 W myśleniu ekonomicznym konsekwentnie stosował zasadę użyteczności, podobnie jak później Jeremy Bentham, i często trafnie ujmował rzeczy. Trzeba przyznać, że wciąż był pod wpływem idei merkantylistycznych, których nikt w tamtym czasie nie odrzucił do końca.
 
-Mimo to opat de Saint-Pierre poczynił kilka trafnych spostrzeżeń o gospodarce. Jeszcze przed *Condillakiem*, któremu zwykle przypisuje się tę myśl, stwierdził wprost, że w każdej wymianie korzystają obie strony. Można to znaleźć w jego [„Projekcie udoskonalenia handlu Francji"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) z 1733 roku, gdzie pisał:
+Mimo to opat de Saint-Pierre poczynił kilka trafnych spostrzeżeń o gospodarce. Jeszcze przed *Condillakiem*, któremu zwykle przypisuje się tę myśl, stwierdził wprost, że w każdej wymianie korzystają obie strony. Można to znaleźć w jego [„Projekcie udoskonalenia handlu Francji"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) z 1733 roku, gdzie pisał:
 
 > Gdy między kupcami dochodzi do sprzedaży, zyskuje sprzedający i zyskuje kupujący; gdyby bowiem po obu stronach nie było jakiejś korzyści, rzeczywistej lub domniemanej, ani sprzedający nie sprzedałby po takiej a takiej cenie, ani kupujący nie kupiłby po takiej cenie.
 
@@ -469,7 +469,7 @@ Dorobek intelektualny kręgu Gournaya mocno wpłynął na historię idei. W tym 
 
 ![Badanie nad publikacjami ekonomicznymi we Francji, 1566-1789.](assets/en/035.webp)
 
-Aby rozbudzić wśród Francuzów zamiłowanie do dyskusji gospodarczych, Gournay i jego przyjaciele starali się udostępnić je w formie powieści. Po *Memoriale o rzemiosłach*, który krytykował cechy, Gournay i Cliquot-Blervache pomogli Gabrielowi-François Coyerowi napisać krótką powieść satyryczną Chinki: [historia kochinchińska, którą można odnieść do innych narodów](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Aby rozbudzić wśród Francuzów zamiłowanie do dyskusji gospodarczych, Gournay i jego przyjaciele starali się udostępnić je w formie powieści. Po *Memoriale o rzemiosłach*, który krytykował cechy, Gournay i Cliquot-Blervache pomogli Gabrielowi-François Coyerowi napisać krótką powieść satyryczną Chinki: [historia kochinchińska, którą można odnieść do innych narodów](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Opat Gabriel-François Coyer, „Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ W cytowanych już *Maksymach* Quesnay stwierdza:
 
 Fizjokraci widzieli szkody, jakie wyrządzała ingerencja rządu, zwłaszcza w handlu zbożem. Trzeba przyznać, mówią, że władza nigdy nie zdoła prowadzić handlu tak dobrze jak jednostki, bo musiałaby odpowiadać na każdą potrzebę i reagować na każdą zmianę popytu i podaży. To wszystko daleko przekracza możliwości nawet najmądrzejszego rządu, jaki można sobie wyobrazić. Trzeba więc pozwolić rzeczom być i pozwolić im płynąć.
 
-Korzystny z natury handel musi być całkowicie i doskonale wolny. Jeden z nich, Le Trosne, napisał nawet pamflet zatytułowany [*Wolność handlu zbożem: zawsze pożyteczna, nigdy szkodliwa*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Korzystny z natury handel musi być całkowicie i doskonale wolny. Jeden z nich, Le Trosne, napisał nawet pamflet zatytułowany [*Wolność handlu zbożem: zawsze pożyteczna, nigdy szkodliwa*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Zasada piąta: wszyscy ludzie są braćmi
 

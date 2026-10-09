@@ -483,7 +483,7 @@ Competition between providers improves rates and multiplies sources of liquidity
 
 - [SwapMarket - Web application](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technical documentation](https://docs.boltz.exchange/)
+- [Technical documentation](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

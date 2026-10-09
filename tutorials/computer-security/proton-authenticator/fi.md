@@ -572,8 +572,8 @@ Proton Authenticator on yksi kattavimmista ja turvallisimmista saatavilla olevis
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Avoimen lähdekoodin koodi
-- **Turvatarkastukset**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Riippumattomat tarkastusraportit
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Avoimen lähdekoodin koodi
+- **Turvatarkastukset**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Riippumattomat tarkastusraportit
 
 
 

@@ -162,7 +162,7 @@ GrapheneOS를 설치할 Pixel을 선택할 때 기기가 기본 [보안 업데�
 
 
 
-- Auditor 앱](https://play.google.com/store/apps/details?id=app.attestation.auditor)은 하드웨어 기반 보안 기능을 사용하여 운영 체제의 진위 여부 및 무결성과 함께 기기의 신원을 확인합니다. 이 앱은 디바이스가 부트 로더가 잠긴 상태에서 기본 운영 체제를 실행하고 있는지, 운영 체제에 변조가 발생하지 않았는지 확인합니다.
+- Auditor 앱](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)은 하드웨어 기반 보안 기능을 사용하여 운영 체제의 진위 여부 및 무결성과 함께 기기의 신원을 확인합니다. 이 앱은 디바이스가 부트 로더가 잠긴 상태에서 기본 운영 체제를 실행하고 있는지, 운영 체제에 변조가 발생하지 않았는지 확인합니다.
 - [바나듐](https://github.com/GrapheneOS/Vanadium)은 개인 정보 보호 및 보안이 강화된 크롬 웹 브라우저의 변형 버전입니다.
 
 
@@ -435,7 +435,7 @@ Spotube
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/)은 모든 디바이스에서 사용할 수 있는 무료 E2EE 크로스 플랫폼 비밀번호 관리자 솔루션을 제공합니다. 유료 서비스를 이용하면 앱에 2FA 코드를 통합할 수 있습니다. Bitwarden의 서버 쪽은 자체 호스팅이 가능하며 안드로이드 앱은 F-Droid를 통해 사용할 수 있습니다.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo)은 모든 디바이스에서 사용할 수 있는 무료 E2EE 크로스 플랫폼 비밀번호 관리자 솔루션을 제공합니다. 유료 서비스를 이용하면 앱에 2FA 코드를 통합할 수 있습니다. Bitwarden의 서버 쪽은 자체 호스팅이 가능하며 안드로이드 앱은 F-Droid를 통해 사용할 수 있습니다.
 - [프로톤 패스](https://proton.me/pass/download)는 비트워든과 유사한 무료 서비스를 제공하지만, [프로톤 무제한](https://proton.me/pricing) 고객은 추가적인 고급 기능을 이용할 수 있습니다. 프로톤 패스는 APK 또는 Aurora를 통해 이용할 수 있습니다.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/)는 일회용 비밀번호 프로토콜을 사용하는 시스템을 위한 2단계 인증 애플리케이션입니다. QR 코드를 스캔하여 토큰을 쉽게 추가할 수 있습니다. FreeOTP는 F-Droid를 통해 사용할 수 있습니다.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)는 온라인 서비스를 위한 2단계 인증 토큰을 관리할 수 있는 안전한 무료 안드로이드용 오픈 소스 앱입니다. Aegis는 F-Droid를 통해 사용할 수 있습니다.

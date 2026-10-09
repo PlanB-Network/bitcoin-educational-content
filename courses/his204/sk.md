@@ -309,7 +309,7 @@ Opát zo Saint-Pierre tvrdil, že vláda Ľudovíta XIV. so svojím luxusným dv
 
 V ekonomickom myslení dôsledne uplatňoval princíp užitočnosti, podobne ako to neskôr urobil Jeremy Bentham, a často ponúkal zdravé postrehy. Aby sme boli spravodliví, stále ho ovplyvňovali merkantilistické idey, ktorých sa v tom čase ešte nikto úplne nezbavil.
 
-Napriek tomu opát zo Saint-Pierre urobil niekoľko presných pozorovaní o ekonomike. Ešte pred *Condillacom*, ktorému sa táto myšlienka často pripisuje, jasne uviedol, že pri každej výmene majú prospech obe strany. Nájdeme to v jeho ["Projekte na zlepšenie obchodu Francúzska"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) z roku 1733, kde napísal:
+Napriek tomu opát zo Saint-Pierre urobil niekoľko presných pozorovaní o ekonomike. Ešte pred *Condillacom*, ktorému sa táto myšlienka často pripisuje, jasne uviedol, že pri každej výmene majú prospech obe strany. Nájdeme to v jeho ["Projekte na zlepšenie obchodu Francúzska"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) z roku 1733, kde napísal:
 
 > Keď sa uskutoční predaj medzi obchodníkmi, predávajúci získava a rovnako aj kupujúci; lebo keby na oboch stranách nebol nejaký skutočný alebo domnelý prospech, predávajúci by nepredával za takú a takú cenu, ani kupujúci by zasa za takú cenu nekupoval.
 
@@ -469,7 +469,7 @@ Intelektuálny výstup Gournayho kruhu mal veľký vplyv na dejiny ideí. V tomt
 
 ![Štúdia o ekonomickom vydávaní vo Francúzsku, 1566-1789.](assets/en/035.webp)
 
-Aby Gournay a jeho priatelia rozšírili medzi francúzskym obyvateľstvom chuť na ekonomické diskusie, pracovali na tom, aby ich sprístupnili prostredníctvom románov. Po *Memorande o remeslách*, ktoré kritizovalo cechy, Gournay a Cliquot-Blervache pomohli Gabrielovi-Françoisovi Coyerovi napísať krátky satirický román nazvaný Chinki: [Kočinčínske rozprávanie použiteľné na iné národy](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Aby Gournay a jeho priatelia rozšírili medzi francúzskym obyvateľstvom chuť na ekonomické diskusie, pracovali na tom, aby ich sprístupnili prostredníctvom románov. Po *Memorande o remeslách*, ktoré kritizovalo cechy, Gournay a Cliquot-Blervache pomohli Gabrielovi-Françoisovi Coyerovi napísať krátky satirický román nazvaný Chinki: [Kočinčínske rozprávanie použiteľné na iné národy](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, „Chinki“](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Vo svojich predtým citovaných *Maximách* Quesnay uvádza:
 
 Fyziokrati videli škody spôsobené vládnymi zásahmi, najmä v obchode s obilím. Treba uznať, hovoria, že autorita nikdy nebude schopná riadiť obchod tak dobre ako jednotlivci, pretože by musela reagovať na každú potrebu a na každú zmenu dopytu alebo ponuky. To všetko ďaleko presahuje schopnosti aj tej najmúdrejšej vlády, akú si možno predstaviť. Preto je nevyhnutné nechať veci byť a nechať ich plynúť.
 
-Obchod, prospešný svojou povahou, musí byť úplne a dokonale slobodný. Jeden z ich členov, Le Trosne, dokonca napísal pamflet s názvom [*Sloboda obchodu s obilím: vždy užitočná, nikdy škodlivá*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Obchod, prospešný svojou povahou, musí byť úplne a dokonale slobodný. Jeden z ich členov, Le Trosne, dokonca napísal pamflet s názvom [*Sloboda obchodu s obilím: vždy užitočná, nikdy škodlivá*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Piaty princíp: Všetci ľudia sú bratia
 

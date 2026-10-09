@@ -514,7 +514,7 @@ Därmed ersätter du f8a43fc363ea428db5c53b3559935f1f med det värde som kommer 
 ##### LNURL för en blixt-Address vice versa
 
 
-Prova den här [encoder](https://lnurl-codec.netlify.app/) från fiatjaf eller [den här](https://lightningdecoder.com/). För att betala eller kontrollera en LNURLp kan du lika gärna använda [LNurlpay](https://wwww.lnurlpay.com/). Det ska stå HTTPS INTE HTTP.
+Prova den här [encoder](https://lnurl-codec.netlify.app/) från fiatjaf eller [den här](https://lightningdecoder.com/). För att betala eller kontrollera en LNURLp kan du lika gärna använda [LNurlpay](https://www.lnurlpay.com/). Det ska stå HTTPS INTE HTTP.
 
 
 

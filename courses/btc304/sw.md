@@ -1499,7 +1499,7 @@ Ikiwa unataka kujiandaa kwa wakati tulivu, unaweza kupanga shughuli chache au se
 - kuleta **Nerdminer**, Bitaxe, FPGA au hata ASIC;
 - kuwa na **Kipeperushi cha Bitcoin**;
 - kutafakari kuhusu taswira ya Bitcoin au nembo ya jumuiya yako;
-- kucheza **[Mchezo wa kadi ya Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- kucheza **[Mchezo wa kadi ya Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - kuonyesha **[btcmap.org](https://btcmap.org/)** ramani ya jumuiya na wafanyabiashara;
 - kutuma au kupokea Bitcoin kwa kutumia **Lightning**.
 
@@ -1870,7 +1870,7 @@ Kulingana na upatikanaji wako na kiwango cha kuhusika katika jumuiya yako, unawe
 
 - Usiku wa mkahawa wa **Siku ya Pizza** tarehe 22 Mei
 - Jioni au wikendi ya kusherehekea **Halving** inayofuata
-- Familia **usiku wa mchezo** kuhusu Bitcoin na jinsi inavyofanya kazi, kwa kutumia michezo kama vile [Le Coin de Table](https://www.Maximalist.ovh/) au [SHAmory](https://shamory.com/)
+- Familia **usiku wa mchezo** kuhusu Bitcoin na jinsi inavyofanya kazi, kwa kutumia michezo kama vile [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) au [SHAmory](https://shamory.com/)
 - **Warsha ya Mining** inayowasilisha aina tofauti za maunzi (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **mchana au jioni kwa wanaoanza**, pamoja na warsha zenye mada
 - **mkutano wa pamoja na jumuiya jirani**

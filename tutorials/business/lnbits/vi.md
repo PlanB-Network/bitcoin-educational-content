@@ -514,7 +514,7 @@ Trong đó, bạn thay thế f8a43fc363ea428db5c53b3559935f1f bằng giá trị 
 ##### LNURL cho lightning-Address ngược lại
 
 
-Hãy thử [encoder](https://lnurl-codec.netlify.app/) từ fiatjaf hoặc [trang này](https://lightningdecoder.com/). Để thanh toán hoặc kiểm tra LNURLp, bạn cũng có thể sử dụng [LNurlpay](https://wwww.lnurlpay.com/). Nó phải ghi là HTTPS, KHÔNG PHẢI HTTP.
+Hãy thử [encoder](https://lnurl-codec.netlify.app/) từ fiatjaf hoặc [trang này](https://lightningdecoder.com/). Để thanh toán hoặc kiểm tra LNURLp, bạn cũng có thể sử dụng [LNurlpay](https://www.lnurlpay.com/). Nó phải ghi là HTTPS, KHÔNG PHẢI HTTP.
 
 
 

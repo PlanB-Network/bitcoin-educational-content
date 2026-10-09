@@ -61,7 +61,7 @@ Elements là một nền tảng công nghệ [blockchain](https://planb.academy/
 
 Về cơ bản, Elements là một giao thức cho phép hình thành sự [đồng thuận](https://planb.academy/resources/glossary/consensus) xung quanh lịch sử giao dịch và các quy tắc chi phối việc chuyển giao và tạo ra tài sản được lưu trữ trong sổ cái blockchain phân tán.
 
-Bạn có thể dễ dàng tìm thấy thông tin cơ bản hơn về Elements trên trang web Elements Project (https://elementsproject.org/), blog chính thức của Liquid (https://blog.liquid.net/) và cổng thông tin dành cho lập trình viên (https://liquid.net/devs).
+Bạn có thể dễ dàng tìm thấy thông tin cơ bản hơn về Elements trên trang web Elements Project (https://elementsproject.org/), blog chính thức của Liquid (https://blog.liquid.net/) và cổng thông tin dành cho lập trình viên (https://liquid.net/developers).
 
 ### Elements
 

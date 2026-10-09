@@ -89,7 +89,7 @@ Elements ni inkomoko yuguruye, urubuga rwa [Blockchain](https://planb.academy/re
 Elements ni, mu ntumbero yayo, umurongo ushobora gutuma habaho [ukwiyumvikana](https://planb.academy/resources/glossary/consensus) ku bijanye n’amateka y’[ibikorwa](https://planb.academy/resources/glossary/transaction-tx) n’amategeko agenga ukwimurira no kurema ivy’ubutunzi bibitswe muri Blockchain Ledger itangazwa.
 
 
-Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://Liquid.net/devs).
+Ibindi bisobanuro ku bijanye na Elements biraboneka bitagoranye ku rubuga rwa Elements Project (https://elementsproject.org/), ku rubuga rwemewe rwa Liquid (https://blog.Liquid.net/), no ku rubuga rw’abahinguzi (https://liquid.net/developers).
 
 
 ### Elements

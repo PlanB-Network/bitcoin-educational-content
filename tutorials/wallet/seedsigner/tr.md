@@ -94,7 +94,7 @@ SeedSigner'ınızı oluşturmak için aşağıdaki bileşenlere ihtiyacınız ol
 
 - Konut (isteğe bağlı ancak tavsiye edilir)** (isteğe bağlı ancak tavsiye edilir)** (isteğe bağlı ancak tavsiye edilir)** (isteğe bağlı ancak tavsiye edilir)**)
     - Cihazı korur ve kullanımını kolaylaştırır.
-    - En popüler model, [3D baskı için açık kaynaklı STL dosyalarının mevcut olduğu] "*Orange Pill Case*"dir (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - En popüler model, [3D baskı için açık kaynaklı STL dosyalarının mevcut olduğu] "*Orange Pill Case*"dir (https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Kutular ayrıca [projeye bağlı bağımsız satıcılardan](https://seedsigner.com/hardware/) temin edilebilir.
 
 

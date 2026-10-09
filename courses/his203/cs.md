@@ -523,7 +523,7 @@ Jak jsme uvedli na začátku roku 2011, platforma Mt. Gox nebyla bezpečná. A l
 Dne 1. března 2011, právě když se chystal oficiální převod, se 80 000 bitcoinů [vypařilo](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) do vzduchu díky škodlivému přístupu k souboru wallet.dat na webu. Třetího dne si Jed McCaleb všiml stažení a [informoval](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Marka na IRC, že se "stalo něco špatného". Byla to velká ztráta (jeden bitcoin se tehdy prodával za 0,92 dolaru), která se v následujících měsících s nebývalým růstem ceny stále zvětšovala.
 
 
-Tento problém [zmínil](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) Jed 18. dubna v e-mailu Markovi, kde napsal:
+Tento problém [zmínil](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) Jed 18. dubna v e-mailu Markovi, kde napsal:
 
 
 > "Nedokážu říct, jak velký problém bude mít nedostatek 80k BTC, pokud cena stoupne na 100 dolarů nebo tak něco. To je docela dost, aby dlužil v tomto bodě, ale mtgox by měl vydělat tunu BTC (Bitcoin) dostat se tam. Stále je tu také fakt, že zůstatek BTC (Bitcoin) pravděpodobně nikdy neklesne pod 80k. Takže si s tím možná opravdu nemusíte dělat starosti."
@@ -608,7 +608,7 @@ Společnost Bitcoin Consultancy [spustila](https://bitcointalk.org/index.php?top
 
 
 
-Ve východní Evropě byla 4. dubna [spuštěna](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) platforma Bitomat se sídlem v Polsku. Rozhraní bylo primitivní, ale umožňovalo polským uživatelům směňovat zloté za bitcoiny. Za zmínku stojí také Cavirtex, [otevřená](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. července, která fungovala v Kanadě.
+Ve východní Evropě byla 4. dubna [spuštěna](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) platforma Bitomat se sídlem v Polsku. Rozhraní bylo primitivní, ale umožňovalo polským uživatelům směňovat zloté za bitcoiny. Za zmínku stojí také Cavirtex, [otevřená](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. července, která fungovala v Kanadě.
 
 
 
@@ -1270,7 +1270,7 @@ Přesto GLBSE pokračovala v činnosti. Na začátku podzimu bylo [k dispozici](
 
 
 
-Dalším takovým projektem, který se objevil o něco později, byl MPEx, dílo velmi kontroverzní osobnosti jménem Mircea Popescu. Rumun, původem z Transylvánie, byl plodným autorem na svém blogu [Trilema](http://trilema.com/archives-categories/): psal na všechna témata (filozofie, politika, sexualita), záměrně provokativním stylem, zpočátku v rumunštině. O Bitcoin se začal zajímat v létě 2011 a začal o něm [hovořit](http://trilema.com/2011/ce-este-bitcoin/) na svém blogu.
+Dalším takovým projektem, který se objevil o něco později, byl MPEx, dílo velmi kontroverzní osobnosti jménem Mircea Popescu. Rumun, původem z Transylvánie, byl plodným autorem na svém blogu [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): psal na všechna témata (filozofie, politika, sexualita), záměrně provokativním stylem, zpočátku v rumunštině. O Bitcoin se začal zajímat v létě 2011 a začal o něm [hovořit](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) na svém blogu.
 
 
 
@@ -1286,7 +1286,7 @@ V srpnu Mircea [otevřel](https://bitcointalk.org/index.php?topic=15672.msg44436
 
 
 
-Koncem února 2012 přistoupil k [fundraisingu](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) vydáním akcií a dluhopisů, čímž získal více než 3 200 bitcoinů, což v té době představovalo přibližně 16 000 dolarů. Dne 11. dubna se po beta fázi [konečně](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platforma konečně stala bitcoinovou burzou umožňující vydávání a obchodování s různými akciemi a byla přejmenována na MPEx(pro "Mircea Popescu's Exchange").
+Koncem února 2012 přistoupil k [fundraisingu](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) vydáním akcií a dluhopisů, čímž získal více než 3 200 bitcoinů, což v té době představovalo přibližně 16 000 dolarů. Dne 11. dubna se po beta fázi [konečně](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platforma konečně stala bitcoinovou burzou umožňující vydávání a obchodování s různými akciemi a byla přejmenována na MPEx(pro "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Deterministické wallet jsou z velké části dílem amerického vývojáře Gre
 
 
 
-*Gregory Maxwell v roce 2006 (zdroj: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell v roce 2006 (zdroj: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Casascius se zajímal zejména o úložiště bitcoinů, a tedy o wallet. Vyvinu
 
 
 
-*Casasciovy první bitcoiny v roce 2011 (zdroj: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casasciovy první bitcoiny v roce 2011 (zdroj: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Model [se opíral](https://im.forre.st/pb/85341005.txt) o "sharechain, který ud
 
 
 
-*Vizualizace Sharechain (zdroj: Gregory Maxwell pro [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Vizualizace Sharechain (zdroj: Gregory Maxwell pro [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Po vydání verze 0.4 softwaru 23. září, kdy Gavin Andresen převzal funkci h
 
 
 
-*Zachycení Bitcoin-Qt 0.5.2 v únoru 2012 (zdroj: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) pro Wikimedia)*
+*Zachycení Bitcoin-Qt 0.5.2 v únoru 2012 (zdroj: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) pro Wikimedia)*
 
 
 

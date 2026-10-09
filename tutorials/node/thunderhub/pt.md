@@ -122,7 +122,7 @@ Para os utilizadores fora da Umbrel (por exemplo, num servidor pessoal, num Rasp
 
 
 
-**Pré-requisitos:** Certifique-se de que o seu sistema cumpre os requisitos mínimos de acordo com [documentation setup](https://docs.thunderhub.io/setup):
+**Pré-requisitos:** Certifique-se de que o seu sistema cumpre os requisitos mínimos de acordo com [documentation setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Para os utilizadores fora da Umbrel (por exemplo, num servidor pessoal, num Rasp
 
 
 
-**1. Recuperar o código ThunderHub:** Clonar o repositório GitHub do projeto, conforme descrito na [documentação de instalação](https://docs.thunderhub.io/installation):
+**1. Recuperar o código ThunderHub:** Clonar o repositório GitHub do projeto, conforme descrito na [documentação de instalação](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Ficheiro de configuração principal:** Criar um ficheiro `.env.local` na raiz da pasta ThunderHub para personalizar a configuração (isto evitará que as suas definições sejam substituídas durante as actualizações). Variáveis principais de acordo com a [documentação de configuração](https://docs.thunderhub.io/setup):
+**1. Ficheiro de configuração principal:** Criar um ficheiro `.env.local` na raiz da pasta ThunderHub para personalizar a configuração (isto evitará que as suas definições sejam substituídas durante as actualizações). Variáveis principais de acordo com a [documentação de configuração](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- **Instalação:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Configuração:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Instalação:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Configuração:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

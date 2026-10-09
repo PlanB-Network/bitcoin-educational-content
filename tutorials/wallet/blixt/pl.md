@@ -663,7 +663,7 @@ Tymczasem tutaj znajdują się wszystkie linki dotyczące tego niesamowitego Bit
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - film promocyjny (możesz przetestować swoje pierwsze użycie LN)
 - [Ulotka A4 do wydrukowania z pierwszymi krokami przy użyciu Blixt, w różnych językach](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt oferuje również w pełni funkcjonalne demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) bezpośrednio na swojej stronie internetowej lub w dedykowanej wersji internetowej, aby mieć pełne doświadczenie w testowaniu, zanim zaczniesz używać w prawdziwym świecie.
+- [Blixt oferuje również w pełni funkcjonalne demo](https://blixtwallet.github.io/) bezpośrednio na swojej stronie internetowej lub w dedykowanej wersji internetowej, aby mieć pełne doświadczenie w testowaniu, zanim zaczniesz używać w prawdziwym świecie.
 
 
 ---

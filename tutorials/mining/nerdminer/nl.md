@@ -191,4 +191,4 @@ Hier zijn enkele links als je meer wilt lezen over het onderwerp:
 
 
 - [NerdMiner_v2 projectpagina](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Volledige documentatie van NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [Volledige documentatie van NerdMiners](https://bitwater.ch/nerd-miner-v2/)

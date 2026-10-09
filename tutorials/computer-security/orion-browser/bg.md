@@ -643,8 +643,8 @@ Orion Browser е значителна стъпка напред в област�
 
 
 - Официален уебсайт**: [kagi.com/orion](https://kagi.com/orion/)
-- Пълни често задавани въпроси**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- Форум на общността**: [community.kagi.com](https://community.kagi.com)
+- Пълни често задавани въпроси**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- Форум на общността**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - Проследяване на грешки**: [orionfeedback.org](https://orionfeedback.org)
 - GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Компоненти с отворен код
 - Блог Kagi**: [blog.kagi.com](https://blog.kagi.com) - Новини и актуализации

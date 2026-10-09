@@ -29,7 +29,7 @@ La firma GPG se obtiene con el uso de un software de código abierto llamado GNU
 
 Por otro lado, si alguien quiere verificar la autenticidad de un archivo firmado, puede usar GPG para importar la clave pública del emisor y verificar. En la segunda parte del tutorial veremos cómo hacerlo con un terminal.
 
-Para aquellos que tienen curiosidad y quieren aprender más sobre este fantástico software, pueden referirse a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Para aquellos que tienen curiosidad y quieren aprender más sobre este fantástico software, pueden referirse a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### ¿Cómo funciona el sellado de tiempo?
 

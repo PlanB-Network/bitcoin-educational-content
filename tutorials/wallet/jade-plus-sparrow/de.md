@@ -213,7 +213,7 @@ Klicken Sie auf "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Sie können die QR-Code-Basis verwenden, die in der Jade Plus Box enthalten ist. Wählen Sie das entsprechende Feld aus, je nachdem, ob Sie sich für einen Satz mit 12 oder 24 Wörtern entschieden haben. Sie können auch [die Vorlage von der Blockstream-Website drucken](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Ihr Jade Plus zeigt jeden Bereich Ihres QR-Codes an.
 

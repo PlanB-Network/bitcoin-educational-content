@@ -131,4 +131,4 @@ Sapendo che la potenza di hash totale è di circa 450 EH/s (o 4.5 x 10^20 hash a
 Ecco alcuni link se desideri approfondire l'argomento:
 
 - [Pagina del progetto NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Documentazione completa di NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Documentazione completa di NerdMiners](https://bitwater.ch/nerd-miner-v2/)

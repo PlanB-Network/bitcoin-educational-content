@@ -523,7 +523,7 @@ Kama tulivyosema mwanzoni mwa 2011, jukwaa la Mt. Gox halikuwa salama. Na kimant
 Mnamo Machi 1, 2011, wakati uhamisho ulipokuwa karibu kutangazwa rasmi, bitcoin 80,000 [zilizovukizwa](https://mempool.space/tx/e67a0550848b7932d7796aea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) ziliingizwa hewani kutokana na ufikiaji hasidi wa faili ya wallet.dat ya tovuti. Mnamo tarehe 3, Jed McCaleb aligundua uondoaji huo na [akaarifu](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Weka alama kwenye IRC kwamba "jambo baya lilitokea". Ilikuwa hasara kubwa (bitcoin moja iliuzwa kwa $0.92 wakati huo), ambayo ingekua kubwa na kubwa zaidi katika miezi iliyofuata kutokana na kupanda kwa bei kusikotarajiwa.
 
 
-Tatizo hili [lilitajwa](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) na Jed mnamo Aprili 18 katika barua pepe kwa Mark, ambapo aliandika:
+Tatizo hili [lilitajwa](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) na Jed mnamo Aprili 18 katika barua pepe kwa Mark, ambapo aliandika:
 
 
 > "Siwezi kujua itakuwa tatizo kubwa kiasi gani kuwa na BTC ya 80k ikiwa bei itafikia $100 au kitu kama hicho. Hilo ni deni kubwa wakati huo lakini mtgox ingepaswa kufanya BTC (Bitcoin) nyingi kufikia hapo. Pia bado kuna ukweli kwamba salio la BTC (Bitcoin) huenda lisishuke chini ya 80k. Kwa hivyo labda huhitaji kuwa na wasiwasi kuhusu hilo."
@@ -608,7 +608,7 @@ Mnamo Juni 6, Bitcoin Consultancy [ilizinduliwa](https://bitcointalk.org/index.p
 
 
 
-Katika Ulaya Mashariki, jukwaa la Bitomat, lenye makao yake makuu Poland, lilizinduliwa (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) mnamo Aprili 4. Kiolesura kilikuwa cha kawaida, lakini kiliruhusu watumiaji wa Poland kubadilisha zlotys zao kwa bitcoins. Pia inafaa kutaja Cavirtex, [iliyofunguliwa] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) mnamo Julai 2, ambayo ilifanya kazi Kanada.
+Katika Ulaya Mashariki, jukwaa la Bitomat, lenye makao yake makuu Poland, lilizinduliwa (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) mnamo Aprili 4. Kiolesura kilikuwa cha kawaida, lakini kiliruhusu watumiaji wa Poland kubadilisha zlotys zao kwa bitcoins. Pia inafaa kutaja Cavirtex, [iliyofunguliwa] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) mnamo Julai 2, ambayo ilifanya kazi Kanada.
 
 
 
@@ -1270,7 +1270,7 @@ Licha ya haya, GLBSE iliendelea kufanya kazi. Kufikia mwanzoni mwa vuli, takriba
 
 
 
-Mradi mwingine kama huo ulioibuka baadaye ulikuwa MPEx, uundaji wa mtu mwenye utata mkubwa kwa jina la Mircea Popescu. Mromania, asili yake ni Transylvania, alikuwa mwandishi mahiri kwenye blogu yake [Trilema](http://trilema.com/archives-categories/): aliandika kuhusu mada zote (falsafa, siasa, ujinsia), kwa mtindo wa kuchochea kwa makusudi, mwanzoni akiwa katika Kiromania. Alipendezwa na Bitcoin katika kiangazi cha mwaka wa 2011 na akaanza [kuzungumza](http://trilema.com/2011/ce-este-bitcoin/) kuihusu kwenye blogu yake.
+Mradi mwingine kama huo ulioibuka baadaye ulikuwa MPEx, uundaji wa mtu mwenye utata mkubwa kwa jina la Mircea Popescu. Mromania, asili yake ni Transylvania, alikuwa mwandishi mahiri kwenye blogu yake [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): aliandika kuhusu mada zote (falsafa, siasa, ujinsia), kwa mtindo wa kuchochea kwa makusudi, mwanzoni akiwa katika Kiromania. Alipendezwa na Bitcoin katika kiangazi cha mwaka wa 2011 na akaanza [kuzungumza](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) kuihusu kwenye blogu yake.
 
 
 
@@ -1484,7 +1484,7 @@ wallet zenye msimamo mkali kwa kiasi kikubwa ni wazo la msanidi programu wa Mare
 
 
 
-*Gregory Maxwell mwaka wa 2006 (chanzo: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell mwaka wa 2006 (chanzo: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Mnamo Agosti 19, Casascius [alishiriki](https://bitcointalk.org/index.php?topic=
 
 
 
-*Bitcoin za kwanza za Casascius mwaka wa 2011 (chanzo: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Bitcoin za kwanza za Casascius mwaka wa 2011 (chanzo: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Mfano [ulitegemea](https://im.forre.st/pb/85341005.txt) kwenye "mnyororo wa hisa
 
 
 
-*Taswira ya mnyororo wa hisa (chanzo: Gregory Maxwell kwa [Wiki ya Bitcoin](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Taswira ya mnyororo wa hisa (chanzo: Gregory Maxwell kwa [Wiki ya Bitcoin](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Kufuatia kutolewa kwa toleo la 0.4 la programu mnamo Septemba 23, ambalo liliash
 
 
 
-*Nasa Bitcoin-Qt 0.5.2 mnamo Februari 2012 (chanzo: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) kwa Wikimedia)*
+*Nasa Bitcoin-Qt 0.5.2 mnamo Februari 2012 (chanzo: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) kwa Wikimedia)*
 
 
 

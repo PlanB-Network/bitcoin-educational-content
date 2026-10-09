@@ -57,7 +57,7 @@ Zodra uw Jade in Green verschijnt, werkt u Jade bij door te klikken op Check for
 Nadat je de firmware van Jade hebt bijgewerkt, selecteer je Setup Jade op het netwerk en het beveiligingsbeleid dat je wilt gebruiken.
 
 
-**Tip:** Het beveiligingsbeleid staat vermeld onder Type op het inlogscherm hieronder. Als u niet zeker weet of u Singlesig of Multisig Shield moet selecteren, bekijk dan onze gids [hier](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Tip:** Het beveiligingsbeleid staat vermeld onder Type op het inlogscherm hieronder. Als u niet zeker weet of u Singlesig of Multisig Shield moet selecteren, bekijk dan onze gids [hier](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ U hebt nu met succes uw Wallet ingesteld en kunt beginnen met het ontvangen, ops
 ![image](assets/22.webp)
 
 
-bron: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+bron: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green app

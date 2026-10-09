@@ -756,7 +756,7 @@ Dalam bagian ini, kita akan menyelami berbagai lapisan transaksi, baik dalam fia
 
 Blockchain Bitcoin terdiri dari blok, seperti namanya. Blok-blok ini memiliki ukuran maksimum teoretis 4 megabita. _Dikatakan demikian, ukuran blok rata-rata pada saat penulisan adalah sekitar 1,5mb._ Karena batasan ini, ada pembatasan pada berapa banyak transaksi yang dapat diproses Bitcoin per detik, yaitu antara tujuh hingga sepuluh transaksi per detik (tps).
 
-Oleh karena itu, Anda mungkin bertanya-tanya: Bagaimana mungkin blockchain Bitcoin bersaing dengan jaringan seperti Visa atau Mastercard yang bertransaksi di [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Oleh karena itu, Anda mungkin bertanya-tanya: Bagaimana mungkin blockchain Bitcoin bersaing dengan jaringan seperti Visa atau Mastercard yang bertransaksi di [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Jawabannya sederhana. Ini tidak bersaing dengan mereka.
 
@@ -1079,14 +1079,14 @@ Anda mungkin bertanya-tanya: Apa masalahnya di sini?
 
 Mengirim uang kembali ke luar negeri melalui layanan transfer uang seperti Western Union tidak gratis. Ini membutuhkan biaya, dan tidak hanya sedikit, jumlah yang signifikan.
 
-Mengirim $100 AS kembali ke Tonga menimbulkan biaya sebesar [$12,61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) ditambah kerugian tambahan sebesar $8,60 karena kurs tukar yang tidak menguntungkan. Ini berarti lebih dari 21% dari jumlah total yang dikirimkan pergi ke Western Union, sebuah perusahaan multinasional. Akibatnya, jumlah yang cukup besar yang seharusnya berada di tangan keluarga Tonga yang berhak malah berakhir di kantong penyedia layanan transfer uang.
+Mengirim $100 AS kembali ke Tonga menimbulkan biaya sebesar [$12,61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) ditambah kerugian tambahan sebesar $8,60 karena kurs tukar yang tidak menguntungkan. Ini berarti lebih dari 21% dari jumlah total yang dikirimkan pergi ke Western Union, sebuah perusahaan multinasional. Akibatnya, jumlah yang cukup besar yang seharusnya berada di tangan keluarga Tonga yang berhak malah berakhir di kantong penyedia layanan transfer uang.
 Bisakah Anda membayangkan manfaat memiliki tambahan 21% ditambahkan ke pendapatan Anda?
 
 Selanjutnya, mengingat bahwa GDP Tonga adalah [$469](https://tradingeconomics.com/tonga/gdp) juta pada tahun 2021, dan 45,5% darinya berasal dari remitansi, biaya mahal yang dikenakan untuk mengirim uang kembali ke rumah berarti bahwa Tonga kehilangan tambahan $45,2 juta. Jumlah ini akan berarti peningkatan 9,6% dalam GDP jika tidak karena biaya ini.
 
 Dan jika Anda pikir Tonga sendirian dalam hal ini, pikirkan lagi.
 
-Berikut adalah contoh berapa banyak Western Union [membebankan biaya](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) untuk mengirim $100 dolar AS ke beberapa negara terkemuka lainnya:
+Berikut adalah contoh berapa banyak Western Union [membebankan biaya](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) untuk mengirim $100 dolar AS ke beberapa negara terkemuka lainnya:
 
 - **China:** biaya $21,21 + kerugian kurs tukar $2,60 (kerugian 23,81%)
 - **Kanada, USA, Meksiko:** biaya $16,86 + kerugian kurs tukar $1,20 (kerugian 18,06%)
@@ -1303,9 +1303,9 @@ Tetapi Bitcoin juga bersaing dengan metode transaksi lapisan dua, dengan teknolo
 #### Kesalahpahaman Enam: Bitcoin terutama digunakan untuk aktivitas ilegal
 
 Meskipun banyak studi yang membantah klaim palsu, Bitcoin masih sering dikritik sebagai alat yang terutama digunakan untuk aktivitas ilegal. Sekali lagi, ini jauh dari kebenaran.
-Sebuah [penelitian](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) yang dilakukan oleh mantan wakil direktur CIA menemukan bahwa "generalisasi luas tentang penggunaan Bitcoin dalam keuangan ilegal sangat dilebih-lebihkan." Faktanya, sejak tahun 2016, kurang dari 1% dari total volume transaksi Bitcoin digunakan untuk aktivitas ilegal. Sebagai perbandingan, "beberapa orang memperkirakan ekonomi bawah tanah mencapai 11% hingga 12% dari produk domestik bruto AS," di mana sebagian besar difasilitasi menggunakan dolar AS.
+Sebuah [penelitian](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) yang dilakukan oleh mantan wakil direktur CIA menemukan bahwa "generalisasi luas tentang penggunaan Bitcoin dalam keuangan ilegal sangat dilebih-lebihkan." Faktanya, sejak tahun 2016, kurang dari 1% dari total volume transaksi Bitcoin digunakan untuk aktivitas ilegal. Sebagai perbandingan, "beberapa orang memperkirakan ekonomi bawah tanah mencapai 11% hingga 12% dari produk domestik bruto AS," di mana sebagian besar difasilitasi menggunakan dolar AS.
 
-Dan menurut laporan oleh Chainalysis pada tahun 2020, aktivitas ilegal hanya menyumbang sekitar [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) dari semua transaksi Bitcoin.
+Dan menurut laporan oleh Chainalysis pada tahun 2020, aktivitas ilegal hanya menyumbang sekitar [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) dari semua transaksi Bitcoin.
 
 Namun, meskipun ada bukti ini, pernyataan yang menyesatkan terus dibuat oleh mereka yang berkuasa, seperti Menteri Keuangan AS Janet Yellen [mengklaim](https://home.treasury.gov/news/press-releases/jy0023), "Cryptocurrency telah digunakan untuk mencuci keuntungan dari pedagang narkoba online; mereka telah menjadi alat untuk membiayai terorisme."
 
@@ -1498,7 +1498,7 @@ Pada akhirnya, masa depan keuangan terdesentralisasi berada di tangan mereka yan
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Di dunia globalisasi saat ini, akses ke layanan keuangan merupakan komponen kritis dari partisipasi ekonomi dan kemandirian. Meskipun demikian, terlalu banyak individu masih dikecualikan dari sistem perbankan tradisional, dengan perempuan seringkali menanggung beban eksklusi ini. Mengejutkan, meskipun [seperempat](https://www.worldbank.org/en/publication/globalfindex) populasi global masih tidak memiliki rekening bank, di negara-negara seperti Arab Saudi, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) perempuan tidak memiliki akses ke layanan perbankan dasar, mencegah mereka dari berpartisipasi penuh dalam ekonomi dan masyarakat negara mereka.
+Di dunia globalisasi saat ini, akses ke layanan keuangan merupakan komponen kritis dari partisipasi ekonomi dan kemandirian. Meskipun demikian, terlalu banyak individu masih dikecualikan dari sistem perbankan tradisional, dengan perempuan seringkali menanggung beban eksklusi ini. Mengejutkan, meskipun [seperempat](https://www.worldbank.org/en/publication/globalfindex) populasi global masih tidak memiliki rekening bank, di negara-negara seperti Arab Saudi, [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) perempuan tidak memiliki akses ke layanan perbankan dasar, mencegah mereka dari berpartisipasi penuh dalam ekonomi dan masyarakat negara mereka.
 
 Berikut adalah beberapa contoh kondisi yang masih dihadapi perempuan di seluruh dunia saat ini:
 

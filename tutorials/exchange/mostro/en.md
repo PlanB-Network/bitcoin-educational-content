@@ -126,7 +126,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - A Nostr** private key (format `nsec1...`)
- - Create a dedicated trading key on [nostrkeygen.com](https://nostrkeygen.com/)
+ - Create a dedicated trading key on [nostrkeygen.com](https://nostrtool.com/)
  - Important**: Never use your main personal Nostr key
  - Keep your private key in a safe place (password manager)
 
@@ -734,7 +734,7 @@ For bitcoiners who prefer autonomy and confidentiality, Mostro is a viable optio
 
 
 - [Main GitHub repository](https://github.com/MostroP2P/mostro)
-- [Web client](https://github.com/MostroP2P/mostro-web)
+- [Web client](https://github.com/MostroP2P/app)
 - [Customer CLI](https://github.com/MostroP2P/mostro-cli)
 
 

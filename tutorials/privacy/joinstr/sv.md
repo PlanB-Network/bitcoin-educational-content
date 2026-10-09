@@ -650,7 +650,7 @@ Mot bakgrund av den ökande finansiella granskningen blir decentraliserade verkt
 
 
 
-- [Joinstr officiella webbplats](https://joinstr.xyz)
+- [Joinstr officiella webbplats](https://docs.joinstr.xyz/)
 - [Användardokumentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Teknisk dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab källkod](https://gitlab.com/invincible-privacy/joinstr)

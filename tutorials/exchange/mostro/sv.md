@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - En privat nyckel från Nostr** (format `nsec1...`)
- - Skapa en dedikerad handelsnyckel på [nostrkeygen.com](https://nostrkeygen.com/)
+ - Skapa en dedikerad handelsnyckel på [nostrkeygen.com](https://nostrtool.com/)
  - Viktigt**: Använd aldrig din huvudsakliga personliga Nostr-nyckel
  - Förvara din privata nyckel på en säker plats (lösenordshanterare)
 
@@ -962,7 +962,7 @@ För bitcoiners som föredrar autonomi och sekretess är Mostro ett genomförbar
 
 
 - [Huvudarkiv på GitHub](https://github.com/MostroP2P/mostro)
-- [Webbklient](https://github.com/MostroP2P/mostro-web)
+- [Webbklient](https://github.com/MostroP2P/app)
 - [Kund CLI](https://github.com/MostroP2P/mostro-cli)
 
 

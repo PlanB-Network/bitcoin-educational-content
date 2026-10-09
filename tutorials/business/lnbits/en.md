@@ -361,7 +361,7 @@ Whereby you replace f8a43fc363ea428db5c53b3559935f1f with the value that comes b
 ```
 ##### LNURL for a lightning-address vice versa
 
-Try this [encoder](https://lnurl-codec.netlify.app/) from fiatjaf or [this one](https://lightningdecoder.com/). For to pay or check an LNURLp you can as well use [LNurlpay](https://wwww.lnurlpay.com/). It should state HTTPS NOT HTTP.
+Try this [encoder](https://lnurl-codec.netlify.app/) from fiatjaf or [this one](https://lightningdecoder.com/). For to pay or check an LNURLp you can as well use [LNurlpay](https://www.lnurlpay.com/). It should state HTTPS NOT HTTP.
 
 
 ##### Configure a comment that people see when paying to my LNURLp QR

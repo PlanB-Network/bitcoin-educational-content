@@ -41,7 +41,7 @@ Phoenix는 휴대폰에 내장된 진정한 라이트닝 노드로 작동하며,
 
 
 
-- Google Play 스토어](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet)에서;
+- Google Play 스토어](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet)에서;
 - App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB)에서.
 
 

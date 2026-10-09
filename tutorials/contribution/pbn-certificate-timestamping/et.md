@@ -29,7 +29,7 @@ GPG allkiri saadakse avatud lähtekoodiga tarkvara GNU Private Guard abil. See t
 
 Teisest küljest, kui keegi soovib kontrollida allkirjastatud faili autentsust, saavad nad kasutada GPG-d väljaandja avaliku võtme importimiseks ja kontrollimiseks. Juhendi teises osas vaatame, kuidas seda terminalis teha.
 
-Neile, kes on uudishimulikud ja soovivad selle suurepärase tarkvara kohta rohkem teada saada, võite viidata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Neile, kes on uudishimulikud ja soovivad selle suurepärase tarkvara kohta rohkem teada saada, võite viidata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Kuidas ajatempliga märkimine töötab?
 

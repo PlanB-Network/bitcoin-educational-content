@@ -56,7 +56,7 @@ RoninDojo 是一個 Dojo，因此它可以輕鬆地將 Whirlpool CLI 整合到�
 
 ## 安裝 RoninDojo v2 應選擇何種硬體？
 
-RoninDojo 提供了在 [RockPro64](https://ronindojo.io/en/download) 上自動安裝其軟體的映像。但是，我們的教程著重於在 Raspberry Pi 4 上的手動安裝步驟。雖然最近推出了 Raspberry Pi 5，理論上本教學應該與這款新機型相容，但我還沒有機會親自測試，也沒有發現來自社區的任何回饋。一旦我購買到 Pi 5 和相容的元件，我就會更新本教學，讓您了解最新情況。在此期間，我建議優先使用 Pi 4，因為它在我的節點上運作得非常好。
+RoninDojo 提供了在 [RockPro64](https://ronindojo.io/downloads) 上自動安裝其軟體的映像。但是，我們的教程著重於在 Raspberry Pi 4 上的手動安裝步驟。雖然最近推出了 Raspberry Pi 5，理論上本教學應該與這款新機型相容，但我還沒有機會親自測試，也沒有發現來自社區的任何回饋。一旦我購買到 Pi 5 和相容的元件，我就會更新本教學，讓您了解最新情況。在此期間，我建議優先使用 Pi 4，因為它在我的節點上運作得非常好。
 
 就我而言，我在配備 8 GB 記憶體的 Raspberry Pi 上執行 RoninDojo。雖然有些社群成員已成功讓它在只有 4 GB 記憶體的裝置上運作，但我自己還沒有測試過這種配置。由於價格相差不大，選擇 8 GB RAM 版本似乎是明智之舉。如果您打算將您的 Raspberry Pi 改作其他用途，這也會很有用。
 
@@ -824,7 +824,7 @@ Push Tx" 選項卡是 RoninUI 另一項有趣的功能，可在 Bitcoin 網路�
 - `設定`：允許您變更使用者密碼。
 
 
-就是這樣！感謝您跟隨本教學到最後。如果您喜歡，我鼓勵您在社交媒體上分享。此外，如果您有機會，請考慮以捐款的方式來支持那些為我們的社群提供這些免費開放原始碼軟體的開發人員：[https://donate.ronindojo.io/](https://donate.ronindojo.io/).若要加深您對 RoninDojo 的認識，並發掘更多資源，我強烈建議您參考以下提及的外部資源連結。
+就是這樣！感謝您跟隨本教學到最後。如果您喜歡，我鼓勵您在社交媒體上分享。此外，如果您有機會，請考慮以捐款的方式來支持那些為我們的社群提供這些免費開放原始碼軟體的開發人員：[https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/).若要加深您對 RoninDojo 的認識，並發掘更多資源，我強烈建議您參考以下提及的外部資源連結。
 
 
 **外部資源：**
@@ -834,4 +834,4 @@ Push Tx" 選項卡是 RoninUI 另一項有趣的功能，可在 Bitcoin 網路�
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

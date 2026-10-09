@@ -661,7 +661,7 @@ Wakati huo huo hapa kuna viungo vyote kuhusu Njia hii ya Umeme ya Bitcoin:
 - [Onyesho la Blixt - video ya matangazo](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Kalenda](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video ya matangazo (unaweza kujaribu matumizi yako ya 1-7 ya GW7)
 - [Kipeperushi cha A4 kinachoweza kuchapishwa chenye hatua za kwanza kwa kutumia Blixt, katika lugha mbalimbali](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt pia inatoa onyesho kamili la utendaji](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) pamoja na tovuti yake au kwenye tovuti maalum ya toleo, ili kuwa na majaribio kamili ya matumizi, kabla ya kuanza kutumia katika ulimwengu halisi.
+- [Blixt pia inatoa onyesho kamili la utendaji](https://blixtwallet.github.io/) pamoja na tovuti yake au kwenye tovuti maalum ya toleo, ili kuwa na majaribio kamili ya matumizi, kabla ya kuanza kutumia katika ulimwengu halisi.
 
 
 ---

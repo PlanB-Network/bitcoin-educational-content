@@ -78,7 +78,7 @@ Linux 使用者請參閱 [this page](https://www.ivpn.net/en/apps-linux/) 上針
 ## 如何在智慧型手機上安裝 IVPN？
 
 
-從您的應用程式商店下載IVPN，無論是iOS用戶的[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)，Android用戶的[Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client)，還是[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)。如果您使用 Android，您也可以選擇直接從 [IVPN 網站](https://www.ivpn.net/en/apps-android/) 下載`.apk`檔。
+從您的應用程式商店下載IVPN，無論是iOS用戶的[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)，Android用戶的[Google Play Store](https://www.ivpn.net/en/apps-android/)，還是[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)。如果您使用 Android，您也可以選擇直接從 [IVPN 網站](https://www.ivpn.net/en/apps-android/) 下載`.apk`檔。
 
 ![IVPN](assets/notext/05.webp)
 

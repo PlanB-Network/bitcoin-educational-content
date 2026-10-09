@@ -387,7 +387,7 @@ Korvaa f8a43fc363ea428db5c53b3559935f1f arvolla, joka tulee ennen nimeä (esimer
 
 ##### LNURL salamaosoitteelle päinvastoin
 
-Kokeile tätä [kooderia](https://lnurl-codec.netlify.app/) fiatjafilta tai [tätä](https://lightningdecoder.com/). LNURLp:n maksamiseen tai tarkistamiseen voit käyttää myös [LNurlpay](https://wwww.lnurlpay.com/). Siinä pitäisi olla HTTPS EI HTTP.
+Kokeile tätä [kooderia](https://lnurl-codec.netlify.app/) fiatjafilta tai [tätä](https://lightningdecoder.com/). LNURLp:n maksamiseen tai tarkistamiseen voit käyttää myös [LNurlpay](https://www.lnurlpay.com/). Siinä pitäisi olla HTTPS EI HTTP.
 
 ##### Määritä kommentti, jonka ihmiset näkevät maksaessaan LNURLp QR:lle
 

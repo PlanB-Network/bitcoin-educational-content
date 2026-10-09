@@ -296,7 +296,7 @@ KaleidoSwap'in üzerine inşa eden geliştiriciler için uygulama, destekleyen b
 - WebSocket**: Gerçek zamanlı piyasa veri abonelikleri için.
 
 
-Tüm uç noktalar ve teknik özellikler için [API Dokümantasyonu]'na (https://docs.kaleidoswap.com/api/introduction) bakın.
+Tüm uç noktalar ve teknik özellikler için [API Dokümantasyonu]'na (https://docs.kaleidoswap.com/api-reference/introduction) bakın.
 
 
 ## Sonuç

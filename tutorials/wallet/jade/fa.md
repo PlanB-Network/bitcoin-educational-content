@@ -57,7 +57,7 @@ Blockstream Green را باز کنید، سپس روی لوگوی Blockstream د
 پس از به‌روزرسانی فریمور Jade، تنظیمات Jade را در شبکه و سیاست امنیتی که می‌خواهید استفاده کنید، انتخاب کنید.
 
 
-**نکته:** سیاست امنیتی تحت نوع در صفحه ورود نشان داده شده در زیر فهرست شده است. اگر مطمئن نیستید که Singlesig یا Multisig Shield را انتخاب کنید، لطفاً راهنمای ما را [اینجا](https://help.blockstream.com/hc/en-us/articles/4403642609433) مرور کنید.
+**نکته:** سیاست امنیتی تحت نوع در صفحه ورود نشان داده شده در زیر فهرست شده است. اگر مطمئن نیستید که Singlesig یا Multisig Shield را انتخاب کنید، لطفاً راهنمای ما را [اینجا](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained) مرور کنید.
 
 
 ![image](assets/3.webp)

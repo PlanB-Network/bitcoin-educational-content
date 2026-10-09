@@ -231,7 +231,7 @@ Tato analýza odráží nepochopení přebytkové hodnoty a kooperativní a dyna
 
 ### Průmyslová revoluce v otázce
 
-Ve skutečnosti marxistická analýza zkresluje historickou realitu průmyslové revoluce. Ludwig von Mises tuto otázku objasnil ve svém ekonomickém traktátu [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (viz zejména kapitolu s názvem [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) stejně jako v sérii přednášek publikovaných pod názvem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Také stojí za přečtení, The Anti-Capitalistic Mentality [zde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) a [zde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Ve skutečnosti marxistická analýza zkresluje historickou realitu průmyslové revoluce. Ludwig von Mises tuto otázku objasnil ve svém ekonomickém traktátu [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (viz zejména kapitolu s názvem [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) stejně jako v sérii přednášek publikovaných pod názvem: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Také stojí za přečtení, The Anti-Capitalistic Mentality [zde](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) a [zde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 ![obrázek](assets/cs/014.webp)
 
 Mises vysvětluje, že práce v továrnách, ačkoli byly podle našich standardů bídné, představovaly pro pracovníky té doby nejlepší možnou příležitost.

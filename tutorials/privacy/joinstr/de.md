@@ -650,7 +650,7 @@ Vor dem Hintergrund zunehmender finanzieller Kontrolle werden dezentralisierte I
 
 
 
-- [Joinstr offizielle Website](https://joinstr.xyz)
+- [Joinstr offizielle Website](https://docs.joinstr.xyz/)
 - [Benutzerdokumentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technische Dokumentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab-Quellcode](https://gitlab.com/invincible-privacy/joinstr)

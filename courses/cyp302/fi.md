@@ -937,7 +937,7 @@ Jos haluat lisää keskustelua modernista numeroteoriasta, voit tutustua moniin 
 
 [3] Katso [YouTube-video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstrakti algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakti algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz ja Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar ja Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berliini).
 
@@ -1900,7 +1900,7 @@ Hash-funktion $H$ sanotaan olevan **törmäyskestävä**, jos on mahdotonta löy
 
 Törmäyksenkestävät hash-funktiot ovat tärkeitä esimerkiksi ohjelmistojen verifioinnissa. Oletetaan, että haluaisit ladata Windows-version Bitcoin Core 0.21.0:sta (palvelinsovellus Bitcoin-verkkoliikenteen käsittelyyn). Tärkeimmät vaiheet, jotka sinun pitäisi tehdä ohjelmiston laillisuuden todentamiseksi, ovat seuraavat:
 
-1.	Sinun on ensin ladattava ja tuotava yhden tai useamman Bitcoin Core -osallistujan julkiset avaimet ohjelmistoon, joka voi tarkistaa digitaalisia allekirjoituksia (esim. Kleopetra). Löydät nämä julkiset avaimet [täältä](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). On suositeltavaa, että varmennat Bitcoin Core -ohjelmiston useiden avustajien julkisilla avaimilla.
+1.	Sinun on ensin ladattava ja tuotava yhden tai useamman Bitcoin Core -osallistujan julkiset avaimet ohjelmistoon, joka voi tarkistaa digitaalisia allekirjoituksia (esim. Kleopetra). Löydät nämä julkiset avaimet [täältä](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). On suositeltavaa, että varmennat Bitcoin Core -ohjelmiston useiden avustajien julkisilla avaimilla.
 
 2.	Seuraavaksi sinun on tarkistettava tuodut julkiset avaimet. Ainakin yksi vaihe, joka sinun kannattaa tehdä, on tarkistaa, että löytämäsi julkiset avaimet ovat samoja kuin eri paikoissa julkaistut avaimet. Voit esimerkiksi tutustua niiden henkilöiden henkilökohtaisiin verkkosivuihin, Twitter-sivuihin tai Github-sivuihin, joiden julkiset avaimet olet tuonut. Tyypillisesti tämä julkisten avainten vertailu tehdään vertaamalla julkisen avaimen lyhyttä hash-arvoa, jota kutsutaan sormenjäljeksi.
 

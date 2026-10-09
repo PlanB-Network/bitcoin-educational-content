@@ -94,7 +94,7 @@ Nhưng ngay cả bên ngoài những bối cảnh cụ thể này, SeedSigner v�
 
 - Nhà ở (tùy chọn nhưng được khuyến nghị)** (tùy chọn nhưng được khuyến nghị)** (tùy chọn nhưng được khuyến nghị)** (tùy chọn nhưng được khuyến nghị)**)
     - Bảo vệ thiết bị và giúp sử dụng dễ dàng.
-    - Mô hình phổ biến nhất là "*Hộp thuốc màu cam*", trong đó [có sẵn các tệp STL nguồn mở để in 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Mô hình phổ biến nhất là "*Hộp thuốc màu cam*", trong đó [có sẵn các tệp STL nguồn mở để in 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Hộp cũng có sẵn từ [các nhà bán lẻ độc lập có liên kết với dự án](https://seedsigner.com/hardware/).
 
 

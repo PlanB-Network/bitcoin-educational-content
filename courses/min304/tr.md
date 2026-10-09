@@ -618,7 +618,7 @@ Tüm bu noktaları gözden geçirdikten sonra, makinenizi yüksek derecede güve
 Bu kılavuzu tek bir cümleyle özetlemek gerekirse: **"Güvenmeyin, doğrulayın. "**
 
 
-[Mining makinelerinin yenilenmesi konusunda ortağımız 21energy gibi profesyonellere de başvurabilirsiniz. Temizlenmiş ve BraiiinOS+ yazılımı yüklenmiş test edilmiş S9 makineleri sunuyorlar. "decouvre" ortaklık koduyla, Attakai projesini desteklerken bir S9 satın aldığınızda %10 indirim alacaksınız](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Mining makinelerinin yenilenmesi konusunda ortağımız 21energy gibi profesyonellere de başvurabilirsiniz. Temizlenmiş ve BraiiinOS+ yazılımı yüklenmiş test edilmiş S9 makineleri sunuyorlar. "decouvre" ortaklık koduyla, Attakai projesini desteklerken bir S9 satın aldığınızda %10 indirim alacaksınız](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## S9 için Donanım Değişiklikleri Satın Alma Kılavuzu

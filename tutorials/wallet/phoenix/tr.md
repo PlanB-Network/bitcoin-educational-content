@@ -41,7 +41,7 @@ Uygulama mağazanıza gidin ve Phoenix'i yükleyin:
 
 
 
-- Google Play Store]'da (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet);
+- Google Play Store]'da (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
 - App Store]'da (https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
 
 

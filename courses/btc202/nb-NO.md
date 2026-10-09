@@ -1521,7 +1521,7 @@ En av Umbrels viktigste fordeler i forhold til konkurrentene er det store og sv�
 
 
 
-Umbrels kode er offentlig tilgjengelig (du kan se, Fork og modifisere den), men den er ikke under en ekte åpen kildekode-lisens. Faktisk distribueres umbrelOS under [*PolyForm Noncommercial 1.0*]-lisensen (https://polyformproject.org/licenses/noncommercial/1.0.0/), selv om noen tilknyttede utviklingsverktøy er tilgjengelige under MIT-lisensen.
+Umbrels kode er offentlig tilgjengelig (du kan se, Fork og modifisere den), men den er ikke under en ekte åpen kildekode-lisens. Faktisk distribueres umbrelOS under [*PolyForm Noncommercial 1.0*]-lisensen (https://polyformproject.org/licenses/noncommercial/1.0.0), selv om noen tilknyttede utviklingsverktøy er tilgjengelige under MIT-lisensen.
 
 
 

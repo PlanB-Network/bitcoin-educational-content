@@ -41,7 +41,7 @@ description: نصب و استفاده از Phoenix Wallet
 
 
 
-- در [فروشگاه Google Play](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet)؛
+- در [فروشگاه Google Play](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet)؛
 - در [App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
 
 

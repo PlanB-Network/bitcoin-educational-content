@@ -1168,7 +1168,7 @@ U ovom odeljku, istražićemo različite slojeve transakcija, bilo u fiat valuti
 Bitcoin-ov Blockchain je sastavljen od blokova, kao što ime sugeriše. Ovi blokovi imaju teoretsku maksimalnu veličinu od 4 megabajta. _Ipak, prosečna veličina bloka u trenutku pisanja iznosi oko 1,5mb._ Zbog ovog ograničenja, postoji restrikcija na to koliko transakcija Bitcoin može obraditi po sekundi, što je između sedam do deset transakcija po sekundi (tps).
 
 
-Stoga se možete zapitati: Kako Bitcoin-ov Blockchain može konkurisati mrežama kao što su Visa ili Mastercard koje obavljaju transakcije pri [1.700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Stoga se možete zapitati: Kako Bitcoin-ov Blockchain može konkurisati mrežama kao što su Visa ili Mastercard koje obavljaju transakcije pri [1.700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Odgovor je jednostavan. Ne takmiči se sa njima.
@@ -1665,7 +1665,7 @@ Verovatno se pitate: U čemu je problem ovde?
 Slanje novca nazad u inostranstvo putem usluge za transfer novca kao što je Western Union nije besplatno. To košta novac, i to ne samo malo, već značajnu sumu.
 
 
-Slanje \$100 US nazad u Tongu nosi trošak od [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatni gubitak od \$8.60 zbog nepovoljnog Exchange kursa. To znači da više od 21% ukupnog iznosa poslatog ide Western Union-u, multinacionalnoj korporaciji. Kao rezultat, značajna suma koja je mogla biti u rukama zaslužnih tonganskih porodica završava u džepovima pružaoca usluga prenosa novca.
+Slanje \$100 US nazad u Tongu nosi trošak od [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatni gubitak od \$8.60 zbog nepovoljnog Exchange kursa. To znači da više od 21% ukupnog iznosa poslatog ide Western Union-u, multinacionalnoj korporaciji. Kao rezultat, značajna suma koja je mogla biti u rukama zaslužnih tonganskih porodica završava u džepovima pružaoca usluga prenosa novca.
 
 Možete li zamisliti prednosti kada biste imali dodatnih 21% na vaš prihod?
 
@@ -1676,7 +1676,7 @@ Možete li zamisliti prednosti kada biste imali dodatnih 21% na vaš prihod?
 A ako ste mislili da je Tonga sama u tome, razmislite ponovo.
 
 
-Evo uzorka koliko Western Union [naplaćuje](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za slanje 100 USD u neke druge istaknute zemlje:
+Evo uzorka koliko Western Union [naplaćuje](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za slanje 100 USD u neke druge istaknute zemlje:
 
 
 
@@ -2021,10 +2021,10 @@ Ali Bitcoin takođe konkuriše sa Layer dve metode transakcija, sa tehnologijama
 Uprkos brojnim studijama koje opovrgavaju lažne tvrdnje, Bitcoin se i dalje često kritikuje kao supstanca koja se prvenstveno koristi za nezakonite aktivnosti. Još jednom, ovo ne može biti dalje od istine.
 
 
-Jedna [studija](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) koju je sproveo bivši zamenik direktora CIA-e otkrila je da su "široke generalizacije o korišćenju Bitcoin u nezakonitom finansiranju značajno preuveličane." Zapravo, od 2016. godine, manje od 1% ukupnog obima transakcija Bitcoin korišćeno je za nezakonite aktivnosti. Za poređenje, "neki procenjuju da podzemna ekonomija čini 11% do 12% bruto domaćeg [proizvoda](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) SAD-a," od čega se većina obavlja korišćenjem američkog dolara.
+Jedna [studija](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) koju je sproveo bivši zamenik direktora CIA-e otkrila je da su "široke generalizacije o korišćenju Bitcoin u nezakonitom finansiranju značajno preuveličane." Zapravo, od 2016. godine, manje od 1% ukupnog obima transakcija Bitcoin korišćeno je za nezakonite aktivnosti. Za poređenje, "neki procenjuju da podzemna ekonomija čini 11% do 12% bruto domaćeg [proizvoda](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) SAD-a," od čega se većina obavlja korišćenjem američkog dolara.
 
 
-I prema izveštaju Chainalysis-a iz 2020. godine, nezakonite aktivnosti čine samo oko [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) svih Bitcoin transakcija.
+I prema izveštaju Chainalysis-a iz 2020. godine, nezakonite aktivnosti čine samo oko [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) svih Bitcoin transakcija.
 
 
 Međutim, čak i uz ove dokaze, obmanjujuće izjave i dalje daju oni na vlasti, kao što je američka sekretarka trezora Janet Yellen [koja tvrdi](https://home.treasury.gov/news/press-releases/jy0023), "Kriptovalute su korišćene za pranje profita od online trgovaca drogom; bile su alat za finansiranje terorizma."
@@ -2318,7 +2318,7 @@ U konačnici, budućnost decentralizovanih finansija počiva na onima koji su sp
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-U današnjem globalizovanom svetu, pristup finansijskim uslugama je ključna komponenta ekonomske participacije i nezavisnosti. Uprkos tome, previše pojedinaca je i dalje isključeno iz tradicionalnog bankarskog sistema, pri čemu žene često snose najveći teret ovog isključenja. Šokantno je da, iako nepotrebno [jedna četvrtina](https://www.worldbank.org/en/publication/globalfindex) globalne populacije ostaje bez bankovnih usluga, u zemljama poput Saudijske Arabije, [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žena nema pristup osnovnim bankarskim uslugama, što ih sprečava da u potpunosti učestvuju u ekonomiji i društvu svoje zemlje.
+U današnjem globalizovanom svetu, pristup finansijskim uslugama je ključna komponenta ekonomske participacije i nezavisnosti. Uprkos tome, previše pojedinaca je i dalje isključeno iz tradicionalnog bankarskog sistema, pri čemu žene često snose najveći teret ovog isključenja. Šokantno je da, iako nepotrebno [jedna četvrtina](https://www.worldbank.org/en/publication/globalfindex) globalne populacije ostaje bez bankovnih usluga, u zemljama poput Saudijske Arabije, [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žena nema pristup osnovnim bankarskim uslugama, što ih sprečava da u potpunosti učestvuju u ekonomiji i društvu svoje zemlje.
 
 
 Evo samo nekoliko primera uslova koje žene širom sveta i dalje trpe danas:

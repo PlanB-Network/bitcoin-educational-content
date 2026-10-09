@@ -213,7 +213,7 @@ Klikněte na "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Můžete použít základnu QR kódu, která je součástí balení Jade Plus. Vyberte příslušné políčko podle toho, zda jste se rozhodli pro větu o 12 nebo 24 slovech. Můžete si také [vytisknout šablonu z webových stránek Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Můžete použít základnu QR kódu, která je součástí balení Jade Plus. Vyberte příslušné políčko podle toho, zda jste se rozhodli pro větu o 12 nebo 24 slovech. Můžete si také [vytisknout šablonu z webových stránek Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Jade Plus zobrazí každou zónu vašeho QR kódu.
 

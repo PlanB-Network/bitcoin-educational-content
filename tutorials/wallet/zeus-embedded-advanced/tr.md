@@ -20,7 +20,7 @@ ZEUS, Bitcoin ödemelerini basitleştiren, kullanıcılara mali durumları üzer
 [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) veya [Alby](https://getalby.com/) (veya başka herhangi bir LNDhub hesabı) kullanan tüccarlar da ZEUS üzerinden kendi düğümlerine / hesaplarına bağlanabilir, kullanabilir ve yönetebilir.
 
 
-[v0.8’den itibaren](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS, mobil cihazlarından hızlı ve ucuz bitcoin ödemeleri yapmak isteyen ortalama kullanıcılara hizmet vermeye başlayacak ve bunun için [entegre Lightning Hizmet Sağlayıcısı (LSP)](https://docs.zeusln.app/lsp/intro) ile [yerleşik mobil Lightning düğümü](https://docs.zeusln.app/category/embedded-node) sunacaktır.
+[v0.8’den itibaren](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) ZEUS, mobil cihazlarından hızlı ve ucuz bitcoin ödemeleri yapmak isteyen ortalama kullanıcılara hizmet vermeye başlayacak ve bunun için [entegre Lightning Hizmet Sağlayıcısı (LSP)](https://docs.zeusln.app/lsp/intro) ile [yerleşik mobil Lightning düğümü](https://docs.zeusln.app/category/embedded-lnd) sunacaktır.
 
 
 ### Önemli Zeus kaynakları:
@@ -169,7 +169,7 @@ Burada iki LSP hizmeti sunulmaktadır:
 LSP, kullanıcıların düğümlerine ödeme kanalları açarak Lightning ağına bağlanmalarına yardımcı olur. [LSP hakkında daha fazla bilgiyi buradan okuyun](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS'ta [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) adlı yeni bir entegre LSP bulunmaktadır ve bu, yeni gömülü düğümü kullanan tüm kullanıcılar için kullanılabilir.
 
 
-Bu bölümde, varsayılan olarak Olympus LSP'dir (https://0conf.lnolymp.us), ancak yakında bu protokolü destekleyen başka bir 0conf LSP de ayarlayabilirsiniz.
+Bu bölümde, varsayılan olarak Olympus LSP'dir (https://flow.zeuslsp.com), ancak yakında bu protokolü destekleyen başka bir 0conf LSP de ayarlayabilirsiniz.
 
 
 aklında tut:_
@@ -310,7 +310,7 @@ ZEUS'taki gömülü düğüm LND'ü temel alır ve [aezeed seed formatını](htt
 Aezeed anahtar formatı aşağıdaki mobil cüzdanlarla uyumlu olmalıdır: Blixt, BlueWallet ve Breez. Açık veya kapanmayı bekleyen kanallarınız varsa, seed'ün tek başına tüm bakiyelerinizi kurtarmak için yetersiz kalacağını unutmayın!
 
 
-Yedekleme ve geri yükleme işlemi hakkında daha fazla bilgiyi [Zeus Docs sayfası](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery) adresinde bulabilirsiniz.
+Yedekleme ve geri yükleme işlemi hakkında daha fazla bilgiyi [Zeus Docs sayfası](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery) adresinde bulabilirsiniz.
 
 
 GÜÇ TAVSİYESİ: seed'inizi kaydettiğinizde, lütfen node pubkey'i de kaydedin! Bazen kurtarmayı doğrulamanız gerektiğinde seed ve SCB (Statik Kanal Yedekleme) ile birlikte elinizin altında olması iyi olur.
@@ -356,7 +356,7 @@ Bu bölümde entegre düğümü yönetmek için bazı temel araçlar bulacağız
 
 
 
- - _Pathfinding mode_ - bimodal veya apriori, LN ödemeleriniz için daha iyi bir rota bulmanın yolları ve ayrıca önceki rota bilgilerini sıfırlama. Lütfen yol bulma ile ilgili bu çok iyi kılavuzları okuyun: [Yol Bulma](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - Docs Lightning Engineering tarafından ve [LN Ödeme Yol Bulma](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - Voltage tarafından
+ - _Pathfinding mode_ - bimodal veya apriori, LN ödemeleriniz için daha iyi bir rota bulmanın yolları ve ayrıca önceki rota bilgilerini sıfırlama. Lütfen yol bulma ile ilgili bu çok iyi kılavuzları okuyun: [Yol Bulma](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - Docs Lightning Engineering tarafından ve [LN Ödeme Yol Bulma](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - Voltage tarafından
  - _Persistent LND_ - LND hizmetinin arka planda sürekli çalışmasını ve düğümünüzü 7/24 çevrimiçi tutmasını istiyorsanız bu modu etkinleştirin. Zeus'u küçük bir dükkanda PoS olarak kullanıyorsanız veya LN Address üzerinden birçok LN ipucu alıyorsanız bu çok kullanışlıdır.
  - _Rescan wallet_ - bu seçenek, yeniden başlatma sırasında Wallet'inizin tüm zincir içi tx'lerinin tam taramasını tetikleyecektir. Bunu yalnızca Wallet'inizde bazı tx'lerin eksik olması durumunda etkinleştirin. Yeniden tarama görevi birkaç dakika zaman alacaktır, bu nedenle sabırlı olun ve ilerleme hakkında daha fazla ayrıntı görmek için günlükleri her zaman kontrol edin.
  - _Compact Database_ - Zeus uygulamanız cihazda çok fazla yer kaplıyorsa bu seçenek çok kullanışlıdır (cihaz ayarlarınızdaki uygulama ayrıntılarına bakın). Zeus'u kullanarak çok fazla etkinlik gerçekleştiriyorsanız, bu sıkıştırma işlemini daha sık yapmanızı tavsiye ederim. Zeus uygulaması için 1-1,5 GB'tan fazla veriniz olduğunu gördüğünüzde, sıkıştırma işlemini yapın. Yeniden başlayacak ve biraz zaman alacaktır, bu yüzden sabırlı olun.
@@ -399,7 +399,7 @@ ZEUS PAY, 7/24 çevrimiçi olamayan kullanıcıların statik bir yıldırım Add
 "Kalıcı modu" etkinleştirirseniz, LN Address'ünüze yapılan tüm ödemeler anında alınacaktır.
 
 
-Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) ödemelerinin nasıl çalıştığı ve [ZeusPay Ücretleri burada](https://docs.zeusln.app/lightning-Address/fees) hakkında daha fazla bilgi edinin.
+Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) ödemelerinin nasıl çalıştığı ve [ZeusPay Ücretleri burada](https://docs.zeusln.app/lightning-address/zaplocker) hakkında daha fazla bilgi edinin.
 
 
 **G - Zincirleme Adresler**
@@ -488,7 +488,7 @@ Varsayılan olarak, Zeus kendi LSP'si Olympus'u kullanacaktır. Ancak daha sonra
 Zeus'unuzda bir Invoice oluşturarak (miktarı girin ve "talep et" düğmesine tıklayın), bu Sats'leri hemen alabileceksiniz.
 
 
-Invoice size generate [sarılmış](https://docs.zeusln.app/lsp/wrapped-invoices) olacak ve ödenmeleri halinde hizmetle ilgili ücretler size sunulacaktır. Bu sarılmış Invoice, Zeus düğümünüze yönelik rota ipuçları içerir, böylece LSP yeni düğümünüzü bulabilir ve yatırdığınız yeni fonlarla bir kanal açabilir.
+Invoice size generate [sarılmış](https://docs.zeusln.app/lsp/services/flow) olacak ve ödenmeleri halinde hizmetle ilgili ücretler size sunulacaktır. Bu sarılmış Invoice, Zeus düğümünüze yönelik rota ipuçları içerir, böylece LSP yeni düğümünüzü bulabilir ve yatırdığınız yeni fonlarla bir kanal açabilir.
 
 
 ![Image](assets/en/06.webp)

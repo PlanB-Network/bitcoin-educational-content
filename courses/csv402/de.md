@@ -2337,7 +2337,7 @@ Je nach dem Datum, an dem Sie diesen Kurs besuchen, können diese Schnittstellen
 
 #### Beispiel für eine Schnittstelle
 
-Dieses Rust Code Snippet zeigt eine [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) Schnittstelle (fungibles Asset). Dieser Code stammt aus der Datei `rgb20.rs` in der Standard-RGB-Bibliothek. Werfen wir einen Blick darauf, um die Struktur einer Schnittstelle zu verstehen und zu sehen, wie sie eine Brücke zwischen der (im Schema definierten) Business Logic einerseits und den Funktionalitäten für Geldbörsen und Benutzer andererseits bildet.
+Dieses Rust Code Snippet zeigt eine [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Schnittstelle (fungibles Asset). Dieser Code stammt aus der Datei `rgb20.rs` in der Standard-RGB-Bibliothek. Werfen wir einen Blick darauf, um die Struktur einer Schnittstelle zu verstehen und zu sehen, wie sie eine Brücke zwischen der (im Schema definierten) Business Logic einerseits und den Funktionalitäten für Geldbörsen und Benutzer andererseits bildet.
 
 ```rust
 // ...

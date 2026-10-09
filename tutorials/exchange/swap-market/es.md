@@ -337,7 +337,7 @@ La competencia entre proveedores mejora las tarifas y multiplica las fuentes de 
 
 - [SwapMarket - Aplicación web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Documentación técnica](https://docs.boltz.exchange/)
+- [Documentación técnica](https://github.com/BoltzExchange/boltz-backend)
 - [Guía de autoalojamiento](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 ### Proyectos relacionados

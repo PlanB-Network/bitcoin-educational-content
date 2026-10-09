@@ -523,7 +523,7 @@ Bitcoin همچنین یک ابزار خوب بود، زیرا نمی‌توان�
 در 1 مارس 2011، درست زمانی که انتقال قرار بود رسمی شود، 80,000 بیت‌کوین [به هوا رفتند](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) به دلیل دسترسی مخرب به فایل wallet.dat سایت. در روز 3، جد مک‌کالب متوجه برداشت شد و [به مارک اطلاع داد](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) در IRC که "اتفاق بدی افتاده است". این یک ضرر بزرگ بود (در آن زمان یک بیت‌کوین به قیمت $0.92 فروخته می‌شد)، که در ماه‌های بعد با افزایش بی‌سابقه قیمت، بزرگ‌تر و بزرگ‌تر می‌شد.
 
 
-این مشکل توسط جد در تاریخ ۱۸ آوریل در یک ایمیل به مارک [ذکر شد](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)، جایی که او نوشت:
+این مشکل توسط جد در تاریخ ۱۸ آوریل در یک ایمیل به مارک [ذکر شد](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)، جایی که او نوشت:
 
 
 > "نمی‌توانم بگویم چقدر مشکل بزرگی خواهد بود که 80k BTC کم داشته باشیم اگر قیمت به 100 دلار یا چیزی شبیه به آن برسد. در آن نقطه، مقدار زیادی بدهی خواهد بود اما mtgox باید مقدار زیادی BTC (Bitcoin) برای رسیدن به آنجا ساخته باشد. همچنین هنوز این واقعیت وجود دارد که احتمالاً موجودی BTC (Bitcoin) هرگز به زیر 80k نخواهد رسید. بنابراین شاید واقعاً نیازی به نگرانی در مورد آن نداشته باشید."
@@ -608,7 +608,7 @@ Bitcoin همچنین یک ابزار خوب بود، زیرا نمی‌توان�
 
 
 
-در اروپای شرقی، پلتفرم Bitomat که در لهستان مستقر بود، در تاریخ [4 آوریل](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) راه‌اندازی شد. رابط کاربری آن ابتدایی بود، اما به کاربران لهستانی اجازه می‌داد تا زلوتی‌های خود را با بیت‌کوین مبادله کنند. همچنین قابل ذکر است Cavirtex که در تاریخ [2 ژوئیه](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) افتتاح شد و در کانادا فعالیت می‌کرد.
+در اروپای شرقی، پلتفرم Bitomat که در لهستان مستقر بود، در تاریخ [4 آوریل](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) راه‌اندازی شد. رابط کاربری آن ابتدایی بود، اما به کاربران لهستانی اجازه می‌داد تا زلوتی‌های خود را با بیت‌کوین مبادله کنند. همچنین قابل ذکر است Cavirtex که در تاریخ [2 ژوئیه](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) افتتاح شد و در کانادا فعالیت می‌کرد.
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica در تاریخ 8 سپتامبر 2011 توسط یک پسر 17 سال�
 
 
 
-پروژه دیگری که مدتی بعد پدیدار شد، MPEx بود، ساخته شخصیتی بسیار بحث‌برانگیز به نام میرچا پوپسکو. او که اهل رومانی و اصالتاً از ترانسیلوانیا بود، نویسنده‌ای پرکار در وبلاگ خود [Trilema](http://trilema.com/archives-categories/) بود: او در مورد همه موضوعات (فلسفه، سیاست، جنسیت) به سبک عمدی تحریک‌آمیز، ابتدا به زبان رومانیایی می‌نوشت. او در تابستان ۲۰۱۱ به Bitcoin علاقه‌مند شد و شروع به [صحبت](http://trilema.com/2011/ce-este-bitcoin/) درباره آن در وبلاگ خود کرد.
+پروژه دیگری که مدتی بعد پدیدار شد، MPEx بود، ساخته شخصیتی بسیار بحث‌برانگیز به نام میرچا پوپسکو. او که اهل رومانی و اصالتاً از ترانسیلوانیا بود، نویسنده‌ای پرکار در وبلاگ خود [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) بود: او در مورد همه موضوعات (فلسفه، سیاست، جنسیت) به سبک عمدی تحریک‌آمیز، ابتدا به زبان رومانیایی می‌نوشت. او در تابستان ۲۰۱۱ به Bitcoin علاقه‌مند شد و شروع به [صحبت](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) درباره آن در وبلاگ خود کرد.
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinica در تاریخ 8 سپتامبر 2011 توسط یک پسر 17 سال�
 
 
 
-در پایان فوریه ۲۰۱۲، او با [جمع‌آوری سرمایه](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) از طریق انتشار سهام و اوراق قرضه، بیش از ۳۲۰۰ بیت‌کوین یا حدود ۱۶۰۰۰ دلار در آن زمان جمع‌آوری کرد. در ۱۱ آوریل، پس از یک مرحله بتا، پلتفرم [سرانجام تبدیل شد](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) به یک صرافی بیت‌کوین که امکان انتشار و معامله سهام مختلف را فراهم می‌کرد و به MPEx (برای "Exchange میرچا پوپسکو") تغییر نام داد.
+در پایان فوریه ۲۰۱۲، او با [جمع‌آوری سرمایه](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) از طریق انتشار سهام و اوراق قرضه، بیش از ۳۲۰۰ بیت‌کوین یا حدود ۱۶۰۰۰ دلار در آن زمان جمع‌آوری کرد. در ۱۱ آوریل، پس از یک مرحله بتا، پلتفرم [سرانجام تبدیل شد](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) به یک صرافی بیت‌کوین که امکان انتشار و معامله سهام مختلف را فراهم می‌کرد و به MPEx (برای "Exchange میرچا پوپسکو") تغییر نام داد.
 
 
 
@@ -1484,7 +1484,7 @@ Satoshi Nakamoto اساساً با بازنویسی پروتکل مخالف بو
 
 
 
-*Gregory Maxwell در سال 2006 (منبع: [ویکی‌مدیا](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell در سال 2006 (منبع: [ویکی‌مدیا](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-*اولین بیت‌کوین‌های Casascius در سال ۲۰۱۱ (منبع: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*اولین بیت‌کوین‌های Casascius در سال ۲۰۱۱ (منبع: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-*بصری‌سازی Sharechain (منبع: Gregory Maxwell برای [Bitcoin ویکی](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*بصری‌سازی Sharechain (منبع: Gregory Maxwell برای [Bitcoin ویکی](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-*ضبط Bitcoin-Qt 0.5.2 در فوریه 2012 (منبع: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) برای ویکی‌مدیا)*
+*ضبط Bitcoin-Qt 0.5.2 در فوریه 2012 (منبع: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) برای ویکی‌مدیا)*
 
 
 

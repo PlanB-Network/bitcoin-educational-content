@@ -2751,7 +2751,7 @@ JoinMarket의 주요 단점 중 하나는 사용법이 복잡하다는 점으로
 ![BTC204](assets/ko/137.webp)
 
 
-출처: 출처: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+출처: 출처: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 그러나 기술적 장벽은 여전히 주요 장애물로 남아 있습니다. 참여자 수에 따라 기밀성이 강화되는 CoinJoin 생태계에서 접근성을 감소시키는 모든 제한은 가용 유동성에 직접적인 영향을 미치며, 이는 조합의 효율성에 결정적인 요소입니다. 이미 금융 거래의 틈새 시장으로 자리 잡은 Bitcoin은 코인조인 사용을 하위 틈새 시장으로 보고 있으며, 조인마켓은 그보다 더 특화된 일부분을 차지하므로 사용자의 익명 자산 수를 늘릴 수 있는 잠재력을 제한하고 있습니다.

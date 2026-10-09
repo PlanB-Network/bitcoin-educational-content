@@ -663,7 +663,7 @@ Sementara itu, berikut ini adalah semua tautan tentang Bitcoin Lightning Node ya
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video promo (Anda dapat menguji penggunaan pertama LN)
 - [Selebaran A4 yang dapat dicetak dengan langkah pertama menggunakan Blixt, dalam berbagai bahasa](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt juga menawarkan demo fungsional penuh](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) langsung di situs webnya atau di web versi khusus, untuk mendapatkan pengujian pengalaman penuh, sebelum mulai menggunakan di dunia nyata.
+- [Blixt juga menawarkan demo fungsional penuh](https://blixtwallet.github.io/) langsung di situs webnya atau di web versi khusus, untuk mendapatkan pengujian pengalaman penuh, sebelum mulai menggunakan di dunia nyata.
 
 
 ---

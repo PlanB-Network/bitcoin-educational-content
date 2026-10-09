@@ -94,7 +94,7 @@ SeedSigner 项目在 Bitcoin 生态系统中占有重要地位，因为它为世
 
 - 住房（可选但建议）** （可选但建议）** （可选但建议）** （可选但建议）**)
     - 保护设备，方便使用。
-    - 最受欢迎的模型是 "*橙色药盒*"，其[开源 STL 文件可用于 3D 打印](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures)。
+    - 最受欢迎的模型是 "*橙色药盒*"，其[开源 STL 文件可用于 3D 打印](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures)。
     - 盒子还可从[与项目相关的独立经销商](https://seedsigner.com/hardware/)处购买。
 
 

@@ -59,7 +59,7 @@ Untuk memilih mesin yang akan menjadi host dan menjalankan RoninDojo, kamu punya
 
 Seperti yang dijelaskan sebelumnya, pilihan termudah adalah memesan Tanto, mesin plug-and-play yang dirancang khusus untuk tujuan ini. Untuk memesannya, kunjungi di sini: [link](https://shop.ronindojo.io/product-category/nodes/).
 
-Karena tim RoninDojo memproduksi kode sumber terbuka, kamu juga bisa mengimplementasikan RoninDojo pada mesin lain. Kamu bisa menemukan versi terbaru dari wizard instalasi di halaman ini: [link](https://ronindojo.io/en/downloads.html), dan versi terbaru dari kode di halaman ini: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Karena tim RoninDojo memproduksi kode sumber terbuka, kamu juga bisa mengimplementasikan RoninDojo pada mesin lain. Kamu bisa menemukan versi terbaru dari wizard instalasi di halaman ini: [link](https://ronindojo.io/downloads), dan versi terbaru dari kode di halaman ini: [link](https://code.samourai.io/ronindojo/RoninDojo).
 
 Secara pribadi, aku menginstalnya pada Raspberry Pi 4 8GB dan semuanya berfungsi dengan sempurna.
 
@@ -81,13 +81,13 @@ Berikut adalah contoh cara mengatur node RoninDojo kamu sendiri:
 
 Setelah kamu merakit mesin kamu, kamu bisa mulai menginstal RoninDojo. Untuk melakukan ini, mulailah dengan membuat kartu micro SD yang bisa di-boot dengan membakar gambar disk yang sesuai ke dalamnya.
 
-Masukkan kartu micro SD kamu ke komputer pribadi kamu, lalu kunjungi situs web resmi RoninDojo untuk mengunduh gambar disk RoninOS: https://ronindojo.io/en/downloads.html.
+Masukkan kartu micro SD kamu ke komputer pribadi kamu, lalu kunjungi situs web resmi RoninDojo untuk mengunduh gambar disk RoninOS: https://ronindojo.io/downloads.
 Unduh gambar disk yang sesuai dengan perangkat keras. Dalam contoh ini, aku mengunduh gambar "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 ![Unduh gambar disk RoninOS](assets/2.webp)
 
 Setelah gambar diunduh, verifikasi integritasnya menggunakan file .SHA256 yang sesuai. Aku sudah menjelaskan secara detail cara melakukan ini dalam artikel ini: Bagaimana cara memverifikasi integritas perangkat lunak Bitcoin di Windows?
 
-Instruksi spesifik untuk memverifikasi integritas RoninOS juga tersedia di halaman ini: https://wiki.ronindojo.io/en/extras/verify
+Instruksi spesifik untuk memverifikasi integritas RoninOS juga tersedia di halaman ini: https://docs.ronindojo.io/install/verify-os/
 .
 
 Untuk membakar gambar ini ke kartu micro SD kamu, kamu bisa menggunakan perangkat lunak seperti Balena Etcher, yang bisa kamu unduh di sini: https://www.balena.io/etcher/
@@ -343,13 +343,13 @@ Ketika kamu melakukan CoinJoin dengan implementasi Whirlpool, aplikasi yang kamu
 
 Salah satu solusi untuk kendala ini adalah menggunakan WhirlpoolCLI pada mesin yang dimaksudkan untuk selalu menyala, seperti node Bitcoin. Dengan ini, UTXO kita dapat diremix 24/7 tanpa perlu menjaga mesin lain selain node Bitcoin kita berjalan.
 
-WhirlpoolCLI digunakan bersama WhirlpoolGUI, antarmuka grafis yang diinstal pada komputer pribadi untuk pengelolaan Coinjoin yang mudah. aku akan menjelaskan secara detail cara mengatur Whirlpool CLI dengan dojo kamu sendiri dalam artikel ini: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI digunakan bersama WhirlpoolGUI, antarmuka grafis yang diinstal pada komputer pribadi untuk pengelolaan Coinjoin yang mudah. aku akan menjelaskan secara detail cara mengatur Whirlpool CLI dengan dojo kamu sendiri dalam artikel ini: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
-Untuk mempelajari lebih lanjut tentang Coinjoin secara umum, aku menjelaskan semuanya dalam artikel ini: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+Untuk mempelajari lebih lanjut tentang Coinjoin secara umum, aku menjelaskan semuanya dalam artikel ini: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 ### Menggunakan Whirlpool Stat Tool.
 
-Setelah melakukan CoinJoins dengan Whirlpool, kamu mungkin ingin mengetahui tingkat privasi sebenarnya dari UTXO campuran kamu. Whirlpool Stat Tool memungkinkan kamu untuk dengan mudah melakukan ini. Dengan alat ini, kamu dapat menghitung skor prospektif dan skor retrospektif dari UTXO campuran kamu. Untuk mempelajari lebih lanjut tentang menghitung Anon Sets ini dan bagaimana mereka bekerja, aku sarankan membaca bagian ini: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Setelah melakukan CoinJoins dengan Whirlpool, kamu mungkin ingin mengetahui tingkat privasi sebenarnya dari UTXO campuran kamu. Whirlpool Stat Tool memungkinkan kamu untuk dengan mudah melakukan ini. Dengan alat ini, kamu dapat menghitung skor prospektif dan skor retrospektif dari UTXO campuran kamu. Untuk mempelajari lebih lanjut tentang menghitung Anon Sets ini dan bagaimana mereka bekerja, aku sarankan membaca bagian ini: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 Alat ini sudah terpasang di RoninDojo kamu. Untuk saat ini, hanya tersedia dari RoninCLI. Untuk meluncurkannya dari menu utama, pergi ke:
 
@@ -406,7 +406,7 @@ WST kemudian akan menampilkan skor retrospektif (metrik yang melihat ke belakang
 
 Harap dicatat bahwa skor prospektif dari UTXO kamu dihitung berdasarkan TXID dari campuran awal kamu, bukan campuran terakhir kamu. Sebaliknya, skor retrospektif dari UTXO dihitung berdasarkan TXID dari siklus terakhir.
 
-Sekali lagi, kalau kamu tidak memahami konsep-konsep Anon Sets ini, aku merekomendasikan membaca bagian ini dari artikel aku tentang Coinjoin di mana aku menjelaskan semuanya secara detail dengan diagram: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Sekali lagi, kalau kamu tidak memahami konsep-konsep Anon Sets ini, aku merekomendasikan membaca bagian ini dari artikel aku tentang Coinjoin di mana aku menjelaskan semuanya secara detail dengan diagram: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Menggunakan kalkulator Boltzmann.
 
@@ -645,7 +645,7 @@ Kita telah melihat bagaimana cara menginstal dan memulai dengan alat yang luar b
 
 Kalau menggunakan terminal tidak membuat kamu takut dan kamu tidak memerlukan alat yang terkait dengan Jaringan Lightning, maka RoninDojo mungkin menarik.
 
-Kalau bisa, pertimbangkan untuk mendonasikan kepada pengembang yang secara bebas memproduksi perangkat lunak sumber terbuka ini untuk kamu: https://donate.ronindojo.io/
+Kalau bisa, pertimbangkan untuk mendonasikan kepada pengembang yang secara bebas memproduksi perangkat lunak sumber terbuka ini untuk kamu: https://docs.ronindojo.io/main/donations/
 
 Untuk mempelajari lebih lanjut tentang RoninDojo, aku merekomendasikan untuk memeriksa tautan di sumber daya eksternal aku di bawah ini.
 
@@ -662,5 +662,5 @@ Untuk mempelajari lebih lanjut tentang RoninDojo, aku merekomendasikan untuk mem
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

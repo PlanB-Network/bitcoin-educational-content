@@ -639,7 +639,7 @@ SwapMarket อำนวยความสะดวกในการแลกเ
 
 - [SwapMarket - Web application](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technical documentation](https://docs.boltz.exchange/)
+- [Technical documentation](https://github.com/BoltzExchange/boltz-backend)
 - [คู่มือการโฮสต์ด้วยตนเอง](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

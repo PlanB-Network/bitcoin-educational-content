@@ -27,7 +27,7 @@ Tack vare ett partnerskap med MoonPay är det också möjligt att köpa och säl
 ## 2. Hur installerar jag Rumble Wallet?
 
 
-Applikationen kan installeras på både [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) och iOS via deras respektive officiella butiker.
+Applikationen kan installeras på både [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) och iOS via deras respektive officiella butiker.
 
 
 ![Image](assets/fr/01.webp)

@@ -65,7 +65,7 @@ Ingiza mwenyewe kiasi ulichotaka kubadilisha na utumie vitufe vya [kiungo cha ki
 Kumbuka kwamba **viwango vya miamala hubadilika-badilika**, kwa hivyo angalia bei ya mwisho kabla ya kuthibitisha.
 
 
-**Akaunti haihitajiki ikiwa na** miamala ya kila siku yenye kikomo cha VND 250,000 (~ USD $8). Maelezo zaidi yanapatikana katika [sera zetu za uhamisho wa benki](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Akaunti haihitajiki ikiwa na** miamala ya kila siku yenye kikomo cha VND 250,000 (~ USD $8). Maelezo zaidi yanapatikana katika [sera zetu za uhamisho wa benki](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Jihadhari**: ada ya mtandao kwa ujumla ni nafuu unapochagua Lightning Network ikilinganishwa na mbinu ya muamala wa onchain.

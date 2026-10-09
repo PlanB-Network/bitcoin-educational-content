@@ -57,7 +57,7 @@ description: Как да настроите устройството си JADE
 След като актуализирате фърмуера на Jade, изберете Настройка на Jade в мрежата и политиката за сигурност, която искате да използвате.
 
 
-**Съвет:** Политиката за сигурност е посочена в раздел Type (Тип) на екрана за вход, показан по-долу. Ако не сте сигурни дали да изберете Singlesig или Multisig Shield, моля, прегледайте нашето ръководство [тук](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Съвет:** Политиката за сигурност е посочена в раздел Type (Тип) на екрана за вход, показан по-долу. Ако не сте сигурни дали да изберете Singlesig или Multisig Shield, моля, прегледайте нашето ръководство [тук](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 ![image](assets/22.webp)
 
 
-източник: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+източник: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### зелено приложение

@@ -60,7 +60,7 @@ Elements is an open-source, sidechain-capable [blockchain](https://planb.academy
 
 Elements, at its core, is a protocol that enables [consensus](https://planb.academy/resources/glossary/consensus) to be formed around the transaction history and rules governing the transfer and creation of assets stored in a distributed blockchain ledger.
 
-More background information on Elements can be found readily on the Elements Project website (https://elementsproject.org/), the official Liquid blog (https://blog.liquid.net/), and the developer portal(https://liquid.net/devs).
+More background information on Elements can be found readily on the Elements Project website (https://elementsproject.org/), the official Liquid blog (https://blog.liquid.net/), and the developer portal(https://liquid.net/developers).
 
 ### Elements
 

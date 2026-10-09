@@ -29,7 +29,7 @@ La firma GPG è ottenuta con l'uso di un software open-source chiamato GNU Priva
 
 Di conseguenza, se qualcuno volesse verificare l'autenticità di un file firmato, può usare GPG per importare la chiave pubblica dell'emittente e controllare la veridicità della firma. Nella seconda parte del tutorial vedremo come farlo tramite l'uso del terminale.
 
-Se sei curioso e vuoi sapere di più su questo fantastico software, puoi fare riferimento a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Se sei curioso e vuoi sapere di più su questo fantastico software, puoi fare riferimento a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Come funziona il Timestamping?
 

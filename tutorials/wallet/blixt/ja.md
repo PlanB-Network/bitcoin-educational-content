@@ -663,7 +663,7 @@ OK、Blixtが提供する素晴らしい機能は他にもたくさんありま�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [ブリクスガールズカレンダー](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - プロモーションビデオ（LNの1回目の使用をテストできます。）
 - [Blixtを使った最初の一歩を紹介した印刷可能なA4チラシ、各国語](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)。
-- [Blixtは、ウェブサイトまたは専用ウェブ上でフル機能のデモ](https://blixt-Wallet-git-master-hsjoberg.vercel.app/)を提供しています。
+- [Blixtは、ウェブサイトまたは専用ウェブ上でフル機能のデモ](https://blixtwallet.github.io/)を提供しています。
 
 
 ---

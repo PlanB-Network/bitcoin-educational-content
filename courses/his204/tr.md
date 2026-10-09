@@ -309,7 +309,7 @@ Saint-Pierre Başrahibi, lüks sarayı ve askerî fetih takıntısıyla Louis XI
 
 Ekonomik düşünce bakımından, daha sonra Jeremy Bentham'ın yapacağı gibi, fayda ilkesini tutarlı biçimde uyguladı ve çoğu zaman sağlam içgörüler sundu. Adil olmak gerekirse, o dönemde kimsenin tamamen kurtulamadığı merkantilist fikirlerin etkisi altında hâlâ kalmıştı.
 
-Yine de Saint-Pierre Başrahibi ekonomi hakkında bazı doğru gözlemler yaptı. Sıklıkla bu fikirle anılan *Condillac*'tan bile önce, herhangi bir mübadelede iki tarafın da yarar sağladığını açıkça belirtti. Bu, 1733 tarihli ["Fransa Ticaretini İyileştirme Projesi"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) adlı eserinde bulunabilir; burada şöyle yazdı:
+Yine de Saint-Pierre Başrahibi ekonomi hakkında bazı doğru gözlemler yaptı. Sıklıkla bu fikirle anılan *Condillac*'tan bile önce, herhangi bir mübadelede iki tarafın da yarar sağladığını açıkça belirtti. Bu, 1733 tarihli ["Fransa Ticaretini İyileştirme Projesi"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) adlı eserinde bulunabilir; burada şöyle yazdı:
 
 > Tüccarlar arasında bir satış yapıldığında, satıcı kazanır, alıcı da kazanır; çünkü iki tarafta da gerçek ya da algılanan bir yarar olmasaydı, ne satıcı şu ya da bu fiyattan satardı ne de alıcı kendi payına böyle bir fiyattan satın alırdı.
 
@@ -469,7 +469,7 @@ Gournay çevresinin entelektüel üretimi fikirler tarihi üzerinde büyük bir 
 
 ![Fransa'da ekonomi yayıncılığı üzerine çalışma, 1566-1789.](assets/en/035.webp)
 
-Gournay ve arkadaşları, Fransız halkı arasında ekonomik tartışmalara yönelik bir zevk yaymak için bunları romanlar aracılığıyla erişilebilir kılmaya çalıştı. Loncaları eleştiren *Meslekler Üzerine Not*'tan sonra Gournay ve Cliquot-Blervache, Gabriel-François Coyer'nin Chinki adlı kısa bir hiciv romanı yazmasına yardım etti: [Başka Uluslara Uygulanabilir Bir Koşinçin Hikâyesi](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Gournay ve arkadaşları, Fransız halkı arasında ekonomik tartışmalara yönelik bir zevk yaymak için bunları romanlar aracılığıyla erişilebilir kılmaya çalıştı. Loncaları eleştiren *Meslekler Üzerine Not*'tan sonra Gournay ve Cliquot-Blervache, Gabriel-François Coyer'nin Chinki adlı kısa bir hiciv romanı yazmasına yardım etti: [Başka Uluslara Uygulanabilir Bir Koşinçin Hikâyesi](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -733,7 +733,7 @@ Quesnay daha önce aktarılan *İlkeler*inde şöyle der:
 
 Fizyokratlar, özellikle tahıl ticaretinde hükümet müdahalesinin yol açtığı zararı görmüşlerdi. Kabul etmek gerekir, derler, otorite ticareti bireyler kadar iyi yönetmeyi asla başaramayacaktır; çünkü her ihtiyaca yanıt vermesi ve talep ya da arzdaki her değişime tepki vermesi gerekir. Bütün bunlar, tasavvur edilebilecek en bilge hükümetin bile kapasitesinin çok ötesindedir. Bu nedenle şeyleri oluruna bırakmak ve akmalarına izin vermek gerekir.
 
-Doğası gereği yararlı olan ticaret tamamen ve eksiksiz biçimde özgür olmalıdır. Üyelerinden biri olan Le Trosne, [*Tahıl Ticaretinin Özgürlüğü: Her Zaman Yararlı, Asla Zararlı Değil*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/) başlıklı bir broşür bile yazdı.
+Doğası gereği yararlı olan ticaret tamamen ve eksiksiz biçimde özgür olmalıdır. Üyelerinden biri olan Le Trosne, [*Tahıl Ticaretinin Özgürlüğü: Her Zaman Yararlı, Asla Zararlı Değil*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/) başlıklı bir broşür bile yazdı.
 
 ### Beşinci ilke: Tüm insanlar kardeştir
 

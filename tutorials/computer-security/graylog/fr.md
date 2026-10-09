@@ -91,7 +91,7 @@ E: Impossible de corriger les problèmes, des paquets défectueux sont en mode �
 Nous allons télécharger le paquet DEB nommé "**libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb**" (version la plus récente) avec la commande **wget**, puis procéder à son installation via la commande **dpkg**. Ce qui donne les deux commandes suivantes:
 
 ```
-wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb
 sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb
 ```
 

@@ -65,7 +65,7 @@ Nhập thủ công số lượng BTC bạn muốn đổi và sử dụng [liên 
 Hãy nhớ rằng **tỷ giá giao dịch có thể thay đổi**, vì vậy hãy luôn kiểm tra giá cuối cùng trước khi xác nhận.
 
 
-**Không cần tài khoản** với giao dịch hàng ngày giới hạn ở mức 250.000 VND (~ 8 USD). Thông tin chi tiết hơn có trong [chính sách chuyển khoản ngân hàng](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Không cần tài khoản** với giao dịch hàng ngày giới hạn ở mức 250.000 VND (~ 8 USD). Thông tin chi tiết hơn có trong [chính sách chuyển khoản ngân hàng](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Lưu ý**: Phí mạng thường rẻ hơn khi bạn chọn Lightning Network so với phương thức giao dịch trên chuỗi.

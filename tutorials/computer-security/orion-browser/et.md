@@ -643,8 +643,8 @@ Pidage meeles: teie privaatsuse kaitsmine ei sõltu ainult teie brauserist. Opti
 
 
 - **Ametlik veebileht**: [kagi.com/orion](https://kagi.com/orion/)
-- **Täielik KKK**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Ühenduse foorum**: [community.kagi.com](https://community.kagi.com)
+- **Täielik KKK**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Ühenduse foorum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Vigade jälgimine**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Avatud lähtekoodiga komponendid
 - **Blogi Kagi**: [blog.kagi.com](https://blog.kagi.com) - Uudised ja uuendused

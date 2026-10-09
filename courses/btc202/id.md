@@ -843,7 +843,7 @@ Salah satu keunggulan utama Umbrel dibandingkan para pesaingnya adalah komunitas
 
 
 
-Kode Umbrel tersedia untuk umum (Anda dapat melihat, Fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi sumber terbuka yang sebenarnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), meskipun beberapa alat pengembangan terkait tersedia di bawah lisensi MIT.
+Kode Umbrel tersedia untuk umum (Anda dapat melihat, Fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi sumber terbuka yang sebenarnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), meskipun beberapa alat pengembangan terkait tersedia di bawah lisensi MIT.
 
 
 

@@ -309,7 +309,7 @@ objectives:
 
 在经济思想方面，他一贯运用效用原则，很像杰里米·边沁后来所做的那样，并且常常提出可靠的洞见。公平地说，他仍受重商主义思想影响；在当时，没有人完全摆脱这种思想。
 
-不过，圣皮埃尔神父对经济作出了一些准确观察。甚至早于通常被认为提出这一思想的*孔狄亚克*，他就直截了当地说，在任何交换中，双方都会受益。这可以在他1733年的[“改进法国贸易方案”](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)中看到，他在那里写道：
+不过，圣皮埃尔神父对经济作出了一些准确观察。甚至早于通常被认为提出这一思想的*孔狄亚克*，他就直截了当地说，在任何交换中，双方都会受益。这可以在他1733年的[“改进法国贸易方案”](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)中看到，他在那里写道：
 
 > 当商人之间完成一笔买卖时，卖方得益，买方也得益；因为如果双方都没有某种真实或感知到的利益，卖方就不会以某个价格出售，买方也不会以某个价格购买。
 
@@ -469,7 +469,7 @@ objectives:
 
 ![法国经济出版研究，1566-1789。](assets/en/035.webp)
 
-为了在法国民众中传播经济讨论的兴趣，古尔奈和他的朋友努力通过小说让这些讨论变得容易接近。在批评行会的《行业备忘录》之后，古尔奈和克利科-布莱尔瓦什帮助加布里埃尔-弗朗索瓦·科耶写了一部名为 Chinki 的短篇讽刺小说：[A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf)。
+为了在法国民众中传播经济讨论的兴趣，古尔奈和他的朋友努力通过小说让这些讨论变得容易接近。在批评行会的《行业备忘录》之后，古尔奈和克利科-布莱尔瓦什帮助加布里埃尔-弗朗索瓦·科耶写了一部名为 Chinki 的短篇讽刺小说：[A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf)。
 
 ![加布里埃尔-弗朗索瓦·科耶神父，“Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Physiocracy（重农主义）一词意为“自然的统治”，由杜邦·德�
 
 重农主义者已经看到了政府干预，尤其是谷物贸易干预所造成的损害。他们说，必须承认，当局永远无法像个人那样管理商业，因为它需要回应每一种需求，并对需求或供给的每一次变化作出反应。所有这一切都远远超出任何可以想象的最明智政府的能力。因此，有必要让事物自然运作，让它们自由流动。
 
-贸易在本性上有益，必须完全而彻底地自由。他们的一位成员勒特罗纳甚至写了一本小册子，题为[*谷物贸易自由：永远有益，从无伤害*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/)。
+贸易在本性上有益，必须完全而彻底地自由。他们的一位成员勒特罗纳甚至写了一本小册子，题为[*谷物贸易自由：永远有益，从无伤害*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/)。
 
 ### 第五原则：人人皆兄弟
 

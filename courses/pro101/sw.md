@@ -392,7 +392,7 @@ Ili kuanza, utataka kusakinisha tena Bitcoin Core kwenye mashine yako pepe. Kwa 
 Kwanza, pakua toleo jipya zaidi la Bitcoin Core na uthibitishe heshi za faili ili kuhakikisha kuwa hakuna uingilivu umetokea.
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```

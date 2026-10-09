@@ -113,7 +113,7 @@ Uburyo bushimikijwe ni ubwo kwongerako ububiko bwa F-Droid bwa Dana Wallet. Gend
 
 
 
-Ugurure porogarama ya F-Droid ku gikoresho cawe ca Android, hanyuma ugende kuri Settings biciye ku kimenyetso kiri musi iburyo. Hitamwo "Ibibiko" kugira ngo ucunge inkomoko za porogaramu. Kanda kuri buto ya "+" kugira ngo wongereko ububiko bushasha, hanyuma ushireko kode ya QR canke ushireko `https://fdroid.silentpayments.dev/fdroid/repo`. Ububiko bumaze kwongerwako, uzobona amaverisiyo atatu ya Dana Wallet ariho. Hitamwo "Dana Wallet - Ikimenyetso" hanyuma ukande "Shiraho".
+Ugurure porogarama ya F-Droid ku gikoresho cawe ca Android, hanyuma ugende kuri Settings biciye ku kimenyetso kiri musi iburyo. Hitamwo "Ibibiko" kugira ngo ucunge inkomoko za porogaramu. Kanda kuri buto ya "+" kugira ngo wongereko ububiko bushasha, hanyuma ushireko kode ya QR canke ushireko `https://fdroid.danawallet.app/fdroid/repo`. Ububiko bumaze kwongerwako, uzobona amaverisiyo atatu ya Dana Wallet ariho. Hitamwo "Dana Wallet - Ikimenyetso" hanyuma ukande "Shiraho".
 
 
 

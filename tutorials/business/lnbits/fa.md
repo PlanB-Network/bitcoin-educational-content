@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL برای یک lightning-Address برعکس
 
 
-این [رمزگذار](https://lnurl-codec.netlify.app/) از fiatjaf یا [این یکی](https://lightningdecoder.com/) را امتحان کنید. برای پرداخت یا بررسی یک LNURLp می‌توانید از [LNurlpay](https://wwww.lnurlpay.com/) نیز استفاده کنید. باید HTTPS باشد نه HTTP.
+این [رمزگذار](https://lnurl-codec.netlify.app/) از fiatjaf یا [این یکی](https://lightningdecoder.com/) را امتحان کنید. برای پرداخت یا بررسی یک LNURLp می‌توانید از [LNurlpay](https://www.lnurlpay.com/) نیز استفاده کنید. باید HTTPS باشد نه HTTP.
 
 
 

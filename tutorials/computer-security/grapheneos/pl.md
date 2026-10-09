@@ -160,7 +160,7 @@ Jedyne dwa, których możesz nie znać, to "Auditor" i "Vanadium".
 
 
 
-- Aplikacja [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor) wykorzystuje sprzętowe funkcje zabezpieczeń do weryfikacji tożsamości urządzenia oraz autentyczności i integralności systemu operacyjnego. Weryfikuje, czy na urządzeniu działa standardowy system operacyjny z zablokowanym bootloaderem i czy nie doszło do ingerencji w system operacyjny.
+- Aplikacja [Auditor app](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) wykorzystuje sprzętowe funkcje zabezpieczeń do weryfikacji tożsamości urządzenia oraz autentyczności i integralności systemu operacyjnego. Weryfikuje, czy na urządzeniu działa standardowy system operacyjny z zablokowanym bootloaderem i czy nie doszło do ingerencji w system operacyjny.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) to wzmocniony pod względem prywatności i bezpieczeństwa wariant przeglądarki internetowej Chromium.
 
 
@@ -435,7 +435,7 @@ Po lewej: Geometryczna pogoda, po prawej: Kalendarz Proton
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) oferuje bezpłatne i wieloplatformowe rozwiązanie do zarządzania hasłami E2EE dla wszystkich urządzeń. Ich płatna usługa pozwala zintegrować kody 2FA z aplikacją. Serwer Bitwarden może być hostowany samodzielnie, a aplikacja na Androida jest dostępna za pośrednictwem F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) oferuje bezpłatne i wieloplatformowe rozwiązanie do zarządzania hasłami E2EE dla wszystkich urządzeń. Ich płatna usługa pozwala zintegrować kody 2FA z aplikacją. Serwer Bitwarden może być hostowany samodzielnie, a aplikacja na Androida jest dostępna za pośrednictwem F-Droid.
 - [Proton Pass](https://proton.me/pass/download) oferuje podobną bezpłatną usługę do Bitwarden, ale klienci [Proton Unlimited](https://proton.me/pricing) mają dostęp do dodatkowych zaawansowanych funkcji. Proton Pass jest dostępny za pośrednictwem APK lub Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) to aplikacja do uwierzytelniania dwuskładnikowego dla systemów wykorzystujących protokoły haseł jednorazowych. Tokeny można łatwo dodawać, skanując kod QR. FreeOTP jest dostępny za pośrednictwem F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) to bezpłatna, bezpieczna i otwarta aplikacja dla systemu Android do zarządzania tokenami weryfikacji dwuetapowej dla usług online. Aegis jest dostępny za pośrednictwem F-Droid.

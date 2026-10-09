@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - یک کلید خصوصی Nostr** (فرمت `nsec1...`)
- - ایجاد یک کلید معاملاتی اختصاصی در [nostrkeygen.com](https://nostrkeygen.com/)
+ - ایجاد یک کلید معاملاتی اختصاصی در [nostrkeygen.com](https://nostrtool.com/)
  - مهم**: هرگز از کلید اصلی شخصی Nostr خود استفاده نکنید
  - کلید خصوصی خود را در یک مکان امن نگه دارید (مدیر رمز عبور)
 
@@ -962,7 +962,7 @@ Mostro P2P یک جایگزین امیدوارکننده برای صرافی‌ه
 
 
 - [مخزن اصلی GitHub](https://github.com/MostroP2P/mostro)
-- [کلاینت وب](https://github.com/MostroP2P/mostro-web)
+- [کلاینت وب](https://github.com/MostroP2P/app)
 - [مشتری CLI](https://github.com/MostroP2P/mostro-cli)
 
 

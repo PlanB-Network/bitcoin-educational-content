@@ -191,4 +191,4 @@ description: Започнете с mining bitcoin с шанс за печалб�
 
 
 - [Страница на проекта NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Пълна документация на NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Пълна документация на NerdMiners](https://bitwater.ch/nerd-miner-v2/)

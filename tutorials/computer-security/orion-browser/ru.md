@@ -643,8 +643,8 @@ Orion поддерживает расширения для Chrome и Firefox. У
 
 
 - **Официальный сайт**: [kagi.com/orion](https://kagi.com/orion/)
-- **Полный FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Форум сообщества**: [community.kagi.com](https://community.kagi.com)
+- **Полный FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Форум сообщества**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Отслеживание ошибок**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - компоненты с открытым исходным кодом
 - **Блог Каги**: [blog.kagi.com](https://blog.kagi.com) - Новости и обновления

@@ -296,7 +296,7 @@ Hệ thống giao dịch của KaleidoSwap hoạt động theo mô hình **Ngư�
 - WebSocket**: Dành cho việc đăng ký nhận dữ liệu thị trường theo thời gian thực.
 
 
-Vui lòng tham khảo [Tài liệu API](https://docs.kaleidoswap.com/api/introduction) để biết đầy đủ các điểm cuối và thông số kỹ thuật.
+Vui lòng tham khảo [Tài liệu API](https://docs.kaleidoswap.com/api-reference/introduction) để biết đầy đủ các điểm cuối và thông số kỹ thuật.
 
 
 ## Phần kết luận

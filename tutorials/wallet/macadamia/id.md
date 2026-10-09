@@ -337,7 +337,7 @@ Model kustodian menuntut kewaspadaan dan praktik keamanan yang baik. Jika diguna
 
 
 - Dokumentasi teknis: [docs.cashu.space](https://docs.cashu.space)
-- Daftar mint publik: [bitcoinmints.com](https://bitcoinmints.com)
+- Daftar mint publik: [bitcoinmints.com](https://cashumints.space/)
 - Situs web protokol resmi: [cashu.space](https://cashu.space)
 
 

@@ -56,7 +56,7 @@ Sasa kwa kuwa tumeelezea RoninDojo, hebu tuone pamoja jinsi ya kusanidi nodi hii
 
 ## Ni vifaa gani vya kuchagua kwa kusakinisha RoninDojo v2?
 
-RoninDojo inatoa picha ya usakinishaji kiotomatiki wa programu yake kwenye [RockPro64](https://ronindojo.io/en/download). Hata hivyo, somo letu linaangazia utaratibu wa usakinishaji wa mwongozo kwenye Raspberry Pi 4. Ingawa Raspberry Pi 5 imezinduliwa hivi majuzi, na mafunzo haya yanafaa kinadharia kuendana na mtindo huu mpya, bado sijapata fursa ya kukijaribu kibinafsi, na sijapata maoni yoyote kutoka kwa jumuiya. Mara tu nitakapopata Pi 5 na vipengee vinavyotumika, nitasasisha mafunzo haya ili kukufahamisha. Wakati huo huo, ninapendekeza kuweka kipaumbele kwa Pi 4, kwani inafanya kazi kikamilifu kwa nodi yangu.
+RoninDojo inatoa picha ya usakinishaji kiotomatiki wa programu yake kwenye [RockPro64](https://ronindojo.io/downloads). Hata hivyo, somo letu linaangazia utaratibu wa usakinishaji wa mwongozo kwenye Raspberry Pi 4. Ingawa Raspberry Pi 5 imezinduliwa hivi majuzi, na mafunzo haya yanafaa kinadharia kuendana na mtindo huu mpya, bado sijapata fursa ya kukijaribu kibinafsi, na sijapata maoni yoyote kutoka kwa jumuiya. Mara tu nitakapopata Pi 5 na vipengee vinavyotumika, nitasasisha mafunzo haya ili kukufahamisha. Wakati huo huo, ninapendekeza kuweka kipaumbele kwa Pi 4, kwani inafanya kazi kikamilifu kwa nodi yangu.
 
 Kwa upande wangu, ninaendesha RoninDojo kwenye Raspberry Pi iliyo na 8 GB ya RAM. Ingawa baadhi ya wanajamii wameweza kuifanya ifanye kazi kwenye vifaa vilivyo na RAM ya GB 4 pekee, sijajaribu usanidi huu mimi mwenyewe. Kwa kuzingatia tofauti ndogo ya bei, inaonekana kuwa busara kuchagua toleo la 8 GB la RAM. Hii inaweza pia kuwa muhimu ikiwa unapanga kutumia tena Raspberry Pi yako kwa matumizi mengine katika siku zijazo.
 
@@ -824,7 +824,7 @@ Kuhusu vichupo vingine vinavyopatikana kwenye dashibodi yako ya RoninUI:
 - `Mipangilio`: Hukuruhusu kubadilisha nenosiri lako la mtumiaji.
 
 
-Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, nakuhimiza kushiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
+Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, nakuhimiza kushiriki kwenye mitandao ya kijamii. Zaidi ya hayo, ikiwa una fursa, zingatia kuunga mkono wasanidi programu wanaofanya programu hizi huria na huria kupatikana kwa jumuiya yetu kwa mchango: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Ili kuongeza ujuzi wako wa RoninDojo na kugundua rasilimali zaidi, ninapendekeza sana kushauriana na viungo vya rasilimali za nje zilizotajwa hapa chini.
 
 
 **Nyenzo za nje:**
@@ -834,5 +834,5 @@ Hapo unayo! Asante kwa kufuatilia mafunzo haya hadi mwisho. Ikiwa uliyafurahia, 
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

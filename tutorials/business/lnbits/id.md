@@ -387,7 +387,7 @@ Di mana Anda mengganti f8a43fc363ea428db5c53b3559935f1f dengan nilai yang muncul
 
 ##### LNURL untuk alamat kilat dan sebaliknya
 
-Cobalah [encoder](https://lnurl-codec.netlify.app/) dari fiatjaf atau [yang ini](https://lightningdecoder.com/). Untuk membayar atau memeriksa LNURLp, Anda juga dapat menggunakan [LNurlpay](https://wwww.lnurlpay.com/). Ini harus menyatakan HTTPS BUKAN HTTP.
+Cobalah [encoder](https://lnurl-codec.netlify.app/) dari fiatjaf atau [yang ini](https://lightningdecoder.com/). Untuk membayar atau memeriksa LNURLp, Anda juga dapat menggunakan [LNurlpay](https://www.lnurlpay.com/). Ini harus menyatakan HTTPS BUKAN HTTP.
 
 ##### Mengonfigurasi komentar yang dilihat orang saat membayar ke QR LNURLp saya
 

@@ -337,7 +337,7 @@ Mô hình lưu ký đòi hỏi sự cảnh giác và các biện pháp bảo m�
 
 
 - Tài liệu kỹ thuật: [docs.cashu.space](https://docs.cashu.space)
-- Danh sách các xưởng đúc tiền công cộng: [bitcoinmints.com](https://bitcoinmints.com)
+- Danh sách các xưởng đúc tiền công cộng: [bitcoinmints.com](https://cashumints.space/)
 - Trang web chính thức của giao thức: [cashu.space](https://cashu.space)
 
 

@@ -61,7 +61,7 @@ Elements adalah platform [blockchain](https://planb.academy/resources/glossary/b
 
 Elements, pada intinya, merupakan sebuah protokol yang memungkinkan [konsensus](https://planb.academy/resources/glossary/consensus) dibentuk di sekitar riwayat transaksi dan aturan yang mengatur transfer dan pembuatan aset yang disimpan dalam buku besar blockchain yang terdistribusi.
 
-Informasi latar belakang lebih lanjut tentang Elements dapat ditemukan dengan mudah di situs web Elements Project (https://elementsproject.org/), blog resmi Liquid (https://blog.liquid.net/), dan portal pengembang (https://liquid.net/devs).
+Informasi latar belakang lebih lanjut tentang Elements dapat ditemukan dengan mudah di situs web Elements Project (https://elementsproject.org/), blog resmi Liquid (https://blog.liquid.net/), dan portal pengembang (https://liquid.net/developers).
 
 ### Elemen
 

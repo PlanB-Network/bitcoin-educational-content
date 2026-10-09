@@ -1518,7 +1518,7 @@ Umbrel 可以保持极简风格，只专注于比特币，也可以发展成为�
 
 
 
-Umbrel 的代码是公开的（您可以查看、创造分叉和修改它），但它并不是根据真正的开源许可证发布的。事实上，umbrelOS 是根据[*PolyForm Noncommercial 1.0*]许可证（https://polyformproject.org/licenses/noncommercial/1.0.0/）发布的，尽管一些相关的开发工具是根据 MIT 许可证发布的。
+Umbrel 的代码是公开的（您可以查看、创造分叉和修改它），但它并不是根据真正的开源许可证发布的。事实上，umbrelOS 是根据[*PolyForm Noncommercial 1.0*]许可证（https://polyformproject.org/licenses/noncommercial/1.0.0）发布的，尽管一些相关的开发工具是根据 MIT 许可证发布的。
 
 
 

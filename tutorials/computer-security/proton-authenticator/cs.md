@@ -572,8 +572,8 @@ Proton Authenticator je jedno z nejkomplexnějších a nejbezpečnějších ře�
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Otevřený zdrojový kód
-- **Bezpečnostní audity**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Nezávislé auditní zprávy
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Otevřený zdrojový kód
+- **Bezpečnostní audity**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Nezávislé auditní zprávy
 
 
 

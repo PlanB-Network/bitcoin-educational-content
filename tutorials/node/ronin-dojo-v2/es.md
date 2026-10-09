@@ -40,7 +40,7 @@ Si no necesitas funcionalidades generalistas o aquellas relacionadas con la Red 
 Ahora que hemos delineado RoninDojo, veamos juntos cómo configurar este nodo.
 
 ## ¿Qué hardware elegir para instalar RoninDojo v2?
-RoninDojo ofrece una imagen para la instalación automática de su software en un [RockPro64](https://ronindojo.io/en/download). Sin embargo, nuestro tutorial se centra en el procedimiento de instalación manual en un Raspberry Pi 4. Aunque el Raspberry Pi 5 ha sido lanzado recientemente, y este tutorial debería ser teóricamente compatible con este nuevo modelo, aún no hemos tenido la oportunidad de probarlo, y no hemos encontrado comentarios de la comunidad. Tan pronto como tengamos el Pi 5 y los componentes compatibles, actualizaremos este tutorial para mantenerlos informados. Mientras tanto, recomendamos priorizar el Pi 4, ya que funciona perfectamente para nuestro nodo.
+RoninDojo ofrece una imagen para la instalación automática de su software en un [RockPro64](https://ronindojo.io/downloads). Sin embargo, nuestro tutorial se centra en el procedimiento de instalación manual en un Raspberry Pi 4. Aunque el Raspberry Pi 5 ha sido lanzado recientemente, y este tutorial debería ser teóricamente compatible con este nuevo modelo, aún no hemos tenido la oportunidad de probarlo, y no hemos encontrado comentarios de la comunidad. Tan pronto como tengamos el Pi 5 y los componentes compatibles, actualizaremos este tutorial para mantenerlos informados. Mientras tanto, recomendamos priorizar el Pi 4, ya que funciona perfectamente para nuestro nodo.
 Por nuestra parte, ejecutamos RoninDojo en un Raspberry Pi equipado con 8 GB de RAM. Aunque algunos miembros de la comunidad han logrado que funcione en dispositivos con solo 4 GB de RAM, no hemos probado esta configuración. Dada la pequeña diferencia de precio, parece prudente optar por la versión de 8 GB de RAM. Esto también podría resultar útil si planeas reutilizar tu Raspberry Pi para otros usos en el futuro.
 Es importante señalar que los equipos de RoninDojo han informado sobre problemas frecuentes relacionados con la carcasa y el adaptador SSD. Nosotros nos hemos enfrentado a estos problemas. **Por lo tanto, se recomienda evitar carcasas equipadas con un cable USB para el SSD de tu nodo.** En su lugar, prefiere una tarjeta de expansión de almacenamiento diseñada específicamente para tu Raspberry Pi:
 
@@ -504,11 +504,11 @@ En cuanto a las otras pestañas disponibles en tu panel de RoninUI:
 - `System Info`: Proporciona información general sobre tu nodo, como la temperatura del CPU, el uso del espacio de almacenamiento o datos de RAM. También encontrarás las opciones `Reboot` y `Shut down` para reiniciar o apagar tu nodo.
 - `Settings`: Te permite cambiar tu contraseña de usuario.
 
-¡Ahí lo tienes! Gracias por seguir este tutorial hasta el final. Si te gustó, te invitamos a compartirlo en redes sociales. Además, si tienes la oportunidad, considera apoyar a los desarrolladores que hacen disponibles estos software libres y de código abierto para nuestra comunidad con una donación: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Para profundizar tu conocimiento sobre RoninDojo y descubrir más recursos, te recomendamos consultar los enlaces a los recursos externos mencionados a continuación.
+¡Ahí lo tienes! Gracias por seguir este tutorial hasta el final. Si te gustó, te invitamos a compartirlo en redes sociales. Además, si tienes la oportunidad, considera apoyar a los desarrolladores que hacen disponibles estos software libres y de código abierto para nuestra comunidad con una donación: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Para profundizar tu conocimiento sobre RoninDojo y descubrir más recursos, te recomendamos consultar los enlaces a los recursos externos mencionados a continuación.
 
 **Recursos externos:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

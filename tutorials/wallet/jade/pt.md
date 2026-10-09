@@ -39,7 +39,7 @@ Assim que o Jade aparecer no Green, atualize o Jade clicando em Verificar atuali
 
 Depois de atualizar o firmware do Jade, selecione Configurar Jade na política de rede e segurança que você deseja usar.
 
-> Dica: A política de segurança é listada em Tipo na tela de login mostrada abaixo. Se você não tem certeza se deve selecionar Singlesig ou Multisig Shield, consulte nosso guia aqui. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Dica: A política de segurança é listada em Tipo na tela de login mostrada abaixo. Se você não tem certeza se deve selecionar Singlesig ou Multisig Shield, consulte nosso guia aqui. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -191,7 +191,7 @@ Agora você configurou sua carteira com sucesso e pode começar a receber, armaz
 > Nota: Se você estava usando anteriormente o Jade com o Blockstream Green como uma carteira Multisig Shield, não espere que sua nova carteira Sparrow mostre o mesmo saldo - essas são carteiras diferentes. Para acessar sua carteira Multisig Shield novamente, basta reconectar o Jade ao Blockstream Green.
 
 ![image](assets/22.webp)
-source: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+source: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### aplicativo green
 

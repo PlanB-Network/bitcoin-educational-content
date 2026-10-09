@@ -128,4 +128,4 @@ description: Начните майнить биткоин с шансом выи
 Вот некоторые ссылки, если вы хотите узнать больше о теме:
 
 - [Страница проекта NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Полная документация NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Полная документация NerdMiners](https://bitwater.ch/nerd-miner-v2/)

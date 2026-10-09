@@ -243,7 +243,7 @@ Bastiat 告訴我們，合法的掠奪仍有兩種形式：
 
 ### 工業革命的問題
 
-事實上，馬克思主義的分析扭曲了工業革命的歷史現實。路德維希‧馮‧米塞斯（Ludwig von Mises）在他的經濟學論文[_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)中澄清了這個問題（請特別參閱標題為[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)的章節），以及在以[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)為題出版的一系列演講中。(另外值得一讀的《反資本主義心態》[這裡](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) 和 [這裡](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))。
+事實上，馬克思主義的分析扭曲了工業革命的歷史現實。路德維希‧馮‧米塞斯（Ludwig von Mises）在他的經濟學論文[_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)中澄清了這個問題（請特別參閱標題為[Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)的章節），以及在以[_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)為題出版的一系列演講中。(另外值得一讀的《反資本主義心態》[這裡](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) 和 [這裡](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm))。
 
 ![image](assets/zh-Hant/014.webp)
 

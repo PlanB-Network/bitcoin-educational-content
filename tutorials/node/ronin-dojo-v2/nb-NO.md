@@ -40,7 +40,7 @@ Hvis du ikke trenger generalistiske funksjonaliteter eller de relatert til Light
 Nå som vi har skissert RoninDojo, la oss se sammen hvordan man setter opp denne noden.
 
 ## Hvilket maskinvare å velge for å installere RoninDojo v2?
-RoninDojo tilbyr et bilde for automatisk installasjon av programvaren på en [RockPro64](https://ronindojo.io/en/download). Imidlertid fokuserer vår veiledning på den manuelle installasjonsprosedyren på en Raspberry Pi 4. Selv om Raspberry Pi 5 nylig har blitt lansert, og denne veiledningen teoretisk sett skulle være kompatibel med denne nye modellen, har jeg ennå ikke hatt sjansen til å teste den personlig, og jeg har ikke funnet tilbakemeldinger fra samfunnet. Så snart jeg skaffer Pi 5 og kompatible komponenter, vil jeg oppdatere denne veiledningen for å holde deg informert. I mellomtiden anbefaler jeg å prioritere Pi 4, da den fungerer perfekt for min node.
+RoninDojo tilbyr et bilde for automatisk installasjon av programvaren på en [RockPro64](https://ronindojo.io/downloads). Imidlertid fokuserer vår veiledning på den manuelle installasjonsprosedyren på en Raspberry Pi 4. Selv om Raspberry Pi 5 nylig har blitt lansert, og denne veiledningen teoretisk sett skulle være kompatibel med denne nye modellen, har jeg ennå ikke hatt sjansen til å teste den personlig, og jeg har ikke funnet tilbakemeldinger fra samfunnet. Så snart jeg skaffer Pi 5 og kompatible komponenter, vil jeg oppdatere denne veiledningen for å holde deg informert. I mellomtiden anbefaler jeg å prioritere Pi 4, da den fungerer perfekt for min node.
 For min del kjører jeg RoninDojo på en Raspberry Pi utstyrt med 8 GB RAM. Selv om noen medlemmer av samfunnet har klart å få det til å fungere på enheter med bare 4 GB RAM, har jeg ikke testet denne konfigurasjonen selv. Gitt den lille prisforskjellen, virker det klokt å velge 8 GB RAM-versjonen. Dette kan også vise seg nyttig hvis du planlegger å bruke din Raspberry Pi til andre formål i fremtiden.
 Det er viktig å merke seg at RoninDojo-teamene har rapportert om hyppige problemer relatert til kabinettet og SSD-adapteren. Jeg har møtt disse problemene selv. **Derfor anbefales det sterkt å unngå kabinetter utstyrt med en USB-kabel for din nodes SSD.** Foretrekk heller et lagringsutvidelseskort spesifikt designet for din Raspberry Pi:
 
@@ -495,12 +495,12 @@ Angående de andre fanene tilgjengelig på ditt RoninUI-dashboard:
 - `System Info`: Gir generell informasjon om noden din, som CPU-temperatur, bruk av lagringsplass, eller RAM-data. Du vil også finne `Reboot` og `Shut down` alternativene for å starte noden på nytt eller slå den av;
 - `Settings`: Lar deg endre ditt brukerpassord.
 
-Der har du det! Takk for at du fulgte denne veiledningen til slutten. Hvis du likte den, oppfordrer jeg deg til å dele den på sosiale medier. Videre, hvis du har muligheten, vurder å støtte utviklerne som gjør disse gratis og åpen kildekode-programvarene tilgjengelige for vårt samfunn med en donasjon: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). For å fordype din kunnskap om RoninDojo og oppdage flere ressurser, anbefaler jeg sterkt å konsultere lenkene til de eksterne ressursene nevnt nedenfor.
+Der har du det! Takk for at du fulgte denne veiledningen til slutten. Hvis du likte den, oppfordrer jeg deg til å dele den på sosiale medier. Videre, hvis du har muligheten, vurder å støtte utviklerne som gjør disse gratis og åpen kildekode-programvarene tilgjengelige for vårt samfunn med en donasjon: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). For å fordype din kunnskap om RoninDojo og oppdage flere ressurser, anbefaler jeg sterkt å konsultere lenkene til de eksterne ressursene nevnt nedenfor.
 
 **Eksterne ressurser:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

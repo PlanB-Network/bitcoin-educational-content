@@ -58,7 +58,7 @@ Bây giờ chúng ta đã có thể mô tả về RoninDojo, hãy xem cách thi�
 
 Như đã giải thích trước đó, lựa chọn đơn giản nhất là đặt hàng Tanto, một máy plug-and-play được thiết kế đặc biệt cho mục đích này. Để đặt hàng của bạn, hãy vào đây: [link](https://shop.ronindojo.io/product-category/nodes/).
 
-Vì các đội ngũ RoninDojo sản xuất mã nguồn mở, cũng có thể triển khai RoninDojo trên các máy khác. Bạn có thể tìm phiên bản mới nhất của trình hướng dẫn cài đặt trên trang này: [link](https://ronindojo.io/en/downloads.html), và phiên bản mới nhất của mã trên trang này: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Vì các đội ngũ RoninDojo sản xuất mã nguồn mở, cũng có thể triển khai RoninDojo trên các máy khác. Bạn có thể tìm phiên bản mới nhất của trình hướng dẫn cài đặt trên trang này: [link](https://ronindojo.io/downloads), và phiên bản mới nhất của mã trên trang này: [link](https://code.samourai.io/ronindojo/RoninDojo).
 
 Cá nhân tôi, tôi đã cài đặt nó trên một Raspberry Pi 4 8GB và mọi thứ hoạt động hoàn hảo.
 
@@ -80,13 +80,13 @@ Dưới đây là một ví dụ về cách thiết lập node RoninDojo của r
 
 Sau khi bạn đã lắp ráp máy của mình, bạn có thể bắt đầu cài đặt RoninDojo. Để làm điều này, bắt đầu bằng cách tạo một thẻ micro SD khởi động bằng cách ghi hình ảnh đĩa thích hợp vào nó.
 
-Chèn thẻ micro SD của bạn vào máy tính cá nhân, sau đó truy cập trang web chính thức của RoninDojo để tải xuống hình ảnh đĩa RoninOS: https://ronindojo.io/en/downloads.html.
+Chèn thẻ micro SD của bạn vào máy tính cá nhân, sau đó truy cập trang web chính thức của RoninDojo để tải xuống hình ảnh đĩa RoninOS: https://ronindojo.io/downloads.
 Tải xuống hình ảnh đĩa tương ứng với phần cứng của bạn. Trong trường hợp của tôi, tôi đã tải xuống hình ảnh "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 ![Tải xuống hình ảnh đĩa RoninOS](assets/2.webp)
 
 Sau khi hình ảnh được tải xuống, hãy xác minh tính toàn vẹn của nó bằng cách sử dụng tệp .SHA256 tương ứng. Tôi sẽ mô tả chi tiết cách làm điều này trong bài viết này: Làm thế nào để xác minh tính toàn vẹn của phần mềm Bitcoin trên Windows?
 
-Hướng dẫn cụ thể để xác minh tính toàn vẹn của RoninOS cũng có sẵn trên trang này: https://wiki.ronindojo.io/en/extras/verify.
+Hướng dẫn cụ thể để xác minh tính toàn vẹn của RoninOS cũng có sẵn trên trang này: https://docs.ronindojo.io/install/verify-os/.
 
 Để ghi hình ảnh này vào thẻ micro SD của bạn, bạn có thể sử dụng phần mềm như Balena Etcher, mà bạn có thể tải xuống tại đây: https://www.balena.io/etcher/.
 
@@ -339,13 +339,13 @@ Khi bạn thực hiện một CoinJoin với cài đặt Whirlpool, ứng dụng
 
 Một giải pháp cho hạn chế này là sử dụng WhirlpoolCLI trên một máy tính được dự định để luôn bật, chẳng hạn như một node Bitcoin. Với cách này, UTXOs của chúng ta có thể được tái trộn 24/7 mà không cần phải giữ một máy khác ngoài node Bitcoin của chúng ta hoạt động.
 
-WhirlpoolCLI được sử dụng với WhirlpoolGUI, một giao diện đồ họa được cài đặt trên máy tính cá nhân để quản lý Coinjoins một cách dễ dàng. Tôi sẽ giải thích chi tiết cách thiết lập Whirlpool CLI với dojo của riêng bạn trong bài viết này: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI được sử dụng với WhirlpoolGUI, một giao diện đồ họa được cài đặt trên máy tính cá nhân để quản lý Coinjoins một cách dễ dàng. Tôi sẽ giải thích chi tiết cách thiết lập Whirlpool CLI với dojo của riêng bạn trong bài viết này: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
-Để tìm hiểu thêm về Coinjoin nói chung, tôi giải thích mọi thứ trong bài viết này: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+Để tìm hiểu thêm về Coinjoin nói chung, tôi giải thích mọi thứ trong bài viết này: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 ### Sử dụng Công cụ Thống kê Whirlpool.
 
-Sau khi thực hiện CoinJoins với Whirlpool, bạn có thể muốn biết mức độ riêng tư thực sự của UTXOs đã trộn của mình. Công cụ Thống kê Whirlpool cho phép bạn dễ dàng làm điều này. Với công cụ này, bạn có thể tính điểm triển vọng và điểm hồi tưởng của UTXOs đã trộn của mình. Để tìm hiểu thêm về cách tính các Anon Sets và cách chúng hoạt động, tôi khuyên bạn đọc phần này: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Sau khi thực hiện CoinJoins với Whirlpool, bạn có thể muốn biết mức độ riêng tư thực sự của UTXOs đã trộn của mình. Công cụ Thống kê Whirlpool cho phép bạn dễ dàng làm điều này. Với công cụ này, bạn có thể tính điểm triển vọng và điểm hồi tưởng của UTXOs đã trộn của mình. Để tìm hiểu thêm về cách tính các Anon Sets và cách chúng hoạt động, tôi khuyên bạn đọc phần này: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 Công cụ này được cài đặt sẵn trên RoninDojo của bạn. Hiện tại, nó chỉ có sẵn từ RoninCLI. Để khởi chạy nó từ menu chính, đi đến:
 
@@ -402,7 +402,7 @@ WST sau đó sẽ hiển thị điểm số hồi tưởng (Backward-looking met
 
 Xin lưu ý rằng điểm số tiềm năng của UTXO của bạn được tính dựa trên TXID của lần trộn đầu tiên của bạn, không phải lần trộn cuối cùng. Ngược lại, điểm số hồi tưởng của một UTXO được tính dựa trên TXID của chu kỳ cuối cùng.
 
-Một lần nữa, nếu bạn không hiểu những khái niệm này về Anon Sets, tôi khuyên bạn đọc phần này của bài viết của tôi về Coinjoin nơi tôi giải thích mọi thứ chi tiết với sơ đồ: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Một lần nữa, nếu bạn không hiểu những khái niệm này về Anon Sets, tôi khuyên bạn đọc phần này của bài viết của tôi về Coinjoin nơi tôi giải thích mọi thứ chi tiết với sơ đồ: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Sử dụng máy tính Boltzmann.
 
@@ -641,7 +641,7 @@ Chúng ta đã xem cách cài đặt và bắt đầu sử dụng công cụ tuy
 
 Nếu việc sử dụng terminal không làm bạn sợ hãi và nếu bạn không cần các công cụ liên quan đến Mạng Lôi Điện, thì RoninDojo có thể hấp dẫn bạn.
 
-Nếu bạn có thể, hãy xem xét quyên góp cho các nhà phát triển, những người tự do sản xuất phần mềm mã nguồn mở này cho bạn: https://donate.ronindojo.io/
+Nếu bạn có thể, hãy xem xét quyên góp cho các nhà phát triển, những người tự do sản xuất phần mềm mã nguồn mở này cho bạn: https://docs.ronindojo.io/main/donations/
 
 Để tìm hiểu thêm về RoninDojo, tôi khuyên bạn nên xem các liên kết trong tài nguyên bên ngoài dưới đây của tôi.
 
@@ -658,5 +658,5 @@ Nếu bạn có thể, hãy xem xét quyên góp cho các nhà phát triển, nh
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/giới thiệu-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

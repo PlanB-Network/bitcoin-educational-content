@@ -639,7 +639,7 @@ SwapMarket облегчает проведение обменов Bitcoin/Lightn
 
 - [SwapMarket - веб-приложение](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Техническая документация](https://docs.boltz.exchange/)
+- [Техническая документация](https://github.com/BoltzExchange/boltz-backend)
 - [Руководство по самостоятельному размещению](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

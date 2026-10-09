@@ -57,7 +57,7 @@ Jade cihazınız Green'te göründüğünde, Güncellemeleri kontrol et seçene�
 Jade'in aygıt yazılımını güncelledikten sonra, kullanmak istediğiniz ağ ve güvenlik politikasında Jade'i Kur'u seçin.
 
 
-**İpucu:** Güvenlik politikası, aşağıda gösterilen giriş ekranında Tür altında listelenmiştir. Singlesig'i mi yoksa Multisig Shield'i mi seçeceğinizden emin değilseniz, lütfen kılavuzumuzu inceleyin [burada](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**İpucu:** Güvenlik politikası, aşağıda gösterilen giriş ekranında Tür altında listelenmiştir. Singlesig'i mi yoksa Multisig Shield'i mi seçeceğinizden emin değilseniz, lütfen kılavuzumuzu inceleyin [burada](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Artık Wallet'nizi başarıyla kurdunuz ve Bitcoin'inizi Sparrow ve Blockstream 
 ![image](assets/22.webp)
 
 
-kaynak: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+kaynak: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Green uygulaması

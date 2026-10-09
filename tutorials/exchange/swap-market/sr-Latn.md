@@ -639,7 +639,7 @@ Konkurencija između provajdera poboljšava stope i umnožava izvore likvidnosti
 
 - [SwapMarket - Web aplikacija](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tehnička dokumentacija](https://docs.boltz.exchange/)
+- [Tehnička dokumentacija](https://github.com/BoltzExchange/boltz-backend)
 - [Vodič za samostalno hostovanje](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

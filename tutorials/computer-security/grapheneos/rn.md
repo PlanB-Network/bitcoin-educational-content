@@ -162,7 +162,7 @@ Ivyo bibiri gusa ushobora kuba utazi ni 'Auditor' na 'Vanadium'.
 
 
 
-- [Iporogarama y’umugenzuzi](https://play.google.com/store/apps/details?id=app.attestation.auditor) ikoresha ibintu vy’umutekano bishingiye ku bikoresho kugira ngo yemeze akaranga k’igikoresho hamwe n’ukuri n’ubutungane bwa sisitemu ikoresha. Izosuzuma ko igikoresho kiriko kirakoresha ubuhinga bwo gukoresha ubuhinga bwa stock, bootloader ikaba ipfungiwe kandi ko ata n’umwe yahinduye ubuhinga bwo gukoresha ubuhinga bwa none.
+- [Iporogarama y’umugenzuzi](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) ikoresha ibintu vy’umutekano bishingiye ku bikoresho kugira ngo yemeze akaranga k’igikoresho hamwe n’ukuri n’ubutungane bwa sisitemu ikoresha. Izosuzuma ko igikoresho kiriko kirakoresha ubuhinga bwo gukoresha ubuhinga bwa stock, bootloader ikaba ipfungiwe kandi ko ata n’umwe yahinduye ubuhinga bwo gukoresha ubuhinga bwa none.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) ni ubuzima bwite n'umutekano bikomeye vy'umucukumbuzi w'urubuga rwa Chromium.
 
 
@@ -435,7 +435,7 @@ Ibubamfu: Breezy Weather, Iburyo: Ikirangamisi ca Proton
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) itanga umuti w’ijambobanga ry’ubuhinga bwa none ku bikoresho vyawe vyose ku buntu kandi E2EE. Servisi yabo yishurwa iratuma ushobora gushiramwo ama code ya 2FA muri app. Uruhande rwa server rwa Bitwarden rushobora kwiyakira kandi porogarama ya Android iraboneka biciye kuri F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) itanga umuti w’ijambobanga ry’ubuhinga bwa none ku bikoresho vyawe vyose ku buntu kandi E2EE. Servisi yabo yishurwa iratuma ushobora gushiramwo ama code ya 2FA muri app. Uruhande rwa server rwa Bitwarden rushobora kwiyakira kandi porogarama ya Android iraboneka biciye kuri F-Droid.
 - [Proton Pass](Proton Pass](https://proton.me/pass/download) itanga ubuhinga nk’ubwo ku buntu kuri Bitwarden, ariko [Proton Unlimited](Proton Unlimited](Igiciro) abakiriya barashobora kuronka ibindi bikoresho vy’ubuhinga buhanitse. Ivyo bishobora gukoreshwa kuri APK canke kuri Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) ni porogaramu y’ukwemeza ibintu bibiri ku mirongo ikoresha amasezerano y’ijambobanga ry’igihe kimwe. Ivyiyumviro birashobora kwongerwako bitagoranye mu gucapura kode ya QR. OTP y’ubuntu iraboneka kuri F-Droid.
 - [Aegis](https://f-droid.org/ru/packages/com.beemdevelopment.aegis/) ni porogaramu y’ubuntu, itekanye kandi y’inkomoko yuguruye ya Android kugira ngo ushobore gucunga ibimenyetso vyawe vy’intambwe 2 vyo kugenzura ibikorwa vyawe vyo kuri interineti. Aegis iraboneka kuri F-Droid.

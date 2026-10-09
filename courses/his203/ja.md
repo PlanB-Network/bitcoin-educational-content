@@ -523,7 +523,7 @@ Gawkerの記事は当局の注目も集めた。掲載から数日後の6月5日
 2011年3月1日、送金が正式に行われようとした矢先、サイトのwallet.datファイルへの悪意あるアクセスのおかげで、80,000ビットコインが[蒸発](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114)して空中に消えてしまった。3日、Jed McCalebが引き出しに気づき、IRCでMarkに「何か悪いことが起こった」と[知らせ](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2)ました。それは大きな損失であり（当時1ビットコインは0.92ドルで売られていた）、その後の前例のない価格上昇に伴い、ますます大きくなっていった。
 
 
-この問題については、4月18日にジェドがマークへのメールの中で[言及している](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)：
+この問題については、4月18日にジェドがマークへのメールの中で[言及している](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)：
 
 
 > "価格が100ドルになったりしたら、BTCの8万ドルが不足することがどれだけ大きな問題になるか分からない。BTC（Bitcoin）が$100とかになったら、BTC（Bitcoin）が$80k足りなくなるのがどれだけ大きな問題になるかわからない。BTC(Bitcoin)の残高が8万ドルを下回ることはないだろうという事実もまだある。だから、本当に心配する必要はないかもしれない。"
@@ -608,7 +608,7 @@ Bitcoin Market（HIS201で言及）を除けば、Mt.Goxと本当に競合した
 
 
 
-東欧では、ポーランドを拠点とするBitomatプラットフォームが4月4日に[ローンチ](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871)された。インターフェースは初歩的だったが、ポーランドのユーザーはズロチをビットコインに交換することができた。また、カナダで7月2日に[開設](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)されたCavirtexも注目に値する。
+東欧では、ポーランドを拠点とするBitomatプラットフォームが4月4日に[ローンチ](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166)された。インターフェースは初歩的だったが、ポーランドのユーザーはズロチをビットコインに交換することができた。また、カナダで7月2日に[開設](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)されたCavirtexも注目に値する。
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinicaは2011年9月8日、17歳の中国人少年、周桐（Zhou Tong）�
 
 
 
-しばらくして登場したもうひとつのプロジェクトがMPExで、ミルチャ・ポペスクという非常に物議を醸す人物が創作したものだった。ルーマニア人、トランシルヴァニア出身の彼は、自身のブログ[Trilema](http://trilema.com/archives-categories/)で多作な文章を書いていた。あらゆるテーマ（哲学、政治、セクシュアリティ）について、意図的に挑発的なスタイルで、最初はルーマニア語で書いていた。2011年夏、彼はBitcoinに興味を持ち、ブログでそれについて[語り](http://trilema.com/2011/ce-este-bitcoin/)始めた。
+しばらくして登場したもうひとつのプロジェクトがMPExで、ミルチャ・ポペスクという非常に物議を醸す人物が創作したものだった。ルーマニア人、トランシルヴァニア出身の彼は、自身のブログ[Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/)で多作な文章を書いていた。あらゆるテーマ（哲学、政治、セクシュアリティ）について、意図的に挑発的なスタイルで、最初はルーマニア語で書いていた。2011年夏、彼はBitcoinに興味を持ち、ブログでそれについて[語り](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/)始めた。
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinicaは2011年9月8日、17歳の中国人少年、周桐（Zhou Tong）�
 
 
 
-2012年2月末、彼は株式と債券の発行による[資金調達](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)を進め、3,200ビットコイン以上、当時で約16,000ドルを調達した。4月11日、ベータ段階を経て、プラットフォームは[ついに](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954)様々な株式の発行と取引を可能にするビットコイン取引所となり、MPEx(「Mircea Popescu's Exchange」の意)と改名された。
+2012年2月末、彼は株式と債券の発行による[資金調達](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)を進め、3,200ビットコイン以上、当時で約16,000ドルを調達した。4月11日、ベータ段階を経て、プラットフォームは[ついに](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954)様々な株式の発行と取引を可能にするビットコイン取引所となり、MPEx(「Mircea Popescu's Exchange」の意)と改名された。
 
 
 
@@ -1484,7 +1484,7 @@ Bitcoinの使いやすさを改善する努力は、*決定論的wallet*の出�
 
 
 
-*2006年のGregory Maxwell（出典：[ウィキメディア](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp)*。
+*2006年のGregory Maxwell（出典：[ウィキメディア](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg)*。
 
 
 
@@ -1724,7 +1724,7 @@ Coldの保管は、秘密鍵をUSBメモリなどのデジタル・バックア�
 
 
 
-*2011年、カサシウスの最初のビットコイン（出典：Casascius：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*2011年、カサシウスの最初のビットコイン（出典：Casascius：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Bitcoinのブロックチェーンと同様に、[ピアツーピア](https://pl
 
 
 
-*Sharechainの可視化（ソースはこちら：Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*.
+*Sharechainの可視化（ソースはこちら：Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*.
 
 
 
@@ -2106,7 +2106,7 @@ Satoshi Nakamotoが去った後、ソフトウェア開発はコミュニティ�
 
 
 
-*2012年2月のBitcoin-Qt 0.5.2のキャプチャ（ソースはこちら：[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
+*2012年2月のBitcoin-Qt 0.5.2のキャプチャ（ソースはこちら：[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) for Wikimedia)*
 
 
 

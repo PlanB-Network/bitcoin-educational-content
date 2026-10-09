@@ -170,7 +170,7 @@ Aha niho hari ibikorwa bibiri vya LSP:
 LSP ifasha guhuza abakoresha na Lightning Network mu gufungura inzira zo kwishura ku nzira zabo. [Soma ibindi ku vyerekeye LSP hano](https://ubuhinga-bw’umuyaga/gushushanya-lsps-mu-butunzi-bw’umuravyo-832b45871992). ZEUS ifise LSP nshasha yinjijwe muri yo yitwa [OLYMPUS na ZEUS](https://Mempool.ikibanza/umuravyo/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d749748930) ni uwushobora gukoresha bose. n'urudodo rushasha rwinjijwe.
 
 
-Muri iki gice, ku buryo busanzwe ni LSP ya Olympus (https://0conf.lnolymp.us), ariko vuba ushobora no gushinga iyindi LSP 0conf ishigikira iyi porotokole.
+Muri iki gice, ku buryo busanzwe ni LSP ya Olympus (https://flow.zeuslsp.com), ariko vuba ushobora no gushinga iyindi LSP 0conf ishigikira iyi porotokole.
 
 
 _Muzirikane:_

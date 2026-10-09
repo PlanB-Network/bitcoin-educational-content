@@ -523,7 +523,7 @@ Takip eden aylarda Jed, Mark'ın platformu yönetmesine yardımcı olmaya devam 
 1 Mart 2011'de, tam transfer resmileşmek üzereyken, sitenin wallet.dat dosyasına kötü niyetli erişim sayesinde 80.000 bitcoin [buharlaşarak](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) havaya uçtu. Ayın 3'ünde Jed McCaleb para çekildiğini fark etti ve IRC üzerinden Mark'a "kötü bir şey olduğunu" [bildirdi](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2). Bu büyük bir kayıptı (o sırada bir bitcoin 0,92 dolara satılıyordu) ve sonraki aylarda fiyattaki benzeri görülmemiş artışla birlikte daha da büyüyecekti.
 
 
-Bu sorun Jed tarafından 18 Nisan'da Mark'a gönderdiği bir e-postada [dile getirilmiştir] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox):
+Bu sorun Jed tarafından 18 Nisan'da Mark'a gönderdiği bir e-postada [dile getirilmiştir] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox):
 
 
 > "Fiyat 100 dolara falan çıkarsa 80 bin BTC'un eksik olmasının ne kadar büyük bir sorun olacağını söyleyemem. Bu noktada borçlu olmak oldukça fazla ama mtgox'un oraya ulaşmak için bir ton BTC (Bitcoin) yapmış olması gerekirdi. Ayrıca BTC (Bitcoin) bakiyesinin muhtemelen hiçbir zaman 80 binin altına düşmeyeceği gerçeği de var. Yani belki de bu konuda gerçekten endişelenmenize gerek yoktur."
@@ -608,7 +608,7 @@ Nisan ayında üç adam, yazılım geliştirme ve teknik danışmanlık sunan [B
 
 
 
-Doğu Avrupa'da, Polonya merkezli Bitomat platformu 4 Nisan'da [lanse edildi] (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871). Arayüz ilkeldi, ancak Polonyalı kullanıcıların zlotilerini bitcoinlerle değiştirmelerine izin verdi. Ayrıca Kanada'da faaliyet gösteren Cavirtex, 2 Temmuz'da [açıldı](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448).
+Doğu Avrupa'da, Polonya merkezli Bitomat platformu 4 Nisan'da [lanse edildi] (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166). Arayüz ilkeldi, ancak Polonyalı kullanıcıların zlotilerini bitcoinlerle değiştirmelerine izin verdi. Ayrıca Kanada'da faaliyet gösteren Cavirtex, 2 Temmuz'da [açıldı](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448).
 
 
 
@@ -1270,7 +1270,7 @@ Buna rağmen GLBSE çalışmaya devam etti. Sonbaharın başlarında, 30 kadar v
 
 
 
-Bir süre sonra ortaya çıkan bir başka proje de Mircea Popescu adında oldukça tartışmalı bir figürün yarattığı MPEx idi. Aslen Transilvanya'dan olan Romanyalı, [Trilema](http://trilema.com/archives-categories/) blogunda üretken bir yazardı: her konuda (felsefe, politika, cinsellik), kasıtlı olarak kışkırtıcı bir üslupla, başlangıçta Romence yazıyordu. Bitcoin ile 2011 yazında ilgilenmeye başladı ve blogunda bu konu hakkında [konuşmaya](http://trilema.com/2011/ce-este-bitcoin/) başladı.
+Bir süre sonra ortaya çıkan bir başka proje de Mircea Popescu adında oldukça tartışmalı bir figürün yarattığı MPEx idi. Aslen Transilvanya'dan olan Romanyalı, [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) blogunda üretken bir yazardı: her konuda (felsefe, politika, cinsellik), kasıtlı olarak kışkırtıcı bir üslupla, başlangıçta Romence yazıyordu. Bitcoin ile 2011 yazında ilgilenmeye başladı ve blogunda bu konu hakkında [konuşmaya](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) başladı.
 
 
 
@@ -1286,7 +1286,7 @@ Ağustos ayında Mircea, [sunduğu](https://web.archive.org/web/20110824221522/h
 
 
 
-Şubat 2012'nin sonunda, hisse senedi ve tahvil ihraç ederek 3.200'den fazla bitcoin veya o sırada yaklaşık 16.000 dolar toplayarak bir [kaynak yaratma](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) sürecine girdi. 11 Nisan'da, bir beta aşamasından sonra, platform [nihayet](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) çeşitli hisse senetlerinin çıkarılmasına ve ticaretine izin veren bir bitcoin borsası haline geldi ve MPEx ("Mircea Popescu's Exchange" için) olarak yeniden adlandırıldı.
+Şubat 2012'nin sonunda, hisse senedi ve tahvil ihraç ederek 3.200'den fazla bitcoin veya o sırada yaklaşık 16.000 dolar toplayarak bir [kaynak yaratma](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) sürecine girdi. 11 Nisan'da, bir beta aşamasından sonra, platform [nihayet](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) çeşitli hisse senetlerinin çıkarılmasına ve ticaretine izin veren bir bitcoin borsası haline geldi ve MPEx ("Mircea Popescu's Exchange" için) olarak yeniden adlandırıldı.
 
 
 
@@ -1484,7 +1484,7 @@ Deterministik wallet'ler büyük ölçüde Amerikalı geliştirici Gregory Maxwe
 
 
 
-*2006 yılında Gregory Maxwell (kaynak: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*2006 yılında Gregory Maxwell (kaynak: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Casascius 19 Ağustos'ta "bitcoin'in gerçek fiziksel temsillerini" üretme plan
 
 
 
-*Casascius'un 2011'deki ilk bitcoinleri (kaynak: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius'un 2011'deki ilk bitcoinleri (kaynak: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Model [relied] (https://im.forre.st/pb/85341005.txt), Bitcoin'nin blok zincirine
 
 
 
-*Sharechain görselleştirme (kaynak: Gregory Maxwell için [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain görselleştirme (kaynak: Gregory Maxwell için [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Yazılımın 0.4 sürümünün 23 Eylül'de yayınlanmasının ardından, Gavin 
 
 
 
-*Şubat 2012'de Bitcoin-Qt 0.5.2'nin yakalanması (kaynak: wikimedia için [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp))*
+*Şubat 2012'de Bitcoin-Qt 0.5.2'nin yakalanması (kaynak: wikimedia için [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png))*
 
 
 

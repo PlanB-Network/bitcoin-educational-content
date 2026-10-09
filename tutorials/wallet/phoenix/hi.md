@@ -38,7 +38,7 @@ description: फीनिक्स Wallet को स्थापित करन
 
 
 
-- [गूगल प्ले स्टोर](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet) पर;
+- [गूगल प्ले स्टोर](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet) पर;
 - [ऐप स्टोर](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB) पर।
 
 

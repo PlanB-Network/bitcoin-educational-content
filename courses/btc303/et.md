@@ -755,7 +755,7 @@ Seda on võimatu öelda, kuid me teame mõningaid asju:
 - Kui plokkide toetus on null ja Mempool on tühi või peaaegu tühi, võib asi muutuda tasude kärpimise tõttu ebakindlaks.
 
 
-Kuna üleminek ainult tasu eest makstavale Block reward-le on nii kaugel tulevikus, oleks ehk mõistlik mitte teha ennatlikke järeldusi ja püüda võimalikke probleeme lahendada, kuni me veel saame. Näiteks Peter Todd arvab, et on olemas tegelik oht, et Bitcoin turvalisuse eelarve ei ole tulevikus piisav, ja sellest tulenevalt pooldab ta Bitcoin väikest igikestvat inflatsiooni. Samas arvab ta ka, et praegu ei ole hea mõte sellist küsimust arutada, nagu [ta ütles What Bitcoin Did podcastis](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Kuna üleminek ainult tasu eest makstavale Block reward-le on nii kaugel tulevikus, oleks ehk mõistlik mitte teha ennatlikke järeldusi ja püüda võimalikke probleeme lahendada, kuni me veel saame. Näiteks Peter Todd arvab, et on olemas tegelik oht, et Bitcoin turvalisuse eelarve ei ole tulevikus piisav, ja sellest tulenevalt pooldab ta Bitcoin väikest igikestvat inflatsiooni. Samas arvab ta ka, et praegu ei ole hea mõte sellist küsimust arutada, nagu [ta ütles What Bitcoin Did podcastis](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Kuid see on risk, mis jääb 10, 20 aasta kaugusele. See on väga pikk aeg. Ja kes kurat teab siis, millised on riskid?
@@ -851,7 +851,7 @@ Aaron van Wirdum kirjeldab seda käänulist teed oma Bitcoin Magazine'i artiklis
 
 > Shaolinfry pakkus välja alternatiivi: kasutaja aktiveeritud Soft Fork (UASF). Hash võimsuse aktiveerimise asemel oleks kasutaja aktiveeritud Soft Fork puhul ""lipupäeva aktiveerimine", kus sõlmede jõustamine algab eelnevalt kindlaks määratud ajal tulevikus" Niikaua kui selline UASF jõustatakse majandusliku enamuse poolt, peaks see sundima enamikku kaevandajatest järgima (või aktiveerima) Soft Fork.
 
-Muuhulgas tsiteerib ta Shaolinfry e-kirja Bitcoin-dev postiloendis. Sel korral väitis Shaolinfry [Miner aktiveeritud Soft hargnemiste vastu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), loetledes mitmeid nendega seotud probleeme:
+Muuhulgas tsiteerib ta Shaolinfry e-kirja Bitcoin-dev postiloendis. Sel korral väitis Shaolinfry [Miner aktiveeritud Soft hargnemiste vastu](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/), loetledes mitmeid nendega seotud probleeme:
 
 
 > Esiteks, see eeldab, et Hash võimsus kinnitatakse pärast aktiveerimist.  BIP66 Soft Fork oli juhtum, kus 95% Hashrate andis valmisolekut märku, kuid tegelikkuses umbes pool ei valideerinud tegelikult uuendatud reegleid ja kaevandas kogemata kehtetu ploki peale.
@@ -884,7 +884,7 @@ Pärast SegWit kasutuselevõttu tekkis arutelu kasutuselevõtu mehhanismide üle
 
 > Mingil hetkel tahame tõenäoliselt lisada Bitcoin protokollile rohkem funktsioone. See on suur filosoofiline küsimus, mida me endale esitame. Kas me teeme järgmiseks UASF-i? Kuidas oleks hübriidne lähenemine? Miner, mis on iseenesest aktiveeritud, on välistatud. bip9 me ei kavatse enam kasutada.
 
-2020. aasta jaanuaris saatis Matt Corallo [e-kirja](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) Bitcoin-dev postiloendisse, mis käivitas arutelu Soft Fork tulevaste kasutuselevõtumehhanismide üle. Ta loetles viis eesmärki, mida ta pidas uuenduse puhul oluliseks. David Harding [võtab need Bitcoin Optechi uudiskirjas](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kokku järgmiselt:
+2020. aasta jaanuaris saatis Matt Corallo [e-kirja](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) Bitcoin-dev postiloendisse, mis käivitas arutelu Soft Fork tulevaste kasutuselevõtumehhanismide üle. Ta loetles viis eesmärki, mida ta pidas uuenduse puhul oluliseks. David Harding [võtab need Bitcoin Optechi uudiskirjas](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kokku järgmiselt:
 
 
 > Võimalus katkestada, kui on tõsiseid vastuväiteid kavandatud konsensusreeglite muudatuste kohta . Piisava aja eraldamine pärast uuendatud tarkvara vabastamist, et tagada, et enamik majandussõlmi on nende reeglite jõustamiseks ajakohastatud . Ootus, et võrgu Hash määr on enne ja pärast muudatust ning ka ülemineku ajal ligikaudu sama . Võimalikult suures ulatuses vältida uute reeglite kohaselt kehtetute plokkide loomist, mis võib põhjustada valekinnitusi uuendamata sõlmedes ja SPV-klientides . Kindlustus, et kurjategijad või partisanid ei saa katkestusmehhanisme kuritarvitada, et hoida tagasi laialdaselt soovitud uuendust, mille puhul ei ole teadaolevaid probleeme
@@ -956,7 +956,7 @@ Nende seitsme kuu jooksul jätkus arutelu ja tundus, et ei suudetud jõuda laiap
 
 "Vaatame, mis juhtub" lähenemine näis lõpuks inimeste mõtetes klappivat. Hiljem nimetati seda protsessi selle lühikese märgistusperioodi tõttu "Speedy Trial" (kiirmenetlus). David Harding selgitab seda ideed laiemale üldsusele ühes
 
-[e-kiri Bitcoin-dev postiloendis](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[e-kiri Bitcoin-dev postiloendis](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Selle ettepaneku varasem versioon dokumenteeriti üle 200 päeva tagasi ja Taproot aluseks olev kood liideti Bitcoin Core'ile üle 140 päeva tagasi.Kui me oleksime alustanud Speedy Trial'i ajal, kui Taproot liideti (mis on veidi ebareaalne), oleksime Taproot valmimisest vähem kui kaks kuud eemal või oleksime üle kuu aja tagasi liikunud järgmise aktiveerimiskatse juurde.
 >
@@ -1380,7 +1380,7 @@ Ettevõtted, üksikisikud ja organisatsioonid, kes on huvitatud Bitcoin jätkuva
 Inimestele jääb mõnikord mulje, et Bitcoin arendajate seas on palju sisevõitlusi ja lõputuid tuliseid arutelusid ning et nad on võimetud otsuseid tegema.
 
 
-Näiteks Taproot kasutuselevõtumehhanismi üle arutati pikka aega, mille jooksul moodustusid kaks "laagrit". Üks tahtis "ebaõnnestuda" uuenduse puhul, kui [kaevurid](https://planb.academy/resources/glossary/miner) ei olnud pärast teatud hetke ülekaalukalt uute reeglite poolt hääletanud, samas kui teine tahtis reegleid pärast seda hetke igatahes jõustada. Michael Folkson võtab kahe leeri argumendid kokku [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) postiloendis Bitcoin-dev.
+Näiteks Taproot kasutuselevõtumehhanismi üle arutati pikka aega, mille jooksul moodustusid kaks "laagrit". Üks tahtis "ebaõnnestuda" uuenduse puhul, kui [kaevurid](https://planb.academy/resources/glossary/miner) ei olnud pärast teatud hetke ülekaalukalt uute reeglite poolt hääletanud, samas kui teine tahtis reegleid pärast seda hetke igatahes jõustada. Michael Folkson võtab kahe leeri argumendid kokku [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) postiloendis Bitcoin-dev.
 
 
 Arutelu kestis näiliselt igavesti ja see oli tõesti Hard, et näha, et selles küsimuses kujuneb üksmeel lähiajal. See tekitas inimestes pettumust ja selle tulemusena süvenes kuumus. Gregory Maxwell (kasutajana nullc) muretses [Redditis](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3), et pikad arutelud muudavad uuenduse vähem turvaliseks:
@@ -1482,7 +1482,7 @@ Diskussioonid skaalumise üle saavutasid oma kõrgpunkti umbes aastatel 2015-201
 2015. aastal toimus Montrealis konverents [Scaling Bitcoin](https://scalingbitcoin.org/), mille järelkonverents toimus kuus kuud hiljem Hongkongis ja seejärel mitmes teises kohas üle maailma. Keskenduti just sellele, kuidas Address skaleerida. Paljud Bitcoin arendajad ja teised entusiastid kogunesid nendele konverentsidele, et arutada erinevaid skaleerimisküsimusi ja -ettepanekuid. Enamik neist aruteludest ei keerelnud mitte plokkide suuruse suurendamise, vaid pikemaajaliste lahenduste ümber.
 
 
-Pärast Hongkongi konverentsi 2015. aasta detsembris võttis Gregory Maxwell [oma seisukoha](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) kokku paljude arutlusel olnud küsimuste kohta, alustades mõnest üldisest skaalamisfilosoofiast:
+Pärast Hongkongi konverentsi 2015. aasta detsembris võttis Gregory Maxwell [oma seisukoha](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) kokku paljude arutlusel olnud küsimuste kohta, alustades mõnest üldisest skaalamisfilosoofiast:
 
 
 > Olemasoleva tehnoloogia puhul on olemas põhimõttelised kompromissid mastaabi ja detsentraliseerimise vahel. Kui süsteem on liiga kulukas, on inimesed sunnitud usaldama kolmandaid osapooli, selle asemel et iseseisvalt süsteemi reegleid jõustada. Kui Bitcoin Blockchain ressursikasutus võrreldes olemasoleva tehnoloogiaga on liiga suur, kaotab Bitcoin oma konkurentsieelised võrreldes vanade süsteemidega, sest valideerimine muutub liiga kulukaks (hinnates paljud kasutajad välja), mis sunnib usaldust tagasi süsteemi.  Kui võimsus on liiga väike ja meie tehingumeetodid liiga ebatõhusad, on juurdepääs ahelale vaidluste lahendamiseks liiga kulukas, mis jällegi surub usalduse tagasi süsteemi.
@@ -1730,7 +1730,7 @@ haavatavused. Häkkerid ja arvutiturvalisuse teadlased on seisukohal, et nende s
 See tähendab, et kui leiate turvaprobleemi, peaksite sellest teatama süsteemi eest vastutavale meeskonnale. Kuid mida see tähendab Bitcoin kontekstis? Keegi ei kontrolli Bitcoin, kuid praegu on olemas Bitcoin arenduse keskpunkt, nimelt [Bitcoin Core Githubi repositoorium](https://github.com/Bitcoin/Bitcoin). Kõnealuse repositooriumi hooldajad vastutavad seal oleva koodi eest, kuid nad ei vastuta süsteemi kui terviku eest - keegi ei vastuta. Sellegipoolest on üldine parim tava saata e-kiri aadressile security@bitcoincore.org.
 
 
-2017. aasta [e-posti teemas](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) pealkirjaga "Vastutustundlik vigade avalikustamine" üritas Anthony Towns kokku võtta, mida ta pidas praeguseks parimaks tavaks. Ta oli kogunud sisendit mitmest allikast ja erinevatelt inimestelt, et anda oma seisukohale sel teemal teavet.
+2017. aasta [e-posti teemas](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) pealkirjaga "Vastutustundlik vigade avalikustamine" üritas Anthony Towns kokku võtta, mida ta pidas praeguseks parimaks tavaks. Ta oli kogunud sisendit mitmest allikast ja erinevatelt inimestelt, et anda oma seisukohale sel teemal teavet.
 
 
 
@@ -1753,12 +1753,12 @@ See tähendab, et kui leiate turvaprobleemi, peaksite sellest teatama süsteemi 
 See nimekiri näitab, kui ettevaatlik tuleb olla Bitcoin paranduste avaldamisel, sest parandused ise võivad haavatavuse ära anda. Neljas punkt on eriti huvitav, sest seal selgitatakse, kuidas testida, kas parandus on piisavalt hästi varjatud. Tõepoolest, kui mõned tõesti kogenud arendajad ei suuda haavatavust märgata isegi teadmisega, et parandus parandab seda, siis tõenäoliselt on teistel tõesti Hard seda avastada.
 
 
-Teema, mis viis selle e-kirjani, käsitles seda, kas, millal ja kuidas avalikustada haavatavusi altcoinidele ja teistele Bitcoin rakendustele. Siin ei ole selget vastust. "Heade poiste aitamine" tundub olevat mõistlik, kuid kes otsustab, kes need on ja kuhu tõmmatakse piir? Bryan Bishop [väitis](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html), et altcoinide ja isegi scamcoinide kaitsmine turvaaukude vastu on moraalne kohustus:
+Teema, mis viis selle e-kirjani, käsitles seda, kas, millal ja kuidas avalikustada haavatavusi altcoinidele ja teistele Bitcoin rakendustele. Siin ei ole selget vastust. "Heade poiste aitamine" tundub olevat mõistlik, kuid kes otsustab, kes need on ja kuhu tõmmatakse piir? Bryan Bishop [väitis](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/), et altcoinide ja isegi scamcoinide kaitsmine turvaaukude vastu on moraalne kohustus:
 
 
 > Ei piisa Bitcoin ja selle kasutajate kaitsmisest aktiivsete ohtude eest, on üldisem vastutus kaitsta igasuguseid kasutajaid ja erinevat tarkvara igasuguste ohtude eest, ükskõik millises vormis, isegi kui inimesed kasutavad rumalat ja ebaturvalist tarkvara, mida te isiklikult ei halda ega toeta ega propageeri. Haavatavuse teadasaamine on delikaatne asi ja te võite saada teadasaamist, millel on tõsisemad otsesed või kaudsed tagajärjed kui algselt kirjeldatud.
 
-Eespool toodud Towni e-kirjale eelnes ka Gregory Maxwelli [postitus](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html), milles ta väitis, et turvaaukud võivad olla tõsisemad, kui nad paistavad:
+Eespool toodud Towni e-kirjale eelnes ka Gregory Maxwelli [postitus](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/), milles ta väitis, et turvaaukud võivad olla tõsisemad, kui nad paistavad:
 
 
 > Ma olen mitu korda näinud Hard kasutada küsimus osutub triviaalseks, kui leiate õige trikk, või väike dos küsimus omakorda meie palju tõsisemaks.
@@ -2031,7 +2031,7 @@ Piirangutähis aktiveeriti 4. juulil 2015. Kuigi eespool öeldu vastab tõele, p
 
 Selle küsimuse täielik avalikustamine avaldati 28. juulil 2015 Pieter Wuille'i poolt välja antud
 
-[e-kiri Bitcoin-dev postiloendis](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[e-kiri Bitcoin-dev postiloendis](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Tere kõigile,
@@ -2066,7 +2066,7 @@ BIP66-i ümbritsevate sündmuste ajakava. Mustas kirjas olevad punktid on selgit
 Ilma, et keegi oleks sellest probleemist teadlik olnud, oleks seda saanud lahendada nüüdseks laialivalgunud BIP62, mis oli ettepanek vähendada tehingu vormistamise võimalusi. BIP62 kavandatavate muudatuste hulgas oli allkirjade kodeerimise konsensusreeglite karmistamine ehk "range [DER](https://planb.academy/resources/glossary/der)-kodeerimine". Pieter Wuille pakkus 2014. aasta juulis välja mõned parandused BIPi, mis oleksid probleemi lahendanud:
 
 
-> 2014-Jul-18: Selleks, et Bitcoin allkirjade kodeerimise eeskirjad ei sõltuks OpenSSLi spetsiifilisest parserist, muutsin BIP62 ettepanekut nii, et selle range DER-allkirjade nõue kehtiks ka 1. versiooni tehingute suhtes. Sel ajal ei kaevandatud enam mitte-DER-allkirju plokkidesse, seega eeldati, et sellel ei ole mingit mõju. Vt https://github.com/Bitcoin/bips/pull/90 ja http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Sel ajal ei olnud teada, kuid kui see oleks kasutusele võetud, oleks see lahendanud haavatavuse.
+> 2014-Jul-18: Selleks, et Bitcoin allkirjade kodeerimise eeskirjad ei sõltuks OpenSSLi spetsiifilisest parserist, muutsin BIP62 ettepanekut nii, et selle range DER-allkirjade nõue kehtiks ka 1. versiooni tehingute suhtes. Sel ajal ei kaevandatud enam mitte-DER-allkirju plokkidesse, seega eeldati, et sellel ei ole mingit mõju. Vt https://github.com/Bitcoin/bips/pull/90 ja https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. Sel ajal ei olnud teada, kuid kui see oleks kasutusele võetud, oleks see lahendanud haavatavuse.
 
 Kuna see piiritähis oli väga laiaulatuslik ja hõlmas oluliselt rohkem kui ainult "ranget DER-kodeerimist", muutus see pidevalt ja ei jõudnud kunagi kasutuselevõtu lähedale. Hiljem võeti see piiritähis tagasi, sest segregitud tunnistaja (BIP141) lahendas tehingu muutlikkuse teistsugusel ja täielikumal viisil.
 
@@ -2075,7 +2075,7 @@ Kuna see piiritähis oli väga laiaulatuslik ja hõlmas oluliselt rohkem kui ain
 
 
 
-OpenSSL andis välja uued versioonid oma tarkvarast koos parandustega, mis, kui neid oleks algusest peale Bitcoin-s kasutatud, oleks probleemi lahendanud. Kuid OpenSSLi mis tahes uue versiooni kasutamine ainult Bitcoin Core'i uues versioonis muudaks asja hullemaks. Gregory Maxwell selgitab seda teises [e-posti teemas](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) 2015. aasta jaanuaris:
+OpenSSL andis välja uued versioonid oma tarkvarast koos parandustega, mis, kui neid oleks algusest peale Bitcoin-s kasutatud, oleks probleemi lahendanud. Kuid OpenSSLi mis tahes uue versiooni kasutamine ainult Bitcoin Core'i uues versioonis muudaks asja hullemaks. Gregory Maxwell selgitab seda teises [e-posti teemas](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) 2015. aasta jaanuaris:
 
 
 > Kuigi enamiku rakenduste puhul on üldiselt vastuvõetav, et mõned allkirjad lükatakse innukalt tagasi, on Bitcoin konsensussüsteem, kus kõik osalejad peavad üldiselt nõustuma sisendandmete täpse kehtivuse või kehtetuse osas.  Mõnes mõttes on järjepidevus tähtsam kui "korrektsus".

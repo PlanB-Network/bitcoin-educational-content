@@ -44,7 +44,7 @@ Manually enter the amount you desired to swap and use the [daily limits link](ht
 
 Remember that **transaction rates fluctuate**, so always check the final price before confirming.
 
-**An account is not required with** daily transactions limited to VND 250,000 (~ USD $8). Further information is available in our [bank transfer policies](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**An account is not required with** daily transactions limited to VND 250,000 (~ USD $8). Further information is available in our [bank transfer policies](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 **Beware**: the network fee is generally cheaper when you choose Lightning Network compared to the onchain transaction method.
 

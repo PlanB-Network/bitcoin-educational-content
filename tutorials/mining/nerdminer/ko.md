@@ -191,4 +191,4 @@ Block reward 당첨 확률을 재미있게 추정해 보겠습니다. 이 추정
 
 
 - [NerdMiner_v2 프로젝트 페이지](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [너드마이너의 전체 문서](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [너드마이너의 전체 문서](https://bitwater.ch/nerd-miner-v2/)

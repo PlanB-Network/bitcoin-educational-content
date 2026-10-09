@@ -1500,7 +1500,7 @@ Als je je wilt voorbereiden op rustigere momenten, kun je een paar activiteiten 
 - een **Nerdminer**, Bitaxe, FPGA of zelfs ASIC meenemen;
 - met een **Bitcoin flyer**;
 - brainstormen over een Bitcoin visual of logo voor jouw gemeenschap;
-- een **[Bitcoin kaartspel](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** spelen;
+- een **[Bitcoin kaartspel](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** spelen;
 - met de **[btcmap.org](https://btcmap.org/)** kaart van gemeenschappen en handelaren;
 - gW-116 verzenden of ontvangen met **bliksem**.
 
@@ -1871,7 +1871,7 @@ Afhankelijk van je beschikbaarheid en de mate van betrokkenheid bij je gemeensch
 
 - Een restaurantavond voor **Pizzadag** op 22 mei
 - Een avond of weekend om de volgende **Halving** te vieren
-- Een **spellenavond** voor het hele gezin over Bitcoin en hoe het werkt, met spellen als [Le Coin de Table](https://www.Maximalist.ovh/) of [SHAmory](https://shamory.com/)
+- Een **spellenavond** voor het hele gezin over Bitcoin en hoe het werkt, met spellen als [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) of [SHAmory](https://shamory.com/)
 - Een **Mining workshop** waarin verschillende soorten hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) worden gepresenteerd
 - Een **middag of avond voor beginners**, met themaworkshops
 - Een **gezamenlijke bijeenkomst met naburige gemeenschappen**

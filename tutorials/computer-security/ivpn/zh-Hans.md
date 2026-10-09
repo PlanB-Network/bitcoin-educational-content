@@ -49,7 +49,7 @@ IVPN专门使用自托管服务器，从而消除了使用第三方云服务（�
 ![IVPN](assets/notext/04.webp)
 ## 如何在智能手机上安装IVPN？
 
-从您的应用商店下载IVPN，无论是iOS用户的[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)，Android用户的[Google Play商店](https://play.google.com/store/apps/details?id=net.ivpn.client)，还是[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)。如果您使用的是Android，您还可以选择直接从[IVPN网站](https://www.ivpn.net/en/apps-android/)下载`.apk`文件。
+从您的应用商店下载IVPN，无论是iOS用户的[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)，Android用户的[Google Play商店](https://www.ivpn.net/en/apps-android/)，还是[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)。如果您使用的是Android，您还可以选择直接从[IVPN网站](https://www.ivpn.net/en/apps-android/)下载`.apk`文件。
 ![IVPN](assets/notext/05.webp)
 首次使用应用时，您将被登出。您需要输入您的账户ID以激活服务。
 ![IVPN](assets/notext/06.webp)

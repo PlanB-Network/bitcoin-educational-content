@@ -663,7 +663,7 @@ Blixt 这个移动 LN 节点是许多用户手中非常强大的工具，只要�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - 宣传视频（您可以测试第一次使用 LN 的情况）
 - [可打印的 A4 传单，介绍使用 Blixt 的第一步，有多种语言版本](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)。
-- [Blixt 还提供功能齐全的演示版](https://blixt-Wallet-git-master-hsjoberg.vercel.app/)，可直接在其网站或专用版网页上观看，以便在实际使用前进行全面的体验测试。
+- [Blixt 还提供功能齐全的演示版](https://blixtwallet.github.io/)，可直接在其网站或专用版网页上观看，以便在实际使用前进行全面的体验测试。
 
 
 ---

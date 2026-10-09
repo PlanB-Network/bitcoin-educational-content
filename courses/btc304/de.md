@@ -836,7 +836,7 @@ Wenn du dich auf ruhigere Momente vorbereiten möchtest, kannst du einige Aktivi
 - einen Nerdminer, Bitaxe, FPGA oder sogar ASIC mitbringen;
 - mit einem **Bitcoin-Flyer**;
 - brainstorming für ein Bitcoin-Bild oder -Logo für deine Gemeinde;
-- ein [Bitcoin Kartenspiel](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html) spielen;
+- ein [Bitcoin Kartenspiel](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) spielen;
 - Die [btcmap.org](https://btcmap.org/) Karte von Gemeinden und Händlern zeigen;
 - senden oder Empfangen von Bitcoin unter Verwendung von **Lightning**.
 

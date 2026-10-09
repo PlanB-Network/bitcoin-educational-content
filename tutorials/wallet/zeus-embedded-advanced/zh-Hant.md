@@ -20,7 +20,7 @@ ZEUS 是行動版 Bitcoin Wallet 和節點管理應用程式，具備 Bitcoin Li
 使用 [BTCPay](https://btcpayserver.org/)、[LNBits](https://lnbits.com/) 或 [Alby](https://getalby.com/)（或任何其他 LNDhub 帳戶）的商家也可以透過 ZEUS 連接、使用並管理其節點 / 帳戶。
 
 
-[從 v0.8 開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始為只想透過行動裝置以簡單方式進行快速、低成本比特幣支付的一般用戶提供服務，配備一個[內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-node)，並整合了[Lightning 服務提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
+[從 v0.8 開始](https://blog.zeusln.com/zeus-v0-8-0-open-beta/)，ZEUS 將開始為只想透過行動裝置以簡單方式進行快速、低成本比特幣支付的一般用戶提供服務，配備一個[內建行動 Lightning 節點](https://docs.zeusln.app/category/embedded-lnd)，並整合了[Lightning 服務提供商 (LSP)](https://docs.zeusln.app/lsp/intro)。
 
 
 ### 重要的 Zeus 資源：
@@ -169,7 +169,7 @@ Zeus來了，從[他們在部落格上宣佈的v0.8.0版本](https://blog.zeusln
 LSP 透過向使用者的節點開啟支付通道，幫助他們連接到 Lightning 網路。[在此閱讀更多有關 LSP 的資訊](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992)。ZEUS 已整合了一個名為 [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) 的新 LSP，提供給所有使用新內建節點的用戶。
 
 
-在本節中，預設為 Olympus LSP (https://0conf.lnolymp.us)，但不久之後您也可以設定其他支援此通訊協定的 0conf LSP。
+在本節中，預設為 Olympus LSP (https://flow.zeuslsp.com)，但不久之後您也可以設定其他支援此通訊協定的 0conf LSP。
 
 
 _請記住：_
@@ -310,7 +310,7 @@ ZEUS 中的嵌入式節點是基於 LND 並使用 [aezeed seed 格式](https://g
 aezeed 金鑰格式應與下列行動錢包相容：Blixt、BlueWallet 和 Breez。請注意，如果您有打開或等待關閉的通道，僅 seed 將不足以恢復您的所有餘額 ！
 
 
-在 [Zeus Docs 頁面](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery) 瞭解更多關於備份和還原過程的資訊。
+在 [Zeus Docs 頁面](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery) 瞭解更多關於備份和還原過程的資訊。
 
 
 電源建議：當您儲存 seed 時，請同時儲存節點的 pubkey！有時候，將它與您的 seed 和 SCB（靜態頻道備份）放在手邊是很好的，以防您需要驗證恢復。
@@ -356,7 +356,7 @@ aezeed 金鑰格式應與下列行動錢包相容：Blixt、BlueWallet 和 Breez
 
 
 
- - _Pathfinding mode_ - bimodal 或 apriori，為您的 LN 付款尋找更好路線的方法，也可以重設先前的路線資訊。請閱讀這些非常好的路徑尋找指南：[尋路](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 由 Docs Lightning Engineering 和 [LN 付款尋路](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - 由 Voltage 提供。
+ - _Pathfinding mode_ - bimodal 或 apriori，為您的 LN 付款尋找更好路線的方法，也可以重設先前的路線資訊。請閱讀這些非常好的路徑尋找指南：[尋路](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - 由 Docs Lightning Engineering 和 [LN 付款尋路](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - 由 Voltage 提供。
  - _Persistent LND_ - 如果您希望 LND 服務在後台持續執行，並讓您的節點全天候線上，請啟動此模式。如果您將 Zeus 當作小型商店的 PoS 使用，或是您透過 LN Address 接收到許多 LN 的提示，這會非常有用。
  - _Rescan wallet_ - 此選項會在重新啟動時啟動 Wallet 的所有 onchain txs 的完整掃描。只有在您的 Wallet 遺失某些 tx 的情況下才會啟動。重新掃描任務需要幾分鐘的時間，因此請耐心等待，並經常檢查日誌以瞭解進度的詳細資訊。
  - _Compact Database_ - 如果您的 Zeus 應用程式佔用了大量的裝置空間（請參閱裝置設定中的應用程式詳細資訊），此選項非常有用。如果您使用 Zeus 的活動量很大，我建議您多做此壓縮。一旦您發現 Zeus 應用程式有超過 1-1.5GB 的資料，請執行壓縮。它會重新啟動並需要一些時間，所以請耐心等待。
@@ -399,7 +399,7 @@ ZEUS PAY 利用使用者產生的預設影像哈希值、HODL 發票以及 Zaplo
 如果您啟動「持續模式」，您的 LN Address 的所有付款都會立即收到。
 
 
-瞭解 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 付款如何運作，以及更多關於 [ZeusPay Fees here](https://docs.zeusln.app/lightning-Address/fees) 的資訊。
+瞭解 [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) 付款如何運作，以及更多關於 [ZeusPay Fees here](https://docs.zeusln.app/lightning-address/zaplocker) 的資訊。
 
 
 **G - Onchain 位址**
@@ -488,7 +488,7 @@ Zeus v 0.8.0 中引入了一個新的聯絡人簿，您可以用它快速地向�
 只需在您的 Zeus 上建立一個 Invoice（填入金額並點擊 「請求 」按鈕），您就可以直接收到這些 Sats。
 
 
-您 generate 的 Invoice 將被 [包裹](https://docs.zeusln.app/lsp/wrapped-invoices)，如果您支付了服務相關的費用，您將會看到這些費用。此包裹的 Invoice 包含指向您的 Zeus 節點的路由提示，因此 LSP 可以找到您的新節點，並利用您存入的新資金開啟通道。
+您 generate 的 Invoice 將被 [包裹](https://docs.zeusln.app/lsp/services/flow)，如果您支付了服務相關的費用，您將會看到這些費用。此包裹的 Invoice 包含指向您的 Zeus 節點的路由提示，因此 LSP 可以找到您的新節點，並利用您存入的新資金開啟通道。
 
 
 ![Image](assets/en/06.webp)

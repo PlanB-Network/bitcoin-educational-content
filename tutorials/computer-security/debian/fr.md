@@ -41,9 +41,9 @@ Avant de lancer l’installation, veillez à disposer du matériel suivant :
  
 Le choix de l’image Debian dépend de l’architecture de votre processeur :
  
-- **AMD64** : téléchargez l’édition “live hybrid” depuis la liste de [téléchargement](https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/).
-- **ARM64** : récupérez l’image DVD à partir sur le site officiel de [Debian](https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/).
-- **Autres architectures** : trouvez l’ISO correspondant à votre architecture [ici](https://debian.obspm.fr/debian-cd/12.11.0/).
+- **AMD64** : téléchargez l’édition “live hybrid” depuis la liste de [téléchargement](https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/).
+- **ARM64** : récupérez l’image DVD à partir sur le site officiel de [Debian](https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/).
+- **Autres architectures** : trouvez l’ISO correspondant à votre architecture [ici](https://debian.obspm.fr/debian-cd/current/).
  
 ![download](assets/fr/01.webp)
  

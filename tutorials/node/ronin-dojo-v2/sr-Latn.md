@@ -56,7 +56,7 @@ Sada kada smo predstavili RoninDojo, hajde da zajedno vidimo kako da postavimo o
 
 ## Koji hardver odabrati za instalaciju RoninDojo v2?
 
-RoninDojo nudi sliku za automatsku instalaciju svog softvera na [RockPro64](https://ronindojo.io/en/download). Međutim, naš vodič se fokusira na ručnu proceduru instalacije na Raspberry Pi 4. Iako je Raspberry Pi 5 nedavno lansiran, i ovaj vodič bi teoretski trebao biti kompatibilan sa ovim novim modelom, još uvek nisam imao priliku da ga lično testiram, niti sam pronašao povratne informacije iz zajednice. Čim nabavim Pi 5 i kompatibilne komponente, ažuriraću ovaj vodič kako bih vas obavestio. U međuvremenu, preporučujem da se prioritet da Pi 4, jer savršeno radi za moj čvor.
+RoninDojo nudi sliku za automatsku instalaciju svog softvera na [RockPro64](https://ronindojo.io/downloads). Međutim, naš vodič se fokusira na ručnu proceduru instalacije na Raspberry Pi 4. Iako je Raspberry Pi 5 nedavno lansiran, i ovaj vodič bi teoretski trebao biti kompatibilan sa ovim novim modelom, još uvek nisam imao priliku da ga lično testiram, niti sam pronašao povratne informacije iz zajednice. Čim nabavim Pi 5 i kompatibilne komponente, ažuriraću ovaj vodič kako bih vas obavestio. U međuvremenu, preporučujem da se prioritet da Pi 4, jer savršeno radi za moj čvor.
 
 Što se mene tiče, pokrećem RoninDojo na Raspberry Pi opremljenim sa 8 GB RAM-a. Iako su neki članovi zajednice uspeli da ga pokrenu na uređajima sa samo 4 GB RAM-a, nisam lično testirao ovu konfiguraciju. S obzirom na malu razliku u ceni, čini se mudrim odlučiti se za verziju sa 8 GB RAM-a. Ovo bi takođe moglo biti korisno ako planirate da svoj Raspberry Pi iskoristite za druge svrhe u budućnosti.
 
@@ -823,7 +823,7 @@ Kartica `Push Tx` je još jedna zanimljiva funkcija RoninUI, koja omogućava emi
 - `Settings`: Omogućava vam da promenite korisničku lozinku.
 
 
-Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem vas da ga podelite na društvenim mrežama. Štaviše, ako imate priliku, razmislite o podršci programerima koji omogućavaju da ovaj besplatni i open-source softver bude dostupan našoj zajednici donacijom: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Da biste produbili svoje znanje o RoninDojo i otkrili više resursa, toplo preporučujem da konsultujete linkove ka spoljnim resursima pomenutim u nastavku.
+Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem vas da ga podelite na društvenim mrežama. Štaviše, ako imate priliku, razmislite o podršci programerima koji omogućavaju da ovaj besplatni i open-source softver bude dostupan našoj zajednici donacijom: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Da biste produbili svoje znanje o RoninDojo i otkrili više resursa, toplo preporučujem da konsultujete linkove ka spoljnim resursima pomenutim u nastavku.
 
 
 **Spoljni resursi:**
@@ -833,5 +833,5 @@ Eto! Hvala što ste pratili ovaj vodič do kraja. Ako vam se dopao, ohrabrujem v
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

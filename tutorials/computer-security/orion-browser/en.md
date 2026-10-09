@@ -482,8 +482,8 @@ Remember: protecting your privacy doesn't just depend on your browser. Combine O
 
 
 - **Official website**: [kagi.com/orion](https://kagi.com/orion/)
-- **Full FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Community forum**: [community.kagi.com](https://community.kagi.com)
+- **Full FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Community forum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source components
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - News and updates

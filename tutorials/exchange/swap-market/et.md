@@ -639,7 +639,7 @@ Konkurents teenusepakkujate vahel parandab hindu ja mitmekordistab likviidsuse a
 
 - [SwapMarket - veebirakendus](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tehniline dokumentatsioon](https://docs.boltz.exchange/)
+- [Tehniline dokumentatsioon](https://github.com/BoltzExchange/boltz-backend)
 - [Juhend enesehosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

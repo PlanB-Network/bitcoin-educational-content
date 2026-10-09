@@ -122,7 +122,7 @@ Umbrel ดูแลการให้ข้อมูลการเชื่อ�
 
 
 
-**ข้อกำหนดเบื้องต้น:** ตรวจสอบให้แน่ใจว่าระบบของคุณตรงตามข้อกำหนดขั้นต่ำตาม [การตั้งค่าเอกสาร](https://docs.thunderhub.io/setup):
+**ข้อกำหนดเบื้องต้น:** ตรวจสอบให้แน่ใจว่าระบบของคุณตรงตามข้อกำหนดขั้นต่ำตาม [การตั้งค่าเอกสาร](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Umbrel ดูแลการให้ข้อมูลการเชื่อ�
 
 
 
-**1. ดึงรหัส ThunderHub:** โคลนที่เก็บ GitHub ของโปรเจ็กต์ตามที่อธิบายไว้ใน [เอกสารการติดตั้ง](https://docs.thunderhub.io/installation):
+**1. ดึงรหัส ThunderHub:** โคลนที่เก็บ GitHub ของโปรเจ็กต์ตามที่อธิบายไว้ใน [เอกสารการติดตั้ง](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. Main configuration file:** สร้างไฟล์ `.env.local` ที่รูทของโฟลเดอร์ ThunderHub เพื่อปรับแต่งการตั้งค่า (วิธีนี้จะป้องกันไม่ให้การตั้งค่าของคุณถูกเขียนทับระหว่างการอัปเดต) ตัวแปรหลักตาม [เอกสารการตั้งค่า](https://docs.thunderhub.io/setup):
+**1. Main configuration file:** สร้างไฟล์ `.env.local` ที่รูทของโฟลเดอร์ ThunderHub เพื่อปรับแต่งการตั้งค่า (วิธีนี้จะป้องกันไม่ให้การตั้งค่าของคุณถูกเขียนทับระหว่างการอัปเดต) ตัวแปรหลักตาม [เอกสารการตั้งค่า](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- การติดตั้ง:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- การกำหนดค่า:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- การติดตั้ง:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- การกำหนดค่า:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

@@ -14,7 +14,7 @@ RASPIBLITZ - Как управлять полной нодой Lightning и Bitc
 
 ## Руководство по настройке Raspiblitz от Parman
 
-Raspiblitz — это отличная система для запуска Bitcoin-узла и связанных приложений. Я рекомендую его вместе с узлом MyNode большинству пользователей (идеально иметь два узла для избыточности). Одним из главных преимуществ является то, что узел Raspiblitz является «Free Open Source Software», в отличие от MyNode или Umbrel. [Почему это важно? Объясняет Влад Коста.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Вы также можете запускать Raspiblitz через WiFi-соединение, а не через ethernet – вот [дополнительное руководство](https://armantheparman.com/headless-wifi/) для этого. (Я не нашел способа сделать это с MyNode).
+Raspiblitz — это отличная система для запуска Bitcoin-узла и связанных приложений. Я рекомендую его вместе с узлом MyNode большинству пользователей (идеально иметь два узла для избыточности). Одним из главных преимуществ является то, что узел Raspiblitz является «Free Open Source Software», в отличие от MyNode или Umbrel. [Почему это важно? Объясняет Влад Коста.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Вы также можете запускать Raspiblitz через WiFi-соединение, а не через ethernet – вот [дополнительное руководство](https://armantheparman.com/headless-wifi/) для этого. (Я не нашел способа сделать это с MyNode).
 
 Вы можете купить готовую ноду с прикрепленным мини-экраном, или можете собрать ее самостоятельно (экран не нужен).
 

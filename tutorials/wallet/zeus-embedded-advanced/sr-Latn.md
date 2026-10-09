@@ -20,7 +20,7 @@ Trenutno je ZEUS namenjen ljudima koji pokreću sopstvene kućne / poslovne čvo
 Trgovci koji koriste [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) ili [Alby](https://getalby.com/) (ili bilo koji drugi LNDhub nalog) takođe mogu povezati, koristiti i upravljati svojim čvorovima / nalozima putem ZEUS-a.
 
 
-[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da zadovoljava prosečne korisnike koji žele jednostavan način da izvrše brza i jeftina bitcoin plaćanja sa svog mobilnog uređaja, koristeći [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-node) sa integrisanim [Lightning provajderom usluga (LSP)](https://docs.zeusln.app/lsp/intro).
+[Počevši od verzije v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS će početi da zadovoljava prosečne korisnike koji žele jednostavan način da izvrše brza i jeftina bitcoin plaćanja sa svog mobilnog uređaja, koristeći [ugrađeni mobilni Lightning čvor](https://docs.zeusln.app/category/embedded-lnd) sa integrisanim [Lightning provajderom usluga (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Važni Zeus resursi:
@@ -169,7 +169,7 @@ Ovde su predstavljene dve LSP usluge:
 LSP pomaže korisnicima da se povežu na Lightning mrežu otvaranjem platnih kanala ka njihovim čvorovima. [Pročitajte više o LSP ovde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ima novi integrisani LSP nazvan [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), koji je dostupan svim korisnicima koji koriste novi ugrađeni čvor.
 
 
-U ovom odeljku, podrazumevano je Olympus LSP (https://0conf.lnolymp.us), ali uskoro možete postaviti i drugi 0conf LSP koji podržava ovaj protokol.
+U ovom odeljku, podrazumevano je Olympus LSP (https://flow.zeuslsp.com), ali uskoro možete postaviti i drugi 0conf LSP koji podržava ovaj protokol.
 
 
 _Imaj na umu:_
@@ -310,7 +310,7 @@ Ugrađeni čvor u ZEUS-u zasnovan je na LND i koristi [aezeed seed format](https
 Format ključa aezeed treba da bude kompatibilan sa sledećim mobilnim novčanicima: Blixt, BlueWallet i Breez. Imajte na umu da sam seed neće biti dovoljan za povraćaj svih vaših stanja ako imate otvorene ili kanale u procesu zatvaranja!
 
 
-Saznajte više o procesu pravljenja rezervnih kopija i vraćanja na [Zeus Docs stranici](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Saznajte više o procesu pravljenja rezervnih kopija i vraćanja na [Zeus Docs stranici](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 SAVET ZA NAPAJANJE: Kada sačuvate vaš seed, molimo vas da sačuvate i node pubkey! Ponekad je dobro imati ga pri ruci, zajedno sa vašim seed i SCB (Staticka Rezerva Kanala) u slučaju da trebate verifikovati oporavak.
@@ -356,7 +356,7 @@ U ovom odeljku ćemo pronaći neke osnovne alate za upravljanje integrisanim čv
 
 
 
- - _Režim pronalaženja puta_ - bimodalni ili apriori, načini za pronalaženje bolje rute za vaše LN uplate i takođe resetovanje prethodnih informacija o rutiranju. Molimo vas da pročitate ove veoma dobre vodiče o pronalaženju puta: [Pronalaženje puta](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - od strane Docs Lightning Engineering i [LN Pronalaženje puta za uplate](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - od strane Voltage.
+ - _Režim pronalaženja puta_ - bimodalni ili apriori, načini za pronalaženje bolje rute za vaše LN uplate i takođe resetovanje prethodnih informacija o rutiranju. Molimo vas da pročitate ove veoma dobre vodiče o pronalaženju puta: [Pronalaženje puta](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - od strane Docs Lightning Engineering i [LN Pronalaženje puta za uplate](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - od strane Voltage.
  - _Persistent LND_ - aktivirajte ovaj režim ako želite da LND servis radi kontinuirano u pozadini i održava vaš čvor online 24/7. Ovo je veoma korisno ako koristite Zeus kao PoS u maloj prodavnici ili primate mnogo LN napojnica preko LN Address.
  - _Rescan wallet_ - ova opcija će pokrenuti pri restartovanju kompletno skeniranje svih onchain transakcija vašeg Wallet. Aktivirajte je samo u slučaju da vam nedostaju neke transakcije u vašem Wallet. Zadatak reskeniranja će potrajati, nekoliko minuta, pa budite strpljivi i uvek proverite logove da biste videli više detalja o napretku.
  - _Compact Database_ - ova opcija je veoma korisna ako vaša Zeus aplikacija zauzima mnogo prostora na uređaju (pogledajte detalje aplikacije u podešavanjima uređaja). Ako imate mnogo aktivnosti koristeći Zeus, preporučujem da češće radite ovu kompakciju. Kada vidite da imate više od 1-1.5GB podataka za Zeus aplikaciju, uradite kompakciju. Aplikacija će se restartovati i potrajaće neko vreme, pa budite strpljivi.
@@ -399,7 +399,7 @@ ZEUS PAY koristi heševe preimaga generisane od strane korisnika, HODL fakture i
 Ako aktivirate „persistent mode“ svi plaćanja na vaš LN Address će biti odmah primljeni.
 
 
-Saznajte kako funkcionišu [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) plaćanja i više o [ZeusPay naknadama ovde](https://docs.zeusln.app/lightning-Address/fees).
+Saznajte kako funkcionišu [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) plaćanja i više o [ZeusPay naknadama ovde](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Onchain Adrese**
@@ -488,7 +488,7 @@ Podrazumevano, Zeus će koristiti svoj sopstveni LSP, Olympus. Ali kasnije može
 Jednostavnim kreiranjem Invoice na vašem Zeus-u (unesite iznos i kliknite dugme „request“), moći ćete odmah primiti te Sats.
 
 
-Invoice koji generate će biti [umotan](https://docs.zeusln.app/lsp/wrapped-invoices) i biće vam predstavljene naknade povezane sa uslugom ako su plaćene. Ovaj umotani Invoice sadrži naznake ruta ka vašem Zeus čvoru, tako da LSP može pronaći vaš novi čvor i otvoriti kanal sa novim sredstvima koja deponujete.
+Invoice koji generate će biti [umotan](https://docs.zeusln.app/lsp/services/flow) i biće vam predstavljene naknade povezane sa uslugom ako su plaćene. Ovaj umotani Invoice sadrži naznake ruta ka vašem Zeus čvoru, tako da LSP može pronaći vaš novi čvor i otvoriti kanal sa novim sredstvima koja deponujete.
 
 
 ![Image](assets/en/06.webp)

@@ -57,7 +57,7 @@ RoninDojon isännöimiseen ja ajamiseen sopivan koneen valitsemiseksi sinulla on
 
 Kuten aiemmin selitettiin, yksinkertaisin valinta on tilata Tanto, plug-and-play -laite, joka on suunniteltu erityisesti tähän tarkoitukseen. Tilataksesi omasi, mene tänne: [linkki](https://shop.ronindojo.io/product-category/nodes/).
 
-Koska RoninDojon tiimit tuottavat avoimen lähdekoodin, on myös mahdollista toteuttaa RoninDojo muilla koneilla. Voit löytää asennusvelhon uusimmat versiot tältä sivulta: [linkki](https://ronindojo.io/en/downloads.html), ja koodin uusimmat versiot tältä sivulta: [linkki](https://code.samourai.io/ronindojo/RoninDojo).
+Koska RoninDojon tiimit tuottavat avoimen lähdekoodin, on myös mahdollista toteuttaa RoninDojo muilla koneilla. Voit löytää asennusvelhon uusimmat versiot tältä sivulta: [linkki](https://ronindojo.io/downloads), ja koodin uusimmat versiot tältä sivulta: [linkki](https://code.samourai.io/ronindojo/RoninDojo).
 
 Henkilökohtaisesti asensin sen Raspberry Pi 4 8GB:lle ja kaikki toimii täydellisesti.
 
@@ -79,13 +79,13 @@ Tässä on esimerkki siitä, miten voit asettaa oman RoninDojo-solmusi:
 
 Kun olet koonnut koneesi, voit aloittaa RoninDojon asennuksen. Tee tämä aloittamalla käynnistettävän micro SD -kortin luominen polttamalla sopiva levykuva siihen.
 
-Aseta micro SD -korttisi henkilökohtaiseen tietokoneeseesi, mene sitten viralliselle RoninDojo-verkkosivustolle ladataksesi RoninOS-levykuvan: https://ronindojo.io/en/downloads.html.
+Aseta micro SD -korttisi henkilökohtaiseen tietokoneeseesi, mene sitten viralliselle RoninDojo-verkkosivustolle ladataksesi RoninOS-levykuvan: https://ronindojo.io/downloads.
 Lataa levykuva, joka vastaa laitteistosi. Minun tapauksessani latasin "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" kuvan:
 ![Lataa RoninOS levykuva](assets/2.webp)
 
 Kun kuva on ladattu, varmista sen eheys vastaavalla .SHA256-tiedostolla. Kuvaan yksityiskohtaisesti, miten tämä tehdään tässä artikkelissa: Kuinka varmistaa Bitcoin-ohjelmiston eheys Windowsissa?
 
-Erityisohjeet RoninOS:n eheyden varmistamiseksi ovat myös saatavilla tällä sivulla: https://wiki.ronindojo.io/en/extras/verify.
+Erityisohjeet RoninOS:n eheyden varmistamiseksi ovat myös saatavilla tällä sivulla: https://docs.ronindojo.io/install/verify-os/.
 
 Polta tämä kuva micro SD -kortillesi käyttämällä ohjelmistoa, kuten Balena Etcher, jonka voit ladata täältä: https://www.balena.io/etcher/.
 
@@ -335,13 +335,13 @@ Voit myös käyttää sitä älypuhelimellasi asentamalla Tor-selaimen ja syött
 RoninDojo-noodisi sisältää myös WhirlpoolCLI:n, etäkomentoriviliittymän Whirlpool-sekoitusten automatisointiin.
 Kun suoritat CoinJoinin Whirlpool-toteutuksen avulla, sovelluksen, jota käytät, on pysyttävä avoinna sekoitusten ja uudelleensekoitusten suorittamiseksi. Tämä prosessi voi olla työläs käyttäjille, jotka haluavat korkeita anonimiteettisettejä, sillä laitteen, jossa Whirlpool-sovellus on, on pysyttävä jatkuvasti päällä. Käytännön termein tämä tarkoittaa, että jos haluat osallistua UTXO:idesi 24/7 uudelleensekoituksiin, sinun on pidettävä henkilökohtaista tietokonettasi tai puhelintasi jatkuvasti päällä sovelluksen ollessa avoinna.
 Yksi ratkaisu tähän rajoitteeseen on käyttää WhirlpoolCLI:tä koneella, joka on tarkoitettu olemaan jatkuvasti päällä, kuten Bitcoin-noodilla. Näin UTXO:mme voidaan sekoittaa uudelleen 24/7 ilman, että tarvitsee pitää toista konetta käynnissä Bitcoin-noodimme lisäksi.
-WhirlpoolCLI:tä käytetään yhdessä WhirlpoolGUI:n kanssa, joka on graafinen käyttöliittymä, joka asennetaan henkilökohtaiseen tietokoneeseen Coinjoinien helppoa hallintaa varten. Selitän yksityiskohtaisesti, miten asettaa Whirlpool CLI omassa dojossasi tässä artikkelissa: [linkki](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI:tä käytetään yhdessä WhirlpoolGUI:n kanssa, joka on graafinen käyttöliittymä, joka asennetaan henkilökohtaiseen tietokoneeseen Coinjoinien helppoa hallintaa varten. Selitän yksityiskohtaisesti, miten asettaa Whirlpool CLI omassa dojossasi tässä artikkelissa: [linkki](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
-Jos haluat oppia lisää Coinjoinista yleensä, selitän kaiken tässä artikkelissa: [linkki](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+Jos haluat oppia lisää Coinjoinista yleensä, selitän kaiken tässä artikkelissa: [linkki](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 ### Whirlpool Stat Toolin käyttö.
 
-Suoritettuasi CoinJoinit Whirlpoolin avulla, saatat haluta tietää sekoitettujen UTXO:idesi todellisen yksityisyyden tason. Whirlpool Stat Tool mahdollistaa tämän helposti. Tällä työkalulla voit laskea sekoitettujen UTXO:idesi tulevaisuuden ja menneisyyden arvosanat. Jos haluat oppia lisää näiden Anon Settien laskemisesta ja siitä, miten ne toimivat, suosittelen lukemaan tämän osion: [linkki](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Suoritettuasi CoinJoinit Whirlpoolin avulla, saatat haluta tietää sekoitettujen UTXO:idesi todellisen yksityisyyden tason. Whirlpool Stat Tool mahdollistaa tämän helposti. Tällä työkalulla voit laskea sekoitettujen UTXO:idesi tulevaisuuden ja menneisyyden arvosanat. Jos haluat oppia lisää näiden Anon Settien laskemisesta ja siitä, miten ne toimivat, suosittelen lukemaan tämän osion: [linkki](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 Työkalu on esiasennettu RoninDojoosi. Toistaiseksi se on saatavilla vain RoninCLI:stä. Käynnistääksesi sen päävalikosta, mene:
 
@@ -398,7 +398,7 @@ WST näyttää sitten retrospektiivisen pistemäärän (taaksepäin katsovat mit
 
 Huomaa, että UTXO:si prospektiivinen pistemäärä lasketaan perustuen TXID:iisi ensimmäisestä sekoituksestasi, ei viimeisestä sekoituksestasi. Toisaalta UTXO:n retrospektiivinen pistemäärä lasketaan perustuen TXID:iin viimeisestä syklistä.
 
-Jos et ymmärrä näitä Anon Setsien konsepteja, suosittelen lukemaan tämän osan artikkelistani Coinjoinista, jossa selitän kaiken yksityiskohtaisesti diagrammien avulla: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Jos et ymmärrä näitä Anon Setsien konsepteja, suosittelen lukemaan tämän osan artikkelistani Coinjoinista, jossa selitän kaiken yksityiskohtaisesti diagrammien avulla: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Boltzmann-laskimen käyttö.
 
@@ -637,7 +637,7 @@ Olemme nähneet, miten asentaa ja aloittaa tämän upean työkalun, RoninDojon, 
 
 Jos terminaalin käyttö ei pelota sinua ja jos et tarvitse Lightning Networkiin liittyviä työkaluja, RoninDojo saattaa kiinnostaa sinua.
 
-Jos voit, harkitse lahjoittamista kehittäjille, jotka tuottavat näitä avoimen lähdekoodin ohjelmistoja vapaasti käyttöösi: https://donate.ronindojo.io/
+Jos voit, harkitse lahjoittamista kehittäjille, jotka tuottavat näitä avoimen lähdekoodin ohjelmistoja vapaasti käyttöösi: https://docs.ronindojo.io/main/donations/
 
 Lisätietoja RoninDojosta suosittelen tarkistamaan alla olevat linkit ulkoisista resursseistani.
 
@@ -654,5 +654,5 @@ Lisätietoja RoninDojosta suosittelen tarkistamaan alla olevat linkit ulkoisista
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

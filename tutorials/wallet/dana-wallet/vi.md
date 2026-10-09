@@ -113,7 +113,7 @@ Phương pháp được khuyến nghị là thêm kho lưu trữ F-Droid chuyên
 
 
 
-Mở ứng dụng F-Droid trên thiết bị Android của bạn, sau đó truy cập Cài đặt thông qua biểu tượng ở góc dưới bên phải. Chọn "Kho lưu trữ" để quản lý nguồn ứng dụng. Nhấn nút "+" để thêm kho lưu trữ mới, sau đó quét mã QR hoặc dán liên kết `https://fdroid.silentpayments.dev/fdroid/repo`. Sau khi kho lưu trữ được thêm vào, bạn sẽ thấy ba phiên bản Dana Wallet khả dụng. Chọn "Dana Wallet - Bookmark" và nhấn "Cài đặt".
+Mở ứng dụng F-Droid trên thiết bị Android của bạn, sau đó truy cập Cài đặt thông qua biểu tượng ở góc dưới bên phải. Chọn "Kho lưu trữ" để quản lý nguồn ứng dụng. Nhấn nút "+" để thêm kho lưu trữ mới, sau đó quét mã QR hoặc dán liên kết `https://fdroid.danawallet.app/fdroid/repo`. Sau khi kho lưu trữ được thêm vào, bạn sẽ thấy ba phiên bản Dana Wallet khả dụng. Chọn "Dana Wallet - Bookmark" và nhấn "Cài đặt".
 
 
 
@@ -410,7 +410,7 @@ Thanh toán im lặng là một bước tiến đáng kể trong việc dung hò
 
 
 - Kho lưu trữ GitHub Dana Wallet: https://github.com/cygnet3/danawallet
-- Tiền gửi F-Cold: https://fdroid.silentpayments.dev
+- Tiền gửi F-Cold: https://fdroid.danawallet.app/fdroid/repo/
 - Trang web cộng đồng Silent Payments: https://silentpayments.xyz
 - Thông số kỹ thuật BIP-352: https://bips.dev/352
 

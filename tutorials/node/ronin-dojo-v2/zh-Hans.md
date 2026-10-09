@@ -38,7 +38,7 @@ RoninDojo 是一个道场，因此它允许轻松集成 Whirlpool CLI 到您的�
 现在我们已经概述了 RoninDojo，让我们一起看看如何设置这个节点。
 
 ## 为安装 RoninDojo v2 选择什么硬件？
-RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/en/download) 上自动安装其软件的镜像。然而，我们的教程重点介绍在 Raspberry Pi 4 上的手动安装程序。尽管最近推出了 Raspberry Pi 5，而且这个教程理论上应该与这个新型号兼容，但我还没有机会亲自测试它，也没有从社区得到任何反馈。一旦我获得 Pi 5 和兼容的组件，我将更新这个教程以保持您的信息更新。与此同时，我建议优先选择 Pi 4，因为它完美地适用于我的节点。
+RoninDojo 提供了一个用于在 [RockPro64](https://ronindojo.io/downloads) 上自动安装其软件的镜像。然而，我们的教程重点介绍在 Raspberry Pi 4 上的手动安装程序。尽管最近推出了 Raspberry Pi 5，而且这个教程理论上应该与这个新型号兼容，但我还没有机会亲自测试它，也没有从社区得到任何反馈。一旦我获得 Pi 5 和兼容的组件，我将更新这个教程以保持您的信息更新。与此同时，我建议优先选择 Pi 4，因为它完美地适用于我的节点。
 就我个人而言，我在配备 8 GB RAM 的 Raspberry Pi 上运行 RoninDojo。尽管一些社区成员已经成功地在只有 4 GB RAM 的设备上运行它，但我自己没有测试过这种配置。考虑到价格差异不大，选择 8 GB RAM 版本似乎是明智的。如果您计划将来将您的 Raspberry Pi 用于其他用途，这也可能证明是有用的。
 需要注意的是，RoninDojo 团队报告了与机箱和 SSD 适配器相关的频繁问题。我自己也遇到了这些问题。**因此，强烈建议避免为您的节点的 SSD 使用配备 USB 线的机箱。**相反，应该选择专为您的 Raspberry Pi 设计的存储扩展卡：
 
@@ -491,12 +491,12 @@ $$ED = 1.054 \text{ 比特}$$
 - `System Info`：提供有关您的节点的一般信息，如CPU温度、存储空间使用情况或RAM数据。您还会找到`Reboot`和`Shut down`选项，用于重启或关闭您的节点；
 - `Settings`：允许您更改用户密码。
 
-就是这样了！感谢您跟随本教程到最后。如果您喜欢它，我鼓励您在社交媒体上分享它。此外，如果您有机会，请考虑支持那些为我们的社区提供这些免费和开源软件的开发者捐款：[https://donate.ronindojo.io/](https://donate.ronindojo.io/)。为了深入了解RoninDojo并发现更多资源，我强烈推荐查阅下面提到的外部资源链接。
+就是这样了！感谢您跟随本教程到最后。如果您喜欢它，我鼓励您在社交媒体上分享它。此外，如果您有机会，请考虑支持那些为我们的社区提供这些免费和开源软件的开发者捐款：[https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/)。为了深入了解RoninDojo并发现更多资源，我强烈推荐查阅下面提到的外部资源链接。
 
 **外部资源：**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/介绍boltzmann-85930984a159](https://medium.com/@laurentmt/介绍boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

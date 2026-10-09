@@ -1332,7 +1332,7 @@ X^2 + 1$과 $x^2 + x$의 곱셈을 합산합니다: 이 두 항을 곱하면 차
 [3] [유튜브 동영상](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be) 참조
 
 
-[4] 소크라티카, [추상 대수학](https://www.socratica.com/subject/abstract-algebra)
+[4] 소크라티카, [추상 대수학](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz와 Lindell, *현대 암호학 입문*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar and Pelzl, *암호화의 이해*, 2010 (Springer-Verlag: Berlin).
@@ -2715,7 +2715,7 @@ Hash 함수 $H$는 두 개의 값, $x$와 $y$를 구하는 것이 불가능하�
 예를 들어, 충돌 방지 Hash 기능은 소프트웨어 검증에서 중요합니다. Bitcoin core 0.21.0(Bitcoin 네트워크 트래픽 처리를 위한 서버 애플리케이션)의 Windows 릴리스를 다운로드하고 싶다고 가정해 보겠습니다. 소프트웨어의 적법성을 확인하기 위해 수행해야 할 주요 단계는 다음과 같습니다:
 
 
-1.	먼저 한 명 이상의 기여자 Bitcoin core의 공개 키를 다운로드하여 디지털 서명을 확인할 수 있는 소프트웨어(예: 클레오페트라)로 가져와야 합니다. 이러한 공개 키는 [여기](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt)에서 찾을 수 있습니다. 여러 기여자의 공개 키를 사용하여 Bitcoin core 소프트웨어를 검증하는 것이 좋습니다.
+1.	먼저 한 명 이상의 기여자 Bitcoin core의 공개 키를 다운로드하여 디지털 서명을 확인할 수 있는 소프트웨어(예: 클레오페트라)로 가져와야 합니다. 이러한 공개 키는 [여기](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys)에서 찾을 수 있습니다. 여러 기여자의 공개 키를 사용하여 Bitcoin core 소프트웨어를 검증하는 것이 좋습니다.
 
 2.	다음으로 가져온 공개 키를 확인해야 합니다. 최소한 한 단계는 찾은 공개키가 다른 여러 위치에 게시된 공개키와 동일한지 확인하는 것입니다. 예를 들어, 공개 키를 가져온 사람의 개인 웹 페이지, 트위터 페이지 또는 Github 페이지를 참조할 수 있습니다. 일반적으로 이러한 공개키 비교는 지문으로 알려진 공개키의 짧은 Hash을 비교하는 방식으로 수행됩니다.
 

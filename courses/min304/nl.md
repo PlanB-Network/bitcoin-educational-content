@@ -618,7 +618,7 @@ Als je al deze punten hebt bekeken, kun je je machine met een hoge mate van vert
 Om deze gids in één zin samen te vatten: **"Vertrouw niet, maar controleer" **
 
 
-[Je kunt je ook wenden tot professionals in het reconditioneren van Mining machines, zoals onze partner 21energy. Zij bieden geteste S9 machines aan, gereinigd en met BraiiinOS+ software reeds geïnstalleerd. Met de affiliate code "decouvre," ontvangt u 10% korting op de aankoop van een S9 terwijl u het Attakai project steunt](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Je kunt je ook wenden tot professionals in het reconditioneren van Mining machines, zoals onze partner 21energy. Zij bieden geteste S9 machines aan, gereinigd en met BraiiinOS+ software reeds geïnstalleerd. Met de affiliate code "decouvre," ontvangt u 10% korting op de aankoop van een S9 terwijl u het Attakai project steunt](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## Gids voor de aanschaf van hardware-aanpassingen voor de S9

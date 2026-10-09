@@ -125,4 +125,4 @@ LinuxでシリアルポートをChromeが検出するための手順は以下の
 このテーマについてさらに読みたい方は、以下のリンクをどうぞ：
 
 - [NerdMiner_v2 project page](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Complete documentation of NerdMiners](https://bitwater.ch/nerd-miner-v2/)

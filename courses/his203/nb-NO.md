@@ -523,7 +523,7 @@ Som vi sa i begynnelsen av 2011, var Mt. Gox-plattformen ikke sikker. Og den var
 Den 1. mars 2011, akkurat da overføringen var i ferd med å bli offisiell, forsvant 80 000 bitcoins (https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) ut i løse luften takket være ondsinnet tilgang til nettstedets wallet.dat-fil. Den 3. oppdaget Jed McCaleb uttaket og [informerte](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark på IRC om at "noe ille hadde skjedd". Det var et stort tap (én bitcoin ble solgt for 0,92 dollar på det tidspunktet), som skulle vokse seg større og større i løpet av de neste månedene i takt med den enestående prisstigningen.
 
 
-Dette problemet ble [nevnt](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) av Jed den 18. april i en e-post til Mark, der han skrev:
+Dette problemet ble [nevnt](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) av Jed den 18. april i en e-post til Mark, der han skrev:
 
 
 > "Jeg kan ikke fortelle hvor stort et problem det vil være å mangle 80k BTC hvis prisen går til $ 100 eller noe. Det er ganske mye å skylde på det tidspunktet, men mtgox burde ha tjent massevis av BTC (Bitcoin) å komme dit. Det er også fortsatt det faktum at BTC (Bitcoin) -balansen sannsynligvis aldri vil falle under 80k. Så kanskje du egentlig ikke trenger å bekymre deg for det."
@@ -608,7 +608,7 @@ Den 6. juni lanserte Bitcoin Consultancy (https://bitcointalk.org/index.php?topi
 
 
 
-I Øst-Europa ble Bitomat-plattformen, med base i Polen, [lansert](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) 4. april. Grensesnittet var rudimentært, men gjorde det mulig for polske brukere å veksle zlotyene sine til bitcoins. Det er også verdt å nevne Cavirtex, [åpnet](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. juli, som opererte i Canada.
+I Øst-Europa ble Bitomat-plattformen, med base i Polen, [lansert](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) 4. april. Grensesnittet var rudimentært, men gjorde det mulig for polske brukere å veksle zlotyene sine til bitcoins. Det er også verdt å nevne Cavirtex, [åpnet](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. juli, som opererte i Canada.
 
 
 
@@ -1270,7 +1270,7 @@ Til tross for dette fortsatte GLBSE å operere. Tidlig på høsten var rundt 30 
 
 
 
-Et annet slikt prosjekt som dukket opp en tid senere, var MPEx, som ble skapt av en svært kontroversiell figur ved navn Mircea Popescu. Han var rumener, opprinnelig fra Transilvania, og var en produktiv skribent på bloggen [Trilema] (http://trilema.com/archives-categories/): Han skrev om alle emner (filosofi, politikk, seksualitet), i en bevisst provoserende stil, først på rumensk. Sommeren 2011 ble han interessert i Bitcoin og begynte å [snakke](http://trilema.com/2011/ce-este-bitcoin/) om det på bloggen sin.
+Et annet slikt prosjekt som dukket opp en tid senere, var MPEx, som ble skapt av en svært kontroversiell figur ved navn Mircea Popescu. Han var rumener, opprinnelig fra Transilvania, og var en produktiv skribent på bloggen [Trilema] (https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): Han skrev om alle emner (filosofi, politikk, seksualitet), i en bevisst provoserende stil, først på rumensk. Sommeren 2011 ble han interessert i Bitcoin og begynte å [snakke](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) om det på bloggen sin.
 
 
 
@@ -1286,7 +1286,7 @@ I august åpnet Mircea [https://bitcointalk.org/index.php?topic=15672.msg444367#
 
 
 
-I slutten av februar 2012 fortsatte han med en [pengeinnsamling](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) ved å utstede aksjer og obligasjoner, og samlet inn over 3200 bitcoins, eller rundt 16 000 dollar på den tiden. Den 11. april, etter en betafase, ble plattformen [endelig](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) plattformen endelig en bitcoin-børs som tillater utstedelse og handel med ulike aksjer, og ble omdøpt til MPEx(for "Mircea Popescu's Exchange").
+I slutten av februar 2012 fortsatte han med en [pengeinnsamling](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) ved å utstede aksjer og obligasjoner, og samlet inn over 3200 bitcoins, eller rundt 16 000 dollar på den tiden. Den 11. april, etter en betafase, ble plattformen [endelig](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) plattformen endelig en bitcoin-børs som tillater utstedelse og handel med ulike aksjer, og ble omdøpt til MPEx(for "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Deterministiske wallet er i stor grad skapt av den amerikanske utvikleren Gregor
 
 
 
-*Gregory Maxwell i 2006 (kilde: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell i 2006 (kilde: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Den 19. august offentliggjorde Casascius [delte](https://bitcointalk.org/index.p
 
 
 
-*Casascius' første bitcoins i 2011 (kilde: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius' første bitcoins i 2011 (kilde: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Modellen [avhengig] (https://im.forre.st/pb/85341005.txt) på en "sharechain, so
 
 
 
-*Visualisering av Sharechain (kilde: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Visualisering av Sharechain (kilde: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Etter utgivelsen av versjon 0.4 av programvaren 23. september, som markerte Gavi
 
 
 
-*Bilde av Bitcoin-Qt 0.5.2 i februar 2012 (kilde: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
+*Bilde av Bitcoin-Qt 0.5.2 i februar 2012 (kilde: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) for Wikimedia)*
 
 
 

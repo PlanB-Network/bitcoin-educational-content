@@ -43,7 +43,7 @@ GPG potpis je generisan korišćenjem softvera otvorenog koda pod nazivom GNU Pr
 S druge strane, ako neko želi da proveri autentičnost potpisane datoteke, može koristiti GPG za uvoz javnog ključa izdavača i njegovu verifikaciju.
 
 
-Za one koji su radoznali i žele da saznaju više o ovom fantastičnom softveru, možete se obratiti ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Za one koji su radoznali i žele da saznaju više o ovom fantastičnom softveru, možete se obratiti ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### Kako funkcioniše vremensko označavanje?

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Nostr** privaatne võti (formaat `nsec1...`)
- - Looge spetsiaalne kauplemisvõti [nostrkeygen.com](https://nostrkeygen.com/)
+ - Looge spetsiaalne kauplemisvõti [nostrkeygen.com](https://nostrtool.com/)
  - Oluline**: Ärge kunagi kasutage oma peamist isiklikku Nostr võtit
  - Hoidke oma isiklikku võtit turvalises kohas (paroolihaldur)
 
@@ -962,7 +962,7 @@ Bitcoini kasutajate jaoks, kes eelistavad autonoomiat ja konfidentsiaalsust, on 
 
 
 - [peamine GitHubi repositoorium](https://github.com/MostroP2P/mostro)
-- [Veebiklient](https://github.com/MostroP2P/mostro-web)
+- [Veebiklient](https://github.com/MostroP2P/app)
 - [Klient CLI](https://github.com/MostroP2P/mostro-cli)
 
 

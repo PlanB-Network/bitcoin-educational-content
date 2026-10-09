@@ -113,7 +113,7 @@ Dana Wallet 是一款安卓应用程序。APK 可通过开发人员提供的 F-D
 
 
 
-打开安卓设备上的 F-Droid 应用程序，然后通过右下角的图标进入 "设置"。选择 "资源库 "管理应用程序源。按 "+"按钮添加新资源库，然后扫描二维码或粘贴 "https://fdroid.silentpayments.dev/fdroid/repo "链接。添加版本库后，您将看到 Dana Wallet 的三个可用版本。选择 "Dana Wallet - Bookmark"，然后按 "安装"。
+打开安卓设备上的 F-Droid 应用程序，然后通过右下角的图标进入 "设置"。选择 "资源库 "管理应用程序源。按 "+"按钮添加新资源库，然后扫描二维码或粘贴 "https://fdroid.danawallet.app/fdroid/repo "链接。添加版本库后，您将看到 Dana Wallet 的三个可用版本。选择 "Dana Wallet - Bookmark"，然后按 "安装"。
 
 
 
@@ -410,7 +410,7 @@ Dana Wallet 是在无风险环境下学习静默支付的重要教育工具。�
 
 
 - Dana Wallet GitHub 代码库：https://github.com/cygnet3/danawallet
-- F-Cold 押金： https://fdroid.silentpayments.dev
+- F-Cold 押金： https://fdroid.danawallet.app/fdroid/repo/
 - 静默支付社区网站：https://silentpayments.xyz
 - 规格 BIP-352: https://bips.dev/352
 

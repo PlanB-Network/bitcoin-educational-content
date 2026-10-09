@@ -309,7 +309,7 @@ Saint-Pierre 修道院長主張，Louis XIV 的統治，以其奢華宮廷與對
 
 在經濟思想方面，他始終應用效用原則，很像 Jeremy Bentham 後來所做的那樣，並且常提出健全洞見。公平地說，他仍受到重商主義思想影響；在那個時代，沒有人已完全擺脫它。
 
-不過，Saint-Pierre 修道院長對經濟也作了一些準確觀察。甚至早於常被認為提出此觀念的 *Condillac*，他就明白指出，在任何交換中，雙方都會受益。這可見於他 1733 年的[《改善法國貿易計畫》](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)，其中他寫道：
+不過，Saint-Pierre 修道院長對經濟也作了一些準確觀察。甚至早於常被認為提出此觀念的 *Condillac*，他就明白指出，在任何交換中，雙方都會受益。這可見於他 1733 年的[《改善法國貿易計畫》](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/)，其中他寫道：
 
 > 當商人之間完成一筆買賣時，賣方獲益，買方也獲益；因為如果雙方沒有某種真實或感知到的利益，賣方就不會以如此價格出售，買方也不會以如此價格購買。
 
@@ -469,7 +469,7 @@ Gournay 圈子的思想產出，對思想史產生重大影響。從這個意義
 
 ![法國經濟出版研究，1566-1789。](assets/en/035.webp)
 
-為了在法國人民中傳播對經濟討論的興趣，Gournay 與他的朋友努力透過小說使其更易接近。在批評行會的《行業備忘錄》之後，Gournay 與 Cliquot-Blervache 幫助 Gabriel-François Coyer 寫了一部短篇諷刺小說 Chinki：[《適用於其他國家的交趾支那故事》](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf)。
+為了在法國人民中傳播對經濟討論的興趣，Gournay 與他的朋友努力透過小說使其更易接近。在批評行會的《行業備忘錄》之後，Gournay 與 Cliquot-Blervache 幫助 Gabriel-François Coyer 寫了一部短篇諷刺小說 Chinki：[《適用於其他國家的交趾支那故事》](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf)。
 
 ![Gabriel-François Coyer 修道院長，《Chinki》](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Quesnay 簡明地說：
 
 重農主義者已看見政府干預造成的損害，尤其是在穀物貿易中。他們說，必須承認，當局永遠無法像個人那樣管理商業，因為它需要回應每一種需求，並對需求或供給的每一項變化作出反應。所有這些，都遠遠超出即使是人們能想像的最明智政府之能力。因此，必須讓事物自行存在，讓它們流動。
 
-貿易本質上有益，必須完全且徹底自由。他們的一位成員 Le Trosne 甚至寫了一本小冊子，題為 [*穀物貿易自由：永遠有用，從不有害*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/)。
+貿易本質上有益，必須完全且徹底自由。他們的一位成員 Le Trosne 甚至寫了一本小冊子，題為 [*穀物貿易自由：永遠有用，從不有害*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/)。
 
 ### 第五原則：所有人皆兄弟
 

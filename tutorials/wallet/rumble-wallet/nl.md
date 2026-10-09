@@ -27,7 +27,7 @@ Dankzij een samenwerking met MoonPay is het ook mogelijk om Bitcoin en andere cr
 ## 2. Hoe installeer je Rumble Wallet?
 
 
-De applicatie kan worden geïnstalleerd op zowel [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) als iOS via hun respectievelijke officiële winkels.
+De applicatie kan worden geïnstalleerd op zowel [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) als iOS via hun respectievelijke officiële winkels.
 
 
 ![Image](assets/fr/01.webp)

@@ -39,7 +39,7 @@ Blockstream Jade - 移动比特币硬件钱包完整教程，由BTCsession提供
 
 更新Jade的固件后，选择在您想要使用的网络和安全策略上设置Jade。
 
-> 提示：登录屏幕下方显示的安全策略列在类型下。如果您不确定是选择单签名还是多签名盾，请查看我们的指南。(https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> 提示：登录屏幕下方显示的安全策略列在类型下。如果您不确定是选择单签名还是多签名盾，请查看我们的指南。(https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -192,7 +192,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 
 ![image](assets/22.webp)
 
-来源：https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+来源：https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 如果您更倾向于使用移动设备，可以将其与Blockstream Green一起使用

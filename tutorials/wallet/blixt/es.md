@@ -663,7 +663,7 @@ Mientras tanto, aquí tienes todos los enlaces sobre este asombroso Nodo de Rayo
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - vídeo promocional (puede probar el primer uso de LN)
 - [Folleto A4 imprimible con los primeros pasos para utilizar Blixt, en varios idiomas](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt también ofrece una demo completamente funcional](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) directamente en su sitio web o en una versión web dedicada, para tener una experiencia completa de prueba, antes de empezar a usar en el mundo real.
+- [Blixt también ofrece una demo completamente funcional](https://blixtwallet.github.io/) directamente en su sitio web o en una versión web dedicada, para tener una experiencia completa de prueba, antes de empezar a usar en el mundo real.
 
 
 ---

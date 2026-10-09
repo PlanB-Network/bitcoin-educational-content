@@ -29,7 +29,7 @@ A assinatura GPG é obtida com o uso de um software de código aberto chamado GN
 
 Por outro lado, se alguém quiser verificar a autenticidade de um arquivo assinado, pode usar o GPG para importar a chave pública do emissor e verificar. Na segunda parte do tutorial, veremos como fazer isso com um terminal.
 
-Para aqueles que estão curiosos e querem aprender mais sobre este fantástico software, você pode se referir a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Para aqueles que estão curiosos e querem aprender mais sobre este fantástico software, você pode se referir a ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Como funciona o carimbo de tempo?
 

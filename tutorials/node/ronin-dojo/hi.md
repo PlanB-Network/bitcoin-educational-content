@@ -87,7 +87,7 @@ Bitcoin नेटवर्क में सही मायने में भ�
 जैसा कि पहले बताया गया है, सबसे आसान विकल्प टैंटो को ऑर्डर करना है, जो एक प्लग-एंड-प्ले मशीन है जिसे विशेष रूप से इस उद्देश्य के लिए डिज़ाइन किया गया है। अपना ऑर्डर देने के लिए, यहाँ जाएँ: [लिंक](https://shop.ronindojo.io/product-category/nodes/)।
 
 
-चूंकि रोनीनडोजो टीमें ओपन-सोर्स कोड बनाती हैं, इसलिए रोनीनडोजो को अन्य मशीनों पर लागू करना भी संभव है। आप इस पृष्ठ पर इंस्टॉलेशन विज़ार्ड के नवीनतम संस्करण पा सकते हैं: [लिंक](https://ronindojo.io/en/downloads.html), और इस पृष्ठ पर कोड के नवीनतम संस्करण: [लिंक](https://code.samourai.io/ronindojo/RoninDojo)।
+चूंकि रोनीनडोजो टीमें ओपन-सोर्स कोड बनाती हैं, इसलिए रोनीनडोजो को अन्य मशीनों पर लागू करना भी संभव है। आप इस पृष्ठ पर इंस्टॉलेशन विज़ार्ड के नवीनतम संस्करण पा सकते हैं: [लिंक](https://ronindojo.io/downloads), और इस पृष्ठ पर कोड के नवीनतम संस्करण: [लिंक](https://code.samourai.io/ronindojo/RoninDojo)।
 
 
 व्यक्तिगत रूप से, मैंने इसे Raspberry Pi 4 8GB पर स्थापित किया और सब कुछ ठीक से काम करता है।
@@ -118,7 +118,7 @@ Bitcoin नेटवर्क में सही मायने में भ�
 एक बार जब आप अपनी मशीन को असेंबल कर लें, तो आप रोनीनडोजो की स्थापना शुरू कर सकते हैं। ऐसा करने के लिए, उस पर उपयुक्त डिस्क इमेज को बर्न करके बूट करने योग्य माइक्रो एसडी कार्ड बनाना शुरू करें।
 
 
-अपने माइक्रो एसडी कार्ड को अपने पर्सनल कंप्यूटर में डालें, फिर रोनीनओएस डिस्क इमेज डाउनलोड करने के लिए आधिकारिक रोनीनडोजो वेबसाइट पर जाएं: https://ronindojo.io/en/downloads.html.
+अपने माइक्रो एसडी कार्ड को अपने पर्सनल कंप्यूटर में डालें, फिर रोनीनओएस डिस्क इमेज डाउनलोड करने के लिए आधिकारिक रोनीनडोजो वेबसाइट पर जाएं: https://ronindojo.io/downloads.
 
 
 अपने हार्डवेयर से संबंधित डिस्क छवि डाउनलोड करें। मेरे मामले में, मैंने "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" छवि डाउनलोड की:
@@ -130,7 +130,7 @@ Bitcoin नेटवर्क में सही मायने में भ�
 एक बार छवि डाउनलोड हो जाने के बाद, संबंधित .SHA256 फ़ाइल का उपयोग करके इसकी अखंडता को सत्यापित करें। मैं इस लेख में विस्तार से बताऊंगा कि यह कैसे करना है: विंडोज पर Bitcoin सॉफ़्टवेयर की अखंडता को कैसे सत्यापित करें?
 
 
-रोनीनओएस की अखंडता को सत्यापित करने के लिए विशिष्ट निर्देश भी इस पृष्ठ पर उपलब्ध हैं: https://wiki.ronindojo.io/en/extras/verify.
+रोनीनओएस की अखंडता को सत्यापित करने के लिए विशिष्ट निर्देश भी इस पृष्ठ पर उपलब्ध हैं: https://docs.ronindojo.io/install/verify-os/.
 
 
 इस छवि को अपने माइक्रो एसडी कार्ड पर बर्न करने के लिए, आप Balena Etcher जैसे सॉफ्टवेयर का उपयोग कर सकते हैं, जिसे आप यहां से डाउनलोड कर सकते हैं: https://www.balena.io/etcher/.
@@ -508,16 +508,16 @@ Tor Address को .onion में समाप्त करें और फ�
 
 इस बाधा का एक समाधान एक ऐसी मशीन पर व्हर्लपूलसीएलआई का उपयोग करना है जो लगातार चालू रहने के लिए अभिप्रेत है, जैसे कि Bitcoin नोड। इसके साथ, हमारे UTXO को हमारे Bitcoin नोड के अलावा किसी अन्य मशीन को चालू रखने की आवश्यकता के बिना 24/7 रीमिक्स किया जा सकता है।
 
-व्हर्लपूलसीएलआई का उपयोग व्हर्लपूलजीयूआई के साथ किया जाता है, जो एक ग्राफिकल जीडब्ल्यू-75 है जिसे कॉइनजॉइन के आसान प्रबंधन के लिए व्यक्तिगत कंप्यूटर पर इंस्टॉल किया जाना चाहिए। मैं इस लेख में विस्तार से बताऊंगा कि अपने डोजो के साथ Whirlpool CLI को कैसे सेट अप करें: [लिंक](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)।
+व्हर्लपूलसीएलआई का उपयोग व्हर्लपूलजीयूआई के साथ किया जाता है, जो एक ग्राफिकल जीडब्ल्यू-75 है जिसे कॉइनजॉइन के आसान प्रबंधन के लिए व्यक्तिगत कंप्यूटर पर इंस्टॉल किया जाना चाहिए। मैं इस लेख में विस्तार से बताऊंगा कि अपने डोजो के साथ Whirlpool CLI को कैसे सेट अप करें: [लिंक](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez)।
 
 
-सामान्य रूप से CoinJoin के बारे में अधिक जानने के लिए, मैं इस लेख में सब कुछ समझाता हूं: [लिंक](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin)।
+सामान्य रूप से CoinJoin के बारे में अधिक जानने के लिए, मैं इस लेख में सब कुछ समझाता हूं: [लिंक](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin)।
 
 
 ### Whirlpool स्टेट टूल का उपयोग करना.
 
 
-Whirlpool के साथ CoinJoins करने के बाद, आप अपने मिश्रित UTXOs की गोपनीयता के वास्तविक स्तर को जानना चाह सकते हैं। Whirlpool स्टेट टूल आपको यह आसानी से करने की अनुमति देता है। इस टूल से, आप अपने मिश्रित UTXOs के संभावित स्कोर और पूर्वव्यापी स्कोर की गणना कर सकते हैं। इन एनॉन सेटों की गणना करने और उनके काम करने के तरीके के बारे में अधिक जानने के लिए, मैं इस अनुभाग को पढ़ने की सलाह देता हूँ: [लिंक](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)।
+Whirlpool के साथ CoinJoins करने के बाद, आप अपने मिश्रित UTXOs की गोपनीयता के वास्तविक स्तर को जानना चाह सकते हैं। Whirlpool स्टेट टूल आपको यह आसानी से करने की अनुमति देता है। इस टूल से, आप अपने मिश्रित UTXOs के संभावित स्कोर और पूर्वव्यापी स्कोर की गणना कर सकते हैं। इन एनॉन सेटों की गणना करने और उनके काम करने के तरीके के बारे में अधिक जानने के लिए, मैं इस अनुभाग को पढ़ने की सलाह देता हूँ: [लिंक](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)।
 
 
 यह टूल आपके रोनीनडोजो पर पहले से इंस्टॉल है। अभी के लिए, यह केवल रोनीनसीएलआई से ही उपलब्ध है। इसे मुख्य मेनू से लॉन्च करने के लिए, यहाँ जाएँ:
@@ -604,7 +604,7 @@ WST फिर पूर्वव्यापी स्कोर (बैकवर
 कृपया ध्यान दें कि आपके UTXO का संभावित स्कोर आपके शुरुआती मिक्स के txid के आधार पर गणना किया जाता है, न कि आपके पिछले मिक्स के आधार पर। इसके विपरीत, UTXO का पूर्वव्यापी स्कोर पिछले चक्र के txid के आधार पर गणना किया जाता है।
 
 
-एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
+एक बार फिर, यदि आप एनॉन सेट की इन अवधारणाओं को नहीं समझते हैं, तो मैं CoinJoin पर मेरे लेख के इस भाग को पढ़ने की सलाह देता हूं जहां मैं चित्रों के साथ विस्तार से सब कुछ समझाता हूं: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliq%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### बोल्ट्ज़मान कैलकुलेटर का उपयोग करना।
@@ -968,7 +968,7 @@ Bisq सॉफ़्टवेयर को पुनः प्रारंभ �
 यदि टर्मिनल का उपयोग करने से आपको डर नहीं लगता है और यदि आपको Lightning Network से संबंधित उपकरणों की आवश्यकता नहीं है, तो रोनिनडोजो आपके लिए उपयुक्त हो सकता है।
 
 
-यदि आप कर सकते हैं, तो उन डेवलपर्स को दान देने पर विचार करें जो आपके लिए इन ओपन-सोर्स सॉफ़्टवेयर का स्वतंत्र रूप से उत्पादन करते हैं: https://donate.ronindojo.io/
+यदि आप कर सकते हैं, तो उन डेवलपर्स को दान देने पर विचार करें जो आपके लिए इन ओपन-सोर्स सॉफ़्टवेयर का स्वतंत्र रूप से उत्पादन करते हैं: https://docs.ronindojo.io/main/donations/
 
 
 रोनीनडोजो के बारे में अधिक जानने के लिए, मैं नीचे दिए गए मेरे बाहरी संसाधनों में दिए गए लिंक की जांच करने की सलाह देता हूं।
@@ -992,5 +992,5 @@ Bisq सॉफ़्टवेयर को पुनः प्रारंभ �
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introduction-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

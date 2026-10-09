@@ -387,7 +387,7 @@ Dabei ersetzen Sie f8a43fc363ea428db5c53b3559935f1f mit dem Wert, der vor dem Na
 
 ##### LNURL für eine Lightning-Adresse und umgekehrt
 
-Versuchen Sie diesen [Encoder](https://lnurl-codec.netlify.app/) von fiatjaf oder [diesen](https://lightningdecoder.com/). Um eine LNURLp zu bezahlen oder zu überprüfen, können Sie auch [LNurlpay](https://wwww.lnurlpay.com/) verwenden. Es sollte HTTPS NOT HTTP angegeben werden.
+Versuchen Sie diesen [Encoder](https://lnurl-codec.netlify.app/) von fiatjaf oder [diesen](https://lightningdecoder.com/). Um eine LNURLp zu bezahlen oder zu überprüfen, können Sie auch [LNurlpay](https://www.lnurlpay.com/) verwenden. Es sollte HTTPS NOT HTTP angegeben werden.
 
 ##### Konfigurieren Sie einen Kommentar, den die Leute sehen, wenn sie bei meinem LNURLp QR bezahlen
 

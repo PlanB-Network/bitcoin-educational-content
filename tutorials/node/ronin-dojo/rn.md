@@ -968,7 +968,7 @@ Twarabonye ingene twoshiramwo no gutangura n’iki gikoresho ciza cane ari co Ro
 Nimba gukoresha terminal bitagutera ubwoba kandi nimba udakeneye ibikoresho bijanye na Lightning Network, rero RoninDojo yoshobora kugukwegera.
 
 
-Niba ushobora, niwiyumvire gutanga intererano ku bategura porogarama bagukorera mu mwidegemvyo: https://donate.ronindojo.io/
+Niba ushobora, niwiyumvire gutanga intererano ku bategura porogarama bagukorera mu mwidegemvyo: https://docs.ronindojo.io/main/donations/
 
 
 Kugira ngo umenye vyinshi ku vyerekeye RoninDojo, ndagusavye kuraba amahuzu ari mu bikoresho vyanje vyo hanze biri aha hepfo.

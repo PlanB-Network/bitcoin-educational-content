@@ -41,7 +41,7 @@ Pokud nepotřebujete všeobecné funkce nebo ty související s Lightning Networ
 Nyní, když jsme představili RoninDojo, pojďme se společně podívat, jak tento uzel nastavit.
 
 ## Jaký hardware vybrat pro instalaci RoninDojo v2?
-RoninDojo nabízí obraz pro automatickou instalaci svého softwaru na [RockPro64](https://ronindojo.io/en/download). Nicméně, náš tutoriál se zaměřuje na manuální instalační proceduru na Raspberry Pi 4. Ačkoli byl nedávno spuštěn Raspberry Pi 5 a tento tutoriál by teoreticky měl být kompatibilní s tímto novým modelem, osobně jsem jej ještě neměl šanci otestovat a od komunity jsem nenašel žádnou zpětnou vazbu. Jakmile získám Pi 5 a kompatibilní komponenty, aktualizuji tento tutoriál, abych vás informoval. Mezitím doporučuji dát přednost Pi 4, protože pro můj uzel funguje perfektně.
+RoninDojo nabízí obraz pro automatickou instalaci svého softwaru na [RockPro64](https://ronindojo.io/downloads). Nicméně, náš tutoriál se zaměřuje na manuální instalační proceduru na Raspberry Pi 4. Ačkoli byl nedávno spuštěn Raspberry Pi 5 a tento tutoriál by teoreticky měl být kompatibilní s tímto novým modelem, osobně jsem jej ještě neměl šanci otestovat a od komunity jsem nenašel žádnou zpětnou vazbu. Jakmile získám Pi 5 a kompatibilní komponenty, aktualizuji tento tutoriál, abych vás informoval. Mezitím doporučuji dát přednost Pi 4, protože pro můj uzel funguje perfektně.
 Z mé strany provozuji RoninDojo na Raspberry Pi vybaveném 8 GB RAM. Ačkoli někteří členové komunity dokázali zprovoznit zařízení pouze s 4 GB RAM, tuto konfiguraci jsem osobně netestoval. Vzhledem k malému cenovému rozdílu se zdá být rozumné zvolit verzi s 8 GB RAM. To by se také mohlo ukázat jako užitečné, pokud plánujete v budoucnu svůj Raspberry Pi využít pro jiné účely.
 Je důležité poznamenat, že týmy RoninDojo hlásily časté problémy související s pouzdrem a adaptérem SSD. S těmito problémy jsem se setkal i já. **Proto se důrazně doporučuje vyhnout pouzdrům vybaveným USB kabelem pro SSD vašeho uzlu.** Místo toho preferujte kartu pro rozšíření úložiště speciálně navrženou pro vaše Raspberry Pi:
 
@@ -498,12 +498,12 @@ Ohledně dalších záložek dostupných na vašem dashboardu RoninUI:
 - `System Info`: Poskytuje obecné informace o vašem uzlu, jako je teplota CPU, využití úložného prostoru nebo data RAM. Najdete zde také možnosti `Reboot` a `Shut down` pro restart nebo vypnutí vašeho uzlu;
 - `Settings`: Umožňuje změnit heslo uživatele.
 
-To je vše! Děkuji, že jste sledovali tento tutoriál až do konce. Pokud se vám líbil, povzbuzuji vás, abyste ho sdíleli na sociálních médiích. Kromě toho, pokud máte příležitost, zvažte podporu vývojářů, kteří tyto volně dostupné a open-source softwary poskytují naší komunitě prostřednictvím daru: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Pro prohloubení vašich znalostí o RoninDojo a objevení dalších zdrojů, vřele doporučuji konzultovat odkazy na níže uvedené externí zdroje.
+To je vše! Děkuji, že jste sledovali tento tutoriál až do konce. Pokud se vám líbil, povzbuzuji vás, abyste ho sdíleli na sociálních médiích. Kromě toho, pokud máte příležitost, zvažte podporu vývojářů, kteří tyto volně dostupné a open-source softwary poskytují naší komunitě prostřednictvím daru: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Pro prohloubení vašich znalostí o RoninDojo a objevení dalších zdrojů, vřele doporučuji konzultovat odkazy na níže uvedené externí zdroje.
 
 **Externí zdroje:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159](https://medium.com/@laurentmt/představujeme-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

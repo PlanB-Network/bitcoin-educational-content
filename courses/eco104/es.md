@@ -737,7 +737,7 @@ En esta sección, profundizaremos en las diferentes capas de transacción, ya se
 
 La blockchain de Bitcoin está compuesta por bloques, como sugiere su nombre. Estos bloques tienen un tamaño máximo teórico de 4 megabytes. _Dicho esto, el tamaño promedio de bloque en el momento de escribir esto es de alrededor de 1.5mb._ Debido a este límite, hay una restricción en cuántas transacciones Bitcoin puede procesar por segundo, que está entre siete a diez transacciones por segundo (tps).
 
-Por lo tanto, te podrías preguntar: ¿Cómo puede la blockchain de Bitcoin competir posiblemente con redes como Visa o Mastercard que transaccionan a [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Por lo tanto, te podrías preguntar: ¿Cómo puede la blockchain de Bitcoin competir posiblemente con redes como Visa o Mastercard que transaccionan a [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 La respuesta es simple. No está compitiendo con ellas.
 
@@ -1047,14 +1047,14 @@ Probablemente te estés preguntando: ¿Cuál es el problema aquí?
 
 Enviar dinero al extranjero a través de un servicio de transferencia de dinero como Western Union no es gratuito. Cuesta dinero, y no solo un poco, sino una cantidad significativa.
 
-Enviar \$100 USD de vuelta a Tonga incurre en un costo de [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) más una pérdida adicional de \$8.60 debido al tipo de cambio desfavorable. Esto significa que más del 21% del monto total enviado va a Western Union, una corporación multinacional. Como resultado, una suma considerable que podría haber estado en manos de familias tonganas merecedoras termina en los bolsillos del proveedor de servicios de transferencia de dinero.
+Enviar \$100 USD de vuelta a Tonga incurre en un costo de [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) más una pérdida adicional de \$8.60 debido al tipo de cambio desfavorable. Esto significa que más del 21% del monto total enviado va a Western Union, una corporación multinacional. Como resultado, una suma considerable que podría haber estado en manos de familias tonganas merecedoras termina en los bolsillos del proveedor de servicios de transferencia de dinero.
 ¿Puedes imaginar los beneficios de tener un 21% adicional agregado a tus ingresos?
 
 Además, considerando que el PIB de Tonga fue de [\$469](https://tradingeconomics.com/tonga/gdp) millones en 2021, y el 45.5% de este proviene de remesas, las exorbitantes tarifas cobradas por enviar dinero a casa significan que Tonga está perdiendo un adicional de \$45.2 millones. Esta cantidad se traduciría en un aumento del 9.6% en el PIB si no fuera por estas tarifas.
 
 Y si pensabas que Tonga estaba solo en esto, piénsalo de nuevo.
 
-Aquí tienes una muestra de cuánto [cobra](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) Western Union por enviar \$100 dólares estadounidenses a algunas otras naciones prominentes:
+Aquí tienes una muestra de cuánto [cobra](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) Western Union por enviar \$100 dólares estadounidenses a algunas otras naciones prominentes:
 
 - **China:** tarifa de \$21.21 + pérdida de \$2.60 por tipo de cambio (23.81% de pérdida)
 - **Canadá, EE. UU., México:** tarifa de \$16.86 + pérdida de \$1.20 por tipo de cambio (18.06% de pérdida)
@@ -1258,9 +1258,9 @@ Pero Bitcoin también compite con métodos de transacción de capa dos, con tecn
 
 A pesar de los numerosos estudios que desmienten afirmaciones falsas, Bitcoin todavía es criticado a menudo como siendo utilizado principalmente para actividad ilícita. Una vez más, esto no podría estar más lejos de la verdad.
 
-Un [estudio](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) realizado por el ex subdirector de la CIA encontró que "las generalizaciones amplias sobre el uso de Bitcoin en finanzas ilícitas están significativamente exageradas." De hecho, desde 2016, menos del 1% del volumen total de transacciones de Bitcoin ha sido utilizado para actividad ilícita. En comparación, "algunos estiman la economía subterránea en un 11% a 12% del producto [interno](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) bruto de EE.UU.," de la cual la mayoría es facilitada usando el dólar estadounidense.
+Un [estudio](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) realizado por el ex subdirector de la CIA encontró que "las generalizaciones amplias sobre el uso de Bitcoin en finanzas ilícitas están significativamente exageradas." De hecho, desde 2016, menos del 1% del volumen total de transacciones de Bitcoin ha sido utilizado para actividad ilícita. En comparación, "algunos estiman la economía subterránea en un 11% a 12% del producto [interno](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) bruto de EE.UU.," de la cual la mayoría es facilitada usando el dólar estadounidense.
 
-Y según un informe de Chainalysis en 2020, la actividad ilícita solo representa aproximadamente el [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) de todas las transacciones de Bitcoin.
+Y según un informe de Chainalysis en 2020, la actividad ilícita solo representa aproximadamente el [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) de todas las transacciones de Bitcoin.
 
 Sin embargo, incluso con esta evidencia, se continúan haciendo declaraciones engañosas por parte de aquellos en el poder, como la Secretaria del Tesoro de EE.UU., Janet Yellen, [afirmando](https://home.treasury.gov/news/press-releases/jy0023), "Las criptomonedas han sido utilizadas para lavar las ganancias de los traficantes de drogas en línea; han sido una herramienta para financiar el terrorismo."
 
@@ -1446,7 +1446,7 @@ En última instancia, el futuro de las finanzas descentralizadas descansa en aqu
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-En el mundo globalizado de hoy, el acceso a los servicios financieros es un componente crítico de la participación económica e independencia. A pesar de esto, demasiadas personas aún están excluidas del sistema bancario tradicional, siendo las mujeres a menudo las que más sufren esta exclusión. Sorprendentemente, aunque innecesariamente, [un cuarto](https://www.worldbank.org/en/publication/globalfindex) de la población mundial sigue sin bancarizar, en países como Arabia Saudita, el [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) de las mujeres carecen de acceso a servicios bancarios básicos, impidiéndoles participar plenamente en la economía y sociedad de su país.
+En el mundo globalizado de hoy, el acceso a los servicios financieros es un componente crítico de la participación económica e independencia. A pesar de esto, demasiadas personas aún están excluidas del sistema bancario tradicional, siendo las mujeres a menudo las que más sufren esta exclusión. Sorprendentemente, aunque innecesariamente, [un cuarto](https://www.worldbank.org/en/publication/globalfindex) de la población mundial sigue sin bancarizar, en países como Arabia Saudita, el [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) de las mujeres carecen de acceso a servicios bancarios básicos, impidiéndoles participar plenamente en la economía y sociedad de su país.
 
 Aquí hay solo algunos ejemplos de las condiciones que las mujeres alrededor del mundo aún soportan hoy:
 

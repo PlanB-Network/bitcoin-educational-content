@@ -337,7 +337,7 @@ wallet از مدیریت چندین مینت به‌طور همزمان پشتی
 
 
 - مستندات فنی: [docs.cashu.space](https://docs.cashu.space)
-- فهرست ضرابخانه‌های عمومی: [bitcoinmints.com](https://bitcoinmints.com)
+- فهرست ضرابخانه‌های عمومی: [bitcoinmints.com](https://cashumints.space/)
 - وب‌سایت رسمی پروتکل: [cashu.space](https://cashu.space)
 
 

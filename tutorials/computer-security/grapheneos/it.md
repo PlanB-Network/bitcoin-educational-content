@@ -105,7 +105,7 @@ Ora che sei pronto, potresti notare quanto sia essenziale GrapheneOS all'install
 _App preinstallate_
 
 Gli unici due termini con cui potresti non essere familiare sono 'Auditor' e 'Vanadium'.
-- L'app [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) utilizza funzionalità di sicurezza basate sull'hardware per convalidare l'identità di un dispositivo insieme all'autenticità e all'integrità del sistema operativo. Verificherà che il dispositivo stia eseguendo il sistema operativo di serie con il bootloader bloccato e che non siano state apportate modifiche al sistema operativo.
+- L'app [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) utilizza funzionalità di sicurezza basate sull'hardware per convalidare l'identità di un dispositivo insieme all'autenticità e all'integrità del sistema operativo. Verificherà che il dispositivo stia eseguendo il sistema operativo di serie con il bootloader bloccato e che non siano state apportate modifiche al sistema operativo.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) è una variante del browser web Chromium rinforzata per la privacy e la sicurezza.
 
 

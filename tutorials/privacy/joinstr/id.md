@@ -631,7 +631,7 @@ Dengan latar belakang pengawasan keuangan yang terus meningkat, alat terdesentra
 
 
 
-- [Situs web resmi Joinstr](https://joinstr.xyz)
+- [Situs web resmi Joinstr](https://docs.joinstr.xyz/)
 - [Dokumentasi pengguna](https://docs.joinstr.xyz/users/using-joinstr)
 - [Dokumentasi teknis](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Kode sumber GitLab](https://gitlab.com/invincible-privacy/joinstr)

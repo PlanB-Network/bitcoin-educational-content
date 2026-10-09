@@ -294,7 +294,7 @@ https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 ![Image](assets/fr/15.webp)
 
 
-می‌توانید از پایه کد QR موجود در جعبه Jade Plus استفاده کنید. بسته به اینکه جمله ۱۲ یا ۲۴ کلمه‌ای را انتخاب کرده‌اید، جعبه مناسب را انتخاب کنید. همچنین می‌توانید [قالب را از وب‌سایت Blockstream چاپ کنید](https://help.blockstream.com/hc/article_attachments/41928319071769).
+می‌توانید از پایه کد QR موجود در جعبه Jade Plus استفاده کنید. بسته به اینکه جمله ۱۲ یا ۲۴ کلمه‌ای را انتخاب کرده‌اید، جعبه مناسب را انتخاب کنید. همچنین می‌توانید [قالب را از وب‌سایت Blockstream چاپ کنید](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 جید پلاس شما هر منطقه از کد QR شما را نمایش خواهد داد.

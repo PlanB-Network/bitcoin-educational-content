@@ -650,7 +650,7 @@ Joinstr 代表了真正去中心化的 Bitcoin 隐私解决方案。通过使用
 
 
 
-- [Joinstr官方网站](https://joinstr.xyz)
+- [Joinstr官方网站](https://docs.joinstr.xyz/)
 - [用户文档](https://docs.joinstr.xyz/users/using-joinstr)
 - [技术文件](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab源代码](https://gitlab.com/invincible-privacy/joinstr)

@@ -39,7 +39,7 @@ Setelah Jade Anda muncul di Green, perbarui Jade dengan mengklik Check for updat
 
 Setelah Anda memperbarui firmware Jade, pilih Setup Jade pada jaringan dan kebijakan keamanan yang ingin Anda gunakan.
 
-> Tip: Kebijakan keamanan tercantum di bawah Type pada layar login yang ditunjukkan di bawah ini. Jika Anda tidak yakin apakah akan memilih Singlesig atau Multisig Shield, silakan tinjau panduan kami di sini. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Tip: Kebijakan keamanan tercantum di bawah Type pada layar login yang ditunjukkan di bawah ini. Jika Anda tidak yakin apakah akan memilih Singlesig atau Multisig Shield, silakan tinjau panduan kami di sini. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -192,7 +192,7 @@ Anda sekarang telah berhasil mengatur dompet Anda dan Anda dapat mulai menerima,
 
 ![image](assets/22.webp)
 
-sumber: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+sumber: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### aplikasi green
 Jika Anda lebih banyak menggunakan panduan mobile, Anda bisa menggunakannya dengan Blockstream Green

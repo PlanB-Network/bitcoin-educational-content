@@ -1500,7 +1500,7 @@ Jeśli chcesz przygotować się na spokojniejsze chwile, możesz zaplanować kil
 - przynosząc **Nerdminer**, Bitaxe, FPGA lub nawet ASIC;
 - posiadanie **ulotki Bitcoin**;
 - burza mózgów na temat wizualizacji Bitcoin lub logo dla Twojej społeczności;
-- grając w **[Bitcoin gra karciana](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- grając w **[Bitcoin gra karciana](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - pokazujący **[btcmap.org](https://btcmap.org/)** mapę społeczności i handlowców;
 - wysyłanie lub odbieranie Bitcoin przy użyciu **Lightning**.
 
@@ -1871,7 +1871,7 @@ W zależności od Twojej dostępności i poziomu zaangażowania w Twojej społec
 
 - Noc w restauracji z okazji **Dnia Pizzy** 22 maja
 - Wieczór lub weekend na świętowanie kolejnego **Halving**
-- Rodzinny **wieczór gier** o Bitcoin i jego działaniu, z wykorzystaniem gier takich jak [Le Coin de Table](https://www.Maximalist.ovh/) lub [SHAmory](https://shamory.com/)
+- Rodzinny **wieczór gier** o Bitcoin i jego działaniu, z wykorzystaniem gier takich jak [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) lub [SHAmory](https://shamory.com/)
 - Warsztaty **Mining** prezentujące różne rodzaje sprzętu (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Popołudnie lub wieczór dla początkujących** z warsztatami tematycznymi
 - **Wspólne spotkanie z sąsiednimi społecznościami**

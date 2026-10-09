@@ -372,7 +372,7 @@ To begin, you'll want to reinstall Bitcoin Core on your virtual machine. For thi
 First, download the latest Bitcoin Core release and verify the file hashes to ensure no tampering has occurred.
 
 ```sh
-wget https://bitcoin.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
+wget https://bitcoincore.org/bin/bitcoin-core-22.0/bitcoin-22.0-x86_64-linux-gnu.tar.gz
 sha256sum bitcoin-22.0-x86_64-linux-gnu.tar.gz
 # Compare the output hash with the official hash
 ```

@@ -1521,7 +1521,7 @@ Umbrel은 필요에 따라 Bitcoin에만 집중하는 매우 미니멀한 기능
 
 
 
-Umbrel의 코드는 공개적으로 사용 가능하지만(Fork을 보고 수정할 수 있음) 진정한 오픈 소스 라이선스에는 속하지 않습니다. 실제로 umbrelOS는 [*PolyForm 비영리 1.0*] 라이선스(https://polyformproject.org/licenses/noncommercial/1.0.0/)에 따라 배포되지만, 일부 관련 개발 도구는 MIT 라이선스에 따라 사용할 수 있습니다.
+Umbrel의 코드는 공개적으로 사용 가능하지만(Fork을 보고 수정할 수 있음) 진정한 오픈 소스 라이선스에는 속하지 않습니다. 실제로 umbrelOS는 [*PolyForm 비영리 1.0*] 라이선스(https://polyformproject.org/licenses/noncommercial/1.0.0)에 따라 배포되지만, 일부 관련 개발 도구는 MIT 라이선스에 따라 사용할 수 있습니다.
 
 
 

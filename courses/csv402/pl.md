@@ -3272,7 +3272,7 @@ Oczywiście, w zależności od daty zapoznania się z tym kursem, interfejsy te 
 #### Przykład Interface
 
 
-Ten fragment kodu Rust pokazuje [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (zasób zamienny). Kod ten pochodzi z pliku `rgb20.rs` w standardowej bibliotece RGB. Przyjrzyjmy się mu, aby zrozumieć strukturę Interface i sposób, w jaki stanowi on pomost między, z jednej strony, Business Logic (zdefiniowanym w Schema), a z drugiej strony, funkcjami dostępnymi dla portfeli i użytkowników.
+Ten fragment kodu Rust pokazuje [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (zasób zamienny). Kod ten pochodzi z pliku `rgb20.rs` w standardowej bibliotece RGB. Przyjrzyjmy się mu, aby zrozumieć strukturę Interface i sposób, w jaki stanowi on pomost między, z jednej strony, Business Logic (zdefiniowanym w Schema), a z drugiej strony, funkcjami dostępnymi dla portfeli i użytkowników.
 
 
 ```rust

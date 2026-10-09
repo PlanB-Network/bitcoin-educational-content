@@ -256,7 +256,7 @@ eCash 模式是一種數位貨幣概念，可讓客戶進行相對保密的付�
 
 ### e-gold：網上的黃金
 
-私人電子貨幣的一個代表性例子是電子黃金系統。它就是所謂的「數位黃金貨幣」，意指可電子轉移且完全有相對應量黃金安全儲存的貨幣。它由 Douglas Jackson 和 Barry Downey 於 1996 年共同創立。Douglas Jackson 是一位居住在佛羅里達州的美國腫瘤科醫生，他是奧地利經濟學家 Friedrich von Hayek 的追隨者，並希望利用電子黃金創造一種「[更好的貨幣](https://blog.bettermoney.com/)」。
+私人電子貨幣的一個代表性例子是電子黃金系統。它就是所謂的「數位黃金貨幣」，意指可電子轉移且完全有相對應量黃金安全儲存的貨幣。它由 Douglas Jackson 和 Barry Downey 於 1996 年共同創立。Douglas Jackson 是一位居住在佛羅里達州的美國腫瘤科醫生，他是奧地利經濟學家 Friedrich von Hayek 的追隨者，並希望利用電子黃金創造一種「[更好的貨幣](https://web.archive.org/web/20250915190528/https://blog.bettermoney.com/)」。
 
 其原理是每個 e-gold 單位都可以轉換成真黃金。黃金儲備由美國一家名為 Gold & Silver Reserve Inc. (G&SR) 的公司管理。電腦系統由第二家在加勒比海聖基茨和尼維斯註冊的公司 e-gold Ltd. 管理。黃金並不是唯一涉及的金屬：用戶還可以持有和交換 e-silver、e-platinum 和 e-palladium，這些都是基於相同的模型。
 
@@ -276,7 +276,7 @@ e-gold 系統取得了巨大成功：在 2006 年的高峰期，它 [保證](htt
 
 ![Liberty Reserve logo in 2009](assets/zh-Hant/010.webp)
 
-2009 年的 Liberty Reserve 標誌 (來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
+2009 年的 Liberty Reserve 標誌 (來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.jpg))
 
 該系統與 e-gold 非常相似，只是資金（主要是美元）存放在離岸銀行帳戶，而不是私人金庫。Liberty Reserve 在2007年4月因 e-gold 關閉和 Douglas Jackson 及其合夥人被起訴而獲得了巨大的利益。2013 年 5 月，[根據美國司法部的資料](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)，該平台在全球擁有超過 100 萬名使用者，其中包括超過 20 萬名美國使用者，每年處理 1200 萬筆金融交易，總交易量超過 14 億美元。主要用於犯罪活動，但 [不僅限於](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/) 這些：Liberty Reserve 也被外匯交易商使用或用於海外轉帳。
 
@@ -420,7 +420,7 @@ bit gold 與 Bitcoin 的相似性非常顯著。該系統的三個組成部分 (
 
 ![Exchange in RPOW](assets/zh-Hant/018.webp)
 
-Hal Finney 不僅設計了這個模型，還親自實作。2004 年 8 月 15 日，他在密碼龐克郵件論壇上 [宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html) 推出 RPOW 系統，此外還在專用網站 (rpow.net) 上記錄其運作。之後，他在舊金山舉行的 CodeCon 2005 會議上 [發表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)，討論工作量證明代幣的潛在用途，即：價值轉移、垃圾郵件規範、電子遊戲中的商業、撲克等線上賭博，以及 BitTorrent 等檔案分享協定上的反吸血（anti-leeching）。
+Hal Finney 不僅設計了這個模型，還親自實作。2004 年 8 月 15 日，他在密碼龐克郵件論壇上 [宣布](https://lists.cpunks.org/archives/list/cypherpunks-legacy@lists.cpunks.org/message/M2HERXWHTGPIOUFP3JXOXTGZXWBHFYC5/) 推出 RPOW 系統，此外還在專用網站 (rpow.net) 上記錄其運作。之後，他在舊金山舉行的 CodeCon 2005 會議上 [發表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)，討論工作量證明代幣的潛在用途，即：價值轉移、垃圾郵件規範、電子遊戲中的商業、撲克等線上賭博，以及 BitTorrent 等檔案分享協定上的反吸血（anti-leeching）。
 
 然而，RPOW 有其內在的缺陷，這也解釋了為什麼它沒有取得預期的成功：
 
@@ -650,7 +650,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 > &nbsp;It's based on open market competition, and there will probably always be nodes willing to process transactions for free."。
 幾天之後，Hal Finney 針對這一貨幣政策在郵件論壇上[正面回應](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) 這項貨幣政策，他對於 「系統可以被設定為只允許某個最大數量的單位產生 」感到興奮。在他的電子郵件中，他估計如果 Bitcoin 成為「全球使用的主要支付系統」，那麼每個單位的「價值約為 1,000 萬美元」。他在結論中寫道：「今天用幾美分的計算時間就能產生單位的可能性 」可能是 「一個非常好的賭注」。即使這個估算值得商榷（因為它是基於相當於全球財富總額的 Bitcoin 估值），其推理也是合理的。
 
-1月16日，中本聰在發送給郵件列表的一封電子郵件中重申了「長期投資」的理念，他在其中描述了比特幣的潛在用例。他當時[聲明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，「如果它能流行起來，擁有一些可能是審慎的」，並且「如果有足夠多的人有相同的想法，那就會成為一個自我實現的預言」。一個月後，他[重申](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)了這一斷言，解釋說有限的單位數量很可能創造一個「積極的反饋循環」，即「用戶越多，價值增加越多，這可能會吸引更多渴望從不斷增長的價值中受益的用戶」。因此，投機因素從一開始就存在，目的是啟動該系統。
+1月16日，中本聰在發送給郵件列表的一封電子郵件中重申了「長期投資」的理念，他在其中描述了比特幣的潛在用例。他當時[聲明](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)，「如果它能流行起來，擁有一些可能是審慎的」，並且「如果有足夠多的人有相同的想法，那就會成為一個自我實現的預言」。一個月後，他[重申](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/3/)了這一斷言，解釋說有限的單位數量很可能創造一個「積極的反饋循環」，即「用戶越多，價值增加越多，這可能會吸引更多渴望從不斷增長的價值中受益的用戶」。因此，投機因素從一開始就存在，目的是啟動該系統。
 
 ### 監管、殭屍網絡和生態學
 
@@ -1095,7 +1095,7 @@ Gavin 也參與了軟體開發，[實作](https://sourceforge.net/p/Bitcoin/code
 
 ![Jeff Garzik in 2013](assets/zh-Hant/046.webp)
 
-Jeff Garzik 於 2013 年（資料來源：Jeff Garzik[Benson Samuel](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
+Jeff Garzik 於 2013 年（資料來源：Jeff Garzik[Benson Samuel](https://web.archive.org/web/20230607093908/https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 中本聰的首要目標是讓軟體和通訊協定更安全，以因應最近使用量的增加。他們與 Gavin Andresen 一起考慮可能發生的各種攻擊 (包括拒絕服務攻擊)，並努力修正發現的漏洞。就這樣，在 7 月 17 日加入了檢查點系統 ([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807))，防止鏈在某個日期之前被重寫，並在 7 月 25 日整合了工作的概念 ([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707))，以完善節點選擇正確鏈的機制。
 
@@ -1455,7 +1455,7 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 中本聰的消失是隨著 slashdot 事件後社群的成長而突然發生的，而最重要的原因是維基解密事件。Bitcoin 的創造者將專案交給了 Martti Malmi 和 Gavin Andresen，這兩個人在他的開發和溝通工作上給予了支持。
 
-他之後的去向不明。他的各個帳號（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:52186)、[Vistomail](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-August/010238.html)）出現了一些訊息，但這些帳號很可能已被駭客入侵。因此，中本聰的身份仍然不明，他透過使用 Tor 和尊重隱私的服務來維持匿名性。
+他之後的去向不明。他的各個帳號（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:52186)、[Vistomail](https://gnusha.org/pi/bitcoindev/6EC9DDF352DC4838AE9B088AB372428A25E1F42A@DS04/)）出現了一些訊息，但這些帳號很可能已被駭客入侵。因此，中本聰的身份仍然不明，他透過使用 Tor 和尊重隱私的服務來維持匿名性。
 
 多年來，關於他的線索不斷，Nick Szabo、Hal Finney、Adam Back 或 Len Sassaman 等知名人士的名字都曾被提及。在 2014 年，甚至有人認為他已被發現 Dorian Prentice 是中本聰，一位電信工程師，日裔歸化美國公民，與母親住在洛杉磯郊區的 Temple City。然而，中本聰至今仍是一個[謎](https://www.youtube.com/watch?v=0ETcLj5jBy4)。
 
@@ -1485,9 +1485,9 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 總體計劃是確保項目的可持續發展。這涉及到在更廣泛的受眾中建立一定的合法性。5 月 19 日，Mike Hearn [建議](https://web.archive.org/web/20110522075653/http://forum.Bitcoin.org:80/index.php?topic=8954.0) 參與專案的人使用他們的「真名」，也就是他們的公民姓名，這樣人們就不會起疑心。Gavin、Mike 等人在論壇上改用假名，顯示他們的全名。主要開發人員的名單也 [公佈](https://web.archive.org/web/20110530221415/http://www.Bitcoin.org:80/) 在網站的頭版。截至 5 月底，以這種方式呈現的開發者有：Gavin Andresen、Martti Malmi、Amir Taaki、Pieter Wuille、Nils Schneider 和 Jeff Garzik。
 
-協調方式也逐漸改善。除了論壇和 IRC 頻道 #Bitcoin-dev，還出現了專門用於開發的郵件論壇「Bitcoin-development」。它是由 Jeff Garzik 於 6 月 12 日 [建立](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-June/000000.html)。它允許正式討論要對 Bitcoin 進行的變更。8 月，開始討論專案的 [路線圖](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-August/000333.html)。論壇最初寄存在 SourceForge 上；2015 年 6 月會 [移轉](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-June/008975.html) 到 Linux 基金會網站，最後在 2024 年初 [移轉](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) 到 Google Group。
+協調方式也逐漸改善。除了論壇和 IRC 頻道 #Bitcoin-dev，還出現了專門用於開發的郵件論壇「Bitcoin-development」。它是由 Jeff Garzik 於 6 月 12 日 [建立](https://gnusha.org/pi/bitcoindev/BANLkTi=2VOhGTgX4HA_en00DATFbeWGVtg@mail.gmail.com/)。它允許正式討論要對 Bitcoin 進行的變更。8 月，開始討論專案的 [路線圖](https://gnusha.org/pi/bitcoindev/CABsx9T2pTg8YG_Q09cnAvsrxquLO-6cWr1tb=fdWtLPBEyJzng@mail.gmail.com/)。論壇最初寄存在 SourceForge 上；2015 年 6 月會 [移轉](https://gnusha.org/pi/bitcoindev/CAEz79PqV8OPQK7zx7oHkhtX8kS4tQkm9qzOva1KvJb7KO2zQmg@mail.gmail.com/) 到 Linux 基金會網站，最後在 2024 年初 [移轉](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) 到 Google Group。
 
-2011 年 9 月 19 日，Amir Taaki [啟用](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-September/000554.html) Bitcoin 改善提案系統，以 Python 程式語言特有的 Python Enhancement Proposals (PEP) 為藍本。這些 BIP 是描述通訊協定可能的變更或提供一般資訊給社群的文件。他描述了 BIP-1 的流程，稍後將由 Luke-Jr 的 BIP-2 取代。這些提案最初寄存在 [Bitcoin wiki](https://en.Bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743) 上。
+2011 年 9 月 19 日，Amir Taaki [啟用](https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/) Bitcoin 改善提案系統，以 Python 程式語言特有的 Python Enhancement Proposals (PEP) 為藍本。這些 BIP 是描述通訊協定可能的變更或提供一般資訊給社群的文件。他描述了 BIP-1 的流程，稍後將由 Luke-Jr 的 BIP-2 取代。這些提案最初寄存在 [Bitcoin wiki](https://en.Bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743) 上。
 
 在 Gavin Andresen 的監督下，軟體在幾個月內發佈了幾個版本：3 月 5 日發布 [v0.3.20](https://bitcointalk.org/index.php?topic=4167.msg60365#msg60365)，4 月 27 日發布 [v0.3.21](https://bitcointalk.org/index.php?topic=6642.msg97074#msg97074)，6 月 5 日發布 [v0.3.22](https://bitcointalk.org/index.php?topic=12269.msg170790#msg170790)，6 月 13 日發布 [v0.3.23](https://bitcointalk.org/index.php?topic=16553.msg215364#msg215364)，7 月 8 日發布 [v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270)。2011 年 9 月 23 日，新的主要版本 0.4 版正式 [釋出](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446)，象徵著開發繼承工作順利進行。
 
@@ -1527,7 +1527,7 @@ Amir Taaki 於 2012 年 12 月在布拉迪斯拉發（資料來源：[Mitch Altm
 
 第三個需要管理的是 Bitcoin 論壇。該論壇由 Martti 管理，但他很快就招募了版主。其中一位版主是 Theymos (真名 Michael Marquardt)，他獲得了額外的責任，尤其是共同管理論壇。該論壇使用 Simple Machines 論壇引擎運作，多年來沒有改變外觀。不過，它的 URL 變更了兩次。首先，在 5 月 17 日，論壇被 [移動](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963) 到 forum.Bitcoin.org。之後，在 8 月 1 日，它被 [移動](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531) 到一個新的頂級網域名稱：bitcointalk.org。多年來，它將被命名為 BitcoinTalk。
 
-隨著 2011 年夏天 Bitcoin 價值的上漲，Martti Malmi [出售](https://twitter.com/marttimalmi/status/1339908793736556544) 了一大部分 Bitcoin ，為自己在赫爾辛基附近買了一間舒適的公寓。之後，他 [離開](https://x.com/marttimalmi/status/1339908797968637952) 他的工作，到日本待了幾個月。他放棄了網站和論壇，[把](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它們](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993) 交給了 Theymos 和 Cøbra，[Martti 描述](https://forum.Bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-Bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222) Martti 曾形容 Cøbra 為「中本聰信任的人」。在接下來的幾年裡，這兩個人將共同管理這兩個平台。
+隨著 2011 年夏天 Bitcoin 價值的上漲，Martti Malmi [出售](https://twitter.com/marttimalmi/status/1339908793736556544) 了一大部分 Bitcoin ，為自己在赫爾辛基附近買了一間舒適的公寓。之後，他 [離開](https://x.com/marttimalmi/status/1339908797968637952) 他的工作，到日本待了幾個月。他放棄了網站和論壇，[把](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它們](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993) 交給了 Theymos 和 Cøbra，[Martti 描述](https://web.archive.org/web/20220821142738/https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222) Martti 曾形容 Cøbra 為「中本聰信任的人」。在接下來的幾年裡，這兩個人將共同管理這兩個平台。
 
 ### 會議
 
@@ -1557,7 +1557,7 @@ Renaud Lifchitz 於 2011 年 6 月 15 日所作的 Bitcoin 簡報 (來源：[論
 
 :::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
-當年 11 月，在布拉格舉行 [歐洲會議](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) 著名演講者包括開發人員 Amir Taaki、瑞典海盜黨創辦人 Rick Falkvinge 以及主持人 Max Keiser。隔年 2012 [將在倫敦](https://blog.bitmex.com/london-2012-the-2nd-Bitcoin-conference/) 舉辦類似的活動。
+當年 11 月，在布拉格舉行 [歐洲會議](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901) 著名演講者包括開發人員 Amir Taaki、瑞典海盜黨創辦人 Rick Falkvinge 以及主持人 Max Keiser。隔年 2012 [將在倫敦](https://web.archive.org/web/20250912184600/https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/) 舉辦類似的活動。
 
 ### 媒體報導
 

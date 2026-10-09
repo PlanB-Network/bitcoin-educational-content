@@ -56,7 +56,7 @@ Umbrel에서 제공하는 범용 기능이나 Lightning Network과 관련된 기
 
 ## 로닌도조 v2를 설치하기 위해 어떤 하드웨어를 선택해야 하나요?
 
-로닌도조는 [RockPro64]에 소프트웨어를 자동으로 설치하는 이미지를 제공합니다(https://ronindojo.io/en/download). 하지만 이 튜토리얼은 라즈베리 파이 4의 수동 설치 절차에 중점을 두고 있습니다. 라즈베리 파이 5는 최근에 출시되었고 이론적으로는 이 튜토리얼이 이 새로운 모델과 호환되어야 하지만, 아직 개인적으로 테스트할 기회가 없었고 커뮤니티에서 피드백을 찾지 못했습니다. Pi 5와 호환되는 구성 요소를 확보하는 대로 이 튜토리얼을 업데이트하여 계속 알려드리겠습니다. 그 동안에는 제 노드에 완벽하게 작동하는 Pi 4를 우선적으로 사용하는 것이 좋습니다.
+로닌도조는 [RockPro64]에 소프트웨어를 자동으로 설치하는 이미지를 제공합니다(https://ronindojo.io/downloads). 하지만 이 튜토리얼은 라즈베리 파이 4의 수동 설치 절차에 중점을 두고 있습니다. 라즈베리 파이 5는 최근에 출시되었고 이론적으로는 이 튜토리얼이 이 새로운 모델과 호환되어야 하지만, 아직 개인적으로 테스트할 기회가 없었고 커뮤니티에서 피드백을 찾지 못했습니다. Pi 5와 호환되는 구성 요소를 확보하는 대로 이 튜토리얼을 업데이트하여 계속 알려드리겠습니다. 그 동안에는 제 노드에 완벽하게 작동하는 Pi 4를 우선적으로 사용하는 것이 좋습니다.
 
 저는 8GB RAM이 장착된 라즈베리파이에서 로닌도조를 실행하고 있습니다. 일부 커뮤니티 회원은 RAM이 4GB밖에 없는 기기에서도 작동하는 데 성공했지만, 저는 이 구성을 직접 테스트해 보지는 않았습니다. 가격 차이가 크지 않다는 점을 감안할 때 8GB RAM 버전을 선택하는 것이 현명해 보입니다. 이는 향후 다른 용도로 라즈베리 파이의 용도를 변경하려는 경우에도 유용할 수 있습니다.
 
@@ -824,7 +824,7 @@ RoninUI 대시보드에서 사용할 수 있는 다른 탭에 대해 설명합�
 - 설정`으로 이동합니다: 사용자 비밀번호를 변경할 수 있습니다.
 
 
-이제 끝났습니다! 이 튜토리얼을 끝까지 따라주셔서 감사합니다. 재미있게 보셨다면 소셜 미디어에 공유해 주시기 바랍니다. 또한, 기회가 된다면 기부를 통해 이러한 무료 오픈 소스 소프트웨어를 커뮤니티에 제공하는 개발자를 지원하는 것도 고려해 보세요: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). 로닌도조에 대한 지식을 넓히고 더 많은 리소스를 발견하려면 아래에 언급된 외부 리소스 링크를 참조하는 것이 좋습니다.
+이제 끝났습니다! 이 튜토리얼을 끝까지 따라주셔서 감사합니다. 재미있게 보셨다면 소셜 미디어에 공유해 주시기 바랍니다. 또한, 기회가 된다면 기부를 통해 이러한 무료 오픈 소스 소프트웨어를 커뮤니티에 제공하는 개발자를 지원하는 것도 고려해 보세요: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). 로닌도조에 대한 지식을 넓히고 더 많은 리소스를 발견하려면 아래에 언급된 외부 리소스 링크를 참조하는 것이 좋습니다.
 
 
 **외부 리소스:**
@@ -834,5 +834,5 @@ RoninUI 대시보드에서 사용할 수 있는 다른 탭에 대해 설명합�
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/소개하는-볼츠만-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

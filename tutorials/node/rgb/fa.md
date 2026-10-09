@@ -106,9 +106,9 @@ RGB سوراخ خرگوش خود را درون سوراخ خرگوش Bitcoin د�
 
 - متاسفانه نمی‌توانم محتوای وب‌سایت‌ها یا لینک‌های خارجی را مشاهده یا ترجمه کنم. اگر متنی دارید که می‌خواهید ترجمه شود، لطفاً آن را اینجا قرار دهید.
 - ۲ https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
-- ۳ https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2016-June/012773.html
-- ۴ https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-- ۵ https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
+- ۳ https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
+- ۴ https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md
+- ۵ https://github.com/RGB-WG/RFC/blob/master/RGB-0021.md
 
 
 ## آموزش RGB-node

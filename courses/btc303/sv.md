@@ -755,7 +755,7 @@ Det är omöjligt att säga, men vi vet några saker:
 - Med noll blockbidrag och en tom eller nästan tom Mempool kan saker och ting bli skakiga på grund av avgiftssnipning.
 
 
-Eftersom övergången till ett avgiftsfritt Block reward ligger så långt fram i tiden kan det vara klokt att inte dra förhastade slutsatser utan försöka åtgärda de potentiella problemen medan vi kan. Peter Todd tror till exempel att det finns en faktisk risk för att Bitcoin:s säkerhetsbudget inte kommer att räcka till i framtiden, och argumenterar därför för en liten evig inflation i Bitcoin. Men han tycker också att det inte är en bra idé att diskutera en sådan fråga just nu, som [han sa i What Bitcoin Did podcast](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+Eftersom övergången till ett avgiftsfritt Block reward ligger så långt fram i tiden kan det vara klokt att inte dra förhastade slutsatser utan försöka åtgärda de potentiella problemen medan vi kan. Peter Todd tror till exempel att det finns en faktisk risk för att Bitcoin:s säkerhetsbudget inte kommer att räcka till i framtiden, och argumenterar därför för en liten evig inflation i Bitcoin. Men han tycker också att det inte är en bra idé att diskutera en sådan fråga just nu, som [han sa i What Bitcoin Did podcast](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Men det är en risk som ligger 10, 20 år framåt i tiden. Det är en mycket lång tid. Och vem fan vet då vilka riskerna är?
@@ -851,7 +851,7 @@ Aaron van Wirdum beskriver denna slingrande väg i sin artikel i Bitcoin Magazin
 
 > Shaolinfry föreslog ett alternativ: en användaraktiverad Soft Fork (UASF). Istället för Hash-kraftaktivering skulle en användaraktiverad Soft Fork ha en "'flaggdagsaktivering' där noder påbörjar verkställighet vid en förutbestämd tidpunkt i framtiden." Så länge som en sådan UASF verkställs av en ekonomisk majoritet bör detta tvinga en majoritet av gruvarbetarna att följa (eller aktivera) Soft Fork.
 
-Han citerar bland annat Shaolinfrys e-postmeddelande till e-postlistan Bitcoin-dev. Vid det tillfället argumenterade Shaolinfry [mot Miner-aktiverade Soft-gafflar](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html) och listade ett antal problem med dem:
+Han citerar bland annat Shaolinfrys e-postmeddelande till e-postlistan Bitcoin-dev. Vid det tillfället argumenterade Shaolinfry [mot Miner-aktiverade Soft-gafflar](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/) och listade ett antal problem med dem:
 
 
 > För det första kräver det att man litar på att Hash-kraften kommer att valideras efter aktivering.  BIP66 Soft Fork var ett fall där 95 % av Hashrate signalerade beredskap, men i själva verket validerade ungefär hälften inte de uppgraderade reglerna och minade ett ogiltigt block av misstag.
@@ -884,7 +884,7 @@ Efter SegWit-driftsättningen uppstod en diskussion om driftsättningsmekanismer
 
 > Vid någon tidpunkt kommer vi förmodligen att vilja lägga till fler funktioner i Bitcoin-protokollet. Det här är en stor filosofisk fråga som vi ställer oss själva. Ska vi göra en UASF för nästa? Vad sägs om en hybridstrategi? Miner aktiverad i sig har uteslutits. bip9 kommer vi inte att använda igen.
 
-I januari 2020 skickade Matt Corallo [ett e-postmeddelande](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) till e-postlistan Bitcoin-dev som startade en diskussion om framtida Soft Fork-distributionsmekanismer. Han listade fem mål som han tyckte var väsentliga i en uppgradering. David Harding [sammanfattar dem i ett nyhetsbrev från Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) som:
+I januari 2020 skickade Matt Corallo [ett e-postmeddelande](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) till e-postlistan Bitcoin-dev som startade en diskussion om framtida Soft Fork-distributionsmekanismer. Han listade fem mål som han tyckte var väsentliga i en uppgradering. David Harding [sammanfattar dem i ett nyhetsbrev från Bitcoin Optech](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) som:
 
 
 > Möjligheten att avbryta om det finns allvarliga invändningar mot de föreslagna ändringarna av samförståndsreglerna . Tilldelning av tillräckligt med tid efter lanseringen av uppdaterad programvara för att säkerställa att de flesta ekonomiska noder uppgraderas för att genomdriva dessa regler . Förväntningen att nätverkets Hash-frekvens kommer att vara ungefär densamma före och efter förändringen, liksom under en eventuell övergång . Att så långt som möjligt förhindra att block skapas som är ogiltiga enligt de nya reglerna, vilket skulle kunna leda till falska bekräftelser i icke uppgraderade noder och SPV-klienter . Försäkran om att avbrytandemekanismerna inte kan missbrukas av "griefers" eller "partisaner" för att hålla inne en allmänt önskad uppgradering utan kända problem
@@ -956,7 +956,7 @@ Under dessa sju månader pågick diskussionen och det verkade som om det inte fa
 
 Tillvägagångssättet "låt oss se vad som händer" verkade äntligen klicka i människors sinnen. Denna process skulle senare komma att kallas "Speedy Trial" på grund av sin korta signaleringsperiod. David Harding förklarar denna idé för den bredare allmänheten i en
 
-[e-post till e-postlistan Bitcoin-dev](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[e-post till e-postlistan Bitcoin-dev](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Den tidigare versionen av detta förslag dokumenterades för över 200 dagar sedan och Taproot:s underliggande kod slogs samman till Bitcoin Core för över 140 dagar sedan Om vi hade startat Speedy Trial vid den tidpunkt då Taproot slogs samman (vilket är lite orealistiskt), skulle vi antingen ha varit mindre än två månader från att ha Taproot eller så skulle vi ha gått vidare till nästa aktiveringsförsök för över en månad sedan.
 >
@@ -1380,7 +1380,7 @@ Företag, privatpersoner och organisationer som har ett intresse av Bitcoin:s fo
 Människor får ibland intrycket att det finns mycket stridigheter och oändliga hetsiga debatter bland Bitcoin-utvecklare, och att de inte kan fatta beslut.
 
 
-Till exempel diskuterades Taproot:s utplaceringsmekanism under en lång tidsperiod under vilken två "läger" bildades. Det ena ville "misslyckas" med uppgraderingen om [gruvarbetarna](https://planb.academy/resources/glossary/miner) inte hade röstat för de nya reglerna med överväldigande majoritet efter en viss tidpunkt, medan det andra ville tillämpa reglerna efter den tidpunkten oavsett vad som hände. Michael Folkson sammanfattar argumenten från de två lägren i ett [email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) till Bitcoin-dev mailing list.
+Till exempel diskuterades Taproot:s utplaceringsmekanism under en lång tidsperiod under vilken två "läger" bildades. Det ena ville "misslyckas" med uppgraderingen om [gruvarbetarna](https://planb.academy/resources/glossary/miner) inte hade röstat för de nya reglerna med överväldigande majoritet efter en viss tidpunkt, medan det andra ville tillämpa reglerna efter den tidpunkten oavsett vad som hände. Michael Folkson sammanfattar argumenten från de två lägren i ett [email](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) till Bitcoin-dev mailing list.
 
 
 Debatten pågick till synes i all evighet, och det var verkligen Hard att se något samförstånd om detta bildas någon gång snart. Detta gjorde folk frustrerade och som ett resultat intensifierades hettan. Gregory Maxwell (som användaren nullc) oroade sig [på Reddit](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) för att de långa diskussionerna skulle göra uppgraderingen mindre säker:
@@ -1482,7 +1482,7 @@ Diskussionerna om skalning nådde sitt högsta intresse runt 2015-2017, då det 
 År 2015 hölls en konferens kallad [Scaling Bitcoin](https://scalingbitcoin.org/) i Montreal, med en uppföljningskonferens sex månader senare i Hong Kong och därefter på ett antal andra platser runt om i världen. Fokus låg just på hur man Address skalar. Många Bitcoin-utvecklare och andra entusiaster samlades på dessa konferenser för att diskutera olika skalningsfrågor och förslag. De flesta av dessa diskussioner kretsade inte kring ökningar av blockstorleken utan om mer långsiktiga lösningar.
 
 
-Efter Hongkongkonferensen i december 2015 sammanfattade Gregory Maxwell [sin syn](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) på många av de frågor som hade debatterats, och inledde med en allmän filosofi kring skalning:
+Efter Hongkongkonferensen i december 2015 sammanfattade Gregory Maxwell [sin syn](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) på många av de frågor som hade debatterats, och inledde med en allmän filosofi kring skalning:
 
 
 > Med den teknik som finns tillgänglig finns det grundläggande avvägningar mellan skala och decentralisering. Om systemet är för kostsamt kommer människor att tvingas lita på tredje part snarare än att självständigt upprätthålla systemets regler. Om Bitcoin Blockchain:s resursanvändning, i förhållande till den tillgängliga tekniken, är för stor, förlorar Bitcoin sina konkurrensfördelar jämfört med äldre system eftersom valideringen blir för kostsam (vilket utestänger många användare), vilket tvingar tillbaka förtroendet för systemet.  Om kapaciteten är för låg och våra transaktionsmetoder för ineffektiva kommer tillgången till kedjan för tvistlösning att vara för kostsam, vilket återigen tvingar tillbaka förtroendet i systemet.
@@ -1730,7 +1730,7 @@ sårbarheter. Hackare och datasäkerhetsforskare anser att det är deras sociala
 Det innebär att om du hittar ett säkerhetsproblem ska du rapportera det till det team som ansvarar för systemet. Men vad betyder detta i samband med Bitcoin? Ingen kontrollerar Bitcoin, men det finns för närvarande en samlingspunkt för Bitcoin-utveckling, nämligen [Bitcoin Core Github repository](https://github.com/Bitcoin/Bitcoin). Underhållarna av detta arkiv är ansvariga för koden i det, men de är inte ansvariga för systemet som helhet - det är det ingen som är. Ändå är den allmänna bästa metoden att skicka ett e-postmeddelande till security@bitcoincore.org.
 
 
-I en [e-posttråd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) med titeln "Responsible disclosure of bugs" från 2017 försökte Anthony Towns sammanfatta vad han uppfattade som bästa praxis för närvarande. Han hade samlat in information från flera källor och olika personer för att få fram sin syn på ämnet.
+I en [e-posttråd](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) med titeln "Responsible disclosure of bugs" från 2017 försökte Anthony Towns sammanfatta vad han uppfattade som bästa praxis för närvarande. Han hade samlat in information från flera källor och olika personer för att få fram sin syn på ämnet.
 
 
 
@@ -1753,12 +1753,12 @@ I en [e-posttråd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-
 Den här listan visar hur försiktig man måste vara när man publicerar korrigeringar för Bitcoin, eftersom korrigeringen i sig kan avslöja sårbarheten. Den fjärde punkten är särskilt intressant eftersom den förklarar hur man testar om en patch har förklätts tillräckligt bra. Om några riktigt erfarna utvecklare inte kan upptäcka sårbarheten även om de vet att korrigeringen åtgärdar den, kommer det förmodligen att vara riktigt Hard för andra att upptäcka den.
 
 
-Tråden som ledde till detta e-postmeddelande diskuterade om, när och hur man ska avslöja sårbarheter i altcoins och andra implementeringar av Bitcoin. Det finns inget tydligt svar här. "Att hjälpa de goda killarna" verkar vara det förnuftiga att göra, men vem bestämmer vilka de är och var drar man gränsen? Bryan Bishop [argumenterade](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) att det var en moralisk plikt att hjälpa altcoins och till och med scamcoins att försvara sig mot säkerhetsexploateringar:
+Tråden som ledde till detta e-postmeddelande diskuterade om, när och hur man ska avslöja sårbarheter i altcoins och andra implementeringar av Bitcoin. Det finns inget tydligt svar här. "Att hjälpa de goda killarna" verkar vara det förnuftiga att göra, men vem bestämmer vilka de är och var drar man gränsen? Bryan Bishop [argumenterade](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/) att det var en moralisk plikt att hjälpa altcoins och till och med scamcoins att försvara sig mot säkerhetsexploateringar:
 
 
 > Det räcker inte att försvara Bitcoin och dess användare från aktiva hot, det finns ett mer allmänt ansvar att försvara alla typer av användare och olika programvaror från många typer av hot i alla former, även om folk använder dumma och osäkra programvaror som du personligen inte underhåller eller bidrar till eller förespråkar. Att hantera kunskap om en sårbarhet är en känslig fråga och du kanske får kunskap med allvarligare direkt eller indirekt påverkan än vad som ursprungligen beskrevs.
 
-I anslutning till Town's e-postmeddelande ovan publicerades också ett [inlägg](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) av Gregory Maxwell, där han hävdade att säkerhetsproblem kan vara allvarligare än de verkar:
+I anslutning till Town's e-postmeddelande ovan publicerades också ett [inlägg](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) av Gregory Maxwell, där han hävdade att säkerhetsproblem kan vara allvarligare än de verkar:
 
 
 > Jag har flera gånger sett att ett Hard-problem som går att utnyttja visar sig vara trivialt när du hittar rätt trick, eller att ett mindre dosproblem visar sig vara mycket allvarligare.
@@ -2031,7 +2031,7 @@ BIP aktiverades den 4 juli 2015. Även om ovanstående är sant, åtgärdar dock
 
 Den fullständiga redogörelsen för denna fråga publicerades den 28 juli 2015 av Pieter Wuille i en
 
-[e-post till Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[e-post till Bitcoin-dev mailing list](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Hej på er alla,
@@ -2066,7 +2066,7 @@ Tidslinje över händelser kring BIP66. Svartmarkerade punkter har förklarats o
 Utan att någon kände till problemet kunde det ha lösts genom den nu borttagna BIP62, som var ett förslag för att minska möjligheterna till transaktionsmissbruk. Bland de föreslagna ändringarna i BIP62 fanns en skärpning av konsensusreglerna för kodning av signaturer, eller "strikt [DER](https://planb.academy/resources/glossary/der)-kodning". Pieter Wuille föreslog i juli 2014 några justeringar av BIP som skulle ha löst problemet:
 
 
-> 2014-Jul-18: För att Bitcoin:s regler för signaturkodning inte skulle vara beroende av OpenSSL:s specifika parser, modifierade jag BIP62-förslaget så att dess strikta krav på DER-signaturer även skulle gälla för transaktioner i version 1. Inga icke-DER-signaturer bryts ut i block längre vid den tidpunkten, så detta antogs inte ha någon inverkan. Se https://github.com/Bitcoin/bips/pull/90 och http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. Okänt vid den tidpunkten, men om det hade implementerats skulle det ha löst sårbarheten.
+> 2014-Jul-18: För att Bitcoin:s regler för signaturkodning inte skulle vara beroende av OpenSSL:s specifika parser, modifierade jag BIP62-förslaget så att dess strikta krav på DER-signaturer även skulle gälla för transaktioner i version 1. Inga icke-DER-signaturer bryts ut i block längre vid den tidpunkten, så detta antogs inte ha någon inverkan. Se https://github.com/Bitcoin/bips/pull/90 och https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. Okänt vid den tidpunkten, men om det hade implementerats skulle det ha löst sårbarheten.
 
 På grund av bredden i denna BIP, som omfattade betydligt mer än bara "strikt DER-kodning", förändrades den ständigt och kom aldrig i närheten av utplacering. BIP:en drogs senare tillbaka eftersom Segregated Witness, BIP141, löste problemet med [transaktioners formbarhet](https://planb.academy/resources/glossary/malleability-transaction) på ett annat och mer komplett sätt.
 
@@ -2075,7 +2075,7 @@ På grund av bredden i denna BIP, som omfattade betydligt mer än bara "strikt D
 
 
 
-OpenSSL släppte nya versioner av sin programvara med korrigeringar som, om de hade använts i Bitcoin sedan början, skulle ha löst problemet. Men att använda någon ny version av OpenSSL endast i en ny version av Bitcoin Core skulle göra saken värre. Gregory Maxwell förklarar detta i en annan [e-posttråd](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) i januari 2015:
+OpenSSL släppte nya versioner av sin programvara med korrigeringar som, om de hade använts i Bitcoin sedan början, skulle ha löst problemet. Men att använda någon ny version av OpenSSL endast i en ny version av Bitcoin Core skulle göra saken värre. Gregory Maxwell förklarar detta i en annan [e-posttråd](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) i januari 2015:
 
 
 > För de flesta tillämpningar är det i allmänhet acceptabelt att ivrigt förkasta vissa signaturer, men Bitcoin är ett konsensussystem där alla deltagare i allmänhet måste vara överens om den exakta giltigheten eller ogiltigheten hos indata.  På sätt och vis är konsekvens viktigare än "korrekthet".

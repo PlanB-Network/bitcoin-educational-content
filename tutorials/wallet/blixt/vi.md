@@ -663,7 +663,7 @@ Trong khi đó, đây là tất cả các liên kết về Bitcoin Lightning Nod
 - [Bài thuyết trình của Blixt - video quảng cáo](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Lịch Blixt Girls](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - video quảng cáo (bạn có thể kiểm tra lần đầu sử dụng LN)
 - [Tờ rơi A4 có thể in với các bước đầu tiên sử dụng Blixt, bằng nhiều ngôn ngữ khác nhau](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt cũng cung cấp bản demo đầy đủ chức năng](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) ngay trên trang web của mình hoặc trên phiên bản web chuyên dụng để có trải nghiệm thử nghiệm đầy đủ trước khi bắt đầu sử dụng trong thế giới thực.
+- [Blixt cũng cung cấp bản demo đầy đủ chức năng](https://blixtwallet.github.io/) ngay trên trang web của mình hoặc trên phiên bản web chuyên dụng để có trải nghiệm thử nghiệm đầy đủ trước khi bắt đầu sử dụng trong thế giới thực.
 
 
 ---

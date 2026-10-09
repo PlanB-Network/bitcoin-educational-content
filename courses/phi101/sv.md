@@ -344,7 +344,7 @@ Denna analys återspeglar en missuppfattning av mervärdet och det ekonomiska li
 ### Den industriella revolutionen i fråga
 
 
-I själva verket förvränger den marxistiska analysen den industriella revolutionens historiska verklighet. Ludwig von Mises klargjorde denna fråga i sin ekonomiska avhandling [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (se särskilt kapitlet med titeln [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie föreläsningar som publicerades under titeln: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Läsvärt är också The Anti-Capitalistic Mentality [här](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) och [här](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+I själva verket förvränger den marxistiska analysen den industriella revolutionens historiska verklighet. Ludwig von Mises klargjorde denna fråga i sin ekonomiska avhandling [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (se särskilt kapitlet med titeln [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) samt i en serie föreläsningar som publicerades under titeln: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Läsvärt är också The Anti-Capitalistic Mentality [här](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) och [här](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/sv/014.webp)
 

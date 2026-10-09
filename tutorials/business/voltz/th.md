@@ -19,7 +19,7 @@ description: Lightning wallet แบบครบวงจรสำหรับ�
 
 
 
-ไปที่แพลตฟอร์ม [Voltz](https://www.lnvoltz.xyz/en) และสร้างบัญชีโดยคลิกที่ปุ่ม "Try now"
+ไปที่แพลตฟอร์ม [Voltz](https://lnbits.lnvoltz.com/) และสร้างบัญชีโดยคลิกที่ปุ่ม "Try now"
 
 
 

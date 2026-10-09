@@ -346,8 +346,8 @@ Untuk penggunaan sehari-hari di Mac atau iPhone, ini mungkin merupakan alternaif
 ### Dokumentasi resmi
 
 - **Situs web resmi**: [kagi.com/orion](https://kagi.com/orion/)
-- **Pertanyaan Umum Lengkap**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Forum komunitas**: [community.kagi.com](https://community.kagi.com)
+- **Pertanyaan Umum Lengkap**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Forum komunitas**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Pelacakan bug**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Komponen open source
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Berita dan pembaruan

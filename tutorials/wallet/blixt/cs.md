@@ -663,7 +663,7 @@ Mezitím zde najdete všechny odkazy na tento úžasný bleskový uzel Bitcoin:
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - promo video (můžete si vyzkoušet 1. použití LN)
 - [Leták formátu A4 k vytištění s prvními kroky při používání nástroje Blixt v různých jazycích](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt také nabízí plně funkční demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) přímo na svých webových stránkách nebo na vyhrazené webové verzi, abyste si mohli vyzkoušet všechny zkušenosti, než začnete používat v reálném světě.
+- [Blixt také nabízí plně funkční demo](https://blixtwallet.github.io/) přímo na svých webových stránkách nebo na vyhrazené webové verzi, abyste si mohli vyzkoušet všechny zkušenosti, než začnete používat v reálném světě.
 
 
 ---

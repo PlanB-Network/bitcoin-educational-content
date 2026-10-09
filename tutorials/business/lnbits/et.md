@@ -387,7 +387,7 @@ Seejuures asendate f8a43fc363ea428db5c53b3559935f1f nime ees oleva väärtusega 
 
 ##### LNURL jaoks välk-aadressi vastupidi
 
-Proovi seda [kodeerijat](https://lnurl-codec.netlify.app/) fiatjafilt või [seda](https://lightningdecoder.com/). LNURLp maksmiseks või kontrollimiseks võite samuti kasutada [LNurlpay](https://wwww.lnurlpay.com/). Seal peaks olema märgitud HTTPS EI HTTP.
+Proovi seda [kodeerijat](https://lnurl-codec.netlify.app/) fiatjafilt või [seda](https://lightningdecoder.com/). LNURLp maksmiseks või kontrollimiseks võite samuti kasutada [LNurlpay](https://www.lnurlpay.com/). Seal peaks olema märgitud HTTPS EI HTTP.
 
 ##### Konfigureeri kommentaar, mida inimesed näevad, kui nad maksavad minu LNURLp QR-le
 

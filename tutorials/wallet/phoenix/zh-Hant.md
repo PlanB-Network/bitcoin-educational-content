@@ -38,7 +38,7 @@ Phoenix 作為真正的 Lightning 節點嵌入您的手機，自動與 ACINQ 的
 
 
 
-- 在 [Google Play 商店](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet)；
+- 在 [Google Play 商店](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet)；
 - 在 [App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB) 上。
 
 

@@ -639,7 +639,7 @@ SwapMarketは、複数のプロバイダーを単一のインターフェイス�
 
 - [SwapMarket - ウェブアプリケーション](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [技術資料](https://docs.boltz.exchange/)
+- [技術資料](https://github.com/BoltzExchange/boltz-backend)
 - [ガイドセルフホスティング](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

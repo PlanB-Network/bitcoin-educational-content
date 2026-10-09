@@ -241,7 +241,7 @@ objectives:
 
 ### Промышленная революция под вопросом
 
-Фактически, марксистский анализ искажает историческую реальность Промышленной революции. Людвиг фон Мизес прояснил этот вопрос в своем экономическом трактате [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (см. особенно главу под названием [Популярная интерпретация Промышленной революции](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), а также в серии лекций, опубликованных под названием: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Также стоит прочитать, Антикапиталистический менталитет [здесь](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) и [здесь](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Фактически, марксистский анализ искажает историческую реальность Промышленной революции. Людвиг фон Мизес прояснил этот вопрос в своем экономическом трактате [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (см. особенно главу под названием [Популярная интерпретация Промышленной революции](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), а также в серии лекций, опубликованных под названием: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Также стоит прочитать, Антикапиталистический менталитет [здесь](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) и [здесь](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/ru/014.webp)
 

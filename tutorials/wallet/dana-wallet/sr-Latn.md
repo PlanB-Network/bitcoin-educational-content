@@ -113,7 +113,7 @@ Preporučeni metod je da dodate posvećeno F-Droid spremište za Dana Wallet. Id
 
 
 
-Otvorite F-Droid aplikaciju na svom Android uređaju, zatim pristupite Podešavanjima putem ikone u donjem desnom uglu. Izaberite "Repozitorijumi" da biste upravljali izvorima aplikacija. Pritisnite dugme "+" da dodate novi repozitorijum, zatim skenirajte QR kod ili nalepite link `https://fdroid.silentpayments.dev/fdroid/repo`. Kada je repozitorijum dodat, videćete tri verzije Dana Wallet dostupne. Izaberite "Dana Wallet - Bookmark" i pritisnite "Instaliraj".
+Otvorite F-Droid aplikaciju na svom Android uređaju, zatim pristupite Podešavanjima putem ikone u donjem desnom uglu. Izaberite "Repozitorijumi" da biste upravljali izvorima aplikacija. Pritisnite dugme "+" da dodate novi repozitorijum, zatim skenirajte QR kod ili nalepite link `https://fdroid.danawallet.app/fdroid/repo`. Kada je repozitorijum dodat, videćete tri verzije Dana Wallet dostupne. Izaberite "Dana Wallet - Bookmark" i pritisnite "Instaliraj".
 
 
 
@@ -410,7 +410,7 @@ Silent Payments predstavljaju značajan korak napred u usklađivanju jednostavno
 
 
 - Dana Wallet GitHub repository: https://github.com/cygnet3/danawallet
-- F-Cold depozit: https://fdroid.silentpayments.dev
+- F-Cold depozit: https://fdroid.danawallet.app/fdroid/repo/
 - Silent Payments zajednica: https://silentpayments.xyz
 - Specifikacija BIP-352: https://bips.dev/352
 

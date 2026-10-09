@@ -639,7 +639,7 @@ SwapMarket 通过将多个提供商聚合到一个界面来促进 Bitcoin/Lightn
 
 - [SwapMarket - 网络应用程序](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [技术文件](https://docs.boltz.exchange/)
+- [技术文件](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

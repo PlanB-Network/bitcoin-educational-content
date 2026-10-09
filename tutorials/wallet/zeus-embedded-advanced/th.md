@@ -21,7 +21,7 @@ ZEUS เป็นแอปพลิเคชันสำหรับมือถ
 ผู้ค้าใช้ [BTCPay](https://btcpayserver.org/) หรือ [LNBits](https://lnbits.com/) หรือ [Alby](https://getalby.com/) (หรือบัญชี LNDhub อื่น ๆ) สามารถเชื่อมต่อ ใช้งาน และจัดการโหนด / บัญชีของพวกเขาจาก ZEUS ได้เช่นกัน
 
 
-[เริ่มต้นใน v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS จะเริ่มให้บริการแก่ผู้ใช้ทั่วไปที่ต้องการวิธีง่ายๆ ในการทำธุรกรรมบิตคอยน์ที่รวดเร็วและราคาถูกจากอุปกรณ์มือถือของพวกเขา โดยมี [โหนด Lightning บนมือถือในตัว](https://docs.zeusln.app/category/embedded-node) พร้อมด้วย [ผู้ให้บริการ Lightning (LSP)](https://docs.zeusln.app/lsp/intro) ที่ผสานรวมอยู่ในตัว.
+[เริ่มต้นใน v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS จะเริ่มให้บริการแก่ผู้ใช้ทั่วไปที่ต้องการวิธีง่ายๆ ในการทำธุรกรรมบิตคอยน์ที่รวดเร็วและราคาถูกจากอุปกรณ์มือถือของพวกเขา โดยมี [โหนด Lightning บนมือถือในตัว](https://docs.zeusln.app/category/embedded-lnd) พร้อมด้วย [ผู้ให้บริการ Lightning (LSP)](https://docs.zeusln.app/lsp/intro) ที่ผสานรวมอยู่ในตัว.
 
 
 ### ทรัพยากร Zeus ที่สำคัญ:
@@ -170,7 +170,7 @@ ZEUS เป็นแอปพลิเคชันสำหรับมือถ
 LSP ช่วยเชื่อมต่อผู้ใช้กับเครือข่าย Lightning โดยการเปิดช่องทางการชำระเงินไปยังโหนดของพวกเขา [อ่านเพิ่มเติมเกี่ยวกับ LSP ที่นี่](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992) ZEUS มี LSP ใหม่ที่รวมเข้าด้วยกันเรียกว่า [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) ซึ่งพร้อมใช้งานสำหรับผู้ใช้ทุกคนที่ใช้โหนดฝังตัวใหม่
 
 
-ในส่วนนี้ โดยค่าเริ่มต้นคือ Olympus LSP (https://0conf.lnolymp.us) แต่เร็วๆ นี้คุณสามารถตั้งค่า 0conf LSP อื่นที่รองรับโปรโตคอลนี้ได้เช่นกัน
+ในส่วนนี้ โดยค่าเริ่มต้นคือ Olympus LSP (https://flow.zeuslsp.com) แต่เร็วๆ นี้คุณสามารถตั้งค่า 0conf LSP อื่นที่รองรับโปรโตคอลนี้ได้เช่นกัน
 
 
 _โปรดทราบ:_
@@ -311,7 +311,7 @@ _"Inbound liquidity" = มี “พื้นที่” ในช่องข�
 รูปแบบคีย์ aezeed ควรจะเข้ากันได้กับกระเป๋าเงินมือถือดังต่อไปนี้: Blixt, BlueWallet และ Breez. โปรดทราบว่า seed เพียงอย่างเดียวจะไม่เพียงพอในการกู้คืนยอดเงินทั้งหมดของคุณหากคุณมีช่องทางที่เปิดหรือกำลังปิดอยู่!
 
 
-เรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการสำรองและกู้คืนได้ที่ [หน้าคู่มือ Zeus](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery)
+เรียนรู้เพิ่มเติมเกี่ยวกับกระบวนการสำรองและกู้คืนได้ที่ [หน้าคู่มือ Zeus](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery)
 
 
 คำแนะนำด้านพลังงาน: เมื่อคุณบันทึก seed ของคุณ กรุณาบันทึก pubkey ของ node ด้วย! บางครั้งการมีมันไว้ในมือพร้อมกับ seed และ SCB (Static Channels Backup) ของคุณก็เป็นสิ่งที่ดีในกรณีที่คุณต้องการตรวจสอบการกู้คืน.
@@ -357,7 +357,7 @@ SCB จำเป็นเฉพาะเมื่อคุณมีช่อง�
 
 
 
- - _โหมดการค้นหาเส้นทาง_ - แบบสองโหมดหรือแบบล่วงหน้า วิธีการค้นหาเส้นทางที่ดีกว่าสำหรับการชำระเงิน LN ของคุณและการรีเซ็ตข้อมูลการกำหนดเส้นทางก่อนหน้า โปรดอ่านคำแนะนำที่ดีมากเกี่ยวกับการค้นหาเส้นทาง: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - โดย Docs Lightning Engineering และ [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - โดย Voltage
+ - _โหมดการค้นหาเส้นทาง_ - แบบสองโหมดหรือแบบล่วงหน้า วิธีการค้นหาเส้นทางที่ดีกว่าสำหรับการชำระเงิน LN ของคุณและการรีเซ็ตข้อมูลการกำหนดเส้นทางก่อนหน้า โปรดอ่านคำแนะนำที่ดีมากเกี่ยวกับการค้นหาเส้นทาง: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - โดย Docs Lightning Engineering และ [LN Payment Pathfinding](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - โดย Voltage
  - _Persistent LND_ - เปิดใช้งานโหมดนี้หากคุณต้องการให้บริการ LND ทำงานต่อเนื่องในพื้นหลังและทำให้โหนดของคุณออนไลน์ตลอด 24/7 สิ่งนี้มีประโยชน์มากหากคุณใช้ Zeus เป็น PoS ในร้านค้าขนาดเล็กหรือคุณกำลังรับทิป LN จำนวนมากผ่าน LN Address
  - _Rescan wallet_ - ตัวเลือกนี้จะเริ่มการสแกนเต็มรูปแบบของธุรกรรมทั้งหมดบนเชนของ wallet ของคุณเมื่อรีสตาร์ท เปิดใช้งานเฉพาะในกรณีที่คุณขาดธุรกรรมบางรายการใน wallet ของคุณ งานการสแกนใหม่จะใช้เวลา หลายนาที ดังนั้นโปรดอดทนและตรวจสอบบันทึกเพื่อดูรายละเอียดเพิ่มเติมเกี่ยวกับความคืบหน้าเสมอ
  - _Compact Database_ - ตัวเลือกนี้มีประโยชน์มากหากแอป Zeus ของคุณใช้พื้นที่ในอุปกรณ์มาก (ดูรายละเอียดแอปในการตั้งค่าอุปกรณ์ของคุณ) หากคุณมีกิจกรรมมากมายที่ใช้ Zeus ฉันขอแนะนำให้ทำการบีบอัดนี้บ่อยขึ้น เมื่อคุณเห็นว่าคุณมีข้อมูลมากกว่า 1-1.5GB สำหรับแอป Zeus ให้ทำการบีบอัด มันจะรีสตาร์ทและใช้เวลาสักครู่ ดังนั้นโปรดอดทนรอ
@@ -400,7 +400,7 @@ ZEUS PAY ใช้ประโยชน์จากแฮชภาพล่ว�
 หากคุณเปิดใช้งาน "โหมดถาวร" การชำระเงินทั้งหมดไปยัง LN Address ของคุณจะได้รับทันที
 
 
-เรียนรู้เกี่ยวกับการทำงานของการชำระเงิน [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) และข้อมูลเพิ่มเติมเกี่ยวกับ [ค่าธรรมเนียม ZeusPay ที่นี่](https://docs.zeusln.app/lightning-address/fees)
+เรียนรู้เกี่ยวกับการทำงานของการชำระเงิน [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) และข้อมูลเพิ่มเติมเกี่ยวกับ [ค่าธรรมเนียม ZeusPay ที่นี่](https://docs.zeusln.app/lightning-address/zaplocker)
 
 
 **G - ที่อยู่บนเชน**
@@ -489,7 +489,7 @@ ZEUS PAY ใช้ประโยชน์จากแฮชภาพล่ว�
 เพียงแค่สร้างใบแจ้งหนี้บน Zeus ของคุณ (ใส่จำนวนเงินและคลิกปุ่ม “request”) คุณจะสามารถรับ sats เหล่านั้นได้ทันที
 
 
-ใบแจ้งหนี้ของคุณ generate จะถูก [wrapped](https://docs.zeusln.app/lsp/wrapped-invoices) และคุณจะได้รับการแจ้งค่าธรรมเนียมที่เกี่ยวข้องกับบริการหากมีการชำระเงิน ใบแจ้งหนี้ที่ถูก wrapped นี้จะมีคำแนะนำเส้นทางไปยังโหนด Zeus ของคุณ ดังนั้น LSP จะสามารถค้นหาโหนดใหม่ของคุณและเปิดช่องทางด้วยเงินใหม่ที่คุณกำลังฝากได้
+ใบแจ้งหนี้ของคุณ generate จะถูก [wrapped](https://docs.zeusln.app/lsp/services/flow) และคุณจะได้รับการแจ้งค่าธรรมเนียมที่เกี่ยวข้องกับบริการหากมีการชำระเงิน ใบแจ้งหนี้ที่ถูก wrapped นี้จะมีคำแนะนำเส้นทางไปยังโหนด Zeus ของคุณ ดังนั้น LSP จะสามารถค้นหาโหนดใหม่ของคุณและเปิดช่องทางด้วยเงินใหม่ที่คุณกำลังฝากได้
 
 
 ![Image](assets/en/06.webp)

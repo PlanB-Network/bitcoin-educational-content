@@ -2739,7 +2739,7 @@ En av JoinMarkets största nackdelar är dess komplexa användning, som kräver 
 ![BTC204](assets/sv/137.webp)
 
 
-Källa : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Källa : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Den tekniska barriären är dock fortfarande ett stort hinder. I CoinJoin-ekosystemet, där sekretessen förstärks av antalet deltagare, påverkar varje begränsning som minskar tillgängligheten direkt den tillgängliga likviditeten, vilket är en avgörande faktor för mixens effektivitet. Bitcoin, som redan är en nisch inom finansiella transaktioner, ser sin användning av coinjoins som en subnisch, och JoinMarket representerar en ännu mer specialiserad del av den, vilket därför begränsar dess potential att öka användarnas anonsets.

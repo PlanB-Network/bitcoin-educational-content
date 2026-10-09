@@ -39,7 +39,7 @@ If you do not need generalist functionalities or those related to the Lightning 
 Now that we have outlined RoninDojo, let's see together how to set up this node.
 
 ## What hardware to choose for installing RoninDojo v2?
-RoninDojo offers an image for automatic installation of its software on a [RockPro64](https://ronindojo.io/en/download). However, our tutorial focuses on the manual installation procedure on a Raspberry Pi 4. Although the Raspberry Pi 5 has been recently launched, and this tutorial should theoretically be compatible with this new model, I have not yet had the chance to test it personally, and I have found no feedback from the community. As soon as I acquire the Pi 5 and compatible components, I will update this tutorial to keep you informed. In the meantime, I recommend prioritizing the Pi 4, as it works perfectly for my node.
+RoninDojo offers an image for automatic installation of its software on a [RockPro64](https://ronindojo.io/downloads). However, our tutorial focuses on the manual installation procedure on a Raspberry Pi 4. Although the Raspberry Pi 5 has been recently launched, and this tutorial should theoretically be compatible with this new model, I have not yet had the chance to test it personally, and I have found no feedback from the community. As soon as I acquire the Pi 5 and compatible components, I will update this tutorial to keep you informed. In the meantime, I recommend prioritizing the Pi 4, as it works perfectly for my node.
 For my part, I run RoninDojo on a Raspberry Pi equipped with 8 GB of RAM. Although some community members have managed to get it working on devices with only 4 GB of RAM, I have not tested this configuration myself. Given the small price difference, it seems wise to opt for the 8 GB RAM version. This could also prove useful if you plan to repurpose your Raspberry Pi for other uses in the future.
 It is important to note that the RoninDojo teams have reported frequent issues related to the case and the SSD adapter. I have faced these issues myself. **Therefore, it is strongly recommended to avoid cases equipped with a USB cable for your node's SSD.** Instead, prefer a storage expansion card specifically designed for your Raspberry Pi:
 
@@ -520,12 +520,12 @@ Regarding the other tabs available on your RoninUI dashboard:
 - `System Info`: Provides general information about your node, such as CPU temperature, storage space usage, or RAM data. You will also find the `Reboot` and `Shut down` options to restart or turn off your node;
 - `Settings`: Allows you to change your user password.
 
-There you have it! Thank you for following this tutorial to the end. If you enjoyed it, I encourage you to share it on social media. Furthermore, if you have the opportunity, consider supporting the developers who make these free and open-source software available to our community with a donation: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). To deepen your knowledge of RoninDojo and discover more resources, I highly recommend consulting the links to the external resources mentioned below.
+There you have it! Thank you for following this tutorial to the end. If you enjoyed it, I encourage you to share it on social media. Furthermore, if you have the opportunity, consider supporting the developers who make these free and open-source software available to our community with a donation: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). To deepen your knowledge of RoninDojo and discover more resources, I highly recommend consulting the links to the external resources mentioned below.
 
 **External resources:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

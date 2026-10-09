@@ -663,7 +663,7 @@ Blixt가 제공하는 다른 놀라운 기능도 많이 있으니 하나씩 살�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [블릭스트 걸스 캘린더](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - 프로모션 영상(LN의 첫 사용 테스트 가능)
 - [블릭스트 사용 첫걸음에 대한 인쇄용 A4 전단지, 다양한 언어로 제공](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [블릭스트는 또한 웹사이트 또는 전용 버전 웹에서 전체 기능 데모(https://blixt-Wallet-git-master-hsjoberg.vercel.app/)를 제공하여 실제 사용을 시작하기 전에 전체 기능을 테스트할 수 있도록 지원합니다.
+- [블릭스트는 또한 웹사이트 또는 전용 버전 웹에서 전체 기능 데모(https://blixtwallet.github.io/)를 제공하여 실제 사용을 시작하기 전에 전체 기능을 테스트할 수 있도록 지원합니다.
 
 
 ---

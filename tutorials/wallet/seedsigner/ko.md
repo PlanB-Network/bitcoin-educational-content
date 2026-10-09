@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 - 하우징 (선택 사항이지만 권장)** (선택 사항이지만 권장)** (선택 사항이지만 권장)** (선택 사항이지만 권장)** (선택 사항이지만 권장)**)
     - 장치를 보호하고 쉽게 사용할 수 있습니다.
-    - 가장 인기 있는 모델은 "*오렌지 알약 케이스*"로, [3D 프린팅용 오픈 소스 STL 파일]을 사용할 수 있습니다(https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - 가장 인기 있는 모델은 "*오렌지 알약 케이스*"로, [3D 프린팅용 오픈 소스 STL 파일]을 사용할 수 있습니다(https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - 박스는 [프로젝트와 연결된 독립 리셀러](https://seedsigner.com/hardware/)에서도 구매할 수 있습니다.
 
 

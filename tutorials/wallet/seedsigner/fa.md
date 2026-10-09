@@ -94,7 +94,7 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 - مسکن (اختیاری اما توصیه‌شده)** (اختیاری اما توصیه‌شده)** (اختیاری اما توصیه‌شده)** (اختیاری اما توصیه‌شده)**)
     - از دستگاه محافظت می‌کند و استفاده از آن را آسان می‌سازد.
-    - محبوب‌ترین مدل "*جعبه قرص نارنجی*" است که [فایل‌های STL متن‌باز برای چاپ سه‌بعدی در دسترس هستند](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - محبوب‌ترین مدل "*جعبه قرص نارنجی*" است که [فایل‌های STL متن‌باز برای چاپ سه‌بعدی در دسترس هستند](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - جعبه‌ها همچنین از [فروشندگان مستقل مرتبط با پروژه](https://seedsigner.com/hardware/) در دسترس هستند.
 
 

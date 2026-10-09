@@ -712,7 +712,7 @@ Som Nolan-diagrammet straks viser, sitter libertarianere øverst i rammen fordi 
 
 ![Den historiske utviklingen av libertariansk tenkning fra klassisk liberalisme](./assets/en/065.webp)
 
-Libertarianske ideer går tilbake til det attende århundre med klassisk liberalisme. Fysiokratene (Vincent de Gournay, Turgot, Quesnay), deretter Condillac, Jean-Baptiste Say og Frederic Bastiat formulerte disse prinsippene klart. I løpet av det tjuende århundre skjedde **et grunnleggende skifte med den gradvise forlatelsen av laissez-faire-prinsipper** til fordel for velferdsstaten og et stadig mer regulert samfunn. Som svar begynte klassiske liberalere i USA å kalle seg «libertarians» for å skille seg fra amerikansk «liberalism», som var blitt overtatt av voksende statlig intervensjonisme. Disse libertarianerne gjenkjente seg selv i den [østerrikske økonomiske skolen](https://planb.academy/resources/glossary/austrian-economics).
+Libertarianske ideer går tilbake til det attende århundre med klassisk liberalisme. Fysiokratene (Vincent de Gournay, Turgot, Quesnay), deretter Condillac, Jean-Baptiste Say og Frederic Bastiat formulerte disse prinsippene klart. I løpet av det tjuende århundre skjedde **et grunnleggende skifte med den gradvise forlatelsen av laissez-faire-prinsipper** til fordel for velferdsstaten og et stadig mer regulert samfunn. Som svar begynte klassiske liberalere i USA å kalle seg «libertarians» for å skille seg fra amerikansk «liberalism», som var blitt overtatt av voksende statlig intervensjonisme. Disse libertarianerne gjenkjente seg selv i den [østerrikske økonomiske skolen](https://planb.academy/resources/glossary/austrian-school).
 
 ### Typer libertarianere
 

@@ -2359,7 +2359,7 @@ Bila shaka, kulingana na tarehe ambayo unashauriana na kozi hii, miingiliano hii
 
 #### Mfano wa Interface
 
-Kijisehemu hiki cha msimbo wa Rust kinaonyesha [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (mali inayoweza kuvu). Msimbo huu umechukuliwa kutoka kwa faili `rgb20.rs` katika maktaba ya kawaida ya RGB. Hebu tuiangalie ili kuelewa muundo wa Interface na jinsi inavyotoa daraja kati, kwa upande mmoja, Business Logic (iliyofafanuliwa katika Schema) na, kwa upande mwingine, utendaji unaoonekana kwa pochi na watumiaji.
+Kijisehemu hiki cha msimbo wa Rust kinaonyesha [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (mali inayoweza kuvu). Msimbo huu umechukuliwa kutoka kwa faili `rgb20.rs` katika maktaba ya kawaida ya RGB. Hebu tuiangalie ili kuelewa muundo wa Interface na jinsi inavyotoa daraja kati, kwa upande mmoja, Business Logic (iliyofafanuliwa katika Schema) na, kwa upande mwingine, utendaji unaoonekana kwa pochi na watumiaji.
 
 ```rust
 // ...

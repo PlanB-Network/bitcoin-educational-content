@@ -712,7 +712,7 @@ Nemoguće je reći, ali znamo nekoliko stvari:
 - Sa nultom subvencijom za blok i praznim ili skoro praznim mempool-om, stvari mogu postati nestabilne zbog fee snipinga.
 
 
-S obzirom na to da je prelazak na blokove nagrađivane samo transakcionim naknadama još uvek daleko u budućnosti, možda je pametnije ne donositi brzoplete zaključke i pokušati da se pozabavimo mogućim problemima dok još možemo. Na primer, Peter Todd smatra da postoji stvarni rizik da budžet za bezbednost Bitcoina neće biti dovoljan u budućnosti, te stoga zagovara malu stalnu Bitcoin inflaciju. Međutim, on takođe misli da nije dobra ideja raspravljati o takvom pitanju u ovom trenutku, kao što je rekao u [podcastu What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
+S obzirom na to da je prelazak na blokove nagrađivane samo transakcionim naknadama još uvek daleko u budućnosti, možda je pametnije ne donositi brzoplete zaključke i pokušati da se pozabavimo mogućim problemima dok još možemo. Na primer, Peter Todd smatra da postoji stvarni rizik da budžet za bezbednost Bitcoina neće biti dovoljan u budućnosti, te stoga zagovara malu stalnu Bitcoin inflaciju. Međutim, on takođe misli da nije dobra ideja raspravljati o takvom pitanju u ovom trenutku, kao što je rekao u [podcastu What Bitcoin Did](https://www.youtube.com/watch?v=8yah3N9n84k):
 
 
 > Ali, to je rizik za 10, 20 godina u budućnosti. To je veoma dug period. I, do tada, ko zna kakvi će rizici biti?
@@ -808,7 +808,7 @@ Aaron van Wirdum opisuje ovaj vijugavi put u svom članku u Bitcoin časopisu [T
 
 > Shaolinfry je predložio alternativu: korisnički aktiviran soft fork (UASF). Umesto heš aktivacije putem snage, korisnički aktiviran soft fork bi imao "'flag day activation', u prevodu 'aktivacija po datumu', gde čvorovi počinju sprovođenje u unapred određenom vremenu u budućnosti." Sve dok je takav UASF sproveden od strane ekonomske većine, to bi trebalo da primora većinu rudara da prate (ili aktiviraju) soft fork.
 
-Između ostalog, on navodi Shaolinfryjev email Bitcoin-dev mailing listi. Tom prilikom je Shaolinfry [izneo argumente protiv aktiviranih soft forkova od strane rudara](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), navodeći niz problema s njima:
+Između ostalog, on navodi Shaolinfryjev email Bitcoin-dev mailing listi. Tom prilikom je Shaolinfry [izneo argumente protiv aktiviranih soft forkova od strane rudara](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/), navodeći niz problema s njima:
 
 
 > Prvo, ovo podrazumeva poverenje da će rudari sa svojom hash snagom nastaviti da vrše validaciju nakon aktivacije. BIP66 soft fork je bio slučaj gde je 95% hashrate signaliziralo spremnost, ali u stvarnosti oko polovine njih nije zapravo validiralo unapređena pravila i greškom je rudarila na nevažećem bloku.
@@ -841,7 +841,7 @@ Nakon SegWit implementacije, pojavila se diskusija o mehanizmima implementacije.
 
 > U nekom trenutku verovatno ćemo želeti da dodamo više funkcija u Bitcoin protokol. Ovo je veliko filozofsko pitanje koje postavljamo sebi. Da li da uradimo UASF za sledeći? Šta je sa hibridnim pristupom? Samostalna aktivacija od strane rudara je isključena. BIP9 nećemo ponovo koristiti.
 
-U januaru 2020. godine, Matt Corallo [poslao je email](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html) na Bitcoin-dev mejling listu kojim je započeo diskusiju o budućim mehanizmima implementacije soft forka. Naveo je pet ciljeva za koje je smatrao da su ključni u nadogradnji. David Harding ih [sumira u Bitcoin Optech biltenu](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kao:
+U januaru 2020. godine, Matt Corallo [poslao je email](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/) na Bitcoin-dev mejling listu kojim je započeo diskusiju o budućim mehanizmima implementacije soft forka. Naveo je pet ciljeva za koje je smatrao da su ključni u nadogradnji. David Harding ih [sumira u Bitcoin Optech biltenu](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms) kao:
 
 
 > Mogućnost prekida ako se naiđe na ozbiljan prigovor na predložene promene pravila konsenzusa. Dodeljivanje dovoljno vremena nakon objavljivanja ažuriranog softvera kako bi se osiguralo da većina ekonomskih čvorova bude nadograđena za sprovođenje tih pravila. Pretpostavka da će hash stopa mreže ostati približno ista pre i posle promene, kao i tokom same tranzicije. Sprečavanje, koliko je to moguće, stvaranja blokova koji su nevažeći prema novim pravilima, što bi moglo dovesti do lažnih potvrda u nenadograđenim čvorovima i SPV klijentima. Garancija da mehanizmi za prekid (abort) ne mogu biti zloupotrebljeni od strane zlonamernih učesnika ili pristrasnih aktera da bi se sprečila široko željena nadogradnja koja nema poznatih problema.
@@ -905,7 +905,7 @@ Tokom tih sedam meseci, diskusija je trajala i činilo se da nema načina da se 
 ```
 
 
-Pristup "hajde da vidimo šta će se desiti" konačno je počeo da se uklapa u umove ljudi. Ovaj proces će kasnije biti označen kao "Speedy Trial" zbog svog kratkog perioda signalizacije. David Harding objašnjava ovu ideju široj zajednici u [emailu Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+Pristup "hajde da vidimo šta će se desiti" konačno je počeo da se uklapa u umove ljudi. Ovaj proces će kasnije biti označen kao "Speedy Trial" zbog svog kratkog perioda signalizacije. David Harding objašnjava ovu ideju široj zajednici u [emailu Bitcoin-dev mailing list](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > Ranija verzija ovog predloga je dokumentovana pre više od 200 dana, a osnovni Taproot kod je spojen u Bitcoin Core pre više od 140 dana. Da smo započeli Speedy Trial u vreme kada je Taproot spojen (što je pomalo nerealno), bili bismo ili manje od dva meseca udaljeni od implementacije Taproot ili bismo prešli na sledeći pokušaj aktivacije pre više od mesec dana.
 >
@@ -1318,7 +1318,7 @@ Kompanije, pojedinci i organizacije koji su zainteresovani za nastavak Bitcoin u
 Ljudi ponekad stiču utisak da među razvojnim programerima Bitcoina ima mnogo unutrašnjih sukoba i beskrajnih žustrih rasprava, te da nisu sposobni donositi odluke.
 
 
-Na primer, mehanizam implementacije Taproot-a, o njemu se diskutovalo tokom dužeg vremenskog perioda tokom kojeg su se formirala dva "tabora". Jedan je želeo da "ne uspe" nadogradnja ako rudari nisu pretežno glasali za nova pravila nakon određenog trenutka, dok je drugi želeo da sprovede pravila nakon tog trenutka bez obzira na sve. Michael Folkson sumira argumente iz dva tabora u [emailu](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html) na Bitcoin-dev mejling listi.
+Na primer, mehanizam implementacije Taproot-a, o njemu se diskutovalo tokom dužeg vremenskog perioda tokom kojeg su se formirala dva "tabora". Jedan je želeo da "ne uspe" nadogradnja ako rudari nisu pretežno glasali za nova pravila nakon određenog trenutka, dok je drugi želeo da sprovede pravila nakon tog trenutka bez obzira na sve. Michael Folkson sumira argumente iz dva tabora u [emailu](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/) na Bitcoin-dev mejling listi.
 
 
 Debata je trajala naizgled zauvek, i bilo je stvarno teško videti bilo kakav konsenzus koji bi se formirao uskoro. To je ljude frustriralo i kao rezultat toga, tenzije su se pojačale. Gregory Maxwell (kao korisnik nullc) je zabrinut [na Redditu](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) da bi duge diskusije mogle učiniti nadogradnju manje sigurnom:
@@ -1412,7 +1412,7 @@ Diskusije o skaliranju dostigle su vrhunac interesovanja oko 2015-2017, kada je 
 Godine 2015, konferencija pod nazivom [Scaling Bitcoin](https://scalingbitcoin.org/) održana je u Montrealu, sa naknadnom konferencijom šest meseci kasnije u Hong Kongu, a potom i na brojnim drugim lokacijama širom sveta. Pažnja je bila usmerena tačno na to kako rešiti problem skaliranja. Mnogi Bitcoin developeri i drugi entuzijasti okupili su se na ovim konferencijama kako bi diskutovali o raznim pitanjima skaliranja i predlozima. Većina ovih diskusija nije se vrtela oko povećanja veličine blokova, već oko dugoročnijih rešenja.
 
 
-Nakon konferencije u Hong Kongu u decembru 2015, Gregory Maxwell je [sumirao svoje viđenje](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html) o mnogim pitanjima koja su bila predmet rasprave, počevši sa opštom filozofijom skaliranja:
+Nakon konferencije u Hong Kongu u decembru 2015, Gregory Maxwell je [sumirao svoje viđenje](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/) o mnogim pitanjima koja su bila predmet rasprave, počevši sa opštom filozofijom skaliranja:
 
 
 > Sa dostupnom tehnologijom, postoje osnovni kompromisi između skaliranja i decentralizacije. Ako je sistem previše skup, ljudi će biti primorani da veruju trećim stranama umesto da samostalno sprovodu pravila sistema. Ako je potrošnja resursa Bitcoin blockchaina, u odnosu na dostupnu tehnologiju, prevelika, Bitcoin gubi svoje konkurentske prednosti u poređenju sa starim sistemima jer će validacija biti preskupa (isključujući mnoge korisnike), primoravajući povratak poverenja u sistem. Ako kapacitet bude nedovoljan i metode transakcija neefikasne, pristup blockchainu radi rešavanja sporova biće previše skup, što opet gura poverenje nazad u sistem.
@@ -1654,7 +1654,7 @@ ranjivosti. Hakeri i naučnici za računarsku bezbednost smatraju da je njihova 
 To znači da ako pronađete sigurnosni problem, trebali biste ga prijaviti timu odgovornom za sistem. Ali šta to znači u Bitcoin kontekstu? Niko ne kontroliše Bitcoin, ali trenutno postoji fokusna tačka za razvoj Bitcoina, naime [Bitcoin Core Github repozitorijum](https://github.com/Bitcoin/Bitcoin). Održavaoci navedenog repozitorijuma su odgovorni za kod u njemu, ali nisu odgovorni za sistem u celini - niko nije. Ipak, opšta najbolja praksa je poslati email na security@bitcoincore.org.
 
 
-U [email prepisci](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html) pod naslovom "Odgovorno otkrivanje grešaka" iz 2017. godine, Anthony Towns je pokušao da sumira ono što je smatrao trenutnim najboljim praksama. Prikupio je informacije iz nekoliko izvora i od različitih ljudi kako bi oblikovao svoje mišljenje o toj temi.
+U [email prepisci](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/) pod naslovom "Odgovorno otkrivanje grešaka" iz 2017. godine, Anthony Towns je pokušao da sumira ono što je smatrao trenutnim najboljim praksama. Prikupio je informacije iz nekoliko izvora i od različitih ljudi kako bi oblikovao svoje mišljenje o toj temi.
 
 
 
@@ -1677,12 +1677,12 @@ U [email prepisci](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-
 Ova lista prikazuje koliko pažljiv neko mora biti prilikom objavljivanja zakrpa za Bitcoin, jer sama zakrpa može otkriti ranjivost. Četvrta stavka je posebno zanimljiva jer objašnjava kako testirati da li je zakrpa dovoljno dobro prikrivena. Zaista, ako nekoliko zaista iskusnih programera ne može uočiti ranjivost čak i znajući da zakrpa ispravlja jednu, verovatno će biti zaista teško za druge da je otkriju.
 
 
-Nit koja je dovela do ovog emaila raspravljala je o tome da li, kada i kako otkriti ranjivosti altcoin-ima i drugim implementacijama Bitcoina. Ovde nema jasnog odgovora. "Pomoći dobrim momcima" deluje kao razumna stvar, ali ko odlučuje ko su oni i gde se povlači granica? Bryan Bishop [je tvrdio](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html) da je pomaganje altcoin-ima, pa čak i scamcoin-ima, da se odbrane od sigurnosnih eksploatacija moralna dužnost:
+Nit koja je dovela do ovog emaila raspravljala je o tome da li, kada i kako otkriti ranjivosti altcoin-ima i drugim implementacijama Bitcoina. Ovde nema jasnog odgovora. "Pomoći dobrim momcima" deluje kao razumna stvar, ali ko odlučuje ko su oni i gde se povlači granica? Bryan Bishop [je tvrdio](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/) da je pomaganje altcoin-ima, pa čak i scamcoin-ima, da se odbrane od sigurnosnih eksploatacija moralna dužnost:
 
 
 > Nije dovoljno braniti Bitcoin i njegove korisnike od aktivnih pretnji, postoji opštija odgovornost da se brane sve vrste korisnika i različiti softveri od mnogih vrsta pretnji u bilo kojim oblicima, čak i ako ljudi koriste glup i nesiguran softver koji lično ne održavate, ne doprinosite mu ili ga ne zagovarate. Rukovanje znanjem o ranjivosti je delikatna stvar i možda ćete primiti znanje sa ozbiljnijim direktnim ili indirektnim uticajem nego što je prvobitno opisano.
 
-Takođe, pre Town-ovog gorenavedenog email-a bio je [post](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html) od Gregory Maxwell-a, u kojem je tvrdio da bezbednosni propusti mogu biti ozbiljniji nego što izgledaju:
+Takođe, pre Town-ovog gorenavedenog email-a bio je [post](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/) od Gregory Maxwell-a, u kojem je tvrdio da bezbednosni propusti mogu biti ozbiljniji nego što izgledaju:
 
 
 > Više puta sam video da se težak problem sa eksploatacijom ispostavi trivijalnim kada pronađete pravi trik, ili da se manji DoS problem ispostavi mnogo ozbiljnijim.
@@ -1951,7 +1951,7 @@ BIP je aktiviran 4. jula 2015. Međutim, iako je gore navedeno tačno, BIP66 tak
 
 
 
-Potpuno otkrivanje ovog problema objavio je Pieter Wuille 28. jula 2015. u [email Bitcoin-dev mailing list](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+Potpuno otkrivanje ovog problema objavio je Pieter Wuille 28. jula 2015. u [email Bitcoin-dev mailing list](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > Zdravo svima,
@@ -1986,7 +1986,7 @@ Vremenska linija događaja oko BIP66. Stavke u crnom su objašnjene iznad.
 Bez da iko zna za problem, mogao je biti rešen povučenim BIP62, koji je bio predlog za smanjenje mogućnosti transakcione [malleabilnosti](https://planb.academy/resources/glossary/malleability-transaction) (izmenjivost transakcije). Među predloženim promenama u BIP62 bilo je pooštravanje konsenzusnih pravila za kodiranje potpisa, ili "strogo [DER](https://planb.academy/resources/glossary/der) kodiranje". Pieter Wuille je predložio neke izmene BIP-a u julu 2014. godine, koje bi rešile problem:
 
 
-> 2014-Jul-18: Kako bi pravila za kodiranje Bitcoin potpisa bila nezavisna od specifičnog parsera OpenSSL-a, izmenio sam BIP62 predlog tako da zahtev za striktne DER potpise važi i za transakcije verzije 1. U to vreme, nijedan ne-DER potpis više nije bio rudaren u blokove, pa se pretpostavljalo da to neće imati nikakav uticaj. Pogledajte https://github.com/Bitcoin/bips/pull/90 i http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html. U to vreme nije bilo poznato, ali ako bi se primenilo, ovo bi rešilo ranjivost.
+> 2014-Jul-18: Kako bi pravila za kodiranje Bitcoin potpisa bila nezavisna od specifičnog parsera OpenSSL-a, izmenio sam BIP62 predlog tako da zahtev za striktne DER potpise važi i za transakcije verzije 1. U to vreme, nijedan ne-DER potpis više nije bio rudaren u blokove, pa se pretpostavljalo da to neće imati nikakav uticaj. Pogledajte https://github.com/Bitcoin/bips/pull/90 i https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/. U to vreme nije bilo poznato, ali ako bi se primenilo, ovo bi rešilo ranjivost.
 
 Zbog širine ovog BIP-a, koji je pokrivao znatno više od samo "strogo DER kodiranje", stalno se menjao i nikada nije bio blizu implementacije. BIP je kasnije povučen jer je Segregated Witness, BIP141, rešio malleability transakcija na drugačiji i potpuniji način.
 
@@ -1995,7 +1995,7 @@ Zbog širine ovog BIP-a, koji je pokrivao znatno više od samo "strogo DER kodir
 
 
 
-OpenSSL je objavio nove verzije svog softvera sa zakrpama koje bi, da su korišćene u Bitcoin-u od početka, rešile problem. Međutim, korišćenje bilo koje nove verzije OpenSSL-a samo u novom izdanju Bitcoin Core bi pogoršalo stvari. Gregory Maxwell to objašnjava u drugoj [email diskusiji](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html) u januaru 2015:
+OpenSSL je objavio nove verzije svog softvera sa zakrpama koje bi, da su korišćene u Bitcoin-u od početka, rešile problem. Međutim, korišćenje bilo koje nove verzije OpenSSL-a samo u novom izdanju Bitcoin Core bi pogoršalo stvari. Gregory Maxwell to objašnjava u drugoj [email diskusiji](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/) u januaru 2015:
 
 
 > Iako je za većinu aplikacija generalno prihvatljivo da se unapred odbace neki potpisi, Bitcoin je konsenzusni sistem gde svi učesnici moraju generalno da se slože oko tačne validnosti ili nevalidnosti ulaznih podataka. U izvesnom smislu, doslednost je važnija od "ispravnosti".

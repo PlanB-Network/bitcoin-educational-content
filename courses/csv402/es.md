@@ -2313,7 +2313,7 @@ Por supuesto, dependiendo de la fecha en la que consulte este curso, es posible 
 
 #### Ejemplo de interfaz
 
-Este fragmento de código Rust muestra una interfaz [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (activo fungible). Este código está tomado del archivo `rgb20.rs` de la librería estándar RGB. Echémosle un vistazo para entender la estructura de una Interface y cómo proporciona un puente entre, por un lado, la lógica de negocio (definida en el Schema) y, por otro, las funcionalidades expuestas a las wallets y usuarios.
+Este fragmento de código Rust muestra una interfaz [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (activo fungible). Este código está tomado del archivo `rgb20.rs` de la librería estándar RGB. Echémosle un vistazo para entender la estructura de una Interface y cómo proporciona un puente entre, por un lado, la lógica de negocio (definida en el Schema) y, por otro, las funcionalidades expuestas a las wallets y usuarios.
 
 ```rust
 // ...

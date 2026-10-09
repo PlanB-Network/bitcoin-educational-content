@@ -742,7 +742,7 @@ In questa sezione, esploreremo i diversi livelli di transazione, sia in fiat che
 
 La blockchain di Bitcoin è composta da blocchi, come suggerisce il suo nome. Questi blocchi hanno una dimensione massima teorica di 4 megabyte. _Detto ciò, la dimensione media del blocco al momento della scrittura è di circa 1,5mb._ A causa di questo limite, c'è una restrizione su quante transazioni Bitcoin può elaborare al secondo, che è tra sette a dieci transazioni al secondo (tps).
 
-Pertanto, potresti chiederti: Come può la blockchain di Bitcoin competere possibilmente con reti come Visa o Mastercard che transano a [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Pertanto, potresti chiederti: Come può la blockchain di Bitcoin competere possibilmente con reti come Visa o Mastercard che transano a [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 La risposta è semplice. Non sta competendo con loro.
 
@@ -1053,14 +1053,14 @@ Probabilmente ti starai chiedendo: qual è il problema qui?
 
 Inviare denaro all'estero tramite un servizio di trasferimento di denaro come Western Union non è gratuito. Costa denaro, e non poco, una quantità significativa.
 
-Inviare 100 dollari USA a Tonga comporta un costo di [12,61 dollari](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) più una perdita aggiuntiva di 8,60 dollari a causa del tasso di cambio sfavorevole. Questo significa che più del 21% dell'importo totale inviato va a Western Union, una multinazionale. Di conseguenza, una somma considerevole che avrebbe potuto essere nelle mani delle famiglie tongane meritevoli finisce nelle tasche del fornitore di servizi di trasferimento di denaro.
+Inviare 100 dollari USA a Tonga comporta un costo di [12,61 dollari](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) più una perdita aggiuntiva di 8,60 dollari a causa del tasso di cambio sfavorevole. Questo significa che più del 21% dell'importo totale inviato va a Western Union, una multinazionale. Di conseguenza, una somma considerevole che avrebbe potuto essere nelle mani delle famiglie tongane meritevoli finisce nelle tasche del fornitore di servizi di trasferimento di denaro.
 Puoi immaginare i benefici di avere un extra 21% aggiunto al tuo reddito?
 
 Inoltre, considerando che il PIL di Tonga era di [469](https://tradingeconomics.com/tonga/gdp) milioni di dollari nel 2021, e il 45,5% di esso proviene dalle rimesse, le esorbitanti commissioni addebitate per inviare denaro a casa significano che Tonga sta perdendo un ulteriore 45,2 milioni di dollari. Questa somma si tradurrebbe in un aumento del PIL del 9,6% se non fosse per queste commissioni.
 
 E se pensavi che Tonga fosse sola in questo, ripensaci.
 
-Ecco un esempio di quanto Western Union [addebita](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) per inviare 100 dollari USA ad alcune altre nazioni prominenti:
+Ecco un esempio di quanto Western Union [addebita](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) per inviare 100 dollari USA ad alcune altre nazioni prominenti:
 
 - **Cina:** commissione di 21,21 dollari + perdita sul tasso di cambio di 2,60 dollari (perdita del 23,81%)
 - **Canada, USA, Messico:** commissione di 16,86 dollari + perdita sul tasso di cambio di 1,20 dollari (perdita del 18,06%)
@@ -1262,9 +1262,9 @@ Ma Bitcoin compete anche con i metodi di transazione del secondo strato (layer t
 
 Nonostante i numerosi studi che smentiscono affermazioni false, Bitcoin è ancora spesso criticato come essendo principalmente usato per attività illecite. Ancora una volta, questo non potrebbe essere più lontano dalla verità.
 
-Uno [studio](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) condotto dall'ex vice direttore della CIA ha scoperto che "le generalizzazioni ampie sull'uso di Bitcoin nel finanziamento illecito sono significativamente esagerate." Infatti, dal 2016, meno dell'1% del volume totale delle transazioni di Bitcoin è stato utilizzato per attività illecite. Per confronto, "alcuni stimano che l'economia sommersa sia dall'11% al 12% del prodotto interno lordo [americano](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," di cui la maggior parte è facilitata utilizzando il dollaro statunitense.
+Uno [studio](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) condotto dall'ex vice direttore della CIA ha scoperto che "le generalizzazioni ampie sull'uso di Bitcoin nel finanziamento illecito sono significativamente esagerate." Infatti, dal 2016, meno dell'1% del volume totale delle transazioni di Bitcoin è stato utilizzato per attività illecite. Per confronto, "alcuni stimano che l'economia sommersa sia dall'11% al 12% del prodotto interno lordo [americano](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," di cui la maggior parte è facilitata utilizzando il dollaro statunitense.
 
-E secondo un rapporto di Chainalysis nel 2020, l'attività illecita rappresenta solo circa lo [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) di tutte le transazioni Bitcoin.
+E secondo un rapporto di Chainalysis nel 2020, l'attività illecita rappresenta solo circa lo [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) di tutte le transazioni Bitcoin.
 
 Tuttavia, anche con queste prove, dichiarazioni fuorvianti continuano ad essere fatte da coloro al potere, come la Segretaria al Tesoro degli Stati Uniti Janet Yellen [che afferma](https://home.treasury.gov/news/press-releases/jy0023), "Le criptovalute sono state utilizzate per riciclare i profitti dei trafficanti di droga online; sono state uno strumento per finanziare il terrorismo."
 

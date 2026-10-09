@@ -643,8 +643,8 @@ Unutmayın: gizliliğinizi korumak sadece tarayıcınıza bağlı değildir. Opt
 
 
 - **Resmi web sitesi**: [kagi.com/orion](https://kagi.com/orion/)
-- **Tam SSS**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Topluluk forumu**: [community.kagi.com](https://community.kagi.com)
+- **Tam SSS**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Topluluk forumu**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Hata izleme**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Açık kaynaklı bileşenler
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Haberler ve güncellemeler

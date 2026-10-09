@@ -514,7 +514,7 @@ Przy czym f8a43fc363ea428db5c53b3559935f1f należy zastąpić wartością, któr
 ##### LNURL dla Lightning-Address odwrotnie
 
 
-Wypróbuj ten [koder](https://lnurl-codec.netlify.app/) od fiatjaf lub [ten](https://lightningdecoder.com/). Aby zapłacić lub sprawdzić LNURLp, możesz również użyć [LNurlpay](https://wwww.lnurlpay.com/). Powinien on zawierać HTTPS, a nie HTTP.
+Wypróbuj ten [koder](https://lnurl-codec.netlify.app/) od fiatjaf lub [ten](https://lightningdecoder.com/). Aby zapłacić lub sprawdzić LNURLp, możesz również użyć [LNurlpay](https://www.lnurlpay.com/). Powinien on zawierać HTTPS, a nie HTTP.
 
 
 

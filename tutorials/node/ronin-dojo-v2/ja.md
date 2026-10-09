@@ -56,7 +56,7 @@ RoninDojoの概要がわかったところで、このノードをどのよう�
 
 ## RoninDojo v2をインストールするには、どのハードウェアを選べばよいですか？
 
-RoninDojoは[RockPro64](https://ronindojo.io/en/download)にソフトウェアを自動インストールするためのイメージを提供しています。しかし、このチュートリアルでは、Raspberry Pi 4への手動インストール手順に焦点を当てます。Raspberry Pi 5が最近発売され、このチュートリアルは理論的にはこの新しいモデルに対応しているはずですが、私はまだ個人的にテストする機会がなく、コミュニティからのフィードバックも見当たりません。私がPi 5と互換性のあるコンポーネントを入手し次第、このチュートリアルを更新し、情報をお伝えします。それまでは、Pi 4を優先することをお勧めします。
+RoninDojoは[RockPro64](https://ronindojo.io/downloads)にソフトウェアを自動インストールするためのイメージを提供しています。しかし、このチュートリアルでは、Raspberry Pi 4への手動インストール手順に焦点を当てます。Raspberry Pi 5が最近発売され、このチュートリアルは理論的にはこの新しいモデルに対応しているはずですが、私はまだ個人的にテストする機会がなく、コミュニティからのフィードバックも見当たりません。私がPi 5と互換性のあるコンポーネントを入手し次第、このチュートリアルを更新し、情報をお伝えします。それまでは、Pi 4を優先することをお勧めします。
 
 私自身は、8GBのRAMを搭載したRaspberry PiでRoninDojoを動かしています。コミュニティーのメンバーの中には、4GBのRAMしか搭載していないデバイスでRoninDojoを動作させた人もいますが、私自身はこの構成をテストしたことはありません。わずかな価格差を考えると、8GB RAMバージョンを選ぶのが賢明だと思われる。また、将来Raspberry Piを他の用途に再利用する予定がある場合にも便利です。
 
@@ -824,7 +824,7 @@ RoninUI ダッシュボードで利用可能な他のタブについて：
 - 設定`：ユーザーパスワードを変更できます。
 
 
-以上です！このチュートリアルに最後までお付き合いいただき、ありがとうございました。もし楽しんでいただけたなら、ぜひソーシャルメディアでシェアしていただきたい。さらに、もし機会があれば、これらのフリーでオープンソースのソフトウェアを私たちのコミュニティで利用できるようにしている開発者を寄付で支援することを検討してください：[https://donate.ronindojo.io/](https://donate.ronindojo.io/).RoninDojoの知識を深め、より多くのリソースを発見するために、以下の外部リソースへのリンクを参照することを強くお勧めします。
+以上です！このチュートリアルに最後までお付き合いいただき、ありがとうございました。もし楽しんでいただけたなら、ぜひソーシャルメディアでシェアしていただきたい。さらに、もし機会があれば、これらのフリーでオープンソースのソフトウェアを私たちのコミュニティで利用できるようにしている開発者を寄付で支援することを検討してください：[https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/).RoninDojoの知識を深め、より多くのリソースを発見するために、以下の外部リソースへのリンクを参照することを強くお勧めします。
 
 
 **外部リソース
@@ -834,4 +834,4 @@ RoninUI ダッシュボードで利用可能な他のタブについて：
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

@@ -933,7 +933,7 @@ Untuk diskusi lebih lanjut mengenai teori bilangan modern, anda dapat membaca ba
 
 [3] Lihat [Video YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Aljabar Abstrak](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Aljabar Abstrak](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz dan Lindell, *Pengantar Kriptografi Modern*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar dan Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1891,7 +1891,7 @@ Sebuah fungsi hash $H$ dikatakan **tahan tabrakan** jika tidak mungkin untuk men
 
 Fungsi hash yang tahan terhadap tabrakan sangat penting, misalnya, dalam verifikasi perangkat lunak. Misalkan Anda ingin mengunduh Bitcoin Core 0.21.0 versi Windows (aplikasi server untuk memproses lalu lintas jaringan Bitcoin). Langkah-langkah utama yang harus Anda lakukan untuk memverifikasi keabsahan perangkat lunak tersebut adalah sebagai berikut:
 
-1.	Pertama-tama Anda harus mengunduh dan mengimpor kunci publik dari satu atau beberapa kontributor Bitcoin Core ke dalam perangkat lunak yang dapat memverifikasi tanda tangan digital (misalnya Kleopetra). Anda bisa menemukan kunci publik ini [di sini](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Anda disarankan untuk memverifikasi perangkat lunak Bitcoin Core dengan kunci publik dari beberapa kontributor.
+1.	Pertama-tama Anda harus mengunduh dan mengimpor kunci publik dari satu atau beberapa kontributor Bitcoin Core ke dalam perangkat lunak yang dapat memverifikasi tanda tangan digital (misalnya Kleopetra). Anda bisa menemukan kunci publik ini [di sini](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Anda disarankan untuk memverifikasi perangkat lunak Bitcoin Core dengan kunci publik dari beberapa kontributor.
 
 2.	Selanjutnya, Anda perlu memverifikasi kunci publik yang telah Anda impor. Setidaknya satu langkah yang harus Anda lakukan adalah memverifikasi bahwa public key yang Anda temukan sama dengan yang dipublikasikan di berbagai lokasi lain. Sebagai contoh, Anda dapat melihat halaman web pribadi, halaman Twitter, atau halaman Github dari orang-orang yang kunci publiknya Anda impor. Biasanya perbandingan kunci publik ini dilakukan dengan membandingkan hash pendek dari kunci publik yang dikenal sebagai sidik jari.
 

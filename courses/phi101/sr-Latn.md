@@ -344,7 +344,7 @@ Ova analiza odražava nerazumevanje viška vrednosti i kooperativne i dinamičke
 ### Industrijska revolucija u pitanju
 
 
-Zapravo, marksistička analiza iskrivljuje istorijsku stvarnost Industrijske revolucije. Ludwig von Mises je razjasnio ovo pitanje u svom ekonomskom traktatu [_Ljudska akcija_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (pogledajte posebno poglavlje pod nazivom [Popularna interpretacija Industrijske revolucije](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) kao i u seriji predavanja objavljenih pod naslovom: [_Ekonomska politika: Misli za danas i sutra_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Takođe vredi pročitati, Antikapitalistički mentalitet [ovde](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) i [ovde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Zapravo, marksistička analiza iskrivljuje istorijsku stvarnost Industrijske revolucije. Ludwig von Mises je razjasnio ovo pitanje u svom ekonomskom traktatu [_Ljudska akcija_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (pogledajte posebno poglavlje pod nazivom [Popularna interpretacija Industrijske revolucije](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) kao i u seriji predavanja objavljenih pod naslovom: [_Ekonomska politika: Misli za danas i sutra_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Takođe vredi pročitati, Antikapitalistički mentalitet [ovde](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) i [ovde](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/sr-Latn/014.webp)
 

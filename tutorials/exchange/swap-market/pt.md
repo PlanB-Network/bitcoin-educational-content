@@ -639,7 +639,7 @@ A concorrência entre fornecedores melhora as taxas e multiplica as fontes de li
 
 - [SwapMarket - Aplicação Web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Documentação técnica](https://docs.boltz.exchange/)
+- [Documentação técnica](https://github.com/BoltzExchange/boltz-backend)
 - [Guia de auto-hospedagem](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

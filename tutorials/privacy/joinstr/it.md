@@ -650,7 +650,7 @@ In un contesto di crescente controllo finanziario, gli strumenti decentralizzati
 
 
 
-- [Sito ufficiale di Joinstr](https://joinstr.xyz)
+- [Sito ufficiale di Joinstr](https://docs.joinstr.xyz/)
 - [Documentazione per l'utente](https://docs.joinstr.xyz/users/using-joinstr)
 - [Documentazione tecnica](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Codice sorgente GitLab](https://gitlab.com/invincible-privacy/joinstr)

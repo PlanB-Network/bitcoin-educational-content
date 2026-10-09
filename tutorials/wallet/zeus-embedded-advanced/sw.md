@@ -20,7 +20,7 @@ Kwa sasa ZEUS ni kwa watu wanaoendesha node zao za nyumbani / biashara kwa [Ligh
 Wafanyabiashara wanaotumia [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) au [Alby](https://getalby.com/) (au akaunti nyingine yoyote ya LNDhub) pia wanaweza kuunganisha, kutumia na kudhibiti nodi / akaunti zao kutoka ZEUS.
 
 
-[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS utaanza kuhudumia watumiaji wa kawaida wanaotaka njia rahisi ya kufanya malipo ya bitcoin ya haraka na ya bei nafuu kutoka kwenye kifaa chao cha mkononi, kwa kuwa na [node ya Lightning ya simu iliyojengewa ndani](https://docs.zeusln.app/category/embedded-node) yenye [Mtoa Huduma wa Lightning (LSP)](https://docs.zeusln.app/lsp/intro) aliyeunganishwa.
+[Kuanzia v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS utaanza kuhudumia watumiaji wa kawaida wanaotaka njia rahisi ya kufanya malipo ya bitcoin ya haraka na ya bei nafuu kutoka kwenye kifaa chao cha mkononi, kwa kuwa na [node ya Lightning ya simu iliyojengewa ndani](https://docs.zeusln.app/category/embedded-lnd) yenye [Mtoa Huduma wa Lightning (LSP)](https://docs.zeusln.app/lsp/intro) aliyeunganishwa.
 
 
 ### Rasilimali muhimu za Zeus:
@@ -169,7 +169,7 @@ Hapa kuna huduma mbili za LSP:
 LSP husaidia kuunganisha watumiaji kwenye mtandao wa Lightning kwa kufungua njia za malipo kwenye nodi zao. [Soma zaidi kuhusu LSP hapa](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS ina LSP mpya iliyoingizwa inayoitwa [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), inayopatikana kwa watumiaji wote wanaotumia nodi mpya iliyojengewa ndani.
 
 
-Katika sehemu hii, kwa chaguo-msingi ni Olympus LSP ( https://0conf.lnolymp.us ), lakini hivi karibuni unaweza pia kuweka 0conf LSP nyingine inayotumia itifaki hii.
+Katika sehemu hii, kwa chaguo-msingi ni Olympus LSP ( https://flow.zeuslsp.com ), lakini hivi karibuni unaweza pia kuweka 0conf LSP nyingine inayotumia itifaki hii.
 
 
 _Kumbuka:_
@@ -310,7 +310,7 @@ Nodi iliyopachikwa katika ZEUS inategemea LND na hutumia [umbizo la aezeed seed]
 Umbizo la ufunguo wa aezeed unapaswa kuendana na pochi zifuatazo za rununu: Blixt, BlueWallet na Breez. Kumbuka kuwa seed pekee haitatosha kurejesha salio zako zote ikiwa una njia zilizofunguliwa au zinazosubiri kufungwa !
 
 
-Pata maelezo zaidi kuhusu mchakato wa kuhifadhi nakala na kurejesha kwenye [ukurasa wa Hati za Zeus](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Pata maelezo zaidi kuhusu mchakato wa kuhifadhi nakala na kurejesha kwenye [ukurasa wa Hati za Zeus](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 USHAURI WA NGUVU: Unapohifadhi seed yako, tafadhali hifadhi pia pubkey ya node! Wakati mwingine ni vizuri kuwa nayo, pamoja na seed yako na SCB (Silent Confirmation Backup) ikiwa utahitaji kuthibitisha urejeshaji.
@@ -356,7 +356,7 @@ Katika sehemu hii tutapata zana za kimsingi za kudhibiti nodi iliyojumuishwa:
 
 
 
- - _Mode ya kutafuta njia_ - njia mbili au za awali, njia za kupata njia bora ya malipo yako ya LN na pia kuweka upya maelezo ya awali ya uelekezaji. Tafadhali soma miongozo hii mizuri sana kuhusu kutafuta njia: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering na [LN Payment Utafutaji njia](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
+ - _Mode ya kutafuta njia_ - njia mbili au za awali, njia za kupata njia bora ya malipo yako ya LN na pia kuweka upya maelezo ya awali ya uelekezaji. Tafadhali soma miongozo hii mizuri sana kuhusu kutafuta njia: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering na [LN Payment Utafutaji njia](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - by Voltage
  - _LND_Inayoendelea - washa hali hii ikiwa ungependa huduma ya LND iendeshe chinichini na uweke kifundo chako mtandaoni 24/7. Hii ni muhimu sana ikiwa unatumia Zeus kama PoS kwenye duka ndogo au unapokea vidokezo vingi vya LN juu ya LN Address.
  - _Changanua tena wallet- chaguo hili litaanzisha wakati wa kuanzisha upya uchanganuzi kamili wa txs zote za onchain za Wallet yako. Iwashe ikiwa tu unakosa baadhi ya txs kwenye Wallet yako. Kazi ya kuchambua upya itachukua muda, dakika kadhaa kwa hivyo kuwa na subira na uangalie kumbukumbu kila wakati ili kuona maelezo zaidi kuhusu maendeleo.
  - _Compact Database_ - chaguo hili ni muhimu sana ikiwa programu yako ya Zeus inachukua nafasi nyingi za kifaa (angalia maelezo ya programu katika mipangilio ya kifaa chako). Ikiwa una shughuli nyingi kwa kutumia Zeus, ningependekeza kufanya compaction hii mara nyingi zaidi. Mara tu unapoona kuwa una data zaidi ya 1-1.5GB ya programu ya Zeus, fanya ujumuishaji. Itaanza upya na kuchukua muda, kwa hivyo kuwa na subira.
@@ -399,7 +399,7 @@ ZEUS PAY hutumia hash za awali zinazozalishwa na mtumiaji, Invoice HODL, na mpan
 Ukiwasha "hali inayoendelea" malipo yote kwa LN Address yako yatapokelewa papo hapo.
 
 
-Pata maelezo kuhusu jinsi malipo ya [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) yanavyofanya kazi na zaidi kuhusu [Ada za ZeusPay hapa](https://docs.zeusln.app/lightning-Address/fees).
+Pata maelezo kuhusu jinsi malipo ya [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) yanavyofanya kazi na zaidi kuhusu [Ada za ZeusPay hapa](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Address za Onchain**
@@ -488,7 +488,7 @@ Kwa chaguo-msingi, Zeus itatumia LSP yake, Olympus. Lakini baadaye unaweza kubad
 Kwa kuunda Invoice kwenye Zeus yako (weka kiasi na ubofye kitufe cha "ombi"), utaweza kupokea hizo Sats mara moja.
 
 
-Invoice you generate [itafungwa](https://docs.zeusln.app/lsp/wrapped-invoices) na utawasilishwa ada zinazohusiana na huduma ikiwa zitalipwa. Invoice hii iliyofunikwa ina vidokezo vya njia kuelekea node yako ya Zeus, ili LSP ipate node yako mpya na kufungua chaneli kwa kutumia pesa mpya unazoweka.
+Invoice you generate [itafungwa](https://docs.zeusln.app/lsp/services/flow) na utawasilishwa ada zinazohusiana na huduma ikiwa zitalipwa. Invoice hii iliyofunikwa ina vidokezo vya njia kuelekea node yako ya Zeus, ili LSP ipate node yako mpya na kufungua chaneli kwa kutumia pesa mpya unazoweka.
 
 
 ![Image](assets/en/06.webp)

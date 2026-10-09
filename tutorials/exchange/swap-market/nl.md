@@ -639,7 +639,7 @@ Concurrentie tussen aanbieders verbetert tarieven en vermenigvuldigt bronnen van
 
 - [SwapMarket - Webtoepassing](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technische documentatie](https://docs.boltz.exchange/)
+- [Technische documentatie](https://github.com/BoltzExchange/boltz-backend)
 - [Gids zelf hosten](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

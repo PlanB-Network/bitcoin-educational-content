@@ -57,7 +57,7 @@ Mara baada ya Jade yako kuonekana katika Green, sasisha Jade kwa kubofya Angalia
 Baada ya kusasisha programu dhibiti ya Jade, chagua Weka Jade kwenye mtandao na sera ya usalama ambayo ungependa kutumia.
 
 
-**Kidokezo:** Sera ya usalama imeorodheshwa chini ya Andika kwenye skrini ya kuingia iliyoonyeshwa hapa chini. Ikiwa huna uhakika kama utachagua Singlesig au Multisig Shield, tafadhali kagua mwongozo wetu [hapa](https://help.blockstream.com/hc/en-us/articles/4403642609433)
+**Kidokezo:** Sera ya usalama imeorodheshwa chini ya Andika kwenye skrini ya kuingia iliyoonyeshwa hapa chini. Ikiwa huna uhakika kama utachagua Singlesig au Multisig Shield, tafadhali kagua mwongozo wetu [hapa](https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 
 ![image](assets/3.webp)
@@ -287,7 +287,7 @@ Sasa umefanikiwa kusanidi Wallet yako na unaweza kuanza kupokea, kuhifadhi na ku
 ![image](assets/22.webp)
 
 
-chanzo: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+chanzo: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 
 ### Programu ya Green

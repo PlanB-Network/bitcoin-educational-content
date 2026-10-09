@@ -27,7 +27,7 @@ MoonPayとの提携により、アプリから直接Bitcoinやその他の暗号
 ## 2.ランブルWalletをインストールするには？
 
 
-このアプリケーションは、[Android](https://play.google.com/store/apps/details?id=com.wallet.rumble)とiOSの両方に、それぞれの公式ストアを通じてインストールすることができる。
+このアプリケーションは、[Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet)とiOSの両方に、それぞれの公式ストアを通じてインストールすることができる。
 
 
 ![Image](assets/fr/01.webp)

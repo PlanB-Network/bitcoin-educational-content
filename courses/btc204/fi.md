@@ -1917,7 +1917,7 @@ Yksi JoinMarketin suurimmista haittapuolista on sen käytön monimutkaisuus, jok
 
 ![BTC204](assets/fi/137.webp)
 
-Lähde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Lähde: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Tekniset esteet ovat kuitenkin edelleen suuri este. Coinjoinin ekosysteemissä, jossa luottamuksellisuutta vahvistaa osallistujien määrä, kaikki rajoitukset, jotka vähentävät saatavuutta, vaikuttavat suoraan käytettävissä olevaan likviditeettiin, joka on ratkaiseva tekijä yhdistelmän tehokkuuden kannalta. Bitcoin, joka on jo nyt rahoitusliiketoimien markkinarako, näkee coinjoinin käytön alarakoina, ja JoinMarket edustaa siitä vielä erikoistuneempaa osaa, mikä rajoittaa sen mahdollisuuksia lisätä käyttäjiensä anonyymiä määrää.
 

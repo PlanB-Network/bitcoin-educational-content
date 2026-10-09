@@ -344,7 +344,7 @@ Satoshi 나카모토는 Bitcoin를 통해 강력하고 기밀이 유지되는 �
 
 ### e-골드: 웹상의 골드
 
-프라이빗 전자 화폐의 상징적인 예로 전자 골드 시스템을 들 수 있습니다. '디지털 금 화폐'로 알려진 이 시스템은 전자적으로 전송되는 화폐로, 안전하게 보관된 동등한 양의 금으로 완전히 뒷받침되는 화폐를 의미합니다. 1996년 더글러스 잭슨과 배리 다우니가 공동 설립했습니다. 더글러스 잭슨은 플로리다에 거주하던 미국인 종양학자로 오스트리아 경제학자 프리드리히 폰 하이에크의 영향을 받아 전자 금으로 '더 나은 화폐(https://blog.bettermoney.com/)'를 만들고자 했습니다.
+프라이빗 전자 화폐의 상징적인 예로 전자 골드 시스템을 들 수 있습니다. '디지털 금 화폐'로 알려진 이 시스템은 전자적으로 전송되는 화폐로, 안전하게 보관된 동등한 양의 금으로 완전히 뒷받침되는 화폐를 의미합니다. 1996년 더글러스 잭슨과 배리 다우니가 공동 설립했습니다. 더글러스 잭슨은 플로리다에 거주하던 미국인 종양학자로 오스트리아 경제학자 프리드리히 폰 하이에크의 영향을 받아 전자 금으로 '더 나은 화폐(https://web.archive.org/web/20250915190528/https://blog.bettermoney.com/)'를 만들고자 했습니다.
 
 전자 금의 각 단위는 실제 금으로 전환할 수 있다는 원칙이 있었습니다. 금 매장량은 미국에 위치한 골드 앤 실버 리저브(G&SR)라는 회사에서 관리했습니다. 컴퓨터 시스템은 카리브해의 세인트 키츠 네비스에 등록된 두 번째 회사인 e-gold Ltd.에서 관리했습니다. 금만 관련된 금속이 아니었습니다. 사용자는 동일한 모델을 기반으로 제작된 Exchange e-실버, e-백금, e-팔라듐도 보유할 수 있었습니다.
 
@@ -371,7 +371,7 @@ Satoshi 나카모토는 Bitcoin를 통해 강력하고 기밀이 유지되는 �
 
 ![Liberty Reserve logo in 2009](assets/ko/010.webp)
 
-2009 년 리버티 리저브 로고 (출처: [위키미디어](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
+2009 년 리버티 리저브 로고 (출처: [위키미디어](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.jpg))
 
 
 이 시스템은 전자 골드와 매우 유사했지만, 자금(주로 달러)이 개인 금고가 아닌 역외 은행 계좌에 보관되었다는 점이 다릅니다. 2007년 4월 더글러스 잭슨과 그의 동료들이 기소된 후 전자 금이 폐쇄되면서 리버티 리저브는 큰 수혜를 입었습니다. 2013년 5월, [미국 법무부](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)에 따르면 이 플랫폼은 미국 내 20만 명 이상을 포함해 전 세계적으로 100만 명 이상의 사용자를 보유하고 있었으며, 연간 1,200만 건의 금융 거래를 처리하여 총 14억 달러 이상의 거래량을 기록했습니다. 주로 범죄 활동에 사용되었지만 [이에 국한되지는 않았습니다](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/): 리버티 리저브는 외환 거래자나 해외 송금에도 사용되었습니다.
@@ -569,7 +569,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 ![Exchange in RPOW](assets/ko/018.webp)
 
 
-할 피니는 이 모델을 설계했을 뿐만 아니라 직접 구현하기도 했습니다. 2004년 8월 15일, 그는 [발표](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)를 통해 사이퍼펑크 메일링 리스트에 RPOW 시스템의 시작을 알렸고, 전용 웹사이트(rpow.net)에 그 작동을 문서화했습니다. 그 후 샌프란시스코에서 열린 CodeCon 2005 컨퍼런스에서 [발표](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)를 통해 가치 전송, 스팸 규제, 비디오 게임에서의 상거래, 포커와 같은 온라인 도박, 비트토렌트 같은 파일 공유 프로토콜의 안티리칭 등 Proof-of-Work 토큰의 잠재적 용도에 대해 논의했습니다.
+할 피니는 이 모델을 설계했을 뿐만 아니라 직접 구현하기도 했습니다. 2004년 8월 15일, 그는 [발표](https://lists.cpunks.org/archives/list/cypherpunks-legacy@lists.cpunks.org/message/M2HERXWHTGPIOUFP3JXOXTGZXWBHFYC5/)를 통해 사이퍼펑크 메일링 리스트에 RPOW 시스템의 시작을 알렸고, 전용 웹사이트(rpow.net)에 그 작동을 문서화했습니다. 그 후 샌프란시스코에서 열린 CodeCon 2005 컨퍼런스에서 [발표](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)를 통해 가치 전송, 스팸 규제, 비디오 게임에서의 상거래, 포커와 같은 온라인 도박, 비트토렌트 같은 파일 공유 프로토콜의 안티리칭 등 Proof-of-Work 토큰의 잠재적 용도에 대해 논의했습니다.
 
 그러나 RPOW에는 예상했던 성공을 거두지 못한 이유를 설명할 수 있는 본질적인 결함이 있었습니다:
 
@@ -886,7 +886,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 며칠 후 Hal Finney는 메일링 리스트에서 이 화폐 정책에 대해 긍정적인 반응을 보였는데(https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html), "특정 최대 단위 수만 생성되도록 시스템을 구성할 수 있다"는 사실에 흥분하며 긍정적인 반응을 보였습니다 그는 이메일에서 Bitcoin이 "전 세계적으로 사용되는 지배적인 결제 시스템"이 된다면 각 유닛은 "약 천만 달러의 가치를 갖게 될 것"이라고 추정했습니다 그는 "오늘날 몇 센트의 계산 시간으로 유닛을 생성할 수 있는 가능성"은 "매우 좋은 베팅"이 될 수 있다고 썼습니다 이 추정치가 논쟁의 여지가 있기는 하지만(전 세계 총 부와 맞먹는 Bitcoin의 가치를 기준으로 한 것이기 때문에), 그 추론은 타당합니다.
 
 
-1월 16일, 사토시는 메일링 리스트로 보낸 이메일에서 "장기 투자"라는 아이디어를 다시 언급하며 비트코인의 잠재적인 사용 사례를 설명했습니다. 그는 그때 "만약 성공한다면 조금이라도 가지고 있는 것이 현명할 수 있다"고 [말하고](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html), "충분한 사람들이 같은 방식으로 생각한다면, 그것은 자기실현적 예언이 될 것이다"라고 말했습니다. 그는 한 달 후 이 주장을 [재차 강조하며](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562), 제한된 단위의 양이 "사용자가 많을수록 가치가 증가하여, 증가하는 가치로부터 이익을 얻고자 하는 더 많은 사용자를 끌어들일 수 있다"는 의미에서 "긍정적인 피드백 루프"를 만들 가능성이 있다고 설명했습니다. 이로 인해 투기적 요소는 시스템을 시동하기 위한 목적으로 처음부터 존재합니다.
+1월 16일, 사토시는 메일링 리스트로 보낸 이메일에서 "장기 투자"라는 아이디어를 다시 언급하며 비트코인의 잠재적인 사용 사례를 설명했습니다. 그는 그때 "만약 성공한다면 조금이라도 가지고 있는 것이 현명할 수 있다"고 [말하고](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html), "충분한 사람들이 같은 방식으로 생각한다면, 그것은 자기실현적 예언이 될 것이다"라고 말했습니다. 그는 한 달 후 이 주장을 [재차 강조하며](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/3/), 제한된 단위의 양이 "사용자가 많을수록 가치가 증가하여, 증가하는 가치로부터 이익을 얻고자 하는 더 많은 사용자를 끌어들일 수 있다"는 의미에서 "긍정적인 피드백 루프"를 만들 가능성이 있다고 설명했습니다. 이로 인해 투기적 요소는 시스템을 시동하기 위한 목적으로 처음부터 존재합니다.
 
 
 ### 규제, 좀비 네트워크, 생태학
@@ -1518,7 +1518,7 @@ Slashdot의 사용자 유입으로 인해 소프트웨어 개선도 필요했습
 
 ![Jeff Garzik in 2013](assets/ko/046.webp)
 
-2013년 제프 가직(출처: [벤슨 사무엘](https://bensonsamuel.com/Bitcoin-3/talking-Bitcoin-with-jeff-garzik/))
+2013년 제프 가직(출처: [벤슨 사무엘](https://web.archive.org/web/20230607093908/https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/))
 
 
 Satoshi의 첫 번째 목표는 최근의 사용량 증가에 대응하기 위해 소프트웨어와 프로토콜의 보안을 강화하는 것입니다. 개빈 안드레센과 함께 서비스 거부 공격 등 발생할 수 있는 다양한 공격을 고려하고 발견된 취약점을 수정하기 위해 노력하고 있습니다. 7월 17일에는 특정 날짜 이전에 체인이 재작성되지 않도록 하는 체크포인트 시스템을 추가([v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)했고, 7월 25일에는 노드가 올바른 체인을 선택하는 메커니즘을 개선하기 위해 작업 개념을 통합([v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)한 것이 그 결과입니다.
@@ -2019,7 +2019,7 @@ Satoshi과 마지막으로 연락을 주고받은 사람 중에는 2년 전에 �
 따라서 Satoshi가 갑자기 사라진 것은 슬래시닷팅 이후 커뮤니티가 성장하고, 무엇보다도 위키리크스 사건으로 인해 발생했습니다. Bitcoin의 창시자는 자신의 개발과 커뮤니케이션 노력을 지원한 마르티 말미와 개빈 안드레센에게 프로젝트의 고삐를 넘겼고, 두 사람은 프로젝트의 주도권을 넘겨주었습니다.
 
 
-이후 그가 어떻게 되었는지는 아직 알려지지 않았습니다. 그의 여러 계정([P2P 재단](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:52186), [비스토메일](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-August/010238.html))에서 몇 개의 메시지가 나왔지만, 이 계정들은 해킹되었을 가능성이 높습니다. 따라서 토르와 프라이버시 보호 서비스를 통해 익명성을 유지해온 Satoshi 나카모토의 신원은 여전히 알려지지 않았습니다.
+이후 그가 어떻게 되었는지는 아직 알려지지 않았습니다. 그의 여러 계정([P2P 재단](https://p2pfoundation.ning.com/forum/topics/Bitcoin-open-source?commentId=2003008:Comment:52186), [비스토메일](https://gnusha.org/pi/bitcoindev/6EC9DDF352DC4838AE9B088AB372428A25E1F42A@DS04/))에서 몇 개의 메시지가 나왔지만, 이 계정들은 해킹되었을 가능성이 높습니다. 따라서 토르와 프라이버시 보호 서비스를 통해 익명성을 유지해온 Satoshi 나카모토의 신원은 여전히 알려지지 않았습니다.
 
 
 수년에 걸쳐 그에 대한 단서가 제공되었으며, 닉 사보, 할 피니, 아담 백, 렌 사사만 등 잘 알려진 인물들의 이름이 언급되었습니다. 2014년에는 일본 출신의 귀화 미국 시민권자로 로스앤젤레스 교외의 템플 시티에서 어머니와 함께 살고 있는 통신 엔지니어인 도리안 프렌티스 Satoshi 나카모토의 신원이 밝혀졌다고 믿어지기도 했습니다. 그러나 Satoshi은 [미스터리]로 남아 있습니다(https://www.youtube.com/watch?v=0ETcLj5jBy4).
@@ -2061,10 +2061,10 @@ Satoshi 나카모토가 떠난 후, 나카모토 없이 프로젝트를 진행�
 전반적인 계획은 프로젝트의 지속 가능한 발전을 보장하는 것입니다. 여기에는 더 많은 청중과 함께 일정한 정당성을 확립하는 것이 포함됩니다. 5월 19일, 마이크 헌은 [제안](https://web.archive.org/web/20110522075653/http://forum.Bitcoin.org:80/index.php?topic=8954.0)을 통해 프로젝트에 참여한 사람들이 사람들이 의심하지 않도록 '실명', 즉 시민 이름을 사용할 것을 제안했습니다. 개빈, 마이크, 그리고 다른 사람들은 포럼에서 가명을 변경하여 실명을 표시했습니다. 주요 개발자 명단도 웹사이트 첫 페이지에 [공개](https://web.archive.org/web/20110530221415/http://www.Bitcoin.org:80/)되어 있습니다. 5월 말까지 공개된 개발자는 Gavin Andresen, Martti Malmi, Amir Taaki, Pieter Wuille, Nils Schneider, Jeff Garzik입니다.
 
 
-협업도 개선됩니다. 포럼과 IRC 채널 #Bitcoin-dev 외에도 개발 전용 메일링 리스트인 "Bitcoin-development"가 등장합니다. 이 메일링리스트는 6월 12일에 Jeff Garzik에 의해 [설정](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-June/000000.html)되었습니다. 이 메일링 리스트에서는 Bitcoin에 대한 변경 사항을 공식적으로 논의할 수 있습니다. 8월에 프로젝트의 [로드맵](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-August/000333.html)에 관한 논의가 시작됩니다. 이 목록은 처음에 소스포지에서 호스팅되다가 2015년 6월에 리눅스 재단 사이트로 [이전](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-June/008975.html)되고, 2024년 초에 최종적으로 [마이그레이션](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI)될 예정입니다.
+협업도 개선됩니다. 포럼과 IRC 채널 #Bitcoin-dev 외에도 개발 전용 메일링 리스트인 "Bitcoin-development"가 등장합니다. 이 메일링리스트는 6월 12일에 Jeff Garzik에 의해 [설정](https://gnusha.org/pi/bitcoindev/BANLkTi=2VOhGTgX4HA_en00DATFbeWGVtg@mail.gmail.com/)되었습니다. 이 메일링 리스트에서는 Bitcoin에 대한 변경 사항을 공식적으로 논의할 수 있습니다. 8월에 프로젝트의 [로드맵](https://gnusha.org/pi/bitcoindev/CABsx9T2pTg8YG_Q09cnAvsrxquLO-6cWr1tb=fdWtLPBEyJzng@mail.gmail.com/)에 관한 논의가 시작됩니다. 이 목록은 처음에 소스포지에서 호스팅되다가 2015년 6월에 리눅스 재단 사이트로 [이전](https://gnusha.org/pi/bitcoindev/CAEz79PqV8OPQK7zx7oHkhtX8kS4tQkm9qzOva1KvJb7KO2zQmg@mail.gmail.com/)되고, 2024년 초에 최종적으로 [마이그레이션](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI)될 예정입니다.
 
 
-2011년 9월 19일, 아미르 타키가 파이썬 프로그래밍 언어에 특화된 파이썬 개선 제안(PEP)을 모델로 한 Bitcoin 개선 제안 시스템을 [취임](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2011-September/000554.html)했습니다. BIPs은 프로토콜의 가능한 변경 사항을 설명하거나 커뮤니티에 일반적인 정보를 제공하는 문서입니다. 그는 BIP-1을 통해 프로세스를 설명하며, 나중에 Luke-Jr의 BIP-2가 이를 대체할 것입니다. 이러한 제안은 처음에 [Bitcoin 위키](https://en.Bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743)에서 호스팅됩니다.
+2011년 9월 19일, 아미르 타키가 파이썬 프로그래밍 언어에 특화된 파이썬 개선 제안(PEP)을 모델로 한 Bitcoin 개선 제안 시스템을 [취임](https://gnusha.org/pi/bitcoindev/1316392315.46221.YahooMailNeo@web121014.mail.ne1.yahoo.com/)했습니다. BIPs은 프로토콜의 가능한 변경 사항을 설명하거나 커뮤니티에 일반적인 정보를 제공하는 문서입니다. 그는 BIP-1을 통해 프로세스를 설명하며, 나중에 Luke-Jr의 BIP-2가 이를 대체할 것입니다. 이러한 제안은 처음에 [Bitcoin 위키](https://en.Bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743)에서 호스팅됩니다.
 
 
 개빈 안드레센의 감독 하에 몇 달에 걸쳐 여러 버전의 소프트웨어가 출시되었습니다: 3월 5일에 [v0.3.20](https://bitcointalk.org/index.php?topic=4167.msg60365#msg60365), 4월 27일에 [v0.3.21](https://bitcointalk.org/index.php?topic=6642.msg97074#msg97074), 6월 5일에 [v0.3.22](https://bitcointalk.org/index.php?topic=12269.msg170790#msg170790), 6월 13일에 [v0.3.23](https://bitcointalk.org/index.php?topic=16553.msg215364#msg215364), 7월 8일에 [v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270)가 출시되었습니다. 2011년 9월 23일에는 새로운 메이저 버전인 0.4 버전이 공식적으로 [출시](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446)되어 개발이 순조롭게 진행되고 있음을 상징적으로 보여주었습니다.
@@ -2123,7 +2123,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 
 세 번째 요소는 Bitcoin 포럼입니다. 마르티는 이 포럼을 관리하지만 진행자를 빠르게 모집합니다. 그 중 한 명인 테이모스(본명 마이클 마쿼트)는 포럼을 공동 관리하는 등 추가적인 책임을 맡게 되었습니다. 이 포럼은 심플 머신 포럼 엔진에서 운영되며 수년 동안 그 모습을 바꾸지 않았습니다. 하지만 포럼의 URL은 두 번 변경되었습니다. 먼저, 5월 17일에 포럼이 forum.Bitcoin.org로 [이전](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)되었습니다. 그리고 8월 1일에 새로운 최상위 도메인인 bitcointalk.org로 [이전](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)되었습니다. 앞으로 이 포럼의 이름은 비트코인토크로 변경될 예정입니다.
 
-2011년 여름에 비트코인의 가치가 상승하면서 마르티 말미는 헬싱키 근처의 편안한 아파트를 구입하기 위해 비트코인의 상당 부분을 [판매](https://twitter.com/marttimalmi/status/1339908793736556544)했습니다. 그 후 그는 직장을 [그만두고](https://x.com/marttimalmi/status/1339908797968637952) 일본에서 몇 달을 보냈습니다. 그는 웹사이트와 포럼을 그만두고](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [테이모스와 특정 코브라에게](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993) 맡겼으며, 마르티는 그를 "Satoshi이 신뢰하는 사람"이라고 [설명](https://forum.Bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-Bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)했습니다 두 사람은 이후 몇 년 동안 두 플랫폼을 공동 관리하게 됩니다.
+2011년 여름에 비트코인의 가치가 상승하면서 마르티 말미는 헬싱키 근처의 편안한 아파트를 구입하기 위해 비트코인의 상당 부분을 [판매](https://twitter.com/marttimalmi/status/1339908793736556544)했습니다. 그 후 그는 직장을 [그만두고](https://x.com/marttimalmi/status/1339908797968637952) 일본에서 몇 달을 보냈습니다. 그는 웹사이트와 포럼을 그만두고](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [테이모스와 특정 코브라에게](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993) 맡겼으며, 마르티는 그를 "Satoshi이 신뢰하는 사람"이라고 [설명](https://web.archive.org/web/20220821142738/https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)했습니다 두 사람은 이후 몇 년 동안 두 플랫폼을 공동 관리하게 됩니다.
 
 
 ### 회의 및 미팅
@@ -2164,7 +2164,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 :::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
 
-올해 말인 11월에는 프라하에서 유럽 컨퍼런스(https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)가 열릴 예정입니다. 주목할 만한 연사로는 개발자 아미르 타키, 스웨덴 해적당 설립자 릭 포크빙게, 발표자 맥스 카이저 등이 있습니다. 이듬해에는 비슷한 행사가 [런던에서 개최될 예정입니다](https://blog.bitmex.com/london-2012-the-2nd-Bitcoin-conference/).
+올해 말인 11월에는 프라하에서 유럽 컨퍼런스(https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)가 열릴 예정입니다. 주목할 만한 연사로는 개발자 아미르 타키, 스웨덴 해적당 설립자 릭 포크빙게, 발표자 맥스 카이저 등이 있습니다. 이듬해에는 비슷한 행사가 [런던에서 개최될 예정입니다](https://web.archive.org/web/20250912184600/https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/).
 
 
 ### 미디어 보도

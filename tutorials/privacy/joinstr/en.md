@@ -498,7 +498,7 @@ Against a backdrop of increasing financial scrutiny, decentralized tools to prot
 ### Official documentation
 
 
-- [Joinstr official website](https://joinstr.xyz)
+- [Joinstr official website](https://docs.joinstr.xyz/)
 - [User documentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technical documentation](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab source code](https://gitlab.com/invincible-privacy/joinstr)

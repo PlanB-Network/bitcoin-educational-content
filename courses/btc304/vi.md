@@ -1500,7 +1500,7 @@ Nếu bạn muốn chuẩn bị cho những khoảnh khắc yên tĩnh hơn, b�
 - mang theo **Nerdminer**, Bitaxe, FPGA hoặc thậm chí ASIC;
 - có một chiếc **Bitcoin flyer**;
 - đưa ra ý tưởng về hình ảnh hoặc logo Bitcoin cho cộng đồng của bạn;
-- đang chơi trò chơi bài **[Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- đang chơi trò chơi bài **[Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - hiển thị bản đồ **[btcmap.org](https://btcmap.org/)** của các cộng đồng và thương gia;
 - gửi hoặc nhận Bitcoin bằng **Lightning**.
 
@@ -1871,7 +1871,7 @@ Tùy thuộc vào khả năng sẵn có và mức độ tham gia vào cộng đ�
 
 - Đêm nhà hàng cho **Ngày Pizza** vào ngày 22 tháng 5
 - Một buổi tối hoặc cuối tuần để ăn mừng **Halving** tiếp theo
-- Đêm trò chơi gia đình **về Bitcoin và cách thức hoạt động của nó**, sử dụng các trò chơi như [Le Coin de Table](https://www.Maximalist.ovh/) hoặc [SHAmory](https://shamory.com/)
+- Đêm trò chơi gia đình **về Bitcoin và cách thức hoạt động của nó**, sử dụng các trò chơi như [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) hoặc [SHAmory](https://shamory.com/)
 - **Hội thảo Mining** giới thiệu các loại phần cứng khác nhau (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Buổi chiều hoặc buổi tối dành cho người mới bắt đầu**, với các hội thảo theo chủ đề
 - **Một cuộc gặp gỡ chung với các cộng đồng lân cận**

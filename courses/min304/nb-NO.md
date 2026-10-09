@@ -390,7 +390,7 @@ Du kan deretter fjerne den forrige eierens mining pool for å sette opp din egen
 Etter å ha gjennomgått alle disse punktene, kan du kjøpe maskinen din med høy grad av tillit. Hvis du er i tvil, konsulter fellesskapet.
 
 For å oppsummere denne veiledningen i én setning: **"Ikke stol, verifiser."**
-[Du kan også henvende deg til profesjonelle innen rekonstruksjon av gruveutstyr, som vår partner 21energy. De tilbyr testede S9-maskiner, rengjort og med BraiiinOS+ programvare allerede installert. Med affiliatekoden "decouvre" vil du motta en 10% rabatt på kjøpet av en S9 samtidig som du støtter Attakai-prosjektet.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Du kan også henvende deg til profesjonelle innen rekonstruksjon av gruveutstyr, som vår partner 21energy. De tilbyr testede S9-maskiner, rengjort og med BraiiinOS+ programvare allerede installert. Med affiliatekoden "decouvre" vil du motta en 10% rabatt på kjøpet av en S9 samtidig som du støtter Attakai-prosjektet.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Guide for kjøp av maskinvaremodifikasjoner for S9
 

@@ -643,8 +643,8 @@ Recuerda: proteger tu privacidad no depende sólo de tu navegador. Combina Orion
 
 
 - **Página web oficial**: [kagi.com/orion](https://kagi.com/orion/)
-- **Preguntas más frecuentes**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Foro de la comunidad**: [community.kagi.com](https://community.kagi.com)
+- **Preguntas más frecuentes**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Foro de la comunidad**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Seguimiento de errores**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Componentes de código abierto
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Noticias y actualizaciones

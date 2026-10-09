@@ -44,7 +44,7 @@ Selles mõttes on kõik Plan ₿ Academy'sse panustajad haridustöötajad!
 ## Esimesed sammud enne korrektuuri tegemist Plan ₿ Akadeemias
 
 
-Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage oma kava ₿ Akadeemia koordinaatorit, kes avab selleks ettenähtud [teema](https://github.com/orgs/Plan ₿ Akadeemia/projektid/3). Kui saate küsimuse lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriga.
+Enne uue korrektuuriülesande alustamist teatage sellest [Telegrammi grupis](https://t.me/PlanBNetwork_ContentBuilder) või teavitage oma kava ₿ Akadeemia koordinaatorit, kes avab selleks ettenähtud [teema](https://github.com/orgs/PlanB-Network/projects/3 ₿ Akadeemia/projektid/3). Kui saate küsimuse lingi, lihtsalt **kommenteerige, et alustate** selle sisu korrektuuriga.
 
 
 See süsteem aitab koordinaatoril jälgida repo sisemist arengut ja võimaldab korrektori poolt sisu "nõuda", vältides sellega kellegi teise topeltpüüdeid.

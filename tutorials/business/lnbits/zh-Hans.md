@@ -387,7 +387,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ##### 反之亦然。
 
-试试 fiatjaf 提供的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).要支付或检查 LNURLp，也可以使用 [LNurlpay](https://wwww.lnurlpay.com/)。应说明是 HTTPS 而不是 HTTP。
+试试 fiatjaf 提供的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).要支付或检查 LNURLp，也可以使用 [LNurlpay](https://www.lnurlpay.com/)。应说明是 HTTPS 而不是 HTTP。
 
 ##### 配置人们在向我的 LNURLp QR 付款时看到的注释
 

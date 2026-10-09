@@ -337,7 +337,7 @@ Het custodial model vereist waakzaamheid en goede beveiligingspraktijken. Op de 
 
 
 - Technische documentatie: [docs.cashu.space](https://docs.cashu.space)
-- Lijst van publieke munten: [bitcoinmints.com](https://bitcoinmints.com)
+- Lijst van publieke munten: [bitcoinmints.com](https://cashumints.space/)
 - Officiële protocolwebsite: [cashu.space](https://cashu.space)
 
 

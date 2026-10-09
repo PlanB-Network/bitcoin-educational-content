@@ -639,7 +639,7 @@ Persaingan antar penyedia layanan meningkatkan harga dan melipatgandakan sumber 
 
 - [SwapMarket - Aplikasi web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Dokumentasi teknis](https://docs.boltz.exchange/)
+- [Dokumentasi teknis](https://github.com/BoltzExchange/boltz-backend)
 - [Panduan hosting mandiri](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

@@ -650,7 +650,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- [Joinstr आधिकारिक वेबसाइट](https://joinstr.xyz)
+- [Joinstr आधिकारिक वेबसाइट](https://docs.joinstr.xyz/)
 - [उपयोगकर्ता दस्तावेज़](https://docs.joinstr.xyz/users/using-joinstr)
 - [तकनीकी दस्तावेज़ीकरण](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab स्रोत कोड](https://gitlab.com/invincible-privacy/joinstr)

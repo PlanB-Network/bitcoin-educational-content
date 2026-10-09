@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL за светкавичен адрес обратното
 
 
-Опитайте този [енкодер](https://lnurl-codec.netlify.app/) от fiatjaf или [този](https://lightningdecoder.com/). За да платите или проверите LNURLp, можете да използвате и [LNurlpay](https://wwww.lnurlpay.com/). В него трябва да е посочено HTTPS, а не HTTP.
+Опитайте този [енкодер](https://lnurl-codec.netlify.app/) от fiatjaf или [този](https://lightningdecoder.com/). За да платите или проверите LNURLp, можете да използвате и [LNurlpay](https://www.lnurlpay.com/). В него трябва да е посочено HTTPS, а не HTTP.
 
 
 

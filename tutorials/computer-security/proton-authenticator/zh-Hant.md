@@ -572,8 +572,8 @@ Proton Authenticator 是目前最全面、最安全的解決方案之一：開�
 
 
 
-- **GitHub Proton Authenticator**：[github.com/ProtonMail/protonauthenticator](https://github.com/ProtonMail/proton-authenticator) - 開放原始碼
-- 安全稽核：[proton.me/community/security-audits](https://proton.me/community/security-audits) - 獨立稽核報告
+- **GitHub Proton Authenticator**：[github.com/ProtonMail/protonauthenticator](https://github.com/protonpass) - 開放原始碼
+- 安全稽核：[proton.me/community/security-audits](https://proton.me/community/open-source) - 獨立稽核報告
 
 
 

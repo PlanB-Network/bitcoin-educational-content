@@ -20,7 +20,7 @@ V současné době je ZEUS určen pro lidi, kteří provozují vlastní domácí
 Obchodníci používající [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) nebo [Alby](https://getalby.com/) (nebo jakýkoli jiný účet LNDhub) se také mohou připojit ke svým uzlům / účtům, používat je a spravovat je prostřednictvím ZEUS.
 
 
-[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jednoduchý způsob, jak provádět rychlé a levné bitcoinové platby ze svého mobilního zařízení, prostřednictvím [integrovaného mobilního Lightning uzlu](https://docs.zeusln.app/category/embedded-node) s vestavěným [Lightning Service Providerem (LSP)](https://docs.zeusln.app/lsp/intro).
+[Od verze v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) začne ZEUS vycházet vstříc běžným uživatelům, kteří chtějí jednoduchý způsob, jak provádět rychlé a levné bitcoinové platby ze svého mobilního zařízení, prostřednictvím [integrovaného mobilního Lightning uzlu](https://docs.zeusln.app/category/embedded-lnd) s vestavěným [Lightning Service Providerem (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Důležité zdroje systému Zeus:
@@ -169,7 +169,7 @@ Zde jsou uvedeny dvě služby LSP:
 LSP pomáhá uživatelům připojit se k síti Lightning tím, že otevírá platební kanály k jejich uzlům. [Přečtěte si více o LSP zde](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS má nový integrovaný LSP s názvem [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), který je k dispozici všem uživatelům využívajícím nový vestavěný uzel.
 
 
-V této sekci je ve výchozím nastavení Olympus LSP (https://0conf.lnolymp.us), ale brzy můžete nastavit i jiný 0conf LSP, který tento protokol podporuje.
+V této sekci je ve výchozím nastavení Olympus LSP (https://flow.zeuslsp.com), ale brzy můžete nastavit i jiný 0conf LSP, který tento protokol podporuje.
 
 
 _Keep in mind:_
@@ -310,7 +310,7 @@ Vložený uzel v systému ZEUS je založen na formátu LND a používá formát 
 Formát klíče aezeed by měl být kompatibilní s následujícími mobilními peněženkami: Blixt, BlueWallet a Breez. Upozorňujeme, že samotný kód seed nebude stačit k obnovení všech zůstatků, pokud máte otevřené nebo čekající uzavírací kanály !
 
 
-Další informace o procesu zálohování a obnovy naleznete na stránce [Zeus Docs](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Další informace o procesu zálohování a obnovy naleznete na stránce [Zeus Docs](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 MOCNÁ PORADNA: Při ukládání seed si prosím uložte také klíč k uzlu! Někdy je dobré mít ho po ruce spolu s vaším seed a SCB (záloha statických kanálů) pro případ, že byste potřebovali ověřit obnovení.
@@ -356,7 +356,7 @@ V této části naleznete několik základních nástrojů pro správu integrova
 
 
 
- - _Režim hledání cesty_ - bimodální nebo apriorní, způsoby hledání lepší trasy pro platby LN a také obnovení předchozích informací o trase. Přečtěte si tyto velmi dobré návody o vyhledávání cest: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - autor: Docs Lightning Engineering a [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - autor: Voltage
+ - _Režim hledání cesty_ - bimodální nebo apriorní, způsoby hledání lepší trasy pro platby LN a také obnovení předchozích informací o trase. Přečtěte si tyto velmi dobré návody o vyhledávání cest: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - autor: Docs Lightning Engineering a [LN Payment Pathfinding](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - autor: Voltage
  - _Persistent LND_ - tento režim aktivujte, pokud chcete, aby služba LND běžela nepřetržitě na pozadí a udržovala váš uzel online 24 hodin denně. To je velmi užitečné, pokud používáte Zeus jako PoS v malém obchodě nebo pokud přijímáte mnoho tipů LN přes LN Address.
  - _Rescan wallet_ - tato možnost spustí při restartu úplné skenování všech txs v řetězci Wallet. Aktivujte ji pouze v případě, že vám v Wallet chybí některé tx. Úloha rescan bude trvat nějakou dobu, několik minut, takže buďte trpěliví a vždy zkontrolujte protokoly, abyste viděli další podrobnosti o průběhu.
  - _Compact Database_ - tato možnost je velmi užitečná, pokud aplikace Zeus zabírá hodně místa v zařízení (viz podrobnosti o aplikaci v nastavení zařízení). Pokud používáte Zeus hodně aktivně, doporučuji toto zhušťování provádět častěji. Jakmile zjistíte, že máte více než 1-1,5 GB dat pro aplikaci Zeus, proveďte kompakci. Bude se restartovat a nějakou dobu potrvá, takže buďte trpěliví.
@@ -399,7 +399,7 @@ ZEUS PAY využívá uživatelské předobrazy hashů, faktury HODL a atestační
 Pokud aktivujete "trvalý režim", budou všechny platby na váš účet LN Address přijaty okamžitě.
 
 
-Přečtěte si, jak fungují platby [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works), a více informací o [ZeusPay Fees here](https://docs.zeusln.app/lightning-Address/fees).
+Přečtěte si, jak fungují platby [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works), a více informací o [ZeusPay Fees here](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Adresy v řetězci**
@@ -488,7 +488,7 @@ Ve výchozím nastavení bude Zeus používat svůj vlastní LSP Olympus. Pozdě
 Stačí, když si na svém systému Zeus vytvoříte účet Invoice (zadáte částku a kliknete na tlačítko "požádat"), a budete moci tyto účty Sats ihned obdržet.
 
 
-Invoice, kterou jste generate, bude [zabalena](https://docs.zeusln.app/lsp/wrapped-invoices) a budou vám zobrazeny poplatky spojené se službou, pokud jsou zaplaceny. Tento zabalený Invoice obsahuje směrové nápovědy k vašemu uzlu Zeus, takže LSP by mohl najít váš nový uzel a otevřít kanál s novými prostředky, které vkládáte.
+Invoice, kterou jste generate, bude [zabalena](https://docs.zeusln.app/lsp/services/flow) a budou vám zobrazeny poplatky spojené se službou, pokud jsou zaplaceny. Tento zabalený Invoice obsahuje směrové nápovědy k vašemu uzlu Zeus, takže LSP by mohl najít váš nový uzel a otevřít kanál s novými prostředky, které vkládáte.
 
 
 ![Image](assets/en/06.webp)

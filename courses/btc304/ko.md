@@ -1500,7 +1500,7 @@ NOSTR 소셜 네트워크와 마찬가지로, 프라이버시 보호는 물론, 
 - **너드마이너**, Bitaxe, FPGA 또는 ASIC을 가져와야 합니다;
 - gW-112 **전단지**를 가지고 있습니다;
 - 커뮤니티를 위한 Bitcoin 비주얼 또는 로고를 브레인스토밍합니다;
-- **[Bitcoin 카드 게임](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**을 플레이합니다;
+- **[Bitcoin 카드 게임](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**을 플레이합니다;
 - 커뮤니티 및 상인 지도를 **[btcmap.org](https://btcmap.org/)**에 표시합니다;
 - **라이트닝**을 사용하여 Bitcoin을 송수신합니다.
 
@@ -1871,7 +1871,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 
 - 5월 22일 **피자의 날**을 위한 레스토랑의 밤
 - 다음 **Halving**을 축하하기 위한 저녁 또는 주말
-- 르 Coin 드 테이블](https://www.Maximalist.ovh/) 또는 [샤모리](https://shamory.com/)와 같은 게임을 사용하여 Bitcoin과 그 작동 방식에 대한 가족 **게임의 밤**을 개최합니다
+- 르 Coin 드 테이블](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) 또는 [샤모리](https://shamory.com/)와 같은 게임을 사용하여 Bitcoin과 그 작동 방식에 대한 가족 **게임의 밤**을 개최합니다
 - 다양한 유형의 하드웨어(CPU, GPU, FPGA, ASIC, 너드마이너, 비택스)를 소개하는 **Mining 워크샵**을 진행합니다
 - 초보자를 위한 오후 또는 저녁 **테마 워크샵**, 테마별 워크샵
 - 이웃 커뮤니티와의 **공동 밋업**

@@ -240,7 +240,7 @@ eCashモデルの開発は、決して無駄ではありませんでした。そ
 
 ### e-gold: ウェブ上の金
 
-民間の電子通貨の象徴的な例はe-goldシステムです。これは「デジタルゴールド通貨」として知られており、安全に保管された同等量の金に完全に裏打ちされた電子的に転送される通貨を意味します。これは1996年にダグラス・ジャクソン（Douglas Jackson）とバリー・ダウニー（Barry Downey）によって共同設立されました。ダグラス・ジャクソンはフロリダに住むアメリカの腫瘍学者で、オーストリアの経済学者フリードリヒ・フォン・ハイエクの信奉者であり、e-goldで「[より良いお金](https://blog.bettermoney.com/)」を作りたいと考えていました。
+民間の電子通貨の象徴的な例はe-goldシステムです。これは「デジタルゴールド通貨」として知られており、安全に保管された同等量の金に完全に裏打ちされた電子的に転送される通貨を意味します。これは1996年にダグラス・ジャクソン（Douglas Jackson）とバリー・ダウニー（Barry Downey）によって共同設立されました。ダグラス・ジャクソンはフロリダに住むアメリカの腫瘍学者で、オーストリアの経済学者フリードリヒ・フォン・ハイエクの信奉者であり、e-goldで「[より良いお金](https://web.archive.org/web/20250915190528/https://blog.bettermoney.com/)」を作りたいと考えていました。
 
 その原則は、e-goldの各単位を実際の金に変換できるというものでした。金の準備金は、アメリカにあるGold & Silver Reserve Inc.（G&SR）という会社によって管理されていました。コンピュータシステムは、カリブ海のセントキッツ・ネービスに登録された2番目の会社、e-gold Ltd.によって管理されていました。金だけが関与するわけではなく、ユーザーはe-silver、e-platinum、e-palladiumも保有し、交換することができ、同じモデルに基づいて構築されました。
 
@@ -257,7 +257,7 @@ e-goldシステムは大成功を収めました。2006年のピーク時には�
 中央集権的な民間通貨システムのもう一つの例はLiberty Reserve（リバティ・リザーブ）で、これはユーザーが米ドル、ユーロ、または金にペッグされた電子通貨を保持し、転送することを可能にしました。このシステムは、ウクライナ系アメリカ人のアーサー・ブドフスキーと、サンクトペテルブルク出身のロシア移民、ウラジミール・カッツによって作成されました。2006年、アーサー・ブドフスキーは税金の避難地と考えられていたコスタリカに移住し、そこで彼の会社、Liberty Reserve S.A.を登録しました。
 
 ![Liberty Reserveのロゴ 2009年](assets/ja/010.webp)
-Liberty Reserveのロゴ 2009年 (出典: [ウィキメディア](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp))
+Liberty Reserveのロゴ 2009年 (出典: [ウィキメディア](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.jpg))
 
 このシステムはe-goldと非常に似ていましたが、資金（主にドル）がプライベートな金庫ではなく、オフショア銀行口座に保管されていた点が異なります。Liberty Reserveは、2007年4月にDouglas Jacksonと彼の関係者が起訴されたことによるe-goldの閉鎖から大きな恩恵を受けました。2013年5月、[アメリカ合衆国司法省によると](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)、このプラットフォームは世界中で100万人以上のユーザーを持ち、そのうち20万人以上がアメリカ合衆国内におり、年間1200万件の金融取引を処理し、合計で14億ドル以上の取引量がありました。その使用は主に犯罪活動のためでしたが、[これに限定されていませんでした](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/)：Liberty Reserveは、Forexトレーダーや海外送金にも使用されました。
 
@@ -396,7 +396,7 @@ RPOWシステムを設計するために、ハル・フィニーはeCashとbit g
 
 ![RPOWでの交換](assets/ja/018.webp)
 
-ハル・フィニーはモデルを設計しただけでなく、個人的にそれを実装しました。2004年8月15日、彼はサイファーパンクのメーリングリストでRPOWシステムの立ち上げを[発表](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)し、専用のウェブサイト（rpow.net）でその操作を文書化しました。その後、2005年にサンフランシスコで開催されたCodeCon 2005カンファレンスで、プルーフ・オブ・ワーク（PoW）トークンの潜在的な使用法、すなわち：価値の転送、スパム規制、ビデオゲーム内の商取引、オンラインポーカーのようなオンラインギャンブル、BitTorrentのようなファイル共有プロトコルでのアンチリーチングについて[発表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)しました。
+ハル・フィニーはモデルを設計しただけでなく、個人的にそれを実装しました。2004年8月15日、彼はサイファーパンクのメーリングリストでRPOWシステムの立ち上げを[発表](https://lists.cpunks.org/archives/list/cypherpunks-legacy@lists.cpunks.org/message/M2HERXWHTGPIOUFP3JXOXTGZXWBHFYC5/)し、専用のウェブサイト（rpow.net）でその操作を文書化しました。その後、2005年にサンフランシスコで開催されたCodeCon 2005カンファレンスで、プルーフ・オブ・ワーク（PoW）トークンの潜在的な使用法、すなわち：価値の転送、スパム規制、ビデオゲーム内の商取引、オンラインポーカーのようなオンラインギャンブル、BitTorrentのようなファイル共有プロトコルでのアンチリーチングについて[発表](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)しました。
 しかし、RPOWには、期待された成功を達成しなかった理由を説明するかもしれない本質的な欠陥がありました：
 
 - セキュリティモデルは中央集権的なサーバーに依存していたため、むしろ貧弱であった；
@@ -609,7 +609,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 数日後、ハル・フィニーはメーリングリストでこの金融政策に対して肯定的に[反応](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)しました。彼は「システムは生成されるユニットの最大数を設定するように構成できる」という事実に興奮しました。彼のメールでは、ビットコインが「世界中で使用される主要な支払いシステムになった場合」、各ユニットの価値は「約1000万ドルになる」と推定しました。彼は、「今日数セントの計算時間でユニットを生成する可能性」が「非常に良い賭けになる可能性がある」と結論付けました。この推定は議論の余地があります（それは全世界の富に相当するビットコインの評価に基づいているため）、しかし、その推論は確かです。
 
-1月16日、サトシはメーリングリストに送られた電子メールで、この「長期投資」の考えを繰り返し、ビットコインの潜在的なユースケースを説明しています。彼はその中で、「もし流行したら、いくつか持っておくのは賢明かもしれない」と[述べ](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)、「十分な数の人々が同じように考えるなら、それは自己実現的な予言になる」と述べています。彼は1か月後にこの主張を[繰り返し](https://p2pfoundation.ning.com/xn/detail/2003008:Comment:9562)、単位の量が限られていることが「ポジティブなフィードバックループ」を生み出す可能性があり、「ユーザーが多ければ多いほど、価値が増加し、それが増加する価値から利益を得たいと熱望するより多くのユーザーを引き付ける可能性がある」と説明しました。この事実により、投機的な要素はシステムの始動を目的として最初から存在しています。
+1月16日、サトシはメーリングリストに送られた電子メールで、この「長期投資」の考えを繰り返し、ビットコインの潜在的なユースケースを説明しています。彼はその中で、「もし流行したら、いくつか持っておくのは賢明かもしれない」と[述べ](https://www.metzdowd.com/pipermail/cryptography/2009-January/015014.html)、「十分な数の人々が同じように考えるなら、それは自己実現的な予言になる」と述べています。彼は1か月後にこの主張を[繰り返し](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/3/)、単位の量が限られていることが「ポジティブなフィードバックループ」を生み出す可能性があり、「ユーザーが多ければ多いほど、価値が増加し、それが増加する価値から利益を得たいと熱望するより多くのユーザーを引き付ける可能性がある」と説明しました。この事実により、投機的な要素はシステムの始動を目的として最初から存在しています。
 
 ### 規制、ゾンビネットワーク、および生態系
 
@@ -1049,7 +1049,7 @@ Slashdotからのユーザーの流入は、ソフトウェアの改善も必要
 最後に、Jeff Garzik（フォーラム上でjgarzikという偽名を使用）について言及できます。彼はアメリカの開発者で、特にRed Hatディストリビューションのためのフリーソフトウェアの世界での貢献者であり、オーストリア学派の経済学のリバタリアンの信奉者です。彼はSlashdotに掲載された記事を通じてビットコインを発見し、ほぼ即座にビットコインに関わるようになりました。
 
 ![Jeff Garzik in 2013](assets/ja/046.webp)
-2013年のJeff Garzik（出典：[Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
+2013年のJeff Garzik（出典：[Benson Samuel](https://web.archive.org/web/20230607093908/https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
 
 サトシの最初の目標は、最近の使用量の増加に対処するために、ソフトウェアとプロトコルをより安全にすることです。ギャヴィン・アンドレセンと共に、発生可能な様々な攻撃（サービス拒否攻撃を含む）を考慮し、発見された脆弱性を修正する努力をしています。これにより、7月17日には特定の日付より前にチェーンが書き換えられないようにするチェックポイントのシステムが追加され（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）、7月25日にはノードによる正しいチェーンの選択メカニズムを洗練させるための作業の概念が統合されました（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）。
 
@@ -1473,7 +1473,7 @@ WikiLeaksの資金調達は本質的に一般人からの寄付に依存して�
 
 第三の要素はビットコイン・フォーラムです。これはマルティによって管理されていますが、彼はすぐにモデレーターを募集します。その中の一人がTheymos（本名Michael Marquardt）で、フォーラムの共同管理を含む追加の責任を負うことになります。フォーラムはSimple Machines Forumエンジンで運営され、年を経ても外観は変わりません。しかし、そのURLは2回変更されます。最初に、5月17日にフォーラムはforum.bitcoin.orgに[移動](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)されます。その後、8月1日に新しいトップレベルドメインであるbitcointalk.orgに[移動](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)されます。年月を経て、これはBitcoinTalkと名付けられます。
 
-2011年夏の価値の上昇とともに、マルティ・マルミはヘルシンキ近郊の快適なアパートを購入するために、多額のビットコインを[売却](https://twitter.com/マルティmalmi/status/1339908793736556544)しました。その後、彼は数ヶ月間日本で過ごすために[仕事を辞め](https://x.com/marttimalmi/status/1339908797968637952)ました。彼はウェブサイトとフォーラムを放棄し、TheymosとあるCøbraに[任せました](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107)。Cøbraはマルティによって「サトシに信頼されている人物」と[述べられています](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)。この二人はその後の年月にわたって両プラットフォームを共同で管理します。
+2011年夏の価値の上昇とともに、マルティ・マルミはヘルシンキ近郊の快適なアパートを購入するために、多額のビットコインを[売却](https://twitter.com/マルティmalmi/status/1339908793736556544)しました。その後、彼は数ヶ月間日本で過ごすために[仕事を辞め](https://x.com/marttimalmi/status/1339908797968637952)ました。彼はウェブサイトとフォーラムを放棄し、TheymosとあるCøbraに[任せました](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107)。Cøbraはマルティによって「サトシに信頼されている人物」と[述べられています](https://web.archive.org/web/20220821142738/https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)。この二人はその後の年月にわたって両プラットフォームを共同で管理します。
 
 ### 会議とミーティング
 
@@ -1499,7 +1499,7 @@ WikiLeaksの資金調達は本質的に一般人からの寄付に依存して�
 
 :::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
-その年の後半、11月にはプラハでヨーロッパ会議が[開催される予定です](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。注目すべき講演者には、開発者のアミール・ターキ、スウェーデンの海賊党創設者リック・ファルクヴィンジェ、そしてプレゼンターのマックス・カイザーが含まれます。翌年、同様のイベントが[ロンドンで開催される](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)予定です。
+その年の後半、11月にはプラハでヨーロッパ会議が[開催される予定です](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。注目すべき講演者には、開発者のアミール・ターキ、スウェーデンの海賊党創設者リック・ファルクヴィンジェ、そしてプレゼンターのマックス・カイザーが含まれます。翌年、同様のイベントが[ロンドンで開催される](https://web.archive.org/web/20250912184600/https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)予定です。
 
 ### メディアの報道
 

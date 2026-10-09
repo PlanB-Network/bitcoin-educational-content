@@ -20,7 +20,7 @@ Praegu on ZEUS mõeldud inimestele, kes käitavad omaenda kodu- või ärisõlmi 
 Kauplejad, kes kasutavad [BTCPay](https://btcpayserver.org/), [LNBits](https://lnbits.com/) või [Alby](https://getalby.com/) (või mõnda muud LNDhub kontot), saavad samuti ühendada, kasutada ja hallata oma sõlmi / kontosid ZEUSi kaudu.
 
 
-[Alates v0.8 versioonist](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) hakkab ZEUS teenindama tavakasutajaid, kes soovivad lihtsalt kiireid ja odavaid bitcoini makseid teha oma mobiilseadmest, kasutades [sisse-ehitatud mobiilset Lightning sõlme](https://docs.zeusln.app/category/embedded-node) koos integreeritud [Lightning teenusepakkujaga (LSP)](https://docs.zeusln.app/lsp/intro).
+[Alates v0.8 versioonist](https://blog.zeusln.com/zeus-v0-8-0-open-beta/) hakkab ZEUS teenindama tavakasutajaid, kes soovivad lihtsalt kiireid ja odavaid bitcoini makseid teha oma mobiilseadmest, kasutades [sisse-ehitatud mobiilset Lightning sõlme](https://docs.zeusln.app/category/embedded-lnd) koos integreeritud [Lightning teenusepakkujaga (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Olulised Zeuse ressursid:
@@ -169,7 +169,7 @@ Siin on esitatud kaks LSP teenust:
 LSP aitab kasutajatel ühendada Lightning-võrguga, avades maksekanaleid nende sõlmedesse. [Loe LSP kohta lähemalt siit](https://medium.com/breez-technology/envisioning-lsps-in-the-lightning-economy-832b45871992). ZEUS-il on uus integreeritud LSP nimega [OLYMPUS by ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581), mis on saadaval kõigile kasutajatele, kes kasutavad uut sisseehitatud sõlme.
 
 
-Selles jaotises on vaikimisi Olympus LSP (https://0conf.lnolymp.us), kuid varsti saate määrata ka teise 0conf LSP, mis toetab seda protokolli.
+Selles jaotises on vaikimisi Olympus LSP (https://flow.zeuslsp.com), kuid varsti saate määrata ka teise 0conf LSP, mis toetab seda protokolli.
 
 
 pidage meeles:_
@@ -310,7 +310,7 @@ ZEUSi sisseehitatud sõlmpunkt põhineb LND-l ja kasutab [aezeed seed formaati](
 Aezeed võtme formaat peaks ühilduma järgmiste mobiilsete rahakottidega: Blixt, BlueWallet ja Breez. Pange tähele, et seed ainuüksi ei ole piisav, et taastada kõik teie saldod, kui teil on avatud või sulgemisjärgus kanalid !
 
 
-Lisateavet varundamise ja taastamise kohta leiate [Zeus Docs page](https://docs.zeusln.app/for-users/embedded-node/backup-and-recovery).
+Lisateavet varundamise ja taastamise kohta leiate [Zeus Docs page](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 VÄLJAKUTSE: Kui salvestate oma seed, salvestage ka sõlme pubkey! Mõnikord on hea, kui see on käepärast koos seed ja SCB-ga (Static Channels Backup), juhul kui teil on vaja taastada.
@@ -356,7 +356,7 @@ Selles jaotises leiame mõned põhilised tööriistad integreeritud sõlme halda
 
 
 
- - _Pathfinding mode_ - bimodaalne või apriori, kuidas leida parem marsruut oma LN maksetele ja ka eelmise marsruudi teabe lähtestamine. Palun lugege neid väga häid juhendeid teeotsingu kohta: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering ja [LN Payment Pathfinding](https://voltage.cloud/blog/lightning-network-faq/understanding-payment-pathfinding-between-nodes-on-lightning-network/) - by Voltage
+ - _Pathfinding mode_ - bimodaalne või apriori, kuidas leida parem marsruut oma LN maksetele ja ka eelmise marsruudi teabe lähtestamine. Palun lugege neid väga häid juhendeid teeotsingu kohta: [Pathfinding](https://docs.lightning.engineering/lightning-network-tools/LND/pathfinding) - by Docs Lightning Engineering ja [LN Payment Pathfinding](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - by Voltage
  - _Püsiv LND_ - aktiveerige see režiim, kui soovite, et LND teenus töötaks pidevalt taustal ja hoiaks teie sõlme võrgus 24/7. See on väga kasulik, kui kasutate Zeust PoSina väikeses poes või kui saate palju LN vihjeid üle LN Address.
  - _Rescan wallet_ - see valik käivitab taaskäivitamisel teie Wallet kõigi ahelas olevate tx-de täieliku skaneerimise. Aktiveerige see ainult juhul, kui teie Wallet-st puuduvad mõned tx-d. Ülesanne rescan võtab aega, mitu minutit, nii et olge kannatlik ja vaadake alati logisid, et näha täpsemaid üksikasju edusammude kohta.
  - _Compact Database_ - see valik on väga kasulik, kui teie Zeuse rakendus võtab palju ruumi seadmes (vt rakenduse üksikasju seadme seadetes). Kui teil on Zeuse kasutamisel palju tegevust, soovitan seda tihendamist sagedamini teha. Kui näete, et teil on Zeuse rakenduse jaoks rohkem kui 1-1,5 GB andmeid, tehke tihendamine. See käivitub uuesti ja võtab aega, seega olge kannatlik.
@@ -399,7 +399,7 @@ ZEUS PAY kasutab kasutaja loodud eelpildi hashide, HODL arveid ja Zaplocker Nost
 Kui te aktiveerite "püsiva režiimi", saavad kõik maksed LN Address koheselt kätte.
 
 
-Lugege, kuidas [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) maksed toimivad ja rohkem [ZeusPay tasude kohta siit](https://docs.zeusln.app/lightning-Address/fees).
+Lugege, kuidas [Zaplocker](https://github.com/supertestnet/zaplocker#how-it-works) maksed toimivad ja rohkem [ZeusPay tasude kohta siit](https://docs.zeusln.app/lightning-address/zaplocker).
 
 
 **G - Onchain aadressid**
@@ -488,7 +488,7 @@ Vaikimisi kasutab Zeus oma LSP-d, Olympus. Kuid hiljem saate kanalite avamiseks 
 Luues oma Zeusesse lihtsalt Invoice (sisestage summa ja vajutage nupule "taotlus"), saate need Sats kohe kätte.
 
 
-Invoice teile generate on [pakitud](https://docs.zeusln.app/lsp/wrapped-invoices) ja teile esitatakse teenusega seotud tasud, kui need on makstud. See pakitud Invoice sisaldab marsruudi vihjeid teie Zeus-sõlme suunas, nii et LSP võiks leida teie uue sõlme ja avada kanali uute rahaliste vahenditega, mida te hoiustate.
+Invoice teile generate on [pakitud](https://docs.zeusln.app/lsp/services/flow) ja teile esitatakse teenusega seotud tasud, kui need on makstud. See pakitud Invoice sisaldab marsruudi vihjeid teie Zeus-sõlme suunas, nii et LSP võiks leida teie uue sõlme ja avada kanali uute rahaliste vahenditega, mida te hoiustate.
 
 
 ![Image](assets/en/06.webp)

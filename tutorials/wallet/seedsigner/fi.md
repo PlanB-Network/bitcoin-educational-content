@@ -94,7 +94,7 @@ SeedSignerin rakentamiseen tarvitset seuraavat komponentit:
 
 - Asuminen (valinnainen mutta suositeltava)** (valinnainen mutta suositeltava)** (valinnainen mutta suositeltava)** (valinnainen mutta suositeltava)**)
     - Suojaa laitetta ja tekee siitä helppokäyttöisen.
-    - Suosituin malli on "*Orange Pill Case*", jonka [avoimen lähdekoodin STL-tiedostot ovat saatavilla 3D-tulostusta varten](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Suosituin malli on "*Orange Pill Case*", jonka [avoimen lähdekoodin STL-tiedostot ovat saatavilla 3D-tulostusta varten](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Laatikoita on saatavana myös [hankkeeseen liittyvät riippumattomat jälleenmyyjät](https://seedsigner.com/hardware/).
 
 

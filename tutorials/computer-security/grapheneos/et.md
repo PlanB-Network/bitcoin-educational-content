@@ -100,7 +100,7 @@ Nüüd, kui olete seadistatud, võite märgata, kui paljas GrapheneOS esimesel p
 
 Vaikimisi rakendused
 Ainsad kaks, millega te ei pruugi tuttav olla, on 'Auditor' ja 'Vanadium'.
-- '[Auditor rakendus](https://play.google.com/store/apps/details?id=app.attestation.auditor) kasutab riistvarapõhiseid turvafunktsioone seadme identiteedi, operatsioonisüsteemi autentsuse ja terviklikkuse kontrollimiseks. See kinnitab, et seade kasutab tehase operatsioonisüsteemi lukustatud alglaaduriga ja et operatsioonisüsteemiga ei ole manipuleeritud.'
+- '[Auditor rakendus](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) kasutab riistvarapõhiseid turvafunktsioone seadme identiteedi, operatsioonisüsteemi autentsuse ja terviklikkuse kontrollimiseks. See kinnitab, et seade kasutab tehase operatsioonisüsteemi lukustatud alglaaduriga ja et operatsioonisüsteemiga ei ole manipuleeritud.'
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) on privaatsust ja turvalisust tugevdav Chromiumi veebibrauseri variant.
 
 ## Kohandamine
@@ -290,7 +290,7 @@ Paremal: Proton Calendar
 
 ### Turvalisus/Privaatsus
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) pakub tasuta ja E2EE ristplatvormi paroolihalduse lahendust kõigile teie seadmetele. Nende tasuline teenus võimaldab integreerida 2FA koode rakendusse. Bitwardeni serveripoolt saab ise majutada ja Androidi rakendus on saadaval F-Droidi kaudu.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) pakub tasuta ja E2EE ristplatvormi paroolihalduse lahendust kõigile teie seadmetele. Nende tasuline teenus võimaldab integreerida 2FA koode rakendusse. Bitwardeni serveripoolt saab ise majutada ja Androidi rakendus on saadaval F-Droidi kaudu.
 - [Proton Pass](https://proton.me/pass/download) pakub sarnast tasuta teenust nagu Bitwarden, kuid [Proton Unlimited](https://proton.me/pricing) klientidele on kättesaadavad lisatud edasijõudnud funktsioonid. Proton Pass on saadaval APK või Aurora kaudu.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) on kahefaktorilise autentimise rakendus süsteemidele, mis kasutavad ühekordse parooli protokolle. Tokeneid saab hõlpsasti lisada QR-koodi skaneerides. FreeOTP on saadaval F-Droidi kaudu.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) on tasuta, turvaline ja avatud lähtekoodiga rakendus Androidile, et hallata teie 2-etapilise autentimise tokeneid teie veebiteenustele. Aegis on saadaval F-Droidi kaudu.

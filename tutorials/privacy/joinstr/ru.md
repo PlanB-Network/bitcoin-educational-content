@@ -650,7 +650,7 @@ Joinstr представляет собой по-настоящему децен
 
 
 
-- [Официальный сайт Joinstr](https://joinstr.xyz)
+- [Официальный сайт Joinstr](https://docs.joinstr.xyz/)
 - [Пользовательская документация](https://docs.joinstr.xyz/users/using-joinstr)
 - [Техническая документация](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [исходный код GitLab](https://gitlab.com/invincible-privacy/joinstr)

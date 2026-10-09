@@ -650,7 +650,7 @@ Trong bối cảnh giám sát tài chính ngày càng tăng, các công cụ phi
 
 
 
-- [Trang web chính thức của Joinstr](https://joinstr.xyz)
+- [Trang web chính thức của Joinstr](https://docs.joinstr.xyz/)
 - [Tài liệu hướng dẫn sử dụng](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tài liệu kỹ thuật](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Mã nguồn GitLab](https://gitlab.com/invincible-privacy/joinstr)

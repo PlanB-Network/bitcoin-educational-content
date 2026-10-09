@@ -27,7 +27,7 @@ Tänu partnerlusele MoonPayga on võimalik osta ja müüa Bitcoin ja muid krüpt
 ## 2. Kuidas paigaldada Rumble Wallet?
 
 
-Rakendust saab paigaldada nii [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) kui ka iOS-i nende vastavate ametlike poodide kaudu.
+Rakendust saab paigaldada nii [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) kui ka iOS-i nende vastavate ametlike poodide kaudu.
 
 
 ![Image](assets/fr/01.webp)

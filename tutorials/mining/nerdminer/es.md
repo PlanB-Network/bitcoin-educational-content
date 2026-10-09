@@ -130,4 +130,4 @@ Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o 4.5 x 10^20
 Aquí hay algunos enlaces si deseas leer más sobre el tema:
 
 - [Página del proyecto NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Documentación completa de NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Documentación completa de NerdMiners](https://bitwater.ch/nerd-miner-v2/)

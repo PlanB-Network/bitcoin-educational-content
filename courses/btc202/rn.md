@@ -1521,7 +1521,7 @@ Kimwe mu vyiza bihambaye vya Umbrel ku bandi bayihiganwa ni umuryango wayo munin
 
 
 
-Kode ya Umbrel iraboneka ku mugaragaro (ushobora kuyibona, Fork, no kuyihindura), ariko ntabwo iri munsi y’uruhusha nyarwo rw’inkomoko yuguruye. Nkako, umbrelOS ikwiragizwa hakurikijwe uruhusha rwa [*PolyForm 1.0.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), naho nyene ibikoresho bimwebimwe bijanye n’iterambere biboneka hakurikijwe uruhusha rwa MIT.
+Kode ya Umbrel iraboneka ku mugaragaro (ushobora kuyibona, Fork, no kuyihindura), ariko ntabwo iri munsi y’uruhusha nyarwo rw’inkomoko yuguruye. Nkako, umbrelOS ikwiragizwa hakurikijwe uruhusha rwa [*PolyForm 1.0.0*](https://polyformproject.org/licenses/noncommercial/1.0.0), naho nyene ibikoresho bimwebimwe bijanye n’iterambere biboneka hakurikijwe uruhusha rwa MIT.
 
 
 

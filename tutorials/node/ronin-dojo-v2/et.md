@@ -37,7 +37,7 @@ Kui te ei vaja üldisi funktsionaalsusi ega neid, mis on seotud Lightning Networ
 Nüüd, kui oleme RoninDojo üle vaadanud, vaatame koos, kuidas seda sõlme seadistada.
 
 ## Millist riistvara valida RoninDojo v2 paigaldamiseks?
-RoninDojo pakub oma tarkvara automaatseks paigaldamiseks pilti [RockPro64](https://ronindojo.io/en/download) jaoks. Siiski keskendub meie õpetus käsitsi paigaldamise protseduurile Raspberry Pi 4 peal. Kuigi Raspberry Pi 5 on hiljuti turule lastud ja teoreetiliselt peaks see õpetus olema ühilduv selle uue mudeliga, ei ole mul veel olnud võimalust seda isiklikult testida ja ma pole kogukonnalt tagasisidet leidnud. Niipea kui soetan Pi 5 ja ühilduvad komponendid, uuendan seda õpetust, et teid kursis hoida. Seniks soovitan eelistada Pi 4, kuna see töötab minu sõlme jaoks suurepäraselt.
+RoninDojo pakub oma tarkvara automaatseks paigaldamiseks pilti [RockPro64](https://ronindojo.io/downloads) jaoks. Siiski keskendub meie õpetus käsitsi paigaldamise protseduurile Raspberry Pi 4 peal. Kuigi Raspberry Pi 5 on hiljuti turule lastud ja teoreetiliselt peaks see õpetus olema ühilduv selle uue mudeliga, ei ole mul veel olnud võimalust seda isiklikult testida ja ma pole kogukonnalt tagasisidet leidnud. Niipea kui soetan Pi 5 ja ühilduvad komponendid, uuendan seda õpetust, et teid kursis hoida. Seniks soovitan eelistada Pi 4, kuna see töötab minu sõlme jaoks suurepäraselt.
 Minu osa, ma jooksen RoninDojo Raspberry Pi'l, mis on varustatud 8 GB RAM'iga. Kuigi mõned kogukonna liikmed on suutnud selle tööle saada seadmetel, mis on varustatud ainult 4 GB RAM'iga, ei ole ma seda konfiguratsiooni ise testinud. Väikese hinnavahe tõttu tundub mõistlik valida 8 GB RAM'i versioon. See võib osutuda kasulikuks ka siis, kui plaanite oma Raspberry Pi tulevikus muuks otstarbeks ümber kasutada.
 On oluline märkida, et RoninDojo meeskonnad on teatanud sagedastest probleemidest, mis on seotud korpuse ja SSD adapteriga. Olen ise nende probleemidega silmitsi seisnud. **Seetõttu on tungivalt soovitatav vältida oma sõlme SSD jaoks USB-kaabliga varustatud korpusi.** Eelistage selle asemel spetsiaalselt teie Raspberry Pi jaoks mõeldud salvestuslaienduskaarti:
 
@@ -489,12 +489,12 @@ Teie RoninUI armatuurlaua teiste vahelehtede kohta:
 - `System Info`: Annab üldist teavet teie sõlme kohta, nagu CPU temperatuur, salvestusruumi kasutus või RAM andmed. Leiate ka `Reboot` ja `Shut down` valikud sõlme taaskäivitamiseks või väljalülitamiseks;
 - `Settings`: Võimaldab muuta teie kasutaja parooli.
 
-Siin see on! Täname, et järgisite seda õpetust lõpuni. Kui see meeldis, julgustan teid seda jagama sotsiaalmeedias. Lisaks, kui teil on võimalus, kaaluge arendajate toetamist annetusega, kes teevad need vabad ja avatud lähtekoodiga tarkvarad meie kogukonnale kättesaadavaks: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). RoninDojo ja lisavõimaluste avastamiseks soovitan tungivalt tutvuda allpool mainitud väliste ressursside linkidega.
+Siin see on! Täname, et järgisite seda õpetust lõpuni. Kui see meeldis, julgustan teid seda jagama sotsiaalmeedias. Lisaks, kui teil on võimalus, kaaluge arendajate toetamist annetusega, kes teevad need vabad ja avatud lähtekoodiga tarkvarad meie kogukonnale kättesaadavaks: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). RoninDojo ja lisavõimaluste avastamiseks soovitan tungivalt tutvuda allpool mainitud väliste ressursside linkidega.
 
 **Välised ressursid:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159](https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - एक Nostr** निजी कुंजी (प्रारूप `nsec1...`)
- - [nostrkeygen.com](https://nostrkeygen.com/) पर एक समर्पित ट्रेडिंग कुंजी बनाएं
+ - [nostrkeygen.com](https://nostrtool.com/) पर एक समर्पित ट्रेडिंग कुंजी बनाएं
  - महत्वपूर्ण**: अपनी मुख्य व्यक्तिगत नोस्ट्र कुंजी का कभी भी उपयोग न करें
  - अपनी निजी कुंजी को सुरक्षित स्थान पर रखें (पासवर्ड मैनेजर)
 
@@ -962,7 +962,7 @@ mostro-cli dispute -o <order-id>
 
 
 - [मुख्य GitHub रिपॉजिटरी](https://github.com/MostroP2P/mostro)
-- [वेब क्लाइंट](https://github.com/MostroP2P/mostro-web)
+- [वेब क्लाइंट](https://github.com/MostroP2P/app)
 - [ग्राहक CLI](https://github.com/MostroP2P/mostro-cli)
 
 

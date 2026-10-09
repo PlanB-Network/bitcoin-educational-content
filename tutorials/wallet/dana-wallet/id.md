@@ -113,7 +113,7 @@ Metode yang direkomendasikan adalah menambahkan repositori F-Droid khusus Dana W
 
 
 
-Buka aplikasi F-Droid di perangkat Android Anda, lalu akses Pengaturan melalui ikon di kanan bawah. Pilih "Repositori" untuk mengelola sumber aplikasi. Tekan tombol "+" untuk menambahkan repositori baru, lalu pindai kode QR atau tempel tautan `https://fdroid.silentpayments.dev/fdroid/repo`. Setelah repositori ditambahkan, Anda akan melihat tiga versi Dana Wallet yang tersedia. Pilih "Dana Wallet - Bookmark" dan tekan "Instal".
+Buka aplikasi F-Droid di perangkat Android Anda, lalu akses Pengaturan melalui ikon di kanan bawah. Pilih "Repositori" untuk mengelola sumber aplikasi. Tekan tombol "+" untuk menambahkan repositori baru, lalu pindai kode QR atau tempel tautan `https://fdroid.danawallet.app/fdroid/repo`. Setelah repositori ditambahkan, Anda akan melihat tiga versi Dana Wallet yang tersedia. Pilih "Dana Wallet - Bookmark" dan tekan "Instal".
 
 
 
@@ -410,7 +410,7 @@ Silent Payments merupakan sebuah langkah maju yang signifikan dalam mendamaikan 
 
 
 - Repositori GitHub Dana Wallet: https://github.com/cygnet3/danawallet
-- Setoran F-Cold: https://fdroid.silentpayments.dev
+- Setoran F-Cold: https://fdroid.danawallet.app/fdroid/repo/
 - Situs komunitas Silent Payments: https://silentpayments.xyz
 - Spesifikasi BIP-352: https://bips.dev/352
 

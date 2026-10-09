@@ -947,7 +947,7 @@ $x^2 + 1$ と $x^2 + x$ の掛け算をまとめる：この2項を掛け合わ�
 
 [3] [YouTube動画](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)を参照。
 
-[4] ソクラテス、[抽象代数](https://www.socratica.com/subject/abstract-algebra)
+[4] ソクラテス、[抽象代数](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL).Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1913,7 +1913,7 @@ SHA-256のようなハッシュ関数は、暗号技術において様々な目�
 
 衝突に強いハッシュ関数は、例えばソフトウェアの検証において重要である。Bitcoin Core 0.21.0（ビットコインのネットワークトラフィックを処理するサーバーアプリケーション）のWindowsリリースをダウンロードしたいとします。そのソフトウェアの正当性を検証するために、あなたが取らなければならない主な手順は以下の通りである：
 
-1.	まず、デジタル署名を検証できるソフトウェア（Kleopetraなど）に、1人以上の貢献者のBitcoin Coreの公開鍵をダウンロードしてインポートする必要がある。これらの公開鍵は [こちら](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt) にあります。複数の貢献者の公開鍵で Bitcoin Core ソフトウェアを検証することを推奨します。
+1.	まず、デジタル署名を検証できるソフトウェア（Kleopetraなど）に、1人以上の貢献者のBitcoin Coreの公開鍵をダウンロードしてインポートする必要がある。これらの公開鍵は [こちら](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) にあります。複数の貢献者の公開鍵で Bitcoin Core ソフトウェアを検証することを推奨します。
 
 2.	次に、インポートした公開鍵を検証する必要がある。少なくとも、インポートした公開鍵が他のさまざまな場所で公開されているものと同じかどうかを確認する必要がある。例えば、インポートした公開鍵の持ち主の個人的なウェブ・ページ、ツイッター・ページ、Githubページなどを参照するとよいだろう。通常、この公開鍵の比較は、フィンガープリントと呼ばれる公開鍵の短いハッシュを比較することで行われる。
 

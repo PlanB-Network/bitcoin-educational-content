@@ -374,7 +374,7 @@ In questo modo sostituisci "f8a43fc363ea428db5c53b3559935f1f" con il valore che 
 
 ##### LNURL per un indirizzo di posta elettronica viceversa
 
-Provate questo [encoder](https://lnurl-codec.netlify.app/) di fiatjaf o [questo](https://lightningdecoder.com/). Per pagare o controllare un LNURLp si può anche usare [LNurlpay](https://wwww.lnurlpay.com/). Dovrebbe essere indicato HTTPS e non HTTP.
+Provate questo [encoder](https://lnurl-codec.netlify.app/) di fiatjaf o [questo](https://lightningdecoder.com/). Per pagare o controllare un LNURLp si può anche usare [LNurlpay](https://www.lnurlpay.com/). Dovrebbe essere indicato HTTPS e non HTTP.
 
 ##### Configurare un commento che le persone vedono quando pagano al mio LNURLp QR
 

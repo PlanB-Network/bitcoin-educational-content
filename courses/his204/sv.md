@@ -309,7 +309,7 @@ Abboten av Saint-Pierre hävdade att Ludvig XIV:s regeringstid, med dess lyxiga 
 
 I ekonomiskt tänkande tillämpade han konsekvent nyttoprincipen, ungefär som Jeremy Bentham skulle göra senare, och gjorde ofta träffsäkra iakttagelser. För att vara rättvis var han fortfarande påverkad av merkantilistiska idéer, som ingen helt hade skakat av sig vid den tiden.
 
-Ändå gjorde Abboten av Saint-Pierre några träffsäkra observationer om ekonomin. Redan före *Condillac*, som ofta krediteras för tanken, konstaterade han rakt av att båda parter tjänar på varje utbyte. Detta återfinns i hans "Projekt för att förbättra Frankrikes handel" från 1733, [tillgängligt här](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), där han skrev:
+Ändå gjorde Abboten av Saint-Pierre några träffsäkra observationer om ekonomin. Redan före *Condillac*, som ofta krediteras för tanken, konstaterade han rakt av att båda parter tjänar på varje utbyte. Detta återfinns i hans "Projekt för att förbättra Frankrikes handel" från 1733, [tillgängligt här](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), där han skrev:
 
 > När en försäljning sker mellan köpmän vinner säljaren, och det gör köparen också; för om det inte funnes någon verklig eller upplevd fördel för båda parter, skulle varken säljaren sälja till det priset eller köparen köpa till det.
 
@@ -469,7 +469,7 @@ Gournay-kretsens intellektuella produktion hade en stor inverkan på idéhistori
 
 ![Studie om den ekonomiska publiceringen i Frankrike, 1566–1789](assets/en/035.webp)
 
-För att sprida smaken för ekonomiska diskussioner bland den franska befolkningen arbetade Gournay och hans vänner för att göra dem tillgängliga genom romaner. Efter *Memoar om skråna*, som kritiserade skråna, hjälpte Gournay och Cliquot-Blervache Gabriel-François Coyer att skriva en kort satirisk roman kallad Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+För att sprida smaken för ekonomiska diskussioner bland den franska befolkningen arbetade Gournay och hans vänner för att göra dem tillgängliga genom romaner. Efter *Memoar om skråna*, som kritiserade skråna, hjälpte Gournay och Cliquot-Blervache Gabriel-François Coyer att skriva en kort satirisk roman kallad Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ I sina tidigare citerade *Maximer* säger Quesnay:
 
 Fysiokraterna hade sett den skada statlig inblandning orsakade, särskilt inom spannmålshandeln. Man måste erkänna, säger de, att myndigheten aldrig kommer att kunna sköta handeln lika väl som individer gör, eftersom den skulle behöva svara på varje behov och reagera på varje förändring i efterfrågan eller utbud. Allt detta ligger långt bortom förmågan hos även den klokaste tänkbara regering. Därför är det nödvändigt att låta tingen vara och låta dem flöda.
 
-Handeln, som till sin natur är nyttig, måste vara helt och fullständigt fri. En av deras medlemmar, Le Trosne, skrev till och med en pamflett med titeln [*Spannmålshandelns frihet: alltid nyttig, aldrig skadlig*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Handeln, som till sin natur är nyttig, måste vara helt och fullständigt fri. En av deras medlemmar, Le Trosne, skrev till och med en pamflett med titeln [*Spannmålshandelns frihet: alltid nyttig, aldrig skadlig*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Femte principen: Alla människor är bröder
 

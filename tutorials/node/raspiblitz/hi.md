@@ -20,7 +20,7 @@ RASPIBLITZ - BTC सत्र द्वारा लाइटनिंग और
 ## परमान की रास्पिब्लिट्ज़ सेटअप गाइड
 
 
-Raspiblitz एक उत्कृष्ट प्रणाली है जो बिटकॉइन नोड और संबंधित ऐप्स चलाने के लिए है। मैं अधिकांश उपयोगकर्ताओं को इसे और MyNode नोड को सुझाता हूँ (आदर्श रूप से रेडंडेंसी के लिए दो नोड रखें)। एक बड़ा लाभ यह है कि Raspiblitz नोड “Free Open Source Software” है, जबकि MyNode या Umbrel नहीं हैं। [यह क्यों महत्वपूर्ण है? व्लाद कोस्टा बताते हैं।](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) आप Raspiblitz को WiFi कनेक्शन के साथ भी चला सकते हैं, ethernet के बजाय – इसके लिए यहाँ एक [पूरक गाइड](https://armantheparman.com/headless-wifi/) है। (मैंने MyNode के साथ ऐसा करने का कोई तरीका नहीं पाया)।
+Raspiblitz एक उत्कृष्ट प्रणाली है जो बिटकॉइन नोड और संबंधित ऐप्स चलाने के लिए है। मैं अधिकांश उपयोगकर्ताओं को इसे और MyNode नोड को सुझाता हूँ (आदर्श रूप से रेडंडेंसी के लिए दो नोड रखें)। एक बड़ा लाभ यह है कि Raspiblitz नोड “Free Open Source Software” है, जबकि MyNode या Umbrel नहीं हैं। [यह क्यों महत्वपूर्ण है? व्लाद कोस्टा बताते हैं।](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) आप Raspiblitz को WiFi कनेक्शन के साथ भी चला सकते हैं, ethernet के बजाय – इसके लिए यहाँ एक [पूरक गाइड](https://armantheparman.com/headless-wifi/) है। (मैंने MyNode के साथ ऐसा करने का कोई तरीका नहीं पाया)।
 
 
 आप एक तैयार नोड खरीद सकते हैं जिसके साथ एक मिनी स्क्रीन जुड़ी हुई है, या आप इसे स्वयं बना सकते हैं (आपको स्क्रीन की आवश्यकता नहीं है)।

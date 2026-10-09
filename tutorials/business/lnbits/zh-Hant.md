@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL 適用於閃電-Address 反之亦然
 
 
-試試 fiatjaf 的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).若要支付或檢查 LNURLp，您也可以使用 [LNurlpay](https://wwww.lnurlpay.com/)。它應該說明 HTTPS 而不是 HTTP。
+試試 fiatjaf 的 [encoder](https://lnurl-codec.netlify.app/) 或 [this one](https://lightningdecoder.com/).若要支付或檢查 LNURLp，您也可以使用 [LNurlpay](https://www.lnurlpay.com/)。它應該說明 HTTPS 而不是 HTTP。
 
 
 

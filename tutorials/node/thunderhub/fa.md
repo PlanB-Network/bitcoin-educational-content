@@ -122,7 +122,7 @@ ThunderHub می‌تواند به روش‌های مختلفی نصب شود، �
 
 
 
-**پیش‌نیازها:** اطمینان حاصل کنید که سیستم شما حداقل نیازمندی‌ها را مطابق با [مستندات راه‌اندازی](https://docs.thunderhub.io/setup) برآورده می‌کند:
+**پیش‌نیازها:** اطمینان حاصل کنید که سیستم شما حداقل نیازمندی‌ها را مطابق با [مستندات راه‌اندازی](https://docs.thunderhub.io/configure) برآورده می‌کند:
 
 
 
@@ -136,7 +136,7 @@ ThunderHub می‌تواند به روش‌های مختلفی نصب شود، �
 
 
 
-**1. کد ThunderHub را بازیابی کنید:** مخزن GitHub پروژه را همانطور که در [مستندات نصب](https://docs.thunderhub.io/installation) توضیح داده شده است، کلون کنید:
+**1. کد ThunderHub را بازیابی کنید:** مخزن GitHub پروژه را همانطور که در [مستندات نصب](https://docs.thunderhub.io/get-started) توضیح داده شده است، کلون کنید:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. فایل پیکربندی اصلی:** یک فایل `.env.local` در ریشه پوشه ThunderHub ایجاد کنید تا پیکربندی را سفارشی کنید (این کار از بازنویسی تنظیمات شما در طول به‌روزرسانی‌ها جلوگیری می‌کند). متغیرهای اصلی طبق [مستندات راه‌اندازی](https://docs.thunderhub.io/setup):
+**1. فایل پیکربندی اصلی:** یک فایل `.env.local` در ریشه پوشه ThunderHub ایجاد کنید تا پیکربندی را سفارشی کنید (این کار از بازنویسی تنظیمات شما در طول به‌روزرسانی‌ها جلوگیری می‌کند). متغیرهای اصلی طبق [مستندات راه‌اندازی](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- **نصب:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **پیکربندی:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **نصب:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **پیکربندی:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

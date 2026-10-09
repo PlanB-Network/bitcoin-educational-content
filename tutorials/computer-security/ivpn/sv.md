@@ -78,7 +78,7 @@ När installationen är klar måste du ange ditt konto-ID. Vi kommer att se hur 
 ## Hur installerar jag IVPN på en smartphone?
 
 
-Ladda ner IVPN från din appbutik, oavsett om det är [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) för iOS-användare, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) för Android eller [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Om du använder Android har du också möjlighet att ladda ner `.apk` filen direkt från [IVPN:s webbplats](https://www.ivpn.net/en/apps-android/).
+Ladda ner IVPN från din appbutik, oavsett om det är [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) för iOS-användare, [Google Play Store](https://www.ivpn.net/en/apps-android/) för Android eller [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Om du använder Android har du också möjlighet att ladda ner `.apk` filen direkt från [IVPN:s webbplats](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 

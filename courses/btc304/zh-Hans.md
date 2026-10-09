@@ -1500,7 +1500,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 - 带来**Nerdminer**、Bitaxe、FPGA 甚至 ASIC；
 - 有**Bitcoin传单**；
 - 集思广益，为您的社区设计一个 Bitcoin 视觉或徽标；
-- 玩**[Bitcoin 纸牌游戏](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**；
+- 玩**[Bitcoin 纸牌游戏](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**；
 - 显示**[btcmap.org](https://btcmap.org/)** 社区和商家地图；
 - 使用**闪电**发送或接收 Bitcoin。
 
@@ -1871,7 +1871,7 @@ Twitter 非常容易使用，要改善隐私，你需要调整一些设置。
 
 - 5 月 22 日**披萨日**餐厅之夜
 - 庆祝下一个**Halving**的夜晚或周末
-- 利用 [Le Coin de Table](https://www.Maximalist.ovh/) 或 [SHAmory](https://shamory.com/) 等游戏，举办关于 Bitcoin 及其工作原理的家庭**游戏之夜**
+- 利用 [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) 或 [SHAmory](https://shamory.com/) 等游戏，举办关于 Bitcoin 及其工作原理的家庭**游戏之夜**
 - 介绍不同类型硬件（CPU、GPU、FPGA、ASIC、Nerdminer、Bitaxe）的**Mining 讲习班**
 - 为初学者提供**个下午或晚上**，举办主题讲习班
 - 与邻近社区的**次联合聚会**

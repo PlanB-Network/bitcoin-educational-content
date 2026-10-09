@@ -663,7 +663,7 @@ Hagati aho, ng’ibi amahuzu yose yerekeye iyi nzira itangaje ya Bitcoin Lightni
 - [Ikiganiro ca Blixt - amasanamu y'iterambere](https://videwo y'umuravyo/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Ikirangamisi c'abakobwa ca Blixt] - videwo y'iterambere (ushobora kugerageza gukoresha kwawe kwa mbere kwa G-91)
 - [Igitabo co gucapura mu rurimi rwa A4 gifise intambwe za mbere hakoreshejwe Blixt, mu ndimi zitandukanye]
-- [Blixt kandi itanga ikigereranyo c’ibikorwa vyuzuye](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) ku rubuga rwayo canke ku rubuga rwa verisiyo yihariye, kugira ngo ugire ikigeragezo c’ubumenyi bushitse, imbere yo gutangura gukoresha mw’isi nyakuri.
+- [Blixt kandi itanga ikigereranyo c’ibikorwa vyuzuye](https://blixtwallet.github.io/) ku rubuga rwayo canke ku rubuga rwa verisiyo yihariye, kugira ngo ugire ikigeragezo c’ubumenyi bushitse, imbere yo gutangura gukoresha mw’isi nyakuri.
 
 
 ---

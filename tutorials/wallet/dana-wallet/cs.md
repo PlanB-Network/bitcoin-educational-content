@@ -113,7 +113,7 @@ Doporučenou metodou je přidání specializovaného úložiště F-Droid Dana W
 
 
 
-Otevřete aplikaci F-Droid v zařízení se systémem Android a poté vstupte do Nastavení pomocí ikony vpravo dole. Chcete-li spravovat zdroje aplikací, vyberte možnost "Úložiště". Stisknutím tlačítka "+" přidejte nové úložiště a poté naskenujte QR kód nebo vložte odkaz `https://fdroid.silentpayments.dev/fdroid/repo`. Po přidání úložiště se zobrazí tři dostupné verze aplikace Dana Wallet. Vyberte možnost "Dana Wallet - záložka" a stiskněte tlačítko "Instalovat".
+Otevřete aplikaci F-Droid v zařízení se systémem Android a poté vstupte do Nastavení pomocí ikony vpravo dole. Chcete-li spravovat zdroje aplikací, vyberte možnost "Úložiště". Stisknutím tlačítka "+" přidejte nové úložiště a poté naskenujte QR kód nebo vložte odkaz `https://fdroid.danawallet.app/fdroid/repo`. Po přidání úložiště se zobrazí tři dostupné verze aplikace Dana Wallet. Vyberte možnost "Dana Wallet - záložka" a stiskněte tlačítko "Instalovat".
 
 
 
@@ -410,7 +410,7 @@ Tiché platby jsou významným krokem vpřed při slaďování snadného použí
 
 
 - Dana Wallet Úložiště GitHub: https://github.com/cygnet3/danawallet
-- F-Cold záloha: https://fdroid.silentpayments.dev
+- F-Cold záloha: https://fdroid.danawallet.app/fdroid/repo/
 - Komunitní stránky Silent Payments: https://silentpayments.xyz
 - Specifikace BIP-352: https://bips.dev/352
 

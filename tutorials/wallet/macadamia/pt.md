@@ -337,7 +337,7 @@ O modelo de custódia exige vigilância e boas práticas de segurança. Utilizad
 
 
 - Documentação técnica: [docs.cashu.space](https://docs.cashu.space)
-- Lista de casas da moeda públicas: [bitcoinmints.com](https://bitcoinmints.com)
+- Lista de casas da moeda públicas: [bitcoinmints.com](https://cashumints.space/)
 - Sítio Web oficial do protocolo: [cashu.space](https://cashu.space)
 
 

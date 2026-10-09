@@ -1332,7 +1332,7 @@ För vidare diskussion om modern talteori kan du konsultera många avancerade di
 [3] Se [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstrakt algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakt algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz och Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar och Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2715,7 +2715,7 @@ En Hash-funktion $H$ sägs vara **kollisionsresistent** om det är omöjligt att
 Kollisionsresistenta Hash-funktioner är viktiga t.ex. vid verifiering av programvara. Anta att du vill ladda ner Windows-versionen av Bitcoin Core 0.21.0 (ett serverprogram för bearbetning av Bitcoin-nätverkstrafik). De viktigaste stegen du skulle behöva ta för att verifiera programvarans legitimitet är följande:
 
 
-1.	Du måste först ladda ner och importera de offentliga nycklarna för en eller flera bidragsgivare Bitcoin Core till programvara som kan verifiera digitala signaturer (t.ex. Kleopetra). Du kan hitta dessa publika nycklar [här](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Vi rekommenderar att du verifierar programvaran Bitcoin Core med de publika nycklarna från flera bidragsgivare.
+1.	Du måste först ladda ner och importera de offentliga nycklarna för en eller flera bidragsgivare Bitcoin Core till programvara som kan verifiera digitala signaturer (t.ex. Kleopetra). Du kan hitta dessa publika nycklar [här](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Vi rekommenderar att du verifierar programvaran Bitcoin Core med de publika nycklarna från flera bidragsgivare.
 
 2.	Därefter måste du verifiera de offentliga nycklar som du importerade. Åtminstone ett steg du bör ta är att verifiera att de offentliga nycklar du hittade är desamma som publicerats på olika andra platser. Du kan till exempel konsultera de personliga webbsidorna, Twitter-sidorna eller Github-sidorna för de personer vars offentliga nycklar du importerade. Vanligtvis görs denna jämförelse av publika nycklar genom att jämföra en kort Hash av den publika nyckeln, ett så kallat fingeravtryck.
 

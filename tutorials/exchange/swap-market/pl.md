@@ -639,7 +639,7 @@ Konkurencja między dostawcami poprawia stawki i zwielokrotnia źródła płynno
 
 - [SwapMarket - aplikacja internetowa](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Dokumentacja techniczna](https://docs.boltz.exchange/)
+- [Dokumentacja techniczna](https://github.com/BoltzExchange/boltz-backend)
 - [Przewodnik po własnym hostingu](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

@@ -213,7 +213,7 @@ Clique em "*Iniciar*".
 
 ![Image](assets/fr/15.webp)
 
-Pode utilizar a base de código QR fornecida na caixa Jade Plus. Selecione a caixa adequada, consoante tenha optado por uma frase de 12 ou 24 palavras. Também pode [imprimir o modelo a partir do sítio Web da Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Pode utilizar a base de código QR fornecida na caixa Jade Plus. Selecione a caixa adequada, consoante tenha optado por uma frase de 12 ou 24 palavras. Também pode [imprimir o modelo a partir do sítio Web da Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 O seu Jade Plus apresentará cada zona do seu código QR.
 

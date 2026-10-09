@@ -191,4 +191,4 @@ description: เริ่มต้น mining bitcoin ด้วยโอกาส
 
 
 - [หน้าของโครงการ NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Complete documentation of NerdMiners](https://bitwater.ch/nerd-miner-v2/)

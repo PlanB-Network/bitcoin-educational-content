@@ -213,7 +213,7 @@ PINコードを入力してください。
 
 ![Image](assets/fr/15.webp)
 
-ジェイド・プラスのボックスに付属のQRコード・ベースを使用できます。12文字または24文字のどちらを選択したかによって、適切なボックスを選択してください。ブロックストリームのウェブサイトからテンプレートを印刷することもできます](https://help.blockstream.com/hc/article_attachments/41928319071769)。
+ジェイド・プラスのボックスに付属のQRコード・ベースを使用できます。12文字または24文字のどちらを選択したかによって、適切なボックスを選択してください。ブロックストリームのウェブサイトからテンプレートを印刷することもできます](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase)。
 
 Jade PlusはQRコードの各ゾーンを表示します。
 

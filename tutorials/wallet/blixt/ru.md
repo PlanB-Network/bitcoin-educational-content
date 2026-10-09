@@ -663,7 +663,7 @@ OK по этому сценарию я написал подробное рук�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - промо-ролик (вы можете протестировать свое первое использование LN)
 - [Распечатанная листовка формата А4 с первыми шагами использования Blixt на разных языках](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt также предлагает полнофункциональную демо-версию](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) прямо на своем сайте или на специальной веб-версии, чтобы получить полный опыт тестирования, прежде чем начать использовать в реальном мире.
+- [Blixt также предлагает полнофункциональную демо-версию](https://blixtwallet.github.io/) прямо на своем сайте или на специальной веб-версии, чтобы получить полный опыт тестирования, прежде чем начать использовать в реальном мире.
 
 
 ---

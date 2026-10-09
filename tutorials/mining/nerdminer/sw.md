@@ -191,4 +191,4 @@ Hapa kuna baadhi ya viungo kama unataka kusoma zaidi kuhusu somo:
 
 
 - [Ukurasa wa mradi wa NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Kamilisha hati za NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [Kamilisha hati za NerdMiners](https://bitwater.ch/nerd-miner-v2/)

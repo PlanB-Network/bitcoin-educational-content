@@ -39,7 +39,7 @@ Sobald Jade in Green angezeigt wird, aktualisieren Sie Jade, indem Sie auf "Nach
 
 Nachdem Sie die Firmware von Jade aktualisiert haben, wählen Sie "Jade einrichten" für die Netzwerk- und Sicherheitsrichtlinie, die Sie verwenden möchten.
 
-> Tipp: Die Sicherheitsrichtlinie wird unter "Typ" auf dem Anmeldebildschirm angezeigt. Wenn Sie sich nicht sicher sind, ob Sie Singlesig oder Multisig Shield auswählen sollen, lesen Sie bitte unsere Anleitung hier. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Tipp: Die Sicherheitsrichtlinie wird unter "Typ" auf dem Anmeldebildschirm angezeigt. Wenn Sie sich nicht sicher sind, ob Sie Singlesig oder Multisig Shield auswählen sollen, lesen Sie bitte unsere Anleitung hier. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![Bild](assets/3.webp)
 
@@ -192,7 +192,7 @@ Sie haben Ihre Wallet jetzt erfolgreich eingerichtet und können mit Sparrow und
 > Hinweis: Wenn Sie Jade zuvor mit Blockstream Green als Multisig Shield-Wallet verwendet haben, sollten Sie nicht erwarten, dass Ihre neue Sparrow-Wallet den gleichen Kontostand anzeigt - dies sind unterschiedliche Wallets. Um wieder auf Ihre Multisig Shield-Wallet zuzugreifen, schließen Sie Ihre Jade einfach wieder an Blockstream Green an.
 
 ![image](assets/22.webp)
-Quelle: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+Quelle: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### grüne App
 

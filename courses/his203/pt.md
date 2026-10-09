@@ -523,7 +523,7 @@ Como dissemos no início de 2011, a plataforma Mt. Gox não era segura. E estava
 Em 1 de março de 2011, quando a transferência estava prestes a ser oficializada, 80 000 bitcoins [evaporaram-se](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) no ar graças a um acesso malicioso ao ficheiro wallet.dat do site. No dia 3, Jed McCaleb reparou na retirada e [informou](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark no IRC que "algo de mau tinha acontecido". Foi uma grande perda (uma bitcoin foi vendida por 0,92 USD na altura), que se tornaria cada vez maior nos meses seguintes com o aumento sem precedentes do preço.
 
 
-Este problema foi [mencionado] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) por Jed em 18 de abril num e-mail para Mark, onde escreveu:
+Este problema foi [mencionado] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) por Jed em 18 de abril num e-mail para Mark, onde escreveu:
 
 
 > "Não sei qual será o problema de não ter 80 mil BTC se o preço subir para 100 dólares ou algo do género. É bastante para dever nessa altura, mas a mtgox deve ter feito uma tonelada de BTC (Bitcoin) até lá. Há ainda o facto de que o saldo do BTC (Bitcoin) provavelmente nunca será inferior a 80k. Por isso, talvez não precises de te preocupar com isso"
@@ -608,7 +608,7 @@ A 6 de junho, a Bitcoin Consultancy [lançou] (https://bitcointalk.org/index.php
 
 
 
-Na Europa Oriental, a plataforma Bitomat, sediada na Polónia, foi [lançada] (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) em 4 de abril. A interface era rudimentar, mas permitia aos utilizadores polacos trocar os seus zlotys por bitcoins. De referir ainda a Cavirtex, [inaugurada](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) em 2 de julho, que operava no Canadá.
+Na Europa Oriental, a plataforma Bitomat, sediada na Polónia, foi [lançada] (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) em 4 de abril. A interface era rudimentar, mas permitia aos utilizadores polacos trocar os seus zlotys por bitcoins. De referir ainda a Cavirtex, [inaugurada](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) em 2 de julho, que operava no Canadá.
 
 
 
@@ -1270,7 +1270,7 @@ Apesar disso, a GLBSE continuou a funcionar. No início do outono, cerca de 30 a
 
 
 
-Outro projeto que surgiu algum tempo depois foi o MPEx, criação de uma figura muito controversa chamada Mircea Popescu. Romeno, originário da Transilvânia, era um escritor prolífico no seu blogue [Trilema](http://trilema.com/archives-categories/): escrevia sobre todos os assuntos (filosofia, política, sexualidade), num estilo deliberadamente provocador, inicialmente em romeno. Interessou-se pelo Bitcoin no verão de 2011 e começou a [falar](http://trilema.com/2011/ce-este-bitcoin/) sobre o assunto no seu blogue.
+Outro projeto que surgiu algum tempo depois foi o MPEx, criação de uma figura muito controversa chamada Mircea Popescu. Romeno, originário da Transilvânia, era um escritor prolífico no seu blogue [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): escrevia sobre todos os assuntos (filosofia, política, sexualidade), num estilo deliberadamente provocador, inicialmente em romeno. Interessou-se pelo Bitcoin no verão de 2011 e começou a [falar](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) sobre o assunto no seu blogue.
 
 
 
@@ -1286,7 +1286,7 @@ Em agosto, Mircea [abriu](https://bitcointalk.org/index.php?topic=15672.msg44436
 
 
 
-No final de fevereiro de 2012, procedeu a uma [angariação de fundos](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) através da emissão de acções e obrigações, angariando mais de 3.200 bitcoins, ou seja, cerca de 16.000 dólares na altura. Em 11 de abril, após uma fase beta, a plataforma [tornou-se finalmente](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) uma bolsa de bitcoin que permite a emissão e a negociação de várias acções, e passou a chamar-se MPEx(para "Mircea Popescu's Exchange").
+No final de fevereiro de 2012, procedeu a uma [angariação de fundos](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) através da emissão de acções e obrigações, angariando mais de 3.200 bitcoins, ou seja, cerca de 16.000 dólares na altura. Em 11 de abril, após uma fase beta, a plataforma [tornou-se finalmente](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) uma bolsa de bitcoin que permite a emissão e a negociação de várias acções, e passou a chamar-se MPEx(para "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Os wallet determinísticos são, em grande parte, uma criação do programador a
 
 
 
-*Gregory Maxwell em 2006 (fonte: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell em 2006 (fonte: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Em 19 de agosto, Casascius [partilhou] publicamente (https://bitcointalk.org/ind
 
 
 
-*Os primeiros bitcoins de Casascius em 2011 (fonte: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Os primeiros bitcoins de Casascius em 2011 (fonte: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ O modelo [relied](https://im.forre.st/pb/85341005.txt) numa "sharechain, que era
 
 
 
-*Visualização do Sharechain (fonte: Gregory Maxwell para [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Visualização do Sharechain (fonte: Gregory Maxwell para [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Após o lançamento da versão 0.4 do software em 23 de setembro, que marcou a t
 
 
 
-*Captura do Bitcoin-Qt 0.5.2 em fevereiro de 2012 (fonte: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) para Wikimedia)*
+*Captura do Bitcoin-Qt 0.5.2 em fevereiro de 2012 (fonte: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) para Wikimedia)*
 
 
 

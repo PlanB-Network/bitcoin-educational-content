@@ -387,7 +387,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 
 ##### LNURL для адреса молнии наоборот
 
-Попробуйте этот [encoder](https://lnurl-codec.netlify.app/) от fiatjaf или [this one](https://lightningdecoder.com/). Для оплаты или проверки LNURLp вы также можете использовать [LNurlpay](https://wwww.lnurlpay.com/). Там должно быть указано HTTPS, а не HTTP.
+Попробуйте этот [encoder](https://lnurl-codec.netlify.app/) от fiatjaf или [this one](https://lightningdecoder.com/). Для оплаты или проверки LNURLp вы также можете использовать [LNurlpay](https://www.lnurlpay.com/). Там должно быть указано HTTPS, а не HTTP.
 
 ##### Настройте комментарий, который люди видят при оплате моего LNURLp QR
 

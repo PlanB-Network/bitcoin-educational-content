@@ -191,4 +191,4 @@ Evo nekoliko linkova ako želite dodatno čitati o temi:
 
 
 - [Stranica projekta NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Potpuna dokumentacija za NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [Potpuna dokumentacija za NerdMiners](https://bitwater.ch/nerd-miner-v2/)

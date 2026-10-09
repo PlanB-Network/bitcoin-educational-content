@@ -29,7 +29,7 @@ GPG-allekirjoitus saadaan käyttämällä avoimen lähdekoodin ohjelmistoa nimel
 
 Toisaalta, jos joku haluaa varmistaa allekirjoitetun tiedoston aitouden, hän voi käyttää GPG:tä tuodakseen myöntäjän julkisen avaimen ja varmistaakseen sen. Oppaan toisessa osassa näemme, miten tämä tehdään terminaalissa.
 
-Niille, jotka ovat uteliaita ja haluavat oppia lisää tästä fantastisesta ohjelmistosta, voitte viitata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Niille, jotka ovat uteliaita ja haluavat oppia lisää tästä fantastisesta ohjelmistosta, voitte viitata ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Miten aikaleimaus toimii?
 

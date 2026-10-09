@@ -39,7 +39,7 @@ Blockstream Jade - Полный учебник по мобильному апп�
 
 После того как вы обновили прошивку Jade, выберите Настройка Jade на сети и политике безопасности, которую вы хотите использовать.
 
-> Совет: Политика безопасности указана под Типом на экране входа, показанном ниже. Если вы не уверены, следует ли выбирать Singlesig или Multisig Shield, пожалуйста, ознакомьтесь с нашим руководством здесь. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Совет: Политика безопасности указана под Типом на экране входа, показанном ниже. Если вы не уверены, следует ли выбирать Singlesig или Multisig Shield, пожалуйста, ознакомьтесь с нашим руководством здесь. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![image](assets/3.webp)
 
@@ -188,7 +188,7 @@ shasum -a 256 BlockstreamGreen_MacOS_x86_64.zip
 
 ![изображение](assets/22.webp)
 
-источник: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+источник: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 Если вы предпочитаете мобильные руководства, вы можете использовать их с Blockstream Green:

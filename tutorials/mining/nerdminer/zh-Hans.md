@@ -128,4 +128,4 @@ NerdMiner可以连接的矿池只是“独立挖矿池”，这意味着矿池�
 如果您想进一步了解该主题，这里有一些链接：
 
 - [NerdMiner_v2项目页面](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners的完整文档](https://docs.bitwater.ch/nerd-miner-v2/)
+- [NerdMiners的完整文档](https://bitwater.ch/nerd-miner-v2/)

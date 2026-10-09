@@ -2362,7 +2362,7 @@ Interface 可在資產發行後修改或新增，而無需變更 Contract 本身
 
 #### Interface 範例
 
-此 Rust 程式碼片段顯示 [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (可替代資產)。這段程式碼來自標準 RGB 程式庫中的「rgb20.rs」檔案。讓我們來看看它，以瞭解 Interface 的結構，以及它如何在 Business Logic（在 Schema 中定義）與暴露給錢包和使用者的功能之間提供橋樑。
+此 Rust 程式碼片段顯示 [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (可替代資產)。這段程式碼來自標準 RGB 程式庫中的「rgb20.rs」檔案。讓我們來看看它，以瞭解 Interface 的結構，以及它如何在 Business Logic（在 Schema 中定義）與暴露給錢包和使用者的功能之間提供橋樑。
 
 ```rust
 // ...

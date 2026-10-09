@@ -113,7 +113,7 @@ Android에 Dana Wallet을 설치하려면 보안 설정에서 '알 수 없는 �
 
 
 
-Android 디바이스에서 F-Droid 애플리케이션을 연 다음 오른쪽 하단의 아이콘을 통해 설정에 액세스합니다. '리포지토리'를 선택하여 앱 소스를 관리합니다. "+" 버튼을 눌러 새 리포지토리를 추가한 다음 QR 코드를 스캔하거나 `https://fdroid.silentpayments.dev/fdroid/repo` 링크를 붙여넣습니다. 리포지토리가 추가되면 Dana Wallet의 세 가지 버전이 표시됩니다. "Dana Wallet - 북마크"를 선택하고 "설치"를 누릅니다.
+Android 디바이스에서 F-Droid 애플리케이션을 연 다음 오른쪽 하단의 아이콘을 통해 설정에 액세스합니다. '리포지토리'를 선택하여 앱 소스를 관리합니다. "+" 버튼을 눌러 새 리포지토리를 추가한 다음 QR 코드를 스캔하거나 `https://fdroid.danawallet.app/fdroid/repo` 링크를 붙여넣습니다. 리포지토리가 추가되면 Dana Wallet의 세 가지 버전이 표시됩니다. "Dana Wallet - 북마크"를 선택하고 "설치"를 누릅니다.
 
 
 
@@ -410,7 +410,7 @@ Dana Wallet은 위험 부담이 없는 환경에서 자동 결제에 대해 학�
 
 
 - Dana Wallet GitHub 리포지토리: https://github.com/cygnet3/danawallet
-- F-Cold 입금: https://fdroid.silentpayments.dev
+- F-Cold 입금: https://fdroid.danawallet.app/fdroid/repo/
 - 자동 결제 커뮤니티 사이트: https://silentpayments.xyz
 - 사양 BIP-352: https://bips.dev/352
 

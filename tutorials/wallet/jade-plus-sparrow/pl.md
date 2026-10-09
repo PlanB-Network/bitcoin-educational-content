@@ -294,7 +294,7 @@ Kliknij "*Start*".
 ![Image](assets/fr/15.webp)
 
 
-Możesz użyć bazy kodów QR dostarczonej w pudełku Jade Plus. Wybierz odpowiednie pole w zależności od tego, czy zdecydowałeś się na zdanie składające się z 12 czy 24 słów. Można również [wydrukować szablon ze strony internetowej Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Możesz użyć bazy kodów QR dostarczonej w pudełku Jade Plus. Wybierz odpowiednie pole w zależności od tego, czy zdecydowałeś się na zdanie składające się z 12 czy 24 słów. Można również [wydrukować szablon ze strony internetowej Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Jade Plus wyświetli każdą strefę kodu QR.

@@ -3295,7 +3295,7 @@ Natuurlijk kunnen deze interfaces, afhankelijk van de datum waarop je deze cursu
 #### Interface voorbeeld
 
 
-Dit Rust codefragment toont een [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (fungibel actief). Deze code komt uit het `rgb20.rs` bestand in de standaard RGB bibliotheek. Laten we er eens naar kijken om de structuur van een Interface te begrijpen en hoe het een brug vormt tussen, aan de ene kant, de Business Logic (gedefinieerd in de Schema) en, aan de andere kant, de functionaliteiten blootgesteld aan wallets en gebruikers.
+Dit Rust codefragment toont een [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (fungibel actief). Deze code komt uit het `rgb20.rs` bestand in de standaard RGB bibliotheek. Laten we er eens naar kijken om de structuur van een Interface te begrijpen en hoe het een brug vormt tussen, aan de ene kant, de Business Logic (gedefinieerd in de Schema) en, aan de andere kant, de functionaliteiten blootgesteld aan wallets en gebruikers.
 
 
 ```rust

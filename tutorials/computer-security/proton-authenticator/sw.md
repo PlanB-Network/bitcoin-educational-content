@@ -572,8 +572,8 @@ Proton authenticator ni mojawapo ya suluhu za kina na salama zinazopatikana: cha
 
 
 
-- **GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Fungua msimbo wa chanzo
-- **Ukaguzi wa usalama**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Ripoti za ukaguzi huru
+- **GitHub Proton Authenticator** : [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Fungua msimbo wa chanzo
+- **Ukaguzi wa usalama**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Ripoti za ukaguzi huru
 
 
 

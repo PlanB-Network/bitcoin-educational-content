@@ -1159,7 +1159,7 @@ Pengine unajiuliza: Tatizo ni lipi hapa?
 
 Kutuma pesa ng'ambo kupitia huduma ya kuhamisha pesa kama vile Western Union si bure. Inagharimu pesa, na sio kidogo tu, kiasi kikubwa.
 
-Kutuma \$100 za Marekani kurudi Tonga kuna gharama ya [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) pamoja na hasara ya ziada ya \$8.60 kutokana na kiwango kisichofaa cha Ubadilishanaji. Hii ina maana zaidi ya 21% ya jumla ya kiasi kinachotumwa huenda kwa Western Union, shirika la kimataifa. Matokeo yake, kiasi kikubwa ambacho kingeweza kuwa mikononi mwa familia zinazostahili za Kitonga kinaishia kwenye mifuko ya mtoa huduma wa uhawilishaji fedha.
+Kutuma \$100 za Marekani kurudi Tonga kuna gharama ya [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) pamoja na hasara ya ziada ya \$8.60 kutokana na kiwango kisichofaa cha Ubadilishanaji. Hii ina maana zaidi ya 21% ya jumla ya kiasi kinachotumwa huenda kwa Western Union, shirika la kimataifa. Matokeo yake, kiasi kikubwa ambacho kingeweza kuwa mikononi mwa familia zinazostahili za Kitonga kinaishia kwenye mifuko ya mtoa huduma wa uhawilishaji fedha.
 
 Je, unaweza kufikiria faida za kuongeza 21% kwenye mapato yako?
 
@@ -1167,7 +1167,7 @@ Zaidi ya hayo, kwa kuzingatia kwamba Pato la Taifa la Tonga lilikuwa [\$469](htt
 
 Na kama ulifikiri Tonga ilikuwa peke yake katika hili, fikiria tena.
 
-Hapa kuna sampuli ya [charges] za Western Union(https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) kwa kutuma \$100 ya dola za Marekani kwa baadhi ya mataifa mashuhuri:
+Hapa kuna sampuli ya [charges] za Western Union(https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) kwa kutuma \$100 ya dola za Marekani kwa baadhi ya mataifa mashuhuri:
 
 
 - **Uchina:** \ ada ya $21.21 + \$2.60 ubadilishanaji ya kiwango cha hasara (hasara 23.81%)
@@ -1415,9 +1415,9 @@ Lakini Bitcoin pia inashindana na layer (safu) mbinu mbili za muamala, na teknol
 
 Licha ya tafiti nyingi kukanusha madai ya uwongo, Bitcoin bado mara nyingi inakosolewa kama inatumiwa kimsingi kwa shughuli haramu. Kwa mara nyingine tena, hii haiwezi kuwa zaidi kutoka kwa ukweli.
 
-[Utafiti] mmoja (https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) uliofanywa na aliyekuwa naibu mkurugenzi wa CIA uligundua kuwa "ujumla mpana kuhusu matumizi ya Bitcoin katika fedha haramu umepitwa na wakati." Kwa kweli, tangu 2016, chini ya 1% ya jumla ya kiasi cha ununuzi cha Bitcoin imetumika kwa shughuli haramu. Kwa kulinganisha, "wengine wanaweka uchumi wa chinichini kuwa 11% hadi 12% ya pato la taifa la Marekani (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," ambapo wengi wao wanawezeshwa kwa kutumia dola ya Marekani.
+[Utafiti] mmoja (https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) uliofanywa na aliyekuwa naibu mkurugenzi wa CIA uligundua kuwa "ujumla mpana kuhusu matumizi ya Bitcoin katika fedha haramu umepitwa na wakati." Kwa kweli, tangu 2016, chini ya 1% ya jumla ya kiasi cha ununuzi cha Bitcoin imetumika kwa shughuli haramu. Kwa kulinganisha, "wengine wanaweka uchumi wa chinichini kuwa 11% hadi 12% ya pato la taifa la Marekani (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," ambapo wengi wao wanawezeshwa kwa kutumia dola ya Marekani.
 
-Na kulingana na ripoti ya Chainalysis mwaka wa 2020, shughuli haramu huchangia takriban [0.34%] pekee (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Kufuatilia mageuzi ya fedha za uhalifu.pdf) ya shughuli zote za GW-4.
+Na kulingana na ripoti ya Chainalysis mwaka wa 2020, shughuli haramu huchangia takriban [0.34%] pekee (https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Kufuatilia mageuzi ya fedha za uhalifu.pdf) ya shughuli zote za GW-4.
 
 Hata hivyo, pamoja na ushahidi huu, taarifa za kupotosha zinaendelea kutolewa na wale walio mamlakani, kama vile Waziri wa Hazina wa Marekani Janet Yellen [akidai](https://home.treasury.gov/news/press-releases/jy0023), "Fedha za fedha zimetumika kufuja faida za walanguzi wa dawa za kulevya mtandaoni; wamekuwa zana ya ugaidi."
 
@@ -1623,7 +1623,7 @@ Hatimaye, mustakabali wa ufadhili uliogatuliwa hutegemea wale walio tayari kujit
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Katika ulimwengu wa sasa wa utandawazi, upatikanaji wa huduma za kifedha ni sehemu muhimu ya ushiriki wa kiuchumi na uhuru. Pamoja na hayo, watu wengi sana bado hawajajumuishwa katika mfumo wa kawaida wa benki, huku wanawake mara nyingi wakibeba mzigo wa kutengwa huku. Kwa kushangaza, ingawa [robo moja] isiyo ya lazima(https://www.worldbank.org/en/publication/globalfindex) ya idadi ya watu duniani inasalia bila benki, katika nchi kama Saudi Arabia, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=Katika%20the%20last%20few%20years,63.5%25%20%2D%20% ya huduma za msingi za benki kwa wanawake%20ft) kuwazuia kushiriki kikamilifu katika uchumi na jamii ya nchi yao.
+Katika ulimwengu wa sasa wa utandawazi, upatikanaji wa huduma za kifedha ni sehemu muhimu ya ushiriki wa kiuchumi na uhuru. Pamoja na hayo, watu wengi sana bado hawajajumuishwa katika mfumo wa kawaida wa benki, huku wanawake mara nyingi wakibeba mzigo wa kutengwa huku. Kwa kushangaza, ingawa [robo moja] isiyo ya lazima(https://www.worldbank.org/en/publication/globalfindex) ya idadi ya watu duniani inasalia bila benki, katika nchi kama Saudi Arabia, [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=Katika%20the%20last%20few%20years,63.5%25%20%2D%20% ya huduma za msingi za benki kwa wanawake%20ft) kuwazuia kushiriki kikamilifu katika uchumi na jamii ya nchi yao.
 
 Hapa kuna mifano michache tu ya hali ambazo wanawake ulimwenguni pote bado wanavumilia leo:
 

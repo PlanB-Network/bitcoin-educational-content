@@ -337,7 +337,7 @@ Säilytysmalli edellyttää valppautta ja hyviä turvallisuuskäytäntöjä. Oik
 
 
 - Tekninen dokumentaatio: [docs.cashu.space](https://docs.cashu.space)
-- Luettelo julkisista rahapajoista: [bitcoinmints.com](https://bitcoinmints.com)
+- Luettelo julkisista rahapajoista: [bitcoinmints.com](https://cashumints.space/)
 - Virallinen protokollasivusto: [cashu.space](https://cashu.space)
 
 

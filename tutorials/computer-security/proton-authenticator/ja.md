@@ -572,8 +572,8 @@ Proton Authenticatorは最も包括的で安全なソリューションの一つ
 
 
 
-- **GitHub Proton Authenticator** ：[github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - オープンソース・コード
-- セキュリティ監査：[proton.me/community/security-audits](https://proton.me/community/security-audits) - 独立監査報告書
+- **GitHub Proton Authenticator** ：[github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - オープンソース・コード
+- セキュリティ監査：[proton.me/community/security-audits](https://proton.me/community/open-source) - 独立監査報告書
 
 
 

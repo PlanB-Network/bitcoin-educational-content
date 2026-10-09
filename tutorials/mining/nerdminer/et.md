@@ -129,4 +129,4 @@ Teades, et kogu hashrate on umbes 450 EH/s (või 4,5 x 10^20 hashi sekundis), v�
 Siin on mõned lingid, kui soovite teemal rohkem lugeda:
 
 - [NerdMiner_v2 projekti leht](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMinerite täielik dokumentatsioon](https://docs.bitwater.ch/nerd-miner-v2/)
+- [NerdMinerite täielik dokumentatsioon](https://bitwater.ch/nerd-miner-v2/)

@@ -932,7 +932,7 @@ Para uma discussão mais aprofundada sobre a teoria moderna dos números, pode c
 
 [3] Ver [Vídeo do YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Álgebra Abstrata](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Álgebra Abstrata](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz e Lindell, *Introduction to Modern Cryptography*, 2.ª ed., 2015 (CRC Press: Boca Raton, FL). Paar e Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlim).
 
@@ -1895,7 +1895,7 @@ Diz-se que uma função de hash $H$ é **resistente a colisões** se for inviáv
 
 As funções hash resistentes a colisões são importantes, por exemplo, na verificação de software. Suponhamos que queria descarregar a versão Windows do Bitcoin Core 0.21.0 (uma aplicação de servidor para processar o tráfego da rede Bitcoin). Os principais passos que teria de dar, para verificar a legitimidade do software, são os seguintes:
 
-1.	Primeiro, é necessário descarregar e importar as chaves públicas de um ou mais contribuidores Bitcoin Core para um software que possa verificar assinaturas digitais (por exemplo, Kleopetra). Pode encontrar estas chaves públicas [aqui](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Recomenda-se que verifique o software Bitcoin Core com as chaves públicas de vários contribuidores.
+1.	Primeiro, é necessário descarregar e importar as chaves públicas de um ou mais contribuidores Bitcoin Core para um software que possa verificar assinaturas digitais (por exemplo, Kleopetra). Pode encontrar estas chaves públicas [aqui](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Recomenda-se que verifique o software Bitcoin Core com as chaves públicas de vários contribuidores.
 
 2.	De seguida, é necessário verificar as chaves públicas que importou. Pelo menos um passo que deve dar é verificar se as chaves públicas que encontrou são as mesmas que foram publicadas em vários outros locais. Pode, por exemplo, consultar as páginas Web pessoais, as páginas do Twitter ou as páginas do Github das pessoas cujas chaves públicas importou. Normalmente, esta comparação de chaves públicas é efectuada através da comparação de um hash curto da chave pública, conhecido como impressão digital.
 

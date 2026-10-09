@@ -1517,7 +1517,7 @@ Jedna od ključnih prednosti Umbrela u odnosu na konkurenciju je njegova velika 
 
 
 
-Umbrelov kod je javno dostupan (možete ga pregledati, forkovati, i modifikovati), ali nije pod pravom open-source licencom. Zapravo, umbrelOS se distribuira pod [*PolyForm Noncommercial 1.0*] licencom (https://polyformproject.org/licenses/noncommercial/1.0.0/), iako su neki povezani alati za razvoj dostupni pod MIT licencom.
+Umbrelov kod je javno dostupan (možete ga pregledati, forkovati, i modifikovati), ali nije pod pravom open-source licencom. Zapravo, umbrelOS se distribuira pod [*PolyForm Noncommercial 1.0*] licencom (https://polyformproject.org/licenses/noncommercial/1.0.0), iako su neki povezani alati za razvoj dostupni pod MIT licencom.
 
 
 

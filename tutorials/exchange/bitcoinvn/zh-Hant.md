@@ -65,7 +65,7 @@ BitcoinVN.io 自 2014 年以來一直是越南第一家也是最值得信賴的 
 請記住，**交易費率會浮動**，因此在確認之前務必檢查最終價格。
 
 
-**不需開立帳戶，**每日交易限額為 VND 250,000 (~ USD $8)。更多資訊請參閱我們的 [銀行轉帳政策](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer)。
+**不需開立帳戶，**每日交易限額為 VND 250,000 (~ USD $8)。更多資訊請參閱我們的 [銀行轉帳政策](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer)。
 
 
 **小心**：相較於在線交易方式，選擇 Lightning Network 的網路費用一般較便宜。

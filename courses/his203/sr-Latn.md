@@ -523,7 +523,7 @@ Kao što smo rekli početkom 2011. godine, Mt. Gox platforma nije bila sigurna. 
 Dana 1. marta 2011. godine, baš kada je transfer trebalo da postane zvaničan, 80.000 bitkoina je [isparilo](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) u vazduh zahvaljujući zlonamernom pristupu wallet.dat fajlu sajta. Dana 3. marta, Jed McCaleb je primetio povlačenje i [obavestio](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Marka na IRC-u da se "nešto loše dogodilo". Bio je to veliki gubitak (jedan bitkoin se tada prodavao za $0.92), koji će postajati sve veći i veći tokom narednih meseci sa neviđenim porastom cene.
 
 
-Ovaj problem je [pomenut](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) od strane Jeda 18. aprila u emailu Marku, gde je napisao:
+Ovaj problem je [pomenut](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) od strane Jeda 18. aprila u emailu Marku, gde je napisao:
 
 
 > "Ne mogu reći koliki će problem biti ako budemo kratki 80k BTC ako cena ode na $100 ili tako nešto. To je prilično mnogo za dugovati u tom trenutku, ali mtgox bi trebalo da je napravio tonu BTC (Bitcoin) da bi stigao tamo. Takođe, još uvek postoji činjenica da BTC (Bitcoin) saldo verovatno nikada neće pasti ispod 80k. Dakle, možda ne treba da brineš o tome."
@@ -608,7 +608,7 @@ U aprilu, trojica muškaraca osnovala je [Bitcoin Consultancy](https://web.archi
 
 
 
-U istočnoj Evropi, platforma Bitomat, sa sedištem u Poljskoj, [pokrenuta](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) je 4. aprila. Interfejs je bio rudimentaran, ali je omogućavao poljskim korisnicima da zamene svoje zlote za bitkoine. Takođe je vredno pomenuti Cavirtex, [otvoren](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. jula, koji je poslovao u Kanadi.
+U istočnoj Evropi, platforma Bitomat, sa sedištem u Poljskoj, [pokrenuta](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) je 4. aprila. Interfejs je bio rudimentaran, ali je omogućavao poljskim korisnicima da zamene svoje zlote za bitkoine. Takođe je vredno pomenuti Cavirtex, [otvoren](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. jula, koji je poslovao u Kanadi.
 
 
 
@@ -1270,7 +1270,7 @@ Uprkos tome, GLBSE je nastavio sa radom. Do rane jeseni, oko 30 sredstava je bil
 
 
 
-Još jedan takav projekat koji se pojavio nešto kasnije bio je MPEx, kreacija veoma kontroverzne ličnosti po imenu Mircea Popescu. Rumun, poreklom iz Transilvanije, bio je plodan pisac na svom blogu [Trilema](http://trilema.com/archives-categories/): pisao je o svim temama (filozofija, politika, seksualnost), u namerno provokativnom stilu, u početku na rumunskom. Zainteresovao se za Bitcoin tokom leta 2011. godine i počeo da [govori](http://trilema.com/2011/ce-este-bitcoin/) o tome na svom blogu.
+Još jedan takav projekat koji se pojavio nešto kasnije bio je MPEx, kreacija veoma kontroverzne ličnosti po imenu Mircea Popescu. Rumun, poreklom iz Transilvanije, bio je plodan pisac na svom blogu [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): pisao je o svim temama (filozofija, politika, seksualnost), u namerno provokativnom stilu, u početku na rumunskom. Zainteresovao se za Bitcoin tokom leta 2011. godine i počeo da [govori](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) o tome na svom blogu.
 
 
 
@@ -1286,7 +1286,7 @@ U avgustu, Mircea je [otvorio](https://bitcointalk.org/index.php?topic=15672.msg
 
 
 
-Krajem februara 2012. godine, nastavio je sa [prikupljanjem sredstava](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) izdavanjem akcija i obveznica, prikupivši preko 3,200 bitkoina, ili oko $16,000 u to vreme. Dana 11. aprila, nakon beta faze, platforma [konačno je postala](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platforma konačno je postala bitkoin berza koja omogućava izdavanje i trgovinu raznim akcijama, i preimenovana je u MPEx (za "Mircea Popescu's Exchange").
+Krajem februara 2012. godine, nastavio je sa [prikupljanjem sredstava](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) izdavanjem akcija i obveznica, prikupivši preko 3,200 bitkoina, ili oko $16,000 u to vreme. Dana 11. aprila, nakon beta faze, platforma [konačno je postala](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platforma konačno je postala bitkoin berza koja omogućava izdavanje i trgovinu raznim akcijama, i preimenovana je u MPEx (za "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Deterministički wallets su uglavnom delo američkog developera Gregory Maxwell.
 
 
 
-*Gregory Maxwell u 2006 (izvor: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell u 2006 (izvor: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Dana 19. avgusta, Casascius je javno [podelio](https://bitcointalk.org/index.php
 
 
 
-*Prvi Casascius bitkoini iz 2011. godine (izvor: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Prvi Casascius bitkoini iz 2011. godine (izvor: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Model se [oslanjao](https://im.forre.st/pb/85341005.txt) na "sharechain", koji s
 
 
 
-*Sharechain vizualizacija (izvor: Gregory Maxwell za [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain vizualizacija (izvor: Gregory Maxwell za [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Nakon objavljivanja verzije 0.4 softvera 23. septembra, što je označilo preuzi
 
 
 
-*Zarobljavanje Bitcoin-Qt 0.5.2 u februaru 2012. (izvor: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) za Vikimediju)*
+*Zarobljavanje Bitcoin-Qt 0.5.2 u februaru 2012. (izvor: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) za Vikimediju)*
 
 
 

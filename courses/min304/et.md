@@ -394,7 +394,7 @@ Kõiki neid punkte üle vaadates võite oma masina osta suure kindlustundega. Ku
 
 Selle juhendi kokkuvõtteks ühe lausega: **"Ära usalda, kontrolli."**
 
-[Samuti võite pöörduda professionaalide poole, kes tegelevad kaevandusmasinate taastamisega, nagu meie partner 21energy. Nad pakuvad testitud S9 masinaid, mis on puhastatud ja millele on juba paigaldatud BraiiinOS+ tarkvara. Partnerkoodiga "decouvre" saate S9 ostmisel 10% allahindlust, toetades samal ajal Attakai projekti.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Samuti võite pöörduda professionaalide poole, kes tegelevad kaevandusmasinate taastamisega, nagu meie partner 21energy. Nad pakuvad testitud S9 masinaid, mis on puhastatud ja millele on juba paigaldatud BraiiinOS+ tarkvara. Partnerkoodiga "decouvre" saate S9 ostmisel 10% allahindlust, toetades samal ajal Attakai projekti.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Juhend S9 riistvara modifikatsioonide ostmiseks
 

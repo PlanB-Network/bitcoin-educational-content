@@ -344,7 +344,7 @@ PHI101에 오신 것을 환영합니다!
 ### 문제의 산업 혁명
 
 
-사실 마르크스주의적 분석은 산업혁명의 역사적 현실을 왜곡합니다. 루트비히 폰 미제스는 [_인간의 행동_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)(특히 [산업혁명에 대한 대중적 해석](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))이라는 제목의 경제학 논문과 [_경제 정책: 오늘과 내일을 위한 생각_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)이라는 제목의 강연 시리즈에서 이 문제를 명확히 설명했습니다. (<반자본주의 정신>(https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf)과 <반자본주의 정신>(http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)도 읽어볼 만합니다.
+사실 마르크스주의적 분석은 산업혁명의 역사적 현실을 왜곡합니다. 루트비히 폰 미제스는 [_인간의 행동_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)(특히 [산업혁명에 대한 대중적 해석](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2))이라는 제목의 경제학 논문과 [_경제 정책: 오늘과 내일을 위한 생각_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)이라는 제목의 강연 시리즈에서 이 문제를 명확히 설명했습니다. (<반자본주의 정신>(https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf)과 <반자본주의 정신>(http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)도 읽어볼 만합니다.
 
 ![image](assets/ko/014.webp)
 

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Een Nostr** privésleutel (formaat `nsec1...`)
- - Maak een speciale handelssleutel op [nostrkeygen.com](https://nostrkeygen.com/)
+ - Maak een speciale handelssleutel op [nostrkeygen.com](https://nostrtool.com/)
  - Belangrijk**: Gebruik nooit je belangrijkste persoonlijke Nostr-sleutel
  - Bewaar je privésleutel op een veilige plek (wachtwoordmanager)
 
@@ -962,7 +962,7 @@ Voor bitcoiners die de voorkeur geven aan autonomie en vertrouwelijkheid, is Mos
 
 
 - [Hoofdrepository GitHub](https://github.com/MostroP2P/mostro)
-- [Webclient](https://github.com/MostroP2P/mostro-web)
+- [Webclient](https://github.com/MostroP2P/app)
 - [Klant CLI](https://github.com/MostroP2P/mostro-cli)
 
 

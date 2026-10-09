@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL लाइटनिंग-Address के लिए इसके विपरीत
 
 
-फिएटजाफ से यह [एनकोडर](https://lnurl-codec.netlify.app/) या [यह वाला](https://lightningdecoder.com/) आज़माएँ। LNURLp का भुगतान करने या जाँचने के लिए आप [LNurlpay](https://wwww.lnurlpay.com/) का भी उपयोग कर सकते हैं। इसमें HTTPS लिखा होना चाहिए, HTTP नहीं।
+फिएटजाफ से यह [एनकोडर](https://lnurl-codec.netlify.app/) या [यह वाला](https://lightningdecoder.com/) आज़माएँ। LNURLp का भुगतान करने या जाँचने के लिए आप [LNurlpay](https://www.lnurlpay.com/) का भी उपयोग कर सकते हैं। इसमें HTTPS लिखा होना चाहिए, HTTP नहीं।
 
 
 

@@ -309,7 +309,7 @@ The Abbot of Saint-Pierre argued that the reign of Louis XIV, with its luxurious
 
 In terms of economic thinking, he consistently applied the principle of utility, much like Jeremy Bentham would do later, and often offered sound insights. To be fair, he was still influenced by mercantilist ideas, which no one had fully shed at that time.
 
-Still, the Abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
+Still, the Abbot of Saint-Pierre made some accurate observations about the economy. Even before *Condillac*, who is often credited with the idea, he stated plainly that in any exchange, both parties benefit. This can be found in his 1733 ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/), where he wrote:
 
 > When a sale is made between merchants, the seller gains, and so does the buyer; for if there weren't some real or perceived benefit on both sides, neither the seller would sell at such and such a price, nor the buyer, for his part, would buy at such a price.
 
@@ -469,7 +469,7 @@ The intellectual output of the Gournay circle had a major impact on the history 
 
 ![Study on economic publishing in France, 1566-1789.](assets/en/035.webp)
 
-To spread a taste for economic discussions among the French population, Gournay and his friends worked to make them accessible through novels. After the *Memoir on the Trades*, which criticized guilds, Gournay and Cliquot-Blervache helped Gabriel-François Coyer write a short satirical novel called Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+To spread a taste for economic discussions among the French population, Gournay and his friends worked to make them accessible through novels. After the *Memoir on the Trades*, which criticized guilds, Gournay and Cliquot-Blervache helped Gabriel-François Coyer write a short satirical novel called Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ In his previously cited *Maxims*, Quesnay states:
 
 The Physiocrats had seen the damage caused by government interference, especially in the grain trade. One must acknowledge, they say, that the authority will never be able to manage commerce as well as individuals do, because it would need to respond to every need and react to every change in demand or supply. All of this is far beyond the capabilities of even the wisest government one can conceive. Therefore, it is necessary to let things be and to let them flow.
 
-Beneficial by nature, trade must be entirely and perfectly free. One of their members, Le Trosne, even wrote a pamphlet titled [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Beneficial by nature, trade must be entirely and perfectly free. One of their members, Le Trosne, even wrote a pamphlet titled [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Fifth principle: All men are brothers
 

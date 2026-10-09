@@ -56,7 +56,7 @@ Umbrel tarafından sunulan genel işlevlere veya Lightning Network ile ilgili i�
 
 ## RoninDojo v2'yi yüklemek için hangi donanımı seçmeliyim?
 
-RoninDojo, yazılımının [RockPro64](https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
+RoninDojo, yazılımının [RockPro64](https://ronindojo.io/downloads) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
 
 Kendi adıma, RoninDojo'yu 8 GB RAM ile donatılmış bir Raspberry Pi üzerinde çalıştırıyorum. Bazı topluluk üyeleri yalnızca 4 GB RAM'e sahip cihazlarda çalıştırmayı başarmış olsa da, bu yapılandırmayı kendim test etmedim. Aradaki küçük fiyat farkı göz önüne alındığında, 8 GB RAM versiyonunu tercih etmek akıllıca görünüyor. Bu, Raspberry Pi'nizi gelecekte başka kullanımlar için yeniden kullanmayı planlıyorsanız da yararlı olabilir.
 
@@ -824,7 +824,7 @@ RoninUI kontrol panelinizde bulunan diğer sekmelerle ilgili olarak:
 - `Ayarlar`: Kullanıcı şifrenizi değiştirmenizi sağlar.
 
 
-İşte bu kadar! Bu dersi sonuna kadar takip ettiğiniz için teşekkür ederim. Eğer hoşunuza gittiyse, sosyal medyada paylaşmanızı tavsiye ederim. Ayrıca, fırsatınız varsa, bu ücretsiz ve açık kaynaklı yazılımları topluluğumuzun kullanımına sunan geliştiricileri bir bağışla desteklemeyi düşünün: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). RoninDojo hakkındaki bilgilerinizi derinleştirmek ve daha fazla kaynak keşfetmek için, aşağıda belirtilen harici kaynakların bağlantılarına başvurmanızı şiddetle tavsiye ederim.
+İşte bu kadar! Bu dersi sonuna kadar takip ettiğiniz için teşekkür ederim. Eğer hoşunuza gittiyse, sosyal medyada paylaşmanızı tavsiye ederim. Ayrıca, fırsatınız varsa, bu ücretsiz ve açık kaynaklı yazılımları topluluğumuzun kullanımına sunan geliştiricileri bir bağışla desteklemeyi düşünün: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). RoninDojo hakkındaki bilgilerinizi derinleştirmek ve daha fazla kaynak keşfetmek için, aşağıda belirtilen harici kaynakların bağlantılarına başvurmanızı şiddetle tavsiye ederim.
 
 
 **Harici kaynaklar:**
@@ -834,4 +834,4 @@ RoninUI kontrol panelinizde bulunan diğer sekmelerle ilgili olarak:
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

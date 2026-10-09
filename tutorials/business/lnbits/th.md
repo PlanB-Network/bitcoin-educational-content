@@ -514,7 +514,7 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 ##### LNURL สำหรับที่อยู่ lightning ตรงกันข้าม
 
 
-ลองใช้ [encoder](https://lnurl-codec.netlify.app/) จาก fiatjaf หรือ [อันนี้](https://lightningdecoder.com/). สำหรับการจ่ายหรือเช็ค LNURLp คุณสามารถใช้ [LNurlpay](https://wwww.lnurlpay.com/) ได้เช่นกัน ควรระบุว่าเป็น HTTPS ไม่ใช่ HTTP.
+ลองใช้ [encoder](https://lnurl-codec.netlify.app/) จาก fiatjaf หรือ [อันนี้](https://lightningdecoder.com/). สำหรับการจ่ายหรือเช็ค LNURLp คุณสามารถใช้ [LNurlpay](https://www.lnurlpay.com/) ได้เช่นกัน ควรระบุว่าเป็น HTTPS ไม่ใช่ HTTP.
 
 
 

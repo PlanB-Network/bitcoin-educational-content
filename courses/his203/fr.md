@@ -283,7 +283,7 @@ Comme on l'a dit, au début de l'année 2011, la plateforme Mt. Gox n'est pas s�
 
 Le 1er mars 2011, alors que le transfert est sur le point d'être officialisé, 80 000 bitcoins [s'évaporent](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) dans la nature grâce à un accès malveillant au fichier wallet.dat du site. Le 3, Jed McCaleb remarque le retrait et [informe](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark sur IRC que "quelque chose d'horrible est arrivé". C'est une perte importante (un bitcoin se vend alors pour 0,92 $), qui va s'agrandir de plus en plus au fil des mois avec la hausse inouïe du prix.
 
-Ce problème est [évoqué](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) par Jed le 18 avril dans un courriel adressé à Mark, où il écrit :
+Ce problème est [évoqué](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) par Jed le 18 avril dans un courriel adressé à Mark, où il écrit :
 
 > Je ne peux pas te dire quelle sera l'ampleur de problème du problème s'il manque 80 kBTC et si leur valeur grimpe jusqu'à 100 $ et quelques. Cela fera une sacrée dette, mais d'ici là mtgox devrait avoir empoché une tonne de BTC. On peut aussi compter sur le fait que le solde de BTC ne descendra probablement jamais en dessous des 80k. Donc peut-être que tu n'as pas à t'en faire. (Traduction de Cyril Gay, légèrement modifiée)
 
@@ -327,7 +327,7 @@ En avril, les trois hommes fondent la [Bitcoin Consultancy](https://web.archive.
 
 Le 6 juin, la Bitcoin Consultancy [lance](https://bitcointalk.org/index.php?topic=26543.msg332466#msg332466) une nouvelle plateforme de change, destinée au marché européen, appelée Intersango (comme le logiciel qui la soutient). Britcoin et Intersango finissent par fusionner quelques mois plus tard pour ne plus former qu'un seul site.
 
-En Europe de l'Est, la plateforme Bitomat, installée en Pologne, est [lancée](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) le 4 avril. L'interface est rudimentaire, mais permet à ses utilisateurs polonais d'échanger leurs zlotys contre des bitcoins. On peut également citer le service Cavirtex, [ouvert](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) le 2 juillet, qui officie au Canada.
+En Europe de l'Est, la plateforme Bitomat, installée en Pologne, est [lancée](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) le 4 avril. L'interface est rudimentaire, mais permet à ses utilisateurs polonais d'échanger leurs zlotys contre des bitcoins. On peut également citer le service Cavirtex, [ouvert](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) le 2 juillet, qui officie au Canada.
 
 Une autre plateforme est VirWoX (*Virtual World Exchange*), établie en Autriche. Ouverte en 2007, il s'agit d'une place de marché de premier plan permettant l'échange de monnaies virtuelles de jeux vidéos, où on retrouve notamment le dollar Linden de *Second Life*. Le 27 avril 2011, le site [ajoute](https://web.archive.org/web/20110511075334/https://www.virwox.com/) le bitcoin à son offre, ouvrant uniquement le change avec le dollar Linden, ce qui permet à ses utilisateurs de se procurer la cryptomonnaie de Nakamoto.
 
@@ -661,7 +661,7 @@ Malgré tout, GLBSE continue d'opérer. Au début de l'automne, une trentaine d'
 
 ### MPEx : des options et des actions
 
-Un autre projet de ce type qui voit le jour quelque temps plus tard est MPEx. Cette plateforme est la création d'un personnage hautement controversé nommé Mircea Popescu. Roumain, originaire de Transylvanie, il est un auteur prolifique sur son blog [Trilema](http://trilema.com/archives-categories/) : il écrit sur tous les sujets (philosophie, politique, sexualité), dans un style volontairement provocateur, en roumain dans un premier temps. Il s'intéresse à Bitcoin à partir de l'été 2011 et commence à en [parler](http://trilema.com/2011/ce-este-bitcoin/) sur son blog.
+Un autre projet de ce type qui voit le jour quelque temps plus tard est MPEx. Cette plateforme est la création d'un personnage hautement controversé nommé Mircea Popescu. Roumain, originaire de Transylvanie, il est un auteur prolifique sur son blog [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) : il écrit sur tous les sujets (philosophie, politique, sexualité), dans un style volontairement provocateur, en roumain dans un premier temps. Il s'intéresse à Bitcoin à partir de l'été 2011 et commence à en [parler](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) sur son blog.
 
 ![Mircea Popescu, date indéterminée](assets/en/030.webp)
 
@@ -669,7 +669,7 @@ Un autre projet de ce type qui voit le jour quelque temps plus tard est MPEx. Ce
 
 En août, Mircea [ouvre](https://bitcointalk.org/index.php?topic=15672.msg444367#msg444367) le "Mircea Popescu's BTC Options Trading Emporium" (MPOE), qui [propose](https://web.archive.org/web/20110824221522/http://polimedia.us/bitcoin/options.php) des options d'achat (*call*) et de vente (*put*) de BTC. Il copie en cela un service similaire appelé Bitoption.org, [lancé](https://bitcointalk.org/index.php?topic=9611.msg138413#msg138413) en mai. La plateforme est globalement rentable, réalisant plus de 140 BTC de bénéfices nets sur six mois.
 
-À la fin du mois de février 2012, il procède à une [levée de fonds](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) en émettant des actions et des obligations, ce qui lui permet de recueillir plus de 3 200 bitcoins, soit environ 16 000 $ à ce moment-là. Le 11 avril, après une phase bêta, la plateforme [devient](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) finalement une bourse en bitcoins permettant d'émettre et d'échanger diverses actions et est renommée MPEx (pour "Mircea Popescu's Exchange").
+À la fin du mois de février 2012, il procède à une [levée de fonds](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) en émettant des actions et des obligations, ce qui lui permet de recueillir plus de 3 200 bitcoins, soit environ 16 000 $ à ce moment-là. Le 11 avril, après une phase bêta, la plateforme [devient](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) finalement une bourse en bitcoins permettant d'émettre et d'échanger diverses actions et est renommée MPEx (pour "Mircea Popescu's Exchange").
 
 ![Capture de MPEx, août 2012](assets/en/031.webp)
 
@@ -770,7 +770,7 @@ Les portefeuilles déterministes sont largement issus des réflexions du dévelo
 
 ![Gregory Maxwell en 2006](assets/en/038.webp)
 
-*Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell en 2006 (source : [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 Gregory Maxwell a beaucoup d'idées sur les façons d'améliorer l'utilisation de Bitcoin, et la dérivation des clés en fait partie. Il n'est pas le premier à avoir cette idée (Casascius [a fait](https://bitcointalk.org/index.php?topic=6897.msg100975#msg100975) une proposition similaire en avril), mais il est le premier à la formaliser. Le 18 juin, à la suite de [discussions](https://buildingbitcoin.org/bitcoin-dev/log-2011-06-08.html#l-1089) sur IRC, il rédige une description sur le forum. Il [écrit](https://bitcointalk.org/index.php?topic=19137.msg239768#msg239768) :
 
@@ -892,7 +892,7 @@ Le 19 août, Casascius [partage](https://bitcointalk.org/index.php?topic=38048.m
 
 ![Les premiers bitcoins de Casascius en 2011](assets/en/049.webp)
 
-*Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Les premiers bitcoins de Casascius en 2011 (source : [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 Initialement disponibles sous forme de pièces de 1 et de 25 BTC, les bitcoins de Casascius sont rapidement déclinés en des pièces d'autres valeurs et en lingots, allant jusqu'à 1000 BTC ! Les bitcoins physiques sont [vendus](https://web.archive.org/web/20111107191637/https://www.casascius.com/) sur le site personnel de Casascius, mais [aussi](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) sur MemoryDealers (la boutique en ligne de Roger Ver) à partir d'octobre. Ils se [retrouveront](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) également dans un distributeur automatique au PorcFest de l'année suivante, en juin 2012.
 
@@ -1033,7 +1033,7 @@ Le modèle [repose](https://im.forre.st/pb/85341005.txt) sur une "chaine de part
 
 ![Visualisation de la share chain](assets/en/058.webp)
 
-*Visualisation de la sharechain (source : Gregory Maxwell pour [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Visualisation de la sharechain (source : Gregory Maxwell pour [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 Le 19 juillet 2011, après un essai réalisé sur le réseau de test, P2Pool est [déployé](https://bitcointalk.org/index.php?topic=61131.msg379115#msg379115) sur le réseau principal de Bitcoin. La coopérative décentralisée [trouve](https://bitcointalk.org/index.php?topic=61131.msg476766#msg476766) son premier bloc le 23 août, après plusieurs mises à niveau et plus d'un mois de hachage ! D'autres blocs suivront, mais l'activité restera anecdotique durant des mois.
 
@@ -1084,7 +1084,7 @@ Après la sortie de la version 0.4 du logiciel le 23 septembre, qui marque la re
 
 ![Capture de Bitcoin-Qt 0.5.2 en février 2012](assets/en/060.webp)
 
-*Capture de Bitcoin-Qt 0.5.2 en février 2012 (source : [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) pour Wikimedia)*
+*Capture de Bitcoin-Qt 0.5.2 en février 2012 (source : [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) pour Wikimedia)*
 
 Gavin est toujours le meneur du projet, mais il est aidé par plusieurs personnes. En octobre 2011, les développeurs "attitrés" de Bitcoin (c'est-à-dire ceux qui [figurent](https://web.archive.org/web/20111022025640/http://www.bitcoin.org/) sur Bitcoin.org) sont Gavin Andresen, Pieter Wuille, Nils Schneider, Jeff Garzik et Wladimir van der Laan. Ces programmeurs sont censés représenter Bitcoin au niveau technique, et peuvent être contactés par courriel. Ce sont des mainteneurs, qui [bénéficient](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) d'un accès en écriture au dépôt sur GitHub. Gregory Maxwell les [rejoint](https://web.archive.org/web/20120223113428/http://www.bitcoin.org/) en février 2012, et Nils Schneider arrête de contribuer en mai de la même année. L'équipe de développeurs ainsi formée [restera](https://bitcointalk.org/index.php?topic=1774750.msg17700787#msg17700787) en place jusqu'en 2014.
 

@@ -320,8 +320,8 @@ N'oubliez pas : la protection de votre vie privée ne dépend pas uniquement de 
 
 ### Documentation officielle
 - **Site officiel** : [kagi.com/orion](https://kagi.com/orion/)
-- **FAQ complète** : [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Forum communautaire** : [community.kagi.com](https://community.kagi.com)
+- **FAQ complète** : [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Forum communautaire** : [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Suivi des bugs** : [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion** : [github.com/OrionBrowser](https://github.com/OrionBrowser) - Composants open-source
 - **Blog Kagi** : [blog.kagi.com](https://blog.kagi.com) - Actualités et mises à jour

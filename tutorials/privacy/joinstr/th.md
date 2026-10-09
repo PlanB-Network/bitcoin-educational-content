@@ -650,7 +650,7 @@ Joinstr แสดงถึงโซลูชันความเป็นส่
 
 
 
-- [เว็บไซต์ทางการ Joinstr](https://joinstr.xyz)
+- [เว็บไซต์ทางการ Joinstr](https://docs.joinstr.xyz/)
 - [User documentation](https://docs.joinstr.xyz/users/using-joinstr)
 - [เอกสารทางเทคนิค](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab source code](https://gitlab.com/invincible-privacy/joinstr)

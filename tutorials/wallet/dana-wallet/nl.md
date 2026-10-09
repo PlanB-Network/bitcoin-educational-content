@@ -113,7 +113,7 @@ De aanbevolen methode is om de speciale F-Droid repository van Dana Wallet toe t
 
 
 
-Open de F-Droid applicatie op je Android toestel en ga naar Instellingen via het icoontje rechtsonder. Selecteer "Repositories" om app-bronnen te beheren. Druk op de "+" knop om een nieuwe repository toe te voegen, scan dan de QR code of plak de `https://fdroid.silentpayments.dev/fdroid/repo` link. Zodra de repository is toegevoegd, zie je de drie beschikbare versies van Dana Wallet. Selecteer "Dana Wallet - Bladwijzer" en druk op "Installeren".
+Open de F-Droid applicatie op je Android toestel en ga naar Instellingen via het icoontje rechtsonder. Selecteer "Repositories" om app-bronnen te beheren. Druk op de "+" knop om een nieuwe repository toe te voegen, scan dan de QR code of plak de `https://fdroid.danawallet.app/fdroid/repo` link. Zodra de repository is toegevoegd, zie je de drie beschikbare versies van Dana Wallet. Selecteer "Dana Wallet - Bladwijzer" en druk op "Installeren".
 
 
 
@@ -410,7 +410,7 @@ Silent Payments vertegenwoordigen een belangrijke stap voorwaarts in het verzoen
 
 
 - Dana Wallet GitHub archief: https://github.com/cygnet3/danawallet
-- F-Cold borg: https://fdroid.silentpayments.dev
+- F-Cold borg: https://fdroid.danawallet.app/fdroid/repo/
 - Silent Payments community site: https://silentpayments.xyz
 - Specificatie BIP-352: https://bips.dev/352
 

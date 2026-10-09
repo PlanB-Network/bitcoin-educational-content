@@ -65,7 +65,7 @@ Introduzca manualmente la cantidad que desea intercambiar y utilice el [enlace d
 Recuerde que **las tarifas de transacción fluctúan**, así que compruebe siempre el precio final antes de confirmar.
 
 
-**No se requiere cuenta bancaria. Las transacciones diarias están limitadas a 250.000 VND (~ 8 USD). Encontrará más información en nuestras [políticas de transferencia bancaria](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**No se requiere cuenta bancaria. Las transacciones diarias están limitadas a 250.000 VND (~ 8 USD). Encontrará más información en nuestras [políticas de transferencia bancaria](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Cuidado**: la tarifa de red es generalmente más barata cuando se elige Lightning Network en comparación con el método de transacción onchain.

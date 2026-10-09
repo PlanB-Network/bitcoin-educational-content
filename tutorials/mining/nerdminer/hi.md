@@ -191,4 +191,4 @@ Mining की हार्दिक शुभकामनाएं और भा
 
 
 - [NerdMiner_v2 परियोजना पृष्ठ](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners का पूरा दस्तावेज़ीकरण](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiners का पूरा दस्तावेज़ीकरण](https://bitwater.ch/nerd-miner-v2/)

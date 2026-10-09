@@ -21,7 +21,7 @@ RASPIBLITZ - Как да стартирате Lightning и Bitcoin Full Node о�
 ## Ръководство за настройка на Raspiblitz на Parman
 
 
-Raspiblitz е отлична система за работа с Bitcoin Node и свързаните с него приложения. Препоръчвам този възел и My Node на повечето потребители (в идеалния случай имайте два възела за резервиране.) Едно от основните предимства е, че възелът Raspiblitz е "безплатен софтуер с отворен код", за разлика от MyNode или Umbrel. [Защо това е важно? Влад Коста обяснява](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Можете също така да използвате RaspbiBlitz с WiFi връзка, а не с Ethernet - ето [допълнително ръководство](https://armantheparman.com/headless-wifi/) за това. (Не съм открил начин да направя това с MyNode).
+Raspiblitz е отлична система за работа с Bitcoin Node и свързаните с него приложения. Препоръчвам този възел и My Node на повечето потребители (в идеалния случай имайте два възела за резервиране.) Едно от основните предимства е, че възелът Raspiblitz е "безплатен софтуер с отворен код", за разлика от MyNode или Umbrel. [Защо това е важно? Влад Коста обяснява](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Можете също така да използвате RaspbiBlitz с WiFi връзка, а не с Ethernet - ето [допълнително ръководство](https://armantheparman.com/headless-wifi/) за това. (Не съм открил начин да направя това с MyNode).
 
 
 Можете да си купите готов възел с прикрепен мини екран или да го построите сами (не ви е необходим екран).

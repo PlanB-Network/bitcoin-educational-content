@@ -650,7 +650,7 @@ Tegen een achtergrond van toenemende financiële controle worden gedecentralisee
 
 
 
-- [Officiële website van Joinstr](https://joinstr.xyz)
+- [Officiële website van Joinstr](https://docs.joinstr.xyz/)
 - [Gebruikersdocumentatie](https://docs.joinstr.xyz/users/using-joinstr)
 - [Technische documentatie](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLab broncode](https://gitlab.com/invincible-privacy/joinstr)

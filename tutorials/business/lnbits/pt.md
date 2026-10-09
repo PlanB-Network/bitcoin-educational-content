@@ -387,7 +387,7 @@ Substitua f8a43fc363ea428db5c53b3559935f1f pelo valor que vem antes do nome (no 
 
 ##### LNURL para um endereço relâmpago e vice-versa
 
-Experimente este [codificador](https://lnurl-codec.netlify.app/) da fiatjaf ou [este](https://lightningdecoder.com/). Para pagar ou verificar um LNURLp, pode também utilizar [LNurlpay](https://wwww.lnurlpay.com/). Deve indicar HTTPS e não HTTP.
+Experimente este [codificador](https://lnurl-codec.netlify.app/) da fiatjaf ou [este](https://lightningdecoder.com/). Para pagar ou verificar um LNURLp, pode também utilizar [LNurlpay](https://www.lnurlpay.com/). Deve indicar HTTPS e não HTTP.
 
 ##### Configurar um comentário que as pessoas vêem quando pagam ao meu LNURLp QR
 

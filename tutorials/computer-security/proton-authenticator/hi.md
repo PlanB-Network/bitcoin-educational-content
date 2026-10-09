@@ -572,8 +572,8 @@ https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-- GitHub प्रोटॉन प्रमाणक : [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - ओपन सोर्स कोड
-- **सुरक्षा ऑडिट**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - स्वतंत्र ऑडिट रिपोर्ट
+- GitHub प्रोटॉन प्रमाणक : [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - ओपन सोर्स कोड
+- **सुरक्षा ऑडिट**: [proton.me/community/security-audits](https://proton.me/community/open-source) - स्वतंत्र ऑडिट रिपोर्ट
 
 
 

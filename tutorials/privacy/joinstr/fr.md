@@ -345,7 +345,7 @@ Dans un contexte de surveillance financière croissante, disposer d'outils déce
 ## Ressources
 
 ### Documentation officielle
-- [Site officiel Joinstr](https://joinstr.xyz)
+- [Site officiel Joinstr](https://docs.joinstr.xyz/)
 - [Documentation utilisateur](https://docs.joinstr.xyz/users/using-joinstr)
 - [Documentation technique](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Code source GitLab](https://gitlab.com/invincible-privacy/joinstr)

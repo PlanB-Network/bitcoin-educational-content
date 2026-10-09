@@ -126,7 +126,7 @@ Umbrel 會在後台為 ThunderHub 提供 LND 連線資訊 (TLS 證書、管理 M
 
 
 
-**Prerequisites:** 請根據 [documentation setup](https://docs.thunderhub.io/setup) 確認您的系統符合最低需求：
+**Prerequisites:** 請根據 [documentation setup](https://docs.thunderhub.io/configure) 確認您的系統符合最低需求：
 
 
 
@@ -140,7 +140,7 @@ Umbrel 會在後台為 ThunderHub 提供 LND 連線資訊 (TLS 證書、管理 M
 
 
 
-**1.取回 ThunderHub 程式碼：** 按照 [安裝說明文件](https://docs.thunderhub.io/installation) 所述，克隆專案的 GitHub 儲存庫：
+**1.取回 ThunderHub 程式碼：** 按照 [安裝說明文件](https://docs.thunderhub.io/get-started) 所述，克隆專案的 GitHub 儲存庫：
 
 
 
@@ -186,7 +186,7 @@ npm run build
 
 
 
-**1.主要設定檔:** 在 ThunderHub 資料夾的根目錄建立一個`.env.local`檔來自訂設定 (這樣可以防止您的設定在更新時被覆蓋)。主要變數依照 [setup documentation](https://docs.thunderhub.io/setup)：
+**1.主要設定檔:** 在 ThunderHub 資料夾的根目錄建立一個`.env.local`檔來自訂設定 (這樣可以防止您的設定在更新時被覆蓋)。主要變數依照 [setup documentation](https://docs.thunderhub.io/configure)：
 
 
 
@@ -308,8 +308,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- 安裝：**[docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)**
-- 設定：**[docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)**
+- 安裝：**[docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)**
+- 設定：**[docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)**
 
 
 

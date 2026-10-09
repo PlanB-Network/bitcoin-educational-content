@@ -94,7 +94,7 @@ Para construir tu SeedSigner, necesitarás los siguientes componentes:
 
 - Alojamiento (opcional pero recomendado)** (opcional pero recomendado)** (opcional pero recomendado)** (opcional pero recomendado)**)
     - Protege el dispositivo y facilita su uso.
-    - El modelo más popular es el "*Pastillero naranja*", para el que hay disponibles [archivos STL de código abierto para impresión 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - El modelo más popular es el "*Pastillero naranja*", para el que hay disponibles [archivos STL de código abierto para impresión 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Las cajas también están disponibles en [revendedores independientes vinculados al proyecto](https://seedsigner.com/hardware/).
 
 

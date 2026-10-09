@@ -936,7 +936,7 @@ $$
 
 [3] 請參閱 [YouTube 視訊](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [抽象代數](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [抽象代數](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL)。Paar and Pelzl，*Understanding Cryptography*，2010 (Springer-Verlag: Berlin)。
 
@@ -1936,7 +1936,7 @@ Hash 函數 (例如 SHA-256) 在密碼學中有各種用途。Hash 函數需要�
 
 抗碰撞的 Hash 功能非常重要，例如在驗證軟體時。假設您想要下載 Windows 版本的 Bitcoin Core 0.21.0（處理 Bitcoin 網路流量的伺服器應用程式）。為了驗證軟體的合法性，您必須採取的主要步驟如下：
 
-1.	您首先需要下載一個或多個 Bitcoin Core 貢獻者的公開金鑰，並將其匯入可以驗證數位簽章的軟體 (例如 Kleopetra)。您可以在 [這裡](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt) 找到這些公開金鑰。建議您使用多位貢獻者的公開金鑰驗證 Bitcoin Core 軟體。
+1.	您首先需要下載一個或多個 Bitcoin Core 貢獻者的公開金鑰，並將其匯入可以驗證數位簽章的軟體 (例如 Kleopetra)。您可以在 [這裡](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) 找到這些公開金鑰。建議您使用多位貢獻者的公開金鑰驗證 Bitcoin Core 軟體。
 
 2.	接下來，您需要驗證您匯入的公開金鑰。至少有一個步驟是要確認您找到的公開金鑰是否與其他不同位置所公佈的相同。例如，您可以參考您匯入公開金鑰的人的個人網頁、Twitter 頁面或 Github 頁面。一般而言，比較公開金鑰的方式是比較公開金鑰的簡短 Hash 指紋。
 

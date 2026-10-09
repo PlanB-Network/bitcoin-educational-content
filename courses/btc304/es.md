@@ -902,7 +902,7 @@ Si quieres prepararte para los momentos más tranquilos, puedes planificar algun
 - Trayendo un **Nerdminer**, Bitaxe, FPGA o incluso ASIC
 - Teniendo un **volante Bitcoin**
 - Ideando un elemento visual o logotipo de Bitcoin para tu comunidad
-- Jugando a un **[juego de cartas Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**
+- Jugando a un **[juego de cartas Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**
 - Mostrando el mapa **[btcmap.org](https://btcmap.org/)** de comunidades y comerciantes
 - Enviando o recibiendo Bitcoin utilizando **Lightning**.
 
@@ -1156,7 +1156,7 @@ Dependiendo de tu disponibilidad y del nivel de implicación en tu comunidad, pu
 
 - Noche de restaurantes para el **Día de la Pizza** el 22 de mayo
 - Una noche o un fin de semana para celebrar el próximo **Halving**
-- Una **noche de juegos** en familia sobre Bitcoin y su funcionamiento, utilizando juegos como [Le Coin de Table](https://www.Maximalist.ovh/) o [SHAmory](https://shamory.com/)
+- Una **noche de juegos** en familia sobre Bitcoin y su funcionamiento, utilizando juegos como [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) o [SHAmory](https://shamory.com/)
 - Un **taller de minado** que presenta diferentes tipos de hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - Una **tarde o noche para principiantes**, con talleres temáticos
 - Un **encuentro conjunto con las comunidades vecinas**

@@ -43,7 +43,7 @@ GPG 簽署是使用稱為 GNU Privacy Guard 的開放原始碼軟體產生的。
 另一方面，如果有人想要驗證已簽署檔案的真實性，他們可以使用 GPG 匯入簽發者的公開金鑰並進行驗證。
 
 
-對於那些好奇並想要了解更多關於這個神奇軟體的人，您可以參考[「GNU 隱私權手冊」](https://www.gnupg.org/gph/en/manual/x135.html)
+對於那些好奇並想要了解更多關於這個神奇軟體的人，您可以參考[「GNU 隱私權手冊」](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### 時間戳記如何運作？

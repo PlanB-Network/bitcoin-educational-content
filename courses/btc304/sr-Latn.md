@@ -1500,7 +1500,7 @@ Ako želite da se pripremite za mirnije trenutke, možete isplanirati nekoliko a
 - donoseći **Nerdminer**, Bitaxe, FPGA ili čak ASIC;
 - imati **Bitcoin letak**;
 - brainstorming vizuala ili logotipa Bitcoin za vašu zajednicu;
-- igranje **[Bitcoin kartaške igre](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- igranje **[Bitcoin kartaške igre](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - prikazivanje mape zajednica i trgovaca na **[btcmap.org](https://btcmap.org/)**;
 - slanje ili prijem Bitcoin koristeći **Lightning**.
 
@@ -1871,7 +1871,7 @@ U zavisnosti od vaše dostupnosti i nivoa angažovanosti u vašoj zajednici, mo�
 
 - Restoranska noć za **Dan pice** 22. maja
 - Veče ili vikend za proslavu sledećeg **Halving**
-- Porodična **noć igre** o Bitcoin i kako funkcioniše, koristeći igre kao što su [Le Coin de Table](https://www.Maximalist.ovh/) ili [SHAmory](https://shamory.com/)
+- Porodična **noć igre** o Bitcoin i kako funkcioniše, koristeći igre kao što su [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) ili [SHAmory](https://shamory.com/)
 - Radionica **Mining** koja predstavlja različite tipove hardvera (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **Popodne ili veče za početnike**, sa tematskim radionicama
 - **zajednički sastanak sa susednim zajednicama**

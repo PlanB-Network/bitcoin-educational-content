@@ -94,7 +94,7 @@ Untuk membangun SeedSigner Anda, Anda memerlukan komponen-komponen berikut ini:
 
 - Housing (opsional tetapi disarankan)** (opsional tetapi disarankan)** (opsional tetapi disarankan)** (opsional tetapi disarankan)**)
     - Melindungi perangkat dan membuatnya mudah digunakan.
-    - Model yang paling populer adalah "*Orange Pill Case*", yang mana [file STL sumber terbuka tersedia untuk pencetakan 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Model yang paling populer adalah "*Orange Pill Case*", yang mana [file STL sumber terbuka tersedia untuk pencetakan 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Kotak juga tersedia dari [pengecer independen yang terhubung dengan proyek](https://seedsigner.com/hardware/).
 
 

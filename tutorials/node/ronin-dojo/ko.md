@@ -87,7 +87,7 @@ Dojo는 사무라이 Bitcoin 팀이 개발한 풀 Wallet 노드 서버입니다.
 앞서 설명한 것처럼 가장 간단한 방법은 이 용도로 특별히 설계된 플러그 앤 플레이 기계인 Tanto를 주문하는 것입니다. 주문하려면 여기를 방문하세요: [링크](https://shop.ronindojo.io/product-category/nodes/).
 
 
-로닌도조 팀은 오픈 소스 코드를 제작하기 때문에 다른 컴퓨터에서도 로닌도조를 구현할 수 있습니다. 이 페이지에서 최신 버전의 설치 마법사를 찾을 수 있습니다: [링크](https://ronindojo.io/en/downloads.html), 이 페이지에서 최신 버전의 코드를 확인할 수 있습니다: [링크](https://code.samourai.io/ronindojo/RoninDojo).
+로닌도조 팀은 오픈 소스 코드를 제작하기 때문에 다른 컴퓨터에서도 로닌도조를 구현할 수 있습니다. 이 페이지에서 최신 버전의 설치 마법사를 찾을 수 있습니다: [링크](https://ronindojo.io/downloads), 이 페이지에서 최신 버전의 코드를 확인할 수 있습니다: [링크](https://code.samourai.io/ronindojo/RoninDojo).
 
 
 개인적으로 라즈베리 파이 4 8GB에 설치했는데 모든 것이 완벽하게 작동합니다.
@@ -118,7 +118,7 @@ Dojo는 사무라이 Bitcoin 팀이 개발한 풀 Wallet 노드 서버입니다.
 기기를 조립했으면 이제 로닌도조 설치를 시작할 수 있습니다. 이렇게 하려면 먼저 적절한 디스크 이미지를 구워 부팅 가능한 마이크로 SD 카드를 만듭니다.
 
 
-마이크로 SD 카드를 개인용 컴퓨터에 삽입한 다음 공식 RoninDojo 웹사이트로 이동하여 RoninOS 디스크 이미지를 다운로드합니다(https://ronindojo.io/en/downloads.html).
+마이크로 SD 카드를 개인용 컴퓨터에 삽입한 다음 공식 RoninDojo 웹사이트로 이동하여 RoninOS 디스크 이미지를 다운로드합니다(https://ronindojo.io/downloads).
 
 
 하드웨어에 해당하는 디스크 이미지를 다운로드합니다. 제 경우에는 "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" 이미지를 다운로드했습니다:
@@ -130,7 +130,7 @@ Dojo는 사무라이 Bitcoin 팀이 개발한 풀 Wallet 노드 서버입니다.
 이미지가 다운로드되면 해당 .SHA256 파일을 사용하여 이미지의 무결성을 확인합니다. 이 문서에서 이 작업을 수행하는 방법을 자세히 설명하겠습니다: Windows에서 Bitcoin 소프트웨어의 무결성을 확인하는 방법은 무엇인가요?
 
 
-RoninOS의 무결성을 확인하기 위한 구체적인 지침은 이 페이지(https://wiki.ronindojo.io/en/extras/verify)에서도 확인할 수 있습니다.
+RoninOS의 무결성을 확인하기 위한 구체적인 지침은 이 페이지(https://docs.ronindojo.io/install/verify-os/)에서도 확인할 수 있습니다.
 
 
 이 이미지를 마이크로 SD 카드에 구우려면 여기에서 다운로드할 수 있는 Balena Etcher와 같은 소프트웨어를 사용할 수 있습니다(https://www.balena.io/etcher/).
@@ -508,16 +508,16 @@ Whirlpool 구현으로 CoinJoin를 수행하는 경우, 믹스 및 리믹스를 
 
 이러한 제약 조건에 대한 한 가지 해결책은 Bitcoin 노드와 같이 항상 켜져 있어야 하는 머신에서 WhirlpoolCLI를 사용하는 것입니다. 이를 통해 Bitcoin 노드 이외의 다른 시스템을 계속 가동할 필요 없이 24시간 연중무휴로 UTXO를 리믹스할 수 있습니다.
 
-월풀CLI는 코인조인을 쉽게 관리하기 위해 개인용 컴퓨터에 설치하는 그래픽 Interface인 월풀GUI와 함께 사용됩니다. 이 글에서는 Whirlpool CLI을 도장에 설치하는 방법에 대해 자세히 설명하겠습니다: [링크](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+월풀CLI는 코인조인을 쉽게 관리하기 위해 개인용 컴퓨터에 설치하는 그래픽 Interface인 월풀GUI와 함께 사용됩니다. 이 글에서는 Whirlpool CLI을 도장에 설치하는 방법에 대해 자세히 설명하겠습니다: [링크](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-CoinJoin에 대해 전반적으로 자세히 알아보려면 이 문서에서 모든 것을 설명합니다: [링크](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+CoinJoin에 대해 전반적으로 자세히 알아보려면 이 문서에서 모든 것을 설명합니다: [링크](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Whirlpool 통계 도구 사용.
 
 
-Whirlpool로 코인조인을 수행한 후, 혼합 UTXO의 실제 프라이버시 수준을 알고 싶을 수 있습니다. Whirlpool 통계 도구를 사용하면 쉽게 확인할 수 있습니다. 이 도구를 사용하면 혼합 UTXO의 예상 점수와 소급 점수를 계산할 수 있습니다. 이러한 익명 세트 계산과 그 작동 방식에 대해 자세히 알아보려면 이 섹션을 읽어보시기 바랍니다: [링크](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Whirlpool로 코인조인을 수행한 후, 혼합 UTXO의 실제 프라이버시 수준을 알고 싶을 수 있습니다. Whirlpool 통계 도구를 사용하면 쉽게 확인할 수 있습니다. 이 도구를 사용하면 혼합 UTXO의 예상 점수와 소급 점수를 계산할 수 있습니다. 이러한 익명 세트 계산과 그 작동 방식에 대해 자세히 알아보려면 이 섹션을 읽어보시기 바랍니다: [링크](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 이 도구는 로닌도장에 사전 설치되어 있습니다. 현재로서는 RoninCLI에서만 사용할 수 있습니다. 메인 메뉴에서 실행하려면 다음으로 이동하세요:
@@ -604,7 +604,7 @@ score TXID
 UTXO의 예상 점수는 마지막 믹스가 아닌 초기 믹스의 txid를 기준으로 계산된다는 점에 유의하세요. 반대로 UTXO의 소급 점수는 마지막 주기의 txid를 기준으로 계산됩니다.
 
 
-다시 한 번, Anon 세트의 이러한 개념을 이해하지 못하신다면, 모든 것을 다이어그램으로 자세히 설명하는 CoinJoin에 대한 제 글의 이 부분을 읽어보시기 바랍니다: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+다시 한 번, Anon 세트의 이러한 개념을 이해하지 못하신다면, 모든 것을 다이어그램으로 자세히 설명하는 CoinJoin에 대한 제 글의 이 부분을 읽어보시기 바랍니다: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### 볼츠만 계산기 사용.
@@ -968,7 +968,7 @@ RoninUI에서 "Push Tx" 도구도 찾을 수 있습니다. 이를 통해 서명�
 터미널을 사용하는 것이 두렵지 않고 Lightning Network과 관련된 도구가 필요하지 않다면 RoninDojo가 매력적일 수 있습니다.
 
 
-가능하다면 이러한 오픈 소스 소프트웨어를 무료로 제작하는 개발자에게 기부하는 것을 고려해 보세요(https://donate.ronindojo.io/)
+가능하다면 이러한 오픈 소스 소프트웨어를 무료로 제작하는 개발자에게 기부하는 것을 고려해 보세요(https://docs.ronindojo.io/main/donations/)
 
 
 로닌도조에 대해 자세히 알아보려면 아래의 외부 리소스 링크를 참조하세요.
@@ -992,5 +992,5 @@ RoninUI에서 "Push Tx" 도구도 찾을 수 있습니다. 이를 통해 서명�
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/소개-볼츠만-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

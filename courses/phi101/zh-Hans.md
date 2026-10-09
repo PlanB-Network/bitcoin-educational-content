@@ -232,7 +232,7 @@ objectives:
 
 ### 对工业革命的质疑
 
-事实上，马克思主义分析扭曲了工业革命的历史现实。路德维希·冯·米塞斯在他的经济学论著[_人的行为_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)中澄清了这一问题（特别是章节[工业革命的流行解释](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)），以及在一系列以[_经济政策：今天和明天的思考_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)为标题的讲座中发布。（同样值得一读的还有反资本主义心态[这里](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf)和[这里](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)）。
+事实上，马克思主义分析扭曲了工业革命的历史现实。路德维希·冯·米塞斯在他的经济学论著[_人的行为_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm)中澄清了这一问题（特别是章节[工业革命的流行解释](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)），以及在一系列以[_经济政策：今天和明天的思考_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm)为标题的讲座中发布。（同样值得一读的还有反资本主义心态[这里](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf)和[这里](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)）。
 ![image](assets/zh-Hans/014.webp)
 
 米塞斯解释说，尽管按照我们的标准，工厂里的工作很悲惨，但对当时的工人来说，这代表了最好的可能机会。

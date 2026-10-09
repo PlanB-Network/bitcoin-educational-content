@@ -1886,7 +1886,7 @@ JoinMarket 的主要缺点之一是其使用的复杂性，需要对终端有一
 
 ![BTC204](assets/zh-Hans/137.webp)
 
-图片来源 : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+图片来源 : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 然而，技术障碍仍然是一个主要障碍。在混币生态系统中，参与者的数量加强了保密性，任何降低可访问性的限制都会直接影响可用的流动性，而流动性是混合效率的关键因素。比特币作为金融交易中的一个利基，将其使用的混币视为一个子利基，而 JoinMarket 则是其中更加专业的一部分，因此限制了其增加用户匿名性的潜力。
 

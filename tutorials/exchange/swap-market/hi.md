@@ -639,7 +639,7 @@ https://planb.academy/tutorials/exchange/centralized/zeus-swap-b6732907-b5d8-43e
 
 - [स्वैपमार्केट - वेब एप्लिकेशन](https://swapmarket.github.io)
 - [गिटहब स्वैपमार्केट](https://github.com/SwapMarket/swapmarket.github.io)
-- [तकनीकी दस्तावेज़ीकरण](https://docs.boltz.exchange/)
+- [तकनीकी दस्तावेज़ीकरण](https://github.com/BoltzExchange/boltz-backend)
 - [स्व-होस्टिंग गाइड](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

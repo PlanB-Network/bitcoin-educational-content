@@ -337,7 +337,7 @@ Model starateljstva zahteva budnost i dobre bezbednosne prakse. Ako se pravilno 
 
 
 - Tehnička dokumentacija: [docs.cashu.space](https://docs.cashu.space)
-- Lista javnih kovnica: [bitcoinmints.com](https://bitcoinmints.com)
+- Lista javnih kovnica: [bitcoinmints.com](https://cashumints.space/)
 - Zvanični protokol vebsajt: [cashu.space](https://cashu.space)
 
 

@@ -643,8 +643,8 @@ Denken Sie daran: Der Schutz Ihrer Privatsphäre hängt nicht nur von Ihrem Brow
 
 
 - **Offizielle Website**: [kagi.com/orion](https://kagi.com/orion/)
-- **Vollständige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Gemeinschaftsforum**: [community.kagi.com](https://community.kagi.com)
+- **Vollständige FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Gemeinschaftsforum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Fehlerverfolgung**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-Source-Komponenten
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nachrichten und Aktualisierungen

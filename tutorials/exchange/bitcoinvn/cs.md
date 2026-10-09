@@ -65,7 +65,7 @@ Ručně zadejte částku, kterou jste chtěli vyměnit, a pokud nemáte účet, 
 Nezapomeňte, že **transakční sazby kolísají**, proto si před potvrzením vždy ověřte konečnou cenu.
 
 
-**Účet není vyžadován s** denními transakcemi omezenými na 250 000 VND (~ 8 USD). Další informace naleznete v našich [zásadách bankovních převodů](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Účet není vyžadován s** denními transakcemi omezenými na 250 000 VND (~ 8 USD). Další informace naleznete v našich [zásadách bankovních převodů](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Pozor**: síťový poplatek je obecně levnější, pokud zvolíte metodu Lightning Network, než při transakci v řetězci.

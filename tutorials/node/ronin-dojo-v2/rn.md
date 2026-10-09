@@ -824,7 +824,7 @@ Ku bijanye n'izindi nzira ziboneka ku rubuga rwawe rwa RoninUI:
 - `Ivyagezwe`: Biguha uburenganzira bwo guhindura ijambobanga ryawe.
 
 
-Aho ni ho ufise! Murakoze gukurikira iyi nyigisho gushika kw’iherezo. Niba waravyishimiye, ndaguhimiriza ngo ubisangire ku mbuga ngurukanabumenyi. Ikindi, niwaba ufise akaryo, niwiyumvire gushigikira abakora izo porogarama z’ubuntu kandi zifunguye ziboneka mu kibano cacu n’intererano: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Kugira ngo umenye cane RoninDojo kandi ubone ibindi bikoresho, ndagusavye cane kuraba amahuzu y’ibikoresho vyo hanze vyavuzwe aha hepfo.
+Aho ni ho ufise! Murakoze gukurikira iyi nyigisho gushika kw’iherezo. Niba waravyishimiye, ndaguhimiriza ngo ubisangire ku mbuga ngurukanabumenyi. Ikindi, niwaba ufise akaryo, niwiyumvire gushigikira abakora izo porogarama z’ubuntu kandi zifunguye ziboneka mu kibano cacu n’intererano: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Kugira ngo umenye cane RoninDojo kandi ubone ibindi bikoresho, ndagusavye cane kuraba amahuzu y’ibikoresho vyo hanze vyavuzwe aha hepfo.
 
 
 **Ibikoresho vyo hanze:**

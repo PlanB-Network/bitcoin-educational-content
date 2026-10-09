@@ -2737,7 +2737,7 @@ Jedan od glavnih nedostataka JoinMarket-a je njegova složenost upotrebe, koja z
 ![BTC204](assets/sr-Latn/137.webp)
 
 
-Izvor: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Izvor: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Međutim, tehnička barijera ostaje glavna prepreka. U ekosistemu CoinJoin-a, gde je poverljivost pojačana brojem učesnika, svako ograničenje koje smanjuje pristupačnost direktno utiče na dostupnu likvidnost, što je ključni faktor u efikasnosti miksanja. Bitcoin je već niša u okviru finansijskih transakcija, coinjoin predstavlja još užu podnišu unutar toga, a JoinMarket još specifičniji segment — što ograničava njegovu sposobnost da poveća broj korisnika unutar anonimnih skupova (anonseta).

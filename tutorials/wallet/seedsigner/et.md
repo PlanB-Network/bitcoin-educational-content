@@ -94,7 +94,7 @@ SeedSigneri ehitamiseks vajate järgmisi komponente:
 
 - Elamu (vabatahtlik, kuid soovitatav)** (vabatahtlik, kuid soovitatav)** (vabatahtlik, kuid soovitatav)** (vabatahtlik, kuid soovitatav)**)
     - Kaitseb seadet ja muudab selle kasutamise lihtsaks.
-    - Kõige populaarsem mudel on "*Orange Pill Case*", mille [avatud lähtekoodiga STL-failid on saadaval 3D-printimiseks](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Kõige populaarsem mudel on "*Orange Pill Case*", mille [avatud lähtekoodiga STL-failid on saadaval 3D-printimiseks](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Karbid on saadaval ka [projektiga seotud sõltumatute edasimüüjate kaudu](https://seedsigner.com/hardware/).
 
 

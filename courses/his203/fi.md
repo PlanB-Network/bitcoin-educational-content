@@ -523,7 +523,7 @@ Kuten sanoimme vuoden 2011 alussa, Mt. Goxin järjestelmä ei ollut turvallinen.
 Maaliskuun 1. päivänä 2011, juuri kun siirrosta oli tarkoitus tehdä virallinen, 80 000 bitcoinia [haihtui](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) ilmaan, koska sivuston wallet.dat-tiedostoon oli päässyt käsiksi haittaohjelma. 3. päivänä Jed McCaleb huomasi noston ja [ilmoitti](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Markille IRC:ssä, että "jotain pahaa tapahtui". Kyseessä oli suuri tappio (yksi bitcoin myytiin tuolloin 0,92 dollarilla), joka kasvaisi yhä suuremmaksi seuraavien kuukausien aikana ennennäkemättömän hinnannousun myötä.
 
 
-Jed [mainitsi](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) tämän ongelman 18. huhtikuuta sähköpostiviestissään Markille, jossa hän kirjoitti:
+Jed [mainitsi](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) tämän ongelman 18. huhtikuuta sähköpostiviestissään Markille, jossa hän kirjoitti:
 
 
 > "En osaa sanoa, kuinka suuri ongelma on, että 80 000 BTC:stä puuttuu 80 000, jos hinta nousee 100 dollariin tai jotain. Se on aika paljon velkaa tuossa vaiheessa, mutta mtgoxin olisi pitänyt tehdä tonnin BTC (Bitcoin) päästä sinne asti. On myös vielä se tosiasia, että BTC (Bitcoin) saldo ei luultavasti koskaan laske alle 80k. Joten ehkä sinun ei oikeastaan tarvitse olla huolissasi siitä.""
@@ -608,7 +608,7 @@ Bitcoin Consultancy [lanseerasi](https://bitcointalk.org/index.php?topic=26543.m
 
 
 
-Itä-Euroopassa Puolassa sijaitseva Bitomat-alusta [käynnistettiin](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) 4. huhtikuuta. Käyttöliittymä oli alkeellinen, mutta sen avulla puolalaiset käyttäjät pystyivät vaihtamaan zlottejaan bitcoineihin. Mainitsemisen arvoinen on myös Cavirtex, [avattu](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. heinäkuuta, joka toimi Kanadassa.
+Itä-Euroopassa Puolassa sijaitseva Bitomat-alusta [käynnistettiin](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) 4. huhtikuuta. Käyttöliittymä oli alkeellinen, mutta sen avulla puolalaiset käyttäjät pystyivät vaihtamaan zlottejaan bitcoineihin. Mainitsemisen arvoinen on myös Cavirtex, [avattu](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. heinäkuuta, joka toimi Kanadassa.
 
 
 
@@ -1270,7 +1270,7 @@ Tästä huolimatta GLBSE jatkoi toimintaansa. Alkusyksyyn mennessä noin 30 omai
 
 
 
-Toinen tällainen hanke, joka syntyi jonkin aikaa myöhemmin, oli MPEx, joka oli Mircea Popescun nimisen erittäin kiistanalaisen henkilön luomus. Hän oli alun perin Transilvaniasta kotoisin oleva romanialainen, joka kirjoitti tuotteliaasti blogissaan [Trilema] (http://trilema.com/archives-categories/): hän kirjoitti kaikista aiheista (filosofia, politiikka, seksuaalisuus) tarkoituksellisen provosoivalla tyylillä, aluksi romanian kielellä. Hän kiinnostui Bitcoin:sta kesällä 2011 ja alkoi [puhua](http://trilema.com/2011/ce-este-bitcoin/) siitä blogissaan.
+Toinen tällainen hanke, joka syntyi jonkin aikaa myöhemmin, oli MPEx, joka oli Mircea Popescun nimisen erittäin kiistanalaisen henkilön luomus. Hän oli alun perin Transilvaniasta kotoisin oleva romanialainen, joka kirjoitti tuotteliaasti blogissaan [Trilema] (https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): hän kirjoitti kaikista aiheista (filosofia, politiikka, seksuaalisuus) tarkoituksellisen provosoivalla tyylillä, aluksi romanian kielellä. Hän kiinnostui Bitcoin:sta kesällä 2011 ja alkoi [puhua](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) siitä blogissaan.
 
 
 
@@ -1286,7 +1286,7 @@ Elokuussa Mircea [avasi](https://bitcointalk.org/index.php?topic=15672.msg444367
 
 
 
-Helmikuun 2012 lopussa hän toteutti [varainhankinnan](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) laskemalla liikkeeseen osakkeita ja joukkovelkakirjoja, joilla hän keräsi yli 3 200 bitcoinia eli tuolloin noin 16 000 dollaria. Huhtikuun 11. päivänä betavaiheen jälkeen alustasta [tuli lopulta](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) alustasta tuli lopulta bitcoin-pörssi, joka mahdollistaa erilaisten osakkeiden liikkeeseenlaskun ja kaupankäynnin, ja sen nimi muutettiin MPExiksi (Mircea Popescun Exchange:stä).
+Helmikuun 2012 lopussa hän toteutti [varainhankinnan](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) laskemalla liikkeeseen osakkeita ja joukkovelkakirjoja, joilla hän keräsi yli 3 200 bitcoinia eli tuolloin noin 16 000 dollaria. Huhtikuun 11. päivänä betavaiheen jälkeen alustasta [tuli lopulta](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) alustasta tuli lopulta bitcoin-pörssi, joka mahdollistaa erilaisten osakkeiden liikkeeseenlaskun ja kaupankäynnin, ja sen nimi muutettiin MPExiksi (Mircea Popescun Exchange:stä).
 
 
 
@@ -1484,7 +1484,7 @@ Deterministiset wallet:t ovat suurelta osin amerikkalaisen Gregory Maxwell-kehit
 
 
 
-*Gregory Maxwell vuonna 2006 (lähde: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*)*
+*Gregory Maxwell vuonna 2006 (lähde: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*)*
 
 
 
@@ -1724,7 +1724,7 @@ Elokuun 19. päivänä Casascius [jakoi](https://bitcointalk.org/index.php?topic
 
 
 
-*Casasciuksen ensimmäiset bitcoinit vuonna 2011 (lähde: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casasciuksen ensimmäiset bitcoinit vuonna 2011 (lähde: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Malli [perustui](https://im.forre.st/pb/85341005.txt) "sharechainiin, jota yllä
 
 
 
-*Sharechain-visualisointi (lähde: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain-visualisointi (lähde: Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Ohjelmiston version 0.4 julkaisun jälkeen 23. syyskuuta, jolloin Gavin Andresen
 
 
 
-*Bitcoin-Qt 0.5.2:n kaappaus helmikuussa 2012 (lähde: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) Wikimedia)*
+*Bitcoin-Qt 0.5.2:n kaappaus helmikuussa 2012 (lähde: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) Wikimedia)*
 
 
 

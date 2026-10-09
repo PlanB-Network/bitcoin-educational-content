@@ -663,7 +663,7 @@ In der Zwischenzeit finden Sie hier alle Links zu diesem erstaunlichen Bitcoin L
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - Promo-Video (Sie können Ihre 1. Verwendung von LN testen)
 - [Druckbarer A4-Flyer mit ersten Schritten mit Blixt, in verschiedenen Sprachen](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt bietet auch eine voll funktionsfähige Demoversion (https://blixt-Wallet-git-master-hsjoberg.vercel.app/) direkt auf der Website oder auf einer speziellen Webversion an, mit der Sie alle Funktionen testen können, bevor Sie sie in der realen Welt einsetzen.
+- [Blixt bietet auch eine voll funktionsfähige Demoversion (https://blixtwallet.github.io/) direkt auf der Website oder auf einer speziellen Webversion an, mit der Sie alle Funktionen testen können, bevor Sie sie in der realen Welt einsetzen.
 
 
 ---

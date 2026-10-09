@@ -2739,7 +2739,7 @@ Jedną z głównych wad JoinMarket jest jego złożoność, która wymaga pewneg
 ![BTC204](assets/pl/137.webp)
 
 
-Źródło: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Źródło: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Bariera techniczna pozostaje jednak główną przeszkodą. W ekosystemie CoinJoin, w którym poufność jest wzmacniana przez liczbę uczestników, wszelkie ograniczenia zmniejszające dostępność bezpośrednio wpływają na dostępną płynność, która jest kluczowym czynnikiem wpływającym na efektywność miksu. Bitcoin, będąc już niszą w transakcjach finansowych, postrzega wykorzystanie coinjoinów jako pod-niszę, a JoinMarket reprezentuje jeszcze bardziej wyspecjalizowaną jej część, co ogranicza jej potencjał do zwiększania anonsów użytkowników.

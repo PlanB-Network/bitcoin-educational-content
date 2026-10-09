@@ -514,7 +514,7 @@ Hierbij vervang je f8a43fc363ea428db5c53b3559935f1f door de waarde die voor de n
 ##### LNURL voor een bliksem-Address vice versa
 
 
-Probeer deze [encoder](https://lnurl-codec.netlify.app/) van fiatjaf of [deze](https://lightningdecoder.com/). Voor het betalen of controleren van een LNURLp kun je ook [LNurlpay](https://wwww.lnurlpay.com/) gebruiken. Er moet HTTPS op staan NIET HTTP.
+Probeer deze [encoder](https://lnurl-codec.netlify.app/) van fiatjaf of [deze](https://lightningdecoder.com/). Voor het betalen of controleren van een LNURLp kun je ook [LNurlpay](https://www.lnurlpay.com/) gebruiken. Er moet HTTPS op staan NIET HTTP.
 
 
 

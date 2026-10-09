@@ -56,7 +56,7 @@ Teraz, gdy mamy już zarys RoninDojo, zobaczmy razem, jak skonfigurować ten wę
 
 ## Jaki sprzęt wybrać do instalacji RoninDojo v2?
 
-RoninDojo oferuje obraz do automatycznej instalacji swojego oprogramowania na [RockPro64](https://ronindojo.io/en/download). Nasz poradnik skupia się jednak na procedurze ręcznej instalacji na Raspberry Pi 4. Chociaż Raspberry Pi 5 zostało niedawno wprowadzone na rynek, a ten samouczek teoretycznie powinien być kompatybilny z tym nowym modelem, nie miałem jeszcze okazji przetestować go osobiście i nie znalazłem żadnych opinii od społeczności. Jak tylko zdobędę Pi 5 i kompatybilne z nim komponenty, zaktualizuję ten poradnik, by informować cię na bieżąco. W międzyczasie zalecam priorytetowe traktowanie Pi 4, ponieważ działa idealnie dla mojego węzła.
+RoninDojo oferuje obraz do automatycznej instalacji swojego oprogramowania na [RockPro64](https://ronindojo.io/downloads). Nasz poradnik skupia się jednak na procedurze ręcznej instalacji na Raspberry Pi 4. Chociaż Raspberry Pi 5 zostało niedawno wprowadzone na rynek, a ten samouczek teoretycznie powinien być kompatybilny z tym nowym modelem, nie miałem jeszcze okazji przetestować go osobiście i nie znalazłem żadnych opinii od społeczności. Jak tylko zdobędę Pi 5 i kompatybilne z nim komponenty, zaktualizuję ten poradnik, by informować cię na bieżąco. W międzyczasie zalecam priorytetowe traktowanie Pi 4, ponieważ działa idealnie dla mojego węzła.
 
 Ze swojej strony uruchamiam RoninDojo na Raspberry Pi wyposażonym w 8 GB pamięci RAM. Chociaż niektórym członkom społeczności udało się uruchomić go na urządzeniach z zaledwie 4 GB pamięci RAM, to sam nie testowałem takiej konfiguracji. Biorąc pod uwagę niewielką różnicę w cenie, rozsądne wydaje się wybranie wersji z 8 GB pamięci RAM. Może to również okazać się przydatne, jeśli planujesz zmienić przeznaczenie swojego Raspberry Pi do innych zastosowań w przyszłości.
 
@@ -824,7 +824,7 @@ Jeśli chodzi o inne zakładki dostępne na pulpicie nawigacyjnym RoninUI:
 - `Ustawienia`: Umożliwia zmianę hasła użytkownika.
 
 
-I gotowe! Dziękuję za przeczytanie tego poradnika do końca. Jeśli Ci się podobał, zachęcam do udostępnienia go w mediach społecznościowych. Ponadto, jeśli masz taką możliwość, rozważ wsparcie deweloperów, którzy udostępniają te darmowe i otwarte oprogramowanie naszej społeczności, przekazując darowiznę: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Aby pogłębić swoją wiedzę na temat RoninDojo i odkryć więcej zasobów, gorąco polecam zapoznanie się z linkami do zewnętrznych zasobów wymienionych poniżej.
+I gotowe! Dziękuję za przeczytanie tego poradnika do końca. Jeśli Ci się podobał, zachęcam do udostępnienia go w mediach społecznościowych. Ponadto, jeśli masz taką możliwość, rozważ wsparcie deweloperów, którzy udostępniają te darmowe i otwarte oprogramowanie naszej społeczności, przekazując darowiznę: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Aby pogłębić swoją wiedzę na temat RoninDojo i odkryć więcej zasobów, gorąco polecam zapoznanie się z linkami do zewnętrznych zasobów wymienionych poniżej.
 
 
 **Zasoby zewnętrzne:**
@@ -834,4 +834,4 @@ I gotowe! Dziękuję za przeczytanie tego poradnika do końca. Jeśli Ci się po
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)

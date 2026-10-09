@@ -196,7 +196,7 @@ Cliquez sur "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Vous pouvez utiliser la base de QR code fournie dans la boîte du Jade Plus. Sélectionnez le carton adapté selon que vous avez opté pour une phrase de 12 ou de 24 mots. Vous pouvez également [imprimer le gabarit depuis le site de Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Vous pouvez utiliser la base de QR code fournie dans la boîte du Jade Plus. Sélectionnez le carton adapté selon que vous avez opté pour une phrase de 12 ou de 24 mots. Vous pouvez également [imprimer le gabarit depuis le site de Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Votre Jade Plus affichera chaque zone de votre QR code.
 

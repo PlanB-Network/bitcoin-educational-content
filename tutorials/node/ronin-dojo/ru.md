@@ -58,7 +58,7 @@ RoninDojo предлагает меньше инструментов по сра
 
 Как было сказано ранее, самым простым выбором является заказ Tanto, машины plug-and-play, специально предназначенной для этой цели. Чтобы заказать свою, перейдите сюда: [ссылка](https://shop.ronindojo.io/product-category/nodes/).
 
-Поскольку команды RoninDojo производят открытый код, также возможно реализовать RoninDojo на других машинах. Вы можете найти последние версии мастера установки на этой странице: [ссылка](https://ronindojo.io/en/downloads.html), и последние версии кода на этой странице: [ссылка](https://code.samourai.io/ronindojo/RoninDojo).
+Поскольку команды RoninDojo производят открытый код, также возможно реализовать RoninDojo на других машинах. Вы можете найти последние версии мастера установки на этой странице: [ссылка](https://ronindojo.io/downloads), и последние версии кода на этой странице: [ссылка](https://code.samourai.io/ronindojo/RoninDojo).
 
 Лично я установил его на Raspberry Pi 4 8GB и все работает идеально.
 
@@ -80,13 +80,13 @@ RoninDojo предлагает меньше инструментов по сра
 
 После сборки вашей машины вы можете начать установку RoninDojo. Для этого начните с создания загрузочной микро SD карты, записав на нее соответствующий образ диска.
 
-Вставьте вашу микро SD карту в ваш личный компьютер, затем перейдите на официальный сайт RoninDojo, чтобы скачать образ диска RoninOS: https://ronindojo.io/en/downloads.html.
+Вставьте вашу микро SD карту в ваш личный компьютер, затем перейдите на официальный сайт RoninDojo, чтобы скачать образ диска RoninOS: https://ronindojo.io/downloads.
 Загрузите образ диска, соответствующий вашему оборудованию. В моем случае я загрузил образ "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ":
 ![Загрузка образа диска RoninOS](assets/2.webp)
 
 После загрузки образа проверьте его целостность с помощью соответствующего файла .SHA256. Я подробно опишу, как это сделать, в этой статье: Как проверить целостность программного обеспечения Bitcoin на Windows?
 
-Конкретные инструкции по проверке целостности RoninOS также доступны на этой странице: https://wiki.ronindojo.io/en/extras/verify.
+Конкретные инструкции по проверке целостности RoninOS также доступны на этой странице: https://docs.ronindojo.io/install/verify-os/.
 
 Чтобы записать этот образ на вашу micro SD карту, вы можете использовать такое программное обеспечение, как Balena Etcher, которое можно загрузить здесь: https://www.balena.io/etcher/.
 
@@ -336,13 +336,13 @@ RoninOS — это операционная система вашего узла
 Ваш узел RoninDojo также включает WhirlpoolCLI, удаленный интерфейс командной строки для автоматизации смешивания в Whirlpool.
 Когда вы выполняете CoinJoin с использованием реализации Whirlpool, приложение, которое вы используете, должно оставаться открытым, чтобы выполнять смешивания и повторные смешивания. Этот процесс может быть утомительным для пользователей, которые хотят иметь высокие анонимные наборы, поскольку устройство, на котором размещено приложение с Whirlpool, должно постоянно оставаться включенным. На практике это означает, что если вы хотите вовлекать ваши UTXO в круглосуточные повторные смешивания, вам нужно будет постоянно держать ваш личный компьютер или телефон включенным с открытым приложением.
 Одним из решений этой проблемы является использование WhirlpoolCLI на машине, которая предназначена для постоянной работы, например, на Bitcoin-ноде. С его помощью наши UTXO могут быть пересмешаны 24/7 без необходимости держать включенной другую машину, кроме нашей Bitcoin-ноды.
-WhirlpoolCLI используется с WhirlpoolGUI, графическим интерфейсом, который устанавливается на личный компьютер для удобного управления Coinjoin. В этой статье я подробно объясню, как настроить Whirlpool CLI со своим собственным dojo: [ссылка](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI используется с WhirlpoolGUI, графическим интерфейсом, который устанавливается на личный компьютер для удобного управления Coinjoin. В этой статье я подробно объясню, как настроить Whirlpool CLI со своим собственным dojo: [ссылка](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
-Чтобы узнать больше о Coinjoin в целом, я объясняю все в этой статье: [ссылка](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
+Чтобы узнать больше о Coinjoin в целом, я объясняю все в этой статье: [ссылка](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 ### Использование инструмента Whirlpool Stat Tool.
 
-После выполнения CoinJoins с Whirlpool вы можете захотеть узнать фактический уровень конфиденциальности ваших смешанных UTXO. Инструмент Whirlpool Stat Tool позволяет вам легко это сделать. С помощью этого инструмента вы можете рассчитать перспективный и ретроспективный баллы ваших смешанных UTXO. Чтобы узнать больше о расчете этих анонимных наборов и о том, как они работают, я рекомендую прочитать этот раздел: [ссылка](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+После выполнения CoinJoins с Whirlpool вы можете захотеть узнать фактический уровень конфиденциальности ваших смешанных UTXO. Инструмент Whirlpool Stat Tool позволяет вам легко это сделать. С помощью этого инструмента вы можете рассчитать перспективный и ретроспективный баллы ваших смешанных UTXO. Чтобы узнать больше о расчете этих анонимных наборов и о том, как они работают, я рекомендую прочитать этот раздел: [ссылка](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 Инструмент предустановлен на вашем RoninDojo. Пока он доступен только из RoninCLI. Чтобы запустить его из главного меню, перейдите к:
 
@@ -399,7 +399,7 @@ WhirlpoolCLI используется с WhirlpoolGUI, графическим и
 
 Обратите внимание, что проспективный рейтинг вашего UTXO рассчитывается на основе TXID вашего первоначального микса, а не вашего последнего микса. В свою очередь, ретроспективный рейтинг UTXO рассчитывается на основе TXID последнего цикла.
 
-Еще раз, если вы не понимаете эти концепции Anon Sets, я рекомендую прочитать эту часть моей статьи о Coinjoin, где я объясняю все подробно с диаграммами: [https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Еще раз, если вы не понимаете эти концепции Anon Sets, я рекомендую прочитать эту часть моей статьи о Coinjoin, где я объясняю все подробно с диаграммами: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 ### Использование калькулятора Больцмана.
 
@@ -638,7 +638,7 @@ Bisq обеспечивает обмен между пользователями
 
 Если использование терминала вас не пугает и если вам не нужны инструменты, связанные с сетью Lightning, тогда RoninDojo может вас заинтересовать.
 
-Если можете, рассмотрите возможность пожертвования разработчикам, которые бесплатно создают эти программы с открытым исходным кодом для вас: https://donate.ronindojo.io/
+Если можете, рассмотрите возможность пожертвования разработчикам, которые бесплатно создают эти программы с открытым исходным кодом для вас: https://docs.ronindojo.io/main/donations/
 
 Чтобы узнать больше о RoninDojo, рекомендую ознакомиться со ссылками в моих внешних ресурсах ниже.
 
@@ -655,5 +655,5 @@ Bisq обеспечивает обмен между пользователями
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

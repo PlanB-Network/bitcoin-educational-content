@@ -755,7 +755,7 @@ Block reward는 [블록 보조금](https://planb.academy/resources/glossary/bloc
 - 블록 보조금이 0이고 Mempool가 비어 있거나 거의 비어 있으면 수수료 스나이핑으로 인해 상황이 불안정해질 수 있습니다.
 
 
-유료 Block reward으로의 전환은 아직 먼 미래의 일이기 때문에 섣불리 결론을 내리지 말고 가능한 한 잠재적인 문제를 해결하려고 노력하는 것이 현명할 수 있습니다. 예를 들어, 피터 토드는 Bitcoin의 보안 예산이 향후 충분하지 않을 위험이 있다고 생각하며, 따라서 Bitcoin의 영구적인 인플레이션을 주장합니다. 그러나 그는 또한 [Bitcoin이 한 일 팟캐스트](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin)에서 말한 것처럼 현재로서는 이 문제를 논의하는 것이 좋은 생각이 아니라고 생각합니다:
+유료 Block reward으로의 전환은 아직 먼 미래의 일이기 때문에 섣불리 결론을 내리지 말고 가능한 한 잠재적인 문제를 해결하려고 노력하는 것이 현명할 수 있습니다. 예를 들어, 피터 토드는 Bitcoin의 보안 예산이 향후 충분하지 않을 위험이 있다고 생각하며, 따라서 Bitcoin의 영구적인 인플레이션을 주장합니다. 그러나 그는 또한 [Bitcoin이 한 일 팟캐스트](https://www.youtube.com/watch?v=8yah3N9n84k)에서 말한 것처럼 현재로서는 이 문제를 논의하는 것이 좋은 생각이 아니라고 생각합니다:
 
 
 > 하지만 이는 10년, 20년 후의 일입니다. 아주 긴 시간이죠. 그때까지 어떤 위험이 있을지 누가 알 수 있을까요?
@@ -851,7 +851,7 @@ Bitcoin은 Genesis 블록이 만들어졌을 때와 현재가 다릅니다. 수�
 
 > 샤오린프라이가 제안한 대안은 사용자 활성화 Soft Fork(UASF)이었습니다. 사용자 활성화 Soft Fork은 Hash 전원 활성화 대신 "미래의 미리 정해진 시간에 노드가 시행을 시작하는 '플래그 데이 활성화'를 수행합니다." 경제적 다수에 의해 이러한 UASF가 시행되는 한, 대다수의 채굴자가 Soft Fork을 따르거나 활성화하도록 강제할 수 있습니다.
 
-무엇보다도 그는 Bitcoin 개발 메일링 리스트에 보낸 Shaolinfry의 이메일을 인용합니다. 당시 Shaolinfry는 Miner 포크에 대한 여러 가지 문제점을 나열하면서 [Soft 포크 활성화에 반대]했습니다(https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html):
+무엇보다도 그는 Bitcoin 개발 메일링 리스트에 보낸 Shaolinfry의 이메일을 인용합니다. 당시 Shaolinfry는 Miner 포크에 대한 여러 가지 문제점을 나열하면서 [Soft 포크 활성화에 반대]했습니다(https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/):
 
 
 > 첫째, 활성화 후 Hash 파워가 유효성을 검사할 것이라는 믿음이 필요합니다.  BIP66 Soft Fork의 경우 Hashrate의 95%가 준비 신호를 보냈지만 실제로는 약 절반이 업그레이드된 규칙을 실제로 검증하지 않았고 실수로 유효하지 않은 블록을 채굴한 사례입니다.
@@ -884,7 +884,7 @@ SegWit 배포 이후, 배포 메커니즘에 대한 논의가 시작되었습니
 
 > 언젠가는 Bitcoin 프로토콜에 더 많은 기능을 추가하고 싶을 것입니다. 이것은 우리가 스스로에게 던지는 큰 철학적 질문입니다. 다음에는 UASF를 사용할까요? 하이브리드 접근 방식은 어떨까요? Miner 자체 활성화는 배제되었습니다. bip9는 다시 사용하지 않을 것입니다.
 
-2020년 1월, 매트 코랄로는 Bitcoin 개발 메일링 리스트에 [이메일](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2020-January/017547.html)을 보내 향후 Soft Fork 배포 메커니즘에 대한 토론을 시작했습니다. 그는 업그레이드에 필수적이라고 생각되는 다섯 가지 목표를 나열했습니다. 데이비드 하딩은 [Bitcoin 옵텍 뉴스레터](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms)에서 이를 다음과 같이 요약했습니다:
+2020년 1월, 매트 코랄로는 Bitcoin 개발 메일링 리스트에 [이메일](https://gnusha.org/pi/bitcoindev/4a132f8a-22e3-8e31-e338-bed9ef46d2ef@mattcorallo.com/)을 보내 향후 Soft Fork 배포 메커니즘에 대한 토론을 시작했습니다. 그는 업그레이드에 필수적이라고 생각되는 다섯 가지 목표를 나열했습니다. 데이비드 하딩은 [Bitcoin 옵텍 뉴스레터](https://bitcoinops.org/en/newsletters/2020/01/15/#discussion-of-Soft-Fork-activation-mechanisms)에서 이를 다음과 같이 요약했습니다:
 
 
 > 제안된 합의 규칙 변경에 대해 심각한 이의가 제기될 경우 중단할 수 있는 기능. 업데이트된 소프트웨어 출시 후 대부분의 경제 노드가 해당 규칙을 적용하기 위해 업그레이드될 수 있도록 충분한 시간을 할당합니다. 네트워크 Hash 속도가 변경 전후 및 전환 중에 거의 동일 할 것이라는 기대. 새로운 규칙에 따라 유효하지 않은 블록이 생성되는 것을 최대한 방지하여 업그레이드되지 않은 노드 및 SPV 클라이언트에서 잘못된 확인을 초래할 수 있습니다. 그리퍼나 당파가 알려진 문제없이 널리 원하는 업그레이드를 보류하기 위해 중단 메커니즘을 오용하지 못하도록 보장합니다
@@ -956,7 +956,7 @@ SegWit 배포 이후, 배포 메커니즘에 대한 논의가 시작되었습니
 
 "무슨 일이 일어나는지 보자"는 접근 방식이 마침내 사람들의 마음을 사로잡은 것 같았습니다. 이 프로세스는 짧은 신호 기간으로 인해 나중에 "신속한 시험"으로 분류되었습니다. 데이비드 하딩은 이 아이디어를 더 넓은 커뮤니티에 설명합니다
 
-[Bitcoin-dev 메일링 리스트에 이메일 보내기](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-March/018583.html):
+[Bitcoin-dev 메일링 리스트에 이메일 보내기](https://gnusha.org/pi/bitcoindev/20210306034343.fhwrxmq6gbb2os5m@ganymede/):
 
 > 이 제안의 이전 버전은 200일 전에 문서화되었고, Taproot의 기본 코드는 140일 전에 Bitcoin core에 병합되었습니다. 만약 Taproot가 병합된 시점에 Speedy Trial을 시작했다면(다소 비현실적이지만), 두 달이 채 되지 않았거나 다음 활성화 시도로 넘어갔을 때 이미 한 달 이상 지났을 것입니다.
 >
@@ -1380,7 +1380,7 @@ Bitcoin의 지속적인 성공에 관심이 있는 기업, 개인, 단체는 직
 사람들은 때때로 Bitcoin 개발자들 사이에 내분이 많고 끝없는 격론이 벌어지며 의사 결정을 내리지 못한다는 인상을 받기도 합니다.
 
 
-예를 들어, Taproot 배포 메커니즘은 오랜 기간에 걸쳐 논의되었으며, 이 과정에서 두 개의 '진영'이 형성되었습니다. 한 진영은 특정 시점 이후에도 [채굴자](https://planb.academy/resources/glossary/miner)들이 압도적으로 새 규칙에 찬성하지 않으면 업그레이드를 '실패'시키기를 원했고, 다른 진영은 그 시점 이후에는 무슨 일이 있어도 규칙을 시행하길 원했습니다. 마이클 포크슨이 Bitcoin 개발 메일링 리스트에 보낸 [이메일](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2021-February/018380.html)에서 두 진영의 주장을 요약해 보았습니다.
+예를 들어, Taproot 배포 메커니즘은 오랜 기간에 걸쳐 논의되었으며, 이 과정에서 두 개의 '진영'이 형성되었습니다. 한 진영은 특정 시점 이후에도 [채굴자](https://planb.academy/resources/glossary/miner)들이 압도적으로 새 규칙에 찬성하지 않으면 업그레이드를 '실패'시키기를 원했고, 다른 진영은 그 시점 이후에는 무슨 일이 있어도 규칙을 시행하길 원했습니다. 마이클 포크슨이 Bitcoin 개발 메일링 리스트에 보낸 [이메일](https://gnusha.org/pi/bitcoindev/CAFvNmHSnd4OM+c0_L8fFXRNrxo23WdQpNdBjTJjhmGuHumgLDA@mail.gmail.com/)에서 두 진영의 주장을 요약해 보았습니다.
 
 
 논쟁은 영원히 계속될 것 같았고, 이에 대한 합의가 조만간 형성될 것으로 예상되는 것은 정말 Hard이었습니다. 이로 인해 사람들은 좌절감을 느꼈고 그 결과 열기는 더욱 뜨거워졌습니다. 그레고리 맥스웰(사용자 nullc)은 [Reddit에서](https://www.reddit.com/r/Bitcoin/comments/hrlpnc/technical_taproot_why_activate/fyqbn8s/?utm_source=share&utm_medium=web2x&context=3) 긴 토론으로 인해 업그레이드의 안전성이 떨어질까 봐 걱정했습니다:
@@ -1482,7 +1482,7 @@ Bitcoin의 맥락에서, 그리고 이 책의 목적을 위해 확장이란 *검
 2015년 몬트리올에서 [Scaling Bitcoin](https://scalingbitcoin.org/)이라는 컨퍼런스가 열렸고, 6개월 후 홍콩과 그 이후 전 세계 여러 지역에서 후속 컨퍼런스가 열렸습니다. 이 컨퍼런스의 초점은 정확히 Address을 확장하는 방법에 맞춰져 있었습니다. 이 컨퍼런스에는 많은 Bitcoin 개발자와 기타 열성적인 사람들이 모여 다양한 확장 문제와 제안을 논의했습니다. 이러한 논의의 대부분은 블록 크기 증가에 관한 것이 아니라 보다 장기적인 해결책에 관한 것이었습니다.
 
 
-2015년 12월 홍콩 컨퍼런스 이후, 그레고리 맥스웰은 몇 가지 일반적인 확장 철학부터 시작하여 논의되었던 많은 이슈에 대해 [자신의 견해를 요약](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-December/011865.html)했습니다:
+2015년 12월 홍콩 컨퍼런스 이후, 그레고리 맥스웰은 몇 가지 일반적인 확장 철학부터 시작하여 논의되었던 많은 이슈에 대해 [자신의 견해를 요약](https://gnusha.org/pi/bitcoindev/CAAS2fgQyVs1fAEj+vqp8E2=FRnqsgs7VUKqALNBHNxRMDsHdVg@mail.gmail.com/)했습니다:
 
 
 > 현재 사용 가능한 기술에는 규모와 탈중앙화 사이에 근본적인 절충점이 존재합니다. 시스템이 너무 비싸면 사람들은 시스템의 규칙을 독립적으로 시행하기보다는 제3자를 신뢰하게 될 것입니다. 사용 가능한 기술에 비해 Bitcoin Blockchain의 리소스 사용량이 너무 많으면 검증에 너무 많은 비용이 들기 때문에(많은 사용자가 비용을 지불해야 하기 때문에) 레거시 시스템에 비해 경쟁 우위를 잃게 되고 신뢰를 시스템에 다시 강요당하게 됩니다.  용량이 너무 적고 거래 방식이 너무 비효율적이라면 분쟁 해결을 위해 체인에 액세스하는 데 너무 많은 비용이 들기 때문에 다시 신뢰를 시스템으로 되돌려야 합니다.
@@ -1730,7 +1730,7 @@ Bitcoin는 사람이 만듭니다. 사람들이 소프트웨어를 작성하고 
 즉, 보안 문제를 발견하면 시스템을 담당하는 팀에 보고해야 합니다. 하지만 이것이 Bitcoin의 맥락에서 무엇을 의미할까요? Bitcoin를 관리하는 사람은 없지만 현재 Bitcoin 개발을 위한 중심점, 즉 [Bitcoin core Github 리포지토리](https://github.com/Bitcoin/Bitcoin)가 있습니다. 해당 리포지토리의 관리자는 리포지토리의 코드에 대한 책임은 있지만 시스템 전체에 대한 책임은 없습니다. 그럼에도 불구하고 일반적인 모범 사례는 security@bitcoincore.org 으로 이메일을 보내는 것입니다.
 
 
-2017년의 "책임감 있는 버그 공개"라는 제목의 [이메일 스레드](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/015002.html)에서 앤서니 타운스는 현재 모범 사례로 인식되는 것을 요약하려고 했습니다. 그는 이 주제에 대한 자신의 견해를 알리기 위해 여러 출처와 다양한 사람들로부터 의견을 수집했습니다.
+2017년의 "책임감 있는 버그 공개"라는 제목의 [이메일 스레드](https://gnusha.org/pi/bitcoindev/20170914052740.GA2674@erisian.com.au/)에서 앤서니 타운스는 현재 모범 사례로 인식되는 것을 요약하려고 했습니다. 그는 이 주제에 대한 자신의 견해를 알리기 위해 여러 출처와 다양한 사람들로부터 의견을 수집했습니다.
 
 
 
@@ -1753,12 +1753,12 @@ Bitcoin는 사람이 만듭니다. 사람들이 소프트웨어를 작성하고 
 이 목록은 패치 자체가 취약점을 노출할 수 있기 때문에 Bitcoin에 대한 패치를 게시할 때 얼마나 주의해야 하는지 보여줍니다. 네 번째 글머리 기호는 패치가 충분히 잘 위장되었는지 테스트하는 방법을 설명하기 때문에 특히 흥미롭습니다. 실제로 경험이 많은 몇몇 개발자가 패치가 취약점을 수정한다는 사실을 알고도 취약점을 발견하지 못한다면 다른 개발자가 발견하는 것은 진짜 Hard이 될 것입니다.
 
 
-이 이메일로 이어진 스레드에서는 알트코인 및 기타 Bitcoin 구현에 대한 취약점을 공개할지 여부, 시기, 방법에 대해 논의하고 있었습니다. 여기에는 명확한 답이 없습니다. "선한 사람들을 돕는 것"은 합리적인 일처럼 보이지만, 선한 사람들이 누구인지 누가 결정하고 어디에 선을 그어야 할까요? 브라이언 비숍은 [주장](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html)에서 알트코인과 심지어 스캠코인까지 보안 공격으로부터 스스로를 방어하도록 돕는 것은 도덕적 의무라고 주장했습니다:
+이 이메일로 이어진 스레드에서는 알트코인 및 기타 Bitcoin 구현에 대한 취약점을 공개할지 여부, 시기, 방법에 대해 논의하고 있었습니다. 여기에는 명확한 답이 없습니다. "선한 사람들을 돕는 것"은 합리적인 일처럼 보이지만, 선한 사람들이 누구인지 누가 결정하고 어디에 선을 그어야 할까요? 브라이언 비숍은 [주장](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/)에서 알트코인과 심지어 스캠코인까지 보안 공격으로부터 스스로를 방어하도록 돕는 것은 도덕적 의무라고 주장했습니다:
 
 
 > Bitcoin와 그 사용자를 활성 위협으로부터 보호하는 것만으로는 충분하지 않으며, 사용자가 개인적으로 유지 관리하거나 기여하거나 옹호하지 않는 어리석고 안전하지 않은 소프트웨어를 사용하더라도 모든 종류의 사용자와 다양한 소프트웨어를 어떤 형태의 위협으로부터 보호해야 할 보다 일반적인 책임이 있습니다. 취약점에 대한 지식을 다루는 것은 섬세한 문제이며 원래 설명한 것보다 직간접적으로 더 심각한 영향을 미칠 수 있는 지식을 받게 될 수도 있습니다.
 
-또한 위 타운의 이메일에 앞서 그레고리 맥스웰의 [게시물](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014977.html)을 통해 보안 취약성이 겉으로 보이는 것보다 더 심각할 수 있다고 주장했습니다:
+또한 위 타운의 이메일에 앞서 그레고리 맥스웰의 [게시물](https://gnusha.org/pi/bitcoindev/CAAS2fgRD_poPjFaG6QD3L7R1GYKEO5LikrzXz+niBFBPbLCRQg@mail.gmail.com/)을 통해 보안 취약성이 겉으로 보이는 것보다 더 심각할 수 있다고 주장했습니다:
 
 
 > 올바른 트릭을 찾으면 Hard 익스플로잇 문제가 사소한 것으로 판명되거나 사소한 도스 문제가 훨씬 더 심각한 문제로 바뀌는 것을 여러 번 목격했습니다.
@@ -2031,7 +2031,7 @@ BIP은 2015년 7월 4일에 활성화되었습니다. 그러나 위의 내용은
 
 이 문제에 대한 전체 공개는 2015년 7월 28일 Pieter Wuille에 의해 게시되었습니다
 
-[Bitcoin-dev 메일링 리스트에 이메일 보내기](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html):
+[Bitcoin-dev 메일링 리스트에 이메일 보내기](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/):
 
 
 > 안녕하세요,
@@ -2066,7 +2066,7 @@ BIP66을 둘러싼 사건의 타임라인. 검은색으로 표시된 항목은 �
 아무도 이 문제에 대해 알지 못했다면, 트랜잭션 위변조 가능성을 줄이기 위한 제안인 현재 확대된 BIP62로 해결할 수 있었을 것입니다. BIP62에서 제안된 변경 사항 중에는 서명 인코딩에 대한 합의 규칙, 즉 "엄격한 [DER](https://planb.academy/resources/glossary/der) 인코딩"의 강화가 포함되어 있었습니다. 피터 우일은 2014년 7월에 이 문제를 해결할 수 있는 BIP에 대한 몇 가지 조정을 제안했습니다:
 
 
-> 2014-Jul-18: Bitcoin의 서명 인코딩 규칙이 OpenSSL의 특정 파서에 의존하지 않도록 하기 위해, 저는 엄격한 DER 서명 요구 사항이 버전 1 트랜잭션에도 적용되도록 BIP62 제안을 수정했습니다. 당시에는 더 이상 비 DER 서명이 블록으로 채굴되지 않았기 때문에 이는 아무런 영향을 미치지 않는다고 가정했습니다. Https://github.com/Bitcoin/BIPs/pull/90 및 http://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2014-July/006299.html 참조. 당시에는 알려지지 않았지만, 배포되었다면 이 취약점이 해결되었을 것입니다.
+> 2014-Jul-18: Bitcoin의 서명 인코딩 규칙이 OpenSSL의 특정 파서에 의존하지 않도록 하기 위해, 저는 엄격한 DER 서명 요구 사항이 버전 1 트랜잭션에도 적용되도록 BIP62 제안을 수정했습니다. 당시에는 더 이상 비 DER 서명이 블록으로 채굴되지 않았기 때문에 이는 아무런 영향을 미치지 않는다고 가정했습니다. Https://github.com/Bitcoin/BIPs/pull/90 및 https://gnusha.org/pi/bitcoindev/CAPg+sBiTURdRAZbyk3guF5YzAAQebo8yY_TuXHUKYDEdLjDUdQ@mail.gmail.com/ 참조. 당시에는 알려지지 않았지만, 배포되었다면 이 취약점이 해결되었을 것입니다.
 
 이 BIP는 "엄격한 DER 인코딩" 이상의 광범위한 내용을 다루었기 때문에 끊임없이 변경되었고 배포에 근접하지 못했습니다. 이후 분리된 증인인 BIP141이 [트랜잭션 가변성](https://planb.academy/resources/glossary/malleability-transaction)을 보다 완벽하고 다른 방식으로 해결했기 때문에 BIP는 철회되었습니다.
 
@@ -2075,7 +2075,7 @@ BIP66을 둘러싼 사건의 타임라인. 검은색으로 표시된 항목은 �
 
 
 
-OpenSSL은 처음부터 Bitcoin에서 사용했다면 이 문제를 해결할 수 있는 패치가 포함된 새 버전의 소프트웨어를 출시했습니다. 하지만 새 버전의 OpenSSL을 Bitcoin core의 새 릴리스에서만 사용하면 문제가 더 악화될 수 있습니다. 그레고리 맥스웰은 2015년 1월에 다른 [이메일 스레드](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-January/007097.html)에서 이에 대해 설명했습니다:
+OpenSSL은 처음부터 Bitcoin에서 사용했다면 이 문제를 해결할 수 있는 패치가 포함된 새 버전의 소프트웨어를 출시했습니다. 하지만 새 버전의 OpenSSL을 Bitcoin core의 새 릴리스에서만 사용하면 문제가 더 악화될 수 있습니다. 그레고리 맥스웰은 2015년 1월에 다른 [이메일 스레드](https://gnusha.org/pi/bitcoindev/CAAS2fgR2a+3wb+He611pxy_Ypur0gq+o7SRjUHa4-R+xHLLnyA@mail.gmail.com/)에서 이에 대해 설명했습니다:
 
 
 > 대부분의 애플리케이션에서는 일반적으로 일부 서명을 거부하는 것이 허용되지만, Bitcoin은 모든 참여자가 입력 데이터의 정확한 유효성 또는 무효성에 대해 일반적으로 동의해야 하는 합의 시스템입니다.  어떤 의미에서는 '정확성'보다 '일관성'이 더 중요합니다.

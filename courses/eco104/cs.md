@@ -744,7 +744,7 @@ V této sekci se ponoříme do různých vrstev transakcí, ať už v fiat měn�
 
 Blockchain Bitcoinu je složen z bloků, jak již název napovídá. Tyto bloky mají teoretickou maximální velikost 4 megabajty. _To řečeno, průměrná velikost bloku v době psaní tohoto textu je kolem 1,5mb._ Kvůli tomuto limitu existuje omezení, kolik transakcí Bitcoin může zpracovat za sekundu, což je mezi sedmi a deseti transakcemi za sekundu (tps).
 
-Proto se možná ptáte: Jak může blockchain Bitcoinu vůbec konkurovat sítím jako Visa nebo Mastercard, které transakují s [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Proto se možná ptáte: Jak může blockchain Bitcoinu vůbec konkurovat sítím jako Visa nebo Mastercard, které transakují s [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Odpověď je jednoduchá. Nekonkuruje jim.
 Porovnávat blockchain Bitcoinu s Visa nebo Mastercard je jako porovnávat mezinárodní kontejnerovou loď s pokladnou v místním železářství. Kontejnerová loď je určena pro nečasté hromadné transakce, zatímco pokladna je postavena na vysokofrekvenčních, malých transakcích. Ačkoli obě přesouvají zboží, jejich porovnání je jako porovnávat jablka s pomeranči.
@@ -1055,14 +1055,14 @@ Pravděpodobně se ptáte: Kde je problém?
 
 Poslat peníze zpět do zahraničí prostřednictvím služby pro převod peněz, jako je Western Union, není zdarma. Stojí to peníze, a to ne jen málo, ale významnou částku.
 
-Odeslání 100 amerických dolarů zpět do Tongy stojí [12,61 dolaru](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus další ztráta 8,60 dolaru kvůli nevýhodnému směnnému kurzu. To znamená, že více než 21% celkové odeslané částky jde na Western Union, nadnárodní korporaci. V důsledku toho značná suma, která mohla být v rukou zasloužilých tongánských rodin, skončí v kapsách poskytovatele služby převodu peněz.
+Odeslání 100 amerických dolarů zpět do Tongy stojí [12,61 dolaru](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus další ztráta 8,60 dolaru kvůli nevýhodnému směnnému kurzu. To znamená, že více než 21% celkové odeslané částky jde na Western Union, nadnárodní korporaci. V důsledku toho značná suma, která mohla být v rukou zasloužilých tongánských rodin, skončí v kapsách poskytovatele služby převodu peněz.
 Dokážete si představit výhody, které by přineslo přidání dalších 21% k vašemu příjmu?
 
 Navíc, vzhledem k tomu, že HDP Tongy bylo v roce 2021 [469](https://tradingeconomics.com/tonga/gdp) milionů dolarů a 45,5% z toho pochází z remitencí, znamenají exorbitantní poplatky za posílání peněz domů, že Tonga přichází o dalších 45,2 milionu dolarů. Tato částka by znamenala 9,6% nárůst HDP, kdyby nebylo těchto poplatků.
 
 A pokud si myslíte, že Tonga je v tomto sama, hádejte znovu.
 
-Zde je ukázka, kolik Western Union [účtuje](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za odeslání 100 amerických dolarů do některých dalších významných zemí:
+Zde je ukázka, kolik Western Union [účtuje](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za odeslání 100 amerických dolarů do některých dalších významných zemí:
 
 - **Čína:** poplatek 21,21 dolaru + ztráta na směnném kurzu 2,60 dolaru (23,81% ztráta)
 - **Kanada, USA, Mexiko:** poplatek 16,86 dolaru + ztráta na směnném kurzu 1,20 dolaru (18,06% ztráta)
@@ -1270,8 +1270,8 @@ Ale Bitcoin také konkuruje metodám transakcí vrstvy dvě, s technologiemi jak
 #### Omyl šest: Bitcoin je hlavně používán pro nelegální aktivity
 
 Přes mnohé studie, které vyvracejí falešná tvrzení, je Bitcoin stále často kritizován jako primárně používaný pro nelegální aktivity. Opět, toto nemůže být dále od pravdy.
-Jedna [studie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) provedená bývalým zástupcem ředitele CIA zjistila, že "obecné závěry o používání Bitcoinu pro nelegální financování jsou výrazně přehnané." Ve skutečnosti od roku 2016 bylo pro nelegální aktivity použito méně než 1 % celkového objemu transakcí Bitcoinu. Pro srovnání, "někteří odhadují podzemní ekonomiku na 11 % až 12 % hrubého domácího [produktu](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) USA," přičemž většina je realizována prostřednictvím amerického dolaru.
-A podle zprávy společnosti Chainalysis v roce 2020 nelegální aktivity tvoří pouze asi [0,34 %](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) všech transakcí Bitcoinu.
+Jedna [studie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) provedená bývalým zástupcem ředitele CIA zjistila, že "obecné závěry o používání Bitcoinu pro nelegální financování jsou výrazně přehnané." Ve skutečnosti od roku 2016 bylo pro nelegální aktivity použito méně než 1 % celkového objemu transakcí Bitcoinu. Pro srovnání, "někteří odhadují podzemní ekonomiku na 11 % až 12 % hrubého domácího [produktu](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp) USA," přičemž většina je realizována prostřednictvím amerického dolaru.
+A podle zprávy společnosti Chainalysis v roce 2020 nelegální aktivity tvoří pouze asi [0,34 %](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) všech transakcí Bitcoinu.
 
 Přesto i přes tyto důkazy pokračují významné osobnosti ve výrokách, které jsou zavádějící, jako například americká ministryně financí Janet Yellenová [tvrdící](https://home.treasury.gov/news/press-releases/jy0023), "Kryptoměny byly použity k praní zisků z online obchodu s drogami; staly se nástrojem k financování terorismu."
 
@@ -1454,7 +1454,7 @@ Nakonec, budoucnost decentralizovaných financí spočívá v těch, kteří jso
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-V dnešním globalizovaném světě je přístup k finančním službám klíčovým prvkem ekonomické účasti a nezávislosti. Přesto je stále příliš mnoho jedinců vyloučeno z tradičního bankovního systému, přičemž ženy často nesou největší břemeno této vyloučenosti. Překvapivě, ačkoliv je zbytečně [jedna čtvrtina](https://www.worldbank.org/en/publication/globalfindex) světové populace bez bankovního účtu, v zemích jako Saúdská Arábie [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žen nemá přístup k základním bankovním službám, což jim brání plně se podílet na ekonomice a společnosti své země.
+V dnešním globalizovaném světě je přístup k finančním službám klíčovým prvkem ekonomické účasti a nezávislosti. Přesto je stále příliš mnoho jedinců vyloučeno z tradičního bankovního systému, přičemž ženy často nesou největší břemeno této vyloučenosti. Překvapivě, ačkoliv je zbytečně [jedna čtvrtina](https://www.worldbank.org/en/publication/globalfindex) světové populace bez bankovního účtu, v zemích jako Saúdská Arábie [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) žen nemá přístup k základním bankovním službám, což jim brání plně se podílet na ekonomice a společnosti své země.
 
 Zde jsou jen některé příklady podmínek, kterým ženy po celém světě stále čelí:
 

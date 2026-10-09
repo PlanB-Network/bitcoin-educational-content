@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Bir Nostr** özel anahtarı (format `nsec1...`)
- - Nostrkeygen.com](https://nostrkeygen.com/) adresinde özel bir ticaret anahtarı oluşturun
+ - Nostrkeygen.com](https://nostrtool.com/) adresinde özel bir ticaret anahtarı oluşturun
  - Önemli**: Ana kişisel Nostr anahtarınızı asla kullanmayın
  - Özel anahtarınızı güvenli bir yerde saklayın (şifre yöneticisi)
 
@@ -962,7 +962,7 @@ Mostro P2P, gerçekten merkezi olmayan ticaret için Lightning Network, Nostr ve
 
 
 - [Ana GitHub deposu](https://github.com/MostroP2P/mostro)
-- [Web istemcisi](https://github.com/MostroP2P/mostro-web)
+- [Web istemcisi](https://github.com/MostroP2P/app)
 - [Müşteri CLI](https://github.com/MostroP2P/mostro-cli)
 
 

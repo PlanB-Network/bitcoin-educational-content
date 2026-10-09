@@ -1914,7 +1914,7 @@ Một trong những nhược điểm chính của JoinMarket là tính phức t�
 
 ![BTC204](assets/vi/137.webp)
 
-Nguồn: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Nguồn: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Tuy nhiên, rào cản kỹ thuật vẫn là một trở ngại lớn. Trong hệ sinh thái coinjoin, nơi tính bảo mật được củng cố bởi số lượng người tham gia, bất kỳ hạn chế nào làm giảm khả năng tiếp cận đều ảnh hưởng trực tiếp đến tính thanh khoản khả dụng, đây là yếu tố quan trọng trong hiệu quả của hỗn hợp. Bitcoin, vốn đã là một thị trường ngách trong các giao dịch tài chính, coi việc sử dụng coinjoins là một thị trường ngách phụ, và JoinMarket đại diện cho một phân khúc thậm chí còn chuyên biệt hơn, do đó hạn chế khả năng tăng số lượng người dùng ẩn danh.
 

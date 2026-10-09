@@ -2703,7 +2703,7 @@ Een van de belangrijkste nadelen van JoinMarket is de complexiteit van het gebru
 ![BTC204](assets/nl/137.webp)
 
 
-Bron : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Bron : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 De technische barrière blijft echter een groot obstakel. In het CoinJoin-ecosysteem, waar vertrouwelijkheid wordt versterkt door het aantal deelnemers, heeft elke beperking van de toegankelijkheid direct invloed op de beschikbare liquiditeit, wat een cruciale factor is voor de efficiëntie van de mix. Bitcoin, dat al een niche in financiële transacties is, ziet het gebruik van coinjoins als een subniche, en JoinMarket vertegenwoordigt een nog meer gespecialiseerde fractie daarvan, waardoor het potentieel om de anonimiteit van zijn gebruikers te vergroten wordt beperkt.

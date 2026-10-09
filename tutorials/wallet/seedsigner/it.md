@@ -94,7 +94,7 @@ Per costruire SeedSigner, sono necessari i seguenti componenti:
 
 - Alloggiamento (opzionale ma consigliato)** (opzionale ma consigliato)** (opzionale ma consigliato)** (opzionale ma consigliato)**)
     - Protegge il dispositivo e lo rende facile da usare.
-    - Il modello più popolare è il "*Caso della pillola arancione*", per il quale sono disponibili [file STL open-source per la stampa 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Il modello più popolare è il "*Caso della pillola arancione*", per il quale sono disponibili [file STL open-source per la stampa 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Le scatole sono disponibili anche presso [rivenditori indipendenti legati al progetto](https://seedsigner.com/hardware/).
 
 

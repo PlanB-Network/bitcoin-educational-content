@@ -337,7 +337,7 @@ Depotmodellen krever årvåkenhet og gode sikkerhetsrutiner. Brukt på riktig m�
 
 
 - Teknisk dokumentasjon: [docs.cashu.space](https://docs.cashu.space)
-- Liste over offentlige myntverk: [bitcoinmints.com](https://bitcoinmints.com)
+- Liste over offentlige myntverk: [bitcoinmints.com](https://cashumints.space/)
 - Offisielt nettsted for protokollen: [cashu.space](https://cashu.space)
 
 

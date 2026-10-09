@@ -1168,7 +1168,7 @@ W tej sekcji zagłębimy się w różne warstwy transakcji, zarówno fiat, jak i
 Bitcoin's Blockchain składa się z bloków, jak sama nazwa wskazuje. Te bloki mają teoretyczny maksymalny rozmiar 4 megabajtów. ze względu na ten limit, istnieje ograniczenie liczby transakcji, które Bitcoin może przetwarzać na sekundę, która wynosi od siedmiu do dziesięciu transakcji na sekundę (tps).
 
 
-Dlatego można się zastanawiać: W jaki sposób Bitcoin może konkurować z sieciami takimi jak Visa czy Mastercard, które dokonują transakcji z prędkością [1700 tps](https://towardsdatascience.com/the-Blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Dlatego można się zastanawiać: W jaki sposób Bitcoin może konkurować z sieciami takimi jak Visa czy Mastercard, które dokonują transakcji z prędkością [1700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 
 Odpowiedź jest prosta. Nie konkuruje z nimi.
@@ -1665,7 +1665,7 @@ Prawdopodobnie zastanawiasz się: W czym problem?
 Wysyłanie pieniędzy z powrotem za granicę za pośrednictwem usługi przekazu pieniężnego, takiej jak Western Union, nie jest darmowe. To kosztuje, i to nie tylko trochę, ale znaczną kwotę.
 
 
-Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
+Wysłanie 100 USD z powrotem do Tonga wiąże się z kosztem [12,61 USD](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus dodatkową stratą w wysokości 8,60 USD z powodu niekorzystnego kursu Exchange. Oznacza to, że ponad 21% całkowitej wysłanej kwoty trafia do Western Union, międzynarodowej korporacji. W rezultacie znaczna suma, która mogła trafić w ręce zasłużonych tongańskich rodzin, kończy w kieszeniach dostawcy usług transferu pieniędzy.
 
 Czy możesz sobie wyobrazić korzyści płynące z dodania dodatkowych 21% do swojego dochodu?
 
@@ -1676,7 +1676,7 @@ Co więcej, biorąc pod uwagę, że PKB Tonga wyniósł [469](https://tradingeco
 A jeśli myślałeś, że Tonga jest w tym osamotniona, zgadnij jeszcze raz.
 
 
-Oto przykładowa kwota, jaką Western Union [pobiera](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
+Oto przykładowa kwota, jaką Western Union [pobiera](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) za wysłanie 100 USD do kilku innych znanych krajów:
 
 
 
@@ -2021,10 +2021,10 @@ Jednak Bitcoin konkuruje również z Layer dwiema metodami transakcji, z technol
 Pomimo licznych badań obalających fałszywe twierdzenia, Bitcoin jest nadal często krytykowany jako wykorzystywany głównie do nielegalnej działalności. Po raz kolejny nie może to być dalsze od prawdy.
 
 
-Jedno [badanie](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) przeprowadzone przez byłego zastępcę dyrektora CIA wykazało, że "szerokie uogólnienia dotyczące wykorzystania Bitcoin w nielegalnym finansowaniu są znacznie zawyżone" W rzeczywistości od 2016 r. mniej niż 1% całkowitego wolumenu transakcji Bitcoin zostało wykorzystane do nielegalnej działalności. Dla porównania, "niektórzy szacują podziemną gospodarkę na 11% do 12% produktu krajowego brutto USA (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", z czego większość jest ułatwiona przy użyciu dolara amerykańskiego.
+Jedno [badanie](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) przeprowadzone przez byłego zastępcę dyrektora CIA wykazało, że "szerokie uogólnienia dotyczące wykorzystania Bitcoin w nielegalnym finansowaniu są znacznie zawyżone" W rzeczywistości od 2016 r. mniej niż 1% całkowitego wolumenu transakcji Bitcoin zostało wykorzystane do nielegalnej działalności. Dla porównania, "niektórzy szacują podziemną gospodarkę na 11% do 12% produktu krajowego brutto USA (https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)", z czego większość jest ułatwiona przy użyciu dolara amerykańskiego.
 
 
-Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
+Według raportu Chainalysis z 2020 r., nielegalna działalność stanowi jedynie około [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) wszystkich transakcji Bitcoin.
 
 
 Jednak nawet w obliczu tych dowodów, rządzący nadal wygłaszają wprowadzające w błąd oświadczenia, takie jak sekretarz skarbu USA Janet Yellen [twierdząca](https://home.treasury.gov/news/press-releases/jy0023), że "kryptowaluty były wykorzystywane do prania zysków internetowych handlarzy narkotyków; były narzędziem finansowania terroryzmu"
@@ -2318,7 +2318,7 @@ Ostatecznie przyszłość zdecentralizowanych finansów zależy od tych, którzy
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
 
-W dzisiejszym zglobalizowanym świecie dostęp do usług finansowych jest kluczowym elementem udziału w życiu gospodarczym i niezależności. Pomimo tego, zbyt wiele osób jest nadal wykluczonych z tradycyjnego systemu bankowego, a kobiety często ponoszą ciężar tego wykluczenia. Szokujące jest to, że chociaż [jedna czwarta](https://www.worldbank.org/en/publication/globalfindex) światowej populacji pozostaje bez dostępu do bankowości, w krajach takich jak Arabia Saudyjska [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) kobiet nie ma dostępu do podstawowych usług bankowych, co uniemożliwia im pełne uczestnictwo w gospodarce i społeczeństwie swojego kraju.
+W dzisiejszym zglobalizowanym świecie dostęp do usług finansowych jest kluczowym elementem udziału w życiu gospodarczym i niezależności. Pomimo tego, zbyt wiele osób jest nadal wykluczonych z tradycyjnego systemu bankowego, a kobiety często ponoszą ciężar tego wykluczenia. Szokujące jest to, że chociaż [jedna czwarta](https://www.worldbank.org/en/publication/globalfindex) światowej populacji pozostaje bez dostępu do bankowości, w krajach takich jak Arabia Saudyjska [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) kobiet nie ma dostępu do podstawowych usług bankowych, co uniemożliwia im pełne uczestnictwo w gospodarce i społeczeństwie swojego kraju.
 
 
 Oto tylko kilka przykładów warunków, w jakich do dziś żyją kobiety na całym świecie:

@@ -191,4 +191,4 @@ Mining مبارک و امیدوارم که شانس با شما یار باشد!
 
 
 - [صفحه پروژه NerdMiner_v2](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [مستندات کامل NerdMiners](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [مستندات کامل NerdMiners](https://bitwater.ch/nerd-miner-v2/)

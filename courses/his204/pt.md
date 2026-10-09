@@ -468,7 +468,7 @@ A produção intelectual do círculo de Gournay teve um impacto importante na hi
 
 ![Estudo sobre a publicação económica em França, 1566-1789.](assets/en/035.webp)
 
-Para difundir o gosto pelas discussões económicas entre a população francesa, Gournay e os seus amigos trabalharam para as tornar acessíveis através de romances. Depois do *Memorial sobre os Ofícios*, que criticava as corporações, Gournay e Cliquot-Blervache ajudaram Gabriel-François Coyer a escrever um pequeno romance satírico chamado Chinki: [Um Conto Cochinchinês Aplicável a Outras Nações](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Para difundir o gosto pelas discussões económicas entre a população francesa, Gournay e os seus amigos trabalharam para as tornar acessíveis através de romances. Depois do *Memorial sobre os Ofícios*, que criticava as corporações, Gournay e Cliquot-Blervache ajudaram Gabriel-François Coyer a escrever um pequeno romance satírico chamado Chinki: [Um Conto Cochinchinês Aplicável a Outras Nações](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abade Gabriel-François Coyer, "Chinki"](assets/en/036.webp)
 
@@ -731,7 +731,7 @@ Nas suas *Máximas*, já citadas, Quesnay afirma:
 
 Os fisiocratas tinham visto os danos causados pela ingerência do governo, especialmente no comércio de grão. Há que reconhecer, diziam eles, que a autoridade nunca conseguirá gerir o comércio tão bem como os indivíduos, porque teria de responder a todas as necessidades e reagir a todas as mudanças na procura ou na oferta. Tudo isto está muito para além das capacidades do governo mais sábio que se possa conceber. Por isso, é necessário deixar as coisas serem e deixá-las fluir.
 
-Benéfico por natureza, o comércio deve ser inteira e perfeitamente livre. Um dos seus membros, Le Trosne, escreveu mesmo um panfleto intitulado [*A Liberdade do Comércio de Grão: Sempre Útil, Nunca Nociva*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benéfico por natureza, o comércio deve ser inteira e perfeitamente livre. Um dos seus membros, Le Trosne, escreveu mesmo um panfleto intitulado [*A Liberdade do Comércio de Grão: Sempre Útil, Nunca Nociva*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Quinto princípio: Todos os homens são irmãos
 

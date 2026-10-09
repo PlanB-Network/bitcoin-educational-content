@@ -56,7 +56,7 @@ Nu we RoninDojo hebben geschetst, laten we samen kijken hoe we dit knooppunt kun
 
 ## Welke hardware moet ik kiezen om RoninDojo v2 te installeren?
 
-RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64](https://ronindojo.io/en/download). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
+RoninDojo biedt een afbeelding voor de automatische installatie van zijn software op een [RockPro64](https://ronindojo.io/downloads). Onze handleiding richt zich echter op de handmatige installatieprocedure op een Raspberry Pi 4. Hoewel de Raspberry Pi 5 onlangs gelanceerd is, en deze handleiding theoretisch compatibel zou moeten zijn met dit nieuwe model, heb ik nog niet de kans gehad om het persoonlijk te testen, en ik heb geen feedback uit de gemeenschap gevonden. Zodra ik de Pi 5 en compatibele onderdelen heb, zal ik deze handleiding bijwerken om jullie op de hoogte te houden. In de tussentijd raad ik aan om voorrang te geven aan de Pi 4, omdat die perfect werkt voor mijn knooppunt.
 
 Zelf draai ik RoninDojo op een Raspberry Pi met 8 GB RAM. Hoewel sommige leden van de gemeenschap erin geslaagd zijn om het werkend te krijgen op apparaten met slechts 4 GB RAM, heb ik deze configuratie zelf niet getest. Gezien het kleine prijsverschil lijkt het verstandig om te kiezen voor de 8 GB RAM versie. Dit kan ook handig zijn als je van plan bent om je Raspberry Pi in de toekomst voor andere doeleinden te gebruiken.
 
@@ -824,7 +824,7 @@ Wat betreft de andere tabbladen die beschikbaar zijn op je RoninUI dashboard:
 - instellingen: Hiermee kunt u uw gebruikerswachtwoord wijzigen.
 
 
-Daar heb je het! Bedankt dat je deze tutorial tot het einde hebt gevolgd. Als je het leuk vond, moedig ik je aan om het te delen op sociale media. Bovendien, als je de mogelijkheid hebt, overweeg dan om de ontwikkelaars die deze gratis en open-source software beschikbaar maken voor onze gemeenschap te steunen met een donatie: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Om je kennis van RoninDojo te verdiepen en meer bronnen te ontdekken, raad ik je ten zeerste aan om de onderstaande links naar externe bronnen te raadplegen.
+Daar heb je het! Bedankt dat je deze tutorial tot het einde hebt gevolgd. Als je het leuk vond, moedig ik je aan om het te delen op sociale media. Bovendien, als je de mogelijkheid hebt, overweeg dan om de ontwikkelaars die deze gratis en open-source software beschikbaar maken voor onze gemeenschap te steunen met een donatie: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Om je kennis van RoninDojo te verdiepen en meer bronnen te ontdekken, raad ik je ten zeerste aan om de onderstaande links naar externe bronnen te raadplegen.
 
 
 **Externe bronnen:**
@@ -834,5 +834,5 @@ Daar heb je het! Bedankt dat je deze tutorial tot het einde hebt gevolgd. Als je
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/introducing-boltzmann-85930984a159](https://medium.com/@laurentmt/introducing-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

@@ -42,7 +42,7 @@ Jos et tarvitse yleisiä toiminnallisuuksia tai niitä, jotka liittyvät Lightni
 Nyt kun olemme hahmotelleet RoninDojon, katsotaan yhdessä, miten tämä noodi pystytetään.
 
 ## Minkä laitteiston valita RoninDojo v2:n asentamiseen?
-RoninDojo tarjoaa automaattisen asennuksen ohjelmistonsa [RockPro64](https://ronindojo.io/en/download) -laitteistolle. Tämä opas keskittyy kuitenkin manuaaliseen asennusmenetelmään Raspberry Pi 4:lle. Vaikka Raspberry Pi 5 on äskettäin julkaistu, ja tämän oppaan pitäisi teoriassa olla yhteensopiva tämän uuden mallin kanssa, en ole vielä henkilökohtaisesti päässyt testaamaan sitä, enkä ole löytänyt palautetta yhteisöltä. Heti kun hankin Pi 5:n ja yhteensopivat komponentit, päivitän tämän oppaan pitääkseni sinut ajan tasalla. Siihen asti suosittelen priorisoimaan Pi 4:n, sillä se toimii täydellisesti noodilleni.
+RoninDojo tarjoaa automaattisen asennuksen ohjelmistonsa [RockPro64](https://ronindojo.io/downloads) -laitteistolle. Tämä opas keskittyy kuitenkin manuaaliseen asennusmenetelmään Raspberry Pi 4:lle. Vaikka Raspberry Pi 5 on äskettäin julkaistu, ja tämän oppaan pitäisi teoriassa olla yhteensopiva tämän uuden mallin kanssa, en ole vielä henkilökohtaisesti päässyt testaamaan sitä, enkä ole löytänyt palautetta yhteisöltä. Heti kun hankin Pi 5:n ja yhteensopivat komponentit, päivitän tämän oppaan pitääkseni sinut ajan tasalla. Siihen asti suosittelen priorisoimaan Pi 4:n, sillä se toimii täydellisesti noodilleni.
 Osa yhteisön jäsenistä on onnistunut saamaan sen toimimaan laitteilla, joissa on vain 4 GB RAM-muistia, mutta en ole itse testannut tätä konfiguraatiota. Pienen hintaeron vuoksi vaikuttaa viisaalta valita 8 GB RAM-muistin versio. Tämä voi myös osoittautua hyödylliseksi, jos suunnittelet Raspberry Pin uudelleenkäyttöä muissa tulevaisuuden projekteissa.
 On tärkeää huomata, että RoninDojo-tiimit ovat raportoineet usein ongelmista, jotka liittyvät kotelo- ja SSD-sovittimeen. Olen kohdannut näitä ongelmia itse. **Siksi on erittäin suositeltavaa välttää koteloita, jotka on varustettu USB-kaapelilla noodisi SSD:lle.** Sen sijaan suosi Raspberry Pi:lle suunniteltua tallennuslaajennuskorttia:
 
@@ -500,12 +500,12 @@ RoninUI-käyttöliittymäsi muiden välilehtien osalta:
 - `System Info`: Tarjoaa yleistä tietoa solmustasi, kuten CPU:n lämpötilan, tallennustilan käytön tai RAM-tiedot. Löydät myös `Reboot` ja `Shut down` vaihtoehdot solmun uudelleenkäynnistämiseen tai sammuttamiseen;
 - `Settings`: Mahdollistaa käyttäjäsalasanasi vaihtamisen.
 
-Siinä se! Kiitos, että seurasit tätä opasta loppuun. Jos pidit siitä, kannustan jakamaan sitä sosiaalisessa mediassa. Lisäksi, jos sinulla on mahdollisuus, harkitse kehittäjien tukemista lahjoituksella, jotka tekevät nämä vapaat ja avoimen lähdekoodin ohjelmistot saataville yhteisöllemme: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Syventääksesi tietämystäsi RoninDojosta ja löytääksesi lisää resursseja, suosittelen lämpimästi alla mainittujen ulkoisten resurssien linkkien konsultointia.
+Siinä se! Kiitos, että seurasit tätä opasta loppuun. Jos pidit siitä, kannustan jakamaan sitä sosiaalisessa mediassa. Lisäksi, jos sinulla on mahdollisuus, harkitse kehittäjien tukemista lahjoituksella, jotka tekevät nämä vapaat ja avoimen lähdekoodin ohjelmistot saataville yhteisöllemme: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Syventääksesi tietämystäsi RoninDojosta ja löytääksesi lisää resursseja, suosittelen lämpimästi alla mainittujen ulkoisten resurssien linkkien konsultointia.
 
 **Ulkoiset resurssit:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159](https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Nostr** 개인 키(형식 `nsec1...`)
- - Nostrkeygen.com](https://nostrkeygen.com/)에서 전용 거래 키를 생성합니다
+ - Nostrkeygen.com](https://nostrtool.com/)에서 전용 거래 키를 생성합니다
  - 중요**: 기본 개인 Nostr 키를 사용하지 마세요
  - 개인 키를 안전한 곳에 보관하세요(비밀번호 관리자)
 
@@ -962,7 +962,7 @@ Revolut 계정(또는 기타 합의된 방법)으로 법정화폐 결제를 받�
 
 
 - [메인 GitHub 리포지토리](https://github.com/MostroP2P/mostro)
-- [웹 클라이언트](https://github.com/MostroP2P/mostro-web)
+- [웹 클라이언트](https://github.com/MostroP2P/app)
 - [고객 CLI](https://github.com/MostroP2P/mostro-cli)
 
 

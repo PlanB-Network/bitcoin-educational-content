@@ -572,8 +572,8 @@ Proton Authenticator, mevcut en kapsamlı ve güvenli çözümlerden biridir: a�
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Açık kaynak kodu
-- **Güvenlik denetimleri**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Bağımsız denetim raporları
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Açık kaynak kodu
+- **Güvenlik denetimleri**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Bağımsız denetim raporları
 
 
 

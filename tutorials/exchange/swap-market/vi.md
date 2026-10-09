@@ -639,7 +639,7 @@ Sự cạnh tranh giữa các nhà cung cấp giúp cải thiện tỷ giá và 
 
 - [SwapMarket - Ứng dụng web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tài liệu kỹ thuật](https://docs.boltz.exchange/)
+- [Tài liệu kỹ thuật](https://github.com/BoltzExchange/boltz-backend)
 - [Hướng dẫn tự lưu trữ](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

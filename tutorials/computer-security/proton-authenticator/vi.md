@@ -572,8 +572,8 @@ Proton Authenticator là một trong những giải pháp toàn diện và an to
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Mã nguồn mở
-- **Kiểm toán bảo mật**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Báo cáo kiểm toán độc lập
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Mã nguồn mở
+- **Kiểm toán bảo mật**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Báo cáo kiểm toán độc lập
 
 
 

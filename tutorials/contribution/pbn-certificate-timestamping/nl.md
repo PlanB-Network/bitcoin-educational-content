@@ -43,7 +43,7 @@ De GPG handtekening wordt gegenereerd met behulp van open-source software genaam
 Aan de andere kant, als iemand de authenticiteit van een ondertekend bestand wil verifiëren, kan hij GPG gebruiken om de publieke sleutel van de uitgever te importeren en te verifiëren.
 
 
-Wie nieuwsgierig is en meer wil weten over deze fantastische software, kan ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html) raadplegen.
+Wie nieuwsgierig is en meer wil weten over deze fantastische software, kan ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136) raadplegen.
 
 
 ### Hoe werkt tijdstempelen?

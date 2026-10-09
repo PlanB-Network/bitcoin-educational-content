@@ -309,7 +309,7 @@ Viện phụ Saint-Pierre lập luận rằng triều đại Louis XIV, với tr
 
 Về tư duy kinh tế, ông áp dụng nhất quán nguyên lý lợi ích, rất giống cách Jeremy Bentham sẽ làm sau này, và thường đưa ra các nhận định đúng đắn. Công bằng mà nói, ông vẫn chịu ảnh hưởng của các ý tưởng trọng thương, điều mà khi đó chưa ai hoàn toàn thoát khỏi.
 
-Dù vậy, Viện phụ Saint-Pierre đã đưa ra một số quan sát chính xác về nền kinh tế. Ngay cả trước *Condillac*, người thường được ghi công cho ý tưởng này, ông đã nói rõ rằng trong bất kỳ trao đổi nào, cả hai bên đều có lợi. Điều này có thể thấy trong ["Dự án cải thiện thương mại của Pháp"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) năm 1733 của ông, nơi ông viết:
+Dù vậy, Viện phụ Saint-Pierre đã đưa ra một số quan sát chính xác về nền kinh tế. Ngay cả trước *Condillac*, người thường được ghi công cho ý tưởng này, ông đã nói rõ rằng trong bất kỳ trao đổi nào, cả hai bên đều có lợi. Điều này có thể thấy trong ["Dự án cải thiện thương mại của Pháp"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) năm 1733 của ông, nơi ông viết:
 
 > Khi một cuộc mua bán diễn ra giữa các thương nhân, người bán có lợi, và người mua cũng vậy; vì nếu không có một lợi ích thật hoặc được nhận thấy nào đó ở cả hai phía, người bán sẽ không bán ở mức giá này hay mức giá kia, và người mua, về phần mình, cũng sẽ không mua ở mức giá ấy.
 
@@ -469,7 +469,7 @@ Sản lượng trí tuệ của vòng tròn Gournay có tác động lớn đế
 
 ![Nghiên cứu về xuất bản kinh tế ở Pháp, 1566-1789.](assets/en/035.webp)
 
-Để lan truyền niềm yêu thích thảo luận kinh tế trong dân chúng Pháp, Gournay và bạn bè ông tìm cách làm cho chúng dễ tiếp cận thông qua tiểu thuyết. Sau *Hồi ký về các nghề*, tác phẩm phê phán phường hội, Gournay và Cliquot-Blervache giúp Gabriel-François Coyer viết một tiểu thuyết châm biếm ngắn có tên Chinki: [Một câu chuyện Cochinchina có thể áp dụng cho các quốc gia khác](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Để lan truyền niềm yêu thích thảo luận kinh tế trong dân chúng Pháp, Gournay và bạn bè ông tìm cách làm cho chúng dễ tiếp cận thông qua tiểu thuyết. Sau *Hồi ký về các nghề*, tác phẩm phê phán phường hội, Gournay và Cliquot-Blervache giúp Gabriel-François Coyer viết một tiểu thuyết châm biếm ngắn có tên Chinki: [Một câu chuyện Cochinchina có thể áp dụng cho các quốc gia khác](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Trong các *Maxims* đã được trích dẫn trước đó, Quesnay nói:
 
 Phái Trọng Nông đã thấy thiệt hại do can thiệp của chính phủ gây ra, đặc biệt trong thương mại ngũ cốc. Họ nói, phải thừa nhận rằng quyền lực sẽ không bao giờ có thể quản lý thương mại tốt như các cá nhân, vì nó phải đáp ứng mọi nhu cầu và phản ứng với mọi thay đổi trong cầu hoặc cung. Tất cả điều này vượt xa năng lực của ngay cả chính phủ khôn ngoan nhất mà ta có thể hình dung. Vì vậy, cần phải để sự vật tự vận hành và để chúng lưu thông.
 
-Có lợi theo bản chất, thương mại phải hoàn toàn và trọn vẹn tự do. Một thành viên của họ, Le Trosne, thậm chí viết một tờ luận chiến có nhan đề [*Tự do thương mại ngũ cốc: Luôn hữu ích, không bao giờ có hại*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Có lợi theo bản chất, thương mại phải hoàn toàn và trọn vẹn tự do. Một thành viên của họ, Le Trosne, thậm chí viết một tờ luận chiến có nhan đề [*Tự do thương mại ngũ cốc: Luôn hữu ích, không bao giờ có hại*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/).
 
 ### Nguyên tắc thứ năm: Mọi người đều là anh em
 

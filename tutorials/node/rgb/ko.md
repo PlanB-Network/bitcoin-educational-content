@@ -106,9 +106,9 @@ RGB는 Bitcoin 토끼굴 안에 자체 토끼굴이 있는데, 제가 그 토끼
 
 - 1 https://plan99.net/~mike/Satoshi-emails/thread4.html
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
-- 3 https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2016-June/012773.html
-- 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
-- 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
+- 3 https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
+- 4 https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md
+- 5 https://github.com/RGB-WG/RFC/blob/master/RGB-0021.md
 
 
 ## RGB 노드 튜토리얼

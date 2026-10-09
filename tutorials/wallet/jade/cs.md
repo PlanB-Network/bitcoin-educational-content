@@ -39,7 +39,7 @@ Jakmile se vaše zařízení Jade objeví v aplikaci Green, aktualizujte Jade kl
 
 Po aktualizaci firmware zařízení Jade vyberte Nastavit Jade na síti a bezpečnostní politice, kterou chcete použít.
 
-> Tip: Bezpečnostní politika je uvedena pod položkou Typ na přihlašovací obrazovce níže. Pokud si nejste jisti, zda vybrat Singlesig nebo Multisig Shield, prosím, přečtěte si náš průvodce zde. (https://help.blockstream.com/hc/en-us/articles/4403642609433)
+> Tip: Bezpečnostní politika je uvedena pod položkou Typ na přihlašovací obrazovce níže. Pokud si nejste jisti, zda vybrat Singlesig nebo Multisig Shield, prosím, přečtěte si náš průvodce zde. (https://help.blockstream.com/blockstream-app/manage-2fa-accounts/2fa-multisig-protection-explained)
 
 ![obrázek](assets/3.webp)
 
@@ -189,7 +189,7 @@ Nyní jste úspěšně nastavili svou peněženku a můžete začít přijímat,
 
 ![image](assets/22.webp)
 
-zdroj: https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-
+zdroj: https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-with-sparrow
 
 ### green app
 Pokud dáváte přednost mobilnímu průvodci, můžete jej použít s Blockstream Green

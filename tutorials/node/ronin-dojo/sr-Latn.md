@@ -88,7 +88,7 @@ Da biste izabrali mašinu koja hostuje i pokreće RoninDojo, imate nekoliko opci
 Kao što je ranije objašnjeno, najjednostavniji izbor je naručiti Tanto, plug-and-play mašinu dizajniranu specifično za ovu svrhu. Da naručite svoju, idite ovde: [link](https://shop.ronindojo.io/product-category/nodes/).
 
 
-Pošto timovi RoninDojo proizvode open-source kod, moguće je implementirati RoninDojo i na drugim mašinama. Najnovije verzije instalacionog čarobnjaka možete pronaći na ovoj stranici: [link](https://ronindojo.io/en/downloads.html), a najnovije verzije koda na ovoj stranici: [link](https://code.samourai.io/ronindojo/RoninDojo).
+Pošto timovi RoninDojo proizvode open-source kod, moguće je implementirati RoninDojo i na drugim mašinama. Najnovije verzije instalacionog čarobnjaka možete pronaći na ovoj stranici: [link](https://ronindojo.io/downloads), a najnovije verzije koda na ovoj stranici: [link](https://code.samourai.io/ronindojo/RoninDojo).
 
 
 Lično, instalirao sam ga na Raspberry Pi 4 8GB i sve radi savršeno.
@@ -119,7 +119,7 @@ Evo kako da postavite svoj RoninDojo čvor:
 Kada sastavite svoju mašinu, možete započeti instalaciju RoninDojo-a. Da biste to uradili, počnite tako što ćete kreirati butabilnu micro SD karticu snimanjem odgovarajuće slike diska na nju.
 
 
-Umetnite svoju micro SD karticu u lični računar, zatim idite na zvaničnu RoninDojo veb stranicu da preuzmete RoninOS disk image: https://ronindojo.io/en/downloads.html.
+Umetnite svoju micro SD karticu u lični računar, zatim idite na zvaničnu RoninDojo veb stranicu da preuzmete RoninOS disk image: https://ronindojo.io/downloads.
 
 
 Preuzmite sliku diska koja odgovara vašem hardveru. U mom slučaju, preuzeo sam "MANJARO-ARM-RONINOS-RPI4-22.03.IMG.XZ" sliku:
@@ -131,7 +131,7 @@ Preuzmite sliku diska koja odgovara vašem hardveru. U mom slučaju, preuzeo sam
 Kada se slika preuzme, proverite njen integritet koristeći odgovarajući .SHA256 fajl. Detaljno ću opisati kako to uraditi u ovom članku: Kako proveriti integritet Bitcoin softvera na Windows-u?
 
 
-Specifična uputstva za proveru integriteta RoninOS-a su takođe dostupna na ovoj stranici: https://wiki.ronindojo.io/en/extras/verify.
+Specifična uputstva za proveru integriteta RoninOS-a su takođe dostupna na ovoj stranici: https://docs.ronindojo.io/install/verify-os/.
 
 
 Da biste snimili ovu sliku na vašu micro SD karticu, možete koristiti softver kao što je Balena Etcher, koji možete preuzeti ovde: https://www.balena.io/etcher/.
@@ -509,16 +509,16 @@ Kada izvodite CoinJoin sa Whirlpool implementacijom, aplikacija koju koristite m
 
 Jedno rešenje za ovo ograničenje je korišćenje WhirlpoolCLI na mašini koja je namenjena da bude stalno uključena, kao što je Bitcoin čvor. Na ovaj način, naši UTXO-ovi mogu biti remixovani 24/7 bez potrebe da držimo drugu mašinu osim našeg Bitcoin čvora uključenom.
 
-WhirlpoolCLI se koristi sa WhirlpoolGUI, grafičkim interfejsom koji se instalira na lični računar za jednostavno upravljanje Coinjoins. Detaljno ću objasniti kako postaviti Whirlpool CLI sa sopstvenim dojom u ovom članku: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
+WhirlpoolCLI se koristi sa WhirlpoolGUI, grafičkim interfejsom koji se instalira na lični računar za jednostavno upravljanje Coinjoins. Detaljno ću objasniti kako postaviti Whirlpool CLI sa sopstvenim dojom u ovom članku: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=dans%20cette%20partie.-,Tutoriel%20%3A%20Whirpool%20CLI%20sur%20Dojo%20et%20Whirlpool%20GUI.,-Si%20vous%20souhaitez).
 
 
-Da biste saznali više o CoinJoin uopšte, sve objašnjavam u ovom članku: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin).
+Da biste saznali više o CoinJoin uopšte, sve objašnjavam u ovom članku: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin).
 
 
 ### Korišćenje Whirlpool Stat Alata.
 
 
-Nakon što izvršite CoinJoins sa Whirlpool, možda ćete želeti da znate stvarni nivo privatnosti vaših mešanih UTXO-a. Whirlpool Stat Tool vam omogućava da to lako uradite. Pomoću ovog alata možete izračunati perspektivni skor i retrospektivni skor vaših mešanih UTXO-a. Da biste saznali više o izračunavanju ovih Anon Setova i kako funkcionišu, preporučujem da pročitate ovaj odeljak: [link](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
+Nakon što izvršite CoinJoins sa Whirlpool, možda ćete želeti da znate stvarni nivo privatnosti vaših mešanih UTXO-a. Whirlpool Stat Tool vam omogućava da to lako uradite. Pomoću ovog alata možete izračunati perspektivni skor i retrospektivni skor vaših mešanih UTXO-a. Da biste saznali više o izračunavanju ovih Anon Setova i kako funkcionišu, preporučujem da pročitate ovaj odeljak: [link](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment).
 
 
 Alat je unapred instaliran na vašem RoninDojo. Za sada je dostupan samo iz RoninCLI. Da biste ga pokrenuli iz glavnog menija, idite na:
@@ -605,7 +605,7 @@ WST će zatim prikazati retrospektivni skor (metrike usmerene unazad) praćen pr
 Imajte na umu da se očekivani rezultat vašeg UTXO izračunava na osnovu txid vaše početne mešavine, a ne vaše poslednje mešavine. Suprotno tome, retrospektivni rezultat UTXO se izračunava na osnovu txid poslednjeg ciklusa.
 
 
-Još jednom, ako ne razumete ove pojmove Anon Sets, preporučujem da pročitate ovaj deo mog članka o CoinJoin-u gde sve objašnjavam detaljno sa dijagramima: [https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://www.pandul.fr/post/comprendre-et-utiliser-le-CoinJoin-sur-Bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
+Još jednom, ako ne razumete ove pojmove Anon Sets, preporučujem da pročitate ovaj deo mog članka o CoinJoin-u gde sve objašnjavam detaljno sa dijagramima: [https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment](https://web.archive.org/web/20250904013558/https://www.pandul.fr/post/comprendre-et-utiliser-le-coinjoin-sur-bitcoin#:~:text=perdre%20en%20confidentialit%C3%A9.-,Anon%20Sets.,-Comme%20expliqu%C3%A9%20pr%C3%A9c%C3%A9demment)
 
 
 ### Korišćenje Boltzmann kalkulatora.
@@ -969,7 +969,7 @@ Videli smo kako instalirati i započeti sa ovim divnim alatom koji je RoninDojo.
 Ako vas korišćenje terminala ne plaši i ako vam nisu potrebni alati povezani sa Lightning mrežom, onda bi vam RoninDojo mogao biti privlačan.
 
 
-Ako možete, razmislite o doniranju programerima koji besplatno proizvode ovaj open-source softver za vas: https://donate.ronindojo.io/
+Ako možete, razmislite o doniranju programerima koji besplatno proizvode ovaj open-source softver za vas: https://docs.ronindojo.io/main/donations/
 
 
 Da biste saznali više o RoninDojo-u, preporučujem da pogledate linkove u mojim spoljnim resursima ispod.
@@ -993,5 +993,5 @@ Da biste saznali više o RoninDojo-u, preporučujem da pogledate linkove u mojim
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/introducing-boltzmann-85930984a159
 - https://en.wikipedia.org/wiki/Boltzmann_formula
-- https://wiki.ronindojo.io/en/setup/bisq
+- https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

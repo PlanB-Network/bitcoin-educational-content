@@ -748,7 +748,7 @@ Tässä osiossa syvennymme eri transaktiokerroksiin, olipa kyseessä sitten fiat
 
 Bitcoinin lohkoketju koostuu lohkoista, kuten nimestä voi päätellä. Näillä lohkoilla on teoreettinen maksimikoko 4 megatavua. _Sanottakoon, että kirjoitushetkellä keskimääräinen lohkokoko on noin 1,5mb._ Tämän rajan vuoksi Bitcoin voi käsitellä sekunnissa vain seitsemästä kymmeneen transaktiota (tps).
 
-Siksi saatat ihmetellä: Kuinka Bitcoinin lohkoketju voi mahdollisesti kilpailla sellaisten verkostojen kanssa kuin Visa tai Mastercard, jotka suorittavat transaktioita [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Siksi saatat ihmetellä: Kuinka Bitcoinin lohkoketju voi mahdollisesti kilpailla sellaisten verkostojen kanssa kuin Visa tai Mastercard, jotka suorittavat transaktioita [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 Vastaus on yksinkertainen. Se ei kilpaile niiden kanssa.
 Bitcoinin lohkoketjun vertaaminen Visaan tai Mastercardiin on kuin vertaisi kansainvälistä konttialusta paikallisen rautakaupan kassaan. Konttialus on tarkoitettu harvinaisille suurille transaktioille, kun taas kassa on rakennettu korkean taajuuden, pienille transaktioille. Vaikka molemmat siirtävät tavaroita, niiden vertaaminen on kuin vertaisi omenoita ja appelsiineja.
@@ -1061,14 +1061,14 @@ Saatat miettiä: Mikä tässä on ongelma?
 
 Rahan lähettäminen takaisin ulkomaille rahansiirtopalvelun, kuten Western Unionin kautta, ei ole ilmaista. Se maksaa rahaa, eikä vain vähän, vaan merkittävän summan.
 
-100 dollarin lähettäminen Yhdysvalloista Tongaan aiheuttaa kustannuksen [12,61 dollaria](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus lisäksi 8,60 dollarin menetyksen epäsuotuisan valuuttakurssin vuoksi. Tämä tarkoittaa, että yli 21% lähetetystä summasta menee Western Unionille, monikansalliselle yritykselle. Tämän seurauksena merkittävä summa, joka olisi voinut olla ansaitsevien tongalaisten perheiden käsissä, päätyykin rahansiirtopalvelun tarjoajan taskuihin.
+100 dollarin lähettäminen Yhdysvalloista Tongaan aiheuttaa kustannuksen [12,61 dollaria](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus lisäksi 8,60 dollarin menetyksen epäsuotuisan valuuttakurssin vuoksi. Tämä tarkoittaa, että yli 21% lähetetystä summasta menee Western Unionille, monikansalliselle yritykselle. Tämän seurauksena merkittävä summa, joka olisi voinut olla ansaitsevien tongalaisten perheiden käsissä, päätyykin rahansiirtopalvelun tarjoajan taskuihin.
 Voitko kuvitella hyödyt, jos tuloihisi lisättäisiin ylimääräinen 21%?
 
 Lisäksi kun otetaan huomioon, että Tongan BKT oli [469](https://tradingeconomics.com/tonga/gdp) miljoonaa dollaria vuonna 2021, ja siitä 45,5% tulee rahalähetyksistä, kohtuuttomat maksut rahan lähettämisestä kotiin tarkoittavat, että Tonga menettää lisäksi 45,2 miljoonaa dollaria. Tämä summa vastaisi 9,6%:n kasvua BKT:ssa, jos näitä maksuja ei olisi.
 
 Ja jos luulit, että Tonga on tässä yksin, arvaa uudelleen.
 
-Tässä on näyte siitä, kuinka paljon Western Union [veloittaa](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) 100 dollarin lähettämisestä Yhdysvalloista joillekin muille merkittäville maille:
+Tässä on näyte siitä, kuinka paljon Western Union [veloittaa](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) 100 dollarin lähettämisestä Yhdysvalloista joillekin muille merkittäville maille:
 
 - **Kiina:** 21,21 dollarin maksu + 2,60 dollarin valuuttakurssitappio (23,81% tappio)
 - **Kanada, USA, Meksiko:** 16,86 dollarin maksu + 1,20 dollarin valuuttakurssitappio (18,06% tappio)
@@ -1265,8 +1265,8 @@ Mutta Bitcoin kilpailee myös kerros kaksi -transaktiomenetelmien kanssa, joissa
 #### Harhaluulo Kuusi: Bitcoinia käytetään pääasiassa laittomaan toimintaan
 
 Huolimatta lukuisista tutkimuksista, jotka kumoavat vääriä väitteitä, Bitcoinia kritisoidaan edelleen usein pääasiassa laittoman toiminnan välineenä. Jälleen kerran, tämä ei voisi olla kauempana totuudesta.
-Eräässä [tutkimuksessa](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), jonka suoritti entinen CIA:n apulaisjohtaja, todettiin, että "yleistykset Bitcoinin käytöstä laittomassa rahoituksessa ovat merkittävästi liioiteltuja." Itse asiassa vuodesta 2016 lähtien alle 1% Bitcoinin kokonaistransaktiovolyymista on käytetty laittomaan toimintaan. Vertailun vuoksi "jotkut arvioivat maanalaisen talouden olevan 11%–12% Yhdysvaltojen bruttokansantuotteesta", josta suurin osa välitetään Yhdysvaltain dollarilla.
-Ja Chainalysis-raportin mukaan vuonna 2020 laittomat toimet muodostivat vain noin [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) kaikista Bitcoin-transaktioista.
+Eräässä [tutkimuksessa](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf), jonka suoritti entinen CIA:n apulaisjohtaja, todettiin, että "yleistykset Bitcoinin käytöstä laittomassa rahoituksessa ovat merkittävästi liioiteltuja." Itse asiassa vuodesta 2016 lähtien alle 1% Bitcoinin kokonaistransaktiovolyymista on käytetty laittomaan toimintaan. Vertailun vuoksi "jotkut arvioivat maanalaisen talouden olevan 11%–12% Yhdysvaltojen bruttokansantuotteesta", josta suurin osa välitetään Yhdysvaltain dollarilla.
+Ja Chainalysis-raportin mukaan vuonna 2020 laittomat toimet muodostivat vain noin [0,34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) kaikista Bitcoin-transaktioista.
 
 Kuitenkin, vaikka todisteet ovat olemassa, harhaanjohtavia lausuntoja jatkaa tekemistään valtaapitävät henkilöt, kuten Yhdysvaltain valtiovarainministeri Janet Yellen [väittäen](https://home.treasury.gov/news/press-releases/jy0023), "Kryptovaluuttoja on käytetty online-huumekauppiaiden voittojen pesemiseen; ne ovat olleet työkalu terrorismirahoituksessa."
 
@@ -1449,7 +1449,7 @@ Lopulta hajautetun rahoituksen tulevaisuus on niiden käsissä, jotka ovat valmi
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-Nykyisessä globalisoituneessa maailmassa pääsy rahoituspalveluihin on kriittinen osa taloudellista osallistumista ja itsenäisyyttä. Huolimatta tästä, aivan liian moni ihminen on edelleen suljettu perinteisen pankkijärjestelmän ulkopuolelle, ja naiset kantavat usein tämän sulkeutumisen suurimman taakan. Järkyttävää kyllä, vaikka tarpeettomasti [neljännes](https://www.worldbank.org/en/publication/globalfindex) maailman väestöstä on edelleen ilman pankkipalveluita, maissa kuten Saudi-Arabiassa [36,5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naisista ei ole pääsyä peruspankkipalveluihin, mikä estää heitä osallistumasta täysipainoisesti maansa talouteen ja yhteiskuntaan.
+Nykyisessä globalisoituneessa maailmassa pääsy rahoituspalveluihin on kriittinen osa taloudellista osallistumista ja itsenäisyyttä. Huolimatta tästä, aivan liian moni ihminen on edelleen suljettu perinteisen pankkijärjestelmän ulkopuolelle, ja naiset kantavat usein tämän sulkeutumisen suurimman taakan. Järkyttävää kyllä, vaikka tarpeettomasti [neljännes](https://www.worldbank.org/en/publication/globalfindex) maailman väestöstä on edelleen ilman pankkipalveluita, maissa kuten Saudi-Arabiassa [36,5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) naisista ei ole pääsyä peruspankkipalveluihin, mikä estää heitä osallistumasta täysipainoisesti maansa talouteen ja yhteiskuntaan.
 
 Tässä on vain muutamia esimerkkejä olosuhteista, joita naiset ympäri maailmaa edelleen tänä päivänä kestävät:
 

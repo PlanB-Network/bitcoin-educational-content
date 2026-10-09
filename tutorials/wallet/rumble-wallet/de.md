@@ -27,7 +27,7 @@ Dank einer Partnerschaft mit MoonPay ist es auch möglich, Bitcoin und andere Kr
 ## 2. Wie wird Rumble Wallet installiert?
 
 
-Die Anwendung kann sowohl auf [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) als auch auf iOS über die jeweiligen offiziellen Stores installiert werden.
+Die Anwendung kann sowohl auf [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) als auch auf iOS über die jeweiligen offiziellen Stores installiert werden.
 
 
 ![Image](assets/fr/01.webp)

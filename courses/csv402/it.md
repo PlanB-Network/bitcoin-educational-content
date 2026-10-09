@@ -2315,7 +2315,7 @@ Naturalmente, a seconda della data di consultazione del corso, queste interfacce
 
 #### Esempio di interfaccia
 
-Questo frammento di codice di Rust mostra un'interfaccia [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs) (risorsa fungibile). Questo codice è tratto dal file `rgb20.rs` della libreria standard RGB. Vediamolo per capire la struttura di un'interfaccia e come essa costituisca un ponte tra, da un lato, la logica aziendale (definita nello schema) e, dall'altro, le funzionalità esposte ai portafogli e agli utenti.
+Questo frammento di codice di Rust mostra un'interfaccia [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) (risorsa fungibile). Questo codice è tratto dal file `rgb20.rs` della libreria standard RGB. Vediamolo per capire la struttura di un'interfaccia e come essa costituisca un ponte tra, da un lato, la logica aziendale (definita nello schema) e, dall'altro, le funzionalità esposte ai portafogli e agli utenti.
 
 ```rust
 // ...

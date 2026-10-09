@@ -232,7 +232,7 @@ Diese Analyse spiegelt ein Missverständnis des Mehrwerts und der kooperativen s
 
 ### Die Industrielle Revolution in Frage gestellt
 
-In der Tat verzerrt die marxistische Analyse die historische Realität der Industriellen Revolution. Ludwig von Mises klärte diese Frage in seinem wirtschaftswissenschaftlichen Traktat [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (siehe insbesondere das Kapitel mit dem Titel [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sowie in einer Reihe von Vorlesungen, die unter dem Titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) veröffentlicht wurden. (Ebenfalls lesenswert, The Anti-Capitalistic Mentality [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) und [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In der Tat verzerrt die marxistische Analyse die historische Realität der Industriellen Revolution. Ludwig von Mises klärte diese Frage in seinem wirtschaftswissenschaftlichen Traktat [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (siehe insbesondere das Kapitel mit dem Titel [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) sowie in einer Reihe von Vorlesungen, die unter dem Titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) veröffentlicht wurden. (Ebenfalls lesenswert, The Anti-Capitalistic Mentality [hier](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) und [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/de/014.webp)
 

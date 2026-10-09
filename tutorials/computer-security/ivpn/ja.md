@@ -49,7 +49,7 @@ Linuxユーザーの場合は、[このページ](https://www.ivpn.net/en/apps-l
 ![IVPN](assets/notext/04.webp)
 ## スマートフォンにIVPNをインストールする方法は？
 
-iOSユーザーの場合は[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)、Androidユーザーの場合は[Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client)または[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)からIVPNをダウンロードします。Androidを使用している場合は、[IVPNサイト](https://www.ivpn.net/en/apps-android/)から直接`.apk`ファイルをダウンロードするオプションもあります。
+iOSユーザーの場合は[AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683)、Androidユーザーの場合は[Google Play Store](https://www.ivpn.net/en/apps-android/)または[F-Droid](https://f-droid.org/en/packages/net.ivpn.client)からIVPNをダウンロードします。Androidを使用している場合は、[IVPNサイト](https://www.ivpn.net/en/apps-android/)から直接`.apk`ファイルをダウンロードするオプションもあります。
 ![IVPN](assets/notext/05.webp)
 アプリを初めて使用する際にはログアウトされます。サービスをアクティブにするためにアカウントIDを入力する必要があります。
 ![IVPN](assets/notext/06.webp)

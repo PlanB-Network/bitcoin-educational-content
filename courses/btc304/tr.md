@@ -1500,7 +1500,7 @@ Daha sessiz anlara hazırlanmak istiyorsanız, birkaç etkinlik veya konuşma no
 - bir **Nerdminer**, Bitaxe, FPGA veya hatta ASIC getirmek;
 - bir **Bitcoin el ilanı** var;
 - topluluğunuz için bir Bitcoin görseli veya logosu üzerinde beyin fırtınası yapmak;
-- bir **[Bitcoin kart oyunu](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** oynamak;
+- bir **[Bitcoin kart oyunu](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** oynamak;
 - toplulukların ve tüccarların **[btcmap.org](https://btcmap.org/)** haritasını göstermektedir;
 - **lightning** kullanarak Bitcoin göndermek veya almak.
 
@@ -1871,7 +1871,7 @@ Uygunluğunuza ve toplumunuzdaki katılım düzeyine bağlı olarak, yıl boyunc
 
 - **Pizza Günü** için 22 Mayıs'ta bir restoran gecesi
 - Bir sonraki **Halving**'i kutlamak için bir akşam veya hafta sonu
-- Bitcoin ve nasıl çalıştığı hakkında [Le Coin de Table](https://www.Maximalist.ovh/) veya [SHAmory](https://shamory.com/) gibi oyunları kullanarak bir aile **oyun gecesi**
+- Bitcoin ve nasıl çalıştığı hakkında [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) veya [SHAmory](https://shamory.com/) gibi oyunları kullanarak bir aile **oyun gecesi**
 - Farklı donanım türlerini (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) sunan bir **Mining atölye çalışması**
 - Temalı atölye çalışmaları ile yeni başlayanlar için bir **öğleden sonra veya akşam**
 - Komşu topluluklarla bir **ortak buluşma**

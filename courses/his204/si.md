@@ -309,7 +309,7 @@ Abbot of Saint-Pierre තර්ක කළේ, Louis XIVගේ රාජ්‍ය
 
 ආර්ථික චින්තනය සම්බන්ධයෙන්, ඔහු Jeremy Bentham පසුව කරන ආකාරයටම utility මූලධර්මය නිතර යොදා ගත් අතර, බොහෝ විට ශක්තිමත් අවබෝධ ලබා දුන්නේය. සාධාරණව කිවහොත්, එම කාලයේ කිසිවෙකු සම්පූර්ණයෙන්ම ඉවත් නොකළ mercantilist අදහස්වලින් ඔහු තවමත් බලපෑමට ලක්වී සිටියේය.
 
-කෙසේ වෙතත්, Abbot of Saint-Pierre ආර්ථිකය පිළිබඳ නිවැරදි නිරීක්ෂණ කිහිපයක් කළේය. අදහස සඳහා බොහෝ විට ගෞරවය ලබන *Condillac*ටත් පෙර, ඕනෑම හුවමාරුවකදී පාර්ශව දෙකම ප්‍රයෝජන ලබන බව ඔහු පැහැදිලිව ප්‍රකාශ කළේය. මෙය ඔහුගේ 1733 ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) හි සොයාගත හැක; එහිදී ඔහු ලිවීය:
+කෙසේ වෙතත්, Abbot of Saint-Pierre ආර්ථිකය පිළිබඳ නිවැරදි නිරීක්ෂණ කිහිපයක් කළේය. අදහස සඳහා බොහෝ විට ගෞරවය ලබන *Condillac*ටත් පෙර, ඕනෑම හුවමාරුවකදී පාර්ශව දෙකම ප්‍රයෝජන ලබන බව ඔහු පැහැදිලිව ප්‍රකාශ කළේය. මෙය ඔහුගේ 1733 ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) හි සොයාගත හැක; එහිදී ඔහු ලිවීය:
 
 > වෙළෙන්දන් අතර විකිණීමක් සිදුවන විට, විකුණන්නා ලාභ ලබයි, මිලදී ගන්නාද එසේම ලාභ ලබයි; දෙපාර්ශවයේම යම් සැබෑ හෝ දැනෙන ප්‍රයෝජනයක් නොතිබුණේ නම්, විකුණන්නා එවැනි මිලකට විකුණන්නේ නැත, මිලදී ගන්නාද තම පැත්තෙන් එවැනි මිලකට මිලදී ගන්නේ නැත.
 
@@ -469,7 +469,7 @@ Gournay කවයේ බුද්ධිමය නිෂ්පාදනය අද
 
 ![ප්‍රංශයේ ආර්ථික ප්‍රකාශන පිළිබඳ අධ්‍යයනය, 1566-1789.](assets/en/035.webp)
 
-ප්‍රංශ ජනතාව අතර ආර්ථික සාකච්ඡා සඳහා රුචිය පැතිරවීමට, Gournay සහ ඔහුගේ මිතුරන් ඒවා නවකතා හරහා ප්‍රවේශ විය හැකි කිරීමට කටයුතු කළහ. ගිල්ඩ් විවේචනය කළ *Memoir on the Trades* පසු, Gournay සහ Cliquot-Blervache Gabriel-François Coyerට Chinki නම් කෙටි වින්‍යාසික නවකතාවක් ලිවීමට උපකාර කළහ: [අනෙකුත් ජාතීන්ට අදාළ Cochinchinese කතාවක්](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+ප්‍රංශ ජනතාව අතර ආර්ථික සාකච්ඡා සඳහා රුචිය පැතිරවීමට, Gournay සහ ඔහුගේ මිතුරන් ඒවා නවකතා හරහා ප්‍රවේශ විය හැකි කිරීමට කටයුතු කළහ. ගිල්ඩ් විවේචනය කළ *Memoir on the Trades* පසු, Gournay සහ Cliquot-Blervache Gabriel-François Coyerට Chinki නම් කෙටි වින්‍යාසික නවකතාවක් ලිවීමට උපකාර කළහ: [අනෙකුත් ජාතීන්ට අදාළ Cochinchinese කතාවක්](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf).
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -730,7 +730,7 @@ Quesnay එය සරලව තැබුවේය:
 
 Physiocrats රජයේ මැදිහත්වීමෙන් ඇති වූ හානිය, විශේෂයෙන් ධාන්‍ය වෙළඳාමේදී, දැක තිබුණි. ඔවුන් කියන පරිදි, අධිකාරිය පුද්ගලයන් කරන තරම් හොඳින් වාණිජය කළමනාකරණය කිරීමට කිසිදා සමත් නොවන බව පිළිගත යුතුය; මන්ද සෑම අවශ්‍යතාවකටම ප්‍රතිචාර දැක්වීමට සහ ඉල්ලුම හෝ සැපයුමේ සෑම වෙනසකටම ප්‍රතිචාර දැක්වීමට එයට අවශ්‍ය වනු ඇත. මේ සියල්ල කල්පනා කළ හැකි වඩාත් නුවණැති රජයක හැකියාවන්ටත් බොහෝ එහාය. එබැවින්, දේවල් එසේ වීමටත්, ඒවා ගලා යාමටත් ඉඩ දීම අවශ්‍ය වේ.
 
-ස්වභාවයෙන්ම ප්‍රයෝජනවත් වන වෙළඳාම සම්පූර්ණයෙන්ම සහ පරිපූර්ණව නිදහස් විය යුතුය. ඔවුන්ගේ සාමාජිකයෙකු වූ Le Trosne, [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/) නම් පම්ෆ්ලට් එකක් පවා ලිවීය.
+ස්වභාවයෙන්ම ප්‍රයෝජනවත් වන වෙළඳාම සම්පූර්ණයෙන්ම සහ පරිපූර්ණව නිදහස් විය යුතුය. ඔවුන්ගේ සාමාජිකයෙකු වූ Le Trosne, [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/) නම් පම්ෆ්ලට් එකක් පවා ලිවීය.
 
 ### පස්වන මූලධර්මය: සියලු මිනිසුන් සහෝදරයෝය
 

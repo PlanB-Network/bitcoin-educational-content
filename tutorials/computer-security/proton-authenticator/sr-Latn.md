@@ -572,8 +572,8 @@ Proton Authenticator je jedno od najopsežnijih i najsigurnijih rešenja dostupn
 
 
 
-- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/ProtonMail/proton-authenticator) - Otvoreni izvorni kod
-- **Bezbednosne provere**: [proton.me/community/security-audits](https://proton.me/community/security-audits) - Izveštaji nezavisnih revizija
+- **GitHub Proton Authenticator**: [github.com/ProtonMail/proton-authenticator](https://github.com/protonpass) - Otvoreni izvorni kod
+- **Bezbednosne provere**: [proton.me/community/security-audits](https://proton.me/community/open-source) - Izveštaji nezavisnih revizija
 
 
 

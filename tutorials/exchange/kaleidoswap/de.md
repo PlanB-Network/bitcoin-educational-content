@@ -296,7 +296,7 @@ Für Entwickler, die auf KaleidoSwap aufbauen, stellt die Anwendung einen API zu
 - WebSocket**: Für Echtzeit-Marktdaten-Abonnements.
 
 
-Die vollständigen Endpunkte und Spezifikationen finden Sie in der [API Dokumentation](https://docs.kaleidoswap.com/api/introduction).
+Die vollständigen Endpunkte und Spezifikationen finden Sie in der [API Dokumentation](https://docs.kaleidoswap.com/api-reference/introduction).
 
 
 ## Schlussfolgerung

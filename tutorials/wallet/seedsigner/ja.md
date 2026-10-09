@@ -94,7 +94,7 @@ SeedSignerを構築するには、以下のコンポーネントが必要です�
 
 - ハウジング（オプションだが推奨）***（オプションだが推奨）***（オプションだが推奨）***（オプションだが推奨）***)
     - デバイスを保護し、使いやすくします。
-    - 最も人気のあるモデルは「*オレンジピルケース*」で、[3Dプリント用にオープンソースのSTLファイルが公開されている](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures)。
+    - 最も人気のあるモデルは「*オレンジピルケース*」で、[3Dプリント用にオープンソースのSTLファイルが公開されている](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures)。
     - ボックスは、[プロジェクトにリンクしている独立系再販業者](https://seedsigner.com/hardware/)からも購入できる。
 
 

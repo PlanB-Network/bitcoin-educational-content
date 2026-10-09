@@ -395,7 +395,7 @@ Kaikkien näiden seikkojen tarkastelun jälkeen voit ostaa laitteesi suurella lu
 
 Tiivistääkseni tämän oppaan yhteen lauseeseen: **"Älä luota, varmista."**
 
-[Voit myös kääntyä ammattilaisten puoleen, jotka ovat erikoistuneet louhintalaitteiden kunnostukseen, kuten kumppanimme 21energy. He tarjoavat testattuja S9-laitteita, jotka on puhdistettu ja joissa on jo asennettuna BraiiinOS+ -ohjelmisto. Affiliate-koodilla "decouvre" saat 10 % alennuksen S9:n ostosta samalla tukien Attakai-projektia.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Voit myös kääntyä ammattilaisten puoleen, jotka ovat erikoistuneet louhintalaitteiden kunnostukseen, kuten kumppanimme 21energy. He tarjoavat testattuja S9-laitteita, jotka on puhdistettu ja joissa on jo asennettuna BraiiinOS+ -ohjelmisto. Affiliate-koodilla "decouvre" saat 10 % alennuksen S9:n ostosta samalla tukien Attakai-projektia.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Opas S9:n laitteistomuutosten hankintaan
 

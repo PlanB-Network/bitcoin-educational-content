@@ -43,7 +43,7 @@ GPG-signaturen genereras med hjälp av en programvara med öppen källkod som he
 Om någon däremot vill verifiera äktheten hos en signerad fil kan de använda GPG för att importera utfärdarens publika nyckel och verifiera den.
 
 
-För den som är nyfiken och vill lära sig mer om denna fantastiska programvara kan du läsa ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+För den som är nyfiken och vill lära sig mer om denna fantastiska programvara kan du läsa ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### Hur fungerar tidsstämpling?

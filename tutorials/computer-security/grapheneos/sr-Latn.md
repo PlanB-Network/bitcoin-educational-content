@@ -160,7 +160,7 @@ Jedine dve sa kojima možda niste upoznati su 'Auditor' i 'Vanadium'.
 
 
 
-- [Auditor aplikacija](https://play.google.com/store/apps/details?id=app.attestation.auditor) koristi sigurnosne funkcije zasnovane na hardveru za verifikaciju identiteta uređaja zajedno sa autentičnošću i integritetom operativnog sistema. Ona će proveriti da li uređaj koristi fabrički operativni sistem sa zaključanim bootloader-om i da nije došlo do neovlašćenog menjanja operativnog sistema.
+- [Auditor aplikacija](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) koristi sigurnosne funkcije zasnovane na hardveru za verifikaciju identiteta uređaja zajedno sa autentičnošću i integritetom operativnog sistema. Ona će proveriti da li uređaj koristi fabrički operativni sistem sa zaključanim bootloader-om i da nije došlo do neovlašćenog menjanja operativnog sistema.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) je varijanta Chromium veb pregledača sa pojačanom privatnošću i sigurnošću.
 
 
@@ -434,7 +434,7 @@ Levo: Geometrijsko vreme, Desno: Proton kalendar
 
 
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) nudi besplatno i E2EE rešenje za upravljanje lozinkama na više platformi za sve vaše uređaje. Njihova plaćena usluga omogućava integraciju 2FA kodova u aplikaciju. Serverska strana Bitwardena može se samostalno hostovati, a Android aplikacija je dostupna putem F-Droida.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) nudi besplatno i E2EE rešenje za upravljanje lozinkama na više platformi za sve vaše uređaje. Njihova plaćena usluga omogućava integraciju 2FA kodova u aplikaciju. Serverska strana Bitwardena može se samostalno hostovati, a Android aplikacija je dostupna putem F-Droida.
 - [Proton Pass](https://proton.me/pass/download) nudi sličnu besplatnu uslugu kao Bitwarden, ali korisnici [Proton Unlimited](https://proton.me/pricing) mogu pristupiti dodatnim naprednim funkcijama. Proton Pass je dostupan putem APK ili Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) je aplikacija za dvofaktorsku autentifikaciju za sisteme koji koriste protokole jednokratnih lozinki. Tokeni se mogu lako dodati skeniranjem QR koda. FreeOTP je dostupan putem F-Droid-a.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) je besplatna, sigurna i otvorenog koda aplikacija za Android za upravljanje vašim tokenima za dvostepenu verifikaciju za vaše onlajn usluge. Aegis je dostupan putem F-Droid-a.

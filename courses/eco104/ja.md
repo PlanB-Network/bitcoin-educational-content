@@ -747,7 +747,7 @@ _**面白い事実:** ビットコイントランザクションが確認され�
 
 ビットコインのブロックチェーンは、その名が示す通り、ブロックで構成されています。これらのブロックには理論上の最大サイズが4メガバイトあります。_ただし、執筆時点での平均ブロックサイズは約1.5MBです。_この制限のため、ビットコインが秒間に処理できる取引数には制限があり、それは秒間7から10の取引（tps）です。
 
-したがって、あなたは疑問に思うかもしれません:ビットコインのブロックチェーンは、秒間[1,700](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)の取引を行うVisaやMastercardのようなネットワークとどのように競合するのでしょうか？
+したがって、あなたは疑問に思うかもしれません:ビットコインのブロックチェーンは、秒間[1,700](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)の取引を行うVisaやMastercardのようなネットワークとどのように競合するのでしょうか？
 
 答えはシンプルです。それらと競合していません。
 
@@ -1065,13 +1065,13 @@ USDtの可能性をさらに探求するにつれて、Adannaはこの技術が�
 
 ウェスタンユニオンのような送金サービスを通じて海外にお金を送り返すことは無料ではありません。それには費用がかかり、少なくない、かなりの額がかかります。
 
-トンガに100米ドルを送ると、[12.61米ドル](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)の費用と、不利な為替レートによる8.60米ドルの追加損失が発生します。これは、送金された総額の21%以上が多国籍企業であるウェスタンユニオンに渡ってしまうことを意味します。その結果、本来ならトンガの家族の手に渡るはずだったかなりの金額が、送金サービス提供者のポケットに入ってしまいます。収入に21%もの追加があったら、どれほど有益か想像できますか？
+トンガに100米ドルを送ると、[12.61米ドル](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)の費用と、不利な為替レートによる8.60米ドルの追加損失が発生します。これは、送金された総額の21%以上が多国籍企業であるウェスタンユニオンに渡ってしまうことを意味します。その結果、本来ならトンガの家族の手に渡るはずだったかなりの金額が、送金サービス提供者のポケットに入ってしまいます。収入に21%もの追加があったら、どれほど有益か想像できますか？
 
 さらに、2021年のトンガのGDPが[4億6900万](https://tradingeconomics.com/tonga/gdp)ドルであり、その45.5%が送金から来ていることを考えると、送金にかかる法外な手数料は、トンガが追加で4520万ドルを失っていることを意味します。これらの手数料がなければ、GDPが9.6%増加する額です。
 
 そして、トンガだけがこの問題を抱えているのでしょうか？いいえ、もう一度考えてみてください。
 
-以下は、ウェスタンユニオンが100米ドルをいくつかの主要な国に送金する際に[請求する](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)手数料のサンプルです:
+以下は、ウェスタンユニオンが100米ドルをいくつかの主要な国に送金する際に[請求する](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF)手数料のサンプルです:
 
 - **中国:** 21.21ドルの手数料 + 2.60ドルの為替レート損失（23.81%の損失）
 - **カナダ、USA、メキシコ:** 16.86ドルの手数料 + 1.20ドルの為替レート損失（18.06%の損失）
@@ -1288,7 +1288,7 @@ _しかし、この理論は市場が個人で構成されており、人間の�
 
 CIAの元副局長が行ったある[研究](https://cryptoforinnovation.org/resources/Analysis_of_ビットコイン_in_Illicit_Finance.pdf)では、「ビットコインの不正な金融での使用に関する広範な一般化は、大幅に誇張されている」との結論が出されています。実際、2016年以降、ビットコインの総取引量の1%未満が不正な活動に使用されています。比較すると、「地下経済は米国の国内総生産（GDP）の11%から12%に達すると推定されている」が、その大部分は米ドルを使用して行われています。
 
-また、2020年のChainalysisの報告によると、不正な活動はビットコイン取引の約[0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)に過ぎません。
+また、2020年のChainalysisの報告によると、不正な活動はビットコイン取引の約[0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf)に過ぎません。
 
 しかし、この証拠があるにも関わらず、権力を持つ人々によって誤解を招く発言がなされ続けています。例えば、「暗号資産はオンライン薬物取引の利益を洗浄するために使用されてきた：それらはテロ資金調達のツールとなっている」と、米国財務長官のジャネット・イエレンは[主張](https://home.treasury.gov/news/press-releases/jy0023)しています。
 
@@ -1483,7 +1483,7 @@ _**図:** フレア[ガス](https://arstechnica.com/science/2022/09/oil-industry
 ## Roya Mahboob（ロヤ・マブーブ）
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-今日のグローバル化された世界では、金融サービスへのアクセスは経済参加と独立の重要な要素です。にもかかわらず、依然として多くの個人が従来の銀行システムから除外されており、特に女性がこの排除の重荷を背負っています。驚くべきことに、世界人口の[四分の一](https://www.worldbank.org/en/publication/globalfindex)が銀行サービスを利用できないにもかかわらず、サウジアラビアのような国では、[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)の女性が基本的な銀行サービスへのアクセスを欠いており、彼女たちが自国の経済や社会に完全に参加することを妨げています。
+今日のグローバル化された世界では、金融サービスへのアクセスは経済参加と独立の重要な要素です。にもかかわらず、依然として多くの個人が従来の銀行システムから除外されており、特に女性がこの排除の重荷を背負っています。驚くべきことに、世界人口の[四分の一](https://www.worldbank.org/en/publication/globalfindex)が銀行サービスを利用できないにもかかわらず、サウジアラビアのような国では、[36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)の女性が基本的な銀行サービスへのアクセスを欠いており、彼女たちが自国の経済や社会に完全に参加することを妨げています。
 
 以下は、今日でも世界中の女性が依然として耐えている条件のほんの一例です:
 

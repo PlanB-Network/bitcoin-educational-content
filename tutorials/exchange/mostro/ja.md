@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Nostr** 秘密鍵 (フォーマット `nsec1...`)
- - [nostrkeygen.com](https://nostrkeygen.com/)で専用の取引キーを作成する。
+ - [nostrkeygen.com](https://nostrtool.com/)で専用の取引キーを作成する。
  - 重要**：Nostrキーは絶対に使用しないでください。
  - 秘密鍵は安全な場所に保管する（パスワード・マネージャー）
 
@@ -962,7 +962,7 @@ Mostro P2Pは、中央集権的な取引所に代わる有望な選択肢であ�
 
 
 - [メインGitHubリポジトリ](https://github.com/MostroP2P/mostro)
-- [ウェブクライアント](https://github.com/MostroP2P/mostro-web)
+- [ウェブクライアント](https://github.com/MostroP2P/app)
 - [お客様 CLI](https://github.com/MostroP2P/mostro-cli)
 
 

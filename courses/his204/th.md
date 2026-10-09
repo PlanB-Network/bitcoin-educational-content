@@ -309,7 +309,7 @@ Abbot of Saint-Pierre แย้งว่ารัชสมัยของ Louis 
 
 ในแง่ความคิดทางเศรษฐกิจ เขานำหลักอรรถประโยชน์มาใช้อย่างสม่ำเสมอ คล้ายกับที่ Jeremy Bentham จะทำในภายหลัง และมักเสนอข้อสังเกตที่ถูกต้อง พูดอย่างเป็นธรรม เขายังคงได้รับอิทธิพลจากแนวคิดพาณิชย์นิยม ซึ่งไม่มีใครสลัดทิ้งได้ทั้งหมดในเวลานั้น
 
-ถึงกระนั้น Abbot of Saint-Pierre ก็มีข้อสังเกตที่แม่นยำบางอย่างเกี่ยวกับเศรษฐกิจ แม้ก่อน *Condillac* ซึ่งมักได้รับเครดิตเรื่องแนวคิดนี้ เขากล่าวอย่างชัดเจนว่าในการแลกเปลี่ยนใด ๆ ทั้งสองฝ่ายได้ประโยชน์ สิ่งนี้พบได้ใน ["Project for Improving France's Trade"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) ปี 1733 ของเขา ซึ่งเขาเขียนว่า:
+ถึงกระนั้น Abbot of Saint-Pierre ก็มีข้อสังเกตที่แม่นยำบางอย่างเกี่ยวกับเศรษฐกิจ แม้ก่อน *Condillac* ซึ่งมักได้รับเครดิตเรื่องแนวคิดนี้ เขากล่าวอย่างชัดเจนว่าในการแลกเปลี่ยนใด ๆ ทั้งสองฝ่ายได้ประโยชน์ สิ่งนี้พบได้ใน ["Project for Improving France's Trade"](https://web.archive.org/web/20260103065837/https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) ปี 1733 ของเขา ซึ่งเขาเขียนว่า:
 
 > เมื่อมีการขายเกิดขึ้นระหว่างพ่อค้า ผู้ขายได้กำไร และผู้ซื้อก็ได้กำไรเช่นกัน เพราะถ้าไม่มีประโยชน์จริงหรือประโยชน์ที่รับรู้ได้ทั้งสองฝ่าย ผู้ขายก็จะไม่ขายที่ราคาอย่างนั้น และผู้ซื้อก็จะไม่ซื้อที่ราคาอย่างนั้นเช่นกัน
 
@@ -469,7 +469,7 @@ Vincent de Gournay เป็นหนึ่งในตัวแทนกลุ�
 
 ![การศึกษาเรื่องงานพิมพ์เศรษฐศาสตร์ในฝรั่งเศส 1566-1789.](assets/en/035.webp)
 
-เพื่อเผยแพร่รสนิยมในการสนทนาเรื่องเศรษฐกิจในหมู่ประชาชนฝรั่งเศส Gournay และเพื่อน ๆ พยายามทำให้มันเข้าถึงได้ผ่านนวนิยาย หลัง *Memoir on the Trades* ซึ่งวิจารณ์กิลด์ Gournay และ Cliquot-Blervache ช่วย Gabriel-François Coyer เขียนนวนิยายเสียดสีสั้นชื่อ Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf)
+เพื่อเผยแพร่รสนิยมในการสนทนาเรื่องเศรษฐกิจในหมู่ประชาชนฝรั่งเศส Gournay และเพื่อน ๆ พยายามทำให้มันเข้าถึงได้ผ่านนวนิยาย หลัง *Memoir on the Trades* ซึ่งวิจารณ์กิลด์ Gournay และ Cliquot-Blervache ช่วย Gabriel-François Coyer เขียนนวนิยายเสียดสีสั้นชื่อ Chinki: [A Cochinchinese Tale Applicable to Other Nations](https://editions.institutcoppet.org/EL/Coyer-Chinki.pdf)
 
 ![Abbé Gabriel-François Coyer, “Chinki”](assets/en/036.webp)
 
@@ -732,7 +732,7 @@ Quesnay กล่าวอย่างเรียบง่ายว่า:
 
 กลุ่มฟิซิโอแครตได้เห็นความเสียหายที่เกิดจากการแทรกแซงของรัฐบาล โดยเฉพาะในการค้าธัญพืช เราต้องยอมรับ พวกเขากล่าวว่า อำนาจรัฐไม่มีวันจัดการพาณิชย์ได้ดีเท่าปัจเจกชน เพราะอำนาจรัฐต้องตอบสนองทุกความต้องการและตอบสนองทุกการเปลี่ยนแปลงของอุปสงค์หรืออุปทาน ทั้งหมดนี้เกินความสามารถของแม้แต่รัฐบาลที่ฉลาดที่สุดเท่าที่จะจินตนาการได้ ดังนั้น จึงจำเป็นต้องปล่อยให้สิ่งต่าง ๆ เป็นไปและให้มันไหลไป
 
-การค้าที่เป็นประโยชน์โดยธรรมชาติต้องเสรีทั้งหมดและสมบูรณ์ หนึ่งในสมาชิกของพวกเขา Le Trosne ถึงกับเขียนแผ่นพับชื่อ [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/)
+การค้าที่เป็นประโยชน์โดยธรรมชาติต้องเสรีทั้งหมดและสมบูรณ์ หนึ่งในสมาชิกของพวกเขา Le Trosne ถึงกับเขียนแผ่นพับชื่อ [*The Freedom of the Grain Trade: Always Useful, Never Harmful*](https://editions.institutcoppet.org/produit/le-trosne-la-liberte-du-commerce-des-grains-toujours-utile-et-jamais-nuisible/)
 
 ### หลักการที่ห้า: มนุษย์ทุกคนเป็นพี่น้องกัน
 

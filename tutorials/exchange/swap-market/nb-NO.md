@@ -639,7 +639,7 @@ Konkurransen mellom leverandørene forbedrer prisene og mangedobler kildene til 
 
 - [SwapMarket - Webapplikasjon](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknisk dokumentasjon](https://docs.boltz.exchange/)
+- [Teknisk dokumentasjon](https://github.com/BoltzExchange/boltz-backend)
 - [Guide til selvhosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

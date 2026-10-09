@@ -2751,7 +2751,7 @@ JoinMarket'in ana dezavantajlarından biri, etkin bir şekilde çalıştırmak i
 ![BTC204](assets/tr/137.webp)
 
 
-Kaynak: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Kaynak: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Bununla birlikte, teknik engel büyük bir engel olmaya devam etmektedir. Gizliliğin katılımcı sayısıyla güçlendirildiği CoinJoin ekosisteminde, erişilebilirliği azaltan herhangi bir sınırlama, karışımın verimliliğinde çok önemli bir faktör olan mevcut likiditeyi doğrudan etkiler. Finansal işlemlerde zaten bir niş olan Bitcoin, coinjoins kullanımını bir alt niş olarak görüyor ve JoinMarket bunun daha da özelleşmiş bir kısmını temsil ediyor, bu nedenle kullanıcılarının anonsetlerini artırma potansiyelini kısıtlıyor.

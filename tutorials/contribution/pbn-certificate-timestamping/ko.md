@@ -43,7 +43,7 @@ GPG 서명은 GNU Privacy Guard라는 오픈 소스 소프트웨어를 사용하
 반면에 서명된 파일의 진위 여부를 확인하려는 사람은 GPG를 사용하여 발급자의 공개키를 가져와서 확인할 수 있습니다.
 
 
-이 멋진 소프트웨어에 대해 더 자세히 알고 싶으시다면 ["GNU 개인정보 보호 핸드북"](https://www.gnupg.org/gph/en/manual/x135.html)을 참조하세요
+이 멋진 소프트웨어에 대해 더 자세히 알고 싶으시다면 ["GNU 개인정보 보호 핸드북"](https://www.gnupg.org/gph/en/manual.html#AEN136)을 참조하세요
 
 
 ### 타임스탬프는 어떻게 작동하나요?

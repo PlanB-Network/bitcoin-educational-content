@@ -410,7 +410,7 @@ Silentium तकनीकी बाधाओं के बिना साइल
 
 
 - आधिकारिक घोषणा (ट्विटर): https://x.com/TheSingerLouis/status/1790824126472667227
-- NoBS Bitcoin: https://www.nobsbitcoin.com/silentium-silent- payment/
+- NoBS Bitcoin: https://www.nobsbitcoin.com/silentium-silent-payments/ payment/
 - Bitcoin Optech - साइलेंट पेमेंट्स: https://bitcoinops.org/en/topics/silent-payments/
 
 

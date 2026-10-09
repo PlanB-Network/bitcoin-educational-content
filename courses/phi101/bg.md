@@ -350,7 +350,7 @@ objectives:
 ### Индустриалната революция под въпрос
 
 
-Всъщност марксисткият анализ изкривява историческата реалност на индустриалната революция. Лудвиг фон Мизес изяснява този въпрос в своя трактат по икономика [_Човешкото действие_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (вж. особено главата, озаглавена [Популярна интерпретация на индустриалната революция](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), както и в поредица от лекции, публикувани под заглавие: [_Икономическа политика: мисли за днес и утре_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Заслужава си да се прочете също така: The Anti-Capitalistic Mentality [тук](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) и [тук](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Всъщност марксисткият анализ изкривява историческата реалност на индустриалната революция. Лудвиг фон Мизес изяснява този въпрос в своя трактат по икономика [_Човешкото действие_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (вж. особено главата, озаглавена [Популярна интерпретация на индустриалната революция](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)), както и в поредица от лекции, публикувани под заглавие: [_Икономическа политика: мисли за днес и утре_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Заслужава си да се прочете също така: The Anti-Capitalistic Mentality [тук](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) и [тук](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/en/014.webp)
 

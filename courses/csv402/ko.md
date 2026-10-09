@@ -3292,7 +3292,7 @@ RGB 에코시스템에서 Interface은 Contract의 데이터와 연산에 읽기
 #### Interface 예제
 
 
-이 Rust 코드 스니펫은 [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface(대체 가능한 자산)를 보여줍니다. 이 코드는 표준 RGB 라이브러리의 `rgb20.rs` 파일에서 가져온 것입니다. 이를 통해 Interface의 구조를 이해하고, 한편으로는 Business Logic(Schema에 정의됨)과 지갑과 사용자에게 노출되는 기능 사이의 다리를 제공하는 방법을 살펴보겠습니다.
+이 Rust 코드 스니펫은 [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface(대체 가능한 자산)를 보여줍니다. 이 코드는 표준 RGB 라이브러리의 `rgb20.rs` 파일에서 가져온 것입니다. 이를 통해 Interface의 구조를 이해하고, 한편으로는 Business Logic(Schema에 정의됨)과 지갑과 사용자에게 노출되는 기능 사이의 다리를 제공하는 방법을 살펴보겠습니다.
 
 
 ```rust

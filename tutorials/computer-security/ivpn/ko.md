@@ -78,7 +78,7 @@ Linux 사용자의 경우 [이 페이지](https://www.ivpn.net/en/apps-linux/)�
 ## 스마트폰에 IVPN을 설치하는 방법은 무엇인가요?
 
 
-IOS 사용자의 경우 [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android 사용자의 경우 [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) 또는 [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) 등 앱 스토어에서 IVPN을 다운로드하세요. Android를 사용하는 경우, [IVPN 사이트](https://www.ivpn.net/en/apps-android/)에서 직접 '.apk' 파일을 다운로드할 수도 있습니다.
+IOS 사용자의 경우 [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android 사용자의 경우 [Google Play Store](https://www.ivpn.net/en/apps-android/) 또는 [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) 등 앱 스토어에서 IVPN을 다운로드하세요. Android를 사용하는 경우, [IVPN 사이트](https://www.ivpn.net/en/apps-android/)에서 직접 '.apk' 파일을 다운로드할 수도 있습니다.
 
 ![IVPN](assets/notext/05.webp)
 

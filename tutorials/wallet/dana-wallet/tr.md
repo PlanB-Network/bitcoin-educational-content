@@ -113,7 +113,7 @@ Dana Wallet'yi Android'e yüklemek için, güvenlik ayarlarında "Bilinmeyen kay
 
 
 
-Android cihazınızda F-Droid uygulamasını açın, ardından sağ alttaki simge aracılığıyla Ayarlar'a erişin. Uygulama kaynaklarını yönetmek için "Depolar "ı seçin. Yeni bir depo eklemek için "+" düğmesine basın, ardından QR kodunu tarayın veya `https://fdroid.silentpayments.dev/fdroid/repo` bağlantısını yapıştırın. Depo eklendikten sonra, Dana Wallet'in mevcut üç sürümünü göreceksiniz. "Dana Wallet - Bookmark "ı seçin ve "Install "a basın.
+Android cihazınızda F-Droid uygulamasını açın, ardından sağ alttaki simge aracılığıyla Ayarlar'a erişin. Uygulama kaynaklarını yönetmek için "Depolar "ı seçin. Yeni bir depo eklemek için "+" düğmesine basın, ardından QR kodunu tarayın veya `https://fdroid.danawallet.app/fdroid/repo` bağlantısını yapıştırın. Depo eklendikten sonra, Dana Wallet'in mevcut üç sürümünü göreceksiniz. "Dana Wallet - Bookmark "ı seçin ve "Install "a basın.
 
 
 
@@ -410,7 +410,7 @@ Sessiz Ödemeler, kullanım kolaylığı ve gizliliğe saygının uzlaştırılm
 
 
 - Dana Wallet GitHub deposu: https://github.com/cygnet3/danawallet
-- F-Cold depozito: https://fdroid.silentpayments.dev
+- F-Cold depozito: https://fdroid.danawallet.app/fdroid/repo/
 - Silent Payments topluluk sitesi: https://silentpayments.xyz
 - Spesifikasyon BIP-352: https://bips.dev/352
 

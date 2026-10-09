@@ -723,7 +723,7 @@ https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522
 - 如果区块补贴为零，而 Mempool 又是空的或几乎是空的，费用狙击会使情况变得不稳定。
 
 
-由于向只有交易费用的区块奖励过渡还遥遥无期，我们最好不要匆忙下结论，而是要趁早解决可能出现的问题。例如，Peter Todd 认为比特币的安全预算将来可能会不够用，因此主张在比特币中实行小规模的永久性通货膨胀。不过，他也认为现在讨论这个问题并不是一个好主意，正如[他在《What Bitcoin Did》播客中所说](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-bitcoin)：
+由于向只有交易费用的区块奖励过渡还遥遥无期，我们最好不要匆忙下结论，而是要趁早解决可能出现的问题。例如，Peter Todd 认为比特币的安全预算将来可能会不够用，因此主张在比特币中实行小规模的永久性通货膨胀。不过，他也认为现在讨论这个问题并不是一个好主意，正如[他在《What Bitcoin Did》播客中所说](https://www.youtube.com/watch?v=8yah3N9n84k)：
 
 
 > 但这是未来 10 年、20 年后的风险。那是一段很长的时间。到那时，谁知道会有什么风险呢？
@@ -819,7 +819,7 @@ Aaron van Wirdum 在他的 Bitcoin Magazine 题为 [The Long Road To SegWit](htt
 
 > Shaolinfry 提出了一种替代方案：UASF。UASF 将有一个 '标志日激活'，节点在未来某个预定时间开始执行，而不是按照哈希力激活的。"只要这种 UASF 由经济上的多数人执行，就会迫使大多数矿工遵循（或激活）其软分叉。
 
-其中，他引用了 Shaolinfry 发送给 Bitcoin-dev 邮件列表的电子邮件。在那封邮件中，Shaolinfry [反对矿工激活的软分叉](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html)，并列举了其中存在的一系列问题：
+其中，他引用了 Shaolinfry 发送给 Bitcoin-dev 邮件列表的电子邮件。在那封邮件中，Shaolinfry [反对矿工激活的软分叉](https://gnusha.org/pi/bitcoindev/jo5-7HCZX7tgdMpIQgK85HCPP14FWxvOIbjV_oerIfc-HOP1GbK3SxFX82Ls23yU1L7y95QsFFggddMNdo5Sxy7YhTJhRFN1f8d6PaA8b7s=@protonmail.ch/)，并列举了其中存在的一系列问题：
 
 
 > 首先，这需要相信 Hash 的能量在激活后会生效。  在 BIP66 Soft Fork 事件中，95% 的 Hashrate 发出了准备就绪的信号，但实际上约有一半的 Hashrate 并未真正验证升级后的规则，而是错误地在无效区块上进行了挖掘。
@@ -1719,7 +1719,7 @@ Maxwell 写下上述文章以来，许多年过去了，他的话依然正确。
 该列表显示了发布比特币补丁时必须多么小心谨慎，因为补丁本身就可能泄露漏洞。第四项尤其有趣，因为它解释了如何测试补丁是否伪装得足够好。事实上，如果几个真正有经验的开发者即使知道补丁修复了一个漏洞，也无法发现这个漏洞，那么对于其他人来说要发现该漏洞也很可能会非常困难。
 
 
-导致这封邮件的主题是讨论是否、何时以及如何披露山赛币和比特币的其他实现方式的漏洞。这里没有明确的答案。"帮助好人" 似乎是明智之举，但谁来决定谁是好人？Bryan Bishop [认为](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-September/014983.html)，帮助山赛币甚至诈骗币抵御安全漏洞是一种道德责任：
+导致这封邮件的主题是讨论是否、何时以及如何披露山赛币和比特币的其他实现方式的漏洞。这里没有明确的答案。"帮助好人" 似乎是明智之举，但谁来决定谁是好人？Bryan Bishop [认为](https://gnusha.org/pi/bitcoindev/CABaSBawaN8GTES96yZBKa574A0TiDAHvukipYH9MGk0Euev6PA@mail.gmail.com/)，帮助山赛币甚至诈骗币抵御安全漏洞是一种道德责任：
 
 
 > 仅仅保护比特币及其用户免受主动威胁是不够的，保护所有类型的用户和不同的软件免受各种形式的威胁才是更普遍的责任，即使人们使用的是连你个人也并不维护、贡献或倡导的愚蠢而不安全的软件。处理漏洞知识是一件很微妙的事情，您可能会收到比最初描述的更严重的直接或间接影响的知识。
@@ -1992,7 +1992,7 @@ BIP66 是一项收紧比特币脚本中签名编码规则的提案。其[动机]
 
 
 
-这一问题的完整披露由 Pieter Wuille 于 2015 年 7 月 28 日通过 [电子邮件发送至 Bitcoin-dev 邮件列表发布](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2015-July/009697.html)：
+这一问题的完整披露由 Pieter Wuille 于 2015 年 7 月 28 日通过 [电子邮件发送至 Bitcoin-dev 邮件列表发布](https://gnusha.org/pi/bitcoindev/55B79146.70309@gmail.com/)：
 
 
 > 大家好

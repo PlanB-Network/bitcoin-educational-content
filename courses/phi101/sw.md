@@ -242,7 +242,7 @@ Uchambuzi huu unaonyesha kutokuelewana kwa thamani ya ziada na hali ya ushirika 
 
 ### Mapinduzi ya Viwanda katika Swali
 
-Kwa hakika, uchambuzi wa Umaksi unapotosha ukweli wa kihistoria wa Mapinduzi ya Viwanda. Ludwig von Mises alifafanua suala hili katika mkataba wake wa uchumi [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (tazama hasa sura yenye kichwa [Tafsiri Maarufu ya Mapinduzi ya Viwanda](http://herve.dequengo.free.fr/Mises/AH/AH21.htm kama ilivyochapishwa katika mfululizo wa hotuba) [_Sera ya Kiuchumi: Mawazo ya Leo na Kesho_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Inafaa pia kusoma, The Anti-Capitalistic Mentality [hapa](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) na [hapa](http://herve.dequengo.free.fr/Mises/MACm)
+Kwa hakika, uchambuzi wa Umaksi unapotosha ukweli wa kihistoria wa Mapinduzi ya Viwanda. Ludwig von Mises alifafanua suala hili katika mkataba wake wa uchumi [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (tazama hasa sura yenye kichwa [Tafsiri Maarufu ya Mapinduzi ya Viwanda](http://herve.dequengo.free.fr/Mises/AH/AH21.htm kama ilivyochapishwa katika mfululizo wa hotuba) [_Sera ya Kiuchumi: Mawazo ya Leo na Kesho_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Inafaa pia kusoma, The Anti-Capitalistic Mentality [hapa](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) na [hapa](http://herve.dequengo.free.fr/Mises/MACm)
 
 ![image](assets/sw/014.webp)
 

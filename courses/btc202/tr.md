@@ -1521,7 +1521,7 @@ Umbrel'in rakiplerine göre en önemli avantajlarından biri geniş ve son derec
 
 
 
-Umbrel'in kodu kamuya açıktır (görüntüleyebilir, Fork ve değiştirebilirsiniz), ancak gerçek bir açık kaynak lisansı altında değildir. Aslında, umbrelOS [*PolyForm Noncommercial 1.0*] lisansı (https://polyformproject.org/licenses/noncommercial/1.0.0/) altında dağıtılmaktadır, ancak bazı ilişkili geliştirme araçları MIT lisansı altında mevcuttur.
+Umbrel'in kodu kamuya açıktır (görüntüleyebilir, Fork ve değiştirebilirsiniz), ancak gerçek bir açık kaynak lisansı altında değildir. Aslında, umbrelOS [*PolyForm Noncommercial 1.0*] lisansı (https://polyformproject.org/licenses/noncommercial/1.0.0) altında dağıtılmaktadır, ancak bazı ilişkili geliştirme araçları MIT lisansı altında mevcuttur.
 
 
 

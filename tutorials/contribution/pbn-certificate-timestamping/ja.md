@@ -29,7 +29,7 @@ GPG署名は、GNU Private Guardというオープンソースソフトウェア
 
 一方、署名されたファイルの真正性を検証したい場合、発行者の公開キーをGPGにインポートして検証することができます。チュートリアルの第二部で、ターミナルを使用してこれを行う方法を見ていきます。
 
-この素晴らしいソフトウェアについてもっと知りたいと思う方は、["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)を参照してください。
+この素晴らしいソフトウェアについてもっと知りたいと思う方は、["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)を参照してください。
 
 ### タイムスタンプはどのように機能するのか？
 

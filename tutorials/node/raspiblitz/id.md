@@ -14,7 +14,7 @@ RASPIBLITZ - Cara Menjalankan Lightning dan Bitcoin Full Node oleh BTC session
 
 ## Panduan Pengaturan Raspiblitz Parman
 
-RaspiBlitz adalah sistem yang sangat baik untuk menjalankan node Bitcoin dan aplikasi terkait. Aku merekomendasikan ini dan node MyNode ke sebagian besar pengguna, idealnya punya dua node untuk redundansi. Salah satu keuntungan utama adalah bahwa node RaspiBlitz merupakan "Free Open Source Software", tidak seperti MyNode atau Umbrel. [Mengapa itu penting? Vlad Costa menjelaskan.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Kamu juga bisa menjalankan Raspiblitz dengan koneksi WiFi daripada ethernet – berikut adalah [panduan tambahan](https://armantheparman.com/headless-wifi/). (Aku belum menemukan cara untuk melakukan ini dengan MyNode).
+RaspiBlitz adalah sistem yang sangat baik untuk menjalankan node Bitcoin dan aplikasi terkait. Aku merekomendasikan ini dan node MyNode ke sebagian besar pengguna, idealnya punya dua node untuk redundansi. Salah satu keuntungan utama adalah bahwa node RaspiBlitz merupakan "Free Open Source Software", tidak seperti MyNode atau Umbrel. [Mengapa itu penting? Vlad Costa menjelaskan.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Kamu juga bisa menjalankan Raspiblitz dengan koneksi WiFi daripada ethernet – berikut adalah [panduan tambahan](https://armantheparman.com/headless-wifi/). (Aku belum menemukan cara untuk melakukan ini dengan MyNode).
 
 Kamu bisa membeli node yang sudah jadi dengan layar mini terpasang, atau kamu bisa membangunnya sendiri. Kamu sebenarnya tidak perlu layar.
 

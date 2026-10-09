@@ -1366,7 +1366,7 @@ $$
 [3] ดู [วิดีโอ YouTube](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [พีชคณิตนามธรรม](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [พีชคณิตนามธรรม](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2749,7 +2749,7 @@ Bitcoins มีอยู่ในชุดที่เรียกว่าเ�
 ฟังก์ชันแฮชที่ทนต่อการชนกันมีความสำคัญ เช่น ในการตรวจสอบซอฟต์แวร์ สมมติว่าคุณต้องการดาวน์โหลด Windows release ของ Bitcoin Core 0.21.0 (แอปพลิเคชันเซิร์ฟเวอร์สำหรับประมวลผลการจราจรเครือข่าย Bitcoin) ขั้นตอนหลักที่คุณต้องดำเนินการเพื่อยืนยันความถูกต้องของซอฟต์แวร์มีดังนี้:
 
 
-1.	ขั้นแรกคุณต้องดาวน์โหลดและนำเข้าคีย์สาธารณะของผู้ร่วมพัฒนา Bitcoin Core หนึ่งคนหรือมากกว่าเข้าสู่ซอฟต์แวร์ที่สามารถตรวจสอบลายเซ็นดิจิทัลได้ (เช่น Kleopetra) คุณสามารถหาคีย์สาธารณะเหล่านี้ได้ [ที่นี่](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt) ขอแนะนำให้คุณตรวจสอบซอฟต์แวร์ Bitcoin Core ด้วยคีย์สาธารณะจากผู้ร่วมพัฒนาหลายคน
+1.	ขั้นแรกคุณต้องดาวน์โหลดและนำเข้าคีย์สาธารณะของผู้ร่วมพัฒนา Bitcoin Core หนึ่งคนหรือมากกว่าเข้าสู่ซอฟต์แวร์ที่สามารถตรวจสอบลายเซ็นดิจิทัลได้ (เช่น Kleopetra) คุณสามารถหาคีย์สาธารณะเหล่านี้ได้ [ที่นี่](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) ขอแนะนำให้คุณตรวจสอบซอฟต์แวร์ Bitcoin Core ด้วยคีย์สาธารณะจากผู้ร่วมพัฒนาหลายคน
 
 2.	ถัดไป คุณจำเป็นต้องตรวจสอบคีย์สาธารณะที่คุณนำเข้า อย่างน้อยหนึ่งขั้นตอนที่คุณควรทำคือการตรวจสอบว่าคีย์สาธารณะที่คุณพบตรงกับที่เผยแพร่ในสถานที่ต่างๆ หรือไม่ คุณอาจจะตรวจสอบจากหน้าเว็บส่วนตัว, หน้า Twitter, หรือหน้า Github ของบุคคลที่คุณนำเข้าคีย์สาธารณะ โดยทั่วไปการเปรียบเทียบคีย์สาธารณะนี้ทำโดยการเปรียบเทียบแฮชสั้นๆ ของคีย์สาธารณะที่เรียกว่าลายนิ้วมือ (fingerprint)
 

@@ -122,7 +122,7 @@ Per gli utenti esterni a Umbrel (ad esempio su un server personale, su un Raspbe
 
 
 
-**Prequisiti:** Assicurarsi che il sistema soddisfi i requisiti minimi secondo [documentation setup](https://docs.thunderhub.io/setup):
+**Prequisiti:** Assicurarsi che il sistema soddisfi i requisiti minimi secondo [documentation setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -136,7 +136,7 @@ Per gli utenti esterni a Umbrel (ad esempio su un server personale, su un Raspbe
 
 
 
-**1. Recuperare il codice ThunderHub:** Clonare il repository GitHub del progetto come descritto nella [documentazione di installazione](https://docs.thunderhub.io/installation):
+**1. Recuperare il codice ThunderHub:** Clonare il repository GitHub del progetto come descritto nella [documentazione di installazione](https://docs.thunderhub.io/get-started):
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. File di configurazione principale:** Creare un file `.env.local` nella radice della cartella ThunderHub per personalizzare la configurazione (questo impedirà che le impostazioni vengano sovrascritte durante gli aggiornamenti). Variabili principali come da [documentazione di setup](https://docs.thunderhub.io/setup):
+**1. File di configurazione principale:** Creare un file `.env.local` nella radice della cartella ThunderHub per personalizzare la configurazione (questo impedirà che le impostazioni vengano sovrascritte durante gli aggiornamenti). Variabili principali come da [documentazione di setup](https://docs.thunderhub.io/configure):
 
 
 
@@ -304,8 +304,8 @@ Viene visualizzata la pagina di accesso a ThunderHub. Selezionare l'account conf
 
 
 
-- **Installazione:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **Configurazione:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **Installazione:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **Configurazione:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

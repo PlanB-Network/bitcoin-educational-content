@@ -1521,7 +1521,7 @@ Rakendusi konteineritesse paigutades saate Umbreli kujundada nii, nagu soovite: 
 
 
 
-Umbreli kood on avalikult kättesaadav (seda saab vaadata, Fork ja muuta), kuid see ei ole tõelise avatud lähtekoodiga litsentsi all. Tegelikult levitatakse umbrelOSi [*PolyForm Noncommercial 1.0*] litsentsi (https://polyformproject.org/licenses/noncommercial/1.0.0/) alusel, kuigi mõned sellega seotud arendusvahendid on saadaval MIT-litsentsi alusel.
+Umbreli kood on avalikult kättesaadav (seda saab vaadata, Fork ja muuta), kuid see ei ole tõelise avatud lähtekoodiga litsentsi all. Tegelikult levitatakse umbrelOSi [*PolyForm Noncommercial 1.0*] litsentsi (https://polyformproject.org/licenses/noncommercial/1.0.0) alusel, kuigi mõned sellega seotud arendusvahendid on saadaval MIT-litsentsi alusel.
 
 
 

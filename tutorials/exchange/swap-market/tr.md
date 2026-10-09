@@ -639,7 +639,7 @@ Sağlayıcılar arasındaki rekabet oranları iyileştirir ve likidite kaynaklar
 
 - [SwapMarket - Web uygulaması](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknik dokümantasyon](https://docs.boltz.exchange/)
+- [Teknik dokümantasyon](https://github.com/BoltzExchange/boltz-backend)
 - [Guide self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

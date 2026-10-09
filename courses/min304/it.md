@@ -409,7 +409,7 @@ Dopo aver esaminato tutti questi punti, puoi acquistare la tua macchina con un a
 
 Per sintetizzare questa guida in una frase: **"Non fidarti, verifica"**.
 
-[Puoi anche rivolgerti a professionisti del ricondizionamento di macchine per il mining, come il nostro partner 21energy. Offrono S9 testati, puliti e con il software BraiiinOS+ già installato. Utilizzando il codice di affiliazione "decouvre", otterrai uno sconto del 10% sull'acquisto di un S9, supportando anche il progetto Attakai.](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Puoi anche rivolgerti a professionisti del ricondizionamento di macchine per il mining, come il nostro partner 21energy. Offrono S9 testati, puliti e con il software BraiiinOS+ già installato. Utilizzando il codice di affiliazione "decouvre", otterrai uno sconto del 10% sull'acquisto di un S9, supportando anche il progetto Attakai.](https://21energy.com/products/bitmain-antminer-s9)
 
 ## Guida all'acquisto di parti per modifiche hardware del S9
 

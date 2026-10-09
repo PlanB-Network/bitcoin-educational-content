@@ -337,7 +337,7 @@ token을 청구하려면 "Redeem"를 터치합니다.
 
 
 - 기술 문서 [docs.cashu.space](https://docs.cashu.space)
-- 퍼블릭 민트 목록: [bitcoinmints.com](https://bitcoinmints.com)
+- 퍼블릭 민트 목록: [bitcoinmints.com](https://cashumints.space/)
 - 공식 프로토콜 웹사이트: [cashu.space](https://cashu.space)
 
 

@@ -78,7 +78,7 @@ Kurulum tamamlandığında, hesap kimliğinizi girmeniz gerekecektir. Bunu nası
 ## IVPN bir akıllı telefona nasıl kurulur?
 
 
-IVPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android için [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) veya [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [IVPN sitesinden](https://www.ivpn.net/en/apps-android/) indirme seçeneğiniz de vardır.
+IVPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683), Android için [Google Play Store](https://www.ivpn.net/en/apps-android/) veya [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [IVPN sitesinden](https://www.ivpn.net/en/apps-android/) indirme seçeneğiniz de vardır.
 
 ![IVPN](assets/notext/05.webp)
 

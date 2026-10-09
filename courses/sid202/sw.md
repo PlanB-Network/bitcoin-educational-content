@@ -46,7 +46,7 @@ Elements ni chanzo huria, jukwaa la [Blockchain](https://planb.academy/resources
 
 Elements ni, msingi wake, itifaki inayowezesha [maafikiano](https://planb.academy/resources/glossary/consensus) kuundwa kuhusu historia ya [muamala](https://planb.academy/resources/glossary/transaction-tx) na sheria zinazosimamia uhamishaji na uundaji wa mali iliyohifadhiwa katika Blockchain Ledger iliyosambazwa.
 
-Maelezo zaidi ya usuli kuhusu Elements yanaweza kupatikana kwa urahisi kwenye tovuti ya Mradi wa Elements ( https://elementsproject.org/ ), blogu rasmi ya Liquid ( https://blog.Liquid.net/ ), na tovuti ya msanidi programu(https://Liquid.net/devs).
+Maelezo zaidi ya usuli kuhusu Elements yanaweza kupatikana kwa urahisi kwenye tovuti ya Mradi wa Elements ( https://elementsproject.org/ ), blogu rasmi ya Liquid ( https://blog.Liquid.net/ ), na tovuti ya msanidi programu(https://liquid.net/developers).
 
 ### Elements
 

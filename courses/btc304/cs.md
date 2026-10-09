@@ -1500,7 +1500,7 @@ Pokud se chcete připravit na klidnější chvíle, můžete si naplánovat něk
 - přináší **Nerdminer**, Bitaxe, FPGA nebo dokonce ASIC;
 - má leták **Bitcoin**;
 - vymýšlení vizuálu nebo loga Bitcoin pro vaši komunitu;
-- hraní **[karetní hry Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- hraní **[karetní hry Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - zobrazuje **[btcmap.org](https://btcmap.org/)** mapu komunit a obchodníků;
 - odesílání nebo přijímání Bitcoin pomocí **Lightning**.
 
@@ -1871,7 +1871,7 @@ V závislosti na vašich možnostech a míře zapojení ve vaší komunitě mů�
 
 - Večer v restauraci na **Den pizzy** 22. května
 - Večer nebo víkend na oslavu dalšího **Halving**
-- Rodinný **herní večer** o Bitcoin a jeho fungování s využitím her jako [Le Coin de Table](https://www.Maximalist.ovh/) nebo [SHAmory](https://shamory.com/)
+- Rodinný **herní večer** o Bitcoin a jeho fungování s využitím her jako [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) nebo [SHAmory](https://shamory.com/)
 - Workshop **Mining** představující různé typy hardwaru (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **odpoledne nebo večer pro začátečníky** s tematickými workshopy
 - **společné setkání se sousedními komunitami**

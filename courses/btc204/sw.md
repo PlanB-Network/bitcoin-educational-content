@@ -1891,7 +1891,7 @@ Moja ya vikwazo kuu vya JoinMarket ni ugumu wake wa matumizi, ambao unahitaji ki
 
 ![BTC204](assets/sw/137.webp)
 
-Chanzo : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Chanzo : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 Hata hivyo, kikwazo cha kiufundi bado ni kikwazo kikubwa. Katika mfumo ikolojia wa kuunga sarafu, ambapo usiri huimarishwa na idadi ya washiriki, kizuizi chochote kinachopunguza ufikivu huathiri moja kwa moja ukwasi unaopatikana, ambayo ni sababu muhimu katika ufanisi wa mchanganyiko. Bitcoin, ikiwa tayari ni chachu katika shughuli za kifedha, inaona matumizi yake ya kuunga sarafu kama sehemu ndogo, na JoinMarket inawakilisha sehemu yake maalum zaidi, ambayo kwa hivyo inazuia uwezo wake wa kuongeza anonsets za watumiaji wake.
 

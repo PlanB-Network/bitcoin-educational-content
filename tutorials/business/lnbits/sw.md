@@ -513,7 +513,7 @@ Ambapo unabadilisha f8a43fc363ea428db5c53b3559935f1f na thamani inayokuja kabla 
 ##### LNURL ya Lightning-Address kinyume chake
 
 
-Jaribu hii [encoder](https://lnurl-codec.netlify.app/) kutoka fiatjaf au [hii](https://lightningdecoder.com/). Ili kulipa au kuangalia LNURLp unaweza pia kutumia [LNurlpay](https://wwww.lnurlpay.com/). Inapaswa kusema HTTPS SI HTTP.
+Jaribu hii [encoder](https://lnurl-codec.netlify.app/) kutoka fiatjaf au [hii](https://lightningdecoder.com/). Ili kulipa au kuangalia LNURLp unaweza pia kutumia [LNurlpay](https://www.lnurlpay.com/). Inapaswa kusema HTTPS SI HTTP.
 
 
 

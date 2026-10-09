@@ -937,7 +937,7 @@ For videre diskusjon om moderne tallteori kan du konsultere mange avanserte disk
 
 [3] Se [YouTube-video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica, [Abstrakt algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstrakt algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz og Lindell, *Introduction to Modern Cryptography*, 2. utgave, 2015 (CRC Press: Boca Raton, FL). Paar og Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1900,7 +1900,7 @@ En hashfunksjon $H$ sies å være **kollisjonsresistent** hvis det er umulig å 
 
 Kollisjonsresistente hash-funksjoner er viktige, for eksempel ved verifisering av programvare. Anta at du ønsker å laste ned Windows-versjonen av Bitcoin Core 0.21.0 (en serverapplikasjon for behandling av Bitcoin-nettverkstrafikk). De viktigste stegene du må ta for å verifisere programvarens legitimitet, er som følger:
 
-1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
+1.	Du må først laste ned og importere de offentlige nøklene til en eller flere bidragsytere til Bitcoin Core til programvare som kan verifisere digitale signaturer (f.eks. Kleopetra). Du finner disse offentlige nøklene [her](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Det anbefales at du verifiserer Bitcoin Core-programvaren med de offentlige nøklene fra flere bidragsytere.
 
 2.	Deretter må du verifisere de offentlige nøklene du har importert. Du bør i det minste kontrollere at de offentlige nøklene du har funnet, er de samme som er publisert på andre steder. Du kan for eksempel sjekke de personlige nettsidene, Twitter-sidene eller Github-sidene til personene du har importert de offentlige nøklene til. Vanligvis gjøres denne sammenligningen av offentlige nøkler ved å sammenligne en kort hash av den offentlige nøkkelen, et såkalt fingeravtrykk.
 

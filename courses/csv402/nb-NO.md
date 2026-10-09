@@ -2313,7 +2313,7 @@ Avhengig av hvilken dato du konsulterer dette kurset, kan det selvsagt hende at 
 
 #### Eksempel på grensesnitt
 
-Denne Rust-kodebiten viser et [RGB20](https://github.com/RGB-WG/rgb-std/blob/master/src/interface/rgb20.rs)-grensesnitt (fungible asset). Denne koden er hentet fra filen `rgb20.rs` i standard RGB-biblioteket. La oss ta en titt på den for å forstå strukturen til et grensesnitt og hvordan det bygger bro mellom forretningslogikken (definert i skjemaet) på den ene siden og funksjonalitetene som eksponeres for lommebøker og brukere på den andre siden.
+Denne Rust-kodebiten viser et [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs)-grensesnitt (fungible asset). Denne koden er hentet fra filen `rgb20.rs` i standard RGB-biblioteket. La oss ta en titt på den for å forstå strukturen til et grensesnitt og hvordan det bygger bro mellom forretningslogikken (definert i skjemaet) på den ene siden og funksjonalitetene som eksponeres for lommebøker og brukere på den andre siden.
 
 ```rust
 // ...

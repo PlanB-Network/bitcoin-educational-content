@@ -618,7 +618,7 @@ När du har gått igenom alla dessa punkter kan du köpa din maskin med en hög 
 För att sammanfatta den här guiden i en mening: **"Lita inte på, verifiera."**
 
 
-[Du kan också vända dig till proffs inom rekonditionering av Mining-maskiner, till exempel vår partner 21energy. De erbjuder testade S9-maskiner, rengjorda och med BraiiinOS+-programvaran redan installerad. Med affiliatekoden "decouvre" får du 10% rabatt på köpet av en S9 samtidigt som du stödjer Attakai-projektet](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Du kan också vända dig till proffs inom rekonditionering av Mining-maskiner, till exempel vår partner 21energy. De erbjuder testade S9-maskiner, rengjorda och med BraiiinOS+-programvaran redan installerad. Med affiliatekoden "decouvre" får du 10% rabatt på köpet av en S9 samtidigt som du stödjer Attakai-projektet](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## Guide för inköp av hårdvarumodifieringar för S9

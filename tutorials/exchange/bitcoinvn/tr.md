@@ -65,7 +65,7 @@ Takas etmek istediğiniz miktarı manuel olarak girin ve bir hesabınız yoksa k
 Unutmayın ki **işlem oranları dalgalanabilir**, bu nedenle onaylamadan önce her zaman nihai fiyatı kontrol edin.
 
 
-**Günlük 250.000 VND (~ 8 ABD Doları) ile sınırlı işlemler için bir hesap gerekli değildir. Daha fazla bilgi [banka transfer politikalarımızda](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer) mevcuttur.
+**Günlük 250.000 VND (~ 8 ABD Doları) ile sınırlı işlemler için bir hesap gerekli değildir. Daha fazla bilgi [banka transfer politikalarımızda](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer) mevcuttur.
 
 
 **Dikkat**: Lightning Network'i seçtiğinizde ağ ücreti genellikle onchain işlem yöntemine kıyasla daha ucuzdur.

@@ -387,7 +387,7 @@ Hvor du erstatter f8a43fc363ea428db5c53b3559935f1f med verdien som kommer før n
 
 ##### LNURL for en lyn-adresse og omvendt
 
-Prøv denne [encoder](https://lnurl-codec.netlify.app/) fra fiatjaf eller [denne](https://lightningdecoder.com/). For å betale eller sjekke en LNURLp kan du også bruke [LNurlpay](https://wwww.lnurlpay.com/). Det skal stå HTTPS IKKE HTTP.
+Prøv denne [encoder](https://lnurl-codec.netlify.app/) fra fiatjaf eller [denne](https://lightningdecoder.com/). For å betale eller sjekke en LNURLp kan du også bruke [LNurlpay](https://www.lnurlpay.com/). Det skal stå HTTPS IKKE HTTP.
 
 ##### Konfigurer en kommentar som folk ser når de betaler til min LNURLp QR
 

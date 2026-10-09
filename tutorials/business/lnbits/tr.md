@@ -514,7 +514,7 @@ Burada f8a43fc363ea428db5c53b3559935f1f yerine addan önce gelen değeri (örne�
 ##### Lightning-Address tersi için LNURL
 
 
-Fiatjaf'tan bu [kodlayıcıyı](https://lnurl-codec.netlify.app/) veya [bunu](https://lightningdecoder.com/) deneyin. Bir LNURLp'yi ödemek veya kontrol etmek için [LNurlpay](https://wwww.lnurlpay.com/)'i de kullanabilirsiniz. HTTP DEĞİL HTTPS belirtmelidir.
+Fiatjaf'tan bu [kodlayıcıyı](https://lnurl-codec.netlify.app/) veya [bunu](https://lightningdecoder.com/) deneyin. Bir LNURLp'yi ödemek veya kontrol etmek için [LNurlpay](https://www.lnurlpay.com/)'i de kullanabilirsiniz. HTTP DEĞİL HTTPS belirtmelidir.
 
 
 

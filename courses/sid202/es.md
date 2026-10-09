@@ -61,7 +61,7 @@ Elements es una plataforma de [blockchain](https://planb.academy/resources/gloss
 
 Elements es, en esencia, un protocolo que permite llegar a un [consenso](https://planb.academy/resources/glossary/consensus) en torno al historial de [transacciones](https://planb.academy/resources/glossary/transaction-tx) y las normas que rigen la transferencia y creación de assets almacenados en un libro mayor distribuido de blockchain.
 
-Encontrará más información sobre Elements en el sitio web del proyecto (https://elementsproject.org/), el blog oficial de Liquid (https://blog.liquid.net/) y el portal para desarrolladores (https://liquid.net/devs).
+Encontrará más información sobre Elements en el sitio web del proyecto (https://elementsproject.org/), el blog oficial de Liquid (https://blog.liquid.net/) y el portal para desarrolladores (https://liquid.net/developers).
 
 ### Elements
 

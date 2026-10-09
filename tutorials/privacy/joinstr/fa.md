@@ -650,7 +650,7 @@ Joinstr یک راه‌حل حریم خصوصی Bitcoin به‌طور واقعی 
 
 
 
-- [وب‌سایت رسمی Joinstr](https://joinstr.xyz)
+- [وب‌سایت رسمی Joinstr](https://docs.joinstr.xyz/)
 - [مستندات کاربر](https://docs.joinstr.xyz/users/using-joinstr)
 - [مستندات فنی](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [کد منبع GitLab](https://gitlab.com/invincible-privacy/joinstr)

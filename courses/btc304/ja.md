@@ -1498,7 +1498,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 - **Nerdminer**、Bitaxe、FPGA、あるいはASICを持ってくる；
 - ビットコインのチラシを持っている；
 - ビットコインのビジュアルやロゴをあなたのコミュニティで考えてみませんか？
-- [ビットコインカードゲーム](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)；
+- [ビットコインカードゲーム](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)；
 - [btcmap.org](https://btcmap.org/) **コミュニティと商店の地図を表示する；**
 - **ライトニング**を使用してビットコインを送信または受信する。
 
@@ -1864,7 +1864,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 
 - 5月22日の**ピッツァの日**のためのレストラン・ナイト
 - 次の**Halving**を祝う夜または週末
-- [Le Coin de Table](https://www.Maximalist.ovh/)や[SHAmory](https://shamory.com/)のようなゲームを使って、ビットコインとその仕組みについて家族で**ゲームナイト**をする。
+- [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)や[SHAmory](https://shamory.com/)のようなゲームを使って、ビットコインとその仕組みについて家族で**ゲームナイト**をする。
 - さまざまな種類のハードウェア（CPU、GPU、FPGA、ASIC、Nerdminer、Bitaxe）を紹介する**Miningワークショップ**。
 - テーマに沿ったワークショップを行う、**初心者のための午後または夕方の時間**。
 - 近隣地域との**合同ミートアップ**。

@@ -650,7 +650,7 @@ Kutokana na hali ya kuongezeka kwa uchunguzi wa kifedha, zana zilizogatuliwa kul
 
 
 
-- [Jiunge na tovuti rasmi](https://joinstr.xyz)
+- [Jiunge na tovuti rasmi](https://docs.joinstr.xyz/)
 - [Hati za mtumiaji](https://docs.joinstr.xyz/users/using-joinstr)
 - [Nyaraka za kiufundi](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Msimbo wa chanzo wa GitLab](https://gitlab.com/invincible-privacy/joinstr)

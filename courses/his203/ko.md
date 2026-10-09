@@ -523,7 +523,7 @@ Ross의 자유주의 철학에 따라 사이트에 등록할 수 있는 제품�
 2011년 3월 1일, 송금이 공식적으로 이루어지려던 찰나에 사이트의 wallet.dat 파일에 대한 악의적인 접근으로 80,000 비트코인이 [증발](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114)했습니다. 3일, 제드 맥칼렙은 인출을 발견하고 [알림](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2)을 통해 "뭔가 나쁜 일이 일어났다"고 IRC에 알렸습니다. 이는 큰 손실(당시 1비트코인은 0.92달러에 판매됨)이었으며, 이후 몇 달 동안 전례 없는 가격 상승으로 인해 손실 규모는 점점 더 커질 것입니다.
 
 
-이 문제는 4월 18일 Jed가 마크에게 보낸 이메일에서 [언급](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)했습니다:
+이 문제는 4월 18일 Jed가 마크에게 보낸 이메일에서 [언급](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)했습니다:
 
 
 > "가격이 100달러로 올라간다면 8만 BTC가 부족하다는 것이 얼마나 큰 문제가 될지 모르겠습니다. 그 시점에서 빚진 금액이 꽤 많지만 mtgox는 거기에 도달하기 위해 BTC (Bitcoin)를 많이 만들었어야했습니다. 또한 BTC (Bitcoin) 잔액이 8만 달러 이하로 떨어지지 않을 것이라는 사실도 여전히 존재합니다. 따라서 걱정할 필요가 없을 것 같습니다."
@@ -608,7 +608,7 @@ Bitcoin 마켓(HIS201에서 언급)을 제외하고, 마운트곡스와 실질�
 
 
 
-동유럽에서는 폴란드에 기반을 둔 Bitomat 플랫폼이 4월 4일에 [출시](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871)되었습니다. 인터페이스는 초보적인 수준이었지만 폴란드 사용자들이 자신의 즐로티를 비트코인으로 교환할 수 있었습니다. 캐나다에서 7월 2일에 [오픈](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)한 캐버텍스도 언급할 가치가 있습니다.
+동유럽에서는 폴란드에 기반을 둔 Bitomat 플랫폼이 4월 4일에 [출시](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166)되었습니다. 인터페이스는 초보적인 수준이었지만 폴란드 사용자들이 자신의 즐로티를 비트코인으로 교환할 수 있었습니다. 캐나다에서 7월 2일에 [오픈](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448)한 캐버텍스도 언급할 가치가 있습니다.
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica는 2011년 9월 8일에 17세 중국 소년 저우 통(본명은 라�
 
 
 
-얼마 후 등장한 또 다른 프로젝트는 미르체아 포페스쿠라는 매우 논란의 여지가 있는 인물을 탄생시킨 MPEx였습니다. 트란실바니아 출신인 그는 자신의 블로그 [Trilema](http://trilema.com/archives-categories/)에서 철학, 정치, 성 등 모든 주제에 대해 고의적으로 도발적인 문체로 글을 썼으며, 초기에는 루마니아어로 글을 썼던 다작 작가였습니다. 2011년 여름에 Bitcoin에 관심을 갖게 된 그는 자신의 블로그에서 이에 대해 [이야기](http://trilema.com/2011/ce-este-bitcoin/)하기 시작했습니다.
+얼마 후 등장한 또 다른 프로젝트는 미르체아 포페스쿠라는 매우 논란의 여지가 있는 인물을 탄생시킨 MPEx였습니다. 트란실바니아 출신인 그는 자신의 블로그 [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/)에서 철학, 정치, 성 등 모든 주제에 대해 고의적으로 도발적인 문체로 글을 썼으며, 초기에는 루마니아어로 글을 썼던 다작 작가였습니다. 2011년 여름에 Bitcoin에 관심을 갖게 된 그는 자신의 블로그에서 이에 대해 [이야기](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/)하기 시작했습니다.
 
 
 
@@ -1286,7 +1286,7 @@ Bitcoinica는 2011년 9월 8일에 17세 중국 소년 저우 통(본명은 라�
 
 
 
-2012년 2월 말에는 주식과 채권을 발행하여 [자금 조달](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)을 진행하여 3,200비트코인, 당시로서는 약 16,000달러를 모금했습니다. 4월 11일, 베타 단계를 거쳐 [드디어](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 다양한 주식을 발행하고 거래할 수 있는 비트코인 거래소로 거듭났고, '미르체아 포페스쿠의 Exchange'의 약자인 MPEx로 이름을 변경했습니다.
+2012년 2월 말에는 주식과 채권을 발행하여 [자금 조달](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)을 진행하여 3,200비트코인, 당시로서는 약 16,000달러를 모금했습니다. 4월 11일, 베타 단계를 거쳐 [드디어](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 다양한 주식을 발행하고 거래할 수 있는 비트코인 거래소로 거듭났고, '미르체아 포페스쿠의 Exchange'의 약자인 MPEx로 이름을 변경했습니다.
 
 
 
@@ -1484,7 +1484,7 @@ Bitcoin의 사용성을 개선하려는 노력은 *결정론적 wallet*의 등�
 
 
 
-*2006 년 Gregory Maxwell (출처: [위키미디어](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*2006 년 Gregory Maxwell (출처: [위키미디어](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ USB 스틱과 같은 디지털 백업 매체에 개인 키를 저장하여 Cold�
 
 
 
-*2011년 카사시우스의 첫 비트코인 (출처: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*)
+*2011년 카사시우스의 첫 비트코인 (출처: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*)
 
 
 
@@ -2004,7 +2004,7 @@ mining 풀의 광범위한 사용으로 인한 중앙 집중화를 막기 위한
 
 
 
-*쉐어체인 시각화(출처: Bitcoin 위키](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*)
+*쉐어체인 시각화(출처: Bitcoin 위키](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*)
 
 
 
@@ -2106,7 +2106,7 @@ Satoshi Nakamoto가 떠난 후 소프트웨어 개발은 커뮤니티가 맡았�
 
 
 
-*2012년 2월 Bitcoin-Qt 0.5.2 캡처 (출처: [짐넬린](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) 위키미디어 제공)*
+*2012년 2월 Bitcoin-Qt 0.5.2 캡처 (출처: [짐넬린](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) 위키미디어 제공)*
 
 
 

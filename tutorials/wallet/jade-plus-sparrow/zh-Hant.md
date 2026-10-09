@@ -294,7 +294,7 @@ PIN 碼用於解鎖您的 Jade，並可防止未經授權的實體存取。此 P
 ![Image](assets/fr/15.webp)
 
 
-您可以使用 Jade Plus 方塊中提供的 QR 碼底座。根據您選擇的是 12 個字還是 24 個字的句子，選擇適當的方塊。您也可以 [從 Blockstream 網站列印範本](https://help.blockstream.com/hc/article_attachments/41928319071769)。
+您可以使用 Jade Plus 方塊中提供的 QR 碼底座。根據您選擇的是 12 個字還是 24 個字的句子，選擇適當的方塊。您也可以 [從 Blockstream 網站列印範本](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase)。
 
 
 您的 Jade Plus 將顯示 QR 代碼的每個區域。

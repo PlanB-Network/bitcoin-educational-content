@@ -14,7 +14,7 @@ RASPIBLITZ - Cách Chạy Một Node Lightning và Bitcoin Full Node bởi BTC s
 
 ## Hướng dẫn Thiết lập Raspiblitz của Parman
 
-Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costa giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
+Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costa giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
 
 Bạn có thể mua một node đã được làm sẵn với một màn hình mini gắn kèm, hoặc bạn có thể tự xây dựng nó (bạn không cần màn hình).
 

@@ -639,7 +639,7 @@ Konkurrensen mellan leverantörerna förbättrar priserna och multiplicerar likv
 
 - [SwapMarket - Webbapplikation](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Teknisk dokumentation](https://docs.boltz.exchange/)
+- [Teknisk dokumentation](https://github.com/BoltzExchange/boltz-backend)
 - [Guide för självhosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

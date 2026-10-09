@@ -643,8 +643,8 @@ Onthoud: het beschermen van je privacy hangt niet alleen af van je browser. Comb
 
 
 - **Officiële website**: [kagi.com/orion](https://kagi.com/orion/)
-- **Volledige FAQ**: [browser.kagi.com/faq](https://browser.kagi.com/faq)
-- **Community forum**: [community.kagi.com](https://community.kagi.com)
+- **Volledige FAQ**: [browser.kagi.com/faq](https://help.kagi.com/orion/faq/faq.html)
+- **Community forum**: [community.kagi.com](https://help.kagi.com/orion/support-and-community/)
 - **Bug tracking**: [orionfeedback.org](https://orionfeedback.org)
 - **GitHub Orion**: [github.com/OrionBrowser](https://github.com/OrionBrowser) - Open-source componenten
 - **Blog Kagi**: [blog.kagi.com](https://blog.kagi.com) - Nieuws en updates

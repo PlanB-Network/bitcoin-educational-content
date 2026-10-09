@@ -3272,7 +3272,7 @@ Naravno, u zavisnosti od datuma na koji konsultujete ovaj kurs, ove interfejse m
 #### Interface primer
 
 
-Ovaj Rust isječak koda prikazuje [RGB20](https://github.com/RGB-WG/RGB-std/blob/master/src/Interface/rgb20.rs) Interface (fungibilna imovina). Ovaj kod je preuzet iz `rgb20.rs` datoteke u standardnoj RGB biblioteci. Pogledajmo ga kako bismo razumeli strukturu Interface i kako pruža most između, s jedne strane, Business Logic (definisanog u Schema) i, s druge strane, funkcionalnosti dostupnih novčanicima i korisnicima.
+Ovaj Rust isječak koda prikazuje [RGB20](https://github.com/RGB-WG/rgb-std/blob/v0.11.0-beta.4/src/interface/rgb20.rs) Interface (fungibilna imovina). Ovaj kod je preuzet iz `rgb20.rs` datoteke u standardnoj RGB biblioteci. Pogledajmo ga kako bismo razumeli strukturu Interface i kako pruža most između, s jedne strane, Business Logic (definisanog u Schema) i, s druge strane, funkcionalnosti dostupnih novčanicima i korisnicima.
 
 
 ```rust

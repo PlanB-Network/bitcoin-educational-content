@@ -48,7 +48,7 @@ Po dokončení instalace budete muset zadat své ID účtu. Jak jej získat, uvi
 ![IVPN](assets/notext/04.webp)
 ## Jak nainstalovat IVPN na smartphone?
 
-Stáhněte si IVPN z vašeho obchodu s aplikacemi, ať už je to [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) pro uživatele iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) pro Android, nebo [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Pokud používáte Android, máte také možnost stáhnout soubor `.apk` přímo ze [stránek IVPN](https://www.ivpn.net/en/apps-android/).
+Stáhněte si IVPN z vašeho obchodu s aplikacemi, ať už je to [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) pro uživatele iOS, [Google Play Store](https://www.ivpn.net/en/apps-android/) pro Android, nebo [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Pokud používáte Android, máte také možnost stáhnout soubor `.apk` přímo ze [stránek IVPN](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Při prvním použití aplikace budete odhlášeni. Budete muset zadat své ID účtu, aby bylo možné službu aktivovat.
 ![IVPN](assets/notext/06.webp)

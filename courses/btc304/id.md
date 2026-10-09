@@ -1500,7 +1500,7 @@ Jika Anda ingin mempersiapkan diri untuk saat-saat yang lebih tenang, Anda bisa 
 - membawa **Nerdminer**, Bitaxe, FPGA atau bahkan ASIC;
 - memiliki brosur **Bitcoin**;
 - melakukan curah pendapat tentang visual atau logo Bitcoin untuk komunitas Anda;
-- memainkan **[permainan kartu Bitcoin](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- memainkan **[permainan kartu Bitcoin](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - menunjukkan peta **[btcmap.org](https://btcmap.org/)** komunitas dan pedagang;
 - mengirim atau menerima Bitcoin menggunakan **Lightning**.
 
@@ -1871,7 +1871,7 @@ Tergantung pada ketersediaan Anda dan tingkat keterlibatan dalam komunitas Anda,
 
 - Malam restoran untuk merayakan **Pizza Day** pada tanggal 22 Mei
 - Malam atau akhir pekan untuk merayakan **Halving** berikutnya
-- Malam permainan keluarga tentang Bitcoin dan cara kerjanya, menggunakan permainan seperti [Le Coin de Table](https://www.Maximalist.ovh/) atau [SHAmory](https://shamory.com/)
+- Malam permainan keluarga tentang Bitcoin dan cara kerjanya, menggunakan permainan seperti [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) atau [SHAmory](https://shamory.com/)
 - Lokakarya **Mining** yang menghadirkan berbagai jenis perangkat keras (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - Sore atau malam hari untuk **pemula**, dengan lokakarya bertema
 - **Pertemuan bersama dengan komunitas tetangga**

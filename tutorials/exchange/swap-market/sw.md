@@ -639,7 +639,7 @@ Ushindani kati ya watoa huduma huboresha viwango na kuzidisha vyanzo vya ukwasi.
 
 - [SwapMarket - Programu ya Wavuti](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Nyaraka za kiufundi](https://docs.boltz.exchange/)
+- [Nyaraka za kiufundi](https://github.com/BoltzExchange/boltz-backend)
 - [Elekeza upangishaji binafsi](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

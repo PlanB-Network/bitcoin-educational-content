@@ -344,7 +344,7 @@ Bu analiz, artı değerin ve ekonomik hayatın işbirliğine dayalı ve dinamik 
 ### Sanayi Devrimi Sorgulanıyor
 
 
-Aslında Marksist analiz Sanayi Devrimi'nin tarihsel gerçekliğini çarpıtmaktadır. Ludwig von Mises bu konuya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) adlı ekonomi incelemesinde (özellikle [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) başlıklı bölüme bakınız) ve [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) başlığı altında yayınlanan bir dizi derste açıklık getirmiştir. (Ayrıca okumaya değer, The Anti-Capitalistic Mentality [burada](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) ve [burada](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+Aslında Marksist analiz Sanayi Devrimi'nin tarihsel gerçekliğini çarpıtmaktadır. Ludwig von Mises bu konuya [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) adlı ekonomi incelemesinde (özellikle [Popular Interpretation of the Industrial Revolution](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) başlıklı bölüme bakınız) ve [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) başlığı altında yayınlanan bir dizi derste açıklık getirmiştir. (Ayrıca okumaya değer, The Anti-Capitalistic Mentality [burada](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) ve [burada](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/tr/014.webp)
 

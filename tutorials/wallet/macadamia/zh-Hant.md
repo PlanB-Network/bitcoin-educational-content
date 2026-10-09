@@ -337,7 +337,7 @@ Macadamia Wallet 將實體現金的特性帶入數位 Bitcoin。透過結合 Cha
 
 
 - 技術文件：[docs.cashu.space](https://docs.cashu.space)
-- 公共造幣廠列表：[bitcoinmints.com](https://bitcoinmints.com)
+- 公共造幣廠列表：[bitcoinmints.com](https://cashumints.space/)
 - 官方協定網站：[cashu.space](https://cashu.space)
 
 

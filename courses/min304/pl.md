@@ -618,7 +618,7 @@ Po zapoznaniu się z tymi wszystkimi punktami, możesz kupić swoją maszynę z 
 Podsumowując ten przewodnik w jednym zdaniu: **"Nie ufaj, weryfikuj"**
 
 
-[Można również zwrócić się do profesjonalistów w dziedzinie regeneracji maszyn Mining, takich jak nasz partner 21energy. Oferują oni przetestowane maszyny S9, wyczyszczone i z zainstalowanym oprogramowaniem BraiiinOS+. Z kodem partnerskim "decouvre" otrzymasz 10% zniżki na zakup S9, wspierając jednocześnie projekt Attakai](https://21energy.io/en/produkt/bitmain-antminer-s9-bundle/)
+[Można również zwrócić się do profesjonalistów w dziedzinie regeneracji maszyn Mining, takich jak nasz partner 21energy. Oferują oni przetestowane maszyny S9, wyczyszczone i z zainstalowanym oprogramowaniem BraiiinOS+. Z kodem partnerskim "decouvre" otrzymasz 10% zniżki na zakup S9, wspierając jednocześnie projekt Attakai](https://21energy.com/products/bitmain-antminer-s9)
 
 
 ## Przewodnik dotyczący zakupu modyfikacji sprzętowych dla S9

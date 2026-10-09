@@ -650,7 +650,7 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 
-- [Urubuga rwemewe rwa Joinstr](https://joinstr.xyz)
+- [Urubuga rwemewe rwa Joinstr](https://docs.joinstr.xyz/)
 - [Inyandiko z'ukoresha](https://inyandiko.gufatanya.xyz/abakoresha/gukoresha-gufatanya)
 - [Inyandiko z'ubuhinga](https://inyandiko.joinstr.xyz/insiguro/ingene-bikora)
 - [Kode y'inkomoko ya GitLab](gitlab.com/ubuzima bwite-budashobora gutsindwa/ugufatanya)

@@ -65,7 +65,7 @@ BitcoinVN.io는 2014년부터 베트남 최초이자 가장 신뢰받는 Bitcoin
 거래 수수료는 변동될 수 있으므로 항상 최종 가격을 확인한 후 확인하시기 바랍니다.
 
 
-**일일 거래액이 250,000동(약 8달러)으로 제한되는 경우** 계좌가 필요하지 않습니다. 자세한 내용은 [은행 송금 정책](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer)에서 확인할 수 있습니다.
+**일일 거래액이 250,000동(약 8달러)으로 제한되는 경우** 계좌가 필요하지 않습니다. 자세한 내용은 [은행 송금 정책](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer)에서 확인할 수 있습니다.
 
 
 **주의**: 네트워크 수수료는 일반적으로 온체인 트랜잭션 방식에 비해 Lightning Network를 선택할 때 더 저렴합니다.

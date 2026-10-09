@@ -1497,7 +1497,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 - นำ **Nerdminer**, Bitaxe, FPGA หรือแม้แต่ ASIC;
 - มี **Bitcoin flyer**;
 - ระดมความคิดเกี่ยวกับภาพหรือโลโก้ Bitcoin สำหรับชุมชนของคุณ;
-- กำลังเล่นเกมไพ่ **[Bitcoin card game](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- กำลังเล่นเกมไพ่ **[Bitcoin card game](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - แสดงแผนที่ **[btcmap.org](https://btcmap.org/)** ของชุมชนและร้านค้า;
 - การส่งหรือรับ Bitcoin โดยใช้ **Lightning**.
 
@@ -1868,7 +1868,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 
 - คืนร้านอาหารสำหรับ **วันพิซซ่า** ในวันที่ 22 พฤษภาคม
 - ค่ำคืนหรือวันหยุดสุดสัปดาห์เพื่อเฉลิมฉลอง **Halving** ถัดไป
-- คืน**เล่นเกม**ของครอบครัวเกี่ยวกับ Bitcoin และวิธีการทำงาน โดยใช้เกมเช่น [Le Coin de Table](https://www.Maximalist.ovh/) หรือ [SHAmory](https://shamory.com/)
+- คืน**เล่นเกม**ของครอบครัวเกี่ยวกับ Bitcoin และวิธีการทำงาน โดยใช้เกมเช่น [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) หรือ [SHAmory](https://shamory.com/)
 - การประชุมเชิงปฏิบัติการ **mining** นำเสนอประเภทของฮาร์ดแวร์ที่แตกต่างกัน (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **ช่วงบ่ายหรือเย็นสำหรับผู้เริ่มต้น** พร้อมเวิร์กช็อปตามธีม
 - การพบปะร่วมกับชุมชนใกล้เคียง

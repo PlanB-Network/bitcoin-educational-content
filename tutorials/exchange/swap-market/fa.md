@@ -639,7 +639,7 @@ SwapMarket با تجمیع چندین ارائه‌دهنده در یک رابط
 
 - [SwapMarket - برنامه وب](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [مستندات فنی](https://docs.boltz.exchange/)
+- [مستندات فنی](https://github.com/BoltzExchange/boltz-backend)
 - [راهنمای میزبانی شخصی](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

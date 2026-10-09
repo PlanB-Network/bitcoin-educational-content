@@ -514,7 +514,7 @@ Aho usubiriza f8a43fc363ea428db5c53b3559935f1f n'agaciro kaza imbere y'izina (mu
 ##### LNURL ku muravyo-Address ibihushanye n'ivyo
 
 
-Gerageza iki [codecoder](https://lnurl-codec.netlify.app/) kivuye kuri fiatjaf canke [iki](https://icodecoder y'umuravyo.com/). Kugira ngo wishyure canke usuzume LNURLp ushobora gukoresha [LNurlpay](https://wwww.lnurlpay.com/). Ishobora kuvuga HTTPS ATARI HTTP.
+Gerageza iki [codecoder](https://lnurl-codec.netlify.app/) kivuye kuri fiatjaf canke [iki](https://icodecoder y'umuravyo.com/). Kugira ngo wishyure canke usuzume LNURLp ushobora gukoresha [LNurlpay](https://www.lnurlpay.com/). Ishobora kuvuga HTTPS ATARI HTTP.
 
 
 

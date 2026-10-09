@@ -337,7 +337,7 @@ Macadamia предлага усъвършенствани инструменти
 
 
 - Техническа документация: [docs.cashu.space](https://docs.cashu.space)
-- Списък на държавните монетни дворове: [bitcoinmints.com](https://bitcoinmints.com)
+- Списък на държавните монетни дворове: [bitcoinmints.com](https://cashumints.space/)
 - Официален уебсайт на протокола: [cashu.space](https://cashu.space)
 
 

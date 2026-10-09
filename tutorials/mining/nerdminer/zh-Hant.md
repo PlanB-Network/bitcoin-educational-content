@@ -191,4 +191,4 @@ NerdMiner 可以連線到的 Pool 都只是「單獨 Mining pool」，也就是�
 
 
 - [NerdMiner_v2 專案頁](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [NerdMiners完整文件](https://docs.bitwater.ch/nerd-Miner-v2/)
+- [NerdMiners完整文件](https://bitwater.ch/nerd-miner-v2/)

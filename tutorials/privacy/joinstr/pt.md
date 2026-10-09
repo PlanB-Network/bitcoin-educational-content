@@ -650,7 +650,7 @@ Num contexto de crescente escrutínio financeiro, as ferramentas descentralizada
 
 
 
-- [Sítio Web oficial da Joinstr](https://joinstr.xyz)
+- [Sítio Web oficial da Joinstr](https://docs.joinstr.xyz/)
 - [Documentação do utilizador](https://docs.joinstr.xyz/users/using-joinstr)
 - [Documentação técnica](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Código fonte do GitLab](https://gitlab.com/invincible-privacy/joinstr)

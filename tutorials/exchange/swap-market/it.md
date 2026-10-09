@@ -639,7 +639,7 @@ La concorrenza tra i fornitori migliora i tassi e moltiplica le fonti di liquidi
 
 - [SwapMarket - Applicazione web](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Documentazione tecnica](https://docs.boltz.exchange/)
+- [Documentazione tecnica](https://github.com/BoltzExchange/boltz-backend)
 - [Guida self-hosting](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

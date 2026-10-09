@@ -1500,7 +1500,7 @@ Kui soovite valmistuda vaiksemateks hetkedeks, võite planeerida mõned tegevuse
 - tuua **Nerdminer**, Bitaxe, FPGA või isegi ASIC;
 - millel on **Bitcoin flaier**;
 - gW-112 visuaalse kujunduse või logo väljatöötamine teie kogukonna jaoks;
-- mängides **[Bitcoin kaardimängu](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)**;
+- mängides **[Bitcoin kaardimängu](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - näitab **[btcmap.org](https://btcmap.org/)** kogukondade ja kaupmeeste kaarti;
 - gW-116 saatmine või vastuvõtmine, kasutades **Valguse**.
 
@@ -1871,7 +1871,7 @@ Sõltuvalt teie kättesaadavusest ja kaasatuse tasemest teie kogukonnas, võite 
 
 - Restoranide õhtu **Pitsapäeva** puhul 22. mail
 - Õhtu või nädalavahetus, et tähistada järgmist **Halving**
-- Perekondlik **mänguõhtu** Bitcoin ja selle toimimise kohta, kasutades selliseid mänge nagu [Le Coin de Table](https://www.Maximalist.ovh/) või [SHAmory](https://shamory.com/)
+- Perekondlik **mänguõhtu** Bitcoin ja selle toimimise kohta, kasutades selliseid mänge nagu [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) või [SHAmory](https://shamory.com/)
 - **Mining töötuba**, kus tutvustatakse eri tüüpi riistvara (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - **lõuna- või õhtupoolik algajatele**, kus toimuvad teemakohased töötoad
 - **ühine kohtumine naaberkogukondadega**

@@ -663,7 +663,7 @@ asia.blixtwallet.com
 - [ارائه Blixt - ویدیو تبلیغاتی](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [تقویم دختران بلیکس](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - ویدیو تبلیغاتی (می‌توانید اولین استفاده خود از LN را آزمایش کنید)
 - [فلایر قابل چاپ A4 با اولین مراحل استفاده از Blixt، به زبان‌های مختلف](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt همچنین یک نسخه نمایشی کاملاً کاربردی ارائه می‌دهد](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) درست در وب‌سایت خود یا در یک نسخه وب اختصاصی، تا قبل از شروع استفاده در دنیای واقعی، تجربه کامل تست را داشته باشید.
+- [Blixt همچنین یک نسخه نمایشی کاملاً کاربردی ارائه می‌دهد](https://blixtwallet.github.io/) درست در وب‌سایت خود یا در یک نسخه وب اختصاصی، تا قبل از شروع استفاده در دنیای واقعی، تجربه کامل تست را داشته باشید.
 
 
 ---

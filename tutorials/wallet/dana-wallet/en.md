@@ -86,7 +86,7 @@ The recommended method is to add Dana Wallet's dedicated F-Droid repository. Go 
 ### Installation via F-Droid
 
 
-Open the F-Droid application on your Android device, then access Settings via the icon at bottom right. Select "Repositories" to manage app sources. Press the "+" button to add a new repository, then scan the QR code or paste the `https://fdroid.silentpayments.dev/fdroid/repo` link. Once the repository has been added, you'll see the three versions of Dana Wallet available. Select "Dana Wallet - Bookmark" and press "Install".
+Open the F-Droid application on your Android device, then access Settings via the icon at bottom right. Select "Repositories" to manage app sources. Press the "+" button to add a new repository, then scan the QR code or paste the `https://fdroid.danawallet.app/fdroid/repo` link. Once the repository has been added, you'll see the three versions of Dana Wallet available. Select "Dana Wallet - Bookmark" and press "Install".
 
 
 ![Ajout du dépôt F-Droid et installation de Dana Wallet - Signet](assets/fr/02.webp)
@@ -311,7 +311,7 @@ Silent Payments represent a significant step forward in reconciling ease of use 
 
 
 - Dana Wallet GitHub repository: https://github.com/cygnet3/danawallet
-- F-Cold deposit: https://fdroid.silentpayments.dev
+- F-Cold deposit: https://fdroid.danawallet.app/fdroid/repo/
 - Silent Payments community site: https://silentpayments.xyz
 - Specification BIP-352: https://bips.dev/352
 

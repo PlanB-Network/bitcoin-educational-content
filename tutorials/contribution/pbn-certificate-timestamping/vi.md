@@ -31,7 +31,7 @@ Chữ ký GPG được tạo ra bằng một phần mềm mã nguồn mở có t
 
 Mặt khác, nếu ai đó muốn xác minh tính xác thực của một file đã ký, họ có thể sử dụng GPG để nhập khóa công khai của người phát hành và xác minh. Trong phần thứ hai của hướng dẫn, chúng ta sẽ xem cách thực hiện việc này thông qua terminal.
 
-Nếu bạn tò mò và muốn tìm hiểu sâu hơn về phần mềm tuyệt vời này, bạn có thể tham khảo tài liệu ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html).
+Nếu bạn tò mò và muốn tìm hiểu sâu hơn về phần mềm tuyệt vời này, bạn có thể tham khảo tài liệu ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136).
 
 ### Nhãn thời gian (timestamp) hoạt động như thế nào?
 

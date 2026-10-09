@@ -29,7 +29,7 @@ GPG podpis je získán s použitím open-source softwaru nazvaného GNU Private 
 
 Na druhou stranu, pokud někdo chce ověřit pravost podepsaného souboru, může použít GPG k importu veřejného klíče vydavatele a ověřit. V druhé části tutoriálu se podíváme, jak to udělat s terminálem.
 
-Pro ty, kteří mají zájem a chtějí se dozvědět více o tomto fantastickém softwaru, můžete se odkázat na ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
+Pro ty, kteří mají zájem a chtějí se dozvědět více o tomto fantastickém softwaru, můžete se odkázat na ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 ### Jak funguje časové razítko?
 

@@ -650,7 +650,7 @@ Taloudellisen valvonnan lisääntyessä hajautetuista työkaluista yksityisyyden
 
 
 
-- [Joinstrin virallinen verkkosivusto](https://joinstr.xyz)
+- [Joinstrin virallinen verkkosivusto](https://docs.joinstr.xyz/)
 - [Käyttäjän asiakirjat](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tekninen dokumentaatio](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLabin lähdekoodi](https://gitlab.com/invincible-privacy/joinstr)

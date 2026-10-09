@@ -514,7 +514,7 @@ Gde zamenjujete f8a43fc363ea428db5c53b3559935f1f sa vrednošću koja dolazi pre 
 ##### LNURL za lightning-Address obrnuto
 
 
-Pokušajte ovaj [enkoder](https://lnurl-codec.netlify.app/) od fiatjaf ili [ovaj](https://lightningdecoder.com/). Za plaćanje ili proveru LNURLp možete takođe koristiti [LNurlpay](https://wwww.lnurlpay.com/). Trebalo bi da bude HTTPS, a ne HTTP.
+Pokušajte ovaj [enkoder](https://lnurl-codec.netlify.app/) od fiatjaf ili [ovaj](https://lightningdecoder.com/). Za plaćanje ili proveru LNURLp možete takođe koristiti [LNurlpay](https://www.lnurlpay.com/). Trebalo bi da bude HTTPS, a ne HTTP.
 
 
 

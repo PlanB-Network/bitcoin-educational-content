@@ -337,7 +337,7 @@ Depåmodellen kräver vaksamhet och god säkerhetspraxis. Rätt använd blir Mac
 
 
 - Teknisk dokumentation: [docs.cashu.space](https://docs.cashu.space)
-- Lista över offentliga myntverk: [bitcoinmints.com](https://bitcoinmints.com)
+- Lista över offentliga myntverk: [bitcoinmints.com](https://cashumints.space/)
 - Officiell webbplats för protokollet: [cashu.space](https://cashu.space)
 
 

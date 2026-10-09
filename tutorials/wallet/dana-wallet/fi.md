@@ -113,7 +113,7 @@ Suositeltava tapa on lisätä Dana Wallet:n oma F-Droid-tietovarasto. Mene osoit
 
 
 
-Avaa F-Droid-sovellus Android-laitteessasi ja siirry sitten Asetuksiin oikeassa alakulmassa olevan kuvakkeen kautta. Valitse "Repositories", jos haluat hallita sovellusten lähteitä. Lisää uusi arkisto painamalla "+"-painiketta ja skannaa QR-koodi tai liitä linkki "https://fdroid.silentpayments.dev/fdroid/repo". Kun arkisto on lisätty, näet Dana Wallet:n kolme saatavilla olevaa versiota. Valitse "Dana Wallet - kirjanmerkki" ja paina "Asenna".
+Avaa F-Droid-sovellus Android-laitteessasi ja siirry sitten Asetuksiin oikeassa alakulmassa olevan kuvakkeen kautta. Valitse "Repositories", jos haluat hallita sovellusten lähteitä. Lisää uusi arkisto painamalla "+"-painiketta ja skannaa QR-koodi tai liitä linkki "https://fdroid.danawallet.app/fdroid/repo". Kun arkisto on lisätty, näet Dana Wallet:n kolme saatavilla olevaa versiota. Valitse "Dana Wallet - kirjanmerkki" ja paina "Asenna".
 
 
 
@@ -410,7 +410,7 @@ Hiljaiset maksut ovat merkittävä edistysaskel helppokäyttöisyyden ja yksityi
 
 
 - Dana Wallet GitHub-tietovarasto: https://github.com/cygnet3/danawallet
-- F-Cold talletus: https://fdroid.silentpayments.dev
+- F-Cold talletus: https://fdroid.danawallet.app/fdroid/repo/
 - Hiljaiset maksut -yhteisön sivusto: https://silentpayments.xyz
 - Eritelmä BIP-352: https://bips.dev/352
 

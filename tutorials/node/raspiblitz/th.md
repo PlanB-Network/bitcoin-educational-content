@@ -21,7 +21,7 @@ RASPIBLITZ - วิธีการรัน Lightning และ Bitcoin Full Nod
 ## คู่มือการตั้งค่า Raspiblitz ของ Parman
 
 
-Raspiblitz เป็นระบบที่ยอดเยี่ยมสำหรับการรัน Bitcoin Node และแอปที่เกี่ยวข้อง ฉันแนะนำสิ่งนี้และ My Node node ให้กับผู้ใช้ส่วนใหญ่ (ควรมีสองโหนดเพื่อความซ้ำซ้อน) ข้อได้เปรียบหลักคือ Raspiblitz node เป็น “Free Open Source Software” ซึ่งแตกต่างจาก MyNode หรือ Umbrel [ทำไมถึงสำคัญ? Vlad Costa อธิบาย](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) คุณยังสามารถรัน RaspbiBlitz ด้วยการเชื่อมต่อ WiFi แทนที่จะเป็นอีเธอร์เน็ต – นี่คือ [คู่มือเสริม](https://armantheparman.com/headless-wifi/) สำหรับสิ่งนั้น (ฉันยังไม่พบวิธีทำเช่นนี้กับ MyNode)
+Raspiblitz เป็นระบบที่ยอดเยี่ยมสำหรับการรัน Bitcoin Node และแอปที่เกี่ยวข้อง ฉันแนะนำสิ่งนี้และ My Node node ให้กับผู้ใช้ส่วนใหญ่ (ควรมีสองโหนดเพื่อความซ้ำซ้อน) ข้อได้เปรียบหลักคือ Raspiblitz node เป็น “Free Open Source Software” ซึ่งแตกต่างจาก MyNode หรือ Umbrel [ทำไมถึงสำคัญ? Vlad Costa อธิบาย](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/) คุณยังสามารถรัน RaspbiBlitz ด้วยการเชื่อมต่อ WiFi แทนที่จะเป็นอีเธอร์เน็ต – นี่คือ [คู่มือเสริม](https://armantheparman.com/headless-wifi/) สำหรับสิ่งนั้น (ฉันยังไม่พบวิธีทำเช่นนี้กับ MyNode)
 
 
 คุณสามารถซื้อโหนดสำเร็จรูปที่มาพร้อมกับหน้าจอขนาดเล็ก หรือคุณสามารถสร้างมันเอง (คุณไม่จำเป็นต้องมีหน้าจอ)

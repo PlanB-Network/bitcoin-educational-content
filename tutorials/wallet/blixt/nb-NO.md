@@ -663,7 +663,7 @@ I mellomtiden er her alle lenkene om denne fantastiske Bitcoin Lightning Node:
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - promo-video (du kan teste din første bruk av LN)
 - [A4-folder med de første skrittene med Blixt, på flere språk](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt tilbyr også en fullt funksjonell demo](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) rett på nettstedet eller på en dedikert versjon på nettet, for å få en full testopplevelse før du begynner å bruke den i den virkelige verden.
+- [Blixt tilbyr også en fullt funksjonell demo](https://blixtwallet.github.io/) rett på nettstedet eller på en dedikert versjon på nettet, for å få en full testopplevelse før du begynner å bruke den i den virkelige verden.
 
 
 ---

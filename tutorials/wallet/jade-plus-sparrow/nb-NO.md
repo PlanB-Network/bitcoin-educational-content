@@ -213,7 +213,7 @@ Klikk på "*Start*".
 
 ![Image](assets/fr/15.webp)
 
-Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Du kan bruke QR-kodebasen som følger med i Jade Plus-boksen. Velg riktig boks avhengig av om du har valgt en setning på 12 eller 24 ord. Du kan også [skrive ut malen fra Blockstreams nettsted](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Jade Plus vil vise hver sone i QR-koden din.
 

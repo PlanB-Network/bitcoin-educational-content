@@ -213,7 +213,7 @@ Klik "*Mulai*".
 
 ![Image](assets/fr/15.webp)
 
-Anda dapat menggunakan basis kode QR yang disediakan dalam kotak Jade Plus. Pilih kotak yang sesuai, tergantung pada apakah Anda memilih kalimat 12 atau 24 kata. Anda juga dapat [mencetak template dari situs web Blockstream](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Anda dapat menggunakan basis kode QR yang disediakan dalam kotak Jade Plus. Pilih kotak yang sesuai, tergantung pada apakah Anda memilih kalimat 12 atau 24 kata. Anda juga dapat [mencetak template dari situs web Blockstream](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 Jade Plus Anda akan menampilkan setiap zona kode QR Anda.
 

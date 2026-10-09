@@ -639,7 +639,7 @@ Palveluntarjoajien välinen kilpailu parantaa korkoja ja moninkertaistaa likvidi
 
 - [SwapMarket - Web-sovellus](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Tekninen dokumentaatio](https://docs.boltz.exchange/)
+- [Tekninen dokumentaatio](https://github.com/BoltzExchange/boltz-backend)
 - [Opas itseisännöintiin](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

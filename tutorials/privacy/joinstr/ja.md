@@ -650,7 +650,7 @@ Joinstrは真に分散型のBitcoinプライバシー・ソリューションで
 
 
 
-- [ジョインスト公式サイト](https://joinstr.xyz)
+- [ジョインスト公式サイト](https://docs.joinstr.xyz/)
 - [ユーザー・ドキュメント](https://docs.joinstr.xyz/users/using-joinstr)
 - [技術資料](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLabソースコード](https://gitlab.com/invincible-privacy/joinstr)

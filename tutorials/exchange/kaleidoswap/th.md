@@ -296,7 +296,7 @@ _หมายเหตุ: ภาพหน้าจอด้านบนแส�
 - WebSocket**: สำหรับการสมัครรับข้อมูลตลาดแบบเรียลไทม์
 
 
-ดู [เอกสาร API](https://docs.kaleidoswap.com/api/introduction) สำหรับข้อมูลเกี่ยวกับ endpoints และรายละเอียดทั้งหมด
+ดู [เอกสาร API](https://docs.kaleidoswap.com/api-reference/introduction) สำหรับข้อมูลเกี่ยวกับ endpoints และรายละเอียดทั้งหมด
 
 
 ## บทสรุป

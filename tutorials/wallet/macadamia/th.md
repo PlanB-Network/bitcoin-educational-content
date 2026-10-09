@@ -337,7 +337,7 @@ Macadamia Wallet นำคุณสมบัติของเงินสดท
 
 
 - เอกสารทางเทคนิค: [docs.cashu.space](https://docs.cashu.space)
-- รายการโรงกษาปณ์สาธารณะ: [bitcoinmints.com](https://bitcoinmints.com)
+- รายการโรงกษาปณ์สาธารณะ: [bitcoinmints.com](https://cashumints.space/)
 - เว็บไซต์โปรโตคอลอย่างเป็นทางการ: [cashu.space](https://cashu.space)
 
 

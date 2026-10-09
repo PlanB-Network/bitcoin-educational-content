@@ -775,7 +775,7 @@ In this section, we'll delve into the different layers of transacting, whether i
 
 Bitcoin's blockchain is composed of blocks, as its name suggests. These blocks have a theoretical maximum size of 4 megabytes. _That said, the average block size at the time of writing comes in at around 1.5mb._ Because of this limit, there is a restriction on how many transactions Bitcoin can process per second, which is between seven to ten transactions per second (tps).
 
-Therefore, you may wonder: How can Bitcoin’s blockchain possibly compete with networks such as Visa or Mastercard that transact at [1,700 tps](https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
+Therefore, you may wonder: How can Bitcoin’s blockchain possibly compete with networks such as Visa or Mastercard that transact at [1,700 tps](https://web.archive.org/web/20221120063743/https://towardsdatascience.com/the-blockchain-scalability-problem-the-race-for-visa-like-transaction-speed-5cce48f9d44)?
 
 The answer is simple. It is not competing with them.
 
@@ -1101,14 +1101,14 @@ You're probably wondering: What's the problem here?
 
 To send money back overseas through a money transfer service such as Western Union is not free. It costs money, and not just a little, a significant amount.
 
-Sending \$100 US back to Tonga incurs a cost of [\$12.61](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus an additional loss of \$8.60 due to the unfavourable exchange rate. This means more than 21% of the total amount sent goes to Western Union, a multinational corporation. As a result, a considerable sum that could have been in the hands of deserving Tongan families ends up in the pockets of the money transfer service provider.
+Sending \$100 US back to Tonga incurs a cost of [\$12.61](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) plus an additional loss of \$8.60 due to the unfavourable exchange rate. This means more than 21% of the total amount sent goes to Western Union, a multinational corporation. As a result, a considerable sum that could have been in the hands of deserving Tongan families ends up in the pockets of the money transfer service provider.
 Can you imagine the benefits of having an extra 21% added to your income?
 
 Furthermore, considering that Tonga's GDP was [\$469](https://tradingeconomics.com/tonga/gdp) million in 2021, and 45.5% of it comes from remittances, the exorbitant fees charged for sending money back home means that Tonga is missing out on an additional \$45.2 million. This amount would translate into a 9.6% increase in GDP if it weren't for these fees.
 
 And if you thought Tonga was alone in this, guess again.
 
-Here is a sample of how much Western Union [charges](https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for sending \$100 US dollars to some other prominent nations:
+Here is a sample of how much Western Union [charges](https://web.archive.org/web/20230322172617/https://www.westernunion.com/content/dam/wu/EU/EN/feeTableRetailEN-ES.PDF) for sending \$100 US dollars to some other prominent nations:
 
 - **China:** \$21.21 fee + \$2.60 exchange rate loss (23.81% loss)
 - **Canada, USA, Mexico:** \$16.86 fee + \$1.20 exchange rate loss (18.06% loss)
@@ -1331,9 +1331,9 @@ But Bitcoin also competes with layer two transaction methods, with technologies 
 
 Despite the numerous studies debunking false claims, Bitcoin is still often criticised as being primarily used for illicit activity. Once again, this could not be further from the truth.
 
-One [study](https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) conducted by the ex-deputy director of the CIA found that "broad generalisations about the use of Bitcoin in illicit finance are significantly overstated." In fact, since 2016, less than 1% of Bitcoin's total transaction volume has been used for illicit activity. By comparison, "some put the underground economy at 11% to 12% of US gross domestic [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," of which the majority is facilitated using the US dollar.
+One [study](https://web.archive.org/web/20210413122400/https://cryptoforinnovation.org/resources/Analysis_of_Bitcoin_in_Illicit_Finance.pdf) conducted by the ex-deputy director of the CIA found that "broad generalisations about the use of Bitcoin in illicit finance are significantly overstated." In fact, since 2016, less than 1% of Bitcoin's total transaction volume has been used for illicit activity. By comparison, "some put the underground economy at 11% to 12% of US gross domestic [product](https://www.investopedia.com/articles/markets/032916/how-big-underground-economy-america.asp)," of which the majority is facilitated using the US dollar.
 
-And according to a report by Chainalysis in 2020, illicit activity only accounts for about [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) of all Bitcoin transactions.
+And according to a report by Chainalysis in 2020, illicit activity only accounts for about [0.34%](https://www.europol.europa.eu/cms/sites/default/files/documents/Europol%20Spotlight%20-%20Cryptocurrencies%20-%20Tracing%20the%20evolution%20of%20criminal%20finances.pdf Spotlight - Cryptocurrencies - Tracing the evolution of criminal finances.pdf) of all Bitcoin transactions.
 
 However, even with this evidence, misleading statements continue to be made by those in power, such as US Treasury Secretary Janet Yellen [claiming](https://home.treasury.gov/news/press-releases/jy0023), "Cryptocurrencies have been used to launder the profits of online drug traffickers; they've been a tool to finance terrorism."
 
@@ -1528,7 +1528,7 @@ Ultimately, the future of decentralised finance rests with those willing to vent
 
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-In today's globalised world, access to financial services is a critical component of economic participation and independence. Despite this, far too many individuals are still excluded from the traditional banking system, with women often bearing the brunt of this exclusion. Shockingly, although an unnecessary [one-quarter](https://www.worldbank.org/en/publication/globalfindex) of the global population remains unbanked, in countries like Saudi Arabia, [36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) of women lack access to basic banking services, preventing them from fully participating in their country's economy and society.
+In today's globalised world, access to financial services is a critical component of economic participation and independence. Despite this, far too many individuals are still excluded from the traditional banking system, with women often bearing the brunt of this exclusion. Shockingly, although an unnecessary [one-quarter](https://www.worldbank.org/en/publication/globalfindex) of the global population remains unbanked, in countries like Saudi Arabia, [36.5%](https://www.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.) of women lack access to basic banking services, preventing them from fully participating in their country's economy and society.
 
 Here are just a few examples of the conditions that women around the world still endure today:
 

@@ -100,7 +100,7 @@ Sekarang setelah pengaturan selesai, Anda mungkin menyadari betapa minimalisnya 
 Aplikasi bawaan
 
 Dua nama yang mungkin belum Anda kenal adalah 'Auditor' dan 'Vanadium'.
-- Aplikasi [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor) menggunakan fitur keamanan berbasis perangkat keras (hardware-based security features) untuk memvalidasi identitas sebuah perangkat, serta keaslian dan integritas sistem operasinya. Aplikasi ini akan memverifikasi bahwa perangkat menjalankan sistem operasi bawaan (stock operating system) dengan bootloader yang terkunci, dan bahwa tidak ada manipulasi atau perubahan yang terjadi pada sistem operasi.
+- Aplikasi [Auditor](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) menggunakan fitur keamanan berbasis perangkat keras (hardware-based security features) untuk memvalidasi identitas sebuah perangkat, serta keaslian dan integritas sistem operasinya. Aplikasi ini akan memverifikasi bahwa perangkat menjalankan sistem operasi bawaan (stock operating system) dengan bootloader yang terkunci, dan bahwa tidak ada manipulasi atau perubahan yang terjadi pada sistem operasi.
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) adalah varian dari browser web Chromium yang diperkuat untuk privasi dan keamanan.
 
 ## Kustomisasi
@@ -294,7 +294,7 @@ Kanan: Proton Calendar
 
 ### Keamanan/Privasi
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) menyediakan solusi pengelola kata sandi terenkripsi end-to-end (E2EE) lintas platform secara gratis untuk semua perangkat Anda. Layanan berbayar mereka memungkinkan Anda mengintegrasikan kode otentikasi dua faktor (2FA) langsung ke dalam aplikasi. Bagian server Bitwarden dapat di-hosting sendiri (self-hosted), dan aplikasi Android-nya tersedia melalui F-Droid.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) menyediakan solusi pengelola kata sandi terenkripsi end-to-end (E2EE) lintas platform secara gratis untuk semua perangkat Anda. Layanan berbayar mereka memungkinkan Anda mengintegrasikan kode otentikasi dua faktor (2FA) langsung ke dalam aplikasi. Bagian server Bitwarden dapat di-hosting sendiri (self-hosted), dan aplikasi Android-nya tersedia melalui F-Droid.
 - [Proton Pass](https://proton.me/pass/download) menawarkan layanan gratis serupa dengan Bitwarden, tetapi pelanggan [Proton Unlimited](https://proton.me/pricing) dapat mengakses fitur-fitur lanjutan tambahan. Proton Pass tersedia melalui APK atau Aurora.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) adalah aplikasi autentikasi dua faktor untuk sistem yang menggunakan protokol kata sandi sekali pakai. Token dapat dengan mudah ditambahkan dengan memindai kode QR. FreeOTP tersedia melalui F-Droid.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) adalah aplikasi gratis, aman, dan Open Source untuk Android untuk mengelola token verifikasi 2-langkah untuk layanan online Anda. Aegis tersedia melalui F-Droid.

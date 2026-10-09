@@ -2739,7 +2739,7 @@ JoinMarket 的主要缺點之一是使用上的複雜性，需要對終端機有
 ![BTC204](assets/zh-Hant/137.webp)
 
 
-來源 : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+來源 : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 然而，技術障礙仍是一大障礙。在 CoinJoin 的生態系統中，參與者的數量強化了機密性，任何降低存取性的限制都會直接影響可用的流動性，而流動性是混合效率的關鍵因素。Bitcoin 已經是金融交易中的一個利基，將其使用的 Coinjoins 視為一個次利基，而 JoinMarket 則是其中更專門的一部分，因此限制了其增加使用者匿名性的潛力。

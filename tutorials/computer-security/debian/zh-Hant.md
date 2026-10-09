@@ -77,9 +77,9 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- **AMD64**：從 [下載] 清單 (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/) 下載 "live hybrid" 版本。
-- **ARM64**: 從 [Debian] 官方網站 (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) 取得 DVD 映像檔。
-- 其他架構：在 [此處](https://debian.obspm.fr/debian-cd/12.11.0/) 找到與您的架構相對應的 ISO。
+- **AMD64**：從 [下載] 清單 (https://debian.obspm.fr/debian-cd/current-live/amd64/iso-hybrid/) 下載 "live hybrid" 版本。
+- **ARM64**: 從 [Debian] 官方網站 (https://debian.obspm.fr/debian-cd/current/arm64/iso-dvd/) 取得 DVD 映像檔。
+- 其他架構：在 [此處](https://debian.obspm.fr/debian-cd/current/) 找到與您的架構相對應的 ISO。
 
 
 

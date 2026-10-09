@@ -1270,7 +1270,7 @@ Naho vyari ukwo, GLBSE yarabandanije gukora. Mu ntango z’umwaka w’izuba, har
 
 
 
-Uwundi mugambi nk’uwo waje gusohoka haciye igihe gitoyi ni MPEx, ni ukuvuga uguhingura umuntu atera impaka cane yitwa Mircea Popescu. Umunyarumani, avuka muri Transylvanie, yari umwanditsi w’umunyabwenge cane ku rubuga rwiwe [Trilema](http://trilema.com/archives-categories/): yandika ku bintu vyose (filozofiya, politike, ubusambanyi), mu buryo bwo gutera ubwoba n’ibigirankana, mu ntango yandika mu rurimi rw’ikirumani. Yaciye akunda cane Bitcoin mu ci c’umwaka w’2011, aca atangura [kuyivuga] ku rubuga rwiwe.
+Uwundi mugambi nk’uwo waje gusohoka haciye igihe gitoyi ni MPEx, ni ukuvuga uguhingura umuntu atera impaka cane yitwa Mircea Popescu. Umunyarumani, avuka muri Transylvanie, yari umwanditsi w’umunyabwenge cane ku rubuga rwiwe [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): yandika ku bintu vyose (filozofiya, politike, ubusambanyi), mu buryo bwo gutera ubwoba n’ibigirankana, mu ntango yandika mu rurimi rw’ikirumani. Yaciye akunda cane Bitcoin mu ci c’umwaka w’2011, aca atangura [kuyivuga] ku rubuga rwiwe.
 
 
 

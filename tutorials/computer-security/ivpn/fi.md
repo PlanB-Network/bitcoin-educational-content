@@ -48,7 +48,7 @@ Kun asennus on valmis, sinun on syötettävä tilisi ID. Näemme, kuinka sen saa
 ![IVPN](assets/notext/04.webp)
 ## Kuinka asentaa IVPN älypuhelimeen?
 
-Lataa IVPN sovelluskaupastasi, olipa se sitten [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) iOS-käyttäjille, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) Androidille, tai [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Jos käytät Androidia, voit myös ladata `.apk` tiedoston suoraan [IVPN-sivustolta](https://www.ivpn.net/en/apps-android/).
+Lataa IVPN sovelluskaupastasi, olipa se sitten [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) iOS-käyttäjille, [Google Play Store](https://www.ivpn.net/en/apps-android/) Androidille, tai [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Jos käytät Androidia, voit myös ladata `.apk` tiedoston suoraan [IVPN-sivustolta](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Sovelluksen ensimmäisellä käyttökerralla sinut kirjataan ulos. Sinun on syötettävä tilisi ID palvelun aktivoimiseksi.
 ![IVPN](assets/notext/06.webp)

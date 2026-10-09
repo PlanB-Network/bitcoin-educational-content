@@ -65,7 +65,7 @@ Voer handmatig het bedrag in dat je wilt ruilen en gebruik de [dagelijkse limiet
 Vergeet niet dat **transactietarieven** fluctueren, dus controleer altijd de definitieve prijs voordat je bevestigt.
 
 
-**Een rekening is niet vereist met** dagelijkse transacties beperkt tot VND 250.000 (~ USD $8). Meer informatie is beschikbaar in ons [beleid voor bankoverschrijvingen](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Een rekening is niet vereist met** dagelijkse transacties beperkt tot VND 250.000 (~ USD $8). Meer informatie is beschikbaar in ons [beleid voor bankoverschrijvingen](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Let op**: de netwerkkosten zijn over het algemeen goedkoper wanneer je Lightning Network kiest in vergelijking met de onchain transactiemethode.

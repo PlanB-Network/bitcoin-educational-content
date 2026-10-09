@@ -171,7 +171,7 @@ Le modèle custodial impose vigilance et bonnes pratiques de sécurité. Utilis�
 
 ### Documentation Cashu
 - Documentation technique : [docs.cashu.space](https://docs.cashu.space)
-- Liste des mints publics : [bitcoinmints.com](https://bitcoinmints.com)
+- Liste des mints publics : [bitcoinmints.com](https://cashumints.space/)
 - Site officiel du protocole : [cashu.space](https://cashu.space)
 
 ### Communauté

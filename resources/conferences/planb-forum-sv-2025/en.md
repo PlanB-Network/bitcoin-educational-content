@@ -218,7 +218,7 @@ description: The Plan ₿ Forum is a conference that explores the impact of digi
 
 ## Sobreviviendo al Apocalipsis
 
-![video](https://rumble.com/embed/v6hcpwj/)
+![video](https://rumble.com/embed/v6hcrdv/)
 
 ## El Auge de los Mercados de Capital Basados en Bitcoin: Emisión de STO y RWA en Liquid
 
@@ -290,7 +290,7 @@ description: The Plan ₿ Forum is a conference that explores the impact of digi
 
 ## El caso del maximalismo monetario
 
-![video](https://rumble.com/embed/v6h9rnj/)
+![video](https://rumble.com/embed/v6h95m7/)
 
 ## Reimaginando los Espacios Públicos: Una Revolución Creativa
 

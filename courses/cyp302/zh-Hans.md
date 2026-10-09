@@ -928,7 +928,7 @@ $$
 
 [3] 参见 [YouTube 视频](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
-[4] Socratica，[抽象代数](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica，[抽象代数](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 [5] Katz and Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL)。Paar and Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
 
@@ -1889,7 +1889,7 @@ Diffie 和 Helmann 在 1976 年的论文中提出的解决密钥分发和管理�
 
 例如，抗碰撞哈希函数在软件验证中就非常重要。假设您想下载 Windows 版本的 Bitcoin Core 0.21.0（处理比特币网络流量的服务器应用程序）。为了验证软件的合法性，您需要采取的主要步骤如下：
 
-1.	您首先需要下载一个或多个 Bitcoin Core 贡献者的公钥，并将其导入可以验证数字签名的软件（如 Kleopetra）。您可以在 [这里](https://github.com/bitcoin/bitcoin/blob/master/contrib/builder-keys/keys.txt) 找到这些公钥。建议您使用多个贡献者的公钥验证 Bitcoin Core 软件。
+1.	您首先需要下载一个或多个 Bitcoin Core 贡献者的公钥，并将其导入可以验证数字签名的软件（如 Kleopetra）。您可以在 [这里](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys) 找到这些公钥。建议您使用多个贡献者的公钥验证 Bitcoin Core 软件。
 
 2.	接下来，你需要验证导入的公开密钥。你至少应该采取的一个步骤是验证你找到的公钥是否与在其他不同地方发布的公钥相同。例如，你可以查阅你导入公钥的人的个人网页、Twitter 网页或 Github 网页。通常，这种公钥对比是通过对比公钥的简短哈希值（称为指纹）来完成的。
 

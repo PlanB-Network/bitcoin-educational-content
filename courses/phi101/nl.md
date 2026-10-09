@@ -344,7 +344,7 @@ Deze analyse weerspiegelt een verkeerd begrip van meerwaarde en de coöperatieve
 ### De industriële revolutie in vraag
 
 
-In feite verdraait de marxistische analyse de historische realiteit van de Industriële Revolutie. Ludwig von Mises verduidelijkte deze kwestie in zijn economische verhandeling [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (zie vooral het hoofdstuk getiteld [Populaire interpretatie van de industriële revolutie](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) en in een reeks lezingen gepubliceerd onder de titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ook het lezen waard, De anti-kapitalistische mentaliteit [hier](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) en [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+In feite verdraait de marxistische analyse de historische realiteit van de Industriële Revolutie. Ludwig von Mises verduidelijkte deze kwestie in zijn economische verhandeling [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (zie vooral het hoofdstuk getiteld [Populaire interpretatie van de industriële revolutie](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) en in een reeks lezingen gepubliceerd onder de titel: [_Economic Policy: Thoughts for Today and Tomorrow_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (Ook het lezen waard, De anti-kapitalistische mentaliteit [hier](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) en [hier](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/nl/014.webp)
 

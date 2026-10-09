@@ -122,7 +122,7 @@ Umbrel 以外のユーザー（例えば、個人サーバー、RaspiBlitz を�
 
 
 
-**前提条件:** [documentation setup](https://docs.thunderhub.io/setup)に従って、システムが最小要件を満たしていることを確認してください：
+**前提条件:** [documentation setup](https://docs.thunderhub.io/configure)に従って、システムが最小要件を満たしていることを確認してください：
 
 
 
@@ -136,7 +136,7 @@ Umbrel 以外のユーザー（例えば、個人サーバー、RaspiBlitz を�
 
 
 
-**1.ThunderHub コードの取得:** [インストールドキュメント](https://docs.thunderhub.io/installation) にあるように、プロジェクトの GitHub リポジトリをクローンする：
+**1.ThunderHub コードの取得:** [インストールドキュメント](https://docs.thunderhub.io/get-started) にあるように、プロジェクトの GitHub リポジトリをクローンする：
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1.メイン設定ファイル:** 設定をカスタマイズするために ThunderHub フォルダのルートに `.env.local` ファイルを作成します（アップデート時に設定が上書きされるのを防ぎます）。メインの変数は[setup documentation](https://docs.thunderhub.io/setup)に従ってください：
+**1.メイン設定ファイル:** 設定をカスタマイズするために ThunderHub フォルダのルートに `.env.local` ファイルを作成します（アップデート時に設定が上書きされるのを防ぎます）。メインの変数は[setup documentation](https://docs.thunderhub.io/configure)に従ってください：
 
 
 
@@ -304,8 +304,8 @@ ThunderHub ログインページが表示されます。設定したアカウン
 
 
 
-- インストール:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- 設定:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- インストール:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- 設定:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

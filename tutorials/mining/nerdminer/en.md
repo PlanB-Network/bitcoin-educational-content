@@ -128,4 +128,4 @@ Knowing that the total hashrate is about 450 EH/s (or 4.5 x 10^20 hashes per sec
 Here are some links if you want to further read about the subject:
 
 - [NerdMiner_v2 project page](http://github.com/BitMaker-hub/NerdMiner_v2)
-- [Complete documentation of NerdMiners](https://docs.bitwater.ch/nerd-miner-v2/)
+- [Complete documentation of NerdMiners](https://bitwater.ch/nerd-miner-v2/)

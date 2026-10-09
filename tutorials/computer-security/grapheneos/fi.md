@@ -100,7 +100,7 @@ Kun olet asentanut järjestelmän, saatat huomata, kuinka paljas GrapheneOS näy
 
 Oletussovellukset
 Vain kaksi termiä saattavat olla sinulle tuntemattomia: 'Auditor' ja 'Vanadium'.
-- '[Auditor-sovellus](https://play.google.com/store/apps/details?id=app.attestation.auditor) käyttää laitteistopohjaisia turvaominaisuuksia laitteen identiteetin sekä käyttöjärjestelmän aitouden ja eheyden varmentamiseen. Se tarkistaa, että laite käyttää alkuperäistä käyttöjärjestelmää, että sen käynnistyslataaja on lukittu ja että käyttöjärjestelmään ei ole tehty muutoksia.'
+- '[Auditor-sovellus](https://play.google.com/store/apps/details?id=app.attestation.auditor.play) käyttää laitteistopohjaisia turvaominaisuuksia laitteen identiteetin sekä käyttöjärjestelmän aitouden ja eheyden varmentamiseen. Se tarkistaa, että laite käyttää alkuperäistä käyttöjärjestelmää, että sen käynnistyslataaja on lukittu ja että käyttöjärjestelmään ei ole tehty muutoksia.'
 - [Vanadium](https://github.com/GrapheneOS/Vanadium) on yksityisyyttä ja turvallisuutta parannettu versio Chromium-selaimesta.
 
 ## Mukauttaminen
@@ -289,7 +289,7 @@ Oikealla: Proton Calendar
 
 ### Turvallisuus/Yksityisyys
 
-- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/) tarjoaa ilmaisen ja E2EE:n läpi suojatun alustojen välisen salasananhallintaratkaisun kaikille laitteillesi. Heidän maksullinen palvelunsa mahdollistaa 2FA-koodien integroinnin sovellukseen. Bitwardenin palvelinpuoli voidaan hostata itse ja Android-sovellus on saatavilla F-Droidin kautta.
+- [Bitwarden](https://mobileapp.bitwarden.com/fdroid/repo) tarjoaa ilmaisen ja E2EE:n läpi suojatun alustojen välisen salasananhallintaratkaisun kaikille laitteillesi. Heidän maksullinen palvelunsa mahdollistaa 2FA-koodien integroinnin sovellukseen. Bitwardenin palvelinpuoli voidaan hostata itse ja Android-sovellus on saatavilla F-Droidin kautta.
 - [Proton Pass](https://proton.me/pass/download) tarjoaa samankaltaisen ilmaisen palvelun kuin Bitwarden, mutta [Proton Unlimited](https://proton.me/pricing) asiakkaat pääsevät käsiksi lisäominaisuuksiin. Proton Pass on saatavilla APK:n tai Auroran kautta.
 - [FreeOTP](https://f-droid.org/packages/org.fedorahosted.freeotp/) on kaksivaiheisen tunnistautumisen sovellus järjestelmiin, jotka käyttävät kertakäyttöisiä salasanoja. Tokeneita voi lisätä helposti skannaamalla QR-koodin. FreeOTP on saatavilla F-Droidin kautta.
 - [Aegis](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) on ilmainen, turvallinen ja avoimen lähdekoodin sovellus Androidille hallitaksesi 2-vaiheisen tunnistautumisen tokeneita online-palveluissasi. Aegis on saatavilla F-Droidin kautta.

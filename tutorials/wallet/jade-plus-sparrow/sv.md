@@ -294,7 +294,7 @@ Klicka på "*Start*".
 ![Image](assets/fr/15.webp)
 
 
-Du kan använda QR-kodbasen som medföljer i Jade Plus-boxen. Välj lämplig ruta beroende på om du har valt en mening på 12 eller 24 ord. Du kan också [skriva ut mallen från Blockstreams webbplats](https://help.blockstream.com/hc/article_attachments/41928319071769).
+Du kan använda QR-kodbasen som medföljer i Jade Plus-boxen. Välj lämplig ruta beroende på om du har valt en mening på 12 eller 24 ord. Du kan också [skriva ut mallen från Blockstreams webbplats](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase).
 
 
 Din Jade Plus visar varje zon i din QR-kod.

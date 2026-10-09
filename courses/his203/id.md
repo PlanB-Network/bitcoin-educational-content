@@ -487,7 +487,7 @@ Seperti yang kami katakan di awal tahun 2011, platform Mt. Gox tidak aman. Dan s
 Pada tanggal 1 Maret 2011, saat transfer akan dilakukan secara resmi, 80.000 bitcoin [menguap](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) ke udara karena akses berbahaya ke file wallet.dat di situs tersebut. Pada tanggal 3, Jed McCaleb menyadari penarikan tersebut dan [menginformasikan] (https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark di IRC bahwa "sesuatu yang buruk telah terjadi". Ini adalah kerugian besar (satu bitcoin dijual seharga $0,92 pada saat itu), yang akan bertambah besar dan semakin besar selama beberapa bulan berikutnya dengan kenaikan harga yang belum pernah terjadi sebelumnya.
 
 
-Masalah ini [disebutkan] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) oleh Jed pada tanggal 18 April dalam sebuah email kepada Mark, di mana ia menulis:
+Masalah ini [disebutkan] (https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) oleh Jed pada tanggal 18 April dalam sebuah email kepada Mark, di mana ia menulis:
 
 
 > "Saya tidak bisa mengatakan seberapa besar masalah yang akan terjadi jika kekurangan 80 ribu BTC jika harganya mencapai $100 atau semacamnya. Itu cukup banyak untuk berutang pada saat itu tetapi mtgox seharusnya menghasilkan banyak BTC (Bitcoin) untuk sampai ke sana. Ada juga fakta bahwa saldo BTC (Bitcoin) mungkin tidak akan pernah turun di bawah 80 ribu. Jadi mungkin Anda tidak perlu mengkhawatirkannya."
@@ -572,7 +572,7 @@ Pada tanggal 6 Juni, Bitcoin Consultancy [meluncurkan] (https://bitcointalk.org/
 
 
 
-Di Eropa Timur, platform Bitomat, yang berbasis di Polandia, [diluncurkan] (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) pada tanggal 4 April. Antarmukanya belum sempurna, tetapi memungkinkan pengguna Polandia untuk menukar zloty mereka dengan bitcoin. Yang juga patut disebutkan adalah Cavirtex, [dibuka] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) pada tanggal 2 Juli, yang beroperasi di Kanada.
+Di Eropa Timur, platform Bitomat, yang berbasis di Polandia, [diluncurkan] (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) pada tanggal 4 April. Antarmukanya belum sempurna, tetapi memungkinkan pengguna Polandia untuk menukar zloty mereka dengan bitcoin. Yang juga patut disebutkan adalah Cavirtex, [dibuka] (https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) pada tanggal 2 Juli, yang beroperasi di Kanada.
 
 
 
@@ -1235,7 +1235,7 @@ Meskipun demikian, GLBSE terus beroperasi. Pada awal musim gugur, sekitar 30 ase
 
 
 
-Proyek lain yang muncul beberapa waktu kemudian adalah MPEx, ciptaan seorang tokoh yang sangat kontroversial bernama Mircea Popescu. Orang Rumania, berasal dari Transylvania, dia adalah seorang penulis yang produktif di blognya [Trilema] (http://trilema.com/archives-categories/): dia menulis tentang semua mata pelajaran (filsafat, politik, seksualitas), dengan gaya yang sengaja provokatif, awalnya dalam bahasa Rumania. Dia menjadi tertarik dengan Bitcoin pada musim panas 2011 dan mulai [berbicara] (http://trilema.com/2011/ce-este-bitcoin/) tentang hal itu di blognya.
+Proyek lain yang muncul beberapa waktu kemudian adalah MPEx, ciptaan seorang tokoh yang sangat kontroversial bernama Mircea Popescu. Orang Rumania, berasal dari Transylvania, dia adalah seorang penulis yang produktif di blognya [Trilema] (https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): dia menulis tentang semua mata pelajaran (filsafat, politik, seksualitas), dengan gaya yang sengaja provokatif, awalnya dalam bahasa Rumania. Dia menjadi tertarik dengan Bitcoin pada musim panas 2011 dan mulai [berbicara] (https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/) tentang hal itu di blognya.
 
 
 
@@ -1251,7 +1251,7 @@ Pada bulan Agustus, Mircea [membuka] (https://bitcointalk.org/index.php?topic=15
 
 
 
-Pada akhir Februari 2012, ia melanjutkan dengan [penggalangan dana] (http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) dengan menerbitkan saham dan obligasi, mengumpulkan lebih dari 3.200 bitcoin, atau sekitar $16.000 pada saat itu. Pada tanggal 11 April, setelah fase beta, platform [akhirnya menjadi] (https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platform tersebut akhirnya menjadi bursa bitcoin yang memungkinkan penerbitan dan perdagangan berbagai saham, dan berganti nama menjadi MPEx (untuk "Mircea Popescu's Exchange").
+Pada akhir Februari 2012, ia melanjutkan dengan [penggalangan dana] (https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) dengan menerbitkan saham dan obligasi, mengumpulkan lebih dari 3.200 bitcoin, atau sekitar $16.000 pada saat itu. Pada tanggal 11 April, setelah fase beta, platform [akhirnya menjadi] (https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platform tersebut akhirnya menjadi bursa bitcoin yang memungkinkan penerbitan dan perdagangan berbagai saham, dan berganti nama menjadi MPEx (untuk "Mircea Popescu's Exchange").
 
 
 
@@ -1449,7 +1449,7 @@ dompet yang deterministik sebagian besar merupakan gagasan dari pengembang Ameri
 
 
 
-*Gregory Maxwell pada tahun 2006 (sumber: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*Gregory Maxwell pada tahun 2006 (sumber: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1690,7 +1690,7 @@ Pada tanggal 19 Agustus, Casascius secara terbuka [membagikan] (https://bitcoint
 
 
 
-*Bitcoin pertama Casascius pada tahun 2011 (sumber: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Bitcoin pertama Casascius pada tahun 2011 (sumber: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -1970,7 +1970,7 @@ Model ini [bergantung] (https://im.forre.st/pb/85341005.txt) pada "rantai-rantai
 
 
 
-*Visualisasi Sharechain (sumber: Gregory Maxwell untuk [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Visualisasi Sharechain (sumber: Gregory Maxwell untuk [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2072,7 +2072,7 @@ Setelah peluncuran versi 0.4 perangkat lunak pada tanggal 23 September, yang men
 
 
 
-*Pengambilan gambar Bitcoin-Qt 0.5.2 pada bulan Februari 2012 (sumber: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) untuk Wikimedia)*
+*Pengambilan gambar Bitcoin-Qt 0.5.2 pada bulan Februari 2012 (sumber: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) untuk Wikimedia)*
 
 
 

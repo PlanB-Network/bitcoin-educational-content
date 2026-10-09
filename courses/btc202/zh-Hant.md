@@ -1521,7 +1521,7 @@ Umbrel 可以保持非常簡約的風格，只專注於 Bitcoin，也可以演�
 
 
 
-Umbrel 的程式碼是公開的 (您可以檢視、Fork 並修改它)，但它並不是在真正的開放原始碼授權下。事實上，umbrelOS 是根據 [*PolyForm Noncommercial 1.0*] 授權 (https://polyformproject.org/licenses/noncommercial/1.0.0/) 發佈的，雖然一些相關的開發工具是根據 MIT 授權提供的。
+Umbrel 的程式碼是公開的 (您可以檢視、Fork 並修改它)，但它並不是在真正的開放原始碼授權下。事實上，umbrelOS 是根據 [*PolyForm Noncommercial 1.0*] 授權 (https://polyformproject.org/licenses/noncommercial/1.0.0) 發佈的，雖然一些相關的開發工具是根據 MIT 授權提供的。
 
 
 

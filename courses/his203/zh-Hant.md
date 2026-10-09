@@ -523,7 +523,7 @@ Mark Karpelès 1985 年出生在法國。他是獨子，由單親母親撫養長
 2011 年 3 月 1 日，就在轉移即將正式進行時，由於惡意存取網站的 wallet.dat 檔案，80,000 個比特幣 [蒸發](https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) 到無形的空氣中。3 日，Jed McCaleb 注意到了提現，並在 IRC 上 [告知](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Mark 「發生了不好的事情」。這是一個重大的損失（一個比特幣當時賣 0.92 美元），在接下來的幾個月中，隨著價格前所未有的上升，損失會越來越大。
 
 
-Jed 在 4 月 18 日發送給 Mark 的電子郵件中 [提到](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)這個問題，他在郵件中寫道：
+Jed 在 4 月 18 日發送給 Mark 的電子郵件中 [提到](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox)這個問題，他在郵件中寫道：
 
 
 > "如果價格漲到 100 美元什麼的，我不知道欠 8 萬 BTC 會是多大的問題。那時欠的錢可真不少，但 mtgox 應該已經賺了一大筆 BTC（Bitcoin）到那裡了。此外，BTC (Bitcoin) 的餘額可能永遠不會低於 80K。所以也許你真的不需要擔心"。
@@ -608,7 +608,7 @@ Mt. Gox 的成功啟發了美國和其他地方的模仿者。隨著價格和需
 
 
 
-在東歐，位於波蘭的Bitomat平台於4月4日[推出](https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871)。介面很簡陋，但允許波蘭使用者將茲羅提兌換成比特幣。值得一提的還有 Cavirtex，[開通](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 於 7 月 2 日，在加拿大營運。
+在東歐，位於波蘭的Bitomat平台於4月4日[推出](https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166)。介面很簡陋，但允許波蘭使用者將茲羅提兌換成比特幣。值得一提的還有 Cavirtex，[開通](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 於 7 月 2 日，在加拿大營運。
 
 
 
@@ -1270,7 +1270,7 @@ Bitcoinica 於 2011 年 9 月 8 日 [發佈](https://bitcointalk.org/index.php?t
 
 
 
-MPEx 是稍後出現的另一個專案，由 Mircea Popescu 這位極具爭議的人物所創造。他是羅馬尼亞人，原籍特蘭西瓦尼亞，在他的部落格 [Trilema](http://trilema.com/archives-categories/) 上是一位多產作家：他以刻意挑釁的風格撰寫所有主題 (哲學、政治、性)，最初是以羅馬尼亞語撰寫。他在 2011 年夏天開始對 Bitcoin 感興趣，並開始在他的部落格 [talk](http://trilema.com/2011/ce-este-bitcoin/)上討論。
+MPEx 是稍後出現的另一個專案，由 Mircea Popescu 這位極具爭議的人物所創造。他是羅馬尼亞人，原籍特蘭西瓦尼亞，在他的部落格 [Trilema](https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/) 上是一位多產作家：他以刻意挑釁的風格撰寫所有主題 (哲學、政治、性)，最初是以羅馬尼亞語撰寫。他在 2011 年夏天開始對 Bitcoin 感興趣，並開始在他的部落格 [talk](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/)上討論。
 
 
 
@@ -1286,7 +1286,7 @@ MPEx 是稍後出現的另一個專案，由 Mircea Popescu 這位極具爭議�
 
 
 
-2012 年 2 月底，他以發行股票和債券的方式進行 [募資](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)，募得超過 3,200 個比特幣，約合當時的 16,000 美元。4 月 11 日，在經過測試階段後，該平台 [終於成為](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 該平台終於成為允許發行和交易各種股票的比特幣交易所，並更名為 MPEx(代表「Mircea Popescu's Exchange」)。
+2012 年 2 月底，他以發行股票和債券的方式進行 [募資](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745)，募得超過 3,200 個比特幣，約合當時的 16,000 美元。4 月 11 日，在經過測試階段後，該平台 [終於成為](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) 該平台終於成為允許發行和交易各種股票的比特幣交易所，並更名為 MPEx(代表「Mircea Popescu's Exchange」)。
 
 
 
@@ -1484,7 +1484,7 @@ Deterministic wallets 主要是美國開發人員 Gregory Maxwell 的心血結�
 
 
 
-*2006 年的 Gregory Maxwell（資料來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*
+*2006 年的 Gregory Maxwell（資料來源：[Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*
 
 
 
@@ -1724,7 +1724,7 @@ Casascius 對比特幣儲存特別感興趣，因此也對 wallet 感興趣。�
 
 
 
-*Casascius 在 2011 年的第一枚比特幣 (來源：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casascius 在 2011 年的第一枚比特幣 (來源：[casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Deepbit 的主導地位在夏季達到頂峰，8 月 5 日測得的計算力佔�
 
 
 
-*Sharechain 可視化 (來源：Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechain 可視化 (來源：Gregory Maxwell for [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Satoshi Nakamoto 離開後，軟體開發工作由社群接手，並在 Gavin An
 
 
 
-*2012 年 2 月擷取 Bitcoin-Qt 0.5.2 (原始碼：[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) for Wikimedia)*
+*2012 年 2 月擷取 Bitcoin-Qt 0.5.2 (原始碼：[JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) for Wikimedia)*
 
 
 

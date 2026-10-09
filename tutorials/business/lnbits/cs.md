@@ -387,7 +387,7 @@ Přičemž f8a43fc363ea428db5c53b3559935f1f nahradíte hodnotou, která je před
 
 ##### LNURL pro bleskovou adresu a naopak
 
-Zkuste tento [kodér](https://lnurl-codec.netlify.app/) od fiatjaf nebo [tento](https://lightningdecoder.com/). Pro platbu nebo kontrolu LNURLp můžete také použít [LNurlpay](https://wwww.lnurlpay.com/). Mělo by na něm být uvedeno HTTPS, NE HTTP.
+Zkuste tento [kodér](https://lnurl-codec.netlify.app/) od fiatjaf nebo [tento](https://lightningdecoder.com/). Pro platbu nebo kontrolu LNURLp můžete také použít [LNurlpay](https://www.lnurlpay.com/). Mělo by na něm být uvedeno HTTPS, NE HTTP.
 
 ##### Konfigurace komentáře, který lidé vidí při placení na můj LNURLp QR
 

@@ -58,7 +58,7 @@ Vous obtenez ceci :
 Vous pouvez également le télécharger depuis le site Cisofy :
 
 ```
-sudo wget https://downloads.cisofy.com/lynis/lynis-3.0.9.tar.gz
+sudo wget https://downloads.cisofy.com/lynis/lynis-3.1.7.tar.gz
 ```
 
 Vous obtenez ceci :

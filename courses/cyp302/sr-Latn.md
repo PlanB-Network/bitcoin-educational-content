@@ -1331,7 +1331,7 @@ Za dalju diskusiju o modernoj teoriji brojeva, možete se konsultovati sa mnogim
 [3] Pogledajte [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Apstraktna algebra](https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Apstraktna algebra](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6)
 
 
 [5] Katz i Lindell, *Introduction to Modern Cryptography*, 2. izd., 2015 (CRC Press: Boca Raton, FL). Paar i Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlin).
@@ -2712,7 +2712,7 @@ Funkcija $H$ heš tipa se smatra **otporna na sudare** ako je neizvodljivo prona
 Koliziono otporne heš funkcije su važne, na primer, u verifikaciji softvera. Pretpostavimo da želite da preuzmete Windows izdanje Bitcoin Core 0.21.0 (serverska aplikacija za obradu Bitcoin mrežnog saobraćaja). Glavni koraci koje biste morali preduzeti, kako biste verifikovali legitimnost softvera, su sledeći:
 
 
-1.	Prvo treba da preuzmete i uvezete javne ključeve jednog ili više saradnika Bitcoin Core-a u softver koji može da verifikuje digitalne potpise (npr. Kleopetra). Te javne ključeve možete pronaći [ovde](https://github.com/Bitcoin/Bitcoin/blob/master/contrib/builder-keys/keys.txt). Preporučuje se da verifikujete Bitcoin Core softver sa javnim ključevima od više saradnika.
+1.	Prvo treba da preuzmete i uvezete javne ključeve jednog ili više saradnika Bitcoin Core-a u softver koji može da verifikuje digitalne potpise (npr. Kleopetra). Te javne ključeve možete pronaći [ovde](https://github.com/bitcoin-core/guix.sigs/tree/main/builder-keys). Preporučuje se da verifikujete Bitcoin Core softver sa javnim ključevima od više saradnika.
 
 2.	Zatim, treba da verifikujete javne ključeve koje ste uvezli. Barem jedan korak koji treba da preduzmete je da proverite da li su javni ključevi koje ste pronašli isti kao oni objavljeni na raznim drugim mestima. Na primer, možete konsultovati lične veb stranice, Twitter stranice ili Github stranice osoba čije ste javne ključeve uvezli. Tipično se ovo poređenje javnih ključeva vrši poređenjem kratke heš vrednosti javnog ključa poznatog kao otisak prsta (eng. fingerprint).
 

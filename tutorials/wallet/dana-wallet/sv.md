@@ -113,7 +113,7 @@ Den rekommenderade metoden är att lägga till Dana Wallet: s dedikerade F-Droid
 
 
 
-Öppna F-Droid-applikationen på din Android-enhet och gå sedan till Inställningar via ikonen längst ner till höger. Välj "Repositories" för att hantera appkällor. Tryck på "+" -knappen för att lägga till ett nytt arkiv, skanna sedan QR-koden eller klistra in länken `https://fdroid.silentpayments.dev/fdroid/repo`. När källan har lagts till ser du de tre versionerna av Dana Wallet som finns tillgängliga. Välj "Dana Wallet - Bookmark" och tryck på "Installera".
+Öppna F-Droid-applikationen på din Android-enhet och gå sedan till Inställningar via ikonen längst ner till höger. Välj "Repositories" för att hantera appkällor. Tryck på "+" -knappen för att lägga till ett nytt arkiv, skanna sedan QR-koden eller klistra in länken `https://fdroid.danawallet.app/fdroid/repo`. När källan har lagts till ser du de tre versionerna av Dana Wallet som finns tillgängliga. Välj "Dana Wallet - Bookmark" och tryck på "Installera".
 
 
 
@@ -410,7 +410,7 @@ Tysta betalningar representerar ett betydande steg framåt för att förena anv�
 
 
 - Dana Wallet GitHub-arkiv: https://github.com/cygnet3/danawallet
-- F-Cold deposition: https://fdroid.silentpayments.dev
+- F-Cold deposition: https://fdroid.danawallet.app/fdroid/repo/
 - Silent Payments webbplats för allmänheten: https://silentpayments.xyz
 - Specifikation BIP-352: https://bips.dev/352
 

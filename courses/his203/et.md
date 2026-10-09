@@ -523,7 +523,7 @@ Nagu me 2011. aasta alguses ütlesime, ei olnud Mt. Goxi platvorm turvaline. Ja 
 1. märtsil 2011, just siis, kui ülekanne oli saamas ametlikuks, kadus 80 000 bitcoin'i (https://mempool.space/tx/e67a0550848b7932d7796aeea16ab0e48a5cfe81c4e8cca2c5b03e0416850114) õhku tänu pahatahtlikule juurdepääsule saidi wallet.dat failile. 3. päeval märkas Jed McCaleb tagasivõtmist ja [teatas](https://web.archive.org/web/20200427200314/https://courts.ms.gov/appellatecourts/docket/sendPDF.php?f=dc00001_live.SCT.17.M.1681.102741.5.pdf&c=87490&a=N&s=2) Markile IRC-s, et "midagi halba juhtus". Tegemist oli suure kahjuga (üks bitcoin müüdi sel ajal 0,92 dollari eest), mis järgnevate kuude jooksul kasvas enneolematu hinnatõusu tõttu üha suuremaks.
 
 
-Seda probleemi [mainis](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) Jed 18. aprillil Markile saadetud e-kirjas, kus ta kirjutas:
+Seda probleemi [mainis](https://web.archive.org/web/20170602025506/http://www.thedailybeast.com/behind-the-biggest-bitcoin-heist-in-history-inside-the-implosion-of-mt-gox) Jed 18. aprillil Markile saadetud e-kirjas, kus ta kirjutas:
 
 
 > "Ma ei oska öelda, kui suur probleem on 80k BTC puudu, kui hind läheb 100 dollarini või midagi. See on päris palju võlgu sel hetkel, aga mtgox peaks olema teinud tonni BTC (Bitcoin) saada sinna. Samuti on veel see, et BTC (Bitcoin) saldo ei lange ilmselt kunagi alla 80k. Nii et võib-olla ei pea sa tõesti selle pärast muretsema."
@@ -608,7 +608,7 @@ Aprillis asutasid kolm meest [Bitcoin Consultancy] (https://web.archive.org/web/
 
 
 
-Ida-Euroopas [käivitati] (https://forum.bitcoin.pl/viewtopic.php?f=7&t=166#p871) 4. aprillil Poolas asuv Bitomat platvorm. Kasutajaliides oli algeline, kuid võimaldas Poola kasutajatel vahetada oma zlotti bitcoinide vastu. Mainimist väärib ka Cavirtex, [avati](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. juulil, mis tegutses Kanadas.
+Ida-Euroopas [käivitati] (https://web.archive.org/web/20171125014654/https://forum.bitcoin.pl/viewtopic.php?f=7&t=166) 4. aprillil Poolas asuv Bitomat platvorm. Kasutajaliides oli algeline, kuid võimaldas Poola kasutajatel vahetada oma zlotti bitcoinide vastu. Mainimist väärib ka Cavirtex, [avati](https://bitcointalk.org/index.php?topic=25312.msg314448#msg314448) 2. juulil, mis tegutses Kanadas.
 
 
 
@@ -1270,7 +1270,7 @@ Sellest hoolimata jätkas GLBSE tegevust. Varasügiseks oli vahetamiseks [saadav
 
 
 
-Teine selline projekt, mis tekkis mõni aeg hiljem, oli MPEx, mis oli Mircea Popescu nimelise väga vastuolulise tegelase looming. Rumeenlane, algselt Transilvaaniast pärit, oli viljakas kirjanik oma blogis [Trilema] (http://trilema.com/archives-categories/): ta kirjutas kõikidel teemadel (filosoofia, poliitika, seksuaalsus), teadlikult provokatiivses stiilis, esialgu rumeenia keeles. Ta hakkas 2011. aasta suvel Bitcoin vastu huvi tundma ja hakkas sellest oma blogis [rääkima](http://trilema.com/2011/ce-este-bitcoin/).
+Teine selline projekt, mis tekkis mõni aeg hiljem, oli MPEx, mis oli Mircea Popescu nimelise väga vastuolulise tegelase looming. Rumeenlane, algselt Transilvaaniast pärit, oli viljakas kirjanik oma blogis [Trilema] (https://web.archive.org/web/20260819184811/http://trilema.com/archives-categories/): ta kirjutas kõikidel teemadel (filosoofia, poliitika, seksuaalsus), teadlikult provokatiivses stiilis, esialgu rumeenia keeles. Ta hakkas 2011. aasta suvel Bitcoin vastu huvi tundma ja hakkas sellest oma blogis [rääkima](https://web.archive.org/web/20260606201229/http://trilema.com/2011/ce-este-bitcoin/).
 
 
 
@@ -1286,7 +1286,7 @@ Augustis [avas](https://bitcointalk.org/index.php?topic=15672.msg444367#msg44436
 
 
 
-2012. aasta veebruari lõpus jätkas ta [rahakogumist](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745), emiteerides aktsiaid ja võlakirju, kogudes sel ajal üle 3200 bitcoin'i ehk umbes 16 000 dollari. 11. aprillil sai pärast beetafaasi [lõpuks](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platvormist lõpuks bitcoin-vahetus, mis võimaldab erinevate aktsiate emiteerimist ja nendega kauplemist, ning nimetati ümber MPExiks(jaoks "Mircea Popescu's Exchange").
+2012. aasta veebruari lõpus jätkas ta [rahakogumist](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745), emiteerides aktsiaid ja võlakirju, kogudes sel ajal üle 3200 bitcoin'i ehk umbes 16 000 dollari. 11. aprillil sai pärast beetafaasi [lõpuks](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) platvormist lõpuks bitcoin-vahetus, mis võimaldab erinevate aktsiate emiteerimist ja nendega kauplemist, ning nimetati ümber MPExiks(jaoks "Mircea Popescu's Exchange").
 
 
 
@@ -1484,7 +1484,7 @@ Deterministlik wallet on suures osas Ameerika arendaja Gregory Maxwell laps. Ta 
 
 
 
-*Gregory Maxwell 2006. aastal (allikas: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.webp))*)
+*Gregory Maxwell 2006. aastal (allikas: [Wikimedia](https://commons.wikimedia.org/wiki/File:Gmaxwell-boat.jpg))*)
 
 
 
@@ -1724,7 +1724,7 @@ Casascius oli eriti huvitatud bitcoinide salvestamisest ja seega wallet-st. Ta t
 
 
 
-*Casasciuse esimesed bitcoinid 2011. aastal (allikas: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.webp))*
+*Casasciuse esimesed bitcoinid 2011. aastal (allikas: [casascius.com](https://www.casascius.com/casasciusphysicalbitcoins.jpg))*
 
 
 
@@ -2004,7 +2004,7 @@ Mudel [tugines](https://im.forre.st/pb/85341005.txt) "sharechainile, mida hoolda
 
 
 
-*Sharechaini visualiseerimine (allikas: Gregory Maxwell jaoks [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.webp))*
+*Sharechaini visualiseerimine (allikas: Gregory Maxwell jaoks [Bitcoin Wiki](https://en.bitcoin.it/wiki/File:P2pool_chain.png))*
 
 
 
@@ -2106,7 +2106,7 @@ Pärast tarkvara versiooni 0.4 avaldamist 23. septembril, mis tähistas Gavin An
 
 
 
-*Bitcoin-Qt 0.5.2 pildistamine 2012. aasta veebruaris (allikas: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.webp) Wikimedia jaoks)*
+*Bitcoin-Qt 0.5.2 pildistamine 2012. aasta veebruaris (allikas: [JimNelin](https://commons.wikimedia.org/wiki/File:Screenshot_of_Bitcoin-qt-0.5.2.png) Wikimedia jaoks)*
 
 
 

@@ -122,7 +122,7 @@ Umbrel बैकग्राउंड में ThunderHub को LND कने�
 
 
 
-**पूर्वापेक्षाएँ:** सुनिश्चित करें कि आपका सिस्टम [दस्तावेज़ीकरण सेटअप](https://docs.thunderhub.io/setup) के अनुसार न्यूनतम आवश्यकताओं को पूरा करता है:
+**पूर्वापेक्षाएँ:** सुनिश्चित करें कि आपका सिस्टम [दस्तावेज़ीकरण सेटअप](https://docs.thunderhub.io/configure) के अनुसार न्यूनतम आवश्यकताओं को पूरा करता है:
 
 
 
@@ -136,7 +136,7 @@ Umbrel बैकग्राउंड में ThunderHub को LND कने�
 
 
 
-**1. थंडरहब कोड प्राप्त करें:** [इंस्टॉलेशन डॉक्यूमेंटेशन](https://docs.thunderhub.io/installation) में बताए अनुसार प्रोजेक्ट के GitHub रिपॉजिटरी को क्लोन करें:
+**1. थंडरहब कोड प्राप्त करें:** [इंस्टॉलेशन डॉक्यूमेंटेशन](https://docs.thunderhub.io/get-started) में बताए अनुसार प्रोजेक्ट के GitHub रिपॉजिटरी को क्लोन करें:
 
 
 
@@ -182,7 +182,7 @@ npm run build
 
 
 
-**1. मुख्य कॉन्फ़िगरेशन फ़ाइल:** कॉन्फ़िगरेशन को कस्टमाइज़ करने के लिए थंडरहब फ़ोल्डर की रूट पर `.env.local` फ़ाइल बनाएँ (यह अपडेट के दौरान आपकी सेटिंग्स को ओवरराइट होने से रोकेगा)। [सेटअप डॉक्यूमेंटेशन](https://docs.thunderhub.io/setup) के अनुसार मुख्य वैरिएबल:
+**1. मुख्य कॉन्फ़िगरेशन फ़ाइल:** कॉन्फ़िगरेशन को कस्टमाइज़ करने के लिए थंडरहब फ़ोल्डर की रूट पर `.env.local` फ़ाइल बनाएँ (यह अपडेट के दौरान आपकी सेटिंग्स को ओवरराइट होने से रोकेगा)। [सेटअप डॉक्यूमेंटेशन](https://docs.thunderhub.io/configure) के अनुसार मुख्य वैरिएबल:
 
 
 
@@ -304,8 +304,8 @@ docker pull apotdevin/thunderhub:base-v0.11.1
 
 
 
-- **स्थापना:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/installation)
-- **कॉन्फ़िगरेशन:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/setup)
+- **स्थापना:** [docs.thunderhub.io/installation](https://docs.thunderhub.io/get-started)
+- **कॉन्फ़िगरेशन:** [docs.thunderhub.io/setup](https://docs.thunderhub.io/configure)
 
 
 

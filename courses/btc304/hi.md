@@ -1500,7 +1500,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 - **नर्डमाइनर**, बिटैक्स, एफपीजीए या यहां तक ​​कि जीडब्ल्यू-110 लाना;
 - **Bitcoin फ़्लायर** होना;
 - अपने समुदाय के लिए Bitcoin दृश्य या लोगो पर विचार-मंथन करना;
-- **[Bitcoin कार्ड गेम](https://www.Maximalist.ovh/accueil/20-game-le-Coin-de-table.html)** खेलना;
+- **[Bitcoin कार्ड गेम](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)** खेलना;
 - समुदायों और व्यापारियों का **[btcmap.org](https://btcmap.org/)** मानचित्र दिखाना;
 - **लाइटनिंग** का उपयोग करके Bitcoin भेजना या प्राप्त करना।
 
@@ -1870,7 +1870,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 
 - 22 मई को **पिज़्ज़ा दिवस** के लिए एक रेस्तरां रात
 - अगले **Halving** का जश्न मनाने के लिए एक शाम या सप्ताहांत
-- Bitcoin और यह कैसे काम करता है, इस बारे में एक पारिवारिक **गेम नाइट**, [Le Coin de Table](https://www.Maximalist.ovh/) या [SHAmory](https://shamory.com/) जैसे खेलों का उपयोग करके
+- Bitcoin और यह कैसे काम करता है, इस बारे में एक पारिवारिक **गेम नाइट**, [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) या [SHAmory](https://shamory.com/) जैसे खेलों का उपयोग करके
 - एक **Mining कार्यशाला** जिसमें विभिन्न प्रकार के हार्डवेयर (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe) प्रस्तुत किए जाएंगे
 - शुरुआती लोगों के लिए दोपहर या शाम, थीम आधारित कार्यशालाओं के साथ
 - **पड़ोसी समुदायों के साथ एक संयुक्त बैठक**

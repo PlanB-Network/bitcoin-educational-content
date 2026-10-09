@@ -48,7 +48,7 @@ Når installasjonen er fullført, må du angi din konto-ID. Vi vil se hvordan vi
 ![IVPN](assets/notext/04.webp)
 ## Hvordan installere IVPN på en smarttelefon?
 
-Last ned IVPN fra appbutikken din, enten det er [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) for iOS-brukere, [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) for Android, eller [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Hvis du bruker Android, har du også muligheten til å laste ned `.apk`-filen direkte fra [IVPN-nettstedet](https://www.ivpn.net/en/apps-android/).
+Last ned IVPN fra appbutikken din, enten det er [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) for iOS-brukere, [Google Play Store](https://www.ivpn.net/en/apps-android/) for Android, eller [F-Droid](https://f-droid.org/en/packages/net.ivpn.client). Hvis du bruker Android, har du også muligheten til å laste ned `.apk`-filen direkte fra [IVPN-nettstedet](https://www.ivpn.net/en/apps-android/).
 ![IVPN](assets/notext/05.webp)
 Ved første bruk av appen, vil du bli logget ut. Du må angi din konto-ID for å aktivere tjenesten.
 ![IVPN](assets/notext/06.webp)

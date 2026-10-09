@@ -238,7 +238,7 @@ Este análisis refleja un malentendido del valor excedente y la naturaleza coope
 
 ### La Revolución Industrial en Cuestión
 
-De hecho, el análisis marxista distorsiona la realidad histórica de la Revolución Industrial. Ludwig von Mises aclaró este tema en su tratado de economía [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (ver especialmente el capítulo titulado [Interpretación Popular de la Revolución Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) así como en una serie de conferencias publicadas bajo el título: [_Política Económica: Pensamientos para Hoy y Mañana_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (También vale la pena leer, La Mentalidad Anticapitalista [aquí](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) y [aquí](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+De hecho, el análisis marxista distorsiona la realidad histórica de la Revolución Industrial. Ludwig von Mises aclaró este tema en su tratado de economía [_Human Action_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (ver especialmente el capítulo titulado [Interpretación Popular de la Revolución Industrial](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2)) así como en una serie de conferencias publicadas bajo el título: [_Política Económica: Pensamientos para Hoy y Mañana_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm). (También vale la pena leer, La Mentalidad Anticapitalista [aquí](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) y [aquí](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![imagen](assets/es/014.webp)
 

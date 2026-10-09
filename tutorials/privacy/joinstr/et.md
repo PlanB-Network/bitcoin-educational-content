@@ -650,7 +650,7 @@ Kasvava finantskontrolli taustal on detsentraliseeritud vahendid eraelu puutumat
 
 
 
-- [Joinstr ametlikul kodulehel](https://joinstr.xyz)
+- [Joinstr ametlikul kodulehel](https://docs.joinstr.xyz/)
 - [Kasutaja dokumentatsioon](https://docs.joinstr.xyz/users/using-joinstr)
 - [Tehniline dokumentatsioon](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [GitLabi lähtekood](https://gitlab.com/invincible-privacy/joinstr)

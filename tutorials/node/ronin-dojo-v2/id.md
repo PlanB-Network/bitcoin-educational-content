@@ -39,7 +39,7 @@ Kalau kamu nggak butuh fitur umum atau terkait Lightning Network seperti yang di
 Sekarang setelah kami telah menguraikan RoninDojo, mari kita lihat bersama bagaimana cara mengatur node ini.
 
 ## Perangkat keras apa yang harus dipilih untuk menginstal RoninDojo v2?
-RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/en/download). Namun, tutorial ini fokus ke prosedur instalasi manual di Raspberry Pi 4. Walaupun Raspberry Pi 5 baru dirilis dan secara teori tutorial ini harusnya kompatibel juga dengan model baru itu, aku belum sempat nyoba langsung, dan belum nemu feedback dari komunitas. Begitu aku punya Pi 5 dan komponen yang cocok, tutorial ini bakal aku update supaya kamu tetap dapat info terbaru. Untuk sekarang, aku sarankan tetap pakai Pi 4, karena dia bekerja sempurna untuk node aku.
+RoninDojo menawarkan sebuah gambar untuk instalasi otomatis perangkat lunaknya pada [RockPro64](https://ronindojo.io/downloads). Namun, tutorial ini fokus ke prosedur instalasi manual di Raspberry Pi 4. Walaupun Raspberry Pi 5 baru dirilis dan secara teori tutorial ini harusnya kompatibel juga dengan model baru itu, aku belum sempat nyoba langsung, dan belum nemu feedback dari komunitas. Begitu aku punya Pi 5 dan komponen yang cocok, tutorial ini bakal aku update supaya kamu tetap dapat info terbaru. Untuk sekarang, aku sarankan tetap pakai Pi 4, karena dia bekerja sempurna untuk node aku.
 
 Dari sisi aku sendiri, aku jalanin RoninDojo di Raspberry Pi dengan 8 GB RAM. Walaupun beberapa anggota komunitas berhasil menjalankannya di perangkat dengan 4 GB RAM, aku belum uji konfigurasi itu sendiri. Mengingat selisih harganya kecil, lebih bijak pilih versi 8 GB RAM. Ini juga berguna kalau di masa depan kamu mau pakai ulang Raspberry Pi kamu buat kebutuhan lain.
 
@@ -505,12 +505,12 @@ Mengenai tab lain yang tersedia di dashboard RoninUI kamu:
 - `System Info`: Memberikan informasi umum tentang node kamu, seperti suhu CPU, penggunaan ruang penyimpanan, atau data RAM. kamu juga akan menemukan opsi `Reboot` dan `Shut down` untuk memulai ulang atau mematikan node;
 - `Settings`: Memungkinkan kamu untuk mengubah password pengguna kamu.
 
-Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika kamu menikmatinya, saya mendorong kamu untuk membagikannya di media sosial. Selain itu, jika kamu memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://donate.ronindojo.io/](https://donate.ronindojo.io/). Untuk memperdalam pengetahuan kamu tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
+Itu dia! Terima kasih telah mengikuti tutorial ini sampai selesai. Jika kamu menikmatinya, saya mendorong kamu untuk membagikannya di media sosial. Selain itu, jika kamu memiliki kesempatan, pertimbangkan untuk mendukung para pengembang yang membuat perangkat lunak bebas dan sumber terbuka ini tersedia untuk komunitas kita dengan donasi: [https://docs.ronindojo.io/main/donations/](https://docs.ronindojo.io/main/donations/). Untuk memperdalam pengetahuan kamu tentang RoninDojo dan menemukan lebih banyak sumber daya, saya sangat merekomendasikan untuk mengkonsultasikan link ke sumber daya eksternal yang disebutkan di bawah ini.
 
 **Sumber daya eksternal:**
 - [https://ronindojo.io/index.html](https://ronindojo.io/index.html)
 - [https://wiki.ronindojo.io/en/home](https://wiki.ronindojo.io/en/home)
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159](https://medium.com/@laurentmt/memperkenalkan-boltzmann-85930984a159)
-- [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+- [https://docs.ronindojo.io/install/manual/](https://docs.ronindojo.io/install/manual/)
 

@@ -27,7 +27,7 @@ Shukrani kwa ushirikiano na MoonPay, inawezekana pia kununua na kuuza Bitcoin na
 ## 2. Jinsi ya kufunga Rumble Wallet?
 
 
-Programu inaweza kusakinishwa kwenye [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) na iOS kupitia maduka yao rasmi.
+Programu inaweza kusakinishwa kwenye [Android](https://play.google.com/store/apps/details?id=com.rumble.rumblewallet) na iOS kupitia maduka yao rasmi.
 
 
 ![Image](assets/fr/01.webp)

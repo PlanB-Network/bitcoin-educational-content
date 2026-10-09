@@ -663,7 +663,7 @@ Blixt 這個行動 LN 節點是許多使用者手中非常強大的工具，只�
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - 宣傳影片 (您可以測試第 1 次使用 LN)
 - [Printable A4 flyer with first steps using Blixt, in various languages](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer)。
-- [Blixt 也提供功能完整的試用版](https://blixt-Wallet-git-master-hsjoberg.vercel.app/)，可直接在其網站上或專屬版本網頁上進行測試，讓您在實際使用前有完整的體驗。
+- [Blixt 也提供功能完整的試用版](https://blixtwallet.github.io/)，可直接在其網站上或專屬版本網頁上進行測試，讓您在實際使用前有完整的體驗。
 
 
 ---

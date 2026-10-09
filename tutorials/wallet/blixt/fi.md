@@ -663,7 +663,7 @@ Sillä välin tässä ovat kaikki linkit tästä hämmästyttävästä Bitcoin L
 - [Blixt presentation - promo video](https://lightning.video/06fdf68f99e246a6ec6ba1470677b9e632faaad4aa0ca9773c38714b682a4ac1)
 - [Blixt Girls Calendar](https://lightning.video/eeb744202ad3f14c18bf6d719970ebd9c53f0f13b79c94d299c6be623fba64b6) - mainosvideo (voit testata LN:n ensimmäistä käyttöä)
 - [Tulostettava A4-esite Blixtin ensimmäisistä askeleista, eri kielillä](https://github.com/BlixtWallet/blixtwallet.github.io/tree/master/assets/flyer).
-- [Blixt tarjoaa myös täysin toimivan demoversion](https://blixt-Wallet-git-master-hsjoberg.vercel.app/) suoraan verkkosivuillaan tai verkkoversiossa, jotta voit testata täydellisen kokemuksen, ennen kuin aloitat käytön todellisessa maailmassa.
+- [Blixt tarjoaa myös täysin toimivan demoversion](https://blixtwallet.github.io/) suoraan verkkosivuillaan tai verkkoversiossa, jotta voit testata täydellisen kokemuksen, ennen kuin aloitat käytön todellisessa maailmassa.
 
 
 ---

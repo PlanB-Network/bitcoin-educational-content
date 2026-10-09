@@ -1058,7 +1058,7 @@ If you want to prepare for quieter moments, you can plan a few activities or tal
 - bringing a **Nerdminer**, Bitaxe, FPGA or even ASIC;
 - having a **Bitcoin flyer**;
 - brainstorming a Bitcoin visual or logo for your community;
-- playing a **[Bitcoin card game](https://www.Maximalist.ovh/accueil/20-game-le-coin-de-table.html)**;
+- playing a **[Bitcoin card game](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table)**;
 - showing the **[btcmap.org](https://btcmap.org/)** map of communities and merchants;
 - sending or receiving Bitcoin using **Lightning**.
 
@@ -1309,7 +1309,7 @@ And much more, your imagination is the only limit!
 Depending on your availability and the level of involvement in your community, you can plan additional events throughout the year, such as:
 - A restaurant night for **Pizza Day** on May 22
 - An evening or weekend to celebrate the next **Halving**
-- A family **game night** about Bitcoin and how it works, using games like [Le Coin de Table](https://www.Maximalist.ovh/) or [SHAmory](https://shamory.com/)
+- A family **game night** about Bitcoin and how it works, using games like [Le Coin de Table](https://bitcoinbazar.fr/products/jeu-de-societe-le-coin-de-table) or [SHAmory](https://shamory.com/)
 - A **mining workshop** presenting different types of hardware (CPU, GPU, FPGA, ASIC, Nerdminer, Bitaxe)
 - An **afternoon or evening for beginners**, with themed workshops
 - A **joint meetup with neighboring communities**

@@ -166,7 +166,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 - Urufunguzo rwihariye rwa Nostr** (imiterere `nsec1...`)
- - Rema urufunguzo rw'ubudandaji rwihariye kuri [nostrkeygen.com](https://nostrkeygen.com/)
+ - Rema urufunguzo rw'ubudandaji rwihariye kuri [nostrkeygen.com](https://nostrtool.com/)
  - Ivy'ingenzi**: Ntukigere ukoresha urufunguzo rwawe rwa Nostr
  - Bika urufunguzo rwawe rw'ibanga ahantu heza (umucungerezi w'ijambobanga)
 

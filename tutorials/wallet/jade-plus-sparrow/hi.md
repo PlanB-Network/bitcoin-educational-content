@@ -211,7 +211,7 @@ PIN कोड का उपयोग आपके Jade को अनलॉक �
 
 ![Image](assets/fr/15.webp)
 
-आप Jade Plus बॉक्स में दिए गए QR कोड बेस का उपयोग कर सकते हैं। अगर आपने 12 या 24 शब्दों की वाक्य संरचना चुनी है, तो उसके अनुसार सही बॉक्स का चयन करें। आप [Blockstream वेबसाइट से टेम्पलेट भी प्रिंट कर सकते हैं](https://help.blockstream.com/hc/article_attachments/41928319071769)।
+आप Jade Plus बॉक्स में दिए गए QR कोड बेस का उपयोग कर सकते हैं। अगर आपने 12 या 24 शब्दों की वाक्य संरचना चुनी है, तो उसके अनुसार सही बॉक्स का चयन करें। आप [Blockstream वेबसाइट से टेम्पलेट भी प्रिंट कर सकते हैं](https://help.blockstream.com/blockstream-jade/use-jade-air-gapped/create-a-seedqr-from-your-recovery-phrase)।
 
 आपका जेड प्लस आपके क्यूआर कोड के प्रत्येक ज़ोन को प्रदर्शित करेगा।
 

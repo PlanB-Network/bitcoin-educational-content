@@ -96,7 +96,7 @@ IVPN केवल खुद के होस्ट किए गए सर्व
 
 अब आपका IVPN आपके स्मार्टफोन पर इंस्टॉल हो चुका है और आप इसे सुरक्षित रूप से इस्तेमाल कर सकते हैं।
 
-अपने ऐप स्टोर से IVPN डाउनलोड करें, चाहे आप iOS उपयोगकर्ता हों तो [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) से, Android उपयोगकर्ता हों तो [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client) से, या [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) से। अगर आप Android का उपयोग कर रहे हैं, तो आपके पास [IVPN साइट](https://www.ivpn.net/en/apps-android/) से सीधे `.apk` फाइल डाउनलोड करने का विकल्प भी है।
+अपने ऐप स्टोर से IVPN डाउनलोड करें, चाहे आप iOS उपयोगकर्ता हों तो [AppStore](https://apps.apple.com/us/app/ivpn-secure-vpn-for-privacy/id1193122683) से, Android उपयोगकर्ता हों तो [Google Play Store](https://www.ivpn.net/en/apps-android/) से, या [F-Droid](https://f-droid.org/en/packages/net.ivpn.client) से। अगर आप Android का उपयोग कर रहे हैं, तो आपके पास [IVPN साइट](https://www.ivpn.net/en/apps-android/) से सीधे `.apk` फाइल डाउनलोड करने का विकल्प भी है।
 
 ![IVPN](assets/notext/05.webp)
 

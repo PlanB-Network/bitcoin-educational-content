@@ -344,7 +344,7 @@ objectives:
 ### انقلاب صنعتی در سوال
 
 
-در واقع، تحلیل مارکسیستی واقعیت تاریخی انقلاب صنعتی را تحریف می‌کند. لودویگ فون میزس این مسئله را در رساله اقتصادی خود [_کنش انسانی_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (به ویژه فصل [تفسیر عمومی از انقلاب صنعتی](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) را ببینید) و همچنین در مجموعه‌ای از سخنرانی‌ها که تحت عنوان: [_سیاست اقتصادی: افکاری برای امروز و فردا_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) منتشر شده‌اند، روشن کرده است. (همچنین ارزش خواندن دارد، ذهنیت ضدسرمایه‌داری [اینجا](https://www.institutcoppet.org/wp-content/uploads/2011/05/La-Mentalit%C3%A9-anticapitaliste.pdf) و [اینجا](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
+در واقع، تحلیل مارکسیستی واقعیت تاریخی انقلاب صنعتی را تحریف می‌کند. لودویگ فون میزس این مسئله را در رساله اقتصادی خود [_کنش انسانی_](http://herve.dequengo.free.fr/Mises/AH/AHTDM.htm) (به ویژه فصل [تفسیر عمومی از انقلاب صنعتی](http://herve.dequengo.free.fr/Mises/AH/AH21.htm#inter2) را ببینید) و همچنین در مجموعه‌ای از سخنرانی‌ها که تحت عنوان: [_سیاست اقتصادی: افکاری برای امروز و فردا_](http://herve.dequengo.free.fr/Mises/PE/PE_TDM.htm) منتشر شده‌اند، روشن کرده است. (همچنین ارزش خواندن دارد، ذهنیت ضدسرمایه‌داری [اینجا](https://editions.institutcoppet.org/EL/Mises-Mentalite.pdf) و [اینجا](http://herve.dequengo.free.fr/Mises/MAC/MAC_TDM.htm)).
 
 ![image](assets/fa/014.webp)
 

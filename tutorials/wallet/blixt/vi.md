@@ -11,7 +11,7 @@ Hướng dẫn này dành cho tất cả người dùng mới muốn bắt đầ
 Sử dụng [Blixt Wallet](https://blixtwallet.com/), một nút LN đầy đủ trên thiết bị di động của bạn, bất kể bạn ở đâu.
 
 
-Nếu bạn chưa từng sử dụng Bitcoin Lightning Network, trước khi bắt đầu, [vui lòng đọc phần giải thích đơn giản về phép loại suy Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Nếu bạn chưa từng sử dụng Bitcoin Lightning Network, trước khi bắt đầu, [vui lòng đọc phần giải thích đơn giản về phép loại suy Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## CÁC ĐIỀU QUAN TRỌNG:
@@ -22,11 +22,11 @@ Nếu bạn chưa từng sử dụng Bitcoin Lightning Network, trước khi b�
 
 
 
-- Blixt đang sử dụng LND (aezeed) làm backend Wallet, vì vậy đừng cố gắng nhập các loại ví Bitcoin khác vào đó. [Tại đây, bạn đã giải thích các loại hạt giống Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Và đây là [danh sách mở rộng hơn về tất cả các loại ví](https://walletsrecovery.org/). Vì vậy, nếu trước đây bạn đã có một nút LND, bạn có thể nhập seed và backup.channels vào Blixt, [như được giải thích trong hướng dẫn này](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt đang sử dụng LND (aezeed) làm backend Wallet, vì vậy đừng cố gắng nhập các loại ví Bitcoin khác vào đó. [Tại đây, bạn đã giải thích các loại hạt giống Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Và đây là [danh sách mở rộng hơn về tất cả các loại ví](https://walletsrecovery.org/). Vì vậy, nếu trước đây bạn đã có một nút LND, bạn có thể nhập seed và backup.channels vào Blixt, [như được giải thích trong hướng dẫn này](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Ở cuối hướng dẫn này, bạn sẽ tìm thấy một phần đặc biệt với ["mẹo và thủ thuật"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Ở cuối hướng dẫn này, bạn sẽ tìm thấy một phần đặc biệt với ["mẹo và thủ thuật"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Sau khi bạn mở Blixt, màn hình “Chào mừng” sẽ cung cấp cho bạ
 
 - “bật Tor” - người dùng có thể bắt đầu với mạng Tor, đặc biệt nếu muốn khôi phục một nút LND cũ đang chạy với các đối tác chỉ có Tor.
 - “Set Bitcoin node” - nếu người dùng muốn kết nối trực tiếp đến node của mình, để đồng bộ các khối thông qua Neutrino, có thể thực hiện ngay từ màn hình chào mừng. Tùy chọn này cũng tốt trong trường hợp kết nối internet hoặc Tor của bạn không ổn định để kết nối đến node Bitcoin mặc định (node.blixtwallet.com).
-- Sẽ sớm thêm ngôn ngữ vào đó, vì vậy người dùng có thể bắt đầu ngay với ngôn ngữ mà họ thấy thoải mái. Nếu bạn muốn đóng góp cho dự án nguồn mở này bằng bản dịch sang các ngôn ngữ khác, [vui lòng tham gia tại đây](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Sẽ sớm thêm ngôn ngữ vào đó, vì vậy người dùng có thể bắt đầu ngay với ngôn ngữ mà họ thấy thoải mái. Nếu bạn muốn đóng góp cho dự án nguồn mở này bằng bản dịch sang các ngôn ngữ khác, [vui lòng tham gia tại đây](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### TÙY CHỌN A - Tạo Wallet mới
@@ -241,7 +241,7 @@ CHÚC MỪNG Bitcoin LIGHTNING!
 Hãy nhớ rằng, trong chương một “Liên hệ đầu tiên” có 2 tùy chọn trên màn hình Chào mừng:
 
 
-- [Tùy chọn A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Tạo Wallet mới
+- [Tùy chọn A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Tạo Wallet mới
 - Tùy chọn B - Khôi phục Wallet
 
 
@@ -251,7 +251,7 @@ Bây giờ chúng ta hãy thảo luận về cách khôi phục Blixt Wallet ho�
 ### TÙY CHỌN B - Khôi phục Wallet
 
 
-Trước đây, tôi đã viết một hướng dẫn chuyên sâu về [cách khôi phục nút Umbrel bị sập](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), trong đó tôi cũng đề cập đến phương pháp sử dụng Blixt làm quy trình khôi phục nhanh, bằng cách sử dụng tệp seed + channel.backup từ Umbrel.
+Trước đây, tôi đã viết một hướng dẫn chuyên sâu về [cách khôi phục nút Umbrel bị sập](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), trong đó tôi cũng đề cập đến phương pháp sử dụng Blixt làm quy trình khôi phục nhanh, bằng cách sử dụng tệp seed + channel.backup từ Umbrel.
 
 
 Tôi cũng đã viết hướng dẫn về cách khôi phục nút Blixt hoặc di chuyển Blixt của bạn sang thiết bị khác, [tại đây](https://blixtwallet.github.io/faq#blixt-restore).

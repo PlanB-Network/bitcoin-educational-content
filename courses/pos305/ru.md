@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Журналы узла Bitcoin
 
 
-Помимо [просмотра журналов](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) вашего контейнера bitcoind, вы также можете использовать любую из [команд bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Помимо [просмотра журналов](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) вашего контейнера bitcoind, вы также можете использовать любую из [команд bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(открывается новое окно)](https://developer.Bitcoin.org/reference/RPC/index.html) для получения информации от вашего узла Bitcoin. BTCPay включает в себя скрипт, который позволит вам легко общаться с узлом Bitcoin.
+[(открывается новое окно)](https://developer.bitcoin.org/reference/rpc/index.html) для получения информации от вашего узла Bitcoin. BTCPay включает в себя скрипт, который позволит вам легко общаться с узлом Bitcoin.
 
 
 В папке btcpayserver-docker получите информацию о Blockchain с помощью вашей ноды:

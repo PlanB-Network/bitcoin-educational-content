@@ -11,7 +11,7 @@ description: چگونه می‌توان از یک نود قدرتمند LN بر 
 استفاده از [Blixt Wallet](https://blixtwallet.com/)، یک نود کامل LN بر روی موبایل شما، هر کجا که هستید.
 
 
-اگر هرگز از Bitcoin Lightning Network استفاده نکرده‌اید، قبل از شروع، [لطفاً این توضیح ساده و تشبیه درباره Lightning Network (LN) را بخوانید](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+اگر هرگز از Bitcoin Lightning Network استفاده نکرده‌اید، قبل از شروع، [لطفاً این توضیح ساده و تشبیه درباره Lightning Network (LN) را بخوانید](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## جنبه‌های مهم:
@@ -22,11 +22,11 @@ description: چگونه می‌توان از یک نود قدرتمند LN بر 
 
 
 
-- بلیکس از LND (aezeed) به عنوان بک‌اند Wallet استفاده می‌کند، بنابراین سعی نکنید انواع دیگر کیف‌پول‌های Bitcoin را در آن وارد کنید. [اینجا انواع بذرهای Wallet و Mnemonic را توضیح داده‌اید](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). و اینجا [لیست جامع‌تری از انواع کیف‌پول‌ها](https://walletsrecovery.org/) موجود است. بنابراین اگر قبلاً یک نود LND داشتید، می‌توانید seed و backup.channels را به بلیکس وارد کنید، [همان‌طور که در این راهنما توضیح داده شده است](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- بلیکس از LND (aezeed) به عنوان بک‌اند Wallet استفاده می‌کند، بنابراین سعی نکنید انواع دیگر کیف‌پول‌های Bitcoin را در آن وارد کنید. [اینجا انواع بذرهای Wallet و Mnemonic را توضیح داده‌اید](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). و اینجا [لیست جامع‌تری از انواع کیف‌پول‌ها](https://walletsrecovery.org/) موجود است. بنابراین اگر قبلاً یک نود LND داشتید، می‌توانید seed و backup.channels را به بلیکس وارد کنید، [همان‌طور که در این راهنما توضیح داده شده است](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- در انتهای این راهنما، بخشی ویژه با ["نکات و ترفندها"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips) خواهید یافت.
+- در انتهای این راهنما، بخشی ویژه با ["نکات و ترفندها"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips) خواهید یافت.
 
 
 
@@ -65,7 +65,7 @@ description: چگونه می‌توان از یک نود قدرتمند LN بر 
 
 - "فعال کردن Tor" - کاربر می‌تواند با شبکه Tor شروع کند، به‌ویژه اگر بخواهد یک نود قدیمی LND را که فقط با همتایان Tor اجرا می‌شد، بازیابی کند.
 - "تنظیم گره Bitcoin" - اگر کاربر بخواهد مستقیماً به گره خود متصل شود تا بلوک‌ها را از طریق Neutrino همگام‌سازی کند، می‌تواند این کار را مستقیماً از صفحه خوش‌آمدگویی انجام دهد. این گزینه همچنین در صورتی که اتصال اینترنت یا Tor شما برای اتصال به گره پیش‌فرض Bitcoin (node.blixtwallet.com) ناپایدار باشد، مناسب است.
-- به زودی زبان به آن اضافه خواهد شد، بنابراین کاربر می‌تواند مستقیماً با زبانی که راحت است شروع کند. اگر می‌خواهید با ترجمه به زبان‌های دیگر به این پروژه متن‌باز کمک کنید، [لطفاً اینجا بپیوندید](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- به زودی زبان به آن اضافه خواهد شد، بنابراین کاربر می‌تواند مستقیماً با زبانی که راحت است شروع کند. اگر می‌خواهید با ترجمه به زبان‌های دیگر به این پروژه متن‌باز کمک کنید، [لطفاً اینجا بپیوندید](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### گزینه A - ایجاد Wallet جدید
@@ -241,7 +241,7 @@ Bitcoin LIGHTNING مبارک!
 به یاد داشته باشید، در فصل یک "اولین تماس" دو گزینه در صفحه خوش‌آمدگویی وجود داشت:
 
 
-- [گزینه A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - ایجاد Wallet جدید
+- [گزینه A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - ایجاد Wallet جدید
 - گزینه ب - بازیابی Wallet
 
 
@@ -251,7 +251,7 @@ Bitcoin LIGHTNING مبارک!
 ### گزینه ب - بازیابی Wallet
 
 
-در گذشته، من یک راهنمای اختصاصی درباره [چگونگی بازیابی یک نود Umbrel خراب شده](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html) نوشتم، که در آن همچنین به روش استفاده از Blixt به عنوان فرآیند بازیابی سریع، با استفاده از فایل seed + channel.backup از Umbrel اشاره کردم.
+در گذشته، من یک راهنمای اختصاصی درباره [چگونگی بازیابی یک نود Umbrel خراب شده](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html) نوشتم، که در آن همچنین به روش استفاده از Blixt به عنوان فرآیند بازیابی سریع، با استفاده از فایل seed + channel.backup از Umbrel اشاره کردم.
 
 
 من همچنین راهنمایی نوشتم که چگونه نود Blixt خود را بازیابی کنید یا Blixt خود را به دستگاه دیگری منتقل کنید، [اینجا](https://blixtwallet.github.io/faq#blixt-restore).

@@ -401,7 +401,7 @@ Although it has certain limitations (no mobile version, non-persistent sessions)
 
 - [Official Mullvad Browser website](https://mullvad.net/fr/browser)
 - [Mullvad Browser download page](https://mullvad.net/en/download/browser)
-- [Detailed technical specifications](https://mullvad.net/en/browser/Hard-facts)
+- [Detailed technical specifications](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

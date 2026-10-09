@@ -94,7 +94,7 @@ Ili kuunda SeedSigner yako, utahitaji vifaa vifuatavyo:
 
 - Nyumba (ya hiari lakini inapendekezwa)** (si lazima lakini inapendekezwa)** (si lazima lakini inapendekezwa)** (si lazima lakini inapendekezwa)**)
     - Hulinda kifaa na kurahisisha kutumia.
-    - Muundo maarufu zaidi ni "*Kipochi cha Kidonge cha Machungwa*", ambacho [faili huria za STL zinapatikana kwa uchapishaji wa 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosure).
+    - Muundo maarufu zaidi ni "*Kipochi cha Kidonge cha Machungwa*", ambacho [faili huria za STL zinapatikana kwa uchapishaji wa 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Sanduku zinapatikana pia kutoka kwa [wauzaji wanaojitegemea waliounganishwa na mradi](https://seedsigner.com/hardware/).
 
 

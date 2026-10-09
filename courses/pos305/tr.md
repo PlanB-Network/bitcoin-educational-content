@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Düğüm Günlükleri
 
 
-bitcoind konteynerinizin [günlüklerine bakmanın](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) yanı sıra, [bitcoin-cli komutlarından](https://developer.Bitcoin.org/reference/RPC/index.html) herhangi birini de kullanabilirsiniz
+bitcoind konteynerinizin [günlüklerine bakmanın](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) yanı sıra, [bitcoin-cli komutlarından](https://developer.bitcoin.org/reference/rpc/index.html) herhangi birini de kullanabilirsiniz
 
 
-gW-454 düğümünüzden bilgi almak için [(yeni pencere açar)](https://developer.Bitcoin.org/reference/RPC/index.html). BTCPay, Bitcoin düğümünüzle kolayca iletişim kurmanızı sağlayacak bir komut dosyası içerir.
+gW-454 düğümünüzden bilgi almak için [(yeni pencere açar)](https://developer.bitcoin.org/reference/rpc/index.html). BTCPay, Bitcoin düğümünüzle kolayca iletişim kurmanızı sağlayacak bir komut dosyası içerir.
 
 
 Btcpayserver-docker klasörünün içinde, düğümünüzü kullanarak Blockchain bilgilerini alın:

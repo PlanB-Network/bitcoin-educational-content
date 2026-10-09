@@ -48,7 +48,7 @@ See märkimisväärne kasv on muidugi tihedalt seotud:
 
 
 
-- [inimeste kasvav huvi kogu maailmas Bitcoin kasutamise vastu](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), et vabaneda pangandussüsteemist ja/või kasutada vähem volatiilset või vähem devalveeritud valuutat, nagu seda teevad Liibanoni, Süüria, Egiptuse, Argentina ja teiste riikide elanikud;
+- [inimeste kasvav huvi kogu maailmas Bitcoin kasutamise vastu](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), et vabaneda pangandussüsteemist ja/või kasutada vähem volatiilset või vähem devalveeritud valuutat, nagu seda teevad Liibanoni, Süüria, Egiptuse, Argentina ja teiste riikide elanikud;
 - selle hinna tõusu aja jooksul, kehtestades selle kui väärtuse säilitaja ja pikaajalise investeeringu, mis on tingitud fikseeritud rahapoliitikast;
 - spekulatiivse krüptovaluutaturu järjestikune kasv, eriti aastatel 2017-2018 ja 2020-2021;
 - Bitcoin kasvav kohalolek peavoolumeedias.
@@ -2006,7 +2006,7 @@ Samuti võiksite kujundada oma kogukonnale või kokkusaamisele omase infolehe, m
 Mitmed flaierid on juba **saadavaks avatud lähtekoodiga [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** planB.network'is ja aja jooksul lisandub veel rohkem.
 
 
-Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
+Üks näide on [täielik infoleht](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), milles on 21 põhjust Bitcoin kasutamiseks. Selle kujundus on samuti [avatud lähtekoodiga](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), mida saate muuta, kohandada ja jagada. Lihtsalt ärge unustage, et viitaksite oma allikatele.
 
 
 
@@ -2050,7 +2050,7 @@ Kuigi Bitcoin valge raamatu lahkumine on sümboolne, on see sageli liiga keeruli
 - gW-166 valge raamat, mis on tõlgitud prantsuse keelde.
 
 
-Siin on [Prantsuse bitcoin'i kasutajate seas jagatud vihik](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), mis on paigutatud kümnetesse raamatukastidesse üle kogu riigi. Selle kujundus on ka [avatud lähtekoodiga](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Siin on [Prantsuse bitcoin'i kasutajate seas jagatud vihik](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), mis on paigutatud kümnetesse raamatukastidesse üle kogu riigi. Selle kujundus on ka [avatud lähtekoodiga](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

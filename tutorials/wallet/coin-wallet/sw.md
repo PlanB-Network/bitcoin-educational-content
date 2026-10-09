@@ -404,7 +404,7 @@ https://coin.space/
 https://support.coin.space/hc/en-us
 
 
-https://sw.bitcoin.it/wiki/Wallet
+https://en.bitcoin.it/wiki/Wallet
 
 
 https://bitcoinops.org/

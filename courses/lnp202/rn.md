@@ -1000,7 +1000,7 @@ Aha niho ufise amakuru yo kwinjira:
 023bad37e5795654cecc69b43599da8bd5789ac633c098253f60494bde602b60bf@34.216.52.158:9911
 ```
 
-Kugira ngo ubashimire ko batanze iyo nsiguro y’umunara w’inderetsi ku buntu, [ushobora gutanga intererano biciye ku Muravyo](https://umuravyo.plus/intererano).
+Kugira ngo ubashimire ko batanze iyo nsiguro y’umunara w’inderetsi ku buntu, [ushobora gutanga intererano biciye ku Muravyo](https://lightningnetwork.plus/donation).
 
 
 Ubu ko turiko turakoresha umunara w'ibarabara, reka turabe ingene twowutunganya ku nzira yacu ya LND iri munsi ya Umbrel.
@@ -1405,7 +1405,7 @@ Mu porogarama zizwi cane harimwo:
 
 
 - [Alby Hub](ku rubuga rwacu);
-- [Gutwara Umuravyo](https://www.gutwara umuravyo.amakuru/);
+- [Gutwara Umuravyo](https://www.ridethelightning.info/);
 - [ThunderHub](ku rubuga rw'inkuba).
 
 
@@ -1583,7 +1583,7 @@ Hari uburyo bwinshi bwo kugura amahera yinjira. Ico jewe ubwanje nkoresha kandi 
 
 
 
-Genda kuri [urubuga rwa Magma](https://magma.amboss.tech/gura), mu gice ca `Gura Imirongo`.
+Genda kuri [urubuga rwa Magma](https://magma.amboss.tech/buy), mu gice ca `Gura Imirongo`.
 
 
 
@@ -1671,7 +1671,7 @@ Niba utari umucuruzi, ariko ukaba ukeneye amahera yinjira (nk’akarorero, kugir
 
 
 
-Ushobora, birumvikana, gutunganya ivyo ataco uhinduye n’abagenzi bawe ba bitcoiners. Ariko rero, hariho urubuga rwerekeye ubwo bwoko bw’ugufungura uruziga: [Lightning Network +](https://umuravyo.plus/). Ingingo ngenderwako si iyo gufungura imihora ibiri hagati y’abantu bamwe, ahubwo ni iyo gushinga imirongo y’uruziga irimwo abantu batatu n’imiburiburi, canke mbere n’abarenga.
+Ushobora, birumvikana, gutunganya ivyo ataco uhinduye n’abagenzi bawe ba bitcoiners. Ariko rero, hariho urubuga rwerekeye ubwo bwoko bw’ugufungura uruziga: [Lightning Network +](https://lightningnetwork.plus/). Ingingo ngenderwako si iyo gufungura imihora ibiri hagati y’abantu bamwe, ahubwo ni iyo gushinga imirongo y’uruziga irimwo abantu batatu n’imiburiburi, canke mbere n’abarenga.
 
 
 
@@ -1705,7 +1705,7 @@ Kugira ngo ukoreshe Lightning Network +, ufise uburyo bubiri: ukoreshe porogaram
 
 
 
-Genda ku rubuga [Lightning Network +](https://umuravyo.plus/) hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
+Genda ku rubuga [Lightning Network +](https://lightningnetwork.plus/) hanyuma ukande kuri buto `Injira` iri hejuru iburyo bw’urubuga.
 
 
 

@@ -33,7 +33,7 @@ U ovom vodiču ćemo pogledati 3 načina korišćenja **Watchtower** :
 
 
 
-*Ovaj vodič je preuzet iz [zvanične LND dokumentacije](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Moguće je da su napravljene neke izmene u originalnoj verziji.
+*Ovaj vodič je preuzet iz [zvanične LND dokumentacije](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Moguće je da su napravljene neke izmene u originalnoj verziji.
 
 
 

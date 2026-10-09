@@ -52,7 +52,7 @@ Maze kuyigerageza, ndatangazwa n’uko ico kintu ari ciza. Ubumenyi bw’uwukore
 ## Ni gute wogura Flex ya Ledger?
 
 
-Igikoresho ca Ledger Flex kiraboneka ku kiguzi [ku rubuga rwemewe](https://iduka.Ledger.com/amapaji/Ledger-flex). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
+Igikoresho ca Ledger Flex kiraboneka ku kiguzi [ku rubuga rwemewe](https://shop.ledger.com/pages/ledger-flex). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://www.Ledger.com/reseller) ku rubuga rwa Ledger.
 
 
 ## Ibisabwa

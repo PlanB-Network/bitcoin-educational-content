@@ -1970,9 +1970,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### जीडब्ल्यू-441 नोड लॉग्स
 
-इसके अलावा [अपने bitcoind कंटेनर के लॉग देखने](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) के बजाय, आप [bitcoin-cli कमांड्स](https://developer.Bitcoin.org/reference/RPC/index.html) में से कोई भी इस्तेमाल कर सकते हैं।
+इसके अलावा [अपने bitcoind कंटेनर के लॉग देखने](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) के बजाय, आप [bitcoin-cli कमांड्स](https://developer.bitcoin.org/reference/rpc/index.html) में से कोई भी इस्तेमाल कर सकते हैं।
 
-[(नई विंडो खोलें)](https://developer.Bitcoin.org/reference/RPC/index.html) अपने Bitcoin नोड से जानकारी प्राप्त करने के लिए। BTCPay में एक स्क्रिप्ट शामिल है जो आपको अपने Bitcoin नोड के साथ आसानी से संवाद करने की अनुमति देती है।
+[(नई विंडो खोलें)](https://developer.bitcoin.org/reference/rpc/index.html) अपने Bitcoin नोड से जानकारी प्राप्त करने के लिए। BTCPay में एक स्क्रिप्ट शामिल है जो आपको अपने Bitcoin नोड के साथ आसानी से संवाद करने की अनुमति देती है।
 
 `btcpayserver-docker` फोल्डर के अंदर, अपने नोड का इस्तेमाल करके Blockchain की जानकारी प्राप्त करें:
 

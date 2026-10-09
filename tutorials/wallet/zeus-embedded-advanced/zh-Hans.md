@@ -322,7 +322,7 @@ aezeed 密钥格式应与以下移动钱包兼容：Blixt、BlueWallet 和 Breez
 如果过了很长时间仍未显示旧的历史 txs，请进入 "嵌入式节点"-"对等节点"，禁用 "使用选定对等节点列表 "选项（默认为 btcd.lnolymp.us）。这将触发重启，并以更好的时间响应连接到第一个可用的中微子节点。或者使用下面提到的其他知名中微子节点。
 
 
-如果您想了解 LND 节点的更多恢复选项，[请阅读我以前的指南](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)，在那里您可以找到如何将已封堵的 seed 导入麻雀 Wallet 的步骤或其他方法。
+如果您想了解 LND 节点的更多恢复选项，[请阅读我以前的指南](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)，在那里您可以找到如何将已封堵的 seed 导入麻雀 Wallet 的步骤或其他方法。
 
 
 **C - 嵌入式节点**

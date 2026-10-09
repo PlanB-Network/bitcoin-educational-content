@@ -82,7 +82,7 @@ En plus des sources directement données dans le propos en lien hypertexte, nous
 Nous nous sommes également inspiré des films documentaires couvrant cette partie de l'histoire de Bitcoin, à savoir :
 
 - [*The Bitcoin Phenomenon*](https://www.youtube.com/watch?v=6pWblf8COH4), réalisé par Bhu Srinivasan et diffusé le 12 avril 2014 ;
-- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=A06qdTpOYcg), réalisé par Nicholas Mross et sorti le 10 octobre 2014 ;
+- [*The Rise and Rise of Bitcoin*](https://www.youtube.com/watch?v=Yh1dOmQJoWQ), réalisé par Nicholas Mross et sorti le 10 octobre 2014 ;
 - [*Deep Web*](https://www.youtube.com/watch?v=L7emWKAMEvI), réalisé par Alex Winter, pour une diffusion le 31 mai 2015.
 
 Enfin, nous avons fait usage d'un certain nombre d'archives et de contenus disponibles sur Internet, dont :

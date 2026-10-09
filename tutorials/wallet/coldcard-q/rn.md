@@ -79,7 +79,7 @@ Ku ruhande rwa porogarama, COLDCARD Q irafise ibikoresho vyiza nk’ibindi bikor
 Muri make, COLDCARD Q itanga ubumenyi bwiza kuruta MK4, kandi ishobora kuba nziza ku bakoresha bo hagati n’abateye imbere barondera uko bakoresha vyoroshe.
 
 
-COLDCARD Q iraboneka ku kugurisha [ku rubuga rwemewe rwa Coinkite](https://iduka.coinkite.com/iduka/iduka ry'ubukonje). Ishobora kandi kugurwa n’umucuruzi.
+COLDCARD Q iraboneka ku kugurisha [ku rubuga rwemewe rwa Coinkite](https://store.coinkite.com/store/coldcard). Ishobora kandi kugurwa n’umucuruzi.
 
 
 ## Gutegura inyigisho
@@ -231,7 +231,7 @@ Suzuma [ku rubuga rwemewe rwa COLDCARD](https://coldcard.com/downloads) kugira n
 ![CCQ](assets/fr/020.webp)
 
 
-Muri iki gihe, turagusavye cane gusuzuma ubutungane n’ukuri kw’ivyo bikoresho vyavuye kuri interineti. Kugira ngo ubikore, fungura [inyandiko irimwo ama hashes y’ama verisiyo yose, yashizweko umukono n’abayiteguye](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), ugenzure umukono ukoresheje [urufunguzo rwa bose rw’umuhinguzi](https://keychechebase.io/ ihuye n’iyo porogarama y’ivyuma yavanwe kuri uwo muhora. Niba vyose bimeze neza, urashobora gukomeza n’ivyo guhindura.
+Muri iki gihe, turagusavye cane gusuzuma ubutungane n’ukuri kw’ivyo bikoresho vyavuye kuri interineti. Kugira ngo ubikore, fungura [inyandiko irimwo ama hashes y’ama verisiyo yose, yashizweko umukono n’abayiteguye](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt), ugenzure umukono ukoresheje [urufunguzo rwa bose rw’umuhinguzi](https://keybase.io/dochex ihuye n’iyo porogarama y’ivyuma yavanwe kuri uwo muhora. Niba vyose bimeze neza, urashobora gukomeza n’ivyo guhindura.
 
 
 Niba utazi neza ubu buryo bwo kugenzura, ndagusavye gukurikira iyi nyigisho:

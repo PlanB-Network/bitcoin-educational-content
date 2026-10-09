@@ -90,7 +90,7 @@ Ubu, uhitemwo gusa Genda kuri Wallet kuri porogaramu ya Green uzobona Wallet yaw
 Uhejeje gukoresha Wallet yawe, ushire Blockstream Jade yawe ku gikoresho cawe. Igihe kizoza ushaka gukoresha Wallet kuri Blockstream Jade, gusa subira gufatanya igikoresho cawe maze ukurikize ivyo bigusaba.
 
 
-inkomoko: https://imfashanyo.guhagarika uruzi.com/hc/ru-twe/ingingo/17478506300825
+inkomoko: https://help.blockstream.com/hc/en-us/articles/17478506300825 uruzi.com/hc/ru-twe/ingingo/17478506300825
 
 
 ### Umugereka A - Gusuzuma dosiye ya Green Wallet

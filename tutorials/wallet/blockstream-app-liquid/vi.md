@@ -35,7 +35,7 @@ description: Cách cấu hình ứng dụng Blockstream và sử dụng Liquid N
 
 
 
-**Liquid** là **Sidechain** của Bitcoin, do **[Blockstream](https://blockstream.com/Liquid/)** phát triển, được thiết kế để cung cấp chức năng nhanh hơn, mạnh hơn Confidential Transactions và tiên tiến hơn, đồng thời vẫn kết nối với Blockchain Bitcoin chính.
+**Liquid** là **Sidechain** của Bitcoin, do **[Blockstream](https://blockstream.com/liquid/)** phát triển, được thiết kế để cung cấp chức năng nhanh hơn, mạnh hơn Confidential Transactions và tiên tiến hơn, đồng thời vẫn kết nối với Blockchain Bitcoin chính.
 
 
 

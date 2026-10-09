@@ -294,7 +294,7 @@ Koresha ikimenyetso ca bose nka :
 
 
 - [ikinyamakuru.com](https://ikinyamakuru.com)
-- [iyindi.ikimenyetso.com](https://iyindi.ikimenyetso.com)
+- [iyindi.ikimenyetso.com](https://alt.signetfaucet.com)
 - [ikimenyetso c'igitabu257.igisagara cacu](ikimenyetso257.ikinyamakuru.org)
 
 
@@ -493,7 +493,7 @@ Ivyo rero **bica vyikora**: iyo inyishu yawe imaze kwandikwa, iyo porogarama iri
 
 
 
-Iyo amafaranga amaze gutangazwa, uzoronka TXID (ikimenyetso c’amafaranga). Raba kuri [mempool.ikibanza](https://mempool.ikibanza) canke ku mucukumbuzi ukunda. Kugira ngo ugerageze ku kimenyetso c'igitabu, koresha [mempool.umwanya/ikidodo](https://mempool.umwanya/ikimenyetso).
+Iyo amafaranga amaze gutangazwa, uzoronka TXID (ikimenyetso c’amafaranga). Raba kuri [mempool.ikibanza](https://mempool.space) canke ku mucukumbuzi ukunda. Kugira ngo ugerageze ku kimenyetso c'igitabu, koresha [mempool.umwanya/ikidodo](https://mempool.space/signet).
 
 
 
@@ -651,8 +651,8 @@ Mu gihe ivy’ugusuzuma ivy’amahera biriko birarushiriza, ibikoresho vy’inze
 
 
 - [Urubuga rwemewe rwa Joinstr](https://docs.joinstr.xyz/)
-- [Inyandiko z'ukoresha](https://inyandiko.gufatanya.xyz/abakoresha/gukoresha-gufatanya)
-- [Inyandiko z'ubuhinga](https://inyandiko.joinstr.xyz/insiguro/ingene-bikora)
+- [Inyandiko z'ukoresha](https://docs.joinstr.xyz/users/using-joinstr)
+- [Inyandiko z'ubuhinga](https://docs.joinstr.xyz/overview/how-does-it-work)
 - [Kode y'inkomoko ya GitLab](gitlab.com/ubuzima bwite-budashobora gutsindwa/ugufatanya)
 - [Iporogaramu ya Android](ibanga ry'ubuzima bwite/joinstr-kmp/-/ibisohoka)
 

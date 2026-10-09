@@ -57,7 +57,7 @@ Ubwo bwoko bw’igabanya ry’ibiciro burakora neza cane ku maduka agaragara, ca
 ##### Akarorero
 
 
-Ibihugu vyose vyo mu Buraya bifise umusoro ku vyo umuntu akoresha, witwa mu congereza "Umusoro ku gaciro k'ivyongerwako", ubu hakaba [VAT](https://ru.wikipedia.org/wiki/Umusoro ku gaciro_kongereweko). Uwo musoro wavumbuwe mu Bufaransa mu 1954, kandi mu 1970 wari umaze gutangura gukwiragira mu Muryango w’Uburaya wo mu ntango; mu 2020 ryari ryarakwiragiye mu bice vyinshi vyo kw’isi.
+Ibihugu vyose vyo mu Buraya bifise umusoro ku vyo umuntu akoresha, witwa mu congereza "Umusoro ku gaciro k'ivyongerwako", ubu hakaba [VAT](https://en.wikipedia.org/wiki/Value-added_tax). Uwo musoro wavumbuwe mu Bufaransa mu 1954, kandi mu 1970 wari umaze gutangura gukwiragira mu Muryango w’Uburaya wo mu ntango; mu 2020 ryari ryarakwiragiye mu bice vyinshi vyo kw’isi.
 
 
 Ku karorero, reka twiyumvire ko turi mu Buraya, mu gihugu aho igipimo c’IVA ari 20% ku rwego urwo ari rwo rwose rw’ibicuruzwa. Turi mw’iduka ry’inkweto, kandi reka tuvuge ko inkweto z’urukoba zigura amadolari 120 iyo zirishwe n’ikarata yo gukurako amahera.

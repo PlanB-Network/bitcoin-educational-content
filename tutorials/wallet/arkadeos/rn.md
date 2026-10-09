@@ -101,7 +101,7 @@ Ushobora gushika kuri Arkade ukoresheje urubuga urwo ari rwo rwose rwo muri iki 
 
 
 
-- Sura urubuga rwemewe rw'iyi porogarama: **[amahera.arkade](https://amahera.arkade)**.
+- Sura urubuga rwemewe rw'iyi porogarama: **[amahera.arkade](https://arkade.money)**.
 
 
 
@@ -474,6 +474,6 @@ Kugira ngo umenye vyinshi, raba ibitabu vyemewe:
 
 
 - Urubuga rwa Arkade**: [ibibanza vy'imikino.com]
-- Ivyanditswe**: [inyandiko.amashure.com](https://inyandiko.amashure.com)
+- Ivyanditswe**: [inyandiko.amashure.com](https://docs.arkadeos.com)
 - Amasezerano ya Ark**: [amasezerano y'ubwato.org](https://amasezerano y'ubwato.org)
 - Kode y'inkomoko** : [Igikoresho ca GitHub]

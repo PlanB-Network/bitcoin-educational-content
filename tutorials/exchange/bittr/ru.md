@@ -21,7 +21,7 @@ Bittr - это простой инструмент для тех, кто хоч�
 ## Начало работы с Bittr
 
 
-- На веб-сайте или в мобильном устройстве перейдите на сайт [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) и нажмите на кнопку "Купить Bitcoin"
+- На веб-сайте или в мобильном устройстве перейдите на сайт [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) и нажмите на кнопку "Купить Bitcoin"
 
 
 

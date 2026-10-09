@@ -21,7 +21,7 @@ Ariko rero, ubwo buryo burafise ingorane zikomeye: seed itegerezwa kuguma ishobo
 
 
 
-Kugira ngo umuntu ashobore gutsinda iyo ntege nke, SeedSigner irashobora gufatanywa na [**Umucungezi w’imbuto**](https://satochip.io/igicuruzwa/umucungezi w’imbuto/), ikarita y’ubwenge yakozwe na Satochip. Ivyo bituma amajambo y’ukwibuka (canke ayandi mabanga) abikwa muri secure element irindwa na kode ya PIN. Igikoresho ca Seedkeeper ni igikoresho gifunguye, kandi secure element yaco ifise icemezo ca EAL6+. Ikoreshwa hamwe na SeedSigner, itanga ikintu gishimishije cane co gucungera umutekano: imfunguruzo zawe ziguma zicungiwe zose zitari ku murongo, ushirako umukono ku bikorwa vyawe ku gicapo cizigirwa, kandi seed irindwa ku mubiri mu karata y’ubwenge idashobora guterwa n’abantu.
+Kugira ngo umuntu ashobore gutsinda iyo ntege nke, SeedSigner irashobora gufatanywa na [**Umucungezi w’imbuto**](https://satochip.io/product/seedkeeper/), ikarita y’ubwenge yakozwe na Satochip. Ivyo bituma amajambo y’ukwibuka (canke ayandi mabanga) abikwa muri secure element irindwa na kode ya PIN. Igikoresho ca Seedkeeper ni igikoresho gifunguye, kandi secure element yaco ifise icemezo ca EAL6+. Ikoreshwa hamwe na SeedSigner, itanga ikintu gishimishije cane co gucungera umutekano: imfunguruzo zawe ziguma zicungiwe zose zitari ku murongo, ushirako umukono ku bikorwa vyawe ku gicapo cizigirwa, kandi seed irindwa ku mubiri mu karata y’ubwenge idashobora guterwa n’abantu.
 
 
 
@@ -31,7 +31,7 @@ Ivyo ukeneye vyose kugira ngo urangize gushiramwo ni ibi bikurikira:
 
 
 - Ibikoresho bisanzwe bikenewe ku gikoresho ca kera co gukoresha SeedSigner: Raspberry Pi Zero, igicapo ca Waveshare 1.3", kamera ihuye n'ikarita ya microSD (uzosanga ibindi mu nyigisho ya SeedSigner iri musi);
-- Igikoresho co kwagura SeedSigner, kiboneka [ku iduka ryemewe rya Satochip](https://satochip.io/igicuruzwa/igikoresho co kwagura-seedsigner/), kigufasha gusoma no kwandika ku ikarita y’ubwenge ukoresheje SeedSigner yawe. Iyindi nzira ni ugukoresha igikoresho co gusoma amakarata y’ubuhinga bwo hanze, gishobora gufatanywa n’umugozi ku nzira ya Micro-USB iri kuri Raspberry Pi. Ariko rero, jewe ubwanje sinarigeze ngerageza uwo muti;
+- Igikoresho co kwagura SeedSigner, kiboneka [ku iduka ryemewe rya Satochip](https://satochip.io/product/seedsigner-extension-kit/), kigufasha gusoma no kwandika ku ikarita y’ubwenge ukoresheje SeedSigner yawe. Iyindi nzira ni ugukoresha igikoresho co gusoma amakarata y’ubuhinga bwo hanze, gishobora gufatanywa n’umugozi ku nzira ya Micro-USB iri kuri Raspberry Pi. Ariko rero, jewe ubwanje sinarigeze ngerageza uwo muti;
 - Seedkeeper, canke ikarita y’ubwenge idafise ikintu umuntu yoshirako applet ya Seedkeeper (igikoresho co kwagura kigurishwa na Satochip kirasanzwe kirimwo ikarita y’ubwenge idafise ikintu).
 
 
@@ -56,7 +56,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramwo iyindi porogarama, itandukanye n’iya SeedSigner y’intango, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork ivuye muri "*Isubiramwo rya 3*"](https://github.com/Isubiramwo rya 3/umusinyi w'imbuto). Gukuraho [verisiyo nshasha y'ishusho](`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
+Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramwo iyindi porogarama, itandukanye n’iya SeedSigner y’intango, kugira ngo ushobore gufasha gusoma ikarita y’ubwenge. Ku bw'ivyo, [ndabahimiriza gukoresha fork ivuye muri "*Isubiramwo rya 3*"](https://github.com/3rdIteration/seedsigner). Gukuraho [verisiyo nshasha y'ishusho](`.zip`) ihuye n'akarorero ka Raspberry Pi uriko urakoresha.
 
 
 

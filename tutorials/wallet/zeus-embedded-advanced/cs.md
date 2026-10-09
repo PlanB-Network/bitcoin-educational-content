@@ -322,7 +322,7 @@ SCB je nutný pouze v případě, že máte otevřené kanály LN. V případě,
 Pokud vidíte, že po dlouhé době se stále nezobrazuje stará historie txs, přejděte do Vložený uzel - Peers a vypněte možnost použít seznam vybraných peers (ve výchozím nastavení je btcd.lnolymp.us). To vyvolá restart a připojí se k prvnímu dostupnému neutrálnímu uzlu s lepší časovou odezvou. Nebo použijte níže uvedené další známé neutrino peery.
 
 
-Pokud chcete vidět další možnosti obnovy uzlu LND, [přečtěte si prosím můj předchozí návod](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), kde najdete postup, jak importovat aezeed seed do Sparrow Wallet nebo další metody.
+Pokud chcete vidět další možnosti obnovy uzlu LND, [přečtěte si prosím můj předchozí návod](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), kde najdete postup, jak importovat aezeed seed do Sparrow Wallet nebo další metody.
 
 
 **C - Vestavěný uzel**

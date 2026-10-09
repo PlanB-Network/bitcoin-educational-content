@@ -547,7 +547,7 @@ Vaikka sillä on tiettyjä rajoituksia (ei mobiiliversiota, ei-pysyviä istuntoj
 
 - [Mullvad Browserin virallinen verkkosivusto](https://mullvad.net/fr/browser)
 - [Mullvad Browserin lataussivu](https://mullvad.net/en/download/browser)
-- [Yksityiskohtaiset tekniset tiedot](https://mullvad.net/en/browser/Hard-facts)
+- [Yksityiskohtaiset tekniset tiedot](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

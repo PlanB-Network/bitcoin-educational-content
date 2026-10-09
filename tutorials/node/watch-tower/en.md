@@ -25,7 +25,7 @@ In this tutorial, we'll look at 3 ways of using a **Watchtower** :
 ## 1 - Configuring a Watchtower or a client via LND
 
 
-*This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Some changes may have been made to the original version
+*This tutorial is taken from [the official LND documentation](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Some changes may have been made to the original version
 
 
 Since v0.7.0, `LND` supports the execution of a private altruistic Watchtower as a fully integrated subsystem of `LND`. Watchtowers provide a second line of defense against malicious or accidental breach scenarios when the customer node is offline or unable to respond at the time of breach, offering an increased degree of security for channel funds.

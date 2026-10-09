@@ -14,7 +14,7 @@ description: 집에서 쉽게 Mining 만들기.
 
 
 
-또한 [제조사 사이트](https://braiins.com/hardware/mini-Miner-bmm-100)에서 전체 가이드를 직접 확인하면 훨씬 더 중요한 정보를 찾을 수 있습니다.
+또한 [제조사 사이트](https://braiins.com/hardware/mini-miner-bmm-100)에서 전체 가이드를 직접 확인하면 훨씬 더 중요한 정보를 찾을 수 있습니다.
 
 
 

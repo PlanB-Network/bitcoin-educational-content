@@ -322,7 +322,7 @@ SCB je neophodan samo ako imate otvorene LN kanale. U slučaju da imate samo onc
 Ako vidite da se nakon dužeg vremena i dalje ne prikazuje stara istorija transakcija, idite na Embedded node - Peers i onemogućite opciju korišćenja liste izabranih peer-ova (podrazumevano je btcd.lnolymp.us). To će pokrenuti restart i povezaće se sa prvim dostupnim neutrino čvorom sa boljim odzivom. Ili koristite druge dobro poznate neutrino peer-ove navedene ispod.
 
 
-Ako želite videti više opcija oporavka za LND čvor, [molimo pročitajte moj prethodni vodič](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), gde možete pronaći korake kako da uvezete aezeed seed u Sparrow Wallet ili druge metode.
+Ako želite videti više opcija oporavka za LND čvor, [molimo pročitajte moj prethodni vodič](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), gde možete pronaći korake kako da uvezete aezeed seed u Sparrow Wallet ili druge metode.
 
 
 **C - Ugrađeni Čvor**

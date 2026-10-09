@@ -322,7 +322,7 @@ SCB är endast nödvändigt om du har LN-kanaler öppna. Om du bara har onchain-
 Om du ser att efter en lång tid fortfarande inte visar den gamla historiken txs, gå till Inbäddad nod - Peers och inaktivera alternativet att använda listan över valda peers (som standard är btcd.lnolymp.us). Det kommer att utlösa en omstart och kommer att ansluta till den första tillgängliga neutrino-noden med ett bättre tidssvar. Eller använd de nedan nämnda andra välkända neutrino-peers.
 
 
-Om du vill se fler återställningsalternativ för en LND-nod, [läs min tidigare guide](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), där du kan hitta stegen för hur du importerar en aezeed seed till Sparrow wallet eller andra metoder.
+Om du vill se fler återställningsalternativ för en LND-nod, [läs min tidigare guide](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), där du kan hitta stegen för hur du importerar en aezeed seed till Sparrow wallet eller andra metoder.
 
 
 **C - Inbäddad nod**

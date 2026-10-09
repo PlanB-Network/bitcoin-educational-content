@@ -818,10 +818,10 @@ Bitcoin은 파괴적인 잠재력과 독특한 기술로 수백만 명의 마음
 어느 쪽이든, 신화와 전설을 살펴보겠습니다.
 
 
-Satoshi 나카모토는 2008년 P2P 전자 현금이라는 혁신적인 아이디어로 인터넷에 등장했습니다. 그는 "Bitcoin: P2P 전자 현금 시스템"이라는 제목의 [9페이지짜리 논문](https://Bitcoin.org/Bitcoin.pdf)을 통해 자신의 비전을 Cypherpunk 메일링 리스트와 공유했습니다. 처음에는 대부분의 메일링 리스트 회원들이 무관심했지만, 이 아이디어는 한 명의 회원인 Hal Finney에게 충분한 호기심을 불러일으켰고, 그는 결국 Satoshi에 연락을 취했습니다. Hal의 Bitcoin 개발 참여는 전환점이 되어 더 많은 사람들이 지지를 표명하게 되었습니다.
+Satoshi 나카모토는 2008년 P2P 전자 현금이라는 혁신적인 아이디어로 인터넷에 등장했습니다. 그는 "Bitcoin: P2P 전자 현금 시스템"이라는 제목의 [9페이지짜리 논문](https://bitcoin.org/bitcoin.pdf)을 통해 자신의 비전을 Cypherpunk 메일링 리스트와 공유했습니다. 처음에는 대부분의 메일링 리스트 회원들이 무관심했지만, 이 아이디어는 한 명의 회원인 Hal Finney에게 충분한 호기심을 불러일으켰고, 그는 결국 Satoshi에 연락을 취했습니다. Hal의 Bitcoin 개발 참여는 전환점이 되어 더 많은 사람들이 지지를 표명하게 되었습니다.
 
 
-그러나 프로젝트에 참여한 지 2년이 지난 2011년 4월 23일, [신뢰할 만한 마지막 통신](https://plan99.net/~mike/Satoshi-emails/thread5.html)을 통해 "다른 일로 옮겨갔다"고 밝힌 뒤 Satoshi는 흔적도 없이 사라져 버렸습니다
+그러나 프로젝트에 참여한 지 2년이 지난 2011년 4월 23일, [신뢰할 만한 마지막 통신](https://plan99.net/~mike/satoshi-emails/thread5.html)을 통해 "다른 일로 옮겨갔다"고 밝힌 뒤 Satoshi는 흔적도 없이 사라져 버렸습니다
 
 
 Satoshi 나카모토의 미스터리한 실종으로 인해 그의 행방에 대한 다양한 설이 제기되고 있습니다. 어떤 이들은 그가 자신이 의도한 바를 달성했다고 생각했다고 추측하는 반면, 다른 이들은 Bitcoin에 대한 관심이 불편해졌다고 생각합니다. 2010년 12월(https://www.forbes.com/sites/andygreenberg/2010/12/07/visa-mastercard-move-to-choke-wikileaks/?sh=614d78052cad), 위키리크스는 전통적인 결제 수단의 사용이 금지되자 자금 조달을 위해 Bitcoin으로 눈을 돌렸습니다. Bitcoin에 대한 관심이 높아지고 미국의 지정학적 이해관계를 방해하는 데 사용되는 통화를 만들면 법적으로 문제가 될 수 있다는 우려 때문에 한 발 물러서게 된 것으로 보입니다. 또는 다른 프로젝트로 관심을 돌렸거나, 여전히 다른 이름으로 Bitcoin에 기여하고 있을 수도 있고, 심지어는 세상을 떠났을 수도 있습니다.
@@ -1240,7 +1240,7 @@ Wallet에 액세스하여 자금을 이동할 수는 있지만, 타사에서 Bit
 비수탁형 지갑은 Bitcoin Wallet의 한 유형으로, 사용자가 자금의 유일한 관리인으로서 [개인 키](https://planb.academy/resources/glossary/private-key)를 완전히 제어할 수 있습니다. 개인 키는 Wallet의 비밀번호와 같으며 거래에 서명하고 승인하는 데 사용됩니다. 개인키가 없으면 Bitcoin에 액세스하거나 전송할 수 없습니다.
 
 
-비수탁 지갑은 자금의 안전에 대한 책임은 오직 본인에게 있기 때문에 수탁 지갑보다 더 높은 수준의 보안과 프라이버시를 제공합니다. 비수탁형 지갑의 예로는 [콜드카드](https://store.coinkite.com/store/coldcard), [트레저](https://trezor.io/) 같은 [하드웨어 지갑](https://planb.academy/resources/glossary/hardware-wallet)이 있는데, 이는 개인 키를 오프라인에 저장하는 물리적 장치로 Layer의 보안을 추가로 제공합니다. 다른 인기 있는 비수탁형 지갑으로는 컴퓨터나 모바일 장치에 다운로드하여 설치할 수 있는 [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), [Blockstream Green](https://blockstream.com/Green/) 같은 소프트웨어 지갑이 있습니다.
+비수탁 지갑은 자금의 안전에 대한 책임은 오직 본인에게 있기 때문에 수탁 지갑보다 더 높은 수준의 보안과 프라이버시를 제공합니다. 비수탁형 지갑의 예로는 [콜드카드](https://store.coinkite.com/store/coldcard), [트레저](https://trezor.io/) 같은 [하드웨어 지갑](https://planb.academy/resources/glossary/hardware-wallet)이 있는데, 이는 개인 키를 오프라인에 저장하는 물리적 장치로 Layer의 보안을 추가로 제공합니다. 다른 인기 있는 비수탁형 지갑으로는 컴퓨터나 모바일 장치에 다운로드하여 설치할 수 있는 [Sparrow](https://sparrowwallet.com/), [Electrum](https://electrum.org/#home), [Blockstream Green](https://blockstream.com/green/) 같은 소프트웨어 지갑이 있습니다.
 
 
 *특정 Wallet를 추천할 수는 없지만, 고객의 필요와 선호도에 맞는 Wallet를 선택하는 셀프 커스터디 또는 공동 커스터디를 통해 Bitcoin을 관리할 것을 적극 권장합니다. Wallet를 결정하기 전에 철저한 조사를 수행하여 보안 및 사용성 요구사항에 부합하는지 확인하는 것이 중요합니다.*
@@ -1691,7 +1691,7 @@ XAUt의 흥미로운 점은 token 보유자가 회사의 금 보유량을 추적
 기존 송금 서비스와 달리 USDt는 거래를 목적으로 Blockchain의 레일 위에서 움직이는 디지털 화폐입니다. 은행이나 송금 서비스 같은 중개자가 필요 없기 때문에 수수료가 훨씬 저렴합니다. 또한, 거래가 공용 Blockchain에서 실행되기 때문에 투명성과 프라이버시가 보장됩니다. 즉, 개인이 다른 나라에 있는 사랑하는 사람에게 거의 즉각적이고 안전하게, 훨씬 저렴한 비용으로 송금할 수 있습니다.
 
 
-예를 들어, 주로 이더리움과 트론 블록체인에서 운영되는 USDt는 지난 1년간 평균 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) 및 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)의 거래 수수료를 받았으며, 송금액에 관계없이 5달러를 보내든 10,000달러를 보내든 수수료는 동일하게 유지됩니다. 그리고 지금 이 순간에도 개발자들은 [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) 정도의 수수료가 부과되는 Bitcoin의 Lightning Network을 기반으로 하는 [스테이블코인](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-Bitcoin-developers-to-mint-and-transfer-assets-on-the-Blockchain/)을 개발 중입니다.
+예를 들어, 주로 이더리움과 트론 블록체인에서 운영되는 USDt는 지난 1년간 평균 [\$1.02](https://ycharts.com/indicators/ethereum_average_transaction_fee#:~:text=Ethereum%20Average%20Transaction%20Fee%20is,20.90%25%20from%20one%20year%20ago.) 및 [\$0.000005](https://bitpowr.com/blog/how-to-send-fee-less-tron-transactions)의 거래 수수료를 받았으며, 송금액에 관계없이 5달러를 보내든 10,000달러를 보내든 수수료는 동일하게 유지됩니다. 그리고 지금 이 순간에도 개발자들은 [\$0.0003](https://www.nasdaq.com/articles/the-state-of-lightning-network-adoption) 정도의 수수료가 부과되는 Bitcoin의 Lightning Network을 기반으로 하는 [스테이블코인](https://www.coindesk.com/tech/2022/09/28/lightning-labs-releases-software-to-allow-bitcoin-developers-to-mint-and-transfer-assets-on-the-blockchain/)을 개발 중입니다.
 
 
 USDt를 사용하면 통가인뿐만 아니라 가족에게 송금하는 모든 사람들이 훨씬 더 많은 송금액을 받을 수 있어 삶의 질이 크게 향상되고 국가 경제 발전에도 기여할 수 있습니다.

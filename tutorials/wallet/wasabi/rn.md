@@ -9,7 +9,7 @@ description: menya ingene wosubira kuronka ubuzima bwite bwawe
 
 Inkomoko yuguruye, idashobora kubikwa, ubuzima bwite bwibanda ku Bitcoin Wallet ku biro
 
-https://www.umufuko w'amahera.io/
+https://www.wasabiwallet.io/ w'amahera.io/
 
 
 Iyobora mu kurema

@@ -217,7 +217,7 @@ Chcete-li zobrazit protokoly uzlu Bitcoin týkající se konkrétně jeho intera
 
 
 - [stránka na Wiki vysvětlující Tor a jeho vztah ke Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Generátor konfiguračních souborů Bitcoin core od Jamesona Loppa](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Generátor konfiguračních souborů Bitcoin core od Jamesona Loppa](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Průvodce konfigurací Toru od Jona Atacka](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

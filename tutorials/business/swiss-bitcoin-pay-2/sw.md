@@ -152,7 +152,7 @@ Kisha changanua msimbo wa QR uliopo kwenye Interface yako ukitumia kifaa unachop
 
 ![SWISS BITCOIN PAY](assets/notext/18.webp)
 
-Iwapo ungependa kuwa na PoS katika mfumo wa programu, nenda kwenye duka lako la programu [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) au [App Store](https://apps.apple.com/us/app/swiss-Bitcoin-pay3 na57 Pay-7 G54 Uswisi installerment) Programu pia inapatikana moja kwa moja katika umbizo la `.apk` kwenye tovuti yao, au kwenye [duka la F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
+Iwapo ungependa kuwa na PoS katika mfumo wa programu, nenda kwenye duka lako la programu [Google Play Store](https://play.google.com/store/apps/details?id=ch.swissbitcoinpay.checkout) au [App Store](https://apps.apple.com/us/app/swiss-bitcoin-pay/id6444370155) Programu pia inapatikana moja kwa moja katika umbizo la `.apk` kwenye tovuti yao, au kwenye [duka la F-Droid](https://f-droid.org/packages/ch.swissbitcoinpay.checkout/).
 
 ![SWISS BITCOIN PAY](assets/notext/19.webp)
 

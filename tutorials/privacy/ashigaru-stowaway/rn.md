@@ -276,7 +276,7 @@ Ivyo vyose bimaze guhindurwa, nusuzume amakuru y’ivyo ugurisha, hanyuma ubirek
 
 
 
-*Ikibanza: [ikibanza.ikibanza](https://ikibanza.ikibanza/)*
+*Ikibanza: [ikibanza.ikibanza](https://mempool.space/)*
 
 
 

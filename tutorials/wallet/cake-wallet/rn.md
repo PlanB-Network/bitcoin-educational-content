@@ -31,7 +31,7 @@ Iyi nkuru iratohoza [**Cake Wallet**](https://cakewallet.com/): wallet y’amahe
 ## 1️⃣ Gutegura Wallet yawe
 
 
-Cake Wallet itanga uburyo bwinshi bwo gufasha ku rubuga. Ushobora guhitamwo hagati ya Android, iOS/macOS, Linux na Windows.  Kugira ngo utangure, genda kuri https://docs.cakewallet.com/tangura/ maze uhitemwo ubuhinga bwawe bwo gukoresha.
+Cake Wallet itanga uburyo bwinshi bwo gufasha ku rubuga. Ushobora guhitamwo hagati ya Android, iOS/macOS, Linux na Windows.  Kugira ngo utangure, genda kuri https://docs.cakewallet.com/get-started/ maze uhitemwo ubuhinga bwawe bwo gukoresha.
 
 
 ![image](assets/en/01.webp)
@@ -278,16 +278,16 @@ Ku bakoresha bashira imbere ukutamenyekana mu vy’amahera, Cake Wallet ni ubury
 ## 📚 Ibikoresho
 
 
-https://agakate.com
+https://cakewallet.com
 
 
-https://inyandiko.agakate.com/
+https://docs.cakewallet.com/
 
 
-https://github.com/ubuhinga-bw'agakate/igikapu_c'agakate
+https://github.com/cake-tech/cake_wallet
 
 
-https://urubuga.agakate.com/
+https://blog.cakewallet.com/
 
 
 [https://ukwishyura mu gacerere.xyz/](https://ukwishyura mu gacerere.xyz/)
@@ -296,4 +296,4 @@ https://urubuga.agakate.com/
 [Ikiganiro/352/](Ikiganiro/352/)
 
 
-https://kwifatanya.org/
+https://payjoin.org/

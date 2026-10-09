@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Journaux des nœuds Bitcoin
 
 
-En plus de [consulter les journaux](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de votre conteneur bitcoind, vous pouvez également utiliser n'importe laquelle des [commandes bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+En plus de [consulter les journaux](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) de votre conteneur bitcoind, vous pouvez également utiliser n'importe laquelle des [commandes bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(ouvre une nouvelle fenêtre)](https://developer.Bitcoin.org/reference/RPC/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
+[(ouvre une nouvelle fenêtre)](https://developer.bitcoin.org/reference/rpc/index.html) pour obtenir des informations de votre nœud Bitcoin. BTCPay inclut un script qui vous permet de communiquer facilement avec votre nœud Bitcoin.
 
 
 Dans le dossier btcpayserver-docker, récupérez les informations de Blockchain en utilisant votre node :

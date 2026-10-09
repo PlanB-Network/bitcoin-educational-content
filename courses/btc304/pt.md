@@ -48,7 +48,7 @@ Este crescimento significativo está, evidentemente, intimamente ligado a:
 
 
 
-- o [interesse crescente das populações de todo o mundo em utilizar o Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para se libertarem do sistema bancário e/ou utilizarem uma moeda menos volátil ou menos desvalorizada, como é o caso das populações do Líbano, Síria, Egito, Argentina, entre outros;
+- o [interesse crescente das populações de todo o mundo em utilizar o Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), para se libertarem do sistema bancário e/ou utilizarem uma moeda menos volátil ou menos desvalorizada, como é o caso das populações do Líbano, Síria, Egito, Argentina, entre outros;
 - a valorização do seu preço ao longo do tempo, estabelecendo-o como uma reserva de valor e um investimento a longo prazo, impulsionado pela sua política monetária fixa;
 - o crescimento sucessivo do mercado especulativo das criptomoedas, nomeadamente durante 2017-2018 e 2020-2021;
 - A presença crescente da Bitcoin nos principais meios de comunicação social.
@@ -2006,7 +2006,7 @@ Também pode conceber um folheto específico para a sua comunidade ou reunião, 
 Vários folhetos já estão **disponíveis como código aberto na [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** em planB.network e outros serão adicionados ao longo do tempo.
 
 
-Um exemplo é um [folheto de fonte completa](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) com 21 razões para utilizar o Bitcoin. O seu design também está [disponível em código aberto](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para ser modificado, adaptado e partilhado. Lembre-se apenas de dar crédito às suas fontes.
+Um exemplo é um [folheto de fonte completa](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) com 21 razões para utilizar o Bitcoin. O seu design também está [disponível em código aberto](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para ser modificado, adaptado e partilhado. Lembre-se apenas de dar crédito às suas fontes.
 
 
 
@@ -2050,7 +2050,7 @@ Embora deixar o livro branco Bitcoin seja simbólico, é muitas vezes demasiado 
 - o Livro Branco Bitcoin, traduzido para francês.
 
 
-Eis [o folheto partilhado pelos bitcoiners franceses](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) que foi colocado em dezenas de caixas de livros em todo o país. O seu design está também [disponível em código aberto](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Eis [o folheto partilhado pelos bitcoiners franceses](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) que foi colocado em dezenas de caixas de livros em todo o país. O seu design está também [disponível em código aberto](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

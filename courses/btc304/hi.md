@@ -48,7 +48,7 @@ BTC 304 में आपका स्वागत है!
 
 
 
-- [दुनिया भर के लोगों की Bitcoin का उपयोग करने में बढ़ती रुचि](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), खुद को बैंकिंग प्रणाली से मुक्त करने और/या कम अस्थिर या कम अवमूल्यन वाली मुद्रा का उपयोग करने के लिए, जैसा कि लेबनान, सीरिया, मिस्र, अर्जेंटीना और अन्य देशों की आबादी के मामले में है;
+- [दुनिया भर के लोगों की Bitcoin का उपयोग करने में बढ़ती रुचि](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), खुद को बैंकिंग प्रणाली से मुक्त करने और/या कम अस्थिर या कम अवमूल्यन वाली मुद्रा का उपयोग करने के लिए, जैसा कि लेबनान, सीरिया, मिस्र, अर्जेंटीना और अन्य देशों की आबादी के मामले में है;
 - समय के साथ इसकी कीमत में वृद्धि, इसे मूल्य के भंडार और दीर्घकालिक निवेश के रूप में स्थापित करना, जो इसकी निश्चित मौद्रिक नीति द्वारा संचालित है;
 - सट्टा क्रिप्टोकरेंसी बाजार की क्रमिक वृद्धि, विशेष रूप से 2017-2018 और 2020-2021 के दौरान;
 - मुख्यधारा मीडिया में Bitcoin की बढ़ती उपस्थिति।
@@ -2005,7 +2005,7 @@ Bitcoin विकेन्द्रीकृत है, इसलिए स्�
 कई फ़्लायर्स पहले से ही planB.network पर **[Bitcoin शिक्षण टूलबॉक्स](https://planb.academy/fr/resources/bet)** में ओपन-सोर्स के रूप में उपलब्ध हैं और समय के साथ और भी जोड़े जाएंगे।
 
 
-एक उदाहरण एक [पूर्ण स्रोत वाला फ़्लायर](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) है जिसमें Bitcoin का उपयोग करने के 21 कारण दिए गए हैं। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) में भी उपलब्ध है, जिसे आप संशोधित, अनुकूलित और साझा कर सकते हैं। बस अपने स्रोतों का श्रेय देना न भूलें।
+एक उदाहरण एक [पूर्ण स्रोत वाला फ़्लायर](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) है जिसमें Bitcoin का उपयोग करने के 21 कारण दिए गए हैं। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) में भी उपलब्ध है, जिसे आप संशोधित, अनुकूलित और साझा कर सकते हैं। बस अपने स्रोतों का श्रेय देना न भूलें।
 
 
 
@@ -2049,7 +2049,7 @@ Bitcoin श्वेत पत्र को छोड़ना प्रती�
 - Bitcoin श्वेत पत्र, फ्रेंच में अनुवादित।
 
 
-यहाँ [फ्रांसीसी बिटकॉइनर्स के बीच साझा की गई पुस्तिका](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) है, जिसे देश भर के दर्जनों बुकबॉक्स में रखा गया है। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) के रूप में भी उपलब्ध है।
+यहाँ [फ्रांसीसी बिटकॉइनर्स के बीच साझा की गई पुस्तिका](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) है, जिसे देश भर के दर्जनों बुकबॉक्स में रखा गया है। इसका डिज़ाइन [ओपन-सोर्स](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) के रूप में भी उपलब्ध है।
 
 
 
@@ -2514,7 +2514,7 @@ Bitcoin लिले एसोसिएशन द्वारा उपयोग
 यह रणनीति कुछ क्षेत्रों में दूसरों की तुलना में बेहतर काम कर सकती है, लेकिन इसे आज़माना ज़रूरी है। आप क्षेत्रीय समाचार माध्यमों से संपर्क करके शुरुआत कर सकते हैं, फ्रांस में इसके कुछ उदाहरण हैं:
 
 
-- [acpm.fr](https://www.acpm.fr/Les-chiffres/Difuse-Presse/Presse-Paynte/Presse-Quotidienne-Regionale);
+- [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
 - [voxpublic.org](https://www.voxpublic.org/spip.php?page=annuaire&cat=medias&type_media=Presse%20quotidienne%20r%C3%A9gionale)।
 
 और स्थानीय रेडियो स्टेशनों से संपर्क करके साक्षात्कार या पॉडकास्ट में उपस्थिति का सुझाव दे सकते हैं।

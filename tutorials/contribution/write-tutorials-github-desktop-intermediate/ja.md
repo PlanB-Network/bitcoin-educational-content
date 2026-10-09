@@ -177,7 +177,7 @@ project_id`はチュートリアルで使用するツールの会社または組
 
 サブセクション「Pythonスクリプトを使わないで」とステップ3「YAMLファイルを埋める」は省略できます。ステップ4に直接進み、チュートリアルを書き始めます。
 
-このPythonスクリプトの詳細については、[README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)も参照してください。
+このPythonスクリプトの詳細については、[README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)も参照してください。
 
 ### Pythonスクリプトなし
 

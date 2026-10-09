@@ -580,7 +580,7 @@ Mbali na Soko la Bitcoin (lililotajwa katika HIS201), jukwaa la kwanza kushindan
 
 
 
-Jukwaa la pili lilikuwa Britcoin, ambalo lilizinduliwa (https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) mnamo Machi 26 na Amir Taaki (aka Genjix), msanidi programu mchanga wa Uingereza mwenye asili ya Irani ambaye alitaka kutuma barua kwa WikiLeaks mnamo Novemba 2010 akipendekeza Bitcoin. Kama jina lake linavyoonyesha, jukwaa hilo lilikuwa Uingereza na liliunganisha ubadilishanaji kati ya sterling na bitcoin. Kama David François, Amir [alichapisha](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) programu ya msingi [chini ya leseni ya chanzo huria](https://github.com/dooglu/intersango/blob/master/LICENSE) (AGPL), ambayo aliipa jina "Intersango" (kutoka Kiesperanto *interŝanĝo* ikimaanisha ubadilishanaji). Amir alijiunga hivi karibuni (https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php) na Donald Norman na Patrick Strateman (pia anajulikana kwa jina bandia la Phantomcircuit) kusimamia mfumo huo.
+Jukwaa la pili lilikuwa Britcoin, ambalo lilizinduliwa (https://bitcointalk.org/index.php?topic=4984.msg73066#msg73066) mnamo Machi 26 na Amir Taaki (aka Genjix), msanidi programu mchanga wa Uingereza mwenye asili ya Irani ambaye alitaka kutuma barua kwa WikiLeaks mnamo Novemba 2010 akipendekeza Bitcoin. Kama jina lake linavyoonyesha, jukwaa hilo lilikuwa Uingereza na liliunganisha ubadilishanaji kati ya sterling na bitcoin. Kama David François, Amir [alichapisha](https://bitcointalk.org/index.php?topic=4579.msg67047#msg67047) programu ya msingi [chini ya leseni ya chanzo huria](https://github.com/dooglus/intersango/blob/master/LICENSE) (AGPL), ambayo aliipa jina "Intersango" (kutoka Kiesperanto *interŝanĝo* ikimaanisha ubadilishanaji). Amir alijiunga hivi karibuni (https://web.archive.org/web/20120129171120/https://britcoin.co.uk/about-us.php) na Donald Norman na Patrick Strateman (pia anajulikana kwa jina bandia la Phantomcircuit) kusimamia mfumo huo.
 
 
 
@@ -636,7 +636,7 @@ Kama tulivyopendekeza, Mt. Gox ulikuwa shabaha bora. Mara nyingi ulikuwa shabaha
 
 
 
-Matokeo yake, udukuzi mkubwa ulianza Juni 16. Mdukuzi (labda [kutoka](https://www.theguardian.com/technology/2011/jun/22/lulzsec-rogue-susspected-of-bitcoin-hack) kundi la LulzSec) aliweza kupata hifadhidata iliyo na majina bandia ya watumiaji na alama za vidole za siri za nywila zao (zilizowekwa na MD5, [zaidi hazijatiwa chumvi](https://news.ycombinator.com/item?id=2671669). Hii iliiwezesha kufikia akaunti zilizolindwa na manenosiri dhaifu (yaani fupi au rahisi kukisia), na kutoa pesa chini ya kikomo cha kila siku cha $1,000. Malalamiko [yalikusanywa](https://bitcointalk.org/index.php?topic=18050.0) kwenye jukwaa, na kumfanya Mark Karpelès afanye hivyo. [react](https://bitcointalk.org/index.php?topic=18858.msg236884#msg236884) mnamo Juni 18. Karpelès alipuuza wizi huo, akisema kwamba ulikuwa mdogo kwa idadi na kuunga mkono wazo kwamba "hili linaonekana kuwa tatizo linalotokana hasa na watumiaji".
+Matokeo yake, udukuzi mkubwa ulianza Juni 16. Mdukuzi (labda [kutoka](https://www.theguardian.com/technology/2011/jun/22/lulzsec-rogue-suspected-of-bitcoin-hack) kundi la LulzSec) aliweza kupata hifadhidata iliyo na majina bandia ya watumiaji na alama za vidole za siri za nywila zao (zilizowekwa na MD5, [zaidi hazijatiwa chumvi](https://news.ycombinator.com/item?id=2671669). Hii iliiwezesha kufikia akaunti zilizolindwa na manenosiri dhaifu (yaani fupi au rahisi kukisia), na kutoa pesa chini ya kikomo cha kila siku cha $1,000. Malalamiko [yalikusanywa](https://bitcointalk.org/index.php?topic=18050.0) kwenye jukwaa, na kumfanya Mark Karpelès afanye hivyo. [react](https://bitcointalk.org/index.php?topic=18858.msg236884#msg236884) mnamo Juni 18. Karpelès alipuuza wizi huo, akisema kwamba ulikuwa mdogo kwa idadi na kuunga mkono wazo kwamba "hili linaonekana kuwa tatizo linalotokana hasa na watumiaji".
 
 
 
@@ -1154,7 +1154,7 @@ Wakati huo huo, Charlie Shrem alikuwa akitangaza kampuni mpya kama mwanzilishi m
 
 
 
-Mnamo Desemba, BitInstant [iligundua](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinterstant-raises-seed-round/) raundi ya ufadhili kutoka kwa wawekezaji wa malaika (au *business malaika*). Muhimu zaidi kati ya hawa hakuwa mwingine ila Roger Ver, ambaye alipata 15% ya kampuni kwa $120,000 na haraka akawa mkurugenzi wake wa masoko. Roger Ver alimshauri Charlie Shrem kuajiri Erik Voorhees, ambaye alikua mkuu wa mawasiliano na uuzaji wa kampuni hiyo mnamo Februari 2012. Ira Miller pia alijiunga na timu hiyo kama msanidi programu. Ingawa Charlie Shrem hakuwa na motisha ya kisiasa hivyo, ushirika na watu hawa ungekuwa na athari ya kubadilisha mtazamo wake wa siasa.
+Mnamo Desemba, BitInstant [iligundua](https://observer.com/2011/12/brooklyn-based-bitcoin-startup-bitinstant-raises-seed-round/) raundi ya ufadhili kutoka kwa wawekezaji wa malaika (au *business malaika*). Muhimu zaidi kati ya hawa hakuwa mwingine ila Roger Ver, ambaye alipata 15% ya kampuni kwa $120,000 na haraka akawa mkurugenzi wake wa masoko. Roger Ver alimshauri Charlie Shrem kuajiri Erik Voorhees, ambaye alikua mkuu wa mawasiliano na uuzaji wa kampuni hiyo mnamo Februari 2012. Ira Miller pia alijiunga na timu hiyo kama msanidi programu. Ingawa Charlie Shrem hakuwa na motisha ya kisiasa hivyo, ushirika na watu hawa ungekuwa na athari ya kubadilisha mtazamo wake wa siasa.
 
 
 
@@ -1286,7 +1286,7 @@ Mnamo Agosti, Mircea [ilifunguliwa](https://bitcointalk.org/index.php?topic=1567
 
 
 
-Mwishoni mwa Februari 2012, aliendelea na [uchangishaji wa fedha](http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoin/#comment-78745) kwa kutoa hisa na bondi, akikusanya zaidi ya bitcoin 3,200, au karibu $16,000 wakati huo. Mnamo Aprili 11, baada ya awamu ya beta, jukwaa [hatimaye likawa](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) jukwaa hatimaye likawa soko la bitcoin linaloruhusu utoaji na biashara ya hisa mbalimbali, na likabadilishwa jina kuwa MPEx(kwa "Exchange ya Mircea Popescu").
+Mwishoni mwa Februari 2012, aliendelea na [uchangishaji wa fedha](https://web.archive.org/web/20260420162641/http://trilema.com/2012/sa-ne-jucam-de-a-investitiile-n-bitcoini/#comment-78745) kwa kutoa hisa na bondi, akikusanya zaidi ya bitcoin 3,200, au karibu $16,000 wakati huo. Mnamo Aprili 11, baada ya awamu ya beta, jukwaa [hatimaye likawa](https://bitcointalk.org/index.php?topic=76239.msg845954#msg845954) jukwaa hatimaye likawa soko la bitcoin linaloruhusu utoaji na biashara ya hisa mbalimbali, na likabadilishwa jina kuwa MPEx(kwa "Exchange ya Mircea Popescu").
 
 
 
@@ -1728,7 +1728,7 @@ Mnamo Agosti 19, Casascius [alishiriki](https://bitcointalk.org/index.php?topic=
 
 
 
-Hapo awali zilipatikana katika sarafu 1 na 25 za BTC, bitcoin za Casascius zilitolewa haraka katika viwango vingine na kama baa, zikifikia hadi BTC 1,000! Uwakilishi halisi wa bitcoin uli [kuuzwa](https://web.archive.org/web/20111107191637/https://www.casascius.com/) kwenye tovuti ya kibinafsi ya Casascius, lakini [pia](https://web.archive.org/web/20111028171555/http://www.memoridealers.com/bieq.html) kwenye MemoryDealers (duka la mtandaoni la Roger Ver) kuanzia Oktoba. Pia zilipatikana [zinapatikana](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) kupitia ATM katika PorcFest ya mwaka uliofuata, mnamo Juni 2012.
+Hapo awali zilipatikana katika sarafu 1 na 25 za BTC, bitcoin za Casascius zilitolewa haraka katika viwango vingine na kama baa, zikifikia hadi BTC 1,000! Uwakilishi halisi wa bitcoin uli [kuuzwa](https://web.archive.org/web/20111107191637/https://www.casascius.com/) kwenye tovuti ya kibinafsi ya Casascius, lakini [pia](https://web.archive.org/web/20111028171555/http://www.memorydealers.com/bieq.html) kwenye MemoryDealers (duka la mtandaoni la Roger Ver) kuanzia Oktoba. Pia zilipatikana [zinapatikana](https://odysee.com/@adamkokesh:2/moment-in-monetary-history-bitcoin-by:9) kupitia ATM katika PorcFest ya mwaka uliofuata, mnamo Juni 2012.
 
 
 
@@ -2502,7 +2502,7 @@ Mwezi mmoja baadaye, mwanzoni mwa 2011, pendekezo kama hilo lilitolewa (http://w
 
 
 
-Wakati huo huo, juhudi za kutekeleza BitDNS zilikuwa zikifanywa katika jumuiya ya Bitcoin. Mnamo Desemba 4, Kiba [alianzisha](https://bitcointalk.org/index.php?topic=2072.msg26742#msg26742) mfumo wa zawadi kwa yeyote atakayekuwa wa kwanza kuutekeleza: takriban wanachama kumi na wawili wa jukwaa waliahidi jumla ya BTC 3,500 (ni BTC 442 pekee ambazo hatimaye zingelipwa). Mapendekezo kadhaa yalitolewa, ikiwa ni pamoja na mfumo wa Ribuck wa [DomainChain](https://bitcointalk.org/index.php?topic=1790.msg27787#msg27787) na [pendekezo] la Theymos na Nanotube(https://web.archive.org/web/20101219214135/https://priviwiki.dreamphosters.com/wiki/Bitcoin_DNS_System_Proposal), ambayo yote yalitumia mnyororo wa Bitcoin.
+Wakati huo huo, juhudi za kutekeleza BitDNS zilikuwa zikifanywa katika jumuiya ya Bitcoin. Mnamo Desemba 4, Kiba [alianzisha](https://bitcointalk.org/index.php?topic=2072.msg26742#msg26742) mfumo wa zawadi kwa yeyote atakayekuwa wa kwanza kuutekeleza: takriban wanachama kumi na wawili wa jukwaa waliahidi jumla ya BTC 3,500 (ni BTC 442 pekee ambazo hatimaye zingelipwa). Mapendekezo kadhaa yalitolewa, ikiwa ni pamoja na mfumo wa Ribuck wa [DomainChain](https://bitcointalk.org/index.php?topic=1790.msg27787#msg27787) na [pendekezo] la Theymos na Nanotube(https://web.archive.org/web/20101219214135/https://privwiki.dreamhosters.com/wiki/Bitcoin_DNS_System_Proposal), ambayo yote yalitumia mnyororo wa Bitcoin.
 
 
 
@@ -2675,7 +2675,7 @@ Kuanzia majira ya kuchipua ya 2012 na kuendelea, mambo yalitulia. Hata hivyo, sa
 
 
 
-Uthibitisho wa dau ni mbadala wa proof of work, ambapo uwezekano wa kutengeneza kizuizi huamuliwa na umiliki wa vitengo badala ya umeme unaotumika. Ilielezewa kwa mara ya kwanza (https://www.links.org/files/decentralized-currencies.pdf) mnamo Julai 2011 na msanidi programu na mwanaharakati wa Uingereza Ben Laurie, na jina lake lilibuniwa (https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) na QuantumMechanic fulani kwenye jukwaa la Bitcoin.
+Uthibitisho wa dau ni mbadala wa proof of work, ambapo uwezekano wa kutengeneza kizuizi huamuliwa na umiliki wa vitengo badala ya umeme unaotumika. Ilielezewa kwa mara ya kwanza (https://www.links.org/files/decentralised-currencies.pdf) mnamo Julai 2011 na msanidi programu na mwanaharakati wa Uingereza Ben Laurie, na jina lake lilibuniwa (https://bitcointalk.org/index.php?topic=27787.msg349645#msg349645) na QuantumMechanic fulani kwenye jukwaa la Bitcoin.
 
 
 
@@ -3530,7 +3530,7 @@ Wizi haukuwa vitendo pekee vya kulaumiwa. Tunaweza pia kutaja [blackmail](https:
 
 
 
-Vyombo vya habari vilielekea kuangazia mambo haya machafu, labda kwa sababu ya upendeleo wao wa asili wa upendeleo na kufuata mfumo wa kawaida wa kifedha. Bitcoin ilibidi ionyeshwe kwa mwanga wa kuvutia, kama vile watu wa magharibi wa Hollywood walivyoionyesha Wild West kama nchi ya watu wasio na sheria wanaoiba, kudanganya na kuua, ingawa ukweli ulikuwa mdogo zaidi (wizi wa benki huko Wild West ulikuwa [nadra] (https://fee.org/articles/the-non-existential-frontier-bank-robbery/) kwa mfano). Miingiliano mingi ndani ya jamii ya bitcoin ilikuwa vitendo vya hiari; ulaghai, wizi na ulaghai mwingine ulibaki kuwa wachache, matukio ya mara moja, ingawa athari zao kwenye uchumi wa Bitcoin wakati mwingine zilikuwa mbaya sana.
+Vyombo vya habari vilielekea kuangazia mambo haya machafu, labda kwa sababu ya upendeleo wao wa asili wa upendeleo na kufuata mfumo wa kawaida wa kifedha. Bitcoin ilibidi ionyeshwe kwa mwanga wa kuvutia, kama vile watu wa magharibi wa Hollywood walivyoionyesha Wild West kama nchi ya watu wasio na sheria wanaoiba, kudanganya na kuua, ingawa ukweli ulikuwa mdogo zaidi (wizi wa benki huko Wild West ulikuwa [nadra] (https://fee.org/articles/the-non-existent-frontier-bank-robbery/) kwa mfano). Miingiliano mingi ndani ya jamii ya bitcoin ilikuwa vitendo vya hiari; ulaghai, wizi na ulaghai mwingine ulibaki kuwa wachache, matukio ya mara moja, ingawa athari zao kwenye uchumi wa Bitcoin wakati mwingine zilikuwa mbaya sana.
 
 
 

@@ -48,7 +48,7 @@ Denne betydelige veksten er selvfølgelig nært knyttet til:
 
 
 
-- den [økende interessen for å bruke Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
+- den [økende interessen for å bruke Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), for å frigjøre seg fra banksystemet og/eller bruke en mindre volatil eller mindre devaluert valuta, slik tilfellet er for befolkninger i Libanon, Syria, Egypt, Argentina og andre land;
 - den har steget i verdi over tid, og har etablert seg som et verdioppbevaringsmiddel og en langsiktig investering, drevet av den faste pengepolitikken;
 - den suksessive veksten i det spekulative kryptovalutamarkedet, særlig i 2017-2018 og 2020-2021;
 - Bitcoins økende tilstedeværelse i mainstream-mediene.
@@ -2006,7 +2006,7 @@ Du kan også utforme en brosjyre som er spesifikk for ditt lokalsamfunn eller di
 Flere brosjyrer er allerede **tilgjengelige som åpen kildekode i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** på planB.network, og flere vil bli lagt til etter hvert.
 
 
-Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 grunner til å bruke Bitcoin. Utformingen er også [tilgjengelig i åpen kildekode](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), slik at du kan endre, tilpasse og dele den. Bare husk å oppgi kildene dine.
+Et eksempel er en [komplett brosjyre](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) med 21 grunner til å bruke Bitcoin. Utformingen er også [tilgjengelig i åpen kildekode](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), slik at du kan endre, tilpasse og dele den. Bare husk å oppgi kildene dine.
 
 
 
@@ -2050,7 +2050,7 @@ Selv om det er symbolsk å forlate Bitcoin-hvitboken, er den ofte for kompleks t
 - gW-166-hvitboken, oversatt til fransk.
 
 
-Her er [heftet som deles blant franske bitcoinere](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), som har blitt plassert i dusinvis av bokkasser rundt om i landet. Designet er også [tilgjengelig som åpen kildekode](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Her er [heftet som deles blant franske bitcoinere](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), som har blitt plassert i dusinvis av bokkasser rundt om i landet. Designet er også [tilgjengelig som åpen kildekode](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

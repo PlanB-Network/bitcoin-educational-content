@@ -224,7 +224,7 @@ Zen itanga uburyo bwihariye bwo guhindura ibintu ku buryo bubereye n’ibidukiki
 
 
 
-- Genda ku [kibanza c'ivy'ubuhinga bwa Zen](https://umucukumbuzi-zen.app/mods)
+- Genda ku [kibanza c'ivy'ubuhinga bwa Zen](https://zen-browser.app/mods)
 - Gushakisha ububiko bw'insanganyamatsiko ziboneka
 
 
@@ -728,10 +728,10 @@ Ku ba bitcoiners n’abakoresha ubuhinga baha agaciro umusaruro n’ubuzima bwit
 
 
 
-- [Urubuga rwemewe rwa Zen](https://zen-umucukumbuzi.app)
-- [Inyandiko zuzuye](https://inyandiko.zen-umucukumbuzi.app)
+- [Urubuga rwemewe rwa Zen](https://zen-browser.app)
+- [Inyandiko zuzuye](https://docs.zen-browser.app)
 - [Kode y'inkomoko ya GitHub](github.com/umucukumbuzi-zen/ibiro)
-- [Kuvanaho urupapuro](https://zen-umucukumbuzi.app/gukuraho)
+- [Kuvanaho urupapuro](https://zen-browser.app/download)
 
 
 ### Umuryango n'infashanyo
@@ -739,6 +739,6 @@ Ku ba bitcoiners n’abakoresha ubuhinga baha agaciro umusaruro n’ubuzima bwit
 
 
 
-- [Ugutahura kwemewe](https://ugutahura.gg/zen-umucukumbuzi)
+- [Ugutahura kwemewe](https://discord.gg/zen-browser)
 - [Reddit r/zen_umucukumbuzi](https://reddit.com/r/umucukumbuzi_zen)
 - [Ikibanza ca Zen Mods](https://umucukumbuzi wa Zen.app/ibihindurwa)

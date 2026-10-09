@@ -33,7 +33,7 @@ description: Разбиране и използване на Watchtower във �
 
 
 
-*Този урок е взет от [официалната документация на LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Възможно е да са направени някои промени в оригиналната версия
+*Този урок е взет от [официалната документация на LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Възможно е да са направени някои промени в оригиналната версия
 
 
 

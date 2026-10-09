@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Log Node
 
 
-Selain [melihat log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) dari kontainer bitcoind Anda, Anda juga dapat menggunakan salah satu dari [perintah bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Selain [melihat log](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) dari kontainer bitcoind Anda, Anda juga dapat menggunakan salah satu dari [perintah bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(membuka jendela baru)](https://developer.Bitcoin.org/reference/RPC/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
+[(membuka jendela baru)](https://developer.bitcoin.org/reference/rpc/index.html) untuk mendapatkan informasi dari node Bitcoin Anda. BTCPay menyertakan skrip untuk memungkinkan Anda berkomunikasi dengan node Bitcoin dengan mudah.
 
 
 Di dalam folder btcpayserver-docker, dapatkan informasi Blockchain menggunakan node Anda:

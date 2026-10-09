@@ -152,7 +152,7 @@ Bitcoin bir sistem olduğu için mutlaka bilgisayarlar üzerinde çalıştırıl
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Bir düğümün ilk görevi Blockchain'nin yerel bir kopyasını muhafaza etmekt
 
 > Bir işlemin olmadığını teyit etmenin tek yolu tüm işlemlerden haberdar olmaktır.
 
-Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Teorik olarak, Bitcoin core, Bitcoin protokolünü temsil etmez; daha ziyade, bi
 
 
 
-Ağustos 2025'te Luke Dashjr] (https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (ekosistemde tanınmış bir geliştirici) tarafından toplanan verilere göre, ağın halka açık düğümleri arasındaki uygulama dağılımı aşağıdaki gibidir:
+Ağustos 2025'te Luke Dashjr] (https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (ekosistemde tanınmış bir geliştirici) tarafından toplanan verilere göre, ağın halka açık düğümleri arasındaki uygulama dağılımı aşağıdaki gibidir:
 
 
 
@@ -766,7 +766,7 @@ Bir SPV (*Basitleştirilmiş Ödeme Doğrulaması*) düğümü veya hafif düğ�
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Eşler Arası Elektronik Nakit Sistemi*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3884,7 +3884,7 @@ Son olarak, `Bitcoin.conf` dosyası da düğümünüz için erişim parametreler
 
 
 
-Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
+Artık yapılandırma parametrelerinin çoğunu listelemeyi bitirdik. Bu `Bitcoin.conf` dosyası düğümünüzün gerçek kontrol panelini oluşturur: ağ yapılandırmasını, Mempool yönetimini, disk ve bellek kullanımını, indekslemeyi ve genel yönetimi tanımlar. Bu dosya hakkında daha fazla bilgi edinmek ve ihtiyaçlarınıza uygun bir dosya oluşturmak isterseniz [Jameson Lopp's generator](https://jlopp.github.io/bitcoin-core-config-generator/) adresini kullanmanızı tavsiye ederim.
 
 
 

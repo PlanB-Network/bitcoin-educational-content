@@ -48,7 +48,7 @@ Tämä merkittävä kasvu liittyy luonnollisesti läheisesti seuraaviin tekijöi
 
 
 
-- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
+- [ihmisten kasvava kiinnostus eri puolilla maailmaa Bitcoin:n käyttöön](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), jotta he voisivat vapautua pankkijärjestelmästä ja/tai käyttää vähemmän epävakaata tai vähemmän devalvoitua valuuttaa, kuten Libanonin, Syyrian, Egyptin, Argentiinan ja muiden maiden väestöt tekevät;
 - sen hinnannousu ajan mittaan, mikä tekee siitä arvon säilyttäjän ja pitkäaikaisen sijoituskohteen, joka perustuu sen kiinteään rahapolitiikkaan;
 - spekulatiivisten kryptovaluuttamarkkinoiden peräkkäinen kasvu erityisesti vuosina 2017-2018 ja 2020-2021;
 - Bitcoin:n kasvava läsnäolo valtamediassa.
@@ -2006,7 +2006,7 @@ Voisit myös suunnitella yhteisöllesi tai tapaamisellesi tarkoitetun esitteen, 
 Useita esitteitä on jo **saatavilla avoimena lähdekoodina [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** -verkkopalvelussa planB.networkissa, ja lisää lisätään ajan mittaan.
 
 
-Yksi esimerkki on [täydellinen esite](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
+Yksi esimerkki on [täydellinen esite](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), jossa on 21 syytä käyttää Bitcoin:ta. Sen ulkoasu on myös [saatavana avoimena lähdekoodina](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), jota voit muokata, mukauttaa ja jakaa. Muistakaa vain mainita lähteenne.
 
 
 
@@ -2050,7 +2050,7 @@ Vaikka Bitcoin:n valkoisen kirjan jättäminen on symbolinen, se on usein liian 
 - gW-166:n valkoinen paperi, käännetty ranskaksi.
 
 
-Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), joka on sijoitettu kymmeniin kirjalaatikoihin ympäri maata. Sen ulkoasu on myös [saatavilla avoimena lähdekoodina](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Tässä on [ranskalaisten bitcoin-asiakkaiden jakama vihkonen](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), joka on sijoitettu kymmeniin kirjalaatikoihin ympäri maata. Sen ulkoasu on myös [saatavilla avoimena lähdekoodina](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

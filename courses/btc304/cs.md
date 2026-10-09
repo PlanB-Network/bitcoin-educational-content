@@ -48,7 +48,7 @@ Tento výrazný růst samozřejmě úzce souvisí s:
 
 
 
-- [rostoucí zájem lidí na celém světě o používání Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby se osvobodili od bankovního systému a/nebo používali méně volatilní nebo méně znehodnocenou měnu, jako je tomu v případě obyvatel Libanonu, Sýrie, Egypta, Argentiny a dalších zemí;
+- [rostoucí zájem lidí na celém světě o používání Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), aby se osvobodili od bankovního systému a/nebo používali méně volatilní nebo méně znehodnocenou měnu, jako je tomu v případě obyvatel Libanonu, Sýrie, Egypta, Argentiny a dalších zemí;
 - jejího zhodnocování v čase, čímž se etabluje jako uchovatel hodnoty a dlouhodobá investice, k čemuž přispívá její pevná měnová politika;
 - postupný růst spekulativního trhu s kryptoměnami, zejména v letech 2017-2018 a 2020-2021;
 - Rostoucí přítomnost Bitcoin v hlavních médiích.
@@ -2006,7 +2006,7 @@ Můžete také navrhnout leták specifický pro vaši komunitu nebo setkání, k
 Několik letáků je již **k dispozici jako otevřený zdrojový kód v [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na webu planB.network a časem budou přidány další.
 
 
-Jedním z příkladů je [kompletní leták](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) s 21 důvody, proč používat Bitcoin. Jeho návrh je také [k dispozici v otevřeném zdrojovém kódu](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), který můžete upravit, přizpůsobit a sdílet. Jen nezapomeňte uvést své zdroje.
+Jedním z příkladů je [kompletní leták](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) s 21 důvody, proč používat Bitcoin. Jeho návrh je také [k dispozici v otevřeném zdrojovém kódu](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), který můžete upravit, přizpůsobit a sdílet. Jen nezapomeňte uvést své zdroje.
 
 
 
@@ -2050,7 +2050,7 @@ Opuštění bílé knihy Bitcoin je sice symbolické, ale pro nováčky je čast
 - bílá kniha Bitcoin přeložená do francouzštiny.
 
 
-Zde je [brožura, kterou sdílejí francouzští bitcoináři](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), která byla umístěna v desítkách knihobudek po celé zemi. Její design je také [k dispozici jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Zde je [brožura, kterou sdílejí francouzští bitcoináři](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), která byla umístěna v desítkách knihobudek po celé zemi. Její design je také [k dispozici jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

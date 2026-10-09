@@ -21,7 +21,7 @@ BittrでSatsを積み重ねるのがいかに簡単かを説明しよう。
 ## Bittrを始める
 
 
-- ウェブまたはモバイルで[getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)にアクセスし、"Buy Bitcoin "をクリックする。
+- ウェブまたはモバイルで[getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)にアクセスし、"Buy Bitcoin "をクリックする。
 
 
 

@@ -1821,7 +1821,7 @@ Mu gihe c’ukwandika (mu ntango za 2026), Bitcoin hashrate yo kw’isi yose iri
 
 
 
-Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugabane wavyo wa hashrate. Ivyo bishobora guhinduka igihe uzoba uriko urasoma iri shure. Ku makuru agezweho, usabwe gusura [mempool.ikibanza](https://mempool.ikibanza/ibishushanyo/mining/ibidengeri).
+Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugabane wavyo wa hashrate. Ivyo bishobora guhinduka igihe uzoba uriko urasoma iri shure. Ku makuru agezweho, usabwe gusura [mempool.ikibanza](https://mempool.space/graphs/mining/pools).
 
 
 
@@ -1855,7 +1855,7 @@ Aha niho hari urutonde, gushika ubu, rw'ibidengeri nyamukuru vya mining n'umugab
 |         22 | Unknown        |             2 |            0.05% |
 |         23 | Public Pool    |             1 |            0.02% |
 
-*Isoko [mempool.ikibanza](https://mempool.ikibanza/ibishushanyo/mining/ibidengeri), amakuru y'ukwezi kumwe, kuva ku wa 16 Kigarama 2025 gushika ku wa 16 Mukakaro 2025.*
+*Isoko [mempool.ikibanza](https://mempool.space/graphs/mining/pools), amakuru y'ukwezi kumwe, kuva ku wa 16 Kigarama 2025 gushika ku wa 16 Mukakaro 2025.*
 
 
 

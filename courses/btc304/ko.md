@@ -48,7 +48,7 @@ On-Chain에서도 거래 건수가 꾸준히 증가하는 등 그 발전이 뚜�
 
 
 
-- 레바논, 시리아, 이집트, 아르헨티나 등의 주민들처럼 은행 시스템에서 벗어나거나 변동성이 적거나 평가절하된 통화를 사용하기 위해 Bitcoin를 사용하는 것에 대한 전 세계 사람들의 관심이 높아지고 있습니다(https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
+- 레바논, 시리아, 이집트, 아르헨티나 등의 주민들처럼 은행 시스템에서 벗어나거나 변동성이 적거나 평가절하된 통화를 사용하기 위해 Bitcoin를 사용하는 것에 대한 전 세계 사람들의 관심이 높아지고 있습니다(https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin);
 - 시간이 지남에 따라 가격이 상승하여 고정된 통화 정책으로 인해 가치 저장 수단이자 장기 투자 수단으로 자리매김했습니다;
 - 특히 2017~2018년과 2020~2021년 동안 투기성 암호화폐 시장의 연속적인 성장에 주목했습니다;
 - 주류 미디어에서 Bitcoin의 존재감이 커지고 있습니다.
@@ -2006,7 +2006,7 @@ Bitcoin 모임을 주최하면 새로운 사람들을 만나게 됩니다. 사�
 몇몇 전단지는 이미 planB.network의 [Bitcoin 교육 도구 상자](https://planb.academy/fr/resources/bet)에서 오픈 소스로 **제공되고 있으며**, 시간이 지남에 따라 더 많은 전단지가 추가될 예정입니다.
 
 
-한 가지 예로 Bitcoin을 사용해야 하는 21가지 이유가 담긴 [전체 소스 전단지](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)를 들 수 있습니다. 이 디자인은 [오픈 소스로도 제공](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)되므로 수정하고 적용하여 공유할 수 있습니다. 출처를 반드시 밝혀주세요.
+한 가지 예로 Bitcoin을 사용해야 하는 21가지 이유가 담긴 [전체 소스 전단지](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)를 들 수 있습니다. 이 디자인은 [오픈 소스로도 제공](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)되므로 수정하고 적용하여 공유할 수 있습니다. 출처를 반드시 밝혀주세요.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin 백서는 상징적인 의미가 있지만, 처음 접하는 사람들�
 - 프랑스어로 번역된 Bitcoin 백서입니다.
 
 
-다음은 [프랑스 비트코인 사용자들 사이에서 공유되는 소책자](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)로, 프랑스 전역의 수십 개의 책함에 비치되어 있습니다. 디자인도 [오픈 소스로 제공](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)됩니다.
+다음은 [프랑스 비트코인 사용자들 사이에서 공유되는 소책자](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)로, 프랑스 전역의 수십 개의 책함에 비치되어 있습니다. 디자인도 [오픈 소스로 제공](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)됩니다.
 
 
 

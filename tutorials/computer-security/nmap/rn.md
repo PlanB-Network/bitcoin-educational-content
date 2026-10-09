@@ -165,7 +165,7 @@ Muri iki gice, turaza kuraba ingene igikoresho co gupima urubuga rwa Nmap gikore
 
 
 
-Nmap ishobora gukoreshwa mu gupima urubuga, kandi, mu buryo bwagutse, mu gukurikirana. Mu buryo bumwe nyene ping ishobora gukoreshwa mu kumenya nimba abashitsi babiri bariko baravugana, Nmap ishobora gukoreshwa mu kumenya ningoga nimba umushitsi ariko arakora, canke nimba igikorwa kinaka kiriko kirakora. Turashimira [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilities/ "Nmap"), turashobora kuronka amakuru nyayo yerekeye igihe c'inyishu y'umushitsi, inzira ifatwa n'amapakete, inyishu itangwa n'igikorwa kinaka, n'ibindi.
+Nmap ishobora gukoreshwa mu gupima urubuga, kandi, mu buryo bwagutse, mu gukurikirana. Mu buryo bumwe nyene ping ishobora gukoreshwa mu kumenya nimba abashitsi babiri bariko baravugana, Nmap ishobora gukoreshwa mu kumenya ningoga nimba umushitsi ariko arakora, canke nimba igikorwa kinaka kiriko kirakora. Turashimira [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap"), turashobora kuronka amakuru nyayo yerekeye igihe c'inyishu y'umushitsi, inzira ifatwa n'amapakete, inyishu itangwa n'igikorwa kinaka, n'ibindi.
 
 
 
@@ -384,7 +384,7 @@ Kugira ngo ushire kuri sisitemu ikoresha Windows, tangura ukura binary ku rubuga
 
 
 
-- Paje yo gukuraho Nmap ku rubuga rwemewe: [https://nmap.org/gukuraho.html#amadirisha](https://nmap.org/gukuraho.html#amadirisha)
+- Paje yo gukuraho Nmap ku rubuga rwemewe: [https://nmap.org/gukuraho.html#amadirisha](https://nmap.org/download.html#windows)
 
 
 
@@ -1636,7 +1636,7 @@ Muri iki gice, tuzokwiga ingene dukoresha Nmap kugira ngo tubone kandi tumenye n
 
 
 
-Nk’uko twabibonye mu bice vya kera vy’iyi nyigisho, ku buryo busanzwe, Nmap ntizoraba kugira ngo ibone igikorwa kigaragara ku bibanza isuzuma kandi ibona ko vyuguruye. Rero iyo uriko wumviriza urubuga ku port TCP/22, Nmap izobandanya kuvuga ko yuguruye, ariko nk'umurongo wa `SSH`. Ivyo ni kubera ko ikoresha [urutonde rw'amakuru](https://www.it-connect.fr/inyigisho-z'uburongozi/ububiko/bdd/) yo mu karere ka sisitemu yawe kugira ngo irondere isano hagati y'icuma/umurongo n'izina ry'igikorwa (dosiye `/etc/services/`).
+Nk’uko twabibonye mu bice vya kera vy’iyi nyigisho, ku buryo busanzwe, Nmap ntizoraba kugira ngo ibone igikorwa kigaragara ku bibanza isuzuma kandi ibona ko vyuguruye. Rero iyo uriko wumviriza urubuga ku port TCP/22, Nmap izobandanya kuvuga ko yuguruye, ariko nk'umurongo wa `SSH`. Ivyo ni kubera ko ikoresha [urutonde rw'amakuru](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) yo mu karere ka sisitemu yawe kugira ngo irondere isano hagati y'icuma/umurongo n'izina ry'igikorwa (dosiye `/etc/services/`).
 
 
 
@@ -2990,7 +2990,7 @@ Metasploit ni uburyo bwo gukoresha no gutera. Ni umuti w’ubuntu kandi ni igiko
 
 
 
-Cane cane, iyo nzira izwi cane kandi ikoreshwa cane ishobora gukorana na postgreSQL [urutonde rw’amakuru](https://www.it-connect.fr/cours-tutoriels/uburongozi-uburongozi/ububiko/bdd/) aho abashitsi, ivyambu, ibikorwa, amakuru y’ukwemeza n’ibindi bibikwa.
+Cane cane, iyo nzira izwi cane kandi ikoreshwa cane ishobora gukorana na postgreSQL [urutonde rw’amakuru](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) aho abashitsi, ivyambu, ibikorwa, amakuru y’ukwemeza n’ibindi bibikwa.
 
 
 
@@ -3097,7 +3097,7 @@ Nk’uko biri kuri Metasploit, Aquatone irashobora gukora ataco ihinduye ku bury
 
 
 
-- Ihuza ry'ibikoresho: [Github - Igikoresho c'amazi]( https://github.com/igikoresho c'amazi)
+- Ihuza ry'ibikoresho: [Github - Igikoresho c'amazi]( https://github.com/michenriksen/aquatone)
 
 
 
@@ -3153,7 +3153,7 @@ Izo ngero zibiri zirerekana neza ko uburyo bwa XML bwa Nmap butuma ibindi bikore
 
 
 
-Birumvikana, urashobora kandi gutegura inyandiko zawe n’ibikoresho vyawe muri Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/uburongozi-bw’inyandiko/inyandiko/powershell/) canke urundi rurimi urwo ari rwo rwose rufise ububiko bw’ibitabu vy’ugusesangura XML kugira ngo ukoreshe kandi wongere ukoreshe amakuru y’ibisubizo vya fi Nmap uko ubona.
+Birumvikana, urashobora kandi gutegura inyandiko zawe n’ibikoresho vyawe muri Python, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/) canke urundi rurimi urwo ari rwo rwose rufise ububiko bw’ibitabu vy’ugusesangura XML kugira ngo ukoreshe kandi wongere ukoreshe amakuru y’ibisubizo vya fi Nmap uko ubona.
 
 
 
@@ -3395,7 +3395,7 @@ Imbere yo gucapura urubuga canke ubuhinga, nurabe neza ko uronse uruhusha rukwiy
 
 
 
-Ivyo Nmap itanga bishobora gufatwa nk’ibiteye ubwoba cane cane iyo birimwo amakuru yerekeye intege nke ziri mu nzira y’amakuru yoshobora gukoreshwa n’umuntu atera. Ariko kandi iyo bireba uburyo budashobora gushikirwa na bose (nk’uburyo bw’amakuru buhambaye, bw’inganda, bw’ubuvuzi canke [ububiko] bw’amakuru (https://www.it-connect.fr/cours-tutoriels/uburyo-bw’uburongozi/autres/sauvegarde/)).
+Ivyo Nmap itanga bishobora gufatwa nk’ibiteye ubwoba cane cane iyo birimwo amakuru yerekeye intege nke ziri mu nzira y’amakuru yoshobora gukoreshwa n’umuntu atera. Ariko kandi iyo bireba uburyo budashobora gushikirwa na bose (nk’uburyo bw’amakuru buhambaye, bw’inganda, bw’ubuvuzi canke [ububiko] bw’amakuru (https://www.it-connect.fr/cours-tutoriels/administration-systemes/autres/sauvegarde/)).
 
 
 
@@ -3522,7 +3522,7 @@ Iciyumviro kiri aha ni ugusigura bumwe muri ubwo buryo, kugira ngo ushobore guta
 
 
 
-Ubwoko bwa mbere bw'isuzuma rya TCP tugiye kuraba ni `Isuzuma rya TCP SYN`, rizwi kandi nka `Isuzuma ry'Igice Gifunguye`. Niba wibuka ama scanners y’urubuga twakoze inyuma y’ama scanners yacu ya mbere y’icuma, ubu ni bwo bwoko bw’ama scanners bukoreshwa ku buryo busanzwe na [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilities/) iyo ikoreshejwe n’uburenganzira bw’umuzi.
+Ubwoko bwa mbere bw'isuzuma rya TCP tugiye kuraba ni `Isuzuma rya TCP SYN`, rizwi kandi nka `Isuzuma ry'Igice Gifunguye`. Niba wibuka ama scanners y’urubuga twakoze inyuma y’ama scanners yacu ya mbere y’icuma, ubu ni bwo bwoko bw’ama scanners bukoreshwa ku buryo busanzwe na [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) iyo ikoreshejwe n’uburenganzira bw’umuzi.
 
 
 

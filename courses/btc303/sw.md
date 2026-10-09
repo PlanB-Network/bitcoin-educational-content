@@ -310,7 +310,7 @@ Je, wanamaanisha nini kwa Trustless? Pieter Wuille anaelezea neno hili linalotum
 Kwa ufupi, neno *Trustless* linarejelea sifa ya itifaki ya Bitcoin ambapo inaweza kufanya kazi kimantiki bila "wahusika wowote wanaoaminika". Hii ni tofauti na uaminifu ambao lazima uweke kwenye programu au maunzi unayoendesha. Zaidi juu ya kipengele hiki cha mwisho cha uaminifu kitajadiliwa zaidi katika sura hii.
 
 
-Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikisha kuwa atasimamia usalama au kurudisha nyuma masuala yanapotokea, pamoja na mfumo wa kisheria kuidhinisha ukiukaji wowote. Mahitaji haya ya uaminifu yana shida katika mifumo isiyojulikana ya ugatuzi - hakuna uwezekano wa kukimbilia kwa hivyo hakuwezi kuwa na uaminifu wowote. Katika utangulizi wa [karatasi nyeupe ya Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto inaelezea tatizo hili:
+Katika mifumo ya serikali kuu, tunategemea sifa ya mwigizaji mkuu ili kuhakikisha kuwa atasimamia usalama au kurudisha nyuma masuala yanapotokea, pamoja na mfumo wa kisheria kuidhinisha ukiukaji wowote. Mahitaji haya ya uaminifu yana shida katika mifumo isiyojulikana ya ugatuzi - hakuna uwezekano wa kukimbilia kwa hivyo hakuwezi kuwa na uaminifu wowote. Katika utangulizi wa [karatasi nyeupe ya Bitcoin](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto inaelezea tatizo hili:
 
 
 > Biashara kwenye Mtandao imekuja kutegemea takriban taasisi za fedha zinazotumika kama washirika wengine wanaoaminika kuchakata malipo ya kielektroniki.
@@ -323,7 +323,7 @@ Inaonekana kuwa hatuwezi kuwa na mfumo uliogatuliwa kwa msingi wa uaminifu, na n
 Ili kutumia Bitcoin kwa njia ya Trustless, lazima uendeshe node ya Bitcoin inayothibitisha kikamilifu. Hapo ndipo utaweza kuthibitisha kuwa vizuizi unavyopokea kutoka kwa wengine vinafuata sheria za makubaliano; kwa mfano, kwamba ratiba ya utoaji wa sarafu inatunzwa na kwamba hakuna matumizi ya mara mbili yanayotokea kwenye Blockchain. Ikiwa hutumii Full node, unatoa uthibitishaji wa blocks za Bitcoin kwa mtu mwingine na unamwamini kuwa atakuambia ukweli, kumaanisha kuwa hutumii Bitcoin bila uaminifu.
 
 
-David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) akieleza jinsi kuendesha Full node - au kutumia Bitcoin bila trustlessness - kunakusaidia:
+David Harding ameandika [makala kwenye tovuti ya Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) akieleza jinsi kuendesha Full node - au kutumia Bitcoin bila trustlessness - kunakusaidia:
 
 
 > Sarafu ya Bitcoin inafanya kazi tu wakati watu wanakubali bitcoins katika ubadilishanaji kwa vitu vingine vya thamani. Hiyo ina maana ni watu wanaokubali bitcoins ambao wanaipa thamani na ambao wanapata kuamua jinsi Bitcoin inapaswa kufanya kazi.
@@ -512,7 +512,7 @@ Kwa kutumia Address, au funguo za umma, tunafikia malengo muhimu, kama vile kuon
 Faragha ya Blockchain inarejelea maelezo unayofichua kwa kufanya miamala kwenye Blockchain. Inatumika kwa miamala yote, ile unayotuma pamoja na ile unayopokea.
 
 
-Satoshi Nakamoto inatafakari kuhusu faragha ya On-Chain katika sehemu ya 7 ya [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto inatafakari kuhusu faragha ya On-Chain katika sehemu ya 7 ya [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Kama ngome ya ziada, jozi mpya ya funguo inapaswa kutumika kwa kila muamala ili kuwazuia kuunganishwa na mmiliki wa kawaida. Baadhi ya kuunganisha bado hakuwezi kuepukika kwa muamala za pembejeo nyingi, ambazo zinaonyesha kuwa pembejeo zao zilimilikiwa na mmiliki mmoja. Hatari ni kwamba ikiwa mmiliki wa ufunguo atafichuliwa, kuunganisha kunaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki sawa.
@@ -559,7 +559,7 @@ kuuza data kwa mzabuni wa juu zaidi.
 
 Ili kufanya mambo kuwa mabaya zaidi, makampuni ambayo yanasimamia hifadhidata hizi mara nyingi huwa na uzoefu mdogo wa kulinda data ya kifedha, kwa kweli wengi wao ni vijana wanaoanza, na tunajua kwa kweli kwamba uvujaji kadhaa tayari umetokea. Mifano michache ni
 
-[MobiQwik ya India](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-umuhimu-of-Bitcoin-privacy) na [HubSpot](https://bitcoinmagazine.com/business/hubspot-18-data-security-Gusach-Gusach).
+[MobiQwik ya India](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-bitcoin-privacy) na [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-bitcoin-users-data).
 
 
 Tena, kulinda data dhidi ya aina mbalimbali za mashambulizi ni Hard, na kuna uwezekano kwamba hutaweza kufanya hivyo kikamilifu. Itabidi uchague kubadilishana kati ya urahisi na faragha ambayo inakufaa zaidi.
@@ -810,7 +810,7 @@ Kinyume chake, [upatanifu wa nyuma](https://en.wikipedia.org/wiki/Backward_compa
 Mabadiliko ya sheria za makubaliano ya Bitcoin inasemekana kuwa *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* ikiwa inaoana kikamilifu. Hii ndiyo njia ya kawaida ya kuboresha Bitcoin, kwa sababu kadhaa ambazo tutajadili zaidi katika sura hii. Ikiwa mabadiliko ya sheria za makubaliano ya Bitcoin yanaoanishwa nyuma lakini hayaambatani na mbele, yanaitwa *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Kwa muhtasari wa kiufundi wa uma za Soft na uma za Hard, tafadhali soma [sura ya 11 ya Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Inafafanua masharti haya na pia inaingia kwenye mifumo ya uboreshaji. Inapendekezwa, ingawa si lazima kabisa, kupata mtego juu ya hili kabla ya kuendelea kusoma.
+Kwa muhtasari wa kiufundi wa uma za Soft na uma za Hard, tafadhali soma [sura ya 11 ya Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Inafafanua masharti haya na pia inaingia kwenye mifumo ya uboreshaji. Inapendekezwa, ingawa si lazima kabisa, kupata mtego juu ya hili kabla ya kuendelea kusoma.
 
 
 ### Uboreshaji wa kihistoria
@@ -1253,7 +1253,7 @@ Wasanidi wengi huchagua chaguo hili kwa kufanya kazi chini ya jina bandia na kuj
 makala na kazi yangu kwenye Bitcoin na Lightning Network.
 
 
-Katika kesi yake, sababu ya kutumia jina bandia ni kuhukumiwa kwa sifa zake na sio juu ya mtu au watu walio nyuma ya jina la uwongo ni nani au ni nani. Jambo la kufurahisha ni kwamba alifichua katika [makala kwenye CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-sababu/) kwamba jina bandia liliundwa kwa sababu tofauti.
+Katika kesi yake, sababu ya kutumia jina bandia ni kuhukumiwa kwa sifa zake na sio juu ya mtu au watu walio nyuma ya jina la uwongo ni nani au ni nani. Jambo la kufurahisha ni kwamba alifichua katika [makala kwenye CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) kwamba jina bandia liliundwa kwa sababu tofauti.
 
 
 > Sababu yangu ya awali [ya kutumia jina bandia] ilikuwa tu kwamba nilikuwa na wasiwasi [kuhusu] kufanya kosa kubwa; kwa hivyo ZmnSCPxj ilikusudiwa awali kuwa jina bandia la kutupwa ambalo linaweza kuachwa katika kesi kama hiyo. Walakini inaonekana imepata sifa nzuri zaidi, kwa hivyo nimeihifadhi
@@ -1328,7 +1328,7 @@ Katika kuelekea kupitishwa kwa mwisho, wazo kawaida hutiririka kupitia awamu kad
 Katika kila moja ya awamu hizi watu walio na maoni na asili tofauti hukagua taarifa inayopatikana, iwe msimbo wa chanzo, BIP, au wazo lililofafanuliwa kwa urahisi. Awamu kwa kawaida hazifanywi kwa namna yoyote kali ya juu-chini, kwa hakika awamu nyingi zinaweza kutokea kwa wakati mmoja, na wakati mwingine unarudi na kurudi kati yao. Watu tofauti wanaweza pia kutoa maoni wakati wa awamu tofauti.
 
 
-Mmoja wa wakaguzi mahiri wa msimbo kwenye Bitcoin Core ni Jon Atack. Aliandika [chapisho la blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) kuhusu jinsi ya kukagua maombi ya kuvuta katika Bitcoin Core. Anasisitiza kuwa mhakiki mzuri wa msimbo huzingatia jinsi ya kuongeza thamani.
+Mmoja wa wakaguzi mahiri wa msimbo kwenye Bitcoin Core ni Jon Atack. Aliandika [chapisho la blogu](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) kuhusu jinsi ya kukagua maombi ya kuvuta katika Bitcoin Core. Anasisitiza kuwa mhakiki mzuri wa msimbo huzingatia jinsi ya kuongeza thamani.
 
 
 > Kama mgeni, lengo ni kujaribu kuongeza thamani, kwa urafiki na unyenyekevu, wakati wa kujifunza mengi iwezekanavyo.
@@ -1461,7 +1461,7 @@ Scaling imekuwa kitovu cha majadiliano tangu Genesis ya Bitcoin. Sentensi ya kwa
 > Satoshi Nakamoto aliandika:
 >
 
-> "Nimekuwa nikifanyia kazi mfumo mpya wa kielektroniki wa pesa taslimu ambao unalingana kikamilifu na wenzao, bila wahusika wengine wanaoaminika. Karatasi hii inapatikana katika http://www.Bitcoin.org/Bitcoin.pdf"
+> "Nimekuwa nikifanyia kazi mfumo mpya wa kielektroniki wa pesa taslimu ambao unalingana kikamilifu na wenzao, bila wahusika wengine wanaoaminika. Karatasi hii inapatikana katika http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Tunahitaji sana mfumo kama huo, lakini jinsi ninavyoelewa pendekezo lako, haionekani kufikia saizi inayohitajika.
@@ -1543,7 +1543,7 @@ Nukta ya pili ya alama ya nukta ina athari mbaya kwa ugatuaji wa Miner, kwa saba
 Horizontal scaling hurejelea mbinu zinazogawanya mzigo wa kazi kwenye mashine nyingi. Ingawa hii ni mbinu iliyoenea ya kuongeza scalability kati ya tovuti na hifadhidata maarufu, haifanywi kwa urahisi katika Bitcoin.
 
 
-Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama sharding. Kimsingi, inajumuisha kuruhusu kila full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
+Watu wengi hurejelea mbinu hii ya kuongeza kiwango cha Bitcoin kama sharding. Kimsingi, inajumuisha kuruhusu kila full node kuthibitisha sehemu tu ya Blockchain. Peter Todd ameweka mawazo mengi katika dhana ya sharding. Aliandika [chapisho la blogu](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) akielezea sharding kwa maneno ya jumla, na pia akiwasilisha wazo lake mwenyewe liitwalo *treechains*. Nakala hiyo ni ngumu kusoma, lakini Todd anatoa vidokezo ambavyo vinaweza kuyeyuka kabisa:
 
 
 > Katika mifumo iliyopigwa "Full node security" haifanyi kazi, angalau moja kwa moja. Jambo zima ni kwamba si kila mtu ana data zote, kwa hiyo unapaswa kuamua nini kinatokea wakati haipatikani.
@@ -1960,7 +1960,7 @@ Kuna tofauti muhimu kati ya kesi hii na kesi ya awali ya OP_RETURN: suala hili l
 
 
 
-Suala la kuvutia sana la thamani ya kielimu lilijitokeza Machi 2013. Ilionekana kuwa Blockchain ilikuwa imegawanyika (ingawa neno "Fork" limetumika katika nukuu iliyo hapa chini) baada ya block 225429. Maelezo ya tukio hili [yaliripotiwa katika BIP50](https://github.com/Bitcoin/0kib/5bip/blowi). Muhtasari unasema:
+Suala la kuvutia sana la thamani ya kielimu lilijitokeza Machi 2013. Ilionekana kuwa Blockchain ilikuwa imegawanyika (ingawa neno "Fork" limetumika katika nukuu iliyo hapa chini) baada ya block 225429. Maelezo ya tukio hili [yaliripotiwa katika BIP50](https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki). Muhtasari unasema:
 
 
 > Block ambayo ilikuwa na idadi kubwa ya pembejeo za muamala kuliko ilivyoonekana hapo awali ilichimbwa na kutangazwa. Node za Bitcoin 0.8 ziliweza kushughulikia hili, lakini baadhi ya node za kabla ya 0.8 Bitcoin zilikataa, na kusababisha Fork isiyotarajiwa ya Blockchain. Mnyororo wa kabla ya 0.8 usiooana (kuanzia hapa na kuendelea, mnyororo wa 0.8) wakati huo ulikuwa na karibu 60% ya nguvu ya Mining Hash ili kuhakikisha mgawanyiko hautatatuliwa kiotomatiki (kama ingetokea ikiwa mnyororo wa awali wa 0.8 ungepita mnyororo wa 0.8 katika kazi yote, na kulazimisha kupanga upya kwa node 0.8 kabla ya mnyororo).
@@ -2094,7 +2094,7 @@ Jambo kuu la kuchukua kutoka kwa hili ni kwamba BIPs zinapaswa kuwa zaidi au chi
 
 
 
-Kwa bahati mbaya, hadithi ya BIP66 haikuishia hapo. BIP66 ilipoamilishwa, iliharibika sana kwa sababu baadhi ya miners hawakuthibitisha blocks walivyokuwa wakijaribu kupanua. Hii inaitwa Mining isiyo na uhalali, au SPV-Mining (kama ilivyo katika Uthibitishaji wa Malipo Uliorahisishwa). Ujumbe wa tahadhari ulitumwa kwa node za Bitcoin na kiungo cha [ukurasa wa wavuti unaoelezea suala hilo](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Kwa bahati mbaya, hadithi ya BIP66 haikuishia hapo. BIP66 ilipoamilishwa, iliharibika sana kwa sababu baadhi ya miners hawakuthibitisha blocks walivyokuwa wakijaribu kupanua. Hii inaitwa Mining isiyo na uhalali, au SPV-Mining (kama ilivyo katika Uthibitishaji wa Malipo Uliorahisishwa). Ujumbe wa tahadhari ulitumwa kwa node za Bitcoin na kiungo cha [ukurasa wa wavuti unaoelezea suala hilo](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Mapema asubuhi tarehe 4 Julai 2015, kiwango cha 950/1000 (95%) kilifikiwa. Muda mfupi baadaye, miner ndogo (sehemu ya asilimia 5 isiyoboreshwa) ilichimba block batili – kama tukio lililotarajiwa. Kwa bahati mbaya, ikawa kwamba takriban nusu ya kiwango cha mtandao cha hash kilikuwa Mining bila blocks za kuthibitisha kikamilifu (kinachoitwa SPV Mining), na kujenga blocks mpya juu ya block hiyo isiyo sahihi.

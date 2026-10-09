@@ -69,7 +69,7 @@ Pre nego što instalirate LNbits, obavezno pročitajte i razumite sledeće opšt
 
 
 - [LND Vodič](https://docs.lightning.engineering/) | Instaliranje LND
-- [LND Config Primer](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Postavke
+- [LND Config Primer](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND Postavke
 - [Vodič za CLN](https://docs.corelightning.org/docs/installation) | Instalacija CLN-a
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Pokreni Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Veoma važno!
@@ -81,7 +81,7 @@ Detaljniji vodiči za korišćenje LNbits-a u specifičnim scenarijima upotrebe 
 
 - [Početak sa LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack vodič
 - [ToDos za vašu sigurnost sa LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Private Banks on Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Substack vodič
+- [Private Banks on Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Substack vodič
 - [Pokrenite skrbničke novčanike za svoje prijatelje i porodicu](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack vodič
 - [LNbits za mali restoran / hotel](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack vodič
 - [Korišćenje LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack vodič

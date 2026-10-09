@@ -31,7 +31,7 @@ Dalam tutorial ini, kita akan mencermati 3 cara menggunakan **Watchtower**:
 
 
 
-*Tutorial ini diambil dari [dokumentasi resmi LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya
+*Tutorial ini diambil dari [dokumentasi resmi LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Beberapa perubahan mungkin telah dilakukan pada versi aslinya
 
 
 

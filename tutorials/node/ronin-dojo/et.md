@@ -660,6 +660,6 @@ RoninDojo kohta lisateabe saamiseks soovitan tutvuda allpool toodud väliste res
 - https://wiki.ronindojo.io/en/home
 - https://gist.github.com/LaurentMT/e758767ca4038ac40aaf
 - https://medium.com/@laurentmt/boltzmanni-tutvustus-85930984a159
-- https://en.wikipedia.org/wiki/Boltzmanni_valem
+- https://en.wikipedia.org/wiki/Boltzmann_formula
 - https://web.archive.org/web/20240214172859/https://wiki.ronindojo.io/en/setup/bisq
 - https://bisq.network/

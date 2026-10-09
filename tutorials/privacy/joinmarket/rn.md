@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-iyo habaye ikosa birashoboka cane ko twashizeho nabi ivyicaro 4 vya RPC vyavuzwe haruguru. Mu gihe vyoshobora gufasha gukurikira [iyi nkuru](https://github.com/JoinMarket-Org-Org/umucukumbuzi-umukozi/umucungerezi w’isoko/umucungerezi/USA.md#uclengagisi) aboneka mu nyandiko y’intango y’intango.
+iyo habaye ikosa birashoboka cane ko twashizeho nabi ivyicaro 4 vya RPC vyavuzwe haruguru. Mu gihe vyoshobora gufasha gukurikira [iyi nkuru](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) aboneka mu nyandiko y’intango y’intango.
 
 
 

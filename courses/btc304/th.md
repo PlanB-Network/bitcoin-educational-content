@@ -53,7 +53,7 @@ objectives:
 
 
 
-- ความสนใจที่เพิ่มขึ้นของผู้คนทั่วโลกในการใช้ [Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) เพื่อปลดปล่อยตนเองจากระบบธนาคารและ/หรือใช้สกุลเงินที่มีความผันผวนน้อยกว่าหรือมีการลดค่าลงน้อยกว่า เช่นเดียวกับกรณีของประชากรในเลบานอน ซีเรีย อียิปต์ อาร์เจนตินา และอื่น ๆ;
+- ความสนใจที่เพิ่มขึ้นของผู้คนทั่วโลกในการใช้ [Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) เพื่อปลดปล่อยตนเองจากระบบธนาคารและ/หรือใช้สกุลเงินที่มีความผันผวนน้อยกว่าหรือมีการลดค่าลงน้อยกว่า เช่นเดียวกับกรณีของประชากรในเลบานอน ซีเรีย อียิปต์ อาร์เจนตินา และอื่น ๆ;
 - การเพิ่มขึ้นของราคาตามกาลเวลา ทำให้มันกลายเป็นที่เก็บมูลค่าและการลงทุนระยะยาว ขับเคลื่อนโดยนโยบายการเงินที่คงที่ของมัน;
 - การเติบโตต่อเนื่องของตลาดสกุลเงินดิจิทัลที่เป็นการเก็งกำไร โดยเฉพาะในช่วงปี 2017-2018 และ 2020-2021;
 - การปรากฏตัวที่เพิ่มขึ้นของ Bitcoin ในสื่อกระแสหลัก
@@ -2003,7 +2003,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 ใบปลิวหลายรายการมี **ให้บริการในรูปแบบโอเพ่นซอร์สใน [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** บน planB.network และจะมีการเพิ่มอีกในอนาคต
 
 
-ตัวอย่างหนึ่งคือ [ใบปลิวที่มีแหล่งที่มาครบถ้วน](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) พร้อม 21 เหตุผลในการใช้ Bitcoin การออกแบบของมันยัง [มีให้ในรูปแบบโอเพ่นซอร์ส](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) เพื่อให้คุณแก้ไข ปรับเปลี่ยน และแชร์ได้ อย่าลืมให้เครดิตแหล่งที่มาของคุณด้วย
+ตัวอย่างหนึ่งคือ [ใบปลิวที่มีแหล่งที่มาครบถ้วน](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) พร้อม 21 เหตุผลในการใช้ Bitcoin การออกแบบของมันยัง [มีให้ในรูปแบบโอเพ่นซอร์ส](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) เพื่อให้คุณแก้ไข ปรับเปลี่ยน และแชร์ได้ อย่าลืมให้เครดิตแหล่งที่มาของคุณด้วย
 
 
 
@@ -2047,7 +2047,7 @@ Twitter ใช้งานง่ายมาก และเพื่อปร�
 - เอกสารไวท์เปเปอร์ Bitcoin แปลเป็นภาษาฝรั่งเศส
 
 
-นี่คือ [หนังสือเล่มเล็กที่แบ่งปันในหมู่ผู้ใช้บิทคอยน์ชาวฝรั่งเศส](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) ซึ่งถูกวางไว้ในกล่องหนังสือหลายสิบแห่งทั่วประเทศ การออกแบบของมันยัง [มีให้ใช้งานเป็นโอเพ่นซอร์ส](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) อีกด้วย
+นี่คือ [หนังสือเล่มเล็กที่แบ่งปันในหมู่ผู้ใช้บิทคอยน์ชาวฝรั่งเศส](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) ซึ่งถูกวางไว้ในกล่องหนังสือหลายสิบแห่งทั่วประเทศ การออกแบบของมันยัง [มีให้ใช้งานเป็นโอเพ่นซอร์ส](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) อีกด้วย
 
 
 

@@ -45,7 +45,7 @@ Ku bijanye no kurema ijambo ryawe ryo gukira n'ukuboko, uzokenera:
 - Urupapuro rw’urupapuro;
 - Ikaramu canke ikaramu, vyiza ni amabara atandukanye kugira ngo bishobore gutunganya ibintu;
 - Ivyuma vyinshi, kugira ngo bigabanye ingorane zo gutera imbere zijanye n’urupfu rudafise uburinganire;
-- [Urutonde rw’amajambo 2048 BIP39](https://github.com/PlanB-Irezo/Ivyigwa-vy’Ivyigwa/Ibirimwo/Ivyigwa/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho/Ibikoresho.pdf) ryacapuwe.
+- [Urutonde rw’amajambo 2048 BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf) ryacapuwe.
 
 
 Hanyuma, gukoresha orodinateri ifise igikoresho co gupima bizoba ari ngombwa kugira ngo umuntu abare umubare w’ibintu bigenzurwa. Ni co gituma nyene ngira impanuro yo kudakoresha amajambo y’ivy’ukwibuka n’amaboko. N’uko mbona, gufasha mudasobwa, mbere no mu gihe c’ukwiyubara kwavuzwe muri iyi nyigisho, birongereza cane ubugoyagoye bwa wallet.

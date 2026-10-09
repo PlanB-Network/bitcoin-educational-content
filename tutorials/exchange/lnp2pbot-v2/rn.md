@@ -40,7 +40,7 @@ Kugira ngo ukoreshe Lnp2pbot, uzokenera :
 1. Lightning Network Wallet (Umuyaga, Fonikisi canke Blixt ni vyo vyiza)
 
 
-2. Porogaramu ya telegaramu yashizweho (https://telegaramu.org/)
+2. Porogaramu ya telegaramu yashizweho (https://telegram.org/)
 
 
 3. Konti ya Telegram ifise izina ry'ukoresha
@@ -60,7 +60,7 @@ Tangana n'ugushiramwo umuravyo Wallet uhuye. Dore impanuro zacu zitomoye:
 
 
 
-- [Umuyaga](https://umuyaga.ubuhinga):
+- [Umuyaga](https://breez.technology):
   - Ni vyiza ku batangura
   - Ivyiyumviro, ivy'ubu Interface
   - Udashobora kuzigama (uguma ugenzura amahera yawe)
@@ -378,6 +378,6 @@ Mu kugereranya, inyishu nka Bisq zitanga amahera menshi n’ikoreshwa ry’ibiro
 
 
 - Urubuga rwemewe: https://pbot.com/
-- Ivyanditswe: https://lnp2pbot.com/kwiga/
-- GitHub: https://igitabo.com/lnp2pBot/bot
+- Ivyanditswe: https://lnp2pbot.com/learn/
+- GitHub: https://github.com/lnp2pBot/bot
 - Infashanyo: [@lnp2pbotIfashanyo](https://t.me/lnp2pbotIfashanyo)

@@ -2229,7 +2229,7 @@ test/functional/test_runner.py
 
 
 
-- Guhingura no gushitsa ikigeragezo muri Python kugira ngo wemeze imikorere yihariye. Dosiye [akarorero.py](https://github.com/Bitcoin/Bitcoin/blob/master/ikigeragezo/ibikorwa/akarorero_ikigeragezo.py) ni akarorero kavuzwe cane k'ikibazo c'ikigeragezo gikoresha interfaces zompi RPC na P2P.
+- Guhingura no gushitsa ikigeragezo muri Python kugira ngo wemeze imikorere yihariye. Dosiye [akarorero.py](https://github.com/bitcoin/bitcoin/blob/master/test/functional/example_test.py) ni akarorero kavuzwe cane k'ikibazo c'ikigeragezo gikoresha interfaces zompi RPC na P2P.
 
 
 #### Ubundi buryo bwo gushirwa mu ngiro

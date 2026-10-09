@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Verbinden met Proton Wallet
 
 
-Ga naar [de Proton Wallet website](https://proton.me/Wallet) en klik op de knop "*Krijg Proton Wallet*".
+Ga naar [de Proton Wallet website](https://proton.me/wallet) en klik op de knop "*Krijg Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Download Proton Wallet uit je applicatiewinkel:
 
 
 - [In de App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [In de Google Play Store](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [In de Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

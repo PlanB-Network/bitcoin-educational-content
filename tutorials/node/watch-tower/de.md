@@ -33,7 +33,7 @@ In diesem Tutorial werden wir uns 3 Möglichkeiten ansehen, einen **Watchtower**
 
 
 
-*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen
+*Diese Anleitung stammt aus [der offiziellen LND-Dokumentation](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). An der Originalversion wurden möglicherweise einige Änderungen vorgenommen
 
 
 

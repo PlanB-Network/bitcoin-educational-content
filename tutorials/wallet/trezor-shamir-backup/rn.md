@@ -286,5 +286,5 @@ Niwaba wabonye iyi nyigisho ari ngirakamaro, noshima cane iyo usiga urukumu rwa 
 
 
 - [Igitabu-0039: Ibanga rya Shamir ryo gusangira amakode ya Mnemonic]
-- [Ivyiyumviro vy’ugusangira vyinshi kuri Trezor](https://trezor.io/kwiga/a/ugusangira-vyinshi-ku-trezor);
+- [Ivyiyumviro vy’ugusangira vyinshi kuri Trezor](https://trezor.io/learn/a/multi-share-backup-on-trezor);
 - [Wikipedia: Ugusangira ibanga rya Shamir](ibanga rya Shamir).

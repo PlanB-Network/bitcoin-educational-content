@@ -2383,10 +2383,10 @@ bitcoin-lightning-cli.sh getlog
 #### Dzienniki węzła Bitcoin
 
 
-Oprócz [przeglądania dzienników](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontenera bitcoind, można również użyć dowolnego z [poleceń bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Oprócz [przeglądania dzienników](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontenera bitcoind, można również użyć dowolnego z [poleceń bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(otwiera nowe okno)](https://developer.Bitcoin.org/reference/RPC/index.html), aby uzyskać informacje z węzła Bitcoin. BTCPay zawiera skrypt umożliwiający łatwą komunikację z węzłem Bitcoin.
+[(otwiera nowe okno)](https://developer.bitcoin.org/reference/rpc/index.html), aby uzyskać informacje z węzła Bitcoin. BTCPay zawiera skrypt umożliwiający łatwą komunikację z węzłem Bitcoin.
 
 
 W folderze btcpayserver-docker pobierz informacje Blockchain za pomocą węzła:

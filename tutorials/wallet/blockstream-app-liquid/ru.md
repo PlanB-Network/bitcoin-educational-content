@@ -35,7 +35,7 @@ description: Как настроить приложение Blockstream App и �
 
 
 
-**Liquid** - это **Sidechain** Bitcoin, разработанный **[Blockstream](https://blockstream.com/Liquid/)**, предназначенный для обеспечения более быстрой, более Confidential Transactions и расширенной функциональности, оставаясь при этом подключенным к основному Blockchain Bitcoin.
+**Liquid** - это **Sidechain** Bitcoin, разработанный **[Blockstream](https://blockstream.com/liquid/)**, предназначенный для обеспечения более быстрой, более Confidential Transactions и расширенной функциональности, оставаясь при этом подключенным к основному Blockchain Bitcoin.
 
 
 

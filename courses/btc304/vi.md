@@ -48,7 +48,7 @@ Sự tăng trưởng đáng kể này tất nhiên có liên quan chặt chẽ �
 
 
 
-- [sự quan tâm ngày càng tăng của mọi người trên khắp thế giới trong việc sử dụng Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), để giải phóng bản thân khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn, như trường hợp của người dân ở Lebanon, Syria, Ai Cập, Argentina và những nơi khác;
+- [sự quan tâm ngày càng tăng của mọi người trên khắp thế giới trong việc sử dụng Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), để giải phóng bản thân khỏi hệ thống ngân hàng và/hoặc sử dụng một loại tiền tệ ít biến động hoặc ít mất giá hơn, như trường hợp của người dân ở Lebanon, Syria, Ai Cập, Argentina và những nơi khác;
 - sự tăng giá theo thời gian, biến nó thành một kho lưu trữ giá trị và một khoản đầu tư dài hạn, được thúc đẩy bởi chính sách tiền tệ cố định của nó;
 - sự tăng trưởng liên tiếp của thị trường tiền điện tử đầu cơ, đặc biệt là trong giai đoạn 2017-2018 và 2020-2021;
 - Sự hiện diện ngày càng tăng của Bitcoin trên các phương tiện truyền thông chính thống.
@@ -2006,7 +2006,7 @@ Bạn cũng có thể thiết kế tờ rơi dành riêng cho cộng đồng ho�
 Một số tờ rơi hiện đã có sẵn dưới dạng mã nguồn mở trong **[Hộp công cụ giảng dạy Bitcoin](https://planb.academy/fr/resources/bet)** trên planB.network và nhiều tờ rơi khác sẽ được bổ sung theo thời gian.
 
 
-Một ví dụ là một [tờ rơi có nguồn đầy đủ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) với 21 lý do nên sử dụng Bitcoin. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) để bạn chỉnh sửa, điều chỉnh và chia sẻ. Chỉ cần nhớ ghi rõ nguồn.
+Một ví dụ là một [tờ rơi có nguồn đầy đủ](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) với 21 lý do nên sử dụng Bitcoin. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) để bạn chỉnh sửa, điều chỉnh và chia sẻ. Chỉ cần nhớ ghi rõ nguồn.
 
 
 
@@ -2050,7 +2050,7 @@ Mặc dù việc để lại sách trắng Bitcoin mang tính biểu tượng, n
 - sách trắng Bitcoin, được dịch sang tiếng Pháp.
 
 
-Đây là [cuốn sách nhỏ được chia sẻ giữa những người dùng bitcoin tại Pháp](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) đã được đặt trong hàng chục hộp sách trên khắp cả nước. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Đây là [cuốn sách nhỏ được chia sẻ giữa những người dùng bitcoin tại Pháp](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) đã được đặt trong hàng chục hộp sách trên khắp cả nước. Thiết kế của nó cũng [có sẵn dưới dạng mã nguồn mở](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

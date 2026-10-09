@@ -102,7 +102,7 @@ Kugendera ku gikoresho birasanzwe:
 
 
 
-Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Safe 5 ufise [porogarama yo gucunga Sparrow wallet Wallet](https://sparrowwallet.com/gukuraho/). Niba utarashiramwo iyi porogaramu, ndagusavye uyikore ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
+Ku bw’iyi nyigisho, ngiye kukwereka ingene wokoresha Trezor Safe 5 ufise [porogarama yo gucunga Sparrow wallet Wallet](https://sparrowwallet.com/download/). Niba utarashiramwo iyi porogaramu, ndagusavye uyikore ubu. Niba ukeneye gufashwa, turafise kandi inyigisho ido n'ido ku bijanye no gutunganya Sparrow wallet :
 
 
 

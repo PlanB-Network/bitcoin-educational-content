@@ -48,7 +48,7 @@ Birumvikana ko iyo nkura ihambaye ifitaniye isano cane n’ibi:
 
 
 
-- n’ugukura kw’abantu kw’isi yose mu gukoresha Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), kugira ngo bibohoke mu bijanye n’ubuhinga bwa banki no/canke bakoreshe amafaranga adahinduka cane canke adahinduka cane, nk’uko biri ku banyagihugu bo muri Siriya, Misiri, A, Libani,
+- n’ugukura kw’abantu kw’isi yose mu gukoresha Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), kugira ngo bibohoke mu bijanye n’ubuhinga bwa banki no/canke bakoreshe amafaranga adahinduka cane canke adahinduka cane, nk’uko biri ku banyagihugu bo muri Siriya, Misiri, A, Libani,
 - ugushimira igiciro cayo uko igihe kigenda kirarenga, bikayishinga nk’ububiko bw’agaciro n’ishoramari ry’igihe kirekire, rirongowe n’ingingo ngenderwako y’amahera yayo idahinduka;
 - iterambere rikurikirana ry’isoko ry’amahera y’ivy’ubuhinga bwa none, cane cane mu kiringo ca 2017-2018 na 2020-2021;
 - Bitcoin iriko irakura mu binyamakuru vyinshi.
@@ -283,7 +283,7 @@ Impanuro nkeyi zo kuyobora ingingo yawe:
 
 3/ **Suzuma nimba hariho meet-up isanzwe iriho hafi yawe**.
 
-Ushobora kuraba [btcmap.org](https://btcmap.org/imiryango/ikarita#0/0/0/), irimwo urutonde rw’imiryango myinshi ya Bitcoin n’amateraniro kw’isi yose.
+Ushobora kuraba [btcmap.org](https://btcmap.org/communities/map#0/0/0/), irimwo urutonde rw’imiryango myinshi ya Bitcoin n’amateraniro kw’isi yose.
 
 
 
@@ -687,7 +687,7 @@ Hariho AIs zitari nke ziboneka ku bw’iyo ntumbero. Muri ivyo harimwo .
 
 - [urugendo rwo hagati](https://inyandiko.urugendo rwo hagati.com/inyandiko/gutangura-vyihuse) (vyishyurwa);
 - [Leonardo](ku buntu, konti-ifise aho igarukira);
-- [umudereva](https://umudereva.microsoft.com/) (ku buntu, konti-ifise aho igarukira);
+- [umudereva](https://copilot.microsoft.com/) (ku buntu, konti-ifise aho igarukira);
 - [DALL-E](ku rubuga rwa interineti) (kwishurwa).
 
 
@@ -782,7 +782,7 @@ Nk'akarorero, **mu Bufaransa, mu Budagi no mu Butaliyano, Telegram na Twitter ni
 Mu buryo butandukanye n’ubwo, muri Repubulika ya Tchèque, imiryango myinshi ikoresha **Matrix**, ubuhinga bwo gutanga ubutumwa butekanye, aho gukoresha Telegram.
 
 
-Impanuro: Imbere yo guhitamwo imirongo yawe, **raba ivyo imiryango iri hafi ikora**. Koresha ikarita [btcmap.org](https://btcmap.org/imiryango/ikarita#0/0/0/) kugira ngo ubone ama platforms azwi cane mu karere kawe.
+Impanuro: Imbere yo guhitamwo imirongo yawe, **raba ivyo imiryango iri hafi ikora**. Koresha ikarita [btcmap.org](https://btcmap.org/communities/map#0/0/0/) kugira ngo ubone ama platforms azwi cane mu karere kawe.
 
 
 Nk’akarorero, imiryango y’Abasuwisi ikoresha cane cane Telegram, Twitter, n’urubuga rwabo bwite:
@@ -1391,9 +1391,9 @@ Ivyo birimwo:
 
 
 
-- [Btcmap.org](https://btcmap.org/), urubuga rufise amakarata abiri avugururwa buri musi: **[ikarata y'isi yose y'ubudandaji bwemera Bitcoin](https://btcmap.org/ikarita)** na **[ikarita y'imiryango y'isi yose](https://communities/p.)**. Benshi mu bakoresha ama bitcoin barasuzuma ayo makarita ubudasiba, baba bari mu rugendo canke bariko barakora ubuzima bwabo bwa misi yose, kugira ngo bahure n'abantu bashasha canke barondere aho bakoresha [Sats](https://planb.academy/resources/glossary/satoshi-sat) yabo. Btcmap ni co kigereranyo c'isi yose, kandi gushiramwo urutonde rw'abanyagihugu bawe ni ngombwa kugira ngo biboneke.
+- [Btcmap.org](https://btcmap.org/), urubuga rufise amakarata abiri avugururwa buri musi: **[ikarata y'isi yose y'ubudandaji bwemera Bitcoin](https://btcmap.org/map)** na **[ikarita y'imiryango y'isi yose](https://communities/p.)**. Benshi mu bakoresha ama bitcoin barasuzuma ayo makarita ubudasiba, baba bari mu rugendo canke bariko barakora ubuzima bwabo bwa misi yose, kugira ngo bahure n'abantu bashasha canke barondere aho bakoresha [Sats](https://planb.academy/resources/glossary/satoshi-sat) yabo. Btcmap ni co kigereranyo c'isi yose, kandi gushiramwo urutonde rw'abanyagihugu bawe ni ngombwa kugira ngo biboneke.
 - BitcoinerEvents, urubuga rwakozwe n’abakoresha amahera, ku bakoresha amahera. **Iragufasha gushiramwo ibintu bizoshika mu kibano cawe**. Ariko mu Bufaransa, n’ubu ntirikoreshwa cane. **Menya (Gitugutu 2026):** uru rubuga ntirugikora. [BitcoinOnly Events](https://bitcoinonly.events/) ni urundi rubuga rusa na rwo rugikora.
-- bivanye n’igihugu cawe, hoshobora kubaho ibindi bikorwa vyo mu karere iwanyu. Nk’akarorero, mu Bufaransa, hariho [Bitcoin.fr](https://Bitcoin.fr/ibintu/ivyiciro/imisi mikuru/), **itanga urutonde rw’ibintu vyinshi bibera muri Bitcoin buri kwezi**. Rero nimba utarabakurikira kuri Twitter canke ngo ubamenyeshe kugira ngo usangire amakuru yerekeye ikibano cawe n’ibintu bibera, ubu ni igihe! **Kugira ngo dufashe mu gutuma ikirangamisi c’ibintu bibera mu Bufaransa kiguma ku gihe, vyoba vyiza cane iyo imiryango yose y’Abafaransa Bitcoin igira akamenyero ko:**
+- bivanye n’igihugu cawe, hoshobora kubaho ibindi bikorwa vyo mu karere iwanyu. Nk’akarorero, mu Bufaransa, hariho [Bitcoin.fr](https://bitcoin.fr/events/categories/evenements/), **itanga urutonde rw’ibintu vyinshi bibera muri Bitcoin buri kwezi**. Rero nimba utarabakurikira kuri Twitter canke ngo ubamenyeshe kugira ngo usangire amakuru yerekeye ikibano cawe n’ibintu bibera, ubu ni igihe! **Kugira ngo dufashe mu gutuma ikirangamisi c’ibintu bibera mu Bufaransa kiguma ku gihe, vyoba vyiza cane iyo imiryango yose y’Abafaransa Bitcoin igira akamenyero ko:**
     - kuvuga @bitcoinpointfr kuri Twitter ku bikorwa vyose bishasha vy'abanyagihugu
     - gushiramwo amatangazo mashasha y’ibintu mu mugwi wabo wa Telegram.
 
@@ -1619,7 +1619,7 @@ Baza aho uzokwakira uwo muhango maze uwubike ku mubare w’abantu ugereranywa.
 
 
     - Sangira itariki, isaha n’aho hantu ku mbuga zanyu zo gusangirirako amakuru no ku yindi mihora yo guhanahana amakuru. Nimushiremwo urubuga rwo kwiyandikisha nimba bikenewe.
-    - Rema ishusho yihariye (Igicapo ca Canva nk'akarorero, raba igice ca 2/8 "[Guhingura akaranga ka Bitcoin yawe umuryango](https://umugambi.urubuga/amashure/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
+    - Rema ishusho yihariye (Igicapo ca Canva nk'akarorero, raba igice ca 2/8 "[Guhingura akaranga ka Bitcoin yawe umuryango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/b48a18cc-afdf-5216-802c-32647b5cd8a3)").
     - Gutuma itangazo rigaragara cane mu gushiramwo itangazo kuri Telegram na Twitter, no gukoresha "@everyone" kuri Discord.
     - Mushire amatangazo imisi 7 gushika kuri 10 imbere y’uko uwo muhango uba kugira ngo abazoba baje bashobore gutegura imbere y’igihe.
 
@@ -1775,7 +1775,7 @@ Mu mpera, ni wewe ushobora gufata ingingo y'aho "ugufungura no gushiramwo abantu
 Uko amabuye azogenda aratera imbere, ni ko n’umuryango wawe uzotera imbere. Amaso mashasha azokwifatanya, ayandi azogenda ariko ingingo ngenderwako ikwiye kuguma ari imwe: guteza imbere ibidukikije vya Bitcoin no gukomeza ubucuti hagati y’abagize umuryango.
 
 
-Hariho imigambi myinshi n’imigambi myinshi ishobora gushirwa mu ngiro. Iki gice kiratanga urutonde rudahera rw’ivyiyumviro bishobora gushirwa mu ngiro mu kibano canke mu gihe c’inama. Ushobora guhitamwo izo zigutera intege mbere n'ivyiyumviro vyawe bwite muri iri shure [mu gukora "Igisabwa co Gukura" kuri GitHub](https://github.com/PlanB-Network/Bitcoin-ibirimwo-ivy'inyigisho).
+Hariho imigambi myinshi n’imigambi myinshi ishobora gushirwa mu ngiro. Iki gice kiratanga urutonde rudahera rw’ivyiyumviro bishobora gushirwa mu ngiro mu kibano canke mu gihe c’inama. Ushobora guhitamwo izo zigutera intege mbere n'ivyiyumviro vyawe bwite muri iri shure [mu gukora "Igisabwa co Gukura" kuri GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
 
 
 Imbere y’uko twisuka muri vyo, reka dusubire ku ciyumviro twamaze kuvuga.
@@ -2006,7 +2006,7 @@ Woshobora kandi guhingura urupapuro rwo gutanga amakuru rwerekeye ikibano cawe c
 Ivyandiko vyinshi birasanzwe **biboneka nk’ibifungurwa mu [Bitcoin Igikoresho co Kwigisha](https://planb.academy/fr/resources/bet)** kuri planB.network kandi ibindi bizokwongerezako uko igihe kigenda kirarenga.
 
 
-Akarorero kamwe ni [igitabu c'inkomoko yuzuye](https://profedustream.substack.com/p/21-raisons-utitiliser-Bitcoin) gifise imvo 21 zo gukoresha Bitcoin. Igishushanyo caco na co nyene [kiraboneka mu buryo bufunguye] guhindura no gusangira. Ibuka gusa gutanga amasoko yawe.
+Akarorero kamwe ni [igitabu c'inkomoko yuzuye](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) gifise imvo 21 zo gukoresha Bitcoin. Igishushanyo caco na co nyene [kiraboneka mu buryo bufunguye] guhindura no gusangira. Ibuka gusa gutanga amasoko yawe.
 
 
 
@@ -2037,9 +2037,9 @@ Mu mwaka w'2023, haciye hatanguzwa umugambi w'**"Igitabo cera Bitcoin mu masandu
 Kugira ngo uwo mugambi ushobore gukorwa, abaje muri uwo mugambi bategerezwa kubanza gutoragura aho amasandugu yose y’ibitabu yo mu gihugu ari. Hariho ububiko bw'amakuru bwinshi ku bw'iyo ntumbero:
 
 
-- [ubuzima.bw'akarere.fr](https://ubuzima.bw'akarere.fr/);
-- [ibifungurwa-vy’amazi.fr](https://www.ibifungurwa-vy’amazi.fr/ikarata-y’Ubufaransa);
-- [gutanga.fr](https://ugutanga.fr/amakarata/fr_FR/);
+- [ubuzima.bw'akarere.fr](https://boite.a.livres.zonelivre.fr/);
+- [ibifungurwa-vy’amazi.fr](https://www.boites-a-livres.fr/carte-de-france);
+- [gutanga.fr](https://delivrez.fr/maps/fr_FR/);
 - hamwe n'ingingo zo mu binyamakuru vyo mu karere
 
 
@@ -2195,7 +2195,7 @@ Mu nyuma, urashobora kugura izina ryawe bwite canke mbere ukakwakira urubuga kur
 Naho hariho izindi nzira za CMS, zimwe zifise interfaces yoroshe, zishobora gukoreshwa n’abatangura, akenshi ntizishobora guhindurwa cane. Ni co gituma WordPress muri rusangi ariyo ntango nziza.
 
 
-WordPress kandi irashigikira ibikoresho vyinshi (bimwe bihembwa ariko bifise akamaro kanini) bishobora kwagura cane ubushobozi bw’urubuga rwawe ataco bisaba ubuhinga bwo gukora coding. Akarorero kamwe ni [insanganyamatsiko y'agaciro "Gukuraho"](https://undsgn.com/gukuraho/)
+WordPress kandi irashigikira ibikoresho vyinshi (bimwe bihembwa ariko bifise akamaro kanini) bishobora kwagura cane ubushobozi bw’urubuga rwawe ataco bisaba ubuhinga bwo gukora coding. Akarorero kamwe ni [insanganyamatsiko y'agaciro "Gukuraho"](https://undsgn.com/uncode/)
 
 
 
@@ -2222,7 +2222,7 @@ Imbuga zizwi cane zirimwo:
 - [**peertube**](https://joinpeertube.org/fr_FR), bigufasha kwakira urubuga rwawe rw'amasanamu, naho nyene bitoroshe gushinga.
 
 
-Uko uhisemwo kwose, nushireho amashusho yihariye kugira ngo umurongo wawe ukwegere. Canva, ivugwa muri [igice ca 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e792 n’imigero yakozwe imbere y’igihe, ishobora guhindurwa.
+Uko uhisemwo kwose, nushireho amashusho yihariye kugira ngo umurongo wawe ukwegere. Canva, ivugwa muri [igice ca 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef n’imigero yakozwe imbere y’igihe, ishobora guhindurwa.
 
 
 
@@ -2255,14 +2255,14 @@ Podcast y’amajwi ni ubundi buryo bwiza bwo gusangira ivyiyumviro. Cokimwe n’
 Imbuga zizwi cane zirimwo:
 
 
-- [**Isoko**](https://www.isoko.fm/), ishigikira intererano z’Imiravyo.
+- [**Isoko**](https://www.fountain.fm/), ishigikira intererano z’Imiravyo.
 - [**Igicu c'ijwi**](https://igicu c'ijwi.com/);
 - [**Igikoko**](ku rubuga rwa interineti);
-- [**Spotify**](https://gufungura.spotify.com/);
+- [**Spotify**](https://open.spotify.com/);
 - [**Ikiganiro ca Google**](https:Ikiganiro.google.com/).
 
 
-Buri nzira irafise abayumviriza, rero kuba uriho ku nzira nyinshi bizokugirira akamaro. **[Spotify ku bamenyeshamakuru](https://abamenyeshamakuru.spotify.com/) ituma ivyo vyoroha mu kuguha uburenganzira bwo gushiramwo amakuru yawe rimwe gusa na generate ifunguro rya RSS ku zindi mbuga**.
+Buri nzira irafise abayumviriza, rero kuba uriho ku nzira nyinshi bizokugirira akamaro. **[Spotify ku bamenyeshamakuru](https://podcasters.spotify.com/) ituma ivyo vyoroha mu kuguha uburenganzira bwo gushiramwo amakuru yawe rimwe gusa na generate ifunguro rya RSS ku zindi mbuga**.
 
 Rero, igikorwa kimaze gukorwa kuri "Spotify for Podcasters," igisigaye ni uguhindura ibirimwo vyawe ku yindi mihora, igikorwa gica vuba cane.
 
@@ -2448,7 +2448,7 @@ Hanyuma ubahe urupapuro, nk'urwa "Impamvu 21 zo gukoresha Bitcoin" canke "Impamv
 
 Igihe bagaragaje inyungu, nushireho umwanya wo kubereka umuti wo kwishura.
 
-Ihitamwo ryiza ni **[Ubusuwisi-203-Umushahara](https://Ubusuwisi-203-Umushahara.ch/)**, kuko:
+Ihitamwo ryiza ni **[Ubusuwisi-203-Umushahara](https://swiss-bitcoin-pay.ch/)**, kuko:
 
 
     - Bishoboza umucuruzi guhindura BTC mu fiat ku musi ku musi, kugira ngo bashobore kuriha abaguzi.
@@ -2515,7 +2515,7 @@ Ibinyamakuru vyinshi biracari n'igice kivuga ngo "Ivyo biriko biraba", akenshi b
 Iyi nzira ishobora gukora neza mu bintu bimwebimwe kuruta ibindi, ariko birabereye kugerageza. Ushobora gutangura ushikira ibinyamakuru vyo mu karere, Ubufaransa burafise ingero nk’izi:
 
 
-- [acpm.fr](https://www.acpm.fr/Itangazamakuru-ry'Igihugu/Itangazamakuru-ry'Igihugu);
+- [acpm.fr](https://www.acpm.fr/Les-chiffres/Diffusion-Presse/Presse-Payante/Presse-Quotidienne-Regionale);
 - [amajambo y'abantu bose](page=annuaire&cat=itangazamakuru&ubwoko_ bw'itangazamakuru=Itangazamakuru%20quotidienne%20r%C3%A9gionale).
 
 kandi mu guhamagara amaradiyo yo mu karere kugira ngo bamuhe iciyumviro co kubazwa canke gusohoka mu kiganiro ca podcast.

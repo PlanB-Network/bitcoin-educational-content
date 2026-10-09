@@ -19,7 +19,7 @@ Voyons comment il est facile de commencer à empiler des sats avec Bittr.
 ## Démarrer avec Bittr
 
 
-- Sur votre ordinateur ou votre smartphone, rendez-vous sur [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) et cliquez sur "Acheter Bitcoin"
+- Sur votre ordinateur ou votre smartphone, rendez-vous sur [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) et cliquez sur "Acheter Bitcoin"
 
 
 - **Aucun compte :** Vous n’avez pas besoin de créer un compte pour acheter du Bitcoin

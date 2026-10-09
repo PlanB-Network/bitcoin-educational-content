@@ -868,7 +868,7 @@ Bisq icungera uguhanahana kw’urunganwe biciye ku buryo bw’imikono myinshi 2/
 Kugira ngo ubone porogarama ya Bisq, genda ku rubuga rwabo rwemewe: https://bisq.network/
 
 
-Kugira ngo utangure gukoresha porogarama, ndagusavye gusoma iyi paji: https://bisq.network/gutangura/
+Kugira ngo utangure gukoresha porogarama, ndagusavye gusoma iyi paji: https://bisq.network/getting-started/
 
 
 Kugira ngo ubone urubuga rwo gufatanya na RoninDojo yawe, uzokenera gufatanya na RoninCLI biciye kuri SSH. Hanyuma ugende kuri menyu:

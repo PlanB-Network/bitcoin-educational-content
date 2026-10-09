@@ -307,7 +307,7 @@ SCB ist nur erforderlich, wenn du LN-Kanäle geöffnet hast. Falls du nur On-Cha
 Falls du bemerkst, dass nach langer Zeit die alten Transaktionsverläufe immer noch nicht angezeigt werden, gehe zu Eingebetteter Node - Peers und deaktiviere die Option, die Liste der ausgewählten Peers zu verwenden (standardmäßig ist es btcd.lnolymp.us). Das löst einen Neustart aus und verbindet sich mit dem ersten verfügbaren Neutrino-Node mit einer besseren Antwortzeit. Oder verwende die unten genannten anderen bekannten Neutrino-Peers.
 
 
-Falls du mehr Wiederherstellungsoptionen für einen LND-Node sehen möchtest, [lies bitte meine vorherige Anleitung](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), in der du die Schritte findest, wie du einen aezeed Seed in die Sparrow-Wallet oder andere Methoden importieren kannst.
+Falls du mehr Wiederherstellungsoptionen für einen LND-Node sehen möchtest, [lies bitte meine vorherige Anleitung](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), in der du die Schritte findest, wie du einen aezeed Seed in die Sparrow-Wallet oder andere Methoden importieren kannst.
 
 
 **C - Eingebetteter Node**

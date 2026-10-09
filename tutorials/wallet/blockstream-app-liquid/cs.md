@@ -35,7 +35,7 @@ description: Jak nakonfigurovat aplikaci Blockstream a používat Liquid Network
 
 
 
-**Liquid** je **Sidechain** Bitcoin, vyvinutý společností **[Blockstream](https://blockstream.com/Liquid/)**, navržený tak, aby nabízel rychlejší a pokročilejší funkce Confidential Transactions a zároveň zůstal napojený na hlavní Blockchain Bitcoin.
+**Liquid** je **Sidechain** Bitcoin, vyvinutý společností **[Blockstream](https://blockstream.com/liquid/)**, navržený tak, aby nabízel rychlejší a pokročilejší funkce Confidential Transactions a zároveň zůstal napojený na hlavní Blockchain Bitcoin.
 
 
 

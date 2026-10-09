@@ -54,7 +54,7 @@ Upungufu wa kipekee wa Sentinel unatokana na ukweli kwamba programu inapatikana 
 Kwa wale wanaotaka kufuatilia Wallet yenye saini nyingi, Blue Wallet ndiyo programu pekee ninayoijua ambayo inatoa hali ya kuangalia pekee kwa aina hizi za pochi, na inapatikana kwenye Android na iOS.
 
 
-Kwa watumiaji wa iOS wanaotafuta njia mbadala ya Sentinel, [Green Wallet](https://blockstream.com/Green/) au [Blue Wallet](https://bluewallet.io/watch-only/) inaweza kuwa chaguo, ingawa utendakazi wao wa saa pekee si wa kina kama wa Sentinel.
+Kwa watumiaji wa iOS wanaotafuta njia mbadala ya Sentinel, [Green Wallet](https://blockstream.com/green/) au [Blue Wallet](https://bluewallet.io/watch-only/) inaweza kuwa chaguo, ingawa utendakazi wao wa saa pekee si wa kina kama wa Sentinel.
 
 ![watch-only](assets/notext/2.webp)
 

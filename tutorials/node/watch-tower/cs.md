@@ -33,7 +33,7 @@ V tomto návodu se podíváme na 3 způsoby použití **Watchtower** :
 
 
 
-*Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). V původní verzi mohly být provedeny některé změny
+*Tento návod je převzat z [oficiální dokumentace ke LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). V původní verzi mohly být provedeny některé změny
 
 
 

@@ -36,7 +36,7 @@ description: Запазете своя seed с метода SAFU Ninja
 
 
 
-- Надеждност**: Тестван от 2020 г. насам, методът е изпробван от експерти по безопасност като [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), които са го подложили на строги стрес тестове (екстремна топлина, корозия, механично налягане).
+- Надеждност**: Тестван от 2020 г. насам, методът е изпробван от експерти по безопасност като [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), които са го подложили на строги стрес тестове (екстремна топлина, корозия, механично налягане).
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [Доклад](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) за метода Ninja SAFU
+- [Доклад](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) за метода Ninja SAFU
 
 
 
 
 
-- Сравнителна таблица [пълна](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Сравнителна таблица [пълна](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

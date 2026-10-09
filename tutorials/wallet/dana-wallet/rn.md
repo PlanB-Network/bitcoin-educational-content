@@ -422,7 +422,7 @@ Silent Payments zigereranya intambwe ikomeye mu guhuza ukworohereza gukoresha nâ
 
 
 - Faucet Ukwishura mu gacerere: https://ukwishyura mu gacerere.dev/uruzitiro/ikidodo
-- Ikimenyetso Mempool Umugenzuzi: https://mempool.ikibanza/ikidodo
+- Ikimenyetso Mempool Umugenzuzi: https://mempool.space/signet
 
 
 

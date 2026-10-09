@@ -320,7 +320,7 @@ Apa yang dimaksud dengan Trustless? Pieter Wuille menjelaskan istilah yang banya
 Singkatnya, kata *Trustless* mengacu pada properti protokol Bitcoin yang secara logis dapat berfungsi tanpa "pihak tepercaya". Hal ini berbeda dengan kepercayaan yang mau tidak mau harus Anda berikan pada perangkat lunak atau perangkat keras yang Anda jalankan. Lebih lanjut tentang aspek kepercayaan yang terakhir ini akan dibahas lebih lanjut dalam bab ini.
 
 
-Dalam sistem terpusat, kita bergantung pada reputasi aktor pusat untuk memastikan bahwa mereka akan menjaga keamanan atau mundur jika terjadi masalah, serta pada sistem hukum untuk memberikan sanksi atas pelanggaran. Persyaratan kepercayaan ini menjadi masalah dalam sistem desentralisasi pseudonim - tidak ada kemungkinan untuk meminta bantuan sehingga tidak mungkin ada kepercayaan. Dalam pengantar [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto menjelaskan masalah ini:
+Dalam sistem terpusat, kita bergantung pada reputasi aktor pusat untuk memastikan bahwa mereka akan menjaga keamanan atau mundur jika terjadi masalah, serta pada sistem hukum untuk memberikan sanksi atas pelanggaran. Persyaratan kepercayaan ini menjadi masalah dalam sistem desentralisasi pseudonim - tidak ada kemungkinan untuk meminta bantuan sehingga tidak mungkin ada kepercayaan. Dalam pengantar [whitepaper Bitcoin](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto menjelaskan masalah ini:
 
 
 > Perdagangan di Internet hampir secara eksklusif bergantung pada lembaga keuangan yang berfungsi sebagai pihak ketiga tepercaya untuk memproses pembayaran elektronik.
@@ -333,7 +333,7 @@ Tampaknya kita tidak dapat memiliki sistem terdesentralisasi yang didasarkan pad
 Untuk menggunakan Bitcoin dengan cara Trustless, Anda harus menjalankan node Bitcoin yang telah tervalidasi penuh. Hanya dengan begitu Anda dapat memverifikasi bahwa blok yang Anda terima dari orang lain mengikuti aturan konsensus; misalnya, bahwa jadwal penerbitan koin ditepati dan tidak ada pembelanjaan ganda yang terjadi pada Blockchain. Jika Anda tidak menjalankan Full node, Anda mengalihdayakan verifikasi blok Bitcoin kepada orang lain dan mempercayai mereka untuk mengatakan yang sebenarnya, yang berarti Anda tidak menggunakan Bitcoin tanpa rasa percaya.
 
 
-David Harding telah menulis [artikel di situs web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) yang menjelaskan bagaimana menjalankan Full node - atau menggunakan Bitcoin tanpa kepercayaan - sebenarnya membantu Anda:
+David Harding telah menulis [artikel di situs web Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) yang menjelaskan bagaimana menjalankan Full node - atau menggunakan Bitcoin tanpa kepercayaan - sebenarnya membantu Anda:
 
 
 > Mata uang Bitcoin hanya berfungsi ketika orang menerima bitcoin dalam Exchange untuk hal-hal berharga lainnya. Ini berarti bahwa orang-orang yang menerima bitcoin-lah yang memberikan nilai dan yang dapat memutuskan bagaimana Bitcoin bekerja.
@@ -522,7 +522,7 @@ Dengan menggunakan alamat, atau kunci publik, kita mencapai tujuan penting, sepe
 Privasi Blockchain mengacu pada informasi yang Anda ungkapkan dengan bertransaksi di Blockchain. Ini berlaku untuk semua transaksi, baik yang Anda kirim maupun yang Anda terima.
 
 
-Satoshi Nakamoto merenungkan privasi On-Chain di bagian 7 dari [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto merenungkan privasi On-Chain di bagian 7 dari [whitepaper Bitcoin](https://bitcoin.org/bitcoin.pdf):
 
 
 > Sebagai firewall tambahan, pasangan kunci baru harus digunakan untuk setiap transaksi agar tidak terhubung dengan pemilik yang sama. Beberapa penautan masih tidak dapat dihindari dengan transaksi multi-input, yang tentu saja mengungkapkan bahwa input mereka dimiliki oleh pemilik yang sama. Resikonya adalah jika pemilik dari sebuah kunci terungkap, penautan dapat mengungkapkan transaksi lain yang dimiliki oleh pemilik yang sama.
@@ -817,7 +817,7 @@ Sebaliknya, [kompatibilitas ke belakang](https://en.wikipedia.org/wiki/Backward_
 Sebuah perubahan pada aturan konsensus Bitcoin dikatakan sebagai *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* jika sepenuhnya kompatibel. Ini adalah cara yang paling umum untuk meng-upgrade Bitcoin, karena sejumlah alasan yang akan kita bahas lebih lanjut dalam bab ini. Jika perubahan pada aturan konsensus Bitcoin kompatibel ke belakang tetapi tidak kompatibel ke depan, maka disebut sebagai *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Untuk tinjauan teknis tentang fork Soft dan fork Hard, silakan baca [bab 11 dari Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Bab ini menjelaskan istilah-istilah ini dan juga membahas mekanisme upgrade. Disarankan, meskipun tidak sepenuhnya diperlukan, untuk memahami hal ini sebelum Anda melanjutkan membaca.
+Untuk tinjauan teknis tentang fork Soft dan fork Hard, silakan baca [bab 11 dari Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Bab ini menjelaskan istilah-istilah ini dan juga membahas mekanisme upgrade. Disarankan, meskipun tidak sepenuhnya diperlukan, untuk memahami hal ini sebelum Anda melanjutkan membaca.
 
 
 ### Peningkatan bersejarah
@@ -1260,7 +1260,7 @@ Banyak pengembang memilih opsi ini dengan beroperasi di bawah nama samaran dan m
 artikel dan karya saya pada Bitcoin dan Lightning Network.
 
 
-Dalam kasusnya, alasan menggunakan nama samaran adalah untuk dinilai berdasarkan kemampuannya dan bukan pada siapa orang atau orang-orang di balik nama samaran tersebut. Menariknya, dia mengungkapkan dalam sebuah [artikel di CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) bahwa nama samaran itu dibuat untuk alasan yang berbeda.
+Dalam kasusnya, alasan menggunakan nama samaran adalah untuk dinilai berdasarkan kemampuannya dan bukan pada siapa orang atau orang-orang di balik nama samaran tersebut. Menariknya, dia mengungkapkan dalam sebuah [artikel di CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) bahwa nama samaran itu dibuat untuk alasan yang berbeda.
 
 
 > Alasan awal saya [untuk menggunakan nama samaran], karena saya khawatir [akan] melakukan kesalahan besar; oleh karena itu, ZmnSCPxj pada awalnya dimaksudkan sebagai nama samaran sekali pakai, yang bisa ditinggalkan dalam kasus seperti itu. Namun demikian, tampaknya nama ini telah mendapatkan reputasi yang sebagian besar positif, jadi saya tetap mempertahankannya
@@ -1335,7 +1335,7 @@ Dalam perjalanannya menuju adopsi akhir, sebuah ide biasanya mengalir melalui be
 Pada setiap fase ini, orang-orang dengan sudut pandang dan latar belakang yang berbeda meninjau informasi yang tersedia, baik itu kode sumber, BIP, atau hanya ide yang dijelaskan secara bebas. Fase-fase ini biasanya tidak dilakukan dengan cara top-down yang ketat, bahkan beberapa fase dapat terjadi secara bersamaan, dan terkadang Anda bolak-balik di antara fase-fase tersebut. Orang yang berbeda juga dapat memberikan umpan balik selama fase yang berbeda.
 
 
-Salah satu pengulas kode yang paling produktif di Bitcoin Core adalah Jon Atack. Dia menulis [sebuah posting blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) tentang cara meninjau pull request di Bitcoin Core. Dia menekankan bahwa peninjau kode yang baik berfokus pada cara terbaik untuk menambah nilai.
+Salah satu pengulas kode yang paling produktif di Bitcoin Core adalah Jon Atack. Dia menulis [sebuah posting blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) tentang cara meninjau pull request di Bitcoin Core. Dia menekankan bahwa peninjau kode yang baik berfokus pada cara terbaik untuk menambah nilai.
 
 
 > Sebagai pendatang baru, tujuannya adalah untuk mencoba memberikan nilai tambah, dengan keramahan dan kerendahan hati, sambil belajar sebanyak mungkin.
@@ -1468,7 +1468,7 @@ Penskalaan telah menjadi titik fokus diskusi sejak Genesis dari Bitcoin. Kalimat
 > Satoshi Nakamoto menulis:
 >
 
-> "Saya sedang mengerjakan sistem uang elektronik baru yang sepenuhnya bersifat peer-to-peer, tanpa pihak ketiga yang terpercaya.  Makalah ini tersedia di http://www.Bitcoin.org/Bitcoin.pdf"
+> "Saya sedang mengerjakan sistem uang elektronik baru yang sepenuhnya bersifat peer-to-peer, tanpa pihak ketiga yang terpercaya.  Makalah ini tersedia di http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Kami sangat, sangat membutuhkan sistem seperti itu, tetapi cara saya memahami proposal Anda, tampaknya tidak sesuai dengan ukuran yang dibutuhkan.
@@ -1551,7 +1551,7 @@ Poin kedua memiliki efek negatif terhadap desentralisasi Miner, karena biasanya 
 Penskalaan horizontal mengacu pada teknik yang membagi beban kerja di beberapa mesin. Meskipun ini adalah pendekatan penskalaan yang lazim di antara situs web dan basis data populer, hal ini tidak mudah dilakukan di Bitcoin.
 
 
-Banyak orang menyebut pendekatan penskalaan Bitcoin ini sebagai *sharding*. Pada dasarnya, pendekatan ini terdiri dari membiarkan setiap Full node memverifikasi hanya sebagian dari Blockchain. Peter Todd telah menuangkan banyak pemikiran ke dalam konsep sharding. Dia menulis [posting blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yang menjelaskan sharding secara umum, dan juga menyajikan idenya sendiri yang disebut *treechains*. Artikel ini sulit untuk dibaca, tetapi Todd membuat beberapa poin yang cukup mudah dicerna:
+Banyak orang menyebut pendekatan penskalaan Bitcoin ini sebagai *sharding*. Pada dasarnya, pendekatan ini terdiri dari membiarkan setiap Full node memverifikasi hanya sebagian dari Blockchain. Peter Todd telah menuangkan banyak pemikiran ke dalam konsep sharding. Dia menulis [posting blog](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) yang menjelaskan sharding secara umum, dan juga menyajikan idenya sendiri yang disebut *treechains*. Artikel ini sulit untuk dibaca, tetapi Todd membuat beberapa poin yang cukup mudah dicerna:
 
 
 > Dalam sistem yang terpecah-pecah, "pertahanan Full node" tidak berfungsi, setidaknya secara langsung. Intinya adalah tidak semua orang memiliki semua data, jadi Anda harus memutuskan apa yang terjadi jika data tersebut tidak tersedia.
@@ -2101,7 +2101,7 @@ Kesimpulan utama dari hal ini adalah bahwa BIP harus lebih atau kurang *atomik*,
 
 
 
-Sayangnya, kisah BIP66 tidak berakhir di situ. Ketika BIP66 diaktifkan, ternyata cukup berantakan karena beberapa penambang tidak memverifikasi blok yang ingin mereka perpanjang. Hal ini disebut dengan validationless Mining, atau SPV-Mining (seperti dalam Simplified Payment Verification). Sebuah pesan peringatan dikirim ke node Bitcoin dengan tautan ke [halaman web yang menjelaskan masalah ini](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Sayangnya, kisah BIP66 tidak berakhir di situ. Ketika BIP66 diaktifkan, ternyata cukup berantakan karena beberapa penambang tidak memverifikasi blok yang ingin mereka perpanjang. Hal ini disebut dengan validationless Mining, atau SPV-Mining (seperti dalam Simplified Payment Verification). Sebuah pesan peringatan dikirim ke node Bitcoin dengan tautan ke [halaman web yang menjelaskan masalah ini](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Pada pagi hari tanggal 4 Juli 2015, ambang batas 950/1000 (95%) tercapai. Tak lama kemudian, sebuah Miner kecil (bagian dari 5% yang belum diupgrade) menambang blok yang tidak valid - seperti yang sudah diperkirakan sebelumnya. Sayangnya, ternyata sekitar setengah dari tingkat jaringan Hash adalah Mining tanpa memvalidasi blok sepenuhnya (disebut SPV Mining), dan membangun blok baru di atas blok yang tidak valid tersebut.

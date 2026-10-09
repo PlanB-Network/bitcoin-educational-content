@@ -336,9 +336,9 @@ Icogereranyo co kubungabunga gisaba ko umuntu aba maso kandi akagira ingendo nzi
 
 
 
-- Ivyandiko vy'ubuhinga: [inyandiko.cashu.umwanya](https://inyandiko.cashu.umwanya)
+- Ivyandiko vy'ubuhinga: [inyandiko.cashu.umwanya](https://docs.cashu.space)
 - Urutonde rw'amafaranga y'abantu bose: [amafaranga y'amafaranga.com](https://amafaranga y'amafaranga.com)
-- Urubuga rwemewe rw'amasezerano: [amahera.ikibanza](https://amahera.ikibanza)
+- Urubuga rwemewe rw'amasezerano: [amahera.ikibanza](https://cashu.space)
 
 
 

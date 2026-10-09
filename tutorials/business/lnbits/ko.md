@@ -69,7 +69,7 @@ LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇
 
 
 - [LND 가이드](https://docs.lightning.engineering/) | LND 설치하기
-- [LND 구성 예제](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND 설정
+- [LND 구성 예제](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND 설정
 - [CLN 가이드](https://docs.corelightning.org/docs/installation) | CLN 설치하기
 - [LUD](https://github.com/lnurl/luds) LNURL 사양 | [NIP](https://github.com/nostr-protocol/nips) Nostr 사양
 - [Watchtower 실행](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | 매우 중요!
@@ -81,7 +81,7 @@ LNbits를 설치하기 전에 다음 일반 가이드를 읽고 LNbits가 무엇
 
 - [LNbits 시작하기](https://darthcoin.substack.com/p/getting-started-lnbits) | 서브스택 가이드
 - [LNbits로 안전을 위한 할 일](https://youtu.be/i5FQf96e6zg) | 유튜브 동영상
-- [Lightning Network의 프라이빗 뱅크](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | 서브스택 가이드
+- [Lightning Network의 프라이빗 뱅크](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | 서브스택 가이드
 - [친구 및 가족을 위한 관리인 지갑 실행](https://darthcoin.substack.com/p/the-bank-of-lnbits) | 서브스택 가이드
 - [소규모 레스토랑/호텔용 LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | 서브스택 가이드
 - [LNbits 스트리머 코파일럿 사용](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | 서브스택 가이드

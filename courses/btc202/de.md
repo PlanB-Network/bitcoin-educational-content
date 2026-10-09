@@ -81,7 +81,7 @@ Da Bitcoin ein System ist, muss es zwangsläufig auf Computern betrieben werden.
 
 ![Image](assets/fr/047.webp)
 
-Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 Es sind genau diese Nutzer, die die Sicherheit von Bitcoin gewährleisten. Wie Eric Voskuil in seinem Buch *Cryptoeconomics* erklärt, beruht die Sicherheit von Bitcoin weder auf [Blockchain](https://planb.academy/resources/glossary/blockchain), noch auf [Hashing-Power](https://planb.academy/resources/glossary/hashrate), noch auf Validierung, Dezentralisierung, [Kryptographie](https://planb.academy/resources/glossary/cryptography), [Open Source](https://planb.academy/resources/glossary/foss) oder Spieltheorie. Die Sicherheit von Bitcoin hängt in erster Linie von den Individuen ab, die bereit sind, sich einem persönlichen Risiko auszusetzen. Die Dezentralisierung ermöglicht es, dieses Risiko auf eine große Anzahl von Personen zu verteilen, und nur deren Fähigkeit, dem zu widerstehen, gewährleistet die Robustheit des Systems.
 
@@ -110,7 +110,7 @@ Die erste Aufgabe einer Node besteht darin, eine lokale Kopie der Blockchain zu 
 
 > Die einzige Möglichkeit, das Nichtvorhandensein einer Transaktion zu bestätigen, besteht darin, sich aller Transaktionen bewusst zu sein.
 
-Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 Die Blockchain ist daher ein sich entwickelndes Register: Jedes Mal, wenn ein neuer Block von einem [Miner](https://planb.academy/resources/glossary/miner) veröffentlicht wird, prüft die Node dessen Gültigkeit, bevor sie ihn zu seiner eigenen lokalen Kopie der Blockchain hinzufügt. Heute (Juli 2025) umfasst die gesamte Blockchain mehr als 675 GB, und diese Größe wächst weiter, da im Durchschnitt alle 10 Minuten ein neuer Block hinzugefügt wird.
 
@@ -203,7 +203,7 @@ Theoretisch stellt Bitcoin Core nicht das Bitcoin-Protokoll dar, sondern ist nur
 
 ### Derzeitige Verteilung der Implementierungen
 
-Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (einem bekannten Entwickler im Ökosystem) gesammelten Daten ist die Verteilung der Implementierungen auf die öffentlichen Node des Netzwerks wie folgt:
+Nach [im August 2025 von Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (einem bekannten Entwickler im Ökosystem) gesammelten Daten ist die Verteilung der Implementierungen auf die öffentlichen Node des Netzwerks wie folgt:
 
 - **Bitcoin Core**: 87.3% der Nodes
 - **Bitcoin Knots**: 12.5%
@@ -397,7 +397,7 @@ Eine [SPV](https://planb.academy/resources/glossary/spv-node-light-node) Node (*
 
 ![Image](assets/fr/066.webp)
 
-Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Ein Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 Diese Art von Node ist in Bezug auf Speicherplatz und CPU-Nutzung natürlich viel leichter als eine Full Node oder sogar ein Pruned Node. Die SPV Node ist daher gut für kleinere Geräte und intermittierende Verbindungen geeignet. In der Tat wird sie oft direkt in die Wallets integriert, insbesondere in mobile Software wie die Blockstream App.
 
@@ -1920,7 +1920,7 @@ Schließlich kannst du in der Datei `Bitcoin.conf` auch die Zugriffsparameter f�
 
 - `uacomment=<cmt>`: Fügt einen Kommentar zum P2P-User-Agent hinzu.
 
-Wir haben nun die meisten Konfigurationsparameter aufgelistet. Die Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard deiner Node dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf deine Bedürfnisse zugeschnittene Datei erstellen möchtest, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Wir haben nun die meisten Konfigurationsparameter aufgelistet. Die Datei `Bitcoin.conf` stellt somit das eigentliche Dashboard deiner Node dar: Sie definiert die Netzwerkkonfiguration, die Mempool-Verwaltung, die Festplatten- und Speichernutzung, die Indexierung und die allgemeine Verwaltung. Wenn du mehr über diese Datei erfahren und eine auf deine Bedürfnisse zugeschnittene Datei erstellen möchtest, empfehle ich die Verwendung von [Jameson Lopps Generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 Wir sind am Ende dieses BTC 202-Kurses angelangt, der dich nicht nur in die Lage versetzt hat, die Grundlagen zu verstehen, wie Nodes funktionieren und wie sie innerhalb des Systems interagieren, sondern auch deine eigenen einzurichten. Du bist jetzt ein souveräner Bitcoiner, mit deiner eigenen Wallet, der seine Transaktionen über seine eigene Node überträgt. Herzlichen Glückwunsch!
 

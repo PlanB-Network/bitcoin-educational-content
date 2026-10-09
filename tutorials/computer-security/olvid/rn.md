@@ -60,12 +60,12 @@ Olvid iraboneka ku mbuga zose. Ushobora gukura iyo porogaramu mu bubiko bwa poro
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/amaporogarama/ibisobanuro?id=io.olvid.intumwa);
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=io.olvid.messenger);
 - [Iduka ry'amaporogarama](iporogarama.porogarama.com/porogarama/olvid/id1414865219);
 
 
 
-Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://www.olvid.io/gukuraho/).
+Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://www.olvid.io/download/).
 
 
 

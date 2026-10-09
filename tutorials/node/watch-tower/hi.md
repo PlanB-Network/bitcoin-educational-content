@@ -33,7 +33,7 @@ Watchtower कैसे निर्धारित कर सकता है �
 
 
 
-*यह ट्यूटोरियल [आधिकारिक LND दस्तावेज़](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) से लिया गया है। मूल संस्करण में कुछ बदलाव किए गए होंगे।
+*यह ट्यूटोरियल [आधिकारिक LND दस्तावेज़](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) से लिया गया है। मूल संस्करण में कुछ बदलाव किए गए होंगे।
 
 
 

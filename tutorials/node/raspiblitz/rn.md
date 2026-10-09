@@ -21,7 +21,7 @@ RASPIBLITZ - Uko wokoresha umuravyo na Bitcoin Full node n'ikiganiro ca BTC
 ## Inyigisho yo gutegura Raspiblitz ya Parman
 
 
-Raspiblitz ni uburyo bwiza cane bwo gukoresha Bitcoin Node n’ibindi bikoresho bijana. Ndasaba iki n’uruzitiro rwa My Node ku bakoresha benshi (Ugire uruzitiro rubiri rwo gukoresha mu buryo bwiza.) Inyungu imwe ikomeye ni uko uruzitiro rwa Raspiblitz ari “Iporogarama y’Isoko Yuguruye y’Ubuntu”, itandukanye na MyNode canke Umbrel. [Kubera iki ivyo bihambaye? Vlad Costea asigura.] Ushobora kandi gukoresha RaspbiBlitz ukoresheje ubuhinga bwa WiFi aho gukoresha ubuhinga bwa ethernet – ng’aha umurongozi](https://armantheparman.com/wifi-itagira umutwe/) ku bw’ivyo. (Nta buryo mbonye bwo kubikora nkoresheje MyNode).
+Raspiblitz ni uburyo bwiza cane bwo gukoresha Bitcoin Node n’ibindi bikoresho bijana. Ndasaba iki n’uruzitiro rwa My Node ku bakoresha benshi (Ugire uruzitiro rubiri rwo gukoresha mu buryo bwiza.) Inyungu imwe ikomeye ni uko uruzitiro rwa Raspiblitz ari “Iporogarama y’Isoko Yuguruye y’Ubuntu”, itandukanye na MyNode canke Umbrel. [Kubera iki ivyo bihambaye? Vlad Costea asigura.] Ushobora kandi gukoresha RaspbiBlitz ukoresheje ubuhinga bwa WiFi aho gukoresha ubuhinga bwa ethernet – ng’aha umurongozi](https://armantheparman.com/headless-wifi/) ku bw’ivyo. (Nta buryo mbonye bwo kubikora nkoresheje MyNode).
 
 
 Ushobora kugura node iteguye ifise mini screen ifatanye, canke ushobora kuyiyubaka wewe nyene (ntukeneye screen).

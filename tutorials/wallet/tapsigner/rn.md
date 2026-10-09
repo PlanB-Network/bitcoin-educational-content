@@ -43,7 +43,7 @@ Naho Tapsigner ifise aho igarukira, irashobora gushimisha kubera igiciro cayo ki
 ## Ni gute umuntu yogura Tapsigner?
 
 
-Ico gikoresho co gushirako umukono kiraboneka kugira ngo umuntu agure [ku rubuga rwemewe rwa Coinkite](https://ububiko.coinkite.com/ububiko/urutonde/ububiko). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/abagurisha) ku rubuga.
+Ico gikoresho co gushirako umukono kiraboneka kugira ngo umuntu agure [ku rubuga rwemewe rwa Coinkite](https://store.coinkite.com/store/category/tapsigner). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://coinkite.com/resellers) ku rubuga.
 
 
 Uzokenera kandi telefone ihuye n’ivy’itumanaho rya NFC, canke igikoresho ca USB co gusoma amakarata ya NFC ku nkuru isanzwe ya 13.56 MHz.

@@ -73,7 +73,7 @@ Imbere y’uko ukoresha iyo porogarama ku gikoresho cawe, urakeneye kumenya nimb
 
 
 
-Gufungura urubuga rushasha rw’umucukumbuzi maze uje kuri [Igikoresho co kugenzura urufunguzo](https://urufunguzo.io/verify). Nimushire ibiri muri dosiye `.txt` mu kibanza catanzwe, hanyuma mukande kuri buto ya `Verify`.
+Gufungura urubuga rushasha rw’umucukumbuzi maze uje kuri [Igikoresho co kugenzura urufunguzo](https://keybase.io/verify). Nimushire ibiri muri dosiye `.txt` mu kibanza catanzwe, hanyuma mukande kuri buto ya `Verify`.
 
 
 
@@ -109,7 +109,7 @@ Iyo ikosa riboneka muri iyi ntambwe, umukono ntugira akamaro. Muri ivyo, **ntimu
 
 
 
-Keybase yaguhaye hash yemewe y'ikoreshwa. Ubu turaza kugenzura ko hash ya dosiye `.deb`, `.zip` canke `.dmg` wavuyeko ihuye n'iyo yemejwe kuri Keybase. Kugira ngo ubikore, genda kuri [DOSIYE YA HASH KU RUBUGA](https://dosiye-ya-hash.ku rubuga/).
+Keybase yaguhaye hash yemewe y'ikoreshwa. Ubu turaza kugenzura ko hash ya dosiye `.deb`, `.zip` canke `.dmg` wavuyeko ihuye n'iyo yemejwe kuri Keybase. Kugira ngo ubikore, genda kuri [DOSIYE YA HASH KU RUBUGA](https://hash-file.online/).
 
 
 

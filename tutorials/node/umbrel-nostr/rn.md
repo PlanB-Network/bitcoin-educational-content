@@ -137,7 +137,7 @@ Kuri iyi paji, ushireko URL y'umurongo wawe wa Umbrel wakopeye mbere. Ushobora k
 
 
 
-**Ihuza:** noStrudel iraguha uburyo bwinshi bwo guhuza. Mu gihe cacu, tuzohitamwo "Urufunguzo rw'ibanga" maze dushiremwo urufunguzo rwawe rw'ibanga rwa Nostr rwakozwe mbere. Niba utararonka urufunguzo, urashobora gushiramwo urufunguzo rwa [Nostr Connect](https://chromewebstore.google.com/details/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) kugira ngo ureme kandi/canke ubike urufunguzo rwawe rwa Nostr maze gutyo ntumenyeshe n'ibindi bikoresho vya Nostr.
+**Ihuza:** noStrudel iraguha uburyo bwinshi bwo guhuza. Mu gihe cacu, tuzohitamwo "Urufunguzo rw'ibanga" maze dushiremwo urufunguzo rwawe rw'ibanga rwa Nostr rwakozwe mbere. Niba utararonka urufunguzo, urashobora gushiramwo urufunguzo rwa [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) kugira ngo ureme kandi/canke ubike urufunguzo rwawe rwa Nostr maze gutyo ntumenyeshe n'ibindi bikoresho vya Nostr.
 
 
 
@@ -347,7 +347,7 @@ Kubera imvo z'umutekano, Umbrel yawe ishobora gushikwako gusa ku rubuga rwawe rw
 
 
 
-- Ushobora gushikako biciye ku rugero rw’umurizo: **[urugero rw’umurizo](https://tailscale.com/) ni umuti w’urusenga rwa VPN urema uruja n’uruza rw’ibanga hagati y’ibikoresho vyawe na Umbrel. Inyungu: ikora nk’aho woba uri kuri LAN, ariko kuri Internet, ipfutse kandi ata n’ibintu bikomeye bikoreshwa.** Tailscale iha Umbrel yawe IP idahinduka n’izina ry’itongo ry’ibanga, utitaye ku kibanza c’urubuga rwayo **([Tailscale | Umbrel App Iduka](https://porogarama.umutaka.com/porogarama/urugero rw'umurizo#:~:umwandiko=Urugero rw'umurizo%20ni%20zero%20config%20VPN,yasubiwemwo%20kandi%20yizewe%20igereranyo))**. Mu bikorwa, umaze gushiramwo Tailscale kuri Umbrel (kuva muri Umbrel App Store, urutonde rwa *Imihora*) **na** ku bikoresho vyawe (telefone ngendanwa, PC...), uzoshobora gushika kuri Umbrel uciye kuri Address nka `100.x.y.z` (Tailscale nka IP) `umutaka.umurizo123.ts.urusenga`.
+- Ushobora gushikako biciye ku rugero rw’umurizo: **[urugero rw’umurizo](https://tailscale.com/) ni umuti w’urusenga rwa VPN urema uruja n’uruza rw’ibanga hagati y’ibikoresho vyawe na Umbrel. Inyungu: ikora nk’aho woba uri kuri LAN, ariko kuri Internet, ipfutse kandi ata n’ibintu bikomeye bikoreshwa.** Tailscale iha Umbrel yawe IP idahinduka n’izina ry’itongo ry’ibanga, utitaye ku kibanza c’urubuga rwayo **([Tailscale | Umbrel App Iduka](https://apps.umbrel.com/app/tailscale#:~:text=Tailscale%20is%20zero%20config%20VPN,reviewed%20and%20trusted%20standard))**. Mu bikorwa, umaze gushiramwo Tailscale kuri Umbrel (kuva muri Umbrel App Store, urutonde rwa *Imihora*) **na** ku bikoresho vyawe (telefone ngendanwa, PC...), uzoshobora gushika kuri Umbrel uciye kuri Address nka `100.x.y.z` (Tailscale nka IP) `umutaka.umurizo123.ts.urusenga`.
 
 
 ku Nostr_, Tailscale ni ngirakamaro cane: telefone yawe ngendanwa, iyo ifise Tailscale ikora, izoshobora kwifatanya na `ws://umbrel:4848` (bishimira MagicDNS) canke itanguye kwifatanya na IP ya Tailscale n’icuma 4848 kugira ngo ukoreshe iyo relay. Aba clients nka Damus canke Amethyst bazobona Umbrel yawe nk’aho yoba iri ku rubuga rumwe rw’aho hantu. **Impanuro:** Gushoboza **MagicDNS** mu Tailscale kugira ngo ukoreshe izina ry'umushitsi `umbrel` aho gufata mu mutwe IP. Ivyo bituma ushobora gukorana neza n’ivyo ukoresha mbere n’igihe uriko uragenda ([Ivyo ukoresha Nostr | Umbrel App Store](https.

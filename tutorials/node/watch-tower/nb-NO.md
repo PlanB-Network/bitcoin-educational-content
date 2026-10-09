@@ -33,7 +33,7 @@ I denne veiledningen skal vi se på tre måter å bruke en **Watchtower** på:
 
 
 
-*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen
+*Denne veiledningen er hentet fra [den offisielle LND-dokumentasjonen](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Noen endringer kan ha blitt gjort i forhold til den opprinnelige versjonen
 
 
 

@@ -371,7 +371,7 @@ Mu **Abahinguzi**, rema imfunguruzo zawe za bose n'iz'ibanga kugira ngo ukoreshe
 
 
 
-Rondera [inyandiko] yuzuye(https://apidocs.tryspeed.com/intangamarara) kugira ngo ushobore gushiramwo neza Ubucuruzi bwihuta.
+Rondera [inyandiko] yuzuye(https://apidocs.tryspeed.com/reference/introduction) kugira ngo ushobore gushiramwo neza Ubucuruzi bwihuta.
 
 
 

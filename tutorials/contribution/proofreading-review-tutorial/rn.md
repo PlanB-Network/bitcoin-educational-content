@@ -201,7 +201,7 @@ Kugira ngo umenye vyinshi ku bijanye n'ingingo ngenderwako zo gukoresha igihe uk
 
 
 
-- Murakoze cane, PR yanyu yarashitse! Ushobora gukurikirana ingene itera imbere mu gice ca "Ibisabwa vyo gukuraho" ku [bubiko bwa GitHub bwa Plan ₿ Academy](https://github.com/PlanB-Irezo/Bitcoin-ibirimwo-inyigisho/ibikuraho):
+- Murakoze cane, PR yanyu yarashitse! Ushobora gukurikirana ingene itera imbere mu gice ca "Ibisabwa vyo gukuraho" ku [bubiko bwa GitHub bwa Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)

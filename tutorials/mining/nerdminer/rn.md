@@ -17,7 +17,7 @@ Imbere yo guca mu ntambwe zitandukanye, reka dushire ku rutonde ibikoresho biken
 
 
 
-- a [Iyerekanwa rya Lilygo S3](https://lilygo.cc/ibicuruzwa/iyerekanwa-t-s3)
+- a [Iyerekanwa rya Lilygo S3](https://lilygo.cc/products/t-display-s3)
 - a [Ububasha bwa USB-C Supply]
 - a 3D case: nimba ufise icapa rya 3D, urashobora gukuraho [dosiye ya 3D](dosiye y’ibicapo 3D] ahandi ho ushobora kuyigura kuri [Bitronics kuri interineti ububiko](https://bitronics.store/).
 - PC ifise umucukumbuzi wa Chrome
@@ -189,5 +189,5 @@ Aha hariho amahuza nimba ushaka gusoma vyinshi ku bijanye n’ico kibazo:
 
 
 
-- [Umucukuzi_v2 urupapuro rw'umugambi](http://github.com/Ikigo/Umucukuzi_v2)
+- [Umucukuzi_v2 urupapuro rw'umugambi](http://github.com/BitMaker-hub/NerdMiner_v2)
 - [NerdMiner V2 – Bitwater](https://bitwater.ch/nerd-miner-v2/)

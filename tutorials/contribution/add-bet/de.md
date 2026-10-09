@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Fügen Sie an die Basis der URL folgende Informationen hinzu, um den korrekten Link zu erhalten:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Was wir hier tun, ist die zukünftige Verlinkung Ihrer Datei zu antizipieren, sobald Ihr Vorschlag in das Quellrepository des PlanB-Netzwerks eingegliedert wurde.

@@ -2378,10 +2378,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Node logovi
 
 
-Pored [pregleda logova](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vašeg bitcoind kontejnera, možete koristiti i bilo koju od [bitcoin-cli komandi](https://developer.Bitcoin.org/reference/RPC/index.html)
+Pored [pregleda logova](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vašeg bitcoind kontejnera, možete koristiti i bilo koju od [bitcoin-cli komandi](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(otvara se novi prozor)](https://developer.Bitcoin.org/reference/RPC/index.html) da biste dobili informacije sa vašeg Bitcoin čvora. BTCPay uključuje skriptu koja vam omogućava da lako komunicirate sa vašim Bitcoin čvorom.
+[(otvara se novi prozor)](https://developer.bitcoin.org/reference/rpc/index.html) da biste dobili informacije sa vašeg Bitcoin čvora. BTCPay uključuje skriptu koja vam omogućava da lako komunicirate sa vašim Bitcoin čvorom.
 
 
 Unutar btcpayserver-docker fascikle, dobijte informacije o Blockchain-u koristeći svoj čvor:

@@ -177,7 +177,7 @@ Når all informasjon er lagt inn og bekreftet, klikker du på "Opprett opplærin
 
 Du kan nå hoppe over underavsnittet "Uten Python-skriptet mitt" og trinn 3, "Fyll inn YAML-filen", siden skriptet allerede har utført disse handlingene for deg. Gå direkte til trinn 4 og begynn å skrive opplæringen.
 
-Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også lese [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Hvis du vil ha mer informasjon om dette Python-skriptet, kan du også lese [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Uten Python-skriptet mitt
 

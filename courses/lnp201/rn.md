@@ -1447,7 +1447,7 @@ Ku rundi ruhande, ku wugurisha, igikorwa kirarushiriza kugorana. Kugira ngo bash
 
 
 
-- **Gufungura mu mfuruka zitatu**: Hariho ama platforms y'ibice vyipfuza gufungura imihora mu bufatanye, bikaba bituma umwe wese ashobora kwungukira ku mafaranga yinjira n'asohoka. Nk'akarorero, [Umuravyo+](https://umuravyo.plus/) uratanga iyo serivisi. Nimba Alice, Bob, na Suzie bashaka gufungura umurongo ufise Sats 100.000, barashobora kwemeranya kuri iyi nzira kugira ngo Alice yugurure umurongo uja kuri Bob, Bob yerekeza kuri Suzie, na Suzie yerekeza kuri Alice. Muri ubwo buryo, umwe wese afise 100.000 Sats z'amahera asohoka n'100.000 Sats y'amahera yinjira, mu gihe afise gusa 100.000 Sats.
+- **Gufungura mu mfuruka zitatu**: Hariho ama platforms y'ibice vyipfuza gufungura imihora mu bufatanye, bikaba bituma umwe wese ashobora kwungukira ku mafaranga yinjira n'asohoka. Nk'akarorero, [Umuravyo+](https://lightningnetwork.plus/) uratanga iyo serivisi. Nimba Alice, Bob, na Suzie bashaka gufungura umurongo ufise Sats 100.000, barashobora kwemeranya kuri iyi nzira kugira ngo Alice yugurure umurongo uja kuri Bob, Bob yerekeza kuri Suzie, na Suzie yerekeza kuri Alice. Muri ubwo buryo, umwe wese afise 100.000 Sats z'amahera asohoka n'100.000 Sats y'amahera yinjira, mu gihe afise gusa 100.000 Sats.
 
 
 ![LNP201](assets/en/073.webp)

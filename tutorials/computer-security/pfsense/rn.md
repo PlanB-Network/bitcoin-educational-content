@@ -440,4 +440,4 @@ Uruhome rwawe rwa pfSense ubu rurakora, rwiteguye kurinda urubuga rwawe. Kubera 
 
 
 
-Raba inyandiko zizwi ([docs.netgate.com](https://docs.netgate.com/pfsense/ru/latest/)) ubudasiba kugira ngo ubone ibintu bishasha kandi urabe neza ko imiterere yawe iri ku gihe kandi itekanye.
+Raba inyandiko zizwi ([docs.netgate.com](https://docs.netgate.com/pfsense/en/latest/)) ubudasiba kugira ngo ubone ibintu bishasha kandi urabe neza ko imiterere yawe iri ku gihe kandi itekanye.

@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Loggar för noder
 
 
-Förutom att [titta på loggar](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) för din bitcoind-container kan du också använda något av [bitcoin-cli-kommandona](https://developer.Bitcoin.org/reference/RPC/index.html)
+Förutom att [titta på loggar](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) för din bitcoind-container kan du också använda något av [bitcoin-cli-kommandona](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(öppnar nytt fönster)](https://developer.Bitcoin.org/reference/RPC/index.html) för att få information från din Bitcoin-nod. BTCPay innehåller ett skript som gör att du enkelt kan kommunicera med din Bitcoin-nod.
+[(öppnar nytt fönster)](https://developer.bitcoin.org/reference/rpc/index.html) för att få information från din Bitcoin-nod. BTCPay innehåller ett skript som gör att du enkelt kan kommunicera med din Bitcoin-nod.
 
 
 I mappen btcpayserver-docker hämtar du Blockchain-informationen med hjälp av din nod:

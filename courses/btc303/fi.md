@@ -320,7 +320,7 @@ Mitä he tarkoittavat Trustless:llä? Pieter Wuille selittää tämän yleisesti
 Lyhyesti sanalla *Trustless* viitataan Bitcoin-protokollan ominaisuuteen, jonka mukaan se voi loogisesti toimia ilman "luotettavia osapuolia". Tämä on eri asia kuin luottamus, joka sinun on väistämättä luotettava käyttämääsi ohjelmistoon tai laitteistoon. Luottamuksen jälkimmäisestä näkökohdasta puhutaan lisää myöhemmin tässä luvussa.
 
 
-Keskitetyissä järjestelmissä luotamme keskitetyn toimijan maineeseen varmistaaksemme, että se huolehtii turvallisuudesta tai vetäytyy takaisin ongelmien ilmetessä, sekä oikeusjärjestelmään, joka rankaisee mahdollisista rikkomuksista. Nämä luottamusvaatimukset ovat ongelmallisia pseudonyymisissä hajautetuissa järjestelmissä - ei ole mitään mahdollisuutta turvautua oikeussuojakeinoihin, joten luottamusta ei todellakaan voi olla. Satoshi Nakamoto kuvaa tätä ongelmaa [Bitcoin whitepaperin](https://Bitcoin.org/Bitcoin.pdf) johdannossa:
+Keskitetyissä järjestelmissä luotamme keskitetyn toimijan maineeseen varmistaaksemme, että se huolehtii turvallisuudesta tai vetäytyy takaisin ongelmien ilmetessä, sekä oikeusjärjestelmään, joka rankaisee mahdollisista rikkomuksista. Nämä luottamusvaatimukset ovat ongelmallisia pseudonyymisissä hajautetuissa järjestelmissä - ei ole mitään mahdollisuutta turvautua oikeussuojakeinoihin, joten luottamusta ei todellakaan voi olla. Satoshi Nakamoto kuvaa tätä ongelmaa [Bitcoin whitepaperin](https://bitcoin.org/bitcoin.pdf) johdannossa:
 
 
 > Internetissä tapahtuva kaupankäynti on lähes yksinomaan riippuvainen rahoituslaitoksista, jotka toimivat luotettavina kolmansina osapuolina sähköisten maksujen käsittelyssä.
@@ -333,7 +333,7 @@ Vaikuttaa siltä, että meillä ei voi olla luottamukseen perustuvaa hajautettua
 Jos haluat käyttää Bitcoin:tä Trustless:n tavoin, sinun on käytettävä täysin validoivaa Bitcoin-solmua. Vain siten voit varmistaa, että muilta saamasi lohkot noudattavat konsensussääntöjä; esimerkiksi että kolikoiden liikkeeseenlaskuaikataulua noudatetaan ja että Blockchain:ssa ei tapahdu kaksinkertaisia kuluja. Jos et käytä Full node:ää, ulkoistat Bitcoin-lohkojen varmentamisen jollekin toiselle ja luotat siihen, että tämä kertoo sinulle totuuden, mikä tarkoittaa, ettet käytä Bitcoin:tä luotettavasti.
 
 
-David Harding on kirjoittanut [artikkelin Bitcoin.org-sivustolle](https://Bitcoin.org/en/Bitcoin-core/features/validation), jossa hän selittää, miten Full node:n käyttäminen - tai Bitcoin:n käyttäminen ilman luottamusta - todella auttaa sinua:
+David Harding on kirjoittanut [artikkelin Bitcoin.org-sivustolle](https://bitcoin.org/en/bitcoin-core/features/validation), jossa hän selittää, miten Full node:n käyttäminen - tai Bitcoin:n käyttäminen ilman luottamusta - todella auttaa sinua:
 
 
 > Bitcoin-valuutta toimii vain silloin, kun ihmiset hyväksyvät bitcoineja Exchange:ssä muita arvokkaita asioita vastaan. Tämä tarkoittaa, että ihmiset, jotka hyväksyvät bitcoineja, antavat sille arvon ja päättävät, miten Bitcoin:n pitäisi toimia.
@@ -522,7 +522,7 @@ Käyttämällä osoitteita tai julkisia avaimia saavutamme tärkeitä tavoitteit
 Blockchain:n yksityisyys tarkoittaa tietoja, jotka paljastat tehdessäsi liiketoimia Blockchain:ssä. Se koskee kaikkia tapahtumia, sekä lähettämiäsi että vastaanottamiasi.
 
 
-Satoshi Nakamoto pohtii On-Chain:n yksityisyyttä [Bitcoin whitepaperin](https://Bitcoin.org/Bitcoin.pdf) kohdassa 7:
+Satoshi Nakamoto pohtii On-Chain:n yksityisyyttä [Bitcoin whitepaperin](https://bitcoin.org/bitcoin.pdf) kohdassa 7:
 
 
 > Lisäpalomuurina jokaiselle tapahtumalle olisi käytettävä uutta avainparia, jotta niitä ei voida yhdistää yhteiseen omistajaan. Joitakin linkityksiä ei silti voida välttää usean syötteen tapahtumissa, jotka välttämättä paljastavat, että niiden syötteet olivat saman omistajan omistuksessa. Riskinä on, että jos avaimen omistaja paljastuu, linkittäminen voi paljastaa muita samalle omistajalle kuuluvia tapahtumia.
@@ -817,7 +817,7 @@ Päinvastoin, [taaksepäin yhteensopivuus](https://en.wikipedia.org/wiki/Backwar
 Bitcoin-konsensussääntöjen muutoksen sanotaan olevan *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*, jos se on täysin yhteensopiva. Tämä on yleisin tapa päivittää Bitcoin useista syistä, joita käsittelemme myöhemmin tässä luvussa. Jos Bitcoin-konsensussääntöjen muutos on taaksepäin yhteensopiva mutta ei eteenpäin yhteensopiva, sitä kutsutaan *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*:ksi.
 
 
-Tekninen yleiskatsaus Soft-haaroista ja Hard-haaroista on luettavissa [Grokking Bitcoin -kirjan 11. luvussa](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Siinä selitetään nämä termit ja syvennytään myös päivitysmekanismeihin. On suositeltavaa, vaikkakaan ei ehdottoman välttämätöntä, perehtyä tähän ennen kuin jatkat lukemista.
+Tekninen yleiskatsaus Soft-haaroista ja Hard-haaroista on luettavissa [Grokking Bitcoin -kirjan 11. luvussa](https://rosenbaum.se/book/grokking-bitcoin-11.html). Siinä selitetään nämä termit ja syvennytään myös päivitysmekanismeihin. On suositeltavaa, vaikkakaan ei ehdottoman välttämätöntä, perehtyä tähän ennen kuin jatkat lukemista.
 
 
 ### Historialliset parannukset
@@ -1260,7 +1260,7 @@ Monet kehittäjät valitsevat tämän vaihtoehdon toimimalla salanimellä ja yri
 artikkelit ja työni Bitcoin:n ja Lightning Network:n parissa.
 
 
-Hänen tapauksessaan salanimen käytön syytä on arvioitava hänen ansioidensa perusteella eikä sen perusteella, kuka tai ketkä ovat salanimen takana. Mielenkiintoista on, että hän paljasti [CoinDeskin artikkelissa](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), että salanimi luotiin eri syystä.
+Hänen tapauksessaan salanimen käytön syytä on arvioitava hänen ansioidensa perusteella eikä sen perusteella, kuka tai ketkä ovat salanimen takana. Mielenkiintoista on, että hän paljasti [CoinDeskin artikkelissa](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), että salanimi luotiin eri syystä.
 
 
 > Alkuperäinen syyni [salanimen käyttöön] oli yksinkertaisesti se, että olin huolissani [siitä], että tekisin suuren virheen; siksi ZmnSCPxj oli alun perin tarkoitettu kertakäyttöiseksi salanimeksi, josta voitaisiin luopua tällaisessa tapauksessa. Se näyttää kuitenkin saaneen enimmäkseen myönteistä mainetta, joten olen säilyttänyt sen
@@ -1335,7 +1335,7 @@ Matkalla lopulliseen hyväksymiseen idea käy yleensä läpi useita keskustelu- 
 Jokaisessa vaiheessa eri näkökulmista ja taustoista tulevat henkilöt tarkastelevat saatavilla olevaa tietoa, olipa kyseessä sitten lähdekoodi, BIP tai vain väljästi kuvattu idea. Vaiheita ei yleensä suoriteta tiukasti ylhäältä alaspäin, vaan useita vaiheita voi tapahtua samanaikaisesti, ja joskus niiden välillä siirrytään edestakaisin. Eri henkilöt voivat myös antaa palautetta eri vaiheiden aikana.
 
 
-Yksi Bitcoin Coren tuotteliaimmista koodin tarkistajista on Jon Atack. Hän kirjoitti [blogikirjoituksen](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) siitä, miten Bitcoin Coreen voi tarkistaa vetoomuksia. Hän korostaa, että hyvä koodin tarkastaja keskittyy siihen, miten hän voi parhaiten lisätä arvoa.
+Yksi Bitcoin Coren tuotteliaimmista koodin tarkistajista on Jon Atack. Hän kirjoitti [blogikirjoituksen](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) siitä, miten Bitcoin Coreen voi tarkistaa vetoomuksia. Hän korostaa, että hyvä koodin tarkastaja keskittyy siihen, miten hän voi parhaiten lisätä arvoa.
 
 
 > Uutena tulokkaana tavoitteena on pyrkiä tuomaan lisäarvoa ystävällisesti ja nöyrästi ja samalla oppia mahdollisimman paljon.
@@ -1468,7 +1468,7 @@ Skaalaus on ollut keskeinen keskustelunaihe Bitcoin:n Genesis:stä lähtien. Aiv
 > Satoshi Nakamoto kirjoitti:
 >
 
-> "Olen työskennellyt uuden sähköisen käteisrahajärjestelmän parissa, joka on täysin vertaisverkkopohjainen, ilman luotettavaa kolmatta osapuolta.  Julkaisu on saatavilla osoitteessa http://www.Bitcoin.org/Bitcoin.pdf"
+> "Olen työskennellyt uuden sähköisen käteisrahajärjestelmän parissa, joka on täysin vertaisverkkopohjainen, ilman luotettavaa kolmatta osapuolta.  Julkaisu on saatavilla osoitteessa http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Tarvitsemme erittäin, erittäin paljon tällaista järjestelmää, mutta ymmärtääkseni ehdotuksenne ei näytä skaalautuvan tarvittavaan kokoon.
@@ -1551,7 +1551,7 @@ Toisella luetelmakohdalla on kielteinen vaikutus Miner:n hajauttamiseen, sillä 
 Horisontaalisella skaalauksella tarkoitetaan tekniikoita, joilla työmäärä jaetaan useille koneille. Vaikka tämä on yleinen skaalausmenetelmä suosituilla verkkosivustoilla ja tietokannoissa, sitä ei ole helppo toteuttaa Bitcoin:ssä.
 
 
-Monet kutsuvat tätä Bitcoin-skaalausmenetelmää *shardingiksi*. Periaatteessa siinä annetaan kunkin Full node:n tarkistaa vain osa Blockchain:sta. Peter Todd on miettinyt paljon sharding-käsitettä. Hän kirjoitti [blogikirjoituksen](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard), jossa hän selittää shardausta yleisesti ja esittelee myös oman ideansa nimeltä *treechains*. Artikkeli on vaikealukuinen, mutta Todd esittää joitakin kohtia, jotka ovat varsin sulavia:
+Monet kutsuvat tätä Bitcoin-skaalausmenetelmää *shardingiksi*. Periaatteessa siinä annetaan kunkin Full node:n tarkistaa vain osa Blockchain:sta. Peter Todd on miettinyt paljon sharding-käsitettä. Hän kirjoitti [blogikirjoituksen](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard), jossa hän selittää shardausta yleisesti ja esittelee myös oman ideansa nimeltä *treechains*. Artikkeli on vaikealukuinen, mutta Todd esittää joitakin kohtia, jotka ovat varsin sulavia:
 
 
 > Varjostetuissa järjestelmissä "Full node-puolustus" ei toimi, ainakaan suoraan. Kyse on siitä, että kaikilla ei ole kaikkia tietoja, joten on päätettävä, mitä tapahtuu, kun niitä ei ole saatavilla.
@@ -2101,7 +2101,7 @@ Keskeinen johtopäätös tästä on, että rajapintojen tulisi olla enemmän tai
 
 
 
-Valitettavasti BIP66:n tarina ei päättynyt tähän. Kun BIP66 aktivoitiin, se osoittautui melko sotkuiseksi, koska jotkut louhijat eivät vahvistaneet lohkoja, joita he yrittivät laajentaa. Tätä kutsutaan validoimattomaksi Mining:ksi eli SPV-Mining:ksi (kuten Simplified Payment Verification). Bitcoin-solmuille lähetettiin hälytysviesti, jossa oli linkki [verkkosivulle, jossa kuvataan ongelmaa](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Valitettavasti BIP66:n tarina ei päättynyt tähän. Kun BIP66 aktivoitiin, se osoittautui melko sotkuiseksi, koska jotkut louhijat eivät vahvistaneet lohkoja, joita he yrittivät laajentaa. Tätä kutsutaan validoimattomaksi Mining:ksi eli SPV-Mining:ksi (kuten Simplified Payment Verification). Bitcoin-solmuille lähetettiin hälytysviesti, jossa oli linkki [verkkosivulle, jossa kuvataan ongelmaa](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Aikaisin aamulla 4. heinäkuuta 2015 saavutettiin 950/1000 (95 %) kynnysarvo. Pian tämän jälkeen pieni Miner (osa päivittämättömästä 5 prosentin ryhmästä) louhi virheellisen lohkon - mikä oli odotettavissa. Valitettavasti kävi ilmi, että noin puolet verkon Hash-asteesta oli Mining, joka ei validoinut lohkoja täysin (nimeltään SPV Mining), ja rakensi uusia lohkoja tuon virheellisen lohkon päälle.

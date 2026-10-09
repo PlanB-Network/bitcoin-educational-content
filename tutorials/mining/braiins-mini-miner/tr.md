@@ -14,7 +14,7 @@ Mini Miner braiins BMM 100, Mining pool Braiins tarafından yaratılmış bir ü
 
 
 
-Ayrıca, doğrudan [üreticinin sitesi](https://braiins.com/hardware/mini-Miner-bmm-100) adresindeki kılavuzun tamamına göz atarak çok daha önemli bilgiler bulabilirsiniz.
+Ayrıca, doğrudan [üreticinin sitesi](https://braiins.com/hardware/mini-miner-bmm-100) adresindeki kılavuzun tamamına göz atarak çok daha önemli bilgiler bulabilirsiniz.
 
 
 

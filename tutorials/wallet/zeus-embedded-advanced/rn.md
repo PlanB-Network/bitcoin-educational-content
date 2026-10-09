@@ -15,13 +15,13 @@ ZEUS ni porogaramu yo gucunga Bitcoin Wallet n’ama node ifise ubushobozi bwose
 ### None ZEUS ni uwa nde?
 
 
-Ubu ZEUS ni iy’abantu bafise [Lightning Network Daemon (LND)](https://umuravyo.ubuhinga/) canke [umuravyo w’umuravyo w’ishimikiro (CLN)](https://blockstream.com/lightning/) node zo mu nzu / z’ubucuruzi kandi bakazicungera biciye kuri Zeus, bari kure.
+Ubu ZEUS ni iy’abantu bafise [Lightning Network Daemon (LND)](https://lightning.engineering/) canke [umuravyo w’umuravyo w’ishimikiro (CLN)](https://blockstream.com/lightning/) node zo mu nzu / z’ubucuruzi kandi bakazicungera biciye kuri Zeus, bari kure.
 
 
 Abacuruzi bakoresha [BTCPay](https://btcpayserver.org/) canke [LNBits](https://getalby.com/) canke [Alby](https://getalby.com/) (canke iyindi konti yose ya LNDhub) na bo nyene barashobora kwifatanya, gukoresha, no gucunga ama node / konti zabo bavuye kuri ZEUS.
 
 
-[Guhera muri v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS izotangura gufasha abakoresha basanzwe bashaka gusa uburyo bworoshe bwo kwishura Bitcoin vyihuta kandi bihendutse bakoresheje igikoresho cabo c’amaboko mu kugira [L node](https://docs.zeusln.app/urutonde/node-ishizwemwo) n'[Umutanga Serivisi y'Umuravyo (LSP)](https://docs.zeusln.app/lsp/intangamarara).
+[Guhera muri v0.8](https://blog.zeusln.com/zeus-v0-8-0-open-beta/), ZEUS izotangura gufasha abakoresha basanzwe bashaka gusa uburyo bworoshe bwo kwishura Bitcoin vyihuta kandi bihendutse bakoresheje igikoresho cabo c’amaboko mu kugira [L node](https://docs.zeusln.app/category/embedded-lnd) n'[Umutanga Serivisi y'Umuravyo (LSP)](https://docs.zeusln.app/lsp/intro).
 
 
 ### Ivyiza bihambaye vya Zewu:
@@ -72,12 +72,12 @@ Kugira ngo ushobore gukoresha Zeus no gucunga imihora y'umuravyo, amafaranga, am
 
 
 - [Inyandiko za LND - Lightning Network Daemon](inyandiko.umuravyo.ubuhinga/)
-- [CLN - Inyandiko z'umuravyo nyamukuru](https://umuravyo.soma inyandiko.io/urutonde.html)
-- [Igitabu c'umuravyo c'abatanguje](https://bitcoiner.igitabu/umuravyo/) – na Bitcoin Ibibazo n'Inyishu
-- [Uburongozi bw'Imirongo y'Umuravyo](https://www.umurongo w'umuravyo.amakuru/) – na openoms
+- [CLN - Inyandiko z'umuravyo nyamukuru](https://lightning.readthedocs.io/index.html)
+- [Igitabu c'umuravyo c'abatanguje](https://bitcoiner.guide/lightning/) – na Bitcoin Ibibazo n'Inyishu
+- [Uburongozi bw'Imirongo y'Umuravyo](https://www.lightningnode.info/) – na openoms
 - [Ikigereranyo c’ikibuga c’indege ca Lightning Network n’ikibuga c’indege]
-- [Gucungera amafaranga y'umuravyo](https://darthcoin.substack.com/p/gucungera-amafaranga-y'umuravyo)
-- [Ugucungera umuravyo](https://darthcoin.substack.com/p/ugucungera-umuravyo)
+- [Gucungera amafaranga y'umuravyo](https://darthcoin.substack.com/p/managing-lightning-node-liquidity)
+- [Ugucungera umuravyo](https://darthcoin.substack.com/p/lightning-node-maintenance)
 
 
 #### Inyigisho za videwo za BTC Sessions
@@ -99,7 +99,7 @@ Iyi nkuru ndayishikanira abo bose bashasha bakoresha Lightning Network (LN) bipf
 Reka twiyumvire ko umaze guca muri ivyo vyose vy’amasakoshi y’ububiko bwa LN, ariko ntukiri witeguye gutangura gukoresha uruzitiro rwa LN, ushaka gusa guteranya Sats nyinshi kuri LN mu buryo bwo kwizigama maze ugatanga amahera yawe asanzwe kuri G2W.
 
 
-Aha niho haje Zeus, atangura na [verisiyo v0.8.0 yatangajwe ku rubuga rwabo](https://blog.zeusln.com/zeus-v0-8-0/), ariko aratanga ubu urudodo rwa LND rwinjijwe muri porogarama. Kugeza ubu Zeus yari app yo gucunga node kure + amakonti ya LNDhub. Ariko ubu... iyo node iri muri telefone!
+Aha niho haje Zeus, atangura na [verisiyo v0.8.0 yatangajwe ku rubuga rwabo](https://blog.zeusln.com/new-release-zeus-v0-8-0/), ariko aratanga ubu urudodo rwa LND rwinjijwe muri porogarama. Kugeza ubu Zeus yari app yo gucunga node kure + amakonti ya LNDhub. Ariko ubu... iyo node iri muri telefone!
 
 
 ![Image](assets/en/02.webp)
@@ -111,7 +111,7 @@ Aha niho haje Zeus, atangura na [verisiyo v0.8.0 yatangajwe ku rubuga rwabo](htt
 
 - Private LND node** - Ivyo bisigura ko iyi node ITAZOKORA inzira ya bose y'abandi kwishura biciye ku node yawe. Ico gice n’imirongo ntibimenyeshwa (ivy’ibanga, ntibiboneka ku gicapo ca LN ca bose). Kugira ngo uronke no kwishura bizokorwa biciye ku bagenzi bawe ba LSP bahuye. IBUKE: Zeus Embedded Node NTIZOKORA inzira ya bose!
 - Serivisi ya LND igumaho** - umukoresha arashobora gukoresha iki gikoresho no kuguma akoresha serivisi ya LND ubudasiba nk'uko bigenda ku nzira yose ya LN. App ntibwirizwa kuba yuguruye, service igumaho izotuma ubutumwa bwose buguma kuri internet.
-- Ivyunyuro vy’amabuye ya Neutrino** - gukorana n’amabuye bikorwa hakoreshejwe [ibiyunguruzo vy’amabuye n’umurongo wa Neutrino](https://bitcoinops.org/ru/ingingo/iyunguruzo-ry’amabuye/) (nta makuru yatanzwe yerekeye amahera y’abakoresha bacu ya On-Chain). Iciyumviro: ku bijanye n’amahuza ya internet agenda buhoro, iyi block sync ishingiye kuri neutrino, rimwe na rimwe yoshobora kunanirwa. Kugerageza guhindukira ukaja ku server ya neutrino iri hafi vyoshobora gufasha kugarura sync. Iyo ata n’iyi sync node yawe ya LND ntishobora gutangura!
+- Ivyunyuro vy’amabuye ya Neutrino** - gukorana n’amabuye bikorwa hakoreshejwe [ibiyunguruzo vy’amabuye n’umurongo wa Neutrino](https://bitcoinops.org/en/topics/compact-block-filters/) (nta makuru yatanzwe yerekeye amahera y’abakoresha bacu ya On-Chain). Iciyumviro: ku bijanye n’amahuza ya internet agenda buhoro, iyi block sync ishingiye kuri neutrino, rimwe na rimwe yoshobora kunanirwa. Kugerageza guhindukira ukaja ku server ya neutrino iri hafi vyoshobora gufasha kugarura sync. Iyo ata n’iyi sync node yawe ya LND ntishobora gutangura!
 - Imirongo yoroshe ya Taproot** - Iyo bafunze iyo mirongo, abakoresha bararonka amahera make kandi bagahabwa ubuzima bwite bwinshi kuko basa n’abakunda ibindi vyose Taproot bakoresha igihe basuzuma ikirenge cabo ca On-Chain.
 - LSP** - Olympus ni urudodo rushasha rwa LSP rwa Zewu. Abakoresha barashobora gusubira kwakira Sats kuri LN ubwo nyene, batabanje gushinga imirongo ya LN. Gusa uzobwirizwa gukora LN Invoice no kwishura ku yindi LN Wallet yose, n’umurongo wa Zeus 0-conf. Soma ibindi ku vyerekeye Zewu LSP hano. LSP kandi itanga ubuzima bwite bwongerewe ku bakoresha bacu mu kubaha amafagitire azingiwe ahisha imfunguruzo za bose z’ibihimba vyabo ku bariha.
 - Igitabo c'abantu** - ushobora kubika abantu n'amaboko canke ukabizana muri NOSTR, kugira ngo ushobore kohereza amahera aho uhora uja.
@@ -124,7 +124,7 @@ Aha niho haje Zeus, atangura na [verisiyo v0.8.0 yatangajwe ku rubuga rwabo](htt
 ### Uko wokwinjira mu bwato ukoresheje urudodo rwa Zewu LN (LND ishizwemwo)
 
 
-Muri iyi nkuru nzovuga gusa ku bijanye n’uruzitiro rwa LND rwinjijwemwo, ntavuga ku bundi buryo bwo gukoresha iyi porogarama nziza cane (ugucungera uruzitiro rwo kure n’amakonti ya LNDhub). Ku bindi bwoko bw’amahuza, usabwe kuraba [Urupapuro rw’Inyandiko za Zewu](https://docs.zeusln.app/category/gutangura), ivyo birasiguwe neza cane kandi ntibikenewe kwandika uburongozi bwihariye.
+Muri iyi nkuru nzovuga gusa ku bijanye n’uruzitiro rwa LND rwinjijwemwo, ntavuga ku bundi buryo bwo gukoresha iyi porogarama nziza cane (ugucungera uruzitiro rwo kure n’amakonti ya LNDhub). Ku bindi bwoko bw’amahuza, usabwe kuraba [Urupapuro rw’Inyandiko za Zewu](https://docs.zeusln.app/category/getting-started), ivyo birasiguwe neza cane kandi ntibikenewe kwandika uburongozi bwihariye.
 
 
 #### INTAMBWE YA 1 - GUTEGURA
@@ -138,7 +138,7 @@ Kubera ko Zewu ari urudodo rwuzuye rwa LND nzogira impanuro zimwe zimwe z’inta
 - Koresha nibura Android 11 nk’OS y’amatelefone ngendanwa kandi uyihindure uko bishoboka kwose. Ku bijanye na iOS nyene, gerageza gukoresha verisiyo ya OS iri hejuru cane.
 - Uzokenera nibura 1GB y’umwanya kuri disk kugira ngo ubike amakuru. Mu gihe bishobora gukura cane, ariko hariho uburyo bwo gukoranya urutonde rw'amakuru ku rugero rwa MBs.
 - NTA nkenerwa yo gukoresha Zeus na Tor canke Orbot. Ndabinginze ntimugoranye ibintu kuruta uko bikenewe. Tor muri iki gihe ntizoguha ubuzima bwite bwinshi ahubwo izotuma ibintu bikomera cane ku bijanye n’ugukorana kw’intango. Kandi urabe neza VPNs uriko urakoresha kandi usuzume latency y’ihuriro ryerekeye ku ma server ya neutrino. Zirikana, Neutrino block filter ntivuza canke ngo ikurikirane akaranga k’igikoresho cawe, ni amabuye gusa. Ivyo bikoresho vya LN navyo biri inyuma ya LSP ifise imihora y’ibanga rero amakuru make cane arasohoka, nta mpamvu yo guhagarika umutima ku bijanye n’ubuzima bwite.
-- Ugire ukwihangana ku bijanye n’ugukorana kw’intango, bishobora gutwara iminota myinshi. Gerageza gukorana na internet y’umurongo wagutse ufise latency nziza. Iyo ukoresheje node yawe bwite ya Bitcoin, [ushobora gukoresha umurimo wa neutrino](https://docs.umuravyo.ubuhinga/ibikoresho-vy’uruja n’uruza rw’umuyagankuba/LND/gushoboza-uburyo-bw’umuyagankuba-mu-Bitcoin-core) maze ugahuza Zeus yawe n’umurongo wawe bwite, mbere ukoresheje maxipe LAN yo mu mutima.
+- Ugire ukwihangana ku bijanye n’ugukorana kw’intango, bishobora gutwara iminota myinshi. Gerageza gukorana na internet y’umurongo wagutse ufise latency nziza. Iyo ukoresheje node yawe bwite ya Bitcoin, [ushobora gukoresha umurimo wa neutrino](https://docs.lightning.engineering/lightning-network-tools/lnd/enable-neutrino-mode-in-bitcoin-core) maze ugahuza Zeus yawe n’umurongo wawe bwite, mbere ukoresheje maxipe LAN yo mu mutima.
 
 
 Uhejeje gushinga ubwoko bw’ihuriro “Embedded node” app izotangura gukorana igihe gito. Rindira wihanganye kugira ngo urangize ico gice, hanyuma winjire kuri paji nyamukuru y’Ivyagezwe.
@@ -167,7 +167,7 @@ Aha niho hari ibikorwa bibiri vya LSP:
 - _Saba imirongo imbere y'igihe_ - ​​ushobora kugura imirongo yinjira muri Olympus LSP ataco uhinduye muri app ufise amahitamwo menshi n'amahera (y'injira n'isohoka).
 
 
-LSP ifasha guhuza abakoresha na Lightning Network mu gufungura inzira zo kwishura ku nzira zabo. [Soma ibindi ku vyerekeye LSP hano](https://ubuhinga-bw’umuyaga/gushushanya-lsps-mu-butunzi-bw’umuravyo-832b45871992). ZEUS ifise LSP nshasha yinjijwe muri yo yitwa [OLYMPUS na ZEUS](https://Mempool.ikibanza/umuravyo/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d749748930) ni uwushobora gukoresha bose. n'urudodo rushasha rwinjijwe.
+LSP ifasha guhuza abakoresha na Lightning Network mu gufungura inzira zo kwishura ku nzira zabo. [Soma ibindi ku vyerekeye LSP hano](https://ubuhinga-bw’umuyaga/gushushanya-lsps-mu-butunzi-bw’umuravyo-832b45871992). ZEUS ifise LSP nshasha yinjijwe muri yo yitwa [OLYMPUS na ZEUS](https://mempool.space/lightning/node/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581) ni uwushobora gukoresha bose. n'urudodo rushasha rwinjijwe.
 
 
 Muri iki gice, ku buryo busanzwe ni LSP ya Olympus (https://flow.zeuslsp.com), ariko vuba ushobora no gushinga iyindi LSP 0conf ishigikira iyi porotokole.
@@ -251,7 +251,7 @@ Aha uzosanga amasetingi y'ishimikiro yo kwongerako ubuzima bwite ukoresheje app 
 - Block explorer kugira ngo ufungure ibisobanuro vya tx (Mempool.ikibanza, amakuru canke amakuru y'umuntu ku giti ciwe)
 - Soma urupapuro - gufungura/kuzima nimba ushaka ko Zeus asoma urupapuro rw'ibikoresho vyawe
 - Uburyo bwo kwihisha - gufungura/gufunga niba ushaka guhisha amakuru yihariye y'agaciro muri porogaramu yawe ya Zeus. Ni uburyo bwiza iyo ukora ama demo canke amafoto.
-- Iciyumviro c'amafaranga ya Mempool - fungura iyi nzira niba ushaka gukoresha ingero z'amafaranga zisabwa kuva kuri [Mempool.ikibanza](https://Mempool.ikibanza/)
+- Iciyumviro c'amafaranga ya Mempool - fungura iyi nzira niba ushaka gukoresha ingero z'amafaranga zisabwa kuva kuri [Mempool.ikibanza](https://mempool.space/)
 
 
 **6 - Umutekano**
@@ -311,7 +311,7 @@ Igikoresho gishizwe muri ZEUS gishingiye kuri LND kandi gikoresha [uburyo bwa se
 Uburyo bw’urufunguzo rwa aezeed bukwiye guhura n’ibi bikoresho vy’amafaranga bigendagenda: Blixt, BlueWallet na Breez. Zirikana ko seed yonyene itazoba ihagije kugira ngo ubone amafaranga yawe yose nimba ufise imirongo y'ugufunga yuguruye canke irindiriye !
 
 
-Menya vyinshi ku bijanye n’uburyo bwo gusubiza inyuma no gusubizaho kuri [urupapuro rwa Zeus Docs](https://docs.zeusln.app/ku-bakoresha/uruzitiro-rushizwemwo/gusubizaho-no-gusubizaho).
+Menya vyinshi ku bijanye n’uburyo bwo gusubiza inyuma no gusubizaho kuri [urupapuro rwa Zeus Docs](https://docs.zeusln.app/for-users/local-wallets/embedded-lnd/backup-and-recovery).
 
 
 IMPANURO Z'UBUSHOBOZI: Iyo uzigamye seed yawe, ndagusavye ubike kandi node pubkey! Rimwe na rimwe ni vyiza ko uyigira hafi, hamwe na seed yawe na SCB (Static Channels Backup) mu gihe woba ukeneye kugenzura ko igarutse.
@@ -323,7 +323,7 @@ SCB ni ngombwa gusa iyo ufise imirongo ya LN yuguruye. Mu gihe woba ufise amaher
 Niwabona ko inyuma y’igihe kirekire n’ubu itagaragaza amateka ya kera txs, genda kuri Embedded node - Peers maze uzimye uburyo bwo gukoresha urutonde rw’abagenzi batowe (ku buryo busanzwe ni btcd.lnolymp.us). Ivyo bizotuma umuntu asubira gutangura kandi azohuza n’umurongo wa mbere w’ivyuma bita neutrino ufise inyishu nziza y’igihe. Canke ukoreshe bellow bavuze abandi bagenzi ba neutrino bazwi cane.
 
 
-Niba ushaka kubona ubundi buryo bwo gusubizaho urudodo rwa LND, [ndagusavye usome uburongozi bwanje bwa kera](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-ru.html), aho ushobora gusanga izindi nzira zo kwinjiza muri LND. uburyo.
+Niba ushaka kubona ubundi buryo bwo gusubizaho urudodo rwa LND, [ndagusavye usome uburongozi bwanje bwa kera](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), aho ushobora gusanga izindi nzira zo kwinjiza muri LND. uburyo.
 
 
 **C - Urudodo rwinjijwe**
@@ -357,7 +357,7 @@ Muri iki gice tuzosangamwo ibikoresho vy'ishimikiro vyo gucunga urudodo rwinjijw
 
 
 
- - _Uburyo bwo kurondera inzira_ - bimodal canke apriori, uburyo bwo kurondera inzira nziza y'amahera yawe ya LN no gusubiramwo amakuru y'inzira ya kera. Turagusavye usome izi nzira nziza cane zijanye n’ugushaka inzira: [Ukurondera inzira](https://docs.umuravyo.ubuhinga/ibikoresho-vy’uruja n’uruza rw’umuravyo/LND/kurondera inzira) - na Docs Ubuhinga bw’umuravyo na [LN Kwishura Inzira](https://voltage.cloud/blog/umurongo-w'umuravyo-faq/gutahura-ugushaka-inzira-y'ukwishura-hagati-y'ibihimba-ku-muravyo-umurongo/) - na Voltage
+ - _Uburyo bwo kurondera inzira_ - bimodal canke apriori, uburyo bwo kurondera inzira nziza y'amahera yawe ya LN no gusubiramwo amakuru y'inzira ya kera. Turagusavye usome izi nzira nziza cane zijanye n’ugushaka inzira: [Ukurondera inzira](https://docs.lightning.engineering/lightning-network-tools/lnd/pathfinding) - na Docs Ubuhinga bw’umuravyo na [LN Kwishura Inzira](https://voltage.cloud/blog/understanding-payment-pathfinding-between-nodes-on-lightning-network) - na Voltage
  - _Persistent LND_ - fungura ubu buryo niba ushaka ko serivisi ya LND ikora ubudasiba inyuma kandi ugumize urudodo rwawe kuri interineti 24/7. Ivyo ni ngirakamaro cane iyo ukoresheje Zeus nka PoS mw'iduka ritoyi canke uriko uraronka impanuro nyinshi za LN ku LN Address.
  - _Rescan wallet_ - iyi nzira izotuma usubira gupima ama txs yose y'uruzitiro rwa Wallet yawe. Ikoreshe gusa mu gihe woba ubuze txs zimwe zimwe muri Wallet yawe. Igikorwa co gusubira gupima kizotwara umwanya, iminota myinshi rero wihangane kandi wama usuzuma ivyanditswe kugira ngo ubone ibindi bisobanuro ku bijanye n’iterambere.
  - _Compact Database_ - iyi nzira ni ngirakamaro cane nimba porogaramu yawe ya Zeus ifata umwanya munini ku gikoresho (raba amakuru y'iporogarama mu mitunganyirize y'igikoresho cawe). Niba ufise igikorwa kinini ukoresheje Zeus, nogusaba gukora iyo compaction kenshi. Ubonye ko ufise amakuru arenga 1-1.5GB ya Zeus app, kora compaction. Bizosubira gutangura kandi bifate umwanya, rero wihangane.
@@ -489,7 +489,7 @@ Kubera ko ari vyo, Zewu izokoresha LSP yiwe bwite, Olympus. Ariko mu nyuma urash
 Mu gukora gusa Invoice kuri Zeus yawe (ushireko umubare hanyuma ukande kuri buto ya “saba”), uzoshobora kwakira izo Sats ubwo nyene.
 
 
-Igitabo ca Invoice wewe generate kizoba [kizingiwe](https://docs.zeusln.app/lsp/zizingiwe-amafagitire) kandi uzoshikirizwa amafaranga ajanye n’ico gikorwa iyo arishwe. Iyi Invoice izingiwe irimwo ivyiyumviro vy’inzira ija ku nzira yawe ya Zeus, kugira ngo LSP ishobore kuronka nzira yawe nshasha maze ifungure umuhora n’amahera mashasha uriko urabika.
+Igitabo ca Invoice wewe generate kizoba [kizingiwe](https://docs.zeusln.app/lsp/services/flow) kandi uzoshikirizwa amafaranga ajanye n’ico gikorwa iyo arishwe. Iyi Invoice izingiwe irimwo ivyiyumviro vy’inzira ija ku nzira yawe ya Zeus, kugira ngo LSP ishobore kuronka nzira yawe nshasha maze ifungure umuhora n’amahera mashasha uriko urabika.
 
 
 ![Image](assets/en/06.webp)
@@ -552,10 +552,10 @@ Ukoresheje ubu buryo ushobora gufungura imirongo ija ku yindi nzira yose ya LN, 
 Hejuru hari akarorero ko kwishura LN Invoice ukoresheje MPP. Nk’uko ushobora kubibona ahantu hasi ku rubuga ufise “settings” kandi uriko urafungura urupapuro ruja hasi rufise ibindi bisobanuro vy’amahera ugiye kwishura. Muri iyo skrini, iyo ufise nibura imirongo 2 yuguruye, ikintu ca MPP kizoba ON ku buryo busanzwe. Kandi urashobora gukoresha AMP (inzira nyinshi z’atome) ugashiraho ibice vyihariye ushaka. Ico ni ikintu gikomeye cane!
 
 
-Ku bijanye n'umurongo w'ibanga nka Zeus, nogusaba ko wogira imirongo myiza 2-3 (max. 4-5), ufise LSPs nziza n'amahera meza yo kwishura ivyo ukeneye vyose kugira ngo wishyure canke kwakire Sats ku LN. [Raba izindi mpanuro z’amahera y’uruzitiro rwa LN muri iyi nkuru](/uruzitiro/gucungera-umuravyo-uruzitiro-ruzitiro-en.html). Kandi aha hari uwundi [uburongozi rusangi ku bijanye n’ubutunzi bwa LN](https://Bitcoin.umugambi/uburongozi/ingene-bikora/ubushobozi bwo gutanga amahera/) buvuye mu mugwi w’umugambi wa Bitcoin.
+Ku bijanye n'umurongo w'ibanga nka Zeus, nogusaba ko wogira imirongo myiza 2-3 (max. 4-5), ufise LSPs nziza n'amahera meza yo kwishura ivyo ukeneye vyose kugira ngo wishyure canke kwakire Sats ku LN. [Raba izindi mpanuro z’amahera y’uruzitiro rwa LN muri iyi nkuru](/uruzitiro/gucungera-umuravyo-uruzitiro-ruzitiro-en.html). Kandi aha hari uwundi [uburongozi rusangi ku bijanye n’ubutunzi bwa LN](https://bitcoin.design/guide/how-it-works/liquidity/) buvuye mu mugwi w’umugambi wa Bitcoin.
 
 
-Guhitamwo urunganwe rwiza, ndazi ko atari igikorwa coroshe, mbere no ku bakoresha bazi utuntu n’utundi. [Rero nzoguha amahitamwo yo gutangura](https://github.com/ZeusLN/zeus/ibiganiro/2265), izo ni ama node y’urunganwe nagerageza jewe ubwanje nkoresheje Zeus (nagerageje gufatanya gusa n’ama node ya LND kugira ngo ntabe n’ibibazo vyo kudahuza)
+Guhitamwo urunganwe rwiza, ndazi ko atari igikorwa coroshe, mbere no ku bakoresha bazi utuntu n’utundi. [Rero nzoguha amahitamwo yo gutangura](https://github.com/ZeusLN/zeus/discussions/2265), izo ni ama node y’urunganwe nagerageza jewe ubwanje nkoresheje Zeus (nagerageje gufatanya gusa n’ama node ya LND kugira ngo ntabe n’ibibazo vyo kudahuza)
 
 
 Aha niho hari urutonde rw’abagenzi ba Zewu. Niba uzi ivyiza, urashobora kubishira kuri urwo rutonde.
@@ -574,7 +574,7 @@ ICIBUTSA:
 
 
 - Zeus yinjijwe node ntikoresha igikorwa ca Tor ! Rero ndabinginze ntimugerageze gufungura imirongo ifise ama node ari munsi ya Tor! Uriko urigirira nabi cane kuruta kwongerako ubuzima bwite. Tor for LN ntitanga ubuzima bwite bwinshi ahubwo yongerako ingorane nyinshi.
-- uhitemwo neza abo mu runganwe rwawe, vyiza uba LSPs nziza, routing nodes nziza, atari random pleb nodes zishobora gufunga imihora yawe kandi zidashobora gutanga liquidity nziza. [Aha nanditse uburongozi bwihariye](https://darth-Coin.github.io/nodes/gucunga-umuravyo-node-ubutunzi-en.html) ku bijanye n’ubutunzi n’akarorero k’uturongo.
+- uhitemwo neza abo mu runganwe rwawe, vyiza uba LSPs nziza, routing nodes nziza, atari random pleb nodes zishobora gufunga imihora yawe kandi zidashobora gutanga liquidity nziza. [Aha nanditse uburongozi bwihariye](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) ku bijanye n’ubutunzi n’akarorero k’uturongo.
 
 
 Niwafyonda ku buto “Fungurira umurongo kuri Olympus” uzoheza ukazuza ahantu hakenewe kugira ngo ufungure umurongo kuri [OLYMPUS ku . ZEUS](Mempool.ikirere/umuravyo/urudodo/031b301307574bbe9b9ac7b79cbe1700e31e544513eae0b5d7497483083f99e581).
@@ -696,7 +696,7 @@ Niba ushaka kwishura iyo Invoice (circular rebalancing), iyo uyihevye ukoresheje
 Keysend ni ikintu ca LN gifatwa nk’ikidahambaye cane kandi abakoresha bakwiye kugikoresha kenshi.
 
 
-[Keysend](https://docs.lightning.engineering/ibikoresho-vy'urubuga-gW-214/LND/kohereza-ubutumwa-na-Keysend) iremesha abakoresha muri Lightning Network kohereza amahera ku bandi , ataco baciye ku rufunguzo rwabo rwa bose, igihe cose node yabo ifise umurongo wa bose kandi G31. Keysend ntisaba uwuyihembwa gutanga Invoice.
+[Keysend](https://docs.lightning.engineering/lightning-network-tools/lnd/send-messages-with-keysend) iremesha abakoresha muri Lightning Network kohereza amahera ku bandi , ataco baciye ku rufunguzo rwabo rwa bose, igihe cose node yabo ifise umurongo wa bose kandi G31. Keysend ntisaba uwuyihembwa gutanga Invoice.
 
 
 None ivyo wobikora gute na Zewu?
@@ -720,7 +720,7 @@ Niba udafise umurongo utaziguye n’uwo mugenzi wawe, rero ukwishyura kwa Keysen
 ## Insozero
 
 
-Ndabagira inama yo gusoma uburongozi bwo gukurikirana [Ikoreshwa ry’ivya Zewu ry’imbere](https://darth-Coin.github.io/wallets/zeus-node-ikoreshwa-ry’iterambere-en.html) rifise amabwirizwa menshi n’ingene vyokoreshwa.
+Ndabagira inama yo gusoma uburongozi bwo gukurikirana [Ikoreshwa ry’ivya Zewu ry’imbere](https://darth-coin.github.io/wallets/zeus-node-advanced-usage-en.html) rifise amabwirizwa menshi n’ingene vyokoreshwa.
 
 
 Kandi... ni vyo! Kuva ubu ukoresha gusa Zeus Node nk’iyisanzwe kuri telefone yawe ngendanwa. UI ni nziza cane kandi yoroshe gukoresha, irashoboka ku bwoko bwose bw’abakoresha, sinibaza ko ntegerezwa kwinjira mu bindi bisobanuro ku buryo bwo gutanga no kwakira amahera.

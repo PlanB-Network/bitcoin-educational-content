@@ -49,7 +49,7 @@ Ledger Flex 配備 CC EAL6+ 認證的「安全元件」晶片，提供您進階�
 ## 如何購買 Ledger Flex？
 
 
-Ledger Flex 可在 [官方網站](https://shop.Ledger.com/pages/Ledger-flex) 購買。若要在實體商店購買，您也可以在 Ledger 網站上找到 [認證經銷商名單](https://www.Ledger.com/reseller)。
+Ledger Flex 可在 [官方網站](https://shop.ledger.com/pages/ledger-flex) 購買。若要在實體商店購買，您也可以在 Ledger 網站上找到 [認證經銷商名單](https://www.Ledger.com/reseller)。
 
 
 ## 先決條件

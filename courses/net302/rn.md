@@ -1010,7 +1010,7 @@ Mu mihora ya none, aderesi IP ifatanywa n'ibindi bimenyetso:
 Kugira ngo ushobore guhangana n'ubukene bwa IPv4 Address no kwongerako Layer y'umutekano, imihora akenshi ikoresha ubuhinduzi bwa Address (_NAT_). NAT iremeza ko ibikoresho vyinshi vy’abantu ku giti cabo bishobora gusangira IP imwe ya bose Address igihe bikoresha Internet.
 
 
-**Iciyumviro**: Ibikoresho vyo kuri interineti n’ivyo mu OS vyubatswemwo, nk’igiharuro ca [Grenoble CRIC](http://cric.grenoble.cnrs.fr/Administrators/Outils/CalculMasque/), bituma uguharura kw’urubuga n’uguharura kw’amabara vyoroha cane.
+**Iciyumviro**: Ibikoresho vyo kuri interineti n’ivyo mu OS vyubatswemwo, nk’igiharuro ca [Grenoble CRIC](http://cric.grenoble.cnrs.fr/Administrateurs/Outils/CalculMasque/), bituma uguharura kw’urubuga n’uguharura kw’amabara vyoroha cane.
 
 Ivyo bikoresho bifasha gutegura neza ugucapura urubuga.
 

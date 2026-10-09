@@ -17,7 +17,7 @@ Bull Bitcoin yiyemeje gutanga ubuhinga buboneye ata mahera yihishije. Zirikana k
 ## Iyandikishe kuri Bull Bitcoin.
 
 
-Genda kuri [paje y’ukwiyandikisha] ya Bull Bitcoin(https://amakonti.bullbitcoin.com/ru/ukwiyandikisha) kugira ngo ukore konti nshasha. Injira muri e-mail yawe Address maze uhitemwo ijambobanga rikomeye. Hanyuma ukande "*Iyandikishe*".
+Genda kuri [paje y’ukwiyandikisha] ya Bull Bitcoin(https://accounts.bullbitcoin.com/en/registration) kugira ngo ukore konti nshasha. Injira muri e-mail yawe Address maze uhitemwo ijambobanga rikomeye. Hanyuma ukande "*Iyandikishe*".
 
 
 ![BULL](assets/fr/01.webp)

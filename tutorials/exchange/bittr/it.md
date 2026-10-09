@@ -21,7 +21,7 @@ Vediamo come è facile iniziare a impilare Sats con Bittr.
 ## Come iniziare con Bittr
 
 
-- Sul web o sul cellulare andare su [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e cliccare su "Acquista Bitcoin"
+- Sul web o sul cellulare andare su [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e cliccare su "Acquista Bitcoin"
 
 
 

@@ -35,7 +35,7 @@ description: Blockstream Uygulaması nasıl yapılandırılır ve Liquid Network
 
 
 
-**Liquid**, **[Blockstream](https://blockstream.com/Liquid/)** tarafından geliştirilen, ana Blockchain Bitcoin'e bağlı kalırken daha hızlı, daha fazla Confidential Transactions ve gelişmiş işlevsellik sunmak için tasarlanmış bir **Sidechain** Bitcoin'dir.
+**Liquid**, **[Blockstream](https://blockstream.com/liquid/)** tarafından geliştirilen, ana Blockchain Bitcoin'e bağlı kalırken daha hızlı, daha fazla Confidential Transactions ve gelişmiş işlevsellik sunmak için tasarlanmış bir **Sidechain** Bitcoin'dir.
 
 
 

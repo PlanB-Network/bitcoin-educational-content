@@ -1757,9 +1757,9 @@ bitcoin-lightning-cli.sh getlog
 
 #### Bitcoin 節點日誌
 
-除了 bitcoind 容器的 [查看日誌](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您也可以使用任何 [bitcoin-cli 指令](https://developer.Bitcoin.org/reference/RPC/index.html)
+除了 bitcoind 容器的 [查看日誌](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)，您也可以使用任何 [bitcoin-cli 指令](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(開啟新視窗)](https://developer.Bitcoin.org/reference/RPC/index.html)從您的Bitcoin節點獲取資訊。BTCPay包括一個腳本，讓您可以輕鬆地與您的Bitcoin節點通信。
+[(開啟新視窗)](https://developer.bitcoin.org/reference/rpc/index.html)從您的Bitcoin節點獲取資訊。BTCPay包括一個腳本，讓您可以輕鬆地與您的Bitcoin節點通信。
 
 在 btcpayserver-docker 資料夾內，使用您的節點取得 Blockchain 資訊：
 

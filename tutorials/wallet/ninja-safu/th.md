@@ -36,7 +36,7 @@ description: บันทึก seed ของคุณด้วยวิธี 
 
 
 
-- ความน่าเชื่อถือ**: ทดสอบมาตั้งแต่ปี 2020 วิธีการนี้ได้รับการทดลองและทดสอบโดยผู้เชี่ยวชาญด้านความปลอดภัยเช่น [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) ซึ่งได้ทำการทดสอบความเครียดอย่างเข้มงวด (ความร้อนสูงสุด การกัดกร่อน ความดันทางกล)
+- ความน่าเชื่อถือ**: ทดสอบมาตั้งแต่ปี 2020 วิธีการนี้ได้รับการทดลองและทดสอบโดยผู้เชี่ยวชาญด้านความปลอดภัยเช่น [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) ซึ่งได้ทำการทดสอบความเครียดอย่างเข้มงวด (ความร้อนสูงสุด การกัดกร่อน ความดันทางกล)
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [รายงาน](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) เกี่ยวกับวิธี Ninja SAFU
+- [รายงาน](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) เกี่ยวกับวิธี Ninja SAFU
 
 
 
 
 
-- ตารางเปรียบเทียบ [complete](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- ตารางเปรียบเทียบ [complete](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

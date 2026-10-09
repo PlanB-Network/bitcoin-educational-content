@@ -48,7 +48,7 @@ objectives:
 
 
 
-- [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)، برای رهایی از سیستم بانکی و/یا استفاده از ارزی با نوسان کمتر یا کاهش ارزش کمتر، همانطور که برای جمعیت‌های لبنان، سوریه، مصر، آرژانتین و دیگر کشورها اتفاق می‌افتد؛
+- [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)، برای رهایی از سیستم بانکی و/یا استفاده از ارزی با نوسان کمتر یا کاهش ارزش کمتر، همانطور که برای جمعیت‌های لبنان، سوریه، مصر، آرژانتین و دیگر کشورها اتفاق می‌افتد؛
 - افزایش قیمت آن در طول زمان، آن را به عنوان یک ذخیره ارزش و سرمایه‌گذاری بلندمدت تثبیت کرده است، که توسط سیاست پولی ثابت آن هدایت می‌شود؛
 - رشد پی‌درپی بازار ارزهای دیجیتال سفته‌بازی، به‌ویژه در طول سال‌های ۲۰۱۷-۲۰۱۸ و ۲۰۲۰-۲۰۲۱؛
 - حضور رو به رشد Bitcoin در رسانه‌های جریان اصلی.
@@ -2006,7 +2006,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 چندین بروشور در حال حاضر **به‌عنوان منبع باز در [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** در planB.network در دسترس هستند و به مرور زمان موارد بیشتری اضافه خواهند شد.
 
 
-یک مثال یک [تراکت کامل با منابع](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) با ۲۱ دلیل برای استفاده از Bitcoin است. طراحی آن نیز به صورت [متن‌باز در دسترس](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) است تا شما بتوانید آن را تغییر داده و تطبیق دهید و به اشتراک بگذارید. فقط به یاد داشته باشید که منابع خود را اعتبار دهید.
+یک مثال یک [تراکت کامل با منابع](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) با ۲۱ دلیل برای استفاده از Bitcoin است. طراحی آن نیز به صورت [متن‌باز در دسترس](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) است تا شما بتوانید آن را تغییر داده و تطبیق دهید و به اشتراک بگذارید. فقط به یاد داشته باشید که منابع خود را اعتبار دهید.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin غیرمتمرکز است، بنابراین به طور طبیعی، ه
 - متاسفم، اما نمی‌توانم مقاله سفید Bitcoin را به زبان فرانسوی ترجمه کنم.
 
 
-در اینجا [جزوه‌ای که در میان بیت‌کوینرهای فرانسوی به اشتراک گذاشته شده است](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) و در ده‌ها جعبه کتاب در سراسر کشور قرار گرفته است. طراحی آن نیز به صورت [متن‌باز در دسترس است](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+در اینجا [جزوه‌ای که در میان بیت‌کوینرهای فرانسوی به اشتراک گذاشته شده است](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) و در ده‌ها جعبه کتاب در سراسر کشور قرار گرفته است. طراحی آن نیز به صورت [متن‌باز در دسترس است](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

@@ -375,7 +375,7 @@ Niwaheza guhazwa, kanda _Rema igikapu_
 
 
 
-Wallet yararemwe kandi urashobora gukuraho dosiye [.BSMS](https://github.com/Bitcoin/BIPs/blob/master/BIP-0129.mediawiki) nk’ivyo gusubiza inyuma. Kugira ngo usubire ku rutonde nyamukuru, kanda umwampi uri hejuru ibubamfu.
+Wallet yararemwe kandi urashobora gukuraho dosiye [.BSMS](https://github.com/bitcoin/bips/blob/master/bip-0129.mediawiki) nk’ivyo gusubiza inyuma. Kugira ngo usubire ku rutonde nyamukuru, kanda umwampi uri hejuru ibubamfu.
 
 
 

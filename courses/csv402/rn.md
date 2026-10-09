@@ -1214,7 +1214,7 @@ aho `cofactor` ari umubare wose wongera ubushobozi bwo kuronka ibibanza bitanduk
 - Iyo tunaniwe gushiramwo amasezerano yose ata guhura, twongera `d` tugasubira gutangura.
 
 
-Intumbero ni ukwirinda ibiti birenze urugero, mu gihe nyene ingorane zo gutombora ziguma ari ntoyi. Zirikana ko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://ru.wikipedia.org/wiki/Ingorane_y’Isabukuru_y’Ivuka).
+Intumbero ni ukwirinda ibiti birenze urugero, mu gihe nyene ingorane zo gutombora ziguma ari ntoyi. Zirikana ko ikintu c’ugutombora gikurikira uburyo bwo gukwiragiza ataco buvuze, gifitaniye isano n’[Ikibazo c’Isabukuru](https://en.wikipedia.org/wiki/Birthday_problem).
 
 
 #### Amababi atuwemwo
@@ -2579,7 +2579,7 @@ Interface Implementation ni umugwi w'amatangazo ahuza **Interface** na **Schema*
 #### Invoice
 
 
-Invoice ifata uburyo bwa URL ishizwe muri [base58](https://ru.wikipedia.org/wiki/Binary-to-text encoding#Base58), ikaba ishiramwo amakuru akenewe kugira ngo umuntu yubake **State Transition** (n’uwuyitanga). Mu yandi majambo, ni Invoice ishoboza uwundi (*uwuriha*) gukora ihinduka rihuye n'iryo kugira ngo yimure umutungo canke avugurure uko Contract imeze.
+Invoice ifata uburyo bwa URL ishizwe muri [base58](https://en.wikipedia.org/wiki/Binary-to-text_encoding#Base58), ikaba ishiramwo amakuru akenewe kugira ngo umuntu yubake **State Transition** (n’uwuyitanga). Mu yandi majambo, ni Invoice ishoboza uwundi (*uwuriha*) gukora ihinduka rihuye n'iryo kugira ngo yimure umutungo canke avugurure uko Contract imeze.
 
 
 #### Lightning Network
@@ -4569,8 +4569,8 @@ Ubwa nyuma, imbere yo kuja mu gice gikurikira, ndashaka kubaha icegeranyo c'iteg
 
 
 
-- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/kwemeza_uruhande_rw'umukiriya)
-- **Amasandugu**: [kwemeza_uruhande_rw'umukiriya](https://amasandugu.io/amasandugu/kwemeza_uruhande rw'umukiriya), [ibimenyetso_bikoreshwa_rimwe](https://amasandugu.io/amasandugu/ibimenyetso_bikoreshwa_rimwe)
+- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/client_side_validation)
+- **Amasandugu**: [kwemeza_uruhande_rw'umukiriya](https://crates.io/crates/client_side_validation), [ibimenyetso_bikoreshwa_rimwe](https://crates.io/crates/single_use_seals)
 
 
 Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
@@ -4582,7 +4582,7 @@ Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
 
 
 - **Ububiko**: [Ishingiro rya bp](Ishingiro ry'Igihugu)
-- **Isandugu**: [bp-dbc](https://isanduku.io/isanduku/bp-dbc)
+- **Isandugu**: [bp-dbc](https://crates.io/crates/bp-dbc)
 
 
 Uburongozi bw’ugushinga intahe mu bikorwa vya Bitcoin (Tapret, OP_RETURN, n’ibindi).
@@ -4593,8 +4593,8 @@ Uburongozi bw’ugushinga intahe mu bikorwa vya Bitcoin (Tapret, OP_RETURN, n’
 
 
 
-- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/kwemeza_uruhande_rw'umukiriya)
-- **Isandugu**: [gusuzuma_gukora](https://ibisandugu.io/ibisanduka/ugusuzuma_gukora)
+- **Ububiko**: [kwemeza_uruhande rw'umukiriya](https://github.com/LNP-BP/client_side_validation)
+- **Isandugu**: [gusuzuma_gukora](https://crates.io/crates/commit_verify)
 
 
 Ivyiyumviro vyinshi vy’ugukorana n’ugushiramwo n’amategeko atandukanye.
@@ -4605,9 +4605,9 @@ Ivyiyumviro vyinshi vy’ugukorana n’ugushiramwo n’amategeko atandukanye.
 
 
 
-- **Ibisobanuro**: [urubuga ubwoko-bukomeye.org](https://www.ubwoko-bukomeye.org/)
-- **Ububiko**: [ubwoko-bukomeye](https://github.com/ubwoko-bukomeye/ubwoko-bukomeye), [gushiramwo-bukomeye](https://github.com/ubwoko-bukomeye/gushiramwo-bukomeye)
-- **Amasandugu**: [ubwoko_bukomeye](https://amasandugu.io/amasandugu/ubwoko_bukomeye), [gushiramwo_amakode](https://amasandugu.io/amasandugu/gushiramwo_amakode)
+- **Ibisobanuro**: [urubuga ubwoko-bukomeye.org](https://www.strict-types.org/)
+- **Ububiko**: [ubwoko-bukomeye](https://github.com/strict-types/strict-types), [gushiramwo-bukomeye](https://github.com/strict-types/strict-encoding)
+- **Amasandugu**: [ubwoko_bukomeye](https://crates.io/crates/strict_types), [gushiramwo_amakode](https://crates.io/crates/strict_encoding)
 
 
 Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuri Client-side Validation.
@@ -4619,7 +4619,7 @@ Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuri Client-side Va
 
 
 - **Ububiko**: [RGB-ishingiro](RGB-Ishingiro)
-- **Isanduku**: [RGB-umutima](https://isanduku.io/isanduku/RGB-umutima)
+- **Isanduku**: [RGB-umutima](https://crates.io/crates/rgb-core)
 
 
 Ishingiro ry’iyo porotokole, rigizwe n’intumbero nyamukuru y’ukwemeza RGB.

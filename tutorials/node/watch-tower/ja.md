@@ -33,7 +33,7 @@ Watchtowerはどのようにしてチャネルが侵害されたかどうかを�
 
 
 
-*このチュートリアルは[LND公式ドキュメント](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)から引用しています。原文に変更が加えられている場合があります。
+*このチュートリアルは[LND公式ドキュメント](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md)から引用しています。原文に変更が加えられている場合があります。
 
 
 

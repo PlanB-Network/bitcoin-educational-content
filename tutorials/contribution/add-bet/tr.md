@@ -228,6 +228,6 @@ https://github.com/tutorial-pandul/Bitcoin-educational-content/blob/patch-1/reso
 
 ```
 
-https://github.com/DiscoverBitcoin/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 
 ```

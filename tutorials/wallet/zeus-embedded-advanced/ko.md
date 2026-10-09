@@ -305,7 +305,7 @@ Zeus 앱 사용 시 법정통화 변환을 표시하는 옵션을 활성화 또�
 **B - 백업 Wallet**
 
 
-제우스의 임베디드 노드는 LND를 기반으로 하며 [aezeed seed 포맷](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md)을 사용합니다. 이는 대부분의 Bitcoin 지갑에서 볼 수 있는 일반적인 [BIP39 형식](https://github.com/Bitcoin/BIPs/blob/master/BIP-0039.mediawiki)과는 다르지만 비슷해 보일 수 있습니다. Aezeed에는 복구 중 재스캔이 보다 효율적으로 이루어질 수 있도록 Wallet의 생년월일을 포함한 몇 가지 추가 데이터가 포함되어 있습니다.
+제우스의 임베디드 노드는 LND를 기반으로 하며 [aezeed seed 포맷](https://github.com/lightningnetwork/LND/blob/master/aezeed/README.md)을 사용합니다. 이는 대부분의 Bitcoin 지갑에서 볼 수 있는 일반적인 [BIP39 형식](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)과는 다르지만 비슷해 보일 수 있습니다. Aezeed에는 복구 중 재스캔이 보다 효율적으로 이루어질 수 있도록 Wallet의 생년월일을 포함한 몇 가지 추가 데이터가 포함되어 있습니다.
 
 
 Aezeed 키 형식은 다음 모바일 지갑과 호환되어야 합니다: 블릭스트, 블루월렛, 브리즈. 열려 있거나 폐쇄 보류 중인 채널이 있는 경우 seed만으로는 모든 잔액을 복구하기에 충분하지 않습니다!
@@ -323,7 +323,7 @@ SCB는 LN 채널이 열려 있는 경우에만 필요합니다. 온체인 자금
 오랜 시간이 지난 후에도 여전히 이전 기록 tx가 표시되지 않는다면 임베디드 노드 - 피어로 이동하여 선택한 피어 목록 사용 옵션을 비활성화하세요(기본값은 btcd.lnolymp.us입니다). 그러면 재시작이 트리거되고 더 나은 시간 응답을 제공하는 가장 먼저 사용 가능한 중성자 노드에 연결됩니다. 또는 아래에 언급된 다른 잘 알려진 중성미자 피어를 사용하세요.
 
 
-LND 노드에 대한 더 많은 복구 옵션을 보려면 [이전 가이드](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html)를 참조하세요. 여기서 aezeed seed을 Sparrow wallet로 가져오는 방법이나 다른 방법을 찾을 수 있습니다.
+LND 노드에 대한 더 많은 복구 옵션을 보려면 [이전 가이드](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)를 참조하세요. 여기서 aezeed seed을 Sparrow wallet로 가져오는 방법이나 다른 방법을 찾을 수 있습니다.
 
 
 **C - 임베디드 노드**

@@ -419,7 +419,7 @@ Ibindi bikoresho biri mu Migereka.
 - [BIP-32](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0032)
 - [BIP-39](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0039)
 - [BIP-85](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/bip0085)
-- [Ijambo seed](https://planb.urubuga/ibikoresho/insobanuro/ijambo ry'ugusubirana)
+- [Ijambo seed](https://planb.academy/resources/glossary/recovery-phrase)
 - [passphrase](urubuga rw'umugambi/ibikoresho/insobanuro y'amajambo/passphrase-bip39)
 - [Multisig](urubuga/ibikoresho/insobanuro y'amajambo/Multisig)
 

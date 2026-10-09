@@ -11,7 +11,7 @@ Bu kılavuz, Bitcoin Lightning Network (LN)'ü ÜCRETSİZ AÇIK KAYNAK, TAM MÜ�
 Blixt Wallet](https://blixtwallet.com/) kullanarak, nerede olursanız olun cep telefonunuzda tam bir LN düğümü.
 
 
-Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen Lightning Network (LN) hakkındaki bu basit açıklama analojisini okuyun](https://darth-Coin.github.io/beginner/LN-airport-analogy-en.html).
+Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen Lightning Network (LN) hakkındaki bu basit açıklama analojisini okuyun](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## ÖNEMLI HUSUSLAR:
@@ -22,11 +22,11 @@ Bitcoin Lightning Network'yi hiç kullanmadıysanız, başlamadan önce [lütfen
 
 
 
-- Blixt, Wallet arka ucu olarak LND (aezeed) kullanıyor, bu nedenle diğer Bitcoin cüzdan türlerini içine aktarmaya çalışmayın. [Burada Wallet Mnemonic tohum türlerini açıkladınız](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ve işte [tüm cüzdan türlerinin daha kapsamlı bir listesi](https://walletsrecovery.org/). Dolayısıyla, daha önce bir LND düğümünüz varsa, seed ve backup.channels'ı Blixt'e aktarabilirsiniz, [bu kılavuzda açıklandığı gibi](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt, Wallet arka ucu olarak LND (aezeed) kullanıyor, bu nedenle diğer Bitcoin cüzdan türlerini içine aktarmaya çalışmayın. [Burada Wallet Mnemonic tohum türlerini açıkladınız](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ve işte [tüm cüzdan türlerinin daha kapsamlı bir listesi](https://walletsrecovery.org/). Dolayısıyla, daha önce bir LND düğümünüz varsa, seed ve backup.channels'ı Blixt'e aktarabilirsiniz, [bu kılavuzda açıklandığı gibi](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Bu kılavuzun sonunda ["ipuçları ve püf noktaları"] içeren özel bir bölüm bulacaksınız (https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Bu kılavuzun sonunda ["ipuçları ve püf noktaları"] içeren özel bir bölüm bulacaksınız (https://darth-Coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Sağ üst köşede, bir menüyü etkinleştiren 3 nokta göreceksiniz:
 
 - "Tor'u etkinleştir" - kullanıcı Tor ağı ile başlayabilir, özellikle sadece Tor eşleri ile çalışan eski bir LND düğümünü geri yüklemek istiyorsa.
 - "Bitcoin düğümünü ayarla" - kullanıcı blokları Neutrino aracılığıyla senkronize etmek için doğrudan kendi düğümüne bağlanmak isterse, bunu karşılama ekranından hemen yapabilir. Bu seçenek, internet bağlantınızın veya Tor'unuzun varsayılan Bitcoin düğümüne (node.blixtwallet.com) bağlanmak için çok kararlı olmaması durumunda da iyidir.
-- Yakında oraya dil eklenecek, böylece kullanıcı rahat bir dille doğrudan başlayabilir. Bu açık kaynak projesine diğer dillerdeki çevirilerle katkıda bulunmak istiyorsanız, [lütfen buraya katılın](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Yakında oraya dil eklenecek, böylece kullanıcı rahat bir dille doğrudan başlayabilir. Bu açık kaynak projesine diğer dillerdeki çevirilerle katkıda bulunmak istiyorsanız, [lütfen buraya katılın](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### SEÇENEK A - Yeni Wallet oluşturun
@@ -241,7 +241,7 @@ MUTLU Bitcoin YILDIRIMLARI!
 Hatırlayın, birinci bölüm "İlk Temas "ta Karşılama ekranında 2 seçenek vardı:
 
 
-- [Seçenek A](https://darth-Coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Yeni Wallet oluşturun
+- [Seçenek A](https://darth-Coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Yeni Wallet oluşturun
 - Seçenek B - Wallet'i Geri Yükleyin
 
 
@@ -251,7 +251,7 @@ Hatırlayın, birinci bölüm "İlk Temas "ta Karşılama ekranında 2 seçenek 
 ### SEÇENEK B - Wallet'yi Geri Yükleyin
 
 
-Geçmişte [çökmüş bir Umbrel düğümü nasıl geri yüklenir](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html) hakkında özel bir rehber yazdım ve burada Umbrel'den seed + channel.backup dosyasını kullanarak Blixt'i hızlı geri yükleme işlemi olarak kullanma yönteminden de bahsettim.
+Geçmişte [çökmüş bir Umbrel düğümü nasıl geri yüklenir](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html) hakkında özel bir rehber yazdım ve burada Umbrel'den seed + channel.backup dosyasını kullanarak Blixt'i hızlı geri yükleme işlemi olarak kullanma yönteminden de bahsettim.
 
 
 Ayrıca Blixt düğümünüzü nasıl geri yükleyeceğiniz veya Blixt'inizi başka bir cihaza nasıl taşıyacağınız konusunda bir kılavuz yazdım, [burada](https://blixtwallet.github.io/faq#blixt-restore).

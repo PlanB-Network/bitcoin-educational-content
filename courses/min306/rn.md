@@ -615,7 +615,7 @@ Gushinga neza ikidengeri co mu nzu ca mining bigereranya intambwe ikomeye mu bij
 Mu isi y’ugutera ivyuma ku ruhande (SMD), cane cane iyo ukorana n’imigambi ya Bitaxe, kugira ibikoresho bikwiye biratuma habaho itandukaniro hagati y’ugucika intege n’uguterimbere. Iyi nkuru yuzuye ivuga ku bikoresho vy’ingenzi bikenewe kugira ngo ushobore guhangana n’imigambi yo gutera SMD neza, kuva ku bikoresho vy’ishimikiro vy’amaboko gushika ku bikoresho vyihariye bizoduza ubushobozi bwawe bwo gutera.
 
 
-Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/igiti/igikuru).
+Niba ushaka kwerekeza ku nyandiko zimwe zimwe zijanye n'imirongo, reba iyi [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Ibikoresho vy'ishimikiro vy'amaboko n'ibikoresho vy'ukuri

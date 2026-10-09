@@ -474,7 +474,7 @@ Na kartici Status Miner, možete posmatrati različite informacije o trenutnom r
 Sada ćemo proučiti softver za ASIC-e Braiins OS+ (https://braiins.com/os/plus). Softver je razvijen od strane kompanije [Braiins](https://braiins.com/), koja je matična kompanija Mining pool Braiins Pool-a (https://braiins.com/pool). Ovaj Mining pool trenutno ima 4,39% globalnog Hashrate u trenutku pisanja ovih redova. Kompanija sa sedištem u Pragu ranije je bila poznata kao Slushpool i prvi je Mining pool koji je započeo u novembru 2010. [Ovde](https://Mempool.space/Mining/pool/braiinspool) možete pronaći ažurirane Hashrate i statistike dominacije pool-a.
 
 
-Danas kompanija, sa svojim raznovrsnim aktivnostima, nudi alate za studiju profitabilnosti za Mining (https://insights.braiins.com/en), rešenja za upravljanje farmama Mining paralelno sa svojom pool aktivnošću, i svoj softver za optimizaciju za ASIC-e. Takođe nudi Mining koristeći novi Stratum V2 protokol (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Danas kompanija, sa svojim raznovrsnim aktivnostima, nudi alate za studiju profitabilnosti za Mining (https://insights.braiins.com/en), rešenja za upravljanje farmama Mining paralelno sa svojom pool aktivnošću, i svoj softver za optimizaciju za ASIC-e. Takođe nudi Mining koristeći novi Stratum V2 protokol (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Stoga ćemo detaljnije proučiti rad Bitmain uređaja, koji su trenutno jedini kompatibilni modeli:

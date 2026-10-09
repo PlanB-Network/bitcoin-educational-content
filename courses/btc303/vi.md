@@ -310,7 +310,7 @@ Họ muốn nói gì khi nhắc đến Trustless? Pieter Wuille giải thích th
 Tóm lại, từ *Trustless* ám chỉ một thuộc tính của giao thức Bitcoin mà theo đó nó có thể hoạt động hợp lý mà không cần "bất kỳ bên đáng tin cậy nào". Điều này khác với sự tin tưởng mà bạn chắc chắn phải đặt vào phần mềm hoặc phần cứng mà bạn chạy. Chúng ta sẽ thảo luận thêm về khía cạnh sau này của sự tin tưởng trong chương này.
 
 
-Trong các hệ thống tập trung, chúng ta dựa vào danh tiếng của một tác nhân trung tâm để đảm bảo rằng họ sẽ xử lý vấn đề bảo mật hoặc khôi phục trong trường hợp có vấn đề, cũng như dựa vào hệ thống pháp lý để xử phạt bất kỳ hành vi vi phạm nào. Các yêu cầu về lòng tin này là vấn đề trong các hệ thống phi tập trung ẩn danh - không có khả năng khắc phục nên thực sự không thể có bất kỳ lòng tin nào. Trong phần giới thiệu của [sách trắng Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto mô tả vấn đề này:
+Trong các hệ thống tập trung, chúng ta dựa vào danh tiếng của một tác nhân trung tâm để đảm bảo rằng họ sẽ xử lý vấn đề bảo mật hoặc khôi phục trong trường hợp có vấn đề, cũng như dựa vào hệ thống pháp lý để xử phạt bất kỳ hành vi vi phạm nào. Các yêu cầu về lòng tin này là vấn đề trong các hệ thống phi tập trung ẩn danh - không có khả năng khắc phục nên thực sự không thể có bất kỳ lòng tin nào. Trong phần giới thiệu của [sách trắng Bitcoin](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto mô tả vấn đề này:
 
 
 > Thương mại trên Internet gần như hoàn toàn phụ thuộc vào các tổ chức tài chính đóng vai trò là bên thứ ba đáng tin cậy để xử lý các khoản thanh toán điện tử.
@@ -323,7 +323,7 @@ Có vẻ như chúng ta không thể có một hệ thống phi tập trung dự
 Để sử dụng Bitcoin theo cách của Trustless, bạn phải chạy một nút Bitcoin xác thực đầy đủ. Chỉ khi đó, bạn mới có thể xác minh rằng các khối bạn nhận được từ những người khác đang tuân theo các quy tắc đồng thuận; ví dụ, lịch phát hành tiền xu được giữ nguyên và không có chi tiêu gấp đôi nào xảy ra trên Blockchain. Nếu bạn không chạy Full node, bạn sẽ thuê ngoài việc xác minh các khối Bitcoin cho người khác và tin tưởng họ sẽ nói sự thật với bạn, điều đó có nghĩa là bạn không sử dụng Bitcoin một cách không đáng tin cậy.
 
 
-David Harding là tác giả của [một bài viết trên trang web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) giải thích cách chạy Full node - hoặc sử dụng Bitcoin mà không cần tin cậy - thực sự giúp ích cho bạn như thế nào:
+David Harding là tác giả của [một bài viết trên trang web Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) giải thích cách chạy Full node - hoặc sử dụng Bitcoin mà không cần tin cậy - thực sự giúp ích cho bạn như thế nào:
 
 
 > Tiền tệ Bitcoin chỉ hoạt động khi mọi người chấp nhận bitcoin trong Exchange cho những thứ có giá trị khác. Điều đó có nghĩa là những người chấp nhận bitcoin sẽ mang lại giá trị cho nó và quyết định cách thức hoạt động của Bitcoin.
@@ -512,7 +512,7 @@ Bằng cách sử dụng địa chỉ hoặc khóa công khai, chúng tôi đạ
 Quyền riêng tư của Blockchain đề cập đến thông tin bạn tiết lộ khi giao dịch trên Blockchain. Nó áp dụng cho tất cả các giao dịch, cả giao dịch bạn gửi và giao dịch bạn nhận.
 
 
-Satoshi Nakamoto suy ngẫm về quyền riêng tư của On-Chain trong phần 7 của [sách trắng Bitcoin](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto suy ngẫm về quyền riêng tư của On-Chain trong phần 7 của [sách trắng Bitcoin](https://bitcoin.org/bitcoin.pdf):
 
 
 > Là một tường lửa bổ sung, một cặp khóa mới nên được sử dụng cho mỗi giao dịch để ngăn chúng được liên kết với một chủ sở hữu chung. Một số liên kết vẫn không thể tránh khỏi với các giao dịch nhiều đầu vào, điều này nhất thiết phải tiết lộ rằng đầu vào của chúng thuộc sở hữu của cùng một chủ sở hữu. Rủi ro là nếu chủ sở hữu của một khóa bị tiết lộ, việc liên kết có thể tiết lộ các giao dịch khác thuộc về cùng một chủ sở hữu.
@@ -807,7 +807,7 @@ Ngược lại, [tương thích ngược](https://en.wikipedia.org/wiki/Backward
 Một thay đổi đối với các quy tắc đồng thuận Bitcoin được gọi là *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* nếu nó hoàn toàn tương thích. Đây là cách phổ biến nhất để nâng cấp Bitcoin, vì một số lý do mà chúng ta sẽ thảo luận thêm trong chương này. Nếu một thay đổi đối với các quy tắc đồng thuận Bitcoin tương thích ngược nhưng không tương thích xuôi, thì nó được gọi là *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Để biết tổng quan kỹ thuật về phuộc Soft và phuộc Hard, vui lòng đọc [chương 11 của Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Chương này giải thích các thuật ngữ này và cũng đi sâu vào các cơ chế nâng cấp. Bạn nên nắm rõ điều này, mặc dù không thực sự cần thiết, trước khi tiếp tục đọc.
+Để biết tổng quan kỹ thuật về phuộc Soft và phuộc Hard, vui lòng đọc [chương 11 của Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Chương này giải thích các thuật ngữ này và cũng đi sâu vào các cơ chế nâng cấp. Bạn nên nắm rõ điều này, mặc dù không thực sự cần thiết, trước khi tiếp tục đọc.
 
 
 ### Nâng cấp lịch sử
@@ -1250,7 +1250,7 @@ Nhiều nhà phát triển chọn tùy chọn này bằng cách hoạt động d
 các bài viết và công trình của tôi về Bitcoin và Lightning Network.
 
 
-Trong trường hợp của anh ấy, lý do sử dụng bút danh là để đánh giá dựa trên công trạng của anh ấy chứ không phải dựa trên người hoặc những người đứng sau bút danh đó là ai. Điều thú vị là anh ấy đã tiết lộ trong một [bài viết trên CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) rằng bút danh đó được tạo ra vì một lý do khác.
+Trong trường hợp của anh ấy, lý do sử dụng bút danh là để đánh giá dựa trên công trạng của anh ấy chứ không phải dựa trên người hoặc những người đứng sau bút danh đó là ai. Điều thú vị là anh ấy đã tiết lộ trong một [bài viết trên CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) rằng bút danh đó được tạo ra vì một lý do khác.
 
 
 > Lý do ban đầu của tôi [khi sử dụng bút danh] chỉ đơn giản là tôi lo ngại [về việc] mắc phải một sai lầm lớn; do đó, ZmnSCPxj ban đầu được dự định là một bút danh dùng một lần có thể bị loại bỏ trong trường hợp như vậy. Tuy nhiên, có vẻ như nó đã tạo dựng được danh tiếng chủ yếu là tích cực, vì vậy tôi đã giữ lại nó
@@ -1325,7 +1325,7 @@ Trên con đường đi đến sự chấp nhận cuối cùng, một ý tưởn
 Ở mỗi giai đoạn này, những người có quan điểm và bối cảnh khác nhau sẽ xem xét thông tin có sẵn, có thể là mã nguồn, BIP hoặc chỉ là một ý tưởng được mô tả sơ lược. Các giai đoạn thường không được thực hiện theo bất kỳ cách thức nghiêm ngặt nào từ trên xuống, thực tế là nhiều giai đoạn có thể diễn ra đồng thời và đôi khi bạn sẽ đi đi lại lại giữa chúng. Những người khác nhau cũng có thể cung cấp phản hồi trong các giai đoạn khác nhau.
 
 
-Một trong những người đánh giá mã hiệu quả nhất trên Bitcoin Core là Jon Atack. Anh ấy đã viết [một bài đăng trên blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) về cách đánh giá các yêu cầu kéo trong Bitcoin Core. Anh ấy nhấn mạnh rằng một người đánh giá mã tốt tập trung vào cách tạo ra giá trị tốt nhất.
+Một trong những người đánh giá mã hiệu quả nhất trên Bitcoin Core là Jon Atack. Anh ấy đã viết [một bài đăng trên blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) về cách đánh giá các yêu cầu kéo trong Bitcoin Core. Anh ấy nhấn mạnh rằng một người đánh giá mã tốt tập trung vào cách tạo ra giá trị tốt nhất.
 
 
 > Với tư cách là người mới, mục tiêu là cố gắng tạo ra giá trị bằng sự thân thiện và khiêm tốn, đồng thời học hỏi càng nhiều càng tốt.
@@ -1458,7 +1458,7 @@ Việc mở rộng quy mô đã trở thành trọng tâm thảo luận kể t�
 > Satoshi Nakamoto đã viết:
 >
 
-> "Tôi đang nghiên cứu một hệ thống tiền điện tử mới hoàn toàn ngang hàng, không có bên thứ ba đáng tin cậy. Bài báo có tại http://www.Bitcoin.org/Bitcoin.pdf"
+> "Tôi đang nghiên cứu một hệ thống tiền điện tử mới hoàn toàn ngang hàng, không có bên thứ ba đáng tin cậy. Bài báo có tại http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Chúng tôi thực sự rất cần một hệ thống như vậy, nhưng theo tôi hiểu thì đề xuất của bạn có vẻ như không thể mở rộng đến quy mô cần thiết.
@@ -1541,7 +1541,7 @@ Mining không xác thực làm suy yếu thêm tính phi tập trung của Full 
 Mở rộng theo chiều ngang đề cập đến các kỹ thuật phân chia khối lượng công việc trên nhiều máy. Mặc dù đây là phương pháp mở rộng phổ biến trong các trang web và cơ sở dữ liệu phổ biến, nhưng không dễ thực hiện trong Bitcoin.
 
 
-Nhiều người gọi cách tiếp cận mở rộng Bitcoin này là *sharding*. Về cơ bản, nó bao gồm việc để mỗi Full node chỉ xác minh một phần của Blockchain. Peter Todd đã dành nhiều suy nghĩ cho khái niệm sharding. Ông đã viết một [bài đăng trên blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) giải thích về sharding theo nghĩa chung và cũng trình bày ý tưởng của riêng ông có tên là *treechains*. Bài viết này khá khó đọc, nhưng Todd đưa ra một số điểm khá dễ hiểu:
+Nhiều người gọi cách tiếp cận mở rộng Bitcoin này là *sharding*. Về cơ bản, nó bao gồm việc để mỗi Full node chỉ xác minh một phần của Blockchain. Peter Todd đã dành nhiều suy nghĩ cho khái niệm sharding. Ông đã viết một [bài đăng trên blog](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) giải thích về sharding theo nghĩa chung và cũng trình bày ý tưởng của riêng ông có tên là *treechains*. Bài viết này khá khó đọc, nhưng Todd đưa ra một số điểm khá dễ hiểu:
 
 
 > Trong các hệ thống phân mảnh, "phòng thủ Full node" không có tác dụng, ít nhất là trực tiếp. Vấn đề là không phải ai cũng có tất cả dữ liệu, vì vậy bạn phải quyết định điều gì sẽ xảy ra khi dữ liệu không khả dụng.
@@ -2091,7 +2091,7 @@ Một điểm chính rút ra từ đây là BIP ít nhiều phải *nguyên tử
 
 
 
-Thật không may, câu chuyện về BIP66 không dừng lại ở đó. Khi BIP66 được kích hoạt, mọi chuyện trở nên khá lộn xộn vì một số thợ đào không xác minh các khối mà họ đang cố gắng mở rộng. Điều này được gọi là Mining không xác thực hoặc SPV-Mining (như trong Xác minh thanh toán đơn giản). Một thông báo cảnh báo đã được gửi đến các nút Bitcoin với liên kết đến [trang web mô tả sự cố](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Thật không may, câu chuyện về BIP66 không dừng lại ở đó. Khi BIP66 được kích hoạt, mọi chuyện trở nên khá lộn xộn vì một số thợ đào không xác minh các khối mà họ đang cố gắng mở rộng. Điều này được gọi là Mining không xác thực hoặc SPV-Mining (như trong Xác minh thanh toán đơn giản). Một thông báo cảnh báo đã được gửi đến các nút Bitcoin với liên kết đến [trang web mô tả sự cố](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Sáng sớm ngày 4 tháng 7 năm 2015, ngưỡng 950/1000 (95%) đã đạt được. Ngay sau đó, một Miner nhỏ (một phần của 5%) không được nâng cấp đã khai thác một khối không hợp lệ - như một sự kiện dự kiến. Thật không may, hóa ra là gần một nửa tỷ lệ Hash của mạng là Mining mà không có khối xác thực đầy đủ (gọi là SPV Mining) và xây dựng các khối mới trên khối không hợp lệ đó.

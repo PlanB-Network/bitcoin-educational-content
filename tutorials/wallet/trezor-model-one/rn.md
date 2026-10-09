@@ -501,7 +501,7 @@ Hitamwo amahera uzorungika kuri iyi Address.
 
 
 
-Guhindura igipimo c’amahera y’ugucuruza kwawe bivanye n’isoko ririho ubu. Nk’akarorero, urashobora gukoresha [Mempool.ikibanza](https://Mempool.ikibanza/) kugira uhitemwo igiciro c’amahera kibereye.
+Guhindura igipimo c’amahera y’ugucuruza kwawe bivanye n’isoko ririho ubu. Nk’akarorero, urashobora gukoresha [Mempool.ikibanza](https://mempool.space/) kugira uhitemwo igiciro c’amahera kibereye.
 
 
 

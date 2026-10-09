@@ -35,7 +35,7 @@ description: Blockstream Appの設定方法とLiquid Networkの使用方法
 
 
 
-**Liquid**は、**[Blockstream](https://blockstream.com/Liquid/)**によって開発されたBitcoinの**Sidechain**であり、メインのBlockchain Bitcoinに接続されたまま、より高速で、よりConfidential Transactionsと高度な機能を提供するように設計されている。
+**Liquid**は、**[Blockstream](https://blockstream.com/liquid/)**によって開発されたBitcoinの**Sidechain**であり、メインのBlockchain Bitcoinに接続されたまま、より高速で、よりConfidential Transactionsと高度な機能を提供するように設計されている。
 
 
 

@@ -35,7 +35,7 @@ description: วิธีการกำหนดค่าแอป Blockstream 
 
 
 
-**Liquid** เป็น **Sidechain** ของ Bitcoin ที่พัฒนาโดย **[Blockstream](https://blockstream.com/Liquid/)** ออกแบบมาเพื่อให้การทำธุรกรรมที่รวดเร็วและเป็นความลับมากขึ้น รวมถึงฟังก์ชันการทำงานขั้นสูง ในขณะที่ยังคงเชื่อมต่อกับ Blockchain Bitcoin หลัก
+**Liquid** เป็น **Sidechain** ของ Bitcoin ที่พัฒนาโดย **[Blockstream](https://blockstream.com/liquid/)** ออกแบบมาเพื่อให้การทำธุรกรรมที่รวดเร็วและเป็นความลับมากขึ้น รวมถึงฟังก์ชันการทำงานขั้นสูง ในขณะที่ยังคงเชื่อมต่อกับ Blockchain Bitcoin หลัก
 
 
 

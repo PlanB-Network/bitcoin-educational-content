@@ -320,7 +320,7 @@ Trustless 是什麼意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 簡而言之，*Trustless* 一詞是指 Bitcoin 通訊協定的一項特性，根據這項特性，Bitcoin 通訊協定在邏輯上可以在沒有「任何受信任方」的情況下運作。這與您在運行軟體或硬體時不可避免地需要信任的情況不同。本章將進一步討論後者的信任問題。
 
 
-在集中式系統中，我們仰賴中央參與者的聲譽，以確保他們會負責安全或在發生問題時回退，同時也仰賴法律系統來制裁任何違法行為。在假名的分散式系統中，這些信任需求是有問題的 - 因為沒有追索的可能性，所以真的不可能有任何信任。在 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 的引言中，Satoshi Nakamoto 描述了這個問題：
+在集中式系統中，我們仰賴中央參與者的聲譽，以確保他們會負責安全或在發生問題時回退，同時也仰賴法律系統來制裁任何違法行為。在假名的分散式系統中，這些信任需求是有問題的 - 因為沒有追索的可能性，所以真的不可能有任何信任。在 [Bitcoin 白皮書](https://bitcoin.org/bitcoin.pdf) 的引言中，Satoshi Nakamoto 描述了這個問題：
 
 
 > 網際網路商務幾乎完全依賴金融機構作為可信賴的第三方來處理電子付款。
@@ -333,7 +333,7 @@ Trustless 是什麼意思？Pieter Wuille 在 [Stack Exchange](https://Bitcoin.s
 要以 Trustless 的方式使用 Bitcoin，您必須執行一個完全驗證的 Bitcoin 節點。只有這樣，您才能驗證您從他人處收到的區塊是否遵循共識規則；例如，是否遵守了發幣時間表，以及 Blockchain 上是否沒有出現雙重花費的情況。如果您沒有運行 Full node，您就將驗證 Bitcoin 區塊的工作外包給別人，並相信他們會告訴您真相，這表示您並非無信任地使用 Bitcoin。
 
 
-David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://Bitcoin.org/en/Bitcoin-core/features/validation) 解釋運行 Full node - 或無信賴地使用 Bitcoin - 實際上如何幫助您：
+David Harding 撰寫了 [Bitcoin.org 網站上的一篇文章](https://bitcoin.org/en/bitcoin-core/features/validation) 解釋運行 Full node - 或無信賴地使用 Bitcoin - 實際上如何幫助您：
 
 
 > 只有當人們接受 Exchange 中的比特幣來換取其他有價值的東西時，Bitcoin 才會運作。也就是說，是接受比特幣的人賦予了它價值，也是他們決定了 Bitcoin 應該如何運作。
@@ -522,7 +522,7 @@ Andrew Poelstra [在 Bitcoin Stack Exchange 帖子中解釋](https://Bitcoin.sta
 Blockchain 隱私權是指您在 Blockchain 上進行交易時所披露的資訊。它適用於所有交易，包括您發送和接收的交易。
 
 
-Satoshi 中本在他的 [Bitcoin 白皮書](https://Bitcoin.org/Bitcoin.pdf) 第 7 節中思考了 On-Chain 隱私權的問題：
+Satoshi 中本在他的 [Bitcoin 白皮書](https://bitcoin.org/bitcoin.pdf) 第 7 節中思考了 On-Chain 隱私權的問題：
 
 
 > 作為額外的防火牆，每個交易都應該使用新的金鑰對，以防止它們連結到共同的擁有者。多輸入交易仍無法避免某些連結，因為這些交易必然會揭露其輸入是由同一擁有者所擁有。風險在於如果鑰匙的擁有者被揭露，連結可能會揭露屬於同一擁有者的其他交易。
@@ -817,7 +817,7 @@ Bitcoin Supply 是否會增長超過 2,100 萬，我們今天還無法確定，�
 對 Bitcoin 共識規則的變更，如果完全相容，就稱為 *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*。這是升級 Bitcoin 最常見的方式，原因有很多，我們會在本章進一步討論。如果 Bitcoin 共識規則的變更向後相容，但向前不相容，則稱為 *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*。
 
 
-有關 Soft fork 和 Hard fork 的技術概述，請閱讀 [Grokking Bitcoin 的第 11 章](https://rosenbaum.se/book/grokking-Bitcoin-11.html)。它解釋了這些名詞，也深入介紹了升級機制。建議您在繼續閱讀之前先掌握這方面的知識，儘管並非絕對必要。
+有關 Soft fork 和 Hard fork 的技術概述，請閱讀 [Grokking Bitcoin 的第 11 章](https://rosenbaum.se/book/grokking-bitcoin-11.html)。它解釋了這些名詞，也深入介紹了升級機制。建議您在繼續閱讀之前先掌握這方面的知識，儘管並非絕對必要。
 
 
 ### 歷史性升級
@@ -1260,7 +1260,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 文章以及我在 Bitcoin 和 Lightning Network 上的工作。
 
 
-在他的案例中，使用假名的原因應該根據他的優點來判斷，而不是根據假名背後的人是誰。有趣的是，他在【CoinDesk 上的一篇文章】(https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，創建筆名的原因與此不同。
+在他的案例中，使用假名的原因應該根據他的優點來判斷，而不是根據假名背後的人是誰。有趣的是，他在【CoinDesk 上的一篇文章】(https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) 中透露，創建筆名的原因與此不同。
 
 
 > 我最初[使用假名]的原因很簡單，因為我擔心[會]犯下大錯；因此 ZmnSCPxj 原本打算是一個一次性的假名，在這種情況下可以放棄。然而，它似乎獲得了大多數正面的聲譽，因此我保留了它。
@@ -1335,7 +1335,7 @@ Lombrozo 也談到共識變更的過程，但這已經超過本章的範圍。�
 在每個階段中，具有不同觀點和背景的人會檢閱可用的資訊，不論是原始程式碼、BIP 或僅是粗略描述的想法。這些階段通常不會以任何嚴格的自上而下的方式進行，事實上，多個階段可能會同時發生，有時您會在這些階段之間來回。不同的人也可能在不同的階段提供回饋。
 
 
-Jon Atack 是 Bitcoin Core 上最多的程式碼審閱者之一。他寫了一篇 [部落格文章](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) 關於如何審閱 Bitcoin Core 的 pull request。他強調一個好的程式碼審閱者會專注於如何最好地增加價值。
+Jon Atack 是 Bitcoin Core 上最多的程式碼審閱者之一。他寫了一篇 [部落格文章](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) 關於如何審閱 Bitcoin Core 的 pull request。他強調一個好的程式碼審閱者會專注於如何最好地增加價值。
 
 
 > 身為新人，我們的目標是以友善、謙虛的態度，在盡可能學習的同時，努力增加價值。
@@ -1468,7 +1468,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 > Satoshi Nakamoto 寫道：
 >
 
-> "我一直在研究一個新的電子現金系統，它是完全點對點的，沒有可信賴的第三方。  論文請見 http://www.Bitcoin.org/Bitcoin.pdf"
+> "我一直在研究一個新的電子現金系統，它是完全點對點的，沒有可信賴的第三方。  論文請見 http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > 我們非常、非常需要這樣的系統，但依我的理解，您的提案似乎無法達到所需的規模。
@@ -1551,7 +1551,7 @@ Bitcoin Core 和其他大多數的 Bitcoin 軟體都是開放原始碼的，這�
 橫向擴充是指將工作負載分割到多台機器上的技術。雖然這是流行網站和資料庫普遍採用的擴充方式，但在 Bitcoin 中卻不易實現。
 
 
-許多人將這種 Bitcoin 擴充方法稱為 *sharding*。基本上，它包括讓每個 Full node 只驗證 Blockchain 的一部分。Peter Todd 對分片的概念花了不少心思。他寫了一篇[部落格文章](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard)，概括性地解釋了分片，也提出了他自己的想法，稱為*樹鏈*。這篇文章很難閱讀，但 Todd 提出的一些觀點相當容易消化：
+許多人將這種 Bitcoin 擴充方法稱為 *sharding*。基本上，它包括讓每個 Full node 只驗證 Blockchain 的一部分。Peter Todd 對分片的概念花了不少心思。他寫了一篇[部落格文章](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard)，概括性地解釋了分片，也提出了他自己的想法，稱為*樹鏈*。這篇文章很難閱讀，但 Todd 提出的一些觀點相當容易消化：
 
 
 > 在分片系統中，「Full node 防禦 」並不管用，至少是直接不管用。問題的重點在於不是每個人都有所有的資料，所以您必須決定在沒有資料時該怎麼辦。
@@ -2101,7 +2101,7 @@ OpenSSL 發佈了其軟體的新版本，並附上修補程式，如果從一開
 
 
 
-不幸的是，BIP66 的故事並沒有就此結束。當 BIP66 啟動時，結果相當混亂，因為有些礦工沒有驗證他們試圖擴展的區塊。這就是所謂的無驗證 Mining，或 SPV-Mining（Simplified Payment Verification 的簡稱）。已向 Bitcoin 節點發出警示訊息，並附上 [說明問題的網頁](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) 連結：
+不幸的是，BIP66 的故事並沒有就此結束。當 BIP66 啟動時，結果相當混亂，因為有些礦工沒有驗證他們試圖擴展的區塊。這就是所謂的無驗證 Mining，或 SPV-Mining（Simplified Payment Verification 的簡稱）。已向 Bitcoin 節點發出警示訊息，並附上 [說明問題的網頁](https://bitcoin.org/en/alert/2015-07-04-spv-mining) 連結：
 
 
 > 2015 年 7 月 4 日清晨，達到 950/1000 (95%) 閾值。此後不久，一個小的 Miner（非升級 5% 的一部分）挖出了一個無效區塊 - 這是預期會發生的情況。不幸的是，結果發現大約一半的網路 Hash 率是 Mining 沒有完全驗證區塊（稱為 SPV Mining），並在該無效區塊之上建立新區塊。

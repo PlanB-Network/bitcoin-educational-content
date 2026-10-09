@@ -217,7 +217,7 @@ Da biste pregledali dnevnike vašeg Bitcoin čvora koji su posebno povezani s nj
 
 
 - [Wiki page explaining Tor and its relationship with Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core configuration file generator by Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core configuration file generator by Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Vodič za konfiguraciju Tor-a od Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

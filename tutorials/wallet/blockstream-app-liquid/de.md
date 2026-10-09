@@ -35,7 +35,7 @@ description: So konfigurieren Sie die Blockstream-App und verwenden das Liquid N
 
 
 
-**Liquid** ist eine **Sidechain** von Bitcoin, die von **[Blockstream](https://blockstream.com/Liquid/)** entwickelt wurde, um schnellere, mehr Confidential Transactions und erweiterte Funktionen zu bieten, während sie mit dem Haupt-Blockchain Bitcoin verbunden bleibt.
+**Liquid** ist eine **Sidechain** von Bitcoin, die von **[Blockstream](https://blockstream.com/liquid/)** entwickelt wurde, um schnellere, mehr Confidential Transactions und erweiterte Funktionen zu bieten, während sie mit dem Haupt-Blockchain Bitcoin verbunden bleibt.
 
 
 

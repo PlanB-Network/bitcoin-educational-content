@@ -14,7 +14,7 @@ Mini Miner braiins BMM 100は、Mining pool Braiinsの製品です。このデ�
 
 
 
-また、[メーカーサイト](https://braiins.com/hardware/mini-Miner-bmm-100)の完全ガイドを直接チェックすることで、より多くの重要な情報を得ることができる。
+また、[メーカーサイト](https://braiins.com/hardware/mini-miner-bmm-100)の完全ガイドを直接チェックすることで、より多くの重要な情報を得ることができる。
 
 
 

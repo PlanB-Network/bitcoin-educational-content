@@ -62,19 +62,19 @@ Ili kuhifadhi kifungu chako cha urejeshi, unahitaji kukiandika kwenye nyenzo hal
 Ingawa kuandika maneno yako kwenye kipande cha karatasi tayari ni mazoezi mazuri, kuchagua kishikilia chuma, kama vile chuma cha pua, hutoa usalama zaidi. Aina hii ya kishikiliaji hulinda maneno yako ya Mnemonic kutokana na hatari ya moto, mafuriko au kuanguka ambayo inaweza kuathiri eneo la kuhifadhi.
 
 
-Kwa wale wanaotafuta chaguo la kiuchumi la kucheleza maneno yao kwenye chuma, [mbinu ya DIY ya "*SAFU Ninja*"](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) ni suluhisho bora. Wote unahitaji kufanya ni kununua washers za chuma, screw na nut katika maduka. Kisha unaandika maneno ya sentensi yako kwenye kila washer, uhakikishe kuwa nambari, na kukusanya kwenye screw na nut. Njia hii ya gharama nafuu tayari inatoa upinzani mzuri.
+Kwa wale wanaotafuta chaguo la kiuchumi la kucheleza maneno yao kwenye chuma, [mbinu ya DIY ya "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) ni suluhisho bora. Wote unahitaji kufanya ni kununua washers za chuma, screw na nut katika maduka. Kisha unaandika maneno ya sentensi yako kwenye kila washer, uhakikishe kuwa nambari, na kukusanya kwenye screw na nut. Njia hii ya gharama nafuu tayari inatoa upinzani mzuri.
 
 
 ![SEED](assets/fr/01.webp)
 
 
-Salio la picha: [*Uhakiki wa SAFU Ninja*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
+Salio la picha: [*Uhakiki wa SAFU Ninja*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Iwapo ungependa kuwekeza kwenye kifaa kamili cha kuhifadhi nakala za chuma, ninapendekeza uangalie [majaribio ya upinzani ya Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), ambayo hutathmini suluhu nyingi zinazopatikana kwenye soko. Ningekushauri uchague mabano ya kipande kimoja, kama vile bamba la chuma la kuchonga, kupiga muhuri au kupiga. Vifaa hivi kwa ujumla hutoa upinzani mkubwa zaidi kuliko mifumo inayotumia herufi huru kukusanywa.
+Iwapo ungependa kuwekeza kwenye kifaa kamili cha kuhifadhi nakala za chuma, ninapendekeza uangalie [majaribio ya upinzani ya Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), ambayo hutathmini suluhu nyingi zinazopatikana kwenye soko. Ningekushauri uchague mabano ya kipande kimoja, kama vile bamba la chuma la kuchonga, kupiga muhuri au kupiga. Vifaa hivi kwa ujumla hutoa upinzani mkubwa zaidi kuliko mifumo inayotumia herufi huru kukusanywa.
 
 
-Ukichagua karatasi ya Wallet, una chaguo kadhaa: karatasi rahisi tupu, kadibodi ya Wallet inayotolewa mara nyingi na Hardware Wallet yako, au kiolezo chetu kinachoweza kupakuliwa ambacho unaweza kuchapisha [kwa kubofya. hapa](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Ukichagua karatasi ya Wallet, una chaguo kadhaa: karatasi rahisi tupu, kadibodi ya Wallet inayotolewa mara nyingi na Hardware Wallet yako, au kiolezo chetu kinachoweza kupakuliwa ambacho unaweza kuchapisha [kwa kubofya. hapa](https://github.com/planb-network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

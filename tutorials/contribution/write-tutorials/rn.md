@@ -29,7 +29,7 @@ Ivyigwa birareha kandi biratunganijwe neza kuruta inyigisho. Bakwiye gutohoza in
 Ivyigwa muri rusangi ni bigufi. Bigenewe kuba ubuyobozi bw’intambwe ku yindi ku buryo bwo gukora igikorwa kinaka gifitaniye isano na Bitcoin, hakaba hariho amashusho nk’infashanyo.
 
 
-[Tora inyigisho za Plan ₿ Academy](https://planb.urubuga/inyigisho)
+[Tora inyigisho za Plan ₿ Academy](https://planb.academy/tutorials)
 
 
 ![TUTO](assets/fr/38.webp)

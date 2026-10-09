@@ -109,7 +109,7 @@ Ushobora gukoresha ibikoresho vyinshi, nka Balena Etcher :
 
 
 
-- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://igishushanyo.balena.io/).
+- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://etcher.balena.io/).
 - Ugurure Balena Etcher, hanyuma uhitemwo ishusho ya Zorin ISO.
 - Hitamwo urufunguzo rwa USB nk'ivyo ukoresha.
 - Fyonda kuri Flash maze urindire ko igikorwa kirangira.
@@ -439,7 +439,7 @@ sudo apt install gparted
 
 
 
-Kugira ngo umenye vyinshi ku bijanye no gushiramwo porogarama muri Zorin OS, raba iyi paji: [Shiramwo porogarama (zorin.com)](https://zorin.com/imfashanyo/gushiramwo-porogarama/).
+Kugira ngo umenye vyinshi ku bijanye no gushiramwo porogarama muri Zorin OS, raba iyi paji: [Shiramwo porogarama (zorin.com)](https://zorin.com/help/install-apps/).
 
 
 

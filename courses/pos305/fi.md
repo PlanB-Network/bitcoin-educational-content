@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin-solmun lokit
 
 
-bitcoind-säiliön [lokien tarkastelun](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) lisäksi voit myös käyttää mitä tahansa [bitcoin-cli-komentoja](https://developer.Bitcoin.org/reference/RPC/index.html)
+bitcoind-säiliön [lokien tarkastelun](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) lisäksi voit myös käyttää mitä tahansa [bitcoin-cli-komentoja](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(avaa uuden ikkunan)](https://developer.Bitcoin.org/reference/RPC/index.html) saadaksesi tietoja Bitcoin-solmusta. BTCPay sisältää skriptin, jonka avulla voit kommunikoida Bitcoin-solmun kanssa helposti.
+[(avaa uuden ikkunan)](https://developer.bitcoin.org/reference/rpc/index.html) saadaksesi tietoja Bitcoin-solmusta. BTCPay sisältää skriptin, jonka avulla voit kommunikoida Bitcoin-solmun kanssa helposti.
 
 
 Hae btcpayserver-docker-kansion sisältä Blockchain-tiedot solmun avulla:

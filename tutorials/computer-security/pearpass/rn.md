@@ -73,7 +73,7 @@ PearPass iraboneka ku bikoresho vyose: Windows, Linux, macOS, Android, iOS n’i
 
 
 
-Ku Windows, PearPass itangwa nk’igikoresho ca kera co gushiramwo. Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho), hanyuma ukande kuri buto `Gukuraho Windows`.
+Ku Windows, PearPass itangwa nk’igikoresho ca kera co gushiramwo. Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/download), hanyuma ukande kuri buto `Gukuraho Windows`.
 
 
 
@@ -89,7 +89,7 @@ Iyo dosiye imaze gukurwako, fungura installer hanyuma ukurikize intambwe zigarag
 
 
 
-Ku macOS, PearPass ikwiragizwa nk'ishusho ya disiki (`.dmg`). Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho) maze uhitemwo verisiyo ihuye n’ubwubatsi bwa Mac yawe (Intel canke Apple Silicon). Uhejeje gukuraho, fungura dosiye `.dmg` maze utangure porogaramu muri dosiye ya `Iporogarama`.
+Ku macOS, PearPass ikwiragizwa nk'ishusho ya disiki (`.dmg`). Genda kuri [paji yemewe yo gukuraho](https://pass.pears.com/download) maze uhitemwo verisiyo ihuye n’ubwubatsi bwa Mac yawe (Intel canke Apple Silicon). Uhejeje gukuraho, fungura dosiye `.dmg` maze utangure porogaramu muri dosiye ya `Iporogarama`.
 
 
 
@@ -101,7 +101,7 @@ Igihe macOS itanguye ubwa mbere, izokwerekana ubutumwa bw’umutekano bwerekana 
 
 
 
-Ku Linux, PearPass iboneka mu buryo bwa `.AppImage`, bushobora gukorana n'ibindi bikoresho vyinshi ataco bishingiyeko. Gukuraho dosiye `.AppImage` kuri [paji yemewe yo gukuraho](https://pass.pears.com/gukuraho), hanyuma uyifungure ataco uhinduye ukanda kabiri.
+Ku Linux, PearPass iboneka mu buryo bwa `.AppImage`, bushobora gukorana n'ibindi bikoresho vyinshi ataco bishingiyeko. Gukuraho dosiye `.AppImage` kuri [paji yemewe yo gukuraho](https://pass.pears.com/download), hanyuma uyifungure ataco uhinduye ukanda kabiri.
 
 
 
@@ -150,7 +150,7 @@ Uretse ubu buryo bwo gushiramwo, birashoboka kandi gukura porogaramu mu bubiko b
 
 - [Ibiro](ibiro vy'ibiro);
 - [Itelefone ngendanwa](itelefone ngendanwa);
-- [Ukwaguka kw'umucukumbuzi](https://github.com/tetherto/ukwaguka kw'umucukumbuzi-app-yagutse).
+- [Ukwaguka kw'umucukumbuzi](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 

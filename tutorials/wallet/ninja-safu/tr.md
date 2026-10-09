@@ -36,7 +36,7 @@ Ninja SAFU yaklaşımı çeşitli avantajlar sunmaktadır:
 
 
 
-- **Güvenilirlik**: 2020 yılından bu yana test edilen yöntem, [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) gibi güvenlik uzmanları tarafından denenmiş ve test edilmiş, zorlu stres testlerine (aşırı ısı, korozyon, mekanik basınç) tabi tutulmuştur.
+- **Güvenilirlik**: 2020 yılından bu yana test edilen yöntem, [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) gibi güvenlik uzmanları tarafından denenmiş ve test edilmiş, zorlu stres testlerine (aşırı ısı, korozyon, mekanik basınç) tabi tutulmuştur.
 
 
 
@@ -354,13 +354,13 @@ Jameson Lopp'a göre:
 
 
 
-- ninja SAFU yöntemi hakkında [Rapor](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)
+- ninja SAFU yöntemi hakkında [Rapor](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)
 
 
 
 
 
-- Karşılaştırma tablosu [tam](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Karşılaştırma tablosu [tam](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

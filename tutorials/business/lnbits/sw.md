@@ -68,7 +68,7 @@ Kabla ya kusakinisha LNbits hakikisha kuwa umesoma na kuelewa miongozo ifuatayo 
 
 
 - [Mwongozo wa LND](https://docs.lightning.engineering/) | Inasakinisha LND
-- [Mfano wa Usanidi wa LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | Mipangilio ya LND
+- [Mfano wa Usanidi wa LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | Mipangilio ya LND
 - [Mwongozo wa CLN](https://docs.corelightning.org/docs/installation) | Inasakinisha CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Maalum | [NIPs](https://github.com/nostr-protocol/nips) Aina ya Nostr
 - [Endesha Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Muhimu sana!
@@ -80,7 +80,7 @@ Miongozo ya kina zaidi kwa kutumia LNbits katika hali maalum za utumiaji hapa:
 
 - [Kuanza na LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Mwongozo wa hifadhi ndogo
 - [Mambo ya Kufanya kwa usalama wako ukitumia LNbits](https://youtu.be/i5FQf96e6zg) | Video ya Youtube
-- [Benki za Kibinafsi kwenye Lightning Network](https://darthcoin.substack.com/p/Bitcoin-benki-za-binafsi-over-lightning) | Mwongozo wa hifadhi ndogo
+- [Benki za Kibinafsi kwenye Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Mwongozo wa hifadhi ndogo
 - [Endesha wallet za mlezi kwa marafiki na familia yako](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Mwongozo wa hifadhi ndogo
 - [LNbits kwa mkahawa/hoteli ndogo](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Mwongozo wa hifadhi ndogo
 - [Kutumia nakala ya LNbits Streamer](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Mwongozo wa hifadhi ndogo

@@ -11,8 +11,8 @@ Rondera aha hepfo amasoko makeyi y'insobanuro ya Electrum:
 
 
 - [X](ku rubuga rwa Twitter/Igikapu c'umuyagankuba)
-- [Urubuga rw'amashanyarazi](https://amashanyarazi.org/)
-- [Inyandiko z'umuyagankuba](https://umuyagankuba.soma inyandiko.io/)
+- [Urubuga rw'amashanyarazi](https://electrum.org/)
+- [Inyandiko z'umuyagankuba](https://electrum.readthedocs.io/)
 
 
 Ehe ivyo Rogzy yiyumvira kuri iyi nyigisho:
@@ -101,7 +101,7 @@ Igikurikira, ukeneye kuronka urufunguzo rwa bose rwa ThomasV – ni we muhinguzi
 Kuyironka ku rubuga rwa Electrum ni yo nzira idatekanye cane, kuko nimba uru rubuga ari urw’ububisha (ico kintu nyene turiko turasuzuma) ni kuki turiko turaronka urufunguzo rwa bose muri rwo (urufunguzo rwa bose rwoshobora kuba ari urw’ikinyoma)?
 
 
-Kugira ngo bibe vyoroshe ubu, nzokwereka ingene wobikura ku rubuga uko biri kwose, ariko ivyo ubizirikane. Aha niho hari kopi (https://github.com/electrum/blob/master/pubkeys/ThomasV.asc ) iri kuri GitHub ushobora kuyigereranya nayo.
+Kugira ngo bibe vyoroshe ubu, nzokwereka ingene wobikura ku rubuga uko biri kwose, ariko ivyo ubizirikane. Aha niho hari kopi (https://github.com/spesmilo/electrum/blob/master/pubkeys/ThomasV.asc ) iri kuri GitHub ushobora kuyigereranya nayo.
 
 
 Hanukira kuri paji gatoyi kugira uronke urufunguzo rwa ThomasV rwa bose (uruziga rutukura ruri musi). Uyifyondeko maze uyikureko, canke nimba yuguruye umwandiko umwe mu mucukumbuzi, ukande iburyo kugira ngo uyibike.
@@ -1146,7 +1146,7 @@ Ubu warafunguye Hardware Wallet yawe ihuye n’ivyo kuraba Wallet. Biragyoshe.
 ### Gufatanya biciye ku nzira ya USB.
 
 
-Ubu buryo bukwiye kuba bworoshe, ariko kuri mudasobwa za Linux, biragoye cane. Ikintu citwa “amategeko ya Udev” gikeneye guhindurwa. Ehe ingene (uburongozi burambuye https://armantheparman.com/gpg-ingingo/ ), no muri make:
+Ubu buryo bukwiye kuba bworoshe, ariko kuri mudasobwa za Linux, biragoye cane. Ikintu citwa “amategeko ya Udev” gikeneye guhindurwa. Ehe ingene (uburongozi burambuye https://armantheparman.com/gpg-articles/ ), no muri make:
 
 
 Ni vyiza kumenya neza ko iyo sisitemu iri ku gihe. None:
@@ -1298,4 +1298,4 @@ Niwabona ko iki gitabu ari ngirakamaro, kandi wipfuza gushigikira ivyo nkorera B
 
 Umuravyo uhagaze Address: umufuko84@umufuko wa satoshi.com
 
-https://armantheparman.com/umuyagankuba/
+https://armantheparman.com/electrum/

@@ -322,7 +322,7 @@ aezeed 金鑰格式應與下列行動錢包相容：Blixt、BlueWallet 和 Breez
 如果您發現經過一段長時間後仍未顯示舊的歷史 txs，請前往 Embedded node - Peers 並停用選項來使用選定的對等者清單 (預設為 btcd.lnolymp.us)。這將會觸發重新啟動，並連線到第一個可用的中微子節點，並有更好的時間回應。或者使用下面提到的其他知名中微子節點。
 
 
-如果您想查看 LND 節點的更多復原選項，[請閱讀我之前的指南](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)，您可以在其中找到如何將 Aezeed seed 匯入 Sparrow Wallet 的步驟或其他方法。
+如果您想查看 LND 節點的更多復原選項，[請閱讀我之前的指南](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)，您可以在其中找到如何將 Aezeed seed 匯入 Sparrow Wallet 的步驟或其他方法。
 
 
 **C - 嵌入式節點**

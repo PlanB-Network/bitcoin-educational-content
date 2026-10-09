@@ -68,7 +68,7 @@ Mara usakinishaji ukamilika, utahitaji kuingiza kitambulisho cha akaunti yako. T
 ## Jinsi ya kufunga Mullvad VPN kwenye smartphone?
 
 
-Pakua Mullvad VPN kutoka duka lako la programu, iwe ni [AppStore](https://apps.apple.com/us/app/mullvad-vpn/id1488466513) kwa watumiaji wa iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.mullvad.nmll) ya Android [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/). Ikiwa unatumia Android, pia una chaguo la kupakua faili ya `.apk` moja kwa moja kutoka [tovuti ya Mullvad](https://mullvad.net/en/download/vpn/android).
+Pakua Mullvad VPN kutoka duka lako la programu, iwe ni [AppStore](https://apps.apple.com/us/app/mullvad-vpn/id1488466513) kwa watumiaji wa iOS, [Google Play Store](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) ya Android [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/). Ikiwa unatumia Android, pia una chaguo la kupakua faili ya `.apk` moja kwa moja kutoka [tovuti ya Mullvad](https://mullvad.net/en/download/vpn/android).
 
 ![MULLVAD VPN](assets/notext/07.webp)
 

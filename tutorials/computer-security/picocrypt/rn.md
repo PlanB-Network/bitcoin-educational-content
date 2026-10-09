@@ -40,7 +40,7 @@ Kugira ngo ukurikize umugambi wa Picocrypt, hariho Address imwe gusa:
 
 
 
-- [Igishushanyo co kuri GitHub](https://github.com/Igishushanyo/Igishushanyo)
+- [Igishushanyo co kuri GitHub](https://github.com/Picocrypt/Picocrypt)
 
 
 
@@ -113,7 +113,7 @@ Ku bw’iyi yerekanwa, hazokoreshwa imashini ya Windows 11.
 
 
 
-Mbere na mbere, ukeneye gukura Picocrypt.exe kuri GitHub yemewe ([raba iyi paji](https://github.com/Ivyasohotse)).
+Mbere na mbere, ukeneye gukura Picocrypt.exe kuri GitHub yemewe ([raba iyi paji](https://github.com/Picocrypt/Picocrypt/releases)).
 
 
 

@@ -365,7 +365,7 @@ Heuristics mbili za kwanza za chain analysis ziligunduliwa na Satoshi Nakamoto m
 
 ![BTC204](assets/sw/031.webp)
 
-Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 Tutaona ni nini katika sura zinazofuata, lakini tayari inafurahisha kutambua kwamba Legacy hizi mbili bado zinaendelea kuwa na umuhimu katika uchanganuzi wa msururu leo.
 
@@ -638,7 +638,7 @@ Kama ilivyoelezwa katika utangulizi wa Sehemu ya 3, utabiri huu uligunduliwa na 
 
 ![BTC204](assets/sw/055.webp)
 
-Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 Kwa mfano, hapa kuna address ambayo inatumika tena katika shughuli kadhaa:
 
@@ -662,7 +662,7 @@ Kwa mfano, tutaweza kubaini kuwa mtumiaji tunayemfuatilia hutuma *change* yake m
 
 ![BTC204](assets/sw/057.webp)
 
-Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-ea)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa elements hizi mpya pamoja na programu za wallet mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
+Kama [@LaurentMT](https://twitter.com/LaurentMT) anavyoonyesha katika [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji)—*podcast* ya Kifaransa muhimu—alama za vidole katika uchanganuzi wa mnyororo huongezeka kwa kiasi kikubwa kadri muda unavyopita. Kwa hakika, idadi inayoongezeka ya aina za *script* na utumaji unaoendelea wa elements hizi mpya pamoja na programu za wallet mbalimbali husisitiza tofauti hizo. Katika baadhi ya matukio, inawezekana hata kutambua programu halisi inayotumiwa na chombo kinachofuatiliwa. Kwa hivyo, ni muhimu kuelewa kwamba utafiti wa nyayo za kwingineko unafaa zaidi kwa shughuli za hivi karibuni, badala ya zile zilizoanzishwa mapema miaka ya 2010.
 
 Kwa muhtasari, alama ya miguu inaweza kuwa mazoezi yoyote mahususi, yanayofanywa kiotomatiki na wallet au kwa mikono na mtumiaji, ambayo tunaweza kupata kwenye miamala mingine ili kutusaidia katika uchanganuzi wetu.
 
@@ -1135,7 +1135,7 @@ Kwa kuwa blockchain ni ya umma, ni rahisi kuona ni Address zipi zimefunga UTXO n
 > *Kama ngome ya ziada, jozi mpya ya funguo inaweza kutumika kwa kila muamala ili kuwatenganisha na mmiliki wa kawaida*
 ![BTC204](assets/sw/070.webp)
 
-Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://Bitcoin.org/Bitcoin.pdf, 2009.
+Chanzo: S. Nakamoto, "Bitcoin: Peer-to-Peer Electronic Cash System", https://bitcoin.org/bitcoin.pdf, 2009.
 
 Kusudi la Satoshi katika sentensi hii ilikuwa kuunda ngome ya ziada ikiwa kuna uhusiano kati ya utambulisho wa mtumiaji na jozi muhimu kwenye Bitcoin, ili kuzuia miamala yake yote isihusishwe hadharani na utambulisho wake. Leo, pamoja na kuongezeka kwa kampuni za uchanganuzi za blockchain na kanuni za KYC, utumiaji wa address za kipekee sio "ngozo ya ziada", lakini ni mazoezi ya lazima kwa mtu yeyote anayetaka kuhifadhi kiwango cha chini cha faragha.
 
@@ -2318,7 +2318,7 @@ E &= 23.244 \text{ bits}
 \end{align*}
 $$
 
-Hebu tuchukue mfano mwingine na shughuli ya awali ya malipo, yenye ingizo 1 na matokeo 2: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://GW-906.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
+Hebu tuchukue mfano mwingine na shughuli ya awali ya malipo, yenye ingizo 1 na matokeo 2: [1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce](https://mempool.space/tx/1b1b0c3f0883a99f1161c64da19471841ed12a1f78e77fab128c69a5f578ccce)
 
 ![BTC204](assets/sw/168.webp)
 

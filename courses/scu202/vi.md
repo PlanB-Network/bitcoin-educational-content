@@ -7951,7 +7951,7 @@ Quick Share hiện là tiêu chuẩn trên Android. Phần mềm này, ban đầ
 Snapdrop là một giải pháp thay thế miễn phí, mã nguồn mở, không cần cài đặt. Nó cho phép bạn chia sẻ tệp giữa các thiết bị được kết nối với cùng một mạng cục bộ, chỉ cần thông qua trình duyệt web. Việc truyền tải diễn ra trực tiếp (ngang hàng) và dữ liệu không bao giờ phải đi qua máy chủ từ xa.
 
 
-Một lựa chọn thay thế thú vị là [PairDrop](https://github.com/schlamgichdoch/pairdrop) (một Fork của Snapdrop), cung cấp một số tính năng bổ sung.
+Một lựa chọn thay thế thú vị là [PairDrop](https://github.com/schlagmichdoch/pairdrop) (một Fork của Snapdrop), cung cấp một số tính năng bổ sung.
 
 
 

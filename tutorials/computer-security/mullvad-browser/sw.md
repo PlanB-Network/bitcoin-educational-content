@@ -547,7 +547,7 @@ Ingawa ina vikwazo fulani (hakuna toleo la simu ya mkononi, vipindi visivyoendel
 
 - [Tovuti Rasmi ya Kivinjari cha Mullvad](https://mullvad.net/fr/browser)
 - [Ukurasa wa upakuaji wa Kivinjari cha Mullvad](https://mullvad.net/en/download/browser)
-- [Maelezo ya kina ya kiufundi](https://mullvad.net/en/browser/Hard-facts)
+- [Maelezo ya kina ya kiufundi](https://mullvad.net/en/browser/hard-facts)
 - [Kiendelezi cha Kivinjari cha Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

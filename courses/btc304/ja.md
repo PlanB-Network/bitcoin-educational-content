@@ -48,7 +48,7 @@ BTC304へようこそ！
 
 
 
-- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、[ビットコインを使うことへの世界中の人々の関心の高まり](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
+- レバノン、シリア、エジプト、アルゼンチンなどの人々がそうであるように、[ビットコインを使うことへの世界中の人々の関心の高まり](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)は、銀行システムからの解放、および／または変動の少ない、または切り下げられた通貨を使うことを意味する；
 - 金融政策の固定化によって、長期的に価格が上昇し、価値の保存と長期投資としての地位を確立している；
 - 特に2017年から2018年、2020年から2021年にかけて、投機的な暗号通貨市場が連続的に成長する；
 - 主流メディアで存在感を増すビットコイン。
@@ -1999,7 +1999,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 いくつかのチラシは、planB.networkの[教育用ツールキット](https://planb.academy/fr/resources/bet)ですでにオープンソースとして入手可能であり、今後も追加される予定である。
 
 
-一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
+一例として、ビットコインを使う21の理由が書かれた[完全なソースのチラシ](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)がある。そのデザインも[オープンソースで入手可能](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)であり、あなたが修正・翻案して共有することができる。出典のクレジットをお忘れなく。
 
 
 
@@ -2043,7 +2043,7 @@ Telegramグループが大きくなりすぎたら、Telegramスーパーグル�
 - フランス語に翻訳されたビットコインホワイトペーパー。
 
 
-こちらは[フランスのビットコイナーたちの間で共有されている小冊子](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
+こちらは[フランスのビットコイナーたちの間で共有されている小冊子](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)で、国中の何十もの本箱に置かれている。そのデザインは[オープンソースとしても利用できる](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
 
 
 

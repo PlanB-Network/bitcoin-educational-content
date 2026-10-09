@@ -138,4 +138,4 @@ Inyuma y'isubiramwo:
 ![img](assets/en/07.webp)
 
 
-Bivanye n’ububasha bwawe, ushobora gukenera gukurikiza amabwirizwa yihariye yo gutanga canke ukoreshe amafishi yihariye y’igihugu n’amakuru yawe yoherejwe hanze. [Ivyigwa vya Divly vyerekeye igihugu](https://divly.com/ru/ibirongoro) birashobora kugufasha mu ntambwe zo gutanga iyo bikenewe.
+Bivanye n’ububasha bwawe, ushobora gukenera gukurikiza amabwirizwa yihariye yo gutanga canke ukoreshe amafishi yihariye y’igihugu n’amakuru yawe yoherejwe hanze. [Ivyigwa vya Divly vyerekeye igihugu](https://divly.com/en/guides) birashobora kugufasha mu ntambwe zo gutanga iyo bikenewe.

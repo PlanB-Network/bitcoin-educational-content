@@ -21,7 +21,7 @@ Chúng ta hãy cùng tìm hiểu cách dễ dàng để bắt đầu tích hợp
 ## Bắt đầu với Bittr
 
 
-- Trên web hoặc thiết bị di động, hãy truy cập [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) và nhấp vào “Mua Bitcoin”
+- Trên web hoặc thiết bị di động, hãy truy cập [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) và nhấp vào “Mua Bitcoin”
 
 
 

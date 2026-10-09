@@ -44,7 +44,7 @@ Niba ufise abaguzi bo kw’isi yose, Bitcoin irafise akamaro ko kuba amafaranga 
 Ku bucuruzi bwo kuri internet, Bitcoin na yo ni uburyo bwiza bwo kwemera kwishura kure ata nkomanzi, ataco ukeneye guca mu buryo bwa kera bwo gukoresha amabanki. Iryo koreshwa ryari rimwe mu ntumbero za mbere za Satoshi Nakamoto, uwahinguye Bitcoin, uwayidondora nk'"*Uburyo bw'amahera y'ubuhinga bwa none*".
 
 
-Ubwa nyuma, kwinjiza Bitcoin mu bucuruzi bwawe navyo birashobora kuba igice c’ingene womenyekanisha. Kwemera BTC birashobora gutuma ishirahamwe ryawe rigira ubuhinga bushasha, rishobora guhindura, kandi rihuye n’iterambere ry’ubuhinga, mu gihe rigufungurira isoko rishasha. Dukurikije [itohoza ryakozwe na KPMG](https://kpmg.com/fr/fr/home/media-releases), 12% vy’Abafaransa barafise amafaranga y’ivy’ubuhinga bwa none, kandi benshi muri bo bafise amafaranga y’ubuhinga bwa none, kandi benshi muri bo bafise amafaranga y’ubuhinga bwa none. Mu kwemera ubu buryo bwo kwishura, urashobora gukwegera abo bakiriya bipfuza gukoresha Sats yabo, iyo bataba ari bo boba batazokwigera baza mu bucuruzi bwawe. Ni uburyo bwiza kandi bwo kwimenyekanisha ku ruvyaro rwa Z.
+Ubwa nyuma, kwinjiza Bitcoin mu bucuruzi bwawe navyo birashobora kuba igice c’ingene womenyekanisha. Kwemera BTC birashobora gutuma ishirahamwe ryawe rigira ubuhinga bushasha, rishobora guhindura, kandi rihuye n’iterambere ry’ubuhinga, mu gihe rigufungurira isoko rishasha. Dukurikije [itohoza ryakozwe na KPMG](https://kpmg.com/fr/fr/home/media/press-releases/2024/03/web3-crypto-actifs-adan.html), 12% vy’Abafaransa barafise amafaranga y’ivy’ubuhinga bwa none, kandi benshi muri bo bafise amafaranga y’ubuhinga bwa none, kandi benshi muri bo bafise amafaranga y’ubuhinga bwa none. Mu kwemera ubu buryo bwo kwishura, urashobora gukwegera abo bakiriya bipfuza gukoresha Sats yabo, iyo bataba ari bo boba batazokwigera baza mu bucuruzi bwawe. Ni uburyo bwiza kandi bwo kwimenyekanisha ku ruvyaro rwa Z.
 
 
 Mu vyiyumviro vyanje, kwemera Bitcoin bikwiye gufatwa nk’akaryo gatoyi gashobora kugira ingaruka nziza cane ku bucuruzi bwawe. Iyo ivyo bintu vyabaye bigaragaye ko bitashoboye, amahera azokoreshwa azoguma ari make cane. Igiciro nyamukuru kiri mu gihe gikenewe kugira ngo ushireho umuti wo kwemera BTC, ariko nk’uko uzobibona muri iyi nyigisho, ubu biroroshe cane kandi biranyaruka gushikako.
@@ -67,7 +67,7 @@ Swiss Bitcoin Pay rero yigaragaza nk’ubundi buryo bushimishije hagati y’imit
 ## Ni gute wokora konti ya Bitcoin Pay y’Ubusuwisi?
 
 
-Sura [urubuga rwemewe rw’Ubusuwisi rwitwa Bitcoin Pay](https://Ubusuwisi-Bitcoin-pay.ch/).
+Sura [urubuga rwemewe rw’Ubusuwisi rwitwa Bitcoin Pay](https://swiss-bitcoin-pay.ch/).
 
 ![SWISS BITCOIN PAY](assets/notext/01.webp)
 
@@ -144,7 +144,7 @@ Ushobora gusa kuronka ubuhinga bwo kwishura mu buryo bw’urubuga ku rubuga ruku
 
 ![SWISS BITCOIN PAY](assets/notext/16.webp)
 
-Niba ushaka gukoresha PoS kuri telefone ngendanwa canke kuri tablette, urafise uburyo bubiri: gushiramwo iyo porogarama canke ukoreshe verisiyo y’urubuga uhereye ku mucukumbuzi wawe. Ku bijanye n’uburyo bwa nyuma, ushike ku rubuga rwawe rw’ibarabara winjira kuri [urubuga rwa Swiss Bitcoin Pay](https://urubuga.Swiss-Bitcoin-pay.ch/signin).
+Niba ushaka gukoresha PoS kuri telefone ngendanwa canke kuri tablette, urafise uburyo bubiri: gushiramwo iyo porogarama canke ukoreshe verisiyo y’urubuga uhereye ku mucukumbuzi wawe. Ku bijanye n’uburyo bwa nyuma, ushike ku rubuga rwawe rw’ibarabara winjira kuri [urubuga rwa Swiss Bitcoin Pay](https://dashboard.swiss-bitcoin-pay.ch/signin).
 
 ![SWISS BITCOIN PAY](assets/notext/17.webp)
 
@@ -216,7 +216,7 @@ Kubera ko nari nahisemwo gukura amahera biciye kuri Lightning Address, ndashobor
 ## Ni gute wocungera ubucuruzi bwawe ukoresheje Swiss Bitcoin Pay?
 
 
-Kugira ngo ushobore gutwara neza ubucuruzi bwawe, vyose bibera ku dashboard yawe. Sura [urubuga rwemewe rw’Ubusuwisi Bitcoin Pay](https://Ubusuwisi-Bitcoin-pay.ch/).
+Kugira ngo ushobore gutwara neza ubucuruzi bwawe, vyose bibera ku dashboard yawe. Sura [urubuga rwemewe rw’Ubusuwisi Bitcoin Pay](https://swiss-bitcoin-pay.ch/).
 
 ![SWISS BITCOIN PAY](assets/notext/34.webp)
 

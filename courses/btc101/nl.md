@@ -541,7 +541,7 @@ Het bedrag dat iemand bereid is achter te laten op een bepaald beveiligingsnivea
 
 Concluderend, direct eigenaarschap van iemands bitcoins is een essentieel element om financiële soevereiniteit te garanderen. Het wordt aanbevolen om een mobiele wallet te gebruiken voor dagelijkse uitgaven en een offline, of 'cold', fysieke wallet om grotere bedragen op te slaan. Echter, bedrijven zouden moeten overwegen om systemen met meerdere handtekeningen, ofwel "multisig", te gebruiken voor meer en gedeelde veiligheid. Het is ook essentieel om custodial services (bewaardiensten) te vermijden, die vatbaar zijn voor sommige kwetsbaarheden van het traditionele financiële systeem.
 
-Met dit in gedachten kunnen we nu naar het volgende deel gaan, waar we beschrijven hoe je een Bitcoin wallet kunt maken. Als je je echter verder wilt verdiepen in het onderwerp veiligheid, kun je dit [artikel van DarthCoin](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque) lezen.
+Met dit in gedachten kunnen we nu naar het volgende deel gaan, waar we beschrijven hoe je een Bitcoin wallet kunt maken. Als je je echter verder wilt verdiepen in het onderwerp veiligheid, kun je dit [artikel van DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque) lezen.
 
 ## Een wallet instellen
 
@@ -765,7 +765,7 @@ Nodes zijn een fundamenteel element van de Bitcoin netwerkarchitectuur omdat ze 
 - Informatie verzenden naar andere nodes
 - De regels van het Bitcoin protocol afdwingen
 
-Daarom draagt elk apparaat dat een stuk Bitcoin software draait, een Bitcoin node genoemd (vaak met [Bitcoin Core](https://Bitcoin.org/en/Bitcoin-core/)), bij aan de decentralisatie van het netwerk.
+Daarom draagt elk apparaat dat een stuk Bitcoin software draait, een Bitcoin node genoemd (vaak met [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), bij aan de decentralisatie van het netwerk.
 
 ![image](assets/nl/050.webp)
 

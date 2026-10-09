@@ -217,7 +217,7 @@ Bitcoin düğümünüzün özellikle Tor ile etkileşimiyle ilgili günlüklerin
 
 
 - [Tor ve Bitcoin ile ilişkisini açıklayan Wiki sayfası](https://en.Bitcoin.it/wiki/Tor)
-- [Jameson Lopp tarafından Bitcoin core yapılandırma dosyası oluşturucu](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Jameson Lopp tarafından Bitcoin core yapılandırma dosyası oluşturucu](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Jon Atack tarafından hazırlanan Tor yapılandırma kılavuzu](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

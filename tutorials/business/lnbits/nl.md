@@ -69,7 +69,7 @@ Voordat je LNbits installeert, moet je eerst de volgende algemene gidsen hebben 
 
 
 - [LND Gids](https://docs.lightning.engineering/) | LND installeren
-- [LND Configuratievoorbeeld](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Instellingen
+- [LND Configuratievoorbeeld](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND Instellingen
 - [CLN gids](https://docs.corelightning.org/docs/installation) | CLN installeren
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Voer een Watchtower uit (https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Zeer belangrijk!
@@ -81,7 +81,7 @@ Meer gedetailleerde gidsen over het gebruik van LNbits in specifieke gebruikssce
 
 - [Aan de slag met LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack-gids
 - [ToDos voor uw veiligheid met LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Private Banken op Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Substack gids
+- [Private Banken op Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Substack gids
 - [Bewaarportemonnees uitvoeren voor je vrienden & familie](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack-gids
 - [LNbits voor een klein restaurant / hotel](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack gids
 - [LNbits Streamer copilot gebruiken](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack-gids

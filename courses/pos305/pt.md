@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Registos do nó Bitcoin
 
 
-Para além de [ver os registos](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) do seu contentor bitcoind, também pode utilizar qualquer um dos [comandos bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Para além de [ver os registos](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) do seu contentor bitcoind, também pode utilizar qualquer um dos [comandos bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(abre nova janela)](https://developer.Bitcoin.org/reference/RPC/index.html) para obter informações do seu nó Bitcoin. BTCPay inclui um script que lhe permite comunicar facilmente com o seu nó Bitcoin.
+[(abre nova janela)](https://developer.bitcoin.org/reference/rpc/index.html) para obter informações do seu nó Bitcoin. BTCPay inclui um script que lhe permite comunicar facilmente com o seu nó Bitcoin.
 
 
 Dentro da pasta btcpayserver-docker, obtém a informação Blockchain utilizando o teu nó:

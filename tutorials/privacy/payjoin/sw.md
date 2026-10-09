@@ -62,7 +62,7 @@ Kwa kuona muamala huu kwenye Blockchain, mwangalizi wa nje ambaye anafuata kanun
 
 Ufafanuzi huu ni wazi sio sahihi kwa sababu, kama unavyojua tayari, UTXO mbili za pembejeo sio za mtu yule yule. Zaidi ya hayo, thamani halisi ya malipo si `19,000 Sats`, bali ni `4,000 Sats`. Uchambuzi wa mwangalizi wa nje kwa hivyo unaelekezwa kwenye hitimisho potofu, kuhakikisha uhifadhi wa usiri wa washikadau.![PayJoin transaction diagram](assets/sw/1.webp)
 
-Ikiwa ungependa kuchambua muamala halisi wa PayJoin, hapa kuna ule niliofanya kwenye Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://Mempool.s pace/fr/Testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
+Ikiwa ungependa kuchambua muamala halisi wa PayJoin, hapa kuna ule niliofanya kwenye Testnet: [8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c](https://mempool.space/fr/testnet/tx/8dba6657ab9bb44824b3317c8cc3f333c2f465d3668c678691a091cdd6e5984c)
 
 
 

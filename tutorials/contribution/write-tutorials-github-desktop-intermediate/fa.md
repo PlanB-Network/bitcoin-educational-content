@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 اکنون می‌توانید زیر بخش "بدون اسکریپت پایتون من" و همچنین مرحله 3، "پر کردن فایل YAML" را نادیده بگیرید، زیرا اسکریپت قبلاً این اقدامات را برای شما انجام داده است. مستقیماً به مرحله 4 بروید و شروع به نوشتن آموزش خود کنید.
 
 
-برای کسب اطلاعات بیشتر در مورد این اسکریپت پایتون، می‌توانید [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) را نیز بررسی کنید.
+برای کسب اطلاعات بیشتر در مورد این اسکریپت پایتون، می‌توانید [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md) را نیز بررسی کنید.
 
 
 ### بدون اسکریپت پایتون من

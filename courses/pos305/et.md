@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin sõlme logid
 
 
-Lisaks oma bitcoind konteineri [logide vaatamisele](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) saate kasutada ka mõnda [bitcoin-cli käsku](https://developer.Bitcoin.org/reference/RPC/index.html)
+Lisaks oma bitcoind konteineri [logide vaatamisele](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) saate kasutada ka mõnda [bitcoin-cli käsku](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(avaneb uus aken)](https://developer.Bitcoin.org/reference/RPC/index.html), et saada teavet oma Bitcoin sõlme kohta. BTCPay sisaldab skripti, mis võimaldab teil oma Bitcoin sõlmpunktiga hõlpsasti suhelda.
+[(avaneb uus aken)](https://developer.bitcoin.org/reference/rpc/index.html), et saada teavet oma Bitcoin sõlme kohta. BTCPay sisaldab skripti, mis võimaldab teil oma Bitcoin sõlmpunktiga hõlpsasti suhelda.
 
 
 Btcpayserver-docker kausta sees, saada Blockchain teave oma sõlme abil:

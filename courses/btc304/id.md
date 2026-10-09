@@ -48,7 +48,7 @@ Pertumbuhan yang signifikan ini, tentu saja, terkait erat dengan:
 
 
 
-- (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), untuk membebaskan diri dari sistem perbankan dan/atau menggunakan mata uang yang tidak terlalu bergejolak atau tidak terlalu terdevaluasi, seperti yang dilakukan oleh penduduk di Lebanon, Suriah, Mesir, Argentina, dan lain-lain;
+- (https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), untuk membebaskan diri dari sistem perbankan dan/atau menggunakan mata uang yang tidak terlalu bergejolak atau tidak terlalu terdevaluasi, seperti yang dilakukan oleh penduduk di Lebanon, Suriah, Mesir, Argentina, dan lain-lain;
 - apresiasi harganya dari waktu ke waktu, menjadikannya sebagai penyimpan nilai dan investasi jangka panjang, didorong oleh kebijakan moneter yang tetap;
 - pertumbuhan pasar mata uang kripto spekulatif secara berturut-turut, terutama selama 2017-2018 dan 2020-2021;
 - Kehadiran Bitcoin yang semakin meningkat di media arus utama.
@@ -2006,7 +2006,7 @@ Anda juga dapat mendesain brosur khusus untuk komunitas atau pertemuan Anda, yan
 Beberapa brosur telah tersedia sebagai sumber terbuka di [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet) di planB.network dan lebih banyak lagi yang akan ditambahkan dari waktu ke waktu.
 
 
-Salah satu contohnya adalah [brosur bersumber lengkap](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) dengan 21 alasan untuk menggunakan Bitcoin. Desainnya juga [tersedia dalam sumber terbuka](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) bagi Anda untuk dimodifikasi, diadaptasi, dan dibagikan. Ingatlah untuk mencantumkan sumber Anda.
+Salah satu contohnya adalah [brosur bersumber lengkap](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) dengan 21 alasan untuk menggunakan Bitcoin. Desainnya juga [tersedia dalam sumber terbuka](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) bagi Anda untuk dimodifikasi, diadaptasi, dan dibagikan. Ingatlah untuk mencantumkan sumber Anda.
 
 
 
@@ -2050,7 +2050,7 @@ Meskipun meninggalkan kertas putih Bitcoin adalah simbolis, namun sering kali te
 - kertas putih Bitcoin, diterjemahkan ke dalam bahasa Prancis.
 
 
-Berikut ini [buklet yang dibagikan kepada para pengguna bitcoin di Perancis](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) yang telah ditempatkan di lusinan kotak buku di seluruh negeri. Desainnya juga [tersedia sebagai sumber terbuka](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Berikut ini [buklet yang dibagikan kepada para pengguna bitcoin di Perancis](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) yang telah ditempatkan di lusinan kotak buku di seluruh negeri. Desainnya juga [tersedia sebagai sumber terbuka](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

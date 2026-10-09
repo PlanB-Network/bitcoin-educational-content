@@ -11,7 +11,7 @@ Panduan ini didedikasikan untuk semua pengguna baru yang ingin mulai menggunakan
 Menggunakan [Blixt Wallet](https://blixtwallet.com/), sebuah node LN penuh di ponsel Anda, di mana pun Anda berada.
 
 
-Jika Anda belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [silakan baca analogi penjelasan sederhana tentang Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Jika Anda belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [silakan baca analogi penjelasan sederhana tentang Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## ASPEK-ASPEK PENTING:
@@ -22,11 +22,11 @@ Jika Anda belum pernah menggunakan Bitcoin Lightning Network, sebelum memulai, [
 
 
 
-- Blixt menggunakan LND (aezeed) sebagai backend Wallet, jadi jangan coba-coba mengimpor jenis dompet Bitcoin lainnya ke dalamnya. [Di sini Anda telah menjelaskan jenis-jenis Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Dan berikut ini adalah [daftar yang lebih lengkap dari semua jenis wallet](https://walletsrecovery.org/). Jadi, jika sebelumnya Anda memiliki node LND, Anda dapat mengimpor seed dan backup.channels ke dalam Blixt, [seperti yang dijelaskan dalam panduan ini](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt menggunakan LND (aezeed) sebagai backend Wallet, jadi jangan coba-coba mengimpor jenis dompet Bitcoin lainnya ke dalamnya. [Di sini Anda telah menjelaskan jenis-jenis Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Dan berikut ini adalah [daftar yang lebih lengkap dari semua jenis wallet](https://walletsrecovery.org/). Jadi, jika sebelumnya Anda memiliki node LND, Anda dapat mengimpor seed dan backup.channels ke dalam Blixt, [seperti yang dijelaskan dalam panduan ini](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Di akhir panduan ini, Anda akan menemukan bagian khusus yang berisi ["tips dan trik"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Di akhir panduan ini, Anda akan menemukan bagian khusus yang berisi ["tips dan trik"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Di sudut kanan atas, Anda akan melihat 3 titik yang mengaktifkan menu:
 
 - "aktifkan Tor" - pengguna dapat memulai dengan jaringan Tor, secara khusus jika ingin memulihkan node LND lama yang berjalan dengan rekan-rekan Tor saja.
 - "Set Bitcoin node" - jika pengguna ingin terhubung ke node-nya sendiri secara langsung, untuk menyinkronkan blok melalui Neutrino, dapat melakukannya langsung dari layar selamat datang. Opsi ini juga bagus jika koneksi internet atau Tor Anda tidak begitu stabil untuk terhubung ke node Bitcoin default (node.blixtwallet.com).
-- Dalam waktu dekat akan ditambahkan bahasa di sana, sehingga pengguna dapat langsung memulai dengan bahasa yang nyaman. Jika Anda ingin berkontribusi pada proyek open source ini dengan menerjemahkan ke bahasa lain, [silakan bergabung di sini](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Dalam waktu dekat akan ditambahkan bahasa di sana, sehingga pengguna dapat langsung memulai dengan bahasa yang nyaman. Jika Anda ingin berkontribusi pada proyek open source ini dengan menerjemahkan ke bahasa lain, [silakan bergabung di sini](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### OPSI A - Buat Wallet baru
@@ -241,7 +241,7 @@ SELAMAT DATANG PETIR Bitcoin!
 Ingat, pada bab satu "Kontak Pertama" ada 2 pilihan di layar Selamat Datang:
 
 
-- [Opsi A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Buat Wallet baru
+- [Opsi A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Buat Wallet baru
 - Opsi B - Pulihkan Wallet
 
 
@@ -251,7 +251,7 @@ Jadi sekarang mari kita bahas tentang cara memulihkan Blixt Wallet atau node LND
 ### OPSI B - Kembalikan Wallet
 
 
-Di masa lalu saya menulis panduan khusus tentang [cara memulihkan node Umbrel yang rusak](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana saya juga menyebutkan metode menggunakan Blixt sebagai proses pemulihan cepat, menggunakan file seed + channel.backup dari Umbrel.
+Di masa lalu saya menulis panduan khusus tentang [cara memulihkan node Umbrel yang rusak](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), di mana saya juga menyebutkan metode menggunakan Blixt sebagai proses pemulihan cepat, menggunakan file seed + channel.backup dari Umbrel.
 
 
 Saya juga menulis panduan cara memulihkan node Blixt Anda atau memigrasi Blixt Anda ke perangkat lain, [di sini](https://blixtwallet.github.io/faq#blixt-restore).

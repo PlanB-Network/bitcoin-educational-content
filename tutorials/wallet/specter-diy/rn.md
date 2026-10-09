@@ -150,7 +150,7 @@ Ku ruhande rwo hejuru rw’urubaho hariho igisimbuka gisobanura aho ruzotwara ub
 ### Uruzitiro rwa DIY
 
 
-Raba [ibiziga](https://github.com/iterambere ry'ubuhinga/igiti/umukuru/inyandiko/ibiziga) dosiye.
+Raba [ibiziga](https://github.com/cryptoadvance/specter-diy/tree/master/docs/enclosures) dosiye.
 
 
 ### Nimube abarema!
@@ -159,7 +159,7 @@ Raba [ibiziga](https://github.com/iterambere ry'ubuhinga/igiti/umukuru/inyandiko
 Koranya Spectre-DIY yawe maze utwoherereze amafoto (ukore ubusabe bwo gukurura canke utwandikire).
 
 
-Raba [Igishushanyo](https://github.com/cryptoadvance/specter-diy/blob/master/inyandiko/amafoto/inzu y'ibishushanyo/README.md) n'Ibishushanyo vyakoranijwe n'abanyagihugu!
+Raba [Igishushanyo](https://github.com/cryptoadvance/specter-diy/blob/master/docs/pictures/gallery/README.md) n'Ibishushanyo vyakoranijwe n'abanyagihugu!
 
 
 
@@ -176,11 +176,11 @@ Na bootloader itekanye, gushiramwo mbere y’ivyo bikoresho biratandukanye gatoy
 ### Gukayangana porogaramu y'intango
 
 
-**Iciyumviro** Niba udashaka gukoresha ama binaries avuye mu bisohotse, reba [inyandiko z'ivyuma](https://github.com/cryptoadvance/spectre-bootloader/blob/master/doc/selfsigned.md) zisigura ingene wozikoranya no kuzitunganya kugira ngo ukoreshe stead y'imfunguruzo zacu za bose mu.
+**Iciyumviro** Niba udashaka gukoresha ama binaries avuye mu bisohotse, reba [inyandiko z'ivyuma](https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) zisigura ingene wozikoranya no kuzitunganya kugira ngo ukoreshe stead y'imfunguruzo zacu za bose mu.
 
 
 
-- Niba uriko urasubiramwo uhereye ku verisiyo ziri munsi ya `1.4.0` canke uriko urashiramwo porogaramu nkuru ku ncuro ya mbere, koresha `porogaramu_y'intango_<verisiyo>.bin` kuva kuri [ibisohotse](https://github.com/cryptoadvance/specter-diy/ibisohotse) kuri paji.
+- Niba uriko urasubiramwo uhereye ku verisiyo ziri munsi ya `1.4.0` canke uriko urashiramwo porogaramu nkuru ku ncuro ya mbere, koresha `porogaramu_y'intango_<verisiyo>.bin` kuva kuri [ibisohotse](https://github.com/cryptoadvance/specter-diy/releases) kuri paji.
  - Genzura umukono wa dosiye `sha256.signed.txt` ku [urufunguzo rwa PGP rwa Stepan]
  - Genzura hash ya `intango_ya porogaramu_<verisiyo>.bin` ku hash ibitswe muri `sha256.signed.txt`
 - Niba uriko urasubiramwo uhereye ku gikoresho co gufungura ubusa canke ubona ubutumwa bw'ikosa ry'igikoresho co gufungura ko porogarama idakora, raba igice gikurikira - Igikoresho ca Spectre gifise umukono.
@@ -202,7 +202,7 @@ Iyo inaniwe igihe cose ushobora gukoresha igikoresho c’inkomoko yuguruye. Uyis
 
 
 
-- Gukuraho `ivugurura_<version>.bin` mu [bisohotse](https://github.com/iterambere ry'ibanga/ibisohotse-diy/ibisohotse).
+- Gukuraho `ivugurura_<version>.bin` mu [bisohotse](https://github.com/cryptoadvance/specter-diy/releases).
 - Kopa iyi binaire ku muzi w'ikarata SD (ifise ubuhinga bwa FAT, 32 GB max)
  - Raba neza ko dosiye imwe gusa `specter_upgrade***.bin` iri mu bubiko bw'umuzi
 - Injiza ikarita SD mu kibanza ca SD c'urubaho rwo kuvumbura maze ushire ubushobozi ku rubaho

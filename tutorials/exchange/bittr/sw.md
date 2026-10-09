@@ -21,7 +21,7 @@ Hebu tuchunguze jinsi ilivyo rahisi kuanza kuweka Sats na Bittr.
 ## Anza na Bittr
 
 
-- Kwenye wavuti au simu ya mkononi nenda kwa [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) na ubofye "Nunua Bitcoin"
+- Kwenye wavuti au simu ya mkononi nenda kwa [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) na ubofye "Nunua Bitcoin"
 
 
 

@@ -26,7 +26,7 @@ Ni gute ushobora gucapura urubuga rwa Windows kugira ngo ubone amashini ahuye mu
 
 
 
-Ico gikoresho gishobora gukoreshwa n’abantu ku giti cabo kugira ngo **basuzume urubuga rwabo rwo mu karere**, ariko kandi n’abahinga mu vy’ubuhinga bwa none ku ntumbero imwe. Ikimenyamenya c'uko **iki gikoresho gikora cane**, caramaze gukoreshwa n'**imigwi imwe imwe y'abagizi ba nabi bo kuri internet** mu gucapura imihora y'amashirahamwe (mu buryo bumwe na Nmap). Akarorero keza ni [umugwi w’abacunguzi RansomHub](https://www.it-connect.fr/deja-210-abakozweko-ncungu-mu-mugwi-w’abacunguzi-mu-kubera-mu-2024/). Ni porogarama nziza, ariko nk’uko biri ku bindi bikoresho vy’urubuga n’umutekano, gukoresha nabi birashobora gukoreshwa nabi.
+Ico gikoresho gishobora gukoreshwa n’abantu ku giti cabo kugira ngo **basuzume urubuga rwabo rwo mu karere**, ariko kandi n’abahinga mu vy’ubuhinga bwa none ku ntumbero imwe. Ikimenyamenya c'uko **iki gikoresho gikora cane**, caramaze gukoreshwa n'**imigwi imwe imwe y'abagizi ba nabi bo kuri internet** mu gucapura imihora y'amashirahamwe (mu buryo bumwe na Nmap). Akarorero keza ni [umugwi w’abacunguzi RansomHub](https://www.it-connect.fr/deja-210-victimes-pour-le-groupe-de-ransomware-ransomhub-lance-en-fevrier-2024/). Ni porogarama nziza, ariko nk’uko biri ku bindi bikoresho vy’urubuga n’umutekano, gukoresha nabi birashobora gukoreshwa nabi.
 
 
 

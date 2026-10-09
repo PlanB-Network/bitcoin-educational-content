@@ -99,7 +99,7 @@ Phoenixd isaba ibidukikije vya Linux (Ubuntu/Debian birasabwa), n'ubuhinga bumwe
 
 
 
-Genda kuri [ibisohoka vya GitHub] kuri paji (https://github.com/ACINQ/phoenixd/ibisohoka) maze ushiremwo verisiyo nshasha y'ubwubatsi bwawe:
+Genda kuri [ibisohoka vya GitHub] kuri paji (https://github.com/ACINQ/phoenixd/releases) maze ushiremwo verisiyo nshasha y'ubwubatsi bwawe:
 
 
 
@@ -616,7 +616,7 @@ curl -X POST http://localhost:9740/lnurlauth \
 
 
 
-LNbits ishobora gukoresha Phoenixd nk’isoko y’amahera hakurikijwe [inyandiko zemewe] zayo(https://inyandiko.lnbits.org/uburongozi/amasakoshi.html):
+LNbits ishobora gukoresha Phoenixd nk’isoko y’amahera hakurikijwe [inyandiko zemewe] zayo(https://docs.lnbits.org/guide/wallets.html):
 
 
 

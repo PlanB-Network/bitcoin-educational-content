@@ -38,7 +38,7 @@ For example, between January 1, 2018 and January 1, 2024, the number of transact
 This significant growth is, of course, closely linked to:
 
 
-- the [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), to free themselves from the banking system and/or use a less volatile or less devalued currency, as is the case for populations in Lebanon, Syria, Egypt, Argentina, and others;
+- the [growing interest of people around the world in using Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), to free themselves from the banking system and/or use a less volatile or less devalued currency, as is the case for populations in Lebanon, Syria, Egypt, Argentina, and others;
 - its price appreciation over time, establishing it as a store of value and a long-term investment, driven by its fixed monetary policy;
 - the successive growth of the speculative cryptocurrency market, particularly during 2017-2018 and 2020-2021;
 - Bitcoin's growing presence in mainstream media.
@@ -1403,7 +1403,7 @@ You could also design a flyer specific to your community or meet-up, presenting 
 
 Several flyers are already **available as open-source in the [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** on planB.network and more will be added over time.
 
-One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
+One example is a [complete sourced flyer](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) with 21 reasons to use Bitcoin. Its design is also [available in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) for you to modify and adapt and share. Just remember to credit your sources.
 
 
 ![image](assets/en/041.webp)
@@ -1433,7 +1433,7 @@ While leaving the Bitcoin white paper is symbolic, it's often too complex for ne
 - an accessible, well-sourced introduction to Bitcoin, its uses, and the problems it solves;
 - the Bitcoin white paper, translated into French.
 
-Here's [the booklet shared among French bitcoiners](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) which has been placed in dozens of bookboxes around the country. Its design is also [available as open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Here's [the booklet shared among French bitcoiners](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) which has been placed in dozens of bookboxes around the country. Its design is also [available as open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 ![image](assets/en/045.webp)

@@ -629,7 +629,7 @@ Industrija nekretnina često ponavlja da je „uvek pravo vreme za kupovinu“, 
 
 ![BIZ101](assets/sr-Latn/013.webp)
 
-*Kredit: [Bitkoin Kancelarija](https://Bitkoin.gob.sv/)*
+*Kredit: [Bitkoin Kancelarija](https://bitcoin.gob.sv/)*
 
 ### U kom obliku kupiti? (Metode čuvanja)
 
@@ -902,7 +902,7 @@ https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 Ako ste spremni da se upustite u posao i želite potpunu kontrolu nad procesom, BTCPay softver je odlična opcija. Međutim, glavni nedostatak BTCPay Server-a je što njegovo postavljanje i upravljanje oduzimaju mnogo vremena i zahtevaju određeni nivo tehničke stručnosti, ali možete pratiti naše vodiče:
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
-Konačno, kao dopunu za fizičke prodajne tačke, možete razmotriti postavljanje [Bitkoinize PoS](https://Bitkoinize.com/).
+Konačno, kao dopunu za fizičke prodajne tačke, možete razmotriti postavljanje [Bitkoinize PoS](https://bitcoinize.com/).
 
 ## Profesionalac
 
@@ -934,7 +934,7 @@ Kada je reč o primerima iz stvarnog sveta, razmislite o srednje velikoj e-comme
 
 ![BIZ101-profiles](assets/sr-Latn/028.webp)
 
-*[Credit: Bitkoin Bazar shop in Paris, France.](https://Bitkoinbazar.fr/)*
+*[Credit: Bitkoin Bazar shop in Paris, France.](https://bitcoinbazar.fr/)*
 
 Da biste dublje istražili specifičnosti implementacije i istražili praktične konfiguracije BTC Pay Server-a, pogledajte sledeći kurs:
 

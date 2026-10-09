@@ -161,7 +161,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Tambahkan ke dasar URL informasi berikut untuk mendapatkan link yang benar:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 Apa yang kita lakukan di sini adalah mengantisipasi link masa depan file Anda, setelah proposal Anda digabungkan ke repositori sumber dari Jaringan PlanB.

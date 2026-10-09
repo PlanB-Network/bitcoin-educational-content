@@ -14,7 +14,7 @@ Ishingiye kuri OSM (OpenStreetMap), ubwayo igikoresho co gukora ikarita y’aban
 
 
 
-Genda kuri [ikarata.org](https://ikarita.org/):
+Genda kuri [ikarata.org](https://btcmap.org/):
 
 
 
@@ -28,8 +28,8 @@ Biboneka kuri:
 
 
 - iOS biciye kuri [Iduka ry'Iporogaramu](iporogaramu.
-- [F-Droid](https://f-droid.org/ru/amapaki/org.btcmap/) urutonde rwa porogaramu y'inkomoko yuguruye ya android
-- mu gukuraho [apk android](https://github.com/teambtcmap/btcmap-android/ibisohotse/vya nyuma) ataco bimaze kuri github y'umugambi
+- [F-Droid](https://f-droid.org/en/packages/org.btcmap/) urutonde rwa porogaramu y'inkomoko yuguruye ya android
+- mu gukuraho [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) ataco bimaze kuri github y'umugambi
 - biciye ku rubuga rwa porogaramu kuva ku mucukumbuzi wawe (ivyo tubona uno musi)
 
 
@@ -246,7 +246,7 @@ Uzoca ubona ubwo nyene uturere tw’ibara ry’umuhondo. Nk’uko mubibona, izo 
 
 
 
-Ikarata ya BTC iraguha uburenganzira bwo [kwongerako umuryango wawe bwite](https://btcmap.org/imiryango/kwongerako/), reka tuyirabe intambwe ku yindi:
+Ikarata ya BTC iraguha uburenganzira bwo [kwongerako umuryango wawe bwite](https://btcmap.org/communities/add/), reka tuyirabe intambwe ku yindi:
 
 
 

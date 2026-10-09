@@ -48,7 +48,7 @@ Deze aanzienlijke groei is natuurlijk nauw verbonden met:
 
 
 
-- de [groeiende interesse van mensen over de hele wereld in het gebruik van Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), om zich te bevrijden van het banksysteem en/of een minder volatiele of minder gedevalueerde valuta te gebruiken, zoals het geval is voor bevolkingen in Libanon, Syrië, Egypte, Argentinië en anderen;
+- de [groeiende interesse van mensen over de hele wereld in het gebruik van Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), om zich te bevrijden van het banksysteem en/of een minder volatiele of minder gedevalueerde valuta te gebruiken, zoals het geval is voor bevolkingen in Libanon, Syrië, Egypte, Argentinië en anderen;
 - de prijsstijging in de loop van de tijd, waardoor het een waardeopslag en een langetermijnbelegging wordt, gedreven door het vaste monetaire beleid;
 - de opeenvolgende groei van de speculatieve cryptocurrency markt, vooral in 2017-2018 en 2020-2021;
 - De groeiende aanwezigheid van Bitcoin in de reguliere media.
@@ -2006,7 +2006,7 @@ Je zou ook een flyer kunnen ontwerpen die specifiek is voor jouw community of me
 Verschillende flyers zijn al **beschikbaar als open-source in de [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** op planB.network en in de loop van de tijd zullen er meer worden toegevoegd.
 
 
-Een voorbeeld is een [complete flyer met bron](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) met 21 redenen om Bitcoin te gebruiken. Het ontwerp is ook [beschikbaar in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) zodat je het kunt aanpassen en delen. Vergeet alleen niet je bronnen te vermelden.
+Een voorbeeld is een [complete flyer met bron](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) met 21 redenen om Bitcoin te gebruiken. Het ontwerp is ook [beschikbaar in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) zodat je het kunt aanpassen en delen. Vergeet alleen niet je bronnen te vermelden.
 
 
 
@@ -2050,7 +2050,7 @@ Hoewel het verlaten van het Bitcoin witboek symbolisch is, is het vaak te ingewi
 - het Bitcoin witboek, vertaald in het Frans.
 
 
-Hier is [het boekje gedeeld onder Franse bitcoiners](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) dat in tientallen boekendozen in het hele land is geplaatst. Het ontwerp is ook [beschikbaar als open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Hier is [het boekje gedeeld onder Franse bitcoiners](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) dat in tientallen boekendozen in het hele land is geplaatst. Het ontwerp is ook [beschikbaar als open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

@@ -547,7 +547,7 @@ Aunque tiene ciertas limitaciones (no tiene versión móvil, sesiones no persist
 
 - [Sitio web oficial del navegador Mullvad](https://mullvad.net/fr/browser)
 - [Página de descarga de Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Especificaciones técnicas detalladas](https://mullvad.net/en/browser/Hard-facts)
+- [Especificaciones técnicas detalladas](https://mullvad.net/en/browser/hard-facts)
 - [Extensión del navegador Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

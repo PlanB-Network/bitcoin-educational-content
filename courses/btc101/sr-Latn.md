@@ -817,7 +817,7 @@ Iznos koji je neko spreman da ostavi na određenom nivou sigurnosti zavisi od sv
 U zaključku, direktno vlasništvo nad bitkoinima je ključni element za osiguranje finansijskog suvereniteta. Preporučuje se korišćenje mobilnog novčanika za dnevne troškove i offline, ili "Cold (hladnog)," fizičkog novčanika za čuvanje većih iznosa. Preduzeća, s druge strane, treba da razmotre korišćenje sistema sa više potpisa, ili "Multisig", za povećanu i zajedničku sigurnost. Takođe je važno izbegavati usluge skrbništva (gde ključeve čuva treća strana), koje mogu replicirati neke ranjivosti tradicionalnog finansijskog sistema.
 
 
-Imajući ovo na umu, sada možemo preći na sledeći deo gde opisujemo kako kreirati Bitkoin novčanik. Međutim, ako želite dalje istražiti temu bezbednosti, možete pročitati ovaj [članak od DarthCoin](https://asi0.substack.com/p/bitkoin-soyez-votre-propre-banque).
+Imajući ovo na umu, sada možemo preći na sledeći deo gde opisujemo kako kreirati Bitkoin novčanik. Međutim, ako želite dalje istražiti temu bezbednosti, možete pročitati ovaj [članak od DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 
 ## Podešavanje Novčanika
@@ -849,7 +849,7 @@ Kada podešavate novčanik, softver obično kreira vaš privatni ključ, koji je
 - Nikada ne skrivajte svoju listu reči na neobičnom mestu.
 
 
-Treba bukvalno da uzmete prazan list papira ili da odštampate ovaj [šablon](https://bitkoiner.guide/backup.pdf), i da napišete listu reči olovkom, prateći predstavljeni redosled uredno i jasno. Budite svesni da ako mastilo izblede tokom vremena, možete izgubiti svoja sredstva. Stoga je važno da ovaj papir zaštitite od onih faktora iz okoline koji bi ga mogli potencijalno oštetiti, kao što su vlaga ili vatra.
+Treba bukvalno da uzmete prazan list papira ili da odštampate ovaj [šablon](https://bitcoiner.guide/backup.pdf), i da napišete listu reči olovkom, prateći predstavljeni redosled uredno i jasno. Budite svesni da ako mastilo izblede tokom vremena, možete izgubiti svoja sredstva. Stoga je važno da ovaj papir zaštitite od onih faktora iz okoline koji bi ga mogli potencijalno oštetiti, kao što su vlaga ili vatra.
 
 
 Evo primera kako da sastavite papir: reči su lažne, zato ih nemojte koristiti!
@@ -1006,7 +1006,7 @@ Dana 9. januara 2009. godine, Satoshi je najavio izdavanje verzije Bitkoin 0.1.0
 
 Interesovanje za Bitkoin brzo je raslo, što je navelo mnoge ljude da ga testiraju, učestvuju u debatama, rešavaju greške i razmišljaju o njegovim etičkim, ekonomskim i filozofskim aspektima. Ljudi su bili toliko očarani da je Satoshi kreirao bitkoinTalk forum 22. novembra 2009. godine kako bi olakšao ovu vrstu komunikacije.
 
-Forum je brzo postao preferirano mesto za diskusiju među korisnicima Bitkoin-a, toliko da su poznati mimovi i simboli povezani sa Bitkoin-om nastali iz njega, kao što su [bitkoin logo](https://bitkointalk.org/index.php?topic=64.0), poznati [HODL](https://bitkointalk.org/index.php?topic=375643.0), ili čak [Pizza dan](https://bitkointalk.org/index.php?topic=137.msg1195).
+Forum je brzo postao preferirano mesto za diskusiju među korisnicima Bitkoin-a, toliko da su poznati mimovi i simboli povezani sa Bitkoin-om nastali iz njega, kao što su [bitkoin logo](https://bitcointalk.org/index.php?topic=64.0), poznati [HODL](https://bitcointalk.org/index.php?topic=375643.0), ili čak [Pizza dan](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 
 **Da li ste znali?** Dana 22. maja 2010. godine, Laszlo Hanyecz je ušao u istoriju ponudivši da kupi dve pice za 10.000 BTC: to je bio prvi put da je bitkoin korišćen za kupovinu fizičke robe.
@@ -1025,10 +1025,10 @@ Godine 2010, kako je Bitkoin počeo privlačiti pažnju medija, Satoshi je odlu�
 > kontrolisane mreže poput Napster-a, ali čiste P2P mreže poput
 > Gnutella i Tor izgleda da se drže.” - Satoshi Nakamoto
 
-Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a se piše svakih 10 minuta, a protokol i dalje funkcioniše do danas kako je i predviđeno. Bez obzira na bilo kakav strah, nesigurnost ili sumnju, bitkoin nastavlja da napreduje, sa veoma jakom dostupnošću na mreži. Zapravo, prema ovom [sajtu](https://bitkoinuptime.com/), bitkoin je bio funkcionalan i radio bez većih problema 99.988% vremena od kada je kreiran.
+Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a se piše svakih 10 minuta, a protokol i dalje funkcioniše do danas kako je i predviđeno. Bez obzira na bilo kakav strah, nesigurnost ili sumnju, bitkoin nastavlja da napreduje, sa veoma jakom dostupnošću na mreži. Zapravo, prema ovom [sajtu](https://bitcoinuptime.com/), bitkoin je bio funkcionalan i radio bez većih problema 99.988% vremena od kada je kreiran.
 
 
-Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
+Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
 
 
 Radi dubljeg razumevanja spisa Satošija Nakamota, preporučujem čitanje knjige [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) Fila Šampanja, koja okuplja i kontekstualizuje njegove glavne tekstove, kao i dokumentarni film ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), koji nudi pristupačnu i dobro dokumentovanu istragu njegove identiteta i nasleđa.
@@ -1145,7 +1145,7 @@ Hajde da detaljnije pogledamo kako funkcioniše Bitkoin čvor.
 - Sprovođenje pravila Bitkoin protokola.
 
 
-Stoga, svaki uređaj koji pokreće deo Bitkoin softvera, nazvan bitkoin čvor (često koristeći [bitkoin Core](https://bitkoin.org/en/bitkoin-core/)), doprinosi decentralizaciji mreže.
+Stoga, svaki uređaj koji pokreće deo Bitkoin softvera, nazvan bitkoin čvor (često koristeći [bitkoin Core](https://bitcoin.org/en/bitcoin-core/)), doprinosi decentralizaciji mreže.
 
 
 ![image](assets/sr-Latn/050.webp)

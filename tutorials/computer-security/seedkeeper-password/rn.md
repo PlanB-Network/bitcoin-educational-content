@@ -47,7 +47,7 @@ https://planb.academy/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1
 
 
 
-Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/igicuruzwa/umucungezi w’imbuto/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishiramwo wewe nyene ku [ikarita y’ubwenge idafise ikintu]
+Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/product/seedkeeper/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishiramwo wewe nyene ku [ikarita y’ubwenge idafise ikintu]
 
 
 

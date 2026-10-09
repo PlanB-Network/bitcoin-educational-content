@@ -124,7 +124,7 @@ Ku bijanye n’ugukoresha ubwa mbere, nube nyen’ikarata kugira ngo uyikingire:
 - Fyonda kuri "*Fata Ownership*" muri app.
 - Wemeze igikorwa: ibi bitanga urufunguzo rwa nyen'urufunguzo rwihariye.
 - Subira ushireko ikarita kugira ngo ushire mu ngiro ivyo wahinduye.
-- Imburi**: Iyi ntambwe ntishobora gusubirwamwo. Turagusavye urabe [ingingo ivuga ku *ubutunzi*](https://satochip.io/ubutunzi-bwa-satodime-bwasobanuwe/).
+- Imburi**: Iyi ntambwe ntishobora gusubirwamwo. Turagusavye urabe [ingingo ivuga ku *ubutunzi*](https://satochip.io/satodime-ownership-explained/).
 
 
 

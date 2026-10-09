@@ -320,7 +320,7 @@ Trustless ile ne demek istiyorlar? Pieter Wuille bu yaygın kullanılan terimi [
 Kısacası, *Trustless* kelimesi Bitcoin protokolünün mantıksal olarak "herhangi bir güvenilir taraf" olmadan çalışabilmesini sağlayan bir özelliğine atıfta bulunmaktadır. Bu, kaçınılmaz olarak çalıştırdığınız yazılım ya da donanıma duymak zorunda olduğunuz güvenden farklıdır. Güvenin bu ikinci yönü hakkında daha fazla bilgi bu bölümün ilerleyen kısımlarında ele alınacaktır.
 
 
-Merkezi sistemlerde, merkezi bir aktörün güvenliğe dikkat edeceğinden ya da sorun çıkması halinde geri adım atacağından emin olmak için itibarına ve herhangi bir ihlali yaptırıma bağlayacak yasal sisteme güveniriz. Bu güven gereksinimleri takma isimli merkezi olmayan sistemlerde sorunludur - rücu imkanı yoktur, bu nedenle gerçekten herhangi bir güven olamaz. Bitcoin whitepaper]'ın (https://Bitcoin.org/Bitcoin.pdf) giriş bölümünde Satoshi Nakamoto bu sorunu açıklamaktadır:
+Merkezi sistemlerde, merkezi bir aktörün güvenliğe dikkat edeceğinden ya da sorun çıkması halinde geri adım atacağından emin olmak için itibarına ve herhangi bir ihlali yaptırıma bağlayacak yasal sisteme güveniriz. Bu güven gereksinimleri takma isimli merkezi olmayan sistemlerde sorunludur - rücu imkanı yoktur, bu nedenle gerçekten herhangi bir güven olamaz. Bitcoin whitepaper]'ın (https://bitcoin.org/bitcoin.pdf) giriş bölümünde Satoshi Nakamoto bu sorunu açıklamaktadır:
 
 
 > İnternet üzerinden yapılan ticaret, elektronik ödemelerin işlenmesi için neredeyse yalnızca güvenilir üçüncü taraflar olarak hizmet veren finans kuruluşlarına dayanır hale gelmiştir.
@@ -333,7 +333,7 @@ Görünüşe göre güvene dayalı merkezi olmayan bir sisteme sahip olamayız v
 Bitcoin'yi Trustless tarzında kullanmak için, tam doğrulamalı bir Bitcoin düğümü çalıştırmanız gerekir. Ancak o zaman başkalarından aldığınız blokların mutabakat kurallarına uyduğunu doğrulayabilirsiniz; örneğin, Coin ihraç programına uyulduğunu ve Blockchain'da çifte harcama yapılmadığını. Bir Full node çalıştırmıyorsanız, Bitcoin bloklarının doğrulanmasını başka birine yaptırırsınız ve size doğruyu söyleyeceklerine güvenirsiniz, bu da Bitcoin'yi güvenle kullanmadığınız anlamına gelir.
 
 
-David Harding, [Bitcoin.org web sitesinde](https://Bitcoin.org/en/Bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
+David Harding, [Bitcoin.org web sitesinde](https://bitcoin.org/en/bitcoin-core/features/validation) Full node çalıştırmanın - veya Bitcoin'i güvenle kullanmanın - aslında size nasıl yardımcı olduğunu açıklayan bir makale yazdı:
 
 
 > Bitcoin para birimi yalnızca insanlar Exchange'daki bitcoinleri diğer değerli şeyler için kabul ettiğinde çalışır. Bu, ona değer veren ve Bitcoin'nin nasıl çalışması gerektiğine karar verenlerin bitcoinleri kabul eden insanlar olduğu anlamına gelir.
@@ -522,7 +522,7 @@ Adresleri veya açık anahtarları kullanarak, önceden bir şekilde takma ad ka
 Blockchain gizliliği, Blockchain üzerinde işlem yaparak ifşa ettiğiniz bilgileri ifade eder. Hem gönderdiğiniz hem de aldığınız tüm işlemler için geçerlidir.
 
 
-Satoshi Nakamoto, [Bitcoin whitepaper]'ının 7. bölümünde (https://Bitcoin.org/Bitcoin.pdf) On-Chain gizliliği üzerine düşünmektedir:
+Satoshi Nakamoto, [Bitcoin whitepaper]'ının 7. bölümünde (https://bitcoin.org/bitcoin.pdf) On-Chain gizliliği üzerine düşünmektedir:
 
 
 > Ek bir güvenlik duvarı olarak, her bir işlemin ortak bir sahibine bağlanmasını önlemek için yeni bir anahtar çifti kullanılmalıdır. Girdilerinin aynı sahibine ait olduğunu ortaya çıkaran çok girdili işlemlerde bir miktar bağlantı kaçınılmazdır. Risk, bir anahtarın sahibinin ortaya çıkması halinde, bağlantının aynı sahibine ait diğer işlemleri de ortaya çıkarmasıdır.
@@ -817,7 +817,7 @@ Tam tersi, [geriye dönük uyumluluk](https://en.wikipedia.org/wiki/Backward_com
 Bitcoin mutabakat kurallarında yapılan bir değişikliğin tam uyumlu olması halinde *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* olduğu söylenir. Bu, bu bölümde daha sonra tartışacağımız bir dizi nedenden dolayı Bitcoin'u yükseltmenin en yaygın yoludur. Bitcoin mutabakat kurallarında yapılan bir değişiklik geriye doğru uyumlu ancak ileriye doğru uyumlu değilse buna *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* denir.
 
 
-Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-Bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
+Soft çatalları ve Hard çatallarına teknik bir genel bakış için lütfen [Grokking Bitcoin'ün 11. bölümünü](https://rosenbaum.se/book/grokking-bitcoin-11.html) okuyun. Bu terimleri açıklar ve ayrıca yükseltme mekanizmalarına dalar. Kesinlikle gerekli olmasa da, okumaya devam etmeden önce bu konuda bilgi sahibi olmanız önerilir.
 
 
 ### Tarihi iyileştirmeler
@@ -1260,7 +1260,7 @@ Birçok geliştirici, takma bir isim altında çalışarak ve gerçek kimlikleri
 makaleler ve Bitcoin ve Lightning Network üzerindeki çalışmalarım.
 
 
-Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
+Onun durumunda, takma ad kullanmasının nedeni, takma adın arkasındaki kişi veya kişilerin kim olduğu veya olduğu değil, kendi esasına göre değerlendirilmelidir. İlginç bir şekilde, CoinDesk'teki bir [makalede](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) takma adın farklı bir nedenle oluşturulduğunu açıkladı.
 
 
 > Takma ad kullanmamın ilk nedeni basitçe büyük bir hata yapmaktan endişe etmemdi; dolayısıyla ZmnSCPxj başlangıçta böyle bir durumda terk edilebilecek tek kullanımlık bir takma ad olarak tasarlanmıştı. Ancak çoğunlukla olumlu bir ün kazanmış gibi görünüyor, bu yüzden onu korudum
@@ -1335,7 +1335,7 @@ Bir fikir nihai olarak benimsenme yolunda genellikle çeşitli tartışma ve inc
 Bu aşamaların her birinde farklı bakış açılarına ve geçmişlere sahip kişiler, kaynak kodu, bir BIP veya sadece gevşek bir şekilde tanımlanmış bir fikir gibi mevcut bilgileri gözden geçirir. Aşamalar genellikle yukarıdan aşağıya katı bir şekilde gerçekleştirilmez, aslında birden fazla aşama aynı anda gerçekleşebilir ve bazen bunlar arasında gidip gelirsiniz. Farklı aşamalar sırasında farklı kişiler de geri bildirim sağlayabilir.
 
 
-Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
+Bitcoin core'daki en üretken kod gözden geçiricilerden biri Jon Atack'tır. Bitcoin core'da çekme isteklerinin nasıl gözden geçirileceği hakkında [bir blog yazısı](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) yazdı. İyi bir kod gözden geçiricinin en iyi nasıl değer katabileceğine odaklandığını vurguluyor.
 
 
 > Yeni gelen biri olarak amaç, mümkün olduğunca çok şey öğrenirken, samimiyet ve alçakgönüllülükle değer katmaya çalışmaktır.
@@ -1468,7 +1468,7 @@ Yakında ölçeklendirmeye yönelik farklı yaklaşımları inceleyeceğiz, anca
 > Satoshi Nakamoto yazdı:
 >
 
-> "Güvenilir bir üçüncü taraf olmadan, tamamen eşler arası çalışan yeni bir elektronik para sistemi üzerinde çalışıyorum.  Makaleye http://www.Bitcoin.org/Bitcoin.pdf adresinden ulaşabilirsiniz."
+> "Güvenilir bir üçüncü taraf olmadan, tamamen eşler arası çalışan yeni bir elektronik para sistemi üzerinde çalışıyorum.  Makaleye http://www.bitcoin.org/bitcoin.pdf adresinden ulaşabilirsiniz."
 >
 
 > Böyle bir sisteme çok ama çok ihtiyacımız var, ancak teklifinizi anladığım kadarıyla gerekli büyüklükte ölçeklendirilebilecek gibi görünmüyor.
@@ -1551,7 +1551,7 @@ Doğrulamasız Mining, Full node ademi merkeziyetçiliğini daha da zayıflatır
 Yatay ölçeklendirme, iş yükünü birden fazla makineye bölen teknikleri ifade eder. Bu, popüler web siteleri ve veritabanları arasında yaygın bir ölçeklendirme yaklaşımı olsa da, Bitcoin'da kolayca yapılamaz.
 
 
-Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
+Birçok kişi bu Bitcoin ölçeklendirme yaklaşımını *sharding* olarak adlandırmaktadır. Temel olarak, her bir Full node'in Blockchain'in sadece bir kısmını doğrulamasına izin vermekten ibarettir. Peter Todd sharding kavramı üzerine çok kafa yormuştur. Sharding'i genel hatlarıyla açıklayan bir [blog yazısı](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) yazmış ve ayrıca *treechains* adlı kendi fikrini sunmuştur. Makale zor bir okuma, ancak Todd oldukça sindirilebilir bazı noktalara değiniyor:
 
 
 > Parçalanmış sistemlerde "Full node savunması" en azından doğrudan çalışmaz. Bütün mesele, herkesin tüm verilere sahip olmamasıdır, bu nedenle mevcut olmadığında ne olacağına karar vermeniz gerekir.
@@ -2101,7 +2101,7 @@ Buradan çıkarılacak en önemli sonuç, BIP'lerin aşağı yukarı *atomik* ol
 
 
 
-Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) bağlantı içeren bir uyarı mesajı gönderildi:
+Ne yazık ki BIP66'nın hikayesi burada bitmedi. BIP66 etkinleştirildiğinde, bazı madenciler genişletmeye çalıştıkları blokları doğrulamadıkları için oldukça karışık bir durum ortaya çıktı. Buna doğrulamasız Mining ya da SPV-Mining (Basitleştirilmiş Ödeme Doğrulaması gibi) deniyor. Bitcoin düğümlerine [sorunu açıklayan bir web sayfasına](https://bitcoin.org/en/alert/2015-07-04-spv-mining) bağlantı içeren bir uyarı mesajı gönderildi:
 
 
 > 4 Temmuz 2015 sabahı erken saatlerde 950/1000 (%95) eşiğine ulaşıldı. Bundan kısa bir süre sonra, küçük bir Miner (yükseltilmemiş %5'in bir parçası) geçersiz bir blok çıkardı; bu beklenen bir durumdu. Ne yazık ki, ağ Hash oranının yaklaşık yarısının blokları tam olarak doğrulamadan Mining olduğu (SPV Mining olarak adlandırılır) ve bu geçersiz bloğun üzerine yeni bloklar inşa ettiği ortaya çıktı.

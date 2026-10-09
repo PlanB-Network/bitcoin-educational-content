@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## Poveži se na Proton Wallet
 
 
-Idite na [veb-sajt Proton Wallet](https://proton.me/Wallet) i kliknite na dugme "*Get Proton Wallet*".
+Idite na [veb-sajt Proton Wallet](https://proton.me/wallet) i kliknite na dugme "*Get Proton Wallet*".
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Preuzmite Proton Wallet iz vaše prodavnice aplikacija:
 
 
 - [On the App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [Na Google Play Store](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [Na Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

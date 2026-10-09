@@ -169,7 +169,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - K základu URL přidejte následující informace, abyste měli správný odkaz:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 To, co zde děláme, je předvídání budoucího odkazu na váš soubor, jakmile bude váš návrh sloučen do zdrojového repozitáře sítě PlanB.

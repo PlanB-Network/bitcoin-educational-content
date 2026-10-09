@@ -253,7 +253,7 @@ Po wprowadzeniu i zweryfikowaniu wszystkich informacji kliknij przycisk "Utwórz
 Możesz teraz pominąć podrozdział "Bez mojego skryptu Python", a także krok 3, "Wypełnij plik YAML", ponieważ skrypt już wykonał te czynności za Ciebie. Przejdź bezpośrednio do kroku 4 i zacznij pisać swój samouczek.
 
 
-Więcej informacji na temat tego skryptu Pythona można znaleźć w pliku [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Więcej informacji na temat tego skryptu Pythona można znaleźć w pliku [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Bez mojego skryptu Pythona

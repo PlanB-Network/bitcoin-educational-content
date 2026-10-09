@@ -8,7 +8,7 @@ description: Nokwongerako canke guhindura gute urutonde rw’umwigisha wanje kur
 Niba utegura gutanga umusanzu muri Plan ₿ Academy mu kwandika inyigisho canke inyigisho nshasha, uzokenera urutonde rw’umwigisha. Iyi nkuru izotuma uronka amahera akwiye ku bintu utanga kuri iyo nzira.
 
 
-Namwe mwamaze kwifatanya mu guhingura ibintu vy’inyigisho kuri Plan ₿ Academy, birashoboka ko musanzwe mufise urutonde rw’umwigisha. Ushobora kubisanga muri dosiye `/abaporofeseri` [ku bubiko bwacu bwa GitHub](https://github.com/Umugambi-Umurongo/Bitcoin-ibirimwo-ivy’inyigisho/igiti/dev/abaporofeseri). Niba urutonde rwawe rusanzwe ruriho, rondera inzira yawe yo kwinjira muri dosiye `professor.yml`.
+Namwe mwamaze kwifatanya mu guhingura ibintu vy’inyigisho kuri Plan ₿ Academy, birashoboka ko musanzwe mufise urutonde rw’umwigisha. Ushobora kubisanga muri dosiye `/abaporofeseri` [ku bubiko bwacu bwa GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors). Niba urutonde rwawe rusanzwe ruriho, rondera inzira yawe yo kwinjira muri dosiye `professor.yml`.
 
 
 Kugira ngo uhindure urutonde rwawe, genda ku gice kivuga ngo "Guhindura urutonde rw'umwigisha wawe" kiri ku mpera y'iyi nyigisho.
@@ -157,7 +157,7 @@ Ku batangura, ndabagira inama yo guhindura biciye ku rubuga rwa GitHub rwa Inter
 
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Genda kuri [ububiko bwa Plan ₿ Academy bwa GitHub bwihariye amakuru](https://github.com/Umugambi-w'Umugambi/Bitcoin-ibirimwo-ivy'inyigisho/ibishushanyo/abatanga).
+Genda kuri [ububiko bwa Plan ₿ Academy bwa GitHub bwihariye amakuru](https://github.com/PlanB-Network/bitcoin-educational-content/graphs/contributors).
 
 
 ![Image](assets/fr/03.webp)

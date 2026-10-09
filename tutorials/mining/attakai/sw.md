@@ -474,7 +474,7 @@ Katika kichupo cha Hali ya Miner, unaweza kuona taarifa mbalimbali kuhusu uendes
 Sasa, tutasoma programu ya ASICs Braiins OS+ (https://braiins.com/os/plus). Programu hii imeundwa na kampuni [Braiins](https://braiins.com/), ambayo ni kampuni mama ya Mining pool Braiins Pool (https://braiins.com/pool). Mining pool hii kwa sasa ina 4.39% ya Hashrate ya kimataifa wakati wa kuandika mistari hii. Kampuni ya Prague hapo awali ilijulikana kama Slushpool na ndiyo Mining pool ya kwanza iliyoanza Novemba 2010. [Hapa](https://Mempool.space/Mining/pool/braiinspool) utapata takwimu zilizosasishwa za Hashrate na jumla ya watu wengi.
 
 
-Leo, kampuni hiyo, pamoja na shughuli zake mbalimbali, inatoa zana za utafiti wa faida kwa Mining (https://insights.braiins.com/en), suluhisho za usimamizi wa shamba za Mining sambamba na shughuli zake za kuogelea, na programu yake ya uboreshaji kwa ASIC. Pia inatoa Mining kwa kutumia itifaki mpya ya Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Leo, kampuni hiyo, pamoja na shughuli zake mbalimbali, inatoa zana za utafiti wa faida kwa Mining (https://insights.braiins.com/en), suluhisho za usimamizi wa shamba za Mining sambamba na shughuli zake za kuogelea, na programu yake ya uboreshaji kwa ASIC. Pia inatoa Mining kwa kutumia itifaki mpya ya Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Kwa hivyo tutajifunza kwa undani zaidi uendeshaji wa vifaa vya Bitmain, ambavyo kwa sasa ni mifano pekee inayoendana:

@@ -82,7 +82,7 @@ Aha, turashobora gutunganya amategeko ateye imbere imbere yo kurema canke gusubi
 
 2. Gushinga `Electrum Server`, canke
 
-3. Guhindura `Gusubiza Inka`. Tuzomenya vyinshi ku vyerekeye [Ikimasa co Gukira](https://gukira.com/) mu nyuma.
+3. Guhindura `Gusubiza Inka`. Tuzomenya vyinshi ku vyerekeye [Ikimasa co Gukira](https://recoverbull.com/) mu nyuma.
 
 
 Uhejeje guhindura vyose, nukore kuri `Vyarangiye`. Niba wipfuza gusubira gukoresha Wallet iriho, fyonda ku `Recover Wallet` hanyuma wuzuze amajambo 12 y’ijambo ryawe ryo gusubirana.
@@ -164,7 +164,7 @@ Hariho kandi uburyo bwo gukora ububiko bw’ibintu bubitswe, butazwi mu gicu. Ar
 Wiyumvire nk’agasanduku k’amahera. Dosiye y’ububiko ni *akazu*, ushobora kubika aho hose (nka Google Drive). PIN yawe yo gusubirana ni *urufunguzo*, rubikwa ukwarwo na Server y'urufunguzo rwa Recoverbull. Umusuma yokenera kuronka isandugu yawe yihariye be n’urufunguzo rwawe rudasanzwe kugira ngo afungure. Iyi design ituma naho umuntu yoronka dosiye yawe y’ububiko, ntaco imaze ata rufunguzo ruva kuri server, kandi urufunguzo rwa server ntaco rumaze ata dosiye yawe yihariye y’ububiko.
 
 
-Menya vyinshi ku vyerekeye `Recoverbull` wallet uburyo bwo gusubiza inyuma [hano](https://gusubiza.com/).
+Menya vyinshi ku vyerekeye `Recoverbull` wallet uburyo bwo gusubiza inyuma [hano](https://recoverbull.com/).
 
 
 Kanda kuri `Ikibanza c'ububiko` hanyuma `Bandanya` kugira ngo wemeze ukoresheje Serveri y'Imburabuzi. Iryo huriro rizoca ku rubuga rwa `Tor` kugira ngo habeho ubuzima bwite kandi ntibumenyekane.
@@ -641,4 +641,4 @@ Ubu wararangije urugendo rwawe rwo guca muri Bull Bitcoin Wallet. Iyo porogarama
 ## 📚 Ivy'Ishūri Wallet
 
 
-[Github](imbuga ya Satoshi/Igihugu c'Igihugu) | [Urubuga ](https://www.ibice vy'inzoka/)| [Gusubirana](https://gusubirana.com/)
+[Github](imbuga ya Satoshi/Igihugu c'Igihugu) | [Urubuga ](https://www.bullbitcoin.com/)| [Gusubirana](https://recoverbull.com/)

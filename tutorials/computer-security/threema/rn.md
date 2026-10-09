@@ -63,14 +63,14 @@ Threema iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa 
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/porogaramu/ibisobanuro?id=ch.threema.porogaramu);
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=ch.threema.app);
 - [F-Cold](ubutumwa butari butatu/);
 - [Ikibanza c'Ibikoresho vya Huawei](Ikibanza c'Ibikoresho vya Huawei/#/Ibikoresho/C103713829);
 - [Iduka ry'amaporogarama](https://amaporogarama.
 
 
 
-Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://iduka.threema.ch/ru/gukuraho).
+Kuri Android, birashoboka kandi [gushiramwo biciye kuri APK](https://shop.threema.ch/en/download).
 
 
 
@@ -86,7 +86,7 @@ Iyo umaze gushiramwo iyo porogarama, nimba waraciye mu iduka ry’iporogarama, u
 
 
 
-[Genda kuri "*Iduka rya Threema*"(https://iduka.threema.ch/) ukande kuri buto ya "*Gura Threema kuri Android*".
+[Genda kuri "*Iduka rya Threema*"(https://shop.threema.ch/) ukande kuri buto ya "*Gura Threema kuri Android*".
 
 
 
@@ -332,7 +332,7 @@ Aha ushobora guhindura urutonde rwawe: wongereko ifoto, uhitemwo uwushobora kuyi
 
 
 
-Niba ushaka gushika ku biganiro vyawe kuri PC yawe, urashobora guhuza konti yawe ya Threema na porogarama yihariye. Gukuraho porogarama y’urubuga rwawe [ku rubuga rwemewe](https://threema.ch/ru/gukuraho).
+Niba ushaka gushika ku biganiro vyawe kuri PC yawe, urashobora guhuza konti yawe ya Threema na porogarama yihariye. Gukuraho porogarama y’urubuga rwawe [ku rubuga rwemewe](https://threema.ch/en/download).
 
 
 

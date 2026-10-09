@@ -398,7 +398,7 @@ Silentium itanga ikibanza co kugerageza gishoboka co gutahura Silent Payments at
 
 - Silentium Ububiko bwa GitHub (wallet):
 - Silentiumd ububiko bwa GitHub (umukozi):
-- Urubuga rwo gukoresha: https://porogaramu.guceceka.dev/
+- Urubuga rwo gukoresha: https://app.silentium.dev/
 - Urubuga rw'abanyamuryango b'Ivyishyurwa vy'Iceceka: https://ivyishyurwa vy'Iceceka.xyz
 - Ibisobanuro BIP-352:
 
@@ -420,5 +420,5 @@ Silentium itanga ikibanza co kugerageza gishoboka co gutahura Silent Payments at
 
 
 
-- Testnet: https://igerageza-uruzitiro.com/
-- Mempool umugenzuzi w'urubuga rwo kugerageza: https://mempool.ikibanza/urubuga rwo kugerageza
+- Testnet: https://testnet-faucet.com/
+- Mempool umugenzuzi w'urubuga rwo kugerageza: https://mempool.space/testnet rwo kugerageza

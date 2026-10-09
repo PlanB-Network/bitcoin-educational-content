@@ -214,7 +214,7 @@ Katika sehemu hii kuna chaguzi kadhaa za Invoice za kugeneneratiwa:
 - Weka memo ya kawaida ya kuonyeshwa katika Invoice wewe generate
 - Muda wa mwisho wa matumizi katika sekunde, ikiwa ungependa muda maalum, mrefu au mfupi zaidi kwa Invoice yako kulipwa
 - Jumuisha vidokezo vya njia - toa maelezo ili kupata vituo visivyotangazwa au vya faragha. Hii inaruhusu uelekezaji wa malipo kwa nodi ambazo hazionekani hadharani kwenye mtandao. Kidokezo cha uelekezaji hutoa njia ya sehemu kati ya nodi ya kibinafsi ya mpokeaji na nodi ya umma. Kidokezo hiki cha uelekezaji basi kinajumuishwa kwenye Invoice inayotolewa na mpokeaji na kutolewa kwa mlipaji. Ninapendekeza iwashwe kwa chaguomsingi, vinginevyo malipo yanayoingia yanaweza kushindwa (hakuna njia iliyopatikana).
-- AMP Invoice - Malipo ya Njia Nyingi za Atomiki ni aina mpya ya malipo ya Lightning inayotekelezwa na LND ambayo inaruhusu kupokea Sats bila Invoice mahususi, kwa kutumia [keysend](https://docs.lightning.engineering/lightning-network-tools/LND/tuma-messages-with-key). Ni msimbo wa malipo tuli. [Soma zaidi hapa](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
+- AMP Invoice - Malipo ya Njia Nyingi za Atomiki ni aina mpya ya malipo ya Lightning inayotekelezwa na LND ambayo inaruhusu kupokea Sats bila Invoice mahususi, kwa kutumia [keysend](https://docs.lightning.engineering/lightning-network-tools/lnd/send-messages-with-keysend). Ni msimbo wa malipo tuli. [Soma zaidi hapa](https://docs.lightning.engineering/lightning-network-tools/LND/amp).
 - Onyesha sehemu ya taswira maalum - tumia chaguo hili tu katika hali mahususi wakati unataka kutumia sehemu maalum katika taswira. [Soma zaidi hapa](https://Bitcoin.stackexchange.com/questions/90797/how-can-i-generate-preimage-for-lightning-network-Invoice-should-i).
 
 
@@ -322,7 +322,7 @@ SCB inahitajika tu ikiwa una chaneli za LN zimefunguliwa. Ikiwa una pesa za onch
 Ikiwa unaona kwamba baada ya muda mrefu bado hauonyeshi txs za historia ya zamani, nenda kwa nodi Iliyopachikwa - Wenzake na uzima chaguo la kutumia orodha ya wenzao waliochaguliwa (kwa chaguo-msingi ni btcd.lnolymp.us). Hiyo itaanzisha kuwashwa upya na itaunganishwa na nodi ya neutrino inayopatikana kwanza na jibu bora la wakati. Au tumia mvuto uliotajwa wenzao wengine wanaojulikana wa neutrino.
 
 
-Iwapo ungependa kuona chaguo zaidi za urejeshaji za nodi ya LND, [tafadhali soma mwongozo wangu wa awali](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), ambapo unaweza kupata hatua za jinsi ya kuingiza seed iliyoazwa kwenye Sparrow Wallet au njia nyinginezo.
+Iwapo ungependa kuona chaguo zaidi za urejeshaji za nodi ya LND, [tafadhali soma mwongozo wangu wa awali](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), ambapo unaweza kupata hatua za jinsi ya kuingiza seed iliyoazwa kwenye Sparrow Wallet au njia nyinginezo.
 
 
 **C - Njia Iliyopachikwa**
@@ -465,7 +465,7 @@ Katika sehemu hii ya mwisho utapata viungo vya ukurasa wa nyaraka wa Zeus, masua
 Kumbuka, Zeus itatumika zaidi kama LN Wallet, kwa malipo rahisi na ya haraka zaidi ya LN. Hakika, pia ina onchain Wallet, lakini hiyo inapaswa kutumika kwa ajili ya kufungua / kufunga chaneli za LN pekee na si kwa malipo ya kawaida ya kahawa.
 
 
-Tafadhali soma mwongozo wangu mwingine kuhusu [jinsi ya kuwa benki yako mwenyewe kwa kutumia viwango 3 vya Stash](https://darth-coin.github.io/beginner/be-your-own-bank-sw.html).
+Tafadhali soma mwongozo wangu mwingine kuhusu [jinsi ya kuwa benki yako mwenyewe kwa kutumia viwango 3 vya Stash](https://darth-coin.github.io/beginner/be-your-own-bank-en.html).
 
 
 Kwa wakati huu mtumiaji ana njia 2 za kuanza kutumia Zeus:

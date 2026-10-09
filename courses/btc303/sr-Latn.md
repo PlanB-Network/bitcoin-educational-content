@@ -297,7 +297,7 @@ Ljudi često kažu stvari poput "Bitcoin je sjajan jer je ne zahteva poverenje u
 Ukratko, reč *trustless* odnosi se na svojstvo Bitcoin protokola prema kojem može logički funkcionisati bez "bilo kakvih pouzdanih strana". Ovo je drugačije od poverenja koje neizbežno morate imati u softver ili hardver koji koristite. Više o ovom poslednjem aspektu poverenja biće diskutovano dalje u ovom poglavlju.
 
 
-U centralizovanim sistemima, oslanjamo se na reputaciju centralnog aktera kako bismo bili sigurni da će se pobrinuti za bezbednost ili povratiti stanje u slučaju problema, kao i na pravni sistem da sankcioniše bilo kakve prekršaje. Ovi zahtevi za poverenjem su problematični u pseudonimnim decentralizovanim sistemima - ne postoji mogućnost pravnog leka, tako da zapravo ne može biti poverenja. U uvodu [Bitcoin whitepaper-a](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto opisuje ovaj problem:
+U centralizovanim sistemima, oslanjamo se na reputaciju centralnog aktera kako bismo bili sigurni da će se pobrinuti za bezbednost ili povratiti stanje u slučaju problema, kao i na pravni sistem da sankcioniše bilo kakve prekršaje. Ovi zahtevi za poverenjem su problematični u pseudonimnim decentralizovanim sistemima - ne postoji mogućnost pravnog leka, tako da zapravo ne može biti poverenja. U uvodu [Bitcoin whitepaper-a](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto opisuje ovaj problem:
 
 
 > Trgovina na internetu se gotovo isključivo oslanja na finansijske institucije koje služe kao pouzdane treće strane za obradu elektronskih plaćanja.
@@ -310,7 +310,7 @@ U centralizovanim sistemima, oslanjamo se na reputaciju centralnog aktera kako b
 Da biste koristili Bitcoin na trustless način, morate pokrenuti Bitcoin čvor koji u potpunosti validira sve blokove. Tek tada ćete moći da verifikujete da blokovi koje primate od drugih prate pravila konsenzusa; na primer, da se raspored izdavanja novčića poštuje i da ne dolazi do dvostrukog trošenja na blockchainu. Ako ne pokrenete full node, prepuštate verifikaciju Bitcoin blokova nekome drugom i verujete im da vam kažu istinu, Bitcoin tada ne koristite na način koji ne zahteva poverenje.
 
 
-David Harding je autor [članka na veb-sajtu Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) koji objašnjava kako pokretanje full node-a - ili korišćenje Bitcoina na način na koji ne zahteva poverenje - zapravo pomaže vama:
+David Harding je autor [članka na veb-sajtu Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) koji objašnjava kako pokretanje full node-a - ili korišćenje Bitcoina na način na koji ne zahteva poverenje - zapravo pomaže vama:
 
 
 > Bitcoin valuta funkcioniše samo kada ljudi prihvataju bitkoine u razmenu za druge vredne stvari. To znači da su ljudi koji prihvataju bitkoine ti koji joj daju vrednost i koji odlučuju kako Bitcoin treba da funkcioniše.
@@ -492,7 +492,7 @@ Korišćenjem adresa, ili javnih ključeva, postižemo važne ciljeve, kao što 
 Blockchain privatnost odnosi se na informacije koje otkrivate prilikom transakcija na blockchain-u. Primjenjuje se na sve transakcije, one koje šaljete kao i one koje primate.
 
 
-Satoshi Nakamoto promišlja o on-chain privatnosti u sedmom odeljku svog rada [Bitcoin white paper-a](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto promišlja o on-chain privatnosti u sedmom odeljku svog rada [Bitcoin white paper-a](https://bitcoin.org/bitcoin.pdf):
 
 
 > Kao dodatni firewall, novi par ključeva treba koristiti za svaku transakciju kako bi se sprečilo njihovo povezivanje sa zajedničkim vlasnikom. Neko povezivanje je i dalje neizbežno kod transakcija sa više ulaza, koje nužno otkrivaju da su njihovi ulazi pripadali istom vlasniku. Rizik je da, ako se otkrije vlasnik ključa, povezivanje može otkriti druge transakcije koje su pripadale istom vlasniku.
@@ -774,7 +774,7 @@ Obrnuto, [kompatibilnost unazad](https://en.wikipedia.org/wiki/Backward_compatib
 Promena pravila Bitcoin konsenzusa naziva se *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* ako je potpuno kompatibilna. Ovo je najčešći način za Bitcoin nadogradnju, iz više razloga koje ćemo dalje razmotriti u ovom poglavlju. Ako je promena pravila Bitcoin konsenzusa kompatibilna unazad, ali nije kompatibilna unapred, naziva se *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Za tehnički pregled soft forkova i hard forkova, molimo pročitajte [poglavlje 11 Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Poglavlje objašnjava ove pojmove i takođe ulazi u mehanizme nadogradnje. Preporučuje se, iako nije strogo neophodno, da se upoznate sa ovim pre nego što nastavite sa čitanjem.
+Za tehnički pregled soft forkova i hard forkova, molimo pročitajte [poglavlje 11 Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Poglavlje objašnjava ove pojmove i takođe ulazi u mehanizme nadogradnje. Preporučuje se, iako nije strogo neophodno, da se upoznate sa ovim pre nego što nastavite sa čitanjem.
 
 
 ### Istorijske nadogradnje
@@ -1202,7 +1202,7 @@ Mnogi programeri biraju ovu opciju radeći pod pseudonimom i pokušavajući da g
 > Ako se pitate da li da donirate ili ne, i pitate se koliki su moji troškovi života ili moj prihod, molim vas da razumete da, pravilno govoreći, treba da donirate meni na osnovu korisnosti koju pronalazite u mojim člancima i mom radu na Bitcoinu i Lightning mreži.
 
 
-U njegovom slučaju, razlog za korišćenje pseudonima je da bude ocenjen na osnovu svojih zasluga, a ne na osnovu toga ko je osoba ili osobe iza pseudonima. Zanimljivo je da je otkrio u [članku na CoinDesk-u](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) da je pseudonim stvoren iz drugačijeg razloga.
+U njegovom slučaju, razlog za korišćenje pseudonima je da bude ocenjen na osnovu svojih zasluga, a ne na osnovu toga ko je osoba ili osobe iza pseudonima. Zanimljivo je da je otkrio u [članku na CoinDesk-u](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) da je pseudonim stvoren iz drugačijeg razloga.
 
 
 > Moj početni razlog [za korišćenje pseudonima] bio je jednostavno to što sam bio zabrinut [zbog] pravljenja ogromne greške; stoga je ZmnSCPxj prvobitno bio zamišljen kao jednokratni pseudonim koji bi mogao biti napušten u takvom slučaju. Međutim, čini se da je stekao uglavnom pozitivnu reputaciju, pa sam ga zadržao.
@@ -1276,7 +1276,7 @@ Na putu ka konačnom usvajanju, ideja obično prolazi kroz nekoliko faza diskusi
 U svakoj od ovih faza ljudi sa različitim tačkama gledišta i pozadinama pregledaju dostupne informacije, bilo da je to izvorni kod, BIP, ili samo labavo opisana ideja. Faze se obično ne izvode na strogo hijerarhijski način, zapravo, više faza može se odvijati istovremeno, a ponekad se krećete napred-nazad između njih. Različiti ljudi takođe mogu davati povratne informacije tokom različitih faza.
 
 
-Jedan od najplodnijih pregledalaca koda na Bitcoin Core je Jon Atack. Napisao je [blog post](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) o tome kako pregledati pull zahteve u Bitcoin Core. On naglašava da se dobar pregledalac koda fokusira na to kako najbolje dodati vrednost.
+Jedan od najplodnijih pregledalaca koda na Bitcoin Core je Jon Atack. Napisao je [blog post](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) o tome kako pregledati pull zahteve u Bitcoin Core. On naglašava da se dobar pregledalac koda fokusira na to kako najbolje dodati vrednost.
 
 
 > Kao novajlija, cilj je pokušati dodati vrednost, sa prijateljstvom i skromnošću, dok učite što je više moguće.
@@ -1399,7 +1399,7 @@ Skaliranje je bilo centralna tema diskusija od samog nastanka Bitcoina. Prva re�
 > Satoshi Nakamoto je napisao:
 >
 
-> "Radio sam na novom elektronskom sistemu gotovine koji je potpuno peer-to-peer, bez pouzdane treće strane. Rad je dostupan na http://www.Bitcoin.org/Bitcoin.pdf"
+> "Radio sam na novom elektronskom sistemu gotovine koji je potpuno peer-to-peer, bez pouzdane treće strane. Rad je dostupan na http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Veoma, veoma nam je potreban takav sistem, ali kako ja razumem vaš predlog, čini se da ne može da se skalira na potrebnu veličinu.
@@ -1477,7 +1477,7 @@ Druga tačka ima negativan efekat na decentralizaciju rudarenja, jer su obično 
 Horizontalno skaliranje odnosi se na tehnike koje dele radno opterećenje na više mašina. Iako je ovo rasprostranjen pristup skaliranju među popularnim vebsajtovima i bazama podataka, nije lako izvodljivo u Bitcoinu.
 
 
-Mnogi ljudi nazivaju ovaj Bitcoin pristup skaliranju *sharding*. U suštini, sastoji se u tome da svaki full node verifikuje samo deo blockchaina. Peter Todd je mnogo razmišljao o konceptu shardinga. Napisao je [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) objašnjavajući sharding u opštim terminima, a takođe je predstavio svoju ideju nazvanu *treechains*. Članak je težak za čitanje, ali Todd iznosi neke tačke koje su prilično razumljive:
+Mnogi ljudi nazivaju ovaj Bitcoin pristup skaliranju *sharding*. U suštini, sastoji se u tome da svaki full node verifikuje samo deo blockchaina. Peter Todd je mnogo razmišljao o konceptu shardinga. Napisao je [blog post](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) objašnjavajući sharding u opštim terminima, a takođe je predstavio svoju ideju nazvanu *treechains*. Članak je težak za čitanje, ali Todd iznosi neke tačke koje su prilično razumljive:
 
 
 > U šardovanim sistemima “full node odbrana” ne funkcioniše, barem ne direktno. Cela poenta je da ne poseduje svako sve podatke, tako da morate odlučiti šta se dešava kada nisu dostupni.
@@ -2020,7 +2020,7 @@ Ključna pouka iz ovoga je da BIP-ovi treba da budu više ili manje *atomski*, �
 ##### Podele usled rudarenja bez validacije
 
 
-Nažalost, priča o BIP66 se tu nije završila. Kada je BIP66 aktiviran, ispostavilo se da je prilično neuredno jer neki rudari nisu verifikovali blokove koje su pokušavali da prošire. Ovo se naziva rudarenje bez validacije, ili SPV-rudarenje (kao u Simplified Payment Verification). Poruka upozorenja je poslata na Bitcoin čvorove sa linkom ka [web stranici koja opisuje problem](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Nažalost, priča o BIP66 se tu nije završila. Kada je BIP66 aktiviran, ispostavilo se da je prilično neuredno jer neki rudari nisu verifikovali blokove koje su pokušavali da prošire. Ovo se naziva rudarenje bez validacije, ili SPV-rudarenje (kao u Simplified Payment Verification). Poruka upozorenja je poslata na Bitcoin čvorove sa linkom ka [web stranici koja opisuje problem](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Rano ujutru 4. jula 2015, prag od 950/1000 (95%) je dostignut. Nedugo zatim, mali procenat rudara (deo neažuriranih 5%) je iskopao nevažeći blok – što je bilo očekivano. Nažalost, ispostavilo se da je otprilike polovina mrežnog heš protoka bila rudarenje bez potpune validacije blokova (nazvana SPV rudarenje), i gradila je nove blokove na vrhu tog nevažećeg bloka.

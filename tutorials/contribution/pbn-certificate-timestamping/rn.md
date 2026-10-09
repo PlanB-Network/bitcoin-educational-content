@@ -43,7 +43,7 @@ Umukono wa GPG ukoreshwa hakoreshejwe porogarama yuguruye yitwa GNU Privacy Guar
 Ku rundi ruhande, iyo umuntu ashaka kugenzura ukuri kw’idosiye yashizweko umukono, arashobora gukoresha GPG kugira ngo yinjize urufunguzo rwa bose rw’uwayitanga maze akarugenzura.
 
 
-Ku bashaka kumenya vyinshi ku bijanye n'iyi porogaramu nziza cane, ushobora kuraba ["Igitabo c'ubuzima bwite ca GNU"](https://www.gnupg.org/gph/ru/manual/x135.html)
+Ku bashaka kumenya vyinshi ku bijanye n'iyi porogaramu nziza cane, ushobora kuraba ["Igitabo c'ubuzima bwite ca GNU"](https://www.gnupg.org/gph/en/manual.html#AEN136)
 
 
 ### None gushiramwo ikidodo c’igihe bikora gute?
@@ -176,7 +176,7 @@ Niwabona ubutumwa nk'ubu bukurikira, Timestamp irafise akamaro:
 ICIBUKIRO: ubu buryo **buzosaba urudodo rwa Bitcoin rwo mu karere ruriko rurakora**
 
 
-1. Shiraho umukiriya wa OpenTimestamps avuye mu [bubiko] buzwi (https://github.com/ibimenyetso vy'igihe/umukiriya w'igihe-gufungura) ukoresheje itegeko rikurikira:
+1. Shiraho umukiriya wa OpenTimestamps avuye mu [bubiko] buzwi (https://github.com/opentimestamps/opentimestamps-client vy'igihe/umukiriya w'igihe-gufungura) ukoresheje itegeko rikurikira:
 
 
 ```

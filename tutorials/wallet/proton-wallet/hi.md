@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## प्रोटॉन Wallet से कनेक्ट करें
 
 
-[प्रोटॉन Wallet वेबसाइट](https://proton.me/Wallet) पर जाएं और "*प्रोटॉन Wallet प्राप्त करें*" बटन पर क्लिक करें।
+[प्रोटॉन Wallet वेबसाइट](https://proton.me/wallet) पर जाएं और "*प्रोटॉन Wallet प्राप्त करें*" बटन पर क्लिक करें।
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 - [ऐप स्टोर पर](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [गूगल प्ले स्टोर पर](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [गूगल प्ले स्टोर पर](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

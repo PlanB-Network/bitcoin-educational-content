@@ -48,7 +48,7 @@ Ukuaji huu muhimu, bila shaka, unahusishwa kwa karibu na:
 
 
 
-- [maslahi yanayoongezeka ya watu duniani kote katika kutumia Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), ili kujikomboa kutoka kwa mfumo wa benki na/au kutumia sarafu isiyobadilikabadilika au iliyoshuka thamani, kama ilivyo kwa wakazi wa Lebanon, Syria, Misri, Ajentina na nyinginezo;
+- [maslahi yanayoongezeka ya watu duniani kote katika kutumia Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), ili kujikomboa kutoka kwa mfumo wa benki na/au kutumia sarafu isiyobadilikabadilika au iliyoshuka thamani, kama ilivyo kwa wakazi wa Lebanon, Syria, Misri, Ajentina na nyinginezo;
 - uthamini wake wa bei kwa wakati, ukiiweka kama ghala la thamani na uwekezaji wa muda mrefu, unaoendeshwa na sera yake ya fedha isiyobadilika;
 - ukuaji mfululizo wa soko la kubahatisha la sarafu ya crypto, haswa wakati wa 2017-2018 na 2020-2021;
 - Uwepo unaokua wa Bitcoin katika media kuu.
@@ -353,7 +353,7 @@ Tukio lako la kwanza linaweza kuwa mkutano. Kusudi lake kuu: kuleta pamoja bitco
 
 
 
-Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab96-97 mingi), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
+Hata hivyo, kama tutakavyoona baadaye katika [Mifano ya miradi na mipango](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **mengi yaweza kufikiwa-ab96-97 njia, zenye malengo mengi:**
 
 
 
@@ -866,7 +866,7 @@ Kwa mafunzo yaliyo hapa chini, awali tulitumia APK ya "Telegram+", ambayo inaruh
 Ikiwa ungependa kuunda mahali ambapo wanachama wako wanaweza kuzungumza moja kwa moja, kujibu kila mmoja, nk, basi unaweza kutaka kuunda kikundi cha Telegram, na si chaneli ya Telegram!
 
 
-Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5).
+Nenda moja kwa moja kwenye sehemu inayofuata, yenye mada [Unda kikundi cha Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1546,7 +1546,7 @@ Katika kesi ya pili, tukio la pili la kila mwezi linaweza kuwekwa kwa mada maalu
 
 
 
-Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a97a5769 rasilimali zinazoweza kutumika) msaada.
+Kumbuka kwamba **hii inahitaji mpangilio zaidi na wakati wako zaidi**. Kwa bahati nzuri, katika [sehemu ya 6/8 ya kozi hii](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279) msaada.
 
 
 Kwa vyovyote vile, yote inategemea mpango wa utekelezaji wa muda mfupi, wa kati na mrefu ambao wewe, au jumuiya yako, mmejiwekea.
@@ -2005,7 +2005,7 @@ Unaweza pia kubuni kipeperushi maalum kwa jumuiya yako au mkutano, ukiwasilisha 
 Vipeperushi kadhaa tayari **vinapatikana kama chanzo huria katika [Bitcoin Toolbox](https://planb.academy/fr/resources/bet)** kwenye planB.academy na vingine vitaongezwa baada ya muda.
 
 
-Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) chenye sababu 21 za kutumia Bitcoin. Muundo wake pia [unapatikana katika chanzo huria](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium_campaign=designshare&utm_medium_link ili ushiriki na kurekebisha&utm_medium=link2. Kumbuka tu kuweka vyanzo vyako.
+Mfano mmoja ni [kipeperushi kamili cha chanzo](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) chenye sababu 21 za kutumia Bitcoin. Muundo wake pia [unapatikana katika chanzo huria](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium_campaign=designshare&utm_medium_link ili ushiriki na kurekebisha&utm_medium=link2. Kumbuka tu kuweka vyanzo vyako.
 
 
 
@@ -2049,7 +2049,7 @@ Wakati kuacha karatasi nyeupe ya Bitcoin ni ishara, mara nyingi ni ngumu sana kw
 - karatasi nyeupe ya Bitcoin, iliyotafsiriwa kwa Kifaransa.
 
 
-Hiki hapa [kijitabu kilichoshirikiwa miongoni mwa bitcoincoiners wa Ufaransa](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) ambacho kimewekwa katika masanduku mengi ya vitabu kote nchini. Muundo wake pia [unapatikana kama chanzo-wazi](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium_tton).=
+Hiki hapa [kijitabu kilichoshirikiwa miongoni mwa bitcoincoiners wa Ufaransa](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) ambacho kimewekwa katika masanduku mengi ya vitabu kote nchini. Muundo wake pia [unapatikana kama chanzo-wazi](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium_tton).=
 
 
 

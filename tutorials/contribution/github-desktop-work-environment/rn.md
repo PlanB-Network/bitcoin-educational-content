@@ -68,7 +68,7 @@ Hariho porogarama nyinshi cane zijanye n’uguhindura amadosiye ya Markdown, nka
 
 
 
-- Genda kuri https://obsidian.md/gukuraho maze ukureho porogaramu: ![github-ibiro](itunga/7.webp)
+- Genda kuri https://obsidian.md/download maze ukureho porogaramu: ![github-ibiro](itunga/7.webp)
 - Shiraho Obsidian, utangure porogaramu, uhitemwo ururimi rwawe, hanyuma ukande kuri `Itanguriro ryihuse`: ![github-desktop](itunga/8.webp)
 - Uzoshika kuri porogarama ya Obsidian. Ubu, nta dosiye yuguruye: ![github-ibiro](itunga/9.webp)
 
@@ -170,7 +170,7 @@ Ivyinshi muvyo uzohindura bizoba biri ku madosiye ari mu buryo bwa Markdown (`.m
 Nk'akarorero, igihe urema inyigisho nshasha, uzokenera kurema dosiye ya YAML (`.yml`) kugira ngo winjize ama tags y'inyigisho yawe, umutwe wayo, n'indangamuntu y'umwigisha wawe. Obsidian ntitanga ubushobozi bwo guhindura ubwo bwoko bw'amadosiye, rero uzokenera umuhinduzi wa kode.
 
 
-Ku bw’ivyo, hariho uburyo bwinshi bwo kubigira. Naho igitabu gisanzwe co kuri orodinateri yawe gishobora gukoreshwa muri ivyo bihinduka, uwo muti si mwiza ku bikorwa vy’isuku. Ndabagira inama yo guhitamwo porogarama zagenewe iyo ntumbero canecane, nka [VS Code](https://code.visualstudio.com/gukuraho) canke [Ivyanditswe vyiza cane](https://www.sublimetext.com/gukuraho). Sublime Text, kubera ko ari yoroshe cane, izoba ihagije cane ku vyo dukeneye.
+Ku bw’ivyo, hariho uburyo bwinshi bwo kubigira. Naho igitabu gisanzwe co kuri orodinateri yawe gishobora gukoreshwa muri ivyo bihinduka, uwo muti si mwiza ku bikorwa vy’isuku. Ndabagira inama yo guhitamwo porogarama zagenewe iyo ntumbero canecane, nka [VS Code](https://code.visualstudio.com/download) canke [Ivyanditswe vyiza cane](https://www.sublimetext.com/download). Sublime Text, kubera ko ari yoroshe cane, izoba ihagije cane ku vyo dukeneye.
 
 
 - Shiraho imwe muri izo porogarama, hanyuma uyishire ku ruhande kugira ngo uzoyihindure muri kazoza. ![github-ibiro](itunga/26.urubuga)

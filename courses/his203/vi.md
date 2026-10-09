@@ -1908,7 +1908,7 @@ Luke [đã biết](https://www.youtube.com/watch?v=3sXei0Iwf4Q) về Bitcoin và
 
 
 
-*Hình đại diện được Luke-Jr sử dụng từ năm 2013 (nguồn: [Gravatar](https://secure.graveatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
+*Hình đại diện được Luke-Jr sử dụng từ năm 2013 (nguồn: [Gravatar](https://secure.gravatar.com/avatar/30aa55ee8573680ee4bbb556dae3160c?s=400))*
 
 
 

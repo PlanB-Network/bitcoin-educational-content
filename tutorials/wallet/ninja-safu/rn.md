@@ -36,7 +36,7 @@ Uburyo bwa Ninja SAFU buratanga ivyiza vyinshi:
 
 
 
-- Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n’abahinga mu vy’umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-ububiko-bw’ibisubirwamwo/ibisubirwamwo/safu-ninja/), bakabugerageza cane.
+- Ukwizigirwa**: Ubu buryo bwageragejwe kuva mu 2020, bwageragejwe kandi burageragezwa n’abahinga mu vy’umutekano nka [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), bakabugerageza cane.
 
 
 

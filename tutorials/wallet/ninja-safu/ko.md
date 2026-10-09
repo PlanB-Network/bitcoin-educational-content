@@ -36,7 +36,7 @@ description: SAFU 닌자 방법으로 seed 저장하기
 
 
 
-- 신뢰성**: 2020년부터 테스트된 이 방법은 [제임슨 롭](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)과 같은 안전 전문가들이 엄격한 스트레스 테스트(극심한 열, 부식, 기계적 압력)를 거쳐 검증했습니다.
+- 신뢰성**: 2020년부터 테스트된 이 방법은 [제임슨 롭](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)과 같은 안전 전문가들이 엄격한 스트레스 테스트(극심한 열, 부식, 기계적 압력)를 거쳐 검증했습니다.
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- 닌자 사푸 방법에 대한 [보고서](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)
+- 닌자 사푸 방법에 대한 [보고서](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)
 
 
 
 
 
-- 비교표 [완료](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- 비교표 [완료](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

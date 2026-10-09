@@ -152,7 +152,7 @@ Kuna Bitcoin on süsteem, tuleb seda tingimata käivitada arvutites. Ja kuna teg
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Sõlme esimene ülesanne on säilitada Blockchain kohalik koopia. [Double-spendi
 
 > Ainus viis kinnitada tehingu puudumist on olla teadlik kõigist tehingutest.
 
-Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer elektroonilise sularaha süsteem*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer elektroonilise sularaha süsteem*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Teoreetiliselt ei esinda Bitcoin core protokolli Bitcoin; pigem on see vaid üks
 
 
 
-Vastavalt [Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (tuntud arendaja ökosüsteemis) poolt augustis 2025 kogutud andmetele on rakenduste jaotus võrgu avalike sõlmede vahel järgmine:
+Vastavalt [Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (tuntud arendaja ökosüsteemis) poolt augustis 2025 kogutud andmetele on rakenduste jaotus võrgu avalike sõlmede vahel järgmine:
 
 
 
@@ -766,7 +766,7 @@ Lühidalt öeldes töötab Wallet jälgimine pruned-sõlmes tõrgeteta, kui te l
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3884,7 +3884,7 @@ Lõpuks võimaldab fail `Bitcoin.conf` konfigureerida ka teie sõlme juurdepää
 
 
 
-Oleme nüüdseks lõpetanud enamiku konfiguratsiooniparameetrite loetlemise. See "Bitcoin.conf" fail moodustab seega teie sõlme tegeliku armatuurlaua: selles määratakse kindlaks võrgu konfiguratsioon, Mempool haldamine, ketta- ja mälukasutus, indekseerimine ja üldine haldamine. Kui soovite selle faili kohta rohkem teada saada ja luua oma vajadustele kohandatud faili, siis soovitan kasutada [Jameson Loppi generaatorit](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Oleme nüüdseks lõpetanud enamiku konfiguratsiooniparameetrite loetlemise. See "Bitcoin.conf" fail moodustab seega teie sõlme tegeliku armatuurlaua: selles määratakse kindlaks võrgu konfiguratsioon, Mempool haldamine, ketta- ja mälukasutus, indekseerimine ja üldine haldamine. Kui soovite selle faili kohta rohkem teada saada ja luua oma vajadustele kohandatud faili, siis soovitan kasutada [Jameson Loppi generaatorit](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

@@ -32,7 +32,7 @@ Por ejemplo, entre el 1 de enero de 2018 y el 1 de enero de 2024, se estima que 
 
 Este importante crecimiento está, por supuesto, estrechamente relacionado:
 
-- El [creciente interés de la población de todo el mundo por utilizar la Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para liberarse del sistema bancario y/o utilizar una moneda menos volátil o menos devaluada, como es el caso de las poblaciones de Líbano, Siria, Egipto, Argentina y otros países;
+- El [creciente interés de la población de todo el mundo por utilizar la Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), para liberarse del sistema bancario y/o utilizar una moneda menos volátil o menos devaluada, como es el caso de las poblaciones de Líbano, Siria, Egipto, Argentina y otros países;
 - La apreciación de su precio a lo largo del tiempo, estableciéndolo como depósito de valor e inversión a largo plazo, impulsado por su política monetaria fija;
 - El crecimiento sucesivo del mercado especulativo de criptodivisas, en particular durante 2017-2018 y 2020-2021;
 - La creciente presencia de Bitcoin en los principales medios de comunicación.
@@ -1243,7 +1243,7 @@ También puedes diseñar un folleto específico para tu comunidad o reunión, en
 
 Ya hay varios folletos **disponibles como código abierto en la [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** en planB.network y con el tiempo se irán añadiendo más.
 
-Un ejemplo es un [folleto completo de fuentes](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) con 21 razones para utilizar Bitcoin. Su diseño también está [disponible en código abierto](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para que lo modifiques, adaptes y compartas. No olvides citar las fuentes.
+Un ejemplo es un [folleto completo de fuentes](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) con 21 razones para utilizar Bitcoin. Su diseño también está [disponible en código abierto](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para que lo modifiques, adaptes y compartas. No olvides citar las fuentes.
 
 ![image](assets/es/041.webp)
 
@@ -1271,7 +1271,7 @@ Aunque dejar el libro blanco de Bitcoin es simbólico, suele ser demasiado compl
 - Una introducción accesible y bien documentada a Bitcoin, sus usos y los problemas que resuelve
 - El libro blanco Bitcoin, traducido a tu idioma.
 
-Aquí está [el folleto compartido entre los bitcoiners franceses](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) que se ha colocado en decenas de librerías de todo el país. Su diseño también está [disponible como código abierto](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Aquí está [el folleto compartido entre los bitcoiners franceses](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) que se ha colocado en decenas de librerías de todo el país. Su diseño también está [disponible como código abierto](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 ![image](assets/es/045.webp)
 

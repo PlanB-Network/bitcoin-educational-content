@@ -50,7 +50,7 @@ Narakoze kandi ibipimo vy’umuvuduko bitamenyerewe kugira ngo ngerageze IVPN na
 ## Ni gute woshira Mullvad VPN kuri mudasobwa?
 
 
-Sura [urubuga rwemewe rwa Mullvad](https://mullvad.net/ru/gukuraho/) hanyuma ukande ku rutonde rwa "*Ivyo gukuraho*".
+Sura [urubuga rwemewe rwa Mullvad](https://mullvad.net/en/download/) hanyuma ukande ku rutonde rwa "*Ivyo gukuraho*".
 
 ![MULLVAD VPN](assets/notext/04.webp)
 
@@ -58,7 +58,7 @@ Ku bakoresha Windows canke macOS, nuronke iyo porogarama ku rubuga maze ukurikiz
 
 ![MULLVAD VPN](assets/notext/05.webp)
 
-Ku bakoresha Linux, ushobora kubona amabwirizwa yihariye ku gukwirakwiza kwawe mu gice ca ["*Linux*"](https://mullvad.net/ru/gukuraho/vpn/linux).
+Ku bakoresha Linux, ushobora kubona amabwirizwa yihariye ku gukwirakwiza kwawe mu gice ca ["*Linux*"](https://mullvad.net/en/download/vpn/linux).
 
 ![MULLVAD VPN](assets/notext/06.webp)
 
@@ -68,7 +68,7 @@ Iyo installation irangiye, uzokenera kwinjiza ID ya konti yawe. Ivyo tuzobibona 
 ## Ni gute woshira Mullvad VPN kuri telefone ngendanwa?
 
 
-Gukuraho Mullvad VPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama] ku bakoresha iOS, [Google Play Iduka](id=net.mullvad.mullvadvpn) ku bijanye na Android, canke [F-Droid](its. Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa Mullvad](https://mullvad.net/ru/gukura/vpn/android).
+Gukuraho Mullvad VPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama] ku bakoresha iOS, [Google Play Iduka](id=net.mullvad.mullvadvpn) ku bijanye na Android, canke [F-Droid](its. Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa Mullvad](https://mullvad.net/en/download/vpn/android).
 
 ![MULLVAD VPN](assets/notext/07.webp)
 

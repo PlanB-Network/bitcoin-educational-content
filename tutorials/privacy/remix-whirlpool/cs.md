@@ -65,7 +65,7 @@ Důraz by měl být kladen na udržení integrity technického obsahu, přičem�
 
 Tento text je příkladem, jak by měl být přeložen:
 
-- https://estudiobitcoin.com/jak-nainstalovat-a-používat-whirlpool-stats-tools-wst-pro-výpočty-sad-anonymity-transakcí-coinjoins/
+- https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - https://medium.com/samourai-wallet/potápění-se-na-hlavičku-do-whirlpool-anonymity-sets-4156a54b0bc7.
 
 Všimněte si, že URL adresy zůstávají nezměněny, protože představují specifické zdroje informací, které nemusí být dostupné v češtině, a proto je důležité je ponechat v jejich původní formě pro uživatele, kteří hledají další informace.

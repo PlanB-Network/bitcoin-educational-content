@@ -51,7 +51,7 @@ Ku bijanye n’igice c’ubuhinga bwo gukingira amakuru, ubuhinga butandukanye b
 
 
 
-Urubuga rwemewe rw'umugambi: [umurinzi w'umuyagankuba.com](https://www.umucungezi w'umuyagankuba.com/)
+Urubuga rwemewe rw'umugambi: [umurinzi w'umuyagankuba.com](https://www.wireguard.com/)
 
 
 

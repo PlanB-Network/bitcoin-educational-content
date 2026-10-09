@@ -49,7 +49,7 @@ Kugira ngo wubake SeedSigner yawe, uzokenera ibi bikurikira:
 
 - Rasiberi Pi Zero
     - Verisiyo 1.3 ni yo ikenewe, kuko nta Wi-Fi canke Bluetooth ifise, bikaba bituma umuntu yitandukanya n’abandi.
- - Verisiyo za W na v2 na zo nyene zirahuye, ariko zifise igice ca Wi-Fi/Bluetooth. Ni vyiza rero ko uwuzimya ku mubiri mu gukuraho igice c’iradiyo kiri ku karata. Ivyo bikorwa birasanzwe, ariko bisaba ko umuntu akora neza (ibipimo vyiza bihagije ku Zero W, mu gihe ikaramu ishushe ikenewe ku v2 kugira ngo ikureho igipande c’icuma kinyegeza iyo module). Sinzoja mu ndondoro muri iyi nyigisho, ariko uzosanga amabwirizwa yose muri iyi nyandiko: *[Guhagarika WiFi/Bluetooth n'ibikoresho](https://github.com/rpi_guhagarika_wifi_na_bt_n'ibikoresho)*.
+ - Verisiyo za W na v2 na zo nyene zirahuye, ariko zifise igice ca Wi-Fi/Bluetooth. Ni vyiza rero ko uwuzimya ku mubiri mu gukuraho igice c’iradiyo kiri ku karata. Ivyo bikorwa birasanzwe, ariko bisaba ko umuntu akora neza (ibipimo vyiza bihagije ku Zero W, mu gihe ikaramu ishushe ikenewe ku v2 kugira ngo ikureho igipande c’icuma kinyegeza iyo module). Sinzoja mu ndondoro muri iyi nyigisho, ariko uzosanga amabwirizwa yose muri iyi nyandiko: *[Guhagarika WiFi/Bluetooth n'ibikoresho](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
  - Iyumvire: hariho ibigereranyo vya Raspberry Pi Zero bigurishwa ata n’ibipimo vya GPIO vyateguwe mbere. Ushobora kugura verisiyo ifise amapin yunze ubumwe ataco akora (umuti woroshe), canke ukagura amapin atandukanye maze ukayasoda wewe nyene (umuti ugoye cane).
  - Ntimwibagire gushiramwo umuyagankuba wa micro-USB.
 
@@ -94,7 +94,7 @@ Kugira ngo wubake SeedSigner yawe, uzokenera ibi bikurikira:
 
 - Inzu (nivyo ariko birakenewe)** (nivyo ariko birakenewe)** (nivyo ariko birakenewe)** (nivyo ariko birakenewe)**)
     - Ikingira igikoresho kandi kigatuma vyoroha gukoresha.
-    - Icogereranyo gikundwa cane ni "*Orange Pill Case*", iyo [amadosiye ya STL y'inkomoko yuguruye aboneka mu gucapura 3D](https://github.com/Imbuto/igiti/igiti/igiti/igiti).
+    - Icogereranyo gikundwa cane ni "*Orange Pill Case*", iyo [amadosiye ya STL y'inkomoko yuguruye aboneka mu gucapura 3D](https://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
     - Amasandugu araboneka kandi ku [bagurisha bigenga bafitaniye isano n’uwo mugambi](https://seedsigner.com/hardware/).
 
 
@@ -119,7 +119,7 @@ Uhejeje gukoranya ibikoresho vyawe, ukeneye gutegura ikarita ya microSD mu kuyis
 
 
 
-Genda kuri [ububiko buzwi bw'umugambi bwa GitHub](https://github.com/Umushingantahe w'imbuto/umunyamuryango w'imbuto/ibisohoka). Ku verisiyo nshasha ya porogaramu, fungura :
+Genda kuri [ububiko buzwi bw'umugambi bwa GitHub](https://github.com/SeedSigner/seedsigner/releases). Ku verisiyo nshasha ya porogaramu, fungura :
 
 
 
@@ -753,10 +753,10 @@ Kugira ngo ubikore, uzokenera urupapuro rudafise ikintu canke kode QR y’icuma 
 
 
 
-- [Igishushanyo c'amajambo 12](https://github.com/Imbuto/imbuto/blob/dev/inyandiko/imbuto_qr/ibigereranyo_bishobora_gucapwa/uruzitiro_25x25.pdf)
-- [Uburyo bw'amajambo 24](https://github.com/Imbuto/imbuto/blob/dev/inyandiko/imbuto_qr/ibigereranyo_bishobora_gucapwa/uruzitiro_29x29.pdf)
-- [Igishushanyo c'amajambo 12](https://github.com/Imbuto/imbuto/blob/dev/inyandiko/imbuto_qr/ibigereranyo_bishobora_gucapwa/uruzitiro_21x21.pdf)
-- [Igishushanyo c'amajambo 24](https://github.com/Imbuto/imbuto/blob/dev/inyandiko/imbuto_qr/ibigereranyo_bishobora_gucapwa/uruzitiro_25x25.pdf)
+- [Igishushanyo c'amajambo 12](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
+- [Uburyo bw'amajambo 24](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_29x29.pdf)
+- [Igishushanyo c'amajambo 12](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_21x21.pdf)
+- [Igishushanyo c'amajambo 24](https://github.com/SeedSigner/seedsigner/blob/dev/docs/seed_qr/printable_templates/grid_25x25.pdf)
 
 
 
@@ -1239,4 +1239,4 @@ https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1
 
 
 
-*Iciyumviro: amwe mu mashusho ari muri iyi nyigisho ava ku [urubuga rwemewe rw’umugambi wa SeedSigner](https://umusinyi w’imbuto.com/) no ku [bubiko bwa GitHub](https://github.com/Umusinyi w’imbuto/umusinyi w’imbuto).*
+*Iciyumviro: amwe mu mashusho ari muri iyi nyigisho ava ku [urubuga rwemewe rw’umugambi wa SeedSigner](https://umusinyi w’imbuto.com/) no ku [bubiko bwa GitHub](https://github.com/SeedSigner/seedsigner).*

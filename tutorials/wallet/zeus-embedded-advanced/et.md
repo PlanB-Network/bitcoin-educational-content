@@ -322,7 +322,7 @@ SCB on vajalik ainult siis, kui teil on LN kanalid avatud. Kui teil on ainult on
 Kui näete, et pärast pikka aega ei näita ikka veel vana ajalugu txs, mine Embedded node - Peers ja keelata võimalus kasutada nimekirja valitud eakaaslaste (vaikimisi on btcd.lnolymp.us). See käivitab taaskäivituse ja ühendab esimese kättesaadava neutrino sõlme parema ajavastusega. Või kasutage allpool mainitud teisi tuntud neutrino peereid.
 
 
-Kui soovite näha rohkem taastamise võimalusi LND sõlme jaoks, [lugege minu eelmist juhendit](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), kust leiate sammud, kuidas importida aezeed seed Sparrow Wallet või muud meetodid.
+Kui soovite näha rohkem taastamise võimalusi LND sõlme jaoks, [lugege minu eelmist juhendit](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), kust leiate sammud, kuidas importida aezeed seed Sparrow Wallet või muud meetodid.
 
 
 **C - sisseehitatud sõlme**

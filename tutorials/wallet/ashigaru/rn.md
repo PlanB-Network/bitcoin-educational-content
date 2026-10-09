@@ -98,7 +98,7 @@ Nimba vy’ukuri udashobora kwikorera Dojo yawe, urashobora gusanga abantu basha
 
 
 
-Ku telefone yawe, fungura Tor Browser maze uje kuri [urubuga rwemewe rwa Ashigaru](https://ashigaru.rs/gukuraho/), mu gice ca `Gukuraho`. Hanyuma ukande kuri buto `Download for Android` kugira ngo ubone dosiye yo gushiramwo.
+Ku telefone yawe, fungura Tor Browser maze uje kuri [urubuga rwemewe rwa Ashigaru](https://ashigaru.rs/download/), mu gice ca `Gukuraho`. Hanyuma ukande kuri buto `Download for Android` kugira ngo ubone dosiye yo gushiramwo.
 
 
 
@@ -355,7 +355,7 @@ Igikoresho cose c’ikinyoma gishikirizwa gifise uburyo bwihariye bwo gufungura 
 
 
 
-Igiharuro ca kabiri gihambaye co gukoresha ni [**RBF** (*Gusubirira-n’amahera*)](https://umugambi.ishure/ibikoresho/inkoranyajambo/rbf-gusubirira-n’amahera). Iyi option ishobora kwongera igiciro c’ibikorwa iyo bifashe mu mempools kuko igiciro kiri hasi cane. Ushobora kuyikoresha biciye ku `Ibikorwa > Gukoresha ukoresheje RBF`.
+Igiharuro ca kabiri gihambaye co gukoresha ni [**RBF** (*Gusubirira-n’amahera*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Iyi option ishobora kwongera igiciro c’ibikorwa iyo bifashe mu mempools kuko igiciro kiri hasi cane. Ushobora kuyikoresha biciye ku `Ibikorwa > Gukoresha ukoresheje RBF`.
 
 
 

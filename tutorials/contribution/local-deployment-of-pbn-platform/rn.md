@@ -94,7 +94,7 @@ SENDGRID_KEY=dummySendgridKey
 
 
 
-Kugira ngo ushiremwo nodejs, rondera amabwirizwa [hano](https://nodejs.org/ru/gukuraho/umucungerezi-w'amapaki); nk'akarorero ushobora guhitamwo gukoresha uburyo bwo gushiramwo `nvm`.
+Kugira ngo ushiremwo nodejs, rondera amabwirizwa [hano](https://nodejs.org/en/download/package-manager); nk'akarorero ushobora guhitamwo gukoresha uburyo bwo gushiramwo `nvm`.
 
 
 ---

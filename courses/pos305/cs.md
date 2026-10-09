@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Protokoly uzlu Bitcoin
 
 
-Kromě [prohlížení protokolů](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontejneru bitcoind můžete také použít některý z příkazů [bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Kromě [prohlížení protokolů](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) kontejneru bitcoind můžete také použít některý z příkazů [bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(otevře se nové okno)](https://developer.Bitcoin.org/reference/RPC/index.html) a získáte informace z uzlu Bitcoin. BTCPay obsahuje skript, který vám umožní snadno komunikovat s vaším uzlem Bitcoin.
+[(otevře se nové okno)](https://developer.bitcoin.org/reference/rpc/index.html) a získáte informace z uzlu Bitcoin. BTCPay obsahuje skript, který vám umožní snadno komunikovat s vaším uzlem Bitcoin.
 
 
 Ve složce btcpayserver-docker získejte informace o Blockchain pomocí svého uzlu:

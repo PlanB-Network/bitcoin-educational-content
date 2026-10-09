@@ -579,7 +579,7 @@ Cypherpunk 운동에서 등장한 첫 번째 프로토콜은 1998년 웨이 다�
 - 해싱을 기반으로 한 화폐 정책은 컴퓨팅 성능의 기하급수적인 증가로 인해 특별히 매력적이지 않았습니다.
 
 
-따라서 RPOW의 실제 사용은 일화적인 것이었습니다. 하지만 할 피니는 Satoshi 나카모토가 등장하기 4년 전에 실험적인 개념 증명을 설정하여 Bitcoin에 "[길을 닦은](https://mmalmi.github.io/Satoshi/#email-24)"(*원래: "이 횃불을 들고"*) 공로를 인정받을 만합니다.
+따라서 RPOW의 실제 사용은 일화적인 것이었습니다. 하지만 할 피니는 Satoshi 나카모토가 등장하기 4년 전에 실험적인 개념 증명을 설정하여 Bitcoin에 "[길을 닦은](https://mmalmi.github.io/satoshi/#email-24)"(*원래: "이 횃불을 들고"*) 공로를 인정받을 만합니다.
 
 
 ### 리플 신용의 탈중앙화
@@ -658,7 +658,7 @@ Bitcoin는 일본인이라고 주장하는 신원 미상의 개인 나카모토 
 ### 준비
 
 
-Satoshi가 Bitcoin의 출시를 준비하기로 결정한 것은 2008년 8월이었습니다. 18일에 그는 익명 서비스인 AnonymousSpeech를 통해 도메인 이름 Bitcoin.org를 예약했습니다(아직 컨셉에 맞는 이름을 확정하지 못한 [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)와 함께). 이 도메인 이름은 Bitcoin의 메인 사이트를 호스팅하게 됩니다. 그러나 Satoshi는 [투기꾼](https://mmalmi.github.io/Satoshi/#email-28)이 소유하고 있던 [Bitcoin.com]이라는 도메인 이름을 예약하지 못했고, 2009년부터 2011년까지 소액 결제를 전문으로 하는 [Bitcoin 주식회사](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/)가 [사용]하게 됩니다.
+Satoshi가 Bitcoin의 출시를 준비하기로 결정한 것은 2008년 8월이었습니다. 18일에 그는 익명 서비스인 AnonymousSpeech를 통해 도메인 이름 Bitcoin.org를 예약했습니다(아직 컨셉에 맞는 이름을 확정하지 못한 [Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)와 함께). 이 도메인 이름은 Bitcoin의 메인 사이트를 호스팅하게 됩니다. 그러나 Satoshi는 [투기꾼](https://mmalmi.github.io/satoshi/#email-28)이 소유하고 있던 [Bitcoin.com]이라는 도메인 이름을 예약하지 못했고, 2009년부터 2011년까지 소액 결제를 전문으로 하는 [Bitcoin 주식회사](https://web.archive.org/web/20090719065532/http://www.Bitcoin.com/)가 [사용]하게 됩니다.
 
 
 8월 20일, Bitcoin의 창시자인 아담 백(https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)에게 백서에 해시캐시에 관한 자신의 논문을 인용하는 방법에 대한 조언을 구하는 이메일을 보냈습니다. Hard는 이를 해시캐시의 발명가가 자신의 새로운 시스템을 알리기 위한 구실로 보지 않습니다.
@@ -742,7 +742,7 @@ Bitcoin는 모든 네트워크 노드가 Ledger의 내용에 동의할 수 있�
 
 > "일정량의 새로운 코인이 꾸준히 추가되는 것은 금 채굴업자가 금을 유통하기 위해 자원을 소비하는 것과 유사합니다."
 
-메일링 리스트](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)와 [개인 서신](https://mmalmi.github.io/Satoshi/#email-3)에서 Satoshi가 확인한 이 속성은 제임스 A. 도널드에게서 벗어날 수 없습니다. 11월 9일, 그는 "누가 무엇을 소유하고 있는지 추적하는 작업"(즉, [Mining](https://planb.academy/resources/glossary/mining))이 "시뇨리지로 지급"되고 "인플레이션이 필요하다"고 [비판](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)하면서도 "예측 가능한 인플레이션은 부를 한 투표 블록에서 다른 투표 블록으로 이전하기 위해 수시로 흔들리는 인플레이션보다 덜 불쾌하다"고 지적합니다 (*원문: "제안된 시스템에서 누가 어떤 코인을 소유하고 있는지 추적하는 작업은 인플레이션이 필요한 시뇨리지에 의해 지불됩니다. 이는 참을 수 없는 결함이 아닙니다. 예측 가능한 인플레이션은 한 투표 블록에서 다른 투표 블록으로 부를 이전하기 위해 수시로 변동하는 인플레이션보다 덜 불쾌합니다."*) 또한 그는 "신경 쓰지 않는 모든 지출을 무시"하는 Mining 노드는 "부작용이 없다"며 검열의 문제를 강조했습니다(https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html). (*원본: "한 노드가 신경 쓰지 않는 모든 지출을 무시한다면, 그 노드는 아무런 부정적인 결과를 겪지 않는다." * 원문: "한 노드가 신경 쓰지 않는 모든 지출을 무시한다면, 그 노드는 아무런 부정적인 결과를 겪지 않는다.")
+메일링 리스트](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)와 [개인 서신](https://mmalmi.github.io/satoshi/#email-3)에서 Satoshi가 확인한 이 속성은 제임스 A. 도널드에게서 벗어날 수 없습니다. 11월 9일, 그는 "누가 무엇을 소유하고 있는지 추적하는 작업"(즉, [Mining](https://planb.academy/resources/glossary/mining))이 "시뇨리지로 지급"되고 "인플레이션이 필요하다"고 [비판](https://www.metzdowd.com/pipermail/cryptography/2008-November/014837.html)하면서도 "예측 가능한 인플레이션은 부를 한 투표 블록에서 다른 투표 블록으로 이전하기 위해 수시로 흔들리는 인플레이션보다 덜 불쾌하다"고 지적합니다 (*원문: "제안된 시스템에서 누가 어떤 코인을 소유하고 있는지 추적하는 작업은 인플레이션이 필요한 시뇨리지에 의해 지불됩니다. 이는 참을 수 없는 결함이 아닙니다. 예측 가능한 인플레이션은 한 투표 블록에서 다른 투표 블록으로 부를 이전하기 위해 수시로 변동하는 인플레이션보다 덜 불쾌합니다."*) 또한 그는 "신경 쓰지 않는 모든 지출을 무시"하는 Mining 노드는 "부작용이 없다"며 검열의 문제를 강조했습니다(https://www.metzdowd.com/pipermail/cryptography/2008-November/014841.html). (*원본: "한 노드가 신경 쓰지 않는 모든 지출을 무시한다면, 그 노드는 아무런 부정적인 결과를 겪지 않는다." * 원문: "한 노드가 신경 쓰지 않는 모든 지출을 무시한다면, 그 노드는 아무런 부정적인 결과를 겪지 않는다.")
 
 
 이러한 발언을 통해 Satoshi은 새로운 유닛을 생성하는 대신 [채굴자들](https://planb.academy/resources/glossary/miner)이 "그들이 받는 모든 유료 거래를 포함하도록"(https://www.metzdowd.com/pipermail/cryptography/2008-November/014843.html) 장려함으로써 두 가지 문제를 모두 해결하는 [거래 수수료 메커니즘](https://www.metzdowd.com/pipermail/cryptography/2008-November/014842.html)을 구현할 수 있다는 것을 깨달았을 것입니다 (*원래: "노드는 그들이 받는 모든 지불 거래를 포함할 인센티브를 갖게 될 것입니다."*)
@@ -751,7 +751,7 @@ Bitcoin는 모든 네트워크 노드가 Ledger의 내용에 동의할 수 있�
 동시에 대화 상대들의 질문으로 인해 그는 모델의 소스 코드를 공유하게 되었습니다. 11월 16일, Satoshi는 할 피니, 제임스 A. 도널드, 레이 딜린저에게 코드를 전송했습니다. 17일에는 메일링 리스트의 제임스 A. 도널드에게 "현재 요청을 통해 사용할 수 있는" "주요 파일"을 보냈으며 "곧" "전체 공개"가 이루어질 것이라고 [답장](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) 보냈습니다 (*원본: "주요 파일을 보냈습니다. (현재 요청 시 이용 가능, 곧 정식 출시)"*) 2013년 레이 딜린저가 [공개](https://bitcointalk.org/index.php?action=printpage;topic=382374.0)한 코드의 이 부분에서는 Bitcoin의 모든 기본 Elements, Blockchain(당시 "타임체인"), Proof of Work, Coin 표현 모델([UTXO](https://planb.academy/resources/glossary/utxo)), 거래 프로그래밍 가능성, 거래 수수료 및 [Halving](https://planb.academy/resources/glossary/halving)이 존재한다는 것을 확인할 수 있습니다.
 
 
-그러나 일부 매개변수가 달라서 즉흥적으로 선택되었거나 [Satoshi]이 작성한 것처럼(https://plan99.net/~mike/Satoshi-emails/thread1.html) "교육받은 추측"에 의해 선택되었음을 나타냅니다 (*원문: "교육적 추측"*) 각 블록 사이의 목표 기간인 블록 타임은 10분이 아닌 15분입니다. 난이도 조정 기간은 2,016블록(블록 시간 10분의 경우 14일에 해당)이 아닌 2,880블록(블록 시간 15분의 경우 30일에 해당)입니다. Halving 메커니즘은 `GetBlockValue` 함수에 존재하며, 대략 2년 311일마다 100,000블록마다 발생하도록 규정하고 있습니다:
+그러나 일부 매개변수가 달라서 즉흥적으로 선택되었거나 [Satoshi]이 작성한 것처럼(https://plan99.net/~mike/satoshi-emails/thread1.html) "교육받은 추측"에 의해 선택되었음을 나타냅니다 (*원문: "교육적 추측"*) 각 블록 사이의 목표 기간인 블록 타임은 10분이 아닌 15분입니다. 난이도 조정 기간은 2,016블록(블록 시간 10분의 경우 14일에 해당)이 아닌 2,880블록(블록 시간 15분의 경우 30일에 해당)입니다. Halving 메커니즘은 `GetBlockValue` 함수에 존재하며, 대략 2년 311일마다 100,000블록마다 발생하도록 규정하고 있습니다:
 
 
 ```cpp
@@ -781,13 +781,13 @@ return nSubsidy + nFees;
 
 그는 "소프트웨어는 아직 알파 버전이며 실험 단계에 있다"고 명시하고 "필요 시 언젠가 시스템 상태를 다시 시작하지 않아도 된다는 보장은 없다"고 말합니다 (*원본: "이 소프트웨어는 아직 알파 버전이며 실험 단계입니다. 언젠가 필요할 경우 시스템 상태를 다시 시작하지 않아도 된다는 보장은 없습니다."*) 비트코인을 얻는 방법에는 다른 사람에게서 자금을 받거나 CPU를 사용하여 Coin 생성을 활성화하는 두 가지 방법이 있습니다. 또한 송금하는 방법도 두 가지가 있습니다: 수신자의 IP Address를 사용하거나 오프라인으로 송금할 수 있는 Bitcoin을 통해 송금하는 것입니다. 마지막으로 이메일에는 다음 장에서 설명할 Bitcoin의 최종 통화 정책에 대해 설명합니다.
 
-공개된 코드는 제시된 것보다 조금 더 복잡하며, 단순한 비트코인 전송 이상의 기능을 추가할 수 있는 Interface의 향후 개발을 위해 작성되었습니다. Satoshi은 실제로 [클라이언트에](https://plan99.net/~mike/Satoshi-emails/thread4.html) "누구나 쉽게 통화 Exchange를 제공할 수 있도록"(*원래: "누구나 쉽게 통화 Exchange를 제공"*) 하는 "이베이 스타일 마켓플레이스"(*원래: "클라이언트에 내장된 이베이 스타일 마켓플레이스"*)의 기본을 [통합]했습니다. 이 코드에는 소프트웨어에서 직접 포커 애플리케이션을 설정할 수 있는 [일부 기능](https://github.com/trottier/original-Bitcoin/blob/4184ab26345d19e87045ce7d9291e60e7d36e096/src/uibase.cpp#L1573-L1731)도 포함되어 있습니다. 온라인 포커는 2003년 이후 미국에서 '머니메이커 효과' 덕분에 엄청난 호황을 누렸지만 2006년 [불법 인터넷 도박 단속법](https://www.pgt.com/news/what-if-poker-wasnt-part-of-the-uigea-back-in-2006)이 채택된 이후 일종의 금융 검열의 희생양이 되어 이번 추가 조치를 취하게 되었습니다.
+공개된 코드는 제시된 것보다 조금 더 복잡하며, 단순한 비트코인 전송 이상의 기능을 추가할 수 있는 Interface의 향후 개발을 위해 작성되었습니다. Satoshi은 실제로 [클라이언트에](https://plan99.net/~mike/satoshi-emails/thread4.html) "누구나 쉽게 통화 Exchange를 제공할 수 있도록"(*원래: "누구나 쉽게 통화 Exchange를 제공"*) 하는 "이베이 스타일 마켓플레이스"(*원래: "클라이언트에 내장된 이베이 스타일 마켓플레이스"*)의 기본을 [통합]했습니다. 이 코드에는 소프트웨어에서 직접 포커 애플리케이션을 설정할 수 있는 [일부 기능](https://github.com/trottier/original-Bitcoin/blob/4184ab26345d19e87045ce7d9291e60e7d36e096/src/uibase.cpp#L1573-L1731)도 포함되어 있습니다. 온라인 포커는 2003년 이후 미국에서 '머니메이커 효과' 덕분에 엄청난 호황을 누렸지만 2006년 [불법 인터넷 도박 단속법](https://www.pgt.com/news/what-if-poker-wasnt-part-of-the-uigea-back-in-2006)이 채택된 이후 일종의 금융 검열의 희생양이 되어 이번 추가 조치를 취하게 되었습니다.
 
 
 발표 후 몇 시간 후인 1월 8일 밤부터 1월 9일 새벽까지 Satoshi는 채굴을 시작했습니다. 그리고 1월 9일 오전 2시 54분에 체인의 두 번째 블록인 블록 1을 검증했습니다. 이 블록의 생산은 네트워크의 효과적인 시작을 의미하며, 이후 몇 시간 내에 다른 링크가 체인에 추가됩니다.
 
 
-이 작업이 완료되면 Satoshi는 이 출시에 대해 연락을 주고받았던 여러 사람에게 알립니다. 오전 5시 21분, 그는 Hal Finney에게 [이메일](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-Satoshi-nakamoto-present-a-new-puzzle/)을 보내 "EXE와 전체 소스 코드가 포함된 Bitcoin v0.1 릴리스가 Sourceforge에서 제공된다"고 알립니다 (*원본: "EXE와 전체 소스 코드가 포함된 Bitcoin v0.1 릴리스가 Sourceforge에 올라왔습니다."*) 다음 날, 그는 아담 백과 웨이 다이에게 개인 이메일을 보내 연락을 취했습니다. 이 마지막 이메일에는 특히 Hal Finney가 메일링 리스트에 게시한 설명이 포함되어 있는데, 여기에는 Proof of Work과 b-money가 언급되어 있습니다.
+이 작업이 완료되면 Satoshi는 이 출시에 대해 연락을 주고받았던 여러 사람에게 알립니다. 오전 5시 21분, 그는 Hal Finney에게 [이메일](https://www.coindesk.com/markets/2020/11/26/previously-unpublished-emails-of-satoshi-nakamoto-present-a-new-puzzle/)을 보내 "EXE와 전체 소스 코드가 포함된 Bitcoin v0.1 릴리스가 Sourceforge에서 제공된다"고 알립니다 (*원본: "EXE와 전체 소스 코드가 포함된 Bitcoin v0.1 릴리스가 Sourceforge에 올라왔습니다."*) 다음 날, 그는 아담 백과 웨이 다이에게 개인 이메일을 보내 연락을 취했습니다. 이 마지막 이메일에는 특히 Hal Finney가 메일링 리스트에 게시한 설명이 포함되어 있는데, 여기에는 Proof of Work과 b-money가 언급되어 있습니다.
 
 
 1월 10일, Hal Finney는 소프트웨어의 실행 파일을 실행하려고 시도했지만 컴퓨터가 다운되는 기술적 문제가 발생했습니다. 그는 [연락](https://web.archive.org/web/20140821141611/http://sourceforge.net/p/Bitcoin/mailman/message/21295694/) Satoshi에 연락하여 이 문제에 대해 그와 의견을 교환하기 시작했습니다. 어려움에도 불구하고 할 피니는 소프트웨어를 작동시키는 데 성공했습니다. 1월 10일 밤부터 11일 새벽 1시까지, 그는 첫 번째 블록([블록 78](https://Mempool.space/block/00000000a2886c95400fd3b263b9920af80b118b28fee5d2a162a18e4d9d8b2f))을 발견하고 50 비트코인을 얻었습니다. 한 시간 후, 그는 *암호화 메일링 리스트*에 [칭찬 이메일](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html)을 보내 Satoshi의 알파 버전 출시를 축하하고 계정 단위의 통화 정책을 강조했습니다. 마지막으로 오전 3시 33분, 그는 트위터(당시 새롭게 떠오르는 소셜 네트워크)에 "\[r\]unning \[B\]itcoin"이라는 글을 [공유](https://twitter.com/halfin/status/1110302988)했습니다. 이것이 Bitcoin에 대한 첫 번째 트윗입니다.
@@ -900,10 +900,10 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 1월 21일에 [트윗](https://twitter.com/halfin/status/1136749815)을 통해 "Bitcoin에 익명성을 더 추가하는 방법을 찾고 있다"는 글을 올린 Hal Finney는 이 질문에 관심을 보였습니다 그리고 24일에는 조나단 손버그에게 [답글](https://www.metzdowd.com/pipermail/cryptography/2009-January/015036.html)을 보내 "확실히 타당한 지적이며, 지난 수년간 전자 현금에 대한 논쟁에서 널리 논의되어 온 내용입니다. 하나는 단일 실패 지점, '조폐국'이 없고, 소환, 체포, 폐쇄할 수 있는 임원이 있는 회사가 없는 분산형이라는 점입니다."라고 답했습니다
 
 
-다음으로 같은 이메일에서 조나단 쏜버그는 좀비 컴퓨터 네트워크에 대한 주제를 논의하면서 Satoshi가 강조했던 사용 사례를 언급하며 유료 이메일 필터를 간단히 "우회"할 수 있는 좀비 컴퓨터 네트워크에 대해 설명합니다. Satoshi는 그에게 개인적으로 [답장](https://mmalmi.github.io/Satoshi/#email-3)을 보내 이 경우 "유료 이메일 주소를 설정하고 스팸 메일을 모두 모아서 큰 수익을 올릴 수 있다"고 설명하며, 25일에 [필사](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html)한 의견을 올렸습니다. 반면에 할 피니는 Proof of Work이 "거래 내역 데이터베이스의 신뢰성을 보장하는 데 주된 목적이 있다"는 점을 상기시킵니다 그는 Proof-of-Work 토큰이 유용하다면 기계가 더 이상 유휴 상태로 남아 있지 않을 것이며 기생이 감소할 것이라고 덧붙였습니다.
+다음으로 같은 이메일에서 조나단 쏜버그는 좀비 컴퓨터 네트워크에 대한 주제를 논의하면서 Satoshi가 강조했던 사용 사례를 언급하며 유료 이메일 필터를 간단히 "우회"할 수 있는 좀비 컴퓨터 네트워크에 대해 설명합니다. Satoshi는 그에게 개인적으로 [답장](https://mmalmi.github.io/satoshi/#email-3)을 보내 이 경우 "유료 이메일 주소를 설정하고 스팸 메일을 모두 모아서 큰 수익을 올릴 수 있다"고 설명하며, 25일에 [필사](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html)한 의견을 올렸습니다. 반면에 할 피니는 Proof of Work이 "거래 내역 데이터베이스의 신뢰성을 보장하는 데 주된 목적이 있다"는 점을 상기시킵니다 그는 Proof-of-Work 토큰이 유용하다면 기계가 더 이상 유휴 상태로 남아 있지 않을 것이며 기생이 감소할 것이라고 덧붙였습니다.
 
 
-마지막으로, 사이퍼펑크의 창립 멤버이자 1992년부터 1997년까지 이 운동의 첫 번째 메일링 리스트의 관리자였던 존 길모어의 마지막 발언이 있습니다. 1월 25일에 보낸 이메일에서 그는 Bitcoin의 예상되는 생태학적 결과를 강조하며, "우리가 마지막으로 필요로 하는 것은 이메일이나 스팸을 전송하기 위해 소량의 비트벅스를 생산하기 위해 인터넷에서 전기를 소비하고 이산화탄소를 발생시키는 시스템을 배치하는 것"이라고 [작성](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)했습니다 Satoshi는 "경제적 자유와 환경 보존 중 하나를 선택해야 하는 것은 아이러니한 일"이라고 개인적으로 답장(https://mmalmi.github.io/Satoshi/#email-3)을 보냈습니다 그는 "Proof of Work은 P2P 전자 현금 시스템을 작동시키기 위해 [자신이] 찾은 유일한 솔루션"이며, 많은 에너지를 소비하더라도 "대체할 노동력과 자원 집약적인 기존 은행 활동보다는 덜 낭비할 것"이라고 덧붙입니다
+마지막으로, 사이퍼펑크의 창립 멤버이자 1992년부터 1997년까지 이 운동의 첫 번째 메일링 리스트의 관리자였던 존 길모어의 마지막 발언이 있습니다. 1월 25일에 보낸 이메일에서 그는 Bitcoin의 예상되는 생태학적 결과를 강조하며, "우리가 마지막으로 필요로 하는 것은 이메일이나 스팸을 전송하기 위해 소량의 비트벅스를 생산하기 위해 인터넷에서 전기를 소비하고 이산화탄소를 발생시키는 시스템을 배치하는 것"이라고 [작성](https://www.metzdowd.com/pipermail/cryptography/2009-January/015042.html)했습니다 Satoshi는 "경제적 자유와 환경 보존 중 하나를 선택해야 하는 것은 아이러니한 일"이라고 개인적으로 답장(https://mmalmi.github.io/satoshi/#email-3)을 보냈습니다 그는 "Proof of Work은 P2P 전자 현금 시스템을 작동시키기 위해 [자신이] 찾은 유일한 솔루션"이며, 많은 에너지를 소비하더라도 "대체할 노동력과 자원 집약적인 기존 은행 활동보다는 덜 낭비할 것"이라고 덧붙입니다
 
 
 ![John Gilmore in 2007](assets/ko/025.webp)
@@ -960,7 +960,7 @@ Satoshi 나카모토는 네덜란드 프로젝트 관리 컨설턴트인 마르�
 사토시의 커뮤니케이션 전략은 점차 결실을 맺고 있습니다. 2009년 4월, 다른 사람들이 그의 발명에 관심을 갖기 시작했습니다. 이는 스위스에서 Google에서 근무하며 여가 시간을 자유 소프트웨어에 할애하는 24세의 영국 개발자 Mike Hearn의 경우입니다. 그는 당시 디지털 결제 시스템, 특히 Ryan Fugger의 프로젝트인 Ripple에 관심을 가졌습니다. 그리고 그가 비트코인에 대해 들은 것은 바로 Ripple Google Group에서였으며, 젊은 미국 컴퓨터 과학자이자 기업가인 Charles N. Wyble이 3월에 만든 [토론 스레드](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)를 통해서였습니다.
 
 
-4월 12일, 마이크 헌은 Satoshi에 [이메일](https://plan99.net/~mike/Satoshi-emails/thread1.html)을 보내 Bitcoin에 대한 일련의 질문을 던졌습니다. 그는 "진정으로 혁신적인 아이디어를 접하는 것은 드문 일"이라고 언급하며 리플에 대해 언급하지 않을 수 없었습니다.
+4월 12일, 마이크 헌은 Satoshi에 [이메일](https://plan99.net/~mike/satoshi-emails/thread1.html)을 보내 Bitcoin에 대한 일련의 질문을 던졌습니다. 그는 "진정으로 혁신적인 아이디어를 접하는 것은 드문 일"이라고 언급하며 리플에 대해 언급하지 않을 수 없었습니다.
 
 
 ![Mike Hearn](assets/ko/027.webp)
@@ -990,10 +990,10 @@ Satoshi의 통신은 마르티 말미라는 핀란드의 젊은 컴퓨터 공학
 2013년 마르티 말미 (출처: [비즈니스 인사이더](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 
-마르티는 Satoshi에게 [이메일](https://mmalmi.github.io/Satoshi/#email-1)을 보내 자신이 이 텍스트의 작성자라고 밝히며 "아직 개발 경험이 많지 않지만" "Bitcoin을 돕고 싶다"고 썼습니다 Satoshi 나카모토는 5월 2일에 답장을 보내 "Bitcoin에 대한 이해"가 "정확하다"고 말했습니다
+마르티는 Satoshi에게 [이메일](https://mmalmi.github.io/satoshi/#email-1)을 보내 자신이 이 텍스트의 작성자라고 밝히며 "아직 개발 경험이 많지 않지만" "Bitcoin을 돕고 싶다"고 썼습니다 Satoshi 나카모토는 5월 2일에 답장을 보내 "Bitcoin에 대한 이해"가 "정확하다"고 말했습니다
 
 
-Bitcoin의 창시자는 프로젝트가 호스팅되는 플랫폼인 소스포지의 [웹 페이지](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/)에 [자주 묻는 질문](https://mmalmi.github.io/Satoshi/#email-4)(FAQ) 섹션을 작성하여 기여하도록 했습니다. 홈페이지(Bitcoin.sourceforge.net)에서 그는 Bitcoin을 "새로운 화폐를 발행하거나 거래를 모니터링하는 중앙 기관에 의존하지 않는" "P2P 네트워크 기반의 익명 디지털 화폐"로 소개합니다 그는 다음과 같은 장점을 강조합니다:
+Bitcoin의 창시자는 프로젝트가 호스팅되는 플랫폼인 소스포지의 [웹 페이지](https://web.archive.org/web/20090511173000/http://Bitcoin.sourceforge.net/)에 [자주 묻는 질문](https://mmalmi.github.io/satoshi/#email-4)(FAQ) 섹션을 작성하여 기여하도록 했습니다. 홈페이지(Bitcoin.sourceforge.net)에서 그는 Bitcoin을 "새로운 화폐를 발행하거나 거래를 모니터링하는 중앙 기관에 의존하지 않는" "P2P 네트워크 기반의 익명 디지털 화폐"로 소개합니다 그는 다음과 같은 장점을 강조합니다:
 
 
 
@@ -1003,10 +1003,10 @@ Bitcoin의 창시자는 프로젝트가 호스팅되는 플랫폼인 소스포�
 - "Bitcoin 경제의 성장이 물가 상승률을 앞지르면서 Bitcoin의 가치는 더욱 높아질 것입니다. Bitcoin를 투자로 생각하고 지금 바로 노드 운영을 시작하세요!"
 
 
-Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mmalmi.github.io/Satoshi/#email-5)했지만, 약간의 의구심을 가지고 있습니다. 그는 [특히](https://mmalmi.github.io/Satoshi/#email-19) Bitcoin를 '투자'로 선언하는 것에 대해 "불편한" 반응을 보였는데, 아마도 그러한 선언이 법적으로 어떤 영향을 미칠지 우려한 것으로 보입니다. 이 페이지는 5월 6일에 [게시](https://mmalmi.github.io/Satoshi/#email-9)되었고, 이틀 후 마르티 말미는 [해커뉴스](https://news.ycombinator.com/item?id=599852)와 [레딧](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 플랫폼에 링크를 공유하여 홍보했습니다. 2009년 말에는 이 설명의 약간 수정된 버전이 [메인 웹사이트에서](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) 발견되었습니다.
+Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mmalmi.github.io/satoshi/#email-5)했지만, 약간의 의구심을 가지고 있습니다. 그는 [특히](https://mmalmi.github.io/satoshi/#email-19) Bitcoin를 '투자'로 선언하는 것에 대해 "불편한" 반응을 보였는데, 아마도 그러한 선언이 법적으로 어떤 영향을 미칠지 우려한 것으로 보입니다. 이 페이지는 5월 6일에 [게시](https://mmalmi.github.io/satoshi/#email-9)되었고, 이틀 후 마르티 말미는 [해커뉴스](https://news.ycombinator.com/item?id=599852)와 [레딧](https://www.reddit.com/r/business/comments/8itlf/bitcoin_a_peertopeer_network_based_anonymous/) 플랫폼에 링크를 공유하여 홍보했습니다. 2009년 말에는 이 설명의 약간 수정된 버전이 [메인 웹사이트에서](https://web.archive.org/web/20100106082749/http://www.Bitcoin.org/) 발견되었습니다.
 
 
-2009년 봄에는 "[암호화폐](https://planb.academy/resources/glossary/cryptocurrency)"라는 단어가 등장했는데, 이 단어는 처음에 Bitcoin을 지칭하는 데 사용되었습니다. 5월 11일, Satoshi은 마르티 말미에게 [편지](https://mmalmi.github.io/Satoshi/#email-19)를 보냈습니다:
+2009년 봄에는 "[암호화폐](https://planb.academy/resources/glossary/cryptocurrency)"라는 단어가 등장했는데, 이 단어는 처음에 Bitcoin을 지칭하는 데 사용되었습니다. 5월 11일, Satoshi은 마르티 말미에게 [편지](https://mmalmi.github.io/satoshi/#email-19)를 보냈습니다:
 
 
 > "누군가 '암호화폐'라는 단어를 생각해냈는데... Bitcoin를 설명할 때 사용해야 할 단어인 것 같은데, 마음에 드시나요?"
@@ -1017,12 +1017,12 @@ Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mma
 ### Bitcoin를 위한 두 개의 포럼
 
 
-마르티 말미는 포럼과 위키도 만들었는데, 이는 여전히 소스포지 페이지에 있습니다. 이 Elements은 6월 9일에 [오픈](https://mmalmi.github.io/Satoshi/#email-17)되었습니다. 13일, Malmi는 Bitcoin 메일링 리스트에 소스포지 페이지, 포럼, 위키의 존재를 [발표](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906)했습니다:
+마르티 말미는 포럼과 위키도 만들었는데, 이는 여전히 소스포지 페이지에 있습니다. 이 Elements은 6월 9일에 [오픈](https://mmalmi.github.io/satoshi/#email-17)되었습니다. 13일, Malmi는 Bitcoin 메일링 리스트에 소스포지 페이지, 포럼, 위키의 존재를 [발표](https://web.archive.org/web/20131016004650/http://sourceforge.net/p/Bitcoin/mailman/Bitcoin-list/?viewmonth=200906)했습니다:
 
 
 > "새로운 Bitcoin 웹사이트/포털은 Bitcoin.sourceforge.net에 있습니다. 포럼과 위키가 포함되어 있으므로 토론과 위키 문서에 참여하실 수 있습니다."
 
-이 포럼은 청중을 찾습니다. 심지어 8월에는 개발 전용 IRC 채널(#Bitcoin-dev)이 만들어지기도 했습니다(https://mmalmi.github.io/Satoshi/#email-27). 그러나 회원들만 접근할 수 있었기 때문에 아카이브는 없습니다.
+이 포럼은 청중을 찾습니다. 심지어 8월에는 개발 전용 IRC 채널(#Bitcoin-dev)이 만들어지기도 했습니다(https://mmalmi.github.io/satoshi/#email-27). 그러나 회원들만 접근할 수 있었기 때문에 아카이브는 없습니다.
 
 
 몇 달이 지나면서 점점 더 많은 사람들이 이 첫 번째 포럼에 등록하고 참여하면서 Satoshi는 말미가 구축한 소프트웨어 인프라가 불충분하다는 것을 깨닫게 됩니다. 11월 5일, 그는 젊은 핀란드인에게 편지를 보내 더 많은 트래픽을 처리할 수 있는 새로운 포럼을 만들 것을 제안합니다:
@@ -1030,7 +1030,7 @@ Satoshi은 이 프레젠테이션에 대해 전반적으로 [승인](https://mma
 
 > "이제 Bitcoin.sourceforge.net의 포럼이 인기를 끌고 있으니, 본격적인 포럼 소프트웨어를 무료로 호스팅하는 곳을 찾아야 할 것 같습니다."
 
-채택할 기술 솔루션에 대한 몇 가지 논의 후, 11월 17일 마르티 말미는 자신의 서버에 포럼을 [설치](https://mmalmi.github.io/Satoshi/#email-93)하고, 11월 19일 Satoshi는 [구성](https://mmalmi.github.io/Satoshi/#email-99)을 시작합니다. 22일부터는 Bitcoin의 작성자가 이전 포럼에서 개인정보 보호, Mining, Linux 등의 주제를 다루는 일부 Q&A를 이전합니다. 그는 또한 [환영 메시지](https://bitcointalk.org/index.php?topic=5.msg28#msg28)를 게시합니다. 25일에는 Bitcoin.org/smf에서 포럼이 [시작](https://mmalmi.github.io/Satoshi/#email-110)됩니다.
+채택할 기술 솔루션에 대한 몇 가지 논의 후, 11월 17일 마르티 말미는 자신의 서버에 포럼을 [설치](https://mmalmi.github.io/satoshi/#email-93)하고, 11월 19일 Satoshi는 [구성](https://mmalmi.github.io/satoshi/#email-99)을 시작합니다. 22일부터는 Bitcoin의 작성자가 이전 포럼에서 개인정보 보호, Mining, Linux 등의 주제를 다루는 일부 Q&A를 이전합니다. 그는 또한 [환영 메시지](https://bitcointalk.org/index.php?topic=5.msg28#msg28)를 게시합니다. 25일에는 Bitcoin.org/smf에서 포럼이 [시작](https://mmalmi.github.io/satoshi/#email-110)됩니다.
 
 
 첫 번째 사용자는 다음 달 초에 등록하기 시작합니다. 12월 9일, Satoshi가 아닌 다른 사람이 올린 [첫 번째 메시지](https://bitcointalk.org/index.php?topic=12.msg40#msg40)가 나타나면서 본격적인 토론이 시작됩니다. 2010년 5월 29일 포럼의 [스크린샷](https://web.archive.org/web/20100529193636/http://www.Bitcoin.org/smf/)을 예로 들어 설명합니다:
@@ -1071,7 +1071,7 @@ Bitcoin의 홍보도 여러 단계를 거쳤는데, 먼저 Satoshi는 온라인 
 
 > "새로운 화폐의 당면한 문제 중 하나는 화폐의 가치를 어떻게 평가할 것인가 하는 것입니다. 처음에는 거의 아무도 받아들이지 않을 것이라는 현실적인 문제를 무시하더라도, 단위가 0이 아닌 특정 가치를 지지하는 합리적인 논거를 마련하는 데 여전히 어려움이 있습니다."
 
-따라서 금전적 현상은 금전적이지 않은 이유로 초기 평가가 필요했습니다. Satoshi]이 마르티에게 보낸 편지(https://mmalmi.github.io/Satoshi/#email-1)에 따르면 가연성 물질의 연소에 불을 붙이기 위해서는 '불꽃'이 있어야 했습니다.
+따라서 금전적 현상은 금전적이지 않은 이유로 초기 평가가 필요했습니다. Satoshi]이 마르티에게 보낸 편지(https://mmalmi.github.io/satoshi/#email-1)에 따르면 가연성 물질의 연소에 불을 붙이기 위해서는 '불꽃'이 있어야 했습니다.
 
 
 이러한 Bitcoin의 경제적 부트스트랩은 처음부터 Mining 활동과 함께 서서히 진행되었습니다. 그러나 2009년 10월 달러에 대한 첫 번째 Exchange이 발생했을 때 비로소 본격적으로 나타났습니다. 이 장에서는 이러한 부트스트래핑이 어떻게 발생했으며, 어떤 이유로 여러 행위자들이 계정 단위에 가치를 부여하게 되었는지 설명하고자 합니다.
@@ -1085,7 +1085,7 @@ Bitcoin의 홍보도 여러 단계를 거쳤는데, 먼저 Satoshi는 온라인 
 그러나 소개에서 지적했듯이 비트코인은 시장 가치가 없습니다. 따라서 채굴자들은 이러한 노력을 기울일 주관적인 이유를 찾아야 합니다. 주된 이유는 기술적 호기심, 이념적 동기, 투기적 관심입니다.
 
 
-첫 번째 이유는 아마도 가장 덜 중요한 기술적 호기심일 것입니다. Bitcoin의 얼리어답터들은 실제로 컴퓨터 애호가인 경우가 많으며, 대부분 프로그래밍이나 엔지니어링 관련 직종에서 일하고 있습니다. 그들은 "내부"에서 어떻게 작동하는지 알고 싶어하며, 이것이 소프트웨어와 generate의 비트코인을 출시하게 된 원동력입니다. 2009년 4월 12일에 Satoshi에 질문을 던진 후 [서둘러](https://plan99.net/~mike/Satoshi-emails/thread1.html) 자신의 컴퓨터에서 "애플리케이션을 사용해보고" 블록을 생성한 마이크 헌(Mike Hearn)이 대표적입니다. (*원어: "앱을 사용해 봤습니다"*)
+첫 번째 이유는 아마도 가장 덜 중요한 기술적 호기심일 것입니다. Bitcoin의 얼리어답터들은 실제로 컴퓨터 애호가인 경우가 많으며, 대부분 프로그래밍이나 엔지니어링 관련 직종에서 일하고 있습니다. 그들은 "내부"에서 어떻게 작동하는지 알고 싶어하며, 이것이 소프트웨어와 generate의 비트코인을 출시하게 된 원동력입니다. 2009년 4월 12일에 Satoshi에 질문을 던진 후 [서둘러](https://plan99.net/~mike/satoshi-emails/thread1.html) 자신의 컴퓨터에서 "애플리케이션을 사용해보고" 블록을 생성한 마이크 헌(Mike Hearn)이 대표적입니다. (*원어: "앱을 사용해 봤습니다"*)
 
 
 Mining의 두 번째 이유는 이념적 동기입니다. 많은 초기 소프트웨어 사용자들은 개인적인 신념 때문에 "좋은 일을 하기 위해" 소프트웨어를 사용합니다. 이들은 자신의 컴퓨팅 파워를 활용하여 중앙 기관에 의존하지 않는 강력한 디지털 화폐의 탄생에 기여하고자 합니다. 할 피니는 2008년 11월 13일에 [글](https://www.metzdowd.com/pipermail/cryptography/2008-November/014848.html)을 통해 이 개념을 처음으로 강조했습니다:
@@ -1103,7 +1103,7 @@ Mining를 시작하기로 결정한 세 번째 원동력은 투기적 관심입�
 
 
 - 할 피니는 네트워크 출시와 2009년 3월 사이에 컴퓨터를 운영하며 10,000개 이상의 비트코인을 모았습니다.
-- 2009년과 2010년 초에 걸쳐 인상적인 수의 블록을 채굴하여 7만 개 이상의 비트코인을 획득한 더스틴 트램멜, [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) - 2월과 4월 사이에 자신의 컴퓨터로 8천 비트코인을 [생성](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi)한 제임스 하웰스라는 영국 엔지니어(그는 2013년에 노트북을 매립지로 보내고 몇 달 후 자신의 실수를 깨닫고 *The Guardian*에서 [사건 공개](https://www.theguardian.com/technology/2013/nov/27/Hard-drive-Bitcoin-landfill-site)) - 2013년, 자신의 컴퓨터가 쓰레기 매립지로 보내진 후, 자신의 실수로 인해 발생한 일입니다;
+- 2009년과 2010년 초에 걸쳐 인상적인 수의 블록을 채굴하여 7만 개 이상의 비트코인을 획득한 더스틴 트램멜, [Address](https://Mempool.space/Address/12higDjoCCNXSA95xZMWUdPvXNmkAduhWv) - 2월과 4월 사이에 자신의 컴퓨터로 8천 비트코인을 [생성](https://Mempool.space/Address/198aMn6ZYAczwrE5NvNTUMyJ5qkfy4g3Hi)한 제임스 하웰스라는 영국 엔지니어(그는 2013년에 노트북을 매립지로 보내고 몇 달 후 자신의 실수를 깨닫고 *The Guardian*에서 [사건 공개](https://www.theguardian.com/technology/2013/nov/27/hard-drive-bitcoin-landfill-site)) - 2013년, 자신의 컴퓨터가 쓰레기 매립지로 보내진 후, 자신의 실수로 인해 발생한 일입니다;
 - 2009년 4월부터 2010년까지 네트워크에서 블록 생성에 기여하여 55,000개 이상의 비트코인을 [획득](https://twitter.com/marttimalmi/status/1339908783187832834)한 마르티 말미;
 - 특정 뉴리버티스탠다드는 2009년 9월에 초기 Exchange 서비스에 자금을 지원하기 위해 많은 비트코인을 생성했습니다...
 
@@ -1131,7 +1131,7 @@ Mining를 시작하기로 결정한 세 번째 원동력은 투기적 관심입�
 거래는 이메일(newlibertystandard@gmail.com)을 통해 정산됩니다. 달러 송금은 PayPal을 통해서만 이루어지며, 이 경우 수수료가 부과됩니다.
 
 
-10월 8일, 마르티 말미는 Satoshi에게 NLS 서비스의 존재에 대해 [알렸습니다](https://mmalmi.github.io/Satoshi/#email-34). Bitcoin의 창시자는 이 소식에 긍정적인 반응을 보였는데, 그는 [한동안](https://mmalmi.github.io/Satoshi/#email-28) 비트코인의 가치를 보장하여 Mining에게 보상하고 시스템의 경제적 역학을 시작할 수 있는 수단을 마련하는 것을 고려하고 있었기 때문입니다. 10월 16일, 그는 오른팔에게 [편지를](https://mmalmi.github.io/Satoshi/#email-35) 보냈습니다:
+10월 8일, 마르티 말미는 Satoshi에게 NLS 서비스의 존재에 대해 [알렸습니다](https://mmalmi.github.io/satoshi/#email-34). Bitcoin의 창시자는 이 소식에 긍정적인 반응을 보였는데, 그는 [한동안](https://mmalmi.github.io/satoshi/#email-28) 비트코인의 가치를 보장하여 Mining에게 보상하고 시스템의 경제적 역학을 시작할 수 있는 수단을 마련하는 것을 고려하고 있었기 때문입니다. 10월 16일, 그는 오른팔에게 [편지를](https://mmalmi.github.io/satoshi/#email-35) 보냈습니다:
 
 "뉴리버티스탠다드 사이트에 더 많은 사람들이 관심을 갖는다는 것은 고무적인 일입니다. 저는 전기를 기반으로 가치를 추정하는 그의 접근 방식이 마음에 듭니다. 사람들이 어떤 설명을 채택하는지 보는 것은 교육적입니다. 대중이 더 쉽게 접근할 수 있는 단순화된 이해 방법을 발견하는 데 도움이 될 수 있습니다. 세상의 많은 복잡한 개념에는 80%의 사람들을 만족시키는 단순한 설명과 그 단순한 설명에서 결함을 발견한 나머지 20%를 만족시키는 완전한 설명이 있습니다."
 
@@ -1139,7 +1139,7 @@ Mining를 시작하기로 결정한 세 번째 원동력은 투기적 관심입�
 NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 사람은 Exchange을 만들기로 합의했습니다. 2009년 10월 11~12일 밤, 달러로 비트코인을 판매하는 첫 번째 거래가 성사되었습니다: 마르티는 Mining를 통해 얻은 5,050 비트코인을 NLS에 [이체](https://twitter.com/marttimalmi/status/423455561703624704)했고, NLS는 5.02달러를 자신의 페이팔 계좌로 이체했습니다. 이는 약 0.001달러의 단가에 해당합니다.
 
 
-그 후 몇 주 동안 NLS는 Supply 서비스에 더 많은 비트코인을 축적했습니다. 11월 19일, 누군가가 그가 소유한 22,500 비트코인을 [구매](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)하여 첫 번째 Bitcoin 판매를 마감했습니다. 몇 시간 후, Satoshi는 마르티 말미에게 보낸 [이메일](https://mmalmi.github.io/Satoshi/#email-99)을 통해 이 재정 운영에 대해 감격했습니다.
+그 후 몇 주 동안 NLS는 Supply 서비스에 더 많은 비트코인을 축적했습니다. 11월 19일, 누군가가 그가 소유한 22,500 비트코인을 [구매](https://Mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)하여 첫 번째 Bitcoin 판매를 마감했습니다. 몇 시간 후, Satoshi는 마르티 말미에게 보낸 [이메일](https://mmalmi.github.io/satoshi/#email-99)을 통해 이 재정 운영에 대해 감격했습니다.
 
 
 그 후 몇 달 동안 NLS 서비스는 Bitcoin의 경제 발전의 핵심 요소가 되었고, Exchange과 달러 사이의 벤치마크를 제공했습니다. 그러나 2010년 상반기에 더 효율적인 다른 Exchange 서비스가 등장하면서 경쟁에 직면하기 시작했습니다.
@@ -1152,16 +1152,16 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 
 > "사람들이 저에게 비트코인을 사기도 하고 저에게 비트코인을 팔기도 했습니다. Supply과 수요는 비록 낮더라도 이미 존재하고 있으며, 실제로 필요한 것은 그것뿐입니다. Exchange 비트코인을 다른 통화로 제안하는 것은 궁극적으로 비트코인을 상품이나 서비스로 교환하는 것과 다르지 않습니다. 화폐는 상품이고 화폐를 교환하는 것은 서비스입니다. 미국 달러 외에 비트코인으로 사고 팔 수 있는 것을 생각해 보았지만 아무것도 찾지 못했습니다. 비트코인으로 무엇을 판매할지 결정하시면 언제든지 알려주시기 바랍니다. 자금 고갈 문제에 대해서는 제 예산에서 매일 기부를 계획하고 있습니다. 오늘 제 달러나 비트코인을 모두 구매할 수 있지만, 내일과 모레에는 항상 더 많은 금액이 있을 것입니다. 거래소를 포함하여 비트코인을 사용하여 상품을 구매하거나 판매하는 모든 사람이 Bitcoin 경제를 발전시키고 있습니다. 모두가 각자의 역할을 다합시다. Exchange에서 비트코인을 사용해 물건을 사고 팔아보세요!"
 
-조율 노력은 주로 포럼에서 이루어지고 있습니다. 1월 27일, giik이라는 이름의 네덜란드 사용자가 "우리는 비트코인을 받아들입니다"라는 제목의 [스레드](https://bitcointalk.org/index.php?topic=30.0)를 만들어 Bitcoin를 허용하는 다양한 서비스를 나열할 것을 제안했습니다. 이 무렵 새로운 포럼이 인기를 끌기 시작했고 메시지도 늘어났습니다. 2월 7일, Satoshi는 마르티 말미에게 [지적](https://mmalmi.github.io/Satoshi/#email-153)을 통해 "포럼이 확실히 도약하고 있습니다. 이렇게 빨리 이렇게 많은 활동이 있을 줄은 몰랐습니다."라고 말했습니다
+조율 노력은 주로 포럼에서 이루어지고 있습니다. 1월 27일, giik이라는 이름의 네덜란드 사용자가 "우리는 비트코인을 받아들입니다"라는 제목의 [스레드](https://bitcointalk.org/index.php?topic=30.0)를 만들어 Bitcoin를 허용하는 다양한 서비스를 나열할 것을 제안했습니다. 이 무렵 새로운 포럼이 인기를 끌기 시작했고 메시지도 늘어났습니다. 2월 7일, Satoshi는 마르티 말미에게 [지적](https://mmalmi.github.io/satoshi/#email-153)을 통해 "포럼이 확실히 도약하고 있습니다. 이렇게 빨리 이렇게 많은 활동이 있을 줄은 몰랐습니다."라고 말했습니다
 
 
-2월 5일, NLS는 해외 Exchange 시장에서 거래되는 통화와 마찬가지로 Bitcoin에도 티커 기호 BTC와 태국 바트(฿) 기호를 채택할 것을 [제안](https://bitcointalk.org/index.php?topic=41.msg238#msg238)했습니다. 그 전까지는 정해진 관행이 없었는데, 예를 들어 Satoshi과 마르티는 [서신](https://mmalmi.github.io/Satoshi/#email-119)에서 단위를 설명하기 위해 `bc`라는 문자를 사용했습니다. BTC 기호의 사용은 빠르게 표준화되었습니다. 2월 24일, Satoshi이 [디자인](https://bitcointalk.org/index.php?topic=64.msg504#msg504)한 통화 기호(대문자 B와 두 개의 세로 막대가 교차하는 모양)는 최초의 실제 Bitcoin 로고를 만들었습니다.
+2월 5일, NLS는 해외 Exchange 시장에서 거래되는 통화와 마찬가지로 Bitcoin에도 티커 기호 BTC와 태국 바트(฿) 기호를 채택할 것을 [제안](https://bitcointalk.org/index.php?topic=41.msg238#msg238)했습니다. 그 전까지는 정해진 관행이 없었는데, 예를 들어 Satoshi과 마르티는 [서신](https://mmalmi.github.io/satoshi/#email-119)에서 단위를 설명하기 위해 `bc`라는 문자를 사용했습니다. BTC 기호의 사용은 빠르게 표준화되었습니다. 2월 24일, Satoshi이 [디자인](https://bitcointalk.org/index.php?topic=64.msg504#msg504)한 통화 기호(대문자 B와 두 개의 세로 막대가 교차하는 모양)는 최초의 실제 Bitcoin 로고를 만들었습니다.
 
 
 ![First real Bitcoin logo designed by Satoshi Nakamoto (2010)](assets/ko/032.webp)
 
 
-점차 사람들이 Bitcoin를 받아들이기 시작했습니다. 2009년 12월에 BTC 2 PSC라는 페이세이프카드 기프트 카드 판매 서비스의 존재를 [보고](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)한 SmokeTooMuch라는 사용자가 바로 그 사례입니다. 이 서비스는 이후 2010년 2월 4일 Satoshi에 의해 긍정적으로 [언급](https://mmalmi.github.io/Satoshi/#email-141)되었습니다. 2월 9일에 자신의 온라인 스토어인 리버티 스왑 버라이어티 샵을 [오픈](https://bitcointalk.org/index.php?topic=30.msg305#msg305)하여 우표와 스티커를 판매한 NLS의 경우도 마찬가지였습니다.
+점차 사람들이 Bitcoin를 받아들이기 시작했습니다. 2009년 12월에 BTC 2 PSC라는 페이세이프카드 기프트 카드 판매 서비스의 존재를 [보고](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)한 SmokeTooMuch라는 사용자가 바로 그 사례입니다. 이 서비스는 이후 2010년 2월 4일 Satoshi에 의해 긍정적으로 [언급](https://mmalmi.github.io/satoshi/#email-141)되었습니다. 2월 9일에 자신의 온라인 스토어인 리버티 스왑 버라이어티 샵을 [오픈](https://bitcointalk.org/index.php?topic=30.msg305#msg305)하여 우표와 스티커를 판매한 NLS의 경우도 마찬가지였습니다.
 
 
 달러가 포함된 Exchange도 개발되었고, 두 달 만에 3개 이상의 플랫폼이 문을 열었습니다:
@@ -1169,7 +1169,7 @@ NLS가 발표된 후 마르티 말미는 그와 연락을 취했습니다. 두 �
 
 
 - 2월 15일에 [발표](https://bitcointalk.org/index.php?topic=30.msg194#msg194)된 자유준비금 달러로 비트코인을 판매하는 서비스인 비트코인FX(bitcoinfx.cz.cc)를 소개합니다;
-- 마르티 말미의 플랫폼인 비트코인익스체인지(bitcoinexchange.com)는 사용자가 예치한 유로와 비트코인을 고려하여 Supply과 수요를 독특하게 [측정](https://mmalmi.github.io/Satoshi/#email-25)하고 2010년 3월 2일에 [일반에 공개](https://bitcointalk.org/index.php?topic=68.msg591#msg591)한 플랫폼입니다;
+- 마르티 말미의 플랫폼인 비트코인익스체인지(bitcoinexchange.com)는 사용자가 예치한 유로와 비트코인을 고려하여 Supply과 수요를 독특하게 [측정](https://mmalmi.github.io/satoshi/#email-25)하고 2010년 3월 2일에 [일반에 공개](https://bitcointalk.org/index.php?topic=68.msg591#msg591)한 플랫폼입니다;
 - 3월 16일에 dwdollar라는 사람이 [출시](https://bitcointalk.org/index.php?topic=20.msg726#msg726)한 페이팔을 사용하는 P2P 마켓플레이스인 Bitcoin 마켓(bitcoinmarket.com)은 7월에 마운트곡스가 등장하기 전에 큰 성공을 거둘 것으로 보입니다.
 
 
@@ -1371,7 +1371,7 @@ Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호
 
 > "Bitcoin의 특성상 0.1 버전이 출시되고 나면 핵심 설계는 평생 동안 확정되었습니다. 그렇기 때문에 생각할 수 있는 모든 가능한 트랜잭션 유형을 지원하도록 설계하고 싶었습니다. (...) 그 해결책은 문제를 일반화하여 거래 당사자가 노드 네트워크가 평가하는 술어로 거래를 설명할 수 있도록 하는 스크립트였습니다. 노드는 발신자의 조건이 충족되는지 평가하는 정도까지만 트랜잭션을 이해하면 됩니다."
 
-개빈은 또한 리눅스 부팅 시 자동 시작을 [구현](https://sourceforge.net/p/Bitcoin/code/101/)하고, API에 집중하고(0.3.3 버전에서 개선에 [기여](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)), [테스트 네트워크](https://planb.academy/resources/glossary/testnet) 배포(6월 9일에 [구상](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)에 참여함으로써 소프트웨어 개발에 참여하게 되었습니다.) 마르티 말미가 새로운 정규직으로 [매우 바빴기 때문에](https://mmalmi.github.io/Satoshi/#email-191) 그는 Exchange의 아이디어를 Satoshi와 개인적으로 공유하며 점차 그의 오른팔이 되었습니다.
+개빈은 또한 리눅스 부팅 시 자동 시작을 [구현](https://sourceforge.net/p/Bitcoin/code/101/)하고, API에 집중하고(0.3.3 버전에서 개선에 [기여](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)), [테스트 네트워크](https://planb.academy/resources/glossary/testnet) 배포(6월 9일에 [구상](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)에 참여함으로써 소프트웨어 개발에 참여하게 되었습니다.) 마르티 말미가 새로운 정규직으로 [매우 바빴기 때문에](https://mmalmi.github.io/satoshi/#email-191) 그는 Exchange의 아이디어를 Satoshi와 개인적으로 공유하며 점차 그의 오른팔이 되었습니다.
 
 
 ### 기초적인 이벤트로 가득한 봄
@@ -1427,7 +1427,7 @@ Satoshi는 이 서비스의 시작을 바로 알아차리지는 못했지만 호
 - 시스템의 익명성 측면에 대해서는 "'익명'이라는 측면을 강조하고 싶지 않다"며 이와 관련하여 "홈페이지를 수정하려고 했다"고 밝혔습니다. (*원문 "우리는 '익명'으로 이끌고 싶지 않습니다. (홈페이지를 수정하려고 했습니다)"*)
 
 
-몇 시간 후 마르티 말미에게 보낸 [이메일](https://mmalmi.github.io/Satoshi/#email-197)에서 Satoshi은 익명성을 경시하려는 의도를 설명하는 두 가지 주요 이유, 즉 사용자에 대한 위험과 대중의 인식을 제시합니다. 그는 이렇게 썼습니다:
+몇 시간 후 마르티 말미에게 보낸 [이메일](https://mmalmi.github.io/satoshi/#email-197)에서 Satoshi은 익명성을 경시하려는 의도를 설명하는 두 가지 주요 이유, 즉 사용자에 대한 위험과 대중의 인식을 제시합니다. 그는 이렇게 썼습니다:
 
 
 > "익명성이라는 측면을 강조하지 말아야 한다고 생각합니다. IP로 전송하는 대신 Bitcoin 주소가 인기를 끌면서 모든 것이 자동으로 익명화된다는 인상을 줄 수는 없습니다. 익명성이 보장되는 것은 가능하지만 주의해야 합니다. [...] 게다가 '익명'이라는 단어는 약간 의심스러워 보이기도 합니다. 익명성을 원하는 사람들은 우리가 홍보하지 않아도 알아서 알아낼 것이라고 생각합니다."
@@ -1508,7 +1508,7 @@ Bitcoin에 대한 소개를 슬래시닷에 게시한 효과는 Satoshi 나카�
 ### 소프트웨어 개선
 
 
-Slashdot의 사용자 유입으로 인해 소프트웨어 개선도 필요했습니다. 발견된 취약점을 수정하고 새로운 기능을 통합해야 했습니다. 따라서 Satoshi는 압박감에 시달렸고, 7월 18일에는 마르티 말미에게 "해야 할 일이 너무 많아서 정신을 잃을 지경"이라고 사석에서 털어놓기도 했습니다(https://mmalmi.github.io/Satoshi/#email-210) 두 달 만에 소프트웨어의 하위 버전이 8개 이상 출시되었습니다!
+Slashdot의 사용자 유입으로 인해 소프트웨어 개선도 필요했습니다. 발견된 취약점을 수정하고 새로운 기능을 통합해야 했습니다. 따라서 Satoshi는 압박감에 시달렸고, 7월 18일에는 마르티 말미에게 "해야 할 일이 너무 많아서 정신을 잃을 지경"이라고 사석에서 털어놓기도 했습니다(https://mmalmi.github.io/satoshi/#email-210) 두 달 만에 소프트웨어의 하위 버전이 8개 이상 출시되었습니다!
 
 하지만 Bitcoin의 개발자는 혼자서 코드 작업을 하고 있지 않습니다. 6월에 합류하여 개발에 점점 더 많이 참여하고 있는 Gavin Andresen(7월 9일 현재 소스포지 리포지토리에서 [크레딧](https://sourceforge.net/p/Bitcoin/code/101/)으로 등록됨)의 도움을 받을 수 있습니다. 시스템 작동 방식에 대해 호기심을 갖고 문제를 발견하면 보고하는 사람들도 있는데, 크리스찬 데커(cdecker)나 마이클 마쿼트(Theymos라는 가명으로 더 잘 알려진)가 그 예입니다. Satoshi은 또한 코드를 수정하여 유닛 생성을 최적화하는 방법을 찾는 채굴자들에 의해 지원되는데, 이들은 ArtForz(다음 장에서 살펴볼 것처럼 Mining 농장을 최초로 설립한 사람), 독일 개발자 Nils Schneider(tcatm), Michael Brown(knightmb) 또는 BlackEye와 같은 분들입니다.
 
@@ -1837,7 +1837,7 @@ EFF는 공개 기부를 받기까지 시간이 좀 걸렸습니다. 협상 끝�
 :::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
 
-두 이니셔티브가 공통의 가치를 공유한다는 점에서 Bitcoin에 매우 반가운 소식입니다. 게다가 EFF는 토르와 비트토렌트 같은 프라이버시 보호 및 데이터 공유 프로젝트에 법적 보호를 제공하는 것으로도 잘 알려져 있습니다. 2011년 1월 6일 개빈 안드레센에게 보낸 이메일에서 [댓글](https://mmalmi.github.io/Satoshi/#email-254)을 통해 알 수 있듯이 Satoshi 나카모토 자신도 이를 잘 알고 있으며, 특히 이 단체의 활동을 지지하고 있습니다:
+두 이니셔티브가 공통의 가치를 공유한다는 점에서 Bitcoin에 매우 반가운 소식입니다. 게다가 EFF는 토르와 비트토렌트 같은 프라이버시 보호 및 데이터 공유 프로젝트에 법적 보호를 제공하는 것으로도 잘 알려져 있습니다. 2011년 1월 6일 개빈 안드레센에게 보낸 이메일에서 [댓글](https://mmalmi.github.io/satoshi/#email-254)을 통해 알 수 있듯이 Satoshi 나카모토 자신도 이를 잘 알고 있으며, 특히 이 단체의 활동을 지지하고 있습니다:
 
 > "EFF는 정말 중요한 단체입니다. 우리는 그들과 좋은 관계를 유지하고 싶습니다. 우리는 그들이 높이 평가하는 프로젝트 유형입니다. 그들은 TOR 프로젝트를 도왔고 P2P 파일 공유를 보호하기 위해 많은 일을 해왔습니다."
 
@@ -1887,10 +1887,10 @@ EFF는 공개 기부를 받기까지 시간이 좀 걸렸습니다. 협상 끝�
 
 그러나 Satoshi 나카모토는 이 프로젝트와 관련이 없었기 때문에 포럼에서보다 발언이 더 자유로웠습니다. Satoshi의 개발 결정에 의문을 제기하거나 심지어 Bitcoin과 관련된 그의 지위를 비판하는 일도 종종 발생했습니다.
 
-Satoshi은 오픈소스 소프트웨어 업계에서 "[자비로운 독재자](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)"로 알려진 프로젝트의 리더로, 실제로 이 프로젝트의 리더로 지정되어 있습니다 그의 역할은 모두를 위한 결정을 내림으로써 개방형 개발의 안정성을 보장하고 반란과 분열의 위험을 제한하는 것입니다. 개빈 안드레센의 [설명](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-528)에 따르면, 그는 "게이트키퍼"입니다: "모든 코드는 그를 통과합니다."
+Satoshi은 오픈소스 소프트웨어 업계에서 "[자비로운 독재자](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)"로 알려진 프로젝트의 리더로, 실제로 이 프로젝트의 리더로 지정되어 있습니다 그의 역할은 모두를 위한 결정을 내림으로써 개방형 개발의 안정성을 보장하고 반란과 분열의 위험을 제한하는 것입니다. 개빈 안드레센의 [설명](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528)에 따르면, 그는 "게이트키퍼"입니다: "모든 코드는 그를 통과합니다."
 
 
-그러나 Bitcoin의 소스 코드는 무료이므로 누구나 복사하고 수정할 수 있으므로 프로토콜의 진화가 완전히 자의적으로 이루어지는 것을 방지할 수 있습니다. 11월 19일 제프 가직이 [표현한](https://buildingbitcoin.org/Bitcoin-dev/log-2010-11-19.html#l-1538) 대로:
+그러나 Bitcoin의 소스 코드는 무료이므로 누구나 복사하고 수정할 수 있으므로 프로토콜의 진화가 완전히 자의적으로 이루어지는 것을 방지할 수 있습니다. 11월 19일 제프 가직이 [표현한](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538) 대로:
 
 
 > "Satoshi는 허공에서 마법의 숫자를 만들어냈고, 우리는 그 방향을 총체적으로 지지합니다. [...] Satoshi가 커뮤니티의 지지를 받지 못하는 미친 짓을 하는 순간 프로토콜/코드베이스가 진정으로 포크되는 순간이죠."
@@ -1898,7 +1898,7 @@ Satoshi은 오픈소스 소프트웨어 업계에서 "[자비로운 독재자](h
 따라서 사토시의 지도자 역할이 비판이 발생하는 것을 막지는 못합니다. 이것이 7월부터 커뮤니티에서 긴장이 점차 나타나는 이유입니다. 예를 들어, 8월의 경보 시스템 [배포](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745) 또는 11월의 Momchil의 `getwork` 기능 [수정](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) 때 이의 제기가 발생합니다. 이 독재적인 의사 결정에 대한 불만은 때때로 IRC에서 [훨씬 더 공개적으로](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384) 표현됩니다.
 
 
-Satoshi와 가깝지만 다른 개발자들과도 논의하는 개빈은 이 상황의 문제점을 분명히 인식하고 있습니다. 2010년 9월 27일, 개빈은 IRC에서 "\[Satoshi\]가 보다 협력적인 개발 모델로 전환하도록 설득할 수 있기를 바란다"고 [선언](https://buildingbitcoin.org/Bitcoin-dev/log-2010-09-27.html#l-522)했습니다 (*원문: "좀 더 협업적인 개발 모델로 전환하도록 설득할 수 있었으면 좋겠다."*) 10월에 Gavin은 [획득](https://sourceforge.net/p/Bitcoin/code/165/) SourceForge 리포지토리에 대한 쓰기 권한을 얻어 상황을 개선했습니다. 12월, 위키리크스 사건이 터진 후 Satoshi가 갑작스럽게 탈퇴하면서 문제가 해결되었습니다.
+Satoshi와 가깝지만 다른 개발자들과도 논의하는 개빈은 이 상황의 문제점을 분명히 인식하고 있습니다. 2010년 9월 27일, 개빈은 IRC에서 "\[Satoshi\]가 보다 협력적인 개발 모델로 전환하도록 설득할 수 있기를 바란다"고 [선언](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)했습니다 (*원문: "좀 더 협업적인 개발 모델로 전환하도록 설득할 수 있었으면 좋겠다."*) 10월에 Gavin은 [획득](https://sourceforge.net/p/Bitcoin/code/165/) SourceForge 리포지토리에 대한 쓰기 권한을 얻어 상황을 개선했습니다. 12월, 위키리크스 사건이 터진 후 Satoshi가 갑작스럽게 탈퇴하면서 문제가 해결되었습니다.
 
 ### 위키리크스 사건
 
@@ -1939,7 +1939,7 @@ WikiLeaks의 자금 조달은 기본적으로 대중의 기부에 의존하므�
 ### Satoshi의 갑작스러운 출발
 
 
-Satoshi은 로버트 호닝의 견해를 공유하지 않으며 Bitcoin을 위키리크스에 공개하는 것에 반대합니다. 그의 말과 행동에서 알 수 있듯이, 그는 국가 기관에 대해 매우 조심스러우며 때로는 [편집증](https://mmalmi.github.io/Satoshi/#email-158)에 가까운 태도를 취합니다. 그 결과, 12월 5일에 그는 주요 발기인에게 [대응](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)을 통해 이러한 열정에 대해 날카롭게 반응했습니다:
+Satoshi은 로버트 호닝의 견해를 공유하지 않으며 Bitcoin을 위키리크스에 공개하는 것에 반대합니다. 그의 말과 행동에서 알 수 있듯이, 그는 국가 기관에 대해 매우 조심스러우며 때로는 [편집증](https://mmalmi.github.io/satoshi/#email-158)에 가까운 태도를 취합니다. 그 결과, 12월 5일에 그는 주요 발기인에게 [대응](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)을 통해 이러한 열정에 대해 날카롭게 반응했습니다:
 
 
 > "아니요, '가져와'라고 하지 마세요.
@@ -1969,7 +1969,7 @@ Satoshi은 로버트 호닝의 견해를 공유하지 않으며 Bitcoin을 위�
 12월 초부터 Satoshi은 자신의 후계 구도를 정리하기 시작했습니다. 그는 퇴임하거나 최소한 한 발 물러날 계획이었기 때문에 자신이 신뢰하는 사람들, 특히 마르티 말미와 개빈 안드레센에게 다양한 책임을 이양해야 했습니다. 그러나 그는 이들에게 자신의 의사를 명시적으로 밝히지 않았습니다.
 
 
-먼저, 그는 사이트의 [연락처 페이지](https://web.archive.org/web/20101215111454/http://www.Bitcoin.org/contact)에 이메일 주소를 추가하고 싶었습니다. 12월 7일, 그는 마르티에게 "연락처 페이지의 프로젝트 개발자 목록에 자신을 추가해 달라"는 이메일을 보냈고(https://mmalmi.github.io/Satoshi/#email-245), 젊은 핀은 이 요청을 수락했습니다. Bitcoin의 제작자는 개빈에게도 같은 요청을 했고, 개빈도 이를 수락했습니다. Satoshi은 페이지에 그들의 주소를 추가하고 자신의 주소를 삭제했습니다. 몇 년 후 개빈은 [https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316]라고 말했습니다:
+먼저, 그는 사이트의 [연락처 페이지](https://web.archive.org/web/20101215111454/http://www.Bitcoin.org/contact)에 이메일 주소를 추가하고 싶었습니다. 12월 7일, 그는 마르티에게 "연락처 페이지의 프로젝트 개발자 목록에 자신을 추가해 달라"는 이메일을 보냈고(https://mmalmi.github.io/satoshi/#email-245), 젊은 핀은 이 요청을 수락했습니다. Bitcoin의 제작자는 개빈에게도 같은 요청을 했고, 개빈도 이를 수락했습니다. Satoshi은 페이지에 그들의 주소를 추가하고 자신의 주소를 삭제했습니다. 몇 년 후 개빈은 [https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316]라고 말했습니다:
 
 
 > "\[Satoshi\]은 결국 제 이메일 Address을 Bitcoin 홈페이지에 올려도 되는지 물어보며 저에게 속임수를 썼습니다." 저는 제 이메일 Address을 거기에 올리면 제 이메일을 빼앗길 줄은 몰랐고, 그러겠다고 했습니다
@@ -1981,7 +1981,7 @@ Satoshi은 로버트 호닝의 견해를 공유하지 않으며 Bitcoin을 위�
 
 Satoshi는 웹사이트, 포럼, 위키에 대한 통제권을 이미 Elements을 공동 관리하고 있던 마르티에게 넘겼습니다. 그리고 2011년 봄, 그는 완전히 사라졌습니다.
 
-Satoshi과 마지막으로 연락을 주고받은 사람 중에는 2년 전에 그에게 접근했던 Google 엔지니어 마이크 헌도 있었습니다. Hearn은 2010년 12월에 Bitcoin의 개발자와 다시 연락을 취해 더 많은 기술적 질문을 던졌습니다. 그는 "안드로이드 폰에서 실행되는 클라이언트를 구축하기 위해 간소화된 결제 인증의 자바 구현"(https://plan99.net/~mike/Satoshi-emails/thread3.html)을 [작업]하고 있었습니다 (*원본: "저는 안드로이드 폰에서 실행되는 클라이언트를 구축하기 위해 간소화된 결제 확인을 자바로 구현하는 작업을 하고 있습니다."*) 두 사람은 4월 23일까지 메시지를 주고받았습니다. 마이크 헌에게 보낸 [마지막 이메일](https://plan99.net/~mike/Satoshi-emails/thread5.html)에서 Satoshi은 자신이 "다른 일로 넘어갔다"고 선언하고 Bitcoin은 "개빈과 다른 사람들에게 잘 맡기고 있다"고 말했습니다 (*원본: "나는 다른 일로 넘어갔다. 개빈과 모두에게 잘 맡겼습니다."*).
+Satoshi과 마지막으로 연락을 주고받은 사람 중에는 2년 전에 그에게 접근했던 Google 엔지니어 마이크 헌도 있었습니다. Hearn은 2010년 12월에 Bitcoin의 개발자와 다시 연락을 취해 더 많은 기술적 질문을 던졌습니다. 그는 "안드로이드 폰에서 실행되는 클라이언트를 구축하기 위해 간소화된 결제 인증의 자바 구현"(https://plan99.net/~mike/satoshi-emails/thread3.html)을 [작업]하고 있었습니다 (*원본: "저는 안드로이드 폰에서 실행되는 클라이언트를 구축하기 위해 간소화된 결제 확인을 자바로 구현하는 작업을 하고 있습니다."*) 두 사람은 4월 23일까지 메시지를 주고받았습니다. 마이크 헌에게 보낸 [마지막 이메일](https://plan99.net/~mike/satoshi-emails/thread5.html)에서 Satoshi은 자신이 "다른 일로 넘어갔다"고 선언하고 Bitcoin은 "개빈과 다른 사람들에게 잘 맡기고 있다"고 말했습니다 (*원본: "나는 다른 일로 넘어갔다. 개빈과 모두에게 잘 맡겼습니다."*).
 
 
 2011년 4월 26일, Satoshi는 이메일을 통해 개빈에게 [최종 메시지](http://gavinandresen.ninja/eleven-years-ago-today)를 보냈는데, 그는 다음과 같이 썼습니다:
@@ -2076,10 +2076,10 @@ Satoshi 나카모토가 떠난 후, 나카모토 없이 프로젝트를 진행�
 Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이 아닙니다. 웹사이트, 포럼, 위키와 같은 일반적인 커뮤니케이션 도구도 관리해야 합니다. 이러한 도구는 프로젝트의 '상점 창구'로서 관리 방식이 매우 중요합니다.
 
 
-앞서 언급했듯이, Satoshi는 그가 떠난 후 마르티 말미에게 사이트의 통제권을 넘겼고, 여기에는 포럼(Bitcoin.org/smf)과 [위키](https://web.archive.org/web/20110102000201/http://www.Bitcoin.org/wiki/doku.php)(Bitcoin.org/wiki)가 포함되었습니다. 하지만 마르티는 이 작업에 전념할 시간이 거의 없었습니다. 2010년 봄부터 그는 [점유](https://mmalmi.github.io/Satoshi/#email-191) 인턴십에 이어 정규직으로 일하면서 점차 뒤로 물러났습니다.
+앞서 언급했듯이, Satoshi는 그가 떠난 후 마르티 말미에게 사이트의 통제권을 넘겼고, 여기에는 포럼(Bitcoin.org/smf)과 [위키](https://web.archive.org/web/20110102000201/http://www.Bitcoin.org/wiki/doku.php)(Bitcoin.org/wiki)가 포함되었습니다. 하지만 마르티는 이 작업에 전념할 시간이 거의 없었습니다. 2010년 봄부터 그는 [점유](https://mmalmi.github.io/satoshi/#email-191) 인턴십에 이어 정규직으로 일하면서 점차 뒤로 물러났습니다.
 
 
-시간 부족으로 인해 마르티는 Exchange 플랫폼인 비트코인익스체인지의 운영을 점차 중단할 수밖에 없었습니다. 2010년 12월에 [서버 변경](https://mmalmi.github.io/Satoshi/#email-240)을 하는 동안 오프라인 상태였습니다. 1월에 그는 [재오픈하지 않기로](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) 결정했습니다. 8월 초에 그는 도메인 이름을 250비트코인(당시 2,365달러에 해당)에 [판매](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698)했습니다. 그 후 링크는 마운트곡스로 리디렉션되었습니다.
+시간 부족으로 인해 마르티는 Exchange 플랫폼인 비트코인익스체인지의 운영을 점차 중단할 수밖에 없었습니다. 2010년 12월에 [서버 변경](https://mmalmi.github.io/satoshi/#email-240)을 하는 동안 오프라인 상태였습니다. 1월에 그는 [재오픈하지 않기로](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575) 결정했습니다. 8월 초에 그는 도메인 이름을 250비트코인(당시 2,365달러에 해당)에 [판매](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698)했습니다. 그 후 링크는 마운트곡스로 리디렉션되었습니다.
 
 
 하지만 마르티가 위임해야 하는 것은 주로 웹사이트 관리입니다. 2010년 말과 2011년 초에 Bitcoin.org에 [일부](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [문제](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775)가 발생했습니다. 3월 28일, 마르티는 포럼에 기술적인 도움을 요청하는 공지를 [게시](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922)했고 몇 가지 답변을 받았습니다. 그 후 호스팅을 [더 강력하게](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002) 개선하여 방문자가 대량으로 유입될 때마다 사이트가 오프라인 상태가 되는 것을 방지했습니다.
@@ -2103,13 +2103,13 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 ![Snapshot of Bitcoin.org from April 11, 2011](assets/ko/063.webp)
 
 
-마침내 2011년 9월, Nils Schneider에 의해 [변경](https://buildingbitcoin.org/Bitcoin-dev/log-2011-08-31.html#l-691)이 이루어졌습니다. 이를 위해 새로운 GitHub 리포지토리가 [생성](https://github.com/Bitcoin/Bitcoin.org)되었습니다. 이 디자인은 2013년까지 변경되지 않고 오래 지속될 것입니다. 여기 그 모습이 있습니다(당시 Bitcoin-the-소프트웨어는 "커뮤니티 주도 오픈 소스 프로젝트"로 설명되었습니다):
+마침내 2011년 9월, Nils Schneider에 의해 [변경](https://buildingbitcoin.org/bitcoin-dev/log-2011-08-31.html#l-691)이 이루어졌습니다. 이를 위해 새로운 GitHub 리포지토리가 [생성](https://github.com/Bitcoin/Bitcoin.org)되었습니다. 이 디자인은 2013년까지 변경되지 않고 오래 지속될 것입니다. 여기 그 모습이 있습니다(당시 Bitcoin-the-소프트웨어는 "커뮤니티 주도 오픈 소스 프로젝트"로 설명되었습니다):
 
 
 ![Snapshot of Bitcoin.org from September 23, 2011](assets/ko/064.webp)
 
 
-위키의 경우, 처음에는 웹사이트에 통합된 무료 엔진인 도쿠위키를 기반으로 했습니다. 그러나 2010년 12월, 일본에 거주하며 포럼에서 MagicalTux라는 가명을 사용하는 프랑스인 개발자 마크 카펠레스가 Bitcoin.it에 새로운 위키를 만들었습니다. 이 위키는 그가 더 우아하고 사용하기 쉽다고 생각하는 미디어위키 엔진을 기반으로 합니다. 초기 아이디어는 기존 문서를 대체하는 것이 아니라, IRC에서 마크가 표현한 것처럼(https://buildingbitcoin.org/Bitcoin-dev/log-2010-12-16.html#l-2848) "덜 형식적이고 커뮤니티 지향적인 위키"를 개발하는 것이었습니다
+위키의 경우, 처음에는 웹사이트에 통합된 무료 엔진인 도쿠위키를 기반으로 했습니다. 그러나 2010년 12월, 일본에 거주하며 포럼에서 MagicalTux라는 가명을 사용하는 프랑스인 개발자 마크 카펠레스가 Bitcoin.it에 새로운 위키를 만들었습니다. 이 위키는 그가 더 우아하고 사용하기 쉽다고 생각하는 미디어위키 엔진을 기반으로 합니다. 초기 아이디어는 기존 문서를 대체하는 것이 아니라, IRC에서 마크가 표현한 것처럼(https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848) "덜 형식적이고 커뮤니티 지향적인 위키"를 개발하는 것이었습니다
 
 
 마르티 말미](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873)와 [개빈 안드레센](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)은 이 새 위키가 마음에 들어 곧바로 메인 위키로 만들 것을 고려합니다. 다음은 5월 21일에 촬영한 [스냅샷](https://web.archive.org/web/20110521044430/https://en.Bitcoin.it/wiki/Main_Page)입니다:
@@ -2179,7 +2179,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
 
 
-4월에는 [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) 등 주요 주류 언론 매체에서 디지털 화폐에 대한 주제를 다뤘습니다. 5월에는 이 움직임이 탄력을 받아 [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), [Slate](https://slate.com/business/2011/05/Bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124), [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/) 등 거의 모든 곳에서 Bitcoin에 대한 언급이 있었습니다.
+4월에는 [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/), [Time Magazine](https://techland.time.com/2011/04/16/online-cash-Bitcoin-could-challenge-governments/), [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html) 등 주요 주류 언론 매체에서 디지털 화폐에 대한 주제를 다뤘습니다. 5월에는 이 움직임이 탄력을 받아 [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/Bitcoin-P2P-currency), [Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html), [Gizmodo](https://gizmodo.com/what-is-Bitcoin-5803124), [TechCrunch](https://techcrunch.com/2011/05/20/Bitcoin-ven-and-the-end-of-currency/) 등 거의 모든 곳에서 Bitcoin에 대한 언급이 있었습니다.
 
 
 ![Gavin Andresen in Forbes in April 2011](assets/ko/068.webp)
@@ -2190,7 +2190,7 @@ Satoshi의 부재 시 관리해야 하는 것은 소프트웨어 개발뿐만이
 라디오에서도 암호화폐를 논의하는 데 사용되었습니다. 2월 27일에 캐나다 CBC 라디오 쇼의 한 에피소드에서 [전용](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/)으로 통화와 Bitcoin를 주제로 다루었습니다. 미국의 자유주의 성향 쇼인 FreeTalkLive의 여러 에피소드에서도 Bitcoin가 언급되었습니다. 특히 2011년 3월 16일에는 실크로드의 부상과 관련하여 [논의](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16)가 더 광범위하게 이루어졌습니다. 마지막으로 5월 24일에는 미국 내셔널 퍼블릭 라디오에서 [짧은 세그먼트](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins)를 통해 Bitcoin를 주제로 다루었습니다.
 
 
-개인 블로거들도 관심을 갖고 있습니다. 스웨덴 해적당의 창시자인 릭 포크빙베가 그 예로, 그는 [여러 글](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/)을 게시하고 있습니다 [기사](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/)를 5월 중에 작성했습니다. 그는 Bitcoin(및 리플과 같은 관련 시스템)을 "은행의 냅스터"라고 설명합니다 그의 주장은 미국의 상호주의자 [케빈 카슨](https://c4ss.org/content/7149)이나 프랑스의 진보적 블로거 [h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain) 같은 많은 사람들에 의해 반향을 불러일으켰습니다. 29일에는 릭 포크빙이 [발표](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-Bitcoin/)를 통해 "자신의 전 재산을 Bitcoin에 투자하겠다"고 선언했습니다!
+개인 블로거들도 관심을 갖고 있습니다. 스웨덴 해적당의 창시자인 릭 포크빙베가 그 예로, 그는 [여러 글](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/)을 게시하고 있습니다 [기사](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/)를 5월 중에 작성했습니다. 그는 Bitcoin(및 리플과 같은 관련 시스템)을 "은행의 냅스터"라고 설명합니다 그의 주장은 미국의 상호주의자 [케빈 카슨](https://c4ss.org/content/7149)이나 프랑스의 진보적 블로거 [h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain) 같은 많은 사람들에 의해 반향을 불러일으켰습니다. 29일에는 릭 포크빙이 [발표](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-bitcoin/)를 통해 "자신의 전 재산을 Bitcoin에 투자하겠다"고 선언했습니다!
 
 
 ### 첫 번째 버블
@@ -2215,7 +2215,7 @@ Bitcoin의 대중화로 인해 가격이 크게 상승했습니다. 2010년 12�
 당연히 이러한 투기적 움직임은 금융 상품의 기본 가치에 비해 과대평가된 금융 버블을 연상시킵니다. Bitcoin와 같은 통화의 경우, 일시적인 열광으로 인해 가격이 어지럽게 상승한 후 신규 참여자의 확신 부족으로 인해 급격히 하락하는 것입니다. 5월 27일 로이터 칼럼니스트가 Bitcoin의 첫 번째 '부고 기사' 중 하나인 [https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/]에서 가격 변화를 '거품'으로 설명한 것이 바로 이런 방식입니다.
 
 
-그러나 이러한 투기적 움직임은 주류 언론이 항상 공정하게 다루지 않는 주제를 다루도록 밀어 붙입니다. 따라서 [뉴욕 타임즈](https://www.nytimes.com/2011/05/30/business/economy/30views.html), [이코노미스트](https://www.economist.com/babbage/2011/06/13/bits-and-Bob), 영국 신문 [가디언](https://www.theguardian.com/technology/2011/jun/12/Bitcoin-online-currency-us-government), 독일 뉴스 사이트 [더 슈피겔 온라인](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-Bitcoin-geld-aus-der-steckdose-a-765382.html), 이탈리아 신문 [라 레푸블리카](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/), 프랑스 일간지 [르 몽드](https://www.lemonde.fr/technologies/article/2011/06/17/Bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html)에 기사가 게재됩니다. 이로써 Bitcoin에 대한 언론 보도는 더욱 확고해졌습니다. 이제 조금이라도 호기심이 있는 사람이라면 누구나 들어본 적이 있을 정도로 주목을 받고 있습니다. Bitcoin의 존재와 프로젝트의 신중함이 특징이었던 Satoshi의 첫 번째 시대는 이제 끝났습니다.
+그러나 이러한 투기적 움직임은 주류 언론이 항상 공정하게 다루지 않는 주제를 다루도록 밀어 붙입니다. 따라서 [뉴욕 타임즈](https://www.nytimes.com/2011/05/30/business/economy/30views.html), [이코노미스트](https://www.economist.com/babbage/2011/06/13/bits-and-Bob), 영국 신문 [가디언](https://www.theguardian.com/technology/2011/jun/12/bitcoin-online-currency-us-government), 독일 뉴스 사이트 [더 슈피겔 온라인](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-bitcoin-geld-aus-der-steckdose-a-765382.html), 이탈리아 신문 [라 레푸블리카](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/), 프랑스 일간지 [르 몽드](https://www.lemonde.fr/technologies/article/2011/06/17/Bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html)에 기사가 게재됩니다. 이로써 Bitcoin에 대한 언론 보도는 더욱 확고해졌습니다. 이제 조금이라도 호기심이 있는 사람이라면 누구나 들어본 적이 있을 정도로 주목을 받고 있습니다. Bitcoin의 존재와 프로젝트의 신중함이 특징이었던 Satoshi의 첫 번째 시대는 이제 끝났습니다.
 
 
 ### Bitcoin 생성에 대한 일반적인 결론

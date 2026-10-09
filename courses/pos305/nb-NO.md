@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Node-logger
 
 
-I tillegg til å [se på logger](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) i bitcoind-containeren din, kan du også bruke noen av [bitcoin-cli-kommandoene](https://developer.Bitcoin.org/reference/RPC/index.html)
+I tillegg til å [se på logger](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) i bitcoind-containeren din, kan du også bruke noen av [bitcoin-cli-kommandoene](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(åpner nytt vindu)](https://developer.Bitcoin.org/reference/RPC/index.html) for å innhente informasjon fra Bitcoin-noden din. BTCPay inkluderer et skript som gjør det enkelt å kommunisere med Bitcoin-noden din.
+[(åpner nytt vindu)](https://developer.bitcoin.org/reference/rpc/index.html) for å innhente informasjon fra Bitcoin-noden din. BTCPay inkluderer et skript som gjør det enkelt å kommunisere med Bitcoin-noden din.
 
 
 I btcpayserver-docker-mappen henter du Blockchain-informasjonen ved hjelp av noden din:

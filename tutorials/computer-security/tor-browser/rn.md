@@ -15,7 +15,7 @@ Ubu, Google Chrome ni yo ikoreshwa cane. Igira nk’ibice 65% vy’isoko ry’is
 
 ![TOR BROWSER](assets/notext/01.webp)
 
-*Isoko: [gs.igiharuro c'imibare.com](https://gs.igiharuro c'imibare.com/umucukumbuzi-isoko-ry'ugusangira)*
+*Isoko: [gs.igiharuro c'imibare.com](https://gs.statcounter.com/browser-market-share)*
 
 
 Hariho imiryango myinshi y’ibikoresho vy’ugucukura, kimwe cose gishingiye ku moteri yihariye y’uguhindura. Mucukumbuzi nka Google Chrome, Microsoft Edge, Brave, Opera, canke Vivaldi vyose bishingiye ku mucukumbuzi wa Chromium, verisiyo yoroshe kandi yuguruye ya Chrome yateguwe na Google. Izo nzira zose zikoresha moteri y’uguhindura Blink, ariyo Fork ya WebKit, ubwayo ikomoka kuri KHTML. Ugukomeye kwa Chromium kw’isoko bituma ama browser akomoka kuri yo akora neza cane, kuko abakora urubuga bakunda gutuma imbuga zabo zigenda neza cane cane kuri Blink.

@@ -117,7 +117,7 @@ BTCPay Server ishobora gukoreshwa vuba cane ivuye ku mubare w’abatanga uburaro
 
 
 
-Sura [urubuga rwemewe rw’umuriro](https://umuriro.igicu).
+Sura [urubuga rwemewe rw’umuriro](https://voltage.cloud).
 
 
 

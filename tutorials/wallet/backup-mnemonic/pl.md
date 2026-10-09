@@ -62,19 +62,19 @@ Aby zapisać frazę odzyskiwania, należy zapisać ją na nośniku fizycznym, ta
 Podczas gdy zapisywanie frazy na zwykłej kartce papieru jest już dobrą praktyką, wybór metalowego uchwytu, takiego jak stal nierdzewna, zapewnia dodatkowe bezpieczeństwo. Ten rodzaj uchwytu chroni frazę Mnemonic przed ryzykiem pożaru, powodzi lub zawalenia, które mogą mieć wpływ na miejsce przechowywania.
 
 
-Dla tych, którzy szukają ekonomicznej opcji tworzenia kopii zapasowych swoich fraz na metalu, [metoda DIY "*SAFU Ninja*"](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) jest doskonałym rozwiązaniem. Wystarczy kupić w sklepie metalowe podkładki, śrubę i nakrętkę. Następnie należy wygrawerować słowa sentencji na każdej podkładce, numerując je i montując na śrubie z nakrętką. Ta niedroga metoda już zapewnia dobrą odporność.
+Dla tych, którzy szukają ekonomicznej opcji tworzenia kopii zapasowych swoich fraz na metalu, [metoda DIY "*SAFU Ninja*"](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) jest doskonałym rozwiązaniem. Wystarczy kupić w sklepie metalowe podkładki, śrubę i nakrętkę. Następnie należy wygrawerować słowa sentencji na każdej podkładce, numerując je i montując na śrubie z nakrętką. Ta niedroga metoda już zapewnia dobrą odporność.
 
 
 ![SEED](assets/fr/01.webp)
 
 
-Źródło zdjęcia: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/).
+Źródło zdjęcia: [*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/).
 
 
-Jeśli wolisz zainwestować w kompletne metalowe urządzenie do tworzenia kopii zapasowych, polecam zapoznać się z [testami odporności Jamesona Loppa](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), które oceniają większość rozwiązań dostępnych na rynku. Radziłbym zdecydować się na jednoczęściowe wsporniki, takie jak metalowa płytka do grawerowania, tłoczenia lub wykrawania. Takie urządzenia oferują zazwyczaj znacznie większą odporność niż systemy wykorzystujące niezależne litery do montażu.
+Jeśli wolisz zainwestować w kompletne metalowe urządzenie do tworzenia kopii zapasowych, polecam zapoznać się z [testami odporności Jamesona Loppa](https://jlopp.github.io/metal-bitcoin-storage-reviews/), które oceniają większość rozwiązań dostępnych na rynku. Radziłbym zdecydować się na jednoczęściowe wsporniki, takie jak metalowa płytka do grawerowania, tłoczenia lub wykrawania. Takie urządzenia oferują zazwyczaj znacznie większą odporność niż systemy wykorzystujące niezależne litery do montażu.
 
 
-Jeśli zdecydujesz się na papierowy Wallet, masz kilka opcji: zwykły czysty arkusz papieru, kartonowy Wallet często dostarczany z Hardware Wallet lub nasz szablon do pobrania, który możesz wydrukować [klikając tutaj](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf).
+Jeśli zdecydujesz się na papierowy Wallet, masz kilka opcji: zwykły czysty arkusz papieru, kartonowy Wallet często dostarczany z Hardware Wallet lub nasz szablon do pobrania, który możesz wydrukować [klikając tutaj](https://github.com/planb-network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

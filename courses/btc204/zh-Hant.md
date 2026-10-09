@@ -541,7 +541,7 @@ https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 ![BTC204](assets/zh-Hant/031.webp)
 
 
-資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
+資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://bitcoin.org/bitcoin.pdf，2009 年。
 
 
 我們會在接下來的章節中看到它們是什麼，但有趣的是，這兩種啟發式方法至今仍在連鎖分析中佔有優勢。
@@ -938,7 +938,7 @@ Source : [Mempool.space](https://Mempool.space/tx/b79d8f8e4756d34bbb26c659ab8831
 ![BTC204](assets/zh-Hant/055.webp)
 
 
-資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
+資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://bitcoin.org/bitcoin.pdf，2009 年。
 
 
 例如，這裡有一個在多個交易中重複使用的 Address：
@@ -1605,7 +1605,7 @@ Address 重複使用是指使用相同的接收 Address 來封鎖數個不同的
 ![BTC204](assets/zh-Hant/070.webp)
 
 
-資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://Bitcoin.org/Bitcoin.pdf，2009 年。
+資料來源：S. Nakamoto，「Bitcoin：點對點電子現金系統」，https://bitcoin.org/bitcoin.pdf，2009 年。
 
 
 Satoshi 這句話的用意是在使用者的身分與 Bitcoin 上的配對密碼匙有關聯的情況下，建立額外的防火牆，以防止他的整個活動被公開連結到他的身分。今天，隨著 Blockchain 分析公司和 KYC 法規的激增，使用唯一地址已不再是「額外的防火牆」，而是任何希望保留起碼隱私的人不可或缺的做法。

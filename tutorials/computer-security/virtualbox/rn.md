@@ -43,7 +43,7 @@ Ivyo nkora: **ikibanza co gukoreramwo ca Windows 11 aho ngiye gushiramwo Virtual
 
 
 
-Kugira ngo ubone VirtualBox kugira ngo uyishire ku mashini ya Windows, hariho Address imwe gusa nziza: [urubuga rwemewe rwa VirtualBox](https://www.virtualbox.org/wiki/Ivyo ushobora gukuraho) mu gice ca "**Ivyo ushobora gukuraho**". Fyonda gusa kuri "Windows hosts" kugira utangure gukuraho iyi executable, ikaba irenga gato 100 MB mu bunini.
+Kugira ngo ubone VirtualBox kugira ngo uyishire ku mashini ya Windows, hariho Address imwe gusa nziza: [urubuga rwemewe rwa VirtualBox](https://www.virtualbox.org/wiki/Downloads) mu gice ca "**Ivyo ushobora gukuraho**". Fyonda gusa kuri "Windows hosts" kugira utangure gukuraho iyi executable, ikaba irenga gato 100 MB mu bunini.
 
 
 

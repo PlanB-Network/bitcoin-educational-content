@@ -35,7 +35,7 @@ description: نحوه پیکربندی برنامه Blockstream و استفاد�
 
 
 
-**Liquid** یک **Sidechain** از Bitcoin است که توسط **[Blockstream](https://blockstream.com/Liquid/)** توسعه یافته و برای ارائه عملکرد سریع‌تر، بیشتر Confidential Transactions و قابلیت‌های پیشرفته طراحی شده است، در حالی که به Blockchain اصلی Bitcoin متصل باقی می‌ماند.
+**Liquid** یک **Sidechain** از Bitcoin است که توسط **[Blockstream](https://blockstream.com/liquid/)** توسعه یافته و برای ارائه عملکرد سریع‌تر، بیشتر Confidential Transactions و قابلیت‌های پیشرفته طراحی شده است، در حالی که به Blockchain اصلی Bitcoin متصل باقی می‌ماند.
 
 
 

@@ -54,7 +54,7 @@ description: Watch-only wallet چیست و چگونه از آن استفاده �
 برای کسانی که به دنبال ردیابی یک Wallet چند امضایی هستند، Blue Wallet تنها برنامه‌ای است که می‌شناسم که حالت فقط مشاهده برای این نوع کیف‌پول‌ها ارائه می‌دهد و در هر دو سیستم‌عامل Android و iOS قابل دسترسی است.
 
 
-برای کاربران iOS که به دنبال جایگزینی برای Sentinel هستند، [Green Wallet](https://blockstream.com/Green/) یا [Blue Wallet](https://bluewallet.io/watch-only/) ممکن است گزینه‌هایی باشند، اگرچه قابلیت‌های watch-only آن‌ها به اندازه Sentinel جامع نیست.
+برای کاربران iOS که به دنبال جایگزینی برای Sentinel هستند، [Green Wallet](https://blockstream.com/green/) یا [Blue Wallet](https://bluewallet.io/watch-only/) ممکن است گزینه‌هایی باشند، اگرچه قابلیت‌های watch-only آن‌ها به اندازه Sentinel جامع نیست.
 
 ![watch-only](assets/notext/2.webp)
 

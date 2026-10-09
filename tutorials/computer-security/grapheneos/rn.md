@@ -47,7 +47,7 @@ GrapheneOS itanga umutekano wongerewe ku bumenyi bwawe bwa Android biciye ku ngi
 3. **Gufata amasandugu y’umusenyi** - GrapheneOS ikomeza amasandugu y’umusenyi ya Android asanzweho, igakomeza gufunga ubushobozi bwa app yose bwo kuvugana n’ibindi bice vya telefone yawe.
 
 
-Menya vyinshi ku bijanye n’ubuhinga bw’ibiranga GrapheneOS [hano](https://grapheneos.org/ibiranga).
+Menya vyinshi ku bijanye n’ubuhinga bw’ibiranga GrapheneOS [hano](https://grapheneos.org/features).
 
 
 ### Kworohereza Impinduka
@@ -133,7 +133,7 @@ Igishushanyo co gutangura
 _Inyuma yo gutangura no gutegura, ni vyiza guhagarika gufungura OEM kuva ku Miterere > Sisitemu > Amahitamwo y'Umuhinguzi._
 
 
-_Ushobora kandi gufata intambwe y'inyongera, idasanzwe ariko iremeshwa yo kugenzura gushiramwo biciye ku rubuga rwa Auditor. Uzokenera telefone Android itandukanye irimwo app kugira ngo urangize iyo ntambwe. Amabwirizwa y'ivyo arayasanga [hano](https://icemezo.app/inyigisho)._
+_Ushobora kandi gufata intambwe y'inyongera, idasanzwe ariko iremeshwa yo kugenzura gushiramwo biciye ku rubuga rwa Auditor. Uzokenera telefone Android itandukanye irimwo app kugira ngo urangize iyo ntambwe. Amabwirizwa y'ivyo arayasanga [hano](https://attestation.app/tutorial)._
 
 
 
@@ -214,7 +214,7 @@ Igaragaza ry'inzu ry'umuntu ku giti ciwe
 Kugira telefone yawe ibe ngirakamaro uzoshaka gushiramwo ama application amwe amwe! Amahitamwo akurikira arashizwemwo kubera ko yose nayakoresheje jewe ubwanje canke kubera ko aronka impanuro zikomeye zivuye ku bantu benshi bajejwe ivy’ubuzima bwite. Hariho n’ibindi vyinshi vyiza bishobora gukoreshwa bitavuzwe, kandi [Ubuzima bwite buteye ubwoba](https://awesome-privacy.xyz) itanga urutonde runini cane rw’ibikorwa vyo kuzigama ubuzima bwite ku bwoko bwose bw’ibikoresho.
 
 
-Kubera ko app ari Porogaramu y’Ubuntu kandi Ifunguye (FOSS) ntibisigura ko idashobora gusohoka mu vy’ubuzima bwite. Koresha [Kuvayo](https://raporo.ukuvayo-ubuzima bwite.eu.org/ru/) kugira ngo ubone ingene porogarama ukunda zikora iyo zigereranywa n’igenzura ry’ubuzima bwite bwazo.
+Kubera ko app ari Porogaramu y’Ubuntu kandi Ifunguye (FOSS) ntibisigura ko idashobora gusohoka mu vy’ubuzima bwite. Koresha [Kuvayo](https://reports.exodus-privacy.eu.org/en/) kugira ngo ubone ingene porogarama ukunda zikora iyo zigereranywa n’igenzura ry’ubuzima bwite bwazo.
 
 
 ### F-Droyide
@@ -389,7 +389,7 @@ Ibubamfu: Isi y'ubupfumu, Iburyo: Ikarata y'ibinyabuzima
 
 
 
-- [Ikete rya Proton](https://proton.me/mail) ritanga ubutumwa bwihariye bw’ubuntu bufasha E2EE yagenzuwe. Proton kandi itanga verisiyo yishurwa ishigikira ivyicaro vy’abantu n’[uguhindura amazina](https://proton.me/gufasha/guhingura-amazina). Proton Mail ushobora kuyironka nk’APK canke biciye kuri Aurora.
+- [Ikete rya Proton](https://proton.me/mail) ritanga ubutumwa bwihariye bw’ubuntu bufasha E2EE yagenzuwe. Proton kandi itanga verisiyo yishurwa ishigikira ivyicaro vy’abantu n’[uguhindura amazina](https://proton.me/support/creating-aliases). Proton Mail ushobora kuyironka nk’APK canke biciye kuri Aurora.
 - [Tutanota](https://tutanota.com/) itanga ibintu nk’ivyo Proton Mail itanga, harimwo n’ibikorwa vyishyurwa kandi bishobora gukurwako nk’APK itaziguye canke biciye kuri F-Droid.
 - [K-9 Mail](https://f-droid.org/ru/packages/com.fsck.k9/) ni umukiriya wa imeyili yuguruye akorana n'uwutanga imeyili wese. Ishigikira amakonti menshi, akazu k’ubutumwa bumwe n’ingingo ngenderwako y’ugushiramwo amakuru ya OpenPGP.
 
@@ -408,7 +408,7 @@ Ibubamfu: Ikete rya porotoni, iburyo: Tutanota
 - [Notesnook](https://f-droid.org/ru/packages/com.streetwriters.notesnook/) ni porogaramu y'amajambo ya E2EE yo guhuza ivyiyumviro vyawe n'urutonde rw'ivyo ugomba gukora ku bikoresho vyawe vyose. Itegeko ryabo ry’ubuntu rikwiye gukoreshwa mu bikorwa vyinshi vy’umuntu ku giti ciwe. Notesnook iraboneka kuri F-Droid.
 - [Ivyiyumviro bisanzwe](https://f-droid.org/ru/packages/com.standardnotes/) isa cane na Notesnook, ariko isaba umugambi w’amahera kugira ngo ihure n’ivyo ukoresha. Ivyiyumviro vy’ubuhinga biraboneka biciye kuri F-Droid.
 - [Anysoft Keyboard](Anysoft Keyboard](https://f-droid.org/packages/) ni porogaramu y’ivyuma ishobora kugufasha guhindura ikintu cose ushobora kwiyumvira iyo bije ku bijanye n’ubumenyi bwo kwandika kuri telefone yawe. Ishobora gukurwa kuri F-Droid.
-- [GBoard](https://gukina.google.com/ububiko/porogarama/ibisobanuro?id=com.google.android.uburyo bwo kwinjiza.ikilatini&hl=uru&gl=US) ni porogaramu ya klavye ya Google. Mu bumenyi bwanje itanga kure cane ubwoko bwiza cane n’ubumenyi bwo gucapura. Niwakuraho iyi porogaramu, urabe ko uzimye burundu uruhusha rwose rujanye n'urubuga. Ishobora gukurwa kuri Aurora.
+- [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) ni porogaramu ya klavye ya Google. Mu bumenyi bwanje itanga kure cane ubwoko bwiza cane n’ubumenyi bwo gucapura. Niwakuraho iyi porogaramu, urabe ko uzimye burundu uruhusha rwose rujanye n'urubuga. Ishobora gukurwa kuri Aurora.
 
 
 ![image](assets/fr/17.webp)
@@ -422,7 +422,7 @@ Ibubamfu: Notesnook, Iburyo: KDE Ihuza
 
 - [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) ni porogarama y'ikirere y'Isoko Yuguruye iboneka kuri F-Droid, ifise interface ya Material 3 Expressive n'amasoko arenga 50. Ishobora kandi gufasha ibikoresho vy'ubunini butandukanye kugira ngo ushobore kubona ikirere aho wahisemwo uhereye ku mugaragaro wawe w'inzu.
 - [Guhindura wewe](https://f-droid.org/packages/com.bnyro.translate/) ni porogarama y’ubuhinduzi ikoreshwa n’inkomoko yuguruye kandi izigama ubuzima bwite, ifasha indimi zirenga 200. Guhindura Wewe biraboneka kuri F-Droid.
-- [Ikirangamisi ca Proton](https://proton.me/ikirangamisi/gukuraho) ni E2EE yoroshe gukoresha ikorana neza n’amakonti yawe ya imeyili ya Proton. Ikirangamisi ca Proton gishobora gukurwako nk’APK canke biciye ku iduka rya Aurora.
+- [Ikirangamisi ca Proton](https://proton.me/calendar/download) ni E2EE yoroshe gukoresha ikorana neza n’amakonti yawe ya imeyili ya Proton. Ikirangamisi ca Proton gishobora gukurwako nk’APK canke biciye ku iduka rya Aurora.
 - [PassAndroid](https://f-droid.org/ru/packages/org.ligi.passandroid/) ni porogarama yo kwerekana no kubika amakarata yo kwinjira mu ndege, amakupo, amatike ya sinema n’amakarata y’abanyamuryango n’ibindi. PassAndroid iraboneka biciye kuri F-Droid.
 
 
@@ -462,7 +462,7 @@ https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 
 - [Proton Drive](https://proton.me/drive/download) ni umuti w’igicu wa E2EE wishurwa wo gukora ububiko no kubika amadosiye yawe yose. Mu gihe c’ukwandika, barahejeje gutangaza umukiriya wa Windows desktop, ariko abakoresha Mac na Linux bategerezwa kubandanya bakoresha verisiyo y’urubuga kugira ngo bashobore gukorana n’ibindi bakoresheje mudasobwa zabo (ubu). Ico gikoresho ca Android kiraboneka nk’i APK canke biciye kuri Aurora.
-- [Skiff](https://skiff.com/gukuraho) kandi itanga ibikoresho vy’ububiko bw’igicu vya E2EE vyishyurwa n’ibikoresho vyo gukorana n’amadosiye. Batanga umukiriya wa Mac na Windows (hamwe n’urubuga) kandi abakiriya babo ba Android bategerezwa gukurwa kuri Aurora.
+- [Skiff](https://skiff.com/download) kandi itanga ibikoresho vy’ububiko bw’igicu vya E2EE vyishyurwa n’ibikoresho vyo gukorana n’amadosiye. Batanga umukiriya wa Mac na Windows (hamwe n’urubuga) kandi abakiriya babo ba Android bategerezwa gukurwa kuri Aurora.
 - [Nextcloud](https://f-droid.org/ru/packages/com.nextcloud.client/) itanga umuti wuzuye ushingiye ku gicu wo gukorana, gukorana n’ibikoresho bitandukanye no kubika amadosiye. Abakoresha bateye imbere cane barashobora guhitamwo kwikorera porogarama zabo z’ubuntu n’iz’inkomoko yuguruye ku bikoresho vyose bakunda. Abaguzi ba Android bashobora kubikura kuri F-Droid.
 - [Igitabu c'ububiko](https://cryptpad.fr/) gitanga ubundi buryo bw'ubuntu, bushingiye ku rubuga, E2EE ku nyandiko za Google.
 
@@ -486,7 +486,7 @@ Ariko iyo wimukiye kuri GrapheneOS, hariho ivyiza vy’ibiremwa utegerezwa kurek
 
 - Apple CarPlay/Android Auto** - Uzokenera kwizirika ku nzira nziza ya kera ya Bluetooth, USB canke Aux.
 - Apple/Google Pay** - Hafi umuntu wese atwara Wallet yiwe uko biri kwose!
-- Banking apps** - Si uko ivyo bidakora na gato. Bamwebamwe barabigira, mu vy’ukuri ata gatotsi. Abandi bakora gusa Google Play Services zifunguye (soma ibindi kuri ivyo aha hepfo) abandi na bo ntibakora na gato. Soma raporo iri kuri banki yawe [hano](https://privsec.dev/posts/android/ibikoresho-vy’amabanki-bihuye-n’ama-grapheneos/) kugira ngo ubone uko urukino rumeze ubu. Ntutinye nimba ivyawe biri kuri list idakora, wibuke ko ushobora kubika URL nk’urubuga ku rubuga rwawe rw’inzu.
+- Banking apps** - Si uko ivyo bidakora na gato. Bamwebamwe barabigira, mu vy’ukuri ata gatotsi. Abandi bakora gusa Google Play Services zifunguye (soma ibindi kuri ivyo aha hepfo) abandi na bo ntibakora na gato. Soma raporo iri kuri banki yawe [hano](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) kugira ngo ubone uko urukino rumeze ubu. Ntutinye nimba ivyawe biri kuri list idakora, wibuke ko ushobora kubika URL nk’urubuga ku rubuga rwawe rw’inzu.
 - Amatangazo yo gusunika** - Porogaramu nyinshi zigurungikira amakuru mashasha iyo udakoresha porogaramu yihariye zizobikora biciye ku bikorwa vya Google Play. Ivyo ntibishirwaho na GrapheneOS, rero niwasanga utamenyeshwa ubwo nyene iyo umugenzi wawe akurungikiye email, birashoboka ko ari co gituma. Inkuru nziza ni uko zimwe muri izo porogarama twavuze haruguru zashizeho uburyo bwazo bwo gukorana n’inyuma kugira ngo zihora zigenzura ko hariho ivyahinduwe hanyuma ziguhe itangazo aho bisabwa .
 
 
@@ -518,7 +518,7 @@ GrapheneOS ishobora kugufasha kugira ubumenyi butandukanye bwo kuri telefone, mu
 Niba ufise imwe canke zibiri gusa muri izo zitegerezwa kuba zifise porogarama zisaba Play Services, ariko zikoreshwa gake cane, gushiramwo izo iruhande ya Play Services mu rutonde rwitandukanye vyoshobora kuba iciyumviro ciza co kurushiriza gukomeza ingaruka z’ubuzima bwite z’umunota wose zisigaye mu kuzikoresha mu rutonde rwa nyirayo.
 
 
-Ushobora gusoma vyinshi ku bijanye n’iyi nkuru y’ikoreshwa [hano](https://kuganira.grapheneos.org/d/168-ivyiyumviro-vy’imirongo-y’abakoresha/2).
+Ushobora gusoma vyinshi ku bijanye n’iyi nkuru y’ikoreshwa [hano](https://discuss.grapheneos.org/d/168-ideas-for-user-profiles/2).
 
 
 Niwafata ingingo yo kwongerako urutonde rwitandukanye kugira ngo rujane n’ingene ukoresha, porogarama [Insular](https://f-droid.org/ru/packages/com.oasisfeng.island.fdroid/) yoshobora kuba ngirakamaro kuri wewe. Insular iragufasha guhindura mu buryo bworoshe porogaramu zawe zose zisanzwe zija ku rubuga rushasha ataco ukeneye guca mu nzira za kera zo gushiramwo zavuzwe mbere muri iyi nkuru. Insular kandi iraguha uburenganzira bwo 'gufunga' ningoga iyo porogarama yose kugira ngo uzimye burundu ibikorwa vyose vy'inyuma vy'iyo porogarama kugira ngo ntibikore.
@@ -599,7 +599,7 @@ GrapheneOS ni umwobo w’inkwavu umuntu wese yoshobora kumara amayinga menshi ar
 
 
 
-- [Igitabu cemewe c'ikoreshwa rya GrapheneOS](https://grapheneos.org/ikoreshwa) - Urubuga rwemewe
+- [Igitabu cemewe c'ikoreshwa rya GrapheneOS](https://grapheneos.org/usage) - Urubuga rwemewe
 - [Ihuriro rya GrapheneOS](https://kuganira ku mbuga ngurukanabumenyi
 - [Ivyigwa vy'Imiterere ya GrapheneOS](Ivyigwa vy'Imiterere ya GrapheneOS] - Videwo ya 'Umurongozi w'Ibanga'
 

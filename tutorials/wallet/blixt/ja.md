@@ -11,7 +11,7 @@ description: パワフルなLNノードをモバイルで使い始めるには�
 Blixt Wallet](https://blixtwallet.com/)を使えば、どこにいてもモバイルでLNノードをフル活用できます。
 
 
-Bitcoin Lightning Networkを使ったことがない人は、始める前に【Lightning Network(LN)についての簡単な説明アナロジーをお読みください】(https://darth-coin.github.io/beginner/LN-airport-analogy-en.html)。
+Bitcoin Lightning Networkを使ったことがない人は、始める前に【Lightning Network(LN)についての簡単な説明アナロジーをお読みください】(https://darth-coin.github.io/beginner/ln-airport-analogy-en.html)。
 
 
 ## 重要な点である：
@@ -22,11 +22,11 @@ Bitcoin Lightning Networkを使ったことがない人は、始める前に【L
 
 
 
-- BlixtはWalletのバックエンドとしてLND(aezeed)を使用していますので、他のタイプのBitcoinウォレットをインポートしようとしないでください。[ここではWallet Mnemonicのシードの種類を説明しています](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)。そしてこちらが[すべてのタイプのウォレットのより広範なリスト](https://walletsrecovery.org/)です。LNDノードをお持ちの場合、seedとbackup.channelsをブリクスドにインポートすることができます(このガイドで説明しています)(https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)。
+- BlixtはWalletのバックエンドとしてLND(aezeed)を使用していますので、他のタイプのBitcoinウォレットをインポートしようとしないでください。[ここではWallet Mnemonicのシードの種類を説明しています](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/)。そしてこちらが[すべてのタイプのウォレットのより広範なリスト](https://walletsrecovery.org/)です。LNDノードをお持ちの場合、seedとbackup.channelsをブリクスドにインポートすることができます(このガイドで説明しています)(https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)。
 
 
 
-- このガイドの最後には、["ヒントとコツ"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)の特別セクションがあります。
+- このガイドの最後には、["ヒントとコツ"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)の特別セクションがあります。
 
 
 
@@ -65,7 +65,7 @@ Blixtを開くと、"Welcome "画面にいくつかのオプションが表示�
 
 - "Torを有効にする" - ユーザーはTorネットワークを開始することができます。特に、Torのみのピアで動作していた古いLNDノードを復元したい場合に便利です。
 - "Bitcoinノードを設定する" - ユーザーが自分のノードに直接接続し、Neutrinoを通してブロックを同期したい場合、ウェルカム画面からすぐに実行できます。このオプションは、インターネット接続やTorが不安定で、デフォルトのBitcoinノード(node.blixtwallet.com)に接続できない場合にも有効です。
-- 近いうちに言語が追加される予定なので、ユーザーは使いやすい言語からすぐに始めることができます。このオープンソースプロジェクトに他の言語の翻訳で貢献したい方は、[ここに参加してください](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/)。
+- 近いうちに言語が追加される予定なので、ユーザーは使いやすい言語からすぐに始めることができます。このオープンソースプロジェクトに他の言語の翻訳で貢献したい方は、[ここに参加してください](https://explore.transifex.com/blixt-wallet/blixt-wallet/)。
 
 
 ### オプションA - 新しいWalletを作る
@@ -241,7 +241,7 @@ Blixtを開き、一番上のドロワー - Lightning Channelsに移動し、"+"
 チャプター1の "ファーストコンタクト "では、"ようこそ "画面に2つのオプションがあったのを覚えている：
 
 
-- [オプションA](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Walletの新設
+- [オプションA](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Walletの新設
 - オプションB - Walletの復旧
 
 
@@ -251,7 +251,7 @@ Blixtを開き、一番上のドロワー - Lightning Channelsに移動し、"+"
 ### オプションB - Walletを復活させる
 
 
-過去に、[クラッシュしたUmbrelノードをリストアする方法](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html)について、専用のガイドを書きました。そこでは、Umbrelのseed + channel.backupファイルを使って、Blixtをクイック・リストア・プロセスとして使う方法についても触れました。
+過去に、[クラッシュしたUmbrelノードをリストアする方法](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html)について、専用のガイドを書きました。そこでは、Umbrelのseed + channel.backupファイルを使って、Blixtをクイック・リストア・プロセスとして使う方法についても触れました。
 
 
 また、Blixtノードをリストアしたり、Blixtを他のデバイスにマイグレーションしたりする方法についても書きました[こちら](https://blixtwallet.github.io/faq#blixt-restore)。

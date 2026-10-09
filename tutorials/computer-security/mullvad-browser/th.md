@@ -547,7 +547,7 @@ Mullvad Browser เป็นทางออกที่ยอดเยี่ย�
 
 - [Official Mullvad Browser website](https://mullvad.net/fr/browser)
 - [หน้าดาวน์โหลด Mullvad Browser](https://mullvad.net/en/download/browser)
-- [Detailed technical specifications](https://mullvad.net/en/browser/Hard-facts)
+- [Detailed technical specifications](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad Browser Extension](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

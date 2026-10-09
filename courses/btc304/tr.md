@@ -48,7 +48,7 @@ Bu kayda değer büyüme elbette ki aşağıdakilerle yakından bağlantılıdı
 
 
 
-- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin);
+- lübnan, Suriye, Mısır, Arjantin ve diğer ülkelerdeki halklarda olduğu gibi, bankacılık sisteminden kurtulmak ve/veya daha az değişken veya daha az devalüe edilmiş bir para birimi kullanmak için [dünyanın dört bir yanındaki insanların Bitcoin kullanmaya artan ilgisi](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin);
 - zaman içinde fiyatının değer kazanması, sabit para politikası sayesinde bir değer saklama aracı ve uzun vadeli bir yatırım olarak kabul görmesi;
 - spekülatif kripto para piyasasının özellikle 2017-2018 ve 2020-2021 döneminde art arda büyümesi;
 - Bitcoin'in ana akım medyadaki artan varlığı.
@@ -2006,7 +2006,7 @@ Ayrıca topluluğunuza veya buluşmanıza özel olarak faaliyetlerinizi, hedefle
 Birkaç broşür halihazırda **planB.network'teki [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)**'da açık kaynak olarak mevcuttur ve zaman içinde daha fazlası eklenecektir.
 
 
-Bir örnek, Bitcoin'yi kullanmak için 21 neden içeren [tam kaynaklı bir broşür](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin). Tasarımı da değiştirmeniz, uyarlamanız ve paylaşmanız için [açık kaynak olarak mevcuttur](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Sadece kaynaklarınızı belirtmeyi unutmayın.
+Bir örnek, Bitcoin'yi kullanmak için 21 neden içeren [tam kaynaklı bir broşür](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin). Tasarımı da değiştirmeniz, uyarlamanız ve paylaşmanız için [açık kaynak olarak mevcuttur](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Sadece kaynaklarınızı belirtmeyi unutmayın.
 
 
 
@@ -2050,7 +2050,7 @@ Bitcoin beyaz kağıdını bırakmak sembolik olsa da, yeni gelenlerin anlaması
 - fransızca'ya çevrilmiş Bitcoin beyaz kitabı.
 
 
-İşte [Fransız bitcoinciler arasında paylaşılan kitapçık](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), ülke çapında düzinelerce kitap kutusuna yerleştirildi. Tasarımı da [açık kaynak olarak mevcut](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+İşte [Fransız bitcoinciler arasında paylaşılan kitapçık](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), ülke çapında düzinelerce kitap kutusuna yerleştirildi. Tasarımı da [açık kaynak olarak mevcut](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

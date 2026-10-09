@@ -33,7 +33,7 @@ Watchtower จะสามารถระบุได้อย่างไรว
 
 
 
-*บทแนะนำนี้นำมาจาก [เอกสารทางการของ LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) อาจมีการเปลี่ยนแปลงบางอย่างจากเวอร์ชันต้นฉบับ
+*บทแนะนำนี้นำมาจาก [เอกสารทางการของ LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) อาจมีการเปลี่ยนแปลงบางอย่างจากเวอร์ชันต้นฉบับ
 
 
 

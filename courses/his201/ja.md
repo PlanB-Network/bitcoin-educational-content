@@ -678,7 +678,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 > 「このシステムは匿名性があり、どの政府も税金を課したり取引を阻止することはできません。新しいお金の無制限の創造で通貨を切り下げることができる中央銀行は存在しません。このようなシステムの広範な採用は、国家がその市民から搾取する能力に壊滅的な影響を与えるかもしれないと思われます。」
 
 ![マルティ・マルミ 2013年](assets/ja/028.webp)
-マルティ・マルミ 2013年 (出典: [Business Insider](https://www.businessinsider.com/bitcoins-マルティ-malmi-not-worried-about-liberty-reserve-2013-5))
+マルティ・マルミ 2013年 (出典: [Business Insider](https://www.businessinsider.com/bitcoins-martti-malmi-not-worried-about-liberty-reserve-2013-5))
 
 その後、マルティはサトシに[メール](https://mmalmi.github.io/satoshi/#email-1)を送り、このテキストの著者であることを伝え、「まだ開発の経験はあまりないが、ビットコインの手助けをしたい」と書きました。サトシ・ナカモトは5月2日に返信し、彼の「ビットコインに対する理解は完全に正しい」と伝えました。
 

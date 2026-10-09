@@ -60,7 +60,7 @@ Kipindi kinapatikana kwenye mifumo yote. Unaweza kupakua programu moja kwa moja 
 
 
 
-- [Google Play](https://play.google.com/store/apps/details?id=academy.loki.messenger);
+- [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
 - [Duka la Programu](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).
 

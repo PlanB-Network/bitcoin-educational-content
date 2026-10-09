@@ -320,7 +320,7 @@ Vad menar de med Trustless? Pieter Wuille förklarar denna allmänt använda ter
 I korthet hänvisar ordet *Trustless* till en egenskap hos Bitcoin-protokollet varigenom det logiskt kan fungera utan "några betrodda parter". Detta skiljer sig från det förtroende som du oundvikligen måste sätta till den programvara eller maskinvara du kör. Mer om denna senare aspekt av förtroende kommer att diskuteras längre fram i detta kapitel.
 
 
-I centraliserade system förlitar vi oss på en central aktörs rykte för att försäkra oss om att denne kommer att ta hand om säkerheten eller backa tillbaka vid problem, samt på rättssystemet för att sanktionera eventuella överträdelser. Dessa förtroendekrav är problematiska i pseudonyma decentraliserade system - det finns ingen möjlighet till regress så det kan egentligen inte finnas något förtroende. I introduktionen till [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf) beskriver Satoshi Nakamoto detta problem:
+I centraliserade system förlitar vi oss på en central aktörs rykte för att försäkra oss om att denne kommer att ta hand om säkerheten eller backa tillbaka vid problem, samt på rättssystemet för att sanktionera eventuella överträdelser. Dessa förtroendekrav är problematiska i pseudonyma decentraliserade system - det finns ingen möjlighet till regress så det kan egentligen inte finnas något förtroende. I introduktionen till [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) beskriver Satoshi Nakamoto detta problem:
 
 
 > Handeln på Internet har kommit att förlita sig nästan uteslutande på finansiella institutioner som fungerar som betrodda tredje parter för att hantera elektroniska betalningar.
@@ -333,7 +333,7 @@ Det verkar som om vi inte kan ha ett decentraliserat system baserat på förtroe
 För att använda Bitcoin på ett Trustless-sätt måste du köra en fullt validerande Bitcoin-nod. Först då kan du verifiera att de block du får från andra följer konsensusreglerna, till exempel att schemat för myntutgivning hålls och att inga dubbla utgifter sker på Blockchain. Om du inte kör en Full node lägger du ut verifieringen av Bitcoin-block på någon annan och litar på att de säger sanningen, vilket innebär att du inte använder Bitcoin på ett tillförlitligt sätt.
 
 
-David Harding har skrivit [en artikel på webbplatsen Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) som förklarar hur det faktiskt hjälper dig att köra en Full node - eller att använda Bitcoin utan att lita på den:
+David Harding har skrivit [en artikel på webbplatsen Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) som förklarar hur det faktiskt hjälper dig att köra en Full node - eller att använda Bitcoin utan att lita på den:
 
 
 > Bitcoin-valutan fungerar bara när människor accepterar bitcoins i Exchange för andra värdefulla saker. Det betyder att det är de personer som accepterar bitcoins som ger den värde och som får bestämma hur Bitcoin ska fungera.
@@ -522,7 +522,7 @@ Genom att använda adresser eller publika nycklar uppnår vi viktiga mål, till 
 Blockchain-sekretess avser den information du avslöjar genom att handla på Blockchain. Det gäller för alla transaktioner, de du skickar såväl som de du tar emot.
 
 
-Satoshi Nakamoto funderar över On-Chain integritet i avsnitt 7 i sin [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto funderar över On-Chain integritet i avsnitt 7 i sin [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Som en extra brandvägg bör ett nytt nyckelpar användas för varje transaktion för att förhindra att de länkas till en gemensam ägare. Viss länkning är fortfarande oundviklig med transaktioner med flera inmatningar, som med nödvändighet avslöjar att deras inmatningar ägdes av samma ägare. Risken är att om ägaren till en nyckel avslöjas, kan länkningen avslöja andra transaktioner som tillhörde samma ägare.
@@ -817,7 +817,7 @@ Omvänt avser [bakåtkompatibilitet](https://en.wikipedia.org/wiki/Backward_comp
 En ändring av Bitcoin:s konsensusregler sägs vara en *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* om den är helt kompatibel. Detta är det vanligaste sättet att uppgradera Bitcoin, av ett antal skäl som vi kommer att diskutera längre fram i detta kapitel. Om en ändring av konsensusreglerna för Bitcoin är bakåtkompatibel men inte framåtkompatibel kallas den för en *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-För en teknisk översikt över Soft-gafflar och Hard-gafflar, läs [kapitel 11 i Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Det förklarar dessa termer och går även in på uppgraderingsmekanismerna. Det rekommenderas, även om det inte är absolut nödvändigt, att få grepp om detta innan du fortsätter att läsa.
+För en teknisk översikt över Soft-gafflar och Hard-gafflar, läs [kapitel 11 i Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Det förklarar dessa termer och går även in på uppgraderingsmekanismerna. Det rekommenderas, även om det inte är absolut nödvändigt, att få grepp om detta innan du fortsätter att läsa.
 
 
 ### Historiska uppgraderingar
@@ -1260,7 +1260,7 @@ Många utvecklare väljer det här alternativet genom att arbeta under en pseudo
 artiklar och mitt arbete med Bitcoin och Lightning Network.
 
 
-I hans fall ska skälet till att han använder en pseudonym bedömas utifrån hans meriter och inte utifrån vem eller vilka personen eller personerna bakom pseudonymen är. Intressant nog avslöjade han i en [artikel på CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) att pseudonymen skapades av en annan anledning.
+I hans fall ska skälet till att han använder en pseudonym bedömas utifrån hans meriter och inte utifrån vem eller vilka personen eller personerna bakom pseudonymen är. Intressant nog avslöjade han i en [artikel på CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) att pseudonymen skapades av en annan anledning.
 
 
 > Min ursprungliga anledning [till att använda en pseudonym] var helt enkelt att jag var orolig [för] att göra ett stort misstag; därför var ZmnSCPxj ursprungligen avsedd att vara en engångspseudonym som kunde överges i ett sådant fall. Men den verkar ha fått ett mestadels positivt rykte, så jag har behållit den
@@ -1335,7 +1335,7 @@ På sin väg mot ett slutligt antagande genomgår en idé vanligtvis flera faser
 I var och en av dessa faser granskar personer med olika synsätt och bakgrund den tillgängliga informationen, oavsett om det är källkoden, en BIP eller bara en löst beskriven idé. Faserna utförs vanligtvis inte på något strikt uppifrån-och-ned-sätt, utan flera faser kan pågå samtidigt och ibland går man fram och tillbaka mellan dem. Olika personer kan också ge feedback under olika faser.
 
 
-En av de mest produktiva kodgranskarna på Bitcoin Core är Jon Atack. Han skrev [ett blogginlägg](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) om hur man granskar pull requests i Bitcoin Core. Han betonar att en bra kodgranskare fokuserar på hur man bäst kan tillföra värde.
+En av de mest produktiva kodgranskarna på Bitcoin Core är Jon Atack. Han skrev [ett blogginlägg](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) om hur man granskar pull requests i Bitcoin Core. Han betonar att en bra kodgranskare fokuserar på hur man bäst kan tillföra värde.
 
 
 > Som nykomling är målet att försöka tillföra värde, med vänlighet och ödmjukhet, samtidigt som man lär sig så mycket som möjligt.
@@ -1468,7 +1468,7 @@ Skalning har varit en central punkt i diskussionen sedan Genesis av Bitcoin. Den
 > Satoshi Nakamoto skrev:
 >
 
-> "Jag har arbetat med ett nytt system för elektroniska kontanter som är helt peer-to-peer, utan någon betrodd tredje part.  Artikeln finns tillgänglig på http://www.Bitcoin.org/Bitcoin.pdf"
+> "Jag har arbetat med ett nytt system för elektroniska kontanter som är helt peer-to-peer, utan någon betrodd tredje part.  Artikeln finns tillgänglig på http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Vi behöver verkligen, verkligen ett sådant system, men som jag förstår ert förslag verkar det inte kunna skalas till den storlek som krävs.
@@ -1551,7 +1551,7 @@ Den andra punkten har en negativ effekt på Miner:s decentralisering, eftersom d
 Horisontell skalning avser tekniker som delar upp arbetsbelastningen på flera maskiner. Även om detta är en vanlig skalningsmetod bland populära webbplatser och databaser, är det inte lätt att göra i Bitcoin.
 
 
-Många människor hänvisar till denna Bitcoin-skalningsmetod som *sharding*. I grund och botten består det av att låta varje Full node verifiera bara en del av Blockchain. Peter Todd har lagt ner mycket tankearbete på konceptet sharding. Han skrev ett [blogginlägg](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) där han förklarade sharding i allmänna termer och även presenterade sin egen idé som kallas *treechains*. Artikeln är svårläst, men Todd gör några poäng som är ganska smältbara:
+Många människor hänvisar till denna Bitcoin-skalningsmetod som *sharding*. I grund och botten består det av att låta varje Full node verifiera bara en del av Blockchain. Peter Todd har lagt ner mycket tankearbete på konceptet sharding. Han skrev ett [blogginlägg](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) där han förklarade sharding i allmänna termer och även presenterade sin egen idé som kallas *treechains*. Artikeln är svårläst, men Todd gör några poäng som är ganska smältbara:
 
 
 > I sharded-system fungerar inte "Full node-försvaret", åtminstone inte direkt. Hela poängen är att alla inte har all data, så du måste bestämma vad som händer när den inte är tillgänglig.
@@ -2101,7 +2101,7 @@ En viktig lärdom av detta är att BIP:er bör vara mer eller mindre *atomiska*,
 
 
 
-Tyvärr slutade inte historien om BIP66 där. När BIP66 aktiverades blev det ganska rörigt eftersom vissa miners inte verifierade de block som de försökte förlänga. Detta kallas valideringslös Mining, eller SPV-Mining (som i Simplified Payment Verification). Ett varningsmeddelande skickades ut till Bitcoin-noderna med en länk till [en webbsida som beskriver problemet](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Tyvärr slutade inte historien om BIP66 där. När BIP66 aktiverades blev det ganska rörigt eftersom vissa miners inte verifierade de block som de försökte förlänga. Detta kallas valideringslös Mining, eller SPV-Mining (som i Simplified Payment Verification). Ett varningsmeddelande skickades ut till Bitcoin-noderna med en länk till [en webbsida som beskriver problemet](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > Tidigt på morgonen den 4 juli 2015 nåddes tröskelvärdet 950/1000 (95%). Strax därefter utvann en liten Miner (en del av de icke uppgraderade 5 %) ett ogiltigt block - vilket var en förväntad händelse. Tyvärr visade det sig att ungefär hälften av nätverkets Hash-frekvens var Mining utan fullständig validering av block (kallad SPV Mining), och byggde nya block ovanpå det ogiltiga blocket.

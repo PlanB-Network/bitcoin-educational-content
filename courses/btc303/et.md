@@ -320,7 +320,7 @@ Mida nad Trustless all silmas peavad? Pieter Wuille selgitab seda laialdaselt ka
 Lühidalt öeldes viitab sõna *Trustless* Bitcoin protokolli omadusele, mille kohaselt võib see loogiliselt toimida ilma "usaldusväärsete osapoolteta". See erineb usaldusest, mida te paratamatult peate rakendatavale tarkvarale või riistvarale avaldama. Seda viimatinimetatud usalduse aspekti käsitletakse käesolevas peatükis lähemalt.
 
 
-Tsentraliseeritud süsteemides toetume kesksete osalejate mainele, et tagada, et nad hoolitsevad turvalisuse eest või võtavad probleemide korral tagasi, ning õigussüsteemile, et sanktsioneerida rikkumisi. Need usaldusnõuded on pseudonüümsetes detsentraliseeritud süsteemides problemaatilised - puudub võimalus pöörduda, seega ei saa tegelikult mingit usaldust olla. Satoshi Nakamoto kirjeldab seda probleemi [valge raamatu Bitcoin](https://Bitcoin.org/Bitcoin.pdf) sissejuhatuses:
+Tsentraliseeritud süsteemides toetume kesksete osalejate mainele, et tagada, et nad hoolitsevad turvalisuse eest või võtavad probleemide korral tagasi, ning õigussüsteemile, et sanktsioneerida rikkumisi. Need usaldusnõuded on pseudonüümsetes detsentraliseeritud süsteemides problemaatilised - puudub võimalus pöörduda, seega ei saa tegelikult mingit usaldust olla. Satoshi Nakamoto kirjeldab seda probleemi [valge raamatu Bitcoin](https://bitcoin.org/bitcoin.pdf) sissejuhatuses:
 
 
 > Interneti-kaubandus tugineb peaaegu eranditult finantsasutustele, kes on usaldusväärsed kolmandad osapooled elektrooniliste maksete töötlemisel.
@@ -333,7 +333,7 @@ Tundub, et meil ei saa olla detsentraliseeritud süsteemi, mis põhineb usalduse
 Bitcoin kasutamiseks Trustless viisil peate käivitama täielikult valideeriva Bitcoin sõlme. Ainult siis saate kontrollida, et teistelt saadud plokid järgivad konsensuseeskirju; näiteks, et mündi väljastamise ajakavast peetakse kinni ja et Blockchain-l ei toimu topeltkulutusi. Kui te ei käita Full node-i, annate Bitcoin-i plokkide kontrollimise kellegi teise ülesandeks ja usaldate, et nad teile tõtt räägivad, mis tähendab, et te ei kasuta Bitcoin-i usaldusväärselt.
 
 
-David Harding on kirjutanud [artikli Bitcoin.org veebilehel](https://Bitcoin.org/en/Bitcoin-core/features/validation), milles ta selgitab, kuidas Full node kasutamine - või Bitcoin usalduseta kasutamine - tegelikult aitab teid:
+David Harding on kirjutanud [artikli Bitcoin.org veebilehel](https://bitcoin.org/en/bitcoin-core/features/validation), milles ta selgitab, kuidas Full node kasutamine - või Bitcoin usalduseta kasutamine - tegelikult aitab teid:
 
 
 > Bitcoin valuuta toimib ainult siis, kui inimesed võtavad bitcoin'e Exchange-s vastu muude väärtuslike asjade eest. See tähendab, et inimesed, kes bitcoine vastu võtavad, annavad sellele väärtuse ja otsustavad, kuidas Bitcoin peaks töötama.
@@ -522,7 +522,7 @@ Aadresside ehk avalike võtmete kasutamisega saavutame olulisi eesmärke, näite
 Blockchain privaatsus viitab teabele, mida te Blockchain kaudu tehingutega avalikustate. See kehtib kõigi tehingute kohta, nii nende kohta, mida te saadate kui ka nende kohta, mida te saate.
 
 
-Satoshi Nakamoto mõtiskleb On-Chain privaatsuse üle oma [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf) punktis 7:
+Satoshi Nakamoto mõtiskleb On-Chain privaatsuse üle oma [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) punktis 7:
 
 
 > Täiendava tulemüürina tuleks iga tehingu puhul kasutada uut võtmepaari, et vältida nende seostamist ühise omanikuga. Mõningane seostamine on siiski vältimatu mitme sisendiga tehingute puhul, mis ilmselgelt näitavad, et nende sisendid kuuluvad samale omanikule. Risk on, et kui võtme omanik paljastub, võib linkimine paljastada teised tehingud, mis kuulusid samale omanikule.
@@ -817,7 +817,7 @@ Vastupidi, [tagasiühilduvus](https://en.wikipedia.org/wiki/Backward_compatibili
 Bitcoin konsensusreeglitesse tehtud muudatust nimetatakse *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*, kui see on täielikult ühilduv. See on kõige tavalisem viis Bitcoin uuendamiseks mitmel põhjusel, mida me käesolevas peatükis veel arutame. Kui Bitcoin konsensusreeglite muudatus on tagasiühilduv, kuid mitte edasiühilduv, nimetatakse seda *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Tehnilise ülevaate Soft ja Hard hargnemiste kohta leiate [Grokking Bitcoin 11. peatükist](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Selles selgitatakse neid mõisteid ja süvenetakse ka uuendamismehhanismidesse. Soovitatav, kuigi mitte tingimata vajalik, on enne lugemise jätkamist sellega tutvuda.
+Tehnilise ülevaate Soft ja Hard hargnemiste kohta leiate [Grokking Bitcoin 11. peatükist](https://rosenbaum.se/book/grokking-bitcoin-11.html). Selles selgitatakse neid mõisteid ja süvenetakse ka uuendamismehhanismidesse. Soovitatav, kuigi mitte tingimata vajalik, on enne lugemise jätkamist sellega tutvuda.
 
 
 ### Ajaloolised uuendused
@@ -1260,7 +1260,7 @@ Paljud arendajad valivad selle võimaluse, tegutsedes pseudonüümi all ja püü
 artiklid ja minu töö Bitcoin ja Lightning Network kohta.
 
 
-Tema puhul tuleb pseudonüümi kasutamise põhjuseid hinnata tema teenete põhjal, mitte selle põhjal, kes on või kes on pseudonüümi taga olev isik või isikud. Huvitaval kombel avaldas ta [artiklis CoinDeskis](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), et pseudonüüm loodi hoopis teisel põhjusel.
+Tema puhul tuleb pseudonüümi kasutamise põhjuseid hinnata tema teenete põhjal, mitte selle põhjal, kes on või kes on pseudonüümi taga olev isik või isikud. Huvitaval kombel avaldas ta [artiklis CoinDeskis](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/), et pseudonüüm loodi hoopis teisel põhjusel.
 
 
 > Minu esialgne põhjus [pseudonüümi kasutamiseks] oli lihtsalt see, et ma olin mures [massiivse vea tegemise pärast]; seega oli ZmnSCPxj algselt mõeldud ühekordselt kasutatavaks pseudonüümiks, millest saaks sellisel juhul loobuda. Siiski tundub, et see on kogunud enamasti positiivset mainet, nii et ma olen selle säilitanud
@@ -1335,7 +1335,7 @@ Teel lõpliku vastuvõtmiseni läbib idee tavaliselt mitu arutelu- ja läbivaata
 Igas nimetatud etapis vaatavad erinevate seisukohtade ja taustaga inimesed läbi olemasoleva teabe, olgu see siis lähtekood, piiritletud lähteülesanne või lihtsalt vabalt kirjeldatud idee. Tavaliselt ei toimu need faasid rangelt ülalt-alla, tõepoolest võib mitu faasi toimuda samaaegselt ja mõnikord liigutakse nende vahel edasi-tagasi. Erinevate etappide ajal võivad tagasisidet anda ka erinevad inimesed.
 
 
-Üks kõige viljakamaid koodi ülevaatajaid Bitcoin Core'is on Jon Atack. Ta kirjutas [blogipostituse](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) selle kohta, kuidas vaadata läbi tõmbepäringuid Bitcoin Core'is. Ta rõhutab, et hea koodi ülevaataja keskendub sellele, kuidas kõige paremini väärtust lisada.
+Üks kõige viljakamaid koodi ülevaatajaid Bitcoin Core'is on Jon Atack. Ta kirjutas [blogipostituse](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) selle kohta, kuidas vaadata läbi tõmbepäringuid Bitcoin Core'is. Ta rõhutab, et hea koodi ülevaataja keskendub sellele, kuidas kõige paremini väärtust lisada.
 
 
 > Uustulnukana on eesmärk püüda sõbralikult ja tagasihoidlikult lisaväärtust luua, õppides samal ajal võimalikult palju.
@@ -1468,7 +1468,7 @@ Skaalamine on olnud arutelude keskmes alates Genesis Bitcoin-st. Kõige esimene 
 > Satoshi Nakamoto kirjutas:
 >
 
-> "Olen töötanud uue elektroonilise sularahasüsteemi kallal, mis on täielikult vastastikune, ilma usaldusväärse kolmanda osapooleta.  Töö on kättesaadav aadressil http://www.Bitcoin.org/Bitcoin.pdf"
+> "Olen töötanud uue elektroonilise sularahasüsteemi kallal, mis on täielikult vastastikune, ilma usaldusväärse kolmanda osapooleta.  Töö on kättesaadav aadressil http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Me vajame sellist süsteemi väga-väga palju, kuid nii nagu ma teie ettepanekust aru saan, ei tundu see olevat vajaliku suurusega.
@@ -1551,7 +1551,7 @@ Teine punkt avaldab Miner detsentraliseerimisele negatiivset mõju, sest tavalis
 Horisontaalne skaleerimine viitab tehnikatele, mis jagavad töökoormuse mitme masina vahel. Kuigi see on levinud skaleerimismeetod populaarsete veebisaitide ja andmebaaside puhul, ei ole seda Bitcoin puhul lihtne teha.
 
 
-Paljud inimesed nimetavad seda Bitcoin skaleerimismeetodit *shardinguks*. Põhimõtteliselt seisneb see selles, et iga Full node laseb kontrollida ainult osa Blockchain-st. Peter Todd on sharding'i kontseptsioonile palju mõelnud. Ta kirjutas [blogipostituse](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard), kus ta selgitab shardingi üldiselt ja tutvustab ka oma ideed nimega *treechains*. Artikkel on raske lugemine, kuid Todd toob välja mõned punktid, mis on üsna seeditavad:
+Paljud inimesed nimetavad seda Bitcoin skaleerimismeetodit *shardinguks*. Põhimõtteliselt seisneb see selles, et iga Full node laseb kontrollida ainult osa Blockchain-st. Peter Todd on sharding'i kontseptsioonile palju mõelnud. Ta kirjutas [blogipostituse](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard), kus ta selgitab shardingi üldiselt ja tutvustab ka oma ideed nimega *treechains*. Artikkel on raske lugemine, kuid Todd toob välja mõned punktid, mis on üsna seeditavad:
 
 
 > Sharded-süsteemides ei toimi "Full node kaitse", vähemalt otseselt. Kogu mõte on selles, et kõik andmed ei ole kõigil olemas, seega tuleb otsustada, mis juhtub, kui neid ei ole saadaval.
@@ -2101,7 +2101,7 @@ Peamine järeldus sellest on, et piiripunktid peaksid olema enam-vähem *atomaar
 
 
 
-Kahjuks ei lõppenud BIP66 lugu sellega. Kui BIP66 aktiveeriti, osutus see üsna räpaseks, sest mõned kaevurid ei kontrollinud plokke, mida nad üritasid laiendada. Seda nimetatakse valideerimiseta Mining ehk SPV-Mining (nagu Simplified Payment Verification). Bitcoin sõlmedele saadeti hoiatussõnum koos lingiga [probleemi kirjeldavale veebilehele](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Kahjuks ei lõppenud BIP66 lugu sellega. Kui BIP66 aktiveeriti, osutus see üsna räpaseks, sest mõned kaevurid ei kontrollinud plokke, mida nad üritasid laiendada. Seda nimetatakse valideerimiseta Mining ehk SPV-Mining (nagu Simplified Payment Verification). Bitcoin sõlmedele saadeti hoiatussõnum koos lingiga [probleemi kirjeldavale veebilehele](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > 4. juuli 2015. aasta varahommikul saavutati 950/1000 (95%) künnis. Varsti pärast seda kaevandas väike Miner (osa uuendamata 5%) kehtetu ploki - see oli ootuspärane juhtum. Kahjuks selgus, et umbes pool võrgu Hash määrast oli Mining ilma täielikult valideerimata plokid (nn SPV Mining) ja ehitas selle kehtetu ploki peale uusi plokke.

@@ -817,7 +817,7 @@ Amafaranga umuntu ashobora gusiga ku rugero runaka rw’umutekano ava ku muntu k
 Mu gusozera, gutunfga bwite amahera y’umuntu ni ikintu gihambaye kugira ngo umuntu agire ubwigenge bw’ivy’ubutunzi. Birahimirizwa gukoresha ingodo ngendanwa kugira ngo ukoreshe amahera y’umusi ku musi be n'iyindi ngodo idakoreshwakuri Internet, canke "Cold," Wallet y'icuma kugira ngo ubike amahera menshi. Ku rundi ruhande, ubucuruzi bukwiye kwiyumvira gukoresha uburyo bwo gusinya cane, canke "Multisig," kugira ngo umutekano wongerekane canke usabikanywe. Ni ngombwa kandi kwirinda ibikorwa vyo kubungabunga, bishobora gusubiramwo ubugoyagoye bumwebumwe bw’uburyo bw’ivy’ubutunzi bwa kera.
 
 
-Dufise ivyo mu muzirikanyi, ubu turashobora kuja mu gice gikurikira aho tuvuga biramvuye ingene twokora ingodo za Bitcoin . Ariko rero, nimba wipfuza kurushiriza gutohoza ivyerekeye umutekano, urashobora gusoma iyi [ngingo yanditswe na DarthCoin](https://asi0.substack.com/p/Bitcoin).
+Dufise ivyo mu muzirikanyi, ubu turashobora kuja mu gice gikurikira aho tuvuga biramvuye ingene twokora ingodo za Bitcoin . Ariko rero, nimba wipfuza kurushiriza gutohoza ivyerekeye umutekano, urashobora gusoma iyi [ngingo yanditswe na DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 
 ## Gushinga Wallet
@@ -1145,7 +1145,7 @@ Amapfundo n'ibintu vy'ishimikiro munyubako y'umuryango wa Bitcoin, nkuko vyereka
 - Gukomeza amategeko y'urukwirikirane rwa Bitcoin. 
 
 
-Iciyongerako, igikoresho caricocose gikoresha igice c'ubuhinga bwa Bitcoin ca Bitcoin, citwa ipfundo rya Bitcin (kenshi gikoresha [Bitcoin Core](https://Bitcoin.org/g/Bitcoin-core/)), bigafasha mugufasha umuryango ataho uhengamiye.
+Iciyongerako, igikoresho caricocose gikoresha igice c'ubuhinga bwa Bitcoin ca Bitcoin, citwa ipfundo rya Bitcin (kenshi gikoresha [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/)), bigafasha mugufasha umuryango ataho uhengamiye.
 
 
 ![image](assets/rn/050.webp)

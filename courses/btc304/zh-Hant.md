@@ -48,7 +48,7 @@ objectives:
 
 
 
-- 全世界人民對使用 Bitcoin 的興趣日增](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)，從銀行體系中解放出來，和/或使用波動性較小或貶值程度較低的貨幣，黎巴嫩、敘利亞、埃及、阿根廷等國的人民就是如此；
+- 全世界人民對使用 Bitcoin 的興趣日增](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)，從銀行體系中解放出來，和/或使用波動性較小或貶值程度較低的貨幣，黎巴嫩、敘利亞、埃及、阿根廷等國的人民就是如此；
 - 在其固定貨幣政策的推動下，其價格隨著時間不斷升值，使其成為一種儲值工具和長期投資；
 - 投機性加密貨幣市場的連續成長，尤其是在 2017-2018 年和 2020-2021 年間；
 - Bitcoin 在主流媒體中的地位日益提升。
@@ -2006,7 +2006,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 在 planB.network 上的 [Bitcoin 教學工具箱](https://planb.academy/fr/resources/bet)**，已經有幾份傳單可以開放原始碼的方式**，隨著時間的推移，將會有更多的傳單加入。
 
 
-其中一個例子是 [完整來源的傳單](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin)，包含 21 個使用 Bitcoin 的理由。它的設計也是 [開放原始碼](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)，供您修改、改寫和分享。只要記得註明您的資料來源即可。
+其中一個例子是 [完整來源的傳單](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin)，包含 21 個使用 Bitcoin 的理由。它的設計也是 [開放原始碼](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)，供您修改、改寫和分享。只要記得註明您的資料來源即可。
 
 
 
@@ -2050,7 +2050,7 @@ Twitter 非常容易使用，若要改善您的隱私權，您需要調整一些
 - Bitcoin 白皮書，翻譯成法語。
 
 
-這是[法國比特幣玩家分享的小冊子](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle)，已被放置在全國各地的數十個書箱中。它的設計也是[開放原始碼](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
+這是[法國比特幣玩家分享的小冊子](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle)，已被放置在全國各地的數十個書箱中。它的設計也是[開放原始碼](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)。
 
 
 

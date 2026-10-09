@@ -1351,7 +1351,7 @@ Ludwig von Mises nhấn mạnh rằng, khi phê phán quyền con người, Mác
 
 Trong _Đạo đức của Tự do - The Ethics of Liberty_ và _Giải phẫu của Nhà nước - Anatomy of the State_, Murray Rothbard giải thích rằng khái niệm bóc lột chỉ có ý nghĩa như một hành động xâm phạm quyền tư hữu và chỉ có Nhà nước mới kiếm được thu nhập thông qua sự xâm phạm, tức là thông qua thuế, nợ, in tiền, và do đó thông qua lạm phát. Trên thực tế, chính sự can thiệp của Nhà nước, chứ không phải các cuộc đấu tranh giai cấp, là nguồn gốc của bạo lực và xung đột trong xã hội. Nhà nước, bằng cách chiếm đoạt tài nguyên và quản lý nền kinh tế, đã tạo ra những méo mó và bất công dẫn đến xung đột và áp bức. Do đó, muốn chấm dứt sự bóc lột thì đòi hỏi phải giảm bớt quyền lực của tầng lớp trấn lột: Nhà nước.
 
-Về vấn đề này, xem thêm: _Phân tích về giai cấp của chủ nghĩa Mác và trường phái Áo - Mácist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Mùa Thu 1990.(https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_Máciste_et_celle_des_Autrichiens). Được tái bản thành Chương 4 trong _Kinh tế học và Đạo đức của quyền tư hữu - The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+Về vấn đề này, xem thêm: _Phân tích về giai cấp của chủ nghĩa Mác và trường phái Áo - Mácist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Mùa Thu 1990.(https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Được tái bản thành Chương 4 trong _Kinh tế học và Đạo đức của quyền tư hữu - The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
 ### Chủ nghĩa đa logic - Polylogism
 

@@ -36,7 +36,7 @@ Ninja SAFU lähenemisviis pakub mitmeid eeliseid:
 
 
 
-- **Usaldusväärsus**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
+- **Usaldusväärsus**: [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), kes on seda katsetanud rangetele stressitestidele (äärmuslik kuumus, korrosioon, mehaaniline surve).
 
 
 
@@ -354,13 +354,13 @@ Jameson Loppi sõnul:
 
 
 
-- [Raport](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) Ninja SAFU meetodi kohta
+- [Raport](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) Ninja SAFU meetodi kohta
 
 
 
 
 
-- Võrdlustabel [täielik](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Võrdlustabel [täielik](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

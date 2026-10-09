@@ -48,7 +48,7 @@ Denna betydande tillväxt är naturligtvis nära kopplad till:
 
 
 
-- det [växande intresset hos människor runt om i världen för att använda Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), för att frigöra sig från banksystemet och/eller använda en mindre volatil eller mindre devalverad valuta, vilket är fallet för befolkningar i Libanon, Syrien, Egypten, Argentina och andra länder;
+- det [växande intresset hos människor runt om i världen för att använda Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), för att frigöra sig från banksystemet och/eller använda en mindre volatil eller mindre devalverad valuta, vilket är fallet för befolkningar i Libanon, Syrien, Egypten, Argentina och andra länder;
 - dess prisuppgång över tiden, vilket etablerar den som en värdebevarare och en långsiktig investering, driven av den fasta penningpolitiken;
 - den successiva tillväxten av den spekulativa kryptovalutamarknaden, särskilt under 2017-2018 och 2020-2021;
 - Bitcoin:s växande närvaro i mainstream-media.
@@ -2006,7 +2006,7 @@ Du kan också utforma en flyer som är specifik för ditt community eller din m�
 Flera flyers finns redan **tillgängliga som öppen källkod i [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** på planB.network och fler kommer att läggas till med tiden.
 
 
-Ett exempel är ett [komplett flygblad](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) med 21 skäl att använda Bitcoin. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) så att du kan ändra, anpassa och dela den. Kom bara ihåg att ange dina källor.
+Ett exempel är ett [komplett flygblad](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) med 21 skäl att använda Bitcoin. Dess design är också [tillgänglig i öppen källkod](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) så att du kan ändra, anpassa och dela den. Kom bara ihåg att ange dina källor.
 
 
 
@@ -2050,7 +2050,7 @@ För att genomföra detta projekt var deltagarna först tvungna att samla in geo
 - vitboken Bitcoin, översatt till franska.
 
 
-Här är [broschyren som delas mellan franska bitcoinare](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) som har placerats i dussintals boklådor runt om i landet. Dess design är också [tillgänglig som öppen källkod](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Här är [broschyren som delas mellan franska bitcoinare](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) som har placerats i dussintals boklådor runt om i landet. Dess design är också [tillgänglig som öppen källkod](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

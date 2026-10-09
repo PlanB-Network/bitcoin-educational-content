@@ -44,7 +44,7 @@ Muri iyo nsiguro, abatanga intererano bose kuri Plan ₿ Academy ni abigisha!
 ## Intambwe za mbere imbere yo gukosora ku mugambi ₿ Academy
 
 
-Imbere yo gutangura igikorwa gishasha co gukosora, kimenyeshe mu [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder) canke umenyeshe umuhuzabikorwa wawe w’Ishure ry’Itegeko ₿, azogufungurira [ikinyamakuru] kigenewe (https://github.com/orgs/Academy/3). Iyo ubonye urubuga rw'ikibazo, **vuze gusa ko uriko uratangura** igikorwa co gukosora ivyo birimwo.
+Imbere yo gutangura igikorwa gishasha co gukosora, kimenyeshe mu [mugwi wa Telegram](https://t.me/PlanBNetwork_ContentBuilder) canke umenyeshe umuhuzabikorwa wawe w’Ishure ry’Itegeko ₿, azogufungurira [ikinyamakuru] kigenewe (https://github.com/orgs/PlanB-Network/projects/3). Iyo ubonye urubuga rw'ikibazo, **vuze gusa ko uriko uratangura** igikorwa co gukosora ivyo birimwo.
 
 
 Uwo murongo ufasha umuhuzabikorwa kumenya ingene ibintu bigenda imbere muri iyo repo, kandi utuma ibirimwo "bivugwa" n'umukosozi, bikabuza utwigoro twisubirwamwo n'uwundi muntu.
@@ -107,7 +107,7 @@ Muri iki gihe ca kabiri, **wame ukora ubushakashatsi kugira ngo urabe nimba hari
 
 
 
-- Umuti umwe woshobora kuba **ugusuzuma kuri [BitcoinWiki](https://ru.bitcoin.it/wiki/Urupapuro_Nkuru)** mu rurimi rwawe kugira ngo urabe nimba iryo jambo ryahinduwe canke atari ryo. Niba atari vyo, ugumya ijambo mu congereza.
+- Umuti umwe woshobora kuba **ugusuzuma kuri [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** mu rurimi rwawe kugira ngo urabe nimba iryo jambo ryahinduwe canke atari ryo. Niba atari vyo, ugumya ijambo mu congereza.
 
 
 
@@ -277,7 +277,7 @@ Raba neza ko usuzuma dosiye y’ururimi rw’intango (kenshi EN canke FR) kugira
 ## Gukosora inyigisho
 
 
-Niwafata ingingo yo gukosora inyigisho, umuhuzabikorwa azogufungurira ikinyamakuru kigenewe **igice cose c’inyigisho**. Iyo urangije igikorwa cawe, urashobora kwandika ingene utera imbere mu gutanga ibitekerezo mu nomero ufise urutonde rw’inyigisho zasubiwemwo: muri ubwo buryo, urema uburyo butomoye bwo gukurikirana kugira ngo uzokoreshe mu gihe kizoza, ivyo bikaba ari ngirakamaro kubera ko hari ibintu bishasha vyongerwako buri kwezi. Ushobora kubona akarorero k’ubu buryo [hano](https://github.com/Umugambi-Umugambi/ibirimwo-ivy’inyigisho/ibibazo/3023#ikibazo-3364923190).
+Niwafata ingingo yo gukosora inyigisho, umuhuzabikorwa azogufungurira ikinyamakuru kigenewe **igice cose c’inyigisho**. Iyo urangije igikorwa cawe, urashobora kwandika ingene utera imbere mu gutanga ibitekerezo mu nomero ufise urutonde rw’inyigisho zasubiwemwo: muri ubwo buryo, urema uburyo butomoye bwo gukurikirana kugira ngo uzokoreshe mu gihe kizoza, ivyo bikaba ari ngirakamaro kubera ko hari ibintu bishasha vyongerwako buri kwezi. Ushobora kubona akarorero k’ubu buryo [hano](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
 
 
 ![REVIEW](assets/en/13.webp)

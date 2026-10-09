@@ -21,7 +21,7 @@ description: स्व-संरक्षित Bitcoin खरीद के ल�
 ## बिट्र के साथ शुरुआत करना
 
 
-- वेब या मोबाइल पर [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) पर जाएं और “Bitcoin खरीदें” पर क्लिक करें
+- वेब या मोबाइल पर [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) पर जाएं और “Bitcoin खरीदें” पर क्लिक करें
 
 
 

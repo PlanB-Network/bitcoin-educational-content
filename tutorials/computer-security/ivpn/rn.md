@@ -43,7 +43,7 @@ Birumvikana ko iyo nzira y’ubusuku izana n’igiciro, mugabo igiciro gikwiriye
 Udakunze abatanga VPN, IVPN ikora ku citegererezo co kugura umwanya wo gushika ku serivisi, aho ku kwiyandikisha gusubiramwo. Urishura mu bitcoins rimwe mu kiringo wahisemwo. Nk’akarorero, iyo uguze umwaka umwe wo gukoresha, urashobora gukoresha iyo serivisi muri ico kiringo, hanyuma uzokenera gusubira ku rubuga rwa IVPN kugira ngo ugure umwanya mwinshi wo gukoresha.
 
 
-[Ibiciro vya IVPN](https://www.ivpn.net/ru/ibiciro/) biratera imbere bivanye n’igihe umuntu ashobora gukoresha. Aha niho hari ibiciro vy'umugambi usanzwe:
+[Ibiciro vya IVPN](https://www.ivpn.net/en/pricing/) biratera imbere bivanye n’igihe umuntu ashobora gukoresha. Aha niho hari ibiciro vy'umugambi usanzwe:
 
 
 - Indwi 1: $20.
@@ -65,9 +65,9 @@ Kandi ku mugambi wa Pro:
 
 ## Ni gute umuntu yoshira IVPN kuri mudasobwa?
 
-Gukuraho [verisiyo nshasha ya porogarama](https://www.ivpn.net/ru/apps-windows/) ku rubuga rwawe, hanyuma ubandanye n’ugushiramwo ukurikije intambwe ziri mu mufasha wo gushiramwo. ![IVPN](itunga/inyandiko/02.urubuga)
+Gukuraho [verisiyo nshasha ya porogarama](https://www.ivpn.net/en/apps-windows/) ku rubuga rwawe, hanyuma ubandanye n’ugushiramwo ukurikije intambwe ziri mu mufasha wo gushiramwo. ![IVPN](itunga/inyandiko/02.urubuga)
 
-Ku bakoresha Linux, raba amabwirizwa yihariye ku bijanye n’ugukwirakwiza kwawe aboneka kuri [iyi paji](https://www.ivpn.net/ru/apps-linux/).
+Ku bakoresha Linux, raba amabwirizwa yihariye ku bijanye n’ugukwirakwiza kwawe aboneka kuri [iyi paji](https://www.ivpn.net/en/apps-linux/).
 
 ![IVPN](assets/notext/03.webp)
 
@@ -78,7 +78,7 @@ Iyo installation irangiye, uzokenera kwinjiza ID ya konti yawe. Turabona ingene 
 ## Ni gute woshira IVPN kuri telefone ngendanwa?
 
 
-Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](id1193122683) ku bakoresha iOS, [Google Play Iduka](id=net.ivpn.client) kuri Android, canke [F-Droid](its/f-droid.org/ru/amapaki/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/ru/apps-android/).
+Gukuraho IVPN mu iduka ryawe ry'amaporogarama, yaba ari [Iduka ry'amaporogarama](id1193122683) ku bakoresha iOS, [Google Play Iduka](id=net.ivpn.client) kuri Android, canke [F-Droid](its/f-droid.org/ru/amapaki/net.ivpn.client). Niba ukoresha Android, urafise kandi uburenganzira bwo gukura dosiye `.apk` uyikuye kuri [urubuga rwa IVPN](https://www.ivpn.net/en/apps-android/).
 
 ![IVPN](assets/notext/05.webp)
 
@@ -92,7 +92,7 @@ None, reka tugende ku gukoresha IVPN ku bikoresho vyawe.
 ## Ni gute wokwishura no gukoresha IVPN?
 
 
-Genda ku rubuga rwemewe rwa IVPN [ku rupapuro rwo kwishura](https://www.ivpn.net/ru/ibiciro/).
+Genda ku rubuga rwemewe rwa IVPN [ku rupapuro rwo kwishura](https://www.ivpn.net/en/pricing/).
 
 ![IVPN](assets/notext/07.webp)
 

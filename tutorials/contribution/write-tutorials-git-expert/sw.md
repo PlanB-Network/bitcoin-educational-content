@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - Ongeza hati za mafunzo
 
 
-***Kumbuka:*** Unaweza kuendesha hatua za 3 na 4 kiotomatiki kwa kutumia [Python GUI yangu script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Iendeshe moja kwa moja kutoka kwenye folda yake katika nakala yako ya ndani, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kusakinisha na kuitumia, angalia [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Kumbuka:*** Unaweza kuendesha hatua za 3 na 4 kiotomatiki kwa kutumia [Python GUI yangu script](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/data-creator). Iendeshe moja kwa moja kutoka kwenye folda yake katika nakala yako ya ndani, kisha ujaze sehemu zinazohitajika kwenye GUI. Kwa maelezo zaidi kuhusu jinsi ya kusakinisha na kuitumia, angalia [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 Ukitaka kuifanya kwa mikono, fuata hatua hizi:

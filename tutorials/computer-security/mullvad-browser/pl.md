@@ -547,7 +547,7 @@ Mimo pewnych ograniczeń (brak wersji mobilnej, nietrwałe sesje), Mullvad Brows
 
 - [Oficjalna strona przeglądarki Mullvad](https://mullvad.net/fr/browser)
 - [Strona pobierania przeglądarki Mullvad](https://mullvad.net/en/download/browser)
-- [Szczegółowe specyfikacje techniczne](https://mullvad.net/en/browser/Hard-facts)
+- [Szczegółowe specyfikacje techniczne](https://mullvad.net/en/browser/hard-facts)
 - [Rozszerzenie przeglądarki Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

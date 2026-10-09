@@ -217,7 +217,7 @@ HiddenServicePort 8333 127.0.0.1:8334
 
 
 - [解釋 Tor 及其與 Bitcoin 關係的 Wiki 頁面](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core 配置檔案產生器，由 Jameson Lopp 提供](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core 配置檔案產生器，由 Jameson Lopp 提供](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Jon Atack 的 Tor 設定指南](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

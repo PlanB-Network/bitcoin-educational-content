@@ -205,4 +205,4 @@ https://x.com/lopp/status/1463155802345193475
 https://bitcointalk.org/index.php?topic=5389446.0
 https://x.com/econoalchemist/status/1329271981712289797
 https://www.waivio.com/@themarkymark/create-your-own-metal-seed-key-backup
-https://github.com/minibolt-guide/minibolt/blob/main/bonus/bitcoin/safu-ninja.md
+https://github.com/minibolt-guide/minibolt/blob/2c4770443e7f01ed9c471d995ef5af254719b51e/bonus/bitcoin/safu-ninja.md

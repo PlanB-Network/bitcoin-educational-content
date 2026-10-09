@@ -69,7 +69,7 @@ LNbits को स्थापित करने से पहले यह स�
 
 
 - [LND गाइड](https://docs.lightning.engineering/) | LND इंस्टॉल करना
-- [LND कॉन्फ़िगरेशन उदाहरण](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND सेटिंग्स
+- [LND कॉन्फ़िगरेशन उदाहरण](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND सेटिंग्स
 - [CLN गाइड](https://docs.corelightning.org/docs/installation) | CLN इंस्टॉल करना
 - [LUDs](https://github.com/lnurl/luds) LNURL स्पेक | [NIPs](https://github.com/nostr-protocol/nips) Nostr स्पेक
 - [Watchtower चलाएं](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | बहुत महत्वपूर्ण!
@@ -81,7 +81,7 @@ LNbits को स्थापित करने से पहले यह स�
 
 - [LNbits के साथ शुरुआत करें](https://darthcoin.substack.com/p/getting-started-lnbits) | सबस्टैक गाइड
 - [LNbits के साथ आपकी सुरक्षा के लिए ToDos](https://youtu.be/i5FQf96e6zg) | Youtube वीडियो
-- [Lightning Network पर निजी बैंक](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | सबस्टैक गाइड
+- [Lightning Network पर निजी बैंक](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | सबस्टैक गाइड
 - [अपने दोस्तों और परिवार के लिए कस्टोडियन वॉलेट चलाएँ](https://darthcoin.substack.com/p/the-bank-of-lnbits) | सबस्टैक गाइड
 - [एक छोटे से रेस्तरां / होटल के लिए LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | सबस्टैक गाइड
 - [LNbits स्ट्रीमर कोपिलॉट का उपयोग करना](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | सबस्टैक गाइड

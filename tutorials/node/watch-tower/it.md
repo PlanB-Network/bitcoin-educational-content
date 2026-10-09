@@ -33,7 +33,7 @@ In questa esercitazione, vedremo 3 modi per utilizzare un **Watchtower** :
 
 
 
-*Questa esercitazione è tratta da [la documentazione ufficiale del LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Potrebbero essere state apportate alcune modifiche alla versione originale
+*Questa esercitazione è tratta da [la documentazione ufficiale del LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Potrebbero essere state apportate alcune modifiche alla versione originale
 
 
 

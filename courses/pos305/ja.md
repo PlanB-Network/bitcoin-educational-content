@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoinノードログ
 
 
-bitcoindコンテナの[ログを見る](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)だけでなく、[bitcoin-cliコマンド](https://developer.Bitcoin.org/reference/RPC/index.html)を使うこともできる。
+bitcoindコンテナの[ログを見る](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs)だけでなく、[bitcoin-cliコマンド](https://developer.bitcoin.org/reference/rpc/index.html)を使うこともできる。
 
 
-Bitcoinノードから情報を取得するには、[(新しいウィンドウが開きます)](https://developer.Bitcoin.org/reference/RPC/index.html)をクリックしてください。BTCPayには、Bitcoinノードと簡単に通信できるスクリプトが含まれています。
+Bitcoinノードから情報を取得するには、[(新しいウィンドウが開きます)](https://developer.bitcoin.org/reference/rpc/index.html)をクリックしてください。BTCPayには、Bitcoinノードと簡単に通信できるスクリプトが含まれています。
 
 
 btcpayserver-dockerフォルダの中で、あなたのノードを使ってBlockchain情報を取得します：

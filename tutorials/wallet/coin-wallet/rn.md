@@ -20,7 +20,7 @@ Inyungu nyamukuru:
 
 
 - Ubwubatsi butajanye n'ububiko
-- Mu buryo bushitse [kode y'inkomoko yuguruye](https://github.com/Ikibanza c'Igiceri/Ikibanza c'Igiceri/blob/umukuru/URUHUSHA)
+- Mu buryo bushitse [kode y'inkomoko yuguruye](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Igishushanyo coroshe kandi gisukuye
 - Yibanze ku ntumbero nyamukuru - kubika neza amafaranga y'ibanga, ata bintu bidakenewe
 - Gushigikira imbuga zitandukanye: telefone ngendanwa (iOS na Android), mudasobwa, urubuga
@@ -56,7 +56,7 @@ Coin Wallet iraboneka ku mbuga zose zikomeye.
 
 
 
-- [Ihuza ryose ry'isohoka](https://github.com/Ikibanza c'Igiceri/Ikibanza c'Igiceri/ibisohoka)
+- [Ihuza ryose ry'isohoka](https://github.com/CoinSpace/CoinSpace/releases)
 
 
 Ishobora kandi gukoreshwa kuri mudasobwa (Windows, Linux, macOS), nk’urubuga rwo ku rubuga no kuri Tor.
@@ -398,7 +398,7 @@ Coin Wallet ishira imbere ukworohereza n’umutekano - yama ifise, izokwama ifis
 ## 📖 Ibikoresho
 
 
-https://igiceri.ikibanza/
+https://coin.space/
 
 
 https://gushigikira.igiceri.ikibanza/hc/ru-du
@@ -410,7 +410,7 @@ https://gushigikira.igiceri.ikibanza/hc/ru-du
 https://amabuye y'agaciro.org/
 
 
-https://github.com/IkibanzaC'Ibiceri/IkibanzaC'Ibiceri/
+https://github.com/CoinSpace/CoinSpace/
 
 
 www.yubico.com/ikorana-na-yubikey/urutonde/igiceri-wallet/

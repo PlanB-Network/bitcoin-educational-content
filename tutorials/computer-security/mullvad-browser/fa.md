@@ -547,7 +547,7 @@ NoScript در پس‌زمینه اجرا می‌شود تا **سطوح امنی�
 
 - [وب‌سایت رسمی مرورگر Mullvad](https://mullvad.net/fr/browser)
 - [صفحه دانلود مرورگر Mullvad](https://mullvad.net/en/download/browser)
-- [مشخصات فنی دقیق](https://mullvad.net/en/browser/Hard-facts)
+- [مشخصات فنی دقیق](https://mullvad.net/en/browser/hard-facts)
 - [افزونه مرورگر Mullvad](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

@@ -580,7 +580,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-    - Guhindura amafaranga bivanye n’ukwihutirwa be n’uguhagarara kw’urubuga (raba [Mempool.ikibanza](https://Mempool.ikibanza/)).
+    - Guhindura amafaranga bivanye n’ukwihutirwa be n’uguhagarara kw’urubuga (raba [Mempool.ikibanza](https://mempool.space/)).
     - Koresha Liquid canke Lightning ku bikorwa vyihuta, bihenda bidasaba umutekano wo ku ruzitiro.
 - Kuvugurura porogaramu:
 
@@ -599,8 +599,8 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Amahuza yemewe**:
-    - [Urubuga rwemewe](https://ububiko.com/)
-    - [Ishigikira Porogaramu y'Uguhagarika](https://imfashanyo.guhagarika.com/hc/ru-us/ibice/900000056183-Uguhagarika-Green/): inyandiko n'ibiganiro
+    - [Urubuga rwemewe](https://blockstream.com/)
+    - [Ishigikira Porogaramu y'Uguhagarika](https://help.blockstream.com/hc/en-us/categories/900000056183-Blockstream-Green/): inyandiko n'ibiganiro
     - [GitHub](imbuga y'ububiko/ibara ry'icatsi kibisi)
 
 
@@ -630,7 +630,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-[Insobanuro y'amajambo](https://umugambib.urubuga/fr/ibikoresho/insobanuro y'amajambo/Liquid-urubuga)
+[Insobanuro y'amajambo](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -642,7 +642,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 
-[Insobanuro](https://planb.urubuga/fr/ibikoresho/insobanuro/urubuga-rw'umuravyo)
+[Insobanuro](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

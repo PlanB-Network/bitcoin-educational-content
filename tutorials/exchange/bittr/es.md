@@ -16,7 +16,7 @@ Veamos lo fácil que es empezar a apilar Sats con Bittr.
 
 ## Primeros pasos con Bittr
 
-- En la web o el móvil, ve a [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) y haz clic en "Comprar Bitcoin"
+- En la web o el móvil, ve a [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) y haz clic en "Comprar Bitcoin"
 
 - **Sin cuenta:** No tienes que crear una cuenta para comprar Bitcoin
 - **Sin proceso KYC:** No tiene que pasar por un KYC (hasta 999 CHF por 30 días)

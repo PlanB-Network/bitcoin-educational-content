@@ -28,7 +28,7 @@ Murakaze mu nyigisho ya CYP302!
 Iki gitabu kiratanga intangamarara yimbitse ku buhinga n’imigenzo y’ubuhinga bwo gukingira amakuru. Aho bishoboka ryibanda ku vyiyumviro, aho kwibanda ku gusobanura ibintu mu buryo bubereye.
 
 
-Ivyo birimwo inyigisho vyakuwe mu gitabu no mu gitabu c’ububiko [JWBurgers](https://github.com/JWBurgers/Intangamarara_y’Ivy’Ivy’Imibano). Naho umwanditsi yayo yemeye ku buntu ko ikoreshwa mu vy’inyigisho, uburenganzira bwose bw’ubwenge buraguma ku muremyi w’intango.
+Ivyo birimwo inyigisho vyakuwe mu gitabu no mu gitabu c’ububiko [JWBurgers](https://github.com/JWBurgers/An_Introduction_to_Cryptography). Naho umwanditsi yayo yemeye ku buntu ko ikoreshwa mu vy’inyigisho, uburenganzira bwose bw’ubwenge buraguma ku muremyi w’intango.
 
 
 **Iciyumviro n'intumbero**
@@ -83,7 +83,7 @@ Ku basomyi bipfuza kurondera ubumenyi buteye imbere ku bijanye n’ubuhinga bwo 
 **Impano**
 
 
-Turagusavye urabe [dosiye y'intererano iri mu bubiko](https://github.com/JWBurgers/Intango_y'Ivy'Igitabu/blob/master/Intererano.md) kugira ngo ubone amabwirizwa amwamwe yerekeye ingene woshigikira umugambi.
+Turagusavye urabe [dosiye y'intererano iri mu bubiko](https://github.com/JWBurgers/An_Introduction_to_Cryptography/blob/master/Contributions.md) kugira ngo ubone amabwirizwa amwamwe yerekeye ingene woshigikira umugambi.
 
 
 

@@ -36,7 +36,7 @@ description: Сохраните свой seed с помощью метода SAF
 
 
 
-- **Надежность**: Проверенный с 2020 года, метод был опробован и испытан экспертами по безопасности, такими как [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), которые подвергли его жестким стресс-тестам (экстремальное тепло, коррозия, механическое давление).
+- **Надежность**: Проверенный с 2020 года, метод был опробован и испытан экспертами по безопасности, такими как [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), которые подвергли его жестким стресс-тестам (экстремальное тепло, коррозия, механическое давление).
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [Отчет](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) о методе ниндзя САФУ
+- [Отчет](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) о методе ниндзя САФУ
 
 
 
 
 
-- Сравнительная таблица [полная](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Сравнительная таблица [полная](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

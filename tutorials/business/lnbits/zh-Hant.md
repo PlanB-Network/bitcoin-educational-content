@@ -69,7 +69,7 @@ LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https:
 
 
 - [LND 指南](https://docs.lightning.engineering/) | 安裝 LND
-- [LND 組態範例](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND 設定
+- [LND 組態範例](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND 設定
 - [CLN 指南](https://docs.corelightning.org/docs/installation) | 安裝 CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Run a Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | 非常重要！
@@ -81,7 +81,7 @@ LNbits 基於 LNURL 通訊協定運作，這表示請求有兩種形式：https:
 
 - [Getting Started with LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack guide
 - [ToDos for your safety with LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Lightning Network上的私人銀行](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | 分包指南
+- [Lightning Network上的私人銀行](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | 分包指南
 - [為您的親朋好友運行保管錢包](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
 - [LNbits for a small restaurant / hotel](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack guide
 - [Using LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack guide

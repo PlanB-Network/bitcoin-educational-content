@@ -41,7 +41,7 @@ Ubucuruzi bwa Proton bushingiye ku buryo bwo kwiyandikisha, ivyo bikaba bihumuri
 Proton Drive itanga vyinshi kuruta uburyo bwo kubika bworoshe; kandi iremesha gusangira, guhindura, no gukorana ku nyandiko kuri interineti hakoreshejwe ibikoresho vyo guhindura, bisa n’ivyo Google ikora.
 
 
-Ku bijanye n’[igiciro](https://proton.me/igiciro), verisiyo y’ubuntu itanga ububiko bushika kuri 5 GB kandi irimwo ibintu vy’ingenzi. Kugira ngo ubushobozi bwo kubika bugere kuri 200 GB, ushobora kwiyandikisha kuri Proton Drive ku mahera 4 € ku kwezi. Ku rundi ruhande, iyo package ya Proton Unlimited, itanga ku € 10 ku kwezi ububiko bushika kuri 500 GB kuri Proton Drive, ushizwmwo n’ibikorwa vyose vya Proton vyishyurwa, nka VPN n’umucungerezi w’ijambobanga, hamwe n’ibindi vyiza ku bikoresho vy’ubuntu (email na kalendari).
+Ku bijanye n’[igiciro](https://proton.me/pricing), verisiyo y’ubuntu itanga ububiko bushika kuri 5 GB kandi irimwo ibintu vy’ingenzi. Kugira ngo ubushobozi bwo kubika bugere kuri 200 GB, ushobora kwiyandikisha kuri Proton Drive ku mahera 4 € ku kwezi. Ku rundi ruhande, iyo package ya Proton Unlimited, itanga ku € 10 ku kwezi ububiko bushika kuri 500 GB kuri Proton Drive, ushizwmwo n’ibikorwa vyose vya Proton vyishyurwa, nka VPN n’umucungerezi w’ijambobanga, hamwe n’ibindi vyiza ku bikoresho vy’ubuntu (email na kalendari).
 
 ![PROTON DRIVE](assets/notext/03.webp)
 

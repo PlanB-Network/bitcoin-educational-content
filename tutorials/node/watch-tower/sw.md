@@ -33,7 +33,7 @@ Katika somo hili, tutaangalia njia 3 za kutumia **Watchtower** :
 
 
 
-*Mafunzo haya yamechukuliwa kutoka [hati rasmi ya LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Baadhi ya mabadiliko yanaweza kuwa yamefanywa kwa toleo asili
+*Mafunzo haya yamechukuliwa kutoka [hati rasmi ya LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Baadhi ya mabadiliko yanaweza kuwa yamefanywa kwa toleo asili
 
 
 

@@ -36,7 +36,7 @@ Phương pháp Ninja SAFU mang lại một số lợi thế:
 
 
 
-- **Độ tin cậy**: Đã được thử nghiệm từ năm 2020, phương pháp này đã được các chuyên gia về an toàn như [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) thử nghiệm và kiểm tra, những người đã tiến hành thử nghiệm ứng suất nghiêm ngặt (nhiệt độ cực cao, ăn mòn, áp suất cơ học).
+- **Độ tin cậy**: Đã được thử nghiệm từ năm 2020, phương pháp này đã được các chuyên gia về an toàn như [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) thử nghiệm và kiểm tra, những người đã tiến hành thử nghiệm ứng suất nghiêm ngặt (nhiệt độ cực cao, ăn mòn, áp suất cơ học).
 
 
 
@@ -354,13 +354,13 @@ Theo Jameson Lopp:
 
 
 
-- [Báo cáo](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) về phương pháp Ninja SAFU
+- [Báo cáo](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) về phương pháp Ninja SAFU
 
 
 
 
 
-- Bảng so sánh [đầy đủ](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Bảng so sánh [đầy đủ](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

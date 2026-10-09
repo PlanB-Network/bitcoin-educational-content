@@ -390,7 +390,7 @@ Ikiwa unakaribisha upeanaji wa Nostr kwenye Umbrel, haswa katika muktadha wa hal
 
 
 
-- **Ufuatiliaji na vikomo:** Angalia jinsi upeanaji mkondo wako unavyotumika. Ukiifungua kwa wengine, weka jicho kwenye mzigo (uhifadhi wa CPU/RAM) kwenye Mwavuli wako, kwani relay inaweza kukusanya data nyingi haraka. nostr-rs-relay inatoa **viwango na vikomo vya uhifadhi vinavyoweza kusanidiwa** (`vikomo` katika usanidi, k.m. idadi ya matukio kwa sekunde, ukubwa wa juu zaidi wa tukio, uondoaji wa matukio ya zamani...). Kwa matumizi ya kibinafsi, labda hautahitaji kugusa hizi, lakini fahamu kuwa vigezo hivi vipo ikiwa unavihitaji ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.:toml=text)#).
+- **Ufuatiliaji na vikomo:** Angalia jinsi upeanaji mkondo wako unavyotumika. Ukiifungua kwa wengine, weka jicho kwenye mzigo (uhifadhi wa CPU/RAM) kwenye Mwavuli wako, kwani relay inaweza kukusanya data nyingi haraka. nostr-rs-relay inatoa **viwango na vikomo vya uhifadhi vinavyoweza kusanidiwa** (`vikomo` katika usanidi, k.m. idadi ya matukio kwa sekunde, ukubwa wa juu zaidi wa tukio, uondoaji wa matukio ya zamani...). Kwa matumizi ya kibinafsi, labda hautahitaji kugusa hizi, lakini fahamu kuwa vigezo hivi vipo ikiwa unavihitaji ([nostr-rs-relay/config.toml at master - scsibug/nostr-rs-relay - GitHub](https://github.com/scsibug/nostr-rs-relay/blob/master/config.toml#:~:text=)#).
 
 
 

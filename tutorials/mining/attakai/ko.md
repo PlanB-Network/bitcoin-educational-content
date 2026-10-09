@@ -478,7 +478,7 @@ Miner 상태 탭에서는 ASIC의 실시간 작동에 대한 다양한 정보를
 이제 ASIC용 소프트웨어인 Braiins OS+(https://braiins.com/os/plus)에 대해 알아보겠습니다. 이 소프트웨어는 Mining pool Braiins 풀(https://braiins.com/pool)의 모기업인 [Braiins](https://braiins.com/)에서 개발했습니다. 이 Mining pool은 이 글을 쓰는 시점에 현재 전 세계 Hashrate의 4.39%를 보유하고 있습니다. 프라하에 본사를 둔 이 회사는 이전에는 슬러시풀로 알려졌으며 2010년 11월에 시작된 최초의 Mining pool입니다. [여기](https://Mempool.space/Mining/pool/braiinspool)에서 업데이트된 Hashrate 및 풀 지배력 통계를 확인할 수 있습니다.
 
 
-현재 이 회사는 다양한 활동을 통해 Mining용 수익성 연구 도구(https://insights.braiins.com/en), 풀 활동과 병행하는 Mining 농장 관리 솔루션, ASIC용 최적화 소프트웨어 등을 제공하고 있습니다. 또한 새로운 Stratum V2 프로토콜(https://braiins.com/Bitcoin-Mining-stack-upgrade)을 사용하는 Mining도 제공합니다.
+현재 이 회사는 다양한 활동을 통해 Mining용 수익성 연구 도구(https://insights.braiins.com/en), 풀 활동과 병행하는 Mining 농장 관리 솔루션, ASIC용 최적화 소프트웨어 등을 제공하고 있습니다. 또한 새로운 Stratum V2 프로토콜(https://braiins.com/bitcoin-mining-stack-upgrade)을 사용하는 Mining도 제공합니다.
 
 
 따라서 현재 유일하게 호환되는 모델인 비트메인 디바이스의 작동에 대해 더 자세히 알아볼 것입니다:

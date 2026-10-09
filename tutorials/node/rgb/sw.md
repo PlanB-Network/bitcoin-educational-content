@@ -104,7 +104,7 @@ RGB ina shimo lake la sungura ndani ya shimo la sungura la Bitcoin, wakati nikia
 
 
 
-- 1 https://plan99.net/~mike/Satoshi-emails/thread4.html
+- 1 https://plan99.net/~mike/satoshi-emails/thread4.html
 - 2 https://btctranscripts.com/chaincode-labs/chaincode-residency/2018-10-22-christian-decker-history-of-lightning/
 - 3 https://gnusha.org/pi/bitcoindev/20160620085649.GA29964@fedora-21-dvm/
 - 4 https://github.com/RGB-WG/RFC/blob/master/RGB-0020.md

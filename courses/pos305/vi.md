@@ -2378,10 +2378,10 @@ bitcoin-lightning-cli.sh getlog
 #### Nhật ký nút Bitcoin
 
 
-Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html)
+Ngoài việc [xem nhật ký](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) của vùng chứa bitcoind, bạn cũng có thể sử dụng bất kỳ [lệnh bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(mở cửa sổ mới)](https://developer.Bitcoin.org/reference/RPC/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
+[(mở cửa sổ mới)](https://developer.bitcoin.org/reference/rpc/index.html) để lấy thông tin từ nút Bitcoin của bạn. BTCPay bao gồm một tập lệnh cho phép bạn dễ dàng giao tiếp với nút Bitcoin của mình.
 
 
 Bên trong thư mục btcpayserver-docker, hãy lấy thông tin Blockchain bằng nút của bạn:

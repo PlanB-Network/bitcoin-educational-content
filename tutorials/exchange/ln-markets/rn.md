@@ -679,4 +679,4 @@ Tangana n’ibintu bitobito, ugerageze n’ibihumbi bikeyi vy’ama sats, hanyum
 
 
 - [Urubuga rwemewe rwa LN Markets]
-- [Inyandiko](https://inyandiko.amasoko.com)
+- [Inyandiko](https://docs.lnmarkets.com)

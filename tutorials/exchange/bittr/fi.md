@@ -21,7 +21,7 @@ Käydään läpi, kuinka helppoa on aloittaa Sats:n pinoaminen Bittrillä.
 ## Aloittaminen Bittrin kanssa
 
 
-- Mene verkossa tai mobiililaitteessa osoitteeseen [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klikkaa "Osta Bitcoin"
+- Mene verkossa tai mobiililaitteessa osoitteeseen [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) ja klikkaa "Osta Bitcoin"
 
 
 

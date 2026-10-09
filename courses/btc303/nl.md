@@ -320,7 +320,7 @@ Wat bedoelen ze met Trustless? Pieter Wuille legt deze veelgebruikte term uit op
 In het kort verwijst het woord *Trustless* naar een eigenschap van het Bitcoin protocol waardoor het logisch kan functioneren zonder "vertrouwde partijen". Dit is anders dan het vertrouwen dat je onvermijdelijk moet stellen in de software of hardware die je gebruikt. Meer over dit laatste aspect van vertrouwen wordt verderop in dit hoofdstuk besproken.
 
 
-In gecentraliseerde systemen vertrouwen we op de reputatie van een centrale speler om er zeker van te zijn dat deze de beveiliging op orde heeft of terugdraait in geval van problemen, en op het rechtssysteem om eventuele overtredingen te bestraffen. Deze vertrouwensvereisten zijn problematisch in pseudonieme gedecentraliseerde systemen - er is geen mogelijkheid tot verhaal dus er kan echt geen vertrouwen zijn. In de inleiding van [het Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf) beschrijft Satoshi Nakamoto dit probleem:
+In gecentraliseerde systemen vertrouwen we op de reputatie van een centrale speler om er zeker van te zijn dat deze de beveiliging op orde heeft of terugdraait in geval van problemen, en op het rechtssysteem om eventuele overtredingen te bestraffen. Deze vertrouwensvereisten zijn problematisch in pseudonieme gedecentraliseerde systemen - er is geen mogelijkheid tot verhaal dus er kan echt geen vertrouwen zijn. In de inleiding van [het Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) beschrijft Satoshi Nakamoto dit probleem:
 
 
 > De handel op het internet is vrijwel uitsluitend afhankelijk geworden van financiële instellingen die als vertrouwde derde partij fungeren voor het verwerken van elektronische betalingen.
@@ -333,7 +333,7 @@ Het lijkt erop dat we geen gedecentraliseerd systeem kunnen hebben dat gebaseerd
 Om Bitcoin op een Trustless manier te gebruiken, moet je een volledig validerende Bitcoin node draaien. Alleen dan kun je verifiëren dat de blokken die je van anderen ontvangt, de consensusregels volgen; bijvoorbeeld, dat het uitgifteschema voor munten wordt nageleefd en dat er geen dubbele uitgaven plaatsvinden op de Blockchain. Als je geen Full node beheert, besteed je de verificatie van Bitcoin blokken uit aan iemand anders en vertrouw je erop dat zij je de waarheid vertellen, wat betekent dat je Bitcoin niet zonder vertrouwen gebruikt.
 
 
-David Harding heeft [een artikel op de Bitcoin.org website](https://Bitcoin.org/en/Bitcoin-core/features/validation) geschreven waarin hij uitlegt hoe het draaien van een Full node - of het gebruik van Bitcoin zonder vertrouwen - je eigenlijk helpt:
+David Harding heeft [een artikel op de Bitcoin.org website](https://bitcoin.org/en/bitcoin-core/features/validation) geschreven waarin hij uitlegt hoe het draaien van een Full node - of het gebruik van Bitcoin zonder vertrouwen - je eigenlijk helpt:
 
 
 > De Bitcoin valuta werkt alleen als mensen bitcoins in Exchange accepteren voor andere waardevolle dingen. Dat betekent dat het de mensen zijn die bitcoins accepteren die het waarde geven en die mogen beslissen hoe Bitcoin moet werken.
@@ -522,7 +522,7 @@ Door gebruik te maken van adressen, of publieke sleutels, bereiken we belangrijk
 Blockchain privacy verwijst naar de informatie die u vrijgeeft door transacties op Blockchain. Het is van toepassing op alle transacties, zowel de transacties die u verzendt als de transacties die u ontvangt.
 
 
-Satoshi Nakamoto denkt na over On-Chain privacy in sectie 7 van zijn [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto denkt na over On-Chain privacy in sectie 7 van zijn [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Als extra firewall moet voor elke transactie een nieuw sleutelpaar worden gebruikt om te voorkomen dat ze aan een gemeenschappelijke eigenaar worden gekoppeld. Enige koppeling is nog steeds onvermijdelijk bij transacties met meerdere ingangen, die noodzakelijkerwijs onthullen dat hun ingangen eigendom waren van dezelfde eigenaar. Het risico is dat als de eigenaar van een sleutel wordt onthuld, het linken andere transacties onthult die van dezelfde eigenaar waren.
@@ -817,7 +817,7 @@ Omgekeerd verwijst [achterwaartse compatibiliteit](https://en.wikipedia.org/wiki
 Een verandering aan de Bitcoin consensusregels wordt een *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* genoemd als het volledig compatibel is. Dit is de meest gebruikelijke manier om Bitcoin op te waarderen, om een aantal redenen die we verder in dit hoofdstuk zullen bespreken. Als een verandering aan de Bitcoin consensusregels achterwaarts compatibel is, maar niet voorwaarts, dan wordt het een *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)* genoemd.
 
 
-Voor een technisch overzicht van Soft vorken en Hard vorken, lees [hoofdstuk 11 van Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Het legt deze termen uit en duikt ook in de upgrade mechanismen. Het is aan te raden, hoewel niet strikt noodzakelijk, om dit te begrijpen voordat je verder leest.
+Voor een technisch overzicht van Soft vorken en Hard vorken, lees [hoofdstuk 11 van Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Het legt deze termen uit en duikt ook in de upgrade mechanismen. Het is aan te raden, hoewel niet strikt noodzakelijk, om dit te begrijpen voordat je verder leest.
 
 
 ### Historische upgrades
@@ -1260,7 +1260,7 @@ Veel ontwikkelaars kiezen voor deze optie door onder een pseudoniem te werken en
 artikelen en mijn werk aan Bitcoin en de Lightning Network.
 
 
-In zijn geval moet de reden voor het gebruik van een pseudoniem worden beoordeeld op zijn verdiensten en niet op wie de persoon of personen achter het pseudoniem is of zijn. Interessant genoeg onthulde hij in een [artikel op CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) dat het pseudoniem om een andere reden werd gecreëerd.
+In zijn geval moet de reden voor het gebruik van een pseudoniem worden beoordeeld op zijn verdiensten en niet op wie de persoon of personen achter het pseudoniem is of zijn. Interessant genoeg onthulde hij in een [artikel op CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) dat het pseudoniem om een andere reden werd gecreëerd.
 
 
 > Mijn oorspronkelijke reden [voor het gebruik van een pseudoniem] was simpelweg dat ik me zorgen maakte [over] het maken van een grote fout; ZmnSCPxj was dus oorspronkelijk bedoeld als een wegwerppseudoniem dat in zo'n geval kon worden opgegeven. Het lijkt echter een overwegend positieve reputatie te hebben opgebouwd, dus heb ik het behouden
@@ -1335,7 +1335,7 @@ Op weg naar de uiteindelijke goedkeuring doorloopt een idee meestal verschillend
 In elk van deze fasen beoordelen mensen met verschillende standpunten en achtergronden de beschikbare informatie, of dat nu de broncode, een BIP of gewoon een losjes beschreven idee is. De fasen worden meestal niet op een strikte top-down manier uitgevoerd, er kunnen inderdaad meerdere fasen tegelijkertijd plaatsvinden en soms ga je ertussen heen en weer. Verschillende mensen kunnen ook feedback geven tijdens verschillende fasen.
 
 
-Een van de meest productieve code reviewers op Bitcoin Core is Jon Atack. Hij schreef [een blogpost](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) over hoe pull requests te reviewen in Bitcoin Core. Hij benadrukt dat een goede code reviewer zich richt op hoe hij het beste waarde kan toevoegen.
+Een van de meest productieve code reviewers op Bitcoin Core is Jon Atack. Hij schreef [een blogpost](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) over hoe pull requests te reviewen in Bitcoin Core. Hij benadrukt dat een goede code reviewer zich richt op hoe hij het beste waarde kan toevoegen.
 
 
 > Als nieuwkomer is het doel om te proberen waarde toe te voegen, met vriendelijkheid en nederigheid, terwijl je zoveel mogelijk leert.
@@ -1468,7 +1468,7 @@ Schalen is al sinds de Genesis van Bitcoin een belangrijk punt van discussie. De
 > Satoshi Nakamoto schreef:
 >
 
-> "Ik heb gewerkt aan een nieuw elektronisch geldsysteem dat volledig peer-to-peer is, zonder vertrouwde derde partij.  Het artikel is beschikbaar op http://www.Bitcoin.org/Bitcoin.pdf"
+> "Ik heb gewerkt aan een nieuw elektronisch geldsysteem dat volledig peer-to-peer is, zonder vertrouwde derde partij.  Het artikel is beschikbaar op http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > We hebben zo'n systeem heel erg nodig, maar zoals ik uw voorstel begrijp, lijkt het niet op de vereiste schaalgrootte te passen.
@@ -1551,7 +1551,7 @@ Het tweede opsommingsteken heeft een negatief effect op Miner decentralisatie, o
 Horizontaal schalen verwijst naar technieken die de werklast verdelen over meerdere machines. Hoewel dit een veelgebruikte schaalbenadering is bij populaire websites en databases, is het niet eenvoudig om dit te doen in Bitcoin.
 
 
-Veel mensen noemen deze Bitcoin schaalbenadering *sharding*. Het komt erop neer dat elke Full node slechts een deel van de Blockchain verifieert. Peter Todd heeft veel nagedacht over het concept van sharding. Hij schreef een [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) waarin hij sharding in algemene termen uitlegt en ook zijn eigen idee genaamd *treechains* presenteert. Het artikel is moeilijk te lezen, maar Todd maakt een aantal punten die goed verteerbaar zijn:
+Veel mensen noemen deze Bitcoin schaalbenadering *sharding*. Het komt erop neer dat elke Full node slechts een deel van de Blockchain verifieert. Peter Todd heeft veel nagedacht over het concept van sharding. Hij schreef een [blog post](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) waarin hij sharding in algemene termen uitlegt en ook zijn eigen idee genaamd *treechains* presenteert. Het artikel is moeilijk te lezen, maar Todd maakt een aantal punten die goed verteerbaar zijn:
 
 
 > In sharded systemen werkt de "Full node verdediging" niet, tenminste niet direct. Het hele punt is dat niet iedereen alle gegevens heeft, dus je moet beslissen wat er gebeurt als ze niet beschikbaar zijn.
@@ -2101,7 +2101,7 @@ Een belangrijke afgeleide hiervan is dat BIP's min of meer *atomisch* moeten zij
 
 
 
-Helaas eindigde het verhaal van BIP66 daar niet. Toen BIP66 werd geactiveerd, werd het een rommeltje omdat sommige miners de blokken die ze probeerden uit te breiden niet verifieerden. Dit wordt validatieloze Mining genoemd, of SPV-Mining (als in Simplified Payment Verification). Er werd een waarschuwingsbericht verstuurd naar Bitcoin knooppunten met een link naar [een webpagina die het probleem beschrijft](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Helaas eindigde het verhaal van BIP66 daar niet. Toen BIP66 werd geactiveerd, werd het een rommeltje omdat sommige miners de blokken die ze probeerden uit te breiden niet verifieerden. Dit wordt validatieloze Mining genoemd, of SPV-Mining (als in Simplified Payment Verification). Er werd een waarschuwingsbericht verstuurd naar Bitcoin knooppunten met een link naar [een webpagina die het probleem beschrijft](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > In de vroege ochtend van 4 juli 2015 werd de 950/1000 (95%) drempel bereikt. Kort daarna minde een kleine Miner (deel van de niet-geüpgraded 5%) een ongeldig blok, zoals te verwachten was. Helaas bleek dat ongeveer de helft van het netwerk Hash was zonder volledig gevalideerde blokken (SPV Mining genoemd), en nieuwe blokken bovenop dat ongeldige blok bouwde.

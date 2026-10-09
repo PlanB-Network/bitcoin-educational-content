@@ -11,7 +11,7 @@ Tämä opas on omistettu kaikille niille uusille käyttäjille, jotka haluavat a
 Käyttämällä [Blixt Wallet](https://blixtwallet.com/), täysi LN-solmu matkapuhelimessasi, missä ikinä oletkin.
 
 
-Jos et ole koskaan käyttänyt Bitcoin Lightning Network:ää, ennen kuin aloitat, [lue tämä yksinkertainen selitysanalogia Lightning Network:stä (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Jos et ole koskaan käyttänyt Bitcoin Lightning Network:ää, ennen kuin aloitat, [lue tämä yksinkertainen selitysanalogia Lightning Network:stä (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## TÄRKEITÄ NÄKÖKOHTIA:
@@ -22,11 +22,11 @@ Jos et ole koskaan käyttänyt Bitcoin Lightning Network:ää, ennen kuin aloita
 
 
 
-- Blixt käyttää LND:tä (aezeed) Wallet:n taustajärjestelmänä, joten älä yritä tuoda siihen muunlaisia Bitcoin-lompakoita. [Tässä olet selittänyt Wallet Mnemonic siementen tyypit](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ja tässä on [laajempi luettelo kaikentyyppisistä lompakoista](https://walletsrecovery.org/). Joten jos sinulla oli aiemmin LND-solmu, voit tuoda seed- ja varmuuskopio.kanavat Blixtiin, [kuten tässä oppaassa on selitetty](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt käyttää LND:tä (aezeed) Wallet:n taustajärjestelmänä, joten älä yritä tuoda siihen muunlaisia Bitcoin-lompakoita. [Tässä olet selittänyt Wallet Mnemonic siementen tyypit](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ja tässä on [laajempi luettelo kaikentyyppisistä lompakoista](https://walletsrecovery.org/). Joten jos sinulla oli aiemmin LND-solmu, voit tuoda seed- ja varmuuskopio.kanavat Blixtiin, [kuten tässä oppaassa on selitetty](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Tämän oppaan lopussa on erityinen osio, jossa on ["vinkkejä ja temppuja"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Tämän oppaan lopussa on erityinen osio, jossa on ["vinkkejä ja temppuja"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Oikeassa yläkulmassa näet 3 pistettä, jotka aktivoivat valikon:
 
 - "enable Tor" - käyttäjä voi aloittaa Tor-verkon, erityisesti jos haluaa palauttaa vanhan LND-solmun, joka toimi vain Tor-vertaisten kanssa.
 - "Aseta Bitcoin-solmu" - jos käyttäjä haluaa muodostaa yhteyden suoraan omaan solmuunsa ja synkronoida lohkot Neutrinon kautta, hän voi tehdä sen heti tervetuliaisnäytöltä. Tämä vaihtoehto on hyvä myös siinä tapauksessa, että Internet-yhteytesi tai Tor-yhteytesi ei ole niin vakaa, että se voisi muodostaa yhteyden oletusarvoiselle Bitcoin-solmulle (node.blixtwallet.com).
-- Pian sinne lisätään kieli, joten käyttäjä voi aloittaa suoraan kielellä, joka on hänelle mukava. Jos haluat osallistua tähän avoimen lähdekoodin projektiin käännöksillä muille kielille, [liity tähän](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Pian sinne lisätään kieli, joten käyttäjä voi aloittaa suoraan kielellä, joka on hänelle mukava. Jos haluat osallistua tähän avoimen lähdekoodin projektiin käännöksillä muille kielille, [liity tähän](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### Vaihtoehto A - Luo uusi Wallet
@@ -241,7 +241,7 @@ ONNELLISTA Bitcoin SALAMOINTIA!
 Muista, että luvussa yksi "Ensimmäinen kontakti" oli 2 vaihtoehtoa tervetuloruudussa:
 
 
-- [Vaihtoehto A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Luo uusi Wallet
+- [Vaihtoehto A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Luo uusi Wallet
 - Vaihtoehto B - Wallet:n palauttaminen
 
 
@@ -251,7 +251,7 @@ Keskustellaan nyt siitä, miten palauttaa Blixt Wallet:n tai minkä tahansa muun
 ### Vaihtoehto B - Wallet:n palauttaminen
 
 
-Aiemmin kirjoitin erillisen oppaan [miten palauttaa kaatunut Umbrel-solmu](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), jossa mainitsin myös menetelmän, jossa käytetään Blixtiä nopeana palautusprosessina, käyttäen seed + channel.backup-tiedostoa Umbrelista.
+Aiemmin kirjoitin erillisen oppaan [miten palauttaa kaatunut Umbrel-solmu](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), jossa mainitsin myös menetelmän, jossa käytetään Blixtiä nopeana palautusprosessina, käyttäen seed + channel.backup-tiedostoa Umbrelista.
 
 
 Kirjoitin myös oppaan siitä, miten palauttaa Blixt-solmusi tai siirtää Blixt toiselle laitteelle, [täällä](https://blixtwallet.github.io/faq#blixt-restore).

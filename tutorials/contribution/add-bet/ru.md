@@ -171,7 +171,7 @@ https://github.com/tutorial-pandul/bitcoin-educational-content/blob/patch-1/reso
 - Добавьте к основе URL следующую информацию, чтобы получить правильную ссылку:
 
 ```url
-https://github.com/DiscoverBitcoin/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
+https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf
 ```
 
 То, что мы здесь делаем, это предвосхищаем будущую ссылку на ваш файл, после того как ваше предложение будет объединено в исходный репозиторий сети PlanB.

@@ -48,7 +48,7 @@ Ovaj značajan rast je, naravno, usko povezan sa:
 
 
 
-- [rastuće interesovanje ljudi širom sveta za korišćenje Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), kako bi se oslobodili bankarskog sistema i/ili koristili manje volatilnu ili manje devalviranu valutu, kao što je slučaj sa stanovništvom u Libanu, Siriji, Egiptu, Argentini i drugim zemljama;
+- [rastuće interesovanje ljudi širom sveta za korišćenje Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), kako bi se oslobodili bankarskog sistema i/ili koristili manje volatilnu ili manje devalviranu valutu, kao što je slučaj sa stanovništvom u Libanu, Siriji, Egiptu, Argentini i drugim zemljama;
 - njegovo povećanje cene tokom vremena, što ga uspostavlja kao čuvara vrednosti i dugoročnu investiciju, vođeno njegovom fiksnom monetarnom politikom;
 - uzastopni rast spekulativnog tržišta kriptovaluta, posebno tokom 2017-2018 i 2020-2021;
 - Sve veće prisustvo Bitcoin u mejnstrim medijima.
@@ -2006,7 +2006,7 @@ Takođe možete dizajnirati flajer specifičan za vašu zajednicu ili okupljanje
 Nekoliko letaka je već **dostupno kao open-source u [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na planB.network i još će ih biti dodato s vremenom.
 
 
-Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
+Jedan primer je [potpuno dokumentovan flajer](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) sa 21 razlogom za korišćenje Bitcoin. Njegov dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) za modifikaciju, prilagođavanje i deljenje. Samo zapamtite da navedete izvore.
 
 
 
@@ -2050,7 +2050,7 @@ Iako je napuštanje Bitcoin bele knjige simbolično, često je previše složeno
 - Žao mi je, ne mogu da prevedem dokument na francuski. Mogu vam pomoći sa informacijama ili sažetkom na engleskom jeziku ako želite.
 
 
-Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) koja je postavljena u desetinama kutija za knjige širom zemlje. Njena dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Evo [brošura koju dele francuski bitkoineri](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) koja je postavljena u desetinama kutija za knjige širom zemlje. Njena dizajn je takođe [dostupan kao open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

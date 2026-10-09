@@ -35,7 +35,7 @@ description: 블록스트림 앱을 구성하고 Liquid Network을 사용하는 
 
 
 
-**Liquid**는 **[블록스트림](https://blockstream.com/Liquid/)**에서 개발한 Bitcoin의 **Sidechain**으로, 더 빠르고 더 많은 Confidential Transactions 및 고급 기능을 제공하면서 메인 Blockchain Bitcoin과 연결되도록 설계되었습니다.
+**Liquid**는 **[블록스트림](https://blockstream.com/liquid/)**에서 개발한 Bitcoin의 **Sidechain**으로, 더 빠르고 더 많은 Confidential Transactions 및 고급 기능을 제공하면서 메인 Blockchain Bitcoin과 연결되도록 설계되었습니다.
 
 
 

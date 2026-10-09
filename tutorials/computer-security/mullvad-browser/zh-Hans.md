@@ -547,7 +547,7 @@ Mullvad 浏览器虽然有一定的局限性（没有移动版本、非持续会
 
 - [Mullvad浏览器官方网站](https://mullvad.net/fr/browser)
 - [Mullvad浏览器下载页面](https://mullvad.net/en/download/browser)
-- [详细技术规格](https://mullvad.net/en/browser/Hard-facts)
+- [详细技术规格](https://mullvad.net/en/browser/hard-facts)
 - [Mullvad浏览器扩展](https://mullvad.net/en/help/mullvad-browser-extension)
 
 

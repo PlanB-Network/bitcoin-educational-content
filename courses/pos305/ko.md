@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin 노드 로그
 
 
-bitcoind 컨테이너의 [로그 보기](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) 외에도 [bitcoin-cli 명령어](https://developer.Bitcoin.org/reference/RPC/index.html) 중 하나를 사용할 수도 있습니다
+bitcoind 컨테이너의 [로그 보기](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) 외에도 [bitcoin-cli 명령어](https://developer.bitcoin.org/reference/rpc/index.html) 중 하나를 사용할 수도 있습니다
 
 
-(새 창에서 열기)](https://developer.Bitcoin.org/reference/RPC/index.html)를 클릭해 Bitcoin 노드에서 정보를 얻으세요. BTCPay에는 Bitcoin 노드와 쉽게 통신할 수 있는 스크립트가 포함되어 있습니다.
+(새 창에서 열기)](https://developer.bitcoin.org/reference/rpc/index.html)를 클릭해 Bitcoin 노드에서 정보를 얻으세요. BTCPay에는 Bitcoin 노드와 쉽게 통신할 수 있는 스크립트가 포함되어 있습니다.
 
 
 Btcpayserver-docker 폴더에서 노드를 사용하여 Blockchain 정보를 가져옵니다:

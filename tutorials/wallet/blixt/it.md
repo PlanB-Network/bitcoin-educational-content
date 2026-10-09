@@ -11,7 +11,7 @@ Questa guida è dedicata a tutti i nuovi utenti che desiderano iniziare a utiliz
 Utilizzando [Blixt Wallet](https://blixtwallet.com/), un nodo LN completo sul vostro cellulare, ovunque voi siate.
 
 
-Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete questa semplice spiegazione analogica sul Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete questa semplice spiegazione analogica sul Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## ASPETTI IMPORTANTI:
@@ -22,11 +22,11 @@ Se non avete mai usato il Bitcoin Lightning Network, prima di iniziare [leggete 
 
 
 
-- Blixt utilizza LND (aezeed) come backend Wallet, quindi non cercare di importare altri tipi di portafogli Bitcoin in esso. [Qui sono spiegati i tipi di semi Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ed ecco [un elenco più esteso di tutti i tipi di portafogli](https://walletsrecovery.org/). Quindi, se in precedenza avevate un nodo LND, potete importare il seed e i canali di backup in Blixt, [come spiegato in questa guida](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt utilizza LND (aezeed) come backend Wallet, quindi non cercare di importare altri tipi di portafogli Bitcoin in esso. [Qui sono spiegati i tipi di semi Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ed ecco [un elenco più esteso di tutti i tipi di portafogli](https://walletsrecovery.org/). Quindi, se in precedenza avevate un nodo LND, potete importare il seed e i canali di backup in Blixt, [come spiegato in questa guida](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Alla fine di questa guida troverete una sezione speciale con ["consigli e trucchi"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Alla fine di questa guida troverete una sezione speciale con ["consigli e trucchi"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Nell'angolo in alto a destra sono presenti 3 puntini che attivano un menu con:
 
 - "enable Tor" - l'utente può iniziare con la rete Tor, in particolare se vuole ripristinare un vecchio nodo LND che funzionava solo con peer Tor.
 - "Imposta nodo Bitcoin": se l'utente desidera connettersi direttamente al proprio nodo, per sincronizzare i blocchi attraverso Neutrino, può farlo direttamente dalla schermata di benvenuto. Questa opzione è utile anche nel caso in cui la connessione a Internet o a Tor non sia stabile per connettersi al nodo Bitcoin predefinito (node.blixtwallet.com).
-- Presto verrà aggiunta la lingua, in modo che l'utente possa iniziare subito con la lingua che gli è più congeniale. Se volete contribuire a questo progetto open source con traduzioni in altre lingue, [unitevi qui](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Presto verrà aggiunta la lingua, in modo che l'utente possa iniziare subito con la lingua che gli è più congeniale. Se volete contribuire a questo progetto open source con traduzioni in altre lingue, [unitevi qui](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### OPZIONE A - Creare un nuovo Wallet
@@ -241,7 +241,7 @@ FELICE FULMINE Bitcoin!
 Ricordate che nel primo capitolo "Primo contatto" c'erano due opzioni nella schermata di benvenuto:
 
 
-- [Opzione A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Creare un nuovo Wallet
+- [Opzione A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Creare un nuovo Wallet
 - Opzione B - Ripristino del Wallet
 
 
@@ -251,7 +251,7 @@ Ora parliamo di come ripristinare un nodo Blixt Wallet o qualsiasi altro nodo LN
 ### OPZIONE B - Ripristino del Wallet
 
 
-In passato ho scritto una guida dedicata a [come ripristinare un nodo Umbrel in crash](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), in cui ho menzionato anche il metodo di utilizzo di Blixt come processo di ripristino rapido, utilizzando il file seed + channel.backup di Umbrel.
+In passato ho scritto una guida dedicata a [come ripristinare un nodo Umbrel in crash](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), in cui ho menzionato anche il metodo di utilizzo di Blixt come processo di ripristino rapido, utilizzando il file seed + channel.backup di Umbrel.
 
 
 Ho anche scritto una guida su come ripristinare il vostro nodo Blixt o migrare il vostro Blixt su un altro dispositivo, [qui](https://blixtwallet.github.io/faq#blixt-restore).

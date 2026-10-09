@@ -152,7 +152,7 @@ Koska Bitcoin on järjestelmä, sitä on välttämättä käytettävä tietokone
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Solmun ensimmäinen tehtävä on ylläpitää paikallista kopiota Blockchain:st�
 
 > Ainoa tapa varmistaa, ettei tapahtumaa ole tapahtunut, on olla tietoinen kaikista tapahtumista.
 
-Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer sähköinen käteisrahajärjestelmä*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer sähköinen käteisrahajärjestelmä*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Teoriassa Bitcoin core ei edusta Bitcoin-protokollaa, vaan se on vain yksi toteu
 
 
 
-[Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (tunnettu kehittäjä ekosysteemissä) elokuussa 2025 keräämien tietojen mukaan toteutusten jakautuminen verkon julkisten solmujen kesken on seuraava:
+[Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (tunnettu kehittäjä ekosysteemissä) elokuussa 2025 keräämien tietojen mukaan toteutusten jakautuminen verkon julkisten solmujen kesken on seuraava:
 
 
 
@@ -766,7 +766,7 @@ Lyhyesti sanottuna Wallet-seuranta toimii ongelmitta pruned-solmussa, jos luot u
 
 
 
-Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3884,7 +3884,7 @@ Bitcoin.conf-tiedoston avulla voit myös määrittää solmun käyttöparametrit
 
 
 
-Olemme nyt saaneet lueteltua suurimman osan konfigurointiparametreista. Tämä Bitcoin.conf-tiedosto on siis solmusi todellinen kojelauta: siinä määritellään verkon konfigurointi, Mempool:n hallinta, levyn ja muistin käyttö, indeksointi ja yleinen hallinta. Jos haluat oppia lisää tästä tiedostosta ja luoda sen tarpeisiisi sopivaksi, suosittelen käyttämään [Jameson Loppin generaattoria](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Olemme nyt saaneet lueteltua suurimman osan konfigurointiparametreista. Tämä Bitcoin.conf-tiedosto on siis solmusi todellinen kojelauta: siinä määritellään verkon konfigurointi, Mempool:n hallinta, levyn ja muistin käyttö, indeksointi ja yleinen hallinta. Jos haluat oppia lisää tästä tiedostosta ja luoda sen tarpeisiisi sopivaksi, suosittelen käyttämään [Jameson Loppin generaattoria](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

@@ -256,7 +256,7 @@ Ubwa mbere, urashobora gushinga uruja n’uruza rw’umucukumbuzi nimba ubishaka
 Gukoresha iyo extension ku musi ku musi biraryoshe cane, ariko kandi birashobora gufungura uburyo bushasha bwo gutera. Ku bw’ivyo, abahinga bamwebamwe mu vy’umutekano wo kuri Internet baratanga impanuro yo kudakoresha amajambo y’ibanga y’abacungera amajambo y’ibanga. Ariko rero, niwahitamwo gukoresha ukwaguka kwa Bitwarden, ng'uko uko wobikora:
 
 
-Tangana n’ukuja kuri [paji yemewe yo gukuraho Bitwarden](https://bitwarden.com/gukuraho/#ugukuraho-urubuga-rw’urubuga).
+Tangana n’ukuja kuri [paji yemewe yo gukuraho Bitwarden](https://bitwarden.com/download/#downloads-web-browser).
 
 
 ![BITWARDEN](assets/notext/44.webp)
@@ -332,7 +332,7 @@ Hanyuma, iyo extension ica ihita yuzuza amakuru yacu mu bibanza bikwiye biri ku 
 ## Ni gute wokoresha porogarama ya Bitwarden?
 
 
-Kugira ngo ushiremwo porogarama ya Bitwarden, tangura uja kuri [urupapuro rwo gukuraho](https://bitwarden.com/gukuraho/#ugukuraho-ku biro). Hitamwo maze ushireko verisiyo ihuye n’ivyo ukoresha.
+Kugira ngo ushiremwo porogarama ya Bitwarden, tangura uja kuri [urupapuro rwo gukuraho](https://bitwarden.com/download/#downloads-desktop). Hitamwo maze ushireko verisiyo ihuye n’ivyo ukoresha.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -347,7 +347,7 @@ Hanyuma, uzoshika kuri homepage y’umuyobozi wawe. Interface ni hafi nk’iyo i
 ## Ni gute wokoresha porogarama ya Bitwarden?
 
 
-Kugira ngo ubone amajambo y’ibanga yawe ukoresheje telefone yawe, urashobora gushiramwo porogarama ya Bitwarden. Tangana n’ukuja kuri [paji yo gukuraho](https://bitwarden.com/gukuraho/#ugukuraho-telefone ngendanwa) hanyuma ukoreshe telefone yawe ngendanwa kugira ngo ukoreshe kode ya QR ihuye n’ivyo ukoresha.
+Kugira ngo ubone amajambo y’ibanga yawe ukoresheje telefone yawe, urashobora gushiramwo porogarama ya Bitwarden. Tangana n’ukuja kuri [paji yo gukuraho](https://bitwarden.com/download/#downloads-mobile) hanyuma ukoreshe telefone yawe ngendanwa kugira ngo ukoreshe kode ya QR ihuye n’ivyo ukoresha.
 
 ![BITWARDEN](assets/notext/61.webp)
 

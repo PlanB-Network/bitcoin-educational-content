@@ -322,7 +322,7 @@ SCB on tarpeen vain, jos LN-kanavat ovat auki. Jos sinulla on vain onchain varoj
 Jos huomaat, että pitkän ajan jälkeen ei vieläkään näy vanhaa historiaa txs, mene Embedded node - Peers ja poistaa vaihtoehto käyttää luetteloa valittujen vertaisryhmien (oletuksena on btcd.lnolymp.us). Tämä käynnistää uudelleen ja muodostaa yhteyden ensimmäiseen käytettävissä olevaan neutriinosolmuun, jolla on parempi aikavaste. Tai käytä alla mainittuja muita tunnettuja neutriinon vertaisvertaisverkkoja.
 
 
-Jos haluat nähdä lisää palautusvaihtoehtoja LND-solmulle, [lue edellinen oppaani](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), jossa kerrotaan, miten tuodaan tyhjennetty seed Sparrow Wallet:een tai muilla menetelmillä.
+Jos haluat nähdä lisää palautusvaihtoehtoja LND-solmulle, [lue edellinen oppaani](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), jossa kerrotaan, miten tuodaan tyhjennetty seed Sparrow Wallet:een tai muilla menetelmillä.
 
 
 **C - Sulautettu solmu**

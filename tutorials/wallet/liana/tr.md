@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Kurulum ve yapılandırma
 
 
-Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/Liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
+Resmi Wizardsardine web sitesini ziyaret edin ve Liana'ü https://wizardsardine.com/liana/ adresinden indirin. Ayrıca yazılımın orijinalliğini kontrol edebileceğiniz en son sürümü [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirebilirsiniz. Bu eğitimde kullanılan sürüm 0.9'dur.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ Onaylandıktan sonra Coin'iniz güvende! Bir sonraki son kullanma tarihine kadar
 Liana Wallet'ten fonları kurtarırken iki durumdan biriyle karşı karşıya kalabilirsiniz. Yazılımın yüklü olduğu bilgisayara erişiminiz olabilir, bu durumda tek yapmanız gereken onu açmaktır (gelişmiş yedekleme modelinde bu gerçekleşecektir). Ancak, bu bilgisayara erişiminiz olmayabilir, bu nedenle burada sıfırdan başlayacağız. Kurtarma prosedürünün her iki durumda da aynı olduğunu unutmayın.
 
 
-Başlamak için Liana'yı [resmi Wizardsardine web sitesinden](https://wizardsardine.com/Liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
+Başlamak için Liana'yı [resmi Wizardsardine web sitesinden](https://wizardsardine.com/liana/) veya yazılımın orijinalliğini kontrol edebileceğiniz [GitHub deposundan](https://github.com/wizardsardine/Liana/releases) indirin. Yazılımı kurun ve çalıştırın. Bizim durumumuzda kullanılan sürüm 0.9'dur, bu nedenle görseller değişmiş olabilir. Karşılama ekranında "Mevcut bir Liana Wallet ekle" seçeneğini seçin.
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

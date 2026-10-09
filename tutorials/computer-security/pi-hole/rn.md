@@ -126,7 +126,7 @@ Ihitamwo rya DNS - Pi-Umwobo
 
 > **Iciyumviro: nimba uri muri sosiyete, amahirwe ni uko server yawe ya DNS ubu ari umugenzuzi w'itongo rya Active Directory. Ariko ntuhagarike umutima, ushobora mu nyuma gutanga umurongo w'ivyangombwa ku rwego rw'itongo uhisemwo. Mu bisanzwe, uzoshobora guhindura igisabwa cose kijanye n'indangarubuga yawe kuri server yawe ya DNS.**
 
-Uzobona ko amahitamwo amwe amwe arimwo amahitamwo ya DNSSEC. Mu bisanzwe, umurongo wa DNS nta mutekano ufise (ntiwakozwe n’ivyo mu muzirikanyi ico gihe). DNSSEC itorera umuti ico kibazo mu kwongerako Layer y’umutekano biciye mu gupfuka no gusinya ku bimenyetso, nk’uko vyasiguwe mu kiganiro gihuye: [Umutekano wa DNS](https://www.it-connect.fr/security-dns-doh-quest-ce-le-dns-over-https/)
+Uzobona ko amahitamwo amwe amwe arimwo amahitamwo ya DNSSEC. Mu bisanzwe, umurongo wa DNS nta mutekano ufise (ntiwakozwe n’ivyo mu muzirikanyi ico gihe). DNSSEC itorera umuti ico kibazo mu kwongerako Layer y’umutekano biciye mu gupfuka no gusinya ku bimenyetso, nk’uko vyasiguwe mu kiganiro gihuye: [Umutekano wa DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
 
 
@@ -278,7 +278,7 @@ Kugira ngo uburongozi bube bworoshe, **Pi-Hole** iraronka inyungu ku rubuga rwa 
 
 
 
-Ku ruhande rwanje, ngiye kwongerako urutonde rw’ababuza. Nk’uko twabibonye haruguru, urutonde rumwe gusa ni rwo rwashizweho igihe kimwe na Soft. Hariho urutonde rwinshi rw'imbuga z'amatangazo, ariko ni vyiza guhitamwo n'imiburiburi rumwe rwihariye ku gihugu ubamwo.Rumwe mu rutonde ruzwi cane ni **EasyList**, kandi rumwe muri zo ni rwihariye ku Bufaransa: [Urutonde-Rworoshe-UrutondeFR](https://raw.githubusercontent.com/urupfubybandaid/piholeparser/umukuru/Urutonde-Rwo-Rwiyandikisha/Urutonde-Rwirabura Rwasesanguwe/Urutonde-Rworoshe-FR.txt)
+Ku ruhande rwanje, ngiye kwongerako urutonde rw’ababuza. Nk’uko twabibonye haruguru, urutonde rumwe gusa ni rwo rwashizweho igihe kimwe na Soft. Hariho urutonde rwinshi rw'imbuga z'amatangazo, ariko ni vyiza guhitamwo n'imiburiburi rumwe rwihariye ku gihugu ubamwo.Rumwe mu rutonde ruzwi cane ni **EasyList**, kandi rumwe muri zo ni rwihariye ku Bufaransa: [Urutonde-Rworoshe-UrutondeFR](https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt)
 
 
 

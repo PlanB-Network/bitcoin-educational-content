@@ -1855,7 +1855,7 @@ Nk'akarorero, ku ntungamubiri y'ibice 256, igisubizo $\text{ENT} \Vert \text{CS}
 ### Guhindura urutonde rw'ibice bibiri mu mvugo ya Mnemonic
 
 
-Urutonde rw'ibice $\umwandiko{ENT} \Vert \umwandiko{CS}$ rero rugabanywamwo ibice vy'ibice 11. Igice kimwekimwe cose c’ibice 11, iyo kimaze guhindurwamwo igice c’icumi, gihuye n’umubare uri hagati ya 0 na 2047, uwo na wo ukaba ugaragaza aho ijambo riri [mu rutonde rw’amajambo 2048 rwashizwe ku rugero rwa 1000). BIP39](https://github.com/Umugambi-w'Ivyigwa/Bitcoin-ibirimwo-ivy'inyigisho/blob/dev/ibikoresho/bet/urutonde rw'amajambo rwa bip39/itunga/URUTONDE RW'AMAJAMBO rwa BIP39.pdf).
+Urutonde rw'ibice $\umwandiko{ENT} \Vert \umwandiko{CS}$ rero rugabanywamwo ibice vy'ibice 11. Igice kimwekimwe cose c’ibice 11, iyo kimaze guhindurwamwo igice c’icumi, gihuye n’umubare uri hagati ya 0 na 2047, uwo na wo ukaba ugaragaza aho ijambo riri [mu rutonde rw’amajambo 2048 rwashizwe ku rugero rwa 1000). BIP39](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

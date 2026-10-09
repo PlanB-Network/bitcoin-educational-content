@@ -21,7 +21,7 @@ Laten we eens doorlopen hoe eenvoudig het is om te beginnen met het stapelen van
 ## Aan de slag met Bittr
 
 
-- Ga op het web of mobiel naar [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) en klik op "Bitcoin kopen"
+- Ga op het web of mobiel naar [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) en klik op "Bitcoin kopen"
 
 
 

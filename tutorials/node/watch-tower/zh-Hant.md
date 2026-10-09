@@ -33,7 +33,7 @@ Watchtower 如何判斷通道是否遭到入侵？它會從客戶 (通道的其�
 
 
 
-*本教學取自 [LND 官方文件](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)。原始版本可能有一些變更
+*本教學取自 [LND 官方文件](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md)。原始版本可能有一些變更
 
 
 

@@ -35,7 +35,7 @@ description: Come configurare l'applicazione Blockstream e utilizzare il Liquid 
 
 
 
-**Il Liquid** è un **Sidechain** del Bitcoin, sviluppato da **[Blockstream](https://blockstream.com/Liquid/)**, progettato per offrire funzionalità più veloci, più *Confidential Transactions* e avanzate, pur rimanendo collegato al Blockchain Bitcoin principale.
+**Il Liquid** è un **Sidechain** del Bitcoin, sviluppato da **[Blockstream](https://blockstream.com/liquid/)**, progettato per offrire funzionalità più veloci, più *Confidential Transactions* e avanzate, pur rimanendo collegato al Blockchain Bitcoin principale.
 
 
 

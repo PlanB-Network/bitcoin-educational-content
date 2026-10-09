@@ -54,7 +54,7 @@ De unieke nadelen van Sentinel zijn dat de applicatie exclusief beschikbaar is v
 Voor degenen die een Wallet met meerdere handtekeningen willen volgen, is Blue Wallet de enige applicatie die ik ken die een watch-only modus biedt voor dit soort portemonnees, en het is toegankelijk op zowel Android als iOS.
 
 
-Voor iOS-gebruikers die op zoek zijn naar een alternatief voor Sentinel, zijn [Green Wallet](https://blockstream.com/Green/) of [Blue Wallet](https://bluewallet.io/watch-only/) wellicht opties, hoewel hun functionaliteit voor alleen het horloge niet zo uitgebreid is als die van Sentinel.
+Voor iOS-gebruikers die op zoek zijn naar een alternatief voor Sentinel, zijn [Green Wallet](https://blockstream.com/green/) of [Blue Wallet](https://bluewallet.io/watch-only/) wellicht opties, hoewel hun functionaliteit voor alleen het horloge niet zo uitgebreid is als die van Sentinel.
 
 ![watch-only](assets/notext/2.webp)
 

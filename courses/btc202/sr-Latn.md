@@ -152,7 +152,7 @@ Pošto je Bitcoin sistem, mora se nužno pokretati na računarima i zbog svoje p
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -203,7 +203,7 @@ Prvi zadatak čvora je da održava lokalnu kopiju blockchaina. Da bi se sprečil
 
 > Jedini način da potvrdite odsustvo transakcije je da budete svesni svih transakcija.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -382,7 +382,7 @@ U teoriji, Bitcoin Core ne predstavlja Bitcoin protokol; već je samo jedna impl
 
 
 
-Prema [podacima prikupljenim u avgustu 2025. od strane Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (poznatog programera u ekosistemu), distribucija implementacija među javnim čvorovima mreže je sledeća:
+Prema [podacima prikupljenim u avgustu 2025. od strane Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (poznatog programera u ekosistemu), distribucija implementacija među javnim čvorovima mreže je sledeća:
 
 
 
@@ -764,7 +764,7 @@ SPV (*Simplified Payment Verification*) čvor, ili lagani čvor, zadržava samo 
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3870,7 +3870,7 @@ Konačno, datoteka `bitcoin.conf` takođe vam omogućava da konfigurišete param
 
 
 
-Sada smo završili sa nabrajanjem većine parametara konfiguracije. Ovaj `bitcoin.conf` fajl stoga predstavlja pravu komandnu tablu vašeg čvora: definiše mrežnu konfiguraciju, upravljanje mempool-om, korišćenje diska i memorije, indeksiranje i opštu administraciju. Ako želite da saznate više o ovom fajlu i kreirate jedan prilagođen vašim potrebama, preporučujem korišćenje [Jameson Lopp-ovog generatora](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Sada smo završili sa nabrajanjem većine parametara konfiguracije. Ovaj `bitcoin.conf` fajl stoga predstavlja pravu komandnu tablu vašeg čvora: definiše mrežnu konfiguraciju, upravljanje mempool-om, korišćenje diska i memorije, indeksiranje i opštu administraciju. Ako želite da saznate više o ovom fajlu i kreirate jedan prilagođen vašim potrebama, preporučujem korišćenje [Jameson Lopp-ovog generatora](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

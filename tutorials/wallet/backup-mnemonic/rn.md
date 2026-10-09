@@ -71,10 +71,10 @@ Ku barondera uburyo bwo gushigikira ijambo ryabo ku cuma, [uburyo bwo kwikorera 
 Igishushanyo: [*Isuzuma rya SAFU Ninja*, Jameson Lopp]
 
 
-Niba ushaka gushiramwo amahera mu gikoresho co gucungera ivyuma vyuzuye, ndagusavye ko woraba [ibipimo vy’ubudahangarwa vya Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/), bisuzuma inyishu nyinshi ziboneka ku isoko. Naguhanura ngo uhitemwo ibifatanya n’ibindi, nk’isahani y’icuma yo gucapura, gutera ikidodo canke gutera ibipfunsi. Ivyo bikoresho muri rusangi biratanga ubushobozi bwo guhangana n’ibintu vyinshi cane kuruta ubuhinga bukoresha amajambo yigenga kugira ngo akoranirizwe hamwe.
+Niba ushaka gushiramwo amahera mu gikoresho co gucungera ivyuma vyuzuye, ndagusavye ko woraba [ibipimo vy’ubudahangarwa vya Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/), bisuzuma inyishu nyinshi ziboneka ku isoko. Naguhanura ngo uhitemwo ibifatanya n’ibindi, nk’isahani y’icuma yo gucapura, gutera ikidodo canke gutera ibipfunsi. Ivyo bikoresho muri rusangi biratanga ubushobozi bwo guhangana n’ibintu vyinshi cane kuruta ubuhinga bukoresha amajambo yigenga kugira ngo akoranirizwe hamwe.
 
 
-Iyo uhisemwo urupapuro Wallet, urafise uburyo bwinshi bwo guhitamwo: urupapuro rworoshe rudafise ikintu, urupapuro rw’ikarata Wallet akenshi rujanye n’urupapuro rwawe rwa Hardware Wallet, canke urupapuro rwacu rwo gukuraho rwo gucapura [ukanda . hano](https://github.com/Umugambi-Umurongo/Bitcoin-ibirimwo-inyigisho/blob/dev/ibikoresho/bet/Wallet-urupapuro-rw'ububiko/itunga/urupapuro-rwa-Mnemonic.pdf).
+Iyo uhisemwo urupapuro Wallet, urafise uburyo bwinshi bwo guhitamwo: urupapuro rworoshe rudafise ikintu, urupapuro rw’ikarata Wallet akenshi rujanye n’urupapuro rwawe rwa Hardware Wallet, canke urupapuro rwacu rwo gukuraho rwo gucapura [ukanda . hano](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf).
 
 
 ![SEED](assets/fr/02.webp)

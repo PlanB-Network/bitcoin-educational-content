@@ -113,7 +113,7 @@ Ikindi kintu gishimishije cane co gukoresha Seedkeeper ni ubushobozi bwo gushigi
 
 
 
-Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/igicuruzwa/umucungezi w’imbuto/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishira wewe nyene ku [ikarita y’ubwenge idafise ikintu]
+Hari uburyo bubiri nyamukuru bwo kuronka Umucungezi wawe w’Imbuto. Ushobora [kuyigura ataco uhinduye mu iduka ryemewe rya Satochip](https://satochip.io/product/seedkeeper/) canke ku mucuruzi yemerewe. Ariko kuko [applet ya Seedkeeper ari inkomoko yuguruye](https://github.com/Toporin/Seedkeeper-Applet), urafise kandi uburenganzira bwo kuyishira wewe nyene ku [ikarita y’ubwenge idafise ikintu]
 
 
 

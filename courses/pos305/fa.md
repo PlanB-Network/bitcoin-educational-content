@@ -2395,10 +2395,10 @@ bitcoin-lightning-cli.sh getlog
 #### گزارش‌های گره Bitcoin
 
 
-علاوه بر [مشاهده لاگ‌ها](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) در کانتینر bitcoind خود، می‌توانید از هر یک از [دستورات bitcoin-cli](https://developer.Bitcoin.org/reference/RPC/index.html) نیز استفاده کنید.
+علاوه بر [مشاهده لاگ‌ها](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) در کانتینر bitcoind خود، می‌توانید از هر یک از [دستورات bitcoin-cli](https://developer.bitcoin.org/reference/rpc/index.html) نیز استفاده کنید.
 
 
-[(opens new window)](https://developer.Bitcoin.org/reference/RPC/index.html) برای به‌دست‌آوردن اطلاعات از نود Bitcoin شما. BTCPay شامل یک اسکریپت است که به شما اجازه می‌دهد به‌راحتی با نود Bitcoin خود ارتباط برقرار کنید.
+[(opens new window)](https://developer.bitcoin.org/reference/rpc/index.html) برای به‌دست‌آوردن اطلاعات از نود Bitcoin شما. BTCPay شامل یک اسکریپت است که به شما اجازه می‌دهد به‌راحتی با نود Bitcoin خود ارتباط برقرار کنید.
 
 
 در داخل پوشه btcpayserver-docker، اطلاعات Blockchain را با استفاده از نود خود دریافت کنید:

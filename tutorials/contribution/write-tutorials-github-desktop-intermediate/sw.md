@@ -253,7 +253,7 @@ Baada ya maelezo yote kuingizwa na kuthibitishwa, bofya "Unda Mafunzo" ili kuthi
 Sasa unaweza kuruka kifungu kidogo "Bila hati yangu ya Python" na pia hatua ya 3, "Jaza faili ya YAML," kwa kuwa hati tayari imekamilisha vitendo hivi kwa ajili yako. Endelea moja kwa moja hadi hatua ya 4 na uanze kuandika mafunzo yako.
 
 
-Kwa maelezo zaidi kuhusu hati hii ya Python, unaweza pia kuangalia [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Kwa maelezo zaidi kuhusu hati hii ya Python, unaweza pia kuangalia [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Bila hati yangu ya Python

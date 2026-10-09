@@ -149,7 +149,7 @@ Liquid yizigiye **ishirahamwe** ry’abaje mu nama bizigira (amashirahamwe, amas
 
 
 - Ku **Androyidi**:
-    - Gukuraho [Iporogarama yo guhagarika](https://ugukina.google.com/iduka/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
+    - Gukuraho [Iporogarama yo guhagarika](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet y'icatsi kibisi.
     - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
 - Ku **iOS**:
     - Gukuraho [Iporogarama y’Ikigo c’Igihugu](Iporogarama y’Igihugu y’Igihugu) mu Bubiko bw’Iporogarama.
@@ -614,7 +614,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Amahuza yemewe:**
-- [Urubuga rwemewe](https://ububiko.com/)
+- [Urubuga rwemewe](https://blockstream.com/)
 - [Ishigikiro ry'iporogarama yo kuri telefone ngendanwa](https://imfashanyo.
 - [GitHub](imbuga z'ububiko/ibara ry'icatsi kibisi)
 
@@ -644,7 +644,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - Liquid Network** :
-- [Insobanuro y'amajambo](https://umugambi.urubuga/fr/ibikoresho/insobanuro y'amajambo/Liquid-urubuga)
+- [Insobanuro y'amajambo](https://planb.academy/fr/resources/glossary/liquid-network)
 
 
 
@@ -655,7 +655,7 @@ https://planb.academy/courses/6d26bcff-51a3-405f-bcdd-9af8297ce727
 
 
 - Lightning Network**:
-- [Insobanuro](https://planb.urubuga/fr/ibikoresho/insobanuro/urubuga-rw'umuravyo)
+- [Insobanuro](https://planb.academy/fr/resources/glossary/lightning-network)
 
 
 

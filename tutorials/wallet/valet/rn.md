@@ -23,7 +23,7 @@ Ubu Valet iboneka gusa ku bikoresho vya Android, kandi ishobora gukurwa no gushi
 ## Gukuraho no gushiramwo Valet
 
 
-Valet ishobora gukurwako nk'idosiye ya APK kuri paji ya GitHub ya Sats'. [Itegeko Sats](https://itegeko.github.io/) ni ryo shirahamwe ryateguye Valet.
+Valet ishobora gukurwako nk'idosiye ya APK kuri paji ya GitHub ya Sats'. [Itegeko Sats](https://standardsats.github.io/) ni ryo shirahamwe ryateguye Valet.
 
 
 👉 Kugira ngo ubone Valet, genda kuri Standard Sats [paje ya GitHub](https://github.com.

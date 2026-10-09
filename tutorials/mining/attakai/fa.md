@@ -474,7 +474,7 @@ Antminer S9 از بخش‌های زیر تشکیل شده است:
 اکنون، ما نرم‌افزار ASICs Braiins OS+ (https://braiins.com/os/plus) را مطالعه خواهیم کرد. این نرم‌افزار توسط شرکت [Braiins](https://braiins.com/) توسعه یافته است، که شرکت مادر Mining pool Braiins Pool (https://braiins.com/pool) می‌باشد. این Mining pool در حال حاضر 4.39% از Hashrate جهانی را در زمان نگارش این خطوط دارد. این شرکت مستقر در پراگ قبلاً به نام Slushpool شناخته می‌شد و اولین Mining pool است که در نوامبر 2010 شروع به کار کرد. [اینجا](https://Mempool.space/Mining/pool/braiinspool) می‌توانید آمار به‌روز شده Hashrate و تسلط استخر را پیدا کنید.
 
 
-امروز، شرکت با فعالیت‌های متنوع خود، ابزارهای مطالعه سودآوری برای Mining (https://insights.braiins.com/en)، راه‌حل‌های مدیریت مزرعه Mining به موازات فعالیت استخر خود، و نرم‌افزار بهینه‌سازی برای ASICها را ارائه می‌دهد. همچنین Mining را با استفاده از پروتکل جدید Stratum V2 (https://braiins.com/Bitcoin-Mining-stack-upgrade) ارائه می‌دهد.
+امروز، شرکت با فعالیت‌های متنوع خود، ابزارهای مطالعه سودآوری برای Mining (https://insights.braiins.com/en)، راه‌حل‌های مدیریت مزرعه Mining به موازات فعالیت استخر خود، و نرم‌افزار بهینه‌سازی برای ASICها را ارائه می‌دهد. همچنین Mining را با استفاده از پروتکل جدید Stratum V2 (https://braiins.com/bitcoin-mining-stack-upgrade) ارائه می‌دهد.
 
 
 بنابراین ما به طور دقیق‌تر به بررسی عملکرد دستگاه‌های Bitmain خواهیم پرداخت، که در حال حاضر تنها مدل‌های سازگار هستند:

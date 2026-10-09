@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Installation och konfiguration
 
 
-Besök den officiella Wizardsardine-webbplatsen och ladda ner Liana på https://wizardsardine.com/Liana/. Du kan också ladda ner den senaste versionen [från GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Den version som används i denna handledning är 0.9.
+Besök den officiella Wizardsardine-webbplatsen och ladda ner Liana på https://wizardsardine.com/liana/. Du kan också ladda ner den senaste versionen [från GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Den version som används i denna handledning är 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ När det har bekräftats är ditt mynt säkert! Du kan vila lugnt fram till näs
 När du återställer medel från Liana Wallet kan du ställas inför en av två situationer. Du kanske har tillgång till den dator där programvaran är installerad, och i så fall behöver du bara öppna den (vilket kommer att ske när det gäller den förbättrade säkerhetskopieringsmodellen). Men du kanske inte har tillgång till den här datorn, så vi börjar från början här. Observera att återställningsproceduren är densamma i båda fallen.
 
 
-För att komma igång, ladda ner Liana från [den officiella Wizardsardine-webbplatsen](https://wizardsardine.com/Liana/), eller från [GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Installera programvaran och kör den. Den version som används i vårt fall är 0.9, så det visuella kan ha ändrats. På välkomstskärmen väljer du alternativet "Add an existing Liana Wallet" (Lägg till en befintlig Liana Wallet).
+För att komma igång, ladda ner Liana från [den officiella Wizardsardine-webbplatsen](https://wizardsardine.com/liana/), eller från [GitHub-arkivet](https://github.com/wizardsardine/Liana/releases), där du kan kontrollera programvarans äkthet. Installera programvaran och kör den. Den version som används i vårt fall är 0.9, så det visuella kan ha ändrats. På välkomstskärmen väljer du alternativet "Add an existing Liana Wallet" (Lägg till en befintlig Liana Wallet).
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

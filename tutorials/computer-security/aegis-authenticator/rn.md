@@ -545,6 +545,6 @@ Umutekano wâ€™amakonti yawe yo kuri internet ntubwirizwa kuva ku buntu bwiza bwâ
 
 
 
-- Ivyandiko vy'ububiko**: [Igishushanyo c'ububiko](https://github.com/beemdevelopment/Aegis/blob/master/docs/ububiko.md) - Insobanuro y'ubuhinga y'ububiko n'ubwubatsi butekanye
+- Ivyandiko vy'ububiko**: [Igishushanyo c'ububiko](https://github.com/beemdevelopment/Aegis/blob/master/docs/vault.md) - Insobanuro y'ubuhinga y'ububiko n'ubwubatsi butekanye
 - Ibibazo vyemewe**: Inyishu ku bibazo bikunda kubazwa
 - Umugambi wiki**: [github.com/iterambere ry'ibikoko/Aegis/wiki) - Inyandiko z'abakoresha zose

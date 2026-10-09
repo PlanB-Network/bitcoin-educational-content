@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## اتصال به Proton Wallet
 
 
-به [وب‌سایت Proton Wallet](https://proton.me/Wallet) بروید و روی دکمه "*Get Proton Wallet*" کلیک کنید.
+به [وب‌سایت Proton Wallet](https://proton.me/wallet) بروید و روی دکمه "*Get Proton Wallet*" کلیک کنید.
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 - [در فروشگاه App](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548);
-- [در فروشگاه Google Play](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [در فروشگاه Google Play](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

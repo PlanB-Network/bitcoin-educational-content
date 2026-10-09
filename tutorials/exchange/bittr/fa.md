@@ -21,7 +21,7 @@ description: راهنمای ساده گام به گام برای خریدهای 
 ## شروع به کار با Bittr
 
 
-- در وب یا موبایل به [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) بروید و روی "خرید Bitcoin" کلیک کنید.
+- در وب یا موبایل به [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) بروید و روی "خرید Bitcoin" کلیک کنید.
 
 
 

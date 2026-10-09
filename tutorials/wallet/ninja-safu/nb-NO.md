@@ -36,7 +36,7 @@ Ninja SAFU-metoden har flere fordeler:
 
 
 
-- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
+- **Pålitelighet**: Metoden har blitt testet siden 2020 og er utprøvd og testet av sikkerhetseksperter som [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), som har utsatt den for strenge stresstester (ekstrem varme, korrosjon, mekanisk trykk).
 
 
 
@@ -354,13 +354,13 @@ Ifølge Jameson Lopp
 
 
 
-- [Rapport](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
+- [Rapport](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) om Ninja SAFU-metoden
 
 
 
 
 
-- Sammenligningstabell [komplett](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Sammenligningstabell [komplett](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

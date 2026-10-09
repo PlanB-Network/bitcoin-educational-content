@@ -322,7 +322,7 @@ SCB jest konieczny tylko wtedy, gdy masz otwarte kanały LN. W przypadku posiada
 Jeśli zauważysz, że po długim czasie nadal nie wyświetla starej historii txs, przejdź do Embedded node - Peers i wyłącz opcję korzystania z listy wybranych peerów (domyślnie jest to btcd.lnolymp.us). Spowoduje to ponowne uruchomienie i połączenie z pierwszym dostępnym węzłem neutrino z lepszym czasem odpowiedzi. Lub użyj innych dobrze znanych peerów neutrino wymienionych poniżej.
 
 
-Jeśli chcesz zobaczyć więcej opcji odzyskiwania dla węzła LND, [przeczytaj mój poprzedni przewodnik](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), w którym znajdziesz kroki, jak zaimportować zamrożony seed do Sparrow Wallet lub inne metody.
+Jeśli chcesz zobaczyć więcej opcji odzyskiwania dla węzła LND, [przeczytaj mój poprzedni przewodnik](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), w którym znajdziesz kroki, jak zaimportować zamrożony seed do Sparrow Wallet lub inne metody.
 
 
 **C - Węzeł wbudowany**

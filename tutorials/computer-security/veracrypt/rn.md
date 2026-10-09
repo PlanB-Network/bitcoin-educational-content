@@ -58,7 +58,7 @@ Inyungu nini ya VeraCrypt ku mirongo y’ubuhinga ni uko ari inkomoko yuguruye y
 ## Ni gute woshiramwo VeraCrypt?
 
 
-Genda kuri [urubuga rwemewe rwa VeraCrypt](https://www.veracrypt.fr/ru/Ivyo gukuraho.html) mu gice ca "*Ivyo gukuraho*".
+Genda kuri [urubuga rwemewe rwa VeraCrypt](https://www.veracrypt.fr/en/Downloads.html) mu gice ca "*Ivyo gukuraho*".
 
 ![VeraCrypt](assets/notext/05.webp)
 
@@ -222,4 +222,4 @@ Ubu ushobora gukuraho ububiko bwawe.
 Urasangwa, ubu ufise uburyo bwo kubika amakuru yawe bwite mu buryo butekanye, gutyo ukaba ufise ubuhinga bushitse bwa 3-2-1 ushizeko kopi iri kuri mudasobwa yawe n’umuti wawe wo kubika kuri Internet.
 
 
-Niba wipfuza gushigikira iterambere rya VeraCrypt, urashobora kandi gutanga intererano mu ma bitcoins [kuri iyi paji](https://www.veracrypt.fr/ru/Impano.html).
+Niba wipfuza gushigikira iterambere rya VeraCrypt, urashobora kandi gutanga intererano mu ma bitcoins [kuri iyi paji](https://www.veracrypt.fr/en/Donation.html).

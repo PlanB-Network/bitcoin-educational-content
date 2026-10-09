@@ -22,7 +22,7 @@ Iyi nkuru ngufi ni iyo kwuzuza inyigisho iri hejuru ku bijanye no kugura Bitcoin
 ## 1️⃣ Gutangura
 
 
-Kugira ngo utangure, fungura Bisq Easy Mobile kuri [urupapuro rwo gukuraho](https://bisq.urubuga/ivyo gukuraho/). Ni vyiza ko ugenzura ivyo waronse. Amabwirizwa yo kugenzura araboneka kandi kuri [paji yo gukuraho](https://bisq.network/ugukuraho/). Inyuma yo gushiramwo, ukeneye kwemera `Amasezerano y'Ukoresha`. Inyuma, rema urutonde rwa bose rugizwe n'izina ry'ibanga` n'ishusho (igereranywa n'ikimenyetso ca bot`). Na Bisq Easy, urashobora kandi gukora imirongo y'abakoresha benshi mu mukiriya umwe. Inyuma y'ugutangura gatoyi, uzoshika ku `Igishushanyo c'Ingoro`. Iyo porogarama irashira ahabona ibintu vy’inyigisho ata guca ku ruhande kuri paji nyamukuru. Kanda kuri `Igitabu c'ubudandaji gifungura` kugira ngo umenye amakuru mashasha.
+Kugira ngo utangure, fungura Bisq Easy Mobile kuri [urupapuro rwo gukuraho](https://bisq.network/downloads/). Ni vyiza ko ugenzura ivyo waronse. Amabwirizwa yo kugenzura araboneka kandi kuri [paji yo gukuraho](https://bisq.network/downloads/). Inyuma yo gushiramwo, ukeneye kwemera `Amasezerano y'Ukoresha`. Inyuma, rema urutonde rwa bose rugizwe n'izina ry'ibanga` n'ishusho (igereranywa n'ikimenyetso ca bot`). Na Bisq Easy, urashobora kandi gukora imirongo y'abakoresha benshi mu mukiriya umwe. Inyuma y'ugutangura gatoyi, uzoshika ku `Igishushanyo c'Ingoro`. Iyo porogarama irashira ahabona ibintu vy’inyigisho ata guca ku ruhande kuri paji nyamukuru. Kanda kuri `Igitabu c'ubudandaji gifungura` kugira ngo umenye amakuru mashasha.
 
 
 ![image](assets/en/01.webp)

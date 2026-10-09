@@ -87,5 +87,5 @@ Nizigiye ko iyi inyishu yatanze umuco ku citegererezo ca Whirlpool. Niba ushaka 
 
 - Samourayi Wallet Whirlpool
 - Gutahura-ubuzima bwite bwa Bitcoin n'igice-ca-1-4-8177a40a5923
-- https://estudiobitcoin.com/como-gushiraho-ibikoresho-vy'imibare-vya-Whirlpool-vy'imibare-y'imibare-y'imibare-y'imibare-y'imibare-y'ibikorwa-vy'amafaranga/
+- https://estudiobitcoin.com/como-instalar-y-utilizar-whirlpool-stats-tools-wst-para-los-calculos-de-los-sets-de-anonimato-de-las-transacciones-coinjoins/
 - 4156a54b0bc7.

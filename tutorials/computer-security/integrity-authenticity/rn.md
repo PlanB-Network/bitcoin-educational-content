@@ -64,7 +64,7 @@ Ku **Windows**, iyo udafise GPG, urashobora gushiramwo porogarama [Gpg4win](http
 ## Gukuraho inyandiko
 
 
-Kugira ngo dutangure, tuzokenera ivyangombwa bitandukanye. Sura urubuga rwemewe rwa [Sparrow wallet mu gice ca "*Gukuraho*"](https://sparrowwallet.com/gukuraho/). Niba wipfuza kugenzura iyindi porogarama, genda ku rubuga rw’iyo porogarama.
+Kugira ngo dutangure, tuzokenera ivyangombwa bitandukanye. Sura urubuga rwemewe rwa [Sparrow wallet mu gice ca "*Gukuraho*"](https://sparrowwallet.com/download/). Niba wipfuza kugenzura iyindi porogarama, genda ku rubuga rw’iyo porogarama.
 
 
 ![GnuPG](assets/notext/02.webp)
@@ -97,7 +97,7 @@ Gukuraho umukono wa PGP wa dosiye na wo nyene. Iyi ni inyandiko iri mu buryo bwa
 Raba neza ko ushira izo dosiye zose muri dosiye imwe ku ntambwe zikurikira.
 
 
-Ubwa nyuma, uzokenera urufunguzo rwa bose rw’umuhinguzi, urwo tuzokoresha kugira ngo tugenzure umukono wa PGP. Uwo mufunguzo akenshi uboneka ku rubuga rwa porogarama, ku bubiko bwa GitHub bw’umugambi, rimwe na rimwe ku mbuga ngurukanabumenyi z’umuhinguzi, canke ku mbuga zidasanzwe nka Keybase. Ku bijanye na Sparrow wallet, ushobora gusanga urufunguzo rwa bose rw'umuhinguzi Craig Raw [ku rubuga rw'urufunguzo](https://urufunguzo.io/craigraw). Kugira ngo uyikure kuri terminal, shira mu ngiro itegeko:
+Ubwa nyuma, uzokenera urufunguzo rwa bose rw’umuhinguzi, urwo tuzokoresha kugira ngo tugenzure umukono wa PGP. Uwo mufunguzo akenshi uboneka ku rubuga rwa porogarama, ku bubiko bwa GitHub bw’umugambi, rimwe na rimwe ku mbuga ngurukanabumenyi z’umuhinguzi, canke ku mbuga zidasanzwe nka Keybase. Ku bijanye na Sparrow wallet, ushobora gusanga urufunguzo rwa bose rw'umuhinguzi Craig Raw [ku rubuga rw'urufunguzo](https://keybase.io/craigraw). Kugira ngo uyikure kuri terminal, shira mu ngiro itegeko:
 
 
 ```bash

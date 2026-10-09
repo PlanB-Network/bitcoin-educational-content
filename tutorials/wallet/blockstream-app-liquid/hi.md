@@ -35,7 +35,7 @@ description: ब्लॉकस्ट्रीम ऐप को कैसे क
 
 
 
-**Liquid** Bitcoin का एक **Sidechain** है, जिसे **[ब्लॉकस्ट्रीम](https://blockstream.com/Liquid/)** द्वारा विकसित किया गया है, जिसे मुख्य Blockchain Bitcoin से जुड़े रहते हुए, तेज़, अधिक Confidential Transactions और उन्नत कार्यक्षमता प्रदान करने के लिए डिज़ाइन किया गया है।
+**Liquid** Bitcoin का एक **Sidechain** है, जिसे **[ब्लॉकस्ट्रीम](https://blockstream.com/liquid/)** द्वारा विकसित किया गया है, जिसे मुख्य Blockchain Bitcoin से जुड़े रहते हुए, तेज़, अधिक Confidential Transactions और उन्नत कार्यक्षमता प्रदान करने के लिए डिज़ाइन किया गया है।
 
 
 

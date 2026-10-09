@@ -52,7 +52,7 @@ Ledger Flex به یک تراشه "عنصر امن" با گواهینامه CC EA
 ## چگونه یک Ledger Flex بخریم؟
 
 
-Ledger Flex برای خرید [در وب‌سایت رسمی](https://shop.Ledger.com/pages/Ledger-flex) موجود است. برای خرید آن در فروشگاه فیزیکی، می‌توانید [فهرست فروشندگان معتبر](https://www.Ledger.com/reseller) را در وب‌سایت Ledger پیدا کنید.
+Ledger Flex برای خرید [در وب‌سایت رسمی](https://shop.ledger.com/pages/ledger-flex) موجود است. برای خرید آن در فروشگاه فیزیکی، می‌توانید [فهرست فروشندگان معتبر](https://www.Ledger.com/reseller) را در وب‌سایت Ledger پیدا کنید.
 
 
 ## پیش‌نیازها

@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Kugira ngo ushiremwo Ginger Wallet, genda ku rubuga [Igitanga Wallet](https://igingerwallet.io).
+Kugira ngo ushiremwo Ginger Wallet, genda ku rubuga [Igitanga Wallet](https://gingerwallet.io).
 
 
 

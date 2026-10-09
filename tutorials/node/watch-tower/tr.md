@@ -33,7 +33,7 @@ Bu eğitimde, bir **Watchtower** kullanmanın 3 yolunu inceleyeceğiz:
 
 
 
-*Bu eğitim [resmi LND belgelerinden](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir
+*Bu eğitim [resmi LND belgelerinden](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) alınmıştır. Orijinal sürümde bazı değişiklikler yapılmış olabilir
 
 
 

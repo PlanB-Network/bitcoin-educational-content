@@ -26,7 +26,7 @@ The Ninja SAFU approach offers several advantages:
 
 
 
-- **Reliability**: Tested since 2020, the method has been tried and tested by safety experts such as [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), who have subjected it to rigorous stress tests (extreme heat, corrosion, mechanical pressure).
+- **Reliability**: Tested since 2020, the method has been tried and tested by safety experts such as [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), who have subjected it to rigorous stress tests (extreme heat, corrosion, mechanical pressure).
 
 
 This step-by-step guide will show you how to make your own Ninja SAFU backup, to better protect your bitcoins against loss or destruction. If you'd like to learn more about backing up and protecting a seed phrase, please consult the appendices.
@@ -260,11 +260,11 @@ According to Jameson Lopp:
 
 
 
-- [Report](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) on the Ninja SAFU method
+- [Report](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) on the Ninja SAFU method
 
 
 
-- Comparison table [complete](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Comparison table [complete](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

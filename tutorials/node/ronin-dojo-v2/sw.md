@@ -341,7 +341,7 @@ Mara moja kwenye ukurasa wa nyumbani wa RoninUI, utaulizwa kuanza usanidi. Ili k
 ![lets start](assets/notext/25.webp)
 
 
-Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-155).
+Katika hatua hii, RoninUI inakuletea nenosiri lako la `root`. Ni muhimu kuiweka salama. Unaweza kuchagua kupata nakala halisi, kwenye karatasi, au kuihifadhi katika [kidhibiti nenosiri](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)

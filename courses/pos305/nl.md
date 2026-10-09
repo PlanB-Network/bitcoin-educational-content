@@ -2379,10 +2379,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin knooppuntlogboeken
 
 
-Naast [logs bekijken](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) van uw bitcoind container, kunt u ook gebruik maken van de [bitcoin-cli commando's](https://developer.Bitcoin.org/reference/RPC/index.html)
+Naast [logs bekijken](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) van uw bitcoind container, kunt u ook gebruik maken van de [bitcoin-cli commando's](https://developer.bitcoin.org/reference/rpc/index.html)
 
 
-[(opent nieuw venster)](https://developer.Bitcoin.org/reference/RPC/index.html) om informatie te verkrijgen van uw Bitcoin knooppunt. BTCPay bevat een script waarmee u gemakkelijk kunt communiceren met uw Bitcoin knooppunt.
+[(opent nieuw venster)](https://developer.bitcoin.org/reference/rpc/index.html) om informatie te verkrijgen van uw Bitcoin knooppunt. BTCPay bevat een script waarmee u gemakkelijk kunt communiceren met uw Bitcoin knooppunt.
 
 
 Haal in de map btcpayserver-docker de Blockchain informatie op met je knooppunt:

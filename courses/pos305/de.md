@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin-Knotenprotokolle
 
 
-Zusätzlich zum [Einsehen von Protokollen](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) Ihres bitcoind-Containers können Sie auch einen der [bitcoin-cli-Befehle](https://developer.Bitcoin.org/reference/RPC/index.html) verwenden
+Zusätzlich zum [Einsehen von Protokollen](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) Ihres bitcoind-Containers können Sie auch einen der [bitcoin-cli-Befehle](https://developer.bitcoin.org/reference/rpc/index.html) verwenden
 
 
-[(öffnet ein neues Fenster)](https://developer.Bitcoin.org/reference/RPC/index.html), um Informationen von Ihrem Bitcoin-Knoten zu erhalten. BTCPay enthält ein Skript, mit dem Sie problemlos mit Ihrem Bitcoin-Knoten kommunizieren können.
+[(öffnet ein neues Fenster)](https://developer.bitcoin.org/reference/rpc/index.html), um Informationen von Ihrem Bitcoin-Knoten zu erhalten. BTCPay enthält ein Skript, mit dem Sie problemlos mit Ihrem Bitcoin-Knoten kommunizieren können.
 
 
 Rufen Sie im Ordner btcpayserver-docker die Blockchain-Informationen über Ihren Knoten ab:

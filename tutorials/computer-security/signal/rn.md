@@ -60,8 +60,8 @@ Signal iraboneka ku mbuga zose. Ushobora gukuraho iyo porogaramu mu bubiko bwa p
 
 
 
-- [Ikiganiro ca Google](https://igikino.google.com/ububiko/amaporogarama/ibisobanuro?id=org.ubugizi bwa nabi bw'ivyiyumviro.umutekano);
-- [Iduka ry'amaporogarama](https://amaporogarama.com/us/porogarama/ikimenyetso-intumwa-y'ibanga/id874139669);
+- [Ikiganiro ca Google](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
+- [Iduka ry'amaporogarama](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 
 

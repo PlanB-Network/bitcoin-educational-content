@@ -36,7 +36,7 @@ Mbinu ya Ninja SAFU inatoa faida kadhaa:
 
 
 
-- **Kuegemea**: Ilijaribiwa tangu 2020, mbinu hii imejaribiwa na kufanyiwa majaribio na wataalamu wa usalama kama vile [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), ambao wameifanyia majaribio makali ya mfadhaiko (joto kali, shinikizo, kutu).
+- **Kuegemea**: Ilijaribiwa tangu 2020, mbinu hii imejaribiwa na kufanyiwa majaribio na wataalamu wa usalama kama vile [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), ambao wameifanyia majaribio makali ya mfadhaiko (joto kali, shinikizo, kutu).
 
 
 
@@ -354,13 +354,13 @@ Kulingana na Jameson Lopp:
 
 
 
-- [Ripoti](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) kuhusu mbinu ya Ninja SAFU
+- [Ripoti](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) kuhusu mbinu ya Ninja SAFU
 
 
 
 
 
-- Jedwali la kulinganisha [limekamilika](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Jedwali la kulinganisha [limekamilika](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

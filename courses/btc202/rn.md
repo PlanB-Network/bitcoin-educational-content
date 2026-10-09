@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo ni ubuzima bwite bwibanda ku nzira y’ubuzima bwite](https://wiki.ronindojo.io/ru/home) ikoresha ubuhinga bwo gukoresha Samurai Dojo na Whirlpool, ifise Interface yihariye n’ibindi bikoresho vyagenewe canecane ibidukikije vy’i Samurai.
+[RoninDojo ni ubuzima bwite bwibanda ku nzira y’ubuzima bwite](https://wiki.ronindojo.io/en/home) ikoresha ubuhinga bwo gukoresha Samurai Dojo na Whirlpool, ifise Interface yihariye n’ibindi bikoresho vyagenewe canecane ibidukikije vy’i Samurai.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel itanga uburyo bubiri butandukanye:
 
 
 
-- [**Ingoro y’Umutaka**](https://umutaka.com/umutaka-inzu): iyi ni mini-server yiteguye gukoreshwa, yateguwe kandi itunganijwe neza na umbrelOS. Igizwe n’ibintu bikomeye, ntibivuga, bihuye na Ethernet, bifise NVMe SSD (ishobora gushika kuri 4TB), 16GB RAM, na CPU y’ibihimba bine. Urabisaba, ukabishiramwo, hanyuma ukaja kuri `umbrel.local`. Ushobora kugira Umutaka ukora mu minota mikeyi. Ukwo ni kwo guhitamwo gutera no gukina.
+- [**Ingoro y’Umutaka**](https://umbrel.com/umbrel-home): iyi ni mini-server yiteguye gukoreshwa, yateguwe kandi itunganijwe neza na umbrelOS. Igizwe n’ibintu bikomeye, ntibivuga, bihuye na Ethernet, bifise NVMe SSD (ishobora gushika kuri 4TB), 16GB RAM, na CPU y’ibihimba bine. Urabisaba, ukabishiramwo, hanyuma ukaja kuri `umbrel.local`. Ushobora kugira Umutaka ukora mu minota mikeyi. Ukwo ni kwo guhitamwo gutera no gukina.
 
 
 
@@ -2763,7 +2763,7 @@ Mu gihe habaye ikibazo kuri Umbrel yawe, banza generate umugwi w’ibipimo biciy
 
 
 
-Nimba ingorane igumaho, ndagusavye [winjire mu muryango w’abakoresha Umbrel kuri Discord yabo](https://discord.gg/efNtFzqtdx). Tangana n’ugukora ubushakashatsi kugira ngo umenye nimba hari uwumaze guhura n’ingorane nk’iyo maze akaronka umuti. Niba atarivyo, ushobora gushiramwo ubutumwa mu muhora `gushigikira rusangi`. Ushobora kandi gukoresha [ihuriro ry'umutaka](https://umuryango.umutaka.com/).
+Nimba ingorane igumaho, ndagusavye [winjire mu muryango w’abakoresha Umbrel kuri Discord yabo](https://discord.gg/efNtFzqtdx). Tangana n’ugukora ubushakashatsi kugira ngo umenye nimba hari uwumaze guhura n’ingorane nk’iyo maze akaronka umuti. Niba atarivyo, ushobora gushiramwo ubutumwa mu muhora `gushigikira rusangi`. Ushobora kandi gukoresha [ihuriro ry'umutaka](https://community.umbrel.com/).
 
 
 
@@ -3884,7 +3884,7 @@ Ubwa nyuma, dosiye `Bitcoin.conf` nayo iraguha uburenganzira bwo gutunganya imir
 
 
 
-Ubu twarangije gutanga urutonde rw'ibintu vyinshi vy'imiterere. Iyi dosiye `Bitcoin.conf` rero ni yo igize urupapuro nyarwo rw'uruzitiro rwawe: isobanura imiterere y'urubuga, uburongozi bwa Mempool, ikoreshwa rya disiki n'ububiko, gushiramwo urutonde, n'uburongozi rusangi. Niba wifuza kumenya vyinshi kuri iyi dosiye maze ukayihingura ihuye n’ivyo ukeneye, ndagusavye gukoresha [umuhinguzi wa Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Ubu twarangije gutanga urutonde rw'ibintu vyinshi vy'imiterere. Iyi dosiye `Bitcoin.conf` rero ni yo igize urupapuro nyarwo rw'uruzitiro rwawe: isobanura imiterere y'urubuga, uburongozi bwa Mempool, ikoreshwa rya disiki n'ububiko, gushiramwo urutonde, n'uburongozi rusangi. Niba wifuza kumenya vyinshi kuri iyi dosiye maze ukayihingura ihuye n’ivyo ukeneye, ndagusavye gukoresha [umuhinguzi wa Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

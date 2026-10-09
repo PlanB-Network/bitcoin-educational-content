@@ -213,7 +213,7 @@ Akira ahantu hakenewe:
 
 
 
-- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/bitcoin-ivy’inyigisho-ibirimwo/igiti/dev/ibikoresho/imigambi). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogarama ya Green Wallet, ushobora gusanga iyi `project_id` muri dosiye ikurikira: `bitcoin-ibirimwo-inyigisho/ibikoresho/imigambi/blockstream/project.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikintu gihuye n'inyigisho yawe, urema ihuriro hagati y'ivyo bintu bibiri;
+- project_id**: UUID y’ishirahamwe canke ishirahamwe riri inyuma y’igikoresho kigaragazwa mu nyigisho [bivuye ku rutonde rw’imigambi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Nk'akarorero, nimba uriko urahingura inyigisho yerekeye porogarama ya Green Wallet, ushobora gusanga iyi `project_id` muri dosiye ikurikira: `bitcoin-ibirimwo-inyigisho/ibikoresho/imigambi/blockstream/project.yml`. Aya makuru yongerwa kuri dosiye ya YAML y’inyigisho yawe kubera ko Plan ₿ Academy ibungabunga urutonde rw’amashirahamwe yose n’imiryango yose ikora kuri Bitcoin canke imigambi ijana. Mu kwongerako `project_id` y'ikintu gihuye n'inyigisho yawe, urema ihuriro hagati y'ivyo bintu bibiri;
 
 
 
@@ -233,7 +233,7 @@ Akira ahantu hakenewe:
 
 
 
-- professor_id**: `id_y'umwigisha` wawe (UUID) nk'uko vyerekanywe kuri [umwirondoro wawe w'umwigisha](https://github.com/Ikiganiro-PlanB/ibirimwo-ivy'inyigisho/igiti/dev/abaporofeseri);
+- professor_id**: `id_y'umwigisha` wawe (UUID) nk'uko vyerekanywe kuri [umwirondoro wawe w'umwigisha](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -375,7 +375,7 @@ print("Hello, Bitcoin!")
 
 
 - Ivyerekanwa n'ibishushanyo**:
-    - Amashusho yose ategerezwa kuba ari mu buryo bwa WebP. Koresha iki gikoresho c’ubuntu kugira ngo ubihindure iyo bisabwe: [Igihinduzi c’Amashusho](https://github.com/LoicPandul/Igihinduzi c’Amashusho).
+    - Amashusho yose ategerezwa kuba ari mu buryo bwa WebP. Koresha iki gikoresho c’ubuntu kugira ngo ubihindure iyo bisabwe: [Igihinduzi c’Amashusho](https://github.com/LoicPandul/ImagesConverter).
     - Izina ry'ibishushanyo rifise imibare 2 canke 3 (nk'akarorero `001.urubuga`, `002.urubuga`).
     - Ku nyigisho za wallet zikoreshwa kuri telefone ngendanwa canke ku bikoresho, koresha ibigereranyo.
     - Koresha gusa amashusho wiremye canke ataco utanga.

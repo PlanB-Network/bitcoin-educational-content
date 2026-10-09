@@ -90,7 +90,7 @@ Ushobora gukoresha ibikoresho vyinshi, nka Balena Etcher :
 
 
 
-- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://igishushanyo.balena.io/).
+- Gukuraho no gushiramwo [Igishushanyo ca Balena](https://etcher.balena.io/).
 
 
 
@@ -343,7 +343,7 @@ Niba ukoresha ishusho **Live**, intambwe ikurikira ntizogaragara.
 
 
 
-Ushobora rero guhitamwo [amapaki](https://www.kali.org/docs/ikoreshwa rusangi/amapaki/) wipfuza gushiramwo. Amahitamwo y'imbere azoshiraho uburyo busanzwe bwa Kali Linux, rero ntuzokenera guhindura ikintu na kimwe.
+Ushobora rero guhitamwo [amapaki](https://www.kali.org/docs/general-use/metapackages/) wipfuza gushiramwo. Amahitamwo y'imbere azoshiraho uburyo busanzwe bwa Kali Linux, rero ntuzokenera guhindura ikintu na kimwe.
 
 
 

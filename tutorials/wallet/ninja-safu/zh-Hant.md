@@ -36,7 +36,7 @@ Ninja SAFU 方法具有多項優點：
 
 
 
-- **可靠性**：該方法自 2020 年起進行測試，經過 [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)等安全專家的嚴格壓力測試（極熱、腐蝕、機械壓力）。
+- **可靠性**：該方法自 2020 年起進行測試，經過 [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)等安全專家的嚴格壓力測試（極熱、腐蝕、機械壓力）。
 
 
 
@@ -354,13 +354,13 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- [報告](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) 關於忍者 SAFU 方法
+- [報告](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) 關於忍者 SAFU 方法
 
 
 
 
 
-- 比較表 [完整](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- 比較表 [完整](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

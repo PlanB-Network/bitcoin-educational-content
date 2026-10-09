@@ -951,7 +951,7 @@ Ku ba bitcoiners bakunda kwigenga n’ibanga, Mostro ni uburyo bushoboka bukwiye
 
 
 - [Urubuga rwemewe rwa Mostro](urubuga rwa Mostro)
-- [Inyandiko z'ubuhinga](https://mostro.urubuga/inyandiko-icongereza/urutonde.html)
+- [Inyandiko z'ubuhinga](https://mostro.network/docs-english/index.html)
 - [Ishirahamwe rya Mostro](https://ishirahamwe rya Mostro)
 
 
@@ -973,4 +973,4 @@ Ku ba bitcoiners bakunda kwigenga n’ibanga, Mostro ni uburyo bushoboka bukwiye
 
 
 - [Itegeko rya Nostr](urubuga rwa nostr.com)
-- [Inyigisho za Lightning Network](https://umuravyo.urubuga)
+- [Inyigisho za Lightning Network](https://lightning.network)

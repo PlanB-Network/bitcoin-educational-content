@@ -32,7 +32,7 @@ Zwischen dem 1. Januar 2018 und dem 1. Januar 2024 wird die Zahl der Transaktion
 
 Dieses beträchtliche Wachstum steht natürlich in engem Zusammenhang mit:
 
-- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
+- das [wachsende Interesse der Menschen auf der ganzen Welt an der Verwendung von Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), um sich vom Bankensystem zu befreien und/oder eine weniger volatile oder weniger abgewertete Währung zu verwenden, wie es bei der Bevölkerung im Libanon, in Syrien, Ägypten, Argentinien und anderen der Fall ist;
 - sein Kursanstieg im Laufe der Zeit, wodurch er sich als Wertaufbewahrungsmittel und langfristige Anlage etabliert, was durch seine feste Geldpolitik gefördert wird;
 - das sukzessive Wachstum des spekulativen Kryptowährungsmarktes, insbesondere in den Jahren 2017-2018 und 2020-2021;
 - Die wachsende Präsenz von Bitcoin in den Mainstream-Medien.
@@ -1161,7 +1161,7 @@ Du könntest auch einen Flyer speziell für deine Gemeinschaft oder dein Treff e
 
 Mehrere Flugblätter sind bereits **als Open-Source in der [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** auf planB.network verfügbar und weitere werden im Laufe der Zeit hinzugefügt.
 
-Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
+Ein Beispiel ist ein [vollständiges Flugblatt](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) mit 21 Gründen für die Verwendung von Bitcoin. Das Design ist auch [als Open-Source-Datei](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) verfügbar, damit du es ändern, anpassen und weitergeben kannst. Denke einfach daran, deine Quellen anzugeben.
 
 ![image](assets/de/041.webp)
 

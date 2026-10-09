@@ -35,7 +35,7 @@ description: Как да конфигурирате приложението Blo
 
 
 
-**Liquid** е **Sidechain** на Bitcoin, разработена от **[Blockstream](https://blockstream.com/Liquid/)**, предназначена да предлага по-бързи, по-конфиденциални трансакции и усъвършенствани функции, като същевременно остава свързана с основната Blockchain Bitcoin.
+**Liquid** е **Sidechain** на Bitcoin, разработена от **[Blockstream](https://blockstream.com/liquid/)**, предназначена да предлага по-бързи, по-конфиденциални трансакции и усъвършенствани функции, като същевременно остава свързана с основната Blockchain Bitcoin.
 
 
 

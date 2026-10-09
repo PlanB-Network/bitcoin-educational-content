@@ -25,7 +25,7 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 ## 連接至 Proton Wallet
 
 
-前往 [Proton Wallet 網站](https://proton.me/Wallet) 並點選「*Get Proton Wallet*」按鈕。
+前往 [Proton Wallet 網站](https://proton.me/wallet) 並點選「*Get Proton Wallet*」按鈕。
 
 
 ![Image](assets/fr/01.webp)
@@ -215,7 +215,7 @@ Proton Wallet 會自動產生新的空白 Address。
 
 
 - [On the App Store](https://apps.apple.com/us/app/proton-Wallet-secure-btc/id6479609548)；
-- [On Google Play Store](https://play.google.com/store/apps/details?id=me.proton.Wallet.android).
+- [On Google Play Store](https://play.google.com/store/apps/details?id=me.proton.wallet.android).
 
 
 ![Image](assets/fr/26.webp)

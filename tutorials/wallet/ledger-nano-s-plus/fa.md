@@ -52,7 +52,7 @@ Ledger با پذیرش بسیار سریع ویژگی‌های جدید Bitcoin�
 ## چگونه یک Ledger Nano S Plus بخریم؟
 
 
-Ledger Nano S Plus برای فروش [در وب‌سایت رسمی](https://shop.Ledger.com/products/Ledger-nano-s-plus) موجود است. برای خرید آن در فروشگاه فیزیکی، می‌توانید [لیست فروشندگان معتبر](https://www.Ledger.com/reseller) را در وب‌سایت Ledger پیدا کنید.
+Ledger Nano S Plus برای فروش [در وب‌سایت رسمی](https://shop.ledger.com/products/ledger-nano-s-plus) موجود است. برای خرید آن در فروشگاه فیزیکی، می‌توانید [لیست فروشندگان معتبر](https://www.Ledger.com/reseller) را در وب‌سایت Ledger پیدا کنید.
 
 
 ## پیش‌نیازها

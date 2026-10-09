@@ -152,7 +152,7 @@ BTC 202 是一門易於學習的課程，旨在教您如何運行自己的比特
 
 
 
-Nakamoto, S. (2008). *Bitcoin：點對點電子現金系統*。https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin：點對點電子現金系統*。https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Bitcoin 節點共同組成所謂的 Bitcoin 網路。這些節點可讓整個系
 
 > 確認沒有交易的唯一方法，就是注意所有的交易。
 
-Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin.org/Bitcoin.pdf。
+Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://bitcoin.org/bitcoin.pdf。
 
 
 
@@ -383,7 +383,7 @@ Bitcoin core 是 Bitcoin 協定的參考軟體。它源自 Satoshi Nakamoto 在 
 
 
 
-根據 [Luke Dashjr 於 2025 年 8 月收集的資料](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html)（生態系統中的知名開發人員），網路公共節點間的實作分佈如下：
+根據 [Luke Dashjr 於 2025 年 8 月收集的資料](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html)（生態系統中的知名開發人員），網路公共節點間的實作分佈如下：
 
 
 
@@ -766,7 +766,7 @@ pruned 節點會以 Full node 的方式驗證所有東西，從 Genesis 區塊�
 
 
 
-Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008)。 *Bitcoin：點對點電子現金系統*。https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3884,7 +3884,7 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-我們現在已經列出大部分的組態參數。這個 `Bitcoin.conf` 檔案因此構成您節點真正的儀表板：它定義網路組態、Mempool 管理、磁碟和記憶體使用、索引和一般管理。如果您想瞭解更多關於這個檔案的資訊，並建立一個符合您需求的檔案，我建議您使用 [Jameson Lopp 的產生器](https://jlopp.github.io/Bitcoin-core-config-generator/)。
+我們現在已經列出大部分的組態參數。這個 `Bitcoin.conf` 檔案因此構成您節點真正的儀表板：它定義網路組態、Mempool 管理、磁碟和記憶體使用、索引和一般管理。如果您想瞭解更多關於這個檔案的資訊，並建立一個符合您需求的檔案，我建議您使用 [Jameson Lopp 的產生器](https://jlopp.github.io/bitcoin-core-config-generator/)。
 
 
 

@@ -14,7 +14,7 @@ description: Bitcoin의 PayJoin란 무엇인가요?
 PayJoin는 결제 수신자와의 협업을 통해 결제 시 사용자 개인정보 보호를 강화하는 Bitcoin 트랜잭션의 특정 구조입니다.
 
 
-2015년에 [LaurentMT](https://twitter.com/LaurentMT)는 [여기](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)에 액세스할 수 있는 문서에서 이 방법을 "스테가노그래피 트랜잭션"이라고 처음 언급했습니다. 이 기법은 이후 사무라이 Wallet에 의해 채택되었으며, 2018년 Stowaway 툴로 이를 구현한 최초의 클라이언트가 되었습니다. PayJoin의 개념은 [BIP79](https://github.com/Bitcoin/BIPs/blob/master/BIP-0079.mediawiki) 및 [BIP78](https://github.com/Bitcoin/BIPs/blob/master/BIP-0078.mediawiki)에서도 찾아볼 수 있습니다. PayJoin을 지칭하기 위해 여러 용어가 사용됩니다:
+2015년에 [LaurentMT](https://twitter.com/LaurentMT)는 [여기](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)에 액세스할 수 있는 문서에서 이 방법을 "스테가노그래피 트랜잭션"이라고 처음 언급했습니다. 이 기법은 이후 사무라이 Wallet에 의해 채택되었으며, 2018년 Stowaway 툴로 이를 구현한 최초의 클라이언트가 되었습니다. PayJoin의 개념은 [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki) 및 [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki)에서도 찾아볼 수 있습니다. PayJoin을 지칭하기 위해 여러 용어가 사용됩니다:
 
 
 - PayJoin
@@ -67,7 +67,7 @@ PayJoin 거래는 사용자의 결제 개인정보 보호를 강화하는 두 �
 
 
 - https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt;
-- https://github.com/Bitcoin/BIPs/blob/master/BIP-0078.mediawiki.
+- https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki.
 - https://PayJoin.org/
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

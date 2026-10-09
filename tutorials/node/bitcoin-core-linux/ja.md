@@ -217,7 +217,7 @@ Bitcoinノードのログを見るには、Bitcoin.confファイルに`debug=tor
 
 
 - [トーアとBitcoinとの関係を説明するウィキのページ](https://en.Bitcoin.it/wiki/Tor)
-- [ジェイムソン・ロップによるBitcoin coreコンフィギュレーション・ファイル・ジェネレーター](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [ジェイムソン・ロップによるBitcoin coreコンフィギュレーション・ファイル・ジェネレーター](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [ジョン・アタックによるTor設定ガイド](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

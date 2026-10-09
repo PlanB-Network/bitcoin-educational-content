@@ -150,7 +150,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 - Igikoresho ca Android Flash**: Koresha igikoresho cemewe ca Google kugira ngo usubize mu buryo bworoshe igikoresho cawe ca Pixel kugira ngo ukoreshe Android ukoresheje umucukumbuzi wawe w'urubuga (Chrome/Edge irakenewe)
-- Ubundi**: Amashusho y'uruganda n'amaboko avuye kuri [abahinguzi.google.com/android/amashusho](https://abahinguzi.google.com/android/amashusho)
+- Ubundi**: Amashusho y'uruganda n'amaboko avuye kuri [abahinguzi.google.com/android/amashusho](https://developers.google.com/android/images)
 
 
 
@@ -249,7 +249,7 @@ Dushingiye ku mibare yemewe, ibikoresho bikoreshwa cane birimwo ibikoresho bitan
 
 
 
-- Build LineageOS**: [gukuraho.umurongo.org/ibikoresho/urubeya/yubaka](https://gukuraho.umurongo.org/ibikoresho/urubeya/yubaka)
+- Build LineageOS**: [gukuraho.umurongo.org/ibikoresho/urubeya/yubaka](https://download.lineageos.org/devices/flame/builds)
 - Dosiye zikenewe**: Kura amadosiye 3 asabwa kuri iyi paji (azokoreshwa mu ntambwe zikurikira):
   - `umuryango-22.2-YYYYMMDD-ijoro-imbeya-yashizweko umukono.zip` (ROM nyamukuru)
   - dtbo.img` (igiti c'igikoresho co gucapura)
@@ -724,8 +724,8 @@ LineageOS itanga uburyo bukomeye bwo gusubira kugenzura telefone yawe ngendanwa 
 
 
 - [Urubuga rwemewe rwa LineageOS](https://umuryango.org)
-- [UmurongoOS Wiki](https://wiki.umurongo.org) - Uburongozi bwo gushiramwo hakurikijwe urugero
-- [UmurongoOS wa microG](https://umuryango.microg.org) - Verisiyo ifise microG yunze ubumwe
+- [UmurongoOS Wiki](https://wiki.lineageos.org) - Uburongozi bwo gushiramwo hakurikijwe urugero
+- [UmurongoOS wa microG](https://lineage.microg.org) - Verisiyo ifise microG yunze ubumwe
 
 
 

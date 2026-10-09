@@ -36,7 +36,7 @@ De Ninja SAFU-benadering biedt verschillende voordelen:
 
 
 
-- **Betrouwbaarheid**: De methode is getest sinds 2020 en is beproefd door veiligheidsexperts zoals [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), die de methode hebben onderworpen aan strenge stresstests (extreme hitte, corrosie, mechanische druk).
+- **Betrouwbaarheid**: De methode is getest sinds 2020 en is beproefd door veiligheidsexperts zoals [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), die de methode hebben onderworpen aan strenge stresstests (extreme hitte, corrosie, mechanische druk).
 
 
 
@@ -354,13 +354,13 @@ Volgens Jameson Lopp:
 
 
 
-- [Verslag](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) over de Ninja SAFU-methode
+- [Verslag](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) over de Ninja SAFU-methode
 
 
 
 
 
-- Vergelijkingstabel [volledig](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Vergelijkingstabel [volledig](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

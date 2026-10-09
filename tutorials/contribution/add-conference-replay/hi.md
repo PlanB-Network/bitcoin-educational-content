@@ -27,7 +27,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- PlanB के डेटा से संबंधित GitHub रिपॉजिटरी (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) पर जाएं और `resources/conference/` सेक्शन में जाएं:
+- PlanB के डेटा से संबंधित GitHub रिपॉजिटरी (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conferences) पर जाएं और `resources/conference/` सेक्शन में जाएं:
 
 ![conference](assets/02.webp)
 

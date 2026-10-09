@@ -152,7 +152,7 @@ BTC 202 е достъпен курс, предназначен да ви нау�
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -204,7 +204,7 @@ Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://B
 
 > Единственият начин да потвърдите липсата на транзакция е да сте наясно с всички транзакции.
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -383,7 +383,7 @@ Bitcoin Core е референтният софтуер за протокола 
 
 
 
-Според [данни, събрани през август 2025 г. от Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (известен разработчик в екосистемата) разпределението сред публичните възли на мрежата е следното:
+Според [данни, събрани през август 2025 г. от Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (известен разработчик в екосистемата) разпределението сред публичните възли на мрежата е следното:
 
 
 
@@ -766,7 +766,7 @@ Full node няма нужда да се доверява на никого, тъ
 
 
 
-Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System*. https://bitcoin.org/bitcoin.pdf
 
 
 
@@ -3883,7 +3883,7 @@ Full node добавя повече стойност към мрежата, ка
 
 
 
-Вече приключихме с изброяването на повечето параметри на конфигурацията. По този начин този файл `Bitcoin.conf` представлява истинското табло за управление на вашия възел: той определя конфигурацията на мрежата, управлението на Mempool, използването на диска и паметта, индексирането и общото администриране. Ако искате да научите повече за този файл и да създадете такъв, съобразен с вашите нужди, препоръчвам ви да използвате генератора [Jameson Lopp's generator](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Вече приключихме с изброяването на повечето параметри на конфигурацията. По този начин този файл `Bitcoin.conf` представлява истинското табло за управление на вашия възел: той определя конфигурацията на мрежата, управлението на Mempool, използването на диска и паметта, индексирането и общото администриране. Ако искате да научите повече за този файл и да създадете такъв, съобразен с вашите нужди, препоръчвам ви да използвате генератора [Jameson Lopp's generator](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

@@ -322,7 +322,7 @@ La SCB è necessaria solo se si hanno canali LN aperti. Se si dispone solo di fo
 Se vedete che dopo molto tempo non vengono ancora mostrati i vecchi tx della cronologia, andate su Nodo incorporato - Peers e disabilitate l'opzione per utilizzare l'elenco dei peer selezionati (di default è btcd.lnolymp.us). In questo modo si attiverà un riavvio e ci si connetterà al primo nodo neutrino disponibile con una risposta temporale migliore. Oppure utilizzare gli altri peer di neutrino ben noti citati di seguito.
 
 
-Se volete vedere altre opzioni di recupero per un nodo LND, [leggete la mia guida precedente](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), dove potete trovare i passaggi per importare un seed in Sparrow Wallet o altri metodi.
+Se volete vedere altre opzioni di recupero per un nodo LND, [leggete la mia guida precedente](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), dove potete trovare i passaggi per importare un seed in Sparrow Wallet o altri metodi.
 
 
 **C - Nodo incorporato**

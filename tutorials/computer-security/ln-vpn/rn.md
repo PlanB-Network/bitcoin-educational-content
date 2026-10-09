@@ -28,7 +28,7 @@ Iciyumviro💡: **Iyi nkuru idondora ingene ukoresha LN VPN ukoresheje ubuhinga 
 Mu majambo yoroshe, Wireguard ikoreshwa mu gukora umugende utekanye hagati ya mudasobwa yawe na server iri kure uzocamwo kugira ngo ukoreshe Internet. Ni IP Address y’iyi server izoboneka nk’iyawe mu kiringo cose c’ubukode uzokoresha Contract ukurikije iyi nsiguro.
 
 
-Inyigisho yemewe yo gushiramwo Wireguard: https://www.wireguard.com/shiramwo/
+Inyigisho yemewe yo gushiramwo Wireguard: https://www.wireguard.com/install/
 
 
 ```

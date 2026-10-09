@@ -86,7 +86,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Installatie en configuratie
 
 
-Bezoek de officiële Wizardsardine website en download Liana op https://wizardsardine.com/Liana/. Je kunt ook de laatste versie downloaden [van de GitHub repository](https://github.com/wizardsardine/Liana/releases), waar je de authenticiteit van de software kunt controleren. De versie die in deze tutorial wordt gebruikt is 0.9.
+Bezoek de officiële Wizardsardine website en download Liana op https://wizardsardine.com/liana/. Je kunt ook de laatste versie downloaden [van de GitHub repository](https://github.com/wizardsardine/Liana/releases), waar je de authenticiteit van de software kunt controleren. De versie die in deze tutorial wordt gebruikt is 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -366,7 +366,7 @@ Eenmaal bevestigd, is je munt (UTXO) veilig! Je kunt gerust zijn tot de volgende
 Wanneer je geld terughaalt van de Liana Wallet, kun je te maken krijgen met één van twee situaties. Misschien heb je toegang tot de computer waarop de software geïnstalleerd is, in dat geval hoef je hem alleen maar te openen (wat zal gebeuren in het geval van het uitgebreide back-up model). Het is echter mogelijk dat je geen toegang hebt tot deze computer, dus beginnen we hier vanaf nul. Merk op dat de herstelprocedure in beide gevallen hetzelfde is.
 
 
-Om te beginnen, download Liana van [de officiële Wizardsardine website](https://wizardsardine.com/Liana/), of van [de GitHub repository](https://github.com/wizardsardine/Liana/releases), waar je de authenticiteit van de software kunt controleren. Installeer de software en voer het uit. De versie die wij gebruiken is 0.9, dus de afbeeldingen kunnen veranderd zijn. Selecteer op het welkomstscherm de optie "Add an existing Liana wallet".
+Om te beginnen, download Liana van [de officiële Wizardsardine website](https://wizardsardine.com/liana/), of van [de GitHub repository](https://github.com/wizardsardine/Liana/releases), waar je de authenticiteit van de software kunt controleren. Installeer de software en voer het uit. De versie die wij gebruiken is 0.9, dus de afbeeldingen kunnen veranderd zijn. Selecteer op het welkomstscherm de optie "Add an existing Liana wallet".
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

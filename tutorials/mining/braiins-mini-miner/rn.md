@@ -14,7 +14,7 @@ Ubwonko bwa Mini Miner BMM 100 ni igikoresho cakozwe n’ishirahamwe ry’ubwonk
 
 
 
-Ushobora kandi kuronka amakuru ahambaye cane mu kuraba uburongozi bwose ataco uhinduye kuri [urubuga rw’umuhinguzi](https://braiins.com/hardware/mini-Miner-bmm-100).
+Ushobora kandi kuronka amakuru ahambaye cane mu kuraba uburongozi bwose ataco uhinduye kuri [urubuga rw’umuhinguzi](https://braiins.com/hardware/mini-miner-bmm-100).
 
 
 
@@ -240,7 +240,7 @@ iyo usubiye ku dashboard ushobora gutangura kubona movement ku graph ukabona Has
 
 
 
-Biciye muri iki kidengeri umuntu arashobora kugerageza amahirwe yiwe n’ayanje wenyene, yishingikirije ku kidengeri. Muri ivyo ntituzoronka impembo, ariko tuzoronka impembo yuzuye nitwashobora gucukura ibuye. Tuzoca duhuza n’ikidengeri ca bose, ikidengeri ca Mining gusa gifunguye rwose. Turafungura idirisha rishasha ku mucukumbuzi maze tuja kuri [urubuga.abantu bose.io](https://urubuga.abantu bose.io/#/).
+Biciye muri iki kidengeri umuntu arashobora kugerageza amahirwe yiwe n’ayanje wenyene, yishingikirije ku kidengeri. Muri ivyo ntituzoronka impembo, ariko tuzoronka impembo yuzuye nitwashobora gucukura ibuye. Tuzoca duhuza n’ikidengeri ca bose, ikidengeri ca Mining gusa gifunguye rwose. Turafungura idirisha rishasha ku mucukumbuzi maze tuja kuri [urubuga.abantu bose.io](https://web.public-pool.io/#/).
 
 
 

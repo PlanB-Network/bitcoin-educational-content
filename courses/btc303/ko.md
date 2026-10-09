@@ -320,7 +320,7 @@ Trustless은 무엇을 의미하나요? Pieter Wuille이 [Stack Exchange](https:
 간단히 말해, *Trustless*라는 단어는 "신뢰할 수 있는 당사자" 없이도 논리적으로 작동할 수 있는 Bitcoin 프로토콜의 속성을 의미합니다. 이는 사용자가 실행하는 소프트웨어나 하드웨어에 필연적으로 투입해야 하는 신뢰와는 다릅니다. 이 후자의 신뢰 측면에 대해서는 이 장에서 자세히 설명합니다.
 
 
-중앙 집중식 시스템에서는 중앙 주체의 평판에 의존하여 보안을 관리하거나 문제 발생 시 롤백할 수 있도록 하고, 위반 시 법적 제재를 가하기 위해 법적 시스템에 의존합니다. 이러한 신뢰 요건은 익명 탈중앙화 시스템에서 문제가 되는데, 의지할 수 있는 가능성이 없기 때문에 실제로 신뢰가 있을 수 없습니다. Bitcoin 백서](https://Bitcoin.org/Bitcoin.pdf)의 서론에서 Satoshi 나카모토는 이 문제에 대해 설명합니다:
+중앙 집중식 시스템에서는 중앙 주체의 평판에 의존하여 보안을 관리하거나 문제 발생 시 롤백할 수 있도록 하고, 위반 시 법적 제재를 가하기 위해 법적 시스템에 의존합니다. 이러한 신뢰 요건은 익명 탈중앙화 시스템에서 문제가 되는데, 의지할 수 있는 가능성이 없기 때문에 실제로 신뢰가 있을 수 없습니다. Bitcoin 백서](https://bitcoin.org/bitcoin.pdf)의 서론에서 Satoshi 나카모토는 이 문제에 대해 설명합니다:
 
 
 > 인터넷 상거래는 전자 결제를 처리하는 신뢰할 수 있는 제3자 역할을 하는 금융 기관에 거의 전적으로 의존하게 되었습니다.
@@ -333,7 +333,7 @@ Trustless은 무엇을 의미하나요? Pieter Wuille이 [Stack Exchange](https:
 Bitcoin을 Trustless 방식으로 사용하려면, 완전 검증 Bitcoin 노드를 실행해야 합니다. 그래야만 다른 사람들로부터 받은 블록이 합의 규칙을 따르고 있는지, 예를 들어 Coin 발행 일정이 지켜지고 있는지, Blockchain에서 이중 지출이 발생하지 않는지 등을 확인할 수 있습니다. Full node을 실행하지 않는다면, Bitcoin 블록의 검증을 다른 사람에게 아웃소싱하고 그들이 진실을 말할 것이라고 신뢰한다는 의미이며, 이는 Bitcoin을 신뢰하지 않고 사용하는 것이 아니라는 뜻입니다.
 
 
-데이비드 하딩은 [Bitcoin.org 웹사이트의 글](https://Bitcoin.org/en/Bitcoin-core/features/validation)을 작성하여 Full node를 실행하거나 신뢰 없이 Bitcoin을 사용하는 것이 실제로 어떻게 도움이 되는지 설명합니다:
+데이비드 하딩은 [Bitcoin.org 웹사이트의 글](https://bitcoin.org/en/bitcoin-core/features/validation)을 작성하여 Full node를 실행하거나 신뢰 없이 Bitcoin을 사용하는 것이 실제로 어떻게 도움이 되는지 설명합니다:
 
 
 > Bitcoin 통화는 사람들이 다른 가치 있는 물건으로 Exchange의 비트코인을 받을 때만 작동합니다. 즉, 비트코인을 받는 사람들이 가치를 부여하고 Bitcoin의 작동 방식을 결정한다는 뜻입니다.
@@ -522,7 +522,7 @@ Bitcoin에서 개인정보 보호가 중요한 이유는 분명해 보이지만,
 Blockchain 개인정보는 Blockchain에서 거래할 때 공개하는 정보를 말합니다. 이는 보내는 거래뿐만 아니라 받는 거래까지 모든 거래에 적용됩니다.
 
 
-Satoshi 나카모토는 [Bitcoin 백서](https://Bitcoin.org/Bitcoin.pdf)의 섹션 7에서 On-Chain 개인정보 보호에 대해 깊이 생각해봅니다:
+Satoshi 나카모토는 [Bitcoin 백서](https://bitcoin.org/bitcoin.pdf)의 섹션 7에서 On-Chain 개인정보 보호에 대해 깊이 생각해봅니다:
 
 
 > 추가 방화벽으로 각 트랜잭션에 대해 새로운 키 쌍을 사용해 공통 소유자에게 연결되지 않도록 해야 합니다. 다중 입력 트랜잭션의 경우 일부 연결은 여전히 피할 수 없는데, 이는 입력이 동일한 소유자에 의해 소유되었음을 반드시 드러내야 합니다. 키의 소유자가 밝혀지면 연결 시 동일한 소유자가 소유한 다른 트랜잭션이 드러날 수 있다는 위험이 있습니다.
@@ -744,7 +744,7 @@ Block reward는 [블록 보조금](https://planb.academy/resources/glossary/bloc
 미래에 대한 희망에 찬물을 끼얹는 것은 채굴자들이 수수료 스나이핑을 시작하면 다른 채굴자들도 같은 행동을 하도록 부추겨 정직한 채굴자는 더욱 줄어들 것이라는 사실입니다. 이는 Bitcoin의 전반적인 보안을 심각하게 손상시킬 수 있습니다. 하딩은 트랜잭션 시간 제한을 통해 Blockchain에서 트랜잭션이 나타날 수 있는 위치를 제한하는 등 취할 수 있는 몇 가지 대응책을 나열했습니다.
 
 
-따라서 유한한 Supply에 대한 합의가 유지된다면, 블록 보조금은 - 매우 장기적인 인플레이션 버그를 수정한 [BIP42](https://github.com/Bitcoin/BIPs/blob/master/BIP-0042.mediawiki) 덕분에 - 2140년경에 0이 될 것입니다. 그 이후에도 트랜잭션 수수료가 네트워크를 보호하기에 충분할까요?
+따라서 유한한 Supply에 대한 합의가 유지된다면, 블록 보조금은 - 매우 장기적인 인플레이션 버그를 수정한 [BIP42](https://github.com/bitcoin/bips/blob/master/bip-0042.mediawiki) 덕분에 - 2140년경에 0이 될 것입니다. 그 이후에도 트랜잭션 수수료가 네트워크를 보호하기에 충분할까요?
 
 
 단언하기는 어렵지만 몇 가지 사실을 알고 있습니다:
@@ -817,7 +817,7 @@ Bitcoin을 안전한 방식으로 업그레이드하는 것은 매우 어려울 
 Bitcoin 합의 규칙에 대한 변경은 완전히 호환되는 경우 *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)*이라고 합니다. 이는 이 장에서 자세히 설명할 여러 가지 이유로 인해 Bitcoin를 업그레이드하는 가장 일반적인 방법입니다. Bitcoin 합의 규칙의 변경 사항이 이전 버전과 호환되지만 앞으로는 호환되지 않는 경우 이를 *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*이라고 합니다.
 
 
-Soft 포크와 Hard 포크에 대한 기술 개요는 [그로킹 Bitcoin의 11장](https://rosenbaum.se/book/grokking-Bitcoin-11.html)을 참조하세요. 여기에는 이러한 용어에 대한 설명과 업그레이드 메커니즘에 대해서도 자세히 설명되어 있습니다. 꼭 필요한 것은 아니지만 계속 읽기 전에 이 내용을 숙지하는 것이 좋습니다.
+Soft 포크와 Hard 포크에 대한 기술 개요는 [그로킹 Bitcoin의 11장](https://rosenbaum.se/book/grokking-bitcoin-11.html)을 참조하세요. 여기에는 이러한 용어에 대한 설명과 업그레이드 메커니즘에 대해서도 자세히 설명되어 있습니다. 꼭 필요한 것은 아니지만 계속 읽기 전에 이 내용을 숙지하는 것이 좋습니다.
 
 
 ### 과거 업그레이드
@@ -832,8 +832,8 @@ Bitcoin은 Genesis 블록이 만들어졌을 때와 현재가 다릅니다. 수�
 그는 의도적이든 아니든 이 Hard Fork가 향후 Soft 포크, 즉 스크립트 연산자([opcode](https://planb.academy/resources/glossary/opcodes)) OP_NOP1-OP_NOP10을 위한 기회를 만들었다고 지적합니다. 이 코드 변경에 대해서는 cve-2010-5141에서 자세히 살펴보겠습니다. 이 옵코드는 지금까지 두 번의 Soft 포크에 사용되었습니다:
 
 
-- [bip65](https://github.com/Bitcoin/BIPs/blob/master/BIP-0065.mediawiki) (op_checklocktimeverify)
-- [bip113](https://github.com/Bitcoin/BIPs/blob/master/BIP-0112.mediawiki) (op_sequenceverify).
+- [bip65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) (op_checklocktimeverify)
+- [bip113](https://github.com/bitcoin/bips/blob/master/bip-0112.mediawiki) (op_sequenceverify).
 
 
 롬브로조는 또한 2017년까지 수년간 업그레이드 메커니즘이 어떻게 발전해왔는지에 대한 개요도 제공합니다. 그 이후로 단 한 번의 주요 업그레이드인 [Taproot](https://planb.academy/resources/glossary/taproot)만이 배포되었습니다. 이 업그레이드가 활성화되기까지 길고 다소 혼란스러웠던 과정을 통해 Bitcoin의 업그레이드 메커니즘에 대한 더 많은 인사이트를 얻을 수 있었습니다.
@@ -868,7 +868,7 @@ UASF 제안은 간단히 말해 노드가 특정 새 규칙을 시행하기 시�
 > 제 제안은 두 가지 장점을 모두 갖추는 것입니다. 사용자가 활성화한 Soft Fork는 활성화까지 비교적 긴 리드 타임이 필요하므로 BIP9와 결합하여 더 빠른 Hash 전력 조정 활성화 또는 깃발일별 활성화 중 더 빠른 옵션을 제공할 수 있습니다.
 > 두 경우 모두 BIP9의 경고 시스템을 활용할 수 있습니다. 변경은 비교적 간단한데, 활성화 시간 매개변수를 추가하여 BIP9 배포 타임아웃이 끝나기 전에 BIP9 상태를 LOCKED_IN으로 전환하는 것입니다.
 
-이 아이디어는 많은 관심을 끌었지만 만장일치에 가까운 지지를 얻지 못했고, 이로 인해 잠재적인 체인 분열에 대한 우려를 불러일으켰습니다. 제임스 힐리아드가 작성한 [BIP91](https://github.com/Bitcoin/BIPs/blob/master/BIP-0091.mediawiki)에서 이 문제가 어떻게 해결되었는지에 대해 설명하는 Aaron van Wirdum의 글을 읽어보세요:
+이 아이디어는 많은 관심을 끌었지만 만장일치에 가까운 지지를 얻지 못했고, 이로 인해 잠재적인 체인 분열에 대한 우려를 불러일으켰습니다. 제임스 힐리아드가 작성한 [BIP91](https://github.com/bitcoin/bips/blob/master/bip-0091.mediawiki)에서 이 문제가 어떻게 해결되었는지에 대해 설명하는 Aaron van Wirdum의 글을 읽어보세요:
 
 
 > 힐리어드는 모든 것을 호환할 수 있는 약간 복잡하지만 영리한 해결책을 제안했습니다: Bitcoin core 개발팀에서 제안한 분리된 증인 활성화, BIP148 UASF 및 뉴욕 협정 활성화 메커니즘입니다. 그의 BIP91은 적어도 SegWit이 활성화되는 동안에는 Bitcoin을 온전하게 유지할 수 있었습니다.
@@ -920,9 +920,9 @@ SegWit 배포 이후, 배포 메커니즘에 대한 논의가 시작되었습니
 [Bitcoin 위키](https://en.Bitcoin.it/wiki/Taproot_activation_proposals)에 요약되어 있습니다. 이 글에서 그는 BIP8의 몇 가지 속성을 설명했는데, 당시에는 더 유연하게 만들기 위해 최근 몇 가지 변경 사항이 있었습니다.
 
 
-> 이 문서가 작성되는 시점에 [BIP8](https://github.com/Bitcoin/BIPs/blob/master/BIP-0008.mediawiki)은 2017년에 배운 교훈을 바탕으로 초안이 작성되었습니다. BIPs 9+148에서 주목할 만한 변화 중 하나는 강제 활성화가 이제 과거의 중간 시간이 아닌 블록 높이를 기준으로 한다는 것이고, 두 번째 주목할 만한 변화는 강제 활성화가 초기 배포를 위해 설정되거나 이후 배포에서 업데이트될 때 선택되는 부울 매개변수라는 점입니다.
+> 이 문서가 작성되는 시점에 [BIP8](https://github.com/bitcoin/bips/blob/master/bip-0008.mediawiki)은 2017년에 배운 교훈을 바탕으로 초안이 작성되었습니다. BIPs 9+148에서 주목할 만한 변화 중 하나는 강제 활성화가 이제 과거의 중간 시간이 아닌 블록 높이를 기준으로 한다는 것이고, 두 번째 주목할 만한 변화는 강제 활성화가 초기 배포를 위해 설정되거나 이후 배포에서 업데이트될 때 선택되는 부울 매개변수라는 점입니다.
 
-강제 활성화가 없는 BIP8은 타임아웃 및 지연이 있는 [BIP9](https://github.com/Bitcoin/BIPs/blob/master/BIP-0009.mediawiki) 버전 비트와 매우 유사하며, 유일한 중요한 차이점은 BIP9의 중간 시간 경과에 비해 BIP8은 블록 높이를 사용한다는 점입니다. 이 설정을 사용하면 시도가 실패할 수 있지만 나중에 다시 시도할 수 있습니다.
+강제 활성화가 없는 BIP8은 타임아웃 및 지연이 있는 [BIP9](https://github.com/bitcoin/bips/blob/master/bip-0009.mediawiki) 버전 비트와 매우 유사하며, 유일한 중요한 차이점은 BIP9의 중간 시간 경과에 비해 BIP8은 블록 높이를 사용한다는 점입니다. 이 설정을 사용하면 시도가 실패할 수 있지만 나중에 다시 시도할 수 있습니다.
 
 
 강제 활성화가 있는 BIP8은 규칙에 따라 생성된 모든 블록이 비강제 활성화가 있는 동일한 Soft Fork의 이전 배포에서 활성화를 트리거하는 방식으로 Soft Fork에 대한 준비 상태를 신호해야 하는 필수 신호 기간으로 마무리됩니다. 즉, 강제 활성화 없이 노드 버전 x가 릴리스되고 나중에 같은 기간 내에 채굴자가 준비 상태를 성공적으로 신호하도록 강제하는 버전 y가 릴리스되면 두 버전이 동시에 새로운 합의 규칙을 적용하기 시작합니다.
@@ -1260,7 +1260,7 @@ Bitcoin 소프트웨어를 개발하기 위해 허가를 요청할 필요가 없
 글과 Bitcoin 및 Lightning Network에 대한 제 작업물을 참고하세요.
 
 
-그의 경우 가명을 사용하는 이유는 가명의 배후에 있는 사람이 누구인지가 아니라 그의 장점에 따라 판단해야 한다는 것입니다. 흥미롭게도 그는 [코인데스크 기사](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/)에서 가명이 다른 이유로 만들어졌다고 밝혔습니다.
+그의 경우 가명을 사용하는 이유는 가명의 배후에 있는 사람이 누구인지가 아니라 그의 장점에 따라 판단해야 한다는 것입니다. 흥미롭게도 그는 [코인데스크 기사](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/)에서 가명이 다른 이유로 만들어졌다고 밝혔습니다.
 
 
 > 처음에 가명을 사용한 이유는 단순히 큰 실수를 저지를까 봐 걱정이 되었기 때문이었기 때문에 ZmnSCPxj는 원래 그런 경우 버릴 수 있는 일회용 가명이었습니다. 하지만 대체로 긍정적인 평판을 얻은 것 같아서 그대로 유지했습니다
@@ -1335,7 +1335,7 @@ Bitcoin에서 가장 잘 알려진 가명은 Satoshi 나카모토입니다. 그�
 각 단계마다 서로 다른 관점과 배경을 가진 사람들이 소스 코드, BIP 또는 느슨하게 설명된 아이디어 등 사용 가능한 정보를 검토합니다. 이 단계는 일반적으로 엄격한 하향식 방식으로 수행되지 않으며, 실제로 여러 단계가 동시에 진행될 수 있고 때로는 여러 단계를 오가기도 합니다. 또한 여러 사람이 각 단계마다 피드백을 제공할 수도 있습니다.
 
 
-Bitcoin core에서 가장 많은 코드 리뷰어 중 한 명은 Jon Atack입니다. 그는 Bitcoin core에서 풀 리퀘스트를 검토하는 방법에 대한 [블로그 게시물](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core)을 작성했습니다. 그는 훌륭한 코드 리뷰어는 가치를 가장 잘 추가하는 방법에 초점을 맞춘다고 강조합니다.
+Bitcoin core에서 가장 많은 코드 리뷰어 중 한 명은 Jon Atack입니다. 그는 Bitcoin core에서 풀 리퀘스트를 검토하는 방법에 대한 [블로그 게시물](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core)을 작성했습니다. 그는 훌륭한 코드 리뷰어는 가치를 가장 잘 추가하는 방법에 초점을 맞춘다고 강조합니다.
 
 
 > 신입사원으로서 최대한 많은 것을 배우면서 친절하고 겸손한 자세로 가치를 더하는 것이 목표입니다.
@@ -1468,7 +1468,7 @@ Bitcoin의 맥락에서, 그리고 이 책의 목적을 위해 확장이란 *검
 > Satoshi 나카모토가 썼습니다:
 >
 
-> "저는 신뢰할 수 있는 제3자가 없는 완전한 P2P 방식의 새로운 전자 현금 시스템을 개발 중입니다.  논문은 http://www.Bitcoin.org/Bitcoin.pdf 에서 확인할 수 있습니다."
+> "저는 신뢰할 수 있는 제3자가 없는 완전한 P2P 방식의 새로운 전자 현금 시스템을 개발 중입니다.  논문은 http://www.bitcoin.org/bitcoin.pdf 에서 확인할 수 있습니다."
 >
 
 > 저희에게는 이러한 시스템이 매우 필요하지만, 제가 이해한 바로는 필요한 규모로 확장할 수 없는 것 같습니다.
@@ -1551,7 +1551,7 @@ Bitcoin에서 수직 확장을 위해 가장 일반적으로 논의되는 기술
 수평적 확장은 워크로드를 여러 머신에 분산하는 기술을 말합니다. 이는 널리 사용되는 웹사이트와 데이터베이스에서 널리 사용되는 확장 방식이지만, Bitcoin에서는 쉽게 수행되지 않습니다.
 
 
-많은 사람들이 이 Bitcoin 확장 방식을 *샤딩*이라고 부릅니다. 기본적으로 각 Full node이 Blockchain의 일부만 확인하도록 하는 것으로 구성됩니다. 피터 토드는 샤딩의 개념에 대해 많은 생각을 해왔습니다. 그는 [블로그 포스트](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard)를 작성하여 샤딩을 일반적으로 설명하고 *트리체인*이라는 자신의 아이디어를 제시하기도 했습니다. 이 글은 읽기 어렵지만, Todd는 꽤 이해할 수 있는 몇 가지 요점을 제시하고 있습니다:
+많은 사람들이 이 Bitcoin 확장 방식을 *샤딩*이라고 부릅니다. 기본적으로 각 Full node이 Blockchain의 일부만 확인하도록 하는 것으로 구성됩니다. 피터 토드는 샤딩의 개념에 대해 많은 생각을 해왔습니다. 그는 [블로그 포스트](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard)를 작성하여 샤딩을 일반적으로 설명하고 *트리체인*이라는 자신의 아이디어를 제시하기도 했습니다. 이 글은 읽기 어렵지만, Todd는 꽤 이해할 수 있는 몇 가지 요점을 제시하고 있습니다:
 
 
 > 샤드 시스템에서는 'Full node 방어'가 적어도 직접적으로는 작동하지 않습니다. 요점은 모든 사람이 모든 데이터를 가지고 있는 것은 아니므로 데이터를 사용할 수 없을 때 어떻게 될지 결정해야 한다는 것입니다.
@@ -1967,7 +1967,7 @@ OP_RETURN 이슈에 비해 이번 이슈는 다소 깔끔하게 처리되었습�
 
 
 
-2013년 3월에 교육적으로 매우 흥미로운 문제가 발생했습니다. 블록 225429 이후 Blockchain이 분리된 것으로 나타났습니다(아래 인용문에서는 "Fork"이라는 단어가 사용되었지만). 이 사건에 대한 자세한 내용은 [BIP50에 보고](https://github.com/Bitcoin/BIPs/blob/master/BIP-0050.mediawiki)되었습니다. 요약은 다음과 같습니다:
+2013년 3월에 교육적으로 매우 흥미로운 문제가 발생했습니다. 블록 225429 이후 Blockchain이 분리된 것으로 나타났습니다(아래 인용문에서는 "Fork"이라는 단어가 사용되었지만). 이 사건에 대한 자세한 내용은 [BIP50에 보고](https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki)되었습니다. 요약은 다음과 같습니다:
 
 
 > 이전보다 더 많은 수의 총 트랜잭션 입력이 있는 블록이 채굴되어 브로드캐스트되었습니다. Bitcoin 0.8 노드는 이를 처리할 수 있었지만, 일부 0.8 이전 Bitcoin 노드는 이를 거부하여 예상치 못한 Blockchain의 Fork이 발생했습니다. 이 시점에서 0.8 이전 호환되지 않는 체인(이후부터는 0.8 체인)의 전력은 Mining Hash의 약 60%를 차지하여 분할이 자동으로 해결되지 않았습니다(0.8 이전 체인의 총 작업량이 0.8 체인보다 많아 0.8 노드가 0.8 이전 체인으로 재조직되었을 경우와 마찬가지로).
@@ -1978,7 +1978,7 @@ OP_RETURN 이슈에 비해 이번 이슈는 다소 깔끔하게 처리되었습�
 이 비상 상황에서 BTCGuild와 Slush가 취한 Mining 풀의 신속한 조치는 필수적이었습니다. 이들은 Hash 파워의 대부분을 분할 이전 0.8 브랜치로 넘겨 합의를 회복하는 데 도움을 줄 수 있었습니다. 이를 통해 개발자들은 지속 가능한 해결책을 찾을 수 있는 시간을 확보할 수 있었습니다.
 
 
-이 문제에서 매우 흥미로운 점은 이전 버전과 마찬가지로 0.7.2 버전도 자체적으로 호환되지 않는다는 것입니다. 이에 대해서는 [BIP50의 근본 원인 섹션](https://github.com/Bitcoin/BIPs/blob/master/BIP-0050.mediawiki#root-cause)에 설명되어 있습니다:
+이 문제에서 매우 흥미로운 점은 이전 버전과 마찬가지로 0.7.2 버전도 자체적으로 호환되지 않는다는 것입니다. 이에 대해서는 [BIP50의 근본 원인 섹션](https://github.com/bitcoin/bips/blob/master/bip-0050.mediawiki#root-cause)에 설명되어 있습니다:
 
 
 > 불충분하게 높은 BDB 잠금 구성으로 인해 암묵적으로 블록 유효성을 결정하는 네트워크 합의 규칙이 되었지만(
@@ -2019,7 +2019,7 @@ BIP66은 그 중요성을 강조한다는 점에서 흥미롭습니다:
 - 검증된 블록 위에 Mining 탑재
 
 
-BIP66은 Bitcoin 스크립트의 서명 인코딩 규칙을 강화하기 위한 제안이었습니다. 그 [동기](https://github.com/Bitcoin/BIPs/blob/master/BIP-0066.mediawiki#motivation)는 OpenSSL 이외의 소프트웨어나 라이브러리, 심지어 최신 버전의 OpenSSL에서도 서명을 파싱할 수 있게 하자는 것이었습니다. OpenSSL은 당시 Bitcoin core가 사용하던 범용 암호화 라이브러리입니다.
+BIP66은 Bitcoin 스크립트의 서명 인코딩 규칙을 강화하기 위한 제안이었습니다. 그 [동기](https://github.com/bitcoin/bips/blob/master/bip-0066.mediawiki#motivation)는 OpenSSL 이외의 소프트웨어나 라이브러리, 심지어 최신 버전의 OpenSSL에서도 서명을 파싱할 수 있게 하자는 것이었습니다. OpenSSL은 당시 Bitcoin core가 사용하던 범용 암호화 라이브러리입니다.
 
 
 BIP은 2015년 7월 4일에 활성화되었습니다. 그러나 위의 내용은 사실이지만 BIP66은 BIP에서 언급되지 않은 훨씬 더 심각한 문제도 해결합니다.
@@ -2101,7 +2101,7 @@ OpenSSL은 처음부터 Bitcoin에서 사용했다면 이 문제를 해결할 �
 
 
 
-안타깝게도 BIP66의 이야기는 여기서 끝나지 않았습니다. BIP66이 활성화되었을 때, 일부 채굴자가 확장하려는 블록을 검증하지 않았기 때문에 상당히 혼란스러웠습니다. 이를 무검증 Mining 또는 SPV-Mining(간편 결제 검증에서와 같이)이라고 합니다. 이 문제를 설명하는 웹 페이지(https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) 링크가 포함된 경고 메시지가 Bitcoin 노드에 전송되었습니다:
+안타깝게도 BIP66의 이야기는 여기서 끝나지 않았습니다. BIP66이 활성화되었을 때, 일부 채굴자가 확장하려는 블록을 검증하지 않았기 때문에 상당히 혼란스러웠습니다. 이를 무검증 Mining 또는 SPV-Mining(간편 결제 검증에서와 같이)이라고 합니다. 이 문제를 설명하는 웹 페이지(https://bitcoin.org/en/alert/2015-07-04-spv-mining) 링크가 포함된 경고 메시지가 Bitcoin 노드에 전송되었습니다:
 
 
 > 2015년 7월 4일 이른 아침, 950/1000(95%) 임계값에 도달했습니다. 얼마 지나지 않아, 예상했던 대로 소규모 Miner(업그레이드되지 않은 5%의 일부)이 유효하지 않은 블록을 채굴했습니다. 안타깝게도 네트워크 Hash 비율의 약 절반이 블록을 완전히 검증하지 않고(SPV Mining라고 함) 유효하지 않은 블록 위에 새로운 블록을 생성한 것으로 밝혀졌습니다.

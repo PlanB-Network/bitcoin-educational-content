@@ -83,7 +83,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Instalacja i konfiguracja
 
 
-Odwiedź oficjalną stronę Wizardsardine i pobierz Liana pod adresem https://wizardsardine.com/Liana/. Możesz również pobrać najnowszą wersję [z repozytorium GitHub](https://github.com/wizardsardine/Liana/releases), gdzie możesz sprawdzić autentyczność oprogramowania. Wersja używana w tym poradniku to 0.9.
+Odwiedź oficjalną stronę Wizardsardine i pobierz Liana pod adresem https://wizardsardine.com/liana/. Możesz również pobrać najnowszą wersję [z repozytorium GitHub](https://github.com/wizardsardine/Liana/releases), gdzie możesz sprawdzić autentyczność oprogramowania. Wersja używana w tym poradniku to 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -363,7 +363,7 @@ Po potwierdzeniu, moneta jest bezpieczna! Możesz spać spokojnie do następnej 
 Podczas odzyskiwania środków z Liana Wallet może wystąpić jedna z dwóch sytuacji. Możesz mieć dostęp do komputera, na którym zainstalowane jest oprogramowanie, w którym to przypadku wszystko, co musisz zrobić, to je otworzyć (co nastąpi w przypadku rozszerzonego modelu kopii zapasowej). Możesz jednak nie mieć dostępu do tego komputera, więc zaczniemy od zera. Należy pamiętać, że procedura odzyskiwania jest taka sama w obu przypadkach.
 
 
-Aby rozpocząć, pobierz Liana z [oficjalnej strony Wizardsardine](https://wizardsardine.com/Liana/) lub z [repozytorium GitHub](https://github.com/wizardsardine/Liana/releases), gdzie możesz sprawdzić autentyczność oprogramowania. Zainstaluj oprogramowanie i uruchom je. Wersja używana w naszym przypadku to 0.9, więc wizualizacje mogły ulec zmianie. Na ekranie powitalnym wybierz opcję "Dodaj istniejący Liana Wallet".
+Aby rozpocząć, pobierz Liana z [oficjalnej strony Wizardsardine](https://wizardsardine.com/liana/) lub z [repozytorium GitHub](https://github.com/wizardsardine/Liana/releases), gdzie możesz sprawdzić autentyczność oprogramowania. Zainstaluj oprogramowanie i uruchom je. Wersja używana w naszym przypadku to 0.9, więc wizualizacje mogły ulec zmianie. Na ekranie powitalnym wybierz opcję "Dodaj istniejący Liana Wallet".
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

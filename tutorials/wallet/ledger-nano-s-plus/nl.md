@@ -52,7 +52,7 @@ Naar mijn mening is de Ledger Nano S Plus een goede optie voor het beveiligen va
 ## Hoe koop ik een Ledger Nano S Plus?
 
 
-De Ledger Nano S Plus is te koop [op de officiële website](https://shop.Ledger.com/products/Ledger-nano-s-plus). Om hem in een fysieke winkel te kopen, kunt u ook [de lijst van gecertificeerde wederverkopers](https://www.Ledger.com/reseller) op de Ledger website vinden.
+De Ledger Nano S Plus is te koop [op de officiële website](https://shop.ledger.com/products/ledger-nano-s-plus). Om hem in een fysieke winkel te kopen, kunt u ook [de lijst van gecertificeerde wederverkopers](https://www.Ledger.com/reseller) op de Ledger website vinden.
 
 
 ## Vereisten

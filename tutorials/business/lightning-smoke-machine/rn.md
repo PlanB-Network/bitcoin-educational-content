@@ -431,7 +431,7 @@ Tuzokoresha *Blink* nk'akarorero, ariko *BTCPay Server* nayo itanga *Strike, Bre
 
 
 
-- Ushobora gushika ku rubuga rwa API: **[https://blink.sv/ru/api)** maze winjire muri iyo konti nyene wakoresheje mu gukora wallet yawe *Blink*
+- Ushobora gushika ku rubuga rwa API: **[https://www.blink.sv/en/api)** maze winjire muri iyo konti nyene wakoresheje mu gukora wallet yawe *Blink*
 
 
 
@@ -511,7 +511,7 @@ type=blink;server=https://api.blink.sv/graphql;api-key=blink_mZ5KxxxxxxxxNbmX;wa
 
 
 
-- Ntuhindure igice ca mbere: `ubwoko=umuco;umukozi=https://api.umuco.sv/graphql`;
+- Ntuhindure igice ca mbere: `ubwoko=umuco;umukozi=https://api.blink.sv/graphql`;
 - Gusubirira gusa :
     - api-urufunguzo= *n'urufunguzo rwawe rwa API Blink*
     - Indangamuntu yawe ya wallet-31*

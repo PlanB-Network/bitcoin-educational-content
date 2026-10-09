@@ -33,7 +33,7 @@ description: Понимание и использование Watchtower на у
 
 
 
-*Это руководство взято из [официальной документации по LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). В первоначальную версию могли быть внесены некоторые изменения
+*Это руководство взято из [официальной документации по LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). В первоначальную версию могли быть внесены некоторые изменения
 
 
 

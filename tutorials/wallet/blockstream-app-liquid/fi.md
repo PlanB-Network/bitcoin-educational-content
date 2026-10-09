@@ -35,7 +35,7 @@ description: Blockstream App -sovelluksen määrittäminen ja Liquid Network:n k
 
 
 
-**Liquid** on **[Blockstream](https://blockstream.com/Liquid/)** kehittämä Bitcoin:n **Sidechain**, joka on suunniteltu tarjoamaan nopeampia, enemmän Confidential Transactions:aa ja kehittyneempiä toimintoja, mutta joka on edelleen yhteydessä Blockchain Bitcoin:een.
+**Liquid** on **[Blockstream](https://blockstream.com/liquid/)** kehittämä Bitcoin:n **Sidechain**, joka on suunniteltu tarjoamaan nopeampia, enemmän Confidential Transactions:aa ja kehittyneempiä toimintoja, mutta joka on edelleen yhteydessä Blockchain Bitcoin:een.
 
 
 

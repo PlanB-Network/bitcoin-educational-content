@@ -62,19 +62,19 @@ Mnemonic 讓您可以完全不受限制地存取您所有的 bitcoins。任何�
 雖然將您的詞彙寫在一張簡單的紙上已經是很好的做法，但選擇金屬夾具（如不銹鋼）可增加安全性。這種固定器可以保護您的 Mnemonic 詞彙，避免因火災、水災或倒塌而影響儲存位置。
 
 
-對於那些正在尋找經濟實惠的金屬詞句備份方案的人來說，[「*SAFU 忍者*」的 DIY 方法](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) 是一個極佳的解決方案。您只需在商店購買金屬墊圈、螺絲和螺帽。然後，您可以在每個墊圈上刻上您的句子，並確保對它們進行編號，然後將它們與螺帽一起組裝在螺絲上。這種低成本的方法已經具有很好的耐磨性。
+對於那些正在尋找經濟實惠的金屬詞句備份方案的人來說，[「*SAFU 忍者*」的 DIY 方法](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) 是一個極佳的解決方案。您只需在商店購買金屬墊圈、螺絲和螺帽。然後，您可以在每個墊圈上刻上您的句子，並確保對它們進行編號，然後將它們與螺帽一起組裝在螺絲上。這種低成本的方法已經具有很好的耐磨性。
 
 
 ![SEED](assets/fr/01.webp)
 
 
-圖片來源：[*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/)。
+圖片來源：[*SAFU Ninja Review*, Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/)。
 
 
-如果您偏好投資於完整的金屬後備裝置，我建議您看看 [Jameson Lopp 的電阻測試](https://jlopp.github.io/metal-Bitcoin-storage-reviews/)，其中評估了市面上大部分的解決方案。我建議您選擇一體成型的支架，例如用來雕刻、沖壓或打孔的金屬板。這些裝置的阻力通常比使用獨立字母組合的系統大得多。
+如果您偏好投資於完整的金屬後備裝置，我建議您看看 [Jameson Lopp 的電阻測試](https://jlopp.github.io/metal-bitcoin-storage-reviews/)，其中評估了市面上大部分的解決方案。我建議您選擇一體成型的支架，例如用來雕刻、沖壓或打孔的金屬板。這些裝置的阻力通常比使用獨立字母組合的系統大得多。
 
 
-如果您選擇紙質 Wallet，您有幾種選擇：一張簡單的白紙、Hardware Wallet 隨附的紙板 Wallet，或是我們提供的可下載範本，您可以 [點選此處](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/Wallet-backup-sheet/assets/Mnemonic-sheet.pdf) 列印出來。
+如果您選擇紙質 Wallet，您有幾種選擇：一張簡單的白紙、Hardware Wallet 隨附的紙板 Wallet，或是我們提供的可下載範本，您可以 [點選此處](https://github.com/planb-network/bitcoin-educational-content/blob/dev/resources/bet/wallet-backup-sheet/assets/mnemonic-sheet.pdf) 列印出來。
 
 
 ![SEED](assets/fr/02.webp)

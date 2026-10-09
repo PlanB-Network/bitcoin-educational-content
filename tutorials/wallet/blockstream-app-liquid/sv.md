@@ -35,7 +35,7 @@ description: Så här konfigurerar du Blockstream App och använder Liquid Netwo
 
 
 
-**Liquid** är en **Sidechain** av Bitcoin, utvecklad av **[Blockstream](https://blockstream.com/Liquid/)**, utformad för att erbjuda snabbare, mer Confidential Transactions och avancerad funktionalitet, samtidigt som den förblir ansluten till den huvudsakliga Blockchain Bitcoin.
+**Liquid** är en **Sidechain** av Bitcoin, utvecklad av **[Blockstream](https://blockstream.com/liquid/)**, utformad för att erbjuda snabbare, mer Confidential Transactions och avancerad funktionalitet, samtidigt som den förblir ansluten till den huvudsakliga Blockchain Bitcoin.
 
 
 

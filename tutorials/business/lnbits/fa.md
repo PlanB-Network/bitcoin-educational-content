@@ -69,7 +69,7 @@ LNbits بر اساس پروتکل LNURL کار می‌کند که به این م
 
 
 - [راهنمای LND](https://docs.lightning.engineering/) | نصب LND
-- [مثال پیکربندی LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | تنظیمات LND
+- [مثال پیکربندی LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | تنظیمات LND
 - [راهنمای CLN](https://docs.corelightning.org/docs/installation) | نصب CLN
 - [LUDs](https://github.com/lnurl/luds) مشخصات LNURL | [NIPs](https://github.com/nostr-protocol/nips) مشخصات Nostr
 - [اجرای Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | بسیار مهم!
@@ -81,7 +81,7 @@ LNbits بر اساس پروتکل LNURL کار می‌کند که به این م
 
 - [شروع به کار با LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | راهنمای Substack
 - [کارهایی که برای ایمنی با LNbits باید انجام دهید](https://youtu.be/i5FQf96e6zg) | ویدئوی یوتیوب
-- [بانک‌های خصوصی در Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | راهنمای Substack
+- [بانک‌های خصوصی در Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | راهنمای Substack
 - [کیف پول‌های امانی را برای دوستان و خانواده خود اجرا کنید](https://darthcoin.substack.com/p/the-bank-of-lnbits) | راهنمای Substack
 - [LNbits برای یک رستوران / هتل کوچک](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | راهنمای Substack
 - [استفاده از LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | راهنمای Substack

@@ -142,7 +142,7 @@ Uzokenera gukoresha porogarama ya _**Raspberry Pi Imager**_, yateguwe kugira ngo
 
 - Ku bwa Ubuntu/Debian:
 - Ku Windows: https://ivyo gukuraho.
-- Ku bwa Mac: https://ugukuraho.raspberrypi.org/ishusho/ishusho_ya nyuma.dmg
+- Ku bwa Mac: https://downloads.raspberrypi.org/imager/imager_latest.dmg nyuma.dmg
 
 
 Iyo porogarama imaze gushirwamwo, uyifungure, hanyuma ushire ikarata yawe ya micro SD muri mudasobwa yawe bwite. Kuva ku gishushanyo ca Raspberry Pi Interface, hitamwo `HINDURA OS`:
@@ -523,7 +523,7 @@ Uzoronka `.onion` link kugira ngo ushikire instance yawe bwite ya *Mempool.space
 
 ![Mempool link](assets/notext/41.webp)
 
-Ndaguhanura ngo ubike iyi link mu vyo ukunda ku mucukumbuzi wa Tor canke ukayishira kuri app ya Tor Browser kuri telefone yawe kugira ngo ushobore kuyironka mu buryo bworoshe kandi ata nkomanzi uri aho hose. Niba utaragira umucukumbuzi wa Tor, ushobora kuwukura hano: [https://www.torproject.org/gukura/](https://www.torproject.org/gukura/)
+Ndaguhanura ngo ubike iyi link mu vyo ukunda ku mucukumbuzi wa Tor canke ukayishira kuri app ya Tor Browser kuri telefone yawe kugira ngo ushobore kuyironka mu buryo bworoshe kandi ata nkomanzi uri aho hose. Niba utaragira umucukumbuzi wa Tor, ushobora kuwukura hano: [https://www.torproject.org/gukura/](https://www.torproject.org/download/)
 
 ![Mempool Tor](assets/notext/42.webp)
 

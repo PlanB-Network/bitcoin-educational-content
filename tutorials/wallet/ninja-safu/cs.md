@@ -36,7 +36,7 @@ Přístup Ninja SAFU nabízí několik výhod:
 
 
 
-- **Spolehlivost**: [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), kteří ji podrobili náročným zátěžovým testům (extrémní teplo, koroze, mechanický tlak).
+- **Spolehlivost**: [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), kteří ji podrobili náročným zátěžovým testům (extrémní teplo, koroze, mechanický tlak).
 
 
 
@@ -354,13 +354,13 @@ Podle Jamesona Loppa:
 
 
 
-- [Zpráva](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) o metodě Ninja SAFU
+- [Zpráva](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) o metodě Ninja SAFU
 
 
 
 
 
-- Srovnávací tabulka [úplná](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Srovnávací tabulka [úplná](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

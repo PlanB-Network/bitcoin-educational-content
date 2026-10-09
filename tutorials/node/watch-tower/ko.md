@@ -33,7 +33,7 @@ Watchtower는 채널이 침해되었는지 어떻게 확인할 수 있나요? �
 
 
 
-*이 튜토리얼은 [LND 공식 문서](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md)에서 발췌한 것입니다. 원본 버전과 일부 내용이 변경되었을 수 있습니다
+*이 튜토리얼은 [LND 공식 문서](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md)에서 발췌한 것입니다. 원본 버전과 일부 내용이 변경되었을 수 있습니다
 
 
 

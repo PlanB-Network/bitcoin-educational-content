@@ -217,7 +217,7 @@ Kui soovite vaadata oma Bitcoin sõlme logisid, mis on konkreetselt seotud selle
 
 
 - [Wiki lehekülg, mis selgitab Tori ja selle seost Bitcoin-ga](https://en.Bitcoin.it/wiki/Tor)
-- [Bitcoin core konfiguratsioonifaili generaator Jameson Loppi poolt](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Bitcoin core konfiguratsioonifaili generaator Jameson Loppi poolt](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Jon Atacki koostatud Tor'i konfiguratsiooni juhend](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

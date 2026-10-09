@@ -65,7 +65,7 @@ Injira n’amaboko amahera wipfuza guhindura maze ukoreshe [ihuriro ry’imipaka
 Ibuka ko **ibiciro vy’ugucuruza bihinduka**, rero wama usuzuma igiciro ca nyuma imbere yo kwemeza.
 
 
-**Konti ntibisabwa n'** amafaranga y'umusi ashobora gushika ku VND 250.000 (~ USD $8). Ibindi bisobanuro biraboneka muri [amategeko yo kwimurira amahera muri banki](https://support.bitcoinvn.io/help/ru-us/5-uburyo- bwo-gutanga-amahera/17-vnd-yo kwimurira-amahera muri banki).
+**Konti ntibisabwa n'** amafaranga y'umusi ashobora gushika ku VND 250.000 (~ USD $8). Ibindi bisobanuro biraboneka muri [amategeko yo kwimurira amahera muri banki](https://support.bitcoinvn.io/help/en-us/4-orders-payments/17-vnd-bank-transfer).
 
 
 **Urabe maso**: amafaranga y’urubuga muri rusangi arahenda iyo uhisemwo Lightning Network ugereranyije n’uburyo bwo gukoresha onchain.
@@ -128,7 +128,7 @@ Reka umwanya wo kwemeza (amasegonda ku Muravyo, iminota on-chain). VND izokwimur
 Turakira n’umutima ukunze ibibazo vyanyu, ivyo musavye, n’ivyiyumviro vyanyu ku bijanye n’ibintu n’ibikorwa vyacu.
 
 
-Kugira ngo uronke amakuru yihariye, urashobora gusubiramwo Itegeko ryacu ryo Gusubiza Itunga [hano](https://support.bitcoinvn.io/help/ru-us/3-rusang/1-itegeko-ryo-gusubiza-itunga), canke ukadushikira ataco uhinduye kuri [Telegram](https://t.me/bitcoinvn_community).
+Kugira ngo uronke amakuru yihariye, urashobora gusubiramwo Itegeko ryacu ryo Gusubiza Itunga [hano](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), canke ukadushikira ataco uhinduye kuri [Telegram](https://t.me/bitcoinvn_community).
 
 
 Uko kwemera umutungo w’ubuhinga bwa none bifatanya n’ivy’ubutunzi kw’isi yose, **BitcoinVN** iri mu kibanza ciza co kurongora iterambere ry’ubushobozi bw’ivy’ubutunzi mpuzamakungu bwa Vietnam. Turazibira ikinogo kiri hagati y’ubutunzi bw’umubiri n’ubw’ubuhinga bwa none, tukavanga ubutunzi bwo kw’isi yose n’uburyo bworoshe bwo mu karere. Intumbero yacu ni ugutuma abantu bashobora kuronka ibintu vyiza n’ibikorwa vy’umwuga hano muri Vietnam.

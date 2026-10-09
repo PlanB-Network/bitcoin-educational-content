@@ -35,7 +35,7 @@ description: Kako konfigurisati Blockstream aplikaciju i koristiti Liquid Networ
 
 
 
-**Liquid** je **Sidechain** od Bitcoin, razvijen od strane **[Blockstream](https://blockstream.com/Liquid/)**, dizajniran da ponudi bržu, više Confidential Transactions i naprednu funkcionalnost, dok ostaje povezan sa glavnim Blockchain Bitcoin.
+**Liquid** je **Sidechain** od Bitcoin, razvijen od strane **[Blockstream](https://blockstream.com/liquid/)**, dizajniran da ponudi bržu, više Confidential Transactions i naprednu funkcionalnost, dok ostaje povezan sa glavnim Blockchain Bitcoin.
 
 
 

@@ -31,7 +31,7 @@ Mu wallets zishigikiwe turashobora gusangamwo:
 
 
 
-Canke wallet iyo ari yo yose ifise "Address y'umuravyo" kandi itanga invoice ya Bolt11. wallets zitanga invoice ya Bolt12 ntizishigikirwa ubu. Ushaka kumenya vyinshi raba insobanuro ya [Bolt](https://umugambi.ishure/ibikoresho/insobanuro y'amajambo/bolt).
+Canke wallet iyo ari yo yose ifise "Address y'umuravyo" kandi itanga invoice ya Bolt11. wallets zitanga invoice ya Bolt12 ntizishigikirwa ubu. Ushaka kumenya vyinshi raba insobanuro ya [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 

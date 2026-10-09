@@ -424,7 +424,7 @@ Tangana uhitemwo umuti w’ubuhinga ubereye ubuzima bwawe, uwugerageze n’agace
 
 
 
-- [Igishushanyo c'Itegeko ry'Iragi rya Bitcoin (PDF)](https://github.com/Igitegererezo-C'Iragi-Igitegererezo/Igitegererezo-C'Iragi-Bitcoin/Igitegererezo-C'Itegeko-Iragi-Bitcoin
+- [Igishushanyo c'Itegeko ry'Iragi rya Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf
 
 
 
@@ -436,7 +436,7 @@ Tangana uhitemwo umuti w’ubuhinga ubereye ubuzima bwawe, uwugerageze n’agace
 
 - [BIP-65 : OP_CHECKLOCKTIMEVERIFY](Ibisobanuro vy'igihe c'ugufunga (CLTV)
 - [BIP-112 : OP_CHECKSEQUENCEVERIFY](Ibisobanuro vy'igihe gifitaniye isano (CSV)
-- [Inyandiko ntoya](https://bitcoin.sipa.be/inyandiko ntoya/) - Inyandiko ntoya yemewe yanditswe na Pieter Wuille
+- [Inyandiko ntoya](https://bitcoin.sipa.be/miniscript/) - Inyandiko ntoya yemewe yanditswe na Pieter Wuille
 
 
 

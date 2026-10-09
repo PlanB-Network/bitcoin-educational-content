@@ -22,7 +22,7 @@ Bittr로 Sats 스태킹을 시작하는 것이 얼마나 쉬운지 살펴보겠�
 
 
 
-- 웹 또는 모바일에서 [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)으로 이동하여 "Bitcoin 구매"를 클릭합니다
+- 웹 또는 모바일에서 [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1)으로 이동하여 "Bitcoin 구매"를 클릭합니다
 
 
 

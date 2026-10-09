@@ -33,7 +33,7 @@ Trong hướng dẫn này, chúng ta sẽ xem xét 3 cách sử dụng **Watchto
 
 
 
-*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc
+*Hướng dẫn này được trích từ [tài liệu chính thức của LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md). Một số thay đổi có thể đã được thực hiện đối với phiên bản gốc
 
 
 

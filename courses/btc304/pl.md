@@ -48,7 +48,7 @@ Ten znaczący wzrost jest oczywiście ściśle powiązany z:
 
 
 
-- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
+- [rosnące zainteresowanie ludzi na całym świecie korzystaniem z Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), aby uwolnić się od systemu bankowego i/lub korzystać z mniej niestabilnej lub mniej zdewaluowanej waluty, jak ma to miejsce w przypadku ludności w Libanie, Syrii, Egipcie, Argentynie i innych krajach;
 - jego aprecjacji cenowej w czasie, ustanawiając go jako magazyn wartości i długoterminową inwestycję, napędzaną przez stałą politykę pieniężną;
 - sukcesywny wzrost rynku kryptowalut spekulacyjnych, szczególnie w latach 2017-2018 i 2020-2021;
 - Rosnąca obecność Bitcoin w mediach głównego nurtu.
@@ -2006,7 +2006,7 @@ Możesz także zaprojektować ulotkę specyficzną dla Twojej społeczności lub
 Kilka ulotek jest już **dostępnych jako open-source w [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** na planB.network, a kolejne będą dodawane z czasem.
 
 
-Jednym z przykładów jest [kompletna ulotka](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) zawierająca 21 powodów, dla których warto używać Bitcoin. Jej projekt jest również [dostępny w otwartym kodzie źródłowym](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), który można modyfikować, dostosowywać i udostępniać. Pamiętaj tylko o podaniu źródła.
+Jednym z przykładów jest [kompletna ulotka](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) zawierająca 21 powodów, dla których warto używać Bitcoin. Jej projekt jest również [dostępny w otwartym kodzie źródłowym](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), który można modyfikować, dostosowywać i udostępniać. Pamiętaj tylko o podaniu źródła.
 
 
 
@@ -2050,7 +2050,7 @@ Podczas gdy pozostawienie białej księgi Bitcoin jest symboliczne, jest ona cz�
 - biała księga Bitcoin przetłumaczona na język francuski.
 
 
-Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle), która została umieszczona w dziesiątkach skrzynek na książki w całym kraju. Jej projekt jest również [dostępny jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Oto [broszura udostępniona przez francuskich bitcoinerów](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle), która została umieszczona w dziesiątkach skrzynek na książki w całym kraju. Jej projekt jest również [dostępny jako open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

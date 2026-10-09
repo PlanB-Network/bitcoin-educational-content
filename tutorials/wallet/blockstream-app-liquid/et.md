@@ -35,7 +35,7 @@ description: Kuidas konfigureerida Blockstream App ja kasutada Liquid Network
 
 
 
-**Liquid** on **[Blockstream](https://blockstream.com/Liquid/)** poolt välja töötatud Bitcoin **Sidechain**, mille eesmärk on pakkuda kiiremat, rohkem Confidential Transactions ja täiustatud funktsionaalsust, jäädes samas ühendatud peamise Blockchain Bitcoin-ga.
+**Liquid** on **[Blockstream](https://blockstream.com/liquid/)** poolt välja töötatud Bitcoin **Sidechain**, mille eesmärk on pakkuda kiiremat, rohkem Confidential Transactions ja täiustatud funktsionaalsust, jäädes samas ühendatud peamise Blockchain Bitcoin-ga.
 
 
 

@@ -48,7 +48,7 @@ Questa crescita significativa è, ovviamente, strettamente legata a diversi fatt
 
 
 
-- il [crescente interesse delle popolazioni di tutto il mondo per l'utilizzo di Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), per liberarsi dal sistema bancario e/o utilizzare una valuta meno volatile o meno svalutata, come nel caso delle popolazioni di Libano, Siria, Egitto, Argentina e altre;
+- il [crescente interesse delle popolazioni di tutto il mondo per l'utilizzo di Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), per liberarsi dal sistema bancario e/o utilizzare una valuta meno volatile o meno svalutata, come nel caso delle popolazioni di Libano, Siria, Egitto, Argentina e altre;
 - la rivalutazione del suo prezzo nel tempo, affermandolo come riserva di valore e come investimento a lungo termine, grazie alla sua politica monetaria fissa;
 - la crescita successiva del mercato speculativo delle criptovalute, in particolare nel periodo 2017-2018 e 2020-2021;
 - la crescente presenza di Bitcoin nei media tradizionali.
@@ -2002,7 +2002,7 @@ Potresti anche progettare un volantino specifico per la tua community o meet-up,
 Diversi volantini sono già **disponibili open-source nel [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** su planB.network e altri saranno aggiunti nel tempo.
 
 
-Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) con 21 motivi per utilizzare Bitcoin. Il suo design è anche [disponibile in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per essere modificato, adattato e condiviso. Ricordati solo di citare le fonti.
+Un esempio è un [volantino completo](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) con 21 motivi per utilizzare Bitcoin. Il suo design è anche [disponibile in open-source](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) per essere modificato, adattato e condiviso. Ricordati solo di citare le fonti.
 
 
 
@@ -2046,7 +2046,7 @@ Sebbene il White Paper di Bitcoin sia simbolico, spesso è troppo complesso da c
 - il White Paper di Bitcoin, tradotto in italiano.
 
 
-Ecco [l'opuscolo condiviso dai Bitcoiners francesi](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) che è stato collocato in decine di librerie in tutto il Paese. Il suo design è anche [disponibile come open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Ecco [l'opuscolo condiviso dai Bitcoiners francesi](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) che è stato collocato in decine di librerie in tutto il Paese. Il suo design è anche [disponibile come open-source](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

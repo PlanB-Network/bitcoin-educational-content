@@ -110,8 +110,8 @@ Ishirahamwe ryitwa BTCPay Server Foundation, ryatumye Alekos na Bas bandika iryo
 
 
 
-- https://umushinge.btcpayserver.org
-- Injira mu mihora yemewe y'ibiganiro: https://ibiganiro.btcpayserver.org
+- https://foundation.btcpayserver.org
+- Injira mu mihora yemewe y'ibiganiro: https://chat.btcpayserver.org
 
 
 ## Intangamarara ya Bitcoin
@@ -330,7 +330,7 @@ Umwigisha wawe ashobora kuba yarakoranije imbere y’igihe imeyili Address maze 
 Igihe ufata amashure ata mwigisha, fungura konti yawe ukoresheje ibidukikije vy’iyerekanwa rya BTCPay Server; genda kuri
 
 
-https://Mainnet.iyerekanwa.btcpayserver.org/kwinjira.
+https://mainnet.demo.btcpayserver.org/login.
 
 
 Iyi konti ikwiye gukoreshwa gusa mu bijanye n’iyerekanwa/ugutoza abantu ntiyigere ikoreshwa mu bijanye n’ubudandaji.
@@ -1004,7 +1004,7 @@ Ushobora kandi gukurikirana n'uburongozi bwa videwo ku bijanye no gufatanya Hard
 :::id ya videwo = 8e61664b-e0c0-416d-8ef9-b631bf28ec4d:::
 
 
-Kuvanaho Ububiko bwa Serveri ya BTCPay: https://github.com/Btcpay/BtCPay.Ububiko/ibisohoka
+Kuvanaho Ububiko bwa Serveri ya BTCPay: https://github.com/btcpayserver/BTCPayServer.Vault/releases
 
 
 Raba neza ko ukuraho amadosiye akwiye kuri sisitemu yawe yihariye. Abakoresha Windows bakwiye gukuraho [BTCPayServerVault-2.0.5-setup.exe] [BCPayServerVault-osx-x64-2.0.5.dmg](https://github.com/btcnupayserver/BTCPayServer.Vault/ibisohoka/gukuraho/Vault%2Fv2.0.5/BTCPpayServerVault-osx-x00.0.5 bikwiye gukuraho n'ibindi. [BTCPayServerVult-Linux-2.0.5.tar.gz](https://github.com/btcpayserver/BTCPpayServer.Ububiko/ibisohoka/gukuraho/Ububiko%2Fv2.0.5/BTCPayServerVault-Linux-2.0.5.
@@ -2229,7 +2229,7 @@ Imbere ya vyose, nugerageze kumenya igihe iyo ngorane izoshika. Gerageza gusubir
 ##### Kuvugurura serveri
 
 
-Suzuma verisiyo yawe ya Serveri ya BTCPay nimba ari iya kera cane kuruta [verisiyo nshasha](https://github.com/ibisohoka) ya Serveri ya BTCPay. Guhindura Server yawe bishobora gutorera umuti ikibazo.
+Suzuma verisiyo yawe ya Serveri ya BTCPay nimba ari iya kera cane kuruta [verisiyo nshasha](https://github.com/btcpayserver/btcpayserver/releases) ya Serveri ya BTCPay. Guhindura Server yawe bishobora gutorera umuti ikibazo.
 
 
 ##### Gusubira gutanguza server
@@ -2266,7 +2266,7 @@ Ivyanditswe birashobora gutanga amakuru ahambaye. Mu ngingo zikurikira, tuzodond
 Kuva v1.0.3.8, urashobora gushika ku bitabo vya BTCPay Server bitagoranye uri ku mpera y’imbere. Nimba uri umuyobozi wa server, genda kuri Server Settings > Inyandiko maze ufungure dosiye y’inyandiko. Niba utazi ico ikosa rimwe rimwe riri mu bitabo risobanura, rivuge igihe uriko uratorera umuti ingorane.
 
 
-Niba ushaka ibitabo vyinshi kandi ukoresha Docker, ushobora kubona ibitabo vy'ibikoresho vya Docker ukoresheje umurongo w'amabwirizwa. Raba aya [amabwirizwa yo ssh](https://inyandiko.btcpayserver.org/Ibibazo/Ivyagezwe/#ingene-wo-ssh-mu-btcpay-yanje-ikoreshwa-ku-vp%C2%80) mu nkuru ya BTCPay ikoreshwa kuri VPS.
+Niba ushaka ibitabo vyinshi kandi ukoresha Docker, ushobora kubona ibitabo vy'ibikoresho vya Docker ukoresheje umurongo w'amabwirizwa. Raba aya [amabwirizwa yo ssh](https://docs.btcpayserver.org/FAQ/ServerSettings/#how-to-ssh-into-my-btcpay-running-on-vp%C2%80) mu nkuru ya BTCPay ikoreshwa kuri VPS.
 
 
 Ku rupapuro rukurikira, urutonde rusangi rw'amazina y'ibikoresho bikoreshwa kuri BTCPay Server.
@@ -2380,10 +2380,10 @@ bitcoin-lightning-cli.sh getlog
 #### Bitcoin Inyandiko z'urudodo
 
 
-Uretse [kuraba ibitabo](https://docs.btcpayserver.org/Gutorera umuti ingorane/#2-kuraba-mu-bitabo) vy’igikoresho cawe ca bitcoind, urashobora kandi gukoresha [bitcoin-cli] iyo ari yo yose. amabwirizwa] (umuhinguzi.Bitcoin.org/ibisobanuro/RPC/urutonde.html)
+Uretse [kuraba ibitabo](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) vy’igikoresho cawe ca bitcoind, urashobora kandi gukoresha [bitcoin-cli] iyo ari yo yose. amabwirizwa] (umuhinguzi.Bitcoin.org/ibisobanuro/RPC/urutonde.html)
 
 
-[(ifungura idirisha rishasha)](https://umuhinguzi.Bitcoin.org/ibisobanuro/RPC/index.html) kugira ngo uronke amakuru avuye ku nzira yawe ya Bitcoin. BTCPay irimwo inyandiko izogufasha kuvugana n’uruzitiro rwawe rwa Bitcoin mu buryo bworoshe.
+[(ifungura idirisha rishasha)](https://developer.bitcoin.org/reference/rpc/index.html) kugira ngo uronke amakuru avuye ku nzira yawe ya Bitcoin. BTCPay irimwo inyandiko izogufasha kuvugana n’uruzitiro rwawe rwa Bitcoin mu buryo bworoshe.
 
 
 Imbere muri dosiye ya btcpayserver-docker, rondera amakuru ya Blockchain ukoresheje urudodo rwawe:
@@ -2630,7 +2630,7 @@ Uwuronka amahera n’uwusaba barashobora kubona uko igisabwa co kwishura kimeze 
 Ibirimwo mu ndondoro bishobora guhindurwa hakoreshejwe umuhinduzi w’inyandiko y’ugusaba kwishura. Ivyo vyose biraboneka nimba ushaka gukoresha insanganyamatsiko z’amabara y’inyongera canke ubuhinga bwa CSS.
 
 
-Abakoresha batari abahinga mu vy’ubuhinga barashobora gukoresha [insanganyamatsiko y’ugutangura](https://docs.btcpayserver.org/Iterambere/Insanganyamatsiko/#2-insanganyamatsiko-z’ugutangura). Ibindi bishobora gukorwa mu gutanga kode ya CSS y’inyongera, nk’uko vyerekanwa aha hepfo.
+Abakoresha batari abahinga mu vy’ubuhinga barashobora gukoresha [insanganyamatsiko y’ugutangura](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ibindi bishobora gukorwa mu gutanga kode ya CSS y’inyongera, nk’uko vyerekanwa aha hepfo.
 
 
 ```css
@@ -2679,13 +2679,13 @@ Bimeze gute iyo aho uwurungitse asunika amahera, uwurungitse areka uwuyakira aka
 ### Ivyo kwishura
 
 
-Ivyo kwishura biboshe ku [Gukuraho Ivyishyurwa](https://docs.btcpayserver.org/Gukuraho Ivyishyurwa/). Iyi nzira ishobora kugufasha gukora amafaranga yo kwishura muri BTCPay yawe. Iki kintu kigufasha gukora ivyo kwishura (gusubiza amahera, kwishura umushahara, canke gukura amahera).
+Ivyo kwishura biboshe ku [Gukuraho Ivyishyurwa](https://docs.btcpayserver.org/PullPayments/). Iyi nzira ishobora kugufasha gukora amafaranga yo kwishura muri BTCPay yawe. Iki kintu kigufasha gukora ivyo kwishura (gusubiza amahera, kwishura umushahara, canke gukura amahera).
 
 
 #### Akarorero ka 1: Gusubiza amahera
 
 
-Reka dutangure n’akarorero ko gusubizwa amahera. Umukiriya yaguze ikintu mw'iduka ryawe, ariko ikibabaje, bategerezwa kukigarura. Bashaka ko basubizwa amahera. Muri BTCPay, urashobora gukora [Gusubizwa](https://docs.btcpayserver.org/Gusubizwa/) maze ugaha umukiriya uruja n’uruza rwo gusaba amahera yiwe. Umukiriya amaze gutanga Address yiwe kandi akayisaba, izokwerekanwa mu gice c’Ivyishurwa.
+Reka dutangure n’akarorero ko gusubizwa amahera. Umukiriya yaguze ikintu mw'iduka ryawe, ariko ikibabaje, bategerezwa kukigarura. Bashaka ko basubizwa amahera. Muri BTCPay, urashobora gukora [Gusubizwa](https://docs.btcpayserver.org/Refund/) maze ugaha umukiriya uruja n’uruza rwo gusaba amahera yiwe. Umukiriya amaze gutanga Address yiwe kandi akayisaba, izokwerekanwa mu gice c’Ivyishurwa.
 
 
 Igitigiri ca mbere gifise ni Ukurindira Kwemererwa. Abakozi bo mu maduka barashobora kumenya nimba hari benshi barindiriye, hanyuma umaze guhitamwo, ukoresha buto Ibikorwa.
@@ -2709,7 +2709,7 @@ Ubu umukiriya araronka amakuru mashasha kuri paji y’Ibisabwa. Ashobora gukurik
 #### Akarorero ka 2: Umushahara
 
 
-None rero reka twinjire mu gutanga umushahara, kuko ivyo biva imbere mu iduka atari nk’uko Umukiriya asaba. Iciyumviro kiri mu vyo ni co kimwe; ikoresha amahera y’ugukwega. Ariko aho kurema ugusubizwa amahera, tuzokora [Ugukuraho Ukwishura](https://docs.btcpayserver.org/Ugukuraho/).
+None rero reka twinjire mu gutanga umushahara, kuko ivyo biva imbere mu iduka atari nk’uko Umukiriya asaba. Iciyumviro kiri mu vyo ni co kimwe; ikoresha amahera y’ugukwega. Ariko aho kurema ugusubizwa amahera, tuzokora [Ugukuraho Ukwishura](https://docs.btcpayserver.org/PullPayments/).
 
 
 Genda ku rubuga rw'Ivyishyurwa vy'Ivyishyurwa muri server yawe ya BTCPay. Hejuru iburyo, kanda kuri Buto Rema Gukura Ukwishura.
@@ -2759,7 +2759,7 @@ Ku wurungitse, turatanga uburyo bworoshe bwo gukoresha bwo gukoranya amahera men
 #### Ibara ry'icatsi kibisi API
 
 
-BTCPay Server itanga API yuzuye ku wohereza n'uwakira yanditswe kuri `/docs` paji y'instance yawe. (canke ku rubuga rw'inyandiko https://inyandiko.btcpayserver.org)
+BTCPay Server itanga API yuzuye ku wohereza n'uwakira yanditswe kuri `/docs` paji y'instance yawe. (canke ku rubuga rw'inyandiko https://docs.btcpayserver.org)
 
 
 Kubera ko API yacu yerekana ubushobozi bwose bwo gukura amahera, uwurungika arashobora kwishura ku vyo akeneye.
@@ -3308,7 +3308,7 @@ Muri iki gice, uzomenya LunaNode nk'umutanga ubucuti, umenye intambwe za mbere z
 Iyi ni imwe mu nzira nyinshi zo gukoresha Server ya BTCPay. Soma inyandiko zacu kugira ngo umenye vyinshi.
 
 
-https://inyandiko.btcpayserver.org.
+https://docs.btcpayserver.org.
 
 
 ### Serveri ya BTCPay - Gushiraho LunaNode
@@ -3371,7 +3371,7 @@ Ushobora gusubira kuri paji iriko Launcher, wuzuze ivyicaro n’urufunguzo rwawe
 Mu ntambwe ikurikira, urashobora gutanga izina ry’itongo. Niba usanzwe ufise indangarubuga kandi ushaka gukoresha iyi kuri BTCPay Server, urabe neza ko wongerako n'inyandiko ya DNS (Yitwa inyandiko ya `A`) ku rubuga rwawe. Niba udafise urwego, koresha urwego rwatanzwe na LunaNode aho (ushobora guhindura ivyo mu nyuma mu mitunganyirize ya BTCPay Server) hanyuma ukande Continue.
 
 
-Soma ibindi ku bijanye no gushinga canke guhindura inyandiko ya DNS ya BTCPay Server; https://inyandiko.btcpayserver.org/Ibibazo/Ikoreshwa/#ingene-wohindura-izina-ry'indangarubuga ryawe
+Soma ibindi ku bijanye no gushinga canke guhindura inyandiko ya DNS ya BTCPay Server; https://docs.btcpayserver.org/FAQ/Deployment/#how-to-change-your-btcpay-server-domain-name ryawe
 
 
 #### Gutanguza Serveri ya BTCPay kuri LunaNode
@@ -3383,7 +3383,7 @@ Tumaze gutera intambwe z’imbere, turashobora gushinga amahitamwo yose y’umuk
 Iyi nkuru ifise intumbero yo gushinga ibidukikije vya Mainnet (Bitcoin y’ukuri); ariko, LunaNode nayo iraguha uburenganzira bwo kuyishira kuri Testnet canke Regtest ku ntumbero z'iterambere. Tuzobisiga ku nzira ya Mainnet y’iyi nsiguro.
 
 
-Ushobora guhitamwo ugushirwa mu ngiro kwawe kw’Umuravyo. LunaNode itanga uburyo bubiri butandukanye bwo gushirwa mu ngiro, LND na Core Lightning. Kuri iyi nsiguro, tuzofata LND. Hariho ubudasa buke ariko ni ubw’ukuri mu gushirwa mu ngiro kwompi; kugira ngo umenye vyinshi kuri ivyo, turagusavye gusoma inyandiko nyinshi: https://docs.btcpayserver.org/Umuravyo#gutangura-na-server-ya-btcpay-n'umuravyo-w'ishimikiro
+Ushobora guhitamwo ugushirwa mu ngiro kwawe kw’Umuravyo. LunaNode itanga uburyo bubiri butandukanye bwo gushirwa mu ngiro, LND na Core Lightning. Kuri iyi nsiguro, tuzofata LND. Hariho ubudasa buke ariko ni ubw’ukuri mu gushirwa mu ngiro kwompi; kugira ngo umenye vyinshi kuri ivyo, turagusavye gusoma inyandiko nyinshi: https://docs.btcpayserver.org/LightningNetwork#getting-started-with-btcpay-server-and-core-lightning-cln
 
 
 ![image](assets/en/116.webp)
@@ -3435,7 +3435,7 @@ Uzomenya Voltage.cloud nk'umutanga ubucuti, umenye intambwe za mbere zo gukoresh
 
 Iyi ni imwe mu nzira nyinshi zo gukoresha Server ya BTCPay. Soma inyandiko zacu kugira ngo umenye vyinshi.
 
-https://inyandiko.btcpayserver.org.
+https://docs.btcpayserver.org.
 
 
 ### Serveri ya BTCPay - Gushiraho umuriro.igicu
@@ -3506,7 +3506,7 @@ Ni ibihe bintu nyamukuru bitandukanye hagati y’imiterere ya Voltage na LunaNod
 Iyo intambwe zirangiye, urashobora kwemera kwishura umuravyo ku bubiko bwawe bwa BTCPay ku rubuga rwawe rwo mu karere. Ivyo bizokora kandi iyo ukoresha umutaka mu restora canke mu bucuruzi. Niba ushaka gufatanya iri duka n’urubuga rwa bose, kurikiza umwimenyerezo w’Iterambere kugira ngo ugaragaze umutaka wawe ku bantu bose.
 
 
-https://umutaka.com/
+https://umbrel.com/
 
 
 ![image](assets/en/122.webp)

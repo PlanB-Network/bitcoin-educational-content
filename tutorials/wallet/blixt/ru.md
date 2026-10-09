@@ -11,7 +11,7 @@ description: Как начать использовать мощный узел 
 Используя [Blixt Wallet](https://blixtwallet.com/), вы получите полноценный узел LN на своем мобильном, где бы вы ни находились.
 
 
-Если вы никогда не использовали Bitcoin Lightning Network, прежде чем начать, [пожалуйста, прочитайте эту простую объяснительную аналогию о Lightning Network (LN)](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Если вы никогда не использовали Bitcoin Lightning Network, прежде чем начать, [пожалуйста, прочитайте эту простую объяснительную аналогию о Lightning Network (LN)](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## ВАЖНЫЕ АСПЕКТЫ:
@@ -22,11 +22,11 @@ description: Как начать использовать мощный узел 
 
 
 
-- Blixt использует LND (aezeed) в качестве бэкенда Wallet, поэтому не пытайтесь импортировать в него другие типы кошельков Bitcoin. [Здесь вы объяснили типы семян Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). А вот [более обширный список всех типов кошельков](https://walletsrecovery.org/). Таким образом, если у вас ранее была нода LND, вы можете импортировать seed и backup.channels в Blixt, [как это объясняется в данном руководстве](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt использует LND (aezeed) в качестве бэкенда Wallet, поэтому не пытайтесь импортировать в него другие типы кошельков Bitcoin. [Здесь вы объяснили типы семян Wallet Mnemonic](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). А вот [более обширный список всех типов кошельков](https://walletsrecovery.org/). Таким образом, если у вас ранее была нода LND, вы можете импортировать seed и backup.channels в Blixt, [как это объясняется в данном руководстве](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- В конце этого руководства вы найдете специальный раздел с ["советами и подсказками"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- В конце этого руководства вы найдете специальный раздел с ["советами и подсказками"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ description: Как начать использовать мощный узел 
 
 - "enable Tor" - пользователь может запустить Tor-сеть, в частности, если нужно восстановить старый узел LND, который работал только с Tor-пирами.
 - "Установить узел Bitcoin" - если пользователь хочет подключиться к собственному узлу напрямую, чтобы синхронизировать блоки через Neutrino, сделать это можно прямо с экрана приветствия. Эта опция также хороша в случае, если ваше интернет-соединение или Tor не настолько стабильны, чтобы подключиться к узлу Bitcoin по умолчанию (node.blixtwallet.com).
-- В ближайшее время будет добавлен язык, чтобы пользователь мог начать сразу с удобного ему языка. Если вы хотите внести свой вклад в этот проект с открытым исходным кодом и переводами на другие языки, [пожалуйста, присоединяйтесь здесь](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- В ближайшее время будет добавлен язык, чтобы пользователь мог начать сразу с удобного ему языка. Если вы хотите внести свой вклад в этот проект с открытым исходным кодом и переводами на другие языки, [пожалуйста, присоединяйтесь здесь](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### ВАРИАНТ А - Создать новый Wallet
@@ -241,7 +241,7 @@ Address и отображаемое приветственное сообщен�
 Помните, в первой главе "Первого контакта" было 2 варианта на экране приветствия:
 
 
-- [Вариант A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Создать новый Wallet
+- [Вариант A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Создать новый Wallet
 - Вариант B - Восстановление Wallet
 
 
@@ -251,7 +251,7 @@ Address и отображаемое приветственное сообщен�
 ### ВАРИАНТ B - Восстановление Wallet
 
 
-В прошлом я написал специальное руководство о том, [как восстановить разбитый узел Umbrel](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), где я также упомянул метод использования Blixt в качестве процесса быстрого восстановления, используя файл seed + channel.backup из Umbrel.
+В прошлом я написал специальное руководство о том, [как восстановить разбитый узел Umbrel](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), где я также упомянул метод использования Blixt в качестве процесса быстрого восстановления, используя файл seed + channel.backup из Umbrel.
 
 
 Я также написал руководство по восстановлению узла Blixt или миграции Blixt на другое устройство, [здесь](https://blixtwallet.github.io/faq#blixt-restore).

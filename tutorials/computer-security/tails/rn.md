@@ -46,7 +46,7 @@ Buri gihe habaho ikintu co kwizigira mu gukoresha porogarama, ariko ntibitegerez
 
 
 
-- Inkomoko ya bose: https://gitlab.imirizo.boum.org/;
+- Inkomoko ya bose: https://gitlab.tails.boum.org/;
 - Umugambi ushingiye ku migambi izwi cane: Tor na Debian;
 - Ivyo gukuraho bishobora kugenzurwa no gusubirwamwo;
 - Impanuro zitangwa n’abantu n’imiryango itandukanye.

@@ -11,7 +11,7 @@ See juhend on pühendatud kõigile neile uutele kasutajatele, kes soovivad alust
 Kasutades [Blixt Wallet](https://blixtwallet.com/), täielik LN sõlme oma mobiilis, kus iganes sa oled.
 
 
-Kui te ei ole kunagi kasutanud Bitcoin Lightning Network, siis lugege enne alustamist [palun lugege seda lihtsat selgitusanaloogiat Lightning Network (LN) kohta](https://darth-coin.github.io/beginner/LN-airport-analogy-en.html).
+Kui te ei ole kunagi kasutanud Bitcoin Lightning Network, siis lugege enne alustamist [palun lugege seda lihtsat selgitusanaloogiat Lightning Network (LN) kohta](https://darth-coin.github.io/beginner/ln-airport-analogy-en.html).
 
 
 ## OLULISED ASPEKTID:
@@ -22,11 +22,11 @@ Kui te ei ole kunagi kasutanud Bitcoin Lightning Network, siis lugege enne alust
 
 
 
-- Blixt kasutab LND (aezeed) Wallet backendina, seega ärge proovige sinna importida teist tüüpi Bitcoin rahakotte. [Siin olete selgitanud Wallet Mnemonic seemnete tüüpe](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ja siin on [ulatuslikum nimekiri kõikidest rahakoti tüüpidest](https://walletsrecovery.org/). Nii et kui teil oli varem LND sõlme, saate importida seed ja backup.kanaleid Blixt'i, [nagu selles juhendis on selgitatud](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html).
+- Blixt kasutab LND (aezeed) Wallet backendina, seega ärge proovige sinna importida teist tüüpi Bitcoin rahakotte. [Siin olete selgitanud Wallet Mnemonic seemnete tüüpe](https://coldbit.com/what-types-of-Mnemonic-seeds-are-used-in-Bitcoin/). Ja siin on [ulatuslikum nimekiri kõikidest rahakoti tüüpidest](https://walletsrecovery.org/). Nii et kui teil oli varem LND sõlme, saate importida seed ja backup.kanaleid Blixt'i, [nagu selles juhendis on selgitatud](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html).
 
 
 
-- Käesoleva juhendi lõpus on eraldi osa ["näpunäiteid ja nippe"](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#tips)
+- Käesoleva juhendi lõpus on eraldi osa ["näpunäiteid ja nippe"](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#tips)
 
 
 
@@ -65,7 +65,7 @@ Paremas ülemises nurgas näete 3 punkti, mis aktiveerivad menüü:
 
 - "enable Tor" - kasutaja saab alustada Tori võrguga, eriti kui ta soovib taastada vana LND sõlme, mis töötas ainult Toriga.
 - "Set Bitcoin node" - kui kasutaja soovib ühendada oma sõlme otse, et sünkroonida plokid läbi Neutrino, saab seda teha kohe tervitusekraanilt. See valik on hea ka juhul, kui teie internetiühendus või Tor ei ole vaikimisi Bitcoin sõlme (node.blixtwallet.com) ühendamiseks nii stabiilne.
-- Varsti lisatakse keel sinna, nii et kasutaja saab alustada otse keeles, mis on mugav. Kui soovite aidata kaasa sellele avatud lähtekoodiga projektile tõlgetega teistesse keeltesse, [palun liituge siin](https://explore.transifex.com/blixt-Wallet/blixt-Wallet/).
+- Varsti lisatakse keel sinna, nii et kasutaja saab alustada otse keeles, mis on mugav. Kui soovite aidata kaasa sellele avatud lähtekoodiga projektile tõlgetega teistesse keeltesse, [palun liituge siin](https://explore.transifex.com/blixt-wallet/blixt-wallet/).
 
 
 ### VARIANT A - Uue Wallet loomine
@@ -241,7 +241,7 @@ Hea, nüüd on teil hea minna, et saata ja vastu võtta piisavalt Sats üle LN !
 Pea meeles, et esimeses peatükis "Esimene kontakt" oli tervitusekraanil 2 valikut:
 
 
-- [Valik A](https://darth-coin.github.io/wallets/getting-started-blixt-Wallet-en.html#option-a) - Uue Wallet loomine
+- [Valik A](https://darth-coin.github.io/wallets/getting-started-blixt-wallet-en.html#option-a) - Uue Wallet loomine
 - Valik B - Wallet taastamine
 
 
@@ -251,7 +251,7 @@ Arutleme nüüd selle üle, kuidas taastada Blixt Wallet või mõni muu kokku ku
 ### VARIANT B - Wallet taastamine
 
 
-Varem kirjutasin spetsiaalse juhendi [kuidas taastada kokkuvarisenud Umbrel-sõlme](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), kus ma mainisin ka meetodit, kuidas kasutada Blixt'i kiiret taastamisprotsessi, kasutades seed + channel.backup faili Umbrelist.
+Varem kirjutasin spetsiaalse juhendi [kuidas taastada kokkuvarisenud Umbrel-sõlme](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), kus ma mainisin ka meetodit, kuidas kasutada Blixt'i kiiret taastamisprotsessi, kasutades seed + channel.backup faili Umbrelist.
 
 
 Kirjutasin ka juhendi, kuidas taastada oma Blixt-sõlme või migreerida oma Blixt teise seadmesse, [siin](https://blixtwallet.github.io/faq#blixt-restore).

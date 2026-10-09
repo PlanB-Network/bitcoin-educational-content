@@ -912,7 +912,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 ### Tapret
 
 
-마지막 옵션은 **Taproot**(BIP341과 함께 도입)을 *Tapret* 체계와 함께 사용하는 것입니다. *Tapret*은 결정론적 Commitment의 더 복잡한 형태로, Blockchain의 설치 공간과 Contract 작업의 기밀성 측면에서 개선된 기능을 제공합니다. 주요 아이디어는 [Taproot 트랜잭션](https://github.com/Bitcoin/BIPs/blob/master/BIP-0341.mediawiki)의 '스크립트 경로 지출' 부분에서 Commitment를 숨기는 것입니다.
+마지막 옵션은 **Taproot**(BIP341과 함께 도입)을 *Tapret* 체계와 함께 사용하는 것입니다. *Tapret*은 결정론적 Commitment의 더 복잡한 형태로, Blockchain의 설치 공간과 Contract 작업의 기밀성 측면에서 개선된 기능을 제공합니다. 주요 아이디어는 [Taproot 트랜잭션](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)의 '스크립트 경로 지출' 부분에서 Commitment를 숨기는 것입니다.
 
 
 ![RGB-Bitcoin](assets/en/036.webp)
@@ -968,7 +968,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 - p`: _키 경로 지출_에 대한 내부 공개 키입니다.
 - g`: 타원 커브의 생성점 [secp256k1](https://en.Bitcoin.it/wiki/Secp256k1).
 
--t = tH_TWEAK(P)`는 [BIP86](https://github.com/Bitcoin/BIPs/blob/master/BIP-0086.mediawiki#Address-derivation)에 따라 _태그 해시_(예: `SHA-256(TapTweak) || P)를 통해 계산된 트윅 계수입니다. 이는 숨겨진 스크립트가 없음을 증명합니다.
+-t = tH_TWEAK(P)`는 [BIP86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki#Address-derivation)에 따라 _태그 해시_(예: `SHA-256(TapTweak) || P)를 통해 계산된 트윅 계수입니다. 이는 숨겨진 스크립트가 없음을 증명합니다.
 
 
 탭렛 **Commitment**을 포함하려면 다음과 같이 **고유 스크립트**와 함께 **스크립트 경로 지출**을 추가하세요:
@@ -1162,7 +1162,7 @@ Multi Protocol Commitment(MPC)는 두 가지 요구 사항을 충족하도록 �
 #### MPC 루트 Hash
 
 
-실제로 `Opret` 또는 `Tapret`에 기록된 On-Chain 값은 `mpc::Commitment`라고 합니다. 이것은 공식에 따라 [BIP-341](https://github.com/Bitcoin/BIPs/blob/master/BIP-0341.mediawiki)의 형태로 계산됩니다:
+실제로 `Opret` 또는 `Tapret`에 기록된 On-Chain 값은 `mpc::Commitment`라고 합니다. 이것은 공식에 따라 [BIP-341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki)의 형태로 계산됩니다:
 
 
 ```txt
@@ -2617,7 +2617,7 @@ Ownership은 Seal Definition이 참조하는 UTXO을 제어하고 소비할 수 
 PSBT(_부분적으로 서명된 Bitcoin 트랜잭션_)은 아직 완전히 서명되지 않은 Bitcoin 트랜잭션입니다. 트랜잭션이 On-Chain 배포 준비가 완료된 것으로 간주될 때까지 특정 Elements(서명, 스크립트 등)을 추가하거나 확인할 수 있는 여러 엔터티 간에 공유할 수 있습니다.
 
 
-자세한 내용은 [BIP-0174](https://github.com/Bitcoin/BIPs/blob/master/BIP-0174.mediawiki)
+자세한 내용은 [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 
 #### Pedersen commitment
@@ -2699,7 +2699,7 @@ State Transition은 RGB Contract의 상태를 새로운 상태로 변경하는 �
 #### Taproot
 
 
-BIP341](https://github.com/Bitcoin/BIPs/blob/master/BIP-0341.mediawiki) 및 [BIP342](https://github.com/Bitcoin/BIPs/blob/master/BIP-0342.mediawiki)에서 도입한 Bitcoin의 SegWit v1 트랜잭션 형식을 참조합니다. Taproot은 특히 트랜잭션을 더 간결하게 만들고 서로 구별하기 어렵게 만들어 스크립트의 기밀성과 유연성을 향상시킵니다.
+BIP341](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki) 및 [BIP342](https://github.com/bitcoin/bips/blob/master/bip-0342.mediawiki)에서 도입한 Bitcoin의 SegWit v1 트랜잭션 형식을 참조합니다. Taproot은 특히 트랜잭션을 더 간결하게 만들고 서로 구별하기 어렵게 만들어 스크립트의 기밀성과 유연성을 향상시킵니다.
 
 
 #### Terminal Consignment - Consignment Endpoint

@@ -2664,7 +2664,7 @@ Maxwell, G. (2013, 22 Myandagaro). *CoinJoin: Bitcoin ubuzima bwite bw'isi nyaku
 Ariko rero, hariho n’ibindi vyavuzwe imbere y’aho, vyose ku mikono ya Chaum nka UTXO y’uguvanga, ariko kandi ku bijanye n’ama coinjoins. [Muri Ruheshi 2011, Duncan Townsend yashize ahabona ku rubuga rwa BitcoinTalk) igikoresho co guvanga gikoresha imikono ya Chaum mu buryo busa cane n’ubw’amafaranga y’iki Chaum yo muri iki gihe.
 
 
-Muri iyo nkuru nyene, turashobora gusanga [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend](https. Inzira idondora muri ubu butumwa ni co nyene coinjoins zivuga. Kuvuga uburyo busa n’ubwo birashobora no kuboneka muri [ubutumwa bwa Alex Mizrahi mu 2012](https://github.com/killerstorm/6f843e1d38191aebca67d483bd88#file-laundry) nk’uko mu nyuma ararema Litecoin. Mbere n'ijambo "CoinJoin" ubwaryo bavuga ko ritavuzwe na Greg Maxwell, ahubwo ko ryavuye mu ciyumviro ca Peter Todd.
+Muri iyo nkuru nyene, turashobora gusanga [ubutumwa buvuye kuri hashcoin mu kwishura Duncan Townsend](https. Inzira idondora muri ubu butumwa ni co nyene coinjoins zivuga. Kuvuga uburyo busa n’ubwo birashobora no kuboneka muri [ubutumwa bwa Alex Mizrahi mu 2012](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) nk’uko mu nyuma ararema Litecoin. Mbere n'ijambo "CoinJoin" ubwaryo bavuga ko ritavuzwe na Greg Maxwell, ahubwo ko ryavuye mu ciyumviro ca Peter Todd.
 
 
 ![BTC204](assets/rn/131.webp)
@@ -2749,7 +2749,7 @@ Kimwe mu bitera ingorane nyinshi JoinMarket ni uko ikoreshwa neza, ivyo bikaba b
 ![BTC204](assets/rn/137.webp)
 
 
-Inkomoko: [JAM](https://github.com/isoko-ry'urubuga/jam/ibara/iterambere/inyandiko/itunga/ishusho-ry'umwiza.urubuga)
+Inkomoko: [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.png)
 
 
 Ariko rero, intambamyi y’ubuhinga iracari intambamyi ikomeye. Mu bidukikije vya CoinJoin, aho ibanga rikomezwa n’umubare w’abaje mu nama, uburenganzira bwose bugabanya ubushobozi bwo kuronka amakuru buragira ingaruka zitaziguye ku mahera ariho, ari co kintu gihambaye cane mu gutuma iyo nzira ikora neza. Bitcoin, kuba isanzwe ari ikibanza mu bikorwa vy’amahera, ibona ko ikoresha coinjoins nk’ikibanza gitoyi, kandi JoinMarket iserukira mbere n’igice kidasanzwe cayo, ivyo rero bikaba bigabanya ubushobozi bwayo bwo kwongera anonsets z’abakoresha bayo.
@@ -6081,7 +6081,7 @@ Iciyumviro co kwishura mu gacerere ni ikintu gishasha kandi cashizwe mu ngiro gu
 
 
 - [Igikapu c'agakate](https://igikapu c'agakate.com/)
-- [Uguceceka](https://app.uguceceka.dev/)
+- [Uguceceka](https://app.silentium.dev/)
 - [Igikapu c'Impano](Igikapu c'Impano)
 
 

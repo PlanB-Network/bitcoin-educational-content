@@ -176,8 +176,8 @@ Amahuza yemewe yo gushiramwo :
 
 
 - [Gushiramwo kuri Raspberry Pi 5](gushiramwo-umutaka-OS-ku-Raspberry-Pi-5)
-- [Gushiramwo kuri sisitemu za x86 (https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-sisitemu za x86)
-- [Gushiramwo imashini y'ivy'impwemu](https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-Linux-VM)
+- [Gushiramwo kuri sisitemu za x86 (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-x86-Systems za x86)
+- [Gushiramwo imashini y'ivy'impwemu](https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Linux-VM)
 
 
 
@@ -222,7 +222,7 @@ Kugira ngo ushireho uzokenera :
 
 
 
-- Sura urubuga rwemewe (https://github.com/umutaka/wiki/Shiraho-umutaka-OS-ku-Raspberry-Pi-5)
+- Sura urubuga rwemewe (https://github.com/getumbrel/umbrel/wiki/Install-umbrelOS-on-a-Raspberry-Pi-5)
 - Kuvanaho verisiyo nshasha ya UmbrelOS ya Raspberry Pi 5
 
 
@@ -728,8 +728,8 @@ Umutaka wawe ubu warateguwe gukoreshwa. Ugira uruhara n’umwete mu rubuga rwa B
 
 
 
-- [Urubuga rwemewe rwa Umutaka](https://umutaka.com)
-- [Inyandiko z'umutaka](https://github.com/umutaka/umutaka/wiki)
+- [Urubuga rwemewe rwa Umutaka](https://umbrel.com)
+- [Inyandiko z'umutaka](https://github.com/getumbrel/umbrel/wiki)
 - [Umutaka w'Iduka rya Porogaramu](https://umutaka w'Iporogaramu.com)
 
 
@@ -751,6 +751,6 @@ Umutaka wawe ubu warateguwe gukoreshwa. Ugira uruhara n’umwete mu rubuga rwa B
 
 
 
-- [Umutaka w'ihuriro](https://umuryango.getumutaka.com)
+- [Umutaka w'ihuriro](https://community.getumbrel.com)
 - [Umutaka wa GitHub](imbuga ya github.com/umutaka)
 - [Umutaka wo kuri Twitter](https://twitter.com/umutaka)

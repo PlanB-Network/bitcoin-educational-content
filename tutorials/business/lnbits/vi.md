@@ -69,7 +69,7 @@ Trước khi cài đặt LNbits, hãy đảm bảo bạn đã đọc và hiểu 
 
 
 - [Hướng dẫn LND](https://docs.lightning.engineering/) | Cài đặt LND
-- [Ví dụ cấu hình LND](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | Cài đặt LND
+- [Ví dụ cấu hình LND](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | Cài đặt LND
 - [Hướng dẫn CLN](https://docs.corelightning.org/docs/installation) | Cài đặt CLN
 - [LUDs](https://github.com/lnurl/luds) Đặc tả LNURL | [NIPs](https://github.com/nostr-protocol/nips) Đặc tả Nostr
 - [Chạy Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Rất quan trọng!
@@ -81,7 +81,7 @@ Hướng dẫn chi tiết hơn về cách sử dụng LNbit trong các trường
 
 - [Bắt đầu với LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Hướng dẫn Substack
 - [Những việc cần làm để đảm bảo an toàn cho bạn với LNbits](https://youtu.be/i5FQf96e6zg) | Video trên Youtube
-- [Ngân hàng tư nhân trên Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Hướng dẫn Substack
+- [Ngân hàng tư nhân trên Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Hướng dẫn Substack
 - [Quản lý ví lưu ký cho bạn bè và gia đình](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Hướng dẫn Substack
 - [LNbits cho nhà hàng/khách sạn nhỏ](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Hướng dẫn Substack
 - [Sử dụng LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Hướng dẫn Substack

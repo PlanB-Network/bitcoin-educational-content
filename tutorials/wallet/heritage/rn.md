@@ -807,7 +807,7 @@ Heritage iraguha uburenganzira bwo gutegura urukurikirane rwawe rwa Bitcoin mu b
 
 
 
-- [Urubuga rwemewe rw'iragi](https://btc-iragi.com)
+- [Urubuga rwemewe rw'iragi](https://btc-heritage.com)
 - [Inyandiko CLI](btc-iragi.com/iragi-cli)
 - [Iragi rya GitHub CLI](urubuga rwa github.com/isi7/iragi-cli)
 - [Igikoresho c'iragi rya GitHub](github.com/isi7y'ibanga/iragi-gui)

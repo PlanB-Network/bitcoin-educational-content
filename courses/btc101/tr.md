@@ -817,7 +817,7 @@ Kişinin belirli bir güvenlik seviyesinde bırakmak istediği miktar her bireye
 Sonuç olarak, kişinin bitcoinlerinin doğrudan Ownership'ü finansal egemenliği sağlamak için önemli bir unsurdur. Günlük harcamalar için mobil bir Wallet ve daha büyük miktarları saklamak için çevrimdışı veya "Cold" fiziksel bir Wallet kullanılması tavsiye edilir. Öte yandan işletmeler, daha fazla ve ortak güvenlik için çoklu imza sistemleri veya "Multisig" kullanmayı düşünmelidir. Geleneksel finansal sistemin bazı güvenlik açıklarını kopyalayabilen saklama hizmetlerinden kaçınmak da önemlidir.
 
 
-Bunu akılda tutarak, şimdi bir Bitcoin Wallet'in nasıl oluşturulacağını açıkladığımız bir sonraki bölüme geçebiliriz. Bununla birlikte, güvenlik konusunu daha fazla araştırmak isterseniz, bu [DarthCoin tarafından yazılan makale](https://asi0.substack.com/p/Bitcoin-soyez-votre-propre-banque) okuyabilirsiniz.
+Bunu akılda tutarak, şimdi bir Bitcoin Wallet'in nasıl oluşturulacağını açıkladığımız bir sonraki bölüme geçebiliriz. Bununla birlikte, güvenlik konusunu daha fazla araştırmak isterseniz, bu [DarthCoin tarafından yazılan makale](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque) okuyabilirsiniz.
 
 
 ## Wallet kurulumu
@@ -1145,7 +1145,7 @@ Düğümler, çeşitli önemli işlevleri yerine getirdikleri için Bitcoin ağ 
 - Bitcoin protokolünün kurallarını uygulamak.
 
 
-Bu nedenle, Bitcoin düğümü olarak adlandırılan (genellikle [Bitcoin core](https://Bitcoin.org/en/Bitcoin-core/)) bir parça Bitcoin yazılımı çalıştıran herhangi bir cihaz, ağın merkezsizleştirilmesine katkıda bulunur.
+Bu nedenle, Bitcoin düğümü olarak adlandırılan (genellikle [Bitcoin core](https://bitcoin.org/en/bitcoin-core/)) bir parça Bitcoin yazılımı çalıştıran herhangi bir cihaz, ağın merkezsizleştirilmesine katkıda bulunur.
 
 
 ![image](assets/tr/050.webp)

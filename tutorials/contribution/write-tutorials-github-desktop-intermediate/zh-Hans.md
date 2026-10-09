@@ -177,7 +177,7 @@ project_id "是教程中涉及的工具背后的公司或组织的 UUID，可在
 
 现在您可以跳过 "不使用 Python 脚本 "小节和步骤 3 "填写 YAML 文件"，因为脚本已经为您完成了这些操作。直接进入第 4 步，开始编写教程。
 
-有关此 Python 脚本的更多信息，您也可以查看 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md)。
+有关此 Python 脚本的更多信息，您也可以查看 [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md)。
 
 ### 没有我的 Python 脚本
 

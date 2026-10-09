@@ -69,7 +69,7 @@ Innan du installerar LNbits ska du se till att du har läst och förstått följ
 
 
 - [LND Guide](https://docs.lightning.engineering/) | Installera LND
-- [LND konfigurationsexempel](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND inställningar
+- [LND konfigurationsexempel](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND inställningar
 - [CLN-guide](https://docs.corelightning.org/docs/installation) | Installera CLN
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Kör en Watchtower](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Mycket viktigt!
@@ -81,7 +81,7 @@ Mer detaljerade guider för användning av LNbits i specifika användningsscenar
 
 - [Komma igång med LNbits](https://darthcoin.substack.com/p/getting-started-lnbits) | Substack-guide
 - [ToDos för din säkerhet med LNbits](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Privata banker på Lightning Network](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Substack guide
+- [Privata banker på Lightning Network](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Substack guide
 - [Kör depåplånböcker för dina vänner och familj](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Substack guide
 - [LNbits för en liten restaurang / hotell](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Substack guide
 - [Använda LNbits Streamer copilot](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Substack guide

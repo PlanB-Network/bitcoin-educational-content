@@ -14,7 +14,7 @@ Mini Miner braiins BMM 100 on toode, mille on loonud Mining pool Braiins. Sellel
 
 
 
-Palju rohkem olulist teavet leiate ka otse [tootja veebisait](https://braiins.com/hardware/mini-Miner-bmm-100), kus on täielik juhend.
+Palju rohkem olulist teavet leiate ka otse [tootja veebisait](https://braiins.com/hardware/mini-miner-bmm-100), kus on täielik juhend.
 
 
 

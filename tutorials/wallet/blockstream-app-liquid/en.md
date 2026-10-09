@@ -26,7 +26,7 @@ description: How to configure Blockstream App and use the Liquid network
 ### 1.3 Introducing Liquid
 
 
-**Liquid** is a **Sidechain** of Bitcoin, developed by **[Blockstream](https://blockstream.com/Liquid/)**, designed to offer faster, more confidential transactions and advanced functionality, while remaining connected to the main Blockchain Bitcoin.
+**Liquid** is a **Sidechain** of Bitcoin, developed by **[Blockstream](https://blockstream.com/liquid/)**, designed to offer faster, more confidential transactions and advanced functionality, while remaining connected to the main Blockchain Bitcoin.
 
 
 A Sidechain is an independent Blockchain that operates in parallel with Bitcoin, using a mechanism known as **two-way peg**. This system locks bitcoins onto the main Blockchain to create **Liquid-Bitcoins (L-BTC)**, tokens that circulate on the Liquid network while retaining parity of value with the original bitcoins. Funds can be returned to Blockchain Bitcoin at any time.

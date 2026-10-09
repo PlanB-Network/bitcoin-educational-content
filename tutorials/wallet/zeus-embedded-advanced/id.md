@@ -322,7 +322,7 @@ SCB hanya diperlukan jika Anda memiliki saluran LN yang terbuka. Jika Anda hanya
 Jika Anda melihat bahwa setelah sekian lama masih belum menampilkan txs riwayat lama, buka Embedded node - Peers dan nonaktifkan opsi untuk menggunakan daftar peer yang dipilih (secara default adalah btcd.lnolymp.us). Ini akan memicu restart dan akan terhubung ke node neutrino pertama yang tersedia dengan respons waktu yang lebih baik. Atau gunakan peers neutrino terkenal lainnya yang disebutkan di bawah ini.
 
 
-Jika Anda ingin melihat lebih banyak opsi pemulihan untuk node LND, [silakan baca panduan saya sebelumnya](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), di mana Anda dapat menemukan langkah-langkah cara mengimpor aezeed seed ke dalam Sparrow Wallet atau metode lainnya.
+Jika Anda ingin melihat lebih banyak opsi pemulihan untuk node LND, [silakan baca panduan saya sebelumnya](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), di mana Anda dapat menemukan langkah-langkah cara mengimpor aezeed seed ke dalam Sparrow Wallet atau metode lainnya.
 
 
 **C - Node Tertanam**

@@ -83,7 +83,7 @@ https://planb.academy/tutorials/wallet/hardware/jade-7d62bf0c-f460-4e68-9635-af9
 ## Instalacija i konfiguracija
 
 
-Posetite zvaničnu Wizardsardine veb stranicu i preuzmite Liana na https://wizardsardine.com/Liana/. Takođe možete preuzeti najnoviju verziju [sa GitHub repozitorijuma](https://github.com/wizardsardine/Liana/releases), gde možete proveriti autentičnost softvera. Verzija korišćena u ovom vodiču je 0.9.
+Posetite zvaničnu Wizardsardine veb stranicu i preuzmite Liana na https://wizardsardine.com/liana/. Takođe možete preuzeti najnoviju verziju [sa GitHub repozitorijuma](https://github.com/wizardsardine/Liana/releases), gde možete proveriti autentičnost softvera. Verzija korišćena u ovom vodiču je 0.9.
 
 
 ![Télécharger Liana](assets/fr/02.webp)
@@ -363,7 +363,7 @@ Kada se potvrdi, vaš novčić je siguran! Možete biti bez brige do sledećeg d
 Kada povraćate sredstva sa Liana Wallet, možete se suočiti sa jednom od dve situacije. Možda imate pristup računaru na kojem je softver instaliran, u tom slučaju sve što treba da uradite je da ga otvorite (što će se desiti u slučaju poboljšanog modela bekapa). Međutim, možda nemate pristup ovom računaru, pa ćemo ovde početi od nule. Imajte na umu da je procedura oporavka ista u oba slučaja.
 
 
-Da biste započeli, preuzmite Liana sa [zvanične Wizardsardine veb stranice](https://wizardsardine.com/Liana/), ili sa [GitHub repozitorijuma](https://github.com/wizardsardine/Liana/releases), gde možete proveriti autentičnost softvera. Instalirajte softver i pokrenite ga. Verzija korišćena u našem slučaju je 0.9, tako da se vizuali mogu promeniti. Na ekranu dobrodošlice, izaberite opciju "Dodaj postojeći Liana Wallet".
+Da biste započeli, preuzmite Liana sa [zvanične Wizardsardine veb stranice](https://wizardsardine.com/liana/), ili sa [GitHub repozitorijuma](https://github.com/wizardsardine/Liana/releases), gde možete proveriti autentičnost softvera. Instalirajte softver i pokrenite ga. Verzija korišćena u našem slučaju je 0.9, tako da se vizuali mogu promeniti. Na ekranu dobrodošlice, izaberite opciju "Dodaj postojeći Liana Wallet".
 
 
 ![Ajouter portefeuille existant](assets/fr/34.webp)

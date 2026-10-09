@@ -168,8 +168,8 @@ Minibits itanga uburyo bwo kwinjira mw’isi ya ecash, itanga amahera yibanze ku
 Ku bindi bikoresho, raba ububiko bwa Minibits GitHub, urubuga rwemewe, n’umurongo wabo wa Telegram aho umuryango uganira n’umwete ku bijanye n’iterambere no gutorera umuti ingorane .
 
 
-- [Github](https://github.com/amafaranga-mato/amasakoshi_mato)
-- [Urubuga](https://www.amafaranga make/)
+- [Github](https://github.com/minibits-cash/minibits_wallet)
+- [Urubuga](https://www.minibits.cash/)
 - [Itelegaramu](Ikigega gitoya)
 
 

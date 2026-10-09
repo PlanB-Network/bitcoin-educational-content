@@ -21,7 +21,7 @@ Bittr 是一款簡單直接的工具，適合任何希望在 Bitcoin 中增加�
 ## 開始使用 Bittr
 
 
-- 在網頁或手機上前往 [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 並點選「購買 Bitcoin」。
+- 在網頁或手機上前往 [getbittr.com](https://getbittr.com/buy-bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) 並點選「購買 Bitcoin」。
 
 
 

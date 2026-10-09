@@ -36,7 +36,7 @@ Pendekatan Ninja SAFU menawarkan beberapa keuntungan:
 
 
 
-- **Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
+- **Keandalan**: Diuji sejak tahun 2020, metode ini telah dicoba dan diuji oleh para ahli keselamatan seperti [Jameson Lopp](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/), yang telah melakukan uji coba yang ketat (panas ekstrem, korosi, tekanan mekanis).
 
 
 
@@ -354,13 +354,13 @@ Menurut Jameson Lopp:
 
 
 
-- [Laporan](https://jlopp.github.io/metal-Bitcoin-storage-reviews/reviews/safu-ninja/) tentang metode Ninja SAFU
+- [Laporan](https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/) tentang metode Ninja SAFU
 
 
 
 
 
-- Tabel perbandingan [lengkap](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Tabel perbandingan [lengkap](https://jlopp.github.io/metal-bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 

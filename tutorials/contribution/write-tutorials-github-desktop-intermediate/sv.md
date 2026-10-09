@@ -253,7 +253,7 @@ När all information har angetts och verifierats klickar du på "Create Tutorial
 Du kan nu hoppa över underavsnittet "Utan mitt Python-skript" samt steg 3, "Fyll i YAML-filen", eftersom skriptet redan har utfört dessa åtgärder åt dig. Fortsätt direkt till steg 4 och börja skriva din självstudie.
 
 
-För mer information om detta Python-skript kan du också läsa [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+För mer information om detta Python-skript kan du också läsa [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Utan mitt Python-skript

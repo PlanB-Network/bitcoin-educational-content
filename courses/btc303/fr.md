@@ -326,7 +326,7 @@ Il semble que nous ne puissions pas avoir un système décentralisé basé sur l
 Pour utiliser Bitcoin de manière Trustless, vous devez faire fonctionner un nœud Bitcoin à validation complète. Ce n'est qu'alors que vous pourrez vérifier que les blocs que vous recevez des autres suivent les règles du consensus ; par exemple, que le calendrier d'émission des pièces est respectée et qu'il n'y a pas de double dépense sur la Blockchain. Si vous ne gérez pas de noeud complet, vous confiez la vérification des blocs Bitcoin à quelqu'un d'autre et vous lui faites confiance pour vous dire la vérité, ce qui signifie que vous n'utilisez pas le Bitcoin de manière Trustless.
 
 
-David Harding a rédigé [un article sur le site web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) expliquant comment la gestion d'un noeud complet, ou l'utilisation sans confiance de Bitcoin, vous aide réellement :
+David Harding a rédigé [un article sur le site web Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) expliquant comment la gestion d'un noeud complet, ou l'utilisation sans confiance de Bitcoin, vous aide réellement :
 
 
 > Bitcoin ne fonctionne que lorsque les gens acceptent des bitcoins en échange contre d'autres choses de valeur. En d'autres termes, ce sont les personnes qui acceptent des bitcoins qui lui donnent de la valeur et qui décident du fonctionnement du Bitcoin.
@@ -802,7 +802,7 @@ Une norme assure la compatibilité future si un produit conforme aux versions an
 Une modification des règles de consensus de Bitcoin est dite *[Soft Fork](https://planb.academy/resources/glossary/soft-fork)* si elle est entièrement compatible. C'est la façon la plus courante de mettre à jour Bitcoin, pour un certain nombre de raisons que nous aborderons plus loin dans ce chapitre. Si une modification des règles de consensus Bitcoin est rétrocompatible mais pas avec l'avenir, elle est appelée *[Hard Fork](https://planb.academy/resources/glossary/hard-fork)*.
 
 
-Pour un aperçu technique des forks Soft et Hard, veuillez lire le [chapitre 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Il explique ces termes et aborde également les mécanismes de mise à niveau. Il est recommandé, mais pas strictement nécessaire, de se familiariser avec ces notions avant de poursuivre la lecture.
+Pour un aperçu technique des forks Soft et Hard, veuillez lire le [chapitre 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Il explique ces termes et aborde également les mécanismes de mise à niveau. Il est recommandé, mais pas strictement nécessaire, de se familiariser avec ces notions avant de poursuivre la lecture.
 
 
 ### Améliorations historiques
@@ -1230,7 +1230,7 @@ De nombreux développeurs choisissent cette option en opérant sous un pseudonym
 > Si vous vous demandez si vous devez faire un don ou non, et si vous vous interrogez sur mon coût de la vie ou mes revenus, sachez qu'à proprement parler, vous devez me faire un don en fonction de l'utilité que vous trouvez à mon travail sur Bitcoin et le Lightning Network.
 
 
-Dans son cas, la raison de l'utilisation d'un pseudonyme doit être jugée sur ses mérites et non sur l'identité de la personne ou des personnes qui se cachent derrière le pseudonyme. Il est intéressant de noter qu'il a révélé dans un [article sur CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que le pseudonyme a été créé pour une raison différente.
+Dans son cas, la raison de l'utilisation d'un pseudonyme doit être jugée sur ses mérites et non sur l'identité de la personne ou des personnes qui se cachent derrière le pseudonyme. Il est intéressant de noter qu'il a révélé dans un [article sur CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que le pseudonyme a été créé pour une raison différente.
 
 
 > La raison initiale [de l'utilisation d'un pseudonyme] était simplement que je craignais de commettre une grave erreur ; ainsi, ZmnSCPxj était initialement destiné à être un pseudonyme jetable qui pourrait être abandonné dans un tel cas. Cependant, comme il semble avoir acquis une réputation plutôt positive, je l'ai conservé
@@ -1305,7 +1305,7 @@ Sur le chemin de l'adoption finale, une idée passe généralement par plusieurs
 À chacune de ces phases, des personnes ayant des points de vue et des antécédents différents examinent les informations disponibles, qu'il s'agisse du code source, d'un BIP ou simplement d'une idée vaguement décrite. En effet, plusieurs phases peuvent se dérouler simultanément et il arrive que l'on passe de l'une à l'autre. Différentes personnes peuvent également fournir un retour d'information au cours des différentes phases.
 
 
-L'un des réviseurs de code les plus prolifiques sur Bitcoin Core est Jon Atack. Il a écrit [un billet de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) sur la façon de réviser les demandes de modification dans Bitcoin Core. Il insiste sur le fait qu'un bon réviseur de code se concentre sur la meilleure façon d'apporter de la valeur ajoutée.
+L'un des réviseurs de code les plus prolifiques sur Bitcoin Core est Jon Atack. Il a écrit [un billet de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) sur la façon de réviser les demandes de modification dans Bitcoin Core. Il insiste sur le fait qu'un bon réviseur de code se concentre sur la meilleure façon d'apporter de la valeur ajoutée.
 
 
 > En tant que nouvel arrivant, l'objectif est d'essayer d'apporter une valeur ajoutée, avec amabilité et humilité, tout en apprenant autant que possible.
@@ -1429,7 +1429,7 @@ La scalabilité a été un point central de discussion depuis la Genesis de Bitc
 > Satoshi Nakamoto a écrit :
 >
 
-> "J'ai travaillé sur un nouveau système de monnaie électronique qui est entièrement pair-à-pair, sans tiers de confiance.  Le document est disponible à l'adresse suivante : http://www.Bitcoin.org/Bitcoin.pdf"
+> "J'ai travaillé sur un nouveau système de monnaie électronique qui est entièrement pair-à-pair, sans tiers de confiance.  Le document est disponible à l'adresse suivante : http://www.bitcoin.org/bitcoin.pdf"
 >
 
 > Nous avons vraiment besoin d'un tel système, mais d'après ce que je comprends de votre proposition, il ne semble pas pouvoir s'adapter à la taille requise.
@@ -1507,7 +1507,7 @@ Le deuxième point a un effet négatif sur la décentralisation du minage, car l
 La scalabilité horizontale fait référence aux techniques qui divisent la charge de travail entre plusieurs machines. Bien qu'il s'agisse d'une approche de scalabilité très répandue sur les sites web et les bases de données populaires, elle n'est pas facile à mettre en œuvre dans Bitcoin.
 
 
-De nombreuses personnes appellent cette approche de scalabilité de Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque noeud complet vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
+De nombreuses personnes appellent cette approche de scalabilité de Bitcoin *sharding*. Fondamentalement, elle consiste à laisser chaque noeud complet vérifier une partie seulement de la Blockchain. Peter Todd a beaucoup réfléchi au concept de sharding. Il a écrit un [billet de blog](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) expliquant le sharding en termes généraux, et présentant également sa propre idée appelée *treechains*. L'article est difficile à lire, mais Todd soulève des points qui sont tout à fait digestes :
 
 
 > Dans les systèmes partagés, la "défense des noeuds complets" ne fonctionne pas, du moins directement. L'idée est que tout le monde ne dispose pas de toutes les données, et qu'il faut donc décider de ce qui se passe lorsqu'elles ne sont pas disponibles.
@@ -2051,7 +2051,7 @@ Il en ressort que les BIP doivent être plus ou moins *atomiques*, c'est-à-dire
 
 
 
-Malheureusement, l'histoire du BIP66 ne s'est pas arrêtée là. Lorsque le BIP66 a été activé, il s'est avéré assez désordonné parce que certains mineurs n'ont pas vérifié les blocs qu'ils essayaient d'étendre. C'est ce qu'on appelle le minage sans validation, ou SPV-Mining (Simplified Payment Verification). Un message d'alerte a été envoyé aux nœuds Bitcoin avec un lien vers [une page web décrivant le problème](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining) :
+Malheureusement, l'histoire du BIP66 ne s'est pas arrêtée là. Lorsque le BIP66 a été activé, il s'est avéré assez désordonné parce que certains mineurs n'ont pas vérifié les blocs qu'ils essayaient d'étendre. C'est ce qu'on appelle le minage sans validation, ou SPV-Mining (Simplified Payment Verification). Un message d'alerte a été envoyé aux nœuds Bitcoin avec un lien vers [une page web décrivant le problème](https://bitcoin.org/en/alert/2015-07-04-spv-mining) :
 
 
 > Tôt dans la matinée du 4 juillet 2015, le seuil de 950/1000 (95 %) a été atteint. Peu de temps après, un petit mineur (faisant partie des 5 % non améliorés) a miné un bloc invalide, ce qui était prévisible. Malheureusement, il s'est avéré qu'environ la moitié du taux de hashage du réseau minait sans validation complète des blocs (appelé SPV Mining), et a construit de nouveaux blocs au-dessus de ce bloc invalide.

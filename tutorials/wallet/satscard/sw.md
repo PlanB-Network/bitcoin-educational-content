@@ -45,7 +45,7 @@ Mara tu unapopokea Satscard yako, hatua ya kwanza ni kukagua kifurushi ili kuhak
 
 Ili kutumia Satscard yako, tutatumia programu ya simu inayoitwa **Nunchuk Wallet**. Hakikisha kwamba simu yako ina uwezo wa NFC, kisha pakua programu ya Nunchuk kutoka
 [Google Play Store].
-(https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id156319007`), au moja kwa moja kupitia its faili](https://github.com/nunchuk-io/nunchuk-android/releases).
+(https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073), au moja kwa moja kupitia its faili](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![SATSCARD](assets/notext/02.webp)

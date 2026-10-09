@@ -52,7 +52,7 @@ Ledger अपने प्रतिस्पर्धियों से इस 
 ## Ledger नैनो एस प्लस कैसे खरीदें?
 
 
-Ledger नैनो एस प्लस [आधिकारिक वेबसाइट](https://shop.Ledger.com/products/Ledger-nano-s-plus पर] बिक्री के लिए उपलब्ध है। इसे किसी भौतिक स्टोर में खरीदने के लिए, आप Ledger वेबसाइट पर [प्रमाणित पुनर्विक्रेताओं की सूची](https://www.Ledger.com/reseller) भी पा सकते हैं।
+Ledger नैनो एस प्लस [आधिकारिक वेबसाइट](https://shop.ledger.com/products/ledger-nano-s-plus पर] बिक्री के लिए उपलब्ध है। इसे किसी भौतिक स्टोर में खरीदने के लिए, आप Ledger वेबसाइट पर [प्रमाणित पुनर्विक्रेताओं की सूची](https://www.Ledger.com/reseller) भी पा सकते हैं।
 
 
 ## आवश्यक शर्तें

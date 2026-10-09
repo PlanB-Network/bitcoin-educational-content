@@ -304,7 +304,7 @@ La gente suele decir cosas como "Bitcoin es genial porque es Trustless".
 En resumen, la palabra *Trustless* se refiere a una propiedad del protocolo Bitcoin por la que puede funcionar lógicamente sin "ninguna parte de confianza". Esto es diferente de la confianza que inevitablemente tienes que poner en el software o hardware que ejecutas. Este último aspecto de la confianza se tratará más adelante en este capítulo.
 
 
-En los sistemas centralizados, dependemos de la reputación de un actor central para asegurarnos de que se ocupará de la seguridad o dará marcha atrás en caso de problemas, así como del sistema legal para sancionar cualquier infracción. Estos requisitos de confianza son problemáticos en los sistemas descentralizados seudónimos: no hay posibilidad de recurso, por lo que realmente no puede haber confianza. En la introducción del [libro blanco de Bitcoin](https://Bitcoin.org/Bitcoin.pdf), Satoshi Nakamoto describe este problema:
+En los sistemas centralizados, dependemos de la reputación de un actor central para asegurarnos de que se ocupará de la seguridad o dará marcha atrás en caso de problemas, así como del sistema legal para sancionar cualquier infracción. Estos requisitos de confianza son problemáticos en los sistemas descentralizados seudónimos: no hay posibilidad de recurso, por lo que realmente no puede haber confianza. En la introducción del [libro blanco de Bitcoin](https://bitcoin.org/bitcoin.pdf), Satoshi Nakamoto describe este problema:
 
 
 > El comercio en Internet ha pasado a depender casi exclusivamente de instituciones financieras que actúan como terceros de confianza para procesar los pagos electrónicos.
@@ -317,7 +317,7 @@ Parece que no podemos tener un sistema descentralizado basado en la confianza, y
 Para utilizar Bitcoin de forma trustless, tienes que ejecutar un full node. Solo entonces podrás verificar que los bloques que recibes de otros siguen las reglas del consenso; por ejemplo, que se cumple el calendario de emisión de monedas y que no se produce un doble gasto en la blockchain. Si no gestionas una full node, subcontratas la verificación de los bloques de Bitcoin a otra persona y confías en que te diga la verdad, lo que significa que no estás utilizando Bitcoin de forma trustless.
 
 
-David Harding ha escrito [un artículo en el sitio web Bitcoin.org](https://Bitcoin.org/en/Bitcoin-core/features/validation) en el que explica cómo el funcionamiento de una Full node -o el uso de Bitcoin sin confianza- realmente le ayuda:
+David Harding ha escrito [un artículo en el sitio web Bitcoin.org](https://bitcoin.org/en/bitcoin-core/features/validation) en el que explica cómo el funcionamiento de una Full node -o el uso de Bitcoin sin confianza- realmente le ayuda:
 
 
 > La moneda Bitcoin solo funciona cuando la gente acepta bitcoins en intercambio por otras cosas de valor. Eso significa que son las personas que aceptan bitcoins las que le dan valor y las que deciden cómo debe funcionar Bitcoin.
@@ -498,7 +498,7 @@ Al utilizar direcciones, o claves públicas, conseguimos objetivos importantes, 
 La privacidad de blockchain se refiere a la información que revelas al realizar transacciones en la blockchain. Se aplica a todas las transacciones, tanto las que envías como las que recibes.
 
 
-Satoshi Nakamoto reflexiona sobre la privacidad de On-Chain en la sección 7 de su [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
+Satoshi Nakamoto reflexiona sobre la privacidad de On-Chain en la sección 7 de su [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf):
 
 
 > Como cortafuegos adicional, se debe utilizar un nuevo par de claves para cada transacción para evitar que se vinculen a un propietario común. No obstante, es inevitable que se produzcan algunos vínculos en las transacciones con varias entradas, que revelan necesariamente que sus entradas pertenecían al mismo propietario. El riesgo es que si se revela el propietario de una clave, la vinculación podría revelar otras transacciones que pertenecían al mismo propietario.
@@ -776,7 +776,7 @@ Y viceversa, [compatibilidad con versiones anteriores](https://en.wikipedia.org/
 Se dice que una modificación de las reglas de consenso de Bitcoin es una **[Soft Fork](https://planb.academy/resources/glossary/soft-fork)** si es totalmente compatible. Esta es la forma más común de actualizar Bitcoin, por una serie de razones que discutiremos más adelante en este capítulo. Si un cambio en las reglas de consenso de Bitcoin es compatible hacia atrás pero no hacia adelante, se dice que es una **[Hard Fork](https://planb.academy/resources/glossary/hard-fork)**.
 
 
-Para obtener una visión general técnica de las bifurcaciones de Soft y Hard, lea el [capítulo 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Explica estos términos y también se sumerge en los mecanismos de actualización. Es recomendable, aunque no estrictamente necesario, que te familiarices con esto antes de seguir leyendo.
+Para obtener una visión general técnica de las bifurcaciones de Soft y Hard, lea el [capítulo 11 de Grokking Bitcoin](https://rosenbaum.se/book/grokking-bitcoin-11.html). Explica estos términos y también se sumerge en los mecanismos de actualización. Es recomendable, aunque no estrictamente necesario, que te familiarices con esto antes de seguir leyendo.
 
 
 ### Mejoras históricas
@@ -1144,7 +1144,7 @@ Muchos desarrolladores eligen esta opción operando bajo un seudónimo y tratand
 artículos y mi trabajo sobre el Bitcoin y el Lightning Network.
 
 
-En su caso, la razón para utilizar un seudónimo debe juzgarse por sus méritos y no por quién es o son la persona o personas que se esconden tras el seudónimo. Curiosamente, reveló en un [artículo en CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que el seudónimo se creó por un motivo diferente.
+En su caso, la razón para utilizar un seudónimo debe juzgarse por sus méritos y no por quién es o son la persona o personas que se esconden tras el seudónimo. Curiosamente, reveló en un [artículo en CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) que el seudónimo se creó por un motivo diferente.
 
 
 > Mi razón inicial [para usar un seudónimo] era simplemente que me preocupaba [cometer] un error masivo; así, ZmnSCPxj pretendía ser un seudónimo desechable que pudiera abandonarse en tal caso. Sin embargo, parece que ha cosechado una reputación mayoritariamente positiva, así que lo he mantenido
@@ -1204,7 +1204,7 @@ En su camino hacia la adopción final, una idea suele pasar por varias fases de 
 
 En cada una de estas fases, personas con distintos puntos de vista y formación revisan la información disponible, ya sea el código fuente, un BIP o simplemente una idea descrita vagamente. Las fases no suelen realizarse de manera estrictamente descendente; de hecho, pueden darse varias fases simultáneamente, y a veces se pasa de una a otra. También es posible que diferentes personas aporten su opinión durante las distintas fases.
 
-Uno de los más prolíficos revisores de código en Bitcoin Core es Jon Atack. Él escribió [una entrada de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-Bitcoin-core) sobre cómo revisar pull requests en Bitcoin Core. Hace hincapié en que un buen revisor de código se centra en la mejor manera de añadir valor.
+Uno de los más prolíficos revisores de código en Bitcoin Core es Jon Atack. Él escribió [una entrada de blog](https://jonatack.github.io/articles/how-to-review-pull-requests-in-bitcoin-core) sobre cómo revisar pull requests en Bitcoin Core. Hace hincapié en que un buen revisor de código se centra en la mejor manera de añadir valor.
 
 > Como recién llegado, el objetivo es intentar aportar valor, con amabilidad y humildad, mientras se aprende todo lo posible.
 >
@@ -1308,7 +1308,7 @@ El escalado ha sido un punto central de discusión desde la Genesis de Bitcoin. 
 
 > Satoshi Nakamoto escribió:
 >
-> "He estado trabajando en un nuevo sistema de dinero electrónico que es totalmente peer-to-peer, sin terceros de confianza. El documento está disponible en http://www.Bitcoin.org/Bitcoin.pdf"
+> "He estado trabajando en un nuevo sistema de dinero electrónico que es totalmente peer-to-peer, sin terceros de confianza. El documento está disponible en http://www.bitcoin.org/bitcoin.pdf"
 >
 > Necesitamos urgentemente un sistema de este tipo, pero por lo que veo en su propuesta, no parece tener el tamaño necesario.
 
@@ -1376,7 +1376,7 @@ El segundo punto tiene un efecto negativo en la descentralización minera, porqu
 El escalado horizontal se refiere a las técnicas que dividen la carga de trabajo entre varias máquinas. Aunque se trata de un método de escalado habitual en sitios web y bases de datos populares, no es fácil de aplicar en Bitcoin.
 
 
-Mucha gente se refiere a este enfoque de escalado de Bitcoin como fragmentación (sharding). Básicamente, consiste en dejar que cada Full node verifique solo una parte de la Blockchain. Peter Todd ha reflexionado mucho sobre el concepto de fragmentación. Escribió un [artículo de blog](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) explicando la fragmentación en términos generales, y también presentando su propia idea llamada *treechains* (cadenas de árbol). El artículo es de difícil lectura, pero Todd expone algunos puntos que son bastante digeribles:
+Mucha gente se refiere a este enfoque de escalado de Bitcoin como fragmentación (sharding). Básicamente, consiste en dejar que cada Full node verifique solo una parte de la Blockchain. Peter Todd ha reflexionado mucho sobre el concepto de fragmentación. Escribió un [artículo de blog](https://petertodd.org/2015/why-scaling-bitcoin-with-sharding-is-very-hard) explicando la fragmentación en términos generales, y también presentando su propia idea llamada *treechains* (cadenas de árbol). El artículo es de difícil lectura, pero Todd expone algunos puntos que son bastante digeribles:
 
 > En los sistemas fragmentados la "defensa Full node" no funciona, al menos directamente. La cuestión es que no todo el mundo tiene todos los datos, así que tienes que decidir qué pasa cuando no están disponibles.
 
@@ -1830,7 +1830,7 @@ Una de las principales conclusiones es que los BIP deben ser más o menos *atóm
 
 
 
-Por desgracia, la historia del BIP66 no terminó ahí. Cuando se activó el BIP66, resultó bastante lioso porque algunos mineros no verificaron los bloques que intentaban ampliar. Esto se denomina minería sin validación, o SPV-Mining (como en Simplified Payment Verification). Se envió un mensaje de alerta a los nodos Bitcoin con un enlace a [una página web que describe el problema](https://Bitcoin.org/en/alert/2015-07-04-spv-Mining):
+Por desgracia, la historia del BIP66 no terminó ahí. Cuando se activó el BIP66, resultó bastante lioso porque algunos mineros no verificaron los bloques que intentaban ampliar. Esto se denomina minería sin validación, o SPV-Mining (como en Simplified Payment Verification). Se envió un mensaje de alerta a los nodos Bitcoin con un enlace a [una página web que describe el problema](https://bitcoin.org/en/alert/2015-07-04-spv-mining):
 
 
 > A primera hora de la mañana del 4 de julio de 2015, se alcanzó el umbral de 950/1000 (95%). Poco después, un pequeño minero (parte del 5% no actualizado) minó un bloque no válido, como era de esperar. Desafortunadamente, resultó que aproximadamente la mitad de la tasa de Hash de la red era minería sin validar completamente los bloques (llamado SPV Mining), y construyó nuevos bloques encima de ese bloque inválido.

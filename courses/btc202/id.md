@@ -81,7 +81,7 @@ Karena Bitcoin adalah sebuah sistem, ia harus dijalankan pada komputer. Dan, kar
 
 ![Image](assets/fr/047.webp)
 
-Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://bitcoin.org/bitcoin.pdf
 
 Para pengguna inilah yang memastikan keamanan Bitcoin. Seperti yang dijelaskan oleh Eric Voskuil dalam bukunya *Cryptoeconomics*, keamanan Bitcoin tidak bergantung pada [Blockchain](https://planb.academy/resources/glossary/blockchain), tidak juga pada [kekuatan hashing](https://planb.academy/resources/glossary/hashrate), tidak juga pada validasi, desentralisasi, [kriptografi](https://planb.academy/resources/glossary/cryptography), [open source](https://planb.academy/resources/glossary/foss), atau teori permainan. Keamanan Bitcoin bergantung terutama pada individu yang bersedia mengekspos diri mereka sendiri terhadap risiko pribadi. Desentralisasi memungkinkan risiko ini tersebar ke sejumlah besar individu, dan hanya kemampuan mereka untuk menolak yang memastikan ketahanan sistem.
 
@@ -112,7 +112,7 @@ Tugas pertama node adalah memelihara salinan lokal dari Blockchain. Untuk menceg
 
 > "Satu-satunya cara untuk mengkonfirmasi tidak adanya transaksi adalah dengan mengetahui semua transaksi." 
 
-Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). *Bitcoin: Sistem Uang Elektronik Peer-to-Peer*. https://bitcoin.org/bitcoin.pdf
 
 Blockchain merupakan sebuah tabel yang terus berkembang: setiap kali blok baru diterbitkan oleh [miner](https://planb.academy/resources/glossary/miner), node memeriksa validitasnya sebelum menambahkannya ke salinan chain lokalnya. Hingga saat ini (Juli 2025), Blockchain lengkap melebihi 675 GB, dan ukuran ini terus bertambah, karena blok baru ditambahkan rata-rata setiap 10 menit.
 
@@ -205,7 +205,7 @@ Secara teori, Bitcoin Core tidak mewakili protokol Bitcoin; melainkan, ini hanya
 
 ### Distribusi implementasi saat ini
 
-[Menurut data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr]https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (seorang pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
+[Menurut data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr]https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (seorang pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
 
 - **Bitcoin Core**: 87.3% dari node
 - **Bitcoin Knots**: 12.5%
@@ -403,7 +403,7 @@ Node [SPV](https://planb.academy/resources/glossary/spv-node-light-node) (_Simpl
 
 ![Image](assets/fr/066.webp)
 
-Nakamoto, S. (2008). _Bitcoin: A Peer-to-Peer Electronic Cash System_. https://Bitcoin.org/Bitcoin.pdf
+Nakamoto, S. (2008). _Bitcoin: A Peer-to-Peer Electronic Cash System_. https://bitcoin.org/bitcoin.pdf
 
 Jenis node ini jelas jauh lebih ringan dalam hal penggunaan penyimpanan dan CPU daripada full node atau bahkan pruned node. Oleh karena itu, node SPV sangat cocok untuk perangkat yang lebih kecil dan koneksi yang terputus-putus (intermittent connections). Faktanya, node ini seringkali diintegrasikan langsung ke dalam wallet, terutama perangkat lunak seluler seperti Blockstream App.
 
@@ -567,7 +567,7 @@ Selama beberapa tahun terakhir, para bitcoiner semakin menyadari kesalahpahaman 
 
 Meskipun demikian, menggunakan mesin khusus seringkali lebih nyaman. Mesin tersebut dapat berjalan terus menerus (24/7), dapat diakses dari jarak jauh setiap saat, tidak memonopoli sumber daya mesin utama Anda, dan, yang terpenting, mengisolasi penggunaan (praktik keamanan yang baik: jika PC pribadi Anda mengalami masalah, node Anda terus berfungsi, dan sebaliknya). Jadi, pertanyaannya bukanlah "Apakah saya perlu mendedikasikan sebuah mesin?", melainkan "Apakah saya memerlukan node yang terus online, dapat diakses oleh perangkat lain, dan mampu berevolusi?" (Lightning, indexer, aplikasi tambahan...). Jika jawabannya ya, memilih mesin terpisah akan membuat segalanya jauh lebih sederhana.
 
-Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
+Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr](https://luke.dashjr.org/programs/bitcoin/files/charts/software.html) (pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
 
 #### Mendaur ulang PC lama
 
@@ -3118,11 +3118,11 @@ Terakhir, file `Bitcoin.conf` juga memungkinkan Anda untuk mengkonfigurasi param
 - `help-debug=1`: Menampilkan bantuan opsi debug dan berhenti.
 - `uacomment=<cmt>`: Menambahkan komentar ke Agen-Pengguna P2P.
 
-Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini dengan demikian merupakan dashboard sebenarnya dari node Anda: ia mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika Anda ingin mempelajari lebih lanjut tentang file ini dan membuat satu yang disesuaikan dengan kebutuhan Anda, saya sarankan menggunakan [generator Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini dengan demikian merupakan dashboard sebenarnya dari node Anda: ia mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika Anda ingin mempelajari lebih lanjut tentang file ini dan membuat satu yang disesuaikan dengan kebutuhan Anda, saya sarankan menggunakan [generator Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 Kita telah sampai pada kesimpulan dari kursus BTC 202 ini, yang akan memungkinkan Anda tidak hanya untuk memahami dasar-dasar cara kerja node dan bagaimana mereka berinteraksi dalam sistem, tetapi juga untuk menyiapkan node Anda sendiri. Anda sekarang adalah seorang Bitcoiner yang berdaulat, dengan wallet self-custody Anda sendiri, menyiarkan transaksi Anda melalui node Anda sendiri. Selamat!
 
-Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini merupakan dashboard yang sebenarnya dari node Anda: mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika anda ingin mempelajari lebih lanjut tentang berkas ini dan membuat berkas yang sesuai dengan kebutuhan anda, saya sarankan untuk menggunakan [generator Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/).
+Kita sekarang telah selesai membuat daftar sebagian besar parameter konfigurasi. File `Bitcoin.conf` ini merupakan dashboard yang sebenarnya dari node Anda: mendefinisikan konfigurasi jaringan, manajemen Mempool, penggunaan disk dan memori, pengindeksan, dan administrasi umum. Jika anda ingin mempelajari lebih lanjut tentang berkas ini dan membuat berkas yang sesuai dengan kebutuhan anda, saya sarankan untuk menggunakan [generator Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/).
 
 
 

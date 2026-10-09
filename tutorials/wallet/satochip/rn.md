@@ -46,7 +46,7 @@ Iryo shirahamwe rya Satochip na ryo nyene ritanga ibindi bikoresho 2. Hariho Sat
 ## Ni gute umuntu yogura Satochip?
 
 
-Ico gikoresho citwa Satochip kiragurishwa [ku rubuga rwemewe](https://satochip.io/igicuruzwa/satochip/). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://satochip.io/abagurisha/) ku rubuga rwa Satochip.
+Ico gikoresho citwa Satochip kiragurishwa [ku rubuga rwemewe](https://satochip.io/igicuruzwa/satochip/). Kugira ngo uyigure mu iduka ry’umubiri, urashobora kandi kubona [urutonde rw’abagurisha bemerewe](https://satochip.io/resellers/) ku rubuga rwa Satochip.
 
 
 Kugira ngo ukoreshe porogarama yawe yo gucunga Wallet, Satochip itanga uburyo bubiri: biciye ku guhanahana amakuru biciye kuri NFC canke biciye ku gikoresho co gusoma ikarita y’ubwenge. Ku bijanye n’uburyo bwa NFC, urabe neza ko imashini yawe ihuye n’ubu buhinga canke uronke igisomyi ca NFC co hanze. Satochip ikora ku nzira isanzwe y’amajwi 13,56 MHz. Ahandi ho, urashobora no kugura igikoresho co gusoma amakarata y’ubwenge. Ushobora kuyironka ku rubuga rwa Satochip canke ahandi.

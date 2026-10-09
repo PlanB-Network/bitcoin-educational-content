@@ -33,7 +33,7 @@ description: درک و استفاده از Watchtower در نود لایتنین
 
 
 
-*این آموزش از [مستندات رسمی LND](https://github.com/lightningnetwork/LND/blob/master/docs/Watchtower.md) گرفته شده است. ممکن است برخی تغییرات در نسخه اصلی اعمال شده باشد.
+*این آموزش از [مستندات رسمی LND](https://github.com/lightningnetwork/lnd/blob/master/docs/watchtower.md) گرفته شده است. ممکن است برخی تغییرات در نسخه اصلی اعمال شده باشد.
 
 
 

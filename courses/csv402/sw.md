@@ -849,7 +849,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 wapi:
 
 
-- `mpc_tag` ni lebo: `urn:ubideco:mpc:Commitment#2024-01-31`, iliyochaguliwa kulingana na [kanuni za kuweka lebo za RGB](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments);
+- `mpc_tag` ni lebo: `urn:ubideco:mpc:Commitment#2024-01-31`, iliyochaguliwa kulingana na [kanuni za kuweka lebo za RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `kina` (byte 1) huonyesha kina cha *Mti wa MPC* ;
 - cofactor` (bytes 16, katika Endian Kidogo) ni kigezo kinachotumiwa kukuza upekee wa nafasi zilizopewa kila Contract kwenye mti;
 - `mpc::Root` ni mzizi wa *MPC Tree*, unaokokotolewa kulingana na mchakato ulioelezwa katika sehemu inayofuata.

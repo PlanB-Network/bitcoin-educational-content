@@ -53,7 +53,7 @@ objectives:
 
 
 
-- [нарастващия интерес на хората по света към използването на Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), за да се освободят от банковата система и/или да използват по-малко волатилна или по-малко обезценена валута, какъвто е случаят с населението в Ливан, Сирия, Египет, Аржентина и др;
+- [нарастващия интерес на хората по света към използването на Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin), за да се освободят от банковата система и/или да използват по-малко волатилна или по-малко обезценена валута, какъвто е случаят с населението в Ливан, Сирия, Египет, Аржентина и др;
 - поскъпването му с течение на времето, утвърждавайки го като средство за съхранение на стойност и дългосрочна инвестиция, което се дължи на фиксираната парична политика;
 - последователния растеж на пазара на спекулативни криптовалути, особено през 2017-2018 г. и 2020-2021 г.;
 - Нарастващото присъствие на Bitcoin в основните медии.
@@ -1996,7 +1996,7 @@ Twitter е много лесен за използване, а за да под�
 Няколко листовки вече са **достъпни като отворен код в [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** в planB.network и с течение на времето ще бъдат добавени още.
 
 
-Пример за това е [пълна листовка](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) с 21 причини да използвате Bitcoin. Нейният дизайн също е [достъпен в отворен код](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), за да можете да го променяте, адаптирате и споделяте. Само не забравяйте да посочите източниците си.
+Пример за това е [пълна листовка](https://profedustream.substack.com/p/21-raisons-dutiliser-bitcoin) с 21 причини да използвате Bitcoin. Нейният дизайн също е [достъпен в отворен код](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton), за да можете да го променяте, адаптирате и споделяте. Само не забравяйте да посочите източниците си.
 
 
 
@@ -2040,7 +2040,7 @@ Twitter е много лесен за използване, а за да под�
 - Бялата книга за Bitcoin, преведена на френски език.
 
 
-Ето [споделената сред френските биткойнъри](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) брошура, която е поставена в десетки книжарници в цялата страна. Нейният дизайн също е [достъпен като отворен код](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Ето [споделената сред френските биткойнъри](https://profedustream.substack.com/p/bitcoin-la-naissance-dune-nouvelle) брошура, която е поставена в десетки книжарници в цялата страна. Нейният дизайн също е [достъпен като отворен код](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 

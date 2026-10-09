@@ -322,7 +322,7 @@ O SCB só é necessário se tiveres canais LN abertos. No caso de ter apenas fun
 Se depois de um longo período de tempo ainda não estiver a mostrar os txs do histórico antigo, vá a Embedded node - Peers e desactive a opção de usar a lista de peers selecionados (por defeito é o btcd.lnolymp.us). Isto irá despoletar um reinício e ligar-se ao primeiro nó neutrino disponível com uma melhor resposta temporal. Ou use os outros peers de neutrino bem conhecidos mencionados abaixo.
 
 
-Se quiser ver mais opções de recuperação para um nó LND, [por favor leia o meu guia anterior](https://darth-coin.github.io/nodes/shtf-restore-LND-node-en.html), onde pode encontrar os passos para importar um seed congelado para o Sparrow Wallet ou outros métodos.
+Se quiser ver mais opções de recuperação para um nó LND, [por favor leia o meu guia anterior](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), onde pode encontrar os passos para importar um seed congelado para o Sparrow Wallet ou outros métodos.
 
 
 **C - Nó incorporado**

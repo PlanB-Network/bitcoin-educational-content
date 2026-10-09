@@ -178,7 +178,7 @@ Una volta inserite e verificate tutte le informazioni, clicca su "Create tutoria
 
 A questo punto, si può saltare la sezione "Without my Python script" e il passo 3, "Fill in the YAML file", poiché lo script ha già completato queste azioni per te. Passa direttamente al punto 4 e inizia a scrivere il tuo tutorial.
 
-Per ulteriori informazioni su questo script Python, puoi consultare il relativo file [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+Per ulteriori informazioni su questo script Python, puoi consultare il relativo file [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 ### Senza il mio script Python
 

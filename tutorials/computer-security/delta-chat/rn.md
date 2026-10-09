@@ -65,7 +65,7 @@ Kandi ivyo nivyo bituma iki gikoresho gishobora guhangana cane n’amategeko ate
 
 
 
-Uvuye ku rubuga rwemewe rwa [Delta Chat](https://delta.chat/gukuraho) ushobora kuja ku gice co gukuraho. Ku Linux iraboneka neza biciye kuri Flathub, ariko kandi hariho n’amapaki ya Arch, NixOS, Snap n’amaverisiyo yigenga.
+Uvuye ku rubuga rwemewe rwa [Delta Chat](https://delta.chat/download) ushobora kuja ku gice co gukuraho. Ku Linux iraboneka neza biciye kuri Flathub, ariko kandi hariho n’amapaki ya Arch, NixOS, Snap n’amaverisiyo yigenga.
 
 
 
@@ -79,7 +79,7 @@ Iraboneka kandi ku:
 
 
 - [F-Droid](imbuga ngurukanabumenyi)
-- [Iduka ry'imikino](https://imikino.google.com/iduka/amaporogarama/ibisobanuro?id=ikiganiro.delta)
+- [Iduka ry'imikino](https://play.google.com/store/apps/details?id=chat.delta)
 - iOS
 - [Idirisha](imbuga ngurukanabumenyi/ibisobanuro/9pjtxx7hn3pk)
 - [macOS](iporogaramu.iporogarama

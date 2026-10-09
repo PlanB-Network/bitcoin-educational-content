@@ -49,7 +49,7 @@ Baada ya kuipima, ninavutiwa na ubora wa bidhaa. Uzoefu wa mtumiaji ni bora, na 
 ## Jinsi ya kununua Ledger Flex?
 
 
-Ledger Flex inapatikana kwa kununuliwa [kwenye tovuti rasmi](https://shop.Ledger.com/pages/Ledger-flex). Ili kuinunua katika duka halisi, unaweza pia kupata [orodha ya wauzaji walioidhinishwa](https://www.Ledger.com/reseller) kwenye tovuti ya Ledger.
+Ledger Flex inapatikana kwa kununuliwa [kwenye tovuti rasmi](https://shop.ledger.com/pages/ledger-flex). Ili kuinunua katika duka halisi, unaweza pia kupata [orodha ya wauzaji walioidhinishwa](https://www.Ledger.com/reseller) kwenye tovuti ya Ledger.
 
 
 ## Masharti

@@ -551,7 +551,7 @@ https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e
 ![BTC204](assets/ko/031.webp)
 
 
-출처: S. Nakamoto, "Bitcoin: 피어 투 피어 전자 현금 시스템", https://Bitcoin.org/Bitcoin.pdf, 2009.
+출처: S. Nakamoto, "Bitcoin: 피어 투 피어 전자 현금 시스템", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 다음 장에서 자세히 살펴보겠지만, 이 두 가지 휴리스틱이 오늘날에도 여전히 체인 분석에서 우위를 점하고 있다는 사실은 이미 흥미롭습니다.
@@ -948,7 +948,7 @@ Address의 재사용에 대한 해석은 해당 Address에서 차단된 모든 U
 ![BTC204](assets/ko/055.webp)
 
 
-출처: S. Nakamoto, "Bitcoin: 피어투피어 전자 현금 시스템", https://Bitcoin.org/Bitcoin.pdf, 2009.
+출처: S. Nakamoto, "Bitcoin: 피어투피어 전자 현금 시스템", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 예를 들어 다음은 여러 트랜잭션에서 재사용되는 Address입니다:
@@ -1617,7 +1617,7 @@ Blockchain는 공개되어 있으므로 어떤 주소가 어떤 UTXO을 잠그�
 ![BTC204](assets/ko/070.webp)
 
 
-출처: S. Nakamoto, "Bitcoin: 피어투피어 전자 현금 시스템", https://Bitcoin.org/Bitcoin.pdf, 2009.
+출처: S. Nakamoto, "Bitcoin: 피어투피어 전자 현금 시스템", https://bitcoin.org/bitcoin.pdf, 2009.
 
 
 이 문장에서 Satoshi의 의도는 사용자의 신원과 Bitcoin의 키 쌍이 연결될 경우 추가적인 방화벽을 만들어 사용자의 전체 활동이 공개적으로 신원과 연결되는 것을 방지하는 것이었습니다. 오늘날 Blockchain 분석 회사와 KYC 규정이 확산되면서 고유 주소 사용은 더 이상 '추가 방화벽'이 아니라 최소한의 개인정보 보호를 유지하고자 하는 모든 사람에게 필수 불가결한 관행이 되었습니다.
@@ -3634,7 +3634,7 @@ CoinJoin은 현재 체인 분석에서 UTXO 추적에 불확실성을 도입하�
 PayJoin은 결제 수취인과 협업하여 지출 시 사용자 개인정보 보호를 강화하는 특정 Bitcoin 거래 구조입니다.
 
 
-여기](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)에 있는 문서에 따르면 LaurentMT가 "*스테가노그래피 트랜잭션*"이라는 이름으로 이 방법을 처음 논의한 것은 2015년이었습니다. 이 기술은 이후 사무라이 Wallet에 채택되었고, 2018년에는 스토와이어웨이 도구를 사용하여 이 기술을 구현한 최초의 고객이 되었습니다. PayJoin의 개념은 [BIP79](https://github.com/Bitcoin/BIPs/blob/master/BIP-0079.mediawiki), [BIP78](https://github.com/Bitcoin/BIPs/blob/master/BIP-0078.mediawiki), [BIP77](https://PayJoin.org/docs/how-it-works/PayJoin-v2-BIP-77/)에서도 찾아볼 수 있습니다. 따라서 PayJoin를 지칭하기 위해 여러 용어가 사용됩니다:
+여기](https://gist.githubusercontent.com/LaurentMT/e758767ca4038ac40aaf/raw/c8125f6a3c3d0e90246dc96d3b603690ab6f1dcc/gistfile1.txt)에 있는 문서에 따르면 LaurentMT가 "*스테가노그래피 트랜잭션*"이라는 이름으로 이 방법을 처음 논의한 것은 2015년이었습니다. 이 기술은 이후 사무라이 Wallet에 채택되었고, 2018년에는 스토와이어웨이 도구를 사용하여 이 기술을 구현한 최초의 고객이 되었습니다. PayJoin의 개념은 [BIP79](https://github.com/bitcoin/bips/blob/master/bip-0079.mediawiki), [BIP78](https://github.com/bitcoin/bips/blob/master/bip-0078.mediawiki), [BIP77](https://payjoin.org/docs/how-it-works/payjoin-v2-bip-77/)에서도 찾아볼 수 있습니다. 따라서 PayJoin를 지칭하기 위해 여러 용어가 사용됩니다:
 
 
 
@@ -5540,7 +5540,7 @@ BIP47은 On-Chain의 비효율성으로 인해 많은 비판을 받아왔습니�
 그러나 특정 상황에서는 알림 트랜잭션이 사용자에게 장애물이 될 수 있습니다. 수신자에게 일회성 기부를 하는 경우를 예로 들어보겠습니다. 기존 Bitcoin Address에서는 한 번의 트랜잭션으로 기부를 완료할 수 있습니다. 하지만 BIP47을 사용하면 알림을 위한 트랜잭션과 실제 결제를 위한 트랜잭션, 두 개의 트랜잭션이 필요합니다. 블록 공간에 대한 수요가 적고 거래 수수료도 낮을 때는 일반적으로 이 추가 단계는 문제가 되지 않습니다. 그러나 혼잡한 시기에는 한 번의 결제에 거래 수수료가 엄청나게 높아져 표준 Bitcoin 거래에 비해 사용자가 부담하는 비용이 두 배가 될 수 있으며, 이는 사용자가 받아들이기 어려울 수 있습니다.
 
 
-사용자가 정적 식별자에 대해 몇 번만 결제하려는 경우 다른 솔루션이 개발되었습니다. 여기에는 [BIP352](https://github.com/Bitcoin/BIPs/blob/master/BIP-0352.mediawiki)에 설명된 자동 결제가 포함됩니다. 이 프로토콜을 사용하면 Address를 재사용하지 않고 알림 트랜잭션 없이도 정적 식별자를 사용하여 결제를 받을 수 있습니다. 이 프로토콜이 어떻게 작동하는지 살펴보겠습니다.
+사용자가 정적 식별자에 대해 몇 번만 결제하려는 경우 다른 솔루션이 개발되었습니다. 여기에는 [BIP352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)에 설명된 자동 결제가 포함됩니다. 이 프로토콜을 사용하면 Address를 재사용하지 않고 알림 트랜잭션 없이도 정적 식별자를 사용하여 결제를 받을 수 있습니다. 이 프로토콜이 어떻게 작동하는지 살펴보겠습니다.
 
 
 ---
@@ -5636,7 +5636,7 @@ $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 이 방정식에서 Alice은 자신의 개인 키인 $a$와 Bob의 공개 키인 $B$의 스칼라 곱을 간단히 계산했습니다. 그녀는 이 결과를 모든 사람에게 알려진 Hash 함수에 전달했습니다. 그런 다음 결과 값에 타원 곡선 `secp256k1`의 생성점 $G$를 스칼라 곱합니다. 마지막으로 Alice은 결과값을 Bob의 공개 키 $B$에 더합니다. Alice이 이 Address $P$를 갖게 되면 트랜잭션의 출력으로 사용하며, 즉 비트코인을 전송합니다.
 
 
-> *자동 결제의 맥락에서 "Hash" 함수는 특별히 `BIP0352/SharedSecret` 태그가 붙은 SHA256 Hash 함수에 해당하며, 생성된 해시가 이 프로토콜에만 고유하고 다른 맥락에서 재사용할 수 없도록 보장하는 동시에 서명에서 논스의 재사용을 방지하는 추가적인 보호 기능을 제공합니다.* 이 표준은 [슈노르 서명을 위한 BIP340에 지정된](https://github.com/Bitcoin/BIPs/blob/master/BIP-0340.mediawiki) `secp256k1`에 해당합니다
+> *자동 결제의 맥락에서 "Hash" 함수는 특별히 `BIP0352/SharedSecret` 태그가 붙은 SHA256 Hash 함수에 해당하며, 생성된 해시가 이 프로토콜에만 고유하고 다른 맥락에서 재사용할 수 없도록 보장하는 동시에 서명에서 논스의 재사용을 방지하는 추가적인 보호 기능을 제공합니다.* 이 표준은 [슈노르 서명을 위한 BIP340에 지정된](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki) `secp256k1`에 해당합니다
 ECDH의 기반이 되는 타원 곡선의 특성 덕분에 우리는 이를 알고 있습니다:
 
 
@@ -6093,7 +6093,7 @@ BIP47과 마찬가지로, 정적 Address $B$와 $B$에서 파생된 결제 Addre
 이 기능은 새로운 기능이므로 주의하여 Mainnet에서 많은 금액의 자동 결제를 사용하지 않는 것이 좋습니다.
 
 
-*자동 결제에 대한 이 장을 작성하기 위해 [자동 결제 설명 사이트](https://silentpayments.xyz/)와 [BIP352 설명 문서](https://github.com/Bitcoin/BIPs/blob/master/BIP-0352.mediawiki)*를 사용했습니다
+*자동 결제에 대한 이 장을 작성하기 위해 [자동 결제 설명 사이트](https://silentpayments.xyz/)와 [BIP352 설명 문서](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)*를 사용했습니다
 
 
 # 최종 섹션

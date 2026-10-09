@@ -110,7 +110,7 @@ Intambwe ikurikira ni ugusuzuma igikoresho cawe. Ivyo biremeza ko Passport yawe 
 ![Image](assets/fr/08.webp)
 
 
-Genda kuri [urubuga rwemewe rwo kugenzura](https://kwemeza.ibikoresho vy'ishimikiro.com/) hanyuma uhitemwo "*Pasiporo*".
+Genda kuri [urubuga rwemewe rwo kugenzura](https://validate.foundationdevices.com/) hanyuma uhitemwo "*Pasiporo*".
 
 
 ![Image](assets/fr/09.webp)
@@ -194,7 +194,7 @@ Passport yawe iriteguye kwakira iyo firmware nshasha biciye ku ikarita ya MicroS
 ![Image](assets/fr/20.webp)
 
 
-Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport (canke iyindi), hanyuma uyishire muri mudasobwa yawe. Gukuraho verisiyo nshasha ya porogaramu y’ubuhinga bwa none kuri [urubuga rw’inyandiko z’ishirahamwe](https://docs.foundation.xyz/porogaramu y’ubuhinga bwa none/pasiporo/) canke [ububiko bwabo bwa GitHub](https://github.com/Ibikoresho-vy’ishirahamwe/pasiporo2/ibisohoka).
+Kugira ngo ubikore, nukoreshe ikarata MicroSD iri mu gasandugu kawe ka Passport (canke iyindi), hanyuma uyishire muri mudasobwa yawe. Gukuraho verisiyo nshasha ya porogaramu y’ubuhinga bwa none kuri [urubuga rw’inyandiko z’ishirahamwe](https://docs.foundation.xyz/firmware-updates/passport/) canke [ububiko bwabo bwa GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 
 ![Image](assets/fr/21.webp)

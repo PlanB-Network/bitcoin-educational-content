@@ -253,7 +253,7 @@ https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9b
 Сега можете да пропуснете подраздела "Без моя Python скрипт", както и стъпка 3, "Попълнете файла YAML", тъй като скриптът вече е изпълнил тези действия вместо вас. Преминете директно към стъпка 4 и започнете да пишете своя урок.
 
 
-За повече информация относно този скрипт на Python можете да разгледате и [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+За повече информация относно този скрипт на Python можете да разгледате и [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/data-creator/README.md).
 
 
 ### Без моя скрипт на Python

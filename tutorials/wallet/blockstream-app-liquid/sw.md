@@ -35,7 +35,7 @@ description: Jinsi ya kusanidi Programu ya Blockstream na kutumia Liquid Network
 
 
 
-**Liquid** ni **Sidechain** ya Bitcoin, iliyotengenezwa na **[Blockstream](https://blockstream.com/Liquid/)**, iliyoundwa ili kutoa utendakazi wa haraka, zaidi wa Confidential Transactions na utendakazi wa hali ya juu, huku ikisalia kushikamana na Blockchain Bitcoin kuu.
+**Liquid** ni **Sidechain** ya Bitcoin, iliyotengenezwa na **[Blockstream](https://blockstream.com/liquid/)**, iliyoundwa ili kutoa utendakazi wa haraka, zaidi wa Confidential Transactions na utendakazi wa hali ya juu, huku ikisalia kushikamana na Blockchain Bitcoin kuu.
 
 
 

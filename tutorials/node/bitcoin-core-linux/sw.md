@@ -217,7 +217,7 @@ Ili kutazama kumbukumbu za nodi yako ya Bitcoin inayohusiana haswa na mwingilian
 
 
 - [Ukurasa wa Wiki unaoeleza Tor na uhusiano wake na Bitcoin](https://en.Bitcoin.it/wiki/Tor)
-- [Jenereta ya faili ya usanidi ya Bitcoin core na Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
+- [Jenereta ya faili ya usanidi ya Bitcoin core na Jameson Lopp](https://jlopp.github.io/bitcoin-core-config-generator/)
 - [Mwongozo wa usanidi wa Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 

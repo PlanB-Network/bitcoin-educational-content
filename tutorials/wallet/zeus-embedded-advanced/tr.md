@@ -322,7 +322,7 @@ SCB yalnızca açık LN kanallarınız varsa gereklidir. Sadece zincir içi fonl
 Uzun bir süre sonra hala eski geçmiş tx'leri göstermediğini görürseniz, Embedded node - Peers'e gidin ve seçilen eşlerin listesini kullanma seçeneğini devre dışı bırakın (varsayılan olarak btcd.lnolymp.us). Bu yeniden başlatmayı tetikleyecek ve daha iyi bir zaman tepkisi ile mevcut ilk nötrino düğümüne bağlanacaktır. Ya da aşağıda belirtilen diğer iyi bilinen neutrino eşlerini kullanın.
 
 
-Bir LND düğümü için daha fazla kurtarma seçeneği görmek istiyorsanız, [lütfen önceki kılavuzumu okuyun](https://darth-Coin.github.io/nodes/shtf-restore-LND-node-en.html), burada aezeed bir seed'u Sparrow wallet'ye veya diğer yöntemlere nasıl aktaracağınızı bulabilirsiniz.
+Bir LND düğümü için daha fazla kurtarma seçeneği görmek istiyorsanız, [lütfen önceki kılavuzumu okuyun](https://darth-coin.github.io/nodes/shtf-restore-lnd-node-en.html), burada aezeed bir seed'u Sparrow wallet'ye veya diğer yöntemlere nasıl aktaracağınızı bulabilirsiniz.
 
 
 **C - Gömülü Düğüm**

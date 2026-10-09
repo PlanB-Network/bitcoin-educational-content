@@ -35,7 +35,7 @@ description: 如何設定 Blockstream App 和使用 Liquid Network
 
 
 
-**Liquid** 是 Bitcoin 的 **Sidechain**，由 **[Blockstream](https://blockstream.com/Liquid/)**開發，旨在提供更快、更多 Confidential Transactions 和進階功能，同時仍與主 Blockchain Bitcoin 相連。
+**Liquid** 是 Bitcoin 的 **Sidechain**，由 **[Blockstream](https://blockstream.com/liquid/)**開發，旨在提供更快、更多 Confidential Transactions 和進階功能，同時仍與主 Blockchain Bitcoin 相連。
 
 
 

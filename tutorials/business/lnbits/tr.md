@@ -69,7 +69,7 @@ LNbits'i kurmadan önce, LNbits'in ne olduğu ve sizin için hangi olasılıklar
 
 
 - [LND Kılavuzu](https://docs.lightning.engineering/) | LND'in Kurulması
-- [LND Yapılandırma Örneği](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Ayarları
+- [LND Yapılandırma Örneği](https://github.com/lightningnetwork/lnd/blob/master/sample-lnd.conf) | LND Ayarları
 - [CLN Kılavuzu](https://docs.corelightning.org/docs/installation) | CLN'nin Kurulması
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Watchtower çalıştır](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Çok önemli!
@@ -81,7 +81,7 @@ Belirli kullanım senaryolarında LNbits kullanan daha ayrıntılı kılavuzlar 
 
 - [LNbits ile Başlarken](https://darthcoin.substack.com/p/getting-started-lnbits) | Alt yığın kılavuzu
 - [LNbits ile güvenliğiniz için ToDos](https://youtu.be/i5FQf96e6zg) | Youtube Video
-- [Lightning Network'daki Özel Bankalar](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Alt Yığın Kılavuzu
+- [Lightning Network'daki Özel Bankalar](https://darthcoin.substack.com/p/bitcoin-private-banks-over-lightning) | Alt Yığın Kılavuzu
 - [Arkadaşlarınız ve aileniz için saklama cüzdanları çalıştırın](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Alt yığın kılavuzu
 - [Küçük bir restoran / otel için LNbits](https://darthcoin.substack.com/p/lnbits-for-small-merchants) | Alt yığın kılavuzu
 - [LNbits Streamer yardımcı pilotunu kullanma](https://darthcoin.substack.com/p/lnbits-streamer-copilot) | Alt yığın kılavuzu

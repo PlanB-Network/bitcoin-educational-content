@@ -474,7 +474,7 @@ Miner Durum sekmesinde, ASIC'nin canlı çalışmasıyla ilgili çeşitli bilgil
 Şimdi, ASIC'ler için Braiins OS+ (https://braiins.com/os/plus) yazılımını inceleyeceğiz. Yazılım, Mining pool Braiins Pool'un (https://braiins.com/pool) ana şirketi olan [Braiins](https://braiins.com/) şirketi tarafından geliştirilmiştir. Bu Mining pool, bu satırların yazıldığı sırada küresel Hashrate'ün %4,39'una sahiptir. Prag merkezli şirket daha önce Slushpool olarak biliniyordu ve Kasım 2010'da başlayan ilk Mining pool'tür. [Burada](https://Mempool.space/Mining/pool/braiinspool) güncellenmiş Hashrate ve havuz hakimiyeti istatistiklerini bulacaksınız.
 
 
-Bugün şirket, çeşitli faaliyetleriyle Mining için karlılık çalışma araçları (https://insights.braiins.com/en), havuz faaliyetine paralel olarak Mining çiftlik yönetimi çözümleri ve ASIC'ler için optimizasyon yazılımı sunmaktadır. Ayrıca yeni Stratum V2 protokolünü kullanan Mining'i de sunmaktadır (https://braiins.com/Bitcoin-Mining-stack-upgrade).
+Bugün şirket, çeşitli faaliyetleriyle Mining için karlılık çalışma araçları (https://insights.braiins.com/en), havuz faaliyetine paralel olarak Mining çiftlik yönetimi çözümleri ve ASIC'ler için optimizasyon yazılımı sunmaktadır. Ayrıca yeni Stratum V2 protokolünü kullanan Mining'i de sunmaktadır (https://braiins.com/bitcoin-mining-stack-upgrade).
 
 
 Bu nedenle, şu anda tek uyumlu model olan Bitmain cihazlarının çalışmasını daha ayrıntılı olarak inceleyeceğiz:

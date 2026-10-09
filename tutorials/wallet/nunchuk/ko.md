@@ -375,7 +375,7 @@ Wallet의 구성에서 이 Wallet의 자금을 어떤 키로 잠금 해제할지
 
 
 
-Wallet가 생성되었으며 [.BSMS](https://github.com/Bitcoin/BIPs/blob/master/BIP-0129.mediawiki) 파일을 백업으로 다운로드할 수 있습니다. 메인 메뉴로 돌아가려면 왼쪽 상단 모서리에 있는 화살표를 클릭합니다.
+Wallet가 생성되었으며 [.BSMS](https://github.com/bitcoin/bips/blob/master/bip-0129.mediawiki) 파일을 백업으로 다운로드할 수 있습니다. 메인 메뉴로 돌아가려면 왼쪽 상단 모서리에 있는 화살표를 클릭합니다.
 
 
 
